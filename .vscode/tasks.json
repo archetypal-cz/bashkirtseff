@@ -1,0 +1,63 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compile Game",
+			"type": "shell",
+			"command": "${workspaceFolder}/bin/tweego-2.1.1-${command:cline.getPlatform}/tweego${command:cline.getExeExt}",
+			"args": [
+				"-o",
+				"${workspaceFolder}/pub/game.html",
+				"-f",
+				"sugarcube-2",
+				"${workspaceFolder}/src"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Watch and Compile",
+			"type": "shell",
+			"command": "${workspaceFolder}/bin/tweego-2.1.1-${command:cline.getPlatform}/tweego${command:cline.getExeExt}",
+			"args": [
+				"-o",
+				"${workspaceFolder}/pub/game.html",
+				"-f",
+				"sugarcube-2",
+				"-w",
+				"${workspaceFolder}/src"
+			],
+			"isBackground": true,
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Test Compilation",
+			"type": "shell",
+			"command": "${workspaceFolder}/bin/tweego-2.1.1-${command:cline.getPlatform}/tweego${command:cline.getExeExt}",
+			"args": [
+				"-t",
+				"-o",
+				"${workspaceFolder}/pub/game.html",
+				"-f",
+				"sugarcube-2",
+				"${workspaceFolder}/src"
+			],
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"problemMatcher": []
+		}
+	]
+}

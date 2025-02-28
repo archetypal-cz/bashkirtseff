@@ -1,0 +1,1 @@
+There's nothing here, something should be written up here about this project being both a translation of something as well as all the scaffolding necessary to make this translation and related activities happen preferably by themselves.

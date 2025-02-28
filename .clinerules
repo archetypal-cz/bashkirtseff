@@ -1,0 +1,45 @@
+# Coslate
+### Coslate means collaborative translate - humans and AIs together.
+
+This project is a template for a translation - both long and short, weak and strong.
+
+## Developing Coslate
+We have ./memlog, where we save in datetime stamped files overall information about what work was successfully done (finished, tested, documentation updated is the definition of done for the template part of the project).
+
+Plans on what should be done go into ./memlog/*-plan.md files and we keep it precise and current by marking sections as completed and cleaning up things once some larger unit of work is done. 
+
+We have a main ./Plan.md, which we maintain at the end of every successful session to link sub-plan.md files in ./memlog and mark what has been done. 
+
+
+Our aim is to have the user clone this template repo, open it with an AI agent (currently VSCode with Cline and Claude Sonnet 3.5 or 3.7) and have it collaborate and question the user in order to learn all necessary information, and then update the README.md and .clinerules to reflect what is had learned (and verified, the current user might not know about last changes or real intentions of some parts).
+We can also modify the ./prompts for the AI agent and help the user in the beginning with the setting up and figuring out what the resulting product should be, what the presentation should look like, by suggesting prompt improvements. Whatever the final product should be (markdown files merged into one and turned into HTML probably), you should suggest updating or creating mechanisms for automatic compilation and publication with VSCode tasks, GitHub Actions and possibly other pipelines.
+
+But before we get there, we need to set up the template itself, since this project here - starting with these .clinerules, README.md that will hold the gist of it, ./docs/ folder, where we will store reference literature, translation memory and other useful things for both the template development and the translation itself.
+
+Part of this template project should be ./prompts, because the AI agents working on this projects will need to be able to take on several separate roles - exquisite literary translator, who is able to take the spirit of the original and infuse the translation with its own version of the spirit, empathetic and attentive redactor, who sees where the tired eye left too forced a translation and where things could be improved, godlike proofreader who knows all the grammar (helps to have all the rules for your language in ./docs/grammar)... 
+
+And we should also make is self-contained as much as possible, so we'll have some Python 3.12 managed via Poetry with packages installed into the project folder, all in ./scripts and possibly ./bin for other tools.
+
+We should have VSCode tasks, that will run scripts to compile whatever is in ./src (suggestion is to have 10_Chapter_001_Home.md, 20_Chapter_002_Journey.md etc.) into a single file in ./pub, then maybe convert it to HTML using some ./templates, have a way to save it as EPUB.
+
+One of the first things should be to rewrite these clinerules so that they reflect what we learned about the translation from the user, and everything is ordered in a way that presents the overall picture with links to folders and files to make it easier to explore there.
+
+Don't hesitate to list files in folders and search for strings, the filenames should be explanatory, and include anything that looks like it could be pertinent.
+
+In the beginning of translation work, the feeling of the original and the desired style of the translator whould ne defined in ./prompts/Style.md 
+
+When translating, we see to filenames (*.done.md is already finished, *.proof.md is in need of proofreading, *.red.md would be for redaction) where to start.
+
+# .MD File Format
+In the beginning, there is only the original, lets say just 01.md, 02.md and 03.md. 
+
+We take 01.md, read all the context we could use from ./docs etc. And we start working paragraph by paragraph, section by section - first we put the original part as a comment, insert a line after with another comment, marking the id of the paragraph - depends on project and should be decided by the user during the install process with AI in the beginning. In our case, it's 01.01 - first document, first paragraph.
+Then come other optional comments - for more complex paragraphs, we might need a longer deliberation of what options the translation has, and then deciding according to the ./prompts/Style.md - all in the comments under paragraph id.
+And then comes the polished translation, with footnotes where we include something, which might not be obvious to the reader (during install, we should ask about the target readers anyway, and mark down what we find here in clinerules in section dedicated strictly to this translation). 
+And after that, we have another paragraph in original, so anytime we stop, we can see which is the last paragraph to have a translation, and the resulting artifacts can be compiled anytime and both the translated part and the unfinished part will be readable.
+ 
+Media files go in ./src/media
+
+
+## AI roles
+TODO
