@@ -1,5 +1,7 @@
 {
 	"files.exclude": {
-		"**/*:Zone.Identifier": true
+		"**/*:Zone.Identifier": true,
+		"**/*:Zone - kopie.Identifier": true,
+		"*Zone.Identifier": true
 	}
 }

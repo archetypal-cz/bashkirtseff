@@ -4,7 +4,7 @@
 This project is a template for a translation - both long and short, weak and strong.
 
 ## AI Installation and Customization
-When a user clones this template repository and opens it with an AI agent (currently VSCode with Cline and Claude Sonnet 3.5 or 3.7), the AI should guide the user through the following installation and customization process:
+When a user clones this template repository and opens it with an AI agent (currently VSCode with Roo Code and Claude Sonnet 3.5 or 3.7), the AI should guide the user through the following installation and customization process:
 
 1. **Initial Project Understanding**:
    - Ask the user about the source material to be translated (type, length, language, complexity).
@@ -62,15 +62,53 @@ Don't hesitate to list files in folders and search for strings, the filenames sh
 
 When translating, we see to filenames (*.done.md is already finished, *.proof.md is in need of proofreading, *.red.md would be for redaction) where to start.
 
+when there's some term we might need to note the translation of, to create a translation memory in ./docs/Memory.md which we too can load at the beginning of working on translation and redaction.
+
 # .MD File Format
 In the beginning, there is only the original, lets say just 01.md, 02.md and 03.md. 
 
-We take 01.md, read all the context we could use from ./docs etc. And we start working paragraph by paragraph, section by section - first we put the original part as a comment, insert a line after with another comment, marking the id of the paragraph - depends on project and should be decided by the user during the install process with AI in the beginning. In our case, it's 01.01 - first document, first paragraph.
+We take 01.md, read all the context we could use from ./docs etc. And we start working paragraph by paragraph, section by section - first we put the original part as a Markdown comment (example on following line):
+[//]: # ( comment text )
+And then after the original paragraph we insert a line after with another comment, marking the id of the paragraph - depends on project and should be decided by the user during the install process with AI in the beginning. In our case, it's 01.01 - first document, first paragraph. When we meet an empty paragraph, we just add an empty line, when there are three, we add a hr element using dashes.
 Then come other optional comments - for more complex paragraphs, we might need a longer deliberation of what options the translation has, and then deciding according to the ./prompts/Style.md - all in the comments under paragraph id.
 And then comes the polished translation, with footnotes where we include something, which might not be obvious to the reader. 
 And after that, we have another paragraph in original, so anytime we stop, we can see which is the last paragraph to have a translation, and the resulting artifacts can be compiled anytime and both the translated part and the unfinished part will be readable.
+
+Ignore paragraph numbering inconsistencies
  
 Media files go in ./src/media
 
 ## AI roles
-TODO
+
+### Translator
+The Translator role is responsible for the primary translation work. This role:
+- Translates content according to the style specified in prompts/Style.md
+- Works with the source material described in prompts/Work.md
+- Follows the project's markdown comment notation system
+- Understands nuances across languages and cultures
+- Preserves the original meaning while adapting to the target language
+- Adds timestamped translator comments: [//]: # ( YYYY-MM-DDThh:mm:ss TR: comment )
+- Responds to redaction comments made by editors
+- Updates translations when necessary based on comments and new information or insights
+- Can participate in comment discussions when having important points
+- Can add translator Markdown footnotes if necessary based on project style, targeting and content
+
+The Translator works paragraph by paragraph, section by section, following this process:
+1. The original text is placed in a Markdown comment: [//]: # ( original text )
+2. A paragraph ID comment is added after the original (e.g., [//]: # ( 01.01 ) for first document, first paragraph)
+3. Additional comments may be added for complex translations
+4. The polished translation is provided with footnotes as needed
+
+### Editor
+The Editor role reviews, edits, and proofreads translations. This role:
+- Reviews translations for accuracy, fluency, and cultural appropriateness
+- Directly corrects obvious mistakes in translations
+- Adds timestamped editor comments: [//]: # ( YYYY-MM-DDThh:mm:ss RED: comment )
+- Performs proofreading for grammar, spelling, and formatting
+- Can respond to translator (TR) or even other editor (RED) comments
+- Communicates suggestions and points out problems in translation and its context
+- Can add editor Markdown footnotes for the reader if necessary based on project style, targeting and content
+- Particularly valuable when editing a project where the translator is no longer available and cannot make updates
+
+### Redactor
+The "coding" that you're supposed to do is the work of a good redactor - you can see the original and you are to judge whether the translator did a good job, or if there is room for improvement in how natural and how well the sentences sound in target language, if they could communicate their meaning better without losing the meanings they carry in the original. You can leave comments for the translator, in the comments after the paragraph ID (prefix them with "ISOdatetime RED:" ) with ideas and notes.
