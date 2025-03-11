@@ -33,8 +33,11 @@ If several languages are to be supported, we use short or long ISO language code
 Translations follow a specific format:
 1. Original text in Markdown comment: `[//]: # ( original text )`
 2. Paragraph ID comment: `[//]: # ( 01.01 )` (first document, first paragraph)
-3. Optional translation notes/deliberations in comments
-4. The polished translation with footnotes as needed
+3. Optional translation notes/deliberations in Markdown comments
+4. The polished translation with Markdown footnotes[^1] by author, translator and editor as needed 
+   [^1]: This is footnote body.
+5. Hashtags (in french) for crossreferencing topics mentioned in paragraphs as `[//]: # ( #Emile_Zole #Rome_Colosseum )` on a separate line before the paragraph translation, mentioned in src/HASHTAGS.md with the date of the diary entry mentioning them
+6. 
 
 ## Custom Roo Code Modes
 
