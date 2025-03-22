@@ -1,0 +1,26 @@
+[//]: # ( PRÉFACE )
+[//]: # ( 01.01 )
+
+PŘEDMLUVA
+
+[//]: # ( 1884 . Mai )
+[//]: # ( 01.02 )
+
+1884 . Květen
+
+[//]: # ( A quoi bon mentir et poser ? Oui, il est évident que j'ai le désir sinon l'espoir de rester sur cette terre, par quelque moyen que ce soit. Si je ne meurs pas jeune, j'espère rester comme une grande artiste, mais si je meurs jeune je veux laisser publier mon journal qui ne peut pas être autre chose qu'intéressant. Mais puisque je parle de publicité cette idée qu'on me lira a peut-être gâté c'est-à-dire anéanti le seul mérite d'un tel livre; eh bien non. D'abord j'ai écrit très long­temps sans songer à être lue et ensuite c'est justement parce que j'espère être lue que je suis absolument sincère. Si ce li­vre n'est pas l'exacte, l'absolue, la stricte vérité il n'a pas raison d'être. Non seulement je dis tout le temps ce que je pense, mais je n'ai jamais songé un seul instant à dissimuler ce qui pourrait me paraître ridicule ou désavantageux pour moi. Du reste , je me crois trop admirable pour me censurer. Vous pouvez donc être certains, charitables lecteurs, que je m'étale dans ces pages tout entière. Moi comme intérêt, c'est peut-être mince pour vous, mais ne pensez pas que c'est moi, pensez que c'est un être humain qui vous raconte toutes ses impressions depuis l'enfance. C'est très intéressant comme document hu­main. Demandez à M. Zola, et même à M. de Goncourt et même à Maupassant. )
+[//]: # ( 01.03 )
+[//]: # ( 2025-03-11T13:17:00 TR: V této části autorka zmiňuje významné francouzské spisovatele své doby - Émila Zolu, Edmonda de Goncourta a Guy de Maupassanta - jako autority v oblasti realistické literatury a "lidských dokumentů". )
+
+K čemu lhát a přetvařovat se? Ano, je zřejmé, že mám přání, ne-li naději, zůstat na této zemi jakýmkoli způsobem. Pokud nezemřu mladá, doufám, že zůstanu jako velká umělkyně, ale pokud zemřu mladá, chci nechat publikovat svůj deník, který nemůže být ničím jiným než zajímavým. Ale když už mluvím o publicitě, tato myšlenka, že mě budou číst, možná zkazila, tedy zničila jedinou přednost takové knihy; ale ne. Nejprve jsem psala velmi dlouho, aniž bych pomyslela na to, že budu čtena, a potom právě proto, že doufám, že budu čtena, jsem naprosto upřímná. Pokud tato kniha není přesnou, absolutní, striktní pravdou, nemá důvod existovat. Nejenže říkám po celou dobu to, co si myslím, ale nikdy jsem ani na okamžik nepomyslela na to, že bych skrývala, co by se mi mohlo zdát směšné nebo nevýhodné. Ostatně, považuji se za příliš obdivuhodnou, než abych se cenzurovala. Můžete si být tedy jisti, laskaví čtenáři, že se v těchto stránkách odhaluji celá. Já jako předmět zájmu, to je pro vás možná málo, ale nemyslete na to, že jsem to já, myslete na to, že je to lidská bytost, která vám vypráví všechny své dojmy od dětství. Je to velmi zajímavé jako lidský dokument. Zeptejte se pana Zoly, a dokonce i pana de Goncourta a dokonce i Maupassanta.
+
+[//]: # ( Mon journal commence à douze ans, il ne signifie quelque chose qu'à quinze ou seize ans. Donc il y a une lacune à remplir et je vais faire une espèce de préface qui permettra de com­prendre ce monument littéraire et humain. Là, supposez que je suis illustre. Nous commençons. )
+[//]: # ( 01.04 )
+
+Můj deník začíná ve dvanácti letech, ale něco znamená až v patnácti nebo šestnácti. Takže je tu mezera, kterou je třeba vyplnit, a já udělám jakýsi druh předmluvy, která umožní pochopit tento literární a lidský monument. Tak, představte si, že jsem slavná. Začínáme.
+
+[//]: # ( Je suis née le 11 novembre 18591- C'est épouvantable rien que de l'écrire. Mais je me console en pensant que je n'aurai certainement plus d'âge lorsque vous me lirez. )
+[//]: # ( 01.05 )
+
+Narodila jsem se 11. listopadu 1859[1]. Je to hrozné, jen to napsat. Ale utěšuji se myšlenkou, že určitě už nebudu mít žádný věk, až mě budete číst.
+
