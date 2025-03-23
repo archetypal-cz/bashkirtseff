@@ -74,7 +74,20 @@ Then come other optional comments - for more complex paragraphs, we might need a
 And then comes the polished translation, with footnotes where we include something, which might not be obvious to the reader. 
 And after that, we have another paragraph in original, so anytime we stop, we can see which is the last paragraph to have a translation, and the resulting artifacts can be compiled anytime and both the translated part and the unfinished part will be readable.
 
-Ignore paragraph numbering inconsistencies
+Ignore paragraph numbering inconsistencies.
+
+## Footnotes
+Here's a simple footnote[^{part_id.paragraph_id.note_id}].
+
+We name footnotes with the id of the part and paragraph and note, not just incrementally numbered 
+
+[^{part_id.paragraph_id.note_id}]: Here's one with multiple paragraphs and code.
+
+    Indent paragraphs to include them in the footnote.
+
+    `{ my code }`
+
+    Add as many paragraphs as you like.
  
 Media files go in ./src/media
 
