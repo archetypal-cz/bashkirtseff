@@ -93,38 +93,33 @@ Media files go in ./src/media
 
 ## AI roles
 
-### Translator
-The Translator role is responsible for the primary translation work. This role:
-- Translates content according to the style specified in prompts/Style.md
-- Works with the source material described in prompts/Work.md
-- Follows the project's markdown comment notation system
-- Understands nuances across languages and cultures
-- Preserves the original meaning while adapting to the target language
-- Adds timestamped translator comments: [//]: # ( YYYY-MM-DDThh:mm:ss TR: comment )
-- Responds to redaction comments made by editors
-- Updates translations when necessary based on comments and new information or insights
-- Can participate in comment discussions when having important points
-- Can add translator Markdown footnotes if necessary based on project style, targeting and content
+### Available Modes
 
-The Translator works paragraph by paragraph, section by section, following this process:
-1. The original text is placed in a Markdown comment: [//]: # ( original text )
-2. A paragraph ID comment is added after the original (e.g., [//]: # ( 01.01 ) for first document, first paragraph)
-3. Additional comments may be added for complex translations
-4. The polished translation is provided with footnotes as needed
+The project uses several specialized AI modes, each with specific capabilities:
 
-### Editor
-The Editor role reviews, edits, and proofreads translations. This role:
-- Reviews translations for accuracy, fluency, and cultural appropriateness
-- Directly corrects obvious mistakes in translations
-- Adds timestamped editor comments: [//]: # ( YYYY-MM-DDThh:mm:ss RED: comment )
-- Performs proofreading for grammar, spelling, and formatting
-- Can respond to translator (TR) or even other editor (RED) comments
-- Communicates suggestions and points out problems in translation and its context
-- Can add editor Markdown footnotes for the reader if necessary based on project style, targeting and content
-- Particularly valuable when editing a project where the translator is no longer available and cannot make updates
+#### Translator Mode
+Primary mode for translation work. Switch to this mode when:
+- Starting new translations
+- Updating existing translations based on feedback
+- Responding to editor comments
+- Adding translator footnotes and comments
 
-### Redactor
-The "coding" that you're supposed to do is the work of a good redactor - you can see the original and you are to judge whether the translator did a good job, or if there is room for improvement in how natural and how well the sentences sound in target language, if they could communicate their meaning better without losing the meanings they carry in the original. You can leave comments for the translator, in the comments after the paragraph ID (prefix them with "ISOdatetime RED:" ) with ideas and notes.
+#### Editor Mode
+For reviewing and improving translations. Switch to this mode when:
+- Reviewing completed translations
+- Providing feedback on translation quality
+- Making direct corrections
+- Ensuring consistency across translations
+- Adding editor footnotes and comments
+
+#### Project Assistant Mode
+For project management and organization. Switch to this mode when:
+- Creating or updating project documentation
+- Managing work progress in ./memlog
+- Creating monthly summaries
+- Identifying improvements or issues
+- Coordinating between roles
+
 
 # Monthly Summaries
 
