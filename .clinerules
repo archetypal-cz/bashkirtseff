@@ -125,3 +125,47 @@ The Editor role reviews, edits, and proofreads translations. This role:
 
 ### Redactor
 The "coding" that you're supposed to do is the work of a good redactor - you can see the original and you are to judge whether the translator did a good job, or if there is room for improvement in how natural and how well the sentences sound in target language, if they could communicate their meaning better without losing the meanings they carry in the original. You can leave comments for the translator, in the comments after the paragraph ID (prefix them with "ISOdatetime RED:" ) with ideas and notes.
+
+# Monthly Summaries
+
+## Purpose
+
+To maintain context across the translation project, we create monthly summaries of Marie Bashkirtseff's diary entries. These summaries are written in English and provide an overview of:
+
+- Main topics and themes
+- Key events
+- People mentioned
+- Social and cultural context
+- Marie's personal development
+- Setting details
+
+## Location
+
+Monthly summaries are stored in the `src/_original/_summary/` directory with filenames following the pattern `YYYY-MM.md` (e.g., `1873-01.md` for January 1873).
+
+## Usage
+
+These summaries serve several important purposes:
+
+1. **Context Preservation**: They ensure that translators working on later months understand references to people, events, and themes from earlier entries.
+
+2. **Thematic Tracking**: They help track the development of recurring themes and relationships across the diary.
+
+3. **Translation Consistency**: They support consistent translation of names, places, and recurring concepts.
+
+4. **Reader Aids**: They can be incorporated into published versions as chapter introductions or appendices.
+
+## Creation Process
+
+At the end of translating each month's entries, a summary is created that captures:
+
+- The main narrative threads
+- Important character developments
+- Social events and settings
+- Emotional and intellectual themes
+
+These summaries are written in English to serve as a reference for translators working in any target language.
+
+## Example
+
+See `src/_original/_summary/1873-01.md` for an example of a monthly summary for January 1873, which covers Marie's growing fascination with the Duke of Hamilton, social events in Nice during the winter season, and her personal development.
