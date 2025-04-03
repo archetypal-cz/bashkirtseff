@@ -2,15 +2,17 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Compile Game",
+			"label": "Compile Book (Czech, Book 01)",
 			"type": "shell",
-			"command": "${workspaceFolder}/bin/tweego-2.1.1-${command:cline.getPlatform}/tweego${command:cline.getExeExt}",
+			"command": "./scripts/compile_book.py",
 			"args": [
-				"-o",
-				"${workspaceFolder}/pub/game.html",
-				"-f",
-				"sugarcube-2",
-				"${workspaceFolder}/src"
+				"01",
+				"--language",
+				"cz",
+				"--template",
+				"scripts/templates/book_template.html",
+				"--output-dir",
+				"pub"
 			],
 			"group": {
 				"kind": "build",
@@ -23,18 +25,18 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Watch and Compile",
+			"label": "Compile All Books",
 			"type": "shell",
-			"command": "${workspaceFolder}/bin/tweego-2.1.1-${command:cline.getPlatform}/tweego${command:cline.getExeExt}",
+			"command": "./scripts/compile_all_books.py",
 			"args": [
-				"-o",
-				"${workspaceFolder}/pub/game.html",
-				"-f",
-				"sugarcube-2",
-				"-w",
-				"${workspaceFolder}/src"
+				"--languages",
+				"cz",
+				"--template",
+				"scripts/templates/book_template.html",
+				"--output-dir",
+				"pub"
 			],
-			"isBackground": true,
+			"group": "build",
 			"presentation": {
 				"reveal": "always",
 				"panel": "new"
@@ -42,19 +44,14 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Test Compilation",
+			"label": "Open Compiled Book (Czech, Book 01)",
 			"type": "shell",
-			"command": "${workspaceFolder}/bin/tweego-2.1.1-${command:cline.getPlatform}/tweego${command:cline.getExeExt}",
+			"command": "xdg-open",
 			"args": [
-				"-t",
-				"-o",
-				"${workspaceFolder}/pub/game.html",
-				"-f",
-				"sugarcube-2",
-				"${workspaceFolder}/src"
+				"${workspaceFolder}/pub/cz_01.html"
 			],
 			"presentation": {
-				"reveal": "always",
+				"reveal": "silent",
 				"panel": "new"
 			},
 			"problemMatcher": []

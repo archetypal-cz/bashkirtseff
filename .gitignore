@@ -1,2 +1,24 @@
 *Zone.Identifier
 *Zone - kopie.Identifier
+
+# Poetry and Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Build artifacts
+pub/*.md
+pub/*.html
+pub/*.epub
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

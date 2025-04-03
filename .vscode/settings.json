@@ -3,5 +3,8 @@
 		"**/*:Zone.Identifier": true,
 		"**/*:Zone - kopie.Identifier": true,
 		"*Zone.Identifier": true
+	},
+	"[markdown]": {
+		"editor.cursorSurroundingLines": 0
 	}
 }

@@ -80,3 +80,55 @@ This project includes two custom Roo Code modes to facilitate the translation wo
 ## Build and Output
 
 The project can include automation for compiling translated content into various formats (HTML, EPUB, PDF) using VSCode tasks and/or GitHub Actions, the AI in Roo Code can assist with both explanation and implementation for the project.
+
+## Compilation Scripts
+
+This project includes Python scripts (requiring Python 3.10 or higher) for compiling translated content into HTML:
+
+### Setup
+
+1. Install Poetry (dependency management tool for Python):
+   ```bash
+   curl -sSL https://install.python-poetry.org | python3 -
+   ```
+
+2. Install project dependencies:
+   ```bash
+   poetry install
+   ```
+
+3. Activate the virtual environment:
+   ```bash
+   poetry shell
+   ```
+
+### Usage
+
+#### Compile a Single Book
+
+```bash
+./scripts/compile_book.py 01 --language cz --template scripts/templates/book_template.html
+```
+
+This will:
+1. Find all Markdown files in `src/cz/01/`
+2. Combine them into a single Markdown file in `pub/cz_01.md`
+3. Convert that Markdown file to HTML at `pub/cz_01.html`
+
+#### Compile All Books
+
+```bash
+./scripts/compile_all_books.py
+```
+
+This will compile all books for all languages defined in the project.
+
+### VSCode Tasks
+
+The project includes VSCode tasks for easy compilation:
+
+1. **Compile Book (Czech, Book 01)**: Compiles the first book in Czech
+2. **Compile All Books**: Compiles all books for all languages
+3. **Open Compiled Book (Czech, Book 01)**: Opens the compiled HTML file in your default browser
+
+To run a task, press `Ctrl+Shift+P`, type "Tasks: Run Task", and select the desired task.
