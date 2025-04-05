@@ -7,7 +7,7 @@ This document provides instructions for the Researcher mode on how to prepare or
 1. Work with already prepared files in `/src/_original/XX/` directories
 2. When processing new entries, only read specific sections of the raw file (`src/_original/XX_carnet_raw.md`) as needed
 3. Use the end line reference in existing files to locate the next section in the raw file
-4. Create properly formatted daily entry files in the appropriate directory (e.g., `/src/_original/02/02.1873-08-19.md`)
+4. Create properly formatted daily entry files in the appropriate directory (e.g., `/src/_original/02/1873-08-19.md`)
 5. Add paragraph IDs and maintain proper formatting
 6. Create glossary entries for topics of interest
 7. Create monthly summaries when a month is completed
@@ -122,7 +122,7 @@ When you complete a month's worth of entries, create a monthly summary in `src/_
 
 ## Research Notes
 
-For significant research findings that require more space than a comment, create separate note files (e.g., `02-note.1873-08-11_19.md`) that can be linked from the day files.
+For significant research findings that require more space than a comment, create separate note files (e.g., `note-1873-08-11_19.md`) that can be linked from the day files.
 
 ## Remember
 
@@ -131,3 +131,5 @@ For significant research findings that require more space than a comment, create
 - Document your research thoroughly to provide context for translators
 - Create glossary entries that will be valuable resources for both translators and readers
 - Always work with small chunks of the raw file to prevent context overflow
+- When mentioning dates or paragraphs in the text, create markdown links to their relative files
+- Use the new file naming convention: book folder + ISO date (e.g., `/src/_original/01/1873-01-11.md`)

@@ -135,11 +135,11 @@ The project has a specific file structure that should be maintained:
 
 - `/src`: Contains the translation files
   - `/{lang}`: Language-specific directories (e.g., `/src/cz/` for Czech)
-    - `/00`, `/01`, etc.: Book/chapter directories
+    - `/00`, `/01`, etc.: Book/chapter directories with ISO date filenames (e.g., `1873-01-11.md`)
     - `TranslationMemory.md`: Language-specific translation memory
     - `Style.{lang}.md`: Language-specific style guide
   - `/_original`: Original source materials
-    - `/00`, `/01`, etc.: Book/chapter directories
+    - `/00`, `/01`, etc.: Book/chapter directories with ISO date filenames (e.g., `1873-01-11.md`)
     - `/_glossary`: Research notes on specific topics, with filenames matching hashtags
     - `/_summary`: Monthly summaries of diary content
   - `/media`: Media files
@@ -169,6 +169,14 @@ When a paragraph mentions a topic of interest (person, event, place, etc.):
 2. Create a corresponding file in `/src/_original/_glossary/` with filename matching the hashtag (e.g., `Emile_Zola.md`)
 3. When using hashtags in paragraph comments, format them as markdown links to their topic files in _glossary
 4. This allows translations to maintain the same filenames while translating the contents
+
+# Date and Paragraph Linking
+
+When mentioning a date or paragraph in the text:
+
+1. Create a markdown link to the relative file in the current translation
+2. This includes when Marie writes back notes from the future - link to the future day's file
+3. This improves navigation and cross-referencing throughout the project
 
 # Monthly Summaries
 

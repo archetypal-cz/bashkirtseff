@@ -9,6 +9,7 @@ This document tracks the overall project plan and links to detailed sub-plans an
 - [Project Conventions Update (2025-04-05)](memlog/2025-04-05-project-conventions-update.md) - Updated project documentation and structure to reflect current conventions
 - [Text Verification (2025-04-05)](memlog/2025-04-05-text-verification.md) - Verified text integrity between raw files and individual day entries
 - [Researcher Prompt Update (2025-04-05)](memlog/2025-04-05-researcher-prompt-update.md) - Updated Researcher instructions to prevent opening entire raw files at once
+- [File Naming Convention Update (2025-04-05)](memlog/2025-04-05-file-naming-convention-update.md) - Updated file naming convention to use book folder + ISO date format and added date/paragraph linking rules
 
 ### March 2025
 
@@ -34,6 +35,11 @@ This document tracks the overall project plan and links to detailed sub-plans an
    - Check for consistency with the new conventions
    - Update as needed to maintain project standards
 
+5. **Update file names to new convention**
+   - Rename existing files to follow the new naming convention (book folder + ISO date)
+   - Update all cross-references to maintain proper linking
+   - Verify that all links between dates and paragraphs are working correctly
+
 ## Upcoming Tasks
 
 1. **Improve compilation scripts**
@@ -49,3 +55,4 @@ This document tracks the overall project plan and links to detailed sub-plans an
    - Create a system for suggesting translations based on previous work
 
 [//]: # ( 2025-04-05T16:57:00 PA: Updated Researcher Prompt entry to reflect changes to raw file handling )
+[//]: # ( 2025-04-05T17:39:00 PA: Added file naming convention update to implement book folder + ISO date format and date/paragraph linking )

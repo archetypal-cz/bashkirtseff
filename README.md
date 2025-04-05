@@ -15,6 +15,10 @@ Coslate is designed to facilitate a smooth workflow between human translators, e
 If several languages are to be supported, we use short or long ISO language codes as subfolder names - usually in both `/src` and `/src/media`.
 
 - `/src`: Contains the translation files (original text and translations)
+  - `/{lang}`: Language-specific directories (e.g., `/src/cz/` for Czech)
+    - `/00`, `/01`, etc.: Book/chapter directories with ISO date filenames (e.g., `1873-01-11.md`)
+  - `/_original`: Original source materials
+    - `/00`, `/01`, etc.: Book/chapter directories with ISO date filenames (e.g., `1873-01-11.md`)
 - `/src/media`: Contains media files related to the translation
 - `/prompts`: Contains style guidelines and information about the work being translated
 - `/docs`: Contains reference materials, translation memory, and other documentation
@@ -37,7 +41,7 @@ Translations follow a specific format:
 4. The polished translation with Markdown footnotes[^part_id.paragraph_id.note_id] by author, translator and editor as needed 
    [^part_id.paragraph_id.note_id]: This is footnote body.
 5. Hashtags (in french) for crossreferencing topics mentioned in paragraphs as `[//]: # ( #Emile_Zole #Rome_Colosseum )` on a separate line before the paragraph translation, mentioned in src/HASHTAGS.md with the date of the diary entry mentioning them
-6. 
+6. When mentioning dates or paragraphs in the text, create markdown links to their relative files in the current translation (including when Marie writes back notes from the future)
 
 ## Custom Roo Code Modes
 
@@ -111,7 +115,7 @@ This project includes Python scripts (requiring Python 3.10 or higher) for compi
 ```
 
 This will:
-1. Find all Markdown files in `src/cz/01/`
+1. Find all Markdown files in `src/cz/01/` (using ISO date filenames)
 2. Combine them into a single Markdown file in `pub/cz_01.md`
 3. Convert that Markdown file to HTML at `pub/cz_01.html`
 
