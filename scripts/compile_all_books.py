@@ -62,7 +62,9 @@ def compile_book(
 
 
 def main(
-    languages: list[str] = typer.Option(["cz"], help="Languages to compile"),
+    languages: list[str] = typer.Option(
+        ["cz", "_original"], help="Languages to compile"
+    ),
     template: Path = typer.Option(
         Path("scripts/templates/book_template.html"), help="Path to HTML template file"
     ),

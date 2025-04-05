@@ -2,9 +2,9 @@
 """
 Compile Markdown files into a single document and convert to HTML.
 
-This script combines all translated Markdown files from a specific directory
-in src/cz/ into a single Markdown file in the pub directory, then converts
-it to HTML.
+This script combines all Markdown files from a specific directory
+in src/{language}/ into a single Markdown file in the pub/{language}/ directory,
+then converts it to HTML.
 """
 
 import logging
@@ -155,12 +155,19 @@ def main(
         log.error(f"Source directory {source_dir} does not exist")
         raise typer.Exit(1)
 
-    # Create output directory if it doesn't exist
-    output_dir.mkdir(parents=True, exist_ok=True)
+    # Create language-specific output directory if it doesn't exist
+    language_output_dir = output_dir / language
+    language_output_dir.mkdir(parents=True, exist_ok=True)
 
     # Define output filenames
-    md_output = output_dir / f"{language}_{book_id}.md"
-    html_output = output_dir / f"{language}_{book_id}.html"
+    if language == "_original":
+        # For original files, use simpler naming
+        md_output = language_output_dir / f"{book_id}.md"
+        html_output = language_output_dir / f"{book_id}.html"
+    else:
+        # For translations, use language prefix
+        md_output = language_output_dir / f"{language}_{book_id}.md"
+        html_output = language_output_dir / f"{language}_{book_id}.html"
 
     # Find all Markdown files
     files = find_markdown_files(source_dir)
