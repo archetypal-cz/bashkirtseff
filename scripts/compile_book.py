@@ -46,7 +46,7 @@ def compile_markdown(files: List[Path], output_path: Path) -> None:
         for file_path in files:
             log.info(f"Processing {file_path}")
 
-            # Extract date from filename (e.g., 01.1873-01-11.md -> 1873-01-11)
+            # Extract date from filename (e.g., 1873-01-11.md -> 1873-01-11)
             date_match = re.search(r"(\d{4}-\d{2}-\d{2})", file_path.name)
             date_str = date_match.group(1) if date_match else file_path.stem
 

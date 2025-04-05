@@ -106,12 +106,14 @@ This project includes Python scripts (requiring Python 3.10 or higher) for compi
    poetry shell
    ```
 
+**IMPORTANT**: All Python scripts in this project must be run within the Poetry virtual environment. Either activate the environment with `poetry shell` before running scripts, or prefix commands with `poetry run` (e.g., `poetry run ./scripts/compile_book.py`).
+
 ### Usage
 
 #### Compile a Single Book
 
 ```bash
-./scripts/compile_book.py 01 --language cz --template scripts/templates/book_template.html
+poetry run ./scripts/compile_book.py 01 --language cz --template scripts/templates/book_template.html
 ```
 
 This will:
@@ -122,10 +124,18 @@ This will:
 #### Compile All Books
 
 ```bash
-./scripts/compile_all_books.py
+poetry run ./scripts/compile_all_books.py
 ```
 
 This will compile all books for all languages defined in the project.
+
+#### Rename Files to New Convention
+
+```bash
+poetry run ./scripts/rename_files.py
+```
+
+This will rename all files from the old format (e.g., `01.1873-01-11.md`) to the new format (e.g., `1873-01-11.md`).
 
 ### VSCode Tasks
 

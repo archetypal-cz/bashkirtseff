@@ -53,11 +53,13 @@ Our aim is to have the user clone this template repo and collaborate with an AI 
 But before we get there, we need to set up the template itself, since this project here - starting with these .clinerules, README.md that will hold the gist of it, ./docs/ folder, where we will store reference literature, translation memory and other useful things for both the template development and the translation itself.
 
 Part of this template project should be ./prompts, because the AI agents working on this projects will need to be able to take on several separate roles - exquisite literary translator, who is able to take the spirit of the original and infuse the translation with its own version of the spirit, empathetic and attentive redactor, who sees where the tired eye left too forced a translation and where things could be improved, godlike proofreader who knows all the grammar (helps to have all the rules for your language in ./docs/grammar)... 
-
 And we should also make is self-contained as much as possible, so we'll have some Python 3.12 managed via Poetry with packages installed into the project folder, all in ./scripts and possibly ./bin for other tools.
 
 We should have VSCode tasks, that will run scripts to compile whatever is in ./src (suggestion is to have 10_Chapter_001_Home.md, 20_Chapter_002_Journey.md etc.) into a single file in ./pub, then maybe convert it to HTML using some ./templates, have a way to save it as EPUB.
 
+IMPORTANT: All Python scripts in this project must be run within the Poetry virtual environment. Either activate the environment with `poetry shell` before running scripts, or prefix commands with `poetry run` (e.g., `poetry run ./scripts/compile_book.py`).
+
+Don't hesitate to list files in folders and search for strings, the filenames should be explanatory, and include anything that looks like it could be pertinent.
 Don't hesitate to list files in folders and search for strings, the filenames should be explanatory, and include anything that looks like it could be pertinent.
 
 When translating, we see to filenames (*.done.md is already finished, *.proof.md is in need of proofreading, *.red.md would be for redaction) where to start.
