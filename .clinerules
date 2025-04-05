@@ -62,7 +62,7 @@ Don't hesitate to list files in folders and search for strings, the filenames sh
 
 When translating, we see to filenames (*.done.md is already finished, *.proof.md is in need of proofreading, *.red.md would be for redaction) where to start.
 
-when there's some term we might need to note the translation of, to create a translation memory in ./docs/Memory.md which we too can load at the beginning of working on translation and redaction.
+when there's some term we might need to note the translation of, to create a translation memory in ./src/{lang}/TranslationMemory.md which we too can load at the beginning of working on translation and redaction.
 
 # .MD File Format
 In the beginning, there is only the original, lets say just 01.md, 02.md and 03.md. 
@@ -89,7 +89,7 @@ We name footnotes with the id of the part and paragraph and note, not just incre
 
     Add as many paragraphs as you like.
  
-Media files go in ./src/media
+Media files go in ./src/media/{lang}/ for language-specific media files
 
 ## AI roles
 
@@ -120,6 +120,55 @@ For project management and organization. Switch to this mode when:
 - Identifying improvements or issues
 - Coordinating between roles
 
+#### Researcher Mode
+For historical research and document preparation. Switch to this mode when:
+- Working with original scans and preparing raw markdown files
+- Breaking down raw documents into properly formatted daily entries
+- Researching historical context, people, places, and cultural references
+- Creating glossary entries in /src/_original/_glossary/ with filenames matching hashtags
+- Maintaining documentation of historical context
+
+
+# File Structure
+
+The project has a specific file structure that should be maintained:
+
+- `/src`: Contains the translation files
+  - `/{lang}`: Language-specific directories (e.g., `/src/cz/` for Czech)
+    - `/00`, `/01`, etc.: Book/chapter directories
+    - `TranslationMemory.md`: Language-specific translation memory
+    - `Style.{lang}.md`: Language-specific style guide
+  - `/_original`: Original source materials
+    - `/00`, `/01`, etc.: Book/chapter directories
+    - `/_glossary`: Research notes on specific topics, with filenames matching hashtags
+    - `/_summary`: Monthly summaries of diary content
+  - `/media`: Media files
+    - `/{lang}`: Language-specific media files
+  - `HASHTAGS.md`: Alphabetical list of hashtags, each linked to its glossary file
+
+- `/prompts`: Contains project-specific prompts
+  - `original_text_preparation.md`: Instructions for preparing original text
+  - `Work.md`: Information about the source material
+  - Other project-specific prompts
+
+- `/docs`: Contains reference materials
+
+- `/memlog`: Contains logs of completed work and plans
+
+- `/pub`: Contains compiled output files
+
+- `/scripts`: Contains Python scripts for compilation
+
+- `/bin`: Contains executable tools
+
+# Hashtag System
+
+When a paragraph mentions a topic of interest (person, event, place, etc.):
+
+1. Create a hashtag in `src/HASHTAGS.md` - an alphabetical list of hashtags, each linked to its glossary file
+2. Create a corresponding file in `/src/_original/_glossary/` with filename matching the hashtag (e.g., `Emile_Zola.md`)
+3. When using hashtags in paragraph comments, format them as markdown links to their topic files in _glossary
+4. This allows translations to maintain the same filenames while translating the contents
 
 # Monthly Summaries
 

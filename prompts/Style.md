@@ -21,5 +21,5 @@ Eve
 
 Create a new MD file in the translation subfolder for every new day, removing lines from the file of the carnet we're working on, while keeping the original in the root ./src folder intact.
 
-Read the target language instructions too - Style.langcode.md - e.g. Style.cz.md
+Read the target language instructions too - /src/{lang}/Style.md
 
