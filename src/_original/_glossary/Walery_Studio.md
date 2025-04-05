@@ -29,5 +29,7 @@ The younger Walery's photographs of the Folies Bergère and other Parisian enter
 ## Mentions in the Diary
 
 - **August 26, 1873**: Marie visits the Walery studio in Paris and views photographs of Gioia
+- **September 4, 1873**: Marie receives her portrait photographs from Walery and critiques them, finding the poses "affected" and commenting that her hair arrangement gives "de la vulgarité" (vulgarity)
 
 [//]: # ( 2025-04-05T15:13:06 RSR: Created glossary entry for Walery Studio )
+[//]: # ( 2025-04-05T18:35:00 RSR: Updated with September 4, 1873 mention of Marie receiving her photographs from Walery )

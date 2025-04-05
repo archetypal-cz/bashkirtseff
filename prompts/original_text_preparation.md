@@ -4,12 +4,13 @@ This document provides instructions for the Researcher mode on how to prepare or
 
 ## Process Overview
 
-1. Work with raw OCR'd text from `src/_original/XX_carnet_raw.md` files
-2. Process the text in small chunks (10 lines at a time) to maintain context
-3. Create properly formatted daily entry files in the appropriate directory (e.g., `/src/_original/02/02.1873-08-19.md`)
-4. Add paragraph IDs and maintain proper formatting
-5. Create glossary entries for topics of interest
-6. Create monthly summaries when a month is completed
+1. Work with already prepared files in `/src/_original/XX/` directories
+2. When processing new entries, only read specific sections of the raw file (`src/_original/XX_carnet_raw.md`) as needed
+3. Use the end line reference in existing files to locate the next section in the raw file
+4. Create properly formatted daily entry files in the appropriate directory (e.g., `/src/_original/02/02.1873-08-19.md`)
+5. Add paragraph IDs and maintain proper formatting
+6. Create glossary entries for topics of interest
+7. Create monthly summaries when a month is completed
 
 ## File Format Example
 
@@ -42,9 +43,23 @@ Below is an example of a properly formatted daily entry file:
 
 ## Detailed Instructions
 
+### Efficient Raw File Handling
+
+1. **IMPORTANT**: Do NOT open the entire raw file (`src/_original/XX_carnet_raw.md`) at once - it's too large for the context window
+2. Instead, look at the most recently processed file to find the end line reference (e.g., `End line in original file: 127`)
+3. When you need to process the next section, only read the specific portion of the raw file using the line numbers:
+   ```
+   <read_file>
+   <path>src/_original/XX_carnet_raw.md</path>
+   <start_line>[previous_end_line]</start_line>
+   <end_line>[previous_end_line + 20]</end_line>
+   </read_file>
+   ```
+4. Process this small chunk before reading the next section
+
 ### Text Processing
 
-1. Read the raw OCR'd text in small chunks (10 lines at a time)
+1. Read the raw OCR'd text in small chunks (20 lines at a time)
 2. Correct OCR errors and typos only - do not modify the content otherwise
 3. If you're unsure about a correction, add a researcher note: `[//]: # ( YYYY-MM-DDThh:mm:ss RSR: note )`
 4. Remove OCR artifacts (e.g., empty lines containing just "|" characters)
@@ -115,3 +130,4 @@ For significant research findings that require more space than a comment, create
 - Maintain consistent formatting across all files
 - Document your research thoroughly to provide context for translators
 - Create glossary entries that will be valuable resources for both translators and readers
+- Always work with small chunks of the raw file to prevent context overflow

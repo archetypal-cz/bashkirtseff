@@ -8,7 +8,7 @@ This document tracks the overall project plan and links to detailed sub-plans an
 
 - [Project Conventions Update (2025-04-05)](memlog/2025-04-05-project-conventions-update.md) - Updated project documentation and structure to reflect current conventions
 - [Text Verification (2025-04-05)](memlog/2025-04-05-text-verification.md) - Verified text integrity between raw files and individual day entries
-- [Researcher Prompt Update (2025-04-05)](memlog/2025-04-05-researcher-prompt-update.md) - Updated Researcher prompt to require end line notes in daily files
+- [Researcher Prompt Update (2025-04-05)](memlog/2025-04-05-researcher-prompt-update.md) - Updated Researcher instructions to prevent opening entire raw files at once
 
 ### March 2025
 
@@ -48,4 +48,4 @@ This document tracks the overall project plan and links to detailed sub-plans an
    - Develop tools to leverage the translation memory more effectively
    - Create a system for suggesting translations based on previous work
 
-[//]: # ( 2025-04-05T15:50:00 PA: Created initial Plan.md to track project progress and link to memlog files )
+[//]: # ( 2025-04-05T16:57:00 PA: Updated Researcher Prompt entry to reflect changes to raw file handling )
