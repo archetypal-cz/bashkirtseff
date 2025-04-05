@@ -6,10 +6,18 @@ Mouton appears in Marie Bashkirtseff's diary as someone associated with horses i
 
 ## Mentions in the Diary
 
-Marie mentions Mouton in her September 15, 1873 diary entry when describing problems with her horse:
+Marie first mentions Mouton in her January 11, 1873 diary entry:
+
+> "Les Howard étaient venus me chercher, mais la canaille Mouton ne m'a pas envoyé le cheval.. J'ai fait plusieurs fois le tour en voiture en suivant les chevaux; j'étais en amazone, puis j'ai changé de toilette à la promenade; une délicieuse robe bleue."
+>
+> (The Howards had come to get me, but the scoundrel Mouton did not send me the horse.. I went around several times in a carriage following the horses; I was in a riding habit, then I changed clothes at the promenade; a delightful blue dress.)
+
+Her reference to Mouton as "la canaille" (the scoundrel/rascal) and her frustration at not receiving the expected horse indicates their business relationship was sometimes contentious.
+
+Marie mentions Mouton again in her September 15, 1873 diary entry when describing problems with her horse:
 
 > "Il faut que je me trouve bien mal pour descendre du cheval, car je pouvais à peine arriver chez Mouton, je lui rendis le cheval avec un scolding et je remontais en voiture."
-> 
+>
 > (I must have been feeling quite unwell to get off the horse, because I could barely reach Mouton's place, I returned the horse to him with a scolding and got back into the carriage.)
 
 This suggests that Mouton was someone to whom Marie would return a horse after riding, indicating he owned or managed horses that Marie used.
@@ -42,3 +50,4 @@ For a young woman of Marie's social class, horseback riding was both a leisure a
 Marie's frustration with the poorly fitting saddle that "recule" (slips back) during her rides suggests that the equipment provided by Mouton may not have been of the highest quality, or perhaps was not properly adjusted for a female rider.
 
 [//]: # ( 2025-04-05T22:00:00 RSR: Created entry based on mentions in September 15 and 19, 1873 diary entries )
+[//]: # ( 2025-04-05T18:14:29 RSR: Updated to include January 11, 1873 reference )

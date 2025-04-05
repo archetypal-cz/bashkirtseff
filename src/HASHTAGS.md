@@ -20,6 +20,7 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 - [#Paul_Grigorievitch_Bashkirtseff](/_original/_glossary/Paul_Grigorievitch_Bashkirtseff.md)
 - [#Crimean_War](/_original/_glossary/Crimean_War.md)
 - [#Babanine](/_original/_glossary/Babanine.md)
+- [#Boreel](/_original/_glossary/Boreel.md)
 - [#Lermontov](/_original/_glossary/Lermontov.md)
 - [#Pushkin](/_original/_glossary/Pushkin.md)
 - [#Lord_Byron](/_original/_glossary/Lord_Byron.md)

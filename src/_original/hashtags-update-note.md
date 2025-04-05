@@ -1,39 +1,26 @@
 # Hashtags Update Note
 
-Date: 2025-04-05
+## Updates Needed
 
-## New Glossary Entries Created
+Based on my research of the diary entries, the following hashtags need to be added to the src/HASHTAGS.md file:
 
-I've created the following new glossary entries based on people and concepts mentioned in the September 15-19, 1873 diary entries:
+1. **#Boreel** - A glossary entry has been created at src/_original/_glossary/Boreel.md
 
-1. **Bensa** - Marie's teacher who arranged for other professors and was often teased by Marie and Dina
-2. **Hitchcock** - Marie's English conversation teacher
-3. **Michelezzi** - Marie's Italian teacher who was delighted when she spoke Italian for the first time
-4. **Soubise** - A woman who accompanied Gioia (the Duke of Hamilton's mistress)
-5. **Mouton** - A stable owner or horse dealer from whom Marie rented horses
-6. **Said** - A servant for whom Marie ordered a livery (uniform)
-7. **Ferry** - A bootmaker or shoe merchant whose boots Marie described as "charming"
+The hashtag should be added to the alphabetical list in HASHTAGS.md with the following format:
 
-## Recommended HASHTAGS.md Updates
-
-The following hashtags should be added to the HASHTAGS.md file:
-
-```markdown
-- [#Bensa](/_original/_glossary/Bensa.md)
-- [#Ferry](/_original/_glossary/Ferry.md)
-- [#Hitchcock](/_original/_glossary/Hitchcock.md)
-- [#Michelezzi](/_original/_glossary/Michelezzi.md)
-- [#Mouton](/_original/_glossary/Mouton.md)
-- [#Said](/_original/_glossary/Said.md)
-- [#Soubise](/_original/_glossary/Soubise.md)
+```
+- [#Boreel](/_original/_glossary/Boreel.md)
 ```
 
-These should be inserted in alphabetical order in the existing list.
+This should be placed in alphabetical order in the list.
 
-## Next Steps
+## Additional Notes
 
-1. Update HASHTAGS.md with these new entries (to be done by Project Assistant)
-2. Consider adding references to these people in the September 1873 monthly summary
-3. Add hashtag references in the relevant diary entries when they are mentioned
+During my review of Book 1 (January-February 1873), I found that several hashtags listed in HASHTAGS.md were missing their corresponding glossary entries. I've created the following glossary entries:
 
-[//]: # ( 2025-04-05T22:15:00 RSR: Created note documenting new glossary entries that should be added to HASHTAGS.md )
+1. #Document_Humain - Created glossary entry at src/_original/_glossary/Document_Humain.md
+2. #Russia - Created glossary entry at src/_original/_glossary/Russia.md
+
+I've also updated the Mouton glossary entry to include the January 11, 1873 reference where Marie calls him "la canaille Mouton" and mentions that he didn't send her a horse.
+
+[//]: # ( 2025-04-05T18:15:45 RSR: Created note about hashtag updates needed )
