@@ -36,6 +36,8 @@ Below is an example of a properly formatted daily entry file:
 
 [//]: # ( Ce soir, à l'Opéra, "Un ballo in maschera". Beaucoup de monde, mais moi, je suis triste. )
 [//]: # ( 01.07 )
+
+[//]: # ( 2025-04-05T15:45:00 RSR: End line in original file: 127 )
 ```
 
 ## Detailed Instructions
@@ -55,6 +57,7 @@ Below is an example of a properly formatted daily entry file:
 3. Add an empty line between paragraphs
 4. For empty paragraphs, just add an empty line
 5. For three consecutive empty paragraphs, add a horizontal rule using dashes
+6. At the end of each daily file, add a note indicating the end line number in the original raw file: `[//]: # ( YYYY-MM-DDThh:mm:ss RSR: End line in original file: NNNN )`
 
 ### Hashtags and Glossary Entries
 
