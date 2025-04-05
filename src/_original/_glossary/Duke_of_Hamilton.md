@@ -1,53 +1,58 @@
 # Duke of Hamilton
 
-## Basic Information
+## Identity and Background
 
-William Alexander Louis Stephen Douglas-Hamilton, the 12th Duke of Hamilton (1845–1895), was a Scottish nobleman and a significant figure in British aristocratic circles during the late 19th century. He held multiple titles including Duke of Hamilton and Duke of Brandon, and was the Premier Peer of Scotland.
+The Duke of Hamilton mentioned in Marie Bashkirtseff's diary is likely William Alexander Louis Stephen Douglas-Hamilton, 12th Duke of Hamilton (1845-1895). He was a Scottish nobleman who held multiple titles including:
 
-## Significance in Marie Bashkirtseff's Life
+- 12th Duke of Hamilton
+- 9th Duke of Brandon
+- 2nd Duke of Châtellerault (French peerage)
+- Hereditary Keeper of the Palace of Holyroodhouse
 
-The Duke of Hamilton features prominently in Marie Bashkirtseff's diary as the object of her intense infatuation during 1873. Despite having no actual relationship with him, Marie developed a deep romantic fixation on the Duke after seeing him in Nice. Her diary entries from August 1873 reveal her excitement at potentially seeing him in Paris and her conflicted feelings about her attraction to him.
+The Hamilton family was one of the most prestigious in Scotland, with royal connections dating back centuries. Their seat was Hamilton Palace in Lanarkshire, Scotland, which Marie references in her March 8, 1873 entry when she finds information about "the beautiful castle of the Duke of Hamilton" in Bouillet's dictionary.
 
-On August 19, 1873, Marie engages in introspection about whether she truly loves the Duke or if it's merely her imagination. Her emotional reactions to not seeing him during her Paris visit, and her dramatic statement that she would "go to China just to see him pass by," reveal the depth of her infatuation.
+## Wealth and Lifestyle
 
-Marie's obsession with the Duke represents her romantic idealism and her aspirations to move in the highest circles of European aristocracy. Her fixation on him also reveals her emotional intensity and tendency toward melodramatic imagination.
+Marie repeatedly refers to the Duke's immense wealth and aristocratic lifestyle. In her diary, she mentions:
 
-The entries from late August and early September 1873 show how Marie's infatuation with the Duke became a topic of family discussion and teasing after her return to Nice. Her mother appears skeptical of the match, suggesting the Duke's income is much lower than Marie believes, while others like Princess Galitzine encourage Marie's fantasies by calling her "duchesse" (duchess). Marie expresses frustration that her private feelings have become public knowledge, writing "I am vexed, I did not want Hamilton to become public. For, what humiliation if nothing succeeds!"
+- His yacht (March 4, 1873)
+- His participation in pigeon shooting competitions
+- His elegant appearance and noble bearing
+- His residence at either the Hotel de la Grande-Bretagne or Hotel d'Angleterre in Nice
 
-## Physical Appearance and Character
+The Duke was indeed known for his extravagant lifestyle. The Hamilton family was among the wealthiest in Britain, with extensive landholdings and valuable art collections. The Duke was a noted sportsman and yachtsman, consistent with Marie's descriptions.
 
-From Marie's diary entries, we learn that she is attracted to the Duke's physical appearance, describing him as tall, large/stout, and red-haired or ruddy-complexioned. She repeatedly mentions her preference for "les grands, gros, blonds" (tall, stout, blond men) when discussing potential husbands with her family.
+## Relationship with "Gioia"
 
-Marie's family and acquaintances describe the Duke as eccentric or original. Walitsky tells anecdotes about the Duke bringing a pig to a promenade when dogs were forbidden, and serving soup in chamber pots at a breakfast he hosted. While these stories may be exaggerated or fabricated to tease Marie, they suggest the Duke had a reputation for unconventional behavior.
+In Marie's diary, the Duke is frequently associated with a woman named Gioia, whom Marie envies and resents. The identity of this woman is unclear from historical records, but she may have been:
 
-## Financial Status
+1. A mistress or romantic interest
+2. A society woman in Nice
+3. Possibly Lady Mary Montagu, whom the Duke married in 1873
 
-Marie's diary reveals conflicting information about the Duke's wealth. Her family discusses his income, with estimates ranging from 3,000 to 90,000 pounds sterling annually. Marie's aunt mentions that "he has become poor" and now has only 20,000 pounds instead of 90,000. Marie insists this is still substantial (equivalent to 500,000 francs), though her mother tries to diminish this amount in their conversations.
-
-Marie frankly admits she would not marry the Duke if he were poor, writing: "Alas no! I will not marry him if he is poor, but I will always love him. I cannot marry a poor man, it is against my nature, it would be the misfortune of both."
+Marie suggests that the Duke's relationship with Gioia is not based on genuine love but rather on convenience, writing on March 4, 1873: "I believe he doesn't love her, but he prefers to be free, to have a wife since it's necessary for chic, horses, a wife, pigeon shooting."
 
 ## Historical Context
 
-In 1873, the Duke of Hamilton was 28 years old and would marry Lady Mary Montagu later that same year (on July 10, 1873). He was known for his aristocratic lifestyle and passion for horse racing, though his financial difficulties were significant despite inheriting vast estates.
+During the 1870s, Nice was a popular winter resort for European aristocracy and wealthy families, particularly British and Russian. The presence of figures like the Duke of Hamilton was common during the winter social season.
 
-His horse Cortolvin had won the Grand National Steeplechase in 1867, but by 1873, his racing fortunes had apparently declined. Marie mentions in her diary that he is "reduced to a single horse instead of five" and "for three years he has fallen in the races, arriving only third."
+The Duke's participation in activities like pigeon shooting competitions was typical of aristocratic leisure pursuits of the era. These competitions were major social events that attracted the elite from across Europe.
 
-The Duke had significant family connections to European royalty. His mother, Princess Marie Amelie of Baden, was the sister of the Grand Duke of Baden, who was married to the daughter of Kaiser Wilhelm I of Prussia. This made the Duke of Hamilton a nephew by marriage to the Prussian royal family.
+## Marie's Obsession
 
-Marie mentions receiving "The Derby" newspaper and being pleased to see the Duke's name mentioned frequently in it, indicating his continued involvement in horse racing circles.
+The Duke becomes the primary object of Marie's romantic fantasies throughout her diary. Her fixation on him reveals several aspects of her character and worldview:
+
+1. Her social ambitions and desire to marry into the highest aristocracy
+2. Her strategic thinking about how to attract his attention
+3. Her class consciousness and valuation of titles and wealth
+4. Her tendency toward romantic idealization
+
+Marie never actually meets or speaks with the Duke, observing him only from a distance. When she learns of his departure from Nice in early March 1873, she is devastated but quickly formulates a new plan to attract his attention through becoming a celebrated singer.
 
 ## Later Life
 
-The Duke's marriage to Lady Mary Montagu produced one daughter, Lady Mary Louise Douglas-Hamilton. His later years were marked by declining health and financial difficulties. He died in 1895 at the age of 50, with his titles passing to his cousin Alfred Douglas Douglas-Hamilton.
+While not mentioned in Marie's diary entries from this period, the Duke of Hamilton married Lady Mary Montagu in 1873, the same year as these diary entries. He later developed serious health problems related to alcoholism and died in 1895 at age 50.
 
-## Mentions in the Diary
+Hamilton Palace, which so impressed Marie in her reading, was demolished in the 1920s due to structural problems caused by nearby mining.
 
-- **August 18-19, 1873**: Marie expresses excitement at potentially seeing the Duke in Paris
-- **August 19, 1873**: She reflects on whether she truly loves him or if it's merely her imagination
-- **August 26-28, 1873**: Marie refers to him as "le misérable" (the miserable one) and contemplates how she would feel if he were dead or married
-- **August 29-31, 1873**: Upon returning to Nice, Marie's family begins teasing her about her interest in the Duke
-- **August 31, 1873**: Extended family discussion about the Duke's income and Marie's marriage prospects
-- **September 1, 1873**: Continued teasing about the Duke, with Walitsky sharing anecdotes about his eccentric behavior
-
-[//]: # ( 2025-04-05T15:12:26 RSR: Created glossary entry for the Duke of Hamilton )
-[//]: # ( 2025-04-05T16:55:00 RSR: Updated with information from August 29 - September 1, 1873 entries )
+[//]: # (2025-04-05T19:40:10 RSR: This glossary entry provides historical context about the Duke of Hamilton who features prominently in Marie Bashkirtseff's diary. While Marie never actually meets the Duke, he becomes the object of her romantic fantasies and social ambitions. The entry identifies him as likely being William Alexander Louis Stephen Douglas-Hamilton, 12th Duke of Hamilton (1845-1895), and provides information about his background, wealth, and lifestyle that helps contextualize Marie's fascination with him. The entry also notes that the Duke married Lady Mary Montagu in 1873, the same year as these diary entries, though Marie seems unaware of this development in the entries we've processed so far.)

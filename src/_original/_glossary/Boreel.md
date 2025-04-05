@@ -1,54 +1,77 @@
 # Boreel
 
-## Overview
+## Identity and Background
 
-Boreel appears in Marie Bashkirtseff's diary as a potential suitor and social acquaintance during her time in Nice in early 1873. He serves as a contrasting figure to the Duke of Hamilton, who was the primary object of Marie's romantic interest.
+Alfred Boreel, frequently mentioned in Marie Bashkirtseff's diary, was a young man she regularly encountered during the winter social season in Nice in 1873. Based on Marie's descriptions, he appears to have been:
 
-## Mentions in the Diary
+- A handsome young man of European aristocratic or wealthy background
+- Possibly Dutch, though Marie notes confusion about his nationality
+- Part of the international social scene in Nice
+- Not as wealthy or high-ranking as the Duke of Hamilton, Marie's primary romantic interest
 
-Boreel first appears in Marie's January 14, 1873 entry, where she notes that he "ne m'amuse plus beaucoup" (doesn't amuse me much anymore) and that his "démarche" (gait/bearing) displeases her. This suggests he had previously captured her interest but was now falling out of favor.
+Marie initially believed him to be "Baron Finot" before learning his actual identity, causing her some disappointment as she valued titles highly.
 
-In her January 18 entry, Marie mentions that Boreel approached her at the Cercle Masséna, but she responded with "presque rien" (almost nothing), finding her own reaction "strange."
+## Physical Appearance and Characteristics
 
-By February 1, Marie explicitly analyzes her feelings, stating: "Pour Boreel, je n'ai pas d'amour" (For Boreel, I have no love). She attempts to compare her feelings for Boreel and the Duke of Hamilton, initially claiming they are equal, but then revealing a clear preference: "Si quand je vois Boreel j'ai de la joie, c'est un rayon de soleil qui pénètre dans mon cœur quand je vois le duc" (If when I see Boreel I feel joy, it's a ray of sunshine that penetrates my heart when I see the Duke).
+Marie provides detailed descriptions of Boreel throughout her diary:
 
-On February 5, Marie directly compares Boreel's appearance to the Duke's, noting that Boreel was "très bien habillé" (very well dressed) but "moins bien que le duc" (not as good as the Duke) and "décidément trop gros" (decidedly too fat/stout).
+- Described as "very beautiful" and "superb"
+- Had "good gray eyes" and a "naive face that did not lack beauty"
+- Marie notes his "coarse" ungloved hand, which she found appealing
+- Had a mustache he would pull when displeased
+- Marie criticizes his gait/walk as "ignoble" in a later marginal note
+- Dressed elegantly and rode horses
 
-In her February 11 entry, Marie describes seeing Boreel at a ball where he appeared to be courting "une jolie Ecossaise" (a pretty Scottish girl). She admits she would have been "furieuse" (furious) if he had danced with another girl in front of her, suggesting some possessiveness despite her claimed lack of romantic interest.
+## Social Activities
 
-## Role in Marie's Social Circle
+Boreel participated in the typical activities of wealthy visitors to Nice:
 
-Boreel appears to be a regular member of the high society in Nice that Marie frequented. He attended the same social events, including:
+- Daily appearances on the Promenade des Anglais, often on horseback or in a carriage
+- Attendance at balls and social events (appeared as a "bandit" at Carnival balls)
+- Directed the cotillion at a ball at the Cercle Masséna
+- Visits to Monaco, which Marie views negatively
+- Participation in the carnival cavalcade
 
-1. The Floréal ball (January 14)
-2. The Cercle Masséna (January 18)
-3. The Théâtre Français (January 18)
-4. Various balls and social gatherings in February
+## Marie's Relationship with Boreel
 
-His consistent presence in these settings indicates he was part of the international aristocratic or wealthy social circle in Nice during the winter season of 1873.
+Marie's feelings toward Boreel fluctuate dramatically throughout her diary:
 
-## Relationship with Marie
+1. **Initial Attraction**: She admits to being attracted to him and blushing when he looks at her
+2. **Strategic Thinking**: She uses her apparent interest in Boreel to disguise her feelings for the Duke
+3. **Disappointment**: She expresses disappointment upon learning he is not a baron
+4. **Criticism**: She criticizes his behavior, particularly his visits to Monaco and alleged drinking
+5. **Renewed Interest**: She admits to missing seeing him when he appears less frequently
+6. **Comparison**: She constantly compares him unfavorably to the Duke of Hamilton
+7. **Later Dismissal**: In marginal notes added later, she dismisses her interest in him as childish
 
-Marie's relationship with Boreel appears complex:
+Marie and Boreel never have a direct conversation in these diary entries. Their interaction is limited to exchanged glances, his greetings to her mother, and Marie throwing flowers to him during carnival.
 
-1. **Initial Interest**: There are indications that Marie was initially interested in or intrigued by Boreel ("Et dire qu'il m'a tellement intéressée !" - And to think that he interested me so much!)
+## Confusion About Identity
 
-2. **Declining Attraction**: By mid-January, Marie's interest was waning, with specific complaints about his physical appearance and bearing
+Marie records several conflicting accounts of Boreel's background:
 
-3. **Comparative Analysis**: Marie frequently uses Boreel as a point of comparison to the Duke of Hamilton, consistently finding the Duke superior
+1. Initially believed to be "Baron Finot"
+2. Identified as "M. Boreel, American"
+3. Later as "M. Boreel, Dutch"
+4. Finally as "M. Boreel, Prussian" (though Marie doubts this)
 
-4. **Strategic Consideration**: In her February 1 entry, Marie considers practical factors in choosing between suitors, noting that if her feelings for both men were equal, she would give preference to "the richest and also to the one who will love me best"
-
-5. **Continued Awareness**: Despite her claimed lack of interest, Marie remains acutely aware of Boreel's presence, absence, and interactions with other women at social events
+This confusion reflects both the international character of Nice's winter visitors and possibly Boreel's own ambiguity about his origins.
 
 ## Historical Context
 
-During the winter season in Nice in the 1870s, the city attracted wealthy and aristocratic visitors from across Europe. Young women of Marie's social class were expected to find suitable marriage partners, and social events provided opportunities for courtship under the watchful eyes of family members and chaperones.
+The presence of young men like Boreel in Nice during the winter season was typical of the international social scene of the French Riviera in the 1870s. Wealthy families from across Europe would spend the winter months in the mild Mediterranean climate, creating a cosmopolitan social environment.
 
-Marie's analytical approach to her potential suitors reflects both the practical considerations of marriage in her social class and her own precocious self-awareness. Her comparison of Boreel and the Duke of Hamilton demonstrates her understanding of the "marriage market" and her own position within it.
+Marie's preoccupation with Boreel's title (or lack thereof) reflects the class consciousness and social hierarchies of European society in this period. Her disappointment upon learning he is not a baron reveals her social ambitions and the importance she placed on aristocratic status.
 
-## Identity
+## Marie's Later Perspective
 
-While Marie's diary doesn't provide extensive biographical details about Boreel, his name suggests he may have been Dutch, possibly from the prominent Boreel family of the Netherlands. The presence of international aristocracy in Nice during this period was common, with visitors from across Europe gathering in the Mediterranean resort city during the winter season.
+In marginal notes added to her diary in 1874, Marie is often critical of her earlier interest in Boreel:
 
-[//]: # ( 2025-04-05T18:15:11 RSR: Created glossary entry for Boreel based on mentions in Marie's diary entries from January-February 1873 )
+- She calls her writings about him "detestable and stupid"
+- Refers to him as "this grotesque figure" when comparing him to Hamilton
+- Dismisses him as "a clumsy little joke" and "not a gentleman"
+- Notes that her interest in him had already ended "since the summer" before the winter season described
+
+These later comments suggest Marie's embarrassment about her youthful infatuation and her desire to distance herself from these feelings.
+
+[//]: # (2025-04-05T19:40:35 RSR: This glossary entry provides context about Alfred Boreel, a significant figure in Marie Bashkirtseff's diary during the winter of 1873. While less is known about the historical Boreel than about the Duke of Hamilton, Marie's detailed descriptions allow us to understand his role in her social world and her complex, fluctuating feelings toward him. The entry highlights how Marie's interest in Boreel reveals aspects of her character, including her class consciousness, social strategies, and tendency toward romantic idealization followed by critical reassessment. The confusion about Boreel's nationality and background also reflects the international character of Nice's winter social scene during this period.)
