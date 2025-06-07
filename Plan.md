@@ -4,6 +4,10 @@ This document tracks the overall project plan and links to detailed sub-plans an
 
 ## Completed Work
 
+### June 2025
+
+- [Czech Translation Progress (2025-06-07)](memlog/2025-06-07-czech-translation-progress.md) - Enhanced Czech translations with detailed footnotes and cultural context
+
 ### April 2025
 
 - [Project Conventions Update (2025-04-05)](memlog/2025-04-05-project-conventions-update.md) - Updated project documentation and structure to reflect current conventions
@@ -11,6 +15,7 @@ This document tracks the overall project plan and links to detailed sub-plans an
 - [Researcher Prompt Update (2025-04-05)](memlog/2025-04-05-researcher-prompt-update.md) - Updated Researcher instructions to prevent opening entire raw files at once
 - [File Naming Convention Update (2025-04-05)](memlog/2025-04-05-file-naming-convention-update.md) - Updated file naming convention to use book folder + ISO date format and added date/paragraph linking rules
 - [Hashtags Update (2025-04-05)](memlog/2025-04-05-hashtags-update.md) - Added Boreel to hashtags list and created missing glossary entries as part of Book 1 verification
+- [September Transcription Progress (2025-04-05)](memlog/2025-04-05-september-transcription-progress.md) - Transcribed September 19-23, 1873 entries and created glossary entries for Miloradovitch and London House
 
 ### March 2025
 
@@ -58,3 +63,4 @@ This document tracks the overall project plan and links to detailed sub-plans an
 [//]: # ( 2025-04-05T16:57:00 PA: Updated Researcher Prompt entry to reflect changes to raw file handling )
 [//]: # ( 2025-04-05T17:39:00 PA: Added file naming convention update to implement book folder + ISO date format and date/paragraph linking )
 [//]: # ( 2025-04-05T18:40:11 PA: Added hashtags update entry for Book 1 verification work )
+[//]: # ( 2025-06-07T14:53:00 PA: Added Czech translation progress entry and September transcription progress entry to completed work )
