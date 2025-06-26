@@ -3,7 +3,9 @@
     "allow": [
       "Bash(grep:*)",
       "Bash(ls:*)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "mcp__vibe-tools__web_search",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }
