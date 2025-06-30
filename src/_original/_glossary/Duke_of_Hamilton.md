@@ -1,5 +1,9 @@
 # Duke of Hamilton
 
+**Research Status**: Comprehensive
+**Last Updated**: 2025-04-05
+**Diary Coverage**: Up to 1873-04-30
+
 ## Identity and Background
 
 The Duke of Hamilton mentioned in Marie Bashkirtseff's diary is likely William Alexander Louis Stephen Douglas-Hamilton, 12th Duke of Hamilton (1845-1895). He was a Scottish nobleman who held multiple titles including:

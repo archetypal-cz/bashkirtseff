@@ -5,7 +5,14 @@
       "Bash(ls:*)",
       "Bash(sed:*)",
       "mcp__vibe-tools__web_search",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(pip --version)",
+      "Bash(poetry --version)",
+      "Bash(uv venv:*)",
+      "Bash(source:*)",
+      "Bash(python scripts/compile_book.py:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:docs.anthropic.com)"
     ],
     "deny": []
   }

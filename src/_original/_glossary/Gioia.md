@@ -1,5 +1,9 @@
 # Gioia
 
+**Research Status**: Comprehensive
+**Last Updated**: 2025-06-28
+**Diary Coverage**: Up to 1873-02-18 (being updated)
+
 ## Identity and Background
 
 Gioia is a woman frequently mentioned in Marie Bashkirtseff's diary as the romantic interest or companion of the Duke of Hamilton. Her full identity is not clearly established in the diary entries, but based on Marie's descriptions, she appears to be:

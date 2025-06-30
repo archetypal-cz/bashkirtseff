@@ -1,5 +1,9 @@
 # Boreel
 
+**Research Status**: Comprehensive
+**Last Updated**: 2025-06-28
+**Diary Coverage**: Up to 1873-02-17 (being updated)
+
 ## Identity and Background
 
 Alfred Boreel, frequently mentioned in Marie Bashkirtseff's diary, was a young man she regularly encountered during the winter social season in Nice in 1873. Based on Marie's descriptions, he appears to have been:
