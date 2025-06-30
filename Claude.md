@@ -42,6 +42,32 @@ When working on translations with multiple agents:
 4. **Clear Handoffs**: Each agent documents their work with timestamped comments
 5. **Role Isolation**: Each agent focuses solely on their role's responsibilities
 
+## CRITICAL: Research Must Precede Translation
+
+**No entry should be translated until comprehensive research is complete:**
+
+1. **Pre-Translation Requirements**:
+   - All entities must be tagged with glossary links
+   - All glossary entries must exist and be comprehensive
+   - Literature, theater, and cultural references need explanatory footnotes
+   - Historical context must be documented
+
+2. **Translator Prerequisites**:
+   - Load all glossary entries referenced in the entry
+   - Review researcher notes and footnotes
+   - Understand full context before beginning translation
+   - Query any unclear references before proceeding
+
+3. **Research Completeness Checklist**:
+   - ✓ All people tagged and glossary entries created
+   - ✓ All places tagged and glossary entries created  
+   - ✓ All cultural references explained
+   - ✓ Historical events contextualized
+   - ✓ Literary/theatrical works identified and explained
+   - ✓ Period-specific terms clarified
+
+4. **Quality Gate**: If research is incomplete, return entry to Researcher role before translation begins
+
 ## Role-Specific Guidelines
 
 ### As Conductor

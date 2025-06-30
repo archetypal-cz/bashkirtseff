@@ -6,70 +6,127 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 
 ## The list
 
-- [#Duke_of_Hamilton](/_original/_glossary/Duke_of_Hamilton.md)
+### A
+- [#Acqua_Viva](/_original/_glossary/Acqua_Viva.md) - Bashkirtseff family residence
+- [#Anitchkoff](/_original/_glossary/Anitchkoff.md) - Russian noble family in Nice (Madame & Olga)
+- [#Audiffret](/_original/_glossary/Audiffret.md) - Prominent Nice family, young Audiffret was persistent suitor
 
-- [#Acqua_Viva](/_original/_glossary/Acqua_Viva.md)
-- [#Alexander_II](/_original/_glossary/Alexander_II.md)
-- [#Bete](/_original/_glossary/Bete.md)
-- [#Dina](/_original/_glossary/Dina.md)
-- [#Document_Humain](/_original/_glossary/Document_Humain.md)
-- [#Edmond_de_Goncourt](/_original/_glossary/Edmond_de_Goncourt.md)
-- [#Elder](/_original/_glossary/Elder.md)
-- [#Emile_Zola](/_original/_glossary/Emile_Zola.md)
-- [#Guy_de_Maupassant](/_original/_glossary/Guy_de_Maupassant.md)
-- [#Maman](/_original/_glossary/Maman.md)
-- [#Poltava](/_original/_glossary/Poltava.md)
-- [#Villa_Baquis](/_original/_glossary/Villa_Baquis.md)
-- [#Walitsky](/_original/_glossary/Walitsky.md)
-- [#Walitzky](/_original/_glossary/Walitzky.md)
-- [#Paul_Grigorievitch_Bashkirtseff](/_original/_glossary/Paul_Grigorievitch_Bashkirtseff.md)
-- [#Crimean_War](/_original/_glossary/Crimean_War.md)
-- [#Babanine](/_original/_glossary/Babanine.md)
-- [#Boreel](/_original/_glossary/Boreel.md)
-- [#Lermontov](/_original/_glossary/Lermontov.md)
-- [#Pushkin](/_original/_glossary/Pushkin.md)
-- [#Lord_Byron](/_original/_glossary/Lord_Byron.md)
-- [#Caucasus](/_original/_glossary/Caucasus.md)
-- [#Julie_Cornelius](/_original/_glossary/Julie_Cornelius.md)
-- [#Georges](/_original/_glossary/Georges.md)
-- [#Viatka](/_original/_glossary/Viatka.md)
-- [#St_Petersburg](/_original/_glossary/St_Petersburg.md)
-- [#Crimea](/_original/_glossary/Crimea.md)
-- [#Paul](/_original/_glossary/Paul.md)
-- [#Gavronzi](/_original/_glossary/Gavronzi.md)
-- [#Domenica](/_original/_glossary/Domenica.md)
-- [#Akhtyrka](/_original/_glossary/Akhtyrka.md)
-- [#Madame_Brenne](/_original/_glossary/Madame_Brenne.md)
-- [#Romanoff](/_original/_glossary/Romanoff.md)
-- [#Vassilissa_Babanine](/_original/_glossary/Vassilissa_Babanine.md)
-- [#Nadine_Martinoff](/_original/_glossary/Nadine_Martinoff.md)
-- [#Tcherniakovka](/_original/_glossary/Tcherniakovka.md)
-- [#Alexandre](/_original/_glossary/Alexandre.md)
-- [#Kharkoff](/_original/_glossary/Kharkoff.md)
-- [#Yalta](/_original/_glossary/Yalta.md)
-- [#Odessa](/_original/_glossary/Odessa.md)
-- [#Vienna](/_original/_glossary/Vienna.md)
-- [#Baden_Baden](/_original/_glossary/Baden_Baden.md)
-- [#Lucien_Walitsky](/_original/_glossary/Lucien_Walitsky.md)
-- [#Berthe_Boyd](/_original/_glossary/Berthe_Boyd.md)
-- [#Remy_de_Gonzales_Moreno](/_original/_glossary/Remy_de_Gonzales_Moreno.md)
-- [#Gonzales_Family](/_original/_glossary/Gonzales_Family.md)
-- [#Geneva](/_original/_glossary/Geneva.md)
-- [#Russia](/_original/_glossary/Russia.md)
-- [#Madame_Melnikoff](/_original/_glossary/Madame_Melnikoff.md)
-- [#Petipa](/_original/_glossary/Petipa.md)
-- [#Lola](/_original/_glossary/Lola.md)
-- [#Etienne](/_original/_glossary/Etienne.md)
-- [#Sophie_Dolgikoff](/_original/_glossary/Sophie_Dolgikoff.md)
-- [#Mont_Blanc](/_original/_glossary/Mont_Blanc.md)
-- [#Bachmakoff](/_original/_glossary/Bachmakoff.md)
-- [#Chtcherbine](/_original/_glossary/Chtcherbine.md)
-- [#Gioia](/_original/_glossary/Gioia.md)
-- [#Le_Bon_Marche](/_original/_glossary/Le_Bon_Marche.md)
-- [#London_House](/_original/_glossary/London_House.md)
-- [#Hactius](/_original/_glossary/Hactius.md)
-- [#House_of_Worth](/_original/_glossary/House_of_Worth.md)
-- [#Miloradovitch](/_original/_glossary/Miloradovitch.md)
-- [#Paris_1870s](/_original/_glossary/Paris_1870s.md)
-- [#Vienna_World_Exhibition](/_original/_glossary/Vienna_World_Exhibition.md)
-- [#Walery_Studio](/_original/_glossary/Walery_Studio.md)
+### B
+- [#Baden_Baden](/_original/_glossary/Baden_Baden.md) - German spa resort, Duke of Hamilton engaged there
+- [#Baron_Finot](/_original/_glossary/Baron_Finot.md) - Society figure
+- [#Bensa](/_original/_glossary/Bensa.md) - Merchant/tradesperson
+- [#Berthe](/_original/_glossary/Berthe.md) - Rival claiming Hamilton would marry her
+- [#Bete](/_original/_glossary/Bete.md) - "Princess/Princesse" - Marie's close companion
+- [#Boreel](/_original/_glossary/Boreel.md) - Young man Marie found attractive before Hamilton obsession
+
+### C
+- [#Canepa](/_original/_glossary/Canepa.md) - Person in Nice society
+- [#Carabacel](/_original/_glossary/Carabacel.md) - Location or person
+- [#Coco](/_original/_glossary/Coco.md) - Pet or nickname
+
+### D
+- [#Dina](/_original/_glossary/Dina.md) - Family member/companion who travels with them
+- [#Document_Humain](/_original/_glossary/Document_Humain.md) - "Human document" - Zola's naturalist concept
+- [#Dominique](/_original/_glossary/Dominique.md) - Person in their circle
+- [#Duke_of_Hamilton](/_original/_glossary/Duke_of_Hamilton.md) - William Douglas-Hamilton, Marie's obsession
+
+### E
+- [#Elder](/_original/_glossary/Elder.md) - Messenger who brought news of Hamilton's engagement
+- [#Emile_Zola](/_original/_glossary/Emile_Zola.md) - French naturalist writer
+
+### F
+- [#Ferry](/_original/_glossary/Ferry.md) - Shoe shop in Paris
+- [#French_Theater_Nice](/_original/_glossary/French_Theater_Nice.md) - Theater venue in Nice
+
+### G
+- [#Gagarine](/_original/_glossary/Gagarine.md) - Russian princely family in Nice (20 mentions)
+- [#Georges](/_original/_glossary/Georges.md) - Family member (possibly cousin)
+- [#Gioia](/_original/_glossary/Gioia.md) - Beautiful woman, Hamilton's mistress
+- [#Grand_papa](/_original/_glossary/Grand_papa.md) - Marie's grandfather, prefers Monte Carlo
+
+### H
+- [#Hitchcock](/_original/_glossary/Hitchcock.md) - English governess
+- [#House_of_Worth](/_original/_glossary/House_of_Worth.md) - Famous Paris fashion house
+- [#Howard_Family](/_original/_glossary/Howard_Family.md) - Close English friends (Willy, Helene, Lise, Aggie)
+
+### L
+- [#Le_Bon_Marche](/_original/_glossary/Le_Bon_Marche.md) - Paris department store
+- [#Le_ravin](/_original/_glossary/Le_ravin.md) - Location in Nice
+- [#London_House](/_original/_glossary/London_House.md) - Ice cream establishment in Nice
+
+### M
+- [#Ma_tante](/_original/_glossary/Ma_tante.md) - Marie's aunt Sophie, her guardian
+- [#Makaroff](/_original/_glossary/Makaroff.md) - Marie's teacher, "excellent professor"
+- [#Maman](/_original/_glossary/Maman.md) - Marie's mother
+- [#Marie_Ivanovna_Perlik](/_original/_glossary/Marie_Ivanovna_Perlik.md) - Warned against parents' marriage
+- [#Michelezzi](/_original/_glossary/Michelezzi.md) - Person in Nice society
+- [#Miloradovitch](/_original/_glossary/Miloradovitch.md) - Russian family, potential suitor
+- [#Monte_Carlo](/_original/_glossary/Monte_Carlo.md) - Monaco gambling resort
+- [#Mouton](/_original/_glossary/Mouton.md) - Horse dealer/stable owner in Nice
+
+### P
+- [#Papa](/_original/_glossary/Papa.md) - Constantin Bashkirtseff, Marie's father
+- [#Paris_1870s](/_original/_glossary/Paris_1870s.md) - Paris during this period
+- [#Paul](/_original/_glossary/Paul.md) - Family member, often in trouble
+
+### R
+- [#Rodionoff](/_original/_glossary/Rodionoff.md) - Russian noble family in Nice (10 mentions)
+- [#Rumpelmayer](/_original/_glossary/Rumpelmayer.md) - Confectionery/chocolate shop
+- [#Russia](/_original/_glossary/Russia.md) - Marie's homeland
+
+### S
+- [#Sacco](/_original/_glossary/Sacco.md) - Flower shop in Nice (12 mentions)
+- [#Saetone](/_original/_glossary/Saetone.md) - Italian-origin Nice society member (16 mentions)
+- [#Said](/_original/_glossary/Said.md) - Person in their circle
+- [#Solominka](/_original/_glossary/Solominka.md) - Regular companion of uncertain status
+- [#Sophie](/_original/_glossary/Sophie.md) - Marie's aunt (Ma tante)
+- [#Soubise](/_original/_glossary/Soubise.md) - Society figure
+
+### T
+- [#Teachers](/_original/_glossary/Teachers.md) - Collective entry for tutors (Leclerc, Brunet, Lemp, Manotte)
+- [#Tolstoy](/_original/_glossary/Tolstoy.md) - Tolstoy family members in Nice (not Leo)
+
+### V
+- [#Vicomtesse_Vigier](/_original/_glossary/Vicomtesse_Vigier.md) - Nice society lady
+- [#Vienna_World_Exhibition](/_original/_glossary/Vienna_World_Exhibition.md) - 1873 World's Fair
+- [#Villa_Baquis](/_original/_glossary/Villa_Baquis.md) - Bashkirtseff residence in Nice
+- [#Visconti](/_original/_glossary/Visconti.md) - Italian noble family
+
+### W
+- [#Walery_Studio](/_original/_glossary/Walery_Studio.md) - Photography studio
+- [#Walitsky](/_original/_glossary/Walitsky.md) - Close family friend (note: also spelled Walitzky)
+- [#Wittgenstein](/_original/_glossary/Wittgenstein.md) - Noble family with Nice villa
+
+## Entries Still Needing Glossary Files
+
+The following appear in hashtags but lack glossary files:
+
+### People
+- Alexander_II - Russian Emperor
+- Babanine - Family friend/relative
+- Bachmakoff - Society figure
+- Chtcherbine - Society figure
+- Edmond_de_Goncourt - French writer
+- Guy_de_Maupassant - French writer
+- Hactius - Doctor
+- Julie_Cornelius - Friend/relative
+- Lord_Byron - English poet (referenced)
+- Pushkin - Russian poet (referenced)
+- Lermontov - Russian poet (referenced)
+- And many others...
+
+### Places
+- Akhtyrka - Location in Russia
+- Caucasus - Russian region
+- Crimea - Russian peninsula
+- Geneva - Swiss city
+- Kharkoff - Russian city
+- Odessa - Russian port city
+- Poltava - Marie's home region
+- St_Petersburg - Russian capital
+- Tcherniakovka - Location
+- Vienna - Austrian capital
+- Viatka - Russian location
+- Yalta - Crimean resort
+
+[//]: # ( 2025-06-31T00:00:00 RSR: Updated HASHTAGS to match current glossary files and add descriptions )

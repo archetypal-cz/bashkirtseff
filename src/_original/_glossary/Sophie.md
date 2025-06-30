@@ -1,16 +1,21 @@
-# Sophie
+# Sophie (Ma tante)
 
-**Research Status**: Basic
-**Last Updated**: 2025-06-28
-**Diary Coverage**: Up to 1873-02-17
+**Research Status**: Comprehensive
+**Last Updated**: 2025-06-30
+**Diary Coverage**: Up to 1874-01-01
 
 ## Identity
 
-Sophie appears to be a member of the Bashkirtseff household in Nice during the winter of 1873. Based on diary entries, she seems to be:
+Sophie is Marie Bashkirtseff's aunt ("ma tante"), one of the most important figures in her early diary. Throughout 1873-1874, Sophie served as Marie's primary guardian during the family's European travels.
 
-- A companion or friend who accompanies Marie on outings
-- Someone of similar social standing who participates in promenades
-- Possibly a relative or close family friend staying with them
+## Confirmed Relationship
+
+The December 1873 entries clearly establish Sophie as "ma tante":
+- December 15, 1873: "maman, ma tante, moi, Dina" - Sophie is referenced as "ma tante" in family groupings
+- December 25, 1873: Multiple references confirm Sophie is the aunt who:
+  - Picks up Marie from social events
+  - Participates in family discussions about society figures
+  - Makes observations about other people like Gioia
 
 ## Role in Marie's Life
 
