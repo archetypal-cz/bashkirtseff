@@ -22,6 +22,7 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 ### C
 - [#Canepa](/_original/_glossary/Canepa.md) - Person in Nice society
 - [#Carabacel](/_original/_glossary/Carabacel.md) - Location or person
+- [#Cercle_Massena](/_original/_glossary/Cercle_Massena.md) - Prestigious social club in Nice
 - [#Coco](/_original/_glossary/Coco.md) - Pet or nickname
 
 ### D
@@ -61,6 +62,8 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 - [#Marie_Ivanovna_Perlik](/_original/_glossary/Marie_Ivanovna_Perlik.md) - Warned against parents' marriage
 - [#Michelezzi](/_original/_glossary/Michelezzi.md) - Person in Nice society
 - [#Miloradovitch](/_original/_glossary/Miloradovitch.md) - Russian family, potential suitor
+- [#Mlle_Collignon](/_original/_glossary/Mlle_Collignon.md) - Marie's French governess in Nice (~10 mentions)
+- [#Monaco](/_original/_glossary/Monaco.md) - Principality and gambling resort near Nice
 - [#Monte_Carlo](/_original/_glossary/Monte_Carlo.md) - Monaco gambling resort
 - [#Mouton](/_original/_glossary/Mouton.md) - Horse dealer/stable owner in Nice
 

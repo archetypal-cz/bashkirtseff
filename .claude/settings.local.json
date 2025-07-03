@@ -12,7 +12,11 @@
       "Bash(source:*)",
       "Bash(python scripts/compile_book.py:*)",
       "Bash(find:*)",
-      "WebFetch(domain:docs.anthropic.com)"
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(for f in 1873-04-*.md)",
+      "Bash(do grep -l \"Duke_of_Hamilton\" \"$f\")",
+      "Bash(echo \"$f\")",
+      "Bash(done)"
     ],
     "deny": []
   }
