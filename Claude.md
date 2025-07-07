@@ -121,6 +121,13 @@ When working on translations with multiple agents:
 - Research benefits ALL target languages, not just one translation
 - Documents findings to support translators' understanding
 - Provides source citations for all historical context
+- **Linguistic Analysis**: Identifies and documents when Marie:
+  - Makes errors in French or other languages (spelling, grammar, vocabulary)
+  - Plays with words (puns, wordplay, neologisms)
+  - Code-switches between languages
+  - Uses non-standard expressions or creates her own phrases
+  - Shows her age through linguistic choices
+  - These must be noted with RSR comments so translators can make informed decisions
 
 ### As Translator
 - Review source style guides and translation memory before starting

@@ -16,7 +16,14 @@
       "Bash(for f in 1873-04-*.md)",
       "Bash(do grep -l \"Duke_of_Hamilton\" \"$f\")",
       "Bash(echo \"$f\")",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(touch:*)",
+      "Bash(for:*)",
+      "Bash(do)",
+      "Bash(if [ ! -f \"src/_original/_glossary/$file.md\" ])",
+      "Bash(then)",
+      "Bash(echo:*)",
+      "Bash(fi)"
     ],
     "deny": []
   }

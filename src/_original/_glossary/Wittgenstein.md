@@ -1,8 +1,8 @@
 # Wittgenstein
 
 **Research Status**: Basic
-**Last Updated**: 2025-06-30
-**Diary Coverage**: Up to 1874-01-01
+**Last Updated**: 2025-07-06
+**Diary Coverage**: Up to 1874-04-29
 
 ## Overview
 
@@ -12,6 +12,10 @@ Wittgenstein appears in Marie Bashkirtseff's diary as a member of the aristocrat
 
 ### October 15, 1873
 During Marie's emotional crisis following news of Hamilton's engagement, she notes: "Point de Gioia... Point de Wittgenstein; partis!" (No Gioia... No Wittgenstein; gone!). This suggests Wittgenstein left Nice around the same time as Gioia, possibly indicating they were connected or traveled in the same social circles.
+
+### April 1874
+- **April 20**: Marie observes "En descendant la rue nous croisâmes la voiture du prince de Wittgenstein dans laquelle il était avec une belle dame qui sans doute est sa fille." Notes the prince looks around 50 years old.
+- **April 29**: Regular horseback rider: "Toutes les fois que le prince de Wittgenstein monte à cheval nous le voyons rentrer chez lui vers six heures, galopant." Marie sees only his back on grey horse. His presence makes her "rêveuse et fantastique." She observes: "J'ai vu aujourd'hui son dos, c'est la partie que j'aime le mieux en lui. Il tient la face et les yeux baissés. Sur ce cheval il paraît énorme."
 
 ### Social Position
 

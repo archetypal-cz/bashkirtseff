@@ -46,16 +46,40 @@ def compile_markdown(files: List[Path], output_path: Path) -> None:
         for file_path in files:
             log.info(f"Processing {file_path}")
 
-            # Extract date from filename (e.g., 1873-01-11.md -> 1873-01-11)
+            # Extract ISO date from filename for the link
             date_match = re.search(r"(\d{4}-\d{2}-\d{2})", file_path.name)
-            date_str = date_match.group(1) if date_match else file_path.stem
+            iso_date = date_match.group(1) if date_match else file_path.stem
 
-            # Add file header
-            outfile.write(f"## {date_str}\n\n")
+            # Get the relative path for the link
+            # Extract book_id and language from the output path
+            parts = output_path.parts
+            language_index = parts.index("pub") + 1
+            language = parts[language_index]
 
-            # Copy content
+            # Create the link to the original file
+            file_link = f"../{file_path.name}"
+            if language != "_original":
+                # For translations, link back to the original file
+                file_link = f"../../_original/{file_path.parent.name}/{file_path.name}"
+
+            # Read the file content
             with file_path.open("r", encoding="utf-8") as infile:
                 content = infile.read()
+
+                # Extract Marie's date from the first line if available
+                marie_date = None
+                first_line = content.split("\n", 1)[0] if content else ""
+                marie_date_match = re.search(r"\[\//\]: # \((.*?)\)", first_line)
+                if marie_date_match:
+                    marie_date = marie_date_match.group(1).strip()
+
+                # Use Marie's date if available, otherwise use ISO date
+                header_date = marie_date if marie_date else iso_date
+
+                # Add file header with link
+                outfile.write(f"## [{header_date}]({file_link})\n\n")
+
+                # Write the content
                 outfile.write(content)
                 outfile.write("\n\n")
 

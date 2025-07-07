@@ -1,8 +1,8 @@
 # Howard Family
 
 **Research Status**: Basic
-**Last Updated**: 2025-06-30
-**Diary Coverage**: Up to 1874-01-01
+**Last Updated**: 2025-07-06
+**Diary Coverage**: Up to 1874-04-30
 
 ## Overview
 
@@ -50,10 +50,15 @@ The Howards represent:
 
 ## Notable Events
 
+### 1873
 - **January 11, 1873**: "Les Howard étaient venus me chercher" - came to fetch Marie
 - **Regular Visits**: Constant presence throughout 1873
 - **Gift Exchanges**: Marie buying presents for the Howard children
 - **Shared Activities**: Promenades, shopping, social calls
+
+### 1874
+- **April 20**: Dance at Howards with Boutowsky family present
+- **April 30**: Visit from 4-6pm. Marie confronts Hélène about gambling rumors spread by Mrs. Howard. They reconcile and plan Sunday visit. Howards leaving Wednesday. Hélène claims Marie corseted due to "grosseur" - Marie insists naturally thin. Lise defends Marie's figure.
 
 ## Social Position
 
