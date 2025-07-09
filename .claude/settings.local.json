@@ -24,7 +24,8 @@
       "Bash(then)",
       "Bash(echo:*)",
       "Bash(fi)",
-      "Bash(do echo -n \"$file: \")"
+      "Bash(do echo -n \"$file: \")",
+      "Bash(rg:*)"
     ],
     "deny": []
   }
