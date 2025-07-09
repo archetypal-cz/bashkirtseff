@@ -23,7 +23,8 @@
       "Bash(if [ ! -f \"src/_original/_glossary/$file.md\" ])",
       "Bash(then)",
       "Bash(echo:*)",
-      "Bash(fi)"
+      "Bash(fi)",
+      "Bash(do echo -n \"$file: \")"
     ],
     "deny": []
   }
