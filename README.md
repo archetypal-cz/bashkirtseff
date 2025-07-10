@@ -26,6 +26,49 @@ If several languages are to be supported, we use short or long ISO language code
 - `/bin`: Contains executable tools - when needed to create and convert ebooks, or upload the translation versions somewhere
 - `/memlog`: Contains logs of completed work and plans
 
+## Book Organization and Date Ranges
+
+This project contains Marie Bashkirtseff's diary organized into 6 books covering 1873-1884:
+
+### Book Coverage and Processing Status
+
+| Book | Date Range | Entries | Raw Carnet | Hashtag Tagging | Research Comments | Status |
+|------|------------|---------|------------|-----------------|------------------|---------|
+| **00** | May 1-10, 1884 | 10 | 45KB | ✅ Complete (10/10) | ❌ None | Complete - Final entries |
+| **01** | Jan 11 - May 3, 1873 | 99 | 544KB | ✅ Nearly complete (97/99) | ✅ Most entries (77/99) | Highly researched |
+| **02** | Aug 11, 1873 - Jan 1, 1874 | 143 | 624KB | ✅ Nearly complete (140/143) | ✅ Nearly complete (134/143) | Highly researched |
+| **03** | Jan 2 - July 4, 1874 | 182 | 607KB | ✅ Nearly complete (175/182) | ✅ Complete (182/182) | Fully researched |
+| **04** | July 5, 1874 - Apr 2, 1875 | 258 | 786KB | ⚠️ Partial (107/258) | ✅ Complete (258/258) | **Needs hashtag tagging** |
+| **05** | Apr 2, 1875 - Sep 25, 1875* | 18 | 744KB | ✅ Nearly complete (17/18) | ⚠️ Partial (13/18) | **Needs extraction** |
+
+*Book 05 raw carnet covers through September 25, 1875 but only April 2-19 entries have been extracted*
+
+### Book Content Highlights
+
+- **Book 00 (1884)**: Marie's preface and final diary entries before her death
+- **Book 01 (1873)**: Early diary entries, establishment in Nice, social observations
+- **Book 02 (1873-1874)**: Continued Nice life, Hamilton obsession development
+- **Book 03 (1874)**: Major Hamilton obsession, Nice society, personal development
+- **Book 04 (1874-1875)**: Extended period including London visits, social isolation, Prince of Wales encounters
+- **Book 05 (1875)**: Continued Nice life, piano recitals, ongoing romantic interests
+
+### Known Gaps and Anomalies
+
+#### Missing Dates
+- **Book 03**: April 4, 1874
+- **Book 04**: September 13-15, 1874; December 15, 1874; March 8-17, 1875 (10-day gap)
+
+#### Technical Issues
+- **Book 04**: August 18, 1874 entry has split text issue documented in research comments
+- **Book 05**: April 2, 1875 appears in both Book 04 and Book 05 (overlap)
+
+### Research Methodology
+
+The project uses a systematic tagging approach:
+- **Hashtag Tagging**: Paragraph-level entity linking using `[//]: # ( [#Entity](/src/_original/_glossary/Entity.md) )`
+- **Researcher Comments**: Historical context and analysis using `[//]: # ( YYYY-MM-DDThh:mm:ss RSR: comment )`
+- **Glossary Integration**: 400+ entity entries providing historical context and biographical information
+
 ## File Naming Conventions
 
 - `*.done.md`: Completed translations

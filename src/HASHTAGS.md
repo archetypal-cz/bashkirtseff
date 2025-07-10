@@ -14,6 +14,7 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 ### B
 - [#Baden_Baden](/_original/_glossary/Baden_Baden.md) - German spa resort, Duke of Hamilton engaged there
 - [#Baron_Finot](/_original/_glossary/Baron_Finot.md) - Society figure
+- [#Batourine](/_original/_glossary/Batourine.md) - Mother's former suitor, encountered at Wiesbaden
 - [#Bensa](/_original/_glossary/Bensa.md) - Merchant/tradesperson
 - [#Berthe](/_original/_glossary/Berthe.md) - Rival claiming Hamilton would marry her
 - [#Bete](/_original/_glossary/Bete.md) - "Princess/Princesse" - Marie's close companion
@@ -41,6 +42,7 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 
 ### G
 - [#Gagarine](/_original/_glossary/Gagarine.md) - Russian princely family in Nice (20 mentions)
+- [#Galula](/_original/_glossary/Galula.md) - Crucial intermediary for Marie-Audiffret introduction
 - [#Georges](/_original/_glossary/Georges.md) - Family member (possibly cousin)
 - [#Gioia](/_original/_glossary/Gioia.md) - Beautiful woman, Hamilton's mistress
 - [#Grand_papa](/_original/_glossary/Grand_papa.md) - Marie's grandfather, prefers Monte Carlo
@@ -60,6 +62,7 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 - [#Makaroff](/_original/_glossary/Makaroff.md) - Marie's teacher, "excellent professor"
 - [#Maman](/_original/_glossary/Maman.md) - Marie's mother
 - [#Marie_Ivanovna_Perlik](/_original/_glossary/Marie_Ivanovna_Perlik.md) - Warned against parents' marriage
+- [#Marie_Sapogenikoff](/_original/_glossary/Marie_Sapogenikoff.md) - Sapogenikoff daughter, "Aglaé" of Three Graces
 - [#Michelezzi](/_original/_glossary/Michelezzi.md) - Person in Nice society
 - [#Miloradovitch](/_original/_glossary/Miloradovitch.md) - Russian family, potential suitor
 - [#Mlle_Collignon](/_original/_glossary/Mlle_Collignon.md) - Marie's French governess in Nice (~10 mentions)
@@ -67,12 +70,19 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 - [#Monte_Carlo](/_original/_glossary/Monte_Carlo.md) - Monaco gambling resort
 - [#Mouton](/_original/_glossary/Mouton.md) - Horse dealer/stable owner in Nice
 
+### N
+- [#Nina](/_original/_glossary/Nina.md) - Family companion and musical partner
+
+### O
+- [#Olga_Sapogenikoff](/_original/_glossary/Olga_Sapogenikoff.md) - Sapogenikoff daughter, "Euphrosine" of Three Graces
+
 ### P
 - [#Papa](/_original/_glossary/Papa.md) - Constantin Bashkirtseff, Marie's father
 - [#Paris_1870s](/_original/_glossary/Paris_1870s.md) - Paris during this period
 - [#Paul](/_original/_glossary/Paul.md) - Family member, often in trouble
 
 ### R
+- [#Rickard](/_original/_glossary/Rickard.md) - English-speaking acquaintance in Nice society
 - [#Rodionoff](/_original/_glossary/Rodionoff.md) - Russian noble family in Nice (10 mentions)
 - [#Rumpelmayer](/_original/_glossary/Rumpelmayer.md) - Confectionery/chocolate shop
 - [#Russia](/_original/_glossary/Russia.md) - Marie's homeland
@@ -81,12 +91,15 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 - [#Sacco](/_original/_glossary/Sacco.md) - Flower shop in Nice (12 mentions)
 - [#Saetone](/_original/_glossary/Saetone.md) - Italian-origin Nice society member (16 mentions)
 - [#Said](/_original/_glossary/Said.md) - Person in their circle
+- [#Sapogenikoff](/_original/_glossary/Sapogenikoff.md) - Russian family with daughters Marie and Olga
+- [#Smirnoff](/_original/_glossary/Smirnoff.md) - Russian gentleman in Nice social circle
 - [#Solominka](/_original/_glossary/Solominka.md) - Regular companion of uncertain status
 - [#Sophie](/_original/_glossary/Sophie.md) - Marie's aunt (Ma tante)
 - [#Soubise](/_original/_glossary/Soubise.md) - Society figure
 
 ### T
 - [#Teachers](/_original/_glossary/Teachers.md) - Collective entry for tutors (Leclerc, Brunet, Lemp, Manotte)
+- [#Three_Graces](/_original/_glossary/Three_Graces.md) - Society formed by Marie and Sapogenikoff sisters
 - [#Tolstoy](/_original/_glossary/Tolstoy.md) - Tolstoy family members in Nice (not Leo)
 
 ### V
@@ -98,6 +111,7 @@ Hashtags must ONLY contain western ASCII characters and are not case sensitive. 
 ### W
 - [#Walery_Studio](/_original/_glossary/Walery_Studio.md) - Photography studio
 - [#Walitsky](/_original/_glossary/Walitsky.md) - Close family friend (note: also spelled Walitzky)
+- [#Wiesbaden](/_original/_glossary/Wiesbaden.md) - German spa town visited August 1875
 - [#Wittgenstein](/_original/_glossary/Wittgenstein.md) - Noble family with Nice villa
 
 ## Entries Still Needing Glossary Files
@@ -132,4 +146,4 @@ The following appear in hashtags but lack glossary files:
 - Viatka - Russian location
 - Yalta - Crimean resort
 
-[//]: # ( 2025-06-31T00:00:00 RSR: Updated HASHTAGS to match current glossary files and add descriptions )
+[//]: # ( 2025-07-10T21:00:00 PA: Added new Book 5 entities - Batourine, Galula, Marie_Sapogenikoff, Nina, Olga_Sapogenikoff, Rickard, Sapogenikoff, Smirnoff, Three_Graces, Wiesbaden )
