@@ -25,7 +25,8 @@
       "Bash(echo:*)",
       "Bash(fi)",
       "Bash(do echo -n \"$file: \")",
-      "Bash(rg:*)"
+      "Bash(rg:*)",
+      "Bash(diff:*)"
     ],
     "deny": []
   }
