@@ -35,16 +35,15 @@ update:
 
 # Compile a specific book for a language (e.g., just compile 01 cz)
 compile book=default_book lang=default_lang:
-    poetry run python scripts/compile_book.py {{book}} {{lang}}
+    poetry run python scripts/compile_book.py {{book}} --language {{lang}}
 
 # Compile all books for a language (alias: build)
 build lang=default_lang:
-    poetry run python scripts/compile_all_books.py {{lang}}
+    poetry run python scripts/compile_all_books.py --languages {{lang}}
 
 # Compile all books for all languages
 build-all:
-    poetry run python scripts/compile_all_books.py _original
-    poetry run python scripts/compile_all_books.py cz
+    poetry run python scripts/compile_all_books.py --languages _original --languages cz
 
 # Quick build for development (Czech only)
 dev:
@@ -168,6 +167,15 @@ list-entries book=default_book:
 recent book=default_book count="5":
     @echo "Last {{count}} entries in Book {{book}}:"
     @ls -la src/_original/{{book}}/*.md 2>/dev/null | tail -{{count}} | awk '{print $9}'
+
+# === DEPLOYMENT ===
+
+# Build for production and create robots.txt
+build-prod:
+    just build-all
+    @echo "User-agent: *" > pub/robots.txt
+    @echo "Disallow: /" >> pub/robots.txt
+    @echo "Production build complete with robots.txt"
 
 # === HELP ===
 
