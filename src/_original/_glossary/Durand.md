@@ -20,8 +20,8 @@ Woman discussed in context of social reception standards, alongside Lewin and Pr
 - Part of Nice's looser social standards
 
 ## Related Entries
-- [Lewin](/src/_original/_glossary/Lewin.md) - Discussed together
-- [Prodgers](/src/_original/_glossary/Prodgers.md) - Similar social status
+- [#Lewin](Lewin.md) - Discussed together
+- [#Prodgers](Prodgers.md) - Similar social status
 
 ## Research Notes
 - Social hierarchies Nice vs Paris

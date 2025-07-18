@@ -26,9 +26,9 @@ Capital of Ottoman Empire (modern Istanbul), destination of Hamilton's Middle Ea
 - Orient Express terminus (later)
 
 ## Related Entries
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Visitor
-- [Lord_Mandeville](/src/_original/_glossary/Lord_Mandeville.md) - Fellow traveler
-- [Alexandria](/src/_original/_glossary/Alexandria.md) - Departure point
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Visitor
+- [#Lord_Mandeville](Lord_Mandeville.md) - Fellow traveler
+- [#Alexandria](Alexandria.md) - Departure point
 
 ## Research Notes
 - Victorian orientalism

@@ -100,9 +100,9 @@ The establishment of clubs like the Cercle Masséna was integral to Nice's evolu
 - Public yet exclusive character
 
 ## Related Entries
-- [Monaco](/src/_original/_glossary/Monaco.md) - The more glamorous gambling destination
-- [French Theater Nice](/src/_original/_glossary/French_Theater_Nice.md) - Another key social venue
-- [Duke of Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Frequented such aristocratic venues
+- [#Monaco](Monaco.md) - The more glamorous gambling destination
+- [#French Theater Nice](French_Theater_Nice.md) - Another key social venue
+- [#Duke of Hamilton](Duke_of_Hamilton.md) - Frequented such aristocratic venues
 
 [//]: # ( 2025-06-30T03:15:00 RSR: Created entry for important social club mentioned throughout diary )
 [//]: # ( 2025-01-07T10:35:00 RSR: Updated to comprehensive research status with detailed historical context )

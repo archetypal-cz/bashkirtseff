@@ -20,8 +20,8 @@ Person Tchernichoff resembles, along with "vieux Emile."
 - Part of Marie's categorization system
 
 ## Related Entries
-- [Tchernichoff](/src/_original/_glossary/Tchernichoff.md) - Resembles him
-- [Emile](/src/_original/_glossary/Emile.md) - Also resembles him
+- [#Tchernichoff](Tchernichoff.md) - Resembles him
+- [#Emile](Emile.md) - Also resembles him
 
 ## Research Notes
 - Male vanity and hair dyeing

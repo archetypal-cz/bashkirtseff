@@ -21,9 +21,9 @@ Russian man who appears to be inappropriately attached to Paul, Marie's 14-year-
 - Part of Paul's concerning social circle
 
 ## Related Entries
-- [Paul](/src/_original/_glossary/Paul.md) - Marie's brother
-- [Dina](/src/_original/_glossary/Dina.md) - Sister
-- [Walitsky](/src/_original/_glossary/Walitsky.md) - Family friend
+- [#Paul](Paul.md) - Marie's brother
+- [#Dina](Dina.md) - Sister
+- [#Walitsky](Walitsky.md) - Family friend
 
 ## Research Notes
 - Adult men's inappropriate interest in adolescent boys

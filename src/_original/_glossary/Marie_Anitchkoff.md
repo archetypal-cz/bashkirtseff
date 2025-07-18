@@ -20,7 +20,7 @@ Young daughter of Mme Anitchkoff, described by Marie as one of the poorly dresse
 - Mother eventually appears at church
 
 ## Related Entries
-- [Anitchkoff](/src/_original/_glossary/Anitchkoff.md) - Her mother
+- [#Anitchkoff](Anitchkoff.md) - Her mother
 
 ## Research Notes
 - Child welfare in expatriate community

@@ -19,8 +19,8 @@ Russian Grand Duke, son of Grand Duke Constantin, marrying Mlle Skobeleff in 187
 - Marrying into Skobeleff family
 
 ## Related Entries
-- [Skobeleff](/src/_original/_glossary/Skobeleff.md) - Bride
-- [Princess Belocelsky](/src/_original/_glossary/Princess_Belocelsky.md) - Bride's sister
+- [#Skobeleff](Skobeleff.md) - Bride
+- [#Princess Belocelsky](Princess_Belocelsky.md) - Bride's sister
 
 ## Research Notes
 - Several Grand Duke Nicolas in Romanov family

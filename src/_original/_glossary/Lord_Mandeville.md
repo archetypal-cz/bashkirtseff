@@ -26,8 +26,8 @@ Son of the Duke of Manchester and brother-in-law of the Duke of Hamilton, travel
 - Grand Tour companions
 
 ## Related Entries
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Brother-in-law and travel companion
-- [Duke_of_Manchester](/src/_original/_glossary/Duke_of_Manchester.md) - Father
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Brother-in-law and travel companion
+- [#Duke_of_Manchester](Duke_of_Manchester.md) - Father
 
 ## Research Notes
 - Aristocratic marriage alliances

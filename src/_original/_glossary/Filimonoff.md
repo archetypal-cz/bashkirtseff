@@ -20,7 +20,7 @@ Russian couple (M. et Mme Filimonoff) who request to hear Marie sing at the Howa
 - Dark room singing preference noted
 
 ## Related Entries
-- [Howard_Family](/src/_original/_glossary/Howard_Family.md) - Party hosts
+- [#Howard_Family](Howard_Family.md) - Party hosts
 
 ## Research Notes
 - Musical entertainment at social events

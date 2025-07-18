@@ -21,7 +21,7 @@ Song from Offenbach's "La Belle Hélène" that Marie performs.
 - Shows her musical training and dramatic interests
 
 ## Related Entries
-- [Belle_Helene](/src/_original/_glossary/Belle_Helene.md) - The operetta
+- [#Belle_Helene](Belle_Helene.md) - The operetta
 
 ## Research Notes
 - Offenbach operetta performances

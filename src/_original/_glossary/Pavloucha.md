@@ -19,9 +19,9 @@ Person in Marie's household who notices when she's upset about Lambertye not app
 - Listed after family and Walitsky
 
 ## Related Entries
-- [Walitsky](/src/_original/_glossary/Walitsky.md) - Also notices Marie's mood
-- [Maman](/src/_original/_glossary/Maman.md) - Also notices
-- [Ma_tante](/src/_original/_glossary/Ma_tante.md) - Also notices
+- [#Walitsky](Walitsky.md) - Also notices Marie's mood
+- [#Maman](Maman.md) - Also notices
+- [#Ma_tante](Ma_tante.md) - Also notices
 
 ## Research Notes
 - Pavloucha is affectionate diminutive

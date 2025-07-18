@@ -30,8 +30,8 @@ Brother of the Duke of Hamilton, spotted by Marie in Nice. Described as having "
 - Would look perfect in Louis XV costume
 
 ## Related Entries
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Brother
-- [Baden_Baden](/src/_original/_glossary/Baden_Baden.md) - Where known
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Brother
+- [#Baden_Baden](Baden_Baden.md) - Where known
 
 ## Research Notes
 - Hamilton family members

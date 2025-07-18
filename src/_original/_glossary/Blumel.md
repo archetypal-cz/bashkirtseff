@@ -20,7 +20,7 @@ Name used by Anna at charity auction.
 - Marie doesn't explain the emotional reaction
 
 ## Related Entries
-- [Anna](/src/_original/_glossary/Anna.md) - Person using the name
+- [#Anna](Anna.md) - Person using the name
 
 ## Research Notes
 - Name changes and social identity

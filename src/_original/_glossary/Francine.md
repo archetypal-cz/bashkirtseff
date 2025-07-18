@@ -20,7 +20,7 @@ Dressmaker or fashion house, likely in Paris, where Marie had a green costume ma
 - Decides to have duplicate made
 
 ## Related Entries
-- [House_of_Worth](/src/_original/_glossary/House_of_Worth.md) - Another fashion source
+- [#House_of_Worth](House_of_Worth.md) - Another fashion source
 - Fashion and dressmaking
 
 ## Research Notes

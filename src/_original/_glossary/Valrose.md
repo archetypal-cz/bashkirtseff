@@ -17,7 +17,7 @@ The venue was significant enough to host charity concerts attended by the social
 - **March 1, 1874**: Venue for charity concert benefiting the Samaritaines
 
 ## Related Entries
-- [Samaritaines](/src/_original/_glossary/Samaritaines.md) - Charity that benefited from concert
-- [Nice](/src/_original/_glossary/Nice.md) - City where located
+- [#Samaritaines](Samaritaines.md) - Charity that benefited from concert
+- [#Nice](Nice.md) - City where located
 
 [//]: # (RSR: Research needed on exact location and history of Valrose in Nice)

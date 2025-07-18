@@ -19,8 +19,8 @@ Hotel in Nice where Papa Furstenberg stays.
 - Typical accommodation for wealthy visitors
 
 ## Related Entries
-- [Furstenberg](/src/_original/_glossary/Furstenberg.md) - Guest
-- [Nice](/src/_original/_glossary/Nice.md) - Location
+- [#Furstenberg](Furstenberg.md) - Guest
+- [#Nice](Nice.md) - Location
 
 ## Research Notes
 - Nice had numerous luxury hotels

@@ -26,9 +26,9 @@ Hungarian prince, renowned gentleman-rider who stayed at Shepheard's Hotel with 
 - Hungarian magnates with vast estates
 
 ## Related Entries
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Horse owner
-- [Bar_le_Duc](/src/_original/_glossary/Bar_le_Duc.md) - Hamilton's horse
-- [Baden_Baden](/src/_original/_glossary/Baden_Baden.md) - Where known
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Horse owner
+- [#Bar_le_Duc](Bar_le_Duc.md) - Hamilton's horse
+- [#Baden_Baden](Baden_Baden.md) - Where known
 
 ## Research Notes
 - Gentleman-rider culture

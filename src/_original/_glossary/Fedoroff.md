@@ -21,7 +21,7 @@ Russian expatriate in Nice who died suddenly while playing cards.
 - Formal French: "passé de vie à trépas"
 
 ## Related Entries
-- [Patton](/src/_original/_glossary/Patton.md) - Host where he died
+- [#Patton](Patton.md) - Host where he died
 
 ## Research Notes
 - Sudden deaths in 19th century

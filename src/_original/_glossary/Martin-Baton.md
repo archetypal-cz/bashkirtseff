@@ -21,7 +21,7 @@ Gardener at Villa 55 who owns a poodle that resembles Lambertye.
 
 ## Related Entries
 - Villa 55 - Workplace
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Dog resembles him
+- [#Lambertye](Lambertye.md) - Dog resembles him
 
 ## Research Notes
 - "Martin-Bâton" unusual compound surname

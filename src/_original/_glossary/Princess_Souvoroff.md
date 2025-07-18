@@ -21,7 +21,7 @@ Russian princess in Nice social circle. From one of Russia's most distinguished 
 - Presence in Nice typical of Russian aristocracy
 
 ## Related Entries
-- [Promenade_des_Anglais](/src/_original/_glossary/Promenade_des_Anglais.md) - Where seen
+- [#Promenade_des_Anglais](Promenade_des_Anglais.md) - Where seen
 
 ## Research Notes
 - Alternative spellings: Suvorov, Souvorov

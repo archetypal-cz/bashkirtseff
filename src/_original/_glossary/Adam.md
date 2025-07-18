@@ -21,7 +21,7 @@ The Bashkirtseff family's cook who has become Paul's corrupting companion and me
 - Inappropriate mentor relationship
 
 ## Related Entries
-- [Paul](/src/_original/_glossary/Paul.md) - Corrupted by Adam
+- [#Paul](Paul.md) - Corrupted by Adam
 
 ## Research Notes
 - Servants overstepping boundaries

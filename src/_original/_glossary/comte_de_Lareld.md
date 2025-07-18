@@ -20,7 +20,7 @@ French count seriously courting Mlle Spang in Nice.
 - Spring 1874 marriage season participant
 
 ## Related Entries
-- [Spang](/src/_original/_glossary/Spang.md) - Woman he's courting
+- [#Spang](Spang.md) - Woman he's courting
 
 ## Research Notes
 - Name spelling uncertain (Lareld/L'Areld)

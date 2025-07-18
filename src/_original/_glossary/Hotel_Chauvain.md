@@ -17,7 +17,7 @@ The hotel's hosting of Aivazovsky's exhibition indicates it was a prestigious ve
 - **March 1, 1874**: Exhibition venue for Aivazovsky's marine paintings
 
 ## Related Entries
-- [Aivazovsky](/src/_original/_glossary/Aivazovsky.md) - Artist whose works were exhibited
-- [Nice](/src/_original/_glossary/Nice.md) - Location of the hotel
+- [#Aivazovsky](Aivazovsky.md) - Artist whose works were exhibited
+- [#Nice](Nice.md) - Location of the hotel
 
 [//]: # (RSR: Research needed on hotel's exact location and history)

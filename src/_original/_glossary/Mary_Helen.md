@@ -20,7 +20,7 @@ Daughter of the Boutowsky family, showing new friendliness to Marie.
 - Young woman in Nice society
 
 ## Related Entries
-- [Boutowsky](/src/_original/_glossary/Boutowsky.md) - Her family
+- [#Boutowsky](Boutowsky.md) - Her family
 
 ## Research Notes
 - English naming influence on Russians

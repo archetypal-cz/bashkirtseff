@@ -30,8 +30,8 @@ Former Bashkirtseff family estate in Ukraine, representing both their lost grand
 - Forced emigration patterns
 
 ## Related Entries
-- [Papa](/src/_original/_glossary/Papa.md) - Former owner
-- [Russia](/src/_original/_glossary/Russia.md) - Location context
+- [#Papa](Papa.md) - Former owner
+- [#Russia](Russia.md) - Location context
 
 ## Research Notes
 - Ukrainian estate system 1860s-70s

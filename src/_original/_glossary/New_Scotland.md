@@ -21,7 +21,7 @@ Dressmaker or fashion house in Nice where Marie orders clothing.
 - Name suggests British fashion influence
 
 ## Related Entries
-- [Simone](/src/_original/_glossary/Simone.md) - Another dressmaker
+- [#Simone](Simone.md) - Another dressmaker
 
 ## Research Notes
 - British fashion houses in Nice 1870s

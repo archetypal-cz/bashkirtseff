@@ -313,6 +313,17 @@ def convert_to_html(
     with markdown_path.open("r", encoding="utf-8") as md_file:
         md_content = md_file.read()
 
+    # Special handling for glossary: transform internal glossary links to same-file anchors
+    if "_glossary" in str(markdown_path):
+        # Transform links like [Entry_Name](/src/_original/_glossary/Entry_Name.md) to [Entry_Name](#Entry_Name)
+        glossary_link_pattern = r'\[([^\]]+)\]\(/src/_original/_glossary/([^)]+)\.md\)'
+        md_content = re.sub(glossary_link_pattern, r'[\1](#\2)', md_content)
+        
+        # Transform links like [#Entry_Name](Entry_Name.md) to [#Entry_Name](#Entry_Name)
+        # This matches filenames without paths
+        glossary_link_pattern2 = r'\[([^\]]+)\]\(([^/\)]+)\.md\)'
+        md_content = re.sub(glossary_link_pattern2, r'[\1](#\2)', md_content)
+
     # Convert markdown to HTML
     html_content = markdown.markdown(
         md_content,

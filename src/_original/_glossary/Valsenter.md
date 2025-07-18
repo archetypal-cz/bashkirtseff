@@ -19,8 +19,8 @@ A tall woman in Nice society whom Marie calls an "obélisque" (obelisk).
 - Part of Nice social circle
 
 ## Related Entries
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Who admires her type
-- [Obelisque](/src/_original/_glossary/Obelisque.md) - Another tall woman
+- [#Lambertye](Lambertye.md) - Who admires her type
+- [#Obelisque](Obelisque.md) - Another tall woman
 
 ## Research Notes
 - Name possibly Germanic or Dutch

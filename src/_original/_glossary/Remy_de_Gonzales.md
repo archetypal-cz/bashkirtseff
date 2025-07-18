@@ -27,9 +27,9 @@ Young man from Baden-Baden who attempted romantic advances with Marie three year
 - Understood Marie's feelings
 
 ## Related Entries
-- [Baden_Baden](/src/_original/_glossary/Baden_Baden.md) - Where they met
-- [Stuttgart](/src/_original/_glossary/Stuttgart.md) - His destination
-- [Stephan](/src/_original/_glossary/Stephan.md) - Also kissed Marie's hand
+- [#Baden_Baden](Baden_Baden.md) - Where they met
+- [#Stuttgart](Stuttgart.md) - His destination
+- [#Stephan](Stephan.md) - Also kissed Marie's hand
 
 ## Research Notes
 - Baden-Baden international youth

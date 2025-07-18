@@ -19,7 +19,7 @@ Russian princess, sister of Mlle Skobeleff who is marrying Grand Duke Nicolas in
 - Beloselsky one of oldest Russian noble families
 
 ## Related Entries
-- [Skobeleff](/src/_original/_glossary/Skobeleff.md) - Sister marrying Grand Duke
+- [#Skobeleff](Skobeleff.md) - Sister marrying Grand Duke
 
 ## Research Notes
 - Beloselsky-Belozersky descended from Rurik dynasty

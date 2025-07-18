@@ -21,8 +21,8 @@ Swiss city that Marie loves for short visits.
 - Contrast with permanent desires (Paris/London)
 
 ## Related Entries
-- [Paris_1870s](/src/_original/_glossary/Paris_1870s.md) - Ultimate destination
-- [London](/src/_original/_glossary/London.md) - Other dream city
+- [#Paris_1870s](Paris_1870s.md) - Ultimate destination
+- [#London](London.md) - Other dream city
 
 ## Research Notes
 - Geneva as 1870s international hub

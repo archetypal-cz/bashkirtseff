@@ -27,8 +27,8 @@ Russian family who have become the new social favorites in Nice, displacing othe
 - Other daughters mentioned
 
 ## Related Entries
-- [Howard_Family](/src/_original/_glossary/Howard_Family.md) - Host circle
-- [Mary_Helen](/src/_original/_glossary/Mary_Helen.md) - Daughter
+- [#Howard_Family](Howard_Family.md) - Host circle
+- [#Mary_Helen](Mary_Helen.md) - Daughter
 
 ## Research Notes
 - Social mobility in expatriate circles

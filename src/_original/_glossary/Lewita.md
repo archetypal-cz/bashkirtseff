@@ -22,9 +22,9 @@ One of Paul's inappropriate adult companions who takes him to the casino.
 - One of the "hommes de trente ans" Paul associates with
 
 ## Related Entries
-- [Paul](/src/_original/_glossary/Paul.md) - Marie's corrupted brother
-- [Monte_Carlo](/src/_original/_glossary/Monte_Carlo.md) - Casino destination
-- [Adam](/src/_original/_glossary/Adam.md) - Another corrupting influence
+- [#Paul](Paul.md) - Marie's corrupted brother
+- [#Monte_Carlo](Monte_Carlo.md) - Casino destination
+- [#Adam](Adam.md) - Another corrupting influence
 
 ## Research Notes
 - Minor gambling laws in Monaco

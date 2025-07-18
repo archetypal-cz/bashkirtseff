@@ -23,10 +23,10 @@ An old man in Nice society who participates in shooting matches and associates w
 - Part of group that stares at Marie
 
 ## Related Entries
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Social companion
-- [Furstenberg](/src/_original/_glossary/Furstenberg.md) - Fellow shooter
-- [Zualart](/src/_original/_glossary/Zualart.md) - Another in their group
-- [comtesse de Galve](/src/_original/_glossary/comtesse_de_Galve.md) - Possible relative
+- [#Lambertye](Lambertye.md) - Social companion
+- [#Furstenberg](Furstenberg.md) - Fellow shooter
+- [#Zualart](Zualart.md) - Another in their group
+- [#comtesse de Galve](comtesse_de_Galve.md) - Possible relative
 
 ## Research Notes
 - French or Spanish surname

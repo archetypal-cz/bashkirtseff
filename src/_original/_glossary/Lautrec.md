@@ -23,7 +23,7 @@ Man used as comparison for Tchernichoff's personality type - appears to be a kno
 - Used as archetype for seducers
 
 ## Related Entries
-- [Tchernichoff](/src/_original/_glossary/Tchernichoff.md) - Compared to him
+- [#Tchernichoff](Tchernichoff.md) - Compared to him
 
 ## Research Notes
 - Male archetypes in 1870s society

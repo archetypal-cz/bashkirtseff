@@ -87,9 +87,9 @@ Monaco's transformation represented:
 - A neutral ground where European nobility could mingle regardless of national tensions
 
 ## Related Entries
-- [Cercle Masséna](/src/_original/_glossary/Cercle_Massena.md) - Nice's answer to Monte Carlo's exclusivity
-- [Duke of Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - One of Monaco's aristocratic visitors
-- [French Theater Nice](/src/_original/_glossary/French_Theater_Nice.md) - Part of the Riviera entertainment circuit
+- [#Cercle Masséna](Cercle_Massena.md) - Nice's answer to Monte Carlo's exclusivity
+- [#Duke of Hamilton](Duke_of_Hamilton.md) - One of Monaco's aristocratic visitors
+- [#French Theater Nice](French_Theater_Nice.md) - Part of the Riviera entertainment circuit
 
 [//]: # ( 2025-06-30T03:00:00 RSR: Created entry for frequently mentioned destination )
 [//]: # ( 2025-01-07T10:20:00 RSR: Updated to comprehensive research status with detailed historical context )

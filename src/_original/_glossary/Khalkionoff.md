@@ -22,8 +22,8 @@ A young Russian man who dies in Nice on March 14, 1874 at 5 PM. Marie remembers 
 - Marie accepts death as God's will
 
 ## Related Entries
-- [Walitsky](/src/_original/_glossary/Walitsky.md) - Original doctor
-- [Rehberg](/src/_original/_glossary/Rehberg.md) - Final doctor
+- [#Walitsky](Walitsky.md) - Original doctor
+- [#Rehberg](Rehberg.md) - Final doctor
 
 ## Research Notes
 - Common for wealthy Russians to come to Nice for health

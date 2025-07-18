@@ -20,8 +20,8 @@ French count attending lunch at the Teplakoffs.
 - Social hierarchies at mixed-age gatherings
 
 ## Related Entries
-- [Teplakoff](/src/_original/_glossary/Teplakoff.md) - Hosts
-- [Abrial](/src/_original/_glossary/Abrial.md) - Fellow adult guest
+- [#Teplakoff](Teplakoff.md) - Hosts
+- [#Abrial](Abrial.md) - Fellow adult guest
 
 ## Research Notes
 - French nobility in Nice 1870s

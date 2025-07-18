@@ -21,7 +21,7 @@ Young woman described as "horribly beautiful" with a "detestable name" who cause
 - Russian or Eastern European name
 
 ## Related Entries
-- [Azarevitch](/src/_original/_glossary/Azarevitch.md) - Blushes at her mention
+- [#Azarevitch](Azarevitch.md) - Blushes at her mention
 
 ## Research Notes
 - Beauty as social disruption

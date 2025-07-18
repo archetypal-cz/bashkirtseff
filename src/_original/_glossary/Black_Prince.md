@@ -20,8 +20,8 @@ A riding horse used by Marie for her morning rides with Paul in Nice.
 - Marie rides during hottest part of day, gets sunburned
 
 ## Related Entries
-- [Paul](/src/_original/_glossary/Paul.md) - Rides with Marie
-- [Luxembourg](/src/_original/_glossary/Luxembourg.md) - Where previously ridden
+- [#Paul](Paul.md) - Rides with Marie
+- [#Luxembourg](Luxembourg.md) - Where previously ridden
 
 ## Research Notes
 - Name suggests English or thoroughbred lineage

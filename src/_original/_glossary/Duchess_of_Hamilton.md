@@ -25,8 +25,8 @@ Wife of the Duke of Hamilton, traveling with him to Constantinople in 1874. Mari
 - Scottish aristocracy
 
 ## Related Entries
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Husband
-- [Princess_of_Monaco](/src/_original/_glossary/Princess_of_Monaco.md) - Travel companion
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Husband
+- [#Princess_of_Monaco](Princess_of_Monaco.md) - Travel companion
 
 ## Research Notes
 - Hamilton marriage records

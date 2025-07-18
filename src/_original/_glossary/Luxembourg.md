@@ -20,8 +20,8 @@ The Luxembourg Gardens in Paris, famous public park where Black Prince was previ
 - Horse riding allowed on designated paths
 
 ## Related Entries
-- [Black_Prince](/src/_original/_glossary/Black_Prince.md) - Horse ridden there
-- [Paris_1870s](/src/_original/_glossary/Paris_1870s.md) - City context
+- [#Black_Prince](Black_Prince.md) - Horse ridden there
+- [#Paris_1870s](Paris_1870s.md) - City context
 
 ## Research Notes
 - Major social hub for aristocracy

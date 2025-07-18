@@ -20,8 +20,8 @@ French count in Nice social circle. Friend of Marie's father. Marie uncertain of
 - Socializes at the fashionable Détroit
 
 ## Related Entries
-- [Papa](/src/_original/_glossary/Papa.md) - Friend
-- [Promenade_des_Anglais](/src/_original/_glossary/Promenade_des_Anglais.md) - Social venue
+- [#Papa](Papa.md) - Friend
+- [#Promenade_des_Anglais](Promenade_des_Anglais.md) - Social venue
 
 ## Research Notes
 - Name uncertainty marked by Marie with [?]

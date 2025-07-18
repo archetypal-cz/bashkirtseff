@@ -102,7 +102,7 @@ The Bashkirtseff family's cook who has become Paul's corrupting companion and me
 
 - Inappropriate mentor relationship
 
-- [Paul](/src/_original/_glossary/Paul.md) - Corrupted by Adam
+- [#Paul](Paul.md) - Corrupted by Adam
 
 - Servants overstepping boundaries
 
@@ -144,9 +144,9 @@ By the 1870s, Aivazovsky had achieved international fame, exhibiting throughout 
 
 - **March 1, 1874**: Exhibition of marine paintings at Hôtel Chauvain in Nice; Marie notes "some very beautiful ones"
 
-- [Hotel_Chauvain](/src/_original/_glossary/Hotel_Chauvain.md) - Exhibition venue
+- [#Hotel_Chauvain](Hotel_Chauvain.md) - Exhibition venue
 
-- [Russia](/src/_original/_glossary/Russia.md) - Artist's homeland
+- [#Russia](Russia.md) - Artist's homeland
 
 RSR: Marie spells it "Aïvazowsky" - common French transliteration of the period
 
@@ -312,11 +312,11 @@ Egyptian port city, embarkation point for Hamilton's journey to Constantinople.
 
 - British naval presence
 
-- [Cairo](/src/_original/_glossary/Cairo.md) - Previous location
+- [#Cairo](Cairo.md) - Previous location
 
-- [Constantinople](/src/_original/_glossary/Constantinople.md) - Next destination
+- [#Constantinople](Constantinople.md) - Next destination
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Traveler
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Traveler
 
 - Steam ship routes 1870s
 
@@ -860,7 +860,7 @@ Russian man who blushes when Kechko is mentioned, suggesting romantic interest.
 
 - Possible inappropriate attraction
 
-- [Kechko](/src/_original/_glossary/Kechko.md) - Object of his embarrassment
+- [#Kechko](Kechko.md) - Object of his embarrassment
 
 - Russian naming conventions (-vitch patronymic)
 
@@ -994,9 +994,9 @@ Race horse from Duke of Hamilton's stable, ridden to multiple victories by Princ
 
 - Symbol of Hamilton's sporting interests
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Owner
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Owner
 
-- [Prince_Louis_Esterhazy](/src/_original/_glossary/Prince_Louis_Esterhazy.md) - Jockey
+- [#Prince_Louis_Esterhazy](Prince_Louis_Esterhazy.md) - Jockey
 
 - Aristocratic horse racing 1870s
 
@@ -1392,7 +1392,7 @@ Man marrying the elder Mlle Sabatier in 1874.
 
 - The "un M." suggests he's less well-known than bride's family
 
-- [Sabatier Family](/src/_original/_glossary/Sabatier_Family.md) - Bride's family
+- [#Sabatier Family](Sabatier_Family.md) - Bride's family
 
 - Name could be Bernisse, Bernis, or similar
 
@@ -1556,9 +1556,9 @@ A riding horse used by Marie for her morning rides with Paul in Nice.
 
 - Marie rides during hottest part of day, gets sunburned
 
-- [Paul](/src/_original/_glossary/Paul.md) - Rides with Marie
+- [#Paul](Paul.md) - Rides with Marie
 
-- [Luxembourg](/src/_original/_glossary/Luxembourg.md) - Where previously ridden
+- [#Luxembourg](Luxembourg.md) - Where previously ridden
 
 - Name suggests English or thoroughbred lineage
 
@@ -1642,7 +1642,7 @@ Name used by Anna at charity auction.
 
 - Marie doesn't explain the emotional reaction
 
-- [Anna](/src/_original/_glossary/Anna.md) - Person using the name
+- [#Anna](Anna.md) - Person using the name
 
 - Name changes and social identity
 
@@ -1802,9 +1802,9 @@ Russian family with daughters ("demoiselles Bosslovleff") who attend social even
 
 - Attend dances and social events
 
-- [Nadia](/src/_original/_glossary/Nadia.md) - Social companion
+- [#Nadia](Nadia.md) - Social companion
 
-- [Howard_Family](/src/_original/_glossary/Howard_Family.md) - Event hosts
+- [#Howard_Family](Howard_Family.md) - Event hosts
 
 - Russian family structures
 
@@ -1862,9 +1862,9 @@ Russian family who have become the new social favorites in Nice, displacing othe
 
 - Other daughters mentioned
 
-- [Howard_Family](/src/_original/_glossary/Howard_Family.md) - Host circle
+- [#Howard_Family](Howard_Family.md) - Host circle
 
-- [Mary_Helen](/src/_original/_glossary/Mary_Helen.md) - Daughter
+- [#Mary_Helen](Mary_Helen.md) - Daughter
 
 - Social mobility in expatriate circles
 
@@ -1892,7 +1892,7 @@ A person who recognizes Marie along with Dady. Part of Nice society.
 
 - Masculine plural "ils" suggests at least one is male
 
-- [Dady](/src/_original/_glossary/Dady.md) - Often mentioned together
+- [#Dady](Dady.md) - Often mentioned together
 
 - Irish or English surname
 
@@ -1960,11 +1960,11 @@ Marie's reference to "les petits Bravura" suggests the presence of children or y
 
 - **March 1, 1874**: "Les petits Bravura" attend Aivazovsky exhibition at Hôtel Chauvain
 
-- [Nice](/src/_original/_glossary/Nice.md) - City of residence
+- [#Nice](Nice.md) - City of residence
 
-- [Hotel_Chauvain](/src/_original/_glossary/Hotel_Chauvain.md) - Where they attended the exhibition
+- [#Hotel_Chauvain](Hotel_Chauvain.md) - Where they attended the exhibition
 
-- [Aivazovsky](/src/_original/_glossary/Aivazovsky.md) - Artist whose exhibition they attended
+- [#Aivazovsky](Aivazovsky.md) - Artist whose exhibition they attended
 
 RSR: Need research on Bravura family identity - possibly Italian given the name
 
@@ -2066,7 +2066,7 @@ A name that fascinates Marie, similar to how Hamilton's name affected her.
 
 - Part of Marie's attraction to British nobility
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Another fascinating British name
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Another fascinating British name
 
 - Marquess of Bute - prominent Scottish title
 
@@ -2118,9 +2118,9 @@ Capital of Egypt, part of Duke of Hamilton's Middle Eastern travels.
 
 - Colonial luxury travel
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Traveler
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Traveler
 
-- [Alexandria](/src/_original/_glossary/Alexandria.md) - Next destination
+- [#Alexandria](Alexandria.md) - Next destination
 
 - Victorian travel to Egypt
 
@@ -2150,9 +2150,9 @@ French count attending lunch at the Teplakoffs.
 
 - Social hierarchies at mixed-age gatherings
 
-- [Teplakoff](/src/_original/_glossary/Teplakoff.md) - Hosts
+- [#Teplakoff](Teplakoff.md) - Hosts
 
-- [Abrial](/src/_original/_glossary/Abrial.md) - Fellow adult guest
+- [#Abrial](Abrial.md) - Fellow adult guest
 
 - French nobility in Nice 1870s
 
@@ -2264,9 +2264,9 @@ Brother of the Duke of Hamilton, spotted by Marie in Nice. Described as having "
 
 - Would look perfect in Louis XV costume
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Brother
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Brother
 
-- [Baden_Baden](/src/_original/_glossary/Baden_Baden.md) - Where known
+- [#Baden_Baden](Baden_Baden.md) - Where known
 
 - Hamilton family members
 
@@ -2396,11 +2396,11 @@ The establishment of clubs like the Cercle Masséna was integral to Nice's evolu
 
 - Public yet exclusive character
 
-- [Monaco](/src/_original/_glossary/Monaco.md) - The more glamorous gambling destination
+- [#Monaco](Monaco.md) - The more glamorous gambling destination
 
-- [French Theater Nice](/src/_original/_glossary/French_Theater_Nice.md) - Another key social venue
+- [#French Theater Nice](French_Theater_Nice.md) - Another key social venue
 
-- [Duke of Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Frequented such aristocratic venues
+- [#Duke of Hamilton](Duke_of_Hamilton.md) - Frequented such aristocratic venues
 
 ## Cercle_de_la_Mediterranee {#Cercle_de_la_Mediterranee}
 
@@ -2532,7 +2532,7 @@ Woman constantly seen on Lewin's arm, likely his fiancée.
 
 - Part of Nice society
 
-- [Lewin](/src/_original/_glossary/Lewin.md) - Constant companion/fiancé
+- [#Lewin](Lewin.md) - Constant companion/fiancé
 
 - Engagement etiquette 1870s
 
@@ -2560,11 +2560,11 @@ Person whom Marie's mother used to look at in a particular way, used as comparis
 
 - May be related to other Durand family members
 
-- [Maman](/src/_original/_glossary/Maman.md) - Who used to look at her
+- [#Maman](Maman.md) - Who used to look at her
 
-- [Lucie_Durand](/src/_original/_glossary/Lucie_Durand.md) - Possible relative
+- [#Lucie_Durand](Lucie_Durand.md) - Possible relative
 
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Who looks at Marie similarly
+- [#Lambertye](Lambertye.md) - Who looks at Marie similarly
 
 - Durand common French surname
 
@@ -2680,9 +2680,9 @@ A person seen with Lambertye leaving the Duchess de Mouchy's residence.
 
 - "Conquista" could be nickname meaning "conquest"
 
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Companion
+- [#Lambertye](Lambertye.md) - Companion
 
-- [Duchess de Mouchy](/src/_original/_glossary/Duchess_de_Mouchy.md) - Host
+- [#Duchess de Mouchy](Duchess_de_Mouchy.md) - Host
 
 - Unusual name - possibly nickname
 
@@ -2720,11 +2720,11 @@ Capital of Ottoman Empire (modern Istanbul), destination of Hamilton's Middle Ea
 
 - Orient Express terminus (later)
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Visitor
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Visitor
 
-- [Lord_Mandeville](/src/_original/_glossary/Lord_Mandeville.md) - Fellow traveler
+- [#Lord_Mandeville](Lord_Mandeville.md) - Fellow traveler
 
-- [Alexandria](/src/_original/_glossary/Alexandria.md) - Departure point
+- [#Alexandria](Alexandria.md) - Departure point
 
 - Victorian orientalism
 
@@ -2750,7 +2750,7 @@ Count Arnim's mention in Nice society gossip indicates he was either present on 
 
 - **March 1, 1874**: Mentioned as "a great friend of the prince" in social gossip
 
-- [Nice](/src/_original/_glossary/Nice.md) - Where he was discussed in society
+- [#Nice](Nice.md) - Where he was discussed in society
 
 RSR: Need to verify which Count Arnim and which prince - context suggests diplomatic circles
 
@@ -2874,7 +2874,7 @@ A person who recognizes Marie along with Brady. Part of Nice society.
 
 - Gender unclear from context
 
-- [Brady](/src/_original/_glossary/Brady.md) - Often mentioned together
+- [#Brady](Brady.md) - Often mentioned together
 
 - Could be nickname or surname
 
@@ -3028,7 +3028,7 @@ A person (likely wealthy) who hosts concerts in Nice that Marie is eager to atte
 
 - Wealthy enough to host musical events
 
-- [Von Derwies Family](/src/_original/_glossary/Von_Derwies.md) - Full family entry with Valrose details
+- [#Von Derwies Family](Von_Derwies.md) - Full family entry with Valrose details
 
 - Same as Von Derwies family - see full entry
 
@@ -3154,7 +3154,7 @@ Song from Offenbach's "La Belle Hélène" that Marie performs.
 
 - Shows her musical training and dramatic interests
 
-- [Belle_Helene](/src/_original/_glossary/Belle_Helene.md) - The operetta
+- [#Belle_Helene](Belle_Helene.md) - The operetta
 
 - Offenbach operetta performances
 
@@ -3362,9 +3362,9 @@ Wife of the Duke of Hamilton, traveling with him to Constantinople in 1874. Mari
 
 - Scottish aristocracy
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Husband
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Husband
 
-- [Princess_of_Monaco](/src/_original/_glossary/Princess_of_Monaco.md) - Travel companion
+- [#Princess_of_Monaco](Princess_of_Monaco.md) - Travel companion
 
 - Hamilton marriage records
 
@@ -3504,9 +3504,9 @@ Father of Lord Mandeville, related to Duke of Hamilton through marriage.
 
 - Marriage alliances with Scottish nobility
 
-- [Lord_Mandeville](/src/_original/_glossary/Lord_Mandeville.md) - Son
+- [#Lord_Mandeville](Lord_Mandeville.md) - Son
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Connected by marriage
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Connected by marriage
 
 - British ducal families
 
@@ -3556,9 +3556,9 @@ Woman discussed in context of social reception standards, alongside Lewin and Pr
 
 - Part of Nice's looser social standards
 
-- [Lewin](/src/_original/_glossary/Lewin.md) - Discussed together
+- [#Lewin](Lewin.md) - Discussed together
 
-- [Prodgers](/src/_original/_glossary/Prodgers.md) - Similar social status
+- [#Prodgers](Prodgers.md) - Similar social status
 
 - Social hierarchies Nice vs Paris
 
@@ -3958,7 +3958,7 @@ Russian expatriate in Nice who died suddenly while playing cards.
 
 - Formal French: "passé de vie à trépas"
 
-- [Patton](/src/_original/_glossary/Patton.md) - Host where he died
+- [#Patton](Patton.md) - Host where he died
 
 - Sudden deaths in 19th century
 
@@ -4050,7 +4050,7 @@ Russian couple (M. et Mme Filimonoff) who request to hear Marie sing at the Howa
 
 - Dark room singing preference noted
 
-- [Howard_Family](/src/_original/_glossary/Howard_Family.md) - Party hosts
+- [#Howard_Family](Howard_Family.md) - Party hosts
 
 - Musical entertainment at social events
 
@@ -4172,7 +4172,7 @@ Dressmaker or fashion house, likely in Paris, where Marie had a green costume ma
 
 - Decides to have duplicate made
 
-- [House_of_Worth](/src/_original/_glossary/House_of_Worth.md) - Another fashion source
+- [#House_of_Worth](House_of_Worth.md) - Another fashion source
 
 - Fashion and dressmaking
 
@@ -4436,13 +4436,13 @@ An old man in Nice society who participates in shooting matches and associates w
 
 - Part of group that stares at Marie
 
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Social companion
+- [#Lambertye](Lambertye.md) - Social companion
 
-- [Furstenberg](/src/_original/_glossary/Furstenberg.md) - Fellow shooter
+- [#Furstenberg](Furstenberg.md) - Fellow shooter
 
-- [Zualart](/src/_original/_glossary/Zualart.md) - Another in their group
+- [#Zualart](Zualart.md) - Another in their group
 
-- [comtesse de Galve](/src/_original/_glossary/comtesse_de_Galve.md) - Possible relative
+- [#comtesse de Galve](comtesse_de_Galve.md) - Possible relative
 
 - French or Spanish surname
 
@@ -4506,9 +4506,9 @@ A woman whose appearance Marie finds unpleasant. Used as reference point in Mari
 
 - The article "la" before Gaugiran suggests this may be a nickname
 
-- [Hitchcock](/src/_original/_glossary/Hitchcock.md) - Another woman Marie finds unattractive
+- [#Hitchcock](Hitchcock.md) - Another woman Marie finds unattractive
 
-- [Koulichoff](/src/_original/_glossary/Koulichoff.md) - Also used in unflattering comparison
+- [#Koulichoff](Koulichoff.md) - Also used in unflattering comparison
 
 - Name spelling uncertain - could be Gaugiran, Gaugiron, or similar
 
@@ -4538,9 +4538,9 @@ Swiss city that Marie loves for short visits.
 
 - Contrast with permanent desires (Paris/London)
 
-- [Paris_1870s](/src/_original/_glossary/Paris_1870s.md) - Ultimate destination
+- [#Paris_1870s](Paris_1870s.md) - Ultimate destination
 
-- [London](/src/_original/_glossary/London.md) - Other dream city
+- [#London](London.md) - Other dream city
 
 - Geneva as 1870s international hub
 
@@ -4818,9 +4818,9 @@ Russian Grand Duke Alexei Alexandrovich (1850-1908), son of Emperor Alexander II
 
 - Grand gestures and bearing
 
-- [Grand_Duke_Vladimir](/src/_original/_glossary/Grand_Duke_Vladimir.md) - Brother
+- [#Grand_Duke_Vladimir](Grand_Duke_Vladimir.md) - Brother
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Comparison
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Comparison
 
 - Romanov presence in Nice
 
@@ -4848,9 +4848,9 @@ Russian Grand Duke, son of Grand Duke Constantin, marrying Mlle Skobeleff in 187
 
 - Marrying into Skobeleff family
 
-- [Skobeleff](/src/_original/_glossary/Skobeleff.md) - Bride
+- [#Skobeleff](Skobeleff.md) - Bride
 
-- [Princess Belocelsky](/src/_original/_glossary/Princess_Belocelsky.md) - Bride's sister
+- [#Princess Belocelsky](Princess_Belocelsky.md) - Bride's sister
 
 - Several Grand Duke Nicolas in Romanov family
 
@@ -4890,9 +4890,9 @@ Russian Grand Duke Vladimir Alexandrovich (1847-1909), son of Emperor Alexander 
 
 - Grand bearing and sublime manner
 
-- [Grand_Duke_Alexis](/src/_original/_glossary/Grand_Duke_Alexis.md) - Brother
+- [#Grand_Duke_Alexis](Grand_Duke_Alexis.md) - Brother
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Comparison
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Comparison
 
 - Romanov family in Nice
 
@@ -5002,7 +5002,7 @@ Woman in Marie's social circle who went on carriage ride with Machenka and a vio
 
 - English name suggests British connections
 
-- [Machenka](/src/_original/_glossary/Machenka.md) - Companion on carriage ride
+- [#Machenka](Machenka.md) - Companion on carriage ride
 
 - Hamsley possibly English resident in Nice
 
@@ -5098,9 +5098,9 @@ Member of the Howard family, sister of Lise.
 
 - Part of Nice English society
 
-- [Howard_Family](/src/_original/_glossary/Howard_Family.md) - Family
+- [#Howard_Family](Howard_Family.md) - Family
 
-- [Lise](/src/_original/_glossary/Lise.md) - Sister
+- [#Lise](Lise.md) - Sister
 
 - Beauty comparisons common in diary
 
@@ -5118,7 +5118,7 @@ Daughter of the Howard family, part of Nice society. Object of Count Markoff's p
 
 - **February 4**: Marie visits the Howards. Hélène is in the salon wearing "robe bleue, chapeau bleu, bien." Marie suspects romance: "Je soupçonne Markoff et Hélène. Hélène n'est plus aussi tendre, cela veut dire qu'un autre sentiment que l'amitié..."
 
-- Part of the Howard family (see: [Howard Family](/src/_original/_glossary/Howard_Family.md))
+- Part of the Howard family (see: [#Howard Family](Howard_Family.md))
 
 - Has children (Marie plays with them in the study)
 
@@ -5264,7 +5264,7 @@ Her exclamation "Miserere!" after finishing suggests either exhaustion from the 
 
 **Diary Coverage**: Up to 1874-03-04
 
-An actress performing at the [French Theater in Nice](/src/_original/_glossary/French_Theater_Nice.md) in March 1874. Marie saw her perform in the play "[Les diables roses](/src/_original/_glossary/Les_diables_roses.md)" on March 4, 1874.
+An actress performing at the [#French Theater in Nice](French_Theater_Nice.md) in March 1874. Marie saw her perform in the play "[#Les diables roses](Les_diables_roses.md)" on March 4, 1874.
 
 On March 4, 1874, Marie attended the theater and specifically notes Honorine's performance in "Les diables roses." Her mention suggests Honorine was likely one of the principal performers in the production.
 
@@ -5294,9 +5294,9 @@ The hotel's hosting of Aivazovsky's exhibition indicates it was a prestigious ve
 
 - **March 1, 1874**: Exhibition venue for Aivazovsky's marine paintings
 
-- [Aivazovsky](/src/_original/_glossary/Aivazovsky.md) - Artist whose works were exhibited
+- [#Aivazovsky](Aivazovsky.md) - Artist whose works were exhibited
 
-- [Nice](/src/_original/_glossary/Nice.md) - Location of the hotel
+- [#Nice](Nice.md) - Location of the hotel
 
 RSR: Research needed on hotel's exact location and history
 
@@ -5320,9 +5320,9 @@ Hotel in Nice where Papa Furstenberg stays.
 
 - Typical accommodation for wealthy visitors
 
-- [Furstenberg](/src/_original/_glossary/Furstenberg.md) - Guest
+- [#Furstenberg](Furstenberg.md) - Guest
 
-- [Nice](/src/_original/_glossary/Nice.md) - Location
+- [#Nice](Nice.md) - Location
 
 - Nice had numerous luxury hotels
 
@@ -5726,9 +5726,9 @@ Russian family who dines at London House and admires Marie, seeking to arrange a
 
 - Marie's reaction shows class consciousness despite wealth
 
-- [Sorokooumovski](/src/_original/_glossary/Sorokooumovski.md) - Proposed match
+- [#Sorokooumovski](Sorokooumovski.md) - Proposed match
 
-- [London_House](/src/_original/_glossary/London_House.md) - Where they dine
+- [#London_House](London_House.md) - Where they dine
 
 - Russian merchant families in Nice
 
@@ -5810,7 +5810,7 @@ Young woman described as "horribly beautiful" with a "detestable name" who cause
 
 - Russian or Eastern European name
 
-- [Azarevitch](/src/_original/_glossary/Azarevitch.md) - Blushes at her mention
+- [#Azarevitch](Azarevitch.md) - Blushes at her mention
 
 - Beauty as social disruption
 
@@ -5844,9 +5844,9 @@ A young Russian man who dies in Nice on March 14, 1874 at 5 PM. Marie remembers 
 
 - Marie accepts death as God's will
 
-- [Walitsky](/src/_original/_glossary/Walitsky.md) - Original doctor
+- [#Walitsky](Walitsky.md) - Original doctor
 
-- [Rehberg](/src/_original/_glossary/Rehberg.md) - Final doctor
+- [#Rehberg](Rehberg.md) - Final doctor
 
 - Common for wealthy Russians to come to Nice for health
 
@@ -6392,7 +6392,7 @@ Man used as comparison for Tchernichoff's personality type - appears to be a kno
 
 - Used as archetype for seducers
 
-- [Tchernichoff](/src/_original/_glossary/Tchernichoff.md) - Compared to him
+- [#Tchernichoff](Tchernichoff.md) - Compared to him
 
 - Male archetypes in 1870s society
 
@@ -6630,7 +6630,7 @@ One of Marie's teachers who loves food and often speaks of dishes during lessons
 
 - French name suggests local instructor
 
-- [Teachers](/src/_original/_glossary/Teachers.md) - Part of Marie's educational team
+- [#Teachers](Teachers.md) - Part of Marie's educational team
 
 - Subject taught not specified
 
@@ -6658,7 +6658,7 @@ Woman in Nice social circle, possibly departed. Associated with Spang.
 
 - Text partially illegible about their usual location
 
-- [Spang](/src/_original/_glossary/Spang.md) - Social companion
+- [#Spang](Spang.md) - Social companion
 
 - British expatriate community in Nice
 
@@ -6688,7 +6688,7 @@ Staff members or representatives from London House brought to the Bashkirtseff c
 
 - Service staff or merchants
 
-- [London_House](/src/_original/_glossary/London_House.md) - Their employer
+- [#London_House](London_House.md) - Their employer
 
 - British commercial presence in Nice
 
@@ -6774,7 +6774,7 @@ Work by Arsène Houssaye about famous courtesans throughout history and across c
 
 **Diary Coverage**: Up to 1874-03-04
 
-A theatrical play performed at the [French Theater in Nice](/src/_original/_glossary/French_Theater_Nice.md) in March 1874. Marie attended a performance on March 4, 1874, which featured the actress [Honorine](/src/_original/_glossary/Honorine.md).
+A theatrical play performed at the [#French Theater in Nice](French_Theater_Nice.md) in March 1874. Marie attended a performance on March 4, 1874, which featured the actress [#Honorine](Honorine.md).
 
 Marie mentions attending this play at the theater on March 4, 1874. She specifically notes Honorine's performance, suggesting it was a significant production or that Honorine's role was particularly noteworthy.
 
@@ -6812,7 +6812,7 @@ Man who appears to be romantically involved with Clémentine, possibly engaged.
 
 - Marie finds their constant togetherness notable
 
-- [Clementine](/src/_original/_glossary/Clementine.md) - Constant companion/fiancée
+- [#Clementine](Clementine.md) - Constant companion/fiancée
 
 - Engagement customs in 1870s
 
@@ -6846,11 +6846,11 @@ One of Paul's inappropriate adult companions who takes him to the casino.
 
 - One of the "hommes de trente ans" Paul associates with
 
-- [Paul](/src/_original/_glossary/Paul.md) - Marie's corrupted brother
+- [#Paul](Paul.md) - Marie's corrupted brother
 
-- [Monte_Carlo](/src/_original/_glossary/Monte_Carlo.md) - Casino destination
+- [#Monte_Carlo](Monte_Carlo.md) - Casino destination
 
-- [Adam](/src/_original/_glossary/Adam.md) - Another corrupting influence
+- [#Adam](Adam.md) - Another corrupting influence
 
 - Minor gambling laws in Monaco
 
@@ -6880,9 +6880,9 @@ Member of the Howard family, sister of Hélène.
 
 - Part of Nice social circle
 
-- [Howard_Family](/src/_original/_glossary/Howard_Family.md) - Family
+- [#Howard_Family](Howard_Family.md) - Family
 
-- [Helene](/src/_original/_glossary/Helene.md) - Sister
+- [#Helene](Helene.md) - Sister
 
 - Howard family English residents in Nice
 
@@ -7092,9 +7092,9 @@ Son of the Duke of Manchester and brother-in-law of the Duke of Hamilton, travel
 
 - Grand Tour companions
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Brother-in-law and travel companion
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Brother-in-law and travel companion
 
-- [Duke_of_Manchester](/src/_original/_glossary/Duke_of_Manchester.md) - Father
+- [#Duke_of_Manchester](Duke_of_Manchester.md) - Father
 
 - Aristocratic marriage alliances
 
@@ -7308,9 +7308,9 @@ The Luxembourg Gardens in Paris, famous public park where Black Prince was previ
 
 - Horse riding allowed on designated paths
 
-- [Black_Prince](/src/_original/_glossary/Black_Prince.md) - Horse ridden there
+- [#Black_Prince](Black_Prince.md) - Horse ridden there
 
-- [Paris_1870s](/src/_original/_glossary/Paris_1870s.md) - City context
+- [#Paris_1870s](Paris_1870s.md) - City context
 
 - Major social hub for aristocracy
 
@@ -7684,9 +7684,9 @@ Charming young woman, sister of Katia who married Potemkine.
 
 - Witness to sister's romantic engagement
 
-- [Katia](/src/_original/_glossary/Katia.md) - Sister
+- [#Katia](Katia.md) - Sister
 
-- [Potemkine](/src/_original/_glossary/Potemkine.md) - Brother-in-law
+- [#Potemkine](Potemkine.md) - Brother-in-law
 
 - "Mania" typical Russian diminutive for Maria
 
@@ -7790,7 +7790,7 @@ Young daughter of Mme Anitchkoff, described by Marie as one of the poorly dresse
 
 - Mother eventually appears at church
 
-- [Anitchkoff](/src/_original/_glossary/Anitchkoff.md) - Her mother
+- [#Anitchkoff](Anitchkoff.md) - Her mother
 
 - Child welfare in expatriate community
 
@@ -7820,9 +7820,9 @@ Daughter of the Filimonoff family, a young woman who asks Marie to call her by t
 
 - Represents Marie's peer group and potential friendship
 
-- [Filimonoff](/src/_original/_glossary/Filimonoff.md) - Family entry
+- [#Filimonoff](Filimonoff.md) - Family entry
 
-- [Potemkine](/src/_original/_glossary/Potemkine.md) - Connected through recent marriage
+- [#Potemkine](Potemkine.md) - Connected through recent marriage
 
 - "Mania" is common Russian diminutive for Maria/Marie
 
@@ -8058,7 +8058,7 @@ Gardener at Villa 55 who owns a poodle that resembles Lambertye.
 
 - Villa 55 - Workplace
 
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Dog resembles him
+- [#Lambertye](Lambertye.md) - Dog resembles him
 
 - "Martin-Bâton" unusual compound surname
 
@@ -8088,7 +8088,7 @@ Daughter of the Boutowsky family, showing new friendliness to Marie.
 
 - Young woman in Nice society
 
-- [Boutowsky](/src/_original/_glossary/Boutowsky.md) - Her family
+- [#Boutowsky](Boutowsky.md) - Her family
 
 - English naming influence on Russians
 
@@ -8494,7 +8494,7 @@ Mother of an exceptionally beautiful little girl who Marie admires.
 
 - Part of Nice society
 
-- [Obelisque](/src/_original/_glossary/Obelisque.md) - Beauty standard reference
+- [#Obelisque](Obelisque.md) - Beauty standard reference
 
 - French noble families in Nice
 
@@ -8634,11 +8634,11 @@ Monaco's transformation represented:
 
 - A neutral ground where European nobility could mingle regardless of national tensions
 
-- [Cercle Masséna](/src/_original/_glossary/Cercle_Massena.md) - Nice's answer to Monte Carlo's exclusivity
+- [#Cercle Masséna](Cercle_Massena.md) - Nice's answer to Monte Carlo's exclusivity
 
-- [Duke of Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - One of Monaco's aristocratic visitors
+- [#Duke of Hamilton](Duke_of_Hamilton.md) - One of Monaco's aristocratic visitors
 
-- [French Theater Nice](/src/_original/_glossary/French_Theater_Nice.md) - Part of the Riviera entertainment circuit
+- [#French Theater Nice](French_Theater_Nice.md) - Part of the Riviera entertainment circuit
 
 ## Monaco_Casino {#Monaco_Casino}
 
@@ -9092,7 +9092,7 @@ Member of the Patton household who shows Marie around their home.
 
 - Part of social visiting customs
 
-- [Patton](/src/_original/_glossary/Patton.md) - Household connection
+- [#Patton](Patton.md) - Household connection
 
 - Household social dynamics
 
@@ -9124,11 +9124,11 @@ Russian man who appears to be inappropriately attached to Paul, Marie's 14-year-
 
 - Part of Paul's concerning social circle
 
-- [Paul](/src/_original/_glossary/Paul.md) - Marie's brother
+- [#Paul](Paul.md) - Marie's brother
 
-- [Dina](/src/_original/_glossary/Dina.md) - Sister
+- [#Dina](Dina.md) - Sister
 
-- [Walitsky](/src/_original/_glossary/Walitsky.md) - Family friend
+- [#Walitsky](Walitsky.md) - Family friend
 
 - Adult men's inappropriate interest in adolescent boys
 
@@ -9206,7 +9206,7 @@ Dressmaker or fashion house in Nice where Marie orders clothing.
 
 - Name suggests British fashion influence
 
-- [Simone](/src/_original/_glossary/Simone.md) - Another dressmaker
+- [#Simone](Simone.md) - Another dressmaker
 
 - British fashion houses in Nice 1870s
 
@@ -9412,7 +9412,7 @@ A remarkably tall and beautiful woman who attends the concert with the Duchess d
 
 - Used as standard for comparing other beauties
 
-- [Mme_de_Mouchy](/src/_original/_glossary/Mme_de_Mouchy.md) - Mother of future "Obélisque"
+- [#Mme_de_Mouchy](Mme_de_Mouchy.md) - Mother of future "Obélisque"
 
 - Real identity unknown
 
@@ -9446,9 +9446,9 @@ Member of the Anitchkoff family, known for erratic social behavior that Marie co
 
 - Russian expatriate family
 
-- [Anitchkoff](/src/_original/_glossary/Anitchkoff.md) - Family connection
+- [#Anitchkoff](Anitchkoff.md) - Family connection
 
-- [Marie_Anitchkoff](/src/_original/_glossary/Marie_Anitchkoff.md) - Possible relative
+- [#Marie_Anitchkoff](Marie_Anitchkoff.md) - Possible relative
 
 - Mental health stigma in 1870s
 
@@ -9746,11 +9746,11 @@ Person in Marie's household who notices when she's upset about Lambertye not app
 
 - Listed after family and Walitsky
 
-- [Walitsky](/src/_original/_glossary/Walitsky.md) - Also notices Marie's mood
+- [#Walitsky](Walitsky.md) - Also notices Marie's mood
 
-- [Maman](/src/_original/_glossary/Maman.md) - Also notices
+- [#Maman](Maman.md) - Also notices
 
-- [Ma_tante](/src/_original/_glossary/Ma_tante.md) - Also notices
+- [#Ma_tante](Ma_tante.md) - Also notices
 
 - Pavloucha is affectionate diminutive
 
@@ -10172,11 +10172,11 @@ Hungarian prince, renowned gentleman-rider who stayed at Shepheard's Hotel with 
 
 - Hungarian magnates with vast estates
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Horse owner
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Horse owner
 
-- [Bar_le_Duc](/src/_original/_glossary/Bar_le_Duc.md) - Hamilton's horse
+- [#Bar_le_Duc](Bar_le_Duc.md) - Hamilton's horse
 
-- [Baden_Baden](/src/_original/_glossary/Baden_Baden.md) - Where known
+- [#Baden_Baden](Baden_Baden.md) - Where known
 
 - Gentleman-rider culture
 
@@ -10234,7 +10234,7 @@ Russian princess, sister of Mlle Skobeleff who is marrying Grand Duke Nicolas in
 
 - Beloselsky one of oldest Russian noble families
 
-- [Skobeleff](/src/_original/_glossary/Skobeleff.md) - Sister marrying Grand Duke
+- [#Skobeleff](Skobeleff.md) - Sister marrying Grand Duke
 
 - Beloselsky-Belozersky descended from Rurik dynasty
 
@@ -10266,7 +10266,7 @@ Russian princess in Nice social circle. From one of Russia's most distinguished 
 
 - Presence in Nice typical of Russian aristocracy
 
-- [Promenade_des_Anglais](/src/_original/_glossary/Promenade_des_Anglais.md) - Where seen
+- [#Promenade_des_Anglais](Promenade_des_Anglais.md) - Where seen
 
 - Alternative spellings: Suvorov, Souvorov
 
@@ -10364,9 +10364,9 @@ English person in Nice social circles, known for participating in theatrical pre
 
 - Would not be received in Paris society
 
-- [Durand](/src/_original/_glossary/Durand.md) - Similar social status
+- [#Durand](Durand.md) - Similar social status
 
-- [Audiffret](/src/_original/_glossary/Audiffret.md) - Prank partner
+- [#Audiffret](Audiffret.md) - Prank partner
 
 - Gender ambiguity in earlier references
 
@@ -10506,9 +10506,9 @@ Doctor in Nice chosen by Khalkionoff's mother to replace Dr. Walitsky. Marie imp
 
 - Name suggests German origin
 
-- [Walitsky](/src/_original/_glossary/Walitsky.md) - Previous doctor
+- [#Walitsky](Walitsky.md) - Previous doctor
 
-- [Khalkionoff](/src/_original/_glossary/Khalkionoff.md) - Patient who died
+- [#Khalkionoff](Khalkionoff.md) - Patient who died
 
 - Medical rivalries in expatriate community
 
@@ -10570,11 +10570,11 @@ Young man from Baden-Baden who attempted romantic advances with Marie three year
 
 - Understood Marie's feelings
 
-- [Baden_Baden](/src/_original/_glossary/Baden_Baden.md) - Where they met
+- [#Baden_Baden](Baden_Baden.md) - Where they met
 
-- [Stuttgart](/src/_original/_glossary/Stuttgart.md) - His destination
+- [#Stuttgart](Stuttgart.md) - His destination
 
-- [Stephan](/src/_original/_glossary/Stephan.md) - Also kissed Marie's hand
+- [#Stephan](Stephan.md) - Also kissed Marie's hand
 
 - Baden-Baden international youth
 
@@ -10604,9 +10604,9 @@ Papa's beloved pet animal (likely a dog).
 
 - Papa's emotional attachment described as life-threatening
 
-- [Papa](/src/_original/_glossary/Papa.md) - Owner
+- [#Papa](Papa.md) - Owner
 
-- [Stiopa](/src/_original/_glossary/Stiopa.md) - Finder
+- [#Stiopa](Stiopa.md) - Finder
 
 - Pet ownership in 1870s Nice
 
@@ -10978,9 +10978,9 @@ Wealthy French family with at least two marriageable daughters in Nice society.
 
 - The enormous dowry suggests major fortune
 
-- [Lewin](/src/_original/_glossary/Lewin.md) - Marrying younger daughter
+- [#Lewin](Lewin.md) - Marrying younger daughter
 
-- [Bernisse](/src/_original/_glossary/Bernisse.md) - Marrying elder daughter
+- [#Bernisse](Bernisse.md) - Marrying elder daughter
 
 - 2 million francs = enormous sum in 1874
 
@@ -11276,7 +11276,7 @@ Charles Augustin Sainte-Beuve (1804-1869), major French literary critic and writ
 
 - Major cultural authority
 
-- [Mary_Stuart](/src/_original/_glossary/Mary_Stuart.md) - Subject of his writing
+- [#Mary_Stuart](Mary_Stuart.md) - Subject of his writing
 
 - French literary culture 1870s
 
@@ -11314,9 +11314,9 @@ The Samaritaines (Samaritans) were typically women's charitable organizations in
 
 - **March 1, 1874**: Charity concert held at Valrose for their benefit
 
-- [Valrose](/src/_original/_glossary/Valrose.md) - Venue for charity concert
+- [#Valrose](Valrose.md) - Venue for charity concert
 
-- [Nice](/src/_original/_glossary/Nice.md) - Location of activities
+- [#Nice](Nice.md) - Location of activities
 
 RSR: Need more research on specific Nice chapter of this charity
 
@@ -11420,9 +11420,9 @@ Famous British colonial hotel in Cairo where the Duke of Hamilton stayed during 
 
 - Height of luxury travel
 
-- [Cairo](/src/_original/_glossary/Cairo.md) - Location
+- [#Cairo](Cairo.md) - Location
 
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Guest
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Guest
 
 - Colonial hotel culture
 
@@ -11558,9 +11558,9 @@ Russian noblewoman marrying Grand Duke Nicolas (son of Constantin) in 1874. Sist
 
 - Part of 1874 marriage season
 
-- [Grand Duke Nicolas](/src/_original/_glossary/Grand_Duke_Nicolas.md) - Groom
+- [#Grand Duke Nicolas](Grand_Duke_Nicolas.md) - Groom
 
-- [Princess Belocelsky](/src/_original/_glossary/Princess_Belocelsky.md) - Sister
+- [#Princess Belocelsky](Princess_Belocelsky.md) - Sister
 
 - Skobelev family famous for military generals
 
@@ -11802,7 +11802,7 @@ Wealthy Russian fur merchant family with a bachelor heir proposed as match for M
 
 - Represents new merchant wealth vs old nobility
 
-- [Karitoff](/src/_original/_glossary/Karitoff.md) - Family proposing match
+- [#Karitoff](Karitoff.md) - Family proposing match
 
 - Russian fur trade wealth
 
@@ -11910,9 +11910,9 @@ Woman in Nice social circle being courted by comte de Lareld. Associated with Le
 
 - Serious courtship indicates marriage possibility
 
-- [Leech](/src/_original/_glossary/Leech.md) - Social companion
+- [#Leech](Leech.md) - Social companion
 
-- [comte_de_Lareld](/src/_original/_glossary/comte_de_Lareld.md) - Suitor
+- [#comte_de_Lareld](comte_de_Lareld.md) - Suitor
 
 - International marriages common in Nice
 
@@ -12126,9 +12126,9 @@ Former Bashkirtseff family estate in Ukraine, representing both their lost grand
 
 - Forced emigration patterns
 
-- [Papa](/src/_original/_glossary/Papa.md) - Former owner
+- [#Papa](Papa.md) - Former owner
 
-- [Russia](/src/_original/_glossary/Russia.md) - Location context
+- [#Russia](Russia.md) - Location context
 
 - Ukrainian estate system 1860s-70s
 
@@ -12168,9 +12168,9 @@ Russian man with a scandalous past, introduced to the Bashkirtseff family. His f
 
 - "Simplicité affectée" (affected simplicity)
 
-- [Lautrec](/src/_original/_glossary/Lautrec.md) - Comparison figure
+- [#Lautrec](Lautrec.md) - Comparison figure
 
-- [Maman](/src/_original/_glossary/Maman.md) - Object of his courtship
+- [#Maman](Maman.md) - Object of his courtship
 
 - Wife poisoning scandals
 
@@ -12492,7 +12492,7 @@ Pigeon shooting event in Nice/Monte Carlo area, popular aristocratic sport.
 
 - Held at specific venue (likely Monte Carlo)
 
-- [Monte_Carlo](/src/_original/_glossary/Monte_Carlo.md) - Likely location
+- [#Monte_Carlo](Monte_Carlo.md) - Likely location
 
 - Aristocratic sports and social events
 
@@ -12698,9 +12698,9 @@ The venue was significant enough to host charity concerts attended by the social
 
 - **March 1, 1874**: Venue for charity concert benefiting the Samaritaines
 
-- [Samaritaines](/src/_original/_glossary/Samaritaines.md) - Charity that benefited from concert
+- [#Samaritaines](Samaritaines.md) - Charity that benefited from concert
 
-- [Nice](/src/_original/_glossary/Nice.md) - City where located
+- [#Nice](Nice.md) - City where located
 
 RSR: Research needed on exact location and history of Valrose in Nice
 
@@ -12724,9 +12724,9 @@ A tall woman in Nice society whom Marie calls an "obélisque" (obelisk).
 
 - Part of Nice social circle
 
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Who admires her type
+- [#Lambertye](Lambertye.md) - Who admires her type
 
-- [Obelisque](/src/_original/_glossary/Obelisque.md) - Another tall woman
+- [#Obelisque](Obelisque.md) - Another tall woman
 
 - Name possibly Germanic or Dutch
 
@@ -12742,7 +12742,7 @@ A tall woman in Nice society whom Marie calls an "obélisque" (obelisk).
 
 **Diary Coverage**: Up to 1874-03-04
 
-A person mentioned in conversation during Marie's visit to the [Howards](/src/_original/_glossary/Howard_Family.md) on March 4, 1874. The discussion about Vassilissa Egorovna appears to have been connected to comments about [Bête](/src/_original/_glossary/Bete.md).
+A person mentioned in conversation during Marie's visit to the [#Howards](Howard_Family.md) on March 4, 1874. The discussion about Vassilissa Egorovna appears to have been connected to comments about [#Bête](Bete.md).
 
 Marie notes that at the Howards, there was conversation about Vassilissa Egorovna, though she doesn't provide details about who this person was or the nature of the discussion.
 
@@ -13042,9 +13042,9 @@ Social acquaintance who invites the Bashkirtseff family to Beaulieu.
 
 - Host of day trips
 
-- [Beaulieu](/src/_original/_glossary/Beaulieu.md) - Excursion destination
+- [#Beaulieu](Beaulieu.md) - Excursion destination
 
-- [La_Musette](/src/_original/_glossary/La_Musette.md) - Where encountered
+- [#La_Musette](La_Musette.md) - Where encountered
 
 - Italian community in Nice
 
@@ -13074,7 +13074,7 @@ Man who made acquaintance with Marie's mother. Had smallpox.
 
 - Name in quotes suggests nickname
 
-- [Maman](/src/_original/_glossary/Maman.md) - Made his acquaintance
+- [#Maman](Maman.md) - Made his acquaintance
 
 - Smallpox common health issue of era
 
@@ -13182,7 +13182,7 @@ Potential marriage candidate discussed by Marie's family.
 
 - Part of marriage market calculations
 
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Another marriage prospect mentioned
+- [#Lambertye](Lambertye.md) - Another marriage prospect mentioned
 
 - Russian expatriate marriage market
 
@@ -13490,7 +13490,7 @@ Russian merchant who Marie previously referred to as "28" - her numerological ad
 
 - Marie's numerological system abandoned
 
-- [Palajka](/src/_original/_glossary/Palajka.md) - His chambermaid
+- [#Palajka](Palajka.md) - His chambermaid
 
 - Russian merchant class in Nice
 
@@ -13520,9 +13520,9 @@ Person Tchernichoff resembles, along with "vieux Emile."
 
 - Part of Marie's categorization system
 
-- [Tchernichoff](/src/_original/_glossary/Tchernichoff.md) - Resembles him
+- [#Tchernichoff](Tchernichoff.md) - Resembles him
 
-- [Emile](/src/_original/_glossary/Emile.md) - Also resembles him
+- [#Emile](Emile.md) - Also resembles him
 
 - Male vanity and hair dyeing
 
@@ -13572,11 +13572,11 @@ Man in Lambertye's social circle whom Marie finds particularly repulsive.
 
 - Provokes violent fantasies of revenge in Marie
 
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Social companion who initiates the staring
+- [#Lambertye](Lambertye.md) - Social companion who initiates the staring
 
-- [Furstenberg](/src/_original/_glossary/Furstenberg.md) - Fellow starer
+- [#Furstenberg](Furstenberg.md) - Fellow starer
 
-- [Galve](/src/_original/_glossary/Galve.md) - Another member of the group
+- [#Galve](Galve.md) - Another member of the group
 
 - Male homosocial behavior in 1870s Nice
 
@@ -13628,9 +13628,9 @@ French count in Nice social circle. Friend of Marie's father. Marie uncertain of
 
 - Socializes at the fashionable Détroit
 
-- [Papa](/src/_original/_glossary/Papa.md) - Friend
+- [#Papa](Papa.md) - Friend
 
-- [Promenade_des_Anglais](/src/_original/_glossary/Promenade_des_Anglais.md) - Social venue
+- [#Promenade_des_Anglais](Promenade_des_Anglais.md) - Social venue
 
 - Name uncertainty marked by Marie with [?]
 
@@ -13660,7 +13660,7 @@ French count seriously courting Mlle Spang in Nice.
 
 - Spring 1874 marriage season participant
 
-- [Spang](/src/_original/_glossary/Spang.md) - Woman he's courting
+- [#Spang](Spang.md) - Woman he's courting
 
 - Name spelling uncertain (Lareld/L'Areld)
 
@@ -13690,9 +13690,9 @@ Countess who has moved to London, envied by Marie.
 
 - Possibly related to "papa Galve"
 
-- [Galve](/src/_original/_glossary/Galve.md) - Possible relation
+- [#Galve](Galve.md) - Possible relation
 
-- [England](/src/_original/_glossary/England.md) - Where she moved
+- [#England](England.md) - Where she moved
 
 - Marie's anglophilia evident
 

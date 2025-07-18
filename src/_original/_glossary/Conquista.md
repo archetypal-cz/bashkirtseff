@@ -19,8 +19,8 @@ A person seen with Lambertye leaving the Duchess de Mouchy's residence.
 - "Conquista" could be nickname meaning "conquest"
 
 ## Related Entries
-- [Lambertye](/src/_original/_glossary/Lambertye.md) - Companion
-- [Duchess de Mouchy](/src/_original/_glossary/Duchess_de_Mouchy.md) - Host
+- [#Lambertye](Lambertye.md) - Companion
+- [#Duchess de Mouchy](Duchess_de_Mouchy.md) - Host
 
 ## Research Notes
 - Unusual name - possibly nickname

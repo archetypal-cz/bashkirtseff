@@ -20,7 +20,7 @@ A person (likely wealthy) who hosts concerts in Nice that Marie is eager to atte
 - Wealthy enough to host musical events
 
 ## Related Entries
-- [Von Derwies Family](/src/_original/_glossary/Von_Derwies.md) - Full family entry with Valrose details
+- [#Von Derwies Family](Von_Derwies.md) - Full family entry with Valrose details
 
 ## Research Notes
 - Same as Von Derwies family - see full entry

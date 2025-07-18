@@ -20,8 +20,8 @@ A woman whose appearance Marie finds unpleasant. Used as reference point in Mari
 - The article "la" before Gaugiran suggests this may be a nickname
 
 ## Related Entries
-- [Hitchcock](/src/_original/_glossary/Hitchcock.md) - Another woman Marie finds unattractive
-- [Koulichoff](/src/_original/_glossary/Koulichoff.md) - Also used in unflattering comparison
+- [#Hitchcock](Hitchcock.md) - Another woman Marie finds unattractive
+- [#Koulichoff](Koulichoff.md) - Also used in unflattering comparison
 
 ## Research Notes
 - Name spelling uncertain - could be Gaugiran, Gaugiron, or similar

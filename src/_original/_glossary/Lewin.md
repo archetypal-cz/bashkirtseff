@@ -20,7 +20,7 @@ Man who appears to be romantically involved with Clémentine, possibly engaged.
 - Marie finds their constant togetherness notable
 
 ## Related Entries
-- [Clementine](/src/_original/_glossary/Clementine.md) - Constant companion/fiancée
+- [#Clementine](Clementine.md) - Constant companion/fiancée
 
 ## Research Notes
 - Engagement customs in 1870s

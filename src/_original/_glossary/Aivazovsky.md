@@ -27,7 +27,7 @@ By the 1870s, Aivazovsky had achieved international fame, exhibiting throughout 
 - **March 1, 1874**: Exhibition of marine paintings at Hôtel Chauvain in Nice; Marie notes "some very beautiful ones"
 
 ## Related Entries
-- [Hotel_Chauvain](/src/_original/_glossary/Hotel_Chauvain.md) - Exhibition venue
-- [Russia](/src/_original/_glossary/Russia.md) - Artist's homeland
+- [#Hotel_Chauvain](Hotel_Chauvain.md) - Exhibition venue
+- [#Russia](Russia.md) - Artist's homeland
 
 [//]: # (RSR: Marie spells it "Aïvazowsky" - common French transliteration of the period)

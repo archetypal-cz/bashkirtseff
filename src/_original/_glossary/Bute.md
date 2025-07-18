@@ -21,7 +21,7 @@ A name that fascinates Marie, similar to how Hamilton's name affected her.
 - Part of Marie's attraction to British nobility
 
 ## Related Entries
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Another fascinating British name
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Another fascinating British name
 
 ## Research Notes
 - Marquess of Bute - prominent Scottish title

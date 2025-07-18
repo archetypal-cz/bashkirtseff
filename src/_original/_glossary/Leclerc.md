@@ -20,7 +20,7 @@ One of Marie's teachers who loves food and often speaks of dishes during lessons
 - French name suggests local instructor
 
 ## Related Entries
-- [Teachers](/src/_original/_glossary/Teachers.md) - Part of Marie's educational team
+- [#Teachers](Teachers.md) - Part of Marie's educational team
 
 ## Research Notes
 - Subject taught not specified

@@ -20,8 +20,8 @@ Wealthy French family with at least two marriageable daughters in Nice society.
 - The enormous dowry suggests major fortune
 
 ## Related Entries
-- [Lewin](/src/_original/_glossary/Lewin.md) - Marrying younger daughter
-- [Bernisse](/src/_original/_glossary/Bernisse.md) - Marrying elder daughter
+- [#Lewin](Lewin.md) - Marrying younger daughter
+- [#Bernisse](Bernisse.md) - Marrying elder daughter
 
 ## Research Notes
 - 2 million francs = enormous sum in 1874

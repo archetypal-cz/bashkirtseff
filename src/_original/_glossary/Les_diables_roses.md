@@ -4,7 +4,7 @@
 **Last Updated**: 2025-07-06
 **Diary Coverage**: Up to 1874-03-04
 
-A theatrical play performed at the [French Theater in Nice](/src/_original/_glossary/French_Theater_Nice.md) in March 1874. Marie attended a performance on March 4, 1874, which featured the actress [Honorine](/src/_original/_glossary/Honorine.md).
+A theatrical play performed at the [#French Theater in Nice](French_Theater_Nice.md) in March 1874. Marie attended a performance on March 4, 1874, which featured the actress [#Honorine](Honorine.md).
 
 ## Context in Diary
 

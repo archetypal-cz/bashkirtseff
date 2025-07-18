@@ -27,8 +27,8 @@ Russian Grand Duke Alexei Alexandrovich (1850-1908), son of Emperor Alexander II
 - Grand gestures and bearing
 
 ## Related Entries
-- [Grand_Duke_Vladimir](/src/_original/_glossary/Grand_Duke_Vladimir.md) - Brother
-- [Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) - Comparison
+- [#Grand_Duke_Vladimir](Grand_Duke_Vladimir.md) - Brother
+- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Comparison
 
 ## Research Notes
 - Romanov presence in Nice

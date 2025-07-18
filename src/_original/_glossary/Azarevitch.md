@@ -21,7 +21,7 @@ Russian man who blushes when Kechko is mentioned, suggesting romantic interest.
 - Possible inappropriate attraction
 
 ## Related Entries
-- [Kechko](/src/_original/_glossary/Kechko.md) - Object of his embarrassment
+- [#Kechko](Kechko.md) - Object of his embarrassment
 
 ## Research Notes
 - Russian naming conventions (-vitch patronymic)

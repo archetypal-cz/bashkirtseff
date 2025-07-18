@@ -112,11 +112,11 @@ When working on translations with multiple agents:
 - Maintains the HASHTAGS.md file with alphabetical listings
 - Adds researcher comments in ORIGINAL source files (not translations) with links:
   ```markdown
-  [//]: # ( YYYY-MM-DDThh:mm:ss RSR: See [Boreel](/src/_original/_glossary/Boreel.md) - young man Marie admires )
+  [//]: # ( YYYY-MM-DDThh:mm:ss RSR: See [#Boreel](../_glossary/Boreel.md) - young man Marie admires )
   ```
 - Adds hashtag links in ORIGINAL files above paragraphs where entities appear:
   ```markdown
-  [//]: # ( [#Boreel](/src/_original/_glossary/Boreel.md) [#Duke_of_Hamilton](/src/_original/_glossary/Duke_of_Hamilton.md) [#Rumpelmayer](/src/_original/_glossary/Rumpelmayer.md) )
+  [//]: # ( [#Boreel](../_glossary/Boreel.md) [#Duke_of_Hamilton](../_glossary/Duke_of_Hamilton.md) [#Rumpelmayer](../_glossary/Rumpelmayer.md) )
   ```
 - Research benefits ALL target languages, not just one translation
 - Documents findings to support translators' understanding

@@ -19,7 +19,7 @@ A person who recognizes Marie along with Dady. Part of Nice society.
 - Masculine plural "ils" suggests at least one is male
 
 ## Related Entries
-- [Dady](/src/_original/_glossary/Dady.md) - Often mentioned together
+- [#Dady](Dady.md) - Often mentioned together
 
 ## Research Notes
 - Irish or English surname

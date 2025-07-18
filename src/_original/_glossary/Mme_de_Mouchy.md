@@ -20,7 +20,7 @@ Mother of an exceptionally beautiful little girl who Marie admires.
 - Part of Nice society
 
 ## Related Entries
-- [Obelisque](/src/_original/_glossary/Obelisque.md) - Beauty standard reference
+- [#Obelisque](Obelisque.md) - Beauty standard reference
 
 ## Research Notes
 - French noble families in Nice

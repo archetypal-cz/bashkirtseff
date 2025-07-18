@@ -20,8 +20,8 @@ Daughter of the Filimonoff family, a young woman who asks Marie to call her by t
 - Represents Marie's peer group and potential friendship
 
 ## Related Entries
-- [Filimonoff](/src/_original/_glossary/Filimonoff.md) - Family entry
-- [Potemkine](/src/_original/_glossary/Potemkine.md) - Connected through recent marriage
+- [#Filimonoff](Filimonoff.md) - Family entry
+- [#Potemkine](Potemkine.md) - Connected through recent marriage
 
 ## Notes
 - "Mania" is common Russian diminutive for Maria/Marie

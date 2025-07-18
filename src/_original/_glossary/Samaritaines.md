@@ -14,7 +14,7 @@ The Samaritaines (Samaritans) were typically women's charitable organizations in
 - **March 1, 1874**: Charity concert held at Valrose for their benefit
 
 ## Related Entries
-- [Valrose](/src/_original/_glossary/Valrose.md) - Venue for charity concert
-- [Nice](/src/_original/_glossary/Nice.md) - Location of activities
+- [#Valrose](Valrose.md) - Venue for charity concert
+- [#Nice](Nice.md) - Location of activities
 
 [//]: # (RSR: Need more research on specific Nice chapter of this charity)

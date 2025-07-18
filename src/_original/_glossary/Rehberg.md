@@ -20,8 +20,8 @@ Doctor in Nice chosen by Khalkionoff's mother to replace Dr. Walitsky. Marie imp
 - Name suggests German origin
 
 ## Related Entries
-- [Walitsky](/src/_original/_glossary/Walitsky.md) - Previous doctor
-- [Khalkionoff](/src/_original/_glossary/Khalkionoff.md) - Patient who died
+- [#Walitsky](Walitsky.md) - Previous doctor
+- [#Khalkionoff](Khalkionoff.md) - Patient who died
 
 ## Research Notes
 - Medical rivalries in expatriate community

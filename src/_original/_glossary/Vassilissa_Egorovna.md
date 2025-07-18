@@ -4,7 +4,7 @@
 **Last Updated**: 2025-07-06
 **Diary Coverage**: Up to 1874-03-04
 
-A person mentioned in conversation during Marie's visit to the [Howards](/src/_original/_glossary/Howard_Family.md) on March 4, 1874. The discussion about Vassilissa Egorovna appears to have been connected to comments about [Bête](/src/_original/_glossary/Bete.md).
+A person mentioned in conversation during Marie's visit to the [#Howards](Howard_Family.md) on March 4, 1874. The discussion about Vassilissa Egorovna appears to have been connected to comments about [#Bête](Bete.md).
 
 ## Context in Diary
 

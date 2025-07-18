@@ -17,8 +17,8 @@ Marie's reference to "les petits Bravura" suggests the presence of children or y
 - **March 1, 1874**: "Les petits Bravura" attend Aivazovsky exhibition at Hôtel Chauvain
 
 ## Related Entries
-- [Nice](/src/_original/_glossary/Nice.md) - City of residence
-- [Hotel_Chauvain](/src/_original/_glossary/Hotel_Chauvain.md) - Where they attended the exhibition
-- [Aivazovsky](/src/_original/_glossary/Aivazovsky.md) - Artist whose exhibition they attended
+- [#Nice](Nice.md) - City of residence
+- [#Hotel_Chauvain](Hotel_Chauvain.md) - Where they attended the exhibition
+- [#Aivazovsky](Aivazovsky.md) - Artist whose exhibition they attended
 
 [//]: # (RSR: Need research on Bravura family identity - possibly Italian given the name)
