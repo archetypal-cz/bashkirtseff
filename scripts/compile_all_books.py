@@ -42,6 +42,7 @@ def compile_book(
     log.info(f"Compiling book {book_id} for language {language}")
 
     cmd = [
+        "python",
         "./scripts/compile_book.py",
         book_id,
         "--language",
