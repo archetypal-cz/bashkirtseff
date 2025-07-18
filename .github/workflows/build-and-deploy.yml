@@ -53,10 +53,11 @@ jobs:
         run: |
           poetry run python scripts/generate_index.py
 
-      - name: Create robots.txt
+      - name: Create robots.txt and .nojekyll
         run: |
           echo "User-agent: *" > pub/robots.txt
           echo "Disallow: /" >> pub/robots.txt
+          touch pub/.nojekyll
 
       - name: Deploy to GitHub Pages
         if: github.event_name != 'pull_request'
