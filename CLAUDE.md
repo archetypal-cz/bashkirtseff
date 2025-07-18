@@ -65,6 +65,9 @@ When working on translations with multiple agents:
    - ✓ Historical events contextualized
    - ✓ Literary/theatrical works identified and explained
    - ✓ Period-specific terms clarified
+   - ✓ **Daily entry tags complete** with location as first tag
+   - ✓ **Marie's location determined** for each entry (create glossary entry if needed)
+   - ✓ **Transportation modes documented** when Marie travels
 
 4. **Quality Gate**: If research is incomplete, return entry to Researcher role before translation begins
 
@@ -118,6 +121,15 @@ When working on translations with multiple agents:
   ```markdown
   [//]: # ( [#Boreel](../_glossary/Boreel.md) [#Duke_of_Hamilton](../_glossary/Duke_of_Hamilton.md) [#Rumpelmayer](../_glossary/Rumpelmayer.md) )
   ```
+- **Daily Entry Tagging Protocol**: Each daily entry must have comprehensive tags at the top:
+  ```markdown
+  [//]: # ( [#Nice](../_glossary/Nice.md) [#Duke_of_Hamilton](../_glossary/Duke_of_Hamilton.md) [#Boreel](../_glossary/Boreel.md) [#Promenade_des_Anglais](../_glossary/Promenade_des_Anglais.md) )
+  ```
+  - **FIRST tag must ALWAYS be Marie's location** that day (Villa_Baquis, Nice, Train, etc.)
+  - **Multi-location entries**: Use slash separator in first tag for entries written in multiple places: `[#Train](../_glossary/Train.md)/[#Nice](../_glossary/Nice.md)`
+  - **All entities mentioned** in the entry must be tagged (people, places, events, cultural references)
+  - **Create missing glossary entries** for any location or entity that doesn't exist yet
+  - **Transportation entries**: Create glossary entries for period-specific transport (trains, carriages, steamships) when Marie travels
 - Research benefits ALL target languages, not just one translation
 - Documents findings to support translators' understanding
 - Provides source citations for all historical context
