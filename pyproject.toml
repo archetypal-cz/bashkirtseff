@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Translation project for Marie Bashkirtseff's diary"
 authors = ["Coslate by kerray.cz <kerray@kerray.cz>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
