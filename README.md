@@ -180,9 +180,35 @@ poetry run ./scripts/rename_files.py
 
 This will rename all files from the old format (e.g., `01.1873-01-11.md`) to the new format (e.g., `1873-01-11.md`).
 
+### Just Commands (Recommended)
+
+The project includes a `justfile` for easy task management. [Just](https://github.com/casey/just) is a command runner that simplifies common operations:
+
+```bash
+# Setup environment
+just setup                # Install Poetry dependencies
+just shell               # Activate Poetry environment
+
+# Compilation
+just compile 01 cz        # Compile Book 01 for Czech
+just build               # Compile all books for Czech
+just build-all           # Compile all books for all languages
+
+# Viewing
+just open 01 cz          # Open Book 01 (Czech) in browser
+just open-original 01    # Open original French Book 01
+just open-glossary       # Open glossary
+
+# Project management
+just status              # Show project status
+just stats               # Show detailed statistics
+just search "term"       # Search in source files
+just help                # Show all available commands
+```
+
 ### VSCode Tasks
 
-The project includes VSCode tasks for easy compilation:
+The project also includes VSCode tasks for easy compilation:
 
 1. **Compile Book (Czech, Book 01)**: Compiles the first book in Czech
 2. **Compile All Books**: Compiles all books for all languages

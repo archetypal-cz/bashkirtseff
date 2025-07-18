@@ -49,6 +49,10 @@ jobs:
         run: |
           poetry run python scripts/compile_all_books.py --languages _original --languages cz
 
+      - name: Generate index.html
+        run: |
+          poetry run python scripts/generate_index.py
+
       - name: Create robots.txt
         run: |
           echo "User-agent: *" > pub/robots.txt

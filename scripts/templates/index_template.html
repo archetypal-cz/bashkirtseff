@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marie Bashkirtseff - Journal</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #faf8f5;
+            color: #333;
+        }
+        h1 {
+            color: #8b4513;
+            text-align: center;
+            border-bottom: 3px solid #deb887;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #cd853f;
+            border-bottom: 1px solid #deb887;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .language-section {
+            margin-bottom: 30px;
+        }
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .book-link {
+            display: block;
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #deb887;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #8b4513;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .book-link:hover {
+            background-color: #f5f5dc;
+            border-color: #cd853f;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .book-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+        .book-path {
+            font-size: 0.9em;
+            color: #666;
+            font-style: italic;
+        }
+        .intro {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 40px;
+            color: #666;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #deb887;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Marie Bashkirtseff - Journal</h1>
+    
+    <div class="intro">
+        <p>The diary of Marie Bashkirtseff (1858-1884), a young Ukrainian artist who wrote in French.</p>
+        <p>This digital edition presents her journal in multiple languages with comprehensive annotations.</p>
+    </div>
+
+    {% for lang_code, lang_data in books.items() %}
+    <div class="language-section">
+        <h2>{{ lang_data.language }}</h2>
+        <div class="book-grid">
+            {% for book_name, file_path in lang_data.books %}
+            <a href="{{ file_path }}" class="book-link">
+                <div class="book-title">{{ book_name }}</div>
+                <div class="book-path">{{ file_path }}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+
+    <div class="footer">
+        <p>Generated automatically from the journal transcription project.</p>
+    </div>
+</body>
+</html>

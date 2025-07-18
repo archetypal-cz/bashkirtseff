@@ -26,7 +26,13 @@
       "Bash(fi)",
       "Bash(do echo -n \"$file: \")",
       "Bash(rg:*)",
-      "Bash(diff:*)"
+      "Bash(diff:*)",
+      "Bash(poetry run:*)",
+      "Bash(just compile:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(just build-prod:*)"
     ],
     "deny": []
   }

@@ -36,6 +36,189 @@ def find_markdown_files(directory: Path) -> List[Path]:
     return sorted(directory.glob("*.md"))
 
 
+from enum import Enum
+from typing import NamedTuple, List
+from datetime import datetime
+
+class ParagraphType(Enum):
+    DATE_HEADER = "date_header"
+    PARAGRAPH_ID = "paragraph_id"
+    DIARY_TEXT = "diary_text"
+    HASHTAG_LINKS = "hashtag_links"
+    RESEARCHER_NOTE = "researcher_note"
+    TRANSLATOR_NOTE = "translator_note"
+    EDITOR_NOTE = "editor_note"
+    CONDUCTOR_NOTE = "conductor_note"
+    PROJECT_ASSISTANT_NOTE = "project_assistant_note"
+    VERSION_NOTE = "version_note"
+    METADATA = "metadata"
+    UNKNOWN = "unknown"
+
+class ParsedParagraph(NamedTuple):
+    type: ParagraphType
+    content: str
+    raw_content: str
+    timestamp: datetime = None
+    paragraph_id: str = None
+
+def parse_markdown_content(content: str) -> List[ParsedParagraph]:
+    """Parse markdown content into categorized paragraphs."""
+    paragraphs = []
+    lines = content.split('\n')
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # Check if it's a comment block
+        comment_match = re.match(r'\[//\]: # \((.*?)\)', line, re.DOTALL)
+        if comment_match:
+            comment_content = comment_match.group(1).strip()
+            parsed = _parse_comment_block(comment_content, line)
+            paragraphs.append(parsed)
+        else:
+            # Regular markdown content (for translations)
+            if line.startswith('#'):
+                paragraphs.append(ParsedParagraph(
+                    type=ParagraphType.DATE_HEADER,
+                    content=line.replace('#', '').strip(),
+                    raw_content=line
+                ))
+            elif line:
+                paragraphs.append(ParsedParagraph(
+                    type=ParagraphType.DIARY_TEXT,
+                    content=line,
+                    raw_content=line
+                ))
+    
+    return paragraphs
+
+def _parse_comment_block(comment_content: str, raw_line: str) -> ParsedParagraph:
+    """Parse a comment block and determine its type."""
+    
+    # Check for timestamp patterns (RSR, TR, RED, CON, PA notes)
+    timestamp_pattern = r'(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})\s+([A-Z]+):\s*(.*)'
+    timestamp_match = re.match(timestamp_pattern, comment_content)
+    
+    if timestamp_match:
+        timestamp_str, note_type, note_content = timestamp_match.groups()
+        try:
+            timestamp = datetime.fromisoformat(timestamp_str)
+        except ValueError:
+            timestamp = None
+            
+        type_mapping = {
+            'RSR': ParagraphType.RESEARCHER_NOTE,
+            'TR': ParagraphType.TRANSLATOR_NOTE,
+            'RED': ParagraphType.EDITOR_NOTE,
+            'CON': ParagraphType.CONDUCTOR_NOTE,
+            'PA': ParagraphType.PROJECT_ASSISTANT_NOTE
+        }
+        
+        return ParsedParagraph(
+            type=type_mapping.get(note_type, ParagraphType.UNKNOWN),
+            content=note_content,
+            raw_content=raw_line,
+            timestamp=timestamp
+        )
+    
+    # Check for paragraph IDs (like "04.1", "01.23", etc.)
+    paragraph_id_pattern = r'^\d{2}\.\d+$'
+    if re.match(paragraph_id_pattern, comment_content):
+        return ParsedParagraph(
+            type=ParagraphType.PARAGRAPH_ID,
+            content=comment_content,
+            raw_content=raw_line,
+            paragraph_id=comment_content
+        )
+    
+    # Check for hashtag links
+    if comment_content.startswith('#') or '[#' in comment_content:
+        return ParsedParagraph(
+            type=ParagraphType.HASHTAG_LINKS,
+            content=comment_content,
+            raw_content=raw_line
+        )
+    
+    # Check for version notes
+    if comment_content.startswith('V0'):
+        return ParsedParagraph(
+            type=ParagraphType.VERSION_NOTE,
+            content=comment_content,
+            raw_content=raw_line
+        )
+    
+    # Check for metadata (like "End line in original file")
+    metadata_patterns = [
+        r'End line in original',
+        r'Entry ends at line',
+        r'Next entry starts at line'
+    ]
+    
+    for pattern in metadata_patterns:
+        if re.search(pattern, comment_content, re.IGNORECASE):
+            return ParsedParagraph(
+                type=ParagraphType.METADATA,
+                content=comment_content,
+                raw_content=raw_line
+            )
+    
+    # Check for date headers (French date patterns)
+    date_patterns = [
+        r'(Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)',
+        r'\d{1,2}\s+(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)',
+        r'\d{4}-\d{2}-\d{2}'
+    ]
+    
+    for pattern in date_patterns:
+        if re.search(pattern, comment_content, re.IGNORECASE):
+            return ParsedParagraph(
+                type=ParagraphType.DATE_HEADER,
+                content=comment_content,
+                raw_content=raw_line
+            )
+    
+    # If none of the above, and it's substantial text, consider it diary content
+    if len(comment_content.strip()) > 5:  # Minimum threshold for diary content
+        return ParsedParagraph(
+            type=ParagraphType.DIARY_TEXT,
+            content=comment_content,
+            raw_content=raw_line
+        )
+    
+    # Default to unknown
+    return ParsedParagraph(
+        type=ParagraphType.UNKNOWN,
+        content=comment_content,
+        raw_content=raw_line
+    )
+
+def extract_diary_content(content: str) -> str:
+    """Extract only diary text from parsed content."""
+    paragraphs = parse_markdown_content(content)
+    
+    diary_paragraphs = []
+    for paragraph in paragraphs:
+        if paragraph.type == ParagraphType.DIARY_TEXT:
+            diary_paragraphs.append(paragraph.content)
+    
+    return '\n\n'.join(diary_paragraphs)
+
+
+def has_substantial_content(content: str, is_original: bool = False) -> bool:
+    """Check if the content has substantial text."""
+    if is_original:
+        # For original files, check if we have diary content
+        diary_content = extract_diary_content(content)
+        return len(diary_content.strip()) > 20  # Require at least 20 characters of diary content
+    else:
+        # For translations, check visible content
+        content_without_comments = re.sub(r'\[//\]: # \(.*?\)', '', content, flags=re.DOTALL)
+        visible_content = content_without_comments.strip()
+        return len(visible_content) > 10
+
+
 def compile_markdown(files: List[Path], output_path: Path) -> None:
     """Combine multiple Markdown files into a single file."""
     with output_path.open("w", encoding="utf-8") as outfile:
@@ -43,45 +226,81 @@ def compile_markdown(files: List[Path], output_path: Path) -> None:
         book_name = output_path.stem
         outfile.write(f"# {book_name}\n\n")
 
+        # Determine if we're processing original files or translations
+        parts = output_path.parts
+        language_index = parts.index("pub") + 1
+        language = parts[language_index]
+        is_original = language == "_original"
+
         for file_path in files:
             log.info(f"Processing {file_path}")
 
-            # Extract ISO date from filename for the link
-            date_match = re.search(r"(\d{4}-\d{2}-\d{2})", file_path.name)
-            iso_date = date_match.group(1) if date_match else file_path.stem
-
-            # Get the relative path for the link
-            # Extract book_id and language from the output path
-            parts = output_path.parts
-            language_index = parts.index("pub") + 1
-            language = parts[language_index]
-
-            # Create the link to the original file
-            file_link = f"../{file_path.name}"
-            if language != "_original":
-                # For translations, link back to the original file
-                file_link = f"../../_original/{file_path.parent.name}/{file_path.name}"
-
-            # Read the file content
+            # Read the file content first
             with file_path.open("r", encoding="utf-8") as infile:
                 content = infile.read()
 
-                # Extract Marie's date from the first line if available
+            # Skip files with no substantial content
+            if not has_substantial_content(content, is_original):
+                log.info(f"Skipping {file_path} - no substantial content")
+                continue
+
+            # Extract date for header
+            if is_original:
+                # For original files, use Marie's French date from first comment if available
                 marie_date = None
                 first_line = content.split("\n", 1)[0] if content else ""
                 marie_date_match = re.search(r"\[\//\]: # \((.*?)\)", first_line)
                 if marie_date_match:
                     marie_date = marie_date_match.group(1).strip()
-
+                
+                # Extract ISO date from filename as fallback
+                date_match = re.search(r"(\d{4}-\d{2}-\d{2})", file_path.name)
+                iso_date = date_match.group(1) if date_match else file_path.stem
+                
                 # Use Marie's date if available, otherwise use ISO date
                 header_date = marie_date if marie_date else iso_date
+            else:
+                # For translations, use the translated date from the first line (after #)
+                first_line = content.split("\n", 1)[0] if content else ""
+                if first_line.startswith("#"):
+                    # Extract the translated date from the header
+                    header_date = first_line.replace("#", "").strip()
+                else:
+                    # Fallback to ISO date if no header found
+                    date_match = re.search(r"(\d{4}-\d{2}-\d{2})", file_path.name)
+                    header_date = date_match.group(1) if date_match else file_path.stem
 
-                # Add file header with link
-                outfile.write(f"## [{header_date}]({file_link})\n\n")
+            # Create anchor ID from ISO date for better URL structure
+            date_match = re.search(r"(\d{4}-\d{2}-\d{2})", file_path.name)
+            anchor_id = date_match.group(1) if date_match else file_path.stem
+            
+            # Add file header without link (links break in HTML export)
+            outfile.write(f"## {header_date} {{#{anchor_id}}}\n\n")
 
-                # Write the content
-                outfile.write(content)
-                outfile.write("\n\n")
+            # Write the content based on file type
+            if is_original:
+                # For original files, extract diary content using the new parser
+                diary_content = extract_diary_content(content)
+                if diary_content:
+                    # Remove duplicate date from the beginning if it matches the header
+                    lines = diary_content.split('\n')
+                    if lines and lines[0].strip() == header_date:
+                        diary_content = '\n'.join(lines[1:]).strip()
+                    outfile.write(diary_content)
+                else:
+                    # Fallback to original content if extraction fails
+                    outfile.write(content)
+            else:
+                # For translations, use content as-is but remove duplicate header
+                content_lines = content.split('\n')
+                # Skip the first line if it's a header that matches our header_date
+                if content_lines and content_lines[0].startswith('#'):
+                    content_to_write = '\n'.join(content_lines[1:]).strip()
+                else:
+                    content_to_write = content.strip()
+                outfile.write(content_to_write)
+            
+            outfile.write("\n\n")
 
     log.info(f"Markdown compilation complete. Output saved to {output_path}")
 

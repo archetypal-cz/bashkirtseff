@@ -72,6 +72,10 @@ open-glossary lang=default_lang:
         python -c "import webbrowser; webbrowser.open('file://{{justfile_directory()}}/pub/{{lang}}/{{lang}}_glossary.html')"; \
     fi
 
+# Open the main index page
+open-index:
+    python -c "import webbrowser; webbrowser.open('file://{{justfile_directory()}}/pub/index.html')"
+
 # === DEVELOPMENT ===
 
 # Format Python code
@@ -170,12 +174,17 @@ recent book=default_book count="5":
 
 # === DEPLOYMENT ===
 
+# Generate index.html for pub directory
+generate-index:
+    poetry run python scripts/generate_index.py
+
 # Build for production and create robots.txt
 build-prod:
     just build-all
+    just generate-index
     @echo "User-agent: *" > pub/robots.txt
     @echo "Disallow: /" >> pub/robots.txt
-    @echo "Production build complete with robots.txt"
+    @echo "Production build complete with robots.txt and index.html"
 
 # === HELP ===
 
@@ -198,6 +207,7 @@ help:
     @echo "  just open 01 cz      # Open Czech book 01"
     @echo "  just open-original 01 # Open original French book 01"
     @echo "  just open-glossary   # Open glossary"
+    @echo "  just open-index      # Open main index page"
     @echo ""
     @echo "PROJECT MANAGEMENT:"
     @echo "  just status          # Show project status"
