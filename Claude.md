@@ -290,6 +290,20 @@ When processing raw carnet files into individual day entries:
 - Daily entries: `/src/_original/{book}/YYYY-MM-DD.md`
 - Glossary: `/src/_original/_glossary/{topic}.md`
 
+### Daily Entry Dating System
+Marie uses dual calendar dating in her diary entries (Gregorian/Julian), but our file naming follows a consistent standard:
+
+**File naming**: Always use the **Gregorian calendar date** (New Style) for filenames to maintain proper chronological order:
+- `1876-09-16.md` (not the Julian date)
+- Add descriptive suffixes when needed: `-morning.md`, `-evening.md`, `-tuesday.md`
+
+**Entry headers**: Preserve Marie's exact dual dating system within the entry:
+- `# Samedi, 16 septembre 1876 (4 septembre) - Title`
+- The first date is Gregorian (New Style), the date in parentheses is Julian (Old Style)
+- Marie consistently writes the Gregorian date first, then Julian in parentheses
+
+**Historical context**: During Marie's time (1870s), Russia used the Julian calendar (12 days behind) while Western Europe used the Gregorian calendar. Marie, writing from both locations, uses both systems to maintain clarity for her international correspondence and travels.
+
 ## Key Principles
 - Maintain the spirit and literary quality of the original
 - Ensure consistency across the entire project
