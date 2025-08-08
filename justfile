@@ -35,7 +35,7 @@ update:
 
 # Compile a specific book for a language (e.g., just compile 01 cz)
 compile book=default_book lang=default_lang:
-    poetry run python scripts/compile_book.py {{book}} --language {{lang}}
+    poetry run python scripts/compile_book.py {{book}} --language {{lang}} --template scripts/templates/book_template.html
 
 # Compile all books for a language (alias: build)
 build lang=default_lang:

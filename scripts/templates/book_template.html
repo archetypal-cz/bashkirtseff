@@ -67,16 +67,619 @@
             background: #ddd;
             margin: 2em 0;
         }
-        @media (max-width: 600px) {
+
+        /* Floating Navigation Menu */
+        .nav-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1001;
+            background: #f8f9fa;
+            border: 2px solid #ddd;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .nav-toggle:hover {
+            background: #e9ecef;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+        .nav-toggle.active {
+            background: #007bff;
+            color: white;
+            border-color: #0056b3;
+        }
+
+        .floating-nav {
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            width: 320px;
+            max-height: 70vh;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+            z-index: 1000;
+            overflow: hidden;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        }
+        .floating-nav.open {
+            transform: translateX(0);
+        }
+
+        .nav-header {
+            background: #f8f9fa;
+            padding: 12px 16px;
+            border-bottom: 1px solid #ddd;
+            font-weight: bold;
+            font-size: 14px;
+            color: #495057;
+        }
+        .progress-info {
+            font-size: 11px;
+            color: #6c757d;
+            margin-top: 4px;
+        }
+
+        .nav-content {
+            overflow-y: auto;
+            max-height: calc(70vh - 50px);
+        }
+
+        .year-group {
+            border-bottom: 1px solid #eee;
+        }
+        .year-header {
+            background: #f1f3f4;
+            padding: 10px 16px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 13px;
+            color: #333;
+            border: none;
+            width: 100%;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .year-header:hover {
+            background: #e9ecef;
+        }
+        .year-header::after {
+            content: '▼';
+            transition: transform 0.3s ease;
+            font-size: 10px;
+        }
+        .year-header.collapsed::after {
+            transform: rotate(-90deg);
+        }
+
+        .month-group {
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .month-header {
+            background: #fafbfc;
+            padding: 8px 24px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 12px;
+            color: #495057;
+            border: none;
+            width: 100%;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .month-header:hover {
+            background: #f1f3f4;
+        }
+        .month-header::after {
+            content: '▼';
+            transition: transform 0.3s ease;
+            font-size: 9px;
+        }
+        .month-header.collapsed::after {
+            transform: rotate(-90deg);
+        }
+
+        .day-list {
+            background: white;
+        }
+        .day-item {
+            padding: 6px 32px;
+            cursor: pointer;
+            font-size: 12px;
+            color: #666;
+            border-bottom: 1px solid #f8f9fa;
+            transition: all 0.2s ease;
+        }
+        .day-item:hover {
+            background: #f8f9fa;
+            color: #333;
+        }
+        .day-item.current {
+            background: #e3f2fd;
+            color: #1976d2;
+            font-weight: 600;
+            border-left: 3px solid #1976d2;
+        }
+        .day-item.read {
+            opacity: 0.6;
+            color: #999;
+        }
+        .day-item.read::after {
+            content: ' ✓';
+            color: #4caf50;
+            font-size: 10px;
+        }
+        .day-item.last-read {
+            background: #fff3cd;
+            border-left: 3px solid #ffc107;
+        }
+        .day-item.last-read::after {
+            content: ' 📖';
+            font-size: 10px;
+        }
+
+        .year-content, .month-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .year-content.collapsed, .month-content.collapsed {
+            max-height: 0;
+        }
+
+        @media (max-width: 768px) {
+            .floating-nav {
+                width: calc(100vw - 40px);
+                right: 20px;
+                left: 20px;
+                max-height: 60vh;
+            }
             body {
                 padding: 10px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .nav-toggle {
+                top: 10px;
+                right: 10px;
+                width: 45px;
+                height: 45px;
+                font-size: 18px;
+            }
+            .floating-nav {
+                top: 65px;
+                right: 10px;
+                left: 10px;
+                width: auto;
             }
         }
     </style>
 </head>
 <body>
+    <!-- Navigation Toggle Button -->
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        📖
+    </button>
+
+    <!-- Floating Navigation Menu -->
+    <nav class="floating-nav" id="floatingNav">
+        <div class="nav-header" id="navHeader">
+            Navigation
+            <div class="progress-info" id="progressInfo">
+                <!-- Progress info will be populated by JavaScript -->
+            </div>
+        </div>
+        <div class="nav-content" id="navContent">
+            <!-- Navigation items will be populated by JavaScript -->
+        </div>
+    </nav>
+
     <article>
         {{ content }}
     </article>
+
+    <script>
+        class DiaryNavigator {
+            constructor() {
+                this.navToggle = document.getElementById('navToggle');
+                this.floatingNav = document.getElementById('floatingNav');
+                this.navContent = document.getElementById('navContent');
+                this.progressInfo = document.getElementById('progressInfo');
+                this.currentEntry = null;
+                this.readEntries = new Set();
+                this.lastReadEntry = null;
+                this.currentBook = this.getCurrentBookId();
+                this.totalEntries = 0;
+                
+                this.loadReadingProgress();
+                this.init();
+            }
+
+            init() {
+                this.buildNavigation();
+                this.bindEvents();
+                this.handleScroll();
+                
+                // Initial scroll check
+                this.updateCurrentEntry();
+                this.markVisibleEntriesAsRead();
+            }
+
+            getCurrentBookId() {
+                // Extract book ID from URL or page title
+                const pathname = window.location.pathname;
+                const match = pathname.match(/(\d{2})\.html/);
+                return match ? match[1] : '01';
+            }
+
+            loadReadingProgress() {
+                const storageKey = `diary-progress-${this.currentBook}`;
+                const saved = localStorage.getItem(storageKey);
+                if (saved) {
+                    const progress = JSON.parse(saved);
+                    this.readEntries = new Set(progress.readEntries || []);
+                    this.lastReadEntry = progress.lastReadEntry || null;
+                }
+            }
+
+            saveReadingProgress() {
+                const storageKey = `diary-progress-${this.currentBook}`;
+                const progress = {
+                    readEntries: Array.from(this.readEntries),
+                    lastReadEntry: this.lastReadEntry,
+                    lastUpdated: new Date().toISOString()
+                };
+                localStorage.setItem(storageKey, JSON.stringify(progress));
+            }
+
+            buildNavigation() {
+                const headings = document.querySelectorAll('h2[id]');
+                const entries = {};
+                this.totalEntries = 0;
+
+                headings.forEach(heading => {
+                    const id = heading.getAttribute('id');
+                    const text = heading.textContent.trim();
+                    
+                    // Parse date from ID (format: YYYY-MM-DD)
+                    const dateMatch = id.match(/(\d{4})-(\d{2})-(\d{2})/);
+                    if (dateMatch) {
+                        const [, year, month, day] = dateMatch;
+                        
+                        if (!entries[year]) entries[year] = {};
+                        if (!entries[year][month]) entries[year][month] = [];
+                        
+                        entries[year][month].push({
+                            id: id,
+                            text: text,
+                            day: day,
+                            date: `${year}-${month}-${day}`
+                        });
+                        this.totalEntries++;
+                    }
+                });
+
+                this.renderNavigation(entries);
+                this.updateProgressInfo();
+            }
+
+            updateProgressInfo() {
+                const readCount = this.readEntries.size;
+                const percentage = this.totalEntries > 0 ? Math.round((readCount / this.totalEntries) * 100) : 0;
+                
+                let progressText = `${readCount}/${this.totalEntries} entries read (${percentage}%)`;
+                
+                if (this.lastReadEntry) {
+                    const lastReadItem = document.querySelector(`.day-item[data-target="${this.lastReadEntry}"]`);
+                    if (lastReadItem) {
+                        const lastReadText = lastReadItem.textContent.trim().replace(' 📖', '').replace(' ✓', '');
+                        progressText += `<br>Last read: ${lastReadText}`;
+                    }
+                }
+                
+                this.progressInfo.innerHTML = progressText;
+            }
+
+            renderNavigation(entries) {
+                const years = Object.keys(entries).sort().reverse(); // Most recent first
+                let html = '';
+
+                years.forEach(year => {
+                    const months = Object.keys(entries[year]).sort().reverse();
+                    const yearId = `year-${year}`;
+                    
+                    html += `
+                        <div class="year-group">
+                            <button class="year-header" data-target="${yearId}">
+                                ${year}
+                            </button>
+                            <div class="year-content" id="${yearId}">
+                    `;
+
+                    months.forEach(month => {
+                        const monthName = this.getMonthName(parseInt(month));
+                        const monthId = `month-${year}-${month}`;
+                        const days = entries[year][month].sort((a, b) => b.date.localeCompare(a.date));
+
+                        html += `
+                            <div class="month-group">
+                                <button class="month-header" data-target="${monthId}">
+                                    ${monthName}
+                                </button>
+                                <div class="month-content" id="${monthId}">
+                                    <div class="day-list">
+                        `;
+
+                        days.forEach(day => {
+                            const isRead = this.readEntries.has(day.id);
+                            const isLastRead = this.lastReadEntry === day.id;
+                            const classes = ['day-item'];
+                            if (isRead) classes.push('read');
+                            if (isLastRead) classes.push('last-read');
+                            
+                            html += `
+                                <div class="${classes.join(' ')}" data-target="${day.id}">
+                                    ${day.text}
+                                </div>
+                            `;
+                        });
+
+                        html += `
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    });
+
+                    html += `
+                            </div>
+                        </div>
+                    `;
+                });
+
+                this.navContent.innerHTML = html;
+            }
+
+            getMonthName(monthNum) {
+                const months = [
+                    'Leden', 'Únor', 'Březen', 'Duben', 'Květen', 'Červen',
+                    'Červenec', 'Srpen', 'Září', 'Říjen', 'Listopad', 'Prosinec'
+                ];
+                return months[monthNum - 1] || 'Neznámý';
+            }
+
+            bindEvents() {
+                // Toggle navigation
+                this.navToggle.addEventListener('click', () => {
+                    this.toggleNavigation();
+                });
+
+                // Close navigation when clicking outside
+                document.addEventListener('click', (e) => {
+                    if (!this.floatingNav.contains(e.target) && !this.navToggle.contains(e.target)) {
+                        this.closeNavigation();
+                    }
+                });
+
+                // Handle year/month collapsing
+                this.navContent.addEventListener('click', (e) => {
+                    if (e.target.classList.contains('year-header') || e.target.classList.contains('month-header')) {
+                        this.toggleSection(e.target);
+                    } else if (e.target.classList.contains('day-item')) {
+                        this.navigateToEntry(e.target.getAttribute('data-target'));
+                    }
+                });
+
+                // Handle scroll for current entry highlighting
+                window.addEventListener('scroll', () => {
+                    this.handleScroll();
+                });
+            }
+
+            toggleNavigation() {
+                const isOpen = this.floatingNav.classList.contains('open');
+                if (isOpen) {
+                    this.closeNavigation();
+                } else {
+                    this.openNavigation();
+                }
+            }
+
+            openNavigation() {
+                this.floatingNav.classList.add('open');
+                this.navToggle.classList.add('active');
+                this.navToggle.textContent = '✖';
+                
+                // Expand current entry's year and month
+                this.expandToCurrentEntry();
+                
+                // Show option to continue from last read position
+                this.showContinueReading();
+            }
+
+            showContinueReading() {
+                if (this.lastReadEntry && this.lastReadEntry !== this.currentEntry) {
+                    const lastReadItem = document.querySelector(`.day-item[data-target="${this.lastReadEntry}"]`);
+                    if (lastReadItem) {
+                        // Add a subtle highlight to show where the user can continue reading
+                        lastReadItem.classList.add('last-read');
+                    }
+                }
+            }
+
+            closeNavigation() {
+                this.floatingNav.classList.remove('open');
+                this.navToggle.classList.remove('active');
+                this.navToggle.textContent = '📖';
+            }
+
+            toggleSection(button) {
+                const target = document.getElementById(button.getAttribute('data-target'));
+                const isCollapsed = button.classList.contains('collapsed');
+                
+                if (isCollapsed) {
+                    button.classList.remove('collapsed');
+                    target.classList.remove('collapsed');
+                    target.style.maxHeight = target.scrollHeight + 'px';
+                } else {
+                    button.classList.add('collapsed');
+                    target.classList.add('collapsed');
+                    target.style.maxHeight = '0';
+                }
+            }
+
+            navigateToEntry(entryId) {
+                const element = document.getElementById(entryId);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    this.closeNavigation();
+                }
+            }
+
+            handleScroll() {
+                clearTimeout(this.scrollTimeout);
+                this.scrollTimeout = setTimeout(() => {
+                    this.updateCurrentEntry();
+                }, 100);
+            }
+
+            updateCurrentEntry() {
+                const headings = document.querySelectorAll('h2[id]');
+                let current = null;
+                const scrollTop = window.pageYOffset;
+                const windowHeight = window.innerHeight;
+
+                headings.forEach(heading => {
+                    const rect = heading.getBoundingClientRect();
+                    const top = rect.top + scrollTop;
+                    
+                    if (top <= scrollTop + windowHeight / 3) {
+                        current = heading.getAttribute('id');
+                    }
+                });
+
+                if (current !== this.currentEntry) {
+                    this.highlightCurrentEntry(current);
+                    this.currentEntry = current;
+                    
+                    // Update last read entry and save progress
+                    if (current) {
+                        this.lastReadEntry = current;
+                        this.saveReadingProgress();
+                        this.updateProgressInfo();
+                    }
+                }
+                
+                // Mark visible entries as read
+                this.markVisibleEntriesAsRead();
+            }
+
+            markVisibleEntriesAsRead() {
+                const headings = document.querySelectorAll('h2[id]');
+                const scrollTop = window.pageYOffset;
+                const windowHeight = window.innerHeight;
+                let progressChanged = false;
+
+                headings.forEach(heading => {
+                    const rect = heading.getBoundingClientRect();
+                    const entryId = heading.getAttribute('id');
+                    
+                    // Mark as read if entry has passed through the top half of the screen
+                    if (rect.bottom < windowHeight / 2 && !this.readEntries.has(entryId)) {
+                        this.readEntries.add(entryId);
+                        progressChanged = true;
+                        
+                        // Update UI to show as read
+                        const navItem = document.querySelector(`.day-item[data-target="${entryId}"]`);
+                        if (navItem && !navItem.classList.contains('read')) {
+                            navItem.classList.add('read');
+                        }
+                    }
+                });
+
+                if (progressChanged) {
+                    this.saveReadingProgress();
+                    this.updateProgressInfo();
+                }
+            }
+
+            highlightCurrentEntry(entryId) {
+                // Remove previous highlighting
+                document.querySelectorAll('.day-item.current').forEach(item => {
+                    item.classList.remove('current');
+                });
+
+                // Remove previous last-read highlighting
+                document.querySelectorAll('.day-item.last-read').forEach(item => {
+                    item.classList.remove('last-read');
+                });
+
+                // Add current highlighting
+                if (entryId) {
+                    const currentItem = document.querySelector(`.day-item[data-target="${entryId}"]`);
+                    if (currentItem) {
+                        currentItem.classList.add('current');
+                    }
+                }
+
+                // Add last-read highlighting
+                if (this.lastReadEntry && this.lastReadEntry !== entryId) {
+                    const lastReadItem = document.querySelector(`.day-item[data-target="${this.lastReadEntry}"]`);
+                    if (lastReadItem) {
+                        lastReadItem.classList.add('last-read');
+                    }
+                }
+            }
+
+            expandToCurrentEntry() {
+                if (!this.currentEntry) return;
+                
+                const currentItem = document.querySelector(`.day-item[data-target="${this.currentEntry}"]`);
+                if (!currentItem) return;
+
+                // Find and expand parent year and month
+                const monthContent = currentItem.closest('.month-content');
+                const yearContent = currentItem.closest('.year-content');
+                
+                if (monthContent) {
+                    const monthHeader = document.querySelector(`[data-target="${monthContent.id}"]`);
+                    if (monthHeader && monthHeader.classList.contains('collapsed')) {
+                        this.toggleSection(monthHeader);
+                    }
+                }
+                
+                if (yearContent) {
+                    const yearHeader = document.querySelector(`[data-target="${yearContent.id}"]`);
+                    if (yearHeader && yearHeader.classList.contains('collapsed')) {
+                        this.toggleSection(yearHeader);
+                    }
+                }
+
+                // Scroll current item into view in nav
+                setTimeout(() => {
+                    currentItem.scrollIntoView({ block: 'center', behavior: 'smooth' });
+                }, 300);
+            }
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new DiaryNavigator();
+        });
+    </script>
 </body>
 </html>
