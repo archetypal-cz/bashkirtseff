@@ -304,6 +304,88 @@ Marie uses dual calendar dating in her diary entries (Gregorian/Julian), but our
 
 **Historical context**: During Marie's time (1870s), Russia used the Julian calendar (12 days behind) while Western Europe used the Gregorian calendar. Marie, writing from both locations, uses both systems to maintain clarity for her international correspondence and travels.
 
+## File Format Standards
+
+### CRITICAL: Original vs Translation File Formats
+
+**ORIGINAL Files** (`/src/_original/{book}/YYYY-MM-DD.md`):
+- French text is VISIBLE (not in comments)
+- Paragraph IDs in comments: `[//]: # ( XX.YYY )`
+- Glossary tags in comments: `[//]: # ( [#Name](../_glossary/Name.md) )`
+- RSR researcher notes in comments: `[//]: # ( YYYY-MM-DDThh:mm:ss RSR: note )`
+
+**Example ORIGINAL format:**
+```markdown
+# Lundi, 11 août 1873
+[//]: # ( 02.01 )
+[//]: # ( [#Preiss](../_glossary/Preiss.md) )
+
+Dès le matin nous résolûmes d'attendre Preiss...
+[//]: # ( 02.02 )
+
+A déjeuner ma tante voit entrer Warpahowsky...
+```
+
+**TRANSLATION Files** (`/src/{lang}/{book}/YYYY-MM-DD.md`):
+- French text in comments (preserves original)
+- Translation is VISIBLE
+- Paragraph IDs in comments: `[//]: # ( XX.YYY )`
+- Translator/Editor notes in comments
+
+**Example TRANSLATION format:**
+```markdown
+[//]: # ( Dès le matin nous résolûmes d'attendre Preiss... )
+[//]: # ( 02.01 )
+[//]: # ( 2025-03-11T13:18:00 TR: translator note )
+
+Hned ráno jsme se rozhodli počkat na Preisse...
+[//]: # ( 02.02 )
+```
+
+### Paragraph ID Numbering System
+
+**CRITICAL RULE: Sequential Across Entire Book**
+
+Paragraph IDs must be **sequential across the ENTIRE book**, never resetting:
+
+✅ **CORRECT:**
+- Book 02, Entry 1873-08-11: 02.01, 02.02, 02.03
+- Book 02, Entry 1873-08-12: 02.04, 02.05, 02.06 (continues from previous)
+- Book 02, Entry 1873-12-31: 02.2453, 02.2454 (end of book)
+
+❌ **WRONG:**
+- Book 02, Entry 1873-08-11: 02.01, 02.02
+- Book 02, Entry 1873-08-12: 02.01, 02.02 (WRONG - resets!)
+
+**Format:** `[//]: # ( XX.YYY )`
+- XX = Book number (01, 02, 12, etc.)
+- YYY = Sequential paragraph number (1, 2, 3... continuing across ALL entries)
+
+**Never:**
+- Use day-based numbering: `[//]: # ( 11.01 )` for August 11
+- Reset numbering for each entry
+- Create gaps in the sequence
+- Duplicate IDs across entries
+
+### Common Pitfalls to Avoid
+
+1. **Wrapped Text in ORIGINAL Files**
+   - ❌ WRONG: `[//]: # ( French text here )`
+   - ✅ CORRECT: `French text visible`
+   - Only paragraph IDs, tags, and notes go in comments
+
+2. **Restarting Paragraph IDs**
+   - ❌ WRONG: Each entry starts with XX.01
+   - ✅ CORRECT: Continue from previous entry's last ID
+
+3. **Day-Based IDs**
+   - ❌ WRONG: Using `12.06` for June 6 entry
+   - ✅ CORRECT: Using book number: `12.347` (347th paragraph in Book 12)
+
+4. **Glossary Path Format**
+   - ❌ WRONG: `/src/_original/_glossary/Topic.md` (absolute path)
+   - ✅ CORRECT: `../_glossary/Topic.md` (relative path)
+
 ## Key Principles
 - Maintain the spirit and literary quality of the original
 - Ensure consistency across the entire project
@@ -311,6 +393,8 @@ Marie uses dual calendar dating in her diary entries (Gregorian/Julian), but our
 - Collaborate effectively by responding to existing comments
 - Always verify and create proper markdown links
 - Preserve project organization and standards
+- **Follow sequential paragraph numbering across entire books**
+- **Use correct format for ORIGINAL vs TRANSLATION files**
 
 Begin by examining the project and determining your role for this session.
 
