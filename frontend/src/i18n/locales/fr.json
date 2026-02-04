@@ -33,6 +33,7 @@
   "common": {
     "menu": "Menu",
     "close": "Fermer",
+    "closeMenu": "Fermer le menu",
     "login": "Se connecter",
     "loading": "Chargement..."
   },

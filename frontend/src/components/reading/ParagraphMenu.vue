@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, reactive } from 'vue';
+import { ref, reactive, onMounted, onUnmounted } from 'vue';
 import { useI18n } from '../../i18n';
 
 const { t } = useI18n();
@@ -24,6 +24,23 @@ const isOpen = ref(false);
 const activeTooltip = ref<string | null>(null);
 const tooltipCache = reactive<Record<string, TooltipData | null>>({});
 const tooltipLoading = ref(false);
+const isMobile = ref(false);
+
+// Mobile detection
+function checkMobile() {
+  isMobile.value = typeof window !== 'undefined' && window.innerWidth < 768;
+}
+
+onMounted(() => {
+  checkMobile();
+  window.addEventListener('resize', checkMobile);
+});
+
+onUnmounted(() => {
+  if (typeof window !== 'undefined') {
+    window.removeEventListener('resize', checkMobile);
+  }
+});
 
 function toggleMenu() {
   isOpen.value = !isOpen.value;
@@ -116,9 +133,66 @@ function hideTooltip() {
       </span>
     </button>
 
-    <!-- Dropdown menu -->
+    <!-- Mobile: Full screen modal -->
+    <Teleport to="body">
+      <Transition name="modal">
+        <div v-if="isOpen && isMobile" class="mobile-modal" @click="closeMenu">
+          <div class="mobile-modal-content" @click.stop>
+            <!-- Close menu item (first item on mobile) -->
+            <button @click="closeMenu" class="menu-item close-item">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+              <span>{{ t('common.closeMenu') }}</span>
+            </button>
+
+            <!-- Paragraph ID header -->
+            <div class="mobile-menu-header">
+              <span class="menu-title">{{ paragraphId }}</span>
+            </div>
+
+            <!-- Actions -->
+            <div class="menu-section">
+              <!-- Share button (if Web Share API available) -->
+              <button v-if="canShare" @click="shareLink" class="menu-item">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                </svg>
+                <span>{{ t('paragraph.share') }}</span>
+              </button>
+              <!-- Copy link button -->
+              <button @click="copyLink" class="menu-item">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                </svg>
+                <span>{{ copied ? t('paragraph.copied') : t('paragraph.copyLink') }}</span>
+              </button>
+            </div>
+
+            <!-- Glossary tags -->
+            <div v-if="glossaryTags && glossaryTags.length > 0" class="menu-section">
+              <div class="section-label">{{ t('paragraph.relatedEntries') }}</div>
+              <a
+                v-for="tag in glossaryTags"
+                :key="tag.id"
+                :href="language ? `/${language}/glossary/${tag.id}` : `/glossary/${tag.id}`"
+                class="menu-item glossary-link"
+                @click="closeMenu"
+              >
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                <span>{{ tag.name }}</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
+
+    <!-- Desktop: Dropdown menu -->
     <Transition name="fade">
-      <div v-if="isOpen" class="menu-dropdown" @click.stop>
+      <div v-if="isOpen && !isMobile" class="menu-dropdown" @click.stop>
         <div class="menu-header">
           <span class="menu-title">{{ paragraphId }}</span>
           <button @click="closeMenu" class="close-btn" :aria-label="t('common.close')">
@@ -189,8 +263,8 @@ function hideTooltip() {
       </div>
     </Transition>
 
-    <!-- Click outside handler -->
-    <div v-if="isOpen" class="backdrop" @click="closeMenu" />
+    <!-- Click outside handler (desktop only) -->
+    <div v-if="isOpen && !isMobile" class="backdrop" @click="closeMenu" />
   </div>
 </template>
 
@@ -444,6 +518,81 @@ function hideTooltip() {
   position: fixed;
   inset: 0;
   z-index: 40;
+}
+
+/* Mobile modal styles */
+.mobile-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.mobile-modal-content {
+  width: 100%;
+  max-height: 80vh;
+  background: var(--bg-primary, #FFF8F0);
+  border-radius: 1rem 1rem 0 0;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+[data-theme="dark"] .mobile-modal-content {
+  background: #1a1a1a;
+}
+
+[data-theme="sepia"] .mobile-modal-content {
+  background: #F5E6D3;
+}
+
+.close-item {
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.75rem;
+  color: var(--color-accent, #B45309);
+}
+
+.close-item:hover {
+  background: transparent;
+  color: var(--color-accent, #B45309);
+}
+
+.mobile-menu-header {
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
+}
+
+.mobile-menu-header .menu-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: monospace;
+  color: var(--text-muted, #78716C);
+}
+
+/* Modal transition */
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.modal-enter-active .mobile-modal-content,
+.modal-leave-active .mobile-modal-content {
+  transition: transform 0.2s ease;
+}
+
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+}
+
+.modal-enter-from .mobile-modal-content,
+.modal-leave-to .mobile-modal-content {
+  transform: translateY(100%);
 }
 
 /* Transitions */

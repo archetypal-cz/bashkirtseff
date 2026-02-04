@@ -144,10 +144,10 @@ const translationLanguage = computed(() => {
   color: #a3a3a3;
 }
 
-/* Flip button with language icons - positioned at bottom right, floating into gap */
+/* Flip button with language icons - positioned at top right, floating into gap */
 .flip-btn {
   position: absolute;
-  bottom: -0.75rem;
+  top: -0.75rem;
   right: 0;
   display: flex;
   align-items: center;

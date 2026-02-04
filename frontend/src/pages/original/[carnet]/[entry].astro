@@ -102,8 +102,8 @@ const processedParagraphs = entry.paragraphs.map(p => ({
         >
           <p class="text-lg leading-relaxed text-ink" lang="fr" set:html={paragraph.html} />
 
-          {/* Paragraph menu - positioned at bottom right for mobile accessibility */}
-          <div class="absolute -bottom-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
+          {/* Paragraph menu - positioned at top right for accessibility */}
+          <div class="absolute -top-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
             <ParagraphMenu
               client:visible
               paragraphId={paragraph.id}
