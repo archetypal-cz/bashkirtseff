@@ -1,7 +1,7 @@
 {
   "home": {
-    "heroQuote": "On ne lit que ce qui existe, et moi je veux exister.",
-    "heroQuoteTranslation": "One only reads what exists, and I want to exist.",
+    "heroQuote": "Je serai célèbre ou je mourrai.",
+    "heroQuoteTranslation": "I will be famous or I will die.",
     "startReading": "Start reading",
     "aboutMarie": "About the project",
     "thisDay": "This Day in Marie's Life",
@@ -164,8 +164,8 @@
     "originalMultilingual": "Original (multilingual)"
   },
   "quotes": {
-    "existence": "One only reads what exists, and I want to exist.",
-    "existenceOriginal": "On ne lit que ce qui existe, et moi je veux exister.",
+    "existence": "I will be famous or I will die.",
+    "existenceOriginal": "Je serai célèbre ou je mourrai.",
     "live": "I want to live, and live brilliantly.",
     "liveOriginal": "Je veux vivre, et vivre avec éclat.",
     "skirts": "I know that I should become somebody; but with skirts — what can one do?"

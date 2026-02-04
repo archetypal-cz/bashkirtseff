@@ -1,7 +1,7 @@
 {
   "home": {
-    "heroQuote": "On ne lit que ce qui existe, et moi je veux exister.",
-    "heroQuoteTranslation": "On ne lit que ce qui existe, et moi je veux exister.",
+    "heroQuote": "Je serai célèbre ou je mourrai.",
+    "heroQuoteTranslation": "Je serai célèbre ou je mourrai.",
     "startReading": "Commencer à lire",
     "aboutMarie": "À propos du projet",
     "thisDay": "Ce jour dans la vie de Marie",
@@ -164,7 +164,7 @@
     "originalMultilingual": "Original (multilingue)"
   },
   "quotes": {
-    "existence": "On ne lit que ce qui existe, et moi je veux exister.",
+    "existence": "Je serai célèbre ou je mourrai.",
     "existenceOriginal": "",
     "live": "Je veux vivre, et vivre avec éclat.",
     "liveOriginal": "",

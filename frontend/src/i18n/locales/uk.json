@@ -1,7 +1,7 @@
 {
   "home": {
-    "heroQuote": "On ne lit que ce qui existe, et moi je veux exister.",
-    "heroQuoteTranslation": "Читають лише те, що існує, а я хочу існувати.",
+    "heroQuote": "Je serai célèbre ou je mourrai.",
+    "heroQuoteTranslation": "Я буду знаменитою, або помру.",
     "startReading": "Почати читати",
     "aboutMarie": "Про проєкт",
     "thisDay": "Цей день у житті Марії",
@@ -156,8 +156,8 @@
     "originalMultilingual": "Оригінал (багатомовний)"
   },
   "quotes": {
-    "existence": "Читають лише те, що існує, а я хочу існувати.",
-    "existenceOriginal": "On ne lit que ce qui existe, et moi je veux exister.",
+    "existence": "Я буду знаменитою, або помру.",
+    "existenceOriginal": "Je serai célèbre ou je mourrai.",
     "live": "Я хочу жити, і жити яскраво.",
     "liveOriginal": "Je veux vivre, et vivre avec éclat.",
     "skirts": "Я знаю, що мала б стати кимось; але у спідницях — що можна зробити?"

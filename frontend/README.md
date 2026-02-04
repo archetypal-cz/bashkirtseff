@@ -156,7 +156,9 @@ npm run dev
 
 ---
 
-*"On ne lit que ce qui existe, et moi je veux exister."*
+*"Je serai célèbre ou je mourrai."*
+
+(I will be famous or I will die.)
 
 Marie exists. Let's make sure the world can read her.
 # Trigger

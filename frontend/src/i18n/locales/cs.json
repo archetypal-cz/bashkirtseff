@@ -1,7 +1,7 @@
 {
   "home": {
-    "heroQuote": "On ne lit que ce qui existe, et moi je veux exister.",
-    "heroQuoteTranslation": "Člověk čte jen to, co existuje, a já chci existovat.",
+    "heroQuote": "Je serai célèbre ou je mourrai.",
+    "heroQuoteTranslation": "Budu slavná, nebo zemřu.",
     "startReading": "Začít číst",
     "aboutMarie": "O projektu",
     "thisDay": "Tento den v životě Marie",
@@ -164,8 +164,8 @@
     "originalMultilingual": "Originál (vícejazyčný)"
   },
   "quotes": {
-    "existence": "Člověk čte jen to, co existuje, a já chci existovat.",
-    "existenceOriginal": "On ne lit que ce qui existe, et moi je veux exister.",
+    "existence": "Budu slavná, nebo zemřu.",
+    "existenceOriginal": "Je serai célèbre ou je mourrai.",
     "live": "Chci žít, a žít skvěle.",
     "liveOriginal": "Je veux vivre, et vivre avec éclat.",
     "skirts": "Vím, že bych se měla stát někým; ale se sukněmi — co člověk zmůže?"
