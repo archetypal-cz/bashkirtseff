@@ -1,0 +1,60 @@
+name: Deploy Frontend
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'frontend/**'
+      - 'shared/**'
+      - 'src/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Tailscale
+        uses: tailscale/github-action@v4
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+          args: --login-server=${{ secrets.HEADSCALE_URL }}
+          hostname: github-actions-deploy
+
+      - name: Setup SSH key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          # Verify key format
+          head -1 ~/.ssh/id_ed25519
+
+      - name: Deploy to aretea.cz
+        run: |
+          # Wait for Tailscale to be ready
+          sleep 5
+
+          # SSH to aretea and deploy
+          ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+            deploy@aretea \
+            "cd ~/coslate_bashkirtseff && \
+             git pull origin main && \
+             cd frontend && \
+             docker compose up -d --build"
+
+      - name: Verify deployment
+        run: |
+          # Wait for container to start
+          sleep 10
+
+          # Check container is running
+          ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+            deploy@aretea \
+            "docker ps | grep bashkirtseff-app"
