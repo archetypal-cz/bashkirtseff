@@ -47,3 +47,4 @@ raw_books/
 
 # Worker config (personal, not shared)
 .claude/WORKER_CONFIG.yaml
+vibe-tools.config.json
