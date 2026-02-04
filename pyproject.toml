@@ -1,0 +1,29 @@
+[project]
+name = "coslate-bashkirtseff"
+version = "0.1.0"
+description = "Translation project for Marie Bashkirtseff's diary"
+authors = [
+    {name = "Coslate by kerray.cz", email = "kerray@kerray.cz"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "markdown>=3.5",
+    "jinja2>=3.1.2",
+    "pyyaml>=6.0",
+    "ebooklib>=0.18",
+    "beautifulsoup4>=4.12.2",
+    "typer>=0.9.0",
+    "rich>=13.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.9.1",
+    "isort>=5.12.0",
+    "mypy>=1.5.1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = []

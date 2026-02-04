@@ -1,0 +1,49 @@
+*Zone.Identifier
+*Zone - kopie.Identifier
+
+# Poetry and Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+.npm
+
+# TypeScript build output
+shared/dist/
+scripts/ts/dist/
+*.tsbuildinfo
+
+# Build artifacts (tracked for deployment)
+# pub/*.md
+# pub/*.html
+# pub/*.epub
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/bashkirtseff-highlighting
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+raw_books/
+
+# Worker config (personal, not shared)
+.claude/WORKER_CONFIG.yaml
