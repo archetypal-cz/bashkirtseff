@@ -3,7 +3,10 @@ import ReadingLayout from '../layouts/ReadingLayout.astro';
 import { t } from '../i18n/astro';
 ---
 
-<ReadingLayout title={t('about.pageTitle')}>
+<ReadingLayout
+  title={t('about.pageTitle')}
+  description="Learn about the Marie Bashkirtseff diary project - making the complete, uncensored diary accessible in multiple languages with historical research and AI-assisted translations."
+>
   <article class="max-w-3xl mx-auto">
     <header class="mb-8 pb-6 border-b border-ink/10">
       <h1 class="text-3xl md:text-4xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">

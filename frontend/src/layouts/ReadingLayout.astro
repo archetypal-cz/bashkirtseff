@@ -10,12 +10,20 @@ interface Props {
   title?: string;
   description?: string;
   lang?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  canonicalUrl?: string;
+  article?: {
+    publishedTime?: string;
+    modifiedTime?: string;
+    author?: string;
+  };
 }
 
-const { title, description, lang } = Astro.props;
+const { title, description, lang, image, type, canonicalUrl, article } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} lang={lang}>
+<BaseLayout title={title} description={description} lang={lang} image={image} type={type} canonicalUrl={canonicalUrl} article={article}>
   <Header />
 
   <main class="flex-grow">

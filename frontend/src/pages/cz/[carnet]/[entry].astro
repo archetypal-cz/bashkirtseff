@@ -59,9 +59,27 @@ const processedParagraphs = entry.paragraphs.map(p => ({
   ...p,
   htmlId: `p-${p.id.replace('.', '-')}`,
 }));
+
+// Generate description from first paragraph (strip HTML and truncate)
+const firstParagraphText = entry.paragraphs[0]?.html
+  ?.replace(/<[^>]*>/g, '')
+  ?.slice(0, 160)
+  ?.trim() + '...' || '';
+const pageDescription = `Diary entry from ${entry.title} in Carnet ${carnet}. ${firstParagraphText}`;
+
+// Format date for article metadata
+const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefined;
 ---
 
-<ReadingLayout title={`${entry.title} — Sešit ${carnet}`}>
+<ReadingLayout
+  title={`${entry.title} — Sešit ${carnet}`}
+  description={pageDescription}
+  type="article"
+  article={{
+    publishedTime: articleDate,
+    author: 'Marie Bashkirtseff',
+  }}
+>
   <!-- Carnet sidebar -->
   <div class="fixed top-20 left-4 z-50 hidden lg:block">
     <BookSidebar

@@ -3,7 +3,11 @@ import ReadingLayout from '../layouts/ReadingLayout.astro';
 import { t } from '../i18n/astro';
 ---
 
-<ReadingLayout title={t('marie.pageTitle')}>
+<ReadingLayout
+  title={t('marie.pageTitle')}
+  description="Marie Bashkirtseff (1858-1884) was a Ukrainian-born French artist and diarist. Learn about her remarkable life, art, and the famous diary that influenced generations of writers."
+  image="/images/marie/self-portrait.jpg"
+>
   <article class="max-w-3xl mx-auto">
     <header class="mb-8 pb-6 border-b border-ink/10">
       <h1 class="text-3xl md:text-4xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
