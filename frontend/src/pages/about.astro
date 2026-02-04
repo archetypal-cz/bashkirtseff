@@ -91,8 +91,31 @@ import { t } from '../i18n/astro';
       <p class="leading-relaxed">
         <a href="mailto:kerray@archetypal.cz" class="text-accent hover:text-accent-light">kerray@archetypal.cz</a>
         <span class="mx-2">·</span>
-        <a href="https://github.com/Kerray/bashkirtseff" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/ArchetypalCz/Bashkirtseff" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">GitHub</a>
       </p>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.learnMore')}</h2>
+
+      <ul class="space-y-2 leading-relaxed">
+        <li>
+          <a href="https://github.com/ArchetypalCz/Bashkirtseff/blob/main/docs/digital-humanities.md" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            {t('about.linkDH')}
+          </a>
+          <span class="text-muted text-sm"> — {t('about.linkDHDesc')}</span>
+        </li>
+        <li>
+          <a href="https://github.com/ArchetypalCz/Bashkirtseff/blob/main/docs/ukraine.md" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            {t('about.linkUkraineEN')}
+          </a>
+          <span class="text-muted text-sm"> — {t('about.linkUkraineENDesc')}</span>
+        </li>
+        <li>
+          <a href="https://github.com/ArchetypalCz/Bashkirtseff/blob/main/docs/Україна.md" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            {t('about.linkUkraineUA')}
+          </a>
+          <span class="text-muted text-sm"> — {t('about.linkUkraineUADesc')}</span>
+        </li>
+      </ul>
     </div>
 
     <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between">

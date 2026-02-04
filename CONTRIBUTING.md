@@ -9,7 +9,7 @@ This is primarily a **one-person project** that evolves rapidly. Documentation, 
 **If you find inconsistencies** - a skill that doesn't work as documented, a command that's changed, or instructions that no longer match the codebase:
 
 1. **Fix it** if you can (PRs welcome!)
-2. **Report it** by opening a [GitHub Issue](https://github.com/ArchetypalCz/bashkirtseff/issues)
+2. **Report it** by opening a [GitHub Issue](https://github.com/ArchetypalCz/Bashkirtseff/issues)
 3. **Don't assume you're doing something wrong** - the docs might simply be outdated
 
 This applies to both human contributors and AI agents working on the project. Keeping documentation accurate is a valuable contribution in itself.
@@ -168,7 +168,8 @@ Before starting on a carnet:
 
 ### Communication
 
-- **GitHub Issues** - Work coordination, questions
+- **[GitHub Discussions](https://github.com/ArchetypalCz/Bashkirtseff/discussions)** - Questions, ideas, general discussion
+- **GitHub Issues** - Bug reports, work coordination
 - **Pull Requests** - Submit completed work
 
 ## Submitting Your Work
@@ -213,7 +214,7 @@ just init-source-hashes uk  # Initialize source tracking
 
 ## Questions?
 
-- Open a [GitHub Issue](https://github.com/ArchetypalCz/bashkirtseff/issues)
+- Ask in [GitHub Discussions](https://github.com/ArchetypalCz/Bashkirtseff/discussions)
 - Check existing documentation in `/docs/`
 
 ---

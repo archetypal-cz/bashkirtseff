@@ -163,6 +163,12 @@ Use skill commands like `/researcher`, `/translator`, `/editor` to invoke specia
 
 Use `/project-status` to check progress and track work across the project.
 
+## Learn More
+
+- **[Digital Humanities & This Project](docs/digital-humanities.md)** — What is DH, how this project fits, invitation to scholars
+- **[Marie Bashkirtseff: Homecoming](docs/ukraine.md)** — Dedication to Ukraine (English)
+- **[Марія Башкирцева: Повернення](docs/Україна.md)** — Dedication to Ukraine (Ukrainian)
+
 ## Contributing
 
 We welcome contributions in any language! See **[CONTRIBUTING.md](CONTRIBUTING.md)** for:
@@ -190,4 +196,4 @@ The original diary text is in the public domain. The translations, annotations, 
 ## Links
 
 - **Live site**: https://bashkirtseff.aretea.cz
-- **Source**: https://github.com/ArchetypalCz/bashkirtseff
+- **Source**: https://github.com/ArchetypalCz/Bashkirtseff

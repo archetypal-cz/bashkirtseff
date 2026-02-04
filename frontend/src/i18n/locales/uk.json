@@ -142,7 +142,14 @@
     "acknowledgmentsText": "Дякую <a href=\"http://cerclembashkirtseff.monsite-orange.fr\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">Cercle des Amis de Marie Bashkirtseff</a> за їхню роботу над повним виданням щоденника — особливо Жінетт Апостолеску, яка переписала щоденник, та Мішелю Флері.",
     "contact": "Контакти",
     "aboutMarie": "Про Марію",
-    "backToDiary": "Читати щоденник"
+    "backToDiary": "Читати щоденник",
+    "learnMore": "Дізнатися більше",
+    "linkDH": "Цифрові гуманітарні науки та цей проєкт",
+    "linkDHDesc": "що таке DH, як проєкт вписується, запрошення для науковців",
+    "linkUkraineEN": "Marie Bashkirtseff: Homecoming",
+    "linkUkraineENDesc": "присвята Україні (англійською)",
+    "linkUkraineUA": "Марія Башкирцева: Повернення",
+    "linkUkraineUADesc": "присвята Україні (українською)"
   },
   "header": {
     "siteTitle": "Щоденник Марії Башкирцевої",

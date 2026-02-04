@@ -20,7 +20,7 @@ This is primarily a **one-person project** that evolves rapidly. Documentation, 
 
 1. **Don't assume the documentation is correct** - verify against the actual code
 2. **Fix it** if you can (edit the docs/skills directly)
-3. **Report it** by creating a GitHub Issue if you can't fix it yourself
+3. **Report it** in [GitHub Discussions](https://github.com/ArchetypalCz/Bashkirtseff/discussions) if you can't fix it yourself
 4. **Don't silently work around it** - future agents and humans will hit the same problem
 
 Keeping documentation accurate is a valuable contribution. When you fix something, you help everyone who comes after you.
