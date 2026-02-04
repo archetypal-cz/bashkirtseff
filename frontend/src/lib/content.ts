@@ -656,6 +656,334 @@ export async function getCarnetSummary(carnet: string, language: string = '_orig
 }
 
 // ============================================
+// CARNET SUMMARY DOCUMENT (EDITORIAL SUMMARIES)
+// ============================================
+
+/**
+ * Key person reference in a carnet summary document
+ */
+export interface SummaryKeyPerson {
+  /** Glossary ID (CAPITAL_ASCII) */
+  id: string;
+  /** Role in this carnet (e.g., "romantic_obsession", "family_companion") */
+  role: string;
+  /** Optional notes about this person's significance */
+  notes?: string;
+}
+
+/**
+ * Paragraph in a summary document
+ */
+export interface SummaryParagraph {
+  id: string;          // e.g., "SUM.001.0001"
+  text: string;        // The paragraph content (raw)
+  html: string;        // Paragraph with formatting converted to HTML
+  originalText?: string; // For translations, the original text
+  isHeader: boolean;
+  headerLevel: number;
+  glossaryTags?: GlossaryTag[];
+}
+
+/**
+ * Complete carnet summary document with paragraph clusters
+ *
+ * This represents an editorial summary file (_summary.md) that follows
+ * the same paragraph-cluster format as diary entries and glossary files.
+ * Unlike CarnetSummary (runtime aggregation), this is a manually-written
+ * or auto-generated document with structured narrative content.
+ */
+export interface CarnetSummaryDocument {
+  carnet: string;
+  title: string;
+  dateRange: { start: string; end: string };
+  primaryLocation: string;
+  locationJourney: string[];
+  keyPeople: SummaryKeyPerson[];
+  majorThemes: string[];
+  marieAge: number;
+  generatedFromEntries: boolean;
+  paragraphs: SummaryParagraph[];
+  language: string;
+}
+
+/**
+ * Check if a summary document exists for a carnet
+ */
+export function hasCarnetSummaryDocument(carnet: string, language: string = '_original'): boolean {
+  const langPath = language === '_original'
+    ? path.join(CONTENT_ROOT, '_original')
+    : path.join(CONTENT_ROOT, language);
+
+  const summaryPath = path.join(langPath, carnet, '_summary.md');
+  return fs.existsSync(summaryPath);
+}
+
+/**
+ * Load a carnet summary document (editorial summary with paragraph clusters)
+ *
+ * This loads the _summary.md file for a carnet, which contains structured
+ * editorial content about the carnet (editorial summary, historical context,
+ * reading notes, etc.) in paragraph-cluster format.
+ *
+ * Falls back gracefully if no summary exists, returning null.
+ *
+ * @param carnet - Carnet ID (e.g., "001")
+ * @param language - Language code ("_original", "cz", "en", etc.)
+ * @returns Parsed summary document or null if not found
+ */
+export function getCarnetSummaryDocument(carnet: string, language: string = '_original'): CarnetSummaryDocument | null {
+  const langPath = language === '_original'
+    ? path.join(CONTENT_ROOT, '_original')
+    : path.join(CONTENT_ROOT, language);
+
+  const summaryPath = path.join(langPath, carnet, '_summary.md');
+
+  if (!fs.existsSync(summaryPath)) {
+    return null;
+  }
+
+  const rawContent = fs.readFileSync(summaryPath, 'utf-8');
+  const { metadata, content } = parseFrontmatter(rawContent);
+
+  // Parse metadata
+  const doc: CarnetSummaryDocument = {
+    carnet: String(metadata.carnet || carnet),
+    title: String(metadata.title || ''),
+    dateRange: {
+      start: '',
+      end: '',
+    },
+    primaryLocation: String(metadata.primary_location || ''),
+    locationJourney: Array.isArray(metadata.location_journey) ? metadata.location_journey as string[] : [],
+    keyPeople: [],
+    majorThemes: Array.isArray(metadata.major_themes) ? metadata.major_themes as string[] : [],
+    marieAge: typeof metadata.marie_age === 'number' ? metadata.marie_age : 0,
+    generatedFromEntries: Boolean(metadata.generated_from_entries),
+    paragraphs: [],
+    language,
+  };
+
+  // Parse date range
+  if (metadata.date_range && typeof metadata.date_range === 'object') {
+    const dr = metadata.date_range as Record<string, unknown>;
+    doc.dateRange = {
+      start: String(dr.start || ''),
+      end: String(dr.end || ''),
+    };
+  }
+
+  // Parse key people
+  if (Array.isArray(metadata.key_people)) {
+    doc.keyPeople = (metadata.key_people as Array<Record<string, unknown>>).map(
+      (kp): SummaryKeyPerson => ({
+        id: String(kp.id || ''),
+        role: String(kp.role || ''),
+        notes: kp.notes ? String(kp.notes) : undefined,
+      })
+    );
+  }
+
+  // Parse paragraphs
+  doc.paragraphs = parseSummaryParagraphs(content, carnet, language);
+
+  return doc;
+}
+
+/**
+ * Parse paragraph clusters from summary content
+ */
+function parseSummaryParagraphs(content: string, carnet: string, language: string): SummaryParagraph[] {
+  const paragraphs: SummaryParagraph[] = [];
+
+  // Pattern for SUM. prefixed IDs: %% SUM.001.0001 %%
+  const sumIdPattern = /%%\s*(SUM\.\d{3}\.\d+)\s*%%/g;
+
+  // Check if content has SUM. paragraph IDs
+  const hasSumIds = sumIdPattern.test(content);
+  sumIdPattern.lastIndex = 0; // Reset regex state
+
+  if (hasSumIds) {
+    // Parse paragraph clusters with SUM. IDs
+    const matches: { id: string; index: number }[] = [];
+    let match;
+    while ((match = sumIdPattern.exec(content)) !== null) {
+      matches.push({ id: match[1], index: match.index });
+    }
+
+    for (let i = 0; i < matches.length; i++) {
+      const start = matches[i].index;
+      const end = i < matches.length - 1 ? matches[i + 1].index : content.length;
+      const paragraphContent = content.substring(start, end);
+
+      const para = parseSingleSummaryParagraph(matches[i].id, paragraphContent, language);
+      if (para) {
+        paragraphs.push(para);
+      }
+    }
+  } else {
+    // Parse old format (plain markdown with ## headers)
+    let paraNum = 1;
+    const lines = content.split('\n');
+    let currentSection: string[] = [];
+    let currentHeader: string | null = null;
+
+    for (const line of lines) {
+      const trimmed = line.trim();
+      const headerMatch = trimmed.match(/^(#{1,3})\s+(.+)$/);
+
+      if (headerMatch) {
+        // Save previous section
+        if (currentSection.length > 0 || currentHeader) {
+          const para = createOldFormatSummaryParagraph(
+            carnet,
+            paraNum++,
+            currentHeader,
+            currentSection
+          );
+          if (para) paragraphs.push(para);
+        }
+
+        currentHeader = trimmed;
+        currentSection = [];
+      } else if (trimmed) {
+        currentSection.push(trimmed);
+      }
+    }
+
+    // Save last section
+    if (currentSection.length > 0 || currentHeader) {
+      const para = createOldFormatSummaryParagraph(
+        carnet,
+        paraNum++,
+        currentHeader,
+        currentSection
+      );
+      if (para) paragraphs.push(para);
+    }
+  }
+
+  return paragraphs;
+}
+
+/**
+ * Parse a single summary paragraph from clustered content
+ */
+function parseSingleSummaryParagraph(id: string, content: string, language: string): SummaryParagraph | null {
+  const lines = content.split('\n');
+
+  // Skip the ID line (first line)
+  const contentLines = lines.slice(1);
+
+  // Separate comment lines from content
+  const glossaryTags: GlossaryTag[] = [];
+  const textLines: string[] = [];
+  let originalText: string | undefined;
+
+  const isTranslation = language !== '_original';
+
+  for (const line of contentLines) {
+    const trimmed = line.trim();
+
+    if (!trimmed) continue;
+
+    // Check for glossary links in comment
+    if (trimmed.startsWith('%%') && trimmed.endsWith('%%') && trimmed.includes('[#')) {
+      const tagMatches = trimmed.matchAll(/\[#([^\]]+)\]\([^)]*\/_glossary\/([^)]+)\.md\)/g);
+      for (const match of tagMatches) {
+        glossaryTags.push({
+          id: match[2].split('/').pop() || match[1],
+          name: match[1],
+        });
+      }
+      continue;
+    }
+
+    // Check for original text in comment (for translations)
+    if (isTranslation && trimmed.startsWith('%%') && trimmed.endsWith('%%')) {
+      const inner = trimmed.slice(2, -2).trim();
+      // Skip role annotations (RSR:, LAN:, etc.) and version markers
+      if (!inner.match(/^[A-Z]{2,3}:/) && !inner.match(/^\d{4}-\d{2}-\d{2}/) && !inner.match(/^v\d/)) {
+        originalText = inner;
+        continue;
+      }
+    }
+
+    // Skip other comment lines
+    if (trimmed.startsWith('%%')) continue;
+
+    // Regular content
+    textLines.push(line);
+  }
+
+  const text = textLines.join('\n').trim();
+  if (!text) return null;
+
+  // Check if header
+  const headerMatch = text.match(/^(#{1,6})\s+(.+)/);
+  const isHeader = !!headerMatch;
+  const headerLevel = headerMatch ? headerMatch[1].length : 0;
+
+  // Convert to HTML
+  const { html } = processTextToHtml(text);
+
+  return {
+    id,
+    text,
+    html,
+    originalText,
+    isHeader,
+    headerLevel,
+    glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
+  };
+}
+
+/**
+ * Create a summary paragraph from old format section
+ */
+function createOldFormatSummaryParagraph(
+  carnet: string,
+  paraNum: number,
+  header: string | null,
+  contentLines: string[]
+): SummaryParagraph | null {
+  const id = `SUM.${carnet}.${String(paraNum).padStart(4, '0')}`;
+
+  // Process header
+  let isHeader = false;
+  let headerLevel = 0;
+
+  if (header) {
+    const headerMatch = header.match(/^(#{1,3})\s+(.+)$/);
+    if (headerMatch) {
+      isHeader = true;
+      headerLevel = headerMatch[1].length;
+    }
+  }
+
+  // Build text
+  let text = '';
+  if (header) {
+    text = header;
+  }
+  if (contentLines.length > 0) {
+    const bodyText = contentLines.join('\n');
+    text = text ? text + '\n\n' + bodyText : bodyText;
+  }
+
+  if (!text) return null;
+
+  const { html } = processTextToHtml(text);
+
+  return {
+    id,
+    text,
+    html,
+    isHeader,
+    headerLevel,
+  };
+}
+
+// ============================================
 // NAVIGATION AND LANGUAGE UTILITIES
 // ============================================
 

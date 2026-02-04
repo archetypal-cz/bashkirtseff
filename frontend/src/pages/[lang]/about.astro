@@ -1,0 +1,158 @@
+---
+import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import { createT, type SupportedLocale } from '../../i18n/astro';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'cs' } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'uk' } },
+  ];
+}
+
+const { lang } = Astro.params;
+const t = createT(lang as SupportedLocale);
+
+// Map UI locale to content path for links
+const contentPath = lang === 'cs' ? 'cz' : (lang === 'fr' ? 'original' : 'cz');
+---
+
+<ReadingLayout
+  lang={lang}
+  title={t('about.pageTitle')}
+  description="Learn about the Marie Bashkirtseff diary project - making the complete, uncensored diary accessible in multiple languages with historical research and AI-assisted translations."
+>
+  <article class="max-w-3xl mx-auto">
+    <header class="mb-8 pb-6 border-b border-ink/10">
+      <h1 class="text-3xl md:text-4xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
+        {t('about.title')}
+      </h1>
+    </header>
+
+    <div class="prose-diary space-y-6 text-ink-light">
+
+      <p class="text-lg leading-relaxed" set:html={t('about.projectIntro')} />
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.diaryStory')}</h2>
+
+      <p class="leading-relaxed">
+        {t('about.censorshipHistory')}
+      </p>
+
+      <p class="leading-relaxed" set:html={t('about.fullEdition')} />
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.thisProject')}</h2>
+
+      <p class="leading-relaxed" set:html={t('about.projectOrigin')} />
+
+      <p class="leading-relaxed">
+        {t('about.yearsOfWork')}
+      </p>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.currentStatus')}</h2>
+
+      <p class="leading-relaxed">
+        {t('about.currentStatusText')}
+      </p>
+
+      <p class="leading-relaxed">
+        {t('about.translationReady')}
+      </p>
+
+      <p class="leading-relaxed text-muted text-sm">
+        {t('about.collaborationStatus')}
+      </p>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.vision')}</h2>
+
+      <p class="leading-relaxed" set:html={t('about.visionText')} />
+
+      <p class="leading-relaxed">
+        {t('about.aiTranslation')}
+      </p>
+
+      <blockquote class="border-l-4 border-accent pl-6 py-2 my-8 italic text-ink">
+        "{t('quotes.existence')}"
+        {t('quotes.existenceOriginal') && (
+          <span class="block text-xs text-muted mt-1 not-italic">
+            {t('quotes.existenceOriginal')}
+          </span>
+        )}
+        <footer class="mt-2 text-muted not-italic text-sm">
+          — Marie Bashkirtseff, 1884
+        </footer>
+      </blockquote>
+
+      <p class="leading-relaxed">
+        {t('about.conclusion')}
+      </p>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.praise')}</h2>
+
+      <blockquote class="border-l-4 border-accent pl-6 py-2 my-6 italic text-ink">
+        "{t('about.praiseGladstone')}"
+        <footer class="mt-2 text-muted not-italic text-sm">
+          — {t('about.praiseGladstoneAttrib')}
+        </footer>
+      </blockquote>
+
+      <p class="leading-relaxed">
+        {t('about.praiseInfluence')}
+      </p>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.acknowledgments')}</h2>
+
+      <p class="leading-relaxed" set:html={t('about.acknowledgmentsText')} />
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.contact')}</h2>
+
+      <p class="leading-relaxed">
+        <a href="mailto:kerray@archetypal.cz" class="text-accent hover:text-accent-light">kerray@archetypal.cz</a>
+        <span class="mx-2">·</span>
+        <a href="https://github.com/ArchetypalCz/Bashkirtseff" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">GitHub</a>
+      </p>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.learnMore')}</h2>
+
+      <ul class="space-y-2 leading-relaxed">
+        <li>
+          <a href="https://github.com/ArchetypalCz/Bashkirtseff/blob/main/docs/digital-humanities.md" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            {t('about.linkDH')}
+          </a>
+          <span class="text-muted text-sm"> — {t('about.linkDHDesc')}</span>
+        </li>
+        <li>
+          <a href="https://github.com/ArchetypalCz/Bashkirtseff/blob/main/docs/ukraine.md" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            {t('about.linkUkraineEN')}
+          </a>
+          <span class="text-muted text-sm"> — {t('about.linkUkraineENDesc')}</span>
+        </li>
+        <li>
+          <a href="https://github.com/ArchetypalCz/Bashkirtseff/blob/main/docs/Україна.md" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            {t('about.linkUkraineUA')}
+          </a>
+          <span class="text-muted text-sm"> — {t('about.linkUkraineUADesc')}</span>
+        </li>
+      </ul>
+    </div>
+
+    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between">
+      <a href={`/${lang}/marie`} class="text-muted hover:text-ink transition-colors">
+        ← {t('about.aboutMarie')}
+      </a>
+      <a href={`/${contentPath}`} class="text-muted hover:text-ink transition-colors">
+        {t('about.backToDiary')} →
+      </a>
+    </nav>
+  </article>
+</ReadingLayout>
+
+<script>
+  // Save language preference when user visits this page
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+  const lang = pathParts[0];
+  if (lang && ['cs', 'en', 'fr', 'uk'].includes(lang)) {
+    localStorage.setItem('ui-language', lang);
+  }
+</script>

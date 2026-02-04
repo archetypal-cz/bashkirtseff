@@ -7,17 +7,65 @@ const isOpen = ref(false);
 
 const currentLocaleName = computed(() => LOCALE_NAMES[locale.value]);
 
+// Get browser language preferences and sort supported locales accordingly
+// Browser languages at top, in their preference order, then remaining languages
+const sortedLocales = computed(() => {
+  const browserLangs = typeof navigator !== 'undefined'
+    ? (navigator.languages || [navigator.language]).map(l => {
+        const code = l.toLowerCase().split('-')[0];
+        return code === 'cz' ? 'cs' : code; // normalize cz -> cs
+      })
+    : [];
+
+  // Separate browser-preferred and other locales
+  const preferred: SupportedLocale[] = [];
+  const others: SupportedLocale[] = [];
+
+  for (const loc of SUPPORTED_LOCALES) {
+    if (browserLangs.includes(loc)) {
+      preferred.push(loc);
+    } else {
+      others.push(loc);
+    }
+  }
+
+  // Sort preferred by their position in browser preferences
+  preferred.sort((a, b) => browserLangs.indexOf(a) - browserLangs.indexOf(b));
+
+  return [...preferred, ...others];
+});
+
+// Check if a locale is a browser-preferred language
+function isBrowserPreferred(loc: SupportedLocale): boolean {
+  const browserLangs = typeof navigator !== 'undefined'
+    ? (navigator.languages || [navigator.language]).map(l => {
+        const code = l.toLowerCase().split('-')[0];
+        return code === 'cz' ? 'cs' : code;
+      })
+    : [];
+  return browserLangs.includes(loc);
+}
+
 function selectLocale(newLocale: SupportedLocale) {
   setLocale(newLocale);
   isOpen.value = false;
 
-  // Check if we're on the home page and navigate to the new locale version
   const path = window.location.pathname;
-  const homeMatch = path.match(/^\/home\/(cs|en|fr)\/?$/);
+
+  // Check for locale-parameterized routes and navigate to the new locale version
+  // Patterns: /home/[lang], /[lang]/about, /[lang]/marie
+  const homeMatch = path.match(/^\/home\/(cs|en|fr|uk)\/?$/);
+  const aboutMatch = path.match(/^\/(cs|en|fr|uk)\/about\/?$/);
+  const marieMatch = path.match(/^\/(cs|en|fr|uk)\/marie\/?$/);
+
   if (homeMatch) {
     window.location.href = `/home/${newLocale}/`;
+  } else if (aboutMatch) {
+    window.location.href = `/${newLocale}/about`;
+  } else if (marieMatch) {
+    window.location.href = `/${newLocale}/marie`;
   } else {
-    // Reload page to apply server-side translations
+    // For other pages, reload to apply client-side locale change
     window.location.reload();
   }
 }
@@ -68,16 +116,19 @@ onUnmounted(() => {
     <Transition name="dropdown">
       <div v-if="isOpen" class="locale-dropdown" role="listbox">
         <button
-          v-for="loc in SUPPORTED_LOCALES"
+          v-for="loc in sortedLocales"
           :key="loc"
           @click="selectLocale(loc)"
           class="locale-option"
-          :class="{ active: loc === locale }"
+          :class="{ active: loc === locale, preferred: isBrowserPreferred(loc) }"
           role="option"
           :aria-selected="loc === locale"
         >
           <span class="locale-code">{{ loc.toUpperCase() }}</span>
           <span class="locale-name">{{ LOCALE_NAMES[loc] }}</span>
+          <svg v-if="isBrowserPreferred(loc) && loc !== locale" class="w-3 h-3 browser-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" title="Browser language">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+          </svg>
           <svg v-if="loc === locale" class="w-4 h-4 check" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
           </svg>
@@ -195,6 +246,16 @@ onUnmounted(() => {
 
 .check {
   color: var(--color-accent, #B45309);
+}
+
+.browser-icon {
+  color: var(--text-muted, #8B7355);
+  opacity: 0.7;
+}
+
+.locale-option.preferred {
+  border-left: 2px solid var(--color-accent, #B45309);
+  padding-left: calc(0.75rem - 2px);
 }
 
 /* Transitions */

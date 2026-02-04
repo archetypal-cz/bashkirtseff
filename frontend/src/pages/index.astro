@@ -1,5 +1,6 @@
 ---
 // Redirect page - detects browser language and redirects to appropriate homepage
+// Uses navigator.languages (ordered by user preference) for better detection
 ---
 <!DOCTYPE html>
 <html>
@@ -10,21 +11,25 @@
   <script>
     // Check localStorage first (user's explicit choice)
     const saved = localStorage.getItem('ui-language');
-    if (saved && ['cs', 'fr', 'en'].includes(saved)) {
+    if (saved && ['cs', 'fr', 'en', 'uk'].includes(saved)) {
       window.location.replace('/home/' + saved);
     } else {
-      // Detect from browser preferences
-      const browserLang = navigator.language || navigator.userLanguage;
-      const lang = browserLang.toLowerCase();
+      // Detect from browser preferences (navigator.languages is ordered by user preference)
+      const browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
+      const supported = ['cs', 'en', 'fr', 'uk'];
 
-      if (lang.startsWith('cs') || lang.startsWith('cz')) {
-        window.location.replace('/home/cs');
-      } else if (lang.startsWith('fr')) {
-        window.location.replace('/home/fr');
-      } else {
-        // Default to English for all others
-        window.location.replace('/home/en');
+      let targetLang = 'en'; // default fallback
+      for (const browserLang of browserLangs) {
+        const lang = browserLang.toLowerCase().split('-')[0];
+        // Handle cz -> cs mapping (some browsers may report 'cz')
+        const normalized = lang === 'cz' ? 'cs' : lang;
+        if (supported.includes(normalized)) {
+          targetLang = normalized;
+          break;
+        }
       }
+
+      window.location.replace('/home/' + targetLang);
     }
   </script>
   <noscript>

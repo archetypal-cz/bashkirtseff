@@ -53,3 +53,14 @@ export {
   extractIdFromPath,
   validateGlossaryEntryId,
 } from './glossary-entry.js';
+
+// Carnet Summary (with paragraph clusters)
+export type { CarnetSummaryDocument, SummaryKeyPerson, SummaryDateRange } from './summary.js';
+export {
+  createCarnetSummaryDocument,
+  getSummaryParagraphById,
+  getSummaryParagraphCount,
+  extractCarnetFromSummaryId,
+  isValidSummaryParagraphId,
+  generateSummaryParagraphId,
+} from './summary.js';

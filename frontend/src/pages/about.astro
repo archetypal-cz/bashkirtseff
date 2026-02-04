@@ -1,133 +1,41 @@
 ---
-import ReadingLayout from '../layouts/ReadingLayout.astro';
-import { t } from '../i18n/astro';
+// Redirect to localized version based on user's language preference
 ---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Marie Bashkirtseff</title>
+  <script>
+    // Check localStorage first (user's explicit choice)
+    const saved = localStorage.getItem('ui-language');
+    if (saved && ['cs', 'fr', 'en', 'uk'].includes(saved)) {
+      window.location.replace('/' + saved + '/about');
+    } else {
+      // Detect from browser preferences (navigator.languages is ordered by preference)
+      const browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
+      const supported = ['cs', 'en', 'fr', 'uk'];
 
-<ReadingLayout
-  title={t('about.pageTitle')}
-  description="Learn about the Marie Bashkirtseff diary project - making the complete, uncensored diary accessible in multiple languages with historical research and AI-assisted translations."
->
-  <article class="max-w-3xl mx-auto">
-    <header class="mb-8 pb-6 border-b border-ink/10">
-      <h1 class="text-3xl md:text-4xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
-        {t('about.title')}
-      </h1>
-    </header>
+      let targetLang = 'en'; // default
+      for (const browserLang of browserLangs) {
+        const lang = browserLang.toLowerCase().split('-')[0];
+        // Handle cz -> cs mapping
+        const normalized = lang === 'cz' ? 'cs' : lang;
+        if (supported.includes(normalized)) {
+          targetLang = normalized;
+          break;
+        }
+      }
 
-    <div class="prose-diary space-y-6 text-ink-light">
-
-      <p class="text-lg leading-relaxed" set:html={t('about.projectIntro')} />
-
-      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.diaryStory')}</h2>
-
-      <p class="leading-relaxed">
-        {t('about.censorshipHistory')}
-      </p>
-
-      <p class="leading-relaxed" set:html={t('about.fullEdition')} />
-
-      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.thisProject')}</h2>
-
-      <p class="leading-relaxed" set:html={t('about.projectOrigin')} />
-
-      <p class="leading-relaxed">
-        {t('about.yearsOfWork')}
-      </p>
-
-      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.currentStatus')}</h2>
-
-      <p class="leading-relaxed">
-        {t('about.currentStatusText')}
-      </p>
-
-      <p class="leading-relaxed">
-        {t('about.translationReady')}
-      </p>
-
-      <p class="leading-relaxed text-muted text-sm">
-        {t('about.collaborationStatus')}
-      </p>
-
-      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.vision')}</h2>
-
-      <p class="leading-relaxed" set:html={t('about.visionText')} />
-
-      <p class="leading-relaxed">
-        {t('about.aiTranslation')}
-      </p>
-
-      <blockquote class="border-l-4 border-accent pl-6 py-2 my-8 italic text-ink">
-        "{t('quotes.existence')}"
-        {t('quotes.existenceOriginal') && (
-          <span class="block text-xs text-muted mt-1 not-italic">
-            {t('quotes.existenceOriginal')}
-          </span>
-        )}
-        <footer class="mt-2 text-muted not-italic text-sm">
-          — Marie Bashkirtseff, 1884
-        </footer>
-      </blockquote>
-
-      <p class="leading-relaxed">
-        {t('about.conclusion')}
-      </p>
-
-      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.praise')}</h2>
-
-      <blockquote class="border-l-4 border-accent pl-6 py-2 my-6 italic text-ink">
-        "{t('about.praiseGladstone')}"
-        <footer class="mt-2 text-muted not-italic text-sm">
-          — {t('about.praiseGladstoneAttrib')}
-        </footer>
-      </blockquote>
-
-      <p class="leading-relaxed">
-        {t('about.praiseInfluence')}
-      </p>
-
-      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.acknowledgments')}</h2>
-
-      <p class="leading-relaxed" set:html={t('about.acknowledgmentsText')} />
-
-      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.contact')}</h2>
-
-      <p class="leading-relaxed">
-        <a href="mailto:kerray@archetypal.cz" class="text-accent hover:text-accent-light">kerray@archetypal.cz</a>
-        <span class="mx-2">·</span>
-        <a href="https://github.com/ArchetypalCz/Bashkirtseff" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">GitHub</a>
-      </p>
-
-      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.learnMore')}</h2>
-
-      <ul class="space-y-2 leading-relaxed">
-        <li>
-          <a href="https://github.com/ArchetypalCz/Bashkirtseff/blob/main/docs/digital-humanities.md" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
-            {t('about.linkDH')}
-          </a>
-          <span class="text-muted text-sm"> — {t('about.linkDHDesc')}</span>
-        </li>
-        <li>
-          <a href="https://github.com/ArchetypalCz/Bashkirtseff/blob/main/docs/ukraine.md" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
-            {t('about.linkUkraineEN')}
-          </a>
-          <span class="text-muted text-sm"> — {t('about.linkUkraineENDesc')}</span>
-        </li>
-        <li>
-          <a href="https://github.com/ArchetypalCz/Bashkirtseff/blob/main/docs/Україна.md" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
-            {t('about.linkUkraineUA')}
-          </a>
-          <span class="text-muted text-sm"> — {t('about.linkUkraineUADesc')}</span>
-        </li>
-      </ul>
-    </div>
-
-    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between">
-      <a href="/marie" class="text-muted hover:text-ink transition-colors">
-        ← {t('about.aboutMarie')}
-      </a>
-      <a href="/cz" class="text-muted hover:text-ink transition-colors">
-        {t('about.backToDiary')} →
-      </a>
-    </nav>
-  </article>
-</ReadingLayout>
+      window.location.replace('/' + targetLang + '/about');
+    }
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/en/about">
+  </noscript>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

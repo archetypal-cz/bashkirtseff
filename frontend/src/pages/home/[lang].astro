@@ -11,6 +11,7 @@ export function getStaticPaths() {
     { params: { lang: 'cs' } },
     { params: { lang: 'en' } },
     { params: { lang: 'fr' } },
+    { params: { lang: 'uk' } },
   ];
 }
 
@@ -72,7 +73,7 @@ const thisDayTranslations = {
           <a href="/cz/000" class="btn btn-primary text-lg px-8 py-3">
             {t('home.startReading')}
           </a>
-          <a href="/about" class="btn btn-secondary text-lg px-8 py-3">
+          <a href={`/${lang}/about`} class="btn btn-secondary text-lg px-8 py-3">
             {t('home.aboutMarie')}
           </a>
         </div>

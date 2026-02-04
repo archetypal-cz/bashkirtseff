@@ -9,3 +9,9 @@ export {
   renderGlossaryOriginal,
   renderGlossaryTranslation,
 } from './glossary-renderer.js';
+
+export {
+  SummaryRenderer,
+  renderSummaryOriginal,
+  renderSummaryTranslation,
+} from './summary-renderer.js';

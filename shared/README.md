@@ -42,6 +42,7 @@ TypeScript interfaces and factory functions for diary data structures:
 | `Paragraph` | Individual paragraph with ID, text, translations, notes |
 | `DiaryCarnet` | Collection of entries (Marie's notebooks 000-106) |
 | `GlossaryEntryParsed` | Glossary entry with paragraph clusters |
+| `CarnetSummaryDocument` | Carnet summary with paragraph clusters |
 | `GlossaryLink`, `GlossaryTag` | References to glossary entries |
 | `Note` | Timestamped annotation (RSR, LAN, TR, etc.) |
 
@@ -81,12 +82,19 @@ const entry = parser.parseFile('src/_original/001/1873-01-11.md');
 // Parse a glossary entry
 const glossaryParser = new GlossaryParser();
 const glossaryEntry = glossaryParser.parseFile('src/_original/_glossary/people/core/DINA.md');
+
+// Parse a carnet summary
+import { SummaryParser } from '@bashkirtseff/shared/parser';
+
+const summaryParser = new SummaryParser();
+const summary = summaryParser.parseFile('src/_original/001/_summary.md');
 ```
 
 #### Paragraph ID Patterns
 
 - Diary entries: `%%001.0001%%` (3-digit carnet, 4-digit paragraph)
 - Glossary entries: `%%GLO_ENTRY_ID.0001%%` (CAPITAL_ASCII ID, 4-digit paragraph)
+- Carnet summaries: `%%SUM.001.0001%%` (SUM prefix, 3-digit carnet, 4-digit paragraph)
 
 ### Renderer (`/renderer`)
 
@@ -105,6 +113,13 @@ const translationMd = renderer.renderTranslationEntry(entry);
 // Render glossary entry
 const glossaryRenderer = new GlossaryRenderer();
 const glossaryMd = glossaryRenderer.renderOriginalEntry(glossaryEntry);
+
+// Render carnet summary
+import { SummaryRenderer } from '@bashkirtseff/shared/renderer';
+
+const summaryRenderer = new SummaryRenderer();
+const summaryMd = summaryRenderer.renderOriginalSummary(summary);
+const summaryTranslationMd = summaryRenderer.renderTranslationSummary(summary);
 ```
 
 ### Utils (`/utils`)

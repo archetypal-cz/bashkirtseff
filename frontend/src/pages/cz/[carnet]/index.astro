@@ -209,33 +209,26 @@ function formatDisplayName(id: string): string {
           </p>
         </div>
       )}
+
+      {/* Prominent link to first entry */}
+      {allEntries.length > 0 && (
+        <a
+          href={allEntries[0].isTranslated ? `/cz/${carnet}/${allEntries[0].date}` : `/original/${carnet}/${allEntries[0].date}`}
+          class="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-accent text-white rounded-lg hover:bg-accent-light transition-colors font-medium"
+        >
+          <span>{isSectionCarnet ? 'Začít číst' : 'Číst od začátku'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+      )}
     </header>
 
     <!-- Summary Section -->
     {!isSectionCarnet && (calendarMonths.length > 0 || topPeople.length > 0 || topPlaces.length > 0 || topThemes.length > 0) && (
       <section class="mb-10">
-        <!-- Calendar Widgets -->
-        {calendarMonths.length > 0 && (
-          <div class="mb-6">
-            <h2 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">Kalendář</h2>
-            <div class={`grid gap-4 ${calendarMonths.length === 1 ? 'max-w-xs' : calendarMonths.length === 2 ? 'sm:grid-cols-2 max-w-2xl' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
-              {calendarMonths.map(({ year, month }) => (
-                <CalendarWidget
-                  client:visible
-                  year={year}
-                  month={month}
-                  entryDates={summary.entryDates}
-                  carnet={carnet!}
-                  language="cz"
-                  compact={calendarMonths.length > 2}
-                />
-              ))}
-            </div>
-          </div>
-        )}
-
-        <!-- People, Places, Themes Panels -->
-        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- People, Places, Themes Panels (above calendar) -->
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-6">
           <!-- Key People Panel -->
           {topPeople.length > 0 && (
             <div class="p-4 rounded-lg bg-parchment border border-ink/10">
@@ -304,9 +297,29 @@ function formatDisplayName(id: string): string {
 
         {/* Primary Location if available */}
         {summary.primaryLocation && (
-          <p class="mt-4 text-sm text-muted">
+          <p class="mb-6 text-sm text-muted">
             Hlavní místo: <span class="text-ink">{formatDisplayName(summary.primaryLocation)}</span>
           </p>
+        )}
+
+        <!-- Calendar Widgets (below stats) -->
+        {calendarMonths.length > 0 && (
+          <div>
+            <h2 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">Kalendář</h2>
+            <div class={`grid gap-4 ${calendarMonths.length === 1 ? 'max-w-xs' : calendarMonths.length === 2 ? 'sm:grid-cols-2 max-w-2xl' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
+              {calendarMonths.map(({ year, month }) => (
+                <CalendarWidget
+                  client:visible
+                  year={year}
+                  month={month}
+                  entryDates={summary.entryDates}
+                  carnet={carnet!}
+                  language="cz"
+                  compact={calendarMonths.length > 2}
+                />
+              ))}
+            </div>
+          </div>
         )}
       </section>
     )}

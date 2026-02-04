@@ -3,10 +3,14 @@
  */
 
 /**
- * Paragraph ID pattern: %% 00.03 %% or %% 001.0001 %% or %% GLO_VISCONTI.0001 %%
+ * Paragraph ID pattern: %% 00.03 %% or %% 001.0001 %% or %% GLO_VISCONTI.0001 %% or %% SUM.001.0001 %%
+ * Supported prefixes:
+ * - Numeric (2-3 digits): diary entries (e.g., 001.0001)
+ * - GLO_: glossary entries (e.g., GLO_VISCONTI.0001)
+ * - SUM.: carnet summaries (e.g., SUM.001.0001)
  * Note: GLO_ IDs use CAPITAL_ASCII format [A-Z0-9_]+ (no accents or special characters)
  */
-export const PARAGRAPH_ID_PATTERN = /^%%\s*((?:\d{2,3}|GLO_[A-Z0-9_]+))\.(\d+)\s*%%$/;
+export const PARAGRAPH_ID_PATTERN = /^%%\s*((?:\d{2,3}|GLO_[A-Z0-9_]+|SUM\.\d{3}))\.(\d+)\s*%%$/;
 
 /** Note pattern: %% 2025-12-07T16:00:00 LAN: "A quoi bon" - idiomatic expression... %% */
 /** Also handles ISO format with milliseconds and timezone: 2025-12-07T16:00:00.000Z */
@@ -49,10 +53,16 @@ export const DATE_FILENAME_PATTERN = /^\d{4}-\d{2}-\d{2}/;
 export const SECTION_PATTERN = /^\d{2}-\d{2}\.md$/;
 
 /**
- * Paragraph ID pattern (content only, no %% markers): 00.01 or GLO_VISCONTI.0001
+ * Paragraph ID pattern (content only, no %% markers): 00.01 or GLO_VISCONTI.0001 or SUM.001.0001
  * Note: GLO_ IDs use CAPITAL_ASCII format [A-Z0-9_]+ (no accents or special characters)
  */
-export const PARAGRAPH_ID_CONTENT_PATTERN = /^(?:\d+|GLO_[A-Z0-9_]+)\.\d+$/;
+export const PARAGRAPH_ID_CONTENT_PATTERN = /^(?:\d+|GLO_[A-Z0-9_]+|SUM\.\d{3})\.\d+$/;
+
+/**
+ * Summary paragraph ID pattern: %% SUM.001.0001 %%
+ * Format: SUM.{3-digit carnet}.{4-digit sequence}
+ */
+export const SUMMARY_PARA_ID_PATTERN = /^%%\s*(SUM\.\d{3})\.(\d+)\s*%%$/;
 
 /** Highlight pattern: ==highlighted text== */
 export const HIGHLIGHT_PATTERN = /==([^=]+)==/g;
