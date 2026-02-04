@@ -1,0 +1,219 @@
+---
+import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import ParagraphMenu from '../../components/reading/ParagraphMenu.vue';
+import { getGlossaryEntries, getGlossaryEntry } from '../../lib/content';
+
+export function getStaticPaths() {
+  const entries = getGlossaryEntries();
+  return entries.map(entry => ({
+    params: { id: entry.id },
+  }));
+}
+
+const { id } = Astro.params;
+const entry = getGlossaryEntry(id!);
+
+if (!entry) {
+  return Astro.redirect('/glossary');
+}
+
+// Simple markdown to HTML conversion for old format content
+function simpleMarkdownToHtml(markdown: string): string {
+  let html = markdown
+    // Remove %% comment lines
+    .replace(/%%[^%]*%%/g, '')
+    // Headers
+    .replace(/^### (.+)$/gm, '<h3 class="text-lg font-semibold text-ink mt-6 mb-3">$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2 class="text-xl font-semibold text-ink mt-8 mb-4">$1</h2>')
+    .replace(/^# (.+)$/gm, '') // Remove H1 (we show it separately)
+    // Bold
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    // Italic
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+    // Links - internal glossary links
+    .replace(/\[([^\]]+)\]\(([^)]+\.md)\)/g, (_, text, url) => {
+      const glossaryId = url.match(/([^/]+)\.md$/)?.[1];
+      if (glossaryId) {
+        return `<a href="/glossary/${glossaryId}" class="text-accent hover:text-accent-light underline">${text}</a>`;
+      }
+      return text;
+    })
+    // Links - external
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener" class="text-accent hover:text-accent-light underline">$1</a>')
+    // Blockquotes
+    .replace(/^>\s*(.+)$/gm, '<blockquote class="border-l-4 border-accent pl-4 my-4 italic text-ink-light">$1</blockquote>')
+    // Lists
+    .replace(/^- (.+)$/gm, '<li class="ml-4">$1</li>')
+    // Paragraphs (simple version)
+    .replace(/\n\n/g, '</p><p class="mb-4">')
+    // Clean up metadata lines we don't want to display
+    .replace(/<p class="mb-4"><strong>Research Status<\/strong>:[^<]+<\/p>/g, '')
+    .replace(/<p class="mb-4"><strong>Last Updated<\/strong>:[^<]+<\/p>/g, '')
+    .replace(/<p class="mb-4"><strong>Type<\/strong>:[^<]+<\/p>/g, '')
+    .replace(/<p class="mb-4"><strong>Diary Coverage<\/strong>:[^<]+<\/p>/g, '')
+    .replace(/<p class="mb-4"><strong>Full Research<\/strong>:[^<]+<\/p>/g, '');
+
+  // Wrap lists
+  html = html.replace(/(<li[^>]*>.*?<\/li>\s*)+/gs, '<ul class="list-disc mb-4">$&</ul>');
+
+  return `<p class="mb-4">${html}</p>`;
+}
+
+// Prepare content for rendering
+const hasParagraphs = entry.hasParagraphClusters && entry.paragraphs && entry.paragraphs.length > 0;
+const processedParagraphs = hasParagraphs
+  ? entry.paragraphs!.map(p => ({
+      ...p,
+      htmlId: `p-${p.id.replace(/\./g, '-')}`,
+    }))
+  : [];
+const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
+---
+
+<ReadingLayout title={`${entry.name} — Glossaire`}>
+  <article class="max-w-3xl mx-auto">
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/original" class="hover:text-accent">Journal</a>
+      <span class="mx-2">›</span>
+      <a href="/glossary" class="hover:text-accent">Glossaire</a>
+      <span class="mx-2">›</span>
+      <span class="text-ink">{entry.name}</span>
+    </nav>
+
+    <header class="mb-8 pb-6 border-b border-ink/10">
+      <h1 class="text-2xl md:text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
+        {entry.name}
+      </h1>
+
+      {/* Original script and transliteration */}
+      {(entry.originalScript || entry.transliteration) && (
+        <p class="text-lg text-muted mb-4">
+          {entry.originalScript && <span class="mr-3">{entry.originalScript}</span>}
+          {entry.transliteration && entry.originalScript !== entry.transliteration && (
+            <span class="italic">({entry.transliteration})</span>
+          )}
+        </p>
+      )}
+
+      <div class="flex flex-wrap items-center gap-3 text-sm">
+        {entry.type && (
+          <span class="px-3 py-1 bg-accent text-white rounded">
+            {entry.type}
+          </span>
+        )}
+        {entry.category && (
+          <span class="px-3 py-1 bg-sepia text-ink-light rounded">
+            {entry.category}
+          </span>
+        )}
+        {entry.languages && entry.languages.length > 0 && (
+          <span class="px-3 py-1 bg-sepia text-ink-light rounded">
+            {entry.languages.map(lang => lang.toUpperCase()).join(' / ')}
+          </span>
+        )}
+        {entry.researchStatus && (
+          <span class="px-3 py-1 bg-sepia text-ink-light rounded">
+            {entry.researchStatus}
+          </span>
+        )}
+        {entry.pronunciation && (
+          <a
+            href={entry.pronunciation}
+            target="_blank"
+            rel="noopener"
+            class="px-3 py-1 bg-accent/10 text-accent rounded hover:bg-accent/20 transition-colors"
+            title="Hear pronunciation"
+          >
+            Pronunciation
+          </a>
+        )}
+        {entry.lastUpdated && (
+          <span class="text-muted">
+            Mise à jour : {entry.lastUpdated}
+          </span>
+        )}
+      </div>
+    </header>
+
+    {/* Render with paragraph clusters if available */}
+    {hasParagraphs ? (
+      <div class="prose-diary space-y-6">
+        {processedParagraphs.map(paragraph => (
+          <div
+            id={paragraph.htmlId}
+            class="group relative paragraph-container scroll-mt-24"
+            data-paragraph-id={paragraph.id}
+          >
+            {paragraph.isHeader ? (
+              paragraph.headerLevel === 1 ? (
+                <h1 class="text-2xl font-normal text-ink mb-4" set:html={paragraph.html} />
+              ) : paragraph.headerLevel === 2 ? (
+                <h2 class="text-xl font-semibold text-ink mt-8 mb-4" set:html={paragraph.html} />
+              ) : (
+                <h3 class="text-lg font-semibold text-ink mt-6 mb-3" set:html={paragraph.html} />
+              )
+            ) : (
+              <p class="text-lg leading-relaxed text-ink" set:html={paragraph.html} />
+            )}
+
+            {/* Paragraph menu - no language prop for original/French */}
+            <div class="absolute -bottom-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
+              <ParagraphMenu
+                client:visible
+                paragraphId={paragraph.id}
+                glossaryTags={paragraph.glossaryTags}
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      /* Fall back to simple HTML rendering for old format */
+      <div class="prose-diary" set:html={htmlContent} />
+    )}
+
+    <nav class="mt-12 pt-8 border-t border-ink/10">
+      <a href="/glossary" class="text-accent hover:text-accent-light transition-colors">
+        ← Retour au glossaire
+      </a>
+    </nav>
+  </article>
+</ReadingLayout>
+
+<script>
+  // Handle deep linking - highlight paragraph on page load
+  document.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash;
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.classList.add('paragraph-highlight');
+        setTimeout(() => {
+          element.classList.remove('paragraph-highlight');
+        }, 2000);
+      }
+    }
+  });
+</script>
+
+<style is:global>
+  .prose-diary h2 {
+    font-family: var(--font-serif);
+  }
+
+  .prose-diary h3 {
+    font-family: var(--font-serif);
+  }
+
+  .prose-diary blockquote {
+    font-family: var(--font-serif);
+  }
+
+  .prose-diary ul {
+    padding-left: 1.5rem;
+  }
+
+  .prose-diary li {
+    margin-bottom: 0.5rem;
+  }
+</style>

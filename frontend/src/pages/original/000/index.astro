@@ -1,0 +1,118 @@
+---
+import ReadingLayout from '../../../layouts/ReadingLayout.astro';
+import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
+import { getCarnet000Merged, hasCarnet000Translation } from '../../../lib/content';
+
+const entry = getCarnet000Merged('_original');
+const hasCzTranslation = hasCarnet000Translation('cz');
+
+if (!entry) {
+  return Astro.redirect('/original');
+}
+
+const processedParagraphs = entry.paragraphs.map(p => ({
+  ...p,
+  htmlId: `p-${p.id.replace('.', '-')}`,
+}));
+---
+
+<ReadingLayout title="Préface — Marie Bashkirtseff">
+  <article class="max-w-3xl mx-auto">
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/original" class="hover:text-accent">Journal</a>
+      <span class="mx-2">›</span>
+      <span class="text-ink">Cahier 000</span>
+    </nav>
+
+    <header class="mb-8 pb-6 border-b border-ink/10">
+      <h1 class="text-3xl md:text-4xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
+        {entry.title}
+      </h1>
+
+      <p class="text-ink-light leading-relaxed mb-4">
+        Ce texte est la <strong>préface rétrospective</strong> de Marie Bashkirtseff,
+        écrite en <strong>mai 1884</strong>, environ cinq mois avant sa mort.
+        C'est un texte continu, pas des entrées journalières.
+      </p>
+
+      <div class="flex items-center gap-4 text-sm text-muted">
+        <span>Mai 1884</span>
+        <span class="text-ink/30">|</span>
+        <span>{entry.paragraphs.length} paragraphes</span>
+
+        {hasCzTranslation && (
+          <>
+            <span class="text-ink/30">|</span>
+            <a href="/cz/000" class="text-accent hover:text-accent-light">
+              Český překlad →
+            </a>
+          </>
+        )}
+      </div>
+    </header>
+
+    <div class="prose-diary space-y-6">
+      {processedParagraphs.map(paragraph => (
+        <div
+          id={paragraph.htmlId}
+          class="group relative paragraph-container scroll-mt-24"
+          data-paragraph-id={paragraph.id}
+        >
+          <p class="text-lg leading-relaxed text-ink" lang="fr" set:html={paragraph.html} />
+
+          <div class="absolute -bottom-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
+            <ParagraphMenu
+              client:visible
+              paragraphId={paragraph.id}
+              glossaryTags={paragraph.glossaryTags}
+            />
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {/* Footnotes */}
+    {entry.footnotes.length > 0 && (
+      <section class="footnotes">
+        <h2 class="footnotes-title">Notes</h2>
+        {entry.footnotes.map(fn => (
+          <div
+            id={`fn-${fn.id}`}
+            class="footnote-item"
+            data-fn={fn.id}
+            set:html={fn.text}
+          />
+        ))}
+      </section>
+    )}
+
+    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center">
+      <a href="/original" class="text-muted hover:text-ink transition-colors">
+        ← Retour au journal
+      </a>
+
+      <a href="/original/001" class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors">
+        <span>Cahier 001</span>
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </nav>
+  </article>
+</ReadingLayout>
+
+<script>
+  // Handle deep linking - highlight paragraph on page load
+  document.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash;
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.classList.add('paragraph-highlight');
+        setTimeout(() => {
+          element.classList.remove('paragraph-highlight');
+        }, 2000);
+      }
+    }
+  });
+</script>

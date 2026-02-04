@@ -1,0 +1,191 @@
+---
+import ReadingLayout from '../../../layouts/ReadingLayout.astro';
+import { getYears, getCarnetsByYear, getYearInfo, isCarnetCrossYear, getCarnetEntries } from '../../../lib/content';
+
+export function getStaticPaths() {
+  const years = getYears('_original');
+
+  return years.map(yearInfo => ({
+    params: { year: String(yearInfo.year) },
+  }));
+}
+
+const { year } = Astro.params;
+const yearNum = parseInt(year!, 10);
+
+const yearInfo = getYearInfo(yearNum, '_original');
+const carnetsInYear = getCarnetsByYear(yearNum, 'cz');
+const originalCarnetsInYear = getCarnetsByYear(yearNum, '_original');
+
+// Merge Czech and original carnets
+const allCarnetIds = [...new Set([
+  ...carnetsInYear.map(c => c.id),
+  ...originalCarnetsInYear.map(c => c.id),
+])].sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+
+// Build carnet info with translation status
+const carnetsWithStatus = allCarnetIds.map(carnetId => {
+  const czCarnet = carnetsInYear.find(c => c.id === carnetId);
+  const origCarnet = originalCarnetsInYear.find(c => c.id === carnetId);
+  const carnet = czCarnet || origCarnet!;
+
+  // Get entries for this year only
+  const czEntries = czCarnet?.entries || [];
+  const origEntries = origCarnet?.entries || [];
+
+  // Check if carnet spans multiple years
+  const crossYear = isCarnetCrossYear(carnetId, '_original');
+
+  return {
+    id: carnetId,
+    entriesInYear: origEntries.length,
+    translatedCount: czEntries.length,
+    dateRange: carnet.dateRange,
+    crossYear: crossYear.crossYear,
+    allYears: crossYear.years,
+  };
+});
+
+const totalEntries = carnetsWithStatus.reduce((sum, c) => sum + c.entriesInYear, 0);
+const totalTranslated = carnetsWithStatus.reduce((sum, c) => sum + c.translatedCount, 0);
+
+const formatDateRange = (start: Date, end: Date) => {
+  const startStr = start.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'short' });
+  const endStr = end.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'short' });
+  return `${startStr} – ${endStr}`;
+};
+
+// Get previous and next years for navigation
+const allYears = getYears('_original');
+const currentIndex = allYears.findIndex(y => y.year === yearNum);
+const prevYear = currentIndex > 0 ? allYears[currentIndex - 1] : null;
+const nextYear = currentIndex < allYears.length - 1 ? allYears[currentIndex + 1] : null;
+---
+
+<ReadingLayout title={`Rok ${year} — Deník Marie Bashkirtseff`}>
+  <div class="max-w-4xl mx-auto">
+    <!-- Breadcrumb -->
+    <nav class="mb-8 text-sm text-muted">
+      <a href="/cz" class="hover:text-accent">Deník</a>
+      <span class="mx-2">›</span>
+      <span class="text-ink">Rok {year}</span>
+    </nav>
+
+    <header class="mb-8">
+      <h1 class="text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
+        Rok {year}
+      </h1>
+
+      {yearInfo && (
+        <p class="text-ink-light mb-4">
+          Marie Bashkirtseff ({yearInfo.marieAge} let)
+        </p>
+      )}
+
+      <div class="flex items-center gap-4 text-sm flex-wrap">
+        <span class="text-muted">
+          {carnetsWithStatus.length} sešitů
+        </span>
+        <span class="text-muted">•</span>
+        <span class="text-muted">
+          {totalEntries} záznamů
+        </span>
+        <span class="text-muted">•</span>
+        <span class="text-accent">
+          {totalTranslated} přeloženo
+        </span>
+      </div>
+
+      {totalTranslated < totalEntries && (
+        <div class="mt-4">
+          <div class="h-2 bg-sepia rounded-full overflow-hidden">
+            <div
+              class="h-full bg-accent rounded-full transition-all"
+              style={`width: ${(totalTranslated / totalEntries) * 100}%`}
+            />
+          </div>
+          <p class="text-xs text-muted mt-1">
+            {Math.round((totalTranslated / totalEntries) * 100)}% dokončeno
+          </p>
+        </div>
+      )}
+    </header>
+
+    <!-- Year Navigation -->
+    <div class="flex justify-between items-center mb-8 text-sm">
+      {prevYear ? (
+        <a href={`/cz/${prevYear.year}`} class="text-accent hover:text-accent-light transition-colors">
+          ← {prevYear.year}
+        </a>
+      ) : <span />}
+      {nextYear ? (
+        <a href={`/cz/${nextYear.year}`} class="text-accent hover:text-accent-light transition-colors">
+          {nextYear.year} →
+        </a>
+      ) : <span />}
+    </div>
+
+    <!-- Carnet List -->
+    <div class="space-y-3">
+      {carnetsWithStatus.map(carnet => (
+        <a
+          href={`/cz/${carnet.id}`}
+          class={`block p-4 rounded-lg border transition-all ${
+            carnet.translatedCount > 0
+              ? 'bg-parchment border-ink/10 hover:border-accent hover:shadow'
+              : 'bg-sepia/30 border-ink/5 hover:border-ink/20'
+          }`}
+        >
+          <div class="flex items-center justify-between">
+            <div class="flex-1">
+              <div class="flex items-center gap-3">
+                <span class="text-ink font-medium">
+                  Sešit {carnet.id}
+                </span>
+                {carnet.crossYear && (
+                  <span class="text-xs px-2 py-0.5 bg-amber-100 text-amber-700 rounded" title={`Pokračuje do roku ${carnet.allYears.filter(y => y !== yearNum).join(', ')}`}>
+                    {carnet.allYears[0] < yearNum ? `← ${carnet.allYears[0]}` : ''}
+                    {carnet.allYears[carnet.allYears.length - 1] > yearNum ? `→ ${carnet.allYears[carnet.allYears.length - 1]}` : ''}
+                  </span>
+                )}
+                {carnet.translatedCount === 0 && (
+                  <span class="text-xs px-2 py-0.5 bg-muted/20 text-muted rounded">
+                    FR
+                  </span>
+                )}
+              </div>
+              {carnet.dateRange && (
+                <p class="text-sm text-muted mt-1">
+                  {formatDateRange(carnet.dateRange.start, carnet.dateRange.end)}
+                  <span class="mx-2">•</span>
+                  {carnet.entriesInYear} záznamů
+                  {carnet.translatedCount > 0 && carnet.translatedCount < carnet.entriesInYear && (
+                    <span class="text-accent ml-1">
+                      ({carnet.translatedCount} přeloženo)
+                    </span>
+                  )}
+                </p>
+              )}
+            </div>
+            <svg class="w-5 h-5 text-muted flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    {carnetsWithStatus.length === 0 && (
+      <div class="text-center py-12 text-muted">
+        <p>V tomto roce nejsou žádné záznamy.</p>
+      </div>
+    )}
+
+    <!-- Back link -->
+    <div class="mt-8 pt-8 border-t border-ink/10">
+      <a href="/cz" class="text-accent hover:text-accent-light transition-colors">
+        ← Zpět na přehled let
+      </a>
+    </div>
+  </div>
+</ReadingLayout>

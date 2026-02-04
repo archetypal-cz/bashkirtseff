@@ -1,0 +1,68 @@
+---
+import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import { getCarnets } from '../../lib/content';
+
+const carnets = getCarnets('_original');
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('fr-FR', {
+    year: 'numeric',
+    month: 'long',
+  });
+};
+---
+
+<ReadingLayout title="Journal de Marie Bashkirtseff — Texte original">
+  <div class="max-w-4xl mx-auto">
+    <header class="mb-12 text-center">
+      <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
+        Journal de Marie Bashkirtseff
+      </h1>
+      <p class="text-ink-light mb-2">
+        Édition complète et non censurée — Texte original
+      </p>
+      <p class="text-sm text-muted">
+        Le journal original contient du français, russe, italien, anglais et d'autres langues
+      </p>
+    </header>
+
+    <div class="grid gap-6">
+      {carnets.map(carnet => (
+        <a
+          href={`/original/${carnet.id}`}
+          class="block p-6 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow-lg transition-all"
+        >
+          <div class="flex items-start justify-between">
+            <div>
+              <div class="text-2xl font-light text-accent mb-2">
+                {carnet.id}
+              </div>
+              <h2 class="text-lg text-ink mb-1">
+                Cahier {carnet.id}
+              </h2>
+              {carnet.dateRange && (
+                <p class="text-sm text-muted">
+                  {formatDate(carnet.dateRange.start)} — {formatDate(carnet.dateRange.end)}
+                </p>
+              )}
+            </div>
+            <div class="text-right">
+              <div class="text-2xl font-light text-ink-light">
+                {carnet.entries.length}
+              </div>
+              <div class="text-xs text-muted">
+                entrées
+              </div>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    {carnets.length === 0 && (
+      <div class="text-center py-12 text-muted">
+        <p>Aucun cahier trouvé.</p>
+      </div>
+    )}
+  </div>
+</ReadingLayout>

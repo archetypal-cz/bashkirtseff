@@ -1,0 +1,15 @@
+services:
+  bashkirtseff-app:
+    build:
+      context: ..
+      dockerfile: frontend/Dockerfile
+    container_name: bashkirtseff-app
+    restart: unless-stopped
+    networks:
+      - nginx_npm_network
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"
+
+networks:
+  nginx_npm_network:
+    external: true

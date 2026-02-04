@@ -1,0 +1,37 @@
+---
+// Redirect page - detects browser language and redirects to appropriate homepage
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marie Bashkirtseff</title>
+  <script>
+    // Check localStorage first (user's explicit choice)
+    const saved = localStorage.getItem('ui-language');
+    if (saved && ['cs', 'fr', 'en'].includes(saved)) {
+      window.location.replace('/home/' + saved);
+    } else {
+      // Detect from browser preferences
+      const browserLang = navigator.language || navigator.userLanguage;
+      const lang = browserLang.toLowerCase();
+
+      if (lang.startsWith('cs') || lang.startsWith('cz')) {
+        window.location.replace('/home/cs');
+      } else if (lang.startsWith('fr')) {
+        window.location.replace('/home/fr');
+      } else {
+        // Default to English for all others
+        window.location.replace('/home/en');
+      }
+    }
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/home/en">
+  </noscript>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

@@ -1,0 +1,78 @@
+---
+// Footer component with i18n and version display
+import { t } from '../../i18n/astro';
+
+const currentYear = new Date().getFullYear();
+
+// Version info injected at build time via Vite define
+declare const __APP_VERSION__: string;
+declare const __GIT_COMMIT__: string;
+
+const version = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '0.1.0';
+const gitCommit = typeof __GIT_COMMIT__ !== 'undefined' ? __GIT_COMMIT__ : 'dev';
+---
+
+<footer class="bg-sepia border-t border-ink/10 mt-auto">
+  <div class="max-w-6xl mx-auto px-4 py-8">
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- About -->
+      <div>
+        <h3 class="font-semibold text-ink mb-3">{t('footer.aboutProject')}</h3>
+        <p class="text-ink-light text-sm leading-relaxed">
+          {t('footer.aboutDescription')}
+        </p>
+      </div>
+
+      <!-- Links -->
+      <div>
+        <h3 class="font-semibold text-ink mb-3">{t('footer.links')}</h3>
+        <ul class="space-y-2 text-sm">
+          <li>
+            <a href="/marie" class="text-ink-light hover:text-accent transition-colors">
+              {t('footer.aboutMarie')}
+            </a>
+          </li>
+          <li>
+            <a href="/about" class="text-ink-light hover:text-accent transition-colors">
+              {t('footer.aboutProject')}
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Kerray/bashkirtseff" class="text-ink-light hover:text-accent transition-colors" target="_blank" rel="noopener">
+              {t('footer.contribute')}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Quote -->
+      <div>
+        <blockquote class="text-ink-light italic text-sm border-l-2 border-accent pl-4">
+          "{t('quotes.existence')}"
+          {t('quotes.existenceOriginal') && (
+            <span class="block text-xs text-muted mt-1 not-italic">
+              {t('quotes.existenceOriginal')}
+            </span>
+          )}
+          <footer class="mt-2 text-muted not-italic">
+            — Marie Bashkirtseff, 1884
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <!-- Copyright & Version -->
+    <div class="mt-8 pt-6 border-t border-ink/10 text-center text-sm text-muted">
+      <p class="mb-2">
+        © {currentYear} <a href="mailto:kerray@archetypal.cz" class="hover:text-accent transition-colors">kerray@archetypal.cz</a>
+      </p>
+      <p class="text-xs opacity-70">
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="hover:text-accent transition-colors" target="_blank" rel="noopener license">CC BY-NC-SA 4.0</a>
+        <span class="mx-2">|</span>
+        {t('footer.version')} {version}-{gitCommit}
+        <span class="mx-2">|</span>
+        <a href="https://github.com/Kerray/bashkirtseff" class="hover:text-accent transition-colors" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </div>
+</footer>

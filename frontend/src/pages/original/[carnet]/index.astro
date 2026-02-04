@@ -1,0 +1,118 @@
+---
+import ReadingLayout from '../../../layouts/ReadingLayout.astro';
+import { getCarnets, getCarnetEntries, getEntry, getEntryPreview } from '../../../lib/content';
+
+export function getStaticPaths() {
+  const carnets = getCarnets('_original');
+  // Exclude Carnet 000 - it has special handling in /original/000/index.astro
+  return carnets
+    .filter(carnet => carnet.id !== '000')
+    .map(carnet => ({
+      params: { carnet: carnet.id },
+    }));
+}
+
+const { carnet } = Astro.params;
+
+const entries = getCarnetEntries(carnet!, '_original');
+const carnetInfo = getCarnets('_original').find(c => c.id === carnet);
+
+const allEntries = entries.map(entryDate => {
+  const entry = getEntry(carnet!, entryDate, '_original');
+  const preview = getEntryPreview(carnet!, entryDate, '_original');
+  return {
+    date: entryDate,
+    title: entry?.title || entryDate,
+    preview,
+  };
+});
+
+const formatEntryDate = (dateStr: string) => {
+  // Check if this is a section-based entry (e.g., "000-01") vs date-based
+  if (/^\d{3}-\d{2}$/.test(dateStr)) {
+    // Section format: "000-01" -> "Section 1"
+    const section = parseInt(dateStr.split('-')[1], 10);
+    return `Section ${section}`;
+  }
+  // Handle date entries with suffixes like "1883-08-27-evening"
+  // Extract just the date part (YYYY-MM-DD)
+  const datePart = dateStr.split('-').slice(0, 3).join('-');
+  const suffix = dateStr.split('-').slice(3).join('-');
+  const date = new Date(datePart);
+  let formatted = date.toLocaleDateString('fr-FR', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+  // Append suffix if present (e.g., "evening" -> "(soir)")
+  if (suffix) {
+    const suffixLabels: Record<string, string> = {
+      'evening': '(soir)',
+      'morning': '(matin)',
+      'night': '(nuit)',
+    };
+    formatted += ' ' + (suffixLabels[suffix] || `(${suffix})`);
+  }
+  return formatted;
+};
+---
+
+<ReadingLayout title={`Cahier ${carnet} — Journal de Marie Bashkirtseff`}>
+  <div class="max-w-4xl mx-auto">
+    <nav class="mb-8 text-sm text-muted">
+      <a href="/original" class="hover:text-accent">Journal</a>
+      <span class="mx-2">›</span>
+      <span class="text-ink">Cahier {carnet}</span>
+    </nav>
+
+    <header class="mb-8">
+      <h1 class="text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
+        Cahier {carnet}
+      </h1>
+
+      {carnetInfo?.dateRange && (
+        <p class="text-ink-light mb-4">
+          {carnetInfo.dateRange.start.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
+          {' — '}
+          {carnetInfo.dateRange.end.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
+        </p>
+      )}
+
+      <p class="text-sm text-muted">
+        {allEntries.length} entrées
+      </p>
+    </header>
+
+    <div class="space-y-2">
+      {allEntries.map(entry => (
+        <a
+          href={`/original/${carnet}/${entry.date}`}
+          class="block p-4 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow transition-all"
+        >
+          <div class="flex items-start justify-between gap-4">
+            <div class="flex-1 min-w-0">
+              <time class="text-ink font-medium" datetime={entry.date}>
+                {formatEntryDate(entry.date)}
+              </time>
+              {entry.preview && (
+                <p class="mt-1 text-sm text-muted line-clamp-2">
+                  {entry.preview}
+                </p>
+              )}
+            </div>
+            <svg class="w-5 h-5 text-muted flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div class="mt-8 pt-8 border-t border-ink/10">
+      <a href="/original" class="text-accent hover:text-accent-light transition-colors">
+        ← Retour aux cahiers
+      </a>
+    </div>
+  </div>
+</ReadingLayout>

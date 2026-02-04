@@ -1,0 +1,168 @@
+---
+import ReadingLayout from '../layouts/ReadingLayout.astro';
+import { t } from '../i18n/astro';
+---
+
+<ReadingLayout title={t('marie.pageTitle')}>
+  <article class="max-w-3xl mx-auto">
+    <header class="mb-8 pb-6 border-b border-ink/10">
+      <h1 class="text-3xl md:text-4xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
+        Marie Bashkirtseff
+      </h1>
+      <p class="text-muted">1858–1884</p>
+    </header>
+
+    <div class="prose-diary space-y-6 text-ink-light">
+
+      <!-- Portrait -->
+      <figure class="float-right ml-6 mb-4 w-48 md:w-64">
+        <img
+          src="/images/marie/self-portrait.jpg"
+          alt={t('marie.selfPortraitAlt')}
+          class="rounded-lg shadow-md"
+          loading="lazy"
+        />
+        <figcaption class="text-xs text-muted mt-2 text-center">
+          {t('marie.selfPortraitCaption')}
+        </figcaption>
+      </figure>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('marie.life')}</h2>
+
+      <p class="leading-relaxed" set:html={t('marie.lifeText1')} />
+
+      <p class="leading-relaxed">
+        {t('marie.lifeText2')}
+      </p>
+
+      <p class="leading-relaxed">
+        {t('marie.lifeText3')}
+      </p>
+
+      <div class="clear-both"></div>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('marie.artist')}</h2>
+
+      <p class="leading-relaxed">
+        {t('marie.artistText1')}
+      </p>
+
+      <p class="leading-relaxed">
+        {t('marie.artistText2')}
+      </p>
+
+      <!-- Gallery -->
+      <div class="grid grid-cols-2 gap-4 my-8">
+        <figure>
+          <a href="https://www.musee-orsay.fr/en/artworks/un-meeting-54" target="_blank" rel="noopener">
+            <img
+              src="/images/marie/the-meeting.jpg"
+              alt={t('marie.meetingAlt')}
+              class="rounded shadow-sm hover:shadow-md transition-shadow"
+              loading="lazy"
+            />
+          </a>
+          <figcaption class="text-xs text-muted mt-2">{t('marie.meetingCaption')}</figcaption>
+        </figure>
+        <figure>
+          <a href="https://artvee.com/dl/in-the-studio-3/" target="_blank" rel="noopener">
+            <img
+              src="/images/marie/in-the-studio.jpg"
+              alt={t('marie.studioAlt')}
+              class="rounded shadow-sm hover:shadow-md transition-shadow"
+              loading="lazy"
+            />
+          </a>
+          <figcaption class="text-xs text-muted mt-2">{t('marie.studioCaption')}</figcaption>
+        </figure>
+      </div>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('marie.diary')}</h2>
+
+      <p class="leading-relaxed">
+        {t('marie.diaryText1')}
+      </p>
+
+      <p class="leading-relaxed">
+        {t('marie.diaryText2')}
+      </p>
+
+      <blockquote class="border-l-4 border-accent pl-6 py-2 my-8 italic text-ink">
+        "{t('quotes.existence')}"
+        {t('quotes.existenceOriginal') && (
+          <span class="block text-xs text-muted mt-1 not-italic">
+            {t('quotes.existenceOriginal')}
+          </span>
+        )}
+        <footer class="mt-2 text-muted not-italic text-sm">
+          — Marie Bashkirtseff, 1884
+        </footer>
+      </blockquote>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('marie.feminism')}</h2>
+
+      <p class="leading-relaxed">
+        {t('marie.feminismText1')}
+      </p>
+
+      <blockquote class="border-l-4 border-ink/20 pl-6 py-2 my-6 italic text-ink-light">
+        {t('marie.feminismQuote')}
+      </blockquote>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('marie.legacy')}</h2>
+
+      <p class="leading-relaxed">
+        {t('marie.legacyText1')}
+      </p>
+
+      <p class="leading-relaxed">
+        {t('marie.legacyText2')}
+      </p>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('marie.links')}</h2>
+
+      <ul class="space-y-2 text-sm">
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Marie_Bashkirtseff" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            Wikipedia
+          </a>
+        </li>
+        <li>
+          <a href="https://www.wikiart.org/en/marie-bashkirtseff" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            WikiArt — {t('marie.allPaintings')}
+          </a>
+        </li>
+        <li>
+          <a href="https://www.musee-orsay.fr/en/node/288025" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            Musée d'Orsay
+          </a>
+        </li>
+        <li>
+          <a href="https://commons.wikimedia.org/wiki/Category:Marie_Bashkirtseff" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            Wikimedia Commons — {t('marie.imagesAndPhotos')}
+          </a>
+        </li>
+        <li>
+          <a href="https://gallica.bnf.fr/ark:/12148/bpt6k65726142" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            Gallica (BnF) — {t('marie.originalManuscripts')}
+          </a>
+        </li>
+        <li>
+          <a href="https://daily.jstor.org/marie-bashkirtseffs-diary/" class="text-accent hover:text-accent-light" target="_blank" rel="noopener">
+            JSTOR Daily — {t('marie.articleAboutDiary')}
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between">
+      <a href="/about" class="text-muted hover:text-ink transition-colors">
+        ← {t('marie.aboutProject')}
+      </a>
+      <a href="/cz" class="text-muted hover:text-ink transition-colors">
+        {t('marie.readDiary')} →
+      </a>
+    </nav>
+  </article>
+</ReadingLayout>

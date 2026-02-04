@@ -1,0 +1,182 @@
+---
+import ReadingLayout from '../../../layouts/ReadingLayout.astro';
+import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
+import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
+import BookSidebar from '../../../components/reading/BookSidebar.vue';
+import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, hasTranslation, getAvailableLanguages } from '../../../lib/content';
+
+export function getStaticPaths() {
+  const carnets = getCarnets('_original');
+
+  const paths = [];
+  for (const carnet of carnets) {
+    // Skip Carnet 000 - it has special handling in /original/000/index.astro
+    if (carnet.id === '000') continue;
+
+    const entries = getCarnetEntries(carnet.id, '_original');
+    for (const entry of entries) {
+      paths.push({
+        params: { carnet: carnet.id, entry },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { carnet, entry: entryDate } = Astro.params;
+
+const entry = getEntry(carnet!, entryDate!, '_original');
+const nav = getEntryNavigation(carnet!, entryDate!, '_original');
+const hasCzTranslation = hasTranslation(carnet!, entryDate!, 'cz');
+const availableLanguages = getAvailableLanguages(carnet!, entryDate!);
+const carnetEntries = getCarnetEntries(carnet!, '_original').map(date => ({ date }));
+
+if (!entry) {
+  return Astro.redirect('/original');
+}
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('fr-FR', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+};
+
+const processedParagraphs = entry.paragraphs.map(p => ({
+  ...p,
+  htmlId: `p-${p.id.replace('.', '-')}`,
+}));
+---
+
+<ReadingLayout title={`${entry.title} — Cahier ${carnet}`}>
+  <!-- Carnet sidebar -->
+  <div class="fixed top-20 left-4 z-50 hidden lg:block">
+    <BookSidebar
+      client:load
+      carnet={carnet!}
+      currentEntry={entryDate!}
+      entries={carnetEntries}
+      language="_original"
+    />
+  </div>
+
+  <article class="max-w-3xl mx-auto">
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/original" class="hover:text-accent">Journal</a>
+      <span class="mx-2">›</span>
+      <a href={`/original/${carnet}`} class="hover:text-accent">Cahier {carnet}</a>
+      <span class="mx-2">›</span>
+      <span class="text-ink">{entryDate}</span>
+    </nav>
+
+    <header class="mb-8 pb-6 border-b border-ink/10">
+      <h1 class="text-2xl md:text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
+        {entry.title}
+      </h1>
+
+      <div class="flex items-center gap-4 text-sm text-muted">
+        <time datetime={entryDate}>
+          {formatDate(entry.date)}
+        </time>
+
+        {/* Language Switcher with scroll preservation */}
+        <LanguageSwitcher
+          client:load
+          currentLanguage="_original"
+          carnet={carnet!}
+          entryDate={entryDate!}
+          availableLanguages={availableLanguages}
+        />
+      </div>
+    </header>
+
+    <div class="prose-diary space-y-6">
+      {processedParagraphs.map(paragraph => (
+        <div
+          id={paragraph.htmlId}
+          class="group relative paragraph-container scroll-mt-24"
+          data-paragraph-id={paragraph.id}
+        >
+          <p class="text-lg leading-relaxed text-ink" lang="fr" set:html={paragraph.html} />
+
+          {/* Paragraph menu - positioned at bottom right for mobile accessibility */}
+          <div class="absolute -bottom-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
+            <ParagraphMenu
+              client:visible
+              paragraphId={paragraph.id}
+              glossaryTags={paragraph.glossaryTags}
+            />
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {/* Footnotes */}
+    {entry.footnotes.length > 0 && (
+      <section class="footnotes">
+        <h2 class="footnotes-title">Notes</h2>
+        {entry.footnotes.map(fn => (
+          <div
+            id={`fn-${fn.id}`}
+            class="footnote-item"
+            data-fn={fn.id}
+            set:html={fn.text}
+          />
+        ))}
+      </section>
+    )}
+
+    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center">
+      {nav.prev ? (
+        <a
+          href={`/original/${carnet}/${nav.prev}`}
+          class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          <span>Entrée précédente</span>
+        </a>
+      ) : (
+        <div />
+      )}
+
+      <a href={`/original/${carnet}`} class="text-muted hover:text-ink transition-colors">
+        Sommaire
+      </a>
+
+      {nav.next ? (
+        <a
+          href={`/original/${carnet}/${nav.next}`}
+          class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
+        >
+          <span>Entrée suivante</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      ) : (
+        <div />
+      )}
+    </nav>
+  </article>
+</ReadingLayout>
+
+<script>
+  // Handle deep linking - highlight paragraph on page load
+  document.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash;
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.classList.add('paragraph-highlight');
+        setTimeout(() => {
+          element.classList.remove('paragraph-highlight');
+        }, 2000);
+      }
+    }
+  });
+</script>
