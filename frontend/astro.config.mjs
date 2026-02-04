@@ -18,6 +18,9 @@ function getGitCommitHash() {
 }
 
 export default defineConfig({
+  // Site URL for canonical links, sitemaps, and proper HTTPS handling
+  site: 'https://bashkirtseff.aretea.cz',
+
   redirects: {
     // Legacy redirects from old 2-digit to new 3-digit carnet URLs
     '/original/00': '/original/000',
