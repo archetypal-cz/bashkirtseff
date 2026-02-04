@@ -41,7 +41,7 @@ See [docs/PHASES.md](docs/PHASES.md) for detailed implementation roadmap.
 | Styling | **Tailwind CSS** | Utility-first, great DX, easy responsive |
 | Ads | **AdSense** (pluggable) | Initial monetization, swappable for direct/ethical |
 | PWA | **Workbox** | Service worker for offline, installability |
-| Hosting | **Docker on aretea.cz** | Self-hosted, replaces current nginx container |
+| Hosting | **Docker** | Self-hosted at bashkirtseff.org via GitHub Actions |
 
 ## Key Features
 

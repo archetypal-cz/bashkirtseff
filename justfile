@@ -69,7 +69,7 @@ status:
     @ls -la src/_original/ | grep "^d" | grep -E "[0-9]+" | wc -l | xargs echo "  Count:"
     @echo "Carnets with Czech translations:"
     @ls -la src/cz/ 2>/dev/null | grep "^d" | grep -E "[0-9]+" | wc -l | xargs echo "  Count:"
-    @echo "View at: https://bashkirtseff.aretea.cz"
+    @echo "View at: https://bashkirtseff.org"
 
 # Initialize source hashes in translation files (for change detection)
 init-source-hashes lang="" carnet="":
@@ -207,23 +207,10 @@ check-frontmatter carnet=default_carnet:
 # Frontend deployment is AUTOMATIC via GitHub Actions:
 #   - Push to main branch triggers deployment
 #   - Workflow: .github/workflows/deploy.yml
-#   - Connects via Tailscale to aretea.cz
+#   - Site: https://bashkirtseff.org
 #
-# Manual commands below are for debugging/maintenance only.
-
-# Check deployment status on remote
-deploy-status:
-    ssh deploy@aretea "docker ps | grep bashkirtseff"
-
-# View frontend container logs
-deploy-logs:
-    ssh deploy@aretea "cd ~/coslate_bashkirtseff/frontend && docker compose logs -f"
-
-# Manual deploy (normally not needed - use git push instead)
-deploy-manual:
-    @echo "NOTE: Deployment is automatic on push to main."
-    @echo "This manual deploy is for emergencies only."
-    ssh deploy@aretea "cd ~/coslate_bashkirtseff && git pull origin main && cd frontend && docker compose up -d --build"
+# Check deployment status in GitHub Actions:
+#   https://github.com/ArchetypalCz/Bashkirtseff/actions
 
 # === AI TRANSLATION WORKFLOW ===
 
@@ -336,7 +323,7 @@ help:
     @echo "QUICK START:"
     @echo "  just setup           # Install dependencies & build TypeScript"
     @echo "  just fe-dev          # Start frontend dev server"
-    @echo "  View site at: https://bashkirtseff.aretea.cz"
+    @echo "  View site at: https://bashkirtseff.org"
     @echo ""
     @echo "GLOSSARY:"
     @echo "  just glossary-validate    # Validate all glossary links"
@@ -361,9 +348,7 @@ help:
     @echo ""
     @echo "DEPLOYMENT (automatic on push to main):"
     @echo "  git push origin main  # Triggers GitHub Actions deploy"
-    @echo "  just deploy-status    # Check container status"
-    @echo "  just deploy-logs      # View container logs"
-    @echo "  just deploy-manual    # Emergency manual deploy"
+    @echo "  Check status: https://github.com/ArchetypalCz/Bashkirtseff/actions"
     @echo ""
     @echo "AI TRANSLATION WORKFLOW:"
     @echo "  just architect                  # Start Workflow Architect (system dev)"

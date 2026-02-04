@@ -15,7 +15,7 @@ Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote
 | **Date range** | January 1873 - October 1884 |
 | **Source language** | French |
 | **Target languages** | Czech, Ukrainian, English, French (modern) |
-| **Frontend** | https://bashkirtseff.aretea.cz |
+| **Frontend** | https://bashkirtseff.org |
 
 ## Project Structure
 
@@ -195,5 +195,5 @@ The original diary text is in the public domain. The translations, annotations, 
 
 ## Links
 
-- **Live site**: https://bashkirtseff.aretea.cz
+- **Live site**: https://bashkirtseff.org
 - **Source**: https://github.com/ArchetypalCz/Bashkirtseff

@@ -503,11 +503,16 @@ docker build -t bashkirtseff-app .
 docker run -p 3000:80 bashkirtseff-app
 ```
 
-### Deploy to aretea.cz
+### Deployment
+
+Deployment is **automatic** via GitHub Actions on push to main branch.
 
 ```bash
-# From project root
-just frontend-deploy
+# Push to deploy
+git push origin main
+
+# Check deployment status
+# https://github.com/ArchetypalCz/Bashkirtseff/actions
 ```
 
 ---

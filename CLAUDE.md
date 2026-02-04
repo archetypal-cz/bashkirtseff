@@ -10,7 +10,7 @@ This is a sophisticated multi-agent literary translation project for Marie Bashk
 - **107 carnets** (notebooks 000-106, all accounted for)
 - **~3,300 diary entries** spanning 12 years (1873-1884)
 - **Target languages**: Czech, Ukrainian, English, French (modern edition)
-- **Frontend**: AstroJS PWA at https://bashkirtseff.aretea.cz
+- **Frontend**: AstroJS PWA at https://bashkirtseff.org
 
 ## Important: Documentation May Be Outdated
 

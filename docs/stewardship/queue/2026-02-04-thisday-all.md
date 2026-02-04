@@ -32,7 +32,7 @@ A year after first seeing him, Hamilton still has this effect on her. And she kn
 
 ---
 *From Carnet 016, Entry 1874-02-04*
-*Full entry: bashkirtseff.aretea.cz/cz/016/1874-02-04*
+*Full entry: bashkirtseff.org/cz/016/1874-02-04*
 
 ---
 
@@ -50,7 +50,7 @@ But when her father mentions Hamilton's name at dinner, her face betrays her. An
 
 Marie's radical honesty extends even to her own involuntary reactions. She can't hide from herself.
 
-📖 Read the full uncensored diary: bashkirtseff.aretea.cz
+📖 Read the full uncensored diary: bashkirtseff.org
 
 ---
 

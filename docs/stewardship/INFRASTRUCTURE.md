@@ -306,7 +306,7 @@ Generate monthly newsletter for February 2026:
 <h2>Coming Up</h2>
 <p>{{ .ComingUp }}</p>
 
-<p><a href="https://bashkirtseff.aretea.cz">Read the diary →</a></p>
+<p><a href="https://bashkirtseff.org">Read the diary →</a></p>
 ```
 
 ---

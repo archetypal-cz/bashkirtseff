@@ -346,7 +346,7 @@ If criticized for AI use:
 
 ### External Links to Share
 
-- Website: bashkirtseff.aretea.cz
+- Website: bashkirtseff.org
 - Wikipedia: en.wikipedia.org/wiki/Marie_Bashkirtseff
 - Musée d'Orsay: (link to *The Meeting*)
 - Katherine Kernberger's translations: (book links)

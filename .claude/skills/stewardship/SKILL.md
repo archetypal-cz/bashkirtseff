@@ -245,7 +245,7 @@ She's been keeping this diary for barely a month, and already her voice is unmis
 
 ---
 *From Carnet 001*
-*Full entry: bashkirtseff.aretea.cz/1873/02/04*
+*Full entry: bashkirtseff.org/1873/02/04*
 ```
 
 ### This Day - Instagram
