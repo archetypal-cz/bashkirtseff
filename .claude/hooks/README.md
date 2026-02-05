@@ -2,9 +2,11 @@
 
 Custom hooks for the Marie Bashkirtseff translation workflow.
 
+All hooks are implemented in TypeScript and called directly via `npx tsx`.
+
 ## Configured Hooks
 
-### 1. PostToolUse (Write): `validate-write.sh`
+### 1. PostToolUse (Write): `validate-write.ts`
 
 **Trigger**: After any Write tool completes on `.md` files
 
@@ -14,11 +16,11 @@ Custom hooks for the Marie Bashkirtseff translation workflow.
 - Verify translation files have French original in comments
 
 **Checks**:
-- Files in `src/cz/` or `src/_original/`
+- Files in `content/cz/` or `content/_original/`
 - Date-based entry files (`YYYY-MM-DD.md`)
 - Skips workflow and glossary files
 
-### 2. PostToolUse (Write): `post-edit.sh`
+### 2. PostToolUse (Write): `post-edit.ts`
 
 **Trigger**: After any Write tool completes on diary entry files
 
@@ -27,9 +29,7 @@ Custom hooks for the Marie Bashkirtseff translation workflow.
 - Report changes to stderr for visibility
 - Calculate completion percentages
 
-**Implementation**: TypeScript (`scripts/hooks/post-edit.ts`)
-
-### 3. Stop: `session-end.sh`
+### 3. Stop: `session-end.ts`
 
 **Trigger**: When a Claude session ends
 
@@ -38,8 +38,6 @@ Custom hooks for the Marie Bashkirtseff translation workflow.
 - Report uncommitted changes
 - Suggest commit command if auto-commit enabled
 
-**Implementation**: TypeScript (`scripts/hooks/session-end.ts`)
-
 ## Configuration
 
 Hooks are configured in `.claude/settings.local.json`:
@@ -47,9 +45,35 @@ Hooks are configured in `.claude/settings.local.json`:
 ```json
 {
   "hooks": {
-    "SubagentStop": [...],
-    "PostToolUse": [...],
-    "Stop": [...]
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/validate-write.ts",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/post-edit.ts",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/session-end.ts",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
   }
 }
 ```
@@ -59,11 +83,14 @@ Hooks are configured in `.claude/settings.local.json`:
 Test hooks manually:
 
 ```bash
-# Test subagent hook
-echo '{"session_id":"test123","cwd":"/path/to/project"}' | .claude/hooks/subagent-complete.sh
-
 # Test write validation
-echo '{"tool_input":{"file_path":"src/cz/15/1882-05-01.md"}}' | .claude/hooks/validate-write.sh
+echo '{"tool_input":{"file_path":"content/cz/015/1882-05-01.md"}}' | npx tsx src/scripts/hooks/validate-write.ts
+
+# Test post-edit hook
+echo '{"tool_input":{"file_path":"content/cz/015/1882-05-01.md"}}' | npx tsx src/scripts/hooks/post-edit.ts
+
+# Test session-end hook
+echo '{}' | npx tsx src/scripts/hooks/session-end.ts
 ```
 
 ## Hook Input/Output
@@ -75,27 +102,22 @@ All hooks receive JSON via stdin and should output JSON to stdout.
 - 2: Block the operation (PreToolUse only)
 - Other: Non-blocking error
 
-## TypeScript Hooks
+## TypeScript Hooks Structure
 
-The hooks system uses TypeScript for complex logic. Shell wrappers in `.claude/hooks/`
-call TypeScript modules in `scripts/hooks/`:
+All hooks are pure TypeScript in `src/scripts/hooks/`:
 
 ```
-.claude/hooks/
-├── validate-write.sh      # Shell script (simple validation)
-├── post-edit.sh           # Wrapper → scripts/hooks/post-edit.ts
-├── session-end.sh         # Wrapper → scripts/hooks/session-end.ts
-└── README.md
-
-scripts/hooks/
-├── post-edit.ts           # TypeScript implementation
-├── session-end.ts         # TypeScript implementation
-├── pre-session.ts         # TypeScript implementation (optional)
+src/scripts/hooks/
+├── validate-write.ts      # File validation
+├── post-edit.ts           # Progress tracking after edits
+├── session-end.ts         # Session cleanup
+├── pre-session.ts         # Session start (optional)
 └── lib/
     ├── types.ts           # Type definitions
     ├── config.ts          # Configuration utilities
     ├── readme-parser.ts   # README.md parsing/updating
     ├── progress.ts        # Progress calculation
+    ├── source-sync.ts     # Source file synchronization
     └── todo-sync.ts       # TODO synchronization
 ```
 
@@ -121,8 +143,6 @@ auto_commit:
 
 To add new functionality:
 
-1. Create TypeScript module in `scripts/hooks/`
-2. Create shell wrapper in `.claude/hooks/`
-3. Make wrapper executable: `chmod +x script.sh`
-4. Add to `settings.local.json` hooks section
-5. Test manually before using in workflow
+1. Create TypeScript module in `src/scripts/hooks/`
+2. Add to `settings.local.json` hooks section
+3. Test manually before using in workflow
