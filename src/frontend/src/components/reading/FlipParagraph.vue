@@ -163,6 +163,9 @@ const translationLanguage = computed(() => {
   opacity: 0.5;
   transition: opacity 0.2s, color 0.2s, background-color 0.2s;
   z-index: 5;
+  /* Ensure button hides when its face is rotated away */
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 [data-theme="dark"] .flip-btn {

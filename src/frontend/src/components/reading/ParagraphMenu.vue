@@ -128,9 +128,6 @@ function hideTooltip() {
       <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
       </svg>
-      <span v-if="glossaryTags && glossaryTags.length > 0" class="tag-count">
-        {{ glossaryTags.length }}
-      </span>
     </button>
 
     <!-- Mobile: Full screen modal -->
@@ -294,19 +291,6 @@ function hideTooltip() {
 
 .menu-toggle.has-tags {
   color: var(--color-accent, #B45309);
-}
-
-.tag-count {
-  font-size: 0.625rem;
-  font-weight: 600;
-  min-width: 1rem;
-  height: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--color-accent, #B45309);
-  color: white;
-  border-radius: 9999px;
 }
 
 .menu-dropdown {
