@@ -1,0 +1,32 @@
+{
+  "name": "bashkirtseff-diary",
+  "version": "0.6.0",
+  "description": "Marie Bashkirtseff's complete diary - translation and publication project",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "src/shared",
+    "src/scripts/ts",
+    "src/frontend"
+  ],
+  "scripts": {
+    "build": "npm run build:shared && npm run build:cli",
+    "build:shared": "npm run build -w @bashkirtseff/shared",
+    "build:cli": "npm run build -w @bashkirtseff/cli",
+    "build:frontend": "npm run build -w bashkirtseff-frontend",
+    "dev:frontend": "npm run dev -w bashkirtseff-frontend",
+    "diary": "npx tsx src/scripts/ts/cli.ts",
+    "test:parser": "npm run diary -- parse content/_original/001/1873-01-01.md --pretty"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.58.1"
+  }
+}

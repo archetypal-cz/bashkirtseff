@@ -1,0 +1,51 @@
+# Windows zone identifiers
+*Zone.Identifier
+*Zone - kopie.Identifier
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+.npm
+
+# TypeScript build output
+src/shared/dist/
+*.tsbuildinfo
+
+# Astro build
+src/frontend/.astro/
+src/frontend/dist/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/bashkirtseff-highlighting
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw source materials (large binary files)
+raw_books/
+
+# Working files (personal, not shared)
+.claude/WORKER_CONFIG.yaml
+.plan.md
