@@ -110,6 +110,12 @@ const translationLanguage = computed(() => {
   /* Front is default visible */
 }
 
+/* Hide front face button when card is flipped */
+.flip-card.is-flipped .card-front .flip-btn {
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .card-back {
   position: absolute;
   inset: 0;

@@ -327,7 +327,9 @@ function extractGlossaryTags(text: string): GlossaryTag[] {
   let match;
   while ((match = tagPattern.exec(text)) !== null) {
     const name = match[1];
-    const id = match[2];
+    // Extract just the filename from the path (e.g., "people/core/MARIE_BASHKIRTSEFF" -> "MARIE_BASHKIRTSEFF")
+    const fullPath = match[2];
+    const id = fullPath.split('/').pop() || fullPath;
     // Avoid duplicates
     if (!tags.some(t => t.id === id)) {
       tags.push({ id, name });
