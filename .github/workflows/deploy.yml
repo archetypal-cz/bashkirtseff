@@ -10,6 +10,14 @@ on:
       - '.github/workflows/deploy.yml'
   workflow_dispatch:  # Allow manual trigger
 
+# Required secrets:
+#   TAILSCALE_AUTHKEY - Tailscale auth key for network access
+#   HEADSCALE_URL     - Headscale login server URL
+#   SSH_PRIVATE_KEY   - SSH private key for deploy user
+#   DEPLOY_HOST       - Target server hostname (Tailscale name)
+#   DEPLOY_USER       - SSH username on target server
+#   DEPLOY_PATH       - Path to project on target server
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -36,25 +44,32 @@ jobs:
           # Verify key format
           head -1 ~/.ssh/id_ed25519
 
-      - name: Deploy to aretea.cz
+      - name: Deploy to server
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         run: |
           # Wait for Tailscale to be ready
           sleep 5
 
-          # SSH to aretea and deploy
+          # SSH to server and deploy
           ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
-            deploy@aretea \
-            "cd ~/coslate_bashkirtseff && \
+            "${DEPLOY_USER}@${DEPLOY_HOST}" \
+            "cd ${DEPLOY_PATH} && \
              git pull origin main && \
              cd frontend && \
              docker compose up -d --build"
 
       - name: Verify deployment
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
         run: |
           # Wait for container to start
           sleep 10
 
           # Check container is running
           ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
-            deploy@aretea \
+            "${DEPLOY_USER}@${DEPLOY_HOST}" \
             "docker ps | grep bashkirtseff-app"
