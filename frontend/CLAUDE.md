@@ -512,7 +512,7 @@ Deployment is **automatic** via GitHub Actions on push to main branch.
 git push origin main
 
 # Check deployment status
-# https://github.com/ArchetypalCz/Bashkirtseff/actions
+# https://github.com/archetypal-cz/bashkirtseff/actions
 ```
 
 ---

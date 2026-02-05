@@ -210,7 +210,7 @@ check-frontmatter carnet=default_carnet:
 #   - Site: https://bashkirtseff.org
 #
 # Check deployment status in GitHub Actions:
-#   https://github.com/ArchetypalCz/Bashkirtseff/actions
+#   https://github.com/archetypal-cz/bashkirtseff/actions
 
 # === AI TRANSLATION WORKFLOW ===
 
@@ -348,7 +348,7 @@ help:
     @echo ""
     @echo "DEPLOYMENT (automatic on push to main):"
     @echo "  git push origin main  # Triggers GitHub Actions deploy"
-    @echo "  Check status: https://github.com/ArchetypalCz/Bashkirtseff/actions"
+    @echo "  Check status: https://github.com/archetypal-cz/bashkirtseff/actions"
     @echo ""
     @echo "AI TRANSLATION WORKFLOW:"
     @echo "  just architect                  # Start Workflow Architect (system dev)"

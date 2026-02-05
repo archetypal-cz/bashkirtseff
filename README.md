@@ -196,4 +196,4 @@ The original diary text is in the public domain. The translations, annotations, 
 ## Links
 
 - **Live site**: https://bashkirtseff.org
-- **Source**: https://github.com/ArchetypalCz/Bashkirtseff
+- **Source**: https://github.com/archetypal-cz/bashkirtseff
