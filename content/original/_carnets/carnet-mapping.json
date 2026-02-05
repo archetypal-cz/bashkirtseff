@@ -1,0 +1,1094 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-01-31",
+    "description": "Mapping of Marie Bashkirtseff's 105 carnets to the 17 published volumes (books)",
+    "notes": [
+      "Carnet 1 original is lost; passages from Pierre Borel's 1925 publication are used",
+      "Carnet 89 is held at Bibliotheque de Cessole in Nice, not BnF",
+      "Marie wrote from 1873-1884 on 105 carnets she numbered herself",
+      "Some carnets have explicit headers in the raw text, others only appear in table of contents",
+      "Book 00 contains preface and editorial material, mapped to carnet 000"
+    ]
+  },
+  "carnets": {
+    "000": {
+      "number": 0,
+      "title": "Preface",
+      "start_date": "1884-05-01",
+      "end_date": "1884-05-01",
+      "old_book": "00",
+      "location": "Paris",
+      "notes": "Editorial preface written by Marie in May 1884, plus genealogical material"
+    },
+    "001": {
+      "number": 1,
+      "title": "Carnet N. 1",
+      "start_date": "1873-01-11",
+      "end_date": "1873-02-12",
+      "old_book": "01",
+      "location": "Nice",
+      "notes": "Original lost; text from Pierre Borel's 1925 publication"
+    },
+    "002": {
+      "number": 2,
+      "title": "Carnet N. 2",
+      "start_date": "1873-02-16",
+      "end_date": "1873-03-12",
+      "old_book": "01",
+      "location": "Nice",
+      "notes": ""
+    },
+    "003": {
+      "number": 3,
+      "title": "Carnet N. 3 Mon journal",
+      "start_date": "1873-03-13",
+      "end_date": "1873-04-14",
+      "old_book": "01",
+      "location": "Nice",
+      "notes": ""
+    },
+    "004": {
+      "number": 4,
+      "title": "Carnet N. 4 Mon journal",
+      "start_date": "1873-04-15",
+      "end_date": "1873-05-17",
+      "old_book": "01",
+      "location": "Nice",
+      "notes": ""
+    },
+    "005": {
+      "number": 5,
+      "title": "Carnet N. 5",
+      "start_date": "1873-05-18",
+      "end_date": "1873-06-15",
+      "old_book": "01",
+      "location": "Nice, Geneve, Nice",
+      "notes": ""
+    },
+    "006": {
+      "number": 6,
+      "title": "Carnet N. 6",
+      "start_date": "1873-06-16",
+      "end_date": "1873-07-12",
+      "old_book": "01",
+      "location": "Nice",
+      "notes": ""
+    },
+    "007": {
+      "number": 7,
+      "title": "Carnet N. 7",
+      "start_date": "1873-07-13",
+      "end_date": "1873-08-10",
+      "old_book": "01",
+      "location": "Nice, Genes, Vienne (Autriche)",
+      "notes": ""
+    },
+    "008": {
+      "number": 8,
+      "title": "Carnet N. 8",
+      "start_date": "1873-08-11",
+      "end_date": "1873-09-01",
+      "old_book": "02",
+      "location": "Vienne (Autriche), Paris, Nice",
+      "notes": ""
+    },
+    "009": {
+      "number": 9,
+      "title": "Carnet N. 9",
+      "start_date": "1873-09-01",
+      "end_date": "1873-09-22",
+      "old_book": "02",
+      "location": "Nice",
+      "notes": ""
+    },
+    "010": {
+      "number": 10,
+      "title": "Carnet N. 10",
+      "start_date": "1873-09-23",
+      "end_date": "1873-10-13",
+      "old_book": "02",
+      "location": "Nice",
+      "notes": "No explicit header in raw text; identified from table of contents"
+    },
+    "011": {
+      "number": 11,
+      "title": "Carnet N. 11",
+      "start_date": "1873-10-15",
+      "end_date": "1873-11-01",
+      "old_book": "02",
+      "location": "Nice",
+      "notes": ""
+    },
+    "012": {
+      "number": 12,
+      "title": "Carnet N. 12",
+      "start_date": "1873-11-01",
+      "end_date": "1873-11-20",
+      "old_book": "02",
+      "location": "Nice",
+      "notes": ""
+    },
+    "013": {
+      "number": 13,
+      "title": "Carnet N. 13",
+      "start_date": "1873-11-21",
+      "end_date": "1873-12-09",
+      "old_book": "02",
+      "location": "Nice",
+      "notes": ""
+    },
+    "014": {
+      "number": 14,
+      "title": "Carnet N. 14",
+      "start_date": "1873-12-10",
+      "end_date": "1874-01-01",
+      "old_book": "02",
+      "location": "Nice",
+      "notes": ""
+    },
+    "015": {
+      "number": 15,
+      "title": "Livre 15",
+      "start_date": "1874-01-02",
+      "end_date": "1874-01-25",
+      "old_book": "03",
+      "location": "Nice",
+      "notes": "Raw text uses 'Livre' instead of 'Carnet'"
+    },
+    "016": {
+      "number": 16,
+      "title": "Livre 16",
+      "start_date": "1874-01-26",
+      "end_date": "1874-02-21",
+      "old_book": "03",
+      "location": "Nice",
+      "notes": ""
+    },
+    "017": {
+      "number": 17,
+      "title": "Carnet 17",
+      "start_date": "1874-02-22",
+      "end_date": "1874-03-27",
+      "old_book": "03",
+      "location": "Nice",
+      "notes": ""
+    },
+    "018": {
+      "number": 18,
+      "title": "Carnet 18",
+      "start_date": "1874-03-28",
+      "end_date": "1874-04-23",
+      "old_book": "03",
+      "location": "Nice",
+      "notes": ""
+    },
+    "019": {
+      "number": 19,
+      "title": "Carnet 19",
+      "start_date": "1874-04-24",
+      "end_date": "1874-05-29",
+      "old_book": "03",
+      "location": "Nice, Paris",
+      "notes": ""
+    },
+    "020": {
+      "number": 20,
+      "title": "Carnet 20",
+      "start_date": "1874-05-30",
+      "end_date": "1874-07-04",
+      "old_book": "03",
+      "location": "Paris, Spa (Belgique)",
+      "notes": ""
+    },
+    "021": {
+      "number": 21,
+      "title": "Livre 21",
+      "start_date": "1874-07-05",
+      "end_date": "1874-07-23",
+      "old_book": "04",
+      "location": "Spa (Belgique)",
+      "notes": ""
+    },
+    "022": {
+      "number": 22,
+      "title": "Livre 22",
+      "start_date": "1874-07-24",
+      "end_date": "1874-08-08",
+      "old_book": "04",
+      "location": "Spa (Belgique)",
+      "notes": ""
+    },
+    "023": {
+      "number": 23,
+      "title": "Livre 23",
+      "start_date": "1874-08-08",
+      "end_date": "1874-09-13",
+      "old_book": "04",
+      "location": "Spa, Ostende (Belgique), Londres, Paris",
+      "notes": ""
+    },
+    "024": {
+      "number": 24,
+      "title": "Livre 24",
+      "start_date": "1874-09-17",
+      "end_date": "1874-10-26",
+      "old_book": "04",
+      "location": "Paris, Nice",
+      "notes": ""
+    },
+    "025": {
+      "number": 25,
+      "title": "Livre 25",
+      "start_date": "1874-10-27",
+      "end_date": "1874-11-18",
+      "old_book": "04",
+      "location": "Nice",
+      "notes": ""
+    },
+    "026": {
+      "number": 26,
+      "title": "Livre 26",
+      "start_date": "1874-11-19",
+      "end_date": "1874-11-23",
+      "old_book": "04",
+      "location": "Nice",
+      "notes": "Short carnet (5 days)"
+    },
+    "027": {
+      "number": 27,
+      "title": "Livre 27",
+      "start_date": "1874-11-24",
+      "end_date": "1874-12-24",
+      "old_book": "04",
+      "location": "Nice",
+      "notes": ""
+    },
+    "028": {
+      "number": 28,
+      "title": "Livre 28",
+      "start_date": "1874-12-25",
+      "end_date": "1875-01-20",
+      "old_book": "04",
+      "location": "Nice, Paris",
+      "notes": ""
+    },
+    "029": {
+      "number": 29,
+      "title": "Livre 29",
+      "start_date": "1875-01-20",
+      "end_date": "1875-02-18",
+      "old_book": "04",
+      "location": "Paris, Nice",
+      "notes": ""
+    },
+    "030": {
+      "number": 30,
+      "title": "Livre 30",
+      "start_date": "1875-02-19",
+      "end_date": "1875-04-02",
+      "old_book": "04",
+      "location": "Nice",
+      "notes": ""
+    },
+    "031": {
+      "number": 31,
+      "title": "Livre 31",
+      "start_date": "1875-04-02",
+      "end_date": "1875-04-22",
+      "old_book": "05",
+      "location": "Nice",
+      "notes": ""
+    },
+    "032": {
+      "number": 32,
+      "title": "Livre 32",
+      "start_date": "1875-04-23",
+      "end_date": "1875-05-16",
+      "old_book": "05",
+      "location": "Nice",
+      "notes": ""
+    },
+    "033": {
+      "number": 33,
+      "title": "Livre 33",
+      "start_date": "1875-05-16",
+      "end_date": "1875-06-06",
+      "old_book": "05",
+      "location": "Nice",
+      "notes": ""
+    },
+    "034": {
+      "number": 34,
+      "title": "Livre 34",
+      "start_date": "1875-06-07",
+      "end_date": "1875-06-25",
+      "old_book": "05",
+      "location": "Nice",
+      "notes": ""
+    },
+    "035": {
+      "number": 35,
+      "title": "Livre 35",
+      "start_date": "1875-06-26",
+      "end_date": "1875-07-08",
+      "old_book": "05",
+      "location": "Nice",
+      "notes": ""
+    },
+    "036": {
+      "number": 36,
+      "title": "Livre 36",
+      "start_date": "1875-07-09",
+      "end_date": "1875-07-14",
+      "old_book": "05",
+      "location": "Nice",
+      "notes": "Short carnet (6 days)"
+    },
+    "037": {
+      "number": 37,
+      "title": "Livre 37",
+      "start_date": "1875-07-15",
+      "end_date": "1875-07-31",
+      "old_book": "05",
+      "location": "Nice",
+      "notes": ""
+    },
+    "038": {
+      "number": 38,
+      "title": "Livre 38",
+      "start_date": "1875-08-01",
+      "end_date": "1875-08-12",
+      "old_book": "05",
+      "location": "Paris",
+      "notes": ""
+    },
+    "039": {
+      "number": 39,
+      "title": "Livre 39",
+      "start_date": "1875-08-16",
+      "end_date": "1875-08-26",
+      "old_book": "05",
+      "location": "Schlangenbad",
+      "notes": ""
+    },
+    "040": {
+      "number": 40,
+      "title": "Livre 40",
+      "start_date": "1875-08-27",
+      "end_date": "1875-09-01",
+      "old_book": "05",
+      "location": "Paris",
+      "notes": "Short carnet (6 days)"
+    },
+    "041": {
+      "number": 41,
+      "title": "Livre 41",
+      "start_date": "1875-09-01",
+      "end_date": "1875-09-07",
+      "old_book": "05",
+      "location": "Paris",
+      "notes": "Short carnet (7 days)"
+    },
+    "042": {
+      "number": 42,
+      "title": "Livre 42",
+      "start_date": "1875-09-08",
+      "end_date": "1875-09-09",
+      "old_book": "05",
+      "location": "Marseille",
+      "notes": "Very short carnet (2 days)"
+    },
+    "043": {
+      "number": 43,
+      "title": "Livre 43",
+      "start_date": "1875-09-10",
+      "end_date": "1875-09-21",
+      "old_book": "05",
+      "location": "Nice, Florence (Italie)",
+      "notes": ""
+    },
+    "044": {
+      "number": 44,
+      "title": "Livre 44",
+      "start_date": "1875-09-21",
+      "end_date": "1875-09-25",
+      "old_book": "05",
+      "location": "Nice",
+      "notes": "Short carnet (5 days)"
+    },
+    "045": {
+      "number": 45,
+      "title": "Livre 45",
+      "start_date": "1875-09-26",
+      "end_date": "1875-10-02",
+      "old_book": "06",
+      "location": "Nice",
+      "notes": ""
+    },
+    "046": {
+      "number": 46,
+      "title": "Livre 46",
+      "start_date": "1875-10-03",
+      "end_date": "1875-10-12",
+      "old_book": "06",
+      "location": "Nice",
+      "notes": ""
+    },
+    "047": {
+      "number": 47,
+      "title": "Livre 47",
+      "start_date": "1875-10-13",
+      "end_date": "1875-10-23",
+      "old_book": "06",
+      "location": "Nice",
+      "notes": ""
+    },
+    "048": {
+      "number": 48,
+      "title": "Livre 48",
+      "start_date": "1875-10-24",
+      "end_date": "1875-11-06",
+      "old_book": "06",
+      "location": "Nice",
+      "notes": ""
+    },
+    "049": {
+      "number": 49,
+      "title": "Livre 49",
+      "start_date": "1875-11-09",
+      "end_date": "1875-11-17",
+      "old_book": "06",
+      "location": "Nice",
+      "notes": ""
+    },
+    "050": {
+      "number": 50,
+      "title": "Livre 50",
+      "start_date": "1875-11-18",
+      "end_date": "1875-12-25",
+      "old_book": "06",
+      "location": "Paris, Nice",
+      "notes": ""
+    },
+    "051": {
+      "number": 51,
+      "title": "Livre 51",
+      "start_date": "1875-12-26",
+      "end_date": "1876-01-08",
+      "old_book": "06",
+      "location": "Nice, Rome",
+      "notes": ""
+    },
+    "052": {
+      "number": 52,
+      "title": "Livre 52",
+      "start_date": "1876-01-10",
+      "end_date": "1876-01-23",
+      "old_book": "06",
+      "location": "Rome",
+      "notes": ""
+    },
+    "053": {
+      "number": 53,
+      "title": "Livre 53",
+      "start_date": "1876-01-24",
+      "end_date": "1876-02-10",
+      "old_book": "07",
+      "location": "Rome",
+      "notes": ""
+    },
+    "054": {
+      "number": 54,
+      "title": "Livre 54",
+      "start_date": "1876-02-12",
+      "end_date": "1876-02-29",
+      "old_book": "07",
+      "location": "Rome",
+      "notes": ""
+    },
+    "055": {
+      "number": 55,
+      "title": "Livre 55",
+      "start_date": "1876-03-01",
+      "end_date": "1876-03-27",
+      "old_book": "07",
+      "location": "Rome",
+      "notes": ""
+    },
+    "056": {
+      "number": 56,
+      "title": "Livre 56",
+      "start_date": "1876-03-27",
+      "end_date": "1876-04-09",
+      "old_book": "07",
+      "location": "Rome",
+      "notes": ""
+    },
+    "057": {
+      "number": 57,
+      "title": "Livre 57",
+      "start_date": "1876-04-09",
+      "end_date": "1876-04-13",
+      "old_book": "07",
+      "location": "Rome",
+      "notes": "Short carnet (5 days)"
+    },
+    "058": {
+      "number": 58,
+      "title": "Livre 58",
+      "start_date": "1876-04-13",
+      "end_date": "1876-04-19",
+      "old_book": "07",
+      "location": "Naples",
+      "notes": ""
+    },
+    "059": {
+      "number": 59,
+      "title": "Livre 59",
+      "start_date": "1876-04-20",
+      "end_date": "1876-05-09",
+      "old_book": "07",
+      "location": "Naples, Rome",
+      "notes": "Marie noted this carnet was 'misplaced' - gap from Apr 19 to May 10"
+    },
+    "060": {
+      "number": 60,
+      "title": "Livre 60",
+      "start_date": "1876-05-10",
+      "end_date": "1876-05-20",
+      "old_book": "08",
+      "location": "Rome",
+      "notes": ""
+    },
+    "061": {
+      "number": 61,
+      "title": "Livre 61",
+      "start_date": "1876-05-21",
+      "end_date": "1876-05-28",
+      "old_book": "08",
+      "location": "Genes, Nice",
+      "notes": ""
+    },
+    "062": {
+      "number": 62,
+      "title": "Livre 62",
+      "start_date": "1876-05-29",
+      "end_date": "1876-07-03",
+      "old_book": "08",
+      "location": "Nice",
+      "notes": ""
+    },
+    "063": {
+      "number": 63,
+      "title": "Livre 63",
+      "start_date": "1876-07-04",
+      "end_date": "1876-07-19",
+      "old_book": "08",
+      "location": "Paris",
+      "notes": ""
+    },
+    "064": {
+      "number": 64,
+      "title": "Livre 64",
+      "start_date": "1876-07-19",
+      "end_date": "1876-08-16",
+      "old_book": "08",
+      "location": "Paris, Berlin, Petersbourg, Moscou, Chpatovska",
+      "notes": ""
+    },
+    "065": {
+      "number": 65,
+      "title": "Livre 65",
+      "start_date": "1876-08-17",
+      "end_date": "1876-09-02",
+      "old_book": "09",
+      "location": "Chpatovska",
+      "notes": ""
+    },
+    "066": {
+      "number": 66,
+      "title": "Livre 66",
+      "start_date": "1876-09-03",
+      "end_date": "1876-10-12",
+      "old_book": "09",
+      "location": "Gavronzi",
+      "notes": ""
+    },
+    "067": {
+      "number": 67,
+      "title": "Livre 67",
+      "start_date": "1876-10-12",
+      "end_date": "1876-12-11",
+      "old_book": "09",
+      "location": "Gavronzi, Poltava, Paris, Nice",
+      "notes": "Two sections labeled Livre 67 in source (Oct 4-11 and Oct 12-Dec 11)"
+    },
+    "068": {
+      "number": 68,
+      "title": "Livre 68",
+      "start_date": "1876-12-12",
+      "end_date": "1877-02-23",
+      "old_book": "09",
+      "location": "Nice",
+      "notes": ""
+    },
+    "069": {
+      "number": 69,
+      "title": "Livre 69",
+      "start_date": "1877-02-24",
+      "end_date": "1877-04-02",
+      "old_book": "10",
+      "location": "Naples",
+      "notes": ""
+    },
+    "070": {
+      "number": 70,
+      "title": "Livre 70",
+      "start_date": "1877-04-03",
+      "end_date": "1877-04-25",
+      "old_book": "10",
+      "location": "Naples",
+      "notes": ""
+    },
+    "071": {
+      "number": 71,
+      "title": "Livre 71",
+      "start_date": "1877-04-26",
+      "end_date": "1877-06-10",
+      "old_book": "10",
+      "location": "Genes, Nice",
+      "notes": ""
+    },
+    "072": {
+      "number": 72,
+      "title": "Livre 72",
+      "start_date": "1877-06-11",
+      "end_date": "1877-07-14",
+      "old_book": "10",
+      "location": "Nice, Paris",
+      "notes": ""
+    },
+    "073": {
+      "number": 73,
+      "title": "Livre 73",
+      "start_date": "1877-07-15",
+      "end_date": "1877-08-19",
+      "old_book": "10",
+      "location": "Paris",
+      "notes": ""
+    },
+    "074": {
+      "number": 74,
+      "title": "Livre 74",
+      "start_date": "1877-08-23",
+      "end_date": "1877-09-25",
+      "old_book": "10",
+      "location": "Paris, Schlangenbad, Wiesbaden",
+      "notes": ""
+    },
+    "075": {
+      "number": 75,
+      "title": "Livre 75",
+      "start_date": "1877-09-26",
+      "end_date": "1877-10-31",
+      "old_book": "11",
+      "location": "Paris",
+      "notes": ""
+    },
+    "076": {
+      "number": 76,
+      "title": "Livre 76",
+      "start_date": "1877-11-01",
+      "end_date": "1877-12-22",
+      "old_book": "11",
+      "location": "Paris",
+      "notes": ""
+    },
+    "077": {
+      "number": 77,
+      "title": "Livre 77",
+      "start_date": "1877-12-23",
+      "end_date": "1878-02-03",
+      "old_book": "11",
+      "location": "Paris",
+      "notes": ""
+    },
+    "078": {
+      "number": 78,
+      "title": "Livre 78",
+      "start_date": "1878-02-03",
+      "end_date": "1878-03-16",
+      "old_book": "11",
+      "location": "Paris",
+      "notes": ""
+    },
+    "079": {
+      "number": 79,
+      "title": "Livre 79",
+      "start_date": "1878-03-17",
+      "end_date": "1878-05-03",
+      "old_book": "11",
+      "location": "Paris",
+      "notes": ""
+    },
+    "080": {
+      "number": 80,
+      "title": "Livre 80",
+      "start_date": "1878-05-04",
+      "end_date": "1878-06-22",
+      "old_book": "11",
+      "location": "Paris",
+      "notes": ""
+    },
+    "081": {
+      "number": 81,
+      "title": "Livre 81",
+      "start_date": "1878-06-23",
+      "end_date": "1878-08-08",
+      "old_book": "12",
+      "location": "Paris, Soden",
+      "notes": ""
+    },
+    "082": {
+      "number": 82,
+      "title": "Livre 82",
+      "start_date": "1878-08-08",
+      "end_date": "1878-10-16",
+      "old_book": "12",
+      "location": "Soden, Paris",
+      "notes": ""
+    },
+    "083": {
+      "number": 83,
+      "title": "Livre 83",
+      "start_date": "1878-10-17",
+      "end_date": "1879-01-10",
+      "old_book": "12",
+      "location": "Paris",
+      "notes": ""
+    },
+    "084": {
+      "number": 84,
+      "title": "Livre 84",
+      "start_date": "1879-01-11",
+      "end_date": "1879-04-25",
+      "old_book": "12",
+      "location": "Paris, Nice",
+      "notes": ""
+    },
+    "085": {
+      "number": 85,
+      "title": "Livre 85",
+      "start_date": "1879-04-26",
+      "end_date": "1879-08-06",
+      "old_book": "13",
+      "location": "Paris",
+      "notes": ""
+    },
+    "086": {
+      "number": 86,
+      "title": "Livre 86",
+      "start_date": "1879-08-07",
+      "end_date": "1879-12-21",
+      "old_book": "13",
+      "location": "Paris, Dieppe",
+      "notes": ""
+    },
+    "087": {
+      "number": 87,
+      "title": "Livre 87",
+      "start_date": "1879-12-22",
+      "end_date": "1880-04-23",
+      "old_book": "13",
+      "location": "Paris",
+      "notes": ""
+    },
+    "088": {
+      "number": 88,
+      "title": "Livre 88",
+      "start_date": "1880-04-24",
+      "end_date": "1880-06-19",
+      "old_book": "13",
+      "location": "Paris",
+      "notes": ""
+    },
+    "089": {
+      "number": 89,
+      "title": "Livre 89",
+      "start_date": "1880-06-20",
+      "end_date": "1880-10-02",
+      "old_book": "13",
+      "location": "Paris, Mont-Dore",
+      "notes": "Held at Bibliotheque de Cessole, Nice (not BnF)"
+    },
+    "090": {
+      "number": 90,
+      "title": "Livre 90",
+      "start_date": "1880-10-03",
+      "end_date": "1881-01-22",
+      "old_book": "14",
+      "location": "Paris",
+      "notes": ""
+    },
+    "091": {
+      "number": 91,
+      "title": "Livre 91",
+      "start_date": "1881-01-23",
+      "end_date": "1881-05-14",
+      "old_book": "14",
+      "location": "Paris",
+      "notes": ""
+    },
+    "092": {
+      "number": 92,
+      "title": "Livre 92",
+      "start_date": "1881-05-15",
+      "end_date": "1881-08-18",
+      "old_book": "14",
+      "location": "Paris",
+      "notes": ""
+    },
+    "093": {
+      "number": 93,
+      "title": "Livre 93",
+      "start_date": "1881-08-18",
+      "end_date": "1881-11-22",
+      "old_book": "14",
+      "location": "Paris, Espagne",
+      "notes": ""
+    },
+    "094": {
+      "number": 94,
+      "title": "Livre 94",
+      "start_date": "1881-11-23",
+      "end_date": "1882-04-13",
+      "old_book": "14",
+      "location": "Paris, Nice",
+      "notes": ""
+    },
+    "095": {
+      "number": 95,
+      "title": "Livre 95",
+      "start_date": "1882-04-30",
+      "end_date": "1882-07-31",
+      "old_book": "15",
+      "location": "Paris",
+      "notes": ""
+    },
+    "096": {
+      "number": 96,
+      "title": "Livre 96",
+      "start_date": "1882-08-01",
+      "end_date": "1882-10-29",
+      "old_book": "15",
+      "location": "Paris, Gavronzi",
+      "notes": ""
+    },
+    "097": {
+      "number": 97,
+      "title": "Livre 97",
+      "start_date": "1882-10-29",
+      "end_date": "1883-01-11",
+      "old_book": "15",
+      "location": "Russie, Paris",
+      "notes": ""
+    },
+    "098": {
+      "number": 98,
+      "title": "Livre 98",
+      "start_date": "1883-01-12",
+      "end_date": "1883-03-30",
+      "old_book": "15",
+      "location": "Paris",
+      "notes": ""
+    },
+    "099": {
+      "number": 99,
+      "title": "Livre 99",
+      "start_date": "1883-03-31",
+      "end_date": "1883-05-26",
+      "old_book": "15",
+      "location": "Paris",
+      "notes": ""
+    },
+    "100": {
+      "number": 100,
+      "title": "Livre 100",
+      "start_date": "1883-05-27",
+      "end_date": "1883-08-07",
+      "old_book": "15",
+      "location": "Paris",
+      "notes": ""
+    },
+    "101": {
+      "number": 101,
+      "title": "Livre 101",
+      "start_date": "1883-08-08",
+      "end_date": "1883-10-15",
+      "old_book": "16",
+      "location": "Paris",
+      "notes": ""
+    },
+    "102": {
+      "number": 102,
+      "title": "Livre 102",
+      "start_date": "1883-10-16",
+      "end_date": "1884-01-12",
+      "old_book": "16",
+      "location": "Paris",
+      "notes": ""
+    },
+    "103": {
+      "number": 103,
+      "title": "Livre 103",
+      "start_date": "1884-01-12",
+      "end_date": "1884-04-13",
+      "old_book": "16",
+      "location": "Paris",
+      "notes": ""
+    },
+    "104": {
+      "number": 104,
+      "title": "Livre 104",
+      "start_date": "1884-04-14",
+      "end_date": "1884-07-01",
+      "old_book": "16",
+      "location": "Paris",
+      "notes": ""
+    },
+    "105": {
+      "number": 105,
+      "title": "Livre 105",
+      "start_date": "1884-07-02",
+      "end_date": "1884-09-11",
+      "old_book": "16",
+      "location": "Paris",
+      "notes": ""
+    },
+    "106": {
+      "number": 106,
+      "title": "Livre 106",
+      "start_date": "1884-09-11",
+      "end_date": "1884-10-20",
+      "old_book": "16",
+      "location": "Paris",
+      "notes": "Final carnet; Marie died October 31, 1884"
+    }
+  },
+  "books": {
+    "00": {
+      "carnets": ["000"],
+      "date_range": "1884-05 (preface)",
+      "title": "Preface and Editorial Material",
+      "notes": "Contains Marie's 1884 preface, genealogical table, editorial avertissement"
+    },
+    "01": {
+      "carnets": ["001", "002", "003", "004", "005", "006", "007"],
+      "date_range": "1873-01-11 to 1873-08-10",
+      "title": "Tome I",
+      "notes": "BnF NAF 12306-12311 (carnets 2-7); Carnet 1 from Borel 1925"
+    },
+    "02": {
+      "carnets": ["008", "009", "010", "011", "012", "013", "014"],
+      "date_range": "1873-08-11 to 1874-01-01",
+      "title": "Tome II",
+      "notes": "BnF NAF 12312-12318"
+    },
+    "03": {
+      "carnets": ["015", "016", "017", "018", "019", "020"],
+      "date_range": "1874-01-02 to 1874-07-04",
+      "title": "Tome III",
+      "notes": "BnF NAF 12319-12324"
+    },
+    "04": {
+      "carnets": ["021", "022", "023", "024", "025", "026", "027", "028", "029", "030"],
+      "date_range": "1874-07-05 to 1875-04-02",
+      "title": "Tome IV",
+      "notes": ""
+    },
+    "05": {
+      "carnets": ["031", "032", "033", "034", "035", "036", "037", "038", "039", "040", "041", "042", "043", "044"],
+      "date_range": "1875-04-02 to 1875-09-25",
+      "title": "Tome V",
+      "notes": "Contains many short carnets"
+    },
+    "06": {
+      "carnets": ["045", "046", "047", "048", "049", "050", "051", "052"],
+      "date_range": "1875-09-26 to 1876-01-23",
+      "title": "Tome VI",
+      "notes": ""
+    },
+    "07": {
+      "carnets": ["053", "054", "055", "056", "057", "058", "059"],
+      "date_range": "1876-01-24 to 1876-05-09",
+      "title": "Tome VII",
+      "notes": "Marie notes carnet 59 was misplaced"
+    },
+    "08": {
+      "carnets": ["060", "061", "062", "063", "064"],
+      "date_range": "1876-05-10 to 1876-08-16",
+      "title": "Tome VIII",
+      "notes": ""
+    },
+    "09": {
+      "carnets": ["065", "066", "067", "068"],
+      "date_range": "1876-08-17 to 1877-02-23",
+      "title": "Tome IX",
+      "notes": "Livre 67 appears twice in source with different date ranges"
+    },
+    "10": {
+      "carnets": ["069", "070", "071", "072", "073", "074"],
+      "date_range": "1877-02-24 to 1877-09-25",
+      "title": "Tome X",
+      "notes": "Verified from table of contents: Livres 69-74"
+    },
+    "11": {
+      "carnets": ["075", "076", "077", "078", "079", "080"],
+      "date_range": "1877-09-26 to 1878-06-22",
+      "title": "Tome XI",
+      "notes": "Verified from table of contents: Livres 75-80"
+    },
+    "12": {
+      "carnets": ["081", "082", "083", "084"],
+      "date_range": "1878-06-23 to 1879-04-25",
+      "title": "Tome XII",
+      "notes": ""
+    },
+    "13": {
+      "carnets": ["085", "086", "087", "088", "089"],
+      "date_range": "1879-04-26 to 1880-10-02",
+      "title": "Tome XIII",
+      "notes": "Carnet 89 held at Bibliotheque de Cessole, Nice"
+    },
+    "14": {
+      "carnets": ["090", "091", "092", "093", "094"],
+      "date_range": "1880-10-03 to 1882-04-13",
+      "title": "Tome XIV",
+      "notes": ""
+    },
+    "15": {
+      "carnets": ["095", "096", "097", "098", "099", "100"],
+      "date_range": "1882-04-30 to 1883-08-07",
+      "title": "Tome XV",
+      "notes": ""
+    },
+    "16": {
+      "carnets": ["101", "102", "103", "104", "105", "106"],
+      "date_range": "1883-08-08 to 1884-10-20",
+      "title": "Tome XVI",
+      "notes": "Final volume; Marie died Oct 31, 1884"
+    }
+  },
+  "statistics": {
+    "total_carnets": 107,
+    "total_books": 17,
+    "date_range": "1873-01-11 to 1884-10-20",
+    "years_covered": 12,
+    "special_cases": {
+      "lost_original": ["001"],
+      "external_archive": ["089"],
+      "misplaced_noted": ["059"]
+    }
+  }
+}
