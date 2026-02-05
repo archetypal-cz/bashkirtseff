@@ -1,0 +1,26 @@
+{
+  "name": "bashkirtseff-markdown-highlighting",
+  "displayName": "Bashkirtseff Markdown Comment Highlighting",
+  "description": "Custom syntax highlighting for various comment patterns in Bashkirtseff diary markdown files",
+  "version": "0.0.1",
+  "publisher": "coslate-bashkirtseff",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Programming Languages"],
+  "activationEvents": ["onLanguage:markdown"],
+  "main": "./extension.js",
+  "contributes": {
+    "grammars": [
+      {
+        "language": "markdown",
+        "scopeName": "bashkirtseff.markdown.injection",
+        "path": "./syntaxes/markdown-comment-injection.tmLanguage.json",
+        "injectTo": ["text.html.markdown", "source.gfm", "text.html.markdown.source", "text.markdown.mdc", "text.markdown.mdc.standalone"],
+        "embeddedLanguages": {
+          "meta.embedded.bashkirtseff.comment": "markdown"
+        }
+      }
+    ]
+  }
+}

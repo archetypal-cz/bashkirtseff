@@ -1,0 +1,118 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "bashkirtseff.markdown.injection",
+  "injectionSelector": "L:text.html.markdown, L:source.gfm, L:text.html.markdown.source, L:text.markdown.mdc, L:text.markdown.mdc.standalone",
+  "patterns": [
+    {
+      "comment": "Paragraph ID markers like %%01.12%%, %%1%%",
+      "name": "meta.paragraph-id.bashkirtseff",
+      "match": "(%%\\s*)([0-9.]+)(\\s*%%)",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.paragraph-id.begin.bashkirtseff"
+        },
+        "2": {
+          "name": "constant.numeric.paragraph-id.bashkirtseff"
+        },
+        "3": {
+          "name": "punctuation.definition.paragraph-id.end.bashkirtseff"
+        }
+      }
+    },
+    {
+      "comment": "Glossary links with hashtags like %% [#Nice](../_glossary/...) %%",
+      "name": "meta.glossary-link.bashkirtseff",
+      "match": "(%%\\s*)(\\[#[^\\]]+\\]\\([^)]+\\)(?:\\s+\\[#[^\\]]+\\]\\([^)]+\\))*)(\\s*%%)",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.glossary.begin.bashkirtseff"
+        },
+        "2": {
+          "name": "entity.name.tag.glossary-link.bashkirtseff"
+        },
+        "3": {
+          "name": "punctuation.definition.glossary.end.bashkirtseff"
+        }
+      }
+    },
+    {
+      "comment": "Timestamped notes with all roles: RSR, LAN, TR, RED, CON, PA, GEM",
+      "name": "meta.timestamp-annotation.bashkirtseff",
+      "match": "(%%\\s*)(\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{3})?Z?)\\s+(RSR|LAN|TR|RED|CON|PA|GEM)(:)\\s*([^%]+)(%%)",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.timestamp.begin.bashkirtseff"
+        },
+        "2": {
+          "name": "constant.other.timestamp.bashkirtseff"
+        },
+        "3": {
+          "name": "entity.name.type.role.bashkirtseff"
+        },
+        "4": {
+          "name": "punctuation.separator.bashkirtseff"
+        },
+        "5": {
+          "name": "string.quoted.annotation.bashkirtseff"
+        },
+        "6": {
+          "name": "punctuation.definition.timestamp.end.bashkirtseff"
+        }
+      }
+    },
+    {
+      "comment": "Tag annotations like %%[end-note 1]%%, %%[tag-name value]%%",
+      "name": "meta.annotation.bashkirtseff",
+      "match": "(%%\\s*)(\\[)([^\\]]+)(\\])(\\s*%%)",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.annotation.begin.bashkirtseff"
+        },
+        "2": {
+          "name": "punctuation.definition.tag.begin.bashkirtseff"
+        },
+        "3": {
+          "name": "entity.name.tag.annotation.bashkirtseff"
+        },
+        "4": {
+          "name": "punctuation.definition.tag.end.bashkirtseff"
+        },
+        "5": {
+          "name": "punctuation.definition.annotation.end.bashkirtseff"
+        }
+      }
+    },
+    {
+      "comment": "French original text - sentence in comment (starts with letter, at least 20 chars)",
+      "name": "meta.french-original.bashkirtseff",
+      "match": "(%%\\s*)([A-Za-zÀ-ÖØ-öø-ÿ«][^%]{20,}?)(\\s*%%)",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.french.begin.bashkirtseff"
+        },
+        "2": {
+          "name": "string.unquoted.french-original.bashkirtseff"
+        },
+        "3": {
+          "name": "punctuation.definition.french.end.bashkirtseff"
+        }
+      }
+    },
+    {
+      "comment": "General comments - shorter text between %% markers (single-line)",
+      "name": "meta.comment.general.bashkirtseff",
+      "match": "(%%\\s*)([^%]+?)(\\s*%%)",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.comment.begin.bashkirtseff"
+        },
+        "2": {
+          "name": "comment.line.text.bashkirtseff"
+        },
+        "3": {
+          "name": "punctuation.definition.comment.end.bashkirtseff"
+        }
+      }
+    }
+  ]
+}

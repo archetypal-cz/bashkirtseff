@@ -1,0 +1,60 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compile Book (Czech, Book 01)",
+			"type": "shell",
+			"command": "./scripts/compile_book.py",
+			"args": [
+				"01",
+				"--language",
+				"cz",
+				"--template",
+				"scripts/templates/book_template.html",
+				"--output-dir",
+				"pub"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Compile All Books",
+			"type": "shell",
+			"command": "./scripts/compile_all_books.py",
+			"args": [
+				"--languages",
+				"cz",
+				"--template",
+				"scripts/templates/book_template.html",
+				"--output-dir",
+				"pub"
+			],
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Open Compiled Book (Czech, Book 01)",
+			"type": "shell",
+			"command": "xdg-open",
+			"args": [
+				"${workspaceFolder}/pub/cz_01.html"
+			],
+			"presentation": {
+				"reveal": "silent",
+				"panel": "new"
+			},
+			"problemMatcher": []
+		}
+	]
+}
