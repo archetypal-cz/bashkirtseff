@@ -1,8 +1,8 @@
 services:
   bashkirtseff-app:
     build:
-      context: ..
-      dockerfile: frontend/Dockerfile
+      context: ../..
+      dockerfile: src/frontend/Dockerfile
     container_name: bashkirtseff-app
     restart: unless-stopped
     networks:
