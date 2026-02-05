@@ -1,0 +1,40 @@
+# Worker Configuration Template
+# Copy this file to WORKER_CONFIG.yaml and customize for your setup
+# WORKER_CONFIG.yaml is gitignored - it's your personal configuration
+
+# Your GitHub username (used in changelogs and commit attribution)
+github_user: your_username
+
+# The language you're working on (cz, en, de, es, etc.)
+# Use "original" if you're doing research/annotation on French sources
+working_language: cz
+
+# Carnets you're assigned to work on (prevents conflicts with other workers)
+# Use 3-digit carnet numbers
+assigned_carnets:
+  - "001"
+  - "002"
+  - "003"
+
+# Roles you can perform
+# Available: researcher, linguistic-annotator, translator, editor, conductor
+roles:
+  - researcher
+  - translator
+  - editor
+
+# Auto-commit settings
+auto_commit:
+  # Whether to prompt for commit at session end
+  enabled: true
+  # When to commit: after_entry, after_carnet, after_session, manual
+  frequency: after_session
+  # Prefix for commit messages
+  message_prefix: "[cz]"
+
+# Notification preferences (for future use)
+notify:
+  # Alert when original entry you translated gets updated
+  on_upstream_change: true
+  # Alert when someone else touches your assigned carnets
+  on_conflict: true

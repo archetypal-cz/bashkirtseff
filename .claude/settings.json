@@ -1,0 +1,33 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/validate-write.ts",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/post-edit.ts",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/session-end.ts",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
