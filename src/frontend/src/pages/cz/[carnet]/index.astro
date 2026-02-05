@@ -1,0 +1,383 @@
+---
+import ReadingLayout from '../../../layouts/ReadingLayout.astro';
+import CalendarWidget from '../../../components/CalendarWidget.vue';
+import { getCarnets, getCarnetEntries, getEntry, hasTranslation, isCarnetCrossYear, getCarnetSummary, getEntryPreview } from '../../../lib/content';
+
+export function getStaticPaths() {
+  const czCarnets = getCarnets('cz');
+  const originalCarnets = getCarnets('_original');
+
+  // Include both translated carnets and original-only carnets
+  // Exclude Carnet 000 - it has special handling in /cz/000/index.astro
+  const allCarnetIds = [...new Set([
+    ...czCarnets.map(c => c.id),
+    ...originalCarnets.map(c => c.id),
+  ])].filter(id => id !== '000');
+
+  return allCarnetIds.map(carnet => ({
+    params: { carnet },
+  }));
+}
+
+const { carnet } = Astro.params;
+const language = 'cz';
+
+// Get carnet summary data (people, places, themes)
+const summary = await getCarnetSummary(carnet!, '_original');
+
+// Get entries - prefer Czech, fall back to original
+const czEntries = getCarnetEntries(carnet!, 'cz');
+const originalEntries = getCarnetEntries(carnet!, '_original');
+
+// Check if Czech and Original use different naming conventions (Carnet 000 special case)
+// Czech Carnet 000 uses "000-01" format, Original uses "1884-05-01-01" format
+const czUsesSection = czEntries.length > 0 && /^\d{3}-\d{2}$/.test(czEntries[0]);
+const originalUsesSection = originalEntries.length > 0 && /^\d{3}-\d{2}$/.test(originalEntries[0]);
+const namingMismatch = czEntries.length > 0 && originalEntries.length > 0 &&
+                       czUsesSection !== originalUsesSection;
+
+// Merge entries based on naming convention
+let allEntries;
+if (namingMismatch && czUsesSection) {
+  // Carnet 000 special case: Use Czech entries as primary (they're translated)
+  allEntries = czEntries.map(entryId => {
+    const entry = getEntry(carnet!, entryId, 'cz');
+    const preview = getEntryPreview(carnet!, entryId, 'cz');
+    return {
+      date: entryId,
+      title: entry?.title || entryId,
+      isTranslated: true,
+      preview,
+    };
+  });
+} else {
+  // Normal case: show all original entries, mark which are translated
+  allEntries = originalEntries.map(entryDate => {
+    const isTranslated = czEntries.includes(entryDate);
+    const lang = isTranslated ? 'cz' : '_original';
+    const entry = getEntry(carnet!, entryDate, lang);
+    const preview = getEntryPreview(carnet!, entryDate, lang);
+    return {
+      date: entryDate,
+      title: entry?.title || entryDate,
+      isTranslated,
+      preview,
+    };
+  });
+}
+
+const carnets = getCarnets('cz');
+const carnetInfo = carnets.find(c => c.id === carnet) || getCarnets('_original').find(c => c.id === carnet);
+
+const formatEntryDate = (dateStr: string) => {
+  // Check if this is a section-based entry (e.g., "000-01") vs date-based
+  if (/^\d{3}-\d{2}$/.test(dateStr)) {
+    // Section format: "000-01" -> "Oddíl 1"
+    const section = parseInt(dateStr.split('-')[1], 10);
+    return `Oddíl ${section}`;
+  }
+  // Handle date entries with suffixes like "1883-08-27-evening"
+  // Extract just the date part (YYYY-MM-DD)
+  const datePart = dateStr.split('-').slice(0, 3).join('-');
+  const suffix = dateStr.split('-').slice(3).join('-');
+  const date = new Date(datePart);
+  let formatted = date.toLocaleDateString('cs-CZ', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+  // Append suffix if present (e.g., "evening" -> "(večer)")
+  if (suffix) {
+    const suffixLabels: Record<string, string> = {
+      'evening': '(večer)',
+      'morning': '(ráno)',
+      'night': '(noc)',
+    };
+    formatted += ' ' + (suffixLabels[suffix] || `(${suffix})`);
+  }
+  return formatted;
+};
+
+// Check if this is a section-based carnet (like Carnet 000 preface)
+const isSectionCarnet = allEntries.length > 0 && /^\d{3}-\d{2}$/.test(allEntries[0]?.date || '');
+
+const translatedCount = allEntries.filter(e => e.isTranslated).length;
+
+// Get year info for breadcrumb
+const crossYear = isCarnetCrossYear(carnet!, '_original');
+const primaryYear = crossYear.years[0];
+
+// Generate months array for calendar widgets
+// Only for carnets with actual dates (not section-based like Carnet 000)
+function getMonthsInRange(dateRange: { start: string; end: string }): Array<{ year: number; month: number }> {
+  if (!dateRange.start || !dateRange.end) return [];
+
+  const months: Array<{ year: number; month: number }> = [];
+  const startDate = new Date(dateRange.start);
+  const endDate = new Date(dateRange.end);
+
+  let current = new Date(startDate.getFullYear(), startDate.getMonth(), 1);
+  const end = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
+
+  while (current <= end) {
+    months.push({
+      year: current.getFullYear(),
+      month: current.getMonth() + 1, // 1-12
+    });
+    current.setMonth(current.getMonth() + 1);
+  }
+
+  return months;
+}
+
+const calendarMonths = !isSectionCarnet ? getMonthsInRange(summary.dateRange) : [];
+
+// Get top people by mention count (up to 10)
+const topPeople = Object.entries(summary.peopleCounts)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 10);
+
+// Get top places by mention count (up to 10)
+const topPlaces = Object.entries(summary.placesCounts)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 10);
+
+// Get themes sorted by count
+const topThemes = Object.entries(summary.themeCounts)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 10);
+
+// Format person/place ID to display name
+function formatDisplayName(id: string): string {
+  return id
+    .replace(/_/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase());
+}
+---
+
+<ReadingLayout title={`Sešit ${carnet} — Deník Marie Bashkirtseff`}>
+  <div class="max-w-4xl mx-auto">
+    <!-- Breadcrumb -->
+    <nav class="mb-8 text-sm text-muted">
+      <a href="/cz" class="hover:text-accent">Deník</a>
+      <span class="mx-2">›</span>
+      {primaryYear ? (
+        <>
+          <a href={`/cz/${primaryYear}`} class="hover:text-accent">{primaryYear}</a>
+          <span class="mx-2">›</span>
+        </>
+      ) : null}
+      <span class="text-ink">Sešit {carnet}</span>
+    </nav>
+
+    <header class="mb-8">
+      <h1 class="text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
+        Sešit {carnet}
+      </h1>
+
+      {carnetInfo?.dateRange ? (
+        <p class="text-ink-light mb-4">
+          {carnetInfo.dateRange.start.toLocaleDateString('cs-CZ', { month: 'long', year: 'numeric' })}
+          {' — '}
+          {carnetInfo.dateRange.end.toLocaleDateString('cs-CZ', { month: 'long', year: 'numeric' })}
+        </p>
+      ) : carnet === '000' && (
+        <p class="text-ink-light mb-4">Předmluva</p>
+      )}
+
+      <div class="flex items-center gap-4 text-sm">
+        <span class="text-muted">
+          {allEntries.length} {isSectionCarnet ? 'oddílů' : 'záznamů'}
+        </span>
+        <span class="text-muted">•</span>
+        <span class="text-accent">
+          {translatedCount} přeloženo
+        </span>
+      </div>
+
+      {translatedCount < allEntries.length && (
+        <div class="mt-4">
+          <div class="h-2 bg-sepia rounded-full overflow-hidden">
+            <div
+              class="h-full bg-accent rounded-full transition-all"
+              style={`width: ${(translatedCount / allEntries.length) * 100}%`}
+            />
+          </div>
+          <p class="text-xs text-muted mt-1">
+            {Math.round((translatedCount / allEntries.length) * 100)}% dokončeno
+          </p>
+        </div>
+      )}
+
+      {/* Prominent link to first entry */}
+      {allEntries.length > 0 && (
+        <a
+          href={allEntries[0].isTranslated ? `/cz/${carnet}/${allEntries[0].date}` : `/original/${carnet}/${allEntries[0].date}`}
+          class="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-accent text-white rounded-lg hover:bg-accent-light transition-colors font-medium"
+        >
+          <span>{isSectionCarnet ? 'Začít číst' : 'Číst od začátku'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+      )}
+    </header>
+
+    <!-- Summary Section -->
+    {!isSectionCarnet && (calendarMonths.length > 0 || topPeople.length > 0 || topPlaces.length > 0 || topThemes.length > 0) && (
+      <section class="mb-10">
+        <!-- People, Places, Themes Panels (above calendar) -->
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-6">
+          <!-- Key People Panel -->
+          {topPeople.length > 0 && (
+            <div class="p-4 rounded-lg bg-parchment border border-ink/10">
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+                Klíčové osoby
+              </h3>
+              <ul class="space-y-2">
+                {topPeople.map(([personId, count]) => (
+                  <li class="flex items-center justify-between text-sm">
+                    <a
+                      href={`/glossary/${personId}`}
+                      class="text-ink hover:text-accent transition-colors truncate"
+                    >
+                      {formatDisplayName(personId)}
+                    </a>
+                    <span class="text-muted ml-2 flex-shrink-0">
+                      {count}x
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <!-- Key Places Panel -->
+          {topPlaces.length > 0 && (
+            <div class="p-4 rounded-lg bg-parchment border border-ink/10">
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+                Místa
+              </h3>
+              <ul class="space-y-2">
+                {topPlaces.map(([placeId, count]) => (
+                  <li class="flex items-center justify-between text-sm">
+                    <a
+                      href={`/glossary/${placeId}`}
+                      class="text-ink hover:text-accent transition-colors truncate"
+                    >
+                      {formatDisplayName(placeId)}
+                    </a>
+                    <span class="text-muted ml-2 flex-shrink-0">
+                      {count}x
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <!-- Themes Panel -->
+          {topThemes.length > 0 && (
+            <div class="p-4 rounded-lg bg-parchment border border-ink/10">
+              <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+                Témata
+              </h3>
+              <div class="flex flex-wrap gap-2">
+                {topThemes.map(([theme, count]) => (
+                  <span class="inline-flex items-center gap-1 px-2 py-1 text-xs rounded-full bg-sepia text-ink">
+                    {theme}
+                    <span class="text-muted">({count})</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Primary Location if available */}
+        {summary.primaryLocation && (
+          <p class="mb-6 text-sm text-muted">
+            Hlavní místo: <span class="text-ink">{formatDisplayName(summary.primaryLocation)}</span>
+          </p>
+        )}
+
+        <!-- Calendar Widgets (below stats) -->
+        {calendarMonths.length > 0 && (
+          <div>
+            <h2 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">Kalendář</h2>
+            <div class={`grid gap-4 ${calendarMonths.length === 1 ? 'max-w-xs' : calendarMonths.length === 2 ? 'sm:grid-cols-2 max-w-2xl' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
+              {calendarMonths.map(({ year, month }) => (
+                <CalendarWidget
+                  client:visible
+                  year={year}
+                  month={month}
+                  entryDates={summary.entryDates}
+                  carnet={carnet!}
+                  language="cz"
+                  compact={calendarMonths.length > 2}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+      </section>
+    )}
+
+    <!-- Entry List -->
+    <div class="space-y-2">
+      {allEntries.map(entry => (
+        <a
+          href={entry.isTranslated ? `/cz/${carnet}/${entry.date}` : `/original/${carnet}/${entry.date}`}
+          class={`block p-4 rounded-lg border transition-all ${
+            entry.isTranslated
+              ? 'bg-parchment border-ink/10 hover:border-accent hover:shadow'
+              : 'bg-sepia/30 border-ink/5 hover:border-ink/20'
+          }`}
+        >
+          <div class="flex items-start justify-between gap-4">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2">
+                <time class="text-ink font-medium" datetime={entry.date}>
+                  {formatEntryDate(entry.date)}
+                </time>
+                {!entry.isTranslated && (
+                  <span class="text-xs px-2 py-0.5 bg-muted/20 text-muted rounded flex-shrink-0">
+                    FR
+                  </span>
+                )}
+              </div>
+              {entry.preview && (
+                <p class="mt-1 text-sm text-muted line-clamp-2">
+                  {entry.preview}
+                </p>
+              )}
+            </div>
+            <svg class="w-5 h-5 text-muted flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    {allEntries.length === 0 && (
+      <div class="text-center py-12 text-muted">
+        <p>V tomto sešitu nejsou žádné záznamy.</p>
+      </div>
+    )}
+
+    <!-- Back link -->
+    <div class="mt-8 pt-8 border-t border-ink/10">
+      {primaryYear ? (
+        <a href={`/cz/${primaryYear}`} class="text-accent hover:text-accent-light transition-colors">
+          ← Zpět na rok {primaryYear}
+        </a>
+      ) : (
+        <a href="/cz" class="text-accent hover:text-accent-light transition-colors">
+          ← Zpět na přehled
+        </a>
+      )}
+    </div>
+  </div>
+</ReadingLayout>

@@ -1,0 +1,41 @@
+---
+// Redirect to localized version based on user's language preference
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Marie Bashkirtseff</title>
+  <script>
+    // Check localStorage first (user's explicit choice)
+    const saved = localStorage.getItem('ui-language');
+    if (saved && ['cs', 'fr', 'en', 'uk'].includes(saved)) {
+      window.location.replace('/' + saved + '/about');
+    } else {
+      // Detect from browser preferences (navigator.languages is ordered by preference)
+      const browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
+      const supported = ['cs', 'en', 'fr', 'uk'];
+
+      let targetLang = 'en'; // default
+      for (const browserLang of browserLangs) {
+        const lang = browserLang.toLowerCase().split('-')[0];
+        // Handle cz -> cs mapping
+        const normalized = lang === 'cz' ? 'cs' : lang;
+        if (supported.includes(normalized)) {
+          targetLang = normalized;
+          break;
+        }
+      }
+
+      window.location.replace('/' + targetLang + '/about');
+    }
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/en/about">
+  </noscript>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

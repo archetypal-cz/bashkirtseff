@@ -1,0 +1,59 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import ReadingSettings from '../components/reading/ReadingSettings.vue';
+import BackToTop from '../components/reading/BackToTop.vue';
+import InstallPrompt from '../components/pwa/InstallPrompt.vue';
+
+interface Props {
+  title?: string;
+  description?: string;
+  lang?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  canonicalUrl?: string;
+  article?: {
+    publishedTime?: string;
+    modifiedTime?: string;
+    author?: string;
+  };
+}
+
+const { title, description, lang, image, type, canonicalUrl, article } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} lang={lang} image={image} type={type} canonicalUrl={canonicalUrl} article={article}>
+  <Header />
+
+  <main class="flex-grow">
+    <div class="max-w-4xl mx-auto px-4 py-8">
+      <slot />
+    </div>
+  </main>
+
+  <Footer />
+
+  <!-- Reading settings panel (Vue island) -->
+  <ReadingSettings client:load />
+
+  <!-- Back to top button (Vue island) -->
+  <BackToTop client:visible />
+
+  <!-- PWA install prompt (Vue island) -->
+  <InstallPrompt client:idle />
+</BaseLayout>
+
+<script>
+  // Apply saved theme on page load to prevent flash
+  const savedTheme = localStorage.getItem('reading-theme');
+  const savedFontScale = localStorage.getItem('reading-font-scale');
+
+  if (savedTheme) {
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  }
+  if (savedFontScale) {
+    const scaleMultiplier = parseInt(savedFontScale, 10) / 100;
+    document.documentElement.style.setProperty('--reading-font-scale', scaleMultiplier.toString());
+  }
+</script>

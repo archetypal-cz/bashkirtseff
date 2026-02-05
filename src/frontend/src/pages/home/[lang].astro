@@ -1,0 +1,245 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import ThisDayEntry from '../../components/home/ThisDayEntry.vue';
+import { createT, type SupportedLocale } from '../../i18n/astro';
+import { buildThisDayData } from '../../lib/content';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'cs' } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'uk' } },
+  ];
+}
+
+const { lang } = Astro.params;
+const t = createT(lang as SupportedLocale);
+
+// Carnet data - same for all languages (3-digit IDs)
+const carnets = [
+  { id: '000', years: '1884', entries: 20 },
+  { id: '001', years: '1873', entries: 99 },
+  { id: '002', years: '1873-74', entries: 143 },
+  { id: '015', years: '1882-83', entries: 434 },
+];
+
+// Build "This Day" data at build time - prefer Czech translations when available
+const thisDayData = buildThisDayData('cz');
+
+// Map UI locale to content path for links
+const languagePath = lang === 'cs' ? 'cz' : (lang === 'fr' ? 'original' : 'cz');
+
+// Translations for the ThisDayEntry component
+const thisDayTranslations = {
+  title: t('home.thisDay'),
+  onThisDay: t('home.thisDayOn'),
+  marieWas: t('home.thisDayAge'),
+  readFullEntry: t('home.readFullEntry'),
+  noEntryToday: t('home.noEntryToday'),
+  yearsOld: t('home.yearsOld'),
+};
+---
+
+<BaseLayout
+  lang={lang}
+  title={t('home.pageTitle') || 'Marie Bashkirtseff — Complete Uncensored Diary'}
+  description={t('home.pageDescription') || 'Read the complete, uncensored diary of Marie Bashkirtseff (1858-1884). A remarkable document of 19th century life, art, and female ambition. Free and accessible in multiple languages.'}
+  image="/images/marie/self-portrait.jpg"
+>
+  <Header />
+
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-b from-sepia to-parchment py-16 md:py-24">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-normal text-ink mb-6" style="font-family: var(--font-serif);">
+          Marie Bashkirtseff
+        </h1>
+        <p class="text-xl md:text-2xl text-ink-light italic mb-8" style="font-family: var(--font-serif);">
+          "{t('quotes.existence')}"
+        </p>
+        {t('quotes.existenceOriginal') && (
+          <p class="text-muted text-sm mb-8 -mt-6">
+            {t('quotes.existenceOriginal')}
+          </p>
+        )}
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
+               The diary entries currently only exist in Czech translation at /cz/. -->
+          <a href="/cz/000" class="btn btn-primary text-lg px-8 py-3">
+            {t('home.startReading')}
+          </a>
+          <a href={`/${lang}/about`} class="btn btn-secondary text-lg px-8 py-3">
+            {t('home.aboutMarie')}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- This Day in Marie's Life -->
+    <section class="py-12 bg-parchment border-b border-ink/10">
+      <div class="max-w-3xl mx-auto px-4">
+        <ThisDayEntry
+          client:load
+          thisDayData={thisDayData}
+          languagePath={languagePath}
+          translations={thisDayTranslations}
+        />
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="py-16 bg-parchment">
+      <div class="max-w-3xl mx-auto px-4">
+        <div class="prose-diary">
+          <!-- Self-portrait -->
+          <figure class="float-right ml-6 mb-4 w-40 md:w-56">
+            <img
+              src="/images/marie/self-portrait.jpg"
+              alt={t('marie.selfPortraitAlt')}
+              class="rounded-lg shadow-md"
+              loading="lazy"
+            />
+            <figcaption class="text-xs text-muted mt-2 text-center">
+              {t('marie.selfPortraitCaption')}
+            </figcaption>
+          </figure>
+
+          <p class="text-lg text-ink-light leading-relaxed">
+            {t('home.intro1')}
+          </p>
+          <p class="text-lg text-ink-light leading-relaxed">
+            {t('home.intro2')}
+          </p>
+          <p class="text-lg text-ink-light leading-relaxed">
+            {t('home.intro3')}
+          </p>
+
+          <div class="clear-both"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carnets Grid -->
+    <section class="py-16 bg-sepia/50">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-2xl font-normal text-ink text-center mb-12" style="font-family: var(--font-serif);">
+          {t('home.diaryVolumes')}
+        </h2>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
+               The diary entries currently only exist in Czech translation at /cz/. -->
+          {carnets.map(carnet => (
+            <a
+              href={`/cz/${carnet.id}`}
+              class="block p-6 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow-lg transition-all group"
+            >
+              <div class="text-3xl font-light text-accent mb-2 group-hover:text-accent-light transition-colors">
+                {carnet.id}
+              </div>
+              <h3 class="text-lg text-ink mb-1">{t('home.carnet')} {carnet.id}</h3>
+              <p class="text-sm text-muted">{carnet.years}</p>
+              <p class="text-sm text-muted mt-2">{carnet.entries} {t('home.entries')}</p>
+            </a>
+          ))}
+        </div>
+
+        <div class="text-center mt-8">
+          <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
+               The diary entries currently only exist in Czech translation at /cz/. -->
+          <a href="/cz" class="text-accent hover:text-accent-light transition-colors">
+            {t('home.viewAllVolumes')} →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Current State -->
+    <section class="py-16 bg-parchment">
+      <div class="max-w-5xl mx-auto px-4">
+        <h2 class="text-2xl font-normal text-ink text-center mb-12" style="font-family: var(--font-serif);">
+          {t('home.currentState')}
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center">
+              <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+            <h3 class="text-lg text-ink mb-2">{t('home.originalText')}</h3>
+            <p class="text-sm text-muted">
+              {t('home.originalTextDesc')}
+            </p>
+          </div>
+
+          <div class="text-center">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center">
+              <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+              </svg>
+            </div>
+            <h3 class="text-lg text-ink mb-2">{t('home.researchAnnotations')}</h3>
+            <p class="text-sm text-muted">
+              {t('home.researchAnnotationsDesc')}
+            </p>
+          </div>
+
+          <div class="text-center">
+            <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center">
+              <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <h3 class="text-lg text-ink mb-2">{t('home.translationInfra')}</h3>
+            <p class="text-sm text-muted">
+              {t('home.translationInfraDesc')}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-ink text-parchment">
+      <div class="max-w-3xl mx-auto px-4 text-center">
+        <blockquote class="text-2xl md:text-3xl italic mb-6" style="font-family: var(--font-serif);">
+          "{t('quotes.live')}"
+        </blockquote>
+        {t('quotes.liveOriginal') ? (
+          <p class="text-parchment/70 mb-8">
+            {t('quotes.liveOriginal')} — Marie Bashkirtseff
+          </p>
+        ) : (
+          <p class="text-parchment/70 mb-8">
+            — Marie Bashkirtseff
+          </p>
+        )}
+        <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
+             The diary entries currently only exist in Czech translation at /cz/. -->
+        <a href="/cz/000" class="inline-block btn bg-parchment text-ink hover:bg-sepia text-lg px-8 py-3">
+          {t('home.startReadingDiary')}
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<script>
+  // Save language preference when user visits this page
+  // Handle paths with or without trailing slash: /home/fr or /home/fr/
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+  const lang = pathParts[pathParts.length - 1];
+  if (lang && ['cs', 'en', 'fr'].includes(lang)) {
+    localStorage.setItem('ui-language', lang);
+  }
+</script>

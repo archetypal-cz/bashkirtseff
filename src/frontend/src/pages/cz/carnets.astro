@@ -1,0 +1,141 @@
+---
+import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import { getCarnets } from '../../lib/content';
+
+const carnets = getCarnets('cz');
+const originalCarnets = getCarnets('_original');
+
+// Merge info: show all original carnets, mark which have translations
+const allCarnets = originalCarnets.map(orig => {
+  const czCarnet = carnets.find(c => c.id === orig.id);
+  return {
+    ...orig,
+    hasTranslation: !!czCarnet,
+    translatedEntries: czCarnet?.entries.length || 0,
+    totalEntries: orig.entries.length,
+  };
+});
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('cs-CZ', {
+    year: 'numeric',
+    month: 'long',
+  });
+};
+
+const totalEntries = allCarnets.reduce((sum, c) => sum + c.totalEntries, 0);
+const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries, 0);
+---
+
+<ReadingLayout title="Všechny sešity — Deník Marie Bashkirtseff">
+  <div class="max-w-4xl mx-auto">
+    <!-- Breadcrumb -->
+    <nav class="mb-8 text-sm text-muted">
+      <a href="/cz" class="hover:text-accent">Deník</a>
+      <span class="mx-2">›</span>
+      <span class="text-ink">Všechny sešity</span>
+    </nav>
+
+    <header class="mb-12">
+      <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
+        Všechny sešity
+      </h1>
+      <p class="text-ink-light mb-4">
+        Kompletní seznam Mariiných deníkových sešitů
+      </p>
+
+      <div class="flex items-center gap-6 text-sm text-muted">
+        <span>{allCarnets.length} sešitů</span>
+        <span>•</span>
+        <span>{totalEntries} záznamů</span>
+        <span>•</span>
+        <span class="text-accent">{totalTranslated} přeloženo</span>
+      </div>
+
+      {totalTranslated < totalEntries && (
+        <div class="mt-4 max-w-md">
+          <div class="h-2 bg-sepia rounded-full overflow-hidden">
+            <div
+              class="h-full bg-accent rounded-full transition-all"
+              style={`width: ${(totalTranslated / totalEntries) * 100}%`}
+            />
+          </div>
+          <p class="text-xs text-muted mt-1">
+            {Math.round((totalTranslated / totalEntries) * 100)}% celkově přeloženo
+          </p>
+        </div>
+      )}
+    </header>
+
+    <div class="grid gap-4">
+      {allCarnets.map(carnet => (
+        <a
+          href={carnet.hasTranslation ? `/cz/${carnet.id}` : `/original/${carnet.id}`}
+          class={`block p-4 rounded-lg border transition-all ${
+            carnet.hasTranslation
+              ? 'bg-parchment border-ink/10 hover:border-accent hover:shadow'
+              : 'bg-sepia/30 border-ink/5 hover:border-ink/20'
+          }`}
+        >
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-4">
+              <span class="text-xl font-light text-accent w-12">
+                {carnet.id}
+              </span>
+              <div>
+                <span class="text-ink">
+                  Sešit {carnet.id}
+                </span>
+                {!carnet.hasTranslation && (
+                  <span class="ml-2 text-xs px-2 py-0.5 bg-muted/20 text-muted rounded">
+                    FR
+                  </span>
+                )}
+                {carnet.dateRange && (
+                  <p class="text-sm text-muted">
+                    {formatDate(carnet.dateRange.start)} — {formatDate(carnet.dateRange.end)}
+                  </p>
+                )}
+              </div>
+            </div>
+
+            <div class="text-right flex items-center gap-4">
+              {carnet.hasTranslation && carnet.translatedEntries < carnet.totalEntries && (
+                <div class="w-24">
+                  <div class="h-1 bg-sepia rounded-full overflow-hidden">
+                    <div
+                      class="h-full bg-accent rounded-full"
+                      style={`width: ${(carnet.translatedEntries / carnet.totalEntries) * 100}%`}
+                    />
+                  </div>
+                  <p class="text-xs text-muted mt-0.5">
+                    {carnet.translatedEntries}/{carnet.totalEntries}
+                  </p>
+                </div>
+              )}
+              <div class="text-sm text-muted">
+                {carnet.totalEntries} záznamů
+              </div>
+              <svg class="w-5 h-5 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    {allCarnets.length === 0 && (
+      <div class="text-center py-12 text-muted">
+        <p>Žádné sešity nebyly nalezeny.</p>
+      </div>
+    )}
+
+    <!-- Back link -->
+    <div class="mt-8 pt-8 border-t border-ink/10">
+      <a href="/cz" class="text-accent hover:text-accent-light transition-colors">
+        ← Zpět na přehled let
+      </a>
+    </div>
+  </div>
+</ReadingLayout>

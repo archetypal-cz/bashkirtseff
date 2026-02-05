@@ -1,0 +1,73 @@
+---
+import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import { getGlossaryByLetter, getGlossaryEntries } from '../../lib/content';
+import GlossarySearch from '../../components/glossary/GlossarySearch.vue';
+
+const glossaryByLetter = getGlossaryByLetter();
+const letters = Array.from(glossaryByLetter.keys()).sort();
+const totalEntries = Array.from(glossaryByLetter.values()).reduce((sum, arr) => sum + arr.length, 0);
+
+// Get all entries for search component (simplified for client-side)
+const allEntries = getGlossaryEntries().map(entry => ({
+  id: entry.id,
+  name: entry.name,
+  type: entry.type,
+  summary: entry.summary
+}));
+
+// Get counts per letter
+const letterCounts = letters.map(letter => ({
+  letter,
+  count: glossaryByLetter.get(letter)?.length || 0
+}));
+---
+
+<ReadingLayout title="Glossaire — Journal de Marie Bashkirtseff">
+  <div class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <nav class="mb-6 text-sm text-muted">
+        <a href="/original" class="hover:text-accent">Journal</a>
+        <span class="mx-2">›</span>
+        <span class="text-ink">Glossaire</span>
+      </nav>
+
+      <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
+        Glossaire
+      </h1>
+      <p class="text-ink-light mb-4">
+        Personnes, lieux, œuvres et termes du journal de Marie Bashkirtseff.
+      </p>
+      <p class="text-sm text-muted">
+        {totalEntries} entrées
+      </p>
+    </header>
+
+    <!-- Search -->
+    <div class="mb-8">
+      <GlossarySearch client:load entries={allEntries} />
+    </div>
+
+    <!-- Letter grid with counts -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      {letterCounts.map(({ letter, count }) => (
+        <a
+          href={`/glossary/${letter.toLowerCase()}`}
+          class="group block p-4 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow transition-all text-center"
+        >
+          <span class="text-3xl font-normal text-ink group-hover:text-accent transition-colors" style="font-family: var(--font-serif);">
+            {letter}
+          </span>
+          <span class="block text-sm text-muted mt-1">
+            {count} {count === 1 ? 'entrée' : 'entrées'}
+          </span>
+        </a>
+      ))}
+    </div>
+
+    {totalEntries === 0 && (
+      <div class="text-center py-12 text-muted">
+        <p>Le glossaire est vide.</p>
+      </div>
+    )}
+  </div>
+</ReadingLayout>

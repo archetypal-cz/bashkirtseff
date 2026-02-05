@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+/* Custom design tokens for Marie Bashkirtseff aesthetic */
+@theme {
+  /* Warm, 19th century inspired palette */
+  --color-parchment: #FFF8F0;
+  --color-sepia: #F5E6D3;
+  --color-ink: #2C1810;
+  --color-ink-light: #4A3728;
+  --color-accent: #B45309;
+  --color-accent-light: #D97706;
+  --color-muted: #78716C;
+
+  /* Typography */
+  --font-serif: 'Crimson Pro', 'Georgia', serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* CSS Variables for reading settings */
+:root {
+  --reading-font-scale: 1;
+  /* Base sizes */
+  --base-font-size: 18px;
+  --base-h1-size: 1.5rem;
+  --base-h2-size: 1.25rem;
+  --base-footnote-size: 0.875rem;
+}
+
+/* Theme: Light (default) */
+[data-theme="light"],
+:root {
+  --bg-primary: #FFF8F0;
+  --bg-secondary: #F5E6D3;
+  --text-primary: #2C1810;
+  --text-secondary: #4A3728;
+  --text-muted: #78716C;
+  --border-color: rgba(44, 24, 16, 0.1);
+}
+
+/* Theme: Sepia */
+[data-theme="sepia"] {
+  --bg-primary: #F5E6D3;
+  --bg-secondary: #EBD9C4;
+  --text-primary: #2C1810;
+  --text-secondary: #4A3728;
+  --text-muted: #6B5D52;
+  --border-color: rgba(44, 24, 16, 0.15);
+}
+
+/* Theme: Dark */
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #252525;
+  --text-primary: #e5e5e5;
+  --text-secondary: #a3a3a3;
+  --text-muted: #8a8a8a;  /* Improved contrast: 5.9:1 vs previous 4.5:1 */
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-serif);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Prose styling for diary entries */
+  .prose-diary {
+    @apply max-w-2xl mx-auto;
+    font-family: var(--font-serif);
+    line-height: 1.8;
+  }
+
+  .prose-diary p {
+    margin-bottom: 1rem;
+    /* Full scale effect: base * scale */
+    font-size: calc(var(--base-font-size) * var(--reading-font-scale));
+    color: var(--text-primary);
+  }
+
+  .prose-diary h1 {
+    @apply font-normal mb-6;
+    /* 50% scale effect: base * (1 + (scale - 1) * 0.5) */
+    font-size: calc(var(--base-h1-size) * (1 + (var(--reading-font-scale) - 1) * 0.5));
+    color: var(--text-primary);
+  }
+
+  .prose-diary h2 {
+    @apply font-normal mb-4;
+    /* 50% scale effect for h2 as well */
+    font-size: calc(var(--base-h2-size) * (1 + (var(--reading-font-scale) - 1) * 0.5));
+    color: var(--text-primary);
+  }
+
+  /* Theme-aware components */
+  [data-theme="dark"] header,
+  [data-theme="dark"] footer {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+  }
+
+  [data-theme="dark"] .bg-parchment {
+    background-color: var(--bg-primary);
+  }
+
+  [data-theme="dark"] .bg-sepia {
+    background-color: var(--bg-secondary);
+  }
+
+  [data-theme="dark"] .text-ink {
+    color: var(--text-primary);
+  }
+
+  [data-theme="dark"] .text-ink-light {
+    color: var(--text-secondary);
+  }
+
+  [data-theme="dark"] .text-muted {
+    color: var(--text-muted);
+  }
+
+  [data-theme="dark"] .border-ink\/10 {
+    border-color: var(--border-color);
+  }
+
+  /* Sepia theme overrides */
+  [data-theme="sepia"] .bg-parchment {
+    background-color: var(--bg-primary);
+  }
+
+  [data-theme="sepia"] .bg-sepia {
+    background-color: var(--bg-secondary);
+  }
+}
+
+/* Component utilities */
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-white hover:bg-accent-light;
+  }
+
+  .btn-secondary {
+    @apply bg-sepia text-ink hover:bg-parchment border border-ink/20;
+  }
+
+  /* Paragraph highlighting for deep links */
+  .paragraph-highlight {
+    @apply bg-amber-100 -mx-4 px-4 py-2 rounded transition-colors duration-500;
+  }
+
+  /* Foreign text marker (translated foreign language) */
+  .foreign-text {
+    @apply bg-amber-50 px-1 rounded;
+    border-bottom: 1px dotted var(--color-accent);
+  }
+
+  [data-theme="dark"] .foreign-text {
+    @apply bg-amber-900/30;
+  }
+
+  [data-theme="sepia"] .foreign-text {
+    @apply bg-amber-100/50;
+  }
+
+  /* Untranslated content placeholder (TODO) */
+  .untranslated {
+    @apply text-muted italic;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+  }
+
+  /* Footnote references */
+  .footnote-ref {
+    @apply text-accent hover:text-accent-light no-underline;
+    font-size: 0.75em;
+  }
+
+  /* Footnotes section */
+  .footnotes {
+    @apply mt-8 pt-6 border-t border-ink/10;
+    font-family: var(--font-sans);
+    /* 120% scale effect: base * (1 + (scale - 1) * 1.2) */
+    font-size: calc(var(--base-footnote-size) * (1 + (var(--reading-font-scale) - 1) * 1.2));
+  }
+
+  .footnotes-title {
+    @apply text-lg font-medium mb-4;
+    color: var(--text-secondary);
+  }
+
+  .footnote-item {
+    @apply mb-3 pl-12 relative;
+    color: var(--text-secondary);
+  }
+
+  .footnote-item::before {
+    content: attr(data-fn) ".";
+    @apply absolute left-0 text-accent font-medium text-xs;
+    top: 0.15em;
+    min-width: 2.5rem;
+  }
+
+  .footnote-item a {
+    @apply text-accent hover:text-accent-light;
+  }
+}

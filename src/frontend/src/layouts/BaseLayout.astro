@@ -1,0 +1,132 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  lang?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  canonicalUrl?: string;
+  article?: {
+    publishedTime?: string;
+    modifiedTime?: string;
+    author?: string;
+  };
+}
+
+const {
+  title = 'Bashkirtseff — The Complete Diary',
+  description = 'Read Marie Bashkirtseff\'s complete, uncensored diary. Free, accessible, in multiple languages.',
+  lang = 'cs',
+  image = '/images/marie/self-portrait.jpg',
+  type = 'website',
+  canonicalUrl,
+  article,
+} = Astro.props;
+
+// Site configuration
+const siteUrl = 'https://bashkirtseff.org';
+const siteName = 'Diary of Marie Bashkirtseff';
+
+// Build full URLs
+const fullImageUrl = image.startsWith('http') ? image : `${siteUrl}${image}`;
+const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
+---
+
+<!DOCTYPE html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={fullCanonicalUrl} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={fullCanonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={fullImageUrl} />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:locale" content={lang === 'cs' ? 'cs_CZ' : lang === 'fr' ? 'fr_FR' : 'en_US'} />
+
+    {/* Article-specific Open Graph tags */}
+    {type === 'article' && article?.publishedTime && (
+      <meta property="article:published_time" content={article.publishedTime} />
+    )}
+    {type === 'article' && article?.modifiedTime && (
+      <meta property="article:modified_time" content={article.modifiedTime} />
+    )}
+    {type === 'article' && article?.author && (
+      <meta property="article:author" content={article.author} />
+    )}
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={fullCanonicalUrl} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={fullImageUrl} />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#B45309" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": siteName,
+      "url": siteUrl,
+      "description": "Complete uncensored diary of Marie Bashkirtseff (1858-1884), Ukrainian-born French artist and diarist.",
+      "inLanguage": ["cs", "fr", "en"],
+      "about": {
+        "@type": "Person",
+        "name": "Marie Bashkirtseff",
+        "alternateName": ["Maria Bashkirtseva", "Maria Konstantinovna Bashkirtseva"],
+        "birthDate": "1858-11-24",
+        "deathDate": "1884-10-31",
+        "birthPlace": {
+          "@type": "Place",
+          "name": "Havronci, Poltava Governorate, Russian Empire"
+        },
+        "deathPlace": {
+          "@type": "Place",
+          "name": "Paris, France"
+        },
+        "nationality": ["Ukrainian", "French"],
+        "occupation": ["Artist", "Diarist", "Writer"],
+        "description": "Ukrainian-born French artist and diarist known for her posthumously published diary."
+      }
+    })} />
+
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <slot />
+  </body>
+</html>
+
+<script>
+  // Update HTML lang attribute based on user's UI locale preference
+  const savedLocale = localStorage.getItem('ui-language');
+  if (savedLocale && ['cs', 'en', 'fr'].includes(savedLocale)) {
+    document.documentElement.setAttribute('lang', savedLocale);
+  }
+</script>

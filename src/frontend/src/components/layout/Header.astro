@@ -1,0 +1,54 @@
+---
+// Header component with navigation and locale switcher
+import MobileMenu from './MobileMenu.vue';
+import LocaleSwitcher from './LocaleSwitcher.vue';
+import { t } from '../../i18n/astro';
+---
+
+<header class="bg-sepia border-b border-ink/10 sticky top-0 z-40">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex items-center justify-between h-14 md:h-16">
+      <!-- Logo / Title -->
+      <a href="/" class="flex items-center gap-2 text-ink hover:text-accent transition-colors">
+        <span class="text-lg md:text-xl font-semibold" style="font-family: var(--font-serif);">
+          {t('header.siteTitle')}
+        </span>
+      </a>
+
+      <!-- Navigation (desktop) -->
+      <nav class="hidden md:flex items-center gap-6">
+        <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
+             The diary entries currently only exist in Czech translation at /cz/. -->
+        <a href="/cz" class="text-ink-light hover:text-accent transition-colors">
+          {t('nav.diary')}
+        </a>
+        <a href="/original" class="text-ink-light hover:text-accent transition-colors">
+          {t('nav.original')}
+        </a>
+        <a href="/glossary" class="text-ink-light hover:text-accent transition-colors">
+          {t('nav.glossary')}
+        </a>
+        <a href="/marie" class="text-ink-light hover:text-accent transition-colors">
+          {t('nav.marie')}
+        </a>
+        <a href="/about" class="text-ink-light hover:text-accent transition-colors">
+          {t('nav.about')}
+        </a>
+      </nav>
+
+      <!-- Right side: Locale switcher + Login + Mobile Menu -->
+      <div class="flex items-center gap-2 md:gap-4">
+        <!-- UI Locale Switcher (CS/FR/EN) -->
+        <LocaleSwitcher client:load />
+
+        <!-- Login Button (desktop only) -->
+        <button class="hidden md:inline-flex btn btn-secondary text-sm">
+          {t('common.login')}
+        </button>
+
+        <!-- Mobile menu (Vue island) -->
+        <MobileMenu client:load />
+      </div>
+    </div>
+  </div>
+</header>
