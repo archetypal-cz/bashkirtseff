@@ -137,6 +137,11 @@ function isOriginalLanguage(language: string): boolean {
 }
 
 /**
+ * Get the directory path for original content
+ */
+const ORIGINAL_DIR = '_original';
+
+/**
  * Parse a date from an entry ID
  * Handles extended formats like "1874-02-14-15" (multi-day entries) or "1878-10-04-evening"
  * by extracting just the YYYY-MM-DD portion
@@ -156,7 +161,7 @@ function parseDateFromEntryId(entryId: string): Date {
  */
 export function getCarnets(language: string = 'original'): CarnetInfo[] {
   const langPath = isOriginalLanguage(language)
-    ? path.join(CONTENT_ROOT, 'original')
+    ? path.join(CONTENT_ROOT, ORIGINAL_DIR)
     : path.join(CONTENT_ROOT, language);
 
   if (!fs.existsSync(langPath)) {
@@ -721,7 +726,7 @@ export interface CarnetSummaryDocument {
  */
 export function hasCarnetSummaryDocument(carnet: string, language: string = 'original'): boolean {
   const langPath = isOriginalLanguage(language)
-    ? path.join(CONTENT_ROOT, 'original')
+    ? path.join(CONTENT_ROOT, ORIGINAL_DIR)
     : path.join(CONTENT_ROOT, language);
 
   const summaryPath = path.join(langPath, carnet, '_summary.md');
@@ -743,7 +748,7 @@ export function hasCarnetSummaryDocument(carnet: string, language: string = 'ori
  */
 export function getCarnetSummaryDocument(carnet: string, language: string = 'original'): CarnetSummaryDocument | null {
   const langPath = isOriginalLanguage(language)
-    ? path.join(CONTENT_ROOT, 'original')
+    ? path.join(CONTENT_ROOT, ORIGINAL_DIR)
     : path.join(CONTENT_ROOT, language);
 
   const summaryPath = path.join(langPath, carnet, '_summary.md');
