@@ -6,7 +6,7 @@ This directory contains all diary content: French originals and translations.
 
 ```
 content/
-├── original/            # French source materials
+├── _original/           # French source materials
 │   ├── 000/             # Carnet 000 (Marie's preface, May 1884)
 │   ├── 001/-106/        # Carnets 001-106 (diary entries)
 │   ├── _glossary/       # Entity definitions
@@ -120,10 +120,10 @@ just translate 1873-01-11 cz    # Or use /translator skill
 
 ## Related Documentation
 
-- `/original/CLAUDE.md` - French source specifics
+- `/_original/CLAUDE.md` - French source specifics
 - `/cz/CLAUDE.md` - Czech translation specifics
 - `/uk/CLAUDE.md` - Ukrainian translation specifics
 - `/en/CLAUDE.md` - English translation specifics
 - `/fr/CLAUDE.md` - French modern edition specifics
-- `/original/_glossary/CLAUDE.md` - Glossary system
+- `/_original/_glossary/CLAUDE.md` - Glossary system
 - `/docs/FRONTMATTER.md` - Detailed frontmatter spec
