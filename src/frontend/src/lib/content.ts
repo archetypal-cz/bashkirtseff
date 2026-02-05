@@ -129,6 +129,14 @@ const SECTION_PATTERN = /^\d{3}-\d{2}\.md$/; // e.g., 000-01.md (Carnet 000 pref
 const CARNET_DIR_PATTERN = /^\d{3}$/;
 
 /**
+ * Check if language code refers to the original French content
+ * Accepts both 'original' and '_original' for compatibility
+ */
+function isOriginalLanguage(language: string): boolean {
+  return language === 'original' || language === '_original';
+}
+
+/**
  * Parse a date from an entry ID
  * Handles extended formats like "1874-02-14-15" (multi-day entries) or "1878-10-04-evening"
  * by extracting just the YYYY-MM-DD portion
@@ -147,7 +155,7 @@ function parseDateFromEntryId(entryId: string): Date {
  * Get all available carnets for a language
  */
 export function getCarnets(language: string = 'original'): CarnetInfo[] {
-  const langPath = language === 'original'
+  const langPath = isOriginalLanguage(language)
     ? path.join(CONTENT_ROOT, 'original')
     : path.join(CONTENT_ROOT, language);
 
@@ -218,7 +226,7 @@ export function getBooks(language: string = 'original'): CarnetInfo[] {
  * Get all entries for a specific carnet
  */
 export function getCarnetEntries(carnetId: string, language: string = 'original'): string[] {
-  const carnetPath = language === 'original'
+  const carnetPath = isOriginalLanguage(language)
     ? path.join(CONTENT_ROOT, 'original', carnetId)
     : path.join(CONTENT_ROOT, language, carnetId);
 
@@ -256,7 +264,7 @@ export function getBookEntries(carnetId: string, language: string = 'original'):
  * Load a single diary entry
  */
 export function getEntry(carnetId: string, entryId: string, language: string = 'original'): DiaryEntry | null {
-  const entryPath = language === 'original'
+  const entryPath = isOriginalLanguage(language)
     ? path.join(CONTENT_ROOT, 'original', carnetId, `${entryId}.md`)
     : path.join(CONTENT_ROOT, language, carnetId, `${entryId}.md`);
 
@@ -712,7 +720,7 @@ export interface CarnetSummaryDocument {
  * Check if a summary document exists for a carnet
  */
 export function hasCarnetSummaryDocument(carnet: string, language: string = 'original'): boolean {
-  const langPath = language === 'original'
+  const langPath = isOriginalLanguage(language)
     ? path.join(CONTENT_ROOT, 'original')
     : path.join(CONTENT_ROOT, language);
 
@@ -734,7 +742,7 @@ export function hasCarnetSummaryDocument(carnet: string, language: string = 'ori
  * @returns Parsed summary document or null if not found
  */
 export function getCarnetSummaryDocument(carnet: string, language: string = 'original'): CarnetSummaryDocument | null {
-  const langPath = language === 'original'
+  const langPath = isOriginalLanguage(language)
     ? path.join(CONTENT_ROOT, 'original')
     : path.join(CONTENT_ROOT, language);
 
@@ -1009,7 +1017,7 @@ export function getEntryNavigation(carnetId: string, entryDate: string, language
  * Check if a translation exists for an entry
  */
 export function hasTranslation(carnetId: string, entryDate: string, language: string): boolean {
-  if (language === 'original') return true;
+  if (isOriginalLanguage(language)) return true;
 
   const entryPath = path.join(CONTENT_ROOT, language, carnetId, `${entryDate}.md`);
   return fs.existsSync(entryPath);
@@ -1117,7 +1125,7 @@ export function getPrefaceMerged(language: string = 'original'): DiaryEntry | nu
  * Check if Carnet 000 (preface) translation exists
  */
 export function hasCarnet000Translation(language: string): boolean {
-  if (language === 'original') return true;
+  if (isOriginalLanguage(language)) return true;
   return hasCarnet000Content(language);
 }
 
@@ -1304,7 +1312,7 @@ export function getYearInfo(year: number, language: string = 'original'): YearIn
  * Get glossary path for a language
  */
 function getGlossaryPath(language: string = 'original'): string {
-  if (language === 'original' || language === 'original') {
+  if (isOriginalLanguage(language)) {
     return path.join(CONTENT_ROOT, 'original', '_glossary');
   }
   return path.join(CONTENT_ROOT, language, '_glossary');
