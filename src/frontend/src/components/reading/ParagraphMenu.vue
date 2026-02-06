@@ -234,6 +234,8 @@ if (typeof window !== 'undefined') {
 
 .sheet-content {
   width: 100%;
+  max-width: 56rem;
+  margin: 0 auto;
   max-height: 80vh;
   background: var(--bg-primary, #FFF8F0);
   border-radius: 1rem 1rem 0 0;
