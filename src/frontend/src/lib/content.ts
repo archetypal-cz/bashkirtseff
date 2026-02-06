@@ -232,7 +232,7 @@ export function getBooks(language: string = 'original'): CarnetInfo[] {
  */
 export function getCarnetEntries(carnetId: string, language: string = 'original'): string[] {
   const carnetPath = isOriginalLanguage(language)
-    ? path.join(CONTENT_ROOT, 'original', carnetId)
+    ? path.join(CONTENT_ROOT, ORIGINAL_DIR, carnetId)
     : path.join(CONTENT_ROOT, language, carnetId);
 
   if (!fs.existsSync(carnetPath)) {
@@ -270,7 +270,7 @@ export function getBookEntries(carnetId: string, language: string = 'original'):
  */
 export function getEntry(carnetId: string, entryId: string, language: string = 'original'): DiaryEntry | null {
   const entryPath = isOriginalLanguage(language)
-    ? path.join(CONTENT_ROOT, 'original', carnetId, `${entryId}.md`)
+    ? path.join(CONTENT_ROOT, ORIGINAL_DIR, carnetId, `${entryId}.md`)
     : path.join(CONTENT_ROOT, language, carnetId, `${entryId}.md`);
 
   if (!fs.existsSync(entryPath)) {
@@ -1318,7 +1318,7 @@ export function getYearInfo(year: number, language: string = 'original'): YearIn
  */
 function getGlossaryPath(language: string = 'original'): string {
   if (isOriginalLanguage(language)) {
-    return path.join(CONTENT_ROOT, 'original', '_glossary');
+    return path.join(CONTENT_ROOT, ORIGINAL_DIR, '_glossary');
   }
   return path.join(CONTENT_ROOT, language, '_glossary');
 }
