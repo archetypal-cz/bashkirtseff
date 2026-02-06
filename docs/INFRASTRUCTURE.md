@@ -137,7 +137,7 @@ automatically notifies translations that may need updating.
 
 ### How It Works
 
-1. **Source hashing**: Each translation stores a `source_hash` in frontmatter
+1. **Source [hashing](https://en.wikipedia.org/wiki/Hash_function#Overview)**: Each translation stores a `source_hash` in frontmatter — a short fingerprint of the French text, so we can detect when it changes
 2. **Change detection**: When original edited, hash is recalculated
 3. **Notification**: If hash differs, `RSR-LAN-UPDATE` TODO added to translation README
 
@@ -184,7 +184,7 @@ Items to be pushed upstream to original
 
 ## Branch Strategy
 
-Each translation language has its own branch:
+Each translation language has its own [branch](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) (a parallel version of the project that can be worked on independently):
 
 ```
 main                    # French originals + infrastructure

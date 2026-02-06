@@ -62,7 +62,7 @@ The vision:
 - **Scholarly apparatus** — glossary, historical context, research — so readers can fully understand her world
 - **Her art** alongside her words — she wanted to be known as a painter
 - **Modern formats** — web, apps, audio — because she wanted *everyone*, not just academics
-- **Open source tools** — so anyone can contribute to bringing Marie to their language
+- **[Open source](https://opensource.com/resources/what-open-source) tools** — so anyone can contribute to bringing Marie to their language
 
 If this grows into something larger — a revival of interest in Marie, a community, perhaps an organization — so be it. She would approve.
 

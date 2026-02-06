@@ -1,21 +1,21 @@
 # Marie Bashkirtseff Diary Project
 
-Complete, uncensored translation of Marie Bashkirtseff's diary (1873-1884) from French to Czech, with a modern web reading experience.
+Complete, uncensored translation of Marie Bashkirtseff's diary (1873-1884) from French to Czech, with a modern reading experience.
 
 ## About Marie Bashkirtseff
 
-Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote one of the most remarkable personal documents of the 19th century. Her diary, written primarily in French, spans from age 14 until her death from tuberculosis at 25. The published versions were heavily censored by her family - this project aims to present the complete, unedited text.
+Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote one of the most remarkable personal documents of the 19th century. Her diary, written primarily in French, spans from age 14 until her death from tuberculosis at 25. The legendary published versions were _heavily_ censored by her family - this project aims to present the complete, unedited text, resurrecting Marie's authentic voice and experiences for her readers, along with rich historical context. .
 
 ## Project Overview
 
-| Metric | Value |
-|--------|-------|
-| **Carnets (notebooks)** | 107 (000-106) |
-| **Diary entries** | ~3,300 |
-| **Date range** | January 1873 - October 1884 |
-| **Source language** | French |
-| **Target languages** | Czech, Ukrainian, English, French (modern) |
-| **Frontend** | https://bashkirtseff.org |
+| Metric                       | Value                                      |
+| ---------------------------- | ------------------------------------------ |
+| **Carnets (notebooks)**      | 107 (000-106)                              |
+| **Diary entries**            | ~3,300                                     |
+| **Date range**               | January 1873 - October 1884                |
+| **Source language**          | French                                     |
+| **Planned target languages** | Czech, Ukrainian, English, French (modern) |
+| **Frontend**                 | https://bashkirtseff.org                   |
 
 ## Project Structure
 
@@ -38,6 +38,7 @@ Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote
 │   ├── shared/              # Shared TypeScript utilities
 │   └── scripts/             # Node.js utility scripts
 │
+├── raw/                     # Scanned original books and resources
 ├── docs/                    # Documentation
 │   └── prompts/             # Translation style guides
 └── .claude/                 # Claude Code agent configuration
@@ -49,19 +50,19 @@ Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote
 Marie wrote in **105 numbered carnets (notebooks)**. The project uses 3-digit folder names (000-106):
 
 | Year | Carnets | Entries | Marie's Age |
-|------|---------|---------|-------------|
-| 1873 | 11 | 242 | 14-15 |
-| 1874 | 14 | 378 | 15-16 |
-| 1875 | 23 | 298 | 16-17 |
-| 1876 | 17 | 317 | 17-18 |
-| 1877 | 8 | 270 | 18-19 |
-| 1878 | 6 | 331 | 19-20 |
-| 1879 | 3 | 297 | 20-21 |
-| 1880 | 2 | 75 | 21-22 |
-| 1881 | 4 | 299 | 22-23 |
-| 1882 | 3 | 259 | 23-24 |
-| 1883 | 5 | 321 | 24-25 |
-| 1884 | 4 | 207 | 25-26 |
+| ---- | ------- | ------- | ----------- |
+| 1873 | 11      | 242     | 14-15       |
+| 1874 | 14      | 378     | 15-16       |
+| 1875 | 23      | 298     | 16-17       |
+| 1876 | 17      | 317     | 17-18       |
+| 1877 | 8       | 270     | 18-19       |
+| 1878 | 6       | 331     | 19-20       |
+| 1879 | 3       | 297     | 20-21       |
+| 1880 | 2       | 75      | 21-22       |
+| 1881 | 4       | 299     | 22-23       |
+| 1882 | 3       | 259     | 23-24       |
+| 1883 | 5       | 321     | 24-25       |
+| 1884 | 4       | 207     | 25-26       |
 
 **Carnet 000** contains Marie's retrospective preface, written in May 1884.
 
@@ -77,6 +78,7 @@ The project uses a multi-agent workflow with specialized roles:
 6. **Conductor** - Final literary quality approval
 
 Each role adds timestamped comments to track decisions:
+
 ```
 %% 2025-12-07T16:00:00 RSR: Historical context note... %%
 %% 2025-12-07T17:00:00 LAN: Translation guidance... %%
@@ -85,7 +87,7 @@ Each role adds timestamped comments to track decisions:
 
 ## Entry Format
 
-Each entry file follows this structure:
+Each entry file follows this structure — a [YAML frontmatter](https://jekyllrb.com/docs/front-matter/) header with metadata, followed by paragraph clusters in [Markdown](https://www.markdownguide.org/getting-started/):
 
 ```markdown
 ---
@@ -109,7 +111,7 @@ Translation files include the French original in comments and the visible Czech 
 
 ## Frontend Features
 
-The AstroJS Progressive Web App provides:
+The AstroJS [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app) provides:
 
 - **Year-based navigation** - Browse by year (1873-1884) with Marie's age
 - **Carnet browsing** - View entries within each notebook
@@ -180,6 +182,7 @@ We welcome contributions in any language! See **[CONTRIBUTING.md](CONTRIBUTING.m
 - Submitting pull requests
 
 **Quick start:**
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/bashkirtseff.git
 cd bashkirtseff

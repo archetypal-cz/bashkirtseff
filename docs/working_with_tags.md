@@ -6,15 +6,17 @@ The Bashkirtseff diary project uses a comprehensive tagging system to cross-refe
 
 ## Tag Format Standards
 
-### Current Standard (To Be Implemented)
+### CAPITAL_ASCII Standard
+
 - **Format**: `CAPITAL_LETTERS_ONLY.md`
-- **Character Set**: ASCII only (no accents or special characters)
+- **Character Set**: [ASCII](https://en.wikipedia.org/wiki/ASCII) only (no accents or special characters)
 - **Examples**:
   - `MARIE_BASHKIRTSEFF.md`
   - `THEATRE_FRANCAIS.md` (not Théâtre_Français.md)
   - `CHATEAU_D_AZAY.md` (not Château_d'Azay.md)
 
 ### Benefits
+
 - Prevents duplicate files with different casing
 - Eliminates encoding issues with accented characters
 - Ensures consistent references across all platforms
@@ -23,7 +25,7 @@ The Bashkirtseff diary project uses a comprehensive tagging system to cross-refe
 ## Directory Structure
 
 ```
-src/_original/_glossary/
+content/_original/_glossary/
 ├── culture/
 │   ├── art/          # Artworks, artistic movements
 │   ├── historical/   # Historical events and figures
@@ -65,115 +67,77 @@ src/_original/_glossary/
 
 ## Using Tags in Diary Entries
 
-### Format
+Tags belong to **paragraph clusters** within diary entries. They appear as comment lines (`%% ... %%`) immediately after the paragraph ID, before any annotations or text. For the full paragraph format specification, see [`.claude/skills/_shared/paragraph_format.md`](../.claude/skills/_shared/paragraph_format.md).
+
+In the **entry frontmatter**, entities are also listed for entry-level indexing (see [`content/CLAUDE.md`](../content/CLAUDE.md)).
+
+### Tag Line Format
+
 ```markdown
-Marie visited the [#LOUVRE](../_glossary/places/social/LOUVRE.md) with [#PAUL](../_glossary/people/mentioned/PAUL.md).
+%% [#FILENAME](../_glossary/category/subcategory/FILENAME.md) [#OTHER](../_glossary/category/OTHER.md) %%
+```
+
+Multiple tags for the same paragraph go on a single comment line, space-separated.
+
+### Example in Context
+
+```markdown
+%% 001.0020 %%
+%% [#NICE](../_glossary/places/cities/NICE.md) [#DUKE_OF_HAMILTON](../_glossary/people/core/DUKE_OF_HAMILTON.md) %%
+%% 2025-12-07T10:00:00 LAN: "promenade" - fashionable walk %%
+A la promenade, j'ai vu le duc de Hamilton.
 ```
 
 ### Guidelines
-1. Always use the full categorized path
-2. Tag format: `[#DISPLAY_NAME](../_glossary/category/subcategory/FILENAME.md)`
-3. Display name can be mixed case for readability
-4. Filename must match exactly (CAPITAL_ASCII format)
 
-## Maintenance Tools
-
-### 1. migrate_glossary.py
-Moves glossary files from flat structure to categorized directories based on CSV mapping.
-```bash
-python3 migrate_glossary.py
-```
-
-### 2. categorize_remaining.py
-Auto-categorizes uncategorized files based on name patterns.
-```bash
-python3 categorize_remaining.py
-```
-
-### 3. create_glossary_mapping.py
-Creates JSON mapping of all glossary files and their locations.
-```bash
-python3 create_glossary_mapping.py
-```
-
-### 4. update_glossary_links.py
-Updates all diary entry links to use new categorized paths.
-```bash
-python3 update_glossary_links.py
-```
-
-### 5. validate_glossary_links.py
-Validates all glossary links in diary entries.
-```bash
-python3 validate_glossary_links.py
-```
-
-### 6. create_missing_glossary_stubs.py
-Creates stub files for missing glossary entries referenced in diaries.
-```bash
-python3 create_missing_glossary_stubs.py
-```
-
-### 7. standardize_glossary_names.py (To Be Created)
-Converts all glossary filenames to CAPITAL_ASCII format.
-```bash
-python3 standardize_glossary_names.py
-```
+1. Always use the relative fully categorized path
+2. Tag format: `[#Display_Name](../_glossary/category/subcategory/FILENAME.md)`
+3. Display name and filename should match exactly (CAPITAL_ASCII format)
+4. Tags are placed on a **comment line** (`%% ... %%`), not inline in the text
 
 ## Creating New Glossary Entries
 
+Glossary entries use [YAML frontmatter](https://jekyllrb.com/docs/front-matter/) and paragraph clusters (same system as diary entries). For the full glossary format specification, see [`.claude/skills/glossary/SKILL.md`](../.claude/skills/glossary/SKILL.md).
+
+The easiest way to create or manage glossary entries is via the `/glossary` skill in Claude Code.
+
 ### Template
+
 ```markdown
-# [Name/Title]
+---
+id: ENTRY_ID
+name: Human Readable Name
+type: Person | Place | Culture | Society
+category: people/core
+research_status: Stub | Moderate | Comprehensive
+last_updated: 2026-02-06
+---
 
-## Basic Information
-- Type: [category - subcategory]
-- Full Name: [If applicable]
-- Birth/Death: [If applicable]
-- Role: [Brief description]
+%% GLO_ENTRY_ID.0001 %%
+## Overview
 
-## Description
-[Detailed description of the person/place/concept]
+%% GLO_ENTRY_ID.0002 %%
+%% YYYY-MM-DDThh:mm:ss RSR: Research note about this entry %%
+Description of the person/place/concept...
 
+%% GLO_ENTRY_ID.0003 %%
 ## Connection to Marie Bashkirtseff
-[How this relates to Marie's life and diary]
 
-## Historical Context
-[Relevant historical background]
+%% GLO_ENTRY_ID.0004 %%
+%% [#Related_Entry](../category/RELATED_ENTRY.md) %%
+How this relates to Marie's life and diary...
 
-## References in Diary
-- Book X, Date: [Context of mention]
-- Book Y, Date: [Context of mention]
-
+%% GLO_ENTRY_ID.0005 %%
 ## Research Notes
-- Created: [Date]
-- Sources: [List sources]
-- Confidence: [High/Medium/Low]
-- Needs Research: [What aspects need more investigation]
 
-## External References
-- [Wikipedia or other reliable sources]
+%% GLO_ENTRY_ID.0006 %%
+See annotations above for detailed research notes.
 ```
 
-### Stub Format (Auto-generated)
-```markdown
-# [Name]
-
-## Basic Information
-- Type: [category - subcategory]
-- Status: Stub entry (automatically generated)
-
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: [Date]
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-```
+### Key differences from diary entries
+- Paragraph IDs use `GLO_` prefix: `GLO_DINA.0004` (not `001.0004`)
+- Cross-references use relative paths from the entry's location
+- `research_status` tracks how complete the entry is
 
 ## Best Practices
 
@@ -186,34 +150,76 @@ python3 standardize_glossary_names.py
 
 ## ASCII Conversion Rules
 
-| Original | ASCII Replacement |
-|----------|-------------------|
-| À, Á, Â, Ä | A |
-| È, É, Ê, Ë | E |
-| Ì, Í, Î, Ï | I |
-| Ò, Ó, Ô, Ö | O |
-| Ù, Ú, Û, Ü | U |
-| Ç | C |
-| Ñ | N |
-| ' (apostrophe) | _ |
-| - (hyphen) | _ |
-| Space | _ |
+| Original       | ASCII Replacement |
+| -------------- | ----------------- |
+| À, Á, Â, Ä     | A                 |
+| È, É, Ê, Ë     | E                 |
+| Ì, Í, Î, Ï     | I                 |
+| Ò, Ó, Ô, Ö     | O                 |
+| Ù, Ú, Û, Ü     | U                 |
+| Ç              | C                 |
+| Ñ              | N                 |
+| ' (apostrophe) | \_                |
+| - (hyphen)     | \_                |
+| Space          | \_                |
+
+## CLI Tools
+
+All glossary management commands are available via `just`. Run `just` or `just help` for the full list.
+
+### Discovery & Reporting
+
+```bash
+just glossary-stats              # Usage statistics (total entries, per-category counts)
+just glossary-find ENTRY_ID      # Find all diary entries referencing a glossary entry
+just glossary-search PATTERN     # Search glossary entries by name pattern
+just glossary-entry-report ID    # Detailed report for a single entry
+```
+
+### Validation
+
+```bash
+just glossary-missing            # List referenced entries that don't exist (broken links)
+just glossary-orphaned           # List glossary entries not referenced anywhere
+```
+
+### Migration
+
+```bash
+# Convert old-format entries to paragraph cluster format
+npx tsx src/scripts/restructure-glossary.ts --category people/core
+npx tsx src/scripts/restructure-glossary.ts --category people/core --dry-run --verbose
+```
+
+### Programmatic Utilities
+
+The shared TypeScript package (`@bashkirtseff/shared`) provides ID validation:
+
+```typescript
+import { isValidGlossaryId, toCapitalAscii } from '@bashkirtseff/shared';
+
+isValidGlossaryId('THEATRE_FRANCAIS')  // true
+toCapitalAscii('Théâtre Français')     // "THEATRE_FRANCAIS"
+```
 
 ## Troubleshooting
 
 ### Broken Links
-1. Run `validate_glossary_links.py` to identify broken links
+
+1. Run `just glossary-missing` to identify broken links
 2. Check if file exists with different casing
-3. Create stub if genuinely missing
+3. Create stub if genuinely missing (use `/glossary` skill)
 4. Update link if path is incorrect
 
 ### Duplicate Entries
+
 1. Check for case variations (Marie.md vs MARIE.md)
 2. Check for accent variations (Théâtre.md vs Theatre.md)
 3. Merge content into CAPITAL_ASCII version
 4. Update all references
 
 ### Category Confusion
+
 1. Review category definitions above
 2. Consider primary role/function
 3. When in doubt, use most general category
