@@ -143,7 +143,7 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
           />
 
           {/* Paragraph menu - positioned at top right, next to flip button */}
-          <div class="absolute -top-3 right-8 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10" style="transform: translateZ(100px); transform-style: flat;">
+          <div class="absolute -top-3 right-16 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10" style="transform: translateZ(100px); transform-style: flat;">
             <ParagraphMenu
               client:visible
               paragraphId={paragraph.id}
