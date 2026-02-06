@@ -74,7 +74,7 @@ In the **entry frontmatter**, entities are also listed for entry-level indexing 
 ### Tag Line Format
 
 ```markdown
-%% [#FILENAME](../_glossary/category/subcategory/FILENAME.md) [#OTHER](../_glossary/category/OTHER.md) %%
+%% [#Filename](../_glossary/category/subcategory/FILENAME.md) [#Other_Name](../_glossary/category/OTHER_NAME.md) %%
 ```
 
 Multiple tags for the same paragraph go on a single comment line, space-separated.
@@ -83,7 +83,7 @@ Multiple tags for the same paragraph go on a single comment line, space-separate
 
 ```markdown
 %% 001.0020 %%
-%% [#NICE](../_glossary/places/cities/NICE.md) [#DUKE_OF_HAMILTON](../_glossary/people/core/DUKE_OF_HAMILTON.md) %%
+%% [#Nice](../_glossary/places/cities/NICE.md) [#Duke_of_Hamilton](../_glossary/people/core/DUKE_OF_HAMILTON.md) %%
 %% 2025-12-07T10:00:00 LAN: "promenade" - fashionable walk %%
 A la promenade, j'ai vu le duc de Hamilton.
 ```
@@ -92,8 +92,9 @@ A la promenade, j'ai vu le duc de Hamilton.
 
 1. Always use the relative fully categorized path
 2. Tag format: `[#Display_Name](../_glossary/category/subcategory/FILENAME.md)`
-3. Display name and filename should match exactly (CAPITAL_ASCII format)
-4. Tags are placed on a **comment line** (`%% ... %%`), not inline in the text
+3. Display name should be human-readable (uppercase and lowercase, numbers, underscores, no accents or signs) and match the glossary entry's `name` field
+4. filename should be uppercase with underscores, matching the glossary entry's `name` field
+5. Tags are placed on a **comment line** (`%% ... %%`), not inline in the text
 
 ## Creating New Glossary Entries
 
@@ -114,6 +115,7 @@ last_updated: 2026-02-06
 ---
 
 %% GLO_ENTRY_ID.0001 %%
+
 ## Overview
 
 %% GLO_ENTRY_ID.0002 %%
@@ -121,6 +123,7 @@ last_updated: 2026-02-06
 Description of the person/place/concept...
 
 %% GLO_ENTRY_ID.0003 %%
+
 ## Connection to Marie Bashkirtseff
 
 %% GLO_ENTRY_ID.0004 %%
@@ -128,6 +131,7 @@ Description of the person/place/concept...
 How this relates to Marie's life and diary...
 
 %% GLO_ENTRY_ID.0005 %%
+
 ## Research Notes
 
 %% GLO_ENTRY_ID.0006 %%
@@ -135,6 +139,7 @@ See annotations above for detailed research notes.
 ```
 
 ### Key differences from diary entries
+
 - Paragraph IDs use `GLO_` prefix: `GLO_DINA.0004` (not `001.0004`)
 - Cross-references use relative paths from the entry's location
 - `research_status` tracks how complete the entry is
@@ -196,10 +201,10 @@ npx tsx src/scripts/restructure-glossary.ts --category people/core --dry-run --v
 The shared TypeScript package (`@bashkirtseff/shared`) provides ID validation:
 
 ```typescript
-import { isValidGlossaryId, toCapitalAscii } from '@bashkirtseff/shared';
+import { isValidGlossaryId, toCapitalAscii } from "@bashkirtseff/shared";
 
-isValidGlossaryId('THEATRE_FRANCAIS')  // true
-toCapitalAscii('Théâtre Français')     // "THEATRE_FRANCAIS"
+isValidGlossaryId("THEATRE_FRANCAIS"); // true
+toCapitalAscii("Théâtre Français"); // "THEATRE_FRANCAIS"
 ```
 
 ## Troubleshooting

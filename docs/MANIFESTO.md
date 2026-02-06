@@ -1,6 +1,6 @@
 # Bashkirtseff
 
-> *"On ne lit que ce qui existe, et moi je veux exister."*
+> _"On ne lit que ce qui existe, et moi je veux exister."_
 >
 > (One only reads what exists, and I want to exist.)
 >
@@ -12,19 +12,19 @@
 
 Marie Bashkirtseff (1858–1884) was a Ukrainian-born Russian aristocrat who kept one of the most extraordinary diaries ever written. From age 13 until her death from tuberculosis at 25, she filled over 100 volumes with her thoughts, dreams, frustrations, and observations.
 
-She was a talented painter who studied at the Académie Julian in Paris — one of the few institutions that admitted women. She exhibited at the Salon. Her painting *Un meeting* hangs in the Musée d'Orsay.
+She was a talented painter who studied at the Académie Julian in Paris, one of the few institutions that admitted women. She exhibited at the Salon. Her painting _Un meeting_ hangs in the Musée d'Orsay.
 
-She was a proto-feminist who wrote for *La Citoyenne* under a pseudonym, advocating for women's suffrage and education.
+She was a proto-feminist who wrote for _La Citoyenne_ under a pseudonym, advocating for women's suffrage and education.
 
 She was vain, ambitious, brilliant, insecure, dramatic, and searingly honest about all of it.
 
-She wanted, desperately, to be remembered.
+She wanted, desperately, to be known and remembered.
 
-> *"Si je ne meurs pas jeune, j'espère rester comme un grand artiste; mais si je meurs jeune, je veux laisser publier mon journal, qui ne peut manquer d'être intéressant."*
+> _"Si je ne meurs pas jeune, j'espère rester comme un grand artiste; mais si je meurs jeune, je veux laisser publier mon journal, qui ne peut manquer d'être intéressant."_
 >
 > (If I do not die young, I hope to remain as a great artist; but if I die young, I want to have my journal published, which cannot fail to be interesting.)
 
-She died young. Her mother published the diary — but censored it heavily, removing Marie's romantic obsessions, harsh opinions, illness details, and anything deemed improper for a young lady.
+She _did_ die young. Her mother published the diary, but censored it heavily, removing Marie's romantic obsessions, harsh opinions, illness details, and anything deemed improper for a young lady.
 
 For over a century, the world knew only a sanitized Marie.
 
@@ -32,21 +32,21 @@ For over a century, the world knew only a sanitized Marie.
 
 ## The Problem
 
-The complete, uncensored diary was finally transcribed and published in French between 1995 and 2005 by the Cercle des Amis de Marie Bashkirtseff — a labor of love by dedicated scholars working from the original manuscripts.
+The complete, uncensored diary was discovered and finally transcribed and published in French between 1995 and 2005 by the Cercle des Amis de Marie Bashkirtseff, a labor of love by dedicated scholars working from the original manuscripts.
 
-But almost no one knows.
+### Hardly anyone knows her.
 
-The old, censored version remains what most people find. The complete French edition was published in limited runs, never widely distributed. The Cercle has largely disbanded. One person is working on a Spanish translation. An English translation by Katherine Kernberger exists (*I Am the Most Interesting Book of All*, 2013) — translated from the uncensored original after decades of research — but it is necessarily abridged, a selection from the vast whole.
+The old, censored version remains what most people find. The complete French edition was published in limited runs, never widely distributed. The Cercle has largely disbanded. One person is working on a Spanish translation. An English translation by Katherine Kernberger exists (_[I Am the Most Interesting Book of All](https://digitalcommons.linfield.edu/linfauth/42/)_, 2013) — translated from the uncensored original after decades of research — but it is necessarily abridged, a selection from the vast whole.
 
-No one has yet published Marie's *complete* diary in any language other than French.
+No one has yet made Marie's _complete_ diary available, not to mention in multiple languages, using modern tools to help readers understand her world.
 
-Marie wanted the world to know her — completely, as she truly was.
+Marie wanted above all for the world to know her from her diary — as complete as she could capture.
 
-> *"Que l'on ne change rien."*
+> _"Que l'on ne change rien."_
 >
 > (Let nothing be changed.)
 
-For over a century, we failed her. But today, we have the tools to change that. AI-assisted translation makes it possible to offer *everything* — and let readers decide what they want to read. The devoted can follow every entry; others can discover the highlights that resonate most.
+For over a century, we failed her. But today, we have the tools to change that. AI-assisted translation makes it possible to offer _everything_ — and let readers decide what they want to read. The devoted can follow every entry; others can discover the highlights that resonate most.
 
 ---
 
@@ -61,12 +61,12 @@ The vision:
 - **Complete texts** in multiple languages, freely accessible
 - **Scholarly apparatus** — glossary, historical context, research — so readers can fully understand her world
 - **Her art** alongside her words — she wanted to be known as a painter
-- **Modern formats** — web, apps, audio — because she wanted *everyone*, not just academics
-- **[Open source](https://opensource.com/resources/what-open-source) tools** — so anyone can contribute to bringing Marie to their language
+- **Modern formats** — web, apps, audio — because she wanted _everyone_, not just academics
+- **Open source tools** — so anyone can contribute to bringing Marie to their language
 
 If this grows into something larger — a revival of interest in Marie, a community, perhaps an organization — so be it. She would approve.
 
-> *"Je veux tout, et tout de suite."*
+> _"Je veux tout, et tout de suite."_
 >
 > (I want everything, and I want it now.)
 
@@ -78,13 +78,13 @@ These principles are derived from Marie's own words and values:
 
 ### 1. Completeness
 
-> *"Que l'on ne change rien."*
+> _"Que l'on ne change rien."_
 
 We publish the full, uncensored text. Her contradictions, her vanity, her flaws, her brilliance — all of it. No sanitizing for modern sensibilities. Marie wanted to be known as she was.
 
 ### 2. Accessibility
 
-Marie wanted the *world* to know her, not just French aristocrats or academic specialists.
+Marie wanted the _world_ to know her, not just French aristocrats or academic specialists.
 
 - Multiple languages
 - Free access (ad-supported or donation-based)
@@ -93,7 +93,7 @@ Marie wanted the *world* to know her, not just French aristocrats or academic sp
 
 ### 3. Seriousness
 
-> *"Si j'avais été un homme, j'aurais conquis l'Europe."*
+> _"Si j'avais été un homme, j'aurais conquis l'Europe."_
 >
 > (If I had been a man, I would have conquered Europe.)
 
@@ -105,7 +105,7 @@ The glossary, the research, the careful translation — these honor her demand t
 
 Marie's diary is a feminist document, whether she would have used that word or not. She insisted that a woman's inner life was as rich, complex, and worthy of attention as any man's.
 
-> *"Je suis mon propre héros."*
+> _"Je suis mon propre héros."_
 >
 > (I am my own hero.)
 
@@ -156,7 +156,7 @@ She was honestly vain, sometimes snobbish, a product of her aristocratic world. 
 
 ### Artist vs. Diarist
 
-She wanted fame as a painter; the diary eclipsed her art. There's irony here — she achieved immortality, just not how she planned. We honor both: the diary *is* her masterpiece, but we include her paintings and discuss her as an artist.
+She wanted fame as a painter; the diary eclipsed her art. There's irony here — she achieved immortality, just not how she planned. We honor both: the diary _is_ her masterpiece, but we include her paintings and discuss her as an artist.
 
 ### Performance vs. Authenticity
 
@@ -203,12 +203,13 @@ Marie craved fame. Tell people about her. Share her words. Link to her paintings
 Working name: **Bashkirtseff**
 
 Possible final names:
+
 - **The Bashkirtseff Project** — clear, searchable, serious
 - **Je Veux Exister** — her own words: "I want to exist"
 
 For now, we simply use her name. It's what she would have wanted.
 
-> *"La plus grande crainte que j'aie, c'est de ne point laisser de traces de mon existence."*
+> _"La plus grande crainte que j'aie, c'est de ne point laisser de traces de mon existence."_
 >
 > (The greatest fear I have is to leave no trace of my existence.)
 
@@ -220,12 +221,12 @@ She left traces. 100 volumes of them. Our job is to make sure the world can read
 
 This is an open project. The source texts, translation tools, and methodology are available. Marie wanted everyone to know her — and now, for the first time, everyone can help make that happen.
 
-*Repository: [link]*
-*Contact: [email]*
+_Repository: [link]_
+_Contact: [email]_
 
 ---
 
-> *"Je veux vivre, et vivre avec éclat."*
+> _"Je veux vivre, et vivre avec éclat."_
 >
 > (I want to live, and live brilliantly.)
 
