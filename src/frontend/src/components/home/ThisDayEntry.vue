@@ -28,49 +28,36 @@ interface Props {
 
 const props = defineProps<Props>();
 
+// The date being browsed (calendar date, independent of entries)
+const browsingDate = ref<Date>(new Date());
 // Current entry to display
 const selectedEntry = ref<ThisDayEntry | null>(null);
 const currentMonthDay = ref<string>('');
 const isLoading = ref(true);
 
-// Format the date for display (e.g., "February 4, 1873")
-const formattedDate = computed(() => {
-  if (!selectedEntry.value) return '';
-  const date = new Date(selectedEntry.value.date);
-  return date.toLocaleDateString('en-US', {
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric'
-  });
+// Format the browsing date for display (day + month only, no year)
+const browsingDateFormatted = computed(() => {
+  const d = browsingDate.value;
+  if (props.languagePath === 'cz') {
+    return d.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long' });
+  }
+  if (props.languagePath === 'fr' || props.languagePath === 'original') {
+    return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
+  }
+  return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
 });
 
-// Format the date for display in Czech
-const formattedDateCz = computed(() => {
-  if (!selectedEntry.value) return '';
-  const date = new Date(selectedEntry.value.date);
-  return date.toLocaleDateString('cs-CZ', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric'
-  });
-});
-
-// Format the date for display in French
-const formattedDateFr = computed(() => {
-  if (!selectedEntry.value) return '';
-  const date = new Date(selectedEntry.value.date);
-  return date.toLocaleDateString('fr-FR', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric'
-  });
-});
-
-// Auto-detect locale based on languagePath
+// Format the entry date for display (with year)
 const formattedDateLocalized = computed(() => {
-  if (props.languagePath === 'cz') return formattedDateCz.value;
-  if (props.languagePath === 'fr' || props.languagePath === 'original') return formattedDateFr.value;
-  return formattedDate.value;
+  if (!selectedEntry.value) return '';
+  const date = new Date(selectedEntry.value.date);
+  if (props.languagePath === 'cz') {
+    return date.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+  if (props.languagePath === 'fr' || props.languagePath === 'original') {
+    return date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+  return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 });
 
 // Build the link to the entry
@@ -97,22 +84,27 @@ const marieAgeText = computed(() => {
   return formatMessage(props.translations.marieWas, { age: selectedEntry.value.marieAge });
 });
 
-// Select a random entry from available entries for today
-function selectEntryForToday() {
-  const now = new Date();
-  const month = String(now.getMonth() + 1).padStart(2, '0');
-  const day = String(now.getDate()).padStart(2, '0');
+// All entries for the current browsing date
+const entriesForDate = computed(() => {
+  return props.thisDayData[currentMonthDay.value] || [];
+});
+
+// Select entry for the current browsing date
+function selectEntryForDate() {
+  const month = String(browsingDate.value.getMonth() + 1).padStart(2, '0');
+  const day = String(browsingDate.value.getDate()).padStart(2, '0');
   currentMonthDay.value = `${month}-${day}`;
 
-  const entriesForToday = props.thisDayData[currentMonthDay.value];
+  const entries = entriesForDate.value;
 
-  if (entriesForToday && entriesForToday.length > 0) {
-    // Pick one entry - prefer translated entries, then pick randomly
-    const translatedEntries = entriesForToday.filter(e => e.hasTranslation);
-    const pool = translatedEntries.length > 0 ? translatedEntries : entriesForToday;
+  if (entries.length > 0) {
+    const translatedEntries = entries.filter(e => e.hasTranslation);
+    const pool = translatedEntries.length > 0 ? translatedEntries : entries;
 
-    // Use the day of year as a seed for consistent daily selection
-    const dayOfYear = Math.floor((now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 86400000);
+    // Use day of year as seed for consistent selection
+    const dayOfYear = Math.floor(
+      (browsingDate.value.getTime() - new Date(browsingDate.value.getFullYear(), 0, 0).getTime()) / 86400000
+    );
     const index = dayOfYear % pool.length;
 
     selectedEntry.value = pool[index];
@@ -123,8 +115,22 @@ function selectEntryForToday() {
   isLoading.value = false;
 }
 
+function goToPrevDay() {
+  const d = new Date(browsingDate.value);
+  d.setDate(d.getDate() - 1);
+  browsingDate.value = d;
+  selectEntryForDate();
+}
+
+function goToNextDay() {
+  const d = new Date(browsingDate.value);
+  d.setDate(d.getDate() + 1);
+  browsingDate.value = d;
+  selectEntryForDate();
+}
+
 onMounted(() => {
-  selectEntryForToday();
+  selectEntryForDate();
 });
 </script>
 
@@ -135,32 +141,51 @@ onMounted(() => {
       <div class="loading-pulse"></div>
     </div>
 
-    <!-- Entry found -->
-    <div v-else-if="selectedEntry" class="this-day-card">
-      <div class="this-day-header">
-        <h3 class="this-day-title">{{ translations.title }}</h3>
-        <div class="this-day-meta">
-          <span class="this-day-date">{{ formattedDateLocalized }}</span>
-          <span class="this-day-age">{{ marieAgeText }} {{ translations.yearsOld }}</span>
-        </div>
+    <template v-else>
+      <!-- Day navigation header -->
+      <div class="day-nav">
+        <button class="day-nav-btn" @click="goToPrevDay" :aria-label="'Previous day'">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <h3 class="day-nav-date">{{ browsingDateFormatted }}</h3>
+
+        <button class="day-nav-btn" @click="goToNextDay" :aria-label="'Next day'">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
       </div>
 
-      <blockquote class="this-day-quote">
-        <p>{{ selectedEntry.preview }}</p>
-      </blockquote>
+      <!-- Entry found -->
+      <div v-if="selectedEntry" class="this-day-card">
+        <div class="this-day-header">
+          <h3 class="this-day-title">{{ translations.title }}</h3>
+          <div class="this-day-meta">
+            <span class="this-day-date">{{ formattedDateLocalized }}</span>
+            <span class="this-day-age">{{ marieAgeText }} {{ translations.yearsOld }}</span>
+          </div>
+        </div>
 
-      <a :href="entryLink" class="this-day-link">
-        {{ translations.readFullEntry }}
-        <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-        </svg>
-      </a>
-    </div>
+        <blockquote class="this-day-quote">
+          <p>{{ selectedEntry.preview }}</p>
+        </blockquote>
 
-    <!-- No entry for today -->
-    <div v-else class="this-day-empty">
-      <p class="empty-message">{{ translations.noEntryToday }}</p>
-    </div>
+        <a :href="entryLink" class="this-day-link">
+          {{ translations.readFullEntry }}
+          <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- No entry for this day -->
+      <div v-else class="this-day-empty">
+        <p class="empty-message">{{ translations.noEntryToday }}</p>
+      </div>
+    </template>
   </div>
 </template>
 
@@ -187,6 +212,66 @@ onMounted(() => {
 @keyframes pulse {
   0%, 100% { transform: scale(0.8); opacity: 0.5; }
   50% { transform: scale(1); opacity: 1; }
+}
+
+/* Day navigation */
+.day-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.day-nav-date {
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--color-accent, #B45309);
+  margin: 0;
+  min-width: 10rem;
+  text-align: center;
+  letter-spacing: 0.025em;
+}
+
+[data-theme="dark"] .day-nav-date {
+  color: #D97706;
+}
+
+.day-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--border-color, rgba(44, 24, 16, 0.15));
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-accent, #B45309);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.day-nav-btn:hover {
+  background: var(--color-accent, #B45309);
+  color: white;
+  border-color: var(--color-accent, #B45309);
+}
+
+[data-theme="dark"] .day-nav-btn {
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #D97706;
+}
+
+[data-theme="dark"] .day-nav-btn:hover {
+  background: #D97706;
+  color: #1a1a1a;
+  border-color: #D97706;
+}
+
+.day-nav-btn svg {
+  width: 1.125rem;
+  height: 1.125rem;
 }
 
 .this-day-card {
@@ -342,6 +427,11 @@ onMounted(() => {
 
   .this-day-quote p {
     font-size: 0.9375rem;
+  }
+
+  .day-nav-date {
+    font-size: 1rem;
+    min-width: 8rem;
   }
 }
 </style>
