@@ -14,7 +14,7 @@ CLAUDE.md files provide guidance for AI agents working at that level:
 /
 ├── CLAUDE.md                      # Project-wide: mission, navigation, roles
 │
-├── src/
+├── content/
 │   ├── CLAUDE.md                  # Diary content: formats, IDs, workflow states
 │   ├── _original/
 │   │   ├── CLAUDE.md              # French sources: annotation types, research
@@ -23,14 +23,13 @@ CLAUDE.md files provide guidance for AI agents working at that level:
 │   └── cz/
 │       └── CLAUDE.md              # Czech translations: conventions, memory
 │
-├── frontend/
-│   └── CLAUDE.md                  # ✅ Exists - frontend-specific
-│
-├── shared/
-│   └── CLAUDE.md                  # ✅ Exists - shared library
-│
-├── scripts/
-│   └── CLAUDE.md                  # CLI commands, hooks, utilities
+├── src/
+│   ├── frontend/
+│   │   └── CLAUDE.md              # Frontend-specific
+│   ├── shared/
+│   │   └── CLAUDE.md              # Shared TypeScript library
+│   └── scripts/
+│       └── CLAUDE.md              # CLI commands, hooks, utilities
 │
 └── .claude/
     └── skills/
@@ -42,7 +41,7 @@ CLAUDE.md files provide guidance for AI agents working at that level:
 README.md files in content directories track progress with structured TODOs and changelogs:
 
 ```
-src/
+content/
 ├── _original/
 │   ├── PROGRESS.md                # French source overall status
 │   ├── 001/
@@ -70,7 +69,7 @@ Each carnet folder contains a README.md tracking progress:
 ```markdown
 # Carnet XXX — [Language] [Translation|Source]
 
-<!-- SYNC: This file syncs with src/_original/XXX/README.md -->
+<!-- SYNC: This file syncs with content/_original/XXX/README.md -->
 <!-- WORKER: @github_username since YYYY-MM-DD -->
 
 ## Summary
@@ -90,7 +89,7 @@ Brief description of this carnet's content and time period.
 
 ### From Original (auto-synced)
 <!-- BEGIN:SYNC:ORIGINAL -->
-<!-- Items here are synced from src/_original/XXX/README.md -->
+<!-- Items here are synced from content/_original/XXX/README.md -->
 <!-- END:SYNC:ORIGINAL -->
 
 ### Local
@@ -130,26 +129,47 @@ Tags in README.md files trigger synchronization and categorization:
 | `CON-BLOCK` | Local only | Conductor blocked approval |
 | `CRITICAL` | All directions | High-priority issue |
 
-## Source Change Detection
+## Keeping Translations in Sync with Originals
 
-When an original entry file is edited (RSR or LAN comments added/changed), the system
-automatically notifies translations that may need updating.
+### The Problem
 
-### How It Works
+The French originals are a living document. Researchers keep adding context, correcting annotations, and refining glossary links — even after a translation has been completed. Without a system, translators would never know that the source they translated from has been updated, and their translations would silently drift out of date.
 
-1. **Source [hashing](https://en.wikipedia.org/wiki/Hash_function#Overview)**: Each translation stores a `source_hash` in frontmatter — a short fingerprint of the French text, so we can detect when it changes
-2. **Change detection**: When original edited, hash is recalculated
-3. **Notification**: If hash differs, `RSR-LAN-UPDATE` TODO added to translation README
+### The Solution: Source Change Detection
 
-### Translation Frontmatter
+The system automatically detects when a French original changes and notifies the affected translations. It works in three layers:
+
+#### 1. Content hashing
+
+Each translation file stores a `source_hash` in its [frontmatter](https://jekyllrb.com/docs/front-matter/) — a short [fingerprint](https://en.wikipedia.org/wiki/Hash_function#Overview) of the French text at the time of translation. When the original is edited, the system recalculates the hash and compares it:
 
 ```yaml
 ---
 date: 1873-01-11
 carnet: "001"
-source_hash: "a1b2c3d4e5f6g7h8"   # Hash of French text content
+source_hash: "a1b2c3d4e5f6g7h8"   # Fingerprint of the French text this was translated from
 translation_complete: true
 ---
+```
+
+#### 2. Automatic notification
+
+When a hash mismatch is detected (meaning the original changed), a TODO is added to the translation carnet's README:
+
+```
+RSR-LAN-UPDATE 1873-01-11: Original source updated — review translation
+```
+
+The translator sees this, reviews what changed, updates their translation if needed, and the hash is updated to the new value.
+
+#### 3. Annotation sync
+
+For changes that don't affect the translated text itself (new RSR research notes, updated glossary links), the sync script can propagate them directly into translation files without touching existing translations:
+
+```bash
+npx tsx src/scripts/sync-translation.ts 001              # Sync carnet 001
+npx tsx src/scripts/sync-translation.ts 001 --dry-run    # Preview what would change
+npx tsx src/scripts/sync-translation.ts 001 --lang en    # Specific language only
 ```
 
 ### Initializing Source Hashes
@@ -157,28 +177,22 @@ translation_complete: true
 Run once to populate hashes in existing translations:
 
 ```bash
-npx tsx scripts/hooks/init-source-hashes.ts           # All
-npx tsx scripts/hooks/init-source-hashes.ts cz        # Czech only
-npx tsx scripts/hooks/init-source-hashes.ts cz 001    # Specific carnet
+npx tsx src/scripts/hooks/init-source-hashes.ts           # All languages
+npx tsx src/scripts/hooks/init-source-hashes.ts cz        # Czech only
+npx tsx src/scripts/hooks/init-source-hashes.ts cz 001    # Specific carnet
 ```
 
-### Workflow
+### Bidirectional TODO Sync
 
-1. Researcher adds RSR comment to `_original/001/1873-01-11.md`
-2. Post-edit hook detects source hash changed
-3. TODO added to `cz/001/README.md`: `RSR-LAN-UPDATE 1873-01-11: Original source updated`
-4. Translator sees TODO, reviews changes, updates translation if needed
-5. After updating, translator can update `source_hash` to new value
-
-### Sync Markers
+Translators can also propose changes upstream — for example, if they notice a research error while translating. README sync markers define the direction of flow:
 
 ```markdown
 <!-- BEGIN:SYNC:ORIGINAL -->
-Items auto-populated from original README.md
+Items auto-populated from the French original's README
 <!-- END:SYNC:ORIGINAL -->
 
 <!-- BEGIN:SYNC:PROPOSE -->
-Items to be pushed upstream to original
+Items translators want to push upstream to the original
 <!-- END:SYNC:PROPOSE -->
 ```
 
@@ -216,24 +230,28 @@ Examples:
 - `[main-glossary] Added 12 new person entries`
 - `[infra] Updated TODO sync script`
 
-## Claude Code Hooks (Planned)
+## Claude Code Hooks
 
-TypeScript hooks will automate progress tracking:
+TypeScript [hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) automate progress tracking and sync. These run automatically during Claude Code sessions:
 
 ```
-scripts/
-└── hooks/
-    ├── index.ts              # Hook runner entry point
-    ├── pre-session.ts        # Show work status on Claude start
-    ├── post-edit.ts          # Update README after edits
-    ├── pre-commit.ts         # Sync TODOs, update PROGRESS
-    └── lib/
-        ├── readme-parser.ts  # Parse/update README.md files
-        ├── todo-sync.ts      # TODO propagation logic
-        └── progress.ts       # Aggregate progress stats
+src/scripts/hooks/
+├── pre-session.ts        # Show work status on Claude Code start
+├── post-edit.ts          # Update README and detect source changes after edits
+├── validate-write.ts     # Validate file format before writing
+├── session-end.ts        # End-of-session cleanup
+├── bootstrap-readmes.ts  # Create missing README/PROGRESS files
+├── init-source-hashes.ts # Initialize source hashes for sync
+└── lib/
+    ├── readme-parser.ts  # Parse/update README.md files
+    ├── todo-sync.ts      # TODO propagation logic
+    ├── source-sync.ts    # Source hash calculation and comparison
+    ├── progress.ts       # Aggregate progress stats
+    ├── config.ts         # Worker configuration
+    └── types.ts          # Shared type definitions
 ```
 
-### Hook Lifecycle
+### How Hooks Fit Together
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -242,19 +260,20 @@ scripts/
 │  ├─ Show assigned work and status                           │
 │  └─ Check for upstream changes or conflicts                 │
 ├─────────────────────────────────────────────────────────────┤
-│  POST-EDIT (after Write to src/**/*)                        │
+│  POST-EDIT (after Write to content/**/*)                    │
 │  ├─ Update carnet README.md progress table                  │
-│  ├─ Append changelog entry with timestamp + @user           │
-│  └─ Check for TODO triggers                                 │
+│  ├─ Compare source hashes → notify translations if changed  │
+│  └─ Append changelog entry with timestamp + @user           │
 ├─────────────────────────────────────────────────────────────┤
-│  PRE-COMMIT (before git commit)                             │
-│  ├─ Sync TODOs: original ↔ translations                     │
-│  ├─ Update PROGRESS.md aggregates                           │
-│  └─ Validate touched files                                  │
+│  VALIDATE-WRITE (before Write completes)                    │
+│  └─ Check that diary files have valid format                │
+├─────────────────────────────────────────────────────────────┤
+│  SESSION-END (on Claude Code exit)                          │
+│  └─ Cleanup and summary                                     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## Worker Configuration (Planned)
+## Worker Configuration
 
 Contributors configure their work in `.claude/WORKER_CONFIG.yaml`:
 

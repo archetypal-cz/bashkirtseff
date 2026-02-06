@@ -18,27 +18,30 @@ just update-frontmatter <carnet>          # updates all entries in a carnet
 just update-frontmatter-entry <filepath>  # updates single entry
 ```
 
-## Implementation Status
+## Tooling
 
-### Completed
+Frontmatter is handled by TypeScript utilities in the shared package (`@bashkirtseff/shared`). The core parser lives in `src/shared/src/parser/frontmatter.ts` and is used by both the frontend and CLI scripts.
 
-- ✅ Frontmatter parsing and generation utilities (`scripts/frontmatter_utils.py`)
-- ✅ Parser support for reading entries with frontmatter (`scripts/paragraph_parser.py`)
-- ✅ Renderer support for generating frontmatter (`scripts/paragraph_renderer.py`)
-- ✅ Tool to check for orphaned comments (`scripts/check_orphaned_comments.py`)
-- ✅ Test utilities (`scripts/test_frontmatter.py`)
+Some frontmatter operations have [`just`](https://github.com/casey/just) commands (run `just` to see all available commands):
 
-### Current Behavior
+```bash
+just check-frontmatter 001       # Check for missing/incomplete frontmatter in a carnet
+just check-para-start 001        # Check for missing para_start fields
+just check-para-start-all        # Coverage check across all carnets
+```
 
-- Files are written with `.new.md` extension to avoid overwriting originals
-- File-level comments are automatically moved to frontmatter
+For operations not yet wrapped in `just`, use the TypeScript scripts directly:
+
+```bash
+npx tsx src/scripts/sync-translation.ts 001              # Sync translations with originals
+npx tsx src/scripts/scaffold-translation.ts 001 cz       # Generate translation templates
+```
+
+### Key behaviors
+
+- File-level comments are moved to frontmatter `notes` array
 - Paragraph-level comments remain with their paragraphs
-
-### Known Issues to Address
-
-- File-level notes still appear in paragraph comments (need to remove after moving to frontmatter)
-- Duplicate entries in locations array need deduplication
-- Word count should be more accurate (currently counts all words in file)
+- Calculated fields (age, word count, metrics) are auto-generated
 
 ## Frontmatter Structure
 
@@ -180,66 +183,35 @@ Boolean flags for workflow stages:
 
 ## Usage Examples
 
-### Check for orphaned comments
+### Check frontmatter coverage
 
 ```bash
-python scripts/check_orphaned_comments.py check --summary
+just check-frontmatter 001              # Single carnet
+just check-para-start-all               # All carnets
 ```
 
-### Test frontmatter on single entry
+### Sync translations with updated originals
+
+When the French source is edited (new research, corrected annotations), translations need to know. The sync script propagates changes without overwriting existing translations:
 
 ```bash
-python scripts/test_frontmatter.py test-entry src/_original/001/1873-01-11.md
+npx tsx src/scripts/sync-translation.ts 001              # Sync carnet 001
+npx tsx src/scripts/sync-translation.ts 001 --dry-run    # Preview changes
+npx tsx src/scripts/sync-translation.ts 001 --lang en    # Specific language
 ```
 
-### Generate .new.md files for a carnet
+### Generate translation file scaffolds
+
+Create empty translation files pre-populated with paragraph IDs, glossary tags, and the French text in comments — ready for a translator to fill in:
 
 ```bash
-python scripts/test_frontmatter.py test-carnet 001 --write
-```
-
-### Export orphaned comments report
-
-```bash
-python scripts/check_orphaned_comments.py export -o report.txt
-```
-
-## Migration Process
-
-1. **Test Phase** (Current)
-   - Files written as `.new.md`
-   - Original files preserved
-   - Manual review of generated frontmatter
-
-2. **Migration Phase** (Future)
-   - Batch convert all entries
-   - Verify frontmatter accuracy
-   - Replace original files
-
-3. **Cleanup Phase** (Future)
-   - Remove file-level comments from content
-   - Update all scripts to use frontmatter
-   - Archive original format files
-
-## Integration with Carnet Types
-
-The frontmatter format is designed to work with the carnet type system:
-
-```python
-from scripts.carnet_types import get_carnet_handler, CARNET_CONFIG
-
-# Get carnet metadata
-carnet_meta = CARNET_CONFIG["001"]
-handler = get_carnet_handler("001")
-
-# Handler can validate entries with frontmatter
-issues = handler.validate_entry(entry_path)
+npx tsx src/scripts/scaffold-translation.ts 001 cz       # Czech scaffold for carnet 001
 ```
 
 ## Notes for Developers
 
-- Frontmatter is always optional - parser handles files with or without it
-- When present, frontmatter values override extracted values
-- All calculated fields are recalculated on each render
-- File-level comments should be removed from content when moved to frontmatter
-- The `_metadata` attribute on DiaryEntry stores parsed frontmatter for reference
+- Frontmatter is always optional — the parser handles files with or without it
+- When present, frontmatter values override values extracted from content
+- All calculated fields (age, metrics) are recalculated on each render
+- The shared package provides `parseFrontmatter()` and related utilities
+- See `src/shared/CLAUDE.md` for the full shared package API
