@@ -1,6 +1,6 @@
 # Norms for AI-Assisted Cultural Restoration
 
-> *"Que l'on ne change rien."*
+> _"Que l'on ne change rien."_
 > (Let nothing be changed.)
 > — Marie Bashkirtseff, 1884
 
@@ -23,21 +23,23 @@ This document articulates the norms we follow—and propose as standards for sim
 **Norm**: AI serves to transmit, never to transform or simulate the human voice.
 
 **In Practice**:
+
 - Translation preserves Marie's voice; AI is the translator, not the author
-- We never create chatbots or simulations ("Ask Marie!")
+- We never create chatbots or simulations ("Ask Marie" - not via us, but noone will prevent you from commiting necromancy on your own)
 - Summaries always lead to full text, never replace it
-- When uncertain, we include the original alongside any interpretation
+- We always include the original alongside any interpretation
 
 **Why This Matters**:
-Marie wrote to exist in her own words. Using AI to put words in her mouth would be the opposite of existence—it would be erasure dressed as preservation.
+Marie wrote to exist in her own words. Using AI to put words in her mouth would be the opposite of existence—it would be erasure dressed as puppeteering. Her human voice is not a style to be imitated; it's a presence to be preserved.
 
 ### 2. Transparency Is Non-Negotiable
 
-**Norm**: Every use of AI is documented and discoverable.
+**Norm**: Use of AI should be documented and discoverable.
 
 **In Practice**:
-- Methodology is public
-- Translation workflow is documented
+
+- Methodology should be public
+- Translation workflow should be documented and auditable down to git commits
 - AI-generated content is identified as such
 - Research sources are cited
 - Limitations are acknowledged
@@ -50,10 +52,11 @@ Marie practiced radical self-honesty. A project claiming to honor her cannot hid
 **Norm**: AI allows us to do more, not to do less carefully.
 
 **In Practice**:
-- Multi-stage review (Researcher → Linguist → Translator → Editor → Conductor)
+
+- Multi-stage process with several repeatable rounds (Conductor → Linguist → Researcher → Translator → Editor → Conductor)
 - Each AI role has defined responsibilities and quality standards
 - Human oversight at key decision points
-- No entry marked complete without review chain
+- No entry marked complete without full review chain finishing with human editing
 
 **Why This Matters**:
 AI could translate all 3,300 entries in days. That would dishonor Marie. The scale AI enables is meaningful only if quality is maintained at every step.
@@ -63,18 +66,21 @@ AI could translate all 3,300 entries in days. That would dishonor Marie. The sca
 **Norm**: When representing someone who cannot speak for themselves, err toward their expressed wishes.
 
 **In Practice**:
+
 - Marie explicitly asked for her diary to be published complete ("Que l'on ne change rien")
 - She wanted fame, recognition, to be taken seriously
 - We honor these wishes while avoiding exploitation
 - We don't speculate about what she "would have" thought about modern topics
 
 **What We Know She Wanted**:
+
 - To be read
 - To be remembered
 - To be taken seriously
 - To have nothing changed
 
 **What We Don't Presume**:
+
 - Her opinions on topics she never addressed
 - How she would feel about specific modern issues
 - "What Marie would think" about anything not in her diary
@@ -84,13 +90,15 @@ AI could translate all 3,300 entries in days. That would dishonor Marie. The sca
 **Norm**: Acknowledge everyone who contributed to making this work possible.
 
 **The Chain**:
+
 1. **Marie Bashkirtseff** wrote the diary
 2. **Her family** preserved it (though censored it)
-3. **The Cercle des Amis** transcribed the complete originals
-4. **Katherine Kernberger** spent decades producing a scholarly English translation
-5. **This project** uses AI to translate further and make accessible
+3. **Ginette Apostolescu** transcribed the complete originals under **Cercle des Amis** over years of work
+4. **Katherine Kernberger** spent decades producing a scholarly English translation (we must not use it in any way besides marking paragraphs as 'also included in the Kernberger edition', since it's copyrighted, unlike simple transcription)
+5. **This project** uses AI to research, annotate, translate and make accessible
 
 **In Practice**:
+
 - Every significant document acknowledges the Cercle's foundational work
 - Katherine Kernberger's scholarship is cited and respected
 - The original manuscripts' location (BnF) is documented
@@ -101,19 +109,21 @@ AI could translate all 3,300 entries in days. That would dishonor Marie. The sca
 **Norm**: Share methodology so others can do similar work.
 
 **In Practice**:
+
 - Project is open source
 - Translation workflow is documented
 - Skills/prompts are shareable
 - We want others to bring their historical voices back too
 
 **Why This Matters**:
-Marie isn't the only voice censored or forgotten. If our methods help restore others, that multiplies the value of this work.
+Marie isn't the only voice censored or forgotten. If these methods help restore others, that multiplies the value of this work.
 
 ### 7. Commercial Use Is Secondary to Mission
 
 **Norm**: The goal is Marie's existence in human memory, not revenue.
 
 **In Practice**:
+
 - Translations are freely accessible online
 - Open source tools
 - If commercial elements exist (books, apps), they fund the mission
@@ -131,6 +141,7 @@ These practices are explicitly rejected:
 ### No Marie Chatbots
 
 We will never create:
+
 - "Chat with Marie" interfaces
 - AI trained to respond "as Marie"
 - Simulated conversations with the dead
@@ -140,6 +151,7 @@ Marie exists in her own words. Putting words in her mouth is not preservation—
 ### No Speculative Content
 
 We will not create:
+
 - "What Marie would think about [modern topic]"
 - Stories about Marie doing things she didn't document
 - "Marie's advice for..." content
@@ -149,6 +161,7 @@ We have 20,000 pages of what she actually wrote. That's enough.
 ### No Sensationalism
 
 We will not emphasize:
+
 - Scandals over substance
 - Illness as spectacle
 - Death as clickbait
@@ -159,6 +172,7 @@ Marie wanted serious fame. She would despise being reduced to gossip.
 ### No Uncredited AI
 
 We will not:
+
 - Present AI-generated text as human-written
 - Hide the role of AI in translation
 - Obscure methodology
@@ -166,6 +180,7 @@ We will not:
 ### No "Improvements"
 
 We will not:
+
 - Edit Marie's text for modern sensibilities
 - Sanitize views that jar contemporary readers
 - Soften her vanity or ambition
@@ -182,6 +197,7 @@ She asked that nothing be changed. We honor that.
 Marie held some views typical of 19th-century aristocrats that modern readers may find objectionable.
 
 **Our Approach**:
+
 - Translate faithfully, including uncomfortable passages
 - Provide historical context where helpful
 - Do not editorialize or apologize
@@ -192,6 +208,7 @@ Marie held some views typical of 19th-century aristocrats that modern readers ma
 Some passages are ambiguous. 19th-century French idioms don't always map cleanly.
 
 **Our Approach**:
+
 - Note uncertainty in translator comments
 - Include original French for verification
 - Prefer preserving ambiguity over false certainty
@@ -202,6 +219,7 @@ Some passages are ambiguous. 19th-century French idioms don't always map cleanly
 Marie wrote about real people, some harshly.
 
 **Our Approach**:
+
 - These people have been dead for over a century
 - The original has been published in French
 - We translate what Marie wrote
@@ -212,6 +230,7 @@ Marie wrote about real people, some harshly.
 AI can generate plausible-sounding false information.
 
 **Our Approach**:
+
 - Research phase verifies facts
 - Multiple review stages catch errors
 - Sources are cited for historical claims
@@ -229,6 +248,7 @@ We propose these norms not just for ourselves, but as a model for:
 - **Any project** that uses AI to transmit human voices across time
 
 The principles are transferable:
+
 1. The human voice is sovereign
 2. Transparency is non-negotiable
 3. AI enables scale, not shortcuts
@@ -242,6 +262,7 @@ The principles are transferable:
 ## Why This Matters Now
 
 We are at an inflection point. AI can now:
+
 - Translate entire libraries
 - Research historical figures at scale
 - Generate content resembling human writing
@@ -269,7 +290,7 @@ Marie was radically honest. A project in her name must be too.
 
 ---
 
-> *"Je suis mon propre héros."*
+> _"Je suis mon propre héros."_
 > (I am my own hero.)
 
 Marie Bashkirtseff was her own hero. AI won't change that. It will just help more people discover it.

@@ -141,6 +141,14 @@
   }
 }
 
+/* Pinned sidebar layout */
+@media (min-width: 1024px) {
+  .sidebar-pinned main {
+    margin-left: 320px;
+    transition: margin-left 0.3s ease;
+  }
+}
+
 /* Component utilities */
 @layer components {
   .btn {

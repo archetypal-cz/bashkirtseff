@@ -44,7 +44,7 @@ src/frontend/dist/
 Thumbs.db
 
 # Raw source materials (large binary files)
-raw_books/
+raw/
 
 # Working files (personal, not shared)
 .claude/WORKER_CONFIG.yaml

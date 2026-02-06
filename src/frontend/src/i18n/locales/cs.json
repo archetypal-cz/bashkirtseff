@@ -69,7 +69,10 @@
     "openContents": "Otevřít obsah sešitu",
     "closeContents": "Zavřít obsah",
     "searchEntries": "Hledat záznamy...",
-    "backToCarnet": "Zpět na přehled sešitu"
+    "backToCarnet": "Zpět na přehled sešitu",
+    "pinSidebar": "Připnout panel",
+    "unpinSidebar": "Odepnout panel",
+    "calendar": "Kalendář"
   },
   "language": {
     "original": "Originál (vícejazyčný)",

@@ -69,7 +69,10 @@
     "openContents": "Ouvrir le sommaire du cahier",
     "closeContents": "Fermer le sommaire",
     "searchEntries": "Rechercher des entrées...",
-    "backToCarnet": "Retour à l'aperçu du cahier"
+    "backToCarnet": "Retour à l'aperçu du cahier",
+    "pinSidebar": "Épingler le panneau",
+    "unpinSidebar": "Désépingler le panneau",
+    "calendar": "Calendrier"
   },
   "language": {
     "original": "Original (multilingue)",

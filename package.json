@@ -1,7 +1,7 @@
 {
   "name": "bashkirtseff-diary",
   "version": "0.6.0",
-  "description": "Marie Bashkirtseff's complete diary - translation and publication project",
+  "description": "Complete uncensored diary of Marie Bashkirtseff (1858–1884) — 106 notebooks, censored for a century. AI-assisted translation pipeline, historical research, multilingual ebook/PWA.",
   "private": true,
   "type": "module",
   "workspaces": [

@@ -67,7 +67,10 @@
     "openContents": "Відкрити зміст зошита",
     "closeContents": "Закрити зміст",
     "searchEntries": "Шукати записи...",
-    "backToCarnet": "Назад до огляду зошита"
+    "backToCarnet": "Назад до огляду зошита",
+    "pinSidebar": "Закріпити панель",
+    "unpinSidebar": "Відкріпити панель",
+    "calendar": "Календар"
   },
   "language": {
     "original": "Оригінал (багатомовний)",

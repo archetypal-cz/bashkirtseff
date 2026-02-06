@@ -53,13 +53,14 @@ const processedParagraphs = entry.paragraphs.map(p => ({
 
 <ReadingLayout title={`${entry.title} — Cahier ${carnet}`}>
   <!-- Carnet sidebar -->
-  <div class="fixed top-20 left-4 z-50 hidden lg:block">
+  <div class="fixed top-20 left-4 z-50">
     <BookSidebar
       client:load
       carnet={carnet!}
       currentEntry={entryDate!}
       entries={carnetEntries}
       language="_original"
+      selectedDate={entryDate!}
     />
   </div>
 
@@ -164,6 +165,13 @@ const processedParagraphs = entry.paragraphs.map(p => ({
     </nav>
   </article>
 </ReadingLayout>
+
+<script is:inline>
+  // Apply pinned sidebar state immediately to prevent layout flash
+  if (window.matchMedia('(min-width: 1024px)').matches && localStorage.getItem('sidebar-pinned') === 'true') {
+    document.documentElement.classList.add('sidebar-pinned');
+  }
+</script>
 
 <script>
   // Handle deep linking - highlight paragraph on page load

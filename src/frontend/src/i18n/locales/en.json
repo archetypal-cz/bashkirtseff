@@ -69,7 +69,10 @@
     "openContents": "Open notebook contents",
     "closeContents": "Close contents",
     "searchEntries": "Search entries...",
-    "backToCarnet": "Back to notebook overview"
+    "backToCarnet": "Back to notebook overview",
+    "pinSidebar": "Pin sidebar",
+    "unpinSidebar": "Unpin sidebar",
+    "calendar": "Calendar"
   },
   "language": {
     "original": "Original (multilingual)",
