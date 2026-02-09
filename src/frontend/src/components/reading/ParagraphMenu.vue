@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, reactive } from 'vue';
+import { ref, onMounted } from 'vue';
 import { useI18n } from '../../i18n';
 
 const { t } = useI18n();
@@ -25,6 +25,7 @@ function closeMenu() {
   isOpen.value = false;
 }
 
+const mounted = ref(false);
 const copied = ref(false);
 const canShare = ref(false);
 
@@ -57,10 +58,10 @@ async function shareLink() {
   }
 }
 
-// Check if Web Share API is available
-if (typeof window !== 'undefined') {
+onMounted(() => {
+  mounted.value = true;
   canShare.value = !!navigator.share;
-}
+});
 </script>
 
 <template>
@@ -78,9 +79,9 @@ if (typeof window !== 'undefined') {
       </svg>
     </button>
 
-    <!-- Bottom sheet modal (all screen sizes) -->
-    <Teleport to="body">
-      <Transition name="modal">
+    <!-- Bottom sheet modal - deferred to avoid SSR hydration mismatch -->
+    <Teleport v-if="mounted" to="body">
+      <Transition name="ph-modal">
         <div v-if="isOpen" class="sheet-backdrop" @click="closeMenu">
           <div class="sheet-content" @click.stop>
             <!-- Close menu item -->
@@ -270,24 +271,31 @@ if (typeof window !== 'undefined') {
   border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
 }
 
-/* Modal transition */
-.modal-enter-active,
-.modal-leave-active {
+</style>
+
+<!-- Transition CSS must be unscoped to work with Teleport to body -->
+<style>
+.ph-modal-enter-active,
+.ph-modal-leave-active {
   transition: opacity 0.2s ease;
 }
 
-.modal-enter-active .sheet-content,
-.modal-leave-active .sheet-content {
+.ph-modal-leave-active {
+  pointer-events: none;
+}
+
+.ph-modal-enter-active .sheet-content,
+.ph-modal-leave-active .sheet-content {
   transition: transform 0.2s ease;
 }
 
-.modal-enter-from,
-.modal-leave-to {
+.ph-modal-enter-from,
+.ph-modal-leave-to {
   opacity: 0;
 }
 
-.modal-enter-from .sheet-content,
-.modal-leave-to .sheet-content {
+.ph-modal-enter-from .sheet-content,
+.ph-modal-leave-to .sheet-content {
   transform: translateY(100%);
 }
 </style>
