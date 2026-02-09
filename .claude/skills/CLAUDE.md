@@ -12,17 +12,17 @@ skills/
 │   └── paragraph_format.md        # Standard paragraph format spec
 │
 ├── researcher/
-│   └── SKILL.md                   # Historical research role
+│   └── SKILL.md                   # Historical research + footnotes
 ├── linguistic-annotator/
-│   └── SKILL.md                   # Translation guidance role
+│   └── SKILL.md                   # Translation guidance
 ├── translator/
-│   └── SKILL.md                   # Translation role
+│   └── SKILL.md                   # Translation role (future)
 ├── editor/
-│   └── SKILL.md                   # Quality review role
+│   └── SKILL.md                   # Quality review role (future)
 ├── conductor/
-│   └── SKILL.md                   # Final approval role
+│   └── SKILL.md                   # Final approval role (future)
 ├── executive-director/
-│   └── SKILL.md                   # Workflow orchestration
+│   └── SKILL.md                   # Team lead & orchestration
 ├── glossary/
 │   └── SKILL.md                   # Glossary management
 ├── entry-restructurer/
@@ -32,29 +32,39 @@ skills/
 ├── workflow-architect/
 │   └── SKILL.md                   # System maintenance
 ├── gemini-czech-editor/
-│   └── SKILL.md                   # External Gemini review
+│   └── SKILL.md                   # External Gemini review (future)
 └── stewardship/
     └── SKILL.md                   # Social content generation
 ```
 
-## Translation Pipeline Roles
+## Pipelines
 
-The core translation workflow uses these roles in order:
+### Pipeline 1: Source Preparation (ACTIVE)
 
-| Order | Role | Code | Purpose |
-|-------|------|------|---------|
-| 1 | Researcher | RSR | Historical context, entity extraction |
-| 2 | Linguistic Annotator | LAN | Translation guidance |
-| 3 | Translator | TR | French → Czech translation |
-| 4 | Gemini Editor | GEM | External AI review |
-| 5 | Editor | RED | Quality check, naturalness |
-| 6 | Conductor | CON | Final literary approval |
+Get every original French entry properly researched, annotated, and footnoted before any translation begins. Uses **Agent Teams** for parallel processing.
+
+| Order | Role | Code | Model | Purpose |
+|-------|------|------|-------|---------|
+| 1 | Researcher | RSR | Opus | Entity extraction, glossary, footnotes, historical context |
+| 2 | Linguistic Annotator | LAN | Opus | Period vocabulary, idioms, Marie's quirks, translation guidance |
+| 3 | Evaluator | EVAL | Sonnet | Quality verification (ED or subagent) |
+
+**Agent Teams setup**: ED is team lead in delegate mode. RSR and LAN are persistent teammates that self-claim tasks from a shared task list with dependency chains. EVAL is handled by ED or a Sonnet subagent.
+
+### Pipeline 2: Translation (FUTURE — after originals stable)
+
+| Order | Role | Code | Model | Purpose |
+|-------|------|------|-------|---------|
+| 1 | Translator | TR | TBD | French → target language |
+| 2 | Gemini Editor | GEM | External | Cross-model review (subagent, not teammate) |
+| 3 | Editor | RED | Sonnet | Quality check, naturalness |
+| 4 | Conductor | CON | Opus | Final literary approval |
 
 ## Support Roles
 
 | Role | Purpose |
 |------|---------|
-| Executive Director | Orchestrate multi-entry workflows |
+| Executive Director | Team lead, orchestration, quality evaluation |
 | Glossary | Create and maintain glossary entries |
 | Entry Restructurer | Standardize entry format |
 | Project Status | Track progress, generate reports |
@@ -63,13 +73,23 @@ The core translation workflow uses these roles in order:
 
 ## Invoking Skills
 
-Use slash commands in Claude Code:
+### Standalone (single entry, manual)
+```
+/researcher              # Research a specific entry
+/linguistic-annotator    # Annotate a specific entry
+/project-status cz 001   # Check carnet 001 status
+```
 
+### Agent Teams (bulk processing)
 ```
-/researcher              # Start research role
-/translator              # Start translation role
-/project-status cz 001   # Check Czech carnet 001 status
+/executive-director 015   # ED creates team for carnet 015
 ```
+
+ED will:
+1. Create team "source-015"
+2. Spawn RSR (Opus) and LAN (Opus) teammates
+3. Create tasks with dependency chains for all entries
+4. Monitor, evaluate, report
 
 ## Skill File Format
 
@@ -79,12 +99,14 @@ Each `SKILL.md` follows this structure:
 ---
 name: skill-name
 description: Brief description for skill listing
-allowed-tools: Read, Write, Edit, Grep, Glob, WebSearch
 ---
 
 # Role Name
 
 You are the [role] for the Marie Bashkirtseff project.
+
+## Agent Teams Protocol
+[How to work in a team: self-claiming, messaging, etc.]
 
 ## Primary Responsibilities
 ...
@@ -107,4 +129,4 @@ You are the [role] for the Marie Bashkirtseff project.
 
 - `/CLAUDE.md` - Project-wide guidance
 - `/docs/INFRASTRUCTURE.md` - Collaboration system
-- `/prompts/` - Style guides and workflows
+- `/.claude/project_config.md` - Model allocation, thresholds, pipeline config

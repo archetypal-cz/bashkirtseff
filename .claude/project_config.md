@@ -36,13 +36,49 @@ quality:
 
 ## Model Allocation
 
+# Principle: Opus for understanding, knowledge, and writing.
+# Sonnet for administrative and evaluation tasks.
 models:
-  executive_director: opus
-  conductor: opus
-  linguistic_annotator: opus
-  researcher: sonnet
-  translator: sonnet
+  # Source preparation pipeline (Phase 1 — current focus)
+  executive_director: opus       # deep understanding needed to evaluate all roles
+  researcher: opus               # knowledge, research, footnote writing
+  linguistic_annotator: opus     # deep language understanding, period expertise
+  source_evaluator: sonnet       # checklist-based quality verification
+
+  # Translation pipeline (Phase 2 — future)
+  translator: sonnet             # TBD, may upgrade to opus
   editor: sonnet
+  conductor: opus
+
+## Agent Teams Settings
+
+agent_teams:
+  enabled: true
+  # Current active pipeline
+  active_pipeline: source_preparation
+
+  # Source preparation pipeline: RSR → LAN → EVAL
+  source_preparation:
+    team_name_pattern: "source-{carnet}"
+    teammates:
+      - role: researcher
+        model: opus
+        skill: .claude/skills/researcher/SKILL.md
+      - role: linguistic-annotator
+        model: opus
+        skill: .claude/skills/linguistic-annotator/SKILL.md
+    evaluation:
+      model: sonnet    # ED or subagent runs quality checks
+      method: checklist  # systematic verification, not literary judgment
+
+  # Translation pipeline (future — activate after originals stable)
+  # translation:
+  #   team_name_pattern: "{lang}-{carnet}"
+  #   teammates:
+  #     - role: translator
+  #     - role: editor
+  #     - role: conductor
+  #   gemini_review: subagent  # not a teammate
 
 ## Automation Settings
 
