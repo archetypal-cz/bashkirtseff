@@ -1,8 +1,8 @@
 # Cultural Stewardship Strategy
 
-> *"On ne lit que ce qui existe, et moi je veux exister."*
-> (One only reads what exists, and I want to exist.)
-> — Marie Bashkirtseff, 1884
+> **Principles and norms have been consolidated into [`docs/STEWARDSHIP.md`](../STEWARDSHIP.md).**
+>
+> This file retains the strategic detail (platform strategy, content calendar, metrics, launch phases) that goes beyond principles into execution planning.
 
 ---
 

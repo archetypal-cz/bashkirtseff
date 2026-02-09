@@ -46,7 +46,7 @@ Marie wanted above all for the world to know her from her diary — as complete 
 >
 > (Let nothing be changed.)
 
-For over a century, we failed her. But today, we have the tools to change that. AI-assisted translation makes it possible to offer _everything_ — and let readers decide what they want to read. The devoted can follow every entry; others can discover the highlights that resonate most.
+For over a century, we failed her. But today, we have unprecedented tools to change that. AI-assisted translation makes it possible to offer _everything_ and let readers decide whether to delve or skim. The devoted can follow every entry; others can discover the highlights that resonate most.
 
 ---
 
@@ -54,17 +54,18 @@ For over a century, we failed her. But today, we have the tools to change that. 
 
 **Bashkirtseff** is a project to bring Marie's complete, uncensored voice to the world.
 
-We begin with translation — making her diary accessible in languages beyond French. But translation is just the start.
+We are just begin with free (as in open-source, CC BY-NC-SA 4.0 licensed) full original transcript, and build annotations and research. They will also serve well because we're planning on making Marie's diary accessible in languages beyond French. But translation is just the start.
 
 The vision:
 
 - **Complete texts** in multiple languages, freely accessible
-- **Scholarly apparatus** — glossary, historical context, research — so readers can fully understand her world
 - **Her art** alongside her words — she wanted to be known as a painter
-- **Modern formats** — web, apps, audio — because she wanted _everyone_, not just academics
+- **Her world** photos and maps of the places she lived and traveled, historical context for the people and events she mentions
+- **Scholarly apparatus** — glossary, historical context, research — so readers can explore and grasp her world
+- **Modern formats** — let it be a website that is also an 'app', without ads or tracking, audio — because she wanted _everyone_, not just academics
 - **Open source tools** — so anyone can contribute to bringing Marie to their language
 
-If this grows into something larger — a revival of interest in Marie, a community, perhaps an organization — so be it. She would approve.
+If this grows into something larger, a revival of interest in Marie, a community, perhaps an organization, so be it. She would approve.
 
 > _"Je veux tout, et tout de suite."_
 >

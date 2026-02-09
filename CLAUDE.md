@@ -204,6 +204,8 @@ just deploy-logs        # View logs
 ## Key Resources
 
 - **Justfile**: `/justfile` - ALL commands (use `just help`)
+- **Project Journey**: `/JOURNEY.md` - How the project evolved (narrative changelog)
+- **Stewardship**: `/docs/STEWARDSHIP.md` - Principles, norms, ethical framework
 - **Style Guide**: `/docs/prompts/Style.md`
 - **Infrastructure**: `/docs/INFRASTRUCTURE.md` - Progress tracking & collaboration
 - **Content Guide**: `/content/CLAUDE.md` - Diary content structure
