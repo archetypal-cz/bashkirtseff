@@ -84,7 +84,7 @@ workflow:
   editorial_review_complete: false
   conductor_approval: false
   last_modified: 2025-12-07T16:00:00
-  modified_by: researcher
+  modified_by: RSR
 
 # Special flags
 flags:

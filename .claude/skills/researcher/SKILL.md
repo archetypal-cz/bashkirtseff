@@ -31,6 +31,7 @@ When working **standalone** (invoked directly via `/researcher`), process the en
 ### 1. Entity Extraction
 
 Identify and tag all:
+
 - **People**: Names, relationships to Marie, social standing
 - **Places**: Locations, addresses, venues Marie visits
 - **Events**: Balls, concerts, exhibitions, political events
@@ -39,10 +40,12 @@ Identify and tag all:
 ### 2. Location Determination
 
 **CRITICAL**: Location must be determined for every entry and recorded in the frontmatter:
+
 - `location`: Marie's primary location on the day of writing (usually city)
 - `locations`: Array of all locations mentioned, with the primary location FIRST
 
 How to determine location:
+
 - Check previous entries for travel context
 - Use clues in text: addresses, place names, weather descriptions
 - Common locations: Nice, Paris, Rome, Vienna, various villas
@@ -55,6 +58,7 @@ How to determine location:
 Footnotes serve readers who need context to follow the text. They are NOT the same as RSR comments (which serve translators/editors).
 
 #### When to create a footnote:
+
 - **Historical events** a modern reader wouldn't know (political crises, specific battles, exhibitions)
 - **Cultural practices** that are unfamiliar today (Russian New Year mirror divination, Victorian mourning customs, salon etiquette)
 - **Specific people** who are important to understand the passage but not obvious from context (not every person — only when knowing who they are matters for comprehension)
@@ -62,6 +66,7 @@ Footnotes serve readers who need context to follow the text. They are NOT the sa
 - **Foreign language passages** that need explanation beyond what the text provides
 
 #### When NOT to create a footnote:
+
 - People who are obvious from context ("my mother", "my cousin Dina")
 - Places that are self-explanatory ("Nice", "Paris")
 - Things the glossary already handles (the footnote is for inline reading; the glossary is for deep reference)
@@ -72,11 +77,13 @@ Footnotes serve readers who need context to follow the text. They are NOT the sa
 Footnote IDs use the pattern `[^CC.PP.N]` — carnet number (2-digit), paragraph number, sequential count:
 
 Inline reference in text (within paragraph 015.0119):
+
 ```markdown
 On a raconté les différentes divinations.[^15.119.1]
 ```
 
 Definition at end of entry (after last paragraph block):
+
 ```markdown
 [^15.119.1]: Mirror divination (гадание) was a Russian folk tradition practiced around New Year. Young women would set up two mirrors facing each other by candlelight, hoping to see the face of their future husband in the infinite reflections. Marie's family maintained Russian customs despite living abroad.
 ```
@@ -99,13 +106,15 @@ These are part of the source text. If one needs explanation for readers, add a f
 
 ### 4. Glossary Management
 
-**IMPORTANT**: All glossary filenames MUST use CAPITAL_ASCII format and be relative (../_glossary/...):
+**IMPORTANT**: All glossary filenames MUST use CAPITAL_ASCII format and be relative (../\_glossary/...):
+
 - UPPERCASE letters only (A-Z)
-- Numbers (0-9) and underscores (_)
+- Numbers (0-9) and underscores (\_)
 - NO accents or special characters (è→E, ç→C)
 - Example: `MARIE_BASHKIRTSEFF.md`, `THEATRE_FRANCAIS.md`
 
 **Create new entry when**:
+
 - Person, place, or concept appears for first time
 - Existing entry needs significant expansion
 
@@ -164,6 +173,7 @@ pronunciation: "https://translate.google.com/?sl=ru&tl=en&text=Башкирце�
   - URL-encode special characters (spaces → %20)
 
 **Examples:**
+
 ```yaml
 # Russian person (Bashkirtseff family)
 languages:
@@ -197,17 +207,17 @@ pronunciation: "https://translate.google.com/?sl=de&tl=en&text=Wagner"
 ```yaml
 ---
 # STATIC ATTRIBUTES (manually filled by researcher)
-date: 1881-05-15              # ISO date from filename
-type: daily_entry             # usually daily_entry
-carnet: "087"                 # 3-digit carnet number from path
-entry_id: "1881-05-15"        # usually same as date
+date: 1881-05-15 # ISO date from filename
+type: daily_entry # usually daily_entry
+carnet: "087" # 3-digit carnet number from path
+entry_id: "1881-05-15" # usually same as date
 
-location: Nice                # Marie's location on this day
-locations: [Nice, Villa_Baquis, Promenade_des_Anglais]  # all locations mentioned (primary FIRST)
+location: Nice # Marie's location on this day
+locations: [Nice, Villa_Baquis, Promenade_des_Anglais] # all locations mentioned (primary FIRST)
 
 dates:
-  primary: "Samedi, 15 mai 1881"    # full date header
-  merged: []                        # for slash format entries
+  primary: "Samedi, 15 mai 1881" # full date header
+  merged: [] # for slash format entries
 
 entities:
   people: [Duke_of_Hamilton, Boreel, Mme_Gavini]
@@ -215,17 +225,18 @@ entities:
   cultural: [La_Traviata, Concert_Pasdeloup]
 
 workflow:
-  research_complete: true           # set to true when done
+  research_complete: true # set to true when done
   linguistic_annotation_complete: false
   translation_complete: false
   editorial_review_complete: false
   conductor_approval: false
   last_modified: 2026-01-07T14:30:00
-  modified_by: researcher
+  modified_by: RSR
 
 flags:
-  empty_in_source: false           # true if verified empty in carnet
-  has_continuation: false          # true if continues in next file
+  empty_in_source: false # true if verified empty in carnet
+  has_continuation: false # true if continues in next file
+
 
 # CALCULATED ATTRIBUTES (leave empty - filled by script)
 # marie_age:                  # calculated from birth date
@@ -234,6 +245,7 @@ flags:
 ```
 
 **IMPORTANT**: After creating/updating static attributes, run the frontmatter update script to populate calculated fields:
+
 ```bash
 just update-frontmatter <carnet>          # updates all entries in a carnet
 # or
@@ -241,6 +253,7 @@ just update-frontmatter-entry <filepath>  # updates single entry
 ```
 
 **IMPORTANT**: The `entities` section is the authoritative source for all tagged entities:
+
 - `people`: People mentioned in the entry (use CAPITAL_ASCII format without extension)
 - `places`: Places and locations mentioned
 - `cultural`: Cultural references (operas, books, artworks, etc.)
@@ -252,6 +265,7 @@ just update-frontmatter-entry <filepath>  # updates single entry
 **IMPORTANT**: Identify and tag languages used in each paragraph.
 
 #### Rules:
+
 - **French only**: No language tags needed (French is the implicit default)
 - **French + other language(s)**: Tag with #French AND the other language(s)
   - Example: `%% [#French](../_glossary/culture/languages/FRENCH.md) [#English](../_glossary/culture/languages/ENGLISH.md) %%`
@@ -259,6 +273,7 @@ just update-frontmatter-entry <filepath>  # updates single entry
   - Example: `%% [#Italian](../_glossary/culture/languages/ITALIAN.md) %%`
 
 #### Available Language Tags:
+
 - `[#French](../_glossary/culture/languages/FRENCH.md)` - primary diary language
 - `[#English](../_glossary/culture/languages/ENGLISH.md)` - English expressions/phrases
 - `[#Italian](../_glossary/culture/languages/ITALIAN.md)` - Italian expressions
@@ -267,6 +282,7 @@ just update-frontmatter-entry <filepath>  # updates single entry
 - `[#Latin](../_glossary/culture/languages/LATIN.md)` - Latin phrases
 
 #### Examples:
+
 ```markdown
 %% 015.0042 %%
 %% [#Nice](../_glossary/places/cities/NICE.md) %%
@@ -292,6 +308,7 @@ Add researcher comments for context that helps translators and editors:
 ```
 
 **When to add RSR comments** (these serve translators/editors, NOT readers):
+
 - Identifying people who aren't obvious from context
 - Historical events referenced
 - Cultural practices needing explanation
@@ -319,6 +336,7 @@ Add researcher comments for context that helps translators and editors:
 ### Useful Commands
 
 **Find entries missing annotations**:
+
 ```bash
 just find-missing "RSR:" content/_original/015    # Find entries without RSR comments
 just find-missing "LAN:" content/_original/015    # Find entries without LAN annotations
@@ -330,6 +348,7 @@ This is useful for batch processing to identify which entries still need work.
 ### Using WebSearch:
 
 Use for:
+
 - Verifying biographical facts (birth/death dates)
 - Historical event dates and details
 - Identifying obscure people or places
@@ -358,7 +377,11 @@ After processing an entry, return structured JSON:
   "glossary_updated": ["Duke_of_Hamilton"],
   "footnotes_added": 2,
   "uncertain_identifications": [
-    {"entity": "M. de X", "confidence": 0.5, "note": "Initial only, could be several people"}
+    {
+      "entity": "M. de X",
+      "confidence": 0.5,
+      "note": "Initial only, could be several people"
+    }
   ],
   "rsr_comments_added": 4,
   "confidence": 0.92,
@@ -381,18 +404,21 @@ After processing an entry, return structured JSON:
 ## Common Entity Patterns (Carnets 001-014)
 
 **Recurring People** (appear across many entries):
+
 - Duke of Hamilton (Marie's obsession) - see glossary for full context
 - Gioia (Hamilton's mistress) - coded names: "Laïs", "la Gioia"
 - Princess Souvoroff (Bête/Cunegunda) - socialite friend
 - Various family members: "diadia" (uncle), "ma tante", "Dina" (cousin)
 
 **Common Places**:
+
 - Nice (primary residence): Promenade des Anglais, Villa Baquis, various hotels
 - Paris: Grand Hôtel, theaters, shops (Worth, Ferry, Laferrière)
 - Vienna: brief visits for Exposition
 - Baden-Baden, Monaco, Rome (travel)
 
 **Cultural References to Watch**:
+
 - Operas (La Traviata, Orphée, La fille de Mme Angot)
 - Theaters (Folies Dramatiques, Opéra-Comique)
 - Horse racing (Dieppe, Porchefontaine)
@@ -402,6 +428,7 @@ After processing an entry, return structured JSON:
 ### Location Determination Tips
 
 Marie's location can often be determined by:
+
 1. **Previous entry context**: She typically stays put unless travel is mentioned
 2. **Weather descriptions**: "Il fait frais" in Paris vs "soleil de Nice"
 3. **Named venues**: "Grand Hôtel" = Paris, "Villa Baquis" = Nice
@@ -413,6 +440,7 @@ Marie's location can often be determined by:
 **CRITICAL**: Maintain proper paragraph block structure. Each paragraph block should contain ALL related content with NO empty lines within the block. Only use single empty lines BETWEEN paragraph blocks.
 
 ### Correct Paragraph Block Format:
+
 ```
 %% 001.0019 %%
 %% [#Nice](../_glossary/places/cities/NICE.md) [#Duke_of_Hamilton](../_glossary/people/core/DUKE_OF_HAMILTON.md) %%
@@ -427,10 +455,11 @@ Next paragraph text...
 ```
 
 ### Key Rules:
+
 1. **Paragraph ID** on its own line (e.g., %% 001.0019 %%)
 2. **Tags line** immediately follows (no blank line)
 3. **All annotations** (LAN, RSR, RED, CON) follow tags (no blank lines)
 4. **Original text** follows annotations (no blank line)
 5. **Single empty line** separates complete paragraph blocks
-6. For entries not in content/_original, wrap original text in comments
+6. For entries not in content/\_original, wrap original text in comments
 7. **Footnotes** go at the very end of the entry, after all paragraph blocks
