@@ -15,14 +15,14 @@ Carnet 084 of Marie Bashkirtseff's diary.
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 101 | 101 | — |
-| Research    | 55 | 101 | rsr-p1 (partial) |
+| Research    | 75 | 101 | rsr-p1 (partial) |
 | Annotation  | 0 | 101 | — |
 
 ## What's Done
 
-- 55/101 entries researched with RSR comments (rsr-p1, session interrupted)
+- 75/101 entries researched with RSR comments (rsr-p1, session interrupted)
 - Frontmatter standardized for researched entries
-- Remaining 46 entries need RSR in next session
+- Remaining 26 entries need RSR in next session
 
 ## Changelog
 
@@ -30,4 +30,4 @@ Carnet 084 of Marie Bashkirtseff's diary.
 Initialized carnet README for progress tracking.
 
 ### 2026-02-09 rsr-p1
-Partial RSR research — 55/101 entries completed before session end.
+Partial RSR research — 75/101 entries completed before session end.
