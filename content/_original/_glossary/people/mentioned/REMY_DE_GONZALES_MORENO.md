@@ -93,7 +93,7 @@ The Gonzalès family episode teaches young Marie several lessons:
 
 ## Related Entries
 
-- [#Gonzales_Family](Gonzales_Family.md) - The full family
+- [#Gonzales_Family](GONZALES_FAMILY.md) - The full family
 - [#Boyd_Family](Boyd_Family.md) - Berthe's family
 - [#Berthe](Berthe.md) - Rémy's primary romantic interest
 - [#Baden_Baden](Baden_Baden.md) - Where this all took place

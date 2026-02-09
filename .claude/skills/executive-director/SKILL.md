@@ -213,11 +213,39 @@ Update the carnet README.md progress table after batches complete:
 ## Useful Commands
 
 ```bash
+# Progress tracking
 just find-missing "research_complete: true" content/_original/{carnet}
 just find-missing "linguistic_annotation_complete: true" content/_original/{carnet}
 just find-missing "RSR:" content/_original/{carnet}
 just find-missing "LAN:" content/_original/{carnet}
 ```
+
+### Glossary CLI Tools
+
+Use these when evaluating RSR work reveals glossary issues (misplaced entries, duplicates):
+
+```bash
+# Move a misplaced glossary entry (updates ALL references across all content)
+just glossary-move ID new_category              # e.g., just glossary-move WALITSKY people/recurring
+just glossary-move-dry ID new_category          # Dry run first
+
+# Merge duplicate entries (AI-powered content merge via claude -p)
+just glossary-merge SOURCE TARGET               # e.g., just glossary-merge SOPHIE SOPHIE_DOLGIKOFF
+just glossary-merge-dry SOURCE TARGET           # Dry run first
+
+# Discovery
+just glossary-find ID                           # Find all references to an entry
+just glossary-duplicates                        # Find potential duplicates
+just glossary-orphaned                          # Entries with no references
+just glossary-missing                           # Referenced entries that don't exist
+just glossary-stats                             # Usage statistics
+```
+
+**When to use during evaluation:**
+- RSR created an entry in the wrong category → `just glossary-move`
+- Two glossary entries exist for the same entity → `just glossary-merge`
+- Referenced entry doesn't exist → flag for RSR or create it
+- After batch processing, run `just glossary-orphaned` and `just glossary-missing` to catch issues
 
 ## Communication
 

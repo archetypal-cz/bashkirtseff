@@ -200,6 +200,38 @@ pronunciation: "https://translate.google.com/?sl=de&tl=en&text=Wagner"
 
 **When examining existing glossary entries**, always check if these fields need to be added for names, places, or terms that aren't French or English.
 
+### Glossary CLI Tools
+
+When you need to recategorize or merge glossary entries, use the `just` commands instead of manual file operations:
+
+```bash
+# Move an entry to a different category (updates ALL references across all content)
+just glossary-move WALITSKY people/recurring
+just glossary-move-dry WALITSKY people/recurring    # Preview first
+
+# Merge duplicate entries (uses Claude to intelligently combine content)
+just glossary-merge SOPHIE SOPHIE_DOLGIKOFF          # Smart merge (default)
+just glossary-merge-dry SOPHIE SOPHIE_DOLGIKOFF      # Preview first
+
+# Find potential duplicates
+just glossary-duplicates
+
+# Find all diary entries referencing an entity
+just glossary-find WALITSKY
+
+# Search entries by pattern
+just glossary-search PAUL
+
+# List entries with no references / referenced but missing
+just glossary-orphaned
+just glossary-missing
+```
+
+**When to use these tools:**
+- You created an entry in the wrong category → `just glossary-move`
+- You find two entries for the same entity → `just glossary-merge`
+- You're unsure if an entry already exists → `just glossary-search` / `just glossary-find`
+
 ### 5. Frontmatter Management
 
 **PRIMARY DATA SOURCE**: All diary entries use YAML frontmatter as the authoritative source for metadata. When creating or updating entries, ensure frontmatter is at the beginning of the file:

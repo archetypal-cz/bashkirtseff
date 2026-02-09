@@ -54,6 +54,26 @@ glossary-search pattern:
 glossary-entry-report id:
     npx tsx src/scripts/glossary-refs.ts report {{id}}
 
+# Move a glossary entry to a new category and update all references
+glossary-move id new_category:
+    npx tsx src/scripts/glossary-move.ts {{id}} {{new_category}}
+
+# Move a glossary entry (dry run - show what would change)
+glossary-move-dry id new_category:
+    npx tsx src/scripts/glossary-move.ts --dry-run {{id}} {{new_category}}
+
+# Merge two glossary entries (source → target, updates all refs)
+glossary-merge source target:
+    npx tsx src/scripts/glossary-merge.ts merge {{source}} {{target}}
+
+# Merge glossary entries (dry run)
+glossary-merge-dry source target:
+    npx tsx src/scripts/glossary-merge.ts merge --dry-run {{source}} {{target}}
+
+# Find potential duplicate glossary entries
+glossary-duplicates:
+    npx tsx src/scripts/glossary-merge.ts find-duplicates
+
 # === UTILITIES ===
 
 # Verify all entries are properly formatted
@@ -335,6 +355,9 @@ help:
     @echo "  just glossary-missing     # List missing entries (broken links)"
     @echo "  just glossary-stats       # Show usage statistics"
     @echo "  just glossary-search PAT  # Search entries by pattern"
+    @echo "  just glossary-move ID CAT # Move entry to new category"
+    @echo "  just glossary-merge S T   # Merge two entries (S → T)"
+    @echo "  just glossary-duplicates  # Find potential duplicates"
     @echo ""
     @echo "PROJECT MANAGEMENT:"
     @echo "  just status          # Show project status"

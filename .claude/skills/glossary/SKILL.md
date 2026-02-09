@@ -189,9 +189,60 @@ content/
     └── _glossary/           # Ukrainian glossary (future)
 ```
 
-## Scripts
+## CLI Tools
 
-### Restructure Glossary
+### Finding References
+
+```bash
+just glossary-find WALITSKY        # Find all diary entries referencing WALITSKY
+just glossary-search PAUL          # Search entries by pattern
+just glossary-entry-report DINA    # Detailed report for an entry
+just glossary-stats                # Usage statistics
+just glossary-orphaned             # List entries with no references
+just glossary-missing              # List referenced entries that don't exist
+```
+
+### Moving Entries (Recategorization)
+
+Move a glossary entry to a different category and update ALL references across originals and translations:
+
+```bash
+just glossary-move BARBIER_DE_SEVILLE culture/opera    # Move and update refs
+just glossary-move-dry WALITSKY people/recurring        # Dry run first
+```
+
+**File**: `src/scripts/glossary-move.ts`
+
+The script:
+1. Finds the file wherever it currently lives in the glossary tree
+2. Moves it to the new category (creating directories if needed)
+3. Updates all references in `content/_original/` and `content/{cz,en,uk,fr}/`
+4. Cleans up empty source directories
+
+### Merging Duplicate Entries
+
+Merge two glossary entries about the same entity. Uses Claude to intelligently combine content:
+
+```bash
+just glossary-merge SOPHIE SOPHIE_DOLGIKOFF       # Merge (AI-powered content merge)
+just glossary-merge-dry SOPHIE SOPHIE_DOLGIKOFF    # Dry run
+just glossary-duplicates                            # Find potential duplicates
+```
+
+**File**: `src/scripts/glossary-merge.ts`
+
+The script:
+1. Renames all `[#SOURCE]` links to `[#TARGET]` across all content files
+2. Updates frontmatter entity lists
+3. Calls `claude -p` to intelligently merge the content (deduplicates, preserves all facts)
+4. Deletes the source file
+
+Options:
+- `--simple` — Skip AI merge, use mechanical append instead
+- `--no-delete` — Keep source file after merge
+- `--verbose` — Show detailed output
+
+### Restructuring Glossary Format
 
 Convert old-format entries to paragraph cluster format:
 

@@ -17,12 +17,13 @@
 
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { execSync } from 'node:child_process';
 import { GlossaryReferences } from '../shared/src/utils/glossary-references.js';
 
 const BASE_PATH = process.cwd();
 const ORIGINAL_BASE = path.join(BASE_PATH, 'content/_original');
 const GLOSSARY_BASE = path.join(BASE_PATH, 'content/_original/_glossary');
-const TRANSLATION_DIRS = ['cz']; // Add more language codes as needed
+const TRANSLATION_DIRS = ['cz', 'en', 'uk', 'fr'];
 
 // Pattern to match glossary links: [#Display_Text](../_glossary/category/ID.md)
 const GLOSSARY_LINK_PATTERN = /\[#([^\]]+)\]\(([^)]*\/_glossary\/[^)]+\.md)\)/g;
@@ -36,6 +37,7 @@ interface CliOptions {
   dryRun: boolean;
   verbose: boolean;
   deleteSource: boolean;
+  simple: boolean;
 }
 
 interface MergeResult {
@@ -61,6 +63,7 @@ function parseArgs(): CliOptions {
     dryRun: false,
     verbose: false,
     deleteSource: true,
+    simple: false,
   };
 
   let i = 0;
@@ -73,6 +76,8 @@ function parseArgs(): CliOptions {
       options.verbose = true;
     } else if (arg === '--no-delete') {
       options.deleteSource = false;
+    } else if (arg === '--simple') {
+      options.simple = true;
     } else if (arg === '--help' || arg === '-h') {
       showHelp();
       process.exit(0);
@@ -117,6 +122,7 @@ Options:
   --dry-run, -n            Preview changes without modifying files
   --verbose, -v            Show detailed output
   --no-delete              Don't delete source glossary file after merge
+  --simple                 Use mechanical append instead of AI-powered merge
   --help, -h               Show this help message
 
 Examples:
@@ -396,22 +402,52 @@ async function mergeGlossaryEntries(
       const sourceContent = fs.readFileSync(sourcePath, 'utf-8');
       const targetContent = fs.readFileSync(targetPath, 'utf-8');
 
-      // Extract content after frontmatter from source
-      const sourceBody = extractBodyContent(sourceContent);
+      if (options.simple) {
+        // Simple mechanical append
+        const sourceBody = extractBodyContent(sourceContent);
+        if (sourceBody.trim()) {
+          const mergeNote = `\n\n---\n\n%% ${new Date().toISOString()} RSR: Merged content from ${upperSource} %%\n\n`;
+          const newTargetContent = targetContent.trimEnd() + mergeNote + sourceBody;
 
-      if (sourceBody.trim()) {
-        // Append source content to target with merge marker
-        const mergeNote = `\n\n---\n\n%% ${new Date().toISOString()} RSR: Merged content from ${upperSource} %%\n\n`;
-        const newTargetContent = targetContent.trimEnd() + mergeNote + sourceBody;
+          if (!options.dryRun) {
+            fs.writeFileSync(targetPath, newTargetContent, 'utf-8');
+          }
+          result.glossaryMerged = true;
 
-        if (!options.dryRun) {
-          fs.writeFileSync(targetPath, newTargetContent, 'utf-8');
+          if (options.verbose) {
+            console.log(`  Merged glossary content (simple append) from ${upperSource} to ${upperTarget}`);
+          }
         }
+      } else {
+        // Smart merge via Claude
+        const mergedContent = smartMergeGlossaryContent(
+          upperSource, sourceContent,
+          upperTarget, targetContent,
+          options.dryRun, options.verbose
+        );
 
-        result.glossaryMerged = true;
+        if (mergedContent) {
+          if (!options.dryRun) {
+            fs.writeFileSync(targetPath, mergedContent, 'utf-8');
+          }
+          result.glossaryMerged = true;
 
-        if (options.verbose) {
-          console.log(`  Merged glossary content from ${upperSource} to ${upperTarget}`);
+          if (options.verbose) {
+            console.log(`  Merged glossary content (AI-powered) from ${upperSource} to ${upperTarget}`);
+          }
+        } else {
+          // Fallback to simple append if Claude is unavailable
+          console.log(`  Warning: AI merge failed, falling back to simple append`);
+          const sourceBody = extractBodyContent(sourceContent);
+          if (sourceBody.trim()) {
+            const mergeNote = `\n\n---\n\n%% ${new Date().toISOString()} RSR: Merged content from ${upperSource} %%\n\n`;
+            const newTargetContent = targetContent.trimEnd() + mergeNote + sourceBody;
+
+            if (!options.dryRun) {
+              fs.writeFileSync(targetPath, newTargetContent, 'utf-8');
+            }
+            result.glossaryMerged = true;
+          }
         }
       }
 
@@ -432,6 +468,79 @@ async function mergeGlossaryEntries(
   }
 
   return result;
+}
+
+/**
+ * Use Claude to intelligently merge two glossary entries into one coherent document.
+ * Claude receives both files' content and returns the merged result as stdout.
+ * No tools or write permissions needed — the script controls all file I/O.
+ */
+function smartMergeGlossaryContent(
+  sourceId: string,
+  sourceContent: string,
+  targetId: string,
+  targetContent: string,
+  dryRun: boolean,
+  verbose: boolean
+): string | null {
+  const prompt = `You are merging two glossary entries about the same entity in the Marie Bashkirtseff diary project.
+
+TARGET entry (${targetId}) — this is the primary entry to keep:
+---
+${targetContent}
+---
+
+SOURCE entry (${sourceId}) — this will be merged into the target and deleted:
+---
+${sourceContent}
+---
+
+Produce a single merged glossary entry that:
+1. Uses the TARGET's frontmatter (id, name, type, category) as the base
+2. Combines all unique information from both entries — do NOT lose any facts, dates, or details
+3. Eliminates redundant/duplicate content
+4. Maintains coherent structure with clear sections
+5. Preserves all RSR/research comments (with timestamps) from both entries
+6. Updates last_updated to today's date
+7. Sets research_status based on combined content quality
+
+Output ONLY the merged markdown file content, nothing else. No explanation, no code fences.`;
+
+  try {
+    if (dryRun) {
+      if (verbose) {
+        console.log(`  Would invoke Claude to merge ${sourceId} into ${targetId}`);
+      }
+      return null; // In dry run, don't call Claude
+    }
+
+    if (verbose) {
+      console.log(`  Invoking Claude to merge glossary content...`);
+    }
+
+    const result = execSync(
+      `claude -p ${JSON.stringify(prompt)}`,
+      {
+        encoding: 'utf-8',
+        maxBuffer: 1024 * 1024,
+        timeout: 60_000,
+        cwd: BASE_PATH,
+      }
+    );
+
+    const trimmed = result.trim();
+    if (!trimmed || trimmed.length < 50) {
+      console.error(`  Warning: Claude returned unexpectedly short content (${trimmed.length} chars)`);
+      return null;
+    }
+
+    return trimmed + '\n';
+  } catch (e) {
+    if (verbose) {
+      console.error(`  Claude merge failed: ${e}`);
+    }
+    return null;
+  }
 }
 
 /**

@@ -16,7 +16,7 @@ The Dolgikoff name suggests she came from Russian nobility, as many noble famili
 
 ## Role in the Household
 
-Unlike Madame Melnikoff (who was treated as an equal and courted by men in the household), Sophie Dolgikoff was "traitée en enfant de la maison" (treated as a child of the house). This different treatment likely reflected:
+Unlike Madame Melnikoff (who was treated as an equal and courted by men in the household), Sophie Dolgikoff was "traitee en enfant de la maison" (treated as a child of the house). This different treatment likely reflected:
 - Her young age (only 16)
 - Her less elevated social status
 - Her role as companion rather than formal instructor
@@ -25,9 +25,9 @@ Unlike Madame Melnikoff (who was treated as an equal and courted by men in the h
 
 Marie recounts a dramatic incident involving Sophie's near-marriage in Book 00, paragraph 00.36:
 
-A young man was brought to the household by Walitsky. This young man was "connu par ses échecs matrimoniaux" (known for his matrimonial failures/failures to marry). Despite this concerning reputation, marriage arrangements between him and Sophie seemed to be progressing well ("tout semblait marcher à ravir").
+A young man was brought to the household by Walitsky. This young man was "connu par ses echecs matrimoniaux" (known for his matrimonial failures/failures to marry). Despite this concerning reputation, marriage arrangements between him and Sophie seemed to be progressing well ("tout semblait marcher a ravir").
 
-Then one evening, Marie entered Sophie's room to find her "qui pleurait comme une perdue, le nez dans ses coussins" (crying like a lost soul, her nose in her cushions). The whole household rushed in asking "Quoi ? qu'est-il arrivé ?" (What? What happened?)
+Then one evening, Marie entered Sophie's room to find her "qui pleurait comme une perdue, le nez dans ses coussins" (crying like a lost soul, her nose in her cushions). The whole household rushed in asking "Quoi ? qu'est-il arrive ?" (What? What happened?)
 
 Marie's narrative breaks off at this dramatic moment without revealing what caused the crying or what ultimately happened to the marriage arrangement. This tantalizing incompleteness is characteristic of Marie's retrospective preface - she drops vivid scenes without always providing resolution.
 

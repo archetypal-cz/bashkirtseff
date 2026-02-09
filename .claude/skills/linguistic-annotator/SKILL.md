@@ -280,3 +280,12 @@ just find-missing "RSR:" content/_original/Book_03    # Entries without RSR (nee
 ```
 
 This helps quickly identify which entries in a book still need linguistic annotation.
+
+**Glossary tools** (if you notice a misplaced or missing glossary entry while annotating):
+```bash
+just glossary-find ID          # Check if an entity has a glossary entry
+just glossary-search PATTERN   # Search by partial name
+just glossary-missing          # List referenced entries that don't exist
+```
+
+If you find a glossary entry in the wrong category or a duplicate, message the team lead — they can run `just glossary-move` or `just glossary-merge` to fix it.
