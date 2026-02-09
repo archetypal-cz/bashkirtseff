@@ -149,6 +149,12 @@ Format: `[#Entity_Name](../_glossary/category/ENTITY_NAME.md)`
 - Filenames use CAPITAL_ASCII: uppercase, underscores only
 - Categories: people/, places/, culture/, society/, languages/
 
+## Tooling Conventions
+
+- **All project scripts are TypeScript** (in `/src/scripts/` and `/src/shared/`)
+- **Python is used only for ad-hoc tasks** (e.g., docx analysis) and is always run via **`uv`**, never bare `pip` or `python`
+- **`just` commands** wrap all common operations — prefer them over direct npm/npx
+
 ## CRITICAL: Use Justfile Commands
 
 **ALWAYS prefer `just` commands over direct npm/npx commands.**
