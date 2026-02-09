@@ -43,8 +43,6 @@ src/frontend/dist/
 .DS_Store
 Thumbs.db
 
-# Raw source materials (large binary files)
-raw/
 
 # Working files (personal, not shared)
 .claude/WORKER_CONFIG.yaml

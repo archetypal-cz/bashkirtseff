@@ -83,6 +83,18 @@ The diary is organized for browsing by year, then carnet:
 
 Cross-year carnets appear in both years with visual indicators.
 
+### Glossary Link Paths
+
+Glossary pages are duplicated under two URL prefixes:
+- `/cz/glossary/[id]` — Czech-contextualized glossary (breadcrumbs, back links go to `/cz/`)
+- `/glossary/[id]` — Neutral/original glossary (used from `/original/` pages)
+
+**Rule:** Links to glossary entries must match the current language context:
+- Pages under `/cz/` → link to `/cz/glossary/ID`
+- Pages under `/original/` → link to `/glossary/ID`
+
+This applies to carnet index pages (people/places tags), entry pages, and anywhere else glossary entities are linked. Getting this wrong sends users to a 404 or unexpected redirect.
+
 ---
 
 ## Coding Standards

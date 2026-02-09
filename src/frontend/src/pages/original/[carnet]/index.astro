@@ -19,7 +19,14 @@ const { carnet } = Astro.params;
 const summary = await getCarnetSummary(carnet!, '_original');
 
 const entries = getCarnetEntries(carnet!, '_original');
-const carnetInfo = getCarnets('_original').find(c => c.id === carnet);
+const allOriginalCarnets = getCarnets('_original');
+const carnetInfo = allOriginalCarnets.find(c => c.id === carnet);
+
+// Compute prev/next carnets for navigation (excluding 000)
+const navCarnets = allOriginalCarnets.filter(c => c.id !== '000').sort((a, b) => a.id.localeCompare(b.id));
+const carnetIdx = navCarnets.findIndex(c => c.id === carnet);
+const prevCarnet = carnetIdx > 0 ? navCarnets[carnetIdx - 1] : null;
+const nextCarnet = carnetIdx < navCarnets.length - 1 ? navCarnets[carnetIdx + 1] : null;
 
 const allEntries = entries.map(entryDate => {
   const entry = getEntry(carnet!, entryDate, '_original');
@@ -119,136 +126,132 @@ const formatEntryDate = (dateStr: string) => {
       <span class="text-ink">Cahier {carnet}</span>
     </nav>
 
-    <header class="mb-8">
-      <h1 class="text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
-        Cahier {carnet}
-      </h1>
+    <!-- Header + Summary Grid -->
+    <section class="mb-10">
+      <div class="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+        <!-- Carnet Header (1st column) -->
+        <header class="p-5 rounded-lg bg-parchment border border-ink/10 flex flex-col justify-between">
+          <div>
+            <h1 class="text-3xl font-normal text-ink mb-3" style="font-family: var(--font-serif);">
+              Cahier {carnet}
+            </h1>
 
-      {carnetInfo?.dateRange && (
-        <p class="text-ink-light mb-4">
-          {carnetInfo.dateRange.start.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
-          {' — '}
-          {carnetInfo.dateRange.end.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
-        </p>
-      )}
+            {carnetInfo?.dateRange && (
+              <p class="text-ink-light mb-3">
+                {carnetInfo.dateRange.start.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
+                {' — '}
+                {carnetInfo.dateRange.end.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
+              </p>
+            )}
 
-      <p class="text-sm text-muted">
-        {allEntries.length} entrées
-      </p>
+            <p class="text-sm text-muted mb-3">
+              {allEntries.length} entrées
+            </p>
 
-      {/* Prominent link to first entry */}
-      {allEntries.length > 0 && (
-        <a
-          href={`/original/${carnet}/${allEntries[0].date}`}
-          class="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-accent text-white rounded-lg hover:bg-accent-light transition-colors font-medium"
-        >
-          <span>{isSectionCarnet ? 'Commencer' : 'Lire depuis le début'}</span>
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-          </svg>
-        </a>
-      )}
-    </header>
+            {summary.primaryLocation && (
+              <p class="text-sm text-muted mb-2">
+                Lieu principal : <span class="text-ink">{formatDisplayName(summary.primaryLocation)}</span>
+              </p>
+            )}
+          </div>
 
-    <!-- Summary Section -->
-    {!isSectionCarnet && (calendarMonths.length > 0 || topPeople.length > 0 || topPlaces.length > 0 || topThemes.length > 0) && (
-      <section class="mb-10">
-        <!-- People, Places, Themes Panels (above calendar) -->
-        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-6">
-          <!-- Key People Panel -->
-          {topPeople.length > 0 && (
-            <div class="p-4 rounded-lg bg-parchment border border-ink/10">
-              <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
-                Personnages clés
-              </h3>
-              <ul class="space-y-2">
-                {topPeople.map(([personId, count]) => (
-                  <li class="flex items-center justify-between text-sm">
-                    <a
-                      href={`/glossary/${personId}`}
-                      class="text-ink hover:text-accent transition-colors truncate"
-                    >
-                      {formatDisplayName(personId)}
-                    </a>
-                    <span class="text-muted ml-2 flex-shrink-0">
-                      {count}x
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          {allEntries.length > 0 && (
+            <a
+              href={`/original/${carnet}/${allEntries[0].date}`}
+              class="inline-flex items-center gap-2 mt-4 px-4 py-2.5 bg-accent text-white rounded-lg hover:bg-accent-light transition-colors font-medium text-sm self-start"
+            >
+              <span>{isSectionCarnet ? 'Commencer' : 'Lire depuis le début'}</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
           )}
+        </header>
 
-          <!-- Key Places Panel -->
-          {topPlaces.length > 0 && (
-            <div class="p-4 rounded-lg bg-parchment border border-ink/10">
-              <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
-                Lieux
-              </h3>
-              <ul class="space-y-2">
-                {topPlaces.map(([placeId, count]) => (
-                  <li class="flex items-center justify-between text-sm">
-                    <a
-                      href={`/glossary/${placeId}`}
-                      class="text-ink hover:text-accent transition-colors truncate"
-                    >
-                      {formatDisplayName(placeId)}
-                    </a>
-                    <span class="text-muted ml-2 flex-shrink-0">
-                      {count}x
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-
-          <!-- Themes Panel -->
-          {topThemes.length > 0 && (
-            <div class="p-4 rounded-lg bg-parchment border border-ink/10">
-              <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
-                Thèmes
-              </h3>
-              <div class="flex flex-wrap gap-2">
-                {topThemes.map(([theme, count]) => (
-                  <span class="inline-flex items-center gap-1 px-2 py-1 text-xs rounded-full bg-sepia text-ink">
-                    {theme}
-                    <span class="text-muted">({count})</span>
+        {/* Tag panels (remaining columns) */}
+        {!isSectionCarnet && topPeople.length > 0 && (
+          <div class="p-4 rounded-lg bg-parchment border border-ink/10">
+            <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+              Personnages clés
+            </h3>
+            <ul class="space-y-2">
+              {topPeople.map(([personId, count]) => (
+                <li class="flex items-center justify-between text-sm">
+                  <a
+                    href={`/glossary/${personId}`}
+                    class="text-ink hover:text-accent transition-colors truncate"
+                  >
+                    {formatDisplayName(personId)}
+                  </a>
+                  <span class="text-muted ml-2 flex-shrink-0">
+                    {count}x
                   </span>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* Primary Location if available */}
-        {summary.primaryLocation && (
-          <p class="mb-6 text-sm text-muted">
-            Lieu principal : <span class="text-ink">{formatDisplayName(summary.primaryLocation)}</span>
-          </p>
+                </li>
+              ))}
+            </ul>
+          </div>
         )}
 
-        <!-- Calendar Widgets (below stats) -->
-        {calendarMonths.length > 0 && (
-          <div>
-            <h2 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">Calendrier</h2>
-            <div class={`grid gap-4 ${calendarMonths.length === 1 ? 'max-w-xs' : calendarMonths.length === 2 ? 'sm:grid-cols-2 max-w-2xl' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
-              {calendarMonths.map(({ year, month }) => (
-                <CalendarWidget
-                  client:visible
-                  year={year}
-                  month={month}
-                  entryDates={summary.entryDates}
-                  carnet={carnet!}
-                  language="original"
-                  compact={calendarMonths.length > 2}
-                />
+        {!isSectionCarnet && topPlaces.length > 0 && (
+          <div class="p-4 rounded-lg bg-parchment border border-ink/10">
+            <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+              Lieux
+            </h3>
+            <ul class="space-y-2">
+              {topPlaces.map(([placeId, count]) => (
+                <li class="flex items-center justify-between text-sm">
+                  <a
+                    href={`/glossary/${placeId}`}
+                    class="text-ink hover:text-accent transition-colors truncate"
+                  >
+                    {formatDisplayName(placeId)}
+                  </a>
+                  <span class="text-muted ml-2 flex-shrink-0">
+                    {count}x
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {!isSectionCarnet && topThemes.length > 0 && (
+          <div class="p-4 rounded-lg bg-parchment border border-ink/10">
+            <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+              Thèmes
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {topThemes.map(([theme, count]) => (
+                <span class="inline-flex items-center gap-1 px-2 py-1 text-xs rounded-full bg-sepia text-ink">
+                  {theme}
+                  <span class="text-muted">({count})</span>
+                </span>
               ))}
             </div>
           </div>
         )}
-      </section>
-    )}
+      </div>
+
+      {/* Calendar section (below the grid) */}
+      {!isSectionCarnet && calendarMonths.length > 0 && (
+        <div class="mt-6">
+          <h2 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">Calendrier</h2>
+          <div class={`grid gap-4 ${calendarMonths.length === 1 ? 'max-w-xs' : calendarMonths.length === 2 ? 'sm:grid-cols-2 max-w-2xl' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
+            {calendarMonths.map(({ year, month }) => (
+              <CalendarWidget
+                client:visible
+                year={year}
+                month={month}
+                entryDates={summary.entryDates}
+                carnet={carnet!}
+                language="original"
+                compact={calendarMonths.length > 2}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+    </section>
 
     <!-- Entry List -->
     <div class="space-y-2">
@@ -282,10 +285,39 @@ const formatEntryDate = (dateStr: string) => {
       </div>
     )}
 
-    <div class="mt-8 pt-8 border-t border-ink/10">
-      <a href="/original" class="text-accent hover:text-accent-light transition-colors">
-        ← Retour aux cahiers
+    <!-- Carnet Navigation -->
+    <nav class="mt-8 pt-8 border-t border-ink/10 flex justify-between items-center">
+      {prevCarnet ? (
+        <a
+          href={`/original/${prevCarnet.id}`}
+          class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          <span>Cahier {prevCarnet.id}</span>
+        </a>
+      ) : (
+        <div />
+      )}
+
+      <a href="/original" class="text-muted hover:text-ink transition-colors">
+        Tous les cahiers
       </a>
-    </div>
+
+      {nextCarnet ? (
+        <a
+          href={`/original/${nextCarnet.id}`}
+          class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
+        >
+          <span>Cahier {nextCarnet.id}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      ) : (
+        <div />
+      )}
+    </nav>
   </div>
 </ReadingLayout>
