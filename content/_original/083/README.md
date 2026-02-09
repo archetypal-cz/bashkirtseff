@@ -15,36 +15,18 @@ Carnet 083 of Marie Bashkirtseff's diary.
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 85 | 85 | — |
-| Research    | 0 | 85 | — |
+| Research    | 85 | 85 | rsr-p1 |
 | Annotation  | 0 | 85 | — |
-
-## TODOs
-
-### Research Needed
-<!-- Items that need historical research -->
-
-### Annotation Needed
-<!-- Items that need linguistic annotation -->
-
-### From Translations (auto-synced)
-<!-- BEGIN:SYNC:TRANSLATIONS -->
-<!-- Proposals from translation teams appear here -->
-<!-- END:SYNC:TRANSLATIONS -->
-
-## Glossary Coverage
-
-| Category | Entries | Linked |
-|----------|---------|--------|
-| People | — | — |
-| Places | — | — |
-| Culture | — | — |
-| Society | — | — |
 
 ## What's Done
 
-_Progress tracking initialized._
+- All 85 entries researched with RSR comments (rsr-p1)
+- Frontmatter standardized for all entries
 
 ## Changelog
 
 ### 2026-02-04T10:50:25 @kerray
 Initialized carnet README for progress tracking.
+
+### 2026-02-09 rsr-p1
+Completed RSR research for all 85 entries.

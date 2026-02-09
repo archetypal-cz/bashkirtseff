@@ -15,36 +15,18 @@ Carnet 048 of Marie Bashkirtseff's diary.
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 14 | 14 | — |
-| Research    | 0 | 14 | — |
+| Research    | 1 | 14 | rsr-p2 (partial) |
 | Annotation  | 0 | 14 | — |
-
-## TODOs
-
-### Research Needed
-<!-- Items that need historical research -->
-
-### Annotation Needed
-<!-- Items that need linguistic annotation -->
-
-### From Translations (auto-synced)
-<!-- BEGIN:SYNC:TRANSLATIONS -->
-<!-- Proposals from translation teams appear here -->
-<!-- END:SYNC:TRANSLATIONS -->
-
-## Glossary Coverage
-
-| Category | Entries | Linked |
-|----------|---------|--------|
-| People | — | — |
-| Places | — | — |
-| Culture | — | — |
-| Society | — | — |
 
 ## What's Done
 
-_Progress tracking initialized._
+- 1/14 entries researched (rsr-p2, session interrupted)
+- Remaining 13 entries need RSR in next session
 
 ## Changelog
 
 ### 2026-02-04T10:50:23 @kerray
 Initialized carnet README for progress tracking.
+
+### 2026-02-09 rsr-p2
+Partial RSR research — 1/14 entries completed before session end.

@@ -15,36 +15,18 @@ Carnet 073 of Marie Bashkirtseff's diary.
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 36 | 36 | — |
-| Research    | 0 | 36 | — |
+| Research    | 5 | 36 | rsr-p3 (partial) |
 | Annotation  | 0 | 36 | — |
-
-## TODOs
-
-### Research Needed
-<!-- Items that need historical research -->
-
-### Annotation Needed
-<!-- Items that need linguistic annotation -->
-
-### From Translations (auto-synced)
-<!-- BEGIN:SYNC:TRANSLATIONS -->
-<!-- Proposals from translation teams appear here -->
-<!-- END:SYNC:TRANSLATIONS -->
-
-## Glossary Coverage
-
-| Category | Entries | Linked |
-|----------|---------|--------|
-| People | — | — |
-| Places | — | — |
-| Culture | — | — |
-| Society | — | — |
 
 ## What's Done
 
-_Progress tracking initialized._
+- 5/36 entries researched (rsr-p3, session interrupted)
+- Remaining 31 entries need RSR in next session
 
 ## Changelog
 
 ### 2026-02-04T10:50:24 @kerray
 Initialized carnet README for progress tracking.
+
+### 2026-02-09 rsr-p3
+Partial RSR research — 5/36 entries completed before session end.

@@ -2,7 +2,7 @@
 
 **Research Status**: Comprehensive
 **Last Updated**: 2025-06-28
-**Diary Coverage**: Up to 1873-02-18 (being updated)
+**Diary Coverage**: Up to 1875-10-02
 
 ## Identity and Background
 
@@ -67,5 +67,20 @@ Gioia represents Marie's first significant experience with romantic jealousy and
 4. Her class consciousness and social ambitions
 
 When Marie develops her plan to become a celebrated singer, surpassing Gioia becomes part of her motivation: "I will be better than Gioia! Yes! with God's help!" This transformation of jealousy into ambition marks an important development in Marie's thinking.
+
+## The Audiffret Affair (Autumn 1875)
+
+By September 1875 (carnet 045), Gioia takes on a new role in Marie's narrative. After the Duke of Hamilton's departure, Gioia takes Emile d'Audiffret as a lover — the same young man who had been courting Marie. Key details:
+
+- Gioia lives on or near the Promenade des Anglais, in a villa with a grille (gate)
+- She has at least two young children and an older woman ("la vieille") living with her
+- She had a previous male companion (an Englishman) who departed just before Audiffret's arrival
+- Marie describes her as tall (half a head taller than Marie), about 35, painted/made-up, beautiful when dressed up but "chiffonnée et médiocre" without toilette
+- Marie calls her "cocotte" (kept woman), "rosse" (worthless), "femelle" (animal female), and "bijou de mon âme" (jewel of my soul — ironically, since "Gioia" means joy/jewel in Italian)
+- Gioia begins dressing in white like Marie, provoking Marie's fury
+- She has a theater box (loge) where Audiffret hides during performances
+- Marie's grandfather observes the situation with disgust: "à peine l'autre est parti, elle en prend encore" (hardly has the other one left, she takes another)
+
+This episode reveals that Gioia is definitively a courtesan/demimondaine rather than an aristocratic woman, as Marie's family discusses her openly as such.
 
 %% 2025-04-05T19:41:05 RSR: This glossary entry provides context about Gioia, a woman who appears frequently in Marie Bashkirtseff's diary as the companion of the Duke of Hamilton and object of Marie's jealousy. While historical information about Gioia is limited, Marie's descriptions and reactions to her reveal important aspects of Marie's character, including her romantic idealization, social ambitions, and competitive nature. The entry explores how Gioia functions as both a romantic rival and a standard against which Marie measures herself, eventually becoming motivation for Marie's ambition to become a celebrated singer. The historical context section places Gioia within the social dynamics of Nice's winter season in the 1870s, when wealthy visitors from across Europe created a cosmopolitan social environment with complex relationship dynamics. %%
