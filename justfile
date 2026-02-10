@@ -98,37 +98,13 @@ verify:
     @find content/_original -name "*.md" -type f | wc -l | xargs echo "Total source files:"
     @find content/cz -name "*.md" -type f | wc -l | xargs echo "Total Czech files:"
 
-# Check project status
-status:
-    @echo "=== Project Status ==="
-    @echo "Carnets in source (_original):"
-    @ls -la content/_original/ | grep "^d" | grep -E "[0-9]+" | wc -l | xargs echo "  Count:"
-    @echo "Carnets with Czech translations:"
-    @ls -la content/cz/ 2>/dev/null | grep "^d" | grep -E "[0-9]+" | wc -l | xargs echo "  Count:"
-    @echo "View at: https://bashkirtseff.org"
+# Project status (RSR/LAN/translation progress)
+status *ARGS:
+    npx tsx src/scripts/project-status.ts {{ARGS}}
 
 # Initialize source hashes in translation files (for change detection)
 init-source-hashes lang="" carnet="":
     npx tsx src/scripts/hooks/init-source-hashes.ts {{lang}} {{carnet}}
-
-# Show statistics about the project
-project-stats:
-    #!/usr/bin/env bash
-    echo "=== Project Statistics ==="
-    echo "Source files by carnet:"
-    for carnet in $(ls -d content/_original/[0-9][0-9][0-9] 2>/dev/null | sort); do
-        carnet_num=$(basename $carnet)
-        count=$(find $carnet -name "*.md" | wc -l)
-        echo "  Carnet $carnet_num: $count entries"
-    done
-    echo "Czech translation progress:"
-    for carnet in $(ls -d content/cz/[0-9][0-9][0-9] 2>/dev/null | sort); do
-        carnet_num=$(basename $carnet)
-        count=$(find $carnet -name "*.md" | wc -l)
-        echo "  Carnet $carnet_num: $count entries"
-    done
-    echo "Glossary entries:"
-    find content/_original/_glossary -name "*.md" | wc -l | xargs echo "  Count:"
 
 # Search for text in source files
 search query:
@@ -326,17 +302,7 @@ prepare-batch start end carnet="015":
 
 # Show workflow status for a carnet
 workflow-status carnet="015":
-    @echo "=== Workflow Status for Carnet {{carnet}} ==="
-    @echo "Research completed:"
-    @ls content/_original/_workflow/research_*.json 2>/dev/null | wc -l
-    @echo "Annotation completed:"
-    @ls content/_original/_workflow/annotate_*.json 2>/dev/null | wc -l
-    @echo "Translation completed:"
-    @ls content/_original/_workflow/translate_*.json 2>/dev/null | wc -l
-    @echo "Review completed:"
-    @ls content/_original/_workflow/review_*.json 2>/dev/null | wc -l
-    @echo "Conductor approved:"
-    @ls content/_original/_workflow/conduct_*.json 2>/dev/null | wc -l
+    npx tsx src/scripts/project-status.ts original {{carnet}}
 
 # Generate workflow metrics report
 workflow-report carnet="015":
@@ -376,10 +342,12 @@ help:
     @echo "  just glossary-duplicates  # Find potential duplicates"
     @echo ""
     @echo "PROJECT MANAGEMENT:"
-    @echo "  just status          # Show project status"
-    @echo "  just project-stats   # Show detailed statistics"
-    @echo "  just verify          # Verify file consistency"
-    @echo "  just search 'term'   # Search in source files"
+    @echo "  just status               # Full project status (RSR/LAN/TR)"
+    @echo "  just status original      # Source preparation status"
+    @echo "  just status original 001  # Specific carnet"
+    @echo "  just status cz            # Czech translation status"
+    @echo "  just verify               # Verify file consistency"
+    @echo "  just search 'term'        # Search in source files"
     @echo ""
     @echo "DEVELOPMENT:"
     @echo "  just build-ts        # Build TypeScript packages"
