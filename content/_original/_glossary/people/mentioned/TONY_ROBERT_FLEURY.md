@@ -1,23 +1,17 @@
-# Tony Robert Fleury
+---
+id: TONY_ROBERT_FLEURY
+name: Tony Robert-Fleury
+type: Person
+category: people/mentioned
+research_status: Redirect
+last_updated: 2026-02-10
+---
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 4 mentions
-**Type**: Person/Place
+%% GLO_TONY_ROBERT_FLEURY.0001 %%
+## Redirect
 
-## Overview
+%% GLO_TONY_ROBERT_FLEURY.0002 %%
+This entry is a duplicate. The comprehensive entry for Tony Robert-Fleury (1837-1911) is at [#Robert_Fleury](../artists/ROBERT_FLEURY.md), which contains his full biography, teaching career, physical description from Marie's diary, and significance in her artistic development.
 
-[Research needed]
-
-This entry was mentioned 4 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_TONY_ROBERT_FLEURY.0003 %%
+%% 2026-02-10T11:00:00 RSR: Marked as redirect to ROBERT_FLEURY.md in artists/. %%

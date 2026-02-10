@@ -1,23 +1,20 @@
-# Tony
+---
+id: TONY
+name: Tony Robert-Fleury
+type: Person
+category: people/mentioned
+research_status: Redirect
+last_updated: 2026-02-10
+---
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 3 mentions
-**Type**: Person/Place
+%% GLO_TONY.0001 %%
+## Redirect
 
-## Overview
+%% GLO_TONY.0002 %%
+"Tony" in Marie's diary refers to Tony Robert-Fleury (1837-1911), the academic painter and principal instructor at the Academie Julian's women's atelier. The comprehensive entry is at [#Robert_Fleury](../artists/ROBERT_FLEURY.md).
 
-[Research needed]
+%% GLO_TONY.0003 %%
+Marie often refers to him simply as "Tony" in her diary, reflecting the informal way students referred to their instructors among themselves.
 
-This entry was mentioned 3 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_TONY.0004 %%
+%% 2026-02-10T11:00:00 RSR: Marked as redirect to ROBERT_FLEURY.md in artists/. "Tony" is Marie's informal name for Tony Robert-Fleury, her principal painting instructor. %%

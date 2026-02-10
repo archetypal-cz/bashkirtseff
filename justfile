@@ -462,6 +462,43 @@ stewardship-archive:
         echo "Archived: $$(basename $$file)"; \
     done
 
+# === KERNBERGER EPUB ANALYSIS ===
+#
+# Analyze the Kernberger English translation EPUB to identify which
+# French paragraphs were included and extract images/footnotes.
+# Requires: EPUB file at raw_books/The Journal of Marie Bashkirtse - Marie Bashkirtseff.epub
+
+# Shared uv dependencies for Kernberger scripts
+_kernberger_deps := "--with ebooklib --with beautifulsoup4 --with lxml --with rapidfuzz"
+
+# Analyze Kernberger EPUB structure (TOC, chapters, images, metadata)
+kernberger-analyze:
+    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py analyze
+
+# Extract text and match to French originals by date + content
+kernberger-extract:
+    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py extract
+
+# Extract images from Kernberger EPUB with context
+kernberger-images:
+    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py images
+
+# Extract footnotes from Kernberger EPUB
+kernberger-footnotes:
+    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py footnotes
+
+# Tag source files with Kernberger coverage (dry run)
+kernberger-tag-dry:
+    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py tag --dry-run
+
+# Tag source files with Kernberger coverage
+kernberger-tag:
+    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py tag
+
+# Generate comprehensive Kernberger coverage report
+kernberger-report:
+    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py report
+
 # === FRONTEND (Astro PWA) ===
 
 # Start frontend development server

@@ -1,8 +1,16 @@
+---
+id: MA_TANTE
+name: Sophie (Ma tante)
+type: Person
+category: people/family
+research_status: Moderate
+last_updated: 2026-02-10
+---
+
+%% GLO_MA_TANTE.0001 %%
 # Ma tante (Marie's Aunt - Sophie)
 
-**Research Status**: Basic
-**Last Updated**: 2025-06-30
-**Diary Coverage**: Up to 1874-01-01
+%% GLO_MA_TANTE.0002 %%
 
 ## Overview
 

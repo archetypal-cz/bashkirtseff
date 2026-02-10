@@ -1,5 +1,16 @@
+---
+id: MAMAN
+name: Maria Stepanovna Babanina
+type: Person
+category: people/family
+research_status: Comprehensive
+last_updated: 2026-02-10
+---
+
+%% GLO_MAMAN.0001 %%
 # Maman (Maria Stepanovna Babanina)
 
+%% GLO_MAMAN.0002 %%
 ## Basic Information
 
 Maria Stepanovna Babanina (1833-1920) was Marie Bashkirtseff's mother and a significant influence in her life. She came from the Russian *petite noblesse* (lesser nobility) and was proud of her Tatar ancestry.

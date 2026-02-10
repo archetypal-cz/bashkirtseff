@@ -1,23 +1,17 @@
-# Paul de Cassagnac
+---
+id: PAUL_DE_CASSAGNAC
+name: Paul de Cassagnac
+type: Person
+category: people/mentioned
+research_status: Redirect
+last_updated: 2026-02-10
+---
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 5 mentions
-**Type**: Person/Place
+%% GLO_PAUL_DE_CASSAGNAC.0001 %%
+## Redirect
 
-## Overview
+%% GLO_PAUL_DE_CASSAGNAC.0002 %%
+This entry is a duplicate. The main entry for Paul de Cassagnac is at [#Cassagnac](../recurring/CASSAGNAC.md), which contains comprehensive information about Paul Adolphe Marie Prosper Granier de Cassagnac (1842-1904), the Bonapartist journalist, politician, and duelist who was a romantic interest of Marie's in 1878-1879.
 
-[Research needed]
-
-This entry was mentioned 5 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_PAUL_DE_CASSAGNAC.0003 %%
+%% 2026-02-10T10:00:00 RSR: Marked as redirect to CASSAGNAC.md in recurring/. The main entry already has comprehensive content about Paul de Cassagnac's historical background, relationship with Marie, and significance. %%

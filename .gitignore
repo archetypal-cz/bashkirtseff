@@ -44,6 +44,10 @@ src/frontend/dist/
 Thumbs.db
 
 
+# Raw books and analysis output (large binaries, not shared)
+raw_books/
+raw_books_work/
+
 # Working files (personal, not shared)
 .claude/WORKER_CONFIG.yaml
 .plan.md

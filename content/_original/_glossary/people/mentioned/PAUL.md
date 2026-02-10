@@ -1,5 +1,16 @@
+---
+id: PAUL
+name: Paul Bashkirtseff
+type: Person
+category: people/mentioned
+research_status: Moderate
+last_updated: 2026-02-10
+---
+
+%% GLO_PAUL.0001 %%
 # Paul
 
+%% GLO_PAUL.0002 %%
 ## Basic Information
 
 Paul was Marie Bashkirtseff's younger brother, 14 years old in 1874, who lived with the family in Nice. He was close in age to Marie but severely neglected in his education and corrupted by bad influences.
