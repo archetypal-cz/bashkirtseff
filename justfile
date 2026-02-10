@@ -74,6 +74,10 @@ glossary-merge-dry source target:
 glossary-duplicates:
     npx tsx src/scripts/glossary-merge.ts find-duplicates
 
+# Migrate flat-path glossary refs to categorized paths
+glossary-migrate-flat *FLAGS:
+    npx tsx src/scripts/glossary-migrate-flat.ts {{FLAGS}}
+
 # === UTILITIES ===
 
 # Verify all entries are properly formatted

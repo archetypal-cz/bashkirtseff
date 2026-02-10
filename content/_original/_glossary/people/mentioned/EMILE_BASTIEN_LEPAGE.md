@@ -1,0 +1,3 @@
+# Emile Bastien-Lepage
+
+Stub entry — needs research.
