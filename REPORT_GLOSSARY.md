@@ -4,7 +4,7 @@
 
 Three parallel Opus agents enriching glossary entries across People, Places, and Culture categories.
 
-**Status**: In progress (agents still running at time of commit)
+**Status**: Complete (all 3 agents finished)
 
 ## Starting State
 - **3,193 total entries** across 41 categories
@@ -19,9 +19,11 @@ Enriching the most-referenced people entries. Priority targets:
 - Audiffret (289), Ma_tante (268), Walitsky (240), Julian (225)
 - Breslau (115), Rosalie (104), Paul de Cassagnac (195)
 
-Entries being enriched with: full names, dates, relationships to Marie, biographical context.
+Entries enriched with: full names, dates, relationships to Marie, biographical context.
 
 Duplicate candidates identified: LADY_FALKNER/LADY_FOLKNER, LORD_FALKNER/LORD_FOLKNER.
+Also: PAUL_DE_CASSAGNAC/CASSAGNAC, RODOLPHE/RODOLPHE_JULIAN, BASTIEN/BASTIEN_LEPAGE, TONY/TONY_ROBERT_FLEURY, LADY_MONTAGU/LADY_MARY_MONTAGU.
+Misclassification found: GAMBETTA in `places/churches/` should be `people/politicians/`.
 
 ### Places (glossary-places agent)
 Enriching major locations. Priority targets:
@@ -29,7 +31,7 @@ Enriching major locations. Priority targets:
 - Bois de Boulogne (82), Champs-Élysées (69), Rome (92), Naples (94)
 - Florence (69), Baden-Baden (77), London, Vienna, Venice
 
-Cities enriched with: 1870s-1880s historical context, Marie's connection, key locations.
+~55 cities/places enriched with: 1870s-1880s historical context, Marie's connection, key locations.
 
 ### Culture + New Thematic Entries (glossary-culture agent)
 Creating entirely new categories and entries:
@@ -48,10 +50,16 @@ Creating entirely new categories and entries:
 - `#ART_PRACTICE` — Marie's art work
 - `#READING` — books she reads
 
-## Files Changed (so far)
-- ~65 glossary entries modified (enriched from stubs)
-- ~15 new glossary entries created (transport, themes, etc.)
-- New category directories created
+## Files Changed (final)
+- **~96 glossary entries modified** (enriched from stubs): ~41 people + ~55 places
+- **~40 new glossary entries created**: transport (9), themes (10), social customs (5), health (2), daily life (2), plus others
+- **5 new category directories** created under `culture/`
+
+## Remaining Work
+- **~700 stub entries** still need enrichment (reduced from 795)
+- **Duplicate entries** need merging (6 pairs identified)
+- **Gambetta** needs reclassification from `places/churches/` to `people/politicians/`
+- **102 orphaned entries** need review (may be valid but unreferenced)
 
 ## Principles Applied
 - One-time topics → footnotes in diary entries

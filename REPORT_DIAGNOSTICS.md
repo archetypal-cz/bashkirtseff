@@ -2,17 +2,24 @@
 
 ## Project Health: EXCELLENT
 
-### Source Preparation
-- **RSR (Research)**: 99.9% complete — 4 entries remaining (037, 060, 063, 067)
-- **LAN (Linguistic Annotation)**: 99.9% complete — 5 entries remaining
+### Source Preparation — 100% COMPLETE
+- **RSR (Research)**: 100% complete — all entries annotated
+- **LAN (Linguistic Annotation)**: 100% complete — all entries annotated
 - **Carnet 083 fix**: 73 entries had completed LAN work but flags were stuck at `false` — all fixed
-- **101 of 107 carnets** fully ready for translation (6 have 1-2 entries pending)
+- **All 107 carnets** fully ready for translation
+
+**Final RSR/LAN entries completed this session:**
+- `037/1875-07-15` — RSR+LAN: 20+ annotations (Latin quotations, moon divination, code-switching)
+- `053/1876-01-27` — LAN: 18+ annotations (Italian opera terminology, Russian "Soroka", social register)
+- `060/1876-05-13` — RSR+LAN: 20+ annotations (Cardinal Antonelli, tears passage, social vocabulary)
+- `063/1876-07-09` — RSR+LAN: 15+ annotations (Mme Rattazzi salon, carriages, aristocratic vocabulary)
+- `067/1876-12-08-11` — RSR+LAN: 20+ annotations (Monaco confrontation, skating-rink, escalating triads)
 
 ### Glossary Health
-- **3,193 entries** across 41 categories
+- **~3,250+ entries** across 46 categories (5 new categories created)
 - **0 broken links** (all referenced entries exist)
 - **102 orphaned entries** (exist but never referenced — review needed)
-- **795 stub entries** (under 200 bytes) — enrichment in progress
+- **~700 stub entries** remaining (reduced from 795 via enrichment)
 
 ### DOCX Fidelity
 - **99% overall match rate** across 16 tomes
@@ -26,15 +33,19 @@
 - **10 files** with nested bold/italic issues
 
 ### Translation Readiness
+- **100% source-ready** — all entries have RSR + LAN annotations
 - Translation has NOT yet begun (111 Czech scaffold files exist, no content)
-- Once 4 RSR + 5 LAN entries complete: **100% ready**
 
-## Action Items
-1. Complete RSR on 4 entries (agent working on this)
-2. Complete LAN on 5 entries (agent working on this)
+## Remaining Action Items
+1. ~~Complete RSR on 4 entries~~ DONE
+2. ~~Complete LAN on 5 entries~~ DONE
 3. Review orphaned asterisks against raw page scans
 4. Review ~100 DOCX mismatches
-5. Investigate 328 Kernberger-only dates
+5. Investigate ~30-50 genuine Kernberger-only dates
+6. Continue glossary stub enrichment (~700 remaining)
+7. Run `just kernberger-tag` to add #Kernberger tags to matched paragraphs
+8. Extract Kernberger appendices (Glossary, Genealogy, Chronology)
+9. Analyze Mathilde Blind edition for #censored tagging
 
 ## Full Reports
 - `DIAGNOSTICS_REPORT.md` — detailed diagnostic output
