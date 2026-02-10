@@ -301,6 +301,12 @@ export class ParagraphRenderer {
         lines.push('');
       }
 
+      // Paragraph ID (must come first for parser to associate content correctly)
+      // Output for all paragraphs including headers (unless synthetic ID)
+      if (!para.id.startsWith('header_')) {
+        lines.push(`%% ${para.id} %%`);
+      }
+
       if (para.isHeader) {
         const headerPrefix = '#'.repeat(para.headerLevel);
         lines.push(`${headerPrefix} ${para.originalText ?? ''}`);
@@ -315,15 +321,9 @@ export class ParagraphRenderer {
         }
       }
 
-      // Paragraph ID
-      lines.push(`%% ${para.id} %%`);
-
-      // Notes (sorted by timestamp)
-      const sortedNotes = [...para.notes].sort(
-        (a, b) => a.timestamp.getTime() - b.timestamp.getTime()
-      );
-      for (const note of sortedNotes) {
-        lines.push(`%% ${formatTimestamp(note.timestamp)} ${note.role}: ${note.content} %%`);
+      // Notes (preserve file order for round-trip fidelity)
+      for (const note of para.notes) {
+        lines.push(`%% ${formatTimestamp(note.timestamp)} ${note.role}: ${note.content.trimEnd()} %%`);
       }
 
       // Original text
@@ -371,6 +371,11 @@ export class ParagraphRenderer {
         lines.push('');
       }
 
+      // 1. Paragraph ID (MUST come first for parser to associate content correctly)
+      if (!para.id.startsWith('header_')) {
+        lines.push(`%% ${para.id} %%`);
+      }
+
       if (para.isHeader) {
         const headerPrefix = '#'.repeat(para.headerLevel);
         // For headers in translation, use translatedText if available, fall back to originalText
@@ -378,9 +383,6 @@ export class ParagraphRenderer {
         lines.push(`${headerPrefix} ${headerText}`);
         continue;
       }
-
-      // 1. Paragraph ID (MUST come first for parser to associate content correctly)
-      lines.push(`%% ${para.id} %%`);
 
       // 2. French original in comment
       if (para.originalText) {
@@ -400,7 +402,7 @@ export class ParagraphRenderer {
         (a, b) => a.timestamp.getTime() - b.timestamp.getTime()
       );
       for (const note of sortedNotes) {
-        lines.push(`%% ${formatTimestamp(note.timestamp)} ${note.role}: ${note.content} %%`);
+        lines.push(`%% ${formatTimestamp(note.timestamp)} ${note.role}: ${note.content.trimEnd()} %%`);
       }
 
       // 5. Translation versions
@@ -443,9 +445,9 @@ export class ParagraphRenderer {
    */
   private renderNote(note: Note, options: RenderOptions): string {
     if (options.noteFormat === 'timestamp') {
-      return `${formatTimestamp(note.timestamp)} ${note.role}: ${note.content}`;
+      return `${formatTimestamp(note.timestamp)} ${note.role}: ${note.content.trimEnd()}`;
     }
-    return `${note.role}: ${note.content}`;
+    return `${note.role}: ${note.content.trimEnd()}`;
   }
 
   /**

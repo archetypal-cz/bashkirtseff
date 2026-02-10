@@ -128,7 +128,10 @@ export function validateBook(book: DiaryBook): Map<string, string[]> {
 }
 
 /**
- * Renumber paragraphs in an entry starting from a specific number
+ * Renumber paragraphs in an entry starting from a specific number.
+ * ALL paragraphs (including headers) get sequential IDs to match
+ * the diary's paragraph-cluster format where headers are part of the sequence.
+ * Paragraphs with synthetic IDs (header_N) are skipped.
  */
 export function renumberParagraphs(
   entry: DiaryEntry,
@@ -137,11 +140,13 @@ export function renumberParagraphs(
   let paraNum = startFrom;
 
   for (const para of entry.paragraphs) {
-    if (!para.isHeader) {
-      para.paraNum = paraNum;
-      para.id = `${para.carnetNum}.${paraNum}`;
-      paraNum++;
+    // Skip synthetic headers (those without real paragraph IDs)
+    if (para.id.startsWith('header_')) {
+      continue;
     }
+    para.paraNum = paraNum;
+    para.id = `${para.carnetNum}.${String(paraNum).padStart(4, '0')}`;
+    paraNum++;
   }
 
   return entry;

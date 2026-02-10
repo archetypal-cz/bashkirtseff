@@ -251,13 +251,16 @@ export class ParagraphParser {
 
     // Assign main text to appropriate field based on file type
     if (mainTextLines.length > 0) {
-      const mainText = mainTextLines.join('\n');
+      let mainText = mainTextLines.join('\n');
 
       // Check if this is actually a header (starts with #)
       const headerMatch = mainText.match(HEADER_PATTERN);
       if (headerMatch) {
         para.isHeader = true;
         para.headerLevel = headerMatch[1].length;
+        // Store only the header text content (without # prefix)
+        // so the renderer can add it back consistently
+        mainText = headerMatch[2];
       }
 
       // Extract footnote references from main text
@@ -278,8 +281,8 @@ export class ParagraphParser {
       }
     }
 
-    // Sort notes by timestamp for consistent ordering
-    para.notes.sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
+    // Preserve notes in file order (pre-ID notes, then post-ID notes)
+    // Consumers can sort by timestamp if needed
 
     // Deduplicate glossary links (keep first occurrence)
     const seenLinks = new Set<string>();
@@ -307,8 +310,22 @@ export class ParagraphParser {
     // Check for note pattern
     const noteMatch = commentLine.match(NOTE_PATTERN);
     if (noteMatch) {
+      // Normalize overflowed seconds (e.g., :60, :61) from auto-incremented timestamps
+      let tsStr = noteMatch[1];
+      const secMatch = tsStr.match(/:(\d{2})$/);
+      if (secMatch && parseInt(secMatch[1], 10) >= 60) {
+        const overflow = parseInt(secMatch[1], 10);
+        const extraMinutes = Math.floor(overflow / 60);
+        const normalizedSec = String(overflow % 60).padStart(2, '0');
+        // Adjust minutes
+        const minMatch = tsStr.match(/:(\d{2}):\d{2}$/);
+        if (minMatch) {
+          const newMin = String(parseInt(minMatch[1], 10) + extraMinutes).padStart(2, '0');
+          tsStr = tsStr.replace(/:(\d{2}):(\d{2})$/, `:${newMin}:${normalizedSec}`);
+        }
+      }
       return {
-        timestamp: new Date(noteMatch[1]),
+        timestamp: new Date(tsStr),
         role: noteMatch[2],
         content: noteMatch[3],
       };

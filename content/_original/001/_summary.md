@@ -1,6 +1,7 @@
 ---
+marie_age: 13
 carnet: "001"
-title: "Nice, janvier-fevrier 1873"
+title: Nice, janvier-fevrier 1873
 date_range:
   start: 1873-01-11
   end: 1873-02-12
@@ -8,27 +9,33 @@ primary_location: Nice
 location_journey:
   - Nice
   - Monaco
-
 key_people:
   - id: DUKE_OF_HAMILTON
     role: romantic_obsession
-    notes: "William Alexander Douglas-Hamilton, 12th Duke of Hamilton. Marie's primary fixation throughout this carnet - she never speaks to him but observes him constantly at the opera, promenade, and pigeon shooting."
+    notes: William Alexander Douglas-Hamilton, 12th Duke of Hamilton. Marie's
+      primary fixation throughout this carnet - she never speaks to him but
+      observes him constantly at the opera, promenade, and pigeon shooting.
   - id: DINA
     role: family_companion
-    notes: "Marie's cousin Dina Babanina, who accompanies the family and attends social events with Maman."
+    notes: Marie's cousin Dina Babanina, who accompanies the family and attends
+      social events with Maman.
   - id: BOREEL
     role: secondary_suitor
-    notes: "Alfred Boreel, a young man Marie uses partly to distract herself from the Duke. She analyzes her feelings for both men with remarkable psychological precision."
+    notes: Alfred Boreel, a young man Marie uses partly to distract herself from the
+      Duke. She analyzes her feelings for both men with remarkable psychological
+      precision.
   - id: MAMAN
     role: mother
-    notes: "Maria Stepanovna Babanina, Marie's mother, who manages the household and participates actively in Nice society."
+    notes: Maria Stepanovna Babanina, Marie's mother, who manages the household and
+      participates actively in Nice society.
   - id: MLLE_COLLIGNON
     role: governess
-    notes: "Marie's French governess who teaches her English and serves as companion and chaperone."
+    notes: Marie's French governess who teaches her English and serves as companion
+      and chaperone.
   - id: GIOIA
     role: rival
-    notes: "The Duke of Hamilton's mistress, whom Marie observes with jealousy. Marie eventually admits Gioia is 'plus belle que moi' (more beautiful than me)."
-
+    notes: The Duke of Hamilton's mistress, whom Marie observes with jealousy. Marie
+      eventually admits Gioia is 'plus belle que moi' (more beautiful than me).
 major_themes:
   - romantic_obsession
   - society_life
@@ -37,8 +44,6 @@ major_themes:
   - fashion
   - opera
   - horseback_riding
-
-marie_age: 13
 generated_from_entries: false
 ---
 
