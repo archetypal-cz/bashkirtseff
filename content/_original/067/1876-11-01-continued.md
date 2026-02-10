@@ -1,34 +1,25 @@
 ---
 date: 1876-11-01
-type: daily_entry
-entry_id: 1876-11-01-continued
+entry_id: 1876-11-01
+carnet: "067"
 location: Gavronzi
 locations:
   - Gavronzi
 dates:
   primary: Mercredi, 1er novembre 1876 (20 octobre)
-marie_age:
-  years: 15
-  months: 11
-  days: 16
+type: daily_entry
 entities:
   people:
     - Pacha
   places:
     - Gavronzi
-  cultural: []
 workflow:
   research_complete: true
   linguistic_annotation_complete: true
-  translation_complete: false
-  editorial_review_complete: false
-  conductor_approval: false
-  last_modified: 2026-02-09T11:32:00
+  last_modified: 2026-02-10T23:30:00
   modified_by: RSR
 flags:
   has_continuation: false
-title: Mercredi, 1er novembre 1876 (20 octobre) - Continued
-carnet: "067"
 para_start: 1
 para_end: 8
 ---
