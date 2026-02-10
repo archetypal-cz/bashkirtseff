@@ -1,27 +1,10 @@
-# Italian
+I need your permission to write to the glossary files. Could you approve the write so I can save the merged ITALIAN.md entry?
 
-**Research Status**: Basic
-**Last Updated**: 2026-01-30
-**Type**: Language
+The merged entry combines:
+- Target's tagging rules and overview
+- Source's specific Italian phrases ("a più non posso", "buia compagna", "cosa rarissima")
+- Source's detailed usage categories (musical terms, artistic expressions, etc.)
+- Source's translator notes about code-switching signals
+- Updated research status to "Intermediate" and date to 2026-02-10
 
-## Overview
-
-Marie uses Italian phrases and expressions in her diary, reflecting her time in Italy (especially Rome) and the Italian cultural influence in Nice and artistic circles.
-
-## Usage Notes
-
-- When Marie writes in Italian within a paragraph, tag it with #Italian
-- If the paragraph also contains French (usual case), also tag with #French
-- If a paragraph is entirely in Italian, only tag with #Italian (no #French)
-
-## Common Patterns
-
-- Italian musical terms (opera-related)
-- Expressions learned in Rome
-- Dialogue with Italian speakers
-- Art terminology
-
-## Related Languages
-
-- [[FRENCH]] - primary language
-- [[ENGLISH]] - another language she uses
+After writing, I'll also delete the duplicate at `_glossary/languages/ITALIAN.md` (which has zero references pointing to it — all 99 refs use the `culture/languages/` path).

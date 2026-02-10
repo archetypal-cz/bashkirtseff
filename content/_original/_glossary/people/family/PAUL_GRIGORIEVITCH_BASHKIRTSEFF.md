@@ -1,7 +1,9 @@
+Looking at both entries, they are essentially identical — the only difference is the source entry has proper French diacritics ("même féroce" vs "meme feroce"). Let me produce the merged entry with the diacritics preserved.
+
 # Paul Grigorievitch Bashkirtseff
 
 **Research Status**: Basic
-**Last Updated**: 2025-12-07
+**Last Updated**: 2026-02-10
 **Diary Coverage**: Book 00 (1884 preface)
 
 ## Identity
@@ -13,7 +15,7 @@ Marie's paternal grandfather. Russian general who served in the Crimean War. Fat
 **Military Career:**
 - Small nobility ("petite noblesse")
 - Promoted to general rank after the Crimean War (1853-1856)
-- Described by Marie as "brave, tenace, dur et meme feroce" (brave, tenacious, hard and even ferocious)
+- Described by Marie as "brave, tenace, dur et même féroce" (brave, tenacious, hard and even ferocious)
 
 **Family:**
 - Married a young woman said to be the natural daughter of a great lord

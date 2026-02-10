@@ -78,6 +78,18 @@ glossary-duplicates:
 glossary-migrate-flat *FLAGS:
     npx tsx src/scripts/glossary-migrate-flat.ts {{FLAGS}}
 
+# Analyze glossary duplicates and generate restructure plan
+glossary-dedup-analyze:
+    npx tsx src/scripts/glossary-dedup.ts analyze
+
+# Execute glossary dedup plan (dry run)
+glossary-dedup-dry plan_file:
+    npx tsx src/scripts/glossary-dedup.ts execute --dry-run {{plan_file}}
+
+# Execute glossary dedup plan
+glossary-dedup-execute plan_file:
+    npx tsx src/scripts/glossary-dedup.ts execute {{plan_file}}
+
 # === UTILITIES ===
 
 # Verify all entries are properly formatted

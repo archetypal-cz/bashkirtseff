@@ -1,3 +1,0 @@
-# Anitchkoff
-
-Stub entry — needs research.
