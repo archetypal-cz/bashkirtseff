@@ -1,0 +1,3 @@
+# Mme Eristoff
+
+Stub entry — needs research.

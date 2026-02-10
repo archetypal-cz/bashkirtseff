@@ -1,0 +1,3 @@
+# P de Cassagnac
+
+Stub entry — needs research.
