@@ -133,23 +133,5 @@ Walitsky abandoned this secure government position to follow the Bashkirtseff fa
 
 %% 2025-12-07T15:10:00 RSR: Major update with Book 00 biographical information. Original entry only had 1873 Nice references. Now includes full background, Akhtyrka position, university connection, European journey, financial exploitation, and Marie's extraordinary tribute. This was clearly one of the few people Marie genuinely loved and respected. %%
 
----
 
-%% 2026-02-04T06:46:46.449Z RSR: Merged content from WALITSKTY %%
-
-# Walitskty
-
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
-
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-02-04T06:46:46.449Z RSR: Merged content from WALITSKTY (auto-generated stub, now superseded by comprehensive entry above) %%

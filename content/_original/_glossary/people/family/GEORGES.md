@@ -144,23 +144,5 @@ In large aristocratic families, alliances often formed between family members wh
 
 %% 2025-12-07T14:45:00 RSR: Updated entry with comprehensive details from 1884-05-02 preface about Georges' character, talents, marriage to 36-year-old widow, Dina's parentage, exile to Viatka, St. Petersburg disguised escape, and the family's enabling pattern. %%
 
----
 
-%% 2026-02-10T18:57:20.325Z RSR: Merged content from GEORGES_BASHKIRTSEFF %%
-
-# Georges Bashkirtseff
-
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
-
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-02-10T18:57:20.325Z RSR: Merged content from GEORGES_BASHKIRTSEFF (auto-generated stub, now superseded by comprehensive entry above) %%
