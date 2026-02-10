@@ -6,17 +6,17 @@
 
 Carnet 094 of Marie Bashkirtseff's diary.
 
-**Date range**: 1881-11-23 to 1882-04-12
-**Entry count**: 74
+**Date range**: 1881-11-23 to 1882-04-29
+**Entry count**: 76
 **Location(s)**: Paris
 
 ## Status
 
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
-| Restructured | 74 | 74 | — |
-| Research    | 0 | 74 | — |
-| Annotation  | 0 | 74 | — |
+| Restructured | 76 | 76 | — |
+| Research    | 0 | 76 | — |
+| Annotation  | 0 | 76 | — |
 
 ## TODOs
 
@@ -45,6 +45,9 @@ Carnet 094 of Marie Bashkirtseff's diary.
 _Progress tracking initialized._
 
 ## Changelog
+
+### 2026-02-10T12:00:00 @claude
+Moved entries 1882-04-27 and 1882-04-29 from carnet 095 to 094. Text found in Tome 14 (carnet 094's source), not Tome 15. Paragraph IDs renumbered as 094.0265-094.0277.
 
 ### 2026-02-04T10:50:26 @kerray
 Initialized carnet README for progress tracking.

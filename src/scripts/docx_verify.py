@@ -524,9 +524,9 @@ def cmd_compare(args):
                 report_lines.append(f"#### Significant ({len(significant)}) - REVIEW THESE\n")
                 report_lines.append("Substantial text not found in DOCX source:\n")
                 for ep, score in significant:
-                    preview = ep.text[:200].replace("\n", " ")
+                    full_text = ep.text.replace("\n", " ")
                     report_lines.append(f"- **{ep.para_id}** ({ep.entry_date}, {ep.carnet}) "
-                                        f"[fuzzy:{score:.0f}%]: `{preview}`")
+                                        f"[fuzzy:{score:.0f}%]: `{full_text}`")
                 report_lines.append("")
 
             if trivial:

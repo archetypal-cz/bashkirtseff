@@ -33,7 +33,19 @@ Brother of the Duke of Hamilton, spotted by Marie in Nice. Described as having "
 - [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Brother
 - [#Baden_Baden](Baden_Baden.md) - Where known
 
+## Carriage Accident (1875)
+
+In August 1875, Marie learns that Carlo Hamilton has been gravely injured or killed in a carriage accident in St. Petersburg. He had obtained a divorce for Mme Paskevitch and was about to marry her when his horses bolted on Nevsky Prospect. He was thrown from the carriage in a pitiful state; doctors despaired of saving him. Marie is deeply moved: "Pauvre Carlo, au moment d'etre heureux!" She empathizes particularly with Paskevitch's suffering.
+
+### Diary References (1875)
+- **August 15**: Marie learns of the accident from a Russian lady at Schlangenbad
+- **August 16**: Continued grief -- "Pauvre Carlo, gentil Carlo! C'est abominable"
+
 ## Research Notes
 - Hamilton family members
 - Baden-Baden society connections
 - Scottish aristocracy in Nice
+- Identify Mme Paskevitch and the divorce circumstances
+- Confirm whether Carlo survived the accident
+
+%% 2026-02-10T17:10:00 RSR: Added 1875 carriage accident in St. Petersburg from carnets 039. %%

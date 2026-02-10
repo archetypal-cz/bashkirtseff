@@ -31,9 +31,14 @@ Aunt by marriage - wife of Marie's Uncle Stiopa (Stepan).
 - **January 7**: Shopping trip criticized by Marie
 - **March 28**: Accompanies family to Monaco casino, walks with Marie to casino, returns early on 5 o'clock train
 
+### 1875
+- **August 16**: Accompanies Marie and Dina on a trip to Wiesbaden to find a carriage and horses, encounters German children shouting "hourra!" at them, moonlit carriage ride home discussing elopement and marriage
+
 ## Research Needed
 
 - Full name (Machenka is diminutive of Maria)
 - Maiden name
 - Age
 - Children
+
+%% 2026-02-10T17:10:00 RSR: Added 1875 Wiesbaden excursion reference from carnet 039. %%

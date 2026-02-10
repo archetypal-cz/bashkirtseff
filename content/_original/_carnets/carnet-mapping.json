@@ -862,10 +862,10 @@
       "number": 94,
       "title": "Livre 94",
       "start_date": "1881-11-23",
-      "end_date": "1882-04-13",
+      "end_date": "1882-04-29",
       "old_book": "14",
       "location": "Paris, Nice",
-      "notes": ""
+      "notes": "Tome 14 TOC lists Livre 94 ending April 13, but manuscript content continues to April 29"
     },
     "095": {
       "number": 95,
@@ -1063,9 +1063,9 @@
     },
     "14": {
       "carnets": ["090", "091", "092", "093", "094"],
-      "date_range": "1880-10-03 to 1882-04-13",
+      "date_range": "1880-10-03 to 1882-04-29",
       "title": "Tome XIV",
-      "notes": ""
+      "notes": "Livre 94 manuscript content extends to April 29, though TOC states April 13"
     },
     "15": {
       "carnets": ["095", "096", "097", "098", "099", "100"],
