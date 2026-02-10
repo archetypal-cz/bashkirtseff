@@ -15,8 +15,8 @@ Carnet 077 of Marie Bashkirtseff's diary.
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 43 | 43 | — |
-| Research    | 0 | 43 | — |
-| Annotation  | 0 | 43 | — |
+| Research    | 43 | 43 | RSR |
+| Annotation  | 43 | 43 | LAN |
 
 ## TODOs
 
@@ -43,6 +43,13 @@ Carnet 077 of Marie Bashkirtseff's diary.
 ## What's Done
 
 _Progress tracking initialized._
+
+### 2026-02-09 RSR
+- All 43 entries: frontmatter migrated to new format (nested entities, workflow block, dates block)
+- All 43 entries: RSR comments added with historical context
+- Fixed misclassified glossary links throughout (Breslau→people/artists, avenue_de_l_Alma→places/residences, Italy→places/countries, La_Madeleine→places/buildings, Le_Tintamarre→culture/press, Chambre→places/government, Rouher→people/politicians, etc.)
+- 1 empty entry identified: 1878-01-26
+- Key themes: Marie at Académie Julian age 19, Paul de Cassagnac flirtation, anonymous letter intrigue, masked visits, Walitsky's death (Jan 12), Victor Emmanuel II's death (Jan 9), concours at atelier
 
 ## Changelog
 

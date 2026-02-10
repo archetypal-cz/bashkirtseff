@@ -15,13 +15,14 @@ Carnet 048 of Marie Bashkirtseff's diary.
 | Phase       | Done | Total | Worker |
 |-------------|------|-------|--------|
 | Restructured | 14 | 14 | — |
-| Research    | 7 | 14 | rsr-p2 (partial) |
-| Annotation  | 0 | 14 | — |
+| Research    | 14 | 14 | rsr-p2, rsr-p3 |
+| Annotation  | 14 | 14 | lan |
 
 ## What's Done
 
-- 7/14 entries researched (rsr-p2, session interrupted)
-- Remaining 7 entries need RSR in next session
+- 14/14 entries researched (RSR complete)
+- 14/14 entries annotated (LAN complete)
+- Source preparation complete for this carnet
 
 ## Changelog
 
@@ -30,3 +31,9 @@ Initialized carnet README for progress tracking.
 
 ### 2026-02-09 rsr-p2
 Partial RSR research — 7/14 entries completed before session end.
+
+### 2026-02-09 rsr-p3
+Completed RSR for remaining 7 entries (Nov 1-7). Updated frontmatter to standard format, added glossary tags, RSR comments, and entity metadata.
+
+### 2026-02-10 ED
+Verified all 14 entries have both RSR and LAN. Source preparation complete.
