@@ -503,6 +503,32 @@ kernberger-appendices:
 kernberger-report:
     uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py report
 
+# === 1887 CENSORED EDITION MATCHING ===
+#
+# Match the 1887 Charpentier/Fasquelle censored edition against our
+# uncensored French originals. Tags matched paragraphs with #Censored_1887.
+# Source: Internet Archive OCR text of the 1903 Fasquelle reprint.
+
+# Parse OCR text files to extract censored edition entries
+censored-parse:
+    uv run --with rapidfuzz python3 src/scripts/censored_matching.py parse
+
+# Match censored entries to French originals (paragraph-level)
+censored-extract:
+    uv run --with rapidfuzz python3 src/scripts/censored_matching.py extract
+
+# Tag source files with #Censored_1887 (dry run)
+censored-tag-dry:
+    uv run --with rapidfuzz python3 src/scripts/censored_matching.py tag --dry-run
+
+# Tag source files with #Censored_1887
+censored-tag:
+    uv run --with rapidfuzz python3 src/scripts/censored_matching.py tag
+
+# Show censored edition report status
+censored-report:
+    uv run --with rapidfuzz python3 src/scripts/censored_matching.py report
+
 # === FRONTEND (Astro PWA) ===
 
 # Start frontend development server
