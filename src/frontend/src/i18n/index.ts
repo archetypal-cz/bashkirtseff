@@ -66,8 +66,12 @@ let _localeInitialized = false;
 
 /**
  * Read the user's locale preference from localStorage.
- * Called after mount to avoid hydration mismatch — SSR always renders Czech,
- * so the client must also start with 'cs' during hydration, then update reactively.
+ *
+ * Deferred to a macrotask (setTimeout) so it runs AFTER all Astro islands
+ * have finished hydrating. Astro islands are separate Vue apps sharing this
+ * module — if one island's onMounted changes currentLocale before another
+ * island hydrates, Vue detects a mismatch between SSR HTML (Czech) and the
+ * client render (user's saved locale).
  */
 function initLocaleFromStorage() {
   if (_localeInitialized || typeof window === 'undefined') return;
@@ -76,6 +80,12 @@ function initLocaleFromStorage() {
   if (saved && SUPPORTED_LOCALES.includes(saved)) {
     currentLocale.value = saved;
   }
+}
+
+function scheduleLocaleInit() {
+  if (_localeInitialized) return;
+  // setTimeout defers to the next macrotask, after all pending island hydrations
+  setTimeout(initLocaleFromStorage, 0);
 }
 
 // Get nested value from object by dot-separated path
@@ -117,8 +127,8 @@ export function getLocale(): SupportedLocale {
 export function useI18n() {
   const locale = computed(() => currentLocale.value);
 
-  // Load user's locale preference after hydration completes
-  onMounted(() => initLocaleFromStorage());
+  // Schedule locale init — deferred past all island hydrations
+  onMounted(scheduleLocaleInit);
 
   function t(key: string, params?: Record<string, string | number>): string {
     const localeMessages = messages[currentLocale.value] || messages.cs;

@@ -33,6 +33,10 @@ export default defineConfig({
     '/cz/02': '/cz/002',
   },
 
+  build: {
+    concurrency: 4,
+  },
+
   vite: {
     plugins: [tailwindcss()],
     define: {
