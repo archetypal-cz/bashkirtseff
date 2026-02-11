@@ -165,8 +165,10 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
             id={`fn-${fn.id}`}
             class="footnote-item"
             data-fn={fn.id}
-            set:html={fn.text}
-          />
+          >
+            <span set:html={fn.text} />
+            <a href={`#fnref-${fn.id}`} class="footnote-backref" title="Zpět do textu">&#x21A9;</a>
+          </div>
         ))}
       </section>
     )}
@@ -230,3 +232,5 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
     }
   });
 </script>
+
+<script src="../../../scripts/footnote-popover.ts"></script>

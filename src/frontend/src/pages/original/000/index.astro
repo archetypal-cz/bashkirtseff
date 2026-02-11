@@ -80,8 +80,10 @@ const processedParagraphs = entry.paragraphs.map(p => ({
             id={`fn-${fn.id}`}
             class="footnote-item"
             data-fn={fn.id}
-            set:html={fn.text}
-          />
+          >
+            <span set:html={fn.text} />
+            <a href={`#fnref-${fn.id}`} class="footnote-backref" title="Retour au texte">&#x21A9;</a>
+          </div>
         ))}
       </section>
     )}
@@ -116,3 +118,5 @@ const processedParagraphs = entry.paragraphs.map(p => ({
     }
   });
 </script>
+
+<script src="../../../scripts/footnote-popover.ts"></script>
