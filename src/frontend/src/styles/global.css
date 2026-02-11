@@ -53,7 +53,7 @@
   --bg-secondary: #252525;
   --text-primary: #e5e5e5;
   --text-secondary: #a3a3a3;
-  --text-muted: #8a8a8a;  /* Improved contrast: 5.9:1 vs previous 4.5:1 */
+  --text-muted: #a8a8a8;  /* Improved contrast: ~9:1 for readable section headers */
   --border-color: rgba(255, 255, 255, 0.1);
 }
 

@@ -44,16 +44,4 @@ const { title, description, lang, image, type, canonicalUrl, article } = Astro.p
   <InstallPrompt client:idle />
 </BaseLayout>
 
-<script>
-  // Apply saved theme on page load to prevent flash
-  const savedTheme = localStorage.getItem('reading-theme');
-  const savedFontScale = localStorage.getItem('reading-font-scale');
-
-  if (savedTheme) {
-    document.documentElement.setAttribute('data-theme', savedTheme);
-  }
-  if (savedFontScale) {
-    const scaleMultiplier = parseInt(savedFontScale, 10) / 100;
-    document.documentElement.style.setProperty('--reading-font-scale', scaleMultiplier.toString());
-  }
-</script>
+<!-- Theme/font-scale applied in BaseLayout <head> to prevent flash -->

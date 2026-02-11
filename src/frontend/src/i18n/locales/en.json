@@ -179,6 +179,16 @@
     "liveOriginal": "Je veux vivre, et vivre avec éclat.",
     "skirts": "I know that I should become somebody; but with skirts — what can one do?"
   },
+  "offline": {
+    "download": "Download for offline",
+    "cancel": "Cancel",
+    "available": "Available offline",
+    "remove": "Remove offline data",
+    "pages": "pages",
+    "resume": "Resume",
+    "error": "Download failed",
+    "retry": "Retry"
+  },
   "glossary": {
     "search": "Search glossary...",
     "noResults": "No entries found",

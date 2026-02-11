@@ -214,8 +214,6 @@ const calendarWeeks = computed(() => {
 }
 
 .calendar-compact .calendar-day {
-  width: 1.5rem;
-  height: 1.5rem;
   font-size: 0.6875rem;
 }
 
@@ -300,8 +298,7 @@ const calendarWeeks = computed(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  aspect-ratio: 1;
   font-size: 0.8125rem;
   border-radius: 0.25rem;
   transition: all 0.15s;

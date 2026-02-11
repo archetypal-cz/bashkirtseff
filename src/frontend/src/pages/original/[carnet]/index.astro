@@ -2,6 +2,7 @@
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import CalendarWidget from '../../../components/CalendarWidget.vue';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
+import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getCarnets, getCarnetEntries, getEntry, getEntryPreview, getCarnetSummary } from '../../../lib/content';
 
 export function getStaticPaths() {
@@ -253,6 +254,9 @@ const formatEntryDate = (dateStr: string) => {
         </div>
       )}
     </section>
+
+    <!-- Offline Download -->
+    <OfflineDownload client:visible scopeType="carnet" scopeId={carnet!} language="original" />
 
     <FilterOverlay client:load pageType="carnet-detail" />
 

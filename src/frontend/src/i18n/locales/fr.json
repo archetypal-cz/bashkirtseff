@@ -179,6 +179,16 @@
     "liveOriginal": "",
     "skirts": "Je sais que je devrais devenir quelqu'un ; mais avec des jupes — que peut-on faire ?"
   },
+  "offline": {
+    "download": "Télécharger pour hors ligne",
+    "cancel": "Annuler",
+    "available": "Disponible hors ligne",
+    "remove": "Supprimer les données hors ligne",
+    "pages": "pages",
+    "resume": "Reprendre",
+    "error": "Échec du téléchargement",
+    "retry": "Réessayer"
+  },
   "glossary": {
     "search": "Rechercher dans le glossaire...",
     "noResults": "Aucune entrée trouvée",

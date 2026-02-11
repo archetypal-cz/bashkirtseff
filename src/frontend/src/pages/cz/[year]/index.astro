@@ -1,6 +1,7 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
+import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getYears, getCarnetsByYear, getYearInfo, isCarnetCrossYear, getCarnetEntries } from '../../../lib/content';
 
 export function getStaticPaths() {
@@ -111,6 +112,9 @@ const nextYear = currentIndex < allYears.length - 1 ? allYears[currentIndex + 1]
         </div>
       )}
     </header>
+
+    <!-- Offline Download -->
+    <OfflineDownload client:visible scopeType="year" scopeId={year!} language="original" />
 
     <!-- Year Navigation -->
     <div class="flex justify-between items-center mb-8 text-sm">

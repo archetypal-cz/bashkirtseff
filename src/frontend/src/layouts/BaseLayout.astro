@@ -117,16 +117,20 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).hr
     })} />
 
     <title>{title}</title>
+
+    <!-- Apply theme + locale before first paint to prevent flash -->
+    <script is:inline>
+      (function() {
+        var t = localStorage.getItem('reading-theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+        var s = localStorage.getItem('reading-font-scale');
+        if (s) document.documentElement.style.setProperty('--reading-font-scale', (parseInt(s,10)/100).toString());
+        var l = localStorage.getItem('ui-language');
+        if (l && ['cs','en','fr'].includes(l)) document.documentElement.setAttribute('lang', l);
+      })();
+    </script>
   </head>
   <body class="min-h-screen flex flex-col">
     <slot />
   </body>
 </html>
-
-<script>
-  // Update HTML lang attribute based on user's UI locale preference
-  const savedLocale = localStorage.getItem('ui-language');
-  if (savedLocale && ['cs', 'en', 'fr'].includes(savedLocale)) {
-    document.documentElement.setAttribute('lang', savedLocale);
-  }
-</script>

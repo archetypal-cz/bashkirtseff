@@ -179,6 +179,16 @@
     "liveOriginal": "Je veux vivre, et vivre avec éclat.",
     "skirts": "Vím, že bych se měla stát někým; ale se sukněmi — co člověk zmůže?"
   },
+  "offline": {
+    "download": "Stáhnout pro offline",
+    "cancel": "Zrušit",
+    "available": "Dostupné offline",
+    "remove": "Odstranit offline data",
+    "pages": "stránek",
+    "resume": "Pokračovat",
+    "error": "Stahování selhalo",
+    "retry": "Zkusit znovu"
+  },
   "glossary": {
     "search": "Hledat v glosáři...",
     "noResults": "Žádné položky nenalezeny",

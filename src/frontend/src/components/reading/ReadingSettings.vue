@@ -164,29 +164,31 @@ function togglePanel() {
 <style scoped>
 .reading-settings {
   position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  bottom: 0.75rem;
+  right: 0.75rem;
   z-index: 50;
 }
 
 .settings-toggle {
-  width: 3rem;
-  height: 3rem;
+  width: 2.75rem;
+  height: 2.75rem;
   border-radius: 9999px;
   background: var(--color-accent, #B45309);
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.2s;
   border: none;
   cursor: pointer;
+  opacity: 0.6;
 }
 
 .settings-toggle:hover {
+  opacity: 1;
   transform: scale(1.05);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .settings-toggle.is-open {
