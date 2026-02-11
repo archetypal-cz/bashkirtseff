@@ -1,5 +1,6 @@
 ---
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import FilterOverlay from '../../components/filter/FilterOverlay.vue';
 import { getYears, getCarnets, getCarnetsByYear } from '../../lib/content';
 
 const years = getYears('_original');
@@ -75,11 +76,14 @@ const totalTranslated = yearsWithStats.reduce((sum, y) => sum + y.translatedCoun
       </div>
     </a>
 
+    <FilterOverlay client:load pageType="year-list" />
+
     <!-- Year grid -->
     <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {yearsWithStats.map(year => (
         <a
           href={`/cz/${year.year}`}
+          data-filter-year={year.year}
           class={`block p-6 rounded-lg border transition-all ${
             year.hasTranslations
               ? 'bg-parchment border-ink/10 hover:border-accent hover:shadow-lg'
@@ -105,7 +109,7 @@ const totalTranslated = yearsWithStats.reduce((sum, y) => sum + y.translatedCoun
             <span class="text-muted">
               {year.carnets.length} sešitů
             </span>
-            <span class="text-muted">
+            <span class="text-muted" data-filter-count={`year-entries:${year.year}`}>
               {year.entryCount} záznamů
             </span>
           </div>

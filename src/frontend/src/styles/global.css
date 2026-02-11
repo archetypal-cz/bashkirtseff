@@ -72,6 +72,11 @@
     transition: background-color 0.3s ease, color 0.3s ease;
   }
 
+  /* Filter visibility */
+  .filter-hidden {
+    display: none !important;
+  }
+
   /* Prose styling for diary entries */
   .prose-diary {
     @apply max-w-2xl mx-auto;

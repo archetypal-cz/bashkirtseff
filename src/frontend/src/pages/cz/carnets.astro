@@ -1,5 +1,6 @@
 ---
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import FilterOverlay from '../../components/filter/FilterOverlay.vue';
 import { getCarnets } from '../../lib/content';
 
 const carnets = getCarnets('cz');
@@ -67,10 +68,13 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
       )}
     </header>
 
+    <FilterOverlay client:load pageType="carnets-list" />
+
     <div class="grid gap-4">
       {allCarnets.map(carnet => (
         <a
           href={carnet.hasTranslation ? `/cz/${carnet.id}` : `/original/${carnet.id}`}
+          data-filter-carnet={carnet.id}
           class={`block p-4 rounded-lg border transition-all ${
             carnet.hasTranslation
               ? 'bg-parchment border-ink/10 hover:border-accent hover:shadow'

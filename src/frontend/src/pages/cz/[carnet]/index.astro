@@ -1,6 +1,7 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import CalendarWidget from '../../../components/CalendarWidget.vue';
+import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import { getCarnets, getCarnetEntries, getEntry, hasTranslation, isCarnetCrossYear, getCarnetSummary, getEntryPreview } from '../../../lib/content';
 
 export function getStaticPaths() {
@@ -327,11 +328,14 @@ function formatDisplayName(id: string): string {
       )}
     </section>
 
+    <FilterOverlay client:load pageType="carnet-detail" />
+
     <!-- Entry List -->
     <div class="space-y-2">
       {allEntries.map(entry => (
         <a
           href={entry.isTranslated ? `/cz/${carnet}/${entry.date}` : `/original/${carnet}/${entry.date}`}
+          data-filter-entry={entry.date}
           class={`block p-4 rounded-lg border transition-all ${
             entry.isTranslated
               ? 'bg-parchment border-ink/10 hover:border-accent hover:shadow'

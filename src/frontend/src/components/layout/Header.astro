@@ -2,6 +2,7 @@
 // Header component with navigation and locale switcher
 import MobileMenu from './MobileMenu.vue';
 import LocaleSwitcher from './LocaleSwitcher.vue';
+import FilterButton from './FilterButton.vue';
 import { t } from '../../i18n/astro';
 ---
 
@@ -38,6 +39,9 @@ import { t } from '../../i18n/astro';
 
       <!-- Right side: Locale switcher + Login + Mobile Menu -->
       <div class="flex items-center gap-2 md:gap-4">
+        <!-- Filter Button -->
+        <FilterButton client:load />
+
         <!-- UI Locale Switcher (CS/FR/EN) -->
         <LocaleSwitcher client:load />
 

@@ -384,6 +384,7 @@ help:
     @echo "  just stewardship-archive     # Archive old posted items"
     @echo ""
     @echo "FRONTEND (Astro PWA):"
+    @echo "  just filter-index     # Build filter index for tag filtering"
     @echo "  just fe-dev           # Start frontend dev server"
     @echo "  just fe-build         # Build frontend for production"
     @echo "  just fe-preview       # Preview production build"
@@ -531,12 +532,17 @@ censored-report:
 
 # === FRONTEND (Astro PWA) ===
 
+# Build filter index JSON for frontend tag filtering
+filter-index:
+    npx tsx src/scripts/build-filter-index.ts
+
 # Start frontend development server
 fe-dev:
     cd src/frontend && npm run dev
 
-# Build frontend for production
+# Build frontend for production (includes filter index)
 fe-build:
+    just filter-index
     cd src/frontend && npm run build
 
 # Preview production build locally

@@ -1,5 +1,6 @@
 ---
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import FilterOverlay from '../../components/filter/FilterOverlay.vue';
 import { getCarnets } from '../../lib/content';
 
 const carnets = getCarnets('_original');
@@ -26,10 +27,13 @@ const formatDate = (date: Date) => {
       </p>
     </header>
 
+    <FilterOverlay client:load pageType="carnets-list" />
+
     <div class="grid gap-6">
       {carnets.map(carnet => (
         <a
           href={`/original/${carnet.id}`}
+          data-filter-carnet={carnet.id}
           class="block p-6 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow-lg transition-all"
         >
           <div class="flex items-start justify-between">

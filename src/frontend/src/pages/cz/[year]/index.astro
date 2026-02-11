@@ -1,5 +1,6 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
+import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import { getYears, getCarnetsByYear, getYearInfo, isCarnetCrossYear, getCarnetEntries } from '../../../lib/content';
 
 export function getStaticPaths() {
@@ -125,11 +126,14 @@ const nextYear = currentIndex < allYears.length - 1 ? allYears[currentIndex + 1]
       ) : <span />}
     </div>
 
+    <FilterOverlay client:load pageType="year-detail" />
+
     <!-- Carnet List -->
     <div class="space-y-3">
       {carnetsWithStatus.map(carnet => (
         <a
           href={`/cz/${carnet.id}`}
+          data-filter-carnet={carnet.id}
           class={`block p-4 rounded-lg border transition-all ${
             carnet.translatedCount > 0
               ? 'bg-parchment border-ink/10 hover:border-accent hover:shadow'
@@ -158,7 +162,7 @@ const nextYear = currentIndex < allYears.length - 1 ? allYears[currentIndex + 1]
                 <p class="text-sm text-muted mt-1">
                   {formatDateRange(carnet.dateRange.start, carnet.dateRange.end)}
                   <span class="mx-2">•</span>
-                  {carnet.entriesInYear} záznamů
+                  <span data-filter-count={`carnet-entries:${carnet.id}`}>{carnet.entriesInYear}</span> záznamů
                   {carnet.translatedCount > 0 && carnet.translatedCount < carnet.entriesInYear && (
                     <span class="text-accent ml-1">
                       ({carnet.translatedCount} přeloženo)

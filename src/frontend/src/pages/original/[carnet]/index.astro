@@ -1,6 +1,7 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import CalendarWidget from '../../../components/CalendarWidget.vue';
+import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import { getCarnets, getCarnetEntries, getEntry, getEntryPreview, getCarnetSummary } from '../../../lib/content';
 
 export function getStaticPaths() {
@@ -253,11 +254,14 @@ const formatEntryDate = (dateStr: string) => {
       )}
     </section>
 
+    <FilterOverlay client:load pageType="carnet-detail" />
+
     <!-- Entry List -->
     <div class="space-y-2">
       {allEntries.map(entry => (
         <a
           href={`/original/${carnet}/${entry.date}`}
+          data-filter-entry={entry.date}
           class="block p-4 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow transition-all"
         >
           <div class="flex items-start justify-between gap-4">
