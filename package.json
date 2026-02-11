@@ -19,6 +19,7 @@
     "test:parser": "npm run diary -- parse content/_original/001/1873-01-01.md --pretty"
   },
   "devDependencies": {
+    "sharp": "^0.34.5",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },

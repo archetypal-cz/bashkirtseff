@@ -532,6 +532,10 @@ censored-report:
 
 # === FRONTEND (Astro PWA) ===
 
+# Generate PWA icons from Marie's self-portrait
+generate-pwa-icons:
+    npx tsx src/scripts/generate-pwa-icons.ts
+
 # Build filter index JSON for frontend tag filtering
 filter-index:
     npx tsx src/scripts/build-filter-index.ts

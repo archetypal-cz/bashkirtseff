@@ -71,6 +71,7 @@ onUnmounted(() => {
         <div class="install-text">
           <strong>{{ t('pwa.installApp') }}</strong>
           <span>{{ t('pwa.betterExperience') }}</span>
+          <span class="privacy-note">{{ t('pwa.privacyNote') }}</span>
         </div>
       </div>
       <div class="install-actions">
@@ -142,6 +143,11 @@ onUnmounted(() => {
 .install-text span {
   font-size: 0.875rem;
   color: var(--text-muted, #78716C);
+}
+
+.install-text .privacy-note {
+  font-size: 0.75rem;
+  opacity: 0.7;
 }
 
 .install-actions {

@@ -48,7 +48,8 @@
     "installApp": "Installer l'application",
     "betterExperience": "Pour une meilleure expérience de lecture",
     "noThanks": "Non merci",
-    "install": "Installer"
+    "install": "Installer",
+    "privacyNote": "Aucun pistage commercial. Seulement nos propres statistiques."
   },
   "reading": {
     "backToTop": "Retour en haut",
@@ -163,7 +164,9 @@
     "praise": "Ce qu'on en dit",
     "praiseGladstone": "Un livre sans parallèle.",
     "praiseGladstoneAttrib": "William Gladstone, Premier ministre britannique",
-    "praiseInfluence": "Son journal a influencé des générations d'écrivaines — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir s'en est inspirée pour Le Deuxième Sexe."
+    "praiseInfluence": "Son journal a influencé des générations d'écrivaines — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir s'en est inspirée pour Le Deuxième Sexe.",
+    "privacy": "Confidentialité",
+    "privacyText": "Ce site n'utilise aucun pistage commercial, aucun cookie publicitaire et ne vend aucune donnée à des tiers. Nous utilisons uniquement nos propres statistiques simples pour savoir quelles entrées sont lues et comment le site est utilisé — rien de plus. Lorsque vous installez l'application, vos données de lecture restent sur votre appareil."
   },
   "header": {
     "siteTitle": "Journal de Marie Bashkirtseff",

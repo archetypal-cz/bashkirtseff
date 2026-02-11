@@ -101,6 +101,12 @@ const contentPath = lang === 'cs' ? 'cz' : (lang === 'fr' ? 'original' : 'cz');
         {t('about.praiseInfluence')}
       </p>
 
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.privacy')}</h2>
+
+      <p class="leading-relaxed">
+        {t('about.privacyText')}
+      </p>
+
       <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.acknowledgments')}</h2>
 
       <p class="leading-relaxed" set:html={t('about.acknowledgmentsText')} />

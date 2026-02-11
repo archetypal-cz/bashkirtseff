@@ -48,7 +48,8 @@
     "installApp": "Install App",
     "betterExperience": "For a better reading experience",
     "noThanks": "No thanks",
-    "install": "Install"
+    "install": "Install",
+    "privacyNote": "No corporate tracking. Only our own usage stats."
   },
   "reading": {
     "backToTop": "Back to top",
@@ -163,7 +164,9 @@
     "praise": "What Others Have Said",
     "praiseGladstone": "A book without a parallel.",
     "praiseGladstoneAttrib": "William Gladstone, British Prime Minister",
-    "praiseInfluence": "Her diary influenced generations of writers — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir drew on it for The Second Sex."
+    "praiseInfluence": "Her diary influenced generations of writers — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir drew on it for The Second Sex.",
+    "privacy": "Privacy",
+    "privacyText": "This site has no corporate tracking, no advertising cookies, and no data sold to third parties. We use our own simple analytics to understand which entries are read and how the site is used — nothing more. When you install the app, your reading data stays on your device."
   },
   "header": {
     "siteTitle": "Diary of Marie Bashkirtseff",

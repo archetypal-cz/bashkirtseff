@@ -48,7 +48,8 @@
     "installApp": "Nainstalovat aplikaci",
     "betterExperience": "Pro lepší zážitek z čtení",
     "noThanks": "Ne, děkuji",
-    "install": "Nainstalovat"
+    "install": "Nainstalovat",
+    "privacyNote": "Žádné firemní sledování. Pouze vlastní statistiky návštěvnosti."
   },
   "reading": {
     "backToTop": "Zpět nahoru",
@@ -163,7 +164,9 @@
     "praise": "Ohlasy",
     "praiseGladstone": "Kniha bez paralely.",
     "praiseGladstoneAttrib": "William Gladstone, britský premiér",
-    "praiseInfluence": "Její deník ovlivnil generace spisovatelek — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir z něj čerpala pro Druhé pohlaví."
+    "praiseInfluence": "Její deník ovlivnil generace spisovatelek — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir z něj čerpala pro Druhé pohlaví.",
+    "privacy": "Soukromí",
+    "privacyText": "Tento web nepoužívá firemní sledování, reklamní cookies ani neprodává data třetím stranám. Používáme pouze vlastní jednoduché statistiky, abychom věděli, které záznamy se čtou a jak se web používá — nic víc. Když si aplikaci nainstalujete, vaše data o čtení zůstávají na vašem zařízení."
   },
   "header": {
     "siteTitle": "Deník Marie Bashkirtseff",
