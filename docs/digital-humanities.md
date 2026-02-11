@@ -117,7 +117,7 @@ This project is an invite to collaboration. Here's where your expertise matters:
 
 1. **Explore**: Read entries at bashkirtseff.org to feel Marie's voice
 2. **Browse the code**: The repository is open source
-3. **Join the conversation**: [GitHub Discussions](https://github.com/archetypal-cz/bashkirtseff/discussions) for questions and ideas
+3. **Join the conversation**: [/r/bashkirtseff](https://www.reddit.com/r/bashkirtseff) for questions, ideas, and discussion
 4. **Fork and experiment**: The infrastructure is hopefully designed to be extended
 
 We operate on the principle that good ideas can come from anywhere. Graduate students, independent scholars, curious programmers—all welcome.

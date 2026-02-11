@@ -63,7 +63,7 @@ github_user: your_username
 # Language you're working on: cz, uk, en, fr
 working_language: uk
 
-# Carnets you're working on (coordinate via Issues/Discord)
+# Carnets you're working on (coordinate via Issues or /r/bashkirtseff)
 assigned_carnets:
   - "001"
   - "002"
@@ -168,7 +168,7 @@ Before starting on a carnet:
 
 ### Communication
 
-- **[GitHub Discussions](https://github.com/archetypal-cz/bashkirtseff/discussions)** - Questions, ideas, general discussion
+- **[/r/bashkirtseff](https://www.reddit.com/r/bashkirtseff)** - Questions, ideas, general discussion, community
 - **GitHub Issues** - Bug reports, work coordination
 - **Pull Requests** - Submit completed work
 
@@ -214,7 +214,7 @@ just init-source-hashes uk  # Initialize source tracking
 
 ## Questions?
 
-- Ask in [GitHub Discussions](https://github.com/archetypal-cz/bashkirtseff/discussions)
+- Ask on [/r/bashkirtseff](https://www.reddit.com/r/bashkirtseff) — our main community hub
 - Check existing documentation in `/docs/`
 
 ---

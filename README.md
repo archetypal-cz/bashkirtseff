@@ -197,7 +197,12 @@ This project is licensed under CC BY-NC-SA 4.0. See [LICENSE](LICENSE) for detai
 
 The original diary text is in the public domain. The translations, annotations, and software are licensed under the terms above.
 
+## Community
+
+Join the discussion at [/r/bashkirtseff](https://www.reddit.com/r/bashkirtseff) — our main community hub for questions, ideas, translation discussions, and everything Marie.
+
 ## Links
 
 - **Live site**: https://bashkirtseff.org
 - **Source**: https://github.com/archetypal-cz/bashkirtseff
+- **Community**: https://www.reddit.com/r/bashkirtseff
