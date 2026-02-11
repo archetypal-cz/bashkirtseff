@@ -72,7 +72,9 @@ export default defineConfig({
         ]
       },
       workbox: {
-        navigateFallback: null,
+        // Serve offline fallback page for uncached navigation requests
+        navigateFallback: '/offline/index.html',
+        navigateFallbackDenylist: [/^\/api/],
         globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,woff,woff2}'],
         // Exclude large glossary index from precaching (3+ MB)
         globIgnores: ['**/glossary/index.html', '**/cz/glossary/index.html'],
@@ -106,14 +108,14 @@ export default defineConfig({
             }
           },
           {
-            // Cache diary entries for offline reading
+            // Cache diary entries for offline reading (also used by offline download feature)
             urlPattern: /\/(cz|original)\/\d+\/\d{4}-\d{2}-\d{2}\/?$/,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'diary-entries-cache',
               expiration: {
-                maxEntries: 500,
-                maxAgeSeconds: 60 * 60 * 24 * 30 // 30 days
+                maxEntries: 5000,
+                maxAgeSeconds: 60 * 60 * 24 * 90 // 90 days
               },
               cacheableResponse: {
                 statuses: [0, 200]

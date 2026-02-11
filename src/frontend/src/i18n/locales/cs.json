@@ -187,7 +187,19 @@
     "pages": "stránek",
     "resume": "Pokračovat",
     "error": "Stahování selhalo",
-    "retry": "Zkusit znovu"
+    "retry": "Zkusit znovu",
+    "statusOnline": "Offline obsah",
+    "statusOffline": "Jste offline",
+    "storageTitle": "Offline obsah",
+    "youAreOffline": "Jste offline. Zobrazují se uložené stránky.",
+    "year": "Rok",
+    "carnet": "Sešit",
+    "noDownloads": "Zatím žádný stažený obsah.",
+    "clearAll": "Smazat vše",
+    "offlinePageTitle": "Jste offline",
+    "offlinePageText": "Tato stránka není dostupná offline.",
+    "offlinePageHint": "Stáhněte si obsah předem na stránkách jednotlivých roků a sešitů.",
+    "offlinePageBack": "Zpět na hlavní stránku"
   },
   "glossary": {
     "search": "Hledat v glosáři...",

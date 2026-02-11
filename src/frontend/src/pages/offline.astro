@@ -1,0 +1,126 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Offline — Bashkirtseff">
+  <main class="flex-grow flex items-center justify-center min-h-[60vh]">
+    <div class="max-w-md mx-auto px-4 text-center">
+      <!-- Offline icon -->
+      <div class="mx-auto mb-6 w-16 h-16 rounded-full bg-sepia flex items-center justify-center">
+        <svg class="w-8 h-8 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M18.364 5.636a9 9 0 010 12.728M5.636 5.636a9 9 0 000 12.728M12 12h.01M8.464 8.464a5 5 0 000 7.072M15.536 8.464a5 5 0 010 7.072" />
+          <path stroke-linecap="round" stroke-width="2.5" d="M4 4l16 16" style="stroke: #dc2626;" />
+        </svg>
+      </div>
+
+      <h1 class="text-2xl text-ink mb-3" style="font-family: var(--font-serif);" id="offline-title">
+        You are offline
+      </h1>
+
+      <p class="text-muted mb-2" id="offline-text">
+        This page is not available offline.
+      </p>
+
+      <p class="text-sm text-muted mb-6" id="offline-hint">
+        Download content in advance from year and notebook pages.
+      </p>
+
+      <!-- Available offline content (populated by JS) -->
+      <div id="offline-downloads" class="mb-6 hidden">
+        <h2 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+          Available offline
+        </h2>
+        <div id="offline-list" class="space-y-2"></div>
+      </div>
+
+      <a href="/" class="inline-flex items-center gap-2 px-4 py-2.5 bg-accent text-white rounded-lg hover:bg-accent-light transition-colors text-sm">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+        </svg>
+        <span id="offline-back">Back to home</span>
+      </a>
+    </div>
+  </main>
+
+  <!-- Client-side: localize text and show available offline content -->
+  <script is:inline>
+    (function() {
+      // Localize strings based on stored UI language
+      var lang = localStorage.getItem('ui-language') || 'cs';
+      var strings = {
+        cs: {
+          title: 'Jste offline',
+          text: 'Tato stránka není dostupná offline.',
+          hint: 'Stáhněte si obsah předem na stránkách jednotlivých roků a sešitů.',
+          back: 'Zpět na hlavní stránku',
+          available: 'Dostupné offline',
+          year: 'Rok',
+          carnet: 'Sešit'
+        },
+        en: {
+          title: 'You are offline',
+          text: 'This page is not available offline.',
+          hint: 'Download content in advance from year and notebook pages.',
+          back: 'Back to home',
+          available: 'Available offline',
+          year: 'Year',
+          carnet: 'Notebook'
+        },
+        fr: {
+          title: 'Vous êtes hors ligne',
+          text: 'Cette page n\'est pas disponible hors ligne.',
+          hint: 'Téléchargez le contenu à l\'avance depuis les pages d\'années et de cahiers.',
+          back: 'Retour à l\'accueil',
+          available: 'Disponible hors ligne',
+          year: 'Année',
+          carnet: 'Cahier'
+        },
+        uk: {
+          title: 'Ви офлайн',
+          text: 'Ця сторінка недоступна офлайн.',
+          hint: 'Завантажте контент заздалегідь на сторінках років та зошитів.',
+          back: 'На головну',
+          available: 'Доступно офлайн',
+          year: 'Рік',
+          carnet: 'Зошит'
+        }
+      };
+      var s = strings[lang] || strings.cs;
+
+      var el = function(id) { return document.getElementById(id); };
+      if (el('offline-title')) el('offline-title').textContent = s.title;
+      if (el('offline-text')) el('offline-text').textContent = s.text;
+      if (el('offline-hint')) el('offline-hint').textContent = s.hint;
+      if (el('offline-back')) el('offline-back').textContent = s.back;
+
+      // Show available offline content from localStorage
+      try {
+        var raw = localStorage.getItem('offline-downloads');
+        if (raw) {
+          var downloads = JSON.parse(raw);
+          var keys = Object.keys(downloads);
+          if (keys.length > 0) {
+            var container = el('offline-downloads');
+            var list = el('offline-list');
+            if (container && list) {
+              container.classList.remove('hidden');
+              container.querySelector('h2').textContent = s.available;
+              keys.forEach(function(key) {
+                var record = downloads[key];
+                if (record.status === 'complete' || record.status === 'partial') {
+                  var label = record.scope.type === 'year' ? s.year : s.carnet;
+                  var link = document.createElement('a');
+                  link.href = '/' + (record.scope.language === '_original' ? 'original' : record.scope.language) + '/' + record.scope.id + '/';
+                  link.className = 'block p-3 rounded-lg bg-parchment border border-ink/10 text-ink hover:border-accent transition-all text-sm';
+                  link.textContent = label + ' ' + record.scope.id;
+                  list.appendChild(link);
+                }
+              });
+            }
+          }
+        }
+      } catch(e) {}
+    })();
+  </script>
+</BaseLayout>

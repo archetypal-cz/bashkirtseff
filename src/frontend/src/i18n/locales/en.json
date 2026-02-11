@@ -187,7 +187,19 @@
     "pages": "pages",
     "resume": "Resume",
     "error": "Download failed",
-    "retry": "Retry"
+    "retry": "Retry",
+    "statusOnline": "Offline content",
+    "statusOffline": "You are offline",
+    "storageTitle": "Offline content",
+    "youAreOffline": "You are offline. Showing cached pages.",
+    "year": "Year",
+    "carnet": "Notebook",
+    "noDownloads": "No content downloaded yet.",
+    "clearAll": "Clear all",
+    "offlinePageTitle": "You are offline",
+    "offlinePageText": "This page is not available offline.",
+    "offlinePageHint": "Download content in advance from year and notebook pages.",
+    "offlinePageBack": "Back to home"
   },
   "glossary": {
     "search": "Search glossary...",

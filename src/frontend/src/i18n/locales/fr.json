@@ -187,7 +187,19 @@
     "pages": "pages",
     "resume": "Reprendre",
     "error": "Échec du téléchargement",
-    "retry": "Réessayer"
+    "retry": "Réessayer",
+    "statusOnline": "Contenu hors ligne",
+    "statusOffline": "Vous êtes hors ligne",
+    "storageTitle": "Contenu hors ligne",
+    "youAreOffline": "Vous êtes hors ligne. Pages en cache affichées.",
+    "year": "Année",
+    "carnet": "Cahier",
+    "noDownloads": "Aucun contenu téléchargé.",
+    "clearAll": "Tout supprimer",
+    "offlinePageTitle": "Vous êtes hors ligne",
+    "offlinePageText": "Cette page n'est pas disponible hors ligne.",
+    "offlinePageHint": "Téléchargez le contenu à l'avance depuis les pages d'années et de cahiers.",
+    "offlinePageBack": "Retour à l'accueil"
   },
   "glossary": {
     "search": "Rechercher dans le glossaire...",

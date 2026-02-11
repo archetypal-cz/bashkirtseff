@@ -3,6 +3,7 @@
 import MobileMenu from './MobileMenu.vue';
 import LocaleSwitcher from './LocaleSwitcher.vue';
 import FilterButton from './FilterButton.vue';
+import OfflineStatus from '../pwa/OfflineStatus.vue';
 import { t } from '../../i18n/astro';
 ---
 
@@ -39,6 +40,9 @@ import { t } from '../../i18n/astro';
 
       <!-- Right side: Locale switcher + Login + Mobile Menu -->
       <div class="flex items-center gap-2 md:gap-4">
+        <!-- Offline status indicator -->
+        <OfflineStatus client:idle />
+
         <!-- Filter Button -->
         <FilterButton client:load />
 

@@ -132,5 +132,42 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).hr
   </head>
   <body class="min-h-screen flex flex-col">
     <slot />
+
+    <!-- Offline toast: appears when connection is lost on an already-loaded page -->
+    <div id="offline-toast" style="display:none;position:fixed;bottom:1rem;left:50%;transform:translateX(-50%);z-index:200;background:#451a03;color:#fbbf24;padding:0.5rem 1.25rem;border-radius:0.5rem;font-family:var(--font-sans,system-ui);font-size:0.875rem;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:opacity 0.3s;pointer-events:none;"></div>
+    <script is:inline>
+      (function() {
+        var toast = document.getElementById('offline-toast');
+        if (!toast) return;
+        var msgs = {cs:'Jste offline',en:'You are offline',fr:'Hors ligne',uk:'Ви офлайн'};
+        var lang = localStorage.getItem('ui-language') || 'cs';
+        var msg = msgs[lang] || msgs.cs;
+        var backMsgs = {cs:'Připojení obnoveno',en:'Back online',fr:'Reconnecté',uk:'Знову онлайн'};
+        var backMsg = backMsgs[lang] || backMsgs.cs;
+        var hideTimer;
+
+        function show(text) {
+          toast.textContent = text;
+          toast.style.display = 'block';
+          toast.style.opacity = '1';
+          clearTimeout(hideTimer);
+          hideTimer = setTimeout(function() {
+            toast.style.opacity = '0';
+            setTimeout(function() { toast.style.display = 'none'; }, 300);
+          }, 3000);
+        }
+
+        window.addEventListener('offline', function() { show(msg); });
+        window.addEventListener('online', function() {
+          toast.style.background = '#065f46';
+          toast.style.color = '#a7f3d0';
+          show(backMsg);
+          setTimeout(function() {
+            toast.style.background = '#451a03';
+            toast.style.color = '#fbbf24';
+          }, 3500);
+        });
+      })();
+    </script>
   </body>
 </html>

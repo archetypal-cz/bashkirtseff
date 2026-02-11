@@ -255,6 +255,7 @@ export const useOfflineStore = defineStore('offline', () => {
 
     // Actions
     init,
+    loadEntries,
     downloadScope,
     cancelDownload,
     removeScope,
