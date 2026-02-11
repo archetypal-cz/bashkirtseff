@@ -1660,7 +1660,8 @@ export function getEntryPreview(carnetId: string, entryId: string, language: str
   // Find the first paragraph with meaningful content
   // Skip very short paragraphs (like date headers, titles, or section markers)
   for (const paragraph of entry.paragraphs) {
-    const text = paragraph.text.trim();
+    // Strip footnote references like [^01.128.1] from preview text
+    const text = paragraph.text.replace(/\[\^[^\]]+\]/g, '').trim();
 
     // Skip empty, very short, TODO placeholders, or header-like content
     if (!text || text.length < 20 || text === 'TODO') {
