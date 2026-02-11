@@ -5,8 +5,10 @@ import FilterPanel from './FilterPanel.vue';
 
 const filterStore = useFilterStore();
 const buttonRef = ref<HTMLElement | null>(null);
+const mounted = ref(false);
 
 onMounted(() => {
+  mounted.value = true;
   filterStore.init();
 });
 
@@ -53,8 +55,11 @@ function close() {
       </span>
     </button>
 
-    <!-- Panel (dropdown on desktop, slide-in on mobile) -->
-    <Teleport to="body">
+    <!-- Panel (dropdown on desktop, slide-in on mobile).
+         Teleport disabled during SSR to avoid hydration mismatch —
+         Astro islands render in isolation, so Teleport anchors don't
+         reach <body> during SSR, confusing Vue's hydration walker. -->
+    <Teleport to="body" :disabled="!mounted">
       <FilterPanel
         v-if="filterStore.panelOpen"
         @close="close"
