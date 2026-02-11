@@ -59,11 +59,24 @@ function applyFilter() {
     el.classList.toggle('filter-hidden', !match || match.entries === 0);
   });
 
-  // Entry cards
+  // Entry cards — on carnet-detail, dim non-matching instead of hiding
   document.querySelectorAll<HTMLElement>('[data-filter-entry]').forEach(el => {
     const entryId = el.getAttribute('data-filter-entry')!;
-    el.classList.toggle('filter-hidden', !matchingEntryIds.has(entryId));
+    const matches = matchingEntryIds.has(entryId);
+    if (props.pageType === 'carnet-detail') {
+      el.classList.toggle('filter-dimmed', !matches);
+      el.classList.toggle('filter-match', matches);
+      el.classList.remove('filter-hidden');
+    } else {
+      el.classList.toggle('filter-hidden', !matches);
+      el.classList.remove('filter-dimmed', 'filter-match');
+    }
   });
+
+  // Inject filter nav hints for matching entries on carnet-detail
+  if (props.pageType === 'carnet-detail') {
+    injectFilterNav(matchingEntryIds);
+  }
 
   // Update counts
   document.querySelectorAll<HTMLElement>('[data-filter-count]').forEach(el => {
@@ -98,10 +111,13 @@ function applyFilter() {
 }
 
 function resetFilter() {
-  // Remove all filter-hidden classes
-  document.querySelectorAll<HTMLElement>('.filter-hidden').forEach(el => {
-    el.classList.remove('filter-hidden');
+  // Remove all filter classes
+  document.querySelectorAll<HTMLElement>('.filter-hidden, .filter-dimmed, .filter-match').forEach(el => {
+    el.classList.remove('filter-hidden', 'filter-dimmed', 'filter-match');
   });
+
+  // Remove injected filter nav hints
+  document.querySelectorAll('.filter-entry-nav').forEach(el => el.remove());
 
   // Restore original counts
   document.querySelectorAll<HTMLElement>('[data-filter-count]').forEach(el => {
@@ -116,11 +132,19 @@ function resetFilter() {
 
 function showBanner() {
   if (!bannerEl.value) return;
-  const total = filterStore.index?.totalEntries || 0;
-  const matching = filterStore.matchingEntries.length;
   bannerEl.value.style.display = 'flex';
   const textEl = bannerEl.value.querySelector('.banner-text');
-  if (textEl) {
+  if (!textEl) return;
+
+  if (props.pageType === 'carnet-detail') {
+    // Count visible vs total entries on this page
+    const allEntryEls = document.querySelectorAll('[data-filter-entry]');
+    const matchingCount = document.querySelectorAll('[data-filter-entry].filter-match').length;
+    const hiddenCount = allEntryEls.length - matchingCount;
+    textEl.textContent = `Zobrazeno ${matchingCount} z ${allEntryEls.length} záznamů (${hiddenCount} skryto)`;
+  } else {
+    const total = filterStore.index?.totalEntries || 0;
+    const matching = filterStore.matchingEntries.length;
     textEl.textContent = `Filtrováno: ${matching.toLocaleString('cs-CZ')} z ${total.toLocaleString('cs-CZ')} záznamů`;
   }
 }
@@ -130,6 +154,93 @@ function hideBanner() {
     bannerEl.value.style.display = 'none';
   }
 }
+
+/** Inject prev/next filter navigation hints between matching entries */
+function injectFilterNav(matchingEntryIds: Set<string>) {
+  // Remove previous hints
+  document.querySelectorAll('.filter-entry-nav').forEach(el => el.remove());
+
+  // Gather matching entries in DOM order
+  const allEntryEls = Array.from(document.querySelectorAll<HTMLElement>('[data-filter-entry]'));
+  const matchingEls = allEntryEls.filter(el =>
+    matchingEntryIds.has(el.getAttribute('data-filter-entry')!)
+  );
+
+  if (matchingEls.length <= 1) return;
+
+  // Get active filter label(s) for display
+  const activeLabels = getActiveFilterLabels();
+  const labelStr = activeLabels.length > 0 ? activeLabels.join(', ') : 'filtr';
+
+  for (let i = 0; i < matchingEls.length; i++) {
+    const el = matchingEls[i];
+    const currentDate = el.getAttribute('data-filter-entry')!;
+    const hints: string[] = [];
+
+    // Previous matching
+    if (i > 0) {
+      const prevDate = matchingEls[i - 1].getAttribute('data-filter-entry')!;
+      const dayGap = dateDiffDays(prevDate, currentDate);
+      const formattedDate = formatShortDate(prevDate);
+      if (dayGap > 0) {
+        hints.push(`\u2039 ${formattedDate} (${dayGap} d)`);
+      }
+    }
+
+    // Next matching
+    if (i < matchingEls.length - 1) {
+      const nextDate = matchingEls[i + 1].getAttribute('data-filter-entry')!;
+      const dayGap = dateDiffDays(currentDate, nextDate);
+      const formattedDate = formatShortDate(nextDate);
+      if (dayGap > 0) {
+        hints.push(`${formattedDate} (${dayGap} d) \u203A`);
+      }
+    }
+
+    if (hints.length > 0) {
+      const nav = document.createElement('div');
+      nav.className = 'filter-entry-nav';
+      nav.style.cssText = `
+        display: flex; justify-content: space-between; align-items: center;
+        padding: 2px 12px 2px 16px; margin-top: -4px; margin-bottom: 4px;
+        font-size: 11px; color: var(--color-accent, #B45309); opacity: 0.7;
+        font-family: var(--font-sans, system-ui); letter-spacing: 0.02em;
+      `;
+      const leftHint = hints.length === 2 ? hints[0] : (i > 0 ? hints[0] : '');
+      const rightHint = hints.length === 2 ? hints[1] : (i < matchingEls.length - 1 ? hints[0] : '');
+      nav.innerHTML = `<span>${leftHint}</span><span style="opacity:0.5">${labelStr}</span><span>${rightHint}</span>`;
+      el.insertAdjacentElement('afterend', nav);
+    }
+  }
+}
+
+function getActiveFilterLabels(): string[] {
+  if (!filterStore.index) return [];
+  const labels: string[] = [];
+  for (const [catKey, tagIds] of Object.entries(filterStore.selectedTags)) {
+    if (!tagIds || tagIds.length === 0) continue;
+    const cat = filterStore.index.categories.find(c => c.key === catKey);
+    if (!cat) continue;
+    for (const tagId of tagIds) {
+      const tag = cat.tags.find(t => t.id === tagId);
+      if (tag) labels.push(tag.name);
+    }
+  }
+  return labels;
+}
+
+function dateDiffDays(dateA: string, dateB: string): number {
+  const a = new Date(dateA.split('-').slice(0, 3).join('-'));
+  const b = new Date(dateB.split('-').slice(0, 3).join('-'));
+  return Math.round(Math.abs(b.getTime() - a.getTime()) / (1000 * 60 * 60 * 24));
+}
+
+function formatShortDate(dateStr: string): string {
+  const datePart = dateStr.split('-').slice(0, 3).join('-');
+  const d = new Date(datePart);
+  return d.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'short' });
+}
+
 </script>
 
 <template>

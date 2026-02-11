@@ -102,17 +102,9 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
       <span class="text-ink">{entryDate}</span>
     </nav>
 
-    <!-- Entry Header -->
-    <header class="mb-8 pb-6 border-b border-ink/10">
-      <h1 class="text-2xl md:text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
-        {entry.title}
-      </h1>
-
-      <div class="flex items-center gap-4 text-sm text-muted">
-        <time datetime={entryDate}>
-          {formatDate(entry.date, entry.id)}
-        </time>
-
+    <!-- Entry Header: language + navigation bar -->
+    <header class="mb-6">
+      <div class="flex items-center justify-between mb-3">
         {/* Language Switcher with scroll preservation */}
         <LanguageSwitcher
           client:load
@@ -121,7 +113,58 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
           entryDate={entryDate!}
           availableLanguages={availableLanguages}
         />
+
+        {/* Compact entry navigation */}
+        <nav class="flex items-center gap-3 text-sm">
+          {nav.prev ? (
+            <a
+              href={`/cz/${carnet}/${nav.prev}`}
+              class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
+              title="Předchozí záznam"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              <span class="hidden sm:inline">Předchozí</span>
+            </a>
+          ) : (
+            <span class="text-muted/30 flex items-center gap-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+            </span>
+          )}
+          <a href={`/cz/${carnet}`} class="text-muted hover:text-ink transition-colors" title="Přehled sešitu">
+            {carnet}
+          </a>
+          {nav.next ? (
+            <a
+              href={`/cz/${carnet}/${nav.next}`}
+              class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
+              title="Další záznam"
+            >
+              <span class="hidden sm:inline">Další</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          ) : (
+            <span class="text-muted/30 flex items-center gap-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          )}
+        </nav>
       </div>
+
+      <hr class="entry-divider" />
+
+      <h1 class="text-lg md:text-xl font-normal text-ink mt-3" style="font-family: var(--font-serif);">
+        <time datetime={entryDate}>
+          {formatDate(entry.date, entry.id)}
+        </time>
+      </h1>
     </header>
 
     <!-- Entry Content -->

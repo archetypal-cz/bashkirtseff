@@ -1672,6 +1672,10 @@ export function getEntryPreview(carnetId: string, entryId: string, language: str
     if (/^(Carnet|Sešit|Cahier)\s+N°?\s*\d+$/i.test(text)) {
       continue;
     }
+    if (/^#/.test(text)) {
+      // Markdown headings (date headers, section titles)
+      continue;
+    }
     if (/^\[.*\]$/.test(text)) {
       // Editorial notes in brackets
       continue;

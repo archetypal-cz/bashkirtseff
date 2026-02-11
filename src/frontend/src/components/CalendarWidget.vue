@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, onMounted } from 'vue';
+import { useFilterStore } from '../stores/filter';
 
 interface Props {
   year: number;
@@ -12,6 +13,13 @@ interface Props {
 }
 
 const props = defineProps<Props>();
+const filterStore = useFilterStore();
+
+// Initialize filter store (reads persisted tags from localStorage + loads index)
+onMounted(() => {
+  filterStore.init();
+  filterStore.loadIndex();
+});
 
 // Czech month names
 const CZECH_MONTHS = [
@@ -35,9 +43,28 @@ const monthName = computed(() => CZECH_MONTHS[props.month - 1]);
 // Create a set for O(1) lookup of entry dates
 const entryDateSet = computed(() => new Set(props.entryDates));
 
+// Filter-aware: dates that match the active filter
+const isFilterActive = computed(() => filterStore.isActive);
+const filteredDateSet = computed(() => {
+  if (!filterStore.isActive) return new Set<string>();
+  // matchingEntryIds contains date strings like '1873-01-11'
+  const matching = filterStore.matchingEntryIds;
+  return new Set(props.entryDates.filter(d => matching.has(d)));
+});
+
 // Check if a date has an entry
 function hasEntry(dateStr: string): boolean {
   return entryDateSet.value.has(dateStr);
+}
+
+// Check if a date matches the active filter
+function isFilterMatch(dateStr: string): boolean {
+  return isFilterActive.value && filteredDateSet.value.has(dateStr);
+}
+
+// Check if a date has an entry but doesn't match the filter
+function isFilterDim(dateStr: string): boolean {
+  return isFilterActive.value && hasEntry(dateStr) && !filteredDateSet.value.has(dateStr);
 }
 
 // Check if a date is selected
@@ -153,7 +180,11 @@ const calendarWeeks = computed(() => {
             v-if="dayInfo.isCurrentMonth && hasEntry(dayInfo.dateStr)"
             :href="getDateUrl(dayInfo.dateStr)"
             class="calendar-day has-entry"
-            :class="{ 'is-selected': isSelected(dayInfo.dateStr) }"
+            :class="{
+              'is-selected': isSelected(dayInfo.dateStr),
+              'filter-active-match': isFilterMatch(dayInfo.dateStr),
+              'filter-active-dim': isFilterDim(dayInfo.dateStr),
+            }"
           >
             <span class="day-number">{{ dayInfo.day }}</span>
             <span class="entry-indicator"></span>
@@ -191,13 +222,22 @@ const calendarWeeks = computed(() => {
   border-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Compact variant */
+/* Compact variant — no own chrome, parent panel provides border/bg */
 .calendar-compact {
-  padding: 0.75rem;
+  padding: 0.25rem 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  flex: 1 1 auto;
+  min-width: 160px;
+  max-width: 280px;
 }
 
 .calendar-compact .calendar-header {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-bottom-color: rgba(44, 24, 16, 0.06);
 }
 
 .calendar-compact .calendar-month {
@@ -215,6 +255,8 @@ const calendarWeeks = computed(() => {
 
 .calendar-compact .calendar-day {
   font-size: 0.6875rem;
+  aspect-ratio: auto;
+  height: 1.625rem;
 }
 
 .calendar-compact .entry-indicator {
@@ -380,5 +422,34 @@ const calendarWeeks = computed(() => {
 
 .calendar-day.is-selected:hover {
   background: var(--color-accent-dark, #92400E);
+}
+
+/* Filter-active states */
+.calendar-day.has-entry.filter-active-match {
+  background: var(--color-accent, #B45309);
+  color: white;
+  font-weight: 600;
+}
+
+.calendar-day.has-entry.filter-active-match .entry-indicator {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.calendar-day.has-entry.filter-active-dim {
+  opacity: 0.3;
+  background: transparent;
+}
+
+.calendar-day.has-entry.filter-active-dim .entry-indicator {
+  display: none;
+}
+
+[data-theme="dark"] .calendar-day.has-entry.filter-active-match {
+  background: #D97706;
+  color: #1a1a1a;
+}
+
+[data-theme="dark"] .calendar-day.has-entry.filter-active-dim {
+  opacity: 0.2;
 }
 </style>

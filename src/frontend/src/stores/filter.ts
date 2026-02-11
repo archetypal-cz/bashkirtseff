@@ -113,6 +113,8 @@ export const useFilterStore = defineStore('filter', () => {
     persist();
   }
 
+  let _syncing = false;
+
   function init() {
     if (typeof window === 'undefined') return;
     const saved = localStorage.getItem(STORAGE_KEY);
@@ -123,6 +125,16 @@ export const useFilterStore = defineStore('filter', () => {
         /* ignore corrupt data */
       }
     }
+    // Listen for cross-island filter sync events (same page, different Vue islands)
+    window.addEventListener('filter-sync', () => {
+      if (_syncing) return; // skip self-dispatched events
+      const fresh = localStorage.getItem(STORAGE_KEY);
+      try {
+        selectedTags.value = fresh ? JSON.parse(fresh) : {};
+      } catch {
+        selectedTags.value = {};
+      }
+    });
   }
 
   function persist() {
@@ -135,6 +147,10 @@ export const useFilterStore = defineStore('filter', () => {
     } else {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(active));
     }
+    // Notify other Vue islands on the same page
+    _syncing = true;
+    window.dispatchEvent(new CustomEvent('filter-sync'));
+    _syncing = false;
   }
 
   return {

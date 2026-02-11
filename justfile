@@ -542,7 +542,7 @@ filter-index:
 
 # Start frontend development server
 fe-dev:
-    cd src/frontend && npm run dev
+    cd src/frontend && npx astro dev --host
 
 # Build frontend for production (includes filter index)
 fe-build:

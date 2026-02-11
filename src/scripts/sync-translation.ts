@@ -29,7 +29,7 @@ import { fileURLToPath } from 'node:url';
 // Get directory of this script
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const projectRoot = path.resolve(__dirname, '..');
+const projectRoot = path.resolve(__dirname, '../..');
 
 // Import from shared package (assumes built)
 import {
@@ -183,8 +183,8 @@ async function main(): Promise<void> {
   }
 
   // Resolve paths
-  const originalDir = path.join(projectRoot, 'src', '_original', cliOptions.carnetId);
-  const translationDir = path.join(projectRoot, 'src', cliOptions.targetLanguage, cliOptions.carnetId);
+  const originalDir = path.join(projectRoot, 'content', '_original', cliOptions.carnetId);
+  const translationDir = path.join(projectRoot, 'content', cliOptions.targetLanguage, cliOptions.carnetId);
 
   // Check if original exists
   if (!fs.existsSync(originalDir)) {

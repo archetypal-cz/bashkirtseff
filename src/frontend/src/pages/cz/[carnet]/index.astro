@@ -182,11 +182,11 @@ function formatDisplayName(id: string): string {
 
     <!-- Header + Summary Grid -->
     <section class="mb-10">
-      <div class="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
-        <!-- Carnet Header (1st column) -->
-        <header class="p-5 rounded-lg bg-parchment border border-ink/10 flex flex-col justify-between">
+      <div class="grid gap-5 grid-cols-1 sm:grid-cols-2 xl:grid-cols-[1.5fr_1fr_1fr_1fr]">
+        <!-- Carnet Header (wider 1st column) -->
+        <header class="summary-card p-5 rounded-lg flex flex-col justify-between">
           <div>
-            <h1 class="text-3xl font-normal text-ink mb-3" style="font-family: var(--font-serif);">
+            <h1 class="text-3xl font-normal text-ink mb-3" style="font-family: var(--font-serif); text-shadow: 0 1px 2px rgba(44,24,16,0.08);">
               Sešit {carnet}
             </h1>
 
@@ -231,23 +231,26 @@ function formatDisplayName(id: string): string {
             )}
           </div>
 
-          {allEntries.length > 0 && (
-            <a
-              href={allEntries[0].isTranslated ? `/cz/${carnet}/${allEntries[0].date}` : `/original/${carnet}/${allEntries[0].date}`}
-              class="inline-flex items-center gap-2 mt-4 px-4 py-2.5 bg-accent text-white rounded-lg hover:bg-accent-light transition-colors font-medium text-sm self-start"
-            >
-              <span>{isSectionCarnet ? 'Začít číst' : 'Číst od začátku'}</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </a>
-          )}
+          <div class="flex flex-wrap items-center gap-3 mt-4">
+            {allEntries.length > 0 && (
+              <a
+                href={allEntries[0].isTranslated ? `/cz/${carnet}/${allEntries[0].date}` : `/original/${carnet}/${allEntries[0].date}`}
+                class="btn btn-primary inline-flex items-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm"
+              >
+                <span>{isSectionCarnet ? 'Začít číst' : 'Číst od začátku'}</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </a>
+            )}
+            <OfflineDownload client:visible scopeType="carnet" scopeId={carnet!} language="original" />
+          </div>
         </header>
 
         {/* Tag panels (remaining columns) */}
         {!isSectionCarnet && topPeople.length > 0 && (
-          <div class="p-4 rounded-lg bg-parchment border border-ink/10">
-            <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+          <div class="summary-card p-4 rounded-lg">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
               Klíčové osoby
             </h3>
             <ul class="space-y-2">
@@ -269,8 +272,8 @@ function formatDisplayName(id: string): string {
         )}
 
         {!isSectionCarnet && topPlaces.length > 0 && (
-          <div class="p-4 rounded-lg bg-parchment border border-ink/10">
-            <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+          <div class="summary-card p-4 rounded-lg">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
               Místa
             </h3>
             <ul class="space-y-2">
@@ -292,8 +295,8 @@ function formatDisplayName(id: string): string {
         )}
 
         {!isSectionCarnet && topThemes.length > 0 && (
-          <div class="p-4 rounded-lg bg-parchment border border-ink/10">
-            <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
+          <div class="summary-card p-4 rounded-lg">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
               Témata
             </h3>
             <div class="flex flex-wrap gap-2">
@@ -306,31 +309,29 @@ function formatDisplayName(id: string): string {
             </div>
           </div>
         )}
-      </div>
-
-      {/* Calendar section (below the grid) */}
-      {!isSectionCarnet && calendarMonths.length > 0 && (
-        <div class="mt-6">
-          <h2 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">Kalendář</h2>
-          <div class={`grid gap-4 ${calendarMonths.length === 1 ? 'max-w-xs' : calendarMonths.length === 2 ? 'sm:grid-cols-2 max-w-2xl' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
-            {calendarMonths.map(({ year, month }) => (
-              <CalendarWidget
-                client:visible
-                year={year}
-                month={month}
-                entryDates={summary.entryDates}
-                carnet={carnet!}
-                language="cz"
-                compact={calendarMonths.length > 2}
-              />
-            ))}
+        {/* Calendar (inline in the grid, calendars side by side) */}
+        {!isSectionCarnet && calendarMonths.length > 0 && (
+          <div class="summary-card p-4 rounded-lg xl:col-span-3">
+            <h3 class="text-sm font-medium text-muted uppercase mb-2" style="letter-spacing: 0.08em;">
+              Kalendář
+            </h3>
+            <div class="flex flex-wrap gap-3">
+              {calendarMonths.map(({ year, month }) => (
+                <CalendarWidget
+                  client:visible
+                  year={year}
+                  month={month}
+                  entryDates={summary.entryDates}
+                  carnet={carnet!}
+                  language="cz"
+                  compact={true}
+                />
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </section>
-
-    <!-- Offline Download -->
-    <OfflineDownload client:visible scopeType="carnet" scopeId={carnet!} language="original" />
 
     <FilterOverlay client:load pageType="carnet-detail" />
 
@@ -340,10 +341,10 @@ function formatDisplayName(id: string): string {
         <a
           href={entry.isTranslated ? `/cz/${carnet}/${entry.date}` : `/original/${carnet}/${entry.date}`}
           data-filter-entry={entry.date}
-          class={`block p-4 rounded-lg border transition-all ${
+          class={`block p-4 rounded-lg border transition-all duration-200 ${
             entry.isTranslated
-              ? 'bg-parchment border-ink/10 hover:border-accent hover:shadow'
-              : 'bg-sepia/30 border-ink/5 hover:border-ink/20'
+              ? 'bg-parchment border-ink/10 hover:border-accent hover:shadow-md hover:-translate-y-px'
+              : 'bg-sepia/30 border-ink/5 hover:border-ink/20 hover:shadow-sm'
           }`}
         >
           <div class="flex items-start justify-between gap-4">
