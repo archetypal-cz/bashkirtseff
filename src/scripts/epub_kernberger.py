@@ -8,6 +8,7 @@ Subcommands:
   images     - Extract images with captions and context
   footnotes  - Extract footnotes and editorial notes
   tag        - Tag matched French paragraphs with #Kernberger
+  appendices - Extract appendices from EPUB as structured markdown
   report     - Generate comprehensive coverage report
 
 Usage:
@@ -1105,18 +1106,514 @@ def cmd_tag(args):
     print(f"Phase 5: Tagging source files {'(DRY RUN)' if dry_run else ''}")
     print("=" * 60)
 
-    # Collect all paragraph IDs to tag
+    # Build file map: {(carnet, date): [para_ids]}
+    file_map = {}
     para_ids_to_tag = set()
     for match in data["matches"]:
-        for pid in match["matched_para_ids"]:
-            para_ids_to_tag.add(pid)
+        pids = match.get("matched_para_ids", [])
+        if not pids:
+            continue
+        key = (match["carnet"], match["date"])
+        file_map[key] = pids
+        para_ids_to_tag.update(pids)
 
     print(f"Paragraphs to tag: {len(para_ids_to_tag)}")
+    print(f"Files to process:  {len(file_map)}")
 
-    # TODO: Implement actual file tagging
-    # For each paragraph ID, find the source file and add %% [#Kernberger] %% tag
-    print("\nTagging implementation pending. Use the matching JSON data to proceed.")
-    print(f"Data file: {json_path}")
+    KERN_TAG = "%% [#Kernberger](../_glossary/people/writers/KATHERINE_KERNBERGER.md) %%"
+    PARA_ID_RE = re.compile(r"^%% (\d{3}\.\d{4}) %%$")
+
+    # Track stats
+    total_files_modified = 0
+    total_paras_tagged = 0
+    carnet_stats = {}  # carnet -> {files: int, paras: int}
+
+    for (carnet, date), pids in sorted(file_map.items()):
+        file_path = CONTENT_ORIGINAL / carnet / f"{date}.md"
+        if not file_path.exists():
+            print(f"  WARNING: File not found: {file_path}")
+            continue
+
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+
+        pid_set = set(pids)
+        new_lines = []
+        paras_tagged_in_file = 0
+        modified = False
+        # Track frontmatter to insert kernberger_covered
+        in_frontmatter = False
+        frontmatter_done = False
+        found_workflow = False
+        workflow_indent = ""
+        added_kernberger_fm = False
+
+        i = 0
+        while i < len(lines):
+            line = lines[i]
+            stripped = line.rstrip("\n")
+
+            # --- Frontmatter handling ---
+            if i == 0 and stripped == "---":
+                in_frontmatter = True
+                new_lines.append(line)
+                i += 1
+                continue
+
+            if in_frontmatter:
+                if stripped == "---":
+                    # End of frontmatter — if we found workflow but haven't added the key yet
+                    if found_workflow and not added_kernberger_fm:
+                        new_lines.append(f"{workflow_indent}kernberger_covered: true\n")
+                        added_kernberger_fm = True
+                        modified = True
+                    in_frontmatter = False
+                    frontmatter_done = True
+                    new_lines.append(line)
+                    i += 1
+                    continue
+
+                # Detect workflow: section
+                if stripped.startswith("workflow:"):
+                    found_workflow = True
+                    new_lines.append(line)
+                    i += 1
+                    continue
+
+                if found_workflow and not added_kernberger_fm:
+                    # Inside workflow section — detect indent
+                    indent_match = re.match(r"^(\s+)", stripped)
+                    if indent_match:
+                        workflow_indent = indent_match.group(1)
+                        # Check if this line is kernberger_covered already
+                        if "kernberger_covered:" in stripped:
+                            added_kernberger_fm = True
+                            new_lines.append(line)
+                            i += 1
+                            continue
+                        # Check if we've left the workflow section (non-indented line)
+                    elif stripped and not stripped.startswith(" ") and not stripped.startswith("\t"):
+                        # Left workflow section without finding kernberger_covered
+                        new_lines.append(f"{workflow_indent}kernberger_covered: true\n")
+                        added_kernberger_fm = True
+                        modified = True
+
+                new_lines.append(line)
+                i += 1
+                continue
+
+            # --- Paragraph tagging ---
+            m = PARA_ID_RE.match(stripped)
+            if m and m.group(1) in pid_set:
+                new_lines.append(line)
+                # Check if next line is already the Kernberger tag
+                next_i = i + 1
+                if next_i < len(lines) and lines[next_i].rstrip("\n") == KERN_TAG:
+                    # Already tagged, skip
+                    i += 1
+                    continue
+                # Insert tag after paragraph ID line
+                new_lines.append(KERN_TAG + "\n")
+                paras_tagged_in_file += 1
+                modified = True
+                i += 1
+                continue
+
+            new_lines.append(line)
+            i += 1
+
+        if modified:
+            total_files_modified += 1
+            total_paras_tagged += paras_tagged_in_file
+
+            if carnet not in carnet_stats:
+                carnet_stats[carnet] = {"files": 0, "paras": 0}
+            carnet_stats[carnet]["files"] += 1
+            carnet_stats[carnet]["paras"] += paras_tagged_in_file
+
+            if not dry_run:
+                with open(file_path, "w", encoding="utf-8") as f:
+                    f.writelines(new_lines)
+
+    # Summary
+    print(f"\n{'DRY RUN ' if dry_run else ''}Summary:")
+    print(f"  Files modified:     {total_files_modified}")
+    print(f"  Paragraphs tagged:  {total_paras_tagged}")
+    print(f"\nPer-carnet breakdown:")
+    print(f"  {'Carnet':<10} {'Files':>6} {'Paras':>8}")
+    print(f"  {'-'*10} {'-'*6} {'-'*8}")
+    for carnet in sorted(carnet_stats):
+        s = carnet_stats[carnet]
+        print(f"  {carnet:<10} {s['files']:>6} {s['paras']:>8}")
+
+
+# ---------------------------------------------------------------------------
+# Subcommand: appendices
+# ---------------------------------------------------------------------------
+
+# Mapping from spine item ID to appendix info
+APPENDICES = [
+    {
+        "item_id": "id346",
+        "href": "text/part0120.html",
+        "num": "I",
+        "title": "Glossary",
+        "filename": "kernberger_appendix_1_glossary.md",
+    },
+    {
+        "item_id": "id347",
+        "href": "text/part0121.html",
+        "num": "II",
+        "title": "Genealogy",
+        "filename": "kernberger_appendix_2_genealogy.md",
+    },
+    {
+        "item_id": "id348",
+        "href": "text/part0122.html",
+        "num": "III",
+        "title": "Chronology of Marie's Life",
+        "filename": "kernberger_appendix_3_chronology.md",
+    },
+    {
+        "item_id": "id349",
+        "href": "text/part0123.html",
+        "num": "IV",
+        "title": "Legend and Marie Bashkirtseff by Prince Bojidar Karageorgevitch",
+        "filename": "kernberger_appendix_4_bojidar.md",
+    },
+    {
+        "item_id": "id350",
+        "href": "text/part0124.html",
+        "num": "V",
+        "title": "Marie's Funeral & Thereafter",
+        "filename": "kernberger_appendix_5_funeral.md",
+    },
+]
+
+
+def _html_to_markdown(soup_body) -> str:
+    """
+    Convert an EPUB HTML body to structured markdown.
+
+    Preserves headings, paragraphs, bold/italic, lists, images, and footnotes.
+    """
+    lines: list[str] = []
+    footnotes: list[str] = []
+
+    # Collect footnotes first so we can reference them
+    # Look for <ol> containing <li> with id="footnoteN"
+    for ol in soup_body.find_all("ol"):
+        first_li = ol.find("li")
+        if first_li and first_li.get("id", "").startswith("footnote"):
+            for li in ol.find_all("li"):
+                fn_id = li.get("id", "")
+                fn_val = li.get("value", "")
+                # Remove "back" links before extracting text
+                for back_link in li.find_all("p", class_="backlink"):
+                    back_link.decompose()
+                fn_text = _inline_to_md(li).strip()
+                if fn_val:
+                    footnotes.append(f"[^{fn_val}]: {fn_text}")
+                elif fn_id:
+                    footnotes.append(f"[^{fn_id}]: {fn_text}")
+            # Remove the ol (but not its parent, which may contain other content)
+            ol.decompose()
+
+    # Process remaining body elements
+    for element in soup_body.children:
+        if isinstance(element, NavigableString):
+            text = str(element).strip()
+            if text:
+                lines.append(text)
+            continue
+        if not isinstance(element, Tag):
+            continue
+        _process_element(element, lines)
+
+    # Append footnotes at end
+    if footnotes:
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+        for fn in footnotes:
+            lines.append(fn)
+
+    return "\n\n".join(lines)
+
+
+def _process_element(element: Tag, lines: list[str], depth: int = 0):
+    """Recursively process an HTML element to markdown lines."""
+    tag = element.name
+
+    # Skip script/style
+    if tag in ("script", "style", "head"):
+        return
+
+    # Headings
+    if tag in ("h1", "h2", "h3", "h4", "h5", "h6"):
+        level = int(tag[1])
+        # Add one extra level since the file already has a top-level heading
+        prefix = "#" * (level + 1)
+        text = _inline_to_md(element).strip()
+        if text:
+            lines.append(f"{prefix} {text}")
+        return
+
+    # Images
+    if tag == "img":
+        src = element.get("src", "")
+        alt = element.get("alt", "")
+        # Clean up relative paths
+        src = src.replace("../", "")
+        lines.append(f"![{alt}]({src})")
+        return
+
+    # Lists
+    if tag == "ul":
+        for li in element.find_all("li", recursive=False):
+            text = _inline_to_md(li).strip()
+            if text:
+                lines.append(f"- {text}")
+        return
+    if tag == "ol":
+        for i, li in enumerate(element.find_all("li", recursive=False), 1):
+            text = _inline_to_md(li).strip()
+            if text:
+                lines.append(f"{i}. {text}")
+        return
+
+    # Divs with centered images
+    if tag == "div":
+        classes = " ".join(element.get("class", []))
+        if "centeredimage" in classes:
+            # Extract the image and its caption
+            img = element.find("img")
+            if img:
+                src = img.get("src", "").replace("../", "")
+                alt = img.get("alt", "")
+                lines.append(f"![{alt}]({src})")
+            # Caption
+            caption_p = element.find("p", class_="firstpara")
+            if caption_p:
+                text = _inline_to_md(caption_p).strip()
+                if text:
+                    lines.append(f"*{text}*")
+            return
+        # Footnotes div already handled above
+        if "footnotes" in classes:
+            return
+        # Generic div — recurse into children
+        for child in element.children:
+            if isinstance(child, Tag):
+                _process_element(child, lines, depth + 1)
+        return
+
+    # Paragraphs and blockquotes
+    if tag in ("p", "blockquote"):
+        text = _inline_to_md(element).strip()
+        if text:
+            classes = " ".join(element.get("class", []))
+            if "aligncenter" in classes:
+                # Centered text — use blockquote style
+                lines.append(f"> {text}")
+            elif "alignright" in classes:
+                # Right-aligned
+                lines.append(f"> *{text}*")
+            elif "spaceabove" in classes:
+                # Year headers in chronology — make them bold
+                lines.append(f"**{text}**")
+            else:
+                lines.append(text)
+        return
+
+    # Tables
+    if tag == "table":
+        lines.append(_table_to_md(element))
+        return
+
+    # Fallback: recurse into children
+    for child in element.children:
+        if isinstance(child, Tag):
+            _process_element(child, lines, depth + 1)
+
+
+def _inline_to_md(element) -> str:
+    """Convert inline HTML to markdown, preserving bold/italic/sup."""
+    parts: list[str] = []
+    for child in element.children:
+        if isinstance(child, NavigableString):
+            parts.append(str(child))
+        elif isinstance(child, Tag):
+            if child.name in ("b", "strong"):
+                inner = _inline_to_md(child)
+                parts.append(f"**{inner}**")
+            elif child.name in ("i", "em") or (
+                child.name == "span" and "italic" in " ".join(child.get("class", []))
+            ):
+                inner = _inline_to_md(child)
+                parts.append(f"*{inner}*")
+            elif child.name == "sup":
+                # Footnote reference
+                a_tag = child.find("a")
+                if a_tag:
+                    href = a_tag.get("href", "")
+                    if "footnote" in href:
+                        fn_num = a_tag.get_text(strip=True)
+                        parts.append(f"[^{fn_num}]")
+                    else:
+                        parts.append(a_tag.get_text())
+                else:
+                    parts.append(child.get_text())
+            elif child.name == "a":
+                # Regular links (not footnotes)
+                href = child.get("href", "")
+                text = _inline_to_md(child)
+                if "footnote" in href:
+                    # Skip duplicate footnote back-links
+                    continue
+                elif href and not href.startswith("#"):
+                    parts.append(f"[{text}]({href})")
+                else:
+                    parts.append(text)
+            elif child.name == "br":
+                parts.append("  \n")
+            elif child.name == "span":
+                # Generic span — just get text
+                parts.append(_inline_to_md(child))
+            elif child.name == "p":
+                # Nested p (in some footnotes)
+                if "backlink" in " ".join(child.get("class", [])):
+                    continue
+                parts.append(_inline_to_md(child))
+            else:
+                parts.append(_inline_to_md(child))
+    return "".join(parts)
+
+
+def _table_to_md(table: Tag) -> str:
+    """Convert an HTML table to markdown."""
+    rows = table.find_all("tr")
+    if not rows:
+        return ""
+    md_rows: list[list[str]] = []
+    for row in rows:
+        cells = row.find_all(["th", "td"])
+        md_rows.append([_inline_to_md(c).strip() for c in cells])
+    if not md_rows:
+        return ""
+    # Determine column widths
+    n_cols = max(len(r) for r in md_rows)
+    # Build table
+    lines = []
+    for i, row in enumerate(md_rows):
+        # Pad row to n_cols
+        while len(row) < n_cols:
+            row.append("")
+        lines.append("| " + " | ".join(row) + " |")
+        if i == 0:
+            lines.append("| " + " | ".join(["---"] * n_cols) + " |")
+    return "\n".join(lines)
+
+
+def _extract_glossary_entries(soup_body) -> str:
+    """
+    Special extractor for the glossary appendix.
+
+    Parses entries in the format "Name/Term: Definition" and formats them
+    for easy downstream parsing.
+    """
+    lines: list[str] = []
+    current_letter = ""
+
+    for element in soup_body.find_all("p"):
+        text = _inline_to_md(element).strip()
+        if not text:
+            continue
+
+        # Check if this looks like a glossary entry (contains a colon separator)
+        colon_pos = text.find(": ")
+        if colon_pos > 0 and colon_pos < 120:
+            term = text[:colon_pos].strip()
+            definition = text[colon_pos + 2:].strip()
+
+            # Detect letter change for section headers
+            first_letter = term[0].upper() if term else ""
+            # Handle italic markers
+            if first_letter == "*":
+                clean = term.lstrip("*").strip()
+                first_letter = clean[0].upper() if clean else ""
+
+            if first_letter and first_letter != current_letter and first_letter.isalpha():
+                current_letter = first_letter
+                lines.append(f"### {current_letter}")
+                lines.append("")
+
+            lines.append(f"**{term}**: {definition}")
+            lines.append("")
+        else:
+            # Non-entry text (section headers, etc.)
+            lines.append(text)
+            lines.append("")
+
+    return "\n".join(lines)
+
+
+def cmd_appendices(args):
+    """Extract appendices from the Kernberger EPUB as structured markdown."""
+    epub_path = Path(args.epub) if args.epub else EPUB_PATH
+    book = open_epub(epub_path)
+
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    print("Appendix extraction")
+    print("=" * 60)
+
+    extracted = 0
+    for appendix in APPENDICES:
+        item = book.get_item_with_id(appendix["item_id"])
+        if not item:
+            # Fallback: search by href
+            for doc_item in book.get_items_of_type(ebooklib.ITEM_DOCUMENT):
+                if doc_item.get_name() == appendix["href"]:
+                    item = doc_item
+                    break
+        if not item:
+            print(f"  WARNING: Could not find {appendix['title']} ({appendix['item_id']})")
+            continue
+
+        content = item.get_content()
+        soup = BeautifulSoup(content, "lxml")
+        body = soup.find("body") or soup
+
+        # Build the markdown file
+        md_lines: list[str] = []
+        md_lines.append(f"# Kernberger Appendix {appendix['num']}: {appendix['title']}")
+        md_lines.append("")
+        md_lines.append(
+            '*Extracted from: "I Am the Most Interesting Book of All" / '
+            '"Lust for Glory" by Katherine Kernberger (Fonthill Press, 2013)*'
+        )
+        md_lines.append("")
+        md_lines.append("---")
+        md_lines.append("")
+
+        # Use special extractor for glossary
+        if appendix["num"] == "I":
+            md_lines.append(_extract_glossary_entries(body))
+        else:
+            md_lines.append(_html_to_markdown(body))
+
+        out_path = REPORTS_DIR / appendix["filename"]
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write("\n".join(md_lines))
+
+        # Stats
+        file_size = out_path.stat().st_size
+        print(f"  Appendix {appendix['num']}: {appendix['title']}")
+        print(f"    -> {out_path.name} ({file_size:,} bytes)")
+        extracted += 1
+
+    print(f"\nExtracted {extracted}/{len(APPENDICES)} appendices to: {REPORTS_DIR}")
 
 
 # ---------------------------------------------------------------------------
@@ -1180,6 +1677,9 @@ def main():
     p_tag = subparsers.add_parser("tag", help="Tag French source files with #Kernberger")
     p_tag.add_argument("--dry-run", action="store_true", help="Report only, don't modify files")
 
+    # Appendices
+    subparsers.add_parser("appendices", help="Extract appendices from EPUB")
+
     # Report
     subparsers.add_parser("report", help="Generate comprehensive coverage report")
 
@@ -1195,6 +1695,8 @@ def main():
         cmd_footnotes(args)
     elif args.command == "tag":
         cmd_tag(args)
+    elif args.command == "appendices":
+        cmd_appendices(args)
     elif args.command == "report":
         cmd_report(args)
 

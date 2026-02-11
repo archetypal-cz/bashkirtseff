@@ -46,3 +46,5 @@ Breslau represents Marie's artistic ambition reflected back at her - a mirror of
 ## References in Diary
 - First mentioned: carnet 082 period (1878)
 - Key entries: competition results, atelier politics, artistic observations
+
+%% 2026-02-11T14:30:00 RSR: Per Kernberger (2013), "Breslau, Louise: best painter at studio, Marie's rival (1856-1927), nicknamed Aramis" (one of Dumas' musketeers). Kernberger's glossary confirms the dates and the competitive relationship. Friend Feurgard and fellow student at Julian's. %%

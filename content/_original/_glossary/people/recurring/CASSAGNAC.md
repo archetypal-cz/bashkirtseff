@@ -6,7 +6,7 @@
 
 ## Overview
 
-Paul Adolphe Marie Prosper Granier de Cassagnac (1842-1904) was a French journalist, politician, and duelist. He was a prominent Bonapartist and editor of *Le Pays*, known for his fierce political writings and numerous duels.
+Paul Adolphe Marie Prosper Granier de Cassagnac (1843-1904) was a French journalist, politician, and duelist. He was a prominent Bonapartist and editor of *Le Pays*, known for his fierce political writings and numerous duels.
 
 ## Historical Background
 
@@ -67,6 +67,14 @@ Cassagnac represents:
 - **Social learning**: Understanding the gap between public reputation and private reality
 - **Lost possibilities**: Her regret shows her self-awareness of her own potential
 
+## Nicknames in Marie's Diary
+
+Marie used multiple nicknames for Cassagnac: *Popaul*, *my [big] brother*, *the Defunct*, *Creole*, *Mirabeau*, *Gascon*.
+
+## Father
+
+His father, Granier de Cassagnac (1806-1880), was also a novelist. Marie met Cassagnac through the Bonapartist political circles she followed.
+
 ## Related Entries
 - [#Paul_de_Cassagnac](./Paul_de_Cassagnac.md) - Full name variant
 - [#Popaul](./Popaul.md) - Marie's nickname for him
@@ -74,3 +82,5 @@ Cassagnac represents:
 - [#Blanc](./Blanc.md) - Source of gossip about Cassagnac
 - [#Le_Pays](./Le_Pays.md) - His newspaper
 - [#Bonapartist](./Bonapartist.md) - His political affiliation
+
+%% 2026-02-11T13:00:00 RSR: Per Kernberger (2013), corrected birth year to 1843 (not 1842). Cassagnac's nicknames: Popaul, my [big] brother, the Defunct, Creole, Mirabeau, Gascon. His father Granier de Cassagnac (1806-1880) was a novelist. Marie married Mlle Julie Acard. Baron d'Ariste was witness at one of his duels. Gaston Thompson was wounded in a duel with Cassagnac. %%

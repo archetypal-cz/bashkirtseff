@@ -25,3 +25,5 @@ A person (likely wealthy) who hosts concerts in Nice that Marie is eager to atte
 ## Research Notes
 - Same as Von Derwies family - see full entry
 - Pavel von Derwies (1826-1881), Russian railway magnate
+
+%% 2026-02-11T13:40:00 RSR: Per Kernberger (2013), "Von Derwies, M. and Mme: nouveaux riches with extravagant house (Valrose) and little taste." This confirms they were wealthy new-money Russians whose estate Valrose in Nice was known for extravagant but tasteless decoration. %%

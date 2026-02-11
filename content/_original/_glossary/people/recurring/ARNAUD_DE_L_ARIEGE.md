@@ -1,23 +1,32 @@
-# Arnaud de l Ariege
+---
+id: ARNAUD_DE_L_ARIEGE
+name: Joseph Arnaud de l'Ariège
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-02-11
+---
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 5 mentions
-**Type**: Person/Place
+# Joseph Arnaud de l'Ariège
 
-## Overview
+## Basic Information
 
-[Research needed]
+Joseph Arnaud de l'Ariège was a young man who headed Léon Gambetta's cabinet. He was part of the Republican political circles that Marie followed closely during her political phase (1878-1879).
 
-This entry was mentioned 5 times in Book 13 of Marie's diary (1879).
+## Family
 
-## Research Needed
+- **Mother**: Mme Suzanne Arnaud, a supporter of the Republican party
 
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
+## Nicknames
+
+Marie nicknamed him *Antinoüs* (after the beautiful boy who was the favorite of Emperor Hadrian), suggesting she found him physically attractive.
+
+## Significance in Marie's Diary
+
+Arnaud appears 5 times in Book 13 (1879) during the period when Marie was most politically engaged. His connection to Gambetta placed him at the center of Republican politics, which Marie followed after her disillusionment with Bonapartism and Cassagnac.
 
 ## Related Entries
 
-[To be determined based on research]
+- [#Cassagnac](CASSAGNAC.md) - Bonapartist rival of Gambetta
+
+%% 2026-02-11T13:50:00 RSR: Per Kernberger (2013), Joseph Arnaud de l'Ariège was a young member of Gambetta's cabinet. Nicknamed "Antinoüs" by Marie (historically: beautiful favorite of Emperor Hadrian). His mother Mme Suzanne Arnaud was a supporter of the Republican party. Enriched from stub. %%

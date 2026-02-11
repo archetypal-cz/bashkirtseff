@@ -132,3 +132,4 @@ The grandmother played a protective role in the family. When Marie's father kidn
 
 %% 2025-12-07T14:30:00 RSR: Created based on Book 00 preface and historical research on Babanina family. Grand-maman died before 1870, prompting family's departure from Russia. %%
 %% 2025-12-07T16:00:00 RSR: Updated with details from paragraphs 00.11-00.13 about her role raising Marie and the Gavronzi custody battle. %%
+%% 2026-02-11T14:15:00 RSR: Per Kernberger (2013), Grand-maman was Julie Babanine, née Cornelius (died 1867). Kernberger's chronology states: "Soon after the wedding [of Nadine to Romanoff in 1866], Marie's grandmother Julie Babanine dies." The family then departed for Europe in 1870. Husband: Stepan Babanine (1807-1878), Marie's grandfather. Note: Our existing entry incorrectly states she "died suddenly in 1870" — Kernberger places her death in 1866/1867, soon after the Romanoff wedding. %%

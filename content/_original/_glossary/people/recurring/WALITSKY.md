@@ -135,3 +135,4 @@ Walitsky abandoned this secure government position to follow the Bashkirtseff fa
 
 
 %% 2026-02-04T06:46:46.449Z RSR: Merged content from WALITSKTY (auto-generated stub, now superseded by comprehensive entry above) %%
+%% 2026-02-11T13:05:00 RSR: Per Kernberger (2013), Walitsky was the family physician and friend who lived with the family for years. He died in January 1878 of heart failure (c. 1840-1878). This confirms the death date was January 1878, not merely "before 1884." %%

@@ -34,3 +34,4 @@ Marie's playful interactions with him suggest she felt comfortable enough to tea
 In the 1870s, young women of Marie's social class would typically receive education from private tutors rather than attending schools. Marie's educational program was unusually extensive for a young woman of her time, including multiple languages, sciences, music, and art. Teachers like Bensa would have been hired by wealthy families to provide this private education.
 
 %% 2025-04-05T21:40:00 RSR: Created entry based on mentions in September 1873 diary entries %%
+%% 2026-02-11T12:45:00 RSR: Per Kernberger (2013), François Bensa (1811-1885) was Marie's art teacher in Nice. This confirms he was an art instructor, not merely a tutor arranging other professors. %%

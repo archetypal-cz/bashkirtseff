@@ -95,3 +95,4 @@ The notation "Howard (Russe)" suggests the complex international nature of Nice'
 %% 2025-06-30T21:45:00 RSR: Created comprehensive entry for Howard family based on 1873 diary references %%
 %% 2025-12-07T12:45:00 RSR: Need to research whether Helene_Howard.md and Lise_Howard.md refer to this same family %%
 %% 2026-01-06T00:00:00 RSR: Merged Howard_Family.md (uppercase) into Howard_family.md (lowercase), adding unique "Howard (Russe)" notation from lowercase version %%
+%% 2026-02-11T13:10:00 RSR: Per Kernberger (2013), the Howards were "M. and Mme Howard: Anglo-Russian family living in Nice" with daughters "Hélène, Lise, and Aggie." Mme Howard's first name was Julie Stepanovna (identified by patronymic in some entries). This confirms the "Howard (Russe)" notation: they were indeed an Anglo-Russian mixed family. %%

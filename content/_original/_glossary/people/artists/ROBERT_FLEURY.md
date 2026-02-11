@@ -64,3 +64,5 @@ Robert-Fleury represents legitimate artistic authority and mentorship. His willi
 ## Related Entries
 - [#Julian](../places/schools/JULIAN.md) - The academy where he taught
 - [#Breslau](./BRESLAU.md) - Student who "adores him in secret"
+
+%% 2026-02-11T14:25:00 RSR: Per Kernberger (2013), "Robert-Fleury, Tony: teacher at Julian's (1828-1912)." Note: Kernberger gives dates 1828-1912, while our entry has 1837-1911. Other sources vary. His painting "The Last Day of Corinth" (1870) is separately referenced in the glossary. %%

@@ -54,3 +54,4 @@ Russian noble families of this period often had complex arrangements, with famil
 - When and how did he die? (Marie's later diary entries may reveal this)
 
 %% 2025-06-30T20:15:00 RSR: Created basic entry for Papa/Constantin Bashkirtseff based on diary references %%
+%% 2026-02-11T14:10:00 RSR: Per Kernberger (2013), Constantine Bashkirtseff (1833-1883) died at Gavronzi on June 11, 1883. He arrived in Paris in December 1878, and Marie learned from him that she was a full-term baby (contradicting the family's claim of premature birth). He returned to Russia in 1877 after visiting Nice. In 1881, he came to Paris wanting to take Marie back to Gavronzi, but she refused. He did not understand or approve Marie's dedication to painting. See also FATHER_BASHKIRTSEFF.md for comprehensive entry. %%

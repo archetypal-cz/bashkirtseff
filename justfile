@@ -495,6 +495,10 @@ kernberger-tag-dry:
 kernberger-tag:
     uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py tag
 
+# Extract appendices from Kernberger EPUB
+kernberger-appendices:
+    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py appendices
+
 # Generate comprehensive Kernberger coverage report
 kernberger-report:
     uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py report

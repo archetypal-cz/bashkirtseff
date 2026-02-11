@@ -87,6 +87,7 @@ The original manuscript comprised **20,000 hand-written pages**.
 
 ---
 
+%% 2026-02-11T13:55:00 RSR: Per Kernberger (2013), Marie was born on November 12, 1858 (not November 24 as some sources state). The family celebrated her birthday on January 12, claiming she had been born prematurely — part of a long-continued subterfuge to conceal that she was a full-term baby born seven months after her parents' marriage. The false date "1860" was engraved on her tomb. She learned the truth from her father in 1878. %%
 %% 2026-02-04T06:46:50.637Z RSR: Merged content from MARIE_BACHKIRTSEFF %%
 
 # Marie Bachkirtseff

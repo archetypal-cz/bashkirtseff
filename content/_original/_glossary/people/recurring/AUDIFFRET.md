@@ -81,3 +81,4 @@ Marie (likely with Olga) sends anonymous threatening letters to Audiffret and hi
 %% 2026-02-09T19:30:00 RSR: Expanded with carnet 045 context: Girofla nickname, Tour Audiffret, Gioia affair, code names %%
 %% 2026-02-09T21:10:00 RSR: Restored after accidental overwrite. Added carnet 046 context: code name "Feu", Cercle membership, Prediction de Cassandre, Olga rivalry, Saetone as go-between. %%
 %% 2026-02-09T22:00:00 RSR: Added carnet 047 context: Bibi system, anagrams, neologism verbs, theater visit, couronne du martyr, final resolve. %%
+%% 2026-02-11T14:00:00 RSR: Per Kernberger (2013), Émile Audiffret's full list of nicknames: Audiffer, Bibi, Girofla, Hector, Impetuous Squire, Soroka (magpie), the Surprising One, Terffidua (Audiffret backwards). He had a sister Marie Audiffret and a step-mother Mme Audiffret. %%

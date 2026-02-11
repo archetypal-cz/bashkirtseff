@@ -57,3 +57,4 @@ Bastien-Lepage died on December 10, 1884, the same year as Marie (who died Octob
 - [#Julian](./Julian.md) - Shared artistic milieu
 
 %% 2025-12-06T00:00:00 RSR: Expanded from stub with biographical research %%
+%% 2026-02-11T12:50:00 RSR: Per Kernberger (2013), Jules Bastien-Lepage's brother Émile Bastien-Lepage was an architect (1845-1938) who designed Marie's tomb at Passy Cemetery after her death. Émile and Jules planned the decorations for Marie's funeral (November 6, 1884). Émile had become a close family friend: he carried Marie upstairs when she was too weak to walk, and the brothers visited her regularly during her final illness. The intimacy between Marie and the Bastien-Lepage family (Jules, Émile, and their mother) deepened throughout 1882-1884. %%

@@ -69,3 +69,4 @@ In 19th century European aristocratic families, unmarried or widowed female rela
 - Why was she, rather than Marie's mother, serving as primary guardian during this period?
 
 %% 2025-06-30T20:00:00 RSR: Created basic entry for Ma_tante based on diary references from Book 02 %%
+%% 2026-02-11T13:45:00 RSR: Per Kernberger (2013), "Tutcheff, Mme Sophie: Marie's maternal aunt, lives in Nice." This identifies Ma tante as Sophie Tutcheff, married into the Tutcheff family, living in Nice. She is Marie's maternal aunt (a Babanine sister). Kernberger also notes "Romanoff, Mme, née Nadya Babanine: Marie's aunt, sued by Romanoffs over inheritance" — this is a different aunt (Nadine/Nadya), not the same as Ma tante/Sophie. %%
