@@ -16,6 +16,8 @@ export interface GlossaryTag {
   id: string;
   /** Display name (e.g., "Marie Bashkirtseff") */
   name: string;
+  /** Top-level category from glossary path (e.g., "people", "places", "culture") */
+  category?: string;
 }
 
 /**

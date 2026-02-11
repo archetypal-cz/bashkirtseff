@@ -342,10 +342,12 @@ function extractGlossaryTags(text: string): GlossaryTag[] {
     const name = match[1];
     // Extract just the filename from the path (e.g., "people/core/MARIE_BASHKIRTSEFF" -> "MARIE_BASHKIRTSEFF")
     const fullPath = match[2];
-    const id = fullPath.split('/').pop() || fullPath;
+    const pathParts = fullPath.split('/');
+    const id = pathParts.pop() || fullPath;
+    const category = pathParts[0] || undefined;
     // Avoid duplicates
     if (!tags.some(t => t.id === id)) {
-      tags.push({ id, name });
+      tags.push({ id, name, category });
     }
   }
 
