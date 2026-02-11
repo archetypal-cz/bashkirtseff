@@ -1,4 +1,4 @@
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import cs from './locales/cs.json';
 import fr from './locales/fr.json';
 import en from './locales/en.json';
@@ -59,11 +59,19 @@ export function contentPathToLocale(path: string): SupportedLocale {
 
 const messages: Record<SupportedLocale, typeof cs> = { cs, uk, en, fr };
 
-// Reactive locale state
+// Reactive locale state — defaults to 'cs' to match SSR output.
+// The actual user preference is loaded after hydration via initLocaleFromStorage().
 const currentLocale = ref<SupportedLocale>('cs');
+let _localeInitialized = false;
 
-// Initialize from localStorage (client-side only)
-if (typeof window !== 'undefined') {
+/**
+ * Read the user's locale preference from localStorage.
+ * Called after mount to avoid hydration mismatch — SSR always renders Czech,
+ * so the client must also start with 'cs' during hydration, then update reactively.
+ */
+function initLocaleFromStorage() {
+  if (_localeInitialized || typeof window === 'undefined') return;
+  _localeInitialized = true;
   const saved = localStorage.getItem('ui-language') as SupportedLocale;
   if (saved && SUPPORTED_LOCALES.includes(saved)) {
     currentLocale.value = saved;
@@ -108,6 +116,9 @@ export function getLocale(): SupportedLocale {
 // Composable for use in Vue components
 export function useI18n() {
   const locale = computed(() => currentLocale.value);
+
+  // Load user's locale preference after hydration completes
+  onMounted(() => initLocaleFromStorage());
 
   function t(key: string, params?: Record<string, string | number>): string {
     const localeMessages = messages[currentLocale.value] || messages.cs;
