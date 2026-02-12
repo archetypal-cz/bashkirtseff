@@ -2,7 +2,7 @@
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
-import BookSidebar from '../../../components/reading/BookSidebar.vue';
+
 import FlipParagraph from '../../../components/reading/FlipParagraph.vue';
 import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages } from '../../../lib/content';
 
@@ -80,17 +80,16 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
     author: 'Marie Bashkirtseff',
   }}
 >
-  <!-- Carnet sidebar -->
-  <div class="fixed top-[60px] left-2 md:left-4 z-50">
-    <BookSidebar
-      client:load
-      carnet={carnet!}
-      currentEntry={entryDate!}
-      entries={carnetEntries}
-      language="cz"
-      selectedDate={entryDate!}
-    />
-  </div>
+  <!-- Sidebar data for unified menu (entry list, calendar, etc.) -->
+  <script is:inline define:vars={{ __sidebarJSON: JSON.stringify({
+    carnet,
+    entries: carnetEntries,
+    currentEntry: entryDate,
+    language: "cz",
+    selectedDate: entryDate
+  }) }}>
+    window.__sidebarData = JSON.parse(__sidebarJSON);
+  </script>
 
   <article class="max-w-3xl mx-auto">
     <!-- Breadcrumb -->
@@ -246,13 +245,6 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
     </nav>
   </article>
 </ReadingLayout>
-
-<script is:inline>
-  // Apply pinned sidebar state immediately to prevent layout flash
-  if (window.matchMedia('(min-width: 1024px)').matches && localStorage.getItem('sidebar-pinned') === 'true') {
-    document.documentElement.classList.add('sidebar-pinned');
-  }
-</script>
 
 <script>
   // Handle deep linking - highlight paragraph on page load

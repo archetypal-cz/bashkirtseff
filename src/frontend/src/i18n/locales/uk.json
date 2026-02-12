@@ -218,7 +218,15 @@
     "people": "Особи",
     "places": "Місця",
     "location": "Розташування",
-    "culture": "Культура"
+    "culture": "Культура",
+    "themes": "Теми",
+    "modeAnd": "усі критерії",
+    "modeOr": "будь-який",
+    "and": "та",
+    "or": "або",
+    "clearFilter": "Скасувати фільтр",
+    "bannerCount": "Відфільтровано: {matching} з {total} записів",
+    "bannerCarnet": "Показано {matching} з {total} записів ({hidden} приховано)"
   },
   "glossary": {
     "title": "Глосарій",

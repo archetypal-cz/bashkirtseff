@@ -5,6 +5,7 @@ This directory contains a modernized French edition of Marie Bashkirtseff's diar
 ## Purpose
 
 While `_original/` contains the raw transcription of Marie's manuscripts, this directory provides:
+
 - Standardized spelling and punctuation
 - Consistent formatting
 - Editorial annotations for modern French readers
@@ -16,7 +17,6 @@ While `_original/` contains the raw transcription of Marie's manuscripts, this d
 fr/
 ├── CLAUDE.md            # This file
 ├── PROGRESS.md          # Overall French edition status
-├── Style.md             # French edition style guide (to create)
 ├── EditorialNotes.md    # Editorial conventions (to create)
 │
 ├── 000/                 # Edited preface
@@ -30,6 +30,7 @@ fr/
 ## Editorial Phases
 
 ### 1. Normalization (NRM)
+
 - Standardize 19th century spelling variations
 - Consistent punctuation
 - Paragraph structure
@@ -37,6 +38,7 @@ fr/
 **Frontmatter flag**: `normalization_complete: true`
 
 ### 2. Annotation (ANN)
+
 - Add explanatory footnotes for modern readers
 - Clarify obscure references
 - Note textual variants if any
@@ -44,6 +46,7 @@ fr/
 **Frontmatter flag**: `annotation_complete: true`
 
 ### 3. Review (REV)
+
 - Check consistency
 - Verify against original
 - Final polish
@@ -70,11 +73,11 @@ Samedi 11 janvier 1873. Il fait un temps superbe...
 
 ## Comment Types
 
-| Code | Role | Purpose |
-|------|------|---------|
-| NRM | Normalizer | Spelling/punctuation standardization |
-| ANN | Annotator | Explanatory notes |
-| REV | Reviewer | Editorial review |
+| Code | Role       | Purpose                              |
+| ---- | ---------- | ------------------------------------ |
+| NRM  | Normalizer | Spelling/punctuation standardization |
+| ANN  | Annotator  | Explanatory notes                    |
+| REV  | Reviewer   | Editorial review                     |
 
 ## Editorial Principles
 
@@ -83,14 +86,14 @@ Samedi 11 janvier 1873. Il fait un temps superbe...
 3. **Transparent changes** - Document all normalizations in comments
 4. **Scholarly integrity** - Original always accessible in `_original/`
 
-## Difference from _original/
+## Difference from \_original/
 
-| Aspect | _original/ | fr/ |
-|--------|------------|-----|
-| Spelling | As in manuscript | Standardized |
-| Punctuation | As in manuscript | Normalized |
+| Aspect      | \_original/             | fr/                |
+| ----------- | ----------------------- | ------------------ |
+| Spelling    | As in manuscript        | Standardized       |
+| Punctuation | As in manuscript        | Normalized         |
 | Annotations | RSR/LAN for translators | For French readers |
-| Purpose | Source for translations | Reading edition |
+| Purpose     | Source for translations | Reading edition    |
 
 ## Related Documentation
 

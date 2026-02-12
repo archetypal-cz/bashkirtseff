@@ -15,7 +15,7 @@ When a new topic of interest appears in the diary, add it to this list and creat
 ## The list
 
 ### A
-- [#ACQUA_VIVA](/_original/_glossary/ACQUA_VIVA.md) - Bashkirtseff family residence
+- [#ACQUA_VIVA](/_original/_glossary/places/residences/ACQUA_VIVA.md) - Bashkirtseff family residence
 - [#ANITCHKOFF](/_original/_glossary/ANITCHKOFF.md) - Russian noble family in Nice (Madame & Olga)
 - [#AUDIFFRET](/_original/_glossary/AUDIFFRET.md) - Prominent Nice family, young Audiffret was persistent suitor
 

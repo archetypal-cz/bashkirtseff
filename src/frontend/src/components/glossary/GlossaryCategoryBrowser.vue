@@ -98,7 +98,7 @@ const categoryNames: Record<string, Record<string, string>> = {
 
 function getLocale(): string {
   if (props.glossaryBasePath.startsWith('/cz')) return 'cs';
-  return 'cs';
+  return 'fr';
 }
 
 function getCategoryName(name: string): string {
@@ -107,6 +107,23 @@ function getCategoryName(name: string): string {
 
 function getSubcategoryLabel(sub: string): string {
   return subcategoryLabels[getLocale()]?.[sub] || sub.replace(/_/g, ' ');
+}
+
+// Map display category → filter category (themes is virtual, maps back to culture)
+const FILTER_CATEGORY_MAP: Record<string, string> = {
+  people: 'people',
+  places: 'places',
+  culture: 'culture',
+  themes: 'culture',
+};
+
+function activateFilter(event: Event, categoryName: string, entryId: string) {
+  event.preventDefault();
+  event.stopPropagation();
+  const filterCategory = FILTER_CATEGORY_MAP[categoryName] || 'people';
+  localStorage.setItem('filter-tags', JSON.stringify({ [filterCategory]: [entryId] }));
+  window.dispatchEvent(new CustomEvent('filter-sync'));
+  window.location.href = '/cz';
 }
 </script>
 
@@ -181,7 +198,17 @@ function getSubcategoryLabel(sub: string): string {
                   >
                     <div class="entry-row">
                       <span class="entry-name">{{ entry.name }}</span>
-                      <span v-if="entry.usageCount" class="entry-refs">{{ entry.usageCount }}</span>
+                      <button
+                        v-if="entry.usageCount"
+                        class="entry-filter-btn"
+                        :title="getLocale() === 'cs' ? `Filtrovat ${entry.usageCount} zmínek v deníku` : `Filtrer ${entry.usageCount} mentions dans le journal`"
+                        @click="activateFilter($event, cat.name, entry.id)"
+                      >
+                        <svg class="filter-icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                        </svg>
+                        <span>{{ entry.usageCount }}</span>
+                      </button>
                     </div>
                     <div v-if="entry.summary" class="entry-summary">{{ entry.summary }}</div>
                   </a>
@@ -517,19 +544,42 @@ function getSubcategoryLabel(sub: string): string {
   min-width: 0;
 }
 
-.entry-refs {
+.entry-filter-btn {
   flex-shrink: 0;
-  font-size: 0.6875rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  padding: 0.0625rem 0.375rem;
+  padding: 0.25rem 0.5rem;
   background: var(--bg-secondary, #F5E6D3);
+  border: 1px solid transparent;
   border-radius: 1rem;
   color: var(--text-muted, #78716C);
+  cursor: pointer;
+  transition: all 0.15s;
 }
 
-[data-theme="dark"] .entry-refs {
+.entry-filter-btn:hover {
+  background: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #B45309);
+  color: white;
+}
+
+.filter-icon-sm {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+[data-theme="dark"] .entry-filter-btn {
   background: #333;
   color: #888;
+}
+
+[data-theme="dark"] .entry-filter-btn:hover {
+  background: var(--color-accent-light, #D97706);
+  border-color: var(--color-accent-light, #D97706);
+  color: #1a1a1a;
 }
 
 .entry-summary {

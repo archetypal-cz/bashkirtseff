@@ -3,6 +3,9 @@ import { ref, computed } from 'vue';
 import type { FilterIndex, FilterEntryRecord } from '../types/filter-index';
 
 const STORAGE_KEY = 'filter-tags';
+const MODE_STORAGE_KEY = 'filter-mode';
+
+export type FilterMode = 'and' | 'or';
 
 export const useFilterStore = defineStore('filter', () => {
   // --- State ---
@@ -10,6 +13,7 @@ export const useFilterStore = defineStore('filter', () => {
   const loading = ref(false);
   const selectedTags = ref<Record<string, string[]>>({});
   const panelOpen = ref(false);
+  const filterMode = ref<FilterMode>('and');
 
   // --- Computed ---
 
@@ -21,7 +25,10 @@ export const useFilterStore = defineStore('filter', () => {
     Object.values(selectedTags.value).reduce((sum, tags) => sum + tags.length, 0)
   );
 
-  /** Entries matching the current filter (AND across categories, OR within) */
+  /** Entries matching the current filter.
+   *  AND mode: entry must match ALL active categories (intersect).
+   *  OR mode: entry must match ANY active category (union).
+   *  Within each category, matching is always OR (any selected tag). */
   const matchingEntries = computed<FilterEntryRecord[]>(() => {
     if (!index.value || !isActive.value) return [];
 
@@ -30,13 +37,28 @@ export const useFilterStore = defineStore('filter', () => {
 
     if (activeCategories.length === 0) return [];
 
-    let result = index.value.entries;
+    if (filterMode.value === 'or' && activeCategories.length > 1) {
+      // OR mode: entry must match ANY active category (union)
+      const resultSet = new Set<string>();
+      const resultEntries: FilterEntryRecord[] = [];
+      for (const [category, tags] of activeCategories) {
+        const tagSet = new Set(tags);
+        for (const entry of index.value.entries) {
+          if (!resultSet.has(entry.id) && entryMatchesCategory(entry, category, tagSet)) {
+            resultSet.add(entry.id);
+            resultEntries.push(entry);
+          }
+        }
+      }
+      return resultEntries;
+    }
 
+    // AND mode (default): entry must match ALL active categories (intersect)
+    let result = index.value.entries;
     for (const [category, tags] of activeCategories) {
       const tagSet = new Set(tags);
       result = result.filter(entry => entryMatchesCategory(entry, category, tagSet));
     }
-
     return result;
   });
 
@@ -113,6 +135,11 @@ export const useFilterStore = defineStore('filter', () => {
     persist();
   }
 
+  function setFilterMode(mode: FilterMode) {
+    filterMode.value = mode;
+    persist();
+  }
+
   let _syncing = false;
 
   function init() {
@@ -125,6 +152,10 @@ export const useFilterStore = defineStore('filter', () => {
         /* ignore corrupt data */
       }
     }
+    const savedMode = localStorage.getItem(MODE_STORAGE_KEY);
+    if (savedMode === 'and' || savedMode === 'or') {
+      filterMode.value = savedMode;
+    }
     // Listen for cross-island filter sync events (same page, different Vue islands)
     window.addEventListener('filter-sync', () => {
       if (_syncing) return; // skip self-dispatched events
@@ -133,6 +164,10 @@ export const useFilterStore = defineStore('filter', () => {
         selectedTags.value = fresh ? JSON.parse(fresh) : {};
       } catch {
         selectedTags.value = {};
+      }
+      const freshMode = localStorage.getItem(MODE_STORAGE_KEY);
+      if (freshMode === 'and' || freshMode === 'or') {
+        filterMode.value = freshMode;
       }
     });
   }
@@ -147,6 +182,7 @@ export const useFilterStore = defineStore('filter', () => {
     } else {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(active));
     }
+    localStorage.setItem(MODE_STORAGE_KEY, filterMode.value);
     // Notify other Vue islands on the same page
     _syncing = true;
     window.dispatchEvent(new CustomEvent('filter-sync'));
@@ -155,14 +191,25 @@ export const useFilterStore = defineStore('filter', () => {
 
   return {
     // State
-    index, loading, selectedTags, panelOpen,
+    index, loading, selectedTags, panelOpen, filterMode,
     // Computed
     isActive, activeTagCount, matchingEntries, matchingEntryIds,
     matchingByYear, matchingByCarnet,
     // Actions
-    loadIndex, toggleTag, clearCategory, clearAll, init,
+    loadIndex, toggleTag, clearCategory, clearAll, setFilterMode, init,
   };
 });
+
+/** Case-insensitive check: tags set may contain UPPERCASE glossary IDs while
+ *  filter index uses mixed-case entity names from frontmatter (or vice versa). */
+function ciHas(tags: Set<string>, id: string): boolean {
+  if (tags.has(id)) return true;
+  const lower = id.toLowerCase();
+  for (const t of tags) {
+    if (t.toLowerCase() === lower) return true;
+  }
+  return false;
+}
 
 function entryMatchesCategory(
   entry: FilterEntryRecord,
@@ -174,13 +221,15 @@ function entryMatchesCategory(
       return (tags.has('kernberger') && !!entry.k) ||
              (tags.has('censored_1887') && !!entry.x);
     case 'people':
-      return entry.p?.some(id => tags.has(id)) ?? false;
+      return entry.p?.some(id => ciHas(tags, id)) ?? false;
     case 'places':
-      return entry.pl?.some(id => tags.has(id)) ?? false;
+      return entry.pl?.some(id => ciHas(tags, id)) ?? false;
     case 'culture':
-      return entry.cu?.some(id => tags.has(id)) ?? false;
+      return entry.cu?.some(id => ciHas(tags, id)) ?? false;
+    case 'themes':
+      return entry.th?.some(id => ciHas(tags, id)) ?? false;
     case 'location':
-      return entry.l ? tags.has(entry.l) : false;
+      return entry.l ? ciHas(tags, entry.l) : false;
     default:
       return false;
   }

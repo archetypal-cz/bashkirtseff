@@ -190,53 +190,48 @@
     color: var(--text-primary);
   }
 
-  /* Theme-aware components */
-  [data-theme="dark"] header,
-  [data-theme="dark"] footer {
-    background-color: var(--bg-secondary);
-    border-color: var(--border-color);
-  }
-
-  [data-theme="dark"] .bg-parchment {
-    background-color: var(--bg-primary);
-  }
-
-  [data-theme="dark"] .bg-sepia {
-    background-color: var(--bg-secondary);
-  }
-
-  [data-theme="dark"] .text-ink {
-    color: var(--text-primary);
-  }
-
-  [data-theme="dark"] .text-ink-light {
-    color: var(--text-secondary);
-  }
-
-  [data-theme="dark"] .text-muted {
-    color: var(--text-muted);
-  }
-
-  [data-theme="dark"] .border-ink\/10 {
-    border-color: var(--border-color);
-  }
-
-  /* Sepia theme overrides */
-  [data-theme="sepia"] .bg-parchment {
-    background-color: var(--bg-primary);
-  }
-
-  [data-theme="sepia"] .bg-sepia {
-    background-color: var(--bg-secondary);
-  }
 }
 
-/* Pinned sidebar layout */
-@media (min-width: 1024px) {
-  .sidebar-pinned main {
-    margin-left: 320px;
-    transition: margin-left 0.3s ease;
-  }
+/* Theme-aware overrides for Tailwind utilities.
+   Must be OUTSIDE @layer to beat utility-layer specificity in Tailwind v4. */
+[data-theme="dark"] header,
+[data-theme="dark"] footer {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+[data-theme="dark"] .bg-parchment {
+  background-color: var(--bg-primary);
+}
+
+[data-theme="dark"] .bg-sepia {
+  background-color: var(--bg-secondary);
+}
+
+[data-theme="dark"] .text-ink {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .text-ink-light {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .text-muted {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .border-ink\/10,
+[data-theme="dark"] .border-ink\/20 {
+  border-color: var(--border-color);
+}
+
+/* Sepia theme overrides */
+[data-theme="sepia"] .bg-parchment {
+  background-color: var(--bg-primary);
+}
+
+[data-theme="sepia"] .bg-sepia {
+  background-color: var(--bg-secondary);
 }
 
 /* Component utilities */

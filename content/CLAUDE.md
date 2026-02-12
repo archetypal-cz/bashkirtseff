@@ -18,7 +18,6 @@ content/
 │   ├── CLAUDE.md        # Czech-specific guidance
 │   ├── PROGRESS.md      # Overall Czech status
 │   ├── 000/-106/        # Translated entries
-│   └── Style.md         # Czech style guide
 │
 ├── uk/                  # Ukrainian translations
 │   ├── CLAUDE.md        # Ukrainian-specific guidance
@@ -65,6 +64,7 @@ Next paragraph...
 ## Paragraph IDs
 
 Format: `%% XXX.YYYY %%`
+
 - `XXX` = 3-digit carnet number (001-106)
 - `YYYY` = 4-digit sequential paragraph number
 
@@ -74,15 +74,15 @@ Format: `%% XXX.YYYY %%`
 
 All annotations use: `%% YYYY-MM-DDThh:mm:ss CODE: Text %%`
 
-| Code | Role | Purpose |
-|------|------|---------|
-| RSR | Researcher | Historical context, entity identification |
-| LAN | Linguistic Annotator | Translation guidance, idioms |
-| TR | Translator | Translation decisions, alternatives |
-| RED | Editor | Quality issues, suggestions |
-| CON | Conductor | Final approval notes |
-| GEM | Gemini | External AI contributions |
-| PPX | Perplexity | External AI contributions |
+| Code | Role                 | Purpose                                   |
+| ---- | -------------------- | ----------------------------------------- |
+| RSR  | Researcher           | Historical context, entity identification |
+| LAN  | Linguistic Annotator | Translation guidance, idioms              |
+| TR   | Translator           | Translation decisions, alternatives       |
+| RED  | Editor               | Quality issues, suggestions               |
+| CON  | Conductor            | Final approval notes                      |
+| GEM  | Gemini               | External AI contributions                 |
+| PPX  | Perplexity           | External AI contributions                 |
 
 ## Glossary Links
 
@@ -95,6 +95,7 @@ Format: `%% [#Display_Name](../_glossary/category/FILENAME.md) %%`
 ## Progress Tracking
 
 Each carnet has a `README.md` tracking:
+
 - Completion status by phase
 - Active TODOs
 - Changelog with timestamps
@@ -104,16 +105,19 @@ See `/docs/INFRASTRUCTURE.md` for full progress tracking documentation.
 ## Working with Content
 
 ### To research an entry
+
 ```bash
 just research 1873-01-11    # Or use /researcher skill
 ```
 
 ### To translate an entry
+
 ```bash
 just translate 1873-01-11 cz    # Or use /translator skill
 ```
 
 ### To check progress
+
 ```bash
 /project-status cz 001    # Carnet 001 Czech status
 ```

@@ -162,6 +162,7 @@ See `docs/FRONTMATTER.md` for complete format specification.
 ### Claiming Work
 
 Before starting on a carnet:
+
 1. Check GitHub Issues for claimed carnets
 2. Create an issue or comment to claim your carnet
 3. Update your `WORKER_CONFIG.yaml`
@@ -190,6 +191,7 @@ git push origin your-branch
 ```
 
 Create a Pull Request on GitHub with:
+
 - Summary of what was translated/reviewed
 - Any questions or notes for reviewers
 - Link to relevant Issues
@@ -207,7 +209,6 @@ just init-source-hashes uk  # Initialize source tracking
 
 ## Resources
 
-- **Style Guide**: `prompts/Style.md` - Translation style guidelines
 - **Entry Format**: `docs/FRONTMATTER.md` - File format specification
 - **Infrastructure**: `docs/INFRASTRUCTURE.md` - Progress tracking system
 - **Skills**: `.claude/skills/*/SKILL.md` - Detailed role documentation
@@ -219,4 +220,4 @@ just init-source-hashes uk  # Initialize source tracking
 
 ---
 
-*Marie's voice deserves to be heard in every language. Thank you for helping make that happen.*
+_Marie's voice deserves to be heard in every language. Thank you for helping make that happen._

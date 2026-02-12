@@ -218,7 +218,15 @@
     "people": "Osoby",
     "places": "Místa",
     "location": "Poloha",
-    "culture": "Kultura"
+    "culture": "Kultura",
+    "themes": "Témata",
+    "modeAnd": "a také",
+    "modeOr": "nebo",
+    "and": "a",
+    "or": "nebo",
+    "clearFilter": "Zrušit filtr",
+    "bannerCount": "Filtrováno: {matching} z {total} záznamů",
+    "bannerCarnet": "Zobrazeno {matching} z {total} záznamů ({hidden} skryto)"
   },
   "glossary": {
     "title": "Glosář",

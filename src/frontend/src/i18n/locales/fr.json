@@ -218,7 +218,15 @@
     "people": "Personnes",
     "places": "Lieux",
     "location": "Localisation",
-    "culture": "Culture"
+    "culture": "Culture",
+    "themes": "Thèmes",
+    "modeAnd": "tous les critères",
+    "modeOr": "au moins un",
+    "and": "et",
+    "or": "ou",
+    "clearFilter": "Annuler le filtre",
+    "bannerCount": "Filtré : {matching} sur {total} entrées",
+    "bannerCarnet": "Affiché {matching} sur {total} entrées ({hidden} masquées)"
   },
   "glossary": {
     "title": "Glossaire",

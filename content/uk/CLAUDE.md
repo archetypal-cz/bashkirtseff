@@ -8,7 +8,6 @@ This directory contains Ukrainian translations of Marie Bashkirtseff's diary.
 uk/
 ├── CLAUDE.md            # This file
 ├── PROGRESS.md          # Overall Ukrainian translation status
-├── Style.md             # Ukrainian-specific style guide (to create)
 ├── TranslationMemory.md # Established terminology (to create)
 │
 ├── 000/                 # Translated preface
@@ -26,6 +25,7 @@ Marie Bashkirtseff was born in Gavrontsi (Гавронці), near Poltava, Ukrai
 ## Translation Phases
 
 ### 1. Translation (TR)
+
 - Translate from annotated French source
 - Preserve Marie's voice and style
 - Follow established terminology
@@ -34,6 +34,7 @@ Marie Bashkirtseff was born in Gavrontsi (Гавронці), near Poltava, Ukrai
 **Frontmatter flag**: `translation_complete: true`
 
 ### 2. Gemini Review (GEM)
+
 - External AI review for fresh perspective
 - Check consistency and naturalness
 - Suggest alternative phrasings
@@ -41,6 +42,7 @@ Marie Bashkirtseff was born in Gavrontsi (Гавронці), near Poltava, Ukrai
 **Frontmatter flag**: `gemini_reviewed: true`
 
 ### 3. Editor Review (RED)
+
 - Check naturalness in Ukrainian
 - Verify accuracy against French
 - Flag awkward phrasing
@@ -48,6 +50,7 @@ Marie Bashkirtseff was born in Gavrontsi (Гавронці), near Poltava, Ukrai
 **Frontmatter flag**: `editor_approved: true`
 
 ### 4. Conductor Approval (CON)
+
 - Final literary quality check
 - Ensure Marie's voice preserved
 - Approve or request revision
@@ -75,12 +78,12 @@ translation_complete: false
 
 ## Comment Types
 
-| Code | Role | Purpose |
-|------|------|---------|
-| TR | Translator | Translation decisions |
-| GEM | Gemini | External AI review notes |
-| RED | Editor | Quality notes, suggestions |
-| CON | Conductor | Approval, final notes |
+| Code | Role       | Purpose                    |
+| ---- | ---------- | -------------------------- |
+| TR   | Translator | Translation decisions      |
+| GEM  | Gemini     | External AI review notes   |
+| RED  | Editor     | Quality notes, suggestions |
+| CON  | Conductor  | Approval, final notes      |
 
 ## Style Considerations
 
@@ -93,4 +96,3 @@ translation_complete: false
 
 - `/src/_original/CLAUDE.md` - French source materials
 - `/docs/INFRASTRUCTURE.md` - Progress tracking system
-- `/prompts/Style.md` - General style guide
