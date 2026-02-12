@@ -139,6 +139,10 @@ find-missing pattern directory:
         fi; \
     done
 
+# Compare i18n locale files and report missing keys
+i18n-diff *ARGS:
+    npx tsx src/scripts/i18n-diff.ts {{ARGS}}
+
 # Clean TypeScript build artifacts
 clean-ts:
     rm -rf src/shared/dist
