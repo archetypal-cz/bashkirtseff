@@ -55,8 +55,9 @@ const thisDayTranslations = {
     <!-- Hero Section -->
     <section class="bg-gradient-to-b from-sepia to-parchment py-16 md:py-24">
       <div class="max-w-4xl mx-auto px-4 text-center">
-        <h1 class="text-4xl md:text-5xl font-normal text-ink mb-6" style="font-family: var(--font-serif);">
-          Marie Bashkirtseff
+        <h1 class="text-ink mb-6" style="font-family: var(--font-serif);">
+          <span class="block text-5xl md:text-6xl font-bold">{t('nav.diary')}</span>
+          <span class="block text-3xl md:text-4xl font-normal mt-1">Marie Bashkirtseff</span>
         </h1>
         <p class="text-xl md:text-2xl text-ink-light italic mb-8" style="font-family: var(--font-serif);">
           "{t('quotes.interestingBook')}"
@@ -234,12 +235,15 @@ const thisDayTranslations = {
   <Footer />
 </BaseLayout>
 
-<script>
-  // Save language preference when user visits this page
-  // Handle paths with or without trailing slash: /home/fr or /home/fr/
-  const pathParts = window.location.pathname.split('/').filter(Boolean);
-  const lang = pathParts[pathParts.length - 1];
-  if (lang && ['cs', 'en', 'fr'].includes(lang)) {
-    localStorage.setItem('ui-language', lang);
-  }
+<script is:inline>
+  // Save language preference BEFORE Vue hydration so the menu renders
+  // in the correct language. Must be is:inline (not a module) to run
+  // synchronously during HTML parsing.
+  (function() {
+    var pathParts = window.location.pathname.split('/').filter(Boolean);
+    var lang = pathParts[pathParts.length - 1];
+    if (lang && ['cs', 'en', 'fr', 'uk'].includes(lang)) {
+      localStorage.setItem('ui-language', lang);
+    }
+  })();
 </script>
