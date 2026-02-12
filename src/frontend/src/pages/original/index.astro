@@ -6,24 +6,24 @@ import { getCarnets } from '../../lib/content';
 const carnets = getCarnets('_original');
 
 const formatDate = (date: Date) => {
-  return date.toLocaleDateString('fr-FR', {
+  return date.toLocaleDateString('cs-CZ', {
     year: 'numeric',
     month: 'long',
   });
 };
 ---
 
-<ReadingLayout title="Journal de Marie Bashkirtseff — Texte original">
+<ReadingLayout title="Deník Marie Bashkirtseff — Originální text">
   <div class="max-w-4xl mx-auto">
     <header class="mb-12 text-center">
       <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
-        Journal de Marie Bashkirtseff
+        Deník Marie Bashkirtseff
       </h1>
       <p class="text-ink-light mb-2">
-        Édition complète et non censurée — Texte original
+        Kompletní, necenzurované vydání — Originální text
       </p>
       <p class="text-sm text-muted">
-        Le journal original contient du français, russe, italien, anglais et d'autres langues
+        Originální deník obsahuje francouzštinu, ruštinu, italštinu, angličtinu a další jazyky
       </p>
     </header>
 
@@ -42,7 +42,7 @@ const formatDate = (date: Date) => {
                 {carnet.id}
               </div>
               <h2 class="text-lg text-ink mb-1">
-                Cahier {carnet.id}
+                Sešit {carnet.id}
               </h2>
               {carnet.dateRange && (
                 <p class="text-sm text-muted">
@@ -55,7 +55,7 @@ const formatDate = (date: Date) => {
                 {carnet.entries.length}
               </div>
               <div class="text-xs text-muted">
-                entrées
+                záznamů
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ const formatDate = (date: Date) => {
 
     {carnets.length === 0 && (
       <div class="text-center py-12 text-muted">
-        <p>Aucun cahier trouvé.</p>
+        <p>Žádné sešity nebyly nalezeny.</p>
       </div>
     )}
   </div>

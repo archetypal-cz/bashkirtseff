@@ -94,25 +94,25 @@ const formatEntryDate = (dateStr: string) => {
   if (/^\d{3}-\d{2}$/.test(dateStr)) {
     // Section format: "000-01" -> "Section 1"
     const section = parseInt(dateStr.split('-')[1], 10);
-    return `Section ${section}`;
+    return `Oddíl ${section}`;
   }
   // Handle date entries with suffixes like "1883-08-27-evening"
   // Extract just the date part (YYYY-MM-DD)
   const datePart = dateStr.split('-').slice(0, 3).join('-');
   const suffix = dateStr.split('-').slice(3).join('-');
   const date = new Date(datePart);
-  let formatted = date.toLocaleDateString('fr-FR', {
+  let formatted = date.toLocaleDateString('cs-CZ', {
     weekday: 'long',
     day: 'numeric',
     month: 'long',
     year: 'numeric',
   });
-  // Append suffix if present (e.g., "evening" -> "(soir)")
+  // Append suffix if present (e.g., "evening" -> "(večer)")
   if (suffix) {
     const suffixLabels: Record<string, string> = {
-      'evening': '(soir)',
-      'morning': '(matin)',
-      'night': '(nuit)',
+      'evening': '(večer)',
+      'morning': '(ráno)',
+      'night': '(noc)',
     };
     formatted += ' ' + (suffixLabels[suffix] || `(${suffix})`);
   }
@@ -120,12 +120,12 @@ const formatEntryDate = (dateStr: string) => {
 };
 ---
 
-<ReadingLayout title={`Cahier ${carnet} — Journal de Marie Bashkirtseff`}>
+<ReadingLayout title={`Sešit ${carnet} — Deník Marie Bashkirtseff`}>
   <div class="max-w-4xl mx-auto">
     <nav class="mb-8 text-sm text-muted">
-      <a href="/original" class="hover:text-accent">Journal</a>
+      <a href="/original" class="hover:text-accent">Deník</a>
       <span class="mx-2">›</span>
-      <span class="text-ink">Cahier {carnet}</span>
+      <span class="text-ink">Sešit {carnet}</span>
     </nav>
 
     <!-- Header + Summary Grid -->
@@ -135,24 +135,24 @@ const formatEntryDate = (dateStr: string) => {
         <header class="p-5 rounded-lg bg-parchment border border-ink/10 flex flex-col justify-between">
           <div>
             <h1 class="text-3xl font-normal text-ink mb-3" style="font-family: var(--font-serif);">
-              Cahier {carnet}
+              Sešit {carnet}
             </h1>
 
             {carnetInfo?.dateRange && (
               <p class="text-ink-light mb-3">
-                {carnetInfo.dateRange.start.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
+                {carnetInfo.dateRange.start.toLocaleDateString('cs-CZ', { month: 'long', year: 'numeric' })}
                 {' — '}
-                {carnetInfo.dateRange.end.toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
+                {carnetInfo.dateRange.end.toLocaleDateString('cs-CZ', { month: 'long', year: 'numeric' })}
               </p>
             )}
 
             <p class="text-sm text-muted mb-3">
-              {allEntries.length} entrées
+              {allEntries.length} záznamů
             </p>
 
             {summary.primaryLocation && (
               <p class="text-sm text-muted mb-2">
-                Lieu principal : <span class="text-ink">{formatDisplayName(summary.primaryLocation)}</span>
+                Hlavní místo: <span class="text-ink">{formatDisplayName(summary.primaryLocation)}</span>
               </p>
             )}
           </div>
@@ -162,7 +162,7 @@ const formatEntryDate = (dateStr: string) => {
               href={`/original/${carnet}/${allEntries[0].date}`}
               class="inline-flex items-center gap-2 mt-4 px-4 py-2.5 bg-accent text-white rounded-lg hover:bg-accent-light transition-colors font-medium text-sm self-start"
             >
-              <span>{isSectionCarnet ? 'Commencer' : 'Lire depuis le début'}</span>
+              <span>{isSectionCarnet ? 'Začít' : 'Číst od začátku'}</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -174,7 +174,7 @@ const formatEntryDate = (dateStr: string) => {
         {!isSectionCarnet && topPeople.length > 0 && (
           <div class="p-4 rounded-lg bg-parchment border border-ink/10">
             <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
-              Personnages clés
+              Klíčové osoby
             </h3>
             <ul class="space-y-2">
               {topPeople.map(([personId, count]) => (
@@ -197,7 +197,7 @@ const formatEntryDate = (dateStr: string) => {
         {!isSectionCarnet && topPlaces.length > 0 && (
           <div class="p-4 rounded-lg bg-parchment border border-ink/10">
             <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
-              Lieux
+              Místa
             </h3>
             <ul class="space-y-2">
               {topPlaces.map(([placeId, count]) => (
@@ -220,7 +220,7 @@ const formatEntryDate = (dateStr: string) => {
         {!isSectionCarnet && topThemes.length > 0 && (
           <div class="p-4 rounded-lg bg-parchment border border-ink/10">
             <h3 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">
-              Thèmes
+              Témata
             </h3>
             <div class="flex flex-wrap gap-2">
               {topThemes.map(([theme, count]) => (
@@ -237,7 +237,7 @@ const formatEntryDate = (dateStr: string) => {
       {/* Calendar section (below the grid) */}
       {!isSectionCarnet && calendarMonths.length > 0 && (
         <div class="mt-6">
-          <h2 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">Calendrier</h2>
+          <h2 class="text-sm font-medium text-muted uppercase tracking-wide mb-3">Kalendář</h2>
           <div class={`grid gap-4 ${calendarMonths.length === 1 ? 'max-w-xs' : calendarMonths.length === 2 ? 'sm:grid-cols-2 max-w-2xl' : 'sm:grid-cols-2 lg:grid-cols-3'}`}>
             {calendarMonths.map(({ year, month }) => (
               <CalendarWidget
@@ -289,7 +289,7 @@ const formatEntryDate = (dateStr: string) => {
 
     {allEntries.length === 0 && (
       <div class="text-center py-12 text-muted">
-        <p>Ce cahier ne contient aucune entrée.</p>
+        <p>Tento sešit neobsahuje žádné záznamy.</p>
       </div>
     )}
 
@@ -303,14 +303,14 @@ const formatEntryDate = (dateStr: string) => {
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
-          <span>Cahier {prevCarnet.id}</span>
+          <span>Sešit {prevCarnet.id}</span>
         </a>
       ) : (
         <div />
       )}
 
       <a href="/original" class="text-muted hover:text-ink transition-colors">
-        Tous les cahiers
+        Všechny sešity
       </a>
 
       {nextCarnet ? (
@@ -318,7 +318,7 @@ const formatEntryDate = (dateStr: string) => {
           href={`/original/${nextCarnet.id}`}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
         >
-          <span>Cahier {nextCarnet.id}</span>
+          <span>Sešit {nextCarnet.id}</span>
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>

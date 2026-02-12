@@ -86,7 +86,8 @@
     "copyLink": "Copy link",
     "copied": "Copied!",
     "relatedEntries": "Related entries",
-    "clickToViewGlossary": "Click to view in glossary"
+    "clickToViewGlossary": "Click to view in glossary",
+    "filterByTag": "Filter entries in this carnet"
   },
   "footer": {
     "aboutProject": "About",
@@ -234,5 +235,29 @@
     "updated": "Updated",
     "pronunciation": "Pronunciation",
     "pronunciationTitle": "Hear pronunciation"
+  },
+  "original": {
+    "pageTitle": "Diary of Marie Bashkirtseff — Original Text",
+    "heading": "Diary of Marie Bashkirtseff",
+    "subtitle": "Complete, uncensored edition — Original text",
+    "description": "The original diary contains French, Russian, Italian, English and other languages",
+    "notebook": "Notebook",
+    "entries": "entries",
+    "noCarnetsFound": "No notebooks found.",
+    "diary": "Diary",
+    "mainLocation": "Main location:",
+    "start": "Start",
+    "readFromBeginning": "Read from the beginning",
+    "keyPeople": "Key people",
+    "places": "Places",
+    "themes": "Themes",
+    "calendar": "Calendar",
+    "noEntries": "This notebook has no entries.",
+    "allNotebooks": "All notebooks",
+    "notes": "Notes",
+    "backToText": "Back to text",
+    "previousEntry": "Previous entry",
+    "nextEntry": "Next entry",
+    "contents": "Notebook contents"
   }
 }

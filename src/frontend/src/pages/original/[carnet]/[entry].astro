@@ -2,8 +2,8 @@
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
-import BookSidebar from '../../../components/reading/BookSidebar.vue';
-import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, hasTranslation, getAvailableLanguages } from '../../../lib/content';
+
+import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages } from '../../../lib/content';
 
 export function getStaticPaths() {
   const carnets = getCarnets('_original');
@@ -28,7 +28,6 @@ const { carnet, entry: entryDate } = Astro.params;
 
 const entry = getEntry(carnet!, entryDate!, '_original');
 const nav = getEntryNavigation(carnet!, entryDate!, '_original');
-const hasCzTranslation = hasTranslation(carnet!, entryDate!, 'cz');
 const availableLanguages = getAvailableLanguages(carnet!, entryDate!);
 const carnetEntries = getCarnetEntries(carnet!, '_original').map(date => ({ date }));
 
@@ -36,53 +35,55 @@ if (!entry) {
   return Astro.redirect('/original');
 }
 
-const formatDate = (date: Date) => {
-  return date.toLocaleDateString('fr-FR', {
-    weekday: 'long',
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  });
-};
-
 const processedParagraphs = entry.paragraphs.map(p => ({
   ...p,
   htmlId: `p-${p.id.replace('.', '-')}`,
 }));
+
+// Generate description from first paragraph (strip HTML and truncate)
+const firstParagraphText = entry.paragraphs[0]?.html
+  ?.replace(/<[^>]*>/g, '')
+  ?.slice(0, 160)
+  ?.trim() + '...' || '';
+const pageDescription = `Original diary entry from ${entry.title} in Carnet ${carnet}. ${firstParagraphText}`;
+
+// Format date for article metadata
+const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefined;
 ---
 
-<ReadingLayout title={`${entry.title} — Cahier ${carnet}`}>
-  <!-- Carnet sidebar -->
-  <div class="fixed top-[60px] left-2 md:left-4 z-50">
-    <BookSidebar
-      client:load
-      carnet={carnet!}
-      currentEntry={entryDate!}
-      entries={carnetEntries}
-      language="_original"
-      selectedDate={entryDate!}
-    />
-  </div>
+<ReadingLayout
+  title={`${entry.title} — Sešit ${carnet}`}
+  description={pageDescription}
+  type="article"
+  article={{
+    publishedTime: articleDate,
+    author: 'Marie Bashkirtseff',
+  }}
+>
+  <!-- Sidebar data for unified menu (entry list, calendar, etc.) -->
+  <script is:inline define:vars={{ __sidebarJSON: JSON.stringify({
+    carnet,
+    entries: carnetEntries,
+    currentEntry: entryDate,
+    language: "_original",
+    selectedDate: entryDate
+  }) }}>
+    window.__sidebarData = JSON.parse(__sidebarJSON);
+  </script>
 
   <article class="max-w-3xl mx-auto">
+    <!-- Breadcrumb -->
     <nav class="mb-6 text-sm text-muted">
-      <a href="/original" class="hover:text-accent">Journal</a>
+      <a href="/original" class="hover:text-accent">Deník</a>
       <span class="mx-2">›</span>
-      <a href={`/original/${carnet}`} class="hover:text-accent">Cahier {carnet}</a>
+      <a href={`/original/${carnet}`} class="hover:text-accent">Sešit {carnet}</a>
       <span class="mx-2">›</span>
       <span class="text-ink">{entryDate}</span>
     </nav>
 
-    <header class="mb-8 pb-6 border-b border-ink/10">
-      <h1 class="text-2xl md:text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
-        {entry.title}
-      </h1>
-
-      <div class="flex items-center gap-4 text-sm text-muted">
-        <time datetime={entryDate}>
-          {formatDate(entry.date)}
-        </time>
-
+    <!-- Entry Header: language + navigation bar -->
+    <header class="mb-6">
+      <div class="flex items-center justify-between mb-3">
         {/* Language Switcher with scroll preservation */}
         <LanguageSwitcher
           client:load
@@ -91,9 +92,55 @@ const processedParagraphs = entry.paragraphs.map(p => ({
           entryDate={entryDate!}
           availableLanguages={availableLanguages}
         />
+
+        {/* Compact entry navigation */}
+        <nav class="flex items-center gap-3 text-sm">
+          {nav.prev ? (
+            <a
+              href={`/original/${carnet}/${nav.prev}`}
+              class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
+              title="Předchozí záznam"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              <span class="hidden sm:inline">Předchozí</span>
+            </a>
+          ) : (
+            <span class="text-muted/30 flex items-center gap-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+            </span>
+          )}
+          <a href={`/original/${carnet}`} class="text-muted hover:text-ink transition-colors" title="Přehled sešitu">
+            Sešit {carnet}
+          </a>
+          {nav.next ? (
+            <a
+              href={`/original/${carnet}/${nav.next}`}
+              class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
+              title="Další záznam"
+            >
+              <span class="hidden sm:inline">Další</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          ) : (
+            <span class="text-muted/30 flex items-center gap-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          )}
+        </nav>
       </div>
+
+      <hr class="entry-divider" />
     </header>
 
+    <!-- Entry Content -->
     <div class="prose-diary space-y-6">
       {processedParagraphs.map(paragraph => (
         <div
@@ -103,7 +150,7 @@ const processedParagraphs = entry.paragraphs.map(p => ({
         >
           <p class="text-lg leading-relaxed text-ink" lang="fr" set:html={paragraph.html} />
 
-          {/* Paragraph menu - positioned at top right for accessibility */}
+          {/* Paragraph menu - positioned at top right */}
           <div class="absolute -top-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
             <ParagraphMenu
               client:visible
@@ -118,7 +165,7 @@ const processedParagraphs = entry.paragraphs.map(p => ({
     {/* Footnotes */}
     {entry.footnotes.length > 0 && (
       <section class="footnotes">
-        <h2 class="footnotes-title">Notes</h2>
+        <h2 class="footnotes-title">Poznámky</h2>
         {entry.footnotes.map(fn => (
           <div
             id={`fn-${fn.id}`}
@@ -126,12 +173,13 @@ const processedParagraphs = entry.paragraphs.map(p => ({
             data-fn={fn.id}
           >
             <span set:html={fn.text} />
-            <a href={`#fnref-${fn.id}`} class="footnote-backref" title="Retour au texte">&#x21A9;</a>
+            <a href={`#fnref-${fn.id}`} class="footnote-backref" title="Zpět na text">&#x21A9;</a>
           </div>
         ))}
       </section>
     )}
 
+    {/* Entry Navigation */}
     <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center">
       {nav.prev ? (
         <a
@@ -141,14 +189,14 @@ const processedParagraphs = entry.paragraphs.map(p => ({
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
-          <span>Entrée précédente</span>
+          <span>Předchozí záznam</span>
         </a>
       ) : (
         <div />
       )}
 
       <a href={`/original/${carnet}`} class="text-muted hover:text-ink transition-colors">
-        Sommaire
+        Přehled sešitu
       </a>
 
       {nav.next ? (
@@ -156,7 +204,7 @@ const processedParagraphs = entry.paragraphs.map(p => ({
           href={`/original/${carnet}/${nav.next}`}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
         >
-          <span>Entrée suivante</span>
+          <span>Další záznam</span>
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -167,13 +215,6 @@ const processedParagraphs = entry.paragraphs.map(p => ({
     </nav>
   </article>
 </ReadingLayout>
-
-<script is:inline>
-  // Apply pinned sidebar state immediately to prevent layout flash
-  if (window.matchMedia('(min-width: 1024px)').matches && localStorage.getItem('sidebar-pinned') === 'true') {
-    document.documentElement.classList.add('sidebar-pinned');
-  }
-</script>
 
 <script>
   // Handle deep linking - highlight paragraph on page load

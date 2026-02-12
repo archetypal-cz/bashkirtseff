@@ -86,7 +86,8 @@
     "copyLink": "Kopírovat odkaz",
     "copied": "Zkopírováno!",
     "relatedEntries": "Související položky",
-    "clickToViewGlossary": "Klikněte pro zobrazení v glosáři"
+    "clickToViewGlossary": "Klikněte pro zobrazení v glosáři",
+    "filterByTag": "Filtrovat záznamy v sešitu"
   },
   "footer": {
     "aboutProject": "O projektu",
@@ -234,5 +235,29 @@
     "updated": "Aktualizováno",
     "pronunciation": "Výslovnost",
     "pronunciationTitle": "Poslechněte si výslovnost"
+  },
+  "original": {
+    "pageTitle": "Deník Marie Bashkirtseff — Originální text",
+    "heading": "Deník Marie Bashkirtseff",
+    "subtitle": "Kompletní, necenzurované vydání — Originální text",
+    "description": "Originální deník obsahuje francouzštinu, ruštinu, italštinu, angličtinu a další jazyky",
+    "notebook": "Sešit",
+    "entries": "záznamů",
+    "noCarnetsFound": "Žádné sešity nebyly nalezeny.",
+    "diary": "Deník",
+    "mainLocation": "Hlavní místo:",
+    "start": "Začít",
+    "readFromBeginning": "Číst od začátku",
+    "keyPeople": "Klíčové osoby",
+    "places": "Místa",
+    "themes": "Témata",
+    "calendar": "Kalendář",
+    "noEntries": "Tento sešit neobsahuje žádné záznamy.",
+    "allNotebooks": "Všechny sešity",
+    "notes": "Poznámky",
+    "backToText": "Zpět na text",
+    "previousEntry": "Předchozí záznam",
+    "nextEntry": "Další záznam",
+    "contents": "Obsah sešitu"
   }
 }

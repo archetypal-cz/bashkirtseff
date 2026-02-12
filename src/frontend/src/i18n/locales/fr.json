@@ -86,7 +86,8 @@
     "copyLink": "Copier le lien",
     "copied": "Copié !",
     "relatedEntries": "Éléments associés",
-    "clickToViewGlossary": "Cliquez pour voir dans le glossaire"
+    "clickToViewGlossary": "Cliquez pour voir dans le glossaire",
+    "filterByTag": "Filtrer les entrées dans ce carnet"
   },
   "footer": {
     "aboutProject": "À propos",
@@ -234,5 +235,29 @@
     "updated": "Mis à jour",
     "pronunciation": "Prononciation",
     "pronunciationTitle": "Écouter la prononciation"
+  },
+  "original": {
+    "pageTitle": "Journal de Marie Bashkirtseff — Texte original",
+    "heading": "Journal de Marie Bashkirtseff",
+    "subtitle": "Édition complète et non censurée — Texte original",
+    "description": "Le journal original contient du français, russe, italien, anglais et d'autres langues",
+    "notebook": "Cahier",
+    "entries": "entrées",
+    "noCarnetsFound": "Aucun cahier trouvé.",
+    "diary": "Journal",
+    "mainLocation": "Lieu principal :",
+    "start": "Commencer",
+    "readFromBeginning": "Lire depuis le début",
+    "keyPeople": "Personnages clés",
+    "places": "Lieux",
+    "themes": "Thèmes",
+    "calendar": "Calendrier",
+    "noEntries": "Ce cahier ne contient aucune entrée.",
+    "allNotebooks": "Tous les cahiers",
+    "notes": "Notes",
+    "backToText": "Retour au texte",
+    "previousEntry": "Entrée précédente",
+    "nextEntry": "Entrée suivante",
+    "contents": "Sommaire"
   }
 }
