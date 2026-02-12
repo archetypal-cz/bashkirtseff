@@ -318,7 +318,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 .category-name {
-  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-family: var(--font-serif, 'Crimson Pro', serif);
   font-size: 1.125rem;
   font-weight: 500;
   color: var(--text-primary, #2C1810);
@@ -365,7 +365,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 .subcategory-header-text {
-  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-family: var(--font-serif, 'Crimson Pro', serif);
   font-size: 0.9375rem;
   font-weight: 500;
   color: var(--text-primary, #2C1810);
@@ -481,7 +481,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 .entries-panel-header {
-  font-family: var(--font-serif, 'Cormorant Garamond', serif);
+  font-family: var(--font-serif, 'Crimson Pro', serif);
   font-size: 0.9375rem;
   font-weight: 500;
   padding: 0.625rem 1rem;

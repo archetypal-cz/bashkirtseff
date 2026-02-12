@@ -142,7 +142,7 @@ const translationLanguage = computed(() => {
 
 .original-text {
   font-style: italic;
-  font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
+  font-family: 'Crimson Pro', Georgia, serif;
   color: var(--text-secondary, #4A3728);
 }
 
@@ -201,7 +201,7 @@ const translationLanguage = computed(() => {
 }
 
 .lang-symbol {
-  font-family: var(--font-serif, 'Cormorant Garamond', Georgia, serif);
+  font-family: 'Crimson Pro', Georgia, serif;
   font-style: normal;
 }
 
