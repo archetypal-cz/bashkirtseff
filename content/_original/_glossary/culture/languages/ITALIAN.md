@@ -1,10 +1,43 @@
-I need your permission to write to the glossary files. Could you approve the write so I can save the merged ITALIAN.md entry?
+# Italian
 
-The merged entry combines:
-- Target's tagging rules and overview
-- Source's specific Italian phrases ("a più non posso", "buia compagna", "cosa rarissima")
-- Source's detailed usage categories (musical terms, artistic expressions, etc.)
-- Source's translator notes about code-switching signals
-- Updated research status to "Intermediate" and date to 2026-02-10
+**Research Status**: Intermediate
+**Last Updated**: 2026-02-12
+**Type**: Language
 
-After writing, I'll also delete the duplicate at `_glossary/languages/ITALIAN.md` (which has zero references pointing to it — all 99 refs use the `culture/languages/` path).
+## Overview
+
+Marie Bashkirtseff uses Italian primarily for musical, artistic, and emotional contexts, reflecting her time in Italy (especially Rome) and the Italian cultural influence in Nice and artistic circles.
+
+## Usage Categories
+
+- **Musical terms**: Opera quotations, singing vocabulary
+- **Artistic expressions**: Art-related terminology
+- **Cultural references**: Italian opera, art, and literature
+- **Emotional expressions**: Italian exclamations and phrases
+
+## Common Italian Phrases in Marie's Diary
+
+- "a piu non posso" - as much as possible
+- "buia compagna" - dark companion (literary)
+- "cosa rarissima" - a very rare thing
+- Opera quotations (Verdi, Bellini, etc.)
+
+## Usage Notes
+
+- When Marie writes in Italian within a paragraph, tag it with #Italian
+- If the paragraph also contains French (usual case), also tag with #French
+- If a paragraph is entirely in Italian, only tag with #Italian (no #French)
+
+## Translator Notes
+
+Italian code-switching often signals:
+- Musical and artistic contexts
+- Cultural sophistication
+- Emotional heightening through operatic references
+- Nice's Italian cultural influence (proximity to Italy)
+
+## Related Languages
+
+- [[FRENCH]] - primary language
+- [[ENGLISH]] - another language she uses
+- [[RUSSIAN]] - her native family language

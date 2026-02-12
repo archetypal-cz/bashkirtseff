@@ -24,7 +24,7 @@ const categoryData = categoryTree.map(cat => ({
   })),
 }));
 
-// Search entries with usage counts and category
+// Search entries with usage counts, category, and aliases
 const allEntries = getGlossaryEntries().map(entry => ({
   id: entry.id,
   name: entry.name,
@@ -32,6 +32,7 @@ const allEntries = getGlossaryEntries().map(entry => ({
   summary: entry.summary,
   category: entry.category?.split('/')[0],
   usageCount: usageCounts[entry.id] || 0,
+  ...(entry.aliases && entry.aliases.length > 0 && { aliases: entry.aliases }),
 }));
 
 // Letter counts

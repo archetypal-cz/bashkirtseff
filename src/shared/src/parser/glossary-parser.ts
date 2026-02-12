@@ -62,6 +62,7 @@ export class GlossaryParser {
     if (metadata.original_script) entry.originalScript = metadata.original_script as string;
     if (metadata.transliteration) entry.transliteration = metadata.transliteration as string;
     if (metadata.pronunciation) entry.pronunciation = metadata.pronunciation as string;
+    if (metadata.aliases) entry.aliases = metadata.aliases as string[];
     entry.metadata = metadata;
 
     const lines = content.split('\n');

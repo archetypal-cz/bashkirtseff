@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue';
 import { useI18n } from '../../i18n';
+import { getCategoryIcon, getCategoryColor } from '../../lib/glossary-categories';
 
 const { t } = useI18n();
 
@@ -9,13 +10,17 @@ interface GlossaryEntry {
   name: string;
   type?: string;
   summary?: string;
+  category?: string;
+  usageCount?: number;
+  aliases?: string[];
 }
 
-interface Props {
+const props = withDefaults(defineProps<{
   entries: GlossaryEntry[];
-}
-
-const props = defineProps<Props>();
+  basePath?: string;
+}>(), {
+  basePath: '/glossary',
+});
 
 const searchQuery = ref('');
 const isOpen = ref(false);
@@ -31,32 +36,71 @@ watch(searchQuery, (newQuery) => {
   }
   debounceTimer = setTimeout(() => {
     debouncedQuery.value = newQuery;
+    selectedIndex.value = -1;
   }, 300);
 });
 
-const filteredEntries = computed(() => {
+function scoreEntry(entry: GlossaryEntry, query: string): number {
+  const nameLower = entry.name.toLowerCase();
+
+  let score = 0;
+
+  if (nameLower === query) {
+    score = 1000;
+  } else if (nameLower.startsWith(query)) {
+    score = 500;
+  } else if (nameLower.includes(query)) {
+    // Bonus for word-boundary match
+    const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const wordBoundary = new RegExp(`\\b${escaped}`, 'i');
+    score = wordBoundary.test(entry.name) ? 200 : 100;
+  } else if (entry.aliases?.some(a => a.toLowerCase() === query)) {
+    score = 400;
+  } else if (entry.aliases?.some(a => a.toLowerCase().startsWith(query))) {
+    score = 300;
+  } else if (entry.aliases?.some(a => a.toLowerCase().includes(query))) {
+    score = 150;
+  } else if (entry.type?.toLowerCase().includes(query)) {
+    score = 50;
+  } else if (entry.summary?.toLowerCase().includes(query)) {
+    score = 25;
+  } else {
+    return 0;
+  }
+
+  // Usage count bonus (up to 50 points)
+  score += Math.min((entry.usageCount || 0) / 2, 50);
+
+  return score;
+}
+
+const scoredResults = computed(() => {
   if (!debouncedQuery.value.trim()) return [];
 
   const query = debouncedQuery.value.toLowerCase().trim();
+  const scored: Array<{ entry: GlossaryEntry; score: number }> = [];
 
-  return props.entries
-    .filter(entry =>
-      entry.name.toLowerCase().includes(query) ||
-      entry.type?.toLowerCase().includes(query) ||
-      entry.summary?.toLowerCase().includes(query)
-    )
-    .slice(0, 20); // Limit results for performance
+  for (const entry of props.entries) {
+    const score = scoreEntry(entry, query);
+    if (score > 0) {
+      scored.push({ entry, score });
+    }
+  }
+
+  scored.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return a.entry.name.localeCompare(b.entry.name);
+  });
+
+  return scored;
+});
+
+const filteredEntries = computed(() => {
+  return scoredResults.value.slice(0, 20).map(s => s.entry);
 });
 
 const resultsCount = computed(() => {
-  if (!debouncedQuery.value.trim()) return 0;
-
-  const query = debouncedQuery.value.toLowerCase().trim();
-  return props.entries.filter(entry =>
-    entry.name.toLowerCase().includes(query) ||
-    entry.type?.toLowerCase().includes(query) ||
-    entry.summary?.toLowerCase().includes(query)
-  ).length;
+  return scoredResults.value.length;
 });
 
 function handleFocus() {
@@ -64,7 +108,6 @@ function handleFocus() {
 }
 
 function handleBlur() {
-  // Delay to allow click on results
   setTimeout(() => {
     isOpen.value = false;
     selectedIndex.value = -1;
@@ -86,7 +129,7 @@ function handleKeydown(event: KeyboardEvent) {
     event.preventDefault();
     const entry = filteredEntries.value[selectedIndex.value];
     if (entry) {
-      window.location.href = `/glossary/${entry.id}`;
+      window.location.href = `${props.basePath}/${entry.id}`;
     }
   } else if (event.key === 'Escape') {
     isOpen.value = false;
@@ -106,6 +149,14 @@ function highlightMatch(text: string): string {
   const query = debouncedQuery.value.trim();
   const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
   return text.replace(regex, '<mark class="highlight">$1</mark>');
+}
+
+function getIconPath(category?: string): string {
+  return getCategoryIcon(category);
+}
+
+function getIconColor(category?: string): string {
+  return getCategoryColor(category);
 }
 </script>
 
@@ -150,11 +201,17 @@ function highlightMatch(text: string): string {
           <a
             v-for="(entry, index) in filteredEntries"
             :key="entry.id"
-            :href="`/glossary/${entry.id}`"
+            :href="`${basePath}/${entry.id}`"
             class="result-item"
             :class="{ 'is-selected': index === selectedIndex }"
           >
-            <div class="result-name" v-html="highlightMatch(entry.name)"></div>
+            <div class="result-header">
+              <svg v-if="entry.category" class="result-icon" :style="{ color: getIconColor(entry.category) }" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getIconPath(entry.category)" />
+              </svg>
+              <div class="result-name" v-html="highlightMatch(entry.name)"></div>
+              <span v-if="entry.usageCount" class="result-refs" :title="`${entry.usageCount} references in diary`">{{ entry.usageCount }}</span>
+            </div>
             <div v-if="entry.type" class="result-type">{{ entry.type }}</div>
             <div v-if="entry.summary" class="result-summary" v-html="highlightMatch(entry.summary)"></div>
           </a>
@@ -302,10 +359,38 @@ function highlightMatch(text: string): string {
   background: #252525;
 }
 
+.result-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.result-icon {
+  flex-shrink: 0;
+  width: 1rem;
+  height: 1rem;
+}
+
 .result-name {
   font-weight: 500;
   font-size: 0.9375rem;
-  margin-bottom: 0.25rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.result-refs {
+  flex-shrink: 0;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 0.125rem 0.375rem;
+  background: var(--bg-secondary, #F5E6D3);
+  border-radius: 1rem;
+  color: var(--text-muted, #78716C);
+}
+
+[data-theme="dark"] .result-refs {
+  background: #333;
 }
 
 .result-type {
@@ -316,6 +401,7 @@ function highlightMatch(text: string): string {
   border-radius: 0.25rem;
   color: var(--text-muted, #78716C);
   margin-bottom: 0.25rem;
+  margin-left: 1.5rem;
 }
 
 [data-theme="dark"] .result-type {
@@ -331,6 +417,7 @@ function highlightMatch(text: string): string {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  margin-left: 1.5rem;
 }
 
 [data-theme="dark"] .result-summary {

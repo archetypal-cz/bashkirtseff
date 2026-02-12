@@ -28,6 +28,8 @@ import {
   parseFrontmatter,
 } from '@bashkirtseff/shared';
 
+import { THEME_SUBCATEGORIES } from './glossary-categories';
+
 // Re-export shared types for convenience
 export type { GlossaryTag };
 
@@ -106,6 +108,7 @@ export interface GlossaryEntry {
   originalScript?: string;     // Term in original script (e.g., Cyrillic)
   transliteration?: string;    // Latin transliteration
   pronunciation?: string;      // URL to pronunciation (e.g., Google Translate)
+  aliases?: string[];          // Alternative names/spellings
 }
 
 export interface GlossaryParagraph {
@@ -1445,8 +1448,14 @@ function getGlossaryEntryFromPath(filePath: string, category: string): GlossaryE
               currentKey = key;
               currentArray = [];
             } else if (value !== '') {
-              // Regular key: value - remove quotes if present
-              metadata[key] = value.replace(/^["']|["']$/g, '');
+              // Check for inline array syntax: [item1, item2]
+              const inlineArrayMatch = value.match(/^\[(.+)\]$/);
+              if (inlineArrayMatch) {
+                metadata[key] = inlineArrayMatch[1].split(',').map(s => s.trim().replace(/^["']|["']$/g, ''));
+              } else {
+                // Regular key: value - remove quotes if present
+                metadata[key] = value.replace(/^["']|["']$/g, '');
+              }
             }
             // If value is empty and not an array start, skip (no value to store)
           }
@@ -1515,6 +1524,7 @@ function getGlossaryEntryFromPath(filePath: string, category: string): GlossaryE
     originalScript: metadata.original_script as string | undefined,
     transliteration: metadata.transliteration as string | undefined,
     pronunciation: metadata.pronunciation as string | undefined,
+    aliases: metadata.aliases as string[] | undefined,
   };
 
   // Parse paragraph clusters if present
@@ -1640,9 +1650,166 @@ export function searchGlossary(query: string, language: string = 'original'): Gl
 
   return entries.filter(entry =>
     entry.name.toLowerCase().includes(lowerQuery) ||
+    entry.aliases?.some(alias => alias.toLowerCase().includes(lowerQuery)) ||
     entry.summary?.toLowerCase().includes(lowerQuery) ||
     entry.type?.toLowerCase().includes(lowerQuery)
   );
+}
+
+// ============================================
+// GLOSSARY CATEGORY & USAGE FUNCTIONS
+// ============================================
+
+export interface GlossaryEntryBrief {
+  id: string;
+  name: string;
+  summary?: string;
+  usageCount: number;
+}
+
+export interface GlossaryCategoryGroup {
+  topCategory: string;
+  subCategory: string;
+  categoryPath: string;
+  count: number;
+  entries: GlossaryEntryBrief[];
+}
+
+export interface GlossaryCategoryTree {
+  name: string;
+  totalCount: number;
+  subCategories: GlossaryCategoryGroup[];
+}
+
+/**
+ * Group glossary entries into a hierarchical category tree.
+ * Splits culture/ into "culture" (arts & knowledge) and "themes" (daily life topics).
+ * Includes entry data per subcategory for expandable browsing.
+ */
+export function getGlossaryByCategory(language: string = 'original', usageCounts?: Record<string, number>): GlossaryCategoryTree[] {
+  // THEME_SUBCATEGORIES imported at top of file
+  const entries = getGlossaryEntries(language);
+
+  // Group entries by display category (splitting culture → culture + themes)
+  const categoryMap = new Map<string, Map<string, GlossaryEntryBrief[]>>();
+
+  for (const entry of entries) {
+    const category = entry.category || 'uncategorized';
+    const parts = category.split('/');
+    const fsTopCat = parts[0] || 'uncategorized';
+    const subCat = parts.slice(1).join('/') || '_root';
+
+    // Split culture subcategories into culture vs themes
+    let displayTopCat = fsTopCat;
+    if (fsTopCat === 'culture' && THEME_SUBCATEGORIES.has(subCat)) {
+      displayTopCat = 'themes';
+    }
+
+    if (!categoryMap.has(displayTopCat)) {
+      categoryMap.set(displayTopCat, new Map());
+    }
+    const subMap = categoryMap.get(displayTopCat)!;
+    if (!subMap.has(subCat)) {
+      subMap.set(subCat, []);
+    }
+    subMap.get(subCat)!.push({
+      id: entry.id,
+      name: entry.name,
+      summary: entry.summary,
+      usageCount: usageCounts?.[entry.id] || 0,
+    });
+  }
+
+  const categoryOrder = ['people', 'places', 'culture', 'themes'];
+  const trees: GlossaryCategoryTree[] = [];
+
+  for (const topCat of categoryOrder) {
+    const subMap = categoryMap.get(topCat);
+    if (!subMap) continue;
+
+    const subCategories: GlossaryCategoryGroup[] = [];
+    let totalCount = 0;
+
+    for (const [subCat, subEntries] of subMap) {
+      // Sort entries within subcategory by usage count desc, then name
+      subEntries.sort((a, b) => b.usageCount - a.usageCount || a.name.localeCompare(b.name));
+      totalCount += subEntries.length;
+      subCategories.push({
+        topCategory: topCat,
+        subCategory: subCat,
+        categoryPath: subCat === '_root' ? topCat : `${topCat}/${subCat}`,
+        count: subEntries.length,
+        entries: subEntries,
+      });
+    }
+
+    subCategories.sort((a, b) => b.count - a.count);
+    trees.push({ name: topCat, totalCount, subCategories });
+  }
+
+  // Add remaining categories not in the predefined order
+  for (const [topCat, subMap] of categoryMap) {
+    if (categoryOrder.includes(topCat)) continue;
+    const subCategories: GlossaryCategoryGroup[] = [];
+    let totalCount = 0;
+    for (const [subCat, subEntries] of subMap) {
+      subEntries.sort((a, b) => b.usageCount - a.usageCount || a.name.localeCompare(b.name));
+      totalCount += subEntries.length;
+      subCategories.push({
+        topCategory: topCat,
+        subCategory: subCat,
+        categoryPath: subCat === '_root' ? topCat : `${topCat}/${subCat}`,
+        count: subEntries.length,
+        entries: subEntries,
+      });
+    }
+    subCategories.sort((a, b) => b.count - a.count);
+    trees.push({ name: topCat, totalCount, subCategories });
+  }
+
+  return trees;
+}
+
+// Cached usage counts to avoid re-scanning during multi-page build
+let _usageCountsCache: Record<string, number> | null = null;
+
+/**
+ * Build glossary usage counts by scanning all diary entries for glossary links.
+ * Result is cached in memory for the entire build process.
+ */
+export function buildGlossaryUsageCounts(): Record<string, number> {
+  if (_usageCountsCache) return _usageCountsCache;
+
+  const counts: Record<string, number> = {};
+
+  // Scan all diary entry files for glossary links
+  const originalDir = path.join(CONTENT_ROOT, '_original');
+  const glossaryPattern = /\[#[^\]]*\]\([^)]*\/_glossary\/[^)]*\/([A-Z][A-Z0-9_]*)\.md\)/g;
+
+  const scanDir = (dirPath: string) => {
+    if (!fs.existsSync(dirPath)) return;
+    const items = fs.readdirSync(dirPath);
+    for (const item of items) {
+      if (item.startsWith('_') || item.startsWith('.')) continue;
+      const fullPath = path.join(dirPath, item);
+      const stat = fs.statSync(fullPath);
+      if (stat.isDirectory()) {
+        scanDir(fullPath);
+      } else if (item.endsWith('.md') && /^\d{4}-\d{2}-\d{2}\.md$/.test(item)) {
+        const content = fs.readFileSync(fullPath, 'utf-8');
+        let match;
+        while ((match = glossaryPattern.exec(content)) !== null) {
+          const id = match[1];
+          counts[id] = (counts[id] || 0) + 1;
+        }
+        glossaryPattern.lastIndex = 0;
+      }
+    }
+  };
+
+  scanDir(originalDir);
+  _usageCountsCache = counts;
+  return counts;
 }
 
 // ============================================

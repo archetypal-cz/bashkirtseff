@@ -519,7 +519,7 @@ Output ONLY the merged markdown file content, nothing else. No explanation, no c
     }
 
     const result = execSync(
-      `claude -p ${JSON.stringify(prompt)}`,
+      `claude -p --permission-mode bypassPermissions ${JSON.stringify(prompt)}`,
       {
         encoding: 'utf-8',
         maxBuffer: 1024 * 1024,

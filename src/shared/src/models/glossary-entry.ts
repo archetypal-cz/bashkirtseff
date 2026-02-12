@@ -46,6 +46,9 @@ export interface GlossaryEntryParsed {
 
   /** URL to pronunciation (e.g., Google Translate) */
   pronunciation?: string;
+
+  /** Alternative names/spellings for the entry */
+  aliases?: string[];
 }
 
 /**

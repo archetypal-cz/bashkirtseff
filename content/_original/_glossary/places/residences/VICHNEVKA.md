@@ -25,6 +25,6 @@ The Bashkirtseff family's Ukrainian estates:
 
 ## Related Entries
 - [#Ukraine](../countries/UKRAINE.md) - The region
-- [#Tchernakowka](./TCHERNAKOWKA.md) - Another family property
+- [#Tcherniakovka](./TCHERNIAKOVKA.md) - Another family property
 
 %% 2026-02-10T16:35:00 RSR: Expanded from one-line stub %%

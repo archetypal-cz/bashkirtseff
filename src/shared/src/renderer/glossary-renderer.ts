@@ -74,6 +74,7 @@ export class GlossaryRenderer {
       ...(entry.originalScript && { original_script: entry.originalScript }),
       ...(entry.transliteration && { transliteration: entry.transliteration }),
       ...(entry.pronunciation && { pronunciation: entry.pronunciation }),
+      ...(entry.aliases && entry.aliases.length > 0 && { aliases: entry.aliases }),
     };
 
     // Include any additional metadata
@@ -219,6 +220,7 @@ export class GlossaryRenderer {
       lastUpdated: entry.lastUpdated,
       language: entry.language,
       filePath: entry.filePath,
+      ...(entry.aliases && entry.aliases.length > 0 && { aliases: entry.aliases }),
       paragraphs: entry.paragraphs.map((para) => ({
         id: para.id,
         carnetNum: para.carnetNum,

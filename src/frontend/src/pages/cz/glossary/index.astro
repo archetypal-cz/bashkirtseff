@@ -1,12 +1,41 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
-import { getGlossaryByLetter } from '../../../lib/content';
+import { getGlossaryByLetter, getGlossaryEntries, getGlossaryByCategory, buildGlossaryUsageCounts } from '../../../lib/content';
+import GlossarySearch from '../../../components/glossary/GlossarySearch.vue';
+import GlossaryCategoryBrowser from '../../../components/glossary/GlossaryCategoryBrowser.vue';
 
 const glossaryByLetter = getGlossaryByLetter();
 const letters = Array.from(glossaryByLetter.keys()).sort();
 const totalEntries = Array.from(glossaryByLetter.values()).reduce((sum, arr) => sum + arr.length, 0);
 
-// Get counts per letter
+// Usage counts (computed first, shared with category tree and search)
+const usageCounts = buildGlossaryUsageCounts();
+
+// Category hierarchy (with entries per subcategory for expandable browsing)
+const categoryTree = getGlossaryByCategory('original', usageCounts);
+const categoryData = categoryTree.map(cat => ({
+  name: cat.name,
+  totalCount: cat.totalCount,
+  subCategories: cat.subCategories.map(sub => ({
+    subCategory: sub.subCategory,
+    categoryPath: sub.categoryPath,
+    count: sub.count,
+    entries: sub.entries,
+  })),
+}));
+
+// Search entries with usage counts, category, and aliases
+const allEntries = getGlossaryEntries().map(entry => ({
+  id: entry.id,
+  name: entry.name,
+  type: entry.type,
+  summary: entry.summary,
+  category: entry.category?.split('/')[0],
+  usageCount: usageCounts[entry.id] || 0,
+  ...(entry.aliases && entry.aliases.length > 0 && { aliases: entry.aliases }),
+}));
+
+// Letter counts
 const letterCounts = letters.map(letter => ({
   letter,
   count: glossaryByLetter.get(letter)?.length || 0
@@ -33,19 +62,34 @@ const letterCounts = letters.map(letter => ({
       </p>
     </header>
 
-    <!-- Letter grid with counts -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+    <!-- Search -->
+    <div class="mb-8">
+      <GlossarySearch client:load entries={allEntries} basePath="/cz/glossary" />
+    </div>
+
+    <!-- Category hierarchy -->
+    <div class="mb-10">
+      <GlossaryCategoryBrowser client:load
+        categories={categoryData}
+        glossaryBasePath="/cz/glossary" />
+    </div>
+
+    <!-- Letter grid (compact secondary nav) -->
+    <div class="mb-4">
+      <h2 class="text-lg font-normal text-ink mb-4" style="font-family: var(--font-serif);">
+        A–Z
+      </h2>
+    </div>
+    <div class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-2">
       {letterCounts.map(({ letter, count }) => (
         <a
           href={`/cz/glossary/${letter.toLowerCase()}`}
-          class="group block p-4 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow transition-all text-center"
+          class="group block p-2 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow transition-all text-center"
         >
-          <span class="text-3xl font-normal text-ink group-hover:text-accent transition-colors" style="font-family: var(--font-serif);">
+          <span class="text-xl font-normal text-ink group-hover:text-accent transition-colors" style="font-family: var(--font-serif);">
             {letter}
           </span>
-          <span class="block text-sm text-muted mt-1">
-            {count} {count === 1 ? 'položka' : count < 5 ? 'položky' : 'položek'}
-          </span>
+          <span class="block text-xs text-muted">{count}</span>
         </a>
       ))}
     </div>

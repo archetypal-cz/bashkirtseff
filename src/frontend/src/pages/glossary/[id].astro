@@ -1,7 +1,7 @@
 ---
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../components/reading/ParagraphMenu.vue';
-import { getGlossaryEntries, getGlossaryEntry } from '../../lib/content';
+import { getGlossaryEntries, getGlossaryEntry, buildGlossaryUsageCounts } from '../../lib/content';
 
 export function getStaticPaths() {
   const entries = getGlossaryEntries();
@@ -16,6 +16,13 @@ const entry = getGlossaryEntry(id!);
 if (!entry) {
   return Astro.redirect('/glossary');
 }
+
+// Usage count and filter category for "Show in diary" button
+const usageCounts = buildGlossaryUsageCounts();
+const usageCount = usageCounts[entry.id] || 0;
+const topCategory = (entry.category || '').split('/')[0];
+const filterCategoryMap: Record<string, string> = { people: 'people', places: 'places', culture: 'culture' };
+const filterCategory = filterCategoryMap[topCategory] || 'people';
 
 // Simple markdown to HTML conversion for old format content
 function simpleMarkdownToHtml(markdown: string): string {
@@ -95,6 +102,13 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
         </p>
       )}
 
+      {/* Aliases / alternate names */}
+      {entry.aliases && entry.aliases.length > 0 && (
+        <p class="text-sm text-muted mb-4 italic">
+          Also known as: {entry.aliases.join(', ')}
+        </p>
+      )}
+
       <div class="flex flex-wrap items-center gap-3 text-sm">
         {entry.type && (
           <span class="px-3 py-1 bg-accent text-white rounded">
@@ -133,6 +147,21 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
           </span>
         )}
       </div>
+
+      {usageCount > 0 && (
+        <a
+          href="/cz"
+          class="glossary-filter-btn"
+          data-filter-category={filterCategory}
+          data-filter-id={entry.id}
+        >
+          <svg class="glossary-filter-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+          </svg>
+          Voir dans le journal
+          <span class="glossary-filter-count">{usageCount} mentions</span>
+        </a>
+      )}
     </header>
 
     {/* Render with paragraph clusters if available */}
@@ -193,10 +222,67 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
         }, 2000);
       }
     }
+
+    // Filter button: set filter-tags in localStorage and navigate
+    document.querySelectorAll('.glossary-filter-btn').forEach(el => {
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        const category = el.getAttribute('data-filter-category');
+        const id = el.getAttribute('data-filter-id');
+        if (category && id) {
+          localStorage.setItem('filter-tags', JSON.stringify({ [category]: [id] }));
+          window.dispatchEvent(new CustomEvent('filter-sync'));
+        }
+        window.location.href = el.getAttribute('href');
+      });
+    });
   });
 </script>
 
 <style is:global>
+  .glossary-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-accent, #B45309);
+    background: transparent;
+    border: 1px solid var(--color-accent, #B45309);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .glossary-filter-btn:hover {
+    background: var(--color-accent, #B45309);
+    color: white;
+  }
+
+  .glossary-filter-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .glossary-filter-count {
+    font-size: 0.75rem;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+
+  [data-theme="dark"] .glossary-filter-btn {
+    color: var(--color-accent-light, #D97706);
+    border-color: var(--color-accent-light, #D97706);
+  }
+
+  [data-theme="dark"] .glossary-filter-btn:hover {
+    background: var(--color-accent-light, #D97706);
+    color: #1a1a1a;
+  }
+
   .prose-diary h2 {
     font-family: var(--font-serif);
   }

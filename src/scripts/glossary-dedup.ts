@@ -250,7 +250,7 @@ function isStub(size: number): boolean {
 function callClaude(prompt: string, timeout = 120_000): string | null {
   try {
     const result = execSync(
-      `claude -p ${JSON.stringify(prompt)}`,
+      `claude -p --permission-mode bypassPermissions ${JSON.stringify(prompt)}`,
       {
         encoding: 'utf-8',
         maxBuffer: 2 * 1024 * 1024,
