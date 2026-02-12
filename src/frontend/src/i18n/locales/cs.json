@@ -139,8 +139,8 @@
     "censorshipHistory": "Po Mariině předčasné smrti na tuberkulózu vydala její matka deník silně cenzurovaný, aby ochránila sebe a svou rodinu. Po sto let platil deník za jeden z Těch Deníků, které lidem nalajnují životy — předává v něm dívčí nitro a hodnoty jako je důležitost vzdělání, řeší ženská práva, náboženství...",
     "fullEdition": "Teprve v letech 1995–2005 vyšla kompletní verze v 16 svazcích díky <a href=\"http://cerclembashkirtseff.monsite-orange.fr\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">Cercle des Amis de Marie Bashkirtseff</a>. Vydali ji v nízkém nákladu — dnes je téměř nemožné ji sehnat.",
     "thisProject": "Tento projekt",
-    "projectOrigin": "Projekt vznikl v rámci <a href=\"https://archetypal.cz\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">archetypal.cz</a>, kde se věnuji smysluplným textům. Nejprve jsem objevil zkrácenou verzi deníku, pak jsem zjistil, že existuje plné znění, a pak že ho není snadné získat.",
-    "yearsOfWork": "Několik let práce ve volném čase. Stálo to mnoho hodin získat celý deník v elektronické podobě. Teď ho chci zpřístupnit světu.",
+    "projectOrigin": "Projekt vznikl v rámci <a href=\"https://archetypal.cz\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">archetypal.cz</a>, kde se věnujeme překladům smysluplných textů, které by s komerčním přístupem přinést nešly. Nejprve jsem objevil zkrácenou verzi deníku, pak jsem zjistil, že existuje plné znění, a pak že ho není snadné získat.",
+    "yearsOfWork": "Několik let práce ve volném čase. Stálo mnoho set hodin získat celý deník v elektronické podobě a doladit ho, ale v této podobě konečně může být Mariin duch zpřístupněn světu.",
     "currentStatus": "Aktuální stav",
     "currentStatusText": "V současnosti se nacházíme ve fázi výzkumu a anotací — pečlivě dokumentujeme historický kontext, identifikujeme osoby a místa a připravujeme zdrojový materiál pro kvalitní překlad.",
     "translationReady": "Infrastruktura pro AI-asistovaný překlad je již funkční. Probíhají první překlady do češtiny a systém může podporovat další jazyky.",
@@ -175,7 +175,7 @@
   "quotes": {
     "existence": "Budu slavná, nebo zemřu.",
     "existenceOriginal": "Je serai célèbre ou je mourrai.",
-    "interestingBook": "Jsem ta nejzajímavější kniha ze všech.",
+    "interestingBook": "Jsem tou nejzajímavější knihou ze všech.",
     "interestingBookOriginal": "Je suis le livre le plus intéressant de tous.",
     "live": "Chci žít, a žít skvěle.",
     "liveOriginal": "Je veux vivre, et vivre avec éclat.",
@@ -203,9 +203,36 @@
     "offlinePageHint": "Stáhněte si obsah předem na stránkách jednotlivých roků a sešitů.",
     "offlinePageBack": "Zpět na hlavní stránku"
   },
+  "filter": {
+    "title": "Filtr",
+    "search": "Hledat...",
+    "loading": "Načítání...",
+    "clearAll": "Vymazat vše",
+    "clearCategory": "Vymazat",
+    "showMore": "Zobrazit více ({count})",
+    "showLess": "Zobrazit méně",
+    "entries": "záznamů",
+    "of": "z",
+    "editions": "Edice",
+    "people": "Osoby",
+    "places": "Místa",
+    "location": "Poloha",
+    "culture": "Kultura"
+  },
   "glossary": {
+    "title": "Glosář",
+    "description": "Osoby, místa, díla a pojmy z deníku Marie Bashkirtseff.",
     "search": "Hledat v glosáři...",
     "noResults": "Žádné položky nenalezeny",
-    "results": "{count} nalezených položek"
+    "results": "{count} nalezených položek",
+    "entries": "položek",
+    "entry1": "položka",
+    "entries2to4": "položky",
+    "backToGlossary": "Zpět na glosář",
+    "noEntriesForLetter": "Pro toto písmeno nejsou žádné položky.",
+    "empty": "Glosář je prázdný.",
+    "updated": "Aktualizováno",
+    "pronunciation": "Výslovnost",
+    "pronunciationTitle": "Poslechněte si výslovnost"
   }
 }

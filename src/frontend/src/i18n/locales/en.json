@@ -203,9 +203,36 @@
     "offlinePageHint": "Download content in advance from year and notebook pages.",
     "offlinePageBack": "Back to home"
   },
+  "filter": {
+    "title": "Filter",
+    "search": "Search...",
+    "loading": "Loading...",
+    "clearAll": "Clear all",
+    "clearCategory": "Clear",
+    "showMore": "Show more ({count})",
+    "showLess": "Show less",
+    "entries": "entries",
+    "of": "of",
+    "editions": "Editions",
+    "people": "People",
+    "places": "Places",
+    "location": "Location",
+    "culture": "Culture"
+  },
   "glossary": {
+    "title": "Glossary",
+    "description": "People, places, works and terms from the diary of Marie Bashkirtseff.",
     "search": "Search glossary...",
     "noResults": "No entries found",
-    "results": "{count} entries found"
+    "results": "{count} entries found",
+    "entries": "entries",
+    "entry1": "entry",
+    "entries2to4": "entries",
+    "backToGlossary": "Back to glossary",
+    "noEntriesForLetter": "No entries for this letter.",
+    "empty": "The glossary is empty.",
+    "updated": "Updated",
+    "pronunciation": "Pronunciation",
+    "pronunciationTitle": "Hear pronunciation"
   }
 }

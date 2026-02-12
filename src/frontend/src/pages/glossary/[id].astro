@@ -70,12 +70,12 @@ const processedParagraphs = hasParagraphs
 const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
 ---
 
-<ReadingLayout title={`${entry.name} — Glossaire`}>
+<ReadingLayout title={`${entry.name} — Glosář`}>
   <article class="max-w-3xl mx-auto">
     <nav class="mb-6 text-sm text-muted">
       <a href="/original" class="hover:text-accent">Journal</a>
       <span class="mx-2">›</span>
-      <a href="/glossary" class="hover:text-accent">Glossaire</a>
+      <a href="/glossary" class="hover:text-accent">Glosář</a>
       <span class="mx-2">›</span>
       <span class="text-ink">{entry.name}</span>
     </nav>
@@ -122,14 +122,14 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
             target="_blank"
             rel="noopener"
             class="px-3 py-1 bg-accent/10 text-accent rounded hover:bg-accent/20 transition-colors"
-            title="Hear pronunciation"
+            title="Poslechněte si výslovnost"
           >
-            Pronunciation
+            Výslovnost
           </a>
         )}
         {entry.lastUpdated && (
           <span class="text-muted">
-            Mise à jour : {entry.lastUpdated}
+            Aktualizováno: {entry.lastUpdated}
           </span>
         )}
       </div>
@@ -174,7 +174,7 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
 
     <nav class="mt-12 pt-8 border-t border-ink/10">
       <a href="/glossary" class="text-accent hover:text-accent-light transition-colors">
-        ← Retour au glossaire
+        ← Zpět na glosář
       </a>
     </nav>
   </article>

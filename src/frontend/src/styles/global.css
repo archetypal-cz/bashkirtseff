@@ -169,6 +169,13 @@
     color: var(--text-primary);
   }
 
+  /* First paragraph serves as entry header (date line) */
+  .prose-diary > .paragraph-container:first-child p {
+    font-size: calc(var(--base-font-size) * var(--reading-font-scale) * 1.2);
+    margin-left: -1rem;
+    color: var(--text-primary);
+  }
+
   .prose-diary h1 {
     @apply font-normal mb-6;
     /* 50% scale effect: base * (1 + (scale - 1) * 0.5) */

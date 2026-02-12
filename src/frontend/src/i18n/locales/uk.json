@@ -193,9 +193,36 @@
     "offlinePageHint": "Завантажте контент заздалегідь на сторінках років та зошитів.",
     "offlinePageBack": "На головну"
   },
+  "filter": {
+    "title": "Фільтр",
+    "search": "Шукати...",
+    "loading": "Завантаження...",
+    "clearAll": "Очистити все",
+    "clearCategory": "Очистити",
+    "showMore": "Показати більше ({count})",
+    "showLess": "Показати менше",
+    "entries": "записів",
+    "of": "з",
+    "editions": "Видання",
+    "people": "Особи",
+    "places": "Місця",
+    "location": "Розташування",
+    "culture": "Культура"
+  },
   "glossary": {
+    "title": "Глосарій",
+    "description": "Особи, місця, твори та терміни з щоденника Марії Башкирцевої.",
     "search": "Шукати в глосарії...",
     "noResults": "Записів не знайдено",
-    "results": "{count} знайдених записів"
+    "results": "{count} знайдених записів",
+    "entries": "записів",
+    "entry1": "запис",
+    "entries2to4": "записи",
+    "backToGlossary": "Назад до глосарію",
+    "noEntriesForLetter": "Для цієї літери немає записів.",
+    "empty": "Глосарій порожній.",
+    "updated": "Оновлено",
+    "pronunciation": "Вимова",
+    "pronunciationTitle": "Послухати вимову"
   }
 }

@@ -20,13 +20,13 @@ const glossaryByLetter = getGlossaryByLetter();
 const allLetters = Array.from(glossaryByLetter.keys()).sort();
 ---
 
-<ReadingLayout title={`${letter} — Glossaire`}>
+<ReadingLayout title={`${letter} — Glosář`}>
   <div class="max-w-4xl mx-auto">
     <header class="mb-8">
       <nav class="mb-6 text-sm text-muted">
         <a href="/original" class="hover:text-accent">Journal</a>
         <span class="mx-2">›</span>
-        <a href="/glossary" class="hover:text-accent">Glossaire</a>
+        <a href="/glossary" class="hover:text-accent">Glosář</a>
         <span class="mx-2">›</span>
         <span class="text-ink">{letter}</span>
       </nav>
@@ -35,7 +35,7 @@ const allLetters = Array.from(glossaryByLetter.keys()).sort();
         {letter}
       </h1>
       <p class="text-sm text-muted">
-        {entries.length} entrées
+        {entries.length} {entries.length === 1 ? 'položka' : entries.length < 5 ? 'položky' : 'položek'}
       </p>
     </header>
 
@@ -89,7 +89,7 @@ const allLetters = Array.from(glossaryByLetter.keys()).sort();
 
     {entries.length === 0 && (
       <div class="text-center py-12 text-muted">
-        <p>Aucune entrée pour cette lettre.</p>
+        <p>Pro toto písmeno nejsou žádné položky.</p>
       </div>
     )}
   </div>

@@ -203,9 +203,36 @@
     "offlinePageHint": "Téléchargez le contenu à l'avance depuis les pages d'années et de cahiers.",
     "offlinePageBack": "Retour à l'accueil"
   },
+  "filter": {
+    "title": "Filtre",
+    "search": "Rechercher...",
+    "loading": "Chargement...",
+    "clearAll": "Tout effacer",
+    "clearCategory": "Effacer",
+    "showMore": "Afficher plus ({count})",
+    "showLess": "Afficher moins",
+    "entries": "entrées",
+    "of": "sur",
+    "editions": "Éditions",
+    "people": "Personnes",
+    "places": "Lieux",
+    "location": "Localisation",
+    "culture": "Culture"
+  },
   "glossary": {
+    "title": "Glossaire",
+    "description": "Personnes, lieux, œuvres et termes du journal de Marie Bashkirtseff.",
     "search": "Rechercher dans le glossaire...",
     "noResults": "Aucune entrée trouvée",
-    "results": "{count} entrées trouvées"
+    "results": "{count} entrées trouvées",
+    "entries": "entrées",
+    "entry1": "entrée",
+    "entries2to4": "entrées",
+    "backToGlossary": "Retour au glossaire",
+    "noEntriesForLetter": "Aucune entrée pour cette lettre.",
+    "empty": "Le glossaire est vide.",
+    "updated": "Mis à jour",
+    "pronunciation": "Prononciation",
+    "pronunciationTitle": "Écouter la prononciation"
   }
 }

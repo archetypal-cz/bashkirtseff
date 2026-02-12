@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue';
 import { useFilterStore } from '../../stores/filter';
+import { useI18n } from '../../i18n';
 import type { FilterCategory, FilterTag } from '../../types/filter-index';
 
 const emit = defineEmits<{ close: [] }>();
 const filterStore = useFilterStore();
+const { t } = useI18n();
 
 const searchQuery = ref('');
 const expandedCategories = ref<Set<string>>(new Set());
@@ -154,8 +156,8 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
   <div ref="panelRef" class="filter-panel">
     <!-- Header -->
     <div class="panel-header">
-      <h2 class="panel-title">Filtr</h2>
-      <button class="close-btn" @click="emit('close')" aria-label="Zavřít">
+      <h2 class="panel-title">{{ t('filter.title') }}</h2>
+      <button class="close-btn" @click="emit('close')" :aria-label="t('common.close')">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
         </svg>
@@ -167,7 +169,7 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
       <input
         v-model="searchQuery"
         type="text"
-        placeholder="Hledat..."
+        :placeholder="t('filter.search')"
         class="search-input"
       />
     </div>
@@ -175,16 +177,16 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
     <!-- Active summary -->
     <div v-if="filterStore.isActive" class="active-summary">
       <span class="active-text">
-        {{ matchingCount.toLocaleString('cs-CZ') }} z {{ filterStore.index?.totalEntries.toLocaleString('cs-CZ') }} záznamů
+        {{ matchingCount.toLocaleString() }} {{ t('filter.of') }} {{ filterStore.index?.totalEntries.toLocaleString() }} {{ t('filter.entries') }}
       </span>
       <button class="clear-all-btn" @click="filterStore.clearAll()">
-        Vymazat vše
+        {{ t('filter.clearAll') }}
       </button>
     </div>
 
     <!-- Loading -->
     <div v-if="filterStore.loading" class="panel-loading">
-      Načítání...
+      {{ t('filter.loading') }}
     </div>
 
     <!-- Categories -->
@@ -209,7 +211,7 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
               <polyline points="9 18 15 12 9 6" />
             </svg>
             {{ category.label.startsWith('filter.')
-              ? category.label.replace('filter.', '').charAt(0).toUpperCase() + category.label.replace('filter.', '').slice(1)
+              ? t(category.label)
               : category.label }}
           </span>
           <span class="category-actions">
@@ -220,7 +222,7 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
               v-if="categoryHasActive(category.key)"
               class="clear-category-btn"
               @click.stop="filterStore.clearCategory(category.key)"
-              title="Vymazat"
+              :title="t('filter.clearCategory')"
             >
               &times;
             </button>
@@ -252,8 +254,8 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
               @click="toggleShowAll(category.key)"
             >
               {{ showAllTags.has(category.key)
-                ? 'Zobrazit méně'
-                : `Zobrazit více (${category.tags.length - MAX_VISIBLE_TAGS})` }}
+                ? t('filter.showLess')
+                : t('filter.showMore').replace('{count}', String(category.tags.length - MAX_VISIBLE_TAGS)) }}
             </button>
           </template>
 
@@ -305,8 +307,8 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
                   @click="toggleShowAll(`${category.key}:${sub.name}`)"
                 >
                   {{ showAllTags.has(`${category.key}:${sub.name}`)
-                    ? 'Zobrazit méně'
-                    : `Zobrazit více (${sub.tags.length - MAX_VISIBLE_TAGS})` }}
+                    ? t('filter.showLess')
+                    : t('filter.showMore').replace('{count}', String(sub.tags.length - MAX_VISIBLE_TAGS)) }}
                 </button>
               </div>
             </div>

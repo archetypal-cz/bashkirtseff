@@ -135,7 +135,7 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
             </span>
           )}
           <a href={`/cz/${carnet}`} class="text-muted hover:text-ink transition-colors" title="Přehled sešitu">
-            {carnet}
+            Sešit {carnet}
           </a>
           {nav.next ? (
             <a
@@ -159,12 +159,6 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
       </div>
 
       <hr class="entry-divider" />
-
-      <h1 class="text-lg md:text-xl font-normal text-ink mt-3" style="font-family: var(--font-serif);">
-        <time datetime={entryDate}>
-          {formatDate(entry.date, entry.id)}
-        </time>
-      </h1>
     </header>
 
     <!-- Entry Content -->
