@@ -386,6 +386,8 @@ function processTextToHtml(text: string): { html: string; footnoteRefs: string[]
   }
 
   let html = text
+    // Convert # heading to HTML heading (entry date headers)
+    .replace(/^#\s+(.+)$/gm, '<h2 class="entry-date-heading">$1</h2>')
     // Convert ==text== to highlighted span (foreign language)
     .replace(/==([^=]+)==/g, '<span class="foreign-text">$1</span>')
     // Convert [^id] to footnote link (supports both "1" and "00.03.1" formats)

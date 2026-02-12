@@ -35,7 +35,8 @@
     "close": "Close",
     "closeMenu": "Close menu",
     "login": "Log in",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "navigation": "Navigation"
   },
   "nav": {
     "diary": "Diary",

@@ -1,8 +1,9 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
+import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
 import FlipParagraph from '../../../components/reading/FlipParagraph.vue';
-import { getCarnet000Merged, hasCarnet000Content, hasCarnet000Translation } from '../../../lib/content';
+import { getCarnet000Merged, hasCarnet000Content, getCarnetEntries } from '../../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 
@@ -32,22 +33,86 @@ const processedParagraphs = entry.paragraphs.map(p => ({
   htmlId: `p-${p.id.replace('.', '-')}`,
 }));
 
-// Cross-link to other language version
-const hasOriginal = !lang.isTranslation || hasCarnet000Content('_original');
-const hasTranslation = lang.isTranslation || hasCarnet000Translation('cz');
+// Language value for LanguageSwitcher and sidebar data
+const languageValue = lang.isTranslation ? lang.urlPath : '_original';
+
+// Available languages for this carnet
+const availableLanguages: string[] = ['original'];
+for (const checkLang of ['cz', 'en', 'uk', 'fr']) {
+  if (hasCarnet000Content(checkLang)) {
+    availableLanguages.push(checkLang);
+  }
+}
+
+// Sidebar data: list all sections in carnet 000
+const carnetEntries = getCarnetEntries('000', lang.contentPath).map(date => ({ date }));
+
+// Page description from first paragraph
+const firstParagraphText = entry.paragraphs[0]?.html
+  ?.replace(/<[^>]*>/g, '')
+  ?.slice(0, 160)
+  ?.trim() + '...' || '';
+const pageDescription = `${t('diary.preface')} — Marie Bashkirtseff. ${firstParagraphText}`;
 
 const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 ---
 
-<ReadingLayout title={`${t('diary.preface')} — Marie Bashkirtseff`}>
+<ReadingLayout
+  title={`${t('diary.preface')} — Marie Bashkirtseff`}
+  description={pageDescription}
+  type="article"
+  article={{
+    publishedTime: '1884-05-01',
+    author: 'Marie Bashkirtseff',
+  }}
+>
+  <!-- Sidebar data for unified menu -->
+  <script is:inline define:vars={{ __sidebarJSON: JSON.stringify({
+    carnet: '000',
+    entries: carnetEntries,
+    currentEntry: carnetEntries[0]?.date || '',
+    language: languageValue,
+  }) }}>
+    window.__sidebarData = JSON.parse(__sidebarJSON);
+  </script>
+
   <article class="max-w-3xl mx-auto">
+    <!-- Breadcrumb -->
     <nav class="mb-6 text-sm text-muted">
       <a href={basePath} class="hover:text-accent">{diaryLabel}</a>
       <span class="mx-2">&rsaquo;</span>
       <span class="text-ink">{t('diary.notebook')} 000</span>
     </nav>
 
-    <header class="mb-8 pb-6 border-b border-ink/10">
+    <!-- Entry Header: language + navigation bar -->
+    <header class="mb-6">
+      <div class="flex items-center justify-between mb-3">
+        {/* Language Switcher with scroll preservation */}
+        <LanguageSwitcher
+          client:load
+          currentLanguage={languageValue}
+          carnet="000"
+          availableLanguages={availableLanguages}
+        />
+
+        {/* Navigation to next carnet */}
+        <nav class="flex items-center gap-3 text-sm">
+          <span class="text-muted/30 flex items-center gap-1">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </span>
+          <a href={`${basePath}/001`} class="text-muted hover:text-accent transition-colors" title={`${t('diary.notebook')} 001`}>
+            {t('diary.notebook')} 001 &rarr;
+          </a>
+        </nav>
+      </div>
+
+      <hr class="entry-divider" />
+    </header>
+
+    <!-- Preface Header -->
+    <div class="mb-8">
       <h1 class="text-3xl md:text-4xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
         {entry.title}
       </h1>
@@ -56,30 +121,14 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         {t('diary.prefaceNote')}
       </p>
 
-      <div class="flex items-center gap-4 text-sm text-muted">
+      <div class="flex items-center gap-4 text-sm text-muted flex-wrap">
         <span>Mai 1884</span>
         <span class="text-ink/30">|</span>
-        <span>{entry.paragraphs.length} paragraphs</span>
-
-        {lang.isTranslation && hasOriginal && (
-          <>
-            <span class="text-ink/30">|</span>
-            <a href="/original/000" class="text-accent hover:text-accent-light">
-              {t('diary.frenchOriginal')} &rarr;
-            </a>
-          </>
-        )}
-        {!lang.isTranslation && hasTranslation && (
-          <>
-            <span class="text-ink/30">|</span>
-            <a href="/cz/000" class="text-accent hover:text-accent-light">
-              Český překlad &rarr;
-            </a>
-          </>
-        )}
+        <span>{entry.paragraphs.length} {t('diary.sections')}</span>
       </div>
-    </header>
+    </div>
 
+    <!-- Entry Content -->
     <div class="prose-diary space-y-6">
       {processedParagraphs.map(paragraph => (
         <div
@@ -143,6 +192,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
       </section>
     )}
 
+    {/* Navigation */}
     <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center">
       <a href={basePath} class="text-muted hover:text-ink transition-colors">
         &larr; {diaryLabel}
@@ -159,6 +209,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 </ReadingLayout>
 
 <script>
+  // Handle deep linking - highlight paragraph on page load
   document.addEventListener('DOMContentLoaded', () => {
     const hash = window.location.hash;
     if (hash) {

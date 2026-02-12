@@ -256,6 +256,10 @@ function togglePanel() {
   isOpen.value = !isOpen.value;
   if (isOpen.value) {
     filterStore.loadIndex();
+    // Auto-expand nav section on narrow screens (where desktop nav is hidden)
+    if (window.innerWidth < 768) {
+      expandedSections.value.add('nav');
+    }
     // Auto-expand filter section if filter is active
     if (filterStore.isActive) {
       expandedSections.value.add('filter');
@@ -336,16 +340,17 @@ onUnmounted(() => {
         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M4 6h16M4 12h16M4 18h16" />
       </svg>
-      <!-- Divider -->
-      <span class="toggle-divider" />
-      <!-- Filter funnel icon -->
-      <span class="toggle-filter" :class="{ active: filterStore.isActive }">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
-        </svg>
-        <span v-if="filterStore.isActive" class="filter-dot">{{ filterStore.activeTagCount }}</span>
-      </span>
+      <!-- Divider + filter funnel (only when filter active) -->
+      <template v-if="filterStore.isActive">
+        <span class="toggle-divider" />
+        <span class="toggle-filter active">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" />
+          </svg>
+          <span class="filter-dot">{{ filterStore.activeTagCount }}</span>
+        </span>
+      </template>
     </button>
 
     <!-- Panel (teleported to body) -->
@@ -366,6 +371,53 @@ onUnmounted(() => {
 
             <!-- Scrollable content -->
             <div class="um-body">
+
+              <!-- ═══ NAVIGATION SECTION (narrow screens only) ═══ -->
+              <div class="um-section um-nav-section">
+                <button class="um-section-header" @click="toggleSection('nav')">
+                  <span class="um-section-label">
+                    <svg class="um-chevron" :class="{ expanded: expandedSections.has('nav') }"
+                      width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="9 18 15 12 9 6" />
+                    </svg>
+                    {{ t('common.navigation') }}
+                  </span>
+                </button>
+                <div v-if="expandedSections.has('nav')" class="um-section-body um-nav-body">
+                  <nav class="um-nav-links">
+                    <a href="/cz" class="um-nav-link" @click="closePanel">
+                      <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                      </svg>
+                      {{ t('nav.diary') }}
+                    </a>
+                    <a href="/original" class="um-nav-link" @click="closePanel">
+                      <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+                      </svg>
+                      {{ t('nav.original') }}
+                    </a>
+                    <a href="/glossary" class="um-nav-link" @click="closePanel">
+                      <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      {{ t('nav.glossary') }}
+                    </a>
+                    <a href="/marie" class="um-nav-link" @click="closePanel">
+                      <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                      </svg>
+                      {{ t('nav.marie') }}
+                    </a>
+                    <a href="/about" class="um-nav-link" @click="closePanel">
+                      <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      {{ t('nav.about') }}
+                    </a>
+                  </nav>
+                </div>
+              </div>
 
               <!-- ═══ SETTINGS SECTION ═══ -->
               <div class="um-section">
@@ -712,24 +764,31 @@ onUnmounted(() => {
   gap: 0;
   height: 36px;
   border-radius: 18px;
-  border: 1px solid var(--border-color, rgba(44, 24, 16, 0.12));
-  background: var(--bg-secondary, #F5E6D3);
-  color: var(--text-muted, #78716C);
+  border: 1px solid rgba(44, 24, 16, 0.15);
+  background: linear-gradient(180deg, var(--bg-primary, #FFF8F0) 0%, var(--bg-secondary, #F5E6D3) 100%);
+  color: var(--text-secondary, #4A3728);
   cursor: pointer;
   transition: all 0.2s;
   padding: 0 10px;
+  box-shadow: 0 1px 3px rgba(44, 24, 16, 0.08), 0 1px 2px rgba(44, 24, 16, 0.04);
 }
 
 .unified-menu-toggle:hover {
   color: var(--text-primary, #2C1810);
   border-color: var(--color-accent, #B45309);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(44, 24, 16, 0.12);
+}
+
+.unified-menu-toggle.has-filter {
+  border-color: color-mix(in srgb, var(--color-accent, #B45309) 40%, transparent);
+  box-shadow: 0 1px 4px rgba(180, 83, 9, 0.12), 0 1px 2px rgba(44, 24, 16, 0.04);
 }
 
 .unified-menu-toggle.is-open {
-  background: var(--color-accent, #B45309);
+  background: linear-gradient(180deg, var(--color-accent-light, #D97706) 0%, var(--color-accent, #B45309) 100%);
   color: white;
   border-color: var(--color-accent, #B45309);
+  box-shadow: 0 2px 8px rgba(180, 83, 9, 0.25);
 }
 
 .unified-menu-toggle.is-open .toggle-divider {
@@ -741,14 +800,24 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .unified-menu-toggle {
-  background: #252525;
-  border-color: rgba(255, 255, 255, 0.1);
-  color: #a3a3a3;
+  background: linear-gradient(180deg, #2a2a2a 0%, #1e1e1e 100%);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #b0b0b0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 [data-theme="dark"] .unified-menu-toggle:hover {
   color: #e5e5e5;
   border-color: var(--color-accent, #D97706);
+}
+
+[data-theme="dark"] .unified-menu-toggle.is-open {
+  background: linear-gradient(180deg, #D97706 0%, #B45309 100%);
+}
+
+[data-theme="sepia"] .unified-menu-toggle {
+  background: linear-gradient(180deg, #F5E6D3 0%, #EBD9C4 100%);
+  border-color: rgba(44, 24, 16, 0.18);
 }
 
 .toggle-icon {
@@ -1542,6 +1611,59 @@ onUnmounted(() => {
 
 .show-more-btn:hover {
   background: var(--bg-secondary, #F5E6D3);
+}
+
+/* ═══ Navigation section (narrow screens only) ═══ */
+.um-nav-section {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .um-nav-section {
+    display: none;
+  }
+}
+
+.um-nav-body {
+  padding: 4px 8px 8px !important;
+}
+
+.um-nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.um-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--text-primary, #2C1810);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  transition: background-color 0.15s;
+}
+
+.um-nav-link:hover {
+  background: var(--bg-secondary, #F5E6D3);
+}
+
+[data-theme="dark"] .um-nav-link {
+  color: #e5e5e5;
+}
+
+[data-theme="dark"] .um-nav-link:hover {
+  background: #252525;
+}
+
+.um-nav-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: var(--text-muted, #78716C);
 }
 </style>
 

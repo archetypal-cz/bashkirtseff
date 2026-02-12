@@ -35,7 +35,8 @@
     "close": "Zavřít",
     "closeMenu": "Zavřít menu",
     "login": "Přihlásit se",
-    "loading": "Načítání..."
+    "loading": "Načítání...",
+    "navigation": "Navigace"
   },
   "nav": {
     "diary": "Deník",

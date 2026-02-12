@@ -19,7 +19,7 @@ const { t } = useI18n();
 interface Props {
   currentLanguage: string;
   carnet: string;
-  entryDate: string;
+  entryDate?: string;
   availableLanguages: string[];
 }
 
@@ -50,9 +50,10 @@ function updateCurrentParagraph() {
 }
 
 function getLanguageUrl(lang: string): string {
-  const basePath = lang === '_original'
-    ? `/original/${props.carnet}/${props.entryDate}`
-    : `/${lang}/${props.carnet}/${props.entryDate}`;
+  const langPrefix = lang === '_original' ? '/original' : `/${lang}`;
+  const basePath = props.entryDate
+    ? `${langPrefix}/${props.carnet}/${props.entryDate}`
+    : `${langPrefix}/${props.carnet}`;
 
   // Add paragraph hash if we have one
   if (currentParagraphId.value) {

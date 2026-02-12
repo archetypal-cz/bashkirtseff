@@ -1,6 +1,5 @@
 ---
 // Header component with navigation and locale switcher
-import MobileMenu from './MobileMenu.vue';
 import LocaleSwitcher from './LocaleSwitcher.vue';
 import UnifiedMenu from './UnifiedMenu.vue';
 import OfflineStatus from '../pwa/OfflineStatus.vue';
@@ -43,19 +42,13 @@ import { t } from '../../i18n/astro';
         <!-- Offline status indicator -->
         <OfflineStatus client:idle />
 
-        <!-- Unified Menu (settings + contents + filter) -->
-        <UnifiedMenu client:load />
-
         <!-- UI Locale Switcher (CS/FR/EN) -->
         <LocaleSwitcher client:load />
 
-        <!-- Login Button (desktop only) -->
-        <button class="hidden md:inline-flex btn btn-secondary text-sm">
-          {t('common.login')}
-        </button>
+        <!-- Unified Menu (settings + contents + filter + nav on mobile) -->
+        <UnifiedMenu client:load />
 
-        <!-- Mobile menu (Vue island) -->
-        <MobileMenu client:load />
+
       </div>
     </div>
   </div>

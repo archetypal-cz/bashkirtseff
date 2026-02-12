@@ -190,7 +190,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
             </>
           ) : (
             <>
-              <p class="text-lg leading-relaxed text-ink" lang={lang.contentLangAttr} set:html={paragraph.html} />
+              <div class="text-lg leading-relaxed text-ink" lang={lang.contentLangAttr} set:html={paragraph.html} />
 
               {/* Paragraph menu - positioned at top right */}
               <div class="absolute -top-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">

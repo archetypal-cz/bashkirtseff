@@ -35,7 +35,8 @@
     "close": "Fermer",
     "closeMenu": "Fermer le menu",
     "login": "Se connecter",
-    "loading": "Chargement..."
+    "loading": "Chargement...",
+    "navigation": "Navigation"
   },
   "nav": {
     "diary": "Journal",

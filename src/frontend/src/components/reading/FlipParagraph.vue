@@ -53,7 +53,7 @@ const translationLanguage = computed(() => {
   >
     <!-- Front face: Translation (shows original language icon - click to see original) -->
     <div class="card-face card-front">
-      <p class="paragraph-text" v-html="htmlContent" />
+      <div class="paragraph-text" v-html="htmlContent" />
       <button
         v-if="originalText"
         @click="flip"

@@ -13,7 +13,7 @@ echo "Installing Bashkirtseff Markdown Highlighting Extension..."
 # Install for regular VSCode
 echo "Installing for VSCode..."
 mkdir -p "$VSCODE_EXT_DIR"
-if [ -e "$VSCODE_EXT_DIR/$EXTENSION_NAME" ]; then
+if [ -e "$VSCODE_EXT_DIR/$EXTENSION_NAME" ] || [ -L "$VSCODE_EXT_DIR/$EXTENSION_NAME" ]; then
     rm -rf "$VSCODE_EXT_DIR/$EXTENSION_NAME"
 fi
 ln -s "$PROJECT_DIR" "$VSCODE_EXT_DIR/$EXTENSION_NAME"
@@ -22,7 +22,7 @@ ln -s "$PROJECT_DIR" "$VSCODE_EXT_DIR/$EXTENSION_NAME"
 if [ -d "$HOME/.vscode-server" ]; then
     echo "Installing for VSCode Server (WSL)..."
     mkdir -p "$VSCODE_SERVER_EXT_DIR"
-    if [ -e "$VSCODE_SERVER_EXT_DIR/$EXTENSION_NAME" ]; then
+    if [ -e "$VSCODE_SERVER_EXT_DIR/$EXTENSION_NAME" ] || [ -L "$VSCODE_SERVER_EXT_DIR/$EXTENSION_NAME" ]; then
         rm -rf "$VSCODE_SERVER_EXT_DIR/$EXTENSION_NAME"
     fi
     ln -s "$PROJECT_DIR" "$VSCODE_SERVER_EXT_DIR/$EXTENSION_NAME"
