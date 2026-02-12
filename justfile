@@ -170,6 +170,23 @@ recent carnet=default_carnet count="5":
 
 # === FRONTMATTER MANAGEMENT ===
 
+# Update calculated frontmatter fields (metrics, age, sentence counts)
+update-frontmatter carnet:
+    npx tsx src/scripts/update-frontmatter.ts {{carnet}}
+
+# Update frontmatter for all carnets
+update-frontmatter-all:
+    npx tsx src/scripts/update-frontmatter.ts
+
+# Update frontmatter (dry run - preview changes)
+update-frontmatter-dry carnet:
+    npx tsx src/scripts/update-frontmatter.ts --dry-run {{carnet}}
+
+# Update translation frontmatter metrics
+update-frontmatter-lang lang carnet:
+    npx tsx src/scripts/update-frontmatter.ts --lang {{lang}} {{carnet}}
+
+
 # Check for missing para_start in a specific carnet (Carnet 000 excluded - special handling)
 check-para-start carnet=default_carnet:
     #!/usr/bin/env bash
@@ -366,6 +383,12 @@ help:
     @echo "  just status cz            # Czech translation status"
     @echo "  just verify               # Verify file consistency"
     @echo "  just search 'term'        # Search in source files"
+    @echo ""
+    @echo "FRONTMATTER:"
+    @echo "  just update-frontmatter 001        # Update metrics for carnet 001"
+    @echo "  just update-frontmatter-all        # Update metrics for all carnets"
+    @echo "  just update-frontmatter-dry 001    # Preview changes"
+    @echo "  just update-frontmatter-lang cz 001 # Update translation metrics"
     @echo ""
     @echo "DEVELOPMENT:"
     @echo "  just build-ts        # Build TypeScript packages"

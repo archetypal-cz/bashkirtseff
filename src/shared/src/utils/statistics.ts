@@ -14,6 +14,8 @@ export interface EntryStatistics {
   totalGlossaryLinks: number;
   totalWordsOriginal: number;
   totalWordsTranslated: number;
+  totalSentencesOriginal: number;
+  totalSentencesTranslated: number;
   paragraphsWithTranslation: number;
   paragraphsWithNotes: number;
 }
@@ -33,6 +35,8 @@ export interface CarnetStatistics {
   uniqueGlossaryLinks: string[];
   totalWordsOriginal: number;
   totalWordsTranslated: number;
+  totalSentencesOriginal: number;
+  totalSentencesTranslated: number;
   entriesWithTranslation: number;
   translationCoverage: number;
 }
@@ -54,6 +58,8 @@ export function getEntryStatistics(entry: DiaryEntry): EntryStatistics {
     totalGlossaryLinks: 0,
     totalWordsOriginal: 0,
     totalWordsTranslated: 0,
+    totalSentencesOriginal: 0,
+    totalSentencesTranslated: 0,
     paragraphsWithTranslation: 0,
     paragraphsWithNotes: 0,
   };
@@ -64,6 +70,13 @@ export function getEntryStatistics(entry: DiaryEntry): EntryStatistics {
   for (const para of entry.paragraphs) {
     if (para.isHeader) {
       stats.totalHeaders++;
+      // Headers count as 1 sentence each
+      if (para.originalText) {
+        stats.totalSentencesOriginal++;
+      }
+      if (para.translatedText) {
+        stats.totalSentencesTranslated++;
+      }
       continue;
     }
 
@@ -87,14 +100,27 @@ export function getEntryStatistics(entry: DiaryEntry): EntryStatistics {
       uniqueLinks.add(link.displayText);
     }
 
-    // Count words
+    // Count words and sentences
     if (para.originalText) {
       stats.totalWordsOriginal += countWords(para.originalText);
+      stats.totalSentencesOriginal += countSentences(para.originalText);
     }
 
     if (para.translatedText) {
       stats.totalWordsTranslated += countWords(para.translatedText);
+      stats.totalSentencesTranslated += countSentences(para.translatedText);
       stats.paragraphsWithTranslation++;
+    }
+  }
+
+  // Count sentences in footnotes
+  // In translation files, footnotes are in the target language
+  const isTranslation = entry.language !== 'original';
+  for (const fnText of Object.values(entry.footnotes)) {
+    if (isTranslation) {
+      stats.totalSentencesTranslated += countSentences(fnText);
+    } else {
+      stats.totalSentencesOriginal += countSentences(fnText);
     }
   }
 
@@ -118,6 +144,8 @@ export function getCarnetStatistics(carnet: DiaryCarnet): CarnetStatistics {
     uniqueGlossaryLinks: [],
     totalWordsOriginal: 0,
     totalWordsTranslated: 0,
+    totalSentencesOriginal: 0,
+    totalSentencesTranslated: 0,
     entriesWithTranslation: 0,
     translationCoverage: 0,
   };
@@ -131,6 +159,8 @@ export function getCarnetStatistics(carnet: DiaryCarnet): CarnetStatistics {
     stats.totalNotes += entryStats.totalNotes;
     stats.totalWordsOriginal += entryStats.totalWordsOriginal;
     stats.totalWordsTranslated += entryStats.totalWordsTranslated;
+    stats.totalSentencesOriginal += entryStats.totalSentencesOriginal;
+    stats.totalSentencesTranslated += entryStats.totalSentencesTranslated;
 
     // Aggregate note counts
     for (const [role, count] of Object.entries(entryStats.notesByRole)) {
@@ -348,8 +378,48 @@ export function generateTranslationReport(
 /**
  * Count words in text
  */
-function countWords(text: string): number {
+export function countWords(text: string): number {
   return text.split(/\s+/).filter((word) => word.length > 0).length;
+}
+
+/**
+ * Common abbreviations that end with a period but don't end a sentence.
+ * Covers French, Czech, and general abbreviations.
+ */
+const ABBREVIATIONS = [
+  'M.', 'Mme.', 'Mlle.', 'Mgr.', 'Dr.', 'St.', 'Ste.',
+  'etc.', 'vol.', 'p.', 'pp.', 'cf.', 'sq.', 'op.', 'av.',
+  'č.', 'sv.', 'tj.', 'tzn.', 'např.', 'resp.', 'mj.', 'tzv.',
+  'N°.', 'No.', 'no.', 'jr.', 'Sr.', 'Mrs.', 'Ms.', 'Mr.',
+];
+
+/**
+ * Count sentences in text.
+ * Handles French and Czech text, abbreviations, and ellipses.
+ * Headers and date lines should be counted as 1 sentence by the caller.
+ */
+export function countSentences(text: string): number {
+  if (!text || !text.trim()) return 0;
+
+  let normalized = text;
+
+  // Normalize multi-dot ellipsis to single character
+  normalized = normalized.replace(/\.{2,}/g, '…');
+
+  // Protect abbreviations: replace their trailing dot with a placeholder
+  for (const abbr of ABBREVIATIONS) {
+    // Escape the abbreviation for regex use
+    const escaped = abbr.replace(/\./g, '\\.');
+    normalized = normalized.replace(new RegExp(escaped, 'g'), abbr.slice(0, -1) + '\x00');
+  }
+
+  // Protect ordinal numbers followed by a period (e.g., "11." in dates)
+  normalized = normalized.replace(/(\d)\./g, '$1\x00');
+
+  // Split on sentence-ending punctuation followed by whitespace, quote, or end of string
+  const parts = normalized.split(/[.!?…]+(?:\s+|["»"'\])]?\s*|$)/).filter(s => s.trim().length > 0);
+
+  return Math.max(parts.length, 1);
 }
 
 /**

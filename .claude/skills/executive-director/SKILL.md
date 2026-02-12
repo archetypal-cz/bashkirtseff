@@ -218,7 +218,15 @@ just find-missing "research_complete: true" content/_original/{carnet}
 just find-missing "linguistic_annotation_complete: true" content/_original/{carnet}
 just find-missing "RSR:" content/_original/{carnet}
 just find-missing "LAN:" content/_original/{carnet}
+
+# Frontmatter metrics (sentence counts, word counts, paragraph counts)
+just update-frontmatter {carnet}           # Update calculated fields for a carnet
+just update-frontmatter-all                # Update all carnets
+just update-frontmatter-dry {carnet}       # Preview changes
+just update-frontmatter-lang cz {carnet}   # Update Czech translation metrics
 ```
+
+Sentence counts are useful for translation QA: compare `sentence_count_original` vs `sentence_count_translated` to catch missed or hallucinated content.
 
 ### Glossary CLI Tools
 

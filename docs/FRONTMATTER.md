@@ -104,6 +104,8 @@ marie_age:
 metrics:
   paragraph_count: 7 # count of unique paragraph IDs
   word_count: 156 # words in actual content (not comments)
+  sentence_count_original: 6 # sentences in French text (headers + text + footnotes)
+  sentence_count_translated: 0 # sentences in translation (0 if none)
   has_original: true # has French text
   has_translation: false # has Czech translation
   translation_version_count: 0 # number of translation versions
@@ -142,6 +144,8 @@ Calculated based on birth date 1860-11-24 (Marie's claimed date for consistency)
 
 - **paragraph_count**: Count of unique paragraph IDs
 - **word_count**: Words in actual content (excluding comments)
+- **sentence_count_original**: Sentences in French original text. Headers/date lines count as 1 sentence each. Footnotes are included. Abbreviations (M., Mme., etc.) are protected from false splits.
+- **sentence_count_translated**: Sentences in translation (0 if no translation). Useful for comparing against original to catch missed/hallucinated content.
 - **has_original**: Whether French text is present
 - **has_translation**: Whether Czech translation exists
 - **translation_version_count**: Number of translation versions
