@@ -393,6 +393,105 @@ const THEMES: ThemeDefinition[] = [
       // "fatiguée" could be casual tiredness — but signals health concern in Marie's later diary
     ],
   },
+  {
+    id: 'death',
+    glossaryId: 'DEATH',
+    glossaryPath: '../_glossary/culture/themes/DEATH.md',
+    displayName: 'Death',
+    patterns: [
+      // Funeral & burial
+      /\benterrement\b/i,
+      /\bfun(?:é|e)railles\b/i,
+      /\bfun(?:è|e)bre/i,
+      /\bcercueil/i,
+      /\bobs(?:è|e)ques\b/i,
+      /\bmortuaire/i,
+      /\bpompes fun(?:è|e)bres/i,
+      /\bpannychide/i,
+      // Mourning & bereaved
+      /\bdeuil\b/i,
+      /\bveuve\b/i,
+      /\bveuf\b/i,
+      /\bcondol(?:é|e)ances/i,
+      // Tomb & cemetery
+      /\btombeau/i,
+      /\bs(?:é|e)pulcre/i,
+      /\bs(?:é|e)pulture/i,
+      /\bcimeti(?:è|e)re/i,
+      // Deceased
+      /\bd(?:é|e)funt/i,
+      /\bd(?:é|e)c(?:è|e)s\b/i,
+      /\bd(?:é|e)c(?:é|e)d(?:é|e)/i,
+      // Dying
+      /\bagonie\b/i,
+      /\bagonisant/i,
+    ],
+  },
+  {
+    id: 'mortality',
+    glossaryId: 'MORTALITY',
+    glossaryPath: '../_glossary/culture/themes/MORTALITY.md',
+    displayName: 'Mortality',
+    patterns: [
+      // Death (noun/adjective)
+      /\bmort[es]?\b/i,
+      /\bmortel(?:le)?s?\b/i,
+      // Dying (all conjugations)
+      /\bmourir\b/i,
+      /\bmeurt\b/i,
+      /\bmeure\b/i,
+      /\bmeurent\b/i,
+      /\bmourr/i,
+      /\bmourant/i,
+      /\bmourons\b/i,
+      /\bmourez\b/i,
+      // Killing (literal and figurative)
+      /\btuer\b/i,
+      /\btue\b/i,
+      /\btu(?:é|e)e?s?\b/i,
+      /\bassassin(?:e|er|é)/i,
+      /\bempoisonn/i,
+      // Other
+      /\bsuicide/i,
+      /\bp(?:é|e)rir\b/i,
+      /\bp(?:é|e)ri[es]?\b/i,
+      /\bcadavre/i,
+      /\bfatal(?:e|es)?\b/i,
+      /\btr(?:é|e)pas\b/i,
+      /\bdernier soupir/i,
+    ],
+    antiPatterns: [
+      // "morte-saison" (off-season) — not about death
+      /morte[- ]saison/i,
+    ],
+  },
+  {
+    id: 'diseases',
+    glossaryId: 'DISEASES',
+    glossaryPath: '../_glossary/culture/themes/DISEASES.md',
+    displayName: 'Diseases',
+    patterns: [
+      // Tuberculosis (Marie's period term)
+      /\bphtisie/i,
+      /\bphtisique/i,
+      // Infectious diseases
+      /\bchol(?:é|e)ra\b/i,
+      /\btyphus\b/i,
+      /\btypho(?:ï|i)de\b/i,
+      /\bvariole\b/i,
+      // Respiratory diseases
+      /\blaryngite\b/i,
+      /\bbronchite\b/i,
+      /\bpleur(?:é|e)sie\b/i,
+      /\bcatarrhe\b/i,
+      /\bpharyngite\b/i,
+      /\bp(?:é|e)ri-bronchite/i,
+      /\bcongestion pulmonaire/i,
+      // Other conditions
+      /\ban(?:é|e)mie\b/i,
+      /\ban(?:é|e)vrisme\b/i,
+    ],
+  },
 ];
 
 // ── Paragraph Block Parsing ─────────────────────────────────────────
