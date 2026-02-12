@@ -31,6 +31,8 @@ export default defineConfig({
     '/original/02': '/original/002',
     '/cz/01': '/cz/001',
     '/cz/02': '/cz/002',
+    // Redirect bare /glossary/ to /original/glossary/
+    '/glossary': '/original/glossary',
   },
 
   build: {
@@ -81,7 +83,7 @@ export default defineConfig({
         navigateFallbackDenylist: [/^\/api/],
         globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,woff,woff2}'],
         // Exclude large glossary index from precaching (3+ MB)
-        globIgnores: ['**/glossary/index.html', '**/cz/glossary/index.html'],
+        globIgnores: ['**/glossary/index.html'],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -113,7 +115,7 @@ export default defineConfig({
           },
           {
             // Cache diary entries for offline reading (also used by offline download feature)
-            urlPattern: /\/(cz|original)\/\d+\/\d{4}-\d{2}-\d{2}\/?$/,
+            urlPattern: /\/(cz|original|en|uk|fr)\/\d+\/\d{4}-\d{2}-\d{2}\/?$/,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'diary-entries-cache',

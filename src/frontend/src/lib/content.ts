@@ -1042,9 +1042,12 @@ export function hasTranslation(carnetId: string, entryDate: string, language: st
 export function getAvailableLanguages(carnetId: string, entryDate: string): string[] {
   const languages = ['original'];
 
-  // Check for Czech (note: 'cz' is the content path, 'cs' is the UI locale)
-  if (fs.existsSync(path.join(CONTENT_ROOT, 'cz', carnetId, `${entryDate}.md`))) {
-    languages.push('cz');
+  // Check all translation directories for this entry
+  const translationDirs = ['cz', 'en', 'uk', 'fr'];
+  for (const lang of translationDirs) {
+    if (fs.existsSync(path.join(CONTENT_ROOT, lang, carnetId, `${entryDate}.md`))) {
+      languages.push(lang);
+    }
   }
 
   return languages;
@@ -1388,6 +1391,45 @@ export function getGlossaryEntry(id: string, language: string = 'original'): Glo
   }
 
   return getGlossaryEntryFromPath(file.path, file.category);
+}
+
+/**
+ * Get a single glossary entry with language fallback.
+ * Tries the specified language first, then falls back to original.
+ */
+export function getGlossaryEntryWithFallback(id: string, language: string): GlossaryEntry | null {
+  if (!isOriginalLanguage(language)) {
+    const translated = getGlossaryEntry(id, language);
+    if (translated) return translated;
+  }
+  return getGlossaryEntry(id, 'original');
+}
+
+/**
+ * Get all glossary entries merged across a language and original.
+ * Translated entries override originals (matched by ID).
+ */
+export function getMergedGlossaryEntries(language: string): GlossaryEntry[] {
+  const originalEntries = getGlossaryEntries('original');
+  if (isOriginalLanguage(language)) {
+    return originalEntries;
+  }
+
+  const translatedEntries = getGlossaryEntries(language);
+  if (translatedEntries.length === 0) {
+    return originalEntries;
+  }
+
+  // Build map: translated entries override originals by ID
+  const merged = new Map<string, GlossaryEntry>();
+  for (const entry of originalEntries) {
+    merged.set(entry.id, entry);
+  }
+  for (const entry of translatedEntries) {
+    merged.set(entry.id, entry);
+  }
+
+  return [...merged.values()].sort((a, b) => a.name.localeCompare(b.name));
 }
 
 /**

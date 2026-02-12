@@ -2,23 +2,43 @@
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
 import FilterOverlay from '../../components/filter/FilterOverlay.vue';
 import { getCarnets } from '../../lib/content';
+import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../lib/diary-lang-config';
+import { createT } from '../../i18n/astro';
 
-const carnets = getCarnets('cz');
+// Only generate for translation languages (flat carnet list is a translation feature)
+export function getStaticPaths() {
+  return DIARY_LANGUAGES
+    .filter(lang => lang.isTranslation)
+    .map(lang => ({
+      params: { lang: lang.urlPath },
+      props: { lang },
+    }));
+}
+
+interface Props {
+  lang: DiaryLanguageConfig;
+}
+
+const { lang } = Astro.props;
+const t = createT(lang.uiLocale);
+const basePath = `/${lang.urlPath}`;
+
+const langCarnets = getCarnets(lang.contentPath);
 const originalCarnets = getCarnets('_original');
 
-// Merge info: show all original carnets, mark which have translations
+// Merge: show all original carnets, mark which have translations
 const allCarnets = originalCarnets.map(orig => {
-  const czCarnet = carnets.find(c => c.id === orig.id);
+  const langCarnet = langCarnets.find(c => c.id === orig.id);
   return {
     ...orig,
-    hasTranslation: !!czCarnet,
-    translatedEntries: czCarnet?.entries.length || 0,
+    hasTranslation: !!langCarnet,
+    translatedEntries: langCarnet?.entries.length || 0,
     totalEntries: orig.entries.length,
   };
 });
 
 const formatDate = (date: Date) => {
-  return date.toLocaleDateString('cs-CZ', {
+  return date.toLocaleDateString(lang.dateLocale, {
     year: 'numeric',
     month: 'long',
   });
@@ -28,29 +48,26 @@ const totalEntries = allCarnets.reduce((sum, c) => sum + c.totalEntries, 0);
 const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries, 0);
 ---
 
-<ReadingLayout title="Všechny sešity — Deník Marie Bashkirtseff">
+<ReadingLayout title={`${t('diary.allNotebooks')} — ${t('diary.pageTitle')}`}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted">
-      <a href="/cz" class="hover:text-accent">Deník</a>
-      <span class="mx-2">›</span>
-      <span class="text-ink">Všechny sešity</span>
+      <a href={basePath} class="hover:text-accent">{t('diary.diary')}</a>
+      <span class="mx-2">&rsaquo;</span>
+      <span class="text-ink">{t('diary.allNotebooks')}</span>
     </nav>
 
     <header class="mb-12">
       <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
-        Všechny sešity
+        {t('diary.allNotebooks')}
       </h1>
-      <p class="text-ink-light mb-4">
-        Kompletní seznam Mariiných deníkových sešitů
-      </p>
 
       <div class="flex items-center gap-6 text-sm text-muted">
         <span>{allCarnets.length} sešitů</span>
-        <span>•</span>
-        <span>{totalEntries} záznamů</span>
-        <span>•</span>
-        <span class="text-accent">{totalTranslated} přeloženo</span>
+        <span>&bull;</span>
+        <span>{totalEntries} {t('diary.entries')}</span>
+        <span>&bull;</span>
+        <span class="text-accent">{totalTranslated} {t('diary.translated')}</span>
       </div>
 
       {totalTranslated < totalEntries && (
@@ -62,7 +79,7 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
             />
           </div>
           <p class="text-xs text-muted mt-1">
-            {Math.round((totalTranslated / totalEntries) * 100)}% celkově přeloženo
+            {t('diary.completed', { percent: Math.round((totalTranslated / totalEntries) * 100) })}
           </p>
         </div>
       )}
@@ -73,7 +90,7 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
     <div class="grid gap-4">
       {allCarnets.map(carnet => (
         <a
-          href={carnet.hasTranslation ? `/cz/${carnet.id}` : `/original/${carnet.id}`}
+          href={carnet.hasTranslation ? `${basePath}/${carnet.id}` : `/original/${carnet.id}`}
           data-filter-carnet={carnet.id}
           class={`block p-4 rounded-lg border transition-all ${
             carnet.hasTranslation
@@ -88,7 +105,7 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
               </span>
               <div>
                 <span class="text-ink">
-                  Sešit {carnet.id}
+                  {t('diary.notebook')} {carnet.id}
                 </span>
                 {!carnet.hasTranslation && (
                   <span class="ml-2 text-xs px-2 py-0.5 bg-muted/20 text-muted rounded">
@@ -118,7 +135,7 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
                 </div>
               )}
               <div class="text-sm text-muted">
-                {carnet.totalEntries} záznamů
+                {carnet.totalEntries} {t('diary.entries')}
               </div>
               <svg class="w-5 h-5 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -131,14 +148,14 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
 
     {allCarnets.length === 0 && (
       <div class="text-center py-12 text-muted">
-        <p>Žádné sešity nebyly nalezeny.</p>
+        <p>{t('diary.noCarnetsFound')}</p>
       </div>
     )}
 
     <!-- Back link -->
     <div class="mt-8 pt-8 border-t border-ink/10">
-      <a href="/cz" class="text-accent hover:text-accent-light transition-colors">
-        ← Zpět na přehled let
+      <a href={basePath} class="text-accent hover:text-accent-light transition-colors">
+        &larr; {t('diary.allNotebooks')}
       </a>
     </div>
   </div>

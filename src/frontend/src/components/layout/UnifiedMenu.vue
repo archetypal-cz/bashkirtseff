@@ -505,7 +505,9 @@ onUnmounted(() => {
                   </span>
                   <span class="um-section-actions">
                     <span v-if="filterStore.isActive" class="filter-header-names">
-                      {{ allActiveTagNames.join(', ') }}
+                      {{ multiCategoryActive
+                        ? allActiveTagNames.join(filterStore.filterMode === 'and' ? ` ${t('filter.and')} ` : ` ${t('filter.or')} `)
+                        : allActiveTagNames.join(', ') }}
                     </span>
                     <span v-if="filterStore.isActive" class="filter-active-count">
                       {{ filterStore.activeTagCount }}
@@ -1222,6 +1224,55 @@ onUnmounted(() => {
 .filter-search {
   padding: 8px 16px;
   border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
+}
+
+.filter-mode-toggle {
+  display: flex;
+  gap: 4px;
+  padding: 6px 16px;
+  border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 5px 8px;
+  border: 1px solid var(--border-color, rgba(44, 24, 16, 0.15));
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-muted, #78716C);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: all 0.15s;
+  text-align: center;
+}
+
+.mode-btn.active {
+  background: var(--color-accent, #B45309);
+  color: white;
+  border-color: var(--color-accent, #B45309);
+}
+
+.mode-btn:hover:not(.active) {
+  border-color: var(--color-accent, #B45309);
+  color: var(--color-accent, #B45309);
+}
+
+[data-theme="dark"] .mode-btn {
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #a3a3a3;
+}
+
+[data-theme="dark"] .mode-btn.active {
+  background: var(--color-accent, #D97706);
+  border-color: var(--color-accent, #D97706);
+  color: white;
+}
+
+.filter-mode-indicator {
+  opacity: 0.7;
+  font-weight: 400;
 }
 
 .filter-active-summary {

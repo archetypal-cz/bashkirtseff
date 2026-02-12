@@ -160,14 +160,17 @@ async function retry() {
 
 <style scoped>
 .offline-download {
-  margin: 0.75rem 0;
+  margin: 0;
+  width: 100%;
 }
 
 /* Base button */
 .offline-btn-download {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
+  width: 100%;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
   color: var(--text-secondary, #4A3728);
