@@ -90,6 +90,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **executive-director**   | `/executive-director`   | Orchestrate workflow                           |
 | **project-status**       | `/project-status`       | Track progress, report status                  |
 | **workflow-architect**   | `/architect`            | Maintain the agent system                      |
+| **frontend-dev**        | `/frontend-dev`         | AstroJS PWA development, UI features           |
 
 ## Core Workflow
 
