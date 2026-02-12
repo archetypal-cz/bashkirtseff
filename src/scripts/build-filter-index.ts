@@ -168,8 +168,18 @@ function main() {
       // Places
       const places = entities.places?.filter(Boolean) || [];
 
-      // Cultural refs
+      // Cultural refs (from frontmatter entities + inline theme tags)
       const cultural = entities.cultural?.filter(Boolean) || [];
+
+      // Extract inline theme tags from body: %% [#Name](../_glossary/culture/themes/X.md) %%
+      const themeTagPattern = /\[#([^\]]+)\]\([^)]*\/_glossary\/culture\/themes\/[^)]+\)/g;
+      let themeMatch;
+      while ((themeMatch = themeTagPattern.exec(content)) !== null) {
+        const themeId = themeMatch[1];
+        if (!cultural.includes(themeId)) {
+          cultural.push(themeId);
+        }
+      }
 
       // Edition flags
       const kernberger = !!(wf.kernberger_covered || metadata.kernberger_covered);

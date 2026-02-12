@@ -90,6 +90,20 @@ glossary-dedup-dry plan_file:
 glossary-dedup-execute plan_file:
     npx tsx src/scripts/glossary-dedup.ts execute {{plan_file}}
 
+# === THEME TAGGING ===
+
+# Add theme tags to diary entries (dry run)
+theme-tag-dry *FLAGS:
+    npx tsx src/scripts/theme-tagger.ts --dry-run {{FLAGS}}
+
+# Add theme tags to diary entries
+theme-tag *FLAGS:
+    npx tsx src/scripts/theme-tagger.ts {{FLAGS}}
+
+# Show theme tag statistics without modifying files
+theme-stats *FLAGS:
+    npx tsx src/scripts/theme-tagger.ts --stats {{FLAGS}}
+
 # === UTILITIES ===
 
 # Verify all entries are properly formatted
