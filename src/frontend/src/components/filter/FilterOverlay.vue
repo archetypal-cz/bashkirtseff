@@ -3,7 +3,7 @@ import { onMounted, watch, ref, computed, nextTick } from 'vue';
 import { useFilterStore } from '../../stores/filter';
 import { useI18n } from '../../i18n';
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 const props = defineProps<{
   pageType: 'year-list' | 'year-detail' | 'carnet-detail' | 'carnets-list';
@@ -272,7 +272,8 @@ function dateDiffDays(dateA: string, dateB: string): number {
 function formatShortDate(dateStr: string): string {
   const datePart = dateStr.split('-').slice(0, 3).join('-');
   const d = new Date(datePart);
-  return d.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'short' });
+  const localeMap: Record<string, string> = { cs: 'cs-CZ', fr: 'fr-FR', en: 'en-US', uk: 'uk-UA' };
+  return d.toLocaleDateString(localeMap[locale.value] || 'cs-CZ', { day: 'numeric', month: 'short' });
 }
 
 </script>
