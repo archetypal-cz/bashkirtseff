@@ -67,6 +67,12 @@
 | T+~40min | CON completed wave 1 silently (57/57 conductor_approved). Both RED and CON crashed/stopped mid-wave 2. |
 | T+~40min | Remaining: 8 entries in 003 + 33 entries in 004 need RED+CON. 005 fully done. |
 | T+~42min | Closing team en-000-005, will respawn smaller team to finish 41 remaining reviews. |
+| T+~45min | Skills updated (per-carnet tasks, mandatory reporting, idle-not-shutdown). Committed and pushed. |
+| T+~48min | Review team **en-review** spawned (RED + CON, 2 agents). Per-carnet tasks. |
+| T+~52min | **RED completed 003** (8 entries, 0.92). Per-carnet reporting worked — no crashes. |
+| T+~54min | **CON approved 003** (8 entries, 0.93). First proper CON quality report! |
+| T+~58min | **RED completed 004** (33 entries, 0.93). 4 MEDIUM fixes applied directly. |
+| T+~62min | **CON approved 004** (33 entries, 0.92). ALL WORK COMPLETE. |
 
 ## Quality Benchmarks (from Czech runs)
 
@@ -78,21 +84,34 @@ Previous Czech translation quality scores for the same carnets:
 
 | Carnet | Entries | Translator | RED Score | CON Verdict | Time |
 |--------|---------|------------|-----------|-------------|------|
-| 000 | 10 | tr-000 | 0.92 | pending | ~5 min |
-| 001 | 22 | tr-001 | 0.91 | pending | ~12 min |
-| 002 | 25 | tr-002 | 0.91 | pending | ~18 min |
-| 003 | 33 | tr-000 | pending | — | ~25 min |
-| 004 | 33 | tr-001 | pending | — | ~30 min |
-| 005 | 29 | tr-002 | pending | — | ~35 min |
+| 000 | 10 | tr-000 | 0.92 | APPROVED | ~5 min |
+| 001 | 22 | tr-001 | 0.91 | APPROVED | ~12 min |
+| 002 | 25 | tr-002 | 0.91 | APPROVED | ~18 min |
+| 003 | 33 | tr-000 | 0.92 | APPROVED (0.93) | ~25 min |
+| 004 | 33 | tr-001 | 0.93 | APPROVED (0.92) | ~30 min |
+| 005 | 29 | tr-002 | 0.91* | APPROVED* | ~35 min |
+
+*005 reviewed in original team session before crash
 
 ## Final Summary
 
-- **152 entries translated** across 6 carnets in ~35 minutes
-- **111 entries fully reviewed** (RED + CON approved)
-- **41 entries need review** (8 in 003, 33 in 004) — translations exist, just missing editor/conductor pass
-- **Zero revisions** needed across all reviewed entries
+- **152 entries translated** across 6 carnets in ~35 minutes (translation phase)
+- **152 entries fully reviewed** (RED + CON approved) — completed in review team after original team crashed
+- **Zero revisions** returned to translators across all 152 entries
+- **4 MEDIUM fixes** applied directly by RED (terminology/formatting)
 - **~60 new TranslationMemory terms** established
-- **Throughput**: ~4.3 entries/minute (translation only), ~3.2 entries/minute (full pipeline)
+- **RED scores**: 0.91-0.93 across all 6 carnets
+- **CON scores**: 0.92-0.93 (reported for 003, 004; wave 1 completed silently)
+- **Throughput**: ~4.3 entries/minute (translation), ~2.9 entries/minute (review)
+- **Total wall-clock time**: ~62 minutes (including team restart for reviews)
+
+### Open Question: Review Rigor
+
+Zero entries were returned for translator revision. This could mean:
+1. Translators are genuinely excellent (strong RSR+LAN annotations + good skills = high first-pass quality)
+2. RED and CON aren't being critical enough (AI reviewing AI may be systematically lenient)
+
+**Recommendation**: Human spot-check of 5-10 entries across different carnets to calibrate. Compare against Kernberger's published translations for the same passages where available.
 
 ## Observations & Lessons Learned
 
