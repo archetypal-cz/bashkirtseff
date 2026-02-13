@@ -57,9 +57,15 @@ The container drops you into byobu with the project mounted at `/workspace`.
 just              # Show all available commands
 just setup        # Install dependencies (first time)
 just fe-dev       # Start frontend dev server
-claude            # Start Claude Code (unrestricted mode)
+claude            # Start Claude Code
 gemini            # Start Gemini CLI
 ```
+
+### Claude Code permissions
+
+The `claude` alias in the container runs with `--dangerously-skip-permissions`, which means Claude can execute any tool (bash commands, file edits, etc.) without asking for confirmation. This is intentional for the workspace container — it's an isolated, disposable environment where the friction of permission prompts would slow down multi-agent workflows and batch processing.
+
+**Do not use this flag on your host machine** unless you understand the implications. Outside the container, Claude Code's default permission model protects you from unintended destructive actions.
 
 ### Multiple terminals (byobu)
 
