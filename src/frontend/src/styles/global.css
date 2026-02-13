@@ -155,6 +155,21 @@
     );
   }
 
+  /* Masonry layout for carnet cards */
+  .masonry-carnets {
+    columns: 2;
+    column-gap: 0.75rem;
+  }
+  .masonry-carnets > * {
+    break-inside: avoid;
+    margin-bottom: 0.75rem;
+  }
+  @media (max-width: 640px) {
+    .masonry-carnets {
+      columns: 1;
+    }
+  }
+
   /* Prose styling for diary entries */
   .prose-diary {
     @apply max-w-2xl mx-auto;

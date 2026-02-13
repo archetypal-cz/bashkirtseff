@@ -678,6 +678,65 @@ export async function getCarnetSummary(carnet: string, language: string = 'origi
 }
 
 // ============================================
+// YEAR SUMMARY AGGREGATION
+// ============================================
+
+export interface YearSummary {
+  year: number;
+  peopleCounts: Record<string, number>;
+  placesCounts: Record<string, number>;
+  themeCounts: Record<string, number>;
+  primaryLocation?: string;
+}
+
+/**
+ * Get aggregated summary data for a year
+ * Merges people, places, themes, and locations across all carnets in that year
+ */
+export async function getYearSummary(year: number, language: string = 'original'): Promise<YearSummary> {
+  const carnetsInYear = getCarnetsByYear(year, language);
+
+  const peopleCounts: Record<string, number> = {};
+  const placesCounts: Record<string, number> = {};
+  const themeCounts: Record<string, number> = {};
+  const locationCounts: Record<string, number> = {};
+
+  for (const carnetInfo of carnetsInYear) {
+    const carnetSummary = await getCarnetSummary(carnetInfo.id, language);
+
+    for (const [person, count] of Object.entries(carnetSummary.peopleCounts)) {
+      peopleCounts[person] = (peopleCounts[person] || 0) + count;
+    }
+    for (const [place, count] of Object.entries(carnetSummary.placesCounts)) {
+      placesCounts[place] = (placesCounts[place] || 0) + count;
+    }
+    for (const [theme, count] of Object.entries(carnetSummary.themeCounts)) {
+      themeCounts[theme] = (themeCounts[theme] || 0) + count;
+    }
+    if (carnetSummary.primaryLocation) {
+      locationCounts[carnetSummary.primaryLocation] = (locationCounts[carnetSummary.primaryLocation] || 0) + 1;
+    }
+  }
+
+  let primaryLocation: string | undefined;
+  let maxLocationCount = 0;
+  for (const [loc, count] of Object.entries(locationCounts)) {
+    if (count > maxLocationCount) {
+      maxLocationCount = count;
+      primaryLocation = loc;
+    }
+  }
+
+  return {
+    year,
+    peopleCounts,
+    placesCounts,
+    themeCounts,
+    primaryLocation,
+  };
+}
+
+// ============================================
 // CARNET SUMMARY DOCUMENT (EDITORIAL SUMMARIES)
 // ============================================
 
