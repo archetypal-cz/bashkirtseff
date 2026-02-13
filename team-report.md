@@ -85,25 +85,74 @@ Previous Czech translation quality scores for the same carnets:
 | 004 | 33 | tr-001 | pending | — | ~30 min |
 | 005 | 29 | tr-002 | pending | — | ~35 min |
 
-## Observations & Lessons Learned
+## Final Summary
 
-_To be updated during and after the run._
+- **152 entries translated** across 6 carnets in ~35 minutes
+- **111 entries fully reviewed** (RED + CON approved)
+- **41 entries need review** (8 in 003, 33 in 004) — translations exist, just missing editor/conductor pass
+- **Zero revisions** needed across all reviewed entries
+- **~60 new TranslationMemory terms** established
+- **Throughput**: ~4.3 entries/minute (translation only), ~3.2 entries/minute (full pipeline)
+
+## Observations & Lessons Learned
 
 ### What Worked
 
-_TBD_
+1. **Translation quality was excellent from the start.** Zero revisions across 111 reviewed entries (0.90-0.93). The mature RSR+LAN annotations gave translators everything they needed. This validates the source preparation pipeline.
 
-### What Could Be Tweaked
+2. **"Smallest carnets first" wave strategy.** tr-000 finished 000 (10 entries) in ~5 min, enabling RED/CON pipeline overlap much sooner. Good principle.
 
-_TBD_
+3. **Real-time RED review.** RED reviewing entries as they appeared (not waiting for carnet completion) kept the pipeline flowing and gave fast feedback. RED never had to send a translator back for revisions.
+
+4. **TranslationMemory updates after each carnet.** ~20 terms per carnet, shared across translators. Terminology was consistent across all three translators despite working in parallel.
+
+5. **Clean translator lifecycle.** Translators finished, reported, accepted shutdown gracefully. The Agent Teams Protocol in the translator skill worked as designed.
+
+6. **3-translator parallelism.** Proven again (after Czech runs) as the right count — enough parallelism without overwhelming RED.
+
+### What Could Be Tweaked → Skill Updates Needed
+
+1. **RED and CON crashed silently mid-wave 2.** Both died at the same point (25/33 into carnet 003, 0/33 in 004, 29/29 in 005). This is almost certainly a **context window exhaustion** issue — reviewing 95 entries of both French originals and English translations consumes massive context.
+
+   **Recommendation for ED skill**: Create RED/CON tasks **per-carnet, not per-wave**. Instead of "RED review wave 2 (003, 004, 005)", create "RED review 003", "RED review 004", "RED review 005". This lets agents complete and report before context fills up. If they crash, only one carnet is incomplete rather than an entire wave.
+
+2. **CON never sent a quality report.** Task #8 (CON wave 1) was completed and all 57 entries got `conductor_approved: true`, but CON never messaged the team lead with scores/verdicts. The conductor skill says to notify, but the agent prioritized doing the work over reporting.
+
+   **Recommendation for conductor skill**: Add explicit instruction: "After approving each carnet, you MUST message the team lead with quality scores BEFORE moving to the next carnet. This is not optional — the team lead needs these scores for the report."
+
+3. **No progress checkpoints from RED/CON between carnets.** RED sent updates but CON went completely silent for the entire wave 1 review. With per-carnet tasks, both would naturally report at carnet boundaries.
+
+   **Recommendation for ED skill**: "Require per-carnet completion messages from all review agents. Use per-carnet tasks to enforce this naturally."
+
+4. **Wave 2 task dependencies were too coarse.** CON wave 2 was blocked on RED wave 2 completing entirely. But RED had already approved 003 and 005 before dying — CON could have started those. Per-carnet tasks with per-carnet dependencies would enable more pipeline overlap.
+
+5. **Translator speed variance.** tr-000 was fastest (10+33 entries in ~25 min), tr-002 slowest (25+29 in ~35 min). Not a problem at this scale, but for larger runs: assign larger carnets to faster translators, or rebalance mid-run.
+
+6. **Shutdown protocol worked but was chatty.** tr-000 sent multiple idle notifications before acknowledging shutdown. The "idle → message → idle → idle → acknowledge" pattern added noise. Consider: agents should auto-shutdown after confirming no tasks remain, rather than waiting for explicit shutdown requests.
+
+   **Recommendation for translator skill**: "If you have completed all assigned work, no unassigned tasks exist in TaskList, and the team lead confirms no more work: shut yourself down proactively rather than waiting for a shutdown request."
 
 ### English-Specific Notes
 
-- This is the FIRST English translation run — establishing baseline quality and terminology
+- This is the FIRST English translation run — baseline quality established at 0.90-0.93
 - Existing English translations (Kernberger, Blind) are references only — we produce fresh translations
-- TranslationMemory.md has initial terms (Maman, toilette, en amazone, etc.)
-- English-specific handling: Marie's English passages kept as-is with ==highlight== and footnote
+- ~60 TranslationMemory terms established (from initial ~15)
+- English-specific handling worked well: Marie's English passages kept as-is with ==highlight== and footnote
+- French terms kept in italics (document humain, déclassée, comme il faut, amour-propre) — good decisions
+- Prayer register (Thee/Thou) used appropriately for Marie's devotional passages
+- Biblical allusions rendered in KJV register — period-appropriate
+- Key recurring translations established: "cette femme" → "that woman" (Gioia), "L'autre" → "The other one" (Boreel)
+
+### Summary of Recommended Skill Changes
+
+| Skill | Change | Priority |
+|-------|--------|----------|
+| **executive-director** | Create RED/CON tasks per-carnet, not per-wave | HIGH |
+| **executive-director** | Add per-carnet dependency chains (CON-003 blocked by RED-003, not RED-wave) | HIGH |
+| **conductor** | Mandate per-carnet quality report messages to team lead | MEDIUM |
+| **translator** | Auto-shutdown when no tasks remain (don't wait for shutdown request) | LOW |
+| **editor** | Add guidance on context management — consider "fresh start" per carnet for large runs | MEDIUM |
 
 ---
 
-_This report is updated live during the run and finalized after completion._
+_Report finalized 2026-02-13. Committed with translations. 41 entries (003 tail + all 004) need review team respawn._

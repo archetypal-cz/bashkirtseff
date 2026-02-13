@@ -337,20 +337,29 @@ Standard team for translation pipeline — **5 agents**:
 
 ### Task Structure
 
-Create **per-carnet translator tasks** and **per-wave review tasks**:
+Create **per-carnet tasks for ALL roles** (not per-wave — review agents hit context limits on large waves):
 
 ```
-Wave 1:
-  Task 1: "TR carnet {A} ({N} entries)" → assigned to tr-000
-  Task 2: "TR carnet {B} ({N} entries)" → assigned to tr-001
-  Task 3: "TR carnet {C} ({N} entries)" → assigned to tr-002
-  Task 4: "RED review wave 1 ({A}, {B}, {C})" → assigned to red
+For each carnet {X} with {N} entries:
+  Task: "TR carnet {X} ({N} entries)" → assigned to translator
+  Task: "RED review {X} ({N} entries)" → assigned to red
     NOTE: Do NOT add blockedBy — RED reviews in real-time as entries appear
-  Task 5: "CON review wave 1 ({A}, {B}, {C})" → assigned to con
-    blockedBy: [Task 4]
+  Task: "CON review {X} ({N} entries)" → assigned to con
+    blockedBy: [RED review {X}]
 ```
+
+**Why per-carnet, not per-wave**: Review agents (RED/CON) read both French originals and translations, consuming ~2x context per entry. Large waves (90+ entries) exhaust context and cause silent crashes. Per-carnet tasks let agents complete, report scores, and free context between carnets. If an agent crashes, only one carnet is incomplete.
 
 When a translator finishes, assign them the next carnet immediately — create a new task and message them.
+
+### Translator Lifecycle
+
+**Do NOT shut down translators when they finish their last carnet.** Keep them idle — they can be woken up with a message if:
+- RED sends back entries for revision
+- CON rejects entries that need rework
+- Additional carnets are added to the run
+
+Only send shutdown requests at the **very end** of the session when all reviews are complete and no revisions are needed.
 
 ### Workload Balancing
 
@@ -380,7 +389,8 @@ When a translator finishes, assign them the next carnet immediately — create a
 **Include in CON spawn prompt:**
 - "While blocked, read French originals AND early translations deeply."
 - "Three-pass review: target-language-only, comparative, 'Would Marie approve?'"
-- "Quality bar from previous Czech runs: 000-004 (0.90-0.93), 005-008 (0.93-0.95)"
+- "Quality bar: Czech 000-004 (0.90-0.93), 005-008 (0.93-0.95); English 000-002 (0.90-0.93)"
+- "After approving each carnet, you MUST message team lead with quality scores BEFORE moving to the next."
 - "Do NOT send 'are translations ready?' messages."
 
 ### GEM Integration

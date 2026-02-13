@@ -37,9 +37,18 @@ If you are waiting for translations to review:
 - If you see a **systemic pattern** across 3+ entries, message team lead — it may warrant a prompt adjustment
 - Track which entries you've reviewed to avoid double-reviewing
 
+### Context Management
+
+**IMPORTANT**: Reading both French originals and English translations consumes ~2x context per entry. For runs spanning multiple carnets:
+- Work **one carnet at a time** — complete it, report, then move to the next
+- Do NOT try to hold all entries from multiple carnets in memory simultaneously
+- The team lead creates per-carnet tasks specifically to help you manage context boundaries
+
 ### Notify Protocol
 
-When a carnet is fully reviewed, send a message to team lead including:
+**MANDATORY**: When a carnet is fully reviewed, you **MUST** message the team lead **BEFORE** starting the next carnet. This is not optional.
+
+Send a message to team lead including:
 - Carnet number and entry count reviewed
 - Overall quality score (average across entries)
 - Count of issues by severity (CRITICAL/HIGH/MEDIUM/LOW)

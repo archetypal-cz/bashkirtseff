@@ -32,12 +32,16 @@ While waiting for RED to complete:
 
 ### Notify Protocol
 
+**MANDATORY**: After approving each carnet, you **MUST** message the team lead with quality scores **BEFORE** moving to the next carnet. This is not optional — the team lead needs these scores for the report and to track quality trends.
+
 When a carnet is approved, send team lead a message including:
 - Carnet number and entry count
 - Overall quality score (weighted: fidelity 25%, naturalness 25%, voice 25%, literary quality 25%)
 - Verdict distribution (APPROVE/CONDITIONAL/REJECT counts)
 - Notable highlights or concerns
-- Quality bar from previous runs: 000 (0.92), 001 (0.91), 002 (0.90), 003 (0.92), 004 (0.93), 005 (0.93), 006 (0.94), 007 (0.93), 008 (0.95)
+- Quality bar from previous runs:
+  - Czech: 000 (0.92), 001 (0.91), 002 (0.90), 003 (0.92), 004 (0.93), 005 (0.93), 006 (0.94), 007 (0.93), 008 (0.95)
+  - English: 000 (0.92), 001 (0.91), 002 (0.91)
 
 ## Your Mission
 
