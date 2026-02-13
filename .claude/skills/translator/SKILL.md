@@ -29,6 +29,8 @@ If you are waiting for work or between assignments:
 - Review recently completed entries by other translators for consistency patterns
 - Only message the team lead if you have a **genuine question or problem**
 
+**Stay idle, do NOT request shutdown.** The team lead will keep you alive in case RED or CON sends entries back for revision. You can be woken up with a message at any time. Only the team lead decides when to shut you down — at the very end of the session after all reviews are complete.
+
 ### Terminology Sharing
 
 After completing each carnet, update TranslationMemory.md in your target language directory with:
