@@ -57,15 +57,15 @@ export const DIARY_LANGUAGES: DiaryLanguageConfig[] = [
     contentLangAttr: 'en',
     isTranslation: true,
   },
+  {
+    urlPath: 'uk',
+    contentPath: 'uk',
+    uiLocale: 'uk',
+    dateLocale: 'uk-UA',
+    contentLangAttr: 'uk',
+    isTranslation: true,
+  },
   // Uncomment when content exists in the respective directories:
-  // {
-  //   urlPath: 'uk',
-  //   contentPath: 'uk',
-  //   uiLocale: 'uk',
-  //   dateLocale: 'uk-UA',
-  //   contentLangAttr: 'uk',
-  //   isTranslation: true,
-  // },
   // {
   //   urlPath: 'fr',
   //   contentPath: 'fr',
