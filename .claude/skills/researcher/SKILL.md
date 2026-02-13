@@ -276,13 +276,16 @@ flags:
 ---
 ```
 
-**IMPORTANT**: After creating/updating static attributes, run the frontmatter update script to populate calculated fields:
+**IMPORTANT**: After creating/updating static attributes, run the frontmatter update script to populate calculated fields (paragraph count, word count, sentence counts, Marie's age):
 
 ```bash
 just update-frontmatter <carnet>          # updates all entries in a carnet
-# or
-just update-frontmatter-entry <filepath>  # updates single entry
+just update-frontmatter-all               # updates all carnets
+just update-frontmatter-dry <carnet>      # preview changes without writing
+just update-frontmatter-lang cz <carnet>  # update translation metrics
 ```
+
+The script calculates `sentence_count_original` and `sentence_count_translated` — useful for verifying translations didn't miss sentences or hallucinate extra ones. Headers count as 1 sentence each, footnotes are included, and common abbreviations (M., Mme., etc.) are protected from false splits.
 
 **IMPORTANT**: The `entities` section is the authoritative source for all tagged entities:
 

@@ -45,6 +45,15 @@ major_themes:
   - opera
   - horseback_riding
 generated_from_entries: false
+
+workflow:
+  research_complete: true
+  linguistic_annotation_complete: false
+  translation_complete: false
+  editorial_review_complete: false
+  conductor_approval: false
+  last_modified: 2026-02-12T16:00:00
+  modified_by: RSR
 ---
 
 %% SUM.001.0001 %%
@@ -93,3 +102,4 @@ Readers approaching this carnet should note several key patterns:
 
 %% SUM.001.0015 %%
 **Later annotations**: Some entries include annotations Marie added in 1884, eleven years later, usually mocking her younger self's "stupidite" and "ingenuity." These provide a poignant counterpoint to the breathless entries of 1873.
+%% 2026-02-12T16:00:00 RSR: Research complete for carnet 001 summary. All entity references verified in glossary (DUKE_OF_HAMILTON, MAMAN, DINA, MLLE_COLLIGNON, BOREEL, GIOIA). Historical context confirmed. Note: GIOIA entry is miscategorized under places/cities/ when it should be people/mentioned or people/recurring - flagged for glossary reorganization. %%
