@@ -380,14 +380,14 @@ When a translator finishes, assign them the next carnet immediately — create a
 **Include in CON spawn prompt:**
 - "While blocked, read French originals AND early translations deeply."
 - "Three-pass review: target-language-only, comparative, 'Would Marie approve?'"
-- "Quality bar from previous runs: 000 (0.92), 001 (0.91), 002 (0.90), 003 (0.92), 004 (0.93)"
+- "Quality bar from previous Czech runs: 000-004 (0.90-0.93), 005-008 (0.93-0.95)"
 - "Do NOT send 'are translations ready?' messages."
 
 ### GEM Integration
 
 After RED completes review of a carnet, dispatch Gemini review:
 
-1. Use the `/gemini-czech-editor` skill or run as a Bash subagent (not a persistent teammate)
+1. Use the `/gemini-czech-editor` skill (or equivalent for target language) or run as a Bash subagent (not a persistent teammate)
 2. Process each entry in the carnet through Gemini
 3. Apply valid corrections, add GEM comments
 4. This can run in parallel with CON review of previously approved carnets
@@ -400,10 +400,10 @@ Sessions can die mid-run. To enable clean resumption:
 
 **Before each wave**, note the state:
 - Which carnets are assigned to which translator
-- How many entries each has completed (check `content/cz/{carnet}/`)
+- How many entries each has completed (check `content/{lang}/{carnet}/`)
 
 **When resuming a session:**
-1. Check `content/cz/{carnet}/` for existing translations per carnet
+1. Check `content/{lang}/{carnet}/` for existing translations per carnet
 2. In translator spawn prompts, say: "Resume carnet {N} — {X}/{Y} done. Check which entries exist, translate ONLY missing ones. Do NOT overwrite existing files."
 3. RED should review ALL entries (both previously translated and new)
 4. CON should review from the first carnet that lacks `conductor_approved: true`
@@ -429,17 +429,23 @@ done
 just project-status {lang} 006
 ```
 
-### Quality Benchmarks (from Feb 12 runs)
+### Quality Benchmarks (from Feb 12-13 Czech runs)
 
-| Carnet | Quality | Entries | Time |
-|--------|---------|---------|------|
-| 000 | 0.92 | 10 | ~44 min |
-| 001 | 0.91 | 22 | ~36 min |
-| 002 | 0.90 | 25 | ~54 min |
-| 003 | 0.92 | 33 | ~55 min |
-| 004 | 0.93 | 33 | ~60 min |
+| Carnet | Quality | Entries | Time | Session |
+|--------|---------|---------|------|---------|
+| 000 | 0.92 | 10 | ~44 min | 1 |
+| 001 | 0.91 | 22 | ~36 min | 1 |
+| 002 | 0.90 | 25 | ~54 min | 1 |
+| 003 | 0.92 | 33 | ~55 min | 1 |
+| 004 | 0.93 | 33 | ~60 min | 1 |
+| 005 | 0.93 | 29 | — | 2 |
+| 006 | 0.94 | 27 | — | 2 |
+| 007 | 0.93 | 29 | — | 2 |
+| 008 | 0.95 | 22 | — | 2 |
 
 Pipeline throughput: ~1.4 entries/minute across 3 translators.
+
+**Session 2 improvements**: Dropping RSR/LAN (5 agents instead of 7), adding Agent Teams Protocol to skills (idle behavior, terminology sharing, direct editing), and giving RED/CON Edit access raised quality from 0.90-0.93 to 0.93-0.95.
 
 ### Translation Pipeline Report
 
