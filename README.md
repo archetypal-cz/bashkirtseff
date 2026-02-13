@@ -4,18 +4,18 @@ Complete, uncensored translation of Marie Bashkirtseff's diary (1873-1884) from 
 
 ## About Marie Bashkirtseff
 
-Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote one of the most remarkable personal documents of the 19th century. Her diary, written primarily in French, spans from age 14 until her death from tuberculosis at 25. The legendary published versions were _heavily_ censored by her family - this project aims to present the complete, unedited text, resurrecting Marie's authentic voice and experiences for her readers, along with rich historical context. .
+Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote one of the most remarkable personal documents of the 19th century. Her diary, written primarily in French, spans from age 14 until her death from tuberculosis at 25. The legendary published versions were _heavily_ censored by her family - this project aims to present the complete, unedited text, resurrecting Marie's authentic voice and experiences for her readers, along with rich historical context.
 
 ## Project Overview
 
-| Metric                       | Value                                      |
-| ---------------------------- | ------------------------------------------ |
-| **Carnets (notebooks)**      | 107 (000-106)                              |
-| **Diary entries**            | ~3,300                                     |
-| **Date range**               | January 1873 - October 1884                |
-| **Source language**          | French                                     |
-| **Planned target languages** | Czech, Ukrainian, English, French (modern) |
-| **Frontend**                 | https://bashkirtseff.org                   |
+| Metric                       | Value                                          |
+| ---------------------------- | ---------------------------------------------- |
+| **Carnets (notebooks)**      | 107 (000-106)                                  |
+| **Diary entries**            | ~3,300                                         |
+| **Date range**               | January 1873 - October 1884                    |
+| **Source language**          | Mostly French, some English, Russian, Italian  |
+| **Planned target languages** | Czech, Ukrainian, English, French (modern)     |
+| **Frontend**                 | https://bashkirtseff.org                       |
 
 ## Project Structure
 
@@ -24,7 +24,7 @@ Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote
 ├── content/                 # Diary content files
 │   ├── original/            # French originals (source)
 │   │   ├── 000/-106/        # Carnets (Marie's original notebooks)
-│   │   └── _glossary/       # Historical entities (people, places, etc.)
+│   │   └── _glossary/       # Historical entities (people, places, etc.) and themes
 │   ├── cz/                  # Czech translations
 │   ├── uk/                  # Ukrainian translations
 │   ├── en/                  # English translations
@@ -38,7 +38,7 @@ Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote
 │   ├── shared/              # Shared TypeScript utilities
 │   └── scripts/             # Node.js utility scripts
 │
-├── raw/                     # Scanned original books and resources
+├── raw/                     # Scans of original books and resources
 ├── docs/                    # Documentation
 │   └── prompts/             # Translation style guides
 └── .claude/                 # Claude Code agent configuration
@@ -115,11 +115,11 @@ The AstroJS [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/P
 
 - **Year-based navigation** - Browse by year (1873-1884) with Marie's age
 - **Carnet browsing** - View entries within each notebook
-- **Flip cards** - See French original alongside Czech translation
+- **Flip cards** - See French original alongside translations by clicking icon on top right of paragraphs
 - **Paragraph linking** - Deep links to specific paragraphs
-- **Glossary integration** - Hover for historical context
+- **Glossary integration** - Paragraph menu with glossary links for historical context
 - **PWA support** - Offline reading capability
-- **Multi-language UI** - Czech, English, French interfaces
+- **Multi-language UI** 
 
 ## Development
 
@@ -127,6 +127,7 @@ The AstroJS [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/P
 
 - Node.js 18+
 - npm 9+
+- [Just](https://just.systems) command runner
 
 ### Setup
 
@@ -174,10 +175,9 @@ Use `/project-status` to check progress and track work across the project.
 
 ## Contributing
 
-We welcome contributions in any language! See **[CONTRIBUTING.md](CONTRIBUTING.md)** for:
+We welcome discussion about the project and contributions in any language! See **[CONTRIBUTING.md](CONTRIBUTING.md)** for:
 
-- Setting up your development environment
-- Configuring your worker profile
+- Setting up your environment
 - Using the translation workflow
 - Submitting pull requests
 
@@ -206,3 +206,10 @@ Join the discussion at [/r/bashkirtseff](https://www.reddit.com/r/bashkirtseff) 
 - **Live site**: https://bashkirtseff.org
 - **Source**: https://github.com/archetypal-cz/bashkirtseff
 - **Community**: https://www.reddit.com/r/bashkirtseff
+
+## FAQ
+
+- ** Can I buy an ebook? **
+  Not yet. Please use our website for reading, it can be installed as an app. We'll look at publishing once the translations exist and have good quality. For (shortened but very good) English translation, you can [buy Katherine Kernberger dual volume](https://www.amazon.com/Journal-Marie-Bashkirtseff-Interesting-Glory-ebook/dp/B00BMEMB4Q?), none of the other available editions come from the uncensored version.
+- ** I don't know anything about programming, how can I support this project? **
+  You can become a [GitHub Sponsor](https://github.com/sponsors/kerray)
