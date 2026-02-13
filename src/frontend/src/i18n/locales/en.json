@@ -40,10 +40,21 @@
   },
   "nav": {
     "diary": "Diary",
+    "translation": "Translation",
     "original": "Original",
     "glossary": "Glossary",
     "marie": "Marie",
     "about": "About"
+  },
+  "translation": {
+    "heading": "Diary Translations",
+    "intro": "We are translating Marie Bashkirtseff's complete, uncensored diary into many languages. Translations are created with AI assistance and human review.",
+    "chooseLanguage": "Available translations",
+    "comingSoon": "Coming soon",
+    "czech": "Czech",
+    "english": "English",
+    "ukrainian": "Ukrainian",
+    "french": "French (modern edition)"
   },
   "pwa": {
     "installApp": "Install App",
@@ -78,7 +89,8 @@
   },
   "language": {
     "original": "Original (multilingual)",
-    "translation": "Translation: {lang}"
+    "translation": "Translation: {lang}",
+    "unavailable": "Translation not yet available. Help us!"
   },
   "paragraph": {
     "options": "Paragraph options",
@@ -227,7 +239,10 @@
     "or": "or",
     "clearFilter": "Clear filter",
     "bannerCount": "Filtered: {matching} of {total} entries",
-    "bannerCarnet": "Showing {matching} of {total} entries ({hidden} hidden)"
+    "bannerCarnet": "Showing {matching} of {total} entries ({hidden} hidden)",
+    "paragraphsHidden": "{count} paragraphs hidden",
+    "showHidden": "Show hidden",
+    "hideFiltered": "Hide filtered"
   },
   "glossary": {
     "title": "Glossary",
@@ -246,6 +261,8 @@
     "pronunciationTitle": "Hear pronunciation"
   },
   "diary": {
+    "subtitle": "Work-in-progress AI-assisted, human-refined translation of the complete diary",
+    "aboutLink": "The diary's story and how to contribute",
     "pageTitle": "Diary of Marie Bashkirtseff",
     "pageTitleOriginal": "Diary of Marie Bashkirtseff — Original Text",
     "pageTitleTranslation": "Diary of Marie Bashkirtseff — {lang}",
@@ -288,6 +305,8 @@
     "frenchOriginal": "French original",
     "showInDiary": "Show in diary",
     "alsoKnownAs": "Also known as:",
-    "mentions": "{count} mentions"
+    "mentions": "{count} mentions",
+    "notebooks": "notebooks",
+    "crossYearContinues": "Continues to year {years}"
   }
 }

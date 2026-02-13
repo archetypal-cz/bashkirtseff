@@ -2,6 +2,7 @@
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
+import I18nPatch from '../../../components/I18nPatch.astro';
 import { getYears, getCarnetsByYear, getYearInfo, isCarnetCrossYear } from '../../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
@@ -94,35 +95,35 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted">
-      <a href={basePath} class="hover:text-accent">{diaryLabel}</a>
+      <a href={basePath} class="hover:text-accent" data-t="diary.diary">{diaryLabel}</a>
       <span class="mx-2">&rsaquo;</span>
-      <span class="text-ink">{t('diary.year', { year })}</span>
+      <span class="text-ink" data-t="diary.year" data-t-params={JSON.stringify({ year })}>{t('diary.year', { year })}</span>
     </nav>
 
     <header class="mb-8">
-      <h1 class="text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);">
+      <h1 class="text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);" data-t="diary.year" data-t-params={JSON.stringify({ year })}>
         {t('diary.year', { year })}
       </h1>
 
       {yearInfo && (
         <p class="text-ink-light mb-4">
-          Marie Bashkirtseff ({yearInfo.marieAge} let)
+          Marie Bashkirtseff ({yearInfo.marieAge} <span data-t="home.yearsOld">{t('home.yearsOld')}</span>)
         </p>
       )}
 
       <div class="flex items-center gap-4 text-sm flex-wrap">
         <span class="text-muted">
-          {carnetsWithStatus.length} sešitů
+          {carnetsWithStatus.length} <span data-t="diary.notebooks">{t('diary.notebooks')}</span>
         </span>
         <span class="text-muted">&bull;</span>
         <span class="text-muted">
-          {totalEntries} {t('diary.entries')}
+          {totalEntries} <span data-t="diary.entries">{t('diary.entries')}</span>
         </span>
         {lang.isTranslation && (
           <>
             <span class="text-muted">&bull;</span>
             <span class="text-accent">
-              {totalTranslated} {t('diary.translated')}
+              {totalTranslated} <span data-t="diary.translated">{t('diary.translated')}</span>
             </span>
           </>
         )}
@@ -136,7 +137,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
               style={`width: ${(totalTranslated / totalEntries) * 100}%`}
             />
           </div>
-          <p class="text-xs text-muted mt-1">
+          <p class="text-xs text-muted mt-1" data-t="diary.completed" data-t-params={JSON.stringify({ percent: Math.round((totalTranslated / totalEntries) * 100) })}>
             {t('diary.completed', { percent: Math.round((totalTranslated / totalEntries) * 100) })}
           </p>
         </div>
@@ -178,10 +179,10 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
             <div class="flex-1">
               <div class="flex items-center gap-3">
                 <span class="text-ink font-medium">
-                  {t('diary.notebook')} {carnet.id}
+                  <span data-t="diary.notebook">{t('diary.notebook')}</span> {carnet.id}
                 </span>
                 {carnet.crossYear && (
-                  <span class="text-xs px-2 py-0.5 bg-amber-100 text-amber-700 rounded" title={`Pokračuje do roku ${carnet.allYears.filter(y => y !== yearNum).join(', ')}`}>
+                  <span class="text-xs px-2 py-0.5 bg-amber-100 text-amber-700 rounded" title={t('diary.crossYearContinues', { years: carnet.allYears.filter(y => y !== yearNum).join(', ') })}>
                     {carnet.allYears[0] < yearNum ? `← ${carnet.allYears[0]}` : ''}
                     {carnet.allYears[carnet.allYears.length - 1] > yearNum ? `→ ${carnet.allYears[carnet.allYears.length - 1]}` : ''}
                   </span>
@@ -196,10 +197,10 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
                 <p class="text-sm text-muted mt-1">
                   {formatDateRange(carnet.dateRange.start, carnet.dateRange.end)}
                   <span class="mx-2">&bull;</span>
-                  <span data-filter-count={`carnet-entries:${carnet.id}`}>{carnet.entriesInYear}</span> {t('diary.entries')}
+                  <span data-filter-count={`carnet-entries:${carnet.id}`}>{carnet.entriesInYear}</span> <span data-t="diary.entries">{t('diary.entries')}</span>
                   {lang.isTranslation && carnet.translatedCount > 0 && carnet.translatedCount < carnet.entriesInYear && (
                     <span class="text-accent ml-1">
-                      ({carnet.translatedCount} {t('diary.translated')})
+                      ({carnet.translatedCount} <span data-t="diary.translated">{t('diary.translated')}</span>)
                     </span>
                   )}
                 </p>
@@ -215,15 +216,16 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 
     {carnetsWithStatus.length === 0 && (
       <div class="text-center py-12 text-muted">
-        <p>{t('diary.noCarnetsFound')}</p>
+        <p data-t="diary.noCarnetsFound">{t('diary.noCarnetsFound')}</p>
       </div>
     )}
 
     <!-- Back link -->
     <div class="mt-8 pt-8 border-t border-ink/10">
       <a href={basePath} class="text-accent hover:text-accent-light transition-colors">
-        &larr; {t('diary.allNotebooks')}
+        &larr; <span data-t="diary.allNotebooks">{t('diary.allNotebooks')}</span>
       </a>
     </div>
   </div>
+  <I18nPatch />
 </ReadingLayout>

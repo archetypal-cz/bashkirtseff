@@ -40,10 +40,21 @@
   },
   "nav": {
     "diary": "Journal",
+    "translation": "Traduction",
     "original": "Original",
     "glossary": "Glossaire",
     "marie": "Marie",
     "about": "À propos"
+  },
+  "translation": {
+    "heading": "Traductions du journal",
+    "intro": "Nous traduisons le journal complet et non censuré de Marie Bashkirtseff en plusieurs langues. Les traductions sont réalisées avec l'aide de l'IA et une révision humaine.",
+    "chooseLanguage": "Traductions disponibles",
+    "comingSoon": "Bientôt disponible",
+    "czech": "Tchèque",
+    "english": "Anglais",
+    "ukrainian": "Ukrainien",
+    "french": "Français (édition moderne)"
   },
   "pwa": {
     "installApp": "Installer l'application",
@@ -78,7 +89,8 @@
   },
   "language": {
     "original": "Original (multilingue)",
-    "translation": "Traduction : {lang}"
+    "translation": "Traduction : {lang}",
+    "unavailable": "Traduction pas encore disponible. Aidez-nous !"
   },
   "paragraph": {
     "options": "Options du paragraphe",
@@ -227,7 +239,10 @@
     "or": "ou",
     "clearFilter": "Annuler le filtre",
     "bannerCount": "Filtré : {matching} sur {total} entrées",
-    "bannerCarnet": "Affiché {matching} sur {total} entrées ({hidden} masquées)"
+    "bannerCarnet": "Affiché {matching} sur {total} entrées ({hidden} masquées)",
+    "paragraphsHidden": "{count} paragraphes masqués",
+    "showHidden": "Afficher les masqués",
+    "hideFiltered": "Masquer les filtrés"
   },
   "glossary": {
     "title": "Glossaire",
@@ -246,6 +261,8 @@
     "pronunciationTitle": "Écouter la prononciation"
   },
   "diary": {
+    "subtitle": "Traduction en cours, assistée par IA et affinée par des humains, du journal complet",
+    "aboutLink": "L'histoire du journal et comment contribuer",
     "pageTitle": "Journal de Marie Bashkirtseff",
     "pageTitleOriginal": "Journal de Marie Bashkirtseff — Texte original",
     "pageTitleTranslation": "Journal de Marie Bashkirtseff — {lang}",
@@ -288,6 +305,8 @@
     "frenchOriginal": "Original français",
     "showInDiary": "Voir dans le journal",
     "alsoKnownAs": "Également connu sous :",
-    "mentions": "{count} mentions"
+    "mentions": "{count} mentions",
+    "notebooks": "cahiers",
+    "crossYearContinues": "Continue en {years}"
   }
 }

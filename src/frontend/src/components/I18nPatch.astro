@@ -1,0 +1,70 @@
+---
+/**
+ * I18nPatch — client-side i18n patching for statically-rendered Astro pages.
+ *
+ * Problem: Pages like /original render at build time with a fixed uiLocale (Czech).
+ * When the user's GUI preference (localStorage 'ui-language') differs, all the static
+ * text stays in Czech until Vue islands hydrate — but most text lives outside islands.
+ *
+ * Solution: Mark translatable elements with `data-t="key"` (and optionally
+ * `data-t-params='{"age": 14}'`). This inline script runs immediately on page load,
+ * reads the user's locale preference, and patches textContent.
+ *
+ * Usage in an Astro page:
+ *   <p data-t="diary.heading">{t('diary.heading')}</p>
+ *   <p data-t="home.yearsOld" data-t-params={JSON.stringify({ age: 14 })}>14 let</p>
+ *   <I18nPatch />
+ *
+ * The component embeds all four locale message files so any key can be resolved.
+ */
+import cs from '../i18n/locales/cs.json';
+import en from '../i18n/locales/en.json';
+import fr from '../i18n/locales/fr.json';
+import uk from '../i18n/locales/uk.json';
+
+// Serialize as JSON for the inline script
+const localesJson = JSON.stringify({ cs, en, fr, uk });
+---
+
+<script is:inline define:vars={{ localesJson }}>
+(function() {
+  var locale = localStorage.getItem('ui-language');
+  if (!locale || locale === 'cs') return; // Czech is the SSR default — nothing to patch
+
+  var allMessages = JSON.parse(localesJson);
+  var messages = allMessages[locale];
+  if (!messages) return;
+
+  function getNestedValue(obj, path) {
+    var keys = path.split('.');
+    var value = obj;
+    for (var i = 0; i < keys.length; i++) {
+      if (value && typeof value === 'object' && keys[i] in value) {
+        value = value[keys[i]];
+      } else {
+        return null;
+      }
+    }
+    return typeof value === 'string' ? value : null;
+  }
+
+  function replacePlaceholders(str, params) {
+    if (!params) return str;
+    return str.replace(/\{(\w+)\}/g, function(_, key) {
+      return (key in params) ? String(params[key]) : '{' + key + '}';
+    });
+  }
+
+  var elements = document.querySelectorAll('[data-t]');
+  for (var i = 0; i < elements.length; i++) {
+    var el = elements[i];
+    var key = el.getAttribute('data-t');
+    var translated = getNestedValue(messages, key);
+    if (translated !== null) {
+      var paramsAttr = el.getAttribute('data-t-params');
+      var params = paramsAttr ? JSON.parse(paramsAttr) : null;
+      el.textContent = replacePlaceholders(translated, params);
+    }
+  }
+})();
+</script>

@@ -123,6 +123,25 @@ export function getLocale(): SupportedLocale {
   return currentLocale.value;
 }
 
+/**
+ * Get the translation content path for the current UI locale.
+ * Maps locale → content URL path, falling back to /cz if the
+ * locale's translation pages don't exist yet.
+ */
+export function getTranslationHref(locale: SupportedLocale): string {
+  // French users read the original — it IS their content
+  if (locale === 'fr') {
+    return '/original';
+  }
+  const contentPath = localeToContentPath(locale);
+  // Active translation content paths — must mirror DIARY_LANGUAGES isTranslation entries
+  const activeTranslations = new Set(['cz']);
+  if (activeTranslations.has(contentPath)) {
+    return `/${contentPath}`;
+  }
+  return '/cz';
+}
+
 // Composable for use in Vue components
 export function useI18n() {
   const locale = computed(() => currentLocale.value);

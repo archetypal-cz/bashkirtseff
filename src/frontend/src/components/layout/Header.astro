@@ -1,5 +1,6 @@
 ---
 // Header component with navigation and locale switcher
+import HeaderNav from './HeaderNav.vue';
 import LocaleSwitcher from './LocaleSwitcher.vue';
 import UnifiedMenu from './UnifiedMenu.vue';
 import OfflineStatus from '../pwa/OfflineStatus.vue';
@@ -11,31 +12,13 @@ import { t } from '../../i18n/astro';
     <div class="flex items-center justify-between h-14 md:h-16">
       <!-- Logo / Title -->
       <a href="/" class="flex items-center gap-2 text-ink hover:text-accent transition-colors">
-        <span class="text-lg md:text-xl font-semibold" style="font-family: var(--font-serif);">
+        <span id="site-title" class="text-lg md:text-xl font-semibold" style="font-family: var(--font-serif);">
           {t('header.siteTitle')}
         </span>
       </a>
 
-      <!-- Navigation (desktop) -->
-      <nav class="hidden md:flex items-center gap-6">
-        <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
-             The diary entries currently only exist in Czech translation at /cz/. -->
-        <a href="/cz" class="text-ink-light hover:text-accent transition-colors">
-          {t('nav.diary')}
-        </a>
-        <a href="/original" class="text-ink-light hover:text-accent transition-colors">
-          {t('nav.original')}
-        </a>
-        <a href="/glossary" class="text-ink-light hover:text-accent transition-colors">
-          {t('nav.glossary')}
-        </a>
-        <a href="/marie" class="text-ink-light hover:text-accent transition-colors">
-          {t('nav.marie')}
-        </a>
-        <a href="/about" class="text-ink-light hover:text-accent transition-colors">
-          {t('nav.about')}
-        </a>
-      </nav>
+      <!-- Navigation (desktop) — Vue island for reactive locale -->
+      <HeaderNav client:idle />
 
       <!-- Right side: Locale switcher + Login + Mobile Menu -->
       <div class="flex items-center gap-2 md:gap-4">
@@ -47,9 +30,24 @@ import { t } from '../../i18n/astro';
 
         <!-- Unified Menu (settings + contents + filter + nav on mobile) -->
         <UnifiedMenu client:load />
-
-
       </div>
     </div>
   </div>
 </header>
+
+<script is:inline>
+// Update site title from user's locale preference (static HTML is always Czech)
+(function() {
+  var titles = {
+    cs: 'Deník Marie Bashkirtseff',
+    en: 'Diary of Marie Bashkirtseff',
+    fr: 'Journal de Marie Bashkirtseff',
+    uk: 'Щоденник Марії Башкирцевої'
+  };
+  var locale = localStorage.getItem('ui-language');
+  if (locale && titles[locale]) {
+    var el = document.getElementById('site-title');
+    if (el) el.textContent = titles[locale];
+  }
+})();
+</script>

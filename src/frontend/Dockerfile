@@ -30,6 +30,12 @@ COPY content/ ./content/
 # Copy .git for commit hash extraction
 COPY .git ./.git/
 
+# Umami analytics (set at build time, appears in static HTML)
+ARG PUBLIC_UMAMI_WEBSITE_ID=""
+ARG PUBLIC_UMAMI_URL=""
+ENV PUBLIC_UMAMI_WEBSITE_ID=$PUBLIC_UMAMI_WEBSITE_ID
+ENV PUBLIC_UMAMI_URL=$PUBLIC_UMAMI_URL
+
 # Build the frontend application
 WORKDIR /app/src/frontend
 RUN npm run build

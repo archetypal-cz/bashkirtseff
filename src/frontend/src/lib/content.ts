@@ -1042,7 +1042,7 @@ export function hasTranslation(carnetId: string, entryDate: string, language: st
  * Use contentPathToLocale() from i18n/index.ts if you need locale codes.
  */
 export function getAvailableLanguages(carnetId: string, entryDate: string): string[] {
-  const languages = ['original'];
+  const languages = ['_original'];
 
   // Check all translation directories for this entry
   const translationDirs = ['cz', 'en', 'uk', 'fr'];

@@ -190,6 +190,26 @@ function entryHref(entry: typeof allEntries[0]): string {
         <!-- Carnet Header (wider 1st column) -->
         <header class="summary-card p-5 rounded-lg flex flex-col justify-between">
           <div>
+            {/* Prev/next carnet navigation in header */}
+            <nav class="flex justify-between items-center mb-3 text-sm">
+              {prevCarnet ? (
+                <a href={`${basePath}/${prevCarnet.id}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                  </svg>
+                  {t('diary.notebook')} {prevCarnet.id}
+                </a>
+              ) : <span />}
+              {nextCarnet ? (
+                <a href={`${basePath}/${nextCarnet.id}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+                  {t('diary.notebook')} {nextCarnet.id}
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              ) : <span />}
+            </nav>
+
             <h1 class="text-3xl font-normal text-ink mb-3" style="font-family: var(--font-serif); text-shadow: 0 1px 2px rgba(44,24,16,0.08);">
               {t('diary.notebook')} {carnet}
             </h1>
