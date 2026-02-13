@@ -22,8 +22,10 @@ export interface FilterEntryRecord {
   p?: string[];
   /** Place entity IDs */
   pl?: string[];
-  /** Cultural reference IDs */
+  /** Cultural reference IDs (art, institutions, etc.) */
   cu?: string[];
+  /** Theme/description tag IDs (from culture/themes/) */
+  th?: string[];
   /** Kernberger covered (present = true) */
   k?: true;
   /** Censored 1887 included (present = true) */
@@ -46,7 +48,7 @@ export interface FilterTag {
 
 /** A top-level filter category containing tags */
 export interface FilterCategory {
-  /** Category key: "editions", "people", "places", "culture", "languages", "location" */
+  /** Category key: "editions", "people", "places", "culture", "themes", "location" */
   key: string;
   /** Display label (i18n key) */
   label: string;

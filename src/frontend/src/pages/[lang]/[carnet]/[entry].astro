@@ -2,39 +2,51 @@
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
-
+import FlipParagraph from '../../../components/reading/FlipParagraph.vue';
 import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages } from '../../../lib/content';
+import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { createT } from '../../../i18n/astro';
 
 export function getStaticPaths() {
-  const carnets = getCarnets('_original');
+  const paths: { params: { lang: string; carnet: string; entry: string }; props: { lang: DiaryLanguageConfig } }[] = [];
 
-  const paths = [];
-  for (const carnet of carnets) {
-    // Skip Carnet 000 - it has special handling in /original/000/index.astro
-    if (carnet.id === '000') continue;
+  for (const lang of DIARY_LANGUAGES) {
+    const carnets = getCarnets(lang.contentPath);
+    for (const carnet of carnets) {
+      // Skip Carnet 000 - it has special handling in /[lang]/000/index.astro
+      if (carnet.id === '000') continue;
 
-    const entries = getCarnetEntries(carnet.id, '_original');
-    for (const entry of entries) {
-      paths.push({
-        params: { carnet: carnet.id, entry },
-      });
+      const entries = getCarnetEntries(carnet.id, lang.contentPath);
+      for (const entry of entries) {
+        paths.push({
+          params: { lang: lang.urlPath, carnet: carnet.id, entry },
+          props: { lang },
+        });
+      }
     }
   }
 
   return paths;
 }
 
-const { carnet, entry: entryDate } = Astro.params;
-
-const entry = getEntry(carnet!, entryDate!, '_original');
-const nav = getEntryNavigation(carnet!, entryDate!, '_original');
-const availableLanguages = getAvailableLanguages(carnet!, entryDate!);
-const carnetEntries = getCarnetEntries(carnet!, '_original').map(date => ({ date }));
-
-if (!entry) {
-  return Astro.redirect('/original');
+interface Props {
+  lang: DiaryLanguageConfig;
 }
 
+const { lang } = Astro.props;
+const { carnet, entry: entryDate } = Astro.params;
+const t = createT(lang.uiLocale);
+
+const entry = getEntry(carnet!, entryDate!, lang.contentPath);
+const nav = getEntryNavigation(carnet!, entryDate!, lang.contentPath);
+const availableLanguages = getAvailableLanguages(carnet!, entryDate!);
+const carnetEntries = getCarnetEntries(carnet!, lang.contentPath).map(date => ({ date }));
+
+if (!entry) {
+  return Astro.redirect(`/${lang.urlPath}`);
+}
+
+// Process content to add paragraph anchors
 const processedParagraphs = entry.paragraphs.map(p => ({
   ...p,
   htmlId: `p-${p.id.replace('.', '-')}`,
@@ -45,14 +57,19 @@ const firstParagraphText = entry.paragraphs[0]?.html
   ?.replace(/<[^>]*>/g, '')
   ?.slice(0, 160)
   ?.trim() + '...' || '';
-const pageDescription = `Original diary entry from ${entry.title} in Carnet ${carnet}. ${firstParagraphText}`;
+const pageDescription = `${lang.isTranslation ? '' : 'Original '}Diary entry from ${entry.title} in Carnet ${carnet}. ${firstParagraphText}`;
 
 // Format date for article metadata
 const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefined;
+
+// Language value for LanguageSwitcher and sidebar data
+const languageValue = lang.isTranslation ? lang.urlPath : '_original';
+
+const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 ---
 
 <ReadingLayout
-  title={`${entry.title} — Sešit ${carnet}`}
+  title={`${entry.title} — ${t('diary.notebook')} ${carnet}`}
   description={pageDescription}
   type="article"
   article={{
@@ -65,7 +82,7 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
     carnet,
     entries: carnetEntries,
     currentEntry: entryDate,
-    language: "_original",
+    language: languageValue,
     selectedDate: entryDate
   }) }}>
     window.__sidebarData = JSON.parse(__sidebarJSON);
@@ -74,10 +91,10 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
   <article class="max-w-3xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-6 text-sm text-muted">
-      <a href="/original" class="hover:text-accent">Deník</a>
-      <span class="mx-2">›</span>
-      <a href={`/original/${carnet}`} class="hover:text-accent">Sešit {carnet}</a>
-      <span class="mx-2">›</span>
+      <a href={`/${lang.urlPath}`} class="hover:text-accent">{diaryLabel}</a>
+      <span class="mx-2">&rsaquo;</span>
+      <a href={`/${lang.urlPath}/${carnet}`} class="hover:text-accent">{t('diary.notebook')} {carnet}</a>
+      <span class="mx-2">&rsaquo;</span>
       <span class="text-ink">{entryDate}</span>
     </nav>
 
@@ -87,7 +104,7 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
         {/* Language Switcher with scroll preservation */}
         <LanguageSwitcher
           client:load
-          currentLanguage="_original"
+          currentLanguage={languageValue}
           carnet={carnet!}
           entryDate={entryDate!}
           availableLanguages={availableLanguages}
@@ -97,14 +114,14 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
         <nav class="flex items-center gap-3 text-sm">
           {nav.prev ? (
             <a
-              href={`/original/${carnet}/${nav.prev}`}
+              href={`/${lang.urlPath}/${carnet}/${nav.prev}`}
               class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
-              title="Předchozí záznam"
+              title={t('diary.previousEntry')}
             >
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
               </svg>
-              <span class="hidden sm:inline">Předchozí</span>
+              <span class="hidden sm:inline">{t('diary.previousEntry')}</span>
             </a>
           ) : (
             <span class="text-muted/30 flex items-center gap-1">
@@ -113,16 +130,16 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
               </svg>
             </span>
           )}
-          <a href={`/original/${carnet}`} class="text-muted hover:text-ink transition-colors" title="Přehled sešitu">
-            Sešit {carnet}
+          <a href={`/${lang.urlPath}/${carnet}`} class="text-muted hover:text-ink transition-colors" title={t('diary.carnetOverview')}>
+            {t('diary.notebook')} {carnet}
           </a>
           {nav.next ? (
             <a
-              href={`/original/${carnet}/${nav.next}`}
+              href={`/${lang.urlPath}/${carnet}/${nav.next}`}
               class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
-              title="Další záznam"
+              title={t('diary.nextEntry')}
             >
-              <span class="hidden sm:inline">Další</span>
+              <span class="hidden sm:inline">{t('diary.nextEntry')}</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
               </svg>
@@ -147,17 +164,45 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
           id={paragraph.htmlId}
           class="group relative paragraph-container scroll-mt-24"
           data-paragraph-id={paragraph.id}
+          style={lang.isTranslation ? "perspective: 1000px;" : undefined}
         >
-          <p class="text-lg leading-relaxed text-ink" lang="fr" set:html={paragraph.html} />
+          {lang.isTranslation ? (
+            <>
+              {/* Flip card with translation and original */}
+              <FlipParagraph
+                client:visible
+                paragraphId={paragraph.id}
+                htmlContent={paragraph.html}
+                originalText={paragraph.originalText}
+                languages={paragraph.languages}
+                translationLang={lang.urlPath}
+              />
 
-          {/* Paragraph menu - positioned at top right */}
-          <div class="absolute -top-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
-            <ParagraphMenu
-              client:visible
-              paragraphId={paragraph.id}
-              glossaryTags={paragraph.glossaryTags}
-            />
-          </div>
+              {/* Paragraph menu - positioned at top right, next to flip button */}
+              <div class="absolute -top-3 right-16 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10" style="transform: translateZ(100px); transform-style: flat;">
+                <ParagraphMenu
+                  client:visible
+                  paragraphId={paragraph.id}
+                  glossaryTags={paragraph.glossaryTags}
+                  language={lang.urlPath}
+                />
+              </div>
+            </>
+          ) : (
+            <>
+              <div class="text-lg leading-relaxed text-ink" lang={lang.contentLangAttr} set:html={paragraph.html} />
+
+              {/* Paragraph menu - positioned at top right */}
+              <div class="absolute -top-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
+                <ParagraphMenu
+                  client:visible
+                  paragraphId={paragraph.id}
+                  glossaryTags={paragraph.glossaryTags}
+                  language={lang.urlPath}
+                />
+              </div>
+            </>
+          )}
         </div>
       ))}
     </div>
@@ -165,7 +210,7 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
     {/* Footnotes */}
     {entry.footnotes.length > 0 && (
       <section class="footnotes">
-        <h2 class="footnotes-title">Poznámky</h2>
+        <h2 class="footnotes-title">{t('diary.notes')}</h2>
         {entry.footnotes.map(fn => (
           <div
             id={`fn-${fn.id}`}
@@ -173,7 +218,7 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
             data-fn={fn.id}
           >
             <span set:html={fn.text} />
-            <a href={`#fnref-${fn.id}`} class="footnote-backref" title="Zpět na text">&#x21A9;</a>
+            <a href={`#fnref-${fn.id}`} class="footnote-backref" title={t('diary.backToText')}>&#x21A9;</a>
           </div>
         ))}
       </section>
@@ -183,28 +228,28 @@ const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefi
     <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center">
       {nav.prev ? (
         <a
-          href={`/original/${carnet}/${nav.prev}`}
+          href={`/${lang.urlPath}/${carnet}/${nav.prev}`}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
         >
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
-          <span>Předchozí záznam</span>
+          <span>{t('diary.previousEntry')}</span>
         </a>
       ) : (
         <div />
       )}
 
-      <a href={`/original/${carnet}`} class="text-muted hover:text-ink transition-colors">
-        Přehled sešitu
+      <a href={`/${lang.urlPath}/${carnet}`} class="text-muted hover:text-ink transition-colors">
+        {t('diary.carnetOverview')}
       </a>
 
       {nav.next ? (
         <a
-          href={`/original/${carnet}/${nav.next}`}
+          href={`/${lang.urlPath}/${carnet}/${nav.next}`}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
         >
-          <span>Další záznam</span>
+          <span>{t('diary.nextEntry')}</span>
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>

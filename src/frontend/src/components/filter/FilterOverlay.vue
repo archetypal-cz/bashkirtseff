@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import { onMounted, watch, ref, nextTick } from 'vue';
+import { onMounted, watch, ref, computed, nextTick } from 'vue';
 import { useFilterStore } from '../../stores/filter';
+import { useI18n } from '../../i18n';
+
+const { t, locale } = useI18n();
 
 const props = defineProps<{
   pageType: 'year-list' | 'year-detail' | 'carnet-detail' | 'carnets-list';
@@ -10,7 +13,48 @@ const filterStore = useFilterStore();
 
 // Store original counts to restore when filter is cleared
 const originalCounts = ref<Map<string, string>>(new Map());
-const bannerEl = ref<HTMLElement | null>(null);
+
+/** Active tag names across all categories */
+const activeTagNames = computed<string[]>(() => {
+  if (!filterStore.isActive || !filterStore.index) return [];
+  const names: string[] = [];
+  for (const [catKey, ids] of Object.entries(filterStore.selectedTags)) {
+    if (ids.length === 0) continue;
+    const category = filterStore.index.categories.find(c => c.key === catKey);
+    if (!category) continue;
+    const idSet = new Set(ids);
+    for (const tag of category.tags) {
+      if (idSet.has(tag.id)) names.push(tag.name);
+    }
+  }
+  return names;
+});
+
+const multiCategoryActive = computed(() =>
+  Object.values(filterStore.selectedTags).filter(tags => tags.length > 0).length >= 2
+);
+
+const bannerTagsText = computed(() => {
+  if (activeTagNames.value.length === 0) return '';
+  const joiner = multiCategoryActive.value
+    ? (filterStore.filterMode === 'and' ? ` ${t('filter.and')} ` : ` ${t('filter.or')} `)
+    : ', ';
+  return activeTagNames.value.join(joiner);
+});
+
+// For carnet-detail, counts come from DOM after applyFilter
+const carnetBannerText = ref('');
+
+const bannerCountText = computed(() => {
+  if (props.pageType === 'carnet-detail') return carnetBannerText.value;
+  const total = filterStore.index?.totalEntries || 0;
+  const matching = filterStore.matchingEntries.length;
+  return t('filter.bannerCount')
+    .replace('{matching}', matching.toLocaleString())
+    .replace('{total}', total.toLocaleString());
+});
+
+const showBannerFlag = computed(() => filterStore.isActive && !!filterStore.index);
 
 onMounted(async () => {
   filterStore.init();
@@ -31,7 +75,7 @@ onMounted(async () => {
 
 // Watch for filter changes
 watch(
-  () => [filterStore.isActive, filterStore.activeTagCount, filterStore.matchingEntryIds.size],
+  () => [filterStore.isActive, filterStore.activeTagCount, filterStore.matchingEntryIds.size, filterStore.filterMode],
   () => {
     if (!filterStore.index) return;
     if (filterStore.isActive) {
@@ -106,8 +150,8 @@ function applyFilter() {
     }
   });
 
-  // Show/update banner
-  showBanner();
+  // Update carnet-detail banner text (other pages use computed)
+  updateCarnetBanner();
 }
 
 function resetFilter() {
@@ -126,32 +170,19 @@ function resetFilter() {
     if (original) el.textContent = original;
   });
 
-  // Remove banner
-  hideBanner();
+  // Reset carnet banner text
+  carnetBannerText.value = '';
 }
 
-function showBanner() {
-  if (!bannerEl.value) return;
-  bannerEl.value.style.display = 'flex';
-  const textEl = bannerEl.value.querySelector('.banner-text');
-  if (!textEl) return;
-
+function updateCarnetBanner() {
   if (props.pageType === 'carnet-detail') {
-    // Count visible vs total entries on this page
     const allEntryEls = document.querySelectorAll('[data-filter-entry]');
-    const matchingCount = document.querySelectorAll('[data-filter-entry].filter-match').length;
-    const hiddenCount = allEntryEls.length - matchingCount;
-    textEl.textContent = `Zobrazeno ${matchingCount} z ${allEntryEls.length} záznamů (${hiddenCount} skryto)`;
-  } else {
-    const total = filterStore.index?.totalEntries || 0;
-    const matching = filterStore.matchingEntries.length;
-    textEl.textContent = `Filtrováno: ${matching.toLocaleString('cs-CZ')} z ${total.toLocaleString('cs-CZ')} záznamů`;
-  }
-}
-
-function hideBanner() {
-  if (bannerEl.value) {
-    bannerEl.value.style.display = 'none';
+    const matchCount = document.querySelectorAll('[data-filter-entry].filter-match').length;
+    const hiddenCount = allEntryEls.length - matchCount;
+    carnetBannerText.value = t('filter.bannerCarnet')
+      .replace('{matching}', String(matchCount))
+      .replace('{total}', String(allEntryEls.length))
+      .replace('{hidden}', String(hiddenCount));
   }
 }
 
@@ -170,7 +201,10 @@ function injectFilterNav(matchingEntryIds: Set<string>) {
 
   // Get active filter label(s) for display
   const activeLabels = getActiveFilterLabels();
-  const labelStr = activeLabels.length > 0 ? activeLabels.join(', ') : 'filtr';
+  const joiner = multiCategoryActive.value
+    ? (filterStore.filterMode === 'and' ? ` ${t('filter.and')} ` : ` ${t('filter.or')} `)
+    : ', ';
+  const labelStr = activeLabels.length > 0 ? activeLabels.join(joiner) : t('filter.title');
 
   for (let i = 0; i < matchingEls.length; i++) {
     const el = matchingEls[i];
@@ -238,20 +272,20 @@ function dateDiffDays(dateA: string, dateB: string): number {
 function formatShortDate(dateStr: string): string {
   const datePart = dateStr.split('-').slice(0, 3).join('-');
   const d = new Date(datePart);
-  return d.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'short' });
+  const localeMap: Record<string, string> = { cs: 'cs-CZ', fr: 'fr-FR', en: 'en-US', uk: 'uk-UA' };
+  return d.toLocaleDateString(localeMap[locale.value] || 'cs-CZ', { day: 'numeric', month: 'short' });
 }
 
 </script>
 
 <template>
-  <div
-    ref="bannerEl"
-    class="filter-banner"
-    style="display: none"
-  >
-    <span class="banner-text"></span>
+  <div v-if="showBannerFlag" class="filter-banner">
+    <div class="banner-content">
+      <span v-if="bannerTagsText" class="banner-tags">{{ bannerTagsText }}</span>
+      <span class="banner-text">{{ bannerCountText }}</span>
+    </div>
     <button class="banner-clear" @click="filterStore.clearAll()">
-      Zrušit filtr
+      {{ t('filter.clearFilter') }}
     </button>
   </div>
 </template>
@@ -261,6 +295,7 @@ function formatShortDate(dateStr: string): string {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 8px;
   padding: 8px 16px;
   margin-bottom: 12px;
   border-radius: 8px;
@@ -269,10 +304,27 @@ function formatShortDate(dateStr: string): string {
   font-family: var(--font-sans);
 }
 
-.banner-text {
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.banner-tags {
   font-size: 13px;
   color: var(--color-accent, #B45309);
-  font-weight: 500;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.banner-text {
+  font-size: 12px;
+  color: var(--color-accent, #B45309);
+  font-weight: 400;
+  opacity: 0.8;
 }
 
 .banner-clear {
@@ -285,6 +337,7 @@ function formatShortDate(dateStr: string): string {
   cursor: pointer;
   white-space: nowrap;
   font-family: var(--font-sans);
+  flex-shrink: 0;
 }
 
 .banner-clear:hover {

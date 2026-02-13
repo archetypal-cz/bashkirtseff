@@ -36,6 +36,7 @@ interface FilterEntryRecord {
   p?: string[];
   pl?: string[];
   cu?: string[];
+  th?: string[];
   k?: true;
   x?: true;
   n?: number;
@@ -105,6 +106,18 @@ function main() {
   const placesSubcats = buildSubcategoryMap('places');
   const cultureSubcats = buildSubcategoryMap('culture');
 
+  // Build set of theme IDs (entries in culture/themes/ directory)
+  // Store lowercase for case-insensitive matching against frontmatter entity IDs
+  const themeIdsLower = new Set<string>();
+  const themesDir = path.join(GLOSSARY_BASE, 'culture', 'themes');
+  if (fs.existsSync(themesDir)) {
+    for (const f of fs.readdirSync(themesDir).filter(f => f.endsWith('.md'))) {
+      const id = f.replace('.md', '');
+      themeIdsLower.add(id.toLowerCase());
+    }
+  }
+  if (verbose) console.log(`Theme IDs: ${[...themeIdsLower].join(', ')}`);
+
   // Minimum mention count for a tag to appear in the category picker
   const MIN_TAG_COUNT = 2;
 
@@ -112,6 +125,7 @@ function main() {
   const peopleCounts = new Map<string, number>();
   const placesCounts = new Map<string, number>();
   const cultureCounts = new Map<string, number>();
+  const themeCounts = new Map<string, number>();
   const locationCounts = new Map<string, number>();
   let kernbergerCount = 0;
   let censoredCount = 0;
@@ -168,16 +182,37 @@ function main() {
       // Places
       const places = entities.places?.filter(Boolean) || [];
 
-      // Cultural refs (from frontmatter entities + inline theme tags)
-      const cultural = entities.cultural?.filter(Boolean) || [];
+      // Cultural refs (from frontmatter entities + inline tags)
+      const allCultural = entities.cultural?.filter(Boolean) || [];
 
       // Extract inline theme tags from body: %% [#Name](../_glossary/culture/themes/X.md) %%
       const themeTagPattern = /\[#([^\]]+)\]\([^)]*\/_glossary\/culture\/themes\/[^)]+\)/g;
       let themeMatch;
       while ((themeMatch = themeTagPattern.exec(content)) !== null) {
         const themeId = themeMatch[1];
-        if (!cultural.includes(themeId)) {
-          cultural.push(themeId);
+        if (!allCultural.includes(themeId)) {
+          allCultural.push(themeId);
+        }
+      }
+
+      // Also extract inline culture tags (non-theme): %% [#Name](../_glossary/culture/X.md) %%
+      const cultureTagPattern = /\[#([^\]]+)\]\([^)]*\/_glossary\/culture\/(?!themes\/)([^)]+)\)/g;
+      let cultureMatch;
+      while ((cultureMatch = cultureTagPattern.exec(content)) !== null) {
+        const cultureId = cultureMatch[1];
+        if (!allCultural.includes(cultureId)) {
+          allCultural.push(cultureId);
+        }
+      }
+
+      // Split into themes (from culture/themes/) and culture (everything else)
+      const themes: string[] = [];
+      const cultural: string[] = [];
+      for (const id of allCultural) {
+        if (themeIdsLower.has(id.toLowerCase())) {
+          themes.push(id);
+        } else {
+          cultural.push(id);
         }
       }
 
@@ -195,6 +230,7 @@ function main() {
       if (people.length > 0) record.p = people;
       if (places.length > 0) record.pl = places;
       if (cultural.length > 0) record.cu = cultural;
+      if (themes.length > 0) record.th = themes;
       if (kernberger) record.k = true;
       if (censored) record.x = true;
       if (paraCount > 0) record.n = paraCount;
@@ -210,6 +246,9 @@ function main() {
       }
       for (const id of cultural) {
         cultureCounts.set(id, (cultureCounts.get(id) || 0) + 1);
+      }
+      for (const id of themes) {
+        themeCounts.set(id, (themeCounts.get(id) || 0) + 1);
       }
       if (location) {
         locationCounts.set(location, (locationCounts.get(location) || 0) + 1);
@@ -256,11 +295,22 @@ function main() {
       .sort((a, b) => b.count - a.count),
   });
 
-  // Culture (priority 4)
+  // Themes / description tags (priority 4)
+  categories.push({
+    key: 'themes',
+    label: 'filter.themes',
+    tags: buildTagList(themeCounts, new Map(), MIN_TAG_COUNT),
+  });
+
+  // Culture entities (priority 5)
+  // Filter out themes from the subcategory map — themes are now in their own category
+  const cultureSubcatsFiltered = new Map(
+    [...cultureSubcats.entries()].filter(([_, sub]) => sub !== 'themes')
+  );
   categories.push({
     key: 'culture',
     label: 'filter.culture',
-    tags: buildTagList(cultureCounts, cultureSubcats, MIN_TAG_COUNT),
+    tags: buildTagList(cultureCounts, cultureSubcatsFiltered, MIN_TAG_COUNT),
   });
 
   // Remove empty categories

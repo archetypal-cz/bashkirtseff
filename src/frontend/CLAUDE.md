@@ -50,14 +50,14 @@ frontend/
 │   ├── components/        # UI components (.astro and .vue)
 │   ├── layouts/           # Page layouts
 │   ├── pages/             # Route pages
-│   │   ├── cz/            # Czech translation routes
+│   │   ├── [lang]/         # Unified diary routes (cz, original, en, uk, fr)
 │   │   │   ├── index.astro          # Year overview (1873-1884)
 │   │   │   ├── [year]/index.astro   # Carnets in a year
 │   │   │   ├── [carnet]/index.astro # Entries in a carnet
 │   │   │   ├── [carnet]/[entry].astro # Individual entry
-│   │   │   ├── carnets.astro        # Flat carnet list
-│   │   │   └── 000/index.astro      # Preface (special)
-│   │   └── original/      # French original routes
+│   │   │   ├── carnets.astro        # Flat carnet list (translations only)
+│   │   │   ├── 000/index.astro      # Preface (special)
+│   │   │   └── glossary/            # Glossary (with content fallback)
 │   ├── content/           # Content collection config
 │   ├── lib/               # Utilities, content loading
 │   │   └── content.ts     # getYears(), getCarnets(), etc.
@@ -69,31 +69,32 @@ frontend/
 
 ## URL Structure
 
-The diary is organized for browsing by year, then carnet:
+All diary pages use unified `[lang]` routes from `src/lib/diary-lang-config.ts`:
 
 | Route | Description |
 |-------|-------------|
-| `/cz/` | Year overview (1873-1884) with Marie's age |
-| `/cz/1873/` | Carnets from 1873 |
-| `/cz/001/` | Entries in Carnet 001 |
-| `/cz/001/1873-01-11` | Individual diary entry |
-| `/cz/000` | Preface (special carnet) |
-| `/cz/carnets` | Flat list of all carnets |
-| `/original/001/1873-01-11` | French original entry |
+| `/{lang}/` | Year overview (1873-1884) with Marie's age |
+| `/{lang}/1873/` | Carnets from 1873 |
+| `/{lang}/001/` | Entries in Carnet 001 |
+| `/{lang}/001/1873-01-11` | Individual diary entry |
+| `/{lang}/000` | Preface (special carnet) |
+| `/{lang}/carnets` | Flat list of all carnets (translations only) |
+| `/{lang}/glossary/` | Glossary index |
+| `/{lang}/glossary/NICE` | Glossary entry |
+
+Where `{lang}` is `cz`, `original`, `en`, `uk`, or `fr`.
 
 Cross-year carnets appear in both years with visual indicators.
 
+### Language Config
+
+`diary-lang-config.ts` is the single source of truth for multi-language routing. It maps URL paths to content paths, locales, and feature flags. Translation languages show FlipParagraph, progress bars, FR badges; original shows plain text.
+
 ### Glossary Link Paths
 
-Glossary pages are duplicated under two URL prefixes:
-- `/cz/glossary/[id]` — Czech-contextualized glossary (breadcrumbs, back links go to `/cz/`)
-- `/glossary/[id]` — Neutral/original glossary (used from `/original/` pages)
+Each language has its own glossary at `/{lang}/glossary/`. Bare `/glossary/[id]` URLs redirect to `/original/glossary/[id]`.
 
-**Rule:** Links to glossary entries must match the current language context:
-- Pages under `/cz/` → link to `/cz/glossary/ID`
-- Pages under `/original/` → link to `/glossary/ID`
-
-This applies to carnet index pages (people/places tags), entry pages, and anywhere else glossary entities are linked. Getting this wrong sends users to a 404 or unexpected redirect.
+**Rule:** Use `glossaryUrl(lang, id)` from `diary-lang-config.ts` to generate glossary links. This ensures the link always matches the current language context.
 
 ---
 

@@ -1,20 +1,40 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
-import { getGlossaryEntries, getGlossaryEntry, buildGlossaryUsageCounts } from '../../../lib/content';
+import { getMergedGlossaryEntries, getGlossaryEntryWithFallback, buildGlossaryUsageCounts } from '../../../lib/content';
+import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { createT } from '../../../i18n/astro';
 
 export function getStaticPaths() {
-  const entries = getGlossaryEntries();
-  return entries.map(entry => ({
-    params: { id: entry.id },
-  }));
+  const paths: { params: { lang: string; id: string }; props: { lang: DiaryLanguageConfig; entryId: string } }[] = [];
+
+  for (const lang of DIARY_LANGUAGES) {
+    const entries = getMergedGlossaryEntries(lang.contentPath);
+    for (const entry of entries) {
+      paths.push({
+        params: { lang: lang.urlPath, id: entry.id },
+        props: { lang, entryId: entry.id },
+      });
+    }
+  }
+
+  return paths;
 }
 
-const { id } = Astro.params;
-const entry = getGlossaryEntry(id!);
+interface Props {
+  lang: DiaryLanguageConfig;
+  entryId: string;
+}
+
+const { lang, entryId } = Astro.props;
+const t = createT(lang.uiLocale);
+const basePath = `/${lang.urlPath}/glossary`;
+
+// Load entry with fallback: try translated, fall back to original
+const entry = getGlossaryEntryWithFallback(entryId, lang.contentPath);
 
 if (!entry) {
-  return Astro.redirect('/cz/glossary');
+  return Astro.redirect(basePath);
 }
 
 // Usage count and filter category for "Show in diary" button
@@ -37,11 +57,11 @@ function simpleMarkdownToHtml(markdown: string): string {
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     // Italic
     .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-    // Links - internal glossary links (converted to Czech path)
+    // Links - internal glossary links
     .replace(/\[([^\]]+)\]\(([^)]+\.md)\)/g, (_, text, url) => {
       const glossaryId = url.match(/([^/]+)\.md$/)?.[1];
       if (glossaryId) {
-        return `<a href="/cz/glossary/${glossaryId}" class="text-accent hover:text-accent-light underline">${text}</a>`;
+        return `<a href="${basePath}/${glossaryId}" class="text-accent hover:text-accent-light underline">${text}</a>`;
       }
       return text;
     })
@@ -75,15 +95,17 @@ const processedParagraphs = hasParagraphs
     }))
   : [];
 const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
+
+const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 ---
 
-<ReadingLayout title={`${entry.name} — Glosář`}>
+<ReadingLayout title={`${entry.name} — ${t('glossary.title')}`}>
   <article class="max-w-3xl mx-auto">
     <nav class="mb-6 text-sm text-muted">
-      <a href="/cz" class="hover:text-accent">Deník</a>
-      <span class="mx-2">›</span>
-      <a href="/cz/glossary" class="hover:text-accent">Glosář</a>
-      <span class="mx-2">›</span>
+      <a href={`/${lang.urlPath}`} class="hover:text-accent">{diaryLabel}</a>
+      <span class="mx-2">&rsaquo;</span>
+      <a href={basePath} class="hover:text-accent">{t('glossary.title')}</a>
+      <span class="mx-2">&rsaquo;</span>
       <span class="text-ink">{entry.name}</span>
     </nav>
 
@@ -105,7 +127,7 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
       {/* Aliases / alternate names */}
       {entry.aliases && entry.aliases.length > 0 && (
         <p class="text-sm text-muted mb-4 italic">
-          Dalsi nazvy: {entry.aliases.join(', ')}
+          {t('diary.alsoKnownAs')} {entry.aliases.join(', ')}
         </p>
       )}
 
@@ -122,7 +144,7 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
         )}
         {entry.languages && entry.languages.length > 0 && (
           <span class="px-3 py-1 bg-sepia text-ink-light rounded">
-            {entry.languages.map(lang => lang.toUpperCase()).join(' / ')}
+            {entry.languages.map(l => l.toUpperCase()).join(' / ')}
           </span>
         )}
         {entry.researchStatus && (
@@ -136,21 +158,21 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
             target="_blank"
             rel="noopener"
             class="px-3 py-1 bg-accent/10 text-accent rounded hover:bg-accent/20 transition-colors"
-            title="Poslechněte si výslovnost"
+            title={t('glossary.pronunciationTitle')}
           >
-            Výslovnost
+            {t('glossary.pronunciation')}
           </a>
         )}
         {entry.lastUpdated && (
           <span class="text-muted">
-            Aktualizováno: {entry.lastUpdated}
+            {t('glossary.updated')}: {entry.lastUpdated}
           </span>
         )}
       </div>
 
       {usageCount > 0 && (
         <a
-          href="/cz"
+          href={`/${lang.urlPath}`}
           class="glossary-filter-btn"
           data-filter-category={filterCategory}
           data-filter-id={entry.id}
@@ -158,8 +180,8 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
           <svg class="glossary-filter-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
           </svg>
-          Zobrazit v deníku
-          <span class="glossary-filter-count">{usageCount} zmínek</span>
+          {t('diary.showInDiary')}
+          <span class="glossary-filter-count">{t('diary.mentions', { count: usageCount })}</span>
         </a>
       )}
     </header>
@@ -191,7 +213,7 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
                 client:visible
                 paragraphId={paragraph.id}
                 glossaryTags={paragraph.glossaryTags}
-                language="cz"
+                {...(lang.isTranslation ? { language: lang.urlPath } : {})}
               />
             </div>
           </div>
@@ -203,8 +225,8 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
     )}
 
     <nav class="mt-12 pt-8 border-t border-ink/10">
-      <a href="/cz/glossary" class="text-accent hover:text-accent-light transition-colors">
-        ← Zpět na glosář
+      <a href={basePath} class="text-accent hover:text-accent-light transition-colors">
+        &larr; {t('glossary.backToGlossary')}
       </a>
     </nav>
   </article>

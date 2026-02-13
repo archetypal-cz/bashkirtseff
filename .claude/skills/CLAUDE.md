@@ -33,8 +33,10 @@ skills/
 │   └── SKILL.md                   # System maintenance
 ├── gemini-czech-editor/
 │   └── SKILL.md                   # External Gemini review (future)
-└── stewardship/
-    └── SKILL.md                   # Social content generation
+├── stewardship/
+│   └── SKILL.md                   # Social content generation
+└── frontend-dev/
+    └── SKILL.md                   # Frontend development (AstroJS PWA)
 ```
 
 ## Pipelines
@@ -74,6 +76,7 @@ Get every original French entry properly researched, annotated, and footnoted be
 | Project Status | Track progress, generate reports |
 | Workflow Architect | Maintain the agent system itself |
 | Stewardship | Generate social media content |
+| Frontend Dev | AstroJS PWA development, UI features, components |
 
 ## Invoking Skills
 

@@ -15,6 +15,8 @@ interface Props {
   thisDayData: Record<string, ThisDayEntry[]>;
   // Language path for links (e.g., 'cz', 'original')
   languagePath: string;
+  // UI locale for date formatting (e.g., 'cs', 'en', 'fr', 'uk')
+  uiLocale?: string;
   // UI translations
   translations: {
     title: string;           // "This Day in Marie's Life"
@@ -35,29 +37,20 @@ const selectedEntry = ref<ThisDayEntry | null>(null);
 const currentMonthDay = ref<string>('');
 const isLoading = ref(true);
 
+// Map UI locale to Intl locale string
+const localeMap: Record<string, string> = { cs: 'cs-CZ', fr: 'fr-FR', en: 'en-US', uk: 'uk-UA' };
+const intlLocale = computed(() => localeMap[props.uiLocale || ''] || 'en-US');
+
 // Format the browsing date for display (day + month only, no year)
 const browsingDateFormatted = computed(() => {
-  const d = browsingDate.value;
-  if (props.languagePath === 'cz') {
-    return d.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long' });
-  }
-  if (props.languagePath === 'fr' || props.languagePath === 'original') {
-    return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
-  }
-  return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+  return browsingDate.value.toLocaleDateString(intlLocale.value, { day: 'numeric', month: 'long' });
 });
 
 // Format the entry date for display (with year)
 const formattedDateLocalized = computed(() => {
   if (!selectedEntry.value) return '';
   const date = new Date(selectedEntry.value.date);
-  if (props.languagePath === 'cz') {
-    return date.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long', year: 'numeric' });
-  }
-  if (props.languagePath === 'fr' || props.languagePath === 'original') {
-    return date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
-  }
-  return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  return date.toLocaleDateString(intlLocale.value, { day: 'numeric', month: 'long', year: 'numeric' });
 });
 
 // Build the link to the entry

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { useI18n } from '../../i18n';
+import { getCategoryIcon } from '../../lib/glossary-categories';
 
 const { t } = useI18n();
 
@@ -8,23 +9,6 @@ interface GlossaryTag {
   id: string;
   name: string;
   category?: string;
-}
-
-const categoryIcons: Record<string, string> = {
-  // people: person outline
-  people: 'M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z',
-  // places: map pin
-  places: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z',
-  // culture: book open
-  culture: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
-  // society: users/group
-  society: 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z',
-  // languages: chat bubble
-  languages: 'M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z',
-};
-
-function getCategoryIcon(category?: string): string {
-  return categoryIcons[category || ''] || categoryIcons.people;
 }
 
 const props = defineProps<{
@@ -74,6 +58,24 @@ async function shareLink() {
   } else {
     copyLink();
   }
+}
+
+// Filter: set tag and navigate to carnet page with filter active
+const FILTER_CAT_MAP: Record<string, string> = {
+  people: 'people', places: 'places', culture: 'culture',
+  society: 'culture', languages: 'culture',
+};
+
+function filterByTag(event: Event, tag: GlossaryTag) {
+  event.preventDefault();
+  event.stopPropagation();
+  const filterCat = FILTER_CAT_MAP[(tag.category || '').split('/')[0]] || 'people';
+  localStorage.setItem('filter-tags', JSON.stringify({ [filterCat]: [tag.id] }));
+  window.dispatchEvent(new CustomEvent('filter-sync'));
+  // Navigate to carnet page with filter active
+  const carnet = props.paragraphId.split('.')[0];
+  const prefix = props.language ? `/${props.language}` : '/cz';
+  window.location.href = `${prefix}/${carnet}/`;
 }
 
 onMounted(() => {
@@ -136,19 +138,32 @@ onMounted(() => {
             <!-- Glossary tags -->
             <div v-if="glossaryTags && glossaryTags.length > 0" class="menu-section">
               <div class="section-label">{{ t('paragraph.relatedEntries') }}</div>
-              <a
+              <div
                 v-for="tag in glossaryTags"
                 :key="tag.id"
-                :href="language ? `/${language}/glossary/${tag.id}` : `/glossary/${tag.id}`"
-                class="menu-item glossary-link"
-                :class="`category-${tag.category || 'default'}`"
-                @click="closeMenu"
+                class="glossary-row"
               >
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getCategoryIcon(tag.category)" />
-                </svg>
-                <span>{{ tag.name }}</span>
-              </a>
+                <a
+                  :href="language ? `/${language}/glossary/${tag.id}` : `/glossary/${tag.id}`"
+                  class="menu-item glossary-link"
+                  :class="`category-${tag.category || 'default'}`"
+                  @click="closeMenu"
+                >
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getCategoryIcon(tag.category)" />
+                  </svg>
+                  <span>{{ tag.name }}</span>
+                </a>
+                <button
+                  class="tag-filter-btn"
+                  :title="t('paragraph.filterByTag')"
+                  @click="filterByTag($event, tag)"
+                >
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -235,6 +250,43 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .menu-item:hover {
+  background: #252525;
+}
+
+.glossary-row {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.glossary-row .glossary-link {
+  flex: 1;
+  min-width: 0;
+}
+
+.tag-filter-btn {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  color: var(--text-muted, #78716C);
+  background: transparent;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.tag-filter-btn:hover {
+  color: var(--color-accent, #B45309);
+  background: var(--bg-secondary, #F5E6D3);
+}
+
+[data-theme="dark"] .tag-filter-btn:hover {
+  color: var(--color-accent-light, #D97706);
   background: #252525;
 }
 

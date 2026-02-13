@@ -51,3 +51,6 @@ raw_books_work/
 # Working files (personal, not shared)
 .claude/WORKER_CONFIG.yaml
 .plan.md
+
+# Terminal Paste Image folder
+.cp-images/

@@ -7,6 +7,7 @@ This file provides guidance to Claude Code when working with the Marie Bashkirts
 This is a sophisticated multi-agent literary translation project for Marie Bashkirtseff's complete uncensored diary (1873-1884). The project uses a structured workflow with specialized roles to ensure high-quality translations that preserve both accuracy and literary merit.
 
 **Key Stats:**
+
 - **107 carnets** (notebooks 000-106, all accounted for)
 - **~3,300 diary entries** spanning 12 years (1873-1884)
 - **Target languages**: Czech, Ukrainian, English, French (modern edition)
@@ -78,21 +79,23 @@ Cross-year carnets (10 carnets span year boundaries) appear in both years with i
 
 The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 
-| Role | Skill Command | Purpose |
-|------|--------------|---------|
-| **researcher** | `/researcher` | Research and annotate entries, create glossary |
-| **linguistic-annotator** | `/linguistic-annotator` | Add translation guidance (LAN notes) |
-| **translator** | `/translator` | Translate French → Czech |
-| **gemini-czech-editor** | `/gemini-czech-editor` | External AI review (Gemini) |
-| **editor** | `/editor` | Review translations for quality |
-| **conductor** | `/conductor` | Final quality gate |
-| **executive-director** | `/executive-director` | Orchestrate workflow |
-| **project-status** | `/project-status` | Track progress, report status |
-| **workflow-architect** | `/architect` | Maintain the agent system |
+| Role                     | Skill Command           | Purpose                                        |
+| ------------------------ | ----------------------- | ---------------------------------------------- |
+| **researcher**           | `/researcher`           | Research and annotate entries, create glossary |
+| **linguistic-annotator** | `/linguistic-annotator` | Add translation guidance (LAN notes)           |
+| **translator**           | `/translator`           | Translate French → Czech                       |
+| **gemini-czech-editor**  | `/gemini-czech-editor`  | External AI review (Gemini)                    |
+| **editor**               | `/editor`               | Review translations for quality                |
+| **conductor**            | `/conductor`            | Final quality gate                             |
+| **executive-director**   | `/executive-director`   | Orchestrate workflow                           |
+| **project-status**       | `/project-status`       | Track progress, report status                  |
+| **workflow-architect**   | `/architect`            | Maintain the agent system                      |
+| **frontend-dev**        | `/frontend-dev`         | AstroJS PWA development, UI features           |
 
 ## Core Workflow
 
 ### Standard Translation Pipeline
+
 1. **Research Phase** (researcher) - Extract entities, historical context, RSR comments
 2. **Annotation Phase** (linguistic-annotator) - Translation guidance, LAN comments
 3. **Translation Phase** (translator) - Translate preserving Marie's voice, TR comments
@@ -131,6 +134,7 @@ Next paragraph here...
 ### Comment Notation
 
 All roles use timestamped comments:
+
 ```
 %% YYYY-MM-DDThh:mm:ss ROLE: Comment text %%
 ```
@@ -140,12 +144,14 @@ Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), GEM (Gemini), R
 ### Paragraph IDs
 
 Format: `%% XXX.YYYY %%` (carnet.paragraph)
+
 - IDs are sequential across the ENTIRE carnet, never resetting
 - Example: Carnet 002 runs from 002.0001 to 002.2453
 
 ### Glossary Tags
 
 Format: `[#Entity_Name](../_glossary/category/ENTITY_NAME.md)`
+
 - Filenames use CAPITAL_ASCII: uppercase, underscores only
 - Categories: people/, places/, culture/, society/, languages/
 
@@ -212,7 +218,6 @@ just deploy-logs        # View logs
 - **Justfile**: `/justfile` - ALL commands (use `just help`)
 - **Project Journey**: `/JOURNEY.md` - How the project evolved (narrative changelog)
 - **Stewardship**: `/docs/STEWARDSHIP.md` - Principles, norms, ethical framework
-- **Style Guide**: `/docs/prompts/Style.md`
 - **Infrastructure**: `/docs/INFRASTRUCTURE.md` - Progress tracking & collaboration
 - **Content Guide**: `/content/CLAUDE.md` - Diary content structure
 - **Frontend Guide**: `/src/frontend/CLAUDE.md`

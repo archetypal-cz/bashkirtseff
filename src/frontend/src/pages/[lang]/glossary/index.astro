@@ -1,17 +1,45 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
-import { getGlossaryByLetter, getGlossaryEntries, getGlossaryByCategory, buildGlossaryUsageCounts } from '../../../lib/content';
+import { getMergedGlossaryEntries, getGlossaryByCategory, buildGlossaryUsageCounts } from '../../../lib/content';
 import GlossarySearch from '../../../components/glossary/GlossarySearch.vue';
 import GlossaryCategoryBrowser from '../../../components/glossary/GlossaryCategoryBrowser.vue';
+import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { createT } from '../../../i18n/astro';
 
-const glossaryByLetter = getGlossaryByLetter();
+export function getStaticPaths() {
+  return DIARY_LANGUAGES.map(lang => ({
+    params: { lang: lang.urlPath },
+    props: { lang },
+  }));
+}
+
+interface Props {
+  lang: DiaryLanguageConfig;
+}
+
+const { lang } = Astro.props;
+const t = createT(lang.uiLocale);
+const basePath = `/${lang.urlPath}/glossary`;
+
+// Merged entries: translated overrides original where available
+const allEntriesRaw = getMergedGlossaryEntries(lang.contentPath);
+
+// Group by letter
+const glossaryByLetter = new Map<string, typeof allEntriesRaw>();
+for (const entry of allEntriesRaw) {
+  const letter = entry.name.charAt(0).toUpperCase();
+  if (!glossaryByLetter.has(letter)) {
+    glossaryByLetter.set(letter, []);
+  }
+  glossaryByLetter.get(letter)!.push(entry);
+}
 const letters = Array.from(glossaryByLetter.keys()).sort();
-const totalEntries = Array.from(glossaryByLetter.values()).reduce((sum, arr) => sum + arr.length, 0);
+const totalEntries = allEntriesRaw.length;
 
 // Usage counts (computed first, shared with category tree and search)
 const usageCounts = buildGlossaryUsageCounts();
 
-// Category hierarchy (with entries per subcategory for expandable browsing)
+// Category hierarchy
 const categoryTree = getGlossaryByCategory('original', usageCounts);
 const categoryData = categoryTree.map(cat => ({
   name: cat.name,
@@ -25,7 +53,7 @@ const categoryData = categoryTree.map(cat => ({
 }));
 
 // Search entries with usage counts, category, and aliases
-const allEntries = getGlossaryEntries().map(entry => ({
+const allEntries = allEntriesRaw.map(entry => ({
   id: entry.id,
   name: entry.name,
   type: entry.type,
@@ -40,50 +68,52 @@ const letterCounts = letters.map(letter => ({
   letter,
   count: glossaryByLetter.get(letter)?.length || 0
 }));
+
+const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 ---
 
-<ReadingLayout title="Glosář — Deník Marie Bashkirtseff">
+<ReadingLayout title={`${t('glossary.title')} — ${t('diary.pageTitle')}`}>
   <div class="max-w-4xl mx-auto">
     <header class="mb-8">
       <nav class="mb-6 text-sm text-muted">
-        <a href="/cz" class="hover:text-accent">Deník</a>
-        <span class="mx-2">›</span>
-        <span class="text-ink">Glosář</span>
+        <a href={`/${lang.urlPath}`} class="hover:text-accent">{diaryLabel}</a>
+        <span class="mx-2">&rsaquo;</span>
+        <span class="text-ink">{t('glossary.title')}</span>
       </nav>
 
       <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
-        Glosář
+        {t('glossary.title')}
       </h1>
       <p class="text-ink-light mb-4">
-        Osoby, místa, díla a pojmy z deníku Marie Bashkirtseff.
+        {t('glossary.description')}
       </p>
       <p class="text-sm text-muted">
-        {totalEntries} položek
+        {totalEntries} {t('glossary.entries')}
       </p>
     </header>
 
     <!-- Search -->
     <div class="mb-8">
-      <GlossarySearch client:load entries={allEntries} basePath="/cz/glossary" />
+      <GlossarySearch client:load entries={allEntries} basePath={basePath} />
     </div>
 
     <!-- Category hierarchy -->
     <div class="mb-10">
       <GlossaryCategoryBrowser client:load
         categories={categoryData}
-        glossaryBasePath="/cz/glossary" />
+        glossaryBasePath={basePath} />
     </div>
 
     <!-- Letter grid (compact secondary nav) -->
     <div class="mb-4">
       <h2 class="text-lg font-normal text-ink mb-4" style="font-family: var(--font-serif);">
-        A–Z
+        A&ndash;Z
       </h2>
     </div>
     <div class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-2">
       {letterCounts.map(({ letter, count }) => (
         <a
-          href={`/cz/glossary/${letter.toLowerCase()}`}
+          href={`${basePath}/${letter.toLowerCase()}`}
           class="group block p-2 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow transition-all text-center"
         >
           <span class="text-xl font-normal text-ink group-hover:text-accent transition-colors" style="font-family: var(--font-serif);">
@@ -96,7 +126,7 @@ const letterCounts = letters.map(letter => ({
 
     {totalEntries === 0 && (
       <div class="text-center py-12 text-muted">
-        <p>Glosář je prázdný.</p>
+        <p>{t('glossary.empty')}</p>
       </div>
     )}
   </div>

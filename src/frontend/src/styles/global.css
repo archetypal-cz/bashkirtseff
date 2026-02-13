@@ -162,7 +162,8 @@
     line-height: 1.8;
   }
 
-  .prose-diary p {
+  .prose-diary p,
+  .prose-diary > .paragraph-container > div {
     margin-bottom: 1rem;
     /* Full scale effect: base * scale */
     font-size: calc(var(--base-font-size) * var(--reading-font-scale));
@@ -170,7 +171,7 @@
   }
 
   /* First paragraph serves as entry header (date line) */
-  .prose-diary > .paragraph-container:first-child p {
+  .prose-diary > .paragraph-container:first-child > div {
     font-size: calc(var(--base-font-size) * var(--reading-font-scale) * 1.2);
     margin-left: -1rem;
     color: var(--text-primary);
@@ -190,53 +191,104 @@
     color: var(--text-primary);
   }
 
-  /* Theme-aware components */
-  [data-theme="dark"] header,
-  [data-theme="dark"] footer {
-    background-color: var(--bg-secondary);
-    border-color: var(--border-color);
-  }
-
-  [data-theme="dark"] .bg-parchment {
-    background-color: var(--bg-primary);
-  }
-
-  [data-theme="dark"] .bg-sepia {
-    background-color: var(--bg-secondary);
-  }
-
-  [data-theme="dark"] .text-ink {
-    color: var(--text-primary);
-  }
-
-  [data-theme="dark"] .text-ink-light {
-    color: var(--text-secondary);
-  }
-
-  [data-theme="dark"] .text-muted {
-    color: var(--text-muted);
-  }
-
-  [data-theme="dark"] .border-ink\/10 {
-    border-color: var(--border-color);
-  }
-
-  /* Sepia theme overrides */
-  [data-theme="sepia"] .bg-parchment {
-    background-color: var(--bg-primary);
-  }
-
-  [data-theme="sepia"] .bg-sepia {
-    background-color: var(--bg-secondary);
-  }
 }
 
-/* Pinned sidebar layout */
-@media (min-width: 1024px) {
-  .sidebar-pinned main {
-    margin-left: 320px;
-    transition: margin-left 0.3s ease;
-  }
+/* Theme-aware overrides for Tailwind utilities.
+   Must be OUTSIDE @layer to beat utility-layer specificity in Tailwind v4. */
+[data-theme="dark"] header,
+[data-theme="dark"] footer {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+[data-theme="dark"] .bg-parchment {
+  background-color: var(--bg-primary);
+}
+
+[data-theme="dark"] .bg-sepia {
+  background-color: var(--bg-secondary);
+}
+
+[data-theme="dark"] .text-ink {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .text-ink-light {
+  color: var(--text-secondary);
+}
+
+[data-theme="dark"] .text-muted {
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .border-ink\/10,
+[data-theme="dark"] .border-ink\/20 {
+  border-color: var(--border-color);
+}
+
+/* Dark gradient stops (hero section uses from-sepia to-parchment) */
+[data-theme="dark"] .from-sepia {
+  --tw-gradient-from: var(--bg-secondary);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+[data-theme="dark"] .to-parchment {
+  --tw-gradient-to: var(--bg-primary);
+}
+
+/* Opacity variants that don't match base class selectors */
+[data-theme="dark"] .bg-sepia\/50 {
+  background-color: color-mix(in srgb, var(--bg-secondary) 50%, transparent);
+}
+
+/* CTA section: bg-ink needs to stand out from bg-primary in dark mode */
+[data-theme="dark"] .bg-ink {
+  background-color: #0d0d0d;
+}
+
+/* Text colors used against dark backgrounds (CTA section) */
+[data-theme="dark"] .text-parchment {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .text-parchment\/70 {
+  color: color-mix(in srgb, var(--text-primary) 70%, transparent);
+}
+
+/* Dark btn-secondary needs dark-aware colors */
+[data-theme="dark"] .btn-secondary {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .btn-secondary:hover {
+  background-color: var(--bg-primary);
+}
+
+/* Sepia theme overrides */
+[data-theme="sepia"] .bg-parchment {
+  background-color: var(--bg-primary);
+}
+
+[data-theme="sepia"] .bg-sepia {
+  background-color: var(--bg-secondary);
+}
+
+[data-theme="sepia"] .from-sepia {
+  --tw-gradient-from: var(--bg-secondary);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+[data-theme="sepia"] .to-parchment {
+  --tw-gradient-to: var(--bg-primary);
+}
+
+[data-theme="sepia"] .bg-sepia\/50 {
+  background-color: color-mix(in srgb, var(--bg-secondary) 50%, transparent);
 }
 
 /* Component utilities */

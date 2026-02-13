@@ -2,7 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
-import ReadingSettings from '../components/reading/ReadingSettings.vue';
+
 import BackToTop from '../components/reading/BackToTop.vue';
 import InstallPrompt from '../components/pwa/InstallPrompt.vue';
 
@@ -33,9 +33,6 @@ const { title, description, lang, image, type, canonicalUrl, article } = Astro.p
   </main>
 
   <Footer />
-
-  <!-- Reading settings panel (Vue island) -->
-  <ReadingSettings client:load />
 
   <!-- Back to top button (Vue island) -->
   <BackToTop client:visible />

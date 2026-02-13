@@ -73,41 +73,49 @@ Each carnet folder contains a README.md tracking progress:
 <!-- WORKER: @github_username since YYYY-MM-DD -->
 
 ## Summary
+
 Brief description of this carnet's content and time period.
 
 ## Status
-| Phase       | Done | Total | Worker     |
-|-------------|------|-------|------------|
-| Research    | 35   | 35    | @username  |
-| Annotation  | 35   | 35    | @username  |
-| Translation | 30   | 35    | @username  |
-| Gemini      | 25   | 35    | —          |
-| Edited      | 25   | 35    | —          |
-| Approved    | 20   | 35    | —          |
+
+| Phase       | Done | Total | Worker    |
+| ----------- | ---- | ----- | --------- |
+| Research    | 35   | 35    | @username |
+| Annotation  | 35   | 35    | @username |
+| Translation | 30   | 35    | @username |
+| Gemini      | 25   | 35    | —         |
+| Edited      | 25   | 35    | —         |
+| Approved    | 20   | 35    | —         |
 
 ## TODOs
 
 ### From Original (auto-synced)
+
 <!-- BEGIN:SYNC:ORIGINAL -->
 <!-- Items here are synced from content/_original/XXX/README.md -->
 <!-- END:SYNC:ORIGINAL -->
 
 ### Local
+
 - [ ] `TR-FIX` entry-date: Description of issue
 - [ ] `RED-FLAG` entry-date: Description of issue
 
 ### Propose to Original
+
 <!-- BEGIN:SYNC:PROPOSE -->
 <!-- Items here will be synced upstream to original -->
 <!-- END:SYNC:PROPOSE -->
 
 ## What's Done
+
 Summary of completed work with attribution.
 
 ## Changelog
+
 <!-- Newest first, ISO timestamps -->
 
 ### YYYY-MM-DDThh:mm:ss @username
+
 Description of changes made.
 ```
 
@@ -115,19 +123,19 @@ Description of changes made.
 
 Tags in README.md files trigger synchronization and categorization:
 
-| Tag | Direction | Meaning |
-|-----|-----------|---------|
-| `RSR-NEEDED` | Original → Translations | Research needed in source |
-| `RSR-DONE` | Close item | Research completed |
-| `LAN-UPDATE` | Original → Translations | Annotation changed |
-| `LAN-NEEDED` | Original only | Needs linguistic annotation |
-| `RSR-PROPOSE` | Translation → Original | Found research issue |
-| `LAN-PROPOSE` | Translation → Original | Suggests annotation |
-| `RSR-LAN-UPDATE` | Auto-generated | Original source text or annotations changed |
-| `TR-FIX` | Local only | Translation-specific fix |
-| `RED-FLAG` | Local only | Editor flagged issue |
-| `CON-BLOCK` | Local only | Conductor blocked approval |
-| `CRITICAL` | All directions | High-priority issue |
+| Tag              | Direction               | Meaning                                     |
+| ---------------- | ----------------------- | ------------------------------------------- |
+| `RSR-NEEDED`     | Original → Translations | Research needed in source                   |
+| `RSR-DONE`       | Close item              | Research completed                          |
+| `LAN-UPDATE`     | Original → Translations | Annotation changed                          |
+| `LAN-NEEDED`     | Original only           | Needs linguistic annotation                 |
+| `RSR-PROPOSE`    | Translation → Original  | Found research issue                        |
+| `LAN-PROPOSE`    | Translation → Original  | Suggests annotation                         |
+| `RSR-LAN-UPDATE` | Auto-generated          | Original source text or annotations changed |
+| `TR-FIX`         | Local only              | Translation-specific fix                    |
+| `RED-FLAG`       | Local only              | Editor flagged issue                        |
+| `CON-BLOCK`      | Local only              | Conductor blocked approval                  |
+| `CRITICAL`       | All directions          | High-priority issue                         |
 
 ## Keeping Translations in Sync with Originals
 
@@ -147,7 +155,7 @@ Each translation file stores a `source_hash` in its [frontmatter](https://jekyll
 ---
 date: 1873-01-11
 carnet: "001"
-source_hash: "a1b2c3d4e5f6g7h8"   # Fingerprint of the French text this was translated from
+source_hash: "a1b2c3d4e5f6g7h8" # Fingerprint of the French text this was translated from
 translation_complete: true
 ---
 ```
@@ -188,11 +196,15 @@ Translators can also propose changes upstream — for example, if they notice a 
 
 ```markdown
 <!-- BEGIN:SYNC:ORIGINAL -->
+
 Items auto-populated from the French original's README
+
 <!-- END:SYNC:ORIGINAL -->
 
 <!-- BEGIN:SYNC:PROPOSE -->
+
 Items translators want to push upstream to the original
+
 <!-- END:SYNC:PROPOSE -->
 ```
 
@@ -226,6 +238,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 ```
 
 Examples:
+
 - `[cz-001] Translated entries 1873-01-11 to 1873-01-15`
 - `[main-glossary] Added 12 new person entries`
 - `[infra] Updated TODO sync script`
@@ -303,6 +316,7 @@ This file is gitignored or kept in personal forks.
 ### GitHub Issues Integration
 
 Each carnet+language combination as a GitHub issue:
+
 - Assigned to worker
 - Labels for phase (research, translation, review)
 - Hooks can query via `gh` CLI
@@ -310,12 +324,14 @@ Each carnet+language combination as a GitHub issue:
 ### Staleness Detection
 
 Work claimed but not updated for N days becomes "stale":
+
 - Offered to other contributors
 - Original worker notified
 
 ### Automatic Work Discovery
 
 New contributors see available work:
+
 - Unclaimed carnets by language
 - Stale claims available for takeover
 - Priority ordering by project needs
@@ -344,5 +360,4 @@ See `.claude/skills/project-status/SKILL.md` for details.
 - `/CLAUDE.md` - Main project guidance
 - `/README.md` - Project overview
 - `/docs/FRONTMATTER.md` - Entry format specification
-- `/prompts/Style.md` - Translation style guide
 - `/.claude/skills/` - Role definitions
