@@ -5,6 +5,7 @@ import Footer from '../components/layout/Footer.astro';
 
 import BackToTop from '../components/reading/BackToTop.vue';
 import InstallPrompt from '../components/pwa/InstallPrompt.vue';
+import HistoryTracker from '../components/layout/HistoryTracker.vue';
 
 interface Props {
   title?: string;
@@ -39,6 +40,9 @@ const { title, description, lang, image, type, canonicalUrl, article } = Astro.p
 
   <!-- PWA install prompt (Vue island) -->
   <InstallPrompt client:idle />
+
+  <!-- Reading history tracker (headless Vue island) -->
+  <HistoryTracker client:load />
 </BaseLayout>
 
 <!-- Theme/font-scale applied in BaseLayout <head> to prevent flash -->

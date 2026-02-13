@@ -308,5 +308,11 @@
     "mentions": "{count} zmínek",
     "notebooks": "sešitů",
     "crossYearContinues": "Pokračuje do roku {years}"
+  },
+  "history": {
+    "title": "Historie",
+    "empty": "Zatím žádná historie",
+    "clear": "Vymazat",
+    "glossaryLabel": "glosář"
   }
 }
