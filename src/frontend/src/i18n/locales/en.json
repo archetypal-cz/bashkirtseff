@@ -314,5 +314,24 @@
     "empty": "No history yet",
     "clear": "Clear",
     "glossaryLabel": "glossary"
+  },
+  "welcome": {
+    "pageTitle": "Welcome — Diary of Marie Bashkirtseff",
+    "title": "Welcome to Marie's Diary",
+    "subtitle": "A quick guide to reading the complete, uncensored diary",
+    "featureToolbar": "Paragraph tools",
+    "featureToolbarDesc": "Tap the three-dot menu next to any paragraph to share it, copy a link, or explore related glossary entries.",
+    "featureFlip": "Read the original",
+    "featureFlipDesc": "Tap the fleur-de-lis to flip any paragraph and read Marie's original French text.",
+    "featureGlossary": "Glossary connections",
+    "featureGlossaryDesc": "Colored dots on the menu button mean there are related people, places, or cultural notes to explore.",
+    "featureFilter": "Filter entries",
+    "featureFilterDesc": "Use the menu to filter diary entries by people, places, or cultural themes across all notebooks.",
+    "featureHistory": "Reading history",
+    "featureHistoryDesc": "Your recently viewed paragraphs and glossary entries are saved in the menu for easy return.",
+    "featureOffline": "Read offline",
+    "featureOfflineDesc": "After your first visit, the diary works without an internet connection. Download notebooks for offline reading.",
+    "startReading": "Start reading",
+    "skipLabel": "Skip introduction"
   }
 }

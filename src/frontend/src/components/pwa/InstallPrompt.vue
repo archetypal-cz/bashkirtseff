@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 import { useI18n } from '../../i18n';
+import { trackEvent } from '../../lib/analytics';
 
 const { t } = useI18n();
 
@@ -16,6 +17,7 @@ function handleBeforeInstallPrompt(e: Event) {
   const dismissed = localStorage.getItem('pwa-install-dismissed');
   if (!dismissed) {
     showPrompt.value = true;
+    trackEvent('pwa_install_shown');
   }
 }
 
@@ -29,7 +31,10 @@ async function installApp() {
   const { outcome } = await deferredPrompt.value.userChoice;
 
   if (outcome === 'accepted') {
+    trackEvent('pwa_install_accepted');
     showPrompt.value = false;
+  } else {
+    trackEvent('pwa_install_dismissed');
   }
 
   // Clear the deferred prompt
@@ -37,6 +42,7 @@ async function installApp() {
 }
 
 function dismissPrompt() {
+  trackEvent('pwa_install_dismissed');
   showPrompt.value = false;
   localStorage.setItem('pwa-install-dismissed', 'true');
 }

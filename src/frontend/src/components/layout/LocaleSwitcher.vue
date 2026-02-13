@@ -2,6 +2,7 @@
 import { ref, onMounted, onUnmounted, computed } from 'vue';
 import { useI18n, LOCALE_NAMES, SUPPORTED_LOCALES, localeToContentPath, type SupportedLocale } from '../../i18n';
 import { DIARY_LANGUAGES } from '../../lib/diary-lang-config';
+import { trackEvent } from '../../lib/analytics';
 
 const { locale, setLocale } = useI18n();
 
@@ -51,6 +52,7 @@ function isBrowserPreferred(loc: SupportedLocale): boolean {
 }
 
 function selectLocale(newLocale: SupportedLocale) {
+  trackEvent('locale_switch', { from: locale.value, to: newLocale });
   setLocale(newLocale);
   isOpen.value = false;
 

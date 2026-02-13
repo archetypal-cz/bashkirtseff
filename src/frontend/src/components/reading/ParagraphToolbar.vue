@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
 import { useI18n } from '../../i18n';
+import { trackEvent } from '../../lib/analytics';
 
 const { t } = useI18n();
 
@@ -26,6 +27,10 @@ const props = defineProps<{
 const isFlipped = ref(false);
 
 function flip() {
+  trackEvent('paragraph_flip', {
+    paragraphId: props.paragraphId,
+    direction: isFlipped.value ? 'to_translation' : 'to_original',
+  });
   isFlipped.value = !isFlipped.value;
 }
 
@@ -91,10 +96,12 @@ function getUrl() {
 function copyLink() {
   navigator.clipboard.writeText(getUrl());
   copied.value = true;
+  trackEvent('copy_link', { paragraphId: props.paragraphId });
   setTimeout(() => { copied.value = false; }, 2000);
 }
 
 async function shareLink() {
+  trackEvent('share', { paragraphId: props.paragraphId });
   const url = getUrl();
   const title = document.title;
 
@@ -220,7 +227,7 @@ const hasOriginal = computed(() => !!props.originalText);
                 :href="language ? `/${language}/glossary/${tag.id}` : `/glossary/${tag.id}`"
                 class="menu-item glossary-link"
                 :class="`category-${tag.category || 'default'}`"
-                @click="closeMenu"
+                @click="trackEvent('glossary_tag_click', { tagId: tag.id, tagName: tag.name, source: 'toolbar' }); closeMenu()"
               >
                 <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getCategoryIcon(tag.category)" />

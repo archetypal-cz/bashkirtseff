@@ -314,5 +314,24 @@
     "empty": "Zatím žádná historie",
     "clear": "Vymazat",
     "glossaryLabel": "glosář"
+  },
+  "welcome": {
+    "pageTitle": "Vítejte — Deník Marie Bashkirtseff",
+    "title": "Vítejte v Mariině deníku",
+    "subtitle": "Stručný průvodce čtením kompletního, necenzurovaného deníku",
+    "featureToolbar": "Nástroje odstavce",
+    "featureToolbarDesc": "Klepněte na tři tečky u odstavce pro sdílení, kopírování odkazu nebo prozkoumání souvisejících položek glosáře.",
+    "featureFlip": "Číst originál",
+    "featureFlipDesc": "Klepněte na liliový symbol pro otočení odstavce a čtení Mariina původního francouzského textu.",
+    "featureGlossary": "Propojení s glosářem",
+    "featureGlossaryDesc": "Barevné tečky na tlačítku menu znamenají, že existují související osoby, místa nebo kulturní poznámky.",
+    "featureFilter": "Filtrovat záznamy",
+    "featureFilterDesc": "V menu můžete filtrovat záznamy podle osob, míst nebo kulturních témat napříč všemi sešity.",
+    "featureHistory": "Historie čtení",
+    "featureHistoryDesc": "Naposledy zobrazené odstavce a položky glosáře jsou uloženy v menu pro snadný návrat.",
+    "featureOffline": "Čtení offline",
+    "featureOfflineDesc": "Po první návštěvě deník funguje i bez připojení k internetu. Stáhněte si sešity pro offline čtení.",
+    "startReading": "Začít číst",
+    "skipLabel": "Přeskočit úvod"
   }
 }

@@ -2,6 +2,7 @@
 import { ref, onMounted } from 'vue';
 import { useI18n } from '../../i18n';
 import { getCategoryIcon } from '../../lib/glossary-categories';
+import { trackEvent } from '../../lib/analytics';
 
 const { t } = useI18n();
 
@@ -38,10 +39,12 @@ function getUrl() {
 function copyLink() {
   navigator.clipboard.writeText(getUrl());
   copied.value = true;
+  trackEvent('copy_link', { paragraphId: props.paragraphId });
   setTimeout(() => { copied.value = false; }, 2000);
 }
 
 async function shareLink() {
+  trackEvent('share', { paragraphId: props.paragraphId });
   const url = getUrl();
   const title = document.title;
 
@@ -147,7 +150,7 @@ onMounted(() => {
                   :href="language ? `/${language}/glossary/${tag.id}` : `/glossary/${tag.id}`"
                   class="menu-item glossary-link"
                   :class="`category-${tag.category || 'default'}`"
-                  @click="closeMenu"
+                  @click="trackEvent('glossary_tag_click', { tagId: tag.id, tagName: tag.name, source: 'menu' }); closeMenu()"
                 >
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getCategoryIcon(tag.category)" />
