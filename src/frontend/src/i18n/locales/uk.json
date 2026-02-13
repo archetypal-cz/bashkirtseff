@@ -40,10 +40,21 @@
   },
   "nav": {
     "diary": "Щоденник",
+    "translation": "Переклад",
     "original": "Оригінал",
     "glossary": "Глосарій",
     "marie": "Марія",
     "about": "Про проєкт"
+  },
+  "translation": {
+    "heading": "Переклади щоденника",
+    "intro": "Ми перекладаємо повний, нецензурований щоденник Марії Башкирцевої багатьма мовами. Переклади створюються за допомогою ШІ та людської перевірки.",
+    "chooseLanguage": "Доступні переклади",
+    "comingSoon": "Незабаром",
+    "czech": "Чеська",
+    "english": "Англійська",
+    "ukrainian": "Українська",
+    "french": "Французька (сучасна редакція)"
   },
   "pwa": {
     "installApp": "Встановити застосунок",
@@ -78,7 +89,8 @@
   },
   "language": {
     "original": "Оригінал (багатомовний)",
-    "translation": "Переклад: {lang}"
+    "translation": "Переклад: {lang}",
+    "unavailable": "Переклад поки недоступний. Допоможіть нам!"
   },
   "paragraph": {
     "options": "Параметри абзацу",
@@ -227,7 +239,10 @@
     "or": "або",
     "clearFilter": "Скасувати фільтр",
     "bannerCount": "Відфільтровано: {matching} з {total} записів",
-    "bannerCarnet": "Показано {matching} з {total} записів ({hidden} приховано)"
+    "bannerCarnet": "Показано {matching} з {total} записів ({hidden} приховано)",
+    "paragraphsHidden": "{count} абзаців приховано",
+    "showHidden": "Показати приховані",
+    "hideFiltered": "Сховати відфільтровані"
   },
   "glossary": {
     "title": "Глосарій",
@@ -246,6 +261,8 @@
     "pronunciationTitle": "Послухати вимову"
   },
   "diary": {
+    "subtitle": "Робота в процесі: AI-асистований, людьми доопрацьований переклад повного щоденника",
+    "aboutLink": "Історія щоденника та як долучитися",
     "pageTitle": "Щоденник Марії Башкирцевої",
     "pageTitleOriginal": "Щоденник Марії Башкирцевої — Оригінальний текст",
     "pageTitleTranslation": "Щоденник Марії Башкирцевої — {lang}",
@@ -288,6 +305,8 @@
     "frenchOriginal": "Французький оригінал",
     "showInDiary": "Показати у щоденнику",
     "alsoKnownAs": "Також відомий як:",
-    "mentions": "{count} згадок"
+    "mentions": "{count} згадок",
+    "notebooks": "зошитів",
+    "crossYearContinues": "Продовжується у {years}"
   }
 }

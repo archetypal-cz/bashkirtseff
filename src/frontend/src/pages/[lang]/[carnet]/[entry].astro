@@ -1,8 +1,7 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
-import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
+import ParagraphToolbar from '../../../components/reading/ParagraphToolbar.vue';
 import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
-import FlipParagraph from '../../../components/reading/FlipParagraph.vue';
 import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages } from '../../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
@@ -162,47 +161,21 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
       {processedParagraphs.map(paragraph => (
         <div
           id={paragraph.htmlId}
-          class="group relative paragraph-container scroll-mt-24"
+          class="paragraph-container scroll-mt-24"
           data-paragraph-id={paragraph.id}
           style={lang.isTranslation ? "perspective: 1000px;" : undefined}
         >
-          {lang.isTranslation ? (
-            <>
-              {/* Flip card with translation and original */}
-              <FlipParagraph
-                client:visible
-                paragraphId={paragraph.id}
-                htmlContent={paragraph.html}
-                originalText={paragraph.originalText}
-                languages={paragraph.languages}
-                translationLang={lang.urlPath}
-              />
-
-              {/* Paragraph menu - positioned at top right, next to flip button */}
-              <div class="absolute -top-3 right-16 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10" style="transform: translateZ(100px); transform-style: flat;">
-                <ParagraphMenu
-                  client:visible
-                  paragraphId={paragraph.id}
-                  glossaryTags={paragraph.glossaryTags}
-                  language={lang.urlPath}
-                />
-              </div>
-            </>
-          ) : (
-            <>
-              <div class="text-lg leading-relaxed text-ink" lang={lang.contentLangAttr} set:html={paragraph.html} />
-
-              {/* Paragraph menu - positioned at top right */}
-              <div class="absolute -top-3 right-0 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10">
-                <ParagraphMenu
-                  client:visible
-                  paragraphId={paragraph.id}
-                  glossaryTags={paragraph.glossaryTags}
-                  language={lang.urlPath}
-                />
-              </div>
-            </>
-          )}
+          <ParagraphToolbar
+            client:visible
+            paragraphId={paragraph.id}
+            htmlContent={paragraph.html}
+            originalText={lang.isTranslation ? paragraph.originalText : undefined}
+            languages={lang.isTranslation ? paragraph.languages : undefined}
+            translationLang={lang.isTranslation ? lang.urlPath : undefined}
+            glossaryTags={paragraph.glossaryTags}
+            language={lang.urlPath}
+            contentLang={lang.contentLangAttr}
+          />
         </div>
       ))}
     </div>

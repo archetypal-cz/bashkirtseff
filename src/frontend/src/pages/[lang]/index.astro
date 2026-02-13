@@ -1,6 +1,7 @@
 ---
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
 import FilterOverlay from '../../components/filter/FilterOverlay.vue';
+import I18nPatch from '../../components/I18nPatch.astro';
 import { getYears, getCarnets, getCarnetsByYear } from '../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../lib/diary-lang-config';
 import { createT } from '../../i18n/astro';
@@ -48,49 +49,109 @@ const pageTitle = lang.isTranslation
 const subtitle = lang.isTranslation
   ? t('diary.subtitleTranslation', { lang: lang.contentLangAttr.toUpperCase() })
   : t('diary.subtitleOriginal');
+
+// All potential translations (for tabs on translation pages)
+const allTranslations = [
+  { urlPath: 'cz', labelKey: 'translation.czech', langCode: 'CS' },
+  { urlPath: 'en', labelKey: 'translation.english', langCode: 'EN' },
+  { urlPath: 'uk', labelKey: 'translation.ukrainian', langCode: 'UK' },
+  { urlPath: 'fr', labelKey: 'translation.french', langCode: 'FR' },
+];
+const activePaths = new Set(DIARY_LANGUAGES.filter(l => l.isTranslation).map(l => l.urlPath));
 ---
 
 <ReadingLayout title={pageTitle}>
   <div class="max-w-4xl mx-auto">
-    <header class="mb-12 text-center">
-      <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
-        {t('diary.heading')}
-      </h1>
-      <p class="text-ink-light mb-2">
-        {subtitle}
-      </p>
-      {!lang.isTranslation && (
-        <p class="text-sm text-muted">
+    {lang.isTranslation ? (
+      <!-- Translation page: intro + language tabs + year grid -->
+      <header class="mb-10">
+        <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);" data-t="translation.heading">
+          {t('translation.heading')}
+        </h1>
+        <p class="text-ink-light mb-6 max-w-2xl" data-t="translation.intro">
+          {t('translation.intro')}
+        </p>
+
+        <!-- Language tabs -->
+        <div class="mb-6">
+          <h2 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="translation.chooseLanguage">
+            {t('translation.chooseLanguage')}
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            {allTranslations.map(tr => {
+              const isActive = activePaths.has(tr.urlPath);
+              const isCurrent = tr.urlPath === lang.urlPath;
+              return isCurrent ? (
+                <span class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-accent text-white">
+                  <span>{tr.langCode}</span>
+                  <span data-t={tr.labelKey}>{t(tr.labelKey)}</span>
+                </span>
+              ) : isActive ? (
+                <a
+                  href={`/${tr.urlPath}`}
+                  class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-parchment border border-ink/10 text-ink hover:border-accent hover:shadow transition-all"
+                >
+                  <span>{tr.langCode}</span>
+                  <span data-t={tr.labelKey}>{t(tr.labelKey)}</span>
+                </a>
+              ) : (
+                <span
+                  class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm bg-sepia/30 text-muted/50 cursor-default"
+                  title={t('translation.comingSoon')}
+                >
+                  <span>{tr.langCode}</span>
+                  <span data-t={tr.labelKey}>{t(tr.labelKey)}</span>
+                </span>
+              );
+            })}
+            <a
+              href="/original"
+              class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-parchment border border-ink/10 text-ink hover:border-accent hover:shadow transition-all"
+            >
+              <span>FR</span>
+              <span data-t="nav.original">{t('nav.original')}</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Translation progress -->
+        <div class="flex items-center gap-6 text-sm text-muted">
+          <span>{totalEntries} <span data-t="diary.entries">{t('diary.entries')}</span></span>
+          <span>&bull;</span>
+          <span class="text-accent">{totalTranslated} <span data-t="diary.translated">{t('diary.translated')}</span></span>
+        </div>
+
+        {totalTranslated < totalEntries && (
+          <div class="mt-3 max-w-md">
+            <div class="h-2 bg-sepia rounded-full overflow-hidden">
+              <div
+                class="h-full bg-accent rounded-full transition-all"
+                style={`width: ${(totalTranslated / totalEntries) * 100}%`}
+              />
+            </div>
+            <p class="text-xs text-muted mt-1" data-t="diary.completed" data-t-params={JSON.stringify({ percent: Math.round((totalTranslated / totalEntries) * 100) })}>
+              {t('diary.completed', { percent: Math.round((totalTranslated / totalEntries) * 100) })}
+            </p>
+          </div>
+        )}
+      </header>
+    ) : (
+      <!-- Original page: classic header -->
+      <header class="mb-12 text-center">
+        <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);" data-t="diary.heading">
+          {t('diary.heading')}
+        </h1>
+        <p class="text-ink-light mb-2" data-t="diary.subtitleOriginal">
+          {subtitle}
+        </p>
+        <p class="text-sm text-muted" data-t="diary.description">
           {t('diary.description')}
         </p>
-      )}
-
-      <div class="flex items-center justify-center gap-6 text-sm text-muted mt-4">
-        <span>{years.length} let</span>
-        <span>&bull;</span>
-        <span>{totalEntries} {t('diary.entries')}</span>
-        {lang.isTranslation && (
-          <>
-            <span>&bull;</span>
-            <span class="text-accent">{totalTranslated} {t('diary.translated')}</span>
-          </>
-        )}
-      </div>
-
-      {lang.isTranslation && totalTranslated < totalEntries && (
-        <div class="mt-4 max-w-md mx-auto">
-          <div class="h-2 bg-sepia rounded-full overflow-hidden">
-            <div
-              class="h-full bg-accent rounded-full transition-all"
-              style={`width: ${(totalTranslated / totalEntries) * 100}%`}
-            />
-          </div>
-          <p class="text-xs text-muted mt-1">
-            {t('diary.completed', { percent: Math.round((totalTranslated / totalEntries) * 100) })}
-          </p>
+        <div class="flex items-center justify-center gap-6 text-sm text-muted mt-4">
+          <span>{totalEntries} <span data-t="diary.entries">{t('diary.entries')}</span></span>
         </div>
-      )}
-    </header>
+      </header>
+    )}
 
     <!-- Preface link -->
     <a
@@ -99,10 +160,10 @@ const subtitle = lang.isTranslation
     >
       <div class="flex items-center justify-between">
         <div>
-          <h2 class="text-lg text-ink mb-1">
+          <h2 class="text-lg text-ink mb-1" data-t="diary.preface">
             {t('diary.preface')}
           </h2>
-          <p class="text-sm text-muted">
+          <p class="text-sm text-muted" data-t="diary.prefaceNote">
             {t('diary.prefaceNote')}
           </p>
         </div>
@@ -138,15 +199,15 @@ const subtitle = lang.isTranslation
           </div>
 
           <p class="text-sm text-muted mb-1">
-            Marie: {year.marieAge} let
+            Marie: {year.marieAge} <span data-t="home.yearsOld">{t('home.yearsOld')}</span>
           </p>
 
           <div class="flex items-center justify-between text-sm">
             <span class="text-muted">
-              {year.carnets.length} sešitů
+              {year.carnets.length} <span data-t="diary.notebooks">{t('diary.notebooks')}</span>
             </span>
             <span class="text-muted" data-filter-count={`year-entries:${year.year}`}>
-              {year.entryCount} {t('diary.entries')}
+              {year.entryCount} <span data-t="diary.entries">{t('diary.entries')}</span>
             </span>
           </div>
 
@@ -159,7 +220,7 @@ const subtitle = lang.isTranslation
                 />
               </div>
               <p class="text-xs text-muted mt-1">
-                {year.translatedCount}/{year.entryCount} {t('diary.translated')}
+                {year.translatedCount}/{year.entryCount} <span data-t="diary.translated">{t('diary.translated')}</span>
                 {year.entryCount > 0 && (
                   <span class="text-accent ml-1">
                     ({Math.round((year.translatedCount / year.entryCount) * 100)}%)
@@ -174,7 +235,7 @@ const subtitle = lang.isTranslation
 
     {yearsWithStats.length === 0 && (
       <div class="text-center py-12 text-muted">
-        <p>{t('diary.noCarnetsFound')}</p>
+        <p data-t="diary.noCarnetsFound">{t('diary.noCarnetsFound')}</p>
       </div>
     )}
 
@@ -182,9 +243,10 @@ const subtitle = lang.isTranslation
     {lang.isTranslation && (
       <div class="mt-8 pt-8 border-t border-ink/10 text-center">
         <a href={`${basePath}/carnets`} class="text-sm text-muted hover:text-accent transition-colors">
-          {t('diary.allNotebooks')} &rarr;
+          <span data-t="diary.allNotebooks">{t('diary.allNotebooks')}</span> &rarr;
         </a>
       </div>
     )}
   </div>
+  <I18nPatch />
 </ReadingLayout>
