@@ -126,34 +126,26 @@ The AstroJS [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/P
 
 ## Development
 
-### Prerequisites
+### Docker Workspace (recommended)
 
-- Node.js 18+
-- npm 9+
-- [Just](https://just.systems) command runner
-
-### Setup
+The fastest way to get a working environment with all tools pre-installed:
 
 ```bash
-# Install dependencies
-npm install
-
-# Start frontend development server
-cd src/frontend && npm run dev
-
-# Build for production
-cd src/frontend && npm run build
+cp src/workspace/.env.example .env    # Add your API keys
+just workspace-up                     # Build and start
 ```
 
-### Just Commands
+This gives you Claude Code, Gemini CLI, code-server (VS Code in browser), byobu, Node.js, and everything else in an isolated container. See `src/workspace/README.md` for details.
 
-The project uses [Just](https://github.com/casey/just) for task automation:
+### Local Setup
+
+Prerequisites: Node.js 18+, npm 9+, [Just](https://just.systems)
 
 ```bash
+just setup               # Install dependencies + build shared package
+just fe-dev              # Start frontend dev server
+just fe-build            # Build for production
 just help                # Show all commands
-just frontend-dev        # Start frontend dev server
-just frontend-build      # Build frontend
-just frontend-deploy     # Deploy to production
 ```
 
 ## Working with Claude Code
