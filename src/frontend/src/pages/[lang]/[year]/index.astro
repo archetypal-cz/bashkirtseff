@@ -3,8 +3,8 @@ import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import I18nPatch from '../../../components/I18nPatch.astro';
-import { getYears, getCarnetsByYear, getYearInfo, isCarnetCrossYear } from '../../../lib/content';
-import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { getYears, getCarnetsByYear, getYearInfo, getYearSummary, isCarnetCrossYear } from '../../../lib/content';
+import { DIARY_LANGUAGES, glossaryUrl, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 
 export function getStaticPaths() {
@@ -89,6 +89,16 @@ const prevYear = currentIndex > 0 ? allYears[currentIndex - 1] : null;
 const nextYear = currentIndex < allYears.length - 1 ? allYears[currentIndex + 1] : null;
 
 const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
+
+// Year summary data (people, places, themes)
+const summary = await getYearSummary(yearNum, '_original');
+const topPeople = Object.entries(summary.peopleCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+const topPlaces = Object.entries(summary.placesCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+const topThemes = Object.entries(summary.themeCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+
+function formatDisplayName(id: string): string {
+  return id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
 ---
 
 <ReadingLayout title={`${t('diary.year', { year })} — ${t('diary.pageTitle')}`}>
@@ -100,71 +110,162 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
       <span class="text-ink" data-t="diary.year" data-t-params={JSON.stringify({ year })}>{t('diary.year', { year })}</span>
     </nav>
 
-    <header class="mb-8">
-      <h1 class="text-3xl font-normal text-ink mb-2" style="font-family: var(--font-serif);" data-t="diary.year" data-t-params={JSON.stringify({ year })}>
-        {t('diary.year', { year })}
-      </h1>
+    <!-- Header + Summary Grid -->
+    <section class="mb-10">
+      <div class="grid gap-5 grid-cols-1 sm:grid-cols-2 xl:grid-cols-[1.5fr_1fr_1fr]">
+        <!-- Year Header (wider 1st column) -->
+        <header class="summary-card p-5 rounded-lg flex flex-col justify-between">
+          <div>
+            <h1 class="text-3xl font-normal text-ink mb-3" style="font-family: var(--font-serif); text-shadow: 0 1px 2px rgba(44,24,16,0.08);">
+              {t('diary.year', { year })}
+            </h1>
 
-      {yearInfo && (
-        <p class="text-ink-light mb-4">
-          Marie Bashkirtseff ({yearInfo.marieAge} <span data-t="home.yearsOld">{t('home.yearsOld')}</span>)
-        </p>
-      )}
+            {yearInfo && (
+              <p class="text-ink-light mb-3">
+                Marie Bashkirtseff ({yearInfo.marieAge} <span data-t="home.yearsOld">{t('home.yearsOld')}</span>)
+              </p>
+            )}
 
-      <div class="flex items-center gap-4 text-sm flex-wrap">
-        <span class="text-muted">
-          {carnetsWithStatus.length} <span data-t="diary.notebooks">{t('diary.notebooks')}</span>
-        </span>
-        <span class="text-muted">&bull;</span>
-        <span class="text-muted">
-          {totalEntries} <span data-t="diary.entries">{t('diary.entries')}</span>
-        </span>
-        {lang.isTranslation && (
-          <>
-            <span class="text-muted">&bull;</span>
-            <span class="text-accent">
-              {totalTranslated} <span data-t="diary.translated">{t('diary.translated')}</span>
-            </span>
-          </>
+            <div class="flex items-center gap-3 text-sm mb-3">
+              <span class="text-muted">
+                {carnetsWithStatus.length} <span data-t="diary.notebooks">{t('diary.notebooks')}</span>
+              </span>
+              <span class="text-muted">&bull;</span>
+              <span class="text-muted">
+                {totalEntries} <span data-t="diary.entries">{t('diary.entries')}</span>
+              </span>
+              {lang.isTranslation && (
+                <>
+                  <span class="text-muted">&bull;</span>
+                  <span class="text-accent">
+                    {totalTranslated} <span data-t="diary.translated">{t('diary.translated')}</span>
+                  </span>
+                </>
+              )}
+            </div>
+
+            {lang.isTranslation && totalTranslated < totalEntries && (
+              <div class="mb-4">
+                <div class="h-2 bg-sepia rounded-full overflow-hidden">
+                  <div
+                    class="h-full bg-accent rounded-full transition-all"
+                    style={`width: ${(totalTranslated / totalEntries) * 100}%`}
+                  />
+                </div>
+                <p class="text-xs text-muted mt-1" data-t="diary.completed" data-t-params={JSON.stringify({ percent: Math.round((totalTranslated / totalEntries) * 100) })}>
+                  {t('diary.completed', { percent: Math.round((totalTranslated / totalEntries) * 100) })}
+                </p>
+              </div>
+            )}
+
+            {summary.primaryLocation && (
+              <p class="text-sm text-muted mb-2">
+                {t('diary.mainLocation')} <a href={glossaryUrl(lang, summary.primaryLocation.toUpperCase().replace(/ /g, '_'))} class="text-ink hover:text-accent transition-colors">{formatDisplayName(summary.primaryLocation)}</a>
+              </p>
+            )}
+          </div>
+
+          <div class="mt-4">
+            <OfflineDownload client:visible scopeType="year" scopeId={year!} language="original" />
+          </div>
+        </header>
+
+        {/* Key People */}
+        {topPeople.length > 0 && (
+          <div class="summary-card p-4 rounded-lg">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
+              {t('diary.keyPeople')}
+            </h3>
+            <ul class="space-y-2">
+              {topPeople.map(([personId, count]) => (
+                <li class="flex items-center justify-between text-sm">
+                  <a
+                    href={glossaryUrl(lang, personId)}
+                    class="text-ink hover:text-accent transition-colors truncate"
+                  >
+                    {formatDisplayName(personId)}
+                  </a>
+                  <span class="text-muted ml-2 flex-shrink-0">{count}x</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Places */}
+        {topPlaces.length > 0 && (
+          <div class="summary-card p-4 rounded-lg">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
+              {t('diary.places')}
+            </h3>
+            <ul class="space-y-2">
+              {topPlaces.map(([placeId, count]) => (
+                <li class="flex items-center justify-between text-sm">
+                  <a
+                    href={glossaryUrl(lang, placeId)}
+                    class="text-ink hover:text-accent transition-colors truncate"
+                  >
+                    {formatDisplayName(placeId)}
+                  </a>
+                  <span class="text-muted ml-2 flex-shrink-0">{count}x</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Themes (spans full width) */}
+        {topThemes.length > 0 && (
+          <div class="summary-card p-4 rounded-lg sm:col-span-2 xl:col-span-3">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
+              {t('diary.themes')}
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {topThemes.map(([theme, count]) => (
+                <span class="inline-flex items-center gap-1 px-2 py-1 text-xs rounded-full bg-sepia text-ink">
+                  {theme}
+                  <span class="text-muted">({count})</span>
+                </span>
+              ))}
+            </div>
+          </div>
         )}
       </div>
-
-      {lang.isTranslation && totalTranslated < totalEntries && (
-        <div class="mt-4">
-          <div class="h-2 bg-sepia rounded-full overflow-hidden">
-            <div
-              class="h-full bg-accent rounded-full transition-all"
-              style={`width: ${(totalTranslated / totalEntries) * 100}%`}
-            />
-          </div>
-          <p class="text-xs text-muted mt-1" data-t="diary.completed" data-t-params={JSON.stringify({ percent: Math.round((totalTranslated / totalEntries) * 100) })}>
-            {t('diary.completed', { percent: Math.round((totalTranslated / totalEntries) * 100) })}
-          </p>
-        </div>
-      )}
-    </header>
-
-    <!-- Offline Download -->
-    <OfflineDownload client:visible scopeType="year" scopeId={year!} language="original" />
+    </section>
 
     <!-- Year Navigation -->
-    <div class="flex justify-between items-center mb-8 text-sm">
+    <nav class="flex justify-between items-center mb-8 text-sm">
       {prevYear ? (
-        <a href={`${basePath}/${prevYear.year}`} class="text-accent hover:text-accent-light transition-colors">
-          &larr; {prevYear.year}
+        <a href={`${basePath}/${prevYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          {prevYear.year}
         </a>
       ) : <span />}
+      <a href={basePath} class="text-muted hover:text-ink transition-colors flex items-center gap-1">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+        {diaryLabel}
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+      </a>
       {nextYear ? (
-        <a href={`${basePath}/${nextYear.year}`} class="text-accent hover:text-accent-light transition-colors">
-          {nextYear.year} &rarr;
+        <a href={`${basePath}/${nextYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+          {nextYear.year}
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
         </a>
       ) : <span />}
-    </div>
+    </nav>
 
     <FilterOverlay client:load pageType="year-detail" />
 
-    <!-- Carnet List -->
-    <div class="space-y-3">
+    <!-- Carnet List (masonry) -->
+    <div class="masonry-carnets">
       {carnetsWithStatus.map(carnet => (
         <a
           href={`${basePath}/${carnet.id}`}
@@ -220,12 +321,34 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
       </div>
     )}
 
-    <!-- Back link -->
-    <div class="mt-8 pt-8 border-t border-ink/10">
-      <a href={basePath} class="text-accent hover:text-accent-light transition-colors">
-        &larr; <span data-t="diary.allNotebooks">{t('diary.allNotebooks')}</span>
+    <!-- Bottom navigation (mirrors top nav) -->
+    <nav class="mt-8 pt-8 border-t border-ink/10 flex justify-between items-center text-sm">
+      {prevYear ? (
+        <a href={`${basePath}/${prevYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          {prevYear.year}
+        </a>
+      ) : <span />}
+      <a href={basePath} class="text-muted hover:text-ink transition-colors flex items-center gap-1">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+        {diaryLabel}
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
       </a>
-    </div>
+      {nextYear ? (
+        <a href={`${basePath}/${nextYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+          {nextYear.year}
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      ) : <span />}
+    </nav>
   </div>
   <I18nPatch />
 </ReadingLayout>
