@@ -160,6 +160,7 @@ Format: `[#Entity_Name](../_glossary/category/ENTITY_NAME.md)`
 - **All project scripts are TypeScript** (in `/src/scripts/` and `/src/shared/`)
 - **Python is used only for ad-hoc tasks** (e.g., docx analysis) and is always run via **`uv`**, never bare `pip` or `python`
 - **`just` commands** wrap all common operations — prefer them over direct npm/npx
+- **Always run `git diff` in a subagent** — diffs consume large amounts of context window. Use a Task subagent (e.g., Bash or general-purpose) for any git diff, git log with patches, or similar output-heavy git operations. Summarize the results back to the main conversation.
 
 ## CRITICAL: Use Justfile Commands
 
