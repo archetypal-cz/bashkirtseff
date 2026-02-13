@@ -308,5 +308,11 @@
     "mentions": "{count} mentions",
     "notebooks": "notebooks",
     "crossYearContinues": "Continues to year {years}"
+  },
+  "history": {
+    "title": "History",
+    "empty": "No history yet",
+    "clear": "Clear",
+    "glossaryLabel": "glossary"
   }
 }

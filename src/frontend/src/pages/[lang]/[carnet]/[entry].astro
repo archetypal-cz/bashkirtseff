@@ -87,6 +87,19 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     window.__sidebarData = JSON.parse(__sidebarJSON);
   </script>
 
+  <!-- Paragraph metadata for reading history -->
+  <script is:inline define:vars={{ __historyJSON: JSON.stringify({
+    carnet,
+    entryDate,
+    language: lang.urlPath,
+    paragraphs: processedParagraphs.map(p => ({
+      id: p.id,
+      text: p.html.replace(/<[^>]*>/g, '').slice(0, 60),
+    })),
+  }) }}>
+    window.__entryHistoryData = JSON.parse(__historyJSON);
+  </script>
+
   <article class="max-w-3xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-6 text-sm text-muted">
@@ -251,3 +264,46 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 </script>
 
 <script src="../../../scripts/footnote-popover.ts"></script>
+
+<script>
+  // Track paragraph reading via IntersectionObserver
+  // When a paragraph scrolls out of the viewport upward, fire 'paragraph-read' event
+  document.addEventListener('DOMContentLoaded', () => {
+    const data = (window as any).__entryHistoryData;
+    if (!data) return;
+
+    const paragraphTextMap = new Map<string, string>();
+    for (const p of data.paragraphs) {
+      paragraphTextMap.set(p.id, p.text);
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          // Paragraph has left the viewport going upward (user scrolled past it)
+          if (!entry.isIntersecting && entry.boundingClientRect.top < 0) {
+            const paragraphId = (entry.target as HTMLElement).dataset.paragraphId;
+            if (!paragraphId) continue;
+
+            const text = paragraphTextMap.get(paragraphId) || '';
+            window.dispatchEvent(new CustomEvent('paragraph-read', {
+              detail: {
+                paragraphId,
+                text,
+                carnet: data.carnet,
+                entryDate: data.entryDate,
+                language: data.language,
+                url: `/${data.language}/${data.carnet}/${data.entryDate}#p-${paragraphId.replace('.', '-')}`,
+              },
+            }));
+          }
+        }
+      },
+      { threshold: 0 }
+    );
+
+    document.querySelectorAll('.paragraph-container').forEach((el) => {
+      observer.observe(el);
+    });
+  });
+</script>

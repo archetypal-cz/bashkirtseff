@@ -232,6 +232,19 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   </article>
 </ReadingLayout>
 
+<script is:inline define:vars={{ __glossaryHistoryJSON: JSON.stringify({
+  glossaryId: entryId,
+  glossaryName: entry?.name || entryId,
+  language: lang.urlPath,
+  url: `/${lang.urlPath}/glossary/${entryId}`,
+}) }}>
+  // Record glossary visit for reading history
+  document.addEventListener('DOMContentLoaded', () => {
+    const data = JSON.parse(__glossaryHistoryJSON);
+    window.dispatchEvent(new CustomEvent('glossary-visit', { detail: data }));
+  });
+</script>
+
 <script>
   // Handle deep linking - highlight paragraph on page load
   document.addEventListener('DOMContentLoaded', () => {

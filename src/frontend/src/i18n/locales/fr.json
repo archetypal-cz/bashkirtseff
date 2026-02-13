@@ -308,5 +308,11 @@
     "mentions": "{count} mentions",
     "notebooks": "cahiers",
     "crossYearContinues": "Continue en {years}"
+  },
+  "history": {
+    "title": "Historique",
+    "empty": "Aucun historique",
+    "clear": "Effacer",
+    "glossaryLabel": "glossaire"
   }
 }

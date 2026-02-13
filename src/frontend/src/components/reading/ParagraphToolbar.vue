@@ -125,18 +125,6 @@ const hasOriginal = computed(() => !!props.originalText);
   <div class="paragraph-toolbar-container">
     <!-- Minimal toolbar: just fleur-de-lis + three dots -->
     <div class="toolbar" role="toolbar" :aria-label="t('paragraph.options') + ' ' + paragraphId">
-      <!-- Fleur-de-lis: click to flip (only for translations with original) -->
-      <button
-        v-if="hasOriginal"
-        @click="flip"
-        class="toolbar__btn toolbar__btn--fleur"
-        :class="{ 'toolbar__btn--active': isFlipped }"
-        :title="isFlipped
-          ? '\u2192 ' + translationLanguage.title
-          : '\u2192 ' + originalLanguages.map(l => l.title).join(', ')"
-      >&#x269C;</button>
-      <span v-else />
-
       <!-- Three-dot menu button -->
       <button
         @click="toggleMenu"
@@ -149,6 +137,17 @@ const hasOriginal = computed(() => !!props.originalText);
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
         </svg>
       </button>
+
+      <!-- Fleur-de-lis: click to flip (only for translations with original) -->
+      <button
+        v-if="hasOriginal"
+        @click="flip"
+        class="toolbar__btn toolbar__btn--fleur"
+        :class="{ 'toolbar__btn--active': isFlipped }"
+        :title="isFlipped
+          ? '\u2192 ' + translationLanguage.title
+          : '\u2192 ' + originalLanguages.map(l => l.title).join(', ')"
+      >&#x269C;</button>
     </div>
 
     <!-- Paragraph content with flip animation -->
@@ -248,7 +247,7 @@ const hasOriginal = computed(() => !!props.originalText);
 .toolbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   min-height: 0.75rem;
   padding: 0;
   opacity: 0.2;

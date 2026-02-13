@@ -308,5 +308,11 @@
     "mentions": "{count} згадок",
     "notebooks": "зошитів",
     "crossYearContinues": "Продовжується у {years}"
+  },
+  "history": {
+    "title": "Історія",
+    "empty": "Історії ще немає",
+    "clear": "Очистити",
+    "glossaryLabel": "глосарій"
   }
 }

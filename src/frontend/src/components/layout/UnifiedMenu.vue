@@ -2,12 +2,14 @@
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue';
 import { useI18n, getTranslationHref } from '../../i18n';
 import { useFilterStore } from '../../stores/filter';
+import { useHistoryStore } from '../../stores/history';
 import CalendarWidget from '../CalendarWidget.vue';
 import type { FilterCategory, FilterTag } from '../../types/filter-index';
 
 const { t, locale } = useI18n();
 const translationHref = computed(() => getTranslationHref(locale.value));
 const filterStore = useFilterStore();
+const historyStore = useHistoryStore();
 
 // --- Panel state ---
 const isOpen = ref(false);
@@ -311,6 +313,9 @@ onMounted(() => {
   // Init filter store
   filterStore.init();
 
+  // Init history store
+  historyStore.init();
+
   // Event listeners
   document.addEventListener('keydown', onKeydown);
   nextTick(() => {
@@ -480,6 +485,53 @@ onUnmounted(() => {
                         </svg>
                       </button>
                     </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ═══ HISTORY SECTION ═══ -->
+              <div v-if="!historyStore.isEmpty" class="um-section">
+                <button class="um-section-header" @click="toggleSection('history')">
+                  <span class="um-section-label">
+                    <svg class="um-chevron" :class="{ expanded: expandedSections.has('history') }"
+                      width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="9 18 15 12 9 6" />
+                    </svg>
+                    {{ t('history.title') }}
+                  </span>
+                  <span class="um-section-badge">
+                    {{ historyStore.count }}
+                  </span>
+                </button>
+                <div v-if="expandedSections.has('history')" class="um-section-body history-body">
+                  <nav class="history-list">
+                    <a
+                      v-for="item in historyStore.items"
+                      :key="item.type + '-' + (item.paragraphId || item.glossaryId)"
+                      :href="item.url"
+                      class="history-item"
+                      @click="closePanel"
+                    >
+                      <template v-if="item.type === 'paragraph'">
+                        <span class="history-carnet">{{ item.carnet }}</span>
+                        <span class="history-date">{{ item.entryDate }}</span>
+                        <span class="history-label">{{ item.label }}</span>
+                      </template>
+                      <template v-else>
+                        <span class="history-glossary-icon">
+                          <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                        </span>
+                        <span class="history-glossary-name">{{ item.glossaryName || item.glossaryId }}</span>
+                        <span class="history-glossary-badge">{{ t('history.glossaryLabel') }}</span>
+                      </template>
+                    </a>
+                  </nav>
+                  <div class="history-footer">
+                    <button class="history-clear" @click="historyStore.clear()">
+                      {{ t('history.clear') }}
+                    </button>
                   </div>
                 </div>
               </div>
@@ -1612,6 +1664,116 @@ onUnmounted(() => {
 
 .show-more-btn:hover {
   background: var(--bg-secondary, #F5E6D3);
+}
+
+/* ═══ History section ═══ */
+.history-body {
+  padding: 0 !important;
+}
+
+.history-list {
+  max-height: 30vh;
+  overflow-y: auto;
+  padding: 4px 8px;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--text-primary, #2C1810);
+  transition: background-color 0.15s;
+  font-size: 13px;
+}
+
+.history-item:hover {
+  background: var(--bg-secondary, #F5E6D3);
+}
+
+[data-theme="dark"] .history-item {
+  color: #e5e5e5;
+}
+
+[data-theme="dark"] .history-item:hover {
+  background: #252525;
+}
+
+.history-carnet {
+  font-size: 11px;
+  font-family: monospace;
+  font-weight: 600;
+  color: var(--color-accent, #B45309);
+  min-width: 1.75rem;
+  flex-shrink: 0;
+}
+
+.history-date {
+  font-size: 11px;
+  font-family: monospace;
+  color: var(--text-muted, #78716C);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.history-label {
+  font-size: 12px;
+  color: var(--text-secondary, #4A3728);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
+}
+
+[data-theme="dark"] .history-label {
+  color: #a3a3a3;
+}
+
+.history-glossary-icon {
+  display: flex;
+  align-items: center;
+  color: var(--color-accent, #B45309);
+  flex-shrink: 0;
+}
+
+.history-glossary-name {
+  font-size: 13px;
+  font-weight: 500;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-glossary-badge {
+  font-size: 10px;
+  color: var(--text-muted, #78716C);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  flex-shrink: 0;
+}
+
+.history-footer {
+  padding: 6px 16px 8px;
+  border-top: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
+}
+
+.history-clear {
+  font-size: 11px;
+  color: var(--text-muted, #78716C);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 2px 0;
+  font-family: var(--font-sans);
+}
+
+.history-clear:hover {
+  color: var(--color-accent, #B45309);
 }
 
 /* ═══ Navigation section (narrow screens only) ═══ */
