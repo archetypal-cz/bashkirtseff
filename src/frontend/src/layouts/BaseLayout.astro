@@ -19,11 +19,15 @@ const {
   title = 'Bashkirtseff — The Complete Diary',
   description = 'Read Marie Bashkirtseff\'s complete, uncensored diary. Free, accessible, in multiple languages.',
   lang = 'cs',
-  image = '/images/marie/self-portrait.jpg',
+  image = '/images/og/og-image-composite.jpg',
   type = 'website',
   canonicalUrl,
   article,
 } = Astro.props;
+
+// Umami analytics (cookie-free, privacy-respecting)
+const umamiUrl = import.meta.env.PUBLIC_UMAMI_URL;
+const umamiWebsiteId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID;
 
 // Site configuration
 const siteUrl = 'https://bashkirtseff.org';
@@ -117,6 +121,11 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).hr
     })} />
 
     <title>{title}</title>
+
+    <!-- Umami analytics (cookie-free, no personal data) -->
+    {umamiWebsiteId && umamiUrl && (
+      <script is:inline defer src={`${umamiUrl}/script.js`} data-website-id={umamiWebsiteId}></script>
+    )}
 
     <!-- Apply theme + locale before first paint to prevent flash -->
     <script is:inline>

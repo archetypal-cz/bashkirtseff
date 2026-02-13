@@ -40,10 +40,21 @@
   },
   "nav": {
     "diary": "Deník",
+    "translation": "Překlad",
     "original": "Originál",
     "glossary": "Glosář",
     "marie": "Marie",
     "about": "O projektu"
+  },
+  "translation": {
+    "heading": "Překlady deníku",
+    "intro": "Překládáme kompletní, necenzurovaný deník Marie Bashkirtseff do mnoha jazyků. Překlady vznikají kombinací AI a lidské revize.",
+    "chooseLanguage": "Dostupné překlady",
+    "comingSoon": "Připravujeme",
+    "czech": "Čeština",
+    "english": "Angličtina",
+    "ukrainian": "Ukrajinština",
+    "french": "Francouzština (moderní edice)"
   },
   "pwa": {
     "installApp": "Nainstalovat aplikaci",
@@ -78,7 +89,8 @@
   },
   "language": {
     "original": "Originál (vícejazyčný)",
-    "translation": "Překlad: {lang}"
+    "translation": "Překlad: {lang}",
+    "unavailable": "Překlad zatím není k dispozici. Pomozte nám!"
   },
   "paragraph": {
     "options": "Možnosti odstavce",
@@ -227,7 +239,10 @@
     "or": "nebo",
     "clearFilter": "Zrušit filtr",
     "bannerCount": "Filtrováno: {matching} z {total} záznamů",
-    "bannerCarnet": "Zobrazeno {matching} z {total} záznamů ({hidden} skryto)"
+    "bannerCarnet": "Zobrazeno {matching} z {total} záznamů ({hidden} skryto)",
+    "paragraphsHidden": "{count} odstavců vynecháno",
+    "showHidden": "Zobrazit skryté",
+    "hideFiltered": "Skrýt odfiltrované"
   },
   "glossary": {
     "title": "Glosář",
@@ -246,6 +261,8 @@
     "pronunciationTitle": "Poslechněte si výslovnost"
   },
   "diary": {
+    "subtitle": "Rozpracovaný AI-asistovaný, lidmi dolaďovaný překlad kompletního deníku",
+    "aboutLink": "Příběh deníku a jak se zapojit",
     "pageTitle": "Deník Marie Bashkirtseff",
     "pageTitleOriginal": "Deník Marie Bashkirtseff — Originální text",
     "pageTitleTranslation": "Deník Marie Bashkirtseff — {lang}",
@@ -288,6 +305,8 @@
     "frenchOriginal": "Francouzský originál",
     "showInDiary": "Zobrazit v deníku",
     "alsoKnownAs": "Také známý jako:",
-    "mentions": "{count} zmínek"
+    "mentions": "{count} zmínek",
+    "notebooks": "sešitů",
+    "crossYearContinues": "Pokračuje do roku {years}"
   }
 }

@@ -3,6 +3,10 @@ services:
     build:
       context: ../..
       dockerfile: src/frontend/Dockerfile
+      args:
+        # Umami analytics — set after creating the site in Umami dashboard
+        PUBLIC_UMAMI_WEBSITE_ID: ${PUBLIC_UMAMI_WEBSITE_ID:-}
+        PUBLIC_UMAMI_URL: ${PUBLIC_UMAMI_URL:-https://analytics.bashkirtseff.org}
     container_name: bashkirtseff-app
     restart: unless-stopped
     networks:

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { useI18n } from '../../i18n';
 
 const { t } = useI18n();
@@ -7,14 +7,20 @@ const { t } = useI18n();
 /**
  * LanguageSwitcher Component
  *
+ * Shows ALL possible content languages. Available ones are clickable links;
+ * unavailable ones are greyed out with a tooltip and link to /about.
+ *
  * IMPORTANT: This component works with content path codes, not UI locale codes:
- * - currentLanguage: 'cz', 'fr', 'en', '_original' (content paths used in URLs)
+ * - currentLanguage: 'cz', 'fr', 'en', 'uk', '_original' (content paths used in URLs)
  * - NOT 'cs' (which is the UI locale code for Czech)
  *
  * The mapping is handled internally:
- * - Line 56: 'cz' → 'CZ' label
- * - URLs use content paths: /cz/, /fr/, /en/, /original/
+ * - 'cz' → 'CZ' label
+ * - URLs use content paths: /cz/, /fr/, /en/, /uk/, /original/
  */
+
+/** All content languages the project supports, in display order */
+const ALL_LANGUAGES = ['cz', 'en', 'uk', 'fr', '_original'] as const;
 
 interface Props {
   currentLanguage: string;
@@ -24,6 +30,12 @@ interface Props {
 }
 
 const props = defineProps<Props>();
+
+const availableSet = computed(() => new Set(props.availableLanguages));
+
+function isAvailable(lang: string): boolean {
+  return availableSet.value.has(lang);
+}
 
 const currentParagraphId = ref<string | null>(null);
 
@@ -72,6 +84,11 @@ function getLanguageLabel(lang: string): string {
   return lang.toUpperCase();
 }
 
+function getTitle(lang: string): string {
+  if (lang === '_original') return t('language.original');
+  return t('language.translation', { lang: getLanguageLabel(lang) });
+}
+
 let scrollTimeout: number | null = null;
 
 function handleScroll() {
@@ -96,18 +113,31 @@ onUnmounted(() => {
 
 <template>
   <div class="language-switcher">
-    <template v-for="lang in availableLanguages" :key="lang">
+    <template v-for="lang in ALL_LANGUAGES" :key="lang">
+      <!-- Current language: highlighted -->
+      <span v-if="lang === currentLanguage" class="lang-current">
+        {{ getLanguageLabel(lang) }}
+      </span>
+
+      <!-- Available but not current: clickable link -->
       <a
-        v-if="lang !== currentLanguage"
+        v-else-if="isAvailable(lang)"
         :href="getLanguageUrl(lang)"
         class="lang-link"
-        :title="lang === '_original' ? t('language.original') : t('language.translation', { lang: lang.toUpperCase() })"
+        :title="getTitle(lang)"
       >
         {{ getLanguageLabel(lang) }}
       </a>
-      <span v-else class="lang-current">
+
+      <!-- Unavailable: greyed out, links to /about -->
+      <a
+        v-else
+        href="/about"
+        class="lang-unavailable"
+        :title="t('language.unavailable')"
+      >
         {{ getLanguageLabel(lang) }}
-      </span>
+      </a>
     </template>
   </div>
 </template>
@@ -148,5 +178,24 @@ onUnmounted(() => {
   background: var(--color-accent, #B45309);
   color: white;
   font-size: 0.875rem;
+}
+
+.lang-unavailable {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  text-decoration: none;
+  opacity: 0.35;
+  color: var(--text-secondary, #4A3728);
+  cursor: help;
+  transition: opacity 0.2s;
+}
+
+.lang-unavailable:hover {
+  opacity: 0.55;
+}
+
+[data-theme="dark"] .lang-unavailable {
+  color: #a3a3a3;
 }
 </style>

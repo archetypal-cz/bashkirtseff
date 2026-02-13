@@ -476,6 +476,14 @@ help:
     @echo "  just stewardship-log         # View publish history"
     @echo "  just stewardship-archive     # Archive old posted items"
     @echo ""
+    @echo "ANALYTICS (Umami):"
+    @echo "  just analytics-up       # Start Umami analytics stack"
+    @echo "  just analytics-down     # Stop analytics stack"
+    @echo "  just analytics-logs     # View Umami logs"
+    @echo "  just analytics-status   # Check container status"
+    @echo "  just analytics-restart  # Restart after config changes"
+    @echo "  Dashboard: https://analytics.bashkirtseff.org"
+    @echo ""
     @echo "FRONTEND (Astro PWA):"
     @echo "  just filter-index     # Build filter index for tag filtering"
     @echo "  just fe-dev           # Start frontend dev server"
@@ -622,6 +630,32 @@ censored-tag:
 # Show censored edition report status
 censored-report:
     uv run --with rapidfuzz python3 src/scripts/censored_matching.py report
+
+# === ANALYTICS (Umami) ===
+#
+# Cookie-free, privacy-respecting page view analytics.
+# Dashboard: https://analytics.bashkirtseff.org
+# See src/analytics/docker-compose.yml for setup instructions.
+
+# Start Umami analytics stack
+analytics-up:
+    cd src/analytics && docker compose up -d
+
+# Stop Umami analytics stack
+analytics-down:
+    cd src/analytics && docker compose down
+
+# View Umami logs
+analytics-logs:
+    docker compose -f src/analytics/docker-compose.yml logs -f umami
+
+# Restart Umami (after config changes)
+analytics-restart:
+    docker compose -f src/analytics/docker-compose.yml restart umami
+
+# Check Umami status
+analytics-status:
+    @docker ps --filter name=umami --format "table {{{{.Names}}}}\t{{{{.Status}}}}\t{{{{.Ports}}}}"
 
 # === FRONTEND (Astro PWA) ===
 
