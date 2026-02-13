@@ -249,6 +249,49 @@ check-frontmatter carnet=default_carnet:
         fi \
     done
 
+# === WORKSPACE ===
+#
+# Docker development environment with Claude Code, Gemini, code-server, and all tooling.
+# See src/workspace/README.md for full documentation.
+
+# Build and start the workspace container
+workspace-up:
+    cd src/workspace && docker compose up -d --build
+
+# Stop the workspace container
+workspace-down:
+    cd src/workspace && docker compose down
+
+# Attach to the workspace byobu session
+workspace-attach:
+    docker compose -f src/workspace/docker-compose.yml attach workspace
+
+# Open a shell in the workspace container
+workspace-shell:
+    docker compose -f src/workspace/docker-compose.yml exec workspace bash
+
+# View workspace container logs
+workspace-logs:
+    docker compose -f src/workspace/docker-compose.yml logs -f
+
+# Copy your SSH public key into the running workspace container
+workspace-ssh-copy key="~/.ssh/id_ed25519.pub":
+    #!/usr/bin/env bash
+    KEY_FILE="{{key}}"
+    KEY_FILE="${KEY_FILE/#\~/$HOME}"
+    if [ ! -f "$KEY_FILE" ]; then
+        echo "Key file not found: $KEY_FILE"
+        echo "Usage: just workspace-ssh-copy ~/.ssh/id_rsa.pub"
+        exit 1
+    fi
+    KEY_CONTENT=$(cat "$KEY_FILE")
+    docker compose -f src/workspace/docker-compose.yml exec workspace bash -c \
+        "mkdir -p /root/.ssh && echo '$KEY_CONTENT' >> /root/.ssh/authorized_keys && chmod 600 /root/.ssh/authorized_keys && /usr/sbin/sshd -p 2222 2>/dev/null; echo 'SSH key installed. Connect with: ssh root@localhost -p 2222'"
+
+# SSH into the workspace container
+workspace-ssh:
+    ssh root@localhost -p 2222 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
+
 # === DEPLOYMENT ===
 #
 # Frontend deployment is AUTOMATIC via GitHub Actions:
@@ -393,6 +436,15 @@ help:
     @echo "DEVELOPMENT:"
     @echo "  just build-ts        # Build TypeScript packages"
     @echo "  just clean-ts        # Clean TypeScript build artifacts"
+    @echo ""
+    @echo "WORKSPACE (Docker dev environment):"
+    @echo "  just workspace-up      # Build and start workspace container"
+    @echo "  just workspace-down    # Stop workspace container"
+    @echo "  just workspace-attach    # Attach to byobu session"
+    @echo "  just workspace-shell     # Open a shell in container"
+    @echo "  just workspace-ssh-copy  # Copy SSH key into container"
+    @echo "  just workspace-ssh       # SSH into container"
+    @echo "  just workspace-logs      # View container logs"
     @echo ""
     @echo "DEPLOYMENT (automatic on push to main):"
     @echo "  git push origin main  # Triggers GitHub Actions deploy"
