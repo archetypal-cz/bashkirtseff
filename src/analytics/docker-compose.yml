@@ -1,0 +1,55 @@
+# Umami Analytics for bashkirtseff.org
+# Cookie-free, privacy-respecting page view tracking.
+#
+# Setup:
+#   1. Copy .env.example to .env and set APP_SECRET
+#   2. docker compose up -d
+#   3. Add proxy host in Nginx Proxy Manager:
+#      analytics.bashkirtseff.org -> umami:3000
+#   4. Log in (admin / umami), change password
+#   5. Add website, copy the website ID
+#   6. Set PUBLIC_UMAMI_WEBSITE_ID in ../frontend/docker-compose.yml
+#   7. Rebuild frontend: cd ../frontend && docker compose up -d --build
+
+services:
+  umami:
+    image: ghcr.io/umami-software/umami:postgresql-latest
+    container_name: umami
+    restart: unless-stopped
+    depends_on:
+      umami-db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://umami:${POSTGRES_PASSWORD}@umami-db:5432/umami
+      APP_SECRET: ${APP_SECRET}
+    networks:
+      - umami-internal
+      - nginx_npm_network
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"
+
+  umami-db:
+    image: postgres:15-alpine
+    container_name: umami-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: umami
+      POSTGRES_USER: umami
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - umami-db-data:/var/lib/postgresql/data
+    networks:
+      - umami-internal
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U umami"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  umami-db-data:
+
+networks:
+  umami-internal:
+  nginx_npm_network:
+    external: true
