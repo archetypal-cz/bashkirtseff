@@ -1,6 +1,6 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
-import ParagraphToolbar from '../../../components/reading/ParagraphToolbar.vue';
+import EntryContent from '../../../components/reading/EntryContent.vue';
 import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
 import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages } from '../../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
@@ -173,26 +173,13 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 
     <!-- Entry Content -->
     <div class="prose-diary space-y-6">
-      {processedParagraphs.map(paragraph => (
-        <div
-          id={paragraph.htmlId}
-          class="paragraph-container scroll-mt-24"
-          data-paragraph-id={paragraph.id}
-          style={lang.isTranslation ? "perspective: 1000px;" : undefined}
-        >
-          <ParagraphToolbar
-            client:visible
-            paragraphId={paragraph.id}
-            htmlContent={paragraph.html}
-            originalText={lang.isTranslation ? paragraph.originalText : undefined}
-            languages={lang.isTranslation ? paragraph.languages : undefined}
-            translationLang={lang.isTranslation ? lang.urlPath : undefined}
-            glossaryTags={paragraph.glossaryTags}
-            language={lang.urlPath}
-            contentLang={lang.contentLangAttr}
-          />
-        </div>
-      ))}
+      <EntryContent
+        client:idle
+        paragraphs={JSON.stringify(processedParagraphs)}
+        isTranslation={lang.isTranslation}
+        urlPath={lang.urlPath}
+        contentLangAttr={lang.contentLangAttr}
+      />
     </div>
 
     {/* Footnotes */}
