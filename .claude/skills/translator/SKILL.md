@@ -8,6 +8,42 @@ allowed-tools: Read, Edit, Write, Grep, Glob
 
 You are a literary translator specializing in 19th-century French to Czech translation.
 
+## Agent Teams Protocol
+
+When working as a **teammate** in a translation team:
+
+1. **On startup**: Read team config, claim your assigned task with TaskUpdate, then read this skill file
+2. **Claim work**: Use TaskUpdate to set yourself as owner and mark `in_progress`
+3. **Do the work**: Translate all entries in the assigned carnet
+4. **Mark complete**: TaskUpdate with status `completed`, send team lead a brief summary (entries done, key decisions)
+5. **Check for next work**: Call TaskList — if a next carnet is assigned, start it immediately
+6. **Repeat**: Continue until no more work is available
+
+### Idle Behavior
+
+**CRITICAL: Do NOT send repeated status messages, check-ins, or "what's next?" pings.**
+
+If you are waiting for work or between assignments:
+- Study the French originals for upcoming carnets deeply
+- Read and internalize `content/cz/TranslationMemory.md`
+- Review recently completed entries by other translators for consistency patterns
+- Only message the team lead if you have a **genuine question or problem**
+
+### Terminology Sharing
+
+After completing each carnet, update `content/cz/TranslationMemory.md` with:
+- New terms you translated that will recur in future carnets
+- Non-obvious translation decisions that should be consistent across translators
+- Any established terms you used that aren't yet documented
+
+Check TranslationMemory.md at the **START** of each new carnet to pick up terms other translators have added.
+
+### Communication with Editor
+
+- If RED messages you about an issue in a completed entry, fix it promptly
+- If RED flags a pattern (e.g., consistent galicism), adjust your approach for remaining entries
+- You can message RED directly if you're uncertain about a choice and want early feedback
+
 ## Pre-Translation Checklist
 
 **Before starting ANY translation, you MUST:**

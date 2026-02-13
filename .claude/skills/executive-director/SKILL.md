@@ -313,13 +313,159 @@ When you add comments to files:
 - [Suggestions for skill improvements]
 ```
 
-## Pipeline Extension (Future)
+## Translation Pipeline Mode
 
-The translation pipeline (TR → GEM → RED → CON) will be added later, after originals are stable. The current focus is getting every entry properly researched and annotated before any translation begins, so we don't have to mirror changes across languages.
+The translation pipeline (TR → RED → GEM → CON) translates prepared French originals into target languages. All carnets 000-106 have RSR+LAN complete, so source preparation is no longer a bottleneck.
 
-When translation is added:
+### Team Composition
 
-- New teammates: Translator, Editor, Conductor (per target language)
-- Gemini review stays as subagent (one-shot operation)
-- New task types: TR-{lang}, RED-{lang}, CON-{lang}
-- New dependencies: TR blocked by LAN completion
+Standard team for translation pipeline — **5 agents**:
+
+| Agent | Role | Model | Purpose |
+|-------|------|-------|---------|
+| tr-000 | translator | Opus | Translate assigned carnets |
+| tr-001 | translator | Opus | Translate assigned carnets |
+| tr-002 | translator | Opus | Translate assigned carnets |
+| red | editor | Opus | Real-time quality review |
+| con | conductor | Opus | Final quality gate |
+
+**DO NOT spawn:**
+- RSR agent — carnets are already well-researched. No translator ever messaged RSR in previous runs.
+- LAN agent — annotations are complete across all 106 carnets.
+
+**Exception**: Spawn a Sonnet RSR only if you discover specific research gaps during the run.
+
+### Task Structure
+
+Create **per-carnet translator tasks** and **per-wave review tasks**:
+
+```
+Wave 1:
+  Task 1: "TR carnet {A} ({N} entries)" → assigned to tr-000
+  Task 2: "TR carnet {B} ({N} entries)" → assigned to tr-001
+  Task 3: "TR carnet {C} ({N} entries)" → assigned to tr-002
+  Task 4: "RED review wave 1 ({A}, {B}, {C})" → assigned to red
+    NOTE: Do NOT add blockedBy — RED reviews in real-time as entries appear
+  Task 5: "CON review wave 1 ({A}, {B}, {C})" → assigned to con
+    blockedBy: [Task 4]
+```
+
+When a translator finishes, assign them the next carnet immediately — create a new task and message them.
+
+### Workload Balancing
+
+- **Start with smallest carnets** to get the first completions faster (enables RED/CON pipeline overlap sooner)
+- Track translator speed during the session:
+  - tr-001 was consistently fastest (~1.6 min/entry)
+  - tr-000 was slowest on wave 1 (~4.4 min/entry for preface) but improved to ~3 min/entry
+- If one translator falls significantly behind, consider reassigning their remaining work
+- Carnets vary from ~10 to ~40 entries — balance accordingly
+
+### Spawn Prompt Guidance
+
+**Include directly in each translator's spawn prompt** (reduces ramp-up time):
+- Their name and team membership
+- Specific carnet(s) to translate with entry counts
+- Key terminology summary from TranslationMemory.md (top 15-20 terms)
+- Explicit idle behavior: "If blocked or complete, study upcoming originals. Do NOT send repeated status messages."
+- "After completing a carnet, update TranslationMemory.md with new terms, then check TaskList."
+- "If RED messages you about an issue, fix it promptly."
+
+**Include in RED spawn prompt:**
+- "Review entries as they appear — don't wait for full carnet completion"
+- "Fix minor issues directly (you have Edit access). Message translator for major issues."
+- "When a full carnet is reviewed, message team lead AND conductor with quality score."
+- "Do NOT send repeated status checks to translators."
+
+**Include in CON spawn prompt:**
+- "While blocked, read French originals AND early translations deeply."
+- "Three-pass review: target-language-only, comparative, 'Would Marie approve?'"
+- "Quality bar from previous runs: 000 (0.92), 001 (0.91), 002 (0.90), 003 (0.92), 004 (0.93)"
+- "Do NOT send 'are translations ready?' messages."
+
+### GEM Integration
+
+After RED completes review of a carnet, dispatch Gemini review:
+
+1. Use the `/gemini-czech-editor` skill or run as a Bash subagent (not a persistent teammate)
+2. Process each entry in the carnet through Gemini
+3. Apply valid corrections, add GEM comments
+4. This can run in parallel with CON review of previously approved carnets
+
+GEM is a one-shot operation, not a team member. Don't spawn it as a persistent agent.
+
+### Session Resilience
+
+Sessions can die mid-run. To enable clean resumption:
+
+**Before each wave**, note the state:
+- Which carnets are assigned to which translator
+- How many entries each has completed (check `content/cz/{carnet}/`)
+
+**When resuming a session:**
+1. Check `content/cz/{carnet}/` for existing translations per carnet
+2. In translator spawn prompts, say: "Resume carnet {N} — {X}/{Y} done. Check which entries exist, translate ONLY missing ones. Do NOT overwrite existing files."
+3. RED should review ALL entries (both previously translated and new)
+4. CON should review from the first carnet that lacks `conductor_approved: true`
+
+### Terminology Coordination
+
+Between waves (or every ~30 minutes):
+- Check if translators have updated TranslationMemory.md
+- If a translator introduced a good new term, broadcast it to others
+- If translators are inconsistent (different translations for same concept), message them to align
+
+### Progress Tracking
+
+Monitor progress during the run:
+
+```bash
+# Count translated entries per carnet (replace {lang} with target, e.g. cz)
+for d in 006 007 008; do
+  echo "Carnet $d: $(ls content/{lang}/$d/*.md 2>/dev/null | wc -l)/$(ls content/_original/$d/*.md | grep -v README | wc -l)"
+done
+
+# Or use project-status
+just project-status {lang} 006
+```
+
+### Quality Benchmarks (from Feb 12 runs)
+
+| Carnet | Quality | Entries | Time |
+|--------|---------|---------|------|
+| 000 | 0.92 | 10 | ~44 min |
+| 001 | 0.91 | 22 | ~36 min |
+| 002 | 0.90 | 25 | ~54 min |
+| 003 | 0.92 | 33 | ~55 min |
+| 004 | 0.93 | 33 | ~60 min |
+
+Pipeline throughput: ~1.4 entries/minute across 3 translators.
+
+### Translation Pipeline Report
+
+After each wave or session, generate a progress report:
+
+```markdown
+## Translation Pipeline — Progress Report
+
+**Date**: {timestamp}
+**Carnets processed**: {list}
+**Total entries translated**: {N}
+
+### Per-Carnet Results
+| Carnet | Entries | Translator | RED Score | CON Verdict |
+|--------|---------|------------|-----------|-------------|
+| {N} | {M} | {agent} | {score} | {verdict} |
+
+### Quality Summary
+- Average RED score: {N}
+- Issues found: {critical} CRITICAL, {high} HIGH, {medium} MEDIUM
+- All issues resolved: {yes/no}
+
+### Observations
+- [Patterns, translator strengths, areas for improvement]
+
+### Next Wave
+- Carnets ready: {list with entry counts}
+- Estimated time: {based on throughput}
+```

@@ -45,20 +45,24 @@ Get every original French entry properly researched, annotated, and footnoted be
 
 | Order | Role | Code | Model | Purpose |
 |-------|------|------|-------|---------|
-| 1 | Researcher | RSR | Opus | Entity extraction, glossary, footnotes, historical context |
-| 2 | Linguistic Annotator | LAN | Opus | Period vocabulary, idioms, Marie's quirks, translation guidance |
+| 1 | Researcher | RSR | Sonnet/Opus | Entity extraction, glossary, footnotes, historical context |
+| 2 | Linguistic Annotator | LAN | Sonnet/Opus | Period vocabulary, idioms, Marie's quirks, translation guidance |
 | 3 | Evaluator | EVAL | Sonnet | Quality verification (ED or subagent) |
 
-**Agent Teams setup**: ED is team lead in delegate mode. RSR and LAN are persistent teammates that self-claim tasks from a shared task list with dependency chains. EVAL is handled by ED or a Sonnet subagent.
+**Agent Teams setup**: ED is team lead in delegate mode. RSR and LAN are persistent teammates that self-claim tasks from a shared task list with dependency chains. EVAL is handled by ED or a Sonnet subagent. Sonnet is sufficient for verification work; Opus for complex entries.
 
-### Pipeline 2: Translation (FUTURE — after originals stable)
+**Status**: Source preparation is COMPLETE for all 106 carnets. This pipeline is now only needed for gap-filling.
+
+### Pipeline 2: Translation (ACTIVE)
 
 | Order | Role | Code | Model | Purpose |
 |-------|------|------|-------|---------|
-| 1 | Translator | TR | TBD | French → target language |
-| 2 | Gemini Editor | GEM | External | Cross-model review (subagent, not teammate) |
-| 3 | Editor | RED | Sonnet | Quality check, naturalness |
+| 1 | Translator (x3) | TR | Opus | French → target language (3 parallel agents) |
+| 2 | Editor | RED | Opus | Real-time quality review (reviews as entries appear) |
+| 3 | Gemini Editor | GEM | External | Cross-model review (Bash subagent, not teammate) |
 | 4 | Conductor | CON | Opus | Final literary approval |
+
+**Proven configuration** (Feb 12 runs): 5 persistent agents (3 TR + RED + CON), GEM dispatched as needed. No RSR/LAN needed — source prep complete for all 106 carnets.
 
 ## Support Roles
 
