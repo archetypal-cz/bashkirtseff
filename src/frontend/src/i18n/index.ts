@@ -135,7 +135,7 @@ export function getTranslationHref(locale: SupportedLocale): string {
   }
   const contentPath = localeToContentPath(locale);
   // Active translation content paths — must mirror DIARY_LANGUAGES isTranslation entries
-  const activeTranslations = new Set(['cz']);
+  const activeTranslations = new Set(['cz', 'en']);
   if (activeTranslations.has(contentPath)) {
     return `/${contentPath}`;
   }
