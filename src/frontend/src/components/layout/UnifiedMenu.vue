@@ -3,6 +3,7 @@ import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue';
 import { useI18n, getTranslationHref } from '../../i18n';
 import { useFilterStore } from '../../stores/filter';
 import { useHistoryStore } from '../../stores/history';
+import { trackEvent } from '../../lib/analytics';
 import CalendarWidget from '../CalendarWidget.vue';
 import type { FilterCategory, FilterTag } from '../../types/filter-index';
 
@@ -42,11 +43,13 @@ function adjustFontSize(delta: number) {
   const newScale = fontScale.value + delta * 5;
   if (newScale >= 80 && newScale <= 130) {
     fontScale.value = newScale;
+    trackEvent('font_size_change', { scale: newScale });
   }
 }
 
 function setTheme(newTheme: 'light' | 'sepia' | 'dark') {
   theme.value = newTheme;
+  trackEvent('theme_change', { theme: newTheme });
 }
 
 watch(fontScale, (v) => {
@@ -162,6 +165,15 @@ function getSubcategories(tags: FilterTag[]): { name: string; tags: FilterTag[] 
 
 function isTagSelected(category: string, tagId: string): boolean {
   return filterStore.selectedTags[category]?.includes(tagId) ?? false;
+}
+
+function handleFilterToggle(category: string, tagId: string) {
+  filterStore.toggleTag(category, tagId);
+  trackEvent('filter_tag_toggle', {
+    category,
+    tagId,
+    active: isTagSelected(category, tagId),
+  });
 }
 
 function toggleCategory(key: string) {
@@ -705,7 +717,7 @@ onUnmounted(() => {
                         >
                           <input type="checkbox"
                             checked
-                            @change="filterStore.toggleTag(category.key, tag.id)"
+                            @change="handleFilterToggle(category.key, tag.id)"
                             class="tag-checkbox"
                           />
                           <span class="tag-name">{{ tag.name }}</span>
@@ -724,7 +736,7 @@ onUnmounted(() => {
                           >
                             <input type="checkbox"
                               :checked="isTagSelected(category.key, tag.id)"
-                              @change="filterStore.toggleTag(category.key, tag.id)"
+                              @change="handleFilterToggle(category.key, tag.id)"
                               class="tag-checkbox"
                             />
                             <span class="tag-name">{{ tag.name }}</span>
@@ -772,7 +784,7 @@ onUnmounted(() => {
                               >
                                 <input type="checkbox"
                                   :checked="isTagSelected(category.key, tag.id)"
-                                  @change="filterStore.toggleTag(category.key, tag.id)"
+                                  @change="handleFilterToggle(category.key, tag.id)"
                                   class="tag-checkbox"
                                 />
                                 <span class="tag-name">{{ tag.name }}</span>

@@ -129,6 +129,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
               href={`/${lang.urlPath}/${carnet}/${nav.prev}`}
               class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
               title={t('diary.previousEntry')}
+              data-track-nav="prev"
             >
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -150,6 +151,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
               href={`/${lang.urlPath}/${carnet}/${nav.next}`}
               class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
               title={t('diary.nextEntry')}
+              data-track-nav="next"
             >
               <span class="hidden sm:inline">{t('diary.nextEntry')}</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -216,6 +218,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         <a
           href={`/${lang.urlPath}/${carnet}/${nav.prev}`}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
+          data-track-nav="prev"
         >
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -234,6 +237,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         <a
           href={`/${lang.urlPath}/${carnet}/${nav.next}`}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
+          data-track-nav="next"
         >
           <span>{t('diary.nextEntry')}</span>
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -264,6 +268,17 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 </script>
 
 <script src="../../../scripts/footnote-popover.ts"></script>
+
+<script>
+  // Track entry navigation (prev/next) clicks
+  import { trackEvent } from '../../../lib/analytics';
+  document.querySelectorAll('[data-track-nav]').forEach(link => {
+    link.addEventListener('click', () => {
+      const direction = (link as HTMLElement).dataset.trackNav || '';
+      trackEvent('entry_nav', { direction });
+    });
+  });
+</script>
 
 <script>
   // Track paragraph reading via IntersectionObserver

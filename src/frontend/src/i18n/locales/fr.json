@@ -314,5 +314,24 @@
     "empty": "Aucun historique",
     "clear": "Effacer",
     "glossaryLabel": "glossaire"
+  },
+  "welcome": {
+    "pageTitle": "Bienvenue — Journal de Marie Bashkirtseff",
+    "title": "Bienvenue dans le journal de Marie",
+    "subtitle": "Un guide rapide pour lire le journal complet et non censuré",
+    "featureToolbar": "Outils de paragraphe",
+    "featureToolbarDesc": "Appuyez sur le menu à trois points à côté d'un paragraphe pour le partager, copier un lien ou explorer les entrées du glossaire.",
+    "featureFlip": "Lire l'original",
+    "featureFlipDesc": "Appuyez sur la fleur de lys pour retourner un paragraphe et lire le texte original de Marie en français.",
+    "featureGlossary": "Connexions au glossaire",
+    "featureGlossaryDesc": "Les points colorés sur le bouton du menu indiquent des personnes, lieux ou notes culturelles à découvrir.",
+    "featureFilter": "Filtrer les entrées",
+    "featureFilterDesc": "Utilisez le menu pour filtrer les entrées du journal par personnes, lieux ou thèmes culturels dans tous les cahiers.",
+    "featureHistory": "Historique de lecture",
+    "featureHistoryDesc": "Vos paragraphes et entrées de glossaire récemment consultés sont enregistrés dans le menu.",
+    "featureOffline": "Lecture hors ligne",
+    "featureOfflineDesc": "Après votre première visite, le journal fonctionne sans connexion internet. Téléchargez des cahiers pour la lecture hors ligne.",
+    "startReading": "Commencer à lire",
+    "skipLabel": "Passer l'introduction"
   }
 }

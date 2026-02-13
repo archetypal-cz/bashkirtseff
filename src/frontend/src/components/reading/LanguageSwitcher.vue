@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { useI18n } from '../../i18n';
+import { trackEvent } from '../../lib/analytics';
 
 const { t } = useI18n();
 
@@ -125,6 +126,7 @@ onUnmounted(() => {
         :href="getLanguageUrl(lang)"
         class="lang-link"
         :title="getTitle(lang)"
+        @click="trackEvent('content_lang_switch', { from: currentLanguage, to: lang })"
       >
         {{ getLanguageLabel(lang) }}
       </a>
