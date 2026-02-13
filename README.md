@@ -41,8 +41,11 @@ Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote
 ├── raw/                     # Scans of original books and resources
 ├── docs/                    # Documentation
 │   └── prompts/             # Translation style guides
-└── .claude/                 # Claude Code agent configuration
-    └── skills/              # Role definitions
+├── .claude/                 # Claude Code agent configuration
+│   └── skills/              # Role definitions
+│   └── prompts/             # Translation style guides
+└── .vscode/                 # Visual Studio Code setting
+    └── bashkirtseff-highlighting/ # Syntax highlight plugin for our markdown in VSCode
 ```
 
 ## Carnet Organization
