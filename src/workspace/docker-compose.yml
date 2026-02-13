@@ -1,0 +1,47 @@
+services:
+  workspace:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bashkirtseff-workspace
+    hostname: bashkirtseff-dev
+
+    volumes:
+      # Project root
+      - ../..:/workspace
+      # Isolated node_modules (prevent host/container native module conflicts)
+      - workspace_node_modules:/workspace/node_modules
+      - fe_node_modules:/workspace/src/frontend/node_modules
+      # Persist code-server state across restarts
+      - code_server_data:/root/.local/share/code-server
+
+    env_file:
+      - path: ../../.env
+        required: false
+
+    environment:
+      - PASSWORD=${CODE_SERVER_PASSWORD:-bashkirtseff}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GH_TOKEN=${GH_TOKEN}
+      - SSH_PUBLIC_KEY=${SSH_PUBLIC_KEY}
+      - HOST=0.0.0.0
+
+    ports:
+      - "${PORT_SSH:-127.0.0.1:2222}:2222"      # SSH
+      - "${PORT_CODE:-127.0.0.1:8080}:8080"      # code-server
+      - "${PORT_ASTRO:-127.0.0.1:4321}:4321"     # Astro dev server
+      - "${PORT_PREVIEW:-127.0.0.1:3000}:3000"   # Preview
+
+    working_dir: /workspace
+
+    stdin_open: true
+    tty: true
+
+    restart: unless-stopped
+
+volumes:
+  workspace_node_modules:
+  fe_node_modules:
+  code_server_data:

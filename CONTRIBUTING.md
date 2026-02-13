@@ -30,9 +30,31 @@ Before you begin, ensure you have:
 - **[Claude Code](https://github.com/anthropics/claude-code)** - AI-assisted translation workflow
 - **Git** and a GitHub account
 
+Or skip all of the above and use the **Docker workspace** (see below).
+
 ## Getting Started
 
-### 1. Fork and Clone
+### Option A: Docker Workspace (recommended)
+
+The project includes a pre-configured Docker container with all tools installed — Claude Code, Gemini CLI, code-server (VS Code in browser), byobu, and everything else you need.
+
+```bash
+git clone https://github.com/YOUR_USERNAME/bashkirtseff.git
+cd bashkirtseff
+cp src/workspace/.env.example .env    # Add your API keys
+just workspace-up                     # Build and start
+```
+
+Then access:
+- **VS Code in browser**: http://localhost:8080
+- **Terminal**: `just workspace-shell` or `just workspace-ssh`
+- **Byobu session**: `just workspace-attach`
+
+See `src/workspace/README.md` for full documentation.
+
+### Option B: Local Setup
+
+#### 1. Fork and Clone
 
 ```bash
 # Fork on GitHub, then clone your fork
@@ -40,7 +62,7 @@ git clone https://github.com/YOUR_USERNAME/bashkirtseff.git
 cd bashkirtseff
 ```
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 
 ```bash
 just setup
@@ -48,7 +70,7 @@ just setup
 
 This installs Node.js dependencies and builds the shared TypeScript library.
 
-### 3. Configure Your Worker Profile
+#### 3. Configure Your Worker Profile
 
 ```bash
 cp .claude/WORKER_CONFIG.yaml.template .claude/WORKER_CONFIG.yaml
@@ -77,7 +99,7 @@ roles:
 
 This file is gitignored - it's your personal configuration.
 
-### 4. Create Your Language Folder (if needed)
+#### 4. Create Your Language Folder (if needed)
 
 If you're starting a new language or carnet:
 
@@ -88,7 +110,7 @@ mkdir -p src/uk/001
 
 Check `src/uk/PROGRESS.md` or `src/en/PROGRESS.md` for language-specific setup notes.
 
-### 5. Initialize Source Hashes
+#### 5. Initialize Source Hashes
 
 After creating your first translation files:
 

@@ -8,6 +8,16 @@ allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 
 You orchestrate an external AI review of Czech translations using Google Gemini. This provides cross-model validation — a different AI perspective catches issues the primary translator and editor may have blind spots for.
 
+## Agent Teams Protocol
+
+GEM is **not a persistent team member**. It is dispatched by the ED as a Bash subagent (one-shot operation) after RED completes review of a carnet. It can run in parallel with CON review of previously approved carnets.
+
+When dispatched by ED:
+1. Process all entries in the specified carnet
+2. Apply valid corrections and add GEM comments
+3. Report results back to ED
+4. Exit — no need to stay active
+
 ## When to Use
 
 - **After Editor review (RED)** — translations should already be polished

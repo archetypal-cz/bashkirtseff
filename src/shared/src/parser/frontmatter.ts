@@ -159,6 +159,8 @@ export interface WorkflowStatus {
 export interface EntryMetrics {
   paragraphCount: number;
   wordCount: number;
+  sentenceCountOriginal: number;
+  sentenceCountTranslated: number;
   hasOriginal: boolean;
   hasTranslation: boolean;
   translationVersionCount: number;

@@ -413,4 +413,8 @@ The project becomes more than software - it becomes an autonomous organization d
 
 (Ideas that became pending_changes or were implemented)
 
-- **IDEA-013**: Obsidian comments - IMPLEMENTED 2025-12-06 (see PLAN-COMMENTS.md)
+- **IDEA-002**: Parallel subagent execution — IMPLEMENTED 2026-02-12 (3 parallel Opus translators in team mode)
+- **IDEA-006**: TranslationMemory integration — PARTIALLY IMPLEMENTED 2026-02-13 (terminology sharing protocol added to translator skill; auto-lookup and conflict detection still TODO)
+- **IDEA-008**: ED embeds skill content in prompts — IMPLEMENTED 2026-02-12 (ED spawn prompts include key context directly)
+- **IDEA-009**: Centralized comment writer — SUPERSEDED 2026-02-13 (Editor and Conductor now have Edit access and write comments directly; centralized approach abandoned)
+- **IDEA-013**: Obsidian comments — IMPLEMENTED 2025-12-06 (see PLAN-COMMENTS.md)

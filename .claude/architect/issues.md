@@ -187,9 +187,61 @@ Commands fixed: research, annotate, translate, review, conduct
 
 ---
 
+### ISSUE-013: Session resilience — pipeline dies with no recovery
+**Severity**: High
+**Status**: RESOLVED
+**Discovered**: 2026-02-12
+**Resolved**: 2026-02-13
+
+**Description**: Translation pipeline session (translation-pipeline-2) died mid-run. Three translators were partway through carnets 006-008. No recovery mechanism existed — team config and tasks were stale artifacts with no way to resume cleanly.
+
+**Resolution**: Added session resilience protocol to ED skill:
+- ED records state between waves (which carnets assigned, how many entries done)
+- Resume protocol: check existing files, instruct translators to translate only missing entries
+- RED reviews all entries (both old and new) on resume
+- CON starts from first carnet without conductor_approved
+
+---
+
+### ISSUE-014: Idle agent noise in team mode
+**Severity**: Medium
+**Status**: RESOLVED
+**Discovered**: 2026-02-12
+**Resolved**: 2026-02-13
+
+**Description**: Blocked agents (RED waiting for translations, CON waiting for RED, LAN after completion) sent repeated status messages, check-ins, and "what's next?" pings. LAN sent 2 idle notifications in quick succession. RED sent 3+ messages asking about translator progress within minutes.
+
+**Resolution**: Added explicit "Idle Behavior" sections to all worker skill files (translator, editor, conductor) with clear instructions: "Do NOT send repeated status messages. Study originals deeply instead."
+
+---
+
+### ISSUE-015: No GEM integration in translation pipeline
+**Severity**: Medium
+**Status**: RESOLVED
+**Discovered**: 2026-02-12
+**Resolved**: 2026-02-13
+
+**Description**: Original pipeline plan included Gemini review step, but it was never dispatched during Feb 12 runs. No clear trigger point or integration documented.
+
+**Resolution**: Added GEM integration to ED skill. GEM dispatched as Bash subagent (not persistent teammate) after RED completes each carnet. Can run parallel with CON review.
+
+---
+
+### ISSUE-016: Editor and Conductor tool access inconsistency
+**Severity**: Medium
+**Status**: RESOLVED
+**Discovered**: 2026-02-13
+**Resolved**: 2026-02-13
+
+**Description**: Editor and Conductor skill files listed `allowed-tools: Read, Grep, Glob` (read-only), but in actual team runs they were spawned with Edit access and wrote comments directly to files. Skill files also said "Your comments will be written by ED" which contradicted practice.
+
+**Resolution**: Updated allowed-tools to `Read, Edit, Write, Grep, Glob`. Updated comment format sections to reflect direct writing. Removed references to ED writing comments on their behalf.
+
+---
+
 ## Resolved Issues
 
-(none yet)
+(See individual issues above — resolved issues are marked inline)
 
 ---
 

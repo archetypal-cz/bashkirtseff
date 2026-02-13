@@ -19,6 +19,8 @@ export {
   generateTranslationReport,
   compareTranslationVersions,
   exportToTmx,
+  countWords,
+  countSentences,
 } from './statistics.js';
 
 // Glossary Manager
