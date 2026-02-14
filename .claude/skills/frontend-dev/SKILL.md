@@ -101,7 +101,7 @@ interface DiaryLanguageConfig {
 - `glossaryUrl(lang, id)` → e.g., `/cz/glossary/MARIE_BASHKIRTSEFF`
 - `toGlossaryId(name)` → `MARIE_BASHKIRTSEFF`
 
-Each page's `getStaticPaths()` iterates `DIARY_LANGUAGES` to generate paths for all configured languages. Currently only `cz` and `original` are active; others are commented out in the config.
+Each page's `getStaticPaths()` iterates `DIARY_LANGUAGES` to generate paths for all configured languages. Currently active: `cz`, `original`, `en`, `uk`, `fr`.
 
 ## Content Loading (`lib/content.ts`)
 
@@ -161,7 +161,7 @@ Theme/font changes are managed directly via localStorage + DOM in `ReadingSettin
 |-----------|-----------|---------|
 | `FlipParagraph.vue` | `client:visible` | 3D flip card: front = translation, back = original. Language icon button triggers flip. |
 | `ParagraphMenu.vue` | `client:visible` | `:::` button → bottom sheet with share, copy link, glossary tags, filter shortcuts |
-| `LanguageSwitcher.vue` | `client:load` | Switch between available entry languages; preserves scroll position by detecting visible paragraph |
+| `LanguageSwitcher.vue` | `client:load` | Switch between available entry languages; preserves scroll position. Shows language codes (CZ, EN, UK, FR) and a globe icon for Original (multilingual). |
 | `BookSidebar.vue` | `client:load` | Collapsible sidebar: entry list, calendar, search. Pinned state in localStorage |
 | `ReadingSettings.vue` | — | Font size slider + theme buttons (embedded in UnifiedMenu) |
 | `BackToTop.vue` | `client:visible` | Scroll-to-top button |
@@ -216,7 +216,7 @@ const { t, locale, setLocale } = useI18n();
 
 Translation keys use dot-separated paths: `header.siteTitle`, `diary.notebook`, `filter.and`, `glossary.search`.
 
-**Limitation**: Static pages without `[lang]` param (like `Header.astro`, `Footer.astro`) use `t` from `i18n/astro.ts` which always returns Czech. Vue islands correct this on hydration from localStorage.
+**Header/Footer i18n**: `Header.astro` and `Footer.astro` accept an optional `locale` prop. `ReadingLayout.astro` derives the locale from its `lang` prop (via `contentPathToLocale()`) and passes it to both. All `[lang]` pages pass `lang` to ReadingLayout, so header/footer render in the correct language. The `home/[lang].astro` page passes locale directly.
 
 ## localStorage Keys
 
@@ -313,6 +313,8 @@ just fe-preview   # Preview production build
 - **Astro redirects with dynamic params** don't work as config entries — create redirect pages with `getStaticPaths()` instead.
 - **`glossaryUrl(lang, id)`** must be used for all glossary links to ensure correct `/{urlPath}/glossary/{id}` paths.
 - **Route conflicts** — if `[lang]` pages and fixed-path pages both generate the same URL, Astro warns. Delete old fixed-path files when migrating to `[lang]`.
-- **SSR vs client i18n** — `Header.astro` and `Footer.astro` render Czech on server. Vue islands fix this on hydration but there's a brief flash for non-Czech users.
+- **SSR vs client i18n** — `Header.astro` and `Footer.astro` accept `locale` prop from ReadingLayout. All `[lang]` pages pass `lang` so SSR renders the correct locale. Only pages that don't pass `lang` (if any) fall back to Czech.
+- **ThisDayEntry links** — When an entry doesn't exist in the current translation, the "read full entry" link falls back to `/original/` instead of linking to a non-existent translation page (which would redirect). The date is also a clickable link to the entry.
+- **Original vs French** — The `/fr/` path is French with non-French passages translated into Marie's French style. The `/original/` path is the original manuscript (multilingual). In language tabs, "FR" labels the French path; a globe icon labels the Original path. Don't label either as "modern edition".
 - **`preferences` store is unused** — theme/font are managed directly via localStorage in components. Don't add consumers without migrating existing code.
 - **`vue-i18n` package is installed but unused** — the app uses a custom i18n system (`src/i18n/index.ts` + `astro.ts`), not the `vue-i18n` library. Don't import from `vue-i18n`.
