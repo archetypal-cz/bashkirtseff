@@ -78,7 +78,7 @@ function getLanguageUrl(lang: string): string {
 }
 
 function getLanguageLabel(lang: string): string {
-  if (lang === '_original') return 'Orig';
+  if (lang === '_original') return '';
   // NOTE: 'cz' is the content path (for URLs like /cz/), displays as 'CZ'
   // The UI locale code is 'cs', but we don't use it here
   if (lang === 'cz') return 'CZ';
@@ -117,7 +117,8 @@ onUnmounted(() => {
     <template v-for="lang in ALL_LANGUAGES" :key="lang">
       <!-- Current language: highlighted -->
       <span v-if="lang === currentLanguage" class="lang-current">
-        {{ getLanguageLabel(lang) }}
+        <svg v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <template v-else>{{ getLanguageLabel(lang) }}</template>
       </span>
 
       <!-- Available but not current: clickable link -->
@@ -128,7 +129,8 @@ onUnmounted(() => {
         :title="getTitle(lang)"
         @click="trackEvent('content_lang_switch', { from: currentLanguage, to: lang })"
       >
-        {{ getLanguageLabel(lang) }}
+        <svg v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <template v-else>{{ getLanguageLabel(lang) }}</template>
       </a>
 
       <!-- Unavailable: greyed out, links to /about -->
@@ -138,7 +140,8 @@ onUnmounted(() => {
         class="lang-unavailable"
         :title="t('language.unavailable')"
       >
-        {{ getLanguageLabel(lang) }}
+        <svg v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <template v-else>{{ getLanguageLabel(lang) }}</template>
       </a>
     </template>
   </div>
@@ -199,5 +202,11 @@ onUnmounted(() => {
 
 [data-theme="dark"] .lang-unavailable {
   color: #a3a3a3;
+}
+
+.globe-icon {
+  width: 1rem;
+  height: 1rem;
+  stroke-width: 1.5;
 }
 </style>
