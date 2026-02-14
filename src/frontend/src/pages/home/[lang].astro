@@ -26,11 +26,12 @@ const carnets = [
   { id: '015', years: '1882-83', entries: 434 },
 ];
 
-// Build "This Day" data at build time - prefer Czech translations when available
-const thisDayData = buildThisDayData('cz');
+// Build "This Day" data at build time - use content for this language
+const thisDayData = buildThisDayData(languagePath === 'original' ? '_original' : languagePath);
 
 // Map UI locale to content path for links
-const languagePath = lang === 'cs' ? 'cz' : (lang === 'fr' ? 'original' : 'cz');
+const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'original' };
+const languagePath = localeToContent[lang as string] ?? 'cz';
 
 // Translations for the ThisDayEntry component
 const thisDayTranslations = {
@@ -69,9 +70,7 @@ const thisDayTranslations = {
         )}
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
-               The diary entries currently only exist in Czech translation at /cz/. -->
-          <a href="/cz/000" class="btn btn-primary text-lg px-8 py-3">
+          <a href={`/${languagePath}/000`} class="btn btn-primary text-lg px-8 py-3">
             {t('home.startReading')}
           </a>
           <a href={`/${lang}/about`} class="btn btn-secondary text-lg px-8 py-3">
@@ -134,11 +133,9 @@ const thisDayTranslations = {
         </h2>
 
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
-               The diary entries currently only exist in Czech translation at /cz/. -->
           {carnets.map(carnet => (
             <a
-              href={`/cz/${carnet.id}`}
+              href={`/${languagePath}/${carnet.id}`}
               class="block p-6 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow-lg transition-all group"
             >
               <div class="text-3xl font-light text-accent mb-2 group-hover:text-accent-light transition-colors">
@@ -152,9 +149,7 @@ const thisDayTranslations = {
         </div>
 
         <div class="text-center mt-8">
-          <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
-               The diary entries currently only exist in Czech translation at /cz/. -->
-          <a href="/cz" class="text-accent hover:text-accent-light transition-colors">
+          <a href={`/${languagePath}`} class="text-accent hover:text-accent-light transition-colors">
             {t('home.viewAllVolumes')} →
           </a>
         </div>
@@ -224,9 +219,7 @@ const thisDayTranslations = {
             — Marie Bashkirtseff
           </p>
         )}
-        <!-- Links to /cz/ (Czech diary content). This is a CONTENT path, not a UI path.
-             The diary entries currently only exist in Czech translation at /cz/. -->
-        <a href="/cz/000" class="inline-block btn bg-parchment text-ink hover:bg-sepia text-lg px-8 py-3">
+        <a href={`/${languagePath}/000`} class="inline-block btn bg-parchment text-ink hover:bg-sepia text-lg px-8 py-3">
           {t('home.startReadingDiary')}
         </a>
       </div>
