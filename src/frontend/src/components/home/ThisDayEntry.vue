@@ -53,11 +53,14 @@ const formattedDateLocalized = computed(() => {
   return date.toLocaleDateString(intlLocale.value, { day: 'numeric', month: 'long', year: 'numeric' });
 });
 
-// Build the link to the entry
+// Build the link to the entry — fall back to /original/ when translation doesn't exist
 const entryLink = computed(() => {
   if (!selectedEntry.value) return '#';
-  const basePath = props.languagePath === 'original' ? '/original' : `/${props.languagePath}`;
-  return `${basePath}/${selectedEntry.value.carnet}/${selectedEntry.value.date}`;
+  const entry = selectedEntry.value;
+  const usePath = entry.hasTranslation || props.languagePath === 'original'
+    ? (props.languagePath === 'original' ? '/original' : `/${props.languagePath}`)
+    : '/original';
+  return `${usePath}/${entry.carnet}/${entry.date}`;
 });
 
 // Replace placeholders in translation strings
@@ -157,7 +160,7 @@ onMounted(() => {
         <div class="this-day-header">
           <h3 class="this-day-title">{{ translations.title }}</h3>
           <div class="this-day-meta">
-            <span class="this-day-date">{{ formattedDateLocalized }}</span>
+            <a :href="entryLink" class="this-day-date">{{ formattedDateLocalized }}</a>
             <span class="this-day-age">{{ marieAgeText }} {{ translations.yearsOld }}</span>
           </div>
         </div>
@@ -310,10 +313,20 @@ onMounted(() => {
   font-size: 1.125rem;
   color: var(--text-primary, #2C1810);
   font-style: italic;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.this-day-date:hover {
+  color: var(--color-accent, #B45309);
 }
 
 [data-theme="dark"] .this-day-date {
   color: #e5e5e5;
+}
+
+[data-theme="dark"] .this-day-date:hover {
+  color: #D97706;
 }
 
 .this-day-age {
