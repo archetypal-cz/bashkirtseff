@@ -26,12 +26,12 @@ const carnets = [
   { id: '015', years: '1882-83', entries: 434 },
 ];
 
-// Build "This Day" data at build time - use content for this language
-const thisDayData = buildThisDayData(languagePath === 'original' ? '_original' : languagePath);
-
 // Map UI locale to content path for links
 const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'original' };
 const languagePath = localeToContent[lang as string] ?? 'cz';
+
+// Build "This Day" data at build time - use content for this language
+const thisDayData = buildThisDayData(languagePath === 'original' ? '_original' : languagePath);
 
 // Translations for the ThisDayEntry component
 const thisDayTranslations = {
