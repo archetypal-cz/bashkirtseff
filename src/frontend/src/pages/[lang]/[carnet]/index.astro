@@ -175,7 +175,13 @@ function entryHref(entry: typeof allEntries[0]): string {
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted">
-      <a href={basePath} class="hover:text-accent">{diaryLabel}</a>
+      <a href={basePath} class="hover:text-accent">
+        {lang.isTranslation ? (
+          <span data-t="diary.diary">{diaryLabel}</span>
+        ) : (
+          <span>Journal</span>
+        )}
+      </a>
       <span class="mx-2">&rsaquo;</span>
       {primaryYear ? (
         <>
@@ -183,7 +189,7 @@ function entryHref(entry: typeof allEntries[0]): string {
           <span class="mx-2">&rsaquo;</span>
         </>
       ) : null}
-      <span class="text-ink">{t('diary.notebook')} {carnet}</span>
+      <span class="text-ink"><span data-t="diary.notebook">{t('diary.notebook')}</span> {carnet}</span>
     </nav>
 
     <!-- Header + Summary Grid -->
@@ -199,12 +205,12 @@ function entryHref(entry: typeof allEntries[0]): string {
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                   </svg>
-                  {t('diary.notebook')} {prevCarnet.id}
+                  <span data-t="diary.notebook">{t('diary.notebook')}</span> {prevCarnet.id}
                 </a>
               ) : <span />}
               {nextCarnet ? (
                 <a href={`${basePath}/${nextCarnet.id}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
-                  {t('diary.notebook')} {nextCarnet.id}
+                  <span data-t="diary.notebook">{t('diary.notebook')}</span> {nextCarnet.id}
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                   </svg>
@@ -213,7 +219,7 @@ function entryHref(entry: typeof allEntries[0]): string {
             </nav>
 
             <h1 class="text-3xl font-normal text-ink mb-3" style="font-family: var(--font-serif); text-shadow: 0 1px 2px rgba(44,24,16,0.08);">
-              {t('diary.notebook')} {carnet}
+              <span data-t="diary.notebook">{t('diary.notebook')}</span> {carnet}
             </h1>
 
             {carnetInfo?.dateRange ? (() => {
@@ -236,13 +242,13 @@ function entryHref(entry: typeof allEntries[0]): string {
 
             <div class="flex items-center gap-3 text-sm mb-3">
               <span class="text-muted">
-                {allEntries.length} {isSectionCarnet ? t('diary.sections') : t('diary.entries')}
+                {allEntries.length} {isSectionCarnet ? <span data-t="diary.sections">{t('diary.sections')}</span> : <span data-t="diary.entries">{t('diary.entries')}</span>}
               </span>
               {lang.isTranslation && (
                 <>
                   <span class="text-muted">&bull;</span>
                   <span class="text-accent">
-                    {translatedCount} {t('diary.translated')}
+                    {translatedCount} <span data-t="diary.translated">{t('diary.translated')}</span>
                   </span>
                 </>
               )}
@@ -256,7 +262,7 @@ function entryHref(entry: typeof allEntries[0]): string {
                     style={`width: ${(translatedCount / allEntries.length) * 100}%`}
                   />
                 </div>
-                <p class="text-xs text-muted mt-1">
+                <p class="text-xs text-muted mt-1" data-t="diary.completed" data-t-params={JSON.stringify({ percent: Math.round((translatedCount / allEntries.length) * 100) })}>
                   {t('diary.completed', { percent: Math.round((translatedCount / allEntries.length) * 100) })}
                 </p>
               </div>
@@ -264,7 +270,7 @@ function entryHref(entry: typeof allEntries[0]): string {
 
             {summary.primaryLocation && (
               <p class="text-sm text-muted mb-2">
-                {t('diary.mainLocation')} <a href={glossaryUrl(lang, summary.primaryLocation.toUpperCase().replace(/ /g, '_'))} class="text-ink hover:text-accent transition-colors">{formatDisplayName(summary.primaryLocation)}</a>
+                <span data-t="diary.mainLocation">{t('diary.mainLocation')}</span> <a href={glossaryUrl(lang, summary.primaryLocation.toUpperCase().replace(/ /g, '_'))} class="text-ink hover:text-accent transition-colors">{formatDisplayName(summary.primaryLocation)}</a>
               </p>
             )}
           </div>
@@ -285,7 +291,7 @@ function entryHref(entry: typeof allEntries[0]): string {
                 href={entryHref(allEntries[0])}
                 class="btn btn-primary flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm w-full"
               >
-                <span>{isSectionCarnet ? t('diary.start') : t('diary.readFromBeginning')}</span>
+                <span data-t={isSectionCarnet ? 'diary.start' : 'diary.readFromBeginning'}>{isSectionCarnet ? t('diary.start') : t('diary.readFromBeginning')}</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -298,7 +304,7 @@ function entryHref(entry: typeof allEntries[0]): string {
         {/* Tag panels (remaining columns) */}
         {!isSectionCarnet && topPeople.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="diary.keyPeople">
               {t('diary.keyPeople')}
             </h3>
             <ul class="space-y-2">
@@ -319,7 +325,7 @@ function entryHref(entry: typeof allEntries[0]): string {
 
         {!isSectionCarnet && topPlaces.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="diary.places">
               {t('diary.places')}
             </h3>
             <ul class="space-y-2">
@@ -340,7 +346,7 @@ function entryHref(entry: typeof allEntries[0]): string {
 
         {!isSectionCarnet && topThemes.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="diary.themes">
               {t('diary.themes')}
             </h3>
             <div class="flex flex-wrap gap-2">
@@ -357,7 +363,7 @@ function entryHref(entry: typeof allEntries[0]): string {
         {/* Calendar */}
         {!isSectionCarnet && calendarMonths.length > 0 && (
           <div class="summary-card p-4 rounded-lg xl:col-span-3 flex flex-col">
-            <h3 class="text-sm font-medium text-muted uppercase mb-2" style="letter-spacing: 0.08em;">
+            <h3 class="text-sm font-medium text-muted uppercase mb-2" style="letter-spacing: 0.08em;" data-t="diary.calendar">
               {t('diary.calendar')}
             </h3>
             <div class="flex flex-wrap gap-3 flex-1 items-start content-start">
@@ -420,7 +426,7 @@ function entryHref(entry: typeof allEntries[0]): string {
 
     {allEntries.length === 0 && (
       <div class="text-center py-12 text-muted">
-        <p>{t('diary.noEntries')}</p>
+        <p data-t="diary.noEntries">{t('diary.noEntries')}</p>
       </div>
     )}
 
@@ -434,18 +440,18 @@ function entryHref(entry: typeof allEntries[0]): string {
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
-          <span>{t('diary.notebook')} {prevCarnet.id}</span>
+          <span><span data-t="diary.notebook">{t('diary.notebook')}</span> {prevCarnet.id}</span>
         </a>
       ) : (
         <div />
       )}
 
       {primaryYear ? (
-        <a href={`${basePath}/${primaryYear}`} class="text-muted hover:text-ink transition-colors">
+        <a href={`${basePath}/${primaryYear}`} class="text-muted hover:text-ink transition-colors" data-t="diary.year" data-t-params={JSON.stringify({ year: primaryYear })}>
           {t('diary.year', { year: primaryYear })}
         </a>
       ) : (
-        <a href={basePath} class="text-muted hover:text-ink transition-colors">
+        <a href={basePath} class="text-muted hover:text-ink transition-colors" data-t="diary.overview">
           {t('diary.overview')}
         </a>
       )}
@@ -455,7 +461,7 @@ function entryHref(entry: typeof allEntries[0]): string {
           href={`${basePath}/${nextCarnet.id}`}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
         >
-          <span>{t('diary.notebook')} {nextCarnet.id}</span>
+          <span><span data-t="diary.notebook">{t('diary.notebook')}</span> {nextCarnet.id}</span>
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>

@@ -2,7 +2,6 @@
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
 import ContentLanguageSwitcher from '../../components/reading/ContentLanguageSwitcher.vue';
 import FilterOverlay from '../../components/filter/FilterOverlay.vue';
-import I18nPatch from '../../components/I18nPatch.astro';
 import { getYears, getCarnets, getCarnetsByYear } from '../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../lib/diary-lang-config';
 import { createT } from '../../i18n/astro';
@@ -259,5 +258,4 @@ const activePaths = new Set(DIARY_LANGUAGES.filter(l => l.isTranslation).map(l =
       </div>
     )}
   </div>
-  <I18nPatch />
 </ReadingLayout>

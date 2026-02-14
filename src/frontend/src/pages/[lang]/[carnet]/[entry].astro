@@ -104,9 +104,15 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   <article class="max-w-3xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-6 text-sm text-muted">
-      <a href={`/${lang.urlPath}`} class="hover:text-accent">{diaryLabel}</a>
+      <a href={`/${lang.urlPath}`} class="hover:text-accent">
+        {lang.isTranslation ? (
+          <span data-t="diary.diary">{diaryLabel}</span>
+        ) : (
+          <span>Journal</span>
+        )}
+      </a>
       <span class="mx-2">&rsaquo;</span>
-      <a href={`/${lang.urlPath}/${carnet}`} class="hover:text-accent">{t('diary.notebook')} {carnet}</a>
+      <a href={`/${lang.urlPath}/${carnet}`} class="hover:text-accent"><span data-t="diary.notebook">{t('diary.notebook')}</span> {carnet}</a>
       <span class="mx-2">&rsaquo;</span>
       <span class="text-ink">{entryDate}</span>
     </nav>
@@ -135,7 +141,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
               </svg>
-              <span class="hidden sm:inline">{t('diary.previousEntry')}</span>
+              <span class="hidden sm:inline" data-t="diary.previousEntry">{t('diary.previousEntry')}</span>
             </a>
           ) : (
             <span class="text-muted/30 flex items-center gap-1">
@@ -145,7 +151,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
             </span>
           )}
           <a href={`/${lang.urlPath}/${carnet}`} class="text-muted hover:text-ink transition-colors" title={t('diary.carnetOverview')}>
-            {t('diary.notebook')} {carnet}
+            <span data-t="diary.notebook">{t('diary.notebook')}</span> {carnet}
           </a>
           {nav.next ? (
             <a
@@ -154,7 +160,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
               title={t('diary.nextEntry')}
               data-track-nav="next"
             >
-              <span class="hidden sm:inline">{t('diary.nextEntry')}</span>
+              <span class="hidden sm:inline" data-t="diary.nextEntry">{t('diary.nextEntry')}</span>
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
               </svg>
@@ -186,7 +192,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     {/* Footnotes */}
     {entry.footnotes.length > 0 && (
       <section class="footnotes">
-        <h2 class="footnotes-title">{t('diary.notes')}</h2>
+        <h2 class="footnotes-title" data-t="diary.notes">{t('diary.notes')}</h2>
         {entry.footnotes.map(fn => (
           <div
             id={`fn-${fn.id}`}
@@ -211,13 +217,13 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
-          <span>{t('diary.previousEntry')}</span>
+          <span data-t="diary.previousEntry">{t('diary.previousEntry')}</span>
         </a>
       ) : (
         <div />
       )}
 
-      <a href={`/${lang.urlPath}/${carnet}`} class="text-muted hover:text-ink transition-colors">
+      <a href={`/${lang.urlPath}/${carnet}`} class="text-muted hover:text-ink transition-colors" data-t="diary.carnetOverview">
         {t('diary.carnetOverview')}
       </a>
 
@@ -227,7 +233,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
           data-track-nav="next"
         >
-          <span>{t('diary.nextEntry')}</span>
+          <span data-t="diary.nextEntry">{t('diary.nextEntry')}</span>
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
