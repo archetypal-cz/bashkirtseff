@@ -156,6 +156,21 @@ export function getTranslationHref(locale: SupportedLocale, currentPath?: string
   return base;
 }
 
+/**
+ * Get the original content path, preserving the current page suffix.
+ * E.g. if on /cz/1877/, returns /original/1877/.
+ * Without currentPath, returns /original.
+ */
+export function getOriginalHref(currentPath?: string): string {
+  if (currentPath) {
+    const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
+    if (match && match[2]) {
+      return `/original${match[2]}`;
+    }
+  }
+  return '/original';
+}
+
 // Composable for use in Vue components
 export function useI18n() {
   const locale = computed(() => currentLocale.value);

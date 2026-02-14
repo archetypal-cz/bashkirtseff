@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue';
-import { useI18n, getTranslationHref } from '../../i18n';
+import { useI18n, getTranslationHref, getOriginalHref } from '../../i18n';
 import { useFilterStore } from '../../stores/filter';
 import { useHistoryStore } from '../../stores/history';
 import { trackEvent } from '../../lib/analytics';
@@ -10,6 +10,7 @@ import type { FilterCategory, FilterTag } from '../../types/filter-index';
 const { t, locale } = useI18n();
 const currentPath = ref('');
 const translationHref = computed(() => getTranslationHref(locale.value, currentPath.value || undefined));
+const originalHref = computed(() => getOriginalHref(currentPath.value || undefined));
 const filterStore = useFilterStore();
 const historyStore = useHistoryStore();
 
@@ -411,7 +412,7 @@ onUnmounted(() => {
                       </svg>
                       {{ t('nav.translation') }}
                     </a>
-                    <a href="/original" class="um-nav-link" @click="closePanel">
+                    <a :href="originalHref" class="um-nav-link" @click="closePanel">
                       <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
                       </svg>
