@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
-import { useI18n, getTranslationHref } from '../../i18n';
+import { useI18n, getTranslationHref, getOriginalHref } from '../../i18n';
 
 const { t, locale } = useI18n();
 const currentPath = ref('');
@@ -10,6 +10,7 @@ onMounted(() => {
 });
 
 const translationHref = computed(() => getTranslationHref(locale.value, currentPath.value || undefined));
+const originalHref = computed(() => getOriginalHref(currentPath.value || undefined));
 </script>
 
 <template>
@@ -17,7 +18,7 @@ const translationHref = computed(() => getTranslationHref(locale.value, currentP
     <a :href="translationHref" class="text-ink-light hover:text-accent transition-colors">
       {{ t('nav.translation') }}
     </a>
-    <a href="/original" class="text-ink-light hover:text-accent transition-colors">
+    <a :href="originalHref" class="text-ink-light hover:text-accent transition-colors">
       {{ t('nav.original') }}
     </a>
     <a href="/glossary" class="text-ink-light hover:text-accent transition-colors">
