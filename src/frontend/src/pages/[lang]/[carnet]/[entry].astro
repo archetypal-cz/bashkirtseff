@@ -70,6 +70,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 <ReadingLayout
   title={`${entry.title} — ${t('diary.notebook')} ${carnet}`}
   description={pageDescription}
+  lang={lang.urlPath}
   type="article"
   article={{
     publishedTime: articleDate,

@@ -60,7 +60,7 @@ const allTranslations = [
 const activePaths = new Set(DIARY_LANGUAGES.filter(l => l.isTranslation).map(l => l.urlPath));
 ---
 
-<ReadingLayout title={pageTitle}>
+<ReadingLayout title={pageTitle} lang={lang.urlPath}>
   <div class="max-w-4xl mx-auto">
     {lang.isTranslation ? (
       <!-- Translation page: intro + language tabs + year grid -->

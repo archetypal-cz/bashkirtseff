@@ -48,7 +48,7 @@ const totalEntries = allCarnets.reduce((sum, c) => sum + c.totalEntries, 0);
 const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries, 0);
 ---
 
-<ReadingLayout title={`${t('diary.allNotebooks')} — ${t('diary.pageTitle')}`}>
+<ReadingLayout title={`${t('diary.allNotebooks')} — ${t('diary.pageTitle')}`} lang={lang.urlPath}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted">
