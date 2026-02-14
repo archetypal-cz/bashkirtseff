@@ -161,7 +161,9 @@ Theme/font changes are managed directly via localStorage + DOM in `ReadingSettin
 |-----------|-----------|---------|
 | `FlipParagraph.vue` | `client:visible` | 3D flip card: front = translation, back = original. Language icon button triggers flip. |
 | `ParagraphMenu.vue` | `client:visible` | `:::` button → bottom sheet with share, copy link, glossary tags, filter shortcuts |
-| `LanguageSwitcher.vue` | `client:load` | Switch between available entry languages; preserves scroll position. Shows language codes (CZ, EN, UK, FR) and a globe icon for Original (multilingual). |
+| `LanguageSwitcher.vue` | `client:load` | Switch between available content languages on entry pages; preserves scroll position via paragraph tracking. Shows CZ, EN, UK, FR and globe icon for Original. |
+| `ContentLanguageSwitcher.vue` | `client:load` | Switch between content languages on browsing pages (year overview, year detail, carnet detail). Simpler than LanguageSwitcher — just swaps the lang prefix in the URL. |
+| `ContinueReading.vue` | `client:load` | Shows "Continue reading" button when user has a saved reading position (from history store) for the current carnet or year. Links to last-read paragraph. |
 | `BookSidebar.vue` | `client:load` | Collapsible sidebar: entry list, calendar, search. Pinned state in localStorage |
 | `ReadingSettings.vue` | — | Font size slider + theme buttons (embedded in UnifiedMenu) |
 | `BackToTop.vue` | `client:visible` | Scroll-to-top button |
@@ -172,7 +174,7 @@ Theme/font changes are managed directly via localStorage + DOM in `ReadingSettin
 |-----------|------|---------|
 | `Header.astro` | Static | Logo, nav links, slots for Vue islands |
 | `UnifiedMenu.vue` | `client:load` | Combined sidebar: reading settings + entry navigation + filter panel |
-| `LocaleSwitcher.vue` | `client:load` | UI language buttons (cs/en/fr/uk), saves to localStorage |
+| `LocaleSwitcher.vue` | `client:load` | UI language switcher (cs/en/fr/uk). Changes UI text only, NOT content language. Saves preference to localStorage and reloads page. |
 | `MobileMenu.vue` | `client:load` | Mobile hamburger nav drawer |
 | `FilterButton.vue` | `client:load` | Shows active filter count badge |
 | `FilterPanel.vue` | — | Category tree with search, AND/OR toggle (embedded in UnifiedMenu) |
@@ -318,3 +320,5 @@ just fe-preview   # Preview production build
 - **Original vs French** — The `/fr/` path is French with non-French passages translated into Marie's French style. The `/original/` path is the original manuscript (multilingual). In language tabs, "FR" labels the French path; a globe icon labels the Original path. Don't label either as "modern edition".
 - **`preferences` store is unused** — theme/font are managed directly via localStorage in components. Don't add consumers without migrating existing code.
 - **`vue-i18n` package is installed but unused** — the app uses a custom i18n system (`src/i18n/index.ts` + `astro.ts`), not the `vue-i18n` library. Don't import from `vue-i18n`.
+- **UI locale vs content language** — `LocaleSwitcher.vue` changes only the UI language (labels, headings) and reloads the page. `ContentLanguageSwitcher.vue` and `LanguageSwitcher.vue` change the content language by navigating to a different URL path. Never confuse these two concerns.
+- **`getTranslationHref()` is path-aware** — pass `window.location.pathname` as the second argument to preserve the current path suffix when generating the Translation nav link. Without it, the link defaults to just the root content path.

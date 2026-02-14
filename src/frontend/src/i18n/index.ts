@@ -127,19 +127,33 @@ export function getLocale(): SupportedLocale {
  * Get the translation content path for the current UI locale.
  * Maps locale → content URL path, falling back to /cz if the
  * locale's translation pages don't exist yet.
+ *
+ * If currentPath is provided (the current window.location.pathname),
+ * the suffix after the lang prefix is preserved. E.g. if the user is
+ * on /cz/1877/ and their locale is 'en', returns /en/1877/.
  */
-export function getTranslationHref(locale: SupportedLocale): string {
-  // French users read the original — it IS their content
+export function getTranslationHref(locale: SupportedLocale, currentPath?: string): string {
+  // Determine the base content path for this locale
+  let base: string;
   if (locale === 'fr') {
-    return '/original';
+    // French users read the original — it IS their content
+    base = '/original';
+  } else {
+    const contentPath = localeToContentPath(locale);
+    // Active translation content paths — must mirror DIARY_LANGUAGES isTranslation entries
+    const activeTranslations = new Set(['cz', 'en', 'uk']);
+    base = activeTranslations.has(contentPath) ? `/${contentPath}` : '/cz';
   }
-  const contentPath = localeToContentPath(locale);
-  // Active translation content paths — must mirror DIARY_LANGUAGES isTranslation entries
-  const activeTranslations = new Set(['cz', 'en', 'uk']);
-  if (activeTranslations.has(contentPath)) {
-    return `/${contentPath}`;
+
+  // If we have a current path on a diary page, preserve the suffix
+  if (currentPath) {
+    const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
+    if (match && match[2]) {
+      return `${base}${match[2]}`;
+    }
   }
-  return '/cz';
+
+  return base;
 }
 
 // Composable for use in Vue components

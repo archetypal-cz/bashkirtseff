@@ -1,13 +1,10 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, computed } from 'vue';
-import { useI18n, LOCALE_NAMES, SUPPORTED_LOCALES, localeToContentPath, type SupportedLocale } from '../../i18n';
-import { DIARY_LANGUAGES } from '../../lib/diary-lang-config';
+import { useI18n, LOCALE_NAMES, SUPPORTED_LOCALES, type SupportedLocale } from '../../i18n';
 import { trackEvent } from '../../lib/analytics';
 
 const { locale, setLocale } = useI18n();
 
-// Set of active content URL paths (e.g. 'cz', 'original')
-const activeContentPaths = new Set(DIARY_LANGUAGES.map(l => l.urlPath));
 const isOpen = ref(false);
 
 const currentLocaleName = computed(() => LOCALE_NAMES[locale.value]);
@@ -59,18 +56,11 @@ function selectLocale(newLocale: SupportedLocale) {
   const path = window.location.pathname;
 
   // Diary content pages: /cz/..., /original/..., /en/..., /uk/..., /fr/...
-  // Navigate to the equivalent content path for the new locale (only if pages exist)
+  // The locale switcher only changes the UI language, NOT the content language.
+  // Content language switching is handled by the ContentLanguageSwitcher component.
+  // Just reload with the new UI locale (already saved by setLocale above).
   const diaryMatch = path.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
   if (diaryMatch) {
-    const rest = diaryMatch[2] || '';
-    // fr locale → /original/ (French originals); others use localeToContentPath
-    const newContentPath = newLocale === 'fr' ? 'original' : localeToContentPath(newLocale);
-    // Only navigate if that content path has generated pages
-    if (activeContentPaths.has(newContentPath)) {
-      window.location.href = `/${newContentPath}${rest}`;
-      return;
-    }
-    // No pages for this locale — just reload with new UI locale
     window.location.reload();
     return;
   }

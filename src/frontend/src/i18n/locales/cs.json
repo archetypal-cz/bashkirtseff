@@ -280,6 +280,7 @@
     "mainLocation": "Hlavní místo:",
     "start": "Začít číst",
     "readFromBeginning": "Číst od začátku",
+    "continueReading": "Pokračovat ve čtení",
     "keyPeople": "Klíčové osoby",
     "places": "Místa",
     "themes": "Témata",
@@ -331,6 +332,10 @@
     "featureHistoryDesc": "Naposledy zobrazené odstavce a položky glosáře jsou uloženy v menu pro snadný návrat.",
     "featureOffline": "Čtení offline",
     "featureOfflineDesc": "Po první návštěvě deník funguje i bez připojení k internetu. Stáhněte si sešity pro offline čtení.",
+    "featureLanguages": "Více jazyků",
+    "featureLanguagesDesc": "Deník je dostupný v češtině, angličtině, ukrajinštině a francouzštině vedle původního rukopisu. Jazyk obsahu přepnete na stránce sešitu nebo roku — nezávisle na jazyku rozhraní.",
+    "featureContinue": "Pokračujte, kde jste skončili",
+    "featureContinueDesc": "Aplikace si pamatuje vaši poslední pozici v každém sešitu. Když se vrátíte, stačí kliknout na tlačítko \"Pokračovat ve čtení\".",
     "startReading": "Začít číst",
     "skipLabel": "Přeskočit úvod"
   }

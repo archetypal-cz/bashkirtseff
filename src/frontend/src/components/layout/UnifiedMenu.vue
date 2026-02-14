@@ -8,7 +8,8 @@ import CalendarWidget from '../CalendarWidget.vue';
 import type { FilterCategory, FilterTag } from '../../types/filter-index';
 
 const { t, locale } = useI18n();
-const translationHref = computed(() => getTranslationHref(locale.value));
+const currentPath = ref('');
+const translationHref = computed(() => getTranslationHref(locale.value, currentPath.value || undefined));
 const filterStore = useFilterStore();
 const historyStore = useHistoryStore();
 
@@ -306,6 +307,7 @@ function onClickOutside(e: MouseEvent) {
 // --- Lifecycle ---
 onMounted(() => {
   mounted.value = true;
+  currentPath.value = window.location.pathname;
 
   // Load settings
   const savedFontScale = localStorage.getItem('reading-font-scale');

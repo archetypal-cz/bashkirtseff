@@ -280,6 +280,7 @@
     "mainLocation": "Lieu principal :",
     "start": "Commencer la lecture",
     "readFromBeginning": "Lire depuis le début",
+    "continueReading": "Continuer la lecture",
     "keyPeople": "Personnages clés",
     "places": "Lieux",
     "themes": "Thèmes",
@@ -331,6 +332,10 @@
     "featureHistoryDesc": "Vos paragraphes et entrées de glossaire récemment consultés sont enregistrés dans le menu.",
     "featureOffline": "Lecture hors ligne",
     "featureOfflineDesc": "Après votre première visite, le journal fonctionne sans connexion internet. Téléchargez des cahiers pour la lecture hors ligne.",
+    "featureLanguages": "Plusieurs langues",
+    "featureLanguagesDesc": "Le journal est disponible en tchèque, anglais, ukrainien et français, aux côtés du manuscrit original. Changez la langue du contenu depuis n'importe quelle page de carnet ou d'année — indépendamment de la langue de l'interface.",
+    "featureContinue": "Reprenez là où vous en étiez",
+    "featureContinueDesc": "L'application mémorise votre dernière position dans chaque carnet. À votre retour, cliquez sur le bouton \"Continuer la lecture\" pour reprendre.",
     "startReading": "Commencer à lire",
     "skipLabel": "Passer l'introduction"
   }

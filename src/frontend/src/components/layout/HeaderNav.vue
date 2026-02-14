@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { useI18n, getTranslationHref } from '../../i18n';
 
 const { t, locale } = useI18n();
-const translationHref = computed(() => getTranslationHref(locale.value));
+const currentPath = ref('');
+
+onMounted(() => {
+  currentPath.value = window.location.pathname;
+});
+
+const translationHref = computed(() => getTranslationHref(locale.value, currentPath.value || undefined));
 </script>
 
 <template>
