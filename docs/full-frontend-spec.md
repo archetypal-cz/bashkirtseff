@@ -126,7 +126,11 @@ On entry pages, the content language switcher also tracks the current scroll pos
 
 ### Header Navigation Links
 
-The "Translation" link in the header navigation is path-aware: if the user is on `/cz/1877/`, the Translation link points to `/en/1877/` (for an English UI user), not just `/en/`. The link preserves the current path suffix when the user is on a diary content page.
+Both the "Translation" and "Original" links in the header navigation are path-aware: they preserve the current page's path suffix when the user is on a diary content page. For example, if the user is on `/cz/1877/`:
+- The **Translation** link points to `/en/1877/` (for an English UI user), not just `/en/`.
+- The **Original** link points to `/original/1877/`, not just `/original/`.
+
+This applies to all three navigation locations: desktop header, mobile menu, and unified side menu.
 
 ### Language Preference Persistence
 
