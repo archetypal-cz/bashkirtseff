@@ -50,7 +50,7 @@ const thisDayTranslations = {
   description={t('home.pageDescription') || 'Read the complete, uncensored diary of Marie Bashkirtseff (1858-1884). A remarkable document of 19th century life, art, and female ambition. Free and accessible in multiple languages.'}
   image="/images/og/og-image-composite.jpg"
 >
-  <Header />
+  <Header locale={lang as SupportedLocale} />
 
   <main class="flex-grow">
     <!-- Hero Section -->
@@ -226,7 +226,7 @@ const thisDayTranslations = {
     </section>
   </main>
 
-  <Footer />
+  <Footer locale={lang as SupportedLocale} />
 </BaseLayout>
 
 <script is:inline>

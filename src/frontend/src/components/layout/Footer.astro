@@ -1,6 +1,13 @@
 ---
 // Footer component with i18n and version display
-import { t } from '../../i18n/astro';
+import { t as defaultT, createT, type SupportedLocale } from '../../i18n/astro';
+
+interface Props {
+  locale?: SupportedLocale;
+}
+
+const { locale } = Astro.props;
+const t = locale ? createT(locale) : defaultT;
 
 const currentYear = new Date().getFullYear();
 

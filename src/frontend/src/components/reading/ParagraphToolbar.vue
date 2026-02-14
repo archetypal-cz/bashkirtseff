@@ -259,6 +259,8 @@ const hasOriginal = computed(() => !!props.originalText);
   padding: 0;
   opacity: 0.2;
   transition: opacity 0.25s ease;
+  position: relative;
+  z-index: 2;
 }
 
 .paragraph-toolbar-container:hover .toolbar {
