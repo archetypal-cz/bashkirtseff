@@ -108,7 +108,10 @@ const activePaths = new Set(DIARY_LANGUAGES.filter(l => l.isTranslation).map(l =
               href="/original"
               class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-parchment border border-ink/10 text-ink hover:border-accent hover:shadow transition-all"
             >
-              <span>FR</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" stroke-width="1.5" />
+                <path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
               <span data-t="nav.original">{t('nav.original')}</span>
             </a>
           </div>

@@ -43,7 +43,7 @@ The application is a statically generated site with the following URL structure:
 | `/{lang}/welcome` | Installable app onboarding |
 | `/offline` | Offline fallback page |
 
-The `{lang}` parameter represents a content language path: `cz` (Czech translation), `en` (English translation), `uk` (Ukrainian translation), `fr` (French modern edition), or `original` (French original manuscript).
+The `{lang}` parameter represents a content language path: `cz` (Czech translation), `en` (English translation), `uk` (Ukrainian translation), `fr` (French — original French with non-French passages translated into Marie's French style), or `original` (French original manuscript, multilingual).
 
 The `{locale}` parameter uses standard language codes: `cs`, `en`, `fr`, `uk`.
 
@@ -97,8 +97,8 @@ The diary exists in multiple content versions, each served under its own URL pat
 | `cz` | Czech translation | Flip-to-original, progress tracking, untranslated badges |
 | `en` | English translation | Flip-to-original, progress tracking, untranslated badges |
 | `uk` | Ukrainian translation | Flip-to-original, progress tracking, untranslated badges |
-| `fr` | French modern edition | Flip-to-original, progress tracking, untranslated badges |
-| `original` | French original manuscript | Plain text, no flip, no progress bars |
+| `fr` | French (non-French passages translated into Marie's French style) | Flip-to-original, progress tracking, untranslated badges |
+| `original` | French original manuscript (multilingual) | Plain text, no flip, no progress bars |
 
 Translation languages are flagged with `isTranslation: true` and receive additional UI features: the ability to flip paragraphs to see the French original, translation progress bars, and badges marking entries not yet translated.
 
@@ -194,7 +194,7 @@ The diary spans 12 years (1873-1884) across 107 carnets (notebooks numbered 000-
 This is the entry point for browsing a content language's diary.
 
 **For translation languages:**
-- A language tab bar at the top showing available languages (CS, EN, UK, FR) as clickable tabs. The current language is highlighted.
+- A language tab bar at the top showing available languages (CS, EN, UK, FR) as clickable tabs, plus an "Original" button with a globe icon (indicating multilingual). The current language is highlighted.
 - Below the tabs: an overall translation progress bar showing percentage complete (translated entries / total entries).
 - Statistics: total entry count and translated entry count.
 
@@ -284,7 +284,7 @@ The individual entry page is the core of the application. It uses a reading-opti
 
 **Entry Header**:
 - The formatted date as the main heading (e.g., "Samedi 11 janvier 1873").
-- A language switcher specific to this entry, allowing switching to the same entry in another language.
+- A language switcher specific to this entry, showing language codes (CZ, EN, UK, FR) and a globe icon for the multilingual original. Allows switching to the same entry in another language.
 - Previous/next entry navigation arrows with the adjacent entry's date shown.
 
 **Entry Body**: The main content area containing the diary text rendered as a series of paragraphs, each with interactive features (see below).
