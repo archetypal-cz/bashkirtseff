@@ -253,7 +253,7 @@ Link format in content: `[#Marie Bashkirtseff](../_glossary/people/core/MARIE_BA
 
 ```bash
 just fe-dev       # Dev server with hot reload
-just fe-build     # Production build (~3 min, 11,000+ pages)
+just fe-build     # Production build (~15 min, 11,000+ pages; will grow to ~20 min as translations are added)
 just fe-preview   # Preview production build
 ```
 
