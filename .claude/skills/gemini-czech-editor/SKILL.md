@@ -10,82 +10,115 @@ You orchestrate an external AI review of Czech translations using Google Gemini.
 
 ## Agent Teams Protocol
 
-GEM is **not a persistent team member**. It is dispatched by the ED as a Bash subagent (one-shot operation) after RED completes review of a carnet. It can run in parallel with CON review of previously approved carnets.
+GEM is dispatched as a one-shot operation per carnet (or batch of entries). It can run in parallel across multiple carnets.
 
-When dispatched by ED:
-1. Process all entries in the specified carnet
-2. Apply valid corrections and add GEM comments
-3. Report results back to ED
-4. Exit — no need to stay active
+When dispatched:
+1. Process all entries in the assigned carnet(s)
+2. Batch entries into groups of 3-6 for efficient Gemini calls
+3. Save review output as `.gemini-review-*.md` files
+4. Apply severity A fixes directly
+5. Report results (scores, issue counts, fixes applied)
 
 ## When to Use
 
-- **After Editor review (RED)** — translations should already be polished
-- **Before Conductor (CON)** — this is the final automated quality gate
+- **After translation is complete** — translations should already exist
 - **Cross-model validation** — Gemini catches different issues than Claude
+- **Batch processing** — can process entire carnets efficiently
 
 ## Workflow
 
-### 1. Extract Czech text from a translation file
+### 1. Extract Czech text
 
-Read the translation file and extract the visible Czech text (not the `%% ... %%` comments). The Gemini prompt needs clean text to review.
+Use the extraction script to get clean Czech text from translation files:
+
+```bash
+bash src/scripts/extract_czech_text.sh content/cz/001/1873-01-11.md
+```
+
+This strips YAML frontmatter, `%% ... %%` comments, and footnote definitions, leaving only visible Czech text.
+
+For batching multiple entries into one Gemini call:
+
+```bash
+for f in content/cz/002/1873-02-{16,17,18,19,20}.md; do
+    echo "=== $(basename $f) ==="
+    bash src/scripts/extract_czech_text.sh "$f"
+    echo ""
+done
+```
 
 ### 2. Send to Gemini for review
 
-Use the Gemini CLI to run the review. The prompt is in Czech to get native-quality feedback:
+Use the Gemini CLI in non-interactive mode. The prompt is in Czech to get native-quality feedback:
 
 ```bash
-# Single entry review
-echo "$(cat <<'PROMPT'
-Jsi český jazykový editor (Czech Editor #2). Tvým úkolem je zkontrolovat následující český překlad deníku Marie Bashkirtseffové z 19. století.
+BATCH_TEXT=$( for f in content/cz/002/1873-02-{16,17,18,19,20}.md; do
+    echo "=== $(basename $f) ==="
+    bash src/scripts/extract_czech_text.sh "$f"
+    echo ""
+done )
+
+echo "$BATCH_TEXT" | gemini -p "$(cat <<'PROMPT'
+Jsi zkušený český redaktor a stylista. Zkontroluj tento český překlad deníku Marie Bashkirtseffové (1873, 19. století).
 
 ZAMĚŘ SE NA:
-1. Gramatickou správnost (pády, časy, shoda)
-2. Přirozenost češtiny (ne doslovný překlad)
-3. Správné deklinace a konjugace
-4. Slovosled
-5. Interpunkci
-6. Pravopisné chyby
-
-ZACHOVEJ:
-- Ducha a význam originálu
-- Autorčin osobitý styl (je to deník mladé ženy z 19. století)
-- Literární kvalitu
-- Dobovou atmosféru
+1. Galicismy (doslovné překlady z francouzštiny, které v češtině znějí nepřirozeně)
+2. Gramatiku (pády, shoda, slovosled, postavení příklonek jsem/se/si)
+3. Přirozenost češtiny (má znít jako česká autorka, ne jako překlad)
+4. Dobovou přiměřenost (19. století, ale čtivý pro dnešního čtenáře)
+5. Významové posuny (galicismy, které mění smysl: "vzít si ženu" = oženit se!)
 
 FORMÁT ODPOVĚDI:
-Pro každý problém uveď:
-- ŘÁDEK: (číslo nebo citace)
-- PROBLÉM: (popis)
-- OPRAVA: (navrhovaná oprava)
-- DŮVOD: (krátké vysvětlení)
+Pro KAŽDÝ vstup (=== soubor ===) uveď nalezené problémy:
+- **PŮVODNÍ:** „citace problematického místa"
+- **NÁVRH:** „navrhovaná oprava"
+- **DŮVOD:** krátké vysvětlení
+- **ZÁVAŽNOST:** A (musí se opravit — chyba v logice/gramatice/významu) / B (doporučeno) / C (kosmetické)
 
-Pokud je text v pořádku, napiš "OK - bez připomínek".
+Na konci uveď celkové shrnutí:
+- **Celkový dojem z přirozenosti:** X/10
+- **Hlavní vzorce problémů:** (stručný seznam)
+- **Co je naopak výborné:** (co funguje skvěle)
 
----
-
-ČESKÝ TEXT K REVIZI:
-
-[PASTE EXTRACTED CZECH TEXT HERE]
+TEXT K REVIZI:
 PROMPT
-)" | gemini
+)"
 ```
 
-Adapt the invocation to whatever Gemini CLI tool is available (`gemini`, `vibe-tools ask --provider gemini`, etc.).
+**Key: always use `gemini -p`** (non-interactive/headless mode). Input is piped via stdin, prompt via `-p`.
 
-### 3. Apply corrections
+### 3. Save review output
 
-For each issue Gemini identifies:
+Save the Gemini review as a hidden file in the carnet directory:
 
-1. **Evaluate** — not all suggestions are improvements; use judgment
-2. **Apply** valid corrections directly to the translation text
-3. **Add GEM comment** for each change:
+```
+content/cz/002/.gemini-review-feb16-20.md
+```
+
+Format: `.gemini-review-{date-range}.md`
+
+Add a header:
+```markdown
+# Gemini Czech Review: Carnet 002, Feb 16-20
+**Date:** 2026-02-14
+---
+[Gemini output here]
+```
+
+### 4. Apply severity A fixes
+
+After saving the review, **apply all severity A fixes directly** to the translation files:
+
+1. Read the review and identify severity A issues
+2. Read the affected translation file
+3. Use Edit to fix only the Czech text (not comments)
+4. Add a GEM comment for each fix:
 
 ```markdown
-%% 2026-02-06T14:00:00 GEM: "rozkládám se" → "odhaluji se" — unnatural Czech, galicism %%
+%% 2026-02-14T15:00:00 GEM: "kojila jsem se" → "byla jsem kojena" — reflexive = breastfed myself, must be passive %%
 ```
 
-### 4. Preserve file structure
+### 5. Preserve file structure
 
 When editing translation files:
 
@@ -99,39 +132,34 @@ When editing translation files:
 
 | Category | Example |
 |----------|---------|
-| **Galicisms** | French constructions that don't work in Czech (double negatives, reflexive overuse) |
-| **Unnatural phrasing** | "rozkládám se" (decompose) → "odhaluji se" (reveal myself) |
-| **Word order** | French SVO patterns where Czech would rearrange |
-| **Declension errors** | Wrong case endings, especially in complex sentences |
-| **Register mismatch** | Too modern/colloquial or excessively archaic |
-| **Typos** | "oblasst" → "oblast" |
-| **Punctuation** | Missing Czech quotation marks „...", comma rules |
+| **Galicisms** | "vzít si ženu" (= marry), "dítě domu", "dát pochopit" |
+| **Reflexive errors** | "kojila jsem se" (breastfed myself) |
+| **Non-existent words** | "rukavičkuje se" (not real Czech) |
+| **Logic inversions** | "valné mínění" (says opposite of intended meaning) |
+| **Word order** | "pak na tribuně jsem" (příklonka "jsem" must be 2nd) |
+| **Time formats** | "ve tři a půl" (French) → "o půl čtvrté" (Czech) |
+| **Gender errors** | "stát se zajímavým" for female speaker |
+| **Chained relatives** | "které... která..." → use semicolons or "jíž" |
+| **Preposition calques** | "za čelem" → "z čela", "na koncertě" → "u koncertu" |
 
-## Batch Processing
+## Batch Sizing
 
-For processing an entire carnet:
-
-1. List all translation files in the carnet
-2. For each file, extract Czech text and run Gemini review
-3. Apply corrections and add GEM comments
-4. Track which files have been reviewed in the carnet README
-
-```bash
-# Example: list files needing Gemini review in carnet 001
-ls content/cz/001/*.md
-```
+- **3-6 entries per Gemini call** works well (enough context, not too long)
+- Short entries (1-3 paragraphs): batch 5-6
+- Long entries (10+ paragraphs): batch 2-3
+- Very long entries: send individually
 
 ## Comment Format
 
 All Gemini contributions use the `GEM` role code:
 
 ```markdown
-%% YYYY-MM-DDThh:mm:ss GEM: description of change %%
+%% YYYY-MM-DDThh:mm:ss GEM: "original" → "fix" — reason %%
 ```
 
 ## Quality Standards
 
-- Only apply corrections you agree with — Gemini is an advisor, not an authority
-- When Gemini and the translator/editor disagree, flag it for the Conductor
-- Focus on issues that affect readability and naturalness, not stylistic preferences
+- Only apply severity A corrections automatically — B and C are suggestions for human review
+- When Gemini suggests something dubious, do NOT apply it — save it in the review file only
+- Focus on issues that affect meaning, grammar, and naturalness
 - The goal is Czech that reads as if written by a Czech author, not translated from French
