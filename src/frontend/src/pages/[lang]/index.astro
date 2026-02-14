@@ -1,5 +1,6 @@
 ---
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import ContentLanguageSwitcher from '../../components/reading/ContentLanguageSwitcher.vue';
 import FilterOverlay from '../../components/filter/FilterOverlay.vue';
 import I18nPatch from '../../components/I18nPatch.astro';
 import { getYears, getCarnets, getCarnetsByYear } from '../../lib/content';
@@ -152,6 +153,13 @@ const activePaths = new Set(DIARY_LANGUAGES.filter(l => l.isTranslation).map(l =
         </p>
         <div class="flex items-center justify-center gap-6 text-sm text-muted mt-4">
           <span>{totalEntries} <span data-t="diary.entries">{t('diary.entries')}</span></span>
+        </div>
+        <div class="flex justify-center mt-4">
+          <ContentLanguageSwitcher
+            client:load
+            currentLanguage={lang.urlPath}
+            pathSuffix="/"
+          />
         </div>
       </header>
     )}

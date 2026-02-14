@@ -280,6 +280,7 @@
     "mainLocation": "Main location:",
     "start": "Start reading",
     "readFromBeginning": "Read from the beginning",
+    "continueReading": "Continue reading",
     "keyPeople": "Key people",
     "places": "Places",
     "themes": "Themes",
@@ -331,6 +332,10 @@
     "featureHistoryDesc": "Your recently viewed paragraphs and glossary entries are saved in the menu for easy return.",
     "featureOffline": "Read offline",
     "featureOfflineDesc": "After your first visit, the diary works without an internet connection. Download notebooks for offline reading.",
+    "featureLanguages": "Multiple languages",
+    "featureLanguagesDesc": "The diary is available in Czech, English, Ukrainian, and French, alongside the original manuscript. Switch content language from any notebook or year page — independently of the interface language.",
+    "featureContinue": "Pick up where you left off",
+    "featureContinueDesc": "The app remembers your last position in each notebook. When you return, look for the \"Continue reading\" button to jump right back.",
     "startReading": "Start reading",
     "skipLabel": "Skip introduction"
   }

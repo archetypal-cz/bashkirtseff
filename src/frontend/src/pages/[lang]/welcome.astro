@@ -127,7 +127,39 @@ const homePath = `/${lang.urlPath}/`;
         </div>
       </section>
 
-      <!-- Card 7: Offline reading -->
+      <!-- Card 7: Content language switcher -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" class="icon-lg">
+              <circle cx="24" cy="24" r="18" />
+              <ellipse cx="24" cy="24" rx="8" ry="18" />
+              <path d="M6 24h36" stroke-linecap="round" />
+              <path d="M8 16h32" stroke-linecap="round" />
+              <path d="M8 32h32" stroke-linecap="round" />
+            </svg>
+          </div>
+          <h2 class="card-heading">{t('welcome.featureLanguages')}</h2>
+          <p class="card-text">{t('welcome.featureLanguagesDesc')}</p>
+        </div>
+      </section>
+
+      <!-- Card 8: Continue reading -->
+      <section class="card">
+        <div class="card-inner">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" class="icon-lg">
+              <path d="M10 6v36" stroke-linecap="round" stroke-width="2.5" />
+              <path d="M18 8h20v32H18z" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M24 20v12M20 28l4 4 4-4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <h2 class="card-heading">{t('welcome.featureContinue')}</h2>
+          <p class="card-text">{t('welcome.featureContinueDesc')}</p>
+        </div>
+      </section>
+
+      <!-- Card 9: Offline reading -->
       <section class="card">
         <div class="card-inner">
           <div class="card-icon">
@@ -141,7 +173,7 @@ const homePath = `/${lang.urlPath}/`;
         </div>
       </section>
 
-      <!-- Card 8: Start reading CTA -->
+      <!-- Card 10: Start reading CTA -->
       <section class="card card-cta">
         <div class="card-inner">
           <blockquote class="cta-quote">
@@ -297,6 +329,8 @@ const homePath = `/${lang.urlPath}/`;
   .card:nth-child(6) { animation-delay: 0s; }
   .card:nth-child(7) { animation-delay: 0s; }
   .card:nth-child(8) { animation-delay: 0s; }
+  .card:nth-child(9) { animation-delay: 0s; }
+  .card:nth-child(10) { animation-delay: 0s; }
 
   @keyframes cardFadeIn {
     to {

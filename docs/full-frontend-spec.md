@@ -108,13 +108,25 @@ All user interface text (buttons, labels, headings, descriptions) is translated 
 
 The translation system uses a key-based lookup with dot-notation keys (e.g., `home.startReading`, `nav.diary`). If a key is missing in a locale, it falls back gracefully.
 
-### Locale Switcher Behavior
+### Locale Switcher Behavior (UI Language)
+
+The locale switcher in the header controls the **UI language only** (button labels, headings, navigation text). It does NOT change the content language.
 
 When the user switches locale via the dropdown:
-- On diary content pages (entries, carnets, years): the URL's content path segment changes (e.g., `/cz/001/` becomes `/en/001/`).
+- On diary content pages (entries, carnets, years): the page reloads with new UI text, but the URL stays the same (e.g., `/cz/001/` stays on `/cz/001/`, just with English UI labels).
 - On static pages (about, marie): the locale parameter in the URL changes.
 - On home pages: redirects to the home page in the new locale.
 - The preference is saved to browser storage.
+
+### Content Language Switcher
+
+A separate content language switcher appears on browsing pages (year overview, year detail, carnet detail) and entry pages. This changes the content language by navigating to the equivalent page under a different language path (e.g., `/cz/001/` to `/en/001/`).
+
+On entry pages, the content language switcher also tracks the current scroll position (visible paragraph) and preserves it when switching languages.
+
+### Header Navigation Links
+
+The "Translation" link in the header navigation is path-aware: if the user is on `/cz/1877/`, the Translation link points to `/en/1877/` (for an English UI user), not just `/en/`. The link preserves the current path suffix when the user is on a diary content page.
 
 ### Language Preference Persistence
 
@@ -221,7 +233,7 @@ Shows all information about a single year.
 
 **Summary Grid (4 panels):**
 
-1. **Year Header Panel**: Year number, Marie's age range, notebook count, entry count, translated count (for translations), progress bar, and primary location for the year.
+1. **Year Header Panel**: Year number, Marie's age range, notebook count, entry count, translated count (for translations), progress bar, and primary location for the year. Below the stats: a content language switcher, a "Continue reading" button (shown if the user has a reading history entry for an entry in this year), and an offline download button.
 
 2. **Key People Panel**: The top 10 most-mentioned people in this year, each with mention count. Names link to their glossary entries.
 
@@ -249,7 +261,7 @@ Shows all entries within a single carnet.
 
 **Summary Grid (4-5 panels):**
 
-1. **Carnet Header Panel**: Carnet number with previous/next navigation arrows, date range, entry count, translated count, progress bar, primary location, a "Read from beginning" button linking to the first entry, and an offline download button.
+1. **Carnet Header Panel**: Carnet number with previous/next navigation arrows, date range, entry count, translated count, progress bar, primary location. Below the stats: a content language switcher (CZ, EN, UK, FR, Original globe icon), a "Continue reading" button (shown only if the user has a reading history entry for this carnet, linking to the last-read paragraph), a "Read from beginning" button linking to the first entry, and an offline download button.
 
 2. **Key People Panel**: Top mentioned people with counts and glossary links.
 
@@ -284,7 +296,7 @@ The individual entry page is the core of the application. It uses a reading-opti
 
 **Entry Header**:
 - The formatted date as the main heading (e.g., "Samedi 11 janvier 1873").
-- A language switcher specific to this entry, showing language codes (CZ, EN, UK, FR) and a globe icon for the multilingual original. Allows switching to the same entry in another language.
+- A content language switcher specific to this entry, showing language codes (CZ, EN, UK, FR) and a globe icon for the multilingual original. Allows switching to the same entry in another content language, preserving scroll position. This is separate from the UI locale switcher in the header.
 - Previous/next entry navigation arrows with the adjacent entry's date shown.
 
 **Entry Body**: The main content area containing the diary text rendered as a series of paragraphs, each with interactive features (see below).

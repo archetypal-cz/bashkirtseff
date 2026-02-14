@@ -1,6 +1,8 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import CalendarWidget from '../../../components/CalendarWidget.vue';
+import ContentLanguageSwitcher from '../../../components/reading/ContentLanguageSwitcher.vue';
+import ContinueReading from '../../../components/reading/ContinueReading.vue';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getCarnets, getCarnetEntries, getEntry, hasTranslation, isCarnetCrossYear, getCarnetSummary, getEntryPreview } from '../../../lib/content';
@@ -268,6 +270,16 @@ function entryHref(entry: typeof allEntries[0]): string {
           </div>
 
           <div class="flex flex-col gap-3 mt-4 w-full">
+            <ContentLanguageSwitcher
+              client:load
+              currentLanguage={lang.urlPath}
+              pathSuffix={`/${carnet}/`}
+            />
+            <ContinueReading
+              client:load
+              scopeType="carnet"
+              scopeId={carnet!}
+            />
             {allEntries.length > 0 && (
               <a
                 href={entryHref(allEntries[0])}

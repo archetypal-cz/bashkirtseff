@@ -1,5 +1,7 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
+import ContentLanguageSwitcher from '../../../components/reading/ContentLanguageSwitcher.vue';
+import ContinueReading from '../../../components/reading/ContinueReading.vue';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import I18nPatch from '../../../components/I18nPatch.astro';
@@ -165,7 +167,17 @@ function formatDisplayName(id: string): string {
             )}
           </div>
 
-          <div class="mt-4">
+          <div class="flex flex-col gap-3 mt-4">
+            <ContentLanguageSwitcher
+              client:load
+              currentLanguage={lang.urlPath}
+              pathSuffix={`/${year}/`}
+            />
+            <ContinueReading
+              client:load
+              scopeType="year"
+              scopeId={year!}
+            />
             <OfflineDownload client:visible scopeType="year" scopeId={year!} language="original" />
           </div>
         </header>
