@@ -55,4 +55,13 @@ export function createT(locale: SupportedLocale) {
 // 4. Most UI interactions happen on the client side anyway
 //
 // For pages that need locale-aware SSR, use the [lang] route pattern and createT(lang).
+// Re-export contentPathToLocale for Astro server-side use
+// Canonical implementation lives in i18n/index.ts
+export function contentPathToLocale(path: string): SupportedLocale {
+  if (path === 'cz') return 'cs';
+  const supported: SupportedLocale[] = ['cs', 'fr', 'en', 'uk'];
+  if (supported.includes(path as SupportedLocale)) return path as SupportedLocale;
+  return 'cs';
+}
+
 export const t = createT('cs');

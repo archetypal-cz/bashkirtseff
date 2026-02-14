@@ -6,6 +6,7 @@ import Footer from '../components/layout/Footer.astro';
 import BackToTop from '../components/reading/BackToTop.vue';
 import InstallPrompt from '../components/pwa/InstallPrompt.vue';
 import HistoryTracker from '../components/layout/HistoryTracker.vue';
+import { contentPathToLocale } from '../i18n/astro';
 
 interface Props {
   title?: string;
@@ -22,10 +23,11 @@ interface Props {
 }
 
 const { title, description, lang, image, type, canonicalUrl, article } = Astro.props;
+const locale = lang ? contentPathToLocale(lang) : undefined;
 ---
 
 <BaseLayout title={title} description={description} lang={lang} image={image} type={type} canonicalUrl={canonicalUrl} article={article}>
-  <Header />
+  <Header locale={locale} />
 
   <main class="flex-grow">
     <div class="max-w-4xl mx-auto px-4 py-8">
@@ -33,7 +35,7 @@ const { title, description, lang, image, type, canonicalUrl, article } = Astro.p
     </div>
   </main>
 
-  <Footer />
+  <Footer locale={locale} />
 
   <!-- Back to top button (Vue island) -->
   <BackToTop client:visible />
