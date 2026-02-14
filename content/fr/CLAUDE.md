@@ -71,10 +71,10 @@ Les liens glossaire dans `_original/` utilisent `../_glossary/`. Dans `fr/`, le 
 ### Contenu à supprimer
 
 Supprimer de la sortie fr/ :
-- Tous les commentaires RSR (`%% ... RSR: ... %%`)
-- Tous les commentaires LAN (`%% ... LAN: ... %%`)
 - Le bloc `workflow:` du frontmatter
 - Les flags : `research_complete`, `linguistic_annotation_complete`, `kernberger_covered`, `empty_in_source`
+
+**Note** : Les commentaires RSR et LAN sont conservés dans fr/ — ils sont synchronisés depuis `_original/` via `just sync-all fr`.
 
 ### Contenu à conserver et adapter
 

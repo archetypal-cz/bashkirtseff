@@ -148,6 +148,36 @@ clean-ts:
     rm -rf src/shared/dist
     @echo "Cleaned TypeScript build artifacts"
 
+# Sync RSR/LAN annotations from _original/ to a translation language for a carnet
+sync carnet lang=default_lang:
+    npx ts-node --esm src/scripts/sync-translation.ts {{carnet}} --lang {{lang}}
+
+# Sync annotations (dry run - preview changes)
+sync-dry carnet lang=default_lang:
+    npx ts-node --esm src/scripts/sync-translation.ts {{carnet}} --lang {{lang}} --dry-run --verbose
+
+# Sync annotations for ALL carnets in a language
+sync-all lang=default_lang:
+    #!/usr/bin/env bash
+    echo "Syncing all carnets for language: {{lang}}"
+    total_changes=0
+    total_modified=0
+    for carnet_dir in content/{{lang}}/[0-9][0-9][0-9]; do
+        carnet=$(basename "$carnet_dir")
+        if [ -d "content/_original/$carnet" ]; then
+            result=$(npx ts-node --esm src/scripts/sync-translation.ts "$carnet" --lang {{lang}} 2>&1)
+            modified=$(echo "$result" | grep "^Modified:" | awk '{print $2}')
+            changes=$(echo "$result" | grep "^Total changes:" | awk '{print $3}')
+            if [ "${changes:-0}" -gt 0 ]; then
+                echo "  $carnet: $modified files, $changes changes"
+                total_changes=$((total_changes + ${changes:-0}))
+                total_modified=$((total_modified + ${modified:-0}))
+            fi
+        fi
+    done
+    echo ""
+    echo "Total: $total_modified files modified, $total_changes changes"
+
 # === FILE OPERATIONS ===
 
 # Create a new daily entry file
