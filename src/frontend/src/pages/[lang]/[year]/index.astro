@@ -4,7 +4,6 @@ import ContentLanguageSwitcher from '../../../components/reading/ContentLanguage
 import ContinueReading from '../../../components/reading/ContinueReading.vue';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
-import I18nPatch from '../../../components/I18nPatch.astro';
 import { getYears, getCarnetsByYear, getYearInfo, getYearSummary, isCarnetCrossYear } from '../../../lib/content';
 import { DIARY_LANGUAGES, glossaryUrl, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
@@ -107,7 +106,13 @@ function formatDisplayName(id: string): string {
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted">
-      <a href={basePath} class="hover:text-accent" data-t="diary.diary">{diaryLabel}</a>
+      <a href={basePath} class="hover:text-accent">
+        {lang.isTranslation ? (
+          <span data-t="diary.diary">{diaryLabel}</span>
+        ) : (
+          <span>Journal</span>
+        )}
+      </a>
       <span class="mx-2">&rsaquo;</span>
       <span class="text-ink" data-t="diary.year" data-t-params={JSON.stringify({ year })}>{t('diary.year', { year })}</span>
     </nav>
@@ -162,7 +167,7 @@ function formatDisplayName(id: string): string {
 
             {summary.primaryLocation && (
               <p class="text-sm text-muted mb-2">
-                {t('diary.mainLocation')} <a href={glossaryUrl(lang, summary.primaryLocation.toUpperCase().replace(/ /g, '_'))} class="text-ink hover:text-accent transition-colors">{formatDisplayName(summary.primaryLocation)}</a>
+                <span data-t="diary.mainLocation">{t('diary.mainLocation')}</span> <a href={glossaryUrl(lang, summary.primaryLocation.toUpperCase().replace(/ /g, '_'))} class="text-ink hover:text-accent transition-colors">{formatDisplayName(summary.primaryLocation)}</a>
               </p>
             )}
           </div>
@@ -185,7 +190,7 @@ function formatDisplayName(id: string): string {
         {/* Key People */}
         {topPeople.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="diary.keyPeople">
               {t('diary.keyPeople')}
             </h3>
             <ul class="space-y-2">
@@ -207,7 +212,7 @@ function formatDisplayName(id: string): string {
         {/* Places */}
         {topPlaces.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="diary.places">
               {t('diary.places')}
             </h3>
             <ul class="space-y-2">
@@ -229,7 +234,7 @@ function formatDisplayName(id: string): string {
         {/* Themes (spans full width) */}
         {topThemes.length > 0 && (
           <div class="summary-card p-4 rounded-lg sm:col-span-2 xl:col-span-3">
-            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;">
+            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="diary.themes">
               {t('diary.themes')}
             </h3>
             <div class="flex flex-wrap gap-2">
@@ -259,7 +264,11 @@ function formatDisplayName(id: string): string {
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
         </svg>
-        {diaryLabel}
+        {lang.isTranslation ? (
+          <span data-t="diary.diary">{diaryLabel}</span>
+        ) : (
+          <span>Journal</span>
+        )}
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
         </svg>
@@ -347,7 +356,11 @@ function formatDisplayName(id: string): string {
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
         </svg>
-        {diaryLabel}
+        {lang.isTranslation ? (
+          <span data-t="diary.diary">{diaryLabel}</span>
+        ) : (
+          <span>Journal</span>
+        )}
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
         </svg>
@@ -362,5 +375,4 @@ function formatDisplayName(id: string): string {
       ) : <span />}
     </nav>
   </div>
-  <I18nPatch />
 </ReadingLayout>

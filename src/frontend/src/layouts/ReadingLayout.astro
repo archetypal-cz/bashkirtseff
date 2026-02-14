@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import I18nPatch from '../components/I18nPatch.astro';
 
 import BackToTop from '../components/reading/BackToTop.vue';
 import InstallPrompt from '../components/pwa/InstallPrompt.vue';
@@ -45,6 +46,9 @@ const locale = lang ? contentPathToLocale(lang) : undefined;
 
   <!-- Reading history tracker (headless Vue island) -->
   <HistoryTracker client:load />
+
+  <!-- I18n patching: runs after all content (incl. Footer) to translate data-t elements -->
+  <I18nPatch />
 </BaseLayout>
 
 <!-- Theme/font-scale applied in BaseLayout <head> to prevent flash -->
