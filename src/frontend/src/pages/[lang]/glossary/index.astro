@@ -72,7 +72,7 @@ const letterCounts = letters.map(letter => ({
 const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 ---
 
-<ReadingLayout title={`${t('glossary.title')} — ${t('diary.pageTitle')}`}>
+<ReadingLayout title={`${t('glossary.title')} — ${t('diary.pageTitle')}`} lang={lang.urlPath}>
   <div class="max-w-4xl mx-auto">
     <header class="mb-8">
       <nav class="mb-6 text-sm text-muted">
