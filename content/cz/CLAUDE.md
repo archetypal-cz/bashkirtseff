@@ -202,6 +202,30 @@ Toto je text s poznámkou pod čarou[^01.01.1].
 [^01.01.1]: Toto je obsah poznámky, kde 01.01.1 představuje kniha.odstavec.číslo_poznámky.
 ```
 
+### Anglické pasáže v originále
+
+Marie často přepíná do angličtiny — celé dialogy, jednotlivá slova i delší pasáže. V českém překladu tyto pasáže překládáme do češtiny (jako zbytek textu) a přidáváme poznámku překladatele s původním anglickým zněním:
+
+```markdown
+– Je ženatý od včerejška.[^14.25.1]
+
+[^14.25.1]: Pozn. překl.: V originále anglicky: „He is married since yesterday."
+```
+
+Pro jednotlivá anglická slova vložená do francouzského textu přidáváme i český ekvivalent:
+
+```markdown
+...byl podplacený[^09.05.1] a celá věc...
+
+[^09.05.1]: Pozn. překl.: V originále anglicky: „bribed" — podplatil, uplácení.
+```
+
+Důležité zásady:
+- V textu je vždy český překlad, nikdy anglický originál
+- Poznámka vždy začíná `Pozn. překl.: V originále anglicky:`
+- Anglický originál uvádíme v českých uvozovkách: „text"
+- U jednotlivých slov přidáváme stručné vysvětlení za pomlčkou
+
 ### Interpunkce
 
 - Používáme české uvozovky: „text”
