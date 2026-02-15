@@ -1,5 +1,5 @@
 ---
-name: gemini-czech-editor
+name: gemini-editor
 description: External AI review (Gemini) for translations in any language. Two-pass review — text-only for naturalness, then with-comments for semantic accuracy. Use after Editor review, before Conductor.
 allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 ---

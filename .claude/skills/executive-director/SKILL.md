@@ -397,7 +397,7 @@ Only send shutdown requests at the **very end** of the session when all reviews 
 
 After RED completes review of a carnet, dispatch Gemini review:
 
-1. Use the `/gemini-czech-editor` skill (or equivalent for target language) or run as a Bash subagent (not a persistent teammate)
+1. Use the `/gemini-editor` skill (or equivalent for target language) or run as a Bash subagent (not a persistent teammate)
 2. Process each entry in the carnet through Gemini
 3. Apply valid corrections, add GEM comments
 4. This can run in parallel with CON review of previously approved carnets
