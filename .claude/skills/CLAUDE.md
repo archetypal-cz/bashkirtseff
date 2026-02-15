@@ -31,7 +31,7 @@ skills/
 │   └── SKILL.md                   # Progress tracking & reporting
 ├── workflow-architect/
 │   └── SKILL.md                   # System maintenance
-├── gemini-czech-editor/
+├── gemini-editor/
 │   └── SKILL.md                   # External Gemini review (future)
 ├── stewardship/
 │   └── SKILL.md                   # Social content generation

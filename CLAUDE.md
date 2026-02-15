@@ -84,7 +84,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **researcher**           | `/researcher`           | Research and annotate entries, create glossary |
 | **linguistic-annotator** | `/linguistic-annotator` | Add translation guidance (LAN notes)           |
 | **translator**           | `/translator`           | Translate French → Czech                       |
-| **gemini-czech-editor**  | `/gemini-czech-editor`  | External AI review (Gemini)                    |
+| **gemini-editor**  | `/gemini-editor`  | External AI review (Gemini)                    |
 | **editor**               | `/editor`               | Review translations for quality                |
 | **conductor**            | `/conductor`            | Final quality gate                             |
 | **executive-director**   | `/executive-director`   | Orchestrate workflow                           |
@@ -99,7 +99,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 1. **Research Phase** (researcher) - Extract entities, historical context, RSR comments
 2. **Annotation Phase** (linguistic-annotator) - Translation guidance, LAN comments
 3. **Translation Phase** (translator) - Translate preserving Marie's voice, TR comments
-4. **Gemini Review** (gemini-czech-editor) - External AI review, GEM comments
+4. **Gemini Review** (gemini-editor) - External AI review, GEM comments
 5. **Editor Review** (editor) - Check naturalness and accuracy, RED comments
 6. **Final Approval** (conductor) - Ensure literary quality, CON comments
 
