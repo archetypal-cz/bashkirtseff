@@ -107,6 +107,27 @@ Marie Bashkirtseff was:
 
 **High-density entries** (especially emotional ones like Hamilton's engagement) may have 40-60 LAN annotations - plan extra time for these.
 
+### Gallicisms, Calques, and False Friends
+
+**This is a critical translation trap.** When translating from French, the most insidious errors are not grammar mistakes but constructions that are grammatically correct in the target language yet betray their French origin — or worse, silently change meaning.
+
+**Watch for these categories:**
+
+| Category | What it is | Example (Czech) |
+|----------|-----------|-----------------|
+| **Gallicism** | French syntax/construction transplanted | "dělám tisíc hloupostí" (mille bêtises) — exaggeration pattern |
+| **Calque** | Literal translation of a French phrase | "vzít si ženu" (prendre femme = oženit se) |
+| **False friend** | Same-looking word, different meaning | "ceremonie" (CZ = formal ceremony, FR = fuss/okolky) |
+| **Semantic shift** | Translation sounds fine but means something else | "vařila jsem" for "je bouillais" (cooking vs seething) |
+
+**Prevention strategies:**
+- After translating a phrase, ask: "Would a native speaker of my target language ever say this unprompted?"
+- For each French idiom, find the *equivalent idiom* in the target language, not a word-for-word translation
+- Be especially wary of words that exist in both languages but with shifted meanings (costume/kostým, cabinet/kabinet, sympathique/sympatický)
+- When French uses *avoir* + noun constructions ("avoir peur", "avoir raison"), translate the *concept*, not the verb + noun
+
+**Add TR comments** when you encounter a significant false friend or calque trap — this helps downstream reviewers understand your choices.
+
 ### Special Cases
 
 **Foreign Language Passages**
