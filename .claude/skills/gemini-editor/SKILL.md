@@ -149,6 +149,29 @@ When editing translation files:
 - **ONLY EDIT** the visible translation text
 - **ADD** GEM comments for each change made
 
+## Step 7: Propagate Universal Findings to Original
+
+After applying fixes, review all findings for **universal insights** that would benefit translators working in other languages. These are NOT language-specific style fixes — they are discoveries about the French source text itself.
+
+**Propagate to `content/_original/` when Gemini finds:**
+- Ambiguous French words with multiple valid readings (e.g., "mineurs" = miners vs minors)
+- Factual/historical corrections or context
+- Misreadings in existing RSR/LAN comments
+- Semantic nuances in the French that existing annotations missed
+
+**Do NOT propagate:**
+- Target-language style fixes (galicisms, word order, clitic placement)
+- Target-language vocabulary choices
+- Register/tone adjustments specific to one language
+
+**Format:** Add an RSR comment to the original file with the finding, citing the source:
+
+```markdown
+%% 2026-02-15T15:45:00 RSR: "des mineurs" — AMBIGUOUS: could mean mine-owners (Poltava mining context) or legal minors (per Kernberger 2013). We keep mine-owners. Translators should note the ambiguity. %%
+```
+
+This ensures all translation teams benefit from insights discovered during any single language's review.
+
 ## Prompts
 
 ### Text-Only Prompts (Pass 1)
