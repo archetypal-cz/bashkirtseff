@@ -159,7 +159,26 @@ Place RED comments after the translated text within the paragraph block (before 
 
 ## Common Issues Checklist
 
-### Literal Translation Traps
+### Gallicisms, Calques, and False Friends
+
+**This is the #1 category of issues found by cross-model review (Gemini).** Prioritize catching these:
+
+| Category | What to look for | Example |
+|----------|-----------------|---------|
+| **Gallicism** | French syntax that's grammatically valid but unnatural | "jsou oddělení" (sont séparés → žijí odděleně) |
+| **Calque** | Literal translation of French phrase | "bít nohou" (battre du pied → dupat/podupávat) |
+| **False friend** | Same word, different meaning in target language | "ceremonie" (FR = fuss → CZ = okolky, NOT formal ceremony) |
+| **Semantic shift** | Sounds fine but means something different | "zimnice" (fever/disease) for "frisson" (shiver of emotion) |
+| **Self-confirming** | Previous fixes that introduced new problems | A GEM fix that resolved one issue but created another calque |
+
+**Testing technique:** Read each sentence in isolation, without looking at the French. Does it sound like something a native speaker would write? If it sounds "technically correct but odd" — it's likely a calque.
+
+**Common traps by language:**
+- Czech: příklonky (jsem/se/si) in French word order, "mít" calques for avoir, "dělat" for faire
+- Ukrainian: russianisms masquerading as calques, passive constructions, case government
+- English: "make a promenade", "sympathetic" for "sympathique", register mismatches
+
+### Other Literal Translation Traps
 - "faire" constructions translated word-for-word
 - Passive voice kept where target language prefers active
 - French word order preserved unnaturally
