@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import ThisDayEntry from '../../components/home/ThisDayEntry.vue';
+import ContinueReadingGlobal from '../../components/reading/ContinueReadingGlobal.vue';
 import { createT, type SupportedLocale } from '../../i18n/astro';
 import { buildThisDayData } from '../../lib/content';
 
@@ -69,7 +70,8 @@ const thisDayTranslations = {
           </p>
         )}
 
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <ContinueReadingGlobal client:load />
           <a href={`/${languagePath}/000`} class="btn btn-primary text-lg px-8 py-3">
             {t('home.startReading')}
           </a>
