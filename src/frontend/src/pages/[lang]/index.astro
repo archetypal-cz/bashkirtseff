@@ -1,6 +1,7 @@
 ---
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
 import ContentLanguageSwitcher from '../../components/reading/ContentLanguageSwitcher.vue';
+import ContinueReadingGlobal from '../../components/reading/ContinueReadingGlobal.vue';
 import FilterOverlay from '../../components/filter/FilterOverlay.vue';
 import { getYears, getCarnets, getCarnetsByYear } from '../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../lib/diary-lang-config';
@@ -162,6 +163,11 @@ const activePaths = new Set(DIARY_LANGUAGES.filter(l => l.isTranslation).map(l =
         </div>
       </header>
     )}
+
+    <!-- Continue reading (from history) -->
+    <div class="mb-6">
+      <ContinueReadingGlobal client:load />
+    </div>
 
     <!-- Preface link -->
     <a

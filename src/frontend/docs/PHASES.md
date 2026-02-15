@@ -194,7 +194,7 @@ Phase 4: Polish & Scale      → Performance, advanced features
 
 #### 2.8 Reading Progress
 - [ ] Track viewed entries
-- [ ] "Continue reading" button
+- [x] "Continue reading" button (localStorage-based, shown on home & landing pages)
 - [ ] Reading progress indicator
 - [ ] Sync across devices
 

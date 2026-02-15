@@ -29,7 +29,7 @@ Detailed specifications for all frontend features.
 **UI Elements**:
 - Sidebar with book list (00-16)
 - Book covers/headers with date ranges
-- "Continue reading" button (for logged-in users)
+- "Continue reading" button (uses localStorage reading history, no login required)
 
 **Behavior**:
 - Books sorted chronologically
