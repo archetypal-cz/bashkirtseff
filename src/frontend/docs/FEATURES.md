@@ -91,6 +91,26 @@ Detailed specifications for all frontend features.
 - Dark mode toggle
 - Sepia mode for reduced eye strain
 
+### 1.6 Reading History
+
+**Description**: Tracks recently visited paragraphs and glossary entries in the side menu, stored in localStorage.
+
+**UI Elements**:
+- History section in the unified menu panel (collapsible accordion)
+- Badge showing item count
+- Each item shows: carnet number, entry date, paragraph preview (or glossary name + badge)
+- Tiny delete (×) button on each item, visible on hover
+- "Clear" button in footer to remove all history
+
+**Behavior**:
+- Max 10 items stored
+- One paragraph per carnet (newer replaces older from same carnet)
+- Glossary entries deduplicated by glossary ID
+- Items ordered most-recent-first
+- Delete button removes individual item from history
+- History persists across sessions via `localStorage('reading-history')`
+- Section hidden when history is empty
+
 ---
 
 ## 2. Authentication
