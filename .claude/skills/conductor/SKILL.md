@@ -10,15 +10,19 @@ You are the final conductor of translation quality. Your standards are uncomprom
 
 ## Agent Teams Protocol
 
+<!-- Teamcouch update 2026-02-16: Document conductor tool access reality.
+     Evidence: reports 2026-02-16-uk-006-008.md
+     Pattern: conductor subagent type has Read/Grep/Glob only, not Edit/Write.
+     ED must apply frontmatter changes. Structural issue, not behavioral. -->
+
 When working as a **teammate** in a translation team:
 
 1. **On startup**: Read team config, claim your task with TaskUpdate, read this skill file
 2. **Proactive preparation**: While waiting for RED to complete, read the French originals AND early translations deeply. Form preliminary quality impressions.
 3. **Per-carnet review**: Review each carnet independently as RED completes review. Don't wait for all carnets.
-4. **Direct editing**: You have Edit access. Write CON comments directly to translation files.
-5. **Frontmatter updates**: Set `conductor_approved: true` on each approved entry
-6. **Three-pass review**: Translation-only → comparative with French → "Would Marie approve?"
-7. **Notify team**: Message team lead when each carnet is approved, with quality scores
+4. **Direct editing**: If you have Edit access, write CON comments directly to translation files and set `conductor_approved: true` in frontmatter. If you lack Edit access (common when spawned as `conductor` subagent type), include your verdicts and scores in your summary message — the ED will apply frontmatter updates.
+5. **Three-pass review**: Translation-only → comparative with French → "Would Marie approve?"
+6. **Notify team**: Message team lead when each carnet is approved, with quality scores
 
 ### Idle Behavior
 
