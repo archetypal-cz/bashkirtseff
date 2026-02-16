@@ -32,7 +32,11 @@ skills/
 ├── workflow-architect/
 │   └── SKILL.md                   # System maintenance
 ├── gemini-editor/
-│   └── SKILL.md                   # External Gemini review (future)
+│   └── SKILL.md                   # External Gemini review
+├── opus-editor/
+│   └── SKILL.md                   # Opus language expert review
+├── teamcouch/
+│   └── SKILL.md                   # Post-session retrospective
 ├── stewardship/
 │   └── SKILL.md                   # Social content generation
 ├── frontend-dev/
@@ -65,7 +69,8 @@ Get every original French entry properly researched, annotated, and footnoted be
 |-------|------|------|-------|---------|
 | 1 | Translator (x3) | TR | Opus | French → target language (3 parallel agents) |
 | 2 | Editor | RED | Opus | Real-time quality review (reviews as entries appear) |
-| 3 | Gemini Editor | GEM | External | Cross-model review (Bash subagent, not teammate) |
+| 3a | Gemini Editor | GEM | External | Cross-model review (Bash subagent, not teammate) |
+| 3b | Opus Editor | OPS | Opus | Same-model language expert review (no corruption) |
 | 4 | Conductor | CON | Opus | Final literary approval |
 
 **Proven configuration** (Feb 12 runs): 5 persistent agents (3 TR + RED + CON), GEM dispatched as needed. No RSR/LAN needed — source prep complete for all 106 carnets.

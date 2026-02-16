@@ -12,6 +12,21 @@ export interface WorkerConfig {
     frequency: 'after_entry' | 'after_carnet' | 'after_session' | 'manual';
     message_prefix?: string;
   };
+  session?: {
+    started_at: string | null;
+    skills_used: string[];
+  };
+}
+
+export interface RunReport {
+  date: string;
+  operator: string;
+  duration_minutes: number | string;
+  target_language: string;
+  carnets: string[];
+  pipeline: string[];
+  skills: Record<string, string>;
+  status: 'draft' | 'final' | 'reviewed';
 }
 
 export interface CarnetProgress {

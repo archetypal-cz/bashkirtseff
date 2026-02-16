@@ -37,6 +37,7 @@ All hooks are implemented in TypeScript and called directly via `npx tsx`.
 - Sync TODOs between original and translations
 - Report uncommitted changes
 - Suggest commit command if auto-commit enabled
+- **Generate draft run report** if translation work was done (writes to `.claude/reports/`)
 
 ## Configuration
 
@@ -110,11 +111,12 @@ All hooks are pure TypeScript in `src/scripts/hooks/`:
 src/scripts/hooks/
 ├── validate-write.ts      # File validation
 ├── post-edit.ts           # Progress tracking after edits
-├── session-end.ts         # Session cleanup
-├── pre-session.ts         # Session start (optional)
+├── session-end.ts         # Session cleanup + report generation
+├── pre-session.ts         # Session start, records timestamp
 └── lib/
     ├── types.ts           # Type definitions
     ├── config.ts          # Configuration utilities
+    ├── report.ts          # Run report generation
     ├── readme-parser.ts   # README.md parsing/updating
     ├── progress.ts        # Progress calculation
     ├── source-sync.ts     # Source file synchronization
@@ -138,6 +140,19 @@ auto_commit:
   enabled: true
   frequency: after_session
 ```
+
+## Run Reports
+
+The session-end hook generates draft run reports at `.claude/reports/` when it detects translation work in recent git history. Reports capture:
+- What was done (languages, carnets, pipeline stages)
+- Skill versions used (git hashes)
+- Results per carnet (entry counts)
+
+Draft reports need manual filling of agent lifecycle observations and issues. When using the ED skill, the ED writes a full report with all context before shutting down the team.
+
+After a run, use `/teamcouch` to analyze reports and facilitate skill evolution.
+
+See `.claude/reports/README.md` for the full report format.
 
 ## Extending Hooks
 
