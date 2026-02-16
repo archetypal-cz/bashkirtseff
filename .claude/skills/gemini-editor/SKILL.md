@@ -12,7 +12,7 @@ Works with any target language: Czech (cz), Ukrainian (uk), English (en), French
 
 ## Core Approach
 
-You work like other agents: **read files directly, call Gemini, edit files, add GEM comments.** No separate extraction scripts, no review files, no multi-step text passing.
+Gemini runs in **yolo mode** (`gemini -y`), editing translation files directly. You commit before each pass for safety, let Gemini do its work, then audit via `git diff`. No stdout parsing, no manual fix application.
 
 ## Why Two Passes?
 
@@ -30,113 +30,127 @@ Neither approach alone catches everything. **Use both in sequence.**
 GEM is dispatched as a one-shot operation per carnet (or batch of entries). It can run in parallel across multiple carnets.
 
 When dispatched:
-1. Process all entries in the assigned carnet(s)
-2. Batch entries into groups of 3-5 for efficient Gemini calls
-3. **Pass 1**: Text-only review → apply A+B fixes directly
-4. **Pass 2**: With-comments review (on the now-improved text) → apply remaining A+B fixes
+1. Commit the translation files (safety checkpoint)
+2. **Pass 1**: Gemini yolo text-only review → commit results
+3. **Pass 2**: Gemini yolo with-comments review → commit results
+4. Audit changes, propagate universal findings
 5. Report results (scores, issue counts, fixes applied)
 
 ## Rate Limit Handling
 
-**Gemini has API rate limits.** Watch for these signals in `gemini -p` output:
+**Gemini has API rate limits.** Watch for these signals:
 
 - `429` or `RESOURCE_EXHAUSTED` — rate limit hit
 - `quota exceeded` — daily/hourly quota exhausted
-- Empty or truncated output — possible silent rate limit
+- Gemini exits early or skips files
 
 **When you hit a rate limit:**
 
 1. **Stop immediately.** Do NOT retry in a loop.
-2. Save your progress — note which batches/entries have been processed and which haven't.
+2. Note which entries Gemini processed and which remain.
 3. Report to the caller: which entries were completed, which remain, and the error message.
 4. The caller can resume later by re-dispatching with only the remaining entries.
 
-**Prevention:**
-- Wait 5-10 seconds between Gemini calls (use `sleep 5` between batches)
-- Keep batches at 3-5 entries (not 6) to stay under token limits
-- If processing multiple carnets, pace yourself — don't fire all batches simultaneously
-
 ## Workflow
 
-### Step 1: Read translation files
+### Step 1: Commit before Gemini touches anything
 
-Read each translation file directly using the Read tool. No extraction scripts needed — you can see the full content.
-
-For batching, read 3-5 files and concatenate their content mentally. Prepare two versions:
-
-- **Text-only version**: Strip `%% ... %%` comment lines and YAML frontmatter mentally, keeping only the visible translation text. Build this as a string in a bash variable.
-- **Full version**: Everything except YAML frontmatter. Build similarly.
-
-To build the text-only batch for Gemini:
+**CRITICAL**: Always create a git commit of the translation files before letting Gemini edit them. This is your safety net.
 
 ```bash
-BATCH_TEXT=""
-for f in content/{LANG}/{CARNET}/{FILE1}.md content/{LANG}/{CARNET}/{FILE2}.md ...; do
-    BATCH_TEXT+="=== $(basename $f) ==="$'\n'
-    BATCH_TEXT+="$(sed -n '/^---$/,/^---$/!p' "$f" | grep -v '^%%' | grep -v '^\[^' | sed '/^$/d')"$'\n'$'\n'
-done
+git add content/{LANG}/{CARNET}/
+git commit -m "TR: carnet {CARNET} {LANG} translations (pre-GEM checkpoint)"
 ```
 
-To build the full batch (with comments, without frontmatter):
+If the files are already committed (e.g., translator already committed), verify with `git status` and skip this step.
+
+This lets you `git diff` to audit every change Gemini makes, and `git checkout -- content/{LANG}/{CARNET}/` to revert if needed.
+
+### Step 2: Pass 1 — Text-Only Review (Gemini yolo)
+
+Run Gemini in yolo mode. It reads the files, evaluates the target-language text, and edits files directly.
+
+Choose the appropriate text-only prompt for the target language (see Prompts section below), then run:
 
 ```bash
-BATCH_FULL=""
-for f in content/{LANG}/{CARNET}/{FILE1}.md content/{LANG}/{CARNET}/{FILE2}.md ...; do
-    BATCH_FULL+="=== $(basename $f) ==="$'\n'
-    BATCH_FULL+="$(sed '1,/^---$/{ /^---$/!d; d; }' "$f")"$'\n'$'\n'
-done
+gemini -y -p "$(cat <<'PROMPT'
+{INSERT TEXT-ONLY PROMPT FOR TARGET LANGUAGE HERE}
+
+IMPORTANT INSTRUCTIONS FOR FILE EDITING:
+- Review the translation files in content/{LANG}/{CARNET}/
+- For each file, focus ONLY on the visible translation text (ignore lines starting with %% and YAML frontmatter between --- markers)
+- For severity A and B issues, edit the file directly to apply the fix
+- After each fix, add a GEM comment line in the same paragraph block:
+  %% {TIMESTAMP} GEM: "original text" → "fixed text" — reason %%
+  For severity B fixes, append (sev B) to the comment.
+- Place GEM comments after the translated text within the paragraph block, before the next %% paragraph ID
+- Do NOT modify existing %% comment lines, glossary links [#...](path), or YAML frontmatter
+- Skip severity C issues entirely — do not write them anywhere
+- Process ALL .md files in the directory
+- Start by listing the files, then process them one by one
+
+Start now: list files in content/{LANG}/{CARNET}/ and begin reviewing.
+PROMPT
+)"
 ```
 
-### Step 2: Pass 1 — Text-Only Review
-
-Send **only the visible translation text** to Gemini. This forces it to evaluate purely on target-language merits.
+After Gemini finishes, audit what it changed:
 
 ```bash
-RESULT=$(echo "$BATCH_TEXT" | gemini -p "$TEXT_ONLY_PROMPT")
+git diff content/{LANG}/{CARNET}/
 ```
 
-**Check for rate limit errors** in `$RESULT` before proceeding.
+Scan the diff for anything suspicious (deleted comments, broken frontmatter, nonsensical edits). Revert bad files with `git checkout -- content/{LANG}/{CARNET}/{FILE}.md` if needed.
 
-### Step 3: Apply Pass 1 Fixes Directly
-
-Read the Gemini response. For each severity A or B issue:
-
-1. **Read** the affected translation file (if not already in context)
-2. **Edit** the visible translation text directly using the Edit tool
-3. **Add a GEM comment** in the same paragraph block:
-
-```markdown
-%% 2026-02-15T15:00:00 GEM: "original" → "fix" — reason %%
-```
-
-For severity B, add the marker:
-```markdown
-%% 2026-02-15T15:00:00 GEM: "original" → "fix" — reason (sev B) %%
-```
-
-Place GEM comments after the translated text within the paragraph block, just like RED comments.
-
-**Severity C**: Note mentally but do NOT apply or write review files. These are cosmetic and not worth the overhead.
-
-### Step 4: Pass 2 — With-Comments Review
-
-Send the **full file content** (with all `%% ... %%` comments but without YAML frontmatter) to Gemini. This lets it catch semantic errors by comparing with the French source.
+### Step 3: Commit Pass 1 results
 
 ```bash
-RESULT=$(echo "$BATCH_FULL" | gemini -p "$WITH_COMMENTS_PROMPT")
+git add content/{LANG}/{CARNET}/
+git commit -m "GEM pass 1: carnet {CARNET} {LANG} text-only review"
 ```
 
-**Again check for rate limit errors** before proceeding.
+### Step 4: Pass 2 — With-Comments Review (Gemini yolo)
 
-### Step 5: Apply Pass 2 Fixes Directly
+Run Gemini again, this time telling it to use the full file content including `%% ... %%` comments with the French source. This catches **semantic errors**.
 
-Apply severity A and B fixes from Pass 2 using Edit tool, same as Pass 1.
+Choose the appropriate with-comments prompt (see Prompts section below), then run:
 
-**Be careful not to duplicate fixes** — Pass 2 may flag issues already fixed in Pass 1. Check before applying.
+```bash
+gemini -y -p "$(cat <<'PROMPT'
+{INSERT WITH-COMMENTS PROMPT FOR TARGET LANGUAGE HERE}
+
+IMPORTANT INSTRUCTIONS FOR FILE EDITING:
+- Review the translation files in content/{LANG}/{CARNET}/
+- Read the FULL file content including %% ... %% comments (these contain the French original, translator notes TR, linguistic notes LAN, research notes RSR, and previous GEM corrections)
+- For severity A and B issues, edit the file directly to apply the fix
+- After each fix, add a GEM comment line:
+  %% {TIMESTAMP} GEM: "original text" → "fixed text" — reason %%
+- Do NOT modify existing %% comment lines, glossary links, or YAML frontmatter — only edit visible translation text and add new GEM comments
+- Be careful not to duplicate fixes already applied in Pass 1 (check existing GEM comments)
+- Skip severity C issues entirely
+- Process ALL .md files in the directory
+
+Start now: list files in content/{LANG}/{CARNET}/ and begin reviewing.
+PROMPT
+)"
+```
+
+Audit Pass 2 changes:
+
+```bash
+git diff content/{LANG}/{CARNET}/
+```
+
+### Step 5: Commit Pass 2 results
+
+```bash
+git add content/{LANG}/{CARNET}/
+git commit -m "GEM pass 2: carnet {CARNET} {LANG} with-comments review"
+```
 
 ### Step 6: Propagate Universal Findings to Original
 
-After applying fixes, review all findings for **universal insights** that would benefit translators working in other languages. These are NOT language-specific style fixes — they are discoveries about the French source text itself.
+After both passes, review the GEM comments for **universal insights** that would benefit translators working in other languages. These are NOT language-specific style fixes — they are discoveries about the French source text itself.
 
 **Propagate to `content/_original/` when Gemini finds:**
 - Ambiguous French words with multiple valid readings (e.g., "mineurs" = miners vs minors)
@@ -157,7 +171,7 @@ After applying fixes, review all findings for **universal insights** that would 
 
 ## File Editing Rules
 
-When editing translation files:
+These apply to Gemini's edits (enforced via the prompt instructions) and to any manual fixes you make:
 
 - **PRESERVE** all `%% ... %%` comments (paragraph IDs, tags, RSR/LAN/TR/RED notes)
 - **PRESERVE** all glossary links `[#Name](path)`
@@ -171,8 +185,7 @@ When editing translation files:
 
 #### Czech (cz)
 
-```bash
-TEXT_ONLY_PROMPT="$(cat <<'PROMPT'
+```
 Jsi zkušený český redaktor a stylista. Zkontroluj tento český překlad deníku Marie Bashkirtseffové (19. století).
 
 ZAMĚŘ SE NA:
@@ -183,24 +196,15 @@ ZAMĚŘ SE NA:
 5. Významové posuny (galicismy, které mění smysl: "vzít si ženu" = oženit se!)
 6. Falešní přátelé (slova, která existují v obou jazycích, ale s posunutým významem: ceremonie, kostým, kabinet)
 
-FORMÁT ODPOVĚDI:
-Pro KAŽDÝ vstup (=== soubor ===) uveď nalezené problémy:
-- **PŮVODNÍ:** „citace problematického místa"
-- **NÁVRH:** „navrhovaná oprava"
-- **DŮVOD:** krátké vysvětlení
-- **ZÁVAŽNOST:** A (musí se opravit) / B (doporučeno) / C (kosmetické)
-
-Na konci: **Celkový dojem z přirozenosti:** X/10, **Hlavní vzorce problémů**, **Co je výborné**
-
-TEXT K REVIZI:
-PROMPT
-)"
+Pro každý problém urči závažnost:
+- A: musí se opravit (gramatická chyba, významový posun, nesmysl)
+- B: doporučeno (nepřirozenost, galicismus, lepší varianta existuje)
+- C: kosmetické (drobnost, ignoruj)
 ```
 
 #### Ukrainian (uk)
 
-```bash
-TEXT_ONLY_PROMPT="$(cat <<'PROMPT'
+```
 Ти досвідчений український редактор і стиліст. Перевір цей український переклад щоденника Марії Башкирцевої (19 століття).
 
 ЗВЕРНИ УВАГУ НА:
@@ -211,24 +215,15 @@ TEXT_ONLY_PROMPT="$(cat <<'PROMPT'
 5. Смислові зсуви (галіцизми, що змінюють значення)
 6. Русизми (слова та конструкції, які є калькою з російської, а не природною українською)
 
-ФОРМАТ ВІДПОВІДІ:
-Для КОЖНОГО файлу (=== файл ===) вкажи знайдені проблеми:
-- **ОРИГІНАЛ:** «цитата проблемного місця»
-- **ПРОПОЗИЦІЯ:** «запропоноване виправлення»
-- **ПРИЧИНА:** коротке пояснення
-- **СЕРЙОЗНІСТЬ:** A (треба виправити — помилка в логіці/граматиці/значенні) / B (рекомендовано) / C (косметичне)
-
-Наприкінці: **Загальне враження від природності:** X/10, **Основні закономірності проблем**, **Що чудово вдалося**
-
-ТЕКСТ ДО ПЕРЕВІРКИ:
-PROMPT
-)"
+Для кожної проблеми визнач серйозність:
+- A: треба виправити (граматична помилка, смисловий зсув, нісенітниця)
+- B: рекомендовано (неприродність, галіцизм, краща альтернатива існує)
+- C: косметичне (дрібниця, ігноруй)
 ```
 
 #### English (en)
 
-```bash
-TEXT_ONLY_PROMPT="$(cat <<'PROMPT'
+```
 You are an experienced English editor and stylist. Review this English translation of Marie Bashkirtseff's diary (19th century).
 
 FOCUS ON:
@@ -239,26 +234,17 @@ FOCUS ON:
 5. Semantic shifts (gallicisms that change meaning)
 6. False friends (words that exist in both languages but with shifted meaning: sympathetic ≠ sympathique)
 
-RESPONSE FORMAT:
-For EACH entry (=== file ===) list issues found:
-- **ORIGINAL:** "quote of problematic passage"
-- **SUGGESTION:** "proposed fix"
-- **REASON:** brief explanation
-- **SEVERITY:** A (must fix — logic/grammar/meaning error) / B (recommended) / C (cosmetic)
-
-At the end: **Overall naturalness:** X/10, **Main problem patterns**, **What works well**
-
-TEXT TO REVIEW:
-PROMPT
-)"
+For each issue, assign severity:
+- A: must fix (grammar error, meaning shift, nonsense)
+- B: recommended (unnaturalness, gallicism, better alternative exists)
+- C: cosmetic (minor, ignore)
 ```
 
 ### With-Comments Prompts (Pass 2)
 
 #### Czech (cz)
 
-```bash
-WITH_COMMENTS_PROMPT="$(cat <<'PROMPT'
+```
 Jsi zkušený český redaktor a stylista. Zkontroluj tento český překlad deníku Marie Bashkirtseffové (19. století).
 
 Text obsahuje inline komentáře ve formátu %% ... %% — ty obsahují francouzský originál, poznámky překladatele (TR), jazykové poznámky (LAN), výzkumné poznámky (RSR) a předchozí opravy (GEM). Využij je pro kontext, ale kontroluj POUZE český překlad (řádky bez %%).
@@ -272,24 +258,15 @@ ZAMĚŘ SE NA:
 4. Gramatiku (pády, shoda, příklonky)
 5. Přirozenost (čte se to jako česky psaný text, ne jako překlad?)
 
-FORMÁT ODPOVĚDI:
-Pro KAŽDÝ nalezený problém uveď:
-- **PŮVODNÍ:** „citace problematického místa"
-- **NÁVRH:** „navrhovaná oprava"
-- **DŮVOD:** krátké vysvětlení (uveď francouzský originál pro srovnání)
-- **ZÁVAŽNOST:** A (musí se opravit) / B (doporučeno) / C (kosmetické)
-
-Na konci: **Celkový dojem z přirozenosti:** X/10, **Hlavní vzorce problémů**, **Co je výborné**
-
-TEXT K REVIZI:
-PROMPT
-)"
+Pro každý problém urči závažnost:
+- A: musí se opravit
+- B: doporučeno
+- C: kosmetické (ignoruj)
 ```
 
 #### Ukrainian (uk)
 
-```bash
-WITH_COMMENTS_PROMPT="$(cat <<'PROMPT'
+```
 Ти досвідчений український редактор і стиліст. Перевір цей український переклад щоденника Марії Башкирцевої (19 століття).
 
 Текст містить коментарі у форматі %% ... %% — вони містять французький оригінал, нотатки перекладача (TR), мовні нотатки (LAN), дослідницькі нотатки (RSR) та попередні виправлення (GEM). Використовуй їх для контексту, але перевіряй ЛИШЕ український переклад (рядки без %%).
@@ -304,24 +281,15 @@ WITH_COMMENTS_PROMPT="$(cat <<'PROMPT'
 5. Природність (чи читається це як українській текст, а не як переклад?)
 6. Русизми (калька з російської замість природної української)
 
-ФОРМАТ ВІДПОВІДІ:
-Для КОЖНОГО знайденого проблеми вкажи:
-- **ОРИГІНАЛ:** «цитата проблемного місця»
-- **ПРОПОЗИЦІЯ:** «запропоноване виправлення»
-- **ПРИЧИНА:** коротке пояснення (вкажи французький оригінал для порівняння)
-- **СЕРЙОЗНІСТЬ:** A (треба виправити) / B (рекомендовано) / C (косметичне)
-
-Наприкінці: **Загальне враження від природності:** X/10, **Основні закономірності проблем**, **Що чудово вдалося**
-
-ТЕКСТ ДО ПЕРЕВІРКИ:
-PROMPT
-)"
+Для кожної проблеми визнач серйозність:
+- A: треба виправити
+- B: рекомендовано
+- C: косметичне (ігноруй)
 ```
 
 #### English (en)
 
-```bash
-WITH_COMMENTS_PROMPT="$(cat <<'PROMPT'
+```
 You are an experienced English editor and stylist. Review this English translation of Marie Bashkirtseff's diary (19th century).
 
 The text contains inline comments in %% ... %% format — these include the French original, translator notes (TR), linguistic notes (LAN), research notes (RSR), and previous corrections (GEM). Use them for context, but review ONLY the English translation (lines without %%).
@@ -335,18 +303,10 @@ FOCUS ON:
 4. Grammar (tense, agreement, natural constructions)
 5. Naturalness (does it read as English prose, not a translation?)
 
-RESPONSE FORMAT:
-For EACH issue found:
-- **ORIGINAL:** "quote of problematic passage"
-- **SUGGESTION:** "proposed fix"
-- **REASON:** brief explanation (cite the French original for comparison)
-- **SEVERITY:** A (must fix) / B (recommended) / C (cosmetic)
-
-At the end: **Overall naturalness:** X/10, **Main problem patterns**, **What works well**
-
-TEXT TO REVIEW:
-PROMPT
-)"
+For each issue, assign severity:
+- A: must fix
+- B: recommended
+- C: cosmetic (ignore)
 ```
 
 ## Typical Issues by Language
@@ -378,14 +338,6 @@ PROMPT
 | **Register** | Too formal/informal for context |
 | **False friends** | "sympathetic" ≠ "sympathique", "actually" ≠ "actuellement" |
 
-## Batch Sizing
-
-- **3-5 entries per Gemini call** works well (enough context, not too long)
-- Short entries (1-3 paragraphs): batch 4-5
-- Long entries (10+ paragraphs): batch 2-3
-- Very long entries: send individually
-- **Add `sleep 5` between batches** to avoid rate limits
-
 ## Comment Format
 
 All Gemini contributions use the `GEM` role code:
@@ -396,9 +348,9 @@ All Gemini contributions use the `GEM` role code:
 
 ## Quality Standards
 
-- Apply severity A and B corrections directly via Edit tool
-- Severity C are cosmetic — skip them, don't create review files for them
-- When Gemini suggests something dubious, do NOT apply it — use your judgment
+- Gemini applies severity A and B corrections directly (via yolo mode)
+- Severity C are cosmetic — Gemini is instructed to skip them
+- After each pass, audit `git diff` for bad edits and revert if needed
 - **Watch for self-confirmation bias** in Pass 2 — Gemini may praise its own prior GEM fixes instead of re-evaluating them. The "disregard previous GEM corrections" instruction in the Pass 2 prompt mitigates this.
 - Focus on issues that affect meaning, grammar, and naturalness
 - The goal is text that reads as if written by a native author, not translated from French
