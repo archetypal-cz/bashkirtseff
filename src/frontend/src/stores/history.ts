@@ -77,6 +77,14 @@ export const useHistoryStore = defineStore('history', () => {
     save();
   }
 
+  function removeItem(item: HistoryItem) {
+    items.value = items.value.filter(i => {
+      if (item.type === 'paragraph') return !(i.type === 'paragraph' && i.paragraphId === item.paragraphId);
+      return !(i.type === 'glossary' && i.glossaryId === item.glossaryId);
+    });
+    save();
+  }
+
   function clear() {
     items.value = [];
     save();
@@ -92,6 +100,7 @@ export const useHistoryStore = defineStore('history', () => {
     init,
     addParagraph,
     addGlossary,
+    removeItem,
     clear,
   };
 });

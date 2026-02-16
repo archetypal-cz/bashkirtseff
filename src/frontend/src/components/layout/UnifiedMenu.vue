@@ -520,28 +520,42 @@ onUnmounted(() => {
                 </button>
                 <div v-if="expandedSections.has('history')" class="um-section-body history-body">
                   <nav class="history-list">
-                    <a
+                    <div
                       v-for="item in historyStore.items"
                       :key="item.type + '-' + (item.paragraphId || item.glossaryId)"
-                      :href="item.url"
-                      class="history-item"
-                      @click="closePanel"
+                      class="history-row"
                     >
-                      <template v-if="item.type === 'paragraph'">
-                        <span class="history-carnet">{{ item.carnet }}</span>
-                        <span class="history-date">{{ item.entryDate }}</span>
-                        <span class="history-label">{{ item.label }}</span>
-                      </template>
-                      <template v-else>
-                        <span class="history-glossary-icon">
-                          <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                          </svg>
-                        </span>
-                        <span class="history-glossary-name">{{ item.glossaryName || item.glossaryId }}</span>
-                        <span class="history-glossary-badge">{{ t('history.glossaryLabel') }}</span>
-                      </template>
-                    </a>
+                      <a
+                        :href="item.url"
+                        class="history-item"
+                        @click="closePanel"
+                      >
+                        <template v-if="item.type === 'paragraph'">
+                          <span class="history-carnet">{{ item.carnet }}</span>
+                          <span class="history-date">{{ item.entryDate }}</span>
+                          <span class="history-label">{{ item.label }}</span>
+                        </template>
+                        <template v-else>
+                          <span class="history-glossary-icon">
+                            <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                          </span>
+                          <span class="history-glossary-name">{{ item.glossaryName || item.glossaryId }}</span>
+                          <span class="history-glossary-badge">{{ t('history.glossaryLabel') }}</span>
+                        </template>
+                      </a>
+                      <button
+                        class="history-delete"
+                        @click.stop="historyStore.removeItem(item)"
+                        :aria-label="t('history.remove')"
+                      >
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                          <line x1="18" y1="6" x2="6" y2="18" />
+                          <line x1="6" y1="6" x2="18" y2="18" />
+                        </svg>
+                      </button>
+                    </div>
                   </nav>
                   <div class="history-footer">
                     <button class="history-clear" @click="historyStore.clear()">
@@ -1692,29 +1706,69 @@ onUnmounted(() => {
   padding: 4px 8px;
 }
 
+.history-row {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  transition: background-color 0.15s;
+}
+
+.history-row:hover {
+  background: var(--bg-secondary, #F5E6D3);
+}
+
+[data-theme="dark"] .history-row:hover {
+  background: #252525;
+}
+
 .history-item {
   display: flex;
   align-items: center;
   gap: 6px;
   padding: 5px 8px;
+  flex: 1;
+  min-width: 0;
   border-radius: 4px;
   text-decoration: none;
   color: var(--text-primary, #2C1810);
-  transition: background-color 0.15s;
   font-size: 13px;
-}
-
-.history-item:hover {
-  background: var(--bg-secondary, #F5E6D3);
 }
 
 [data-theme="dark"] .history-item {
   color: #e5e5e5;
 }
 
-[data-theme="dark"] .history-item:hover {
-  background: #252525;
+.history-delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-right: 4px;
+  border: none;
+  border-radius: 3px;
+  background: transparent;
+  color: var(--text-muted, #78716C);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s, background-color 0.15s, color 0.15s;
 }
+
+.history-row:hover .history-delete {
+  opacity: 1;
+}
+
+.history-delete:hover {
+  background: var(--bg-tertiary, rgba(44, 24, 16, 0.1));
+  color: var(--text-primary, #2C1810);
+}
+
+[data-theme="dark"] .history-delete:hover {
+  background: #333;
+  color: #e5e5e5;
+}
+
 
 .history-carnet {
   font-size: 11px;
