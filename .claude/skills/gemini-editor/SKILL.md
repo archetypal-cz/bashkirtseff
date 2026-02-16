@@ -10,9 +10,13 @@ You orchestrate an external AI review of translations using Google Gemini. This 
 
 Works with any target language: Czech (cz), Ukrainian (uk), English (en), French modern edition (fr).
 
+## Core Approach
+
+You work like other agents: **read files directly, call Gemini, edit files, add GEM comments.** No separate extraction scripts, no review files, no multi-step text passing.
+
 ## Why Two Passes?
 
-A/B experiments (see `content/cz/005/.gemini-experiment-comparison.md` and `content/cz/009/.gemini-experiment-comparison.md`) revealed that **text-only and with-comments reviews catch fundamentally different issues**:
+A/B experiments revealed that **text-only and with-comments reviews catch fundamentally different issues**:
 
 | Approach | Strengths | Weaknesses |
 |----------|-----------|------------|
@@ -27,9 +31,9 @@ GEM is dispatched as a one-shot operation per carnet (or batch of entries). It c
 
 When dispatched:
 1. Process all entries in the assigned carnet(s)
-2. Batch entries into groups of 3-6 for efficient Gemini calls
-3. **Pass 1**: Text-only review → save review, apply A+B fixes
-4. **Pass 2**: With-comments review (on the now-improved text) → save review, apply remaining A+B fixes
+2. Batch entries into groups of 3-5 for efficient Gemini calls
+3. **Pass 1**: Text-only review → apply A+B fixes directly
+4. **Pass 2**: With-comments review (on the now-improved text) → apply remaining A+B fixes
 5. Report results (scores, issue counts, fixes applied)
 
 ## Rate Limit Handling
@@ -54,53 +58,52 @@ When dispatched:
 
 ## Workflow
 
-### Step 1: Extract visible text
+### Step 1: Read translation files
 
-Use the extraction script to get clean text from translation files. The script works for any language:
+Read each translation file directly using the Read tool. No extraction scripts needed — you can see the full content.
 
-```bash
-bash src/scripts/extract_czech_text.sh content/{LANG}/{CARNET}/{FILE}.md
-```
+For batching, read 3-5 files and concatenate their content mentally. Prepare two versions:
 
-This strips YAML frontmatter, `%% ... %%` comments, and footnote definitions, leaving only visible translation text.
+- **Text-only version**: Strip `%% ... %%` comment lines and YAML frontmatter mentally, keeping only the visible translation text. Build this as a string in a bash variable.
+- **Full version**: Everything except YAML frontmatter. Build similarly.
 
-For batching multiple entries into one Gemini call:
+To build the text-only batch for Gemini:
 
 ```bash
 BATCH_TEXT=""
 for f in content/{LANG}/{CARNET}/{FILE1}.md content/{LANG}/{CARNET}/{FILE2}.md ...; do
     BATCH_TEXT+="=== $(basename $f) ==="$'\n'
-    BATCH_TEXT+="$(bash src/scripts/extract_czech_text.sh "$f")"$'\n'$'\n'
+    BATCH_TEXT+="$(sed -n '/^---$/,/^---$/!p' "$f" | grep -v '^%%' | grep -v '^\[^' | sed '/^$/d')"$'\n'$'\n'
+done
+```
+
+To build the full batch (with comments, without frontmatter):
+
+```bash
+BATCH_FULL=""
+for f in content/{LANG}/{CARNET}/{FILE1}.md content/{LANG}/{CARNET}/{FILE2}.md ...; do
+    BATCH_FULL+="=== $(basename $f) ==="$'\n'
+    BATCH_FULL+="$(sed '1,/^---$/{ /^---$/!d; d; }' "$f")"$'\n'$'\n'
 done
 ```
 
 ### Step 2: Pass 1 — Text-Only Review
 
-Send **only the visible translation text** (no comments, no French original). This forces Gemini to evaluate the target language purely on its own merits.
-
-**Key: always use `gemini -p`** (non-interactive/headless mode). Input is piped via stdin, prompt via `-p`.
-
-Use the text-only prompt for the target language (see Prompts section below).
+Send **only the visible translation text** to Gemini. This forces it to evaluate purely on target-language merits.
 
 ```bash
 RESULT=$(echo "$BATCH_TEXT" | gemini -p "$TEXT_ONLY_PROMPT")
 ```
 
-**Check for rate limit errors** in `$RESULT` before proceeding. If the output contains `429`, `RESOURCE_EXHAUSTED`, `quota exceeded`, or is empty/truncated, stop and report.
+**Check for rate limit errors** in `$RESULT` before proceeding.
 
-Save the review:
-```
-content/{LANG}/{CARNET}/.gemini-review-{date-range}-pass1.md
-```
+### Step 3: Apply Pass 1 Fixes Directly
 
-### Step 3: Apply Pass 1 Fixes
+Read the Gemini response. For each severity A or B issue:
 
-Apply all severity A and B fixes from Pass 1:
-
-1. Read the review and identify severity A and B issues
-2. Read the affected translation file
-3. Use Edit to fix only the visible translation text (not comments)
-4. Add a GEM comment for each fix:
+1. **Read** the affected translation file (if not already in context)
+2. **Edit** the visible translation text directly using the Edit tool
+3. **Add a GEM comment** in the same paragraph block:
 
 ```markdown
 %% 2026-02-15T15:00:00 GEM: "original" → "fix" — reason %%
@@ -111,45 +114,27 @@ For severity B, add the marker:
 %% 2026-02-15T15:00:00 GEM: "original" → "fix" — reason (sev B) %%
 ```
 
+Place GEM comments after the translated text within the paragraph block, just like RED comments.
+
+**Severity C**: Note mentally but do NOT apply or write review files. These are cosmetic and not worth the overhead.
+
 ### Step 4: Pass 2 — With-Comments Review
 
-Now send the **full file content** (with all `%% ... %%` comments, French originals, TR/LAN/RSR notes) but strip YAML frontmatter. This lets Gemini catch semantic errors that require seeing the French source.
+Send the **full file content** (with all `%% ... %%` comments but without YAML frontmatter) to Gemini. This lets it catch semantic errors by comparing with the French source.
 
 ```bash
-# Strip YAML frontmatter only, keep all comments
-FULL_TEXT=$(sed '1,/^---$/{ /^---$/!d; d; }' content/{LANG}/{CARNET}/{FILE}.md)
-```
-
-Use the with-comments prompt for the target language (see Prompts section below).
-
-```bash
-RESULT=$(echo "$FULL_TEXT" | gemini -p "$WITH_COMMENTS_PROMPT")
+RESULT=$(echo "$BATCH_FULL" | gemini -p "$WITH_COMMENTS_PROMPT")
 ```
 
 **Again check for rate limit errors** before proceeding.
 
-Save the review:
-```
-content/{LANG}/{CARNET}/.gemini-review-{date-range}-pass2.md
-```
+### Step 5: Apply Pass 2 Fixes Directly
 
-### Step 5: Apply Pass 2 Fixes
-
-Apply severity A and B fixes from Pass 2 that weren't already caught in Pass 1.
+Apply severity A and B fixes from Pass 2 using Edit tool, same as Pass 1.
 
 **Be careful not to duplicate fixes** — Pass 2 may flag issues already fixed in Pass 1. Check before applying.
 
-### Step 6: Preserve file structure
-
-When editing translation files:
-
-- **PRESERVE** all `%% ... %%` comments (paragraph IDs, tags, RSR/LAN/TR/RED notes)
-- **PRESERVE** all glossary links `[#Name](path)`
-- **PRESERVE** the French original in comments
-- **ONLY EDIT** the visible translation text
-- **ADD** GEM comments for each change made
-
-## Step 7: Propagate Universal Findings to Original
+### Step 6: Propagate Universal Findings to Original
 
 After applying fixes, review all findings for **universal insights** that would benefit translators working in other languages. These are NOT language-specific style fixes — they are discoveries about the French source text itself.
 
@@ -164,13 +149,21 @@ After applying fixes, review all findings for **universal insights** that would 
 - Target-language vocabulary choices
 - Register/tone adjustments specific to one language
 
-**Format:** Add an RSR comment to the original file with the finding, citing the source:
+**Format:** Add an RSR comment to the original file with the finding:
 
 ```markdown
 %% 2026-02-15T15:45:00 RSR: "des mineurs" — AMBIGUOUS: could mean mine-owners (Poltava mining context) or legal minors (per Kernberger 2013). We keep mine-owners. Translators should note the ambiguity. %%
 ```
 
-This ensures all translation teams benefit from insights discovered during any single language's review.
+## File Editing Rules
+
+When editing translation files:
+
+- **PRESERVE** all `%% ... %%` comments (paragraph IDs, tags, RSR/LAN/TR/RED notes)
+- **PRESERVE** all glossary links `[#Name](path)`
+- **PRESERVE** the French original in comments
+- **ONLY EDIT** the visible translation text
+- **ADD** GEM comments for each change made
 
 ## Prompts
 
@@ -401,23 +394,11 @@ All Gemini contributions use the `GEM` role code:
 %% YYYY-MM-DDThh:mm:ss GEM: "original" → "fix" — reason %%
 ```
 
-## Review File Naming
-
-```
-.gemini-review-{date-range}-pass1.md    # Text-only review
-.gemini-review-{date-range}-pass2.md    # With-comments review
-```
-
-For single-pass reviews (backward compat):
-```
-.gemini-review-{date-range}.md
-```
-
 ## Quality Standards
 
-- Apply severity A and B corrections automatically
-- Severity C are suggestions saved in the review file only
-- When Gemini suggests something dubious, do NOT apply it — save it in the review file only
+- Apply severity A and B corrections directly via Edit tool
+- Severity C are cosmetic — skip them, don't create review files for them
+- When Gemini suggests something dubious, do NOT apply it — use your judgment
 - **Watch for self-confirmation bias** in Pass 2 — Gemini may praise its own prior GEM fixes instead of re-evaluating them. The "disregard previous GEM corrections" instruction in the Pass 2 prompt mitigates this.
 - Focus on issues that affect meaning, grammar, and naturalness
 - The goal is text that reads as if written by a native author, not translated from French
