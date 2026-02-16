@@ -61,7 +61,8 @@ Keeping documentation accurate is a valuable contribution. When you fix somethin
 ├── /docs/                 # Documentation
 │   └── /prompts/          # Style guides
 └── /.claude/              # Claude Code configuration
-    └── /skills/           # Role definitions
+    ├── /skills/           # Role definitions
+    └── /reports/          # Team run reports (committed)
 ```
 
 ## Navigation Structure
@@ -91,6 +92,9 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **project-status**       | `/project-status`       | Track progress, report status                  |
 | **workflow-architect**   | `/architect`            | Maintain the agent system                      |
 | **frontend-dev**        | `/frontend-dev`         | AstroJS PWA development, UI features           |
+| **listmonk-copywriter** | `/listmonk-copywriter`  | Email copywriting, campaign content            |
+| **listmonk-admin**       | `/listmonk-admin`       | Newsletter infrastructure, lists, subscribers  |
+| **teamcouch**            | `/teamcouch`            | Post-session retrospective, skill evolution    |
 
 ## Core Workflow
 
@@ -226,6 +230,8 @@ just deploy-logs        # View logs
 - **Role Details**: `/.claude/skills/*/SKILL.md`
 - **Glossary Skill**: `/.claude/skills/glossary/SKILL.md`
 - **Glossary Entries**: `/content/_original/_glossary/`
+- **Run Reports**: `/.claude/reports/` - Team run reports and WATCHLIST
+- **Teamcouch**: `/.claude/skills/teamcouch/SKILL.md` - Post-session retrospective
 
 ## Progress Tracking
 

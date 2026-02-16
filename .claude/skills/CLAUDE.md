@@ -35,8 +35,12 @@ skills/
 │   └── SKILL.md                   # External Gemini review (future)
 ├── stewardship/
 │   └── SKILL.md                   # Social content generation
-└── frontend-dev/
-    └── SKILL.md                   # Frontend development (AstroJS PWA)
+├── frontend-dev/
+│   └── SKILL.md                   # Frontend development (AstroJS PWA)
+├── listmonk-copywriter/
+│   └── SKILL.md                   # Email copywriting & campaign content
+└── listmonk-admin/
+    └── SKILL.md                   # Listmonk API administration
 ```
 
 ## Pipelines
@@ -77,6 +81,8 @@ Get every original French entry properly researched, annotated, and footnoted be
 | Workflow Architect | Maintain the agent system itself |
 | Stewardship | Generate social media content |
 | Frontend Dev | AstroJS PWA development, UI features, components |
+| Listmonk Copywriter | Email copywriting, campaign drafting & review |
+| Listmonk Admin | Newsletter infrastructure, lists, subscribers, templates |
 
 ## Invoking Skills
 
