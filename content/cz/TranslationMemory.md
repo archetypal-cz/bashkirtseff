@@ -252,6 +252,74 @@ When translating, refer to this document for established translations of recurri
 - Context: Marie Wilt (1833-1891), Austrian soprano — Czech feminine suffix
 - First appearance: 007 (1873-08-09)
 
+## Carnet 016 Terms
+
+### bataclan
+- Translation (Czech): bataklán
+- Context: Marie's signature term for a fashionable social set/entourage; slightly dismissive
+- First appearance: 016 (1874-01-28)
+- Notes: Keep with Czech ending -án; Marie uses it frequently from carnet 016 onwards
+
+### le Bec amoureux / le Bec
+- Translation (Czech): Zamilovaná Huba / Huba
+- Context: Marie's cruel nickname for the Labanoff girl (wide mouth); quasi-proper name
+- First appearance: 016 (1874-01-27)
+- Notes: Capitalized as a nickname; feminine in Czech
+
+### comme j'aime
+- Translation (Czech): jak si přeji / jak to mám ráda
+- Context: Marie's characteristic phrase for her desired lifestyle/standards
+- First appearance: 016 (1874-01-28)
+- Notes: "jak si přeji" for general aspirations, "jak to mám ráda" for specific preferences
+
+### cocotte (016 context)
+- Translation (Czech): kurtizána
+- Context: Courtesan/kept woman — Marie uses it discussing Wittgenstein's mistress
+- First appearance: 016 (1874-01-30)
+- Notes: "kurtizána" in society context; "kokota" already established for 007
+
+### point d'appui
+- Translation (Czech): opěrný bod
+- Context: Anchor point — Hamilton as foundation for Marie's future plans
+- First appearance: 016 (1874-01-29)
+
+### conspirateur
+- Translation (Czech): konspirační plášť
+- Context: Hooded cloak covering face; fashionable outerwear
+- First appearance: 016 (1874-02-03)
+
+### domino
+- Translation (Czech): domino
+- Context: Hooded cloak worn at masked balls for anonymity
+- First appearance: 016 (1874-02-12)
+
+### parure
+- Translation (Czech): parura
+- Context: Set of matching jewelry (necklace, earrings, bracelet)
+- First appearance: 016 (1874-02-12)
+
+### garçons d'honneur
+- Translation (Czech): družbové
+- Context: Groomsmen at Russian Orthodox wedding; hold crowns
+- First appearance: 016 (1874-02-11)
+
+### toilette(s)
+- Translation (Czech): toaleta / róba / šaty
+- Context: 1870s meaning: outfit/dress ensemble, NOT bathroom
+- First appearance: Various
+- Notes: Context-dependent; "róba" for formal/evening, "šaty" for everyday
+
+### L'homme propose, Dieu dispose
+- Translation (Czech): Člověk míní, Pánbůh mění
+- Context: Established Czech equivalent of the French proverb
+- First appearance: 016 (1874-02-01)
+
+### En travers
+- Translation (Czech): [Na příč stránky:]
+- Context: Written across the page — later marginal annotation
+- First appearance: 016 (1874-02-12)
+
 %% 2025-03-23T02:20:05 PA: Initial translation memory created %%
 %% 2026-02-13T14:00:00 TR: Added terms from Carnet 006 translation %%
 %% 2026-02-13T18:00:00 TR: Added terms from Carnet 007 translation %%
+%% 2026-02-16T15:00:00 TR: Added terms from Carnet 016 translation %%
