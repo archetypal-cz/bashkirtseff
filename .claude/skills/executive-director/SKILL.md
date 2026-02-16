@@ -470,31 +470,39 @@ Pipeline throughput: ~1.4 entries/minute across 3 translators.
 
 **Session 2 improvements**: Dropping RSR/LAN (5 agents instead of 7), adding Agent Teams Protocol to skills (idle behavior, terminology sharing, direct editing), and giving RED/CON Edit access raised quality from 0.90-0.93 to 0.93-0.95.
 
-### Translation Pipeline Report
+### Run Report (MANDATORY at team shutdown)
 
-After each wave or session, generate a progress report:
+**Before deleting the team**, write a run report to `.claude/reports/`. This is your most important deliverable besides the translations themselves — it captures what happened so the workflow can improve.
 
-```markdown
-## Translation Pipeline — Progress Report
+**You have context no hook can capture**: which agents got stuck, which went off-rails, what idle patterns you observed, what issues the GEM audits caught. Write it all down.
 
-**Date**: {timestamp}
-**Carnets processed**: {list}
-**Total entries translated**: {N}
+**Filename**: `.claude/reports/YYYY-MM-DD-{lang}-{carnet_range}.md`
 
-### Per-Carnet Results
-| Carnet | Entries | Translator | RED Score | CON Verdict |
-|--------|---------|------------|-----------|-------------|
-| {N} | {M} | {agent} | {score} | {verdict} |
+**Format**: See `.claude/reports/README.md` for the full spec. Key sections:
 
-### Quality Summary
-- Average RED score: {N}
-- Issues found: {critical} CRITICAL, {high} HIGH, {medium} MEDIUM
-- All issues resolved: {yes/no}
+1. **Frontmatter** — date, operator (from WORKER_CONFIG.yaml), duration, language, carnets, pipeline stages, skill version hashes
+2. **Configuration** — skills used, models, team structure
+3. **Results** — per-carnet table (entries, agent name, duration, fixes, issues)
+4. **Agent Lifecycle** — how each agent behaved:
+   - Normal completion? Clean shutdown?
+   - Got stuck? Context exhausted? Interrupted?
+   - Went off-rails? Required intervention?
+   - Shutdown acknowledgment delays?
+5. **Issues Encountered** — reference categories from `.claude/reports/WATCHLIST.md`
+6. **Observations** — quality trends, patterns, surprises
+7. **Proposed Changes** — specific skill improvements suggested by this run
 
-### Observations
-- [Patterns, translator strengths, areas for improvement]
-
-### Next Wave
-- Carnets ready: {list with entry counts}
-- Estimated time: {based on throughput}
+**Get skill hashes** for the report frontmatter:
+```bash
+git log --format="%h" -1 -- .claude/skills/translator/SKILL.md
+git log --format="%h" -1 -- .claude/skills/gemini-editor/SKILL.md
+# etc. for each skill used
 ```
+
+**Get operator** from `.claude/WORKER_CONFIG.yaml` (`github_user` field).
+
+**Set status to `final`** (not `draft` — you have full context, no need for manual filling).
+
+**Commit the report** along with any remaining translation files.
+
+After writing the report, the human can run `/teamcouch` to analyze patterns across reports and facilitate skill evolution.

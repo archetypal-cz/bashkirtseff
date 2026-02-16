@@ -14,6 +14,7 @@ import { execSync } from 'child_process';
 import { loadWorkerConfig, getProjectRoot, getTimestamp } from './lib/config.js';
 import { addChangelogEntry, getReadmePath } from './lib/readme-parser.js';
 import { syncAllTodos } from './lib/todo-sync.js';
+import { generateReportStub } from './lib/report.js';
 import type { HookInput, HookOutput } from './lib/types.js';
 
 async function main(): Promise<void> {
@@ -64,6 +65,19 @@ async function main(): Promise<void> {
     }
   } else {
     console.error('No changes to commit.');
+  }
+
+  // Generate run report if there was team/translation work
+  try {
+    const reportFile = await generateReportStub();
+    if (reportFile) {
+      console.error('');
+      console.error(`Draft run report generated: .claude/reports/${reportFile}`);
+      console.error('Fill in agent lifecycle, issues, and observations, then change status to "final".');
+      (output.actions as string[]).push(`report: ${reportFile}`);
+    }
+  } catch (err) {
+    console.error(`Report generation failed: ${err}`);
   }
 
   console.error('═══════════════════════════════════════════════════════════════');

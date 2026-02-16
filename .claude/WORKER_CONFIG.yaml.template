@@ -38,3 +38,10 @@ notify:
   on_upstream_change: true
   # Alert when someone else touches your assigned carnets
   on_conflict: true
+
+# Session tracking (managed automatically by hooks — do not edit manually)
+session:
+  # Set by pre-session hook when Claude Code starts
+  started_at: null
+  # Skills invoked during this session (appended by hooks)
+  skills_used: []

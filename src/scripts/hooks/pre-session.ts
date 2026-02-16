@@ -9,6 +9,9 @@
  * - Any upstream changes or conflicts
  */
 
+import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { join } from 'path';
+import { parse as parseYaml, stringify as stringifyYaml } from 'yaml';
 import { loadWorkerConfig, getProjectRoot } from './lib/config.js';
 import { calculateCarnetProgress, findNextWork, formatProgressSummary } from './lib/progress.js';
 import type { HookOutput } from './lib/types.js';
@@ -76,6 +79,24 @@ async function main(): Promise<void> {
           console.error(`${langName} translations: ${nextWork.count} entries need ${nextWork.phase} in carnet ${nextWork.carnet}`);
         }
       }
+    }
+  }
+
+  // Record session start time in WORKER_CONFIG.yaml
+  const root = getProjectRoot();
+  const configPath = join(root, '.claude', 'WORKER_CONFIG.yaml');
+  if (existsSync(configPath)) {
+    try {
+      const content = readFileSync(configPath, 'utf-8');
+      const yaml = parseYaml(content) || {};
+      yaml.session = {
+        started_at: new Date().toISOString(),
+        skills_used: [],
+      };
+      writeFileSync(configPath, stringifyYaml(yaml), 'utf-8');
+      console.error('Session start time recorded.');
+    } catch (err) {
+      console.error(`Could not update session tracking: ${err}`);
     }
   }
 

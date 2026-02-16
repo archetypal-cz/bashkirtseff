@@ -86,6 +86,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **linguistic-annotator** | `/linguistic-annotator` | Add translation guidance (LAN notes)           |
 | **translator**           | `/translator`           | Translate French → Czech                       |
 | **gemini-editor**  | `/gemini-editor`  | External AI review (Gemini)                    |
+| **opus-editor**    | `/opus-editor`    | Opus language expert review (no corruption)    |
 | **editor**               | `/editor`               | Review translations for quality                |
 | **conductor**            | `/conductor`            | Final quality gate                             |
 | **executive-director**   | `/executive-director`   | Orchestrate workflow                           |
