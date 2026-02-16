@@ -10,49 +10,30 @@ You are a senior translation editor ensuring translations meet the highest liter
 
 ## Agent Teams Protocol
 
+### One Carnet = One Agent Lifecycle
+
+**CRITICAL**: Each editor agent handles exactly ONE carnet, then exits. This prevents context compaction failures — reviewing a carnet reads both French originals and translations (~2x context per entry), which fills the window fast.
+
 When working as a **teammate** in a translation team:
 
-1. **On startup**: Read team config, claim your task with TaskUpdate, read this skill file
-2. **Real-time review**: Begin reviewing entries as soon as ANY translator produces output — **do not wait for full carnet completion**
-3. **Direct editing**: You have Edit access. Fix minor issues (typos, obvious galicisms, punctuation) directly. Message the translator for meaning changes or voice issues.
-4. **Per-carnet tracking**: Review each carnet independently. When a carnet is fully reviewed, message both team lead and conductor.
-5. **Frontmatter updates**: Set `editor_approved: true` on each reviewed entry
-6. **Add RED comments**: Write timestamped `%% RED: ... %%` comments directly to files for significant findings
-7. **Quality scoring**: Rate each entry, track carnet-level averages, report scores when notifying team lead
+1. **On startup**: Claim your assigned RED task with TaskUpdate (set owner, status `in_progress`)
+2. **Review all entries** in the assigned carnet
+3. **Direct editing**: Fix minor issues (typos, obvious gallicisms, punctuation, misplaced GEM comments) directly. Add RED comments for significant findings.
+4. **Set `editor_approved: true`** in frontmatter of each reviewed entry
+5. **Mark task complete**: TaskUpdate with status `completed`
+6. **Send summary** to team lead: quality score, issue counts (CRITICAL/HIGH/MEDIUM/LOW), whether any entries need revision
+7. **Stop.** Do NOT check TaskList for more work. The lead will spawn a fresh agent for the next carnet.
 
-### Idle Behavior
+### Known Issues to Watch For
 
-**CRITICAL: Do NOT send repeated status checks to translators or team lead.**
+- **Inline GEM comments**: GEM review often places `%% GEM: ... %%` comments mid-paragraph, breaking readable text. Reconnect the split text and move GEM comments to their own lines after the paragraph text.
+- **Cyrillic contamination**: Translators occasionally leak Russian characters into Czech text. Search for Cyrillic chars and fix.
+- **GEM overcorrections**: GEM sometimes "fixes" correct translations. Verify GEM changes against the French original before accepting.
 
-If you are waiting for translations to review:
-- Study the French originals for upcoming carnets deeply — you'll review faster with prior familiarity
-- Read and internalize established quality patterns from previous reviews
-- Review your own previous RED comments to calibrate consistency
-- Only message translators if you have **specific feedback on completed work**
+### Communication
 
-### Working with Translators
-
-- Fix minor issues silently (typos, missing highlights, obvious fixes)
-- Message translator for: meaning errors, voice problems, repeated patterns they should change going forward
-- If you see a **systemic pattern** across 3+ entries, message team lead — it may warrant a prompt adjustment
-- Track which entries you've reviewed to avoid double-reviewing
-
-### Context Management
-
-**IMPORTANT**: Reading both French originals and English translations consumes ~2x context per entry. For runs spanning multiple carnets:
-- Work **one carnet at a time** — complete it, report, then move to the next
-- Do NOT try to hold all entries from multiple carnets in memory simultaneously
-- The team lead creates per-carnet tasks specifically to help you manage context boundaries
-
-### Notify Protocol
-
-**MANDATORY**: When a carnet is fully reviewed, you **MUST** message the team lead **BEFORE** starting the next carnet. This is not optional.
-
-Send a message to team lead including:
-- Carnet number and entry count reviewed
-- Overall quality score (average across entries)
-- Count of issues by severity (CRITICAL/HIGH/MEDIUM/LOW)
-- Whether any entries need translator revision before CON review
+- If you find a systemic pattern (same error across 3+ entries), mention it in your summary to the lead
+- If an entry needs translator revision (CRITICAL issue), flag it explicitly in your summary
 
 ## Review Philosophy
 

@@ -352,14 +352,25 @@ For each carnet {X} with {N} entries:
 
 When a translator finishes, assign them the next carnet immediately — create a new task and message them.
 
-### Translator Lifecycle
+### Agent Lifecycle: Fresh Context Per Carnet
 
-**Do NOT shut down translators when they finish their last carnet.** Keep them idle — they can be woken up with a message if:
-- RED sends back entries for revision
-- CON rejects entries that need rework
-- Additional carnets are added to the run
+**CRITICAL**: Spawn a NEW agent for each carnet. Do NOT reuse agents across carnets.
 
-Only send shutdown requests at the **very end** of the session when all reviews are complete and no revisions are needed.
+Translating a full carnet (25-36 entries) consumes most of the context window. Agents that attempt a second carnet hit context compaction, which frequently fails and leaves them stuck in an unrecoverable state.
+
+**Pattern:**
+1. Spawn translator agent for carnet X → it translates, marks task complete, reports, stops
+2. Spawn a NEW translator agent for carnet Y → fresh context, works reliably
+3. Repeat
+
+**Same applies to GEM and RED agents** — one carnet per agent lifecycle.
+
+**If an agent dies mid-carnet:**
+1. Check how many entries were completed (`ls content/{lang}/{carnet}/`)
+2. Identify remaining entries
+3. Spawn a replacement with explicit list of remaining entries and "DO NOT redo existing files"
+
+**You do NOT need to send shutdown requests** — agents stop themselves after completing their carnet. If an agent is stuck (repeated idle notifications, no progress), just `kill` the process.
 
 ### Workload Balancing
 
@@ -372,26 +383,28 @@ Only send shutdown requests at the **very end** of the session when all reviews 
 
 ### Spawn Prompt Guidance
 
-**Include directly in each translator's spawn prompt** (reduces ramp-up time):
+**Each agent gets ONE carnet.** Include in every spawn prompt:
 - Their name and team membership
-- Specific carnet(s) to translate with entry counts
-- Key terminology summary from TranslationMemory.md (top 15-20 terms)
-- Explicit idle behavior: "If blocked or complete, study upcoming originals. Do NOT send repeated status messages."
-- "After completing a carnet, update TranslationMemory.md with new terms, then check TaskList."
-- "If RED messages you about an issue, fix it promptly."
+- The SINGLE carnet to process with entry count
+- "When done, mark the task complete, send a summary to team lead, then STOP."
+- "Do NOT check TaskList for more work. Do NOT stay idle."
 
-**Include in RED spawn prompt:**
-- "Review entries as they appear — don't wait for full carnet completion"
-- "Fix minor issues directly (you have Edit access). Message translator for major issues."
-- "When a full carnet is reviewed, message team lead AND conductor with quality score."
-- "Do NOT send repeated status checks to translators."
+**Translator-specific:**
+- Key terminology from TranslationMemory.md (top 15-20 terms)
+- If resuming a partially-done carnet: explicit list of remaining entries + "DO NOT redo existing files"
 
-**Include in CON spawn prompt:**
-- "While blocked, read French originals AND early translations deeply."
+**RED-specific:**
+- "Fix inline GEM comment placements (move to own lines, reconnect split text)"
+- "Check for Cyrillic character contamination"
+- "Set editor_approved: true on each reviewed entry"
+
+**GEM-specific:**
+- "Commit before each Gemini pass. Use `gemini -y` (yolo mode). Audit via git diff after each pass."
+- "See /gemini-editor skill for full workflow"
+
+**CON-specific:**
 - "Three-pass review: target-language-only, comparative, 'Would Marie approve?'"
-- "Quality bar: Czech 000-004 (0.90-0.93), 005-008 (0.93-0.95); English 000-002 (0.90-0.93)"
-- "After approving each carnet, you MUST message team lead with quality scores BEFORE moving to the next."
-- "Do NOT send 'are translations ready?' messages."
+- "Quality bar: Czech 000-004 (0.90-0.93), 005-008 (0.93-0.95)"
 
 ### GEM Integration
 

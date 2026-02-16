@@ -83,9 +83,10 @@ IMPORTANT INSTRUCTIONS FOR FILE EDITING:
 - After each fix, add a GEM comment line in the same paragraph block:
   %% {TIMESTAMP} GEM: "original text" → "fixed text" — reason %%
   For severity B fixes, append (sev B) to the comment.
+- CRITICAL: GEM comments MUST go on their OWN LINE after the translated text, NEVER inline within the text. Wrong: `Czech text %% GEM: fix %% more text`. Right: text on one line, then `%% GEM: ... %%` on the next line.
 - Place GEM comments after the translated text within the paragraph block, before the next %% paragraph ID
 - Do NOT modify existing %% comment lines, glossary links [#...](path), or YAML frontmatter
-- Skip severity C issues entirely — do not write them anywhere
+- For severity C issues (cosmetic/stylistic), add a GEM comment noting the suggestion but do NOT edit the text. Format: `%% {TIMESTAMP} GEM: NOTE: "text" — could also be expressed as "alternative" (sev C) %%`
 - Process ALL .md files in the directory
 - Start by listing the files, then process them one by one
 
@@ -349,8 +350,20 @@ All Gemini contributions use the `GEM` role code:
 ## Quality Standards
 
 - Gemini applies severity A and B corrections directly (via yolo mode)
-- Severity C are cosmetic — Gemini is instructed to skip them
+- Severity C are cosmetic — Gemini records them as NOTE comments (no text edits) so alternatives are visible to downstream reviewers
 - After each pass, audit `git diff` for bad edits and revert if needed
 - **Watch for self-confirmation bias** in Pass 2 — Gemini may praise its own prior GEM fixes instead of re-evaluating them. The "disregard previous GEM corrections" instruction in the Pass 2 prompt mitigates this.
 - Focus on issues that affect meaning, grammar, and naturalness
 - The goal is text that reads as if written by a native author, not translated from French
+
+## Known Issues
+
+### Inline GEM Comment Placement
+
+Despite explicit instructions, Gemini frequently places `%% GEM: ... %%` comments mid-paragraph, splitting readable text. This happens in ~50% of files across both the old pipe approach and yolo mode. The RED review phase currently cleans these up.
+
+**Mitigation**: The prompt templates include a "CRITICAL" instruction about own-line placement. If this remains insufficient, consider a post-processing script to move inline GEM comments to their own lines.
+
+### Agent Lifecycle
+
+GEM review agents should handle ONE carnet per lifecycle, same as translators and editors. The two Gemini passes plus git operations for a full carnet consume significant context.
