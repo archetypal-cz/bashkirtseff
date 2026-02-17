@@ -33,17 +33,19 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 
 ### OPS vs GEM
 
-- [ ] **OPS zero-corruption track record** — 2 runs (143 entries: EN 008-010 65 entries + UK 006-008 78 entries), 0 corruption, 0 false positives. Strong signal, needs 1 more run to reach 3-report threshold for formal GEM deprecation. Reports: 2026-02-16-en-008-009-010.md, 2026-02-16-uk-006-008.md.
-- [ ] **OPS same-model blind spots** — theoretical concern: Opus reviewing Opus translations may share systematic blind spots. No evidence of this yet across 2 runs, but monitor for errors that GEM would catch but OPS doesn't.
+- [ ] **OPS same-model blind spots** — theoretical concern: Opus reviewing Opus translations may share systematic blind spots. No evidence across 3 runs (204 entries), but keep monitoring. Reports: 2026-02-16-en-008-009-010.md, 2026-02-16-uk-006-008.md, 2026-02-17-uk-009-011.md.
 
 ### Ukrainian-Specific
 
-- [ ] **Russianisms checklist effectiveness** — 1 run (78 entries, 0 russianisms found). Explicit checklist in spawn prompt was highly effective. If confirmed across 2+ more runs, bake into translator skill file. Report: 2026-02-16-uk-006-008.md.
-- [ ] **3-pass OPS review value** — UK run used 3 OPS passes (naturalness, semantic, deep subagent) vs EN run's 2 passes. UK had 33 fixes vs EN's 7, but most were typos/grammar (first-language effect). Third pass caught additional issues in 006 and 007. Monitor whether 3 passes continues to add value. Report: 2026-02-16-uk-006-008.md.
+- [ ] **Russianisms checklist effectiveness** — 2 runs (139 entries). Explicit checklist catches overt russianisms (0 found). Wave 2 revealed a new sub-category: subtle calques ("абсолютно"→"цілком", "факт у тому"→"річ у тім") — technically Ukrainian words used in Russian-influenced patterns. OPS 3-pass caught these. 1 more run needed before baking into translator skill. Reports: 2026-02-16-uk-006-008.md, 2026-02-17-uk-009-011.md.
+- [ ] **Subtle russianisms (calques)** — words that are technically Ukrainian but used in Russian-influenced patterns. Different from explicit checklist items. Caught by OPS deep review, not by translator self-check. 1 run only (2 instances in carnet 011). Report: 2026-02-17-uk-009-011.md.
+- [ ] **3-pass OPS review value** — 2 UK runs. Wave 1: 33 fixes (0.42/entry), Wave 2: 17 fixes (0.28/entry). Third pass caught subtle russianisms in wave 2. Fix rate declining = translators improving. Reports: 2026-02-16-uk-006-008.md, 2026-02-17-uk-009-011.md.
 - [ ] **Dialogue formatting inconsistency** — some UK entries use `---` (3 hyphens) vs `—` (em dash) for dialogue. Should standardize across carnets. 1 report only. Report: 2026-02-16-uk-006-008.md.
+- [ ] **OPS fix rate trend** — declining across UK waves: 0.42/entry → 0.28/entry (-33%). Quality stable/improving (0.94→0.947). Positive signal — translators producing better first drafts. 2 runs, monitor for continued trend. Reports: 2026-02-16-uk-006-008.md, 2026-02-17-uk-009-011.md.
 
 ## Resolved Issues
 
+- [x] **OPS zero-corruption track record** — 3 runs (204 entries: EN 008-010 65 + UK 006-008 78 + UK 009-011 61), 0 corruption, 0 false positives across all. OPS is the preferred reviewer over GEM. GEM remains available for cross-model validation when desired. Resolved 2026-02-17.
 - [x] **Agents being too chatty** — fixed by adding Agent Teams Protocol to all skills (idle behavior, when to message, when not to). Resolved 2026-02-12.
 - [x] **Unnecessary RSR/LAN agents** — source preparation is complete for all 106 carnets. Stopped spawning RSR/LAN in translation pipeline. Resolved 2026-02-12.
 - [x] **Per-carnet agent lifecycle** — adopted "one carnet = one agent" pattern to prevent context exhaustion. Works reliably. Resolved 2026-02-12.
