@@ -92,6 +92,45 @@ translation_complete: false
 - Family names: consider Ukrainian forms where appropriate
 - Maintain 19th century literary register
 
+## Russianisms Checklist
+
+<!-- Teamcouch update 2026-02-17: Baked from spawn prompt into language CLAUDE.md
+     Evidence: reports 2026-02-16-uk-006-008, 2026-02-17-uk-009-011, 2026-02-17-uk-012-014
+     Pattern: 3 waves, 199 entries, 0 overt russianisms with explicit checklist -->
+
+These Russian-influenced forms slip into Ukrainian translations. Use the Ukrainian equivalent instead:
+
+| Avoid (Russian-influenced) | Use (Ukrainian) | Notes |
+|---------------------------|-----------------|-------|
+| потому що | тому що | conjunction |
+| вообще | взагалі, загалом | adverb |
+| хотя | хоча | conjunction |
+| тоже | також, теж | adverb |
+| конечно | звичайно, звісно | adverb |
+| кажется | здається | verb |
+| пока | поки | conjunction |
+| если | якщо | conjunction |
+| здесь | тут | adverb |
+| сейчас | зараз | adverb |
+| абсолютно | цілком, зовсім | calque — technically Ukrainian but Russian-influenced usage |
+| факт у тому | річ у тім | calque — Russian pattern |
+| Russian-style participles (-ущий, -ющий) | relative clauses (який/яка/яке + verb) | syntax |
+| -ой genitive endings on surnames | -ої | morphology (e.g., Ростузовой → Ростузової) |
+
+**Additional Ukrainian traps:**
+- Aspect confusion between perfective/imperfective
+- Russian-influenced verb prefixes (з-/с- where Ukrainian uses ви-, від-, роз-)
+- Gender of borrowed words may differ from Russian usage
+
+## Subtle Russianisms (for OPS reviewers)
+
+Beyond the explicit checklist above, watch for **subtle calques** — technically Ukrainian words used in Russian-influenced patterns. These require native-level Ukrainian sensitivity:
+
+- "абсолютно" → "цілком/зовсім" (Russian usage pattern)
+- "факт у тому" → "річ у тім" (Russian construction)
+- Genitive -ой instead of Ukrainian -ої on surnames
+- Russian-style participles instead of relative clauses
+
 ## Related Documentation
 
 - `/src/_original/CLAUDE.md` - French source materials

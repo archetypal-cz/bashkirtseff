@@ -196,46 +196,7 @@ Follow LAN guidance for period-appropriate terms. Common traps:
 
 ## Language-Specific Guidance
 
-<!-- Teamcouch update 2026-02-17: Added Ukrainian russianisms checklist
-     Evidence: reports 2026-02-16-uk-006-008, 2026-02-17-uk-009-011, 2026-02-17-uk-012-014
-     Pattern: Explicit russianisms checklist in spawn prompt yielded 0 overt russianisms across 3 waves (199 entries). Baking into skill for reuse. -->
-
-### Ukrainian
-
-**Russianisms checklist** — these Russian-influenced forms slip into Ukrainian translations. Use the Ukrainian equivalent instead:
-
-| Avoid (Russian-influenced) | Use (Ukrainian) | Notes |
-|---------------------------|-----------------|-------|
-| потому що | тому що | conjunction |
-| вообще | взагалі, загалом | adverb |
-| хотя | хоча | conjunction |
-| тоже | також, теж | adverb |
-| конечно | звичайно, звісно | adverb |
-| кажется | здається | verb |
-| пока | поки | conjunction |
-| если | якщо | conjunction |
-| здесь | тут | adverb |
-| сейчас | зараз | adverb |
-| абсолютно | цілком, зовсім | calque — technically Ukrainian but Russian-influenced usage |
-| факт у тому | річ у тім | calque — Russian pattern |
-| Russian-style participles (-ущий, -ющий) | relative clauses (який/яка/яке + verb) | syntax |
-| -ой genitive endings on surnames | -ої | morphology (e.g., Ростузовой → Ростузової) |
-
-**Additional Ukrainian traps:**
-- Aspect confusion between perfective/imperfective
-- Russian-influenced verb prefixes (з-/с- where Ukrainian uses ви-, від-, роз-)
-- Gender of borrowed words may differ from Russian usage
-
-### Czech
-
-**False friends** — words existing in both Czech and French with shifted meaning:
-
-| French | Looks like Czech | Actual Czech meaning |
-|--------|-----------------|---------------------|
-| cérémonie (fuss) | ceremonie | formal ceremony — use "okolky" for fuss |
-| costume (outfit) | kostým | theatrical costume — use context-appropriate term |
-| cabinet (study) | kabinet | political cabinet — use "pracovna" for study |
-| sympathique (nice) | sympatický | partial overlap — narrower in Czech |
+Read `content/{lang}/CLAUDE.md` for language-specific translation guidance (false friends, russianisms checklists, style rules). Each target language has its own CLAUDE.md with detailed, language-specific instructions.
 
 ## Output Format
 
