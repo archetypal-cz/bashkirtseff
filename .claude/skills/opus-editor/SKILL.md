@@ -128,7 +128,20 @@ Saturday, 11 January 1873. The weather is %% OPS: fix %% magnificent...
 - Cyrillic character contamination (Russian letters in Czech text)
 
 ### Ukrainian
-- Watch for: russianisms ("потому що" → "тому що"), gallicisms, aspect confusion
+
+<!-- Teamcouch update 2026-02-17: Expanded Ukrainian guidance with calques and morphological russianisms
+     Evidence: reports 2026-02-16-uk-006-008, 2026-02-17-uk-009-011, 2026-02-17-uk-012-014
+     Pattern: OPS 3-pass review caught subtle calques (wave 2) and morphological russianisms (wave 3) that the explicit checklist missed. 3 runs, 3 distinct sub-categories. -->
+
+- Watch for overt russianisms: "потому що" → "тому що", "вообще" → "взагалі", "хотя" → "хоча", "тоже" → "також/теж", "конечно" → "звичайно", "кажется" → "здається", "пока" → "поки", "если" → "якщо", "здесь" → "тут", "сейчас" → "зараз"
+- Watch for **subtle calques** — technically Ukrainian words used in Russian-influenced patterns:
+  - "абсолютно" → "цілком/зовсім" (Russian usage pattern)
+  - "факт у тому" → "річ у тім" (Russian construction)
+  - These won't be on any checklist — they require native-level Ukrainian sensitivity in the deep linguistic pass
+- Watch for **morphological russianisms** — Russian inflectional endings on otherwise Ukrainian text:
+  - Genitive -ой instead of Ukrainian -ої on surnames (e.g., "Ростузовой" → "Ростузової")
+  - Russian-style participles (-ущий/-ющий) instead of relative clauses (який/яка + verb)
+- Watch for gallicisms, aspect confusion (perfective/imperfective)
 - Must be Ukrainian, not Russian-influenced Ukrainian
 
 ## Comment Format
