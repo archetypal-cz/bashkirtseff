@@ -572,3 +572,211 @@ When Marie writes in Italian/Russian:
 ### Sainte Vierge Marie
 - Translation: Holy Virgin Mary
 - Context: Catholic/Orthodox devotion — Marie's prayers to the Virgin
+
+## Social & Cultural Terms (from Carnet 012)
+
+### saisonniers
+- Translation: seasonal visitors
+- Context: Winter tourists in Nice -- the social season crowd
+- Notes: Italicize on first use
+
+### sainte-nitouche
+- Translation: butter-wouldn't-melt / sanctimonious hypocrite
+- Context: Woman who feigns innocence and virtue
+- Notes: Marie applies this to Hamilton's future wife type
+
+### tu t'encanailles / s'encanailler
+- Translation: degrading yourself / lowering yourself to the rabble
+- Context: Strong class judgment -- descending socially
+- Notes: Marie says this about Hamilton selling his racing stable before marriage
+
+### corsage
+- Translation: bodice
+- Context: 1870s: fitted upper part of a woman's dress
+- Notes: NOT modern "corsage" (flower arrangement)
+
+### cravache
+- Translation: riding crop
+- Context: Equestrian whip
+
+### ecurie
+- Translation: stable / racing stable
+- Context: Can mean both the building and the establishment (horses + staff)
+- Notes: Hamilton selling "son ecurie" = his racing establishment
+
+### Galignani / Galignani's Messenger
+- Translation: *Galignani* / Galignani's Messenger
+- Context: English-language newspaper published in Paris, essential reading for British expatriates
+- Notes: Italicize on first use; Marie reads it for Hamilton news
+
+### chateaux en Espagne
+- Translation: castles in Spain (= castles in the air)
+- Context: Pipe dreams, fantasies
+- Notes: Keep "castles in Spain" rather than anglicize to "castles in the air" -- preserves Marie's French idiom
+
+%% 2026-02-19T13:15:00 TR: Added terms from carnet 012 -- equestrian vocabulary, social judgments, newspaper reference %%
+%% 2026-02-19T15:40:00 TR: Added terms from carnet 011 -- medical, theatrical, animal insults, code-switching patterns %%
+
+## Social & Cultural Terms (from Carnet 011)
+
+### bourrasques
+- Translation: squalls
+- Context: Metaphor for family outbursts/scenes
+- Notes: Marie uses weather imagery for family discord throughout carnet 011
+
+### mouche (medical)
+- Translation: blister / fly blister
+- Context: 19th-century medical treatment using cantharides plasters
+- Notes: NOT "fly" -- medical term
+
+### sinapismes
+- Translation: mustard plasters
+- Context: 19th-century medical treatment
+- Notes: Applied during Maman's crisis (Oct 25)
+
+### en-tout-cas
+- Translation: *en-tout-cas* (keep French, italicized)
+- Context: Parasol that doubles as umbrella
+- Notes: Period accessory -- literal meaning "in any case"
+
+### poissarde
+- Translation: fishwife
+- Context: Vulgar, abusive woman -- strong class insult
+- Notes: Marie uses this for a woman harassing Bete on the promenade
+
+### singesse
+- Translation: she-monkey
+- Context: Insulting term for a woman (Rosalie, Wittgenstein's mistress)
+- Notes: Feminine of "singe" -- maintain animal insult register
+
+### bataclaniers
+- Translation: rabble
+- Context: Marie's invented word: people of the bataclan
+- Notes: Neologism -- preserve dismissive register
+
+### coursier
+- Translation: steed
+- Context: Literary/poetic word for horse
+- Notes: Marie uses elevated register when riding -- "mon coursier" = my steed
+
+### caracoler
+- Translation: prance / caracole
+- Context: Horse performs half-turns; equestrian term
+- Notes: Elevated equestrian vocabulary
+
+### Bete
+- Translation: Bete (keep as-is)
+- Context: Princess -- family friend and confidante in Nice
+- Notes: Nickname means "Beast/Fool" but functions as proper name; do NOT translate
+
+### faces de pendus
+- Translation: hanged men's faces
+- Context: Idiom: gloomy/miserable expressions
+- Notes: Marie uses this for her family's expressions
+
+### Rufus
+- Translation: *Rufus* (keep Latin, italicized)
+- Context: Latin for "red/red-haired" -- Marie's nickname for Hamilton
+- Notes: Classical reference -- preserve in Latin
+
+### buvard
+- Translation: blotter / blotting pad
+- Context: Where Marie hides Hamilton's photograph
+- Notes: Period desk item
+
+### au septieme ciel
+- Translation: in seventh heaven
+- Context: Extreme happiness
+- Notes: Standard English equivalent exists
+
+## People (from Carnet 011)
+
+### Hitchcock / Miss Hitchcock
+- Translation: Miss Hitchcock
+- Context: Marie's new English governess, arriving late October 1873
+- Notes: "A thin, dark, dry Englishwoman"
+
+### Elder
+- Translation: Elder
+- Context: Marie's previous English teacher, dismissed in Oct 1873
+- Notes: Compliments Marie's perfect English on departure
+
+### Solominka (elaboration)
+- Notes: In carnet 011, Marie calls her "good little creature" then later annotates "Stupid viper, this Solominka" -- opinions change dramatically
+
+%% 2026-02-19T16:35:00 TR: Added terms from carnet 013 -- code names, countdown structure, Hamilton vocabulary, morganatic marriage %%
+
+## Carnet 013 Terms
+
+### diadia
+- Translation: *diadia* (keep Russian, italicized)
+- Context: Russian: uncle. Marie's uncle who visits and entertains the family
+- Notes: Familiar term; do NOT translate to "uncle" -- preserve Russian family vocabulary
+
+### Alcibiades / Lais
+- Translation: Alcibiades / *Lais*
+- Context: Marie's classical code names -- Alcibiades for Hamilton (Athenian statesman famous for beauty), Lais for Gioia (Greek courtesan)
+- Notes: These aliases let Marie discuss them in company without being understood
+
+### de la main gauche / sinistra
+- Translation: left-handed marriage / *sinistra*
+- Context: Morganatic marriage -- marriage to a social inferior where children cannot inherit
+- Notes: Marie uses the French expression; Bete reinforces with Italian "sinistra." Preserve both with footnote.
+
+### pesage
+- Translation: weighing enclosure
+- Context: Area at the racecourse where jockeys are weighed
+- Notes: Marie recognizes the Hamilton Palace racecourse by this landmark -- the last place she watched Hamilton
+
+### chateaux en l'air
+- Translation: castles in the air
+- Context: Pipe dreams, fantasies
+- Notes: Distinct from "chateaux en Espagne" (castles in Spain) -- both mean the same thing but "en l'air" appears in carnet 013. Translate as "castles in the air" (standard English idiom).
+
+### saligaud(s)
+- Translation: cad(s) / dirty fellow(s)
+- Context: Marie's teenage slang for boys; dismissive but not deeply hostile
+- Notes: Appears in carnets 013-014; also "saligauds" plural
+
+### bataclan (russe)
+- Translation: contingent / crowd / fuss
+- Context: Social excitement, bustle; "bataclan russe" = a fine group of Russian society
+- Notes: Also used without modifier for general social excitement ("pas de bataclan" = no excitement)
+
+### antipolvere
+- Translation: dustproof (Italian)
+- Context: Marie's Italian name for a riding cloak/dust coat
+- Notes: Keep Italian in italics -- Marie uses it as a fashion term
+
+### poussiereux / poussiere
+- Translation: dusty creature / dust
+- Context: Marie's taxonomy of people by worthiness. "tous poussiere" = all dust, meaning worthless
+- Notes: Recurring across carnet 013; the English church congregation is "all dust"
+
+### chiffons
+- Translation: rags
+- Context: Self-deprecating term for clothes: "j'ai passe en revue mes chiffons" = I reviewed my rags
+- Notes: Ironic -- Marie cares deeply about clothes but calls them rags
+
+### Moussia
+- Translation: *Moussia* (keep Russian, italicized)
+- Context: Russian diminutive of Marie; affectionate family nickname
+- Notes: Used by the princess when expressing sympathy about Hamilton's wedding
+
+### Dans X jours / countdown structure
+- Translation: *In X days.*
+- Context: Carnet 013 entries from Dec 2-9 begin with a countdown to Hamilton's wedding (Dec 10)
+- Notes: Keep in italics. Sequence: "In eight days" (Dec 2) down to "Tomorrow!" (Dec 9). Marie explains she writes the countdown the evening before.
+
+### bestemmia
+- Translation: curse / blasphemy (Italian)
+- Context: Italian code-switch; Marie uses Italian for emotional outbursts
+- Notes: Highlight with == and footnote with Italian original
+
+### pantalonne(s)
+- Translation: trousered sort
+- Context: Marie's contemptuous term for the English governesses' outfit/manner
+- Notes: "ces pantalonnees" = those trousered women -- English women in her view lack femininity
+
+### comme il faut (elaboration for 013)
+- Notes: In carnet 013, Marie applies "comme il faut" to Tibet -- "serious, quiet, comme il faut" -- meaning properly bred/well-mannered. Keep in French italics per existing TM entry.
