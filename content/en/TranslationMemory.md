@@ -780,3 +780,239 @@ When Marie writes in Italian/Russian:
 
 ### comme il faut (elaboration for 013)
 - Notes: In carnet 013, Marie applies "comme il faut" to Tibet -- "serious, quiet, comme il faut" -- meaning properly bred/well-mannered. Keep in French italics per existing TM entry.
+
+### conspirateur
+- Translation: *conspirator* (keep French, italicized)
+- Context: Marie's nickname for her hooded cloak/cape (resembles a theatrical conspirator's costume)
+- Notes: Recurring in carnet 015; used as shorthand in outfit notes: "(conspirateur, bien)"
+
+### Détroit des Mouches
+- Translation: Strait of Flies
+- Context: Marie's playful name for a narrow, crowded passage on the Promenade des Anglais
+- Notes: Keep Marie's coinage; translate literally. In Jan 21 entry, Marie translates it herself in English: "the Straits of the Flies"
+
+### paskha
+- Translation: *paskha* (keep Russian, italicized, with footnote)
+- Context: Traditional Russian Easter dessert (pyramid-shaped cheese cake)
+- Notes: Given as housewarming gift in carnet 015
+
+### singe / serpent (Lambertye)
+- Translation: monkey / serpent
+- Context: Marie's recurring animal insults for Count Edouard de Lambertye
+- Notes: "le singe Lambertye" = the monkey Lambertye; "yeux de serpent" = serpent eyes; "Serpent deceives me" (English marginal note, Jan 24)
+
+### soupers à quatre pattes
+- Translation: suppers on all fours
+- Context: Marie's metaphor for wild/decadent parties she dreams of hosting
+- Notes: Part of her famous feminist passage on marriage (carnet 015, Jan 14)
+
+### affection de rue
+- Translation: street affection
+- Context: Marie's term for her love of Hamilton -- someone seen only in public, never formally met
+- Notes: Self-aware; she asks "If I have made such a fuss over a street affection, what would it be if..."
+
+### dansautons
+- Translation: dance-jump (neologism)
+- Context: Marie's invented word from "danse" + "sauter" (dance + jump)
+- Notes: Carnet 015 Jan 8; explain in parenthetical as Marie does: "(a word composed of dance and jump)"
+
+### hippopotameuse
+- Translation: hippopotamus-like (neologism, feminine)
+- Context: Marie's invention: "une famille hippopotameuse" = a hippopotamus-like family
+- Notes: Carnet 015 Jan 8; keep the inventive spirit -- translate with the adjective form
+
+### colonelle
+- Translation: colonel's wife
+- Context: Title for women married to military officers; common in Russian-French social circles
+- Notes: Carnet 016; "la colonelle Nagornoff" = the colonel's wife, Mme Nagornoff
+
+### domino(s)
+- Translation: domino(s) (keep French, italicized on first use)
+- Context: Hooded cloak worn to masked balls; standard carnival costume in 19th-century Nice
+- Notes: Carnet 016-017; "dominos roses" = pink dominos. Becomes familiar quickly; italicize on first use, then plain text.
+
+### veglione
+- Translation: *veglione* (keep Italian, italicized, with footnote)
+- Context: Italian: grand masked ball, typically held on Mardi Gras night
+- Notes: Carnet 016 Feb 17; footnote on first use with definition
+
+### laideron
+- Translation: fright / ugly little person
+- Context: Feminine-form insult Marie applies contemptuously to men (Lambertye)
+- Notes: Carnet 016 Feb 18; "un petit laideron comme Lambertye" = a little fright like Lambertye
+
+### regardations [sic]
+- Translation: *regardations* [sic] (keep Marie's neologism, italicized)
+- Context: Marie's invented word (standard: regards); her playful grammar
+- Notes: Carnet 016 Feb 18; flag with [sic] as in original
+
+### garcons d'honneur / marraine de noce
+- Translation: groomsmen / wedding godmother
+- Context: Wedding roles at Filimonoff wedding (Orthodox ceremony)
+- Notes: Carnet 016 Feb 11; "garcons d'honneur" = groomsmen; "marraine de noce" = wedding godmother (distinct from baptismal godmother)
+
+### parure
+- Translation: parure (keep French, italicized, with gloss)
+- Context: Matched set of jewellery (necklace, earrings, brooch, bracelet)
+- Notes: Carnet 016 Feb 12; "une parure de diamants" = a diamond parure. Gloss on first use: "a matched set of diamonds"
+
+### cercle
+- Translation: *cercle* (keep French, italicized) or gentlemen's club
+- Context: Private social club; the Cercle de la Mediterranee in Nice
+- Notes: Carnet 016 Feb 14-15; major social scene. Use "cercle" in italics with explanation on first use.
+
+### tombola
+- Translation: tombola / raffle
+- Context: Charitable lottery at society sales; common fundraiser
+- Notes: Carnet 016 Feb 21; "la tombola" = the raffle
+
+### moujik
+- Translation: *moujik* (keep Russian, italicized)
+- Context: Russian peasant; Marie uses it as insult for a crude hairdresser
+- Notes: Carnet 016 Feb 11; "coiffee par un moujik" = done up by a peasant
+
+### adoucir / adoucissez-vous
+- Translation: sweeten / sweeten yourself
+- Context: Wordplay at Filimonoff wedding -- Mme Filimonoff tells Marie "adoucissez-vous" (calm down / sweeten up)
+- Notes: Carnet 016 Feb 11; Marie plays on double meaning -- sugar from wedding feast and tempering one's manner
+
+### kwass mousseux
+- Translation: sparkling *kvass* (italicize, footnote on first use)
+- Context: Russian fermented drink; Paul orders it from London House
+- Notes: Carnet 016 Feb 19; footnote: "Kvass: a traditional Russian fermented drink made from rye bread"
+
+### pulchra
+- Translation: *pulchra* (keep Latin, italicized)
+- Context: Latin: beautiful woman; Marie applies it to Princess Souvoroff
+- Notes: Carnet 016 Feb 21; part of Marie's code-switching to classical languages for emphasis
+
+### plashchanitsa
+- Translation: *plashchanitsa* (keep Russian, italicized, with footnote)
+- Context: Russian Orthodox Holy Friday service venerating the burial shroud (epitaphios)
+- Notes: Carnet 018 Apr 10; footnote explaining the service on first use
+
+### comprenette
+- Translation: wits
+- Context: Colloquial/playful: understanding, mental faculties (diminutive form)
+- Notes: Carnet 018 Apr 11; "m'enleve la comprenette" = robs me of my wits
+
+### crachat
+- Translation: star (military decoration)
+- Context: Literally "spit"; slang for star-shaped military decoration worn on chest
+- Notes: Carnet 018 Apr 11; distinguish from "étoiles" (also stars/decorations)
+
+### faire maigre
+- Translation: to fast / to abstain from meat
+- Context: Orthodox fasting practice
+- Notes: Carnet 018 Apr 11; Marie finds it "superfluous and insignificant"
+
+### bourru
+- Translation: surly one
+- Context: Marie's nickname for Wittgenstein
+- Notes: Carnet 018 Apr 8; "bourru ours russe" = surly Russian bear
+
+### enleve-chapeau
+- Translation: *enleve-chapeau* (keep French, italicized, with footnote)
+- Context: Literally "hat-remover"; local name for a windy spot on the Nice coast road
+- Notes: Carnet 018 Apr 12; footnote on first use
+
+### propriétaire (as class marker)
+- Translation: *landowner* (italicized when used as class epithet)
+- Context: Marie uses it as class marker for brutish Russian landed gentry
+- Notes: Carnet 018 Apr 14; "un mari russe et propriétaire" = a Russian husband and landowner
+
+### maison mortuaire
+- Translation: house of death
+- Context: Formal term for house containing a corpse awaiting burial
+- Notes: Carnet 018 Apr 14; Marie's first encounter with death in her journal
+
+### galimatias
+- Translation: gibberish / nonsense
+- Context: Marie acknowledges writing incoherently while angry
+- Notes: Carnet 018 Apr 19; "je dois écrire un galimatias" = I must be writing gibberish
+
+### conduite saccadée
+- Translation: erratic behaviour
+- Context: Jerky/erratic social behaviour; Marie's mother's sudden departures
+- Notes: Carnet 018 Apr 19; compared to Olga Anitchkoff's similar unpredictability
+
+### fanfaron
+- Translation: braggart / boaster
+- Context: Applied to Tchernichoff ("Lautrec No. 2")
+- Notes: Carnet 018 Apr 19; "un grand fanfaron" = a great braggart
+
+%% 2026-02-27T13:10:00 TR: Added terms from carnet 017 -- nicknames, neologisms, social vocabulary %%
+
+## Social & Cultural Terms (from Carnet 017)
+
+### Fedus / Fulchra / parvus Fedus
+- Translation: *Fedus* / *Fulchra* / *parvus Fedus* (keep Latin, italicized)
+- Context: Marie's Latin nicknames: Fedus (ugly) for Lambertye, Fulchra (beautiful) for the Obelisk, parvus Fedus (small ugly one)
+- Notes: Carnet 017 Mar 15; derived from Latin foedus/pulcher. Keep in Latin throughout.
+
+### Obelisk / Obelisque
+- Translation: Obelisk
+- Context: Marie's nickname for a tall, beautiful woman (Mouchy fiancee)
+- Notes: Carnet 017; "l'Obelisque" used consistently; "Obelisque masculin" for Wittgenstein (tall male)
+
+### regardeur
+- Translation: the looker / the starer
+- Context: Marie's neologism for Lambertye, who stares at her without seeking introduction
+- Notes: Carnet 017 Mar 16; "je descendis de voiture sans regarder le regardeur"
+
+### inmariable
+- Translation: unmarriageable
+- Context: Marie's neologism meaning "impossible to marry"
+- Notes: Carnet 017; preserve as neologism
+
+### impermise [sic]
+- Translation: *impermise* [sic] (keep Marie's neologism)
+- Context: Marie's coined word, possibly combining "impermissible" and "promise"
+- Notes: Carnet 017 Mar 15; flag with [sic]
+
+### caricaturise
+- Translation: caricatures (verb)
+- Context: Marie's invented verb: to caricature/mock someone
+- Notes: Carnet 017 Mar 17; "elle le caricaturise et se moque de lui"
+
+### scenes sanglantes
+- Translation: bloody scenes
+- Context: Marie's hyperbolic term for family arguments
+- Notes: Carnet 017 Mar 26; recurring -- keep literally for dramatic effect
+
+### pantalons de cuir
+- Translation: leather trousers
+- Context: Maman's mocking nickname for Lambertye
+- Notes: Carnet 017 Mar 23; "les pantalons de cuir Lambertye"
+
+### kulebyakas / koulibiaks
+- Translation: *kulebyakas* (keep Russian, italicized, with footnote)
+- Context: Traditional Russian filled pastry
+- Notes: Carnet 017 Mar 5; footnote: "Kulebyaka: a traditional Russian filled pastry"
+
+### Immensus
+- Translation: *Immensus* (keep Latin, italicized)
+- Context: Latin: the Immense One; Marie's nickname for a large/fat man
+- Notes: Carnet 017 Mar 21
+
+### cara gioia
+- Translation: ==cara gioia== (Italian: dear joy, with highlight and footnote)
+- Context: Italian endearment used ironically for Lambertye
+- Notes: Carnet 017 Mar 19
+
+## People (from Carnet 017)
+
+### Simone
+- Translation: Simone
+- Context: Marie's dressmaker in Nice
+- Notes: Perpetually late with deliveries; "Simone m'ennuie plus que tout"
+
+### Laussel
+- Translation: Laussel
+- Context: Marie's piano teacher in Nice (starts carnet 017)
+- Notes: First lesson March 25
+
+### Barnola
+- Translation: Barnola
+- Context: Family acquaintance who walks in on Marie practising piano in her petticoats
+- Notes: Carnet 017 Mar 27; comic scene
