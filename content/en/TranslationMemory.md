@@ -1016,3 +1016,266 @@ When Marie writes in Italian/Russian:
 - Translation: Barnola
 - Context: Family acquaintance who walks in on Marie practising piano in her petticoats
 - Notes: Carnet 017 Mar 27; comic scene
+
+%% 2026-02-28T12:00:00 TR: Added terms from carnet 019 -- neologisms, code names, cultural vocabulary %%
+
+## Social & Cultural Terms (from Carnet 019)
+
+### cypresslamentations / cyprèmlamentations
+- Translation: cypresslamentations [sic]
+- Context: Marie's portmanteau of "cypresses" + "lamentations" about felled trees at Villa 55
+- Notes: Carnet 019 May 2; preserve as neologism with [sic]
+
+### Alcibiades / Alcibiade
+- Translation: Alcibiades
+- Context: Marie's code name for the Duke of Hamilton (Athenian statesman = beauty + ambition)
+- Notes: Carnet 019 May 8; use English form "Alcibiades"
+
+### col Hamilton
+- Translation: Hamilton collar
+- Context: Marie's name for the high folded-down collar style Hamilton wore, which she imitated
+- Notes: Carnet 019 May 8; part of her Hamilton-imitation confession
+
+### Pas-de-Calais
+- Translation: Pas-de-Calais (keep French)
+- Context: Marie's coinage for hypnagogic state between sleep and waking
+- Notes: Carnet 019 May 16; geographic metaphor from the Strait of Dover (between two states)
+
+### beauté du diable
+- Translation: the bloom of youth
+- Context: Period: youthful beauty that fades, not true beauty
+- Notes: Carnet 019 May 8; "la beauté du diable et des manières terribles"
+
+### gris (slang)
+- Translation: drunk / tipsy
+- Context: 1870s slang for intoxicated (literally "grey")
+- Notes: Carnet 019 May 4, May 15; "Georges est gris" / Paul "gris j'en ai peur"
+
+### hôtel (as townhouse)
+- Translation: townhouse
+- Context: 1870s: hôtel particulier = private mansion/townhouse, NOT a hotel
+- Notes: Carnet 019 May 13+; context-dependent — "hôtel à Paris" = Paris townhouse
+
+### diablesse
+- Translation: she-devil
+- Context: Marie's epithet for the difficult dressmaker at Laferrière's
+- Notes: Carnet 019 May 22-27; recurring, sometimes affectionate
+
+### manches à balai
+- Translation: broomsticks
+- Context: Marie's epithet for thin old women who sit in moral judgment
+- Notes: Carnet 019 May 18; "les vieilles, les manches à balai"
+
+### chasseurs à pied
+- Translation: foot-hunters
+- Context: Marie's ironic term for men who walk in Bois de Boulogne hoping to meet women
+- Notes: Carnet 019 May 29; "ces chasseurs à pied du Bois de Boulogne"
+
+### aérolithe
+- Translation: meteorite
+- Context: Marie's metaphor for Hamilton's overwhelming effect — each sighting hits like a meteorite
+- Notes: Carnet 019 May 17; "il faisait l'effet d'un aérolithe"
+
+### figure (1870s)
+- Translation: face
+- Context: 1870s: face/countenance, NOT body shape
+- Notes: Throughout; "sa figure exprimait de la cruauté" = his face expressed cruelty
+
+### mon fond
+- Translation: my depths / my foundation
+- Context: Marie's philosophical term for her essential inner nature
+- Notes: Carnet 019 May 23, 27; "j'ai trouvé mon fond" — she discovers she has three depths
+
+## People (from Carnet 019)
+
+### Laferrière / Mme Caroline
+- Translation: Laferrière / Madame Caroline
+- Context: Parisian dressmaker (the "she-devil"); Madame Caroline is the senior staff
+- Notes: Carnet 019 May 13+; replaces Worth as Marie's couturière
+
+### Schneider
+- Translation: Schneider
+- Context: Hortense Schneider (1833-1920), most famous operetta soprano of the era
+- Notes: Carnet 019 May 17; seen in "La Perichole"
+
+### Souvoroff
+- Translation: Princess Souvoroff
+- Context: Russian princess in Paris; invites family, both going to Spa
+- Notes: Carnet 019 May 14+; her daughter "just like" Marie
+
+%% 2026-02-28T13:30:00 TR: Added terms from carnet 021 -- Spa social season vocabulary, Basilevitch circle, Gericke courtship %%
+
+## Social & Cultural Terms (from Carnet 021)
+
+### la belle barbue
+- Translation: the beautiful bearded one
+- Context: Marie's cruel nickname for Mme Basilevitch, who has facial hair
+- Notes: Carnet 021 Jul 16; recurring epithet
+
+### Menelas / Ménélas
+- Translation: Menelaus
+- Context: Classical allusion to the cuckolded husband of Helen of Troy; Marie's comparison for M. Basilevitch
+- Notes: Carnet 021 Jul 16; "il a l'air d'un Ménélas"
+
+### dames-cocottes
+- Translation: *dames-cocottes* (keep French, italicized)
+- Context: Ladies who are kept women/courtesans; Gericke was "spoiled" by them
+- Notes: Carnet 021 Jul 17; implies loose morals without full prostitution
+
+### femme du monde / femme du demi-monde
+- Translation: *femme du monde* / *femme du demi-monde* (keep French)
+- Context: Society woman vs. woman of the half-world (courtesan class). Marie's devastating summary of Basilevitch.
+- Notes: Carnet 021 Jul 16; "her greatest charm is that she is a femme du monde who conducts herself like a femme du demi-monde"
+
+### Mme Toutafait / Mme Tout-a-fait
+- Translation: Mme Tout-a-fait
+- Context: Mock name for Basilevitch; wordplay on "tout a fait" (completely/entirely)
+- Notes: Carnet 021 Jul 22; Gericke's pun when asking about her taking Tanlay "tout a fait"
+
+### les carabiniers
+- Translation: the carabiniers
+- Context: Allusion to Offenbach operetta where carabiniers always arrive too late
+- Notes: Carnet 021 Jul 22; footnote on first use
+
+### mangeuse de coeurs
+- Translation: man-eater
+- Context: Heart-eater; Marie's epithet for Basilevitch
+- Notes: Carnet 021 Jul 22; "depart de la diva, de la mangeuse de coeurs"
+
+### hippopotames
+- Translation: hippopotami
+- Context: Marie's animal insult for Gambart's vulgar entourage (Kirsh, Malezieux, Body, Godefroy)
+- Notes: Carnet 021 Jul 20, Jul 23; recurring; also "druides" for the same group
+
+### Douchenka
+- Translation: *Douchenka* (keep Russian, italicized)
+- Context: Russian diminutive of "dusha" (soul), meaning "little soul" or "darling." Used as a nickname by the Spa circle for Marie, and as the name of their villa.
+- Notes: Carnet 021 Jul 11+; Gericke also uses it Jul 22
+
+### Papa Rigolo / Papa
+- Translation: Papa Rigolo / Papa
+- Context: Marie's nickname for Paparigopoulos (from "Papa rigolo" = funny daddy). Shortened to "Papa" in diary.
+- Notes: Carnet 021 Jul 5+; context distinguishes from actual father
+
+### est indecis / est indécis
+- Translation: *is indecisive*
+- Context: Recurring phrase for Paparigopoulos (the Greek), always in italics in original
+- Notes: Carnet 021 Jul 16, 18; his habitual state of indecision about everything
+
+### toque / toqué
+- Translation: touched / crazy
+- Context: Colloquial for mentally unstable; used of Gericke after Maman's scolding
+- Notes: Carnet 021 Jul 23; "il est devenu comme un toqué"
+
+### en-tout-cas
+- Translation: parasol
+- Context: Literally "in any case"; a small umbrella useful in any weather
+- Notes: Carnet 021 Jul 23; "mon petit en-tout-cas"
+
+### mouches en hiver
+- Translation: flies in winter
+- Context: Idiom for subdued, lifeless behavior; describes the men after Maman's scolding
+- Notes: Carnet 021 Jul 22; "les messieurs ont l'air de mouches en hiver"
+
+### chaste colombe
+- Translation: chaste dove
+- Context: Deeply ironic epithet for Basilevitch's pretended virtue
+- Notes: Carnet 021 Jul 21
+
+### Paul et Virginie
+- Translation: Paul and Virginie
+- Context: Novel by Bernardin de Saint-Pierre (1788); innocent young lovers. Gambart compares himself and Marie to them, wrapped in a blanket in the rain.
+- Notes: Carnet 021 Jul 23
+
+## People (from Carnet 021)
+
+### Gericke (Baron)
+- Translation: Gericke / Baron Gericke / the baron
+- Context: Young Dutch baron; handsome, improper manners; object of Marie's interest at Spa
+- Notes: Carnet 021 Jul 5+; "spoiled by cocottes," gives Marie her first fan gift
+
+### Basilevitch (Mme)
+- Translation: Basilevitch
+- Context: Married woman who monopolizes all male attention at Spa; la belle barbue, the diva, the man-eater
+- Notes: Carnet 021 Jul 5+; departs Jul 22
+
+### Tanlay (de)
+- Translation: de Tanlay
+- Context: War veteran with elevated ideas; in love with Basilevitch; seems "so good I believe him bad"
+- Notes: Carnet 021 Jul 9+; heir to one of France's finest chateaux
+
+### Paparigopoulos (the Greek)
+- Translation: Paparigopoulos / the Greek / Papa
+- Context: Young Greek diplomat in Marie's Spa circle; always "indecisive"; courts both Maman and Basilevitch
+- Notes: Carnet 021 Jul 5+; subject of Walitsky's comic verse about artichokes and Agamemnon
+
+### Gambart
+- Translation: Gambart
+- Context: Older man (art dealer); attached to Marie's family circle at Spa; interested in Dina
+- Notes: Carnet 021 Jul 10+; hosts soirees; compares himself to Paul in "Paul et Virginie"
+
+%% 2026-02-28T16:00:00 TR: Added terms from carnet 020 -- Paris-to-Spa transition, Moreno accent, family code, social vocabulary %%
+
+## Social & Cultural Terms (from Carnet 020)
+
+### chevalier d'industrie
+- Translation: adventurer / swindler
+- Context: Period: man living by his wits, without honest profession; social predator
+- Notes: Carnet 020 Jul 2; applied to Neufarge: "une espece de chevalier d'industrie"
+
+### zhuk (jouk)
+- Translation: ==*zhuk*== (keep Russian, transliterated, with footnote)
+- Context: Russian: beetle/bug. Family code for eligible men at Spa; Maman's invention parallel to Marie's "poussiere" (dust)
+- Notes: Carnet 020 Jun 28; transliterate as "zhuk" not "jouk." Walitsky's comic use: buzzing then ending with "zhuk!" Footnote: "Russian, *zhuk*: beetle or bug -- family code for eligible men."
+
+### Notlimah
+- Translation: *Notlimah* (keep as-is, italicized)
+- Context: Marie's cipher for Hamilton (name reversed); she compares it to an Indian deity
+- Notes: Carnet 020 Jun 22-23; TR comment explains the reversal
+
+### puppies / puppy
+- Translation: ==*puppies*== / ==*puppy*== (highlight + footnote "In English in the original")
+- Context: Marie's English code-switch for young/immature men, dismissive
+- Notes: Carnet 020 Jul 2-3; applied to Count Merjeewsky
+
+### fadement beau
+- Translation: insipidly handsome
+- Context: Beauty without character or distinction; applied to Neufarge
+- Notes: Carnet 020 Jul 2
+
+### Miserere (recurring)
+- Translation: ==*Miserere*== (highlight + footnote)
+- Context: Latin "Have mercy" (Psalm 51); Marie's recurring exclamation of despair
+- Notes: Carnet 020 Jun 7, Jun 29; footnote on first use per entry: "Latin, 'Have mercy' (Psalm 51)"
+
+### comme il faut (Carnet 020)
+- Translation: proper / of proper appearance
+- Context: Social respectability indicator; "l'air comme il faut" = proper-looking
+- Notes: Carnet 020 Jul 4; applied to the mysterious bearded gentleman at the ball
+
+### gêné(s)
+- Translation: straitened (financially)
+- Context: 1870s: financially embarrassed, short of money
+- Notes: Carnet 020 Jun 7; "nous sommes excessivement genes" -- NOT "embarrassed" in modern sense
+
+## People (from Carnet 020)
+
+### Moreno
+- Translation: Moreno
+- Context: Spanish suitor of Maman; Marie mocks his accent
+- Notes: Carnet 020 Jun 7+; accent rendered phonetically in English: "Eet ees a lady 'oo was een love weeth me"
+
+### Count Merjeewsky
+- Translation: Count Merjeewsky
+- Context: Young Polish count at Spa; Marie's new acquaintance; musical, educated
+- Notes: Carnet 020 Jul 1+; introduced formally via Kirch; Marie calls him "the little Pole" and "puppy"
+
+### Neufarge (Chevalier de)
+- Translation: Chevalier de Neufarge
+- Context: Illegitimate son of Russian prince; squandered half his fortune; bad reputation; adventurer
+- Notes: Carnet 020 Jul 2; "Mephistophelean" beauty; introduced by Basilevitch to her later regret
+
+### Nadaud
+- Translation: Nadaud
+- Context: Gustave Nadaud (1820-1893), famous French chansonnier
+- Notes: Carnet 020 Jul 1; performs at Gambart's soiree
