@@ -1279,3 +1279,333 @@ When Marie writes in Italian/Russian:
 - Translation: Nadaud
 - Context: Gustave Nadaud (1820-1893), famous French chansonnier
 - Notes: Carnet 020 Jul 1; performs at Gambart's soiree
+
+%% 2026-02-28T18:00:00 TR: Added terms from carnet 022 -- Spa summer season, omnipotence theme, race vocabulary, farewell customs %%
+
+## Social & Cultural Terms (from Carnet 022)
+
+### toute-puissance
+- Translation: omnipotence
+- Context: Marie's key concept in carnet 022 -- absolute power over men, destiny, and social world
+- Notes: Carnet 022 Jul 25, Jul 30; "la toute-puissance" = omnipotence. Central to her manifesto passage (Jul 30): "who wants omnipotence, who wants to reign"
+
+### Blackprince
+- Translation: ==Blackprince== (highlight + footnote "In English in the original")
+- Context: Marie's English code name for Hamilton/Wittgenstein (ambiguous); a romantic figure seen at a distance
+- Notes: Carnet 022 Jul 29, Aug 5; always in English in original. Footnote on first use: "In English in the original"
+
+### Paparinoceros
+- Translation: Paparinoceros (keep as-is)
+- Context: Marie's comic nickname for Paparigopoulos, blending his name with "rhinoceros"
+- Notes: Carnet 022 Jul 25; keep the neologism untranslated
+
+### Redoute
+- Translation: Redoute (keep French)
+- Context: Public assembly rooms at Spa; venue for concerts, balls, and social gatherings
+- Notes: Carnet 022 Jul 24+; "la Redoute" as proper noun
+
+### guipure
+- Translation: guipure
+- Context: Heavy bobbin lace with large patterns; used for dress trimming
+- Notes: Carnet 022 Jul 24; English cognate exists -- keep as-is
+
+### fichu
+- Translation: fichu
+- Context: Triangular shawl/scarf worn around shoulders over a dress
+- Notes: Carnet 022 Aug 6; "un fichu de mousseline avec valenciennes" = a muslin fichu with Valenciennes lace
+
+### valenciennes
+- Translation: Valenciennes lace
+- Context: Fine bobbin lace from Valenciennes, used for trimming
+- Notes: Carnet 022 Aug 6; capitalize as place-derived fabric name
+
+### avant-scène
+- Translation: stage box
+- Context: Theater box at the very front, adjacent to the stage; prestigious seating
+- Notes: Carnet 022 Aug 6; "nous sommes dans une avant-scène"
+
+### P.P.C. / pour prendre congé
+- Translation: P.P.C. (with footnote)
+- Context: "Pour prendre congé" = to take one's leave. Calling card abbreviation left when departing a town.
+- Notes: Carnet 022 Aug 8; footnote: "P.P.C.: *pour prendre congé* (to take one's leave) -- a calling card left to announce one's departure"
+
+### faquine / faquin
+- Translation: hussy / cad
+- Context: Strong insult; feminine "faquine" for a vulgar woman, masculine "faquin" for a vulgar man
+- Notes: Carnet 022 Aug 4 (faquine for Laferriere); Aug 8 (faquin for Paparigopoulos). Register: crude but not obscene
+
+### colin-maillard
+- Translation: blind man's bluff
+- Context: Children's game where blindfolded player catches others
+- Notes: Carnet 022 Jul 27; standard English equivalent
+
+### Tir aux pigeons
+- Translation: pigeon shooting
+- Context: Fashionable sport at spa resorts; live pigeon shooting competition
+- Notes: Carnet 022 Aug 4; Paul participates
+
+### bain ferrugineux
+- Translation: iron bath
+- Context: Mineral bath with iron-rich waters; therapeutic treatment at Spa
+- Notes: Carnet 022 Aug 4; "je prends un bain ferrugineux"
+
+### cotillon / cotillion
+- Translation: cotillion
+- Context: Elaborate ballroom dance with choreographed figures and party favors
+- Notes: Carnet 022 Jul 29, Aug 4; established English borrowing. "Figure de cotillon" = cotillion figure (already in TM from carnet 003)
+
+### maladie nécessaire
+- Translation: necessary illness
+- Context: Walitsky's philosophy: love is a necessary illness one must go through
+- Notes: Carnet 022 Jul 25; "c'est une maladie nécessaire" = it is a necessary illness
+
+### gentlemen riders
+- Translation: ==gentlemen riders== (highlight + footnote "In English in the original")
+- Context: Amateur jockeys of aristocratic birth who race their own horses
+- Notes: Carnet 022 Aug 3; in English in original
+
+### bidet (horse)
+- Translation: pony / nag
+- Context: 1870s: small, sturdy horse -- NOT the bathroom fixture
+- Notes: Carnet 022 Aug 3; "des bidets" = ponies. Marie mocks the poor quality of horses at Spa races
+
+## People (from Carnet 022)
+
+### Biesme (Vicomte de)
+- Translation: Monsieur de Biesme / the vicomte
+- Context: Handsome Belgian aristocrat Marie admires from afar at Spa; never formally introduced
+- Notes: Carnet 022 Aug 7-8; "he has what is impossible to define"; passes several times daily
+
+### Robenson
+- Translation: the Robenson girl
+- Context: Young woman Doria is said to be marrying; Marie refers to her as "la Robenson"
+- Notes: Carnet 022 Aug 7; use "the Robenson girl" for the dismissive French article + surname
+
+### Filipesco
+- Translation: Filipesco
+- Context: Romanian acquaintance; friend of Body; stays with a Russian family
+- Notes: Carnet 022 Aug 7
+
+### Winslow / Ladd
+- Translation: Winslow / Ladd
+- Context: Two men who court Marie at the marquise's ball; dance partners
+- Notes: Carnet 022 Aug 4; briefly mentioned courtiers
+
+%% 2026-02-28T20:00:00 TR: Added terms from carnet 023 -- Ostende seaside season, Plobster vocabulary, London rapture %%
+
+## Social & Cultural Terms (from Carnet 023)
+
+### Plobster
+- Translation: Plobster (keep as-is)
+- Context: Marie's invented term for attractive/desirable men of high social standing. Possibly from "lobster" (red-faced English type)
+- Notes: Carnet 023 Aug 15+; central neologism. Marie has "trained" her family to spot Plobsters. The name becomes "ruined" when applied to Moelenar (Aug 31)
+
+### estacade
+- Translation: pier / jetty
+- Context: Wooden pier at Ostende seaside resort; social promenade and ship-watching spot
+- Notes: Carnet 023 Aug 18+; Marie herself is unsure how to spell it (Aug 20)
+
+### Kursaal
+- Translation: Kursaal (keep as-is)
+- Context: German: spa/casino entertainment complex at Belgian seaside resorts
+- Notes: Carnet 023 Aug 15+; proper noun, well-established English borrowing
+
+### Cercle des Bains
+- Translation: Cercle des Bains (keep French)
+- Context: Social club/dance venue at Ostende; alternates with Casino for evening entertainment
+- Notes: Carnet 023 Aug 16+; "one night they dance at the Cercle des Bains and the next at the Casino"
+
+### pope noir
+- Translation: black-robed priest
+- Context: Russian Orthodox regular clergy (monks); as opposed to "white" married parish priests
+- Notes: Carnet 023 Aug 18; Basilewsky compared to one
+
+### La clef des songes
+- Translation: *The Key of Dreams* (italics)
+- Context: Popular 19th century fortune-telling book combining dream interpretation and palmistry
+- Notes: Carnet 023 Aug 21+; Marie uses it for bibliomancy (opening at random to find answers)
+
+### homme nouveau
+- Translation: self-made man
+- Context: Man of ability but not noble birth; liberal/progressive type
+- Notes: Carnet 023 Aug 23; Barkowsky described as "un homme nouveau"
+
+### Airod / Airam
+- Translation: Airod / Airam (keep as-is)
+- Context: Doria reversed = Airod; Marie reversed = Airam ("Air and ode; air and soul")
+- Notes: Carnet 023 Sep 5; name reversal wordplay game. Also the name of a tiny pet dog
+
+### le beau tenebreux
+- Translation: the dark, handsome brooder
+- Context: Literary type from romance novels; Florence Foster's nickname for Doria
+- Notes: Carnet 023 Sep 5
+
+### bataclan
+- Translation: little circle / entourage
+- Context: Marie's invented term for a fashionable social group/circle; social bustle
+- Notes: Carnet 023 Sep 5; "je formerais un bataclan avec les Doria"
+
+### espérances hamiltoniennes
+- Translation: Hamiltonian hopes
+- Context: Marie's term for her marriage aspirations regarding the Duke of Hamilton
+- Notes: Carnet 023 Sep 7; London revives her prayers "aussi chaude...qu'au temps des esperances hamiltoniennes"
+
+### Hitchcock
+- Translation: Hitchcock (keep as-is)
+- Context: Marie's type-name for unfashionable/provincial Englishwomen with monstrous chignons and flat feet
+- Notes: Carnet 023 Sep 8; origin unclear. "One must come to London to see such Hitchcocks!"
+
+### amazone
+- Translation: riding habit
+- Context: Women's equestrian costume (sidesaddle); important fashion item
+- Notes: Carnet 023 Sep 11; ordered from Paole in London (10 pounds)
+
+## People (from Carnet 023)
+
+### Doenhoff (Count)
+- Translation: Count Doenhoff
+- Context: Head of household of Prince/Princess of Prussia; introduced to Maman at Ostende
+- Notes: Carnet 023 Aug 15+; "the one we know" among two Doenhoffs
+
+### Mulinare (Count de)
+- Translation: Count de Mulinare
+- Context: The "true Plobster" identified at Ostende; "grand faiseur d'embarras et un grand poseur"
+- Notes: Carnet 023 Aug 21+; Marie's eyes laugh when she looks at him
+
+### Moelenar (Chevalier de)
+- Translation: Chevalier Edouard de Moelenar
+- Context: The "false Plobster" at Ostende; posed for two weeks before introduction. Also called "Dust," "the tailless dog"
+- Notes: Carnet 023 Aug 29+; "half cad, half Plobster"; dirty shirt scandalized Marie
+
+### Basilewsky
+- Translation: Basilewsky
+- Context: Russian man of about 40; comic presence; "like a priest" but very witty. Umbrella serenade
+- Notes: Carnet 023 Aug 14+; Basilevitch pursues him for his money
+
+### Baron Leiss
+- Translation: Baron Leiss
+- Context: Friend of Merjeewsky; limited French ("Tiens, tiens si' plait?")
+- Notes: Carnet 023 Aug 21+; introduced to Marie at the Kursaal
+
+### Florence Foster
+- Translation: Florence (Miss Foster)
+- Context: Englishwoman at Ostende; Marie's companion for bathing and walks; knows "Plobster" and "cad" vocabulary
+- Notes: Carnet 023 Aug 25+; two brothers (Foster I, Foster 2)
+
+%% 2026-02-28T23:45:00 TR: Added terms from carnet 024 -- Nice autumn season, Worth/Laferriere, Paris shopping, family dramas %%
+
+## Social & Cultural Terms (from Carnet 024)
+
+### obligateur
+- Translation: benefactor
+- Context: Marie's possible neologism (not standard French); person who confers obligations/favors
+- Notes: Carnet 024 Sep 16; "un obligateur adroit" = a deft benefactor
+
+### en huit reflets
+- Translation: in eight reflections
+- Context: Fabric term: silk with eight-color iridescent sheen; luxury textile
+- Notes: Carnet 024 Sep 19; Marie's outfit description
+
+### voiture fermée
+- Translation: closed carriage
+- Context: Enclosed horse-drawn carriage (as opposed to open); used for rain or propriety
+- Notes: Carnet 024 Oct 20; "je sors en voiture fermee"
+
+### robe de chambre
+- Translation: dressing gown
+- Context: Informal home attire; NOT a bathrobe in modern sense. Marie's mother scolds her for wearing one before male tutors
+- Notes: Carnet 024 Oct 22; the white dressing gown that provokes the shocking conversation
+
+### phosphate de fer
+- Translation: iron phosphate
+- Context: Common 1870s health tonic/supplement for anemia and weakness in young women
+- Notes: Carnet 024 Oct 22; Marie wonders if Nice or the supplement makes her healthy
+
+### figure (1870s face)
+- Translation: face
+- Context: In 1870s French, "figure" = face (not body shape). Critical distinction
+- Notes: Throughout carnet 024; "ma figure rayonnante" = my radiant face
+
+### sourire de chatte
+- Translation: cat's smile
+- Context: Sly, knowing, flirtatious smile; applied to Collignon
+- Notes: Carnet 024 Oct 25; double-entendre scene about Renard the dog vs. Papa
+
+### per un bel pezzo
+- Translation: ==*per un bel pezzo*== (highlight + footnote "Italian: 'for quite a while'")
+- Context: Italian code-switch; Marie predicting prolonged family conflict
+- Notes: Carnet 024 Oct 25
+
+### muzhik / moujik
+- Translation: *muzhik* (italicized)
+- Context: Russian word for peasant farmer; used in French to indicate class contrast
+- Notes: Carnet 024 Oct 23; Pelikan's doctor described as a muzhik
+
+### peignoir blanc
+- Translation: white dressing gown
+- Context: Informal evening/night garment; worn en famille after theater
+- Notes: Carnet 024 Oct 19; all five women in white dressing gowns
+
+### en chemise
+- Translation: in their shifts / in their chemises
+- Context: Women in undergarments (chemise = shift); private/domestic state
+- Notes: Carnet 024 Oct 19; women chatting until 3am
+
+### panégyrique
+- Translation: panegyric
+- Context: Excessive praise; Marie uses it ironically
+- Notes: Carnet 024 Oct 19; "les panegyriques a Paul"
+
+## People (from Carnet 024)
+
+### Audiffret
+- Translation: Audiffret
+- Context: Man who makes Marie blush involuntarily; she is disgusted by this reaction
+- Notes: Carnet 024 Oct 6+; recurring presence; imitates Hamilton; Marie writes satirical poem about him
+
+### Saetone
+- Translation: Saetone
+- Context: Local Nice figure who appears at social events; associated with the Durand family
+- Notes: Carnet 024 Oct 6+; Marie describes him blooming "in all his splendour"
+
+### Gambart (Nice)
+- Translation: Gambart
+- Context: Art dealer with a palace in Nice; Marie visits and is impressed
+- Notes: Carnet 024 Oct 11; "un palais" with paintings, marbles, gardens
+
+### Mme Angel (Ange)
+- Translation: Mme Angel / Ange
+- Context: Russian lady of 35; musician, painter; beautiful with magnificent hair. Affectionate toward Marie
+- Notes: Carnet 024 Oct 19+; calls Marie "little bird" and "little doll"; beneath jaded exterior has poetic tendencies
+
+### Mlle Collignon
+- Translation: Mlle Collignon
+- Context: Former governess; "unfortunate affair" with Grand-papa; Papa's former feelings revive upon her return from Cannes
+- Notes: Carnet 024 Oct 24-25; "the beauty with long hair"; Marie finds her agreeable but sees trouble ahead
+
+### Georges
+- Translation: Georges
+- Context: Family member with serious drinking problem; violent and disrespectful
+- Notes: Carnet 024 Oct 12+; Marie alone can manage him when drunk; slapped Prodgers at Monte Carlo
+
+## Places (from Carnet 024)
+
+### Worth (fashion house)
+- Translation: Worth
+- Context: Charles Frederick Worth, leading Parisian couturier; Marie's preferred dressmaker
+- Notes: Carnet 024 Sep 23+; "triumph" of shopping there; philosophy of Worth vs. Laferriere
+
+### Laferrière (dressmaker)
+- Translation: Laferriere
+- Context: Parisian dressmaker; alternative to Worth; Marie has complex feelings about her
+- Notes: Carnet 024 Sep 27; cancelled visits; "one does not go to Laferriere without going to Worth"
+
+### Walery (photographer)
+- Translation: Walery
+- Context: Fashionable Parisian photography studio
+- Notes: Carnet 024 Sep 29; Marie sits for photographs
+
+### Prodgers (Monte Carlo)
+- Translation: Prodgers
+- Context: Venue/person at Monte Carlo where Georges causes a scene
+- Notes: Carnet 024 Oct 19; Georges slaps Prodgers while drunk
