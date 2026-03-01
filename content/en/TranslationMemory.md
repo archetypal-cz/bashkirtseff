@@ -463,6 +463,8 @@ When Marie writes in Italian/Russian:
 %% 2026-02-13T20:30:00 TR: Added terms from carnet 003 — fashion vocabulary, social customs, new people, idioms %%
 %% 2026-02-13T21:45:00 TR: Added terms from carnet 005 — emotional vocabulary, political references, new people %%
 %% 2026-03-01T12:00:00 TR: Added terms from carnet 028 — legal vocabulary, fashion details, Russian proverbs, coded signature %%
+%% 2026-03-01T11:00:00 TR: Added terms from carnet 031 — anonymous letter, dream interpretation, evolution debate, historical figures, coded names %%
+%% 2026-03-01T13:00:00 TR: Added terms from carnet 032 — prayer register, dialect transcription, secret society, Niçois expressions %%
 
 ## Social & Cultural Terms (from Carnet 028)
 
@@ -535,6 +537,85 @@ When Marie writes in Italian/Russian:
 - Translation: "Only the grave straightens the hunchback"
 - Context: Russian proverb: people do not change their essential nature
 - Notes: Keep as quoted speech with footnote identifying as Russian proverb
+
+## Social & Cultural Terms (from Carnet 031)
+
+### ecnirp ed sellag / Sellag
+- Translation: ecnirp ed sellag / Sellag (keep as-is)
+- Context: Marie's playful cipher — "prince de Galles" / "Galles" written backwards
+- Notes: Keep the reversed text intact in Roman characters; do NOT translate or explain in text
+
+### animal de luxe
+- Translation: luxury animal
+- Context: M. Beketoff's aphorism about husbands as expensive accessories
+- Notes: Keep the cynical directness — do NOT soften to "luxury item"
+
+### la Clef des songes
+- Translation: the Dream Key
+- Context: Dream interpretation book of popular 19th-century genre
+- Notes: "Clef des songes" = Dream Key; NOT "key to dreams"
+
+### fi / fi l'horreur
+- Translation: ugh / ugh, how horrible
+- Context: Marie's characteristic exclamation of disgust
+- Notes: "fi" alone = "ugh" or "pshaw"; "fi l'horreur" = "ugh, how horrible"
+
+### couronne de prince (stationery)
+- Translation: prince's crown
+- Context: Crown embossing on notepaper — Marie's pretentious anonymous-letter stationery
+- Notes: NOT "prince's coronet" — keep "prince's crown"
+
+### Deo juvante
+- Translation: *Deo juvante* (keep Latin, italicized)
+- Context: Marie's closing phrase "with God's help"
+- Notes: Keep Latin with footnote "Latin: 'With God's help.'"
+
+### foi de Marie
+- Translation: on my word as Marie
+- Context: Marie's personal oath formula
+- Notes: "Foi de Marie!" = "On my word as Marie!" — NOT "faith of Marie"
+
+### Poste Restante
+- Translation: Poste Restante (keep French)
+- Context: Letters held at post office for pickup — allows anonymity
+- Notes: Keep French — well-known term in English
+
+### Qui vivra verra
+- Translation: Time will tell
+- Context: French proverb "who lives will see"
+- Notes: Do NOT translate literally; "time will tell" is the English equivalent
+
+### Monseigneur (address to royalty)
+- Translation: Your Royal Highness
+- Context: Formal address to a prince
+- Notes: In the letter context: "Monseigneur" = "Your Royal Highness"
+
+### Madame Alcibiades (Mme Alcibiade)
+- Translation: Madame Alcibiades
+- Context: Marie's self-chosen ironic nickname — she considers herself the equal of Alcibiades
+- Notes: Anglicise "Alcibiade" → "Alcibiades"
+
+## People (from Carnet 031)
+
+### Sir Frédéric / Sir Frederic Johnstone
+- Translation: Sir Frédéric / Sir Frederic Johnstone
+- Context: English rake implicated in the Mordaunt divorce scandal; Marie's current infatuation
+- Notes: Keep "Sir Frédéric" — already English; Marie uses English title
+
+### Victor (Marie's dog)
+- Translation: Victor
+- Context: Marie's dog, feminine ("elle") despite masculine name; she renames her after each new crush
+- Notes: Refer to Victor as "she" in English — Marie consistently uses feminine pronoun
+
+### Blackprince
+- Translation: Blackprince (keep English, no space)
+- Context: Marie's English nickname for Wittgenstein (possibly from dark complexion or dress)
+- Notes: Already in English in original — keep as one word
+
+### le diable (the devil)
+- Translation: the devil
+- Context: Marie's nickname for Sir Frederic Johnstone (and occasionally Hamilton)
+- Notes: Context determines which man; "the devil" consistently
 
 %% 2026-03-01T18:00:00 TR: Added terms from carnet 030 — opera/theatre vocabulary, social idioms, foreign language passages, new people %%
 
@@ -614,6 +695,146 @@ When Marie writes in Italian/Russian:
 - Translation: Lovelace
 - Context: Archetypal seducer from Richardson's *Clarissa* (1748)
 - Notes: Keep as proper noun (character name become common noun); footnote on first use
+
+## Social & Cultural Terms (from Carnet 032)
+
+### Ventre-Saint-Gris
+- Translation: Devil take it! / By the belly of...!
+- Context: Archaic oath attributed to Henri IV; mild period blasphemy
+- Notes: "Ventre-Saint-Gris" — idiomatic render as exclamation; do NOT translate literally
+
+### bains (fashionable seaside)
+- Translation: bathing establishment / seaside
+- Context: "Bains Georges" = the fashionable Bains Georges establishment on the Nice seafront
+- Notes: "Les bains" as a social venue → "the bathing establishment" or "the baths"
+
+### folle (intensifier)
+- Translation: mad / madwoman
+- Context: Marie's self-description when overcome with emotion or laughter
+- Notes: "Je ris comme une folle" → "I laugh like a madwoman"; NOT "crazy"
+
+### Ventre-Saint-Gris (see above)
+
+### singeries
+- Translation: antics / monkey tricks
+- Context: Self-deprecating for theatrical gestures and storytelling performances
+- Notes: "singeries" = monkey business — keep the slightly self-mocking register
+
+### âme vivante
+- Translation: living soul (no one at all)
+- Context: Idiom: "pas une âme vivante" = not a soul about, nobody at all
+- Notes: "Not a living soul" is the established English equivalent
+
+### cocher (as character)
+- Translation: coachman
+- Context: Horse-drawn carriage driver — a class distinct from family coachman
+- Notes: "Notre cocher" = our coachman (hired or household driver)
+
+### cicerone
+- Translation: *cicerone*
+- Context: Guide — from Italian (Cicero as ancient tour guide)
+- Notes: Keep Italian word — Marie uses it ironically for a chatty coachman
+
+### châtelain
+- Translation: *châtelain* / lord of the château
+- Context: Owner of a château — Marie uses it grandly for the 23-year-old Audiffret
+- Notes: Keep French in italics; add footnote when used ironically
+
+### pardi
+- Translation: *Pardi!* (keep French, italicized)
+- Context: Mild popular oath ("By God! / Indeed!") — markers of working-class/Niçois speech
+- Notes: Do not translate — it's already half the point that the coachman says it
+
+### L'eau de cœur tendre
+- Translation: "Tender-heart's water" [keep in quotes, add footnote]
+- Context: Obscure family expression, apparently ironic — lovesickness causing illness
+- Notes: AMBIGUOUS — do not resolve; keep phrase in quotes, add footnote documenting uncertainty
+
+### paysan (dismissive)
+- Translation: peasant
+- Context: Marie's contemptuous term for provincials, unsophisticated men regardless of wealth
+- Notes: Audiffret is wealthy but Marie calls him "petit paysan" dismissively
+
+### jeunes lions
+- Translation: young bloods / young blades
+- Context: Fashionable young men about town, dandies
+- Notes: "Jeunes lions" = "young bloods" — period English slang for fashionable young men
+
+### vermisseau de terre
+- Translation: earthworm
+- Context: Extreme contempt — someone utterly beneath Marie's notice
+- Notes: "Ce vermisseau de terre" — translate literally; the bathos is deliberate
+
+### beau zéro
+- Translation: handsome zero / the handsome nobody
+- Context: Collignon's nickname for Girofla — handsome but insignificant
+- Notes: "Beau zéro" = handsome zero; translate directly; the paradox is the point
+
+## Dialect & Code-Switching (from Carnet 032)
+
+### Niçois dialect transcription
+- Translation: Preserve phonetically in quotation, add footnote
+- Context: Marie transcribes the coachman's Niçois/Provençal accent phonetically
+- Notes: "ben autré chosé", "touté la villé", "voui", "queu moi", "méreu" — keep Marie's spellings in quotation marks; footnote explains the accent
+
+### Terffidua
+- Translation: Terffidua (keep code name)
+- Context: Marie's anagram of "Audiffret" — letters rearranged as code
+- Notes: Keep as-is; add footnote on first occurrence explaining it is an anagram
+
+### Moussia
+- Translation: Moussia (keep Russian nickname)
+- Context: Russian family nickname for Marie
+- Notes: Keep as-is; no translation
+
+### Gritsia
+- Translation: Gritsia (keep Russian nickname)
+- Context: Russian diminutive, likely for Grigory/Miloradovitch
+- Notes: Keep as-is; no translation
+
+## People (from Carnet 032)
+
+### Girofla
+- Translation: Girofla (keep nickname)
+- Context: Marie's nickname for Emile Audiffret, taken from Lecocq's operetta *Girofle-Girofla* (1874)
+- Notes: Never translate — it's a literary nickname Marie chose deliberately
+
+### Miloradovitch
+- Translation: Miloradovitch
+- Context: Russian nobleman whose mother hopes he will marry Marie; Marie dreads this prospect
+- Notes: Marie calls him "ma fatalité" (my fate) — he represents the dutiful but undesired match
+
+### Toto
+- Translation: Toto (keep nickname)
+- Context: Marie's affectionate nickname for Emile Audiffret
+- Notes: Used alongside "Girofla" and "Terffidua" — three different names for the same man
+
+### Alcibiade / Alcibiades
+- Translation: Alcibiades (use English form)
+- Context: Marie's code name for the Duke of Hamilton — the handsome Athenian statesman
+- Notes: "Alcibiade" → "Alcibiades" in English; established from earlier carnets
+
+## Prayer Register (from Carnet 032)
+
+### daignez
+- Translation: deign to / condescend to
+- Context: Formal/religious address to God or the Virgin Mary
+- Notes: Keep the elevated register — "deign" is the standard English equivalent
+
+### abaissez vos yeux
+- Translation: lower Your eyes (to where I am)
+- Context: Prayer language — asking God to notice one's lowliness
+- Notes: Keep the hierarchical imagery; "lower Your eyes" preserves the vertical register
+
+### exaucer
+- Translation: to grant one's prayer
+- Context: Religious: God answering/fulfilling a prayer
+- Notes: "Exaucer ma prière" → "grant my prayer"; NOT "to exhaust"
+
+### fléchir
+- Translation: to be moved / to be softened
+- Context: Prayer: persuading God to relent
+- Notes: "Laissez-vous fléchir" → "let Yourself be moved"; NOT "flex" or "bend"
 
 ### teneur de livres
 - Translation: bookkeeper
