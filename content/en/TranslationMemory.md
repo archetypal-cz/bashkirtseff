@@ -462,6 +462,262 @@ When Marie writes in Italian/Russian:
 %% 2026-02-13T19:15:00 TR: Added terms from carnet 002 — social vocabulary, carnival terms, character insults, Marie's aspirations %%
 %% 2026-02-13T20:30:00 TR: Added terms from carnet 003 — fashion vocabulary, social customs, new people, idioms %%
 %% 2026-02-13T21:45:00 TR: Added terms from carnet 005 — emotional vocabulary, political references, new people %%
+%% 2026-03-01T12:00:00 TR: Added terms from carnet 028 — legal vocabulary, fashion details, Russian proverbs, coded signature %%
+
+## Social & Cultural Terms (from Carnet 028)
+
+### donation (legal)
+- Translation: deed of gift
+- Context: Legal transfer of property as gift, not sale
+- Notes: "donation" = English legal "deed of gift"; "sise" = situated
+
+### sise
+- Translation: situated
+- Context: Legal term for property location
+- Notes: Standard English legal equivalent; "sise à Nice, à la promenade des Anglais, 55"
+
+### toilettaires [sic]
+- Translation: grooming splendors / toiletry items (sic)
+- Context: Marie's invented neologism for toiletry/grooming items
+- Notes: [sic] preserved; Marie invents the word; rendered descriptively
+
+### se forger un conte
+- Translation: to spin oneself a story / to daydream
+- Context: Marie's self-created romantic fantasies
+- Notes: NOT literal "forging a tale" — captures self-made daydreaming quality
+
+### en des termes d'enfer et de paradis
+- Translation: in terms of heaven and hell
+- Context: Extreme, dramatic emotional language
+- Notes: Reversed order (hell/paradise → heaven/hell) for English idiom rhythm
+
+### amazone (riding habit)
+- Translation: riding habit
+- Context: Women's riding costume with long skirt for sidesaddle
+- Notes: Already in TM as "en amazone" — standalone "mon amazone" = "my riding habit"
+
+### barège
+- Translation: barège (keep French, italicized)
+- Context: Light gauzy wool fabric for dresses
+- Notes: Specialized textile term — keep French
+
+### robe de ville
+- Translation: day dress
+- Context: Town dress for everyday city wear
+- Notes: NOT "city dress" — "day dress" is the period English equivalent
+
+### sortie de theatre
+- Translation: evening wrap
+- Context: Light cloak worn over ball gown to/from theatre
+- Notes: "Evening wrap" is the 19th-century English equivalent
+
+### Palais Garnier / nouvel opéra
+- Translation: the new Opera / the Palais Garnier
+- Context: Opened January 5, 1875 — extremely high-demand
+- Notes: "New Opera" on first reference, "Palais Garnier" with footnote
+
+### gravure de mode
+- Translation: fashion plate
+- Context: Highest compliment for a woman's appearance
+- Notes: "I look like a fashion plate" — standard 19th-century English equivalent
+
+### reine des chiffons
+- Translation: queen of fashion
+- Context: Ironic/admiring title for a top dressmaker (here: Caroline at Laferrière)
+- Notes: "chiffons" = fashionable fripperies, NOT rags
+
+### Misère des misères
+- Translation: vanity of vanities
+- Context: Marie's echo of Ecclesiastes 1:2
+- Notes: Biblical echo is intentional — translate to the English biblical resonance
+
+### la tombe seule corrige le bossu
+- Translation: "Only the grave straightens the hunchback"
+- Context: Russian proverb: people do not change their essential nature
+- Notes: Keep as quoted speech with footnote identifying as Russian proverb
+
+%% 2026-03-01T18:00:00 TR: Added terms from carnet 030 — opera/theatre vocabulary, social idioms, foreign language passages, new people %%
+
+## Social & Cultural Terms (from Carnet 030)
+
+### comme un roi
+- Translation: like a king
+- Context: Having enormous fun, living in style (gender-bending expression)
+- Notes: Preserve "king" not "queen" — the gender incongruity is part of Marie's wit
+
+### voiture à volonté
+- Translation: a carriage at our disposal
+- Context: Hired carriage available whenever needed
+- Notes: "at our disposal" captures the freedom implied; NOT "at will" (too stiff)
+
+### faire de l'excentricité
+- Translation: to make a stir through eccentricity
+- Context: Strategic unconventionality to become famous
+- Notes: NOT mere "to be eccentric" — carries purposefulness
+
+### femmes célèbres
+- Translation: celebrated women
+- Context: Famous/notorious women (Marie's aspiration)
+- Notes: "Celebrated" is ambiguous like the French (fame vs. notoriety)
+
+### signe de reconnaissance
+- Translation: badge / recognition sign
+- Context: Emblem of membership in Marie's imagined women's club
+- Notes: "Badge" in club context; "recognition sign" in other contexts
+
+### buia compagnia
+- Translation: ==buia compagnia== [keep Italian]
+- Context: Marie's ironic Italian nickname for the group of young men at the café
+- Notes: Keep Italian, add footnote: "dark company"
+
+### où il n'y a pas de poissons, une écrevisse passe pour un poisson
+- Translation: "where there are no fish, a crayfish passes for a fish"
+- Context: Russian proverb — making do with second-best
+- Notes: Quote verbatim; footnote as Russian proverb
+
+### comité de censure
+- Translation: *comité de censure* (keep French)
+- Context: Tsarist committee reviewing books imported into Russia
+- Notes: Italicize; add footnote on two-month wait and complications
+
+### déferrée et la queue entre les jambes
+- Translation: unshod and with my tail between my legs
+- Context: Idiom for humiliated defeat (mixed animal metaphors: horse + dog)
+- Notes: "Unshod" (like an unshod horse) + "tail between legs" — keep both parts
+
+### richard
+- Translation: moneybag(s)
+- Context: Contemptuous term for a rich but vulgar man
+- Notes: "Moneybag" is the period English equivalent
+
+### mécène
+- Translation: patron of the arts (often ironic)
+- Context: Here applied sarcastically to the vulgar rich Gambard
+- Notes: "So-called patron of the arts" when ironic
+
+### rustre
+- Translation: boor
+- Context: Uncouth, ill-bred person
+- Notes: "Boor" is the precise equivalent; "lout" also acceptable
+
+### sérail
+- Translation: *sérail* (seraglio)
+- Context: Harem — Marie's image of her own confinement
+- Notes: Keep French form; add footnote on first use
+
+### binocle
+- Translation: opera glasses
+- Context: Lorgnette-style glasses for theatre use
+- Notes: "Opera glasses" in theatre context
+
+### lovelace
+- Translation: Lovelace
+- Context: Archetypal seducer from Richardson's *Clarissa* (1748)
+- Notes: Keep as proper noun (character name become common noun); footnote on first use
+
+### teneur de livres
+- Translation: bookkeeper
+- Context: Humble commercial occupation (used to show low origins of Mme de Galve)
+- Notes: Standard equivalent
+
+### invention mondaine
+- Translation: worldly invention
+- Context: Marie's phrase for the railway train (mundane modernity contrasted with sublime nature)
+- Notes: "Worldly" captures the sense of "belonging to the world of commerce/civilization"
+
+## People (from Carnet 030)
+
+### Girofla / Terffidua
+- Translation: Girofla / Terffidua (keep both)
+- Context: Marie's nicknames for the same young man (Audiffret spelled backwards)
+- Notes: "Girofla" from Lecocq's 1874 operetta *Girofle-Girofla*; "Terffidua" = Audiffret reversed; both used interchangeably
+
+### Prince Arthur d'Angleterre
+- Translation: Prince Arthur of England
+- Context: Arthur, Duke of Connaught (1850-1942), Queen Victoria's third son, visiting Nice
+- Notes: Footnote on first use
+
+### Prince of Wales
+- Translation: the Prince of Wales
+- Context: Future Edward VII, Albert Edward (1841-1910), visiting Nice March 1875
+- Notes: Physical description: below average height, somewhat stout, grey eyes, blond beard, notably bald
+
+### Jarochewsky
+- Translation: Jarochewsky
+- Context: Polish social climber who befriended Prince of Wales through gambling
+- Notes: Keep name as-is; context makes his status clear
+
+### Countess de Galve (née Basilewsky)
+- Translation: the Countess de Galve
+- Context: Russian-born social climber who married French count; née Basilewsky; first married a music teacher
+- Notes: Marie compares her origins to her own (Basilewsky ≈ Bachkirtseff)
+
+### Prince Tchelesky
+- Translation: Prince Tchelesky
+- Context: Notorious Russian womanizer, notorious in divorce courts
+- Notes: Keep name; "lovelace" and "Don Juan" used as epithets alongside
+
+### diacre
+- Translation: deacon
+- Context: Russian Orthodox clergy — not Catholic deacon
+- Notes: "the deacon" — Orthodox context implied; can add footnote if needed
+
+### Laferrière / Caroline
+- Translation: Laferrière (keep French)
+- Context: Prestigious Parisian couture house; Caroline is the formidable vendeuse
+- Notes: "Caroline" wielded enormous power over clients; "une puissance"
+
+### Reboux
+- Translation: Reboux (keep French)
+- Context: Most famous Parisian milliner of the era
+- Notes: Caroline Reboux — no English equivalent needed
+
+### Walery
+- Translation: Walery (keep French)
+- Context: Prestigious Parisian portrait photographer
+- Notes: Lucien Walery — studios in Paris and Nice
+
+## People (from Carnet 028)
+
+### Lubimoff
+- Translation: Lubimoff
+- Context: Family acquaintance, grief-stricken since wife's death
+- Notes: Keep Russian name spelling as-is
+
+### Furstenberg
+- Translation: Furstenberg
+- Context: Social acquaintance in Nice; contemptuous reference
+- Notes: Keep as-is
+
+### Mauldre
+- Translation: de Mauldre / Mauldre
+- Context: Young Belgian man who falsely claimed to have a message from Spa
+- Notes: "M. de Mauldre" on first use; "Mauldre" thereafter
+
+### Gambart
+- Translation: Gambart
+- Context: Eccentric art dealer; alternates between warm and cold behavior
+- Notes: Keep as-is; Marie's exasperated epithets: "le fou Gambart / l'imbécile Gambart"
+
+### Leclerc
+- Translation: Leclerc
+- Context: Marie's tutor for chemistry and physics
+- Notes: Keep as-is
+
+### Laussel
+- Translation: Laussel
+- Context: One of Marie's tutors
+- Notes: Keep as-is
+
+### Blackprince
+- Translation: Blackprince (keep English)
+- Context: Coded nickname (referent uncertain) appearing in Marie's dreams
+- Notes: In English in the original — keep as-is, mark with ==highlight==, footnote
+
+### Clark (from Spa)
+- Translation: Clark
+- Context: Acquaintance from Spa (Belgium) whom Marie encounters in Paris
+- Notes: Keep as-is; Marie treasures him as a living soul in isolation
 
 ## Social & Cultural Terms (from Carnet 005)
 
@@ -1609,3 +1865,296 @@ When Marie writes in Italian/Russian:
 - Translation: Prodgers
 - Context: Venue/person at Monte Carlo where Georges causes a scene
 - Notes: Carnet 024 Oct 19; Georges slaps Prodgers while drunk
+
+%% 2026-03-01T10:30:00 TR: Added terms from carnet 026 -- Nice autumn season Nov 1874, opera outings, body pride, Paul's debauchery %%
+
+## Social & Cultural Terms (from Carnet 026)
+
+### jambons (as insult)
+- Translation: hams
+- Context: Marie's contemptuous epithet for the Howard sisters' legs; "ces jambons Howard"
+- Notes: Carnet 026 Nov 19; keep the insult's coarse vigor — "those Howard hams"
+
+### saligaud (as lecher)
+- Translation: old lecher / dirty old man
+- Context: In carnet 026 applied to Zibine staring at a woman's decolletage; more sexual register than earlier uses
+- Notes: Carnet 026 Nov 22; "ce vieux saligaud" = the old lecher. Earlier uses (carnet 013) = cad; here = lecher
+
+### bien faite
+- Translation: well formed
+- Context: Period compliment for a woman's figure; Marie is proud of her own body
+- Notes: Carnet 026 Nov 22; "tant que j'aurai un si beau corps" follows — "well formed" preserves the period dignity
+
+### œil-de-bœuf (fashion)
+- Translation: *œil-de-bœuf* (keep French, with footnote gloss)
+- Context: Round opening cut in a bodice to reveal the décolletage; 1870s fashion detail
+- Notes: Carnet 026 Nov 22; footnote: "French: a bull's-eye opening — a round cut-out in the bodice revealing the décolletage"
+
+### carlin
+- Translation: pug
+- Context: Pug dog breed; small, flat-faced companion dog fashionable in 19th century
+- Notes: Carnet 026 Nov 23; "un petit carlin" = a little pug. NOT a proper name.
+
+### vaporeuse (comme un nuage)
+- Translation: ethereal (as a cloud)
+- Context: Period compliment for feminine grace, lightness, an otherworldly quality
+- Notes: Carnet 026 Nov 22; "vaporeuse comme un nuage" = ethereal as a cloud; NOT "vaporous" (too scientific)
+
+### Honni soit qui mal y pense
+- Translation: *Honni soit qui mal y pense* (keep French, italicized)
+- Context: Motto of the Order of the Garter; Marie cites it audaciously when defending beauty being seen
+- Notes: Carnet 026 Nov 22; well-known in English; "Shame on him who thinks evil of it." Keep French.
+
+### Pâris (person)
+- Translation: Pâris
+- Context: Person's name with accent, NOT the city of Paris; keep accent to distinguish
+- Notes: Carnet 026 Nov 19; "Pâris a déménagé chez nous" = Pâris has moved in with us
+
+### chenapans
+- Translation: scoundrels / good-for-nothings
+- Context: Marie's term for Paul's disreputable associates; slightly less serious than "misérables"
+- Notes: Carnet 026 Nov 23; "des chenapans, des espèces de pickpockets"
+
+## People (from Carnet 026)
+
+### Seignettes
+- Translation: the Seignettes
+- Context: Social-climbing couple (parvenus) who snub Maman on the Quai Masséna; acquaintances from Mme Howard's
+- Notes: Carnet 026 Nov 19; Marie calls them "these species of parvenu" and "ces horreurs"
+
+### Pâris (person)
+- Translation: Pâris
+- Context: Person (possibly a family member or companion) who moves in when Nina goes to Geneva
+- Notes: Carnet 026 Nov 19; accented name distinguishes from the city
+
+### Walitsky
+- Translation: Walitsky
+- Context: Family member or companion; mimics Merjeewsky at dinner, driving Marie to fury
+- Notes: Carnet 026 Nov 20; recurring; serves as comic foil in the Merjeewsky aversion passage
+
+### Morgan (Mr)
+- Translation: Mr Morgan
+- Context: An Englishman Paul met in Geneva; dines with the family; promises Marie a pug
+- Notes: Carnet 026 Nov 23; briefly mentioned
+
+### Princess Nadine Galitzine
+- Translation: Princess Nadine Galitzine
+- Context: Russian noblewoman; source of the "weep through gold than through iron" aphorism; "a woman of little wit but agreeable"
+- Notes: Carnet 026 Nov 22; use full name on first mention per entry
+
+%% 2026-03-01T11:00:00 TR: Added terms from carnet 025 — Nice autumn Oct-Nov 1874, Hamilton obsession intensifies, family quarrels, casino %%
+
+## Social & Cultural Terms (from Carnet 025)
+
+### Madeleine (family slang)
+- Translation: an absolute Madeleine (contextual)
+- Context: In Marie's household, "Madeleine" became family slang for an extremely ugly woman, derived from a monstrous seamstress of that name
+- Notes: Carnet 025 Oct 27; translate contextually — "our Madeleine" = "our name for ugly women"
+
+### dimanchois [sic]
+- Translation: Sunday promenaders [sic]
+- Context: Marie's neologism from "dimanche" (Sunday) for people who parade on Sundays
+- Notes: Carnet 025 Nov 1; preserve [sic] marker; "beaux dimanchois" = fine Sunday promenaders
+
+### fête vénitienne
+- Translation: Venetian festival
+- Context: Celebration with illuminated boats, lanterns on water, fireworks — in the Venetian style
+- Notes: Carnet 025 Oct 28; recurrent Nice entertainment form; "fête vénitienne" is established terminology
+
+### trente-et-quarante
+- Translation: trente-et-quarante (keep French, with footnote on first use)
+- Context: Casino card game where players bet on whether the dealer's cards total closer to 30 or 40
+- Notes: Carnet 025 Nov 4; footnote: "a casino card game in which players bet on two rows of cards, totalling between 31 and 40"
+
+### cocodes-ques / cocotte-ish
+- Translation: *cocotte*-ish (informal)
+- Context: Marie's neologism from "cocotte" (kept woman); adjective meaning "characteristic of cocottes"
+- Notes: Carnet 025 Nov 4; keep the neologistic quality
+
+### regardations [sic]
+- Translation: *regardations* [sic]
+- Context: Marie's neologism for the act of mutual staring/gazing exchanges
+- Notes: Carnet 025 Nov 6; already in TM from carnet 016 — consistent treatment; flag with [sic]
+
+### plobster / plobsters
+- Translation: ==plobster== / ==plobsters== (highlight + footnote "Marie's invented code word for a potential admirer")
+- Context: Marie's private code word for potential admirers, apparently from English "lobster"
+- Notes: Carnet 025 Nov 10, Nov 18; in English in original; highlight with ==; footnote on first use per entry
+
+### me faire émailler
+- Translation: have myself enameled
+- Context: Period cosmetic treatment to hide smallpox scars (pockmarks) with a kind of skin paste/enamel
+- Notes: Carnet 025 Oct 28; footnote: "Face enameling was a 19th-century cosmetic treatment used to cover smallpox scars"
+
+### Ventre-Saint-Gris
+- Translation: *Ventre-Saint-Gris!* (keep French, with footnote on first use)
+- Context: Henri IV's famous archaic oath; euphemism for "God's belly"
+- Notes: Carnet 025 Nov 8; footnote: "*Ventre-Saint-Gris!* — Henri IV's famous oath, a mild exclamation meaning roughly 'By God's belly.'"
+
+### Porthos (dog name)
+- Translation: Porthos
+- Context: Marie's English mastiff from London; named after the large musketeer in Dumas's *The Three Musketeers*
+- Notes: Carnet 025 Oct 28+; also called Carlo or Victor interchangeably (carnet 025 Nov 12)
+
+### perce-neige
+- Translation: snowdrops
+- Context: Small white spring flowers (Galanthus); the first to appear after snow
+- Notes: Carnet 025 Nov 12; "courir chercher des perce-neige" = "run in search of snowdrops"
+
+### spiritisme
+- Translation: spiritualism
+- Context: Victorian occult practice; séances, spirit communication; photography of spirits
+- Notes: Carnet 025 Nov 7; Lubimoff practices it after his wife's death; "spirit photography" involves photographing claimed apparitions
+
+### abonnés / abonnés à la lettre B
+- Translation: subscription / letter B subscribers
+- Context: Opera subscription by letter designation; the letter determined which evenings the subscriber attended
+- Notes: Carnet 025 Nov 14; footnote: "Opera subscribers were assigned seats by letter — the letter B designated their assigned evenings"
+
+## People (from Carnet 025)
+
+### Biasini
+- Translation: Biasini
+- Context: Architect working on the family villa construction in Nice
+- Notes: Carnet 025 Nov 5, Nov 17; provides plans and cost estimates
+
+### Dori
+- Translation: Dori
+- Context: Family dog, small and delicate; collapses and is revived by Walitsky (Nov 15)
+- Notes: Carnet 025 Nov 11, Nov 15; distinct from the mastiff Porthos
+
+### Zoé (Pelikan)
+- Translation: Zoé
+- Context: Mlle Pelikan's first name; 20-year-old brunette, well-formed, fresh complexion; new friend of Marie's
+- Notes: Carnet 025 Nov 14, Nov 15; Marie decides to use first name as shorter
+
+### Alexandre (uncle)
+- Translation: Uncle Alexandre
+- Context: Father's brother who has taken control of both papa's and aunt's properties in Russia, stealing half the revenues
+- Notes: Carnet 025 Nov 17; "my dear uncle" used with heavy sarcasm
+
+### Lubimoff (the son)
+- Translation: young Lubimoff / the young widower
+- Context: Young widower (wife died March 1874); practices spiritualism; poor horseman; senator's son from Petersburg; acquaintance of Anitchkoff
+- Notes: Carnet 025 Nov 6+; "of the gray family" — Marie's classification for dull but inoffensive men
+
+%% 2026-03-01T13:00:00 TR: Added terms from carnet 027 — Nice Dec 1874, lawsuit questionnaire, reverse-spelling codes, Paul's debauchery, Howard affair %%
+
+## Social & Cultural Terms (from Carnet 027)
+
+### Terffidua
+- Translation: Terffidua (keep as-is, do NOT decode in text)
+- Context: Marie's reverse-spelling code for Audiffret (Audiffret reversed). Privacy device for diary.
+- Notes: Carnet 027 Dec 12+; "Nietsnegttiw" = Wittgenstein reversed; "Enoteas" = Saëtone reversed; "Enotëas" (with accent) = same. In footnote on first use per entry: "Terffidua = Audiffret spelled backwards."
+
+### Enoteas / Enotëas
+- Translation: Enoteas (keep as-is)
+- Context: Marie's reverse-spelling code for Saëtone. Privacy device.
+- Notes: Carnet 027 Dec 18+; footnote on first use per entry.
+
+### froid de loups
+- Translation: wolf-cold (or: bitterly cold)
+- Context: French idiom for intense cold — literally "cold of wolves"
+- Notes: Carnet 027 Dec 18; "un froid de loups" = bitterly cold. Add brief gloss in parenthetical or footnote.
+
+### foi de Marie!
+- Translation: *Foi de Marie!* (keep French, italicized)
+- Context: Marie's personal oath modeled on *foi de gentilhomme* (a gentleman's word); applied to herself
+- Notes: Carnet 027 Dec 17; footnote: "*Foi de Marie!* — 'On Marie's word!' An oath modeled on the formula *foi de gentilhomme*."
+
+### mater dolorosa (ironic use)
+- Translation: *mater dolorosa* (keep Latin, italicized)
+- Context: Catholic title of the Virgin Mary ("sorrowful mother"); used ironically by Merjeewsky for Thérèse's mournful expression
+- Notes: Carnet 027 Dec 11; footnote explaining the ironic repurposing
+
+### La vraie clef des songes
+- Translation: *La vraie clef des songes* (keep French title, italicized)
+- Context: "The True Key of Dreams"; popular 19th c. dream interpretation manual by Lucimius
+- Notes: Carnet 027 Dec 11, Dec 19; slightly different full title than "La clef des songes" (carnet 023) — use full title when Marie gives it
+
+### questionnaire (legal)
+- Translation: questionnaire / the questionnaire
+- Context: Legal document sent from Russia for the family lawsuit; Marie's family must submit written answers
+- Notes: Carnet 027 Dec 10, Dec 12, Dec 13; use italic *questionnaire* on first use per entry; thereafter plain
+
+### Deo juvante
+- Translation: *Deo juvante* (keep Latin, italicized)
+- Context: "With God's help"; standard Latin expression; Marie uses it for undertakings she hopes to accomplish
+- Notes: Carnet 029 Feb 15; footnote: "*Deo juvante* (Latin): 'with God's help.'"
+
+### époque hamiltonienne / Hamiltonian era
+- Translation: the Hamiltonian era
+- Context: Marie's own coinage for the period when she was most obsessed with the Duke of Hamilton
+- Notes: Carnet 029 Jan 27; keep as translated; reflects her ironic self-awareness about the obsession
+
+### s'apprivoiser (governess)
+- Translation: to be tamed / growing tame
+- Context: Marie uses the animal-taming metaphor for her English governesses slowly beginning to speak
+- Notes: Carnet 029 Feb 16; "L'Anglaise s'apprivoise peu à peu" = "The Englishwoman is slowly being tamed"
+
+### de rente
+- Translation: a year / per year (in income context)
+- Context: Annual income from investments or estates, not a salary; measure of wealth in 19th c.
+- Notes: Carnet 029 Feb 14; "trois cent mille francs de rente" = three hundred thousand francs a year in income; always gloss with footnote on first use per entry
+
+### réponses (legal)
+- Translation: answers / the answers
+- Context: The written responses to the Russian lawsuit questionnaire; Marie helps draft them
+- Notes: Carnet 027 Dec 12-13; use italic *réponses* on first use per entry
+
+### fabricants de papier
+- Translation: paper manufacturers
+- Context: Marie's contemptuous epithet for the Howard family (nouveaux riches industrialists)
+- Notes: Carnet 027 Dec 17; preserve the contemptuous register — NOT "papermakers"
+
+### basta! (Italian, emphatic)
+- Translation: ==basta!== (highlight + footnote "Italian: 'Enough!'")
+- Context: Italian emphatic code-switch, used for finality; Marie drops into Italian for strong dismissals
+- Notes: Carnet 027 Dec 24 (and earlier entries); keep Italian, highlight, footnote
+
+### Connais-tu le pays (aria)
+- Translation: *Connais-tu le pays...* (keep French title, italicized)
+- Context: Opening aria from Ambroise Thomas's opera *Mignon* (1866); "Do you know the land where the orange-tree flowers?" Marie hears Florence Foster sing it
+- Notes: Carnet 027 Dec 11; footnote: "The opening aria from Act I of Ambroise Thomas's *Mignon* (1866), based on Goethe's *Wilhelm Meister*."
+
+### de bonne foi
+- Translation: in earnest / genuinely
+- Context: Period expression: sincerely, in good faith; contrasts with theatrical pretense
+- Notes: Carnet 027 Dec 24; applied to Pastalis who "was genuinely" doing her grimaces
+
+### d'ailleurs (mio eterno)
+- Translation: ==*mio eterno d'ailleurs*== (highlight + footnote)
+- Context: Marie's self-mocking Italian meta-comment: "my eternal 'besides.'" Acknowledges her verbal tic.
+- Notes: Carnet 027 Dec 24; footnote: "*mio eterno d'ailleurs* (Italian): 'my eternal "besides"' — Marie's ironic self-annotation on her habitual use of *d'ailleurs* (besides/moreover)."
+
+### pur dog (English)
+- Translation: ==pur dog== (highlight + footnote "In English in the original — a purebred dog")
+- Context: Marie's English phrase for a purebred dog, used with French article "un"
+- Notes: Carnet 027 Dec 16; "mon chien nouveau est un pur dog" — keep English term, highlight
+
+### grandeur d'âme
+- Translation: *grandeur d'âme* (keep French, italicized)
+- Context: Greatness of soul; nobility of spirit; required even for murder, Marie argues
+- Notes: Carnet 027 Dec 18; "pour tuer il faut encore une certaine grandeur d'âme" = to kill one still needs a certain grandeur of soul
+
+## People (from Carnet 027)
+
+### Florence Foster
+- Translation: Florence / Miss Foster
+- Context: English companion who rides and attends concerts with Marie in Nice; also seen at Ostende (carnet 023)
+- Notes: Carnet 027 Nov-Dec 1874; addressed as "Florence" in conversation; "the little Foster" when mentioned by others
+
+### Sabatini
+- Translation: Sabatini
+- Context: Marie's Italian woman companion/servant ("l'Italienne"); walks with Marie and Victor
+- Notes: Carnet 027 Dec passim; referred to parenthetically as "(the Italian woman)"
+
+### Victor / Porthos / Bagatelle / Prater
+- Translation: Victor / Porthos / Bagatelle / Prater (keep all names as-is)
+- Context: Various family dogs appearing in carnet 027; Victor = mastiff (also called Porthos in carnet 025)
+- Notes: Carnet 027 passim; Bagatelle = "my faithful Bagatelle"; Prater = "the vagabond Prater"
+
+### Walitsky
+- Translation: Walitsky (keep as-is)
+- Context: Family companion/helper who drafts legal documents poorly; begins his questionnaire answer with the grammatical blunder *Je me suis née*
+- Notes: Carnet 027 Dec 12-13; also known from earlier carnets
