@@ -134,16 +134,10 @@ export function getLocale(): SupportedLocale {
  */
 export function getTranslationHref(locale: SupportedLocale, currentPath?: string): string {
   // Determine the base content path for this locale
-  let base: string;
-  if (locale === 'fr') {
-    // French users read the original — it IS their content
-    base = '/original';
-  } else {
-    const contentPath = localeToContentPath(locale);
-    // Active translation content paths — must mirror DIARY_LANGUAGES isTranslation entries
-    const activeTranslations = new Set(['cz', 'en', 'uk']);
-    base = activeTranslations.has(contentPath) ? `/${contentPath}` : '/cz';
-  }
+  const contentPath = localeToContentPath(locale);
+  // Active translation content paths — must mirror DIARY_LANGUAGES isTranslation entries
+  const activeTranslations = new Set(['cz', 'en', 'uk', 'fr']);
+  const base = activeTranslations.has(contentPath) ? `/${contentPath}` : '/cz';
 
   // If we have a current path on a diary page, preserve the suffix
   if (currentPath) {

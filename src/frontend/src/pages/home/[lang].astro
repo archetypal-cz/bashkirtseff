@@ -28,7 +28,7 @@ const carnets = [
 ];
 
 // Map UI locale to content path for links
-const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'original' };
+const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'fr' };
 const languagePath = localeToContent[lang as string] ?? 'cz';
 
 // Build "This Day" data at build time - use content for this language
@@ -82,20 +82,7 @@ const thisDayTranslations = {
       </div>
     </section>
 
-    <!-- This Day in Marie's Life -->
-    <section class="py-12 bg-parchment border-b border-ink/10">
-      <div class="max-w-3xl mx-auto px-4">
-        <ThisDayEntry
-          client:load
-          thisDayData={thisDayData}
-          languagePath={languagePath}
-          uiLocale={lang}
-          translations={thisDayTranslations}
-        />
-      </div>
-    </section>
-
-    <!-- Introduction -->
+    <!-- Introduction with portrait -->
     <section class="py-16 bg-parchment">
       <div class="max-w-3xl mx-auto px-4">
         <div class="prose-diary">
@@ -124,6 +111,19 @@ const thisDayTranslations = {
 
           <div class="clear-both"></div>
         </div>
+      </div>
+    </section>
+
+    <!-- This Day in Marie's Life -->
+    <section class="py-12 bg-parchment border-b border-ink/10">
+      <div class="max-w-3xl mx-auto px-4">
+        <ThisDayEntry
+          client:load
+          thisDayData={thisDayData}
+          languagePath={languagePath}
+          uiLocale={lang}
+          translations={thisDayTranslations}
+        />
       </div>
     </section>
 

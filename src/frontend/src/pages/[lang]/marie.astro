@@ -15,7 +15,8 @@ const { lang } = Astro.params;
 const t = createT(lang as SupportedLocale);
 
 // Map UI locale to content path for links
-const contentPath = lang === 'cs' ? 'cz' : (lang === 'fr' ? 'original' : 'cz');
+const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'fr' };
+const contentPath = localeToContent[lang as string] ?? 'cz';
 ---
 
 <ReadingLayout
