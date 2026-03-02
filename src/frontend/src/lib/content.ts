@@ -485,6 +485,12 @@ function parseParagraphs(content: string, language: string): Paragraph[] {
       let text = translationLines.join('\n').trim();
       text = stripCommentMarkers(text);
 
+      // French edition: the original text in comments IS the content.
+      // If no visible text exists but we have original text, promote it.
+      if (!text && language === 'fr' && currentOriginal) {
+        text = currentOriginal;
+      }
+
       if (text) {
         const { html, footnoteRefs } = processTextToHtml(text);
         const languages = extractLanguages(glossaryTags);
@@ -492,7 +498,7 @@ function parseParagraphs(content: string, language: string): Paragraph[] {
           id: currentId,
           text,
           html,
-          originalText: currentOriginal,
+          originalText: language === 'fr' ? undefined : currentOriginal,
           glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
           footnoteRefs: footnoteRefs.length > 0 ? footnoteRefs : undefined,
           languages

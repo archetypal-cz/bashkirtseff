@@ -129,12 +129,16 @@ export function extractDateFromFilename(filename: string): string {
  * Detect language from file path
  */
 export function detectLanguage(filePath: string): string {
-  if (filePath.includes('/cz/')) {
-    return 'cz';
-  } else if (filePath.includes('/_original/')) {
+  if (filePath.includes('/_original/')) {
     return 'original';
+  } else if (filePath.includes('/cz/')) {
+    return 'cz';
   } else if (filePath.includes('/en/')) {
     return 'en';
+  } else if (filePath.includes('/uk/')) {
+    return 'uk';
+  } else if (filePath.includes('/fr/')) {
+    return 'fr';
   }
 
   return 'original';

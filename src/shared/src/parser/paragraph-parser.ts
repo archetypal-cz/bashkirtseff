@@ -93,6 +93,17 @@ export class ParagraphParser {
     // Extract footnotes
     entry.footnotes = this.extractFootnotes(lines);
 
+    // French edition: the original text in comments IS the content.
+    // Promote originalText → translatedText where no visible text exists,
+    // so the frontend renders the paragraph content.
+    if (language === 'fr') {
+      for (const para of entry.paragraphs) {
+        if (!para.translatedText && para.originalText) {
+          para.translatedText = para.originalText;
+        }
+      }
+    }
+
     return entry;
   }
 
