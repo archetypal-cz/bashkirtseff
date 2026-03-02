@@ -2053,7 +2053,12 @@ export function buildThisDayData(language: string = 'original'): ThisDayData {
       // Get preview in the target language if available, otherwise from original
       const translationExists = hasTranslation(carnet.id, entryId, language);
       const previewLang = translationExists ? language : 'original';
-      const preview = getEntryPreview(carnet.id, entryId, previewLang, 200);
+      let preview = getEntryPreview(carnet.id, entryId, previewLang, 200);
+
+      // Fallback to original if translation preview is empty
+      if (!preview && previewLang !== 'original') {
+        preview = getEntryPreview(carnet.id, entryId, 'original', 200);
+      }
 
       // Skip entries without meaningful content
       if (!preview) continue;
