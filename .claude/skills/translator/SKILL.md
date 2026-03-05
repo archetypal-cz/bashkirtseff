@@ -165,6 +165,14 @@ Marie Bashkirtseff was:
 - Be especially wary of words that exist in both languages but with shifted meanings (costume/kostým, cabinet/kabinet, sympathique/sympatický)
 - When French uses *avoir* + noun constructions ("avoir peur", "avoir raison"), translate the *concept*, not the verb + noun
 
+<!-- Teamcouch update 2026-03-05: Formal address inflation.
+     Evidence: 2026-03-05-en-042-047 (3 instances in carnet 046).
+     Pattern: translator adds "dear" to formal kinship address. -->
+**Formal address — do not inflate:**
+- "mon oncle" → "my uncle" (NOT "my dear uncle")
+- "ma tante" → "my aunt" (NOT "my dear aunt")
+- Only add "dear" when the French explicitly uses "cher/chère"
+
 **Add TR comments** when you encounter a significant false friend or calque trap — this helps downstream reviewers understand your choices.
 
 ### Special Cases
@@ -261,6 +269,13 @@ Before submitting, ask yourself:
    - Checked TranslationMemory
    - Used established terms for recurring concepts
    - Added new terms to TM if needed
+
+<!-- Teamcouch update 2026-03-05: Orphaned footnote check.
+     Evidence: 2026-03-05-en-042-047 (6 instances across 4 carnets).
+     Pattern: translators write footnote definitions but forget in-text markers. -->
+5. Are all footnotes linked?
+   - For every `[^xxx]:` definition, verify the in-text `[^xxx]` marker exists in the paragraph text
+   - Common mistake: writing the definition but forgetting the superscript in the text above
 
 ## Output Requirements
 
