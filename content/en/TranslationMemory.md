@@ -3027,3 +3027,89 @@ When Marie writes in Italian/Russian:
 - Translation: reticule
 - Context: Small ornamental purse carried by a lady; "aumônière de satin blanc" = white satin reticule
 - Notes: Carnet 051 Dec 30; period fashion accessory; "reticule" is the correct English 19th c. equivalent
+
+%% 2026-03-05T12:00:00 TR: Added terms from carnet 053 — Rome Jan–Feb 1876, Soroka suitor subplot, Galula companion, salon noir/blanc Roman social world, omnisapiente coinage %%
+
+## Social & Cultural Terms (from Carnet 053)
+
+### Soroka
+- Translation: Soroka (keep Russian code-name as-is)
+- Context: Marie's private code-name for a Roman suitor who follows her; Russian for "magpie" — implying a flashy, chattering bird
+- Notes: Carnet 053 Jan 25 onward; footnote on first use per entry: "Soroka: Russian for magpie — Marie's code-name for a Roman admirer"
+
+### Galula (companion to Soroka)
+- Translation: Galula (keep code-name as-is)
+- Context: The companion of Soroka; Marie uses "Galula" (her standard code for eligible bachelor) as a proper name for this specific man
+- Notes: Carnet 053 Feb 7 onward; distinct from generic use of "Galula" — treated here as a personal code-name
+
+### petit Soroka
+- Translation: *petit* Soroka
+- Context: Marie's distinction when she suspects there are two different Sorokas; the smaller/darker one is *petit* Soroka, possibly not the same as the theatre Soroka
+- Notes: Carnet 053 Feb 7; keep the French "*petit*" in italics to signal it is a qualifier, not a different name
+
+### terza sera / prima sera
+- Translation: *terza sera* / *prima sera* (keep Italian, italicized)
+- Context: Roman opera subscription nights; the first and third evenings were aristocratic, the second and fourth for the general public
+- Notes: Carnet 053 Feb 8; footnote on first occurrence per entry
+
+### salons blancs / salons noirs
+- Translation: the *salons blancs* / the *salons noirs* (keep French, italicized)
+- Context: Political division in post-unification Rome: "white" salons loyal to the Italian monarchy, "black" salons loyal to the Pope (who refused to recognise the Italian state)
+- Notes: Carnet 053 Feb 9; footnote on first occurrence; Marie chooses the Court (*salons blancs*)
+
+### omnisapiente
+- Translation: *omnisapiente* (keep Marie's mock-Latin coinage, italicized)
+- Context: Marie's satirical mock-Latin for "all-knowing" — applied to Mme Soukowkine's insufferable pretension to universal knowledge
+- Notes: Carnet 053 Feb 11; keep as Marie's coinage; add brief footnote on first occurrence per entry
+
+### par terre
+- Translation: *par terre* (keep French, italicized)
+- Context: Literally "on the ground/floor" — Marie uses this to mean crushed, brought low, defeated
+- Notes: Carnet 053 Feb 11; "je me sens *par terre*" → "I feel *par terre*" with implied gloss from context
+
+### baignoire (theatre)
+- Translation: *baignoire* (keep French, italicized, with footnote)
+- Context: A ground-floor theatre box, enclosed on three sides; shaped like a bathtub (*baignoire*); one of the most socially prominent positions in the house
+- Notes: Carnet 053 Jan 31; footnote on first occurrence per entry: "*Baignoire*: a ground-floor theatre box"
+
+### de la graisse (Russian idiom)
+- Translation: *de la graisse* (keep French gloss of Russian phrase, italicized)
+- Context: From Russian *ot zhiru* — "from the fat/excess"; meaning problems that come from having too much, not real hardship; "a dog goes mad from being too well fed"
+- Notes: Carnet 053 Feb 2; Marie explains the idiom herself; keep French gloss and explain in footnote
+
+### solliciteuse
+- Translation: *solliciteuse* (keep French, italicized, with contextual gloss)
+- Context: A woman who solicits, petitions, begs for social access; Marie finds the role humiliating to the point of physical revulsion
+- Notes: Carnet 053 Feb 11; "faire le métier de solliciteuse" → "taken up the trade of *solliciteuse*"
+
+### Lindor
+- Translation: Lindor (keep as literary allusion)
+- Context: Stock name for a gallant suitor in 18th-century French comedy; from Beaumarchais's *Le Barbier de Séville*; used ironically for the two men standing beneath the hotel window
+- Notes: Carnet 053 Feb 7; "nos Lindors" = our Lindors; footnote on first use per entry
+
+## People (from Carnet 053)
+
+### Besnard (Albert)
+- Translation: Besnard (keep name as-is)
+- Context: Albert Besnard (1849–1934), French painter at the Villa Médicis (Rome Prize laureate); Marie appends "Galula" as her private code but in the translation use "Besnard"
+- Notes: Carnet 053 Jan 28; "Besnard-Galula" in source = Besnard; his former studio was Horace Vernet's
+
+### Paparigopoulos (Michel)
+- Translation: Paparigopoulos (keep name as-is)
+- Context: Greek chargé d'affaires in Rome; encountered via a case of mistaken identity with a different Paparigopoulos from Spa
+- Notes: Carnet 053 Jan 28–29; keep full name; may abbreviate to "M. Paparigopoulos" after first mention
+
+### Baron Visconti
+- Translation: Baron Visconti (keep name as-is)
+- Context: Elderly Roman aristocrat who advises the family on navigating the *salons blancs / noirs* divide; all-powerful social figure despite age
+- Notes: Carnet 053 Feb 9; "vieux beau tout-puissant" = all-powerful old dandy
+
+### Ruspoli (Prince, as codename)
+- Translation: Ruspoli (keep as codename and possibly real name)
+- Context: Handsome officer encountered at the Pincio; Marie and Lola call him "Prince Ruspoli" because he resembles a portrait; may be the real Ruspoli
+- Notes: Carnet 053 Feb 1; "Sobaka" (Russian for dog) is Lola's parallel code-name for him
+
+### Sobaka
+- Translation: Sobaka (keep Russian code-name as-is)
+- Context: Lola's private Russian code-name for Prince Ruspoli; Russian for "dog" — used affectionately/satirically
+- Notes: Carnet 053 Feb 4; footnote on first use: "Sobaka: Russian for dog — Lola's nickname for Ruspoli"
