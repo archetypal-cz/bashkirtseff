@@ -3113,3 +3113,109 @@ When Marie writes in Italian/Russian:
 - Translation: Sobaka (keep Russian code-name as-is)
 - Context: Lola's private Russian code-name for Prince Ruspoli; Russian for "dog" — used affectionately/satirically
 - Notes: Carnet 053 Feb 4; footnote on first use: "Sobaka: Russian for dog — Lola's nickname for Ruspoli"
+
+%% 2026-03-05T14:30:00 TR: Added terms from carnet 050 — Nice Nov–Dec 1875, Audiffret obsession, Christmas pranks %%
+
+## Social & Cultural Terms (from Carnet 050)
+
+### la Pie rasée
+- Translation: the Shaved Magpie
+- Context: Maman's nickname for Audiffret; combines "magpie" (chattering, sociable bird) with "shaved" (his clean-shaven face, unusual in the bearded 1870s)
+- Notes: Carnet 050 Dec 22; keep as "the Shaved Magpie" — the sobriquet is Maman's, not Marie's; self-explanatory in context
+
+### Mimile
+- Translation: Mimile (keep as-is)
+- Context: Childish diminutive of Émile (Audiffret's first name); used in the Christmas prank letter to mock him as a naughty child
+- Notes: Carnet 050 Dec 24; "les joujoux sont pour petit Mimile" → "the toys are for little Mimile"; keep as-is — the childishness is the joke
+
+### Biou / Bibi
+- Translation: Biou / Bibi (keep as-is)
+- Context: Marie's affectionate-contemptuous pet names for Audiffret; variant forms of the same nickname; used interchangeably throughout carnet 050
+- Notes: Carnet 050 passim; never translate — proper nicknames
+
+### P.P.C.
+- Translation: P.P.C. (keep with footnote)
+- Context: *Pour Prendre Congé* — formal visiting-card notation meaning "To Take Leave"; used when departing a city
+- Notes: Carnet 050 Dec 24; Marie sends a nun's calling card to Audiffret with P.P.C. added — the irony is the formal leave-taking by nuns; explain in footnote on first use per entry
+
+### flambée (je suis flambée)
+- Translation: done for / I am found out
+- Context: Slang for being exposed, caught out, ruined; "je suis flambée" — Marie has been identified as the author of the anonymous letters and pranks
+- Notes: Carnet 050 Dec 25; "je suis flambée" → "I am done for"; colloquial register
+
+### sauterie
+- Translation: informal dance / little dance
+- Context: A small, informal private dance party; "sauterie" from *sauter* (to jump/hop); less formal than a bal
+- Notes: Carnet 050 Dec 19; "une petite sauterie" → "a little informal dance"; distinguish from "matinée dansante" (afternoon dance at the Cercle)
+
+### matinée dansante
+- Translation: afternoon dance
+- Context: The Cercle de la Méditerranée's subscription dances held in the afternoon; exclusive, requiring an invitation from a permanent member
+- Notes: Carnet 050 Nov–Dec passim; Marie's obsession throughout the carnet; translate as "afternoon dance" or "afternoon dancing party"
+
+### Georges Dandin, tu l'as voulu
+- Translation: Georges Dandin — you wanted it
+- Context: Stock quotation from Molière's *Georges Dandin* (1668); said by the protagonist who brought his humiliation on himself; Marie applies it to herself when her Christmas prank is discovered
+- Notes: Carnet 050 Dec 25; keep the quotation as-is with footnote on first use per entry
+
+### comme un plomb sur le cœur
+- Translation: like lead on the heart
+- Context: An ominous, crushing premonition; "cela m'a été comme un plomb sur le cœur"
+- Notes: Carnet 050 Dec 18; translate directly — the physical weight metaphor carries well in English
+
+## Social & Cultural Terms (from Carnet 055)
+
+### tête baissée
+- Translation: headlong / without thinking
+- Context: Idiomatic: "se jetter tête baissée dans" — to throw oneself headlong into something without reflection
+- Notes: Carnet 055 Mar 27; "se jette tête baissée dans une conversation" → "throws himself headlong into conversation"
+
+### porte-bonheur
+- Translation: lucky charm / good-luck token
+- Context: Person or object considered a bringer of good fortune; Torlonia calls Zucchini Marie's *porte-bonheur* mockingly
+- Notes: Carnet 055 Mar 27; translate directly as "lucky charm" — the mockery is clear from context
+
+### trattoria
+- Translation: *trattoria* (keep Italian, with footnote)
+- Context: Italian: a modest eating-house or restaurant; used here for the Russian artists' informal dining spot
+- Notes: Carnet 055 Mar 27; mark with ==highlight==, footnote "Italian: a modest eating-house"
+
+### Basta!
+- Translation: ==Basta!== (keep Italian, with footnote)
+- Context: Italian: "Enough!" — exclamation of finality; Marie uses it as a code-switch for comic emphasis
+- Notes: Carnet 055 Mar 26; mark with ==highlight==, footnote "*Basta!* — Italian: 'Enough!'"
+
+### contessina
+- Translation: ==*contessina*== (keep Italian, with footnote)
+- Context: Italian teasing diminutive of "contessa"; Torlonia mockingly addresses Marie as the future Countess Bruschetti
+- Notes: Carnet 055 Mar 27; mark with ==highlight==, footnote "*contessina* — Italian: 'little countess'"
+
+### Gloriae Cupiditas
+- Translation: ==Gloriae Cupiditas== (keep Latin, with footnote)
+- Context: Latin: "Desire for Glory" / "Lust for Glory"; Marie's personal motto, used as the colophon of carnet 055
+- Notes: Carnet 055 Mar 27; mark with ==highlight==, footnote "Latin: 'Desire for Glory' — Marie's personal motto"
+
+### veglione
+- Translation: *veglione* (keep Italian, with footnote)
+- Context: Italian: masked ball held on festive nights (mi-carême, Carnival); elaborate midnight masquerade
+- Notes: Carnet 055 Mar 22; mark with footnote on first use per carnet
+
+### mi-carême
+- Translation: *mi-carême* (keep French, with footnote)
+- Context: Mid-Lent Thursday — a traditional festive break in Lent marked by masked balls and public celebrations
+- Notes: Carnet 055 Mar 22; keep in French; footnote on first use per carnet
+
+### barcaccia
+- Translation: *barcaccia* (keep Italian, with footnote)
+- Context: The boat-shaped fountain at the foot of the Spanish Steps (Piazza di Spagna), Rome; by the 1870s also used as an informal name for the terraced seating area nearby where fashionable people gathered
+- Notes: Carnet 055 Mar 22; footnote on first use per carnet: "the boat-shaped fountain at the foot of the Spanish Steps"
+
+### panier (carriage)
+- Translation: *panier* (keep French, with footnote)
+- Context: A light open two-wheeled carriage; NOT the basket meaning; Torlonia drives Marie in his *panier* outside the Porta del Popolo
+- Notes: Carnet 055 Mar 16; mark in italics; footnote "a light open two-wheeled carriage"
+
+### Gloriae Cupiditas / H.G.t.D.o.H.
+- Translation: keep as-is with footnotes
+- Context: Marie's coded carnet colophon: Latin motto + English abbreviation for "His Grace the Duke of Hamilton"
+- Notes: Carnet 055 Mar 27; the two lines function as Marie's private declaration at carnet's close
