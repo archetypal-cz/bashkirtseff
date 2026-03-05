@@ -465,6 +465,155 @@ When Marie writes in Italian/Russian:
 %% 2026-03-01T12:00:00 TR: Added terms from carnet 028 — legal vocabulary, fashion details, Russian proverbs, coded signature %%
 %% 2026-03-01T11:00:00 TR: Added terms from carnet 031 — anonymous letter, dream interpretation, evolution debate, historical figures, coded names %%
 %% 2026-03-01T13:00:00 TR: Added terms from carnet 032 — prayer register, dialect transcription, secret society, Niçois expressions %%
+%% 2026-03-05T12:00:00 TR: Added terms from carnet 036 — bathing establishment vocabulary, parlor game terms, Latin phrases, romantic vocabulary %%
+%% 2026-03-05T12:30:00 TR: Added terms from carnet 040 — legal/inheritance vocabulary, Russian administrative titles, period insults, Latin/Italian operatic passages %%
+%% 2026-03-05T14:00:00 TR: Added terms from carnet 039 — spa vocabulary, verse translation decisions, financial/legal terms, foreign language passages %%
+%% 2026-03-05T15:30:00 TR: Added terms from carnet 037 — Russian folk divination, period fabrics, heraldic terms, Latin idioms, emotional vocabulary %%
+%% 2026-03-05T16:00:00 TR: Added terms from carnet 038 — Paris social vocabulary, cartomancy terms, Marot parody verse, tarot predictions, coded names (Girofla, Fedus, Centifolia) %%
+
+## Social & Cultural Terms (from Carnet 037)
+
+### gadanie / moon divination
+- Translation: moon divination / divination ritual
+- Context: Russian folk ritual for seeing one's future husband in a dream
+- Notes: Preserve incantatory register; "divination ritual" on first use, then "the ritual" or "the invocation"
+
+### casaque / casaquin
+- Translation: loose jacket / dressing jacket
+- Context: A loose-fitting woman's garment; period fashion term
+- Notes: NOT "cassock" (clerical)
+
+### mes Grâces
+- Translation: my Graces
+- Context: Marie's nickname for her circle of girl companions, after the Three Graces
+- Notes: Capitalised; footnote on first use per entry
+
+### transmigration de l'amour
+- Translation: transmigration of love
+- Context: Marie's pseudo-philosophical theory: affection transfers to a new object
+- Notes: Translate literally; Marie's own coinage
+
+### Girofla / le Surprenant
+- Translation: keep as nicknames throughout
+- Context: Marie's nicknames for Audiffret (Girofla = from gillyflower; le Surprenant = the Astonishing One)
+- Notes: Do not translate; treat as proper names
+
+### chante des douceurs
+- Translation: pays compliments / flatters
+- Context: Period idiom — literally "sings sweetnesses"
+- Notes: Translate as "pays compliments," NOT "sings sweet things"
+
+### dubiae nobilitatis
+- Translation: *dubiae nobilitatis* (keep Latin, italicised)
+- Context: "Of doubtful nobility" — uncertainty about aristocratic lineage
+- Notes: Footnote with translation on first use
+
+### Lui (capitalised — Hamilton reference)
+- Translation: *Him* / *He* (capitalised)
+- Context: Marie's quasi-divine designation for the Duke of Hamilton
+- Notes: Capitalise consistently to preserve the reverential register
+
+### foin de
+- Translation: away with / a plague on
+- Context: Archaic exclamation dismissing something
+- Notes: "Away with!" captures the register
+
+## Social & Cultural Terms (from Carnet 038)
+
+### jeunesse dorée
+- Translation: gilded youth
+- Context: Wealthy fashionable young men in Paris high society
+- Notes: "golden youth" also acceptable; "gilded" preferred for its ironic edge
+
+### Girofla
+- Translation: Girofla (keep as-is)
+- Context: Marie's codename for Audiffret (from operetta "Giroflé-Girofla," 1874)
+- Notes: Marie occasionally renounces and reinstates the name; keep as written
+
+### Fedus
+- Translation: Fedus (keep as-is)
+- Context: Marie's Latin-derived codename for Lambertye (from "foedus" = ugly/vile)
+- Notes: Keep untranslated — private nickname
+
+### Centifolia
+- Translation: Centifolia (keep as-is)
+- Context: Marie's botanical codename for Gioia (the hundred-petaled rose)
+- Notes: Keep untranslated — private nickname
+
+### jeunesse dorée → gilded youth
+- See above
+
+### sang-froid impayable
+- Translation: priceless composure
+- Context: Admirably cool behavior in an absurd situation
+- Notes: "Priceless" captures the impayable (beyond price/wonderful) dimension
+
+### tarots égyptiens
+- Translation: Egyptian tarots
+- Context: 19th-century occult fashion; cartomancy with Tarot de Marseille variants
+- Notes: Keep "Egyptian tarots" in italics as Marie writes it
+
+### la baignoire
+- Translation: ground-floor box
+- Context: Semi-private lower box at the theater (literally "bathtub")
+- Notes: NOT "bathtub" — standard theater term
+
+### Mabille
+- Translation: Mabille (keep French proper noun)
+- Context: Famous Parisian dance hall and garden on the Champs-Élysées
+- Notes: Fortune-teller associated with this establishment in 1875
+
+### frou-frou
+- Translation: frills and flounces / fussiness
+- Context: Excessive decoration, rustling ornamentation
+- Notes: English "frou-frou" exists as borrowing; may keep or render descriptively
+
+### endimanchée / Niçois endimanchée
+- Translation: dressed in Sunday best / Niçois in his Sunday best
+- Context: Provincial pretension — implying the overdressed out-of-towner
+- Notes: The implied condescension ("country person playing at city elegance") must come through
+
+## Social & Cultural Terms (from Carnet 040)
+
+### maréchal de noblesse
+- Translation: marshal of the nobility
+- Context: Russian administrative post — предводитель дворянства, elected leader of local gentry
+- Notes: Standard English term for this Russian institution
+
+### ispravnik
+- Translation: *ispravnik* (keep Russian, italicized)
+- Context: Russian district police chief — Marie glosses it herself as "chef de la police du district"
+- Notes: Keep Russian term in italics with Marie's own gloss in brackets
+
+### aliénation mentale
+- Translation: insanity / unsoundness of mind
+- Context: Legal/medical term for mental incompetence used to contest a will
+- Notes: "Insanity" in legal contexts; "unsoundness of mind" in medical contexts
+
+### cuistre
+- Translation: boor / insufferable pedant
+- Context: Period insult for an irritating, presumptuous person
+- Notes: "Boor" or "insufferable creature" depending on register
+
+### forfanterie
+- Translation: boastfulness / bluster
+- Context: Period term for vain braggadocio
+- Notes: NOT "fraud" — specifically denotes empty self-aggrandizement
+
+### particule
+- Translation: *particule* (keep French, italicized)
+- Context: The "de" before an aristocratic surname indicating noble origin
+- Notes: Well understood in English literary context — keep with italics
+
+### homo celeber
+- Translation: *homo celeber*
+- Context: Marie's mock-Latin: "the celebrated man" — ironic epithet for Audiffret
+- Notes: Keep in Latin italics; its humor depends on the mock-classical register
+
+### il pleut des bonheurs
+- Translation: happiness rains down
+- Context: Idiomatic: fortune pours down on others (but not on me)
+- Notes: Preserve the idiomatic image; do NOT flatten to "everyone is lucky"
 
 ## Social & Cultural Terms (from Carnet 028)
 
@@ -497,6 +646,63 @@ When Marie writes in Italian/Russian:
 - Translation: riding habit
 - Context: Women's riding costume with long skirt for sidesaddle
 - Notes: Already in TM as "en amazone" — standalone "mon amazone" = "my riding habit"
+
+## Social & Cultural Terms (from Carnet 039)
+
+### Kursaal
+- Translation: Kursaal (keep German, footnote on first use)
+- Context: Cure hall / main assembly building at German spas
+- Notes: Proper name; well-known in period English texts; footnote explains on first use per entry
+
+### ville d'eaux
+- Translation: spa town
+- Context: A town whose economy centres on mineral springs and thermal baths
+- Notes: "Spa town" is the established English equivalent; NOT "water town"
+
+### tient sous sa pantoufle
+- Translation: keeps him under her thumb
+- Context: Hen-pecked, dominated by wife
+- Notes: English idiom "under her thumb" captures this exactly; NOT "under her slipper" (too literal)
+
+### Réaumur (temperature)
+- Translation: [N degrees] Réaumur (footnote on first use)
+- Context: Temperature scale common at German spas in 1870s; 24°R = 30°C = 86°F
+- Notes: Keep "Réaumur" with accent; provide Celsius/Fahrenheit conversion in footnote
+
+### romanesque
+- Translation: *romanesque* (keep French, italicized, with footnote)
+- Context: Literary/novelistic, dramatic — in the manner of a romance novel; NOT merely "romantic"
+- Notes: The French/English distinction matters; "romanesque" = of novel adventure quality
+
+### publications (legal)
+- Translation: public announcements (of insolvency)
+- Context: French legal term for obligatory public notice when a debtor faces bankruptcy proceedings
+- Notes: "Avoid public announcements" or "avoid publication of debts"; footnote explains legal context
+
+### mauvais sujet de père
+- Translation: ne'er-do-well of a father
+- Context: A father who is a wastrel, scoundrel, financial failure
+- Notes: "Ne'er-do-well" is the period English equivalent; "mauvais sujet" alone can be "rake" per TM
+
+### petite russienne (la)
+- Translation: Little Russian (Ukrainian)
+- Context: Marie's term for Ukrainian language/dialect
+- Notes: "Little Russian" was the period English term for Ukrainian; footnote explaining this distinction is required
+
+### vox faucibus exit / haesit
+- Translation: *vox faucibus exit* (keep Latin, footnote)
+- Context: Misquotation of Virgil Aeneid II.774: "vox faucibus haesit" — the voice stuck in the throat
+- Notes: Marie writes *exit* for *haesit*; keep her version, note the misquotation in footnote
+
+### Il fiato mi manca
+- Translation: ==Il fiato mi manca!== (keep Italian, ==highlight==, footnote)
+- Context: "My breath fails me!" — Italian operatic expression
+- Notes: Mark with ==highlight==, footnote "*In Italian in the original*. 'My breath fails me!'"
+
+### comme Agar dans le désert
+- Translation: like Hagar in the wilderness
+- Context: Biblical (Genesis 21): cast out, utterly abandoned, longing for rescue
+- Notes: Translate the biblical reference; footnote explaining Genesis context on first use
 
 ### barège
 - Translation: barège (keep French, italicized)
@@ -769,6 +975,128 @@ When Marie writes in Italian/Russian:
 - Translation: handsome zero / the handsome nobody
 - Context: Collignon's nickname for Girofla — handsome but insignificant
 - Notes: "Beau zéro" = handsome zero; translate directly; the paradox is the point
+
+## Social & Cultural Terms (from Carnet 036)
+
+### mère [title for proprietress]
+- Translation: Mother [Name]
+- Context: "La mère Georges" = Mother Georges, proprietress of the Nice bathing establishment
+- Notes: "Mère" as title for an older woman who runs a commercial establishment; NOT biological mother
+
+### les bains (Nice bathing establishment)
+- Translation: the baths / the bathing establishment
+- Context: Seasonal bathing establishment in Nice with cabins for staying guests and dining
+- Notes: More elaborate than a modern bath — social venue with meals and accommodation
+
+### les cabines des baigneurs
+- Translation: the bathers' cabins
+- Context: Private cabins at Nice's seaside bathing establishment — used for dining and accommodation
+- Notes: More than changing rooms — seasonal residences for guests
+
+### quatre coins (jeu)
+- Translation: four corners
+- Context: Children's game: five players, four at corners of a square; center player tries to steal a corner during swaps
+- Notes: The childish game played by teenagers and young adults in their twenties — Marie notes the absurdity
+
+### fatuité
+- Translation: conceit / vain self-satisfaction
+- Context: Stronger than vanité — implies complacent self-admiration after a victory
+- Notes: "Fatuité" NOT "vanity" — more smug, less anxious
+
+### gagner une Pharsale
+- Translation: to have won a Pharsalus
+- Context: Allusion to Battle of Pharsalus (48 BC): Caesar's decisive defeat of Pompey
+- Notes: Marie uses this for her own smug sense of romantic victory
+
+### la mine / faire la mine
+- Translation: the cold shoulder / to give someone the cold shoulder
+- Context: Social hostility expressed through facial expression and behavior
+- Notes: "Faire la mine à quelqu'un" = to give someone the cold shoulder (NOT just "to pull a face")
+
+### déclaration (romantic)
+- Translation: declaration
+- Context: Formal profession of romantic love — a serious social act in 19th-century courtship
+- Notes: "Une déclaration" = a declaration of love; NOT merely "a statement"
+
+### Niçois (as affectionate epithet)
+- Translation: my Niçois / my Nice man
+- Context: Marie's pet name for Audiffret — "mon Niçois" = my man from Nice
+- Notes: Possessive affection; keep as "my Niçois" with French italics
+
+### la secousse (romantic)
+- Translation: the jolt
+- Context: Recurring physical sensation when Audiffret takes Marie's waist or hand; electric-shock metaphor
+- Notes: Always "the jolt" when used as this running motif; NOT "the shock"
+
+### sed fides deficit (Latin)
+- Translation: *sed fides deficit* (keep Latin)
+- Context: "But faith/trust is lacking" — Marie would be moved by Audiffret's words but cannot trust his sincerity
+- Notes: Keep Latin in italics; the abbreviated form "scd fidcs deficit" in manuscript corrected to full form
+
+### Quid melior? (Latin)
+- Translation: *Quid melior?* (keep Latin)
+- Context: "What could be better?" — Marie's rhetorical question about the romantic situation
+- Notes: Keep Latin in italics
+
+### Audacter et amanter (Latin)
+- Translation: *Audacter et amanter* (keep Latin)
+- Context: Marie's jubilant motto: "Boldly and lovingly"
+- Notes: Keep Latin in italics; Marie's triumphant end-of-evening flourish
+
+### Désiré (nickname)
+- Translation: *Désiré* (keep French, italicized)
+- Context: Marie's ironic nickname for Godard, meaning "the desired one"
+- Notes: Ironic — she uses him to make Audiffret jealous; keep in French italics
+
+### la sellette (parlor game)
+- Translation: the hot seat
+- Context: Parlor game where each person sits in the spotlight and others must respond to a prompt
+- Notes: From French legal term (small stool for the accused); "hot seat" is the established English equivalent
+
+### fossette
+- Translation: dimple
+- Context: Marie's famous chin dimple — a running motif in her social circle and flirtation
+- Notes: "Ma fossette" = my dimple; always "dimple" in English
+
+### les bals champêtres
+- Translation: open-air dances
+- Context: Outdoor/rustic dances less formal than salon balls
+- Notes: NOT "country balls" (which implies bucolic); "open-air dances" captures the informal outdoor quality
+
+### une abandonnée / une délaissée
+- Translation: a woman abandoned / a forsaken woman
+- Context: Social stigma term: a young woman whose suitor has departed, implying she was "left behind"
+- Notes: Both terms carry the weight of 19th-century social shame; preserve the loaded register
+
+### mon objet
+- Translation: my object
+- Context: Marie's archaic-romantic term for the object of her affections
+- Notes: Keep "my object" — the deliberate archaism is part of her voice
+
+### un toqué
+- Translation: a crackpot / an eccentric
+- Context: Informal: someone whose behavior appears unhinged or comically odd
+- Notes: "Crackpot" has the right comic register; "eccentric" is slightly too polished
+
+### les inondés
+- Translation: the flood victims
+- Context: Victims of the June 1875 flooding in southern France (Garonne/Toulouse area)
+- Notes: Charity pretext for a fête; historical event, keep literal
+
+### baccalauréat ès sciences
+- Translation: *baccalauréat ès sciences* (keep French)
+- Context: The science stream of the French school-leaving examination; almost exclusively male in 1875
+- Notes: Keep in French italics; do NOT translate — it's a proper title
+
+### tombola
+- Translation: tombola
+- Context: Charity lottery with physical prizes (wine, livestock) at 19th-century fêtes
+- Notes: "Tombola" is an established English word; do NOT translate
+
+### seyant
+- Translation: becoming
+- Context: Of clothing or hairstyle: flattering, suited to the wearer
+- Notes: "Becoming" is the period English equivalent; "flattering" also acceptable
 
 ## Dialect & Code-Switching (from Carnet 032)
 
