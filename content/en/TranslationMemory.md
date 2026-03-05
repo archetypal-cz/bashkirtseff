@@ -470,6 +470,60 @@ When Marie writes in Italian/Russian:
 %% 2026-03-05T14:00:00 TR: Added terms from carnet 039 — spa vocabulary, verse translation decisions, financial/legal terms, foreign language passages %%
 %% 2026-03-05T15:30:00 TR: Added terms from carnet 037 — Russian folk divination, period fabrics, heraldic terms, Latin idioms, emotional vocabulary %%
 %% 2026-03-05T16:00:00 TR: Added terms from carnet 038 — Paris social vocabulary, cartomancy terms, Marot parody verse, tarot predictions, coded names (Girofla, Fedus, Centifolia) %%
+%% 2026-03-05T19:00:00 TR: Added terms from carnet 057 — Roman society, political vocabulary, religious register, Neapolitan arrival %%
+%% 2026-03-05T21:00:00 TR: Added terms from carnet 058 — Naples vocabulary, Italian wordplay, architectural vocabulary, Hamilton theology %%
+
+## Social & Cultural Terms (from Carnet 057)
+
+### patafiole
+- Translation: confound (mild oath)
+- Context: Dialectal/slang verb, possibly Provençal or Italian origin
+- Notes: "que le diable vous patafiole" → "the devil confound you"; preserve as mild exclamation
+
+### résignation allemande
+- Translation: German resignation
+- Context: Marie's characterization of stolid, passive piety — opposed to her own passionate temperament
+- Notes: Render literally; the cultural contrast is the point
+
+### manger maigre
+- Translation: fasting / eating lean
+- Context: Catholic/Orthodox Lenten abstinence from meat
+- Notes: NOT literally "eating lean" in English — use "fasting" or "Lenten abstinence" depending on context
+
+### Jeudi Saint
+- Translation: Holy Thursday
+- Context: Thursday of Holy Week, commemorating the Last Supper
+- Notes: Consistent with "Semaine Sainte" → "Holy Week" already in TM
+
+### culpa mea
+- Translation: ==*culpa mea*== (keep Latin, highlight)
+- Context: From the Confiteor prayer (*mea culpa, mea culpa, mea maxima culpa*)
+- Notes: Marie reverses word order; add footnote on prayer source
+
+### badauds
+- Translation: gawkers
+- Context: Rubberneckers, onlookers who stare
+- Notes: NOT "idlers" — implies specifically people who stare at spectacles
+
+### effroyablement suisse
+- Translation: frightfully Swiss
+- Context: Marie's dismissive characterization: provincial, conventional, lacking savoir-faire
+- Notes: Render literally — the national stereotype is the point
+
+### coupé (railway)
+- Translation: coupé
+- Context: Half-compartment railway car with one facing bench — more private than open carriage
+- Notes: Keep French term with brief footnote on first use per entry
+
+### Nature de chat
+- Translation: A cat's nature
+- Context: Attached to places rather than people (cats are said to be loyal to their homes, not their owners)
+- Notes: Render literally — Marie uses this self-deprecatingly
+
+### Voir Naples et mourir
+- Translation: *See Naples and die*
+- Context: Famous saying (Goethe/Italian: *Vedi Napoli e poi muori*) — die content having seen the most beautiful city
+- Notes: Keep as established English phrase; footnote on first use
 
 ## Social & Cultural Terms (from Carnet 037)
 
@@ -1077,6 +1131,82 @@ When Marie writes in Italian/Russian:
 - Translation: a crackpot / an eccentric
 - Context: Informal: someone whose behavior appears unhinged or comically odd
 - Notes: "Crackpot" has the right comic register; "eccentric" is slightly too polished
+
+%% 2026-03-05T13:30:00 TR: Added terms from carnet 060 — Rome May 1876, Pietro Antonelli episode %%
+
+## Social & Cultural Terms (from Carnet 060)
+
+### la traviata (common noun)
+- Translation: kept woman / fallen woman
+- Context: From Verdi's opera title (1853); used generically in 1870s French for a demi-mondaine
+- Notes: Translate as "kept woman" or "his kept woman" when used as a common noun; NOT left in Italian unless the operatic reference is the point
+
+### faire bombance
+- Translation: to carouse / to make merry
+- Context: To feast and revel, often with low company
+- Notes: "To carouse" is the best equivalent; "make merry" also acceptable in lighter register
+
+### cocotte
+- Translation: kept woman / demi-mondaine
+- Context: Slang for courtesan or mistress; slightly vulgar
+- Notes: "Kept woman" in most contexts; footnote on first use if context requires it
+
+### déferré / tout déferré
+- Translation: thrown off / completely thrown off
+- Context: Literally "unshod" (horse losing a shoe); idiom for disconcerted, wrong-footed
+- Notes: "Thrown off" or "put out" in English; preserve the abrupt quality
+
+### Corpo di Dio (Italian exclamation)
+- Translation: ==Corpo di Dio== [mark with highlight, footnote]
+- Context: Italian oath: "Body of God" — mild period blasphemy
+- Notes: Keep in Italian with ==highlight==; footnote explaining it as a Roman oath
+
+### San Diou de Diou! (Nissart/Niçois dialect)
+- Translation: ==San Diou de Diou!== [mark with highlight, footnote]
+- Context: Nissart (Niçois Occitan) oath — "Holy God of God!" — used to confirm Niçois identity
+- Notes: Mark with ==highlight==; footnote "*In Nissart (Niçois dialect)*. 'Holy God of God!' — the characteristic oath of the region"
+
+### occhi neri (Italian address)
+- Translation: ==occhi neri== [keep Italian, highlight]
+- Context: "Black eyes" — affectionate address in Italian; Pietro's eyes
+- Notes: Mark with ==highlight==; footnote "*In Italian in the original*. 'Black eyes.'"
+
+### scripta manent (Latin)
+- Translation: ==scripta manent== [keep Latin, highlight]
+- Context: "The written word remains" — from proverb *verba volant, scripta manent*
+- Notes: Mark with ==highlight==; footnote: "Latin: 'the written word remains.' From the proverb *verba volant, scripta manent*: 'spoken words fly away, written words remain.'"
+
+### Gloriae cupiditate (Latin)
+- Translation: ==Gloriae cupiditate== [keep Latin, highlight]
+- Context: "By desire for glory" — Marie's closing motto for the carnet
+- Notes: Mark with ==highlight==; footnote explaining classical provenance (Cicero/Sallust)
+
+### tutoiement
+- Translation: the use of *tu* / the familiar form
+- Context: In 19th-century polite society, switching from *vous* to *tu* implied presumptuous intimacy
+- Notes: Explain as a footnote when Marie reacts to it; do NOT try to represent in English
+
+### Pietro* (asterisk convention)
+- Translation: Pietro* (keep asterisk)
+- Context: Marie's asterisk after names she doesn't wish to write in full (here Conte Pietro Antonelli)
+- Notes: Preserve the asterisk — it is Marie's own redaction convention
+
+## People (from Carnet 060)
+
+### Pietro Antonelli / Conte Pietro
+- Translation: Pietro Antonelli / Count Pietro
+- Context: Young Roman nobleman, son of the Antonelli family; object of Marie's Roman romance
+- Notes: "Pietro" informally; "Count Pietro" on formal reference; NOT "Peter"
+
+### Monseigneur / Cardinal Antonelli
+- Translation: the Cardinal / Cardinal Antonelli
+- Context: Cardinal Giacomo Antonelli (1806–1876), Papal Secretary of State; head of the Antonelli family
+- Notes: "The Cardinal" after first use; NOT confused with Pietro's father (also Cardinal)
+
+### Visconti (Baron)
+- Translation: Baron Visconti
+- Context: Elderly Roman nobleman, Papal-era figure; acts as go-between
+- Notes: "Baron Visconti" on first mention; "Visconti" thereafter
 
 ### les inondés
 - Translation: the flood victims
@@ -3219,3 +3349,235 @@ When Marie writes in Italian/Russian:
 - Translation: keep as-is with footnotes
 - Context: Marie's coded carnet colophon: Latin motto + English abbreviation for "His Grace the Duke of Hamilton"
 - Notes: Carnet 055 Mar 27; the two lines function as Marie's private declaration at carnet's close
+
+## Social & Cultural Terms (from Carnet 058)
+
+### buggia / bougie wordplay
+- Translation: *buggia* (Italian: lie) / *bougie* (French: candle)
+- Context: Pietro confuses Italian *buggia* (lie) with French *bougie* (candle); the bilingual slip becomes a shared joke
+- Notes: Keep both Italian and French terms; add footnote explaining the confusion; English cannot replicate the pun — preserve the bilingual texture
+
+### planter-là quelqu'un
+- Translation: to abandon someone on the spot / to leave someone standing there
+- Context: Colloquial: to abruptly abandon or ditch someone
+- Notes: "Planter quelqu'un là" = "to abandon on the spot" — NOT "to plant" someone
+
+### mise au couvent
+- Translation: confinement to the monastery / sent to a monastery
+- Context: Marie's term for Pietro's enforced absence; his powerful family (Vatican connections) apparently sequestered him
+- Notes: Render as "confinement to the monastery" — the phrase implies enforced isolation, not necessarily literal monastic life
+
+### bas-monde
+- Translation: the *bas monde* (keep French, italicized)
+- Context: "Low/base world" — the corrupt human social sphere; Marie plays on double meaning (society = *le monde*; base = *bas*)
+- Notes: Keep French with italics; the pun on *le monde* (society) + *bas* (low/base) is essential
+
+### signor cardinalino
+- Translation: ==*signor cardinalino*== (keep Italian, highlight)
+- Context: Marie's mocking nickname for Pietro Antonelli's Vatican connection; diminutive of *cardinale*: "little cardinal gentleman"
+- Notes: Mark with ==highlight==, footnote: "*Signor cardinalino* — Italian: 'little cardinal gentleman'; mocking reference to Pietro's family connection to Cardinal Antonelli"
+
+### faire d'histoire (Russian idiom in French)
+- Translation: to make a fuss / make a scene
+- Context: From Russian *delat' istoriyu* — Marie code-switches to label her own emotional excess using Russian idiom
+- Notes: "il ne faut pas faire d'histoire comme on dit en russe" → "one must not make a fuss, as one says in Russian"; the phrase is footnoted as Russian
+
+### calèche
+- Translation: *calèche* (keep French, with brief context)
+- Context: Light, elegant four-wheeled carriage with folding hood; aristocratic status marker
+- Notes: First use: italicize and footnote; subsequent uses: plain text
+
+### Galantine (Torlonia nickname)
+- Translation: *Galantine* (keep as nickname)
+- Context: Maman's nickname for Torlonia; from *galantine* (jellied meat dish) — implying his softness or insipidity
+- Notes: Keep as proper nickname; footnote on first use per carnet
+
+### my god on earth / dieu matériel (Hamilton theology)
+- Translation: my god on earth — a material god, a profane god
+- Context: Marie's most explicit theological formulation for her Hamilton fixation: God above + Hamilton below; love for God does not preclude need for an earthly "god"
+- Notes: Render "mon dieu sur la terre, dieu matériel, dieu profane" literally; the theological paradox is the point
+
+### photographie de toute une vie
+- Translation: the photograph of an entire life
+- Context: Marie's manifesto for the diary — the first complete, unmediated self-portrait in literary history (her claim)
+- Notes: Render literally; the metaphor of the photograph (newly ubiquitous in the 1870s) is central to her argument
+
+### plobsters
+- Translation: loungers (with note)
+- Context: Marie's term for idle young aristocrats on balconies; possibly approximating English "lobsters" as slang for idle red-faced men, or a Neapolitan coinage
+- Notes: Render as "loungers"; TR note flagging the obscure original word
+
+## People (from Carnet 058)
+
+### Altamura
+- Translation: Altamura
+- Context: Neapolitan escort who attached himself to Marie's party; a banker's son excluded from the noble Accademia club; eager but not noble
+- Notes: Marie's social disappointment at discovering his non-noble status drives the entry's opening
+
+### Grand Duke Konstantin Konstantinovich
+- Translation: Grand Duke Konstantin Konstantinovich
+- Context: Younger brother of the disgraced Grand Duke Nicholas (Fanny Lear's lover); 20 years old in 1876; present at Easter Mass in Naples
+- Notes: Footnote distinguishing him from his notorious elder brother
+
+### Miloradovitch
+- Translation: Miloradovitch
+- Context: Russian prospect for marriage; Marie analyzes coldly: 21 years old, fortune controlled by parents, family known for avarice, likely to become a provincial tyrant
+- Notes: Marie's three-goal Russia trip includes him as a possibility she fears accepting
+
+### Doenhoff (Count Gerhard)
+- Translation: Count Doenhoff (full title on first use)
+- Context: Count Gerhard de Doenhoff, Chamberlain to the Emperor of Germany and Marshal of the Court of Prince Charles of Prussia; an old acquaintance from Ostend; courts Maman
+- Notes: Full title given in diary; use full title on first mention per entry, then "Doenhoff"
+
+%% 2026-03-05T12:00:00 TR: Added terms from carnet 062 — Nice May–July 1876, Pietro Antonelli romance/disillusionment, papal ambitions, departure for Russia %%
+
+## Key Phrases (from Carnet 062)
+
+### L'amour et l'ambition ne font qu'un chez moi
+- Translation: Love and ambition are one and the same in me
+- Context: Marie's key confession (29 June 1876) — love and ambition are inseparable in her psychology
+- Notes: Render as "one and the same" to convey fusion, not merely similarity; pivotal self-analysis
+
+### Pietro n'est qu'un amusement, une musique pour couvrir les lamentations de mon âme
+- Translation: Pietro is only an amusement — a music to cover the lamentations of my soul
+- Context: Final dismissal of Pietro (3 July 1876); one of the carnet's most beautiful phrases
+- Notes: Translate verbatim; the metaphor of music covering lament is central and irreducible
+
+### un être invisible
+- Translation: an invisible being
+- Context: Marie's confession (25 June 1876) that she never loved Pietro — only an imaginary projection
+- Notes: Translate literally; the phrase carries great weight and any paraphrase diminishes it
+
+### Amor decrescit ubique crescere non possit
+- Translation: ==Amor decrescit ubique crescere non possit== [keep Latin, highlight]
+- Context: Opening motto of 3 July 1876 entry: "Love diminishes wherever it cannot grow"
+- Notes: Footnote: "Latin: 'Love diminishes wherever it cannot grow.' A classical maxim."
+
+### Domine, salvum fac futurum Pium X
+- Translation: ==Domine, salvum fac futurum Pium X== [keep Latin, highlight]
+- Context: Marie's sardonic prayer (28 June 1876) for Cardinal Antonelli to become Pope Pius X
+- Notes: Footnote: "Latin: 'Lord, preserve the future Pius X.' Marie prays for Cardinal Antonelli to become pope, which would make Pietro his nephew."
+
+### Chi lo sa? Dio / Chi lo sa? Deo juvante
+- Translation: ==Chi lo sa? Dio== / ==Chi lo sa? Deo juvante==
+- Context: Italian/Latin code-switching expressing uncertainty with pious acceptance
+- Notes: "Who knows? God." / "Who knows? With God's help." Keep in original languages with ==highlight==
+
+### ignota avis
+- Translation: ==ignota avis== [keep Latin, highlight]
+- Context: Marie uses to mean: true love is something she has never encountered
+- Notes: Footnote: "Latin: 'an unknown bird' — something rare and unseen."
+
+### vivere-gaudere
+- Translation: ==vivere-gaudere== [keep Latin, highlight]
+- Context: Marie's Epicurean tag: to live is to rejoice
+- Notes: Footnote: "Latin: *vivere-gaudere* — 'to live is to rejoice.' An Epicurean motto."
+
+### Nihil (as a reply)
+- Translation: *Nihil* (keep Latin, italicised)
+- Context: Marie's decision not to reply to Pietro's love letter (27 June 1876): "Nothing at all"
+- Notes: Keep Latin; Marie's pointed use of the classical word for nothingness is deliberate
+
+## Social & Cultural Terms (from Carnet 062)
+
+### faire de la coquetterie (at a train station)
+- Translation: to show myself off / to display myself attractively
+- Context: Marie going to the station specifically to be seen and admired
+- Notes: "Show myself off" captures the self-aware performance aspect; "play the coquette" also acceptable
+
+### somnambule (fortune-teller)
+- Translation: clairvoyant / trance medium
+- Context: A *somnambule* in 19th-century France was a trance medium, not a sleepwalker; consulted about thefts, the future, missing persons
+- Notes: Footnote on first use; NOT translated as "sleepwalker"
+
+### lettre froissante
+- Translation: wounding letter / hurtful letter
+- Context: Bihovetz's prediction of a letter that would cause shock and hurt; fulfilled by Pietro's June 10 letter
+- Notes: "Wounding letter" captures the precise sense; "hurtful" also acceptable
+
+### l'espérance de l'avenir qui est toujours incertain
+- Translation: the hope of the future "which is always uncertain"
+- Context: Pietro's devastating qualification at the end of his June 10 refusal letter
+- Notes: Keep in quotation marks with the original French phrase adjacent when possible; this phrase echoes through subsequent entries
+
+### nièce du pape / nièce de Sa Sainteté
+- Translation: the Pope's niece / niece of His Holiness
+- Context: Marie's fantasy of becoming the papal niece by marrying Pietro if Cardinal Antonelli becomes pope
+- Notes: "The Pope's niece" on casual use; "niece of His Holiness" in elevated passages
+
+### signor-zio
+- Translation: ==signor-zio== [keep Italian, highlight]
+- Context: Italian: "uncle" — Marie's way of referring to Cardinal Antonelli; Pietro's uncle
+- Notes: Footnote: "Italian: *signor-zio* — 'uncle,' referring to Cardinal Antonelli."
+
+### Schreck (German)
+- Translation: ==Schreck== [keep German, highlight]
+- Context: German: a shock/fright; Bihovetz uses it when describing his prediction
+- Notes: Footnote: "German: *Schreck* — a shock, a fright."
+
+### O canaglia! (Italian)
+- Translation: ==O canaglia!== [keep Italian, highlight]
+- Context: Italian: "Oh, scoundrel!" Marie's delighted exclamation on receiving Pietro's love letter
+- Notes: Footnote: "Italian: *O canaglia!* — 'Oh scoundrel!' Marie's delight breaks through her anger."
+
+### E altro! (Italian)
+- Translation: ==E altro!== [keep Italian, highlight]
+- Context: Italian: "And what else!" / "Indeed so!" — an expressive interjection
+- Notes: Footnote: "Italian: *E altro!* — 'And what more can one say?'"
+
+### portrait-cabinet
+- Translation: cabinet card
+- Context: Standard Victorian portrait format (approximately 4 × 5½ inches), mounted on cardboard
+- Notes: "Cabinet card" is the standard English term; footnote if needed
+
+### shchenok (Russian)
+- Translation: ==shchenok== [keep Russian, highlight]
+- Context: Russian: a puppy; affectionate/dismissive nickname for Pietro
+- Notes: Footnote: "Russian: *shchenok* — a puppy; used here as a dismissive diminutive nickname for Pietro."
+
+## People (from Carnet 062)
+
+### Cresci
+- Translation: Cresci
+- Context: Marie's singing teacher in Nice; assesses her voice as having "voice, diction, and feeling" combined with accurate musical ear
+- Notes: Keep as-is; surname only
+
+### Laurenti
+- Translation: Laurenti
+- Context: Music teacher/voice evaluator in Nice who assessed Marie's voice: "upper notes like silver, lower notes like velvet"
+- Notes: Keep as-is; surname only
+
+### Bihovetz (General)
+- Translation: Bihovetz / the General
+- Context: General Bihovetz — Russian family friend visiting Nice; performs card readings whose predictions come true
+- Notes: "General Bihovetz" on first mention per entry; "the General" or "Bihovetz" thereafter
+
+### Antonoff
+- Translation: Antonoff
+- Context: Russian acquaintance who visits the villa; extraordinarily moved by Marie's low singing notes
+- Notes: Keep Russian spelling as-is
+
+### Daniloff (Madame)
+- Translation: Madame Daniloff
+- Context: Russian acquaintance who visits with Antonoff; treats Marie "like the Madonna"
+- Notes: "Madame Daniloff" on first mention; "Daniloff" thereafter
+
+### Bienmüller
+- Translation: Bienmüller
+- Context: Nice photographer "to His Majesty" — where Marie poses for her Agrippine-style and mythological portraits
+- Notes: Keep German spelling
+
+### Sister Thérèse
+- Translation: Sister Thérèse
+- Context: Nun who visits Marie, venerates Cardinal Antonelli's photograph; her convent is under Antonelli's protection
+- Notes: "Sister Thérèse" throughout
+
+### Katorbinsky
+- Translation: Katorbinsky
+- Context: Marie's painting teacher in Nice; has given her thirty-four lessons by June 1876
+- Notes: Keep as-is
+
+### Collignon (Mademoiselle)
+- Translation: Mademoiselle Collignon
+- Context: French companion/governess who accompanies Marie; departs Nice on 27 June 1876
+- Notes: "Mademoiselle Collignon" on first mention; "Collignon" thereafter
