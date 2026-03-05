@@ -11,6 +11,8 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 - [ ] **"interrupted" idle states** — agents go idle with reason "interrupted" without clear cause. May indicate context limit during external API call (e.g., Gemini). Needs investigation.
 - [ ] **Agents going off-rails** — occasionally an agent misinterprets its task or starts doing work outside its scope. Usually recoverable with a message, but wastes time.
 - [ ] **Shutdown acknowledgment delays** — agents sometimes take multiple idle cycles before responding to shutdown requests. Not harmful but noisy.
+- [ ] **Conductor subagent type immediate idle/death** — conductor spawned as `conductor` subagent type went idle immediately without doing work (con), or partially completed then died mid-task marking it done prematurely (con-2). Workaround: spawn as `general-purpose`. Needs confirmation — 1 report only (2026-03-05-en-036-041).
+- [ ] **Editor subagent type reported no Edit access** — RED agent spawned as `editor` subagent type reported it couldn't set frontmatter flags. Previously editors had Edit access. May be transient or platform change. Needs confirmation — 1 report only (2026-03-05-en-036-041).
 
 ### GEM Corruption Patterns
 
@@ -23,7 +25,7 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 
 - [ ] **Gallicism rates** — track frequency of gallicisms caught by GEM/RED/OPS per carnet. High rates may indicate translator needs updated guidance.
 - [ ] **False friend frequency** — especially for Czech (ceremonie, kostým, kabinet) and English (sympathetic, actually, revolt/révolter, eve/veille, vilain/naughty). New EN false friends found in 008-010 run (2026-02-16).
-- [ ] **Quality score trends** — CON scores should trend upward as skills improve. Czech baseline: 0.90-0.95. English baseline: HIGH (no numeric score yet). Ukrainian baseline: 0.93-0.955 (3 waves, trending upward: 0.94 → 0.947 → 0.952 avg).
+- [ ] **Quality score trends** — CON scores should trend upward as skills improve. Czech baseline: 0.90-0.95. English baseline: 0.947 (2026-03-05 run, carnets 036-041). Ukrainian baseline: 0.93-0.955 (3 waves, trending upward: 0.94 → 0.947 → 0.952 avg).
 - [ ] **Code-switch misidentification** — EN translators highlighted French idioms as English code-switches in 2 instances (009, 010). "It takes my breath away" and "that's all I'm saying!" were translated French idioms, not Marie writing in English. Needs confirmation — 1 report only (2026-02-16).
 
 ### Pipeline Efficiency
@@ -46,6 +48,7 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 - [x] **Russianisms checklist effectiveness** — 3 runs (199 entries), 0 overt russianisms from explicit checklist. Checklist baked into translator skill file (Language-Specific Guidance > Ukrainian). Resolved 2026-02-17.
 - [x] **Subtle russianisms (calques)** — 3 runs. OPS 3-pass caught calques ("абсолютно", "факт у тому") and morphological russianisms (-ой endings) that the explicit checklist missed. Guidance baked into opus-editor skill file (Ukrainian section). Resolved 2026-02-17.
 - [x] **3-pass OPS review value** — 3 UK runs confirmed. Fix rate: 0.42 → 0.28 → 0.22/entry. Each wave, OPS caught a distinct category the checklist missed (wave 1: false friends; wave 2: calques; wave 3: morphological). 3-pass review is proven valuable for Ukrainian. Resolved 2026-02-17.
+- [x] **Conductor subagent type lacks Edit access** — 7+ reports (all UK waves, EN 006-014, EN 015-018, EN 019-021, EN 036-041). Conductor subagent type only has Read/Grep/Glob despite SKILL.md declaring Edit/Write. Fix: spawn CON as `general-purpose` subagent type. Proven since 2026-02-27 (en-015-018). ED skill updated to default to general-purpose. Resolved 2026-03-05.
 - [x] **Agents being too chatty** — fixed by adding Agent Teams Protocol to all skills (idle behavior, when to message, when not to). Resolved 2026-02-12.
 - [x] **Unnecessary RSR/LAN agents** — source preparation is complete for all 106 carnets. Stopped spawning RSR/LAN in translation pipeline. Resolved 2026-02-12.
 - [x] **Per-carnet agent lifecycle** — adopted "one carnet = one agent" pattern to prevent context exhaustion. Works reliably. Resolved 2026-02-12.

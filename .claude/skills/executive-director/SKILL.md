@@ -329,6 +329,15 @@ Standard team for translation pipeline — **5 agents**:
 | red | editor | Opus | Real-time quality review |
 | con | conductor | Opus | Final quality gate |
 
+<!-- Teamcouch update 2026-03-05: Default CON to general-purpose subagent type.
+     Evidence: 7+ reports (uk-006-008, uk-009-011, uk-012-014, uk-015-017,
+     en-006-014, en-015-018, en-036-041). Conductor subagent type lacks Edit
+     access and may go idle immediately. general-purpose proven reliable since
+     2026-02-27. -->
+**IMPORTANT — Subagent types for review agents:**
+- **CON**: Always spawn as `general-purpose` subagent type (NOT `conductor`). The conductor subagent type lacks Edit access and has initialization failures. Include conductor skill instructions in the prompt instead.
+- **RED**: Spawn as `editor` subagent type. If RED reports no Edit access, ED should batch-set `editor_approved` flags via sed after review. (Observed once: 2026-03-05.)
+
 **DO NOT spawn:**
 - RSR agent — carnets are already well-researched. No translator ever messaged RSR in previous runs.
 - LAN agent — annotations are complete across all 106 carnets.
