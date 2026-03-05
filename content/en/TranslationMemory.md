@@ -2707,3 +2707,323 @@ When Marie writes in Italian/Russian:
 - Translation: Walitsky (keep as-is)
 - Context: Family companion/helper who drafts legal documents poorly; begins his questionnaire answer with the grammatical blunder *Je me suis née*
 - Notes: Carnet 027 Dec 12-13; also known from earlier carnets
+
+%% 2026-03-05T10:00:00 TR: Added terms from carnet 048 — Nice Oct-Nov 1875, height of Audiffret obsession, Antonoff housewarming %%
+
+## Social & Cultural Terms (from Carnet 048)
+
+### un sucre
+- Translation: *un sucre* (keep French, italicized, with footnote on first use per entry)
+- Context: Bibi/Audiffret's expression for something perfect or exquisite; "a sugar / a lump of sugar"
+- Notes: Carnet 048 passim; Marie adopts the expression and uses it ironically throughout; footnote on first use per entry: "Bibi's expression for something perfect, exquisite."
+
+### l'aréopage (family tribunal)
+- Translation: the Areopagus
+- Context: Marie's ironic term for the family council (Maman, aunt, Dina) that sits in judgement on her romantic prospects
+- Notes: Carnet 048 Nov 3; the Areopagus was the ancient Athenian high court; add footnote on first use per entry
+
+### me crache dessus
+- Translation: treats me with contempt
+- Context: Marie's recurring Marieism — literally "spits on me," meaning to treat with utter disdain/contempt
+- Notes: Carnet 048 passim; the literal "spit" is not used in English — "treats me with contempt" is the consistent rendering; the physical force of the French may occasionally be noted in a TR comment
+
+### Fiouloulou
+- Translation: Fiouloulou (keep as-is)
+- Context: Marie's nickname for Galula
+- Notes: Carnet 048 passim; private nickname — treat as proper name
+
+### le jour des morts / la Toussaint
+- Translation: All Souls' Day / All Saints' Day
+- Context: 2 November (All Souls) and 1 November (All Saints) — major French Catholic holidays for cemetery visits and promenading
+- Notes: Carnet 048 Nov 1-2; footnote on first use per entry explaining the holiday
+
+### la Prodgers
+- Translation: *la* Prodgers (keep the contemptuous French article)
+- Context: An English woman in Nice society; Marie uses the French feminine article with her surname as a marker of social disdain
+- Notes: Carnet 048 passim; footnote: "The contemptuous *la* before her surname is Marie's standard signal of social disdain."
+
+### tourmentable
+- Translation: tormentable
+- Context: Marie's QUIRK adjective meaning "capable of being tormented" — she applies it to herself
+- Notes: Carnet 048 Nov 5; keep the coinage; "tormentable" works in English
+
+### la secousse (carnet 048 usage)
+- Translation: *la secousse* (keep French, italicized)
+- Context: Physical electric thrill felt when Audiffret touches Marie; introduced carnet 048 Oct 29
+- Notes: Previously documented as "the jolt" but carnet 048 translator kept French throughout; *la secousse* in French italics with footnote on first use per entry is preferred; subsequent uses may use *la secousse* without re-footnoting
+
+### châtelain fougueux
+- Translation: impetuous lord of the castle
+- Context: Marie's ironic title for Audiffret, who lives in a castle-like building across the street
+- Notes: Carnet 048 passim; footnote on first use per entry explaining the irony; previously documented in TM under *châtelain* alone
+
+### position féminine
+- Translation: feminine position / wretched feminine position
+- Context: Marie's recurring feminist apostrophe lamenting women's passive role in courtship
+- Notes: Carnet 048 Nov 1; "Misérable position féminine!" = "Wretched feminine position!" — keep the exclamatory register
+
+%% 2026-03-05T11:00:00 TR: Added terms from carnet 049 — Nice Nov 1875, Audiffret obsession climax, Mignon opera premiere, Paris departure %%
+
+## Social & Cultural Terms (from Carnet 049)
+
+### le Surprenant
+- Translation: the Surprising One
+- Context: Marie's private nickname for Audiffret; from "surprenant" = surprising/unexpected
+- Notes: Carnet 049 Nov 8; keep as "the Surprising One" — the irony is intended
+
+### Rosière (mock ceremony)
+- Translation: *Rosière* (keep French, italicized, with footnote on first use per entry)
+- Context: A village girl crowned for exemplary virtue in an annual ceremony (*fête de la Rosière*); Marie satirically casts herself in this role in a mock-letter
+- Notes: Carnet 049 Nov 9; footnote: "The *Rosière* was a young village girl crowned with roses for her virtue in an annual ceremony — Marie applies the title with savage irony."
+
+### Père fortuné
+- Translation: *Père fortuné* (keep French, italicized)
+- Context: Marie's satirical address — "Lucky Father" — in her mock-ceremony letter; ironic honorific
+- Notes: Carnet 049 Nov 9; part of elaborate mock-correspondence satirizing the Rosière convention
+
+### tout abattu
+- Translation: cast down / utterly dejected
+- Context: Audiffret's recurring posture as Marie observes him from afar; suggests affect of a man wounded or distracted
+- Notes: Carnet 049 Nov 14; "tout abattu, les yeux à terre" = utterly cast down, eyes to the ground; use "cast down" or "utterly dejected" depending on sentence rhythm
+
+### saleté niçoise
+- Translation: piece of Nice riff-raff / Nice trash
+- Context: The aunt's contemptuous epithet for Audiffret, dismissing him as a provincial nobody
+- Notes: Carnet 049 Nov 17; "saleté niçoise" = Nice riff-raff; preserve the social contempt; do NOT soften
+
+### la Tour (Audiffret estate)
+- Translation: the Tower
+- Context: Marie's name for Audiffret's family property; she vows to "burn the Tower" if she gets her revenge
+- Notes: Carnet 049 Nov 17; "brûler la Tour" = burn the Tower; most likely a literal tower or château on his Nice property
+
+### bétonner / bâtonner (spelling error)
+- Translation: cudgel (as verb)
+- Context: Marie writes "bétonner" (to concrete) as a spelling error for "bâtonner" (to beat with a stick); LAN notes the error
+- Notes: Carnet 049 Nov 17; translate as "cudgel him" preserving the period violence of register; document the spelling error in TR comment
+
+### arrondir les choses
+- Translation: to smooth over / to round off
+- Context: Marie's retrospective admission that she softened harsh events in her diary; "arrondi" = rounded off/smoothed over
+- Notes: Carnet 049 Nov 17; meta-diary reflection; in 1881 annotation she denies having done so
+
+### début de page manquant
+- Translation: [Beginning of page missing]
+- Context: Editorial note for manuscript gap where a page or page section is physically absent
+- Notes: Carnet 049 Nov 17; keep in square brackets as translator's notation; do NOT translate into editorial commentary
+
+### cracher dessus
+- Translation: to treat with contempt / to spit upon
+- Context: Literally "to spit on"; Marie uses it figuratively for Audiffret's dismissive treatment of her
+- Notes: Carnet 049 Nov 17; "depuis qu'il me crache dessus" = since he has been treating me with contempt; prefer "treating with contempt" over literal translation
+
+### histoire ancienne et sainte
+- Translation: *an ancient and sacred history* (italicized)
+- Context: Ambiguous phrase attributed to Audiffret about Robenson; Marie reads hurt into it; LAN flags as AMBIGUOUS [0.60]
+- Notes: Carnet 049 Nov 17; italicize to mark it as a quoted utterance; footnote not required unless context demands
+
+### Connais-tu le pays (opera, carnet 049 context)
+- Translation: *Connais-tu le pays* (keep French, italicized)
+- Context: The pivotal aria from *Mignon*; Pasqua sings it at the Nov 15 opera premiere; Audiffret goes white as a handkerchief hearing it; Marie weeps
+- Notes: Carnet 049 Nov 15-16; already in TM from carnet 027 Dec 11 — consistent treatment; add footnote on first use per entry
+
+### C'est là que je voudrais vivre (lyric)
+- Translation: *C'est là que je voudrais vivre* (keep French, italicized, with footnote)
+- Context: Line from the aria "Connais-tu le pays?"; "It is there I would like to live"; the aunt reports Audiffret went whitest at this exact line
+- Notes: Carnet 049 Nov 16; footnote: "*C'est là que je voudrais vivre*: 'It is there I would like to live' — a line from the aria *Connais-tu le pays?*"
+
+### P.L.M. (railway)
+- Translation: the P.L.M. line (with footnote on first use per entry)
+- Context: Paris-Lyon-Méditerranée railway; Marie's regular route between Nice and Paris
+- Notes: Carnet 049 Nov 16; footnote: "The Paris-Lyon-Méditerranée railway — Marie's regular route between Nice and Paris."
+
+### portrait descendu de son cadre
+- Translation: a portrait that had stepped down from its frame
+- Context: Marie's self-description when she sees herself in the mirror at the opera in her red dress; the image of a portrait come to life
+- Notes: Carnet 049 Nov 15; preserve the formal metaphor — "stepped down" (not "climbed out" or "come off"); it is an aristocratic image
+
+### Nescio (Latin)
+- Translation: ==*Nescio*== (highlight + footnote "Latin: 'I do not know.'")
+- Context: Latin "I do not know"; Marie inserts it when she cannot explain her feelings; appears mid-passage as a lone Latin admission
+- Notes: Carnet 049 Nov 15; highlight with ==, footnote the Latin; do NOT translate in text
+
+### rayé / [Rayé:] (manuscript)
+- Translation: [Crossed out:]
+- Context: Editorial notation for text Marie crossed through in the manuscript
+- Notes: Carnet 049 Nov 15; "[Rayé:]" → "[Crossed out:]"; keep in square brackets
+
+### Bigre de bigre! (exclamation)
+- Translation: *Bigre de bigre!* (keep French, italicized)
+- Context: Mild French exclamation of surprise; Marie uses it when Audiffret appears unexpectedly at the Italian theater
+- Notes: Carnet 049 Nov 12; no English equivalent conveys the period register; keep French with footnote if needed
+
+### piarle (transcription error)
+- Translation: [I speak] (correct silently in translation)
+- Context: Marie writes "piarle" for "parle" (I speak); likely a manuscript transcription error; LAN notes it
+- Notes: Carnet 049 Nov 17; translate as if "parle"; note the error in TR comment; no [sic] needed in English text
+
+## People (from Carnet 049)
+
+### Audiffret (carnet 049 context)
+- Translation: Audiffret
+- Context: Central obsession of carnet 049; Nice provincial; family considers him unsuitable (they dream of a throne for Marie); appears at the band concert, the Italian theater, and the Mignon premiere
+- Notes: Carnet 049 Nov 8-17; already in TM from earlier carnets; in 049 he reaches peak significance — the love confession of Nov 15 and the emotional collapse of Nov 17
+
+### Pasqua (singer)
+- Translation: Pasqua
+- Context: Opera singer who performs Mignon at the Nice Italian Opera premiere (Nov 15); sings "Connais-tu le pays?" causing Audiffret to go white
+- Notes: Carnet 049 Nov 15-16; keep name as-is; no title needed
+
+### Cresci (Italian theater)
+- Translation: Cresci
+- Context: Acquaintance encountered at the Italian theater on Nov 12; facilitates the awkward encounter with Audiffret in adjacent box
+- Notes: Carnet 049 Nov 12; keep name as-is
+
+### Jeanne Daniloff
+- Translation: Jeanne Daniloff
+- Context: Reveals the Audiffret family scandal to Marie: his sister fell in love with a servant, was disinherited and cut off; the scandal explains his family's reduced circumstances
+- Notes: Carnet 049 Nov 14; key exposition scene; use full name on first mention per entry
+
+### Robenson
+- Translation: Robenson
+- Context: Woman mentioned in Audiffret's ambiguous remark about "an ancient and sacred history"; Marie reads the phrase as dismissive of a past relationship
+- Notes: Carnet 049 Nov 17; LAN flags AMBIGUOUS [0.60] — exact nature of her connection to Audiffret unclear; keep name as-is
+
+### Sapogenikoff (Olga)
+- Translation: Olga Sapogenikoff
+- Context: Marie's friend; attended the opera the night of Nov 14; her box is where Audiffret might have gone, driving Marie to jealous fury
+- Notes: Carnet 049 Nov 15-17; use "Olga" in dialogue/intimate context, "Sapogenikoff" in narrative
+
+## Cultural/Thematic Terms (from Carnet 049)
+
+### fille perdue
+- Translation: fallen woman
+- Context: 19th c. epithet for a woman who has lost her reputation/virtue; Marie uses it of Audiffret's disinherited sister
+- Notes: Carnet 049 Nov 14; do NOT use "lost girl" or "ruined woman" — "fallen woman" is the period English equivalent
+
+### parti convenable
+- Translation: suitable match
+- Context: A man considered socially acceptable for marriage; the family does not regard Audiffret as one
+- Notes: Carnet 049 Nov 17; "personne dans la maison ne l'a regardé comme un parti convenable" = no one in the household regarded him as a suitable match
+
+### on rêve un trône pour moi
+- Translation: they dream of a throne for me
+- Context: Marie's summary of her family's marriage ambitions; genuine royal/princely aspirations on her behalf
+- Notes: Carnet 049 Nov 17; RSR KEY PASSAGE; translate literally — "a throne" not "the throne"; the indefinite article matters
+
+%% 2026-03-05T10:30:00 TR: Added terms from carnet 051 — Nice Dec 1875 to Rome Jan 1876, mock-monastic/legal letters, Italian opera quotations, Russian folk magic incantation, Audiffret nickname variants %%
+
+## Social & Cultural Terms (from Carnet 051)
+
+### le Temeraire
+- Translation: the Reckless One
+- Context: Marie's nickname for Audiffret in carnet 051, echoing Charles the Bold (Charles le Téméraire)
+- Notes: Carnet 051 Jan 9; keep as "the Reckless One" — the sobriquet echoes Charles the Bold
+
+### la Pointue
+- Translation: the Pointed One
+- Context: Marie's mocking nickname for Miss Robenson; refers to her sharp/angular features
+- Notes: Carnet 051 Dec 30; consistent throughout carnet 051
+
+### Belle-de-Jour
+- Translation: Beauty-of-the-Day
+- Context: Marie's ironic nickname for Audiffret; "Belle de jour" = morning glory flower, implies superficial beauty
+- Notes: Carnet 051 Jan 9; keep as "Beauty-of-the-Day" — the irony is intentional
+
+### le Dépravé / le Dévergondé
+- Translation: the Depraved One / the Dissolute One
+- Context: Marie's insulting nicknames for Audiffret (Émile le Dépravé) and his father (Léon le Dévergondé)
+- Notes: Carnet 051 Jan 4; translate directly — the moral condemnation is deliberate
+
+### Alfeda-da-fe (pseudonym)
+- Translation: Alfeda-da-fe (keep as-is)
+- Context: Marie's mock anonymous pseudonym for her taunting letters; pun on "auto-da-fé" (Inquisition execution)
+- Notes: Carnet 051 Dec 28; never translate — it is both a pseudonym and a pun; context makes the auto-da-fé reference clear
+
+### les moines de Cimiez (The Monks of Cimiez)
+- Translation: the Monks of Cimiez
+- Context: Marie's elaborate fictional monastic persona in taunting letters to Audiffret; Cimiez is a district of Nice with a real monastery
+- Notes: Carnet 051 Jan 1 and Jan 7; translate as "the Monks of Cimiez"; maintain full mock-monastic register (the habit, novitiate, Brother, etc.)
+
+### froc (monastic habit)
+- Translation: the habit
+- Context: Monk's robe; used in mock-monastic letter; "mettre le froc" = to take the habit
+- Notes: Carnet 051 Jan 1; "le froc vous attend" → "the habit awaits you"
+
+### noviciat
+- Translation: novitiate
+- Context: Period of training before taking monastic vows; used in mock-monastic letter
+- Notes: Carnet 051 Jan 1; "pendant votre noviciat" → "during your novitiate"
+
+### Sardanapale de la Tour
+- Translation: Sardanapalus of the Tower
+- Context: Marie's insult to Audiffret in taunting letter; Sardanapalus = legendary dissolute Assyrian king; "la Tour" = Audiffret's property
+- Notes: Carnet 051 Dec 28; "Sardanapale de la Tour, tu pourriras" → "Sardanapalus of the Tower, you shall rot"
+
+### Russian love magic incantation (king of clubs ritual)
+- Translation: Translate in full, italicize
+- Context: Marie wraps the king of clubs in a black veil and pronounces an incantation to make Audiffret dream of her; Russian folk magic
+- Notes: Carnet 051 Jan 9; translate the incantation in full in italics; it is a serious ritual despite the ironic context; no footnote needed
+
+### petite vitesse
+- Translation: slow goods train
+- Context: Freight railway service (opposed to *grande vitesse* = express); Marie sends Audiffret the pheasant hat by this slow service to delay identification of origin
+- Notes: Carnet 051 Dec 28; "par petite vitesse" → "by slow goods train"
+
+### bouts rimés (parlor game)
+- Translation: *bouts rimés* (keep French, italicized)
+- Context: French verse game: players complete verses with provided rhyming end-words; "faire des bouts rimés" = to play bouts rimés
+- Notes: Carnet 051 Jan 2; keep French with italics — no English equivalent; footnote not needed as self-explanatory in context
+
+### Saetone (Marie's epithet for Nice)
+- Translation: Saetone (keep as Marie's nickname for Nice)
+- Context: Marie's mocking name for the city of Nice, derived from an ancient name; used sarcastically
+- Notes: Carnet 051 Jan 6; "la ville de Saetone" → "Saetone's city"; consistent throughout
+
+### Russian Orthodox Christmas
+- Translation: [add footnote: "Russian Orthodox Christmas, celebrated on January 6/7 by the Julian calendar."]
+- Context: The Bashkirtseff family follows the Russian Orthodox Julian calendar; Christmas falls on January 6/7
+- Notes: Carnet 051 Jan 5-6; add footnote on each occurrence — "It is Christmas" or "eve of our Christmas" plus footnote `[^ortXX]`
+
+## People (from Carnet 051)
+
+### Fiacciotti
+- Translation: Fiacciotti
+- Context: Singing teacher in Rome; had spent twenty years in Russia and directed the Opera in Kharkov; Marie considers him as a teacher
+- Notes: Carnet 051 Jan 9; keep name as-is
+
+### Botkine (Mikhail)
+- Translation: Botkine
+- Context: Mikhail Botkine, Russian painter living in Rome; brother of the Empress's physician; helps the family find lodgings and teachers
+- Notes: Carnet 051 Jan 4 and Jan 6; keep name as-is
+
+### Archimandrite Alexandre
+- Translation: the Archimandrite Alexandre (keep title + name)
+- Context: Head of the Russian Orthodox community in Rome; a monk (archimandrites cannot marry); charming per Maman
+- Notes: Carnet 051 Jan 6; title "archimandrite" kept as ecclesiastical technical term (untranslatable)
+
+### Gonzales
+- Translation: Gonzales
+- Context: Nice acquaintance who advises Marie never to love seriously ("there is no man in the world worthy of your love"); charming but unfaithful husband
+- Notes: Carnet 051 Dec 26; keep name as-is
+
+## Cultural/Thematic Terms (from Carnet 051)
+
+### decollee (exhausted/disoriented)
+- Translation: coming apart at the seams
+- Context: Literally "unglued"; colloquial for someone utterly exhausted and disoriented; Marie after 24 hours without sleep
+- Notes: Carnet 051 Jan 3; "je suis toute décollée" → "I am coming apart at the seams"
+
+### empire sur moi-même
+- Translation: mastery of myself / self-control
+- Context: 19th c. formal expression for self-discipline; "perdre empire sur soi-même" = to lose self-control
+- Notes: Carnet 051 Dec 29; "peu à peu je perds empire sur moi-même" → "little by little I lose mastery of myself"
+
+### je suis payée pour cela
+- Translation: I have paid dearly enough to know it
+- Context: Idiomatic: "I've learned this from bitter experience"; bitter self-awareness
+- Notes: Carnet 051 Dec 29; "que voulez-vous, je suis payée pour cela" → "What can one expect — I have paid dearly enough to know it"
+
+### aumônière
+- Translation: reticule
+- Context: Small ornamental purse carried by a lady; "aumônière de satin blanc" = white satin reticule
+- Notes: Carnet 051 Dec 30; period fashion accessory; "reticule" is the correct English 19th c. equivalent
