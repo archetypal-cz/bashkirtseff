@@ -12,7 +12,7 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 - [ ] **Agents going off-rails** — occasionally an agent misinterprets its task or starts doing work outside its scope. Usually recoverable with a message, but wastes time.
 - [ ] **Shutdown acknowledgment delays** — agents sometimes take multiple idle cycles before responding to shutdown requests. Not harmful but noisy.
 - [ ] **Conductor subagent type immediate idle/death** — conductor spawned as `conductor` subagent type went idle immediately without doing work (con), or partially completed then died mid-task marking it done prematurely (con-2). Workaround: spawn as `general-purpose`. Needs confirmation — 1 report only (2026-03-05-en-036-041).
-- [ ] **Editor subagent type reported no Edit access** — RED agent spawned as `editor` subagent type reported it couldn't set frontmatter flags. Previously editors had Edit access. May be transient or platform change. Needs confirmation — 1 report only (2026-03-05-en-036-041).
+- [ ] **Editor subagent type reported no Edit access** — RED agent spawned as `editor` subagent type cannot set frontmatter flags or apply fixes. ED applies fixes manually. Confirmed in 2 reports (2026-03-05-en-036-041, 2026-03-05-en-042-047). 1 more report → skill update to spawn RED as general-purpose.
 
 ### GEM Corruption Patterns
 
@@ -25,7 +25,8 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 
 - [ ] **Gallicism rates** — track frequency of gallicisms caught by GEM/RED/OPS per carnet. High rates may indicate translator needs updated guidance.
 - [ ] **False friend frequency** — especially for Czech (ceremonie, kostým, kabinet) and English (sympathetic, actually, revolt/révolter, eve/veille, vilain/naughty). New EN false friends found in 008-010 run (2026-02-16).
-- [ ] **Quality score trends** — CON scores should trend upward as skills improve. Czech baseline: 0.90-0.95. English baseline: 0.947 (036-041), 0.95 avg (042-047, 4 carnets scored). Ukrainian baseline: 0.93-0.955 (3 waves, trending upward: 0.94 → 0.947 → 0.952 avg).
+- [ ] **Quality score trends** — CON scores should trend upward as skills improve. Czech baseline: 0.90-0.95. English baseline: 0.947 (036-041) → 0.957 (042-047, 6 carnets scored). Ukrainian baseline: 0.93-0.955 (3 waves, trending upward: 0.94 → 0.947 → 0.952 avg).
+- [ ] **Orphaned footnotes** — translators define footnote definitions (`[^xxx]: ...`) but forget the in-text superscript marker (`[^xxx]`). 6 instances across 4 carnets and 2 of 3 translators in 042-047 run. tr-002 had zero in carnet 047. Caught by RED. Proposal: add footnote-linking self-check to translator skill. Reports: 2026-03-05-en-042-047. Needs confirmation — 1 report only.
 - [ ] **Code-switch misidentification** — EN translators highlighted French idioms as English code-switches in 2 instances (009, 010). "It takes my breath away" and "that's all I'm saying!" were translated French idioms, not Marie writing in English. Needs confirmation — 1 report only (2026-02-16).
 - [ ] **Footnote ID format inconsistency** — EN translators use two formats: `[^fn047-034]` (fn+carnet-seq) and `[^45.266.1]` (carnet.para.seq). Both valid markdown, but inconsistent across carnets. 125 occurrences of fn-format vs 58 of para-format. Consider standardizing. Reports: 2026-03-05-en-042-047, also observed across 001-003 and 036-047.
 
