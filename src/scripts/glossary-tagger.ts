@@ -624,6 +624,135 @@ function printCandidates(candidates: ScanCandidate[], jsonOutput: boolean): void
   console.log(`  Unique paragraphs: ${uniqueParas.size}`);
 }
 
+// ── Batch Generation ─────────────────────────────────────────────────
+
+interface EvalBatch {
+  batchId: string;
+  confidence: 'medium' | 'low';
+  entryFile: string;
+  candidates: ScanCandidate[];
+}
+
+/**
+ * Generate evaluation batches grouped by entry file.
+ * Writes batch files to outputDir for subagent consumption.
+ */
+function generateBatches(
+  carnet: string,
+  candidates: ScanCandidate[],
+  outputDir: string,
+): { medium: EvalBatch[]; low: EvalBatch[] } {
+  fs.mkdirSync(outputDir, { recursive: true });
+
+  const medium: EvalBatch[] = [];
+  const low: EvalBatch[] = [];
+
+  // Group by (confidence, entryFile)
+  const groups = new Map<string, ScanCandidate[]>();
+  for (const c of candidates) {
+    if (c.confidence === 'high') continue; // Auto-accept, no evaluation needed
+    const key = `${c.confidence}:${c.entryFile}`;
+    const list = groups.get(key) || [];
+    list.push(c);
+    groups.set(key, list);
+  }
+
+  let batchIdx = 0;
+  for (const [key, groupCandidates] of groups) {
+    const [confidence, entryFile] = key.split(':', 2) as ['medium' | 'low', string];
+    batchIdx++;
+
+    const batch: EvalBatch = {
+      batchId: `${carnet}-${String(batchIdx).padStart(3, '0')}`,
+      confidence,
+      entryFile,
+      candidates: groupCandidates,
+    };
+
+    const batchFile = path.join(outputDir, `${batch.batchId}.json`);
+    fs.writeFileSync(batchFile, JSON.stringify(batch, null, 2), 'utf-8');
+
+    if (confidence === 'medium') medium.push(batch);
+    else low.push(batch);
+  }
+
+  return { medium, low };
+}
+
+// ── Result Collection ────────────────────────────────────────────────
+
+interface EvalDecision {
+  paraId: string;
+  glossaryId: string;
+  decision: 'accept' | 'reject';
+  reason: string;
+}
+
+interface EvalResult {
+  batchId: string;
+  decisions: EvalDecision[];
+}
+
+/**
+ * Collect evaluation results from batch result files and build an accept list.
+ * Also includes auto-accepted high-confidence candidates.
+ */
+function collectResults(evalDir: string): { accepted: ScanCandidate[]; rejected: EvalDecision[]; missing: string[] } {
+  const accepted: ScanCandidate[] = [];
+  const rejected: EvalDecision[] = [];
+  const missing: string[] = [];
+
+  // Load auto-accept high-confidence
+  const highFile = path.join(evalDir, 'auto-accept-high.json');
+  if (fs.existsSync(highFile)) {
+    const highCandidates: ScanCandidate[] = JSON.parse(fs.readFileSync(highFile, 'utf-8'));
+    accepted.push(...highCandidates);
+  }
+
+  // Find all batch files and their results
+  const batchFiles = fs.readdirSync(evalDir)
+    .filter(f => f.match(/^\d{3}-\d{3}\.json$/))
+    .sort();
+
+  for (const batchFile of batchFiles) {
+    const batchId = path.basename(batchFile, '.json');
+    const resultFile = path.join(evalDir, `${batchId}-result.json`);
+
+    if (!fs.existsSync(resultFile)) {
+      missing.push(batchId);
+      continue;
+    }
+
+    const batch: EvalBatch = JSON.parse(fs.readFileSync(path.join(evalDir, batchFile), 'utf-8'));
+    const result: EvalResult = JSON.parse(fs.readFileSync(resultFile, 'utf-8'));
+
+    // Build lookup from decisions
+    const decisionMap = new Map<string, EvalDecision>();
+    for (const d of result.decisions) {
+      decisionMap.set(`${d.paraId}:${d.glossaryId}`, d);
+    }
+
+    for (const candidate of batch.candidates) {
+      const key = `${candidate.paraId}:${candidate.glossaryId}`;
+      const decision = decisionMap.get(key);
+
+      if (!decision) {
+        // No decision for this candidate — treat as missing
+        missing.push(`${batchId}:${key}`);
+        continue;
+      }
+
+      if (decision.decision === 'accept') {
+        accepted.push(candidate);
+      } else {
+        rejected.push(decision);
+      }
+    }
+  }
+
+  return { accepted, rejected, missing };
+}
+
 // ── Main ─────────────────────────────────────────────────────────────
 
 function main(): void {
@@ -635,8 +764,10 @@ function main(): void {
 Glossary Auto-Tagger
 
 Commands:
-  scan <carnet> [options]     Scan for alias matches (Phase 1)
-  apply <carnet> [options]    Apply tags to entries
+  scan <carnet> [options]      Scan for alias matches (Phase 1)
+  batch <carnet> [options]     Generate evaluation batches (Phase 2 prep)
+  collect <carnet> [options]   Collect evaluation results and build accept list
+  apply <carnet> [options]     Apply tags to entries
 
 Scan options:
   --json                      Output as JSON
@@ -644,6 +775,9 @@ Scan options:
   --min-alias-len <n>         Minimum alias length (default: 4)
   --min-confidence <level>    Minimum confidence: high, medium, low (default: low)
   --verbose                   Show progress info
+
+Batch options:
+  --output-dir <dir>          Output directory (default: /tmp/glossary-eval/<carnet>)
 
 Apply options:
   --dry-run                   Preview without writing
@@ -654,8 +788,9 @@ Examples:
   glossary-tagger scan 068
   glossary-tagger scan 068 --category people --min-confidence medium
   glossary-tagger scan 068 --json > candidates-068.json
+  glossary-tagger batch 068
   glossary-tagger apply 068 --dry-run
-  glossary-tagger apply 068 --min-confidence high
+  glossary-tagger apply 068 --accept /tmp/glossary-eval/068/accepted.json
 `);
     return;
   }
@@ -687,6 +822,62 @@ Examples:
   if (command === 'scan') {
     const candidates = scanCarnet(carnet, glossaryEntries, { minAliasLen, minConfidence, verbose });
     printCandidates(candidates, jsonOutput);
+  } else if (command === 'batch') {
+    const outDirIdx = args.indexOf('--output-dir');
+    const outputDir = outDirIdx >= 0 ? args[outDirIdx + 1] : `/tmp/glossary-eval/${carnet}`;
+
+    const candidates = scanCarnet(carnet, glossaryEntries, { minAliasLen, minConfidence: 'low', verbose });
+    const { medium, low } = generateBatches(carnet, candidates, outputDir);
+
+    // Also write the high-confidence auto-accepts
+    const highCandidates = candidates.filter(c => c.confidence === 'high');
+    if (highCandidates.length > 0) {
+      fs.writeFileSync(
+        path.join(outputDir, 'auto-accept-high.json'),
+        JSON.stringify(highCandidates, null, 2),
+        'utf-8',
+      );
+    }
+
+    console.log(`Batches written to ${outputDir}/`);
+    console.log(`  High confidence (auto-accept): ${highCandidates.length} candidates`);
+    console.log(`  Medium confidence batches: ${medium.length} (${medium.reduce((s, b) => s + b.candidates.length, 0)} candidates)`);
+    console.log(`  Low confidence batches: ${low.length} (${low.reduce((s, b) => s + b.candidates.length, 0)} candidates)`);
+    console.log(`\nSubagent evaluation:`);
+    console.log(`  Medium batches → give to a fast evaluator (Sonnet-class)`);
+    console.log(`  Low batches → give to a careful evaluator (Opus-class) with more context`);
+    console.log(`\nTools available to evaluators:`);
+    console.log(`  just glossary-fm-get <ID>             # Read glossary entry frontmatter`);
+    console.log(`  cat content/_original/<entry_file>     # Read full diary entry`);
+    console.log(`  just glossary-find <ID>               # Find all references to an entry`);
+  } else if (command === 'collect') {
+    const outDirIdx = args.indexOf('--output-dir');
+    const evalDir = outDirIdx >= 0 ? args[outDirIdx + 1] : `/tmp/glossary-eval/${carnet}`;
+
+    const { accepted, rejected, missing } = collectResults(evalDir);
+
+    if (missing.length > 0) {
+      console.log(`WARNING: ${missing.length} batches/candidates missing results:`);
+      for (const m of missing.slice(0, 10)) {
+        console.log(`  ${m}`);
+      }
+      if (missing.length > 10) console.log(`  ... and ${missing.length - 10} more`);
+      console.log('');
+    }
+
+    console.log(`Results collected from ${evalDir}/`);
+    console.log(`  Accepted: ${accepted.length} tags`);
+    console.log(`  Rejected: ${rejected.length} tags`);
+
+    // Write accept list
+    const acceptFile = path.join(evalDir, 'accepted.json');
+    fs.writeFileSync(acceptFile, JSON.stringify(accepted, null, 2), 'utf-8');
+    console.log(`\nAccept list written to ${acceptFile}`);
+    console.log(`Apply with: npx tsx src/scripts/glossary-tagger.ts apply ${carnet} --accept ${acceptFile}`);
+
+    if (jsonOutput) {
+      console.log(JSON.stringify({ accepted: accepted.length, rejected: rejected.length, missing: missing.length }, null, 2));
+    }
   } else if (command === 'apply') {
     const acceptFile = args.indexOf('--accept') >= 0 ? args[args.indexOf('--accept') + 1] : undefined;
     const applyConfidence = (minConfIdx >= 0 ? args[minConfIdx + 1] : 'high') as 'high' | 'medium' | 'low';

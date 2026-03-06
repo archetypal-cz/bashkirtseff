@@ -120,6 +120,14 @@ theme-stats *FLAGS:
 glossary-scan carnet *FLAGS:
     npx tsx src/scripts/glossary-tagger.ts scan {{carnet}} {{FLAGS}}
 
+# Generate evaluation batches for subagent review
+glossary-batch carnet *FLAGS:
+    npx tsx src/scripts/glossary-tagger.ts batch {{carnet}} {{FLAGS}}
+
+# Collect evaluation results and build accept list
+glossary-collect carnet *FLAGS:
+    npx tsx src/scripts/glossary-tagger.ts collect {{carnet}} {{FLAGS}}
+
 # Apply glossary tags to a carnet (use --dry-run to preview)
 glossary-apply carnet *FLAGS:
     npx tsx src/scripts/glossary-tagger.ts apply {{carnet}} {{FLAGS}}
