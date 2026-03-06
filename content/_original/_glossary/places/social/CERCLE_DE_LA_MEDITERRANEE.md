@@ -1,3 +1,17 @@
+---
+id: CERCLE_DE_LA_MEDITERRANEE
+name: Cercle de la Méditerranée
+aliases:
+  - Cercle de la Méditerranée
+  - Cercle de la Mediterranee
+  - Cercle
+  - Méditerranée
+  - Mediterranee
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cercle de la Méditerranée
 
 **Research Status**: Basic

@@ -1,3 +1,15 @@
+---
+id: CHAMBRE_DES_DEPUTES
+name: Chambre des Deputes
+aliases:
+  - Chambre des Deputes
+  - Chambre
+  - Chambre des Députés
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Chambre des Deputes
 
 **Research Status**: Stub

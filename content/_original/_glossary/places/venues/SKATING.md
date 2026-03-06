@@ -1,4 +1,15 @@
-# Vico
+---
+id: SKATING
+name: skating
+aliases:
+  - skating
+  - Skating
+type: Place
+category: places/venues
+research_status: Basic
+last_updated: 2026-03-06
+---
+# skating
 
 ## Basic Information
 - Type: people - mentioned

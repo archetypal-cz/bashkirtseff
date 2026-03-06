@@ -1,4 +1,14 @@
-# Empereur
+---
+id: ESPAGNE
+name: Espagne
+aliases:
+  - Espagne
+type: Place
+category: places/countries
+research_status: Basic
+last_updated: 2026-03-06
+---
+# Espagne
 
 ## Basic Information
 - Type: people - mentioned

@@ -1,4 +1,14 @@
-# Cercle
+---
+id: EMPEREUR
+name: Empereur
+aliases:
+  - Empereur
+type: Person
+category: people/historical
+research_status: Basic
+last_updated: 2026-03-06
+---
+# Empereur
 
 ## Basic Information
 - Type: people - mentioned

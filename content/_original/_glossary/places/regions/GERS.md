@@ -1,3 +1,13 @@
+---
+id: GERS
+name: Gers
+aliases:
+  - Gers
+type: Place
+category: places/regions
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gers
 
 ## Basic Information

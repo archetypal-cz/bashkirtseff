@@ -1,4 +1,14 @@
-# Empire
+---
+id: VICO
+name: Vico
+aliases:
+  - Vico
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
+# Vico
 
 ## Basic Information
 - Type: people - mentioned

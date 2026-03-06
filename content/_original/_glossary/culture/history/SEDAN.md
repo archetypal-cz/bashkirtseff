@@ -1,15 +1,25 @@
-# Italie
+---
+id: SEDAN
+name: Sedan
+aliases:
+  - Sedan
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
+# Sedan
 
 **Research Status**: Stub
 **Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
+**Diary Coverage**: Book 13 (1879) - 2 mentions
 **Type**: Person/Place
 
 ## Overview
 
 [Research needed]
 
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
+This entry was mentioned 2 times in Book 13 of Marie's diary (1879).
 
 ## Research Needed
 

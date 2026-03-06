@@ -1,3 +1,16 @@
+---
+id: VIENNA
+name: Vienna (Vienne / Wien)
+aliases:
+  - Vienna (Vienne / Wien)
+  - Vienne / Wien
+  - Vienna
+  - Vienne
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vienna (Vienne / Wien)
 
 **Research Status**: Moderate
