@@ -20,15 +20,11 @@ setup:
     npm run build:shared
     @echo "Environment ready."
 
-# Install dependencies
-install:
-    npm install
-
 # Build shared TypeScript package
 build-ts:
     npm run build:shared
 
-# === GLOSSARY MANAGEMENT ===
+# === GLOSSARY ===
 
 # Find all diary entries referencing a glossary entry
 glossary-find id:
@@ -54,21 +50,13 @@ glossary-search pattern:
 glossary-entry-report id:
     npx tsx src/scripts/glossary-refs.ts report {{id}}
 
-# Move a glossary entry to a new category and update all references
-glossary-move id new_category:
-    npx tsx src/scripts/glossary-move.ts {{id}} {{new_category}}
+# Move a glossary entry to a new category and update all references (use --dry-run to preview)
+glossary-move id new_category *FLAGS:
+    npx tsx src/scripts/glossary-move.ts {{FLAGS}} {{id}} {{new_category}}
 
-# Move a glossary entry (dry run - show what would change)
-glossary-move-dry id new_category:
-    npx tsx src/scripts/glossary-move.ts --dry-run {{id}} {{new_category}}
-
-# Merge two glossary entries (source → target, updates all refs)
-glossary-merge source target:
-    npx tsx src/scripts/glossary-merge.ts merge {{source}} {{target}}
-
-# Merge glossary entries (dry run)
-glossary-merge-dry source target:
-    npx tsx src/scripts/glossary-merge.ts merge --dry-run {{source}} {{target}}
+# Merge two glossary entries (source → target, updates all refs; use --dry-run to preview)
+glossary-merge source target *FLAGS:
+    npx tsx src/scripts/glossary-merge.ts merge {{FLAGS}} {{source}} {{target}}
 
 # Find potential duplicate glossary entries
 glossary-duplicates:
@@ -82,27 +70,59 @@ glossary-migrate-flat *FLAGS:
 glossary-dedup-analyze:
     npx tsx src/scripts/glossary-dedup.ts analyze
 
-# Execute glossary dedup plan (dry run)
-glossary-dedup-dry plan_file:
-    npx tsx src/scripts/glossary-dedup.ts execute --dry-run {{plan_file}}
+# Execute glossary dedup plan (use --dry-run to preview)
+glossary-dedup-execute plan_file *FLAGS:
+    npx tsx src/scripts/glossary-dedup.ts execute {{FLAGS}} {{plan_file}}
 
-# Execute glossary dedup plan
-glossary-dedup-execute plan_file:
-    npx tsx src/scripts/glossary-dedup.ts execute {{plan_file}}
+# Ensure all glossary entries have YAML frontmatter (use --dry-run to preview)
+glossary-fm-ensure *FLAGS:
+    npx tsx src/scripts/glossary-frontmatter.ts ensure {{FLAGS}}
 
-# === THEME TAGGING ===
+# Auto-derive aliases from glossary headings (use --dry-run to preview)
+glossary-aliases *FLAGS:
+    npx tsx src/scripts/glossary-frontmatter.ts aliases {{FLAGS}}
 
-# Add theme tags to diary entries (dry run)
-theme-tag-dry *FLAGS:
-    npx tsx src/scripts/theme-tagger.ts --dry-run {{FLAGS}}
+# Set a frontmatter field on a glossary entry
+glossary-fm-set id field value:
+    npx tsx src/scripts/glossary-frontmatter.ts set {{id}} {{field}} '{{value}}'
 
-# Add theme tags to diary entries
+# Show frontmatter for a glossary entry
+glossary-fm-get id:
+    npx tsx src/scripts/glossary-frontmatter.ts get {{id}}
+
+# Add a single alias to a glossary entry
+glossary-add-alias id alias:
+    npx tsx src/scripts/glossary-frontmatter.ts add-alias {{id}} '{{alias}}'
+
+# Remove a single alias from a glossary entry
+glossary-remove-alias id alias:
+    npx tsx src/scripts/glossary-frontmatter.ts remove-alias {{id}} '{{alias}}'
+
+# Query glossary frontmatter (supports --field, --category, --has-field, --no-field, --json, --limit)
+glossary-query *FLAGS:
+    npx tsx src/scripts/glossary-frontmatter.ts query {{FLAGS}}
+
+# Show alias coverage statistics
+glossary-alias-stats:
+    npx tsx src/scripts/glossary-frontmatter.ts stats
+
+# === TAGGING ===
+
+# Add theme tags to diary entries (use --dry-run to preview)
 theme-tag *FLAGS:
     npx tsx src/scripts/theme-tagger.ts {{FLAGS}}
 
 # Show theme tag statistics without modifying files
 theme-stats *FLAGS:
     npx tsx src/scripts/theme-tagger.ts --stats {{FLAGS}}
+
+# Scan a carnet for glossary alias matches (Phase 1 auto-tagging)
+glossary-scan carnet *FLAGS:
+    npx tsx src/scripts/glossary-tagger.ts scan {{carnet}} {{FLAGS}}
+
+# Apply glossary tags to a carnet (use --dry-run to preview)
+glossary-apply carnet *FLAGS:
+    npx tsx src/scripts/glossary-tagger.ts apply {{carnet}} {{FLAGS}}
 
 # === UTILITIES ===
 
@@ -148,13 +168,9 @@ clean-ts:
     rm -rf src/shared/dist
     @echo "Cleaned TypeScript build artifacts"
 
-# Sync RSR/LAN annotations from _original/ to a translation language for a carnet
-sync carnet lang=default_lang:
-    npx ts-node --esm src/scripts/sync-translation.ts {{carnet}} --lang {{lang}}
-
-# Sync annotations (dry run - preview changes)
-sync-dry carnet lang=default_lang:
-    npx ts-node --esm src/scripts/sync-translation.ts {{carnet}} --lang {{lang}} --dry-run --verbose
+# Sync RSR/LAN annotations from _original/ to a translation language for a carnet (use --dry-run to preview)
+sync carnet lang=default_lang *FLAGS:
+    npx tsx src/scripts/sync-translation.ts {{carnet}} --lang {{lang}} {{FLAGS}}
 
 # Sync annotations for ALL carnets in a language
 sync-all lang=default_lang:
@@ -165,7 +181,7 @@ sync-all lang=default_lang:
     for carnet_dir in content/{{lang}}/[0-9][0-9][0-9]; do
         carnet=$(basename "$carnet_dir")
         if [ -d "content/_original/$carnet" ]; then
-            result=$(npx ts-node --esm src/scripts/sync-translation.ts "$carnet" --lang {{lang}} 2>&1)
+            result=$(npx tsx src/scripts/sync-translation.ts "$carnet" --lang {{lang}} 2>&1)
             modified=$(echo "$result" | grep "^Modified:" | awk '{print $2}')
             changes=$(echo "$result" | grep "^Total changes:" | awk '{print $3}')
             if [ "${changes:-0}" -gt 0 ]; then
@@ -178,39 +194,15 @@ sync-all lang=default_lang:
     echo ""
     echo "Total: $total_modified files modified, $total_changes changes"
 
-# === FILE OPERATIONS ===
-
-# Create a new daily entry file
-new-entry date carnet="001":
-    @echo "Creating new entry for {{date}} in carnet {{carnet}}"
-    @mkdir -p content/_original/{{carnet}}
-    @touch content/_original/{{carnet}}/{{date}}.md
-    @echo "# Entry for {{date}}" > content/_original/{{carnet}}/{{date}}.md
-    @echo "Created: content/_original/{{carnet}}/{{date}}.md"
-
-# List entries for a specific carnet
-list-entries carnet=default_carnet:
-    @echo "Entries in Carnet {{carnet}}:"
-    @ls -la content/_original/{{carnet}}/*.md 2>/dev/null | awk '{print $9}' | sort
-
-# Show last few entries in a carnet
-recent carnet=default_carnet count="5":
-    @echo "Last {{count}} entries in Carnet {{carnet}}:"
-    @ls -la content/_original/{{carnet}}/*.md 2>/dev/null | tail -{{count}} | awk '{print $9}'
-
 # === FRONTMATTER MANAGEMENT ===
 
-# Update calculated frontmatter fields (metrics, age, sentence counts)
-update-frontmatter carnet:
-    npx tsx src/scripts/update-frontmatter.ts {{carnet}}
+# Update calculated frontmatter fields (metrics, age, sentence counts; use --dry-run to preview)
+update-frontmatter carnet *FLAGS:
+    npx tsx src/scripts/update-frontmatter.ts {{FLAGS}} {{carnet}}
 
 # Update frontmatter for all carnets
 update-frontmatter-all:
     npx tsx src/scripts/update-frontmatter.ts
-
-# Update frontmatter (dry run - preview changes)
-update-frontmatter-dry carnet:
-    npx tsx src/scripts/update-frontmatter.ts --dry-run {{carnet}}
 
 # Update translation frontmatter metrics
 update-frontmatter-lang lang carnet:
@@ -436,18 +428,17 @@ help:
     @echo "  View site at: https://bashkirtseff.org"
     @echo ""
     @echo "GLOSSARY:"
-    @echo "  just glossary-validate    # Validate all glossary links"
-    @echo "  just glossary-stubs       # Create missing glossary stubs"
-    @echo "  just glossary-check       # Check naming standards"
-    @echo "  just glossary-report      # Full glossary report"
     @echo "  just glossary-find ID     # Find references to a glossary entry"
     @echo "  just glossary-orphaned    # List orphaned entries (no refs)"
     @echo "  just glossary-missing     # List missing entries (broken links)"
     @echo "  just glossary-stats       # Show usage statistics"
     @echo "  just glossary-search PAT  # Search entries by pattern"
-    @echo "  just glossary-move ID CAT # Move entry to new category"
-    @echo "  just glossary-merge S T   # Merge two entries (S → T)"
-    @echo "  just glossary-duplicates  # Find potential duplicates"
+    @echo "  just glossary-entry-report ID  # Detailed report for an entry"
+    @echo "  just glossary-move ID CAT      # Move entry to new category (--dry-run)"
+    @echo "  just glossary-merge S T        # Merge two entries S → T (--dry-run)"
+    @echo "  just glossary-duplicates       # Find potential duplicates"
+    @echo "  just glossary-fm-ensure        # Ensure YAML frontmatter (--dry-run)"
+    @echo "  just glossary-aliases          # Auto-derive aliases (--dry-run)"
     @echo ""
     @echo "PROJECT MANAGEMENT:"
     @echo "  just status               # Full project status (RSR/LAN/TR)"
@@ -458,10 +449,10 @@ help:
     @echo "  just search 'term'        # Search in source files"
     @echo ""
     @echo "FRONTMATTER:"
-    @echo "  just update-frontmatter 001        # Update metrics for carnet 001"
-    @echo "  just update-frontmatter-all        # Update metrics for all carnets"
-    @echo "  just update-frontmatter-dry 001    # Preview changes"
-    @echo "  just update-frontmatter-lang cz 001 # Update translation metrics"
+    @echo "  just update-frontmatter 001             # Update metrics for carnet 001"
+    @echo "  just update-frontmatter 001 --dry-run   # Preview changes"
+    @echo "  just update-frontmatter-all             # Update metrics for all carnets"
+    @echo "  just update-frontmatter-lang cz 001     # Update translation metrics"
     @echo ""
     @echo "DEVELOPMENT:"
     @echo "  just build-ts        # Build TypeScript packages"
@@ -515,7 +506,8 @@ help:
     @echo "  Dashboard: https://analytics.bashkirtseff.org"
     @echo ""
     @echo "FRONTEND (Astro PWA):"
-    @echo "  just filter-index     # Build filter index for tag filtering"
+    @echo "  just fe-filter-index  # Build filter index for tag filtering"
+    @echo "  just fe-generate-icons # Generate PWA icons"
     @echo "  just fe-dev           # Start frontend dev server"
     @echo "  just fe-build         # Build frontend for production"
     @echo "  just fe-preview       # Preview production build"
@@ -619,13 +611,9 @@ kernberger-images:
 kernberger-footnotes:
     uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py footnotes
 
-# Tag source files with Kernberger coverage (dry run)
-kernberger-tag-dry:
-    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py tag --dry-run
-
-# Tag source files with Kernberger coverage
-kernberger-tag:
-    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py tag
+# Tag source files with Kernberger coverage (use --dry-run to preview)
+kernberger-tag *FLAGS:
+    uv run {{_kernberger_deps}} python3 src/scripts/epub_kernberger.py tag {{FLAGS}}
 
 # Extract appendices from Kernberger EPUB
 kernberger-appendices:
@@ -649,13 +637,9 @@ censored-parse:
 censored-extract:
     uv run --with rapidfuzz python3 src/scripts/censored_matching.py extract
 
-# Tag source files with #Censored_1887 (dry run)
-censored-tag-dry:
-    uv run --with rapidfuzz python3 src/scripts/censored_matching.py tag --dry-run
-
-# Tag source files with #Censored_1887
-censored-tag:
-    uv run --with rapidfuzz python3 src/scripts/censored_matching.py tag
+# Tag source files with #Censored_1887 (use --dry-run to preview)
+censored-tag *FLAGS:
+    uv run --with rapidfuzz python3 src/scripts/censored_matching.py tag {{FLAGS}}
 
 # Show censored edition report status
 censored-report:
@@ -690,11 +674,11 @@ analytics-status:
 # === FRONTEND (Astro PWA) ===
 
 # Generate PWA icons from Marie's self-portrait
-generate-pwa-icons:
+fe-generate-icons:
     npx tsx src/scripts/generate-pwa-icons.ts
 
 # Build filter index JSON for frontend tag filtering
-filter-index:
+fe-filter-index:
     npx tsx src/scripts/build-filter-index.ts
 
 # Start frontend development server
@@ -703,7 +687,7 @@ fe-dev:
 
 # Build frontend for production (includes filter index)
 fe-build:
-    just filter-index
+    just fe-filter-index
     cd src/frontend && npm run build
 
 # Preview production build locally
