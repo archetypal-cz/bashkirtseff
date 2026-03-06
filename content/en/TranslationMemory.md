@@ -156,6 +156,88 @@ When Marie writes in Italian/Russian:
 - Translation: post-chaise
 - Context: 19th century long-distance mail coach travel
 
+## Carnet 068 Additions (Dec 1876–Feb 1877)
+
+### fini / achevé (character quality)
+- Translation: finished / complete
+- Context: Marie's character taxonomy — "être fini" = a fully formed, polished person; opposite "inachevé"
+- Notes: "Mon père restera inachevé" → "my father will remain unfinished." NOT "finished" in the sense of done/over.
+
+### guignon
+- Translation: ill-luck / bad luck / jinx
+- Context: Marie's informal term for persistent misfortune
+- Notes: Casual, keep as single word when possible
+
+### veglione
+- Translation: *veglione* (keep Italian, no italics correction needed)
+- Context: Grand masked ball of the Italian Carnival season; all-night affair
+- Notes: Footnote on first use in each entry
+
+### domino
+- Translation: domino
+- Context: Masquerade costume: hooded cloak with mask
+- Notes: Keep as-is, cognate and well-known
+
+### table d'hôte
+- Translation: *table d'hôte* (keep French, italicized)
+- Context: Communal hotel dining table; well-known period term
+- Notes: Footnote on first use in a carnet
+
+### bédouin
+- Translation: *bédouin*
+- Context: Burnous-style loose outer wrap, fashionable 1870s
+- Notes: Keep French, add brief footnote
+
+### lazzaroni
+- Translation: *lazzaroni* (keep Italian)
+- Context: Neapolitan street poor; by 1870s = cheerfully feckless Neapolitans
+- Notes: Italicize, footnote on first use
+
+### interdit (legal)
+- Translation: under guardianship / legally interdicted
+- Context: Person declared by courts incapable of managing affairs
+- Notes: Explain in footnote; "n'est plus interdit" → "is no longer under guardianship"
+
+### coquine (mistress)
+- Translation: kept woman / mistress
+- Context: Euphemism for kept mistress; literally "rascal" or "minx"
+- Notes: Context-dependent; footnote when ambiguous
+
+### palmipède
+- Translation: webfoot
+- Context: Marie's insult for Maman's large gloved hands at the masquerade
+- Notes: Literally "web-footed bird"; absurdist insult, keep zoological register
+
+### le Surprenant
+- Translation: the Surprising One
+- Context: Recurring nickname for an earlier romantic interest
+- Notes: Capitalized, always "the Surprising One"
+
+### Bijou-bouzouk
+- Translation: Bijou-bouzouk (keep as-is)
+- Context: Marie's invented nickname for Count Larderei; combines *bijou* (darling) with *bachi-bouzouk* (erratic Ottoman soldier)
+- Notes: Keep phonetic form; footnote on first use in a new entry sequence
+
+### fileuse
+- Translation: spinning-wheel piece / *fileuse*
+- Context: Virtuosic piano character piece (Litolff); named for spinning-wheel effect
+- Notes: "fileuse de Litolff" → "a spinning-wheel piece by Litolff" or "Litolff's *fileuse*"
+
+### vieux style
+- Translation: Old Style / old style
+- Context: Julian calendar used in Russia until 1918; ran 12-13 days behind Gregorian
+- Notes: "12 janvier, vieux style" → "12 January, old style"; footnote on first use
+
+### yeux français
+- Translation: French eyes
+- Context: Marie's category for sharp, dry, analytical eyes
+- Notes: Keep "French eyes" — this is an idiomatic taxonomy in her diary, not literal
+
+### grisette
+- Translation: *grisette* (keep French, italicized)
+- Context: Young working-class woman, often of easy virtue; Parisian/Italian social type
+- Notes: No clean English equivalent; footnote on first use
+
 ### phtisie
 - Translation: consumption
 - Context: Period term for tuberculosis
@@ -472,6 +554,8 @@ When Marie writes in Italian/Russian:
 %% 2026-03-05T16:00:00 TR: Added terms from carnet 038 — Paris social vocabulary, cartomancy terms, Marot parody verse, tarot predictions, coded names (Girofla, Fedus, Centifolia) %%
 %% 2026-03-05T19:00:00 TR: Added terms from carnet 057 — Roman society, political vocabulary, religious register, Neapolitan arrival %%
 %% 2026-03-05T21:00:00 TR: Added terms from carnet 058 — Naples vocabulary, Italian wordplay, architectural vocabulary, Hamilton theology %%
+%% 2026-03-06T11:20:00 TR: Added terms from carnet 065 — Ukrainian estate vocabulary, Russian political terms, provincial society idioms, father-daughter dynamics %%
+%% 2026-03-06T10:00:00 TR: Added terms from carnet 067 — parliamentary vocabulary, period medicine, coded nicknames, Cassagnac profile, vernis social type, Moreau fortune-teller, Skating-rink %%
 
 ## Social & Cultural Terms (from Carnet 057)
 
@@ -3581,3 +3665,386 @@ When Marie writes in Italian/Russian:
 - Translation: Mademoiselle Collignon
 - Context: French companion/governess who accompanies Marie; departs Nice on 27 June 1876
 - Notes: "Mademoiselle Collignon" on first mention; "Collignon" thereafter
+
+## Social & Cultural Terms (from Carnet 065)
+
+### hetman
+- Translation: hetman (keep as-is, footnote on first use)
+- Context: Title of the Cossack military and political leader who governed Little Russia (Ukraine)
+- Notes: Established English word; footnote on first use explaining the Cossack institution
+
+### Troisième Section / Third Section
+- Translation: the Third Section
+- Context: Third Section of His Imperial Majesty's Own Chancellery — Tsarist secret police (1826–1880)
+- Notes: "Third Section" with footnote on first use per carnet; predecessor to the Okhrana
+
+### genitor
+- Translation: *genitor* (keep Latin, italicized)
+- Context: Marie's ironic Latin term for her father — *genitor* = "begetter," deliberately cold and distancing
+- Notes: Preserve the Latinate irony; footnote unnecessary (meaning clear in context)
+
+### gommeux / la gomme
+- Translation: dandy / the dandies
+- Context: 1870s Parisian slang: an over-polished, affected young man; from *gomme* (gum arabic — transparent)
+- Notes: "dandy" in most contexts; "the fashionable set" for *la gomme* collectively; Marie explains etymology (transparency) in the 23 August entry
+
+### Bigre
+- Translation: Confound it! / Dash it!
+- Context: Mild expletive, euphemism for *bon Dieu*; Marie uses it in frustration
+- Notes: "Confound it" captures the mild, old-fashioned register
+
+### fichu (as prefix)
+- Translation: wretched / blasted
+- Context: Marie's playful prefix — "fichu-père," "fichu-lecteurs" (wretched father, wretched readers)
+- Notes: Affectionate mock-insult; "wretched" or "blasted" captures the tone
+
+### drochki-de course / racing droshky
+- Translation: racing droshky
+- Context: A light high-speed Russian carriage — a plank on four wheels; Marie glosses it herself
+- Notes: "Racing droshky" on first use with Marie's own gloss in brackets
+
+### à la petite-russienne
+- Translation: in the Little Russian fashion
+- Context: Ukrainian manner of doing something (e.g., pluralizing a family name)
+- Notes: "Little Russian fashion" or "Little Russian manner" — do NOT use "Ukrainian" (anachronistic for 1876)
+
+### se couvrir de moisissure
+- Translation: to grow mouldy / to stagnate
+- Context: Idiomatic: intellectual stagnation, becoming provincially stupefied
+- Notes: "Grow mouldy" captures the specific image Marie uses; NOT "go mouldy" (too domestic)
+
+### philosophe
+- Translation: *philoslave* (keep French, italicized)
+- Context: Pan-Slavist, supporter of Slavic unity; Pacha's ironic nickname
+- Notes: Footnote: "Pan-Slavist — a supporter of Slavic cultural and political unity."
+
+### maréchal de noblesse (Poltava)
+- Translation: Marshal of the Nobility
+- Context: Elected head of local gentry — one of the most prominent social roles in provincial Russia
+- Notes: Already in TM from carnet 040; consistent usage confirmed
+
+### jeunesse dorée (Poltava)
+- Translation: gilded youth
+- Context: Fashionable young aristocratic men; here specifically Poltava's social set
+- Notes: Already in TM from carnet 038; consistent usage confirmed
+
+## People (from Carnet 065)
+
+### Gritz / Grigori Miloradovitch
+- Translation: Gritz / Grigori Miloradovitch
+- Context: Childhood friend and admirer from Odessa, six years prior; reunited in Poltava; rosy-cheeked, old-mannish in spirit, deaf from illness
+- Notes: "Gritz" informally; "Miloradovitch" formally; "Grigori Ievitch Miloradovitch" on formal introduction
+
+### Father Bashkirtseff (the father)
+- Translation: my father / Papa / Constantin
+- Context: Marie's estranged father — vain, childish, emotionally guarded; calls himself a "bon vivant" rather than a father; Marie renames him "Constantin" in the theatre
+- Notes: "my father" in narrative; "Papa" when Marie uses it affectionately; "Constantin" only in the theatre scenes
+
+## Social & Cultural Terms (from Carnet 066)
+
+### svita / swita
+- Translation: *svita* (keep transliteration, footnote on first use per carnet)
+- Context: Traditional Ukrainian peasant overcoat (*svita*), gathered at the waist; made from natural undyed cloth woven by village women
+- Notes: Transliterate as "svita"; footnote: "A traditional Ukrainian peasant overcoat, gathered at the waist."
+
+### chemise brodée (Ukrainian context)
+- Translation: embroidered shirt
+- Context: The Ukrainian *vyshyvanka* — traditional embroidered linen shirt worn for ceremonies; visible at collar and chest
+- Notes: "embroidered shirt" in translation; no need to use "vyshyvanka" (Marie does not use the term)
+
+### battue
+- Translation: battue (keep French, footnote on first use per carnet)
+- Context: Organised hunt where beaters drive game toward waiting guns
+- Notes: "battue" is an established English loanword; footnote: "A driven hunt in which beaters flush game toward the guns."
+
+### starosta
+- Translation: starosta (keep, footnote on first use per carnet)
+- Context: Village elder or headman responsible for communal administration
+- Notes: Already standard in English writing on Russian peasant life; footnote on first use
+
+### cheval soumis (troika)
+- Translation: trace-horse (gloss as needed)
+- Context: The side-horse in a Russian troika, harnessed at an angle, running in a canter with head turned outward while the centre horse trots
+- Notes: Explain with brief gloss; Marie uses the term technically and is aware it needs explanation
+
+### Mousse (nickname)
+- Translation: Mousse (keep as-is)
+- Context: Marie's family nickname, used by the Gavronzi circle and Pacha
+- Notes: Keep without translation; do not add footnote unless first occurrence in the edition
+
+### comme il faut russe
+- Translation: *comme il faut* Russian style / in the correct Russian manner
+- Context: The specific strict formality of Russian high-society propriety — more rigid than French *comme il faut*
+- Notes: "Russian *comme il faut*" captures the distinction Marie draws; the term was used to describe Vassilissa as "too *comme il faut*" (i.e., excessively proper)
+
+### dévergondé (in formal dedication)
+- Translation: profligate
+- Context: Dissolute, shameless; Marie uses it in the humiliating dedication she dictates to Michel Eristoff
+- Notes: "Profligate" preserves the formal Latinate register of the mock-dedication context; "dissolute" or "shameless" in casual narrative
+
+## People (from Carnet 066)
+
+### Michel Eristoff / Prince Michel Andryevitch Eristoff d'Aragva
+- Translation: Michel / Prince Michel / Prince Michel Andryevitch Eristoff of Aragva
+- Context: Marie's cousin (second cousin by marriage); provincial admirer at Gavronzi; submits to being whipped for her portrait
+- Notes: "Michel" informally; full style only in the dictated dedication
+
+### Pacha (Gavronzi circle)
+- Translation: Pacha (keep as-is)
+- Context: A family nickname for a young man (likely Pavel) in the Gavronzi/Poltava circle; Marie's companion and confidant
+- Notes: NOT the Ottoman title — this is a Russian family nickname; no footnote needed after established use
+
+### Prince Serge Kotchoubey / Dikanka
+- Translation: Prince Serge Kotchoubey
+- Context: Owner of the famous Dikanka estate near Gavronzi; scion of the Kochubey family celebrated in Pushkin's *Poltava*
+- Notes: "Prince Kotchoubey" or "the Prince" after first use; Dikanka footnoted on first occurrence per carnet
+
+### Paul de Cassagnac
+- Translation: Paul de Cassagnac
+- Context: French Bonapartist journalist and polemicist (1843–1904); son of Adolphe Granier de Cassagnac; Marie's political hero and romantic fixation
+- Notes: "Cassagnac" after first use; distinguish from his father "Granier de Cassagnac" (père) on first mention
+
+### Hamsley
+- Translation: Hamsley
+- Context: Young man at Chpatovska who shifts courtship attention from local girl to Marie, creating social friction
+- Notes: Keep as-is; surname only
+
+### Pacha / Paul Gorpintchenko
+- Translation: Pacha / Gorpintchenko
+- Context: Solid, candid Russian type; "old man in spirit"; travelling companion; "philoslave" nickname; son of father's "sainted sister"
+- Notes: "Pacha" informally (his nickname); "Gorpintchenko" formally
+
+## Social & Cultural Terms (from Carnet 067)
+
+### vernis / verni (social type)
+- Translation: *varnished* (keep adjective in italics when used as Marie's classification)
+- Context: Marie's typology: "les gens *vernis*" — outwardly charming, socially polished men who conceal a hard, calculating nature; applied specifically to La Motte fils
+- Notes: Carnet 067 Nov 27; keep *vernis* in italics when Marie uses it as a category marker
+
+### entrevue officielle
+- Translation: official interview
+- Context: Marie's own framing for the La Motte marriage-market salon encounter (Nov 27)
+- Notes: "une entrevue parfaitement officielle" — her phrase for what was clearly a marriage-market presentation; translate literally
+
+### catarrhe laryngé chronique
+- Translation: chronic laryngeal catarrh
+- Context: Dr. Fauvel's diagnosis of Marie's throat condition (Nov 28); early sign of tuberculosis
+- Notes: Period medical term; keep as "chronic laryngeal catarrh" with footnote on first use noting Dr. Fauvel and the laryngoscope
+
+### laryngoscope
+- Translation: laryngoscope (keep English, footnote)
+- Context: Diagnostic instrument invented by Manuel García (1854); still relatively new in 1876
+- Notes: Carnet 067 Nov 28; footnote: "The laryngoscope, invented in 1854 by Manuel García, was still a comparatively new diagnostic tool in 1876."
+
+### nenni
+- Translation: not a word / nay
+- Context: Archaic/dialectal French for "no, certainly not" — Marie uses it for the categorical blankness of her father's non-response
+- Notes: Carnet 067 Nov 24-25; "nenni" = emphatic/archaic no; "not a word" captures the categorical silence; "nay" is also viable
+
+### baiser de chien
+- Translation: dog's kiss
+- Context: Marie's scornful dismissal of Pacha's departure kiss (carnet 067 Nov 12-15)
+- Notes: Literal translation; the disdain is in "de chien" — keep as "dog's kiss," not softened
+
+### Skating-rink (Nice)
+- Translation: Skating-rink (keep English, footnote)
+- Context: Marie uses the English loanword for roller-skating rink at the Cercle de la Méditerranée; roller skating was a 1870s craze
+- Notes: Carnet 067 Dec 10; mark with ==highlight==; footnote: "In English in the original. Roller skating rinks were a fashionable novelty of the 1870s."
+
+### la Moreau (fortune-teller)
+- Translation: la Moreau
+- Context: Parisian clairvoyante (fortune-teller); Marie consults her repeatedly; uses hair, tarot cards, and general second sight
+- Notes: Keep "la Moreau" — the feminine article defines her as a professional, like "la Paderewski" for a musician; do NOT translate
+
+### Silhouettes à la plume
+- Translation: *Silhouettes à la plume* (keep French, italicized)
+- Context: Parliamentary almanac with profile sketches of deputies; Marie quotes it at length for La Motte fils and Cassagnac
+- Notes: Carnet 067 Nov 28; gloss on first use: "a parliamentary handbook with deputy profiles"
+
+### d'Artagnan de lettres
+- Translation: a literary d'Artagnan
+- Context: *Silhouettes à la plume*'s characterisation of Cassagnac; d'Artagnan = Gascon dash, bravery, reckless loyalty
+- Notes: Carnet 067 Nov 28; footnote on first use: "d'Artagnan, the Gascon hero of Dumas's *The Three Musketeers*, archetype of reckless bravery."
+
+### séminariste poupard
+- Translation: plump seminarian
+- Context: *Silhouettes à la plume*'s dismissive description of La Motte fils — round-faced, priggish, with a minister's portfolio always under his arm
+- Notes: Carnet 067 Nov 28; render as "plump seminarian" — the face of a cloistered student implying lack of worldliness
+
+### Agnus Dei (Marie's ironic usage)
+- Translation: ==*Agnus Dei*== (highlight, footnote)
+- Context: Liturgical Latin "Lamb of God"; Marie uses it sarcastically for her father's wheedling, grovelling humility at Monaco
+- Notes: Carnet 067 Dec 10; mark with ==highlight==; footnote: "Latin: 'Lamb of God' — the liturgical formula used here sarcastically."
+
+%% 2026-03-06T14:00:00 TR: Added terms from carnet 070 — Naples/Sorrento period, Larderei affair, Italian/Dante passages, social strategy vocabulary %%
+
+## Social & Cultural Terms (from Carnet 070)
+
+### lazzarone / lazzaroni
+- Translation: *lazzarone* (keep Italian, footnote on first use per entry)
+- Context: Neapolitan term for a street idler, rascal, or odd-job man; often hired to carry luggage
+- Notes: Keep in Italian italics; footnote: "Lazzarone (pl. lazzaroni): Neapolitan for a street idler or rascal, often hired for odd jobs."
+
+### Bijou (Larderei codename)
+- Translation: *Bijou* (keep French, footnote on first occurrence per entry)
+- Context: Marie's private codename for Count Alessandro Larderei throughout the Naples period (April 1877)
+- Notes: "Jewel" in French — an affectionate private nickname; footnote: "*Bijou* ("jewel"): Marie's private codename for Count Larderei."
+
+### Sirène / Silène (wordplay)
+- Translation: Render the wordplay as described; footnote required
+- Context: The Hôtel de la Sirène in Sorrento; Melissano and Marcuard substitute *l* for *r* to get "Silène" (Silenus) — their coded name for Larderei's mistress La Righi
+- Notes: Silenus was Greek god of drunkenness, doubly apt given Larderei's drinking; footnote explaining both the hotel name and the coded allusion
+
+### une paire de cornes
+- Translation: a pair of horns
+- Context: Cuckold's horns — Larderei's bitter joke about La Righi's infidelity
+- Notes: Translate literally; the idiom is immediately clear in context; "a magnificent pair of horns" when Larderei uses it self-deprecatingly
+
+### faux-fuyants
+- Translation: evasions / pretexts
+- Context: Changing the subject, dissolving into indirect talk to avoid an embarrassing topic
+- Notes: NOT "false exits" literally; "evasions" or "they dissolved into evasions" is the natural English rendering
+
+### gris (intoxicated)
+- Translation: tipsy (mild) / drunk (moderate/severe)
+- Context: 1870s slang: literally "grey"; colloquial for intoxicated
+- Notes: Carnet 070 uses a scale: "gris" (first occurrence) → render as "tipsy"; later when worse: "ivre" → "drunk"; "ivre mort" → "dead drunk"
+
+### sicilienne (fabric)
+- Translation: *sicilienne* (keep French, footnote on first use per entry)
+- Context: A ribbed silk fabric fashionable for dresses in the 1870s
+- Notes: Keep French term in italics; footnote: "Sicilienne: a ribbed silk fabric fashionable in the 1870s."
+
+### casaque Louis XV
+- Translation: Louis XV jacket (footnote on first use per entry)
+- Context: An 18th-century revival style jacket with elaborate trim and jabot; fashionable in the 1870s
+- Notes: "Louis XV jacket" captures the period reference; footnote on first use
+
+### ses couleurs (racing)
+- Translation: his colours
+- Context: Racing livery — green and white for Larderei; Marie wears them strategically at the races
+- Notes: "His colours" is the established English term for racing livery; the strategic import is self-evident in context
+
+### coiffure Psyché
+- Translation: Psyche coiffure / Psyche hairstyle (footnote)
+- Context: Classical revival hairstyle with hair gathered up, leaving the neck bare; inspired by ancient Greek sculpture
+- Notes: Carnet 070 April 24; footnote: "Psyche coiffure: a classical revival hairstyle with hair gathered up, inspired by ancient Greek sculpture."
+
+### bonne aventure (private divination ritual)
+- Translation: *bonne aventure* (keep French, footnote)
+- Context: Fortune-telling; but Marie uses it as her private term for making conditional bargains with fate at every step
+- Notes: Keep in French italics; footnote: "Bonne aventure: fortune-telling. Marie applies the term to her own superstitious habit of making conditional bargains with chance."
+
+### on (epistolary impersonal)
+- Translation: one (formal impersonal)
+- Context: Marie's strategic use of the French impersonal "on" throughout the letter to Larderei (22 April); allows intimate matters to be addressed with cool detachment
+- Notes: Render consistently as formal "one" throughout the letter; the effect — of a voice that belongs to no one in particular — must be preserved. Do NOT switch to "I" or "we."
+
+### Lustucru
+- Translation: *Lustucru* (keep French, footnote)
+- Context: Comic stock figure from French nursery rhymes, embodiment of gullible naivety (from *l'eusses-tu-cru* = "would you have believed it")
+- Notes: Carnet 070 April 3; keep in French italics; footnote explaining the figure and etymology
+
+### le faune (Melissano)
+- Translation: the faun
+- Context: Marie's epithet for Melissano — the lustful woodland spirit from classical mythology; implies lecherous, disruptive
+- Notes: Translate as "the faun"; classical reference is sufficient without additional footnote
+
+### poisson d'avril
+- Translation: April Fool's prank
+- Context: French term for an April Fool's Day trick (*poisson* = fish; children pin paper fish to backs on April 1st)
+- Notes: "April Fool" or "April Fool's prank" depending on context
+
+### carricolo
+- Translation: *carricolo* (keep Italian, footnote)
+- Context: A Neapolitan two-wheeled cart, famously overloaded with passengers
+- Notes: Carnet 070 April 7; footnote: "Carricolo: a Neapolitan two-wheeled cart, notoriously overloaded."
+
+### nebbioso (Italian insert)
+- Translation: *nebbioso* (keep Italian, footnote)
+- Context: Italian adjective meaning misty, hazy; Marie inserts it into French text to describe the Naples hills
+- Notes: Mark with ==highlight==; footnote "*In Italian in the original*. 'Misty, hazy.'"
+
+### Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate
+- Translation: ==*Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate*== (keep Latin, highlight, footnote)
+- Context: Latin motto closing carnet 070: "Doubt, illusion, deception, oppression / Through desire for glory." Possibly Marie's own composition.
+- Notes: Mark with ==highlight==; footnote: "Latin: 'Doubt, illusion, deception, oppression / through desire for glory.' Possibly Marie's own composition — a bitter self-assessment of the Larderei affair." Note: *Gloriae cupiditate* also appears in carnet 060 TM entry — the full two-line version is first complete in carnet 070.
+
+## People (from Carnet 070)
+
+### Larderei / Bijou / Alexandre
+- Translation: Larderei / Bijou / Alexandre
+- Context: Count Alessandro de Larderel — descended from Tuscany's boric-acid industrialist family (Counts of Montecerboli); separated from wife, has a mistress (La Righi) and a daughter (Alexandrine); Marie is 17
+- Notes: "Larderei" in narrative; "Bijou" as private codename; "Alexandre" as his first name used by intimates; "Count Larderei" on first formal mention
+
+### La Righi / Silène
+- Translation: La Righi / Silène
+- Context: Larderei's mistress — referred to obliquely as "Silène" (the Silenus wordplay) and "l'autre" (the other one)
+- Notes: "La Righi" when named directly; "Silène" when the coded form is used; "the other" or "the other woman" in narrative
+
+### Alexandrine (Larderei's daughter)
+- Translation: Alexandrine
+- Context: Larderei's young daughter by La Righi; his disclosure of her existence at the drunken Sorrento garden scene is a turning point
+- Notes: Keep as "Alexandrine" — do NOT anglicize to "Alexandra"
+
+### Santasiglia
+- Translation: Santasiglia
+- Context: Young Neapolitan admirer of Marie, 19 years old; copies out Dante's Vita Nuova XXVI for her
+- Notes: Keep as-is; "young Santasiglia" informally after first use
+
+### Marcuard
+- Translation: Marcuard
+- Context: Swiss companion to the Bashkirtseff party; in love with Dina; solid, honest, "the most Swiss of all"
+- Notes: "Marcuard" throughout; Marie calls him "le plus Suisse de tous les Marcuard"
+
+### Melissano
+- Translation: Melissano
+- Context: Italian acquaintance; Larderei's friend and sometime co-conspirator; Marie calls him "le faune" (the faun) — lecherous, disruptive
+- Notes: "Melissano" throughout; "the faun" as epithet
+
+### souffletée par des paroles (verbal slap)
+- Translation: slapped with words
+- Context: Marie's gloss on her mother's confrontation with Mme Tutcheff at Monaco; not a physical blow but crushing verbal attack
+- Notes: Carnet 067 Dec 10; "souffletée par des paroles écrasantes" = slapped with crushing words; keep the violent register
+
+### Belle-de-jour (nickname)
+- Translation: Belle-de-jour (keep French, footnote on first use)
+- Context: Marie's contemptuous nickname for an ephemeral, vain young man in Nice; *belle-de-jour* is the convolvulus, a flower that blooms only in daylight and wilts by evening
+- Notes: Carnet 067 Dec 6-11; footnote on first use: "*Belle-de-jour*: the day-flower (convolvulus), which blooms only in sunlight and wilts by evening — an ephemeral beauty."
+
+### Fiouloulou (nickname)
+- Translation: Fiouloulou (keep as-is)
+- Context: Marie's private nickname for a social acquaintance at Nice (identity unclear from context)
+- Notes: Carnet 067 Dec 11; keep untranslated; treat as proper nickname
+
+### Moi-même / Moi-même (self-reliance declaration)
+- Translation: Myself (capitalised)
+- Context: Carnet 067 Dec 11 climax: "Et ce quelqu'un c'est Moi-même!" — the rhetorical twist at the end of the "someone who loves me" anaphora
+- Notes: Capitalise "Myself" to match Marie's emphatic "Moi-même"; the capitalisation signals the declaration is quasi-religious
+
+## People (from Carnet 067)
+
+### Janvier de La Motte fils (Louis)
+- Translation: Louis Janvier de La Motte / M. de La Motte / the young La Motte
+- Context: Twenty-eight-year-old Bonapartist deputy for Segré (Maine-et-Loire); mayor of his department; seeks wealthy wife for political salon; father was a Bonapartist prefect and deputy
+- Notes: Carnet 067 Nov 25-27; full name on first mention; "M. de La Motte" thereafter; Marie mocks him as "M. February" (*Février*) for the name Janvier (January)
+
+### Dr. Fauvel
+- Translation: Dr. Fauvel
+- Context: Prominent Parisian laryngologist; diagnoses Marie with chronic laryngeal catarrh (Nov 28) using a laryngoscope; prescribes six weeks' treatment, forcing a Paris winter
+- Notes: Carnet 067 Nov 28; keep as "Dr. Fauvel"
+
+### Mme Tutcheff / Tutcheff
+- Translation: Mme Tutcheff
+- Context: Marie's father's companion (effectively his mistress) and a slanderer of the family; confronted by Maman at Monaco (Dec 10)
+- Notes: Carnet 067 Dec 10; keep as "Mme Tutcheff"; the confrontation scene is a major family drama
+
+### Alexis (clairvoyant)
+- Translation: Alexis
+- Context: Parisian clairvoyant consulted by Marie (Nov 26); told her she would never be happy; associated with the Cassagnac luncheon circle
+- Notes: Carnet 067 Nov 26; keep as "Alexis"; distinguish from family members of the same name
+
+### Michel Gautier
+- Translation: Michel Gautier
+- Context: Elder brother of the two beautiful Gautier sisters Marie admires; older than Albert, dissolute, passes his life with *cocottes*; reminds Marie of Larderei and Antonelli
+- Notes: Carnet 067 Dec 11; "Michel Gautier" on first mention; "Michel" thereafter
