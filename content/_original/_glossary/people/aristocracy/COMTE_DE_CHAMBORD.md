@@ -1,3 +1,14 @@
+---
+id: COMTE_DE_CHAMBORD
+name: Comte de Chambord
+aliases:
+  - Comte de Chambord
+  - Chambord
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte de Chambord
 
 ## Basic Information

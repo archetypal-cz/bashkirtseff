@@ -1,3 +1,15 @@
+---
+id: PRINCESS_OF_MONACO
+name: Princess of Monaco
+aliases:
+  - Princess of Monaco
+  - Princess
+  - Monaco
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princess of Monaco
 
 **Research Status**: Basic

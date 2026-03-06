@@ -1,3 +1,14 @@
+---
+id: PRINCE_PIERRE
+name: Prince Pierre
+aliases:
+  - Prince Pierre
+  - Pierre
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Pierre
 
 ## Basic Information

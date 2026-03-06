@@ -1,6 +1,11 @@
 ---
 id: MA_TANTE
 name: Sophie (Ma tante)
+aliases:
+  - Sophie (Ma tante)
+  - Ma Tante
+  - Ma tante
+  - Sophie
 type: Person
 category: people/family
 research_status: Moderate

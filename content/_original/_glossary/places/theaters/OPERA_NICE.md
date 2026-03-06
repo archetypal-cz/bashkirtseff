@@ -1,3 +1,13 @@
+---
+id: OPERA_NICE
+name: Opera Nice
+aliases:
+  - Opera Nice
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Opera Nice
 
 ## Basic Information

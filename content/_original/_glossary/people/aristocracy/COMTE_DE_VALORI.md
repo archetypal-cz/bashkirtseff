@@ -1,3 +1,15 @@
+---
+id: COMTE_DE_VALORI
+name: comte de Valori
+aliases:
+  - comte de Valori
+  - Comte de Valori
+  - Valori
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # comte de Valori
 
 ## Basic Information

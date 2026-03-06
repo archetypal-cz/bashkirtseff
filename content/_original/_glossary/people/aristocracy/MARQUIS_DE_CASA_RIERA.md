@@ -1,3 +1,14 @@
+---
+id: MARQUIS_DE_CASA_RIERA
+name: Marquis de Casa Riera
+aliases:
+  - Marquis de Casa Riera
+  - Riera
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marquis de Casa Riera
 
 **Research Status**: Stub

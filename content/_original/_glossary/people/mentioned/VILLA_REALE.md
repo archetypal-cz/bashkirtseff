@@ -1,3 +1,14 @@
+---
+id: VILLA_REALE
+name: Villa Reale
+aliases:
+  - Villa Reale
+  - Reale
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Villa Reale
 
 ## Basic Information

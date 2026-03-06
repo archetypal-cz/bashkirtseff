@@ -1,3 +1,16 @@
+---
+id: MLLE_DE_LA_VALLIERE
+name: '"Mlle de La Vallière"'
+aliases:
+  - '"Mlle de La Vallière"'
+  - Mlle de la Valliere
+  - Vallière"
+  - '"Mlle'
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # "Mlle de La Vallière"
 
 **Research Status**: Basic

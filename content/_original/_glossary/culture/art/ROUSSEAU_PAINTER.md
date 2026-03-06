@@ -1,3 +1,14 @@
+---
+id: ROUSSEAU_PAINTER
+name: Rousseau painter
+aliases:
+  - Rousseau painter
+  - Rousseau Painter
+type: Culture
+category: culture/art
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rousseau painter
 
 **Research Status**: Stub

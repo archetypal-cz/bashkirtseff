@@ -1,3 +1,14 @@
+---
+id: PRINCE_DE_MELISSANO
+name: Prince de Melissano
+aliases:
+  - Prince de Melissano
+  - Melissano
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince de Melissano
 
 ## Basic Information

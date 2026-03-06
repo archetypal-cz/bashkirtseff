@@ -1,3 +1,14 @@
+---
+id: ZILLHARDT
+name: Amélie Zillhardt
+aliases:
+  - Amélie Zillhardt
+  - Zillhardt
+type: Culture
+category: culture/art
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Amélie Zillhardt
 
 **Research Status**: Basic

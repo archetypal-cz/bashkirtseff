@@ -1,3 +1,14 @@
+---
+id: MME_BOYD
+name: Mme Boyd
+aliases:
+  - Mme Boyd
+  - Boyd
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Boyd
 
 ## Basic Information

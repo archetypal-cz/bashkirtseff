@@ -1,3 +1,14 @@
+---
+id: PRINCESSE_GALITZINE
+name: Princesse Galitzine
+aliases:
+  - Princesse Galitzine
+  - Galitzine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princesse Galitzine
 
 ## Basic Information

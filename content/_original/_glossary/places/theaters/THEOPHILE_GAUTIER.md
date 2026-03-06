@@ -1,3 +1,14 @@
+---
+id: THEOPHILE_GAUTIER
+name: Théophile Gautier
+aliases:
+  - Théophile Gautier
+  - Theophile Gautier
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Théophile Gautier
 
 **Research Status**: Comprehensive

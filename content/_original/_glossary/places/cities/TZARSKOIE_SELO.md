@@ -1,3 +1,15 @@
+---
+id: TZARSKOIE_SELO
+name: Tzarskoie Selo (Tsarskoye Selo)
+aliases:
+  - Tzarskoie Selo (Tsarskoye Selo)
+  - Tzarskoie Selo
+  - Tsarskoye Selo
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Tzarskoie Selo (Tsarskoye Selo)
 
 **Research Status**: Basic

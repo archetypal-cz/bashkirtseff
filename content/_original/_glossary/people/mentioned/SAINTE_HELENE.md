@@ -1,3 +1,14 @@
+---
+id: SAINTE_HELENE
+name: Sainte-Helene
+aliases:
+  - Sainte-Helene
+  - Sainte Helene
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sainte-Helene
 
 ## Basic Information

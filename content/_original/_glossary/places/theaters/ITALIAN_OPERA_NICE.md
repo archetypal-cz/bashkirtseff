@@ -1,3 +1,13 @@
+---
+id: ITALIAN_OPERA_NICE
+name: Italian Opera Nice
+aliases:
+  - Italian Opera Nice
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Italian Opera Nice
 
 ## Basic Information

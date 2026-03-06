@@ -1,6 +1,10 @@
 ---
 id: BETE
 name: Bete (nickname)
+aliases:
+  - Bete (nickname)
+  - nickname
+  - Bete
 type: Person
 category: people/mentioned
 research_status: Moderate

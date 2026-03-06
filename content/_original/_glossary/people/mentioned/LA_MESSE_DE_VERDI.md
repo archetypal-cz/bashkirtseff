@@ -1,3 +1,14 @@
+---
+id: LA_MESSE_DE_VERDI
+name: La Messe de Verdi
+aliases:
+  - La Messe de Verdi
+  - Verdi
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Messe de Verdi
 
 ## Basic Information

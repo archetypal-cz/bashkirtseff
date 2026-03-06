@@ -1,3 +1,13 @@
+---
+id: LE_GAULOIS
+name: Le Gaulois
+aliases:
+  - Le Gaulois
+type: Culture
+category: culture/newspapers
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le Gaulois
 
 **Research Status**: Stub

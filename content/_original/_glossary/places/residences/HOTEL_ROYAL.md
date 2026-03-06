@@ -1,3 +1,13 @@
+---
+id: HOTEL_ROYAL
+name: Hotel Royal
+aliases:
+  - Hotel Royal
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel Royal
 
 **Research Status**: Stub

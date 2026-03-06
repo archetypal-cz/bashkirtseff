@@ -1,3 +1,16 @@
+---
+id: ALEXANDER_II
+name: Alexander II of Russia
+aliases:
+  - Alexander II of Russia
+  - Alexander Ii
+  - Alexander
+  - Russia
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alexander II of Russia
 
 **Research Status**: Comprehensive

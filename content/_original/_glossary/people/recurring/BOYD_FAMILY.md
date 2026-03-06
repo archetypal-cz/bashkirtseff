@@ -1,3 +1,13 @@
+---
+id: BOYD_FAMILY
+name: Boyd Family
+aliases:
+  - Boyd Family
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Boyd Family
 
 **Research Status**: Moderate

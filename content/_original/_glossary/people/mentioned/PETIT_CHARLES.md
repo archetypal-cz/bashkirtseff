@@ -1,3 +1,14 @@
+---
+id: PETIT_CHARLES
+name: Petit Charles
+aliases:
+  - Petit Charles
+  - Charles
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Petit Charles
 
 ## Basic Information

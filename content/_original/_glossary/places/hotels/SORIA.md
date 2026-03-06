@@ -1,3 +1,13 @@
+---
+id: SORIA
+name: Soria
+aliases:
+  - Soria
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Soria
 
 **Research Status**: Basic

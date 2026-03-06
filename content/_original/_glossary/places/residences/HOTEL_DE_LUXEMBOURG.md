@@ -1,3 +1,13 @@
+---
+id: HOTEL_DE_LUXEMBOURG
+name: Hotel de Luxembourg
+aliases:
+  - Hotel de Luxembourg
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel de Luxembourg
 
 **Research Status**: Basic

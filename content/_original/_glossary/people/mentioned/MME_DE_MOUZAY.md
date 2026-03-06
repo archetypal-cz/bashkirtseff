@@ -1,3 +1,14 @@
+---
+id: MME_DE_MOUZAY
+name: Mme de Mouzay
+aliases:
+  - Mme de Mouzay
+  - Mouzay
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme de Mouzay
 
 **Research Status**: Basic

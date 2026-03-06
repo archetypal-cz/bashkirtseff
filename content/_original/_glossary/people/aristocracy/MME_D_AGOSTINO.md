@@ -1,3 +1,15 @@
+---
+id: MME_D_AGOSTINO
+name: Mme d Agostino
+aliases:
+  - Mme d Agostino
+  - Mme d'Agostino
+  - Agostino
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme d Agostino
 
 ## Basic Information

@@ -1,6 +1,9 @@
 ---
 id: DEATH
 name: Death & Funerals
+aliases:
+  - Death & Funerals
+  - Death
 type: Culture
 category: culture/themes
 research_status: Moderate

@@ -1,3 +1,14 @@
+---
+id: COMTE_GABRIELLI
+name: Comte Gabrielli
+aliases:
+  - Comte Gabrielli
+  - Gabrielli
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte Gabrielli
 
 ## Basic Information

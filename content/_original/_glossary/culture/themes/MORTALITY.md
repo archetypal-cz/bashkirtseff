@@ -1,6 +1,9 @@
 ---
 id: MORTALITY
 name: Mortality & Death Obsession
+aliases:
+  - Mortality & Death Obsession
+  - Mortality
 type: Culture
 category: culture/themes
 research_status: Moderate

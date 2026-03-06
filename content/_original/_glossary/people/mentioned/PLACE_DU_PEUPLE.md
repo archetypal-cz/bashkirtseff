@@ -1,3 +1,13 @@
+---
+id: PLACE_DU_PEUPLE
+name: Place du Peuple
+aliases:
+  - Place du Peuple
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Place du Peuple
 
 ## Basic Information

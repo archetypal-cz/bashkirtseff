@@ -1,6 +1,10 @@
 ---
 id: JULES_BASTIEN_LEPAGE
 name: Jules Bastien-Lepage
+aliases:
+  - Jules Bastien-Lepage
+  - Jules Bastien Lepage
+  - Bastien-Lepage
 type: Person
 category: people/mentioned
 research_status: Redirect

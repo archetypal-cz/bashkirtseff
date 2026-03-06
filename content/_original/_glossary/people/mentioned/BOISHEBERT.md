@@ -1,3 +1,14 @@
+---
+id: BOISHEBERT
+name: Boishébert
+aliases:
+  - Boishébert
+  - Boishebert
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Boishébert
 
 **Research Status**: Stub

@@ -1,6 +1,9 @@
 ---
 id: LAMBERTYE
 name: Comte de Lambertye
+aliases:
+  - Comte de Lambertye
+  - Lambertye
 type: Person
 category: people/mentioned
 research_status: Moderate

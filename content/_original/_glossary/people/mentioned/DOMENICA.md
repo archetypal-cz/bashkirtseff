@@ -1,3 +1,15 @@
+---
+id: DOMENICA
+name: Domenica (Mme Georges)
+aliases:
+  - Domenica (Mme Georges)
+  - Mme Georges
+  - Domenica
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Domenica (Mme Georges)
 
 **Research Status**: Moderate

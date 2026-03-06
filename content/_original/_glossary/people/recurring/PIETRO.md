@@ -1,6 +1,10 @@
 ---
 id: PIETRO
 name: Pietro Antonelli
+aliases:
+  - Pietro Antonelli
+  - Antonelli
+  - Pietro
 type: Person
 category: people/recurring
 research_status: Moderate

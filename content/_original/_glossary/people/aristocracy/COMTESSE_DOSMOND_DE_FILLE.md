@@ -1,3 +1,14 @@
+---
+id: COMTESSE_DOSMOND_DE_FILLE
+name: Comtesse dOsmond de Fille
+aliases:
+  - Comtesse dOsmond de Fille
+  - Comtesse Dosmond de Fille
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comtesse dOsmond de Fille
 
 ## Basic Information

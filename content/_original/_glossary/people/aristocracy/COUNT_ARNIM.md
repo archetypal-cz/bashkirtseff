@@ -1,3 +1,14 @@
+---
+id: COUNT_ARNIM
+name: Count Arnim
+aliases:
+  - Count Arnim
+  - Arnim
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Count Arnim
 
 **Research Status**: Basic

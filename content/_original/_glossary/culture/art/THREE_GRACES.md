@@ -1,3 +1,14 @@
+---
+id: THREE_GRACES
+name: Three Graces Society
+aliases:
+  - Three Graces Society
+  - Three Graces
+type: Culture
+category: culture/art
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Three Graces Society
 
 **Research Status**: Moderate

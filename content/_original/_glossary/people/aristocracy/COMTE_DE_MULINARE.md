@@ -1,3 +1,16 @@
+---
+id: COMTE_DE_MULINARE
+name: Comte de Mulinare (Chevalier Edouard de Moelenar)
+aliases:
+  - Comte de Mulinare (Chevalier Edouard de Moelenar)
+  - Chevalier Edouard de Moelenar
+  - Comte de Mulinare
+  - Mulinare
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte de Mulinare (Chevalier Edouard de Moelenar)
 
 **Research Status**: Basic

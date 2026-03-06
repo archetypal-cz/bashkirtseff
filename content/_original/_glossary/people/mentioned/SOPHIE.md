@@ -1,3 +1,15 @@
+---
+id: SOPHIE
+name: Sophie (Ma tante)
+aliases:
+  - Sophie (Ma tante)
+  - Ma tante
+  - Sophie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sophie (Ma tante)
 
 **Research Status**: Comprehensive

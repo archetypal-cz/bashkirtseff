@@ -1,3 +1,14 @@
+---
+id: GIL_BLAS
+name: Gil Blas
+aliases:
+  - Gil Blas
+  - Blas
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gil Blas
 
 ## Basic Information

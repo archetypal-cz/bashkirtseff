@@ -1,3 +1,15 @@
+---
+id: BARON_PSC
+name: Baron P.S.C.
+aliases:
+  - Baron P.S.C.
+  - Baron Psc
+  - P.S.C.
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron P.S.C.
 
 **Research Status**: Basic

@@ -1,3 +1,14 @@
+---
+id: MME_INDEBETTEN
+name: Mme Indebetten
+aliases:
+  - Mme Indebetten
+  - Indebetten
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Indebetten
 
 ## Basic Information

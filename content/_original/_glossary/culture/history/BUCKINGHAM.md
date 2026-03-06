@@ -1,3 +1,14 @@
+---
+id: BUCKINGHAM
+name: Duke of Buckingham
+aliases:
+  - Duke of Buckingham
+  - Buckingham
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duke of Buckingham
 
 **Research Status**: Basic

@@ -1,3 +1,15 @@
+---
+id: LA_REPUBLIQUE_FRANCAISE
+name: La Republique francaise
+aliases:
+  - La Republique francaise
+  - La Republique Francaise
+  - francaise
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Republique francaise
 
 ## Basic Information

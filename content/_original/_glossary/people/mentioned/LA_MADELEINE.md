@@ -1,3 +1,14 @@
+---
+id: LA_MADELEINE
+name: La Madeleine
+aliases:
+  - La Madeleine
+  - Madeleine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Madeleine
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: DUKE_OF_VALLOMBROSA
+name: Duke of Vallombrosa
+aliases:
+  - Duke of Vallombrosa
+  - Vallombrosa
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duke of Vallombrosa
 
 **Research Status**: Basic

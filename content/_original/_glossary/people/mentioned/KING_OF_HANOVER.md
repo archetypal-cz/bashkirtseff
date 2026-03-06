@@ -1,3 +1,15 @@
+---
+id: KING_OF_HANOVER
+name: King of Hanover
+aliases:
+  - King of Hanover
+  - Hanover
+  - King
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # King of Hanover
 
 **Research Status**: Basic

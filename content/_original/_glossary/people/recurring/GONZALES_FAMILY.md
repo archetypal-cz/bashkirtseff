@@ -1,3 +1,13 @@
+---
+id: GONZALES_FAMILY
+name: Gonzales Family
+aliases:
+  - Gonzales Family
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gonzales Family
 
 **Research Status**: Moderate

@@ -1,3 +1,14 @@
+---
+id: FAUVEL
+name: Dr. Fauvel
+aliases:
+  - Dr. Fauvel
+  - Fauvel
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dr. Fauvel
 
 **Research Status**: Basic

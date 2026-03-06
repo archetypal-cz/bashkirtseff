@@ -1,6 +1,10 @@
 ---
 id: DUCHESS_OF_EDINBURGH
 name: Grand Duchess Maria Alexandrovna of Russia
+aliases:
+  - Grand Duchess Maria Alexandrovna of Russia
+  - Duchess of Edinburgh
+  - Russia
 type: Person
 category: people/aristocracy
 research_status: Moderate

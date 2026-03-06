@@ -1,3 +1,14 @@
+---
+id: FRA_BUONAVENTURA
+name: Fra Buonaventura
+aliases:
+  - Fra Buonaventura
+  - Buonaventura
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Fra Buonaventura
 
 ## Basic Information

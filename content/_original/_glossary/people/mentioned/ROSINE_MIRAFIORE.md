@@ -1,3 +1,14 @@
+---
+id: ROSINE_MIRAFIORE
+name: Rosine Mirafiore
+aliases:
+  - Rosine Mirafiore
+  - Mirafiore
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rosine Mirafiore
 
 ## Basic Information

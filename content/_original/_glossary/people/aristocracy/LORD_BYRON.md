@@ -1,3 +1,14 @@
+---
+id: LORD_BYRON
+name: Lord Byron
+aliases:
+  - Lord Byron
+  - Byron
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lord Byron
 
 **Research Status**: Basic

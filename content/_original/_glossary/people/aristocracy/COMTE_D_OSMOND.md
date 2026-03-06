@@ -1,3 +1,15 @@
+---
+id: COMTE_D_OSMOND
+name: comte d Osmond
+aliases:
+  - comte d Osmond
+  - Comte d'Osmond
+  - Osmond
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # comte d Osmond
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: MADAME_DE_SEVIGNE
+name: Madame de Sévigné
+aliases:
+  - Madame de Sévigné
+  - Madame de Sevigne
+  - Sévigné
+type: Person
+category: people/writers
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame de Sévigné
 
 **Research Status**: Comprehensive

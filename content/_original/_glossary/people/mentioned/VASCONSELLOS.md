@@ -1,3 +1,13 @@
+---
+id: VASCONSELLOS
+name: Vasconsellos
+aliases:
+  - Vasconsellos
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vasconsellos
 
 ## Basic Information

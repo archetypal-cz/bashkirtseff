@@ -1,3 +1,15 @@
+---
+id: BASTIEN_LEPAGE
+name: Jules Bastien-Lepage
+aliases:
+  - Jules Bastien-Lepage
+  - Bastien-Lepage
+  - Bastien Lepage
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jules Bastien-Lepage
 
 **Research Status**: Moderate

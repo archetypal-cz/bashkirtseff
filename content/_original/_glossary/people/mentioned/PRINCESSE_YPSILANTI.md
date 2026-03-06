@@ -1,3 +1,14 @@
+---
+id: PRINCESSE_YPSILANTI
+name: Princesse Ypsilanti
+aliases:
+  - Princesse Ypsilanti
+  - Ypsilanti
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princesse Ypsilanti
 
 ## Basic Information

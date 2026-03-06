@@ -1,3 +1,14 @@
+---
+id: DR_TOMACHEWSKY
+name: Dr Tomachewsky
+aliases:
+  - Dr Tomachewsky
+  - Tomachewsky
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dr Tomachewsky
 
 ## Basic Information

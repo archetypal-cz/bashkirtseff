@@ -1,3 +1,13 @@
+---
+id: GANS
+name: Gans
+aliases:
+  - Gans
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gans
 
 ## Basic Information

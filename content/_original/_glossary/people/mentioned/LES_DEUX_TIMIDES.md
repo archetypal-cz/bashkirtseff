@@ -1,3 +1,15 @@
+---
+id: LES_DEUX_TIMIDES
+name: Les deux timides
+aliases:
+  - Les deux timides
+  - Les Deux Timides
+  - timides
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les deux timides
 
 ## Basic Information

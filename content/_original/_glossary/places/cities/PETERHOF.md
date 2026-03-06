@@ -1,3 +1,14 @@
+---
+id: PETERHOF
+name: Peterhof (Peterhof)
+aliases:
+  - Peterhof (Peterhof)
+  - Peterhof
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Peterhof (Peterhof)
 
 **Research Status**: Basic

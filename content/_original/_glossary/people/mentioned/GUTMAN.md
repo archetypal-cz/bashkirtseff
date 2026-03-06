@@ -1,3 +1,13 @@
+---
+id: GUTMAN
+name: Gutman
+aliases:
+  - Gutman
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gutman
 
 ## Basic Information

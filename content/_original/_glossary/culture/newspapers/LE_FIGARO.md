@@ -1,3 +1,13 @@
+---
+id: LE_FIGARO
+name: Le Figaro
+aliases:
+  - Le Figaro
+type: Culture
+category: culture/newspapers
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le Figaro
 
 **Research Status**: Stub

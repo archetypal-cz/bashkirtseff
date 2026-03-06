@@ -1,3 +1,15 @@
+---
+id: DUCHESSE_D_ABRANTES
+name: Duchesse d Abrantes
+aliases:
+  - Duchesse d Abrantes
+  - Duchesse d'Abrantes
+  - Abrantes
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duchesse d Abrantes
 
 **Research Status**: Stub

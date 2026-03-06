@@ -1,3 +1,14 @@
+---
+id: SAINT_MARTIN_LEMTASQUE
+name: Saint Martin Lemtasque
+aliases:
+  - Saint Martin Lemtasque
+  - Lemtasque
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Martin Lemtasque
 
 ## Basic Information

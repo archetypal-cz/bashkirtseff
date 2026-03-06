@@ -1,3 +1,16 @@
+---
+id: ALEXANDRE_XI_BORGIA
+name: Alexandre XI Borgia
+aliases:
+  - Alexandre XI Borgia
+  - Alexandre Xi Borgia
+  - Alexandre
+  - Borgia
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alexandre XI Borgia
 
 ## Basic Information

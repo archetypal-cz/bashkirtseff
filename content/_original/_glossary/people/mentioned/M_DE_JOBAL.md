@@ -1,3 +1,14 @@
+---
+id: M_DE_JOBAL
+name: M de Jobal
+aliases:
+  - M de Jobal
+  - Jobal
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Jobal
 
 ## Basic Information

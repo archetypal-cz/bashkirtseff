@@ -1,6 +1,9 @@
 ---
 id: MR_HOWARD_SWISS_TIMES
 name: Mr Howard & Swiss Times
+aliases:
+  - Mr Howard & Swiss Times
+  - Mr Howard Swiss Times
 type: Culture
 category: culture/newspapers
 research_status: Basic

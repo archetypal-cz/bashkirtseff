@@ -1,3 +1,14 @@
+---
+id: JULES_VERNE
+name: Jules Verne
+aliases:
+  - Jules Verne
+  - Verne
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jules Verne
 
 ## Basic Information

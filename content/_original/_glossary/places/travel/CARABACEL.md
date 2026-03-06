@@ -1,3 +1,13 @@
+---
+id: CARABACEL
+name: Carabacel
+aliases:
+  - Carabacel
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Carabacel
 
 **Research Status**: Basic

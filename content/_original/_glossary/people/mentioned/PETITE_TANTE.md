@@ -1,3 +1,14 @@
+---
+id: PETITE_TANTE
+name: Petite tante
+aliases:
+  - Petite tante
+  - Petite Tante
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Petite tante
 
 ## Basic Information

@@ -1,6 +1,9 @@
 ---
 id: LAFERRIERE
 name: Maison Laferriere
+aliases:
+  - Maison Laferriere
+  - Laferriere
 type: Culture
 category: culture/fashion
 research_status: Moderate

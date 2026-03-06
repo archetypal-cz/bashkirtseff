@@ -1,3 +1,14 @@
+---
+id: PRESIDENT_REPUBLIQUE
+name: President Republique
+aliases:
+  - President Republique
+  - Republique
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # President Republique
 
 ## Basic Information

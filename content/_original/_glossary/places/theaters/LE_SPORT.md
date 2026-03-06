@@ -1,3 +1,13 @@
+---
+id: LE_SPORT
+name: Le Sport
+aliases:
+  - Le Sport
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le Sport
 
 **Research Status**: Basic

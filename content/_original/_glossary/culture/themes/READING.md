@@ -1,6 +1,8 @@
 ---
 id: READING
 name: Reading
+aliases:
+  - Reading
 type: Culture
 category: culture/themes
 research_status: Moderate

@@ -1,3 +1,14 @@
+---
+id: LA_RESERVE
+name: La Réserve
+aliases:
+  - La Réserve
+  - La Reserve
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Réserve
 
 ## Basic Information

@@ -1,3 +1,13 @@
+---
+id: PAVON
+name: Pavon
+aliases:
+  - Pavon
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pavon
 
 **Research Status**: Stub

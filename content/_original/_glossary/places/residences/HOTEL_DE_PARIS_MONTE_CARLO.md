@@ -1,3 +1,14 @@
+---
+id: HOTEL_DE_PARIS_MONTE_CARLO
+name: Hôtel de Paris Monte-Carlo
+aliases:
+  - Hôtel de Paris Monte-Carlo
+  - Hotel de Paris Monte Carlo
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hôtel de Paris Monte-Carlo
 
 **Research Status**: Basic

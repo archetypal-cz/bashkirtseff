@@ -1,3 +1,14 @@
+---
+id: COMTE_DE_FERNANDINA
+name: Comte de Fernandina
+aliases:
+  - Comte de Fernandina
+  - Fernandina
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte de Fernandina
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: TCHETVERTINSKI
+name: Prince Tchetvertinski
+aliases:
+  - Prince Tchetvertinski
+  - Tchetvertinski
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Tchetvertinski
 
 **Research Status**: Basic

@@ -1,3 +1,14 @@
+---
+id: YOULIA_STEPANOVNA
+name: Youlia Stepanovna
+aliases:
+  - Youlia Stepanovna
+  - Stepanovna
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Youlia Stepanovna
 
 **Research Status**: Basic

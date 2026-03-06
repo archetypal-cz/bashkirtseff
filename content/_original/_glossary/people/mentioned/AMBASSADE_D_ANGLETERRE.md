@@ -1,3 +1,16 @@
+---
+id: AMBASSADE_D_ANGLETERRE
+name: ambassade d Angleterre
+aliases:
+  - ambassade d Angleterre
+  - Ambassade d'Angleterre
+  - Angleterre
+  - ambassade
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # ambassade d Angleterre
 
 ## Basic Information

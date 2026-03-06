@@ -1,3 +1,14 @@
+---
+id: DUC_DE_MELITO
+name: Duc de Melito
+aliases:
+  - Duc de Melito
+  - Melito
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de Melito
 
 ## Basic Information

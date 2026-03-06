@@ -1,3 +1,14 @@
+---
+id: PALAIS_BOURBON
+name: Palais Bourbon
+aliases:
+  - Palais Bourbon
+  - Bourbon
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Palais Bourbon
 
 **Research Status**: Stub

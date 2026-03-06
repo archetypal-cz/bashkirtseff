@@ -1,3 +1,14 @@
+---
+id: LA_VIE_MONDAINE
+name: La Vie mondaine
+aliases:
+  - La Vie mondaine
+  - La Vie Mondaine
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Vie mondaine
 
 **Research Status**: Basic

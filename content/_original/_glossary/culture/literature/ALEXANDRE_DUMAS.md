@@ -1,3 +1,13 @@
+---
+id: ALEXANDRE_DUMAS
+name: Alexandre Dumas
+aliases:
+  - Alexandre Dumas
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alexandre Dumas
 
 **Research Status**: Comprehensive  

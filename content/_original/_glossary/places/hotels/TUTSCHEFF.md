@@ -1,3 +1,14 @@
+---
+id: TUTSCHEFF
+name: The Tutscheff Family
+aliases:
+  - The Tutscheff Family
+  - Tutscheff
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # The Tutscheff Family
 
 **Research Status**: Basic

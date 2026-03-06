@@ -1,6 +1,12 @@
 ---
 id: TANTE_ETIENNE
 name: Stepa Babanine (Uncle Stepa/Etienne)
+aliases:
+  - Stepa Babanine (Uncle Stepa/Etienne)
+  - Uncle Stepa/Etienne
+  - Stepa Babanine
+  - Tante Etienne
+  - Babanine
 type: Person
 category: people/family
 research_status: Basic

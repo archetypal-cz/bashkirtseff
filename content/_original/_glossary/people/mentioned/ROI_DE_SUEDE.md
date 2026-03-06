@@ -1,3 +1,15 @@
+---
+id: ROI_DE_SUEDE
+name: roi de Suede
+aliases:
+  - roi de Suede
+  - Roi de Suede
+  - Suede
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # roi de Suede
 
 ## Basic Information

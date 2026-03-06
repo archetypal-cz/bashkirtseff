@@ -1,3 +1,14 @@
+---
+id: CARDINAL_ACARD
+name: Cardinal Acard
+aliases:
+  - Cardinal Acard
+  - Acard
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cardinal Acard
 
 ## Basic Information

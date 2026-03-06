@@ -1,3 +1,14 @@
+---
+id: QUEEN_MARGHERITA
+name: Queen Margherita
+aliases:
+  - Queen Margherita
+  - Margherita
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Queen Margherita
 
 ## Basic Information

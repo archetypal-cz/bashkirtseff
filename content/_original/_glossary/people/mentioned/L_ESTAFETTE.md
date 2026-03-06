@@ -1,3 +1,15 @@
+---
+id: L_ESTAFETTE
+name: L Estafette
+aliases:
+  - L Estafette
+  - l'Estafette
+  - Estafette
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # L Estafette
 
 ## Basic Information

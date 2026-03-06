@@ -1,3 +1,14 @@
+---
+id: GRAND_DUKE_ALEXIS
+name: Grand Duke Alexis
+aliases:
+  - Grand Duke Alexis
+  - Alexis
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand Duke Alexis
 
 **Research Status**: Basic

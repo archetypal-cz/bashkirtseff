@@ -1,3 +1,14 @@
+---
+id: M_HAUSSMANN
+name: M Haussmann
+aliases:
+  - M Haussmann
+  - Haussmann
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Haussmann
 
 ## Basic Information

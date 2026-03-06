@@ -1,3 +1,13 @@
+---
+id: PAUL_ET_VIRGINIE
+name: Paul et Virginie
+aliases:
+  - Paul et Virginie
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Paul et Virginie
 
 **Research Status**: Comprehensive

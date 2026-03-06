@@ -1,3 +1,14 @@
+---
+id: MLLE_ACARD
+name: Mlle Acard
+aliases:
+  - Mlle Acard
+  - Acard
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Acard
 
 **Research Status**: Stub

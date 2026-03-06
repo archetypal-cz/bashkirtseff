@@ -1,3 +1,14 @@
+---
+id: MADAME_DE_POURTALES
+name: Madame de Pourtales
+aliases:
+  - Madame de Pourtales
+  - Pourtales
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame de Pourtales
 
 ## Basic Information

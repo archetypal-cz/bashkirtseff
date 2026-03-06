@@ -1,6 +1,9 @@
 ---
 id: TAMBURINI
 name: Antonio Tamburini
+aliases:
+  - Antonio Tamburini
+  - Tamburini
 type: Person
 category: people/mentioned
 research_status: Moderate
@@ -8,7 +11,7 @@ last_updated: 2026-02-10
 languages:
   - it
 original_script: Tamburini
-pronunciation: "https://translate.google.com/?sl=it&tl=en&text=Antonio%20Tamburini"
+pronunciation: https://translate.google.com/?sl=it&tl=en&text=Antonio%20Tamburini
 ---
 
 # Antonio Tamburini

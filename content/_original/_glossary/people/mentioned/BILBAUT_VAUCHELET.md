@@ -1,3 +1,14 @@
+---
+id: BILBAUT_VAUCHELET
+name: Bilbaut Vauchelet
+aliases:
+  - Bilbaut Vauchelet
+  - Vauchelet
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bilbaut Vauchelet
 
 ## Basic Information

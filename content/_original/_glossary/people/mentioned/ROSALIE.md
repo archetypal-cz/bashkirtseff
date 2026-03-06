@@ -1,6 +1,8 @@
 ---
 id: ROSALIE
 name: Rosalie
+aliases:
+  - Rosalie
 type: Person
 category: people/mentioned
 research_status: Moderate

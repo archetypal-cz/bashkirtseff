@@ -1,3 +1,14 @@
+---
+id: CAFE_RICHE
+name: Cafe Riche
+aliases:
+  - Cafe Riche
+  - Riche
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cafe Riche
 
 ## Basic Information

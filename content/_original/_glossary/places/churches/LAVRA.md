@@ -1,3 +1,15 @@
+---
+id: LAVRA
+name: Lavra (Alexander Nevsky Lavra)
+aliases:
+  - Lavra (Alexander Nevsky Lavra)
+  - Alexander Nevsky Lavra
+  - Lavra
+type: Place
+category: places/churches
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lavra (Alexander Nevsky Lavra)
 
 **Research Status**: Basic

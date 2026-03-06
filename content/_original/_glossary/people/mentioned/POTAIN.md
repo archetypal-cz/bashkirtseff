@@ -1,3 +1,14 @@
+---
+id: POTAIN
+name: Dr. Pierre-Charles Potain
+aliases:
+  - Dr. Pierre-Charles Potain
+  - Potain
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dr. Pierre-Charles Potain
 
 **Research Status**: Moderate

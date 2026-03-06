@@ -1,3 +1,14 @@
+---
+id: DUKE_OF_EDINBURGH
+name: Duke of Edinburgh
+aliases:
+  - Duke of Edinburgh
+  - Edinburgh
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duke of Edinburgh
 
 ## Basic Information

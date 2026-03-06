@@ -1,3 +1,14 @@
+---
+id: FATHER_LEVITSKY
+name: Father Levitsky
+aliases:
+  - Father Levitsky
+  - Levitsky
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Father Levitsky
 
 **Research Status**: Basic

@@ -1,3 +1,15 @@
+---
+id: PENSION_HUBERKOLLER
+name: Pension Huberkoller (Geneva)
+aliases:
+  - Pension Huberkoller (Geneva)
+  - Pension Huberkoller
+  - Geneva
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pension Huberkoller (Geneva)
 
 **Research Status**: Basic

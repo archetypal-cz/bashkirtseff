@@ -1,3 +1,13 @@
+---
+id: DOCUMENT_HUMAIN
+name: Document Humain
+aliases:
+  - Document Humain
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Document Humain
 
 ## Overview

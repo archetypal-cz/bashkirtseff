@@ -1,3 +1,15 @@
+---
+id: KARKOFF
+name: Karkoff (Kharkiv / Харків)
+aliases:
+  - Karkoff (Kharkiv / Харків)
+  - Kharkiv / Харків
+  - Karkoff
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Karkoff (Kharkiv / Харків)
 
 **Research Status**: Comprehensive

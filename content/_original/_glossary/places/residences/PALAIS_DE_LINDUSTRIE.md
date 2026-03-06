@@ -1,3 +1,14 @@
+---
+id: PALAIS_DE_LINDUSTRIE
+name: Palais de l'Industrie
+aliases:
+  - Palais de l'Industrie
+  - Palais de Lindustrie
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Palais de l'Industrie
 
 **Research Status**: Moderate

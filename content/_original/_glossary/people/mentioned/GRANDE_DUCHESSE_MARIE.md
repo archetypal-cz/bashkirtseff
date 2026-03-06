@@ -1,3 +1,15 @@
+---
+id: GRANDE_DUCHESSE_MARIE
+name: grande duchesse Marie
+aliases:
+  - grande duchesse Marie
+  - Grande Duchesse Marie
+  - Marie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # grande duchesse Marie
 
 ## Basic Information

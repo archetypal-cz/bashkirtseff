@@ -1,3 +1,16 @@
+---
+id: ONCLE_ETIENNE
+name: Oncle Etienne (Uncle Etienne)
+aliases:
+  - Oncle Etienne (Uncle Etienne)
+  - Oncle Etienne
+  - Uncle Etienne
+  - Etienne
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Oncle Etienne (Uncle Etienne)
 
 **Research Status**: Basic

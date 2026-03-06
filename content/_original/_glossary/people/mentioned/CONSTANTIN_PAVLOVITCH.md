@@ -1,3 +1,14 @@
+---
+id: CONSTANTIN_PAVLOVITCH
+name: Constantin Pavlovitch
+aliases:
+  - Constantin Pavlovitch
+  - Pavlovitch
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Constantin Pavlovitch
 
 ## Basic Information

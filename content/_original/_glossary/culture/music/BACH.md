@@ -1,6 +1,9 @@
 ---
 id: BACH
 name: Johann Sebastian Bach
+aliases:
+  - Johann Sebastian Bach
+  - Bach
 type: Culture
 category: culture/music
 research_status: Basic

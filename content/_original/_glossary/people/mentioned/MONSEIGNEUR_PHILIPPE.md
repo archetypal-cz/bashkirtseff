@@ -1,3 +1,14 @@
+---
+id: MONSEIGNEUR_PHILIPPE
+name: Monseigneur Philippe
+aliases:
+  - Monseigneur Philippe
+  - Philippe
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Monseigneur Philippe
 
 ## Basic Information

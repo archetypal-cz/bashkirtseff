@@ -1,3 +1,15 @@
+---
+id: PRINCE_D_AUTRICHE
+name: Prince d Autriche
+aliases:
+  - Prince d Autriche
+  - Prince d'Autriche
+  - Autriche
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince d Autriche
 
 ## Basic Information

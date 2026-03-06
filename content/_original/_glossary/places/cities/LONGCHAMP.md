@@ -1,3 +1,16 @@
+---
+id: LONGCHAMP
+name: Hippodrome de Longchamp (Longchamp Racecourse)
+aliases:
+  - Hippodrome de Longchamp (Longchamp Racecourse)
+  - Hippodrome de Longchamp
+  - Longchamp Racecourse
+  - Longchamp
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hippodrome de Longchamp (Longchamp Racecourse)
 
 **Research Status**: Moderate

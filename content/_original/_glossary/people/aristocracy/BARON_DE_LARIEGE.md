@@ -1,3 +1,15 @@
+---
+id: BARON_DE_LARIEGE
+name: Baron de lAriege
+aliases:
+  - Baron de lAriege
+  - Baron de Lariege
+  - lAriege
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron de lAriege
 
 **Research Status**: Stub

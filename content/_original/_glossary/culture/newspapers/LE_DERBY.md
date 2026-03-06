@@ -1,3 +1,13 @@
+---
+id: LE_DERBY
+name: Le Derby
+aliases:
+  - Le Derby
+type: Culture
+category: culture/newspapers
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le Derby
 
 **Research Status**: Basic

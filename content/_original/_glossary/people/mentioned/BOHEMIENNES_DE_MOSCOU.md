@@ -1,3 +1,15 @@
+---
+id: BOHEMIENNES_DE_MOSCOU
+name: Bohemiennes de Moscou
+aliases:
+  - Bohemiennes de Moscou
+  - Bohemiennes
+  - Moscou
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bohemiennes de Moscou
 
 ## Basic Information

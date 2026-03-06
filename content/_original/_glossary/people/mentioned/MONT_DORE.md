@@ -1,3 +1,14 @@
+---
+id: MONT_DORE
+name: Mont Dore
+aliases:
+  - Mont Dore
+  - Dore
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mont Dore
 
 **Research Status**: Stub

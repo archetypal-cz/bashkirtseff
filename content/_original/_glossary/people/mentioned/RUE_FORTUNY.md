@@ -1,3 +1,15 @@
+---
+id: RUE_FORTUNY
+name: rue Fortuny
+aliases:
+  - rue Fortuny
+  - Rue Fortuny
+  - Fortuny
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # rue Fortuny
 
 ## Basic Information

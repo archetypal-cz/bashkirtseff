@@ -1,3 +1,14 @@
+---
+id: SOPHIE_DOLGIKOFF
+name: Sophie Dolgikoff
+aliases:
+  - Sophie Dolgikoff
+  - Dolgikoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sophie Dolgikoff
 
 **Research Status**: Basic

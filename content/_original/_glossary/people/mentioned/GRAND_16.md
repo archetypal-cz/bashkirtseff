@@ -1,3 +1,14 @@
+---
+id: GRAND_16
+name: Grand-16
+aliases:
+  - Grand-16
+  - Grand 16
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand-16
 
 ## Basic Information

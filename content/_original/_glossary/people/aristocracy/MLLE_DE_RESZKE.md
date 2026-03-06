@@ -1,3 +1,14 @@
+---
+id: MLLE_DE_RESZKE
+name: Mlle de Reszke
+aliases:
+  - Mlle de Reszke
+  - Reszke
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle de Reszke
 
 ## Basic Information

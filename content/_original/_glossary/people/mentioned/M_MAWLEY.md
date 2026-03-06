@@ -1,3 +1,14 @@
+---
+id: M_MAWLEY
+name: M Mawley
+aliases:
+  - M Mawley
+  - Mawley
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Mawley
 
 ## Basic Information

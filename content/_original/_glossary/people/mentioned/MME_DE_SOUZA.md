@@ -1,3 +1,14 @@
+---
+id: MME_DE_SOUZA
+name: Mme de Souza
+aliases:
+  - Mme de Souza
+  - Souza
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme de Souza
 
 **Research Status**: Stub

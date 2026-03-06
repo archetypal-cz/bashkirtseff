@@ -1,3 +1,15 @@
+---
+id: EPICTETUS
+name: Epictetus (Épictète)
+aliases:
+  - Epictetus (Épictète)
+  - Epictetus
+  - Épictète
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Epictetus (Épictète)
 
 **Research Status**: Comprehensive

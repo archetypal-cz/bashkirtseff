@@ -1,3 +1,15 @@
+---
+id: PLACE_MASSENA
+name: Place Masséna
+aliases:
+  - Place Masséna
+  - Place Massena
+  - Masséna
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Place Masséna
 
 **Research Status**: Basic

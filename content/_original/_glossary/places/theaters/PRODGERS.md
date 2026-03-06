@@ -1,3 +1,13 @@
+---
+id: PRODGERS
+name: Prodgers
+aliases:
+  - Prodgers
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prodgers
 
 **Research Status**: Basic

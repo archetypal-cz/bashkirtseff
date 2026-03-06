@@ -1,3 +1,15 @@
+---
+id: MONTECUCULI_DE_MERANO
+name: Montecuculi de Merano
+aliases:
+  - Montecuculi de Merano
+  - Montecuculi
+  - Merano
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Montecuculi de Merano
 
 **Research Status**: Stub

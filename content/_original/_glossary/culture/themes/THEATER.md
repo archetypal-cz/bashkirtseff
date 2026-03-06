@@ -1,6 +1,8 @@
 ---
 id: THEATER_THEME
 name: Theater
+aliases:
+  - Theater
 type: Culture
 category: culture/themes
 research_status: Moderate

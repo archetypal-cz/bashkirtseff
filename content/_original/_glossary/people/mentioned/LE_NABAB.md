@@ -1,3 +1,15 @@
+---
+id: LE_NABAB
+name: le Nabab
+aliases:
+  - le Nabab
+  - Le Nabab
+  - Nabab
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # le Nabab
 
 ## Basic Information

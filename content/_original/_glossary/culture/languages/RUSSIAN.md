@@ -1,3 +1,13 @@
+---
+id: RUSSIAN
+name: Russian
+aliases:
+  - Russian
+type: Culture
+category: culture/languages
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Russian
 
 **Research Status**: Intermediate

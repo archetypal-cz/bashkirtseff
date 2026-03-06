@@ -1,3 +1,14 @@
+---
+id: M_DE_CONTADES
+name: M de Contades
+aliases:
+  - M de Contades
+  - Contades
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Contades
 
 ## Basic Information

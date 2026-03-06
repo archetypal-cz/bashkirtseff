@@ -1,3 +1,13 @@
+---
+id: CONCIERGE
+name: Concierge
+aliases:
+  - Concierge
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Concierge
 
 **Research Status**: Stub

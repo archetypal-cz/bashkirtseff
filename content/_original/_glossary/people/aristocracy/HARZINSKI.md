@@ -1,3 +1,14 @@
+---
+id: HARZINSKI
+name: Comtesse Harzinski
+aliases:
+  - Comtesse Harzinski
+  - Harzinski
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comtesse Harzinski
 
 **Research Status**: Basic

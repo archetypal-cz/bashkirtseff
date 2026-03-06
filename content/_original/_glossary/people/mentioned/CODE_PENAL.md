@@ -1,3 +1,15 @@
+---
+id: CODE_PENAL
+name: Code penal
+aliases:
+  - Code penal
+  - Code Penal
+  - penal
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Code penal
 
 ## Basic Information

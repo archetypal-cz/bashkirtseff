@@ -1,6 +1,9 @@
 ---
 id: BLANC
 name: M. Blanc
+aliases:
+  - M. Blanc
+  - Blanc
 type: Person
 category: people/mentioned
 research_status: Moderate

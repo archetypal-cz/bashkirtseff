@@ -1,3 +1,14 @@
+---
+id: LAS_CASES
+name: Las Cases
+aliases:
+  - Las Cases
+  - Cases
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Las Cases
 
 **Research Status**: Stub

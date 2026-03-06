@@ -1,3 +1,14 @@
+---
+id: TEATRO_DEL_FONDO
+name: Teatro del Fondo
+aliases:
+  - Teatro del Fondo
+  - Teatro Del Fondo
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Teatro del Fondo
 
 ## Basic Information

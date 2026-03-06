@@ -1,3 +1,16 @@
+---
+id: VIENNOISE
+name: La Viennoise (The Viennese Girl)
+aliases:
+  - La Viennoise (The Viennese Girl)
+  - The Viennese Girl
+  - La Viennoise
+  - Viennoise
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Viennoise (The Viennese Girl)
 
 **Research Status**: Basic

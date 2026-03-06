@@ -1,3 +1,13 @@
+---
+id: DOVER
+name: Dover
+aliases:
+  - Dover
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dover
 
 **Research Status**: Stub

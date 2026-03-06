@@ -1,3 +1,15 @@
+---
+id: RUE_DU_LUXEMBOURG
+name: rue du Luxembourg
+aliases:
+  - rue du Luxembourg
+  - Rue du Luxembourg
+  - Luxembourg
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # rue du Luxembourg
 
 ## Basic Information

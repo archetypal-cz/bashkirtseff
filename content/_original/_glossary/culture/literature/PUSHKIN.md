@@ -1,3 +1,14 @@
+---
+id: PUSHKIN
+name: Alexander Pushkin
+aliases:
+  - Alexander Pushkin
+  - Pushkin
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alexander Pushkin
 
 **Research Status**: Basic

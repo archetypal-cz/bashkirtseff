@@ -1,3 +1,15 @@
+---
+id: PRINCE_JEROME
+name: prince Jerome
+aliases:
+  - prince Jerome
+  - Prince Jerome
+  - Jerome
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # prince Jerome
 
 ## Basic Information

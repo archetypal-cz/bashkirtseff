@@ -1,3 +1,15 @@
+---
+id: BOULEVARD_DES_CAPUCINES
+name: Boulevard des Capucines
+aliases:
+  - Boulevard des Capucines
+  - Capucines
+  - Boulevard
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Boulevard des Capucines
 
 ## Basic Information

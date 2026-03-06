@@ -1,3 +1,14 @@
+---
+id: COURTISANES_DU_MONDE
+name: Les Courtisanes du Monde
+aliases:
+  - Les Courtisanes du Monde
+  - Courtisanes du Monde
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les Courtisanes du Monde
 
 **Research Status**: Basic

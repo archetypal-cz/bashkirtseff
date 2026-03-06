@@ -1,3 +1,13 @@
+---
+id: GRAND_HOTEL
+name: Grand Hotel
+aliases:
+  - Grand Hotel
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand Hotel
 
 **Research Status**: Basic

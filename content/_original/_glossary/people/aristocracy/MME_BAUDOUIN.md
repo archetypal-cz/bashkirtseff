@@ -1,3 +1,14 @@
+---
+id: MME_BAUDOUIN
+name: Mme Baudouin
+aliases:
+  - Mme Baudouin
+  - Baudouin
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Baudouin
 
 ## Basic Information

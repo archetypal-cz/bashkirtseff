@@ -1,3 +1,14 @@
+---
+id: PARIS_1870S
+name: Paris in the 1870s
+aliases:
+  - Paris in the 1870s
+  - Paris 1870s
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Paris in the 1870s
 
 ## Basic Information

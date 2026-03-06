@@ -1,3 +1,14 @@
+---
+id: POTEMKINE
+name: M. Potemkine
+aliases:
+  - M. Potemkine
+  - Potemkine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M. Potemkine
 
 **Research Status**: Basic

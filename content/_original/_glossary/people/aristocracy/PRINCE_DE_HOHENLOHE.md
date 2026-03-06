@@ -1,3 +1,15 @@
+---
+id: PRINCE_DE_HOHENLOHE
+name: prince de Hohenlohe
+aliases:
+  - prince de Hohenlohe
+  - Prince de Hohenlohe
+  - Hohenlohe
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # prince de Hohenlohe
 
 ## Basic Information

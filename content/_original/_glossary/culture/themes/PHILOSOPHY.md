@@ -1,6 +1,8 @@
 ---
 id: PHILOSOPHY
 name: Philosophy
+aliases:
+  - Philosophy
 type: Culture
 category: culture/themes
 research_status: Moderate

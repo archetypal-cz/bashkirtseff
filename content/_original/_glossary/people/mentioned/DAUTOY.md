@@ -1,3 +1,13 @@
+---
+id: DAUTOY
+name: Dautoy
+aliases:
+  - Dautoy
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dautoy
 
 **Research Status**: Basic

@@ -1,6 +1,9 @@
 ---
 id: LORD_LOFTUS
 name: Lord Loftus
+aliases:
+  - Lord Loftus
+  - Loftus
 type: Person
 category: people/aristocracy
 research_status: Basic

@@ -1,3 +1,15 @@
+---
+id: THEATER
+name: Theater (Théâtre)
+aliases:
+  - Theater (Théâtre)
+  - Theater
+  - Théâtre
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Theater (Théâtre)
 
 **Research Status**: Basic

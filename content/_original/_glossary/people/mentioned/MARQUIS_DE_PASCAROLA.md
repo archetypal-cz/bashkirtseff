@@ -1,3 +1,15 @@
+---
+id: MARQUIS_DE_PASCAROLA
+name: marquis de Pascarola
+aliases:
+  - marquis de Pascarola
+  - Marquis de Pascarola
+  - Pascarola
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # marquis de Pascarola
 
 ## Basic Information

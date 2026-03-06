@@ -1,3 +1,14 @@
+---
+id: MARIE_BASHKIRTSEFF
+name: Marie Bashkirtseff
+aliases:
+  - Marie Bashkirtseff
+  - Bashkirtseff
+type: Person
+category: people/family
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie Bashkirtseff
 
 **Research Status**: Comprehensive

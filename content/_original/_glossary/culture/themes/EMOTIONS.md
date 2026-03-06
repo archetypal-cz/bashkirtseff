@@ -1,6 +1,8 @@
 ---
 id: EMOTIONS
 name: Emotions
+aliases:
+  - Emotions
 type: Culture
 category: culture/themes
 research_status: Moderate

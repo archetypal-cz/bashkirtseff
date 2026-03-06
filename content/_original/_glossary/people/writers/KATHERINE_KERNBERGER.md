@@ -1,6 +1,9 @@
 ---
 id: KATHERINE_KERNBERGER
 name: Katherine Kernberger
+aliases:
+  - Katherine Kernberger
+  - Kernberger
 type: Person
 category: people/writers
 research_status: Comprehensive

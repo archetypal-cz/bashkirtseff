@@ -1,3 +1,15 @@
+---
+id: KREMLIN
+name: Kremlin (Le Kremlin)
+aliases:
+  - Kremlin (Le Kremlin)
+  - Le Kremlin
+  - Kremlin
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Kremlin (Le Kremlin)
 
 **Research Status**: Moderate

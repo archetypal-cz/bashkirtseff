@@ -1,3 +1,14 @@
+---
+id: BOUTOWSKY
+name: Boutowsky Family
+aliases:
+  - Boutowsky Family
+  - Boutowsky
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Boutowsky Family
 
 **Research Status**: Basic

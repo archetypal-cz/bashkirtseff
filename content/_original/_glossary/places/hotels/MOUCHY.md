@@ -1,3 +1,14 @@
+---
+id: MOUCHY
+name: Duc et Duchesse de Mouchy
+aliases:
+  - Duc et Duchesse de Mouchy
+  - Mouchy
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc et Duchesse de Mouchy
 
 **Research Status**: Basic

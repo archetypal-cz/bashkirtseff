@@ -1,3 +1,14 @@
+---
+id: COMTESSE_PROJEX
+name: Comtesse Projex
+aliases:
+  - Comtesse Projex
+  - Projex
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comtesse Projex
 
 ## Basic Information

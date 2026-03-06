@@ -1,3 +1,14 @@
+---
+id: MLLE_KOLOKOLZOFF
+name: Mlle Kolokolzoff
+aliases:
+  - Mlle Kolokolzoff
+  - Kolokolzoff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Kolokolzoff
 
 ## Basic Information

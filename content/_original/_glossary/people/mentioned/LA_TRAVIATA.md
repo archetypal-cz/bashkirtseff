@@ -1,3 +1,14 @@
+---
+id: LA_TRAVIATA
+name: La Traviata
+aliases:
+  - La Traviata
+  - Traviata
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Traviata
 
 ## Basic Information

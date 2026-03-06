@@ -1,3 +1,14 @@
+---
+id: VIENNA_WORLD_EXHIBITION
+name: Vienna World Exhibition of 1873
+aliases:
+  - Vienna World Exhibition of 1873
+  - Vienna World Exhibition
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vienna World Exhibition of 1873
 
 ## Basic Information

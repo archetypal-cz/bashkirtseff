@@ -1,6 +1,8 @@
 ---
 id: MASSIMO_D_AZEGLIO
 name: Massimo d'Azeglio
+aliases:
+  - Massimo d'Azeglio
 type: Culture
 category: culture/literature
 research_status: Moderate

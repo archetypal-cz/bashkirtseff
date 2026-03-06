@@ -1,3 +1,13 @@
+---
+id: BRAGELONNE
+name: Bragelonne
+aliases:
+  - Bragelonne
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bragelonne
 
 **Research Status**: Moderate

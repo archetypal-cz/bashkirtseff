@@ -1,3 +1,13 @@
+---
+id: SMIRNOFF
+name: Smirnoff
+aliases:
+  - Smirnoff
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Smirnoff
 
 **Research Status**: Basic

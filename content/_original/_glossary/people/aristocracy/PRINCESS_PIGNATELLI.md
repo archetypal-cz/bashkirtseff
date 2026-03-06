@@ -1,3 +1,14 @@
+---
+id: PRINCESS_PIGNATELLI
+name: Princess Pignatelli
+aliases:
+  - Princess Pignatelli
+  - Pignatelli
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princess Pignatelli
 
 ## Basic Information

@@ -1,6 +1,8 @@
 ---
 id: BREAK
 name: Break
+aliases:
+  - Break
 type: Culture
 category: culture/transport
 research_status: Moderate

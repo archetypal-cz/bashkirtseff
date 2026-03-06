@@ -1,3 +1,14 @@
+---
+id: DETROIT_DES_MOUCHES
+name: Détroit des Mouches
+aliases:
+  - Détroit des Mouches
+  - Detroit des Mouches
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Détroit des Mouches
 
 **Research Status**: Basic

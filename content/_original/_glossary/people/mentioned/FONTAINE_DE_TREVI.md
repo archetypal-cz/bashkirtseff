@@ -1,3 +1,15 @@
+---
+id: FONTAINE_DE_TREVI
+name: Fontaine de Trevi
+aliases:
+  - Fontaine de Trevi
+  - Fontaine
+  - Trevi
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Fontaine de Trevi
 
 ## Basic Information

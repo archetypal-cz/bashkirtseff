@@ -1,3 +1,16 @@
+---
+id: OEIL_DE_BOEUF
+name: Oeil de boeuf
+aliases:
+  - Oeil de boeuf
+  - Oeil de Boeuf
+  - boeuf
+  - Oeil
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Oeil de boeuf
 
 ## Basic Information

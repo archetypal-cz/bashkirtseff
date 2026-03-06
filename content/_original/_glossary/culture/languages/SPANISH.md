@@ -1,6 +1,8 @@
 ---
 id: SPANISH
 name: Spanish
+aliases:
+  - Spanish
 type: Culture
 category: culture/languages
 research_status: Basic

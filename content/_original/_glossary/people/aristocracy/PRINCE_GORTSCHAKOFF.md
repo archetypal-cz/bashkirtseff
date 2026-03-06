@@ -1,3 +1,14 @@
+---
+id: PRINCE_GORTSCHAKOFF
+name: Prince Gortschakoff
+aliases:
+  - Prince Gortschakoff
+  - Gortschakoff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Gortschakoff
 
 ## Basic Information

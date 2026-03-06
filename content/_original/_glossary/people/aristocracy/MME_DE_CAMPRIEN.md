@@ -1,3 +1,14 @@
+---
+id: MME_DE_CAMPRIEN
+name: Mme de Camprien
+aliases:
+  - Mme de Camprien
+  - Camprien
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme de Camprien
 
 ## Basic Information

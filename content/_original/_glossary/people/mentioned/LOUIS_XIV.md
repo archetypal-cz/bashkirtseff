@@ -1,3 +1,16 @@
+---
+id: LOUIS_XIV
+name: Louis XIV (The Sun King)
+aliases:
+  - Louis XIV (The Sun King)
+  - The Sun King
+  - Louis XIV
+  - Louis Xiv
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Louis XIV (The Sun King)
 
 **Research Status**: Basic

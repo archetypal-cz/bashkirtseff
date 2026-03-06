@@ -1,3 +1,15 @@
+---
+id: MARQUIS_D_ABZAC
+name: marquis d Abzac
+aliases:
+  - marquis d Abzac
+  - Marquis d'Abzac
+  - Abzac
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # marquis d Abzac
 
 ## Basic Information

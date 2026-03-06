@@ -1,3 +1,14 @@
+---
+id: LA_MUETTE_DE_PORTICI
+name: La Muette de Portici
+aliases:
+  - La Muette de Portici
+  - Portici
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Muette de Portici
 
 **Research Status**: Stub

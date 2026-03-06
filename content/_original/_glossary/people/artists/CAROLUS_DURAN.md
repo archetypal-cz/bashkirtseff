@@ -1,3 +1,14 @@
+---
+id: CAROLUS_DURAN
+name: Carolus-Duran
+aliases:
+  - Carolus-Duran
+  - Carolus Duran
+type: Person
+category: people/artists
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Carolus-Duran
 
 **Research Status**: Moderate

@@ -1,3 +1,15 @@
+---
+id: CAFE_DE_LA_VICTOIRE
+name: Cafe de la Victoire
+aliases:
+  - Cafe de la Victoire
+  - Victoire
+  - Cafe
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cafe de la Victoire
 
 ## Basic Information

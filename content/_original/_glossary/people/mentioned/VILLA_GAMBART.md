@@ -1,3 +1,14 @@
+---
+id: VILLA_GAMBART
+name: Villa Gambart
+aliases:
+  - Villa Gambart
+  - Gambart
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Villa Gambart
 
 **Research Status**: Basic

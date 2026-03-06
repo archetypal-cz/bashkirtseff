@@ -1,3 +1,14 @@
+---
+id: WATTEAU
+name: Jean-Antoine Watteau
+aliases:
+  - Jean-Antoine Watteau
+  - Watteau
+type: Person
+category: people/artists
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jean-Antoine Watteau
 
 **Research Status**: Basic

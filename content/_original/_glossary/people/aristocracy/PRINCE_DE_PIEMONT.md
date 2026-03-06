@@ -1,3 +1,14 @@
+---
+id: PRINCE_DE_PIEMONT
+name: Prince de Piemont
+aliases:
+  - Prince de Piemont
+  - Piemont
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince de Piemont
 
 ## Basic Information

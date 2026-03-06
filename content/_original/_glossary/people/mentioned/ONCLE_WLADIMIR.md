@@ -1,3 +1,16 @@
+---
+id: ONCLE_WLADIMIR
+name: Oncle Wladimir (Uncle Wladimir)
+aliases:
+  - Oncle Wladimir (Uncle Wladimir)
+  - Oncle Wladimir
+  - Uncle Wladimir
+  - Wladimir
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Oncle Wladimir (Uncle Wladimir)
 
 **Research Status**: Basic

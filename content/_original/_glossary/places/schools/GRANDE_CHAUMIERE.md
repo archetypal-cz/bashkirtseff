@@ -1,3 +1,15 @@
+---
+id: GRANDE_CHAUMIERE
+name: Grande Chaumiere (Academie de la Grande Chaumiere)
+aliases:
+  - Grande Chaumiere (Academie de la Grande Chaumiere)
+  - Academie de la Grande Chaumiere
+  - Grande Chaumiere
+type: Place
+category: places/schools
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grande Chaumiere (Academie de la Grande Chaumiere)
 
 **Research Status**: Moderate

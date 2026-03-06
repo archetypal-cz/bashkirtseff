@@ -1,3 +1,13 @@
+---
+id: BAILLEUL
+name: Bailleul
+aliases:
+  - Bailleul
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bailleul
 
 **Research Status**: Stub

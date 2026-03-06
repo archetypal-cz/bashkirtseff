@@ -1,3 +1,14 @@
+---
+id: MME_DE_MARCILLY
+name: Mme de Marcilly
+aliases:
+  - Mme de Marcilly
+  - Marcilly
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme de Marcilly
 
 **Research Status**: Stub

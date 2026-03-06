@@ -1,3 +1,15 @@
+---
+id: GASTON_DE_LARDEREI
+name: Gaston de Larderei
+aliases:
+  - Gaston de Larderei
+  - Larderei
+  - Gaston
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gaston de Larderei
 
 ## Basic Information

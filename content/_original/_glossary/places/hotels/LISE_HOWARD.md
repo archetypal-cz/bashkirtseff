@@ -1,3 +1,13 @@
+---
+id: LISE_HOWARD
+name: Lise Howard
+aliases:
+  - Lise Howard
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lise Howard
 
 **Research Status**: Basic

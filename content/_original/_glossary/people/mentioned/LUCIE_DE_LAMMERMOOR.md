@@ -1,3 +1,15 @@
+---
+id: LUCIE_DE_LAMMERMOOR
+name: Lucie de Lammermoor
+aliases:
+  - Lucie de Lammermoor
+  - Lammermoor
+  - Lucie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lucie de Lammermoor
 
 ## Basic Information

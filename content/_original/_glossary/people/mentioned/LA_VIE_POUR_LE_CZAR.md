@@ -1,3 +1,15 @@
+---
+id: LA_VIE_POUR_LE_CZAR
+name: La Vie pour le Czar
+aliases:
+  - La Vie pour le Czar
+  - La Vie Pour le Czar
+  - Czar
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Vie pour le Czar
 
 ## Basic Information

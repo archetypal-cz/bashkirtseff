@@ -1,3 +1,13 @@
+---
+id: STIOPA
+name: Stiopa
+aliases:
+  - Stiopa
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Stiopa
 
 **Research Status**: Basic

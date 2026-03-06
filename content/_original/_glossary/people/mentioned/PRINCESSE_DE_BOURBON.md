@@ -1,3 +1,15 @@
+---
+id: PRINCESSE_DE_BOURBON
+name: princesse de Bourbon
+aliases:
+  - princesse de Bourbon
+  - Princesse de Bourbon
+  - Bourbon
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # princesse de Bourbon
 
 ## Basic Information

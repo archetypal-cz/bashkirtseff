@@ -1,3 +1,15 @@
+---
+id: LARDEREI
+name: Larderei (Comte de Larderel)
+aliases:
+  - Larderei (Comte de Larderel)
+  - Comte de Larderel
+  - Larderei
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Larderei (Comte de Larderel)
 
 **Research Status**: Comprehensive  

@@ -1,3 +1,15 @@
+---
+id: ALEXANDRE_DUMAS_FILS
+name: Alexandre Dumas fils
+aliases:
+  - Alexandre Dumas fils
+  - Alexandre Dumas Fils
+  - Alexandre
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alexandre Dumas fils
 
 ## Basic Information

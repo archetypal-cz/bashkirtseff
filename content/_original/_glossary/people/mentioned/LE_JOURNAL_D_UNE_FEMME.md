@@ -1,3 +1,14 @@
+---
+id: LE_JOURNAL_D_UNE_FEMME
+name: Le journal d une femme
+aliases:
+  - Le journal d une femme
+  - Le Journal d'Une Femme
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le journal d une femme
 
 ## Basic Information

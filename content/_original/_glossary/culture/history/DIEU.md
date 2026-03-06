@@ -1,3 +1,11 @@
+---
+id: DIEU
+name: Dieu
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dieu
 
 **Research Status**: Stub

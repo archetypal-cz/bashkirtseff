@@ -1,3 +1,14 @@
+---
+id: BARON_ROGNAT
+name: Baron Rognat
+aliases:
+  - Baron Rognat
+  - Rognat
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron Rognat
 
 ## Basic Information

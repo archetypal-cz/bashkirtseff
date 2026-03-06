@@ -1,3 +1,15 @@
+---
+id: LES_CLOCHES_DE_CORNEVILLE
+name: Les cloches de Corneville
+aliases:
+  - Les cloches de Corneville
+  - Les Cloches de Corneville
+  - Corneville
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les cloches de Corneville
 
 ## Basic Information

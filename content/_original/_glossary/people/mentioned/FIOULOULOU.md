@@ -1,6 +1,10 @@
 ---
 id: FIOULOULOU
 name: Fiouloulou (Detriaz)
+aliases:
+  - Fiouloulou (Detriaz)
+  - Fiouloulou
+  - Detriaz
 type: Person
 category: people/mentioned
 research_status: Moderate

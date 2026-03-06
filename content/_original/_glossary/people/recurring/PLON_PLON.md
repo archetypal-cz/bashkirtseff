@@ -1,6 +1,12 @@
 ---
 id: PLON_PLON
 name: Prince Napoleon (Plon-Plon)
+aliases:
+  - Prince Napoleon (Plon-Plon)
+  - Prince Napoleon
+  - Plon Plon
+  - Plon-Plon
+  - Napoleon
 type: Person
 category: people/recurring
 research_status: Basic

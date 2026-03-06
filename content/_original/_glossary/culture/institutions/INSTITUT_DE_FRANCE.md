@@ -1,6 +1,8 @@
 ---
 id: INSTITUT_DE_FRANCE
 name: Institut de France
+aliases:
+  - Institut de France
 type: Culture
 category: culture/institutions
 research_status: Moderate

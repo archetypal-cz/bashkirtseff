@@ -1,6 +1,8 @@
 ---
 id: RODOLPHE
 name: Rodolphe
+aliases:
+  - Rodolphe
 type: Person
 category: people/mentioned
 research_status: Redirect

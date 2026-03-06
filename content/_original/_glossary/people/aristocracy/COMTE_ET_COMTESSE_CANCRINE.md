@@ -1,3 +1,14 @@
+---
+id: COMTE_ET_COMTESSE_CANCRINE
+name: Comte et Comtesse Cancrine
+aliases:
+  - Comte et Comtesse Cancrine
+  - Cancrine
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte et Comtesse Cancrine
 
 ## Basic Information

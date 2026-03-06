@@ -1,6 +1,10 @@
 ---
 id: DINA
 name: Dina Babanina
+aliases:
+  - Dina Babanina
+  - Babanina
+  - Dina
 type: Person
 category: people/core
 research_status: Stub

@@ -1,3 +1,13 @@
+---
+id: PREISS
+name: Preiss
+aliases:
+  - Preiss
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Preiss
 
 ## Basic Information

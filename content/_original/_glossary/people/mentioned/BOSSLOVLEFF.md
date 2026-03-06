@@ -1,3 +1,13 @@
+---
+id: BOSSLOVLEFF
+name: Bosslovleff
+aliases:
+  - Bosslovleff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bosslovleff
 
 **Research Status**: Basic

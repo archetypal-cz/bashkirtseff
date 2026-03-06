@@ -1,3 +1,14 @@
+---
+id: PRINCE_VICTOR
+name: Prince Victor
+aliases:
+  - Prince Victor
+  - Victor
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Victor
 
 **Research Status**: Stub

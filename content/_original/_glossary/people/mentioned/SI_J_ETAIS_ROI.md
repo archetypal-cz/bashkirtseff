@@ -1,3 +1,14 @@
+---
+id: SI_J_ETAIS_ROI
+name: Si j etais Roi
+aliases:
+  - Si j etais Roi
+  - Si J Etais Roi
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Si j etais Roi
 
 ## Basic Information

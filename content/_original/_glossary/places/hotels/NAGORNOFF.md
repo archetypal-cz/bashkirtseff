@@ -1,3 +1,14 @@
+---
+id: NAGORNOFF
+name: M. Nagornoff
+aliases:
+  - M. Nagornoff
+  - Nagornoff
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M. Nagornoff
 
 **Research Status**: Basic

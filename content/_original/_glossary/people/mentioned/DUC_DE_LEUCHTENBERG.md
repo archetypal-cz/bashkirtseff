@@ -1,3 +1,15 @@
+---
+id: DUC_DE_LEUCHTENBERG
+name: duc de Leuchtenberg
+aliases:
+  - duc de Leuchtenberg
+  - Duc de Leuchtenberg
+  - Leuchtenberg
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # duc de Leuchtenberg
 
 ## Basic Information

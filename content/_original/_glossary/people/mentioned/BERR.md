@@ -1,3 +1,14 @@
+---
+id: BERR
+name: M. Berr
+aliases:
+  - M. Berr
+  - Berr
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M. Berr
 
 **Research Status**: Basic

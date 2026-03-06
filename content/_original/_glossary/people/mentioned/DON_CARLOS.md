@@ -1,3 +1,14 @@
+---
+id: DON_CARLOS
+name: Don Carlos
+aliases:
+  - Don Carlos
+  - Carlos
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Don Carlos
 
 ## Basic Information

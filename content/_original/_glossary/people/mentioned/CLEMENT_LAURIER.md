@@ -1,3 +1,14 @@
+---
+id: CLEMENT_LAURIER
+name: Clement Laurier
+aliases:
+  - Clement Laurier
+  - Laurier
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Clement Laurier
 
 **Research Status**: Stub

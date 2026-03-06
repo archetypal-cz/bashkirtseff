@@ -1,3 +1,15 @@
+---
+id: LE_VICOMTE_DE_BRAGELONE
+name: Le vicomte de Bragelone
+aliases:
+  - Le vicomte de Bragelone
+  - Le Vicomte de Bragelone
+  - Bragelone
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le vicomte de Bragelone
 
 ## Basic Information

@@ -1,6 +1,8 @@
 ---
 id: FOURTH_WALL
 name: Fourth Wall
+aliases:
+  - Fourth Wall
 type: Culture
 category: culture/themes
 research_status: Moderate

@@ -1,3 +1,14 @@
+---
+id: COMTE_LAURIER
+name: Comte Laurier
+aliases:
+  - Comte Laurier
+  - Laurier
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte Laurier
 
 ## Basic Information

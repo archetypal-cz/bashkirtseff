@@ -1,3 +1,13 @@
+---
+id: CAIN
+name: Cain
+aliases:
+  - Cain
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cain
 
 ## Basic Information

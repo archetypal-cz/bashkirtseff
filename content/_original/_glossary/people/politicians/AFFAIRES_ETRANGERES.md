@@ -1,3 +1,14 @@
+---
+id: AFFAIRES_ETRANGERES
+name: Affaires Etrangeres
+aliases:
+  - Affaires Etrangeres
+  - Etrangeres
+type: Person
+category: people/politicians
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Affaires Etrangeres
 
 **Research Status**: Stub

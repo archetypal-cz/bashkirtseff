@@ -1,3 +1,13 @@
+---
+id: MARIE_ANITCHKOFF
+name: Marie Anitchkoff
+aliases:
+  - Marie Anitchkoff
+type: Place
+category: places/churches
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie Anitchkoff
 
 **Research Status**: Basic

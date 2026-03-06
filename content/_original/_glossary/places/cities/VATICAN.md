@@ -1,3 +1,15 @@
+---
+id: VATICAN
+name: Vatican (Le Vatican)
+aliases:
+  - Vatican (Le Vatican)
+  - Le Vatican
+  - Vatican
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vatican (Le Vatican)
 
 **Research Status**: Moderate

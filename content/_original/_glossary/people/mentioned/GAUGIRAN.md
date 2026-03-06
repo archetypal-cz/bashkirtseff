@@ -1,3 +1,13 @@
+---
+id: GAUGIRAN
+name: Gaugiran
+aliases:
+  - Gaugiran
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gaugiran
 
 **Research Status**: Basic

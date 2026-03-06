@@ -1,3 +1,13 @@
+---
+id: LE_BEC
+name: Le Bec
+aliases:
+  - Le Bec
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le Bec
 
 **Research Status**: Basic

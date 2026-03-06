@@ -1,3 +1,14 @@
+---
+id: SALON_1881
+name: Salon 1881
+aliases:
+  - Salon 1881
+  - "1881"
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Salon 1881
 
 ## Basic Information

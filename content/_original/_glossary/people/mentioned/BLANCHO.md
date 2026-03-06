@@ -1,3 +1,13 @@
+---
+id: BLANCHO
+name: Blancho
+aliases:
+  - Blancho
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Blancho
 
 **Research Status**: Basic

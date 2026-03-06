@@ -1,3 +1,14 @@
+---
+id: COMTESSE_DE_MERENBERG
+name: Comtesse de Merenberg
+aliases:
+  - Comtesse de Merenberg
+  - Merenberg
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comtesse de Merenberg
 
 ## Basic Information

@@ -1,3 +1,13 @@
+---
+id: BUENO
+name: Bueno
+aliases:
+  - Bueno
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bueno
 
 ## Basic Information

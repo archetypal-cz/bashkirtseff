@@ -1,3 +1,16 @@
+---
+id: PONT_D_AVIGNON
+name: pont d Avignon
+aliases:
+  - pont d Avignon
+  - Pont d'Avignon
+  - Avignon
+  - pont
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # pont d Avignon
 
 ## Basic Information

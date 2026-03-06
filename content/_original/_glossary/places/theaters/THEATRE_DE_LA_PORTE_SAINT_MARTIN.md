@@ -1,3 +1,13 @@
+---
+id: THEATRE_DE_LA_PORTE_SAINT_MARTIN
+name: Theatre de la Porte Saint Martin
+aliases:
+  - Theatre de la Porte Saint Martin
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Theatre de la Porte Saint Martin
 
 ## Basic Information

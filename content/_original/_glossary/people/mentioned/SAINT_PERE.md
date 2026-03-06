@@ -1,3 +1,13 @@
+---
+id: SAINT_PERE
+name: Saint Pere
+aliases:
+  - Saint Pere
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Pere
 
 ## Basic Information

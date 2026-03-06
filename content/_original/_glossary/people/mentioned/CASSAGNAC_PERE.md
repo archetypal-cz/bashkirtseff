@@ -1,6 +1,11 @@
 ---
 id: CASSAGNAC_PERE
 name: Adolphe Granier de Cassagnac
+aliases:
+  - Adolphe Granier de Cassagnac
+  - Cassagnac Pere
+  - Cassagnac
+  - Adolphe
 type: Person
 category: people/mentioned
 research_status: Moderate

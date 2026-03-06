@@ -1,3 +1,13 @@
+---
+id: MAUREL
+name: Maurel
+aliases:
+  - Maurel
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Maurel
 
 ## Basic Information

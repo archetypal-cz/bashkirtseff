@@ -1,3 +1,13 @@
+---
+id: VASSIL
+name: Vassil
+aliases:
+  - Vassil
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vassil
 
 **Research Status**: Basic

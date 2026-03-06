@@ -1,3 +1,13 @@
+---
+id: SCHNIER
+name: Schnier
+aliases:
+  - Schnier
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Schnier
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: FRENCH_THEATER_NICE
+name: French Theater in Nice
+aliases:
+  - French Theater in Nice
+  - French Theater Nice
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # French Theater in Nice
 
 ## Basic Information

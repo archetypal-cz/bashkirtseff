@@ -1,3 +1,16 @@
+---
+id: JARDIN_DE_L_ORANGERIE
+name: jardin de l Orangerie
+aliases:
+  - jardin de l Orangerie
+  - Jardin de l'Orangerie
+  - Orangerie
+  - jardin
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # jardin de l Orangerie
 
 ## Basic Information

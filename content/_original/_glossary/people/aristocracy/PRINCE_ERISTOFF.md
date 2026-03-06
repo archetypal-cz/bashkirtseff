@@ -1,6 +1,9 @@
 ---
 id: PRINCE_ERISTOFF
 name: Prince Eristoff
+aliases:
+  - Prince Eristoff
+  - Eristoff
 type: Person
 category: people/aristocracy
 research_status: Basic

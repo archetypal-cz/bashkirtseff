@@ -1,3 +1,13 @@
+---
+id: CLEMENTINA
+name: Clementina
+aliases:
+  - Clementina
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Clementina
 
 ## Basic Information

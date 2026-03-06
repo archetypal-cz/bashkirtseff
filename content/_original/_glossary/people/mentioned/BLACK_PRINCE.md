@@ -1,3 +1,13 @@
+---
+id: BLACK_PRINCE
+name: Black Prince
+aliases:
+  - Black Prince
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Black Prince
 
 **Research Status**: Basic

@@ -1,3 +1,14 @@
+---
+id: GRAND_DUKE_NICOLAS
+name: Grand Duke Nicolas
+aliases:
+  - Grand Duke Nicolas
+  - Nicolas
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand Duke Nicolas
 
 **Research Status**: Basic

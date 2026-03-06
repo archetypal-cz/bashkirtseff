@@ -1,6 +1,9 @@
 ---
 id: PETERSBURG
 name: Saint-Petersbourg
+aliases:
+  - Saint-Petersbourg
+  - Petersburg
 type: Place
 category: places/cities
 research_status: Moderate

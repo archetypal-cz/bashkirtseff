@@ -1,3 +1,13 @@
+---
+id: GOUIN
+name: Gouin
+aliases:
+  - Gouin
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gouin
 
 **Research Status**: Basic

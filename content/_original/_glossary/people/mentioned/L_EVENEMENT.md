@@ -1,3 +1,15 @@
+---
+id: L_EVENEMENT
+name: L Evenement
+aliases:
+  - L Evenement
+  - l'Evenement
+  - Evenement
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # L Evenement
 
 ## Basic Information

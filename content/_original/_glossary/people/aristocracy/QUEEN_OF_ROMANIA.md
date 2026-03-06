@@ -1,6 +1,13 @@
 ---
 id: QUEEN_OF_ROMANIA
 name: Queen Elisabeth of Romania (Carmen Sylva)
+aliases:
+  - Queen Elisabeth of Romania (Carmen Sylva)
+  - Queen Elisabeth of Romania
+  - Queen of Romania
+  - Carmen Sylva
+  - Romania
+  - Queen
 type: Person
 category: people/aristocracy
 research_status: Moderate

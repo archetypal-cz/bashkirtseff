@@ -1,3 +1,15 @@
+---
+id: GENOA
+name: Genoa (Gènes)
+aliases:
+  - Genoa (Gènes)
+  - Genoa
+  - Gènes
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Genoa (Gènes)
 
 **Research Status**: Basic

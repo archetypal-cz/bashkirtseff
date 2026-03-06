@@ -1,3 +1,16 @@
+---
+id: PIERRE_ALFRED_RAVEL
+name: Pierre-Alfred Ravel (Actor)
+aliases:
+  - Pierre-Alfred Ravel (Actor)
+  - Pierre-Alfred Ravel
+  - Pierre Alfred Ravel
+  - Actor
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pierre-Alfred Ravel (Actor)
 
 **Research Status**: Comprehensive

@@ -1,3 +1,14 @@
+---
+id: LES_ORIGINES_DE_LA_FRANCE
+name: Les Origines de la France
+aliases:
+  - Les Origines de la France
+  - France
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les Origines de la France
 
 **Research Status**: Stub

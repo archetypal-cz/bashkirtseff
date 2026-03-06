@@ -1,3 +1,15 @@
+---
+id: ODESSA
+name: Odessa (Odesa)
+aliases:
+  - Odessa (Odesa)
+  - Odessa
+  - Odesa
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Odessa (Odesa)
 
 **Research Status**: Comprehensive

@@ -1,3 +1,13 @@
+---
+id: CIMIEZ
+name: Cimiez
+aliases:
+  - Cimiez
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cimiez
 
 ## Basic Information

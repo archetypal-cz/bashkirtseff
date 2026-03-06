@@ -1,3 +1,14 @@
+---
+id: M_OUSTIMOVITCH
+name: M. Oustimovitch
+aliases:
+  - M. Oustimovitch
+  - M Oustimovitch
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M. Oustimovitch
 
 **Research Status**: Basic

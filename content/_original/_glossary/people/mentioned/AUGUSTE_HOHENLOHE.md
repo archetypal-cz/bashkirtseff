@@ -1,3 +1,14 @@
+---
+id: AUGUSTE_HOHENLOHE
+name: Auguste Hohenlohe
+aliases:
+  - Auguste Hohenlohe
+  - Hohenlohe
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Auguste Hohenlohe
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: MME_GALLETTI
+name: Mme Galletti
+aliases:
+  - Mme Galletti
+  - Galletti
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Galletti
 
 ## Basic Information

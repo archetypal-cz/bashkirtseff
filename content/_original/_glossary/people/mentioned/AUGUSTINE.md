@@ -1,3 +1,13 @@
+---
+id: AUGUSTINE
+name: Augustine
+aliases:
+  - Augustine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Augustine
 
 ## Basic Information

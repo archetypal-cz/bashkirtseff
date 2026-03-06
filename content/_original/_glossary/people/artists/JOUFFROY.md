@@ -1,3 +1,13 @@
+---
+id: JOUFFROY
+name: Jouffroy
+aliases:
+  - Jouffroy
+type: Person
+category: people/artists
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jouffroy
 
 **Research Status**: Stub

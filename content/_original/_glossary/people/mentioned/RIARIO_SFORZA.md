@@ -1,3 +1,14 @@
+---
+id: RIARIO_SFORZA
+name: Riario Sforza
+aliases:
+  - Riario Sforza
+  - Sforza
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Riario Sforza
 
 ## Basic Information

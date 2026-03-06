@@ -1,6 +1,9 @@
 ---
 id: ACADEMIE_JULIAN
 name: Académie Julian
+aliases:
+  - Académie Julian
+  - Academie Julian
 type: Culture
 category: culture/institutions
 research_status: Moderate

@@ -1,3 +1,14 @@
+---
+id: NICE_PORT
+name: Nice Port
+aliases:
+  - Nice Port
+  - Port
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Nice Port
 
 **Research Status**: Basic

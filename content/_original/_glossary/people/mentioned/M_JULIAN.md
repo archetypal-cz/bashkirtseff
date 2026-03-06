@@ -1,3 +1,14 @@
+---
+id: M_JULIAN
+name: M Julian
+aliases:
+  - M Julian
+  - Julian
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Julian
 
 ## Basic Information

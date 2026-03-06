@@ -1,3 +1,13 @@
+---
+id: NEUVEGLISE
+name: Neuveglise
+aliases:
+  - Neuveglise
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Neuveglise
 
 **Research Status**: Basic

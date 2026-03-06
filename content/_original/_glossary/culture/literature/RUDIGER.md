@@ -1,6 +1,9 @@
 ---
 id: RUDIGER
 name: Rüdiger
+aliases:
+  - Rüdiger
+  - Rudiger
 type: Culture
 category: culture/literature
 research_status: Stub

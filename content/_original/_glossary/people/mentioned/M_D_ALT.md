@@ -1,3 +1,14 @@
+---
+id: M_D_ALT
+name: M d Alt
+aliases:
+  - M d Alt
+  - M d'Alt
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M d Alt
 
 ## Basic Information

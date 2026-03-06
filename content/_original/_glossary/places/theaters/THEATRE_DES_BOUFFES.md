@@ -1,3 +1,13 @@
+---
+id: THEATRE_DES_BOUFFES
+name: Theatre des Bouffes
+aliases:
+  - Theatre des Bouffes
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Theatre des Bouffes
 
 ## Basic Information

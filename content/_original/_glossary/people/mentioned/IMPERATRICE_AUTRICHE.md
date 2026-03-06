@@ -1,3 +1,14 @@
+---
+id: IMPERATRICE_AUTRICHE
+name: Imperatrice Autriche
+aliases:
+  - Imperatrice Autriche
+  - Autriche
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Imperatrice Autriche
 
 ## Basic Information

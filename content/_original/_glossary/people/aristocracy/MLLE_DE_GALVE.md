@@ -1,3 +1,14 @@
+---
+id: MLLE_DE_GALVE
+name: Mlle de Galve
+aliases:
+  - Mlle de Galve
+  - Galve
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle de Galve
 
 ## Basic Information

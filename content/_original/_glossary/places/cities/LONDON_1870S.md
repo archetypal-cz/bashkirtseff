@@ -1,3 +1,13 @@
+---
+id: LONDON_1870S
+name: London 1870s
+aliases:
+  - London 1870s
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # London 1870s
 
 **Research Status**: Basic

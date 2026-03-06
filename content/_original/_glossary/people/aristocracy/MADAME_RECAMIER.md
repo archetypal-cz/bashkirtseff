@@ -1,3 +1,14 @@
+---
+id: MADAME_RECAMIER
+name: Madame Recamier
+aliases:
+  - Madame Recamier
+  - Recamier
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame Recamier
 
 ## Basic Information

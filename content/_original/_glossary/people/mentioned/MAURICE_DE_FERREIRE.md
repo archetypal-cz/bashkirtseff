@@ -1,3 +1,15 @@
+---
+id: MAURICE_DE_FERREIRE
+name: Maurice de Ferreire
+aliases:
+  - Maurice de Ferreire
+  - Ferreire
+  - Maurice
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Maurice de Ferreire
 
 ## Basic Information

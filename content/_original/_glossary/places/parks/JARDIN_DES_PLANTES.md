@@ -1,3 +1,13 @@
+---
+id: JARDIN_DES_PLANTES
+name: Jardin des Plantes
+aliases:
+  - Jardin des Plantes
+type: Place
+category: places/parks
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jardin des Plantes
 
 **Research Status**: Moderate

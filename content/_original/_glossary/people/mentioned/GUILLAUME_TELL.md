@@ -1,3 +1,14 @@
+---
+id: GUILLAUME_TELL
+name: Guillaume Tell
+aliases:
+  - Guillaume Tell
+  - Tell
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Guillaume Tell
 
 ## Basic Information

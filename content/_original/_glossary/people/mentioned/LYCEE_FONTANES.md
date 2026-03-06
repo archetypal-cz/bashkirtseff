@@ -1,3 +1,14 @@
+---
+id: LYCEE_FONTANES
+name: Lycee Fontanes
+aliases:
+  - Lycee Fontanes
+  - Fontanes
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lycee Fontanes
 
 ## Basic Information

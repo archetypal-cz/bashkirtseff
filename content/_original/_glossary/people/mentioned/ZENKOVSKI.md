@@ -1,3 +1,13 @@
+---
+id: ZENKOVSKI
+name: Zenkovski
+aliases:
+  - Zenkovski
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Zenkovski
 
 **Research Status**: Basic

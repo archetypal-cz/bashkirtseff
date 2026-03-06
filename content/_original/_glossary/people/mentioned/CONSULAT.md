@@ -1,3 +1,13 @@
+---
+id: CONSULAT
+name: Consulat
+aliases:
+  - Consulat
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Consulat
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: DUKE_OF_MANCHESTER
+name: Duke of Manchester
+aliases:
+  - Duke of Manchester
+  - Manchester
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duke of Manchester
 
 **Research Status**: Basic

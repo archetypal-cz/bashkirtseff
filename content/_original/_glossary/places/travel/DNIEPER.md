@@ -1,3 +1,15 @@
+---
+id: DNIEPER
+name: Dnieper (Dniepr / Дніпро)
+aliases:
+  - Dnieper (Dniepr / Дніпро)
+  - Dniepr / Дніпро
+  - Dnieper
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dnieper (Dniepr / Дніпро)
 
 **Research Status**: Comprehensive

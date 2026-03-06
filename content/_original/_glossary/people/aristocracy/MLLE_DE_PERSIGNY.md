@@ -1,3 +1,14 @@
+---
+id: MLLE_DE_PERSIGNY
+name: Mlle de Persigny
+aliases:
+  - Mlle de Persigny
+  - Persigny
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle de Persigny
 
 ## Basic Information

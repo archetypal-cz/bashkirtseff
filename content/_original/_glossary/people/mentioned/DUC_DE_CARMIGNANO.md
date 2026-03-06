@@ -1,3 +1,14 @@
+---
+id: DUC_DE_CARMIGNANO
+name: Duc de Carmignano
+aliases:
+  - Duc de Carmignano
+  - Carmignano
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de Carmignano
 
 ## Basic Information

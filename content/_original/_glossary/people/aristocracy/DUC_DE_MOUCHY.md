@@ -1,3 +1,14 @@
+---
+id: DUC_DE_MOUCHY
+name: Duc de Mouchy
+aliases:
+  - Duc de Mouchy
+  - Mouchy
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de Mouchy
 
 **Research Status**: Basic

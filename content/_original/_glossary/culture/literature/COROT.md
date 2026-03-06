@@ -1,3 +1,13 @@
+---
+id: COROT
+name: Corot
+aliases:
+  - Corot
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Corot
 
 **Research Status**: Stub

@@ -1,3 +1,14 @@
+---
+id: MME_SHILOVSKY
+name: Mme Shilovsky
+aliases:
+  - Mme Shilovsky
+  - Shilovsky
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Shilovsky
 
 ## Basic Information

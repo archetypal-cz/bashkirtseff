@@ -1,3 +1,14 @@
+---
+id: MARQUIS_DE_BELLEVUE
+name: Marquis de Bellevue
+aliases:
+  - Marquis de Bellevue
+  - Bellevue
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marquis de Bellevue
 
 **Research Status**: Basic

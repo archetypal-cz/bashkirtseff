@@ -1,3 +1,15 @@
+---
+id: LA_BOISSIERE
+name: M. de La Boissière
+aliases:
+  - M. de La Boissière
+  - La Boissiere
+  - Boissière
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M. de La Boissière
 
 **Research Status**: Basic

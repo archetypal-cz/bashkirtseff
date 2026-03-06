@@ -1,3 +1,15 @@
+---
+id: NICE_RACES
+name: Nice Races (Hippodrome de Nice)
+aliases:
+  - Nice Races (Hippodrome de Nice)
+  - Hippodrome de Nice
+  - Nice Races
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Nice Races (Hippodrome de Nice)
 
 **Research Status**: Basic

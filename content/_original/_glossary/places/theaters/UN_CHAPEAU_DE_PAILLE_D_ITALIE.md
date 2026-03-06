@@ -1,3 +1,16 @@
+---
+id: UN_CHAPEAU_DE_PAILLE_D_ITALIE
+name: Un chapeau de paille d'Italie (An Italian Straw Hat)
+aliases:
+  - Un chapeau de paille d'Italie (An Italian Straw Hat)
+  - Un chapeau de paille d'Italie
+  - Un Chapeau de Paille d'Italie
+  - An Italian Straw Hat
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Un chapeau de paille d'Italie (An Italian Straw Hat)
 
 **Research Status**: Comprehensive

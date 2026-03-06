@@ -1,3 +1,13 @@
+---
+id: BOREEL
+name: Boreel
+aliases:
+  - Boreel
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Boreel
 
 **Research Status**: Comprehensive

@@ -1,3 +1,14 @@
+---
+id: M_DE_CASSAGNAC
+name: M de Cassagnac
+aliases:
+  - M de Cassagnac
+  - Cassagnac
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Cassagnac
 
 ## Basic Information

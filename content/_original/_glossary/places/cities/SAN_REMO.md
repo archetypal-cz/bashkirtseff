@@ -1,3 +1,13 @@
+---
+id: SAN_REMO
+name: San Remo
+aliases:
+  - San Remo
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # San Remo
 
 **Research Status**: Stub

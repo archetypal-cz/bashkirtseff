@@ -1,6 +1,10 @@
 ---
 id: LYON_LIT
 name: Lyon (Literary Reference)
+aliases:
+  - Lyon (Literary Reference)
+  - Literary Reference
+  - Lyon
 type: Culture
 category: culture/literature
 research_status: Stub

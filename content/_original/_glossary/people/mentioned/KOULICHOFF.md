@@ -1,3 +1,14 @@
+---
+id: KOULICHOFF
+name: Mme Koulichoff
+aliases:
+  - Mme Koulichoff
+  - Koulichoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Koulichoff
 
 **Research Status**: Basic

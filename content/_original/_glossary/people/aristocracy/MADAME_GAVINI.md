@@ -1,3 +1,14 @@
+---
+id: MADAME_GAVINI
+name: Madame Gavini
+aliases:
+  - Madame Gavini
+  - Gavini
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame Gavini
 
 ## Basic Information

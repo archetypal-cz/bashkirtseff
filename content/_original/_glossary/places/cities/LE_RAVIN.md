@@ -1,3 +1,16 @@
+---
+id: LE_RAVIN
+name: Le ravin (The Precipice)
+aliases:
+  - Le ravin (The Precipice)
+  - The Precipice
+  - Le ravin
+  - Le Ravin
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le ravin (The Precipice)
 
 ## Basic Information

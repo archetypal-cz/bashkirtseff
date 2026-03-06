@@ -1,3 +1,14 @@
+---
+id: EMILE_ZOLA
+name: Émile Zola
+aliases:
+  - Émile Zola
+  - Emile Zola
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Émile Zola
 
 ## Basic Information

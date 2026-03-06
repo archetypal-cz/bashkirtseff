@@ -1,3 +1,15 @@
+---
+id: CASSAGNAC
+name: Paul de Cassagnac
+aliases:
+  - Paul de Cassagnac
+  - Cassagnac
+  - Paul
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Paul de Cassagnac
 
 **Research Status**: Moderate

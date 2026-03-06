@@ -1,3 +1,16 @@
+---
+id: LES_COURTISANES_DU_MONDE
+name: '"Les courtisanes du monde"'
+aliases:
+  - '"Les courtisanes du monde"'
+  - Les Courtisanes du Monde
+  - monde"
+  - '"Les'
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # "Les courtisanes du monde"
 
 **Research Status**: Basic

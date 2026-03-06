@@ -1,3 +1,15 @@
+---
+id: CABARET_LEDOYEN
+name: cabaret Ledoyen
+aliases:
+  - cabaret Ledoyen
+  - Cabaret Ledoyen
+  - Ledoyen
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # cabaret Ledoyen
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: LHOMME_FEMME
+name: LHomme-femme
+aliases:
+  - LHomme-femme
+  - Lhomme Femme
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # LHomme-femme
 
 ## Basic Information

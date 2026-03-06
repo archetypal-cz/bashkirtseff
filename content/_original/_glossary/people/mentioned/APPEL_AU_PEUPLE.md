@@ -1,3 +1,16 @@
+---
+id: APPEL_AU_PEUPLE
+name: Appel au peuple
+aliases:
+  - Appel au peuple
+  - Appel Au Peuple
+  - peuple
+  - Appel
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Appel au peuple
 
 ## Basic Information

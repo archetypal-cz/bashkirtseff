@@ -1,3 +1,14 @@
+---
+id: PRINCE_TONDI
+name: Prince Tondi
+aliases:
+  - Prince Tondi
+  - Tondi
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Tondi
 
 ## Basic Information

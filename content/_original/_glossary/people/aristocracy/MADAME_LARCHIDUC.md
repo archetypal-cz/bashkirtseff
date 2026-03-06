@@ -1,3 +1,15 @@
+---
+id: MADAME_LARCHIDUC
+name: Madame l'Archiduc
+aliases:
+  - Madame l'Archiduc
+  - Madame Larchiduc
+  - l'Archiduc
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame l'Archiduc
 
 **Research Status**: Basic  

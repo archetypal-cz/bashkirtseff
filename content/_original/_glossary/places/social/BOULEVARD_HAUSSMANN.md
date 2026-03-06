@@ -1,3 +1,13 @@
+---
+id: BOULEVARD_HAUSSMANN
+name: Boulevard Haussmann
+aliases:
+  - Boulevard Haussmann
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Boulevard Haussmann
 
 **Research Status**: Stub

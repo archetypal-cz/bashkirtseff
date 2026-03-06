@@ -1,6 +1,11 @@
 ---
 id: ARNAUD_DE_L_ARIEGE
 name: Joseph Arnaud de l'Ariège
+aliases:
+  - Joseph Arnaud de l'Ariège
+  - Arnaud de l'Ariege
+  - l'Ariège
+  - Joseph
 type: Person
 category: people/recurring
 research_status: Basic

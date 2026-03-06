@@ -1,3 +1,14 @@
+---
+id: TALON_ROUGE
+name: Talon rouge
+aliases:
+  - Talon rouge
+  - Talon Rouge
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Talon rouge
 
 ## Basic Information

@@ -1,3 +1,13 @@
+---
+id: TUILERIES
+name: Tuileries
+aliases:
+  - Tuileries
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Tuileries
 
 **Research Status**: Stub

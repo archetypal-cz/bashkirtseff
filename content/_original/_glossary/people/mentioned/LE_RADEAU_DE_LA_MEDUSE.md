@@ -1,3 +1,14 @@
+---
+id: LE_RADEAU_DE_LA_MEDUSE
+name: Le Radeau de la Meduse
+aliases:
+  - Le Radeau de la Meduse
+  - Meduse
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le Radeau de la Meduse
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: LES_CHATIMENTS
+name: Les Châtiments
+aliases:
+  - Les Châtiments
+  - Les Chatiments
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les Châtiments
 
 **Research Status**: Moderate

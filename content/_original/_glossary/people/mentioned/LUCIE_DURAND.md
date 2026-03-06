@@ -1,3 +1,14 @@
+---
+id: LUCIE_DURAND
+name: Lucie Durand
+aliases:
+  - Lucie Durand
+  - Durand
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lucie Durand
 
 **Research Status**: Basic

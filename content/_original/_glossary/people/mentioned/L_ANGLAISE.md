@@ -1,3 +1,15 @@
+---
+id: L_ANGLAISE
+name: L Anglaise
+aliases:
+  - L Anglaise
+  - l'Anglaise
+  - Anglaise
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # L Anglaise
 
 ## Basic Information

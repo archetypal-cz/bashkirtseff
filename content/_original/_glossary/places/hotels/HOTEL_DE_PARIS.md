@@ -1,3 +1,13 @@
+---
+id: HOTEL_DE_PARIS
+name: Hotel de Paris
+aliases:
+  - Hotel de Paris
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel de Paris
 
 **Research Status**: Moderate

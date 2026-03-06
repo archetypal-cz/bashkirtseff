@@ -1,3 +1,13 @@
+---
+id: ANITCHKOFF
+name: Anitchkoff
+aliases:
+  - Anitchkoff
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Anitchkoff
 
 **Research Status**: Basic

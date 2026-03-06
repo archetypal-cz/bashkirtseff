@@ -1,3 +1,14 @@
+---
+id: S_FAMILY
+name: S... Family
+aliases:
+  - S... Family
+  - S Family
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # S... Family
 
 **Research Status**: Basic

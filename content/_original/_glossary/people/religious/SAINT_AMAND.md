@@ -1,3 +1,14 @@
+---
+id: SAINT_AMAND
+name: Saint-Amand
+aliases:
+  - Saint-Amand
+  - Saint Amand
+type: Person
+category: people/religious
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint-Amand
 
 **Research Status**: Basic

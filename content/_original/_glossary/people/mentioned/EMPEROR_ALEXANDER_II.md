@@ -1,3 +1,14 @@
+---
+id: EMPEROR_ALEXANDER_II
+name: Emperor Alexander II
+aliases:
+  - Emperor Alexander II
+  - Emperor Alexander Ii
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Emperor Alexander II
 
 ## Basic Information

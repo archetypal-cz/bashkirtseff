@@ -1,3 +1,14 @@
+---
+id: CAMPRIEN
+name: Comte de Camprien
+aliases:
+  - Comte de Camprien
+  - Camprien
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte de Camprien
 
 **Research Status**: Basic

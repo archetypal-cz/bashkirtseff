@@ -1,3 +1,14 @@
+---
+id: MARQUIS_DE_VILLEMER
+name: Marquis de Villemer
+aliases:
+  - Marquis de Villemer
+  - Villemer
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marquis de Villemer
 
 ## Basic Information

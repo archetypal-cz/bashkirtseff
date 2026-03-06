@@ -1,3 +1,14 @@
+---
+id: M_DE_MORGAN
+name: M de Morgan
+aliases:
+  - M de Morgan
+  - Morgan
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Morgan
 
 **Research Status**: Stub

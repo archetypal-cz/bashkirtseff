@@ -1,3 +1,13 @@
+---
+id: COCHERY
+name: Cochery
+aliases:
+  - Cochery
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cochery
 
 **Research Status**: Stub

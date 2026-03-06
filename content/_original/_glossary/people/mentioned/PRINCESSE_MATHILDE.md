@@ -1,3 +1,14 @@
+---
+id: PRINCESSE_MATHILDE
+name: Princesse Mathilde
+aliases:
+  - Princesse Mathilde
+  - Mathilde
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princesse Mathilde
 
 ## Basic Information

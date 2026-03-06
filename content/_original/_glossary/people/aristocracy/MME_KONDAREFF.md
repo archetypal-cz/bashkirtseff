@@ -1,3 +1,14 @@
+---
+id: MME_KONDAREFF
+name: Mme Kondareff
+aliases:
+  - Mme Kondareff
+  - Kondareff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Kondareff
 
 ## Basic Information

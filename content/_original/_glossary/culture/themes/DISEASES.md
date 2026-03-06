@@ -1,6 +1,9 @@
 ---
 id: DISEASES
 name: Diseases & Diagnoses
+aliases:
+  - Diseases & Diagnoses
+  - Diseases
 type: Culture
 category: culture/themes
 research_status: Moderate

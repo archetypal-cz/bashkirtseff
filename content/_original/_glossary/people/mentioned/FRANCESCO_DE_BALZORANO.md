@@ -1,3 +1,15 @@
+---
+id: FRANCESCO_DE_BALZORANO
+name: Francesco de Balzorano
+aliases:
+  - Francesco de Balzorano
+  - Balzorano
+  - Francesco
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Francesco de Balzorano
 
 ## Basic Information

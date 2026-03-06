@@ -1,3 +1,14 @@
+---
+id: MME_ABAZA
+name: Mme Abaza
+aliases:
+  - Mme Abaza
+  - Abaza
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Abaza
 
 ## Basic Information

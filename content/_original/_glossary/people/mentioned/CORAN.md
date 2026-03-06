@@ -1,3 +1,13 @@
+---
+id: CORAN
+name: Coran
+aliases:
+  - Coran
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Coran
 
 ## Basic Information

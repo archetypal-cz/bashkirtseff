@@ -1,3 +1,14 @@
+---
+id: LES_MARTYRS_DE_L_INQUISITION
+name: Les martyrs de l'inquisition
+aliases:
+  - Les martyrs de l'inquisition
+  - Les Martyrs de l'Inquisition
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les martyrs de l'inquisition
 
 **Research Status**: Basic

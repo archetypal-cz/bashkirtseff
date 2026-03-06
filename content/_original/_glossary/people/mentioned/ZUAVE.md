@@ -1,3 +1,13 @@
+---
+id: ZUAVE
+name: Zuave
+aliases:
+  - Zuave
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Zuave
 
 ## Basic Information

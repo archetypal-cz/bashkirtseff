@@ -1,6 +1,11 @@
 ---
 id: COURSON_DE_LA_VILLENEUVE
 name: Courson de La Villeneuve
+aliases:
+  - Courson de La Villeneuve
+  - Courson de la Villeneuve
+  - Villeneuve
+  - Courson
 type: Person
 category: people/mentioned
 research_status: Stub

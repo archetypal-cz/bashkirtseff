@@ -1,3 +1,14 @@
+---
+id: LA_ROCHEFOUCAULD
+name: La Rochefoucauld
+aliases:
+  - La Rochefoucauld
+  - Rochefoucauld
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Rochefoucauld
 
 ## Basic Information

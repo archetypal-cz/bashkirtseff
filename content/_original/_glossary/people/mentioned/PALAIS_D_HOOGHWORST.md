@@ -1,3 +1,15 @@
+---
+id: PALAIS_D_HOOGHWORST
+name: Palais d Hooghworst
+aliases:
+  - Palais d Hooghworst
+  - Palais d'Hooghworst
+  - Hooghworst
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Palais d Hooghworst
 
 ## Basic Information

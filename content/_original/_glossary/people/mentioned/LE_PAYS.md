@@ -1,3 +1,14 @@
+---
+id: LE_PAYS
+name: Le Pays
+aliases:
+  - Le Pays
+  - Pays
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le Pays
 
 **Research Status**: Stub

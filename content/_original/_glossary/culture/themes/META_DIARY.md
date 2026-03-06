@@ -1,6 +1,9 @@
 ---
 id: META_DIARY
 name: Meta-Diary
+aliases:
+  - Meta-Diary
+  - Meta Diary
 type: Culture
 category: culture/themes
 research_status: Moderate

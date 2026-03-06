@@ -1,3 +1,14 @@
+---
+id: MARIE_ANTOINETTE
+name: Marie-Antoinette
+aliases:
+  - Marie-Antoinette
+  - Marie Antoinette
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie-Antoinette
 
 **Research Status**: Moderate

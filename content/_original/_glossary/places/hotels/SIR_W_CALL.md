@@ -1,3 +1,14 @@
+---
+id: SIR_W_CALL
+name: Sir W. Call
+aliases:
+  - Sir W. Call
+  - Sir W Call
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sir W. Call
 
 **Research Status**: Basic

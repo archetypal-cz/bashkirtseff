@@ -1,3 +1,14 @@
+---
+id: M_DE_MULTEDO
+name: M de Multedo
+aliases:
+  - M de Multedo
+  - Multedo
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Multedo
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: COMTESSE_SOUHTCLAN
+name: Comtesse Souhtclan
+aliases:
+  - Comtesse Souhtclan
+  - Souhtclan
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comtesse Souhtclan
 
 ## Basic Information

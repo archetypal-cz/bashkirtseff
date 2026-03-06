@@ -1,3 +1,13 @@
+---
+id: POLTAVA
+name: Poltava
+aliases:
+  - Poltava
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Poltava
 
 **Research Status**: Comprehensive

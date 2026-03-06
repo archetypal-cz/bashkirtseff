@@ -1,3 +1,14 @@
+---
+id: SAINT_CHARLES
+name: Saint Charles
+aliases:
+  - Saint Charles
+  - Charles
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Charles
 
 ## Basic Information

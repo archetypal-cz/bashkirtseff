@@ -1,3 +1,14 @@
+---
+id: LE_REVEILLON
+name: '"Le Réveillon"'
+aliases:
+  - '"Le Réveillon"'
+  - Le Reveillon
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # "Le Réveillon"
 
 **Research Status**: Basic

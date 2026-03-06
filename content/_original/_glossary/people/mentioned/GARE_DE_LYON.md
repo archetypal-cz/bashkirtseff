@@ -1,3 +1,14 @@
+---
+id: GARE_DE_LYON
+name: gare de Lyon
+aliases:
+  - gare de Lyon
+  - Gare de Lyon
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # gare de Lyon
 
 ## Basic Information

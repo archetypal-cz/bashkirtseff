@@ -1,3 +1,13 @@
+---
+id: GERMAN
+name: German
+aliases:
+  - German
+type: Culture
+category: culture/languages
+research_status: Basic
+last_updated: 2026-03-06
+---
 # German
 
 **Research Status**: Basic

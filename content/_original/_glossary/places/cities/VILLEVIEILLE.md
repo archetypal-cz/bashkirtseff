@@ -1,3 +1,14 @@
+---
+id: VILLEVIEILLE
+name: Mademoiselle de Villevieille
+aliases:
+  - Mademoiselle de Villevieille
+  - Villevieille
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mademoiselle de Villevieille
 
 **Research Status**: Basic

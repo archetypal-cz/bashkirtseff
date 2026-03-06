@@ -1,3 +1,13 @@
+---
+id: FRANCINE
+name: Francine
+aliases:
+  - Francine
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Francine
 
 **Research Status**: Basic

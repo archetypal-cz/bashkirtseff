@@ -1,3 +1,14 @@
+---
+id: PRINCESSE_DE_PIEDIMONTE
+name: Princesse de Piedimonte
+aliases:
+  - Princesse de Piedimonte
+  - Piedimonte
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princesse de Piedimonte
 
 ## Basic Information

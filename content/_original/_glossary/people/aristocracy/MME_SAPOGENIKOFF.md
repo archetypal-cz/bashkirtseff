@@ -1,3 +1,14 @@
+---
+id: MME_SAPOGENIKOFF
+name: Mme Sapogenikoff
+aliases:
+  - Mme Sapogenikoff
+  - Sapogenikoff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Sapogenikoff
 
 ## Basic Information

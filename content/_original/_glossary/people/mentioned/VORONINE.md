@@ -1,3 +1,13 @@
+---
+id: VORONINE
+name: Voronine
+aliases:
+  - Voronine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Voronine
 
 ## Basic Information

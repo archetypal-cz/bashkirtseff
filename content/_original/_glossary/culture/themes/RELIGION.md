@@ -1,6 +1,8 @@
 ---
 id: RELIGION
 name: Religion
+aliases:
+  - Religion
 type: Culture
 category: culture/themes
 research_status: Moderate

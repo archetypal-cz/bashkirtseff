@@ -1,3 +1,14 @@
+---
+id: SAMARY
+name: Mademoiselle Samary
+aliases:
+  - Mademoiselle Samary
+  - Samary
+type: Person
+category: people/artists
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mademoiselle Samary
 
 **Research Status**: Moderate

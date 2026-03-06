@@ -1,3 +1,15 @@
+---
+id: M_D_ASPREMONT
+name: M d Aspremont
+aliases:
+  - M d Aspremont
+  - M d'Aspremont
+  - Aspremont
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M d Aspremont
 
 **Research Status**: Stub

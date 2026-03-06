@@ -1,3 +1,14 @@
+---
+id: HOTEL_CHAUVAIN
+name: Hôtel Chauvain
+aliases:
+  - Hôtel Chauvain
+  - Hotel Chauvain
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hôtel Chauvain
 
 **Research Status**: Basic

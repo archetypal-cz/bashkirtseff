@@ -1,3 +1,13 @@
+---
+id: HOTEL_DE_LA_MEDITERRANEE
+name: Hotel de la Mediterranee
+aliases:
+  - Hotel de la Mediterranee
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel de la Mediterranee
 
 **Research Status**: Basic

@@ -1,3 +1,14 @@
+---
+id: MME_LISANDER
+name: Mme Lisander
+aliases:
+  - Mme Lisander
+  - Lisander
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Lisander
 
 ## Basic Information

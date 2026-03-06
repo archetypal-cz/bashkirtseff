@@ -1,6 +1,9 @@
 ---
 id: DUKE_OF_BENSA
 name: Duke of Bensa
+aliases:
+  - Duke of Bensa
+  - Bensa
 type: Person
 category: people/aristocracy
 research_status: Basic

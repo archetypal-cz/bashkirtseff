@@ -1,3 +1,15 @@
+---
+id: M_D_EGREMONT
+name: M d Egremont
+aliases:
+  - M d Egremont
+  - M d'Egremont
+  - Egremont
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M d Egremont
 
 ## Basic Information

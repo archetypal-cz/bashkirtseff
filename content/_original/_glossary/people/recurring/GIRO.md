@@ -1,6 +1,10 @@
 ---
 id: GIRO
 name: Olga Sapogenikoff
+aliases:
+  - Olga Sapogenikoff
+  - Sapogenikoff
+  - Giro
 type: Person
 category: people/recurring
 research_status: Basic

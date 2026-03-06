@@ -1,3 +1,13 @@
+---
+id: LA_CITOYENNE
+name: La Citoyenne
+aliases:
+  - La Citoyenne
+type: Culture
+category: culture/newspapers
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Citoyenne
 
 **Research Status**: Moderate

@@ -1,3 +1,14 @@
+---
+id: MLLE_DURAND
+name: Mlle Durand
+aliases:
+  - Mlle Durand
+  - Durand
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Durand
 
 ## Basic Information

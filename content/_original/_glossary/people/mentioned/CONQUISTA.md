@@ -1,3 +1,13 @@
+---
+id: CONQUISTA
+name: Conquista
+aliases:
+  - Conquista
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Conquista
 
 **Research Status**: Basic

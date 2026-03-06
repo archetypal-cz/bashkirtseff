@@ -1,6 +1,9 @@
 ---
 id: GIROFLE_GIROFLA
 name: Giroflé-Girofla
+aliases:
+  - Giroflé-Girofla
+  - Girofle Girofla
 type: Culture
 category: culture/theater
 research_status: Moderate

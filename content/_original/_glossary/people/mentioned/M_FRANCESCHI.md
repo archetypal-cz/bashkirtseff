@@ -1,3 +1,14 @@
+---
+id: M_FRANCESCHI
+name: M Franceschi
+aliases:
+  - M Franceschi
+  - Franceschi
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Franceschi
 
 ## Basic Information

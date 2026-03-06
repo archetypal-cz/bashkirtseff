@@ -1,3 +1,15 @@
+---
+id: MUSEE_DE_CLUNY
+name: Musee de Cluny
+aliases:
+  - Musee de Cluny
+  - Cluny
+  - Musee
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Musee de Cluny
 
 **Research Status**: Stub

@@ -1,3 +1,15 @@
+---
+id: DES_PERRIERES
+name: Des Perrières
+aliases:
+  - Des Perrières
+  - Des Perrieres
+  - Perrières
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Des Perrières
 
 ## Basic Information

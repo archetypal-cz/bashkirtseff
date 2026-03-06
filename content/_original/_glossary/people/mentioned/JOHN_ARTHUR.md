@@ -1,3 +1,14 @@
+---
+id: JOHN_ARTHUR
+name: John Arthur
+aliases:
+  - John Arthur
+  - Arthur
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # John Arthur
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: ISSAKIE_CATHEDRAL
+name: Issakie Cathedral (Saint Isaac's Cathedral)
+aliases:
+  - Issakie Cathedral (Saint Isaac's Cathedral)
+  - Saint Isaac's Cathedral
+  - Issakie Cathedral
+type: Place
+category: places/churches
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Issakie Cathedral (Saint Isaac's Cathedral)
 
 **Research Status**: Basic

@@ -1,3 +1,15 @@
+---
+id: ALGIERS
+name: Algiers (Alger)
+aliases:
+  - Algiers (Alger)
+  - Algiers
+  - Alger
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Algiers (Alger)
 
 **Research Status**: Basic

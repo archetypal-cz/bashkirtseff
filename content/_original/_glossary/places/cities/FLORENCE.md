@@ -1,3 +1,15 @@
+---
+id: FLORENCE
+name: Florence (Firenze)
+aliases:
+  - Florence (Firenze)
+  - Florence
+  - Firenze
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Florence (Firenze)
 
 **Research Status**: Comprehensive

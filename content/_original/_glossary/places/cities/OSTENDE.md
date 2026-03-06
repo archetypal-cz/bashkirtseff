@@ -1,3 +1,15 @@
+---
+id: OSTENDE
+name: Ostende (Ostend)
+aliases:
+  - Ostende (Ostend)
+  - Ostende
+  - Ostend
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ostende (Ostend)
 
 **Research Status**: Comprehensive

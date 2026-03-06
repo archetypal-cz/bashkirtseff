@@ -1,6 +1,10 @@
 ---
 id: LADY_FALKNER
 name: Lady Falkner/Folkner
+aliases:
+  - Lady Falkner/Folkner
+  - Falkner/Folkner
+  - Lady Falkner
 type: Person
 category: people/aristocracy
 research_status: Basic

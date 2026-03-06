@@ -1,3 +1,13 @@
+---
+id: TROUBETSKOY
+name: Troubetskoy
+aliases:
+  - Troubetskoy
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Troubetskoy
 
 ## Basic Information

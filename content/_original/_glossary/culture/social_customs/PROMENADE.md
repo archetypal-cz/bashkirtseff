@@ -1,6 +1,8 @@
 ---
 id: PROMENADE
 name: Promenade
+aliases:
+  - Promenade
 type: Culture
 category: culture/social_customs
 research_status: Moderate

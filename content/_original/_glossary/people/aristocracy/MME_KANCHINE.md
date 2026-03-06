@@ -1,3 +1,14 @@
+---
+id: MME_KANCHINE
+name: Mme Kanchine
+aliases:
+  - Mme Kanchine
+  - Kanchine
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Kanchine
 
 ## Basic Information

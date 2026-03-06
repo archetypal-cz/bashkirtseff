@@ -1,6 +1,8 @@
 ---
 id: ZANKOVSKY_FAMILY
 name: Zankovsky Family
+aliases:
+  - Zankovsky Family
 type: Person
 category: people/mentioned
 research_status: Stub
@@ -10,7 +12,7 @@ languages:
   - uk
 original_script: Занковские
 transliteration: Zankovskie
-pronunciation: "https://translate.google.com/?sl=ru&tl=en&text=Занковские"
+pronunciation: https://translate.google.com/?sl=ru&tl=en&text=Занковские
 ---
 
 # Zankovsky Family

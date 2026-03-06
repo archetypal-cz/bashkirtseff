@@ -1,3 +1,13 @@
+---
+id: ROTHSCHILD
+name: Rothschild
+aliases:
+  - Rothschild
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rothschild
 
 **Research Status**: Stub

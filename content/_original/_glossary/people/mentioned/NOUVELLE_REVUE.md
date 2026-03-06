@@ -1,3 +1,14 @@
+---
+id: NOUVELLE_REVUE
+name: Nouvelle Revue
+aliases:
+  - Nouvelle Revue
+  - Revue
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Nouvelle Revue
 
 **Research Status**: Stub

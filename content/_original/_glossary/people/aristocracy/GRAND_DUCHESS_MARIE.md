@@ -1,3 +1,14 @@
+---
+id: GRAND_DUCHESS_MARIE
+name: Grand Duchess Marie
+aliases:
+  - Grand Duchess Marie
+  - Marie
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand Duchess Marie
 
 **Research Status**: Basic

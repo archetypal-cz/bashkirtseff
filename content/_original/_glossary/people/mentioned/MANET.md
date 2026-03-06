@@ -1,3 +1,13 @@
+---
+id: MANET
+name: Manet
+aliases:
+  - Manet
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Manet
 
 **Research Status**: Stub

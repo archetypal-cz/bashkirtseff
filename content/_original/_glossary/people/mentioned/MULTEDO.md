@@ -1,3 +1,13 @@
+---
+id: MULTEDO
+name: Multedo
+aliases:
+  - Multedo
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Multedo
 
 **Research Status**: Basic

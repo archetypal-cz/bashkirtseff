@@ -1,3 +1,14 @@
+---
+id: LORD_CARLOS_HAMILTON
+name: Lord Carlos Hamilton
+aliases:
+  - Lord Carlos Hamilton
+  - Hamilton
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lord Carlos Hamilton
 
 **Research Status**: Basic

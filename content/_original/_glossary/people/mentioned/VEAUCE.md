@@ -1,3 +1,13 @@
+---
+id: VEAUCE
+name: Veauce
+aliases:
+  - Veauce
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Veauce
 
 **Research Status**: Stub

@@ -1,3 +1,13 @@
+---
+id: MILORADOVITCH
+name: Miloradovitch
+aliases:
+  - Miloradovitch
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Miloradovitch
 
 Gritsia Miloradovitch was a young Russian nobleman who appears frequently in Marie Bashkirtseff's diary as a potential suitor strongly favored by her mother. 

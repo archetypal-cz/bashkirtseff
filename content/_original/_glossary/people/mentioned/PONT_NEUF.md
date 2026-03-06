@@ -1,3 +1,14 @@
+---
+id: PONT_NEUF
+name: Pont Neuf
+aliases:
+  - Pont Neuf
+  - Neuf
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pont Neuf
 
 **Research Status**: Basic

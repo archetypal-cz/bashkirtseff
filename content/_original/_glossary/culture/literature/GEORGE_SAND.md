@@ -1,6 +1,8 @@
 ---
 id: GEORGE_SAND
 name: George Sand
+aliases:
+  - George Sand
 type: Culture
 category: culture/literature
 research_status: Moderate

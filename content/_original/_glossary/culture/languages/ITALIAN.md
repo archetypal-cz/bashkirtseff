@@ -1,3 +1,13 @@
+---
+id: ITALIAN
+name: Italian
+aliases:
+  - Italian
+type: Culture
+category: culture/languages
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Italian
 
 **Research Status**: Intermediate

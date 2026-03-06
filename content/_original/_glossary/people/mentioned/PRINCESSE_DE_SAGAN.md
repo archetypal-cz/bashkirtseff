@@ -1,3 +1,15 @@
+---
+id: PRINCESSE_DE_SAGAN
+name: princesse de Sagan
+aliases:
+  - princesse de Sagan
+  - Princesse de Sagan
+  - Sagan
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # princesse de Sagan
 
 ## Basic Information

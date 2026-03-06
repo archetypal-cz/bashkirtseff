@@ -1,3 +1,14 @@
+---
+id: LA_JOIE_DE_LA_MAISON
+name: La joie de la maison
+aliases:
+  - La joie de la maison
+  - La Joie de la Maison
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La joie de la maison
 
 **Research Status**: Moderate

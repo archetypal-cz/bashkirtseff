@@ -1,3 +1,13 @@
+---
+id: CANEPA
+name: Canepa
+aliases:
+  - Canepa
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Canepa
 
 **Research Status**: Basic

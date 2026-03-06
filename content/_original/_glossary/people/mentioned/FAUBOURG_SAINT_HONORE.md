@@ -1,3 +1,15 @@
+---
+id: FAUBOURG_SAINT_HONORE
+name: faubourg Saint-Honore
+aliases:
+  - faubourg Saint-Honore
+  - Faubourg Saint Honore
+  - Saint-Honore
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # faubourg Saint-Honore
 
 ## Basic Information

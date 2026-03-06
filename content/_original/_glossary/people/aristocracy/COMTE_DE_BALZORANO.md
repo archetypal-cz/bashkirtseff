@@ -1,3 +1,14 @@
+---
+id: COMTE_DE_BALZORANO
+name: Comte de Balzorano
+aliases:
+  - Comte de Balzorano
+  - Balzorano
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte de Balzorano
 
 ## Basic Information

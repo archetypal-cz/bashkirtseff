@@ -1,3 +1,14 @@
+---
+id: LE_BON_MARCHE
+name: Le Bon Marché
+aliases:
+  - Le Bon Marché
+  - Le Bon Marche
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le Bon Marché
 
 ## Basic Information

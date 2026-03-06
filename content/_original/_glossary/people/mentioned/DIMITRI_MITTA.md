@@ -1,3 +1,14 @@
+---
+id: DIMITRI_MITTA
+name: Dimitri Mitta
+aliases:
+  - Dimitri Mitta
+  - Mitta
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dimitri Mitta
 
 ## Basic Information

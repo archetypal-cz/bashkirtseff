@@ -1,3 +1,13 @@
+---
+id: VILLA_GIOIA
+name: Villa Gioia
+aliases:
+  - Villa Gioia
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Villa Gioia
 
 **Research Status**: Basic

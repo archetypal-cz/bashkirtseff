@@ -1,3 +1,15 @@
+---
+id: D_ANDIGNE
+name: d Andigne
+aliases:
+  - d Andigne
+  - d'Andigne
+  - Andigne
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # d Andigne
 
 ## Basic Information

@@ -1,3 +1,13 @@
+---
+id: HOTEL_CONTINENTAL
+name: Hotel Continental
+aliases:
+  - Hotel Continental
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel Continental
 
 **Research Status**: Stub

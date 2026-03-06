@@ -1,3 +1,13 @@
+---
+id: RUSSIAN_ORTHODOX_CHURCH
+name: Russian Orthodox Church
+aliases:
+  - Russian Orthodox Church
+type: Place
+category: places/churches
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Russian Orthodox Church
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: COMTE_D_ANDIGNE
+name: comte d Andigne
+aliases:
+  - comte d Andigne
+  - Comte d'Andigne
+  - Andigne
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # comte d Andigne
 
 ## Basic Information

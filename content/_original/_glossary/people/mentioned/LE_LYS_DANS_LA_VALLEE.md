@@ -1,3 +1,15 @@
+---
+id: LE_LYS_DANS_LA_VALLEE
+name: Le lys dans la vallee
+aliases:
+  - Le lys dans la vallee
+  - Le Lys Dans la Vallee
+  - vallee
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le lys dans la vallee
 
 ## Basic Information

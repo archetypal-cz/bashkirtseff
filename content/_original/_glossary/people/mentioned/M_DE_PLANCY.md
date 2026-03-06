@@ -1,3 +1,14 @@
+---
+id: M_DE_PLANCY
+name: M de Plancy
+aliases:
+  - M de Plancy
+  - Plancy
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Plancy
 
 ## Basic Information

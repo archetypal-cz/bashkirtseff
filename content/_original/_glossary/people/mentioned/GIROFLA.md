@@ -1,6 +1,10 @@
 ---
 id: GIROFLA
 name: Girofla (Emile d'Audiffret)
+aliases:
+  - Girofla (Emile d'Audiffret)
+  - Emile d'Audiffret
+  - Girofla
 type: Person
 category: people/mentioned
 research_status: Moderate

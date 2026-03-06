@@ -1,3 +1,14 @@
+---
+id: ANTONELLI_PIETRO
+name: Antonelli Pietro
+aliases:
+  - Antonelli Pietro
+  - Pietro
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Antonelli Pietro
 
 ## Basic Information

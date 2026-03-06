@@ -1,3 +1,15 @@
+---
+id: ALSACE_LORRAINE
+name: Alsace-Lorraine (Alsace-Lorraine)
+aliases:
+  - Alsace-Lorraine (Alsace-Lorraine)
+  - Alsace-Lorraine
+  - Alsace Lorraine
+type: Place
+category: places/regions
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alsace-Lorraine (Alsace-Lorraine)
 
 **Research Status**: Moderate

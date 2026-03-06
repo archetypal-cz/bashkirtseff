@@ -1,3 +1,15 @@
+---
+id: PRINCESSE_D_AUGRI
+name: Princesse d Augri
+aliases:
+  - Princesse d Augri
+  - Princesse d'Augri
+  - Augri
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princesse d Augri
 
 ## Basic Information

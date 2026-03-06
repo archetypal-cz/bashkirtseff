@@ -1,3 +1,13 @@
+---
+id: HUGUENOTS
+name: Huguenots
+aliases:
+  - Huguenots
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Huguenots
 
 **Research Status**: Stub

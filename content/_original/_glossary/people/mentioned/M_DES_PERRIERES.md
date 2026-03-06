@@ -1,3 +1,14 @@
+---
+id: M_DES_PERRIERES
+name: M des Perrieres
+aliases:
+  - M des Perrieres
+  - Perrieres
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M des Perrieres
 
 ## Basic Information

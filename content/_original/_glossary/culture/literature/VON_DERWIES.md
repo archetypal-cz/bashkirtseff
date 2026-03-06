@@ -1,6 +1,8 @@
 ---
 id: VON_DERWIES
 name: Von Derwies
+aliases:
+  - Von Derwies
 type: Culture
 category: culture/literature
 research_status: Basic

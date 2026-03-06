@@ -1,3 +1,13 @@
+---
+id: MENTON
+name: Menton
+aliases:
+  - Menton
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Menton
 
 **Research Status**: Basic

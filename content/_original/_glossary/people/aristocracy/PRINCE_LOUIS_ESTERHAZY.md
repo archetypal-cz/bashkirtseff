@@ -1,3 +1,14 @@
+---
+id: PRINCE_LOUIS_ESTERHAZY
+name: Prince Louis Esterhazy
+aliases:
+  - Prince Louis Esterhazy
+  - Esterhazy
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Louis Esterhazy
 
 **Research Status**: Basic

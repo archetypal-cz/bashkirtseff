@@ -1,3 +1,13 @@
+---
+id: ATELIER
+name: Atelier
+aliases:
+  - Atelier
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Atelier
 
 **Research Status**: Stub

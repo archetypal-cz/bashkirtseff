@@ -1,3 +1,14 @@
+---
+id: SAINT_PIERRE
+name: Saint Pierre
+aliases:
+  - Saint Pierre
+  - Pierre
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Pierre
 
 ## Basic Information

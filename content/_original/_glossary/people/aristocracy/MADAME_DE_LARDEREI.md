@@ -1,3 +1,14 @@
+---
+id: MADAME_DE_LARDEREI
+name: Madame de Larderei
+aliases:
+  - Madame de Larderei
+  - Larderei
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame de Larderei
 
 ## Basic Information

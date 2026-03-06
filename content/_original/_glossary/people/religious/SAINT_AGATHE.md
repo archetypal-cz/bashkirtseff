@@ -1,3 +1,14 @@
+---
+id: SAINT_AGATHE
+name: Saint Agathe
+aliases:
+  - Saint Agathe
+  - Agathe
+type: Person
+category: people/religious
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Agathe
 
 **Research Status**: Basic

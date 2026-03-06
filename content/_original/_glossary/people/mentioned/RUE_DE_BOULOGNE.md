@@ -1,3 +1,14 @@
+---
+id: RUE_DE_BOULOGNE
+name: Rue de Boulogne
+aliases:
+  - Rue de Boulogne
+  - Boulogne
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue de Boulogne
 
 **Research Status**: Stub

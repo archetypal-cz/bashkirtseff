@@ -1,3 +1,13 @@
+---
+id: ODEON_THEATRE
+name: Odeon Theatre
+aliases:
+  - Odeon Theatre
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Odeon Theatre
 
 ## Basic Information

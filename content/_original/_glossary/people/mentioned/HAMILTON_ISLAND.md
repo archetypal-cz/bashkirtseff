@@ -1,3 +1,14 @@
+---
+id: HAMILTON_ISLAND
+name: Hamilton Island
+aliases:
+  - Hamilton Island
+  - Island
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hamilton Island
 
 ## Basic Information

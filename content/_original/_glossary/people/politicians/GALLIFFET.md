@@ -1,3 +1,13 @@
+---
+id: GALLIFFET
+name: Galliffet
+aliases:
+  - Galliffet
+type: Person
+category: people/politicians
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Galliffet
 
 **Research Status**: Stub

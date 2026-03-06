@@ -1,3 +1,13 @@
+---
+id: THEATRE_DES_VARIETES
+name: Theatre des Varietes
+aliases:
+  - Theatre des Varietes
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Theatre des Varietes
 
 ## Basic Information

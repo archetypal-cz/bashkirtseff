@@ -1,3 +1,14 @@
+---
+id: DIS_MOI_VENUS
+name: Dis-moi Vénus
+aliases:
+  - Dis-moi Vénus
+  - Dis Moi Venus
+type: Culture
+category: culture/music
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dis-moi Vénus
 
 **Research Status**: Basic

@@ -1,3 +1,17 @@
+---
+id: DROIT_DES_FEMMES
+name: Le Droit des Femmes (Society)
+aliases:
+  - Le Droit des Femmes (Society)
+  - Le Droit des Femmes
+  - Droit des Femmes
+  - Society
+  - Femmes
+type: Person
+category: people/politicians
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le Droit des Femmes (Society)
 
 **Research Status**: Moderate

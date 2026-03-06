@@ -1,3 +1,14 @@
+---
+id: VICTOR_EMMANUEL
+name: Victor-Emmanuel
+aliases:
+  - Victor-Emmanuel
+  - Victor Emmanuel
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Victor-Emmanuel
 
 ## Basic Information

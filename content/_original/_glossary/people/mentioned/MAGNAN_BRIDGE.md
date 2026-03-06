@@ -1,3 +1,16 @@
+---
+id: MAGNAN_BRIDGE
+name: Pont Magnan (Magnan Bridge)
+aliases:
+  - Pont Magnan (Magnan Bridge)
+  - Magnan Bridge
+  - Pont Magnan
+  - Magnan
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pont Magnan (Magnan Bridge)
 
 **Research Status**: Basic

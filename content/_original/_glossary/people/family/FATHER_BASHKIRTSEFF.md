@@ -1,6 +1,10 @@
 ---
 id: FATHER_BASHKIRTSEFF
 name: Constantine Bashkirtseff
+aliases:
+  - Constantine Bashkirtseff
+  - Father Bashkirtseff
+  - Bashkirtseff
 type: Person
 category: people/family
 research_status: Moderate

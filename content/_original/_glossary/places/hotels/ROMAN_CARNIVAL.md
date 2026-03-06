@@ -1,3 +1,15 @@
+---
+id: ROMAN_CARNIVAL
+name: Roman Carnival (Carnevale di Roma)
+aliases:
+  - Roman Carnival (Carnevale di Roma)
+  - Carnevale di Roma
+  - Roman Carnival
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Roman Carnival (Carnevale di Roma)
 
 **Research Status**: Moderate

@@ -1,3 +1,15 @@
+---
+id: PARC_MONCEAU
+name: parc Monceau
+aliases:
+  - parc Monceau
+  - Parc Monceau
+  - Monceau
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # parc Monceau
 
 ## Basic Information

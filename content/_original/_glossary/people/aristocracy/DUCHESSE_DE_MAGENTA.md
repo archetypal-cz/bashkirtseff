@@ -1,6 +1,11 @@
 ---
 id: DUCHESSE_DE_MAGENTA
 name: Elisabeth de la Croix de Castries, Duchesse de Magenta
+aliases:
+  - Elisabeth de la Croix de Castries, Duchesse de Magenta
+  - Duchesse de Magenta
+  - Elisabeth
+  - Magenta
 type: Person
 category: people/aristocracy
 research_status: Moderate

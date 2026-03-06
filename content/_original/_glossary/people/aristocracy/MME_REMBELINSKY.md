@@ -1,3 +1,14 @@
+---
+id: MME_REMBELINSKY
+name: Mme Rembelinsky
+aliases:
+  - Mme Rembelinsky
+  - Rembelinsky
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Rembelinsky
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: KIEV
+name: Kiev (Kyiv / Київ)
+aliases:
+  - Kiev (Kyiv / Київ)
+  - Kyiv / Київ
+  - Kiev
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Kiev (Kyiv / Київ)
 
 **Research Status**: Comprehensive

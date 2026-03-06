@@ -1,3 +1,15 @@
+---
+id: ECOLE_DES_BEAUX_ARTS
+name: Ecole des Beaux Arts
+aliases:
+  - Ecole des Beaux Arts
+  - Ecole
+  - Arts
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ecole des Beaux Arts
 
 **Research Status**: Stub

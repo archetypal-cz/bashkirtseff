@@ -1,3 +1,14 @@
+---
+id: M_MARX
+name: M Marx
+aliases:
+  - M Marx
+  - Marx
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Marx
 
 ## Basic Information

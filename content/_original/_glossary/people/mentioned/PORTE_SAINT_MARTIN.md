@@ -1,3 +1,14 @@
+---
+id: PORTE_SAINT_MARTIN
+name: Porte Saint Martin
+aliases:
+  - Porte Saint Martin
+  - Martin
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Porte Saint Martin
 
 ## Basic Information

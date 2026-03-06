@@ -1,3 +1,13 @@
+---
+id: GUY_DE_MAUPASSANT
+name: Guy de Maupassant
+aliases:
+  - Guy de Maupassant
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Guy de Maupassant
 
 **Research Status**: Comprehensive

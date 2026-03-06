@@ -1,3 +1,14 @@
+---
+id: JULES_VALLES
+name: Jules Valles
+aliases:
+  - Jules Valles
+  - Valles
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jules Valles
 
 **Research Status**: Stub

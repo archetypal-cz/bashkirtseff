@@ -1,3 +1,13 @@
+---
+id: RUE_AMPERE
+name: Rue Ampere
+aliases:
+  - Rue Ampere
+type: Place
+category: places/neighborhoods
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue Ampere
 
 **Research Status**: Moderate

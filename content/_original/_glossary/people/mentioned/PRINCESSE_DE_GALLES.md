@@ -1,3 +1,15 @@
+---
+id: PRINCESSE_DE_GALLES
+name: princesse de Galles
+aliases:
+  - princesse de Galles
+  - Princesse de Galles
+  - Galles
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # princesse de Galles
 
 ## Basic Information

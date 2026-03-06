@@ -1,3 +1,15 @@
+---
+id: COLONEL_TALANDIER
+name: colonel Talandier
+aliases:
+  - colonel Talandier
+  - Colonel Talandier
+  - Talandier
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # colonel Talandier
 
 ## Basic Information

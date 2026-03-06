@@ -1,3 +1,14 @@
+---
+id: FLORENCE_LACON
+name: Florence Lacon
+aliases:
+  - Florence Lacon
+  - Lacon
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Florence Lacon
 
 ## Basic Information

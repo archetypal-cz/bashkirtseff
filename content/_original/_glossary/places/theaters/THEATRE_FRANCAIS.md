@@ -1,3 +1,14 @@
+---
+id: THEATRE_FRANCAIS
+name: Theatre-Francais
+aliases:
+  - Theatre-Francais
+  - Theatre Francais
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Theatre-Francais
 
 ## Basic Information

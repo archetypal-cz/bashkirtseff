@@ -1,3 +1,15 @@
+---
+id: RUE_SAINT_FRANCOIS
+name: Rue Saint-François
+aliases:
+  - Rue Saint-François
+  - Rue Saint Francois
+  - Saint-François
+type: Person
+category: people/religious
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue Saint-François
 
 **Research Status**: Basic

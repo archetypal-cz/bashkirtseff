@@ -1,3 +1,14 @@
+---
+id: DUC_DE_FELTRE
+name: Duc de Feltre
+aliases:
+  - Duc de Feltre
+  - Feltre
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de Feltre
 
 ## Basic Information

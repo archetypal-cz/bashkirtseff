@@ -1,3 +1,14 @@
+---
+id: FAI_FAY
+name: Fai or Fay
+aliases:
+  - Fai or Fay
+  - Fai Fay
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Fai or Fay
 
 **Research Status**: Basic

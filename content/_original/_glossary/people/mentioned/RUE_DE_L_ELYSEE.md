@@ -1,3 +1,15 @@
+---
+id: RUE_DE_L_ELYSEE
+name: rue de l Elysee
+aliases:
+  - rue de l Elysee
+  - Rue de l'Elysee
+  - Elysee
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # rue de l Elysee
 
 ## Basic Information

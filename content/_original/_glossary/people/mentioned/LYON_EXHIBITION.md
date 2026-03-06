@@ -1,3 +1,14 @@
+---
+id: LYON_EXHIBITION
+name: Lyon Exhibition
+aliases:
+  - Lyon Exhibition
+  - Exhibition
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lyon Exhibition
 
 **Research Status**: Basic

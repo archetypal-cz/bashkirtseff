@@ -1,3 +1,14 @@
+---
+id: MME_ALLEN
+name: Mme Allen
+aliases:
+  - Mme Allen
+  - Allen
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Allen
 
 **Research Status**: Basic

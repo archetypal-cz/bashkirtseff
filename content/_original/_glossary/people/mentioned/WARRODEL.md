@@ -1,3 +1,13 @@
+---
+id: WARRODEL
+name: Warrodel
+aliases:
+  - Warrodel
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Warrodel
 
 **Research Status**: Basic

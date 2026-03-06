@@ -1,3 +1,15 @@
+---
+id: COMTE_MULTEDO
+name: comte Multedo
+aliases:
+  - comte Multedo
+  - Comte Multedo
+  - Multedo
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # comte Multedo
 
 ## Basic Information

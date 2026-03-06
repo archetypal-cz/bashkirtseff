@@ -1,3 +1,15 @@
+---
+id: LONDON
+name: London (Londres)
+aliases:
+  - London (Londres)
+  - Londres
+  - London
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # London (Londres)
 
 **Research Status**: Moderate

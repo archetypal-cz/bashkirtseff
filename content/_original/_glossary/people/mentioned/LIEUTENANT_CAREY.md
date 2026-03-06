@@ -1,3 +1,14 @@
+---
+id: LIEUTENANT_CAREY
+name: Lieutenant Carey
+aliases:
+  - Lieutenant Carey
+  - Carey
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lieutenant Carey
 
 **Research Status**: Stub

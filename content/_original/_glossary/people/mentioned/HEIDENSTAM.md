@@ -1,3 +1,13 @@
+---
+id: HEIDENSTAM
+name: Heidenstam
+aliases:
+  - Heidenstam
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Heidenstam
 
 ## Basic Information

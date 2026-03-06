@@ -1,3 +1,14 @@
+---
+id: MLLE_ROSALIE
+name: Mlle Rosalie
+aliases:
+  - Mlle Rosalie
+  - Rosalie
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Rosalie
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: DA_COSTA_MOTTA
+name: Da Costa Motta
+aliases:
+  - Da Costa Motta
+  - Motta
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Da Costa Motta
 
 **Research Status**: Stub

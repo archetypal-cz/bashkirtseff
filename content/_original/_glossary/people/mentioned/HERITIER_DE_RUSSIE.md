@@ -1,3 +1,15 @@
+---
+id: HERITIER_DE_RUSSIE
+name: Heritier de Russie
+aliases:
+  - Heritier de Russie
+  - Heritier
+  - Russie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Heritier de Russie
 
 **Research Status**: Stub

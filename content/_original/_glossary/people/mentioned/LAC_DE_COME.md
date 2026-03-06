@@ -1,3 +1,14 @@
+---
+id: LAC_DE_COME
+name: Lac de Come
+aliases:
+  - Lac de Come
+  - Come
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lac de Come
 
 ## Basic Information

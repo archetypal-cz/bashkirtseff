@@ -1,6 +1,9 @@
 ---
 id: VICTOR_HUGO
 name: Victor Hugo
+aliases:
+  - Victor Hugo
+  - Hugo
 type: Person
 category: people/mentioned
 research_status: Moderate

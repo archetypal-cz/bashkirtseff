@@ -1,3 +1,14 @@
+---
+id: SAN_CARLO
+name: San Carlo
+aliases:
+  - San Carlo
+  - Carlo
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # San Carlo
 
 ## Basic Information

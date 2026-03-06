@@ -1,3 +1,15 @@
+---
+id: PRINCE_STROZZI
+name: prince Strozzi
+aliases:
+  - prince Strozzi
+  - Prince Strozzi
+  - Strozzi
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # prince Strozzi
 
 ## Basic Information

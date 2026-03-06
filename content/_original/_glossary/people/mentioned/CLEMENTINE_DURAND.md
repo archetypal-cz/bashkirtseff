@@ -1,3 +1,15 @@
+---
+id: CLEMENTINE_DURAND
+name: Clémentine Durand
+aliases:
+  - Clémentine Durand
+  - Clementine Durand
+  - Durand
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Clémentine Durand
 
 **Research Status**: Basic

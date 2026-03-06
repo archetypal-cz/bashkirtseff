@@ -1,3 +1,15 @@
+---
+id: KARLSBAD
+name: Karlsbad (Carlsbad / Karlovy Vary)
+aliases:
+  - Karlsbad (Carlsbad / Karlovy Vary)
+  - Carlsbad / Karlovy Vary
+  - Karlsbad
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Karlsbad (Carlsbad / Karlovy Vary)
 
 **Research Status**: Basic

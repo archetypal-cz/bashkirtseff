@@ -1,3 +1,14 @@
+---
+id: BUSSY_D_AMBOISE
+name: Bussy d Amboise
+aliases:
+  - Bussy d Amboise
+  - Bussy d'Amboise
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bussy d Amboise
 
 **Research Status**: Stub

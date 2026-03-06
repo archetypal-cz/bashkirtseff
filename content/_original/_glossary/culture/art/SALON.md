@@ -1,3 +1,15 @@
+---
+id: SALON
+name: Salon (Paris Salon)
+aliases:
+  - Salon (Paris Salon)
+  - Paris Salon
+  - Salon
+type: Culture
+category: culture/art
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Salon (Paris Salon)
 
 **Research Status**: Moderate

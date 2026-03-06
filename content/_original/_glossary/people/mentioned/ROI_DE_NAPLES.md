@@ -1,3 +1,15 @@
+---
+id: ROI_DE_NAPLES
+name: roi de Naples
+aliases:
+  - roi de Naples
+  - Roi de Naples
+  - Naples
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # roi de Naples
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: BARON_DU_POTET
+name: baron du Potet
+aliases:
+  - baron du Potet
+  - Baron du Potet
+  - Potet
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # baron du Potet
 
 ## Basic Information

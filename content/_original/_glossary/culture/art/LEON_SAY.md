@@ -1,3 +1,14 @@
+---
+id: LEON_SAY
+name: Léon Say
+aliases:
+  - Léon Say
+  - Leon Say
+type: Culture
+category: culture/art
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Léon Say
 
 **Research Status**: Moderate

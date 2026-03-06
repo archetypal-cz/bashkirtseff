@@ -1,3 +1,14 @@
+---
+id: PALAIS_ROYAL
+name: Palais-Royal
+aliases:
+  - Palais-Royal
+  - Palais Royal
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Palais-Royal
 
 **Research Status**: Moderate

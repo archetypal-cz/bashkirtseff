@@ -1,3 +1,17 @@
+---
+id: LA_VALLIERE
+name: La Vallière (Book)
+aliases:
+  - La Vallière (Book)
+  - La Vallière
+  - La Valliere
+  - Vallière
+  - Book
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Vallière (Book)
 
 **Research Status**: Basic

@@ -1,3 +1,14 @@
+---
+id: PRINCESS_BEATRICE
+name: Princess Beatrice
+aliases:
+  - Princess Beatrice
+  - Beatrice
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princess Beatrice
 
 **Research Status**: Stub

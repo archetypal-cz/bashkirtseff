@@ -1,3 +1,14 @@
+---
+id: NICE_CARNIVAL
+name: Nice Carnival
+aliases:
+  - Nice Carnival
+  - Carnival
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Nice Carnival
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: BERNARDIN_DE_SAINT_PIERRE
+name: Jacques-Henri Bernardin de Saint-Pierre
+aliases:
+  - Jacques-Henri Bernardin de Saint-Pierre
+  - Bernardin de Saint Pierre
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jacques-Henri Bernardin de Saint-Pierre
 
 **Research Status**: Basic

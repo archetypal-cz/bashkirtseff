@@ -1,3 +1,13 @@
+---
+id: ATELIER_JULIAN
+name: Atelier Julian
+aliases:
+  - Atelier Julian
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Atelier Julian
 
 **Research Status**: Stub

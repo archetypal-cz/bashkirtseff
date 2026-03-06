@@ -1,3 +1,15 @@
+---
+id: PRINCES_DE_REUSS
+name: Princes de Reuss
+aliases:
+  - Princes de Reuss
+  - Princes
+  - Reuss
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princes de Reuss
 
 ## Basic Information

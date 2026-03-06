@@ -1,3 +1,14 @@
+---
+id: MME_CANEPA
+name: Mme Canepa
+aliases:
+  - Mme Canepa
+  - Canepa
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Canepa
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: BAL_D_OSMOND
+name: bal d Osmond
+aliases:
+  - bal d Osmond
+  - Bal d'Osmond
+  - Osmond
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # bal d Osmond
 
 ## Basic Information

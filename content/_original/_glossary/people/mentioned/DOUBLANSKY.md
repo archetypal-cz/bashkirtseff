@@ -1,6 +1,9 @@
 ---
 id: DOUBLANSKY
 name: M. Doublansky
+aliases:
+  - M. Doublansky
+  - Doublansky
 type: Person
 category: people/mentioned
 research_status: Stub

@@ -1,3 +1,14 @@
+---
+id: DUCHESS_OF_HAMILTON
+name: Duchess of Hamilton
+aliases:
+  - Duchess of Hamilton
+  - Hamilton
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duchess of Hamilton
 
 **Research Status**: Basic

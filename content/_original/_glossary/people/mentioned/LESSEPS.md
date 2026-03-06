@@ -1,3 +1,13 @@
+---
+id: LESSEPS
+name: Lesseps
+aliases:
+  - Lesseps
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lesseps
 
 **Research Status**: Stub

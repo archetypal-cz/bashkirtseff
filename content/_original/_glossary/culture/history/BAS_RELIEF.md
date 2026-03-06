@@ -1,3 +1,14 @@
+---
+id: BAS_RELIEF
+name: Bas relief
+aliases:
+  - Bas relief
+  - Bas Relief
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bas relief
 
 **Research Status**: Stub

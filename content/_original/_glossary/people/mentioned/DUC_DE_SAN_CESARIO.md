@@ -1,3 +1,14 @@
+---
+id: DUC_DE_SAN_CESARIO
+name: Duc de San Cesario
+aliases:
+  - Duc de San Cesario
+  - Cesario
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de San Cesario
 
 ## Basic Information

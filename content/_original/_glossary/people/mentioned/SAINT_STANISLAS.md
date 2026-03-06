@@ -1,3 +1,14 @@
+---
+id: SAINT_STANISLAS
+name: Saint Stanislas
+aliases:
+  - Saint Stanislas
+  - Stanislas
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Stanislas
 
 ## Basic Information

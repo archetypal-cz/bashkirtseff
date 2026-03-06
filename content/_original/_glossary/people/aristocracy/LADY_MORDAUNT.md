@@ -1,6 +1,11 @@
 ---
 id: LADY_MORDAUNT
 name: Lady Mordaunt (Harriet Moncreiffe)
+aliases:
+  - Lady Mordaunt (Harriet Moncreiffe)
+  - Harriet Moncreiffe
+  - Lady Mordaunt
+  - Mordaunt
 type: Person
 category: people/aristocracy
 research_status: Moderate

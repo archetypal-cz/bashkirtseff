@@ -1,3 +1,14 @@
+---
+id: P_DE_CASSAGNAC
+name: P de Cassagnac
+aliases:
+  - P de Cassagnac
+  - Cassagnac
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # P de Cassagnac
 
 ## Basic Information

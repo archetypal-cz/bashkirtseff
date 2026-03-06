@@ -1,3 +1,13 @@
+---
+id: MAIZONIE
+name: Maizonie
+aliases:
+  - Maizonie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Maizonie
 
 ## Basic Information

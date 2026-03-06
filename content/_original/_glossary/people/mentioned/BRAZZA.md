@@ -1,3 +1,13 @@
+---
+id: BRAZZA
+name: Brazza
+aliases:
+  - Brazza
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Brazza
 
 **Research Status**: Stub

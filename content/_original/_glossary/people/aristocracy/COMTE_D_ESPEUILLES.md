@@ -1,3 +1,15 @@
+---
+id: COMTE_D_ESPEUILLES
+name: comte d Espeuilles
+aliases:
+  - comte d Espeuilles
+  - Comte d'Espeuilles
+  - Espeuilles
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # comte d Espeuilles
 
 ## Basic Information

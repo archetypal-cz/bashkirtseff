@@ -1,3 +1,13 @@
+---
+id: RAPHAEL
+name: Raphael
+aliases:
+  - Raphael
+type: Person
+category: people/artists
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Raphael
 
 **Research Status**: Stub

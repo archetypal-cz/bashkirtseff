@@ -1,3 +1,14 @@
+---
+id: PRINCESS_MULITERNO
+name: Princess Muliterno
+aliases:
+  - Princess Muliterno
+  - Muliterno
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princess Muliterno
 
 ## Basic Information

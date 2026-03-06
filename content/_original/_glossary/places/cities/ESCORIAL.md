@@ -1,3 +1,15 @@
+---
+id: ESCORIAL
+name: Escorial (El Escorial)
+aliases:
+  - Escorial (El Escorial)
+  - El Escorial
+  - Escorial
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Escorial (El Escorial)
 
 **Research Status**: Basic

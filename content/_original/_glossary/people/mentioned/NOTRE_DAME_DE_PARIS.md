@@ -1,3 +1,16 @@
+---
+id: NOTRE_DAME_DE_PARIS
+name: Notre-Dame de Paris
+aliases:
+  - Notre-Dame de Paris
+  - Notre Dame de Paris
+  - Notre-Dame
+  - Paris
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Notre-Dame de Paris
 
 **Research Status**: Stub

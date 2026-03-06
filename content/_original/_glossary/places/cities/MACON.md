@@ -1,3 +1,14 @@
+---
+id: MACON
+name: Mâcon
+aliases:
+  - Mâcon
+  - Macon
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mâcon
 
 **Research Status**: Basic

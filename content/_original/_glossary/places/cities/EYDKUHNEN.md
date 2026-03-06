@@ -1,3 +1,16 @@
+---
+id: EYDKUHNEN
+name: Eydkühnen (Chernyshevskoye)
+aliases:
+  - Eydkühnen (Chernyshevskoye)
+  - Chernyshevskoye
+  - Eydkühnen
+  - Eydkuhnen
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Eydkühnen (Chernyshevskoye)
 
 **Research Status**: Basic

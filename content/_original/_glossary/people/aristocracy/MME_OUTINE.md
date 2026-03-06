@@ -1,3 +1,14 @@
+---
+id: MME_OUTINE
+name: Mme Outine
+aliases:
+  - Mme Outine
+  - Outine
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Outine
 
 ## Basic Information

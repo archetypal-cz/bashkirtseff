@@ -1,3 +1,14 @@
+---
+id: SAINT_GERMAIN
+name: Saint Germain
+aliases:
+  - Saint Germain
+  - Germain
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Germain
 
 ## Basic Information

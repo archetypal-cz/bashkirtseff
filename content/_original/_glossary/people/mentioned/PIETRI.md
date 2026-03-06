@@ -1,3 +1,13 @@
+---
+id: PIETRI
+name: Pietri
+aliases:
+  - Pietri
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pietri
 
 **Research Status**: Stub

@@ -1,3 +1,14 @@
+---
+id: COMTE_LAURENTI
+name: Comte Laurenti
+aliases:
+  - Comte Laurenti
+  - Laurenti
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte Laurenti
 
 ## Basic Information

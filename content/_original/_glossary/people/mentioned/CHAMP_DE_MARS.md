@@ -1,3 +1,14 @@
+---
+id: CHAMP_DE_MARS
+name: Champ de Mars
+aliases:
+  - Champ de Mars
+  - Champ
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Champ de Mars
 
 ## Basic Information

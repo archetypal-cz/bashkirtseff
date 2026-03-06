@@ -1,3 +1,15 @@
+---
+id: LA_REINE
+name: La Reine (Isabel II of Spain)
+aliases:
+  - La Reine (Isabel II of Spain)
+  - Isabel II of Spain
+  - La Reine
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Reine (Isabel II of Spain)
 
 **Research Status**: Moderate

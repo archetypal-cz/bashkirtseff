@@ -1,3 +1,13 @@
+---
+id: CHINA
+name: China
+aliases:
+  - China
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # China
 
 ## Basic Information

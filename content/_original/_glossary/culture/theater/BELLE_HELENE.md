@@ -1,3 +1,14 @@
+---
+id: BELLE_HELENE
+name: La Belle Hélène
+aliases:
+  - La Belle Hélène
+  - Belle Helene
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Belle Hélène
 
 **Research Status**: Basic

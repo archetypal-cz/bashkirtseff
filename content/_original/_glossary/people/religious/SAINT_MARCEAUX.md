@@ -1,3 +1,14 @@
+---
+id: SAINT_MARCEAUX
+name: Saint Marceaux
+aliases:
+  - Saint Marceaux
+  - Marceaux
+type: Person
+category: people/religious
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Marceaux
 
 **Research Status**: Stub

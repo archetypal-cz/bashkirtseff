@@ -1,3 +1,13 @@
+---
+id: LAMBESSA
+name: Lambessa
+aliases:
+  - Lambessa
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lambessa
 
 **Research Status**: Stub

@@ -1,3 +1,13 @@
+---
+id: CHOUPINSKI
+name: Choupinski
+aliases:
+  - Choupinski
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Choupinski
 
 **Research Status**: Basic

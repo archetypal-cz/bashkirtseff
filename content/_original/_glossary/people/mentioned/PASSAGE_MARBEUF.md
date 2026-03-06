@@ -1,3 +1,14 @@
+---
+id: PASSAGE_MARBEUF
+name: Passage Marbeuf
+aliases:
+  - Passage Marbeuf
+  - Marbeuf
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Passage Marbeuf
 
 **Research Status**: Stub

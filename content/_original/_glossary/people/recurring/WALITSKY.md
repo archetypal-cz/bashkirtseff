@@ -1,3 +1,15 @@
+---
+id: WALITSKY
+name: Walitsky (Walitzky, Lucien)
+aliases:
+  - Walitsky (Walitzky, Lucien)
+  - Walitzky, Lucien
+  - Walitsky
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Walitsky (Walitzky, Lucien)
 
 **Research Status**: Comprehensive

@@ -1,3 +1,14 @@
+---
+id: MISS_SMITH
+name: Miss Smith
+aliases:
+  - Miss Smith
+  - Smith
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Miss Smith
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: BRIMONT
+name: Madame de Brimont
+aliases:
+  - Madame de Brimont
+  - Brimont
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame de Brimont
 
 **Research Status**: Basic

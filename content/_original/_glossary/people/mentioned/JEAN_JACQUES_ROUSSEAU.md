@@ -1,6 +1,10 @@
 ---
 id: JEAN_JACQUES_ROUSSEAU
 name: Jean-Jacques Rousseau
+aliases:
+  - Jean-Jacques Rousseau
+  - Jean Jacques Rousseau
+  - Rousseau
 type: Person
 category: people/mentioned
 research_status: Moderate

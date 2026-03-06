@@ -1,3 +1,14 @@
+---
+id: KAZAI
+name: Kazaï
+aliases:
+  - Kazaï
+  - Kazai
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Kazaï
 
 **Research Status**: Basic

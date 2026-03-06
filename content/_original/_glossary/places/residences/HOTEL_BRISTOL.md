@@ -1,3 +1,13 @@
+---
+id: HOTEL_BRISTOL
+name: Hotel Bristol
+aliases:
+  - Hotel Bristol
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel Bristol
 
 **Research Status**: Stub

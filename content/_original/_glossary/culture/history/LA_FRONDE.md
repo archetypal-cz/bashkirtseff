@@ -1,6 +1,8 @@
 ---
 id: LA_FRONDE
 name: La Fronde
+aliases:
+  - La Fronde
 type: Culture
 category: culture/history
 research_status: Moderate

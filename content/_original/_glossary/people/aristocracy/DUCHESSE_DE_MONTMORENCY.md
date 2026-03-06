@@ -1,6 +1,9 @@
 ---
 id: DUCHESSE_DE_MONTMORENCY
 name: Duchesse de Montmorency
+aliases:
+  - Duchesse de Montmorency
+  - Montmorency
 type: Person
 category: people/aristocracy
 research_status: Basic

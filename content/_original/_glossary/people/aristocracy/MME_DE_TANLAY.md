@@ -1,3 +1,14 @@
+---
+id: MME_DE_TANLAY
+name: Mme de Tanlay
+aliases:
+  - Mme de Tanlay
+  - Tanlay
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme de Tanlay
 
 ## Basic Information

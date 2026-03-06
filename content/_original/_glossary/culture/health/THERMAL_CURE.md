@@ -1,6 +1,9 @@
 ---
 id: THERMAL_CURE
 name: Cure thermale
+aliases:
+  - Cure thermale
+  - Thermal Cure
 type: Culture
 category: culture/health
 research_status: Moderate

@@ -1,3 +1,14 @@
+---
+id: VIGIER
+name: La Vigier
+aliases:
+  - La Vigier
+  - Vigier
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Vigier
 
 **Research Status**: Basic

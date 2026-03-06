@@ -1,3 +1,13 @@
+---
+id: GOLEZOWSKY
+name: Golezowsky
+aliases:
+  - Golezowsky
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Golezowsky
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: DEMI_MONDE
+name: Demi-monde
+aliases:
+  - Demi-monde
+  - Demi Monde
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Demi-monde
 
 **Research Status**: Stub

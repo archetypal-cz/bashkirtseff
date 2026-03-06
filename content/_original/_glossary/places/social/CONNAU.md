@@ -1,3 +1,14 @@
+---
+id: CONNAU
+name: Mme Connau
+aliases:
+  - Mme Connau
+  - Connau
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Connau
 
 **Research Status**: Basic

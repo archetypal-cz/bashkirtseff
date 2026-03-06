@@ -1,3 +1,14 @@
+---
+id: M_GAVINI
+name: M Gavini
+aliases:
+  - M Gavini
+  - Gavini
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Gavini
 
 **Research Status**: Stub

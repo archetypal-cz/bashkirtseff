@@ -1,3 +1,14 @@
+---
+id: ARSENE_HOUSSAYE
+name: Arsène Houssaye
+aliases:
+  - Arsène Houssaye
+  - Arsene Houssaye
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Arsène Houssaye
 
 **Research Status**: Basic

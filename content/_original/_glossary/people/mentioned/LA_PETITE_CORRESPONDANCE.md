@@ -1,3 +1,14 @@
+---
+id: LA_PETITE_CORRESPONDANCE
+name: La Petite Correspondance
+aliases:
+  - La Petite Correspondance
+  - Correspondance
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Petite Correspondance
 
 ## Basic Information

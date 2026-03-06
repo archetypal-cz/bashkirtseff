@@ -1,3 +1,14 @@
+---
+id: VOLKOVITSKY
+name: Madame Volkovitsky
+aliases:
+  - Madame Volkovitsky
+  - Volkovitsky
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame Volkovitsky
 
 **Research Status**: Basic

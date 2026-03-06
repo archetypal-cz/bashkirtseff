@@ -1,3 +1,14 @@
+---
+id: MLLE_FRANCHINO
+name: Mlle Franchino
+aliases:
+  - Mlle Franchino
+  - Franchino
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Franchino
 
 ## Basic Information

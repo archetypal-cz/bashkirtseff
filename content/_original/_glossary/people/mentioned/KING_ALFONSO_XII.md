@@ -1,3 +1,15 @@
+---
+id: KING_ALFONSO_XII
+name: King Alfonso XII
+aliases:
+  - King Alfonso XII
+  - King Alfonso Xii
+  - King
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # King Alfonso XII
 
 ## Basic Information

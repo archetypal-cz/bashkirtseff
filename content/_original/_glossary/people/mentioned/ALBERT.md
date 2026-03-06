@@ -1,3 +1,13 @@
+---
+id: ALBERT
+name: Albert
+aliases:
+  - Albert
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Albert
 
 ## Basic Information

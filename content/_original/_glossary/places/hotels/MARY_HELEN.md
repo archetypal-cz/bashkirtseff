@@ -1,3 +1,14 @@
+---
+id: MARY_HELEN
+name: Mary-Helen
+aliases:
+  - Mary-Helen
+  - Mary Helen
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mary-Helen
 
 **Research Status**: Basic

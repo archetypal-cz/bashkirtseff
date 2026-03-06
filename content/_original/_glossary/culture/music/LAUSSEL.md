@@ -1,3 +1,13 @@
+---
+id: LAUSSEL
+name: Laussel
+aliases:
+  - Laussel
+type: Culture
+category: culture/music
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Laussel
 
 **Research Status**: Basic

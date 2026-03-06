@@ -1,3 +1,14 @@
+---
+id: MARIE_LEONTIEVNA
+name: Marie Leontievna
+aliases:
+  - Marie Leontievna
+  - Leontievna
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie Leontievna
 
 ## Basic Information

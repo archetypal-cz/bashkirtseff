@@ -1,3 +1,15 @@
+---
+id: TEACHERS
+name: Teachers and Tutors
+aliases:
+  - Teachers and Tutors
+  - Teachers
+  - Tutors
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Teachers and Tutors
 
 **Research Status**: Basic

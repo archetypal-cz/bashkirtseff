@@ -1,6 +1,8 @@
 ---
 id: POLITICS
 name: Politics
+aliases:
+  - Politics
 type: Culture
 category: culture/themes
 research_status: Moderate

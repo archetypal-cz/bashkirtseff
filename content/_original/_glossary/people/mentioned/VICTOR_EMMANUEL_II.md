@@ -1,3 +1,15 @@
+---
+id: VICTOR_EMMANUEL_II
+name: Victor Emmanuel II
+aliases:
+  - Victor Emmanuel II
+  - Victor Emmanuel Ii
+  - Victor
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Victor Emmanuel II
 
 **Research Status**: Stub

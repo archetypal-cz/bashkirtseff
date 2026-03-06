@@ -1,3 +1,14 @@
+---
+id: SHEPHEARDS_HOTEL
+name: Shepheard's Hotel
+aliases:
+  - Shepheard's Hotel
+  - Shepheards Hotel
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Shepheard's Hotel
 
 **Research Status**: Basic

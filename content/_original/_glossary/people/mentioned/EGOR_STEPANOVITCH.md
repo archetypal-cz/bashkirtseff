@@ -1,3 +1,14 @@
+---
+id: EGOR_STEPANOVITCH
+name: Egor Stepanovitch
+aliases:
+  - Egor Stepanovitch
+  - Stepanovitch
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Egor Stepanovitch
 
 **Research Status**: Basic

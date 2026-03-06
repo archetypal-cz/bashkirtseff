@@ -1,3 +1,13 @@
+---
+id: GERBEL
+name: Gerbel
+aliases:
+  - Gerbel
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gerbel
 
 **Research Status**: Stub

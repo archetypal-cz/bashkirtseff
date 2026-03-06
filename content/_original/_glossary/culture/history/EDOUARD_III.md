@@ -1,6 +1,9 @@
 ---
 id: EDOUARD_III
 name: Édouard III
+aliases:
+  - Édouard III
+  - Edouard Iii
 type: Culture
 category: culture/history
 research_status: Basic

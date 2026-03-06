@@ -1,3 +1,14 @@
+---
+id: DE_BRAZZA
+name: De Brazza
+aliases:
+  - De Brazza
+  - Brazza
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # De Brazza
 
 **Research Status**: Stub

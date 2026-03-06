@@ -1,3 +1,13 @@
+---
+id: MONT_DE_MARSAN
+name: Mont de Marsan
+aliases:
+  - Mont de Marsan
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mont de Marsan
 
 ## Basic Information

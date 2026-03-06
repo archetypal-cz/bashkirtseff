@@ -1,3 +1,15 @@
+---
+id: RUE_DE_LA_SANTE
+name: Rue de la Santé
+aliases:
+  - Rue de la Santé
+  - Rue de la Sante
+  - Santé
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue de la Santé
 
 **Research Status**: Basic

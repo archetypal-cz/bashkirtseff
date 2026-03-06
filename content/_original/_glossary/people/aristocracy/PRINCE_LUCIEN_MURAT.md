@@ -1,3 +1,15 @@
+---
+id: PRINCE_LUCIEN_MURAT
+name: prince Lucien Murat
+aliases:
+  - prince Lucien Murat
+  - Prince Lucien Murat
+  - Murat
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # prince Lucien Murat
 
 ## Basic Information

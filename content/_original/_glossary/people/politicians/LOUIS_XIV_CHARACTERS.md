@@ -1,3 +1,16 @@
+---
+id: LOUIS_XIV_CHARACTERS
+name: Louis XIV Court Characters
+aliases:
+  - Louis XIV Court Characters
+  - Louis Xiv Characters
+  - Characters
+  - Louis
+type: Person
+category: people/politicians
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Louis XIV Court Characters
 
 **Research Status**: Moderate

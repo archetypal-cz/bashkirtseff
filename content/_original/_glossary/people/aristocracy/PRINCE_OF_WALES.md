@@ -1,3 +1,14 @@
+---
+id: PRINCE_OF_WALES
+name: Prince of Wales
+aliases:
+  - Prince of Wales
+  - Wales
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince of Wales
 
 **Research Status**: Basic

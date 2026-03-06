@@ -1,3 +1,14 @@
+---
+id: DR_BLANCHE
+name: Dr Blanche
+aliases:
+  - Dr Blanche
+  - Blanche
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dr Blanche
 
 ## Basic Information

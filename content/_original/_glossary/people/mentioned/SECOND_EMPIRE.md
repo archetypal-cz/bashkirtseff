@@ -1,3 +1,14 @@
+---
+id: SECOND_EMPIRE
+name: Second Empire
+aliases:
+  - Second Empire
+  - Empire
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Second Empire
 
 **Research Status**: Stub

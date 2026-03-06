@@ -1,3 +1,13 @@
+---
+id: LEDOYEN
+name: Ledoyen
+aliases:
+  - Ledoyen
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ledoyen
 
 ## Basic Information

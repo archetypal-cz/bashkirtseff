@@ -1,3 +1,13 @@
+---
+id: HOTEL_SCRIBE
+name: Hotel Scribe
+aliases:
+  - Hotel Scribe
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel Scribe
 
 **Research Status**: Basic

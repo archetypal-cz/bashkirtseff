@@ -1,3 +1,14 @@
+---
+id: KING_HUMBERT
+name: King Humbert
+aliases:
+  - King Humbert
+  - Humbert
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # King Humbert
 
 **Research Status**: Stub

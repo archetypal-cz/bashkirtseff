@@ -1,3 +1,14 @@
+---
+id: PRINCE_ODESCALCHI
+name: Prince Odescalchi
+aliases:
+  - Prince Odescalchi
+  - Odescalchi
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Odescalchi
 
 ## Basic Information

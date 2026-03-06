@@ -1,3 +1,13 @@
+---
+id: FENIA
+name: Fenia
+aliases:
+  - Fenia
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Fenia
 
 **Research Status**: Basic

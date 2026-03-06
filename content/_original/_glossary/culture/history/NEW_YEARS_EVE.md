@@ -1,3 +1,14 @@
+---
+id: NEW_YEARS_EVE
+name: New Year's Eve
+aliases:
+  - New Year's Eve
+  - New Years Eve
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # New Year's Eve
 
 **Research Status**: Basic

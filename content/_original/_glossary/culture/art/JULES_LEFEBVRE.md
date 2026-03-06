@@ -1,3 +1,14 @@
+---
+id: JULES_LEFEBVRE
+name: Jules Joseph Lefebvre
+aliases:
+  - Jules Joseph Lefebvre
+  - Jules Lefebvre
+type: Culture
+category: culture/art
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jules Joseph Lefebvre
 
 **Research Status**: Moderate

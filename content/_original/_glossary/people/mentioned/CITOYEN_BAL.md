@@ -1,3 +1,13 @@
+---
+id: CITOYEN_BAL
+name: Citoyen Bal
+aliases:
+  - Citoyen Bal
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Citoyen Bal
 
 **Research Status**: Basic

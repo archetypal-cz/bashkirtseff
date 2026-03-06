@@ -1,3 +1,16 @@
+---
+id: PIGEON_SHOOT_MONACO
+name: Monaco Pigeon Shoot (Tir aux Pigeons)
+aliases:
+  - Monaco Pigeon Shoot (Tir aux Pigeons)
+  - Monaco Pigeon Shoot
+  - Pigeon Shoot Monaco
+  - Tir aux Pigeons
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Monaco Pigeon Shoot (Tir aux Pigeons)
 
 **Research Status**: Basic

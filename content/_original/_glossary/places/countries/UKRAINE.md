@@ -1,3 +1,15 @@
+---
+id: UKRAINE
+name: Ukraine (Oukraine / Malorossiya)
+aliases:
+  - Ukraine (Oukraine / Malorossiya)
+  - Oukraine / Malorossiya
+  - Ukraine
+type: Place
+category: places/countries
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ukraine (Oukraine / Malorossiya)
 
 **Research Status**: Moderate

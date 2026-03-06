@@ -1,6 +1,9 @@
 ---
 id: HEALTH
 name: Health & Illness
+aliases:
+  - Health & Illness
+  - Health
 type: Culture
 category: culture/themes
 research_status: Moderate

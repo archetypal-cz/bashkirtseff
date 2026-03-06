@@ -1,3 +1,14 @@
+---
+id: PRINCE_DE_TORCHIAROLI
+name: Prince de Torchiaroli
+aliases:
+  - Prince de Torchiaroli
+  - Torchiaroli
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince de Torchiaroli
 
 ## Basic Information

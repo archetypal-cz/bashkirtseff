@@ -1,3 +1,13 @@
+---
+id: CAUCASUS
+name: Caucasus
+aliases:
+  - Caucasus
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Caucasus
 
 **Research Status**: Basic

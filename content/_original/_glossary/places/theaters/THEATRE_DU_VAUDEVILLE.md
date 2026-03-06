@@ -1,3 +1,13 @@
+---
+id: THEATRE_DU_VAUDEVILLE
+name: Theatre du Vaudeville
+aliases:
+  - Theatre du Vaudeville
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Theatre du Vaudeville
 
 ## Basic Information

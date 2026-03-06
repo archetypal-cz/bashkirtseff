@@ -1,3 +1,14 @@
+---
+id: PERE_CASSAGNAC
+name: Pere Cassagnac
+aliases:
+  - Pere Cassagnac
+  - Cassagnac
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pere Cassagnac
 
 ## Basic Information

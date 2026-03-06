@@ -1,3 +1,15 @@
+---
+id: LIEUTENANT_COLONEL_TALANDIER
+name: lieutenant-colonel Talandier
+aliases:
+  - lieutenant-colonel Talandier
+  - Lieutenant Colonel Talandier
+  - Talandier
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # lieutenant-colonel Talandier
 
 ## Basic Information

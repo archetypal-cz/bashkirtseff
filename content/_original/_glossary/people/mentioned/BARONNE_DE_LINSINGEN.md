@@ -1,3 +1,15 @@
+---
+id: BARONNE_DE_LINSINGEN
+name: baronne de Linsingen
+aliases:
+  - baronne de Linsingen
+  - Baronne de Linsingen
+  - Linsingen
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # baronne de Linsingen
 
 ## Basic Information

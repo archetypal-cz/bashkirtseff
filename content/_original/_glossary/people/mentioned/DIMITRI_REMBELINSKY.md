@@ -1,3 +1,14 @@
+---
+id: DIMITRI_REMBELINSKY
+name: Dimitri Rembelinsky
+aliases:
+  - Dimitri Rembelinsky
+  - Rembelinsky
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dimitri Rembelinsky
 
 ## Basic Information

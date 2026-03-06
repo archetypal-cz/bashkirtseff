@@ -1,3 +1,15 @@
+---
+id: DE_FAYET
+name: de Fayet
+aliases:
+  - de Fayet
+  - De Fayet
+  - Fayet
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # de Fayet
 
 ## Basic Information

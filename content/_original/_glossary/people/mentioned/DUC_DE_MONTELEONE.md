@@ -1,3 +1,14 @@
+---
+id: DUC_DE_MONTELEONE
+name: Duc de Monteleone
+aliases:
+  - Duc de Monteleone
+  - Monteleone
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de Monteleone
 
 ## Basic Information

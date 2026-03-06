@@ -1,6 +1,9 @@
 ---
 id: CALECHE
 name: Calèche
+aliases:
+  - Calèche
+  - Caleche
 type: Culture
 category: culture/transport
 research_status: Moderate

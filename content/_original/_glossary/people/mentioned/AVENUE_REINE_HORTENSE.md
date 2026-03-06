@@ -1,3 +1,15 @@
+---
+id: AVENUE_REINE_HORTENSE
+name: Avenue Reine Hortense
+aliases:
+  - Avenue Reine Hortense
+  - Hortense
+  - Avenue
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Avenue Reine Hortense
 
 ## Basic Information

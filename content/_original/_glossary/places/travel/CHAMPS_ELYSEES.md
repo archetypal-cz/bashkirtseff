@@ -1,3 +1,14 @@
+---
+id: CHAMPS_ELYSEES
+name: Champs-Elysees
+aliases:
+  - Champs-Elysees
+  - Champs Elysees
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Champs-Elysees
 
 **Research Status**: Comprehensive

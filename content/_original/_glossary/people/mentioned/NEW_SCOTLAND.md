@@ -1,3 +1,14 @@
+---
+id: NEW_SCOTLAND
+name: New Scotland
+aliases:
+  - New Scotland
+  - Scotland
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # New Scotland
 
 **Research Status**: Basic

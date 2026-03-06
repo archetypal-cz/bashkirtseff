@@ -1,6 +1,9 @@
 ---
 id: MORNING_POST
 name: The Morning Post
+aliases:
+  - The Morning Post
+  - Morning Post
 type: Culture
 category: culture/newspapers
 research_status: Moderate

@@ -1,3 +1,14 @@
+---
+id: ST_PETERSBURG
+name: St. Petersburg
+aliases:
+  - St. Petersburg
+  - St Petersburg
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # St. Petersburg
 
 **See**: [#Petersbourg](Petersbourg.md)

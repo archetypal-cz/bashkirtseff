@@ -1,3 +1,16 @@
+---
+id: GRAND_PAPA
+name: Grand-papa (Marie's Maternal Grandfather)
+aliases:
+  - Grand-papa (Marie's Maternal Grandfather)
+  - Marie's Maternal Grandfather
+  - Grand-papa
+  - Grand Papa
+type: Person
+category: people/family
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand-papa (Marie's Maternal Grandfather)
 
 **Research Status**: Comprehensive

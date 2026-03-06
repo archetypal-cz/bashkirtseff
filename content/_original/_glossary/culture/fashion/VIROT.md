@@ -1,6 +1,8 @@
 ---
 id: VIROT
 name: Virot
+aliases:
+  - Virot
 type: Culture
 category: culture/fashion
 research_status: Moderate

@@ -1,3 +1,14 @@
+---
+id: BRUGES
+name: Bruges (Bruges)
+aliases:
+  - Bruges (Bruges)
+  - Bruges
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bruges (Bruges)
 
 **Research Status**: Basic

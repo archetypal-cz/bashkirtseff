@@ -1,3 +1,16 @@
+---
+id: PRINCE_IMPERIAL
+name: Prince Imperial (Napoléon Eugène Louis Bonaparte)
+aliases:
+  - Prince Imperial (Napoléon Eugène Louis Bonaparte)
+  - Napoléon Eugène Louis Bonaparte
+  - Prince Imperial
+  - Imperial
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Imperial (Napoléon Eugène Louis Bonaparte)
 
 **Research Status**: Comprehensive

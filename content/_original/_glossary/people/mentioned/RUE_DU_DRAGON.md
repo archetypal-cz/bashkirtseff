@@ -1,3 +1,15 @@
+---
+id: RUE_DU_DRAGON
+name: rue du Dragon
+aliases:
+  - rue du Dragon
+  - Rue du Dragon
+  - Dragon
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # rue du Dragon
 
 ## Basic Information

@@ -1,3 +1,16 @@
+---
+id: GRAND_DUKE_VLADIMIR
+name: Grand Duke Vladimir (Voldemar)
+aliases:
+  - Grand Duke Vladimir (Voldemar)
+  - Grand Duke Vladimir
+  - Vladimir
+  - Voldemar
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand Duke Vladimir (Voldemar)
 
 **Research Status**: Basic

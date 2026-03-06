@@ -1,3 +1,13 @@
+---
+id: NAPOLEON_IER
+name: Napoleon Ier
+aliases:
+  - Napoleon Ier
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Napoleon Ier
 
 ## Basic Information

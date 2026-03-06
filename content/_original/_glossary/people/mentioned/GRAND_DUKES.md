@@ -1,3 +1,14 @@
+---
+id: GRAND_DUKES
+name: Grand Dukes
+aliases:
+  - Grand Dukes
+  - Dukes
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand Dukes
 
 ## Basic Information

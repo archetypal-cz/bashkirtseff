@@ -1,3 +1,14 @@
+---
+id: MME_DE_CASSAGNAC
+name: Mme de Cassagnac
+aliases:
+  - Mme de Cassagnac
+  - Cassagnac
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme de Cassagnac
 
 ## Basic Information

@@ -1,3 +1,13 @@
+---
+id: PARIS
+name: Paris
+aliases:
+  - Paris
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Paris
 
 **Research Status**: Comprehensive

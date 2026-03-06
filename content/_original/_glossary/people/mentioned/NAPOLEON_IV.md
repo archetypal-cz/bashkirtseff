@@ -1,3 +1,14 @@
+---
+id: NAPOLEON_IV
+name: Napoleon IV
+aliases:
+  - Napoleon IV
+  - Napoleon Iv
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Napoleon IV
 
 ## Basic Information

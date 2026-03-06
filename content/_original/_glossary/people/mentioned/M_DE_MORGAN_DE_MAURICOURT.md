@@ -1,3 +1,14 @@
+---
+id: M_DE_MORGAN_DE_MAURICOURT
+name: M de Morgan de Mauricourt
+aliases:
+  - M de Morgan de Mauricourt
+  - Mauricourt
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Morgan de Mauricourt
 
 ## Basic Information

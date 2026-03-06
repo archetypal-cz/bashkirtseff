@@ -1,3 +1,14 @@
+---
+id: BADEN_BADEN
+name: Baden-Baden
+aliases:
+  - Baden-Baden
+  - Baden Baden
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baden-Baden
 
 ## Overview

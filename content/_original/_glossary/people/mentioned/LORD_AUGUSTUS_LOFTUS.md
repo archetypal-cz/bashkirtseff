@@ -1,6 +1,9 @@
 ---
 id: LORD_AUGUSTUS_LOFTUS
 name: Lord Augustus Loftus
+aliases:
+  - Lord Augustus Loftus
+  - Loftus
 type: Person
 category: people/mentioned
 research_status: Moderate

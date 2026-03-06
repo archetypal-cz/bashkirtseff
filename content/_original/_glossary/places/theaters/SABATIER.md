@@ -1,3 +1,14 @@
+---
+id: SABATIER
+name: Sabatier Family
+aliases:
+  - Sabatier Family
+  - Sabatier
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sabatier Family
 
 **Research Status**: Basic

@@ -1,3 +1,15 @@
+---
+id: JULIAN
+name: Julian (Atelier Julian)
+aliases:
+  - Julian (Atelier Julian)
+  - Atelier Julian
+  - Julian
+type: Place
+category: places/schools
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Julian (Atelier Julian)
 
 **Research Status**: Comprehensive  

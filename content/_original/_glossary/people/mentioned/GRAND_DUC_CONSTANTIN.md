@@ -1,3 +1,14 @@
+---
+id: GRAND_DUC_CONSTANTIN
+name: Grand Duc Constantin
+aliases:
+  - Grand Duc Constantin
+  - Constantin
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand Duc Constantin
 
 ## Basic Information

@@ -1,13 +1,15 @@
 ---
 id: SCHLANGENBAD
 name: Schlangenbad
+aliases:
+  - Schlangenbad
 type: Place
 category: places/cities
 research_status: Moderate
 last_updated: 2026-02-10
 languages:
   - de
-pronunciation: "https://translate.google.com/?sl=de&tl=en&text=Schlangenbad"
+pronunciation: https://translate.google.com/?sl=de&tl=en&text=Schlangenbad
 ---
 
 # Schlangenbad

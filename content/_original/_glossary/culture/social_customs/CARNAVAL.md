@@ -1,6 +1,8 @@
 ---
 id: CARNAVAL
 name: Carnaval
+aliases:
+  - Carnaval
 type: Culture
 category: culture/social_customs
 research_status: Moderate

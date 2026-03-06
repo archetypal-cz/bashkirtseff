@@ -1,6 +1,8 @@
 ---
 id: ART_PRACTICE
 name: Art Practice
+aliases:
+  - Art Practice
 type: Culture
 category: culture/themes
 research_status: Moderate

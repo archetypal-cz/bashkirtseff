@@ -1,3 +1,14 @@
+---
+id: G_E_HAUSSMANN
+name: G E Haussmann
+aliases:
+  - G E Haussmann
+  - Haussmann
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # G E Haussmann
 
 ## Basic Information

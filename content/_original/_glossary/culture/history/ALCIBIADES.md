@@ -1,3 +1,13 @@
+---
+id: ALCIBIADES
+name: Alcibiades
+aliases:
+  - Alcibiades
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alcibiades
 
 **Research Status**: Comprehensive  

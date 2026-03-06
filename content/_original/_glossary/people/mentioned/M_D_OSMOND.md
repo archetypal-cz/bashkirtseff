@@ -1,3 +1,15 @@
+---
+id: M_D_OSMOND
+name: M d Osmond
+aliases:
+  - M d Osmond
+  - M d'Osmond
+  - Osmond
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M d Osmond
 
 ## Basic Information

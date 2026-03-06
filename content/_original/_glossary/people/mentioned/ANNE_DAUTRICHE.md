@@ -1,6 +1,10 @@
 ---
 id: ANNE_DAUTRICHE
 name: Anne d'Autriche
+aliases:
+  - Anne d'Autriche
+  - Anne Dautriche
+  - d'Autriche
 type: Person
 category: people/mentioned
 research_status: Moderate

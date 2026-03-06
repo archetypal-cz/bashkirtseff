@@ -1,3 +1,14 @@
+---
+id: VICTOR_DURY
+name: Victor Dury
+aliases:
+  - Victor Dury
+  - Dury
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Victor Dury
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: MME_YORKE
+name: Mme Yorke
+aliases:
+  - Mme Yorke
+  - Yorke
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Yorke
 
 ## Basic Information

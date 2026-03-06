@@ -1,3 +1,14 @@
+---
+id: VICOMTESSE_VIGIER
+name: Vicomtesse Vigier
+aliases:
+  - Vicomtesse Vigier
+  - Vigier
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vicomtesse Vigier
 
 **Research Status**: Basic

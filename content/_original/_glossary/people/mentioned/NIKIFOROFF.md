@@ -1,3 +1,13 @@
+---
+id: NIKIFOROFF
+name: Nikiforoff
+aliases:
+  - Nikiforoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Nikiforoff
 
 ## Basic Information

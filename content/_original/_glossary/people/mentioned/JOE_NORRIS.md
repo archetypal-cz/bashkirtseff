@@ -1,3 +1,14 @@
+---
+id: JOE_NORRIS
+name: Joe Norris
+aliases:
+  - Joe Norris
+  - Norris
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Joe Norris
 
 **Research Status**: Basic

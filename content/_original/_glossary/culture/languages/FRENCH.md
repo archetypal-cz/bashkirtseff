@@ -1,3 +1,13 @@
+---
+id: FRENCH
+name: French
+aliases:
+  - French
+type: Culture
+category: culture/languages
+research_status: Basic
+last_updated: 2026-03-06
+---
 # French
 
 **Research Status**: Basic

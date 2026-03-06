@@ -1,3 +1,14 @@
+---
+id: MONSIEUR_LE_COCHER
+name: Monsieur le Cocher
+aliases:
+  - Monsieur le Cocher
+  - Cocher
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Monsieur le Cocher
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: VIE_PARISIENNE
+name: Vie Parisienne
+aliases:
+  - Vie Parisienne
+  - Parisienne
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vie Parisienne
 
 ## Basic Information

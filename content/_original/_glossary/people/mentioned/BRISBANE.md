@@ -1,3 +1,13 @@
+---
+id: BRISBANE
+name: Brisbane
+aliases:
+  - Brisbane
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Brisbane
 
 **Research Status**: Basic

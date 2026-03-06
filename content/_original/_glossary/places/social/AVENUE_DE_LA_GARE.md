@@ -1,3 +1,13 @@
+---
+id: AVENUE_DE_LA_GARE
+name: Avenue de la Gare
+aliases:
+  - Avenue de la Gare
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Avenue de la Gare
 
 **Research Status**: Basic

@@ -1,3 +1,13 @@
+---
+id: JAMIN
+name: Jamin
+aliases:
+  - Jamin
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jamin
 
 ## Basic Information

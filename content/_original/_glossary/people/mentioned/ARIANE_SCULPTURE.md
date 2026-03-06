@@ -1,3 +1,15 @@
+---
+id: ARIANE_SCULPTURE
+name: Ariane sculpture
+aliases:
+  - Ariane sculpture
+  - Ariane Sculpture
+  - sculpture
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ariane sculpture
 
 ## Basic Information

@@ -1,3 +1,13 @@
+---
+id: WITTGENSTEIN
+name: Wittgenstein
+aliases:
+  - Wittgenstein
+type: Culture
+category: culture/music
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Wittgenstein
 
 **Research Status**: Basic

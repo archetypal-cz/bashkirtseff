@@ -1,3 +1,14 @@
+---
+id: MLLE_OELSNITZ
+name: Mlle Oelsnitz
+aliases:
+  - Mlle Oelsnitz
+  - Oelsnitz
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Oelsnitz
 
 ## Basic Information

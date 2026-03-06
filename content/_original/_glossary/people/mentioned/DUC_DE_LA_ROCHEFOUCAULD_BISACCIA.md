@@ -1,3 +1,15 @@
+---
+id: DUC_DE_LA_ROCHEFOUCAULD_BISACCIA
+name: Duc de La Rochefoucauld Bisaccia
+aliases:
+  - Duc de La Rochefoucauld Bisaccia
+  - Duc de la Rochefoucauld Bisaccia
+  - Bisaccia
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de La Rochefoucauld Bisaccia
 
 ## Basic Information

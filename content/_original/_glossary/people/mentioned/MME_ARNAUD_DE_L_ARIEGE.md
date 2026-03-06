@@ -1,3 +1,15 @@
+---
+id: MME_ARNAUD_DE_L_ARIEGE
+name: Mme Arnaud de l Ariege
+aliases:
+  - Mme Arnaud de l Ariege
+  - Mme Arnaud de l'Ariege
+  - Ariege
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Arnaud de l Ariege
 
 **Research Status**: Stub

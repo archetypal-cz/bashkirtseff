@@ -1,3 +1,14 @@
+---
+id: LORD_HENRY_PAGET
+name: Lord Henry Paget
+aliases:
+  - Lord Henry Paget
+  - Paget
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lord Henry Paget
 
 **Research Status**: Basic

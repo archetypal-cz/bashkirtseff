@@ -1,3 +1,13 @@
+---
+id: HIPPODROME
+name: Hippodrome
+aliases:
+  - Hippodrome
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hippodrome
 
 **Research Status**: Stub

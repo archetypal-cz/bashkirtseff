@@ -1,3 +1,14 @@
+---
+id: JOCKEY_CLUB
+name: Jockey Club
+aliases:
+  - Jockey Club
+  - Club
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jockey Club
 
 ## Basic Information

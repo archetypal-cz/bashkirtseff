@@ -1,3 +1,16 @@
+---
+id: CERCLE_DE_LA_RUE_ROYALE
+name: Cercle de la rue Royale
+aliases:
+  - Cercle de la rue Royale
+  - Cercle de la Rue Royale
+  - Royale
+  - Cercle
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cercle de la rue Royale
 
 ## Basic Information

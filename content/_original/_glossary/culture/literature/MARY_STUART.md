@@ -1,6 +1,8 @@
 ---
 id: MARY_STUART
 name: Mary Stuart
+aliases:
+  - Mary Stuart
 type: Culture
 category: culture/literature
 research_status: Basic

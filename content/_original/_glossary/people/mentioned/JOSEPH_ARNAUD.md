@@ -1,3 +1,14 @@
+---
+id: JOSEPH_ARNAUD
+name: Joseph Arnaud
+aliases:
+  - Joseph Arnaud
+  - Arnaud
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Joseph Arnaud
 
 **Research Status**: Stub

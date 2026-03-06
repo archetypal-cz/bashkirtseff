@@ -1,3 +1,15 @@
+---
+id: BOURBON_DE_NAPLES
+name: Bourbon de Naples
+aliases:
+  - Bourbon de Naples
+  - Bourbon
+  - Naples
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bourbon de Naples
 
 ## Basic Information

@@ -1,3 +1,16 @@
+---
+id: REMY_DE_GONZALES_MORENO
+name: Rémy de Gonzalès Moreno
+aliases:
+  - Rémy de Gonzalès Moreno
+  - Remy de Gonzales Moreno
+  - Moreno
+  - Rémy
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rémy de Gonzalès Moreno
 
 **Research Status**: Moderate

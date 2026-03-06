@@ -1,3 +1,16 @@
+---
+id: MARIE_FILIMONOFF
+name: Marie Filimonoff (Mania)
+aliases:
+  - Marie Filimonoff (Mania)
+  - Marie Filimonoff
+  - Filimonoff
+  - Mania
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie Filimonoff (Mania)
 
 **Research Status**: Basic

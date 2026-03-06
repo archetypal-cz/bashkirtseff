@@ -1,3 +1,13 @@
+---
+id: MONACO_CASINO
+name: Monaco Casino
+aliases:
+  - Monaco Casino
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Monaco Casino
 
 **Research Status**: Basic

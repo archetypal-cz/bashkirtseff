@@ -1,3 +1,14 @@
+---
+id: EMMANUEL_ARAGO
+name: Emmanuel Arago
+aliases:
+  - Emmanuel Arago
+  - Arago
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Emmanuel Arago
 
 ## Basic Information

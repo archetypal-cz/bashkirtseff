@@ -1,3 +1,16 @@
+---
+id: VAR_RACES
+name: Var Races (Courses du Var)
+aliases:
+  - Var Races (Courses du Var)
+  - Courses du Var
+  - Var Races
+  - Races
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Var Races (Courses du Var)
 
 **Research Status**: Moderate

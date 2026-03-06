@@ -1,3 +1,15 @@
+---
+id: VICHNEVKA
+name: Vichnevka (Vishnevka)
+aliases:
+  - Vichnevka (Vishnevka)
+  - Vichnevka
+  - Vishnevka
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vichnevka (Vishnevka)
 
 **Research Status**: Basic

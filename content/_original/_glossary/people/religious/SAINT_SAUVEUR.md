@@ -1,3 +1,15 @@
+---
+id: SAINT_SAUVEUR
+name: Comte de Saint-Sauveur
+aliases:
+  - Comte de Saint-Sauveur
+  - Saint-Sauveur
+  - Saint Sauveur
+type: Person
+category: people/religious
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte de Saint-Sauveur
 
 **Research Status**: Basic

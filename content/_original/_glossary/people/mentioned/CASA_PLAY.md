@@ -1,3 +1,14 @@
+---
+id: CASA_PLAY
+name: Casa Play
+aliases:
+  - Casa Play
+  - Play
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Casa Play
 
 ## Basic Information

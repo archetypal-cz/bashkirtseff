@@ -1,3 +1,14 @@
+---
+id: MLLE_ALEXANDRINE
+name: Mlle Alexandrine
+aliases:
+  - Mlle Alexandrine
+  - Alexandrine
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Alexandrine
 
 ## Basic Information

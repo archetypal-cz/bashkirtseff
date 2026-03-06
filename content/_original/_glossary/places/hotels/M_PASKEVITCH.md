@@ -1,3 +1,14 @@
+---
+id: M_PASKEVITCH
+name: M. Paskevitch
+aliases:
+  - M. Paskevitch
+  - M Paskevitch
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M. Paskevitch
 
 **Research Status**: Moderate

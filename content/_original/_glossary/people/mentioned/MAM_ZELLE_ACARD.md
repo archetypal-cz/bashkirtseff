@@ -1,3 +1,15 @@
+---
+id: MAM_ZELLE_ACARD
+name: Mam zelle Acard
+aliases:
+  - Mam zelle Acard
+  - Mam Zelle Acard
+  - Acard
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mam zelle Acard
 
 ## Basic Information

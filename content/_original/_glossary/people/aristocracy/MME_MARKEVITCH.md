@@ -1,3 +1,14 @@
+---
+id: MME_MARKEVITCH
+name: Mme Markevitch
+aliases:
+  - Mme Markevitch
+  - Markevitch
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Markevitch
 
 ## Basic Information

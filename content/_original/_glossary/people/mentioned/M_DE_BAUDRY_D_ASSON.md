@@ -1,3 +1,15 @@
+---
+id: M_DE_BAUDRY_D_ASSON
+name: M de Baudry d Asson
+aliases:
+  - M de Baudry d Asson
+  - M de Baudry d'Asson
+  - Asson
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Baudry d Asson
 
 **Research Status**: Stub

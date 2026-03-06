@@ -1,6 +1,10 @@
 ---
 id: JULIAN_ACADEMY
 name: Academie Julian
+aliases:
+  - Academie Julian
+  - Julian Academy
+  - Julian
 type: Institution
 category: people/mentioned
 research_status: Redirect

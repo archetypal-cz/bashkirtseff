@@ -1,3 +1,14 @@
+---
+id: CAFE_ANGLAIS
+name: Cafe Anglais
+aliases:
+  - Cafe Anglais
+  - Anglais
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cafe Anglais
 
 ## Basic Information

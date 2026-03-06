@@ -1,3 +1,15 @@
+---
+id: GEORGES
+name: Georges (Uncle, Marie's Mother's Brother)
+aliases:
+  - Georges (Uncle, Marie's Mother's Brother)
+  - Uncle, Marie's Mother's Brother
+  - Georges
+type: Person
+category: people/family
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Georges (Uncle, Marie's Mother's Brother)
 
 **Research Status**: Moderate

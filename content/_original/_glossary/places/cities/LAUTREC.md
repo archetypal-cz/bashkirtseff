@@ -1,3 +1,15 @@
+---
+id: LAUTREC
+name: Lautrec (Sacha)
+aliases:
+  - Lautrec (Sacha)
+  - Lautrec
+  - Sacha
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lautrec (Sacha)
 
 **Research Status**: Basic

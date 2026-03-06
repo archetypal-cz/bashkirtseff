@@ -1,3 +1,14 @@
+---
+id: MME_PRODGERS
+name: Mme Prodgers
+aliases:
+  - Mme Prodgers
+  - Prodgers
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Prodgers
 
 ## Basic Information

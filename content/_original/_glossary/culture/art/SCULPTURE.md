@@ -1,3 +1,13 @@
+---
+id: SCULPTURE
+name: Sculpture
+aliases:
+  - Sculpture
+type: Culture
+category: culture/art
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sculpture
 
 **Research Status**: Stub

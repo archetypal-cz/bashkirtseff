@@ -1,3 +1,15 @@
+---
+id: EMILE_SINGE
+name: Émile Singe-le-Duc
+aliases:
+  - Émile Singe-le-Duc
+  - Singe-le-Duc
+  - Emile Singe
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Émile Singe-le-Duc
 
 **Research Status**: Basic

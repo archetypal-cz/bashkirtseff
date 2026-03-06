@@ -1,3 +1,13 @@
+---
+id: LUCARINI
+name: Lucarini
+aliases:
+  - Lucarini
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lucarini
 
 **Research Status**: Basic

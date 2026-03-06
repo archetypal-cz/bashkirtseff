@@ -1,3 +1,13 @@
+---
+id: GAEDES
+name: Gaedes
+aliases:
+  - Gaedes
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gaedes
 
 **Research Status**: Stub

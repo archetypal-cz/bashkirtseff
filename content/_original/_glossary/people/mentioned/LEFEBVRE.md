@@ -1,6 +1,9 @@
 ---
 id: LEFEBVRE
 name: Jules Lefebvre
+aliases:
+  - Jules Lefebvre
+  - Lefebvre
 type: Person
 category: people/mentioned
 research_status: Moderate

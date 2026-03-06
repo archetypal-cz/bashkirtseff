@@ -1,3 +1,14 @@
+---
+id: DR_LANNELONGUE
+name: Dr Lannelongue
+aliases:
+  - Dr Lannelongue
+  - Lannelongue
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dr Lannelongue
 
 ## Basic Information

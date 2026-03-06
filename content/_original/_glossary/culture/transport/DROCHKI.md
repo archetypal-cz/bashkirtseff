@@ -1,6 +1,8 @@
 ---
 id: DROCHKI
 name: Drochki
+aliases:
+  - Drochki
 type: Culture
 category: culture/transport
 research_status: Moderate

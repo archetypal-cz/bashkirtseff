@@ -1,3 +1,14 @@
+---
+id: DEMOISELLES_BASILEWSKY
+name: Demoiselles Basilewsky
+aliases:
+  - Demoiselles Basilewsky
+  - Basilewsky
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Demoiselles Basilewsky
 
 ## Basic Information

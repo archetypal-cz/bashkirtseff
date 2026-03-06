@@ -1,3 +1,14 @@
+---
+id: M_THOMPSON
+name: M Thompson
+aliases:
+  - M Thompson
+  - Thompson
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Thompson
 
 ## Basic Information

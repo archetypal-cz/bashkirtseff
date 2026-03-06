@@ -1,3 +1,13 @@
+---
+id: SMELSKY
+name: Smelsky
+aliases:
+  - Smelsky
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Smelsky
 
 ## Basic Information

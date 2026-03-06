@@ -1,3 +1,14 @@
+---
+id: FOLIES_BERGERE
+name: Folies-Bergère
+aliases:
+  - Folies-Bergère
+  - Folies Bergere
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Folies-Bergère
 
 **Research Status**: Moderate

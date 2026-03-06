@@ -1,3 +1,14 @@
+---
+id: TITE_LIVE
+name: Tite Live
+aliases:
+  - Tite Live
+  - Live
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Tite Live
 
 ## Basic Information

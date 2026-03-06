@@ -1,3 +1,13 @@
+---
+id: DALGOUTTE
+name: Dalgoutte
+aliases:
+  - Dalgoutte
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dalgoutte
 
 **Research Status**: Basic

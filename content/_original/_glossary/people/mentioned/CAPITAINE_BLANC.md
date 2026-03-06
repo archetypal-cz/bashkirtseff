@@ -1,3 +1,14 @@
+---
+id: CAPITAINE_BLANC
+name: Capitaine Blanc
+aliases:
+  - Capitaine Blanc
+  - Blanc
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Capitaine Blanc
 
 ## Basic Information

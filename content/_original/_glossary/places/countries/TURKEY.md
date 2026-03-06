@@ -1,3 +1,15 @@
+---
+id: TURKEY
+name: Turkey (Turquie / Ottoman Empire)
+aliases:
+  - Turkey (Turquie / Ottoman Empire)
+  - Turquie / Ottoman Empire
+  - Turkey
+type: Place
+category: places/countries
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Turkey (Turquie / Ottoman Empire)
 
 **Research Status**: Basic

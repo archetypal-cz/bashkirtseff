@@ -1,3 +1,13 @@
+---
+id: LALANDE
+name: Lalande
+aliases:
+  - Lalande
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lalande
 
 ## Basic Information

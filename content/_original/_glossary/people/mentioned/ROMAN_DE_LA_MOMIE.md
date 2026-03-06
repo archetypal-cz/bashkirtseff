@@ -1,3 +1,15 @@
+---
+id: ROMAN_DE_LA_MOMIE
+name: Roman de la Momie
+aliases:
+  - Roman de la Momie
+  - Momie
+  - Roman
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Roman de la Momie
 
 ## Basic Information

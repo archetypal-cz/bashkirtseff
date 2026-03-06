@@ -1,3 +1,14 @@
+---
+id: MME_DE_MORTSAUF
+name: Mme de Mortsauf
+aliases:
+  - Mme de Mortsauf
+  - Mortsauf
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme de Mortsauf
 
 ## Basic Information

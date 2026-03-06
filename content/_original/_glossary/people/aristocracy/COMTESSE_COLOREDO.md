@@ -1,3 +1,14 @@
+---
+id: COMTESSE_COLOREDO
+name: Comtesse Coloredo
+aliases:
+  - Comtesse Coloredo
+  - Coloredo
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comtesse Coloredo
 
 ## Basic Information

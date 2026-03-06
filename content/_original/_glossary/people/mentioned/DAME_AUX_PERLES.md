@@ -1,3 +1,16 @@
+---
+id: DAME_AUX_PERLES
+name: Dame aux Perles
+aliases:
+  - Dame aux Perles
+  - Dame Aux Perles
+  - Perles
+  - Dame
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dame aux Perles
 
 ## Basic Information

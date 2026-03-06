@@ -1,3 +1,14 @@
+---
+id: MME_MUHLE
+name: Mme Muhle
+aliases:
+  - Mme Muhle
+  - Muhle
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Muhle
 
 ## Basic Information

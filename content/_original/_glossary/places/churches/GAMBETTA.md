@@ -1,3 +1,14 @@
+---
+id: GAMBETTA
+name: Léon Gambetta
+aliases:
+  - Léon Gambetta
+  - Gambetta
+type: Place
+category: places/churches
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Léon Gambetta
 
 **Research Status**: Comprehensive

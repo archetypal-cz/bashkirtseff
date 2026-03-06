@@ -1,6 +1,11 @@
 ---
 id: LADY_MARY_MONTAGU
 name: Lady Mary Montagu (Duchess of Hamilton)
+aliases:
+  - Lady Mary Montagu (Duchess of Hamilton)
+  - Duchess of Hamilton
+  - Lady Mary Montagu
+  - Montagu
 type: Person
 category: people/aristocracy
 research_status: Moderate

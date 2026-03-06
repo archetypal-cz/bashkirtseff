@@ -1,3 +1,15 @@
+---
+id: WINTER_PALACE
+name: Winter Palace (Palais d'Hiver)
+aliases:
+  - Winter Palace (Palais d'Hiver)
+  - Palais d'Hiver
+  - Winter Palace
+type: Place
+category: places/buildings
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Winter Palace (Palais d'Hiver)
 
 **Research Status**: Moderate

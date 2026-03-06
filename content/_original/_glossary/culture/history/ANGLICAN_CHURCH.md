@@ -1,3 +1,13 @@
+---
+id: ANGLICAN_CHURCH
+name: Anglican Church
+aliases:
+  - Anglican Church
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Anglican Church
 
 **Research Status**: Basic  

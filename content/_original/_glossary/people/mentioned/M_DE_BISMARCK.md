@@ -1,3 +1,14 @@
+---
+id: M_DE_BISMARCK
+name: M de Bismarck
+aliases:
+  - M de Bismarck
+  - Bismarck
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Bismarck
 
 ## Basic Information

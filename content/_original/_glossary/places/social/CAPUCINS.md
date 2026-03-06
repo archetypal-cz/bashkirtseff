@@ -1,3 +1,15 @@
+---
+id: CAPUCINS
+name: Capucins (Capuchin Monastery, rue de la Santé)
+aliases:
+  - Capucins (Capuchin Monastery, rue de la Santé)
+  - Capuchin Monastery, rue de la Santé
+  - Capucins
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Capucins (Capuchin Monastery, rue de la Santé)
 
 **Research Status**: Moderate

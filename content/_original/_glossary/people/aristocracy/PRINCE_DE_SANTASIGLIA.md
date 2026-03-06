@@ -1,3 +1,14 @@
+---
+id: PRINCE_DE_SANTASIGLIA
+name: Prince de Santasiglia
+aliases:
+  - Prince de Santasiglia
+  - Santasiglia
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince de Santasiglia
 
 ## Basic Information

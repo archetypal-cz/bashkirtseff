@@ -1,3 +1,14 @@
+---
+id: M_AFROSSIMOFF
+name: M Afrossimoff
+aliases:
+  - M Afrossimoff
+  - Afrossimoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Afrossimoff
 
 ## Basic Information

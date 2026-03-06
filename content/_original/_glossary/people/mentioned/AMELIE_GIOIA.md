@@ -1,6 +1,9 @@
 ---
 id: AMELIE_GIOIA
 name: Amelie Gioia
+aliases:
+  - Amelie Gioia
+  - Gioia
 type: Person
 category: people/mentioned
 research_status: Basic

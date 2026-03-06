@@ -1,3 +1,13 @@
+---
+id: ADELINA_PATTI
+name: Adelina Patti
+aliases:
+  - Adelina Patti
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Adelina Patti
 
 **Research Status**: Stub

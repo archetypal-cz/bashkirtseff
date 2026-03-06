@@ -1,3 +1,13 @@
+---
+id: ALEXANDER_THE_GREAT
+name: Alexander the Great
+aliases:
+  - Alexander the Great
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alexander the Great
 
 **Research Status**: Comprehensive  

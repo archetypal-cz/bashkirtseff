@@ -1,3 +1,15 @@
+---
+id: GRANADA
+name: Granada (Grenade)
+aliases:
+  - Granada (Grenade)
+  - Granada
+  - Grenade
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Granada (Grenade)
 
 **Research Status**: Basic

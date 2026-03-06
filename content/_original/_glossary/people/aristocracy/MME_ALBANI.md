@@ -1,3 +1,14 @@
+---
+id: MME_ALBANI
+name: Mme Albani
+aliases:
+  - Mme Albani
+  - Albani
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Albani
 
 ## Basic Information

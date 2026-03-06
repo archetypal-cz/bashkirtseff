@@ -1,6 +1,9 @@
 ---
 id: SARAH_BERNHARDT
 name: Sarah Bernhardt
+aliases:
+  - Sarah Bernhardt
+  - Bernhardt
 type: Person
 category: people/artists
 research_status: Moderate

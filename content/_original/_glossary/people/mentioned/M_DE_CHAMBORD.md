@@ -1,3 +1,14 @@
+---
+id: M_DE_CHAMBORD
+name: M de Chambord
+aliases:
+  - M de Chambord
+  - Chambord
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Chambord
 
 ## Basic Information

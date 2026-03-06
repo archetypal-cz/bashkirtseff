@@ -1,6 +1,10 @@
 ---
 id: TONY
 name: Tony Robert-Fleury
+aliases:
+  - Tony Robert-Fleury
+  - Robert-Fleury
+  - Tony
 type: Person
 category: people/mentioned
 research_status: Redirect

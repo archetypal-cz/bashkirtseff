@@ -1,3 +1,13 @@
+---
+id: MARECHALE
+name: Marechale
+aliases:
+  - Marechale
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marechale
 
 ## Basic Information

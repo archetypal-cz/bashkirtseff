@@ -1,3 +1,15 @@
+---
+id: SONITCHKA
+name: Sonitchka (Sophie Grigorievna)
+aliases:
+  - Sonitchka (Sophie Grigorievna)
+  - Sophie Grigorievna
+  - Sonitchka
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sonitchka (Sophie Grigorievna)
 
 **Research Status**: Basic

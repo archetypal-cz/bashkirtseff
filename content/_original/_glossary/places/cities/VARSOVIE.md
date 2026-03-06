@@ -1,3 +1,15 @@
+---
+id: VARSOVIE
+name: Varsovie (Warsaw / Warszawa)
+aliases:
+  - Varsovie (Warsaw / Warszawa)
+  - Warsaw / Warszawa
+  - Varsovie
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Varsovie (Warsaw / Warszawa)
 
 **Research Status**: Comprehensive

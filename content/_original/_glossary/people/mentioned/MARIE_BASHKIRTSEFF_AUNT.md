@@ -1,3 +1,16 @@
+---
+id: MARIE_BASHKIRTSEFF_AUNT
+name: Marie Bashkirtseff aunt
+aliases:
+  - Marie Bashkirtseff aunt
+  - Marie Bashkirtseff Aunt
+  - Marie
+  - aunt
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie Bashkirtseff aunt
 
 ## Basic Information

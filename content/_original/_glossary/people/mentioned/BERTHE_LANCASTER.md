@@ -1,3 +1,14 @@
+---
+id: BERTHE_LANCASTER
+name: Berthe Lancaster
+aliases:
+  - Berthe Lancaster
+  - Lancaster
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Berthe Lancaster
 
 ## Basic Information

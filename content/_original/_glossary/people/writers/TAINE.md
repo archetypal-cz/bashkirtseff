@@ -1,6 +1,9 @@
 ---
 id: TAINE
 name: Hippolyte Taine
+aliases:
+  - Hippolyte Taine
+  - Taine
 type: Person
 category: people/writers
 research_status: Basic

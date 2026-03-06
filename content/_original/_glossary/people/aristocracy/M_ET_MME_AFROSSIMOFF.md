@@ -1,3 +1,14 @@
+---
+id: M_ET_MME_AFROSSIMOFF
+name: M et Mme Afrossimoff
+aliases:
+  - M et Mme Afrossimoff
+  - Afrossimoff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M et Mme Afrossimoff
 
 ## Basic Information

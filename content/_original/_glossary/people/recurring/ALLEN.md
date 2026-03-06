@@ -1,3 +1,14 @@
+---
+id: ALLEN
+name: The Allen Family
+aliases:
+  - The Allen Family
+  - Allen
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # The Allen Family
 
 **Research Status**: Basic

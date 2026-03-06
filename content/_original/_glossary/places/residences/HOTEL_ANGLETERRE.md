@@ -1,3 +1,16 @@
+---
+id: HOTEL_ANGLETERRE
+name: Hotel d'Angleterre (Hotel of England)
+aliases:
+  - Hotel d'Angleterre (Hotel of England)
+  - Hotel d'Angleterre
+  - Hotel Angleterre
+  - Hotel of England
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel d'Angleterre (Hotel of England)
 
 **Research Status**: Basic

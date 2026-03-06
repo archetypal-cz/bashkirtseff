@@ -1,3 +1,13 @@
+---
+id: TOULON
+name: Toulon
+aliases:
+  - Toulon
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Toulon
 
 **Research Status**: Basic

@@ -1,3 +1,13 @@
+---
+id: ORTHODOX_EASTER
+name: Orthodox Easter
+aliases:
+  - Orthodox Easter
+type: Place
+category: places/churches
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Orthodox Easter
 
 **Research Status**: Basic

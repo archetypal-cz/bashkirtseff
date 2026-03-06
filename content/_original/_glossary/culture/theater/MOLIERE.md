@@ -1,3 +1,14 @@
+---
+id: MOLIERE
+name: Molière
+aliases:
+  - Molière
+  - Moliere
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Molière
 
 **Research Status**: Basic

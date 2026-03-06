@@ -1,3 +1,15 @@
+---
+id: LE_PRE_AUX_CLERCS
+name: Le pre aux clercs
+aliases:
+  - Le pre aux clercs
+  - Le Pre Aux Clercs
+  - clercs
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le pre aux clercs
 
 ## Basic Information

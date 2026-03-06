@@ -1,3 +1,14 @@
+---
+id: PERE_VASSILIEFF
+name: Pere Vassilieff
+aliases:
+  - Pere Vassilieff
+  - Vassilieff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pere Vassilieff
 
 ## Basic Information

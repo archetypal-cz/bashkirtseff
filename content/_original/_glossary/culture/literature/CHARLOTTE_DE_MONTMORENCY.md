@@ -1,6 +1,8 @@
 ---
 id: CHARLOTTE_DE_MONTMORENCY
 name: Charlotte de Montmorency
+aliases:
+  - Charlotte de Montmorency
 type: Culture
 category: culture/literature
 research_status: Moderate

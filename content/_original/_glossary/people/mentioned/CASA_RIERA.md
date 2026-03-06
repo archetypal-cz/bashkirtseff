@@ -1,3 +1,14 @@
+---
+id: CASA_RIERA
+name: Casa Riera
+aliases:
+  - Casa Riera
+  - Riera
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Casa Riera
 
 **Research Status**: Stub

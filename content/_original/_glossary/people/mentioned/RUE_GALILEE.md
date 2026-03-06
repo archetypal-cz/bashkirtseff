@@ -1,3 +1,14 @@
+---
+id: RUE_GALILEE
+name: Rue Galilee
+aliases:
+  - Rue Galilee
+  - Galilee
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue Galilee
 
 ## Basic Information

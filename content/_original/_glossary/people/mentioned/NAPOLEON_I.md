@@ -1,3 +1,13 @@
+---
+id: NAPOLEON_I
+name: Napoleon I
+aliases:
+  - Napoleon I
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Napoleon I
 
 **Research Status**: Stub

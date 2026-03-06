@@ -1,3 +1,15 @@
+---
+id: TIR_AUX_PIGEONS
+name: Tir aux pigeons
+aliases:
+  - Tir aux pigeons
+  - Tir Aux Pigeons
+  - pigeons
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Tir aux pigeons
 
 **Research Status**: Basic

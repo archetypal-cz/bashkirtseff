@@ -1,3 +1,13 @@
+---
+id: DAME_DE_MONSOREAU
+name: Dame de Monsoreau
+aliases:
+  - Dame de Monsoreau
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dame de Monsoreau
 
 **Research Status**: Stub

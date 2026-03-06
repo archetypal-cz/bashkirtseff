@@ -1,3 +1,14 @@
+---
+id: DUC_DE_HAMILTON
+name: Duc de Hamilton
+aliases:
+  - Duc de Hamilton
+  - Hamilton
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de Hamilton
 
 **Research Status**: Stub

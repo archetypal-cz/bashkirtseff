@@ -1,3 +1,14 @@
+---
+id: M_DE_MARCERE
+name: M de Marcere
+aliases:
+  - M de Marcere
+  - Marcere
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Marcere
 
 ## Basic Information

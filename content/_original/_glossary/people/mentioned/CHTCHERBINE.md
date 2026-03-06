@@ -1,3 +1,15 @@
+---
+id: CHTCHERBINE
+name: Chtcherbine (Le petit Chtcherbine)
+aliases:
+  - Chtcherbine (Le petit Chtcherbine)
+  - Le petit Chtcherbine
+  - Chtcherbine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Chtcherbine (Le petit Chtcherbine)
 
 **Research Status**: Basic

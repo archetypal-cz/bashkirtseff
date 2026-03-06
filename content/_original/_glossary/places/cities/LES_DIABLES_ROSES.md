@@ -1,3 +1,14 @@
+---
+id: LES_DIABLES_ROSES
+name: Les diables roses
+aliases:
+  - Les diables roses
+  - Les Diables Roses
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les diables roses
 
 **Research Status**: Basic

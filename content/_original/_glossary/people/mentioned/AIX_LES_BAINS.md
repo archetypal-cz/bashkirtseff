@@ -1,3 +1,14 @@
+---
+id: AIX_LES_BAINS
+name: Aix les Bains
+aliases:
+  - Aix les Bains
+  - Bains
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Aix les Bains
 
 ## Basic Information

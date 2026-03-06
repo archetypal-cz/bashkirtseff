@@ -1,3 +1,15 @@
+---
+id: DUC_D_EDIMBOURG
+name: Duc d Edimbourg
+aliases:
+  - Duc d Edimbourg
+  - Duc d'Edimbourg
+  - Edimbourg
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc d Edimbourg
 
 ## Basic Information

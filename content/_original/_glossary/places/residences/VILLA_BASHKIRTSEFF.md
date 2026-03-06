@@ -1,3 +1,13 @@
+---
+id: VILLA_BASHKIRTSEFF
+name: Villa Bashkirtseff
+aliases:
+  - Villa Bashkirtseff
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Villa Bashkirtseff
 
 **Research Status**: Basic

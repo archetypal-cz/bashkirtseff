@@ -1,3 +1,14 @@
+---
+id: MASSE
+name: Victor Massé
+aliases:
+  - Victor Massé
+  - Masse
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Victor Massé
 
 **Research Status**: Moderate

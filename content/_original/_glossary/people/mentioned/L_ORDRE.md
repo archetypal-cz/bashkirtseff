@@ -1,3 +1,15 @@
+---
+id: L_ORDRE
+name: L Ordre
+aliases:
+  - L Ordre
+  - l'Ordre
+  - Ordre
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # L Ordre
 
 ## Basic Information

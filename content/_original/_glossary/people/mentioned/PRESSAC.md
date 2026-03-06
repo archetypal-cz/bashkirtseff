@@ -1,3 +1,13 @@
+---
+id: PRESSAC
+name: Pressac
+aliases:
+  - Pressac
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pressac
 
 **Research Status**: Stub

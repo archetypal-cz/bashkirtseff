@@ -1,3 +1,14 @@
+---
+id: MISS_FOSTER
+name: Miss Foster
+aliases:
+  - Miss Foster
+  - Foster
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Miss Foster
 
 ## Basic Information

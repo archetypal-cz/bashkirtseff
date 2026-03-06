@@ -1,3 +1,14 @@
+---
+id: MLLE_JEANNE
+name: Mlle Jeanne
+aliases:
+  - Mlle Jeanne
+  - Jeanne
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Jeanne
 
 ## Basic Information

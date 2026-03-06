@@ -1,3 +1,13 @@
+---
+id: MARSEILLE
+name: Marseille
+aliases:
+  - Marseille
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marseille
 
 **Research Status**: Basic

@@ -1,3 +1,13 @@
+---
+id: OLGA_SAPOGENIKOFF
+name: Olga Sapogenikoff
+aliases:
+  - Olga Sapogenikoff
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Olga Sapogenikoff
 
 **Research Status**: Moderate

@@ -1,3 +1,15 @@
+---
+id: PRINCE_ORLOFF
+name: prince Orloff
+aliases:
+  - prince Orloff
+  - Prince Orloff
+  - Orloff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # prince Orloff
 
 ## Basic Information

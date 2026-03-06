@@ -1,3 +1,14 @@
+---
+id: SOPHIE_WARRODEL
+name: Sophie Warrodel
+aliases:
+  - Sophie Warrodel
+  - Warrodel
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sophie Warrodel
 
 **Research Status**: Basic

@@ -1,3 +1,13 @@
+---
+id: BRAVURA_FAMILY
+name: Bravura Family
+aliases:
+  - Bravura Family
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bravura Family
 
 **Research Status**: Basic

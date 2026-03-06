@@ -1,3 +1,14 @@
+---
+id: LA_BELLE_HELENE
+name: La Belle Helene
+aliases:
+  - La Belle Helene
+  - Helene
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Belle Helene
 
 ## Basic Information

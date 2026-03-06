@@ -1,3 +1,14 @@
+---
+id: SAINT_PHILIPPE_DU_ROULE
+name: Saint Philippe du Roule
+aliases:
+  - Saint Philippe du Roule
+  - Roule
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Philippe du Roule
 
 ## Basic Information

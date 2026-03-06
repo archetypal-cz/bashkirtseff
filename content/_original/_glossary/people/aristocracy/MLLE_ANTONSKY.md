@@ -1,3 +1,14 @@
+---
+id: MLLE_ANTONSKY
+name: Mlle Antonsky
+aliases:
+  - Mlle Antonsky
+  - Antonsky
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Antonsky
 
 ## Basic Information

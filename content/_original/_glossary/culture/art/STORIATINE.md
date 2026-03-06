@@ -1,3 +1,14 @@
+---
+id: STORIATINE
+name: Mme Storiatine
+aliases:
+  - Mme Storiatine
+  - Storiatine
+type: Culture
+category: culture/art
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Storiatine
 
 **Research Status**: Basic

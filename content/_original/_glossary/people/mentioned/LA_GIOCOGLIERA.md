@@ -1,3 +1,14 @@
+---
+id: LA_GIOCOGLIERA
+name: La Giocogliera
+aliases:
+  - La Giocogliera
+  - Giocogliera
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Giocogliera
 
 ## Basic Information

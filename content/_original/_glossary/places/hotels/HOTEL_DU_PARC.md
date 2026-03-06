@@ -1,3 +1,13 @@
+---
+id: HOTEL_DU_PARC
+name: Hotel du Parc
+aliases:
+  - Hotel du Parc
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel du Parc
 
 ## Basic Information

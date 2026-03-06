@@ -1,3 +1,13 @@
+---
+id: CADET_ROUSSEL
+name: Cadet Roussel
+aliases:
+  - Cadet Roussel
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cadet Roussel
 
 **Research Status**: Basic

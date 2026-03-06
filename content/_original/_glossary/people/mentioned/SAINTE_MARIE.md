@@ -1,3 +1,14 @@
+---
+id: SAINTE_MARIE
+name: Sainte Marie
+aliases:
+  - Sainte Marie
+  - Marie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sainte Marie
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: BARON_LARREY
+name: Baron Larrey
+aliases:
+  - Baron Larrey
+  - Larrey
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron Larrey
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: BEAUX_ARTS
+name: École des Beaux-Arts
+aliases:
+  - École des Beaux-Arts
+  - Beaux Arts
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # École des Beaux-Arts
 
 **Research Status**: Basic

@@ -1,6 +1,11 @@
 ---
 id: CENSORED_1887
-name: "Journal de Marie Bashkirtseff (Charpentier, 1887)"
+name: Journal de Marie Bashkirtseff (Charpentier, 1887)
+aliases:
+  - Journal de Marie Bashkirtseff (Charpentier, 1887)
+  - Journal de Marie Bashkirtseff
+  - Charpentier, 1887
+  - Censored 1887
 type: Publication
 category: culture/literature
 research_status: Comprehensive

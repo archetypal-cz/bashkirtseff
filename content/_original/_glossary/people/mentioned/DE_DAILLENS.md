@@ -1,3 +1,14 @@
+---
+id: DE_DAILLENS
+name: De Daillens
+aliases:
+  - De Daillens
+  - Daillens
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # De Daillens
 
 **Research Status**: Stub

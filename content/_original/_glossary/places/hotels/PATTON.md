@@ -1,3 +1,13 @@
+---
+id: PATTON
+name: Patton
+aliases:
+  - Patton
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Patton
 
 **Research Status**: Basic

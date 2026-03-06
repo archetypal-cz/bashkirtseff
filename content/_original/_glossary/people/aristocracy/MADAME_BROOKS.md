@@ -1,3 +1,14 @@
+---
+id: MADAME_BROOKS
+name: Madame Brooks
+aliases:
+  - Madame Brooks
+  - Brooks
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame Brooks
 
 ## Basic Information

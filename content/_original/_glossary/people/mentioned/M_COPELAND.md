@@ -1,3 +1,14 @@
+---
+id: M_COPELAND
+name: M Copeland
+aliases:
+  - M Copeland
+  - Copeland
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Copeland
 
 ## Basic Information

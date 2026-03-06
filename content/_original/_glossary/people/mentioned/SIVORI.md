@@ -1,3 +1,13 @@
+---
+id: SIVORI
+name: Sivori
+aliases:
+  - Sivori
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sivori
 
 **Research Status**: Stub

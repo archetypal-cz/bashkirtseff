@@ -1,3 +1,14 @@
+---
+id: MORAES
+name: Moraës
+aliases:
+  - Moraës
+  - Moraes
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Moraës
 
 **Research Status**: Stub

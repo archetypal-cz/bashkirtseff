@@ -1,3 +1,14 @@
+---
+id: SAINTE_BEUVE
+name: Sainte-Beuve
+aliases:
+  - Sainte-Beuve
+  - Sainte Beuve
+type: Person
+category: people/writers
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sainte-Beuve
 
 **Research Status**: Basic

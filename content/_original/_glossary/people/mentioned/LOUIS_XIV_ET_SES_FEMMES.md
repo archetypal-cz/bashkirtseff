@@ -1,3 +1,16 @@
+---
+id: LOUIS_XIV_ET_SES_FEMMES
+name: '"Louis XIV et ses femmes"'
+aliases:
+  - '"Louis XIV et ses femmes"'
+  - Louis Xiv et Ses Femmes
+  - femmes"
+  - '"Louis'
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # "Louis XIV et ses femmes" 
 
 **Research Status**: Basic

@@ -1,3 +1,13 @@
+---
+id: KANSCHINE
+name: Kanschine
+aliases:
+  - Kanschine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Kanschine
 
 ## Basic Information

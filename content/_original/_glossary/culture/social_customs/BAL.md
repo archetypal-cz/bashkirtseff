@@ -1,6 +1,9 @@
 ---
 id: BAL
 name: Bal (Ball)
+aliases:
+  - Bal (Ball)
+  - Ball
 type: Culture
 category: culture/social_customs
 research_status: Moderate

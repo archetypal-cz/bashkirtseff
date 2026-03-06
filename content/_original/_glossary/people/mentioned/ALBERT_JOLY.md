@@ -1,3 +1,14 @@
+---
+id: ALBERT_JOLY
+name: Albert Joly
+aliases:
+  - Albert Joly
+  - Joly
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Albert Joly
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: M_JOYEUSE
+name: M Joyeuse
+aliases:
+  - M Joyeuse
+  - Joyeuse
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Joyeuse
 
 ## Basic Information

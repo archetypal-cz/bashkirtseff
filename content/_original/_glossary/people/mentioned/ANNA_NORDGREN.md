@@ -1,3 +1,14 @@
+---
+id: ANNA_NORDGREN
+name: Anna Nordgren
+aliases:
+  - Anna Nordgren
+  - Nordgren
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Anna Nordgren
 
 ## Basic Information

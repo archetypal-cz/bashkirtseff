@@ -1,3 +1,16 @@
+---
+id: MIDSUMMER_NIGHTS_DREAM
+name: A Midsummer Night's Dream (Le songe d'une nuit d'été)
+aliases:
+  - A Midsummer Night's Dream (Le songe d'une nuit d'été)
+  - A Midsummer Night's Dream
+  - Le songe d'une nuit d'été
+  - Midsummer Nights Dream
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # A Midsummer Night's Dream (Le songe d'une nuit d'été)
 
 **Research Status**: Basic

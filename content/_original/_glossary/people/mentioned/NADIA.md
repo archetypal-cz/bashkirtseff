@@ -1,3 +1,13 @@
+---
+id: NADIA
+name: Nadia
+aliases:
+  - Nadia
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Nadia
 
 **Research Status**: Basic

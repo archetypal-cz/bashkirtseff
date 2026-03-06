@@ -1,3 +1,14 @@
+---
+id: BARON_BACH
+name: Baron Bach
+aliases:
+  - Baron Bach
+  - Bach
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron Bach
 
 **Research Status**: Basic

@@ -1,3 +1,14 @@
+---
+id: M_DE_TARENTE
+name: M de Tarente
+aliases:
+  - M de Tarente
+  - Tarente
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Tarente
 
 **Research Status**: Stub

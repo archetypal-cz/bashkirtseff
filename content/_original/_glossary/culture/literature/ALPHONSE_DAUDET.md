@@ -1,3 +1,13 @@
+---
+id: ALPHONSE_DAUDET
+name: Alphonse Daudet
+aliases:
+  - Alphonse Daudet
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alphonse Daudet
 
 **Research Status**: Comprehensive

@@ -1,3 +1,11 @@
+---
+id: EMS
+name: Ems
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ems
 
 ## Basic Information

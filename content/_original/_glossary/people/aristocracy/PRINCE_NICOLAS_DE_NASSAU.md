@@ -1,3 +1,14 @@
+---
+id: PRINCE_NICOLAS_DE_NASSAU
+name: Prince Nicolas de Nassau
+aliases:
+  - Prince Nicolas de Nassau
+  - Nassau
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Nicolas de Nassau
 
 ## Basic Information

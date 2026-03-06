@@ -1,6 +1,8 @@
 ---
 id: MUSIC_THEME
 name: Music
+aliases:
+  - Music
 type: Culture
 category: culture/themes
 research_status: Moderate

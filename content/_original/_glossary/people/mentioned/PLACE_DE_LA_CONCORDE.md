@@ -1,3 +1,15 @@
+---
+id: PLACE_DE_LA_CONCORDE
+name: Place de la Concorde
+aliases:
+  - Place de la Concorde
+  - Concorde
+  - Place
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Place de la Concorde
 
 **Research Status**: Stub

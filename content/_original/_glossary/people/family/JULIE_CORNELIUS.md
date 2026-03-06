@@ -1,3 +1,16 @@
+---
+id: JULIE_CORNELIUS
+name: Julie Cornelius (Grand-maman)
+aliases:
+  - Julie Cornelius (Grand-maman)
+  - Julie Cornelius
+  - Grand-maman
+  - Cornelius
+type: Person
+category: people/family
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Julie Cornelius (Grand-maman)
 
 **Research Status**: Basic

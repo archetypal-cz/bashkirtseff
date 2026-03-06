@@ -1,3 +1,14 @@
+---
+id: MARQUIS_DE_TARENTE
+name: Marquis de Tarente
+aliases:
+  - Marquis de Tarente
+  - Tarente
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marquis de Tarente
 
 **Research Status**: Stub

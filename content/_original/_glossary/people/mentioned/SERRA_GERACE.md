@@ -1,3 +1,14 @@
+---
+id: SERRA_GERACE
+name: Serra Gerace
+aliases:
+  - Serra Gerace
+  - Gerace
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Serra Gerace
 
 ## Basic Information

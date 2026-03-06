@@ -1,3 +1,13 @@
+---
+id: GAVRONZI
+name: Gavronzi
+aliases:
+  - Gavronzi
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gavronzi
 
 **Research Status**: Moderate

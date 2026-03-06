@@ -1,3 +1,16 @@
+---
+id: OBELISQUE
+name: L'Obélisque (The Obelisk)
+aliases:
+  - L'Obélisque (The Obelisk)
+  - L'Obélisque
+  - The Obelisk
+  - Obelisque
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # L'Obélisque (The Obelisk)
 
 **Research Status**: Basic

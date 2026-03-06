@@ -1,3 +1,15 @@
+---
+id: ILIAD
+name: Iliad (L'Iliade)
+aliases:
+  - Iliad (L'Iliade)
+  - L'Iliade
+  - Iliad
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Iliad (L'Iliade)
 
 **Research Status**: Basic

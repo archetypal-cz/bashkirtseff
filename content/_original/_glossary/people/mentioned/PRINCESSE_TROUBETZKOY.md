@@ -1,3 +1,15 @@
+---
+id: PRINCESSE_TROUBETZKOY
+name: princesse Troubetzkoy
+aliases:
+  - princesse Troubetzkoy
+  - Princesse Troubetzkoy
+  - Troubetzkoy
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # princesse Troubetzkoy
 
 ## Basic Information

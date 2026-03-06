@@ -1,3 +1,14 @@
+---
+id: LES_FOURCHAMBAULT
+name: Les Fourchambault
+aliases:
+  - Les Fourchambault
+  - Fourchambault
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les Fourchambault
 
 ## Basic Information

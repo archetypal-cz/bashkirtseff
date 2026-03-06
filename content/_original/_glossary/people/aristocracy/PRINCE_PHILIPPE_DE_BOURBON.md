@@ -1,3 +1,15 @@
+---
+id: PRINCE_PHILIPPE_DE_BOURBON
+name: prince Philippe de Bourbon
+aliases:
+  - prince Philippe de Bourbon
+  - Prince Philippe de Bourbon
+  - Bourbon
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # prince Philippe de Bourbon
 
 ## Basic Information

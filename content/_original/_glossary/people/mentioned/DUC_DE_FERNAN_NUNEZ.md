@@ -1,3 +1,14 @@
+---
+id: DUC_DE_FERNAN_NUNEZ
+name: Duc de Fernan Nunez
+aliases:
+  - Duc de Fernan Nunez
+  - Nunez
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de Fernan Nunez
 
 ## Basic Information

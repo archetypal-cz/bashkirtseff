@@ -1,3 +1,13 @@
+---
+id: THILENIUS
+name: Thilenius
+aliases:
+  - Thilenius
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Thilenius
 
 ## Basic Information

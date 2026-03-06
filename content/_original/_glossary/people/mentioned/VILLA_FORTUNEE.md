@@ -1,3 +1,14 @@
+---
+id: VILLA_FORTUNEE
+name: Villa Fortunee
+aliases:
+  - Villa Fortunee
+  - Fortunee
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Villa Fortunee
 
 ## Basic Information

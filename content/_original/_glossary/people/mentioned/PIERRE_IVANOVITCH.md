@@ -1,3 +1,14 @@
+---
+id: PIERRE_IVANOVITCH
+name: Pierre Ivanovitch
+aliases:
+  - Pierre Ivanovitch
+  - Ivanovitch
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pierre Ivanovitch
 
 ## Basic Information

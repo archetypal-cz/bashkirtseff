@@ -1,3 +1,15 @@
+---
+id: VILLA_BAQUIS
+name: Villa Baquis (Villa Buffa)
+aliases:
+  - Villa Baquis (Villa Buffa)
+  - Villa Baquis
+  - Villa Buffa
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Villa Baquis (Villa Buffa)
 
 ## Basic Information

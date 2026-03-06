@@ -1,3 +1,14 @@
+---
+id: MME_ROUHER
+name: Mme Rouher
+aliases:
+  - Mme Rouher
+  - Rouher
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Rouher
 
 ## Basic Information

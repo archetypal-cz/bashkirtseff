@@ -1,3 +1,14 @@
+---
+id: M_ROUHER
+name: M Rouher
+aliases:
+  - M Rouher
+  - Rouher
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Rouher
 
 ## Basic Information

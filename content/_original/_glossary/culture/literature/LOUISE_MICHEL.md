@@ -1,3 +1,13 @@
+---
+id: LOUISE_MICHEL
+name: Louise Michel
+aliases:
+  - Louise Michel
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Louise Michel
 
 **Research Status**: Moderate

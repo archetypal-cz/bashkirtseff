@@ -1,3 +1,13 @@
+---
+id: CHAMBRES
+name: Chambres
+aliases:
+  - Chambres
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Chambres
 
 ## Basic Information

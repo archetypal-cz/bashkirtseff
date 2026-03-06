@@ -1,3 +1,15 @@
+---
+id: COMTE_DE_BEAUREPAIRE
+name: comte de Beaurepaire
+aliases:
+  - comte de Beaurepaire
+  - Comte de Beaurepaire
+  - Beaurepaire
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # comte de Beaurepaire
 
 ## Basic Information

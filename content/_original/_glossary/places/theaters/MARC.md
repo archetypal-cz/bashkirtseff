@@ -1,3 +1,13 @@
+---
+id: MARC
+name: Marc
+aliases:
+  - Marc
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marc
 
 **Research Status**: Basic

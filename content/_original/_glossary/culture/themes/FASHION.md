@@ -1,6 +1,9 @@
 ---
 id: FASHION
 name: Fashion & Dress
+aliases:
+  - Fashion & Dress
+  - Fashion
 type: Culture
 category: culture/themes
 research_status: Moderate

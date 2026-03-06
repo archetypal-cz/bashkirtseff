@@ -1,3 +1,13 @@
+---
+id: JONNIE
+name: Jonnie
+aliases:
+  - Jonnie
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jonnie
 
 **Research Status**: Basic

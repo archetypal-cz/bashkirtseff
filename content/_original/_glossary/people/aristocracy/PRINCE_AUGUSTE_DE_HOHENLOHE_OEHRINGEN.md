@@ -1,3 +1,14 @@
+---
+id: PRINCE_AUGUSTE_DE_HOHENLOHE_OEHRINGEN
+name: Prince Auguste de Hohenlohe Oehringen
+aliases:
+  - Prince Auguste de Hohenlohe Oehringen
+  - Oehringen
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Auguste de Hohenlohe Oehringen
 
 ## Basic Information

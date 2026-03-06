@@ -1,3 +1,15 @@
+---
+id: KAZAN_CATHEDRAL
+name: Kazan Cathedral (Cathedrale de Kazan)
+aliases:
+  - Kazan Cathedral (Cathedrale de Kazan)
+  - Cathedrale de Kazan
+  - Kazan Cathedral
+type: Place
+category: places/churches
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Kazan Cathedral (Cathedrale de Kazan)
 
 **Research Status**: Basic

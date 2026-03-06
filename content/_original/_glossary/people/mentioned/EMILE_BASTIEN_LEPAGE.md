@@ -1,6 +1,10 @@
 ---
 id: EMILE_BASTIEN_LEPAGE
 name: Emile Bastien-Lepage
+aliases:
+  - Emile Bastien-Lepage
+  - Emile Bastien Lepage
+  - Bastien-Lepage
 type: Person
 category: people/mentioned
 research_status: Moderate

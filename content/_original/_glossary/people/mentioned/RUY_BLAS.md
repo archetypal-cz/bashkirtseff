@@ -1,3 +1,14 @@
+---
+id: RUY_BLAS
+name: Ruy Blas
+aliases:
+  - Ruy Blas
+  - Blas
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ruy Blas
 
 ## Basic Information

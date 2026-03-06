@@ -1,3 +1,15 @@
+---
+id: DE_BOUVILLE
+name: de Bouville
+aliases:
+  - de Bouville
+  - De Bouville
+  - Bouville
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # de Bouville
 
 ## Basic Information

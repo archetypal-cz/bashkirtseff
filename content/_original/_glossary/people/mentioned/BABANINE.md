@@ -1,3 +1,15 @@
+---
+id: BABANINE
+name: Babanine (Family Name)
+aliases:
+  - Babanine (Family Name)
+  - Family Name
+  - Babanine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Babanine (Family Name)
 
 **Research Status**: Comprehensive

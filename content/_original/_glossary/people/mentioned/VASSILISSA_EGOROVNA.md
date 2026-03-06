@@ -1,3 +1,14 @@
+---
+id: VASSILISSA_EGOROVNA
+name: Vassilissa Egorovna
+aliases:
+  - Vassilissa Egorovna
+  - Egorovna
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vassilissa Egorovna
 
 **Research Status**: Basic

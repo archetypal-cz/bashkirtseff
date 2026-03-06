@@ -1,6 +1,8 @@
 ---
 id: VOITURE
 name: Voiture
+aliases:
+  - Voiture
 type: Culture
 category: culture/transport
 research_status: Moderate

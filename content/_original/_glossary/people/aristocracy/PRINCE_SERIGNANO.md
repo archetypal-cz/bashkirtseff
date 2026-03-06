@@ -1,3 +1,14 @@
+---
+id: PRINCE_SERIGNANO
+name: Prince Serignano
+aliases:
+  - Prince Serignano
+  - Serignano
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Serignano
 
 ## Basic Information

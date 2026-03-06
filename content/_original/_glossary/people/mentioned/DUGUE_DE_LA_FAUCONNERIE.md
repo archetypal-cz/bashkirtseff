@@ -1,3 +1,15 @@
+---
+id: DUGUE_DE_LA_FAUCONNERIE
+name: Dugue de la Fauconnerie
+aliases:
+  - Dugue de la Fauconnerie
+  - Fauconnerie
+  - Dugue
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dugue de la Fauconnerie
 
 ## Basic Information

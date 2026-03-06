@@ -1,3 +1,14 @@
+---
+id: MME_LACON
+name: Mme Lacon
+aliases:
+  - Mme Lacon
+  - Lacon
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Lacon
 
 ## Basic Information

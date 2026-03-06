@@ -1,6 +1,11 @@
 ---
 id: MARGHERITA_DI_SAVOIA
 name: Margherita di Savoia
+aliases:
+  - Margherita di Savoia
+  - Margherita Di Savoia
+  - Margherita
+  - Savoia
 type: Person
 category: people/aristocracy
 research_status: Moderate

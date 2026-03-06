@@ -1,3 +1,14 @@
+---
+id: NAPOLEON_BY_DUMAS
+name: Napoleon by Dumas
+aliases:
+  - Napoleon by Dumas
+  - Napoleon By Dumas
+type: Culture
+category: culture/literature
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Napoleon by Dumas
 
 **Research Status**: Basic  

@@ -1,3 +1,15 @@
+---
+id: AKHTYRKA
+name: Akhtyrka (Okhtyrka)
+aliases:
+  - Akhtyrka (Okhtyrka)
+  - Akhtyrka
+  - Okhtyrka
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Akhtyrka (Okhtyrka)
 
 **Research Status**: Comprehensive

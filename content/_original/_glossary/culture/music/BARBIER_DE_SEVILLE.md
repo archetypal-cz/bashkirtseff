@@ -1,3 +1,13 @@
+---
+id: BARBIER_DE_SEVILLE
+name: Barbier de Seville
+aliases:
+  - Barbier de Seville
+type: Culture
+category: culture/music
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Barbier de Seville
 
 ## Basic Information

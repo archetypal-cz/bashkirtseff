@@ -1,3 +1,13 @@
+---
+id: GEORGES_SAND
+name: Georges Sand
+aliases:
+  - Georges Sand
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Georges Sand
 
 **Research Status**: Comprehensive

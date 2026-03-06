@@ -1,6 +1,9 @@
 ---
 id: RODOLPHE_JULIAN
 name: Rodolphe Julian
+aliases:
+  - Rodolphe Julian
+  - Julian
 type: Person
 category: people/mentioned
 research_status: Comprehensive

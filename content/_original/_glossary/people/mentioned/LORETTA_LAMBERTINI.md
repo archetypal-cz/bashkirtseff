@@ -1,3 +1,14 @@
+---
+id: LORETTA_LAMBERTINI
+name: Loretta Lambertini
+aliases:
+  - Loretta Lambertini
+  - Lambertini
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Loretta Lambertini
 
 ## Basic Information

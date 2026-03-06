@@ -1,3 +1,14 @@
+---
+id: ONCLE_LAUTREC
+name: Oncle Lautrec
+aliases:
+  - Oncle Lautrec
+  - Lautrec
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Oncle Lautrec
 
 ## Basic Information

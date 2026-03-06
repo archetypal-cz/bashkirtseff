@@ -1,6 +1,10 @@
 ---
 id: M_SAPOGENIKOFF
 name: Mary Sapogenikoff
+aliases:
+  - Mary Sapogenikoff
+  - M Sapogenikoff
+  - Sapogenikoff
 type: Person
 category: people/recurring
 research_status: Basic

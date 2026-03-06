@@ -1,6 +1,8 @@
 ---
 id: ALICE_DE_NEVERS
 name: Alice de Nevers
+aliases:
+  - Alice de Nevers
 type: Culture
 category: culture/theater
 research_status: Moderate

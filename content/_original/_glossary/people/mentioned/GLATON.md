@@ -1,3 +1,13 @@
+---
+id: GLATON
+name: Glaton
+aliases:
+  - Glaton
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Glaton
 
 **Research Status**: Basic

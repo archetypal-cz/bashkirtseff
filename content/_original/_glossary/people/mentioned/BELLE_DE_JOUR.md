@@ -1,3 +1,15 @@
+---
+id: BELLE_DE_JOUR
+name: Belle de jour
+aliases:
+  - Belle de jour
+  - Belle de Jour
+  - Belle
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Belle de jour
 
 ## Basic Information

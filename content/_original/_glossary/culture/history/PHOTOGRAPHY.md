@@ -1,3 +1,15 @@
+---
+id: PHOTOGRAPHY
+name: Photography (Photographie)
+aliases:
+  - Photography (Photographie)
+  - Photographie
+  - Photography
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Photography (Photographie)
 
 **Research Status**: Comprehensive

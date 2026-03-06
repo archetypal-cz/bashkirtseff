@@ -1,3 +1,14 @@
+---
+id: AIVAZOWSKY
+name: Aïvazowsky
+aliases:
+  - Aïvazowsky
+  - Aivazowsky
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Aïvazowsky
 
 **Research Status**: Basic

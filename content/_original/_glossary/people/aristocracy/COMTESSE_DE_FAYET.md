@@ -1,3 +1,15 @@
+---
+id: COMTESSE_DE_FAYET
+name: comtesse de Fayet
+aliases:
+  - comtesse de Fayet
+  - Comtesse de Fayet
+  - Fayet
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # comtesse de Fayet
 
 ## Basic Information

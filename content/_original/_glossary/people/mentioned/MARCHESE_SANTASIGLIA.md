@@ -1,3 +1,14 @@
+---
+id: MARCHESE_SANTASIGLIA
+name: Marchese Santasiglia
+aliases:
+  - Marchese Santasiglia
+  - Santasiglia
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marchese Santasiglia
 
 ## Basic Information

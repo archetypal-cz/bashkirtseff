@@ -1,3 +1,16 @@
+---
+id: GALLONI_D_ISTRIA
+name: Galloni d Istria
+aliases:
+  - Galloni d Istria
+  - Galloni d'Istria
+  - Galloni
+  - Istria
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Galloni d Istria
 
 **Research Status**: Stub

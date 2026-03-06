@@ -1,3 +1,14 @@
+---
+id: PAUL_FRERE
+name: Paul frere
+aliases:
+  - Paul frere
+  - Paul Frere
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Paul frere
 
 ## Basic Information

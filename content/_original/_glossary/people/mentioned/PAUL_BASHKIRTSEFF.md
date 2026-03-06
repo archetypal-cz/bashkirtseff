@@ -1,6 +1,9 @@
 ---
 id: PAUL_BASHKIRTSEFF
 name: Paul Bashkirtseff
+aliases:
+  - Paul Bashkirtseff
+  - Bashkirtseff
 type: Person
 category: people/mentioned
 research_status: Moderate
@@ -10,7 +13,7 @@ languages:
   - uk
 original_script: Павел Башкирцев
 transliteration: Pavel Bashkirtsev
-pronunciation: "https://translate.google.com/?sl=ru&tl=en&text=Павел%20Башкирцев"
+pronunciation: https://translate.google.com/?sl=ru&tl=en&text=Павел%20Башкирцев
 ---
 
 # Paul Bashkirtseff

@@ -1,3 +1,15 @@
+---
+id: CORDOBA
+name: Cordoba (Cordoue)
+aliases:
+  - Cordoba (Cordoue)
+  - Cordoba
+  - Cordoue
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cordoba (Cordoue)
 
 **Research Status**: Basic

@@ -1,3 +1,14 @@
+---
+id: MONT_VINAIGRE
+name: Mont Vinaigre
+aliases:
+  - Mont Vinaigre
+  - Vinaigre
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mont Vinaigre
 
 **Research Status**: Basic

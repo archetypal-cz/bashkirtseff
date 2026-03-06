@@ -1,3 +1,14 @@
+---
+id: MME_HOWARD
+name: Mme Howard
+aliases:
+  - Mme Howard
+  - Howard
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Howard
 
 ## Basic Information

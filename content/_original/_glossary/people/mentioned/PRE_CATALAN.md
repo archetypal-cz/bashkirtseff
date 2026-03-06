@@ -1,3 +1,14 @@
+---
+id: PRE_CATALAN
+name: Pre Catalan
+aliases:
+  - Pre Catalan
+  - Catalan
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pre Catalan
 
 ## Basic Information

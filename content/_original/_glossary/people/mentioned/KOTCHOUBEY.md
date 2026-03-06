@@ -1,6 +1,9 @@
 ---
 id: KOTCHOUBEY
 name: Princesse Kotchoubey
+aliases:
+  - Princesse Kotchoubey
+  - Kotchoubey
 type: Person
 category: people/mentioned
 research_status: Stub
@@ -9,7 +12,7 @@ languages:
   - ru
 original_script: Кочубей
 transliteration: Kochubey
-pronunciation: "https://translate.google.com/?sl=ru&tl=en&text=Кочубей"
+pronunciation: https://translate.google.com/?sl=ru&tl=en&text=Кочубей
 ---
 
 # Princesse Kotchoubey

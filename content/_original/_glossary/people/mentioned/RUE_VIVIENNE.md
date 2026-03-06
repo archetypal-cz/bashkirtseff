@@ -1,3 +1,14 @@
+---
+id: RUE_VIVIENNE
+name: Rue Vivienne
+aliases:
+  - Rue Vivienne
+  - Vivienne
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue Vivienne
 
 **Research Status**: Basic

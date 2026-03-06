@@ -1,3 +1,14 @@
+---
+id: GRAND_DUC_ALEXIS
+name: Grand Duc Alexis
+aliases:
+  - Grand Duc Alexis
+  - Alexis
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand Duc Alexis
 
 ## Basic Information

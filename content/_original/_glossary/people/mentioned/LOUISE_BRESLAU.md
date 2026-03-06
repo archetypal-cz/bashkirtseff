@@ -1,6 +1,11 @@
 ---
 id: LOUISE_BRESLAU
 name: Louise Catherine Breslau
+aliases:
+  - Louise Catherine Breslau
+  - Louise Breslau
+  - Breslau
+  - Louise
 type: Person
 category: people/mentioned
 research_status: Comprehensive

@@ -1,6 +1,9 @@
 ---
 id: TUBERCULOSIS
 name: Tuberculose / Phtisie
+aliases:
+  - Tuberculose / Phtisie
+  - Tuberculosis
 type: Culture
 category: culture/health
 research_status: Moderate

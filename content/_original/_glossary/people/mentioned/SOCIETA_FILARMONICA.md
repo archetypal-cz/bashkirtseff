@@ -1,3 +1,15 @@
+---
+id: SOCIETA_FILARMONICA
+name: Societa filarmonica
+aliases:
+  - Societa filarmonica
+  - Societa Filarmonica
+  - filarmonica
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Societa filarmonica
 
 ## Basic Information

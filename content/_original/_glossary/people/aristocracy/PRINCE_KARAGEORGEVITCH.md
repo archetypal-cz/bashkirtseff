@@ -1,3 +1,15 @@
+---
+id: PRINCE_KARAGEORGEVITCH
+name: prince Karageorgevitch
+aliases:
+  - prince Karageorgevitch
+  - Prince Karageorgevitch
+  - Karageorgevitch
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # prince Karageorgevitch
 
 ## Basic Information

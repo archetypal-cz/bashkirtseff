@@ -1,3 +1,13 @@
+---
+id: BERLIN
+name: Berlin
+aliases:
+  - Berlin
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Berlin
 
 **Research Status**: Basic

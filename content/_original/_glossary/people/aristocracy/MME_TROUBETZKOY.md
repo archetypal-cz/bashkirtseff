@@ -1,3 +1,14 @@
+---
+id: MME_TROUBETZKOY
+name: Mme Troubetzkoy
+aliases:
+  - Mme Troubetzkoy
+  - Troubetzkoy
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Troubetzkoy
 
 ## Basic Information

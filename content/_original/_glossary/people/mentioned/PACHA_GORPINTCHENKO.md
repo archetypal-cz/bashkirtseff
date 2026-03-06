@@ -1,3 +1,14 @@
+---
+id: PACHA_GORPINTCHENKO
+name: Pacha Gorpintchenko
+aliases:
+  - Pacha Gorpintchenko
+  - Gorpintchenko
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pacha Gorpintchenko
 
 ## Basic Information

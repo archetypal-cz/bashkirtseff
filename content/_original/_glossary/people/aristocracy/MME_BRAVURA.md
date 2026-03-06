@@ -1,3 +1,14 @@
+---
+id: MME_BRAVURA
+name: Mme Bravura
+aliases:
+  - Mme Bravura
+  - Bravura
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Bravura
 
 ## Basic Information

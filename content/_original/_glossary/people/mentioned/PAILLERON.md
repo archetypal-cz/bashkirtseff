@@ -1,3 +1,13 @@
+---
+id: PAILLERON
+name: Pailleron
+aliases:
+  - Pailleron
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pailleron
 
 ## Basic Information

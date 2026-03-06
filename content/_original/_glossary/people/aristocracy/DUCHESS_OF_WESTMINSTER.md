@@ -1,3 +1,14 @@
+---
+id: DUCHESS_OF_WESTMINSTER
+name: Duchess of Westminster
+aliases:
+  - Duchess of Westminster
+  - Westminster
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duchess of Westminster
 
 ## Basic Information

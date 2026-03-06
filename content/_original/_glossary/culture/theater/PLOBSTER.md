@@ -1,3 +1,13 @@
+---
+id: PLOBSTER
+name: Plobster
+aliases:
+  - Plobster
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Plobster
 
 **Research Status**: Moderate

@@ -1,3 +1,13 @@
+---
+id: GLORIAE_CUPIDITAS
+name: Gloriae Cupiditas
+aliases:
+  - Gloriae Cupiditas
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gloriae Cupiditas
 
 **Research Status**: Basic  

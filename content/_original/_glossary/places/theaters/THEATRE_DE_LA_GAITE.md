@@ -1,3 +1,13 @@
+---
+id: THEATRE_DE_LA_GAITE
+name: Theatre de la Gaite
+aliases:
+  - Theatre de la Gaite
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Theatre de la Gaite
 
 ## Basic Information

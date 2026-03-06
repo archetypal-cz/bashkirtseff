@@ -1,3 +1,14 @@
+---
+id: MONTE_CARLO
+name: Monte-Carlo
+aliases:
+  - Monte-Carlo
+  - Monte Carlo
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Monte-Carlo
 
 ## Basic Information

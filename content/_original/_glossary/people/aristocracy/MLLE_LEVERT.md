@@ -1,3 +1,14 @@
+---
+id: MLLE_LEVERT
+name: Mlle Levert
+aliases:
+  - Mlle Levert
+  - Levert
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Levert
 
 ## Basic Information

@@ -1,3 +1,17 @@
+---
+id: DR_HACTIUS
+name: Dr. Hactius (Docteur Hactius)
+aliases:
+  - Dr. Hactius (Docteur Hactius)
+  - Docteur Hactius
+  - Dr. Hactius
+  - Dr Hactius
+  - Hactius
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dr. Hactius (Docteur Hactius)
 
 **Research Status**: Moderate

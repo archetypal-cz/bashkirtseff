@@ -1,6 +1,8 @@
 ---
 id: BASHKIRTSEFF
 name: Bashkirtseff
+aliases:
+  - Bashkirtseff
 type: Person
 category: people/core
 research_status: Stub
@@ -10,7 +12,7 @@ languages:
   - uk
 original_script: Башкирцева
 transliteration: Bashkirtseva
-pronunciation: "https://translate.google.com/?sl=ru&tl=en&text=Башкирцева"
+pronunciation: https://translate.google.com/?sl=ru&tl=en&text=Башкирцева
 ---
 
 %% GLO_BASHKIRTSEFF.0001 %%

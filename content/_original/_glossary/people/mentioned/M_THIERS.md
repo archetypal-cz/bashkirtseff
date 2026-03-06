@@ -1,3 +1,14 @@
+---
+id: M_THIERS
+name: M Thiers
+aliases:
+  - M Thiers
+  - Thiers
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Thiers
 
 ## Basic Information

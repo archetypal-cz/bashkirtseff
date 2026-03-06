@@ -1,3 +1,13 @@
+---
+id: ROBINSON
+name: Robinson
+aliases:
+  - Robinson
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Robinson
 
 ## Basic Information

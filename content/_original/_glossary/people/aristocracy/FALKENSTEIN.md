@@ -1,3 +1,14 @@
+---
+id: FALKENSTEIN
+name: La Falkenstein
+aliases:
+  - La Falkenstein
+  - Falkenstein
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # La Falkenstein
 
 **Research Status**: Basic

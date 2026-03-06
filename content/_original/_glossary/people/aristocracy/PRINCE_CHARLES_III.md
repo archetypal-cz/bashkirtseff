@@ -1,6 +1,11 @@
 ---
 id: PRINCE_CHARLES_III
 name: Charles III, Prince of Monaco
+aliases:
+  - Charles III, Prince of Monaco
+  - Prince Charles Iii
+  - Charles
+  - Monaco
 type: Person
 category: people/aristocracy
 research_status: Moderate

@@ -1,3 +1,14 @@
+---
+id: MME_SINANIDES
+name: Mme Sinanides
+aliases:
+  - Mme Sinanides
+  - Sinanides
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Sinanides
 
 ## Basic Information

@@ -1,6 +1,8 @@
 ---
 id: LOVE
 name: Love
+aliases:
+  - Love
 type: Culture
 category: culture/themes
 research_status: Moderate

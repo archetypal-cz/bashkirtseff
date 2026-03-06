@@ -1,3 +1,13 @@
+---
+id: BOULEVARD_MALESHERBES
+name: Boulevard Malesherbes
+aliases:
+  - Boulevard Malesherbes
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Boulevard Malesherbes
 
 **Research Status**: Moderate

@@ -1,3 +1,13 @@
+---
+id: AVIGDOR
+name: Avigdor
+aliases:
+  - Avigdor
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Avigdor
 
 **Research Status**: Basic

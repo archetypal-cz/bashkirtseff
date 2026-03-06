@@ -1,3 +1,13 @@
+---
+id: SCHAH
+name: Schah
+aliases:
+  - Schah
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Schah
 
 ## Basic Information

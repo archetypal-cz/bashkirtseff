@@ -1,3 +1,13 @@
+---
+id: COMPOSITION
+name: Composition
+aliases:
+  - Composition
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Composition
 
 **Research Status**: Stub

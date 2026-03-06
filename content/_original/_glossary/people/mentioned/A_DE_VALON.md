@@ -1,3 +1,14 @@
+---
+id: A_DE_VALON
+name: A de Valon
+aliases:
+  - A de Valon
+  - Valon
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # A de Valon
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: SEVILLE
+name: Seville (Seville)
+aliases:
+  - Seville (Seville)
+  - Seville
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Seville (Seville)
 
 **Research Status**: Basic

@@ -1,3 +1,16 @@
+---
+id: CAPO_DI_MONTE
+name: Capo di Monte
+aliases:
+  - Capo di Monte
+  - Capo Di Monte
+  - Monte
+  - Capo
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Capo di Monte
 
 ## Basic Information

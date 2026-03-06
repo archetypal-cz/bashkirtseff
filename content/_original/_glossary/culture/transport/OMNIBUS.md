@@ -1,6 +1,8 @@
 ---
 id: OMNIBUS
 name: Omnibus
+aliases:
+  - Omnibus
 type: Culture
 category: culture/transport
 research_status: Moderate

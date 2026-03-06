@@ -1,3 +1,14 @@
+---
+id: REHBERG
+name: Dr. Rehberg
+aliases:
+  - Dr. Rehberg
+  - Rehberg
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dr. Rehberg
 
 **Research Status**: Basic

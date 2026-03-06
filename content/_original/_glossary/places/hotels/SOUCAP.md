@@ -1,3 +1,13 @@
+---
+id: SOUCAP
+name: Soucap
+aliases:
+  - Soucap
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Soucap
 
 **Research Status**: Basic

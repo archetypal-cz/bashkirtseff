@@ -1,3 +1,14 @@
+---
+id: MADAME_DE_MOUZAY
+name: Madame de Mouzay
+aliases:
+  - Madame de Mouzay
+  - Mouzay
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame de Mouzay
 
 ## Basic Information

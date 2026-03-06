@@ -1,6 +1,10 @@
 ---
 id: SAETONE
 name: Saetone (Andriot)
+aliases:
+  - Saetone (Andriot)
+  - Saetone
+  - Andriot
 type: Person
 category: people/recurring
 research_status: Moderate

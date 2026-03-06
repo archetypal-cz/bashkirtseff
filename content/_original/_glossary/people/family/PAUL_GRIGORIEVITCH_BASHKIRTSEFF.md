@@ -1,3 +1,15 @@
+---
+id: PAUL_GRIGORIEVITCH_BASHKIRTSEFF
+name: Paul Grigorievitch Bashkirtseff
+aliases:
+  - Paul Grigorievitch Bashkirtseff
+  - Bashkirtseff
+  - Paul
+type: Person
+category: people/family
+research_status: Basic
+last_updated: 2026-03-06
+---
 Looking at both entries, they are essentially identical — the only difference is the source entry has proper French diacritics ("même féroce" vs "meme feroce"). Let me produce the merged entry with the diacritics preserved.
 
 # Paul Grigorievitch Bashkirtseff

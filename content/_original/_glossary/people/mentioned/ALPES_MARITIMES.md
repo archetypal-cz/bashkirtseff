@@ -1,3 +1,14 @@
+---
+id: ALPES_MARITIMES
+name: Alpes Maritimes
+aliases:
+  - Alpes Maritimes
+  - Maritimes
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Alpes Maritimes
 
 ## Basic Information

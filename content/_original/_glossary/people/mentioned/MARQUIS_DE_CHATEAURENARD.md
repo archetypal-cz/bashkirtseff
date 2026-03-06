@@ -1,3 +1,14 @@
+---
+id: MARQUIS_DE_CHATEAURENARD
+name: Marquis de Chateaurenard
+aliases:
+  - Marquis de Chateaurenard
+  - Chateaurenard
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marquis de Chateaurenard
 
 ## Basic Information

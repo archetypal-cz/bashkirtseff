@@ -1,3 +1,13 @@
+---
+id: AMELIE
+name: Amelie
+aliases:
+  - Amelie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Amelie
 
 **Research Status**: Stub

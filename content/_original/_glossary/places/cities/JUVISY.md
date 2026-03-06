@@ -1,3 +1,14 @@
+---
+id: JUVISY
+name: Juvisy Family
+aliases:
+  - Juvisy Family
+  - Juvisy
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Juvisy Family
 
 **Research Status**: Basic

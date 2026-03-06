@@ -1,3 +1,15 @@
+---
+id: PRINCESS_DE_SAGAN
+name: Princess de Sagan
+aliases:
+  - Princess de Sagan
+  - Princess
+  - Sagan
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princess de Sagan
 
 **Research Status**: Stub

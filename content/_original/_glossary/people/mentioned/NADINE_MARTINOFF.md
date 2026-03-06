@@ -1,3 +1,14 @@
+---
+id: NADINE_MARTINOFF
+name: Nadine Martinoff
+aliases:
+  - Nadine Martinoff
+  - Martinoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Nadine Martinoff
 
 **Research Status**: Moderate

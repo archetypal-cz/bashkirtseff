@@ -1,3 +1,13 @@
+---
+id: KURHAUS
+name: Kurhaus
+aliases:
+  - Kurhaus
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Kurhaus
 
 ## Basic Information

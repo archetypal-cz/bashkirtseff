@@ -1,3 +1,14 @@
+---
+id: ACADEMIE_MEDICIS
+name: Academie Medicis
+aliases:
+  - Academie Medicis
+  - Medicis
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Academie Medicis
 
 ## Basic Information

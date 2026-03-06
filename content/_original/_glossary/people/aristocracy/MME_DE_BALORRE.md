@@ -1,3 +1,14 @@
+---
+id: MME_DE_BALORRE
+name: Mme de Balorre
+aliases:
+  - Mme de Balorre
+  - Balorre
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme de Balorre
 
 ## Basic Information

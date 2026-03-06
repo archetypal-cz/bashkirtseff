@@ -1,3 +1,14 @@
+---
+id: FAUBOURG_SAINT_GERMAIN
+name: Faubourg Saint-Germain
+aliases:
+  - Faubourg Saint-Germain
+  - Faubourg Saint Germain
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Faubourg Saint-Germain
 
 **Research Status**: Stub

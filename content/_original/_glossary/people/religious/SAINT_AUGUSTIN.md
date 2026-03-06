@@ -1,3 +1,14 @@
+---
+id: SAINT_AUGUSTIN
+name: Saint Augustin
+aliases:
+  - Saint Augustin
+  - Augustin
+type: Person
+category: people/religious
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Saint Augustin
 
 **Research Status**: Stub

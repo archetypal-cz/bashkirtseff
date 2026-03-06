@@ -1,3 +1,13 @@
+---
+id: OPERA_DE_PARIS
+name: Opera de Paris
+aliases:
+  - Opera de Paris
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Opera de Paris
 
 **Research Status**: Stub

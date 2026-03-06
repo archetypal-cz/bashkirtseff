@@ -1,3 +1,14 @@
+---
+id: CATHERINE_ERISTOFF
+name: Catherine Eristoff
+aliases:
+  - Catherine Eristoff
+  - Eristoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Catherine Eristoff
 
 **Research Status**: Basic

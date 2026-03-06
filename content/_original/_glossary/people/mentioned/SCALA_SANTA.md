@@ -1,3 +1,14 @@
+---
+id: SCALA_SANTA
+name: Scala Santa
+aliases:
+  - Scala Santa
+  - Santa
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Scala Santa
 
 ## Basic Information

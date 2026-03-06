@@ -1,3 +1,14 @@
+---
+id: LEA_D_ASCO
+name: Léa d'Asco
+aliases:
+  - Léa d'Asco
+  - Lea d'Asco
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Léa d'Asco
 
 **Research Status**: Basic

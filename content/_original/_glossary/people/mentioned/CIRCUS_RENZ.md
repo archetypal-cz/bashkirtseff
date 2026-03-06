@@ -1,3 +1,14 @@
+---
+id: CIRCUS_RENZ
+name: Circus Renz
+aliases:
+  - Circus Renz
+  - Renz
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Circus Renz
 
 ## Basic Information

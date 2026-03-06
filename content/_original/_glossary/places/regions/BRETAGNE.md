@@ -1,3 +1,15 @@
+---
+id: BRETAGNE
+name: Bretagne (Brittany)
+aliases:
+  - Bretagne (Brittany)
+  - Bretagne
+  - Brittany
+type: Place
+category: places/regions
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bretagne (Brittany)
 
 **Research Status**: Basic

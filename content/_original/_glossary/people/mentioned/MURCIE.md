@@ -1,3 +1,13 @@
+---
+id: MURCIE
+name: Murcie
+aliases:
+  - Murcie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Murcie
 
 **Research Status**: Stub

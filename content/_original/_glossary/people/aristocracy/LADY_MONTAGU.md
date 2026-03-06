@@ -1,6 +1,10 @@
 ---
 id: LADY_MONTAGU
 name: Lady Mary Montagu
+aliases:
+  - Lady Mary Montagu
+  - Lady Montagu
+  - Montagu
 type: Person
 category: people/aristocracy
 research_status: Redirect

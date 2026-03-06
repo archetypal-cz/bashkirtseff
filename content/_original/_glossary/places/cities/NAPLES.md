@@ -1,3 +1,15 @@
+---
+id: NAPLES
+name: Naples (Napoli)
+aliases:
+  - Naples (Napoli)
+  - Naples
+  - Napoli
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Naples (Napoli)
 
 **Research Status**: Comprehensive

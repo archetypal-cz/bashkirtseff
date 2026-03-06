@@ -1,3 +1,15 @@
+---
+id: RUE_DU_CHATEAU_DEAU
+name: Rue du Chateau dEau
+aliases:
+  - Rue du Chateau dEau
+  - Rue du Chateau Deau
+  - dEau
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue du Chateau dEau
 
 **Research Status**: Stub

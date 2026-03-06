@@ -1,6 +1,9 @@
 ---
 id: COQUELIN_CADET
 name: Coquelin cadet
+aliases:
+  - Coquelin cadet
+  - Coquelin Cadet
 type: Culture
 category: culture/theater
 research_status: Moderate

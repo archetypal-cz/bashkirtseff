@@ -1,3 +1,13 @@
+---
+id: MARQUISE_DE_SAN_CARLOS
+name: Marquise de San Carlos
+aliases:
+  - Marquise de San Carlos
+type: Culture
+category: culture/newspapers
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marquise de San Carlos
 
 **Research Status**: Basic

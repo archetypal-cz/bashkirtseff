@@ -1,3 +1,14 @@
+---
+id: JARDIN_DACCLIMATATION
+name: Jardin d'Acclimatation
+aliases:
+  - Jardin d'Acclimatation
+  - Jardin Dacclimatation
+type: Place
+category: places/parks
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jardin d'Acclimatation
 
 **Research Status**: Moderate

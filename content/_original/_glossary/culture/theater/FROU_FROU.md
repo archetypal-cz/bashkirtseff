@@ -1,6 +1,9 @@
 ---
 id: FROU_FROU
 name: Frou-Frou
+aliases:
+  - Frou-Frou
+  - Frou Frou
 type: Culture
 category: culture/theater
 research_status: Moderate

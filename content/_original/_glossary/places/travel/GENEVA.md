@@ -1,3 +1,13 @@
+---
+id: GENEVA
+name: Geneva
+aliases:
+  - Geneva
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Geneva
 
 **Research Status**: Moderate

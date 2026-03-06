@@ -1,3 +1,13 @@
+---
+id: THEATRE_HISTORIQUE
+name: Theatre Historique
+aliases:
+  - Theatre Historique
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Theatre Historique
 
 ## Basic Information

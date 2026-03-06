@@ -1,3 +1,14 @@
+---
+id: COMTE_PROTASSOFF_BACHMATIEFF
+name: Comte Protassoff Bachmatieff
+aliases:
+  - Comte Protassoff Bachmatieff
+  - Bachmatieff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte Protassoff Bachmatieff
 
 ## Basic Information

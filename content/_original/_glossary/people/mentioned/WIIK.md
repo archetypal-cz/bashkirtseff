@@ -1,3 +1,13 @@
+---
+id: WIIK
+name: Wiik
+aliases:
+  - Wiik
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Wiik
 
 **Research Status**: Stub

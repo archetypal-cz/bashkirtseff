@@ -1,3 +1,15 @@
+---
+id: ARIANE_DE_DANNEKER
+name: Ariane de Danneker
+aliases:
+  - Ariane de Danneker
+  - Danneker
+  - Ariane
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ariane de Danneker
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: M_DE_TUNIS
+name: M de Tunis
+aliases:
+  - M de Tunis
+  - Tunis
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Tunis
 
 ## Basic Information

@@ -1,6 +1,10 @@
 ---
 id: BOJIDAR
 name: Prince Bojidar Karageorgevitch
+aliases:
+  - Prince Bojidar Karageorgevitch
+  - Karageorgevitch
+  - Bojidar
 type: Person
 category: people/recurring
 research_status: Moderate

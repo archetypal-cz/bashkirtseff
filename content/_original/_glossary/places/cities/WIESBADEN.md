@@ -1,13 +1,15 @@
 ---
 id: WIESBADEN
 name: Wiesbaden
+aliases:
+  - Wiesbaden
 type: Place
 category: places/cities
 research_status: Moderate
 last_updated: 2026-02-10
 languages:
   - de
-pronunciation: "https://translate.google.com/?sl=de&tl=en&text=Wiesbaden"
+pronunciation: https://translate.google.com/?sl=de&tl=en&text=Wiesbaden
 ---
 
 # Wiesbaden

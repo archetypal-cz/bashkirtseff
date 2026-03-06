@@ -1,3 +1,13 @@
+---
+id: MACKAY
+name: Mackay
+aliases:
+  - Mackay
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mackay
 
 Stub entry — needs research.

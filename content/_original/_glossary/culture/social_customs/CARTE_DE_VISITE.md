@@ -1,6 +1,9 @@
 ---
 id: CARTE_DE_VISITE
 name: Carte de visite
+aliases:
+  - Carte de visite
+  - Carte de Visite
 type: Culture
 category: culture/social_customs
 research_status: Moderate

@@ -1,3 +1,15 @@
+---
+id: ROME
+name: Rome (Roma)
+aliases:
+  - Rome (Roma)
+  - Rome
+  - Roma
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rome (Roma)
 
 **Research Status**: Comprehensive

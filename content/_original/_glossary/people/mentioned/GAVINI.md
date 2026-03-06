@@ -1,3 +1,14 @@
+---
+id: GAVINI
+name: Gavini Family
+aliases:
+  - Gavini Family
+  - Gavini
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gavini Family
 
 **Research Status**: Moderate

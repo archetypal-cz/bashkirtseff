@@ -1,3 +1,14 @@
+---
+id: JULIETTE_LAMBERT
+name: Juliette Lambert
+aliases:
+  - Juliette Lambert
+  - Lambert
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Juliette Lambert
 
 **Research Status**: Stub

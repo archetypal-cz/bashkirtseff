@@ -1,3 +1,15 @@
+---
+id: REBOUX
+name: Reboux (Caroline Reboux)
+aliases:
+  - Reboux (Caroline Reboux)
+  - Caroline Reboux
+  - Reboux
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Reboux (Caroline Reboux)
 
 **Research Status**: Comprehensive

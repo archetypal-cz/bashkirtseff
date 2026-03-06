@@ -1,3 +1,15 @@
+---
+id: MME_DE_LA_VALETTE
+name: Mme de La Valette
+aliases:
+  - Mme de La Valette
+  - Mme de la Valette
+  - Valette
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme de La Valette
 
 ## Basic Information

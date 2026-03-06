@@ -1,3 +1,14 @@
+---
+id: M_ROBERT_LANCASTER
+name: M Robert Lancaster
+aliases:
+  - M Robert Lancaster
+  - Lancaster
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Robert Lancaster
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: CHARLOTTE_CORDAY
+name: Charlotte Corday (play)
+aliases:
+  - Charlotte Corday (play)
+  - Charlotte Corday
+  - play
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Charlotte Corday (play)
 
 **Research Status**: Moderate

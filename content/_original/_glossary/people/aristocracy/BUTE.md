@@ -1,3 +1,13 @@
+---
+id: BUTE
+name: Bute
+aliases:
+  - Bute
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bute
 
 **Research Status**: Basic

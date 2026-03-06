@@ -1,3 +1,14 @@
+---
+id: VOCHA_DANILOVSKI
+name: Vocha Danilovski
+aliases:
+  - Vocha Danilovski
+  - Danilovski
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vocha Danilovski
 
 **Research Status**: Basic

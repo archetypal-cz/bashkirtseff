@@ -1,6 +1,11 @@
 ---
 id: ISABELLE_DE_BAVIERE
 name: Isabel de Baviere (Dumas)
+aliases:
+  - Isabel de Baviere (Dumas)
+  - Isabelle de Baviere
+  - Isabel de Baviere
+  - Dumas
 type: Culture
 category: culture/literature
 research_status: Moderate

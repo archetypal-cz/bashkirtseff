@@ -1,3 +1,14 @@
+---
+id: ARC_DE_TRIOMPHE
+name: Arc de Triomphe
+aliases:
+  - Arc de Triomphe
+  - Triomphe
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Arc de Triomphe
 
 ## Basic Information

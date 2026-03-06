@@ -1,3 +1,14 @@
+---
+id: MME_ADAM
+name: Mme Adam
+aliases:
+  - Mme Adam
+  - Adam
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Adam
 
 **Research Status**: Stub

@@ -1,3 +1,15 @@
+---
+id: CAMPAGNE_DE_ROME
+name: Campagne de Rome
+aliases:
+  - Campagne de Rome
+  - Campagne
+  - Rome
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Campagne de Rome
 
 ## Basic Information

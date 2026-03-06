@@ -1,6 +1,9 @@
 ---
 id: DUCHESSE_DE_MOUCHY
 name: Duchesse de Mouchy
+aliases:
+  - Duchesse de Mouchy
+  - Mouchy
 type: Person
 category: people/aristocracy
 research_status: Basic

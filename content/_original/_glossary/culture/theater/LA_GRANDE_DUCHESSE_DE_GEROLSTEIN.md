@@ -1,6 +1,9 @@
 ---
 id: LA_GRANDE_DUCHESSE_DE_GEROLSTEIN
 name: La Grande-Duchesse de Gerolstein
+aliases:
+  - La Grande-Duchesse de Gerolstein
+  - La Grande Duchesse de Gerolstein
 type: Culture
 category: culture/theater
 research_status: Moderate

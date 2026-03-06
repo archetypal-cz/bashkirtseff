@@ -1,3 +1,13 @@
+---
+id: RUE_DE_ROME
+name: Rue de Rome
+aliases:
+  - Rue de Rome
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue de Rome
 
 ## Basic Information

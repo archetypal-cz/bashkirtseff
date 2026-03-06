@@ -1,3 +1,13 @@
+---
+id: CHANTILLY
+name: Chantilly
+aliases:
+  - Chantilly
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Chantilly
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: NAPOLEON_III
+name: Napoleon III
+aliases:
+  - Napoleon III
+  - Napoleon Iii
+type: Person
+category: people/politicians
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Napoleon III
 
 **Research Status**: Stub

@@ -1,3 +1,14 @@
+---
+id: BARON_D_ALT
+name: Baron d Alt
+aliases:
+  - Baron d Alt
+  - Baron d'Alt
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron d Alt
 
 ## Basic Information

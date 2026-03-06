@@ -1,3 +1,14 @@
+---
+id: COMTE_DE_CHARSY
+name: Comte de Charsy
+aliases:
+  - Comte de Charsy
+  - Charsy
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte de Charsy
 
 **Research Status**: Basic

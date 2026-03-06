@@ -1,3 +1,16 @@
+---
+id: HOTEL_DE_LA_COURONNE
+name: Hôtel de la Couronne (Geneva)
+aliases:
+  - Hôtel de la Couronne (Geneva)
+  - Hôtel de la Couronne
+  - Hotel de la Couronne
+  - Geneva
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hôtel de la Couronne (Geneva)
 
 **Research Status**: Basic

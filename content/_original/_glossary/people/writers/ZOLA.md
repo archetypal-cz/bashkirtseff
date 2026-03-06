@@ -1,6 +1,9 @@
 ---
 id: ZOLA
 name: Emile Zola
+aliases:
+  - Emile Zola
+  - Zola
 type: Person
 category: people/writers
 research_status: Moderate

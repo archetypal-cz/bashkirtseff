@@ -1,3 +1,14 @@
+---
+id: M_GOLDSMID
+name: M Goldsmid
+aliases:
+  - M Goldsmid
+  - Goldsmid
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Goldsmid
 
 ## Basic Information

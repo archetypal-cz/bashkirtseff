@@ -1,3 +1,13 @@
+---
+id: VOISIN
+name: Voisin
+aliases:
+  - Voisin
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Voisin
 
 ## Basic Information

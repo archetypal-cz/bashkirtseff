@@ -1,3 +1,13 @@
+---
+id: OPERA
+name: Opera
+aliases:
+  - Opera
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Opera
 
 **Research Status**: Stub

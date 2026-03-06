@@ -1,3 +1,15 @@
+---
+id: JANVIER_DE_LA_MOTTE
+name: Janvier de la Motte
+aliases:
+  - Janvier de la Motte
+  - Janvier
+  - Motte
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Janvier de la Motte
 
 **Research Status**: Stub

@@ -1,3 +1,14 @@
+---
+id: HOTEL_DE_LA_PAIX
+name: Hôtel de la Paix
+aliases:
+  - Hôtel de la Paix
+  - Hotel de la Paix
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hôtel de la Paix
 
 **Research Status**: Basic

@@ -1,3 +1,15 @@
+---
+id: BERTHE
+name: Berthe (Berthe Boyd, Mlle Boyd)
+aliases:
+  - Berthe (Berthe Boyd, Mlle Boyd)
+  - Berthe Boyd, Mlle Boyd
+  - Berthe
+type: Person
+category: people/recurring
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Berthe (Berthe Boyd, Mlle Boyd)
 
 **Research Status**: Moderate

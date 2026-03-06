@@ -1,3 +1,16 @@
+---
+id: REMY_DE_GONZALES
+name: Rémy de Gonzalès
+aliases:
+  - Rémy de Gonzalès
+  - Remy de Gonzales
+  - Gonzalès
+  - Rémy
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rémy de Gonzalès
 
 **Research Status**: Basic

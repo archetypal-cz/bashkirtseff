@@ -1,3 +1,15 @@
+---
+id: SEINE_ET_MARNE
+name: Seine et Marne
+aliases:
+  - Seine et Marne
+  - Marne
+  - Seine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Seine et Marne
 
 ## Basic Information

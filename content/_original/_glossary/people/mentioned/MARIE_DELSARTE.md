@@ -1,3 +1,14 @@
+---
+id: MARIE_DELSARTE
+name: Marie Delsarte
+aliases:
+  - Marie Delsarte
+  - Delsarte
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie Delsarte
 
 ## Basic Information

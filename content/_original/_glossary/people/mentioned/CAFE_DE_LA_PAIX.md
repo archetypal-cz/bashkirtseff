@@ -1,3 +1,16 @@
+---
+id: CAFE_DE_LA_PAIX
+name: cafe de la Paix
+aliases:
+  - cafe de la Paix
+  - Cafe de la Paix
+  - Paix
+  - cafe
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # cafe de la Paix
 
 ## Basic Information

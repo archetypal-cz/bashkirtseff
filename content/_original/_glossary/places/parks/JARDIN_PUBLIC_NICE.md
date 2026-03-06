@@ -1,3 +1,13 @@
+---
+id: JARDIN_PUBLIC_NICE
+name: Jardin Public Nice
+aliases:
+  - Jardin Public Nice
+type: Place
+category: places/parks
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Jardin Public Nice
 
 **Research Status**: Basic

@@ -1,3 +1,14 @@
+---
+id: BARON_DE_MERTENS
+name: Baron de Mertens
+aliases:
+  - Baron de Mertens
+  - Mertens
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron de Mertens
 
 ## Basic Information

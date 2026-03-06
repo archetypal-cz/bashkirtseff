@@ -1,3 +1,14 @@
+---
+id: M_MALTZOV
+name: M Maltzov
+aliases:
+  - M Maltzov
+  - Maltzov
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Maltzov
 
 ## Basic Information

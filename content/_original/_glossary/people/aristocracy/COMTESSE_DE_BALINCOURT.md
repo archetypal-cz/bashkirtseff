@@ -1,3 +1,14 @@
+---
+id: COMTESSE_DE_BALINCOURT
+name: Comtesse de Balincourt
+aliases:
+  - Comtesse de Balincourt
+  - Balincourt
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comtesse de Balincourt
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: QUARTIER_LATIN
+name: Quartier latin
+aliases:
+  - Quartier latin
+  - Quartier Latin
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Quartier latin
 
 ## Basic Information

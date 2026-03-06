@@ -1,3 +1,14 @@
+---
+id: D_ALT
+name: d Alt
+aliases:
+  - d Alt
+  - d'Alt
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # d Alt
 
 ## Basic Information

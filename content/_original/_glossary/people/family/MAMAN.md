@@ -1,6 +1,11 @@
 ---
 id: MAMAN
 name: Maria Stepanovna Babanina
+aliases:
+  - Maria Stepanovna Babanina
+  - Babanina
+  - Maria
+  - Maman
 type: Person
 category: people/family
 research_status: Comprehensive

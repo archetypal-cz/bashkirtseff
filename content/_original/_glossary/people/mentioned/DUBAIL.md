@@ -1,3 +1,13 @@
+---
+id: DUBAIL
+name: Dubail
+aliases:
+  - Dubail
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dubail
 
 **Research Status**: Stub

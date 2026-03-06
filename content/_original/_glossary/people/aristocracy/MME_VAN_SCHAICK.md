@@ -1,3 +1,15 @@
+---
+id: MME_VAN_SCHAICK
+name: Mme Van Schaick
+aliases:
+  - Mme Van Schaick
+  - Mme van Schaick
+  - Schaick
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Van Schaick
 
 ## Basic Information

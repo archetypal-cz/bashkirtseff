@@ -1,3 +1,14 @@
+---
+id: DEUX_PIGEONS
+name: Deux Pigeons
+aliases:
+  - Deux Pigeons
+  - Pigeons
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Deux Pigeons
 
 ## Basic Information

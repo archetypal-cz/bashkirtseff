@@ -1,3 +1,13 @@
+---
+id: FAURE
+name: Faure
+aliases:
+  - Faure
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Faure
 
 **Research Status**: Stub

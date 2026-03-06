@@ -1,3 +1,14 @@
+---
+id: BARONNE_DE_WYKERSLOOTH
+name: Baronne de Wykerslooth
+aliases:
+  - Baronne de Wykerslooth
+  - Wykerslooth
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baronne de Wykerslooth
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: ADOLPHE_GRANIER_DE_CASSAGNAC
+name: Adolphe Granier de Cassagnac
+aliases:
+  - Adolphe Granier de Cassagnac
+  - Cassagnac
+  - Adolphe
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Adolphe Granier de Cassagnac
 
 ## Basic Information

@@ -1,6 +1,8 @@
 ---
 id: TRAVEL
 name: Travel
+aliases:
+  - Travel
 type: Culture
 category: culture/themes
 research_status: Moderate

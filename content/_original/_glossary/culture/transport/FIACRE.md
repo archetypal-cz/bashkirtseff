@@ -1,6 +1,8 @@
 ---
 id: FIACRE
 name: Fiacre
+aliases:
+  - Fiacre
 type: Culture
 category: culture/transport
 research_status: Moderate

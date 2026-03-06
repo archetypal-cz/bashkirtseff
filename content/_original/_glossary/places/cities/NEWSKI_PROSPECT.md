@@ -1,3 +1,15 @@
+---
+id: NEWSKI_PROSPECT
+name: Newski Prospect (Nevsky Prospekt)
+aliases:
+  - Newski Prospect (Nevsky Prospekt)
+  - Newski Prospect
+  - Nevsky Prospekt
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Newski Prospect (Nevsky Prospekt)
 
 **Research Status**: Basic

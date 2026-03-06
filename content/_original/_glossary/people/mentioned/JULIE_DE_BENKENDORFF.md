@@ -1,3 +1,15 @@
+---
+id: JULIE_DE_BENKENDORFF
+name: Julie de Benkendorff
+aliases:
+  - Julie de Benkendorff
+  - Benkendorff
+  - Julie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Julie de Benkendorff
 
 ## Basic Information

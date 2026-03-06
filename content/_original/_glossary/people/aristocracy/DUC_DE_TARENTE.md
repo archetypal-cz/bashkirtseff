@@ -1,3 +1,14 @@
+---
+id: DUC_DE_TARENTE
+name: Duc de Tarente
+aliases:
+  - Duc de Tarente
+  - Tarente
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc de Tarente
 
 **Research Status**: Stub

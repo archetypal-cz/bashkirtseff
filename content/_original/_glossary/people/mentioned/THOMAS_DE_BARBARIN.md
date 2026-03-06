@@ -1,3 +1,15 @@
+---
+id: THOMAS_DE_BARBARIN
+name: Thomas de Barbarin
+aliases:
+  - Thomas de Barbarin
+  - Barbarin
+  - Thomas
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Thomas de Barbarin
 
 **Research Status**: Basic

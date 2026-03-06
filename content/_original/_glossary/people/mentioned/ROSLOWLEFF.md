@@ -1,3 +1,14 @@
+---
+id: ROSLOWLEFF
+name: Les demoiselles Roslowleff
+aliases:
+  - Les demoiselles Roslowleff
+  - Roslowleff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les demoiselles Roslowleff
 
 **Research Status**: Basic

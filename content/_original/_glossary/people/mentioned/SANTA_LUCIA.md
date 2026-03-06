@@ -1,3 +1,14 @@
+---
+id: SANTA_LUCIA
+name: Santa Lucia
+aliases:
+  - Santa Lucia
+  - Lucia
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Santa Lucia
 
 ## Basic Information

@@ -1,3 +1,13 @@
+---
+id: LAMBERTINI
+name: Lambertini
+aliases:
+  - Lambertini
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lambertini
 
 ## Basic Information

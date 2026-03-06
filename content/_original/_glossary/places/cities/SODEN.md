@@ -1,13 +1,17 @@
 ---
 id: SODEN
 name: Soden (Bad Soden am Taunus)
+aliases:
+  - Soden (Bad Soden am Taunus)
+  - Bad Soden am Taunus
+  - Soden
 type: Place
 category: places/cities
 research_status: Moderate
 last_updated: 2026-02-12
 languages:
   - de
-pronunciation: "https://translate.google.com/?sl=de&tl=en&text=Bad%20Soden%20am%20Taunus"
+pronunciation: https://translate.google.com/?sl=de&tl=en&text=Bad%20Soden%20am%20Taunus
 ---
 
 # Soden (Bad Soden am Taunus)

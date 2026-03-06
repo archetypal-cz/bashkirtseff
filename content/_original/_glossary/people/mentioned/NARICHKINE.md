@@ -1,3 +1,14 @@
+---
+id: NARICHKINE
+name: Mme Narichkine
+aliases:
+  - Mme Narichkine
+  - Narichkine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Narichkine
 
 **Research Status**: Basic

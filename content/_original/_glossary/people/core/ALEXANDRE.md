@@ -1,6 +1,8 @@
 ---
 id: ALEXANDRE
 name: Alexandre
+aliases:
+  - Alexandre
 type: Person
 category: people/core
 research_status: Moderate

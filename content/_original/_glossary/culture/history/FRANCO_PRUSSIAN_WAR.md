@@ -1,3 +1,16 @@
+---
+id: FRANCO_PRUSSIAN_WAR
+name: Franco-Prussian War (1870-1871)
+aliases:
+  - Franco-Prussian War (1870-1871)
+  - Franco-Prussian War
+  - Franco Prussian War
+  - 1870-1871
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Franco-Prussian War (1870-1871)
 
 **Research Status**: Comprehensive

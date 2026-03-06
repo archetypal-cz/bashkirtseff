@@ -1,13 +1,17 @@
 ---
 id: BRESLAU
 name: Louise Breslau
+aliases:
+  - Louise Breslau
+  - Breslau Louise
+  - Breslau
 type: Person
 category: people/recurring
 research_status: Moderate
 last_updated: 2026-02-09
 languages:
   - de
-pronunciation: "https://translate.google.com/?sl=de&tl=en&text=Breslau"
+pronunciation: https://translate.google.com/?sl=de&tl=en&text=Breslau
 ---
 
 # Louise Breslau

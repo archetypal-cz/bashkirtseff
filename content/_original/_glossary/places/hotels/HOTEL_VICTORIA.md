@@ -1,3 +1,13 @@
+---
+id: HOTEL_VICTORIA
+name: Hotel Victoria
+aliases:
+  - Hotel Victoria
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hotel Victoria
 
 ## Basic Information

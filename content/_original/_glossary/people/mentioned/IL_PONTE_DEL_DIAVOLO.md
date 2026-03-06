@@ -1,3 +1,15 @@
+---
+id: IL_PONTE_DEL_DIAVOLO
+name: Il Ponte del Diavolo
+aliases:
+  - Il Ponte del Diavolo
+  - Il Ponte Del Diavolo
+  - Diavolo
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Il Ponte del Diavolo
 
 ## Basic Information

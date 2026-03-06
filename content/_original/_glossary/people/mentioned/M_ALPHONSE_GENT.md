@@ -1,3 +1,14 @@
+---
+id: M_ALPHONSE_GENT
+name: M Alphonse Gent
+aliases:
+  - M Alphonse Gent
+  - Gent
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Alphonse Gent
 
 ## Basic Information

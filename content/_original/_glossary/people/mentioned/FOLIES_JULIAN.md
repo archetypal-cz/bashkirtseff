@@ -1,3 +1,14 @@
+---
+id: FOLIES_JULIAN
+name: Folies-Julian
+aliases:
+  - Folies-Julian
+  - Folies Julian
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Folies-Julian
 
 ## Basic Information

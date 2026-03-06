@@ -1,3 +1,13 @@
+---
+id: PORCHEFONTAINE
+name: Porchefontaine
+aliases:
+  - Porchefontaine
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Porchefontaine
 
 **Research Status**: Moderate

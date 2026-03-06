@@ -1,3 +1,15 @@
+---
+id: PALAIS_DE_L_INDUSTRIE
+name: Palais de l Industrie
+aliases:
+  - Palais de l Industrie
+  - Palais de l'Industrie
+  - Industrie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Palais de l Industrie
 
 **Research Status**: Stub

@@ -1,3 +1,15 @@
+---
+id: LE_GRAND_CASIMIR
+name: Le grand Casimir
+aliases:
+  - Le grand Casimir
+  - Le Grand Casimir
+  - Casimir
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Le grand Casimir
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: CAIRO
+name: Cairo (Le Caire)
+aliases:
+  - Cairo (Le Caire)
+  - Le Caire
+  - Cairo
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cairo (Le Caire)
 
 **Research Status**: Basic

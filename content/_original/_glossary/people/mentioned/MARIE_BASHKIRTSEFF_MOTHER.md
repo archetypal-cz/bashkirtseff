@@ -1,3 +1,16 @@
+---
+id: MARIE_BASHKIRTSEFF_MOTHER
+name: Marie Bashkirtseff mother
+aliases:
+  - Marie Bashkirtseff mother
+  - Marie Bashkirtseff Mother
+  - mother
+  - Marie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie Bashkirtseff mother
 
 ## Basic Information

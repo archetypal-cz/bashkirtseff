@@ -1,3 +1,15 @@
+---
+id: DUC_DE_PADOUE
+name: duc de Padoue
+aliases:
+  - duc de Padoue
+  - Duc de Padoue
+  - Padoue
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # duc de Padoue
 
 ## Basic Information

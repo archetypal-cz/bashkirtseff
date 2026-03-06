@@ -1,3 +1,13 @@
+---
+id: CANNES
+name: Cannes
+aliases:
+  - Cannes
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cannes
 
 **Research Status**: Basic

@@ -1,3 +1,15 @@
+---
+id: PRINCESSE_DE_BEAUHARNAIS
+name: princesse de Beauharnais
+aliases:
+  - princesse de Beauharnais
+  - Princesse de Beauharnais
+  - Beauharnais
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # princesse de Beauharnais
 
 ## Basic Information

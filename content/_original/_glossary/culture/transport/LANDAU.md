@@ -1,6 +1,8 @@
 ---
 id: LANDAU
 name: Landau
+aliases:
+  - Landau
 type: Culture
 category: culture/transport
 research_status: Moderate

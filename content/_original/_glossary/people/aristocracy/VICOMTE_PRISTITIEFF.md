@@ -1,3 +1,14 @@
+---
+id: VICOMTE_PRISTITIEFF
+name: Vicomte Pristitieff
+aliases:
+  - Vicomte Pristitieff
+  - Pristitieff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vicomte Pristitieff
 
 ## Basic Information

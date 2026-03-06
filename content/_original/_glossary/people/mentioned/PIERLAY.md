@@ -1,3 +1,14 @@
+---
+id: PIERLAY
+name: M. et Mme de Pierlay
+aliases:
+  - M. et Mme de Pierlay
+  - Pierlay
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M. et Mme de Pierlay
 
 **Research Status**: Basic

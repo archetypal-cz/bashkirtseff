@@ -1,3 +1,14 @@
+---
+id: PRINCE_OUROUSSOFF
+name: Prince Ouroussoff
+aliases:
+  - Prince Ouroussoff
+  - Ouroussoff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Ouroussoff
 
 **Research Status**: Stub

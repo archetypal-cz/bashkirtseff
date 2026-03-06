@@ -1,3 +1,14 @@
+---
+id: MARTIN_BATON
+name: Martin-Bâton
+aliases:
+  - Martin-Bâton
+  - Martin Baton
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Martin-Bâton
 
 **Research Status**: Basic

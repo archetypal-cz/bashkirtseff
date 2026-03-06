@@ -1,3 +1,16 @@
+---
+id: BARBER_OF_SEVILLE
+name: The Barber of Seville (Le Barbier de Séville)
+aliases:
+  - The Barber of Seville (Le Barbier de Séville)
+  - The Barber of Seville
+  - Le Barbier de Séville
+  - Barber of Seville
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # The Barber of Seville (Le Barbier de Séville)
 
 **Research Status**: Moderate

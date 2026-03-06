@@ -1,3 +1,14 @@
+---
+id: MOUZAY
+name: Comtesse de Mouzay
+aliases:
+  - Comtesse de Mouzay
+  - Mouzay
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comtesse de Mouzay
 
 **Research Status**: Basic

@@ -1,3 +1,14 @@
+---
+id: VILLE_DAVRAY
+name: Ville dAvray
+aliases:
+  - Ville dAvray
+  - Ville Davray
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ville dAvray
 
 **Research Status**: Stub

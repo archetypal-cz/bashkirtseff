@@ -1,3 +1,15 @@
+---
+id: UN_CAS_DE_RUPTURE
+name: Un cas de rupture
+aliases:
+  - Un cas de rupture
+  - Un Cas de Rupture
+  - rupture
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Un cas de rupture
 
 ## Basic Information

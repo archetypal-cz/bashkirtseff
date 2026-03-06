@@ -1,6 +1,10 @@
 ---
 id: PAUL
 name: Paul Bashkirtseff
+aliases:
+  - Paul Bashkirtseff
+  - Bashkirtseff
+  - Paul
 type: Person
 category: people/mentioned
 research_status: Moderate

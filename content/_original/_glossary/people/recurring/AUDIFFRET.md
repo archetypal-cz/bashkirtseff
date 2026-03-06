@@ -1,6 +1,10 @@
 ---
 id: AUDIFFRET
 name: Emile d'Audiffret
+aliases:
+  - Emile d'Audiffret
+  - d'Audiffret
+  - Audiffret
 type: Person
 category: people/recurring
 research_status: Moderate

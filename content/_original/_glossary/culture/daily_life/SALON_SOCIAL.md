@@ -1,6 +1,11 @@
 ---
 id: SALON_SOCIAL
 name: Salon (Social Gathering)
+aliases:
+  - Salon (Social Gathering)
+  - Social Gathering
+  - Salon Social
+  - Salon
 type: Culture
 category: culture/daily_life
 research_status: Moderate

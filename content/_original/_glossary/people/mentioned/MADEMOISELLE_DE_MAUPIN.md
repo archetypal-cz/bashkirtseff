@@ -1,3 +1,14 @@
+---
+id: MADEMOISELLE_DE_MAUPIN
+name: Mademoiselle de Maupin
+aliases:
+  - Mademoiselle de Maupin
+  - Maupin
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mademoiselle de Maupin
 
 **Research Status**: Comprehensive

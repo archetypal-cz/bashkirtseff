@@ -1,3 +1,14 @@
+---
+id: PRINCESS_SOUVOROFF
+name: Princess Souvoroff
+aliases:
+  - Princess Souvoroff
+  - Souvoroff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Princess Souvoroff
 
 **Research Status**: Basic

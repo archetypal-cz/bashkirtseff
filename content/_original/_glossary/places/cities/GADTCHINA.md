@@ -1,3 +1,15 @@
+---
+id: GADTCHINA
+name: Gadtchina (Gatchina)
+aliases:
+  - Gadtchina (Gatchina)
+  - Gadtchina
+  - Gatchina
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Gadtchina (Gatchina)
 
 **Research Status**: Basic

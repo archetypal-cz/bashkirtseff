@@ -1,3 +1,14 @@
+---
+id: GUIDO_RENI
+name: Guido Reni
+aliases:
+  - Guido Reni
+  - Reni
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Guido Reni
 
 ## Basic Information

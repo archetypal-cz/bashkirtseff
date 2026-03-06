@@ -1,3 +1,14 @@
+---
+id: ALBERT_GAUTIER
+name: Albert Gautier
+aliases:
+  - Albert Gautier
+  - Gautier
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Albert Gautier
 
 ## Basic Information

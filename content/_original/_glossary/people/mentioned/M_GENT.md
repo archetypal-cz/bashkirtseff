@@ -1,3 +1,14 @@
+---
+id: M_GENT
+name: M Gent
+aliases:
+  - M Gent
+  - Gent
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Gent
 
 ## Basic Information

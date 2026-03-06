@@ -1,3 +1,14 @@
+---
+id: MEDITERRANEE_CIRCLE
+name: Cercle de la Méditerranée
+aliases:
+  - Cercle de la Méditerranée
+  - Mediterranee Circle
+type: Culture
+category: culture/art
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cercle de la Méditerranée
 
 **Research Status**: Basic

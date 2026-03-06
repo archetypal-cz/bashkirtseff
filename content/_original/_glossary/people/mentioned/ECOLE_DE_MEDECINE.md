@@ -1,3 +1,15 @@
+---
+id: ECOLE_DE_MEDECINE
+name: Ecole de Medecine
+aliases:
+  - Ecole de Medecine
+  - Medecine
+  - Ecole
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Ecole de Medecine
 
 ## Basic Information

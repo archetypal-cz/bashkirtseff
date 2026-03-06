@@ -1,3 +1,13 @@
+---
+id: KARAGEORGEVITCH_PRINCE
+name: Karageorgevitch Prince
+aliases:
+  - Karageorgevitch Prince
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Karageorgevitch Prince
 
 **Research Status**: Stub

@@ -1,6 +1,9 @@
 ---
 id: DUKE_OF_HAMILTON
 name: Duke of Hamilton
+aliases:
+  - Duke of Hamilton
+  - Hamilton
 type: Person
 category: people/core
 research_status: Comprehensive

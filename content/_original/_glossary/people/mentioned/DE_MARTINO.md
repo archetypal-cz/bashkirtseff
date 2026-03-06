@@ -1,3 +1,15 @@
+---
+id: DE_MARTINO
+name: de Martino
+aliases:
+  - de Martino
+  - De Martino
+  - Martino
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # de Martino
 
 ## Basic Information

@@ -1,6 +1,9 @@
 ---
 id: LE_PROCES_VEAURADIEUX
 name: Le Procès Veauradieux
+aliases:
+  - Le Procès Veauradieux
+  - Le Proces Veauradieux
 type: Culture
 category: culture/theater
 research_status: Moderate

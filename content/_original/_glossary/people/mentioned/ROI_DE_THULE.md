@@ -1,3 +1,14 @@
+---
+id: ROI_DE_THULE
+name: Roi de Thule
+aliases:
+  - Roi de Thule
+  - Thule
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Roi de Thule
 
 ## Basic Information

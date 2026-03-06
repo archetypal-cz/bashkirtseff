@@ -1,3 +1,13 @@
+---
+id: LUXEMBOURG
+name: Luxembourg
+aliases:
+  - Luxembourg
+type: Place
+category: places/cities
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Luxembourg
 
 **Research Status**: Basic

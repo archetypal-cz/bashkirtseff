@@ -1,3 +1,15 @@
+---
+id: ALGERIA
+name: Algeria (Algerie)
+aliases:
+  - Algeria (Algerie)
+  - Algeria
+  - Algerie
+type: Place
+category: places/countries
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Algeria (Algerie)
 
 **Research Status**: Moderate

@@ -1,3 +1,14 @@
+---
+id: BARON_DE_NERVO
+name: Baron de Nervo
+aliases:
+  - Baron de Nervo
+  - Nervo
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron de Nervo
 
 **Research Status**: Stub

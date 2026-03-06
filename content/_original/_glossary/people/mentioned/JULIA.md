@@ -1,3 +1,13 @@
+---
+id: JULIA
+name: Julia
+aliases:
+  - Julia
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Julia
 
 **Research Status**: Stub

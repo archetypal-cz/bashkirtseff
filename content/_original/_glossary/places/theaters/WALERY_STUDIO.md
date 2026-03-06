@@ -1,3 +1,13 @@
+---
+id: WALERY_STUDIO
+name: Walery Studio
+aliases:
+  - Walery Studio
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Walery Studio
 
 ## Basic Information

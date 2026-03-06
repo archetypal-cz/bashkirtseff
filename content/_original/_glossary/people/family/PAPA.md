@@ -1,3 +1,15 @@
+---
+id: PAPA
+name: Papa (Constantin Bashkirtseff)
+aliases:
+  - Papa (Constantin Bashkirtseff)
+  - Constantin Bashkirtseff
+  - Papa
+type: Person
+category: people/family
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Papa (Constantin Bashkirtseff)
 
 **Research Status**: Basic

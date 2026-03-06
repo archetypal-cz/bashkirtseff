@@ -1,6 +1,11 @@
 ---
 id: DUCHESS_OF_MANCHESTER
 name: Countess Luise von Alten, Duchess of Manchester
+aliases:
+  - Countess Luise von Alten, Duchess of Manchester
+  - Duchess of Manchester
+  - Manchester
+  - Countess
 type: Person
 category: people/aristocracy
 research_status: Moderate

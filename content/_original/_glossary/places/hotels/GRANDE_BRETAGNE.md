@@ -1,3 +1,14 @@
+---
+id: GRANDE_BRETAGNE
+name: Hôtel de la Grande-Bretagne
+aliases:
+  - Hôtel de la Grande-Bretagne
+  - Grande Bretagne
+type: Place
+category: places/hotels
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hôtel de la Grande-Bretagne
 
 **Research Status**: Basic

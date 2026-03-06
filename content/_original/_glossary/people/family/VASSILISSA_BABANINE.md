@@ -1,3 +1,14 @@
+---
+id: VASSILISSA_BABANINE
+name: Vassilissa Babanine
+aliases:
+  - Vassilissa Babanine
+  - Babanine
+type: Person
+category: people/family
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vassilissa Babanine
 
 **Research Status**: Moderate

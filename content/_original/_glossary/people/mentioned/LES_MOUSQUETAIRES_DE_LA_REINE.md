@@ -1,3 +1,14 @@
+---
+id: LES_MOUSQUETAIRES_DE_LA_REINE
+name: Les mousquetaires de la Reine
+aliases:
+  - Les mousquetaires de la Reine
+  - Les Mousquetaires de la Reine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les mousquetaires de la Reine
 
 ## Basic Information

@@ -1,3 +1,14 @@
+---
+id: M_DOURASSOFF
+name: M Dourassoff
+aliases:
+  - M Dourassoff
+  - Dourassoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M Dourassoff
 
 ## Basic Information

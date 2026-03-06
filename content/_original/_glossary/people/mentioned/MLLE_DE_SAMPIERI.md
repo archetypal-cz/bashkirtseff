@@ -1,3 +1,14 @@
+---
+id: MLLE_DE_SAMPIERI
+name: Mlle de Sampieri
+aliases:
+  - Mlle de Sampieri
+  - Sampieri
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle de Sampieri
 
 **Research Status**: Stub

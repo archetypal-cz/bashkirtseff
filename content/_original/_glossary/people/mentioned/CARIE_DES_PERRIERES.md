@@ -1,3 +1,15 @@
+---
+id: CARIE_DES_PERRIERES
+name: Carie des Perrieres
+aliases:
+  - Carie des Perrieres
+  - Perrieres
+  - Carie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Carie des Perrieres
 
 ## Basic Information

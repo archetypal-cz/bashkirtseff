@@ -1,3 +1,14 @@
+---
+id: AVENUE_D_ANTIN
+name: Avenue d Antin
+aliases:
+  - Avenue d Antin
+  - Avenue d'Antin
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Avenue d Antin
 
 **Research Status**: Stub

@@ -1,3 +1,14 @@
+---
+id: COMTE_DE_LARELD
+name: Comte de Lareld
+aliases:
+  - Comte de Lareld
+  - Lareld
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte de Lareld
 
 **Research Status**: Basic

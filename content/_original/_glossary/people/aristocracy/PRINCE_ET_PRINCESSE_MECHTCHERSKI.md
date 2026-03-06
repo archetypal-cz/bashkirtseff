@@ -1,3 +1,14 @@
+---
+id: PRINCE_ET_PRINCESSE_MECHTCHERSKI
+name: Prince et Princesse Mechtcherski
+aliases:
+  - Prince et Princesse Mechtcherski
+  - Mechtcherski
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince et Princesse Mechtcherski
 
 ## Basic Information

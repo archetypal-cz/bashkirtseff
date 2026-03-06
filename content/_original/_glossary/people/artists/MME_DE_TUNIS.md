@@ -1,3 +1,15 @@
+---
+id: MME_DE_TUNIS
+name: Madame de Tunis
+aliases:
+  - Madame de Tunis
+  - Mme de Tunis
+  - Tunis
+type: Person
+category: people/artists
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame de Tunis
 
 **Research Status**: Basic

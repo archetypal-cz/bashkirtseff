@@ -1,3 +1,13 @@
+---
+id: BERRYER
+name: Berryer
+aliases:
+  - Berryer
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Berryer
 
 ## Basic Information

@@ -1,3 +1,13 @@
+---
+id: PETIPA
+name: Petipa
+aliases:
+  - Petipa
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Petipa
 
 **Research Status**: Comprehensive

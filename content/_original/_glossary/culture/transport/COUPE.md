@@ -1,6 +1,9 @@
 ---
 id: COUPE
 name: Coupé
+aliases:
+  - Coupé
+  - Coupe
 type: Culture
 category: culture/transport
 research_status: Moderate

@@ -1,3 +1,16 @@
+---
+id: ANNUAIRE_HISTORIQUE_DE_LESUR
+name: Annuaire historique de Lesur
+aliases:
+  - Annuaire historique de Lesur
+  - Annuaire Historique de Lesur
+  - Annuaire
+  - Lesur
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Annuaire historique de Lesur
 
 ## Basic Information

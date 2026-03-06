@@ -1,13 +1,16 @@
 ---
 id: NICOLO_DE_LAPI
 name: Niccolò de' Lapi
+aliases:
+  - Niccolò de' Lapi
+  - Nicolo de Lapi
 type: Culture
 category: culture/literature
 research_status: Moderate
 last_updated: 2026-02-09
 languages:
   - it
-pronunciation: "https://translate.google.com/?sl=it&tl=en&text=Niccolò%20de%27%20Lapi"
+pronunciation: https://translate.google.com/?sl=it&tl=en&text=Niccolò%20de%27%20Lapi
 ---
 
 # Niccolò de' Lapi

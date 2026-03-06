@@ -1,3 +1,14 @@
+---
+id: MICHKA_ERISTOFF
+name: Michka Eristoff
+aliases:
+  - Michka Eristoff
+  - Eristoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Michka Eristoff
 
 **Research Status**: Stub

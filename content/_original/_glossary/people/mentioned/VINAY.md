@@ -1,3 +1,13 @@
+---
+id: VINAY
+name: Vinay
+aliases:
+  - Vinay
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Vinay
 
 ## Basic Information

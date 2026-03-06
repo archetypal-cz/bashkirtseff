@@ -1,3 +1,14 @@
+---
+id: BON_MARCHE
+name: Bon Marche
+aliases:
+  - Bon Marche
+  - Marche
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bon Marche
 
 ## Basic Information

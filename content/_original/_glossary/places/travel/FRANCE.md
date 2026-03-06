@@ -1,3 +1,13 @@
+---
+id: FRANCE
+name: France
+aliases:
+  - France
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # France
 
 **Research Status**: Stub

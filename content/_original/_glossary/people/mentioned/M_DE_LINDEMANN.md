@@ -1,3 +1,14 @@
+---
+id: M_DE_LINDEMANN
+name: M de Lindemann
+aliases:
+  - M de Lindemann
+  - Lindemann
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M de Lindemann
 
 ## Basic Information

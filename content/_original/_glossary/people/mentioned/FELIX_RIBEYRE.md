@@ -1,3 +1,14 @@
+---
+id: FELIX_RIBEYRE
+name: Felix Ribeyre
+aliases:
+  - Felix Ribeyre
+  - Ribeyre
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Felix Ribeyre
 
 ## Basic Information

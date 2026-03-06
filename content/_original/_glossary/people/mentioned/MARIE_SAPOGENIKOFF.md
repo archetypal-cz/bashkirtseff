@@ -1,3 +1,14 @@
+---
+id: MARIE_SAPOGENIKOFF
+name: Marie Sapogenikoff
+aliases:
+  - Marie Sapogenikoff
+  - Sapogenikoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie Sapogenikoff
 
 **Research Status**: Moderate

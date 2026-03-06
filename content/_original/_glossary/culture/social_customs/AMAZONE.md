@@ -1,6 +1,10 @@
 ---
 id: AMAZONE
 name: Amazone (Riding Habit)
+aliases:
+  - Amazone (Riding Habit)
+  - Riding Habit
+  - Amazone
 type: Culture
 category: culture/social_customs
 research_status: Moderate

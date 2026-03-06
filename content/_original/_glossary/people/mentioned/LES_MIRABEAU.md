@@ -1,3 +1,14 @@
+---
+id: LES_MIRABEAU
+name: Les Mirabeau
+aliases:
+  - Les Mirabeau
+  - Mirabeau
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Les Mirabeau
 
 **Research Status**: Stub

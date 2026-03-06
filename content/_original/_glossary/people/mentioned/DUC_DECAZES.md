@@ -1,3 +1,14 @@
+---
+id: DUC_DECAZES
+name: Duc Decazes
+aliases:
+  - Duc Decazes
+  - Decazes
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duc Decazes
 
 ## Basic Information

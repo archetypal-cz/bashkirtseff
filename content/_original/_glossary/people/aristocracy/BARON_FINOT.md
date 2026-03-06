@@ -1,3 +1,14 @@
+---
+id: BARON_FINOT
+name: Baron Finot
+aliases:
+  - Baron Finot
+  - Finot
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron Finot
 
 **Research Status**: Basic

@@ -1,3 +1,15 @@
+---
+id: HOLLAND
+name: Holland (Hollande / Netherlands)
+aliases:
+  - Holland (Hollande / Netherlands)
+  - Hollande / Netherlands
+  - Holland
+type: Place
+category: places/countries
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Holland (Hollande / Netherlands)
 
 **Research Status**: Basic

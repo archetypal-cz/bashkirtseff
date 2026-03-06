@@ -1,3 +1,13 @@
+---
+id: ORLOFF
+name: Orloff
+aliases:
+  - Orloff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Orloff
 
 **Research Status**: Stub

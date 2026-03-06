@@ -1,3 +1,14 @@
+---
+id: FAMILLE_COUBE
+name: Famille Coube
+aliases:
+  - Famille Coube
+  - Coube
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Famille Coube
 
 ## Basic Information

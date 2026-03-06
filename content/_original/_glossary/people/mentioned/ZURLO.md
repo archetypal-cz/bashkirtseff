@@ -1,3 +1,13 @@
+---
+id: ZURLO
+name: Zurlo
+aliases:
+  - Zurlo
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Zurlo
 
 **Research Status**: Stub

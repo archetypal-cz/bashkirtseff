@@ -1,3 +1,13 @@
+---
+id: MONTELEONE
+name: Monteleone
+aliases:
+  - Monteleone
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Monteleone
 
 ## Basic Information

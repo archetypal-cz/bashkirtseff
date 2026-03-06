@@ -1,3 +1,14 @@
+---
+id: MARIE_FABBRICATORE
+name: Marie Fabbricatore
+aliases:
+  - Marie Fabbricatore
+  - Fabbricatore
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marie Fabbricatore
 
 ## Basic Information

@@ -1,3 +1,15 @@
+---
+id: SAINT_CLAIR
+name: Baron de Saint-Clair
+aliases:
+  - Baron de Saint-Clair
+  - Saint-Clair
+  - Saint Clair
+type: Person
+category: people/religious
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Baron de Saint-Clair
 
 **Research Status**: Basic

@@ -1,3 +1,13 @@
+---
+id: SCOTTI
+name: Scotti
+aliases:
+  - Scotti
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Scotti
 
 ## Basic Information

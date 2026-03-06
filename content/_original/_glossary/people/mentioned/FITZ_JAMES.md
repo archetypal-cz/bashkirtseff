@@ -1,3 +1,14 @@
+---
+id: FITZ_JAMES
+name: Fitz James
+aliases:
+  - Fitz James
+  - James
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Fitz James
 
 ## Basic Information

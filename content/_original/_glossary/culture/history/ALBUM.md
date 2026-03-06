@@ -1,3 +1,14 @@
+---
+id: ALBUM
+name: L'Album
+aliases:
+  - L'Album
+  - Album
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # L'Album
 
 **Research Status**: Basic

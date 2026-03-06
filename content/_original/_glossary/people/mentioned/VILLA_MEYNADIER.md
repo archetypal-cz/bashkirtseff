@@ -1,3 +1,14 @@
+---
+id: VILLA_MEYNADIER
+name: Villa Meynadier
+aliases:
+  - Villa Meynadier
+  - Meynadier
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Villa Meynadier
 
 ## Basic Information

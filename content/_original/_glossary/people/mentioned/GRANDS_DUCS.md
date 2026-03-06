@@ -1,3 +1,14 @@
+---
+id: GRANDS_DUCS
+name: Grands Ducs
+aliases:
+  - Grands Ducs
+  - Ducs
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grands Ducs
 
 ## Basic Information

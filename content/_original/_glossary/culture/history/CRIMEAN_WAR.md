@@ -1,3 +1,13 @@
+---
+id: CRIMEAN_WAR
+name: Crimean War
+aliases:
+  - Crimean War
+type: Culture
+category: culture/history
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Crimean War
 
 **Research Status**: Basic

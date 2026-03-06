@@ -1,3 +1,13 @@
+---
+id: HATON
+name: Haton
+aliases:
+  - Haton
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Haton
 
 **Research Status**: Basic

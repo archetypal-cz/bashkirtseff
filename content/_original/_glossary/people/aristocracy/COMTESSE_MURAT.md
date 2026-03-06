@@ -1,3 +1,14 @@
+---
+id: COMTESSE_MURAT
+name: Comtesse Murat
+aliases:
+  - Comtesse Murat
+  - Murat
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comtesse Murat
 
 ## Basic Information

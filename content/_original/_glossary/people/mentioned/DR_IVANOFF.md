@@ -1,3 +1,14 @@
+---
+id: DR_IVANOFF
+name: Dr Ivanoff
+aliases:
+  - Dr Ivanoff
+  - Ivanoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dr Ivanoff
 
 ## Basic Information

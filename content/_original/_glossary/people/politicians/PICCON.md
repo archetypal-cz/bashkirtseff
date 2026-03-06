@@ -1,3 +1,13 @@
+---
+id: PICCON
+name: Piccon
+aliases:
+  - Piccon
+type: Person
+category: people/politicians
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Piccon
 
 **Research Status**: Moderate

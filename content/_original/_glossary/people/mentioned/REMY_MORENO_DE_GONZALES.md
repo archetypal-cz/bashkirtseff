@@ -1,3 +1,16 @@
+---
+id: REMY_MORENO_DE_GONZALES
+name: Rémy Moreno de Gonzalès
+aliases:
+  - Rémy Moreno de Gonzalès
+  - Remy Moreno de Gonzales
+  - Gonzalès
+  - Rémy
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rémy Moreno de Gonzalès
 
 **Research Status**: Basic

@@ -1,13 +1,16 @@
 ---
 id: BALLO_IN_MASCHERA
 name: Un ballo in maschera
+aliases:
+  - Un ballo in maschera
+  - Ballo In Maschera
 type: Culture
 category: culture/music
 research_status: Moderate
 last_updated: 2026-02-10
 languages:
   - it
-pronunciation: "https://translate.google.com/?sl=it&tl=en&text=Un%20ballo%20in%20maschera"
+pronunciation: https://translate.google.com/?sl=it&tl=en&text=Un%20ballo%20in%20maschera
 ---
 
 # Un ballo in maschera

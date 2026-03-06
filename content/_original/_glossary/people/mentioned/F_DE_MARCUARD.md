@@ -1,3 +1,14 @@
+---
+id: F_DE_MARCUARD
+name: F de Marcuard
+aliases:
+  - F de Marcuard
+  - Marcuard
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # F de Marcuard
 
 ## Basic Information

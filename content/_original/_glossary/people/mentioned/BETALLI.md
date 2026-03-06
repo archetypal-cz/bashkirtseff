@@ -1,3 +1,14 @@
+---
+id: BETALLI
+name: Mlle Betalli
+aliases:
+  - Mlle Betalli
+  - Betalli
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle Betalli
 
 **Research Status**: Basic

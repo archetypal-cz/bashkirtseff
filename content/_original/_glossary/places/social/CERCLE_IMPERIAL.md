@@ -1,3 +1,13 @@
+---
+id: CERCLE_IMPERIAL
+name: Cercle Imperial
+aliases:
+  - Cercle Imperial
+type: Place
+category: places/social
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cercle Imperial
 
 **Research Status**: Stub

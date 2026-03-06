@@ -1,3 +1,14 @@
+---
+id: DUCHESSE_DE_VALENCE
+name: Duchesse de Valence
+aliases:
+  - Duchesse de Valence
+  - Valence
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duchesse de Valence
 
 ## Basic Information

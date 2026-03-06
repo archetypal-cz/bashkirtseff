@@ -1,3 +1,15 @@
+---
+id: VILLA_SOUVOROFF
+name: Villa Souvoroff (Villa Suvorov)
+aliases:
+  - Villa Souvoroff (Villa Suvorov)
+  - Villa Souvoroff
+  - Villa Suvorov
+type: Place
+category: places/residences
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Villa Souvoroff (Villa Suvorov)
 
 **Research Status**: Basic

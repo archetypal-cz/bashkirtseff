@@ -1,6 +1,9 @@
 ---
 id: PHAETON
 name: Phaéton
+aliases:
+  - Phaéton
+  - Phaeton
 type: Culture
 category: culture/transport
 research_status: Moderate

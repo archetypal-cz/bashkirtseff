@@ -1,3 +1,15 @@
+---
+id: COMTE_DE_JOBAL
+name: comte de Jobal
+aliases:
+  - comte de Jobal
+  - Comte de Jobal
+  - Jobal
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # comte de Jobal
 
 ## Basic Information

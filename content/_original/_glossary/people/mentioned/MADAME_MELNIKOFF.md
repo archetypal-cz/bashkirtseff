@@ -1,3 +1,14 @@
+---
+id: MADAME_MELNIKOFF
+name: Madame Melnikoff
+aliases:
+  - Madame Melnikoff
+  - Melnikoff
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Madame Melnikoff
 
 **Research Status**: Basic

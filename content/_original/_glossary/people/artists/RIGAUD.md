@@ -1,3 +1,14 @@
+---
+id: RIGAUD
+name: Hyacinthe Rigaud
+aliases:
+  - Hyacinthe Rigaud
+  - Rigaud
+type: Person
+category: people/artists
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hyacinthe Rigaud
 
 **Research Status**: Basic

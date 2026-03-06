@@ -1,6 +1,8 @@
 ---
 id: TOILETTE
 name: Toilette
+aliases:
+  - Toilette
 type: Culture
 category: culture/daily_life
 research_status: Moderate

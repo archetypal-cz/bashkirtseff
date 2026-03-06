@@ -1,3 +1,13 @@
+---
+id: TE_DEUM
+name: Te Deum
+aliases:
+  - Te Deum
+type: Place
+category: places/churches
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Te Deum
 
 **Research Status**: Basic

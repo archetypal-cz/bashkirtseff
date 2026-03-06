@@ -1,3 +1,14 @@
+---
+id: ZIBINE
+name: M. Zibine
+aliases:
+  - M. Zibine
+  - Zibine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # M. Zibine
 
 **Research Status**: Basic

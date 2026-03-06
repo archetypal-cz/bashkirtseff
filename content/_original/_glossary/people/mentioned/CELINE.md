@@ -1,3 +1,13 @@
+---
+id: CELINE
+name: Celine
+aliases:
+  - Celine
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Celine
 
 ## Basic Information

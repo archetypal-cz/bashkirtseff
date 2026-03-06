@@ -1,3 +1,14 @@
+---
+id: LORD_MANDEVILLE
+name: Lord Mandeville
+aliases:
+  - Lord Mandeville
+  - Mandeville
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Lord Mandeville
 
 **Research Status**: Basic

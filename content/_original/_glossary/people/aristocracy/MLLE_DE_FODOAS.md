@@ -1,3 +1,14 @@
+---
+id: MLLE_DE_FODOAS
+name: Mlle de Fodoas
+aliases:
+  - Mlle de Fodoas
+  - Fodoas
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mlle de Fodoas
 
 ## Basic Information

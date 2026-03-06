@@ -1,13 +1,17 @@
 ---
 id: ROBERT_FLEURY
 name: Tony Robert-Fleury
+aliases:
+  - Tony Robert-Fleury
+  - Robert-Fleury
+  - Robert Fleury
 type: Person
 category: people/artists
 research_status: Moderate
 last_updated: 2026-02-09
 languages:
   - fr
-pronunciation: "https://translate.google.com/?sl=fr&tl=en&text=Tony%20Robert-Fleury"
+pronunciation: https://translate.google.com/?sl=fr&tl=en&text=Tony%20Robert-Fleury
 ---
 
 # Tony Robert-Fleury

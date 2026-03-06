@@ -1,3 +1,13 @@
+---
+id: ORPHEE
+name: Orphee
+aliases:
+  - Orphee
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Orphee
 
 **Research Status**: Stub

@@ -1,3 +1,14 @@
+---
+id: BARTER
+name: Barter Family
+aliases:
+  - Barter Family
+  - Barter
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Barter Family
 
 **Research Status**: Basic

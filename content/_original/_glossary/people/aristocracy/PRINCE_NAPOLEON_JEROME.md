@@ -1,3 +1,14 @@
+---
+id: PRINCE_NAPOLEON_JEROME
+name: Prince Napoleon Jerome
+aliases:
+  - Prince Napoleon Jerome
+  - Jerome
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Prince Napoleon Jerome
 
 **Research Status**: Stub

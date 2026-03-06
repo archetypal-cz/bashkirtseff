@@ -1,3 +1,14 @@
+---
+id: RUE_DE_LA_PAIX
+name: Rue de la Paix
+aliases:
+  - Rue de la Paix
+  - Paix
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue de la Paix
 
 **Research Status**: Stub

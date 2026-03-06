@@ -1,3 +1,14 @@
+---
+id: GRAND_MAMAN
+name: Grand-maman
+aliases:
+  - Grand-maman
+  - Grand Maman
+type: Person
+category: people/family
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grand-maman
 
 **Research Status**: Moderate

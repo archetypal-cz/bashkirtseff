@@ -1,3 +1,14 @@
+---
+id: CAFE_DE_PARIS
+name: Cafe de Paris
+aliases:
+  - Cafe de Paris
+  - Cafe
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cafe de Paris
 
 ## Basic Information

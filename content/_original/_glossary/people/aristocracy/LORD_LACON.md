@@ -1,3 +1,15 @@
+---
+id: LORD_LACON
+name: lord Lacon
+aliases:
+  - lord Lacon
+  - Lord Lacon
+  - Lacon
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # lord Lacon
 
 ## Basic Information

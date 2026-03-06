@@ -1,3 +1,14 @@
+---
+id: MME_ANITCHKOFF
+name: Mme Anitchkoff
+aliases:
+  - Mme Anitchkoff
+  - Anitchkoff
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Anitchkoff
 
 ## Basic Information

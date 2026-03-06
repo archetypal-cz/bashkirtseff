@@ -1,3 +1,14 @@
+---
+id: MARQUIS_DE_MAUPAS
+name: Marquis de Maupas
+aliases:
+  - Marquis de Maupas
+  - Maupas
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marquis de Maupas
 
 ## Basic Information

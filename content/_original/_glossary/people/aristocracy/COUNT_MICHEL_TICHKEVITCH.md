@@ -1,3 +1,15 @@
+---
+id: COUNT_MICHEL_TICHKEVITCH
+name: Count Michel Tichkevitch
+aliases:
+  - Count Michel Tichkevitch
+  - Tichkevitch
+  - Count
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Count Michel Tichkevitch
 
 **Research Status**: Basic

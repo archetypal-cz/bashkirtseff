@@ -1,3 +1,14 @@
+---
+id: COMTE_MIRAFIORE
+name: Comte Mirafiore
+aliases:
+  - Comte Mirafiore
+  - Mirafiore
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Comte Mirafiore
 
 ## Basic Information

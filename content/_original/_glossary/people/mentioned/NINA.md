@@ -1,3 +1,13 @@
+---
+id: NINA
+name: Nina
+aliases:
+  - Nina
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Nina
 
 **Research Status**: Basic

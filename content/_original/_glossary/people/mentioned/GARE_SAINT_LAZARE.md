@@ -1,3 +1,15 @@
+---
+id: GARE_SAINT_LAZARE
+name: gare Saint-Lazare
+aliases:
+  - gare Saint-Lazare
+  - Gare Saint Lazare
+  - Saint-Lazare
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # gare Saint-Lazare
 
 ## Basic Information

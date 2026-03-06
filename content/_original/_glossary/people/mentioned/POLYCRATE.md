@@ -1,3 +1,15 @@
+---
+id: POLYCRATE
+name: Polycrate (Polycrates)
+aliases:
+  - Polycrate (Polycrates)
+  - Polycrates
+  - Polycrate
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Polycrate (Polycrates)
 
 **Research Status**: Basic

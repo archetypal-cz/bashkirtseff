@@ -1,3 +1,13 @@
+---
+id: KINSKY
+name: Kinsky
+aliases:
+  - Kinsky
+type: Culture
+category: culture/theater
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Kinsky
 
 **Research Status**: Basic

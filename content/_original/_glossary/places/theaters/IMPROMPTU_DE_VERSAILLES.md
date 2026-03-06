@@ -1,3 +1,14 @@
+---
+id: IMPROMPTU_DE_VERSAILLES
+name: L'Impromptu de Versailles
+aliases:
+  - L'Impromptu de Versailles
+  - Impromptu de Versailles
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # L'Impromptu de Versailles
 
 **Research Status**: Moderate

@@ -1,3 +1,14 @@
+---
+id: MELLE_ALBERTI
+name: Melle Alberti
+aliases:
+  - Melle Alberti
+  - Alberti
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Melle Alberti
 
 ## Basic Information

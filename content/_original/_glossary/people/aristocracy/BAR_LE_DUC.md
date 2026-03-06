@@ -1,3 +1,14 @@
+---
+id: BAR_LE_DUC
+name: Bar-le-Duc
+aliases:
+  - Bar-le-Duc
+  - Bar le Duc
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Bar-le-Duc
 
 **Research Status**: Basic

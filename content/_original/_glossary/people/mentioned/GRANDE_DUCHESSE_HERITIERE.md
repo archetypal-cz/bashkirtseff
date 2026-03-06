@@ -1,3 +1,15 @@
+---
+id: GRANDE_DUCHESSE_HERITIERE
+name: Grande Duchesse Heritiere
+aliases:
+  - Grande Duchesse Heritiere
+  - Heritiere
+  - Grande
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Grande Duchesse Heritiere
 
 ## Basic Information

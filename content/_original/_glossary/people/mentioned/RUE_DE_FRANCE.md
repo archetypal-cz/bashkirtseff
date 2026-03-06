@@ -1,3 +1,14 @@
+---
+id: RUE_DE_FRANCE
+name: Rue de France
+aliases:
+  - Rue de France
+  - France
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Rue de France
 
 ## Basic Information

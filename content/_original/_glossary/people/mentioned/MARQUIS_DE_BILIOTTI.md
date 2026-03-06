@@ -1,3 +1,15 @@
+---
+id: MARQUIS_DE_BILIOTTI
+name: marquis de Biliotti
+aliases:
+  - marquis de Biliotti
+  - Marquis de Biliotti
+  - Biliotti
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # marquis de Biliotti
 
 ## Basic Information

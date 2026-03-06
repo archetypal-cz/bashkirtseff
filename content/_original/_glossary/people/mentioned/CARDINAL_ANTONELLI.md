@@ -1,3 +1,14 @@
+---
+id: CARDINAL_ANTONELLI
+name: Cardinal Antonelli
+aliases:
+  - Cardinal Antonelli
+  - Antonelli
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cardinal Antonelli
 
 ## Basic Information

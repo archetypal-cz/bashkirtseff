@@ -1,3 +1,15 @@
+---
+id: DUCHESSE_DE_FITZ_JAMES
+name: Duchesse de Fitz-James
+aliases:
+  - Duchesse de Fitz-James
+  - Duchesse de Fitz James
+  - Fitz-James
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Duchesse de Fitz-James
 
 ## Basic Information

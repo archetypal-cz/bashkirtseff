@@ -1,3 +1,15 @@
+---
+id: LORD_PAGET
+name: lord Paget
+aliases:
+  - lord Paget
+  - Lord Paget
+  - Paget
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # lord Paget
 
 ## Basic Information

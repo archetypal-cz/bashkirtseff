@@ -1,3 +1,13 @@
+---
+id: BROGLIE
+name: Broglie
+aliases:
+  - Broglie
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Broglie
 
 **Research Status**: Stub

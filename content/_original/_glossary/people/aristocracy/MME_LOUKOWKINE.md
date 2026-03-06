@@ -1,3 +1,14 @@
+---
+id: MME_LOUKOWKINE
+name: Mme Loukowkine
+aliases:
+  - Mme Loukowkine
+  - Loukowkine
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Loukowkine
 
 ## Basic Information

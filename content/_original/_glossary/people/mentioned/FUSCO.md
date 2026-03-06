@@ -1,3 +1,13 @@
+---
+id: FUSCO
+name: Fusco
+aliases:
+  - Fusco
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Fusco
 
 **Research Status**: Stub

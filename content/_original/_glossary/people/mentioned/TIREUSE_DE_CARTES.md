@@ -1,3 +1,16 @@
+---
+id: TIREUSE_DE_CARTES
+name: Tireuse de cartes
+aliases:
+  - Tireuse de cartes
+  - Tireuse de Cartes
+  - Tireuse
+  - cartes
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Tireuse de cartes
 
 **Research Status**: Stub

@@ -1,3 +1,14 @@
+---
+id: SAINTE_MARIE_BATIGNOLLES
+name: Sainte Marie Batignolles
+aliases:
+  - Sainte Marie Batignolles
+  - Batignolles
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Sainte Marie Batignolles
 
 ## Basic Information

@@ -1,3 +1,13 @@
+---
+id: PERGOLA
+name: Pergola
+aliases:
+  - Pergola
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Pergola
 
 ## Basic Information

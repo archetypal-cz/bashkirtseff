@@ -1,3 +1,14 @@
+---
+id: HUBERTINE_AUCLERT
+name: Hubertine Auclert
+aliases:
+  - Hubertine Auclert
+  - Auclert
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Hubertine Auclert
 
 **Research Status**: Comprehensive

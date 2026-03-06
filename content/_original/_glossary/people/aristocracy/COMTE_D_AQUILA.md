@@ -1,3 +1,15 @@
+---
+id: COMTE_D_AQUILA
+name: comte d Aquila
+aliases:
+  - comte d Aquila
+  - Comte d'Aquila
+  - Aquila
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # comte d Aquila
 
 ## Basic Information

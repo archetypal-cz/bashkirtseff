@@ -1,6 +1,10 @@
 ---
 id: PAUL_DE_CASSAGNAC
 name: Paul de Cassagnac
+aliases:
+  - Paul de Cassagnac
+  - Cassagnac
+  - Paul
 type: Person
 category: people/mentioned
 research_status: Redirect

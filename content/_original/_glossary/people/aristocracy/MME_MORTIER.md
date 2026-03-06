@@ -1,3 +1,14 @@
+---
+id: MME_MORTIER
+name: Mme Mortier
+aliases:
+  - Mme Mortier
+  - Mortier
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Mme Mortier
 
 ## Basic Information

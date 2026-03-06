@@ -1,3 +1,16 @@
+---
+id: UN_BALLO_IN_MASCHERA
+name: Un ballo in maschera (A Masked Ball)
+aliases:
+  - Un ballo in maschera (A Masked Ball)
+  - Un ballo in maschera
+  - Un Ballo In Maschera
+  - A Masked Ball
+type: Place
+category: places/theaters
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Un ballo in maschera (A Masked Ball)
 
 **Research Status**: Comprehensive

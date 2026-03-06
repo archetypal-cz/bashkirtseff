@@ -1,6 +1,9 @@
 ---
 id: FOOD
 name: Food & Dining
+aliases:
+  - Food & Dining
+  - Food
 type: Culture
 category: culture/themes
 research_status: Moderate

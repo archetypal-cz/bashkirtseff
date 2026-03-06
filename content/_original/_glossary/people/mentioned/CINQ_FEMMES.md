@@ -1,3 +1,14 @@
+---
+id: CINQ_FEMMES
+name: Cinq femmes
+aliases:
+  - Cinq femmes
+  - Cinq Femmes
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Cinq femmes
 
 **Research Status**: Stub

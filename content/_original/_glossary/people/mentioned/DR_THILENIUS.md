@@ -1,3 +1,14 @@
+---
+id: DR_THILENIUS
+name: Dr Thilenius
+aliases:
+  - Dr Thilenius
+  - Thilenius
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Dr Thilenius
 
 ## Basic Information

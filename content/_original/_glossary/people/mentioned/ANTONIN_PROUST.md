@@ -1,3 +1,14 @@
+---
+id: ANTONIN_PROUST
+name: Antonin Proust
+aliases:
+  - Antonin Proust
+  - Proust
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Antonin Proust
 
 ## Basic Information

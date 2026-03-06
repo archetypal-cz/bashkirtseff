@@ -1,3 +1,13 @@
+---
+id: CHATEAU_DES_CRETES
+name: Chateau des Cretes
+aliases:
+  - Chateau des Cretes
+type: Place
+category: places/travel
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Chateau des Cretes
 
 **Research Status**: Stub

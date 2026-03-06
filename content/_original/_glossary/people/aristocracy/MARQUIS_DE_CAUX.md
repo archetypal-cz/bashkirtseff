@@ -1,3 +1,14 @@
+---
+id: MARQUIS_DE_CAUX
+name: Marquis de Caux
+aliases:
+  - Marquis de Caux
+  - Caux
+type: Person
+category: people/aristocracy
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marquis de Caux
 
 **Research Status**: Stub

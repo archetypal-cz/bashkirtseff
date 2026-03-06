@@ -1,3 +1,14 @@
+---
+id: MARQUISE_SAMELS
+name: Marquise Samels
+aliases:
+  - Marquise Samels
+  - Samels
+type: Person
+category: people/mentioned
+research_status: Basic
+last_updated: 2026-03-06
+---
 # Marquise Samels
 
 **Research Status**: Basic
