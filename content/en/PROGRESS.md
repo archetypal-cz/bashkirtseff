@@ -1,7 +1,7 @@
 # English Translation Progress
 
-<!-- Last updated: 2026-02-04 -->
-<!-- Updated by: @kerray -->
+<!-- Last updated: 2026-03-09 -->
+<!-- Updated by: ED -->
 
 ## Overview
 
@@ -9,17 +9,25 @@
 |--------|-------|
 | **Total carnets** | 107 |
 | **Total entries** | ~3,300 |
-| **Carnets started** | 0 |
-| **Carnets complete** | 0 |
-| **Overall progress** | 0% |
+| **Carnets translated** | 80 (000-070, 082-090) |
+| **Entries translated** | ~1,928 |
+| **Overall progress** | ~58% |
 
-## Status
+## Current Status
 
-Translation not yet started. Infrastructure ready.
+Carnets 000-070 and 082-090 are translated. Carnets 087-090 have partial gaps (47 entries remaining from interrupted sessions).
+
+### Known Gaps
+
+#### Gap 1: Carnets 071-081 (not yet started)
+11 carnets spanning late 1879 to early 1880 — needs full translation pipeline.
+
+#### ~~Gap 2: Tail ends of 087-090~~ — RESOLVED 2026-03-09
+Carnets 087-090 are now fully translated (47 entries completed).
 
 ## Historical Note
 
-Previous English translations were heavily censored. This will be the first complete, uncensored English edition of Marie Bashkirtseff's diary.
+Previous English translations were heavily censored. This is the first complete, uncensored English edition of Marie Bashkirtseff's diary.
 
 ## How to Contribute
 
@@ -29,17 +37,11 @@ Previous English translations were heavily censored. This will be the first comp
 4. Run `just init-source-hashes en` after creating first translations
 5. Use `/translator` skill to translate entries
 
-## Priority Carnets
-
-Suggested starting points for English translation:
-
-1. **Carnet 001** (1873-01-11 to 1873-02-12) - Marie's first entries, age 14
-2. **Carnet 000** - Marie's preface, essential context
-3. **Carnet 083-086** - Marie's art career peak, most famous period
-
 ## Recent Activity
 
-_No activity yet._
+- **2026-03-09**: Finished interrupted carnets 087-090 (47 entries completed, all 4 carnets now 100%)
+- **2026-03-08**: Carnets 082-090 translated (sessions interrupted, leaving tail gaps)
+- **2026-02-28**: Carnets 000-070 translated
 
 ---
 
