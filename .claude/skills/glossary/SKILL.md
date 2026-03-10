@@ -191,6 +191,48 @@ content/
 
 ## CLI Tools
 
+### Frontmatter & Aliases
+
+Glossary entries should have YAML frontmatter with an `aliases` field listing the text forms by which the entity appears in Marie's diary. These aliases power the auto-tagger.
+
+```bash
+# Ensure all entries have frontmatter (3000+ entries may lack it)
+just glossary-fm-ensure-dry              # Preview
+just glossary-fm-ensure                  # Apply
+
+# Auto-derive aliases from headings/IDs (initial bootstrap)
+just glossary-aliases-dry                # Preview all
+just glossary-aliases --category people  # Apply to people only
+
+# Manual alias management (preferred for researcher refinement)
+just glossary-add-alias MAMAN "ma mère"
+just glossary-add-alias DUKE_OF_HAMILTON "le duc"
+just glossary-remove-alias MAMAN "Maria"
+
+# Set any frontmatter field
+just glossary-fm-set MAMAN research_status Comprehensive
+just glossary-fm-set DUKE_OF_HAMILTON aliases '["Hamilton", "le duc", "duc de H."]'
+
+# Read frontmatter
+just glossary-fm-get MAMAN
+
+# Query across entries (supports --field, --category, --has-field, --no-field, --json, --limit)
+just glossary-query --category people/core --field aliases --json
+just glossary-query --category people --no-field aliases --limit 20
+just glossary-query --has-field aliases --field aliases --json
+
+# Coverage statistics
+just glossary-alias-stats
+```
+
+#### Alias guidelines
+
+- Aliases should match how Marie actually writes names in the diary text
+- Include common variants: "la Howard", "Mlle Howard", "cette Howard"
+- Include French forms: "le duc", "la duchesse", "Mme Anitchkoff"
+- Auto-derived aliases are a starting point — researchers should refine them
+- Generic words (Baron, Comtesse, etc.) are filtered as standalone aliases but kept in multi-word forms
+
 ### Finding References
 
 ```bash

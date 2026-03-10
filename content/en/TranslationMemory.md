@@ -198,10 +198,156 @@ When Marie writes in Italian/Russian:
 - Context: Person declared by courts incapable of managing affairs
 - Notes: Explain in footnote; "n'est plus interdit" → "is no longer under guardianship"
 
+## Carnet 078 Additions (Feb–Mar 1878)
+
+### intriguer (bal masqué)
+- Translation: to mystify / to play a masked game with
+- Context: At masked balls: to approach and perplex someone while in disguise
+- Notes: NOT "to intrigue" in the modern sense — it is a specific 19th-century ball custom
+
+### amourette
+- Translation: *amourette* (keep French, italicized)
+- Context: A little flirtation / brief romantic liaison; dismissive tone
+- Notes: No single English word captures the diminutive dismissiveness; keep French
+
+### vous ne casserez pas de sucre sur la tête de X
+- Translation: you will not speak badly of X / you will not gossip about X
+- Context: Idiom: literally "you will not break sugar on X's head" = not criticize/gossip
+- Notes: Paraphrase into idiomatic English, add TR comment on first use
+
+### se conserver
+- Translation: to keep himself / to preserve himself
+- Context: Marie's wry double meaning: (1) stay socially available, (2) maintain his physique
+- Notes: Preserve the ambiguity in English where possible
+
+### pochade
+- Translation: sketch / quick study
+- Context: A rapid, informal study in paint (not a finished work)
+- Notes: Keep "sketch" or "quick study"; do not use the French unless for precision
+
+### atelier
+- Translation: atelier (keep French)
+- Context: Marie's art school / studio at Académie Julian
+- Notes: Already established; do not translate to "studio" as it loses the institutional sense
+
+### Gloriae Cupiditas
+- Translation: ==Gloriae Cupiditas== [footnote: Latin: *Desire for Glory*]
+- Context: Marie's personal motto, inscribed at the close of each carnet
+- Notes: Mark as Latin with ==highlight==, add footnote explaining meaning
+
+### lâcheté (self-sabotage)
+- Translation: act of cowardice / cowardice
+- Context: Marie uses this to describe her own self-sabotaging acts (e.g., spilling ink)
+- Notes: Keep the moral weight — she diagnoses herself, not just describes an accident
+
+### Cascine / Cachines
+- Translation: the Cascine
+- Context: Le Cascine, Florence's fashionable public park and promenade
+- Notes: "Cachines" = Marie's phonetic spelling; translate to correct Italian form "the Cascine"
+
 ### coquine (mistress)
 - Translation: kept woman / mistress
 - Context: Euphemism for kept mistress; literally "rascal" or "minx"
 - Notes: Context-dependent; footnote when ambiguous
+
+%% 2026-03-08T12:00:00 TR: Added terms from carnet 079 — Paris Mar–May 1878, Cassagnac obsession, Multedo marivaudage, 1878 Exposition opening, Russian Easter episode %%
+
+## Carnet 079 Additions (Mar–May 1878)
+
+### marivaudage / marivauder
+- Translation: *marivaudage* (keep French, italicized, with footnote) / to exchange witty banter
+- Context: Witty, playful, inconclusive flirtation in the manner of Marivaux's comedies; Marie uses this for her extended verbal games with Multedo
+- Notes: Footnote on first use: "From Marivaux (1688–1763), whose comedies are marked by delicate, evasive love play." Marie uses it self-consciously.
+
+### le bout de l'oreille
+- Translation: the tip of the ear (showing)
+- Context: From La Fontaine's fable of the donkey disguised as a lion, whose ears betray him; idiom for a fatal flaw that reveals one's true nature
+- Notes: "Il y a toujours le bout de l'oreille" → "there is always the tip of the ear showing." Footnote on first use explaining the La Fontaine idiom.
+
+### adieu à la russe
+- Translation: farewell in the Russian manner
+- Context: Russian social custom of farewell involving a kiss on the forehead or cheek; Marie uses it to explain (and excuse) kissing Cassagnac on the forehead
+- Notes: "Lui dire adieu à la russe" → "say farewell to him in the Russian manner"; brief parenthetical or footnote on first use
+
+### séance de magnétisme
+- Translation: séance of mesmerism / mesmeric sitting
+- Context: Fashionable 1870s practice of animal magnetism/hypnosis, popular in Paris drawing rooms
+- Notes: "Magnétisme" in this context = mesmerism, NOT the force of personality; footnote on first use per carnet
+
+### Enchiridion (Epictetus)
+- Translation: the Enchiridion / the *Enchiridion* of Epictetus
+- Context: Stoic handbook by Epictetus (c. 55–135 AD): teaches equanimity toward what one cannot control
+- Notes: "Le manuel d'Épictète" → "the Enchiridion of Epictetus"; footnote on first use if reader unfamiliar; Marie cites it as a tool for bearing domestic miseries
+
+### fournaise intellectuelle
+- Translation: intellectual furnace
+- Context: Marie's image of Paris as the great furnace of world thought
+- Notes: "La grande fournaise intellectuelle du monde" → "the great intellectual furnace of the world"; keep the combustion image
+
+### terre-neuve (figurative)
+- Translation: Newfoundland / Newfoundland dog
+- Context: Large, friendly but clumsy and somewhat simple-minded; applied by Marie to Cassagnac in exasperation
+- Notes: "Quelle espèce de terre-neuve que cette créature" → "What a sort of Newfoundland is this creature"; keep the breed name as-is in English
+
+### Pâques russe / Pâques orthodoxe
+- Translation: Russian Easter / Orthodox Easter
+- Context: Easter following the Julian calendar, typically 1-5 weeks after Western Easter; involves ritual Easter kiss
+- Notes: "La Pâques russe" → "Russian Easter"; footnote on first use explaining calendar difference and the kiss custom
+
+### s'encanailler / eau sale de l'univers
+- Translation: to take refuge on the mountain (from dirty water)
+- Context: Marie's recurring image — the "mountain" is artistic detachment from worldly concerns; "dirty water" of the world fills the valley below
+- Notes: "L'eau sale de l'univers a forcé de se réfugier sur la montagne" → "the dirty waters of the universe have forced [me] to take refuge on the mountain"; do NOT translate "mountain" literally — it is Marie's consistent metaphor for her artistic/spiritual detachment throughout the carnets
+
+### sur la montagne (Marie's metaphor)
+- Translation: on the mountain
+- Context: Marie's recurring metaphor for her elevated, detached perspective above social-emotional turmoil; she "descends" when overwhelmed
+- Notes: Always keep "the mountain" literally — it is an established motif; do NOT translate as "on high" or "above it all"
+
+## Carnet 074 Additions (Aug–Sep 1877)
+
+### varéniki / Varéniki
+- Translation: *varéniki* (keep Ukrainian/Russian, italicized)
+- Context: Ukrainian dumplings made of flour, water and fresh cheese; Marie makes them at Schlangenbad
+- Notes: Footnote defining them on first use; Marie's connection to Ukrainian domestic culture
+
+### atelier Julian / atelier de Julian
+- Translation: the atelier Julian (NOT "Académie Julian" unless that name appears)
+- Context: The private Parisian art school where Marie will enroll October 1877
+- Notes: Marie writes "atelier Julian" — use that form; footnote when first appears
+
+### aux eaux
+- Translation: at the spas / at the waters
+- Context: At thermal spa resorts; fashionable 1870s cure
+- Notes: NOT "at the waters" if awkward — use "at the spas"
+
+### Bademeisterin
+- Translation: *Bademeisterin* (keep German, italicized)
+- Context: Female bath attendant at a German spa
+- Notes: Footnote not needed if context is clear
+
+### Lese-cabinet
+- Translation: *Lese-cabinet* (keep German, italicized)
+- Context: Reading room/newspaper salon at a German spa or hotel
+
+### Kurhaus
+- Translation: *Kurhaus* (keep German, italicized)
+- Context: Central social building of a German spa town
+
+### bel et bien
+- Translation: well and truly
+- Context: Idiomatic intensifier; Marie uses for emphasis
+- Notes: NOT "quite well" or "fair and square"
+
+### sospesi (Dante)
+- Translation: *sospesi* (keep Italian, italicized)
+- Context: Dante's Limbo (Inferno, Canto IV): the suspended ones; virtuous pagans who cannot reach paradise
+- Notes: Always add footnote with Latin/Italian original and brief gloss
+
+### sed inutilis (Latin)
+- Translation: *sed inutilis* (keep Latin, italicized)
+- Context: "But useless" — Marie's blunt dismissal of socially pleasant but practically useless contacts
+- Notes: Keep in Latin as Marie wrote; no translation needed in main text
 
 ### palmipède
 - Translation: webfoot
@@ -212,6 +358,43 @@ When Marie writes in Italian/Russian:
 - Translation: the Surprising One
 - Context: Recurring nickname for an earlier romantic interest
 - Notes: Capitalized, always "the Surprising One"
+
+## Carnet 075 Additions (Oct–Nov 1877)
+
+### pas mal du tout (le terme consacré)
+- Translation: not at all bad
+- Context: The standard phrase professors use for praise at the atelier Julian — Marie explicitly calls it "le terme consacré"
+- Notes: Use literally "not at all bad" even though it sounds understated — that is the joke/point
+
+### chien loup
+- Translation: spitz
+- Context: Marie's dog Pincio — "chien loup" in 1870s French = a spitz-type dog with pointed ears, NOT a wolfhound
+- Notes: Pincio is white, small, upright-eared — consistent with spitz breed; do NOT translate as "wolf dog"
+
+### être connue / se faire connaître
+- Translation: to be known / to make oneself known (= famous)
+- Context: Marie's recurring ambition for artistic fame; "être connue" always means recognized/famous, not merely acquainted
+- Notes: Distinguish from simple "être connu de" (known to someone)
+
+### trasteverine / trasteverina
+- Translation: *trasteverina* (keep Italian, italicized)
+- Context: Woman from Trastevere, Rome's oldest quarter; in 1870s art = idealized Roman peasant beauty/type
+- Notes: Add footnote on first use per entry: "a woman from Trastevere, the ancient Roman quarter across the Tiber; in 19th century art, trasteverine women were considered the exemplary Roman type"
+
+### mots noircis
+- Translation: [words blacked out: "..."]
+- Context: Words deliberately obscured in manuscript by Marie (blacked out with ink); differs from "rayé" (crossed out)
+- Notes: Render as [words blacked out: "text"] — the surviving editorial transcription of what lies under the blacking
+
+### Mistigri
+- Translation: *Mistigri*
+- Context: French card game (variant of Old Maid/Le Pouilleux); the "mistigri" is the undesirable card left over; Marie uses it as a metaphor
+- Notes: Keep French name, add brief footnote when first used in context
+
+### avant / à Sorrento (Marcuard allusion)
+- Translation: "before" / "at Sorrento"
+- Context: Marcuard's oblique remark in entry of 31 Oct 1877 — "before" or "at Sorrento" implies an earlier romantic episode there
+- Notes: Preserve the ambiguity exactly as Marie does — she simultaneously records and censors it
 
 ### Bijou-bouzouk
 - Translation: Bijou-bouzouk (keep as-is)
@@ -242,6 +425,68 @@ When Marie writes in Italian/Russian:
 - Translation: consumption
 - Context: Period term for tuberculosis
 - Notes: Keep period medical term
+
+## Carnet 076 Additions (Nov–Dec 1877)
+
+### de chic
+- Translation: *de chic* (keep French, italicized)
+- Context: Studio slang at atelier Julian: working from imagination/memory without model
+- Notes: Footnote on first use; "work *de chic*" or "done *de chic*"
+
+### Folies-Julian
+- Translation: the Folies-Julian
+- Context: Marie's ironic nickname for atelier Julian, playing on the Folies-Bergère
+- Notes: Keep as-is; the irony is self-evident
+
+### le Père / le patron (Julian)
+- Translation: Father / the patron
+- Context: Julian (Rodolphe Julian), the director; studio nickname
+- Notes: "le Père" = Father (studio nickname); "le patron" = the boss/patron (when in his study)
+
+### comme il faut
+- Translation: correct / proper / *comme il faut*
+- Context: Social acceptability marker — correctly bred, socially acceptable
+- Notes: Keep French in italics when Marie uses it as a term of art; translate when clearly adjectival
+
+### la belle cose (Italian)
+- Translation: *la belle cose* (keep Italian, italicized)
+- Context: Italian: "the beautiful things"; Salvini's troupe at the Louvre
+- Notes: Add footnote: "Italian: 'the beautiful things.'"
+
+### nulla dies sine linea (Latin)
+- Translation: *Nulla dies sine linea* (keep Latin, italicized)
+- Context: "No day without a line" — attributed to Apelles via Pliny; artist's daily-work maxim
+- Notes: Add footnote on first use
+
+### aux calendes grecques
+- Translation: to the Greek Calends
+- Context: Since Greeks had no Calends, = "never" / "indefinitely"
+- Notes: Footnote: "Since the Greeks had no Calends (a Roman institution), this means 'never' or 'indefinitely.'"
+
+### chiromancien
+- Translation: palm-reader / chiromancer
+- Context: Desbarolles: fashionable 1870s Parisian palmist
+- Notes: Use "palm-reader" in narrative; "chiromancer" only when technical tone needed
+
+### la grande dame (used by Marie of herself)
+- Translation: the great lady
+- Context: Marie's self-description at the artists' garret — she is the noble among bohemians
+- Notes: Always "the great lady" (definite article)
+
+### syncope
+- Translation: fainting fit
+- Context: Medical: sudden loss of consciousness (Grand-papa's seizure)
+- Notes: NOT "syncope" (too medical in English context)
+
+### ramollissement (cérébral)
+- Translation: softening of the brain
+- Context: 1870s diagnosis for cerebral deterioration / early dementia
+- Notes: Keep period medical language; footnote not needed
+
+### Plevna (Pleven)
+- Translation: Plevna
+- Context: Ottoman fortress in Bulgaria (now Pleven); fell to Russia Dec 10, 1877
+- Notes: Keep 1877 form "Plevna"; footnote explaining it is modern Pleven, Bulgaria
 
 ## Social & Cultural Terms (from Carnet 001)
 

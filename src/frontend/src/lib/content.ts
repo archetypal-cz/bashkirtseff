@@ -1626,7 +1626,7 @@ function getGlossaryEntryFromPath(filePath: string, category: string): GlossaryE
     researchStatus,
     lastUpdated,
     summary,
-    content,
+    content: bodyContent,
     hasParagraphClusters: hasParaClusters,
     // Language and pronunciation metadata
     languages: metadata.languages as string[] | undefined,

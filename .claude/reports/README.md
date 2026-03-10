@@ -1,14 +1,13 @@
-# Team Run Reports
+# Session Reports
 
-Structured records of translation team runs. Committed to the repo so learnings persist across sessions and operators.
+Structured records of work sessions — translation runs, tooling work, infrastructure changes, or any significant effort. Committed to the repo so learnings persist across sessions and operators.
 
 ## Purpose
 
-Every team run generates a report capturing:
-- **Who** ran it (operator from WORKER_CONFIG.yaml)
-- **What** was done (carnets, languages, pipeline stages)
-- **How** it was configured (skills used, models, team structure)
-- **What happened** (results, issues, agent lifecycle events)
+Every work session should generate a report capturing:
+- **Who** ran it (operator)
+- **What** was done (translation, tooling, research, frontend, etc.)
+- **What happened** (results, issues, decisions)
 - **What we learned** (observations, patterns, proposed improvements)
 
 Reports serve two audiences:
@@ -20,12 +19,16 @@ Reports serve two audiences:
 Each report is a markdown file with YAML frontmatter:
 
 ```
+.claude/reports/YYYY-MM-DD-{type}-{scope}.md
+```
+
+### Translation runs
+
+```
 .claude/reports/YYYY-MM-DD-{lang}-{carnets}.md
 ```
 
 Example: `2026-02-16-en-006-007.md`
-
-### Frontmatter
 
 ```yaml
 ---
@@ -42,7 +45,7 @@ status: final  # draft | final | reviewed
 ---
 ```
 
-### Required Sections
+#### Required Sections
 
 1. **Configuration** — skills, models, team structure
 2. **Results** — per-carnet table (entries, duration, fixes, issues)
@@ -50,7 +53,26 @@ status: final  # draft | final | reviewed
 4. **Issues Encountered** — categorized by WATCHLIST.md categories
 5. **Observations** — freeform notes on quality, patterns, surprises
 
-### Optional Sections
+### Tooling / infrastructure / other sessions
+
+```
+.claude/reports/YYYY-MM-DD-tooling-{scope}.md
+```
+
+Example: `2026-03-06-tooling-glossary-frontmatter.md`
+
+```yaml
+---
+date: 2026-03-06
+type: tooling
+operator: krr
+scope: glossary-frontmatter, justfile-cleanup
+---
+```
+
+Use whatever sections make sense — typically: what was done, files changed, next steps.
+
+### Optional Sections (any report type)
 
 - **Skill Version Hashes** — git hashes of skill files used
 - **Quality Scores** — if RED/CON ran, include their scores
@@ -90,13 +112,14 @@ The operator fills in:
 ## Naming Convention
 
 ```
-YYYY-MM-DD-{lang}-{carnet_range}.md
+YYYY-MM-DD-{type/lang}-{scope}.md
 ```
 
 Examples:
-- `2026-02-16-en-006-007.md` — English carnets 006-007
-- `2026-02-13-cz-005-008.md` — Czech carnets 005-008
-- `2026-02-16-en-000-gem.md` — English carnet 000 GEM-only run
+- `2026-02-16-en-006-007.md` — English translation, carnets 006-007
+- `2026-02-13-cz-005-008.md` — Czech translation, carnets 005-008
+- `2026-03-06-tooling-glossary-frontmatter.md` — Tooling session
+- `2026-03-06-frontend-glossary-pages.md` — Frontend work
 
 If multiple runs happen on the same day for the same scope, append a sequence number:
 - `2026-02-16-en-006-007-2.md`

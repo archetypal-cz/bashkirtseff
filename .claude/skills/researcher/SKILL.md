@@ -227,10 +227,40 @@ just glossary-orphaned
 just glossary-missing
 ```
 
+### Alias Management
+
+Glossary entries have an `aliases` field listing text forms by which the entity appears in the diary. These power the auto-tagger that links paragraphs to glossary entries.
+
+```bash
+# Add aliases as you identify how Marie refers to entities
+just glossary-add-alias MAMAN "ma mère"
+just glossary-add-alias DUKE_OF_HAMILTON "le duc"
+just glossary-add-alias MME_HOWARD "la Howard"
+
+# Remove incorrect aliases
+just glossary-remove-alias MAMAN "Maria"
+
+# Check current aliases
+just glossary-fm-get MAMAN
+
+# Query entries missing aliases (candidates for enrichment)
+just glossary-query --category people --no-field aliases --limit 20
+
+# Bulk auto-derive aliases from headings (bootstrap)
+just glossary-aliases-dry --category people    # Preview
+just glossary-aliases --category people        # Apply
+```
+
+**When to add aliases during research:**
+- When you identify how Marie actually writes a name (e.g., "cette drôlesse" for Howard)
+- When you notice variant spellings (e.g., "Anitchkoff" / "Anitchkov")
+- When Marie uses nicknames or coded names (e.g., "Laïs" for Gioia)
+
 **When to use these tools:**
 - You created an entry in the wrong category → `just glossary-move`
 - You find two entries for the same entity → `just glossary-merge`
 - You're unsure if an entry already exists → `just glossary-search` / `just glossary-find`
+- You want to enrich aliases → `just glossary-add-alias`
 
 ### 5. Frontmatter Management
 
