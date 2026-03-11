@@ -198,6 +198,33 @@ When Marie writes in Italian/Russian:
 - Context: Person declared by courts incapable of managing affairs
 - Notes: Explain in footnote; "n'est plus interdit" → "is no longer under guardianship"
 
+## Carnet 094 Additions (Nov 1881–Apr 1882)
+
+### Bataille de fleurs
+- Translation: Battle of Flowers (keep French proper name)
+- Context: Nice Carnival flower-throwing event on the Promenade des Anglais
+- Notes: Proper name, retain as-is
+
+### porte cochère
+- Translation: carriage gate
+- Context: Large street-level door/arch for vehicles to pass through
+- Notes: NOT "carriage door" — it is an architectural feature
+
+### volonté (Breslau's)
+- Translation: *will* (italicized when Marie uses it as a quasi-proper noun for Breslau's quality)
+- Context: Marie repeatedly refers to "la volonté de Breslau" as a defining artistic quality
+- Notes: Italicize when used as Marie's shorthand concept
+
+### pochade
+- Translation: quick sketch / quick oil sketch
+- Context: Rapid oil painting study, often done outdoors
+- Notes: NOT "rough draft" — specifically a painted study
+
+### j'ai les bras coupés / les bras me tombent
+- Translation: I am left helpless / my arms fall
+- Context: Two related expressions for artistic/emotional paralysis
+- Notes: Distinguish: "bras coupés" = helpless (active obstruction); "bras me tombent" = arms fall (defeated discouragement)
+
 ## Carnet 078 Additions (Feb–Mar 1878)
 
 ### intriguer (bal masqué)
@@ -4534,3 +4561,45 @@ When Marie writes in Italian/Russian:
 - Translation: for the business / for commercial reasons
 - Context: Julian's frank commercial calculation: pushing for Breslau's medal because it benefits the atelier's reputation
 - Notes: Colloquial register; "for the business" captures the slight cynicism; "commercially" is acceptable
+
+## Carnet 092 Additions (May–Aug 1881, Paris & Ukraine)
+
+### tableau vs. morceau (art criticism)
+- Translation: *tableau* (picture/composition) vs. *morceau* (piece/study/fragment)
+- Context: Julian's key critical distinction: the *tableau* is the overall composition; the *morceau* is the isolated well-rendered passage. Julian criticises Marie for pursuing the *morceau* at the expense of the *tableau*.
+- Notes: Keep both French terms in italics. Explain in footnote on first use per carnet: "Julian's distinction: the *tableau* is the whole picture as a coherent composition; the *morceau* is the isolated fragment or study."
+
+### la Morgue (Salon)
+- Translation: the *Morgue* / the exterior gallery
+- Context: Artists' slang for the poorly-lit exterior galleries of the Salon at the Palais de l'Industrie, where works were hung in unfavourable conditions high on the wall — effectively a death sentence for a painting's reception. Both Marie and Breslau's submissions were hung there in 1880.
+- Notes: Keep "the *Morgue*" with footnote: "The *Morgue*: artists' slang for the outer exhibition gallery of the Salon, where works were hung in poor light and near-invisibility — the opposite of the prestigious *cimaise*."
+
+### droit des femmes (organisation)
+- Translation: women's rights / the women's rights society
+- Context: The *Société pour le droit des femmes* founded by Hubertine Auclert; Marie attended meetings in Paris in August 1881.
+- Notes: "women's rights" (lowercase) in running text; "the women's rights meeting" for the event; *La Citoyenne* is Auclert's associated newspaper (keep in italics).
+
+### Hubertine Auclert
+- Translation: Hubertine (use first name after introduction)
+- Context: Hubertine Auclert (1848–1914), pioneering French suffragist and founder of the *Société pour le droit des femmes* and *La Citoyenne* newspaper.
+- Notes: Introduce with full name and dates in footnote on first use; thereafter "Hubertine."
+
+### Citoyenne (form of address)
+- Translation: Citoyenne (keep French, with context)
+- Context: The republican feminist form of address — "Citizen" (feminine) — consciously echoing the French Revolution. Used by Auclert's group.
+- Notes: Keep "Citoyenne" in running text; brief footnote: "Citoyenne: the republican form of address, echoing the French Revolution's 'Citizen.'"
+
+### gommeux
+- Translation: dandy / fop / swell
+- Context: 1870s–80s slang for an affected, dandified young man; from *gomme* (hair-pomade). A stock figure of satirical illustration.
+- Notes: "dandy" in most contexts; "swell" for a lighter register. Already in memory at earlier entry — consistent with that.
+
+### in petto
+- Translation: *in petto* (keep Italian/Latin)
+- Context: Italian/Latin phrase: "in the breast" — meaning privately, to oneself, inwardly.
+- Notes: Keep in italics; no footnote needed after first use per carnet.
+
+### être sourde / devenir sourde
+- Translation: being deaf / going deaf
+- Context: Marie's progressive deafness is central to her suffering in carnets 091–092. She hides it from society using feigned abruptness and eccentricity.
+- Notes: Translate plainly: "deaf," "going deaf," "my deafness." Do NOT soften to "hard of hearing."
