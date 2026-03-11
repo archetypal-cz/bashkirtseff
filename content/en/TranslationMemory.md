@@ -4500,3 +4500,37 @@ When Marie writes in Italian/Russian:
 - Translation: ground-floor box / stalls box
 - Context: The theatre box at orchestra/ground level; literally "bathtub" in French — the shape of these low boxes
 - Notes: "ground-floor box" is standard English theatre terminology; footnote not needed
+
+%% 2026-03-11T10:00:00 TR: Added terms from carnet 091 — Paris Feb–May 1881, Salon crisis, Cassagnac obsession, Breslau medal blow %%
+
+## Carnet 091 Additions (Feb–May 1881, Paris)
+
+### bal de l'Opéra
+- Translation: the Opéra ball / the masked ball at the Opéra
+- Context: The Paris Opéra's famous public masked balls; allowed anonymous encounters between social classes; a setting for Cassagnac's seduction of Mme de Brimont
+- Notes: "the Opéra ball" is the standard English term; add brief footnote on first use per entry explaining the anonymous encounter convention
+
+### amende honorable
+- Translation: public apology / formal act of contrition
+- Context: A formal public retraction or apology; Marie uses it when Breslau apologises to Julian for listing Tony Robert-Fleury as her teacher in the Salon catalogue
+- Notes: Keep "amende honorable" in italics if the formal register is needed; "public apology" works in running text
+
+### le livret (Salon)
+- Translation: the catalogue / the Salon catalogue
+- Context: The official Salon catalogue listing artists, works, and teachers; Marie refers to Breslau listing herself as a pupil of Tony Robert-Fleury in the livret
+- Notes: "the catalogue" is sufficient; "the Salon catalogue" on first mention per entry
+
+### Balandard
+- Translation: a Balandard / a solid bourgeois
+- Context: Period colloquial for a wealthy but untitled bourgeois — a respectable, if ordinary, name connoting the French commercial upper-middle class without aristocratic pretension; Marie uses it to describe her ideal husband: rich with republican connections but no title
+- Notes: Keep "Balandard" as a proper noun when Marie uses it as a shorthand type; add footnote: "Balandard: a colloquial term for a solid, prosperous bourgeois without title." In running explanation, "a wealthy commoner" or "a solid bourgeois" captures the sense.
+
+### se montrer (at the Bois)
+- Translation: show oneself / appear (in society)
+- Context: The formal act of being seen in public — at the Bois de Boulogne, at the Salon, etc.; a social performance that signals availability and status
+- Notes: NOT simply "go out" — "se montrer" in Marie's vocabulary is a deliberate social display; "show myself" or "appear in public" are correct
+
+### pour la boutique
+- Translation: for the business / for commercial reasons
+- Context: Julian's frank commercial calculation: pushing for Breslau's medal because it benefits the atelier's reputation
+- Notes: Colloquial register; "for the business" captures the slight cynicism; "commercially" is acceptable
