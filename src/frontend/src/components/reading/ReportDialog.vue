@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, watch } from 'vue';
 import { useI18n } from '../../i18n';
 import { useAuthStore } from '../../stores/auth';
 import { submitReport } from '../../lib/reports';
@@ -21,7 +21,9 @@ const emit = defineEmits<{
 const mounted = ref(false);
 const isOpen = ref(false);
 const selectedReason = ref<ReportReason | null>(null);
+const dropdownOpen = ref(false);
 const customText = ref('');
+const highlightedText = ref('');
 const submitting = ref(false);
 const submitted = ref(false);
 const error = ref('');
@@ -42,18 +44,45 @@ const canSubmit = computed(() => {
   return true;
 });
 
-function open() {
+/** Placeholder text changes based on selected reason */
+const textPlaceholder = computed(() => {
+  if (!selectedReason.value) return '';
+  const key = `report.placeholders.${selectedReason.value}`;
+  const val = t(key);
+  // Fall back to generic if specific placeholder doesn't exist
+  return val === key ? t('report.textPlaceholder') : val;
+});
+
+/** Label changes based on reason */
+const textLabel = computed(() => {
+  if (selectedReason.value === 'other') return t('report.describeIssue');
+  return t('report.optionalDetail');
+});
+
+function open(preselectedText?: string) {
   isOpen.value = true;
   selectedReason.value = null;
   customText.value = '';
+  highlightedText.value = preselectedText?.trim() || '';
   submitted.value = false;
   error.value = '';
+  dropdownOpen.value = false;
   trackEvent('report_sheet_opened', { paragraphId: props.paragraphId, language: props.language });
 }
 
 function close() {
   isOpen.value = false;
+  dropdownOpen.value = false;
   emit('close');
+}
+
+function selectReason(reason: ReportReason) {
+  selectedReason.value = reason;
+  dropdownOpen.value = false;
+}
+
+function toggleDropdown() {
+  dropdownOpen.value = !dropdownOpen.value;
 }
 
 async function submit() {
@@ -69,9 +98,9 @@ async function submit() {
         language: props.language,
         reason: selectedReason.value!,
         customReason: selectedReason.value === 'other' ? customText.value.trim() : undefined,
-        highlightedText: selectedReason.value !== 'other' && customText.value.trim()
+        highlightedText: highlightedText.value || (selectedReason.value !== 'other' && customText.value.trim()
           ? customText.value.trim()
-          : undefined,
+          : undefined) || undefined,
       },
       auth.token,
     );
@@ -87,6 +116,15 @@ async function submit() {
   }
 }
 
+// Close dropdown on outside click
+function onBackdropClick() {
+  if (dropdownOpen.value) {
+    dropdownOpen.value = false;
+    return;
+  }
+  close();
+}
+
 onMounted(() => {
   mounted.value = true;
 });
@@ -97,7 +135,7 @@ defineExpose({ open });
 <template>
   <Teleport v-if="mounted" to="body">
     <Transition name="report-modal">
-      <div v-if="isOpen" class="sheet-backdrop" @click="close">
+      <div v-if="isOpen" class="sheet-backdrop" @click="onBackdropClick">
         <div class="sheet-content" @click.stop>
           <!-- Close button -->
           <button @click="close" class="menu-item close-item">
@@ -126,28 +164,46 @@ defineExpose({ open });
           <div v-else class="report-form">
             <p class="report-form__desc">{{ t('report.description') }}</p>
 
-            <!-- Reason picker -->
-            <div class="reason-list">
-              <button
-                v-for="reason in reasons"
-                :key="reason"
-                @click="selectedReason = reason"
-                class="reason-item"
-                :class="{ 'reason-item--selected': selectedReason === reason }"
-              >
-                {{ t(`report.reasons.${reason}`) }}
-              </button>
+            <!-- Highlighted text from selection -->
+            <div v-if="highlightedText" class="report-selection">
+              <span class="report-selection__label">{{ t('report.selectedText') }}</span>
+              <blockquote class="report-selection__text">&ldquo;{{ highlightedText }}&rdquo;</blockquote>
             </div>
 
-            <!-- Optional text -->
+            <!-- Reason dropdown (opens upward) -->
+            <div class="reason-dropdown">
+              <button
+                @click="toggleDropdown"
+                class="reason-dropdown__trigger"
+                :class="{ 'reason-dropdown__trigger--active': dropdownOpen, 'reason-dropdown__trigger--selected': selectedReason }"
+              >
+                <span>{{ selectedReason ? t(`report.reasons.${selectedReason}`) : t('report.chooseReason') }}</span>
+                <svg class="reason-dropdown__chevron" :class="{ 'reason-dropdown__chevron--up': dropdownOpen }" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+              <Transition name="dropdown-slide">
+                <div v-if="dropdownOpen" class="reason-dropdown__menu">
+                  <button
+                    v-for="reason in reasons"
+                    :key="reason"
+                    @click="selectReason(reason)"
+                    class="reason-dropdown__item"
+                    :class="{ 'reason-dropdown__item--selected': selectedReason === reason }"
+                  >
+                    {{ t(`report.reasons.${reason}`) }}
+                  </button>
+                </div>
+              </Transition>
+            </div>
+
+            <!-- Detail text (adapts to reason) -->
             <div v-if="selectedReason" class="report-text">
-              <label class="report-text__label">
-                {{ selectedReason === 'other' ? t('report.describeIssue') : t('report.optionalDetail') }}
-              </label>
+              <label class="report-text__label">{{ textLabel }}</label>
               <textarea
                 v-model="customText"
                 class="report-text__input"
-                :placeholder="t('report.textPlaceholder')"
+                :placeholder="textPlaceholder"
                 rows="3"
                 maxlength="1000"
               />
@@ -254,48 +310,146 @@ defineExpose({ open });
   margin-bottom: 0.75rem;
 }
 
-.reason-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+/* ─── Selected text display ────────────────────────────────────────── */
+
+.report-selection {
   margin-bottom: 0.75rem;
 }
 
-.reason-item {
+.report-selection__label {
+  display: block;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted, #78716C);
+  margin-bottom: 0.25rem;
+}
+
+.report-selection__text {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8125rem;
+  font-style: italic;
+  color: var(--text-secondary, #4A3728);
+  background: rgba(180, 83, 9, 0.06);
+  border-left: 3px solid var(--color-accent, #B45309);
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+[data-theme="dark"] .report-selection__text {
+  color: #c5c5c5;
+  background: rgba(180, 83, 9, 0.1);
+}
+
+/* ─── Reason dropdown ──────────────────────────────────────────────── */
+
+.reason-dropdown {
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+.reason-dropdown__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-muted, #78716C);
+  background: transparent;
+  border: 1px solid var(--border-color, rgba(44, 24, 16, 0.15));
+  border-radius: 0.375rem;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s;
+}
+
+.reason-dropdown__trigger--selected {
+  color: var(--text-primary, #2C1810);
+  border-color: var(--color-accent, #B45309);
+}
+
+[data-theme="dark"] .reason-dropdown__trigger {
+  color: #a3a3a3;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+[data-theme="dark"] .reason-dropdown__trigger--selected {
+  color: #e5e5e5;
+  border-color: var(--color-accent, #D97706);
+}
+
+.reason-dropdown__trigger--active {
+  border-color: var(--color-accent, #B45309);
+}
+
+.reason-dropdown__chevron {
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.reason-dropdown__chevron--up {
+  transform: rotate(180deg);
+}
+
+.reason-dropdown__menu {
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--bg-primary, #FFF8F0);
+  border: 1px solid var(--border-color, rgba(44, 24, 16, 0.15));
+  border-radius: 0.375rem;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  z-index: 5;
+}
+
+[data-theme="dark"] .reason-dropdown__menu {
+  background: #222;
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="sepia"] .reason-dropdown__menu {
+  background: #F5E6D3;
+}
+
+.reason-dropdown__item {
   display: block;
   width: 100%;
   padding: 0.5rem 0.75rem;
   font-size: 0.875rem;
   color: var(--text-primary, #2C1810);
   background: transparent;
-  border: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
-  border-radius: 0.375rem;
+  border: none;
   cursor: pointer;
   text-align: left;
-  transition: background-color 0.15s, border-color 0.15s;
+  transition: background-color 0.1s;
 }
 
-[data-theme="dark"] .reason-item {
+[data-theme="dark"] .reason-dropdown__item {
   color: #e5e5e5;
-  border-color: rgba(255, 255, 255, 0.1);
 }
 
-.reason-item:hover {
+.reason-dropdown__item:hover {
   background: var(--bg-secondary, #F5E6D3);
 }
 
-[data-theme="dark"] .reason-item:hover {
-  background: #252525;
+[data-theme="dark"] .reason-dropdown__item:hover {
+  background: #2a2a2a;
 }
 
-.reason-item--selected {
-  border-color: var(--color-accent, #B45309);
-  background: rgba(180, 83, 9, 0.08);
+.reason-dropdown__item--selected {
+  color: var(--color-accent, #B45309);
+  font-weight: 600;
 }
 
-[data-theme="dark"] .reason-item--selected {
-  background: rgba(180, 83, 9, 0.15);
+.reason-dropdown__item + .reason-dropdown__item {
+  border-top: 1px solid var(--border-color, rgba(44, 24, 16, 0.06));
 }
+
+/* ─── Text input ───────────────────────────────────────────────────── */
 
 .report-text {
   margin-bottom: 0.75rem;
@@ -330,6 +484,8 @@ defineExpose({ open });
   outline: none;
   border-color: var(--color-accent, #B45309);
 }
+
+/* ─── Error, buttons, success ──────────────────────────────────────── */
 
 .report-error {
   font-size: 0.8125rem;
@@ -420,5 +576,17 @@ defineExpose({ open });
 .report-modal-enter-from .sheet-content,
 .report-modal-leave-to .sheet-content {
   transform: translateY(100%);
+}
+
+/* Dropdown slide animation */
+.dropdown-slide-enter-active,
+.dropdown-slide-leave-active {
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.dropdown-slide-enter-from,
+.dropdown-slide-leave-to {
+  opacity: 0;
+  transform: translateY(8px);
 }
 </style>

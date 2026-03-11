@@ -368,6 +368,8 @@
     "optionalDetail": "Additional detail (optional)",
     "textPlaceholder": "What seems wrong?",
     "reportIssue": "Report issue",
+    "chooseReason": "Select issue type...",
+    "selectedText": "Selected text",
     "reasons": {
       "bad_translation": "Bad translation",
       "unnatural": "Unnatural phrasing",
@@ -376,6 +378,15 @@
       "factual_error": "Factual or historical error",
       "typo": "Typo or grammar",
       "other": "Other (describe below)"
+    },
+    "placeholders": {
+      "bad_translation": "What should it say instead?",
+      "unnatural": "How would you phrase it more naturally?",
+      "missing_text": "What text is missing or cut off?",
+      "wrong_language": "Which part is in the wrong language?",
+      "factual_error": "What is the correct information?",
+      "typo": "Where is the typo?",
+      "other": "Describe the issue..."
     }
   },
   "welcome": {

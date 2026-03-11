@@ -368,6 +368,8 @@
     "optionalDetail": "Doplňující detail (volitelné)",
     "textPlaceholder": "Co se zdá být špatně?",
     "reportIssue": "Nahlásit problém",
+    "chooseReason": "Vyberte typ problému...",
+    "selectedText": "Vybraný text",
     "reasons": {
       "bad_translation": "Špatný překlad",
       "unnatural": "Nepřirozená formulace",
@@ -376,6 +378,15 @@
       "factual_error": "Věcná nebo historická chyba",
       "typo": "Překlep nebo gramatika",
       "other": "Jiné (popište níže)"
+    },
+    "placeholders": {
+      "bad_translation": "Jak by to mělo být správně?",
+      "unnatural": "Jak byste to formulovali přirozeněji?",
+      "missing_text": "Jaký text chybí nebo je oříznutý?",
+      "wrong_language": "Která část je v nesprávném jazyce?",
+      "factual_error": "Jaká je správná informace?",
+      "typo": "Kde je překlep?",
+      "other": "Popište problém..."
     }
   },
   "welcome": {

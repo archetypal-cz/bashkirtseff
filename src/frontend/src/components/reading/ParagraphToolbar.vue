@@ -133,7 +133,10 @@ const reportDialog = ref<InstanceType<typeof ReportDialog> | null>(null);
 
 function openReport() {
   closeMenu();
-  reportDialog.value?.open();
+  // Capture any text the user has selected in the paragraph
+  const selection = window.getSelection();
+  const selectedText = selection?.toString().trim() || '';
+  reportDialog.value?.open(selectedText);
 }
 
 function handleSignInToReport() {

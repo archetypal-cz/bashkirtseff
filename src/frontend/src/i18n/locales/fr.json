@@ -368,6 +368,8 @@
     "optionalDetail": "Détail supplémentaire (facultatif)",
     "textPlaceholder": "Qu'est-ce qui semble incorrect ?",
     "reportIssue": "Signaler un problème",
+    "chooseReason": "Sélectionnez le type de problème...",
+    "selectedText": "Texte sélectionné",
     "reasons": {
       "bad_translation": "Mauvaise traduction",
       "unnatural": "Formulation peu naturelle",
@@ -376,6 +378,15 @@
       "factual_error": "Erreur factuelle ou historique",
       "typo": "Faute de frappe ou grammaire",
       "other": "Autre (décrivez ci-dessous)"
+    },
+    "placeholders": {
+      "bad_translation": "Comment devrait-on le formuler ?",
+      "unnatural": "Comment le formuleriez-vous plus naturellement ?",
+      "missing_text": "Quel texte manque ou est coupé ?",
+      "wrong_language": "Quelle partie est dans la mauvaise langue ?",
+      "factual_error": "Quelle est l'information correcte ?",
+      "typo": "Où est la faute de frappe ?",
+      "other": "Décrivez le problème..."
     }
   },
   "welcome": {

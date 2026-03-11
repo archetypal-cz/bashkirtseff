@@ -96,5 +96,6 @@ CREATE POLICY "Users can view own reports"
 GRANT SELECT, INSERT ON paragraph_reports TO authenticated;
 GRANT USAGE ON ALL SEQUENCES IN SCHEMA public TO authenticated;
 
--- Anon can read the health check (optional)
--- No table access for anon by default.
+-- Anon needs SELECT so PostgREST can discover the table in its schema cache.
+-- RLS still blocks actual data access (no policy = no rows returned).
+GRANT SELECT ON paragraph_reports TO anon;
