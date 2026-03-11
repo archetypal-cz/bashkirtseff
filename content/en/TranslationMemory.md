@@ -4369,3 +4369,87 @@ When Marie writes in Italian/Russian:
 - Translation: the marriage contract signing
 - Context: Formal social occasion when the marriage settlement was signed, attended by a wider circle than the wedding itself
 - Notes: Expand on first use; "at the contract signing" is insufficient without this gloss
+
+%% 2026-03-11T10:00:00 TR: Added terms from carnet 103 — Paris Jan–Apr 1884, Salon submission, Maupassant correspondence, illness crisis %%
+
+## Carnet 103 Additions (Jan–Apr 1884)
+
+### la cimaise (Salon)
+- Translation: the *cimaise* / the picture rail
+- Context: The uppermost rail in the Salon where pictures were hung at eye level — the most prestigious position; to be "on the *cimaise*" was a triumph
+- Notes: Keep French *cimaise* in italics with footnote on first use per carnet: "the *cimaise*: the picture rail at the Salon, reserved for the most prestigious works hung at eye level." Julian's letter confirming Marie's painting is on the rail is a crucial moment in carnet 103.
+
+### Un Meeting (Salon painting)
+- Translation: *Un Meeting*
+- Context: Marie's Salon 1884 entry — a painting of a street-corner political gathering; title kept in English-as-French
+- Notes: Keep *Un Meeting* (in italics in narrative); the English word embedded in a French title is intentional — Marie chose it deliberately
+
+### Salon jury numbering (No. 1 / No. 2 / No. 3)
+- Translation: No. 1 / No. 2 / No. 3 (keep the number system)
+- Context: The jury ranked submissions: No. 1 = admitted by acclamation; No. 2 = strong majority; No. 3 = simple majority (minimum required for acceptance)
+- Notes: Footnote on first use per carnet: "Salon works were accepted by numbered vote: No. 1 unanimous, No. 2 strong majority, No. 3 simple majority — the minimum." Marie was bitterly disappointed to receive only No. 3 for *Un Meeting*.
+
+### naturalist / Naturalist (school)
+- Translation: Naturalist (capitalised when referring to Zola's school)
+- Context: The literary/artistic school of Émile Zola: rigorous documentary realism, social types, physiological determinism
+- Notes: Capitalise "Naturalist" when Marie uses *naturaliste* to mean a follower of Zola's school; lowercase for generic sense
+
+### l'inconnu / l'inconnue (anonymous correspondent)
+- Translation: the unknown / the unknown one
+- Context: Marie's anonymous correspondent in spring 1884 — ultimately revealed as Guy de Maupassant; she wrote to him under a pseudonym
+- Notes: Translate as "the unknown" (or "the unknown one") until identification is made explicit; footnote on revelation: "The anonymous correspondent was Guy de Maupassant (1850–1893)..."
+
+### Nom d'un chien
+- Translation: Good heavens / "In the name of a dog!"
+- Context: Mild French oath; literally "in the name of a dog"; used as an exclamation of exasperation or surprise
+- Notes: "Good heavens" in most narrative contexts; retain literal translation in brackets when tone is more comic
+
+### terrain vague
+- Translation: vacant lot / waste ground
+- Context: Empty or uncultivated urban plot; Marie throws food scraps onto the one adjacent to the flat
+- Notes: "vacant lot" in American-English contexts; "waste ground" if British register preferred; footnote not needed
+
+### bromure / bromide (sedative)
+- Translation: bromide
+- Context: 19th-century sedative (potassium bromide) commonly prescribed for nervous states, insomnia, hysteria
+- Notes: Keep "bromide" — it is the exact period medical term; footnote on first use: "Bromide (potassium bromide), a common 19th-century sedative for nervous disorders."
+
+### Gloria Cupiditas
+- Translation: *Gloria Cupiditas* (keep Latin, italicized)
+- Context: Marie's title for carnet 103: "Hunger for Glory"; apparent manuscript typo in source ("Gloria Cupditas") corrected silently to *Gloria Cupiditas*
+- Notes: No English translation needed; the Latin is immediately comprehensible in context; footnote not required
+
+### rapins
+- Translation: *rapins* (keep French, italicized) / art students
+- Context: Paris studio slang: junior art students, roughly equivalent to apprentices; carries slight pejorative tinge
+- Notes: Use "art students" in general narrative; keep *rapins* in italics when Marie's studio-slang register is important
+
+### marchand de couleurs
+- Translation: paint supplier / colourman
+- Context: Specialist shop supplying artists' materials — pigments, canvas, brushes, frames
+- Notes: "colourman" is the period English equivalent (used by Constable, Turner); "paint supplier" is clearer for modern readers
+
+### taper (l'argent)
+- Translation: to touch (someone) for money / to cadge
+- Context: Informal: to ask someone for money; Marie uses this of family members borrowing from each other
+- Notes: "to touch for money" retains the period register; "to cadge" is more British
+
+### cimaise vs. ligne de terre
+- Translation: *cimaise* (top rail) vs. *ligne de terre* (floor level)
+- Context: Two Salon hanging positions: the prestigious *cimaise* (eye level) vs. *ligne de terre* (ground level — humiliating)
+- Notes: Both terms may appear in same passage; distinguish clearly in footnotes
+
+### plein-air (as style adjective)
+- Translation: *plein-air* (keep French hyphenated, italicized when adjectival)
+- Context: Style of outdoor painting; used both as a noun and as an adjective modifying "painter" or "approach"
+- Notes: Always hyphenate and italicise as adjective: "a *plein-air* painter"; as noun: "working *en plein air*"
+
+### comme il faut (social register)
+- Translation: *comme il faut* (keep French, italicized)
+- Context: Socially correct, well-bred, properly conducted; Marie uses this throughout as a shorthand for social acceptability
+- Notes: Already in TranslationMemory from earlier carnets; confirmed as consistent usage in carnet 103 — always keep French in italics
+
+### mastroquet / l'mastroquet
+- Translation: *mastroquet* (keep French, italicized) / the barkeep
+- Context: Paris popular-slang: a wine-shop keeper or barman; lower-register word; Marie uses it in a mock-poem/doggerel passage
+- Notes: Keep French in poetry/doggerel; "the barkeep" or "the tapster" in narrative gloss
