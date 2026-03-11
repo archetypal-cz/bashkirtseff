@@ -175,6 +175,31 @@ Marie Bashkirtseff was:
 
 **Add TR comments** when you encounter a significant false friend or calque trap — this helps downstream reviewers understand your choices.
 
+<!-- Teamcouch update 2026-03-11: Register watchlist.
+     Evidence: reports en-048-056, en-057-064, en-065-070, en-093-106, en-091-103
+     (5/5 reports). Pattern: register errors are the #1 RED fix category across
+     all English runs — technically correct words but wrong for Marie's 1880s
+     voice or context. -->
+**Register watchlist — words that are technically correct but wrong for Marie's voice:**
+- "sordid" → prefer "dirty/grubby" (too literary-modern for casual diary speech)
+- "bloody" → prefer "vile/wretched" (British slang register, wrong for 1880s cosmopolitan)
+- "minx" → prefer "imp/little devil" (when describing children — "minx" implies adult sexuality)
+- "chest" → prefer "bosom/breast" (19th-century women's language about their own bodies)
+- "immune to" → prefer "not subject to/not susceptible to" (medical register anachronism)
+- "good God" → prefer "good Lord/good heavens" (Marie's exclamations are dramatic but not profane)
+- Always ask: is this word something a well-bred 1880s young woman would write in her diary?
+
+<!-- Teamcouch update 2026-03-11: French word-order calque warning.
+     Evidence: reports en-065-070, en-093-106, en-091-103 (3/5 reports).
+     Pattern: translators preserve French syntax in English, producing
+     grammatical but unnatural constructions. -->
+**French word-order calques — the #2 issue after register:**
+- "make oneself beautiful only to have..." → "dress up only to have..." (French reflexive calque)
+- "I have often that expression" → "I often wear that expression" (French adverb placement)
+- "she is of a charming amiability" → "she is charmingly amiable" (French nominal construction)
+- "one's arms drop" → "one is left helpless" (French idiom rendered literally)
+- After translating, re-read each sentence and ask: "Would an English speaker structure this sentence this way?"
+
 ### Special Cases
 
 **Foreign Language Passages**
