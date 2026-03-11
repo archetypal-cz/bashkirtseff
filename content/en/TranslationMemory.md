@@ -4453,3 +4453,50 @@ When Marie writes in Italian/Russian:
 - Translation: *mastroquet* (keep French, italicized) / the barkeep
 - Context: Paris popular-slang: a wine-shop keeper or barman; lower-register word; Marie uses it in a mock-poem/doggerel passage
 - Notes: Keep French in poetry/doggerel; "the barkeep" or "the tapster" in narrative gloss
+
+## Carnet 096 Additions (Aug–Oct 1882, Paris & Gavronzi)
+
+### starovoï / starosta (village headman)
+- Translation: *starovoï* (keep, footnote on first use per carnet)
+- Context: The elected village elder or headman; responsible for order, tax collection, and liaison with estate owners; invited to the Dikanka hunt dinner as a courtesy
+- Notes: Already in TM as "starosta"; Marie uses the French-inflected form *starovoï* in carnet 096 — keep her spelling, footnote: "*Starovoï*: the village elder or headman."
+
+### pope (Orthodox priest)
+- Translation: *pope* (keep, footnote on first use per carnet)
+- Context: An Orthodox priest; from Russian *pop*; invited to the baptism at Gavronzi and observed remaining sober while the men drink
+- Notes: "The Orthodox priest" is an acceptable gloss in running text if the footnote has already been given; do not translate as "priest" alone without the note on first use
+
+### verstes (distance)
+- Translation: *verstes* (keep, footnote on first use per carnet)
+- Context: Russian unit of distance, approximately 1.07 km; Marie uses it consistently in the Russian sections of the diary
+- Notes: Already noted in TM under "verstes" (line 150); confirmed usage pattern in carnet 096 — 40 verstes cited explicitly; footnote: "*Verste*: a Russian unit of distance, approximately 1.07 km."
+
+### quadrille de famille
+- Translation: family *quadrille*
+- Context: A formal square dance performed by family groups at private social gatherings; a set piece of Russian provincial entertainment
+- Notes: Keep "family *quadrille*" — the term is culturally specific enough to retain with light gloss
+
+### à la bonne franquette
+- Translation: *à la bonne franquette* (keep French, italicized) / informally / without ceremony
+- Context: Marie uses this idiom to describe dancing informally after the formal quadrille
+- Notes: Use "informally" or "without ceremony" in translation; if the French flavor is important keep *à la bonne franquette* in italics with no footnote (comprehensible in context)
+
+### homely (English code-switch)
+- Translation: ==homely== (keep as-is, mark with highlight, footnote)
+- Context: Marie uses the English word in the French original to mean "cosy, comfortable, homelike" (British sense); she is describing the feeling of the Dikanka rooms
+- Notes: Mark ==homely== with highlight; footnote: "In English in the original." Do NOT translate to French connotation ("ugly") — the British/period sense is intended
+
+### couverte de cendres
+- Translation: covered in ashes
+- Context: Biblical idiom of abasement and mourning (cf. sackcloth and ashes); Marie uses it rhetorically — "after having covered myself in ashes I shall try to deceive you" — meaning: after this display of self-flagellation
+- Notes: Translate literally; the biblical register carries through in English; no footnote needed
+
+### à bouche que veux-tu
+- Translation: passionately / hungrily (kissing)
+- Context: French idiom: kissing as much as one wants, unrestrainedly; Marie uses it to describe the stage kisses in the Poltava theatre piece
+- Notes: "passionately" or "with abandon" captures the sense; do not translate literally ("to mouth as you wish")
+
+### baignoire (theatre box)
+- Translation: ground-floor box / stalls box
+- Context: The theatre box at orchestra/ground level; literally "bathtub" in French — the shape of these low boxes
+- Notes: "ground-floor box" is standard English theatre terminology; footnote not needed
