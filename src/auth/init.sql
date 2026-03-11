@@ -1,7 +1,25 @@
 -- GoTrue Auth Database Initialization
--- This runs automatically on first `docker compose up`.
--- GoTrue creates its own auth schema/tables on startup.
--- We add: roles for PostgREST, the reports table, and RLS policies.
+-- This runs automatically on first `docker compose up` (before GoTrue starts).
+-- GoTrue creates its own auth schema/tables via migrations on startup.
+-- We add: prerequisites for GoTrue, roles for PostgREST, reports table, and RLS.
+
+-- =============================================================
+-- 0. Prerequisites for GoTrue migrations
+-- =============================================================
+-- GoTrue expects an 'auth' schema and a 'postgres' superuser role.
+-- The DB user (gotrue) also needs superuser for extension creation.
+
+CREATE SCHEMA IF NOT EXISTS auth;
+
+DO $$
+BEGIN
+  IF NOT EXISTS (SELECT FROM pg_roles WHERE rolname = 'postgres') THEN
+    CREATE ROLE postgres SUPERUSER LOGIN;
+  END IF;
+END
+$$;
+
+ALTER ROLE gotrue SUPERUSER;
 
 -- =============================================================
 -- 1. Roles for PostgREST (anon = unauthenticated, authenticated = logged in)

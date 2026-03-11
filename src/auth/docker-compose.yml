@@ -14,7 +14,7 @@
 
 services:
   gotrue:
-    image: supabase/gotrue:v2.170.0
+    image: supabase/gotrue:v2.158.1
     container_name: gotrue
     restart: unless-stopped
     depends_on:
