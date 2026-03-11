@@ -1,0 +1,109 @@
+# GoTrue Auth + PostgREST for bashkirtseff.org
+# Lightweight auth (Google OAuth) + REST API for paragraph reports.
+#
+# Setup:
+#   1. Copy .env.example to .env and fill in values
+#   2. docker compose up -d
+#   3. Add proxy hosts in Nginx Proxy Manager:
+#      auth.bashkirtseff.org -> gotrue:9999
+#      api.bashkirtseff.org  -> postgrest:3000
+#   4. Run the init SQL to create tables + roles:
+#      docker compose exec auth-db psql -U gotrue -d gotrue -f /docker-entrypoint-initdb.d/init.sql
+#   5. Set PUBLIC_AUTH_URL and PUBLIC_API_URL in ../frontend/.env
+#   6. Rebuild frontend: cd ../frontend && docker compose up -d --build
+
+services:
+  gotrue:
+    image: supabase/gotrue:v2.170.0
+    container_name: gotrue
+    restart: unless-stopped
+    depends_on:
+      auth-db:
+        condition: service_healthy
+    environment:
+      # Database
+      GOTRUE_DB_DRIVER: postgres
+      GOTRUE_DB_DATABASE_URL: postgresql://gotrue:${POSTGRES_PASSWORD}@auth-db:5432/gotrue?sslmode=disable
+
+      # API
+      API_EXTERNAL_URL: https://auth.bashkirtseff.org
+      GOTRUE_API_HOST: "0.0.0.0"
+      GOTRUE_API_PORT: "9999"
+
+      # JWT — shared with PostgREST for token verification
+      GOTRUE_JWT_SECRET: ${JWT_SECRET}
+      GOTRUE_JWT_EXP: "3600"
+      GOTRUE_JWT_AUD: "authenticated"
+      GOTRUE_JWT_DEFAULT_GROUP_NAME: "authenticated"
+
+      # Site
+      GOTRUE_SITE_URL: https://bashkirtseff.org
+      GOTRUE_URI_ALLOW_LIST: "https://bashkirtseff.org,https://bashkirtseff.org/*,http://localhost:4321,http://localhost:4321/*"
+      GOTRUE_DISABLE_SIGNUP: "false"
+
+      # Google OAuth
+      GOTRUE_EXTERNAL_GOOGLE_ENABLED: "true"
+      GOTRUE_EXTERNAL_GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      GOTRUE_EXTERNAL_GOOGLE_SECRET: ${GOOGLE_CLIENT_SECRET}
+      GOTRUE_EXTERNAL_GOOGLE_REDIRECT_URI: https://auth.bashkirtseff.org/callback
+
+      # Email (disabled — OAuth only)
+      GOTRUE_EXTERNAL_EMAIL_ENABLED: "false"
+      GOTRUE_MAILER_AUTOCONFIRM: "true"
+
+      # Cookies
+      GOTRUE_COOKIE_KEY: "sb-auth-token"
+      GOTRUE_COOKIE_DOMAIN: "bashkirtseff.org"
+
+    networks:
+      - auth-internal
+      - nginx_npm_network
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"
+
+  postgrest:
+    image: postgrest/postgrest:v12.2.8
+    container_name: postgrest
+    restart: unless-stopped
+    depends_on:
+      auth-db:
+        condition: service_healthy
+    environment:
+      PGRST_DB_URI: postgresql://gotrue:${POSTGRES_PASSWORD}@auth-db:5432/gotrue
+      PGRST_DB_SCHEMAS: public
+      PGRST_DB_ANON_ROLE: anon
+      PGRST_JWT_SECRET: ${JWT_SECRET}
+      PGRST_JWT_AUD: "authenticated"
+      PGRST_MAX_ROWS: "1000"
+    networks:
+      - auth-internal
+      - nginx_npm_network
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"
+
+  auth-db:
+    image: postgres:15-alpine
+    container_name: auth-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: gotrue
+      POSTGRES_USER: gotrue
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - auth-db-data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    networks:
+      - auth-internal
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gotrue"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  auth-db-data:
+
+networks:
+  auth-internal:
+  nginx_npm_network:
+    external: true
