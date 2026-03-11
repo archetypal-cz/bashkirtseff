@@ -4293,3 +4293,79 @@ When Marie writes in Italian/Russian:
 - Translation: Michel Gautier
 - Context: Elder brother of the two beautiful Gautier sisters Marie admires; older than Albert, dissolute, passes his life with *cocottes*; reminds Marie of Larderei and Antonelli
 - Notes: Carnet 067 Dec 11; "Michel Gautier" on first mention; "Michel" thereafter
+
+## Carnet 099 Additions (Mar–May 1883)
+
+### cimaise
+- Translation: *cimaise* (keep French, italicized)
+- Context: The picture rail at the Salon — the coveted eye-level hanging position; works placed above it were said to be "skied"
+- Notes: Footnote on first use: "The *cimaise* (picture rail): the eye-level hanging position at the Salon, considered the best placement."
+
+### mention honorable
+- Translation: *mention honorable* (keep French, italicized) / honourable mention
+- Context: Salon award below the medals, voted by jury; Marie received one for her pastel in 1883
+- Notes: Keep French form in italics when used as the award name; "honourable mention" in surrounding narrative
+
+### soufflet (formal insult)
+- Translation: a slap in the face
+- Context: In 19th-century French honour culture, a *soufflet* was a deliberate formal insult demanding satisfaction; Marie uses it rhetorically in her letter to Tony Robert-Fleury
+- Notes: Distinguish from the earlier entry *souffletée par des paroles* (which is about verbal attack); this usage is Marie applying the duelling-code metaphor to a professional slight
+
+### cuisine artistico-électorale
+- Translation: artistic-electoral cooking (explain in footnote)
+- Context: Marie's satirical coinage for jury backroom dealing and vote trading at the Salon
+- Notes: Footnote: "Marie's satirical neologism for the *cuisine* (cooking/scheming) by which Salon jury votes were traded and manipulated."
+
+### ennuque de l'art
+- Translation: eunuch of art
+- Context: Marie's invented insult for Tony Robert-Fleury, implying artistic impotence
+- Notes: Preserve the invention; "eunuch of art" in text
+
+### au ciel (Salon placement)
+- Translation: to the heavens / skied
+- Context: Top rows of the Salon where paintings were hung out of sight; effectively a burial
+- Notes: "sent up to the heavens" or "skied" (both footnoted on first use); the irony of "apotheosis" is intentional
+
+%% 2026-03-11T10:00:00 TR: Added terms from carnet 102 — Paris Oct 1883–Jan 1884, Bastien-Lepage obsession, Gil Blas scandal, Manet retrospective, tuberculosis progression %%
+
+## Carnet 102 Additions (Oct 1883–Jan 1884)
+
+### poitrinaire
+- Translation: consumptive
+- Context: Marie's diagnosis — pulmonary tuberculosis; she uses this term repeatedly in late 1883
+- Notes: "consumptive" is the correct 19th-century English equivalent; do NOT use "tubercular" (too clinical/modern)
+
+### gamins
+- Translation: urchins
+- Context: Marie's street-children subjects in her major 1884 Salon painting
+- Notes: "urchins" throughout — consistent with the painting's subject matter
+
+### le plein air
+- Translation: *plein air* (keep French, italicized)
+- Context: Outdoor painting style associated with Bastien-Lepage, Impressionists
+- Notes: Keep French; it is an established art-historical term
+
+### starovoï
+- Translation: *starovoï* (keep Russian transliteration, italicized)
+- Context: Russian: lower-level rural administrative or police official; carries connotations of provincial vulgarity
+- Notes: Footnote on use: "Russian (*старовой*), a rural administrative or police functionary."
+
+### cristallisation (Stendhal)
+- Translation: crystallisation
+- Context: Stendhal's term from *De l'Amour* (1822) for the idealising process of falling in love — projecting perfections onto the beloved like salt crystals on a branch
+- Notes: Keep "crystallisation" (or "crystallization") throughout; footnote on first use per carnet
+
+### aurea mediocritas
+- Translation: *aurea mediocritas* (keep Latin, italicized)
+- Context: Horace's phrase (*Odes* II.10): "golden mean / blessed mediocrity" — Marie uses it ironically, wondering if it applies to Gabriel Géry
+- Notes: Footnote on first use: "Horace, *Odes* II.10: the 'golden mean' — a modest, undisturbed life, neither high nor low."
+
+### astèque (slang)
+- Translation: Aztec (slang)
+- Context: Contemporary French slang for an ugly or outlandish-looking person; Marie uses it in her mock-song about Bastien-Lepage
+- Notes: Keep "Aztec" in translation as the nearest equivalent; the comic effect comes from the rhyme with "architèque"
+
+### le contrat (marriage)
+- Translation: the marriage contract signing
+- Context: Formal social occasion when the marriage settlement was signed, attended by a wider circle than the wedding itself
+- Notes: Expand on first use; "at the contract signing" is insufficient without this gloss
