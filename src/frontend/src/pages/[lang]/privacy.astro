@@ -1,0 +1,126 @@
+---
+import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import { createT, type SupportedLocale } from '../../i18n/astro';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'cs' } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'uk' } },
+  ];
+}
+
+const { lang } = Astro.params;
+const t = createT(lang as SupportedLocale);
+
+const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'fr' };
+const contentPath = localeToContent[lang as string] ?? 'cz';
+---
+
+<ReadingLayout
+  lang={lang}
+  title={t('privacy.pageTitle')}
+  description="Privacy policy for bashkirtseff.org — what data we collect, how we use it, and your rights."
+>
+  <article class="max-w-3xl mx-auto">
+    <header class="mb-8 pb-6 border-b border-ink/10">
+      <h1 class="text-3xl md:text-4xl font-normal text-ink mb-4" style="font-family: var(--font-serif);">
+        {t('privacy.title')}
+      </h1>
+      <p class="text-muted text-sm">{t('privacy.lastUpdated')}</p>
+    </header>
+
+    <div class="prose-diary space-y-6 text-ink-light">
+
+      <p class="text-lg leading-relaxed">
+        {t('privacy.intro')}
+      </p>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('privacy.dataCollectedTitle')}</h2>
+
+      <p class="leading-relaxed">
+        {t('privacy.dataCollectedIntro')}
+      </p>
+
+      <ul class="list-disc pl-6 space-y-2 leading-relaxed">
+        <li set:html={t('privacy.dataGoogle')} />
+        <li>{t('privacy.dataReports')}</li>
+        <li set:html={t('privacy.dataAnalytics')} />
+      </ul>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('privacy.whyTitle')}</h2>
+
+      <ul class="list-disc pl-6 space-y-2 leading-relaxed">
+        <li>{t('privacy.whyReports')}</li>
+        <li>{t('privacy.whyQuality')}</li>
+      </ul>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('privacy.storageTitle')}</h2>
+
+      <ul class="list-disc pl-6 space-y-2 leading-relaxed">
+        <li set:html={t('privacy.storageSupabase')} />
+        <li>{t('privacy.storageRegion')}</li>
+      </ul>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('privacy.cookiesTitle')}</h2>
+
+      <ul class="list-disc pl-6 space-y-2 leading-relaxed">
+        <li>{t('privacy.cookiesAuth')}</li>
+        <li>{t('privacy.cookiesNoTracking')}</li>
+        <li>{t('privacy.cookiesUmami')}</li>
+      </ul>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('privacy.thirdPartiesTitle')}</h2>
+
+      <ul class="list-disc pl-6 space-y-2 leading-relaxed">
+        <li>{t('privacy.thirdGoogle')}</li>
+        <li>{t('privacy.thirdSupabase')}</li>
+        <li>{t('privacy.thirdUmami')}</li>
+      </ul>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('privacy.rightsTitle')}</h2>
+
+      <p class="leading-relaxed">
+        {t('privacy.rightsIntro')}
+      </p>
+
+      <ul class="list-disc pl-6 space-y-2 leading-relaxed">
+        <li>{t('privacy.rightsAccess')}</li>
+        <li>{t('privacy.rightsDelete')}</li>
+        <li>{t('privacy.rightsPortability')}</li>
+      </ul>
+
+      <p class="leading-relaxed" set:html={t('privacy.rightsContact')} />
+
+      <p class="leading-relaxed font-medium text-ink">
+        {t('privacy.noSale')}
+      </p>
+
+      <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('privacy.projectTitle')}</h2>
+
+      <p class="leading-relaxed">
+        {t('privacy.projectText')}
+      </p>
+
+    </div>
+
+    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between">
+      <a href={`/${lang}/about`} class="text-muted hover:text-ink transition-colors">
+        ← {t('nav.about')}
+      </a>
+      <a href={`/${contentPath}`} class="text-muted hover:text-ink transition-colors">
+        {t('about.backToDiary')} →
+      </a>
+    </nav>
+  </article>
+</ReadingLayout>
+
+<script>
+  // Save language preference when user visits this page
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+  const lang = pathParts[0];
+  if (lang && ['cs', 'en', 'fr', 'uk'].includes(lang)) {
+    localStorage.setItem('ui-language', lang);
+  }
+</script>
