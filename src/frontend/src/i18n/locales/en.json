@@ -1,7 +1,7 @@
 {
   "home": {
-    "pageTitle": "Marie Bashkirtseff — Complete Uncensored Diary",
-    "pageDescription": "Read the complete, uncensored diary of Marie Bashkirtseff (1858-1884). A remarkable document of 19th century life, art, and female ambition. Free and accessible in multiple languages.",
+    "pageTitle": "Marie Bashkirtseff — Complete Unabridged Diary",
+    "pageDescription": "Read the complete, unabridged diary of Marie Bashkirtseff (1858-1884). A remarkable document of 19th century life, art, and female ambition. Free and accessible in multiple languages.",
     "heroQuote": "Je serai célèbre ou je mourrai.",
     "heroQuoteTranslation": "I will be famous or I will die.",
     "startReading": "Start reading",
@@ -21,7 +21,7 @@
     "viewAllVolumes": "View all volumes",
     "currentState": "What you'll find here",
     "originalText": "Original text",
-    "originalTextDesc": "The complete, uncensored diary in French with the original mix of languages Marie wrote in.",
+    "originalTextDesc": "The complete, unabridged diary in French with the original mix of languages Marie wrote in.",
     "researchAnnotations": "Research & annotations",
     "researchAnnotationsDesc": "Historical context, glossary of people and places, linguistic notes on the text.",
     "translationInfra": "Translations in progress",
@@ -48,7 +48,7 @@
   },
   "translation": {
     "heading": "Diary Translations",
-    "intro": "We are translating Marie Bashkirtseff's complete, uncensored diary into many languages. Translations are created with AI assistance and human review.",
+    "intro": "We are translating Marie Bashkirtseff's complete, unabridged diary into many languages. Translations are created with AI assistance and human review.",
     "chooseLanguage": "Available translations",
     "comingSoon": "Coming soon",
     "czech": "Czech",
@@ -104,7 +104,7 @@
   },
   "footer": {
     "aboutProject": "About",
-    "aboutDescription": "Complete, uncensored diary of Marie Bashkirtseff (1858–1884). Freely accessible, in multiple languages.",
+    "aboutDescription": "Complete, unabridged diary of Marie Bashkirtseff (1858–1884). Freely accessible, in multiple languages.",
     "links": "Links",
     "aboutMarie": "About Marie",
     "contribute": "Contribute to translation",
@@ -149,7 +149,7 @@
   "about": {
     "pageTitle": "About — Diary of Marie Bashkirtseff",
     "title": "A Generous Approach to Marie Bashkirtseff",
-    "projectIntro": "This project makes accessible the complete, uncensored diary of <a href=\"/marie\" class=\"text-accent hover:text-accent-light\">Marie Bashkirtseff</a> (1858–1884) — a Ukrainian noblewoman, painter, and proto-feminist who kept one of the most remarkable intimate documents in history from age thirteen.",
+    "projectIntro": "This project makes accessible the complete, unabridged diary of <a href=\"/marie\" class=\"text-accent hover:text-accent-light\">Marie Bashkirtseff</a> (1858–1884) — a Ukrainian noblewoman, painter, and proto-feminist who kept one of the most remarkable intimate documents in history from age thirteen.",
     "diaryStory": "The diary's story",
     "censorshipHistory": "After Marie's premature death from tuberculosis, her mother published the diary heavily censored to protect herself and her family. For a hundred years, the diary was considered one of Those Diaries that shape people's lives — sharing a girl's inner world and values like the importance of education, women's rights, religion...",
     "fullEdition": "Only in 1995–2005 was the complete version published in 16 volumes by <a href=\"http://cerclembashkirtseff.monsite-orange.fr\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">Cercle des Amis de Marie Bashkirtseff</a>. They published it in a limited print run — today it's nearly impossible to find.",
@@ -268,8 +268,8 @@
     "pageTitleOriginal": "Diary of Marie Bashkirtseff — Original Text",
     "pageTitleTranslation": "Diary of Marie Bashkirtseff — {lang}",
     "heading": "Diary of Marie Bashkirtseff",
-    "subtitleOriginal": "Complete, uncensored edition — Original text",
-    "subtitleTranslation": "Complete, uncensored edition — {lang}",
+    "subtitleOriginal": "Complete, unabridged edition — Original text",
+    "subtitleTranslation": "Complete, unabridged edition — {lang}",
     "description": "The original diary contains French, Russian, Italian, English and other languages",
     "notebook": "Notebook",
     "notebookTitle": "Notebook {id}",
@@ -381,7 +381,7 @@
   "welcome": {
     "pageTitle": "Welcome — Diary of Marie Bashkirtseff",
     "title": "Welcome to Marie's Diary",
-    "subtitle": "A quick guide to reading the complete, uncensored diary",
+    "subtitle": "A quick guide to reading the complete, unabridged diary",
     "featureToolbar": "Paragraph tools",
     "featureToolbarDesc": "Tap the three-dot menu next to any paragraph to share it, copy a link, or explore related glossary entries.",
     "featureFlip": "Read the original",

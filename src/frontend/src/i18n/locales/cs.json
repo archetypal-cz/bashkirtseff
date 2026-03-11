@@ -1,7 +1,7 @@
 {
   "home": {
-    "pageTitle": "Marie Bashkirtseff — Kompletní necenzurovaný deník",
-    "pageDescription": "Čtěte kompletní, necenzurovaný deník Marie Bashkirtseff (1858-1884). Pozoruhodný dokument života, umění a ženských ambicí v 19. století. Zdarma a přístupný ve více jazycích.",
+    "pageTitle": "Marie Bashkirtseff — Kompletní nekrácený deník",
+    "pageDescription": "Čtěte kompletní, nekrácený deník Marie Bashkirtseff (1858-1884). Pozoruhodný dokument života, umění a ženských ambicí v 19. století. Zdarma a přístupný ve více jazycích.",
     "heroQuote": "Je serai célèbre ou je mourrai.",
     "heroQuoteTranslation": "Budu slavná, nebo zemřu.",
     "startReading": "Začít číst",
@@ -21,7 +21,7 @@
     "viewAllVolumes": "Zobrazit všechny svazky",
     "currentState": "Co zde najdete",
     "originalText": "Originální text",
-    "originalTextDesc": "Kompletní, necenzurovaný deník ve francouzštině s původní směsí jazyků, kterými Marie psala.",
+    "originalTextDesc": "Kompletní, nekrácený deník ve francouzštině s původní směsí jazyků, kterými Marie psala.",
     "researchAnnotations": "Výzkum a anotace",
     "researchAnnotationsDesc": "Historický kontext, glosář osob a míst, jazykové poznámky k textu.",
     "translationInfra": "Překlady v přípravě",
@@ -48,7 +48,7 @@
   },
   "translation": {
     "heading": "Překlady deníku",
-    "intro": "Překládáme kompletní, necenzurovaný deník Marie Bashkirtseff do mnoha jazyků. Překlady vznikají kombinací AI a lidské revize.",
+    "intro": "Překládáme kompletní, nekrácený deník Marie Bashkirtseff do mnoha jazyků. Překlady vznikají kombinací AI a lidské revize.",
     "chooseLanguage": "Dostupné překlady",
     "comingSoon": "Připravujeme",
     "czech": "Čeština",
@@ -104,7 +104,7 @@
   },
   "footer": {
     "aboutProject": "O projektu",
-    "aboutDescription": "Kompletní, necenzurovaný deník Marie Bashkirtseff (1858–1884). Svobodně přístupný, ve více jazycích.",
+    "aboutDescription": "Kompletní, nekrácený deník Marie Bashkirtseff (1858–1884). Svobodně přístupný, ve více jazycích.",
     "links": "Odkazy",
     "aboutMarie": "O Marii",
     "contribute": "Přispět k překladu",
@@ -149,7 +149,7 @@
   "about": {
     "pageTitle": "O projektu — Deník Marie Bashkirtseff",
     "title": "Velkorysý přístup k Marii Bashkirtseff",
-    "projectIntro": "Tento projekt zpřístupňuje kompletní, necenzurovaný deník <a href=\"/marie\" class=\"text-accent hover:text-accent-light\">Marie Bashkirtseff</a> (1858–1884) — ukrajinské šlechtičny, malířky a proto-feministky, která si od třinácti let vedla jeden z nejpozoruhodnějších intimních dokumentů v historii.",
+    "projectIntro": "Tento projekt zpřístupňuje kompletní, nekrácený deník <a href=\"/marie\" class=\"text-accent hover:text-accent-light\">Marie Bashkirtseff</a> (1858–1884) — ukrajinské šlechtičny, malířky a proto-feministky, která si od třinácti let vedla jeden z nejpozoruhodnějších intimních dokumentů v historii.",
     "diaryStory": "Příběh deníku",
     "censorshipHistory": "Po Mariině předčasné smrti na tuberkulózu vydala její matka deník silně cenzurovaný, aby ochránila sebe a svou rodinu. Po desítky let byl Mariin deník za jeden z Těch Deníků, které lidem nalinkují život — předává v něm dívčí nitro a hodnoty jako je důležitost vzdělání, řeší ženská práva, náboženství...",
     "fullEdition": "Teprve v letech 1995–2005 vyšla kompletní verze v 16 svazcích díky <a href=\"http://cerclembashkirtseff.monsite-orange.fr\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">Cercle des Amis de Marie Bashkirtseff</a>. Vydali ji v nízkém nákladu — dnes je téměř nemožné ji sehnat.",
@@ -268,8 +268,8 @@
     "pageTitleOriginal": "Deník Marie Bashkirtseff — Originální text",
     "pageTitleTranslation": "Deník Marie Bashkirtseff — {lang}",
     "heading": "Deník Marie Bashkirtseff",
-    "subtitleOriginal": "Kompletní, necenzurované vydání — Originální text",
-    "subtitleTranslation": "Kompletní, necenzurované vydání — {lang}",
+    "subtitleOriginal": "Kompletní, nekrácené vydání — Originální text",
+    "subtitleTranslation": "Kompletní, nekrácené vydání — {lang}",
     "description": "Originální deník obsahuje francouzštinu, ruštinu, italštinu, angličtinu a další jazyky",
     "notebook": "Sešit",
     "notebookTitle": "Sešit {id}",
@@ -381,7 +381,7 @@
   "welcome": {
     "pageTitle": "Vítejte — Deník Marie Bashkirtseff",
     "title": "Vítejte v Mariině deníku",
-    "subtitle": "Stručný průvodce čtením kompletního, necenzurovaného deníku",
+    "subtitle": "Stručný průvodce čtením kompletního, nekráceného deníku",
     "featureToolbar": "Nástroje odstavce",
     "featureToolbarDesc": "Klepněte na tři tečky u odstavce pro sdílení, kopírování odkazu nebo prozkoumání souvisejících položek glosáře.",
     "featureFlip": "Číst originál",

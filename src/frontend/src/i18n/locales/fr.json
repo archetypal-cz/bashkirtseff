@@ -1,7 +1,7 @@
 {
   "home": {
-    "pageTitle": "Marie Bashkirtseff — Journal complet et non censuré",
-    "pageDescription": "Lisez le journal complet et non censuré de Marie Bashkirtseff (1858-1884). Un document remarquable sur la vie, l'art et l'ambition féminine au XIXe siècle. Gratuit et accessible en plusieurs langues.",
+    "pageTitle": "Marie Bashkirtseff — Journal complet et intégral",
+    "pageDescription": "Lisez le journal complet et intégral de Marie Bashkirtseff (1858-1884). Un document remarquable sur la vie, l'art et l'ambition féminine au XIXe siècle. Gratuit et accessible en plusieurs langues.",
     "heroQuote": "Je serai célèbre ou je mourrai.",
     "heroQuoteTranslation": "Je serai célèbre ou je mourrai.",
     "startReading": "Commencer à lire",
@@ -21,7 +21,7 @@
     "viewAllVolumes": "Voir tous les volumes",
     "currentState": "Ce que vous trouverez ici",
     "originalText": "Texte original",
-    "originalTextDesc": "Le journal complet et non censuré en français avec le mélange original de langues dans lesquelles Marie écrivait.",
+    "originalTextDesc": "Le journal complet et intégral en français avec le mélange original de langues dans lesquelles Marie écrivait.",
     "researchAnnotations": "Recherche et annotations",
     "researchAnnotationsDesc": "Contexte historique, glossaire des personnes et des lieux, notes linguistiques sur le texte.",
     "translationInfra": "Traductions en cours",
@@ -48,7 +48,7 @@
   },
   "translation": {
     "heading": "Traductions du journal",
-    "intro": "Nous traduisons le journal complet et non censuré de Marie Bashkirtseff en plusieurs langues. Les traductions sont réalisées avec l'aide de l'IA et une révision humaine.",
+    "intro": "Nous traduisons le journal complet et intégral de Marie Bashkirtseff en plusieurs langues. Les traductions sont réalisées avec l'aide de l'IA et une révision humaine.",
     "chooseLanguage": "Traductions disponibles",
     "comingSoon": "Bientôt disponible",
     "czech": "Tchèque",
@@ -104,7 +104,7 @@
   },
   "footer": {
     "aboutProject": "À propos",
-    "aboutDescription": "Journal complet et non censuré de Marie Bashkirtseff (1858–1884). Librement accessible, en plusieurs langues.",
+    "aboutDescription": "Journal complet et intégral de Marie Bashkirtseff (1858–1884). Librement accessible, en plusieurs langues.",
     "links": "Liens",
     "aboutMarie": "À propos de Marie",
     "contribute": "Contribuer à la traduction",
@@ -149,7 +149,7 @@
   "about": {
     "pageTitle": "À propos — Journal de Marie Bashkirtseff",
     "title": "Une approche généreuse de Marie Bashkirtseff",
-    "projectIntro": "Ce projet rend accessible le journal complet et non censuré de <a href=\"/marie\" class=\"text-accent hover:text-accent-light\">Marie Bashkirtseff</a> (1858–1884) — une aristocrate ukrainienne, peintre et proto-féministe qui a tenu l'un des documents intimes les plus remarquables de l'histoire dès l'âge de treize ans.",
+    "projectIntro": "Ce projet rend accessible le journal complet et intégral de <a href=\"/marie\" class=\"text-accent hover:text-accent-light\">Marie Bashkirtseff</a> (1858–1884) — une aristocrate ukrainienne, peintre et proto-féministe qui a tenu l'un des documents intimes les plus remarquables de l'histoire dès l'âge de treize ans.",
     "diaryStory": "L'histoire du journal",
     "censorshipHistory": "Après la mort prématurée de Marie de tuberculose, sa mère a publié le journal fortement censuré pour se protéger elle-même et sa famille. Pendant cent ans, le journal était considéré comme l'un de Ces Journaux qui façonnent la vie des gens — partageant l'intériorité d'une jeune fille et des valeurs comme l'importance de l'éducation, les droits des femmes, la religion...",
     "fullEdition": "Ce n'est qu'en 1995–2005 que la version complète a été publiée en 16 volumes par le <a href=\"http://cerclembashkirtseff.monsite-orange.fr\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">Cercle des Amis de Marie Bashkirtseff</a>. Ils l'ont publiée en tirage limité — aujourd'hui il est presque impossible de la trouver.",
@@ -268,8 +268,8 @@
     "pageTitleOriginal": "Journal de Marie Bashkirtseff — Texte original",
     "pageTitleTranslation": "Journal de Marie Bashkirtseff — {lang}",
     "heading": "Journal de Marie Bashkirtseff",
-    "subtitleOriginal": "Édition complète et non censurée — Texte original",
-    "subtitleTranslation": "Édition complète et non censurée — {lang}",
+    "subtitleOriginal": "Édition complète et intégrale — Texte original",
+    "subtitleTranslation": "Édition complète et intégrale — {lang}",
     "description": "Le journal original contient du français, russe, italien, anglais et d'autres langues",
     "notebook": "Cahier",
     "notebookTitle": "Cahier {id}",
@@ -381,7 +381,7 @@
   "welcome": {
     "pageTitle": "Bienvenue — Journal de Marie Bashkirtseff",
     "title": "Bienvenue dans le journal de Marie",
-    "subtitle": "Un guide rapide pour lire le journal complet et non censuré",
+    "subtitle": "Un guide rapide pour lire le journal complet et intégral",
     "featureToolbar": "Outils de paragraphe",
     "featureToolbarDesc": "Appuyez sur le menu à trois points à côté d'un paragraphe pour le partager, copier un lien ou explorer les entrées du glossaire.",
     "featureFlip": "Lire l'original",
