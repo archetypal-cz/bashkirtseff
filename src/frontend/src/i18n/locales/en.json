@@ -332,15 +332,15 @@
     "whyReports": "To let readers report translation issues and track their own reports",
     "whyQuality": "To improve translation quality based on reader feedback",
     "storageTitle": "Where data is stored",
-    "storageSupabase": "Data is stored in a <strong>Supabase</strong> (PostgreSQL) cloud database",
+    "storageSupabase": "Data is stored in a self-hosted <strong>PostgreSQL</strong> database on our own server",
     "storageRegion": "Data is stored in the EU region where possible",
     "cookiesTitle": "Cookies",
-    "cookiesAuth": "Supabase auth session cookie — set only after you voluntarily sign in with Google",
+    "cookiesAuth": "Auth session token — stored in browser only after you voluntarily sign in with Google",
     "cookiesNoTracking": "No tracking cookies, no advertising cookies",
     "cookiesUmami": "Umami analytics does not use cookies",
     "thirdPartiesTitle": "Third-party services",
     "thirdGoogle": "Google — OAuth authentication only, no data shared beyond login",
-    "thirdSupabase": "Supabase — database backend for user accounts and reports",
+    "thirdSupabase": "Self-hosted PostgreSQL — database for user accounts and reports (no third-party cloud)",
     "thirdUmami": "Umami — privacy-friendly analytics that collects no personal data",
     "rightsTitle": "Your rights (GDPR)",
     "rightsIntro": "Under European data protection law, you have the following rights:",
@@ -351,6 +351,32 @@
     "noSale": "We never sell, share, or provide your data to advertisers or any third party for commercial purposes.",
     "projectTitle": "About this project",
     "projectText": "This is a nonprofit scholarly and literary project. All personal data is used solely to support the reading experience and translation quality. There is no commercial use of personal data."
+  },
+  "auth": {
+    "signInGoogle": "Sign in with Google",
+    "signOut": "Sign out",
+    "signInToReport": "Sign in to report issues",
+    "preLoginInfo": "Sign in with Google to report translation issues. We only store your name and email.",
+    "continueWithGoogle": "Continue with Google"
+  },
+  "report": {
+    "title": "Report Issue",
+    "description": "Help improve the translation by reporting an issue with this paragraph.",
+    "submit": "Submit Report",
+    "submitted": "Thank you! Your report has been submitted.",
+    "describeIssue": "Describe the issue",
+    "optionalDetail": "Additional detail (optional)",
+    "textPlaceholder": "What seems wrong?",
+    "reportIssue": "Report issue",
+    "reasons": {
+      "bad_translation": "Bad translation",
+      "unnatural": "Unnatural phrasing",
+      "missing_text": "Missing or truncated text",
+      "wrong_language": "Wrong language / garbled",
+      "factual_error": "Factual or historical error",
+      "typo": "Typo or grammar",
+      "other": "Other (describe below)"
+    }
   },
   "welcome": {
     "pageTitle": "Welcome — Diary of Marie Bashkirtseff",

@@ -332,15 +332,15 @@
     "whyReports": "Aby čtenáři mohli hlásit chyby v překladu a sledovat svá hlášení",
     "whyQuality": "Abychom mohli zlepšovat kvalitu překladů na základě zpětné vazby čtenářů",
     "storageTitle": "Kde jsou data uložena",
-    "storageSupabase": "Data jsou uložena v cloudové databázi <strong>Supabase</strong> (PostgreSQL)",
+    "storageSupabase": "Data jsou uložena v databázi <strong>PostgreSQL</strong> na vlastním serveru",
     "storageRegion": "Data jsou uložena v regionu EU, kde je to možné",
     "cookiesTitle": "Cookies",
-    "cookiesAuth": "Cookie autentizační relace Supabase — nastaví se pouze po dobrovolném přihlášení přes Google",
+    "cookiesAuth": "Autentizační token — uložen v prohlížeči pouze po dobrovolném přihlášení přes Google",
     "cookiesNoTracking": "Žádné sledovací cookies, žádné reklamní cookies",
     "cookiesUmami": "Umami analytika nepoužívá cookies",
     "thirdPartiesTitle": "Služby třetích stran",
     "thirdGoogle": "Google — pouze pro OAuth přihlášení, žádná data nejsou sdílena nad rámec přihlášení",
-    "thirdSupabase": "Supabase — databázový backend pro uživatelské účty a hlášení",
+    "thirdSupabase": "Vlastní PostgreSQL — databáze pro uživatelské účty a hlášení (žádný cloud třetí strany)",
     "thirdUmami": "Umami — analytika respektující soukromí, která neshromažďuje osobní údaje",
     "rightsTitle": "Vaše práva (GDPR)",
     "rightsIntro": "Podle evropského práva na ochranu osobních údajů máte následující práva:",
@@ -351,6 +351,32 @@
     "noSale": "Vaše data nikdy neprodáváme, nesdílíme ani neposkytujeme inzerentům či třetím stranám ke komerčním účelům.",
     "projectTitle": "O tomto projektu",
     "projectText": "Jedná se o neziskový vědecký a literární projekt. Veškeré osobní údaje slouží výhradně k podpoře čtenářského zážitku a kvality překladů. Osobní údaje nejsou komerčně využívány."
+  },
+  "auth": {
+    "signInGoogle": "Přihlásit se přes Google",
+    "signOut": "Odhlásit se",
+    "signInToReport": "Přihlaste se pro hlášení chyb",
+    "preLoginInfo": "Přihlaste se přes Google a hlaste chyby v překladu. Ukládáme pouze vaše jméno a e-mail.",
+    "continueWithGoogle": "Pokračovat přes Google"
+  },
+  "report": {
+    "title": "Nahlásit problém",
+    "description": "Pomozte zlepšit překlad nahlášením problému s tímto odstavcem.",
+    "submit": "Odeslat hlášení",
+    "submitted": "Děkujeme! Vaše hlášení bylo odesláno.",
+    "describeIssue": "Popište problém",
+    "optionalDetail": "Doplňující detail (volitelné)",
+    "textPlaceholder": "Co se zdá být špatně?",
+    "reportIssue": "Nahlásit problém",
+    "reasons": {
+      "bad_translation": "Špatný překlad",
+      "unnatural": "Nepřirozená formulace",
+      "missing_text": "Chybějící nebo oříznutý text",
+      "wrong_language": "Špatný jazyk / zkomolený text",
+      "factual_error": "Věcná nebo historická chyba",
+      "typo": "Překlep nebo gramatika",
+      "other": "Jiné (popište níže)"
+    }
   },
   "welcome": {
     "pageTitle": "Vítejte — Deník Marie Bashkirtseff",

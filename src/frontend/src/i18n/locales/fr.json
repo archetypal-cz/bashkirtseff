@@ -332,15 +332,15 @@
     "whyReports": "Pour permettre aux lecteurs de signaler des problèmes de traduction et de suivre leurs signalements",
     "whyQuality": "Pour améliorer la qualité des traductions grâce aux retours des lecteurs",
     "storageTitle": "Où sont stockées les données",
-    "storageSupabase": "Les données sont stockées dans une base de données cloud <strong>Supabase</strong> (PostgreSQL)",
+    "storageSupabase": "Les données sont stockées dans une base de données <strong>PostgreSQL</strong> auto-hébergée sur notre propre serveur",
     "storageRegion": "Les données sont stockées dans la région UE dans la mesure du possible",
     "cookiesTitle": "Cookies",
-    "cookiesAuth": "Cookie de session d'authentification Supabase — défini uniquement après connexion volontaire via Google",
+    "cookiesAuth": "Jeton d'authentification — stocké dans le navigateur uniquement après connexion volontaire via Google",
     "cookiesNoTracking": "Aucun cookie de suivi, aucun cookie publicitaire",
     "cookiesUmami": "Umami n'utilise pas de cookies",
     "thirdPartiesTitle": "Services tiers",
     "thirdGoogle": "Google — authentification OAuth uniquement, aucune donnée partagée au-delà de la connexion",
-    "thirdSupabase": "Supabase — backend de base de données pour les comptes utilisateurs et les signalements",
+    "thirdSupabase": "PostgreSQL auto-hébergé — base de données pour les comptes et signalements (aucun cloud tiers)",
     "thirdUmami": "Umami — analyse respectueuse de la vie privée, aucune donnée personnelle collectée",
     "rightsTitle": "Vos droits (RGPD)",
     "rightsIntro": "En vertu du droit européen sur la protection des données, vous disposez des droits suivants :",
@@ -351,6 +351,32 @@
     "noSale": "Nous ne vendons, ne partageons ni ne fournissons jamais vos données à des annonceurs ou à des tiers à des fins commerciales.",
     "projectTitle": "À propos de ce projet",
     "projectText": "Il s'agit d'un projet scientifique et littéraire à but non lucratif. Toutes les données personnelles sont utilisées uniquement pour soutenir l'expérience de lecture et la qualité des traductions. Les données personnelles ne font l'objet d'aucune utilisation commerciale."
+  },
+  "auth": {
+    "signInGoogle": "Se connecter avec Google",
+    "signOut": "Se déconnecter",
+    "signInToReport": "Connectez-vous pour signaler des problèmes",
+    "preLoginInfo": "Connectez-vous avec Google pour signaler des problèmes de traduction. Nous ne stockons que votre nom et e-mail.",
+    "continueWithGoogle": "Continuer avec Google"
+  },
+  "report": {
+    "title": "Signaler un problème",
+    "description": "Aidez à améliorer la traduction en signalant un problème avec ce paragraphe.",
+    "submit": "Envoyer le signalement",
+    "submitted": "Merci ! Votre signalement a été envoyé.",
+    "describeIssue": "Décrivez le problème",
+    "optionalDetail": "Détail supplémentaire (facultatif)",
+    "textPlaceholder": "Qu'est-ce qui semble incorrect ?",
+    "reportIssue": "Signaler un problème",
+    "reasons": {
+      "bad_translation": "Mauvaise traduction",
+      "unnatural": "Formulation peu naturelle",
+      "missing_text": "Texte manquant ou tronqué",
+      "wrong_language": "Mauvaise langue / texte corrompu",
+      "factual_error": "Erreur factuelle ou historique",
+      "typo": "Faute de frappe ou grammaire",
+      "other": "Autre (décrivez ci-dessous)"
+    }
   },
   "welcome": {
     "pageTitle": "Bienvenue — Journal de Marie Bashkirtseff",

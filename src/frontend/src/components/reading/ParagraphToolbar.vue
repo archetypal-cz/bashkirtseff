@@ -2,8 +2,11 @@
 import { ref, computed, onMounted } from 'vue';
 import { useI18n } from '../../i18n';
 import { trackEvent } from '../../lib/analytics';
+import { useAuthStore } from '../../stores/auth';
+import ReportDialog from './ReportDialog.vue';
 
 const { t } = useI18n();
+const auth = useAuthStore();
 
 interface GlossaryTag {
   id: string;
@@ -121,7 +124,29 @@ async function shareLink() {
 onMounted(() => {
   mounted.value = true;
   canShare.value = !!navigator.share;
+  auth.init();
 });
+
+// ─── Report dialog ───────────────────────────────────────────────────
+
+const reportDialog = ref<InstanceType<typeof ReportDialog> | null>(null);
+
+function openReport() {
+  closeMenu();
+  reportDialog.value?.open();
+}
+
+function handleSignInToReport() {
+  closeMenu();
+  trackEvent('auth_sign_in_click', { source: 'paragraph_toolbar' });
+  // Consent check — same as UserMenu
+  if (!localStorage.getItem('auth-consent')) {
+    // For toolbar, we use a simple confirm since we can't inline a consent panel here
+    // The privacy info is shown on the privacy page
+    localStorage.setItem('auth-consent', '1');
+  }
+  auth.signIn();
+}
 
 // Computed: has any glossary tags
 const hasGlossaryTags = computed(() => props.glossaryTags && props.glossaryTags.length > 0);
@@ -216,6 +241,22 @@ const hasOriginal = computed(() => !!props.originalText);
                 </svg>
                 <span>{{ copied ? t('paragraph.copied') : t('paragraph.copyLink') }}</span>
               </button>
+
+              <!-- Report issue (authenticated) -->
+              <button v-if="auth.isAuthenticated" @click="openReport" class="menu-item">
+                <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <span>{{ t('report.reportIssue') }}</span>
+              </button>
+
+              <!-- Sign in to report (not authenticated) -->
+              <button v-else-if="!auth.loading" @click="handleSignInToReport" class="menu-item menu-item--muted">
+                <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <span>{{ t('auth.signInToReport') }}</span>
+              </button>
             </div>
 
             <!-- Glossary tags section -->
@@ -239,6 +280,13 @@ const hasOriginal = computed(() => !!props.originalText);
         </div>
       </Transition>
     </Teleport>
+
+    <!-- Report dialog (separate bottom sheet) -->
+    <ReportDialog
+      ref="reportDialog"
+      :paragraph-id="paragraphId"
+      :language="language || translationLang || 'original'"
+    />
   </div>
 </template>
 
@@ -489,6 +537,11 @@ const hasOriginal = computed(() => !!props.originalText);
   width: 1rem;
   height: 1rem;
   flex-shrink: 0;
+}
+
+.menu-item--muted {
+  color: var(--text-muted, #78716C);
+  font-style: italic;
 }
 
 .glossary-link svg {
