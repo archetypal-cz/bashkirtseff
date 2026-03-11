@@ -5,6 +5,7 @@ import { useFilterStore } from '../../stores/filter';
 import { useHistoryStore } from '../../stores/history';
 import { trackEvent } from '../../lib/analytics';
 import CalendarWidget from '../CalendarWidget.vue';
+import UserMenu from '../auth/UserMenu.vue';
 import type { FilterCategory, FilterTag } from '../../types/filter-index';
 
 const { t, locale } = useI18n();
@@ -392,6 +393,11 @@ onUnmounted(() => {
 
             <!-- Scrollable content -->
             <div class="um-body">
+
+              <!-- ═══ ACCOUNT ═══ -->
+              <div class="um-section um-account-section">
+                <UserMenu />
+              </div>
 
               <!-- ═══ NAVIGATION SECTION (narrow screens only) ═══ -->
               <div class="um-section um-nav-section">
@@ -1053,6 +1059,10 @@ onUnmounted(() => {
 /* ═══ Accordion sections ═══ */
 .um-section {
   border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
+}
+
+.um-account-section {
+  padding: 10px 16px;
 }
 
 .um-section:last-child {

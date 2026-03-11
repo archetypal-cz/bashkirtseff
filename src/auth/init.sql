@@ -20,6 +20,7 @@ END
 $$;
 
 ALTER ROLE gotrue SUPERUSER;
+ALTER ROLE gotrue SET search_path TO auth, public;
 
 -- =============================================================
 -- 1. Roles for PostgREST (anon = unauthenticated, authenticated = logged in)
