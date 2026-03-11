@@ -1312,12 +1312,12 @@ export function getCarnetsByYear(year: number, language: string = 'original'): C
     const entries = getCarnetEntries(carnet.id, language);
     const yearEntries = entries.filter(e => {
       if (!DATE_PATTERN.test(e)) return false;
-      return new Date(e).getFullYear() === year;
+      return parseDateFromEntryId(e).getFullYear() === year;
     });
 
     if (yearEntries.length > 0) {
       // Create a modified CarnetInfo with only entries from this year
-      const dates = yearEntries.map(e => new Date(e));
+      const dates = yearEntries.map(e => parseDateFromEntryId(e));
       result.push({
         id: carnet.id,
         language: carnet.language,
