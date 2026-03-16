@@ -54,7 +54,9 @@
     "czech": "Tchèque",
     "english": "Anglais",
     "ukrainian": "Ukrainien",
-    "french": "Français"
+    "french": "Français",
+    "complete": "Complet !",
+    "completionPercent": "{percent} %"
   },
   "pwa": {
     "installApp": "Installer l'application",
@@ -269,6 +271,7 @@
     "pageTitleTranslation": "Journal de Marie Bashkirtseff — {lang}",
     "heading": "Journal de Marie Bashkirtseff",
     "subtitleOriginal": "Édition complète et intégrale — Texte original",
+    "transcriptionAttribution": "D'après la transcription de Ginette Apostolescu et du Cercle des Amis de Marie Bashkirtseff",
     "subtitleTranslation": "Édition complète et intégrale — {lang}",
     "description": "Le journal original contient du français, russe, italien, anglais et d'autres langues",
     "notebook": "Cahier",

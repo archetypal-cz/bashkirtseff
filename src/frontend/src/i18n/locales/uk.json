@@ -54,7 +54,9 @@
     "czech": "Чеська",
     "english": "Англійська",
     "ukrainian": "Українська",
-    "french": "Французька"
+    "french": "Французька",
+    "complete": "Повний!",
+    "completionPercent": "{percent}%"
   },
   "pwa": {
     "installApp": "Встановити застосунок",
@@ -269,6 +271,7 @@
     "pageTitleTranslation": "Щоденник Марії Башкирцевої — {lang}",
     "heading": "Щоденник Марії Башкирцевої",
     "subtitleOriginal": "Повне, нескорочене видання — Оригінальний текст",
+    "transcriptionAttribution": "На основі транскрипції Жінетт Апостолеску та Cercle des Amis de Marie Bashkirtseff",
     "subtitleTranslation": "Повне, нескорочене видання — {lang}",
     "description": "Оригінальний щоденник містить французьку, російську, італійську, англійську та інші мови",
     "notebook": "Зошит",

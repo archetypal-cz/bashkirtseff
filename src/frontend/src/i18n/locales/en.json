@@ -54,7 +54,9 @@
     "czech": "Czech",
     "english": "English",
     "ukrainian": "Ukrainian",
-    "french": "French"
+    "french": "French",
+    "complete": "Complete!",
+    "completionPercent": "{percent}%"
   },
   "pwa": {
     "installApp": "Install App",
@@ -269,6 +271,7 @@
     "pageTitleTranslation": "Diary of Marie Bashkirtseff — {lang}",
     "heading": "Diary of Marie Bashkirtseff",
     "subtitleOriginal": "Complete, unabridged edition — Original text",
+    "transcriptionAttribution": "Based on the transcription by Ginette Apostolescu and the Cercle des Amis de Marie Bashkirtseff",
     "subtitleTranslation": "Complete, unabridged edition — {lang}",
     "description": "The original diary contains French, Russian, Italian, English and other languages",
     "notebook": "Notebook",

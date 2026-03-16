@@ -54,7 +54,9 @@
     "czech": "Čeština",
     "english": "Angličtina",
     "ukrainian": "Ukrajinština",
-    "french": "Francouzština"
+    "french": "Francouzština",
+    "complete": "Kompletní!",
+    "completionPercent": "{percent} %"
   },
   "pwa": {
     "installApp": "Nainstalovat aplikaci",
@@ -269,6 +271,7 @@
     "pageTitleTranslation": "Deník Marie Bashkirtseff — {lang}",
     "heading": "Deník Marie Bashkirtseff",
     "subtitleOriginal": "Kompletní, nekrácené vydání — Originální text",
+    "transcriptionAttribution": "Na základě přepisu Ginette Apostolescu a Cercle des Amis de Marie Bashkirtseff",
     "subtitleTranslation": "Kompletní, nekrácené vydání — {lang}",
     "description": "Originální deník obsahuje francouzštinu, ruštinu, italštinu, angličtinu a další jazyky",
     "notebook": "Sešit",

@@ -77,6 +77,16 @@ const totalTranslated = lang.isTranslation
   ? carnetsWithStatus.reduce((sum, c) => sum + c.translatedCount, 0)
   : 0;
 
+// Check if the current language translation is complete (all entries translated)
+const allOriginalEntries = getYears('_original').reduce((sum, y) => sum + y.entryCount, 0);
+const allLangTranslated = lang.isTranslation
+  ? getYears('_original').reduce((sum, y) => {
+      const langCarnets = getCarnetsByYear(y.year, lang.contentPath);
+      return sum + langCarnets.reduce((s, c) => s + c.entries.length, 0);
+    }, 0)
+  : 0;
+const isCurrentComplete = lang.isTranslation && allLangTranslated >= allOriginalEntries;
+
 const formatDateRange = (start: Date, end: Date) => {
   const startStr = start.toLocaleDateString(lang.dateLocale, { day: 'numeric', month: 'short' });
   const endStr = end.toLocaleDateString(lang.dateLocale, { day: 'numeric', month: 'short' });
@@ -141,7 +151,7 @@ function formatDisplayName(id: string): string {
               <span class="text-muted">
                 {totalEntries} <span data-t="diary.entries">{t('diary.entries')}</span>
               </span>
-              {lang.isTranslation && (
+              {lang.isTranslation && !isCurrentComplete && (
                 <>
                   <span class="text-muted">&bull;</span>
                   <span class="text-accent">
@@ -151,7 +161,7 @@ function formatDisplayName(id: string): string {
               )}
             </div>
 
-            {lang.isTranslation && totalTranslated < totalEntries && (
+            {lang.isTranslation && !isCurrentComplete && totalTranslated < totalEntries && (
               <div class="mb-4">
                 <div class="h-2 bg-sepia rounded-full overflow-hidden">
                   <div
@@ -292,7 +302,7 @@ function formatDisplayName(id: string): string {
           href={`${basePath}/${carnet.id}`}
           data-filter-carnet={carnet.id}
           class={`block p-4 rounded-lg border transition-all ${
-            lang.isTranslation && carnet.translatedCount === 0
+            lang.isTranslation && !isCurrentComplete && carnet.translatedCount === 0
               ? 'bg-sepia/30 border-ink/5 hover:border-ink/20'
               : 'bg-parchment border-ink/10 hover:border-accent hover:shadow'
           }`}
@@ -309,7 +319,7 @@ function formatDisplayName(id: string): string {
                     {carnet.allYears[carnet.allYears.length - 1] > yearNum ? `→ ${carnet.allYears[carnet.allYears.length - 1]}` : ''}
                   </span>
                 )}
-                {lang.isTranslation && carnet.translatedCount === 0 && (
+                {lang.isTranslation && !isCurrentComplete && carnet.translatedCount === 0 && (
                   <span class="text-xs px-2 py-0.5 bg-muted/20 text-muted rounded">
                     FR
                   </span>
@@ -320,7 +330,7 @@ function formatDisplayName(id: string): string {
                   {formatDateRange(carnet.dateRange.start, carnet.dateRange.end)}
                   <span class="mx-2">&bull;</span>
                   <span data-filter-count={`carnet-entries:${carnet.id}`}>{carnet.entriesInYear}</span> <span data-t="diary.entries">{t('diary.entries')}</span>
-                  {lang.isTranslation && carnet.translatedCount > 0 && carnet.translatedCount < carnet.entriesInYear && (
+                  {lang.isTranslation && !isCurrentComplete && carnet.translatedCount > 0 && carnet.translatedCount < carnet.entriesInYear && (
                     <span class="text-accent ml-1">
                       ({carnet.translatedCount} <span data-t="diary.translated">{t('diary.translated')}</span>)
                     </span>
