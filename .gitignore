@@ -54,3 +54,6 @@ raw_books_work/
 
 # Terminal Paste Image folder
 .cp-images/
+
+# Experiment results (large, generated)
+src/scripts/experiments/results/
