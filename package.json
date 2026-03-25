@@ -28,6 +28,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@playwright/test": "^1.58.1"
+    "@playwright/test": "^1.58.1",
+    "yaml": "^2.7.1"
   }
 }
