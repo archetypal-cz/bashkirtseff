@@ -132,6 +132,62 @@ glossary-collect carnet *FLAGS:
 glossary-apply carnet *FLAGS:
     npx tsx src/scripts/glossary-tagger.ts apply {{carnet}} {{FLAGS}}
 
+# === BUG REPORTS ===
+
+# List open bug reports from the database
+reports status="open":
+    #!/usr/bin/env bash
+    echo "=== Bug Reports (status: {{status}}) ==="
+    ssh ${DEPLOY_USER}@${DEPLOY_HOST} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports WHERE status = '{{status}}' ORDER BY created_at\"" 2>/dev/null | while IFS='|' read -r para lang reason custom highlight status created; do
+        para=$(echo "$para" | xargs)
+        lang=$(echo "$lang" | xargs)
+        reason=$(echo "$reason" | xargs)
+        custom=$(echo "$custom" | xargs)
+        highlight=$(echo "$highlight" | xargs)
+        status=$(echo "$status" | xargs)
+        created=$(echo "$created" | xargs)
+        [ -z "$para" ] && continue
+        echo ""
+        echo "  [$created] $para ($lang) — $reason"
+        [ -n "$custom" ] && echo "    Note: $custom"
+        [ -n "$highlight" ] && echo "    Text: \"$highlight\""
+    done
+    echo ""
+
+# List all bug reports regardless of status
+reports-all:
+    #!/usr/bin/env bash
+    echo "=== All Bug Reports ==="
+    ssh ${DEPLOY_USER}@${DEPLOY_HOST} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports ORDER BY created_at\"" 2>/dev/null | while IFS='|' read -r para lang reason custom highlight status created; do
+        para=$(echo "$para" | xargs)
+        lang=$(echo "$lang" | xargs)
+        reason=$(echo "$reason" | xargs)
+        custom=$(echo "$custom" | xargs)
+        highlight=$(echo "$highlight" | xargs)
+        status=$(echo "$status" | xargs)
+        created=$(echo "$created" | xargs)
+        [ -z "$para" ] && continue
+        echo ""
+        echo "  [$status] [$created] $para ($lang) — $reason"
+        [ -n "$custom" ] && echo "    Note: $custom"
+        [ -n "$highlight" ] && echo "    Text: \"$highlight\""
+    done
+    echo ""
+
+# Update bug report status (statuses: open, acknowledged, fixed, dismissed)
+report-status paragraph_id language new_status:
+    #!/usr/bin/env bash
+    case "{{new_status}}" in
+        open|acknowledged|fixed|dismissed) ;;
+        *) echo "Invalid status '{{new_status}}'. Use: open, acknowledged, fixed, dismissed"; exit 1 ;;
+    esac
+    result=$(ssh ${DEPLOY_USER}@${DEPLOY_HOST} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"UPDATE public.paragraph_reports SET status = '{{new_status}}' WHERE paragraph_id = '{{paragraph_id}}' AND language = '{{language}}' RETURNING paragraph_id, status\"" 2>/dev/null)
+    if echo "$result" | grep -q "{{paragraph_id}}"; then
+        echo "Updated {{paragraph_id}} ({{language}}) → {{new_status}}"
+    else
+        echo "No report found for {{paragraph_id}} ({{language}})"
+    fi
+
 # === UTILITIES ===
 
 # Verify all entries are properly formatted
@@ -148,15 +204,33 @@ status *ARGS:
 init-source-hashes lang="" carnet="":
     npx tsx src/scripts/hooks/init-source-hashes.ts {{lang}} {{carnet}}
 
-# Search for text in source files
-search query:
-    @echo "Searching for '{{query}}' in source files..."
-    @grep -r "{{query}}" content/_original/ --include="*.md" -n | head -20
+# Search for text in source files (shows matching entries with links)
+search query *FLAGS:
+    #!/usr/bin/env bash
+    echo "Searching for '{{query}}' in source files..."
+    echo ""
+    grep -r "{{query}}" content/_original/[0-9][0-9][0-9]/ --include="*.md" -l 2>/dev/null | sort | while read -r file; do
+        carnet=$(echo "$file" | sed 's|content/_original/\([0-9]\{3\}\)/.*|\1|')
+        date=$(basename "$file" .md)
+        echo "  $carnet/$date  https://bashkirtseff.org/original/$carnet/$date/"
+    done
+    echo ""
+    count=$(grep -r "{{query}}" content/_original/[0-9][0-9][0-9]/ --include="*.md" -l 2>/dev/null | wc -l)
+    echo "Found in $count entries"
 
-# Search for text in Czech translations
-search-cz query:
-    @echo "Searching for '{{query}}' in Czech translations..."
-    @grep -r "{{query}}" content/cz/ --include="*.md" -n | head -20
+# Search for text in a specific language (shows matching entries with links)
+search-lang query lang=default_lang:
+    #!/usr/bin/env bash
+    echo "Searching for '{{query}}' in {{lang}} files..."
+    echo ""
+    grep -r "{{query}}" content/{{lang}}/[0-9][0-9][0-9]/ --include="*.md" -l 2>/dev/null | sort | while read -r file; do
+        carnet=$(echo "$file" | sed 's|content/[^/]*/\([0-9]\{3\}\)/.*|\1|')
+        date=$(basename "$file" .md)
+        echo "  $carnet/$date  https://bashkirtseff.org/{{lang}}/$carnet/$date/"
+    done
+    echo ""
+    count=$(grep -r "{{query}}" content/{{lang}}/[0-9][0-9][0-9]/ --include="*.md" -l 2>/dev/null | wc -l)
+    echo "Found in $count entries"
 
 # Find files that don't contain a pattern (e.g., unannotated entries)
 find-missing pattern directory:
@@ -454,7 +528,8 @@ help:
     @echo "  just status original 001  # Specific carnet"
     @echo "  just status cz            # Czech translation status"
     @echo "  just verify               # Verify file consistency"
-    @echo "  just search 'term'        # Search in source files"
+    @echo "  just search 'term'        # Search in source files (with links)"
+    @echo "  just search-lang 'term' cz  # Search in a language (with links)"
     @echo ""
     @echo "FRONTMATTER:"
     @echo "  just update-frontmatter 001             # Update metrics for carnet 001"
