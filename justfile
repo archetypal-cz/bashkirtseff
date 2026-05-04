@@ -250,6 +250,26 @@ clean-ts:
     rm -rf src/shared/dist
     @echo "Cleaned TypeScript build artifacts"
 
+# Scaffold empty translation files for a carnet (use --dry-run to preview, --overwrite to replace)
+scaffold carnet *FLAGS:
+    npx tsx src/scripts/scaffold-translation.ts {{carnet}} {{FLAGS}}
+
+# Run parser/renderer round-trip test (validates parse→render fidelity)
+round-trip-test *ARGS:
+    npx tsx src/scripts/round-trip-test.ts {{ARGS}}
+
+# Debug parser/renderer round-trip for a single file
+debug-roundtrip file:
+    npx tsx src/scripts/debug-roundtrip.ts {{file}}
+
+# Verify diary entries against source DOCX tomes
+docx-verify *ARGS:
+    uv run --with python-docx --with rapidfuzz python3 src/scripts/docx_verify.py {{ARGS}}
+
+# Extract visible Czech text (strips frontmatter, comments, footnotes)
+extract-czech *ARGS:
+    bash src/scripts/extract_czech_text.sh {{ARGS}}
+
 # Sync RSR/LAN annotations from _original/ to a translation language for a carnet (use --dry-run to preview)
 sync carnet lang=default_lang *FLAGS:
     npx tsx src/scripts/sync-translation.ts {{carnet}} --lang {{lang}} {{FLAGS}}
@@ -439,7 +459,7 @@ annotate entry carnet="015":
 translate entry carnet="015" lang="cz":
     @echo "Running translator on {{entry}} to {{lang}}..."
     @mkdir -p content/{{lang}}/{{carnet}}
-    claude -p "First, read your full instructions from .claude/skills/translator/SKILL.md. Then translate content/_original/{{carnet}}/{{entry}}.md to Czech. Output to content/{{lang}}/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
+    claude -p "First, read your full instructions from .claude/skills/translator/SKILL.md. Then translate content/_original/{{carnet}}/{{entry}}.md to the target language ({{lang}}). Output to content/{{lang}}/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
         --output-format json \
         --allowedTools "Read,Edit,Write,Grep,Glob" \
         | tee content/_original/_workflow/translate_{{entry}}.json
@@ -477,7 +497,7 @@ pipeline entry carnet="015" lang="cz":
 # Batch process multiple entries (research + annotate only)
 prepare-batch start end carnet="015":
     @echo "Preparing entries {{start}} to {{end}} in Carnet {{carnet}}..."
-    @for entry in $(ls content/_original/{{carnet}}/ | grep -E "^{{start}}" | head -10); do \
+    @for entry in $(ls content/_original/{{carnet}}/ | grep -E "\.md$" | sort | sed -n '/^{{start}}/,/^{{end}}/p'); do \
         just research $${entry%.md} {{carnet}}; \
         just annotate $${entry%.md} {{carnet}}; \
     done
@@ -489,7 +509,7 @@ workflow-status carnet="015":
 # Generate workflow metrics report
 workflow-report carnet="015":
     @echo "Generating workflow report for Carnet {{carnet}}..."
-    claude -p "Analyze all JSON files in content/_original/_workflow/. Generate a metrics report following the format in MULTI_AGENT_PLAN.md. Include agent performance, quality trends, and improvement suggestions. Save to content/_original/_workflow/metrics/carnet_{{carnet}}_metrics.md" \
+    claude -p "Analyze all JSON files in content/_original/_workflow/. Generate a metrics report with agent performance, quality trends, and improvement suggestions. Save to content/_original/_workflow/metrics/carnet_{{carnet}}_metrics.md" \
         --allowedTools "Read,Write,Grep,Glob"
 
 # Clean workflow state (careful!)
@@ -537,9 +557,19 @@ help:
     @echo "  just update-frontmatter-all             # Update metrics for all carnets"
     @echo "  just update-frontmatter-lang cz 001     # Update translation metrics"
     @echo ""
-    @echo "DEVELOPMENT:"
-    @echo "  just build-ts        # Build TypeScript packages"
-    @echo "  just clean-ts        # Clean TypeScript build artifacts"
+    @echo "TRANSLATION SCAFFOLDING:"
+    @echo "  just scaffold 001              # Scaffold Czech translation files"
+    @echo "  just scaffold 001 --lang en    # Scaffold for English"
+    @echo "  just scaffold 001 --dry-run    # Preview changes"
+    @echo ""
+    @echo "DEVELOPMENT & TESTING:"
+    @echo "  just build-ts              # Build TypeScript packages"
+    @echo "  just clean-ts              # Clean TypeScript build artifacts"
+    @echo "  just round-trip-test       # Run parser/renderer round-trip test"
+    @echo "  just round-trip-test 001   # Test specific carnet"
+    @echo "  just debug-roundtrip FILE  # Debug round-trip for a single file"
+    @echo "  just docx-verify           # Verify entries against source DOCX"
+    @echo "  just extract-czech         # Extract visible Czech text"
     @echo ""
     @echo "WORKSPACE (Docker dev environment):"
     @echo "  just workspace-up      # Build and start workspace container"
@@ -634,7 +664,7 @@ stewardship-approve file:
 # Approve all drafts
 stewardship-approve-all:
     @echo "Approving all draft content..."
-    @for file in $(grep -l "status: draft" docs/stewardship/queue/*.md 2>/dev/null); do \
+    @grep -l "status: draft" docs/stewardship/queue/*.md 2>/dev/null | while IFS= read -r file; do \
         sed -i 's/status: draft/status: approved/' "$$file"; \
         echo "Approved: $$file"; \
     done
@@ -664,7 +694,7 @@ stewardship-init:
 stewardship-archive:
     @echo "Moving posted items to archive..."
     @mkdir -p docs/stewardship/archive
-    @for file in $(grep -l "status: posted" docs/stewardship/queue/*.md 2>/dev/null); do \
+    @grep -l "status: posted" docs/stewardship/queue/*.md 2>/dev/null | while IFS= read -r file; do \
         mv "$$file" docs/stewardship/archive/; \
         echo "Archived: $$(basename $$file)"; \
     done

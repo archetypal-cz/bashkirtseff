@@ -6,27 +6,57 @@ This directory contains TypeScript and Python scripts for project automation.
 
 ```
 scripts/
-├── CLAUDE.md                   # This file
+├── CLAUDE.md                        # This file
 │
-├── ts/                         # TypeScript scripts (built as npm workspace)
-│   ├── cli.ts                  # Main CLI entry point
-│   ├── package.json            # TypeScript package config
-│   └── dist/                   # Compiled output
+├── hooks/                           # Claude Code hooks
+│   ├── pre-session.ts               # Session start
+│   ├── post-edit.ts                 # After file edits
+│   ├── session-end.ts               # Session end
+│   ├── validate-write.ts            # Write validation
+│   ├── bootstrap-readmes.ts         # Bootstrap README files
+│   ├── init-source-hashes.ts        # Initialize source hashes
+│   └── lib/                         # Shared hook utilities
+│       ├── config.ts
+│       ├── progress.ts
+│       ├── readme-parser.ts
+│       ├── report.ts
+│       ├── source-sync.ts
+│       ├── todo-sync.ts
+│       └── types.ts
 │
-├── hooks/                      # Claude Code hooks (planned)
-│   ├── index.ts                # Hook runner
-│   ├── pre-session.ts          # Session start
-│   ├── post-edit.ts            # After file edits
-│   └── pre-commit.ts           # Before commits
+├── scaffold-translation.ts          # Generate translation file templates
+├── sync-translation.ts              # Sync translations with originals
+├── glossary-merge.ts                # Merge duplicate glossary entries
+├── glossary-refs.ts                 # Manage glossary references
+├── glossary-move.ts                 # Move glossary entries between categories
+├── glossary-migrate-flat.ts         # Migrate flat-path glossary refs
+├── glossary-dedup.ts                # Analyze/execute glossary dedup plans
+├── glossary-frontmatter.ts          # Manage glossary YAML frontmatter
+├── glossary-tagger.ts               # Auto-tag entries with glossary refs
+├── theme-tagger.ts                  # Add theme tags to entries
+├── project-status.ts                # Project progress tracking
+├── update-frontmatter.ts            # Update calculated frontmatter fields
+├── build-filter-index.ts            # Build filter index for frontend
+├── generate-pwa-icons.ts            # Generate PWA icons
+├── i18n-diff.ts                     # Compare i18n locale files
+├── round-trip-test.ts               # Parse-render round-trip testing
+├── debug-roundtrip.ts               # Debug round-trip issues
 │
-├── scaffold-translation.ts     # Generate translation file templates
-├── sync-translation.ts         # Sync translations with originals
-├── glossary-merge.ts           # Merge duplicate glossary entries
-├── glossary-refs.ts            # Manage glossary references
-├── restructure-glossary.ts     # Reorganize glossary structure
+├── epub_kernberger.py               # Kernberger EPUB analysis
+├── censored_matching.py             # 1887 censored edition matching
+├── docx_verify.py                   # DOCX verification
 │
-├── migrate-to-carnets.py       # Python migration script
-└── deploy-frontend.sh          # Frontend deployment
+├── extract_czech_text.sh            # Extract Czech text
+│
+└── _archive/                        # Completed one-time migration scripts
+    ├── add-date-headings.ts         # Added date headings (commit 4e2a3e55)
+    ├── normalize-entries.ts         # Normalized 3,718 entries (commit d48f5db0)
+    ├── split-paragraphs.ts          # Split single-paragraph entries
+    ├── split-translation-paragraphs.ts
+    ├── debug-timestamps.ts          # Timestamp diagnostic (hardcoded files)
+    ├── fr_bulk_copy.py              # French edition bulk copy
+    ├── fr_translate_nonfrench.py    # Non-French passage manifest
+    └── reformat_old_translations.py # Legacy translation reformatter
 ```
 
 ## Running Scripts
@@ -34,49 +64,21 @@ scripts/
 ### Via Just (Preferred)
 ```bash
 just help                       # Show all commands
-just glossary-validate          # Validate glossary links
-just compile 001 cz             # Compile carnet for language
+just glossary-stats             # Glossary usage statistics
+just glossary-find ID           # Find references to entry
+just scaffold 001               # Scaffold translation files
+just round-trip-test            # Parser/renderer fidelity test
 ```
 
-### Via NPM
+### Via npx
 ```bash
-npm run diary -- <command>      # Run CLI commands
-npx tsx scripts/ts/cli.ts       # Direct execution
+npx tsx src/scripts/<script>.ts   # Direct execution
 ```
 
-### Via Node
+### Python (via uv)
 ```bash
-node scripts/ts/dist/cli.js     # After TypeScript build
+uv run --with <deps> python3 src/scripts/<script>.py <args>
 ```
-
-## CLI Commands
-
-The main CLI (`scripts/ts/cli.ts`) provides:
-
-```bash
-npm run diary sync <carnet> <lang>    # Sync translation with original
-npm run diary compile <carnet> <lang> # Compile carnet for publishing
-npm run diary validate                # Validate all files
-npm run diary stats                   # Show project statistics
-```
-
-## Hooks System (Planned)
-
-TypeScript hooks will automate progress tracking:
-
-| Hook | Trigger | Purpose |
-|------|---------|---------|
-| `pre-session` | Claude Code start | Show work status, check conflicts |
-| `post-edit` | After Write to src/ | Update README progress |
-| `pre-commit` | Before git commit | Sync TODOs, validate files |
-
-See `/docs/INFRASTRUCTURE.md` for hook lifecycle details.
-
-## Adding New Scripts
-
-1. Create script in `scripts/` (TypeScript preferred)
-2. Add to `justfile` if commonly used
-3. Document in this file
 
 ## Dependencies
 
@@ -88,5 +90,5 @@ Scripts use the `shared` package for:
 ## Related Documentation
 
 - `/justfile` - Task runner commands
-- `/shared/CLAUDE.md` - Shared library
+- `/src/shared/CLAUDE.md` - Shared library
 - `/docs/INFRASTRUCTURE.md` - Hooks system

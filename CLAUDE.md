@@ -9,7 +9,7 @@ This is a sophisticated multi-agent literary translation project for Marie Bashk
 **Key Stats:**
 
 - **107 carnets** (notebooks 000-106, all accounted for)
-- **~3,300 diary entries** spanning 12 years (1873-1884)
+- **~3,800 diary entries** spanning 12 years (1873-1884)
 - **Target languages**: Czech, Ukrainian, English, French (modern edition)
 - **Frontend**: AstroJS PWA at https://bashkirtseff.org
 
@@ -59,7 +59,6 @@ Keeping documentation accurate is a valuable contribution. When you fix somethin
 │   └── /scripts/          # Standalone TypeScript scripts
 │
 ├── /docs/                 # Documentation
-│   └── /prompts/          # Style guides
 └── /.claude/              # Claude Code configuration
     ├── /skills/           # Role definitions
     └── /reports/          # Team run reports (committed)
@@ -162,8 +161,7 @@ Format: `[#Entity_Name](../_glossary/category/ENTITY_NAME.md)`
 
 ## Tooling Conventions
 
-- **All project scripts are TypeScript** (in `/src/scripts/` and `/src/shared/`)
-- **Python is used only for ad-hoc tasks** (e.g., docx analysis) and is always run via **`uv`**, never bare `pip` or `python`
+- **Project scripts are primarily TypeScript** (in `/src/scripts/` and `/src/shared/`), with **Python scripts for specialized analysis** (EPUB, DOCX, censored-edition matching) run via **`uv`**, never bare `pip` or `python`
 - **`just` commands** wrap all common operations — prefer them over direct npm/npx
 - **Always run `git diff` in a subagent** — diffs consume large amounts of context window. Use a Task subagent (e.g., Bash or general-purpose) for any git diff, git log with patches, or similar output-heavy git operations. Summarize the results back to the main conversation.
 
@@ -192,24 +190,18 @@ just fe-build           # Production build
 just fe-preview         # Preview build
 
 # Glossary Management
-just glossary-validate  # Validate all links
 just glossary-stats     # Usage statistics
 just glossary-find ID   # Find references to entry
 just glossary-orphaned  # List unreferenced entries
-
-# Compilation
-just compile 001 cz     # Compile carnet 001 for Czech
-just build cz           # Compile all Czech carnets
-just open 001 cz        # Open in browser
+just glossary-missing   # List broken glossary links
 
 # AI Workflow
 just ed 015             # Start Executive Director
 just research ENTRY     # Run researcher on entry
 just pipeline ENTRY     # Full translation pipeline
 
-# Deployment (automatic on push)
-just deploy-status      # Check container status
-just deploy-logs        # View logs
+# Deployment (automatic on push to main)
+# Check status: https://github.com/archetypal-cz/bashkirtseff/actions
 ```
 
 ### Why Justfile?
@@ -222,7 +214,6 @@ just deploy-logs        # View logs
 ## Key Resources
 
 - **Justfile**: `/justfile` - ALL commands (use `just help`)
-- **Project Journey**: `/JOURNEY.md` - How the project evolved (narrative changelog)
 - **Stewardship**: `/docs/STEWARDSHIP.md` - Principles, norms, ethical framework
 - **Infrastructure**: `/docs/INFRASTRUCTURE.md` - Progress tracking & collaboration
 - **Content Guide**: `/content/CLAUDE.md` - Diary content structure

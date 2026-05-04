@@ -188,14 +188,6 @@ just glossary-missing            # List referenced entries that don't exist (bro
 just glossary-orphaned           # List glossary entries not referenced anywhere
 ```
 
-### Migration
-
-```bash
-# Convert old-format entries to paragraph cluster format
-npx tsx src/scripts/restructure-glossary.ts --category people/core
-npx tsx src/scripts/restructure-glossary.ts --category people/core --dry-run --verbose
-```
-
 ### Programmatic Utilities
 
 The shared TypeScript package (`@bashkirtseff/shared`) provides ID validation:

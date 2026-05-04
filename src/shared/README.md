@@ -169,7 +169,7 @@ Scripts in `/scripts` use this package:
 |--------|-------------|
 | `glossary-merge.ts` | Merge duplicate glossary entries |
 | `glossary-refs.ts` | Find references, orphans, stats |
-| `restructure-glossary.ts` | Convert to paragraph cluster format |
+| `glossary-frontmatter.ts` | Manage glossary YAML frontmatter |
 | `scaffold-translation.ts` | Create translation scaffolds |
 | `sync-translation.ts` | Sync paragraphs original → translation |
 
@@ -185,8 +185,8 @@ npx tsx scripts/glossary-merge.ts find-duplicates
 # Find references to an entry
 npx tsx scripts/glossary-refs.ts find DUKE_OF_HAMILTON
 
-# Restructure glossary entries
-npx tsx scripts/restructure-glossary.ts --category people/core
+# Manage glossary frontmatter
+npx tsx scripts/glossary-frontmatter.ts ensure --dry-run
 ```
 
 ## Development
