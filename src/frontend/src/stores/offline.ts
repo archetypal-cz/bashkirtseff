@@ -3,8 +3,10 @@ import { ref, computed } from 'vue';
 import {
   type DownloadScope,
   type DownloadRecord,
+  CACHE_NAME,
   scopeKey,
   urlsForScope,
+  urlsExclusiveTo,
   estimateSize,
   cacheUrl,
   countCachedUrls,
@@ -23,6 +25,8 @@ export const useOfflineStore = defineStore('offline', () => {
   const progress = ref(0);
   const error = ref<string | null>(null);
   const storageEstimate = ref<{ used: number; quota: number } | null>(null);
+  const hasStaleDownloads = ref(false);
+  const currentManifestCommit = ref<string | null>(null);
 
   // Filter index entries — loaded once
   const entries = ref<FilterEntryRecord[]>([]);
@@ -30,6 +34,7 @@ export const useOfflineStore = defineStore('offline', () => {
 
   // AbortController for cancellation
   let abortController: AbortController | null = null;
+  let initialized = false;
 
   // --- Computed ---
 
@@ -43,18 +48,38 @@ export const useOfflineStore = defineStore('offline', () => {
 
   function init() {
     if (typeof window === 'undefined') return;
+    if (initialized) return;
+    initialized = true;
 
     // Restore persisted download records
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
       try {
         downloads.value = JSON.parse(saved);
+        // Sanitize stale downloading records from crashed/refreshed sessions
+        for (const record of Object.values(downloads.value)) {
+          if (record.status === 'downloading') {
+            record.status = record.cachedUrls > 0 ? 'partial' : 'error';
+          }
+        }
       } catch {
         /* ignore corrupt data */
       }
     }
 
     refreshStorageEstimate();
+    queueMicrotask(() => validateRecords());
+
+    // Check for content updates when online
+    if (navigator.onLine) {
+      queueMicrotask(() => checkFreshness());
+    }
+    window.addEventListener('online', () => checkFreshness());
+
+    // When a new service worker takes control, content may have changed
+    navigator.serviceWorker?.addEventListener('controllerchange', () => {
+      checkFreshness();
+    });
   }
 
   function persist() {
@@ -80,10 +105,26 @@ export const useOfflineStore = defineStore('offline', () => {
   // --- Core actions ---
 
   async function downloadScope(scope: DownloadScope) {
+    if (isDownloading.value) {
+      error.value = 'A download is already in progress';
+      return;
+    }
+
     await loadEntries();
     if (!entriesLoaded.value) {
       error.value = 'Failed to load entry index';
       return;
+    }
+
+    // Fetch current manifest commit if not already known
+    if (!currentManifestCommit.value) {
+      try {
+        const res = await fetch('/data/offline-manifest.json', { cache: 'no-store' });
+        if (res.ok) {
+          const manifest = await res.json();
+          currentManifestCommit.value = manifest.commit;
+        }
+      } catch { /* ignore */ }
     }
 
     const key = scopeKey(scope);
@@ -148,6 +189,7 @@ export const useOfflineStore = defineStore('offline', () => {
         record.cachedUrls = completed;
         record.sizeBytes = estimateSize(completed);
         record.downloadedAt = new Date().toISOString();
+        record.manifestCommit = currentManifestCommit.value ?? undefined;
       }
     } catch (e) {
       const record = downloads.value[key];
@@ -177,11 +219,16 @@ export const useOfflineStore = defineStore('offline', () => {
   }
 
   async function removeScope(scope: DownloadScope) {
+    if (isDownloading.value) {
+      error.value = 'Cannot remove while download is in progress';
+      return;
+    }
+
     await loadEntries();
     const key = scopeKey(scope);
-    const urls = urlsForScope(scope, entries.value);
+    const exclusiveUrls = urlsExclusiveTo(scope, downloads.value, entries.value);
 
-    await deleteCachedUrls(urls);
+    await deleteCachedUrls(exclusiveUrls);
 
     const next = { ...downloads.value };
     delete next[key];
@@ -230,12 +277,126 @@ export const useOfflineStore = defineStore('offline', () => {
   }
 
   async function clearAll() {
+    if (isDownloading.value) {
+      error.value = 'Cannot clear while download is in progress';
+      return;
+    }
+
     for (const record of Object.values(downloads.value)) {
       await loadEntries();
       const urls = urlsForScope(record.scope, entries.value);
       await deleteCachedUrls(urls);
     }
     downloads.value = {};
+    persist();
+    refreshStorageEstimate();
+  }
+
+  async function validateRecords() {
+    await loadEntries();
+    if (!entriesLoaded.value) return;
+    const cache = await caches.open(CACHE_NAME);
+    for (const [key, record] of Object.entries(downloads.value)) {
+      if (record.status !== 'complete' && record.status !== 'partial') continue;
+      const urls = urlsForScope(record.scope, entries.value);
+      if (urls.length === 0) continue;
+      // Spot-check 3 random URLs
+      const sampleSize = Math.min(3, urls.length);
+      let missing = 0;
+      for (let i = 0; i < sampleSize; i++) {
+        const idx = Math.floor(Math.random() * urls.length);
+        if (!(await cache.match(urls[idx]))) missing++;
+      }
+      if (missing > 0) {
+        const actualCached = await countCachedUrls(urls);
+        record.cachedUrls = actualCached;
+        record.status = actualCached === urls.length ? 'complete'
+          : actualCached > 0 ? 'partial' : 'error';
+      }
+    }
+    persist();
+  }
+
+  async function checkFreshness() {
+    if (typeof window === 'undefined') return;
+    if (Object.keys(downloads.value).length === 0) return;
+
+    try {
+      const res = await fetch('/data/offline-manifest.json', { cache: 'no-store' });
+      if (!res.ok) return;
+      const manifest = await res.json();
+      currentManifestCommit.value = manifest.commit;
+
+      let stale = false;
+      for (const record of Object.values(downloads.value)) {
+        if (record.status !== 'complete' && record.status !== 'partial') continue;
+        if (!record.manifestCommit || record.manifestCommit !== manifest.commit) {
+          stale = true;
+          break;
+        }
+      }
+      hasStaleDownloads.value = stale;
+    } catch {
+      // Network error — can't check freshness
+    }
+  }
+
+  async function updateStaleDownloads() {
+    if (!currentManifestCommit.value) return;
+
+    await loadEntries();
+    if (!entriesLoaded.value) return;
+
+    for (const [key, record] of Object.entries(downloads.value)) {
+      if (record.status !== 'complete' && record.status !== 'partial') continue;
+      if (record.manifestCommit === currentManifestCommit.value) continue;
+
+      // Re-download this scope with force
+      const urls = urlsForScope(record.scope, entries.value);
+      isDownloading.value = true;
+      currentScope.value = record.scope;
+      progress.value = 0;
+      error.value = null;
+      abortController = new AbortController();
+
+      record.status = 'downloading';
+      persist();
+
+      let completed = 0;
+      try {
+        for (let i = 0; i < urls.length; i += BATCH_SIZE) {
+          if (abortController.signal.aborted) break;
+          const batch = urls.slice(i, i + BATCH_SIZE);
+          const results = await Promise.allSettled(
+            batch.map(url => cacheUrl(url, abortController!.signal, true))
+          );
+          completed += results.filter(r => r.status === 'fulfilled' && r.value).length;
+          progress.value = Math.round((completed / urls.length) * 100);
+          record.cachedUrls = completed;
+          record.sizeBytes = estimateSize(completed);
+        }
+        record.status = completed === urls.length ? 'complete' : 'partial';
+        // Only stamp manifestCommit if fully complete — partial updates are still stale
+        if (completed === urls.length) {
+          record.manifestCommit = currentManifestCommit.value;
+        }
+        record.downloadedAt = new Date().toISOString();
+      } catch {
+        record.status = completed > 0 ? 'partial' : 'error';
+      }
+
+      persist();
+    }
+
+    isDownloading.value = false;
+    currentScope.value = null;
+    abortController = null;
+    // Recheck — some scopes may still be stale if updates were partial
+    const stillStale = Object.values(downloads.value).some(
+      r => (r.status === 'complete' || r.status === 'partial') &&
+           r.manifestCommit !== currentManifestCommit.value
+    );
+    hasStaleDownloads.value = stillStale;
     persist();
     refreshStorageEstimate();
   }
@@ -248,6 +409,8 @@ export const useOfflineStore = defineStore('offline', () => {
     progress,
     error,
     storageEstimate,
+    hasStaleDownloads,
+    currentManifestCommit,
 
     // Computed
     downloadList,
@@ -264,5 +427,7 @@ export const useOfflineStore = defineStore('offline', () => {
     isAvailableOffline,
     refreshStorageEstimate,
     clearAll,
+    checkFreshness,
+    updateStaleDownloads,
   };
 });

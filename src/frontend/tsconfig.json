@@ -5,7 +5,8 @@
     "**/*"
   ],
   "exclude": [
-    "dist"
+    "dist",
+    "**/__tests__/**"
   ],
   "compilerOptions": {
     "jsx": "preserve"

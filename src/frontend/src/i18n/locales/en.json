@@ -218,7 +218,16 @@
     "offlinePageTitle": "You are offline",
     "offlinePageText": "This page is not available offline.",
     "offlinePageHint": "Download content in advance from year and notebook pages.",
-    "offlinePageBack": "Back to home"
+    "offlinePageBack": "Back to home",
+    "unavailable": "Offline download unavailable",
+    "downloadInProgress": "A download is already in progress",
+    "checkUpdates": "Check for updates",
+    "updateAll": "Update all",
+    "updating": "Updating...",
+    "upToDate": "Up to date",
+    "stale": "Update available",
+    "storageUsed": "Storage used",
+    "downloadsCount": "{count} downloaded"
   },
   "filter": {
     "title": "Filter",

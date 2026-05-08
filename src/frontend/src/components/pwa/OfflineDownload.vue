@@ -31,8 +31,13 @@ const status = computed(() => {
   return record.value?.status ?? 'none';
 });
 
+const isOtherDownloading = computed(() =>
+  store.isDownloading && !isThisScope.value
+);
+
 const entryCount = ref(0);
 const sizeEstimate = ref('');
+const loadError = ref(false);
 
 onMounted(async () => {
   store.init();
@@ -43,14 +48,16 @@ onMounted(async () => {
   // so we'll use the filter-index directly for the count
   try {
     const res = await fetch('/data/filter-index.json');
-    if (res.ok) {
-      const data = await res.json();
-      const urls = urlsForScope(scope.value, data.entries);
-      entryCount.value = urls.length;
-      sizeEstimate.value = formatBytes(estimateSize(urls.length));
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    const urls = urlsForScope(scope.value, data.entries);
+    entryCount.value = urls.length;
+    sizeEstimate.value = formatBytes(estimateSize(urls.length));
+    if (urls.length === 0) {
+      loadError.value = true;
     }
   } catch {
-    /* ignore */
+    loadError.value = true;
   }
 });
 
@@ -75,7 +82,16 @@ async function retry() {
   <div class="offline-download">
     <!-- Not downloaded -->
     <template v-if="status === 'none'">
-      <button @click="startDownload" class="offline-btn offline-btn-download">
+      <div v-if="loadError" class="offline-error-info">
+        <svg class="offline-icon offline-icon-warn" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4.5c-.77-.833-2.694-.833-3.464 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z" />
+        </svg>
+        <span class="offline-label" style="color: var(--text-muted, #78716C); font-size: 0.8125rem;">
+          {{ t('offline.unavailable') }}
+        </span>
+      </div>
+      <button v-else @click="startDownload" class="offline-btn offline-btn-download" :disabled="isOtherDownloading">
         <svg class="offline-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
@@ -185,6 +201,20 @@ async function retry() {
   border-color: var(--color-accent, #B45309);
   color: var(--color-accent, #B45309);
   background: rgba(180, 83, 9, 0.05);
+}
+
+.offline-btn-download:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.offline-error-info {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-family: var(--font-sans, system-ui);
 }
 
 /* Icon */

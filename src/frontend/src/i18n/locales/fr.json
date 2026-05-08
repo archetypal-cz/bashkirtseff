@@ -218,7 +218,16 @@
     "offlinePageTitle": "Vous êtes hors ligne",
     "offlinePageText": "Cette page n'est pas disponible hors ligne.",
     "offlinePageHint": "Téléchargez le contenu à l'avance depuis les pages d'années et de cahiers.",
-    "offlinePageBack": "Retour à l'accueil"
+    "offlinePageBack": "Retour à l'accueil",
+    "unavailable": "Téléchargement hors ligne indisponible",
+    "downloadInProgress": "Un téléchargement est déjà en cours",
+    "checkUpdates": "Vérifier les mises à jour",
+    "updateAll": "Tout mettre à jour",
+    "updating": "Mise à jour...",
+    "upToDate": "À jour",
+    "stale": "Mise à jour disponible",
+    "storageUsed": "Espace utilisé",
+    "downloadsCount": "{count} téléchargé(s)"
   },
   "filter": {
     "title": "Filtre",

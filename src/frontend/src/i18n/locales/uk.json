@@ -218,7 +218,16 @@
     "offlinePageTitle": "Ви офлайн",
     "offlinePageText": "Ця сторінка недоступна офлайн.",
     "offlinePageHint": "Завантажте контент заздалегідь на сторінках років та зошитів.",
-    "offlinePageBack": "На головну"
+    "offlinePageBack": "На головну",
+    "unavailable": "Офлайн завантаження недоступне",
+    "downloadInProgress": "Вже виконується інше завантаження",
+    "checkUpdates": "Перевірити оновлення",
+    "updateAll": "Оновити все",
+    "updating": "Оновлення...",
+    "upToDate": "Актуально",
+    "stale": "Доступне оновлення",
+    "storageUsed": "Використано сховища",
+    "downloadsCount": "{count} завантажено"
   },
   "filter": {
     "title": "Фільтр",

@@ -30,7 +30,7 @@ const t = locale ? createT(locale) : defaultT;
       <!-- Right side: Locale switcher + Login + Mobile Menu -->
       <div class="flex items-center gap-2 md:gap-4">
         <!-- Offline status indicator -->
-        <OfflineStatus client:idle />
+        <OfflineStatus client:load />
 
         <!-- UI Locale Switcher (CS/FR/EN) -->
         <LocaleSwitcher client:load />

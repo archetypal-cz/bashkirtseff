@@ -81,9 +81,11 @@ export default defineConfig({
         // Serve offline fallback page for uncached navigation requests
         navigateFallback: '/offline/index.html',
         navigateFallbackDenylist: [/^\/api/],
-        globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,woff,woff2}'],
-        // Exclude large glossary index from precaching (3+ MB)
-        globIgnores: ['**/glossary/index.html'],
+        globPatterns: ['**/*.{css,js,svg,png,ico,txt,woff,woff2}'],
+        // Precache the offline fallback page (not covered by globPatterns since html was removed)
+        additionalManifestEntries: [
+          { url: '/offline/index.html', revision: null },
+        ],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -107,6 +109,36 @@ export default defineConfig({
               expiration: {
                 maxEntries: 10,
                 maxAgeSeconds: 60 * 60 * 24 * 365 // 1 year
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
+            // Cache diary index pages (year and carnet) for offline
+            urlPattern: /\/(cz|original|en|uk|fr)\/(\d{3}|\d{4})\/?$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'diary-entries-cache',
+              expiration: {
+                maxEntries: 500,
+                maxAgeSeconds: 60 * 60 * 24 * 90
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
+            // Cache section-based entries (e.g., /original/000/000-01/)
+            urlPattern: /\/(cz|original|en|uk|fr)\/\d{3}\/\d{3}-\d{2}\/?$/,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'diary-entries-cache',
+              expiration: {
+                maxEntries: 200,
+                maxAgeSeconds: 60 * 60 * 24 * 90
               },
               cacheableResponse: {
                 statuses: [0, 200]

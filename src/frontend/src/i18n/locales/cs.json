@@ -218,7 +218,16 @@
     "offlinePageTitle": "Jste offline",
     "offlinePageText": "Tato stránka není dostupná offline.",
     "offlinePageHint": "Stáhněte si obsah předem na stránkách jednotlivých roků a sešitů.",
-    "offlinePageBack": "Zpět na hlavní stránku"
+    "offlinePageBack": "Zpět na hlavní stránku",
+    "unavailable": "Offline stahování nedostupné",
+    "downloadInProgress": "Právě probíhá jiné stahování",
+    "checkUpdates": "Zkontrolovat aktualizace",
+    "updateAll": "Aktualizovat vše",
+    "updating": "Aktualizuji...",
+    "upToDate": "Aktuální",
+    "stale": "Dostupná aktualizace",
+    "storageUsed": "Využité úložiště",
+    "downloadsCount": "{count} staženo"
   },
   "filter": {
     "title": "Filtr",

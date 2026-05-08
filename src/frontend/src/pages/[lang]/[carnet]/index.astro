@@ -297,7 +297,7 @@ function entryHref(entry: typeof allEntries[0]): string {
                 </svg>
               </a>
             )}
-            <OfflineDownload client:visible scopeType="carnet" scopeId={carnet!} language="original" />
+            <OfflineDownload client:visible scopeType="carnet" scopeId={carnet!} language={lang.urlPath} />
           </div>
         </header>
 

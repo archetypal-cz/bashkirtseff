@@ -26,6 +26,8 @@ export interface DownloadRecord {
   sizeBytes: number;
   downloadedAt: string;
   status: 'complete' | 'partial' | 'downloading' | 'error';
+  /** Git commit hash from manifest at download time — undefined for legacy records */
+  manifestCommit?: string;
 }
 
 /** Build a stable key for a download scope */
@@ -107,17 +109,39 @@ export function urlsForScope(
   return urlsForYear(scope.id, scope.language, entries);
 }
 
+/** Compute URLs that belong to this scope but NOT to any other active scope */
+export function urlsExclusiveTo(
+  scope: DownloadScope,
+  allRecords: Record<string, DownloadRecord>,
+  entries: FilterEntryRecord[],
+): string[] {
+  const targetUrls = new Set(urlsForScope(scope, entries));
+  const targetKey = scopeKey(scope);
+  for (const [key, record] of Object.entries(allRecords)) {
+    if (key === targetKey) continue;
+    if (record.status === 'complete' || record.status === 'partial') {
+      for (const url of urlsForScope(record.scope, entries)) {
+        targetUrls.delete(url);
+      }
+    }
+  }
+  return [...targetUrls];
+}
+
 /** Fetch a single URL into the cache. Returns true if successful. */
 export async function cacheUrl(
   url: string,
   signal?: AbortSignal,
+  force: boolean = false,
 ): Promise<boolean> {
   const cache = await caches.open(CACHE_NAME);
   try {
-    const existing = await cache.match(url);
-    if (existing) return true;
+    if (!force) {
+      const existing = await cache.match(url);
+      if (existing) return true;
+    }
 
-    const response = await fetch(url, { signal });
+    const response = await fetch(url, { signal, ...(force && { cache: 'reload' as RequestCache }) });
     if (response.ok) {
       await cache.put(url, response);
       return true;

@@ -794,13 +794,18 @@ fe-generate-icons:
 fe-filter-index:
     npx tsx src/scripts/build-filter-index.ts
 
+# Build offline manifest JSON (commit hash, version, timestamp)
+fe-offline-manifest:
+    npx tsx src/scripts/build-offline-manifest.ts
+
 # Start frontend development server
 fe-dev:
     cd src/frontend && npx astro dev --host
 
-# Build frontend for production (includes filter index)
+# Build frontend for production (includes filter index + offline manifest)
 fe-build:
     just fe-filter-index
+    just fe-offline-manifest
     cd src/frontend && npm run build
 
 # Preview production build locally

@@ -193,7 +193,7 @@ function formatDisplayName(id: string): string {
               scopeType="year"
               scopeId={year!}
             />
-            <OfflineDownload client:visible scopeType="year" scopeId={year!} language="original" />
+            <OfflineDownload client:visible scopeType="year" scopeId={year!} language={lang.urlPath} />
           </div>
         </header>
 
