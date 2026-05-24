@@ -63,7 +63,7 @@ And the following day, with the simple poignancy of someone running out of time:
 %% GLO_PHILOSOPHY.0013 %%
 ### Taine and the Positivist Historians
 
-[Hippolyte Taine](https://en.wikipedia.org/wiki/Hippolyte_Taine) (1828-1893) was the other great intellectual presence of Marie's era. His deterministic method -- explaining cultural phenomena through the interaction of *race* (inherited traits), *milieu* (environment), and *moment* (historical conditions) -- shaped how an entire generation understood history, literature, and human behavior. His monumental *[Les Origines de la France contemporaine](https://en.wikipedia.org/wiki/Les_Origines_de_la_France_contemporaine)* (1876-1893) analyzed the French Revolution with a clinical severity that contrasted sharply with [Jules Michelet](https://en.wikipedia.org/wiki/Jules_Michelet)'s romantic nationalism.
+[Hippolyte Taine](https://en.wikipedia.org/wiki/Hippolyte_Taine) (1828-1893) was the other great intellectual presence of Marie's era. His deterministic method -- explaining cultural phenomena through the interaction of *race* (inherited traits), *milieu* (environment), and *moment* (historical conditions) -- shaped how an entire generation understood history, literature, and human behavior. His monumental *[Les Origines de la France contemporaine](https://en.wikipedia.org/wiki/Hippolyte_Taine)* (1876-1893) analyzed the French Revolution with a clinical severity that contrasted sharply with [Jules Michelet](https://en.wikipedia.org/wiki/Jules_Michelet)'s romantic nationalism.
 
 %% GLO_PHILOSOPHY.0014 %%
 Marie reads both and has a strong preference. In May 1884, receiving "Zola complet, Renan complet et des volumes de Taine," she declares:
