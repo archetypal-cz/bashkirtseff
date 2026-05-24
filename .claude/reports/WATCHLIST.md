@@ -26,10 +26,16 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 
 - [ ] **Gallicism rates** — track frequency of gallicisms caught by GEM/RED/OPS per carnet. High rates may indicate translator needs updated guidance.
 - [ ] **False friend frequency** — especially for Czech (ceremonie, kostým, kabinet) and English (sympathetic, actually, revolt/révolter, eve/veille, vilain/naughty). New EN false friends found in 008-010 run (2026-02-16).
-- [ ] **Quality score trends** — CON scores should trend upward as skills improve. Czech baseline: 0.90-0.95. English: 0.947 (036-041) → 0.957 (042-047) → 0.95 (048-056) → 0.96 (057-064) → 0.957 (065-070) → 0.95 (093-106) → 0.957 (091-103). Stable at 0.95-0.96 range — plateau reached. Ukrainian baseline: 0.93-0.955 (3 waves, trending upward: 0.94 → 0.947 → 0.952 avg).
+- [ ] **Quality score trends** — CON scores should trend upward as skills improve. Czech baseline: 0.90-0.95. English: 0.947 (036-041) → 0.957 (042-047) → 0.95 (048-056) → 0.96 (057-064) → 0.957 (065-070) → 0.95 (093-106) → 0.957 (091-103). Stable at 0.95-0.96 range — plateau reached. Ukrainian baseline: 0.94-0.96 (6 waves, trending upward then plateauing: 0.94 → 0.947 → 0.952 → 0.953 → 0.952 → 0.96 avg).
 - [ ] **Orphaned footnotes** — translators define footnote definitions (`[^xxx]: ...`) but forget the in-text superscript marker (`[^xxx]`). 6 instances across 4 carnets and 2 of 3 translators in 042-047 run. tr-002 had zero in carnet 047. Caught by RED. Proposal: add footnote-linking self-check to translator skill. Reports: 2026-03-05-en-042-047. Needs confirmation — 1 report only.
 - [ ] **Code-switch misidentification** — EN translators highlighted French idioms as English code-switches in 2 instances (009, 010). "It takes my breath away" and "that's all I'm saying!" were translated French idioms, not Marie writing in English. Needs confirmation — 1 report only (2026-02-16).
 - [ ] **Footnote ID format inconsistency** — EN translators use two formats: `[^fn047-034]` (fn+carnet-seq) and `[^45.266.1]` (carnet.para.seq). Both valid markdown, but inconsistent across carnets. 125 occurrences of fn-format vs 58 of para-format. Consider standardizing. Reports: 2026-03-05-en-042-047, also observed across 001-003 and 036-047.
+
+### Glossary Research
+
+- [ ] **Paragraph ID granularity variance** — glossary research agents produce wildly different PID densities (16 PIDs/245 lines vs 65 PIDs/228 lines). Not a quality issue yet, but may cause confusion if PIDs are referenced elsewhere. 1 report only (2026-05-24-glossary-top15). Needs confirmation.
+- [ ] **Wikipedia link validation needed** — ~100+ Wikipedia links added across 15 glossary entries without verification. A batch link-checker should validate them. 1 report only (2026-05-24-glossary-top15).
+- [ ] **Diary quote accuracy in glossary entries** — researcher agents grep diary files for context but compose quotes into entries from memory/synthesis. Some quotes may not exactly match the source file text. Spot-check recommended. 1 report only (2026-05-24-glossary-top15).
 
 ### Pipeline Efficiency
 
@@ -43,7 +49,11 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 ### Ukrainian-Specific
 
 - [ ] **Dialogue formatting inconsistency** — some UK entries use `---` (3 hyphens) vs `—` (em dash) for dialogue. Should standardize across carnets. 1 report only, not re-observed in waves 2-3. Report: 2026-02-16-uk-006-008.md.
-- [ ] **OPS fix rate trend** — declining across 3 UK waves: 0.42 → 0.28 → 0.22/entry (-48% total). Quality improving (0.94 → 0.947 → 0.952). Strong positive signal — translators producing better first drafts. Continue monitoring for plateau. Reports: 2026-02-16-uk-006-008.md, 2026-02-17-uk-009-011.md, 2026-02-17-uk-012-014.md.
+- [ ] **Fix rate trend (UK)** — declining across 6 waves: 0.42 → 0.28 → 0.22 → 0.31 → 0.27 → 0.14/entry. Quality improving: 0.94 → 0.947 → 0.952 → 0.953 → 0.952 → 0.96. Plateau reached at 0.95-0.96. Reports: all 6 UK reports.
+- [ ] **Cyrillic contamination** — Latin characters embedded in Cyrillic words ("Тумanchoфи"), Russian ё/ы in Ukrainian text, Chinese character 历. Appeared in 2 reports (2026-05-24). Not seen in Feb reports. May be model artifact. Watch for recurrence.
+- [ ] **Fabricated Ukrainian words** — translator generated non-existent words ("збільшувально", "боянним"). 1 report only (2026-05-24-uk-018-022). Not repeated in batch 2. Watch.
+- [ ] **Agent message delivery unreliable** — agents complete tasks and mark them done, but completion messages don't reach team lead. Requires proactive task/file state checking. 2 instances across 2 reports (2026-05-24). Infrastructure issue.
+- [ ] **Code-switch visibility loss (UK)** — Marie's deliberate Cyrillic "мене" inside French text becomes invisible in Ukrainian translation. CON resolved with footnote in 024.0207. 1 report only (2026-05-24-uk-023-025). Document as standard practice if recurs.
 
 ## Resolved Issues
 
