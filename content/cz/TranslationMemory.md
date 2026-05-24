@@ -319,7 +319,68 @@ When translating, refer to this document for established translations of recurri
 - Context: Written across the page — later marginal annotation
 - First appearance: 016 (1874-02-12)
 
+## Carnet 025 Terms
+
+### plobster
+- Translation (Czech): plobster
+- Context: Marie's invented code word for admirers/suitors, likely from English "lobster"
+- First appearance: 025 (1874-11-10)
+- Notes: Keep as-is with footnote explaining Marie's neologism
+
+### dimanchois
+- Translation (Czech): nedělňák
+- Context: Marie's invented word for Sunday strollers, from "dimanche" (Sunday)
+- First appearance: 025 (1874-11-01)
+- Notes: Czech neologism to match Marie's playful coinage
+
+### tube (chapeau)
+- Translation (Czech): cylindr
+- Context: Slang for top hat (chapeau haut-de-forme)
+- First appearance: 025 (1874-11-01)
+
+### amazone (habit)
+- Translation (Czech): amazona
+- Context: Women's riding habit for side-saddle riding
+- First appearance: 025 (1874-11-07)
+
+### terre-neuve
+- Translation (Czech): novofundlanďan
+- Context: Newfoundland dog breed, known for gentle temperament
+- First appearance: 025 (1874-10-30)
+
+### faquin
+- Translation (Czech): ničema
+- Context: Contemptuous term for worthless fellow, cad
+- First appearance: 025 (1874-11-02)
+
+### L'appétit vient en mangeant
+- Translation (Czech): S jídlem roste chuť
+- Context: Rabelais proverb, Marie adapts to study
+- First appearance: 025 (1874-11-02)
+
+### colimaçon (nickname)
+- Translation (Czech): šnek
+- Context: Marie's contemptuous animal nickname for Merjeewsky
+- First appearance: 025 (1874-11-14)
+
+### Porthos
+- Translation (Czech): Porthos
+- Context: Name of Marie's English mastiff, from Dumas's Three Musketeers
+- First appearance: 025 (1874-10-28)
+- Notes: Keep as-is, literary reference well-known
+
+### jouvenceau
+- Translation (Czech): mladíček
+- Context: Slightly condescending term for a young man
+- First appearance: 025 (1874-11-04)
+
+### pèlerine de jais
+- Translation (Czech): pelerína z gagátu
+- Context: Jet bead cape/collar, fashionable mourning jewelry accessory
+- First appearance: 025 (1874-11-06)
+
 %% 2025-03-23T02:20:05 PA: Initial translation memory created %%
 %% 2026-02-13T14:00:00 TR: Added terms from Carnet 006 translation %%
 %% 2026-02-13T18:00:00 TR: Added terms from Carnet 007 translation %%
 %% 2026-02-16T15:00:00 TR: Added terms from Carnet 016 translation %%
+%% 2026-05-24T14:00:00 TR: Added terms from Carnet 025 translation %%

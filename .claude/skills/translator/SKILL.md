@@ -56,13 +56,33 @@ Each entry goes through three phases: **Think → Translate → Self-Review**. T
 4. ✓ Note any AMBIGUOUS flags that may need resolution
 5. ✓ Understand Marie's location from frontmatter (`location` field) and context from RSR notes
 
+<!-- Teamcouch update 2026-05-24: Added directional/polarity verification.
+     Evidence: reports 2026-05-24-uk-018-022, 2026-05-24-uk-023-025
+     Pattern: 6+ meaning reversals across 2 runs, 5 translators. "avant" → "до" (opposite direction),
+     "il en a assez" → "сповнений терпіння" (opposite meaning), "exaspérée" → "знесилена" (wrong register). -->
+
 **Then, before writing a single word, think about:**
 - What gallicism traps exist in this entry? (LAN annotations flag many — internalize them)
 - What false friends might trip you up? (ceremonie, kostým, kabinet, sympatický...)
+- **What directional/temporal words need extra care?** ("avant" = BEFORE not TO; "après" = AFTER; "assez" = enough/had enough, not "full of")
 - How would a native speaker of the target language express these ideas naturally?
 - What idioms exist in the target language that capture Marie's meaning better than literal translation?
 
 **Do NOT begin translation until you have mentally prepared for the traps.**
+
+### Common Meaning Reversal Traps
+
+These French constructions are frequently mistranslated to mean the **opposite**:
+
+| French | Means | Common wrong translation |
+|--------|-------|-------------------------|
+| avant + noun/verb | BEFORE (temporal/spatial) | "to" / "until" (opposite direction) |
+| il en a assez | he's had enough (fed up) | "he's full of patience" (opposite) |
+| exaspéré(e) | furious, exasperated | "exhausted" (wrong register) |
+| misère | wretchedness, misery | "insult/offence" (wrong category) |
+| je respirai | I breathed (relief) | "I suffocated" (opposite) |
+
+**Verify polarity**: After translating any sentence with "avant/après", "assez", emotional states, or negation, re-read the French and confirm your translation preserves the **direction** (before vs after, enough vs insufficient, positive vs negative).
 
 ### Phase 2: Translate (First Draft)
 
