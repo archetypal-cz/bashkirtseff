@@ -139,6 +139,7 @@ Established terminology for consistent translation across carnets.
 
 ## Updated
 - 2026-02-13: Created during carnet 000 translation
+- 2026-05-24: Updated with carnet 028 terms (Nice Dec 1874–Jan 1875, Paris shopping, family drama)
 - 2026-02-13: Updated with carnet 001 terms (Nice social vocabulary, Duke of Hamilton circle, racing/pigeon shooting terms)
 - 2026-05-24: Updated with carnet 018 terms (Nice social season, Russian brutality vocabulary, death euphemisms, multilingual entries)
 - 2026-05-24: Updated with carnet 022 terms (Spa social season, code names, racing vocabulary, Walitsky, count Tanlay)
@@ -650,3 +651,361 @@ Established terminology for consistent translation across carnets.
 
 ### Updated
 - 2026-05-24: Added carnet 023 terms (Spa final weeks + London season, Aug–Sep 1874)
+
+## Carnet 029 Additions
+
+### Paris & Opera Season (Jan 1875)
+
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| lambris d'or | золоті панелі | Gilded wood paneling, aristocratic symbol |
+| aumonière | вишита сумочка | Decorative medieval-revival purse worn at side |
+| binocle (opéra) | бінокль | Opera glasses/lorgnette |
+| foyer (opéra) | фойє | Grand promenade lobby at opera |
+| traine | шлейф | Dress train; marker of adult status |
+| "La Juive" | «Жидівка» | Halévy opera (1835); preserve period title |
+| époque hamiltonienne | гамільтонівська епоха | Marie's coined term for her Hamilton obsession period |
+| coup de foudre | coup de foudre | Love at first sight; keep French (established TM) |
+
+### Social Terms (Carnet 029)
+
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| plaine de Marathon | Марафонська рівнина | Marie's ironic classical comparison for the racecourse |
+| plobster | ==plobster== | Marie's garbled English slang for a gentleman; keep in English with ==highlight== |
+| Détroit des Mouches | Протока мух | Narrow crowded section of the Promenade des Anglais |
+| fétard | фетар | Party-goer/reveler; Marie's nickname in French |
+| dominos | доміно | Hooded cloaks for masquerade balls |
+| poule (races) | поул | Sweepstake pool prize |
+| auto-da-fé | ауто-да-фе | Burning (here: Carnival effigy); keep term with footnote |
+| le macoletti | il macoletti | Italian Carnival candles (*moccoletti*); keep Italian form |
+
+### People (Carnet 029)
+
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Sir Frederic Johnstone (= M. Olliver) | сер Фредерік Джонстон | English baronet (actually M. Olliver per marginal note) |
+| de Gonzales | де Ґонсалес | Spanish acquaintance; phonetic accent in speech |
+| Miloradovitch | Мілорадович | Russian noble family; potential match for Marie |
+| Brunet | Бруне | Marie's Latin tutor in Nice |
+| de Neujean | де Нежан | Belgian acquaintance from Spa; at Monte-Carlo |
+| d'Aspremont | д'Аспремон | Nice Carnival committee figure |
+| Tutcheff (tante) | тітка Тютчева | Relative spreading gossip about the Bashkirtseffs |
+
+### Multilingual Conventions (Carnet 029)
+
+- English extended passage (Jan 27): preserve in English verbatim with ==highlight==; footnote with Ukrainian paraphrase
+- Italian-only entries (Feb 13): preserve in Italian with ==highlight== for each paragraph; full footnote translation
+- Phonetic Spanish accent (de Gonzales, Feb 14): reproduce phonetically as in original, footnote explains
+- "Il facchino italiano": keep Italian throughout with *italics*, no translation
+- "[Mots noircis:]" → [Слова зачорнені:] — new: blacked-out words
+- "[Le bas de la page est déchirée...]" → [Нижня частина сторінки відірвана й видалена.] — new
+- Deo juvante (Latin): keep Latin with footnote
+- Miserere! (Latin): keep Latin per TM
+
+### Idioms (Carnet 029)
+
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Flûte ! | Дудки! | Mild exclamation of disappointment |
+| Chiens de chiens ! | Пси із псами! | Marie's strong characteristic oath |
+| fumant comme un cordonnier | курив, як шевець | Smoking like a cobbler; vulgar comparison |
+| je martelle | я довбаю | I hammer at/persist; used for repeating requests |
+
+### Updated
+- 2026-05-24: Added carnet 029 terms (Paris opera, Nice races, Sir Frederic Johnstone infatuation, Carnival, Italian entries, Gonzales confrontation)
+
+## Carnet 028 Additions
+
+### Nice Christmas Season & Paris Visit (Dec 1874–Jan 1875)
+
+#### People (Carnet 028)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Leclerc | Леклерк | Tutor for chemistry and physics |
+| M. de Mauldre | пан де Мольдр | Belgian-speaking young man; claims to have Spa message; has none |
+| Galula | Ґалула | Family notary's representative in Nice |
+| Furstenberg | Фюрстенберг | Nice society figure, "man with the hat" |
+| Bihovetz | Біховець | Polish general; courts Zoé Pelikan |
+| Dory | Дорі | Good singer; benefit performance in Nice |
+| Bellour | Белур | Tenor at Nice Italian theatre; sings La Sonnambula |
+| Clark (de Spa) | Кларк (зі Спа) | Acquaintance from Spa; chance Paris meeting cheers Marie |
+| Caroline (Laferrière) | Кароліна (Лаферрьєр) | Powerful vendeuse at Laferrière; "une puissance" |
+| M. Duval | пан Дюваль | Paris furniture maker; payment dispute (50,000 francs) |
+| Marie (femme de chambre) | Марі (покоївка) | Chambermaid with abusive husband; tall, blonde, cheerful |
+| Adam | Адам | Male servant who defends Marie the maid |
+| Reboux / Caroline Reboux | Ребу | Most famous Parisian milliner |
+| Walery / Walery (Lucien) | Валері | Prestigious Paris portrait photographer |
+| Makaroff | Макаров | Russian social figure in Nice; believes everything Walitsky invents |
+
+#### Phrases & Idioms (Carnet 028)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| toilettaires [sic] | туалетні [sic] | Marie's neologism for toiletry/grooming items; [sic] preserved |
+| en des termes d'enfer et de paradis | в пекельних і райських виразах | In the most extreme terms (dramatic formulation) |
+| se forger un conte | складати собі казку | Invent a romantic daydream |
+| La tombe seule corrige le bossu | Лише могила виправить горбаня | Russian proverb: people don't change |
+| drôle | смішно | 1870s: funny/amusing (NOT strange) |
+| Misère des misères | Горе з горем | Biblical echo (vanity of vanities); Marie's dramatic despair |
+| courses (shopping) | крамниці / покупки | Shopping errands (lowercase, NOT horse races) |
+| sortie de théâtre | театральний виходний плащ | Evening wrap worn over ball gown |
+| pourparlers | переговори | Formal negotiations |
+
+#### Places & Institutions (Carnet 028)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| théâtre Français | Французький театр | Nice's main theater; English amateurs performed benefit |
+| Grand Hôtel, no 132 | Ґран-Отель, №132 | Boulevard des Capucines; Marie's Paris stay %%
+| Palais Garnier / nouvel opéra | Палац Ґарньє | New Paris Opera, opened Jan 5, 1875; boxes very scarce |
+| chez Ferry | у Феррі | Fabric/draper's shop in Paris |
+| chez de Vertus | у де Вертю | Parisian corsetmaker |
+
+#### Cultural References (Carnet 028)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Minuit, chrétiens | «Опівночі, о христиани» | Famous French Christmas carol (Cantique de Noël) |
+| Connais-tu le pays (Mignon) | «Чи знаєш ти край» | Thomas's aria from Mignon; Marie parodies for Scotland/Hamilton |
+| Joseph Balsamo (Dumas) | «Жозеф Бальзамо» | Dumas père adventure novel about Cagliostro (1847–1848) |
+| Le Tour du monde en 80 jours | «Навколо світу за вісімдесят днів» | Jules Verne theatre adaptation, 1874, Porte Saint-Martin |
+| Madame l'Archiduc (Offenbach) | «Мадам Ерцгерцогиня» | Offenbach operetta, 1874, Bouffes-Parisiens |
+| Paolo Veronese / Palazzo Ducale | Паоло Веронезе / Палаццо Дукале | Apotheosis of Venice (c. 1585), Sala del Maggior Consiglio |
+| Apollo Belvedere | Аполлон Бельведерський | Classical ideal of male beauty (Vatican sculpture) |
+
+#### Multilingual Conventions (Carnet 028)
+- "H[is] G[race] t[he] D[uke] o[f] H[amilton]" — Hamilton cipher signature: keep in English with ==highlight== + footnote
+- "Juventus Nicæa!" — Latin exclamation; keep with ==highlight== + footnote
+- "finita la commedia" — Italian; keep with ==highlight== + footnote
+- "a giorno" — Italian; keep with ==highlight== + footnote
+- "Quid est?" — Latin; keep with ==highlight== + footnote
+- "O Italia paese barbaro…" — Italian tirade; keep full Italian with ==highlight== + footnote
+- "Go on ou Good bye" — English audience shouts; keep in English
+- "attractive" — English word in French text; keep with ==highlight==
+- "Blackprince" — cipher name; keep in English with ==highlight== + footnote
+- "Hong for [sic]" — Marie's garbled "longing for"; keep with [sic] + footnote
+- "Bouver et foumer" — deliberate mispronunciation joke; keep in French with ==highlight== + footnote
+- "Beati, chi amano il tè!" — mock-Italian beatitude; keep Italian with footnote
+- "[Rayé:]" → [Викреслено:]
+- "[Annotation: 1880.]" → [Примітка 1880 р.:]
+- "skunks" — English fur trim; keep in English with ==highlight== + footnote
+
+## Carnet 026–027 Additions
+
+### Nice Social Season (Nov–Dec 1874)
+
+#### Code Names & Reversed Ciphers (Carnets 026–027)
+| French/Original | Ukrainian | Notes |
+|-----------------|-----------|-------|
+| Terffidua | Терффідуа | Audiffret spelled backwards — Marie's cipher for Audiffret; keep transliterated, footnote on first use per entry |
+| Enoteas | Енотеас | Saetone backwards — cipher for Саетоне; keep transliterated with footnote |
+| Saetone | Саетоне | Another reversed cipher; distinct from Terffidua |
+| Nietsnegttiw | Нітснеґттів | Wittgenstein reversed; Marie's marginal note version; keep transliterated |
+
+#### People (Carnets 026–027)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Audiffret (Émile d') | Одіффре / Терффідуа | Young man in Nice society; full name Émile d'Audiffret |
+| Constantin | Констянтен | Young man Marie debates pursuing at opera Dec 1874 |
+| Merjeewsky | Мержевський | Polish count (established earlier); farewell scene in Dec 1874 |
+| Decrais | Декре | Nice prefect who threatened Bashkirtseff family with expulsion |
+| Michelazzi | Мікелацці | Latin tutor fired for theft of lesson tokens |
+| Prodgers | Проджерс | English lady in Nice; connected to London reputation gossip |
+| Mrs Morgan | місіс Морґан | English woman who gifted cairn terrier puppy |
+| Foster / Florence Foster | Фостер / Флоренс Фостер | English family at Nice; Marie's opera companion |
+| Galula | Ґалула | Family notary's representative in Nice (established 028; appears 027) |
+| Markevitch | Марквич | Ukrainian/Russian acquaintance; crystallizes Marie's despair in Dec 1874 |
+| Bariakinsky | Бар'якинський | Compliments Marie as "distinguée" |
+| Maria Alexandrovna | Марія Олександрівна | Russian Empress (wife of Alexander II); tuberculosis reference |
+
+#### Nice Opera & Culture (Carnets 026–027)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| I Puritani | «Пуритани» | Bellini opera (1835); Marie hears it for first time Nov 1874 |
+| Il Trovatore | «Трубадур» | Verdi opera; recurring Nice performance; Italian arias preserved |
+| Lucia di Lammermoor | «Лючія ді Ламмермур» | Donizetti opera; Nice performance Dec 1874 |
+| Mignon (Thomas) | «Міньйон» | Ambroise Thomas opera; aria "Connais-tu le pays" (Dec 1874) |
+| Laferrière | Лафер'єр | Dressmaker (established earlier; reconfirmed 027, 028) |
+
+#### Fashion & Dress (Carnets 026–027)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| habit de cheval gris | сірий верховий костюм | Gray riding habit; Marie's signature Dec 1874 |
+| chapeau gris-Hamilton | капелюх "сірий-Гамільтон" | Marie's own color name for her hat, after the Duke |
+| satin gris-perle | перлинно-сірий атлас | Pearl-gray satin; Vigier's dress same color as Hamilton's jockeys |
+
+#### Latin Passages (Carnets 026–027)
+| Latin | Convention | Notes |
+|-------|-----------|-------|
+| Miser puer! | ==Miser puer!== + footnote | "Poor boy!" — Marie's Latin comment on Paul |
+| odiat hunc puerum | ==odiat hunc puerum== + footnote | "May he hate this boy" — Marie's garbled Latin; preserve errors |
+| res rara! | ==res rara!== + footnote | "A rare thing!" — exclamation |
+| Somnia absurda! | ==Somnia absurda!== + footnote | "Absurd dreams!" — Marie's dream commentary |
+| Vana somnia frequentes aut semper fallaces | ==Vana somnia...== + footnote | "Vain dreams, frequent or always deceptive" — maxim |
+| somnia semper fallaces | ==somnia semper fallaces== + footnote | Shorter form; Marie's grammatical errors preserved |
+| Fortuna! | ==Fortuna!== + footnote | Latin exclamation of fate/luck |
+| mater dolorosa | ==mater dolorosa== + footnote | "Sorrowful mother" — applied ironically to Marie's disgust dream |
+| con amore | ==con amore== + footnote | "With love" — applied to Latin study; Italian/Latin overlap |
+| pulchritudo homni potens est | ==pulchritudo homni potens est== + footnote | Mangled Latin: "beauty is powerful over all"; footnote notes "homni" error for "omni" |
+| Duk superbus | ==Duk superbus== + footnote | Garbled Latin: "proud Duke"; annotation between manuscript lines |
+
+#### Italian Passages (Carnets 026–027)
+| Italian | Convention | Notes |
+|---------|-----------|-------|
+| fuggi, fuggi sei perduto | ==fuggi, fuggi sei perduto== + footnote | "Flee, flee, you are lost" — Il Trovatore (Verdi) |
+| ed io osava quest' angelo maledir | ==ed io osava quest' angelo maledir== + footnote | "And I dared to curse this angel" — Il Trovatore |
+| Eccola / Oh che bella angiolina! | ==Eccola== / ==Oh che bella angiolina!== + footnote | Street compliment; footnote notes Italian street custom |
+| mi [corrono?] per la mente | ==mi [corrono?] per la mente== + footnote | "Rush through my mind" — uncertain reading; preserve [?] |
+| basta! | ==basta!== | "Enough!" — common; footnote only on first use per entry |
+| mio eterno d'ailleurs | ==mio eterno d'ailleurs== + footnote | Mixed Italian-French meta-commentary; preserve mixed language |
+
+#### English Passages (Carnets 026–027)
+| English | Convention | Notes |
+|---------|-----------|-------|
+| I long | ==I long== + footnote | Marie's English code-switch for emotional longing |
+| That is the question | ==That is the question== + footnote | Hamlet reference |
+| Alack! | ==*Alack!*== + footnote | Shakespearean exclamation; rare archaic English form |
+| of no consequence | ==of no consequence== + footnote | English dismissal |
+| puppy | ==puppy== + footnote | English for young dog (also Marie's admirer-term per 020 TM) |
+| policeman | ==policeman== + footnote | English word in French context |
+| molto graziosa, sehr schön, how pretty, très joli | ==molto graziosa, sehr schön, how pretty, très joli== + footnote | Four-language Promenade compliment; footnote on multilingual Nice |
+
+#### Spanish Passages (Carnets 026–027)
+| Spanish | Convention | Notes |
+|---------|-----------|-------|
+| Gracias a Dios | ==Gracias a Dios== + footnote | "Thank God" in Spanish |
+| Qué malheur | ==Qué malheur== + footnote | Hybrid Spanish "Qué" + French "malheur"; footnote notes spelling influence |
+
+#### Idioms & Expressions (Carnets 026–027)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| charmant modèle de sobriété | чарівний взірець тверезості | Sarcastic: "charming model of sobriety" — Marie about drunk Georges |
+| Ventre-Saint-Gris! | ==Ventre-Saint-Gris!== + footnote | Henri IV's oath; keep French with footnote (established 025; reconfirmed 027) |
+| foi de Marie! | —клянусь честю Марі!— | Marie's personal oath; translate spirit |
+| Je ne vis pas quand je ne suis pas habillée | Я не живу, коли не вдягнена | Marie's aphorism (Dec 23, 1874); foundational self-portrait line |
+
+#### Literary & Cultural References (Carnets 026–027)
+| Reference | Notes |
+|-----------|-------|
+| "Saprelotte je grelotte" | Rhyming phrase from Malézieux song; keep French with footnote on rhyme |
+| Gulliver's Travels "flapper" | English word; keep ==flapper== with footnote explaining Swift's Laputa servants |
+| Dante, Inferno III "Quivi sospire lamenti…" | Keep Italian with full attribution footnote (Inf. III) |
+| EMILE acrostic | Dina's acrostic poem about Émile d'Audiffret; explain acrostic in footnote |
+| Henri IV humiliation parallel | Marie identifies with Henri IV before Navarre; footnote on historical event |
+| "Attendons...Dieu est grand!" | Marie's resigned piety phrase; translate naturally |
+
+#### Multilingual Conventions (Carnets 026–027)
+- Latin passages: always ==highlight== + footnote with translation and any grammatical error notes
+- Italian opera quotes: always ==highlight== + footnote with opera title and composer
+- English code-switches: ==highlight== + footnote on first use per entry
+- Spanish: ==highlight== + footnote
+- Reversed cipher names (Терффідуа, Енотеас, Саетоне): transliterate; explain reversal in footnote on first encounter per entry
+- Marginal notes [На полях:] with reversed names: keep reversal, explain in footnote
+- Julian vs. Gregorian calendar: footnote when Marie notes date discrepancy (12-day difference in 1874)
+- Satirical verse: translate to preserve tone/insult spirit; TR note acknowledges rhyme cannot be preserved
+
+### Updated
+- 2026-05-24: Added carnet 026–027 terms (Nice social season Nov–Dec 1874, code names, Latin/Italian/English/Spanish passages, opera, fashion)
+
+## Carnet 030 Additions
+
+### Nice Spring Season (Feb–Apr 1875)
+
+#### People (Carnet 030)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Terffidua / Audiffret | Терффідуа / Одіффре | Code name reconfirmed; also called "Джирофла" (Girofla) per Marie & Olga |
+| Girofla / Giroflée | Джирофла | Marie's second nickname for Audiffret; from Lecocq operetta "Giroflé-Girofla" (1874) |
+| Botkine / Michel Botkine | Михайло Боткін | Russian family friend; nurses Maman; spends week with her in Cannes |
+| Brunet | Бруне | Latin tutor; reconfirmed from 029 |
+| Rickard | Рікар | English acquaintance; source of "in every divorce court" gossip |
+| Prince Tchelesky | князь Челеський | Notorious Russian womanizer; arrives at Cannes with two cocottes |
+| Stiopa | Стьопа | Small child in family party; diminutive Russian/Ukrainian pet name |
+| comtesse de Galve (née Basilewsky) | графиня де Ґальве (уроджена Базілевська) | Social climber example; niece of a priest, married bookkeeper then French count |
+| Bottoné | Боттоне | Family physician; wife died ~2 weeks before Mar 29; very attentive to Maman |
+| Pelikan | Пелікан | Extended household member; cries at station on Apr 1 |
+| Trifon | Трифон | Servant; cries at station on Apr 1 |
+| Paris (le chien) | Парі (собака) | Family dog; also cries at departure Apr 1 |
+| Lucie Durand | Люсі Дюран | Nice society acquaintance; in Rome with Lewin (Mar 31) |
+| Jarochewsky | Ярочевський | Polish social climber; won 100,000 francs from Prince of Wales; accompanies him to London |
+| Elder (Miss) | місіс Елдер | English acquaintance who told Marie of Hamilton's engagement |
+| Sabatini | Сабатіні | Music acquaintance; Marie walks with her (Mar 5) |
+| Laussel | Лоссель | Marie's drawing/art teacher |
+| Hélène Howard | Гелена Говард | Nice society rival; snubs Marie (Mar 20) |
+
+#### Code Names & Ciphers (Carnet 030)
+| Code | Meaning | Notes |
+|------|---------|-------|
+| le diable | диявол | Code name for Hamilton throughout carnet 030 |
+| Terffidua | Терффідуа | Audiffret reversed (reconfirmed) |
+| Girofla / Giroflée | Джирофла | Second nickname for Audiffret; from Lecocq operetta |
+
+#### French Theatre & Opera (Carnet 030)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Madame l'Archiduc (Offenbach) | «Мадам Ерцгерцогиня» | Offenbach operetta 1874; Prince of Wales commands performance Mar 31 |
+| Il Barbiere di Siviglia | «Севільський цирульник» | Rossini opera; Marie attends Mar 22 and Mar 30 |
+| Il conte Ory (Rossini) | «Граф Орі» | Rossini opera; premiere Mar 7, also Mar 23 |
+| Stabat Mater (Rossini) | «Stabat Mater» | Rossini's religious oratorio; grand gala Mar 24; keep Latin title |
+| Kean (Dumas père) | «Кін» | Alexandre Dumas père drama (1836) about actor Edmund Kean; Marie watches Mar 28 |
+| Giroflé-Girofla (Lecocq) | «Жирофле-Жирофла» | Lecocq operetta 1874; source of nickname "Girofla" for Audiffret |
+
+#### Idioms & Expressions (Carnet 030)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| fi ! | Фе! | Exclamation of distaste; mild French interjection |
+| Ah ! par exemple ! | Ну й ну! | Idiomatic: "Well, I never!" — exasperation exclamation |
+| me tenir à quatre | насилу стримуватись | Hold oneself back with great effort (idiom) |
+| on se donne | жінки віддаються | Women give themselves (frank sexual reference) |
+| faquins indignes | нікчемні мерзотники | Unworthy nobodies/scoundrels |
+| s'en va comme il était venu | йде, як прийшов | Left having achieved nothing; kept his silence |
+| déferrée (comme une jument) | підкований кінь | "Thrown shoe" = defeated/deflated; Ukrainian rendering inverted for sense |
+| Flûte ! | Дудки! | Disappointment (reconfirmed from 029) |
+| Chiens de chiens ! / Psi z psami | Пси з псами! | Marie's oath (reconfirmed from 029) |
+| Que c'est que la vie ! | Що таке life! | "Ce que c'est que la vie!" — Marie code-switches English "life"; footnote + ==highlight== not used; exclamation retained in spirit |
+| comme Epicure | як Епікур | Later annotation (Aug 1875) on communal living dream |
+
+#### Latin Passages (Carnet 030)
+| Latin | Convention | Notes |
+|-------|-----------|-------|
+| amo hunc puerum | ==amo hunc puerum== + footnote | "I love this boy" — Marie's Latin for her feeling about Audiffret |
+| Deo juvante | ==Deo juvante== + footnote | "God willing" (reconfirmed from 029) |
+
+#### Italian Passages (Carnet 030)
+| Italian | Convention | Notes |
+|---------|-----------|-------|
+| fra quattro mura | ==fra quattro mura== + footnote | "Within four walls" — Rossini aria from Il Barbiere |
+| buia compagnia | ==buia compagnia== + footnote | "Gloomy company" — Marie's ironic Italian for group of young men (Mar 28) |
+| italiano | *italiano* in italics | Nationaity word kept in Italian when used as noun |
+
+#### English Passages (Carnet 030)
+| English | Convention | Notes |
+|---------|-----------|-------|
+| keen eyes | ==keen eyes== + footnote | Sharp/penetrating eyes; Marie describes Prince of Wales (Mar 31) |
+| in every divorce court | ==in every divorce court== + footnote | Quote from Rickard about Prince Tchelesky (Apr 1) |
+| The duke of Hamilton is going to marry the daughter of the Duke of Manchester. | ==full sentence== + footnote | Elder's news of Hamilton's engagement; landmark moment; full English preserved |
+| Ce que c'est que la vie! / life | life preserved in Ukrainian text | Marie code-switches to English for "life"; keep English word, footnote |
+| plobster | ==plobster== + footnote | Marie's unidentified word (Mar 30); may be garbled "proletarian"; preserve original spelling |
+| is very wild | ==is very wild== + footnote | English gossip about Hamilton "not getting on with wife" (Mar 21) |
+
+#### Multilingual Conventions (Carnet 030)
+- "le diable" = Hamilton cipher: translate as "диявол" but TR-note in first entry explaining code; do NOT add footnote in text (readers of carnet know)
+- Italian nationalities/words (italiano, buia compagnia): ==highlight== + footnote on first use
+- English gossip quotes: ==highlight== + footnote with Ukrainian paraphrase
+- "[Cinq lignes cancellées:]" → [П'ять закреслених рядків:] — cancelled lines notation
+- "[Annotation; Août 1875.]" → [Приписка; Серпень 1875.] — marginal annotations
+- "[Navskosi:]" → [Навскоси:] — diagonal/marginal note in Ukrainian files (already in TM but reconfirmed 030)
+- "(Tome IV, suite de la p. 360)" → (**Том IV**, продовження зі с. 360) — cross-tome reference; preserve pagination
+
+#### Cultural References (Carnet 030)
+| Reference | Notes |
+|-----------|-------|
+| Phryne (Phryné) | Famous hetaira of antiquity used by Praxiteles as model for Aphrodite; Marie's self-comparison in body-description entry |
+| Alcibiades / Alexander / Caesar | Three great men Marie lists as models for her ambition (Mar 22) |
+| Alcibiade en jupes | "Alcibiades in skirts" — Marie's ultimate self-definition; footnote on Plutarch |
+| Richardson's Clarissa / Lovelace | "Lovelace" = archetypal seducer from novel; became common noun |
+| trente-et-quarante | Card game at Monte Carlo casino; literally "thirty-and-forty" |
+| Epicurus / Garden school | Epicurus taught philosophy in his garden communally; Marie's Aug 1875 annotation |
+| Job (biblical) | Marie compares herself to Job in existential crisis (Mar 22) |
+| Dante, Limbo (sospesi) | Marie uses Dante's suspended souls in Limbo as metaphor for her own suspended state (Mar 26) |
+
+### Updated
+- 2026-05-24: Added carnet 030 terms (Nice spring 1875, Hamilton cipher, Audiffret/Girofla, Prince of Wales, suicide entry, Apr 1 departure scene, multilingual conventions)
