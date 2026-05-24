@@ -84,6 +84,14 @@ These French constructions are frequently mistranslated to mean the **opposite**
 
 **Verify polarity**: After translating any sentence with "avant/après", "assez", emotional states, or negation, re-read the French and confirm your translation preserves the **direction** (before vs after, enough vs insufficient, positive vs negative).
 
+<!-- Teamcouch update 2026-05-24: Added fabricated word warning.
+     Evidence: 3 reports (uk-018-022: "збільшувально"/"боянним"/"спіла",
+     uk-023-025: Cyrillic contamination "Тумanchoфи",
+     cz-016-021: hallucinated "voitře"). Cross-language pattern. -->
+### Known Failure Mode: Fabricated Words
+
+Translators occasionally generate words that do not exist in the target language. These are grammatically plausible but nonexistent forms (e.g., Czech "voitře", Ukrainian "збільшувально"). If you are unsure whether a word exists, use a periphrastic construction or a known synonym instead. Never invent morphological forms — if a standard form doesn't come to mind, rephrase.
+
 ### Phase 2: Translate (First Draft)
 
 Write the translation following all the principles below. This is your first draft.

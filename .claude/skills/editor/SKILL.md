@@ -106,7 +106,18 @@ Is this still Marie speaking?
 - Class markers lost ("homme bien" losing social distinction)
 - Idioms translated literally instead of finding target language equivalent
 
-### Step 5: Terminology Consistency
+<!-- Teamcouch update 2026-05-24: Added polarity/reversal check.
+     Evidence: 6+ meaning reversals across 4 reports (uk-018-022, uk-023-025,
+     cz-016-021, cz-022-027). RED missed reversals that CON later caught.
+     Pattern: negations dropped, "avant"→opposite, emotional states inverted. -->
+### Step 5: Polarity and Meaning Reversal Check
+
+For every sentence containing negation, directional words (avant/après, before/after), or quantity words (assez/enough, trop/too much):
+- Re-read the French and verify the translation preserves the **same polarity** (positive/negative, before/after, enough/insufficient)
+- Watch for dropped "ne...pas", inverted "avant"→"after", and emotional state reversals (e.g., "exaspérée" losing its intensity)
+- This is the most common category of CRITICAL error that reaches conductor review
+
+### Step 6: Terminology Consistency
 
 - Check TranslationMemory for established terms
 - Compare with translations of adjacent entries

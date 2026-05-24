@@ -334,9 +334,13 @@ Standard team for translation pipeline — **5 agents**:
      en-006-014, en-015-018, en-036-041). Conductor subagent type lacks Edit
      access and may go idle immediately. general-purpose proven reliable since
      2026-02-27. -->
+<!-- Teamcouch update 2026-05-24: Default RED to general-purpose subagent type.
+     Evidence: 7+ reports where editor subagent lacked Edit access (all UK waves,
+     cz-016-021). CZ batch cz-022-027 confirmed general-purpose works for RED
+     with zero corruption and no fixer agents needed. -->
 **IMPORTANT — Subagent types for review agents:**
 - **CON**: Always spawn as `general-purpose` subagent type (NOT `conductor`). The conductor subagent type lacks Edit access and has initialization failures. Include conductor skill instructions in the prompt instead.
-- **RED**: Spawn as `editor` subagent type. If RED reports no Edit access, ED should batch-set `editor_approved` flags via sed after review. (Observed once: 2026-03-05.)
+- **RED**: Always spawn as `general-purpose` subagent type (NOT `editor`). The editor subagent type lacks Edit access, forcing ED to manually apply all fixes. general-purpose gives RED Edit access with no observed corruption risk (confirmed across 6 carnets, 150 entries in cz-022-027).
 
 **DO NOT spawn:**
 - RSR agent — carnets are already well-researched. No translator ever messaged RSR in previous runs.
