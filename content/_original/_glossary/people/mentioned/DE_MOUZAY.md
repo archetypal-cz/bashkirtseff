@@ -1,15 +1,14 @@
 ---
 id: DE_MOUZAY
 name: de Mouzay
-aliases:
-  - de Mouzay
-  - De Mouzay
-  - Mouzay
+aliases: []
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-25
+redirect_to: people/mentioned/MOUZAY
 ---
+
 # de Mouzay
 
-Stub entry — needs research.
+**Redirect**: See [MOUZAY](MOUZAY.md) for the consolidated entry.

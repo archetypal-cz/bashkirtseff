@@ -3,25 +3,19 @@ id: MADAME_GAVINI
 name: Madame Gavini
 aliases:
   - Madame Gavini
-  - Gavini
+  - Mme Gavini
+  - Adeline
 type: Person
 category: people/aristocracy
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-25
+redirect_to: GAVINI
 ---
+
 # Madame Gavini
 
-## Basic Information
-- Type: people - aristocracy
-- Status: Stub entry (automatically generated)
+**See [#Gavini](../mentioned/GAVINI.md) for the comprehensive family entry.**
 
-## Description
-[No description available - stub entry created from diary references]
+Adeline Gavini (nee d'Agen). This entry duplicates MME_GAVINI in people/mentioned/. See the main Gavini family entry for full biography.
 
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-05-25T10:00:00 RSR: Converted to redirect. All content consolidated into people/mentioned/GAVINI.md comprehensive family entry. %%

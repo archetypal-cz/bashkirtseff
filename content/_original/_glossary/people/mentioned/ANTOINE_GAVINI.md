@@ -3,25 +3,21 @@ id: ANTOINE_GAVINI
 name: Antoine Gavini
 aliases:
   - Antoine Gavini
-  - Gavini
+  - Antoine
+  - Gavini neveu
+  - Gavini (neveu)
+  - le neveu Gavini
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-25
+redirect_to: GAVINI
 ---
-# Antoine Gavini
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+# Antoine Gavini (the nephew)
 
-## Description
-[No description available - stub entry created from diary references]
+**See [#Gavini](./GAVINI.md) for the comprehensive family entry.**
 
-## References in Diary
-[Multiple references found - needs research]
+Antoine Gavini (1856--1926), nephew of Denis Gavini, son of Sampiero Gavini. Young Corsican lawyer who served as Marie's escort and appeared frequently in the Gavini social circle. Later became deputy and senator for Corsica. See the main Gavini family entry for full biography, diary coverage, and paragraph references.
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-05-25T10:00:00 RSR: Converted to redirect. All content consolidated into GAVINI.md comprehensive family entry. %%

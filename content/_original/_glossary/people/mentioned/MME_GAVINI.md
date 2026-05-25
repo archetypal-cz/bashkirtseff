@@ -3,32 +3,29 @@ id: MME_GAVINI
 name: Mme Gavini
 aliases:
   - Mme Gavini
-  - Gavini
+  - Madame Gavini
+  - Adeline Gavini
+  - Adeline
+  - la mère Gavini
+  - la mere Gavini
+  - mère Gavini
+  - mere Gavini
+  - la positive Adeline
+  - la charmante Adeline
+  - Mme Adeline
+  - la mere Adeline
+  - mère Adeline
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-25
+redirect_to: GAVINI
 ---
-# Mme Gavini
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 6 mentions
-**Type**: Person
+# Mme Gavini (Adeline)
 
-## Overview
+**See [#Gavini](./GAVINI.md) for the comprehensive family entry.**
 
-[Research needed]
+Adeline Gavini (nee d'Agen), wife of Denis Gavini de Campile, former prefect of the Alpes-Maritimes and Bonapartist deputy. One of Marie's most important social allies in Paris (1877--1884). See the main Gavini family entry for full biography, diary coverage, and paragraph references.
 
-This entry was mentioned 6 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% 2026-05-25T10:00:00 RSR: Converted to redirect. All content consolidated into GAVINI.md comprehensive family entry. %%

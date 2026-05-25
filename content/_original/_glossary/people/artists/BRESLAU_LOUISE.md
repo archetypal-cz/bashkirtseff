@@ -1,54 +1,20 @@
 ---
-id: BRESLAU
+id: BRESLAU_LOUISE
 name: Louise Breslau
 aliases:
   - Louise Breslau
   - Breslau Louise
   - Breslau
 type: Person
-category: people/recurring
-research_status: Moderate
-last_updated: 2026-02-09
-languages:
-  - de
-pronunciation: https://translate.google.com/?sl=de&tl=en&text=Breslau
+category: people/artists
+research_status: Redirect
+last_updated: 2026-05-25
+redirect_to: LOUISE_BRESLAU
 ---
 
-# Louise Breslau
+%% GLO_BRESLAU_LOUISE.0001 %%
+## Redirect
 
-## Overview
+This entry has been consolidated into [#Louise_Breslau](../mentioned/LOUISE_BRESLAU.md). See that entry for the full Comprehensive glossary entry on Louise Catherine Breslau (1856-1927), Marie's chief rival at the Academie Julian.
 
-Louise Catherine Breslau (1856-1927) was a Swiss-German painter who became one of the most accomplished female artists of her generation. Born in Munich to a German-Swiss family, she studied at the Academie Julian in Paris alongside Marie Bashkirtseff.
-
-## Historical Background
-
-### Career
-- Studied at Academie Julian from 1876
-- Won multiple atelier competitions, frequently besting Marie
-- Became a successful portrait painter
-- First woman elected to the Societe Nationale des Beaux-Arts (1901)
-- Known for intimate portraits and pastel work
-
-### Artistic Style
-- Excelled in portraiture and intimate domestic scenes
-- Strong draftsmanship praised by her teachers
-- Favored pastel medium alongside oil painting
-
-## Relationship with Marie
-
-Breslau was Marie's principal rival and sometimes friend at Academie Julian:
-- **Academic rival**: Consistently placed first in competitions where Marie placed second
-- **Mutual respect**: Marie acknowledged Breslau's talent while resenting her success
-- **Artistic peer**: One of the few women Marie considered a genuine artistic equal
-- **Personal tension**: Their relationship alternated between camaraderie and competitive friction
-- **Aesthetic observer**: Breslau noticed and commented on Marie's distinctive hand movements and artistic sensibility
-
-## Significance in Diary
-
-Breslau represents Marie's artistic ambition reflected back at her - a mirror of what she could achieve but also a constant reminder of where she fell short. Their rivalry drove both women to greater achievement.
-
-## References in Diary
-- First mentioned: carnet 082 period (1878)
-- Key entries: competition results, atelier politics, artistic observations
-
-%% 2026-02-11T14:30:00 RSR: Per Kernberger (2013), "Breslau, Louise: best painter at studio, Marie's rival (1856-1927), nicknamed Aramis" (one of Dumas' musketeers). Kernberger's glossary confirms the dates and the competitive relationship. Friend Feurgard and fellow student at Julian's. %%
+%% 2026-05-25T12:00:00 RSR: Consolidated duplicate. Full entry now at people/mentioned/LOUISE_BRESLAU.md. This entry (people/artists/BRESLAU_LOUISE.md) was Moderate-level and has been superseded. Diary tags pointing to this file should eventually be updated to point to ../mentioned/LOUISE_BRESLAU.md. %%

@@ -3,25 +3,19 @@ id: DENIS_GAVINI
 name: Denis Gavini
 aliases:
   - Denis Gavini
-  - Gavini
+  - Denis Gavini de Campile
+  - Denis
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-25
+redirect_to: GAVINI
 ---
+
 # Denis Gavini
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+**See [#Gavini](./GAVINI.md) for the comprehensive family entry.**
 
-## Description
-[No description available - stub entry created from diary references]
+Denis Gavini de Campile (1819--1916). See M_GAVINI redirect and the main Gavini family entry.
 
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-05-25T10:00:00 RSR: Converted to redirect. All content consolidated into GAVINI.md comprehensive family entry. %%

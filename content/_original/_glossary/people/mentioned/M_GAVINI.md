@@ -1,34 +1,27 @@
 ---
 id: M_GAVINI
-name: M Gavini
+name: M. Gavini
 aliases:
   - M Gavini
-  - Gavini
+  - M. Gavini
+  - Monsieur Gavini
+  - Denis Gavini
+  - Denis
+  - le père Gavini
+  - le pere Gavini
+  - père Gavini
+  - pere Gavini
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-25
+redirect_to: GAVINI
 ---
-# M Gavini
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 2 mentions
-**Type**: Person
+# M. Gavini (Denis)
 
-## Overview
+**See [#Gavini](./GAVINI.md) for the comprehensive family entry.**
 
-[Research needed]
+Denis Gavini de Campile (1819--1916), Corsican Bonapartist politician, prefect of the Alpes-Maritimes under the Second Empire, deputy for Corsica (1871--1885), Commander of the Legion of Honor. Marie's social adviser and political contact in Paris. See the main Gavini family entry for full biography, diary coverage, and paragraph references.
 
-This entry was mentioned 2 times in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% 2026-05-25T10:00:00 RSR: Converted to redirect. All content consolidated into GAVINI.md comprehensive family entry. %%

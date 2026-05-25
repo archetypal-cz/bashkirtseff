@@ -1,27 +1,20 @@
 ---
 id: M_GEORGES
-name: M Georges
+name: M. Georges
 aliases:
   - M Georges
-  - Georges
+  - M. Georges
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-25
+redirect_to: people/family/GEORGES
 ---
-# M Georges
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+# M. Georges
 
-## Description
-[No description available - stub entry created from diary references]
+**REDIRECT**: This entry refers to [Georges Stepanovitch Babanine](../family/GEORGES.md), Marie's maternal uncle. See the comprehensive entry at `people/family/GEORGES.md`.
 
-## References in Diary
-[Multiple references found - needs research]
+Marie uses "M. Georges" as a formal/contemptuous title for her uncle, especially in the Paris years (1877--1882) when she tries to distance herself from him.
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-05-25T10:30:00 RSR: Converted auto-generated stub to redirect. M_GEORGES = Georges Babanine, Marie's maternal uncle (confirmed across carnets 072, 073, 078, 080, 082, 092). %%
