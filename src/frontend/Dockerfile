@@ -1,5 +1,5 @@
 # Build stage
-FROM node:20-alpine AS builder
+FROM node:22-alpine AS builder
 
 # Install git for version extraction
 RUN apk add --no-cache git
@@ -16,7 +16,7 @@ COPY src/shared/ ./src/shared/
 COPY src/frontend/package.json src/frontend/package-lock.json ./src/frontend/
 
 # Install all workspace dependencies from root
-RUN npm ci --workspace=@bashkirtseff/shared --workspace=bashkirtseff-frontend
+RUN npm ci --workspace=@bashkirtseff/shared --workspace=bashkirtseff-frontend --legacy-peer-deps
 
 # Build shared package first
 RUN npm run build -w @bashkirtseff/shared
@@ -44,7 +44,7 @@ ENV PUBLIC_API_URL=$PUBLIC_API_URL
 
 # Build the frontend application
 WORKDIR /app/src/frontend
-RUN npm run build
+RUN NODE_OPTIONS="--max-old-space-size=4096" npm run build
 
 # Production stage
 FROM nginx:alpine
