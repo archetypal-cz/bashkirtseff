@@ -1,6 +1,6 @@
 ---
 id: MLLE_DE_LA_VALLIERE
-name: '"Mlle de La Vallière"'
+name: Mlle de La Vallière
 aliases:
   - '"Mlle de La Vallière"'
   - Mlle de la Valliere

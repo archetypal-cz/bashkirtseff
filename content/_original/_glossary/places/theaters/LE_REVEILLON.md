@@ -1,6 +1,6 @@
 ---
 id: LE_REVEILLON
-name: '"Le Réveillon"'
+name: Le Réveillon
 aliases:
   - '"Le Réveillon"'
   - Le Reveillon

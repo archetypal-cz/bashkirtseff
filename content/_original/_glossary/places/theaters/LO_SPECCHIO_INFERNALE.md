@@ -1,6 +1,6 @@
 ---
 id: LO_SPECCHIO_INFERNALE
-name: '"Lo Specchio Infernale"'
+name: Lo Specchio Infernale
 aliases:
   - '"Lo Specchio Infernale"'
   - Lo Specchio Infernale

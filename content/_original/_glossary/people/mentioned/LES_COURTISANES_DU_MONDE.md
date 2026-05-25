@@ -1,6 +1,6 @@
 ---
 id: LES_COURTISANES_DU_MONDE
-name: '"Les courtisanes du monde"'
+name: Les courtisanes du monde
 aliases:
   - '"Les courtisanes du monde"'
   - Les Courtisanes du Monde

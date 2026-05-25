@@ -1,6 +1,6 @@
 ---
 id: LOUIS_XIV_ET_SES_FEMMES
-name: '"Louis XIV et ses femmes"'
+name: Louis XIV et ses femmes
 aliases:
   - '"Louis XIV et ses femmes"'
   - Louis Xiv et Ses Femmes
