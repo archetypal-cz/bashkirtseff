@@ -1,10 +1,11 @@
 ---
-id: AUDIFFRET
+id: EMILE_D_AUDIFFRET
 name: Emile d'Audiffret
 aliases:
   - Emile d'Audiffret
   - d'Audiffret
   - Audiffret
+  - Emile dAudiffret
   - Girofla
   - le Niçois
   - Feu

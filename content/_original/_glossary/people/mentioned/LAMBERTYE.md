@@ -199,7 +199,7 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 
 %% GLO_LAMBERTYE.0037 %%
 ### People
-- [#Audiffret](../recurring/AUDIFFRET.md) -- Fellow Nice society figure, often seen with Lambertye
+- [#Audiffret](../recurring/EMILE_D_AUDIFFRET.md) -- Fellow Nice society figure, often seen with Lambertye
 - [#Bijou](BIJOU.md) -- Person with curly hair Lambertye is compared to
 - [#Chimay](CHIMAY.md) -- Drives with Lambertye
 - [#Clementine_Durand](CLEMENTINE_DURAND.md) -- Mother's way of looking at her compared to Lambertye's gaze

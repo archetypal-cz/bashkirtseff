@@ -158,7 +158,7 @@ Boreel appears across at least 28 carnets spanning 1873-1880:
 ## Cross-References
 
 - [Duke of Hamilton](../core/DUKE_OF_HAMILTON.md) -- the man who displaced Boreel in Marie's affections
-- [Audiffret](AUDIFFRET.md) -- Boreel's close friend and another of Marie's later romantic interests
+- [Emile d'Audiffret](EMILE_D_AUDIFFRET.md) -- Boreel's close friend and another of Marie's later romantic interests
 - [Baron Finot](../aristocracy/BARON_FINOT.md) -- the identity Marie initially attributed to Boreel
 - [Prater](../mentioned/PRATER.md) -- Marie's dog, whose resemblance to Boreel supposedly sparked the attraction
 

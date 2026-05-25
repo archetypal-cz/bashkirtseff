@@ -16,7 +16,7 @@ last_updated: 2026-05-24
 
 "Soroka" is Marie Bashkirtseff's Russian-language nickname for Emile d'Audiffret, a young Niçois nobleman. The full form is "britaya soroka" (Russian: shaved magpie / pie rasée), shortened to "soroka" in daily use. The name was adopted by Marie's entire household in Nice and abroad.
 
-See main entry: [AUDIFFRET](../recurring/AUDIFFRET.md)
+See main entry: [AUDIFFRET](../recurring/EMILE_D_AUDIFFRET.md)
 
 ## Origin
 

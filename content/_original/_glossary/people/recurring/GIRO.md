@@ -30,7 +30,7 @@ Olga, along with her sister Mary, was one of Marie's closest friends in Nice. To
 ## Related Entries
 
 - [#M_Sapogenikoff](M_SAPOGENIKOFF.md) - Her sister Mary
-- [#Audiffret](AUDIFFRET.md) - Romantic rivalry
+- [#Emile_d_Audiffret](EMILE_D_AUDIFFRET.md) - Romantic rivalry
 - [#Three_Graces](../../culture/art/THREE_GRACES.md) - Their secret society
 
 %% 2026-02-11T13:20:00 RSR: Per Kernberger (2013), Giro/Giroflé was Olga Sapogenikoff, daughter of Nina Sapogenikoff, who married one of the Meissner brothers. Enriched from stub. %%

@@ -24,7 +24,7 @@ In her Audiffret entries (carnet 047, October 1875), Marie mentions that "Bibi" 
 
 %% GLO_LORD_LOFTUS.0005 %%
 ## Related Entries
-- [#Audiffret](../recurring/AUDIFFRET.md) -- Inherited Lord Loftus's nickname "Bibi"
+- [#Audiffret](../recurring/EMILE_D_AUDIFFRET.md) -- Inherited Lord Loftus's nickname "Bibi"
 
 %% GLO_LORD_LOFTUS.0006 %%
 %% 2026-02-10T12:30:00 RSR: Enriched from stub. Lord Loftus was a British nobleman in Marie's Nice social circle whose nickname "Bibi" Marie later applied to Audiffret. %%

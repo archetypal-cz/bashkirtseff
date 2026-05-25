@@ -14,7 +14,7 @@ last_updated: 2026-05-24
 
 "Terffidua" is "Audiffret" spelled backwards -- one of Marie Bashkirtseff's many nicknames for Emile d'Audiffret, a young Niçois nobleman. It is NOT a separate person. The raw carnet index confirms: "Terffidua: nom renversé d'Audiffret (Emile)."
 
-See main entry: [AUDIFFRET](../../people/recurring/AUDIFFRET.md)
+See main entry: [AUDIFFRET](../../people/recurring/EMILE_D_AUDIFFRET.md)
 
 ## Usage in Diary
 
