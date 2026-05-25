@@ -140,9 +140,10 @@ export function getTranslationHref(locale: SupportedLocale, currentPath?: string
   const base = activeTranslations.has(contentPath) ? `/${contentPath}` : '/cz';
 
   // If we have a current path on a diary page, preserve the suffix
+  // but drop /glossary — the glossary is shared, nav should link to the diary
   if (currentPath) {
     const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
-    if (match && match[2]) {
+    if (match && match[2] && !match[2].startsWith('/glossary')) {
       return `${base}${match[2]}`;
     }
   }
@@ -154,11 +155,12 @@ export function getTranslationHref(locale: SupportedLocale, currentPath?: string
  * Get the original content path, preserving the current page suffix.
  * E.g. if on /cz/1877/, returns /original/1877/.
  * Without currentPath, returns /original.
+ * Glossary paths are dropped — nav should link to the diary, not glossary variants.
  */
 export function getOriginalHref(currentPath?: string): string {
   if (currentPath) {
     const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
-    if (match && match[2]) {
+    if (match && match[2] && !match[2].startsWith('/glossary')) {
       return `/original${match[2]}`;
     }
   }
