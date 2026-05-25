@@ -47,7 +47,7 @@ const basePath = `/${lang.urlPath}`;
 const summary = await getCarnetSummary(carnet!, '_original');
 
 // Build entry list based on language type
-let allEntries: Array<{ date: string; title: string; isTranslated?: boolean; preview?: string }>;
+let allEntries: Array<{ date: string; title: string; isTranslated?: boolean; preview?: string; wordCount?: number }>;
 
 if (lang.isTranslation) {
   // Translation view: show all original entries, mark which are translated
@@ -65,7 +65,7 @@ if (lang.isTranslation) {
     allEntries = langEntries.map(entryId => {
       const entry = getEntry(carnet!, entryId, lang.contentPath);
       const preview = getEntryPreview(carnet!, entryId, lang.contentPath);
-      return { date: entryId, title: entry?.title || entryId, isTranslated: true, preview };
+      return { date: entryId, title: entry?.title || entryId, isTranslated: true, preview, wordCount: entry?.wordCount };
     });
   } else {
     // Normal: show all original entries, mark translated ones
@@ -74,7 +74,7 @@ if (lang.isTranslation) {
       const contentLang = isTranslated ? lang.contentPath : '_original';
       const entry = getEntry(carnet!, entryDate, contentLang);
       const preview = getEntryPreview(carnet!, entryDate, contentLang);
-      return { date: entryDate, title: entry?.title || entryDate, isTranslated, preview };
+      return { date: entryDate, title: entry?.title || entryDate, isTranslated, preview, wordCount: entry?.wordCount };
     });
   }
 } else {
@@ -83,7 +83,7 @@ if (lang.isTranslation) {
   allEntries = entries.map(entryDate => {
     const entry = getEntry(carnet!, entryDate, lang.contentPath);
     const preview = getEntryPreview(carnet!, entryDate, lang.contentPath);
-    return { date: entryDate, title: entry?.title || entryDate, preview };
+    return { date: entryDate, title: entry?.title || entryDate, preview, wordCount: entry?.wordCount };
   });
 }
 
@@ -102,6 +102,9 @@ const isSectionCarnet = allEntries.length > 0 && /^\d{3}-\d{2}$/.test(allEntries
 
 // Translation stats (only for translation languages)
 const translatedCount = lang.isTranslation ? allEntries.filter(e => e.isTranslated).length : 0;
+
+// Total word count
+const totalWordCount = allEntries.reduce((sum, e) => sum + (e.wordCount || 0), 0);
 
 // Year info for breadcrumb
 const crossYear = isCarnetCrossYear(carnet!, '_original');
@@ -240,10 +243,18 @@ function entryHref(entry: typeof allEntries[0]): string {
               <p class="text-ink-light mb-3">{t('diary.preface')}</p>
             )}
 
-            <div class="flex items-center gap-3 text-sm mb-3">
+            <div class="flex items-center gap-3 text-sm mb-3 flex-wrap">
               <span class="text-muted">
                 {allEntries.length} {isSectionCarnet ? <span data-t="diary.sections">{t('diary.sections')}</span> : <span data-t="diary.entries">{t('diary.entries')}</span>}
               </span>
+              {totalWordCount > 0 && (
+                <>
+                  <span class="text-muted">&bull;</span>
+                  <span class="text-muted">
+                    {totalWordCount.toLocaleString(lang.dateLocale)} {t('diary.words')}
+                  </span>
+                </>
+              )}
               {lang.isTranslation && (
                 <>
                   <span class="text-muted">&bull;</span>
@@ -400,10 +411,15 @@ function entryHref(entry: typeof allEntries[0]): string {
         >
           <div class="flex items-start justify-between gap-4">
             <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2">
+              <div class="flex items-center gap-2 flex-wrap">
                 <time class="text-ink font-medium" datetime={entry.date}>
                   {formatEntryDate(entry.date)}
                 </time>
+                {entry.wordCount != null && entry.wordCount > 0 && (
+                  <span class="text-xs text-muted">
+                    ({entry.wordCount.toLocaleString(lang.dateLocale)} {t('diary.words')})
+                  </span>
+                )}
                 {lang.isTranslation && !entry.isTranslated && (
                   <span class="text-xs px-2 py-0.5 bg-muted/20 text-muted rounded flex-shrink-0">
                     FR

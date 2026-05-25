@@ -101,7 +101,8 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     <div class="mb-10">
       <GlossaryCategoryBrowser client:load
         categories={categoryData}
-        glossaryBasePath={basePath} />
+        glossaryBasePath={basePath}
+        locale={lang.uiLocale} />
     </div>
 
     <!-- Letter grid (compact secondary nav) -->

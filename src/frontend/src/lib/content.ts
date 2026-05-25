@@ -50,6 +50,7 @@ export interface DiaryEntry {
   paragraphs: Paragraph[];
   footnotes: Footnote[]; // All footnotes in the entry
   isSection?: boolean; // true for non-date-based entries (Carnet 000 preface sections)
+  wordCount: number;   // Total words in the entry (from paragraph text)
   // Frontmatter metadata for aggregation
   people?: string[];   // Person IDs from frontmatter
   places?: string[];   // Place IDs from frontmatter
@@ -310,6 +311,14 @@ export function getEntry(carnetId: string, entryId: string, language: string = '
   const themes = Array.isArray(frontmatter.themes) ? frontmatter.themes as string[] : undefined;
   const location = typeof frontmatter.location === 'string' ? frontmatter.location : undefined;
 
+  const wordCount = paragraphs.reduce((total, p) => {
+    const trimmed = p.text.trim();
+    if (trimmed === TODO_PLACEHOLDER) return total;
+    if (trimmed.startsWith('# ')) return total;
+    const clean = trimmed.replace(/^#+\s*/, '');
+    return total + clean.split(/\s+/).filter(w => w.length > 0).length;
+  }, 0);
+
   return {
     id: entryId,
     carnet: carnetId,
@@ -320,6 +329,7 @@ export function getEntry(carnetId: string, entryId: string, language: string = '
     paragraphs,
     footnotes,
     isSection,
+    wordCount,
     people,
     places,
     themes,

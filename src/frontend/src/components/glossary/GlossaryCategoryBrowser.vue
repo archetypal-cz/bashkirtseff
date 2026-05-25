@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import { CATEGORY_ICONS, getCategoryColor } from '../../lib/glossary-categories';
+import cs from '../../i18n/locales/cs.json';
+import en from '../../i18n/locales/en.json';
+import fr from '../../i18n/locales/fr.json';
+import uk from '../../i18n/locales/uk.json';
 
 interface EntryBrief {
   id: string;
@@ -25,7 +29,19 @@ interface CategoryData {
 const props = defineProps<{
   categories: CategoryData[];
   glossaryBasePath: string;
+  locale?: string;
 }>();
+
+const messages: Record<string, any> = { cs, en, fr, uk };
+
+function t(key: string, params?: Record<string, string | number>): string {
+  const locale = props.locale || 'cs';
+  const msg = messages[locale] || messages.cs;
+  const value = key.split('.').reduce((obj: any, k: string) => obj?.[k], msg);
+  if (typeof value !== 'string') return key;
+  if (!params) return value;
+  return value.replace(/\{(\w+)\}/g, (_: string, k: string) => String(params[k] ?? `{${k}}`));
+}
 
 const expandedCategories = ref<Record<string, boolean>>({});
 const expandedSubs = ref<Record<string, boolean>>({});
@@ -50,66 +66,23 @@ const anyExpanded = computed(() => {
   return Object.values(expandedCategories.value).some(Boolean);
 });
 
-const subcategoryLabels: Record<string, Record<string, string>> = {
-  cs: {
-    core: 'Hlavní postavy', recurring: 'Opakující se', mentioned: 'Zmíněné',
-    aristocracy: 'Aristokracie', artists: 'Umělci', family: 'Rodina',
-    historical: 'Historické', politicians: 'Politici', writers: 'Spisovatelé',
-    religious: 'Duchovní', doctors: 'Lékaři', service: 'Služebnictvo',
-    society: 'Společnost',
-    cities: 'Města', countries: 'Země', hotels: 'Hotely',
-    residences: 'Rezidence', theaters: 'Divadla', churches: 'Kostely',
-    social: 'Společenská místa', streets: 'Ulice', travel: 'Cestování',
-    parks: 'Parky', schools: 'Školy', shops: 'Obchody',
-    neighborhoods: 'Čtvrtě', buildings: 'Budovy', landmarks: 'Památky',
-    regions: 'Regiony', geography: 'Zeměpis',
-    literature: 'Literatura', history: 'Historie', theater: 'Divadlo',
-    music: 'Hudba', art: 'Umění', themes: 'Témata', newspapers: 'Noviny',
-    transport: 'Doprava', daily_life: 'Každodenní život', fashion: 'Móda',
-    health: 'Zdraví', institutions: 'Instituce', languages: 'Jazyky',
-    social_customs: 'Společenské zvyky', _root: 'Obecné',
-  },
-  fr: {
-    core: 'Personnages principaux', recurring: 'Récurrents', mentioned: 'Mentionnés',
-    aristocracy: 'Aristocratie', artists: 'Artistes', family: 'Famille',
-    historical: 'Historiques', politicians: 'Politiciens', writers: 'Écrivains',
-    religious: 'Religieux', doctors: 'Médecins', service: 'Domestiques',
-    society: 'Société',
-    cities: 'Villes', countries: 'Pays', hotels: 'Hôtels',
-    residences: 'Résidences', theaters: 'Théâtres', churches: 'Églises',
-    social: 'Lieux mondains', streets: 'Rues', travel: 'Voyages',
-    parks: 'Parcs', schools: 'Écoles', shops: 'Boutiques',
-    neighborhoods: 'Quartiers', buildings: 'Bâtiments', landmarks: 'Monuments',
-    regions: 'Régions', geography: 'Géographie',
-    literature: 'Littérature', history: 'Histoire', theater: 'Théâtre',
-    music: 'Musique', art: 'Art', themes: 'Thèmes', newspapers: 'Journaux',
-    transport: 'Transport', daily_life: 'Vie quotidienne', fashion: 'Mode',
-    health: 'Santé', institutions: 'Institutions', languages: 'Langues',
-    social_customs: 'Coutumes', _root: 'Général',
-  },
-};
-
-const categoryNames: Record<string, Record<string, string>> = {
-  cs: { people: 'Osoby', places: 'Místa', culture: 'Kultura', themes: 'Témata' },
-  fr: { people: 'Personnes', places: 'Lieux', culture: 'Culture', themes: 'Thèmes' },
-  en: { people: 'People', places: 'Places', culture: 'Culture', themes: 'Themes' },
-  uk: { people: 'Особи', places: 'Місця', culture: 'Культура', themes: 'Теми' },
-};
-
-function getLocale(): string {
-  if (props.glossaryBasePath.startsWith('/cz')) return 'cs';
-  return 'fr';
-}
-
 function getCategoryName(name: string): string {
-  return categoryNames[getLocale()]?.[name] || name;
+  const label = t(`glossary.categories.${name}`);
+  if (label.startsWith('glossary.categories.')) return name.charAt(0).toUpperCase() + name.slice(1);
+  return label;
 }
 
 function getSubcategoryLabel(sub: string): string {
-  return subcategoryLabels[getLocale()]?.[sub] || sub.replace(/_/g, ' ');
+  const key = sub === 'themes' ? 'themes_sub' : sub;
+  const label = t(`glossary.subcategories.${key}`);
+  if (label.startsWith('glossary.subcategories.')) return sub.replace(/_/g, ' ');
+  return label;
 }
 
-// Map display category → filter category (themes is virtual, maps back to culture)
+function filterTitle(count: number): string {
+  return t('glossary.filterMentions', { count });
+}
+
 const FILTER_CATEGORY_MAP: Record<string, string> = {
   people: 'people',
   places: 'places',
@@ -123,7 +96,8 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
   const filterCategory = FILTER_CATEGORY_MAP[categoryName] || 'people';
   localStorage.setItem('filter-tags', JSON.stringify({ [filterCategory]: [entryId] }));
   window.dispatchEvent(new CustomEvent('filter-sync'));
-  window.location.href = '/cz';
+  const langPath = props.glossaryBasePath.split('/glossary')[0] || '/cz';
+  window.location.href = langPath;
 }
 </script>
 
@@ -201,7 +175,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
                       <button
                         v-if="entry.usageCount"
                         class="entry-filter-btn"
-                        :title="getLocale() === 'cs' ? `Filtrovat ${entry.usageCount} zmínek v deníku` : `Filtrer ${entry.usageCount} mentions dans le journal`"
+                        :title="filterTitle(entry.usageCount)"
                         @click="activateFilter($event, cat.name, entry.id)"
                       >
                         <svg class="filter-icon-sm" fill="none" stroke="currentColor" viewBox="0 0 24 24">
