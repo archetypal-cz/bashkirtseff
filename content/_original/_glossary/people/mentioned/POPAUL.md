@@ -5,29 +5,15 @@ aliases:
   - Popaul
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-24
 ---
-# Popaul
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+%% GLO_POPAUL.0001 %%
+## Redirect
 
-## Overview
+%% GLO_POPAUL.0002 %%
+This entry is a redirect. "Popaul" is Marie's affectionate/mocking diminutive nickname for [Paul de Cassagnac](../recurring/CASSAGNAC.md) (1842--1904), the Bonapartist journalist, politician, and duelist. See the main entry at [#Cassagnac](../recurring/CASSAGNAC.md) for comprehensive information.
 
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_POPAUL.0003 %%
+%% 2026-05-24T15:00:00 RSR: Converted from stub to redirect. Popaul is Marie's most frequent nickname for Paul de Cassagnac, used throughout carnets 077-091. The diminutive carries varying emotional registers: tender during the 1878 flirtation, mocking after his marriage. %%

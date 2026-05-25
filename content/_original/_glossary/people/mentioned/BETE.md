@@ -59,7 +59,7 @@ Bete appears most frequently in carnets 010-020 (Nice, 1873-1874), with 123 tota
 ## Research Questions
 
 %% GLO_BETE.0012 %%
-- What is Bete's real name? The shared name day with Ma tante (Sophie) and their close household connection may provide clues.
+- What is Bete's real name? The shared name day with Ma tante (Nadine Romanoff, nee Babanine) and their close household connection may provide clues.
 - Is she a relative (another aunt, cousin) or a family friend?
 - Who is "sa fille" (her daughter)?
 - Does she appear under her real name elsewhere in the diary?

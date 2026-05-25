@@ -3,25 +3,18 @@ id: MME_ROMANOFF
 name: Mme Romanoff
 aliases:
   - Mme Romanoff
-  - Romanoff
+  - Madame Romanoff
 type: Person
 category: people/aristocracy
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-24
 ---
 # Mme Romanoff
 
-## Basic Information
-- Type: people - aristocracy
-- Status: Stub entry (automatically generated)
+**This is the same person as [#Ma_tante](../family/MA_TANTE.md).**
 
-## Description
-[No description available - stub entry created from diary references]
+Mme Romanoff = Nadine (Nadejda) Romanoff, nee Babanine. Marie's maternal aunt, widow of M. Thadee Romanoff. She is consistently called "ma tante" throughout the diary but identified as "Mme Romanoff" in formal contexts (death notices, letters, public references).
 
-## References in Diary
-[Multiple references found - needs research]
+See the full entry at [MA_TANTE](../family/MA_TANTE.md) for comprehensive details.
 
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-05-24T12:00:00 RSR: Redirected to MA_TANTE. The Apostolescu indexes in all carnets confirm "Romanoff (Mme Nadine), nee Babanine, tante de Marie Bashkirtseff" = "ma tante" throughout the diary. %%

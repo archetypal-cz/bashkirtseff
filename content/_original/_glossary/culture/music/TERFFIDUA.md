@@ -1,30 +1,31 @@
 ---
 id: TERFFIDUA
-name: Terffidua
+name: Terffidua (Emile d'Audiffret)
 aliases:
   - Terffidua
-type: Culture
+type: Person
 category: culture/music
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Moderate
+last_updated: 2026-05-24
 ---
 # Terffidua
 
-**Research Status**: Basic  
-**Last Updated**: 2025-07-09  
-**Diary Coverage**: Up to April 14, 1875  
+## Overview
 
-## Identity
-A young man who appears to be pursuing Marie and her companions in Nice. The name may be a pseudonym or nickname that Marie uses to refer to him.
+"Terffidua" is "Audiffret" spelled backwards -- one of Marie Bashkirtseff's many nicknames for Emile d'Audiffret, a young Niçois nobleman. It is NOT a separate person. The raw carnet index confirms: "Terffidua: nom renversé d'Audiffret (Emile)."
 
-## Marie's Observations
-On April 14, 1875, Marie and her companions (Dina, Marie, and Olga) agree not to look at Terffidua during a musical performance. He appears to be pursuing them, which delights her three companions and amuses Marie herself.
+See main entry: [AUDIFFRET](../../people/recurring/AUDIFFRET.md)
 
-## Social Context
-Terffidua seems to be part of the social circle around the musical performances and gatherings in Nice. His pursuit of the young women follows the social customs of the time.
+## Usage in Diary
 
-## Marie's Attitude
-Marie is less impressed by Terffidua's attention than her companions, showing her more discerning (or perhaps more ambitious) romantic standards.
+Marie uses "Terffidua" from approximately spring 1875 onward. She also creates the derived verb "terffiduer" as a euphemism for "aimer" (to love): "Bibi terffiduait Girofla" = "Bibi loved Girofla" (i.e., Marie loved Audiffret), using both her own and his coded names to create maximum distance from the admission.
 
-## Connection to Marie's World
-Terffidua represents the type of ordinary romantic attention that Marie receives but doesn't particularly value, contrasting with her obsessions with aristocratic figures like Johnstone and the Prince of Wales.
+Other invented verbs in the same series: "hamiltonner" (from Hamilton), "pépiner," "enoteasser" (from Enoteas = Saëtone reversed).
+
+## References in Diary
+
+- First used in raw carnet 04 (spring 1875 period)
+- Key passages in raw carnets 05--06 (summer--autumn 1875)
+- See AUDIFFRET glossary entry for full context
+
+%% 2026-05-24T14:20:00 RSR: Corrected from stub that incorrectly treated Terffidua as a separate person. Terffidua = Audiffret reversed, confirmed by raw carnet index. Added origin, derived verb "terffiduer," diary references. %%

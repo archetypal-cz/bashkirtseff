@@ -33,7 +33,7 @@ The chronology was:
 1. Emperor Alexander II met Marie's mother and promised to see her in Yalta
 2. The family went to Yalta; Romanoff was also there
 3. After returning to Odessa, the family stayed at same hotel as Romanoff
-4. The family persuaded Romanoff to marry Ma tante (Sophie)
+4. The family persuaded Romanoff to marry Ma tante (Nadine/Nadejda Babanine)
 5. The couple returned to Tcherniakovka estate
 6. **Three days later**, Grand-maman died suddenly
 7. Romanoff immediately suffered a mental breakdown
@@ -46,7 +46,7 @@ After Grand-maman's death, the family became "libres avec cette grande fortune" 
 The traveling party included:
 - Grand-papa (her widower, finally experiencing the Europe he knew only from books)
 - Maman (her daughter Maria Stepanovna)
-- M. et Mme Romanoff (her daughter Sophie and new son-in-law, who needed medical care)
+- M. et Mme Romanoff (her daughter Nadine and new son-in-law, who needed medical care)
 - Marie and Paul (her grandchildren)
 - Dina (her granddaughter)
 - Dr. Lucien Walitsky (family physician, needed for Romanoff's mental condition)

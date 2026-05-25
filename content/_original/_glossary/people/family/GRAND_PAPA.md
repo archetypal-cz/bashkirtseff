@@ -129,7 +129,7 @@ This poignant detail reveals:
 The traveling party that arrived in Baden-Baden consisted of:
 - Grand-papa
 - Maman (his daughter Maria Stepanovna)
-- M. et Mme Romanoff (his daughter Sophie and her new husband)
+- M. et Mme Romanoff (his daughter Nadine and her new husband)
 - Dina (granddaughter)
 - Paul (grandson)
 - Marie (granddaughter)

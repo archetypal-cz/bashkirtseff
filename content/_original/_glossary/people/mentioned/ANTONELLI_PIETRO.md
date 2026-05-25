@@ -6,22 +6,13 @@ aliases:
   - Pietro
 type: Person
 category: people/mentioned
-research_status: Basic
-last_updated: 2026-03-06
+research_status: Redirect
+last_updated: 2026-05-24
 ---
 # Antonelli Pietro
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+**Redirect**: See [#Antonelli](ANTONELLI.md) for the comprehensive entry on Count Pietro Antonelli (1853-1901).
 
-## Description
-[No description available - stub entry created from diary references]
+This stub exists because some diary entries (carnets 054-057) use the tag `[#Antonelli_Pietro]` while later entries use `[#Antonelli]`. Both refer to the same person.
 
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% 2026-05-24T14:00:00 RSR: Converted to redirect. Primary entry is ANTONELLI.md. %%
