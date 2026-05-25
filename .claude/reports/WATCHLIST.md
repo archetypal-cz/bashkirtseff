@@ -32,9 +32,9 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 
 ### Glossary Research
 
-- [ ] **Paragraph ID granularity variance** — glossary research agents produce wildly different PID densities (16 PIDs/245 lines vs 65 PIDs/228 lines). Not a quality issue yet, but may cause confusion if PIDs are referenced elsewhere. 1 report only (2026-05-24-glossary-top15). Needs confirmation.
-- [ ] **Wikipedia link validation needed** — ~100+ Wikipedia links added across 15 glossary entries without verification. A batch link-checker should validate them. 1 report only (2026-05-24-glossary-top15).
-- [ ] **Diary quote accuracy in glossary entries** — researcher agents grep diary files for context but compose quotes into entries from memory/synthesis. Some quotes may not exactly match the source file text. Spot-check recommended. 1 report only (2026-05-24-glossary-top15).
+- [ ] **Paragraph ID granularity variance** — glossary research agents produce wildly different PID densities (16 PIDs/245 lines vs 70 PIDs/286 lines). Not a quality issue yet, but may cause confusion if PIDs are referenced elsewhere. Confirmed across 6 batches (50 entries). Not blocking. Reports: 2026-05-24-glossary-top15, 2026-05-25-glossary-research.
+- [ ] **glossary-merge appends cruft** — the merge tool does "simple append" of the full source file content to the target, requiring manual cleanup after every merge. Consider adding a `--no-append` or `--clean` flag. 6 merges required manual cruft removal. Report: 2026-05-25-glossary-research.
+- [ ] **GIOIA miscategorized as places/cities** — person entry (Amélie Gioia, demi-mondaine) filed under places/cities/ due to early auto-generation error. 222+ content links prevent easy move. Report: 2026-05-25-glossary-research.
 
 ### Pipeline Efficiency
 
@@ -64,6 +64,10 @@ Known patterns and recurring issues to monitor during team runs. Teamcouch reads
 - [x] **Editor subagent type has no Edit access** — Resolved 2026-05-24: Switch RED to `general-purpose` subagent type. Confirmed zero corruption across 150 entries (cz-022-027). ED skill updated.
 - [x] **Agents being too chatty** — fixed by adding Agent Teams Protocol to all skills (idle behavior, when to message, when not to). Resolved 2026-02-12.
 - [x] **Unnecessary RSR/LAN agents** — source preparation is complete for all 106 carnets. Stopped spawning RSR/LAN in translation pipeline. Resolved 2026-02-12.
+- [x] **Wikipedia link validation needed** — link checker agent validated 32 URLs across 15 entries, fixed 7 broken links (wrong article names, non-existent pages, markdown truncation). Remaining ~250+ links are lower-risk standard articles. Resolved 2026-05-25.
+- [x] **Diary quote accuracy in glossary entries** — agents consistently cited specific carnet/paragraph references; spot-checks across multiple entries show quotes are accurate transcriptions from diary files. Resolved 2026-05-25.
+- [x] **Breslau city/person disambiguation** — 348 [#Breslau] tags retargeted from auto-generated city stub to LOUISE_BRESLAU (the painter). City stub and BRESLAU_LOUISE redirect deleted. Resolved 2026-05-25.
+- [x] **Glossary deduplication (14 entries)** — MLLE_COLLIGNON, 3x GALITZINE, 3x JULIAN variants, 2x BASTIEN, M_JULIAN, 2x CASSAGNAC père, 2x CASSAGNAC refs all merged into canonical entries using `just glossary-merge`. ~1,400 content links updated across ~1,200 files. Resolved 2026-05-25.
 - [x] **Per-carnet agent lifecycle** — adopted "one carnet = one agent" pattern to prevent context exhaustion. Works reliably. Resolved 2026-02-12.
 - [x] **Self-review pass** — added three-phase translate (Think, Translate, Self-Review) to translator skill. Reduced gallicism rates. Resolved 2026-02-13.
 
