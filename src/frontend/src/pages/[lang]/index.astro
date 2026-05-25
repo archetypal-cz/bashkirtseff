@@ -90,7 +90,7 @@ const isCurrentComplete = currentStats?.isComplete ?? false;
   <div class="max-w-4xl mx-auto">
     {lang.isTranslation ? (
       <!-- Translation page: intro + language tabs + year grid -->
-      <header class="mb-10">
+      <header class="mb-10 summary-card p-6 rounded-lg">
         <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);" data-t="translation.heading">
           {t('translation.heading')}
         </h1>
@@ -190,7 +190,7 @@ const isCurrentComplete = currentStats?.isComplete ?? false;
       </header>
     ) : (
       <!-- Original page: classic header -->
-      <header class="mb-12 text-center">
+      <header class="mb-12 text-center summary-card p-6 rounded-lg">
         <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);" data-t="diary.heading">
           {t('diary.heading')}
         </h1>

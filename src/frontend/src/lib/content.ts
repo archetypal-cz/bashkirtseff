@@ -399,6 +399,26 @@ function processTextToHtml(text: string): { html: string; footnoteRefs: string[]
       const displayId = id.includes('.') ? id.split('.').pop() : id;
       return `<sup><a href="#fn-${id}" id="fnref-${id}" class="footnote-ref">${displayId}</a></sup>`;
     })
+    // Convert markdown links [text](url) to HTML anchors.
+    // The URL pattern supports one level of nested parentheses (common in
+    // Wikipedia URLs like https://en.wikipedia.org/wiki/Mignon_(opera)).
+    .replace(/\[([^\]]+)\]\(((?:[^()]*|\([^()]*\))*)\)/g, (_, linkText, url) => {
+      if (url.endsWith('.md')) {
+        // Internal glossary link — extract the glossary ID from the path
+        const glossaryId = url.match(/([^/]+)\.md$/)?.[1];
+        if (glossaryId) {
+          // Use a relative glossary path; the actual lang prefix is not
+          // available here, so we use a root-relative pattern that the
+          // template's basePath context should resolve.  Since this util
+          // is shared, we just use the ID and let the caller decide.
+          return `<a href="../glossary/${glossaryId}" class="text-accent hover:text-accent-light underline">${linkText}</a>`;
+        }
+        return linkText;
+      }
+      return `<a href="${url}" target="_blank" rel="noopener" class="text-accent hover:text-accent-light underline">${linkText}</a>`;
+    })
+    // Convert **bold** to strong (must come before single * italic)
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     // Convert *italic* and _italic_ to em
     .replace(/\*([^*]+)\*/g, '<em>$1</em>')
     .replace(/(?<!\w)_([^_]+)_(?!\w)/g, '<em>$1</em>');
@@ -1649,7 +1669,12 @@ function getGlossaryEntryFromPath(filePath: string, category: string): GlossaryE
 }
 
 /**
- * Parse paragraph clusters from glossary entry content
+ * Parse paragraph clusters from glossary entry content.
+ *
+ * Headings (## / ###) that appear between paragraph clusters are extracted
+ * as separate header paragraphs so they render as proper block-level
+ * elements instead of being concatenated with the preceding paragraph's
+ * body text.
  */
 function parseGlossaryParagraphs(content: string): GlossaryParagraph[] {
   const paragraphs: GlossaryParagraph[] = [];
@@ -1662,13 +1687,84 @@ function parseGlossaryParagraphs(content: string): GlossaryParagraph[] {
     matches.push({ id: match[1], index: match.index });
   }
 
-  // Extract content for each paragraph
-  for (let i = 0; i < matches.length; i++) {
-    const start = matches[i].index;
-    const end = i < matches.length - 1 ? matches[i + 1].index : content.length;
-    const paragraphContent = content.substring(start, end);
+  // Locate markdown headings (## through ######) in the content.
+  // In glossary files, these sit between paragraph clusters as section
+  // dividers (e.g. "## Overview", "### Historical Background") and need
+  // to become their own GlossaryParagraph entries so the template renders
+  // them as proper <h2>/<h3>/etc. elements.
+  // Skip H1 headings — the entry title is rendered separately.
+  const headingPattern = /^(#{2,6})\s+(.+)$/gm;
+  const headings: { level: number; text: string; fullMatch: string; index: number }[] = [];
+  let hMatch;
+  while ((hMatch = headingPattern.exec(content)) !== null) {
+    headings.push({
+      level: hMatch[1].length,
+      text: hMatch[2],
+      fullMatch: hMatch[0],
+      index: hMatch.index,
+    });
+  }
 
-    const para = parseGlossaryParagraph(matches[i].id, paragraphContent);
+  // Build an ordered list of "segments": either a GLO_ID paragraph or a
+  // standalone heading.
+  type Segment =
+    | { kind: 'para'; id: string; index: number }
+    | { kind: 'heading'; level: number; text: string; fullMatch: string; index: number };
+
+  const segments: Segment[] = [
+    ...matches.map(m => ({ kind: 'para' as const, ...m })),
+    ...headings.map(h => ({ kind: 'heading' as const, ...h })),
+  ];
+
+  // Sort all segments by their position in the source
+  segments.sort((a, b) => a.index - b.index);
+
+  // Derive a base ID prefix for synthetic heading IDs
+  const baseId = matches.length > 0 ? matches[0].id.split('.')[0] : 'GLO_UNKNOWN';
+  let syntheticCounter = 9000;
+
+  // Walk segments and produce GlossaryParagraph objects.
+  for (let i = 0; i < segments.length; i++) {
+    const seg = segments[i];
+
+    if (seg.kind === 'heading') {
+      const syntheticId = `${baseId}.H${syntheticCounter++}`;
+      const headerHtml = processTextToHtml(seg.text).html;
+
+      paragraphs.push({
+        id: syntheticId,
+        text: seg.fullMatch,
+        html: headerHtml,
+        isHeader: true,
+        headerLevel: seg.level,
+      });
+
+      // Capture any prose between this heading and the next segment
+      const headingEnd = seg.index + seg.fullMatch.length;
+      const nextSeg = segments[i + 1];
+      const trailingEnd = nextSeg ? nextSeg.index : content.length;
+      const trailingText = content.substring(headingEnd, trailingEnd).trim();
+      if (trailingText) {
+        const trailingId = `${baseId}.H${syntheticCounter++}`;
+        const { html } = processTextToHtml(trailingText);
+        paragraphs.push({
+          id: trailingId,
+          text: trailingText,
+          html,
+        });
+      }
+
+      continue;
+    }
+
+    // seg.kind === 'para'
+    // Content runs from this GLO_ID to the next segment (heading or para)
+    // or EOF.
+    const nextSeg = segments[i + 1];
+    const end = nextSeg ? nextSeg.index : content.length;
+    const paragraphContent = content.substring(seg.index, end);
+
+    const para = parseGlossaryParagraph(seg.id, paragraphContent);
     if (para) {
       paragraphs.push(para);
     }
