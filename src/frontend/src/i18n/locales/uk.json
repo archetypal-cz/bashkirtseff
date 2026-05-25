@@ -324,7 +324,7 @@
     "crossYearContinues": "Продовжується у {years}"
   },
   "history": {
-    "title": "Історія",
+    "title": "Історія читання",
     "empty": "Історії ще немає",
     "clear": "Очистити",
     "remove": "Видалити",

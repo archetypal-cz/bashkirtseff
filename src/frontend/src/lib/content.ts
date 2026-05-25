@@ -1557,13 +1557,17 @@ function getGlossaryEntryFromPath(filePath: string, category: string): GlossaryE
               currentKey = key;
               currentArray = [];
             } else if (value !== '') {
-              // Check for inline array syntax: [item1, item2]
-              const inlineArrayMatch = value.match(/^\[(.+)\]$/);
-              if (inlineArrayMatch) {
-                metadata[key] = inlineArrayMatch[1].split(',').map(s => s.trim().replace(/^["']|["']$/g, ''));
+              // Check for inline array syntax: [item1, item2] or []
+              if (value === '[]') {
+                metadata[key] = [];
               } else {
-                // Regular key: value - remove quotes if present
-                metadata[key] = value.replace(/^["']|["']$/g, '');
+                const inlineArrayMatch = value.match(/^\[(.+)\]$/);
+                if (inlineArrayMatch) {
+                  metadata[key] = inlineArrayMatch[1].split(',').map(s => s.trim().replace(/^["']|["']$/g, ''));
+                } else {
+                  // Regular key: value - remove quotes if present
+                  metadata[key] = value.replace(/^["']|["']$/g, '');
+                }
               }
             }
             // If value is empty and not an array start, skip (no value to store)

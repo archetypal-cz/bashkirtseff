@@ -324,7 +324,7 @@
     "crossYearContinues": "Pokračuje do roku {years}"
   },
   "history": {
-    "title": "Historie",
+    "title": "Historie čtení",
     "empty": "Zatím žádná historie",
     "clear": "Vymazat",
     "remove": "Odebrat",

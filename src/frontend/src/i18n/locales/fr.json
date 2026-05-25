@@ -324,7 +324,7 @@
     "crossYearContinues": "Continue en {years}"
   },
   "history": {
-    "title": "Historique",
+    "title": "Historique de lecture",
     "empty": "Aucun historique",
     "clear": "Effacer",
     "remove": "Supprimer",
