@@ -379,8 +379,185 @@ When translating, refer to this document for established translations of recurri
 - Context: Jet bead cape/collar, fashionable mourning jewelry accessory
 - First appearance: 025 (1874-11-06)
 
+## Carnet 031 Terms
+
+### fichu
+- Translation (Czech): fichu
+- Context: Triangular scarf/shawl worn over shoulders; kept as fashion term
+- First appearance: 031 (1875-04-03)
+
+### Clef des songes
+- Translation (Czech): snář
+- Context: Dream dictionary/interpretation book, popular 19th century genre
+- First appearance: 031 (1875-04-13)
+
+### matinée (musical)
+- Translation (Czech): matiné
+- Context: Afternoon musical/theatrical performance (typically 2-5pm), not morning
+- First appearance: 031 (1875-04-17)
+
+### à la vapeur
+- Translation (Czech): jako parní stroj
+- Context: At full steam, very quickly (from steam engines)
+- First appearance: 031 (1875-04-07)
+
+### s'exalter
+- Translation (Czech): nadchnout se
+- Context: 1870s: to become passionately excited/enthused, stronger than modern usage
+- First appearance: 031 (1875-04-04)
+
+### le Paysan (nickname)
+- Translation (Czech): Sedlák
+- Context: Marie's contemptuous nickname for Audiffret, capitalized as mock title
+- First appearance: 031 (1875-04-17)
+
+### femmes du monde
+- Translation (Czech): ženy ze společnosti
+- Context: Society women, women of high society
+- First appearance: 031 (1875-04-21)
+
+### animal de luxe (husband)
+- Translation (Czech): luxusní zvíře
+- Context: Cynical aphorism about husbands as expensive accessories (M. Beketoff)
+- First appearance: 031 (1875-04-22)
+
+## Carnet 032 Terms
+
+### plashchanitsa
+- Translation (Czech): plaščanice
+- Context: Orthodox burial shroud icon of Christ, carried in procession on Holy Friday
+- First appearance: 032 (1875-04-23)
+
+### botvinia
+- Translation (Czech): botvinja
+- Context: Russian cold soup made from kvass with beet greens
+- First appearance: 032 (1875-05-05)
+
+### robe Archiduc
+- Translation (Czech): šaty Arcivévoda
+- Context: 1870s fashion style named after Archduke, Marie's favorite outfit this period
+- First appearance: 032 (1875-04-25)
+
+### chapeau Watteau
+- Translation (Czech): klobouk Watteau
+- Context: Hat style referencing painter Watteau's 18th-century pastoral scenes
+- First appearance: 032 (1875-04-25)
+
+### Alcibiade (nickname)
+- Translation (Czech): Alkibiades
+- Context: Marie's recurring code name for Duke of Hamilton, from the handsome Athenian
+- First appearance: 032 (1875-05-03)
+- Notes: Already used in earlier carnets, standardized here
+
+### Girofla (nickname)
+- Translation (Czech): Girofla
+- Context: Marie's nickname for Emile Audiffret, from operetta "Giroflé-Girofla"
+- First appearance: 032 (1875-05-08)
+
+### Terffidua (code name)
+- Translation (Czech): Terffidua
+- Context: Anagram/code name for Audiffret (letters rearranged)
+- First appearance: 032 (1875-05-15)
+
+### jeunes lions
+- Translation (Czech): mladí lvi
+- Context: Fashionable young men about town, dandies
+- First appearance: 032 (1875-05-16)
+
+### mantille
+- Translation (Czech): mantila
+- Context: Spanish lace veil/shawl worn over head and shoulders
+- First appearance: 032 (1875-05-01)
+
+### châtelain
+- Translation (Czech): pán zámku
+- Context: Lord/owner of chateau, feudal-sounding term
+- First appearance: 032 (1875-05-15)
+
+### barège
+- Translation (Czech): baréž
+- Context: Light gauze-like fabric of silk and wool, popular for summer/evening wear
+- First appearance: 032 (1875-04-24)
+
+### Ventre-Saint-Gris!
+- Translation (Czech): U všech svatých!
+- Context: Archaic oath attributed to Henri IV; Marie uses it for emphasis
+- First appearance: 032 (1875-05-13)
+
+## Carnet 033 Terms
+
+### Mistigri (nickname)
+- Translation (Czech): Mistigri
+- Context: Another of Marie's nicknames for Audiffret; from card game character (jack of clubs) or mischievous cat
+- First appearance: 033 (1875-05-30)
+
+### Caligula (nickname)
+- Translation (Czech): Caligula
+- Context: Marie's mocking nickname for Galula (anagram-like play on name)
+- First appearance: 033 (1875-06-05)
+
+### Alulag (nickname)
+- Translation (Czech): Alulag
+- Context: Galula spelled backwards; Marie's playful word game
+- First appearance: 033 (1875-05-25)
+
+### Figaro (nickname for Galula)
+- Translation (Czech): Figaro
+- Context: Marie casts Galula as Figaro (Beaumarchais' cunning servant) to Audiffret's Almaviva
+- First appearance: 033 (1875-05-25)
+
+### singeries
+- Translation (Czech): opičárny
+- Context: Monkey business, foolish antics; Marie's characteristic animal metaphor for flirtatious games
+- First appearance: 033 (1875-05-20)
+
+### lorgnait / lorgner
+- Translation (Czech): lorňoval / lorňovat
+- Context: To observe through opera glasses or lorgnette; 1870s social behavior verb
+- First appearance: 033 (1875-05-20)
+
+### saturnale
+- Translation (Czech): saturnálie
+- Context: Saturnalia; wild revelry, reference to Roman festival of misrule
+- First appearance: 033 (1875-05-22)
+
+### robe Archiduc (033)
+- Translation (Czech): šaty Archiduc
+- Context: Marie's favorite white dress this period, continues from carnet 032
+- First appearance: 033 (1875-05-28)
+- Notes: Used without "Arcivévoda" translation per established usage; kept as fashion name
+
+### festin du Var
+- Translation (Czech): slavnost Var
+- Context: Local May festivals/feasts in the Var region near Nice
+- First appearance: 033 (1875-05-17)
+
+### Ventre Saint-Gris (033)
+- Translation (Czech): U břicha Svatého Šedáka
+- Context: Famous oath of Henri IV; Marie reads Marguerite de Valois and adopts period language
+- First appearance: 033 (1875-05-26)
+- Notes: Translated with footnote explaining literary context; differs from carnet 032's "U všech svatých" — in 033, context warrants more literal/humorous rendering since Marie explicitly reads Henri IV's era
+
+### mardi gras turc
+- Translation (Czech): turecký masopust
+- Context: Marie's invented term for a chaotically fun carnival-like day
+- First appearance: 033 (1875-05-24)
+
+### Girofla-Girofla (operetta)
+- Translation (Czech): Girofla-Girofla
+- Context: Lecocq's operetta about twin sisters switching identities; Marie uses it to describe her disguise scheme with Dina
+- First appearance: 033 (1875-05-24)
+
+### cochon tu n'es pas un cheval
+- Translation (Czech): prase, ty nejsi kůň
+- Context: Russian proverb (absurdist insult) quoted literally by Papa about Audiffret
+- First appearance: 033 (1875-05-24)
+
 %% 2025-03-23T02:20:05 PA: Initial translation memory created %%
 %% 2026-02-13T14:00:00 TR: Added terms from Carnet 006 translation %%
 %% 2026-02-13T18:00:00 TR: Added terms from Carnet 007 translation %%
 %% 2026-02-16T15:00:00 TR: Added terms from Carnet 016 translation %%
 %% 2026-05-24T14:00:00 TR: Added terms from Carnet 025 translation %%
+%% 2026-05-24T19:30:00 TR: Added terms from Carnet 031 translation %%
+%% 2026-05-24T20:00:00 TR: Added terms from Carnet 032 translation %%
+%% 2026-05-24T21:00:00 TR: Added terms from Carnet 033 translation %%

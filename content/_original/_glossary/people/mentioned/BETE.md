@@ -143,10 +143,7 @@ Several LAN annotations incorrectly identify "Bête" as "Princess Hitchcock" or 
 - [#Paul](PAUL.md) -- Marie's brother, present in many scenes with Bête
 - [#Walitsky](../recurring/WALITSKY.md) -- Family steward, also part of the social circle
 - [#Gioia](../../places/cities/GIOIA.md) -- The Duke's mistress, constantly discussed with Bête
-- [#PRINCESS_GALITZINE](PRINCESS_GALITZINE.md) -- Duplicate entry (stub), should redirect here
-- [#PRINCESSE_GALITZINE](PRINCESSE_GALITZINE.md) -- Duplicate entry (stub), should redirect here
-- [#GALITZINE](GALITZINE.md) -- Duplicate entry (basic), should redirect here
-
 %% GLO_BETE.0025 %%
 %% 2026-02-10T10:30:00 RSR: Enriched from minimal stub. "Bete" is a nickname for a female family member/companion who lived with the Bashkirtseffs in Nice 1873-1874. She shares a name day with Ma tante, has a daughter, and serves as Marie's companion and gossip partner about the Duke of Hamilton. Exact identity remains uncertain. %%
 %% 2026-05-25T02:00:00 RSR: Expanded to Comprehensive. Identity positively confirmed as Princess Nathalie (Nadine) Galitzine via raw carnet indices ("Bête: Galitzine (princesse)") and diary cross-references. Added real name, husband, daughter, Cunegunda nickname (Voltaire allusion), full relationship arc from first appearance (carnet 007, Jul 1873) through nostalgic longing (carnet 031, Apr 1875) and Roman reminiscence (carnet 055, Mar 1876) to reunion in Russia (carnet 064, Aug 1876). Noted erroneous LAN annotations conflating Bête with Miss Hitchcock (English governess) -- these are completely different people. Three duplicate glossary stubs (PRINCESS_GALITZINE, PRINCESSE_GALITZINE, GALITZINE) should be consolidated into this entry. 123 diary references across carnets 007-064, concentrated in 009-020 (Nice, Sep 1873 - Jun 1874). %%
+

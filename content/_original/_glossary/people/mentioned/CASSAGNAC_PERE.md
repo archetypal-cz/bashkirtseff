@@ -4,12 +4,13 @@ name: Adolphe Granier de Cassagnac
 aliases:
   - Adolphe Granier de Cassagnac
   - Cassagnac Pere
+  - Pere Cassagnac
   - Cassagnac
   - Adolphe
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-02-10
+last_updated: 2026-05-25
 ---
 
 %% GLO_CASSAGNAC_PERE.0001 %%
@@ -44,3 +45,5 @@ Adolphe died on 31 January 1880, during the period of Marie's diary. His death l
 
 %% GLO_CASSAGNAC_PERE.0009 %%
 %% 2026-02-10T10:45:00 RSR: Enriched from stub. Adolphe Granier de Cassagnac was the father of Paul de Cassagnac. Historical details from Britannica and Wikipedia. %%
+%% 2026-05-25T00:00:00 RSR: Merged duplicate entry PERE_CASSAGNAC (auto-generated stub from 2026-01-06) into this entry. Added alias "Pere Cassagnac". No new content — stub contained no additional information. %%
+%% 2026-05-25T00:00:00 RSR: Merged duplicate entry ADOLPHE_GRANIER_DE_CASSAGNAC (auto-generated stub from 2026-01-06) into this entry. No new content — stub contained no additional information beyond what was already researched. %%

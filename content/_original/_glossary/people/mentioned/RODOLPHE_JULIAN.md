@@ -75,3 +75,24 @@ Julian appears throughout Marie's diary from 1877 onward (carnets 076-106), ment
 
 %% GLO_RODOLPHE_JULIAN.0017 %%
 %% 2026-02-10T10:00:00 RSR: Enriched from auto-generated stub. Rodolphe Julian is one of the most frequently referenced people in the diary due to the dual use of "Julian" for both the man and the school. Historical details from biographical sources and Wikipedia. %%
+
+---
+
+%% 2026-05-25T09:04:27.142Z RSR: Merged content from M_JULIAN %%
+
+# M Julian
+
+## Basic Information
+- Type: people - mentioned
+- Status: Stub entry (automatically generated)
+
+## Description
+[No description available - stub entry created from diary references]
+
+## References in Diary
+[Multiple references found - needs research]
+
+## Research Notes
+- Created: 2026-01-06
+- Auto-generated stub from broken link detection
+- Needs proper research and content

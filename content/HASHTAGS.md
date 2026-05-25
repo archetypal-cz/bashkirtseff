@@ -73,7 +73,7 @@ When a new topic of interest appears in the diary, add it to this list and creat
 - [#MARIE_SAPOGENIKOFF](/_original/_glossary/MARIE_SAPOGENIKOFF.md) - Sapogenikoff daughter, "Aglaé" of Three Graces
 - [#MICHELEZZI](/_original/_glossary/MICHELEZZI.md) - Person in Nice society
 - [#MILORADOVITCH](/_original/_glossary/MILORADOVITCH.md) - Russian family, potential suitor
-- [#MLLE_COLLIGNON](/_original/_glossary/MLLE_COLLIGNON.md) - Marie's French governess in Nice (~10 mentions)
+- [#Collignon](/_original/_glossary/people/mentioned/COLLIGNON.md) - Marie's French governess in Nice (~215 mentions)
 - [#MONACO](/_original/_glossary/MONACO.md) - Principality and gambling resort near Nice
 - [#MONTE_CARLO](/_original/_glossary/MONTE_CARLO.md) - Monaco gambling resort
 - [#MOUTON](/_original/_glossary/MOUTON.md) - Horse dealer/stable owner in Nice

@@ -75,7 +75,7 @@ The carnet also reveals Marie's literary self-awareness. She reflects on her own
 Nice in the winter of 1873 was one of Europe's premier resort destinations for aristocracy and wealthy families seeking the mild Mediterranean climate. The city had been annexed by France from the Kingdom of Sardinia only in 1860, and by the 1870s it had become the fashionable winter capital for an international elite that included British lords, Russian nobles, and continental aristocracy. The Promenade des Anglais served as the daily stage for seeing and being seen, where carriages and riders paraded in the afternoon.
 
 %% SUM.001.0007 %%
-%% [#MAMAN](../_glossary/people/family/MAMAN.md) [#DINA](../_glossary/people/core/DINA.md) [#MLLE_COLLIGNON](../_glossary/people/mentioned/MLLE_COLLIGNON.md) %%
+%% [#MAMAN](../_glossary/people/family/MAMAN.md) [#DINA](../_glossary/people/core/DINA.md) [#COLLIGNON](../_glossary/people/mentioned/COLLIGNON.md) %%
 The Bashkirtseff family - Russian minor nobility living abroad after the parents' separation - had settled in Nice's Villa Baquis. Marie's household included her mother Maria Stepanovna, her cousin Dina, her governess Mlle Collignon, and various servants. The family participated fully in Nice's winter season: attending the opera, riding horses, visiting other families, and making the short trip to Monaco for events like the prestigious pigeon shooting competitions that attracted Europe's wealthiest sportsmen.
 
 %% SUM.001.0008 %%

@@ -133,8 +133,6 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - [#Rickard](./RICKARD.md) — English acquaintance with whom Marie walked while Collignon chaperoned
 - [#Papa](../family/PAPA.md) — Had "former feelings" for Collignon
 - [#Grand_papa](../family/GRAND_PAPA.md) — The "malheureuse affaire" with Collignon
-- [#Mlle_Collignon](./MLLE_COLLIGNON.md) — Duplicate entry (earlier version, to be merged)
-
 ## Key Paragraph References
 
 - %% 001.0025 %% (Jan 19, 1873): First appearance — scolds Marie for blushing at the Duke
@@ -168,3 +166,4 @@ Collignon occupies a unique position in the diary. She is the only person who se
 
 %% 2025-06-30T01:00:00 RSR: Created entry for frequently mentioned governess who had no glossary file %%
 %% 2026-05-25T02:00:00 RSR: Comprehensive expansion from Basic stub. Researched all ~215 diary files mentioning Collignon across carnets 001-103 (Jan 1873 - Feb 1884). Reconstructed her complete biography from diary evidence: humble Parisian origins (passage Marbeuf), prior service with vice-regal household in Egypt, hired as governess by Jan 1872, taught English and other subjects, dismissed May 31 1873 after escalating conflicts, returned as family friend from 1874, near-constant companion 1875-1877, gradually less present as Marie moved to Paris, diagnosed with tuberculosis by Walitsky Mar 1873 (eight-year survival), died late Oct 1881. Key findings: (1) Collignon was French, not English, but taught Marie English from Jan 12 1872; (2) the "malheureuse affaire" involved both grand-papa and papa having romantic feelings for her; (3) Marie painted her portrait in 12 sittings May-Jun 1876; (4) Collignon's death from tuberculosis directly foreshadowed Marie's own; (5) she appears in ~215 diary files across 12 years, making her one of the most frequently mentioned non-family figures. Added comprehensive aliases, physical description, 30 key paragraph references, and cross-references to related glossary entries. Note: duplicate entry MLLE_COLLIGNON.md exists and should be merged into this one. Sources: diary text across all 107 carnets; cross-references with ENGLISH, DEATH, WALITSKY, ANGLICAN_CHURCH glossary entries. %%
+
