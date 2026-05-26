@@ -6,25 +6,15 @@
 -- =============================================================
 -- 0. Prerequisites for GoTrue migrations
 -- =============================================================
--- GoTrue expects an 'auth' schema and a 'postgres' superuser role.
--- The DB user (gotrue) also needs superuser for extension creation.
 
 CREATE SCHEMA IF NOT EXISTS auth;
-
-DO $$
-BEGIN
-  IF NOT EXISTS (SELECT FROM pg_roles WHERE rolname = 'postgres') THEN
-    CREATE ROLE postgres SUPERUSER LOGIN;
-  END IF;
-END
-$$;
-
-ALTER ROLE gotrue SUPERUSER;
 ALTER ROLE gotrue SET search_path TO auth, public;
 
 -- =============================================================
--- 1. Roles for PostgREST (anon = unauthenticated, authenticated = logged in)
+-- 1. Roles for PostgREST
 -- =============================================================
+-- authenticator: low-privilege login role for PostgREST (NOINHERIT so it
+-- must SET ROLE to anon/authenticated — RLS is always enforced).
 
 DO $$
 BEGIN
@@ -34,11 +24,15 @@ BEGIN
   IF NOT EXISTS (SELECT FROM pg_roles WHERE rolname = 'authenticated') THEN
     CREATE ROLE authenticated NOLOGIN;
   END IF;
+  IF NOT EXISTS (SELECT FROM pg_roles WHERE rolname = 'authenticator') THEN
+    CREATE ROLE authenticator NOINHERIT LOGIN PASSWORD current_setting('app.postgrest_password');
+  END IF;
 END
 $$;
 
--- Grant usage to PostgREST roles
-GRANT USAGE ON SCHEMA public TO anon, authenticated;
+GRANT anon TO authenticator;
+GRANT authenticated TO authenticator;
+GRANT USAGE ON SCHEMA public TO anon, authenticated, authenticator;
 
 -- =============================================================
 -- 2. Paragraph Reports Table

@@ -69,7 +69,7 @@ services:
       auth-db:
         condition: service_healthy
     environment:
-      PGRST_DB_URI: postgresql://gotrue:${POSTGRES_PASSWORD}@auth-db:5432/gotrue
+      PGRST_DB_URI: postgresql://authenticator:${POSTGREST_PASSWORD}@auth-db:5432/gotrue
       PGRST_DB_SCHEMAS: public
       PGRST_DB_ANON_ROLE: anon
       PGRST_JWT_SECRET: ${JWT_SECRET}

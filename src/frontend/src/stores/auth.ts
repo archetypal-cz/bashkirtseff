@@ -24,8 +24,8 @@ export const useAuthStore = defineStore('auth', () => {
   async function init() {
     if (typeof window === 'undefined') return;
 
-    // Check for OAuth callback tokens in URL hash
-    const wasCallback = handleCallback();
+    // Check for OAuth callback (PKCE code or legacy hash tokens)
+    const wasCallback = await handleCallback();
     if (wasCallback) {
       const fullSession = await getSession();
       if (fullSession) {
@@ -45,8 +45,8 @@ export const useAuthStore = defineStore('auth', () => {
     loading.value = false;
   }
 
-  function signIn() {
-    signInWithGoogle();
+  async function signIn() {
+    await signInWithGoogle();
   }
 
   async function signOut() {
