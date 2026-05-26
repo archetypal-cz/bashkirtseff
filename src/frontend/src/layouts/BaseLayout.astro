@@ -56,7 +56,7 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).hr
     <meta property="og:description" content={description} />
     <meta property="og:image" content={fullImageUrl} />
     <meta property="og:site_name" content={siteName} />
-    <meta property="og:locale" content={lang === 'cs' ? 'cs_CZ' : lang === 'fr' ? 'fr_FR' : 'en_US'} />
+    <meta property="og:locale" content={lang === 'cs' ? 'cs_CZ' : lang === 'fr' ? 'fr_FR' : lang === 'uk' ? 'uk_UA' : 'en_US'} />
 
     {/* Article-specific Open Graph tags */}
     {type === 'article' && article?.publishedTime && (
@@ -99,7 +99,7 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).hr
       "name": siteName,
       "url": siteUrl,
       "description": "Complete unabridged diary of Marie Bashkirtseff (1858-1884), Ukrainian-born French artist and diarist.",
-      "inLanguage": ["cs", "fr", "en"],
+      "inLanguage": ["cs", "fr", "en", "uk"],
       "about": {
         "@type": "Person",
         "name": "Marie Bashkirtseff",
@@ -135,7 +135,7 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).hr
         var s = localStorage.getItem('reading-font-scale');
         if (s) document.documentElement.style.setProperty('--reading-font-scale', (parseInt(s,10)/100).toString());
         var l = localStorage.getItem('ui-language');
-        if (l && ['cs','en','fr'].includes(l)) document.documentElement.setAttribute('lang', l);
+        if (l && ['cs','en','fr','uk'].includes(l)) document.documentElement.setAttribute('lang', l);
       })();
     </script>
   </head>

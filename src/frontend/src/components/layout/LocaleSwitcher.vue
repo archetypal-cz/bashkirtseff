@@ -69,6 +69,7 @@ function selectLocale(newLocale: SupportedLocale) {
   const homeMatch = path.match(/^\/home\/(cs|en|fr|uk)\/?$/);
   const aboutMatch = path.match(/^\/(cs|en|fr|uk)\/about\/?$/);
   const marieMatch = path.match(/^\/(cs|en|fr|uk)\/marie\/?$/);
+  const privacyMatch = path.match(/^\/(cs|en|fr|uk)\/privacy\/?$/);
 
   if (homeMatch) {
     window.location.href = `/home/${newLocale}/`;
@@ -76,6 +77,8 @@ function selectLocale(newLocale: SupportedLocale) {
     window.location.href = `/${newLocale}/about`;
   } else if (marieMatch) {
     window.location.href = `/${newLocale}/marie`;
+  } else if (privacyMatch) {
+    window.location.href = `/${newLocale}/privacy`;
   } else {
     // For other pages, reload to apply client-side locale change
     window.location.reload();
