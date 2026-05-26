@@ -35,7 +35,7 @@ const REFRESH_KEY = 'auth-refresh';
 
 /** Redirect to Google OAuth via GoTrue */
 export function signInWithGoogle(): void {
-  const redirectTo = encodeURIComponent(window.location.href);
+  const redirectTo = encodeURIComponent(window.location.origin + window.location.pathname + window.location.search);
   window.location.href = `${AUTH_URL}/authorize?provider=google&redirect_to=${redirectTo}`;
 }
 
