@@ -1009,3 +1009,616 @@ Established terminology for consistent translation across carnets.
 
 ### Updated
 - 2026-05-24: Added carnet 030 terms (Nice spring 1875, Hamilton cipher, Audiffret/Girofla, Prince of Wales, suicide entry, Apr 1 departure scene, multilingual conventions)
+
+## Carnet 035 Additions
+
+### Nice Summer Season (July 1875)
+
+#### People (Carnet 035)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Audiffret / Girofla / Giroflé | Одіффре / Джирофла / Джирофле | Émile d'Audiffret; nickname Джирофла from Lecocq operetta (established 030); "Giroflé" is the paired second name in the joke verse |
+| Saetone | Саетоне | Recurring young man in Nice circle (established 026) |
+| Smirnoff | Смирнов | Russian gentleman in Nice circle (NOT a hotel despite glossary path); declines as a surname |
+| Sapogenikoff (family) | Сапоженікови | Russian family in Nice; Marie disdains their loud manners |
+| Nina | Ніна | Plays piano four-hands with Walitsky |
+| Trifon | Трифон | Servant; kills the dog Mops on grandfather's order |
+| Mops | Мопс | Marie's beloved dog, killed July 1875 |
+| Ambroise | Амбруаз | Servant entrusted with Mops |
+| Renard | Ренар | Another family dog (Marie threatens to kill it in revenge) |
+| Danis | Даніс | Dines with Saetone and Girofla |
+| princesse Marguerite | принцеса Марґеріт | Royalty whose portrait Marie envies (reconfirmed from 022) |
+| Galula | Ґалула | Family notary's man (established 027/028); Marie loses interest in him |
+
+#### Idioms & Expressions (Carnet 035)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| à la musique | на музиці | At the outdoor bandstand concert (established TM) |
+| casaque | жакет | Short fitted jacket (established TM) |
+| faire tourner les tables | крутити столи | Table-turning séance (spiritualist parlor game) |
+| faire passer le fluide | передати флюїд | Transmit spiritualist "fluid" energy by touch |
+| bouts-rimés | буріме | Parlor rhyming game on pre-set rhyme words |
+| jettatore (Italian) | ==jettatore== + footnote | Evil-eye caster; keep Italian with highlight |
+| mauvais œil / mauvaise langue | лихе око / лихий язик | Evil eye / spiteful tongue |
+| se fâcher pâle | розлютитися до блідоти | Go pale with rage (vs. red with rage) |
+| Ventre Saint-Gris! | ==Ventre Saint-Gris!== + footnote | Henri IV's oath; keep French (established 025/027) |
+| homme de bien | порядний чоловік | Man of good standing/moral quality |
+| la canaille | чернь | Rabble, riffraff (Marie's class-contempt term) |
+| bétonner (colloquial) | відмолотити / відлупцювати | To thrash/beat (Marie's rough colloquialism) |
+
+#### Multilingual Conventions (Carnet 035)
+- ==frightful spirits== (English) — Marie's English for a terrible mood; keep in English with ==highlight== + footnote
+- ==London House== (English) — fashionable Nice restaurant-hotel; keep in English with ==highlight== + footnote on first use
+- ==Ventre Saint-Gris!== (French oath) — keep French with footnote
+- ==H[is] G[race] t[he] D[uke] o[f] Hamilton== — Marie's obsessive English cipher; keep English with ==highlight== + footnote (per TM Hamilton-cipher convention)
+- *douraque* (Russian "дурак") — keep within the comic verse rhyme; footnote notes code-switching
+- *senti-mentalisme* — Marie's hyphenation preserved as "сентимент-алізм"
+- Bouts-rimés verses: recreate as rhyming Ukrainian doggerel preserving comic spirit (not literal); footnote the French rhyme words and any puns (tour/four = вежа/пежа; -asse cascade → -ація cascade)
+
+### Updated
+- 2026-05-30: Added carnet 035 terms (Nice summer 1875, Mops's killing, table-turning, bouts-rimés verse handling, Smirnoff as person, monarchy/republic passage)
+
+## Carnet 032 Additions
+
+### Nice Spring Season (Apr–May 1875)
+
+#### People (Carnet 032)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Audiffret / Girofla / Terffidua / Toto | Одіффре / Джирофла / Терффідуа / Тото | Émile d'Audiffret, 23, lives alone in château; nickname Джирофла (established 030/035); Терффідуа = name reversed (established 026/030); Тото = pet diminutive |
+| le (petit) Paysan / paysan | (малий) Селюк / селюк | Marie's contemptuous nickname/insult for Audiffret; capitalized = codename. Cluster-standard term (031–035): Селюк/малий селюк |
+| Mme Voyeïkoff | пані Воєйкова | Russian society lady at Hôtel du Luxembourg |
+| Julie | Жулі | Bride-to-be; frank/talkative; offers Marie her brother-in-law |
+| Prodgers / la Prodgers | Проджерс / та Проджерс | English family; "la Prodgers" = contemptuous article reducing person to a type |
+| Collignon | Коліньйон | French governess (established earlier carnets) |
+| Sapogenikoff (family) | Сапоженікови | Russian family, near-daily companions (established 035) |
+| Howard (Hélène, Lise) | Говарди (Гелена, Ліза) | English family; "saligottes" — badly dressed |
+| Tchernichoff-Krouglikoff | Чернічов-Кругліков | Count carrying cross at Easter procession |
+| Mlle Kolokolzoff | панна Колокольцова | Old ridiculous spinster, "très comme il faut" |
+| Mme Vériguine | пані Веригіна | Directs Russian Easter choir |
+| Princess Belosselsky | княгиня Білосільська | Aristocrat Mme Voyeïkoff hoped to meet |
+| Malzoff | Мальцов | Old "richard" (moneybags) who eyes Marie |
+| Rickard | Рікар | English friend; leaves Nice; source of gossip |
+| Johnstone | Джонстон | "le diable" — man Marie is interested in; rumored married |
+| Miloradovitch / Gritsia | Мілорадович / Гриця | Russian suitor (the "fatalité"); typhoid in Odessa; Гриця = dim. of Grigory |
+| Leclerc | Леклерк | Chemistry/physics tutor (established 028) |
+| Laussel | Лосель | Marie's dentist in Nice (NOT the art teacher of 030) |
+| Yourkoff | Юрков | Brings strawberries; named "chambellan" in fantasy court |
+| Sabatini | Сабатіні | Morning walking companion (established 030) |
+| Marie & Olga Sapogenikoff | Марі та Ольга Сапоженікови | The two Sapogenikoff sisters; "Three Graces" with Marie |
+| Krohn | Крон | Landmark near Audiffret's château ruelle |
+
+#### Fantasy Court & Self-Portrait (Carnet 032)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| chambellan | камергер | Chamberlain — court role in Marie's fantasy |
+| capitaine des gardes | капітан гвардії | Captain of the guards |
+| marmiton | кухарчук | Scullion/kitchen boy |
+| M. Le Dauphin | пан дофін | The Dauphin (Marie's imaginary heir) |
+| Madame | Мадам | Court title (king's sister/daughter-in-law) |
+| robe Archiduc | сукня «Ерцгерцог» | 1870s dress style; recurring outfit note |
+| chapeau Watteau | капелюх «Ватто» | Hat style after painter Watteau |
+| Aglaé / Thalie / Euphrosine | Аглая / Талія / Евфросина | The Three Graces; the girls' secret-society names (Marie = Талія) |
+| robe juive (en barège) | юдейська сукня (з бережу) | Orientalist 1870s fashion; barège = light silk-wool gauze |
+
+#### Idioms & Expressions (Carnet 032)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| en toilette | вбрана / у вбранні | Dressed up (NOT toilet) |
+| faire la coquette | кокетувати | To flirt/play the coquette |
+| cent mille raisons | зі ста тисяч причин | Hundred thousand reasons — Marie's hyperbole |
+| char à banc | шарабан | Open carriage with benches |
+| sans me démonter | ані крихти не розгубившись | Without losing composure |
+| pâmer (de rire) | до знемоги (від реготу) | To swoon with laughter |
+| daim effarouché | сполоханий олень | Frightened fawn (timid suitor) |
+| farceur | блазень | Joker/prankster |
+| qui vivra verra | поживемо — побачимо | Proverb: time will tell |
+| sens dessus dessous | догори дриґом | Topsy-turvy |
+| il y a de quoi mourir | хоч помирай | It's enough to die (of boredom) |
+| comme il faut | comme il faut | Socially proper — keep French (established TM) |
+| ne pas se gêner | не церемонитися | Not to hold back |
+| brosser (qqn) | відшмагати | To thrash (pun on brosse = brush/beating) |
+| me tenir en émoi | тримати в зворушенні | Keep me emotionally stirred |
+| le beau zéro | гарний нуль | "The handsome nobody" — Collignon's name for Girofla |
+| vermisseau de terre | земляний черв'як | Earthworm (extreme contempt) |
+| jeunes lions | молоді леви | Fashionable young dandies about town |
+
+#### Multilingual Conventions (Carnet 032)
+- Russian *plachtchanitsa* (плащаниця, Holy Friday shroud): translate as плащаниця + footnote noting Russian original
+- Russian *botvinia* (ботвиня, cold kvass soup): translate + footnote
+- Russian Easter hymn "Ta résurrection Seigneur": ==Воскресіння Твоє== + footnote (Orthodox "Voskreseniye Tvoye")
+- Russian "Moussia, Gritsia se marie": keep meaning in Ukrainian text, footnote notes Russian original + diminutives
+- Latin "In nomine Patris...": ==highlight== + footnote (liturgical formula used humorously)
+- Italian *Cena* (Last Supper): ==highlight== + footnote (Marie uses Italian, doesn't know French *la Cène*)
+- English code-switches (==fast==, ==he stared at me==, ==love/like==, ==Blackprince==, ==Take your fat carcase out of the way==, ==the fat carcase==): keep English with ==highlight== + footnote; "fast" per established 022 TM convention
+- English ==London House== (Nice restaurant-hotel): keep English + footnote (established 035)
+- Spanish *novio* (suitor): keep + footnote
+- French oath ==Ventre-Saint-Gris!== (Henri IV): keep French + footnote (established 025/027/035)
+- French ==Coquine de Biou==, ==Pardi!== (Niçois dialect): keep French + footnote
+- Niçois/Provençal coachman dialect (ben autré chosé, voui, queu moi, méreu): render in standard Ukrainian, footnote notes the accent and gives the French dialect text
+- "saligottes [sic]" (Marie's coarse coinage): translate as нечупари + footnote (the [sic] attaches to the French)
+- Manuscript notations: [Rayé:] → [Викреслено:]; [Lignes cancellées:] → [Закреслені рядки:] / [...закреслено]; [Dans la marge:] → [На полях:]; [En travers:] → [Навскоси:]; [Bas de page supprimé] → [Низ сторінки видалено]; [Entrée vide ou perdue] → [Запис порожній або втрачений]
+- Lost/missing footnote markers (¹, ²): preserve as footnote noting "позначка виноски, текст якої не зберігся"
+
+### Updated
+- 2026-05-30: Added carnet 032 terms (Nice spring 1875, Easter confession, Audiffret château visit, Three Graces society, self-portrait, fantasy court, Hamilton "fat carcase" gossip, multilingual conventions)
+
+## Carnet 033 Additions
+
+### Nice Sea-Bathing Season & Audiffret's Introduction (May–June 1875)
+
+#### People & Nicknames (Carnet 033)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Girofla / Audiffret | Джирофла / Одіффре | Émile d'Audiffret; nickname from Lecocq operetta (established 030/035) |
+| Terffidua | Терффідуа | Audiffret reversed; cipher (established 026); ==highlight== not needed, transliterate |
+| Saetone | Саетоне | Recurring young man in Nice circle (established 026) |
+| Enoteas | Енотеас | Saetone reversed cipher (established 026); "le bel Enoteas" = прекрасний Енотеас |
+| Galula | Ґалула | Notary's clerk, Audiffret's intermediary; nicknames Alulag (reversed)→Алулаг, Caligula→Калігула |
+| Mistigri (for Audiffret) | Містіґрі | Marie's card-game nickname for Audiffret (jack of clubs) |
+| Lucie Durand | Люсі Дюран | Friendly Nice acquaintance; the Durand–Audiffret feud = Montecchi/Capuleti |
+| Sapogenikoff | Сапоженікови / Сапоженіков | Russian family (established 035); instrumental "із Сапоженіковими" |
+| Collignon | Коліньйон | French governess (established earlier carnets) |
+| Ange (cocher) | Анж (візник) | Former family coachman who recognizes the disguised girls |
+| Nina | Ніна | Young companion, ringleader of pranks |
+| Miloradovitch (le jeune) | молодий Мілорадович | Suitor Marie fears she'll be made to "subir"; noble but not Court-rank |
+| Prater (le chien) | Пратер (пес) | Marie's dog she teasingly calls "Girofla" |
+| Ravel | Равель | Comic actor at the Nice French Theatre; "sourires de singe" |
+
+#### Sea-Bathing & Theatre Vocabulary (Carnet 033)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| cabine | купальна кабіна / кабіна | Beach changing-cabin, NOT cabinet/study |
+| faire la planche | лежати на воді | Float on one's back |
+| le pont (du bain) | поміст | Diving platform/pier at the bathing establishment |
+| avant-scène | авансцена | Stage box (established 022) |
+| salon de la loge | салон ложі | Private anteroom behind a theatre box |
+| faquin / maroufle | фат / нікчема | Archaic insults; "faquin"→фат kept consistent (also 030/035) |
+| singe / singesse / singeries | мавпа / мавпиця / мавпування | Marie's recurring monkey-metaphor for ridiculous people |
+| robe Archiduc | сукня «архідюк» | Dress style named after the operetta (established 028) |
+| robe de Worth | сукня від Ворта | Worth couture (established 022) |
+| lorgner | лорнетувати | To ogle through opera glasses/lorgnette |
+
+#### Idioms & Expressions (Carnet 033)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| rougir comme une cerise | паленіти/червоніти, мов вишня | Blush bright red |
+| de l'air le plus indifférent du monde | з найбайдужішим у світі виглядом | With supreme indifference |
+| à la bonne heure | отак-то / до душі | Approval ("that's the spirit"), NOT time-related (established 018) |
+| se tenir à quatre | насилу стримуватися | Hold oneself back with great effort (established 030) |
+| tomber de haut / de toute ma grandeur | впасти з висоти / з усієї величі | Fall from a height (hubris→humility) |
+| il gagne de près | він виграє зблизька | Improves on closer acquaintance |
+| essuyer le nez à qqn | утерти носа комусь | Put someone in their place |
+| je ne touche pas la terre de joie | я не торкаюся землі з радості | Walking on air with joy |
+| moutons de Panurge | Панургові вівці | Following blindly one after another (Rabelais) |
+| Ventre Saint-Gris! | ==Ventre Saint-Gris!== + footnote | Henri IV's oath; keep French (established 025/027/035) |
+| Miserere! | ==Miserere== + footnote | Latin psalm exclamation (established TM) |
+| je ne sais quoi | ==je ne sais quoi== + footnote | Keep French; "сама не знаю що" in footnote |
+
+#### Multilingual Conventions (Carnet 033)
+- Dante quotes (Inferno II "O muse o alto ingegno…", "Qui si passa la tua nobilita"): keep Italian with ==highlight== + footnote, note Marie's quoting errors
+- Italian inserts (*inammorati*, *a più non posso*, *femmina celeberrima*, Montecchi/Capuleti): keep Italian with ==highlight==/italics + footnote
+- Sallust Latin (Bellum Catilinae opening, "secôra [sic]"): keep Latin with ==highlight== + footnote with translation and error note (secôra→pecora)
+- English code-switches ("shall perform our pilgrimage", "That is the question", "H[is] G[race]…"): keep English with ==highlight== + footnote
+- "mio bella petchouna" (Italian + Russian *печенька*): keep mixed original with ==highlight==, footnote explains the Italian/Russian blend
+- Russian proverb "cochon tu n'es pas un cheval" (Papa): translate literally "свиня, ти ж не кінь" + footnote noting it's a Russian proverb
+- Russian code-switch in public ("Baissez votre ombrelle"): render naturally in Ukrainian; original was Russian per LAN
+- "Cap de Biou!" (Nice dialect exclamation): transliterate "Кап-де-Б'ю!"
+- Reversed-cipher names (Alulag = Galula, Terffidua/Enoteas): transliterate the reversal (Алулаг, Терффідуа, Енотеас)
+- Marginal/crossed-out notations: [Навскоси:], [Викреслено:], [Примітка ...:], [Дописано між рядками:], [Один рядок закреслено], [Два рядки закреслено]
+- Multi-year annotations (1877/1880/1881): render each year-tag inside [Примітка: ...]
+
+### Updated
+- 2026-05-30: Added carnet 033 terms (Nice May–June 1875 sea-bathing season, Audiffret's formal introduction, disguise expedition, theatre/bathing vocabulary, Dante/Sallust/Italian/English/Russian multilingual conventions)
+
+## Carnet 037 Additions
+
+### Nice Summer Season & Audiffret's Departure (July 1875)
+
+#### People & Nicknames (Carnet 037)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Audiffret / Girofla / le Niçois | Одіффре / Джирофла / ніццянець | Émile d'Audiffret; departs Nice mid-July; "le petit" → "малий" (dismissive) |
+| Giroflé (Saëtone) | Джирофле | Saetone the uncle = paired joke-name "Giroflé" (vs nephew "Girofla"); keep both distinct (035) |
+| Saëtone | Саетоне | Audiffret's uncle, "ce gros père" → "огрядний добряга" (established 026) |
+| Smirnoff | Смирнов | Russian gentleman in Nice circle (established 035); declines as surname |
+| Sapogenikoff | Сапоженікови | Russian family (established 035) |
+| Nina | Ніна | Plays piano (established 035) |
+| Marie (l'amie) | Марі | Friend (NOT the diarist); reads Dumas with the "Graces" |
+| Olga | Ольга | Sapogenikoff sister; Audiffret flirts more crudely with her |
+| Arthur | Артур | Servant who fetches a pencil |
+| Victor | Віктор | Marie's dog; recipient of "transmigrated" love |
+| Prater | Пратер | Dog who defected to Maman out of jealousy (also "Girofla" dog in 033) |
+| Merjeewsky | Мержевський | Hated Polish suitor (established 022/023); Chevalier is "его портрет" |
+| Chevalier | Шевальє | New acquaintance, a brunet double of Merjeewsky |
+| Danis | Даніс | Excitable admirer who marvels at Marie's room; "useful" gossip-carrier |
+| Galula | Ґалула | Notary's clerk (established 027/033) |
+| Désiré | Дезіре | Charming 18½-yr-old; sits his baccalauréat exam |
+| Étienne (Babanine) | Етьєн (Бабанін) | Uncle arriving from Russia (Tchernigoff/Канатап); telegram addressee |
+| Fortuné | Фортюне | Servant who announces Étienne |
+| Machenka | Маченька | Aunt/companion; bathes with Marie; tours Gioia's house |
+| Léonie | Леоні | Carries Marie's clothes to the sea-bath |
+| Laurenti (comte) | граф Лоренті | Danis's friend; opposite opinion of Marie's character |
+| d'Aspremont | д'Аспремон | Nice figure Danis will report to (established 029) |
+| Larderei (comte de) | граф де Лардерель | Fashionable Florentine; sister married Victor-Emmanuel II's son |
+| Gioia / Amélie | Джоя / Амелі | Hamilton's former mistress (established TM); her real name is Amélie; her Nice house (n° 77) is the pilgrimage site |
+| Blackprince | Блекпринс | English admirer cipher (established 023); appears in a dream |
+| "Lui" / "Il" (capitalisé) | «Він» (з великої) | Hamilton; capitalized for quasi-religious reverence — keep capitalized |
+| Fiouloulou | Фіулулу | Unidentified person, "le vilain" → "бридкий Фіулулу" |
+
+#### Period Vocabulary & Fashion (Carnet 037)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| casaque | жакет | Loose dressing-jacket (established TM) |
+| à la musique | на музиці | Public band concert (established TM) |
+| nos cavaliers | наші кавалери | Male escorts/admirers (social register, not horsemen) |
+| mes Grâces | мої Грації | Marie's circle of girl-friends (established 030/032/033/035) |
+| fossette | ямочка | Dimple (angel-kiss legend); on chin = "ямочка на підборідді" |
+| gorge | грудь | 1870s anatomy: bosom/breast, NOT throat |
+| fichu | фіш | Triangular lace neck-scarf (established 022) |
+| à la Psyché | на манір Психеї | Classical knot hairstyle; footnote |
+| Premier Empire | Перша імперія | Napoleon I era; neoclassical portrait reference |
+| corsage | ліф | Bodice (established 022) |
+| cretonne / cretonne Pompadour | кретон / кретон у стилі Помпадур | Printed cotton furnishing fabric; footnote |
+| reps | репс | Ribbed upholstery fabric; footnote |
+| colonnes torses | кручені колони | Baroque spiral columns; footnote |
+| cabinet de toilette | туалетна кімната | Dressing room, NOT bathroom |
+| armoires à glace | дзеркальні шафи | Mirror-door wardrobes |
+| lavabo | умивальник | 1870s wash-stand, NOT modern sink |
+| boudoir | будуар | Lady's private sitting-room |
+| mules | пантофлі | Backless house slippers; footnote |
+| ses armes | його герб | Coat of arms / heraldic bearings |
+| bonne créature | добряк | Good-natured (slightly condescending) |
+
+#### Idioms & Expressions (Carnet 037)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Celui qui crache en l'air se punit soi-même | Хто плює вгору, той сам себе карає | Proverb: spitting upward punishes you |
+| qui s'y frotte, s'y pique | хто до нього торкнеться, той об нього вколеться | Holly proverb; gallant double entendre |
+| transmigration de l'amour | переселення любові | Marie's pseudo-philosophical theory of transferred affection |
+| fluide malfaisant | шкідливий флюїд | Pseudo-scientific "harmful fluid" for emotions |
+| fille de rien | нікчемниця | Harsh reproach: worthless girl |
+| La faux rencontre la pierre | Найшла коса на камінь | Russian proverb (Marie marks as Russian); use standard Ukrainian equivalent |
+| Ah ! par exemple ! | Ну й ну! | Exclamation of astonishment (established 030) |
+| Foin de | Геть… | Archaic "away with!/a plague on!" |
+| C'est-il possible | та чи ж можливо | Colloquial popular inversion |
+| fièvre de la vie | гарячка життя | "Fever of life" — Danis's phrase for Marie's intensity |
+| chante des douceurs | виспівує солодощі | Pays compliments/flatters |
+
+#### Latin & Multilingual Conventions (Carnet 037)
+| Passage | Convention | Notes |
+|---------|-----------|-------|
+| Quem spes delusit, huic querela convenit (Phaedrus) | ==highlight== + footnote | Marie garbles ("Qucm...dclusit") quoting from memory — preserve garbling, footnote correct form |
+| querela mihi convenit | ==highlight== + footnote | Marie adapts Phaedrus to first person |
+| Veni, vidi, vici | ==highlight== + footnote | Caesar; ironic for romantic conquest |
+| dubiae nobilitatis | ==highlight== + footnote | "of doubtful nobility" |
+| Quem spem delusit... (later, correct form) | ==highlight== + footnote | Same maxim, less garbled in 037.0143 |
+| Quid evenit? / Amor et spes... / Dies Irae (lacrimosa dies illa...) | ==highlight== + footnote | Final all-Latin entry (July 31); Marie's own sentences + requiem hymn; preserve error "mie" for "pie" |
+| Anima, coraggio! / tanto ero in fretta... (Italian) | ==highlight== + footnote | Self-exhortation; Italian inserts |
+| partenza del facchino di Nizza (Italian) | ==highlight== + footnote | Contemptuous "departure of the porter of Nice" for Audiffret |
+| Cap de Biou! (Gascon) | ==highlight== + footnote | Gascon oath "Head of God!"; (cf. "Кап-де-Б'ю!" Nice variant in 033, here original spelling kept) |
+| unlucky (English) | ==unlucky== + footnote | Marie's habitual English emotional insertion |
+| J. V. A. = Je Vous Aime | Я. В. К. + footnote | Audiffret's coded biscuit-letters; render as Ukrainian initials (Я Вас Кохаю), footnote the cipher |
+| "Lui"/"Il" capitalized for Hamilton | «Він»/«Нього» (capitalized) | Quasi-divine reverence; keep capitalized |
+
+#### Cultural & Literary References (Carnet 037)
+| Reference | Notes |
+|-----------|-------|
+| Aulu-Gelle (Aulus Gellius, Noctes Atticae) | Авл Геллій / «Аттічні ночі»; Marie translates Latin for self-education |
+| centenaire de Michel-Ange (Florence, Sept 1875) | 400th anniversary (Michelangelo b. 1475) → "чотиристаліття"; footnote |
+| Pallas (Athena) | Паллада; goddess of wisdom; Marie's self-comparison |
+| mémoires de Mademoiselle (la Grande Mademoiselle) | Мемуари Мадемуазель (de Montpensier, 1627–1693) |
+| Agis (IV, roi de Sparte) | Агіс; Spartan reformer-king |
+| Mignon (Thomas) | «Міньйон»; aria "Demain, dis-tu..." → "Завтра, кажеш ти..." |
+| Vingt ans après (Dumas) | «Двадцять років по тому» |
+| Mille et une Nuits | «Тисяча й одна ніч»; symbol of exotic luxury |
+| la Commune / Lacédémone | Комуна (Paris 1871 fear) / Лакедемон (Sparta as forced equality); footnote |
+| fille du tambour-major | донька тамбурмажора; pejorative for Rosa Vercellana (Victor-Emmanuel II's morganatic wife); footnote |
+
+### Updated
+- 2026-05-30: Added carnet 037 terms (Nice July 1875, Audiffret's departure, Étienne's arrival & abandoned Russia trip, political tirade, Gioia house pilgrimage, period interior/fashion vocabulary, Latin/Italian/Gascon/English multilingual conventions)
+
+## Carnet 039 Additions
+
+### German Spa Interlude — Wiesbaden / Schlangenbad / Schwalbach (Aug 15–26, 1875)
+
+#### Places (Carnet 039)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Wiesbaden | Вісбаден | German spa town; Russian chapel, Kursaal |
+| Schlangenbad | Шланґенбад | Sleepy thermal spa where the family stays ("m'assoupit") |
+| Schwalbach | Швальбах | Livelier neighbouring spa Marie prefers ("paradis") |
+| Rauenthal | Рауенталь | Heights above the Rhine |
+| Kursaal | ==Kursaal== / курзал | German spa assembly hall; keep German with footnote |
+| Kurhaus | ==Kurhaus== / курзал | German spa house; keep German with footnote |
+| Nassauer Hof | Nassauer Hof | Fashionable Wiesbaden hotel; keep German name |
+| Newsky (Nevsky) | Невський (проспект) | Main avenue of St. Petersburg |
+
+#### People (Carnet 039)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Carlo Hamilton | Карло Гамільтон | Near-fatal carriage accident on Nevsky (established 019) |
+| Mme Paskevitch | пані Паскевич | Carlo's bride-to-be after her divorce |
+| Batourine | Батурін | Mother's suitor since age 12; emotional Wiesbaden reunion |
+| Mme Batourine | пані Батуріна | His older wife; "du meilleur monde"; grande parleuse |
+| Diadia (Georges) | Дядя | Russian "uncle" (fam.); = Georges; keep with footnote first use |
+| M. de Toulouse | пан де Тулуз | Companion of Diadia |
+| Stiopa / Machenka | Стьопа / Маченька | Uncle Stiopa & wife Maria (established 018/025) |
+| princesse Souvoroff | княгиня Суворова | (established 019) |
+| prince Tchetvertinsky | князь Четвертинський | 100,000 roubles rente; "magnifique parti" |
+| Émile d'Audiffret / Girofla | Одіффре / Джирофла | Selling estates to pay father's debts (established 030/035) |
+| Saetone | Саетоне | Recurring Nice young man (established 026) |
+| Fiouloulou (Detriaz) | Фіулулу | Audiffret's follower (established 036) |
+| Paul (Bashkirtseff) | Поль / Башкірцев | Half-brother in Russia; enlisting under Zankovsky influence |
+| Zankovsky (family) | Занковські | Predatory card-cheating family corrupting Paul |
+| Doublansky | Дублянський | Zankovskys' previous victim |
+| Alexandre | Олександр | Family member trying to rescue Paul |
+| Mme Aleinikoff | пані Алейнікова | Russian acquaintance from the hotel |
+| princesse / prince Tcherkassky | княгиня / князь Черкаські | Unhappy noble couple at the spa |
+| prince Mechtchersky | князь Мещерський | Spa neighbour; mistaken-identity flirtation |
+| comtesse Rudiger | графиня Рюдіґер | "vieille célébrité" |
+| comtesse Benvenuti | графиня Бенвенуті | Amiable but "presque toujours grise" |
+| Plevasko | Плеваско | Lawyer awaiting Stiopa in Paris |
+| Obeziana (la demoiselle) | ==Обезіана== / Обезіана | Marie's mock nickname (Russ. "monkey"); ==highlight==+footnote first use, italic thereafter |
+| Calderon | Кальдерон | "le petit Espagnol noir" |
+| Blackprince | ==Blackprince== | English cipher for prince Wittgenstein (established 022); keep English + footnote |
+| (prince Pierre) Wittgenstein | (князь П'єр) Вітґенштайн | "Pierre" of Nice; Emile Sayn-Wittgenstein on a visiting card |
+
+#### Period Vocabulary & Idioms (Carnet 039)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| corps sans âme | тіло без душі | Lifeless place (post-1872 gambling-ban spas) |
+| tenir sous sa pantoufle | тримати під каблуком | Henpecked husband idiom |
+| le portrait de sa mère | викапана мати | Spitting image |
+| maman a ses affaires | у мами свої справи | Euphemism (menstrual period) |
+| Ma Majesté | Моя Величність | Marie's self-ironic title (family joke here) |
+| bataclan | батаклан | Marie's neologism for social circle (established 020) |
+| amour-propre blessé | уражене самолюбство | Wounded pride |
+| a mis le comble | переповнив чашу | Was the last straw |
+| faire le beau | пускати пилюку в очі | Show off, parade oneself |
+| équipage | виїзд | Carriage-and-horses as status symbol |
+| sans chic aucun | без жодного шику | Without any style |
+| La faux a rencontré la pierre | Наскочила коса на камінь | Proverb: two stubborn forces — exact Ukrainian equivalent |
+| Agar dans le désert | Агар у пустелі | Biblical (Genesis 21): cast out, alone |
+| comme dit d'Audiffret ("Allons donc!") | як каже д'Одіффре ("Та де там!") | Audiffret's catchphrase |
+| nihiliste | нігілістка | Russian radical (footnote) |
+| en Grâces et en disgrâces | Граціями та "неграціями" | Wordplay (Three Graces / disgraceful poses); footnote |
+| la petite russienne | малоросійська (мова) | Period term for Ukrainian language; footnote |
+| robe de chambre | халат | Dressing gown |
+| victoria (carriage) | вікторія | Light open two-seater carriage; footnote first use |
+| Robe Archiduc | сукня «Ерцгерцог» | Fashionable dress cut |
+| dépêche | депеша | Telegram |
+| faire son entrée dans le monde | вийти у світ | Society debut |
+
+#### Multilingual & Manuscript Conventions (Carnet 039)
+- Latin "vox faucibus exit" (Virgil), Italian "Il fiato mi manca!": keep original with ==highlight== + footnote
+- English code-switches (==pleasantly enough==, ==deliciously==, ==Blackprince==): keep English with ==highlight== + footnote
+- French exclamation in a dream (==Vive la Reine==): keep French with ==highlight== + footnote
+- German terms (==Kursaal==, ==Kurhaus==): keep German with ==highlight== + footnote
+- Russian patronymic address (Maria Stepanovna, Nadejda Stepanovna): render as Маріє/Надіє Степанівно
+- "Diadia" (Russ. uncle): ==Дядя== + footnote on first use
+- "Obeziana": ==highlight==+footnote on first use, italic *Обезіана* thereafter
+- [Une ligne cancellée] → [Один рядок закреслено]; [Quatre lignes cancellées] → [Чотири рядки закреслено]
+- [deux lignes illisibles] → [два рядки нерозбірливі]; [une ligne illisible] → [один рядок нерозбірливий]
+- [Rayé: ...] → [Викреслено: ...]
+- Marie's self-citation of her own earlier notebook ("dans mon livre 29ème, page 304"): keep quotation marks and "29-й зошит, сторінка 304"
+- Satirical verse "Revue de Nice" / Walitsky's verse: translate preserving mocking tone and rhyme where natural; proper names kept
+
+### Updated
+- 2026-05-30: Added carnet 039 terms (German spa interlude Wiesbaden/Schlangenbad/Schwalbach Aug 1875, Carlo Hamilton accident, Batourine reunion, Paul/Zankovsky crisis, "Revue de Nice" satirical verse, Audiffret debt news, Latin/Italian/English/German/Russian multilingual conventions)
+
+## Carnet 038 Additions
+
+### Paris Visit & Schlangenbad Arrival (Aug 1–13, 1875)
+
+#### People & Nicknames (Carnet 038)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Émile d'Audiffret / Girofla | Одіффре / Джирофла | The recurring obsession; in Paris now (established 030/035/036) |
+| Stiopa / Machenka | Стьопа / Маченька | Uncle and his wife, travelling with Marie (established 018/025) |
+| Smirnoff | Смирнов | Russian, lost heavily gambling; rides 3rd class to Petersburg |
+| Fedus (Lambertye) | Федюс | Marie's codename for Lambertye, from Latin "foedus" (established 018/019) |
+| Saint-Clair | Сен-Клер | Nice acquaintance spotted in Paris |
+| Berthe | Берта | Elegant friend met at Ferry's; "teint d'ange" (established) |
+| Caroline (Laferrière) | Кароліна | Powerful vendeuse; absent 15 days (established 028) |
+| Auguste | Огюст | Marie's hairdresser; coiffes "à la Gioia" |
+| Amélie Gioia / Centifolia | Амелі Джоя / Центифолія | Famous courtesan; "the only woman" alongside Hamilton; "Centifolia" = hundred-petal-rose codename |
+| Adolphe Rothschild | Адольф Ротшильд | Admired Marie in Nice years earlier |
+| Helen Kefe | Гелен Кефе | English maid hired & dismissed within days; "detestable creature" |
+| Adam / Alexandre | Адам / Олександр | Adversaries in the Russian lawsuit |
+| Miss Robenson | міс Робенсон | Audiffret's "ancienne passion"; sparks Marie's jealousy |
+| Prodgers | Прóджерс | Brings Miss Robenson back to Nice "to recapture Girofla" |
+| princesse / prince Tcherkassky | княгиня / князь Черкаські | Aristocrats at Schlangenbad (also 039) |
+| Walitsky | Валіцький | Family doctor; flirts at the spa (established) |
+| Buckingham / Anne d'Autriche | Бекінгем / Анна Австрійська | Three Musketeers allusion; footnote |
+
+#### Couturiers & Fashion Houses (Carnet 038)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Worth / Suresnes | Ворт / Сюрен | Couturier (name kept); his château at Suresnes ("on dit Suresnes à M. Worth") |
+| Laferrière / Reboux / Ferry / Jouvin / Dupuis / Klein | Лаферрьєр / Ребу / Феррі / Жувен / Дюпюї / Кляйн | Paris fashion establishments; transliterate |
+| Doucet | Дусе | Sold Marie a 100-franc tulle veil |
+| princes de la couture | князі моди | Marie's ironic elevation of tradespeople |
+| à la Gioia | під Джою | Hairstyle copying the courtesan |
+| genre du Premier Empire | у стилі Першої імперії | First Empire (Napoleonic) dress style |
+| tralala / frou-frou | надмірні оздоби / фру-фру | Fuss, excessive ornamentation |
+
+#### Period Vocabulary & Idioms (Carnet 038)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| redingote | редингот | Man's long fitted coat (kept loanword) |
+| sang-froid impayable | безцінна незворушність | Priceless composure |
+| entresol | антресоль | Mezzanine floor |
+| roi de pique | пиковий король | King of Spades (cartomancy) |
+| jeunesse dorée | золота молодь | Wealthy fashionable young men |
+| bien monté / bien mis | гарно споряджений / гарно вбраний | Well-mounted (carriage) / well-dressed |
+| montres des magasins | крамничні вітрини | Shop window displays (montre = display) |
+| en province | у провінції | Anywhere outside Paris (here Nice) |
+| déférée | вибита з сідла | Unhorsed, thrown off balance (equestrian) |
+| décollée / défaite | розбита | Shattered, devastated |
+| cuistre | хам | Pedant/boor |
+| la queue basse | з опущеним хвостом | Tail between legs (established 019) |
+| innocente brebis | невинне ягнятко | Innocent lamb |
+| betonner [neologism] | відлупцювати | Marie's coinage (from "bâton"); beat/thrash |
+| faquins / faquines [sic] | фати / фаток [sic] | Cads; Marie coins the feminine form (established 030/033) |
+| endimanché | у недільному вбранні | Dressed in Sunday best (provincial pretension) |
+| jeune fille / petite fille | дівчисько | Audiffret "amused himself with a little girl" |
+| baignoire (théâtre) | ложа-бенуар | Ground-floor theatre box |
+| binocle | бінокль | Opera glasses (established 029) |
+| femme de soleil | жінка сонця | Marie's self-description (weather-dependent moods) |
+| je vois tout en gris | бачу все в сірому | Depressed outlook |
+| bustle (English) | ==bustle== + footnote | Urban commotion; kept English |
+| combinaisons | розрахунки / плани | Schemes/strategies (false-friend trap: NOT undergarment) |
+| figure | обличчя | 1870s: face, NOT body shape |
+| pourvoir au superflu | забезпечувати надмірне | Provide for luxuries not necessities |
+| du haut du clocher de Notre-Dame | з висоти дзвіниці Нотр-Дам | Extreme condescension |
+| tarots égyptiens | єгипетські таро | Egyptian tarot cards (occult fashion) |
+| espérances déchues | розвіяні надії | Shattered hopes |
+| noirceurs | чорнота | Dark misfortunes |
+| la canaille / émeute | наволоч / заколот | The rabble / riot (Marie's anti-revolutionary contempt) |
+| gorge | грудь | 1870s: bosom, NOT throat |
+| se peint | фарбується | Uses makeup (slightly scandalous) |
+| cachet de courtisane | відбиток куртизанки | Hallmark of a courtesan |
+| cocottes | кокотки | Kept women (established 018) |
+| diseuse de bonne aventure | ворожка | Fortune-teller |
+| l'Eternel (for Hamilton) | Вічний | Marie's reverent epithet for the Duke |
+| Bigre! | Хай йому грець! | Mild expletive |
+| Il ne manquait plus que cela! | Тільки цього ще бракувало! | "That was the last thing I needed!" |
+| accaparer | прибрати до рук | Monopolize (stronger than modern) |
+| sale monde | простолюд | Low-class people (pejorative) |
+
+#### Multilingual & Cultural Conventions (Carnet 038)
+- English code-switches (==money, money, money==, ==These are the questions==, ==awfully expressive==, ==gentleman==, ==bustle==, ==God save the Queen==): keep English with ==highlight== + footnote
+- Russian (Marie's diminutive "Moussia"/"Muся"): keep Russian with ==highlight== + footnote (cf. Муся, 023)
+- Latin (==Miserere==, ==Nec plus==, ==Requiem delectabile [sic]==): keep Latin with ==highlight== + footnote; preserve [sic] on the garbled mock-Latin
+- Italian Dante-style (==A moi veniva la creatura bella. Di bianco vestita==): keep Italian with ==highlight== + footnote; later in-text echo "di bianco vestita" left unmarked
+- French song/opera titles kept: "Ma belle Girofla" (Lecocq operetta), «Річард Левине Серце» (Grétry, *Richard Cœur de Lion*) — footnote
+- Marot-style begging verse & Richard-Cœur-de-Lion parody verse: rendered as free verse keeping cadence/tone; rhyme not fully reproduced
+- Allusions footnoted: Buckingham/Anne d'Autriche (Dumas), Fouquet/Vaux-le-Vicomte, Clément Marot
+- SPELLING/wordplay "je ne m'en fiche pas mai" [for "mal"]: rendered as wordplay "начхати — і не мало"
+- Place names: Bingenbrueck→Бінгенбрюк, Rüdesheim→Рюдесгайм, Eltvil→Ельтвіль, Schlangenbad→Шлянгенбад, rue de la Paix→вулиця Міру
+- "La Juive" (Halévy) → «Жидівка» (established 029)
+- [Raye:]→[Викреслено:]; [En travers:]→[Навскоси:]; [Huit pages arrachées]→[Вісім сторінок вирвано]; [Deux lignes cancellées]→[Два рядки закреслено]
+
+### Updated
+- 2026-05-30: Added carnet 038 terms (Paris visit Aug 1875: Bois de Boulogne society, Worth/couturiers, Audiffret in Paris, Gioia/Centifolia obsession, Egyptian tarot prophecies, suicidal-crisis prayer entry, Marot-style verse, Schlangenbad arrival, English/Russian/Latin/Italian multilingual conventions)
+
+## Carnet 036 Additions
+
+### Nice Summer Season & Audiffret's Declaration (July 9–14, 1875)
+
+#### People & Nicknames (Carnet 036)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Girofla / Audiffer / Fia / Audiffret | Джирофла / Одіффер / Фла / Одіффре | Émile d'Audiffret; "Audiffer"/"Fia" = Marie's truncated shorthand → Одіффер/Фла (keep casual flavor); nickname from Lecocq operetta (established 030/035) |
+| mon Niçois | мій ніццець | Pet name for Audiffret ("my Nice man") |
+| le petit / le grand Audiffret | «малий» / довготелесий Одіффре | Diminutive ("малий" in quotes) vs. physical epithet ("tall") |
+| son frère (Audiffret, via Olga) | «братик» | Audiffret as Olga's honorary brother; keep in quotes to mark non-literal use |
+| mère Georges | матінка Жорж | Proprietress of the seaside bathing establishment; "mère" = matron-title, not mother |
+| Fiouloulou (Detriaz) | Фіулулу | Audiffret's follower/sidekick |
+| Godard / Désiré | Ґодар / Дезіре | "Désiré" = Marie's ironic nickname for Godard ("desired one") |
+| Gautier / Pépino | Ґотьє / Пепіно | "Pépino" = Olga's flirtation during Audiffret's absence |
+| Chevalier | Шевальє | Secretary of the Nice prefecture |
+| Courson de La Villeneuve | Курсон де Ла Вільнев | New dance partner, first appearance |
+| Saëtone | Саетоне | Audiffret's uncle ("son neveu" = Audiffret); recurring (established 026/033) |
+| Danis | Даніс | Young man in the circle (established 035) |
+| Bihovetz | Біховець | Chaperone-figure; Polish general (established 030) |
+| Smirnoff | Смирнов | Russian expatriate; at Monte-Carlo gambling (established 035) |
+| Nina / Olga / Marie Sapogenikoff | Ніна / Ольга / Марі Сапоженікови | The Sapogenikoff sisters; "Three Graces" with Marie |
+| Gonzalès (père et fils) / Rémy | Ґонсалес / Ремі | Baden-Baden memory (~1870); Rémy de Gonzalès Moreno, boy Marie knew |
+| Brunet | Бруне | Latin tutor (established 029/030) |
+| Audiffret père | старий д'Одіффре | The father; vain (dyes hair), after legal séparation |
+
+#### Social & Period Vocabulary (Carnet 036)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| patronnesse | патронеса | Honorary sponsor at a charity fête (social honor) |
+| péronnelles | вертихвістки | Silly, empty-headed women (pejorative) |
+| tombola | томбола | Charity lottery with physical prizes |
+| fête (du Jardin Public) | свято (в Міському саду) | Summer charity fête |
+| cage (à billets) | будочка | Lottery-ticket booth at the fête |
+| les inondés | потерпілі від повені | Flood victims (June 1875 charity pretext) |
+| déclaration | освідчення / деклар… [sic] | Formal declaration of love; Audiffret's cut-off "déclar..." → "деклар… [sic]" |
+| faire la cour | залицятися | To court (established TM) |
+| abandonnée / délaissée | покинута | Abandoned woman (social stigma) |
+| roué de premier ordre | гульвіса найвищого ґатунку | Rake/libertine of the first order |
+| sur la sellette | на лаві підсудних | "On the hot seat" — parlor spotlight game |
+| fossette | ямочка | Marie's famous chin dimple (flirtation device) |
+| petits jeux | забавки | Parlor games |
+| quadrille fantaisie | вільна кадриль | Improvised quadrille |
+| chaîne des dames | дамський ланцюжок | Quadrille figure |
+| bals champêtres | сільські бали | Open-air country dances |
+| coiffure genre mythologique | зачіска в міфологічному стилі | Greek-inspired classical updo |
+| seyant | що личить | Becoming, flattering (established 019/032) |
+| en toilette | вбрана | Dressed up (established 032) |
+| amour-propre | самолюбство | Self-regard (not mere vanity) |
+| la séparation (de corps) | розлучення | Legal separation (divorce illegal in France until 1884) |
+| comme il faut | ==comme il faut== + footnote | Keep French (established 021/032); used with irony for the father |
+
+#### Idioms & Expressions (Carnet 036)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Humeur massacrante ! | Настрій убивчий! | Foul/murderous mood (stronger than "поганий настрій") |
+| à mourir de rire | можна вмерти зо сміху | Hilarious |
+| gagner une Pharsale | виграти Фарсал | Win a decisive victory (Caesar over Pompey, 48 BC) |
+| fatuité | самовдоволення | Vain self-satisfaction (stronger than vanité) |
+| fait la mine | дметься | Gives the cold shoulder (active hostility) |
+| air pincé | підібгані/підібгавши губи | Pinched, tight-lipped displeasure |
+| mon objet | предмет моєї уваги | The object of my affections (period romantic) |
+| la secousse | поштовх | The physical jolt/thrill (recurring with Audiffret) |
+| par demi-mots, par énigmes | натяками, загадками | By half-words, by riddles |
+| singeries | мавпування | Monkey business (established 033: мавпа/мавпування) |
+| faquins | фати | Rascals/cads (established 030/033) |
+| cette créature / cette détestable créature | ця істота / ця осоружна істота | Affectionate-hostile epithet for Audiffret |
+| j'veux bien mais j'peux pas | я б і хтіла, та не можу | Colloquial elision (Audiffret mimics Marie); "хтіла" = colloquial хотіла |
+| ne fait aucun frais d'imagination | ані крихти вигадки не докладе | Makes no effort (poor hostess) |
+| piquer des têtes | шубовснути сторч головою | Dive headfirst (reckless devotion) |
+| fi ! | Фе! | Exclamation of distaste (established 030) |
+| s'apprivoiser | ручніти | To warm up socially (lit. "tame oneself") |
+
+#### Multilingual Conventions (Carnet 036)
+- English code-switches (==Audiffret cares for me only as much as I care for him==, ==what is the matter?==): keep English with ==highlight== + footnote; manuscript "1 care" restored to "I care"
+- Latin tags (==sed fides deficit==, ==Quid melior?==, ==Audacter et amanter==): keep Latin with ==highlight== + footnote; corrupt "scd fidcs deficit" restored to "sed fides deficit" per LAN
+- ==London House== (Nice restaurant-hotel): keep English + footnote (established 035)
+- ==comme il faut==: keep French + footnote (established 021/032)
+- "déclar... [sic]": Audiffret's cut-off "déclaration" → "деклар… [sic]"; the [sic] attaches to the French slip
+- Manuscript footnote marker "^1^" (content unknown): preserve as superscript ¹ in the Ukrainian text
+- Manuscript notations: [En travers:] → [Навскоси:]; [Rayé:] → [Викреслено:]; [Une ligne cancellée:] → [Один рядок закреслено:]; [Six lignes cancellées] → [Шість рядків закреслено]
+- Editorial insertion "[avec]" → "[із]" (keep brackets)
+
+### Updated
+- 2026-05-30: Added carnet 036 terms (Nice July 1875, Audiffret's declaration at the ball, mère Georges bathing establishment, Three Graces, parlor games/fossette, Baden-Baden memory, baccalauréat ambition, English/Latin multilingual conventions)
+
+## Carnet 040 Additions
+
+#### People & Nicknames (Carnet 040)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Kechko | Кечко | |
+| Plevasko / Mme Plevasko | Плеваско / пані Плеваско | |
+| de Gonzales | де Ґонсалес | His accented "Maria" kept in Latin script ==highlight==+footnote (preserves the code-switch) |
+| Remy | Ремі | Marie's mock-engagement |
+| Moreno | Морено | |
+| vicomte Vigier | віконт Віж'є | |
+| Batourine | Батурін | |
+| Soukhanova | Суханова | |
+| Thadée Romanoff | Тадей Романов | Romanoff inheritance lawsuit |
+
+#### Period Vocabulary & Idioms (Carnet 040)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| marechal de noblesse | ватажок дворянства | Marshal of nobility (reconfirmed) |
+| ispravnik | справник | District police chief (Imperial Russia) |
+| particule | дворянська частка «de» | The nobiliary particle |
+| pays de saucissons | ковбасний край | "Sausage country" — Marie's derisive epithet for Germany |
+| décollée | знетямлюся | Colloquial "come unglued / beside oneself" |
+| affaire Giro-flienne | джирофлівська справа | Coined adjective from the Girofla nickname (hyphen flattened) |
+
+#### Multilingual & Naming Conventions (Carnet 040)
+- "Le Sport"→«Ле Спор»; "La Chatte blanche"→«Біла кішка»; "Procès Veauradieux"→«Процес Ворадьє»
+- Latin "Sola sum", "homo celeber": keep Latin with ==highlight== + footnote
+- Italian "mi vendicar", "questa cara Gioia di Schlangenbad": keep Italian ==highlight== + footnote
+- Marie's misspelled signature "Bashkirseff" → "Башкирцева" (no [sic]; the dropped Latin letter carries no meaning in Cyrillic transliteration — consistent with the 041 precedent)
+
+### Updated
+- 2026-05-30: Added carnet 040 terms (Paris Aug–Sep 1875, Romanoff inheritance lawsuit, anti-German invective, Berthe Boyd letters; folded in post-wave from tr-040's flagged list)

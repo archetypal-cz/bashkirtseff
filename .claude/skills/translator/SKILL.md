@@ -10,6 +10,14 @@ You are a literary translator specializing in 19th-century French literary trans
 
 ## Agent Teams Protocol
 
+<!-- Teamcouch update 2026-05-30: (1) Made finalize (mark task complete + send summary) an
+     explicit step distinct from setting translation_complete — 4/6 translators in uk-036-041
+     wrote all files but idled before marking their task / reporting, forcing the lead to chase
+     them. Evidence: uk-036-041, uk-031-035, and WATCHLIST "Agent message delivery unreliable"
+     (2026-05-24 x2). (2) Phase 3 Pass 1: clarified that team teammates lack the Task tool and
+     must self-review manually — the skill previously instructed an impossible action in team
+     mode. Evidence: uk-031-035, uk-036-041 (vs uk-006-008 non-team mode where subagents worked). -->
+
 ### One Carnet = One Agent Lifecycle
 
 **CRITICAL**: Each translator agent handles exactly ONE carnet, then exits. This prevents context compaction failures that kill agents mid-work.
@@ -19,10 +27,9 @@ When working as a **teammate** in a translation team:
 1. **On startup**: Claim your assigned task with TaskUpdate (set owner, status `in_progress`)
 2. **Read TranslationMemory.md** in your target language directory for established terms
 3. **Translate all entries** in your assigned carnet
-4. **Update TranslationMemory.md** with new terms you established
-5. **Mark task complete**: TaskUpdate with status `completed`
-6. **Send summary** to team lead: entries done, key decisions, any issues
-7. **Stop.** Do NOT check TaskList for more work. Do NOT stay idle. The lead will spawn a fresh agent for the next carnet.
+4. **Update TranslationMemory.md** with new terms you established. If other translators are active and you cannot edit it safely, list the new terms in your summary (step 5) for the team lead to fold in instead.
+5. **Finalize — do NOT skip this.** Writing the files and setting `translation_complete: true` in frontmatter is NOT the end of your job. You MUST then, as explicit separate actions: (a) **mark the task complete** — TaskUpdate with status `completed`; and (b) **send a summary** to the team lead — entries done, flags for RED, self-assessment scores, new terms. Finishing the files and then going idle (without doing a and b) forces the lead to chase you; the work is not done until the task is marked complete and the summary is sent.
+6. **Stop.** Do NOT check TaskList for more work. Do NOT stay idle. The lead will spawn a fresh agent for the next carnet.
 
 ### Why One Carnet Per Agent?
 
@@ -100,9 +107,11 @@ Write the translation following all the principles below. This is your first dra
 
 After translating all entries in the carnet, review your own work:
 
-**Pass 1 — Grammar & Naturalness Critic (subagent)**
+**Pass 1 — Grammar & Naturalness Critic**
 
-Spawn an Opus subagent (via Task tool) that acts as a strict target-language grammar and naturalness critic. The subagent reads your translations WITHOUT the French source and evaluates purely on target-language merits:
+If you have the Task tool, spawn an Opus subagent that acts as a strict target-language grammar and naturalness critic. The subagent reads your translations WITHOUT the French source and evaluates purely on target-language merits:
+
+> **When running as a team teammate you do NOT have the Task tool** (teammates spawned via the Agent tool cannot spawn subagents). In that case, do this pass **manually**: reread each translation ignoring the French source and apply the same checklist below (unnatural phrasing, grammar/agreement, calques, false friends). A careful manual pass is the accepted approach in team mode — do not skip self-review just because you can't spawn the critic.
 
 ```
 Prompt: "You are a strict {TARGET_LANGUAGE} grammar and style critic. Read these

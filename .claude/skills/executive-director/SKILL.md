@@ -402,6 +402,15 @@ Translating a full carnet (25-36 entries) consumes most of the context window. A
 - "When done, mark the task complete, send a summary to team lead, then STOP."
 - "Do NOT check TaskList for more work. Do NOT stay idle."
 
+<!-- Teamcouch update 2026-05-30: review-agent "wait for ping" default + disk-state monitoring.
+     Evidence: uk-031-035, uk-036-041 (RED/CON idle poll-loops while blocked; 4/6 translators in
+     036-041 finished files but idled before finalizing). -->
+**Review agents (RED/CON) — wait for ping, don't poll.** Their tasks are blocked (CON) or have
+no work yet (RED) until a carnet is translated, so polling TaskList just produces wake/idle
+churn. Tell them in the spawn prompt: "Do NOT poll TaskList in a wake/idle loop. Wait passively;
+the team lead will message you the moment a carnet is ready for you." Then ping them per carnet,
+smallest-first. (con2 in 036-041 also usefully pre-read in-progress originals while waiting.)
+
 **Translator-specific:**
 - Key terminology from TranslationMemory.md (top 15-20 terms)
 - If resuming a partially-done carnet: explicit list of remaining entries + "DO NOT redo existing files"
@@ -437,6 +446,22 @@ Sessions can die mid-run. To enable clean resumption:
 **Before each wave**, note the state:
 - Which carnets are assigned to which translator
 - How many entries each has completed (check `content/{lang}/{carnet}/`)
+
+**Watch disk state, not just task state.** Translators frequently write all their files and set
+`translation_complete: true` but go idle *before* marking their TR task complete or sending a
+summary. Don't wait indefinitely on the task board — periodically check
+`grep -l "translation_complete: true" content/{lang}/{carnet}/*.md | wc -l` against the entry
+count, and when a carnet is fully on disk but its task is still `in_progress`, nudge the
+translator to finalize (mark complete + summarize) or hand the carnet to RED yourself.
+Likewise, **after any session pause/resume, verify pipeline state on disk** (`conductor_approved`
+/ `editor_approved` counts) — in-flight pings can be lost across the gap (a CON ping for carnet
+032 was dropped this way in uk-031-035; caught by a disk check, re-sent, completed normally).
+
+**One team per leader.** A leader can lead only one team at a time, so you cannot create a fresh
+`{lang}-{next-range}` team for the next wave while still leading the current one. Either finish
+and `TeamDelete` the current team first, or reuse the current team and add the next wave's tasks
+to it (uk-036-041 reused uk-031-035's team and task list — cosmetic only; reports split by carnet
+range regardless).
 
 **When resuming a session:**
 1. Check `content/{lang}/{carnet}/` for existing translations per carnet

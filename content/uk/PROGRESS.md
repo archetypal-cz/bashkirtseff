@@ -1,6 +1,6 @@
 # Ukrainian Translation Progress
 
-<!-- Last updated: 2026-05-24 -->
+<!-- Last updated: 2026-05-30 -->
 <!-- Updated by: @kerray -->
 
 ## Overview
@@ -9,11 +9,11 @@
 |--------|-------|
 | **Total carnets** | 107 |
 | **Total entries** | ~3,300 |
-| **Carnets translated** | 26 (000-025) |
-| **Carnets fully approved** | 26 (000-025) |
-| **Entries translated** | 688 |
-| **Entries conductor-approved** | 688 |
-| **Overall progress** | ~21% translated |
+| **Carnets translated** | 42 (000-041) |
+| **Carnets fully approved** | 42 (000-041) |
+| **Entries translated** | 912 |
+| **Entries conductor-approved** | 912 |
+| **Overall progress** | ~28% translated |
 
 ## Carnet Status
 
@@ -45,6 +45,22 @@
 | 023 | 35 | 100% | 100% | 100% | Approved (wave 6) |
 | 024 | 41 | 100% | 100% | 100% | Approved (wave 6) |
 | 025 | 23 | 100% | 100% | 100% | Approved (wave 6) |
+| 026 | 5 | 100% | 100% | 100% | Approved (prior session) |
+| 027 | 30 | 100% | 100% | 100% | Approved (prior session) |
+| 028 | 27 | 100% | 100% | 100% | Approved (prior session) |
+| 029 | 29 | 100% | 100% | 100% | Approved (prior session) |
+| 030 | 33 | 100% | 100% | 100% | Approved (prior session) |
+| 031 | 20 | 100% | 100% | 100% | Approved (wave 7) |
+| 032 | 24 | 100% | 100% | 100% | Approved (wave 7) |
+| 033 | 21 | 100% | 100% | 100% | Approved (wave 7) |
+| 034 | 11 | 100% | 100% | 100% | Approved (wave 7) |
+| 035 | 2 | 100% | 100% | 100% | Approved (wave 7) |
+| 036 | 6 | 100% | 100% | 100% | Approved (wave 8) |
+| 037 | 7 | 100% | 100% | 100% | Approved (wave 8) |
+| 038 | 11 | 100% | 100% | 100% | Approved (wave 8) |
+| 039 | 12 | 100% | 100% | 100% | Approved (wave 8) |
+| 040 | 5 | 100% | 100% | 100% | Approved (wave 8) |
+| 041 | 2 | 100% | 100% | 100% | Approved (wave 8) |
 
 ## Quality Metrics
 
@@ -56,11 +72,13 @@
 | 4 | 2026-02-17 | 015-017 | 0.953 | 0.31 |
 | 5 | 2026-05-24 | 018-022 | 0.952 | 0.27 |
 | 6 | 2026-05-24 | 023-025 | 0.960 | 0.14 |
+| 7 | 2026-05-30 | 031-035 | 0.956 | 0.08 |
+| 8 | 2026-05-30 | 036-041 | 0.963 | 0.05 |
 
 ## Active Work
 
-- All 26 translated carnets (000-025) now fully conductor-approved
-- Next translation target: carnet 026+
+- All 42 translated carnets (000-041) now fully conductor-approved (912 entries)
+- Next translation target: carnet 042+
 
 ## How to Contribute
 
