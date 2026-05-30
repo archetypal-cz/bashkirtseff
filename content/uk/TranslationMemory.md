@@ -63,6 +63,18 @@ Established terminology for consistent translation across carnets.
 | Bibi | Бібі | Audiffret nickname (footnote on first use) |
 | la Tour | Башта | Audiffret's estate/tower |
 | un sucre | цукерочка | Audiffret's pet word (recurs); "Оце цукерочка!", "дівчина-цукерочка" |
+| Belle-de-Jour (Audiffret nickname) | Красень-Денний | ironic/mocking nickname for Audiffret |
+| le Dépravé / le Dévergondé | Розпусний / Безсоромний | Marie's nicknames for Audiffret & his father |
+| le Téméraire (Audiffret) | Сміливий | echo of Charles le Téméraire |
+| gandin | фертик | period slang: fop/dandy (cf. viveur→гульвіса) |
+| Pincio | Пінчо | Rome's fashionable promenade (Marie in Rome from carnet 051) |
+| Antonelli (cte Pietro) / cardinalino | Антонеллі / кардинальчик | Rome suitor (cardinal's nephew); recurs carnets 053-055+ |
+| Bruschetti (cte Vincenzo) | Брускетті | Rome suitor |
+| Doria | Дорія | Rome suitor ("Doria blanc" → білий Дорія) |
+| Troili (Eusebio) | Тройлі / Ґалула | Rome social fixer / street-suitor; never called «Сорока» |
+| Torlonia (Clément/Clemente) | Торлонія (Клемент/Клементе) | Rich Roman duke suitor (carnet 055+); "le blond sympathique"→«милий блондин» |
+| la Pointue (Miss Robenson) | Гостра | Audiffret's flirt; declined Гострої. NOT «Гоструха» — use «Гостра» (established 051-053) |
+| soroka / la Pie (magpie) | Сорока | Marie's GENERIC pet-word for street-admirers (Russ. соро́ка=magpie); applied to DIFFERENT men across carnets — Audiffret as «брита́я соро́ка»/«Голена Сорока» (052), Giorgio the gardener (054). NOT a single-person nickname; translate faithfully per context, footnote the reuse on first appearance per carnet. |
 
 ## Place Names
 | French | Ukrainian | Notes |
