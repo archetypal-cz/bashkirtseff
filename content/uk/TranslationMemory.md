@@ -52,6 +52,17 @@ Established terminology for consistent translation across carnets.
 | les mauvaises femmes | розпусні жінки | Courtesans/mistresses (period euphemism) |
 | sa maîtresse | його коханка | His mistress |
 | matinée musicale | музичний ранок | Morning concert/performance |
+| planter là | кинути напризволяще | To abandon/ditch someone |
+| chagrin d'amour | любовне горе | Heartbreak/lovesickness |
+| don juanerie | донжуанство | Marie's neologism — womanizing/Don-Juan behavior |
+| la vieille chanson de Nice | давня пісня Ніцци | Recurring refrain of social abandonment |
+| châtelain | володар замку | Lord of the castle (Audiffret in his Tour) |
+| bonnet grec et robe de chambre | грецький ковпак і халат | Recurring "Procès Veauradieux" cuckold motif |
+| le Niçois (demonym) | ніццянець | Inhabitant of Nice / Audiffret as "the man from Nice"; declined ніццянця/ніццянців/по-ніццянському. NOT «ніжець»/«ніццеєць». "mon Niçois" (pet name) = «мій ніццець». |
+| le Surprenant | Дивовижний | Audiffret nickname (recurs in carnets 049+) |
+| Bibi | Бібі | Audiffret nickname (footnote on first use) |
+| la Tour | Башта | Audiffret's estate/tower |
+| un sucre | цукерочка | Audiffret's pet word (recurs); "Оце цукерочка!", "дівчина-цукерочка" |
 
 ## Place Names
 | French | Ukrainian | Notes |
