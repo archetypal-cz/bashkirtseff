@@ -1,0 +1,3 @@
+# Per-session dedup markers written by the session-end (Stop) hook.
+# These are local scratch state, never committed.
+.markers/

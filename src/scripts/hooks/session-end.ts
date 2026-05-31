@@ -9,15 +9,107 @@
  * - Auto-commit if configured
  */
 
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync, readdirSync, rmSync, mkdirSync, writeFileSync } from 'fs';
+import { join } from 'path';
+import { createHash } from 'crypto';
 import { execSync } from 'child_process';
 import { loadWorkerConfig, getProjectRoot, getTimestamp } from './lib/config.js';
 import { addChangelogEntry, getReadmePath } from './lib/readme-parser.js';
 import { syncAllTodos } from './lib/todo-sync.js';
 import { generateReportStub } from './lib/report.js';
-import type { HookInput, HookOutput } from './lib/types.js';
+import type { HookOutput } from './lib/types.js';
+
+/**
+ * The JSON payload Claude Code feeds a Stop hook on stdin.
+ * `stop_hook_active` is true when this Stop was itself triggered by a
+ * previous Stop-hook continuation — bailing on it prevents loops.
+ */
+interface StopHookPayload {
+  session_id?: string;
+  transcript_path?: string;
+  hook_event_name?: string;
+  stop_hook_active?: boolean;
+  cwd?: string;
+}
+
+/** Read and parse the Stop-hook stdin payload (best-effort). */
+function readStopPayload(): StopHookPayload {
+  try {
+    const raw = readFileSync(0, 'utf-8').trim();
+    if (!raw) return {};
+    return JSON.parse(raw) as StopHookPayload;
+  } catch {
+    return {};
+  }
+}
+
+const REPORTS_SUBDIR = join('.claude', 'reports');
+
+/**
+ * Whether a report has already been generated for this session.
+ * Keyed on session_id via a marker file under .claude/reports/.markers/.
+ * This makes the hook idempotent across repeated Stop fires in one session.
+ */
+function sessionMarkerPath(sessionId: string): string {
+  const root = getProjectRoot();
+  const safe = sessionId.replace(/[^A-Za-z0-9_-]/g, '_');
+  return join(root, REPORTS_SUBDIR, '.markers', `${safe}.session`);
+}
+
+function reportAlreadyGenerated(sessionId: string): boolean {
+  return existsSync(sessionMarkerPath(sessionId));
+}
+
+function markReportGenerated(sessionId: string, filename: string): void {
+  const marker = sessionMarkerPath(sessionId);
+  mkdirSync(join(marker, '..'), { recursive: true });
+  writeFileSync(marker, `${new Date().toISOString()} ${filename}\n`, 'utf-8');
+}
+
+/**
+ * Content-hash dedup safety net. `generateReportStub` writes its file
+ * unconditionally (allocating a fresh -N name), so after it returns we
+ * check whether the freshly written report is byte-identical to another
+ * existing report. If so, we delete the just-written duplicate and return
+ * the canonical (pre-existing) filename instead.
+ */
+function dedupAgainstExisting(filename: string): { kept: string; removedDuplicate: boolean } {
+  const root = getProjectRoot();
+  const dir = join(root, REPORTS_SUBDIR);
+  const newPath = join(dir, filename);
+  if (!existsSync(newPath)) return { kept: filename, removedDuplicate: false };
+
+  const newHash = createHash('sha256').update(readFileSync(newPath)).digest('hex');
+
+  const others = readdirSync(dir).filter(
+    (f) => f.endsWith('.md') && f !== filename
+  );
+  for (const other of others) {
+    const otherPath = join(dir, other);
+    try {
+      const otherHash = createHash('sha256').update(readFileSync(otherPath)).digest('hex');
+      if (otherHash === newHash) {
+        // Identical report already exists — drop the new duplicate.
+        rmSync(newPath);
+        return { kept: other, removedDuplicate: true };
+      }
+    } catch {
+      // ignore unreadable files
+    }
+  }
+  return { kept: filename, removedDuplicate: false };
+}
 
 async function main(): Promise<void> {
+  const payload = readStopPayload();
+
+  // Prevent Stop-hook loops: if this Stop was triggered by a prior
+  // Stop-hook continuation, do nothing.
+  if (payload.stop_hook_active) {
+    console.log(JSON.stringify({ success: true, actions: ['skipped: stop_hook_active'] }));
+    return;
+  }
+
   const output: HookOutput = {
     success: true,
     actions: [],
@@ -67,14 +159,35 @@ async function main(): Promise<void> {
     console.error('No changes to commit.');
   }
 
-  // Generate run report if there was team/translation work
+  // Generate run report if there was team/translation work.
+  // Idempotency: a real session should produce at most ONE draft report.
+  // We guard with a per-session marker (keyed on session_id) so that the
+  // many Stop events a single session emits don't each spawn a fresh
+  // -N duplicate. As a backstop (e.g. missing session_id), we also dedup
+  // the freshly written report against existing byte-identical reports.
+  const sessionId = payload.session_id;
   try {
-    const reportFile = await generateReportStub();
-    if (reportFile) {
+    if (sessionId && reportAlreadyGenerated(sessionId)) {
       console.error('');
-      console.error(`Draft run report generated: .claude/reports/${reportFile}`);
-      console.error('Fill in agent lifecycle, issues, and observations, then change status to "final".');
-      (output.actions as string[]).push(`report: ${reportFile}`);
+      console.error('Run report already generated for this session — skipping.');
+      (output.actions as string[]).push('report: skipped (already generated this session)');
+    } else {
+      const reportFile = await generateReportStub();
+      if (reportFile) {
+        const { kept, removedDuplicate } = dedupAgainstExisting(reportFile);
+        if (sessionId) markReportGenerated(sessionId, kept);
+        console.error('');
+        if (removedDuplicate) {
+          console.error(
+            `Run report identical to existing .claude/reports/${kept} — duplicate not kept.`
+          );
+          (output.actions as string[]).push(`report: deduped to ${kept}`);
+        } else {
+          console.error(`Draft run report generated: .claude/reports/${kept}`);
+          console.error('Fill in agent lifecycle, issues, and observations, then change status to "final".');
+          (output.actions as string[]).push(`report: ${kept}`);
+        }
+      }
     }
   } catch (err) {
     console.error(`Report generation failed: ${err}`);
