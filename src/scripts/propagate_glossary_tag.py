@@ -25,6 +25,11 @@ def parse_args():
     p.add_argument('--display', default='Marriage', help='display name for [#Name]')
     p.add_argument('--langs', default='cz,uk,en,fr')
     p.add_argument('--apply', action='store_true', help='write changes (default: dry-run)')
+    p.add_argument('--from', dest='from_lang', default=None, metavar='LANG',
+                   help='Seed propagation from paragraphs tagged in this language '
+                        '(e.g. en). For each (carnet, paragraph) tagged in <LANG>, '
+                        'ensure the tag is present in source AND every other language. '
+                        'Omit for the default source -> translations behavior.')
     return p.parse_args()
 
 PARA_RE = re.compile(r'^(?:%%\s*([0-9]{3}\.[0-9]{4})\s*%%|\[//\]:\s*#\s*\(\s*([0-9]{3}\.[0-9]{4})\s*\))\s*$')
@@ -60,12 +65,16 @@ def source_tagged_paras(orig_dir, target):
             out[(carnet, base)] = tagged
     return out
 
-def detect_prefix(lines):
-    # All translations live at content/{lang}/{carnet}/file.md, so the correct
-    # relative path to the glossary is ALWAYS ../../_original/_glossary/.
+def detect_prefix(lines, lang='_translation'):
+    # The canonical glossary lives at content/_original/_glossary/. Relative path depth
+    # depends on the tree the target file lives in:
+    #   - source  content/_original/{carnet}/file.md -> ../_glossary/        (one ..)
+    #   - lang    content/{lang}/{carnet}/file.md     -> ../../_original/_glossary/ (two ..)
     # We deliberately do NOT copy the file's own prefix: fr and parts of uk carry a
     # pre-existing path-depth bug (../_glossary/ which doesn't resolve from this depth),
     # and replicating it would insert broken links. Use the correct fixed prefix.
+    if lang == '_original':
+        return '../'
     return '../../_original/'
 
 def tag_style(lines):
@@ -80,10 +89,23 @@ def tag_style(lines):
 
 def propagate(args):
     target, display = args.target, args.display
-    langs = [l.strip() for l in args.langs.split(',') if l.strip()]
-    src = source_tagged_paras('content/_original', target)
-    print(f"Source paragraphs with [#{display}]: "
-          f"{sum(len(v) for v in src.values())} across {len(src)} files\n")
+    from_lang = getattr(args, 'from_lang', None)
+    if from_lang:
+        # Seed from a translation: read tags in content/<from_lang>/, then ensure the
+        # tag in source AND every other language that has the paragraph.
+        seed_dir = f'content/{from_lang}'
+        src = source_tagged_paras(seed_dir, target)
+        all_langs = ['_original'] + [l.strip() for l in args.langs.split(',') if l.strip()]
+        langs = [l for l in all_langs if l != from_lang]
+        print(f"Seed language: {from_lang}")
+        print(f"{from_lang} paragraphs with [#{display}]: "
+              f"{sum(len(v) for v in src.values())} across {len(src)} files")
+        print(f"Propagating into: {', '.join(langs)}\n")
+    else:
+        langs = [l.strip() for l in args.langs.split(',') if l.strip()]
+        src = source_tagged_paras('content/_original', target)
+        print(f"Source paragraphs with [#{display}]: "
+              f"{sum(len(v) for v in src.values())} across {len(src)} files\n")
 
     grand = {}
     for lang in langs:
@@ -94,7 +116,7 @@ def propagate(args):
                 no_file += 1
                 continue
             lines = open(tf, encoding='utf-8').read().split('\n')
-            prefix = detect_prefix(lines)
+            prefix = detect_prefix(lines, lang)
             style = tag_style(lines)
             link = f'[#{display}]({prefix}_glossary/{target})'
             tagline = f'%% {link} %%' if style == '%%' else f'[//]: # ({link})'
