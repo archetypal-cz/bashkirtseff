@@ -469,6 +469,13 @@ range regardless).
 3. RED should review ALL entries (both previously translated and new)
 4. CON should review from the first carnet that lacks `conductor_approved: true`
 
+<!-- Teamcouch update 2026-05-31: post-resume nudges need explicit item lists.
+     Evidence: cz-050-055 (red + tr-6 woke from a rate-limit pause and idled without
+     resuming; a vague "continue where you left off" did nothing — explicit per-file
+     lists restarted them immediately). Sits within the 3+-report session-interruption
+     pattern (uk-031-035, uk-036-041, cz-050-055). -->
+**Nudging a STALLED mid-work agent (already-running teammate that idled across a pause/resume) is different from a fresh spawn.** A vague "continue where you left off" frequently fails to restart it. Compute the exact remaining work from disk and hand it an explicit checklist by name: for a translator, the specific missing entry dates (originals with no `content/{lang}/{carnet}/` file); for RED, the entries lacking `editor_approved: true`. Then re-check disk a minute later to confirm it actually re-engaged — don't trust the idle/ack alone.
+
 ### Terminology Coordination
 
 Between waves (or every ~30 minutes):
