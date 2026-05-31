@@ -18,11 +18,11 @@
 
 %% SUM.001.0007 %%
 %% The Bashkirtseff family - Russian minor nobility living abroad after the parents' separation - had settled in Nice's Villa Baquis. Marie's household included her mother Maria Stepanovna, her cousin Dina, her governess Mlle Collignon, and various servants. The family participated fully in Nice's winter season: attending the opera, riding horses, visiting other families, and making the short trip to Monaco for events like the prestigious pigeon shooting competitions that attracted Europe's wealthiest sportsmen. %%
-%% [#MAMAN](../_glossary/people/family/MAMAN.md) [#DINA](../_glossary/people/core/DINA.md) [#COLLIGNON](../_glossary/people/mentioned/COLLIGNON.md) %%
+%% [#MAMAN](../../_original/_glossary/people/family/MAMAN.md) [#DINA](../../_original/_glossary/people/core/DINA.md) [#COLLIGNON](../../_original/_glossary/people/mentioned/COLLIGNON.md) %%
 
 %% SUM.001.0008 %%
 %% The Duke of Hamilton whom Marie so admires was William Alexander Douglas-Hamilton, 12th Duke of Hamilton (1845-1895), one of Scotland's wealthiest noblemen. He was known for his sporting interests, his yacht, and his extravagant lifestyle - all details Marie captures accurately. He would marry Lady Mary Montagu later in 1873, unbeknownst to the young diarist. %%
-%% [#DUKE_OF_HAMILTON](../_glossary/people/core/DUKE_OF_HAMILTON.md) %%
+%% [#DUKE_OF_HAMILTON](../../_original/_glossary/people/core/DUKE_OF_HAMILTON.md) %%
 
 %% SUM.001.0009 %%
 ## Reading Notes

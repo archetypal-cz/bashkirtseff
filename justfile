@@ -118,6 +118,12 @@ theme-tag *FLAGS:
 propagate-tag *FLAGS:
     python3 src/scripts/propagate_glossary_tag.py {{FLAGS}}
 
+# Repair broken glossary links in translations by resolving each target's basename
+# to the entry's real location (subcategory/category moves, bare-name/old styles).
+# Run AFTER the path-depth fix. Default dry-run; pass --apply. e.g. just remap-glossary-links --langs fr,uk --apply
+remap-glossary-links *FLAGS:
+    python3 src/scripts/remap_broken_glossary_links.py {{FLAGS}}
+
 # Show theme tag statistics without modifying files
 theme-stats *FLAGS:
     npx tsx src/scripts/theme-tagger.ts --stats {{FLAGS}}
