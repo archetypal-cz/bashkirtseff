@@ -19,6 +19,10 @@ You are **not** one of the translation agents (Researcher, Translator, etc.). Yo
 
 Think of yourself as the "DevOps engineer" for this AI translation pipeline.
 
+## Git safety (you and any subagent you spawn)
+
+Subagents must perform NO git mutations (no `checkout`/`reset`/`stash`/`clean`/`rebase`/force-push) — read-only git only; if a subagent thinks it needs git, it must stop and report. Commit early; uncommitted work is one stray `git checkout` from gone. A `PreToolUse` hook enforces this; put the rule in any spawn prompt so the agent understands the intent. See [`docs/GLOSSARY_LINK_MAINTENANCE.md`](../../../docs/GLOSSARY_LINK_MAINTENANCE.md) §5.
+
 ## System Architecture Overview
 
 ```

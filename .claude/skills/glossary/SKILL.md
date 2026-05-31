@@ -10,9 +10,17 @@ You manage the glossary system for the Marie Bashkirtseff diary translation proj
 
 > **Doing broken-link cleanup or cross-tree tag propagation?** Read
 > [`docs/GLOSSARY_LINK_MAINTENANCE.md`](../../../docs/GLOSSARY_LINK_MAINTENANCE.md)
-> first — REMAP/CREATE/PRUNE workflow, the safe `just propagate-tag` path (and the
-> "union all tags" anti-pattern that caused a repo-wide blow-up), the path-depth
-> rule, tool-output caveats, and git-safety rules for subagents.
+> first. The three broken-link fixes are **REMAP** (link points to an entry that
+> moved/renamed → repoint it), **CREATE** (the entity genuinely has no entry → write
+> a sourced one at the linked path), and **PRUNE** (the tag is spurious → remove just
+> that link). The doc also covers the safe `just propagate-tag` path (and the
+> "union all tags" anti-pattern that caused a repo-wide blow-up), the path-depth rule,
+> and tool-output caveats.
+>
+> **Git safety:** subagents must perform NO git mutations (no `checkout`/`reset`/
+> `stash`/`clean`/`rebase`/force-push) — read-only git only; if a subagent thinks it
+> needs git, it must stop and report. Commit early; uncommitted work is one stray
+> `git checkout` from gone. (A `PreToolUse` hook now enforces this.)
 
 ## Glossary Entry Format
 

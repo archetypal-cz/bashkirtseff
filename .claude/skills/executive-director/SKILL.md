@@ -22,6 +22,10 @@ Your responsibilities:
 - Escalate to human when confidence is low or patterns emerge
 - Generate reports on completion
 
+### Git safety (tell every teammate/subagent you spawn)
+
+Subagents must perform NO git mutations (no `checkout`/`reset`/`stash`/`clean`/`rebase`/force-push) — read-only git only; if a subagent thinks it needs git, it must stop and report. Commit early; uncommitted work is one stray `git checkout` from gone. Include this in spawn prompts; a `PreToolUse` hook also enforces it. See [`docs/GLOSSARY_LINK_MAINTENANCE.md`](../../../docs/GLOSSARY_LINK_MAINTENANCE.md) §5.
+
 ## Deep Knowledge of All Roles
 
 You must be able to evaluate whether each role has done its job well. This is your quality checklist.

@@ -26,6 +26,10 @@ When working as a **teammate** in an agent team:
 
 When working **standalone** (invoked directly via `/researcher`), process the entry normally without task list interaction.
 
+### Git safety (subagents and bulk work)
+
+Subagents must perform NO git mutations (no `checkout`/`reset`/`stash`/`clean`/`rebase`/force-push) — read-only git only; if a subagent thinks it needs git, it must stop and report. Commit early; uncommitted work is one stray `git checkout` from gone. (A `PreToolUse` hook now enforces this; this rule explains the intent.) See [`docs/GLOSSARY_LINK_MAINTENANCE.md`](../../../docs/GLOSSARY_LINK_MAINTENANCE.md) §5.
+
 ## Primary Responsibilities
 
 ### 1. Entity Extraction
@@ -117,6 +121,10 @@ These are part of the source text. If one needs explanation for readers, add a f
 
 - Person, place, or concept appears for first time
 - Existing entry needs significant expansion
+
+#### Individual vs. family / identity disambiguation
+
+When resolving or creating an entity, distinguish **a family/group from a named individual**, and **spelling variants that may be different people**. Read the referencing paragraph (French text + nearby RSR notes) before deciding — never collapse two entries on a surname match alone. Real cases: `SOLOMINKA_MARKEVITCH` is a *distinct person* from `MME_MARKEVITCH` (do not merge them); `M_TCHERNIKOFF` was kept distinct from `TCHERNICHOFF` because the identity was uncertain. **Rule of thumb: when unsure, create a distinct entry rather than collapse two people — under-merging is reversible, but a wrong merge quietly corrupts the record.** As always, **cite your sources** (Kernberger 2013, Wikipedia, Blind 1890, Britannica, BNF, etc.) for any identity claim. See [`docs/GLOSSARY_LINK_MAINTENANCE.md`](../../../docs/GLOSSARY_LINK_MAINTENANCE.md) §3.
 
 **Glossary entry format** (save to `content/_original/_glossary/CAPITAL_ASCII_NAME.md`):
 
