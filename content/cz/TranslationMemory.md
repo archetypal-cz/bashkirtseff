@@ -553,6 +553,201 @@ When translating, refer to this document for established translations of recurri
 - Context: Russian proverb (absurdist insult) quoted literally by Papa about Audiffret
 - First appearance: 033 (1875-05-24)
 
+## Carnet 051 Terms
+
+### le Surprenant (nickname for Audiffret)
+- Translation (Czech): Záhadný
+- Context: Marie's dominant nickname for Emile d'Audiffret throughout carnet 051 ("the Surprising/Puzzling One"); used as a quasi-proper name, capitalized
+- First appearance: 051 (1875-12-28)
+- Notes: Recurs constantly; "Záhadný" captures both "surprising" and Marie's bafflement at his behavior. Other Audiffret nicknames in 051: le Deprave → Zhýralý, le Temeraire → Smělý, Belle-de-Jour → Krasavec dne
+
+### tu pourriras / Alfeda-da-fe / les moines de Cimiez
+- Translation (Czech): shniješ / Alfeda-da-fe / Mniši z Cimiez
+- Context: Marie's anonymous mock-letter campaign to Audiffret — "you will rot" curse, the "auto-da-fé" pseudonym, and the invented "Monks of Cimiez" monastery letters parodying religious conversion
+- First appearance: 051 (1875-12-28 onwards)
+- Notes: "pourrir" → "shnít" (preserve as recurring taunt); mock-legal/mock-monastic register preserved in elevated parody tone
+
+### la Pointue / la Belle Americaine (Miss Robenson)
+- Translation (Czech): Špičatá / Krásná Američanka
+- Context: Marie's nicknames for Miss Robenson, Audiffret's love interest ("the Pointed/Angular One" for her thinness)
+- First appearance: 051 (1875-12-30)
+
+### me cracher dessus
+- Translation (Czech): plivat na (mě/nás)
+- Context: Marie's recurring expression for social contempt/rejection — literally "to spit on"; she attributes it to Audiffret as his vulgar habit
+- First appearance: 051 (recurring)
+- Notes: Keep literal "plivat na" — Marie emphasizes its crudeness as Audiffret's own favorite expression
+
+### Italian/Latin code-switching (carnet 051)
+- Convention: Keep foreign phrase in ==highlight==, add Pozn. překl. footnote with Czech translation
+- Examples: "Misera me", "Dio lo sa", "Orsù", "la vecchia canzone", "In nomine Patris...", "Tu quoque?"
+- First appearance: 051 (throughout)
+- Notes: Operatic/liturgical code-switching for dramatic effect; preserve original, translate in footnote per content/cz/CLAUDE.md foreign-passage rule
+
+## Carnet 052 Terms
+
+### le Surprenant (Audiffret) — carnet 052
+- Translation (Czech): Záhadný
+- Context: Continues from carnet 051; standardized to "Záhadný" throughout 052 for consistency
+- First appearance: 052 (1876-01-10)
+- Notes: TR initially drafted as "Podivuhodný" then aligned to 051's established "Záhadný" during self-review. Use Záhadný going forward.
+
+### la Pie rasee / soroka / britaya soroka (Audiffret)
+- Translation (Czech): Oholená straka / soroka
+- Context: New Audiffret nickname in 052, esp. from his aunt's letters; clean-shaven chattering "shaved magpie". Russian "britaya soroka" appears in 052.0294 (footnoted), abbreviated to "soroka"
+- First appearance: 052 (1876-01-12)
+- Notes: Keep Russian "soroka" as-is with footnote; French "la Pie rasee" → "Oholená straka"
+
+### l'Olive (rival Englishwoman)
+- Translation (Czech): Oliva
+- Context: Marie's contemptuous nickname for the Englishwoman monopolizing Audiffret at Monaco
+- First appearance: 052 (1876-01-13)
+
+### le Lutrin (Boileau)
+- Translation (Czech): Pulpit
+- Context: Boileau's mock-epic poem (1674–83); Marie plans to write one about the monk-letter affair
+- First appearance: 052 (1876-01-11)
+- Notes: Footnoted on first use
+
+### Petite Russie
+- Translation (Czech): Malá Rus
+- Context: Maman's answer to Pius IX about origin (historical term for Ukraine)
+- First appearance: 052 (1876-01-22)
+
+### le mal de Nice
+- Translation (Czech): nicejská nemoc
+- Context: Marie's coinage for homesickness for Nice
+- First appearance: 052 (1876-01-14)
+
+### moisir (figurative) / je moisis
+- Translation (Czech): plesnivět / plesnivím
+- Context: "to molder/go to waste" — Marie about her wasted youth and unworn dresses
+- First appearance: 052 (1876-01-11, 1876-01-20)
+
+### cardinalino
+- Translation (Czech): cardinalino (kept in Italian; "kardinálek")
+- Context: Marie's affectionate-mocking nickname for Pietro Antonelli, nephew of Cardinal Antonelli
+- First appearance: 054 (1876-02-24)
+- Notes: Keep the Italian diminutive; gloss as "kardinálek" only where needed
+
+## Carnet 053 Terms
+
+### Soroka (Roman admirer) / Galula (his companion)
+- Translation (Czech): Soroka / Galula
+- Context: In carnet 053 (Rome, Jan–Feb 1876) "Soroka" is the persistent Italian admirer who stares at and serenades Marie; "Galula" is his companion. Both kept as-is.
+- First appearance: 053 (1876-01-25, Soroka; 1876-02-07, Galula)
+- Notes: "Soroka" footnoted on first use as Russian for "magpie" (persistent starer). "Galula" is Marie's generic code-word for a suitor-type (cf. 033); kept untranslated. Marie distinguishes "Soroka de Rome" / "petit Soroka" from "Soroka de Nice".
+
+### Belle-de-jour (dream omen)
+- Translation (Czech): Belle-de-jour (kept French, footnoted "povíjnice / kráska dne")
+- Context: In 053 NOT the Audiffret nickname (cf. 051 "Krasavec dne") but a recurring ominous dream-figure (linked to "Bergerault"/Georges). Kept French to mark it as Marie's private omen.
+- First appearance: 053 (1876-01-30, 1876-02-03)
+- Notes: Distinct usage from 051; context-dependent. Footnote on first use.
+
+### craché par dessus / cracher dessus
+- Translation (Czech): plivnout na to navrch / plivat na
+- Context: Continues 051's "me cracher dessus" → "plivat na"; Audiffret "spat on top of" his contempt for Marie
+- First appearance: 053 (1876-01-24)
+
+### Bigre / Bigre de bigre
+- Translation (Czech): U sta hromů
+- Context: Marie's recurring mild oath (euphemism for "bougre"); rendered consistently
+- First appearance: 053 (1876-01-24), recurs throughout
+- Notes: Used for both "Bigre" and "Ibigre" exclamations.
+
+### Sapristi
+- Translation (Czech): U všech rohatých
+- Context: Mild oath of surprise (euphemism for "sacristie")
+- First appearance: 053 (1876-02-04)
+
+### les plobsters (de Rome)
+- Translation (Czech): plobsters (kept, footnoted)
+- Context: Marie's mangled English (from "lobsters") for a clique of young men; cf. 025 "plobster"
+- First appearance: 053 (1876-01-27)
+
+### de la graisse (ot zhiru)
+- Translation (Czech): z přejedení
+- Context: Russian idiom "ot zhiru" — troubles from excess/plenty, not real troubles (dog goes mad from being too fat)
+- First appearance: 053 (1876-02-02)
+- Notes: Keep the Russian dog-image Marie spells out.
+
+### T.A.E. / Thalie, Aglaé, Euphrosine
+- Translation (Czech): T.A.E. / Thalia, Aglaia, Euphrosyné
+- Context: The Three Graces (Charites); Marie's secret society with Olga; recognition-ring symbolism
+- First appearance: 053 (1876-02-04)
+
+### Sobaka (nickname for Ruspoli)
+- Translation (Czech): Sobaka
+- Context: Russian "dog"; Lola's nickname for the handsome officer "Ruspoli"; kept Russian with Czech gloss in parentheses as in original
+- First appearance: 053 (1876-02-04)
+
+### salons blancs / salons noirs (Rome)
+- Translation (Czech): bílé salony / černé salony
+- Context: Post-1870 Roman political division — "white" loyal to Italian monarchy, "black" loyal to the Pope; footnoted
+- First appearance: 053 (1876-02-09)
+
+## Carnet 055 Terms
+
+### Torlonia (Clément / le blond sympathique)
+- Translation (Czech): Torlonia / Clément / sympatický blonďák
+- Context: Duke Clément Torlonia, the immensely rich Roman suitor Marie pursues in carnet 055; "le blond sympathique" was her pre-identification nickname from the masked balls
+- First appearance: 055 (1876-03-09)
+- Notes: "le blond sympathique" → "sympatický blonďák" (descriptive, not a proper-name capital)
+
+### chevaux / cheveux de Torlonia (wordplay)
+- Translation (Czech): koně / vlasy Torloniovy
+- Context: Running joke — Marie uses buying Torlonia's horses (chevaux) as a pretext; Antonelli puns on cheveux (hair). In Italian-accented French the two nearly merge.
+- First appearance: 055 (1876-03-12, recurs 03-13)
+- Notes: Render "chevaux"→"koně", "cheveux"→"vlasy"; the joke survives without footnote.
+
+### le Surprenant (Audiffret) — carnet 055
+- Translation (Czech): Záhadný
+- Context: Continues from 051/052; in 055 Audiffret is largely left behind in Nice but the nickname recurs
+- First appearance: 055 (1876-03-01)
+
+### la Pointue / l'Olive (Nice rivals) — carnet 055
+- Translation (Czech): Špičatá / Oliva
+- Context: Continue from 051/052 (Robenson = la Pointue; the Englishwoman = l'Olive)
+- First appearance: 055 (1876-03-04, 03-05)
+
+### Bruschetti / Antonelli marriage proposals (letter to father)
+- Translation (Czech): hrabě B... / hrabě A., synovec kardinála A...
+- Context: In the carnet-closing letter to her father Marie names her two suitors only by initial; preserve the discretion
+- First appearance: 055 (1876-03-27)
+
+### cardinalino — carnet 055
+- Translation (Czech): cardinalino (kept Italian; footnoted "kardinálek" on first in-text use)
+- Context: Continues from 054; Marie's affectionate-mocking name for Pietro Antonelli throughout 055
+- First appearance: 055 (1876-03-01)
+- Notes: Footnote on first occurrence in running text (055.0015).
+
+### frère Emile de la misère et corde / les moines de Cimiez
+- Translation (Czech): bratr Emil od bídy a provazu / Mniši z Cimiez
+- Context: Marie's mock-monastic letter campaign against Audiffret (cf. 051/052); "Mniši z Cimiez" per established TM
+- First appearance: 055 (1876-03-02, 03-05)
+
+### Chocolat (Fortuné, servant)
+- Translation (Czech): Čokoláda (přezdívka sluhy Fortuného)
+- Context: Nickname for the servant lost at the Campidoglio; the loyal-servant anecdote
+- First appearance: 055 (1876-03-13)
+
+### coquette de glace / manie des victimes
+- Translation (Czech): ledová koketa / mánie obětí
+- Context: Antonelli's accusations during the piano declaration scene
+- First appearance: 055 (1876-03-16)
+
+### Italian/Latin/English code-switching (carnet 055)
+- Convention: Keep foreign phrase in ==highlight== + "Pozn. překl." footnote
+- Examples: "O Gioia!", "Ohimè!", "via!", "Campidoglio", "Petruccio", "Giacometto", "palazzo", "barcaccia", "veglione", "Basta!", "Zuccone", "contessina", "trattoria", "pazzerello", "Dormi pure" (Italian); "requiem si non eterno", "Faustulus et Acca Laurentia", "Pax vobis", "Gloriae Cupiditas", "miserere" (Latin); "associations", "keepsake", "can't help it", "Dear, dear!", "His Grace the Duke of Hamilton", "White Rose" (English)
+- First appearance: 055 (throughout)
+- Notes: Marie's Ariosto quotation kept with her own spelling errors ("vagine"/"paghi" for "vaghe"), footnoted.
+
+### Bigre / Bigre de bigre — carnet 055
+- Translation (Czech): U sta hromů / U sta hromů hromských
+- Context: Continues 053; Marie's recurring mild oath
+- First appearance: 055 (recurring)
+- Notes: "Parbleu" also → "U sta hromů" (same register).
+
 %% 2025-03-23T02:20:05 PA: Initial translation memory created %%
 %% 2026-02-13T14:00:00 TR: Added terms from Carnet 006 translation %%
 %% 2026-02-13T18:00:00 TR: Added terms from Carnet 007 translation %%
@@ -561,3 +756,7 @@ When translating, refer to this document for established translations of recurri
 %% 2026-05-24T19:30:00 TR: Added terms from Carnet 031 translation %%
 %% 2026-05-24T20:00:00 TR: Added terms from Carnet 032 translation %%
 %% 2026-05-24T21:00:00 TR: Added terms from Carnet 033 translation %%
+%% 2026-05-30T12:00:00 TR: Added terms from Carnet 052 translation %%
+%% 2026-05-31T18:00:00 TR: Added terms from Carnet 055 translation (Torlonia, chevaux/cheveux wordplay, code-switching convention, marriage-proposal letter) %%
+%% 2026-05-30T12:30:00 TR: Added terms from Carnet 051 translation (Záhadný/Surprenant, letter campaign, Robenson nicknames, code-switching convention) %%
+%% 2026-05-30T16:00:00 TR: Added terms from Carnet 053 translation (Soroka/Galula, Belle-de-jour as dream omen, Bigre→U sta hromů, plobsters, de la graisse, T.A.E. Graces, salons blancs/noirs) %%
