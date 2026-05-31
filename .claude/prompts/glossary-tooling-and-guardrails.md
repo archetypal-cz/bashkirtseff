@@ -22,12 +22,21 @@ exists because of lessons in that doc.
 
 ---
 
-## T1 (P0, tiny) — Fix the duplicate `PostToolUse` key in settings.json
-`.claude/settings.json` currently declares `"PostToolUse"` twice inside `"hooks"`
-(the second silently overrides the first; both currently run `post-edit.ts`). Collapse
-to a single `PostToolUse` array. While there, confirm the JSON is valid
-(`python3 -c "import json;json.load(open('.claude/settings.json'))"`).
-**Acceptance:** one `PostToolUse` key; `post-edit.ts` still fires on Write|Edit; JSON valid.
+## T1 (P1, small) — Reconcile and tighten the hooks config
+Current reality (verify first): `.claude/settings.json` defines a `PostToolUse` hook
+with matcher **`"Write"`** (runs `validate-write.ts` + `post-edit.ts`) and a `Stop`
+hook (`session-end.ts`). There is **no `PreToolUse` hook** (T2 will add one). Issues
+to fix:
+- **Matcher is `Write` only** → `Edit` operations skip `validate-write`/`post-edit`.
+  Change the matcher to `"Write|Edit"` if validating edits is intended (confirm the
+  hooks behave sensibly on an `Edit`).
+- **`.claude/settings.local.json` duplicates the same hooks block** as the committed
+  `settings.json`. Decide which is canonical (committed `settings.json` should hold
+  shared hooks; `settings.local.json` is for personal overrides) and remove the
+  redundant copy so hooks aren't registered twice.
+- Validate both files: `python3 -c "import json;json.load(open(P))"`.
+**Acceptance:** hooks fire once (not doubled) on Write and Edit; both JSON files valid;
+no behavior regression in `validate-write`/`post-edit`/`session-end`.
 
 ---
 
@@ -37,13 +46,14 @@ to a single `PostToolUse` array. While there, confirm the JSON is valid
 *uncommitted* work — the broken-link fixes lived only in the working tree at the time.
 
 **Design (target the destructive ops, not normal git):**
-- Add/extend the existing `PreToolUse` matcher `"Bash"` hook in `.claude/settings.json`
-  to run a guard script (model it on `src/scripts/hooks/validate-write.ts`; put it at
+- Add a **new** `PreToolUse` hook with matcher `"Bash"` in `.claude/settings.json`
+  (none exists today) that runs a guard script (model it on
+  `src/scripts/hooks/validate-write.ts` for the stdin-JSON pattern; put it at
   `src/scripts/hooks/guard-git.ts`). The hook receives a JSON payload on stdin
-  including the tool input (the command string). A PreToolUse hook can **block** a
-  call by exiting non-zero with an explanatory message on stderr (verify the exact
-  block/deny contract for this Claude Code version — check existing hooks and the
-  docs; use the supported mechanism, e.g. exit code 2 / JSON `{"decision":"block"}`).
+  including the tool input (the command string). A PreToolUse hook **blocks** a call
+  via the supported deny contract for this Claude Code version — verify it (typically
+  exit code 2 with a message on stderr, or JSON `{"decision":"block","reason":…}` on
+  stdout); confirm against the docs/existing behavior before relying on it.
 - **Block by default** these *working-tree-or-history-destroying* commands:
   `git reset --hard`, `git checkout`/`git restore` that target tracked paths or `.`
   (i.e. would overwrite working files), `git stash` (drop/pop/clear and bare `stash`),
@@ -72,7 +82,8 @@ to a single `PostToolUse` array. While there, confirm the JSON is valid
   `git checkout <branch>` (no path args) → allowed.
 - `GIT_ALLOW_DESTRUCTIVE=1 git stash` form → allowed (soft-block path).
 - Real smoke test: try a blocked command through the agent and confirm it's stopped.
-- Don't break the existing `🔧 Running command...` behavior unless you fold it in.
+- Confirm the new PreToolUse hook does not interfere with normal Bash calls (it should
+  pass through everything except the destructive git set).
 
 ---
 
