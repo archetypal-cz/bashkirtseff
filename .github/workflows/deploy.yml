@@ -57,11 +57,17 @@ jobs:
           # Wait for Tailscale to be ready
           sleep 5
 
-          # SSH to server and deploy
+          # SSH to server and deploy.
+          # Use fetch + reset --hard instead of `git pull`: a plain pull dies with
+          # "insufficient permission ... unpack-objects failed" if the checkout has
+          # ended up with partial/foreign-owned objects, and merge conflicts would
+          # leave the tree dirty. reset --hard makes the deploy idempotent and
+          # always lands exactly on origin/main.
           ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
             "${DEPLOY_USER}@${DEPLOY_HOST}" \
             "cd ${DEPLOY_PATH} && \
-             git pull origin main && \
+             git fetch origin main && \
+             git reset --hard origin/main && \
              cd src/frontend && \
              docker compose up -d --build"
 
@@ -70,10 +76,19 @@ jobs:
           DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
         run: |
-          # Wait for container to start
-          sleep 10
-
-          # Check container is running
-          ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
-            "${DEPLOY_USER}@${DEPLOY_HOST}" \
-            "docker ps | grep bashkirtseff-app"
+          # Poll for the container to come up. `docker compose up --build` in the
+          # previous step can take well over 10s on a cold image cache, so a fixed
+          # `sleep 10` raced the rebuild and a one-shot `docker ps | grep` failed
+          # (exit 1) even though the deploy itself succeeded. Retry instead.
+          for i in $(seq 1 30); do
+            if ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+                 "${DEPLOY_USER}@${DEPLOY_HOST}" \
+                 "docker ps --filter name=bashkirtseff-app --filter status=running --format '{{.Names}}' | grep -q bashkirtseff-app"; then
+              echo "Container bashkirtseff-app is running (after $((i*5))s)"
+              exit 0
+            fi
+            echo "Waiting for container to start... ($i/30)"
+            sleep 5
+          done
+          echo "::error::Container bashkirtseff-app did not come up within 150s"
+          exit 1
