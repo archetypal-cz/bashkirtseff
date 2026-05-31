@@ -373,6 +373,61 @@ check-frontmatter carnet=default_carnet:
         fi \
     done
 
+# Check that relative .md links (glossary tags, cross-refs) resolve in a translation carnet
+check-links lang=default_lang carnet=default_carnet:
+    #!/usr/bin/env bash
+    dir="content/{{lang}}/{{carnet}}"
+    if [ ! -d "$dir" ]; then
+        echo "No such directory: $dir"
+        exit 1
+    fi
+    broken=0
+    checked=0
+    while IFS= read -r file; do
+        b=$(basename "$file")
+        case "$b" in README.md|PROGRESS.md) continue;; esac
+        fdir=$(dirname "$file")
+        # Each markdown link whose target ends in .md (e.g. ](../../_original/_glossary/...md))
+        while IFS= read -r hit; do
+            ln=${hit%%:*}
+            target=${hit#*:}
+            target=${target#*](}    # strip leading ](
+            target=${target%)}      # strip trailing )
+            target=${target%%#*}    # strip #anchor
+            case "$target" in
+                http://*|https://*|mailto:*) continue;;
+            esac
+            checked=$((checked + 1))
+            if [ ! -f "$fdir/$target" ]; then
+                echo "  BROKEN  $b:$ln  ->  $target"
+                broken=$((broken + 1))
+            fi
+        done < <(grep -noE '\]\([^)]+\.md[^)]*\)' "$file")
+    done < <(find "$dir" -maxdepth 1 -name '*.md' | sort)
+    if [ "$broken" -eq 0 ]; then
+        echo "check-links {{lang}}/{{carnet}}: OK ($checked .md links resolve)"
+    else
+        echo "check-links {{lang}}/{{carnet}}: $broken/$checked broken (see above)"
+        exit 1
+    fi
+
+# Check relative .md links across every carnet of a language (full sweep)
+check-links-all lang=default_lang:
+    #!/usr/bin/env bash
+    echo "=== check-links sweep: content/{{lang}} ==="
+    fail=0
+    for dir in content/{{lang}}/[0-9][0-9][0-9]; do
+        [ -d "$dir" ] || continue
+        carnet=$(basename "$dir")
+        just check-links {{lang}} "$carnet" || fail=1
+    done
+    if [ "$fail" -eq 0 ]; then
+        echo "=== All carnets OK ==="
+    else
+        echo "=== Broken links found (see above) ==="
+        exit 1
+    fi
+
 # === WORKSPACE ===
 #
 # Docker development environment with Claude Code, Gemini, code-server, and all tooling.
