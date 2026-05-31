@@ -440,6 +440,12 @@ check-links-all lang=default_lang:
         exit 1
     fi
 
+# Repo-wide broken glossary-link scan across ALL five trees (_original, cz, en, uk, fr).
+# Applies correct path-depth per tree, prints per-tree counts + broken targets, and
+# EXITS NON-ZERO if any link is broken (CI-usable). Use this, NOT `just sync`, for link health.
+check-links-repo *FLAGS:
+    python3 src/scripts/check_links_repo.py {{FLAGS}}
+
 # === WORKSPACE ===
 #
 # Docker development environment with Claude Code, Gemini, code-server, and all tooling.
