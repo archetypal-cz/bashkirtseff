@@ -1,0 +1,40 @@
+name: Glossary link check
+
+# Fails the build if any glossary link is broken in any of the five content trees
+# (_original, cz, en, uk, fr). Pure file IO — no build, no network beyond checkout.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'src/scripts/check_links_repo.py'
+      - 'justfile'
+      - '.github/workflows/check-links.yml'
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'src/scripts/check_links_repo.py'
+      - 'justfile'
+      - '.github/workflows/check-links.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install just
+        uses: extractions/setup-just@v2
+
+      # python3 is preinstalled on ubuntu-latest; the scanner is stdlib-only.
+      - name: Check glossary links across all trees
+        run: just check-links-repo
