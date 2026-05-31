@@ -250,6 +250,7 @@ TypeScript [hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) automat
 ```
 src/scripts/hooks/
 ├── pre-session.ts        # Show work status on Claude Code start
+├── guard-git.ts          # Block working-tree-destroying git (PreToolUse/Bash)
 ├── post-edit.ts          # Update README and detect source changes after edits
 ├── validate-write.ts     # Validate file format before writing
 ├── session-end.ts        # End-of-session cleanup
@@ -273,18 +274,64 @@ src/scripts/hooks/
 │  ├─ Show assigned work and status                           │
 │  └─ Check for upstream changes or conflicts                 │
 ├─────────────────────────────────────────────────────────────┤
-│  POST-EDIT (after Write to content/**/*)                    │
+│  GUARD-GIT (PreToolUse, before every Bash call)            │
+│  ├─ Inspect the command string                             │
+│  ├─ Block working-tree/history-destroying git              │
+│  └─ Pass through everything else untouched                 │
+├─────────────────────────────────────────────────────────────┤
+│  POST-EDIT (after Write/Edit to content/**/*)              │
 │  ├─ Update carnet README.md progress table                  │
 │  ├─ Compare source hashes → notify translations if changed  │
 │  └─ Append changelog entry with timestamp + @user           │
 ├─────────────────────────────────────────────────────────────┤
-│  VALIDATE-WRITE (before Write completes)                    │
+│  VALIDATE-WRITE (after Write/Edit completes)               │
 │  └─ Check that diary files have valid format                │
 ├─────────────────────────────────────────────────────────────┤
 │  SESSION-END (on Claude Code exit)                          │
 │  └─ Cleanup and summary                                     │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+### Git Working-Tree Safety Guard (`guard-git.ts`)
+
+A `PreToolUse` hook (matcher `Bash`) runs `src/scripts/hooks/guard-git.ts`
+before every Bash command. It exists because a subagent once ran
+`git checkout -- <paths>`, `git stash`, and `git reset` that silently discarded
+**uncommitted** work (broken-link fixes that lived only in the working tree).
+
+**Blocked by default** (working-tree- or history-destroying):
+`git reset --hard`, `git checkout`/`git restore` targeting paths or `.`,
+`git stash` (bare / `push` / `pop` / `drop` / `clear` / `save`),
+`git clean -f/-d/-x`, `git push --force`/`--force-with-lease`, `git rebase`
+(except `--abort`/`--continue`/`--skip`), `git branch -D`.
+
+**Always allowed:** `git status/diff/log/show/add/commit/fetch/rev-parse/
+rev-list/reflog`, `git branch` (list), `git switch -c`, normal `git push`,
+`git checkout -b`, and a plain `git checkout <ref>` / `git switch <ref>` branch
+switch — including refs with a slash like `feature/x` — plus all non-git Bash
+commands. The guard only inspects segments whose command word is `git` (after
+stripping `sudo`/`ENV=…` prefixes), so `echo git reset` is allowed.
+`checkout`/`restore` is treated as a destructive path overwrite (and blocked)
+only on `--`, a bare `.`, `-f`/`--force`, or a positional arg that resolves to an
+existing file/dir on disk (relative to the payload `cwd`) — a slash in the name
+alone does NOT make it a path, so legit slash-named branches switch cleanly.
+
+**Override + subagent policy.** Subagent (Task) PreToolUse payloads in this
+Claude Code version (verified 2.1.158, 2026-05-31, via a one-shot probe hook
+that captured the raw stdin JSON) carry an `agent_type` field (e.g.
+`"general-purpose"`) and an `agent_id`; the **main agent's payload has no
+`agent_type`**. The guard uses this:
+
+- **Subagent** (`agent_type` present) → **hard-block**: destructive git is
+  refused and the `GIT_ALLOW_DESTRUCTIVE=1` override is ignored. A subagent that
+  thinks it needs a mutating git op must stop and report to its parent.
+- **Main agent** (no `agent_type`) → **soft-block**: destructive git is refused
+  by default, but prefixing the command with `GIT_ALLOW_DESTRUCTIVE=1` lets a
+  human-in-the-loop main agent proceed deliberately.
+
+The guard blocks via the current PreToolUse decision contract
+(`hookSpecificOutput.permissionDecision: "deny"` on stdout) and also exits 2
+with a stderr message as a fallback for the legacy contract.
 
 ## Worker Configuration
 
