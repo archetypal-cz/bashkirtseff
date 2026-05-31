@@ -112,6 +112,12 @@ glossary-alias-stats:
 theme-tag *FLAGS:
     npx tsx src/scripts/theme-tagger.ts {{FLAGS}}
 
+# Propagate ONE source glossary tag into all translations with correctly-localized paths
+# (additive; never edits text/other tags; default dry-run, pass --apply to write).
+# e.g. just propagate-tag --target culture/themes/MARRIAGE.md --display Marriage --apply
+propagate-tag *FLAGS:
+    python3 src/scripts/propagate_glossary_tag.py {{FLAGS}}
+
 # Show theme tag statistics without modifying files
 theme-stats *FLAGS:
     npx tsx src/scripts/theme-tagger.ts --stats {{FLAGS}}
