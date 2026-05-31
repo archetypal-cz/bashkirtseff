@@ -446,6 +446,12 @@ check-links-all lang=default_lang:
 check-links-repo *FLAGS:
     python3 src/scripts/check_links_repo.py {{FLAGS}}
 
+# Suggest existing glossary entries that might be the same entity as a missing/broken
+# target (REMAP candidate suggester). Matches filename + aliases:/name: + fuzzy/substring.
+# Read-only. e.g. just glossary-resolve NINA_BELLOTTI
+glossary-resolve name:
+    python3 src/scripts/glossary_resolve.py "{{name}}"
+
 # === WORKSPACE ===
 #
 # Docker development environment with Claude Code, Gemini, code-server, and all tooling.
