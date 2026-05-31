@@ -212,16 +212,32 @@ wasn't bounded to specific carnets either, ballooned into a **repo-wide rewrite
 
 ## 8. Suggested tooling improvements (for whoever maintains the scripts)
 
-- **A repo-wide broken-link check across *all* trees in one command**, exit-coded for
-  CI, covering `_original` too (today `check-links-all` is per-language and the
-  source tree is easy to forget). The §2 snippet could become `just check-links-repo`.
-- **A `--from <lang>` option (or a sibling script) for `propagate_glossary_tag.py`**
-  that can seed the source paragraph from a tag found in a translation, so en/uk-origin
-  tags can be propagated without a manual source-tagging step.
-- **A guard/CI hook** that fails if any committed glossary link is broken, so the
-  "fixes lived only in an uncommitted working tree" situation can't recur silently.
-- **A small `glossary-resolve` helper** that, given a missing target basename,
-  proposes candidate existing entries (alias/fuzzy match) to speed REMAP decisions.
+**Shipped 2026-05-31** (work order `.claude/prompts/glossary-tooling-and-guardrails.md`):
+
+- ✅ **Repo-wide broken-link check across all five trees**, exit-coded for CI, covering
+  `_original` too → **`just check-links-repo`** (`src/scripts/check_links_repo.py`).
+- ✅ **`--from <lang>` seed mode for `propagate_glossary_tag.py`** — propagates a tag that
+  originates in a translation (en/uk) into source AND every other language for the same
+  `(carnet, paragraph)`. Additive, idempotent, dry-run by default; default
+  source→translations behavior unchanged. (Mass `--apply` to real content left for a
+  human decision; candidate en-origin tags are listed in the session report.)
+- ✅ **CI guard against committed broken links** → `.github/workflows/check-links.yml`
+  runs `just check-links-repo` on push/PR, so the "fixes lived only in an uncommitted
+  working tree" situation can't recur silently.
+- ✅ **`glossary-resolve` REMAP candidate suggester** → **`just glossary-resolve <name>`**
+  (`src/scripts/glossary_resolve.py`); matches filename/`aliases:`/`name:` + fuzzy/substring.
+
+**Also shipped alongside (git guardrails + skill lessons):**
+
+- ✅ **Git working-tree safety guard** — a `PreToolUse` Bash hook (`src/scripts/hooks/guard-git.ts`)
+  blocks destructive git (`reset --hard`, path `checkout`/`restore`, `stash`, `clean -fd/-x`,
+  force-push, `rebase`, `branch -D`). Subagents are hard-blocked; the main agent is
+  soft-blocked with a `GIT_ALLOW_DESTRUCTIVE=1` override. See `docs/INFRASTRUCTURE.md`.
+- ✅ **Hooks config reconciled** — deduped the doubled hook block; `PostToolUse` now runs on
+  `Write|Edit` (not just `Write`).
+- ✅ **Lessons encoded in skills** — subagent git-safety rule in researcher / executive-director /
+  workflow-architect / glossary; individual-vs-family + spelling-variant identity-disambiguation
+  guidance in researcher.
 
 See also the run report `.claude/reports/2026-05-31-glossary-link-cleanup-en-uk.md`
 for the concrete inventory of what was created/remapped/pruned in that session.
