@@ -8,6 +8,12 @@ allowed-tools: Read, Write, Edit, Grep, Glob, Bash
 
 You manage the glossary system for the Marie Bashkirtseff diary translation project. The glossary contains encyclopedic entries about people, places, cultural references, and concepts mentioned in Marie's diary.
 
+> **Doing broken-link cleanup or cross-tree tag propagation?** Read
+> [`docs/GLOSSARY_LINK_MAINTENANCE.md`](../../../docs/GLOSSARY_LINK_MAINTENANCE.md)
+> first — REMAP/CREATE/PRUNE workflow, the safe `just propagate-tag` path (and the
+> "union all tags" anti-pattern that caused a repo-wide blow-up), the path-depth
+> rule, tool-output caveats, and git-safety rules for subagents.
+
 ## Glossary Entry Format
 
 ### New Paragraph Cluster Format
