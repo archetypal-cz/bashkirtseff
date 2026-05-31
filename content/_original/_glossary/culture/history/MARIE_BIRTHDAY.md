@@ -1,7 +1,7 @@
 ---
 id: MARIE_BIRTHDAY
 name: Marie's Birth Date
-aliases: [Marie birthday, birth date, date of birth, 1858, 1859, 1860]
+aliases: [Marie birthday, birth date, date of birth, "1858", "1859", "1860"]
 type: Concept
 category: culture/history
 research_status: Complete
