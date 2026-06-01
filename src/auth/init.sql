@@ -93,3 +93,25 @@ GRANT USAGE ON ALL SEQUENCES IN SCHEMA public TO authenticated;
 -- Anon needs SELECT so PostgREST can discover the table in its schema cache.
 -- RLS still blocks actual data access (no policy = no rows returned).
 GRANT SELECT ON paragraph_reports TO anon;
+
+-- =============================================================
+-- 5. Read-only role for the admin-api service
+-- =============================================================
+-- admin-api (the admin dashboard backend) reads aggregate stats only.
+-- SELECT-only + BYPASSRLS so it can count ALL reports (RLS otherwise
+-- hides rows belonging to other users). This role is never exposed to
+-- the browser — only the admin-api container connects with it.
+-- NOTE: this section only auto-runs on a fresh DB volume. On an existing
+-- database apply it manually (see ../admin-api/README.md).
+
+DO $$
+BEGIN
+  IF NOT EXISTS (SELECT FROM pg_roles WHERE rolname = 'admin_api') THEN
+    CREATE ROLE admin_api LOGIN PASSWORD current_setting('app.admin_api_password') BYPASSRLS;
+  END IF;
+END
+$$;
+
+GRANT USAGE ON SCHEMA public, auth TO admin_api;
+GRANT SELECT ON public.paragraph_reports TO admin_api;
+GRANT SELECT ON auth.users TO admin_api;

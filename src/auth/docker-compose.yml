@@ -81,6 +81,30 @@ services:
     labels:
       - "com.centurylinklabs.watchtower.enable=false"
 
+  admin-api:
+    build: ../admin-api
+    container_name: admin-api
+    restart: unless-stopped
+    depends_on:
+      auth-db:
+        condition: service_healthy
+    environment:
+      PORT: "8080"
+      DATABASE_URL: postgresql://admin_api:${ADMIN_API_DB_PASSWORD}@auth-db:5432/gotrue
+      JWT_SECRET: ${JWT_SECRET}
+      ADMIN_EMAILS: ${ADMIN_EMAILS:-you@example.com}
+      CORS_ORIGINS: "https://bashkirtseff.org,http://localhost:4321"
+      UMAMI_URL: ${UMAMI_URL:-https://your-umami-instance.example}
+      UMAMI_WEBSITE_ID: ${UMAMI_WEBSITE_ID:-}
+      UMAMI_API_KEY: ${UMAMI_API_KEY:-}
+      UMAMI_USERNAME: ${UMAMI_USERNAME:-}
+      UMAMI_PASSWORD: ${UMAMI_PASSWORD:-}
+    networks:
+      - auth-internal
+      - nginx_npm_network
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"
+
   auth-db:
     image: postgres:15-alpine
     container_name: auth-db

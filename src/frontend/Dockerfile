@@ -42,6 +42,10 @@ ARG PUBLIC_API_URL=""
 ENV PUBLIC_AUTH_URL=$PUBLIC_AUTH_URL
 ENV PUBLIC_API_URL=$PUBLIC_API_URL
 
+# Admin dashboard API
+ARG PUBLIC_ADMIN_API_URL=""
+ENV PUBLIC_ADMIN_API_URL=$PUBLIC_ADMIN_API_URL
+
 # Build the frontend application
 WORKDIR /app/src/frontend
 RUN NODE_OPTIONS="--max-old-space-size=4096" npm run build

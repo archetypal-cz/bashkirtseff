@@ -8,6 +8,7 @@ interface Props {
   image?: string;
   type?: 'website' | 'article';
   canonicalUrl?: string;
+  noindex?: boolean;
   article?: {
     publishedTime?: string;
     modifiedTime?: string;
@@ -22,6 +23,7 @@ const {
   image = '/images/og/og-image-composite.jpg',
   type = 'website',
   canonicalUrl,
+  noindex = false,
   article,
 } = Astro.props;
 
@@ -46,7 +48,7 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).hr
 
     <!-- Primary Meta Tags -->
     <meta name="description" content={description} />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
     <link rel="canonical" href={fullCanonicalUrl} />
 
     <!-- Open Graph / Facebook -->
