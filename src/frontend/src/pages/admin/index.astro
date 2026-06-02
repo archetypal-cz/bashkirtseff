@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdminDashboard from '../../components/admin/AdminDashboard.vue';
+---
+
+<BaseLayout title="Admin — Bashkirtseff" noindex={true}>
+  <main class="flex-grow">
+    <AdminDashboard client:only="vue" />
+  </main>
+</BaseLayout>
