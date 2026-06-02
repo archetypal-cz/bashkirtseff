@@ -61,8 +61,15 @@ because it shares the auth Postgres and `JWT_SECRET`.
    DROP POLICY IF EXISTS "admin_api reads all reports" ON public.paragraph_reports;
    CREATE POLICY "admin_api reads all reports"
      ON public.paragraph_reports FOR SELECT TO admin_api USING (true);
+   -- GoTrue enables RLS on auth.users too, so admin_api needs a read-all
+   -- policy there as well (otherwise the user counts come back 0):
+   DROP POLICY IF EXISTS "admin_api reads all users" ON auth.users;
+   CREATE POLICY "admin_api reads all users"
+     ON auth.users FOR SELECT TO admin_api USING (true);
    SQL
    ```
+   (`auth.users` only exists after GoTrue's first startup; if you somehow run
+   this before then, re-run just the `auth.users` grant + policy afterwards.)
 3. Build & start: `docker compose -f ../auth/docker-compose.yml up -d --build admin-api`
 4. Add a proxy host in Nginx Proxy Manager: `admin.bashkirtseff.org -> admin-api:8080`
 5. Set `PUBLIC_ADMIN_API_URL=https://admin.bashkirtseff.org` in `../frontend/.env`

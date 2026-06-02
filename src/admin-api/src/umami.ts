@@ -60,12 +60,20 @@ async function fetchRange(
   const res = await fetch(`${url}/api/websites/${websiteId}/stats?${qs}`, { headers });
   if (!res.ok) throw new Error(`Umami stats failed: ${res.status}`);
 
-  // Umami returns { pageviews: {value, prev}, visitors: {...}, visits: {...}, ... }
-  const data = (await res.json()) as Record<string, { value: number } | undefined>;
+  // The stats shape varies by Umami version: some return flat numbers
+  // ({ "pageviews": 4959, ... }), others wrap them ({ "pageviews": { value, prev } }).
+  // Handle both.
+  const data = (await res.json()) as Record<string, unknown>;
+  const num = (v: unknown): number =>
+    typeof v === 'number'
+      ? v
+      : v && typeof v === 'object' && typeof (v as { value?: unknown }).value === 'number'
+        ? (v as { value: number }).value
+        : 0;
   return {
-    pageviews: data.pageviews?.value ?? 0,
-    visitors: data.visitors?.value ?? 0,
-    visits: data.visits?.value ?? 0,
+    pageviews: num(data.pageviews),
+    visitors: num(data.visitors),
+    visits: num(data.visits),
   };
 }
 

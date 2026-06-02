@@ -116,7 +116,6 @@ $$;
 
 GRANT USAGE ON SCHEMA public, auth TO admin_api;
 GRANT SELECT ON public.paragraph_reports TO admin_api;
-GRANT SELECT ON auth.users TO admin_api;
 
 -- admin_api is neither 'authenticated' nor 'anon', so the policies above
 -- never match it; this one lets it read every report.
@@ -125,3 +124,11 @@ CREATE POLICY "admin_api reads all reports"
   ON paragraph_reports FOR SELECT
   TO admin_api
   USING (true);
+
+-- auth.users is created by GoTrue's migrations on FIRST STARTUP, so it does
+-- not exist yet at initdb time and cannot be granted here. GoTrue also enables
+-- RLS on it, so admin_api needs both a SELECT grant and a read-all policy —
+-- applied manually after first startup (see ../admin-api/README.md):
+--   GRANT SELECT ON auth.users TO admin_api;
+--   CREATE POLICY "admin_api reads all users"
+--     ON auth.users FOR SELECT TO admin_api USING (true);
