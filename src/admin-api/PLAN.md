@@ -35,14 +35,15 @@ See architecture & rationale in the commit history and `README.md`.
 ## To do — deployment (manual, on the deployment host) 🚧
 
 - [ ] Provision Umami read access: set `UMAMI_API_KEY` (or read-only `UMAMI_USERNAME`/`PASSWORD`)
-      in `src/auth/.env`. NOTE: configured Umami host is `your-umami-instance.example`.
+      plus `UMAMI_URL` / `UMAMI_WEBSITE_ID` in `src/auth/.env`. (The frontend gets its
+      Umami URL + website ID from GitHub Actions variables; see `.github/workflows/deploy.yml`.)
 - [ ] Set `ADMIN_API_DB_PASSWORD` and `ADMIN_EMAILS` in `src/auth/.env`.
 - [ ] Create the `admin_api` DB role on the live DB (volume exists, so `init.sql` won't re-run) —
       run the `psql` snippet in `README.md`.
 - [ ] Add Nginx Proxy Manager host: `admin.bashkirtseff.org -> admin-api:8080`.
 - [ ] Bring up the service: `docker compose -f src/auth/docker-compose.yml up -d --build admin-api`.
 - [ ] Redeploy the frontend (so `/admin` ships).
-- [ ] Verify end-to-end: sign in as `you@example.com` → full dashboard; a non-admin account → "Not authorized".
+- [ ] Verify end-to-end: sign in as an allowlisted admin account → full dashboard; a non-admin account → "Not authorized".
 
 ## Possible follow-ups (not started) 💡
 

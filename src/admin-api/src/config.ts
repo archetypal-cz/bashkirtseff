@@ -33,7 +33,7 @@ export const config = {
 
   // Umami analytics — either an API key OR username/password.
   umami: {
-    url: (process.env.UMAMI_URL || 'https://your-umami-instance.example').replace(/\/$/, ''),
+    url: (process.env.UMAMI_URL || '').replace(/\/$/, ''),
     websiteId: process.env.UMAMI_WEBSITE_ID || '',
     apiKey: process.env.UMAMI_API_KEY || '',
     username: process.env.UMAMI_USERNAME || '',

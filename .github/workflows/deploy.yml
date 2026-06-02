@@ -53,6 +53,11 @@ jobs:
           DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
           DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          # Umami analytics are public (embedded in served pages), so they live
+          # as repo *variables*, not secrets. Passed into the server-side build
+          # below; docker compose interpolates them into the frontend build args.
+          PUBLIC_UMAMI_URL: ${{ vars.PUBLIC_UMAMI_URL }}
+          PUBLIC_UMAMI_WEBSITE_ID: ${{ vars.PUBLIC_UMAMI_WEBSITE_ID }}
         run: |
           # Wait for Tailscale to be ready
           sleep 5
@@ -63,12 +68,16 @@ jobs:
           # ended up with partial/foreign-owned objects, and merge conflicts would
           # leave the tree dirty. reset --hard makes the deploy idempotent and
           # always lands exactly on origin/main.
+          # The PUBLIC_UMAMI_* values expand here (on the runner) into the remote
+          # command, where they become build-arg env for `docker compose`.
           ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
             "${DEPLOY_USER}@${DEPLOY_HOST}" \
             "cd ${DEPLOY_PATH} && \
              git fetch origin main && \
              git reset --hard origin/main && \
              cd src/frontend && \
+             PUBLIC_UMAMI_URL='${PUBLIC_UMAMI_URL}' \
+             PUBLIC_UMAMI_WEBSITE_ID='${PUBLIC_UMAMI_WEBSITE_ID}' \
              docker compose up -d --build"
 
       - name: Verify deployment

@@ -6,7 +6,7 @@ services:
       args:
         # Umami analytics — set after creating the site in Umami dashboard
         PUBLIC_UMAMI_WEBSITE_ID: ${PUBLIC_UMAMI_WEBSITE_ID:-}
-        PUBLIC_UMAMI_URL: ${PUBLIC_UMAMI_URL:-https://analytics.bashkirtseff.org}
+        PUBLIC_UMAMI_URL: ${PUBLIC_UMAMI_URL:-}
         PUBLIC_AUTH_URL: ${PUBLIC_AUTH_URL:-https://auth.bashkirtseff.org}
         PUBLIC_API_URL: ${PUBLIC_API_URL:-https://api.bashkirtseff.org}
         PUBLIC_ADMIN_API_URL: ${PUBLIC_ADMIN_API_URL:-https://admin.bashkirtseff.org}

@@ -92,9 +92,9 @@ services:
       PORT: "8080"
       DATABASE_URL: postgresql://admin_api:${ADMIN_API_DB_PASSWORD}@auth-db:5432/gotrue
       JWT_SECRET: ${JWT_SECRET}
-      ADMIN_EMAILS: ${ADMIN_EMAILS:-you@example.com}
+      ADMIN_EMAILS: ${ADMIN_EMAILS:-}
       CORS_ORIGINS: ${CORS_ORIGINS:-https://bashkirtseff.org}
-      UMAMI_URL: ${UMAMI_URL:-https://your-umami-instance.example}
+      UMAMI_URL: ${UMAMI_URL:-}
       UMAMI_WEBSITE_ID: ${UMAMI_WEBSITE_ID:-}
       UMAMI_API_KEY: ${UMAMI_API_KEY:-}
       UMAMI_USERNAME: ${UMAMI_USERNAME:-}
