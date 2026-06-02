@@ -5,9 +5,9 @@ FROM node:22-alpine
 
 WORKDIR /app
 
-# Install dependencies (package.json + lockfile if present)
-COPY package*.json ./
-RUN npm install --omit=dev --no-audit --no-fund && npm cache clean --force
+# Install dependencies reproducibly from the committed lockfile.
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev --no-audit --no-fund && npm cache clean --force
 
 # tsx is needed to run TypeScript directly; it's a devDependency, so add it
 # explicitly to the production image.

@@ -36,7 +36,10 @@ app.use('/overview', async (c, next) => {
 
   let email: string | undefined;
   try {
-    const { payload } = await jwtVerify(token, secret, { audience: 'authenticated' });
+    const { payload } = await jwtVerify(token, secret, {
+      audience: 'authenticated',
+      algorithms: ['HS256'],
+    });
     email = (payload.email as string) || undefined;
   } catch {
     return c.json({ error: 'Invalid token' }, 401);

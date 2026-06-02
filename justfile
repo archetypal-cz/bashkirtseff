@@ -8,6 +8,13 @@ set shell := ["bash", "-c"]
 default_lang := "cz"
 default_carnet := "001"
 
+# Deploy target for server-side DB/report commands (mirrors the GitHub
+# Actions deploy secrets). Set in your shell, e.g. an SSH config alias:
+#   export DEPLOY_USER=deploy
+#   export DEPLOY_HOST=your-host
+deploy_user := env_var_or_default("DEPLOY_USER", "deploy")
+deploy_host := env_var_or_default("DEPLOY_HOST", "")
+
 # Show available commands
 default:
     @just --list
@@ -150,7 +157,7 @@ glossary-apply carnet *FLAGS:
 reports status="open":
     #!/usr/bin/env bash
     echo "=== Bug Reports (status: {{status}}) ==="
-    ssh ${DEPLOY_USER}@${DEPLOY_HOST} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports WHERE status = '{{status}}' ORDER BY created_at\"" 2>/dev/null | while IFS='|' read -r para lang reason custom highlight status created; do
+    ssh {{deploy_user}}@{{deploy_host}} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports WHERE status = '{{status}}' ORDER BY created_at\"" 2>/dev/null | while IFS='|' read -r para lang reason custom highlight status created; do
         para=$(echo "$para" | xargs)
         lang=$(echo "$lang" | xargs)
         reason=$(echo "$reason" | xargs)
@@ -170,7 +177,7 @@ reports status="open":
 reports-all:
     #!/usr/bin/env bash
     echo "=== All Bug Reports ==="
-    ssh ${DEPLOY_USER}@${DEPLOY_HOST} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports ORDER BY created_at\"" 2>/dev/null | while IFS='|' read -r para lang reason custom highlight status created; do
+    ssh {{deploy_user}}@{{deploy_host}} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports ORDER BY created_at\"" 2>/dev/null | while IFS='|' read -r para lang reason custom highlight status created; do
         para=$(echo "$para" | xargs)
         lang=$(echo "$lang" | xargs)
         reason=$(echo "$reason" | xargs)
@@ -193,7 +200,7 @@ report-status paragraph_id language new_status:
         open|acknowledged|fixed|dismissed) ;;
         *) echo "Invalid status '{{new_status}}'. Use: open, acknowledged, fixed, dismissed"; exit 1 ;;
     esac
-    result=$(ssh ${DEPLOY_USER}@${DEPLOY_HOST} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"UPDATE public.paragraph_reports SET status = '{{new_status}}' WHERE paragraph_id = '{{paragraph_id}}' AND language = '{{language}}' RETURNING paragraph_id, status\"" 2>/dev/null)
+    result=$(ssh {{deploy_user}}@{{deploy_host}} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"UPDATE public.paragraph_reports SET status = '{{new_status}}' WHERE paragraph_id = '{{paragraph_id}}' AND language = '{{language}}' RETURNING paragraph_id, status\"" 2>/dev/null)
     if echo "$result" | grep -q "{{paragraph_id}}"; then
         echo "Updated {{paragraph_id}} ({{language}}) → {{new_status}}"
     else

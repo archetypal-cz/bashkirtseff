@@ -32,7 +32,7 @@ See architecture & rationale in the commit history and `README.md`.
 - [x] Backend smoke test: `/health` 200, no token 401, bad token 401, non-admin 403, admin passes gate.
 - [x] `astro build` compiles all islands and emits `dist/admin/index.html` with `noindex`.
 
-## To do — deployment (manual, on the deployment-host host) 🚧
+## To do — deployment (manual, on the deployment host) 🚧
 
 - [ ] Provision Umami read access: set `UMAMI_API_KEY` (or read-only `UMAMI_USERNAME`/`PASSWORD`)
       in `src/auth/.env`. NOTE: configured Umami host is `your-umami-instance.example`.
