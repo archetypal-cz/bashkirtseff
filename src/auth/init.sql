@@ -98,16 +98,18 @@ GRANT SELECT ON paragraph_reports TO anon;
 -- 5. Read-only role for the admin-api service
 -- =============================================================
 -- admin-api (the admin dashboard backend) reads aggregate stats only.
--- SELECT-only + BYPASSRLS so it can count ALL reports (RLS otherwise
--- hides rows belonging to other users). This role is never exposed to
--- the browser — only the admin-api container connects with it.
+-- SELECT-only, plus a permissive RLS policy so it can read ALL reports
+-- (RLS otherwise hides rows belonging to other users). We use a policy
+-- rather than BYPASSRLS because the `gotrue` role has CREATEROLE but not
+-- SUPERUSER, and only a superuser can grant BYPASSRLS. This role is never
+-- exposed to the browser — only the admin-api container connects with it.
 -- NOTE: this section only auto-runs on a fresh DB volume. On an existing
 -- database apply it manually (see ../admin-api/README.md).
 
 DO $$
 BEGIN
   IF NOT EXISTS (SELECT FROM pg_roles WHERE rolname = 'admin_api') THEN
-    CREATE ROLE admin_api LOGIN PASSWORD current_setting('app.admin_api_password') BYPASSRLS;
+    CREATE ROLE admin_api LOGIN PASSWORD current_setting('app.admin_api_password');
   END IF;
 END
 $$;
@@ -115,3 +117,11 @@ $$;
 GRANT USAGE ON SCHEMA public, auth TO admin_api;
 GRANT SELECT ON public.paragraph_reports TO admin_api;
 GRANT SELECT ON auth.users TO admin_api;
+
+-- admin_api is neither 'authenticated' nor 'anon', so the policies above
+-- never match it; this one lets it read every report.
+DROP POLICY IF EXISTS "admin_api reads all reports" ON paragraph_reports;
+CREATE POLICY "admin_api reads all reports"
+  ON paragraph_reports FOR SELECT
+  TO admin_api
+  USING (true);

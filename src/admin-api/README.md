@@ -39,18 +39,28 @@ because it shares the auth Postgres and `JWT_SECRET`.
 1. Fill the new vars in `../auth/.env` (see `../auth/.env.example`):
    `ADMIN_API_DB_PASSWORD`, `ADMIN_EMAILS`, `UMAMI_*`.
 2. Create the read-only DB role on the existing database (the volume already
-   exists, so `init.sql` won't re-run):
+   exists, so `init.sql` won't re-run). Notes:
+   - Use `exec -T` because we're piping a heredoc (no TTY).
+   - Connect as the **superuser** (`-U postgres`): the `gotrue` role has neither
+     `SUPERUSER` nor `CREATEROLE`, so it can't create roles. Confirm the
+     superuser's name first with
+     `psql -U gotrue -d gotrue -c "SELECT rolname FROM pg_roles WHERE rolsuper"`.
+   - We grant read-all via an RLS policy rather than `BYPASSRLS` (only a
+     superuser could grant `BYPASSRLS`, and the policy is least-privilege).
    ```bash
-   docker compose -f ../auth/docker-compose.yml exec auth-db \
-     psql -U gotrue -d gotrue -v ON_ERROR_STOP=1 <<'SQL'
+   docker compose -f ../auth/docker-compose.yml exec -T auth-db \
+     psql -U postgres -d gotrue -v ON_ERROR_STOP=1 <<'SQL'
    DO $$ BEGIN
      IF NOT EXISTS (SELECT FROM pg_roles WHERE rolname = 'admin_api') THEN
-       CREATE ROLE admin_api LOGIN PASSWORD 'PUT_ADMIN_API_DB_PASSWORD_HERE' BYPASSRLS;
+       CREATE ROLE admin_api LOGIN PASSWORD 'PUT_ADMIN_API_DB_PASSWORD_HERE';
      END IF;
    END $$;
    GRANT USAGE ON SCHEMA public, auth TO admin_api;
    GRANT SELECT ON public.paragraph_reports TO admin_api;
    GRANT SELECT ON auth.users TO admin_api;
+   DROP POLICY IF EXISTS "admin_api reads all reports" ON public.paragraph_reports;
+   CREATE POLICY "admin_api reads all reports"
+     ON public.paragraph_reports FOR SELECT TO admin_api USING (true);
    SQL
    ```
 3. Build & start: `docker compose -f ../auth/docker-compose.yml up -d --build admin-api`
