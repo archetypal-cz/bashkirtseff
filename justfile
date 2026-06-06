@@ -447,6 +447,25 @@ check-links-all lang=default_lang:
         exit 1
     fi
 
+# Structural integrity gate for a translated carnet — run BEFORE RED (frontmatter,
+# links, glossary path-depth, footnote integrity, %%-balance, script contamination).
+# Exits non-zero on hard failures. --strict promotes warnings to failures, --quiet prints only failures.
+# See docs/VERIFY_CARNET_GATE.md
+verify-carnet lang carnet *FLAGS:
+    npx tsx src/scripts/verify-carnet.ts {{lang}} {{carnet}} {{FLAGS}}
+
+# Run verify-carnet across every carnet of a language (exits non-zero if any fails)
+verify-carnet-all lang=default_lang *FLAGS:
+    #!/usr/bin/env bash
+    echo "=== verify-carnet sweep: content/{{lang}} ==="
+    fail=0
+    for dir in content/{{lang}}/[0-9][0-9][0-9]; do
+        [ -d "$dir" ] || continue
+        carnet=$(basename "$dir")
+        npx tsx src/scripts/verify-carnet.ts {{lang}} "$carnet" --quiet {{FLAGS}} || fail=1
+    done
+    if [ "$fail" -eq 0 ]; then echo "=== All carnets PASS ==="; else echo "=== Failures found (see above) ==="; exit 1; fi
+
 # Repo-wide broken glossary-link scan across ALL five trees (_original, cz, en, uk, fr).
 # Applies correct path-depth per tree, prints per-tree counts + broken targets, and
 # EXITS NON-ZERO if any link is broken (CI-usable). Use this, NOT `just sync`, for link health.

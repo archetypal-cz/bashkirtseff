@@ -268,6 +268,21 @@ Follow LAN guidance for period-appropriate terms. Common traps:
 
 Read `content/{lang}/CLAUDE.md` for language-specific translation guidance (false friends, russianisms checklists, style rules). Each target language has its own CLAUDE.md with detailed, language-specific instructions.
 
+## Structural Integrity — Do Not Break the Scaffolding
+
+<!-- Teamcouch update 2026-06-06: translators mechanically break invisible structure.
+     Evidence: cz-050-055 (tr-5/tr-6 glossary path-depth → 1,515 broken links, missed by RED+CON);
+     uk-062-064 (tr-064 same path-depth drift mid-carnet → 608 broken links; tr-063 stripped YAML
+     frontmatter from 11 of 14 files via Write). Same meta-pattern across 2 reports / 3 instances:
+     a defect invisible to a reading review that only a mechanical check catches. The `just verify-carnet`
+     gate (built 2026-06-06, docs/VERIFY_CARNET_GATE.md) backstops this pre-RED — but get it right at the source. -->
+
+These defects are **invisible to a reading review** (the text reads fine) and have repeatedly slipped past RED and CON — caught only by a mechanical link/frontmatter check. Get them right while writing:
+
+1. **Glossary link path depth.** Translation files live two levels deeper than the source. From `content/{lang}/{carnet}/`, the correct path is `](../../_original/_glossary/…)` — NOT the source's short `](../_glossary/…)`. Do not copy source tags verbatim, and do **not** drift back to the short path partway through a carnet (a mid-carnet drift broke 608 links in uk-064). Use the SAME canonical `../../_original/_glossary/` path on every entry.
+2. **Preserve YAML frontmatter when overwriting a file.** If you `Write` a "fresh"/continuation entry, you MUST keep the existing frontmatter (date, carnet, language, `translation_complete`, `editor_approved`). Stripping it is silent data loss. Prefer `Edit` over full-file `Write` for entries that already exist.
+3. **Before finalizing**, run `just verify-carnet {lang} {carnet}` (the single gate: links + frontmatter + footnotes + %%-balance). It must report **PASS** (0 fail). Do not mark the task complete until it does.
+
 ## Output Format
 
 **CRITICAL**: Follow the canonical paragraph format specification in `.claude/skills/_shared/paragraph_format.md` (Translation Files section)

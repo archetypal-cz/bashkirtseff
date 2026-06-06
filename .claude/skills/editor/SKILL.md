@@ -89,6 +89,14 @@ Is this still Marie speaking?
 - [ ] TranslationMemory terms used consistently?
 - [ ] Frontmatter entities referenced correctly (check `entities` section for glossary context)?
 
+<!-- Teamcouch update 2026-06-06: mechanical structural-integrity check.
+     Evidence: cz-050-055 (1,515 broken glossary links slipped past RED+CON) and
+     uk-062-064 (tr-064 608 broken links + tr-063 stripped frontmatter, both missed by RED,
+     CON-backstopped). These are invisible to a reading review — only a tool catches them.
+     The `just verify-carnet` gate (built 2026-06-06) runs pre-RED and makes this manual step
+     redundant; run it yourself only if you're unsure the ED gate ran. -->
+- [ ] **Mechanical integrity (run the tool, don't eyeball):** confirm `just verify-carnet {lang} {carnet}` reports **PASS** (links 0 broken, frontmatter intact, footnotes/%%-balance OK). Glossary path-depth defects and stripped frontmatter read perfectly fine and have repeatedly slipped past reading review — only the tool catches them. (Normally the ED runs this pre-RED; skip if so.)
+
 **LAN Compliance Checklist** (typical entry has 15-40 LAN annotations):
 
 | LAN Type | Verify |

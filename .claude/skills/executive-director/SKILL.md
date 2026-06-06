@@ -461,6 +461,19 @@ Likewise, **after any session pause/resume, verify pipeline state on disk** (`co
 / `editor_approved` counts) — in-flight pings can be lost across the gap (a CON ping for carnet
 032 was dropped this way in uk-031-035; caught by a disk check, re-sent, completed normally).
 
+<!-- Teamcouch update 2026-06-06: mechanical pre-RED integrity gate. -->
+**Run the pre-RED integrity gate before handing a carnet to RED.** The moment a translation
+carnet is fully on disk, run `just verify-carnet {lang} {carnet}` and clear every **FAIL** before
+pinging RED (bounce hard failures back to the translator). This is the hard gate for the
+*invisible structural-defect* class — frontmatter stripped on overwrite, glossary path-depth
+drift (`../_glossary/` instead of `../../_original/_glossary/`), broken links, orphaned/duplicate
+footnotes, unbalanced `%%`. This class **reads fine and repeatedly slips past RED *and* CON**
+(cz-050-055: 1,515 broken links; uk-064: 608 broken links + 5 malformed footnotes; uk-063:
+frontmatter stripped on 11/14 files — all tool-caught, all reading-review-blind). The gate
+subsumes the manual `check-links`/frontmatter self-checks in the translator/editor skills. Use
+`just verify-carnet-all {lang}` for a full-tree sweep; it joins `check-links-repo` as a
+pre-commit health gate. See `docs/VERIFY_CARNET_GATE.md`.
+
 **One team per leader.** A leader can lead only one team at a time, so you cannot create a fresh
 `{lang}-{next-range}` team for the next wave while still leading the current one. Either finish
 and `TeamDelete` the current team first, or reuse the current team and add the next wave's tasks
