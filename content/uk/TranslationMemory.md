@@ -60,6 +60,14 @@ Established terminology for consistent translation across carnets.
 | bonnet grec et robe de chambre | грецький ковпак і халат | Recurring "Procès Veauradieux" cuckold motif |
 | le Niçois (demonym) | ніццянець | Inhabitant of Nice / Audiffret as "the man from Nice"; declined ніццянця/ніццянців/по-ніццянському. NOT «ніжець»/«ніццеєць». "mon Niçois" (pet name) = «мій ніццець». |
 | le Surprenant | Дивовижний | Audiffret nickname (recurs in carnets 049+) |
+| hamiltonnement (Marie's neologism) | гамільтоново | Adverb "in Hamilton fashion / with ducal hauteur"; suffixal form, footnote on first use (carnet 061) |
+| hamiltonisé (Marie's neologism) | гамільтонізований | "Hamilton-ified" — made into a distant idol (carnet 056); footnote on first use |
+| battre froid | зустрічати холодно | "Give the cold shoulder" — idiom, NOT a calque («бити холодом») |
+| frocard | ченчик | Mildly contemptuous slang for monk/friar (carnet 056) |
+| comme un chien rouge | як руда собака | Conspicuous/noticeable like a red dog (Marie on being stared at); carnet 056 |
+| avoir un chat dans le cœur | кіт на душі шкребе | Russian idiom (anxiety gnawing); render as the Ukrainian/Russian equivalent idiom, NOT literal |
+| le blond sympathique (Torlonia) | милий блондин | Torlonia epithet (also TM line for Torlonia); carnet 056 |
+| Pietruccio (diminutive of Pietro) | П'єтруччо | Italian diminutive; NOT «Піетрруччо» — use «П'єтруччо» to match canonical П'єтро |
 | Bibi | Бібі | Audiffret nickname (footnote on first use) |
 | la Tour | Башта | Audiffret's estate/tower |
 | un sucre | цукерочка | Audiffret's pet word (recurs); "Оце цукерочка!", "дівчина-цукерочка" |
@@ -69,10 +77,12 @@ Established terminology for consistent translation across carnets.
 | gandin | фертик | period slang: fop/dandy (cf. viveur→гульвіса) |
 | Pincio | Пінчо | Rome's fashionable promenade (Marie in Rome from carnet 051) |
 | Antonelli (cte Pietro) / cardinalino | Антонеллі / кардинальчик | Rome suitor (cardinal's nephew); recurs carnets 053-055+ |
+| Pietro (given name) | П'єтро | CANONICAL spelling (established 050-055). NOT «Піетро» (і-е), NOT «Пієтро» (і-є), NOT «Пьетро» — all three drift variants appeared this wave; grep ALL of them. Oblique: П'єтра/П'єтрові. Petruccio = «П'єтруччо» (not Піетрруччо/Пієтруччо). Pietro Antonelli = «П'єтро Антонеллі». Manuscript «Pietro*» asterisk is Marie's code-marker — preserve it. |
 | Bruschetti (cte Vincenzo) | Брускетті | Rome suitor |
 | Doria | Дорія | Rome suitor ("Doria blanc" → білий Дорія) |
 | Troili (Eusebio) | Тройлі / Ґалула | Rome social fixer / street-suitor; never called «Сорока» |
 | Torlonia (Clément/Clemente) | Торлонія (Клемент/Клементе) | Rich Roman duke suitor (carnet 055+); "le blond sympathique"→«милий блондин» |
+| Galantine (Torlonia nickname) | Галантін | Maman's mocking pet name for Torlonia (galantine = jellied meat/aspic; hints at his softness); footnote on first use (carnet 058) |
 | la Pointue (Miss Robenson) | Гостра | Audiffret's flirt; declined Гострої. NOT «Гоструха» — use «Гостра» (established 051-053) |
 | soroka / la Pie (magpie) | Сорока | Marie's GENERIC pet-word for street-admirers (Russ. соро́ка=magpie); applied to DIFFERENT men across carnets — Audiffret as «брита́я соро́ка»/«Голена Сорока» (052), Giorgio the gardener (054). NOT a single-person nickname; translate faithfully per context, footnote the reuse on first appearance per carnet. |
 
@@ -1263,7 +1273,7 @@ Established terminology for consistent translation across carnets.
 | Léonie | Леоні | Carries Marie's clothes to the sea-bath |
 | Laurenti (comte) | граф Лоренті | Danis's friend; opposite opinion of Marie's character |
 | d'Aspremont | д'Аспремон | Nice figure Danis will report to (established 029) |
-| Larderei (comte de) | граф де Лардерель | Fashionable Florentine; sister married Victor-Emmanuel II's son |
+| Larderei (comte de) | граф де Лардереї | Fashionable Florentine; sister married Victor-Emmanuel II's son. CANON in practice = «Лардереї» (056×2, 059×21, 060×6+); indeclinable. Earlier TM note «Лардерель» superseded by de-facto approved usage. |
 | Gioia / Amélie | Джоя / Амелі | Hamilton's former mistress (established TM); her real name is Amélie; her Nice house (n° 77) is the pilgrimage site |
 | Blackprince | Блекпринс | English admirer cipher (established 023); appears in a dream |
 | "Lui" / "Il" (capitalisé) | «Він» (з великої) | Hamilton; capitalized for quasi-religious reverence — keep capitalized |
@@ -1645,3 +1655,47 @@ Established terminology for consistent translation across carnets.
 
 ### Updated
 - 2026-05-30: Added carnet 040 terms (Paris Aug–Sep 1875, Romanoff inheritance lawsuit, anti-German invective, Berthe Boyd letters; folded in post-wave from tr-040's flagged list)
+
+## Carnet 061 Additions (Nice/Genoa, May 1876)
+
+#### People & Nicknames (Carnet 061)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Pietro Antonelli | П'єтро Антонеллі | Full name canonical (reconfirmed); oblique: П'єтра Антонеллі |
+| le cardinalino / cardinal Antonelli | кардинальчик / кардинал Антонеллі | Pietro's uncle Cardinal Giacomo Antonelli (1806-1876), Vatican Secretary of State |
+| le Surprenant* | Дивовижний* | Audiffret's code name (asterisked, per established TM convention) |
+| Dina | Діна | Marie's cousin; ill with Roman fever (malaria) during this carnet |
+| Daniloff / la Daniloff | пані Данілова | Genitive: Данілової. Nice acquaintance; Couthon harassment goes through her |
+| Couthon | Кутон | Unwanted pursuer, sends harassing letters |
+| Saetone | Саетоне | Invariable; Nice bore; used as negative comparator ("as indifferent as with Saetone") |
+| Siemiradzki | Семірадський | Henryk Siemiradzki (1843–1902); declension: Семірадського/Семірадському |
+
+#### Carnet 061 Neologisms & Coinages
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| hamiltonnement | гамільтоново | Marie's adverb from proper noun Hamilton; "in Hamilton fashion / with Hamiltonian poise" |
+| habillée olympiquement | вбрана по-олімпійськи | "Dressed in Olympian/divine fashion" — Marie's neoclassical coinage (carnet 061, also recurs) |
+
+#### Period Vocabulary & Idioms (Carnet 061)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| fièvre romaine | римська лихоманка | Malaria endemic to Rome/Pontine marshes; add footnote on first occurrence per carnet |
+| mariage manqué | зірваний шлюб | Broken engagement; carries 19th-c stigma for the girl; footnote on first occurrence |
+| battre froid | зустрічати холодно | Give the cold shoulder; "бити холодом" is calque — avoid |
+| prendre des informations officielles | наводити офіційні довідки | Background investigation for marriage negotiations |
+| arrondir les angles | згладжувати гострі кути | To smooth over awkward facts |
+| poitrinaire | чахоточний | Tuberculosis (period term; reconfirmed from TM phtisie/сухоти) |
+| fiacre | фіакр | Hired carriage/cab |
+| Gloriae cupiditate | ==Gloriae cupiditate== + footnote | Latin motto "by desire for glory"; recurs as Marie's personal device; keep Latin with ==highlight== |
+
+#### Multilingual Conventions (Carnet 061)
+- "hamiltonnement" → "гамільтоново" (coined adverb; do NOT translate literally as "по-гамільтонськи" which is clumsier)
+- Latin epigraph (Publius Syrus): keep Latin ==highlight== + footnote with translation + attribution
+- Marie's English cipher at carnet close: ==H[is] G[race] t[he] D[uke] of[f] H[amilton]== — keep English + footnote (per TM Hamilton-cipher convention)
+- Word-list "Mari, femme, duc, amour, Gioia *" — preserve as French/Italian without translation (cryptic mnemonic); italicize "Gioia" as Italian; add footnote explaining "Gioia" = радість (іт.)
+- Cagliostro reference: keep name + footnote on first occurrence per carnet
+- "le Surprenant*" asterisk: always include the asterisk (it's Marie's own code-name marker)
+- "les prêtres" (referring to Antonelli clerical family): translate as «священики»/«ці священики» — NOT as «єзуїти»
+
+### Updated
+- 2026-06-06: Added carnet 061 terms (Nice/Genoa May 1876, Pietro Antonelli romance arc, hamiltonnement neologism, Roman fever, mariage manqué; tr-061 run)

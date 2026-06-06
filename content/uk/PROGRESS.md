@@ -1,6 +1,6 @@
 # Ukrainian Translation Progress
 
-<!-- Last updated: 2026-05-30 -->
+<!-- Last updated: 2026-06-06 -->
 <!-- Updated by: @kerray -->
 
 ## Overview
@@ -9,11 +9,11 @@
 |--------|-------|
 | **Total carnets** | 107 |
 | **Total entries** | ~3,300 |
-| **Carnets translated** | 42 (000-041) |
-| **Carnets fully approved** | 42 (000-041) |
-| **Entries translated** | 912 |
-| **Entries conductor-approved** | 912 |
-| **Overall progress** | ~28% translated |
+| **Carnets translated** | 62 (000-061) |
+| **Carnets fully approved** | 62 (000-061) |
+| **Entries translated** | 1,169 |
+| **Entries conductor-approved** | 1,169 |
+| **Overall progress** | ~35% translated |
 
 ## Carnet Status
 
@@ -61,6 +61,26 @@
 | 039 | 12 | 100% | 100% | 100% | Approved (wave 8) |
 | 040 | 5 | 100% | 100% | 100% | Approved (wave 8) |
 | 041 | 2 | 100% | 100% | 100% | Approved (wave 8) |
+| 042 | 2 | 100% | 100% | 100% | Approved |
+| 043 | 10 | 100% | 100% | 100% | Approved |
+| 044 | 4 | 100% | 100% | 100% | Approved |
+| 045 | 7 | 100% | 100% | 100% | Approved |
+| 046 | 10 | 100% | 100% | 100% | Approved |
+| 047 | 11 | 100% | 100% | 100% | Approved |
+| 048 | 14 | 100% | 100% | 100% | Approved |
+| 049 | 10 | 100% | 100% | 100% | Approved |
+| 050 | 38 | 100% | 100% | 100% | Approved (uk-050-055) |
+| 051 | 14 | 100% | 100% | 100% | Approved (uk-050-055) |
+| 052 | 14 | 100% | 100% | 100% | Approved (uk-050-055) |
+| 053 | 19 | 100% | 100% | 100% | Approved (uk-050-055) |
+| 054 | 18 | 100% | 100% | 100% | Approved (uk-050-055) |
+| 055 | 27 | 100% | 100% | 100% | Approved (uk-050-055) |
+| 056 | 13 | 100% | 100% | 100% | Approved (uk-056-061, 2026-06-06, CON 0.95) |
+| 057 | 4 | 100% | 100% | 100% | Approved (uk-056-061, 2026-06-06, CON 0.945) |
+| 058 | 6 | 100% | 100% | 100% | Approved (uk-056-061, 2026-06-06, CON 0.95) |
+| 059 | 20 | 100% | 100% | 100% | Approved (uk-056-061, 2026-06-06, CON 0.95) |
+| 060 | 9 | 100% | 100% | 100% | Approved (uk-056-061, 2026-06-06, CON 0.95) |
+| 061 | 7 | 100% | 100% | 100% | Approved (uk-056-061, 2026-06-06, CON 0.95) |
 
 ## Quality Metrics
 
