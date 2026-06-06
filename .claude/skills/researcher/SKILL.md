@@ -55,6 +55,13 @@ How to determine location:
 - Common locations: Nice, Paris, Rome, Vienna, various villas
 - For travel days, list both origin and destination in `locations` array
 
+⚠️ **Pitfall — `location` ≠ "the most-mentioned city".** Auto-extraction (and a hasty read) frequently sets `location` to a city that Marie only *names rhetorically or in retrospect*, not where she physically is. Two recurring traps, both confirmed in a carnet-059 audit (2026-06):
+
+1. **Rhetorical place-comparisons.** Lines like *"Paris ne peut se vanter d'être plus brillant que Naples"* caused the whole **Naples** race-week (059/04-20→23) to be miscoded `Paris`/`Rome`. The named city in a comparison is a figure of speech, not her position.
+2. **Past-tense recollection of another city.** Entries that fondly recall a place she has *left* ("on parla de Rome…", "ces derniers jours à Rome") were miscoded to that city. A `je vais à Rome` / `demain je pars` line means she is **not yet** there — it's evidence for the *current* (departure) location, not the destination.
+
+Anchor `location` on where the **scene physically happens**: named local venues she actually visits that day (shops, churches, "la Promenade", a specific villa/pavilion), people who are local regulars, and continuity with the surrounding days. When you correct an extraction artifact, add an RSR note citing the decisive paragraph and the artifact source. Marie's real-life arcs are usually *contiguous runs* in one city — a lone `Rome`/`Paris` entry wedged inside a solid `Nice` stretch is a red flag worth re-reading the full entry for. When auditing a travel-heavy carnet, check **every** entry's location against its text, not only the ones already flagged.
+
 ### 3. Footnote Management
 
 **You decide when a reader-facing footnote is needed and write it.**

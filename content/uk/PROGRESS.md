@@ -9,11 +9,11 @@
 |--------|-------|
 | **Total carnets** | 107 |
 | **Total entries** | ~3,300 |
-| **Carnets translated** | 62 (000-061) |
-| **Carnets fully approved** | 62 (000-061) |
-| **Entries translated** | 1,169 |
-| **Entries conductor-approved** | 1,169 |
-| **Overall progress** | ~35% translated |
+| **Carnets translated** | 65 (000-064) |
+| **Carnets fully approved** | 65 (000-064) |
+| **Entries translated** | 1,240 |
+| **Entries conductor-approved** | 1,240 |
+| **Overall progress** | ~37% translated |
 
 ## Carnet Status
 
@@ -81,6 +81,9 @@
 | 059 | 20 | 100% | 100% | 100% | Approved (uk-056-061, 2026-06-06, CON 0.95) |
 | 060 | 9 | 100% | 100% | 100% | Approved (uk-056-061, 2026-06-06, CON 0.95) |
 | 061 | 7 | 100% | 100% | 100% | Approved (uk-056-061, 2026-06-06, CON 0.95) |
+| 062 | 35 | 100% | 100% | 100% | Approved (uk-062-064, 2026-06-06, CON 0.92) |
+| 063 | 13 | 100% | 100% | 100% | Approved (uk-062-064, 2026-06-06, CON 0.93) |
+| 064 | 23 | 100% | 100% | 100% | Approved (uk-062-064, 2026-06-06, CON 0.92) |
 
 ## Quality Metrics
 

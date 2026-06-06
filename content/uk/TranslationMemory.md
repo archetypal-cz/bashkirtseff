@@ -1699,3 +1699,61 @@ Established terminology for consistent translation across carnets.
 
 ### Updated
 - 2026-06-06: Added carnet 061 terms (Nice/Genoa May 1876, Pietro Antonelli romance arc, hamiltonnement neologism, Roman fever, mariage manqué; tr-061 run)
+
+## Carnet 063 Additions (Paris, July 1876)
+
+### Clairvoyance & Occultism
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| somnambule | сомнамбул / сомнамбула | Clairvoyant male/female; Alexis Didier (1826–1886) — established here |
+| lucidité (clairvoyant) | ясновидність | Clairvoyant ability, second sight (NOT general "clarity") |
+| magnétiser | гіпнотизувати | To hypnotize/put in a trance (19th-c. mesmerism) |
+| consultation (somnambule) | консультація | Clairvoyant consultation session |
+| élève de Mlle Lenormand | учениця панни Ленорман | Mme Moreau fortune-teller; Lenormand (1772–1843) footnote on first use |
+
+### People (Carnet 063)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Alexis (Didier) | Алексіс | Famous French clairvoyant; name kept as «Алексіс» (his French professional name) |
+| Mme de Mouzay | пані де Музе | Marie's French friend who arranges Alexis consultation |
+| Mme Moreau | пані Моро | Fortune-teller, Lenormand student |
+| Mme Abel | пані Абель | Charlatan somnambule, rue Jean-Jacques Rousseau |
+| Chocolat | Шоколад | Nickname for coachman/horse; transliterate as «Шоколад» + footnote |
+| Mme Mongruel | пані Монгрюель | French friend at Paris salon |
+
+### Titles & Relations (Carnet 063)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| parti (marriage match) | партія / наречений | Marriage match/prospect — NOT political party |
+| avoir maille à partir (avec) | мати кістку гризти (з) | To have a bone to pick, be at odds with — idiomatic, NOT literal |
+| bouffonnerie | блазнювання / блазенство | Buffoonery, clowning to mask emotions |
+| se rengorger | надуватися / набирати пихатого вигляду | Puff up with pride, theatrical self-importance |
+
+### Carnet 063 Multilingual Conventions
+- "Caccia-Club" — Italian club name; keep as-is (no translation)
+- "Gloriae cupiditate" (para 063.0500) — Latin "desire for glory"; keep in Latin with ==highlight== + footnote
+- "[His] Grace [the] D[uke] of H[amilton]" (para 063.0500) — abbreviated English; keep abbreviation with ==highlight== and footnote explaining full form
+- "[mots rayés]" / "[deux mots rayés]" — manuscript crossed-out words: render as "[слова закреслено]" / "[два слова закреслено]"
+- Manuscript "Pietro*" asterisk — Marie's own code-marker; always preserve
+- "Santa Fé" — Marie's pseudonym for herself in Pietro correspondence; keep in Spanish (established carnet 062)
+
+### Updated
+- 2026-06-06: Added carnet 063 terms (Paris July 1876, Alexis Didier clairvoyant sessions, three fortune-tellers, final Pietro break, tr-063 run)
+
+## Wave 062–064 Standards & Names (2026-06-06)
+
+### UK Code-Switch Standard (project-wide, established this wave)
+- **Foreign-language code-switches** (Latin, Italian, German, English in foreign script) → `==highlight==` + footnote. Every `==span==` needs a matching footnote; add footnotes even for bare foreign quotes.
+- **Marie's own emphasis** on French/Ukrainian words → keep `*italic*` (do NOT convert to ==).
+- **Transliterated/translated work-titles** (e.g. «Дон Паскуале», «Руї Блас») → `*italic*`, NOT == (not foreign-script code-switches).
+- Never let `==` leak into `%% … %%` source/comment blocks — those keep the original *italics* for source fidelity.
+- 062 was retro-normalized from a mixed italic/bare state (30 spans, 24 footnotes added) to match 063/064.
+
+### Names (062–064)
+| Source | Ukrainian | Notes |
+|--------|-----------|-------|
+| Collignon (Mlle, governess) | Коліньйон | CANONICAL single-л (NOT «Колліньйон»). **FEMALE** — indeclinable surname (no «Коліньйоном»); feminine verb forms (пішла, порадила). Normalized 47× in 062. |
+| le Surprenant (Audiffret epithet) | Дивовижний | NOT «Несподіваний»; keep the asterisk «le Surprenant*» (Marie's code-marker) |
+| Pietruccio | П'єтруччо | NOT «Пієтруччо»/«Піетрруччо» — matches canonical П'єтро |
+
+- 2026-06-06: UK 062–064 wave complete (062 0.92 / 063 0.93 / 064 0.92). Code-switch standard, Collignon canonical (female), Surprenant→«Дивовижний». (tr-062/063/064 + RED + CON run)
