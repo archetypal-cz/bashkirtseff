@@ -552,6 +552,13 @@ git log --format="%h" -1 -- .claude/skills/gemini-editor/SKILL.md
 
 **Set status to `final`** (not `draft` — you have full context, no need for manual filling).
 
+<!-- Teamcouch update 2026-06-06: link-health gate before commit.
+     Evidence: cz-050-055 (1,515 broken links), 2026-05-31 cz/uk/fr sweep, uk-056-061
+     (scaffold-generated `../_glossary/` paths broke every carnet). Pattern: scaffold AND
+     translators emit source-relative glossary paths; translations one level deeper need
+     `../../_original/_glossary/`. Invisible to a reading review; slips past RED+CON. -->
+**Before committing, run the link-health gate.** `just check-links-repo` must report **0 broken** across all trees. Scaffolded carnets (and any hand-copied glossary tags) ship source-relative `../_glossary/…` paths, but translations live one level deeper and need `../../_original/_glossary/…` — fix per carnet with a targeted, idempotent replace (`](../_glossary/` → `](../../_original/_glossary/`) and re-run the check. This defect is invisible to a reading review and slips past RED and CON, so the mechanical check is the only reliable guard.
+
 **Commit the report** along with any remaining translation files.
 
 After writing the report, the human can run `/teamcouch` to analyze patterns across reports and facilitate skill evolution.
