@@ -50,6 +50,7 @@ raw_books_work/
 
 # Working files (personal, not shared)
 .claude/WORKER_CONFIG.yaml
+.claude/scheduled_tasks.lock
 .plan.md
 
 # Terminal Paste Image folder
