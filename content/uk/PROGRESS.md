@@ -1,6 +1,6 @@
 # Ukrainian Translation Progress
 
-<!-- Last updated: 2026-06-07 -->
+<!-- Last updated: 2026-06-07 (wave 2: 069-071) -->
 <!-- Updated by: @kerray -->
 
 ## Overview
@@ -9,11 +9,11 @@
 |--------|-------|
 | **Total carnets** | 107 |
 | **Total entries** | ~3,300 |
-| **Carnets translated** | 69 (000-068) |
-| **Carnets fully approved** | 69 (000-068) |
-| **Entries translated** | 1,349 |
-| **Entries conductor-approved** | 1,349 |
-| **Overall progress** | ~41% translated |
+| **Carnets translated** | 72 (000-071) |
+| **Carnets fully approved** | 72 (000-071) |
+| **Entries translated** | 1,418 |
+| **Entries conductor-approved** | 1,418 |
+| **Overall progress** | ~43% translated |
 
 ## Carnet Status
 
@@ -88,6 +88,9 @@
 | 066 | 37 | 100% | 100% | 100% | Approved (uk-065-068, 2026-06-07, CON 0.94) |
 | 067 | 37 | 100% | 100% | 100% | Approved (uk-065-068, 2026-06-07, CON 0.95) |
 | 068 | 19 | 100% | 100% | 100% | Approved (uk-065-068, 2026-06-07, CON 0.94) |
+| 069 | 36 | 100% | 100% | 100% | Approved (uk-069-071, 2026-06-07, CON 0.95) |
+| 070 | 8 | 100% | 100% | 100% | Approved (uk-069-071, 2026-06-07, CON 0.955) |
+| 071 | 25 | 100% | 100% | 100% | Approved (uk-069-071, 2026-06-07, CON 0.93) |
 
 ## Quality Metrics
 
