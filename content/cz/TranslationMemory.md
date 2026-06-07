@@ -834,6 +834,7 @@ When translating, refer to this document for established translations of recurri
 %% 2026-06-06T14:00:00 TR: Added terms from Carnet 058 translation (Naples arc — Canaris et perroquets, grise, en sifflant trap, faire d'histoire, Galantine/Torlonia nickname, beau à en mourir) %%
 %% 2026-06-06T14:30:00 TR: Added terms from Carnet 059 translation (Nice return arc — A.T.E. bylaws, ščenok, cardialgické palpitace, palpitations cardiologiques, Bigre→U sta hromů continued, Pozn. překl. footnotes for Italian/Russian) %%
 %% 2026-06-06T16:00:00 TR: Added terms from Carnet 064 translation (Paris-Berlin-Eydkühnen-Petersburg arc, July–August 1876) %%
+%% 2026-06-07T12:00:00 TR: Added terms from Carnet 065 translation (Chpatovska–Gavronzi–Poltava arc, August–September 1876; Ukrainian estate society, father reunion, Miloradovič shledání) %%
 
 ## Carnet 059 Terms
 
@@ -1009,3 +1010,58 @@ When translating, refer to this document for established translations of recurri
 - Context: Famous Moscow hotel where Marie stays; name reflects Slavic identity
 - First appearance: 064 (1876-08-11-12)
 - Notes: Use Russian name "Slavjanský bazar" to preserve the Russian authenticity Marie emphasizes
+
+## Carnet 065 Terms
+
+### gommeux (in Ukrainian estate/provincial context)
+- Translation (Czech): floutek (footnoted on first use)
+- Context: Marie introduces the Parisian slang word "gommeux" (dandy/fop) to the provincial Ukrainian society around Poltava — it becomes a running joke of carnet 065 as nobody understands it
+- First appearance: 065 (1876-08-21, 1876-08-23)
+- Notes: "floutek" established for carnet 065; "la gomme" (collective noun) → "floutci"; "gommeux d'un jour" → "floutek na jeden den"; Marie keeps fr. word in dialogue when quoting others repeating it
+
+### hejtman (Cossack hetman)
+- Translation (Czech): hejtman
+- Context: Historical title for Cossack leader/ruler of Little Russia; Skoropatský family background; tied to Miloradovičová's patriotic movement story
+- First appearance: 065 (1876-08-17)
+- Notes: Czech form "hejtman" (not "hetman"); footnoted on first use with explanation of Malá Rus = historical Ukraine
+
+### versta / versty
+- Translation (Czech): versta / versty
+- Context: Russian distance unit (~1.067 km); Marie uses it in Ukraine entries
+- First appearance: 065 (1876-08-20)
+- Notes: Footnoted on first use; "dvacet verstů = asi 21 km"; established TM term from here
+
+### isabellovi koně (horse color)
+- Translation (Czech): isabellovi koně (footnoted)
+- Context: Pale cream/yellowish-brown horses of which Father Bashkirtseff is very proud in Poltava
+- First appearance: 065 (1876-08-25-26)
+- Notes: Footnote explaining the color name's etymology (Queen Isabella of Spain legend)
+
+### maréchal de noblesse
+- Translation (Czech): maršál šlechty (footnoted)
+- Context: Elected leader of regional nobility in tsarist Russia; Father Bashkirtseff holds this position in Poltava region
+- First appearance: 065 (1876-08-31)
+- Notes: Footnote: "volený předák šlechtické samosprávy v gubernii či újezdu carského Ruska"
+
+### jeunesse dorée (Poltava context)
+- Translation (Czech): zlatá mládež
+- Context: Marie's term for the fashionable young aristocrats of Poltava; Father leads them
+- First appearance: 065 (1876-08-31)
+
+### filosláv
+- Translation (Czech): filosláv (footnoted)
+- Context: Pan-Slavist; Michel Eristoff's nickname for Pacha Gorpintchenko; politically charged 1876 term given Serbian crisis
+- First appearance: 065 (1876-09-01)
+- Notes: Footnote explaining pan-Slavic movement and Serbian crisis context
+
+### Třetí oddělení
+- Translation (Czech): Třetí oddělení (footnoted)
+- Context: Tsarist secret police (Third Section), predecessor of Okhrana; Miloradovičová summoned there for torture
+- First appearance: 065 (1876-08-17)
+- Notes: Footnote: "tajná policie carského Ruska, předchůdce Ochrany"
+
+### Moussia / Mussia
+- Translation (Czech): Mussia (as used by uncle Alexandre)
+- Context: Russian family diminutive for Maria/Marie; used by uncle Alexandre addressing Marie fondly
+- First appearance: 065 (1876-09-01)
+- Notes: Keep "Mussia" as phonetic Czech rendering of the Russian diminutive
