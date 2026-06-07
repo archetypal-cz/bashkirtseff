@@ -835,6 +835,167 @@ When translating, refer to this document for established translations of recurri
 %% 2026-06-06T14:30:00 TR: Added terms from Carnet 059 translation (Nice return arc — A.T.E. bylaws, ščenok, cardialgické palpitace, palpitations cardiologiques, Bigre→U sta hromů continued, Pozn. překl. footnotes for Italian/Russian) %%
 %% 2026-06-06T16:00:00 TR: Added terms from Carnet 064 translation (Paris-Berlin-Eydkühnen-Petersburg arc, July–August 1876) %%
 %% 2026-06-07T12:00:00 TR: Added terms from Carnet 065 translation (Chpatovska–Gavronzi–Poltava arc, August–September 1876; Ukrainian estate society, father reunion, Miloradovič shledání) %%
+%% 2026-06-07T14:30:00 TR: Added terms from Carnet 070 translation (Naples farewell arc, April 1877; Pausilippe, Società Filarmonica, Pascarola proposal, Latin motto) %%
+%% 2026-06-07T14:45:00 TR: Added terms from Carnet 070 entries 1877-04-03 and 1877-04-04 (Sorrento arc — Bijou/Larderei codename, Siléna/la Righi wordplay, lazzarone, se dégoûter de idiom trap) %%
+%% 2026-06-07T15:00:00 TR: Added terms from Carnet 070 entries 1877-04-07 and 1877-04-08 (dostihový den, modlitba za pád z koně, Velikonoce — poisson d'avril, pesage, sicilienne, casaque, femme entretenue, carricollo, mon empereur, elle est excessivement jolie) %%
+
+## Carnet 070 Terms
+
+### Pausilippe / Posillipo
+- Translation (Czech): Pausilippe (footnoted as Posillipo)
+- Context: Scenic hill overlooking the Bay of Naples, popular carriage promenade for Neapolitan society
+- First appearance: 070 (1877-04-24)
+- Notes: Footnote: "Pausilippe (Posillipo) — malebný kopec s výhledem na Neapolský záliv, oblíbená trasa koňských kočárů neapolské smetánky."
+
+### Società Filarmonica (Naples)
+- Translation (Czech): Società Filarmonica (footnoted)
+- Context: Private Neapolitan club for musical and theatrical events; distinct from the Cercle (Circolo Nazionale)
+- First appearance: 070 (1877-04-24)
+- Notes: Footnote explaining function; kept in Italian as a proper institution name
+
+### petites misères mousseuses
+- Translation (Czech): drobné lehké třásně
+- Context: Small frothy/gossamer ornamental trimmings on Marie's dress; "misères" here = trifles/frills NOT miseries
+- First appearance: 070 (1877-04-24)
+- Notes: TR trap: "misères" ≠ "bídy/utrpení" in costume description context; means small ornamental trifles
+
+### bien senti (discourse/speech)
+- Translation (Czech): upřímný / ze srdce
+- Context: "un discours bien senti" = a heartfelt/sincere little speech; period usage for earnest expression
+- First appearance: 070 (1877-04-24)
+
+### Je me referai
+- Translation (Czech): Napravím to / Zjedná nápravy
+- Context: Marie's fierce resolve to redeem herself in someone's eyes; "remake/redo myself"
+- First appearance: 070 (1877-04-24)
+
+### Chiaja (Naples)
+- Translation (Czech): Chiaja (footnoted)
+- Context: Fashionable waterfront promenade in Naples
+- First appearance: 070 (1877-04-24)
+- Notes: Footnote: "Chiaja — módní nábřežní promenáda v Neapoli."
+
+### Bijou (code name for Larderei)
+- Translation (Czech): Bijou (kept, footnoted on first use)
+- Context: Marie's code name for Larderei throughout the Sorrento arc; "bijou" = jewel in French; first used as a nickname in the diary text (not just in letters)
+- First appearance: 070 (1877-04-03) in diary; also in letters to aunt (1877-04-25)
+- Notes: Do not decline; kept as foreign code-word. Footnote: "Bijou — Mariino kódové jméno pro Lardereiho."
+
+### Siléna / Silène (code name for la Righi)
+- Translation (Czech): Siléna (kept, footnoted on first occurrence)
+- Context: Code name for Larderei's mistress "la Righi" — a wordplay on the hotel name Sirène (Siren/mermaid) → Silène (Silenus, Greek god of drunkenness); invented by Melissano and Marcuard
+- First appearance: 070 (1877-04-03)
+- Notes: Footnote explaining the Sirène/Siléna pun and the double meaning (mistress name + reference to Larderei's drinking); "Siléna" is the Czech-inflected feminine form.
+
+### lazzarone / lazzaroni (Neapolitan term)
+- Translation (Czech): lazzarone (kept in Italian, footnoted)
+- Context: Neapolitan street person/beggar who earned money by odd jobs; Marie uses the term twice in the Sorrento entry; characteristic local color
+- First appearance: 070 (1877-04-03)
+- Notes: Footnote: "Lazzarone (it., mn. č. lazzaroni) — neapolský výraz pro pouličního tuláka či žebráka." Keep Italian form; familiar to educated Czech readers.
+
+### se dégoûter de (idiom)
+- Translation (Czech): vyléčit se z (někoho) / znechutit si (někoho)
+- Context: "je ne reste avec vous que pour me dégoûter de vous" = I stay with you only to cure myself of you / to sicken myself of you; Marie's recurring phrase in the Larderei arc
+- First appearance: 070 (1877-04-03)
+- Notes: NOT "vypakovat se" (= to pack up and leave — wrong); "vyléčit se z" captures the deliberate self-cure / emotional inoculation Marie intends
+
+### J'ai fait peau neuve
+- Translation (Czech): Svlékla jsem starou kůži
+- Context: "I've shed my old skin / made a fresh start"; Marie's vivid self-renewal idiom
+- First appearance: 070 (1877-04-25)
+- Notes: Czech idiom "svléknout starou kůži" works naturally; preserve the reptile-renewal image
+
+### Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate (carnet 070)
+- Translation (Czech): ==Dubium, illusio, deceptio, oppressio== / ==Gloriae Cupiditate== (highlighted, footnoted)
+- Context: Marie's Latin motto closing carnet 070; "Doubt, illusion, deception, oppression / Through desire for glory"; bitter self-assessment of the Larderei affair
+- First appearance: 070 (1877-04-25); also appeared in 069 (1877-04-02) in same formula
+- Notes: Per foreign-passage convention: ==highlight== + Pozn. překl. footnote; same treatment as 069.0650–069.0651. Two-part motto split across two paragraphs as in original.
+
+### bonne aventure (omen-reading habit)
+- Translation (Czech): věštění
+- Context: Marie's superstitious habit of reading omens into everyday events; NOT "dobrá příhoda" (false friend)
+- First appearance: 070 (1877-04-22)
+
+### Cherubín / Chérubin (Mozart)
+- Translation (Czech): Cherubín (footnoted)
+- Context: Cherubino from Mozart's Marriage of Figaro; archetype of adolescent infatuation; compared to Santasiglia (19) in love with Marie
+- First appearance: 070 (1877-04-22)
+- Notes: Czech form "Cherubín"; footnote on first use
+
+### nebbioso (Italian insert)
+- Translation (Czech): ==nebbioso== (highlighted, footnoted "mlhavý")
+- Context: Italian adjective for "misty/hazy" inserted into Marie's French text describing Naples hills
+- First appearance: 070 (1877-04-23)
+
+### folle à lier (extreme madness idiom)
+- Translation (Czech): šílená k zavření
+- Context: "Mad enough to be committed"; Marie's self-description over the Aquarium rendez-vous mistake
+- First appearance: 070 (1877-04-23)
+
+### pointes d'épingles → drobné piky
+- Translation (Czech): drobné piky
+- Context: Pinpricks/barbs in a letter; Marie sets aside the petty stings to focus on the real question
+- First appearance: 070 (1877-04-23)
+- Notes: NOT "šťouchaniny" (too physical); "piky" fits epistolary register
+
+### "Les raisins… pourris avant de mûrir" (La Fontaine inversion)
+- Translation (Czech): „Hrozny jsou tak zelené, že shnijí dřív, než dozrají." (footnoted)
+- Context: Marie's twist on La Fontaine's fox-and-grapes fable; insults Larderei's immaturity
+- First appearance: 070 (1877-04-23)
+- Notes: Footnote explaining La Fontaine and Marie's inversion
+
+### "Les paroles volent" → Verba volant
+- Translation (Czech): „Slova létají" (footnoted with full Latin proverb)
+- Context: Allusion to Verba volant, scripta manent; Marie inverts it against Larderei's verbal foolishness
+- First appearance: 070 (1877-04-22)
+
+### poisson d'avril (April Fool's prank)
+- Translation (Czech): apríl
+- Context: The April Fool's joke (paper fish pinned to backs in France/Italy); Larderei thought Marie was tricking him on April 7
+- First appearance: 070 (1877-04-07)
+- Notes: "apríl" is the fully naturalized Czech equivalent; "prvoaprílový žert" for explanatory context; footnote added on first use
+
+### pesage (racecourse weighing room)
+- Translation (Czech): vážírna
+- Context: The weighing enclosure at a racecourse where jockeys are weighed before and after a race
+- First appearance: 070 (1877-04-07)
+- Notes: Footnote added: "pesage — dostihová vážírna, kde se před závodem váží jezdci se sedlem."
+
+### sicilienne (fabric)
+- Translation (Czech): sikilián (footnoted)
+- Context: Silk fabric with a fine ribbed weave, fashionable dress material of the 1870s; Marie wears it to the races
+- First appearance: 070 (1877-04-07)
+- Notes: Footnote explaining the fabric; Czech form "sikilián" (not "siciliánská" — the fabric name is used as a noun)
+
+### casaque (riding/fashion jacket)
+- Translation (Czech): kazaka
+- Context: Short tight jacket worn over a dress; "casaque Louis XV" = 18th-century revival style with jabót
+- First appearance: 070 (1877-04-07)
+- Notes: "kazaka" is the established Czech borrowing; footnote on style context
+
+### femme entretenue (kept woman)
+- Translation (Czech): vydržovaná žena
+- Context: A woman financially kept by a wealthy man (mistress/courtesan); period euphemism
+- First appearance: 070 (1877-04-07)
+- Notes: "vydržovaná žena" is the period-appropriate Czech equivalent; do not use "milenka" alone (too neutral) or "kurva" (too crude for this context)
+
+### carricollo (Neapolitan cart)
+- Translation (Czech): carricollo (kept Italian, footnoted)
+- Context: Neapolitan two-wheeled cart famously overloaded with passengers; Marie uses it as a simile for their overcrowded carriage
+- First appearance: 070 (1877-04-07)
+- Notes: Keep in ==highlight==; footnote: "Italsky: carricollo — neapolský dvoukolový vůz, proslulý tím, že se na něj nakupí nepřiměřené množství cestujících."
+
+### mon empereur (Larderei's exclamation)
+- Translation (Czech): můj císaři (kept French in highlight, footnoted)
+- Context: Larderei's drunken/affectionate exclamation, used twice (paras 070.0069, 070.0071); mocking or ironically tender
+- First appearance: 070 (1877-04-08)
+- Notes: Keep "mon empereur" in ==highlight== with footnote "Francouzsky: Můj císaři! — Lardereiovo podnapilé zvolání, jehož tón kolísá mezi výsměchem a náklonností."
+
+### "elle est excessivement jolie" (King's compliment)
+- Translation (Czech): footnoted; French phrase kept in ==highlight==
+- Context: King Vittorio Emanuele II's repeated compliment about Marie at the state dinner of 130 covers
+- First appearance: 070 (1877-04-08)
+- Notes: Keep in ==highlight== per foreign-passage convention; footnote with Czech translation
 
 ## Carnet 059 Terms
 
