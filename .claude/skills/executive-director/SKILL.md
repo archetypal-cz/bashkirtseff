@@ -474,6 +474,18 @@ subsumes the manual `check-links`/frontmatter self-checks in the translator/edit
 `just verify-carnet-all {lang}` for a full-tree sweep; it joins `check-links-repo` as a
 pre-commit health gate. See `docs/VERIFY_CARNET_GATE.md`.
 
+<!-- Teamcouch update 2026-06-07: verify mechanical agent claims against ground truth.
+     Evidence: 3 reports (uk-050-055 «Сорока», cz-050-055 051-vs-053 + stale completeness
+     list, cz-056-064 red-a "verify-carnet doesn't exist" — it does, justfile line 454). -->
+**Verify mechanical agent claims against the justfile/disk before acting.** Agents
+confidently assert checkable facts that are wrong — "recipe X doesn't exist", "carnet N is
+the outlier", "these files still need fixing", "term Y collides". Before you act on any such
+claim (logging a defect, running a fix, editing a skill), confirm it yourself with one
+command (`grep`, `just --list`, a disk count, `git status`). In cz-056-064 an editor reported
+`just verify-carnet` "doesn't exist" and fell back to manual greps; it exists and runs — the
+claim nearly became a false "missing recipe" finding in the report. Trust a mechanical check
+over agent recollection, always.
+
 **One team per leader.** A leader can lead only one team at a time, so you cannot create a fresh
 `{lang}-{next-range}` team for the next wave while still leading the current one. Either finish
 and `TeamDelete` the current team first, or reuse the current team and add the next wave's tasks
