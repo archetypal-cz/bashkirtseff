@@ -1757,3 +1757,217 @@ Established terminology for consistent translation across carnets.
 | Pietruccio | П'єтруччо | NOT «Пієтруччо»/«Піетрруччо» — matches canonical П'єтро |
 
 - 2026-06-06: UK 062–064 wave complete (062 0.92 / 063 0.93 / 064 0.92). Code-switch standard, Collignon canonical (female), Surprenant→«Дивовижний». (tr-062/063/064 + RED + CON run)
+
+## Carnet 065 Additions (Russia/Ukraine — Gavronzi & Poltava, Aug–Sep 1876)
+
+Marie travels from the Tarnovsky estate to her father's estate at Gavronci and to Poltava. Reunion with her estranged father, with childhood suitor Gritz Miloradovitch, and the running «gommeux» word-joke.
+
+### People (Carnet 065)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Gritz / Grigori Levitch Miloradovitch | Гриць / Григорій Левич Милорадович | Childhood suitor; «Гриць» = Ukr. diminutive of Hryhorii. Distinct from female legend Elisaveta Ivanovna Miloradovitch below |
+| Elisaveta Ivanovna Miloradovitch, née Skoropatsky | Єлизавета Іванівна Милорадович, у дівоцтві Скоропадська | The "hetman" legend; Ukrainian independence-movement figure (entry 08-17) |
+| Michel Eristoff / prince Eristoff | Мішель Ерістов / князь Ерістов | Ridiculous young dandy cousin; Marie renames her father "Constantin" in jest |
+| Pacha / Paul Gorpintchenko | Паша / Поль Горпінченко | Solid, taciturn young man; gets nickname *philoslave* |
+| Hamsley / Michel Hamsley | Гемслі / Мішель Гемслі | Neighbour at Tarnovsky estate; courtship-shift drama (entry 08-17/20) |
+| Menzenkanoff (colonel des gendarmes) | Мензенканов (полковник жандармів) | Cedes Marie his railway coupé |
+| Alexandre (uncle / estate manager) | Олександр | Father's brother, manages Marie's estates; same character as TM line 572. CON-normalized from «Александр»→«Олександр» for project consistency (matches established Ukrainian form for this uncle); not the Russified spelling |
+| Nadine | Надін | Uncle Alexandre's wife (Олександрова дружина) |
+| Babanine (les) | Бабаніни | Mother's family; father insults them |
+| Monseigneur de Falloux / baron Visconti | монсеньйор де Фаллу / барон Вісконті | Rome high society Marie name-drops to her father |
+| Stiopa | Стьопа | (reconfirmed from TM); falls asleep in the carriage |
+
+### Places (Carnet 065)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Gavronzi | Гавронці | Father's estate (per TM) |
+| Tchernakovka | Чернякивка | Marie's real wet-nurse's village (per TM) |
+| Chpatovska | Шпатовська | Tarnovsky estate where carnet opens |
+| Poltava / Kharkoff / Odessa | Полтава / Харків / Одеса | (per TM) |
+
+### Key Terms & Idioms (Carnet 065)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| gommeux / la gomme | ==gommeux== / ==gomme== | 1870s slang fop/dandy. KEPT IN FRENCH with ==highlight== + footnote on first use (065.0062), because a running pun (gommeux←gomme=gum→"transparent"→"a quality prized in painting", entry 08-23) hinges on the French word. NOT translated to «фертик» here for that reason |
+| Petite-Russie / petit-russien | Малоросія / малоросійською | Period imperial term for Ukraine; footnote on first use |
+| hetman / sceptre du hetman | гетьман / гетьманська булава | Cossack ruler; "sceptre"→«булава» |
+| Troisième Section | Третій відділ | Tsarist secret police; footnote |
+| genitor (Latin) | ==genitor== | Marie's ironic Latin for her father; ==highlight== + footnote |
+| drochki-de course | бігові дрожки | Racing droshky; footnote |
+| chevaux isabelle | коні масті ізабела | Pale-cream horse colour; footnote |
+| maréchal de noblesse | ватажок дворянства | (per TM 023) |
+| jeunesse dorée | золота молодь | Gilded youth |
+| philoslave | філослов'янин | Pan-Slavist; footnote |
+| se tenait à quatre | зі шкури пнувся, аби | Idiom: restrained himself with effort |
+| jeter des pierres dans le jardin de qqn | пускати шпильки на чиюсь адресу | Idiom: make veiled jabs — NOT literal "stones in garden" |
+| comme des nègres (period idiom) | мов невільники | Period racially-charged idiom for tireless service; rendered «мов невільники» to keep sense without modern slur; TR note flags period register |
+| Bigre ! | Хай йому грець! | Mild period expletive |
+| fichu-père / fichu-lecteurs (Marie's quirk) | клятий-батько / кляті-читачі | Playful "fichu-" prefix kept as «клятий-» |
+| petit crevé | фітюлька-чепурун | 1870s slang for affected dandy |
+| sellette (jeu) | гарячий стілець | Parlor-game "hot seat" |
+| papiers (jeu) | папірці | Parlor game (slips of paper) |
+| Moussia | Муся | (per TM 023); uncle's endearment for Marie |
+
+- 2026-06-07: Carnet 065 complete (Russia/Ukraine, father reunion at Gavronci/Poltava, Aug–Sep 1876). «gommeux» running-pun kept in French; Gritz→«Гриць». (tr-a run)
+
+## Carnet 068 Additions (Nice → Rome → Naples carnival, Dec 1876 – Feb 1877)
+
+Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aftermath), a flight to Rome, and the Naples carnival, where she becomes obsessed with Count Larderei. Her psychological nadir (Book 9 close).
+
+### People & Nicknames (Carnet 068)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Larderei (comte Alessandro) | Лардереї | CANONICAL. Naples carnival object of obsession; indeclinable (no «Лардереєм»). Rosalie's mangled form «Ladreréel»→«Ладререль» kept as her error |
+| Bijou-bouzouk (Larderei nickname) | Біжу-бузук | Marie's mocking nickname for Larderei (Bijou=trinket + bachi-bouzouk); footnote-free, recurs from 068.0554 |
+| Mirafiore (comte/comtesse de) | Мірафіоре | Larderei's brother-in-law/sister; King's morganatic kin. Rosalie's «Mirafiol»→«Мірафіоль» kept as her error |
+| Antonelli (Pietro/Paolo) | Антонеллі (П'єтро/Паоло) | The broken-engagement scandal centre; Pietro=П'єтро (canonical per TM) |
+| Broussais | Бруссе | Crude Nice doctor-bore living with deaf Pelikan |
+| Lubimoff | Любімов | Young widower courting Dina |
+| Anitchkoff / Mme Anitchkoff | Анічков / пані Анічкова | Russian Nice family (per TM 018) |
+| Souvoroff (princesse) | Суворова (княгиня) | (per TM) |
+| Merjeewsky | Мержевський | Polish count (per TM 022); pursues Marie into Nice |
+| Pierret (Gustave) | Пієрре (Ґюстав) | Alleged slanderer Marie confronts |
+| Gambetta (Léon) | Ґамбетта (Леон) | French republican leader; Marie's audacious letter |
+| Rossi | Россі | Rome gossip-source; Marie's animal nickname «омар Россі» (le homard) |
+| Doenhoff (comte de) | Денгоф (граф де) | Prussian prince's circle, Naples |
+| Altamura | Альтамура | Naples dandy; comic stammering dialogue (eou/«еу») |
+| Ruffo (prince) | Руффо (князь) | Naples carnival cavalier |
+| Merisano | Мерізано | "le singe de l'année passée" → «торішня мавпа» |
+| Rosalie | Розалі | Marie's maid-spy in Naples; Parisian street-slang voice |
+| Charles | Шарль | Larderei's coachman/custode |
+| Nasimoff | Насимов | Naples consul |
+| la Righi | Ріґі | Larderei's kept mistress, Milan singer; her child |
+| Belle-de-jour (Audiffret) | Красень-Денний | (per TM) |
+| Soroka | Сорока | (per TM); generic pet-word for street-admirers |
+
+### Period Vocabulary & Idioms (Carnet 068)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Cercle (de la Méditerranée) | Клуб (Середземноморський) | Exclusive Nice club; kept as proper name |
+| Rome noire | чорний Рим | Papal/clerical society vs "white" royal Italy; footnote |
+| habits pontificaux | папське вбрання | Formal dress for papal Rome |
+| singe encagé | мавпа в клітці | Marie's self-image of social exhibition |
+| costume de moine / capuchon de moine | чернечий костюм / каптур | Her defensive "monk" carnival armour |
+| veglione | ==veglione== | Grand masked ball; ==highlight==+footnote (іт.) |
+| coriandoli | ==coriandoli== | Carnival confetti; ==highlight==+footnote (іт.) |
+| barcaccia | ==barcaccia== | Boat-shaped front theatre box; ==highlight==+footnote (іт.) |
+| lazzaroni | ==lazzaroni== | Naples street-poor; ==highlight==+footnote |
+| domino | доміно | Hooded masquerade cloak |
+| grisette | ґризетка | Working-girl of loose morals; footnote |
+| interdit (legally) | під опікою | Judicially deprived of managing own affairs; footnote |
+| traite (de X francs) | вексель | Bill of exchange/promissory note |
+| guignon | зла доля / невезіння | Persistent jinx |
+| coup de pied au derrière | копняк під зад | Crude idiom for humiliation |
+| fini / achevé / complet vs inachevé | завершений / довершений / повний vs незавершений | Marie's character taxonomy (068.0338); independent of intelligence |
+| comme le naufragé s'accroche à un brin de paille | як потопельник хапається за соломинку | Idiom of desperate attachment |
+| faire de trou dans l'eau | бити повітря | Idiom: to strive in vain |
+| vieux style | старого стилю | Julian calendar; footnote |
+| Skating / Skating-rink / rink (English) | ==Skating== / ==rink== | English code-switch throughout; ==highlight==+footnote per file |
+
+### Conventions (Carnet 068)
+- "II" / "I!" — Marie's double-bar emphasis punctuation: preserved as-is.
+- "fichu-" prefix («fichu-père», «fichu-coquin») → «осоружний-/клятий-» (per TM 065 «клятий-»).
+- French acrostic on "ÉMILE" (068.0153-0157) + Girofla Serbia song (068.0160-0163): acrostic kept in French ==highlight==+footnote with Ukrainian gloss (first-letters untranslatable); the comic song rendered as Ukrainian verse (it is Marie's own French joke, not a code-switch).
+- Italian code-switches (Pietro reproaches, train-station, fake telegram) and Latin («Culpa mea», «Dubium…») → ==highlight==+footnote.
+- Altamura's mangled French (eou/«еу», «Poua vous serouiar») → phonetic Ukrainian preserving the buffoonery.
+- "dialogue petit-russien" → «малоросійський діалог» (Marie marks family switching to Ukrainian).
+
+- 2026-06-07: Carnet 068 complete (Nice/Rome/Naples, Dec 1876–Feb 1877; Larderei obsession, Antonelli-gossip aftermath, Book 9 close). Larderei→«Лардереї», Bijou-bouzouk→«Біжу-бузук» established. (tr-b run)
+- 2026-06-07: Carnet 068 RED review complete, 0.94, all 19 editor_approved. Pietro lock clean (11× «П'єтро», 0 drift). Acrostic ÉMILE kept French+gloss-footnote; Girofla "Serbia" song rendered as UK verse (Marie's own joke, not code-switch); Altamura's mangled French («Поу вас послюуг!»/«Абсооюно!») phonetic UK preserving buffoonery; source-repeat 0592/0594 faithful (not copy-paste); "dialogue petit-russien"→«малоросійський діалог». (red)
+
+## Carnet 066 Additions (Russia/Ukraine — Gavronci & Poltava, Aug–Oct 1876)
+
+Continuation of the father-reunion stay at Gavronci, Poltava social rounds, the Gritz Miloradovitch flirtation, the wolf hunt, the Dikanka visit, and the Tchernakowka childhood-home journey.
+
+### People & Names (Carnet 066)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Michel Eristoff / prince Eristoff | Мішель Ерістов / князь Ерістов | CANONICAL with і (matches 065 TM line 1770). NOT «Еристов» (no і) — 5 occurrences normalized in 066 by RED. Distinct from Spa «принцеса Еристова» (carnet 020). Oblique: Ерістова/Ерістовим. Full mock-title: «князь Мішель Андрійович Ерістов Арагвський» |
+| Alexandre (uncle/estate-manager) | Олександр | LOCKED to «Олександр» (NOT Russified «Александр», which drifted in 065). 0 «Александр» in 066. Oblique: Олександра/Олександрові/Олександровою. Distinct from the historical Tsar («цар», Peter I, in the Dikanka/Kochubey passage) — never conflate |
+| Pacha / Paul Gorpintchenko | Паша / Поль Горпінченко | (per 065 TM); gets nickname *philoslave*→«філослов'янин» |
+| Kapitanenko / "Kapitan" | Капітаненко / «Капітан» | retired guard officer, household butt |
+| Gritz Miloradovitch | Гриць (Григорій Левич) Милорадович | (per 065 TM); the childhood suitor |
+| Collignon (Mlle, governess) | Коліньйон | FEMALE indeclinable, single-л (per 062 TM) — confirmed: «відповідь Коліньйон», fem. verb «розпитує» |
+| Kotchoubey (prince Serge / Victor / Basile) | Кочубей (князь Сергій / Віктор / Василь) | Dikanka owners |
+| Vassilissa | Василиса | great-aunt, "excessivement comme il faut" |
+
+### Key Terms & Idioms (Carnet 066)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| battue au loup | облава на вовка | Russian wolf-hunt (entry 09-24) |
+| cheval soumis (troika trace-horse) | пристяжний кінь | side-harnessed horse, head turned out |
+| swita (peasant coat) | свита | Ukrainian peasant garment |
+| chemise brodée | вишивана сорочка | vyshyvanka |
+| Dikanka / Mazeppa / Marie Kotchoubey | Диканька / Мазепа / Марія Кочубей | Pushkin's "Poltava" cluster; "dénonciation au tsar"→«донос цареві» |
+| Vierge d'Achtirka | Охтирська Богородиця | miraculous icon; footnote on first use |
+| taureau roux invisible | невидимий рудий бик | Marie's spiritual-struggle metaphor (09 opening of book) |
+| fichu-père / fichus-lecteurs | клятий батько / кляті читачі | Marie's playful "fichu-" prefix (per 065 TM) |
+| gommeux (non-pun contexts) | фертик | rendered «фертик» here (gandin→фертик precedent); NO gum/transparency pun in 066, so the 065 keep-in-French rationale does not apply |
+| petit-russien (language) | малоросійська | period term for Ukrainian; footnote |
+| comme il faut | comme il faut | kept French; ==highlight==+footnote on first use (09-08), bare French in later recurrences |
+| Gritz/Grof homophone ruse | Гриць / Ґроф | «Ґроф» = рос. граф; footnote explains the homophonic deception (09-16) |
+
+### Multilingual / Manuscript (Carnet 066)
+- Latin tags (Lacrymosa, O rus, Audaces fortuna juvat, Et lacryma et riou [corrupted], al paterno tetto [Italian], expectation [English]) → ==highlight==+footnote.
+- Manuscript `<u>…</u>` HTML underline straddling a word boundary (source `<u>Vierge porte ma</u>lheur`) → preserved verbatim as `<u>Богородиця приносить не</u>щастя` (09-27). Triggers a benign latin-in-cyr WARN; source-faithful, leave it.
+- Markers [замазано:]/[Викреслено:]/[На полях:]/[Навскоси:]/[Угорі сторінки:]/[sic] all preserved.
+- Empty/heading-only entries (09-14 placeholder, 10-07/10-08 heading-only, 10-09-11/10-12-13 frontmatter-only) match source emptiness.
+
+- 2026-06-07: Carnet 066 complete (Russia/Ukraine, Gavronci/Poltava, Aug–Oct 1876). Ерістов locked (з і), Олександр locked, фертик for non-pun gommeux, wolf-hunt/Dikanka/Tchernakowka vocabulary. (tr-c + RED run; TM terms folded in by RED)
+
+## Carnet 067 Additions (Russia → Vienna → Paris → Nice, Oct–Dec 1876)
+
+The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris (Antonelli's death refrain, Pacha farewell, Novosselsky), the Paris political/society interlude (Cassagnac infatuation, the La Motte marriage interview, Alexis the clairvoyant), and arrival in Nice (Skating-rink debut, Maman vs Mme Tutcheff at Monaco). Closes Book with the "І цей хтось — це Я Сама!" self-reliance climax (067.0365).
+
+### People & Names (Carnet 067)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Paul de Cassagnac | Поль де Кассаньяк | Bonapartist deputy/journalist, Marie's infatuation; «Кассаньяк». Adolphe Granier de Cassagnac (father) = «Ґраньє де Кассаньяк» |
+| Paolo (Cassagnac nickname) | Паоло | Italian form of Paul, mocking/affectionate; kept as name (no code-switch markup) |
+| le dogue / le bretteur (Cassagnac epithets) | дог / дуелянт | "mastiff / duellist"; «пострах наброду» for "l'épouvantail de la canaille" |
+| Janvier de La Motte (père et fils) | Жанв'є де Ла Мотт | Bonapartist prefect + son Louis (marriage candidate); "Février, non, Janvier" pun → «Февраль, ні, Жанв'є» |
+| gens vernis / verni | люди лаковані / лакований | Marie's coinage: socially "varnished/lacquered" types |
+| Michel / Albert Gautier | Мішель / Альбер Готьє | Nice brothers; Michel the "dévergondé" who recalls Larderei/Antonelli |
+| Mme Tutcheff | пані Тютчева | Father's mistress, family slanderer; genitive Тютчевої, dative Тютчевій |
+| Novosselsky | Новосельський | Ex-magnate, mayor of Odessa; courtly train-companion |
+| Capoul (Victor) | Капуль | Celebrated French tenor; "le bien-aimé des dames" |
+| Berthe / les Boyd | Берта / Бойди | English family in Paris ("famille Benoîton"); Berthe of the cœur d'argent |
+| impératrice Eugénie | імператриця Євгенія | Napoleon III's exiled empress; Marie's moving anecdote |
+| Constantin Eristoff | Костянтин Ерістов | (per 065/066 Ерістов-lock, з і); at the Monaco scandal |
+| Mme Souvoroff (princesse) | пані/княгиня Суворова | (per TM); Nice champion of Maman |
+| Mme Zourmiline | пані Журміліна | Pelikan's friend at the Skating-rink |
+| Blanc | Блан | Cassagnac's gouailleur political associate |
+| Somorokoff [sic] | Сомороков | Marie's own misspelling of Soumarokoff (officer on the train); preserve her spelling |
+
+### Period Vocabulary & Idioms (Carnet 067)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch; ==highlight==+footnote on first use (067.0293); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
+| fichus-ignorants (Marie's coinage) | кляті-невігласи | per «fichu-»→«клятий-» convention (065/066) |
+| le Goloss (Russian newspaper) | «Голос» | St. Petersburg liberal paper; Russ. голос = voice |
+| Golova / Douma (Russian) | голова / дума | mayor / city-hall; Marie's linguistic aside, gloss kept |
+| dialogue petit-russien | малоросійський діалог | period term for Ukrainian; footnote (per 066/068). The "pelisse/кожух" folk dialogue (067.0197) rendered idiomatically |
+| trente-six paquets (idiom) | сила-силенна пакунків | "thirty-six packages" = idiomatic "very many", NOT literal |
+| coq du village | перший півень на селі | "cock of the village" (Audiffret's local dominance) |
+| Un d'Artagnan de lettres | Д'Артаньян від словесності | parliamentary-manual profile of Cassagnac |
+| garde des Sceaux | охоронець печаток | Keeper of the Seals (Dufaure) |
+| budget des Cultes | бюджет на культи | religious-affairs budget debated at Versailles |
+
+### Titles / Works (Carnet 067)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Paul et Virginie (Massé opera / Saint-Pierre novel) | «Поль і Вірджинія» | LOCKED to TM 021 form «Вірджинія» (з дж); RED normalized «Віргінію»→«Вірджинію» 3× this carnet (067.0154/0187/0201). "des airs de Virginie" = acting demure like the heroine |
+| Giroflé-Girofla (Lecocq) | «Жирофле-Жирофля» | opéra-bouffe; "Girofla"→«Жирофля» also Marie's nickname for Audiffret |
+| Un ballo in maschera (Verdi) | «Бал-маскарад» | Verdi opera; rendered as translated title |
+| La Jeunesse du roi Henri (Ponson du Terrail) | «Молодість короля Анрі» | Ponson du Terrail = «Понсон дю Тераль»; Antonelli's seduction-manual |
+| Tite-Live | Тіт Лівій | Livy; Marie compares him to «Александр Дюма» (the NOVELIST — Russified-form Dumas is CORRECT here, NOT the uncle «Олександр») |
+
+### Code-Switches / Manuscript (Carnet 067)
+- Latin/Italian tags (Via e al diavolo, Chi lo sa?, Est socia mortis homini vita ingloria, Tu quoque?, Agnus Dei) → ==highlight==+footnote (per wave standard).
+- Marie's own FRENCH verses (the "veux savoir l'amour" quatrain 067.0174, the "Partant pour la Serbie" parody 067.0205, the Offenbach Belle-Hélène refrain) → rendered as Ukrainian VERSE (her own jokes, not foreign code-switches).
+- Markers [зачорнені слова:] (Mots noircis), [викреслено:]/[Викреслені слова], [На полях:], [Навскоси:] all preserved.
+- Marie's own misdated double headings on merged entries (e.g. 067.0199 «# Неділя»/«## Субота», 067.0215 «# Понеділок»/«## Неділя») — source-faithful, preserve both.
+- Empty/heading-only entries (10-14 → 11-08 span; heading-less: 10-18-19, 10-21-22, 10-25-26, 10-27-29, 11-02-03) match source emptiness.
+
+- 2026-06-07: Carnet 067 complete (Russia→Vienna→Paris→Nice, Oct–Dec 1876). 17 content + 20 empty entries. (tr-d run)
+- 2026-06-07: Carnet 067 RED review complete, 0.94, all 37 editor_approved. Locks clean: Олександр (uncle) 0 Russified [lone «Александра Дюма» = novelist, correct]; Ерістов з і; П'єтро 0 drift. Edits: «Вірджинію» normalized 3×, gender «Увесь статок» 1×. Cassagnac/La Motte/Skating-rink/Готьє/Тютчева terms folded into TM. Verses (pelisse-кожух 0197, Serbie-parody 0205) confirmed. (red)
