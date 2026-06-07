@@ -748,6 +748,77 @@ When translating, refer to this document for established translations of recurri
 - First appearance: 055 (recurring)
 - Notes: "Parbleu" also → "U sta hromů" (same register).
 
+## Carnet 057 Terms
+
+### barcaccia (gens de la barcaccia)
+- Translation (Czech): společnost od Barcaccie
+- Context: Regular social set gathered at the Barcaccia fountain in Piazza di Spagna, Rome; Marie's habitual meeting-place crowd
+- First appearance: 057 (1876-04-12)
+
+### Nature de chat
+- Translation (Czech): kočičí povaha
+- Context: Marie's self-deprecating phrase for her place-attachment and fickleness, like a cat
+- First appearance: 057 (1876-04-11)
+
+### Voir Naples et mourir
+- Translation (Czech): Vidět Neapol a zemřít
+- Context: Famous Italian saying (Vedi Napoli e poi muori); Marie subverts it dismissively
+- First appearance: 057 (1876-04-13)
+- Notes: Footnote added explaining the proverb for Czech readers
+
+### culpa mea (liturgical)
+- Translation (Czech): culpa mea (kept Latin)
+- Context: From the Confiteor prayer; Marie uses it in penitential self-examination; marked ==highlight== with footnote
+- First appearance: 057 (1876-04-13)
+
+### "That is the question" (Shakespeare code-switch)
+- Translation (Czech): ==To je ta otázka== (highlighted, footnoted)
+- Context: Marie code-switches to English citing Hamlet; per convention: Czech translation in text, English original in Pozn. překl. footnote
+- First appearance: 057 (1876-04-13)
+
+### poussé au non plus / nec plus ultra
+- Translation (Czech): dotažená až k nec plus ultra
+- Context: Marie's playful/erroneous version of "nec plus ultra" (the ultimate degree); kept in Latin as cited phrase
+- First appearance: 057 (1876-04-11)
+
+### résignation allemande
+- Translation (Czech): německá rezignace
+- Context: Marie's contemptuous term for phlegmatic, cold (German-style) resignation vs. her own passionate nature
+- First appearance: 057 (1876-04-13)
+
+## Carnet 058 Terms
+
+### Canaris et perroquets! (Marie's invented exclamation)
+- Translation (Czech): Kanáři a papoušci!
+- Context: Marie's invented exclamation expressing surprise and sudden joy
+- First appearance: 058 (1876-04-19)
+
+### grise (tipsy, from wine) — carnet 058
+- Translation (Czech): podnapilá
+- Context: Marie drinks wine at theater supper and becomes tipsy; same as carnet 007 "gris/grise"
+- First appearance: 058 (1876-04-16); see also 007
+
+### en sifflant (casual whistling manner)
+- Translation (Czech): pobrukovat si / procházet si
+- Context: Marie whistles/hums casually while surveying Pompeii ruins; translator trap: NOT "squinting"
+- First appearance: 058 (1876-04-18)
+- Notes: "Siffler" = to whistle, not to squint; render as nonchalant manner of observation
+
+### faire d'histoire (Russian idiom in Marie's French)
+- Translation (Czech): dělat scény
+- Context: Russian idiom "delat' istoriyu" embedded in Marie's French — to make a fuss/scene
+- First appearance: 058 (1876-04-17)
+
+### Galantine (Torlonia's nickname)
+- Translation (Czech): Galantine (kept, with footnote)
+- Context: Máma's nickname for Duke Torlonia, from galantine (jellied meat dish); mocking his softness
+- First appearance: 058 (1876-04-18)
+
+### beau à en mourir (hyperbole)
+- Translation (Czech): nádherné k zalknutí
+- Context: "Beautiful enough to die of it" — Czech "k zalknutí" (breathtaking) captures the intensity
+- First appearance: 058 (1876-04-14)
+
 %% 2025-03-23T02:20:05 PA: Initial translation memory created %%
 %% 2026-02-13T14:00:00 TR: Added terms from Carnet 006 translation %%
 %% 2026-02-13T18:00:00 TR: Added terms from Carnet 007 translation %%
@@ -760,3 +831,181 @@ When translating, refer to this document for established translations of recurri
 %% 2026-05-31T18:00:00 TR: Added terms from Carnet 055 translation (Torlonia, chevaux/cheveux wordplay, code-switching convention, marriage-proposal letter) %%
 %% 2026-05-30T12:30:00 TR: Added terms from Carnet 051 translation (Záhadný/Surprenant, letter campaign, Robenson nicknames, code-switching convention) %%
 %% 2026-05-30T16:00:00 TR: Added terms from Carnet 053 translation (Soroka/Galula, Belle-de-jour as dream omen, Bigre→U sta hromů, plobsters, de la graisse, T.A.E. Graces, salons blancs/noirs) %%
+%% 2026-06-06T14:00:00 TR: Added terms from Carnet 058 translation (Naples arc — Canaris et perroquets, grise, en sifflant trap, faire d'histoire, Galantine/Torlonia nickname, beau à en mourir) %%
+%% 2026-06-06T14:30:00 TR: Added terms from Carnet 059 translation (Nice return arc — A.T.E. bylaws, ščenok, cardialgické palpitace, palpitations cardiologiques, Bigre→U sta hromů continued, Pozn. překl. footnotes for Italian/Russian) %%
+%% 2026-06-06T16:00:00 TR: Added terms from Carnet 064 translation (Paris-Berlin-Eydkühnen-Petersburg arc, July–August 1876) %%
+
+## Carnet 059 Terms
+
+### animaux niçois (Nice inhabitants, contemptuous)
+- Translation (Czech): niçoiská zvěř
+- Context: Marie's contemptuous collective noun for the dull permanent residents of Nice
+- First appearance: 059 (1876-05-05)
+- Notes: "zvěř" (animals/fauna) for contemptuous effect; adjective "niçoiská" kept foreign to underscore Marie's outsider disdain
+
+### Bigre / U sta hromů — carnet 059
+- Translation (Czech): U sta hromů
+- Context: Continues from carnet 053/055/058; Marie's recurring mild oath
+- First appearance: 059 (throughout)
+- Notes: Consistent with established TM; "Bigre, bigre, bigre!" → "U sta hromů, u sta hromů, u sta hromů!"
+
+### chtchenok / ščenok (Russian pejorative)
+- Translation (Czech): ščenok (kept Russian, footnoted)
+- Context: Russian щенок (puppy/pup); Marie uses it for Pietro Antonelli as immature young dog; paired with French "jeune chien"
+- First appearance: 059 (1876-05-08)
+- Notes: Keep Russian word as-is with footnote: "Pozn. překl.: V originále rusky: щенок (ščenok) — štěně, přeneseně: nezralý, drzý mladík." Also appears as "jeune chien" → "mladý pes" in same sentence.
+
+### palpitations cardiologiques (Marie's neologism)
+- Translation (Czech): kardialgické palpitace
+- Context: Marie's self-coined medical term (Kardio + algos = heart pain); she explains the Greek etymology herself in text
+- First appearance: 059 (1876-05-08)
+- Notes: Preserve her neologism + add footnote explaining the Greek etymology she herself provides: "kardio (srdce) + algos (bolest)"
+
+### A.T.E. / société A.T.E.
+- Translation (Czech): společnost A.T.E.
+- Context: Marie's private society with the Sapogenikoff sisters (Thalia, Aglaé, Euphrosyne — the Three Graces); bylaws transcribed in full in 059 (1876-05-03)
+- First appearance: 059 (1876-05-02)
+- Notes: "société" → "společnost"; the bylaws preserve formal legal register in Czech; cf. T.A.E. from carnet 053
+
+### bédouin (garment)
+- Translation (Czech): bédouinská pláštěnka
+- Context: North African-style loose mantle/cloak, fashionable exotic garment; Marie wears it draped "à la Turque"
+- First appearance: 059 (1876-05-05)
+- Notes: "pláštěnka" (cloak/wrap) + adjective "bédouinská"; footnote on first use if needed
+
+### se mettre en quatre (idiom)
+- Translation (Czech): rozdávat se čtvero
+- Context: To bend over backwards / do everything for someone (lit. "split oneself in four"); Marie uses it for Collignonová's servility
+- First appearance: 059 (1876-05-05)
+
+### Carpo di Bacco! (Italian oath)
+- Translation (Czech): Ach, do toho Bakcha! (with footnote)
+- Context: Italian euphemistic expletive, lit. "Body of Bacchus!"; Marie switches to Italian for comic/dramatic effect
+- First appearance: 059 (1876-05-07)
+- Notes: Always footnoted: "Pozn. překl.: V originále italsky: Carpo di Bacco! — italská přísaha, eufemistické zvolání."
+
+### Vis un siècle et étudie un siècle (Russian proverb)
+- Translation (Czech): Žij století a uč se století (footnoted)
+- Context: Russian proverb quoted by grandfather at dinner; Marie has just made a strategic error with Antonelli
+- First appearance: 059 (1876-05-09)
+- Notes: Footnote: "Pozn. překl.: Ruské přísloví — žij celý věk a celý věk se uč; člověk nikdy nepřestane se učit."
+
+### tablettes de haine et de vengeance
+- Translation (Czech): zápisník nenávisti a pomsty
+- Context: Marie's private mental ledger of wrongs to be avenged; recurring self-image across the diary
+- First appearance: 059 (1876-05-07)
+
+### couvent du Bon Pasteur
+- Translation (Czech): klášter Dobrého Pastýře
+- Context: Good Shepherd convent (Sisters of Our Lady of Charity); devoted to women in distress; in Nice; Marie visits to donate the Pope's portrait
+- First appearance: 059 (1876-05-09)
+- Notes: Always footnoted with explanation of order's mission; nuns speak through an iron grille ("mříž")
+
+### se cogner le front contre le mur
+- Translation (Czech): tlouci si hlavou do zdi
+- Context: Marie's comic hyperbole for frustrated boredom at social events
+- First appearance: 059 (1876-05-09)
+
+### Vingt ans après (Dumas)
+- Translation (Czech): Dvacet let poté
+- Context: Alexandre Dumas's 1845 sequel to The Three Musketeers; Marie re-reads it for escapism when bored/depressed
+- First appearance: 059 (1876-05-09)
+- Notes: Czech standard title "Dvacet let poté"; footnote on first use explaining the literary context
+
+## Carnet 064 Terms
+
+### fluide / fluidum (mesmerism concept)
+- Translation (Czech): fluidum
+- Context: 19th-century magnetic/mesmeric "fluid" that passes between people in love or healing; Marie uses it to describe her magnetic effect on Yssayevitch and earlier Nina's theory of love
+- First appearance: 064 (1876-08-05-06, 1876-08-07)
+- Notes: "fluidum" is the standard Czech learned form (from Latin); footnoted on first use; do not use "fluid" (anglicism) or "tekutina" (too literal/physical)
+
+### Bigre / Parbleu — carnet 064
+- Translation (Czech): U sta hromů
+- Context: Continues from earlier carnets; established TM term
+- First appearance: 064 (throughout)
+- Notes: "Eh pardieu! j'y vais!" → "U sta hromů — jedu!" consistent with TranslationMemory
+
+### comme il faut — carnet 064
+- Translation (Czech): jak náleží
+- Context: Proper, well-bred, as it should be; used for the cavalry guardsman in 064 (1876-08-10)
+- First appearance: Various; established TM term
+- Notes: "garde à cheval si comme il faut" → "jezdec tak jak náleží"
+
+### droschki / drožky (carnet 064)
+- Translation (Czech): drožky
+- Context: Russian horse-drawn cab; established TM term from carnet 064 onwards
+- First appearance: 064 (1876-07-31, 1876-08-04)
+- Notes: Always footnoted on first appearance in each carnet; "drožky" is the standard Czech form
+
+### Chocolat (servant Fortuné)
+- Translation (Czech): Čokolád (on kozlíku) / Čokoláda (generally)
+- Context: Familiar nickname for the African servant Fortuné; note masculine form "Čokolád" when acting as coachman (sur le siège)
+- First appearance: 064 (1876-07-31 onwards; also 055)
+- Notes: "le fidèle Chocolat sur le siège" → "věrný Čokolád na kozlíku"
+
+### turbamento (Italian code-switch)
+- Translation (Czech): ==turbamento== (highlighted, footnoted)
+- Context: Italian: disturbance, agitation; Marie switches to Italian when describing an emotional reaction to the blonde officer passing in Peterhof; marks romantic perturbation
+- First appearance: 064 (1876-08-08-09)
+- Notes: Per foreign-passage convention: keep Italian in ==highlight==, add footnote "Pozn. překl.: Italsky: turbamento — rozrušení, neklid."
+
+### Partant pour la Syrie (French song)
+- Translation (Czech): ==Partant pour la Syrie== (highlighted, footnoted)
+- Context: Famous French song (1807) attributed to Queen Hortense Beauharnais; Marie uses it as parody vehicle for her Serbian-volunteer verse improvisation about Girofla
+- First appearance: 064 (1876-08-08-09)
+- Notes: Keep in French; footnote explaining it was quasi-official song of the Second Empire
+
+### Matamore / Matamor
+- Translation (Czech): Matamor (footnoted)
+- Context: Stock theatrical braggart-soldier character from commedia dell'arte; Marie applies it to Cassagnac's oratorical posture
+- First appearance: 064 (1876-07-24)
+- Notes: Czech "Matamor" without final -e; footnote on first use; from Spanish "mata-moros" (Moor-killer)
+
+### assai (Italian code-switch)
+- Translation (Czech): ==assai== (highlighted, footnoted)
+- Context: Italian: enough, quite; Marie's intimate Italian code-switch in Cassagnac scenes; marks moments of emotional satiation
+- First appearance: 064 (1876-07-24)
+- Notes: Per foreign-passage convention; footnote "Pozn. překl.: Italsky: assai — dost, zcela."
+
+### embonpoint (period fashion term)
+- Translation (Czech): embonpoint (kept French, footnoted)
+- Context: Plumpness, specifically that fashionable slight fullness considered healthy and attractive in 1870s; Marie uses it approvingly of Cassagnac's build
+- First appearance: 064 (1876-07-24)
+- Notes: Kept as French term with footnote; no exact Czech equivalent for the period aesthetic
+
+### peindre par taches / sfumato
+- Translation (Czech): malovat skvrnitě / sfumovat
+- Context: Marie's art-theory discussion in Berlin museum, 1876-07-28; "taches" → "skvrny" (spots/patches); "estomper" → "sfumovat" (Italian sfumato technique)
+- First appearance: 064 (1876-07-28)
+- Notes: "sfumovat" is the established Czech art-history term; footnote on first use
+
+### homme universel (Chocolat's term for himself)
+- Translation (Czech): muž, který prošel vším
+- Context: Chocolat's self-description as a universal man/jack-of-all-trades on the train; ironic
+- First appearance: 064 (1876-07-26-27)
+- Notes: "homme universel" not rendered as "renesanční člověk" (that's too dignified); "muž, který prošel vším" captures the comic self-aggrandizement
+
+### kalaч (Russian bread)
+- Translation (Czech): kalaч (kept Russian spelling, footnoted)
+- Context: Traditional Moscow white bread in distinctive shape; "presque aussi célèbre que son Kremlin"
+- First appearance: 064 (1876-08-11-12)
+- Notes: Footnote explaining shape and Moscow fame; do not use Czech transliteration "kalaч" vs. "kalač" — keep the Cyrillic-hybrid form
+
+### Turpis, execrabilis! (Latin self-condemnation)
+- Translation (Czech): ==Turpis, execrabilis!== (highlighted, footnoted)
+- Context: Latin: shameful, detestable! Marie's outburst of self-condemnation over the Antonelli kiss episode
+- First appearance: 064 (1876-08-11-12)
+- Notes: Per foreign-passage convention; footnote "Pozn. překl.: Latinsky: Turpis, execrabilis! — Hanebná, prokletá!"
+
+### figure créole / kreolská tvář
+- Translation (Czech): kreolská tvář (footnoted)
+- Context: Cassagnac's warm, exotic complexion described with this phrase; period term for mixed European-Caribbean ancestry
+- First appearance: 064 (1876-07-24)
+- Notes: Footnote noting the 19th-c. usage: "V 19. století označovalo 'kreolský' osoby narozené v koloniích evropského původu, případně osoby smíšeného původu."
+
+### Slavjanský bazar / Bazar Slave (Moscow hotel)
+- Translation (Czech): Slavjanský bazar
+- Context: Famous Moscow hotel where Marie stays; name reflects Slavic identity
+- First appearance: 064 (1876-08-11-12)
+- Notes: Use Russian name "Slavjanský bazar" to preserve the Russian authenticity Marie emphasizes

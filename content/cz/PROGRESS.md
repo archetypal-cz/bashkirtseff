@@ -1,41 +1,53 @@
 # Czech Translation Progress
 
-<!-- Last updated: 2026-02-04 -->
+<!-- Last updated: 2026-06-07 -->
 <!-- Updated by: @kerray -->
 
 ## Overview
 
 | Metric | Value |
 |--------|-------|
-| **Total carnets** | 107 |
-| **Total entries** | ~3,300 |
-| **Carnets started** | 5 |
-| **Carnets complete** | 0 |
-| **Overall progress** | ~3% |
+| **Total carnets** | 107 (000–106) |
+| **Carnets complete (TR→RED→CON)** | 65 (000–064) |
+| **Carnets in progress** | 1 (095, partial) |
+| **Carnets not started** | 41 (065–094, 096–106) |
+| **Overall progress** | ~61% of carnets |
 
-## Carnet Status
+Carnets **000–064** are fully translated, editor-reviewed, and conductor-approved.
+Carnet **095** has ~61 legacy sample/in-progress entries (not flagged complete) plus
+32 untranslated — a separate cleanup task.
 
-| Carnet | Entries | TR | GEM | ED | CON | Worker |
-|--------|---------|-----|-----|-----|-----|--------|
-| 000 | 1 | 100% | — | — | — | @kerray |
-| 001 | 22 | 100% | — | — | — | @kerray |
-| 002 | 25 | 100% | — | — | — | @kerray |
-| 003 | 33 | 100% | — | — | — | @kerray |
-| 004 | 19 | ~50% | — | — | — | @kerray |
-| 095 | 2 | 100% | — | — | — | @kerray |
+## Carnet Status (summary)
 
-## Active Work
+| Range | TR | RED | CON | Notes |
+|-------|-----|-----|-----|-------|
+| 000–055 (+021) | ✅ | ✅ | ✅ | Earlier waves; mostly editor+conductor approved |
+| 056–064 | ✅ | ✅ | ✅ | **This wave (2026-06-07)** — Rome/Naples→Russia arc, 1876, 130 entries, avg CON ~0.92 |
+| 095 | ~partial | — | — | Legacy samples + 32 untranslated; needs finishing |
+| 065–094, 096–106 | — | — | — | Not started |
 
-- Carnets 001-004: Translation in progress
-- Carnet 095: Sample entries translated
+## This Wave — 056–064 (2026-06-07)
 
-## Quality Metrics
+| Carnet | Entries | CON score |
+|--------|---------|-----------|
+| 057 | 4 | 0.93 |
+| 058 | 6 | 0.91 |
+| 061 | 7 | 0.91 |
+| 060 | 9 | 0.91 |
+| 056 | 13 | 0.92 |
+| 063 | 13 | 0.92 |
+| 059 | 20 | 0.90 |
+| 064 | 23 | 0.92 |
+| 062 | 35 | 0.92 |
 
-| Metric | Target | Current |
-|--------|--------|---------|
-| First-pass editor approval | >70% | — |
-| Conductor approval rate | >90% | — |
-| Average revision rounds | <2 | — |
+Larger team: 5 translators + 2 editors + 1 conductor. Link-health gate clean
+(`just check-links-repo`: 0 broken). Run report:
+`.claude/reports/2026-06-07-cz-056-064.md`.
+
+## Next Up
+
+- Carnets **065–069** (natural continuation; UK is ahead here for source-prep reference)
+- Finish carnet **095** (32 untranslated entries + finalize legacy samples)
 
 ## How to Contribute
 
@@ -46,8 +58,9 @@
 
 ## Recent Activity
 
+- 2026-06-07: Translated carnets 056–064 (130 entries, avg CON ~0.92), larger-team run
+- 2026-05-31: cz-050-055 wave + glossary link-health repairs
 - 2026-02-04: Infrastructure setup, README bootstrap
-- 2026-01-29: Continued translation of early carnets
 
 ---
 
