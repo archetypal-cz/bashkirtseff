@@ -2198,3 +2198,13 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 - Empty trailing para-end markers (071.0287, 071.0294, 071.0311, 071.0318, 071.0326) carried over with no body (match source).
 
 - 2026-06-07: Carnet 071 complete (Naples→Florence→Nice, Apr–Jun 1877). 26 entries, 326 paragraphs, all content. Alexandre=Larderei→«Алессандро» (indeclinable) per 070 LOCK (0 uncle «Олександр» in body); Alexandrine→«Александріна»; Larderei→«Лардереї»/Florentin→«Флорентинець»/Silène→«Сілен»/Bijou→«Біжу». "à fonds perdus"→«без вороття»; Dante Inferno V + Niçois/English code-switches kept w/ footnotes; Marie's verses rendered as UK verse; Lise's "р"-defect phonetically imitated. Manual structural checks pass (all glossary links use ../../_original/_glossary/ — 0 short-path drift; all footnote markers paired; YAML frontmatter preserved on all 26; no Cyrillic/Latin contamination; 0 Russianisms). (tr-b run)
+
+## Carnet 072–074 Additions (Paris → Schlangenbad/Wiesbaden, Jun–Sep 1877)
+
+### KEY NAMING LOCK (Carnets 072–074) — the "Alexandre" polysemy
+**In these carnets BOTH the romantic "Alexandre" (=Larderei) AND the uncle Alexandre Babanine appear**, so the 070/071 disambiguation must be applied per-occurrence:
+- **Marie's romantic "Alexandre" = LARDEREI** (his Italian given name Alessandro) → **«Алессандро», INDECLINABLE** (never Алессандра/Алессандру/Алессандром). Same lock as 070/071.
+- **The uncle = Alexandre Babanine** (maternal uncle / estate manager; "oncle Alexandre", "son fils Alexandre", family/estate/inheritance/Russia contexts) → **«Олександр», DECLINABLE** (Олександра/Олександрові/Олександром). Same as the 065/066/070 uncle lock (TM lines 1774, 1886, 2063). NOT Russified «Александр».
+- Alexandre Dumas (novelist) → «Александр Дюма» (Russified form CORRECT here, per 067 TM line 1963). Tsar Alexandre II → «Олександр II». Daughter Alexandrine → «Александріна» (declinable fem.).
+- **CRITICAL — glossary tags are UNRELIABLE for "Alexandre":** the bare alias "Alexandre" auto-tags to people/core/ALEXANDRE.md (= the uncle Babanine) regardless of true referent. e.g. 074/08-22 "Alexandre est un chien!" is tagged [#Alexandre](uncle)+[#Oncle_Alexandre] but its RSR comment says the referent is LARDEREI. **Disambiguate by the per-paragraph RSR comment + sentence context, NOT the tag.**
+- As-translated state needing correction (caught by RED/team-lead 2026-06-10): all three carnets initially rendered the Larderei-romantic "Alexandre" as Russified/Ukrainian declinable «Александр»/«Олександр» instead of «Алессандро», colliding with the uncle. Corrected to the lock above during RED review.

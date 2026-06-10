@@ -31,12 +31,9 @@ Carnet 073 of Marie Bashkirtseff's diary. A Paris carnet dominated by Italy obse
 | Research    | 36 | 36 | RSR |
 | Annotation  | 36 | 36 | LAN |
 
-**Note**: All entries use OLD paragraph format `[//]: # (10.XXXX)` with `# Date` headers. These need restructuring to standard `%% 073.XXXX %%` format in a separate pass.
+**Note**: All 36 entries use the standard `%% 073.XXXX %%` paragraph format. (A stale note here previously claimed they still used the old `[//]: # (10.XXXX)` format and needed restructuring — corrected 2026-06-10; the restructuring pass had already been completed.)
 
 ## TODOs
-
-### Restructuring Needed
-- [ ] Convert all 36 entries from old `[//]: # (10.XXXX)` format to `%% 073.XXXX %%`
 
 ### Research Needed
 None -- all 36 entries have RSR comments and full frontmatter.
@@ -68,6 +65,9 @@ None -- all 36 entries have LAN annotations.
 
 ### 2026-02-04T10:50:24 @kerray
 Initialized carnet README for progress tracking.
+
+### 2026-06-10 team-lead
+Corrected stale README note/TODO that claimed entries still used the old `[//]: # (10.XXXX)` format. Verified on disk: all 36 entries already use `%% 073.XXXX %%`. No restructuring pass needed.
 
 ### 2026-02-09T22:00:00 RSR
 Research phase complete. All 36 entries processed with frontmatter updates and RSR comments. Key research topics: romantic fantasy conclusion and carnet opening with "Gloriae Cupiditate" motto, d'Ideville's Italian diplomat memoir triggering Italy fever, marquis d'Ulau hotel visit, Miss Hall's Rabelaisian appetite and Baron Mertens scandal, Lambertini-Antonelli inheritance calculations, Golezowski ophthalmologist visit, Comedie-Francaise Marquis de Villemer performance, Antonelli self-analysis and Sorrento hand-kiss memory, Bon Marche shopping, Bonapartist rally at Saint-Augustin, Walery photographs for 1878 Exposition, comprehensive admirer catalogue, Ouida's Ariadne extended critique, Russo-Turkish War patriotism, hat manifesto, chronological catalogue project with Paul Poire.

@@ -18,7 +18,7 @@ You are the final conductor of translation quality. Your standards are uncomprom
 When working as a **teammate** in a translation team:
 
 1. **On startup**: Read team config, claim your task with TaskUpdate, read this skill file
-2. **Proactive preparation**: While waiting for RED to complete, read the French originals AND early translations deeply. Form preliminary quality impressions.
+2. **Proactive preparation**: While waiting for RED to complete, read the French originals AND early translations deeply. Form preliminary quality impressions. **Actively hunt the consistency-trap class while you read** (this is the single highest-leverage thing you can do before review — it moves defects upstream of translation instead of catching them after): scan for proper-noun / transliteration collisions (e.g. several distinct people sharing one given name; one surname declined inconsistently), and cross-reference the prior wave's `TranslationMemory.md` and adjacent already-approved carnets for the locked spelling of every recurring name. When you find traps, send the team lead a **structured flag list** — "LOCKED forms: X→Y …" plus "COLLISION TRAPS: …" — so the lead can broadcast it to the in-flight translators and they resolve it **in-draft**, not in cleanup. This applies to every target language, not just the current one.
 3. **Per-carnet review**: Review each carnet independently as RED completes review. Don't wait for all carnets.
 4. **Direct editing**: If you have Edit access, write CON comments directly to translation files and set `conductor_approved: true` in frontmatter. If you lack Edit access (common when spawned as `conductor` subagent type), include your verdicts and scores in your summary message — the ED will apply frontmatter updates.
 5. **Three-pass review**: Translation-only → comparative with French → "Would Marie approve?"
@@ -32,7 +32,8 @@ While waiting for RED to complete:
 - Read the French originals deeply — the more familiar you are, the faster and better your review
 - Read early translations as they appear — form preliminary quality impressions
 - Study quality patterns from previous carnets
-- Only message team lead for **genuine concerns** about quality patterns you observe
+- **Build the consistency-trap flag list** (see step 2 of the teammate workflow): proper-noun/transliteration collisions + the locked spelling of every recurring name from the prior wave's TranslationMemory and adjacent approved carnets. Send it to the team lead early enough to broadcast to in-flight translators.
+- Only message team lead for **genuine concerns** about quality patterns you observe (the trap flag list above is always a worthwhile message — it is not "status chatter")
 
 ### Notify Protocol
 
