@@ -838,6 +838,7 @@ When translating, refer to this document for established translations of recurri
 %% 2026-06-07T14:30:00 TR: Added terms from Carnet 070 translation (Naples farewell arc, April 1877; Pausilippe, Società Filarmonica, Pascarola proposal, Latin motto) %%
 %% 2026-06-07T14:45:00 TR: Added terms from Carnet 070 entries 1877-04-03 and 1877-04-04 (Sorrento arc — Bijou/Larderei codename, Siléna/la Righi wordplay, lazzarone, se dégoûter de idiom trap) %%
 %% 2026-06-07T15:00:00 TR: Added terms from Carnet 070 entries 1877-04-07 and 1877-04-08 (dostihový den, modlitba za pád z koně, Velikonoce — poisson d'avril, pesage, sicilienne, casaque, femme entretenue, carricollo, mon empereur, elle est excessivement jolie) %%
+%% 2026-06-10T12:00:00 TR: Added terms from Carnet 074 translation (Schlangenbad/Wiesbaden spa arc, Larderei memory portrait, Académie Julian first mention, September 1877) %%
 
 ## Carnet 070 Terms
 
@@ -996,6 +997,140 @@ When translating, refer to this document for established translations of recurri
 - Context: King Vittorio Emanuele II's repeated compliment about Marie at the state dinner of 130 covers
 - First appearance: 070 (1877-04-08)
 - Notes: Keep in ==highlight== per foreign-passage convention; footnote with Czech translation
+
+## Carnet 074 Terms
+
+### Académie Julian / atelier Julian
+- Translation (Czech): Académie Julian / ateliér Julian
+- Context: Progressive Parisian art school that accepted women; Marie decides to attend at the end of carnet 074 (September 22, 1877) — a pivotal turning point in her life and the diary
+- First appearance: 074 (1877-09-22)
+- Notes: Keep the French institutional name "Académie Julian" on first use with footnote; "ateliér Julian" for subsequent informal references; footnote: "Académie Julian — soukromá pařížská malířská škola, která jako jedna z prvních přijímala ženy na rovnoprávném základě."
+
+### enfantillages
+- Translation (Czech): dětinství / dětinské kousky
+- Context: Marie's word for her own childish antics — pranks at the spa (throwing things in Dina's bath, setting dogs to fight); she acknowledges her own immaturity with this word
+- First appearance: 074 (1877-09-08)
+- Notes: "dětinství" for the noun form as a concept; "dětinské kousky" when listing specific pranks; LAN confirms it means childish/puerile behavior
+
+### Bademeisterin (German, spa term)
+- Translation (Czech): Bademeisterka (footnoted)
+- Context: Female bath attendant at the German spa, responsible for overseeing baths at Schlangenbad; Marie writes it as "Bademeïsterin" in the original
+- First appearance: 074 (1877-09-08)
+- Notes: Czech feminine form "Bademeisterka"; footnote: "Pozn. překl.: V originále německy: Bademeisterin — lázeňská obsluha, žena dohlížející na koupele v lázních."
+
+### Larderei (Alexandre de Larderei)
+- Translation (Czech): Larderei / Alexandre / Lardereiho (genitive)
+- Context: Alexandre de Larderei, the Italian nobleman Marie met in Wiesbaden; duel injury (arm in sling confirmed 074.0204-205); killed in an assassination reported in Le Figaro (1877-09-22); the great romance of carnet 074
+- First appearance: 074 (multiple references as "Alexandre" from 074.0218 onwards; identified as Larderei from 074.0204)
+- Notes: Use "Larderei" for surname references; "Alexandre" as given name; Czech genitive "Lardereiho"; "z Larderei" is an Italian noble title so do not Czech-inflect the particle — write "Lardereiho" in genitive, "Lardereimu" in dative, etc.
+
+### Pissbaden (Marie's wordplay for Wiesbaden)
+- Translation (Czech): Čůrádenbadem
+- Context: Marie's crude pun on "Wiesbaden" (Wiesen-bad = meadow-bath) → "Piss-bad" to express her contempt for the spa town's social life
+- First appearance: 074 (1877-09-03)
+- Notes: Czech equivalent pun "Čůrádenbadem" preserves the structure (čůrání = urination + Bad = bath/spa + -em instrumental suffix); TR note added in file; footnote explaining the wordplay
+
+### Pincio / Prater (family dogs)
+- Translation (Czech): Pincio / Prater (kept as proper names)
+- Context: The family's dogs, named after the famous promenades in Rome (Pincio) and Vienna (Prater); Marie sets them fighting as one of her "enfantillages"
+- First appearance: 074 (1877-09-08)
+- Notes: Keep as proper names without translation; the names are themselves a cultural joke (the dogs carry the names of cosmopolitan promenades)
+
+### beaux comme le jour / beaux comme la nuit / beaux comme le soir
+- Translation (Czech): krásní jako den / krásní jako noc / krásní jako večer
+- Context: Marie's famous tripartite beauty typology in the novelistic Larderei portrait (074.0313-0315): Hamilton and Audiffret = "beautiful like the day"; Antonelli = "beautiful like the night"; Larderei = uniquely "beautiful like the evening, through whose soft shadows he must be seen"
+- First appearance: 074 (1877-09-12)
+- Notes: Preserve the exact parallel structure; "krásný/krásná jako den/noc/večer"; the third type (le soir) is unique to Larderei and the most nuanced
+
+### "beau comme le soir" (Larderei portrait)
+- Translation (Czech): krásný jako večer
+- Context: Marie's culminating description of Larderei — distinct from Hamilton's "day" beauty and Antonelli's "night" beauty; the twilight metaphor implies gentle mystery and elusiveness
+- First appearance: 074 (1877-09-12 para 074.0315)
+- Notes: Do not collapse to "noc" (night) — "večer" (evening/dusk) is essential to the gradation; one of Marie's most accomplished literary passages
+
+### Lese-cabinet (German)
+- Translation (Czech): čítárna (Lese-cabinet) — footnoted
+- Context: German reading room/reading cabinet at the Wiesbaden Kurhaus; also spelled "Lesekabinett"; Marie meets Alexandre there in the pivotal encounter scene
+- First appearance: 074 (1877-09-15, 1877-09-09-12 in the memory sequence)
+- Notes: Czech "čítárna" in running text; German "Lese-cabinet" in footnote: "Pozn. překl.: Německy: Lese-cabinet (Lesekabinett) — čítárna v lázních nebo hotelu."
+
+### Merenbergová (Comtesse de Merenberg)
+- Translation (Czech): Merenbergová (Czech feminine suffix)
+- Context: Comtesse de Merenberg; daughter of Tsar Nicholas I (morganatic line); Russian émigré noblewoman in Wiesbaden who expects Russian visitors to pay homage; Marie is tempted to defy her
+- First appearance: 074 (1877-09-12)
+- Notes: Czech feminine "-ová" suffix throughout; "ke Merenbergové" (dative), "Merenbergové" (genitive)
+
+### libre arbitre (philosophical term)
+- Translation (Czech): svobodná vůle
+- Context: Marie's self-analytical use of "free will" — she reflects that her bad choices were not made in full freedom ("continuellement gêné"); philosophical/theological register
+- First appearance: 074 (1877-09-09)
+- Notes: "svobodná vůle" is the standard Czech philosophical term; do not use "svobodné rozhodnutí" (too specific)
+
+### Nunquam anathemathis vinculis exuenda (Latin formula)
+- Translation (Czech): ==Nunquam anathemathis vinculis exuenda!== (highlighted, footnoted)
+- Context: Ecclesiastical curse formula: "Never to be freed from the chains of anathema"; Marie applies it to her own accursed fate in a moment of despair
+- First appearance: 074 (1877-09-09, para 074.0259)
+- Notes: Per foreign-passage convention: ==highlight== + footnote "Pozn. překl.: Latinsky: Nikdy nezprostit se pout klatby! — Formule církevního prokletí; Marie ji aplikuje na svůj vlastní osud."
+
+### ballottée (tossed about)
+- Translation (Czech): zaklátila (mě)
+- Context: Marie uses "ballotée" to describe how circumstances tossed her about — like a ship in a storm; past participle passive
+- First appearance: 074 (1877-09-09)
+- Notes: "zaklátit" captures the violence of the motion; "zmítat" is an alternative but "zaklátit" is more physical and vivid
+
+### faire le grand jeu
+- Translation (Czech): vytáhnout veškeré trumfy
+- Context: To put on the full show / go all out to impress; Marie does this for the Gerbel family, showing all her photographs
+- First appearance: 074 (1877-09-12)
+- Notes: "vytáhnout trumfy" (play one's trump cards) is the natural Czech equivalent for competitive social display
+
+### démêler (intellectual perception)
+- Translation (Czech): rozluštit
+- Context: "je crois démêler" = "I think I can make out / untangle"; Marie uses it for figuring out social situations through observation
+- First appearance: 074 (1877-09-12)
+- Notes: "rozluštit" (to untangle/solve) captures the intellectual effort; "pochopit" would be too weak
+
+### varenyky (Ukrainian food)
+- Translation (Czech): varenyky (footnoted)
+- Context: Ukrainian stuffed dumplings; Marie helps make them at Schlangenbad (the family's Ukrainian cook tradition); brings a nostalgic note to the German spa
+- First appearance: 074 (1877-09-01)
+- Notes: Keep as "varenyky" (not "pierogi" or "knedlíčky"); footnote: "Varenyky — plněné ukrajisnké knedlíčky."
+
+### Colonia Agrippina (Latin, for Cologne)
+- Translation (Czech): ==Colonia Agrippina== (highlighted, footnoted)
+- Context: The original Roman name for Cologne (Köln); Marie uses the Latin name when passing through on the way to Paris
+- First appearance: 074 (1877-09-17, para 074.0372)
+- Notes: ==highlight== + footnote: "Pozn. překl.: Latinsky: Colonia Agrippina — původní římský název města Kolín nad Rýnem."
+
+### "Odoacer" (literary/historical reference)
+- Translation (Czech): Odoacer (Odovakar)
+- Context: Marie refers to Odoacer (Germanic king who deposed the last Roman emperor) as a metaphor; she imagines herself as a barbarian king who conquered Rome and then found it disappointing
+- First appearance: 074 (1877-09-01)
+- Notes: Czech historical form "Odovakar"; footnote explaining the historical reference; Marie's Rome obsession casts herself as conqueror-then-disillusioned
+
+### Lautrec (Oncle Lautrec)
+- Translation (Czech): Lautrec (no Czech suffix — foreign noble name)
+- Context: Marie's uncle by family connection, present throughout the Wiesbaden entries; has gout ("goutte" → "dna"); acts as social guide and strategist; believes socializing with Lisander and Gerbel is "useful"
+- First appearance: 074 (throughout Wiesbaden section)
+- Notes: Keep "Lautrec" without Czech inflection where possible; in Czech dative "Lautreci" or use circumlocution "pro Lautrecka"
+
+### "mosaïque" (art-writing metaphor)
+- Translation (Czech): mozaika
+- Context: Marie's self-critical metaphor for her inability to connect her impressions into flowing prose — "the tones are good but it's a mosaic!" (para 074.0312); linked to her painting training
+- First appearance: 074 (1877-09-12)
+- Notes: "mozaika" is the direct Czech equivalent; preserve the double meaning (art term + fragmented writing)
+
+### Gretchen (German art reference)
+- Translation (Czech): Gretchen (kept, footnoted)
+- Context: Marx's painting of Gretchen (Goethe's Faust character); Marie sees it in Wiesbaden and is struck by it; represents Germanic romanticism that Marie both admires and holds at a distance
+- First appearance: 074 (1877-09-17)
+- Notes: Keep "Gretchen" without translation; footnote: "Gretchen — postava z Goethova Fausta; dívka svůdně nevinná, která se stane obětí Fausta."
+
+### assassination of Larderei (Le Figaro, September 1877)
+- Translation (Czech): [no fixed term — narrative event]
+- Context: Para 074.0416: Marie reads in Le Figaro that Alexandre de Larderei has been assassinated; she transcribes the notice. This is one of the most dramatic moments of carnet 074 — the romantic interest destroyed by real violence.
+- First appearance: 074 (1877-09-22)
+- Notes: Translate "assassiné" as "zavražděn" (murdered/assassinated); "zpráva o vraždě" for the news item; do not soften
 
 ## Carnet 059 Terms
 
