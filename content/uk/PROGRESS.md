@@ -1,6 +1,6 @@
 # Ukrainian Translation Progress
 
-<!-- Last updated: 2026-06-10 (wave: 072-074) -->
+<!-- Last updated: 2026-06-10 (wave: 075-077) -->
 <!-- Updated by: @kerray -->
 
 ## Overview
@@ -9,11 +9,11 @@
 |--------|-------|
 | **Total carnets** | 107 |
 | **Total entries** | ~3,300 |
-| **Carnets translated** | 75 (000-074) |
-| **Carnets fully approved** | 75 (000-074) |
-| **Entries translated** | 1,525 |
-| **Entries conductor-approved** | 1,525 |
-| **Overall progress** | ~46% translated |
+| **Carnets translated** | 78 (000-077) |
+| **Carnets fully approved** | 78 (000-077) |
+| **Entries translated** | 1,656 |
+| **Entries conductor-approved** | 1,656 |
+| **Overall progress** | ~50% translated |
 
 ## Carnet Status
 
@@ -94,6 +94,9 @@
 | 072 | 34 | 100% | 100% | 100% | Approved (uk-072-074, 2026-06-10, CON 0.93) |
 | 073 | 36 | 100% | 100% | 100% | Approved (uk-072-074, 2026-06-10, CON 0.945) |
 | 074 | 37 | 100% | 100% | 100% | Approved (uk-072-074, 2026-06-10, CON 0.93) |
+| 075 | 36 | 100% | 100% | 100% | Approved (uk-075-077, 2026-06-10, CON 0.93; troubled draft — RED/CON faithfulness pass) |
+| 076 | 52 | 100% | 100% | 100% | Approved (uk-075-077, 2026-06-10, CON 0.94) |
+| 077 | 43 | 100% | 100% | 100% | Approved (uk-075-077, 2026-06-10, CON 0.93) |
 
 ## Quality Metrics
 
@@ -109,10 +112,11 @@
 | 8 | 2026-05-30 | 036-041 | 0.963 | 0.05 |
 | … | 2026-06-07 | 065-071 | 0.945 | — |
 | … | 2026-06-10 | 072-074 | 0.935 | — |
+| … | 2026-06-10 | 075-077 | 0.933 | — |
 
 ## Active Work
 
-- All 75 translated carnets (000-074) now fully conductor-approved (1,525 entries)
+- All 78 translated carnets (000-077) now fully conductor-approved (1,656 entries)
 - Next translation target: carnet 075+
 
 ## How to Contribute
