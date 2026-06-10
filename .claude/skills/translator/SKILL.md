@@ -281,7 +281,14 @@ These defects are **invisible to a reading review** (the text reads fine) and ha
 
 1. **Glossary link path depth.** Translation files live two levels deeper than the source. From `content/{lang}/{carnet}/`, the correct path is `](../../_original/_glossary/…)` — NOT the source's short `](../_glossary/…)`. Do not copy source tags verbatim, and do **not** drift back to the short path partway through a carnet (a mid-carnet drift broke 608 links in uk-064). Use the SAME canonical `../../_original/_glossary/` path on every entry.
 2. **Preserve YAML frontmatter when overwriting a file.** If you `Write` a "fresh"/continuation entry, you MUST keep the existing frontmatter (date, carnet, language, `translation_complete`, `editor_approved`). Stripping it is silent data loss. Prefer `Edit` over full-file `Write` for entries that already exist.
-3. **Before finalizing**, run `just verify-carnet {lang} {carnet}` (the single gate: links + frontmatter + footnotes + %%-balance). It must report **PASS** (0 fail). Do not mark the task complete until it does.
+<!-- Teamcouch update 2026-06-10: preserved-French-source-line contamination.
+     Evidence: 2026-06-07-cz-056-064.md (5 in 056, 3 in 062, also 057/059/060/064),
+     2026-06-10-cz-071-073.md (3 in 071, 6 in 072 incl. one CON caught after RED, 2 in 073) — 11 more.
+     Pattern: a Czech word replaces a word inside the preserved French `%%` source/RSR/LAN line
+     (e.g. "en bílém a"→should stay "en blanc et", "à Paříži"→"à Paris"). Latin-script, so the
+     verify-carnet latin-in-cyr/foreign-script checks do NOT see it; slips past a reading review. -->
+3. **Never partially translate the preserved French `%%` source lines.** The original-French paragraph line and the RSR/LAN comment lines are source-of-truth — copy them **verbatim**. A copy-paste slip that swaps even one French word for its Czech equivalent (e.g. `en blanc` → `en bílém`, `à Paris` → `à Paříži`) corrupts the source and is **invisible** to `verify-carnet` (it's Latin-script). Self-check: scan every `%% … %%` French/source line for target-language-only diacritics (cz: ě ř ů; uk: і ї є ґ) before finalizing — there should be none except in legitimately-cited foreign words.
+4. **Before finalizing**, run `just verify-carnet {lang} {carnet}` (the single gate: links + frontmatter + footnotes + %%-balance). It must report **PASS** (0 fail). Do not mark the task complete until it does.
 
 ## Output Format
 
