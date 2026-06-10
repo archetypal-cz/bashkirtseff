@@ -389,6 +389,22 @@ Translating a full carnet (25-36 entries) consumes most of the context window. A
 
 **You do NOT need to send shutdown requests** — agents stop themselves after completing their carnet. If an agent is stuck (repeated idle notifications, no progress), just `kill` the process.
 
+<!-- Teamcouch update 2026-06-10: one-writer-per-carnet serialization.
+     Evidence: 3 reports — cz-050-055 (translator cleanup pass vs RED on one carnet),
+     cz-065-069 (con2 vs con overlap on 069), uk-072-074 (tr-a woke from idle and
+     re-edited all 34 files of 072 while red-2 was editing it). No data loss in any
+     (line-level edits coexisted), but a real lost-update hazard each time. -->
+**One writer per carnet at a time — serialize, don't overlap.** Never let two agents edit
+the same carnet simultaneously (translator self-audit vs RED, a second reviewer spawned
+before the first acked it's off the carnet, a just-finished translator that wakes from idle
+and "tidies"). Concretely: **shut the translator down (or send an explicit `shutdown_request`)
+at the moment you hand its carnet to RED** — do not leave finished translators idle-but-alive,
+because the self-audit step in their skill can fire on an idle wake and collide with the
+editor. When adding a 2nd editor/conductor to a carnet, confirm the first has acknowledged
+it's off that carnet before spawning. This refines the "you do NOT need to send shutdown
+requests" note above: for the *translator→RED* handoff specifically, an explicit shutdown is
+the cheapest way to guarantee single-writer.
+
 ### Workload Balancing
 
 - **Start with smallest carnets** to get the first completions faster (enables RED/CON pipeline overlap sooner)
