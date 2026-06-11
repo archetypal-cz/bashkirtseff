@@ -116,7 +116,8 @@ Established terminology for consistent translation across carnets.
 | Georges | Жорж | Uncle Georges |
 | Paul | Поль | Marie's brother |
 | Dina | Діна | Georges's daughter |
-| Walitsky | Валіцький | Family doctor/friend |
+| Walitsky | Валіцький | Family doctor/friend (NOT Валицький — keep і) |
+| Breslau | Брезло | Louise-Catherine Breslau, atelier rival (Académie Julian arc, 078+). Canonical Брезло (54× repo); NOT Брауль/Бресло |
 | Romanoff | Романов | Uncle by marriage |
 | Berthe | Берта | English friend |
 | Lermontoff/Lermontov | Лермонтов | |
