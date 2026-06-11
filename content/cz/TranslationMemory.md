@@ -1387,3 +1387,35 @@ When translating, refer to this document for established translations of recurri
 - Context: Marie's female Swiss circle at the atelier.
 - First appearance: 077–079
 - Notes: Diminutive-pejorative „Švýcarkaček" used only where contempt is contextually motivated (e.g. 078.0090); not the default.
+
+## Carnet 080–082 Terms (Cassagnac flirtation peak & collapse, 1878)
+
+### feu Cassagnac / le Défunt (the death-conceit)
+- Translation (Czech): nebožtík Cassagnac / Zesnulý
+- Context: After the Cassagnac–Acard marriage announcement (081/06-28 on), Marie treats Cassagnac as metaphorically DEAD and writes a sustained mock-obituary conceit.
+- First appearance: 081 (1878-06-28); continues through 082
+- Notes: Render the death-conceit consistently — „nebožtík Cassagnac" / „Zesnulý" / „zesnulý". In 081/06-23 it is only a FUTURE idea („Bude třeba napsat parte…"), NOT realized mourning — don't anticipate. The mock faire-part (081.0064) keeps grave-formal funeral register.
+
+### terre-neuve (as Cassagnac epithet)
+- Translation (Czech): novofundlanďan
+- Context: Newfoundland-dog gentle-giant metaphor Marie uses for Cassagnac ("le terre-neuve", "beaux yeux de terre-neuve").
+- First appearance: 080; recurs 082
+- Notes: Same locked breed term as carnet 025. Keep ONE consistent rendering when used as the epithet. „le magnifique mulâtre" is another Cassagnac descriptor — keep consistent.
+
+### "Paul" referent in this arc
+- Translation (Czech): Cassagnac / Popaul (default) vs. bratr Paul (rare)
+- Context: From 080 on, bare "Paul" overwhelmingly = Cassagnac by first name (the brother barely appears). Reverses the 077-079 default.
+- First appearance: 080 (esp. 05-29 Blanc↔Paul scene)
+- Notes: Disambiguate by CONTEXT, not a blanket rule. Add "[de Cassagnac]" where bare "Paul"=Cassagnac is ambiguous; use "bratr Paul" only for the actual sibling (e.g. the 082/10-12 Poltava letter). "Paul et Virginie" = the Bernardin de Saint-Pierre novel; "Petit-Paul…celui de Rome" = a distinct third person.
+
+### Troubetzkoï / Troubetzkoy
+- Translation (Czech): Trubecká (paní Trubecká)
+- Context: Russian princely name; recurring society figure.
+- First appearance: 071/079; reaffirmed 080
+- Notes: Locked Czech form „Trubecká" — do NOT leave malformed transliterations like „Troubetzkojaová".
+
+### "intriguer" — BOTH senses live in this arc (split per occurrence)
+- Translation (Czech): mystify → poplést/zaujmout/zmást; scheme → pletichy/intriky
+- Context: 080-082 use intriguer in BOTH the masked-ball/social mystify sense AND the genuine scheme sense.
+- First appearance: throughout 080–082
+- Notes: See the 077–079 lock — NEVER „intrikovat" for the mystify sense. Genuine scheme-sense IS legitimate: „intrigues de sa belle-mère" (082/08-19) → intriky; „tripotages politiques" (082/09-28) → politické pletichy. Marie's affectionate self-description „tripoteur" (080.0016) = meddler/over-analyzer („vrtáček/hnidopich") — do NOT flatten with the political scheming sense.
