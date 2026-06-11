@@ -1361,3 +1361,29 @@ When translating, refer to this document for established translations of recurri
 - Context: Russian family diminutive for Maria/Marie; used by uncle Alexandre addressing Marie fondly
 - First appearance: 065 (1876-09-01)
 - Notes: Keep "Mussia" as phonetic Czech rendering of the Russian diminutive
+
+## Carnet 077–079 Terms (Académie Julian / Cassagnac arc, 1877–78)
+
+### intriguer (qqn) — masked-ball / social sense
+- Translation (Czech): poplést / zaujmout / zmást — NIKDY „intrikovat"
+- Context: French "intriguer qqn" here = to intrigue/mystify/pique someone's curiosity (esp. mystifying someone behind a mask at a ball), NOT to scheme. Czech neologism "intrikovat" carries the OPPOSITE sense (kout pikle) and is a genuine semantic error (false friend).
+- First appearance: recurs across 074–079 (e.g. 077/1878-01-27, 078.0338/0341/0469, 079/1878-03-24)
+- Notes: Locked by CON during the 077–079 wave. Keep the genuine scheme-sense words distinct: "pletichy" / "intriky" for actual schemes (the wordplay contrast in 079/1878-03-24 is intentional). STILL UNFIXED in committed 075/1877-10-20 — pending a 074–077 propagation pass.
+
+### Breslau (Louise-Catherine Breslau)
+- Translation (Czech): Breslau — uninflected (NOT „Breslauová")
+- Context: Swiss-German painter (1856–1927), Marie's respected atelier rival at the Académie Julian; referred to by bare surname.
+- First appearance: 076–079
+- Notes: Marie writes the bare surname; keep uninflected ("genitiv Breslau", "s Breslau") with feminine verb agreement.
+
+### Paul de Cassagnac / Popaul
+- Translation (Czech): Cassagnac (bare surname, fully declined: na Cassagnace, s Cassagnacem); „pan de Cassagnac" keeps particle+name uninflected after „pan"; affectionate-mocking diminutive „Popaul" kept as-is (NOT „Pavlík")
+- Context: Bonapartist journalist, the 1878 flirtation. Register shifts tender↔mocking.
+- First appearance: 074–079
+- Notes: COLLISION with Marie's brother Paul (use „bratr Paul / Paul" for the brother) — disambiguate by context.
+
+### les Suissesses
+- Translation (Czech): Švýcarky (neutral, wave default)
+- Context: Marie's female Swiss circle at the atelier.
+- First appearance: 077–079
+- Notes: Diminutive-pejorative „Švýcarkaček" used only where contempt is contextually motivated (e.g. 078.0090); not the default.

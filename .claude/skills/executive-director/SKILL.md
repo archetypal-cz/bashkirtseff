@@ -405,6 +405,23 @@ it's off that carnet before spawning. This refines the "you do NOT need to send 
 requests" note above: for the *translator→RED* handoff specifically, an explicit shutdown is
 the cheapest way to guarantee single-writer.
 
+<!-- Teamcouch update 2026-06-11: the same hazard at the *editor→CON* handoff.
+     Evidence (4th instance of the class): cz-077-079 — red-077, after its RED task was
+     done and a shutdown_request was sent, woke from idle to apply a flagged intriguer fix
+     and overlapped CON's concurrent pass on the same file; the two diverged on one line
+     ("dobírat" vs "poplést"). Net-benign (the line landed on the locked form), but a real
+     lost-update window. Translators in the same wave also did post-shutdown-request idle-wake
+     edit turns (consistency audits). -->
+**The editor→CON handoff has the same write-race as translator→RED — require the editor's
+shutdown to be *acked* (terminated), not merely requested, before pinging CON.** A review
+agent whose task is "done" will still wake from idle to act on a late flag you sent it, and
+that edit turn can land *after* you've handed its carnet to the next stage. So: when an editor
+finishes a carnet, send `shutdown_request` and **wait for the `shutdown_response`/termination
+before pinging CON** for that carnet. The same applies to any late fix you want applied — give
+it to the agent that currently owns the carnet, or to the next single writer, never to a
+shutting-down agent in parallel with its successor. Treat "shutdown requested" and "shutdown
+acked" as different states; only the latter guarantees single-writer.
+
 ### Workload Balancing
 
 - **Start with smallest carnets** to get the first completions faster (enables RED/CON pipeline overlap sooner)
