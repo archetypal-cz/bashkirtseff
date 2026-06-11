@@ -545,6 +545,22 @@ Between waves (or every ~30 minutes):
 - If a translator introduced a good new term, broadcast it to others
 - If translators are inconsistent (different translations for same concept), message them to align
 
+<!-- Teamcouch update 2026-06-11: persist language-agnostic traps into _original.
+     Evidence: cz-077-079 + cz-080-082 — CON's pre-read trap broadcasts were the
+     biggest quality lever but lived only in team chat; the same traps (Paul=Cassagnac
+     collision, intriguer false-friend, by-design duplicate paragraphs, etc.) would
+     re-ambush every future language. -->
+**Make CON's pre-read traps durable — they're cross-language assets, not chat.** CON's
+consistency-trap flag list is the highest-leverage pre-read output. The *language-agnostic*
+subset (entity collisions, referent shifts, source-level false friends, named-works-vs-people,
+preserve-as-written misspellings, recurring-figure identity/gender, by-design structural
+anomalies) must be written back into `content/_original/{carnet}/` as `LAN: TRAP:` comments so
+**every future language inherits them** (see linguistic-annotator Annotation Type 7; conductor
+skill step 2). CON does this directly if it has Edit access; otherwise CON hands you the list and
+you persist it (or spawn a Sonnet annotator to). Language-*specific* locked forms still go to the
+per-language `TranslationMemory.md`, not into `_original/`. Net effect: the pipeline gets smarter
+each wave instead of re-deriving the same traps per language.
+
 ### Progress Tracking
 
 Monitor progress during the run:

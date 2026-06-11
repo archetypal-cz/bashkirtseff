@@ -100,6 +100,29 @@ When meaning is genuinely uncertain (requires human decision):
 %% YYYY-MM-DDThh:mm:ss LAN: AMBIGUOUS [0.55]: Ironic or sincere? Impossible to determine from text alone %%
 ```
 
+### 7. Cross-Language Translation Traps (`LAN: TRAP:`)
+
+**Use the `LAN: TRAP:` prefix for hazards that will trip a translator in ANY target language** — language-agnostic pitfalls anchored to the French source. These are the single most reusable annotations: written once into `_original/`, every language (cz/uk/en/fr, present and future) inherits them, instead of each language rediscovering the same trap during review. Capture them during annotation, and **when a reviewer or conductor later surfaces one, it must be written back here as a `LAN: TRAP:` note** — not left in ephemeral team messages.
+
+Keep TRAP notes language-agnostic: state the SOURCE fact/hazard, not one language's solution (per-language inflection/word choices live in each `TranslationMemory.md`).
+
+Categories and examples:
+
+```markdown
+%% .. LAN: TRAP: COLLISION — bare "Paul" here = Cassagnac (first-name), NOT Marie's brother Paul. Disambiguate by context. %%
+%% .. LAN: TRAP: REFERENT-SHIFT — from this carnet on, bare "Paul" defaults to Cassagnac (the brother barely appears); reverses earlier carnets. %%
+%% .. LAN: TRAP: NAMED-WORK — "Paul et Virginie" = the Bernardin de Saint-Pierre novel, not people; "le Nabab" = Daudet's novel. %%
+%% .. LAN: TRAP: FALSE-FRIEND (source) — "intriguer qqn" here = to mystify/pique curiosity (masked-ball sense), NOT to scheme/plot. The two senses both occur in this arc — judge per occurrence. %%
+%% .. LAN: TRAP: PRESERVE-AS-WRITTEN — "Gloriae Cupididas" is Marie's misspelling of "Cupiditate"; keep it, footnote the correct form. Do NOT silently correct. %%
+%% .. LAN: TRAP: IDENTITY/GENDER — "Breslau" = Louise-Catherine Breslau, FEMALE painter, Marie's atelier rival; always the bare surname (affects agreement). %%
+%% .. LAN: TRAP: NICKNAME — "le terre-neuve" / "beaux yeux de terre-neuve" = Marie's Newfoundland-dog epithet for Cassagnac (gentle giant); keep consistent. %%
+%% .. LAN: TRAP: ROLE-PLAY — "mon frère / je me suis posée en sœur" is the flirtation's brother/sister role-play, NOT the real sibling. %%
+%% .. LAN: TRAP: STRUCTURAL — paragraphs NNNN==NNNN are duplicated BY DESIGN (censored_1887 layering); translate as-is, do NOT dedupe. %%
+%% .. LAN: TRAP: EMBEDDED-DOCUMENT — this italicized block is verbatim press text (Le Figaro wedding announcement); keep formal journalese register, distinct from Marie's voice. %%
+```
+
+When the trap is a recurring named figure (collision, identity, nickname), also confirm a glossary entry exists and is correctly scoped, so the disambiguation has a durable anchor.
+
 ## Confidence Scoring
 
 Rate your confidence for each annotation:

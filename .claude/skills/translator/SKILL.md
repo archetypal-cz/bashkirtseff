@@ -180,6 +180,9 @@ Marie Bashkirtseff was:
 | Marie's quirk | `LAN: SPELLING ERROR: "excelent"` | Usually correct; preserve if emotionally significant |
 | Register marker | `LAN: "homme bien" indicates class` | Choose term conveying same social register |
 | Ambiguous | `LAN: AMBIGUOUS [0.60]: ironic or sincere?` | Use judgment OR escalate if confidence too low |
+| **Translation trap** | `LAN: TRAP: COLLISION — bare "Paul" = Cassagnac, not the brother` | **Authoritative — obey it.** These flag the exact pitfalls that have tripped prior translators (entity collisions, referent shifts, source false-friends, named-works-vs-people, preserve-as-written misspellings, by-design duplicate paragraphs). |
+
+**`LAN: TRAP:` notes are the highest-priority annotations** — they were written precisely because the hazard caught a previous translator (in this or another language). Treat them as binding disambiguation. When a TRAP says a name resolves to a specific person, a word is a false friend, a "duplicate" is intentional, or a misspelling must be preserved, follow it exactly and do not "fix" what it tells you to keep. If your reading genuinely contradicts a TRAP, do NOT silently override — message the lead.
 
 **High-density entries** (especially emotional ones like Hamilton's engagement) may have 40-60 LAN annotations - plan extra time for these.
 
