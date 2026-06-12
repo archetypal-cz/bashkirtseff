@@ -15,25 +15,19 @@
  *   <p data-t="home.yearsOld" data-t-params={JSON.stringify({ age: 14 })}>14 let</p>
  *   <I18nPatch />
  *
- * The component embeds all four locale message files so any key can be resolved.
+ * Performance (H2): the locale dictionaries used to be inlined here (~103 KB of
+ * all-four-locale JSON on every one of ~20k pages). They are now served as static,
+ * cacheable per-locale files from /data/i18n/{locale}.json and fetched once. Czech
+ * ('cs') is the SSR default, so Czech readers never fetch anything — the page is
+ * already correct. Only a non-default UI preference triggers a single (then cached)
+ * fetch, after which the patch runs. This keeps the inline payload ~1 KB.
  */
-import cs from '../i18n/locales/cs.json';
-import en from '../i18n/locales/en.json';
-import fr from '../i18n/locales/fr.json';
-import uk from '../i18n/locales/uk.json';
-
-// Serialize as JSON for the inline script
-const localesJson = JSON.stringify({ cs, en, fr, uk });
 ---
 
-<script is:inline define:vars={{ localesJson }}>
+<script is:inline>
 (function() {
   var locale = localStorage.getItem('ui-language');
   if (!locale || locale === 'cs') return; // Czech is the SSR default — nothing to patch
-
-  var allMessages = JSON.parse(localesJson);
-  var messages = allMessages[locale];
-  if (!messages) return;
 
   function getNestedValue(obj, path) {
     var keys = path.split('.');
@@ -55,16 +49,25 @@ const localesJson = JSON.stringify({ cs, en, fr, uk });
     });
   }
 
-  var elements = document.querySelectorAll('[data-t]');
-  for (var i = 0; i < elements.length; i++) {
-    var el = elements[i];
-    var key = el.getAttribute('data-t');
-    var translated = getNestedValue(messages, key);
-    if (translated !== null) {
-      var paramsAttr = el.getAttribute('data-t-params');
-      var params = paramsAttr ? JSON.parse(paramsAttr) : null;
-      el.textContent = replacePlaceholders(translated, params);
+  function applyMessages(messages) {
+    if (!messages) return;
+    var elements = document.querySelectorAll('[data-t]');
+    for (var i = 0; i < elements.length; i++) {
+      var el = elements[i];
+      var key = el.getAttribute('data-t');
+      var translated = getNestedValue(messages, key);
+      if (translated !== null) {
+        var paramsAttr = el.getAttribute('data-t-params');
+        var params = paramsAttr ? JSON.parse(paramsAttr) : null;
+        el.textContent = replacePlaceholders(translated, params);
+      }
     }
   }
+
+  // Fetch the active locale's dictionary (static, cacheable, SW-cached offline).
+  fetch('/data/i18n/' + locale + '.json')
+    .then(function(res) { return res.ok ? res.json() : null; })
+    .then(applyMessages)
+    .catch(function() { /* leave default-locale text in place on failure */ });
 })();
 </script>

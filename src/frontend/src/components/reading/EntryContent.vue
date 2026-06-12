@@ -40,7 +40,13 @@ const filterStore = useFilterStore();
 
 onMounted(() => {
   filterStore.init();
-  filterStore.loadIndex();
+  // H3: the 833 KB filter index is only needed when a filter is actually active.
+  // Load it lazily — at startup only if the store restored persisted active tags
+  // from localStorage; otherwise it loads when the filter UI is opened
+  // (FilterButton / UnifiedMenu / FilterOverlay all call loadIndex() on open).
+  if (filterStore.isActive) {
+    filterStore.loadIndex();
+  }
 });
 
 // Entity categories that support paragraph-level filtering

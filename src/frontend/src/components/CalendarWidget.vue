@@ -15,10 +15,15 @@ interface Props {
 const props = defineProps<Props>();
 const filterStore = useFilterStore();
 
-// Initialize filter store (reads persisted tags from localStorage + loads index)
+// Initialize filter store (reads persisted tags from localStorage).
+// H3: only fetch the 833 KB filter index when a filter is actually active
+// (the calendar only needs it to highlight filter-matching dates). Otherwise
+// it loads on demand when the filter UI is opened.
 onMounted(() => {
   filterStore.init();
-  filterStore.loadIndex();
+  if (filterStore.isActive) {
+    filterStore.loadIndex();
+  }
 });
 
 // Czech month names

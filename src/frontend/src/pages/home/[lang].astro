@@ -5,7 +5,7 @@ import Footer from '../../components/layout/Footer.astro';
 import ThisDayEntry from '../../components/home/ThisDayEntry.vue';
 import ContinueReadingGlobal from '../../components/reading/ContinueReadingGlobal.vue';
 import { createT, type SupportedLocale } from '../../i18n/astro';
-import { buildThisDayData } from '../../lib/content';
+import { getThisDayEntries } from '../../lib/content';
 
 export function getStaticPaths() {
   return [
@@ -31,8 +31,15 @@ const carnets = [
 const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'fr' };
 const languagePath = localeToContent[lang as string] ?? 'cz';
 
-// Build "This Day" data at build time - use content for this language
-const thisDayData = buildThisDayData(languagePath === 'original' ? '_original' : languagePath);
+// "This Day" data is served per-day as static JSON from
+// /data/this-day/{lang}/{MM-DD}.json (see pages/data/this-day/[lang]/[date].json.ts).
+// The island fetches only today's file at runtime instead of receiving the whole
+// year (~1.15 MB) as a prop (H1). For a no-JS / first-paint fallback we server-render
+// the BUILD-DATE's entries so there's no layout shift; the client corrects to the
+// visitor's real date on mount if it differs.
+const buildDate = new Date();
+const buildMonthDay = `${String(buildDate.getMonth() + 1).padStart(2, '0')}-${String(buildDate.getDate()).padStart(2, '0')}`;
+const initialEntries = getThisDayEntries(buildMonthDay, languagePath === 'original' ? '_original' : languagePath);
 
 // Translations for the ThisDayEntry component
 const thisDayTranslations = {
@@ -128,7 +135,8 @@ const homeAlternates = [
       <div class="max-w-3xl mx-auto px-4">
         <ThisDayEntry
           client:load
-          thisDayData={thisDayData}
+          initialEntries={initialEntries}
+          initialMonthDay={buildMonthDay}
           languagePath={languagePath}
           uiLocale={lang}
           translations={thisDayTranslations}

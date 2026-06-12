@@ -293,6 +293,11 @@ export const useOfflineStore = defineStore('offline', () => {
   }
 
   async function validateRecords() {
+    // H3: nothing to validate (and no need to fetch the 833 KB filter index) when
+    // the user has no downloads. This runs on every page via OfflineStatus.vue's
+    // init() → validateRecords(), so the early return keeps entry pages from
+    // eagerly pulling the index.
+    if (Object.keys(downloads.value).length === 0) return;
     await loadEntries();
     if (!entriesLoaded.value) return;
     const cache = await caches.open(CACHE_NAME);

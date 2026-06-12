@@ -182,9 +182,10 @@ export default defineConfig({
             }
           },
           {
-            // Cache JSON data files (filter index, offline freshness manifest)
-            // so the filter and offline-status UIs keep working offline.
-            urlPattern: /\/data\/[^/]+\.json$/,
+            // Cache JSON data files (filter index, offline freshness manifest,
+            // and the nested per-day "this day" files under /data/this-day/.../...)
+            // so the filter, offline-status and home-page UIs keep working offline.
+            urlPattern: /\/data\/.*\.json$/,
             handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'diary-data-cache',

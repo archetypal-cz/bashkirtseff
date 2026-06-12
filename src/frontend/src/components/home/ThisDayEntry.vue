@@ -11,9 +11,11 @@ interface ThisDayEntry {
 }
 
 interface Props {
-  // Map of "MM-DD" -> array of entries for that day
-  thisDayData: Record<string, ThisDayEntry[]>;
-  // Language path for links (e.g., 'cz', 'original')
+  // Entries for the build-date's MM-DD, server-rendered for first paint / no-JS.
+  initialEntries: ThisDayEntry[];
+  // The MM-DD that initialEntries corresponds to (the build date).
+  initialMonthDay: string;
+  // Language path for links and the per-day JSON endpoint (e.g., 'cz', 'original')
   languagePath: string;
   // UI locale for date formatting (e.g., 'cs', 'en', 'fr', 'uk')
   uiLocale?: string;
@@ -30,12 +32,47 @@ interface Props {
 
 const props = defineProps<Props>();
 
-// The date being browsed (calendar date, independent of entries)
+// Per-day cache of fetched entries, keyed by "MM-DD". Seeded with the
+// server-rendered build-date data so first paint needs no fetch (no layout shift,
+// works offline once cached).
+const dayCache = ref<Record<string, ThisDayEntry[]>>({
+  [props.initialMonthDay]: props.initialEntries,
+});
+
+/** Pick a stable entry from a day's pool, seeded by day-of-year. */
+function pickEntry(entries: ThisDayEntry[], date: Date): ThisDayEntry | null {
+  if (entries.length === 0) return null;
+  const translated = entries.filter(e => e.hasTranslation);
+  const pool = translated.length > 0 ? translated : entries;
+  const dayOfYear = Math.floor(
+    (date.getTime() - new Date(date.getFullYear(), 0, 0).getTime()) / 86400000
+  );
+  return pool[dayOfYear % pool.length];
+}
+
+// The date being browsed (calendar date, independent of entries).
+// Seeded to the build date so SSR / first paint / no-JS renders the
+// server-provided entry with no loading flash or layout shift.
 const browsingDate = ref<Date>(new Date());
-// Current entry to display
-const selectedEntry = ref<ThisDayEntry | null>(null);
-const currentMonthDay = ref<string>('');
-const isLoading = ref(true);
+// Current entry to display — initialized from the server-rendered build-date data.
+const selectedEntry = ref<ThisDayEntry | null>(pickEntry(props.initialEntries, new Date()));
+const currentMonthDay = ref<string>(props.initialMonthDay);
+const isLoading = ref(false);
+
+/** Fetch entries for a given MM-DD from the static per-day JSON endpoint. */
+async function fetchDay(monthDay: string): Promise<ThisDayEntry[]> {
+  if (monthDay in dayCache.value) return dayCache.value[monthDay];
+  try {
+    const res = await fetch(`/data/this-day/${props.languagePath}/${monthDay}.json`);
+    // Days with no entries have no generated file (404) — treat as empty.
+    const entries: ThisDayEntry[] = res.ok ? await res.json() : [];
+    dayCache.value = { ...dayCache.value, [monthDay]: entries };
+    return entries;
+  } catch {
+    dayCache.value = { ...dayCache.value, [monthDay]: [] };
+    return [];
+  }
+}
 
 // Map UI locale to Intl locale string
 const localeMap: Record<string, string> = { cs: 'cs-CZ', fr: 'fr-FR', en: 'en-US', uk: 'uk-UA' };
@@ -80,34 +117,21 @@ const marieAgeText = computed(() => {
   return formatMessage(props.translations.marieWas, { age: selectedEntry.value.marieAge });
 });
 
-// All entries for the current browsing date
-const entriesForDate = computed(() => {
-  return props.thisDayData[currentMonthDay.value] || [];
-});
-
-// Select entry for the current browsing date
-function selectEntryForDate() {
+// Select entry for the current browsing date. Fetches the day's JSON if not
+// already cached, then picks a stable entry for the date.
+async function selectEntryForDate() {
   const month = String(browsingDate.value.getMonth() + 1).padStart(2, '0');
   const day = String(browsingDate.value.getDate()).padStart(2, '0');
-  currentMonthDay.value = `${month}-${day}`;
+  const monthDay = `${month}-${day}`;
+  currentMonthDay.value = monthDay;
 
-  const entries = entriesForDate.value;
+  const dateForSeed = new Date(browsingDate.value);
+  const entries = await fetchDay(monthDay);
 
-  if (entries.length > 0) {
-    const translatedEntries = entries.filter(e => e.hasTranslation);
-    const pool = translatedEntries.length > 0 ? translatedEntries : entries;
+  // Guard against races: if the user navigated again while fetching, bail.
+  if (currentMonthDay.value !== monthDay) return;
 
-    // Use day of year as seed for consistent selection
-    const dayOfYear = Math.floor(
-      (browsingDate.value.getTime() - new Date(browsingDate.value.getFullYear(), 0, 0).getTime()) / 86400000
-    );
-    const index = dayOfYear % pool.length;
-
-    selectedEntry.value = pool[index];
-  } else {
-    selectedEntry.value = null;
-  }
-
+  selectedEntry.value = pickEntry(entries, dateForSeed);
   isLoading.value = false;
 }
 
@@ -126,7 +150,13 @@ function goToNextDay() {
 }
 
 onMounted(() => {
-  selectEntryForDate();
+  // The build-date entry is already rendered from props. Only do a fetch/correction
+  // when the visitor's actual local date differs from the build date.
+  const now = browsingDate.value;
+  const todayMonthDay = `${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+  if (todayMonthDay !== props.initialMonthDay) {
+    selectEntryForDate();
+  }
 });
 </script>
 
