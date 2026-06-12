@@ -1211,6 +1211,7 @@ export function getCarnet000Merged(language: string = 'original'): DiaryEntry | 
   const allParagraphs: Paragraph[] = [];
   const allFootnotes: Footnote[] = [];
   let title = 'Preface';
+  let wordCount = 0;
 
   for (const entryId of entries.sort()) {
     const entry = getEntry('000', entryId, language);
@@ -1219,6 +1220,7 @@ export function getCarnet000Merged(language: string = 'original'): DiaryEntry | 
         title = entry.title;
       }
       allParagraphs.push(...entry.paragraphs);
+      wordCount += entry.wordCount;
       for (const fn of entry.footnotes) {
         if (!allFootnotes.some(f => f.id === fn.id)) {
           allFootnotes.push(fn);
@@ -1237,6 +1239,7 @@ export function getCarnet000Merged(language: string = 'original'): DiaryEntry | 
     paragraphs: allParagraphs,
     footnotes: allFootnotes,
     isSection: true,
+    wordCount,
   };
 }
 
@@ -1785,6 +1788,8 @@ function parseGlossaryParagraphs(content: string): GlossaryParagraph[] {
           id: trailingId,
           text: trailingText,
           html,
+          isHeader: false,
+          headerLevel: 0,
         });
       }
 
