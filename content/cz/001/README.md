@@ -45,3 +45,6 @@ _Progress tracking initialized._
 
 ### 2026-02-04T10:50:28 @kerray
 Initialized carnet README for progress tracking.
+
+### 2026-06-12T12:30:00 @claude-RED
+Fluidity pass ("more fluid, more Czech") across all 22 entries; 16 files changed. Fixed gallicisms/calques, one gender error ("blázen" → "bláznice" for "folle que je suis"), meaning shifts ("prošel" → "projel" for closed carriage, "schovala" → "dala" for "mis dans le gant"), and repaired ~10 paragraphs split mid-text by GEM comment insertions. RED comments document each change inline.
