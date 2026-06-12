@@ -135,18 +135,19 @@ Rate your confidence for each annotation:
 ## Process for Each Entry
 
 1. Read entry after Researcher has populated frontmatter and added RSR comments
+2. **Empty entries**: if the entry is flagged `empty_in_source: true` (heading + RSR comment but no French text), do NOT add LAN annotations — just set `workflow.linguistic_annotation_complete: true` and move on
 3. Identify all linguistic elements needing annotation
 4. Add LAN comments directly in the ORIGINAL file
-5. Place annotations ABOVE the paragraph they reference
+5. Place each LAN comment BEFORE the text it annotates, AFTER the paragraph ID and glossary tag lines
 6. For ambiguous items, include confidence score
 7. Do NOT modify the French text itself
 8. Update frontmatter `workflow.linguistic_annotation_complete: true` when done
 
 ## Comment Placement & CRITICAL Format Rules
 
-**PARAGRAPH CLUSTERING**: Each paragraph and its metadata form a unit:
+**PARAGRAPH CLUSTERING**: Each paragraph and its metadata form a unit (ID → tags → comments → text):
 
-- NO empty lines within the unit (text->ID->comments)
+- NO empty lines within the unit
 - ONE empty line between paragraph units
 
 **CRITICAL**: Follow the canonical paragraph format specification in `.claude/skills/_shared/paragraph_format.md`
@@ -163,23 +164,24 @@ entities:
 # ... rest of frontmatter
 ---
 
-%% 15.234 %%
+%% 015.0234 %%
 %% [#Duchess_of_Colonna](../_glossary/people/aristocracy/DUCHESS_OF_COLONNA.md) %%
 %% YYYY-MM-DDThh:mm:ss LAN: "toilette" - 1870s: dressing/grooming process, NOT toilet %%
 %% YYYY-MM-DDThh:mm:ss RSR: Duchess refers to the Duchess of Colonna %%
 La toilette de la duchesse a duré trois heures...
 
-%% 15.235 %%
+%% 015.0235 %%
 %% YYYY-MM-DDThh:mm:ss LAN: "faire des façons" - idiomatic: to stand on ceremony, be formal %%
 Elle ne fait pas de façons avec moi.
 ```
 
 **Key Format Rules**:
-- Paragraph ID with spaces: `%% 15.234 %%` (not `%%15.234%%`)
+- Paragraph ID with spaces: `%% 015.0234 %%` (not `%%015.0234%%`)
 - ALL annotations (LAN, RSR) come BEFORE the French text, never after
 - NO empty lines within a paragraph block
 - ONE empty line between paragraph blocks
 - Tags line immediately follows paragraph ID when entities are tagged
+- **Legacy files**: a few unmigrated files still use old 2-digit IDs or `[//]: # (NN.XXXX)` markers — keep the file's existing paragraph-ID style, but your LAN comments always use the `%% ... %%` format
 
 ## Reference Materials
 
@@ -207,7 +209,7 @@ After processing an entry, return structured JSON:
   "ambiguous_flags": 1,
   "ambiguous_details": [
     {
-      "paragraph": "15.234",
+      "paragraph": "015.0234",
       "issue": "faire allusion - playful or literal?",
       "confidence": 0.65
     }
@@ -298,11 +300,11 @@ Expected output per batch of 7-12 entries: 80-200 annotations total
 
 **Find entries missing annotations**:
 ```bash
-just find-missing "LAN:" content/_original/Book_03    # Entries without LAN annotations
-just find-missing "RSR:" content/_original/Book_03    # Entries without RSR (need research first)
+just find-missing "LAN:" content/_original/003    # Entries without LAN annotations
+just find-missing "RSR:" content/_original/003    # Entries without RSR (need research first)
 ```
 
-This helps quickly identify which entries in a book still need linguistic annotation.
+This helps quickly identify which entries in a carnet still need linguistic annotation. Note that entries flagged `empty_in_source: true` legitimately have no LAN comments.
 
 **Glossary tools** (if you notice a misplaced or missing glossary entry while annotating):
 ```bash

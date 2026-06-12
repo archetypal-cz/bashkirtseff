@@ -29,20 +29,23 @@ Subagents must perform NO git mutations (no `checkout`/`reset`/`stash`/`clean`/`
 Human (Creative Director)
     │ - Vision, key decisions, approval gates
     ▼
-Executive Director (Opus)
-    │ - Orchestrates full pipeline
-    │ - Launches subagents via Task tool
+Executive Director (Opus, team lead)
+    │ - Orchestrates full pipeline (Agent Teams + Task subagents)
+    │ - Runs the pre-RED `just verify-carnet` gate
     │ - Evaluates outputs, decides next actions
-    │ - Generates reports and improvement suggestions
+    │ - Writes run reports to .claude/reports/
     │
-    ├── Conductor (Opus) - Final quality gate
+    ├── Conductor / CON (Opus) - Final quality gate
     │
     └── Workers
-        ├── Researcher (Sonnet) - Entity extraction, glossary
-        ├── Linguistic Annotator (Opus) - Translation guidance notes
-        ├── Translator (Sonnet) - French → Czech
-        └── Editor (Sonnet) - Quality review
+        ├── Researcher / RSR (Sonnet/Opus) - Entity extraction, glossary, footnotes
+        ├── Linguistic Annotator / LAN (Opus) - Translation guidance notes
+        ├── Translator / TR (Opus, usually 3 in parallel) - French → target language
+        ├── Editor / RED (Opus) - Quality review
+        └── Gemini Editor / GEM (external, optional) or Opus Editor / OPS (preferred)
 ```
+
+Source preparation (RSR+LAN) is COMPLETE for all 106 carnets — the active pipeline is translation (TR → RED → [GEM/OPS] → CON). See `.claude/skills/CLAUDE.md` for the current pipeline tables.
 
 ## Key Design Decisions (Context)
 
@@ -76,32 +79,24 @@ Executive Director (Opus)
 ### Configuration
 - `.claude/project_config.md` - Global settings, thresholds, model allocation
 - `.claude/prompt_history.md` - Log of all prompt changes
-- `.claude/pending_changes/` - Drafted improvements awaiting approval
+- `.claude/pending_changes/` - Drafted improvements awaiting approval (created on demand; may not exist)
 
 ### Skills (Model-Invoked Capabilities)
-- `.claude/skills/executive-director/SKILL.md`
-- `.claude/skills/researcher/SKILL.md`
-- `.claude/skills/linguistic-annotator/SKILL.md`
-- `.claude/skills/translator/SKILL.md`
-- `.claude/skills/editor/SKILL.md`
-- `.claude/skills/conductor/SKILL.md`
-- `.claude/skills/workflow-architect/SKILL.md` (this file)
+All in `.claude/skills/{name}/SKILL.md`. Translation pipeline: `researcher`, `linguistic-annotator`, `translator`, `gemini-editor`, `opus-editor`, `editor`, `conductor`, `executive-director`. Support: `project-status`, `glossary`, `glossary-tagger`, `entry-restructurer`, `teamcouch`, `workflow-architect` (this file). Non-translation: `frontend-dev`, `stewardship`, `listmonk-*`. Shared format spec: `.claude/skills/_shared/paragraph_format.md`. Index: `.claude/skills/CLAUDE.md`.
 
 ### Agents (Subagent Definitions for Task tool)
-- `.claude/agents/researcher.md`
-- `.claude/agents/linguistic-annotator.md`
-- `.claude/agents/translator.md`
-- `.claude/agents/editor.md`
-- `.claude/agents/conductor.md`
+`.claude/agents/`: researcher, linguistic-annotator, translator, editor, conductor, entry-restructurer. **NOTE**: the `conductor` and `editor` subagent types lack Edit access — RED/CON are spawned as `general-purpose` with skill instructions in the prompt (see ED skill).
 
-### Workflow State
-- `content/_original/_workflow/decision_log.md` - All agent decisions
-- `content/_original/_workflow/metrics/` - Quality reports per book
-- `content/_original/{book}/_workflow/` - Per-entry state files
+### Workflow State & Feedback
+- `.claude/reports/` - Run reports per team run + `WATCHLIST.md` (the live issue tracker — your main signal source)
+- `content/_original/_workflow/` - Legacy headless-pipeline JSON outputs + `metrics/`
+- Entry frontmatter (`workflow:` block, `translation_complete`/`editor_approved`/`conductor_approved`) - the real per-entry state
 
 ### Documentation
-- `MULTI_AGENT_PLAN.md` - Complete system design document
 - `CLAUDE.md` - Project instructions (includes role definitions)
+- `docs/VERIFY_CARNET_GATE.md` - The mechanical pre-RED gate
+- `docs/GLOSSARY_LINK_MAINTENANCE.md` - Link repair / tag propagation
+- `docs/FRONTMATTER.md` - Frontmatter spec
 
 ## Justfile Commands
 
@@ -202,16 +197,16 @@ Process:
 ### "Test the pipeline on an entry"
 ```bash
 # Pick an entry
-ls content/_original/15/ | head -5
+ls content/_original/015/ | head -5
 
 # Run research phase
-just research 1882-05-01 15
+just research 1882-05-01 015
 
 # Check output
 cat content/_original/_workflow/research_1882-05-01.json
 
 # Continue with annotation
-just annotate 1882-05-01 15
+just annotate 1882-05-01 015
 ```
 
 ### "Debug why researcher isn't finding entities"
@@ -237,27 +232,14 @@ just annotate 1882-05-01 15
 
 ## Current System Status
 
-### Implemented
-- [x] All 6 translation role skills
-- [x] Agent definitions for subagent launching
-- [x] Project configuration
-- [x] Justfile workflow commands
-- [x] Decision log structure
-- [x] Metrics directory
-- [x] Prompt history tracking
+The system is mature and battle-tested: source prep (RSR+LAN) is complete for all 106 carnets, and the translation pipeline has run dozens of multi-carnet waves across cz/uk/en/fr (see `.claude/reports/`). The Agent Teams configuration (3 TR + RED + CON, GEM/OPS dispatched as needed) is the proven pattern.
 
-### Not Yet Tested
-- [ ] Full pipeline on real entry
-- [ ] Subagent launching via Task tool
-- [ ] Quality score calculation
-- [ ] Revision loop logic
-- [ ] Batch processing
+**Where to find current state — don't trust this file's snapshot, check:**
+- `.claude/reports/WATCHLIST.md` — live issue tracker, gate-gap proposals, escalations to architect
+- `.claude/reports/` (most recent files) — what just happened
+- `.claude/architect/issues.md` + `ideas.md` — architect-side backlog
 
-### Known Gaps
-- No hooks configured yet (could auto-format, log decisions)
-- No slash commands for common operations
-- TranslationMemory.md integration not fully specified
-- Cross-entry consistency checking not implemented
+**Standing architect backlog** (from WATCHLIST escalations): `verify-carnet` gate enhancements (duplicate paragraph IDs, mojibake, single-script foreign contamination, source-line contamination, TM-locked-name lint, paragraph-ID/source-text parity), a Czech straight-quote autofix pass, and making `just sync` safe for translation trees (currently frontmatter-destructive and not depth-aware — do not run it against `content/{lang}/` trees).
 
 ## Interacting with Human
 

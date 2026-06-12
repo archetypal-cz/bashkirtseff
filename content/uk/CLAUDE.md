@@ -131,6 +131,68 @@ Beyond the explicit checklist above, watch for **subtle calques** — technicall
 - Genitive -ой instead of Ukrainian -ої on surnames
 - Russian-style participles instead of relative clauses
 
+## Editor / review traps (українська)
+
+Concrete Ukrainian traps for RED, OPS, and GEM to catch (the language-agnostic frame is in the `editor`/`opus-editor`/`gemini-editor` skills; the concrete examples live here). The **Russianisms Checklist** and **Subtle Russianisms** sections above are the primary watch-list — start there.
+
+| Category | Example |
+|----------|---------|
+| **Galicisms** | "взяти жінку" (= одружитися), "дати зрозуміти" — literal French constructions |
+| **Russianisms** | "потому що" → "тому що", "тоже" → "також", "нічого собі" → "жарт сказати" (see full checklist above) |
+| **Case errors** | Wrong відмінок governance |
+| **Aspect** | Imperfective/perfective confusion |
+| **Calques** | Literal French constructions forced into Ukrainian word order |
+| **Non-existent words** | Invented morphological forms (e.g. "збільшувально") — rephrase instead |
+| **Script contamination** | Russian letters / wrong-script characters leaking into Ukrainian text |
+
+Result must be Ukrainian, not Russian-influenced Ukrainian.
+
+## Gemini review prompts (GEM)
+
+The `gemini-editor` skill inserts these into the `gemini -y` command (the `{INSERT … PROMPT …}` placeholders).
+
+**Pass 1 — text-only:**
+
+```
+Ти досвідчений український редактор і стиліст. Перевір цей український переклад щоденника Марії Башкирцевої (19 століття).
+
+ЗВЕРНИ УВАГУ НА:
+1. Галіцизми (дослівні переклади з французької, які звучать неприродно українською)
+2. Граматику (відмінки, узгодження, порядок слів, вживання часток)
+3. Природність української (має звучати як українська авторка, а не як переклад)
+4. Доречність епосі (19 століття, але зрозумілий для сучасного читача)
+5. Смислові зсуви (галіцизми, що змінюють значення)
+6. Русизми (слова та конструкції, які є калькою з російської, а не природною українською)
+
+Для кожної проблеми визнач серйозність:
+- A: треба виправити (граматична помилка, смисловий зсув, нісенітниця)
+- B: рекомендовано (неприродність, галіцизм, краща альтернатива існує)
+- C: косметичне (дрібниця, ігноруй)
+```
+
+**Pass 2 — with-comments:**
+
+```
+Ти досвідчений український редактор і стиліст. Перевір цей український переклад щоденника Марії Башкирцевої (19 століття).
+
+Текст містить коментарі у форматі %% ... %% — вони містять французький оригінал, нотатки перекладача (TR), мовні нотатки (LAN), дослідницькі нотатки (RSR) та попередні виправлення (GEM). Використовуй їх для контексту, але перевіряй ЛИШЕ український переклад (рядки без %%).
+
+ВАЖЛИВО: Не зважай на попередні виправлення GEM — оціни кожен уривок незалежно, наче бачиш його вперше.
+
+ЗВЕРНИ УВАГУ НА:
+1. Смислові зсуви (порівняй український переклад з французьким оригіналом — чи передає він справжній зміст?)
+2. Хибні переклади (слова, які українською означають інше, ніж французькою)
+3. Втрачені нюанси (іронія, соціальний регістр, емоційний тон)
+4. Граматику (відмінки, узгодження, частки)
+5. Природність (чи читається це як українській текст, а не як переклад?)
+6. Русизми (калька з російської замість природної української)
+
+Для кожної проблеми визнач серйозність:
+- A: треба виправити
+- B: рекомендовано
+- C: косметичне (ігноруй)
+```
+
 ## Related Documentation
 
 - `/src/_original/CLAUDE.md` - French source materials

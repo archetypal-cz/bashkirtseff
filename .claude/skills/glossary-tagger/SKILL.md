@@ -46,29 +46,29 @@ Before scanning, remove known false-positive aliases from glossary frontmatter. 
 
 ```bash
 # Remove these aliases (they match common French words, not the entities):
-just glossary-fm-remove-alias UN_BAL_DU_GRAND_MONDE "monde"
-just glossary-fm-remove-alias BELLE_DE_JOUR "jour"
-just glossary-fm-remove-alias LE_JOURNAL_D_UNE_FEMME "femme"
-just glossary-fm-remove-alias CINQ_FEMMES "femmes"
-just glossary-fm-remove-alias PLACE_D_ESPAGNE "place"
-just glossary-fm-remove-alias THEATRE_ITALIEN_NICE "Théâtre"
-just glossary-fm-remove-alias REVUE_NOUVELLE "nouvelle"
-just glossary-fm-remove-alias GARE_DE_LYON "gare"
-just glossary-fm-remove-alias GRANDE_DUCHESSE_MARIE "grande"
-just glossary-fm-remove-alias GRANDE_DUCHESSE_CATHERINE "Grande"
-just glossary-fm-remove-alias LEGION_D_HONNEUR "honneur"
-just glossary-fm-remove-alias TIREUSE_DE_CARTES "cartes"
-just glossary-fm-remove-alias LE_FILS_DE_LA_NUIT "nuit"
-just glossary-fm-remove-alias RENARD_BLEU "bleu"
-just glossary-fm-remove-alias TOLSTOY_FAMILY "family"
-just glossary-fm-remove-alias SELF_DESCRIPTION "Description"
-just glossary-fm-remove-alias ORDRE_DU_LION_ET_DU_SOLEIL "ordre"
-just glossary-fm-remove-alias TRENTE_ET_QUARANTE "Trente"
-just glossary-fm-remove-alias PALAIS_D_HOOGHWORST "Palais"
-just glossary-fm-remove-alias TALON_ROUGE "rouge"
-just glossary-fm-remove-alias PLACE_DU_PEUPLE "Place"
-just glossary-fm-remove-alias MONT_DE_MARSAN "Mont"
-just glossary-fm-remove-alias HOHENLOHE_PRINCES "princes"
+just glossary-remove-alias UN_BAL_DU_GRAND_MONDE "monde"
+just glossary-remove-alias BELLE_DE_JOUR "jour"
+just glossary-remove-alias LE_JOURNAL_D_UNE_FEMME "femme"
+just glossary-remove-alias CINQ_FEMMES "femmes"
+just glossary-remove-alias PLACE_D_ESPAGNE "place"
+just glossary-remove-alias THEATRE_ITALIEN_NICE "Théâtre"
+just glossary-remove-alias REVUE_NOUVELLE "nouvelle"
+just glossary-remove-alias GARE_DE_LYON "gare"
+just glossary-remove-alias GRANDE_DUCHESSE_MARIE "grande"
+just glossary-remove-alias GRANDE_DUCHESSE_CATHERINE "Grande"
+just glossary-remove-alias LEGION_D_HONNEUR "honneur"
+just glossary-remove-alias TIREUSE_DE_CARTES "cartes"
+just glossary-remove-alias LE_FILS_DE_LA_NUIT "nuit"
+just glossary-remove-alias RENARD_BLEU "bleu"
+just glossary-remove-alias TOLSTOY_FAMILY "family"
+just glossary-remove-alias SELF_DESCRIPTION "Description"
+just glossary-remove-alias ORDRE_DU_LION_ET_DU_SOLEIL "ordre"
+just glossary-remove-alias TRENTE_ET_QUARANTE "Trente"
+just glossary-remove-alias PALAIS_D_HOOGHWORST "Palais"
+just glossary-remove-alias TALON_ROUGE "rouge"
+just glossary-remove-alias PLACE_DU_PEUPLE "Place"
+just glossary-remove-alias MONT_DE_MARSAN "Mont"
+just glossary-remove-alias HOHENLOHE_PRINCES "princes"
 
 # Round 2: discovered in carnets 065-070
 just glossary-remove-alias CAFE_DE_PARIS "Paris"
@@ -178,7 +178,7 @@ For each batch:
 - **"Jean"** → Multiple possible people. Check if it's a person name or part of a place name ("Saint-Jean de Latran")
 - **"Dieu"** → REJECT if it's an exclamation ("mon Dieu!", "bon Dieu!"). ACCEPT only if genuinely discussing God/religion as a topic
 - **"Marie"** → REJECT — it's the diarist herself, not a glossary reference. Exception: if the text discusses "Marie" as a third person
-- **"Alexandre"** → Check if it's Marie's brother or Alexander the Great or someone else
+- **"Alexandre"** → HIGH-COLLISION name: in carnets 072-074 alone, bare "Alexandre" mapped to FIVE referents (Larderei, Marie's uncle, Tsar Alexander II, Dumas, Batourine). Auto-tagging the bare name to one entity regardless of true referent is the known failure mode (uk-072-074) — the per-paragraph RSR comment is the authoritative referent signal; read it before accepting
 - **"Peinture"** → REJECT if just generic "painting". Too common a word
 - **"Promenade"** → REJECT if generic "walk". ACCEPT only if referring to a specific promenade (e.g., Promenade des Anglais)
 - **"Aida"** → Verdi's opera. Usually ACCEPT

@@ -10,6 +10,8 @@ You are a language expert reviewer for the Marie Bashkirtseff diary translation 
 
 Works with any target language: Czech (cz), Ukrainian (uk), English (en), French modern edition (fr).
 
+**Before reviewing, read `content/{lang}/CLAUDE.md` for your target language** — it holds the language-specific naturalness rules, false-friend / calque traps, script-contamination checks, and grammar pitfalls. The two-pass process below is language-agnostic; the concrete per-language watch-list lives there.
+
 ## Why Opus Instead of Gemini?
 
 | | Gemini (GEM) | Opus (OPS) |
@@ -22,6 +24,8 @@ Works with any target language: Czech (cz), Ukrainian (uk), English (en), French
 | **Comment code** | GEM | OPS |
 
 **Trade-off**: Gemini provides genuine cross-model validation (different blind spots). Opus provides higher reliability and no corruption. Use Opus when reliability matters more than diversity; use Gemini when you want a second opinion from a different model family.
+
+**OPS is the preferred default reviewer** — proven zero corruption and zero false positives across multiple runs (200+ entries; see WATCHLIST "OPS zero-corruption track record"). The theoretical same-model blind-spot risk has shown no evidence across those runs but remains monitored.
 
 ## Agent Teams Protocol
 
@@ -118,19 +122,7 @@ Saturday, 11 January 1873. The weather is %% OPS: fix %% magnificent...
 
 ## Language-Specific Guidance
 
-### English
-- Watch for: gallicisms ("make a promenade"), false friends ("sympathetic" ≠ "sympathique", "actually" ≠ "actuellement"), register mismatches
-- Marie's English passages should be kept as-is with ==highlight== and footnote "*In English in the original*"
-- 19th century sophistication without archaism
-
-### Czech
-- Watch for: příklonky position (jsem/se/si must be 2nd position), gallicisms ("vzít si ženu" = marry), false friends ("ceremonie" ≠ okolky, "kostým" ≠ bathing outfit)
-- Cyrillic character contamination (Russian letters in Czech text)
-
-### Ukrainian
-- Read `content/uk/CLAUDE.md` for the full russianisms checklist and subtle calques guidance
-- Watch for gallicisms, aspect confusion (perfective/imperfective)
-- Must be Ukrainian, not Russian-influenced Ukrainian
+Read `content/{lang}/CLAUDE.md` for your target language — the "Editor / review traps" section lists the concrete watch-list (gallicisms, false friends, grammar pitfalls, script contamination, and for Ukrainian the russianisms checklist). Across all languages: keep Marie's same-language code-switches as-is with `==highlight==` and a footnote noting the original language, and aim for 19th-century sophistication without archaism.
 
 ## Comment Format
 

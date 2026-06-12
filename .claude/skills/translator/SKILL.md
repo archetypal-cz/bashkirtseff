@@ -283,7 +283,7 @@ Read `content/{lang}/CLAUDE.md` for language-specific translation guidance (fals
 These defects are **invisible to a reading review** (the text reads fine) and have repeatedly slipped past RED and CON — caught only by a mechanical link/frontmatter check. Get them right while writing:
 
 1. **Glossary tags: COPY from the source, change ONLY the path depth.** <!-- Teamcouch update 2026-06-10: tr-a in uk-075-077 CONSTRUCTED tags from scratch — wrong category folders (LARDEREI under people/suitors/ not people/mentioned/, PINCIO under people/mentioned/ not places/cities/), invented entities (ACADEMIE_JULIAN), and a tag SET diverging from source → 245 broken links, gate FAIL. The prior "do not copy verbatim" wording (depth lesson) had overcorrected into "construct your own". --> For each paragraph, take the source entry's glossary-tag line(s) verbatim and change ONLY the path prefix: `](../_glossary/…)` → `](../../_original/_glossary/…)`. Do **NOT** infer or guess the category folder (they are NOT predictable — e.g. `people/mentioned/LARDEREI.md`, `places/cities/PINCIO.md`, `people/mentioned/SORRENTO.md`), do **NOT** invent tags for entities the source doesn't tag, and do **NOT** drift back to the short path partway through a carnet (a mid-carnet drift broke 608 links in uk-064; constructing-from-scratch broke 245 in uk-075). The translation's tag set should match the source's exactly, only deeper. Self-check before finalizing: every `](../../_original/_glossary/X/NAME.md)` in your file should have a matching `](../_glossary/X/NAME.md)` in the source entry.
-2. **Preserve YAML frontmatter when overwriting a file.** If you `Write` a "fresh"/continuation entry, you MUST keep the existing frontmatter (date, carnet, language, `translation_complete`, `editor_approved`). Stripping it is silent data loss. Prefer `Edit` over full-file `Write` for entries that already exist.
+2. **Preserve YAML frontmatter when overwriting a file.** If you `Write` a "fresh"/continuation entry, you MUST keep the existing frontmatter (date, carnet, language, `translation_complete`, `editor_approved`, `conductor_approved`). Stripping it is silent data loss. Prefer `Edit` over full-file `Write` for entries that already exist. New translation files should include `editor_approved: false` and `conductor_approved: false` so reviewers have the fields to flip (missing `conductor_approved` was a systematic scaffold gap across 3 carnets in cz-056-064).
 <!-- Teamcouch update 2026-06-10: preserved-French-source-line contamination.
      Evidence: 2026-06-07-cz-056-064.md (5 in 056, 3 in 062, also 057/059/060/064),
      2026-06-10-cz-071-073.md (3 in 071, 6 in 072 incl. one CON caught after RED, 2 in 073) — 11 more.
@@ -291,7 +291,7 @@ These defects are **invisible to a reading review** (the text reads fine) and ha
      (e.g. "en bílém a"→should stay "en blanc et", "à Paříži"→"à Paris"). Latin-script, so the
      verify-carnet latin-in-cyr/foreign-script checks do NOT see it; slips past a reading review. -->
 3. **Never partially translate the preserved French `%%` source lines.** The original-French paragraph line and the RSR/LAN comment lines are source-of-truth — copy them **verbatim**. A copy-paste slip that swaps even one French word for its Czech equivalent (e.g. `en blanc` → `en bílém`, `à Paris` → `à Paříži`) corrupts the source and is **invisible** to `verify-carnet` (it's Latin-script). Self-check: scan every `%% … %%` French/source line for target-language-only diacritics (cz: ě ř ů; uk: і ї є ґ) before finalizing — there should be none except in legitimately-cited foreign words.
-4. **Before finalizing**, run `just verify-carnet {lang} {carnet}` (the single gate: links + frontmatter + footnotes + %%-balance). It must report **PASS** (0 fail). Do not mark the task complete until it does.
+4. **Before finalizing**, run `just verify-carnet {lang} {carnet}` (the single gate: links + frontmatter + footnotes + %%-balance). It must report **PASS** (0 fail). Do not mark the task complete until it does. **Team mode caveat**: teammates spawned via the Agent tool usually have no Bash, so you cannot run the gate yourself — the team lead runs it pre-RED. In that case do the manual self-checks above (tag-set match, diacritic scan of `%%` lines, footnote linking) and note in your summary that the gate is pending.
 
 ## Output Format
 
@@ -300,19 +300,19 @@ These defects are **invisible to a reading review** (the text reads fine) and ha
 Follow the project's standard format:
 
 ```markdown
-%% XX.YYY %%
-%% [#Tag1](../_glossary/category/TAG1.md) [#Tag2](../_glossary/category/TAG2.md) %%
+%% NNN.NNNN %%
+%% [#Tag1](../../_original/_glossary/category/TAG1.md) [#Tag2](../../_original/_glossary/category/TAG2.md) %%
 %% YYYY-MM-DDThh:mm:ss LAN: linguistic annotation from original %%
+%% [Original French paragraph text — copied VERBATIM] %%
 %% YYYY-MM-DDThh:mm:ss TR: [any translation decisions worth noting] %%
-%% [Original French paragraph text] %%
 %% [Previous translation if revising] %%
 [Translation in target language]
 ```
 
 **Key rules:**
-- ID comes FIRST (same as original files)
-- Tags and all annotations follow ID
-- Original French in comment
+- ID comes FIRST (same as original files): `%% 081.0003 %%`
+- Tags and all annotations follow ID — tag paths use `../../_original/_glossary/…` (translations live one level deeper than originals; see Structural Integrity #1)
+- Original French in comment, copied verbatim
 - Previous translation versions in comments (if any)
 - Current translation as visible text at the end
 - NO empty lines within a paragraph block
@@ -375,7 +375,7 @@ After completing a translation, return structured JSON:
   "paragraphs_translated": 12,
   "translation_notes": [
     "cultural_adaptation: 'pierrot' explained in footnote",
-    "preserved: run-on sentence in para 15.238"
+    "preserved: run-on sentence in para 015.0238"
   ],
   "translation_memory_hits": 7,
   "new_terms_added": 2,

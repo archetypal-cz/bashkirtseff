@@ -69,6 +69,71 @@ Marie's enthusiastic tone. %%
 
 ### 3. Editor Review (RED)
 
+#### Editor / review traps (čeština)
+
+Konkrétní české pasti, na které se RED, OPS i GEM mají zaměřit (jazykově neutrální rámec je ve skillu `editor`/`opus-editor`/`gemini-editor`, sem patří konkrétní české příklady):
+
+| Kategorie | Příklad |
+|-----------|---------|
+| **Galicismy** | "vzít si ženu" (= oženit se), "dítě domu", "dát pochopit", "dělám tisíc hloupostí" (mille bêtises) |
+| **Falešní přátelé** | "ceremonie" (CZ = obřad, FR = okolky), "kostým" (CZ = oblek, FR = plavky), "kabinet", "sympatický" |
+| **Zvratná slovesa** | "kojila jsem se" (= kojila jsem sebe sama) |
+| **Neexistující slova** | "rukavičkuje se", "voitře" — vymyšlené tvary, které v češtině neexistují |
+| **Slovosled / příklonky** | "pak na tribuně jsem" — příklonka jsem/se/si musí stát na 2. pozici |
+| **Předložkové kalky** | "za čelem" → "z čela", "mít" jako kalk za avoir, "dělat" za faire |
+| **Významové posuny** | "zimnice" (nemoc) za "frisson" (zachvění), "vařila jsem" (vaření) za "je bouillais" (vařit se vzteky) |
+
+**Kontrola podmiňovacího způsobu a osoby** (nejčastější kritická chyba, která mění význam): grepni tvary `kdyby` a ověř osobu proti francouzskému podmětu — "si je…" → kdybych, "si vous…" → kdybyste/kdybys, "si il/elle/on…" → kdyby. Záměna osoby tu dělá z Marie podmět cizí akce (dominantní třída chyb v cz-056-064).
+
+**Kontaminace písmem**: hledej zatoulané cyrilské znaky v latinkovém českém textu (překladatelé občas prosakují ruská písmena) a oprav je.
+
+#### Gemini review prompts (GEM)
+
+Tyto prompty vkládá skill `gemini-editor` do příkazu `gemini -y` (placeholdery `{INSERT … PROMPT …}`).
+
+**Pass 1 — text-only:**
+
+```
+Jsi zkušený český redaktor a stylista. Zkontroluj tento český překlad deníku Marie Bashkirtseffové (19. století).
+
+ZAMĚŘ SE NA:
+1. Galicismy (doslovné překlady z francouzštiny, které v češtině znějí nepřirozeně)
+2. Gramatiku (pády, shoda, slovosled, postavení příklonek jsem/se/si)
+3. Přirozenost češtiny (má znít jako česká autorka, ne jako překlad)
+4. Dobovou přiměřenost (19. století, ale čtivý pro dnešního čtenáře)
+5. Významové posuny (galicismy, které mění smysl: "vzít si ženu" = oženit se!)
+6. Falešní přátelé (slova, která existují v obou jazycích, ale s posunutým významem: ceremonie, kostým, kabinet)
+
+Pro každý problém urči závažnost:
+- A: musí se opravit (gramatická chyba, významový posun, nesmysl)
+- B: doporučeno (nepřirozenost, galicismus, lepší varianta existuje)
+- C: kosmetické (drobnost, ignoruj)
+```
+
+**Pass 2 — with-comments:**
+
+```
+Jsi zkušený český redaktor a stylista. Zkontroluj tento český překlad deníku Marie Bashkirtseffové (19. století).
+
+Text obsahuje inline komentáře ve formátu %% ... %% — ty obsahují francouzský originál, poznámky překladatele (TR), jazykové poznámky (LAN), výzkumné poznámky (RSR) a předchozí opravy (GEM). Využij je pro kontext, ale kontroluj POUZE český překlad (řádky bez %%).
+
+DŮLEŽITÉ: Nehleď na předchozí opravy GEM — posuď každou pasáž nezávisle, jako bys ji viděl poprvé.
+
+ZAMĚŘ SE NA:
+1. Významové posuny (porovnej český překlad s francouzským originálem — zachycuje skutečný smysl?)
+2. Chybné překlady (slova, která v češtině znamenají něco jiného než ve francouzštině)
+3. Ztracené nuance (ironie, společenský registr, emocionální tón)
+4. Gramatiku (pády, shoda, příklonky)
+5. Přirozenost (čte se to jako česky psaný text, ne jako překlad?)
+
+Pro každý problém urči závažnost:
+- A: musí se opravit
+- B: doporučeno
+- C: kosmetické (ignoruj)
+```
+
+#### Co RED dělá
+
 - Catch issues others have missed - because of being too involved or because of different perspective
 - Check naturalness in Czech
 - Verify accuracy against French

@@ -224,10 +224,10 @@ just find-missing "RSR:" content/_original/{carnet}
 just find-missing "LAN:" content/_original/{carnet}
 
 # Frontmatter metrics (sentence counts, word counts, paragraph counts)
-just update-frontmatter {carnet}           # Update calculated fields for a carnet
-just update-frontmatter-all                # Update all carnets
-just update-frontmatter-dry {carnet}       # Preview changes
-just update-frontmatter-lang cz {carnet}   # Update Czech translation metrics
+just update-frontmatter {carnet}             # Update calculated fields for a carnet
+just update-frontmatter-all                  # Update all carnets
+just update-frontmatter {carnet} --dry-run   # Preview changes
+just update-frontmatter-lang cz {carnet}     # Update Czech translation metrics
 ```
 
 Sentence counts are useful for translation QA: compare `sentence_count_original` vs `sentence_count_translated` to catch missed or hallucinated content.
@@ -239,11 +239,11 @@ Use these when evaluating RSR work reveals glossary issues (misplaced entries, d
 ```bash
 # Move a misplaced glossary entry (updates ALL references across all content)
 just glossary-move ID new_category              # e.g., just glossary-move WALITSKY people/recurring
-just glossary-move-dry ID new_category          # Dry run first
+just glossary-move ID new_category --dry-run    # Dry run first
 
 # Merge duplicate entries (AI-powered content merge via claude -p)
 just glossary-merge SOURCE TARGET               # e.g., just glossary-merge SOPHIE SOPHIE_DOLGIKOFF
-just glossary-merge-dry SOURCE TARGET           # Dry run first
+just glossary-merge SOURCE TARGET --dry-run     # Dry run first
 
 # Discovery
 just glossary-find ID                           # Find all references to an entry
@@ -369,6 +369,8 @@ For each carnet {X} with {N} entries:
 
 When a translator finishes, assign them the next carnet immediately — create a new task and message them.
 
+**Pre-create placeholder files before spawning translators.** A harness bug permanently blocks the `Write` tool for any path the agent first tried to `Read` while it didn't exist — for the entire agent session (confirmed in 3 reports: en-065-070, en-093-106, en-091-103). Standard practice: `mkdir -p content/{lang}/{carnet} && touch content/{lang}/{carnet}/{date}.md` for every entry (or scaffold with `just scaffold {carnet}`) before the translator starts.
+
 ### Agent Lifecycle: Fresh Context Per Carnet
 
 **CRITICAL**: Spawn a NEW agent for each carnet. Do NOT reuse agents across carnets.
@@ -447,6 +449,9 @@ no work yet (RED) until a carnet is translated, so polling TaskList just produce
 churn. Tell them in the spawn prompt: "Do NOT poll TaskList in a wake/idle loop. Wait passively;
 the team lead will message you the moment a carnet is ready for you." Then ping them per carnet,
 smallest-first. (con2 in 036-041 also usefully pre-read in-progress originals while waiting.)
+After assigning a carnet to a review agent, **verify engagement on disk within a few minutes**
+(editor/conductor comment counts climbing) — a queued task assignment alone sometimes fails to
+activate the agent (con idled ~24 min in cz-056-064); a plain status ping reliably kicks it.
 
 **Translator-specific:**
 - Key terminology from TranslationMemory.md (top 15-20 terms)
@@ -463,7 +468,8 @@ smallest-first. (con2 in 036-041 also usefully pre-read in-progress originals wh
 
 **CON-specific:**
 - "Three-pass review: target-language-only, comparative, 'Would Marie approve?'"
-- "Quality bar: Czech 000-004 (0.90-0.93), 005-008 (0.93-0.95)"
+- "Quality bar: see recent `.claude/reports/` for your language (recent plateaus: cz ~0.92, en ~0.95-0.96, uk ~0.92-0.96)"
+- "On 30+-entry carnets, send a halfway heartbeat" — and on your side, do NOT read a 0/N `conductor_approved` disk count as "stuck": CON reviews the whole carnet then batch-flips the flags at the end, so the count jumps 0→N. Monitor via the heartbeat, not the disk count (cz-065-069).
 
 ### GEM Integration
 
@@ -571,8 +577,8 @@ for d in 006 007 008; do
   echo "Carnet $d: $(ls content/{lang}/$d/*.md 2>/dev/null | wc -l)/$(ls content/_original/$d/*.md | grep -v README | wc -l)"
 done
 
-# Or use project-status
-just project-status {lang} 006
+# Or use project-status (the `status` recipe wraps src/scripts/project-status.ts)
+just status {lang} 006
 ```
 
 ### Quality Benchmarks (from Feb 12-13 Czech runs)

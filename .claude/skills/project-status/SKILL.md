@@ -22,6 +22,14 @@ Show what's done and what needs to be done:
 /project-status original 001       # Specific carnet source status
 ```
 
+**CLI equivalent** (wraps `src/scripts/project-status.ts`):
+
+```bash
+just status                # Full overview
+just status cz 001         # Specific language/carnet
+just workflow-status 015   # Alias for `just status original 015`
+```
+
 **Output includes:**
 - Progress percentages by phase (research, annotation, translation, edit, approval)
 - Active workers and their assignments

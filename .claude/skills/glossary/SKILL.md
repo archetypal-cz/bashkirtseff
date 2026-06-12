@@ -175,33 +175,24 @@ Link to other glossary entries using the standard tag format:
 
 ## Directory Structure
 
+There are three top-level categories — `people/`, `places/`, `culture/` (there is no top-level `society/`; institutions and social customs live under `culture/`). The authoritative category list is `content/_original/_glossary/_categories.yaml`.
+
 ```
-content/
-├── _original/
-│   └── _glossary/           # Original glossary (French annotations)
-│       ├── people/
-│       │   ├── core/        # Main recurring figures
-│       │   ├── recurring/   # Frequently mentioned
-│       │   └── mentioned/   # Single mentions
-│       ├── places/
-│       │   ├── cities/
-│       │   ├── venues/
-│       │   └── countries/
-│       ├── culture/
-│       │   ├── arts/
-│       │   ├── literature/
-│       │   ├── music/
-│       │   └── languages/
-│       └── society/
-│           ├── events/
-│           └── institutions/
-├── cz/
-│   └── _glossary/           # Czech glossary (future)
-├── en/
-│   └── _glossary/           # English glossary (future)
-└── uk/
-    └── _glossary/           # Ukrainian glossary (future)
+content/_original/_glossary/
+├── _categories.yaml         # Authoritative category definitions
+├── people/                  # aristocracy, artists, core, doctors, family,
+│                            # historical, mentioned, politicians, recurring,
+│                            # religious, royalty, service, society, writers
+├── places/                  # buildings, churches, cities, countries, hotels,
+│                            # landmarks, neighborhoods, parks, regions, residences,
+│                            # schools, shops, social, streets, theaters, travel,
+│                            # venues, villas
+└── culture/                 # art, daily_life, fashion, health, history,
+                             # institutions, languages, literature, music,
+                             # newspapers, social_customs, theater, themes, transport
 ```
+
+Translations do NOT have their own `_glossary/` trees — all languages link back to `content/_original/_glossary/` (from `content/{lang}/{carnet}/` the relative path is `../../_original/_glossary/…`).
 
 ## CLI Tools
 
@@ -210,12 +201,12 @@ content/
 Glossary entries should have YAML frontmatter with an `aliases` field listing the text forms by which the entity appears in Marie's diary. These aliases power the auto-tagger.
 
 ```bash
-# Ensure all entries have frontmatter (3000+ entries may lack it)
-just glossary-fm-ensure-dry              # Preview
+# Ensure all entries have frontmatter (all ~3,260 entries currently have it)
+just glossary-fm-ensure --dry-run        # Preview
 just glossary-fm-ensure                  # Apply
 
 # Auto-derive aliases from headings/IDs (initial bootstrap)
-just glossary-aliases-dry                # Preview all
+just glossary-aliases --dry-run          # Preview all
 just glossary-aliases --category people  # Apply to people only
 
 # Manual alias management (preferred for researcher refinement)
@@ -263,8 +254,8 @@ just glossary-missing              # List referenced entries that don't exist
 Move a glossary entry to a different category and update ALL references across originals and translations:
 
 ```bash
-just glossary-move BARBIER_DE_SEVILLE culture/opera    # Move and update refs
-just glossary-move-dry WALITSKY people/recurring        # Dry run first
+just glossary-move BARBIER_DE_SEVILLE culture/music         # Move and update refs
+just glossary-move WALITSKY people/recurring --dry-run       # Dry run first
 ```
 
 **File**: `src/scripts/glossary-move.ts`
@@ -280,9 +271,9 @@ The script:
 Merge two glossary entries about the same entity. Uses Claude to intelligently combine content:
 
 ```bash
-just glossary-merge SOPHIE SOPHIE_DOLGIKOFF       # Merge (AI-powered content merge)
-just glossary-merge-dry SOPHIE SOPHIE_DOLGIKOFF    # Dry run
-just glossary-duplicates                            # Find potential duplicates
+just glossary-merge SOPHIE SOPHIE_DOLGIKOFF              # Merge (AI-powered content merge)
+just glossary-merge SOPHIE SOPHIE_DOLGIKOFF --dry-run    # Dry run
+just glossary-duplicates                                 # Find potential duplicates
 ```
 
 **File**: `src/scripts/glossary-merge.ts`
@@ -298,30 +289,16 @@ Options:
 - `--no-delete` — Keep source file after merge
 - `--verbose` — Show detailed output
 
-### Restructuring Glossary Format
+### Format Maintenance
 
-Convert old-format entries to paragraph cluster format:
+All ~3,260 glossary entries now have YAML frontmatter (the old restructure-glossary.ts migration script no longer exists). For format maintenance use:
 
 ```bash
-# Restructure all entries in a category
-npx ts-node --esm scripts/restructure-glossary.ts --category people/core
-
-# Restructure single entry
-npx ts-node --esm scripts/restructure-glossary.ts --entry DINA --category people/core
-
-# Preview changes without writing
-npx ts-node --esm scripts/restructure-glossary.ts --category people/core --dry-run --verbose
+just glossary-fm-ensure --dry-run    # Detect/repair entries lacking frontmatter
+just glossary-migrate-flat --dry-run # Migrate flat-path refs to categorized paths
 ```
 
-**File**: `scripts/restructure-glossary.ts`
-
-### What the script does:
-1. Parses existing content into sections (by ## headers)
-2. Generates paragraph IDs based on entry name (`GLO_ENTRYID.NNNN`)
-3. Preserves existing metadata (Research Status, Last Updated)
-4. Extracts and preserves RSR notes with timestamps
-5. Adds YAML frontmatter with structured data
-6. Skips already-restructured entries (detects frontmatter)
+When restructuring an entry's body into paragraph clusters by hand, follow the format in this skill: `GLO_ENTRYID.NNNN` IDs, sections as their own paragraph blocks, RSR notes preserved with timestamps.
 
 ## Frontend Integration
 
@@ -481,34 +458,16 @@ last_updated: 2026-02-03   # Update when making changes
 ## Quality Standards
 
 - Every entry MUST have complete frontmatter
-- Every section MUST have a paragraph ID
+- Every section MUST have a paragraph ID (when the entry uses paragraph clusters)
 - Research notes MUST include timestamps
 - Cross-references MUST use relative paths
 - IDs MUST be CAPITAL_ASCII (no accents)
 - `last_updated` MUST be current when modifying
+- **Secondary sources MUST be cited** — facts drawn from Kernberger (2013), Blind (1890), Wikipedia, BNF, etc. carry attribution in the entry text or RSR note (e.g., `Per Kernberger (2013), ...`). Scholarly attribution is non-negotiable.
 
 ## Migration Status
 
-The glossary system is being migrated from old format (no paragraph IDs, no frontmatter) to new format (paragraph clusters, YAML frontmatter).
-
-### Completed:
-- `people/core/` - 4 entries restructured (ALEXANDRE, BASHKIRTSEFF, DINA, DUKE_OF_HAMILTON)
-
-### Remaining:
-- ~3,700 entries in other categories
-
-### How to migrate a category:
-
-```bash
-# 1. Preview changes
-npx ts-node --esm scripts/restructure-glossary.ts --category places/cities --dry-run --verbose
-
-# 2. Run migration
-npx ts-node --esm scripts/restructure-glossary.ts --category places/cities
-
-# 3. Verify in frontend
-# Visit /glossary/{entry_id} and check paragraph menu appears
-```
+**Frontmatter migration is COMPLETE** — all ~3,260 entries have YAML frontmatter (verified 2026-06-12). Body-level paragraph clustering (`GLO_` IDs) is still mixed: research-enriched entries use it, many stubs remain plain markdown. Add paragraph clusters when substantively expanding an entry; don't run bulk conversions.
 
 ## Backward Compatibility
 

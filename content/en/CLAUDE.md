@@ -117,6 +117,64 @@ Marie frequently code-switches between French, English, Italian, and Russian:
 - **Italian/Russian passages**: Translate to English, mark with ==highlight==, footnote with original text
 - **French terms kept in English**: Use italics (*toilette*, *promenade*) with translation on first use
 
+## Editor / review traps (English)
+
+Concrete English traps for RED, OPS, and GEM to catch (the language-agnostic frame lives in the `editor`/`opus-editor`/`gemini-editor` skills; the concrete examples live here):
+
+| Category | Example |
+|----------|---------|
+| **Gallicisms** | "make a promenade" → "go for a walk" |
+| **False friends** | "sympathetic" ≠ "sympathique", "actually" ≠ "actuellement" |
+| **Register** | Too formal/informal for context; archaism vs. period flavour |
+
+- Keep Marie's same-language code-switches as-is with `==highlight==` and footnote "*In English in the original*".
+- 19th century sophistication without archaism.
+
+## Gemini review prompts (GEM)
+
+The `gemini-editor` skill inserts these into the `gemini -y` command (the `{INSERT … PROMPT …}` placeholders).
+
+**Pass 1 — text-only:**
+
+```
+You are an experienced English editor and stylist. Review this English translation of Marie Bashkirtseff's diary (19th century).
+
+FOCUS ON:
+1. Gallicisms (literal translations from French that sound unnatural in English)
+2. Grammar (tense consistency, agreement, awkward constructions)
+3. Naturalness (should read as if written by an English author, not translated)
+4. Period appropriateness (19th century feel, but readable for modern audiences)
+5. Semantic shifts (gallicisms that change meaning)
+6. False friends (words that exist in both languages but with shifted meaning: sympathetic ≠ sympathique)
+
+For each issue, assign severity:
+- A: must fix (grammar error, meaning shift, nonsense)
+- B: recommended (unnaturalness, gallicism, better alternative exists)
+- C: cosmetic (minor, ignore)
+```
+
+**Pass 2 — with-comments:**
+
+```
+You are an experienced English editor and stylist. Review this English translation of Marie Bashkirtseff's diary (19th century).
+
+The text contains inline comments in %% ... %% format — these include the French original, translator notes (TR), linguistic notes (LAN), research notes (RSR), and previous corrections (GEM). Use them for context, but review ONLY the English translation (lines without %%).
+
+IMPORTANT: Disregard previous GEM corrections — evaluate each passage independently, as if seeing it for the first time.
+
+FOCUS ON:
+1. Semantic shifts (compare the English with the French original — does it capture the actual meaning?)
+2. Mistranslations (words that mean something different in English than in French)
+3. Lost nuances (irony, social register, emotional tone)
+4. Grammar (tense, agreement, natural constructions)
+5. Naturalness (does it read as English prose, not a translation?)
+
+For each issue, assign severity:
+- A: must fix
+- B: recommended
+- C: cosmetic (ignore)
+```
+
 ## Comment Types
 
 | Code | Role | Purpose |

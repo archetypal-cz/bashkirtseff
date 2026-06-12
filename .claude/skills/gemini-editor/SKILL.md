@@ -10,6 +10,10 @@ You orchestrate an external AI review of translations using Google Gemini. This 
 
 Works with any target language: Czech (cz), Ukrainian (uk), English (en), French modern edition (fr).
 
+> **GEM is the optional reviewer, not the default.** The **opus-editor (OPS)** is the preferred review stage: zero corruption and zero false positives across its proven runs, no rate limits, no git-audit overhead. GEM carries a real file-corruption risk (~50% of files get inline comments splitting paragraph text; also duplicate paragraph insertion, "translating" the French inside `%%` comments, stripped `==highlight==` markup — see Known Issues and `.claude/reports/WATCHLIST.md` "GEM Corruption Patterns"). Use GEM when you specifically want a different model family's blind spots checked, and budget the git-diff audit time it requires.
+>
+> **Git note:** this workflow mutates git (commits, possible `git checkout` reverts). Subagents are barred from git mutations by a `PreToolUse` hook — run GEM from the team lead / main session, not as a teammate.
+
 ## Core Approach
 
 Gemini runs in **yolo mode** (`gemini -y`), editing translation files directly. You commit before each pass for safety, let Gemini do its work, then audit via `git diff`. No stdout parsing, no manual fix application.
@@ -182,162 +186,14 @@ These apply to Gemini's edits (enforced via the prompt instructions) and to any 
 
 ## Prompts
 
-### Text-Only Prompts (Pass 1)
+The Gemini review prompts are **language-specific** and live in each target language's guide:
 
-#### Czech (cz)
+- **`content/{lang}/CLAUDE.md` → "Gemini review prompts (GEM)" section** holds both the Pass 1 (text-only) and Pass 2 (with-comments) prompt for that language, written in the target language for cz/uk and in English for en.
+- Before dispatching Gemini, **read `content/{lang}/CLAUDE.md` and copy the matching prompt** into the `{INSERT … PROMPT FOR TARGET LANGUAGE HERE}` placeholders in the `gemini -y` commands above.
 
-```
-Jsi zkušený český redaktor a stylista. Zkontroluj tento český překlad deníku Marie Bashkirtseffové (19. století).
+All language prompts share the same skeleton: a one-line "experienced {language} editor" framing, a numbered FOCUS-ON list (gallicisms, grammar, naturalness, period appropriateness, semantic shifts, false friends — plus russianisms for uk), and an A/B/C severity scale. Pass 2 additionally instructs Gemini to use the `%% … %%` comments for context but only edit the visible translation, and to disregard prior GEM corrections. If a language has no prompt yet, draft one from this skeleton and add it to that language's CLAUDE.md so the next run inherits it.
 
-ZAMĚŘ SE NA:
-1. Galicismy (doslovné překlady z francouzštiny, které v češtině znějí nepřirozeně)
-2. Gramatiku (pády, shoda, slovosled, postavení příklonek jsem/se/si)
-3. Přirozenost češtiny (má znít jako česká autorka, ne jako překlad)
-4. Dobovou přiměřenost (19. století, ale čtivý pro dnešního čtenáře)
-5. Významové posuny (galicismy, které mění smysl: "vzít si ženu" = oženit se!)
-6. Falešní přátelé (slova, která existují v obou jazycích, ale s posunutým významem: ceremonie, kostým, kabinet)
-
-Pro každý problém urči závažnost:
-- A: musí se opravit (gramatická chyba, významový posun, nesmysl)
-- B: doporučeno (nepřirozenost, galicismus, lepší varianta existuje)
-- C: kosmetické (drobnost, ignoruj)
-```
-
-#### Ukrainian (uk)
-
-```
-Ти досвідчений український редактор і стиліст. Перевір цей український переклад щоденника Марії Башкирцевої (19 століття).
-
-ЗВЕРНИ УВАГУ НА:
-1. Галіцизми (дослівні переклади з французької, які звучать неприродно українською)
-2. Граматику (відмінки, узгодження, порядок слів, вживання часток)
-3. Природність української (має звучати як українська авторка, а не як переклад)
-4. Доречність епосі (19 століття, але зрозумілий для сучасного читача)
-5. Смислові зсуви (галіцизми, що змінюють значення)
-6. Русизми (слова та конструкції, які є калькою з російської, а не природною українською)
-
-Для кожної проблеми визнач серйозність:
-- A: треба виправити (граматична помилка, смисловий зсув, нісенітниця)
-- B: рекомендовано (неприродність, галіцизм, краща альтернатива існує)
-- C: косметичне (дрібниця, ігноруй)
-```
-
-#### English (en)
-
-```
-You are an experienced English editor and stylist. Review this English translation of Marie Bashkirtseff's diary (19th century).
-
-FOCUS ON:
-1. Gallicisms (literal translations from French that sound unnatural in English)
-2. Grammar (tense consistency, agreement, awkward constructions)
-3. Naturalness (should read as if written by an English author, not translated)
-4. Period appropriateness (19th century feel, but readable for modern audiences)
-5. Semantic shifts (gallicisms that change meaning)
-6. False friends (words that exist in both languages but with shifted meaning: sympathetic ≠ sympathique)
-
-For each issue, assign severity:
-- A: must fix (grammar error, meaning shift, nonsense)
-- B: recommended (unnaturalness, gallicism, better alternative exists)
-- C: cosmetic (minor, ignore)
-```
-
-### With-Comments Prompts (Pass 2)
-
-#### Czech (cz)
-
-```
-Jsi zkušený český redaktor a stylista. Zkontroluj tento český překlad deníku Marie Bashkirtseffové (19. století).
-
-Text obsahuje inline komentáře ve formátu %% ... %% — ty obsahují francouzský originál, poznámky překladatele (TR), jazykové poznámky (LAN), výzkumné poznámky (RSR) a předchozí opravy (GEM). Využij je pro kontext, ale kontroluj POUZE český překlad (řádky bez %%).
-
-DŮLEŽITÉ: Nehleď na předchozí opravy GEM — posuď každou pasáž nezávisle, jako bys ji viděl poprvé.
-
-ZAMĚŘ SE NA:
-1. Významové posuny (porovnej český překlad s francouzským originálem — zachycuje skutečný smysl?)
-2. Chybné překlady (slova, která v češtině znamenají něco jiného než ve francouzštině)
-3. Ztracené nuance (ironie, společenský registr, emocionální tón)
-4. Gramatiku (pády, shoda, příklonky)
-5. Přirozenost (čte se to jako česky psaný text, ne jako překlad?)
-
-Pro každý problém urči závažnost:
-- A: musí se opravit
-- B: doporučeno
-- C: kosmetické (ignoruj)
-```
-
-#### Ukrainian (uk)
-
-```
-Ти досвідчений український редактор і стиліст. Перевір цей український переклад щоденника Марії Башкирцевої (19 століття).
-
-Текст містить коментарі у форматі %% ... %% — вони містять французький оригінал, нотатки перекладача (TR), мовні нотатки (LAN), дослідницькі нотатки (RSR) та попередні виправлення (GEM). Використовуй їх для контексту, але перевіряй ЛИШЕ український переклад (рядки без %%).
-
-ВАЖЛИВО: Не зважай на попередні виправлення GEM — оціни кожен уривок незалежно, наче бачиш його вперше.
-
-ЗВЕРНИ УВАГУ НА:
-1. Смислові зсуви (порівняй український переклад з французьким оригіналом — чи передає він справжній зміст?)
-2. Хибні переклади (слова, які українською означають інше, ніж французькою)
-3. Втрачені нюанси (іронія, соціальний регістр, емоційний тон)
-4. Граматику (відмінки, узгодження, частки)
-5. Природність (чи читається це як українській текст, а не як переклад?)
-6. Русизми (калька з російської замість природної української)
-
-Для кожної проблеми визнач серйозність:
-- A: треба виправити
-- B: рекомендовано
-- C: косметичне (ігноруй)
-```
-
-#### English (en)
-
-```
-You are an experienced English editor and stylist. Review this English translation of Marie Bashkirtseff's diary (19th century).
-
-The text contains inline comments in %% ... %% format — these include the French original, translator notes (TR), linguistic notes (LAN), research notes (RSR), and previous corrections (GEM). Use them for context, but review ONLY the English translation (lines without %%).
-
-IMPORTANT: Disregard previous GEM corrections — evaluate each passage independently, as if seeing it for the first time.
-
-FOCUS ON:
-1. Semantic shifts (compare the English with the French original — does it capture the actual meaning?)
-2. Mistranslations (words that mean something different in English than in French)
-3. Lost nuances (irony, social register, emotional tone)
-4. Grammar (tense, agreement, natural constructions)
-5. Naturalness (does it read as English prose, not a translation?)
-
-For each issue, assign severity:
-- A: must fix
-- B: recommended
-- C: cosmetic (ignore)
-```
-
-## Typical Issues by Language
-
-### Czech
-| Category | Example |
-|----------|---------|
-| **Galicisms** | "vzít si ženu" (= marry), "dítě domu", "dát pochopit" |
-| **False friends** | "ceremonie" (CZ = formal ceremony, FR = fuss/okolky), "kostým" (CZ = suit/costume, FR = bathing outfit) |
-| **Reflexive errors** | "kojila jsem se" (breastfed myself) |
-| **Non-existent words** | "rukavičkuje se" (not real Czech) |
-| **Word order** | "pak na tribuně jsem" (příklonka "jsem" must be 2nd) |
-| **Preposition calques** | "za čelem" → "z čela" |
-| **Semantic shifts** | "zimnice" (disease) for "frisson" (shiver), "vařila jsem" (cooking) for "je bouillais" (seething) |
-
-### Ukrainian
-| Category | Example |
-|----------|---------|
-| **Galicisms** | "взяти жінку" (= одружитися), "дати зрозуміти" |
-| **Russianisms** | "потому що" → "тому що", "тоже" → "також", "нічого собі" → "жарт сказати" |
-| **Case errors** | Wrong відмінок governance |
-| **Aspect** | Imperfective/perfective confusion |
-| **Calques** | Literal French constructions in Ukrainian word order |
-
-### English
-| Category | Example |
-|----------|---------|
-| **Gallicisms** | "make a promenade" → "go for a walk" |
-| **Register** | Too formal/informal for context |
-| **False friends** | "sympathetic" ≠ "sympathique", "actually" ≠ "actuellement" |
+The per-language list of **typical issues Gemini should catch** (concrete gallicisms, false friends, calques, russianisms) also lives in the "Editor / review traps" section of `content/{lang}/CLAUDE.md`.
 
 ## Comment Format
 

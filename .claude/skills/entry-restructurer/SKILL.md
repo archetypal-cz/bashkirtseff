@@ -24,52 +24,61 @@ Given a diary entry file path, restructure it to follow the canonical format. Yo
 YAML frontmatter
 ---
 
-%% BB.PP1 %%
+%% CCC.PPP1 %%
 %% [#tags] %%
 %% annotations %%
 First paragraph text (usually heading/date)
 
-%% BB.PP2 %%
+%% CCC.PPP2 %%
 %% [#tags] %%
 %% annotations %%
 Second paragraph text
 [^footnote_id]: Footnote text
 
-%% BB.PP3 %%
+%% CCC.PPP3 %%
 ...
 ```
 
 ### Frontmatter Template:
+
+The authoritative spec is `docs/FRONTMATTER.md`. The current schema (see e.g. `content/_original/001/1873-01-11.md`):
+
 ```yaml
 ---
-date: YYYY-MM-DD              # from filename
-title: French date heading    # full date (e.g., "Samedi 11 janvier 1873")
-book: NN                      # book number (01, 02, etc.)
-location: City                # Marie's location on this day
-para_start: N                 # first paragraph number (for validation)
-people:                       # list of people mentioned (CAPITAL_ASCII format)
-  - Person1
-  - Person2
-places:                       # list of places mentioned
-  - Place1
-  - Place2
-themes:                       # thematic tags
-  - theme1
-  - theme2
-status: source_ready          # or needs_research, needs_annotation
+date: 1873-01-11              # ISO date from filename
+entry_id: "1873-01-11"        # usually same as date
+carnet: "081"                 # 3-digit carnet number from path, QUOTED
+location: Nice                # Marie's location on this day
+locations: [Nice, Promenade_des_Anglais]  # all locations, primary FIRST (optional)
+entities:
+  people:
+    - Duke_of_Hamilton        # CAPITAL_ASCII-compatible names
+  places:
+    - Nice
+workflow:
+  research_complete: true
+  linguistic_annotation_complete: true
+  last_modified: 2026-02-10T23:30:00
+  modified_by: RSR
+para_start: 1                 # first paragraph number in this entry
+para_end: 7                   # last paragraph number
 ---
 ```
 
-**`para_start`**: Required for entries that don't start at paragraph 1. The paragraph numbering is continuous across the entire book, so entries after the first need this field for validation to work correctly. Check the previous entry's last paragraph ID to determine the correct value.
+Do NOT use the obsolete fields `title:`, `book:`, top-level `people:`/`places:`/`themes:`, or `status:` — entity lists live under `entities:`, workflow state under `workflow:`.
+
+**`para_start`**: Required — paragraph numbering is continuous across the entire carnet, so every entry after the first starts mid-sequence. Check the previous entry's `para_end` (or last paragraph ID) to determine the correct value. Validate with `just check-para-start {carnet}`.
+
+After setting static fields, run `just update-frontmatter {carnet}` to populate calculated fields (counts, Marie's age).
 
 ### Paragraph Cluster Structure:
 
 A **paragraph cluster** contains:
-1. **Paragraph ID** (first line): `%% BB.PP %%` where BB = book number, PP = paragraph number
-2. **Tags line** (optional): `%% [#Tag1](path) [#Tag2](path) %%`
+1. **Paragraph ID** (first line): `%% CCC.PPPP %%` — 3-digit carnet number, 4-digit zero-padded paragraph number (e.g. `%% 081.0003 %%`). Some older files still use 2-digit IDs or `[//]: # (NN.XXXX)` markers — preserve the file's existing ID values (don't renumber), but use `%% ... %%` format for anything you add.
+2. **Tags line(s)** (optional): `%% [#Tag1](path) [#Tag2](path) %%` — may span several lines
 3. **Annotations** (any number, in order: LAN, RSR, RED, CON): `%% YYYY-MM-DDThh:mm:ss TYPE: note %%`
 4. **Original French text** (one or more lines)
-5. **Footnotes** (if any): `[^BB.PP.N]: Footnote text`
+5. **Footnotes** (if any): `[^CC.PP.N]: Footnote text`
 
 **Critical Rules:**
 - NO empty lines within a cluster
@@ -82,21 +91,19 @@ A **paragraph cluster** contains:
 
 **CRITICAL**: The date heading (e.g., `# Samedi 11 janvier 1873`) is:
 1. **Its own paragraph cluster** - the FIRST paragraph after frontmatter
-2. **Mirrored in frontmatter** - copied to the `title:` field
-3. **A tiny cluster** - just the paragraph ID and the heading text
+2. **A tiny cluster** - just the paragraph ID and the heading text
 
 Example:
 ```
 ---
 date: 1873-01-12
-title: Dimanche 12 janvier 1873
 ...
 ---
 
-%% 01.08 %%
+%% 001.0008 %%
 # Dimanche 12 janvier 1873
 
-%% 01.09 %%
+%% 001.0009 %%
 %% [#tags] %%
 A la musique on a beaucoup parlé...
 ```
@@ -116,18 +123,18 @@ Subsequent paragraphs may include:
 
 ### Step 1: Read the file and analyze structure
 - Check if frontmatter exists (starts with `---`)
-- Identify all paragraph IDs (`%% NN.PP %%`)
+- Identify all paragraph IDs (`%% CCC.PPPP %%`, or legacy variants)
 - Note positions of tags, annotations, and text
 
 ### Step 2: Create or verify frontmatter
 If frontmatter is missing or incomplete:
-- Extract date from filename (YYYY-MM-DD)
-- Extract title from markdown heading (e.g., "# Samedi 11 janvier 1873")
-- Determine book number from path (e.g., `/01/` → "01")
-- Identify location from tags (usually first location mentioned or Nice/Paris/Rome)
-- Extract people from `[#Person]` tags
-- Extract places from `[#Place]` tags
-- Infer themes from content
+- Extract `date`/`entry_id` from filename (YYYY-MM-DD)
+- Determine `carnet` number from path (e.g., `/081/` → "081", quoted)
+- Identify `location` from tags (usually first location mentioned or Nice/Paris/Rome)
+- Extract `entities.people` from `[#Person]` tags
+- Extract `entities.places` from `[#Place]` tags
+- Set `para_start`/`para_end` from the first/last paragraph IDs
+- Preserve any existing `workflow:` flags
 
 ### Step 3: Restructure paragraph clusters
 For each paragraph ID found:
@@ -146,7 +153,7 @@ For each paragraph ID found:
 
 ### Step 5: Validate
 - Every paragraph should have a unique ID
-- IDs should be sequential (01.01, 01.02, 01.03...)
+- IDs should be sequential (001.0001, 001.0002, 001.0003... — continuous across the carnet)
 - No empty lines within clusters
 - Single empty line between clusters
 - All annotations before text
@@ -161,10 +168,10 @@ For each paragraph ID found:
 
 %% 2025-12-07T16:25:00 RSR: The Var races... %%
 
-%% 01.73 %%
+%% 001.0073 %%
 
 Le jour des courses du Var.
-%% 01.74 %%
+%% 001.0074 %%
 
 #Document_Humain
 Le matin sont passés devant la villa...
@@ -174,31 +181,34 @@ Le matin sont passés devant la villa...
 ```
 ---
 date: 1873-02-05
-title: Mercredi 5 février 1873
-book: 01
+entry_id: "1873-02-05"
+carnet: "001"
 location: Nice
+entities:
+  people:
+    - Duke_of_Hamilton
+    - Howard_family
+    - Boreel
+  places:
+    - Nice
+    - Var_Races
+workflow:
+  research_complete: true
+  linguistic_annotation_complete: false
+  last_modified: 2026-06-12T12:00:00
+  modified_by: RSR
 para_start: 72
-people:
-  - Duke_of_Hamilton
-  - Howard_family
-  - Boreel
-places:
-  - Nice
-  - Var_Races
-themes:
-  - horse_racing
-  - society_life
-status: source_ready
+para_end: 74
 ---
 
-%% 01.72 %%
+%% 001.0072 %%
 # Mercredi 5 février 1873
 
-%% 01.73 %%
+%% 001.0073 %%
 %% [#Nice](../_glossary/places/cities/NICE.md) %%
 Le jour des courses du Var. Le plus grand jour de la saison pour moi.
 
-%% 01.74 %%
+%% 001.0074 %%
 %% [#Nice](../_glossary/places/cities/NICE.md) %%
 %% 2025-12-07T16:25:00 RSR: The Var races - a major social event... %%
 Le matin sont passés devant la villa une dizaine de chevaux conduits par des jockeys. Mon Dieu, qu'y a-t-il de plus beau qu'un cheval de course ?
@@ -220,59 +230,33 @@ After restructuring, return a summary:
   "warnings": [
     "Paragraph 01.76 has no text content"
   ],
-  "paragraph_ids": ["01.73", "01.74", "01.75", ...],
+  "paragraph_ids": ["001.0073", "001.0074", "001.0075", ...],
   "first_paragraph_content": "Le jour des courses du Var..."
 }
 ```
 
 ## Reference Files
 
-- Canonical format spec: `./.claude/skills/_shared/paragraph_format.md`
-- Example well-formatted entry: `./content/_original/01/1873-01-11.md`
-- Glossary location: `./content/_original/_glossary/`
+- Canonical format spec: `.claude/skills/_shared/paragraph_format.md`
+- Frontmatter spec: `docs/FRONTMATTER.md`
+- Example well-formatted entry: `content/_original/001/1873-01-11.md`
+- Glossary location: `content/_original/_glossary/`
 
-## Validation Scripts
+## Validation Commands
 
-After restructuring, use these uv Python scripts to validate the result:
+After restructuring, validate with the `just` commands (the old `paragraph_parser.py` scripts no longer exist):
 
-### 1. Paragraph Parser Validation
 ```bash
-cd ./scripts
-uv run paragraph_parser.py validate /path/to/entry.md
+just check-frontmatter {carnet}        # Missing/incomplete frontmatter in a carnet
+just check-para-start {carnet}         # Missing para_start fields
+just update-frontmatter {carnet}       # Recalculate counts/age after structural changes
+just glossary-missing                  # Glossary links pointing at nonexistent entries
+just verify-carnet {lang} {carnet}     # Full mechanical gate (for translation trees)
 ```
-This validates:
-- Paragraph ID sequence (should be sequential: 01.01, 01.02, 01.03...)
-- Book number consistency
-- Glossary link validity
-
-### 2. Parse and View Statistics
-```bash
-uv run paragraph_parser.py parse /path/to/entry.md
-uv run paragraph_parser.py stats /path/to/entry.md
-```
-Shows paragraph count, notes by role, word counts.
-
-### 3. Validate Entire Book
-```bash
-uv run paragraph_parser.py validate /path/to/book_dir/
-```
-Validates all entries in a book directory.
-
-### 4. Fix Paragraph IDs (if needed)
-```bash
-uv run paragraph_parser.py fix-ids /path/to/entry.md --start-from 1
-```
-Renumbers paragraphs starting from a given number.
-
-### Key Validation Functions (from paragraph_utils.py):
-- `validate_paragraph_sequence(entry)`: Checks ID sequence
-- `validate_glossary_links(entry, glossary_dir)`: Checks glossary links exist
-- `get_entry_statistics(entry)`: Returns stats for verification
 
 ## Important Notes
 
 1. **Preserve all content**: Never delete text, annotations, or footnotes - only reorganize them
 2. **Maintain paragraph numbering**: If the file already has paragraph IDs, preserve them (don't renumber)
-3. **Be conservative with themes**: Only add themes clearly evident from content
-4. **Location determination**: Check previous entries if location unclear
-5. **Book number from path**: `/01/` = book 01, `/00/` = book 00 (preface), etc.
+3. **Location determination**: Check previous entries if location unclear
+4. **Carnet number from path**: `/001/` = carnet 001, `/000/` = carnet 000 (preface), etc.

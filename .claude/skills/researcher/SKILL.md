@@ -222,11 +222,11 @@ When you need to recategorize or merge glossary entries, use the `just` commands
 ```bash
 # Move an entry to a different category (updates ALL references across all content)
 just glossary-move WALITSKY people/recurring
-just glossary-move-dry WALITSKY people/recurring    # Preview first
+just glossary-move WALITSKY people/recurring --dry-run    # Preview first
 
 # Merge duplicate entries (uses Claude to intelligently combine content)
-just glossary-merge SOPHIE SOPHIE_DOLGIKOFF          # Smart merge (default)
-just glossary-merge-dry SOPHIE SOPHIE_DOLGIKOFF      # Preview first
+just glossary-merge SOPHIE SOPHIE_DOLGIKOFF              # Smart merge (default)
+just glossary-merge SOPHIE SOPHIE_DOLGIKOFF --dry-run    # Preview first
 
 # Find potential duplicates
 just glossary-duplicates
@@ -262,8 +262,8 @@ just glossary-fm-get MAMAN
 just glossary-query --category people --no-field aliases --limit 20
 
 # Bulk auto-derive aliases from headings (bootstrap)
-just glossary-aliases-dry --category people    # Preview
-just glossary-aliases --category people        # Apply
+just glossary-aliases --category people --dry-run   # Preview
+just glossary-aliases --category people             # Apply
 ```
 
 **When to add aliases during research:**
@@ -324,10 +324,10 @@ flags:
 **IMPORTANT**: After creating/updating static attributes, run the frontmatter update script to populate calculated fields (paragraph count, word count, sentence counts, Marie's age):
 
 ```bash
-just update-frontmatter <carnet>          # updates all entries in a carnet
-just update-frontmatter-all               # updates all carnets
-just update-frontmatter-dry <carnet>      # preview changes without writing
-just update-frontmatter-lang cz <carnet>  # update translation metrics
+just update-frontmatter <carnet>            # updates all entries in a carnet
+just update-frontmatter-all                 # updates all carnets
+just update-frontmatter <carnet> --dry-run  # preview changes without writing
+just update-frontmatter-lang cz <carnet>    # update translation metrics
 ```
 
 The script calculates `sentence_count_original` and `sentence_count_translated` — useful for verifying translations didn't miss sentences or hallucinate extra ones. Headers count as 1 sentence each, footnotes are included, and common abbreviations (M., Mme., etc.) are protected from false splits.
@@ -437,6 +437,16 @@ Use for:
 
 **Always cite sources** in glossary entries.
 
+### Citing Secondary Sources (non-negotiable)
+
+This is a scholarly project — **every fact taken from a secondary source must carry attribution** in the RSR comment, footnote, or glossary entry where it is used:
+
+- **Kernberger** — Katherine Kernberger, *I Am the Most Interesting Book of All* Vol. I / *Lust for Glory* Vol. II, Fonthill Press, 2013. Format: `RSR: Per Kernberger (2013), ...`
+- **Blind** — Mathilde Blind's 1890 translation
+- Wikipedia, Britannica, BNF, etc. — name the source for any identity or historical claim
+
+Never present a secondary source's research as original findings.
+
 ## Output Requirements
 
 After processing an entry, return structured JSON:
@@ -452,7 +462,7 @@ After processing an entry, return structured JSON:
   "events": ["Concert_Pasdeloup"],
   "cultural_refs": ["La_Traviata"],
   "languages_found": ["French", "English"],
-  "language_tagged_paragraphs": ["03.42", "03.45"],
+  "language_tagged_paragraphs": ["003.0042", "003.0045"],
   "glossary_created": ["Boreel"],
   "glossary_updated": ["Duke_of_Hamilton"],
   "footnotes_added": 2,

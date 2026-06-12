@@ -16,15 +16,17 @@ skills/
 ├── linguistic-annotator/
 │   └── SKILL.md                   # Translation guidance
 ├── translator/
-│   └── SKILL.md                   # Translation role (future)
+│   └── SKILL.md                   # Translation role
 ├── editor/
-│   └── SKILL.md                   # Quality review role (future)
+│   └── SKILL.md                   # Quality review role
 ├── conductor/
-│   └── SKILL.md                   # Final approval role (future)
+│   └── SKILL.md                   # Final approval role
 ├── executive-director/
 │   └── SKILL.md                   # Team lead & orchestration
 ├── glossary/
 │   └── SKILL.md                   # Glossary management
+├── glossary-tagger/
+│   └── SKILL.md                   # Auto-tagging pipeline (alias scan + AI eval)
 ├── entry-restructurer/
 │   └── SKILL.md                   # Entry format standardization
 ├── project-status/
@@ -81,6 +83,7 @@ Get every original French entry properly researched, annotated, and footnoted be
 |------|---------|
 | Executive Director | Team lead, orchestration, quality evaluation |
 | Glossary | Create and maintain glossary entries |
+| Glossary Tagger | Auto-tag entries with glossary references |
 | Entry Restructurer | Standardize entry format |
 | Project Status | Track progress, generate reports |
 | Workflow Architect | Maintain the agent system itself |

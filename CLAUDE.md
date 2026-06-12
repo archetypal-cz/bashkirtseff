@@ -143,7 +143,7 @@ All roles use timestamped comments:
 %% YYYY-MM-DDThh:mm:ss ROLE: Comment text %%
 ```
 
-Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), GEM (Gemini), RED (Editor), CON (Conductor), PPX (Perplexity)
+Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), GEM (Gemini), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), PPX (Perplexity)
 
 ### Paragraph IDs
 
@@ -157,7 +157,7 @@ Format: `%% XXX.YYYY %%` (carnet.paragraph)
 Format: `[#Entity_Name](../_glossary/category/ENTITY_NAME.md)`
 
 - Filenames use CAPITAL_ASCII: uppercase, underscores only
-- Categories: people/, places/, culture/, society/, languages/
+- Categories: people/, places/, culture/ (each with subcategories; languages live under culture/languages/ — see content/_original/_glossary/_categories.yaml)
 
 ## Tooling Conventions
 
