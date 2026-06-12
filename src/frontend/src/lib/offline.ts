@@ -52,6 +52,18 @@ function langPrefix(language: string): string {
   return language === '_original' ? 'original' : language;
 }
 
+/**
+ * Carnet 000 special-casing: its "entries" are preface SECTIONS (ids like
+ * "000-01") that are NOT rendered as individual pages — [entry].astro skips
+ * carnet 000 entirely and the whole preface is rendered merged on one page at
+ * /{lang}/000/. So a section id has no cacheable entry URL; including it would
+ * queue 404 downloads. We detect section ids and cache only the merged page.
+ */
+const SECTION_ID = /^\d{3}-\d{2}$/;
+function isSectionId(id: string): boolean {
+  return SECTION_ID.test(id);
+}
+
 /** Build list of URLs to cache for a carnet scope */
 export function urlsForCarnet(
   carnetId: string,
@@ -62,10 +74,13 @@ export function urlsForCarnet(
   const carnetEntries = entries.filter(e => e.c === carnetId);
 
   const urls = [
-    `/${prefix}/${carnetId}/`, // Carnet index page
+    `/${prefix}/${carnetId}/`, // Carnet index (or, for 000, the merged preface page)
   ];
 
   for (const entry of carnetEntries) {
+    // Section ids (carnet 000) have no standalone page — skip; the merged
+    // /{prefix}/000/ page above already covers them.
+    if (isSectionId(entry.id)) continue;
     // entry.id format: "1873-04-15" → full date
     urls.push(`/${prefix}/${carnetId}/${entry.id}/`);
   }
@@ -91,6 +106,8 @@ export function urlsForYear(
   for (const carnetId of carnetIds) {
     urls.push(`/${prefix}/${carnetId}/`); // Carnet index pages
     for (const entry of yearEntries.filter(e => e.c === carnetId)) {
+      // Skip carnet-000 section ids (no standalone page; see isSectionId).
+      if (isSectionId(entry.id)) continue;
       urls.push(`/${prefix}/${carnetId}/${entry.id}/`);
     }
   }

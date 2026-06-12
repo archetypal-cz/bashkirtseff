@@ -112,4 +112,15 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') dismiss();
   });
+
+  // The popover is position:fixed and does not follow the page as it scrolls,
+  // so it would otherwise float detached from its reference. Dismiss it on any
+  // scroll (passive listener; capture so nested scroll containers count too).
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (activePopover) dismiss();
+    },
+    { passive: true, capture: true },
+  );
 });

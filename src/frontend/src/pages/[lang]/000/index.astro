@@ -214,7 +214,10 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   document.addEventListener('DOMContentLoaded', () => {
     const hash = window.location.hash;
     if (hash) {
-      const element = document.querySelector(hash);
+      // getElementById avoids querySelector throwing on dotted paragraph
+      // anchors (e.g. "#p-001.0001"); harmless and consistent for 000's
+      // dash-form section anchors too.
+      const element = document.getElementById(hash.slice(1));
       if (element) {
         element.classList.add('paragraph-highlight');
         setTimeout(() => {

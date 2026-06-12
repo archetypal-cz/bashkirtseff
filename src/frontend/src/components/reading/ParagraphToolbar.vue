@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, nextTick, watch } from 'vue';
 import { useI18n } from '../../i18n';
 import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
@@ -84,6 +84,42 @@ const mounted = ref(false);
 const copied = ref(false);
 const canShare = ref(false);
 
+// ─── Focus management for the bottom-sheet dialog ─────────────────────
+const sheetEl = ref<HTMLElement | null>(null);
+// Element that had focus before the sheet opened, so we can restore it.
+let lastFocused: HTMLElement | null = null;
+
+function getFocusable(): HTMLElement[] {
+  if (!sheetEl.value) return [];
+  return Array.from(
+    sheetEl.value.querySelectorAll<HTMLElement>(
+      'button, a[href], [tabindex]:not([tabindex="-1"])'
+    )
+  ).filter(el => !el.hasAttribute('disabled'));
+}
+
+// Simple Tab trap: keep focus cycling within the sheet.
+function onSheetKeydown(e: KeyboardEvent) {
+  if (e.key === 'Escape') {
+    e.preventDefault();
+    closeMenu();
+    return;
+  }
+  if (e.key !== 'Tab') return;
+  const focusable = getFocusable();
+  if (focusable.length === 0) return;
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+  const active = document.activeElement as HTMLElement | null;
+  if (e.shiftKey && active === first) {
+    e.preventDefault();
+    last.focus();
+  } else if (!e.shiftKey && active === last) {
+    e.preventDefault();
+    first.focus();
+  }
+}
+
 function toggleMenu() {
   isMenuOpen.value = !isMenuOpen.value;
 }
@@ -91,6 +127,20 @@ function toggleMenu() {
 function closeMenu() {
   isMenuOpen.value = false;
 }
+
+// On open: remember the trigger, move focus into the sheet.
+// On close: restore focus to where it was.
+watch(isMenuOpen, async (open) => {
+  if (open) {
+    lastFocused = document.activeElement as HTMLElement | null;
+    await nextTick();
+    // Focus the sheet itself (it is tabindex="-1"); Tab then enters the list.
+    sheetEl.value?.focus();
+  } else if (lastFocused) {
+    lastFocused.focus();
+    lastFocused = null;
+  }
+});
 
 function getUrl() {
   return window.location.origin + window.location.pathname + `#p-${props.paragraphId.replace('.', '-')}`;
@@ -179,6 +229,10 @@ const hasOriginal = computed(() => !!props.originalText);
         @click="flip"
         class="toolbar__btn toolbar__btn--fleur"
         :class="{ 'toolbar__btn--active': isFlipped }"
+        :aria-pressed="isFlipped"
+        :aria-label="isFlipped
+          ? '\u2192 ' + translationLanguage.title
+          : '\u2192 ' + originalLanguages.map(l => l.title).join(', ')"
         :title="isFlipped
           ? '\u2192 ' + translationLanguage.title
           : '\u2192 ' + originalLanguages.map(l => l.title).join(', ')"
@@ -205,7 +259,16 @@ const hasOriginal = computed(() => !!props.originalText);
     <Teleport v-if="mounted" to="body">
       <Transition name="pt-modal">
         <div v-if="isMenuOpen" class="sheet-backdrop" @click="closeMenu">
-          <div class="sheet-content" @click.stop>
+          <div
+            ref="sheetEl"
+            class="sheet-content"
+            role="dialog"
+            aria-modal="true"
+            :aria-label="t('paragraph.options') + ' ' + paragraphId"
+            tabindex="-1"
+            @click.stop
+            @keydown="onSheetKeydown"
+          >
             <!-- Close button -->
             <button @click="closeMenu" class="menu-item close-item">
               <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -316,6 +379,13 @@ const hasOriginal = computed(() => !!props.originalText);
 
 .paragraph-toolbar-container:hover .toolbar {
   opacity: 0.5;
+}
+
+/* Keyboard users: reveal the (otherwise near-invisible) toolbar when any of
+   its controls receives focus, so tabbing through the page never lands on a
+   hidden button. */
+.toolbar:focus-within {
+  opacity: 1;
 }
 
 /* On touch devices, slightly more visible */

@@ -9,14 +9,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const GET: APIRoute = async ({ params }) => {
-  const entry = getGlossaryEntry(params.id!);
-
-  if (!entry) {
-    return new Response(JSON.stringify({ error: 'Not found' }), {
-      status: 404,
-      headers: { 'Content-Type': 'application/json' },
-    });
-  }
+  // getStaticPaths only emits IDs that exist, so in static output the lookup
+  // always succeeds; the previous 404 branch was dead code and was removed.
+  const entry = getGlossaryEntry(params.id!)!;
 
   // Return only what's needed for the tooltip
   const data = {

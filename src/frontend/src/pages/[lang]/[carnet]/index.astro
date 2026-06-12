@@ -54,7 +54,10 @@ if (lang.isTranslation) {
   const langEntries = getCarnetEntries(carnet!, lang.contentPath);
   const originalEntries = getCarnetEntries(carnet!, '_original');
 
-  // Handle naming mismatch (Carnet 000 edge case: section vs date naming)
+  // Handle naming mismatch (section vs date naming). NB: carnet 000 (the only
+  // section-id carnet) is EXCLUDED from this route's getStaticPaths above and
+  // is served by /[lang]/000/index.astro instead, so in practice this branch is
+  // defensive — it would only fire if another section-id carnet were ever added.
   const langUsesSection = langEntries.length > 0 && /^\d{3}-\d{2}$/.test(langEntries[0]);
   const originalUsesSection = originalEntries.length > 0 && /^\d{3}-\d{2}$/.test(originalEntries[0]);
   const namingMismatch = langEntries.length > 0 && originalEntries.length > 0 &&

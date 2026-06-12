@@ -2,22 +2,25 @@
 
 Instructions for Claude Code when working on the Bashkirtseff frontend.
 
+> Docs drift fast here. Before trusting any claim below, verify it against the
+> actual code (grep / open the file). If you find this file is wrong, fix it.
+
 ---
 
 ## Project Context
 
-This is an AstroJS Progressive Web App for reading Marie Bashkirtseff's diary. The content comes from the `../../content/` directory. This frontend focuses on:
+An **Astro 6** Progressive Web App for reading Marie Bashkirtseff's diary. Content
+is loaded at build time from `../../content/` (no CMS, no database for content).
+The frontend focuses on:
 
 1. Excellent reading experience
-2. User engagement (notes, ratings, suggestions)
-3. Community features (collections, insights)
-4. Accessibility and performance
+2. Fast, mostly-static pages (the diary is the star; chrome fades back)
+3. Accessibility and performance
+4. Offline reading via the PWA
 
-**Related Documentation**:
-- [README.md](README.md) — Project overview
-- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — Technical decisions
-- [docs/FEATURES.md](docs/FEATURES.md) — Feature specifications
-- [docs/PHASES.md](docs/PHASES.md) — Implementation roadmap
+The site is a **static build** (`astro build` → `dist/`), served by nginx in a
+container (`Dockerfile` + `nginx.conf`), behind Nginx Proxy Manager on the host.
+Deployment is automatic via GitHub Actions on push to `main`.
 
 ---
 
@@ -25,13 +28,27 @@ This is an AstroJS Progressive Web App for reading Marie Bashkirtseff's diary. T
 
 | Component | Technology |
 |-----------|------------|
-| Framework | AstroJS 4.x |
-| UI Islands | Vue 3 (Composition API) |
-| Styling | Tailwind CSS |
-| Database | Supabase (PostgreSQL + Auth) |
-| Auth | OAuth (Google, Microsoft, Facebook) |
-| PWA | Workbox |
-| Ads | AdSense (pluggable) |
+| Framework | **Astro 6** (static output) |
+| UI Islands | **Vue 3** (Composition API), via `@astrojs/vue` |
+| State | **Pinia** (`src/stores/`) |
+| i18n | `vue-i18n` (islands) + a tiny build-time `t()` for `.astro` (`src/i18n/astro.ts`) |
+| Styling | **Tailwind CSS v4** via `@tailwindcss/vite` (no `tailwind.config.*`) + `src/styles/branding.css` design tokens |
+| PWA | **`@vite-pwa/astro`** (Workbox `generateSW`) |
+| Auth | Custom GoTrue-style client (`src/lib/auth.ts`) against `PUBLIC_AUTH_URL` (default `https://auth.bashkirtseff.org`) — used only for the "report an issue" feature. **No `@supabase/supabase-js` SDK.** |
+
+There is **no Supabase JS client, no AdSense / ad system, and no React** in this
+codebase. (If you think you need one, grep first — you almost certainly don't.)
+
+---
+
+## Design System (branding.css)
+
+`src/styles/branding.css` is the **single source of truth** for colors,
+typography, spacing and theme variables (light / dark / sepia via
+`[data-theme]`). Use its CSS custom properties (e.g. `var(--color-accent)`,
+`var(--text-primary)`, `var(--font-serif)`) instead of hardcoding values.
+Tailwind utility classes map onto these tokens; component-scoped `<style>` blocks
+should reference the variables so theming keeps working.
 
 ---
 
@@ -40,36 +57,31 @@ This is an AstroJS Progressive Web App for reading Marie Bashkirtseff's diary. T
 ```
 frontend/
 ├── CLAUDE.md              # This file
-├── README.md              # Project overview
-├── docs/                  # Documentation
-├── astro.config.mjs
+├── astro.config.mjs       # Integrations: vue, sitemap, @vite-pwa/astro
+├── nginx.conf             # Container server config (try_files =404, 404.html, glossary 301)
+├── Dockerfile
 ├── package.json
-├── tailwind.config.mjs
-├── tsconfig.json
 ├── src/
-│   ├── components/        # UI components (.astro and .vue)
-│   ├── layouts/           # Page layouts
-│   ├── pages/             # Route pages
-│   │   ├── [lang]/         # Unified diary routes (cz, original, en, uk, fr)
-│   │   │   ├── index.astro          # Year overview (1873-1884)
-│   │   │   ├── [year]/index.astro   # Carnets in a year
-│   │   │   ├── [carnet]/index.astro # Entries in a carnet
-│   │   │   ├── [carnet]/[entry].astro # Individual entry
-│   │   │   ├── carnets.astro        # Flat carnet list (translations only)
-│   │   │   ├── 000/index.astro      # Preface (special)
-│   │   │   └── glossary/            # Glossary (with content fallback)
-│   ├── content/           # Content collection config
-│   ├── lib/               # Utilities, content loading
-│   │   └── content.ts     # getYears(), getCarnets(), etc.
-│   └── styles/            # Global styles
+│   ├── components/        # UI components (.astro static + .vue islands)
+│   ├── layouts/           # BaseLayout.astro, ReadingLayout.astro
+│   ├── pages/             # Routes (see URL Structure)
+│   │   └── data/          # JSON data endpoints (see below)
+│   ├── lib/               # content.ts (build-time loader), auth.ts, offline.ts, ...
+│   ├── stores/            # Pinia stores (auth, filter, offline)
+│   ├── i18n/              # Locale dicts + helpers (astro.ts build-time t(), index.ts)
+│   ├── scripts/           # Per-page client scripts (e.g. footnote-popover.ts)
+│   └── styles/            # branding.css + globals
 └── public/
-    ├── manifest.json
-    └── sw.js
+    └── data/              # Prebuilt JSON (filter-index.json, etc.) — generated, do not hand-edit
 ```
+
+---
 
 ## URL Structure
 
-All diary pages use unified `[lang]` routes from `src/lib/diary-lang-config.ts`:
+All diary pages use unified `[lang]` routes driven by `src/lib/diary-lang-config.ts`
+(the single source of truth for multi-language routing — path↔content mapping,
+locales, feature flags). `DIARY_LANGUAGES` drives `getStaticPaths`.
 
 | Route | Description |
 |-------|-------------|
@@ -77,544 +89,144 @@ All diary pages use unified `[lang]` routes from `src/lib/diary-lang-config.ts`:
 | `/{lang}/1873/` | Carnets from 1873 |
 | `/{lang}/001/` | Entries in Carnet 001 |
 | `/{lang}/001/1873-01-11` | Individual diary entry |
-| `/{lang}/000` | Preface (special carnet) |
+| `/{lang}/000` | **Preface (special carnet — see below)** |
 | `/{lang}/carnets` | Flat list of all carnets (translations only) |
 | `/{lang}/glossary/` | Glossary index |
 | `/{lang}/glossary/NICE` | Glossary entry |
 
-Where `{lang}` is `cz`, `original`, `en`, `uk`, or `fr`.
+`{lang}` is `cz`, `original`, `en`, `uk`, or `fr`.
 
-Cross-year carnets appear in both years with visual indicators.
+### Carnet 000 special-casing
 
-### Language Config
+Carnet 000 is the editorial **preface**. Its files are *sections* (`000-01.md`,
+`000-02.md`, …), not dated entries. It is rendered as **one merged page** at
+`/[lang]/000/index.astro` (all sections inline with `#p-…` anchors). Consequently:
 
-`diary-lang-config.ts` is the single source of truth for multi-language routing. It maps URL paths to content paths, locales, and feature flags. Translation languages show FlipParagraph, progress bars, FR badges; original shows plain text.
+- `[lang]/[carnet]/[entry].astro` and `[lang]/[carnet]/index.astro` **both skip
+  carnet 000** in `getStaticPaths` — there are **no `/{lang}/000/000-01/` pages**.
+- `lib/offline.ts` filters out section ids (`/^\d{3}-\d{2}$/`) when building cache
+  URL lists, so "download for offline" never queues nonexistent section pages.
+- The section-vs-date mismatch branch in `[carnet]/index.astro` is defensive only
+  (000 never reaches that route).
 
-### Glossary Link Paths
+### Glossary link paths
 
-Each language has its own glossary at `/{lang}/glossary/`. Bare `/glossary/[id]` URLs redirect to `/original/glossary/[id]`.
-
-**Rule:** Use `glossaryUrl(lang, id)` from `diary-lang-config.ts` to generate glossary links. This ensures the link always matches the current language context.
-
----
-
-## Coding Standards
-
-### Astro Components (.astro)
-
-Use for:
-- Static content
-- Layouts
-- Components that don't need client-side JS
-
-```astro
----
-// Component script (runs at build time)
-import { getEntry } from 'astro:content';
-
-const { entryId } = Astro.props;
-const entry = await getEntry('entries', entryId);
----
-
-<article class="entry">
-  <h1>{entry.data.title}</h1>
-  <div set:html={entry.body} />
-</article>
-
-<style>
-  /* Scoped styles */
-  .entry { max-width: 700px; }
-</style>
-```
-
-### Vue Islands (.vue)
-
-Use for:
-- Interactive components (ratings, notes, login)
-- Components that need client-side state
-- Real-time features
-
-```vue
-<!-- src/components/user/RatingPanel.vue -->
-<script setup lang="ts">
-import { ref, onMounted } from 'vue';
-import { supabase } from '../../lib/supabase';
-
-const props = defineProps<{
-  paragraphId: string;
-  language: string;
-}>();
-
-const rating = ref<number | null>(null);
-
-onMounted(async () => {
-  // Load existing rating...
-});
-
-const setRating = async (value: number) => {
-  rating.value = value;
-  // Save to Supabase...
-};
-</script>
-
-<template>
-  <div class="rating-panel">
-    <button
-      v-for="star in 5"
-      :key="star"
-      @click="setRating(star)"
-      :class="{ active: rating && star <= rating }"
-    >
-      ★
-    </button>
-  </div>
-</template>
-```
-
-### Hydration Directives
-
-Choose appropriate hydration:
-
-| Directive | Use When |
-|-----------|----------|
-| `client:load` | Needs to work immediately (login button) |
-| `client:idle` | Can wait until browser is idle (note editor) |
-| `client:visible` | Only when scrolled into view (ratings) |
-| `client:media` | Based on media query (mobile menu) |
-
-```astro
-<!-- Example usage -->
-<LoginButton client:load />
-<RatingPanel client:visible paragraphId={id} />
-<NoteEditor client:idle />
-```
-
-### Tailwind CSS
-
-Follow utility-first approach:
-
-```astro
-<!-- Good -->
-<div class="max-w-2xl mx-auto px-4 py-8 prose prose-lg dark:prose-invert">
-  ...
-</div>
-
-<!-- Avoid -->
-<div class="my-custom-container">
-  ...
-</div>
-```
-
-Use `@apply` sparingly, only for repeated patterns:
-
-```css
-/* src/styles/global.css */
-@layer components {
-  .btn-primary {
-    @apply px-4 py-2 bg-amber-600 text-white rounded hover:bg-amber-700;
-  }
-}
-```
+Each language has its own glossary at `/{lang}/glossary/`. **Rule:** use
+`glossaryUrl(lang, id)` from `diary-lang-config.ts` for glossary links so they
+match the current language context. Bare `/glossary/<id>` URLs are redirected to
+`/original/glossary/<id>` by a **301 in `nginx.conf`** (not by a build-generated
+redirect page). The bare `/glossary` → `/original/glossary` redirect lives in
+`astro.config.mjs` `redirects`.
 
 ---
 
-## Content Integration
+## Content Loading (`src/lib/content.ts`)
 
-### Content Collections
+`content.ts` is the build-time content loader (`getCarnets`, `getCarnetEntries`,
+`getEntry`, `getGlossaryEntry`, `getThisDayEntries`, …). It reads markdown from
+`../../content/` and parses paragraph clusters (`%% XXX.YYYY %%`), glossary tags,
+footnotes and `%%`-comment annotations.
 
-The diary content lives in `../../content/`. Configure collections:
-
-```typescript
-// src/content/config.ts
-import { defineCollection, z } from 'astro:content';
-
-const entries = defineCollection({
-  type: 'content',
-  schema: z.object({
-    date: z.date(),
-    carnet: z.string(),
-    title: z.string().optional(),
-  }),
-});
-
-export const collections = { entries };
-```
-
-### Paragraph ID Handling
-
-Extract and use paragraph IDs for:
-- Anchor links
-- Database references (ratings, notes)
-- Deep linking
-
-```typescript
-// src/lib/content/paragraphs.ts
-export interface Paragraph {
-  id: string;        // "002.0145" (carnet.paragraph)
-  text: string;      // The paragraph content
-  position: number;  // Order in entry
-}
-
-export function extractParagraphs(content: string): Paragraph[] {
-  // Parse %%XXX.YYYY%% patterns (3-digit carnet, 4-digit paragraph)
-  const regex = /%%(\d{3}\.\d{4})%%/g;
-  // ... implementation
-}
-```
-
-### Glossary Links
-
-Handle glossary links in content:
-
-```typescript
-// Pattern: [#Name](../_glossary/Name.md)
-// Transform to: <GlossaryLink term="Name" />
-```
+**Build caching (PROD-gated):** module-level caches (`_carnetsCache`,
+`_entryCache`, glossary file/parse caches, …) make the ~35k-page build tractable.
+Parsed-content caching is gated on `import.meta.env.PROD` (`CACHE_PARSED`) so that
+**`astro dev` stays live when you edit content** — otherwise the dev server would
+serve stale text until restart. Keep that gate in mind if you touch the caches.
 
 ---
 
-## Supabase Integration
+## Data Endpoints (`src/pages/data/`)
 
-### Client Setup
+Static JSON emitted at build time, fetched by islands at runtime (keeps heavy data
+out of inlined island props / per-page HTML):
 
-```typescript
-// src/lib/supabase.ts
-import { createClient } from '@supabase/supabase-js';
+- `/data/i18n/{locale}.json` — locale dictionary, fetched by the i18n patch
+  instead of inlining ~100 KB per page.
+- `/data/this-day/{lang}/{MM-DD}.json` — per-day "this day in Marie's life"
+  previews; `ThisDayEntry.vue` fetches only today's file.
 
-const supabaseUrl = import.meta.env.PUBLIC_SUPABASE_URL;
-const supabaseKey = import.meta.env.PUBLIC_SUPABASE_ANON_KEY;
-
-export const supabase = createClient(supabaseUrl, supabaseKey);
-```
-
-### Environment Variables
-
-```
-# .env (local development)
-PUBLIC_SUPABASE_URL=https://xxx.supabase.co
-PUBLIC_SUPABASE_ANON_KEY=xxx
-```
-
-### Auth Pattern
-
-```typescript
-// Login
-const { error } = await supabase.auth.signInWithOAuth({
-  provider: 'google',
-  options: { redirectTo: window.location.origin }
-});
-
-// Check session
-const { data: { session } } = await supabase.auth.getSession();
-
-// Subscribe to auth changes
-supabase.auth.onAuthStateChange((event, session) => {
-  // Update UI
-});
-```
-
-### Data Operations
-
-```typescript
-// Create note
-const { error } = await supabase
-  .from('notes')
-  .insert({
-    paragraph_id: '02.0145',
-    language: 'cz',
-    content: 'My note...'
-  });
-
-// Get user's rating
-const { data } = await supabase
-  .from('ratings')
-  .select('*')
-  .eq('paragraph_id', '02.0145')
-  .eq('language', 'cz')
-  .single();
-
-// Get aggregate stats
-const { data } = await supabase
-  .from('paragraph_stats')  // View
-  .select('*')
-  .eq('paragraph_id', '02.0145');
-```
+Prebuilt data also lives in `public/data/` (e.g. `filter-index.json`) — generated
+by `src/scripts/build-filter-index.ts`; do not hand-edit.
 
 ---
 
-## PWA Implementation
+## PWA (`@vite-pwa/astro`)
 
-### Manifest
+Configured in `astro.config.mjs` (`AstroPWA({...})`, Workbox `generateSW`).
+Registration happens in **`BaseLayout.astro`** via the virtual module:
 
-```json
-// public/manifest.json
-{
-  "name": "Bashkirtseff Diary",
-  "short_name": "Bashkirtseff",
-  "description": "Read Marie Bashkirtseff's complete diary",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#FFF8F0",
-  "theme_color": "#B45309",
-  "icons": [...]
-}
+```js
+import { registerSW } from 'virtual:pwa-register';
+registerSW({ immediate: true });
 ```
 
-### Service Worker
+The manifest `<link>` is emitted from `pwaInfo` (`virtual:pwa-info`) in
+`BaseLayout.astro` — do **not** hardcode `/manifest.json` (vite-pwa emits
+`/manifest.webmanifest`). There is **no `public/sw.js` and no
+`public/manifest.json`**; both are generated. Re-baking those old static files is
+the exact mistake that produced the dead-PWA bug — don't.
 
-Use Workbox for caching:
+> **⚠️ `navigateFallback`:** keep it `null` (see the comment in `astro.config.mjs`).
+> With Workbox `generateSW`, a `navigateFallback` registers a NavigationRoute
+> *before* the runtime caching routes and serves the fallback for **every**
+> navigation — even online — on this multi-page site. That took the whole site
+> down once. A real offline fallback would need `injectManifest` +
+> `setCatchHandler`.
 
-```javascript
-// public/sw.js
-import { precacheAndRoute } from 'workbox-precaching';
-import { registerRoute } from 'workbox-routing';
-import { StaleWhileRevalidate, CacheFirst } from 'workbox-strategies';
-
-// Precache app shell
-precacheAndRoute(self.__WB_MANIFEST);
-
-// Cache content
-registerRoute(
-  ({ url }) => url.pathname.startsWith('/cz/') || url.pathname.startsWith('/fr/'),
-  new StaleWhileRevalidate({ cacheName: 'content' })
-);
-
-// Cache static assets
-registerRoute(
-  ({ request }) => request.destination === 'style' || request.destination === 'script',
-  new CacheFirst({ cacheName: 'static' })
-);
-```
+Runtime caching routes (diary index/entry/section pages, `/data/*.json`, fonts)
+are in `astro.config.mjs` `workbox.runtimeCaching`. The offline-download feature
+(`stores/offline.ts`, `lib/offline.ts`) writes into the same `diary-entries-cache`
+so the SW serves those pages offline.
 
 ---
 
-## Ad Integration
+## Components: Astro vs Vue
 
-### Pluggable Architecture
+- **`.astro`** for static content, layouts, anything without client-side state.
+- **`.vue`** islands for interactivity (paragraph toolbar, language switcher,
+  filter, offline download, auth/report). Hydrate with the right directive:
+  `client:load` (immediate), `client:idle`, `client:visible`, `client:media`.
 
-```typescript
-// src/lib/ads/types.ts
-export interface AdProvider {
-  name: string;
-  init(): Promise<void>;
-  renderSlot(slotId: string, size: AdSize): void;
-}
-
-// src/lib/ads/adsense.ts
-export class AdSenseProvider implements AdProvider {
-  async init() {
-    // Load AdSense script
-  }
-
-  renderSlot(slotId: string, size: AdSize) {
-    // Render ad unit
-  }
-}
-```
-
-### Ad Placement
-
-```astro
----
-import AdBanner from '../components/ads/AdBanner.astro';
----
-
-<header>
-  <!-- Navigation -->
-</header>
-
-<AdBanner slot="header" size="leaderboard" />
-
-<main>
-  <!-- Content -->
-</main>
-```
-
----
-
-## Testing
-
-### Unit Tests
-
-```typescript
-// src/lib/__tests__/paragraphs.test.ts
-import { extractParagraphs } from '../content/paragraphs';
-
-describe('extractParagraphs', () => {
-  it('extracts paragraph IDs', () => {
-    const content = `Some text
-%%002.0145%%
-More text
-%%002.0146%%`;
-
-    const paragraphs = extractParagraphs(content);
-    expect(paragraphs).toHaveLength(2);
-    expect(paragraphs[0].id).toBe('002.0145');
-  });
-});
-```
-
-### E2E Tests (Playwright)
-
-```typescript
-// tests/reading.spec.ts
-import { test, expect } from '@playwright/test';
-
-test('can navigate to entry', async ({ page }) => {
-  await page.goto('/cz/008/1873-08-11');
-  await expect(page.locator('h1')).toContainText('11 août 1873');
-});
-
-test('can switch language', async ({ page }) => {
-  await page.goto('/cz/008/1873-08-11');
-  await page.click('[data-testid="lang-switch-fr"]');
-  await expect(page).toHaveURL('/fr/008/1873-08-11');
-});
-```
+Vue app entrypoint: `src/vue-app.ts` (registers Pinia, i18n).
 
 ---
 
 ## Performance Guidelines
 
-### Bundle Size
-
-- Keep JS under 100KB total
-- Use dynamic imports for large components
-- Analyze bundle with `npm run analyze`
-
-### Core Web Vitals
-
-Target:
-- LCP < 2.5s
-- FID < 100ms
-- CLS < 0.1
-
-### Image Optimization
-
-Use Astro's Image component:
-
-```astro
----
-import { Image } from 'astro:assets';
-import coverImage from '../assets/book-cover.jpg';
----
-
-<Image src={coverImage} alt="Book cover" width={400} />
-```
-
----
-
-## Deployment
-
-### Docker Build
-
-```bash
-# Build
-docker build -t bashkirtseff-app .
-
-# Run locally
-docker run -p 3000:80 bashkirtseff-app
-```
-
-### Deployment
-
-Deployment is **automatic** via GitHub Actions on push to main branch.
-
-```bash
-# Push to deploy
-git push origin main
-
-# Check deployment status
-# https://github.com/archetypal-cz/bashkirtseff/actions
-```
-
----
-
-## Common Tasks
-
-### Add New Component
-
-1. Create component file in appropriate directory
-2. Import and use in pages/layouts
-3. If interactive, make it a React island with appropriate hydration
-
-### Add New Page
-
-1. Create `.astro` file in `src/pages/`
-2. Use appropriate layout
-3. Add navigation link if needed
-
-### Add Database Table
-
-1. Create migration in Supabase dashboard
-2. Add TypeScript types in `src/lib/types.ts`
-3. Add RLS policies
-4. Update relevant components
-
-### Add OAuth Provider
-
-1. Configure in Supabase Auth settings
-2. Add button to login component
-3. Test complete flow
+- Keep per-page JS small; heavy data goes to `/data/*.json` endpoints, not inline
+  island props or inlined `<script>`.
+- The build is large (~35k pages); rely on the `content.ts` caches and avoid
+  re-walking the content tree per page.
 
 ---
 
 ## Language Code Mapping
 
-**CRITICAL**: The application uses two different language code systems:
+The app uses two language-code systems:
 
-| System | Czech | French | English | Original |
-|--------|-------|--------|---------|----------|
-| UI Locale (ISO 639-1) | `cs` | `fr` | `en` | N/A |
-| Content Path (URLs) | `cz` | `fr` | `en` | `original` |
+| System | Czech | French | English | Ukrainian | Original |
+|--------|-------|--------|---------|-----------|----------|
+| UI Locale (ISO 639-1) | `cs` | `fr` | `en` | `uk` | N/A |
+| Content Path / URL | `cz` | `fr` | `en` | `uk` | `original` |
 
-**Why?** URLs use `/cz/` (not `/cs/`) to avoid breaking existing links. The UI locale system uses ISO standard `cs`.
+URLs use `/cz/` (not `/cs/`) for historical link stability; the UI locale system
+uses ISO `cs`. Helpers in `src/i18n/index.ts`:
 
-**Helper functions** (from `src/i18n/index.ts`):
-```typescript
+```ts
 localeToContentPath('cs')  // → 'cz'
 contentPathToLocale('cz')  // → 'cs'
 ```
 
-**See** [docs/LOCALE_MAPPING.md](docs/LOCALE_MAPPING.md) for complete documentation.
-
-## Troubleshooting
-
-### Content Not Loading
-
-1. Check paths to `../../content/` are correct
-2. Verify content collection config matches file structure
-3. Check for frontmatter issues in source files
-
-### Auth Issues
-
-1. Check Supabase project URL and key
-2. Verify OAuth callback URLs in provider settings
-3. Check browser console for CORS errors
-
-### PWA Not Installing
-
-1. Verify manifest.json is valid
-2. Check service worker registration
-3. Ensure HTTPS (or localhost)
+See [docs/LOCALE_MAPPING.md](docs/LOCALE_MAPPING.md). Note: a
+`src/i18n/__tests__/locale-mapping.test.ts` file exists but **there is no test
+runner installed** (no vitest/jest) — it does not currently run.
 
 ---
 
 ## Design Principles
 
-1. **Reading first**: The diary content is the star. UI fades into background.
-2. **Marie's aesthetic**: Elegant, 19th century inspired, but modern and clean.
-3. **Accessibility**: Works for everyone - screen readers, keyboard, high contrast.
-4. **Performance**: Fast loads, especially on mobile. Optimize for emerging markets.
-5. **Privacy**: Minimal tracking. Ads should be respectful.
-
----
-
-## Questions?
-
-Before starting work, review:
-1. [ARCHITECTURE.md](docs/ARCHITECTURE.md) for technical decisions
-2. [FEATURES.md](docs/FEATURES.md) for detailed specs
-3. [PHASES.md](docs/PHASES.md) for implementation order
-
-When in doubt, prioritize the reading experience over features.
+1. **Reading first** — the diary content is the star; UI fades into the background.
+2. **Marie's aesthetic** — elegant, 19th-century-inspired, but modern and clean.
+3. **Accessibility** — screen readers, keyboard, high contrast, focus management.
+4. **Performance** — fast on mobile especially.
+5. **Privacy** — minimal tracking.

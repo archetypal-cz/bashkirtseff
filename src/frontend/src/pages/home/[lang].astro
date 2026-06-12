@@ -5,7 +5,7 @@ import Footer from '../../components/layout/Footer.astro';
 import ThisDayEntry from '../../components/home/ThisDayEntry.vue';
 import ContinueReadingGlobal from '../../components/reading/ContinueReadingGlobal.vue';
 import { createT, type SupportedLocale } from '../../i18n/astro';
-import { getThisDayEntries } from '../../lib/content';
+import { getThisDayEntries, getCarnets } from '../../lib/content';
 
 export function getStaticPaths() {
   return [
@@ -19,13 +19,25 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 const t = createT(lang as SupportedLocale);
 
-// Carnet data - same for all languages (3-digit IDs)
-const carnets = [
-  { id: '000', years: '1884', entries: 20 },
-  { id: '001', years: '1873', entries: 99 },
-  { id: '002', years: '1873-74', entries: 143 },
-  { id: '015', years: '1882-83', entries: 434 },
-];
+// Featured carnets for the "Diary volumes" teaser grid — same set for all
+// languages (3-digit IDs). Entry counts and year labels are DERIVED from the
+// French source at build time via getCarnets('_original') (cached in content.ts)
+// rather than hardcoded, so they never drift from reality.
+const FEATURED_CARNET_IDS = ['000', '001', '002', '015'];
+const allOriginalCarnets = getCarnets('_original');
+const carnets = FEATURED_CARNET_IDS.map(id => {
+  const info = allOriginalCarnets.find(c => c.id === id);
+  const entries = info?.entries.length ?? 0;
+  // Year label from the carnet's date range; sections (carnet 000) have no
+  // dateRange, so fall back to 1884 (the preface's editorial date).
+  let years = '1884';
+  if (info?.dateRange) {
+    const startYear = info.dateRange.start.getUTCFullYear();
+    const endYear = info.dateRange.end.getUTCFullYear();
+    years = startYear === endYear ? `${startYear}` : `${startYear}-${String(endYear).slice(2)}`;
+  }
+  return { id, years, entries };
+});
 
 // Map UI locale to content path for links
 const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'fr' };

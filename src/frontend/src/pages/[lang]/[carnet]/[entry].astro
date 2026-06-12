@@ -284,7 +284,10 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   document.addEventListener('DOMContentLoaded', () => {
     const hash = window.location.hash;
     if (hash) {
-      const element = document.querySelector(hash);
+      // Use getElementById, not querySelector(hash): paragraph anchors like
+      // "#p-001.0001" contain a dot, which querySelector treats as a class
+      // selector and throws a SyntaxError on the malformed selector.
+      const element = document.getElementById(hash.slice(1));
       if (element) {
         element.classList.add('paragraph-highlight');
         setTimeout(() => {
