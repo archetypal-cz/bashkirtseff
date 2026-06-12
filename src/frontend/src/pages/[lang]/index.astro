@@ -91,7 +91,7 @@ const isCurrentComplete = currentStats?.isComplete ?? false;
     {lang.isTranslation ? (
       <!-- Translation page: intro + language tabs + year grid -->
       <header class="mb-10 summary-card p-6 rounded-lg">
-        <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);" data-t="translation.heading">
+        <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-display);" data-t="translation.heading">
           {t('translation.heading')}
         </h1>
         <p class="text-ink-light mb-6 max-w-2xl" data-t="translation.intro">
@@ -100,7 +100,7 @@ const isCurrentComplete = currentStats?.isComplete ?? false;
 
         <!-- Language tabs -->
         <div class="mb-6">
-          <h2 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="translation.chooseLanguage">
+          <h2 class="lit-label mb-3" data-t="translation.chooseLanguage">
             {t('translation.chooseLanguage')}
           </h2>
           <div class="flex flex-wrap gap-2">
@@ -191,7 +191,7 @@ const isCurrentComplete = currentStats?.isComplete ?? false;
     ) : (
       <!-- Original page: classic header -->
       <header class="mb-12 text-center summary-card p-6 rounded-lg">
-        <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-serif);" data-t="diary.heading">
+        <h1 class="text-3xl font-normal text-ink mb-4" style="font-family: var(--font-display);" data-t="diary.heading">
           {t('diary.heading')}
         </h1>
         <p class="text-ink-light mb-2" data-t="diary.subtitleOriginal">
@@ -256,7 +256,7 @@ const isCurrentComplete = currentStats?.isComplete ?? false;
           }`}
         >
           <div class="flex items-start justify-between mb-3">
-            <span class="text-3xl font-light text-accent">
+            <span class="text-3xl text-accent" style="font-family: var(--font-display); font-weight: 500;">
               {year.year}
             </span>
             {lang.isTranslation && !isCurrentComplete && !year.hasTranslations && (

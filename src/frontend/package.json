@@ -15,6 +15,9 @@
   "dependencies": {
     "@astrojs/vue": "^6.0.1",
     "@bashkirtseff/shared": "*",
+    "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource-variable/literata": "^5.2.8",
+    "@fontsource-variable/playfair-display": "^5.2.8",
     "@tailwindcss/vite": "^4.3.0",
     "@vite-pwa/astro": "^1.2.0",
     "astro": "^6.3.7",

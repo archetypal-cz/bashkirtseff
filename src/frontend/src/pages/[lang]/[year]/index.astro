@@ -133,7 +133,7 @@ function formatDisplayName(id: string): string {
         <!-- Year Header (wider 1st column) -->
         <header class="summary-card p-5 rounded-lg flex flex-col justify-between">
           <div>
-            <h1 class="text-3xl font-normal text-ink mb-3" style="font-family: var(--font-serif); text-shadow: 0 1px 2px rgba(44,24,16,0.08);">
+            <h1 class="text-3xl font-normal text-ink mb-3" style="font-family: var(--font-display); text-shadow: var(--display-text-shadow);">
               {t('diary.year', { year })}
             </h1>
 
@@ -200,7 +200,7 @@ function formatDisplayName(id: string): string {
         {/* Key People */}
         {topPeople.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="diary.keyPeople">
+            <h3 class="lit-label mb-3" data-t="diary.keyPeople">
               {t('diary.keyPeople')}
             </h3>
             <ul class="space-y-2">
@@ -222,7 +222,7 @@ function formatDisplayName(id: string): string {
         {/* Places */}
         {topPlaces.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="diary.places">
+            <h3 class="lit-label mb-3" data-t="diary.places">
               {t('diary.places')}
             </h3>
             <ul class="space-y-2">
@@ -244,7 +244,7 @@ function formatDisplayName(id: string): string {
         {/* Themes (spans full width) */}
         {topThemes.length > 0 && (
           <div class="summary-card p-4 rounded-lg sm:col-span-2 xl:col-span-3">
-            <h3 class="text-sm font-medium text-muted uppercase mb-3" style="letter-spacing: 0.08em;" data-t="diary.themes">
+            <h3 class="lit-label mb-3" data-t="diary.themes">
               {t('diary.themes')}
             </h3>
             <div class="flex flex-wrap gap-2">

@@ -14,14 +14,15 @@ const { locale } = Astro.props;
 const t = locale ? createT(locale) : defaultT;
 ---
 
-<header class="bg-sepia border-b border-ink/10 sticky top-0 z-40">
+<header class="site-header bg-sepia sticky top-0 z-40">
   <div class="max-w-6xl mx-auto px-4">
     <div class="flex items-center justify-between h-14 md:h-16">
       <!-- Logo / Title -->
-      <a href="/" class="flex items-center gap-2 text-ink hover:text-accent transition-colors">
-        <span id="site-title" class="text-lg md:text-xl font-semibold leading-tight" style="font-family: var(--font-serif);">
+      <a href="/" class="flex items-baseline gap-2.5 text-ink hover:text-accent transition-colors">
+        <span id="site-title" class="text-lg md:text-xl font-semibold leading-tight">
           {t('header.siteTitle')}
         </span>
+        <span class="site-title-dates hidden lg:inline text-xs text-muted">1873–1884</span>
       </a>
 
       <!-- Navigation (desktop) — Vue island for reactive locale -->

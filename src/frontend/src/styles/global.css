@@ -1,60 +1,33 @@
 @import "tailwindcss";
 
-/* Custom design tokens for Marie Bashkirtseff aesthetic */
+/* Brand identity = single source of truth. Imported AFTER the tailwindcss
+   import so its :root custom properties are in scope for every var() below,
+   and so the @theme aliases here can forward to its --brand-* / --font-*
+   properties. See branding.css header for the full @theme-interplay rationale. */
+@import "./branding.css";
+
+/* Tailwind v4 utility tokens. These are thin ALIASES that forward to the
+   --brand-* / --font-* properties defined in branding.css. Tailwind reads this
+   block statically to know which utilities exist (bg-sepia, text-ink, …); the
+   emitted utility resolves the var() at runtime against branding.css. Edit
+   colour/font VALUES in branding.css, not here. */
 @theme {
-  /* Warm, 19th century inspired palette */
-  --color-parchment: #FFF8F0;
-  --color-sepia: #F5E6D3;
-  --color-ink: #2C1810;
-  --color-ink-light: #4A3728;
-  --color-accent: #B45309;
-  --color-accent-light: #D97706;
-  --color-muted: #78716C;
+  --color-parchment: var(--brand-parchment);
+  --color-sepia: var(--brand-sepia);
+  --color-ink: var(--brand-ink);
+  --color-ink-light: var(--brand-ink-light);
+  --color-accent: var(--brand-accent);       /* interactive only: links, buttons */
+  --color-accent-light: var(--brand-accent-light);
+  --color-muted: var(--brand-muted);
 
-  /* Typography */
-  --font-serif: 'Crimson Pro', 'Georgia', serif;
-  --font-sans: 'Inter', system-ui, sans-serif;
-}
+  /* Ornament colour (Bordeaux/oxblood). Ornament only — never interactive. */
+  --color-bordeaux: var(--brand-bordeaux);
 
-/* CSS Variables for reading settings */
-:root {
-  --reading-font-scale: 1;
-  /* Base sizes */
-  --base-font-size: 18px;
-  --base-h1-size: 1.5rem;
-  --base-h2-size: 1.25rem;
-  --base-footnote-size: 0.875rem;
-}
-
-/* Theme: Light (default) */
-[data-theme="light"],
-:root {
-  --bg-primary: #FFF8F0;
-  --bg-secondary: #F5E6D3;
-  --text-primary: #2C1810;
-  --text-secondary: #4A3728;
-  --text-muted: #78716C;
-  --border-color: rgba(44, 24, 16, 0.1);
-}
-
-/* Theme: Sepia */
-[data-theme="sepia"] {
-  --bg-primary: #F5E6D3;
-  --bg-secondary: #EBD9C4;
-  --text-primary: #2C1810;
-  --text-secondary: #4A3728;
-  --text-muted: #6B5D52;
-  --border-color: rgba(44, 24, 16, 0.15);
-}
-
-/* Theme: Dark */
-[data-theme="dark"] {
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #252525;
-  --text-primary: #e5e5e5;
-  --text-secondary: #a3a3a3;
-  --text-muted: #a8a8a8;  /* Improved contrast: ~9:1 for readable section headers */
-  --border-color: rgba(255, 255, 255, 0.1);
+  /* Typography — stacks defined in branding.css (forward to --brand-font-* to
+     avoid the @theme/:root self-reference that --font-serif would create). */
+  --font-serif: var(--brand-font-serif);
+  --font-display: var(--brand-font-display);
+  --font-sans: var(--brand-font-sans);
 }
 
 /* Base styles */
@@ -69,7 +42,15 @@
     font-family: var(--font-serif);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
     transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Themed text selection (was browser default) */
+  ::selection {
+    background: var(--selection-bg);
   }
 
   /* Filter visibility — hard hide for list pages */
@@ -88,7 +69,7 @@
 
   /* Filter — highlight matching entries */
   .filter-match {
-    border-left: 3px solid var(--color-accent, #B45309) !important;
+    border-left: 3px solid var(--accent) !important;
     transition: border-color 0.3s ease;
   }
 
@@ -96,30 +77,100 @@
     opacity: 0.15;
   }
 
-  /* Decorative horizontal rule */
+  /* Decorative divider — centred fleuron between two hairlines (period print furniture).
+     Used as a <div class="entry-divider"><span class="entry-divider-glyph">❦</span></div>. */
   .entry-divider {
     border: none;
+    height: auto;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    color: var(--ornament);
+  }
+  .entry-divider::before,
+  .entry-divider::after {
+    content: '';
+    flex: 1;
     height: 1px;
-    background: linear-gradient(
-      to right,
-      transparent,
-      var(--color-accent, #B45309) 20%,
-      var(--color-accent, #B45309) 80%,
-      transparent
-    );
+    background: currentColor;
+    opacity: var(--ornament-divider-opacity);
+  }
+  .entry-divider-glyph {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    line-height: 1;
+    opacity: var(--ornament-glyph-opacity);
+  }
+  /* When used as a bare <hr> (legacy) keep a thin centred rule so it never breaks */
+  hr.entry-divider {
+    display: block;
+    height: 1px;
+    background: var(--ornament);
     opacity: 0.3;
-    margin: 0.75rem 0;
+    margin: 1rem auto;
+    max-width: 8rem;
+  }
+  hr.entry-divider::before,
+  hr.entry-divider::after { content: none; }
+
+  /* Entry date as a chapter heading (the first paragraph's "# date" → <h2 class="entry-date-heading">).
+     Display face, centred, with a short rule beneath like a chapter opening.
+     Selector kept specific enough to beat `.prose-diary h2`. */
+  .prose-diary .entry-date-heading,
+  .entry-date-heading {
+    font-family: var(--font-display);
+    font-weight: var(--display-weight);
+    text-align: center;
+    color: var(--text-primary);
+    font-size: calc(var(--entry-date-heading-size) * (1 + (var(--reading-font-scale) - 1) * 0.5));
+    line-height: 1.2;
+    margin: 0.5rem 0 1.75rem;
+  }
+  .entry-date-heading::after {
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 1px;
+    margin: 0.875rem auto 0;
+    background: var(--ornament);
+    opacity: var(--ornament-date-rule-opacity);
+  }
+
+  /* End-of-entry asterism — a quiet "you've finished" mark */
+  .entry-end::after {
+    content: var(--ornament-asterism);
+    display: block;
+    text-align: center;
+    font-family: var(--font-display);
+    color: var(--ornament);
+    opacity: var(--ornament-end-opacity);
+    font-size: 1.15rem;
+    margin: 2.5rem 0 0;
+  }
+
+  /* Serif small-caps section labels for literary list pages (replaces uppercase Inter).
+     Scoped name avoids clashing with the component-scoped .section-label in Vue. */
+  .lit-label {
+    font-family: var(--font-serif);
+    font-variant-caps: all-small-caps;
+    font-variant-numeric: oldstyle-nums;
+    letter-spacing: var(--lit-label-tracking);
+    font-size: 0.95rem;
+    font-weight: var(--lit-label-weight);
+    color: var(--text-muted);
   }
 
   /* Summary cards — subtle gradient border + soft shadow */
   .summary-card {
-    background: var(--bg-primary, #FFF8F0);
+    background: var(--bg-primary);
     border: 1px solid transparent;
     background-clip: padding-box;
     position: relative;
     box-shadow:
-      0 1px 3px rgba(44, 24, 16, 0.04),
-      0 0 0 1px rgba(44, 24, 16, 0.06);
+      0 1px 3px rgba(var(--brand-ink-rgb), 0.04),
+      0 0 0 1px rgba(var(--brand-ink-rgb), 0.06);
   }
 
   .summary-card::before {
@@ -130,8 +181,8 @@
     background: linear-gradient(
       135deg,
       rgba(180, 83, 9, 0.15),
-      rgba(44, 24, 16, 0.06) 40%,
-      rgba(44, 24, 16, 0.06) 60%,
+      rgba(var(--brand-ink-rgb), 0.06) 40%,
+      rgba(var(--brand-ink-rgb), 0.06) 60%,
       rgba(180, 83, 9, 0.1)
     );
     z-index: -1;
@@ -139,7 +190,7 @@
   }
 
   [data-theme="dark"] .summary-card {
-    background: var(--bg-secondary, #252525);
+    background: var(--bg-secondary);
     box-shadow:
       0 1px 3px rgba(0, 0, 0, 0.2),
       0 0 0 1px rgba(255, 255, 255, 0.06);
@@ -172,28 +223,31 @@
 
   /* Prose styling for diary entries */
   .prose-diary {
-    @apply max-w-2xl mx-auto;
+    /* Classic 60–70ch measure; scales with the user's font-size setting.
+       Capped so it never exceeds the old 2xl width on large screens. */
+    max-width: min(var(--measure), 100%);
+    margin-left: auto;
+    margin-right: auto;
     font-family: var(--font-serif);
-    line-height: 1.8;
+    line-height: var(--line-height-body);
+    font-variant-numeric: oldstyle-nums;
+    hyphens: auto;
   }
 
   .prose-diary p,
   .prose-diary > .paragraph-container > div {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
     /* Full scale effect: base * scale */
     font-size: calc(var(--base-font-size) * var(--reading-font-scale));
     color: var(--text-primary);
   }
 
-  /* First paragraph serves as entry header (date line) */
-  .prose-diary > .paragraph-container:first-child > div {
-    font-size: calc(var(--base-font-size) * var(--reading-font-scale) * 1.2);
-    margin-left: -1rem;
-    color: var(--text-primary);
-  }
+  /* (The old first-paragraph "date line" hack is gone — the date now renders as a
+     real .entry-date-heading chapter head; see above.) */
 
   .prose-diary h1 {
     @apply font-normal mb-6;
+    font-family: var(--font-display);
     /* 50% scale effect: base * (1 + (scale - 1) * 0.5) */
     font-size: calc(var(--base-h1-size) * (1 + (var(--reading-font-scale) - 1) * 0.5));
     color: var(--text-primary);
@@ -214,6 +268,34 @@
 [data-theme="dark"] footer {
   background-color: var(--bg-secondary);
   border-color: var(--border-color);
+}
+
+/* P5 — classic 19th-century double rule (thick-thin) under the header.
+   Replaces the plain border-b; theme-aware via --text-primary. */
+header.site-header {
+  border-bottom: none !important;
+  box-shadow:
+    0 1px 0 color-mix(in srgb, var(--text-primary) var(--rule-strong), transparent),
+    0 4px 0 -2px color-mix(in srgb, var(--text-primary) var(--rule-faint), transparent);
+}
+
+/* Mirror a lighter double rule above the footer */
+footer.site-footer {
+  border-top: none !important;
+  box-shadow:
+    0 -1px 0 color-mix(in srgb, var(--text-primary) var(--rule-footer-strong), transparent),
+    0 -4px 0 -2px color-mix(in srgb, var(--text-primary) var(--rule-footer-faint), transparent);
+}
+
+/* Site title in the display face */
+#site-title {
+  font-family: var(--font-display) !important;
+  letter-spacing: 0.01em;
+}
+.site-title-dates {
+  font-family: var(--font-sans);
+  font-variant-numeric: oldstyle-nums;
+  letter-spacing: 0.04em;
 }
 
 [data-theme="dark"] .bg-parchment {
@@ -256,9 +338,9 @@
   background-color: color-mix(in srgb, var(--bg-secondary) 50%, transparent);
 }
 
-/* CTA section: bg-ink needs to stand out from bg-primary in dark mode */
+/* CTA section: bg-ink needs to stand out from bg-primary in dark mode (warm near-black) */
 [data-theme="dark"] .bg-ink {
-  background-color: #0d0d0d;
+  background-color: var(--bg-ink-deep);
 }
 
 /* Text colors used against dark backgrounds (CTA section) */
@@ -316,7 +398,7 @@
     @apply bg-accent text-white hover:bg-accent-light;
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.15),
-      0 1px 2px rgba(44, 24, 16, 0.2);
+      0 1px 2px rgba(var(--brand-ink-rgb), 0.2);
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
   }
 
@@ -329,7 +411,7 @@
     @apply bg-sepia text-ink hover:bg-parchment border border-ink/20;
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.4),
-      0 1px 2px rgba(44, 24, 16, 0.08);
+      0 1px 2px rgba(var(--brand-ink-rgb), 0.08);
   }
 
   .btn-secondary:active {
@@ -340,6 +422,11 @@
   /* Paragraph highlighting for deep links */
   .paragraph-highlight {
     @apply bg-amber-100 -mx-4 px-4 py-2 rounded transition-colors duration-500;
+  }
+
+  /* Dark mode: warm amber wash instead of the bright light-amber flash */
+  [data-theme="dark"] .paragraph-highlight {
+    background-color: rgba(217, 119, 6, 0.15);
   }
 
   /* Foreign text marker (translated foreign language) */

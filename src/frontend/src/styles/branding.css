@@ -1,0 +1,191 @@
+/* ============================================================================
+   branding.css — SINGLE SOURCE OF TRUTH for the Bashkirtseff design identity
+   ============================================================================
+
+   Every brand-level decision lives here as a CSS custom property: palette
+   (light + dark), font stacks, the display/body/UI type registers, the
+   ornament glyphs and their colours, the signature double-rule treatment, and
+   the brand shadows. To re-theme the entire site, edit THIS file only.
+
+   global.css below it contains only *structural / component* CSS and consumes
+   these variables via var(). It does not invent its own colours or fonts.
+
+   ----------------------------------------------------------------------------
+   HOW THE TAILWIND v4 @theme INTERPLAY WORKS
+   ----------------------------------------------------------------------------
+   This project uses Tailwind v4 (CSS-first config, no tailwind.config.mjs).
+   Tailwind utilities such as `bg-sepia`, `text-ink`, `text-accent` are
+   generated from the `@theme { --color-* }` block in global.css.
+
+   Tailwind STATICALLY reads the @theme block to know which utilities exist and
+   what value each emits. It does NOT resolve a `var(--brand-…)` reference at
+   build time — if you wrote `--color-sepia: var(--brand-sepia)` directly in
+   @theme, the generated utility would literally emit `var(--brand-sepia)`,
+   which then resolves at runtime against the property defined here. That works
+   for COLOUR utilities (the browser resolves the var() at paint time) and is
+   exactly the pattern we use: @theme colour tokens are thin aliases that point
+   at the --brand-* properties defined in this file. So the brand value lives
+   here once; the @theme block only declares "this utility exists and forwards
+   to that brand var."
+
+   The --brand-* custom properties are defined on :root here, so they are in
+   scope by the time any utility's var() resolves at runtime. Theme switching
+   (light/sepia/dark) is handled by the [data-theme="…"] blocks further down,
+   which override the *semantic* runtime tokens (--bg-primary, --accent, …);
+   Tailwind utilities that must flip per-theme are remapped in global.css.
+   ============================================================================ */
+
+/* ============================================================================
+   1. BRAND PALETTE — raw colour values (theme-independent source of truth)
+   ============================================================================
+   These are the canonical hex values of the identity. Semantic + per-theme
+   tokens (section 5) reference these so a colour is defined in exactly one
+   place. The @theme aliases in global.css forward to these.                  */
+:root {
+  /* Warm, 19th-century inspired palette (light/default ground) */
+  --brand-parchment: #FFF8F0;   /* page ground */
+  --brand-sepia: #F5E6D3;       /* raised surfaces: header, footer, cards */
+  --brand-ink: #2C1810;         /* primary text */
+  --brand-ink-light: #4A3728;   /* secondary text */
+  --brand-muted: #78716C;       /* muted/meta text */
+
+  /* Amber accent — INTERACTIVE only: links, buttons, progress, hovers */
+  --brand-accent: #B45309;
+  --brand-accent-light: #D97706;
+  --brand-accent-dark: #92400E;
+
+  /* Bordeaux / oxblood — ORNAMENT only: fleurons, asterism, date rule, drop
+     caps, rubrication. Never interactive. The bookbinding-leather colour. */
+  --brand-bordeaux: #722F37;
+
+  /* The "ink" RGB triple, exposed for translucent borders/shadows that want
+     the warm-brown undertone instead of neutral black. */
+  --brand-ink-rgb: 44, 24, 16;
+}
+
+/* ============================================================================
+   2. TYPOGRAPHY — font stacks for the three registers
+   ============================================================================
+   Self-hosted variable faces (fontsource; @font-face internals live in the
+   fontsource packages imported in BaseLayout.astro — intentionally NOT here).
+   Fallbacks keep Cyrillic readable (Georgia covers it) if a face fails. */
+:root {
+  --brand-font-serif: 'Literata Variable', 'Crimson Pro', Georgia, 'Times New Roman', serif;   /* body */
+  --brand-font-display: 'Playfair Display Variable', 'Literata Variable', Georgia, serif;        /* display: title, dates, headings */
+  --brand-font-sans: 'Inter Variable', 'Inter', system-ui, sans-serif;                           /* UI chrome, footnotes */
+
+  /* Convenience aliases consumed directly by components via var(--font-*).
+     (Tailwind's @theme also publishes these names on :root; defining them here
+     keeps non-Tailwind var(--font-serif) usages working identically.) */
+  --font-serif: var(--brand-font-serif);
+  --font-display: var(--brand-font-display);
+  --font-sans: var(--brand-font-sans);
+}
+
+/* ============================================================================
+   3. TYPE SCALE, WEIGHTS & MEASURE
+   ============================================================================
+   Brand-level reading decisions. One-off structural spacing stays inline in
+   components; these are the identity-defining type choices. */
+:root {
+  /* Reading column measure (classic 60–70ch) */
+  --measure: 65ch;
+  --line-height-body: 1.7;
+
+  /* Base sizes (the reading-font-scale multiplier is applied in global.css) */
+  --base-font-size: 18px;
+  --base-h1-size: 1.5rem;
+  --base-h2-size: 1.25rem;
+  --base-footnote-size: 0.875rem;
+
+  /* Display register */
+  --display-weight: 500;
+  --entry-date-heading-size: 1.7rem;   /* the diary's signature chapter head */
+
+  /* UI small-caps section labels */
+  --lit-label-weight: 600;
+  --lit-label-tracking: 0.06em;
+}
+
+/* ============================================================================
+   4. ORNAMENTS & SIGNATURE TREATMENTS
+   ============================================================================
+   Period print-furniture: divider glyph, end-of-entry mark, and the
+   double-rule treatments under the header / above the footer. The ornament
+   colour itself is theme-aware (--ornament, section 5). */
+:root {
+  /* Divider / asterism glyphs */
+  --ornament-fleuron: "\2766";       /* ❦  floral heart — entry divider */
+  --ornament-asterism: "\2042";      /* ⁂  asterism — end-of-entry mark */
+
+  /* Ornament opacities (kept low — these are quiet marks) */
+  --ornament-divider-opacity: 0.4;
+  --ornament-glyph-opacity: 0.75;
+  --ornament-date-rule-opacity: 0.55;
+  --ornament-end-opacity: 0.5;
+
+  /* Double-rule (thick-thin) treatment — classic 19th-c. header furniture.
+     Tinted with the theme text colour at these strengths. */
+  --rule-strong: 28%;   /* header top hairline */
+  --rule-faint: 13%;    /* header lower thin rule */
+  --rule-footer-strong: 20%;
+  --rule-footer-faint: 10%;
+
+  /* Display-face heading text-shadow on card titles (ink-tinted lift) */
+  --display-text-shadow: 0 1px 2px rgba(var(--brand-ink-rgb), 0.08);
+}
+
+/* ============================================================================
+   5. SEMANTIC + PER-THEME TOKENS
+   ============================================================================
+   Runtime tokens the components actually consume (--bg-primary, --accent, …).
+   Each theme block remaps them onto the brand palette of section 1, so the
+   light/sepia/dark identities are all decided here.                          */
+
+/* --- Theme: Light (default) --- */
+[data-theme="light"],
+:root {
+  --bg-primary: var(--brand-parchment);
+  --bg-secondary: var(--brand-sepia);
+  --text-primary: var(--brand-ink);
+  --text-secondary: var(--brand-ink-light);
+  --text-muted: var(--brand-muted);
+  --border-color: rgba(var(--brand-ink-rgb), 0.1);
+
+  --accent: var(--brand-accent);
+  --ornament: var(--brand-bordeaux);
+  --selection-bg: #EFD9B8;
+
+  /* reading-font-scale lives on :root so the pre-paint inline script can set it */
+  --reading-font-scale: 1;
+}
+
+/* --- Theme: Sepia --- */
+[data-theme="sepia"] {
+  --bg-primary: var(--brand-sepia);
+  --bg-secondary: #EBD9C4;
+  --text-primary: var(--brand-ink);
+  --text-secondary: var(--brand-ink-light);
+  --text-muted: #6B5D52;
+  --border-color: rgba(var(--brand-ink-rgb), 0.15);
+
+  --accent: var(--brand-accent);
+  --ornament: var(--brand-bordeaux);
+  --selection-bg: #E3CBA6;
+}
+
+/* --- Theme: Dark — warm "candlelight" near-blacks, brown undertone.
+   Keeps the parchment/ink identity at night instead of going neutral grey. --- */
+[data-theme="dark"] {
+  --bg-primary: #171310;     /* warm near-black */
+  --bg-secondary: #211B16;
+  --bg-ink-deep: #0E0B09;    /* CTA ground, darker than bg-primary */
+  --text-primary: #E8E0D3;   /* warm off-white */
+  --text-secondary: #BFB3A2;
+  --text-muted: #A89B89;     /* ~8:1 on bg-primary */
+  --border-color: rgba(232, 224, 211, 0.10);
+
+  --accent: #E08E2B;         /* brightened amber for contrast on dark grounds */
+  --ornament: #B05A5E;       /* lifted oxblood for dark */
+  --selection-bg: rgba(224, 142, 43, 0.30);
+}

@@ -51,6 +51,22 @@ const processedParagraphs = entry.paragraphs.map(p => ({
   htmlId: `p-${p.id.replace('.', '-')}`,
 }));
 
+// Entry date as a chapter heading.
+// Some entries author the date as a `# date` first paragraph (rendered as
+// <h2 class="entry-date-heading">). For those, we keep the in-content heading.
+// For all other date-based entries (e.g. most uk/en), we render the formatted
+// title as a real heading above the content so every entry opens like a chapter.
+const firstParaIsDateHeading = entry.paragraphs[0]?.html?.includes('entry-date-heading') ?? false;
+// Avoid duplicating the date when the first body paragraph already opens with it
+// (common in uk/en where the date is the first line but lacks the `#` heading marker).
+const firstParaPlain = (entry.paragraphs[0]?.html ?? '').replace(/<[^>]*>/g, '').trim();
+const titlePlain = (entry.title ?? '').trim();
+const firstParaIsDateLine =
+  titlePlain.length > 0 &&
+  (firstParaPlain === titlePlain || firstParaPlain.startsWith(titlePlain));
+const showDateHeading =
+  !!entry.date && !firstParaIsDateHeading && !firstParaIsDateLine && titlePlain.length > 0;
+
 // Generate description from first paragraph (strip HTML and truncate)
 const firstParagraphText = entry.paragraphs[0]?.html
   ?.replace(/<[^>]*>/g, '')
@@ -175,11 +191,18 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         </nav>
       </div>
 
-      <hr class="entry-divider" />
+      <div class="entry-divider" role="presentation">
+        <span class="entry-divider-glyph" aria-hidden="true">&#10086;</span>
+      </div>
     </header>
 
+    {/* Entry date as a chapter heading (for entries that don't author it inline) */}
+    {showDateHeading && (
+      <h1 class="entry-date-heading">{entry.title}</h1>
+    )}
+
     <!-- Entry Content -->
-    <div class="prose-diary space-y-6">
+    <div class="prose-diary entry-end space-y-6">
       <EntryContent
         client:idle
         paragraphs={JSON.stringify(processedParagraphs)}

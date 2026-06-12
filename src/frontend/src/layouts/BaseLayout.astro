@@ -1,4 +1,12 @@
 ---
+// Self-hosted fonts (fontsource) — no runtime Google Fonts request.
+// Literata Variable: body face, ships latin + latin-ext + cyrillic(+ext) subsets,
+//   downloaded on demand per unicode-range (Cyrillic only fetched on /uk/).
+// Playfair Display Variable: Didone display face for site title, dates, headings.
+import '@fontsource-variable/literata/index.css';        // normal, all subsets
+import '@fontsource-variable/literata/wght-italic.css';  // italic (Marie uses it heavily)
+import '@fontsource-variable/playfair-display/index.css'; // display, normal
+import '@fontsource-variable/inter/index.css';            // UI sans (latin/ext + cyrillic)
 import '../styles/global.css';
 import { pwaInfo } from 'virtual:pwa-info';
 
@@ -79,13 +87,8 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).hr
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={fullImageUrl} />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Fonts are self-hosted (fontsource), imported in the layout frontmatter.
+         No third-party font request at runtime. -->
 
     <!-- PWA -->
     {/* vite-pwa emits the manifest link tag (correct href + crossorigin) via pwaInfo */}
