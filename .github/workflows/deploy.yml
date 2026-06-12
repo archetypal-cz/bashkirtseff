@@ -70,6 +70,16 @@ jobs:
           # always lands exactly on origin/main.
           # The PUBLIC_UMAMI_* values expand here (on the runner) into the remote
           # command, where they become build-arg env for `docker compose`.
+          # Free disk before building: every deploy untags the previous image
+          # (leaving ~1GB of dangling layers) and grows the buildkit cache with
+          # a fresh ~1GB dist. Left unpruned this fills the disk and the deploy
+          # dies with "no space left on device" at the compose-metadata write.
+          ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
+            "${DEPLOY_USER}@${DEPLOY_HOST}" \
+            "docker image prune -f && \
+             docker builder prune -f --keep-storage 8GB && \
+             df -h / | tail -1"
+
           ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
             "${DEPLOY_USER}@${DEPLOY_HOST}" \
             "cd ${DEPLOY_PATH} && \
