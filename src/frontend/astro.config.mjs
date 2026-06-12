@@ -61,14 +61,15 @@ export default defineConfig({
       includeAssets: ['favicon.svg'],
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Deník Marie Bashkirtseff',
+        name: 'Marie Bashkirtseff — The Complete Diary',
         short_name: 'Bashkirtseff',
-        description: 'Kompletní, necenzurovaný deník Marie Bashkirtseff',
+        description: 'The complete, unabridged diary of Marie Bashkirtseff',
+        lang: 'en',
         theme_color: '#B45309',
         background_color: '#FFF8F0',
         display: 'standalone',
         orientation: 'portrait-primary',
-        start_url: '/',
+        start_url: '/?source=pwa',
         icons: [
           { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml' },
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
@@ -146,14 +147,31 @@ export default defineConfig({
             }
           },
           {
-            // Cache diary entries for offline reading (also used by offline download feature)
-            urlPattern: /\/(cz|original|en|uk|fr)\/\d+\/\d{4}-\d{2}-\d{2}\/?$/,
+            // Cache diary entries for offline reading (also used by offline download feature).
+            // Allows date-suffixed IDs like 1877-01-07-09 or 1878-10-04-evening.
+            urlPattern: /\/(cz|original|en|uk|fr)\/\d{3}\/\d{4}-\d{2}-\d{2}[^/]*\/?$/,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'diary-entries-cache',
               expiration: {
                 maxEntries: 5000,
                 maxAgeSeconds: 60 * 60 * 24 * 90 // 90 days
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
+            // Cache JSON data files (filter index, offline freshness manifest)
+            // so the filter and offline-status UIs keep working offline.
+            urlPattern: /\/data\/[^/]+\.json$/,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'diary-data-cache',
+              expiration: {
+                maxEntries: 20,
+                maxAgeSeconds: 60 * 60 * 24 * 30
               },
               cacheableResponse: {
                 statuses: [0, 200]
