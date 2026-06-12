@@ -157,6 +157,38 @@ function parseDateFromEntryId(entryId: string): Date {
 }
 
 // ============================================
+// BUILD-TIME CACHES (audit issues H4/H5)
+// ============================================
+//
+// During a static build the content on disk is immutable, so the same
+// directory listings and parsed files are read thousands of times across the
+// ~35k generated pages. These module-level Maps memoize that work, mirroring
+// the existing `_usageCountsCache` pattern below.
+//
+// DEV-MODE STRATEGY:
+//   - Directory-listing caches (getCarnets / getCarnetEntries / glossary file
+//     index) are ALWAYS on. They are cheap to populate and re-walking them
+//     dominated build time; in `astro dev` a restart is only needed to pick up
+//     newly added/removed *files* (rare during a writing session).
+//   - Parsed-content caches (getEntry / getGlossaryEntry* / buildThisDayData)
+//     are gated on `import.meta.env.PROD`. Astro dev does NOT invalidate this
+//     module when a content `.md` file changes (these files are read via `fs`,
+//     not imported through Vite), so caching parsed bodies in dev would serve
+//     stale text until a server restart. Gating on PROD keeps dev edits live
+//     while still giving the production build the full speedup.
+//
+// Mutation note: callers must treat cached return values as read-only. Audited
+// 2026-06-12 — every consumer copies before mutating (`.map`/`.filter`/spread,
+// or builds its own Map), so returning shared references is safe. If you add a
+// caller that sorts/pushes a returned array in place, copy it first.
+const CACHE_PARSED = import.meta.env?.PROD ?? false;
+
+const _carnetsCache = new Map<string, CarnetInfo[]>();
+const _carnetEntriesCache = new Map<string, string[]>();
+const _entryCache = new Map<string, DiaryEntry | null>();
+const _thisDayCache = new Map<string, ThisDayData>();
+
+// ============================================
 // CARNET AND ENTRY FUNCTIONS
 // ============================================
 
@@ -164,6 +196,15 @@ function parseDateFromEntryId(entryId: string): Date {
  * Get all available carnets for a language
  */
 export function getCarnets(language: string = 'original'): CarnetInfo[] {
+  const cacheKey = isOriginalLanguage(language) ? '_original' : language;
+  const cached = _carnetsCache.get(cacheKey);
+  if (cached) return cached;
+  const result = computeCarnets(language);
+  _carnetsCache.set(cacheKey, result);
+  return result;
+}
+
+function computeCarnets(language: string = 'original'): CarnetInfo[] {
   const langPath = isOriginalLanguage(language)
     ? path.join(CONTENT_ROOT, ORIGINAL_DIR)
     : path.join(CONTENT_ROOT, language);
@@ -235,6 +276,16 @@ export function getBooks(language: string = 'original'): CarnetInfo[] {
  * Get all entries for a specific carnet
  */
 export function getCarnetEntries(carnetId: string, language: string = 'original'): string[] {
+  const langKey = isOriginalLanguage(language) ? '_original' : language;
+  const cacheKey = `${langKey}/${carnetId}`;
+  const cached = _carnetEntriesCache.get(cacheKey);
+  if (cached) return cached;
+  const result = computeCarnetEntries(carnetId, language);
+  _carnetEntriesCache.set(cacheKey, result);
+  return result;
+}
+
+function computeCarnetEntries(carnetId: string, language: string = 'original'): string[] {
   const carnetPath = isOriginalLanguage(language)
     ? path.join(CONTENT_ROOT, ORIGINAL_DIR, carnetId)
     : path.join(CONTENT_ROOT, language, carnetId);
@@ -273,6 +324,18 @@ export function getBookEntries(carnetId: string, language: string = 'original'):
  * Load a single diary entry
  */
 export function getEntry(carnetId: string, entryId: string, language: string = 'original'): DiaryEntry | null {
+  if (CACHE_PARSED) {
+    const langKey = isOriginalLanguage(language) ? '_original' : language;
+    const cacheKey = `${langKey}/${carnetId}/${entryId}`;
+    if (_entryCache.has(cacheKey)) return _entryCache.get(cacheKey)!;
+    const result = computeEntry(carnetId, entryId, language);
+    _entryCache.set(cacheKey, result);
+    return result;
+  }
+  return computeEntry(carnetId, entryId, language);
+}
+
+function computeEntry(carnetId: string, entryId: string, language: string = 'original'): DiaryEntry | null {
   const entryPath = isOriginalLanguage(language)
     ? path.join(CONTENT_ROOT, ORIGINAL_DIR, carnetId, `${entryId}.md`)
     : path.join(CONTENT_ROOT, language, carnetId, `${entryId}.md`);
@@ -1455,10 +1518,26 @@ function getGlossaryPath(language: string = 'original'): string {
   return path.join(CONTENT_ROOT, language, '_glossary');
 }
 
+// Glossary caches (audit issue H4).
+// - _glossaryFilesCache: directory-listing cache (always on), keyed by root path.
+// - _glossaryEntryByPathCache: parsed GlossaryEntry per file path (PROD-gated).
+// - _glossaryEntriesCache: full sorted entry list per glossary root (PROD-gated).
+const _glossaryFilesCache = new Map<string, { id: string; path: string; category: string }[]>();
+const _glossaryEntryByPathCache = new Map<string, GlossaryEntry | null>();
+const _glossaryEntriesCache = new Map<string, GlossaryEntry[]>();
+
 /**
- * Recursively find all glossary entry files
+ * Recursively find all glossary entry files (cached per glossary root).
  */
 function findGlossaryFiles(dirPath: string): { id: string; path: string; category: string }[] {
+  const cached = _glossaryFilesCache.get(dirPath);
+  if (cached) return cached;
+  const result = computeGlossaryFiles(dirPath);
+  _glossaryFilesCache.set(dirPath, result);
+  return result;
+}
+
+function computeGlossaryFiles(dirPath: string): { id: string; path: string; category: string }[] {
   const results: { id: string; path: string; category: string }[] = [];
 
   if (!fs.existsSync(dirPath)) {
@@ -1493,6 +1572,18 @@ function findGlossaryFiles(dirPath: string): { id: string; path: string; categor
  * Get all glossary entries (sorted alphabetically)
  */
 export function getGlossaryEntries(language: string = 'original'): GlossaryEntry[] {
+  const cacheKey = isOriginalLanguage(language) ? '_original' : language;
+  if (CACHE_PARSED) {
+    const cached = _glossaryEntriesCache.get(cacheKey);
+    if (cached) return cached;
+    const result = computeGlossaryEntries(language);
+    _glossaryEntriesCache.set(cacheKey, result);
+    return result;
+  }
+  return computeGlossaryEntries(language);
+}
+
+function computeGlossaryEntries(language: string = 'original'): GlossaryEntry[] {
   const glossaryPath = getGlossaryPath(language);
   const files = findGlossaryFiles(glossaryPath);
 
@@ -1557,9 +1648,19 @@ export function getMergedGlossaryEntries(language: string): GlossaryEntry[] {
 }
 
 /**
- * Parse a glossary entry from a file path
+ * Parse a glossary entry from a file path (parsed result cached per path).
  */
 function getGlossaryEntryFromPath(filePath: string, category: string): GlossaryEntry | null {
+  if (CACHE_PARSED) {
+    if (_glossaryEntryByPathCache.has(filePath)) return _glossaryEntryByPathCache.get(filePath)!;
+    const result = parseGlossaryEntryFromPath(filePath, category);
+    _glossaryEntryByPathCache.set(filePath, result);
+    return result;
+  }
+  return parseGlossaryEntryFromPath(filePath, category);
+}
+
+function parseGlossaryEntryFromPath(filePath: string, category: string): GlossaryEntry | null {
   if (!fs.existsSync(filePath)) {
     return null;
   }
@@ -2068,8 +2169,11 @@ export function buildGlossaryUsageCounts(): Record<string, number> {
  * Get a preview excerpt from an entry
  * Returns the first meaningful paragraph text, truncated to maxLength characters
  */
-export function getEntryPreview(carnetId: string, entryId: string, language: string = 'original', maxLength: number = 150): string | null {
-  const entry = getEntry(carnetId, entryId, language);
+export function getEntryPreview(carnetId: string, entryId: string, language: string = 'original', maxLength: number = 150, preloadedEntry?: DiaryEntry | null): string | null {
+  // H5: callers that already hold the parsed entry can pass it in to avoid a
+  // redundant lookup. Otherwise we rely on the getEntry cache (H4/H5), so the
+  // repeated lookup is effectively free during a production build.
+  const entry = preloadedEntry !== undefined ? preloadedEntry : getEntry(carnetId, entryId, language);
   if (!entry || entry.paragraphs.length === 0) {
     return null;
   }
@@ -2170,6 +2274,18 @@ function calculateMarieAge(date: Date): number {
  * @returns Map of "MM-DD" -> array of entries for that day
  */
 export function buildThisDayData(language: string = 'original'): ThisDayData {
+  if (CACHE_PARSED) {
+    const cacheKey = isOriginalLanguage(language) ? '_original' : language;
+    const cached = _thisDayCache.get(cacheKey);
+    if (cached) return cached;
+    const result = computeThisDayData(language);
+    _thisDayCache.set(cacheKey, result);
+    return result;
+  }
+  return computeThisDayData(language);
+}
+
+function computeThisDayData(language: string = 'original'): ThisDayData {
   const data: ThisDayData = {};
   const carnets = getCarnets('original');
 
