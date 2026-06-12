@@ -79,14 +79,14 @@ export default defineConfig({
         ]
       },
       workbox: {
-        // Serve offline fallback page for uncached navigation requests
-        navigateFallback: '/offline/index.html',
-        navigateFallbackDenylist: [/^\/api/],
+        // NO navigateFallback here: with Workbox generateSW it registers a
+        // NavigationRoute BEFORE the runtimeCaching routes, which serves the
+        // fallback for EVERY navigation (even online) on a multi-page site.
+        // This took down the whole site once the SW got registered.
+        // Offline fallback for uncached pages needs injectManifest +
+        // setCatchHandler if we want it back.
+        navigateFallback: null,
         globPatterns: ['**/*.{css,js,svg,png,ico,txt,woff,woff2}'],
-        // Precache the offline fallback page (not covered by globPatterns since html was removed)
-        additionalManifestEntries: [
-          { url: '/offline/index.html', revision: null },
-        ],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
@@ -181,8 +181,7 @@ export default defineConfig({
         ]
       },
       devOptions: {
-        enabled: false,
-        navigateFallbackAllowlist: [/^\//]
+        enabled: false
       },
       experimental: {
         directoryAndTrailingSlashHandler: true
