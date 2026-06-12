@@ -298,7 +298,7 @@ export function getEntry(carnetId: string, entryId: string, language: string = '
   }
 
   // Parse paragraphs and footnotes (using content without frontmatter)
-  const paragraphs = parseParagraphs(content, language);
+  const paragraphs = parseParagraphs(content, language, entryPath);
   const footnotes = extractFootnotes(content);
 
   // Determine if this is a date-based or section-based entry
@@ -478,11 +478,35 @@ function stripCommentMarkers(text: string): string {
 /**
  * Parse paragraphs from entry content
  */
-function parseParagraphs(content: string, language: string): Paragraph[] {
+function parseParagraphs(content: string, language: string, context?: string): Paragraph[] {
   const paragraphs: Paragraph[] = [];
 
   // Split by paragraph ID markers: %%02.01%% or %% 02.01 %% or %%GLO_VISCONTI.0001%%
   const idPattern = /%%\s*((?:\d+|GLO_[A-Z0-9_]+)\.\d+)\s*%%/g;
+
+  // Guard against silent content loss (audit issue C3): the translation parser
+  // below only recognizes a paragraph-ID marker when it is ALONE on its own
+  // line. If a bare `%% NNN.NNNN %%` marker is glued mid-line (together with
+  // text, comments or other markers) every paragraph after it is dropped.
+  // Warn loudly so this class of corruption can never go unnoticed again.
+  // (The 'original' branch splits on the regex over the whole string and is
+  // immune, but we still flag it because the data file is malformed.)
+  if (language !== 'original') {
+    const bareIdAnywhere = /%%\s*(?:\d+|GLO_[A-Z0-9_]+)\.\d+\s*%%/g;
+    const standaloneBareId = /^\s*%%\s*(?:\d+|GLO_[A-Z0-9_]+)\.\d+\s*%%\s*$/;
+    for (const line of content.split('\n')) {
+      bareIdAnywhere.lastIndex = 0;
+      let n = 0;
+      while (bareIdAnywhere.exec(line) !== null) n++;
+      if (n > 1 || (n === 1 && !standaloneBareId.test(line))) {
+        console.warn(
+          `[parseParagraphs] Mid-line paragraph ID detected${context ? ` in ${context}` : ''} — ` +
+          `content after it will be DROPPED. Each "%% NNN.NNNN %%" marker must be alone on its own line. ` +
+          `Offending line: ${line.slice(0, 120)}${line.length > 120 ? '…' : ''}`
+        );
+      }
+    }
+  }
 
   if (language !== 'original') {
     // Translation parsing logic
