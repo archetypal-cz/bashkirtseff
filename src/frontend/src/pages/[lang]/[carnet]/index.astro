@@ -6,7 +6,7 @@ import ContinueReading from '../../../components/reading/ContinueReading.vue';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getCarnets, getCarnetEntries, getEntry, hasTranslation, isCarnetCrossYear, getCarnetSummary, getEntryPreview } from '../../../lib/content';
-import { DIARY_LANGUAGES, glossaryUrl, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { DIARY_LANGUAGES, glossaryUrl, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 
 export function getStaticPaths() {
@@ -64,7 +64,7 @@ if (lang.isTranslation) {
     // Use translated entries as primary (they're translated)
     allEntries = langEntries.map(entryId => {
       const entry = getEntry(carnet!, entryId, lang.contentPath);
-      const preview = getEntryPreview(carnet!, entryId, lang.contentPath);
+      const preview = getEntryPreview(carnet!, entryId, lang.contentPath, 150, entry);
       return { date: entryId, title: entry?.title || entryId, isTranslated: true, preview, wordCount: entry?.wordCount };
     });
   } else {
@@ -73,7 +73,7 @@ if (lang.isTranslation) {
       const isTranslated = langEntries.includes(entryDate);
       const contentLang = isTranslated ? lang.contentPath : '_original';
       const entry = getEntry(carnet!, entryDate, contentLang);
-      const preview = getEntryPreview(carnet!, entryDate, contentLang);
+      const preview = getEntryPreview(carnet!, entryDate, contentLang, 150, entry);
       return { date: entryDate, title: entry?.title || entryDate, isTranslated, preview, wordCount: entry?.wordCount };
     });
   }
@@ -82,7 +82,7 @@ if (lang.isTranslation) {
   const entries = getCarnetEntries(carnet!, lang.contentPath);
   allEntries = entries.map(entryDate => {
     const entry = getEntry(carnet!, entryDate, lang.contentPath);
-    const preview = getEntryPreview(carnet!, entryDate, lang.contentPath);
+    const preview = getEntryPreview(carnet!, entryDate, lang.contentPath, 150, entry);
     return { date: entryDate, title: entry?.title || entryDate, preview, wordCount: entry?.wordCount };
   });
 }
@@ -172,9 +172,14 @@ function entryHref(entry: typeof allEntries[0]): string {
   }
   return `${basePath}/${carnet}/${entry.date}`;
 }
+
+// Carnet index is generated for all five variants (translation pages show
+// untranslated entries too) -> emit alternates for all.
+const carnetAlternates = buildHreflangAlternates(`${carnet}`);
+const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}. Marie Bashkirtseff.`;
 ---
 
-<ReadingLayout title={`${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}`} lang={lang.urlPath}>
+<ReadingLayout title={`${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}`} description={carnetDescription} lang={lang.urlPath} alternates={carnetAlternates}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted">

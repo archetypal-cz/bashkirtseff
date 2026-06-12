@@ -13,6 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
     "@astrojs/vue": "^6.0.1",
     "@bashkirtseff/shared": "*",
     "@fontsource-variable/inter": "^5.2.8",

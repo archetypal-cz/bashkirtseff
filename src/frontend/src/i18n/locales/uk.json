@@ -377,7 +377,8 @@
     "mentions": "{count} згадок",
     "notebooks": "зошитів",
     "crossYearContinues": "Продовжується у {years}",
-    "words": "слів"
+    "words": "слів",
+    "entryDescription": "Запис зі щоденника від {title} (зошит {carnet})."
   },
   "history": {
     "title": "Історія читання",

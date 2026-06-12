@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
 import vue from '@astrojs/vue';
+import sitemap from '@astrojs/sitemap';
 import { execSync } from 'child_process';
 import AstroPWA from '@vite-pwa/astro';
 
@@ -53,6 +54,24 @@ export default defineConfig({
   integrations: [
     vue({
       appEntrypoint: '/src/vue-app'
+    }),
+    // Sitemap. Default output is /sitemap-index.xml + /sitemap-0.xml (sharded
+    // automatically above entryLimit=45000; the ~35k-page site fits in one
+    // chunk for now). robots.txt references /sitemap-index.xml.
+    //
+    // The `filter` drops pages that must not be indexed so they never reach the
+    // sitemap. Pure-redirect routes (Astro.redirect, e.g. bare /glossary/:id)
+    // emit no HTML in a static build and are already absent — but the
+    // language-detection JS stubs (/ , /about, /marie) DO emit noindex HTML, as
+    // do /offline (PWA fallback) and /404 (error page). Exclude them explicitly
+    // so the sitemap only advertises real, indexable content.
+    sitemap({
+      filter: (page) => {
+        // `page` is the absolute URL string, e.g. https://bashkirtseff.org/about/
+        const path = new URL(page).pathname.replace(/\/$/, '');
+        const excluded = ['', '/about', '/marie', '/privacy', '/offline', '/404'];
+        return !excluded.includes(path);
+      },
     }),
     AstroPWA({
       mode: 'production',

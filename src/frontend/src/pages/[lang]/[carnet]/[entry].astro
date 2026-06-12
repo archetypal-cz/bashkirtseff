@@ -3,7 +3,7 @@ import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import EntryContent from '../../../components/reading/EntryContent.vue';
 import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
 import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages } from '../../../lib/content';
-import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { DIARY_LANGUAGES, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 
 export function getStaticPaths() {
@@ -67,12 +67,22 @@ const firstParaIsDateLine =
 const showDateHeading =
   !!entry.date && !firstParaIsDateHeading && !firstParaIsDateLine && titlePlain.length > 0;
 
-// Generate description from first paragraph (strip HTML and truncate)
-const firstParagraphText = entry.paragraphs[0]?.html
-  ?.replace(/<[^>]*>/g, '')
-  ?.slice(0, 160)
-  ?.trim() + '...' || '';
-const pageDescription = `${lang.isTranslation ? '' : 'Original '}Diary entry from ${entry.title} in Carnet ${carnet}. ${firstParagraphText}`;
+// Generate description from first paragraph (strip HTML and truncate).
+// NB: the `+ '...'` must live INSIDE the ternary — `expr + '...' || ''` parses
+// as `(expr + '...') || ''`, so an empty entry produced the literal
+// "undefined..." (truthy). Empty/untranslated entries now get a clean prefix.
+const rawFirst = entry.paragraphs[0]?.html?.replace(/<[^>]*>/g, '').trim();
+const firstParagraphText = rawFirst ? `${rawFirst.slice(0, 160).trim()}…` : '';
+// Localized "Diary entry from {date} in Carnet {carnet}." prefix.
+// The /original/ (French source) uses the French label; translations use t().
+const entryDescPrefix = lang.isTranslation
+  ? t('diary.entryDescription', { title: entry.title ?? '', carnet: carnet! })
+  : `Journal — entrée du ${entry.title} (carnet ${carnet}).`;
+const pageDescription = `${entryDescPrefix} ${firstParagraphText}`.trim();
+
+// hreflang alternates: reuse the availability the entry already computed for the
+// LanguageSwitcher (getAvailableLanguages returns content-path codes incl. '_original').
+const entryAlternates = buildHreflangAlternates(`${carnet}/${entryDate}`, availableLanguages);
 
 // Format date for article metadata
 const articleDate = entry.date ? entry.date.toISOString().split('T')[0] : undefined;
@@ -88,6 +98,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   description={pageDescription}
   lang={lang.urlPath}
   type="article"
+  alternates={entryAlternates}
   article={{
     publishedTime: articleDate,
     author: 'Marie Bashkirtseff',

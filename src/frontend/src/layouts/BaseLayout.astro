@@ -18,6 +18,8 @@ interface Props {
   type?: 'website' | 'article';
   canonicalUrl?: string;
   noindex?: boolean;
+  /** hreflang alternates (href is a site-relative path; made absolute below). */
+  alternates?: { hreflang: string; href: string }[];
   article?: {
     publishedTime?: string;
     modifiedTime?: string;
@@ -33,6 +35,7 @@ const {
   type = 'website',
   canonicalUrl,
   noindex = false,
+  alternates,
   article,
 } = Astro.props;
 
@@ -47,6 +50,12 @@ const siteName = 'Diary of Marie Bashkirtseff';
 // Build full URLs
 const fullImageUrl = image.startsWith('http') ? image : `${siteUrl}${image}`;
 const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
+
+// hreflang alternates: resolve site-relative hrefs to absolute URLs.
+const resolvedAlternates = (alternates ?? []).map(a => ({
+  hreflang: a.hreflang,
+  href: a.href.startsWith('http') ? a.href : new URL(a.href, siteUrl).href,
+}));
 ---
 
 <!DOCTYPE html>
@@ -59,6 +68,11 @@ const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).hr
     <meta name="description" content={description} />
     <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
     <link rel="canonical" href={fullCanonicalUrl} />
+
+    {/* hreflang alternates for multilingual diary routes (H6). */}
+    {resolvedAlternates.map(a => (
+      <link rel="alternate" hreflang={a.hreflang} href={a.href} />
+    ))}
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content={type} />

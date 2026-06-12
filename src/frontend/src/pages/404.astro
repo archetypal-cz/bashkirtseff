@@ -1,0 +1,57 @@
+---
+// 404 page. Astro emits this as dist/404.html, which nginx serves via
+// `error_page 404 /404.html` (see nginx.conf). It is intentionally
+// self-contained and multilingual: a static 404 has no [lang] route param,
+// so we render all five language homes as links and localize the chrome
+// client-side from the stored UI-language preference (same pattern as
+// offline.astro). noindex so search engines don't index the error page.
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="404 — Bashkirtseff" noindex={true}>
+  <main class="flex-grow flex items-center justify-center min-h-[70vh]">
+    <div class="max-w-lg mx-auto px-4 py-12 text-center">
+      <p class="text-accent mb-2" style="font-family: var(--font-display); font-size: 4rem; line-height: 1;">404</p>
+
+      <h1 class="text-2xl text-ink mb-3" style="font-family: var(--font-display);" id="nf-title">
+        Page not found
+      </h1>
+
+      <p class="text-muted mb-8" id="nf-text">
+        This page does not exist, or has moved. Continue reading Marie's diary:
+      </p>
+
+      <!-- Language homes: always valid, generated for all five variants -->
+      <nav class="flex flex-wrap items-center justify-center gap-3" aria-label="Language homes">
+        <a href="/home/cs" class="inline-flex items-center px-4 py-2 bg-sepia text-ink rounded-lg hover:bg-accent hover:text-white transition-colors text-sm">Čeština</a>
+        <a href="/home/en" class="inline-flex items-center px-4 py-2 bg-sepia text-ink rounded-lg hover:bg-accent hover:text-white transition-colors text-sm">English</a>
+        <a href="/home/fr" class="inline-flex items-center px-4 py-2 bg-sepia text-ink rounded-lg hover:bg-accent hover:text-white transition-colors text-sm">Français</a>
+        <a href="/home/uk" class="inline-flex items-center px-4 py-2 bg-sepia text-ink rounded-lg hover:bg-accent hover:text-white transition-colors text-sm">Українська</a>
+        <a href="/original" class="inline-flex items-center px-4 py-2 bg-sepia text-ink rounded-lg hover:bg-accent hover:text-white transition-colors text-sm">Journal (français)</a>
+      </nav>
+    </div>
+  </main>
+
+  <!-- Localize the headings from the stored UI language (no [lang] param here) -->
+  <script is:inline>
+    (function () {
+      var lang = 'en';
+      try {
+        var saved = localStorage.getItem('ui-language');
+        if (saved && ['cs', 'en', 'fr', 'uk'].indexOf(saved) !== -1) lang = saved;
+      } catch (e) {}
+      var strings = {
+        cs: { title: 'Stránka nenalezena', text: 'Tato stránka neexistuje nebo byla přesunuta. Pokračujte ve čtení deníku Marie:' },
+        en: { title: 'Page not found', text: 'This page does not exist, or has moved. Continue reading Marie’s diary:' },
+        fr: { title: 'Page introuvable', text: 'Cette page n’existe pas ou a été déplacée. Poursuivez la lecture du journal de Marie :' },
+        uk: { title: 'Сторінку не знайдено', text: 'Цієї сторінки не існує або її переміщено. Продовжуйте читати щоденник Марії:' }
+      };
+      var s = strings[lang] || strings.en;
+      var t = document.getElementById('nf-title');
+      var x = document.getElementById('nf-text');
+      if (t) t.textContent = s.title;
+      if (x) x.textContent = s.text;
+      try { document.documentElement.setAttribute('lang', lang); } catch (e) {}
+    })();
+  </script>
+</BaseLayout>

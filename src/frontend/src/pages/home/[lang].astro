@@ -43,10 +43,19 @@ const thisDayTranslations = {
   noEntryToday: t('home.noEntryToday'),
   yearsOld: t('home.yearsOld'),
 };
+
+// hreflang alternates for the four landing-page variants (/home/{cs,en,fr,uk}).
+// These use UI-locale codes directly; x-default points at English.
+const homeLocales = ['cs', 'en', 'fr', 'uk'];
+const homeAlternates = [
+  ...homeLocales.map(l => ({ hreflang: l, href: `/home/${l}` })),
+  { hreflang: 'x-default', href: '/home/en' },
+];
 ---
 
 <BaseLayout
   lang={lang}
+  alternates={homeAlternates}
   title={t('home.pageTitle') || 'Marie Bashkirtseff — Complete Unabridged Diary'}
   description={t('home.pageDescription') || 'Read the complete, unabridged diary of Marie Bashkirtseff (1858-1884). A remarkable document of 19th century life, art, and female ambition. Free and accessible in multiple languages.'}
   image="/images/og/og-image-composite.jpg"

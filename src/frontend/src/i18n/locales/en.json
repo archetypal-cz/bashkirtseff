@@ -377,7 +377,8 @@
     "mentions": "{count} mentions",
     "notebooks": "notebooks",
     "crossYearContinues": "Continues to year {years}",
-    "words": "words"
+    "words": "words",
+    "entryDescription": "Diary entry from {title} (Notebook {carnet})."
   },
   "history": {
     "title": "Reading History",

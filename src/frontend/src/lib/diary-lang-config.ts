@@ -75,6 +75,71 @@ export const DIARY_LANGUAGES: DiaryLanguageConfig[] = [
   },
 ];
 
+/**
+ * hreflang value for a diary URL-path segment.
+ *
+ * Scheme (documented choice — H6):
+ *   cz       -> 'cs'     (ISO 639-1; URLs use /cz/ for legacy reasons)
+ *   en       -> 'en'
+ *   uk       -> 'uk'
+ *   original -> 'fr'     (the French source text; the canonical French)
+ *   fr       -> 'fr-FR'  (the modern French *edition*; both /original/ and /fr/
+ *                         are French, so the edition gets a region-qualified
+ *                         tag to disambiguate it from the original. Search
+ *                         engines treat 'fr' and 'fr-FR' as distinct alternates.)
+ */
+const HREFLANG_BY_URLPATH: Record<string, string> = {
+  cz: 'cs',
+  original: 'fr',
+  en: 'en',
+  uk: 'uk',
+  fr: 'fr-FR',
+};
+
+/** Get the hreflang value for a URL-path segment (e.g. 'cz' -> 'cs'). */
+export function hreflangFor(urlPath: string): string {
+  return HREFLANG_BY_URLPATH[urlPath] ?? urlPath;
+}
+
+/**
+ * Build the list of <link rel="alternate" hreflang> entries for a diary route.
+ *
+ * @param pathSuffix  Path after the language segment, e.g. '001/1873-01-11' or '' for a language home.
+ * @param availableUrlPaths  URL-path segments that actually exist for this
+ *   resource. Defaults to all DIARY_LANGUAGES (fine for index pages where every
+ *   variant exists; entry pages should pass real availability). Values are
+ *   *content-path or URL-path* codes — '_original' is normalized to 'original'.
+ * @returns Array of { hreflang, href } plus an x-default pointing at the French original.
+ */
+export function buildHreflangAlternates(
+  pathSuffix: string,
+  availableUrlPaths?: string[],
+): { hreflang: string; href: string }[] {
+  const suffix = pathSuffix ? `/${pathSuffix.replace(/^\/+/, '')}` : '';
+
+  // Normalize availability codes to urlPath segments ('_original' -> 'original').
+  const available = (availableUrlPaths ?? DIARY_LANGUAGES.map(l => l.urlPath)).map(c =>
+    c === '_original' ? 'original' : c,
+  );
+
+  const out: { hreflang: string; href: string }[] = [];
+  for (const cfg of DIARY_LANGUAGES) {
+    if (!available.includes(cfg.urlPath)) continue;
+    out.push({
+      hreflang: hreflangFor(cfg.urlPath),
+      href: `/${cfg.urlPath}${suffix}`,
+    });
+  }
+
+  // x-default -> the French original (the source text, neutral entry point),
+  // but only if it is among the available variants.
+  if (available.includes('original')) {
+    out.push({ hreflang: 'x-default', href: `/original${suffix}` });
+  }
+
+  return out;
+}
+
 /** Get config by URL path segment. Throws if not found. */
 export function getDiaryLang(urlPath: string): DiaryLanguageConfig {
   const config = DIARY_LANGUAGES.find(l => l.urlPath === urlPath);

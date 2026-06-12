@@ -5,7 +5,7 @@ import ContinueReading from '../../../components/reading/ContinueReading.vue';
 import FilterOverlay from '../../../components/filter/FilterOverlay.vue';
 import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getYears, getCarnetsByYear, getYearInfo, getYearSummary, isCarnetCrossYear } from '../../../lib/content';
-import { DIARY_LANGUAGES, glossaryUrl, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { DIARY_LANGUAGES, glossaryUrl, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 
 export function getStaticPaths() {
@@ -110,9 +110,13 @@ const topThemes = Object.entries(summary.themeCounts).sort((a, b) => b[1] - a[1]
 function formatDisplayName(id: string): string {
   return id.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
+
+// Year index is generated for all five variants -> emit alternates for all.
+const yearAlternates = buildHreflangAlternates(`${year}`);
+const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')}. Marie Bashkirtseff.`;
 ---
 
-<ReadingLayout title={`${t('diary.year', { year })} — ${t('diary.pageTitle')}`} lang={lang.urlPath}>
+<ReadingLayout title={`${t('diary.year', { year })} — ${t('diary.pageTitle')}`} description={yearDescription} lang={lang.urlPath} alternates={yearAlternates}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted">

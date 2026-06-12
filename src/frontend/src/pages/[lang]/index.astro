@@ -4,7 +4,7 @@ import ContentLanguageSwitcher from '../../components/reading/ContentLanguageSwi
 import ContinueReadingGlobal from '../../components/reading/ContinueReadingGlobal.vue';
 import FilterOverlay from '../../components/filter/FilterOverlay.vue';
 import { getYears, getCarnets, getCarnetsByYear } from '../../lib/content';
-import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../lib/diary-lang-config';
+import { DIARY_LANGUAGES, buildHreflangAlternates, type DiaryLanguageConfig } from '../../lib/diary-lang-config';
 import { createT } from '../../i18n/astro';
 
 export function getStaticPaths() {
@@ -84,9 +84,12 @@ for (const tr of allTranslations) {
 // Is the CURRENT language's translation complete?
 const currentStats = translationStats.get(lang.urlPath);
 const isCurrentComplete = currentStats?.isComplete ?? false;
+
+// The year-overview index exists for all five variants -> emit alternates for all.
+const indexAlternates = buildHreflangAlternates('');
 ---
 
-<ReadingLayout title={pageTitle} lang={lang.urlPath}>
+<ReadingLayout title={pageTitle} lang={lang.urlPath} alternates={indexAlternates}>
   <div class="max-w-4xl mx-auto">
     {lang.isTranslation ? (
       <!-- Translation page: intro + language tabs + year grid -->
