@@ -269,7 +269,7 @@ The contrast between the Nice and Paris theater scenes shaped Marie's cultural d
 ## Usage Notes
 
 %% GLO_THEATER_THEME.0053 %%
-Tag paragraphs with `[#Theater](../_glossary/culture/themes/THEATER.md)` when Marie:
+Tag paragraphs with `[#Theater](../_glossary/culture/themes/THEATER_THEME.md)` when Marie:
 - Attends or discusses a theatrical performance (play, opera, operetta, ballet, concert)
 - Describes the theater as social venue (boxes, intermissions, being seen)
 - Uses theatrical metaphors for life, performance, or self-awareness

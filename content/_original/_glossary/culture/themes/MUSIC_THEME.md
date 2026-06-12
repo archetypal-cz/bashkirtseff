@@ -193,7 +193,7 @@ Music serves multiple functions in the diary:
 - [#Opera_Paris](../../places/theaters/OPERA_PARIS.md) --- The Paris Opera (Palais Garnier)
 - [#Concert_Pasdeloup](../../places/social/CONCERT_PASDELOUP.md) --- Sunday concerts in Paris
 - [#Italian](../../culture/languages/ITALIAN.md) --- Italian language and opera culture
-- [#Theater](../../culture/themes/THEATER.md) --- Theater thematic tag
+- [#Theater](../../culture/themes/THEATER_THEME.md) --- Theater thematic tag
 - [#Emotions](../../culture/themes/EMOTIONS.md) --- Emotions thematic tag
 - [#Health](../../culture/themes/HEALTH.md) --- Health thematic tag (voice loss)
 

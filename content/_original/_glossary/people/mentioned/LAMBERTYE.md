@@ -218,7 +218,7 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 ### Places and Themes
 - [#Cercle_de_la_Mediterranee](../../places/social/CERCLE_DE_LA_MEDITERRANEE.md) -- Members watch from balcony
 - [#Detroit_des_Mouches](../../places/social/DETROIT_DES_MOUCHES.md) -- Lambertye stationed with Labanoff
-- [#Theater](../../culture/themes/THEATER.md) -- Theater as social observatory
+- [#Theater](../../culture/themes/THEATER_THEME.md) -- Theater as social observatory
 - [#Grande_Bretagne](../../places/hotels/GRANDE_BRETAGNE.md) -- Carnival encounter location
 
 %% GLO_LAMBERTYE.0039 %%
