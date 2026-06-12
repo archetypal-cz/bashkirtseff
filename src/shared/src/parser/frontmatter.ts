@@ -1,5 +1,7 @@
 import YAML from 'yaml';
 
+import { MARIE_BIRTH_DATE } from '../constants/marie.js';
+
 /**
  * Result of parsing frontmatter
  */
@@ -76,9 +78,17 @@ export function createFrontmatter(metadata: Record<string, unknown>): string {
 }
 
 /**
- * Marie's birth date (claimed date: November 24, 1860)
+ * Marie's REAL birth date (1858-11-24 N.S.), used for displayed ages.
+ *
+ * Previously this used the *claimed* date (1860-11-24), which made every
+ * computed age two years too young (audit issue M9). This is a scholarly
+ * edition, so ages reflect her actual age; see MARIE_CLAIMED_BIRTH_DATE in
+ * `../constants/marie.ts` for the date she publicly claimed.
+ *
+ * Parsed at UTC midnight so the arithmetic below matches the UTC-midnight
+ * entry dates (`new Date('YYYY-MM-DD')`) and is timezone-independent.
  */
-const MARIE_BIRTH_DATE = new Date(1860, 10, 24); // Month is 0-indexed
+const MARIE_BIRTH_DATE_OBJ = new Date(`${MARIE_BIRTH_DATE}T00:00:00Z`);
 
 /**
  * Marie's age calculation result
@@ -95,7 +105,7 @@ export interface MarieAge {
 export function calculateMarieAge(dateStr: string): MarieAge {
   try {
     const entryDate = new Date(dateStr);
-    const delta = entryDate.getTime() - MARIE_BIRTH_DATE.getTime();
+    const delta = entryDate.getTime() - MARIE_BIRTH_DATE_OBJ.getTime();
     const totalDays = Math.floor(delta / (1000 * 60 * 60 * 24));
 
     const years = Math.floor(totalDays / 365);

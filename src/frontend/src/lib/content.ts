@@ -24,6 +24,9 @@ import path from 'node:path';
 import {
   type GlossaryTag,
   LANGUAGE_TAGS,
+  MARIE_BIRTH_YEAR,
+  MARIE_BIRTH_MONTH,
+  MARIE_BIRTH_DAY,
   extractLanguagesFromTags,
   parseFrontmatter,
 } from '@bashkirtseff/shared';
@@ -90,9 +93,6 @@ export interface CarnetSummary {
   primaryLocation?: string;  // Most common location
 }
 
-// Legacy alias for backward compatibility during transition
-export type BookInfo = CarnetInfo;
-
 export interface GlossaryEntry {
   id: string;           // filename without .md
   name: string;         // Display name (first H1 or filename)
@@ -132,6 +132,20 @@ const SECTION_PATTERN = /^\d{3}-\d{2}\.md$/; // e.g., 000-01.md (Carnet 000 pref
 // Pattern for carnet directory names (3-digit)
 const CARNET_DIR_PATTERN = /^\d{3}$/;
 
+// Known annotation role codes that appear in %% comments (audit issue L8).
+// The original heuristic treated ANY `[A-Z]{2,3}:` as an annotation, which
+// silently dropped French original lines containing things like "Louis XIV:",
+// "OUT:", "BUT:" etc. Anchor to the real role codes instead. These are the
+// codes used across the project: Researcher, Linguistic, Translator, Editor,
+// Conductor, Project-Assistant, Gemini, Perplexity, Opus-editor, French-editor,
+// Reviewer. An annotation is `%% [TIMESTAMP ]ROLE: …%%`, so we require the role
+// token to sit at the very start of the comment body (optionally after a
+// timestamp), followed by a colon.
+const KNOWN_ROLE_CODES = '(?:RSR|LAN|TR|RED|CON|PA|GEM|PPX|OPS|FRE|REV)';
+// Role at start of comment body: `%% RSR: …` (timestamps are filtered separately
+// by the leading-date check, which also covers `%% 2025-…T… RSR: …`).
+const ROLE_ANNOTATION_PATTERN = new RegExp(`^%%\\s*${KNOWN_ROLE_CODES}:`);
+
 /**
  * Check if language code refers to the original French content
  * Accepts both 'original' and '_original' for compatibility
@@ -146,14 +160,30 @@ function isOriginalLanguage(language: string): boolean {
 const ORIGINAL_DIR = '_original';
 
 /**
- * Parse a date from an entry ID
- * Handles extended formats like "1874-02-14-15" (multi-day entries) or "1878-10-04-evening"
- * by extracting just the YYYY-MM-DD portion
+ * Parse a date from an entry ID.
+ *
+ * Handles extended formats like "1874-02-14-15" (multi-day entries) or
+ * "1878-10-04-evening" by extracting just the YYYY-MM-DD portion.
+ *
+ * Timezone note (audit issue M8): `new Date('YYYY-MM-DD')` parses to UTC
+ * midnight, but downstream callers historically read it back with LOCAL
+ * accessors (`getFullYear()`/`getMonth()`), so on a build machine west of UTC
+ * a `YYYY-01-01` entry was attributed to the previous year. The returned Date
+ * is still UTC-midnight; callers that need the calendar year/month MUST use the
+ * UTC accessors or the string helper `getEntryYear()` below.
  */
 function parseDateFromEntryId(entryId: string): Date {
   // Extract just the first 3 parts (YYYY-MM-DD)
   const datePart = entryId.split('-').slice(0, 3).join('-');
-  return new Date(datePart);
+  return new Date(`${datePart}T00:00:00Z`);
+}
+
+/**
+ * Extract the calendar year from an entry ID by string arithmetic.
+ * Timezone-independent (audit issue M8) — the entry ID already *is* the date.
+ */
+function getEntryYear(entryId: string): number {
+  return parseInt(entryId.slice(0, 4), 10);
 }
 
 // ============================================
@@ -265,14 +295,6 @@ function computeCarnets(language: string = 'original'): CarnetInfo[] {
 }
 
 /**
- * Legacy alias for backward compatibility
- * @deprecated Use getCarnets() instead
- */
-export function getBooks(language: string = 'original'): CarnetInfo[] {
-  return getCarnets(language);
-}
-
-/**
  * Get all entries for a specific carnet
  */
 export function getCarnetEntries(carnetId: string, language: string = 'original'): string[] {
@@ -310,14 +332,6 @@ function computeCarnetEntries(carnetId: string, language: string = 'original'): 
 
   // Return date entries if available, otherwise section entries
   return dateEntries.length > 0 ? dateEntries : sectionEntries;
-}
-
-/**
- * Legacy alias for backward compatibility
- * @deprecated Use getCarnetEntries() instead
- */
-export function getBookEntries(carnetId: string, language: string = 'original'): string[] {
-  return getCarnetEntries(carnetId, language);
 }
 
 /**
@@ -362,7 +376,7 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
 
   // Parse paragraphs and footnotes (using content without frontmatter)
   const paragraphs = parseParagraphs(content, language, entryPath);
-  const footnotes = extractFootnotes(content);
+  const footnotes = extractFootnotes(content, language);
 
   // Determine if this is a date-based or section-based entry
   const isSection = !DATE_PATTERN.test(entryId);
@@ -446,12 +460,26 @@ const TODO_PLACEHOLDER = 'TODO';
 const TODO_DISPLAY = '—'; // em dash shown in UI for untranslated content
 
 /**
+ * Map a content-path language code to the URL prefix used for that language's
+ * routes (e.g. '_original'/'original' → 'original', 'cz' → 'cz'). Glossary
+ * routes live at `/{prefix}/glossary/{id}` (audit issue L4).
+ */
+function langUrlPrefix(language: string): string {
+  return isOriginalLanguage(language) ? 'original' : language;
+}
+
+/**
  * Convert ==highlighted text== to HTML spans for foreign language emphasis
  * Also converts [^id] footnote refs to superscript links
  * Replaces TODO placeholder with em dash for display
+ *
+ * @param lang - content-path language code ('original', 'cz', …). Used to emit
+ *   absolute glossary links `/{lang}/glossary/{id}` that survive trailing-slash
+ *   (directory-format) entry URLs (audit issue L4). Defaults to 'original'.
  */
-function processTextToHtml(text: string): { html: string; footnoteRefs: string[] } {
+function processTextToHtml(text: string, lang: string = 'original'): { html: string; footnoteRefs: string[] } {
   const footnoteRefs: string[] = [];
+  const glossaryPrefix = langUrlPrefix(lang);
 
   // Replace TODO placeholder with em dash for display
   if (text.trim() === TODO_PLACEHOLDER) {
@@ -480,11 +508,10 @@ function processTextToHtml(text: string): { html: string; footnoteRefs: string[]
         // Internal glossary link — extract the glossary ID from the path
         const glossaryId = url.match(/([^/]+)\.md$/)?.[1];
         if (glossaryId) {
-          // Use a relative glossary path; the actual lang prefix is not
-          // available here, so we use a root-relative pattern that the
-          // template's basePath context should resolve.  Since this util
-          // is shared, we just use the ID and let the caller decide.
-          return `<a href="../glossary/${glossaryId}" class="text-accent hover:text-accent-light underline">${linkText}</a>`;
+          // Absolute, lang-prefixed glossary URL (audit issue L4). A relative
+          // `../glossary/{id}` resolves wrong under directory-format entry URLs
+          // like `/cz/001/1873-01-11/` (→ `/cz/001/glossary/{id}`, a 404).
+          return `<a href="/${glossaryPrefix}/glossary/${glossaryId}" class="text-accent hover:text-accent-light underline">${linkText}</a>`;
         }
         return linkText;
       }
@@ -500,20 +527,25 @@ function processTextToHtml(text: string): { html: string; footnoteRefs: string[]
 }
 
 /**
- * Extract footnote definitions from content
+ * Extract footnote definitions from content.
+ *
+ * Footnote bodies are run through `processTextToHtml` (audit issue L5) so that
+ * markdown links `[text](url)` — including internal glossary `.md` links, which
+ * become lang-prefixed `/{lang}/glossary/{id}` URLs (L4) — render as anchors
+ * instead of leaking raw markdown into the page via `set:html`. (Footnote refs
+ * `[^id]` inside a footnote body are not expected and are harmless.)
+ *
+ * @param lang - content-path language code, threaded into glossary link URLs.
  */
-function extractFootnotes(content: string): Footnote[] {
+function extractFootnotes(content: string, lang: string = 'original'): Footnote[] {
   const footnotes: Footnote[] = [];
   const footnotePattern = /^\[\^([^\]]+)\]:\s*(.+)$/gm;
 
   let match;
   while ((match = footnotePattern.exec(content)) !== null) {
     const id = match[1];
-    let text = match[2];
-    // Convert *italic* and _italic_ in footnotes
-    text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
-    text = text.replace(/(?<!\w)_([^_]+)_(?!\w)/g, '<em>$1</em>');
-    footnotes.push({ id, text });
+    const { html } = processTextToHtml(match[2], lang);
+    footnotes.push({ id, text: html });
   }
 
   return footnotes;
@@ -585,9 +617,13 @@ function parseParagraphs(content: string, language: string, context?: string): P
     const isFrenchOriginal = (trimmed: string): boolean => {
       if (!trimmed.startsWith('%%') || !trimmed.endsWith('%%')) return false;
       if (trimmed.match(/^%%\s*(?:\d+|GLO_[A-Z0-9_]+)\.\d+\s*%%$/)) return false;
-      // Filter out annotation roles (2-3 uppercase letters followed by colon, e.g., RSR:, LAN:, GEM:, TR:)
-      if (trimmed.match(/[A-Z]{2,3}:/)) return false;
-      // Filter out glossary tags [#Name] and timestamp patterns (e.g., 2025-12-07T...)
+      // Filter out annotation comments (audit issue L8). Anchored to KNOWN role
+      // codes at the start of the comment body so French text containing
+      // accidental "XX:" runs (e.g. "Louis XIV:", "OUT:") is NOT dropped.
+      if (ROLE_ANNOTATION_PATTERN.test(trimmed)) return false;
+      // Filter out glossary tags [#Name] and timestamped annotation lines
+      // (e.g. `%% 2025-12-07T… RSR: …%%`) — the date prefix catches all
+      // timestamped role notes regardless of role code.
       if (trimmed.includes('[#') || trimmed.match(/^%%\s*\d{4}-\d{2}-\d{2}/)) return false;
       return true;
     };
@@ -609,7 +645,7 @@ function parseParagraphs(content: string, language: string, context?: string): P
       }
 
       if (text) {
-        const { html, footnoteRefs } = processTextToHtml(text);
+        const { html, footnoteRefs } = processTextToHtml(text, language);
         const languages = extractLanguages(glossaryTags);
         paragraphs.push({
           id: currentId,
@@ -699,7 +735,7 @@ function parseParagraphs(content: string, language: string, context?: string): P
       text = stripCommentMarkers(text);
 
       if (text) {
-        const { html, footnoteRefs } = processTextToHtml(text);
+        const { html, footnoteRefs } = processTextToHtml(text, language);
         const languages = extractLanguages(glossaryTags);
         paragraphs.push({
           id: ids[i].id,
@@ -1042,7 +1078,8 @@ function parseSummaryParagraphs(content: string, carnet: string, language: strin
             carnet,
             paraNum++,
             currentHeader,
-            currentSection
+            currentSection,
+            language
           );
           if (para) paragraphs.push(para);
         }
@@ -1060,7 +1097,8 @@ function parseSummaryParagraphs(content: string, carnet: string, language: strin
         carnet,
         paraNum++,
         currentHeader,
-        currentSection
+        currentSection,
+        language
       );
       if (para) paragraphs.push(para);
     }
@@ -1128,7 +1166,7 @@ function parseSingleSummaryParagraph(id: string, content: string, language: stri
   const headerLevel = headerMatch ? headerMatch[1].length : 0;
 
   // Convert to HTML
-  const { html } = processTextToHtml(text);
+  const { html } = processTextToHtml(text, language);
 
   return {
     id,
@@ -1148,7 +1186,8 @@ function createOldFormatSummaryParagraph(
   carnet: string,
   paraNum: number,
   header: string | null,
-  contentLines: string[]
+  contentLines: string[],
+  language: string = 'original'
 ): SummaryParagraph | null {
   const id = `SUM.${carnet}.${String(paraNum).padStart(4, '0')}`;
 
@@ -1176,7 +1215,7 @@ function createOldFormatSummaryParagraph(
 
   if (!text) return null;
 
-  const { html } = processTextToHtml(text);
+  const { html } = processTextToHtml(text, language);
 
   return {
     id,
@@ -1250,14 +1289,6 @@ export function hasCarnet000Content(language: string = 'original'): boolean {
 }
 
 /**
- * Legacy alias for backward compatibility
- * @deprecated Use hasCarnet000Content() instead
- */
-export function hasBook00Content(language: string = 'original'): boolean {
-  return hasCarnet000Content(language);
-}
-
-/**
  * Alias for hasCarnet000Content with clearer naming
  */
 export function hasPrefaceContent(language: string = 'original'): boolean {
@@ -1307,14 +1338,6 @@ export function getCarnet000Merged(language: string = 'original'): DiaryEntry | 
 }
 
 /**
- * Legacy alias for backward compatibility
- * @deprecated Use getCarnet000Merged() instead
- */
-export function getBook00Merged(language: string = 'original'): DiaryEntry | null {
-  return getCarnet000Merged(language);
-}
-
-/**
  * Alias for getCarnet000Merged with clearer naming
  */
 export function getPrefaceMerged(language: string = 'original'): DiaryEntry | null {
@@ -1327,14 +1350,6 @@ export function getPrefaceMerged(language: string = 'original'): DiaryEntry | nu
 export function hasCarnet000Translation(language: string): boolean {
   if (isOriginalLanguage(language)) return true;
   return hasCarnet000Content(language);
-}
-
-/**
- * Legacy alias for backward compatibility
- * @deprecated Use hasCarnet000Translation() instead
- */
-export function hasBook00Translation(language: string): boolean {
-  return hasCarnet000Translation(language);
 }
 
 /**
@@ -1357,13 +1372,16 @@ export interface YearInfo {
 }
 
 /**
- * Calculate Marie's age for a given year
- * Marie was born November 11, 1858 (though she claimed 1859)
+ * Calculate Marie's age range for a given calendar year.
+ *
+ * Uses her REAL birth date (1858-11-24 N.S.) — see MARIE_BIRTH_* in
+ * @bashkirtseff/shared and audit issue M9. Age range spans the year: before her
+ * late-November birthday she is `year - birthYear - 1`, after it `year -
+ * birthYear`.
  */
 function getMarieAge(year: number): string {
-  // Marie was born in 1858, so in 1873 she was 14-15
-  const ageAtStart = year - 1858 - 1; // Age at start of year
-  const ageAtEnd = year - 1858;       // Age by end of year (after Nov 11)
+  const ageAtStart = year - MARIE_BIRTH_YEAR - 1; // Age at start of year (before birthday)
+  const ageAtEnd = year - MARIE_BIRTH_YEAR;       // Age by end of year (after birthday)
   return `${ageAtStart}–${ageAtEnd}`;
 }
 
@@ -1384,7 +1402,7 @@ export function getYears(language: string = 'original'): YearInfo[] {
       if (!DATE_PATTERN.test(entryId)) continue;
 
       const date = parseDateFromEntryId(entryId);
-      const year = date.getFullYear();
+      const year = getEntryYear(entryId);
 
       if (!yearMap.has(year)) {
         yearMap.set(year, {
@@ -1432,7 +1450,7 @@ export function getCarnetsByYear(year: number, language: string = 'original'): C
     const entries = getCarnetEntries(carnet.id, language);
     const yearEntries = entries.filter(e => {
       if (!DATE_PATTERN.test(e)) return false;
-      return parseDateFromEntryId(e).getFullYear() === year;
+      return getEntryYear(e) === year;
     });
 
     if (yearEntries.length > 0) {
@@ -1467,7 +1485,7 @@ export function getEntriesByYear(year: number, language: string = 'original'): A
     for (const entryId of carnetEntries) {
       if (!DATE_PATTERN.test(entryId)) continue;
       const date = parseDateFromEntryId(entryId);
-      if (date.getFullYear() === year) {
+      if (getEntryYear(entryId) === year) {
         entries.push({ carnet: carnet.id, entryId, date });
       }
     }
@@ -1486,7 +1504,7 @@ export function isCarnetCrossYear(carnetId: string, language: string = 'original
 
   for (const entryId of entries) {
     if (DATE_PATTERN.test(entryId)) {
-      years.add(parseDateFromEntryId(entryId).getFullYear());
+      years.add(getEntryYear(entryId));
     }
   }
 
@@ -1565,6 +1583,27 @@ function computeGlossaryFiles(dirPath: string): { id: string; path: string; cate
   };
 
   processDir(dirPath);
+
+  // Build-time uniqueness check (audit issue M5): glossary IDs are derived from
+  // filenames and are ASSUMED unique across the whole tree — getGlossaryEntry()
+  // and the [id] routes key on the bare ID, so two files with the same basename
+  // collide (one becomes unreachable; Astro emits route-conflict warnings).
+  // Surface this loudly at build time so a duplicate can never ship silently.
+  const seen = new Map<string, string>();
+  for (const r of results) {
+    const prev = seen.get(r.id);
+    if (prev) {
+      console.error(
+        `[findGlossaryFiles] DUPLICATE glossary ID "${r.id}" — same ID in two files:\n` +
+        `  - ${prev}\n  - ${r.path}\n` +
+        `Glossary IDs must be unique across the whole tree (the [id] route and ` +
+        `getGlossaryEntry() key on the bare ID). Rename or merge one of them.`
+      );
+    } else {
+      seen.set(r.id, r.path);
+    }
+  }
+
   return results;
 }
 
@@ -1588,15 +1627,21 @@ function computeGlossaryEntries(language: string = 'original'): GlossaryEntry[] 
   const files = findGlossaryFiles(glossaryPath);
 
   return files
-    .map(file => getGlossaryEntryFromPath(file.path, file.category))
+    .map(file => getGlossaryEntryFromPath(file.path, file.category, language))
     .filter((e): e is GlossaryEntry => e !== null)
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 /**
- * Get a single glossary entry by ID (searches recursively)
+ * Get a single glossary entry by ID (searches recursively).
+ *
+ * @param language - which language tree to READ the entry file from.
+ * @param linkLang - which language prefix to emit for in-prose glossary
+ *   cross-reference links (audit issue L4). Defaults to `language`; the
+ *   fallback loader passes the *display* language so an entry whose content
+ *   comes from `_original` still links to `/{displayLang}/glossary/…`.
  */
-export function getGlossaryEntry(id: string, language: string = 'original'): GlossaryEntry | null {
+export function getGlossaryEntry(id: string, language: string = 'original', linkLang: string = language): GlossaryEntry | null {
   const glossaryPath = getGlossaryPath(language);
   const files = findGlossaryFiles(glossaryPath);
 
@@ -1605,7 +1650,7 @@ export function getGlossaryEntry(id: string, language: string = 'original'): Glo
     return null;
   }
 
-  return getGlossaryEntryFromPath(file.path, file.category);
+  return getGlossaryEntryFromPath(file.path, file.category, linkLang);
 }
 
 /**
@@ -1617,7 +1662,10 @@ export function getGlossaryEntryWithFallback(id: string, language: string): Glos
     const translated = getGlossaryEntry(id, language);
     if (translated) return translated;
   }
-  return getGlossaryEntry(id, 'original');
+  // Fall back to the original entry file, but keep `language` as the LINK
+  // prefix so in-prose cross-references stay in the reader's language
+  // (audit issue L4 — e.g. a /cz/glossary page links to /cz/glossary/…).
+  return getGlossaryEntry(id, 'original', language);
 }
 
 /**
@@ -1648,19 +1696,25 @@ export function getMergedGlossaryEntries(language: string): GlossaryEntry[] {
 }
 
 /**
- * Parse a glossary entry from a file path (parsed result cached per path).
+ * Parse a glossary entry from a file path (parsed result cached per path+lang).
+ *
+ * `language` is the content-path code of the page the entry will render on; it
+ * is threaded into in-prose glossary cross-reference links so they point at
+ * `/{lang}/glossary/{id}` (audit issue L4). The cache key includes the language
+ * because the rendered HTML's link prefixes differ per language.
  */
-function getGlossaryEntryFromPath(filePath: string, category: string): GlossaryEntry | null {
+function getGlossaryEntryFromPath(filePath: string, category: string, language: string = 'original'): GlossaryEntry | null {
   if (CACHE_PARSED) {
-    if (_glossaryEntryByPathCache.has(filePath)) return _glossaryEntryByPathCache.get(filePath)!;
-    const result = parseGlossaryEntryFromPath(filePath, category);
-    _glossaryEntryByPathCache.set(filePath, result);
+    const cacheKey = `${langUrlPrefix(language)}::${filePath}`;
+    if (_glossaryEntryByPathCache.has(cacheKey)) return _glossaryEntryByPathCache.get(cacheKey)!;
+    const result = parseGlossaryEntryFromPath(filePath, category, language);
+    _glossaryEntryByPathCache.set(cacheKey, result);
     return result;
   }
-  return parseGlossaryEntryFromPath(filePath, category);
+  return parseGlossaryEntryFromPath(filePath, category, language);
 }
 
-function parseGlossaryEntryFromPath(filePath: string, category: string): GlossaryEntry | null {
+function parseGlossaryEntryFromPath(filePath: string, category: string, language: string = 'original'): GlossaryEntry | null {
   if (!fs.existsSync(filePath)) {
     return null;
   }
@@ -1668,81 +1722,14 @@ function parseGlossaryEntryFromPath(filePath: string, category: string): Glossar
   const content = fs.readFileSync(filePath, 'utf-8');
   const id = path.basename(filePath, '.md');
 
-  // Check for YAML frontmatter (new format)
-  const hasFrontmatter = content.startsWith('---\n');
-  let metadata: Record<string, unknown> = {};
-  let bodyContent = content;
-
-  if (hasFrontmatter) {
-    const endIdx = content.indexOf('\n---\n', 4);
-    if (endIdx !== -1) {
-      try {
-        const yamlStr = content.substring(4, endIdx);
-        // Simple YAML parsing for common fields (handles arrays too)
-        const lines = yamlStr.split('\n');
-        let currentKey: string | null = null;
-        let currentArray: string[] | null = null;
-
-        for (let i = 0; i < lines.length; i++) {
-          const line = lines[i];
-
-          // Check for array item (  - value)
-          const arrayItemMatch = line.match(/^\s+-\s+(.+)$/);
-          if (arrayItemMatch && currentKey && currentArray) {
-            currentArray.push(arrayItemMatch[1].trim());
-            continue;
-          }
-
-          // Save previous array if we're starting a new key
-          if (currentKey && currentArray) {
-            metadata[currentKey] = currentArray;
-            currentKey = null;
-            currentArray = null;
-          }
-
-          // Check for key: value
-          const match = line.match(/^(\w+):\s*(.*)$/);
-          if (match) {
-            const key = match[1];
-            const value = match[2].trim();
-
-            // Check if next line is an array item (to detect array start)
-            const nextLine = lines[i + 1];
-            const isArrayStart = value === '' && nextLine && /^\s+-\s+/.test(nextLine);
-
-            if (isArrayStart) {
-              // Start array mode
-              currentKey = key;
-              currentArray = [];
-            } else if (value !== '') {
-              // Check for inline array syntax: [item1, item2] or []
-              if (value === '[]') {
-                metadata[key] = [];
-              } else {
-                const inlineArrayMatch = value.match(/^\[(.+)\]$/);
-                if (inlineArrayMatch) {
-                  metadata[key] = inlineArrayMatch[1].split(',').map(s => s.trim().replace(/^["']|["']$/g, ''));
-                } else {
-                  // Regular key: value - remove quotes if present
-                  metadata[key] = value.replace(/^["']|["']$/g, '');
-                }
-              }
-            }
-            // If value is empty and not an array start, skip (no value to store)
-          }
-        }
-
-        // Save last array if any
-        if (currentKey && currentArray) {
-          metadata[currentKey] = currentArray;
-        }
-
-        bodyContent = content.substring(endIdx + 5);
-      } catch {
-        // Fall back to old format parsing
-      }
-    }
-  }
+  // Parse YAML frontmatter with the shared, library-backed parser (audit issue
+  // L2). This replaced a hand-rolled line parser that mishandled quoted values
+  // (e.g. it left literal '"..."' wrappers on quoted aliases and coerced
+  // "1881" → 1881). Verified against all 3,258 glossary files: only 6 differ,
+  // and in every case the shared parser is the correct one. parseFrontmatter
+  // returns `{}` + the full content when there is no frontmatter, matching the
+  // previous fallthrough behaviour.
+  const { metadata, content: bodyContent } = parseFrontmatter(content);
 
   // Check for paragraph clusters (GLO_ prefixed IDs)
   const hasParaClusters = /%%\s*GLO_[A-Z0-9_]+\.\d+\s*%%/.test(bodyContent);
@@ -1800,7 +1787,7 @@ function parseGlossaryEntryFromPath(filePath: string, category: string): Glossar
 
   // Parse paragraph clusters if present
   if (hasParaClusters) {
-    entry.paragraphs = parseGlossaryParagraphs(bodyContent);
+    entry.paragraphs = parseGlossaryParagraphs(bodyContent, language);
   }
 
   return entry;
@@ -1814,7 +1801,7 @@ function parseGlossaryEntryFromPath(filePath: string, category: string): Glossar
  * elements instead of being concatenated with the preceding paragraph's
  * body text.
  */
-function parseGlossaryParagraphs(content: string): GlossaryParagraph[] {
+function parseGlossaryParagraphs(content: string, language: string = 'original'): GlossaryParagraph[] {
   const paragraphs: GlossaryParagraph[] = [];
   const idPattern = /%%\s*(GLO_[A-Z0-9_]+\.\d+)\s*%%/g;
 
@@ -1867,7 +1854,7 @@ function parseGlossaryParagraphs(content: string): GlossaryParagraph[] {
 
     if (seg.kind === 'heading') {
       const syntheticId = `${baseId}.H${syntheticCounter++}`;
-      const headerHtml = processTextToHtml(seg.text).html;
+      const headerHtml = processTextToHtml(seg.text, language).html;
 
       paragraphs.push({
         id: syntheticId,
@@ -1884,7 +1871,7 @@ function parseGlossaryParagraphs(content: string): GlossaryParagraph[] {
       const trailingText = content.substring(headingEnd, trailingEnd).trim();
       if (trailingText) {
         const trailingId = `${baseId}.H${syntheticCounter++}`;
-        const { html } = processTextToHtml(trailingText);
+        const { html } = processTextToHtml(trailingText, language);
         paragraphs.push({
           id: trailingId,
           text: trailingText,
@@ -1904,7 +1891,7 @@ function parseGlossaryParagraphs(content: string): GlossaryParagraph[] {
     const end = nextSeg ? nextSeg.index : content.length;
     const paragraphContent = content.substring(seg.index, end);
 
-    const para = parseGlossaryParagraph(seg.id, paragraphContent);
+    const para = parseGlossaryParagraph(seg.id, paragraphContent, language);
     if (para) {
       paragraphs.push(para);
     }
@@ -1916,7 +1903,7 @@ function parseGlossaryParagraphs(content: string): GlossaryParagraph[] {
 /**
  * Parse a single glossary paragraph
  */
-function parseGlossaryParagraph(id: string, content: string): GlossaryParagraph | null {
+function parseGlossaryParagraph(id: string, content: string, language: string = 'original'): GlossaryParagraph | null {
   const lines = content.split('\n');
 
   // Skip the ID line
@@ -1960,7 +1947,7 @@ function parseGlossaryParagraph(id: string, content: string): GlossaryParagraph 
   const headerLevel = headerMatch ? headerMatch[1].length : 0;
 
   // Convert to HTML
-  const { html } = processTextToHtml(text);
+  const { html } = processTextToHtml(text, language);
 
   return {
     id,
@@ -2247,19 +2234,21 @@ export interface ThisDayEntry {
 export type ThisDayData = Record<string, ThisDayEntry[]>;
 
 /**
- * Calculate Marie's age at a given date
- * Marie was born November 11, 1858
+ * Calculate Marie's age at a given date.
+ *
+ * Uses her REAL birth date (see MARIE_BIRTH_* in @bashkirtseff/shared, audit
+ * issue M9). Takes the ISO date STRING (YYYY-MM-DD…) and does integer
+ * arithmetic on the components, so it is fully timezone-independent (audit
+ * issue M8 — the previous version used local `getMonth()/getDate()` on a
+ * UTC-midnight Date, which shifted by a day west of UTC).
  */
-function calculateMarieAge(date: Date): number {
-  const birthYear = 1858;
-  const birthMonth = 10; // November (0-indexed)
-  const birthDay = 11;
+function calculateMarieAge(dateStr: string): number {
+  const [y, m, d] = dateStr.split('-').slice(0, 3).map(n => parseInt(n, 10));
 
-  let age = date.getFullYear() - birthYear;
+  let age = y - MARIE_BIRTH_YEAR;
 
-  // Adjust if birthday hasn't occurred yet in the given year
-  if (date.getMonth() < birthMonth ||
-      (date.getMonth() === birthMonth && date.getDate() < birthDay)) {
+  // Adjust if the birthday hasn't occurred yet in the given year
+  if (m < MARIE_BIRTH_MONTH || (m === MARIE_BIRTH_MONTH && d < MARIE_BIRTH_DAY)) {
     age--;
   }
 
@@ -2302,7 +2291,6 @@ function computeThisDayData(language: string = 'original'): ThisDayData {
       const [year, month, day] = entryId.split('-').slice(0, 3);
       const monthDay = `${month}-${day}`;
       const fullDate = `${year}-${month}-${day}`;
-      const dateObj = new Date(fullDate);
       const yearNum = parseInt(year, 10);
 
       // Get preview in the target language if available, otherwise from original
@@ -2328,7 +2316,7 @@ function computeThisDayData(language: string = 'original'): ThisDayData {
         year: yearNum,
         carnet: carnet.id,
         preview,
-        marieAge: calculateMarieAge(dateObj),
+        marieAge: calculateMarieAge(fullDate),
         hasTranslation: translationExists,
       });
     }

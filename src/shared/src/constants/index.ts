@@ -19,3 +19,13 @@ export {
   getNoteRoleDescription,
 } from './roles.js';
 export type { NoteRole } from './roles.js';
+
+// Marie Bashkirtseff canonical dates (single source of truth — audit issue M9)
+export {
+  MARIE_BIRTH_DATE,
+  MARIE_CLAIMED_BIRTH_DATE,
+  MARIE_BIRTH_YEAR,
+  MARIE_BIRTH_MONTH,
+  MARIE_BIRTH_DAY,
+  MARIE_DEATH_DATE,
+} from './marie.js';
