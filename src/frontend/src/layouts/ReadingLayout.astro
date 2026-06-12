@@ -31,7 +31,7 @@ const diaryLang = lang ? findDiaryLang(lang) : undefined;
 const htmlLang = diaryLang?.contentLangAttr ?? lang;
 ---
 
-<BaseLayout title={title} description={description} lang={htmlLang} image={image} type={type} canonicalUrl={canonicalUrl} alternates={alternates} article={article}>
+<BaseLayout title={title} description={description} lang={htmlLang} lockLang={!!htmlLang} image={image} type={type} canonicalUrl={canonicalUrl} alternates={alternates} article={article}>
   <Header locale={locale} />
 
   <main class="flex-grow">

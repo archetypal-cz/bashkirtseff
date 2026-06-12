@@ -18,6 +18,16 @@ interface Props {
   type?: 'website' | 'article';
   canonicalUrl?: string;
   noindex?: boolean;
+  /**
+   * Lock the document `lang` to the value passed in `lang` (M2).
+   *
+   * When true, the pre-paint inline script will NOT overwrite
+   * `document.documentElement.lang` with the user's UI-language preference.
+   * Set this on pages whose primary content has a fixed language (diary
+   * entries, glossary, about/marie/privacy) so screen readers and crawlers
+   * see the real content language rather than the reader's chrome locale.
+   */
+  lockLang?: boolean;
   /** hreflang alternates (href is a site-relative path; made absolute below). */
   alternates?: { hreflang: string; href: string }[];
   article?: {
@@ -35,6 +45,7 @@ const {
   type = 'website',
   canonicalUrl,
   noindex = false,
+  lockLang = false,
   alternates,
   article,
 } = Astro.props;
@@ -59,7 +70,7 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
 ---
 
 <!DOCTYPE html>
-<html lang={lang}>
+<html lang={lang} data-lock-lang={lockLang ? '' : undefined}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -155,8 +166,14 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
         if (t) document.documentElement.setAttribute('data-theme', t);
         var s = localStorage.getItem('reading-font-scale');
         if (s) document.documentElement.style.setProperty('--reading-font-scale', (parseInt(s,10)/100).toString());
-        var l = localStorage.getItem('ui-language');
-        if (l && ['cs','en','fr','uk'].includes(l)) document.documentElement.setAttribute('lang', l);
+        // M2: only sync document lang to the UI-language preference on pages
+        // that did NOT declare a fixed content language (data-lock-lang). Diary,
+        // glossary and about/marie/privacy pages lock their lang so screen
+        // readers and crawlers see the real content language.
+        if (!document.documentElement.hasAttribute('data-lock-lang')) {
+          var l = localStorage.getItem('ui-language');
+          if (l && ['cs','en','fr','uk'].includes(l)) document.documentElement.setAttribute('lang', l);
+        }
       })();
     </script>
   </head>

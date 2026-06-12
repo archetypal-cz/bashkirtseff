@@ -9,6 +9,13 @@ interface Props {
 const { locale } = Astro.props;
 const t = locale ? createT(locale) : defaultT;
 
+// Localized chrome-page links (M3). about/marie/privacy live at /{uiLocale}/{page}
+// (cs/en/fr/uk). Default to 'cs' when no locale is passed.
+const pageLocale: SupportedLocale = locale ?? 'cs';
+const marieHref = `/${pageLocale}/marie`;
+const aboutHref = `/${pageLocale}/about`;
+const privacyHref = `/${pageLocale}/privacy`;
+
 const currentYear = new Date().getFullYear();
 
 // Version info injected at build time via Vite define
@@ -35,12 +42,12 @@ const gitCommit = typeof __GIT_COMMIT__ !== 'undefined' ? __GIT_COMMIT__ : 'dev'
         <h3 class="font-semibold text-ink mb-3" data-t="footer.links">{t('footer.links')}</h3>
         <ul class="space-y-2 text-sm">
           <li>
-            <a href="/marie" class="text-ink-light hover:text-accent transition-colors" data-t="footer.aboutMarie">
+            <a href={marieHref} class="text-ink-light hover:text-accent transition-colors" data-t="footer.aboutMarie">
               {t('footer.aboutMarie')}
             </a>
           </li>
           <li>
-            <a href="/about" class="text-ink-light hover:text-accent transition-colors" data-t="footer.aboutProject">
+            <a href={aboutHref} class="text-ink-light hover:text-accent transition-colors" data-t="footer.aboutProject">
               {t('footer.aboutProject')}
             </a>
           </li>
@@ -50,7 +57,7 @@ const gitCommit = typeof __GIT_COMMIT__ !== 'undefined' ? __GIT_COMMIT__ : 'dev'
             </a>
           </li>
           <li>
-            <a href="/privacy" class="text-ink-light hover:text-accent transition-colors" data-t="footer.privacy">
+            <a href={privacyHref} class="text-ink-light hover:text-accent transition-colors" data-t="footer.privacy">
               {t('footer.privacy')}
             </a>
           </li>

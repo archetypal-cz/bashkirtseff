@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
-import { useI18n, getTranslationHref, getOriginalHref } from '../../i18n';
+import { useI18n, getTranslationHref, getOriginalHref, glossaryHref, pageHref } from '../../i18n';
 
 const { t, locale } = useI18n();
 const currentPath = ref('');
@@ -11,6 +11,9 @@ onMounted(() => {
 
 const translationHref = computed(() => getTranslationHref(locale.value, currentPath.value || undefined));
 const originalHref = computed(() => getOriginalHref(currentPath.value || undefined));
+const glossaryLink = computed(() => glossaryHref(currentPath.value || undefined));
+const marieHref = computed(() => pageHref('marie', locale.value));
+const aboutHref = computed(() => pageHref('about', locale.value));
 </script>
 
 <template>
@@ -21,13 +24,13 @@ const originalHref = computed(() => getOriginalHref(currentPath.value || undefin
     <a :href="originalHref" class="text-ink-light hover:text-accent transition-colors">
       {{ t('nav.original') }}
     </a>
-    <a href="/glossary" class="text-ink-light hover:text-accent transition-colors">
+    <a :href="glossaryLink" class="text-ink-light hover:text-accent transition-colors">
       {{ t('nav.glossary') }}
     </a>
-    <a href="/marie" class="text-ink-light hover:text-accent transition-colors">
+    <a :href="marieHref" class="text-ink-light hover:text-accent transition-colors">
       {{ t('nav.marie') }}
     </a>
-    <a href="/about" class="text-ink-light hover:text-accent transition-colors">
+    <a :href="aboutHref" class="text-ink-light hover:text-accent transition-colors">
       {{ t('nav.about') }}
     </a>
   </nav>

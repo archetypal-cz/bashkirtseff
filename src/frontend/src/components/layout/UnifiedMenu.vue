@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue';
-import { useI18n, getTranslationHref, getOriginalHref } from '../../i18n';
+import { useI18n, getTranslationHref, getOriginalHref, glossaryHref, pageHref } from '../../i18n';
 import { useFilterStore } from '../../stores/filter';
 import { useHistoryStore } from '../../stores/history';
 import { trackEvent } from '../../lib/analytics';
@@ -12,6 +12,9 @@ const { t, locale } = useI18n();
 const currentPath = ref('');
 const translationHref = computed(() => getTranslationHref(locale.value, currentPath.value || undefined));
 const originalHref = computed(() => getOriginalHref(currentPath.value || undefined));
+const glossaryLink = computed(() => glossaryHref(currentPath.value || undefined));
+const marieHref = computed(() => pageHref('marie', locale.value));
+const aboutHref = computed(() => pageHref('about', locale.value));
 const filterStore = useFilterStore();
 const historyStore = useHistoryStore();
 
@@ -424,19 +427,19 @@ onUnmounted(() => {
                       </svg>
                       {{ t('nav.original') }}
                     </a>
-                    <a href="/glossary" class="um-nav-link" @click="closePanel">
+                    <a :href="glossaryLink" class="um-nav-link" @click="closePanel">
                       <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                       {{ t('nav.glossary') }}
                     </a>
-                    <a href="/marie" class="um-nav-link" @click="closePanel">
+                    <a :href="marieHref" class="um-nav-link" @click="closePanel">
                       <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                       </svg>
                       {{ t('nav.marie') }}
                     </a>
-                    <a href="/about" class="um-nav-link" @click="closePanel">
+                    <a :href="aboutHref" class="um-nav-link" @click="closePanel">
                       <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>

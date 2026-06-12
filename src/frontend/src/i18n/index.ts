@@ -144,11 +144,31 @@ export function getTranslationHref(locale: SupportedLocale, currentPath?: string
   if (currentPath) {
     const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
     if (match && match[2] && !match[2].startsWith('/glossary')) {
-      return `${base}${match[2]}`;
+      return `${base}${truncateSuffixToCarnet(match[2])}`;
     }
   }
 
   return base;
+}
+
+/**
+ * For entry-level diary paths (`/{carnet}/{entry}`), drop the entry segment so
+ * a language switch lands on the carnet index instead of a possibly-untranslated
+ * (404) entry page (M6). Carnet indexes exist for every language (union logic in
+ * `[carnet]/index.astro`). Non-entry suffixes (year, carnet index, language home)
+ * are preserved unchanged. Precise entry-level switching with availability checks
+ * stays the job of the dedicated LanguageSwitcher.
+ *
+ * @param suffix Path after the language segment, leading-slash included (e.g. '/068/1877-01-07-09').
+ */
+function truncateSuffixToCarnet(suffix: string): string {
+  // /{carnet}/{entry...} where carnet is a 3-digit (or 000-NN section) id and
+  // there is a further entry segment after it.
+  const entryMatch = suffix.match(/^\/(\d{3}(?:-\d+)?)\/[^/]+\/?$/);
+  if (entryMatch) {
+    return `/${entryMatch[1]}`;
+  }
+  return suffix;
 }
 
 /**
@@ -161,10 +181,41 @@ export function getOriginalHref(currentPath?: string): string {
   if (currentPath) {
     const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
     if (match && match[2] && !match[2].startsWith('/glossary')) {
-      return `/original${match[2]}`;
+      // Original exists for every entry, but truncating to the carnet keeps
+      // parity with getTranslationHref and avoids surprises on section ids.
+      return `/original${truncateSuffixToCarnet(match[2])}`;
     }
   }
   return '/original';
+}
+
+/**
+ * Locale-aware glossary href (M3).
+ *
+ * Each language has its own glossary at `/{contentPath}/glossary`. Derive the
+ * content-path prefix from the current diary path so a reader on `/cz/...` links
+ * to the Czech glossary rather than the hardcoded `/glossary` → `/original/glossary`
+ * redirect. Off a diary path, fall back to the original glossary.
+ */
+export function glossaryHref(currentPath?: string): string {
+  if (currentPath) {
+    const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/|$)/);
+    if (match) {
+      return `/${match[1]}/glossary`;
+    }
+  }
+  return '/original/glossary';
+}
+
+/**
+ * Localized href for a static chrome page (`about`, `marie`, `privacy`) (M3).
+ *
+ * These pages live at `/{uiLocale}/{page}` (e.g. `/cs/about`, `/en/marie`) — the
+ * segment is the ISO UI locale, not the diary content path. Built for cs/en/fr/uk.
+ */
+export function pageHref(page: 'about' | 'marie' | 'privacy', locale: SupportedLocale): string {
+  const loc = SUPPORTED_LOCALES.includes(locale) ? locale : 'cs';
+  return `/${loc}/${page}`;
 }
 
 // Composable for use in Vue components
