@@ -95,9 +95,18 @@ These French constructions are frequently mistranslated to mean the **opposite**
      Evidence: 3 reports (uk-018-022: "збільшувально"/"боянним"/"спіла",
      uk-023-025: Cyrillic contamination "Тумanchoфи",
      cz-016-021: hallucinated "voitře"). Cross-language pattern. -->
+<!-- Teamcouch update 2026-06-13: passive warning was leaking — promote to an
+     explicit self-review pass. Evidence: cz-093-098 (4th instance, RESURGENCE) —
+     ≥10 distinct coined non-words across ALL 5 carnets despite this warning
+     (odhodení, rozezírala, vyhřesuji, zaslouho, nezdárštěla, zpustenost,
+     nezmarniť, …); the single biggest defect class of the wave. Strongest under
+     "context pressure" — abstract nouns (découragement→*odhodení) and dense
+     wordplay. -->
 ### Known Failure Mode: Fabricated Words
 
-Translators occasionally generate words that do not exist in the target language. These are grammatically plausible but nonexistent forms (e.g., Czech "voitře", Ukrainian "збільшувально"). If you are unsure whether a word exists, use a periphrastic construction or a known synonym instead. Never invent morphological forms — if a standard form doesn't come to mind, rephrase.
+Translators occasionally generate words that do not exist in the target language. These are grammatically plausible but nonexistent forms (e.g., Czech "voitře"/"odhodení"/"zpustenost", Ukrainian "збільшувально"). The risk spikes **under context pressure** — back-forming an abstract noun (e.g. *découragement* → the non-word "odhodení"; correct: malomyslnost/sklíčenost/beznaděj) or improvising under dense wordplay. If you are unsure whether a word exists, use a periphrastic construction or a known synonym instead. Never invent morphological forms — if a standard form doesn't come to mind, rephrase.
+
+**Mandatory self-review pass (do this, don't just intend it):** in Phase 3, re-read each translation hunting specifically for any word you are not 100% certain is a real, standard target-language word — coinages hide best in abstract nouns, derived adjectives, and improvised verbs. When in doubt, treat it as fabricated and replace it with a periphrasis. This is a known recurring failure mode across ≥4 waves; a deliberate non-word scan catches what a normal read glides over.
 
 ### Phase 2: Translate (First Draft)
 
@@ -118,6 +127,7 @@ Prompt: "You are a strict {TARGET_LANGUAGE} grammar and style critic. Read these
 translation files in content/{LANG}/{CARNET}/ and evaluate ONLY the visible text
 (ignore %% comment lines). For each file, flag:
 - Unnatural phrasing (would a native speaker ever write this?)
+- Fabricated / nonexistent words (any form a native speaker would not recognize as a real word — flag every doubtful one)
 - Grammar errors (case, agreement, word order, clitic placement)
 - Awkward constructions that feel translated rather than written
 - False friends or calques that sound wrong in {TARGET_LANGUAGE}

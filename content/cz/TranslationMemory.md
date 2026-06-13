@@ -1663,6 +1663,12 @@ When translating, refer to this document for established translations of recurri
 - Context: French gender-neutral participles and "on" repeatedly got masculine or 3pl Czech forms when Marie herself is the subject (e.g. 089.0274/0390/0544: mysleli→myslela, zaměněn→zaměněna, rád→ráda).
 - Notes: RECURRING CRITICAL class — RED/CON should grep masculine past-tense / "rád" / 3pl forms in 1st-person contexts and verify against the French subject. Marie is feminine singular.
 
+### French masc. consonant-final surnames → vzor *pán*, NO inserted -u-
+- Context: French masculine surnames ending in a consonant decline straight as vzor *pán* — do NOT insert a spurious -u- before the ending.
+- Correct: Doucet → Doucetovi (NOT Doucet**u**ovi), Ballote → Balloteovi, Lepage → Lepagovi/Lepagy.
+- First flagged: cz-093-098 (094, two independent translator batches produced the -u- infix).
+- Notes: Mechanical declension slip; quick RED/CON grep for "uovi"/"uem" after a French surname stem catches it.
+
 ## Carnet 087 Terms (Arnaud/Géry intrigue, first Salon, Soutzo courtship begins, Dec 1879 – Apr 1880)
 
 ### Biblical-allegory conceit (sustained)
