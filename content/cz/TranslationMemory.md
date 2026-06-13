@@ -1612,3 +1612,53 @@ When translating, refer to this document for established translations of recurri
 - "le Surprenant Emile" → Záhadný Emil (per 051/052/055/090 TM); Gric Miloradovič; da Costa Motta → bare "da Costa" declined.
 - First appearance: 086
 - Notes: Gambetta-as-future-husband fortune-teller arc recurs; keep names consistent.
+
+## Carnet 084 Terms (Paris/Académie Julian + Nice escape, Jan–Apr 1879)
+
+### Arnaud (de l'Ariège) — recurring love-interest
+- Translation (Czech): Arnaud — decline normally
+- Context: Gambetta's secretary; recurring crush across 084 (and the "Joseph Arnaud" of 085/086).
+- First appearance: 084
+- Notes: cf. Joseph Arnaud later; "bronze florentin" / "un bronze" = Marie's code for a handsome man (= Arnaud) → "florentský bronz".
+
+### concours hippique / piquer un soleil / misc — carnet 084
+- "concours hippique" (Marie's "hyppique") → jezdecké závody
+- "piquer un soleil" → "zrudnout až po uši"
+- Comte Valéry → hrabě Valéry (declined); Multedo (Comte) → declined (Multeda, Multedem)
+- "faire Cassagnac" → "spustit Cassagnaca"; le Défunt → Zesnulý (still metaphorical, Cassagnac alive but married)
+- First appearance: 084
+- Notes: Renan "La vie de Jésus" kept French title; Dumas-fils divorce wordplay (Mar 19–20).
+
+## Carnet 089 Terms (Tome 13, Paris → Mont-Dore → Paris, Jun–Oct 1880)
+
+### Potin (Nervo's nickname)
+- Translation (Czech): Drbna
+- Context: From "potin" = gossip; nickname for Nervo, recurs Aug 11 onward.
+- First appearance: 089
+- Notes: Render the gossip sense; keep consistent.
+
+### en-cas (Marie's coinage, "backup husband")
+- Translation (Czech): záloha
+- First appearance: 089.0552
+- Notes: Marie's wry coinage for a fallback marriage prospect.
+
+### Saint Mathieu (her painting)
+- Translation (Czech): svatý Matouš
+- First appearance: 089
+- Notes: Recurring parting-gift motif; the painting title.
+
+## Recurring false friends & agreement traps (1880s span — all carnets)
+
+### séparé(e) → odloučeně / žít odděleně, NOT "rozvedený"
+- Context: Divorce was re-legalised in France only in 1884 (and rare in Tsarist Russia); when Marie says a couple is "séparé" she means living apart, NOT legally divorced.
+- First flagged: 089 (recurs 089.0143, 0217)
+- Notes: Anachronism trap across the whole 1873–1884 span — never "rozvedený/rozvod" for séparé/séparation.
+
+### manie → posedlost / manýra (per sense), NOT "mánie"
+- Context: "manie" = obsession/compulsion OR an affectation; pick by sense. "manie" (mania) ≠ the medical "mánie".
+- First flagged: 089.0418/0423
+- Notes: False friend.
+
+### 1st-person gender/person agreement (Marie = narrator)
+- Context: French gender-neutral participles and "on" repeatedly got masculine or 3pl Czech forms when Marie herself is the subject (e.g. 089.0274/0390/0544: mysleli→myslela, zaměněn→zaměněna, rád→ráda).
+- Notes: RECURRING CRITICAL class — RED/CON should grep masculine past-tense / "rád" / 3pl forms in 1st-person contexts and verify against the French subject. Marie is feminine singular.
