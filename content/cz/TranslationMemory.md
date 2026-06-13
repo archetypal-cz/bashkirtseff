@@ -1562,3 +1562,28 @@ When translating, refer to this document for established translations of recurri
 - Translation (Czech): floutek
 - First appearance: 085
 - Notes: Consistent with carnet 065 TM (floutci/floutky).
+
+## Carnet 092 Terms (Salon/Breslau rivalry, deafness, Ukrainian-estate trip, May–Aug 1881)
+
+### le droit des femmes / la Citoyenne (feminist society + newspaper, 1881)
+- Translation (Czech): "spolek za práva žen" / "Citoyenne" (newspaper title kept); "citoyenne Lacorre" → "občanka Lacorrová"
+- First appearance: 092
+- Notes: Period feminist movement; keep "Citoyenne" as the paper's title.
+
+### Breslau-rivalry / art-criticism vocabulary
+- "les bras me tombent" / "les bras coupés" → "klesnou mi ruce" / "úplně mě to ochromilo"
+- "sec, froid, dur" (criticism of Marie's painting style) → "suché, chladné, tvrdé"
+- "la Morgue" (Salon outer gallery) → "Márnice"; "cimaise" → "na úrovni očí"
+- "affiche électorale" (her abandoned 1881 painting) → "volební plakát"
+- First appearance: 092
+- Notes: Recurring Salon/atelier register; keep consistent in 086/089 if they recur.
+
+### poitrinaire / se mirer
+- "poitrinaire" → "souchotinář" / "mít souchotiny"; "se mirer" → "podívat se do zrcadla"
+- First appearance: 092
+- Notes: "poitrinaire" = consumptive (TB); the mortality thread runs heavy in this carnet.
+
+### Larderei (noble particle)
+- Translation (Czech): Larderei — bare surname, particle uninflected ("Lardereim")
+- First appearance: 091/092
+- Notes: Like other noble surnames in the arc; do not over-decline.
