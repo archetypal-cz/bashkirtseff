@@ -1587,3 +1587,28 @@ When translating, refer to this document for established translations of recurri
 - Translation (Czech): Larderei — bare surname, particle uninflected ("Lardereim")
 - First appearance: 091/092
 - Notes: Like other noble surnames in the arc; do not over-decline.
+
+## Carnet 086 Terms (autumn 1879 — Cassagnac's marriage, Académie Julian, society arc)
+
+### Majáček (= Petitphare / Petit Phare, code name for Arnaud de l'Ariège)
+- Translation (Czech): Majáček (Little Lighthouse)
+- First appearance: 086 (cf. "Maják"/Putifar in 085)
+- Notes: Code name; keep the diminutive playfulness.
+
+### uličnická postavička (= "polisson de physique", Blanc's running self-joke)
+- Translation (Czech): uličnická postavička
+- First appearance: 086.0069
+- Notes: Recurring self-deprecating joke; keep consistent on recurrence.
+
+### Hecht / "le juif" / "Joseph" (collision)
+- Hecht → declined as a bare surname (Hechta, Hechtovi).
+- "le juif" / "ce juif" → "žid / ten žid"; "Sale Juif" → "Špinavý žid" — PERIOD register preserved (neutral-to-derogatory as in source), NOT endorsed; footnote as period prejudice where it first bites.
+- COLLISION: "Joseph" = Joseph Arnaud (new crush), but Hecht jokingly signs himself "Joseph" too — disambiguate per occurrence.
+- First appearance: 086
+- Notes: A genuine referent trap; verify which "Joseph" each time.
+
+### Society / misc — carnet 086
+- "femme du monde" → dáma ze společnosti; "soufflet" → políček; "conducteur de cotillons" → tanečmistr kotilonů.
+- "le Surprenant Emile" → Záhadný Emil (per 051/052/055/090 TM); Gric Miloradovič; da Costa Motta → bare "da Costa" declined.
+- First appearance: 086
+- Notes: Gambetta-as-future-husband fortune-teller arc recurs; keep names consistent.
