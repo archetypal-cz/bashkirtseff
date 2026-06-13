@@ -163,6 +163,10 @@ Place RED comments after the translated text within the paragraph block (before 
 
 **RED comments go on their OWN line — never spliced into a body line.** When you `Edit` a fix into a long single-line paragraph, the inserted comment can land mid-paragraph (matching a sentence fragment) and split readable text — a real renderer-drop risk that recurred across waves (cz-056-064, cz-080-082). **End-of-review scan (mandatory)**: run `grep -n 'RED:.*%% [^%]' content/{lang}/{carnet}/*.md` and rejoin any split paragraph, moving the comment to its own line.
 
+<!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
+     Evidence: cz-080-082 (CON comments) + cz-083-092 (a TR comment) — recurring across roles. -->
+**Never type the literal sequence `%%` inside a RED comment** (e.g. "the %% wrapper"). It adds stray markers, makes the file's `%%` count odd, and fails the `%%-balance` gate — write "značky"/"paragraph-ID wrapper" instead.
+
 ## Common Issues Checklist
 
 ### Gallicisms, Calques, and False Friends

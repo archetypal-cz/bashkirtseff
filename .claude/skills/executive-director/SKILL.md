@@ -424,6 +424,22 @@ it to the agent that currently owns the carnet, or to the next single writer, ne
 shutting-down agent in parallel with its successor. Treat "shutdown requested" and "shutdown
 acked" as different states; only the latter guarantees single-writer.
 
+<!-- Teamcouch update 2026-06-13: immediate-start CON spawn when the editor is already gone.
+     Evidence: cz-083-092 (con-2/3/4/5 used the pre-read-then-"confirmed, begin"
+     handshake and ALL looped — each re-asked "am I clear to begin?" because its
+     heartbeat crossed the lead's confirmation in transit; con-5's 0/N disk count was
+     even briefly misread as a stall). con-6..con-10, spawned AFTER the editor had
+     terminated with an explicit "BEGIN IMMEDIATELY", started cleanly with no loop.
+     Broader crossed-go-ahead class: 12 reports. -->
+**If the editor has ALREADY terminated when you spawn the conductor, tell CON to begin
+immediately — skip the "do read-only prep, wait for my confirm" handshake.** That handshake
+exists only to prevent the editor→CON write-race; once the editor is terminated there is no
+race, and the handshake reliably induces a confirmation loop (CON's "am I clear to begin?"
+heartbeat crosses your "confirmed, begin" in transit, so it re-asks and idles, wasting cycles).
+Only use the pre-read-then-confirm pattern when you must spawn CON *while the editor is still
+shutting down*. Either way, do NOT read a 0/N `conductor_approved` count as a stall — CON
+batch-flips at the end (monitor via heartbeat).
+
 ### Workload Balancing
 
 - **Start with smallest carnets** to get the first completions faster (enables RED/CON pipeline overlap sooner)

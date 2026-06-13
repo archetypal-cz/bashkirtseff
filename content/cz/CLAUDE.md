@@ -83,7 +83,7 @@ Konkrétní české pasti, na které se RED, OPS i GEM mají zaměřit (jazykov�
 | **Předložkové kalky** | "za čelem" → "z čela", "mít" jako kalk za avoir, "dělat" za faire |
 | **Významové posuny** | "zimnice" (nemoc) za "frisson" (zachvění), "vařila jsem" (vaření) za "je bouillais" (vařit se vzteky) |
 
-**Kontrola podmiňovacího způsobu a osoby** (nejčastější kritická chyba, která mění význam): grepni tvary `kdyby` a ověř osobu proti francouzskému podmětu — "si je…" → kdybych, "si vous…" → kdybyste/kdybys, "si il/elle/on…" → kdyby. Záměna osoby tu dělá z Marie podmět cizí akce (dominantní třída chyb v cz-056-064).
+**Kontrola podmiňovacího způsobu a osoby** (nejčastější kritická chyba, která mění význam): grepni tvary `kdyby` a ověř osobu proti francouzskému podmětu — "si je…" → kdybych, "si vous…" → kdybyste/kdybys, "si il/elle/on…" → kdyby. Záměna osoby tu dělá z Marie podmět cizí akce (dominantní třída chyb v cz-056-064). **Rod 1. osoby:** Marie je žena (ž. r. j. č.) — francouzské rodově neutrální příčestí / "on" se v češtině často omylem převede do mužského rodu nebo 3. os. mn. č., když je podmětem Marie. Grepni minulé tvary, přechodníky a „rád/ráda" v kontextech 1. osoby a ověř rod proti francouzskému podmětu (např. *mysleli→myslela*, *zaměněn→zaměněna*, *rád→ráda*, přechodník *maje→majíc*). Opakovaná kritická třída napříč 089/084 (cz-083-092) i dříve (uk-018-022, cz-016-021).
 
 **Kontaminace písmem**: hledej zatoulané cyrilské znaky v latinkovém českém textu (překladatelé občas prosakují ruská písmena) a oprav je.
 

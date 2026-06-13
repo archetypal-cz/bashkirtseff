@@ -166,6 +166,11 @@ Marie was intensely concerned with how she would be perceived by posterity.
 
 Write CON comments directly to translation files. Use timestamped format:
 
+<!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
+     Evidence: cz-080-082 (CON comments on 081/082) + cz-083-092 — 2nd instance. -->
+**Never type the literal sequence `%%` inside a CON comment** (e.g. "the %% French wrapper"). It unbalances the file's `%%` count and fails the `%%-balance` gate — write "paragraph-ID wrapper" / "embedded French reference" instead.
+
+
 **Verdict comment** (at the end of the file, after the last paragraph block):
 ```markdown
 %% YYYY-MM-DDThh:mm:ss CON: APPROVED - [brief rationale] %%

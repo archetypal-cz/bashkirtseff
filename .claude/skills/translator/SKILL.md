@@ -133,6 +133,14 @@ Read the subagent's findings. For each valid issue:
    %% YYYY-MM-DDThh:mm:ss TR: Self-review fix: "original" → "fixed" — reason %%
    ```
 
+<!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
+     Evidence: cz-080-082 (CON comments) + cz-083-092 (a TR comment "(bez %%)" in
+     084/1879-01-18) — 2nd instance, met the WATCHLIST-set threshold. -->
+**Never type the literal sequence `%%` inside a `%% … %%` comment** (e.g. don't write
+"(bez %%)" or "the %% wrapper"). It adds stray markers, makes the file's `%%` count odd, and
+fails the `%%-balance` gate. Write "značky" / "paragraph-ID wrapper" / "embedded French
+reference" instead.
+
 Skip any suggestions you disagree with — you know Marie's voice and context better than the critic subagent.
 
 **Only after both self-review passes is the translation considered done from the translator's perspective.**
