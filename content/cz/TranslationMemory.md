@@ -1374,7 +1374,7 @@ When translating, refer to this document for established translations of recurri
 - Translation (Czech): Breslau — uninflected (NOT „Breslauová")
 - Context: Swiss-German painter (1856–1927), Marie's respected atelier rival at the Académie Julian; referred to by bare surname.
 - First appearance: 076–079
-- Notes: Marie writes the bare surname; keep uninflected ("genitiv Breslau", "s Breslau") with feminine verb agreement.
+- Notes: Marie writes the bare surname; keep uninflected ("genitiv Breslau", "s Breslau") with feminine verb agreement. Authorship attributions ("[work] by Breslau") → periphrastic "od Breslau" (e.g. "rybářka od Breslau", "obraz od Breslau"), NEVER the derived possessive adjective "Breslauin-" (same violation class as "Breslauová"). Confirmed across 090 (090.0524) and 091 (091.0513).
 
 ### Paul de Cassagnac / Popaul
 - Translation (Czech): Cassagnac (bare surname, fully declined: na Cassagnace, s Cassagnacem); „pan de Cassagnac" keeps particle+name uninflected after „pan"; affectionate-mocking diminutive „Popaul" kept as-is (NOT „Pavlík")
@@ -1419,3 +1419,146 @@ When translating, refer to this document for established translations of recurri
 - Context: 080-082 use intriguer in BOTH the masked-ball/social mystify sense AND the genuine scheme sense.
 - First appearance: throughout 080–082
 - Notes: See the 077–079 lock — NEVER „intrikovat" for the mystify sense. Genuine scheme-sense IS legitimate: „intrigues de sa belle-mère" (082/08-19) → intriky; „tripotages politiques" (082/09-28) → politické pletichy. Marie's affectionate self-description „tripoteur" (080.0016) = meddler/over-analyzer („vrtáček/hnidopich") — do NOT flatten with the political scheming sense.
+
+## Carnet 088 Terms (Soutzo courtship arc, Paris, April–June 1880)
+
+### Gabriel Géry / Gabriel (recurring romantic interest)
+- Translation (Czech): Gabriel Géry / bare „Gabriel" — keep as in source, masculine agreement, fully declined (gen. „Gabriela", dat. „Gabrielovi", o „Gabrielovi")
+- Context: Marie's fresh romantic interest in 1880 (088.0008 salutes twice at the Bois; 088.0422–0423 „Gabriel est adorable… Gabriel est distingué"). Recurs across the 089/090/091 arc — lock ONE form now.
+- First appearance: 088 (1880-04-25)
+- Notes: DISTINGUISH father from son — surname „Géry" with the accent. The FATHER is „Géry père" → „starý Géry" (affectionate „père" for an older man, cf. „père Gavini"; NOT literal father-of-Marie). The MOTHER is „Madame Géry" → „paní Géryová". The SON Gabriel is the suitor. Marie's contemptuous „l'ignoble Gabriel" → „hnusný Gabriel". Keep the acute on „Géry" in Czech.
+
+### Soutzo / Casimir (Prince Alexandre Nicolas Soutzo)
+- Translation (Czech): Soutzo — DECLINE normally as a masc. -o surname (like Hugo→Huga): nom. Soutzo, gen. Soutza, dat. Soutzovi, instr. Soutzem, poss. adj. Soutzův/Soutzova. (Do NOT force it bare/indeclinable — that reads as a translation artifact; con-3 confirmed the declined forms are correct natural Czech across 088.) / „Casimir" (Mariino familiární křestní jméno, declined: Casimira, Casimirovi)
+- Context: The central suitor of carnet 088; Wallachian/Moldavian Soutzo dynasty. Declaration 06-03, proposal 06-04, farewell 06-18/19.
+- First appearance: 088 (1880-04-25)
+- Notes: „Bézadé" (Bezadea, son of a reigning prince) kept as-is, footnoted; title „rumunský kníže". His second given name „Alexandre" → Alexandre. „le manuel du parfait amoureux" (Marie's written courtship conditions) → „příručka dokonalého milovníka".
+
+### porte-veine (lucky-pig charm)
+- Translation (Czech): talisman pro štěstí / prasátko
+- Context: Parisian fashion craze of spring 1880 — miniature pig figurines as good-luck charms; Marie gives one to Soutzo at his departure (088.0823–0824).
+- First appearance: 088 (1880-06-18)
+- Notes: Marie spells it „porte-veines"; the standard form is „porte-veine". No footnote needed; rendered descriptively.
+
+### magnétiser (mesmerism)
+- Translation (Czech): zmagnetizovat / magnetismus (v pohledu)
+- Context: Popular 1880s mesmerism, used by Soutzo as a romantic pretext (088.0669).
+- First appearance: 088 (1880-06-08)
+
+### le Défunt (Cassagnac death-conceit) — carnet 088
+- Translation (Czech): Zesnulý
+- Context: Continues the 080–082 conceit; in 088 (06-09, 06-10) it is still METAPHORICAL (relationship treated as dead), NOT realized mourning.
+- First appearance: 088 (1880-06-09)
+- Notes: Consistent with established TM („nebožtík Cassagnac / Zesnulý"). No „feu Cassagnac"/„nebožtík" instance occurs in 088 itself; keep „Zesnulý".
+
+### Czech idiom renderings locked in 088
+- „bas-bleu" → modrá punčocha; „un âne bâté" → osel osedlaný; „chercher midi à quatorze heures" → hledat v jednoduchém složitosti; „tomber de mon haut" → zůstat jako opařená; „à la bonne heure" → to už je jiná!; „femmelle" (Mariin novotvar femelle+femme) → „ženské" (descriptive, flagged); „fiat lux" pun on „luxe" → kept Latin + footnote (pun untranslatable).
+
+## Carnet 090–091 Terms (Paris disillusionment & Salon arc, 1880–1881)
+
+### Karageorgevitch / Karageorgević
+- Translation (Czech): Karagjorgjevič
+- Context: Serbian princely figure in Marie's Paris circle (reconciliation dialogue, 090 12-13).
+- First appearance: 090 (1880-12-13)
+- Notes: Czech transcription of the Serbian dynasty name; decline normally.
+
+### le Surprenant Emile
+- Translation (Czech): Záhadný Emil
+- Context: Marie's epithet for an Emile figure.
+- First appearance: 090
+- Notes: Keep the ironic-honorific capitalization.
+
+### Le carnet d'un mondain (Étincelle's gossip column)
+- Translation (Czech): Zápisník jednoho světáka
+- Context: Society gossip column Marie reads/cites.
+- First appearance: 091 (1881)
+- Notes: Column title; render meaningfully, not transliterated.
+
+### amazones (women riders in the Bois)
+- Translation (Czech): amazonky na koních
+- Context: Fashionable horsewomen in the Bois de Boulogne (distinct from the riding-habit "amazona"/"amazonka").
+- First appearance: 091
+- Notes: Disambiguate from the garment sense already in TM.
+
+### se faire gober
+- Translation (Czech): nechat si naletět
+- Context: To be taken in / fall for someone (Cassagnac & women, 091).
+- First appearance: 091
+- Notes: Colloquial; not "spolknout".
+
+### barbouillages / barbouiller (self-deprecating, painting)
+- Translation (Czech): čmáranice / čmárat
+- Context: Marie belittling her own canvases; "mašiny" = machines (large Salon pieces).
+- First appearance: 091
+- Notes: Keep the self-mocking register.
+
+### phtisie laryngée
+- Translation (Czech): hrtanové souchotiny
+- Context: Laryngeal consumption (Marie's diagnosed illness).
+- First appearance: 091
+- Notes: Period medical term; footnote on first use.
+
+### Balandard (slang "a nobody")
+- Translation (Czech): nějaký Balandard
+- Context: Generic dismissive name for an unimportant man.
+- First appearance: 091
+- Notes: Treat as a proper-name-style placeholder; do not translate literally.
+
+## Carnet 083 Terms (Académie Julian / early Cassagnac arc, Oct 1878 – Jan 1879)
+
+### faire Cassagnac (Marie's rhetorical-combat style)
+- Translation (Czech): "spustit Cassagnaca" / "úplně cassagnacovské"
+- Context: To argue/attack in Cassagnac's polemical journalistic manner.
+- First appearance: 083
+- Notes: Verb-of-style derived from the name; keep the journalistic-polemic flavor.
+
+### Le Vide et la Désolation (recurring refrain)
+- Translation (Czech): Prázdnota a Pustina
+- Context: Marie's recurring despair refrain in this carnet.
+- First appearance: 083
+- Notes: Capitalized as a refrain/title; keep consistent on every recurrence.
+
+### bonnes aventures (fortune-telling, NYE)
+- Translation (Czech): věštění
+- Context: New Year's Eve fortune-telling.
+- First appearance: 083
+- Notes: FALSE FRIEND — NOT "dobrá příhoda"; this is divination/fortune-telling.
+
+### hottentot (Marie's racist epithet for her father)
+- Translation (Czech): hotentot
+- Context: Period racist epithet Marie applies to her father.
+- First appearance: 083
+- Notes: Keep as the period term "hotentot" (do not soften/modernize); it characterizes Marie's voice, not endorsed.
+
+### le Défunt — carnet 083
+- Translation (Czech): Zesnulý
+- Context: Cassagnac death-conceit after his marriage; continues the 081/082 lock.
+- First appearance: 083
+- Notes: Consistent with established "Zesnulý"; metaphorical, not realized mourning.
+
+## Carnet 085 Terms (Paris 1879 — Académie Julian, Prince Imperial's death, Bonapartist intrigue)
+
+### Marie's dogs (proper names, keep as-is)
+- Coco 2 / Coco I / Pincio 1 / Niniche → kept as proper names, undeclined or lightly declined as natural.
+- First appearance: 085
+- Notes: Pets; do not translate.
+
+### mère Couvelet / père Arnaud / mère Arnaud (running-joke pseudonyms with Bojidar)
+- Translation (Czech): stará Couveletová / starý Arnaud / stará Arnaud
+- First appearance: 085
+- Notes: Comic pseudonyms; keep consistent.
+
+### citoyen Joseph / Putiphar / Petit Phare (code-names for Arnaud de l'Ariège)
+- Translation (Czech): občan Josef / Putifar / Maják
+- First appearance: 085
+- Notes: Marie's code names. The Putiphar/Petit Phare ("Maják") wordplay is footnoted (085.0463); keep the pun's gloss.
+
+### Plonplon (Prince Napoléon-Jérôme nickname)
+- Translation (Czech): Plonplon (kept)
+- First appearance: 085
+- Notes: Keep the nickname; "Prince impérial" → "císařský princ"; "lavé Sedan" → "smyl Sedan".
+
+### gommeux — carnet 085
+- Translation (Czech): floutek
+- First appearance: 085
+- Notes: Consistent with carnet 065 TM (floutci/floutky).
