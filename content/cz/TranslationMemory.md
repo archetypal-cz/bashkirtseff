@@ -1662,3 +1662,24 @@ When translating, refer to this document for established translations of recurri
 ### 1st-person gender/person agreement (Marie = narrator)
 - Context: French gender-neutral participles and "on" repeatedly got masculine or 3pl Czech forms when Marie herself is the subject (e.g. 089.0274/0390/0544: mysleli→myslela, zaměněn→zaměněna, rád→ráda).
 - Notes: RECURRING CRITICAL class — RED/CON should grep masculine past-tense / "rád" / 3pl forms in 1st-person contexts and verify against the French subject. Marie is feminine singular.
+
+## Carnet 087 Terms (Arnaud/Géry intrigue, first Salon, Soutzo courtship begins, Dec 1879 – Apr 1880)
+
+### Biblical-allegory conceit (sustained)
+- Mapping: Marie = panna Maria; Gabriel Géry = archanděl (Gabriel); Joseph Arnaud = Josef / svatý Josef.
+- First appearance: 087
+- Notes: A deliberate authorial conceit running through the carnet — preserve the religious register consistently; do not flatten to literal names. (Language-agnostic; persist as a LAN: TRAP in _original.)
+
+### Salon / atelier vocabulary — carnet 087
+- "rattatinage" / "peinture galeuse" (self-criticism) → scvrklina / prašivá malba
+- "bons de portrait" → poukazy na portrét; "sursis" → odklad; "numéros d'admission" → čísla přijetí
+- "Russ" (Marie's Salon pseudonym) → kept, footnoted; "le concours" → concours (contextual gloss)
+- "glacis" → lazury; "balayages" → široké tahy
+- First appearance: 087
+
+### Misc — carnet 087
+- "jérômistes" → jérômisté; "lacédémonades" (Marie neologism) → spartánskosti
+- "mi-carême" → půst v polovině postu; "le pope" → pop; "Mont de Piété" → zastavárna
+- "le père Cassagnac" → starý Cassagnac; Larderei particle uninflected ("k Lardereimu")
+- First appearance: 087
+- Notes: by-design duplicate/error date-headers in 087 (Dimancher 02/01, "March 17/16/6") are preserved verbatim — do not correct.
