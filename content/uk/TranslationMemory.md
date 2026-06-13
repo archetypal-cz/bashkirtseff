@@ -2209,3 +2209,63 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 - Alexandre Dumas (novelist) → «Александр Дюма» (Russified form CORRECT here, per 067 TM line 1963). Tsar Alexandre II → «Олександр II». Daughter Alexandrine → «Александріна» (declinable fem.).
 - **CRITICAL — glossary tags are UNRELIABLE for "Alexandre":** the bare alias "Alexandre" auto-tags to people/core/ALEXANDRE.md (= the uncle Babanine) regardless of true referent. e.g. 074/08-22 "Alexandre est un chien!" is tagged [#Alexandre](uncle)+[#Oncle_Alexandre] but its RSR comment says the referent is LARDEREI. **Disambiguate by the per-paragraph RSR comment + sentence context, NOT the tag.**
 - As-translated state needing correction (caught by RED/team-lead 2026-06-10): all three carnets initially rendered the Larderei-romantic "Alexandre" as Russified/Ukrainian declinable «Александр»/«Олександр» instead of «Алессандро», colliding with the uncle. Corrected to the lock above during RED review.
+
+## Carnet 100 Additions (Summer 1883 Paris — father's death, Salon mention, sculpture)
+
+### Names & coinages (Carnet 100)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Rollinat (Maurice) | Ролліна | Macabre poet. Silent French -t, [ʁɔlina] → «Ролліна», NOT «Роллена»/«Роллен». Oblique «Ролліна». (con-100 fix 07-01, 07-04) |
+| Prodigieuse (ma chère) | Дивовижна (, моя люба) | Marie's ironic self-applause mid-Printemps reverie. "prodigieuse" is an ordinary fr. adjective, not a coinage — render with a natural Ukr. fem. adjective (self-address); do NOT calque as Latinate «продигіозно» (adds foreignness absent from source, loses fem. self-address). (con-100, 07-22) |
+| Saint-Marceaux (René de) | Сен-Марсо | Sculptor, Marie's mentor; "le grand homme". Indeclinable. |
+| Bastien-Lepage (Jules) | Бастьєн-Лепаж / Жюль | "le monstre de Damvillers", "le sournois/faux naïf de Damvillers"; "Художник душ — це Бастьєн". |
+| Emile Bastien (architect bro) | Еміль / архітектор | "le faux Bastien", "ce subalterne"; "infâme/infime architecte" → «ниций архітектор». |
+| Carriès (Jean) | Кар'єс | Young sculptor; "les Désolés" → «Зневірені». |
+| Bojidar (Karageorgevitch) | Божидар | Serbian prince, Marie's "camarade"/marriage candidate; "la mouche du coche" → «муха з байки». |
+| Saint-Amand | Сент-Аман | Baron, platonic-marriage candidate ("association"); "Putiphar moderne" → «сучасний Потіфар». |
+| Thibaudin | Тібоден | Marie's pet name for servant Louis (after the War-Minister parole scandal). |
+| Louis (servant, "le nègre") | Луї / «Boule de neige» → Сніжко | Period "nègre" rendered «негр» per era usage, TR-noted; godson Louis-Jules-René-Marie. |
+
+### Stendhalian / art terms (Carnet 100)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| cristallisation | кристалізація | Stendhal's term (De l'Amour); kept as «кристалізація». |
+| Amour-goût / Amour-passion | кохання-смак / кохання-пристрасть | Stendhalian love types. |
+| documents humains | людські документи | Goncourt naturalist term, italic. |
+| la (grande) machine | великий твір / масштабна композиція | period art sense, NOT mechanical device. |
+| ronde-bosse / bas-relief | кругла пластика / низький рельєф | sculpture terms. |
+| Le Printemps | «Весна» | Marie's planned allegorical sculpture. |
+| roubles | карбованці | per house convention (inheritance ~140 000). |
+| je bous | я киплю | false-friend trap: anger, not "boil/cook". |
+| défraîchie | зблякла / поблякла | cruel term for unmarried women past prime. |
+
+### Wordplay handled (Carnet 100)
+- "licencié en droit / va de droit finir licencieusement" (07-27): rendered «ставши ліценціатом права, по праву піде розпусно» — keeps право/по праву + licentious sense; full pun lost, TR-noted.
+- "Cela commence par un A" (Ariadne, 08-05): kept literal with TR note (A = Ariadne, also Amour).
+- "Dieu… il est comme moi, il n'entend pas" (08-05): deafness pun preserved — «не чує» carries both "doesn't heed" and physical deafness.
+- "Nature de nègre / Nature d'Alphonse" (08-05): period racist + pimp slang rendered for sense («низька натура» / «натура сутенера») with TR note.
+
+## Carnet 088 Additions (Paris, Apr 24 – Jun 19 1880 — Salon 1880 debut, Soutzo courtship, Cassagnac nostalgia, smallpox panic)
+
+### Names & forms (Carnet 088)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Soutzo (= Casimir/Bézadé/Alexandre) | Соутцо (Казимир / Безаде / Александр) | Phanariot/Romanian princely suitor. Locked spelling «Соутцо» (134× consistent in 088); no prior lock — letter-by-letter, kept for internal consistency. «Bézadé/Bezadea» (son of a reigning prince) → «Безаде», kept as title-name. «Casimir» = Marie's pet name → «Казимир». |
+| Paul Bashkirtseff (father, Poltava) | Поль Башкирцев | TRAP: 088.0465 "A M. Paul Bashkirseff, Poltava" = Marie's FATHER, NOT Paul de Cassagnac. Source spells surname «Bashkirseff» (Latin, as written); UK = «Башкирцев». |
+| le Défunt / mon frère (= Cassagnac) | Покійний / мій брат | TRAP: dead-relationship conceit for the (living) Cassagnac, NOT real mourning. He appears alive in Le Gaulois & 06-18 same period. «мій брат» = Baudelaire-echo spiritual-kin sense, not blood. |
+| Mgr. Viard | монсеньйор Віар | CON fix: "Mgr."=Monseigneur (Catholic prelate). «преподобний» is Orthodox-monastic (wrong register) — use «монсеньйор» for fr. Monseigneur. |
+| Breslau | Брезло | (locked per Julian-arc memory). |
+| Bisailleul (Anitchkoff's pun on Bailleul) | Бідайєль | pun preserved (Bailleul→Бідайєль). |
+| Chose et Machin (pups) | Цяця і Цьотця | rhymed playful pair for "Thing & Whatsit"; TR-noted. |
+| impératrice Maria Alexandrovna | імператриця Марія Олександрівна | d. 22 May 1880; Russian colony in mourning (088.0648). |
+
+### Idiom / wordplay handled (Carnet 088)
+- "femmelle" (088.0239): Marie's coinage (femelle×femme) → «бабська» — self-contempt at her own jealousy as female weakness; TR-noted.
+- "parle nègre" (088.0551): period fr. idiom for simplified/broken speech → rendered NEUTRALLY («говорить ламаною мовою»), no racial calque. TRAP.
+- "Sur quel pied est-il reçu?" (088.0159): «На якій нозі його приймають?» — confirmed; UK has native «на дружній/короткій нозі», so «нога» = social-footing sense is idiomatic.
+- "une femme entretenue" (088.0783): kept provocative double-sense («утриманка» = both kept wife and kept mistress); TR-noted.
+- "0 colère, ô rage" (088.0067): Corneille (Le Cid) echo → elevated register.
+- "mon semblable, mon égal, mon... frère" (088.0685): Baudelaire echo preserved.
+
+### Review note
+- 2026-06-13: Carnet 088 CON complete, ~0.94, all 57 conductor_approved. RED 0.95. CON fixes: «преподобний Віар»→«монсеньйор Віар» (1×). Confirmed RED judgment-calls (Soutzo spelling, 0159 «на нозі», 0067 «Святе ім'я»). All TRAPs held (Paul=father, Défunt=Cassagnac-conceit, parle-nègre neutral). verify-carnet PASS. (con-088)
