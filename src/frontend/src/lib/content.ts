@@ -521,18 +521,68 @@ function processTextToHtml(text: string, lang: string = 'original'): { html: str
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     // Convert *italic* and _italic_ to em
     .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-    .replace(/(?<!\w)_([^_]+)_(?!\w)/g, '<em>$1</em>')
-    // Preserve in-cluster line breaks. A single paragraph cluster can hold
-    // several source lines (e.g. consecutive dialogue lines, each on its own
-    // line under one `%% NNN.NNNN %%` id). They are joined with "\n" upstream;
-    // without this, the newlines collapse to spaces in HTML and the speech
-    // lines run together. Exempt the newline that follows a block-level <h2>
-    // date heading: <h2> manages its own spacing, so a <br> there is a stray
-    // gap — and keeping the bare "\n" also preserves the separator for the
-    // plain-text/meta-description paths that strip tags from this html.
-    .replace(/(?<!<\/h2>)\n/g, '<br>\n');
+    .replace(/(?<!\w)_([^_]+)_(?!\w)/g, '<em>$1</em>');
+
+  html = joinClusterLines(html);
 
   return { html, footnoteRefs };
+}
+
+/**
+ * Join the physical source lines of a single paragraph cluster into display
+ * HTML.
+ *
+ * A cluster can hold several source lines, and a bare "\n" between them means
+ * different things that the source format does NOT disambiguate:
+ *   - dialogue turns, each line starting with an em/en-dash or "- "  → hard break
+ *   - blank-line-separated paragraphs (e.g. several days under one id) → para gap
+ *   - soft wraps: prose split across lines — frequently only because an inline
+ *     `%%comment%%` was placed mid-sentence, or because early carnets hard-wrap
+ *     long paragraphs                                                  → REJOIN
+ *
+ * If we break on every newline, flowing prose gets hard-wrapped mid-sentence
+ * (e.g. "…vedle maminky," / "která hledá…") and comment-split lines snap apart.
+ * If we never break, dialogue and blank-separated entries merge into a wall of
+ * text (the original bug, bashkirtseff.org/en/106/1884-09-13).
+ *
+ * So we break on the only two unambiguous signals — a leading dialogue dash and
+ * a blank-line gap — and rejoin everything else with a space (the long-standing
+ * default). Verse and title-page layouts that rely on bare newlines stay merged
+ * as they were before; disambiguating those needs an explicit content marker.
+ */
+function joinClusterLines(html: string): string {
+  // Normalize CRLF/CR so the line-by-line logic below (split on \n, endsWith
+  // checks, blank-line regex) is not defeated by stray "\r" — a few source
+  // files (e.g. a CRLF glossary entry) are not LF-normalized.
+  html = html.replace(/\r\n?/g, '\n');
+  // Collapse blank-line gaps (2+ newlines) to a paragraph-break placeholder so
+  // the per-line pass below only sees genuine single newlines.
+  const PARA = '\u0000\u0000'; // sentinel: NUL bytes never occur in source text
+  html = html.replace(/\n[ \t]*(?:\n[ \t]*)+/g, PARA);
+
+  const lines = html.split('\n');
+  let out = lines[0] ?? '';
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i];
+    const prev = lines[i - 1];
+    const first = line.replace(/^\s+/, '').charAt(0);
+    // Dialogue turn: em-dash, en-dash, or "- " at the start of the line.
+    const isDialogue = first === '—' || first === '–' || /^\s*-\s/.test(line);
+    if (prev.endsWith('</h2>')) {
+      out += '\n' + line; // block <h2> heading manages its own spacing
+    } else if (isDialogue) {
+      out += '<br>\n' + line;
+    } else {
+      out += ' ' + line; // soft wrap / comment split / prose → rejoin
+    }
+  }
+  return out
+    .split(PARA)
+    .join('<br><br>\n')
+    // A block <h2> date heading manages its own spacing; drop any <br>(s) that
+    // landed right after it (e.g. heading followed by a blank line then body),
+    // keeping a bare newline so tag-stripping meta paths keep their separator.
+    .replace(/(<\/h2>)(?:<br>\n?)+/g, '$1\n');
 }
 
 /**
