@@ -147,6 +147,8 @@ We will not present AI-generated text as human-written, hide the role of AI in t
 
 Marie held some views typical of 19th-century aristocrats that modern readers may find objectionable. We translate faithfully, provide historical context where helpful, do not editorialize or apologize, and trust readers to engage with a complex human.
 
+**House policy (resolved 2026-06-14): preserve-and-frame.** Period-offensive register — antisemitic, racial, and class slurs — is rendered **faithfully in the target language**, never softened, euphemized, or omitted, and is **framed** with a neutral scholarly footnote / glossary context on first salient use (documenting it as a 19th-century document, not an endorsement). This is the default for every language and every reviewer (TR/RED/CON): do not neutralize on your own judgment. The single narrow exception is an explicit `LAN: TRAP:` instruction in the source that directs neutral rendering for a *specific dated idiom* (e.g. the period phrase "parler nègre" / "nature de nègre" as a manner-of-speech idiom, as distinct from a slur Marie aims at a person) — those deliberate source-annotator calls stand. When in doubt, preserve-and-frame.
+
 ### Uncertain Translations
 
 Some passages are ambiguous. We note uncertainty in translator comments, include original French for verification, prefer preserving ambiguity over false certainty, and document choices for future scholars.

@@ -108,6 +108,20 @@ Translators occasionally generate words that do not exist in the target language
 
 **Mandatory self-review pass (do this, don't just intend it):** in Phase 3, re-read each translation hunting specifically for any word you are not 100% certain is a real, standard target-language word — coinages hide best in abstract nouns, derived adjectives, and improvised verbs. When in doubt, treat it as fabricated and replace it with a periphrasis. This is a known recurring failure mode across ≥4 waves; a deliberate non-word scan catches what a normal read glides over.
 
+<!-- Teamcouch update 2026-06-14: oversized-single-entry output discipline (2nd instance).
+     Evidence: uk-056-061 (carnet 060's 363-paragraph single entry stalled a translator);
+     cz-104-106 (carnet 106's 1884-10-07.md, 277 paragraphs, killed TWO translators on the
+     32k assistant-OUTPUT-token limit before a minimal-narration agent finished it). -->
+### Oversized single entries (>~150 paragraphs)
+
+A few entries are a single huge file (100s of paragraphs). The binding limit there is
+your **assistant-OUTPUT-token budget**, not context — verbose per-paragraph narration is
+what kills the run. For such a file: (1) translate and SAVE incrementally in batches of
+~10–20 paragraphs, so nothing is lost if interrupted; (2) keep assistant text **minimal** —
+do NOT echo translations or comment per paragraph; just make the edit calls and end with a
+one-line confirmation. If a normal entry-by-entry run dies mid-file, a fresh agent given
+ONLY that file under this discipline finishes it cleanly.
+
 ### Phase 2: Translate (First Draft)
 
 Write the translation following all the principles below. This is your first draft.

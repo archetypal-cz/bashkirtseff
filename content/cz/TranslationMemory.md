@@ -1663,6 +1663,11 @@ When translating, refer to this document for established translations of recurri
 - Context: French gender-neutral participles and "on" repeatedly got masculine or 3pl Czech forms when Marie herself is the subject (e.g. 089.0274/0390/0544: mysleli→myslela, zaměněn→zaměněna, rád→ráda).
 - Notes: RECURRING CRITICAL class — RED/CON should grep masculine past-tense / "rád" / 3pl forms in 1st-person contexts and verify against the French subject. Marie is feminine singular.
 
+### grand-duc / grande-duchesse → velkovévoda / velkovévodkyně (NOT the old kníže-family forms)
+- Context: Russian imperial великий князь / великая княгиня (and any grand-ducal title). **House ruling (operator, 2026-06-14): use velkovévoda / velkovévodkyně consistently. The grand-prince forms (the velkokníže / velkokněžna / velkokněžata family) are banned project-wide — do not use them.**
+- Declension (vzor *předseda* / m. animate): sg. velkovévoda, velkovévody (gen.), velkovévodovi (dat.), velkovévodu (ak.), velkovévodou (instr.); pl. velkovévodové (nom.), velkovévodů (gen.), velkovévody (ak./instr.). Female: velkovévodkyně, velkovévodkyni (dat./ak.), velkovévodkyň (gen. pl.).
+- Note: agreement follows masc. animate (velcí velkovévodové přišli), NOT neuter (the old "velká knížata přišla" pattern). First locked: cz-104-106 (operator decision); applied corpus-wide.
+
 ### French masc. consonant-final surnames → vzor *pán*, NO inserted -u-
 - Context: French masculine surnames ending in a consonant decline straight as vzor *pán* — do NOT insert a spurious -u- before the ending.
 - Correct: Doucet → Doucetovi (NOT Doucet**u**ovi), Ballote → Balloteovi, Lepage → Lepagovi/Lepagy.
