@@ -63,7 +63,7 @@ const add = (f: Finding) => findings.push(f);
 
 const entryFiles = fs
   .readdirSync(dir)
-  .filter((f) => f.endsWith('.md') && !f.startsWith('.') && f !== 'README.md' && f !== 'PROGRESS.md')
+  .filter((f) => f.endsWith('.md') && !f.startsWith('.') && f !== 'README.md' && f !== 'PROGRESS.md' && f !== '_summary.md')
   .sort();
 
 // An empty carnet must not silently PASS — there is nothing to verify.
