@@ -521,7 +521,16 @@ function processTextToHtml(text: string, lang: string = 'original'): { html: str
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     // Convert *italic* and _italic_ to em
     .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-    .replace(/(?<!\w)_([^_]+)_(?!\w)/g, '<em>$1</em>');
+    .replace(/(?<!\w)_([^_]+)_(?!\w)/g, '<em>$1</em>')
+    // Preserve in-cluster line breaks. A single paragraph cluster can hold
+    // several source lines (e.g. consecutive dialogue lines, each on its own
+    // line under one `%% NNN.NNNN %%` id). They are joined with "\n" upstream;
+    // without this, the newlines collapse to spaces in HTML and the speech
+    // lines run together. Exempt the newline that follows a block-level <h2>
+    // date heading: <h2> manages its own spacing, so a <br> there is a stray
+    // gap — and keeping the bare "\n" also preserves the separator for the
+    // plain-text/meta-description paths that strip tags from this html.
+    .replace(/(?<!<\/h2>)\n/g, '<br>\n');
 
   return { html, footnoteRefs };
 }
