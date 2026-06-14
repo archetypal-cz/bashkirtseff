@@ -90,6 +90,14 @@ Is this still Marie speaking?
 - [ ] All LAN recommendations followed (check LAN comments)?
 - [ ] TranslationMemory terms used consistently?
 - [ ] Frontmatter entities referenced correctly (check `entities` section for glossary context)?
+<!-- Teamcouch update 2026-06-14: explicit source-completeness / omission check.
+     Evidence (missing-source-content defect class, 3 reports): uk-006-017 (a fully
+     omitted French sentence at 009-14 + a dropped [Rayé:] word in 011 + a place-name
+     mistranslated as an idiom in 016, all in never-RED'd early-wave carnets),
+     uk-075-077 (summary-translated entry), cz-080-082 (entries imported from a different
+     published edition). A naturalness read does NOT catch a sentence that simply isn't
+     there — only a line-by-line French-vs-translation pass does. -->
+- [ ] **Completeness (compare against the French):** every French source sentence/paragraph is represented — no silently dropped sentences, clauses, or `[Rayé:]`/marginal fragments. Walk the original paragraph-by-paragraph against the translation; a roughly equal paragraph-ID count is a quick signal (a benign −1 is the original's terminal metadata-only block), but a count match does NOT prove coverage — confirm content, not just count. This is the single highest-value check on any entry that has never had an editor pass.
 
 <!-- Teamcouch update 2026-06-06: mechanical structural-integrity check.
      Evidence: cz-050-055 (1,515 broken glossary links slipped past RED+CON) and
