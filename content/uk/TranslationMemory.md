@@ -2269,3 +2269,307 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 
 ### Review note
 - 2026-06-13: Carnet 088 CON complete, ~0.94, all 57 conductor_approved. RED 0.95. CON fixes: «преподобний Віар»→«монсеньйор Віар» (1×). Confirmed RED judgment-calls (Soutzo spelling, 0159 «на нозі», 0067 «Святе ім'я»). All TRAPs held (Paul=father, Défunt=Cassagnac-conceit, parle-nègre neutral). verify-carnet PASS. (con-088)
+
+---
+
+# UK Frontier Wave 084–103 Additions (2026-06-14)
+
+Consolidation of new canonical terms from the 15-carnet wave that **completed the UK corpus**
+(carnets 084, 085, 086, 087, 089, 090, 091, 092, 094, 095, 096, 097, 098, 102, 103 — chronologically
+1879–1884). This is the core **Académie Julian / art-world arc**, previously uncaptured in the TM.
+Read with the cross-carnet resolutions at the end of this block.
+
+## Académie Julian / Art-World standing block (recurs across 075–103)
+
+### Masters, dealers, critics
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Rodolphe Julian / le père Rodolphe / R.P. Julian | Жюліан / батечко Родольф / преподобний отець Жюліан | Atelier head. LOCK: «Жюліан» all-Cyrillic. «батечко»/«преподобний отець» = ironic-familiar registers |
+| Tony Robert-Fleury | Тоні (Робер-Флері) | Julian master; «Тоні» alone for given-name reference |
+| Carolus-Duran / le père Charles | Каролюс-Дюран / батечко Шарль | decl. Каролюса, Каролюсом-Дюраном |
+| Bastien-Lepage (Jules) / le vrai Bastien / Émile (l'architecte) | Бастьєн-Лепаж / Жюль / справжній Бастьєн / Еміль (архітектор) | (TM-locked) painter «Жюль»; architect brother Émile = «архітектор» |
+| Breslau (Louise) | Брезло | LOCK (line 120) — NEVER «Бресло» |
+| Carrier-Belleuse / Gervex / Cabanel | Кар'є-Беллез / Жерве / Кабанель | |
+| Albert Wolff | Альбер Вольф / Вольф | Le Figaro art critic |
+| Munkácsy / Hecht / Saint-Marceaux | Мункачі / Гехт / Сен-Марсо | Гехт decl. Гехта; Сен-Марсо indeclinable |
+| le Surprenant (Audiffret) | Дивовижний | (TM line 62) |
+
+### Art / atelier / Salon vocabulary
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| le feu sacré (du génie) | священний вогонь (генія) | sacred fire of vocation |
+| en plein air / peindre en plein air | на пленері / малювати на пленері | adverbial; bare noun «пленер» rare |
+| une pochade | начерк олією / швидкий начерк | quick oil sketch |
+| esquisse / croquis (au fusain) | ескіз / начерк (вуглиною) | |
+| valeurs (d'un tableau) | тональні відношення | tonal values |
+| de chic | з голови | drawn from memory, not life |
+| grandeur nature / en pied | в натуральну величину / на повний зріст | |
+| ronde-bosse / modelage / carcasse en fer | кругла скульптура / ліплення / залізний каркас | sculpture vocab |
+| toile de 25 / de 15 / de six | полотно розміру 25 / 15 / шість | French canvas formats (footnote cm on first use) |
+| documents humains | людські документи | (TM) Goncourt/naturalist term, italic |
+| médaille / bonne exposition | медаль / гарне розміщення на Салоні | Salon award / good hanging |
+| cimaise / reçu(e) avec n° 1·2·3 / ballotage | карниз (на рівні очей) / прийнято з номером 1·2·3 / повторне голосування | Salon prestige line; jury ranking by votes; run-off |
+| rapin | невдаха-маляр / учень-маляр | hack/failing art student |
+| vernissage | вернісаж / закритий перегляд | varnishing-day preview |
+| artisan vs artiste | ремісник vs митець | Marie's load-bearing distinction |
+
+## Carnet 084 Additions (Paris, Jan–Apr 1879 — Académie Julian begins, Cassagnac fallout)
+### People & Nicknames (Carnet 084)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Paul (the brother) | Поль (брат) | TRAP: in 084 "Paul" = Marie's brother (portrait, chaperone) |
+| Paul / le patron (atelier gossip, 04-25) | Жюліан (господар ательє) | TRAP: scandal "Paul"/"le patron" = Rodolphe Julian (RSR: gossip re Julian's wife) |
+| Antoine Blanc / Dr. Blanche | Антуан Блан / доктор Бланш | |
+| Multedo | Мультедо | suitor; indeclinable exc. Мультедові |
+| Mme de Pourtalès / Mme Gavini (Adeline) | пані де Пуртале / пані Ґавіні (Аделіна) | |
+### Period Vocabulary & Idioms (Carnet 084)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Homme je serais remarquable, femme je suis malheureuse | Чоловіком я була б видатна, жінкою — нещасна | key feminist line; keep antithesis |
+| fait la pluie et le beau temps | верховодить | rules the roost (not weather) |
+| les bras me tombent | у мене опускаються руки | despair idiom |
+| bronze florentin (épithète d'Arnaud) | флорентійська бронза | Marie's epithet for Arnaud |
+| mon... mâle (Cassagnac) | мій... самець | naturalist register, faithful |
+| concours hippique | (кінні) перегони | |
+| Laferrière | Лафер'єр | LOCK (con-084) — supersedes «Лаферр'єр»/«Лаферрьєр» (see resolutions) |
+
+## Carnet 085 Additions (Paris, Apr–Aug 1879 — Cassagnac immersion, Putiphar cipher)
+### People & Nicknames (Carnet 085)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Putiphar / Petit Phare (= Joseph Arnaud) | Потіфар / Малий Маяк | code-cipher (Potiphar's-wife allusion); "Petit Phare" phonetically masks "Putiphar" |
+| Émile d'Audiffret | Еміль д'Одіффре | |
+| Plonplon (Prince Napoléon-Jérôme) | Плонплон | |
+| Géry (le père) | Жері (батько) | TRAP: the father, not the attaché son; source gender-slip "la" → masc. |
+### Period Vocabulary & Idioms (Carnet 085)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| multedophile (coinage) | мультедофіл | neologism |
+| citoyen Joseph / Putiphar / Petit Phare (Arnaud codes) | громадянин Жозеф / Потіфар / Малий Маяк | |
+| planter là | кинути напризволяще | |
+| patito (Italian) | ==patito== | "lovesick swain"; keep Italian + footnote |
+
+## Carnet 086 Additions (Paris, Aug–Dec 1879 — Salon prep, Gambetta circle, artists' dinners)
+### People & Nicknames (Carnet 086)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Gambetta (Léon) | Ґамбетта | 086/087/089 use «Ґамбетта» (Ґ); see resolutions (097+ use Г) |
+| la citoyenne Gambetta | громадянка Ґамбетта | Marie's theatrical self-title |
+| Lepère (le père la pipe) | Лепер / батечко Люлька | Interior Minister; pun |
+| Karageorgevitch | Караджорджевич | NORMALIZED 2026-06-14 from stray «Карагеоргевич» (9×) to match 084/085/087 |
+### Period Vocabulary & Idioms (Carnet 086)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| un effet bœuf | справили шалене враження | period hyperbole (not "beef") |
+| un beau mâle / coucher avec un homme | гарний самець / спати з чоловіком | naturalist/blunt register, faithful |
+| polisson de physique | шалапутна врода | Blanc's self-praise catchphrase |
+| le grand chasseur devant le Seigneur | великий ловець перед Господом | Nimrod (Gen 10:9), Gambetta hunting pun |
+| le père X (older man) / le vieux X | старий X | affectionate, NOT literal "father" |
+| ce juif / le juif (neutral) vs Sale Juif (slur) | цей єврей (нейтрально) vs Брудний жид (лайка) | register split — faithful, uncensored |
+| Manet Thécel Phares | (kept + footnote) | painter Manet + "Mene Tekel Peres" (Dan. 5) |
+
+## Carnet 087 Additions (Paris, Dec 1879–Apr 1880 — Soutzo courtship surge, biblical-allegory motif)
+### People & Nicknames (Carnet 087)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Joseph Arnaud (= "saint Joseph") | Жозеф Арно (= святий Йосип) | biblical-allegory mapping |
+| Gabriel Géry ("le Pur / le chaste") | Гавриїл Жері (= архангел; «Чистий / цнотливий») | allegory: archangel |
+| Mme Adam (Juliette Lamber) | пані Адам (Жюльєтта Ламбер) | |
+| Patchenko (family) | Патченко | LOCK (matches 092); supersedes source variants "Pachtenko"/"Patchenko" |
+| Petitphar (= Arnaud, dimin.) | Потіфарчик | diminutive of the Putiphar cipher |
+### Period Vocabulary & Conventions (Carnet 087)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| jérômiste | жероміст | Prince-Jérôme Bonapartist faction |
+| lacédémonades (coinage) | спартанства | neologism |
+| cruche cassée de Greuze | розбитий глек Ґреза | lost-virtue allusion + footnote |
+| biblical allegory (Vierge / Gabriel / Joseph) | Діва Марія / архангел Гавриїл / святий Йосип | preserve the ironic чистота/чеснота mockery throughout |
+| garbled date-headers (TRAP 0393/0499/0618/0788) | reproduce BOTH masthead lines | Marie's faithful copying of misprints — do NOT fix |
+
+## Carnet 089 Additions (Paris, Jun–Oct 1880 — Julian atelier, sculpture, Soutzo endgame)
+### People & Nicknames (Carnet 089)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Nervo / "Potin" | Нерво / «Пльоткар» | THE 089 gossip-pun (potin=gossip); mock-firm «Нерво, Пльоткар і Ко» — footnote on first use |
+| Alexis le somnambule | Алексіс-сомнамбула | TRAP: the clairvoyant medium, NOT her Serbian friend Alexis |
+| Doucet (Prix de Rome) | Дусе | indeclinable |
+### Period Vocabulary & Idioms (Carnet 089)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| en-cas (coinage: "spare fiancé") | запасний варіант | footnote |
+| article 7 / dispersion des Jésuites | сьома стаття / розгін єзуїтів | Ferry laws 1880 |
+| waterproof / stick / high life / "That is the question" | ==waterproof== / ==stick== / ==high life== / ==…== | English code-switch + footnote |
+| OCR two-column damage (bare \| , broken breaks) | preserve as-is | TRAP — do NOT smooth |
+
+## Carnet 090 Additions (Paris, Oct–Dec 1880 + Apr 1882 coda — feminist-press episode)
+### Feminist press & pseudonyms (Carnet 090) — never previously captured (carnet has 0 TR comments)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Le Droit des femmes (société) | «Право жінок» (Товариство) | Auclert's org; "siège social"→«Головна управа» |
+| La Citoyenne (newspaper) | «Громадянка» | Auclert's feminist paper |
+| citoyenne(s) (address) | громадянка / громадянки | revolutionary-feminist register |
+| Hubertine Auclert | Юбертіна Оклер | lead suffragist |
+| Pauline Orell (Marie's alias) | Полін Орель | feminist pen-name / "double existence" |
+| Alexandrine Norscott (de Daillens's alias) | Александрін Норскотт | |
+| «L'égale de l'homme» (Girardin) | «Рівна чоловікові» | |
+
+## Carnet 091 Additions (Paris, Feb–May 1881 — Breslau rivalry, Salon catalogue)
+### People & Vocabulary (Carnet 091)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Brisbane (model) | Брізбен | TRAP: Marie's life-model, NOT a rival; distinct from Breslau («портрет Брізбен у позі Рекам'є») |
+| Balandard (everyman) | Баландар | generic petit-bourgeois "nobody" |
+| blackbouler | забалотувати | naturalized anglicism |
+| galbeuse / ministresse / mauvaiseté / perspecteurs [sic] | зграбна / міністерша / лихість / перспектори [sic] | Marie's coinages, keep [sic] |
+| ispravnik | справник | Russian district police chief; footnote |
+
+## Carnet 092 Additions (May–Aug 1881 — Russia/Ukraine estate-sale journey)
+### Places / Toponyms (Carnet 092)
+| Source | Ukrainian | Notes |
+|--------|-----------|-------|
+| Sourny [sic] (Soumy) | Суми | locative «у Сумах» |
+| Kremontchougy [sic] | Кременчук | |
+| Vichnevka / Vichnivka | Вишнівка | the estate in the lawsuit |
+| Karkoff [sic] | Харків | decl. Харкова/Харкові — correct UK, NOT Russianism |
+| Kiev / Dnieper | Київ / Дніпро | |
+### People & Idioms (Carnet 092)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Paul (frère) | Поль | TRAP: in 092 Russia context = the brother |
+| Vassilissa (great-aunt) | Василиса | NORMALIZED 2026-06-14 from «Василісу»→«Василису» to match 066 lock |
+| Lihopoy / Sviatopolk-Mirsky | Ліхопой / Святополк-Мирський | |
+| on massacre les Juifs (1881 pogroms) | б'ють євреїв | ethnic sense, neutral; TRAP: not the surname Жід |
+| coiffer | наставити роги | vulgar: to cuckold |
+| me gâter (ironic) | «балувати» (в лапках) | TRAP: keep ironic scare-quotes, do NOT flatten |
+| by-design mid-clause cuts + verbatim cross-day repeats | preserve un-merged | LAN:TRAP (frequent here) |
+
+## Carnet 094 Additions (Nov 1881–Apr 1882 — Charcot illness, Nice Carnival)
+### People & Idioms (Carnet 094)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Charcot | Шарко | neurologist; lung verdict (formal лікарське «ви») |
+| P. Orell (pen-name) | П. Орель | Vie Mondaine chronicle |
+| sous-Potain | недо-Потен | ironic medical put-down |
+| la Cruche cassée (Greuze) / Le drapeau (Bertrand) | Розбитий глек / Прапор | paintings |
+| je vois rouge | мені темніє в очах | idiom, NOT calque |
+| il n'y a pas de fumée sans feu | нема диму без вогню | proverb |
+| name-pun games (Bojidar-naca, Dina-mythe, Bashkirseff-ichez…) | kept FRENCH + footnote | untranslatable, loss documented |
+
+## Carnet 095 Additions (Apr–Jul 1882 — Académie Julian, Salon)
+### Idioms & Expressions (Carnet 095)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| boulevardier | гульвіса | |
+| épouseurs décavés / redorer les blasons | розорені женихи / підновити герби | ruined fortune-hunters / gild faded coats-of-arms |
+| cousu de fil blanc | шите білими нитками | transparent pretext |
+| ronger son frein | гризти вудила | chafe at restraint |
+| il y a un cadavre entre nous | між нами труп | shared secret binding like accomplices |
+| Cythère / faune | Кітера / фавн | isle of love / seducer |
+| Pouah! | Тьфу! | (TM) |
+| le Défunt (Cassagnac conceit) | Покійний | per 088 lock (see resolutions) |
+
+## Carnet 096 Additions (Aug–Oct 1882 — Académie Julian + Gavronzi/Ukraine trip)
+### People & Places (Carnet 096)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Kotchoubey (Victor / Basile-Vassily) | Кочубей (Віктор / Василь) | living neighbour princes — distinct individuals from the Dikanka/Pushkin Kochubey (TM 066) |
+| Tchoumakoff (le père / le vieux) | Чумаков (батечко / старий) | |
+| Likhopoï / Garnitsky / Mitchka | Ліхопой / Гарницький / Мічка | Gavronzi circle |
+| Gavronzi / Dikanka / Znamenka / Poltava | Гавронці / Диканька / Знам'янка / Полтава | homeland toponyms |
+### Coinages & Idioms (Carnet 096)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| matrimonisme (coinage) | матримонізм | |
+| Alphonse (slang) | сутенер | period "pimp" |
+| baignoire (theatre) | ложа бенуар | |
+| à bouche que veux-tu | цілуватися від душі | |
+| pour des prunes / ne profitera qu'au roi de Prusse | недарма / піде на користь хіба що прусському королю | |
+| starovoï / pope | староста / піп | Russian rural office / Orthodox priest |
+
+## Carnet 097 Additions (Oct 1882–Jan 1883 — deafness + TB diagnoses, Gambetta's death & funeral)
+### Political cast (Gambetta funeral) (Carnet 097)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Gambetta (Léon) | Гамбетта | 097/102/103 use «Гамбетта» (Г) — see resolutions; decl. Гамбетти/Гамбетту |
+| Clemenceau / Grévy / Floquet / Rochefort | Клемансо / Греві / Флоке / Рошфор | Клемансо indeclinable |
+| Spuller / Brisson / Chanzy / Skobeleff | Спюллер / Бріссон / Шанзі / Скобелєв | |
+### Funeral & medical vocabulary (Carnet 097)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| enfouissement civil | цивільний похорон | civil burial, no rites |
+| catafalque / le dais / poêle (drap mortuaire) | катафалк / балдахін / покрив | NOT «піч» for poêle |
+| âmes-mitres (coinage) | душі в митрах | contempt for devout aristocratic women |
+| poitrinaire | сухотниця / сухотник | TB patient |
+| vésicatoire / pointes de feu | наривний пластир / припікання | blistering plaster / cauterization |
+| bouillir / divine fournaise | вирувати / казан, горнило | TRAP: energy/ferment, NOT anger (see resolutions) |
+| Le roi s'amuse / L'espoir en Dieu | «Король бавиться» / «Надія на Бога» | Hugo / Musset — footnote |
+
+## Carnet 098 Additions (Jan–Mar 1883)
+No distinct new named entities — carries forward 097's illness/Gambetta vocabulary and the Bastien cast.
+Notable: «Жід/Жіди» = the **Jide family surname** (NOT the slur «жиди») — RED disambiguation, matches 095/103/104.
+rastaquouère→«вискочень»; faire une fin→«влаштувати своє життя»; Ouida→«Уїда»; Nausicaa→«Навсікая».
+
+## Carnet 102 Additions (Oct 1883–Jan 1884 — Paris winter, Salon prep, Bastien cult, Orthodox feasts)
+### People / Works (Carnet 102)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Mackay / la mère Makay | Маккей / стара Маккей | (TM lock «Маккей»); contemptuous "la mère Makay"→«стара Маккей» |
+| les Rieurs / Sur l'eau | «Сміхуни» / «На воді» | Marie's series / planned painting |
+| Hérodiade (Massenet) | «Іродіада» | decl. Іродіади |
+| Damvillers | Дамвіллер | (CON-normalized; Bastien's home town) |
+### Idioms / conventions (Carnet 102)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| il n'y avait pas un chat | ані душі | |
+| ça crève les yeux / un coup de massue | це впадає в очі / удар довбнею | |
+| à la bonne heure | оце інша річ! | NOT time-related (TM-confirmed) |
+| le pope / Noël pour les Russes / starovoï | піп / православне Різдво / старовой(староста) | Julian-calendar Orthodox terms |
+| la gentry parisienne (English) | ==gentry== + footnote | |
+| ce gros Juif (of Julian) | цей гладкий єврей | period antisemitic epithet on a named person — kept literal, faithful (see resolutions) |
+| NAMING TRAP | "Paul"=Cassagnac (le Lui des femmes) vs "Paul"=brother (telegram) | two Pauls by context |
+
+## Carnet 103 Additions (Jan–Apr 1884 — Bastien death-watch, Salon 1884, final stretch)
+### People (Carnet 103)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Canrobert (le maréchal) / la maréchale / Claire | Канробер / маршалова / Клер | "sacrés Canrobert"→«кляті Канробери» |
+| princesse Mathilde / duchesse d'Uzès | принцеса Матильда / дюкеса д'Юзес | |
+| Mme Madeleine Lemaire / Louise Abbéma | пані Мадлен Лемер / Луїза Аббема | painters/salonnières |
+| Guy de Maupassant ("l'inconnu") | Гі де Мопассан | the anonymous correspondent |
+| Gayarré / Marchesi | Гаярре / Маркезі | Spanish tenor / singing teacher |
+### Works (Carnet 103)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| Nausicaa / Un Meeting (les gamins) / Le Soir | Навсікая / «Збори» / «Вечір» | Marie's planned/Salon paintings |
+| Jeanne d'Arc / Les blés / Bergers de Bethléem | «Жанна д'Арк» / «Жнива» / «Пастухи у Вифлеємі» | Bastien-Lepage |
+### Period vocabulary & idioms (Carnet 103)
+| French | Ukrainian | Notes |
+|--------|-----------|-------|
+| crever (of TB) / poitrinaire | здохнути / сухотний | coarse register |
+| en cheveux / race | простоволоса / порода | bareheaded (improper) / "good breeding" (not "race") |
+| estaminet / mastroquet | низькопробний шинок / шинкар | |
+| cimaise / reçu avec n°1 | карниз (на рівні очей) / прийнято з номером 1 | Salon prestige line / unanimous jury vote |
+| tuile | от тобі й маєш / лихо звалилося | unexpected misfortune |
+| je ne lui arrive pas à la cheville | і до кісточок йому не дістаю | can't hold a candle |
+| plein-airiste [sic] | пленерист | Marie's neologism (plein-air applied to music) |
+| Gloria Cupiditas [sic] (colophon to 104) | «Слава, Жадоба» | Latin motto + gloss; "[Livre]"→«[Зошит]» |
+
+## Cross-Carnet Consistency Resolutions (Wave 084–103, 2026-06-14)
+
+Surfaced by the consolidation pass; **decided canon** + which committed carnets drift.
+
+| Term | Canon | Drift / status |
+|------|-------|----------------|
+| **Karageorgevitch** | **Караджорджевич** (Serbian-faithful) | 086 had «Карагеоргевич» ×9 → **NORMALIZED in files 2026-06-14**. 084/085/087 already correct. |
+| **Vassilissa** (great-aunt) | **Василиса** (066 lock) | 092 had «Василісу» → **NORMALIZED in files 2026-06-14**. |
+| **Laferrière** | **Лафер'єр** (con-084 lock) | TM previously had «Лаферрьєр»/«Лафер'єр»; 084 drift «Лаферр'єр» was CON-fixed. Repo-wide normalization of older carnets still pending. |
+| **Patchenko** (family) | **Патченко** | 087 source variants "Pachtenko"/"Patchenko" CON-normalized; matches 092. |
+| **le Défunt** (Cassagnac conceit) | **Покійний** (088 lock) | PENDING file fix: 084 has some «Покійник», 085 uses «Покійник» ×6. (Caution: «покійник» = literal "dead man" elsewhere — verify context before replacing.) |
+| **Popaul** (Cassagnac diminutive) | recommend **«Попол»** (majority: 086/087/091) | PENDING decision (stylistic): 084 «Попотик», 085 «Попо́ль», 089 «Польчик». Not auto-normalized — literary-voice call. |
+| **Gambetta** | UNRESOLVED — orthography policy | 086/087/089 «Ґамбетта» (Ґ, 67×) vs 090/097/102/103 «Гамбетта» (Г, 35×). Corpus-wide [g]→Ґ/Г question (affects Goya, Gautier, Greuze too); needs a project-level decision before mass-normalizing. |
+| **antisemitic register** (reaffirm) | direct slur on a *named person* → literal/faithful («цей гладкий єврей», «Брудний жид»); a slur-word used as a *generic idiom* → neutralize («parle nègre») | harmonizes 088 vs 100/102/103 |
+| **bouillir / fournaise** vs **rager/rage** | bouillir/fournaise → «вирувати / казан-горнило» (energy); rager/rage → «лютувати/лють» (anger) | two false friends; keep separate |
+| **le père X / le vieux X** (familiar) | «батечко X» (ironic-affectionate) / «старий X» | NOT «отець» (priest) unless clergy |
+
+### Updated
+- 2026-06-14: UK frontier wave 084–103 consolidated (15 carnets, UK corpus now 100% complete). Two file normalizations applied (Караджорджевич ×9 in 086; Василису in 092). Three drifts flagged for follow-up (le Défunt→Покійний in 084/085; Popaul form; Gambetta Г/Ґ corpus-wide). See `.claude/reports/2026-06-14-uk-084-103.md`.
