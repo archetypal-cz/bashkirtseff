@@ -695,3 +695,17 @@ automated harvest (reverted to its prior 12-footnote state this run).
 | carnet | paragraph | key | reason |
 |---|---|---|---|
 | 066 | 066.0324 | [^1] | no-fr-text |
+
+## Carnet 082 reconciliation (done separately)
+
+082 uses a deliberate compound-key scheme `[^82.NNNN.X]` shared by EN and `_original`.
+The prior `_original/082` held **12 dangling defs** (def, no inline ref): 4 overlapping EN,
+8 orig-only. Reconciled by removing the 4 EN-overlapping dangling defs and harvesting EN:
+- **42 of 43 EN footnotes** now placed correctly (ref+def), 0 misplaced; 1 EN footnote
+  unplaceable (its paragraph absent in the French source).
+- **8 orig-only research notes remain dangling defs** (not in EN; key→paragraph mapping is
+  unreliable so not auto-anchored): 82.506.1 (Russian nihilism), 82.509.1 (1878 Paris
+  Exposition), 82.522.1 (Grand Duke Constantine), 82.526.1 ("J'y suis j'y reste"), 82.567.1
+  (dessiatine), 82.585.1 (Cassagnac elections), 82.678.1 (Albert Gigot), 82.702.1 (Kaeso
+  Quinctius). **TODO: manually anchor these in `_original`, and propagate them up to EN**
+  (canonical set) so they sync to all languages.
