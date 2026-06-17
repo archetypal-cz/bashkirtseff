@@ -703,9 +703,13 @@ The prior `_original/082` held **12 dangling defs** (def, no inline ref): 4 over
 8 orig-only. Reconciled by removing the 4 EN-overlapping dangling defs and harvesting EN:
 - **42 of 43 EN footnotes** now placed correctly (ref+def), 0 misplaced; 1 EN footnote
   unplaceable (its paragraph absent in the French source).
-- **8 orig-only research notes remain dangling defs** (not in EN; key→paragraph mapping is
-  unreliable so not auto-anchored): 82.506.1 (Russian nihilism), 82.509.1 (1878 Paris
-  Exposition), 82.522.1 (Grand Duke Constantine), 82.526.1 ("J'y suis j'y reste"), 82.567.1
-  (dessiatine), 82.585.1 (Cassagnac elections), 82.678.1 (Albert Gigot), 82.702.1 (Kaeso
-  Quinctius). **TODO: manually anchor these in `_original`, and propagate them up to EN**
-  (canonical set) so they sync to all languages.
+- **8 orig-only dangling defs — RESOLVED as redundant duplicates.** On inspection each was a
+  superseded earlier draft of an EN footnote that is now placed inline under a different key
+  (506→116 nihilism, 509→126 Exposition, 522→146 Constantine, 526→152 "J'y suis", 567→207
+  dessiatine, 585→231 Cassagnac, 678→339 Gigot, 702→369 Kaeso). Anchoring them would have
+  duplicated the fact in-paragraph, so they were **deleted**. First, the extra factual detail
+  the 4 richer drafts carried was **merged into the canonical EN footnotes** (in both `en/082`
+  and `_original/082`): nihilist writers Chernyshevsky/Pisarev (116), Constantine "in Paris
+  during the 1878 Exposition" (146), MacMahon "when ordered to abandon a captured position"
+  (152), Kaeso "accused of treason and fled into exile" (369). Final `_original/082`: 42 defs /
+  42 refs, 0 dangling, 0 duplicates.
