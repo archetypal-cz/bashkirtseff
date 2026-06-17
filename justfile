@@ -125,6 +125,18 @@ theme-tag *FLAGS:
 propagate-tag *FLAGS:
     python3 src/scripts/propagate_glossary_tag.py {{FLAGS}}
 
+# Harvest reader-facing [^n] footnotes from a translation (default: English) into the
+# French source, so future/new-language translations inherit them via the sync tool.
+# Additive/idempotent; default dry-run, pass --apply to write. Confidence tiers:
+#   HIGH (italic French term / end-of-paragraph), MED (--med: conservative proper-noun
+#   anchor — leading def segment or its distinctive token, unique case-sensitive literal
+#   match in the French prose), LOW (flagged, placed at paragraph end for review).
+#   --high-only applies all deterministically anchored footnotes (HIGH+MED), skipping only
+#   LOW (implies --med). --selftest validates anchoring against carnet 063 ground truth.
+# e.g. just harvest-footnotes --carnet 063 --med --report .claude/reports/footnote-harvest-063.md
+harvest-footnotes *FLAGS:
+    python3 src/scripts/harvest_footnotes.py {{FLAGS}}
+
 # Repair broken glossary links in translations by resolving each target's basename
 # to the entry's real location (subcategory/category moves, bare-name/old styles).
 # Run AFTER the path-depth fix. Default dry-run; pass --apply. e.g. just remap-glossary-links --langs fr,uk --apply
