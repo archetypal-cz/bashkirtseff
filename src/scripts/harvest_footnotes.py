@@ -182,26 +182,36 @@ def parse_en_footnotes(lines, clusters):
         cluster_text[c['pid']] = '\n'.join(body)
     cluster_order = [c['pid'] for c in clusters]
 
-    # 3) anchor each def to the cluster whose prose contains its inline [^key] ref.
+    # 3) inline-ref OCCURRENCES in document order, per key. A key is NOT unique per file:
+    #    footnote numbering restarts per diary entry, so the same [^1] can recur. We must
+    #    pair by occurrence, not by key-search-first (which would collapse every [^1] into
+    #    the first paragraph and stack refs/defs). cluster_text holds prose only (def lines
+    #    excluded), so finditer yields inline refs in positional order.
+    ref_occ = {}   # key -> [ {pid, en_end}, ... ] in document order
+    for pid in cluster_order:
+        txt = cluster_text[pid]
+        for m in re.finditer(r'\[\^([^\]]+)\]', txt):
+            tail = txt[m.end():]
+            tail = re.sub(r'["\'”’)\].,;:!?\s]', '', tail)
+            tail = re.sub(r'\[\^[^\]]+\]', '', tail)
+            ref_occ.setdefault(m.group(1), []).append({'pid': pid, 'en_end': (tail == '')})
+
+    # 4) pair the i-th def of a key with the i-th [^key] inline-ref occurrence. Identical
+    #    to a single match for unique keys; correct for duplicate keys. A def with no
+    #    remaining ref occurrence (orphan) stays at the def's own paragraph (end-fallback).
     out = {}
+    used = {}
     for d in all_defs:
-        ref_token = f'[^{d["key"]}]'
-        target_pid, en_end, en_ref_found = None, False, False
-        for pid in cluster_order:
-            pos = cluster_text[pid].find(ref_token)
-            if pos != -1:
-                target_pid, en_ref_found = pid, True
-                tail = cluster_text[pid][pos + len(ref_token):]
-                tail = re.sub(r'["\'”’)\].,;:!?\s]', '', tail)
-                tail = re.sub(r'\[\^[^\]]+\]', '', tail)
-                en_end = (tail == '')
-                break
-        if target_pid is None:
-            # orphan def: no inline ref anywhere in the file -> best we can do is keep it
-            # at the def's own paragraph (will land at end-fallback there, flagged).
-            target_pid = d['def_pid']
+        key = d['key']
+        i = used.get(key, 0)
+        occs = ref_occ.get(key, [])
+        if i < len(occs):
+            target_pid, en_end, en_ref_found = occs[i]['pid'], occs[i]['en_end'], True
+        else:
+            target_pid, en_end, en_ref_found = d['def_pid'], False, False
+        used[key] = i + 1
         out.setdefault(target_pid, []).append({
-            'key': d['key'],
+            'key': key,
             'def_text': d['def_text'],
             'term': d['term'],
             'en_end_of_para': en_end,

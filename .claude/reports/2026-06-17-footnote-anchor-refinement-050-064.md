@@ -440,3 +440,22 @@ refined to the precise word in a later pass.
 | 051 | 051.0016 | [^it1] | no-fr-text | In Italian in the original. From Rossini's *Il barbiere di Siviglia*, Don Basili |
 | 051 | 051.0038 | [^it4] | no-fr-text | In Italian in the original: *Capite bene signor imiei, capite, voi capite ne son |
 | 064 | 064.0393 | [^1] | no-fr-text | Russia still used the Julian ("Old Style") calendar, which ran 13 days behind th |
+
+## Known edge cases (post-audit, commit after 676aba4d8)
+
+**Duplicate same-key footnotes within a file (mirrors EN — flag for upstream EN fix).**
+Footnote numbering restarts per diary entry, so `[^1]` recurs in a single file. The
+harvester now pairs the i-th def with the i-th inline-ref occurrence (positional), so each
+lands in its correct paragraph — but two `[^1]:` defs in one file can still mis-render
+(most renderers bind both refs to the first def). This is inherited from EN, which has the
+identical structure; fix it in EN first (renumber), then re-harvest. Affected (both mirror EN):
+- 056/1876-03-30.md — `[^1]` ×2 (056.0096 *position fausse*, 056.0147 *Le Surprenant*)
+- 062/1876-06-10.md — `[^1]` ×2 (062.0304 Epictetus, 062.0310 *Mignon*)
+
+**EN dangling defs completed at the def's paragraph (4).** EN has the `[^k]:` def but no
+inline `[^k]` marker; the harvester adds the ref at the def's paragraph (end-fallback).
+056.0157 [^3], 056.0253 [^3], 056.0052 [^1], 056.0280 [^4] — refine anchor or fix in EN.
+
+**Un-harvested EN footnotes (6).** Def present in EN, absent in `_original/` — custom
+`==highlight==`-attached keys or EN dangling refs: 050/1875-12-02 [^1]; 050/1875-12-25
+[^1],[^4]; 051/1875-12-27 [^it1],[^it4]; 064/1876-08-04 [^1]. Triage upstream in EN.
