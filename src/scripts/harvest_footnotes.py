@@ -63,8 +63,13 @@ def parse_args():
     p.add_argument('--apply', action='store_true',
                    help='write changes (default: dry-run, no writes)')
     p.add_argument('--high-only', dest='high_only', action='store_true',
-                   help='only harvest HIGH-confidence footnotes; skip LOW/needs_review '
-                        'entirely (no def AND no ref inserted for LOW)')
+                   help='apply only DETERMINISTICALLY ANCHORED footnotes (HIGH italic + '
+                        'MED proper-noun literal); skip only LOW/flagged. Implies --med.')
+    p.add_argument('--med', action='store_true',
+                   help='enable the conservative MED tier: anchor a footnote on its def '
+                        'leading-segment term by an exact, case-sensitive, UNIQUE literal '
+                        'match in the French prose (safety-filtered). Off by default; '
+                        '--high-only turns it on automatically.')
     p.add_argument('--report', default=None,
                    help='optional path to write a markdown dry-run report')
     p.add_argument('--selftest', action='store_true',
@@ -112,36 +117,41 @@ def split_clusters(lines):
 
 
 def parse_en_footnotes(lines, clusters):
-    """Return {pid: [footnote, ...]} for the English file.
+    """Return {pid: [footnote, ...]} for the English file, keyed by the paragraph that
+    holds each footnote's inline [^key] REF (NOT the paragraph the def physically sits in).
 
-    Each footnote: {key, def_text, def_lines, term, en_end_of_para}
+    This matters for ENDNOTES-STYLE entries, where the translator collects all the
+    definitions in a closing block (e.g. a "[End of Cahier]" paragraph) while the inline
+    [^n] markers stay in the earlier prose. Footnote keys restart per file and are unique
+    within a file, so the inline ref location is unambiguous file-wide. A footnote is
+    anchored to its REF paragraph; the def text travels there. For co-located layouts
+    (def right after the paragraph that references it) the ref- and def-paragraphs are the
+    same, so behaviour is unchanged.
+
+    Each footnote: {key, def_text, term, en_end_of_para, en_ref_found, order}
       key            - footnote key (e.g. '1')
       def_text       - full definition body text (may be multi-line, joined with \n)
       term           - leading italic *term* (without asterisks) or None
-      en_end_of_para - True if the inline [^key] ref sits at the end of the English
-                       paragraph's text (after stripping trailing quotes/punct)
-    Footnotes are returned in their English document order within the cluster.
+      en_end_of_para - True if the inline [^key] ref sits at the end of its REF paragraph
+      en_ref_found   - True if an inline [^key] ref was located anywhere in the file
+      order          - English document order of the def (stable ordering within a pid)
     """
-    out = {}
-    n = len(lines)
+    # 1) collect ALL footnote definitions across the file, with the cluster they sit in.
+    all_defs = []
+    order = 0
     for c in clusters:
-        pid, start, end = c['pid'], c['start'], c['end']
-        defs = []                  # (order_index, key, def_text, term)
-        # 1) collect footnote definitions physically inside this cluster
+        start, end, def_pid = c['start'], c['end'], c['pid']
         i = start
-        order = 0
         while i < end:
             m = DEF_RE.match(lines[i].rstrip('\n'))
             if m:
                 key, body = m.group(1), m.group(2)
                 def_body_lines = [body]
                 j = i + 1
-                # multi-line def: continuation lines until blank / next def / para ID
+                # multi-line def: continuation lines until blank / next def / para ID /
+                # %% or [//]: comment (TR/LAN comments can follow a def with no blank line)
                 while j < end:
                     nxt = lines[j].rstrip('\n')
-                    # A def body continues only onto plain text lines. Stop at a blank
-                    # line, the next def, a paragraph ID, or a %% / [//]: comment line
-                    # (TR/LAN/etc. comments can directly follow a def with no blank line).
                     if (nxt.strip() == '' or DEF_RE.match(nxt) or para_id(nxt)
                             or is_comment_or_blank(nxt)):
                         break
@@ -150,51 +160,57 @@ def parse_en_footnotes(lines, clusters):
                 def_text = '\n'.join(def_body_lines).rstrip()
                 term_m = ITALIC_LEAD_RE.match(def_text)
                 term = term_m.group(1).strip() if term_m else None
-                defs.append((order, key, def_text, term))
+                all_defs.append({'key': key, 'def_text': def_text, 'term': term,
+                                 'def_pid': def_pid, 'order': order})
                 order += 1
                 i = j
                 continue
             i += 1
-        if not defs:
-            continue
-        # 2) english body text of this cluster (lines that are real text, not %% / def)
-        en_text_lines = []
-        for k in range(start, end):
+    if not all_defs:
+        return {}
+
+    # 2) per-cluster English body text (real text only, not %% / def lines) — used to
+    #    locate each footnote's inline ref and decide end-of-paragraph.
+    cluster_text = {}
+    for c in clusters:
+        body = []
+        for k in range(c['start'], c['end']):
             ln = lines[k].rstrip('\n')
-            if para_id(ln):
+            if para_id(ln) or is_comment_or_blank(ln) or DEF_RE.match(ln):
                 continue
-            if is_comment_or_blank(ln):
-                continue
-            if DEF_RE.match(ln):
-                continue
-            # English heading line "# Friday, 7 July 1876" still counts as body for
-            # ref-position purposes, but refs never sit on headings, so harmless.
-            en_text_lines.append(ln)
-        en_text = '\n'.join(en_text_lines)
-        # 3) for each footnote, find its inline ref position in the english text and
-        #    decide whether it is at the very end of the paragraph.
-        # Determine end-of-paragraph: position of the last [^...] that is followed
-        # only by closing quotes / punctuation / whitespace until end of en_text.
-        fns = []
-        for order, key, def_text, term in sorted(defs):
-            ref_token = f'[^{key}]'
-            pos = en_text.find(ref_token)
-            en_end = False
+            body.append(ln)
+        cluster_text[c['pid']] = '\n'.join(body)
+    cluster_order = [c['pid'] for c in clusters]
+
+    # 3) anchor each def to the cluster whose prose contains its inline [^key] ref.
+    out = {}
+    for d in all_defs:
+        ref_token = f'[^{d["key"]}]'
+        target_pid, en_end, en_ref_found = None, False, False
+        for pid in cluster_order:
+            pos = cluster_text[pid].find(ref_token)
             if pos != -1:
-                tail = en_text[pos + len(ref_token):]
-                # allow trailing closing quotes, punctuation, footnote refs, spaces
-                tail_stripped = re.sub(r'["\'”’)\].,;:!?\s]', '', tail)
-                # also strip any other footnote ref tokens in the tail
-                tail_stripped = re.sub(r'\[\^[^\]]+\]', '', tail_stripped)
-                en_end = (tail_stripped == '')
-            fns.append({
-                'key': key,
-                'def_text': def_text,
-                'term': term,
-                'en_end_of_para': en_end,
-                'en_ref_found': pos != -1,
-            })
-        out[pid] = fns
+                target_pid, en_ref_found = pid, True
+                tail = cluster_text[pid][pos + len(ref_token):]
+                tail = re.sub(r'["\'”’)\].,;:!?\s]', '', tail)
+                tail = re.sub(r'\[\^[^\]]+\]', '', tail)
+                en_end = (tail == '')
+                break
+        if target_pid is None:
+            # orphan def: no inline ref anywhere in the file -> best we can do is keep it
+            # at the def's own paragraph (will land at end-fallback there, flagged).
+            target_pid = d['def_pid']
+        out.setdefault(target_pid, []).append({
+            'key': d['key'],
+            'def_text': d['def_text'],
+            'term': d['term'],
+            'en_end_of_para': en_end,
+            'en_ref_found': en_ref_found,
+            'order': d['order'],
+        })
+    # preserve English document order within each target paragraph
+    for pid in out:
+        out[pid].sort(key=lambda f: f['order'])
     return out
 
 
@@ -234,12 +250,15 @@ def harvest(args, orig_root=None):
     carnet = args.carnet
     source = args.source
     orig_root = orig_root or REPO_CONTENT
+    # --high-only applies all deterministically-anchored footnotes (HIGH + MED), so the
+    # MED tier must be active when it is set.
+    med_on = bool(getattr(args, 'med', False) or getattr(args, 'high_only', False))
     en_glob = f'{REPO_CONTENT}/{source}/{carnet}/*.md'
     files = sorted(glob.glob(en_glob))
     files = [f for f in files if os.path.basename(f) not in ('README.md', 'PROGRESS.md')]
 
     records = []          # one per harvested footnote, for the report
-    stats = dict(en_footnotes=0, inserted=0, high=0, needs_review=0,
+    stats = dict(en_footnotes=0, inserted=0, high=0, med=0, needs_review=0,
                  skip_already=0, skip_para_missing=0, skip_file_missing=0,
                  skip_low=0)
     # planned writes per source file: { src_path: list of (line_index, kind, text, key) }
@@ -308,16 +327,18 @@ def harvest(args, orig_root=None):
                 # earlier ref inserted this run -> read from text_replacements first)
                 last_line = text_replacements.get(fr_last, src_lines[fr_last])
                 anchor_desc, confidence, new_last_line = _place_ref(
-                    last_line, src_lines, fr_first, fr_last, text_replacements, fn)
+                    last_line, src_lines, fr_first, fr_last, text_replacements, fn,
+                    med=med_on)
 
-                # --high-only: skip LOW/needs_review footnotes outright (no ref, no def)
-                if args.high_only and confidence != 'HIGH':
+                # --high-only: apply all deterministically-anchored footnotes (HIGH and
+                # MED); skip ONLY the LOW/flagged ones (no def, no ref).
+                if args.high_only and confidence not in ('HIGH', 'MED'):
                     stats['skip_low'] += 1
                     records.append(_rec(fn, pid, base, 'skip', 'low-skipped', anchor_desc))
                     continue
 
                 # record the ref edit (always on the last French text line, except the
-                # HIGH italic-anchor case which may be on an earlier fr line)
+                # HIGH/MED anchor cases which may be on an earlier fr line)
                 if new_last_line is not None:
                     line_idx, new_text = new_last_line
                     text_replacements[line_idx] = new_text
@@ -329,6 +350,8 @@ def harvest(args, orig_root=None):
                 stats['inserted'] += 1
                 if confidence == 'HIGH':
                     stats['high'] += 1
+                elif confidence == 'MED':
+                    stats['med'] += 1
                 else:
                     stats['needs_review'] += 1
                 records.append(_rec(fn, pid, base, 'insert', confidence, anchor_desc))
@@ -353,7 +376,8 @@ def _format_def_lines(key, def_text):
     return [first] + rest
 
 
-def _place_ref(last_line, src_lines, fr_first, fr_last, text_replacements, fn):
+def _place_ref(last_line, src_lines, fr_first, fr_last, text_replacements, fn,
+               med=False):
     """Decide where to insert [^key] and return (anchor_desc, confidence, edit).
 
     edit is (line_index, new_line_text) or None.
@@ -362,6 +386,12 @@ def _place_ref(last_line, src_lines, fr_first, fr_last, text_replacements, fn):
         -> insert after it (the leading term is tried first, then any other *...*
         span in the def body, in order; first unique match wins)
       - else english ref at end-of-paragraph -> append at end of last French line
+    MED (only when med=True):
+      - a distinctive proper-noun token from the def's LEADING segment found by an
+        exact, case-sensitive, UNIQUE literal match in the French prose. Conservative
+        safety filters (see _med_anchor) reject titles/articles, generic words, and
+        multi-entity defs. Placed right after the matched token, labelled MED so a
+        human can audit it separately from HIGH.
     LOW (needs_review):
       - append at end of last French line, flagged
     """
@@ -391,12 +421,30 @@ def _place_ref(last_line, src_lines, fr_first, fr_last, text_replacements, fn):
             new_line = line[:insert_pos] + ref + line[insert_pos:]
             return (f'after "{m.group(0)}"', 'HIGH', (idx, new_line))
 
-    # 2) HIGH via end-of-paragraph english ref -> append at end of last French line
+    # 2) HIGH via end-of-paragraph english ref -> append at end of last French line.
+    # This MUST take precedence over the MED tier: when the English ref sits at the end
+    # of its paragraph, the end of the French paragraph is the confirmed home, even if a
+    # proper noun appears mid-paragraph. (Otherwise MED would mis-anchor END footnotes.)
     if fn['en_end_of_para']:
         new_line = _append_ref_end(last_line, ref)
         return ('END', 'HIGH', (fr_last, new_line))
 
-    # 3) LOW / needs_review -> append at end of last French line, flagged
+    # 3) MED (opt-in): only for footnotes that are NOT end-of-paragraph and have no
+    # italic French anchor. Anchor on a distinctive proper-noun token from the def's
+    # leading segment, by exact case-sensitive UNIQUE literal match in the French prose.
+    # Conservative safety filters live in _med_anchor (titles dropped, multi-entity defs
+    # rejected). Labelled MED for separate human audit.
+    if med:
+        term = _med_anchor(fn['def_text'], src_lines, fr_first, fr_last, text_replacements)
+        if term is not None:
+            hit = _unique_term_hit(term, src_lines, fr_first, fr_last, text_replacements)
+            if hit is not None:
+                idx, line, m = hit
+                insert_pos = _advance_past_emphasis(line, m.end())
+                new_line = line[:insert_pos] + ref + line[insert_pos:]
+                return (f'after "{m.group(0)}" (proper-noun)', 'MED', (idx, new_line))
+
+    # 4) LOW / needs_review -> append at end of last French line, flagged
     new_line = _append_ref_end(last_line, ref)
     return ('FLAGGED (end fallback)', 'LOW', (fr_last, new_line))
 
@@ -408,6 +456,129 @@ def _candidate_terms(fn):
         yield fn['term'].strip()
     for m in ITALIC_ANY_RE.finditer(fn['def_text']):
         yield m.group(1).strip()
+
+
+# --- MED tier (proper-noun / leading-term literal match) -----------------------
+
+# Leading titles/honorifics to strip from the head before token matching (so we anchor
+# on the distinctive NAME, e.g. "Montpensier" from "Duke of Montpensier"). Only a LEADING
+# title token is dropped; articles inside a name are never touched.
+_MED_TITLES = {
+    'Duke', 'Duc', 'Baron', 'Baronne', 'Prince', 'Princesse', 'Princess',
+    'Count', 'Comte', 'Comtesse', 'Countess', 'Mme', 'Mlle', 'M.', 'Monsieur',
+    'Saint', 'St', 'St.', 'Sainte', 'Cardinal', 'Pope', 'Pape', 'Queen', 'Reine',
+    'King', 'Roi', 'Lord', 'Lady', 'The',
+}
+# A capitalized token (incl. accents), optionally hyphenated (Caccia-Club, Saint-Pierre).
+_MED_CAPTOK_RE = re.compile(r"[A-ZÀ-ÖØ-Þ][\wÀ-ÖØ-öø-ÿ'’]*(?:-[A-Za-zÀ-ÖØ-öø-ÿ'’]+)*")
+
+
+def _med_token_candidates(head):
+    """From a cleaned head, yield distinctive proper-noun token candidates for the MED
+    token fallback, longest-first. Drops a LEADING title/honorific token only (never an
+    article inside the name), then offers each remaining capitalized token of length >= 4.
+    """
+    words = head.split()
+    # drop a single leading title token (e.g. "Duke of Montpensier" -> "of Montpensier")
+    if words and words[0] in _MED_TITLES:
+        head = head[len(words[0]):].lstrip()
+    toks = _MED_CAPTOK_RE.findall(head)
+    distinctive = [t for t in dict.fromkeys(toks) if len(t) >= 4]
+    # try longest tokens first (most specific anchor)
+    return sorted(distinctive, key=lambda s: -len(s))
+
+
+def _med_leading_term(def_text):
+    """Derive the MED candidate term from a def's LEADING segment, or None if it fails
+    the safety filters. The leading segment is the text BEFORE the first em/en-dash
+    separator (" — ", " – ", or a bare —/–). We then:
+      - strip wrapping emphasis (*...*) and straight/curly quotes,
+      - strip a trailing parenthetical like "(1843–1904)" or "(1807)",
+      - trim surrounding whitespace/punctuation.
+    Safety filters (return None = stay LOW, never guess):
+      - term shorter than 4 chars,
+      - term has NO uppercase letter AND is a single word (lowercase function words;
+        genuine lowercase French terms are handled by the italic tier),
+      - term looks like English meta/prose rather than a name: contains an
+        apostrophe-s ("'s"/"’s"), or is a long phrase (> 6 words).
+    """
+    # Multi-gloss guard: a def with TWO or more GLOSS dash separators is several footnote
+    # glosses merged (e.g. "Reboux — famous milliner. Caroline — celebrated couturière.")
+    # and we cannot know which entity the marker belongs to -> stay LOW, never guess.
+    # Count only " — " gloss separators, ignoring en-dashes inside parentheticals such as
+    # date ranges "(1831–1902)" (which are not gloss boundaries).
+    no_parens = re.sub(r'\([^)]*\)', '', def_text)
+    if len(re.findall(r'\s[—–]\s', no_parens)) >= 2:
+        return None
+
+    # split on the first gloss dash separator (em/en-dash with surrounding spaces)
+    head = re.split(r'\s[—–]\s', def_text, maxsplit=1)[0]
+    head = head.strip()
+    head = head.strip('*').strip('"“”\'‘’').strip()
+    # drop a trailing parenthetical, e.g. "Paul de Cassagnac (1843–1904)"
+    head = re.sub(r'\s*\([^)]*\)\s*$', '', head).strip()
+    # trim trailing punctuation that isn't part of a name
+    head = head.strip(' .,;:')
+    if not head:
+        return None
+
+    # --- safety filters ---
+    if len(head) < 4:
+        return None
+    words = head.split()
+    has_upper = any(c.isupper() for c in head)
+    if not has_upper and len(words) == 1:
+        return None
+    if re.search(r"['’]s\b", head):          # English possessive -> meta/prose
+        return None
+    if len(words) > 6:                        # whole-sentence gloss, not a name
+        return None
+    return head
+
+
+def _med_unique_cs(term, src_lines, fr_first, fr_last, text_replacements, word_bound=False):
+    """True iff `term` occurs EXACTLY ONCE (case-sensitive) across the French lines.
+    When word_bound=True, the term must match at word boundaries (so a token like "Club"
+    does NOT match inside "Caccia-Club"); used for the single-token fallback to avoid
+    in-word false matches. The whole-segment attempt uses substring matching (segments are
+    specific and may legitimately abut punctuation)."""
+    pat = (r'(?<![\wÀ-ɏ])' + re.escape(term) + r'(?![\wÀ-ɏ])'
+           if word_bound else re.escape(term))
+    n = 0
+    for idx in range(fr_first, fr_last + 1):
+        line = text_replacements.get(idx, src_lines[idx])
+        n += len(re.findall(pat, line))
+        if n > 1:
+            return False
+    return n == 1
+
+
+def _med_anchor(def_text, src_lines, fr_first, fr_last, text_replacements):
+    """MED tier: anchor on the def's leading segment by an EXACT, CASE-SENSITIVE, UNIQUE
+    literal match in the French prose. Returns the term to anchor on, or None.
+
+    Two attempts, both gated by _med_leading_term's guards (multi-gloss def stays LOW;
+    len >= 4; not a lowercase single word; no English possessive; <= 6 words):
+      1. the WHOLE cleaned leading segment (e.g. "Mme Rattazzi", "Caccia-Club"); then
+      2. a DISTINCTIVE TOKEN from it with a leading title/honorific dropped
+         (e.g. "Montpensier" from "Duke of Montpensier"), longest token first.
+    A candidate qualifies only if it occurs EXACTLY ONCE (case-sensitive) in the prose;
+    0 or >1 -> skip. Both attempts share the same uniqueness rule, so we never guess an
+    ambiguous position.
+    """
+    head = _med_leading_term(def_text)
+    if head is None:
+        return None
+    # 1) whole leading segment
+    if _med_unique_cs(head, src_lines, fr_first, fr_last, text_replacements):
+        return head
+    # 2) distinctive token (title dropped), longest-first, WORD-BOUNDARY match so a token
+    # never anchors inside a larger word (e.g. "Club" must not match in "Caccia-Club").
+    for tok in _med_token_candidates(head):
+        if _med_unique_cs(tok, src_lines, fr_first, fr_last, text_replacements,
+                          word_bound=True):
+            return tok
+    return None
 
 
 def _unique_term_hit(term, src_lines, fr_first, fr_last, text_replacements):
@@ -483,11 +654,14 @@ def _rec(fn, pid, base, action, confidence, anchor):
 
 
 def print_summary(args, stats, records):
-    mode = ' [HIGH-ONLY]' if args.high_only else ''
+    med_on = args.med or args.high_only
+    mode = ' [HIGH-ONLY: HIGH+MED]' if args.high_only else (' [+MED]' if args.med else '')
     print(f"=== harvest_footnotes: carnet {args.carnet}, source={args.source}{mode} ===")
     print(f"EN footnotes found:        {stats['en_footnotes']}")
     print(f"{'Inserted' if args.apply else 'Would insert'}:              {stats['inserted']}")
     print(f"  HIGH confidence:         {stats['high']}")
+    if med_on:
+        print(f"  MED (proper-noun):       {stats['med']}")
     print(f"  needs_review (LOW):      {stats['needs_review']}")
     if args.high_only:
         print(f"Skipped (LOW, high-only):  {stats['skip_low']}")
@@ -516,6 +690,8 @@ def write_report(args, stats, records, path):
     L.append(f"| EN footnotes found | {stats['en_footnotes']} |")
     L.append(f"| Would insert | {stats['inserted']} |")
     L.append(f"| — HIGH confidence | {stats['high']} |")
+    if args.med or args.high_only:
+        L.append(f"| — MED (proper-noun) | {stats['med']} |")
     L.append(f"| — needs_review (LOW) | {stats['needs_review']} |")
     L.append(f"| Skipped: already present | {stats['skip_already']} |")
     L.append(f"| Skipped: paragraph/text missing | {stats['skip_para_missing']} |")
@@ -593,11 +769,74 @@ def run_selftest(args):
                 out.append(re.sub(r'\[\^[^\]]+\](?!:)', '', ln))  # strip inline refs
             open(f'{od}/{os.path.basename(f)}', 'w', encoding='utf-8').write('\n'.join(out))
 
+        # Base pass (default tiers, MED off): HIGH anchors + emphasis fix.
+        args.med = False
         _stats, records, plans = harvest(args, orig_root=tmp)
-
         _selftest_assert(records, plans)
+
+        # MED pass: proper-noun tier on, validated against the human-placed positions
+        # committed in carnet 063 (13 expected MED placements, all correct).
+        args.med = True
+        _stats_m, records_m, _plans_m = harvest(args, orig_root=tmp)
+        _selftest_assert_med(records_m)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+
+
+def _selftest_assert_med(records):
+    """Assert the MED tier reproduces the human-placed proper-noun anchors in 063 and
+    introduces no misattribution. Ground truth = the committed hand-placed positions."""
+    # (file, pid, key) -> expected anchored MED term (case-sensitive). These 13 are the
+    # MED placements the folded leading-segment + distinctive-token rule produces on 063,
+    # each landing on the same entity/position the human hand-placed (the anchor token is
+    # the last word of the matched term, so placement == the committed human position).
+    expect_med = {
+        ('1876-07-04-05.md', '063.0008', '2'): 'Paolo',
+        ('1876-07-04-05.md', '063.0009', '3'): 'Bon Pasteur',
+        ('1876-07-06.md', '063.0052', '3'): 'Bois',
+        ('1876-07-06.md', '063.0056', '7'): 'Montpensier',
+        ('1876-07-08.md', '063.0099', '4'): 'Jouvin',
+        ('1876-07-09.md', '063.0118', '5'): 'Mme Rattazzi',
+        ('1876-07-09.md', '063.0119', '7'): 'Bourbon',
+        ('1876-07-09.md', '063.0123', '12'): 'Wittgenstein',
+        ('1876-07-09.md', '063.0124', '14'): 'Paul de Cassagnac',
+        ('1876-07-12.md', '063.0137', '1'): 'Caccia-Club',
+        ('1876-07-12.md', '063.0141', '2'): 'Laferrière',
+        ('1876-07-12.md', '063.0162', '13'): 'Psyché',
+        ('1876-07-12.md', '063.0168', '16'): 'Méréville',
+    }
+    # The multi-gloss "Reboux — ... Caroline — ..." def MUST stay LOW (not MED-guessed):
+    # leading segment "Reboux" is unique in the prose but the human attached the marker
+    # to the second gloss (Caroline), so the multi-gloss guard must hold it LOW.
+    expect_not_med = {('1876-07-06.md', '063.0052', '1')}
+
+    med = {(r['file'], r['pid'], r['key']): r for r in records if r['confidence'] == 'MED'}
+    failures = []
+    for k, tok in expect_med.items():
+        r = med.get(k)
+        if r is None:
+            failures.append(f"{k[0]} {k[1]} [^{k[2]}]: expected MED anchor on {tok!r}, "
+                            f"was not MED")
+            continue
+        m = re.search(r'after "([^"]+)"', r['anchor'] or '')
+        got = m.group(1) if m else None
+        if got != tok:
+            failures.append(f"{k[0]} {k[1]} [^{k[2]}]: MED anchored {got!r}, "
+                            f"expected {tok!r}")
+    for k in expect_not_med:
+        if k in med:
+            failures.append(f"{k[0]} {k[1]} [^{k[2]}]: multi-gloss def was MED-guessed "
+                            f"(should stay LOW)")
+    if len(med) != len(expect_med):
+        failures.append(f"MED count {len(med)} != expected {len(expect_med)} "
+                        f"(extra: {set(med) - set(expect_med)})")
+    if failures:
+        print("SELFTEST FAILED (MED tier):")
+        for f in failures:
+            print("  - " + f)
+        sys.exit(1)
+    print(f"SELFTEST PASSED (MED tier): {len(expect_med)}/{len(expect_med)} proper-noun "
+          f"anchors match the hand-placed 063 positions; multi-gloss def stays LOW.")
 
 
 def _selftest_assert(records, plans):
