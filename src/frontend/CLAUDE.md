@@ -9,7 +9,7 @@ Instructions for Claude Code when working on the Bashkirtseff frontend.
 
 ## Project Context
 
-An **Astro 6** Progressive Web App for reading Marie Bashkirtseff's diary. Content
+An **Astro 7** Progressive Web App for reading Marie Bashkirtseff's diary. Content
 is loaded at build time from `../../content/` (no CMS, no database for content).
 The frontend focuses on:
 
@@ -28,7 +28,7 @@ Deployment is automatic via GitHub Actions on push to `main`.
 
 | Component | Technology |
 |-----------|------------|
-| Framework | **Astro 6** (static output) |
+| Framework | **Astro 7** (static output) |
 | UI Islands | **Vue 3** (Composition API), via `@astrojs/vue` |
 | State | **Pinia** (`src/stores/`) |
 | i18n | `vue-i18n` (islands) + a tiny build-time `t()` for `.astro` (`src/i18n/astro.ts`) |

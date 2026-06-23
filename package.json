@@ -26,5 +26,10 @@
   "dependencies": {
     "@playwright/test": "^1.58.1",
     "yaml": "^2.7.1"
+  },
+  "overrides": {
+    "@vite-pwa/astro": {
+      "astro": "^7.0.0"
+    }
   }
 }

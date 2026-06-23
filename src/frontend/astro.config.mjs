@@ -22,6 +22,12 @@ export default defineConfig({
   // Site URL for canonical links, sitemaps, and proper HTTPS handling
   site: 'https://bashkirtseff.org',
 
+  // Astro 7 changed the compressHTML default from `true` to `'jsx'`, which
+  // strips whitespace between inline elements (React-style). For literary prose
+  // with inline glossary links and footnote markers, meaningful spaces between
+  // inline elements matter — keep Astro 6's HTML-aware compression.
+  compressHTML: true,
+
   redirects: {
     // Legacy redirects from old 2-digit to new 3-digit carnet URLs
     '/original/00': '/original/000',

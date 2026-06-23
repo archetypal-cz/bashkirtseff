@@ -12,8 +12,9 @@ COPY package.json package-lock.json ./
 # Copy shared package (workspace dependency)
 COPY src/shared/ ./src/shared/
 
-# Copy frontend package files
-COPY src/frontend/package.json src/frontend/package-lock.json ./src/frontend/
+# Copy frontend package manifest (npm workspaces: the authoritative lockfile is
+# the root package-lock.json copied above; the frontend has no own lockfile)
+COPY src/frontend/package.json ./src/frontend/
 
 # Install all workspace dependencies from root
 RUN npm ci --workspace=@bashkirtseff/shared --workspace=bashkirtseff-frontend --legacy-peer-deps
