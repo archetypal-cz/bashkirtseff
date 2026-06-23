@@ -41,6 +41,20 @@ codebase. (If you think you need one, grep first — you almost certainly don't.
 
 ---
 
+## Dev server & AI agents (Astro 7 gotcha)
+
+Astro 7 auto-detects AI coding agents (via env vars like `AI_AGENT` / `CLAUDECODE`)
+and tries to start `astro dev` as a **background process** — see `astro dev
+--background`, `astro dev status`, `astro dev stop`, `astro dev logs`. In sandboxes
+that can't spawn a detached process this fails with *"Failed to spawn background dev
+server process."*
+
+- A normal human terminal (`just fe-dev`) is **unaffected** — it runs in the foreground.
+- To force foreground in an agent shell, unset the detection vars:
+  `env -u AI_AGENT -u CLAUDECODE npx astro dev`.
+
+---
+
 ## Design System (branding.css)
 
 `src/styles/branding.css` is the **single source of truth** for colors,
