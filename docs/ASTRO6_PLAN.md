@@ -1,25 +1,77 @@
-# Astro 6 Upgrade Plan
+# Astro Upgrade Plan & Record (through Astro 7)
 
-> Prepared March 2026. Astro 6 is in late beta (stable release expected soon).
+> Originally prepared March 2026 for the Astro 5 → 6 upgrade. **Both the Astro 6
+> and Astro 7 upgrades are now complete** — Astro 7 / Vite 8 shipped **June 2026**
+> (see "Astro 7 upgrade" below). The forward-looking *Opportunities* section
+> further down still applies: CSP, server islands, hybrid rendering, full-text
+> search, the Sessions API, and the content-loader migration are all available in
+> Astro 7.
+>
+> Filename kept as `ASTRO6_PLAN.md` for link stability; the content now covers the
+> path through Astro 7.
 
-## Current State
+## Current State (post-Astro 7, June 2026)
 
 | Component | Version | Notes |
 |-----------|---------|-------|
-| Astro | 5.16.4 | Static output (SSG) |
-| Node.js | 20+ | Dockerfile uses `node:20-alpine` |
-| Vite | 6.x (bundled) | Via Astro |
-| Zod | 3.x (bundled) | Via Astro |
-| Vue | 3.5.25 | `@astrojs/vue` ^5.1.3 |
-| Tailwind CSS | 4.1.17 | Via `@tailwindcss/vite` plugin |
-| PWA | @vite-pwa/astro 1.2.0 | Workbox-based |
-| Content loading | Custom `fs.readFileSync()` | NOT using Astro Content Collections |
+| Astro | 7.0.0 | Static output (SSG) |
+| Node.js | 22.12.0+ | Dockerfile uses `node:22-alpine` |
+| Vite | 8.x (bundled) | Via Astro |
+| Zod | bundled | Via Astro (`astro/zod`); minimal usage |
+| Vue | 3.5.x | `@astrojs/vue` ^7.0.0 |
+| Tailwind CSS | 4.x | Via `@tailwindcss/vite` plugin |
+| PWA | @vite-pwa/astro 1.2.0 | Workbox `generateSW`; `vite-plugin-pwa` 1.3.x for Vite 8 |
+| Sitemap | @astrojs/sitemap ^3.7.3 | |
+| Content loading | Custom loader (`src/lib/content.ts`, ~2,400 lines) | **NOT** using Astro Content Collections — see `src/frontend/docs/content-loader.plan.md` |
 
-**Build scale:** ~35,700 static HTML pages (5 languages x 3,763 entries + 3,229 glossary entries + year/carnet pages).
+**Build scale:** ~35,640 static HTML pages, built in ~1m35s on the Astro 7 upgrade.
 
 **Deployment:** Docker multi-stage (Node builder -> Nginx Alpine), triggered by push to main via GitHub Actions.
 
 ---
+
+## Astro 7 upgrade (completed June 2026)
+
+Shipped in commit *"Upgrade frontend to Astro 7 (Vite 8)"*. What changed:
+
+- **astro** `^6.3.7` → `^7.0.0`, **@astrojs/vue** `^6.0.1` → `^7.0.0`; Astro now
+  bundles **Vite 8**.
+- **`compressHTML: true`** pinned in `astro.config.mjs`. Astro 7 changed the default
+  to `'jsx'`, which strips whitespace between inline elements (React-style). For
+  literary prose with inline glossary links / footnote markers that whitespace is
+  meaningful, so we keep Astro 6's HTML-aware compression.
+- **Root `overrides`** pinning `@vite-pwa/astro`'s stale `astro` peer to `^7.0.0`.
+  Its published peer range predates Astro 6/7, so npm otherwise installed a nested
+  `astro@6.3.7` that dragged in a second Vite major. The override collapses the tree
+  onto a single Vite 8 and dropped npm audit from 6 vulnerabilities to 0.
+- **Removed the vestigial `src/frontend/package-lock.json`** (it had drifted to an
+  Astro 5-era tree — proof npm never used it; in an npm-workspaces repo the root
+  `package-lock.json` is authoritative) and stopped copying it in the Dockerfile.
+
+**Breaking changes that did NOT affect us** (verified): the new **Sätteri** default
+Markdown processor (we don't use remark/rehype or Astro's markdown pipeline — the
+custom loader parses content itself), removal of `@astrojs/db`, the removed
+`astro:transitions` deprecated APIs, and the `src/fetch.ts` advanced-routing
+entrypoint.
+
+**Astro 7 dev-server gotcha:** `astro dev` now auto-backgrounds itself when it
+detects an AI agent (`AI_AGENT` / `CLAUDECODE`), which fails in sandboxes that can't
+spawn a detached process. `just fe-dev` in a human terminal is unaffected; force
+foreground with `env -u AI_AGENT -u CLAUDECODE npx astro dev`. See
+`src/frontend/CLAUDE.md`.
+
+**Verification:** production build 35,640 pages / 0 warnings; PWA artifacts
+(`sw.js`, `manifest.webmanifest`, `workbox-*.js`) generated; dev server `v7.0.0`
+served `/`, `/cz/`, `/en/`, `/original/glossary/` as HTTP 200; root `npm ci` (the
+Docker path) and standalone `cd src/frontend && npm install` both clean with 0
+vulnerabilities; GitHub Actions deploy succeeded.
+
+---
+
+## Historical: Astro 5 → 6 upgrade plan
+
+> The phases below were the original plan for the **5 → 6** step (since completed).
+> Retained as a record; details may not all match the final implementation.
 
 ## Phase 1: Prerequisites
 
@@ -91,7 +143,7 @@ This should work in Zod 4. The breaking changes (`z.string().email()` -> `z.emai
 | `Astro.glob()` | Not used (custom `fs` loading) |
 | `<ViewTransitions />` | Not used |
 | `emitESMImage()` | Not used |
-| Legacy content collections | Not used (we use Content Layer API with `glob()` loader) |
+| Legacy content collections | Not used — content is loaded by a custom `fs`-based loader (`src/lib/content.ts`), not Astro collections at all |
 | `getDataEntryById()` / `getEntryBySlug()` | Not used |
 
 ---
@@ -136,7 +188,11 @@ cd src/frontend && npm run build
 
 ---
 
-## Opportunities: What Astro 6 Opens Up
+## Opportunities: What Astro 6/7 Opens Up
+
+> Still applicable on Astro 7 — none of these capabilities were removed in the
+> 6 → 7 step. CSP, server islands, hybrid rendering, the Sessions API and Live
+> Collections all remain available.
 
 ### 1. Content Security Policy (CSP) -- Immediate Win
 
@@ -383,7 +439,10 @@ const lastRead = session?.lastParagraph;
 3. Replace `fs.readFileSync()` calls with `getCollection()` / `getEntry()`
 4. Keep the rendering pipeline (our `renderParagraph()` etc.) -- just change how we *load* content
 
-**Effort:** High. Major refactor of the content loading layer. Should be a separate project.
+**Effort:** High. Major refactor of the content loading layer. Should be a separate
+project — scoped in detail in [`src/frontend/docs/content-loader.plan.md`](../src/frontend/docs/content-loader.plan.md)
+(recommended shape: a custom Content Layer loader that *wraps* the existing parser,
+not a rewrite). Deferred.
 
 ---
 
@@ -449,9 +508,10 @@ const lastRead = session?.lastParagraph;
 
 ## References
 
-- [Astro 6 Beta Announcement](https://astro.build/blog/astro-6-beta/)
+- [Upgrade to Astro v7 Guide](https://docs.astro.build/en/guides/upgrade-to/v7/)
 - [Upgrade to Astro v6 Guide](https://v6.docs.astro.build/en/guides/upgrade-to/v6/)
+- [Astro CHANGELOG (7.0.0 major changes)](https://github.com/withastro/astro/blob/main/packages/astro/CHANGELOG.md)
 - [Server Islands Documentation](https://docs.astro.build/en/guides/server-islands/)
 - [CSP Documentation](https://docs.astro.build/en/reference/experimental-flags/csp/)
-- [Vite 7 Migration Guide](https://vite.dev/guide/migration)
-- [What's New - February 2026](https://astro.build/blog/whats-new-february-2026/)
+- [Vite 8 Migration Guide](https://vite.dev/guide/migration)
+- Content-loader migration scope: [`src/frontend/docs/content-loader.plan.md`](../src/frontend/docs/content-loader.plan.md)
