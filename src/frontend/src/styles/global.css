@@ -16,8 +16,11 @@
   --color-sepia: var(--brand-sepia);
   --color-ink: var(--brand-ink);
   --color-ink-light: var(--brand-ink-light);
-  --color-accent: var(--brand-accent);       /* interactive only: links, buttons */
-  --color-accent-light: var(--brand-accent-light);
+  /* A11y WS-A: accent utilities forward to the SEMANTIC tokens (theme-aware),
+     not the raw brand values — dark themes brighten --accent for text; solid
+     fills use --accent-fill via the dark remaps below + .btn-primary. */
+  --color-accent: var(--accent);             /* interactive only: links, buttons */
+  --color-accent-light: var(--accent-light);
   --color-muted: var(--brand-muted);
 
   /* Ornament colour (Bordeaux/oxblood). Ornament only — never interactive. */
@@ -318,6 +321,20 @@ footer.site-footer {
   color: var(--text-muted);
 }
 
+/* A11y WS-A: in dark themes --accent is a bright text tone; solid accent
+   surfaces that carry white text must use the mid-dark fill tokens instead. */
+[data-theme="dark"] .bg-accent {
+  background-color: var(--accent-fill);
+}
+
+[data-theme="dark"] .hover\:bg-accent:hover {
+  background-color: var(--accent-fill);
+}
+
+[data-theme="dark"] .hover\:bg-accent-light:hover {
+  background-color: var(--accent-fill-hover);
+}
+
 [data-theme="dark"] .border-ink\/10,
 [data-theme="dark"] .border-ink\/20 {
   border-color: var(--border-color);
@@ -395,11 +412,19 @@ footer.site-footer {
   }
 
   .btn-primary {
-    @apply bg-accent text-white hover:bg-accent-light;
+    /* A11y WS-A (A3): fill tokens keep white text ≥4.5:1 at rest AND hover in
+       all 12 theme×brand combos (hover darkens; the old hover:bg-accent-light
+       was 3.2:1 under white). */
+    @apply text-white;
+    background-color: var(--accent-fill);
     box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.15),
       0 1px 2px rgba(var(--brand-ink-rgb), 0.2);
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--accent-fill-hover);
   }
 
   .btn-primary:active {

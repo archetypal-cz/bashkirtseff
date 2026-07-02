@@ -109,7 +109,7 @@ async function handleSignOut() {
 
 .user-menu__loading {
   font-size: 0.75rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 .user-menu__profile {
@@ -176,8 +176,8 @@ async function handleSignOut() {
 
 .user-menu__btn--continue {
   color: white;
-  background: var(--color-accent, #B45309);
-  border-color: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .user-menu__btn--continue:hover {
@@ -203,7 +203,7 @@ async function handleSignOut() {
 .user-menu__consent-text {
   font-size: 0.75rem;
   line-height: 1.4;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 .user-menu__consent-actions {

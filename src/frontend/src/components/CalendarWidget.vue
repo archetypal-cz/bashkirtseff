@@ -297,7 +297,7 @@ const calendarWeeks = computed(() => {
 
 .calendar-year {
   font-size: 0.875rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 [data-theme="dark"] .calendar-year {
@@ -315,7 +315,7 @@ const calendarWeeks = computed(() => {
 .day-label {
   font-size: 0.6875rem;
   font-weight: 500;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   text-align: center;
   padding: 0.25rem;
   text-transform: uppercase;
@@ -367,7 +367,7 @@ const calendarWeeks = computed(() => {
 
 /* Days from other months */
 .calendar-day.other-month {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   opacity: 0.4;
 }
 
@@ -390,7 +390,7 @@ const calendarWeeks = computed(() => {
 }
 
 .calendar-day.has-entry:hover {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
 }
 
@@ -407,7 +407,7 @@ const calendarWeeks = computed(() => {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .entry-indicator {
@@ -416,7 +416,7 @@ const calendarWeeks = computed(() => {
 
 /* Selected date */
 .calendar-day.is-selected {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   font-weight: 600;
 }
@@ -431,7 +431,7 @@ const calendarWeeks = computed(() => {
 
 /* Filter-active states */
 .calendar-day.has-entry.filter-active-match {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   font-weight: 600;
 }

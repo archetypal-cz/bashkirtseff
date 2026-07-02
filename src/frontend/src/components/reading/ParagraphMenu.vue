@@ -232,7 +232,7 @@ onMounted(() => {
   align-items: center;
   gap: 0.25rem;
   padding: 0.25rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: transparent;
   border: none;
   border-radius: 0.25rem;
@@ -241,19 +241,19 @@ onMounted(() => {
 }
 
 .menu-toggle:hover {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: var(--bg-secondary, #F5E6D3);
 }
 
 .menu-toggle.has-tags {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .menu-title {
   font-size: 0.875rem;
   font-weight: 600;
   font-family: monospace;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 .menu-section {
@@ -268,7 +268,7 @@ onMounted(() => {
   font-size: 0.625rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   padding: 0.25rem 0.5rem;
   margin-bottom: 0.25rem;
 }
@@ -303,7 +303,7 @@ onMounted(() => {
 }
 
 .menu-item--muted {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-style: italic;
 }
 
@@ -326,7 +326,7 @@ onMounted(() => {
   width: 2rem;
   height: 2rem;
   padding: 0;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: transparent;
   border: none;
   border-radius: 0.25rem;
@@ -335,17 +335,17 @@ onMounted(() => {
 }
 
 .tag-filter-btn:hover {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: var(--bg-secondary, #F5E6D3);
 }
 
 [data-theme="dark"] .tag-filter-btn:hover {
-  color: var(--color-accent-light, #D97706);
+  color: var(--color-accent-light, #92400E);
   background: #252525;
 }
 
 .glossary-link svg {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .category-places svg {
@@ -398,12 +398,12 @@ onMounted(() => {
   border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
   margin-bottom: 0.5rem;
   padding-bottom: 0.75rem;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .close-item:hover {
   background: transparent;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .sheet-header {

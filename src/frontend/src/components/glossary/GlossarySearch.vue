@@ -245,7 +245,7 @@ function getIconColor(category?: string): string {
   left: 0.75rem;
   width: 1.25rem;
   height: 1.25rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   pointer-events: none;
 }
 
@@ -262,12 +262,12 @@ function getIconColor(category?: string): string {
 }
 
 .search-input:focus {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
   box-shadow: 0 0 0 3px rgba(180, 83, 9, 0.1);
 }
 
 .search-input::placeholder {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 [data-theme="dark"] .search-input {
@@ -284,7 +284,7 @@ function getIconColor(category?: string): string {
   position: absolute;
   right: 0.75rem;
   padding: 0.25rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: transparent;
   border: none;
   border-radius: 0.25rem;
@@ -323,7 +323,7 @@ function getIconColor(category?: string): string {
 .results-count {
   padding: 0.5rem 1rem;
   font-size: 0.75rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: var(--bg-secondary, #F5E6D3);
   border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
 }
@@ -386,7 +386,7 @@ function getIconColor(category?: string): string {
   padding: 0.125rem 0.375rem;
   background: var(--bg-secondary, #F5E6D3);
   border-radius: 1rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 [data-theme="dark"] .result-refs {
@@ -399,7 +399,7 @@ function getIconColor(category?: string): string {
   padding: 0.125rem 0.5rem;
   background: var(--bg-secondary, #F5E6D3);
   border-radius: 0.25rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   margin-bottom: 0.25rem;
   margin-left: 1.5rem;
 }
@@ -427,7 +427,7 @@ function getIconColor(category?: string): string {
 .no-results {
   padding: 1.5rem;
   text-align: center;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-size: 0.875rem;
 }
 

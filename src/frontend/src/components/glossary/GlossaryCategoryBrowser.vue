@@ -232,12 +232,12 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 .category-card:hover {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .category-card.is-expanded {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
   background: var(--bg-secondary, #F5E6D3);
 }
 
@@ -248,7 +248,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 
 [data-theme="dark"] .category-card:hover,
 [data-theme="dark"] .category-card.is-expanded {
-  border-color: var(--color-accent-light, #D97706);
+  border-color: var(--color-accent-light, #92400E);
   background: #252525;
 }
 
@@ -305,14 +305,14 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 
 .category-count {
   font-size: 0.8125rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 .chevron {
   flex-shrink: 0;
   width: 1.25rem;
   height: 1.25rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   transition: transform 0.25s ease;
 }
 
@@ -370,13 +370,13 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 .subcategory-chip:hover {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
   color: var(--text-primary, #2C1810);
 }
 
 .subcategory-chip.is-active {
-  background: var(--color-accent, #B45309);
-  border-color: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
+  border-color: var(--color-accent, #9A4707);
   color: white;
 }
 
@@ -396,13 +396,13 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 [data-theme="dark"] .subcategory-chip:hover {
-  border-color: var(--color-accent-light, #D97706);
+  border-color: var(--color-accent-light, #92400E);
   color: #e5e5e5;
 }
 
 [data-theme="dark"] .subcategory-chip.is-active {
-  background: var(--color-accent-light, #D97706);
-  border-color: var(--color-accent-light, #D97706);
+  background: var(--color-accent-light, #92400E);
+  border-color: var(--color-accent-light, #92400E);
   color: #1a1a1a;
 }
 
@@ -421,7 +421,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
   font-weight: 600;
   background: var(--bg-primary, #FFF8F0);
   border-radius: 1rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 [data-theme="dark"] .subcategory-count-badge {
@@ -432,7 +432,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 .sub-chevron {
   width: 0.75rem;
   height: 0.75rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   transition: transform 0.2s ease;
   flex-shrink: 0;
 }
@@ -529,14 +529,14 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
   background: var(--bg-secondary, #F5E6D3);
   border: 1px solid transparent;
   border-radius: 1rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   cursor: pointer;
   transition: all 0.15s;
 }
 
 .entry-filter-btn:hover {
-  background: var(--color-accent, #B45309);
-  border-color: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
+  border-color: var(--color-accent, #9A4707);
   color: white;
 }
 
@@ -551,14 +551,14 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 [data-theme="dark"] .entry-filter-btn:hover {
-  background: var(--color-accent-light, #D97706);
-  border-color: var(--color-accent-light, #D97706);
+  background: var(--color-accent-light, #92400E);
+  border-color: var(--color-accent-light, #92400E);
   color: #1a1a1a;
 }
 
 .entry-summary {
   font-size: 0.75rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   line-height: 1.4;
   margin-top: 0.125rem;
   overflow: hidden;

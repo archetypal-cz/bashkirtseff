@@ -917,19 +917,19 @@ onUnmounted(() => {
 
 .unified-menu-toggle:hover {
   color: var(--text-primary, #2C1810);
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
   box-shadow: 0 2px 8px rgba(44, 24, 16, 0.12);
 }
 
 .unified-menu-toggle.has-filter {
-  border-color: color-mix(in srgb, var(--color-accent, #B45309) 40%, transparent);
+  border-color: color-mix(in srgb, var(--color-accent, #9A4707) 40%, transparent);
   box-shadow: 0 1px 4px rgba(180, 83, 9, 0.12), 0 1px 2px rgba(44, 24, 16, 0.04);
 }
 
 .unified-menu-toggle.is-open {
-  background: linear-gradient(180deg, var(--color-accent-light, #D97706) 0%, var(--color-accent, #B45309) 100%);
+  background: linear-gradient(180deg, var(--color-accent-light, #92400E) 0%, var(--color-accent, #9A4707) 100%);
   color: white;
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
   box-shadow: 0 2px 8px rgba(180, 83, 9, 0.25);
 }
 
@@ -978,12 +978,12 @@ onUnmounted(() => {
   position: relative;
   display: flex;
   align-items: center;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   transition: color 0.2s;
 }
 
 .toggle-filter.active {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .unified-menu-toggle.is-open .toggle-filter.active {
@@ -998,7 +998,7 @@ onUnmounted(() => {
   height: 14px;
   padding: 0 3px;
   border-radius: 7px;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   font-size: 9px;
   font-weight: 700;
@@ -1009,7 +1009,7 @@ onUnmounted(() => {
 
 .unified-menu-toggle.is-open .filter-dot {
   background: white;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 /* ═══ Backdrop ═══ */
@@ -1093,7 +1093,7 @@ onUnmounted(() => {
   height: 32px;
   border: none;
   background: transparent;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   cursor: pointer;
   border-radius: 6px;
 }
@@ -1152,13 +1152,13 @@ onUnmounted(() => {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-family: var(--font-sans);
 }
 
 .um-section-badge {
   font-size: 12px;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-family: monospace;
 }
 
@@ -1245,9 +1245,9 @@ onUnmounted(() => {
 }
 
 .font-btn:hover:not(:disabled) {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .font-btn:disabled {
@@ -1285,7 +1285,7 @@ onUnmounted(() => {
 }
 
 .theme-btn.active {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .theme-light {
@@ -1322,7 +1322,7 @@ onUnmounted(() => {
 }
 
 .brand-btn.active {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .brand-btn {
@@ -1333,10 +1333,10 @@ onUnmounted(() => {
   border-color: var(--accent, #E08E2B);
 }
 
-.brand-default { background: linear-gradient(135deg, #FFF8F0 55%, #B45309 55%); }
+.brand-default { background: linear-gradient(135deg, #FFF8F0 55%, #9A4707 55%); }
 .brand-atelier { background: linear-gradient(135deg, #EEF1F4 55%, #1F5C82 55%); }
 .brand-deuil   { background: linear-gradient(135deg, #F4F1EA 55%, #7A2E2E 55%); }
-.brand-riviera { background: linear-gradient(135deg, #FFFDF8 55%, #0E7C86 55%); }
+.brand-riviera { background: linear-gradient(135deg, #FFFDF8 55%, #0B6A73 55%); }
 
 /* ═══ Contents section ═══ */
 .contents-body {
@@ -1372,11 +1372,11 @@ onUnmounted(() => {
 }
 
 .um-search-input:focus {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .um-search-input::placeholder {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 [data-theme="dark"] .um-search-input {
@@ -1408,7 +1408,7 @@ onUnmounted(() => {
 }
 
 .contents-entry.is-current {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
 }
 
@@ -1434,7 +1434,7 @@ onUnmounted(() => {
 
 .entry-title {
   font-size: 12px;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1455,12 +1455,12 @@ onUnmounted(() => {
 
 .back-link {
   font-size: 13px;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   text-decoration: none;
 }
 
 .back-link:hover {
-  color: var(--color-accent-light, #D97706);
+  color: var(--color-accent-light, #92400E);
 }
 
 /* ═══ Filter section ═══ */
@@ -1486,7 +1486,7 @@ onUnmounted(() => {
   border: 1px solid var(--border-color, rgba(44, 24, 16, 0.15));
   border-radius: 6px;
   background: transparent;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-size: 12px;
   font-weight: 500;
   cursor: pointer;
@@ -1496,14 +1496,14 @@ onUnmounted(() => {
 }
 
 .mode-btn.active {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .mode-btn:hover:not(.active) {
-  border-color: var(--color-accent, #B45309);
-  color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
+  color: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .mode-btn {
@@ -1527,22 +1527,22 @@ onUnmounted(() => {
   align-items: center;
   justify-content: space-between;
   padding: 6px 16px;
-  background: color-mix(in srgb, var(--color-accent, #B45309) 8%, var(--bg-primary, #FFF8F0));
+  background: color-mix(in srgb, var(--color-accent, #9A4707) 8%, var(--bg-primary, #FFF8F0));
   border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
 }
 
 .filter-active-text {
   font-size: 12px;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   font-weight: 500;
   font-family: var(--font-sans);
 }
 
 .filter-clear-all {
   font-size: 11px;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: transparent;
-  border: 1px solid var(--color-accent, #B45309);
+  border: 1px solid var(--color-accent, #9A4707);
   border-radius: 4px;
   padding: 1px 6px;
   cursor: pointer;
@@ -1550,14 +1550,14 @@ onUnmounted(() => {
 }
 
 .filter-clear-all:hover {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
 }
 
 .filter-loading {
   padding: 20px;
   text-align: center;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-size: 13px;
 }
 
@@ -1569,7 +1569,7 @@ onUnmounted(() => {
   height: 18px;
   padding: 0 5px;
   border-radius: 9px;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   font-size: 11px;
   font-weight: 600;
@@ -1617,7 +1617,7 @@ onUnmounted(() => {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-family: var(--font-sans);
 }
 
@@ -1629,7 +1629,7 @@ onUnmounted(() => {
 
 .active-tag-names {
   font-size: 10px;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   font-family: var(--font-sans);
   font-weight: 500;
   max-width: 140px;
@@ -1640,7 +1640,7 @@ onUnmounted(() => {
 
 .filter-header-names {
   font-size: 11px;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   font-family: var(--font-sans);
   font-weight: 500;
   max-width: 160px;
@@ -1657,7 +1657,7 @@ onUnmounted(() => {
   height: 16px;
   padding: 0 4px;
   border-radius: 8px;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   font-size: 10px;
   font-weight: 600;
@@ -1672,7 +1672,7 @@ onUnmounted(() => {
   height: 20px;
   border: none;
   background: transparent;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   cursor: pointer;
   font-size: 16px;
   border-radius: 4px;
@@ -1704,7 +1704,7 @@ onUnmounted(() => {
   padding: 3px 8px;
   border: none;
   background: transparent;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-size: 11px;
   font-weight: 500;
   cursor: pointer;
@@ -1717,7 +1717,7 @@ onUnmounted(() => {
 }
 
 .subcategory-count {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   opacity: 0.6;
 }
 
@@ -1740,14 +1740,14 @@ onUnmounted(() => {
 }
 
 .filter-tag.selected {
-  background: color-mix(in srgb, var(--color-accent, #B45309) 10%, var(--bg-primary, #FFF8F0));
+  background: color-mix(in srgb, var(--color-accent, #9A4707) 10%, var(--bg-primary, #FFF8F0));
 }
 
 .tag-checkbox {
   flex-shrink: 0;
   width: 14px;
   height: 14px;
-  accent-color: var(--color-accent, #B45309);
+  accent-color: var(--color-accent, #9A4707);
   cursor: pointer;
 }
 
@@ -1768,7 +1768,7 @@ onUnmounted(() => {
 .tag-count {
   flex-shrink: 0;
   font-size: 11px;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-family: var(--font-sans);
 }
 
@@ -1779,7 +1779,7 @@ onUnmounted(() => {
   margin-top: 1px;
   border: none;
   background: transparent;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   font-size: 11px;
   cursor: pointer;
   text-align: left;
@@ -1845,7 +1845,7 @@ onUnmounted(() => {
   border: none;
   border-radius: 3px;
   background: transparent;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.15s, background-color 0.15s, color 0.15s;
@@ -1870,7 +1870,7 @@ onUnmounted(() => {
   font-size: 11px;
   font-family: monospace;
   font-weight: 600;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   min-width: 1.75rem;
   flex-shrink: 0;
 }
@@ -1878,7 +1878,7 @@ onUnmounted(() => {
 .history-date {
   font-size: 11px;
   font-family: monospace;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -1900,7 +1900,7 @@ onUnmounted(() => {
 .history-glossary-icon {
   display: flex;
   align-items: center;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   flex-shrink: 0;
 }
 
@@ -1916,7 +1916,7 @@ onUnmounted(() => {
 
 .history-glossary-badge {
   font-size: 10px;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   text-transform: uppercase;
   letter-spacing: 0.03em;
   flex-shrink: 0;
@@ -1929,7 +1929,7 @@ onUnmounted(() => {
 
 .history-clear {
   font-size: 11px;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: transparent;
   border: none;
   cursor: pointer;
@@ -1938,7 +1938,7 @@ onUnmounted(() => {
 }
 
 .history-clear:hover {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 /* ═══ Navigation section (narrow screens only) ═══ */
@@ -2029,7 +2029,7 @@ onUnmounted(() => {
   width: 18px;
   height: 18px;
   flex-shrink: 0;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 </style>
 

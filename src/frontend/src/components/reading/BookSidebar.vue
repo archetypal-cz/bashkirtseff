@@ -273,13 +273,13 @@ function formatDate(dateStr: string): string {
 
 .sidebar-toggle:hover {
   background: var(--bg-primary, #FFF8F0);
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .sidebar-toggle.is-open {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .toggle-label {
@@ -361,7 +361,7 @@ function formatDate(dateStr: string): string {
 
 .pin-btn {
   padding: 0.375rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: transparent;
   border: none;
   border-radius: 0.25rem;
@@ -370,12 +370,12 @@ function formatDate(dateStr: string): string {
 }
 
 .pin-btn:hover {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: var(--bg-primary, #FFF8F0);
 }
 
 .pin-btn.is-pinned {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: var(--bg-primary, #FFF8F0);
 }
 
@@ -387,7 +387,7 @@ function formatDate(dateStr: string): string {
 
 .close-btn {
   padding: 0.25rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: transparent;
   border: none;
   border-radius: 0.25rem;
@@ -429,11 +429,11 @@ function formatDate(dateStr: string): string {
 }
 
 .search-input:focus {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .search-input::placeholder {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 [data-theme="dark"] .search-input {
@@ -465,7 +465,7 @@ function formatDate(dateStr: string): string {
 }
 
 .entry-item.is-current {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
 }
 
@@ -514,12 +514,12 @@ function formatDate(dateStr: string): string {
 
 .back-link {
   font-size: 0.875rem;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   text-decoration: none;
 }
 
 .back-link:hover {
-  color: var(--color-accent-light, #D97706);
+  color: var(--color-accent-light, #92400E);
 }
 
 .sidebar-backdrop {

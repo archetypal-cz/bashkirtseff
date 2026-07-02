@@ -402,7 +402,7 @@ const hasOriginal = computed(() => !!props.originalText);
   align-items: center;
   justify-content: center;
   padding: 0.125rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: transparent;
   border: none;
   border-radius: 0.25rem;
@@ -412,7 +412,7 @@ const hasOriginal = computed(() => !!props.originalText);
 }
 
 .toolbar__btn:hover {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 /* Fleur-de-lis button */
@@ -423,7 +423,7 @@ const hasOriginal = computed(() => !!props.originalText);
 }
 
 .toolbar__btn--fleur.toolbar__btn--active {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 /* Three-dot button */
@@ -433,7 +433,7 @@ const hasOriginal = computed(() => !!props.originalText);
 }
 
 .toolbar__btn--has-tags {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 /* ─── Toolbar icon ───────────────────────────────────────────────────── */
@@ -539,12 +539,12 @@ const hasOriginal = computed(() => !!props.originalText);
   border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
   margin-bottom: 0.5rem;
   padding-bottom: 0.75rem;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .close-item:hover {
   background: transparent;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .sheet-header {
@@ -557,7 +557,7 @@ const hasOriginal = computed(() => !!props.originalText);
   font-size: 0.875rem;
   font-weight: 600;
   font-family: monospace;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 .menu-section {
@@ -572,7 +572,7 @@ const hasOriginal = computed(() => !!props.originalText);
   font-size: 0.625rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   padding: 0.25rem 0.5rem;
   margin-bottom: 0.25rem;
 }
@@ -613,12 +613,12 @@ const hasOriginal = computed(() => !!props.originalText);
 }
 
 .menu-item--muted {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-style: italic;
 }
 
 .glossary-link svg {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .category-places svg {

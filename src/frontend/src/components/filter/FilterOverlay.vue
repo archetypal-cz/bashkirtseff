@@ -241,7 +241,7 @@ function injectFilterNav(matchingEntryIds: Set<string>) {
       nav.style.cssText = `
         display: flex; justify-content: space-between; align-items: center;
         padding: 2px 12px 2px 16px; margin-top: -4px; margin-bottom: 4px;
-        font-size: 11px; color: var(--color-accent, #B45309); opacity: 0.7;
+        font-size: 11px; color: var(--color-accent, #9A4707); opacity: 0.7;
         font-family: var(--font-sans, system-ui); letter-spacing: 0.02em;
       `;
       const leftHint = hints.length === 2 ? hints[0] : (i > 0 ? hints[0] : '');
@@ -303,8 +303,8 @@ function formatShortDate(dateStr: string): string {
   padding: 8px 16px;
   margin-bottom: 12px;
   border-radius: 8px;
-  background: color-mix(in srgb, var(--color-accent, #B45309) 8%, var(--bg-primary));
-  border: 1px solid color-mix(in srgb, var(--color-accent, #B45309) 20%, var(--border-color));
+  background: color-mix(in srgb, var(--color-accent, #9A4707) 8%, var(--bg-primary));
+  border: 1px solid color-mix(in srgb, var(--color-accent, #9A4707) 20%, var(--border-color));
   font-family: var(--font-sans);
 }
 
@@ -317,7 +317,7 @@ function formatShortDate(dateStr: string): string {
 
 .banner-tags {
   font-size: 13px;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -326,7 +326,7 @@ function formatShortDate(dateStr: string): string {
 
 .banner-text {
   font-size: 12px;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   font-weight: 400;
   opacity: 0.8;
 }

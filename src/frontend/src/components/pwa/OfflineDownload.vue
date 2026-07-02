@@ -87,7 +87,7 @@ async function retry() {
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4.5c-.77-.833-2.694-.833-3.464 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z" />
         </svg>
-        <span class="offline-label" style="color: var(--text-muted, #78716C); font-size: 0.8125rem;">
+        <span class="offline-label" style="color: var(--text-muted, #5C5650); font-size: 0.8125rem;">
           {{ t('offline.unavailable') }}
         </span>
       </div>
@@ -198,8 +198,8 @@ async function retry() {
 }
 
 .offline-btn-download:hover {
-  border-color: var(--color-accent, #B45309);
-  color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
+  color: var(--color-accent, #9A4707);
   background: rgba(180, 83, 9, 0.05);
 }
 
@@ -248,7 +248,7 @@ async function retry() {
 /* Meta (size info) */
 .offline-meta {
   font-size: 0.75rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-family: var(--font-sans, system-ui);
 }
 
@@ -268,7 +268,7 @@ async function retry() {
 
 .offline-progress-fill {
   height: 100%;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   border-radius: 9999px;
   transition: width 0.3s ease;
 }
@@ -282,11 +282,11 @@ async function retry() {
 }
 
 .offline-progress-text {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 .offline-btn-cancel {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: none;
   border: none;
   cursor: pointer;
@@ -313,7 +313,7 @@ async function retry() {
   display: inline-flex;
   align-items: center;
   padding: 0.25rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: none;
   border: none;
   cursor: pointer;
@@ -337,16 +337,16 @@ async function retry() {
 .offline-btn-resume {
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: none;
-  border: 1px solid var(--color-accent, #B45309);
+  border: 1px solid var(--color-accent, #9A4707);
   border-radius: 0.25rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .offline-btn-resume:hover {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
 }
 
@@ -362,16 +362,16 @@ async function retry() {
 .offline-btn-retry {
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: none;
-  border: 1px solid var(--color-accent, #B45309);
+  border: 1px solid var(--color-accent, #9A4707);
   border-radius: 0.25rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .offline-btn-retry:hover {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
 }
 

@@ -15,6 +15,8 @@
     "dev:frontend": "npm run dev -w bashkirtseff-frontend"
   },
   "devDependencies": {
+    "axe-core": "^4.12.1",
+    "puppeteer-core": "^25.3.0",
     "sharp": "^0.34.5",
     "tsx": "^4.7.0",
     "typescript": "^6.0.3"

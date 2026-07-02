@@ -52,7 +52,7 @@ const latestParagraph = computed((): HistoryItem | null => {
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   text-decoration: none;
   font-size: 1rem;

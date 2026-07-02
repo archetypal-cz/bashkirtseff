@@ -174,7 +174,7 @@ onUnmounted(() => {
 
 .locale-toggle:hover {
   background: var(--bg-primary, #FFF8F0);
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .locale-toggle {
@@ -234,7 +234,7 @@ onUnmounted(() => {
 }
 
 .locale-option.active {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .locale-option {
@@ -260,7 +260,7 @@ onUnmounted(() => {
 }
 
 .check {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .browser-icon {
@@ -269,7 +269,7 @@ onUnmounted(() => {
 }
 
 .locale-option.preferred {
-  border-left: 2px solid var(--color-accent, #B45309);
+  border-left: 2px solid var(--color-accent, #9A4707);
   padding-left: calc(0.75rem - 2px);
 }
 

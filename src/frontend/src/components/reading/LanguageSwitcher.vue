@@ -180,7 +180,7 @@ onUnmounted(() => {
 .lang-current {
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   font-size: 0.875rem;
 }

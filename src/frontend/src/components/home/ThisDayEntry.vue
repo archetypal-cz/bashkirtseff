@@ -231,7 +231,7 @@ onMounted(() => {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   animation: pulse 1.5s ease-in-out infinite;
 }
 
@@ -253,7 +253,7 @@ onMounted(() => {
   font-family: var(--font-serif, Georgia, serif);
   font-size: 1.125rem;
   font-weight: 500;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   margin: 0;
   min-width: 10rem;
   text-align: center;
@@ -273,15 +273,15 @@ onMounted(() => {
   border: 1px solid var(--border-color, rgba(44, 24, 16, 0.15));
   border-radius: 50%;
   background: transparent;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .day-nav-btn:hover {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .day-nav-btn {
@@ -322,7 +322,7 @@ onMounted(() => {
   font-family: var(--font-serif, Georgia, serif);
   font-size: 1.25rem;
   font-weight: 500;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   margin: 0 0 0.75rem 0;
   letter-spacing: 0.025em;
 }
@@ -348,7 +348,7 @@ onMounted(() => {
 }
 
 .this-day-date:hover {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .this-day-date {
@@ -361,7 +361,7 @@ onMounted(() => {
 
 .this-day-age {
   font-size: 0.875rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 [data-theme="dark"] .this-day-age {
@@ -372,7 +372,7 @@ onMounted(() => {
   margin: 1.25rem 0;
   padding: 1rem 1.25rem;
   background: rgba(255, 255, 255, 0.5);
-  border-left: 3px solid var(--color-accent, #B45309);
+  border-left: 3px solid var(--color-accent, #9A4707);
   border-radius: 0 0.5rem 0.5rem 0;
 }
 
@@ -397,7 +397,7 @@ onMounted(() => {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   text-decoration: none;
   font-weight: 500;
   font-size: 0.9375rem;
@@ -438,7 +438,7 @@ onMounted(() => {
 }
 
 .empty-message {
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   font-style: italic;
   margin: 0;
 }

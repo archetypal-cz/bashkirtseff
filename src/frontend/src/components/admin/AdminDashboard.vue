@@ -57,7 +57,7 @@ onMounted(load);
       <button
         @click="auth.signIn()"
         class="px-4 py-2 rounded text-white"
-        style="background: var(--color-accent, #B45309);"
+        style="background: var(--color-accent, #9A4707);"
       >
         Sign in with Google
       </button>
@@ -217,7 +217,7 @@ onMounted(load);
 }
 
 .stat-card--accent {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .stat-card__value {
@@ -232,7 +232,7 @@ onMounted(load);
 
 .stat-card__label {
   font-size: 0.75rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   margin-top: 0.125rem;
 }
 </style>

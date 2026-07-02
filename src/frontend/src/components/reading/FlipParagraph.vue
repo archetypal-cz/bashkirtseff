@@ -161,7 +161,7 @@ const translationLanguage = computed(() => {
   min-width: 1.5rem;
   height: 1.5rem;
   padding: 0.125rem 0.25rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: var(--bg-primary, #FFF8F0);
   border: none;
   border-radius: 0.25rem;
@@ -184,13 +184,13 @@ const translationLanguage = computed(() => {
 
 .flip-btn:hover {
   opacity: 1;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: var(--bg-secondary, #F5E6D3);
 }
 
 [data-theme="dark"] .flip-btn:hover {
   background: #333;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .language-icons {

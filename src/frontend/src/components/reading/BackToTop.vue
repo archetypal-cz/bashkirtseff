@@ -65,9 +65,9 @@ onUnmounted(() => {
 .back-to-top:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .back-to-top {
@@ -77,7 +77,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .back-to-top:hover {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
 }
 

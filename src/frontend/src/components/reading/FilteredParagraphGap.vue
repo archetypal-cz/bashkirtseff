@@ -21,7 +21,7 @@ const { t } = useI18n();
 const expanded = ref(false);
 
 const accentColor = computed(() =>
-  props.filterColor || 'var(--color-accent, #B45309)'
+  props.filterColor || 'var(--color-accent, #9A4707)'
 );
 
 function toggle() {
@@ -89,7 +89,7 @@ function toggle() {
 
 <style scoped>
 .filtered-gap {
-  --gap-color: var(--color-accent, #B45309);
+  --gap-color: var(--color-accent, #9A4707);
 }
 
 /* --- Collapsed bar --- */

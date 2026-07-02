@@ -264,7 +264,7 @@ defineExpose({ open });
   padding: 0.5rem;
   font-size: 0.875rem;
   font-weight: 600;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
@@ -301,12 +301,12 @@ defineExpose({ open });
 .sheet-header__id {
   font-size: 0.75rem;
   font-family: monospace;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 .report-form__desc {
   font-size: 0.8125rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   margin-bottom: 0.75rem;
 }
 
@@ -321,7 +321,7 @@ defineExpose({ open });
   font-size: 0.6875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   margin-bottom: 0.25rem;
 }
 
@@ -332,7 +332,7 @@ defineExpose({ open });
   font-style: italic;
   color: var(--text-secondary, #4A3728);
   background: rgba(180, 83, 9, 0.06);
-  border-left: 3px solid var(--color-accent, #B45309);
+  border-left: 3px solid var(--color-accent, #9A4707);
   border-radius: 0 0.25rem 0.25rem 0;
 }
 
@@ -355,7 +355,7 @@ defineExpose({ open });
   width: 100%;
   padding: 0.5rem 0.75rem;
   font-size: 0.875rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: transparent;
   border: 1px solid var(--border-color, rgba(44, 24, 16, 0.15));
   border-radius: 0.375rem;
@@ -366,7 +366,7 @@ defineExpose({ open });
 
 .reason-dropdown__trigger--selected {
   color: var(--text-primary, #2C1810);
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .reason-dropdown__trigger {
@@ -380,7 +380,7 @@ defineExpose({ open });
 }
 
 .reason-dropdown__trigger--active {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .reason-dropdown__chevron {
@@ -441,7 +441,7 @@ defineExpose({ open });
 }
 
 .reason-dropdown__item--selected {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   font-weight: 600;
 }
 
@@ -458,7 +458,7 @@ defineExpose({ open });
 .report-text__label {
   display: block;
   font-size: 0.8125rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   margin-bottom: 0.375rem;
 }
 
@@ -482,7 +482,7 @@ defineExpose({ open });
 
 .report-text__input:focus {
   outline: none;
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 /* ─── Error, buttons, success ──────────────────────────────────────── */
@@ -507,7 +507,7 @@ defineExpose({ open });
 
 .report-btn--submit {
   color: white;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
 }
 
 .report-btn--submit:hover:not(:disabled) {

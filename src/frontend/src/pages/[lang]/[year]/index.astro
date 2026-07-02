@@ -181,7 +181,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
 
             {summary.primaryLocation && (
               <p class="text-sm text-muted mb-2">
-                <span data-t="diary.mainLocation">{t('diary.mainLocation')}</span> <a href={glossaryUrl(lang, summary.primaryLocation.toUpperCase().replace(/ /g, '_'))} class="text-ink hover:text-accent transition-colors">{formatDisplayName(summary.primaryLocation)}</a>
+                <span data-t="diary.mainLocation">{t('diary.mainLocation')}</span> <a href={glossaryUrl(lang, summary.primaryLocation.toUpperCase().replace(/ /g, '_'))} class="text-ink hover:text-accent transition-colors underline decoration-dotted underline-offset-2">{formatDisplayName(summary.primaryLocation)}</a>
               </p>
             )}
           </div>

@@ -72,9 +72,9 @@ const matchingItem = computed((): HistoryItem | null => {
   width: 100%;
   padding: 0.625rem 1rem;
   border-radius: 0.5rem;
-  border: 1.5px solid var(--color-accent, #B45309);
+  border: 1.5px solid var(--color-accent, #9A4707);
   background: transparent;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   text-decoration: none;
   font-size: 0.875rem;
   font-weight: 500;
@@ -83,7 +83,7 @@ const matchingItem = computed((): HistoryItem | null => {
 }
 
 .continue-btn:hover {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
 }
 

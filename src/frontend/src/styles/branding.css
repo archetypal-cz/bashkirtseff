@@ -47,10 +47,14 @@
   --brand-sepia: #F5E6D3;       /* raised surfaces: header, footer, cards */
   --brand-ink: #2C1810;         /* primary text */
   --brand-ink-light: #4A3728;   /* secondary text */
-  --brand-muted: #78716C;       /* muted/meta text */
+  --brand-muted: #5C5650;       /* muted/meta text — A11y WS-A: darkened from #78716C for 4.5:1 on all light grounds */
 
-  /* Amber accent — INTERACTIVE only: links, buttons, progress, hovers */
-  --brand-accent: #B45309;
+  /* Amber accent — INTERACTIVE only: links, buttons, progress, hovers.
+     A11y (WS-A, 2026-07-02): darkened #B45309 → #9A4707 so accent-as-text
+     clears WCAG AA (4.5:1) on every light/sepia ground incl. the sepia theme's
+     secondary surface. The historical #B45309 lives on as the dark theme's
+     button-fill token (--accent-fill). */
+  --brand-accent: #9A4707;
   --brand-accent-light: #D97706;
   --brand-accent-dark: #92400E;
 
@@ -153,6 +157,16 @@
   --border-color: rgba(var(--brand-ink-rgb), 0.1);
 
   --accent: var(--brand-accent);
+  /* Hover/emphasis variant of accent-as-TEXT. In light themes hover DARKENS
+     (the raw --brand-accent-light is too pale for AA text); dark themes
+     override with a brighter literal. Tailwind's text-accent-light forwards
+     here (global.css @theme). */
+  --accent-light: var(--brand-accent-dark);
+  /* Solid accent SURFACES (buttons, badges) that carry white text — kept
+     separate from --accent because dark themes need a bright accent for text
+     but a mid-dark fill under white (WS-A / A3). */
+  --accent-fill: var(--brand-accent);
+  --accent-fill-hover: var(--brand-accent-dark);
   --ornament: var(--brand-bordeaux);
   --selection-bg: #EFD9B8;
 
@@ -166,7 +180,7 @@
   --bg-secondary: #EBD9C4;
   --text-primary: var(--brand-ink);
   --text-secondary: var(--brand-ink-light);
-  --text-muted: #6B5D52;
+  --text-muted: #5C5650;   /* A11y WS-A: was #6B5D52 — 4.5:1 on sepia bg2 */
   --border-color: rgba(var(--brand-ink-rgb), 0.15);
 
   --accent: var(--brand-accent);
@@ -186,6 +200,9 @@
   --border-color: rgba(232, 224, 211, 0.10);
 
   --accent: #E08E2B;         /* brightened amber for contrast on dark grounds */
+  --accent-light: #F0A952;   /* hover text — brighter still (9.2:1 on bg) */
+  --accent-fill: #B45309;    /* button fill under white text (5.0:1) — the historical brand amber */
+  --accent-fill-hover: #92400E;
   --ornament: #B05A5E;       /* lifted oxblood for dark */
   --selection-bg: rgba(224, 142, 43, 0.30);
 }
@@ -227,7 +244,7 @@
   --brand-sepia: #DCE3EA;
   --brand-ink: #1B2836;
   --brand-ink-light: #3A4A5A;
-  --brand-muted: #5E6B78;
+  --brand-muted: #4C5A66;   /* A11y WS-A: was #5E6B78 */
   --brand-accent: #1F5C82;        /* Prussian blue — interactive */
   --brand-accent-light: #2E7BA8;
   --brand-accent-dark: #164156;
@@ -237,7 +254,7 @@
 }
 [data-brand="atelier"][data-theme="sepia"] {
   --bg-secondary: #CBD5DE;
-  --text-muted: #566472;
+  --text-muted: #4C5A66;   /* A11y WS-A: was #566472 */
   --selection-bg: #C4D4E0;
 }
 [data-brand="atelier"][data-theme="dark"] {
@@ -249,6 +266,9 @@
   --text-muted: #8B98A5;
   --border-color: rgba(220, 228, 236, 0.10);
   --accent: #6FB3D9;              /* bright cerulean for dark contrast */
+  --accent-light: #93C8E5;        /* hover text */
+  --accent-fill: #2E7BA8;         /* button fill under white (4.7:1; 3.8:1 vs ground) */
+  --accent-fill-hover: #1F5C82;
   --ornament: #C77E5E;            /* lifted sienna */
   --selection-bg: rgba(111, 179, 217, 0.30);
 }
@@ -261,7 +281,7 @@
   --brand-sepia: #E7E2D6;
   --brand-ink: #1A1714;
   --brand-ink-light: #3A342E;
-  --brand-muted: #6E675E;
+  --brand-muted: #5D564E;   /* A11y WS-A: was #6E675E */
   --brand-accent: #7A2E2E;        /* oxblood — interactive rubrication */
   --brand-accent-light: #9B3A3A;
   --brand-accent-dark: #5C2020;
@@ -272,7 +292,7 @@
 }
 [data-brand="deuil"][data-theme="sepia"] {
   --bg-secondary: #D8D1C2;
-  --text-muted: #665F56;
+  --text-muted: #5D564E;   /* A11y WS-A: was #665F56 */
   --selection-bg: #E0D2C0;
 }
 [data-brand="deuil"][data-theme="dark"] {
@@ -284,6 +304,9 @@
   --text-muted: #948B7E;
   --border-color: rgba(230, 224, 214, 0.10);
   --accent: #C56B6B;              /* lifted oxblood */
+  --accent-light: #D68A8A;        /* hover text */
+  --accent-fill: #A84545;         /* button fill under white (5.8:1; 3.2:1 vs ground) */
+  --accent-fill-hover: #7A2E2E;
   --ornament: #B5555A;
   --selection-bg: rgba(197, 107, 107, 0.30);
 }
@@ -296,8 +319,8 @@
   --brand-sepia: #E9F0EE;
   --brand-ink: #22201B;
   --brand-ink-light: #43403A;
-  --brand-muted: #6C6862;
-  --brand-accent: #0E7C86;        /* Mediterranean teal — interactive */
+  --brand-muted: #5F5C56;   /* A11y WS-A: was #6C6862 */
+  --brand-accent: #0B6A73;        /* Mediterranean teal — interactive (A11y WS-A: was #0E7C86, darkened for 4.5:1 on riviera bg2) */
   --brand-accent-light: #14A0AD;
   --brand-accent-dark: #0A5960;
   --brand-bordeaux: #C1553B;      /* coral / terracotta — ornament */
@@ -307,7 +330,7 @@
 }
 [data-brand="riviera"][data-theme="sepia"] {
   --bg-secondary: #D8E4E1;
-  --text-muted: #64605A;
+  --text-muted: #5F5C56;   /* A11y WS-A: was #64605A */
   --selection-bg: #BFE3E0;
 }
 [data-brand="riviera"][data-theme="dark"] {
@@ -319,6 +342,9 @@
   --text-muted: #8C9791;
   --border-color: rgba(228, 232, 226, 0.10);
   --accent: #38C0C9;              /* bright teal for dark contrast */
+  --accent-light: #66D3DA;        /* hover text */
+  --accent-fill: #108088;         /* button fill under white (4.7:1; 3.8:1 vs ground) */
+  --accent-fill-hover: #0B6A73;
   --ornament: #E08063;            /* lifted coral */
   --selection-bg: rgba(56, 192, 201, 0.30);
 }

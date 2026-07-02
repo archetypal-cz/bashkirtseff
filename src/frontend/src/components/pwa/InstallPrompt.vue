@@ -127,7 +127,7 @@ onUnmounted(() => {
   flex-shrink: 0;
   width: 3rem;
   height: 3rem;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   border-radius: 0.5rem;
   display: flex;
@@ -148,7 +148,7 @@ onUnmounted(() => {
 
 .install-text span {
   font-size: 0.875rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 .install-text .privacy-note {
@@ -165,7 +165,7 @@ onUnmounted(() => {
 .btn-dismiss {
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   background: transparent;
   border: 1px solid var(--border-color, rgba(44, 24, 16, 0.2));
   border-radius: 0.375rem;
@@ -182,7 +182,7 @@ onUnmounted(() => {
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
   color: white;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   border: none;
   border-radius: 0.375rem;
   cursor: pointer;
@@ -190,7 +190,7 @@ onUnmounted(() => {
 }
 
 .btn-install:hover {
-  background: var(--color-accent-light, #D97706);
+  background: var(--color-accent-light, #92400E);
 }
 
 /* Transition */

@@ -142,6 +142,24 @@ composable so the fixes below are DRY.
 
 ### WS-A · Color & contrast (3 themes × 4 brands) — highest ROI, fixes ~10 axe nodes/page
 
+> **STATUS: IMPLEMENTED 2026-07-02.** A1 (semantic `--accent`/`--accent-light`
+> forwarding + new `--accent-fill`/`--accent-fill-hover` split for white-text
+> surfaces), A2 (muted darkened per theme+brand, footer `opacity-70` removed),
+> A3 (`.btn-primary` on fill tokens, hover darkens), A5 (matrix script at
+> `src/scripts/a11y-contrast-matrix.mjs` + `just a11y-contrast` /
+> `just a11y-axe`, doc at `docs/A11Y_CONTRAST_MATRIX.md`). Raw brand accents
+> darkened for AA: default `#B45309→#9A4707`, riviera `#0E7C86→#0B6A73`
+> (historic ambers live on as dark-theme fill tokens). Verified: matrix ALL
+> PASS (12 combos × 9 pairs); axe re-run light+dark = **0 color-contrast nodes
+> on every page in the default/static state** (was 10–11/page) — interactive
+> states (open menus, `.is-open` toggles) are not covered by the static scan;
+> Codex spot-checked the menu toggle's `.is-open` state and it passes as a
+> non-text UI component (3:1). Two induced `link-in-text-block` hits fixed with
+> dotted underlines (year + carnet location links); ~30 stale `var(...,#hex)`
+> fallback literals swept to the new values. Codex review 2026-07-02: approved
+> after the carnet-page sibling fix. A4 focus-ring contrast remains with
+> WS-B/C7 (ring doesn't exist yet).
+
 - **A1 — Fix the accent-token forwarding bug (F1).** *What:* make Tailwind
   accent utilities theme-aware. Either (a) point `@theme` `--color-accent`/
   `--color-accent-light` at the *semantic* `--accent` (add a `--accent-light`

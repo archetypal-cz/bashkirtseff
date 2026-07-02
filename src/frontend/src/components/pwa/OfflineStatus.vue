@@ -137,14 +137,14 @@ onUnmounted(() => {
   height: 2rem;
   border: none;
   background: transparent;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   border-radius: 0.375rem;
   cursor: pointer;
   transition: color 0.2s;
 }
 
 .offline-status-btn:hover {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .offline-status-btn.is-disabled {
@@ -153,7 +153,7 @@ onUnmounted(() => {
 }
 
 .offline-status-btn.has-updates {
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
 }
 
 .offline-status-icon {
@@ -173,7 +173,7 @@ onUnmounted(() => {
   line-height: 0.875rem;
   text-align: center;
   color: white;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   border-radius: 9999px;
   font-family: var(--font-sans, system-ui);
 }
@@ -222,7 +222,7 @@ onUnmounted(() => {
 
 .offline-panel-storage {
   font-size: 0.6875rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
 }
 
 .offline-panel-list {
@@ -258,7 +258,7 @@ onUnmounted(() => {
 
 .offline-panel-item-lang {
   font-size: 0.625rem;
-  color: var(--text-muted, #78716C);
+  color: var(--text-muted, #5C5650);
   text-transform: uppercase;
   flex-shrink: 0;
 }
@@ -326,9 +326,9 @@ onUnmounted(() => {
 }
 
 .offline-panel-btn-update {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .offline-panel-btn-update:hover {

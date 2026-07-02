@@ -173,7 +173,7 @@ function togglePanel() {
   width: 2.75rem;
   height: 2.75rem;
   border-radius: 9999px;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   display: flex;
   align-items: center;
@@ -282,9 +282,9 @@ function togglePanel() {
 }
 
 .font-btn:hover:not(:disabled) {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .font-btn:disabled {
@@ -321,7 +321,7 @@ function togglePanel() {
 }
 
 .theme-btn.active {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .theme-light {

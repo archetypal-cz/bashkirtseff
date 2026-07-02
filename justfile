@@ -915,6 +915,16 @@ fe-filter-index:
 fe-offline-manifest:
     npx tsx src/scripts/build-offline-manifest.ts
 
+# A11y: verify the WCAG contrast matrix (12 theme×brand combos, static math)
+a11y-contrast:
+    node src/scripts/a11y-contrast-matrix.mjs
+
+# A11y: run axe-core against a dev server on :4407 (start one first, e.g.
+# `env -u AI_AGENT -u CLAUDECODE npx astro dev --port 4407` in src/frontend).
+# THEMES=light,dark just a11y-axe  for per-theme runs.
+a11y-axe:
+    node src/scripts/a11y-axe-run.mjs
+
 # Start frontend development server
 fe-dev:
     cd src/frontend && npx astro dev --host

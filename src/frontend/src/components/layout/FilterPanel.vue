@@ -433,7 +433,7 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
 }
 
 .search-input:focus {
-  border-color: var(--color-accent, #B45309);
+  border-color: var(--color-accent, #9A4707);
 }
 
 .search-input::placeholder {
@@ -446,23 +446,23 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
   align-items: center;
   justify-content: space-between;
   padding: 8px 16px;
-  background: color-mix(in srgb, var(--color-accent, #B45309) 8%, var(--bg-primary));
+  background: color-mix(in srgb, var(--color-accent, #9A4707) 8%, var(--bg-primary));
   border-bottom: 1px solid var(--border-color);
   flex-shrink: 0;
 }
 
 .active-text {
   font-size: 13px;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   font-weight: 500;
   font-family: var(--font-sans);
 }
 
 .clear-all-btn {
   font-size: 12px;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   background: transparent;
-  border: 1px solid var(--color-accent, #B45309);
+  border: 1px solid var(--color-accent, #9A4707);
   border-radius: 4px;
   padding: 2px 8px;
   cursor: pointer;
@@ -470,7 +470,7 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
 }
 
 .clear-all-btn:hover {
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
 }
 
@@ -541,7 +541,7 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
   height: 18px;
   padding: 0 5px;
   border-radius: 9px;
-  background: var(--color-accent, #B45309);
+  background: var(--color-accent, #9A4707);
   color: white;
   font-size: 11px;
   font-weight: 600;
@@ -637,14 +637,14 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
 }
 
 .tag-item.selected {
-  background: color-mix(in srgb, var(--color-accent, #B45309) 10%, var(--bg-primary));
+  background: color-mix(in srgb, var(--color-accent, #9A4707) 10%, var(--bg-primary));
 }
 
 .tag-checkbox {
   flex-shrink: 0;
   width: 15px;
   height: 15px;
-  accent-color: var(--color-accent, #B45309);
+  accent-color: var(--color-accent, #9A4707);
   cursor: pointer;
 }
 
@@ -673,7 +673,7 @@ const matchingCount = computed(() => filterStore.matchingEntries.length);
   margin-top: 2px;
   border: none;
   background: transparent;
-  color: var(--color-accent, #B45309);
+  color: var(--color-accent, #9A4707);
   font-size: 12px;
   cursor: pointer;
   text-align: left;
