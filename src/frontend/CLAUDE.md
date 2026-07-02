@@ -64,6 +64,13 @@ typography, spacing and theme variables (light / dark / sepia via
 Tailwind utility classes map onto these tokens; component-scoped `<style>` blocks
 should reference the variables so theming keeps working.
 
+**Brand variants (`?brand=`):** `branding.css` §6 defines opt-in alternate
+palettes via `[data-brand="atelier|deuil|riviera"]` (all forward through the
+`--brand-*` tokens, so light/sepia re-theme automatically; dark is explicit).
+The pre-paint script in `BaseLayout.astro` reads `?brand=<name>`, persists it to
+localStorage `reading-brand`, and applies `data-brand`; `?brand=default`/empty/
+unknown clears it. No attribute = the default identity, unchanged.
+
 ---
 
 ## Project Structure

@@ -166,6 +166,19 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
         if (t) document.documentElement.setAttribute('data-theme', t);
         var s = localStorage.getItem('reading-font-scale');
         if (s) document.documentElement.style.setProperty('--reading-font-scale', (parseInt(s,10)/100).toString());
+        // Brand variant: ?brand=<name> persists to 'reading-brand' and sets
+        // data-brand. Empty / 'default' / unknown values clear the override so
+        // the site returns to the default identity. Whitelisted to stay safe.
+        var brands = ['atelier','deuil','riviera'];
+        try {
+          var p = new URLSearchParams(location.search).get('brand');
+          if (p !== null) {
+            if (brands.indexOf(p) !== -1) localStorage.setItem('reading-brand', p);
+            else localStorage.removeItem('reading-brand');
+          }
+        } catch (e) {}
+        var b = localStorage.getItem('reading-brand');
+        if (b && brands.indexOf(b) !== -1) document.documentElement.setAttribute('data-brand', b);
         // M2: only sync document lang to the UI-language preference on pages
         // that did NOT declare a fixed content language (data-lock-lang). Diary,
         // glossary and about/marie/privacy pages lock their lang so screen
