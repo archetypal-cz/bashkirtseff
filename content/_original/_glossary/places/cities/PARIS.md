@@ -216,7 +216,7 @@ Marie's comparisons reveal what Paris meant to her:
 ## Related Entries
 - [#Rue_Ampere](../neighborhoods/RUE_AMPERE.md) - Final Paris residence (30 rue Ampere)
 - [#Bois_de_Boulogne](../social/BOIS_DE_BOULOGNE.md) - Daily social ritual
-- [#Academie_Julian](../../culture/institutions/ACADEMIE_JULIAN.md) - Art studies
+- [#Academie_Julian](../schools/JULIAN.md) - Art studies
 - [#Salon](../../culture/art/SALON.md) - Annual art exhibition
 - [#Opera_de_Paris](../theaters/OPERA_DE_PARIS.md) - Palais Garnier performances and masked balls
 

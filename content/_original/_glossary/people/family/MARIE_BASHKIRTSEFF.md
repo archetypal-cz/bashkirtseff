@@ -44,7 +44,7 @@ Feminist art historians Roszika Parker and Griselda Pollock wrote: "Never before
 
 ### Artist
 
-Trained at the [Académie Julian](Academie_Julian.md) under [Tony Robert-Fleury](Tony_Robert_Fleury.md). Her masterpiece ***The Meeting*** (1884) hangs at the **Musée d'Orsay**—a naturalist street scene of working-class Parisian children.
+Trained at the [Académie Julian](../../places/schools/JULIAN.md) under [Tony Robert-Fleury](Tony_Robert_Fleury.md). Her masterpiece ***The Meeting*** (1884) hangs at the **Musée d'Orsay**—a naturalist street scene of working-class Parisian children.
 
 She consciously took naturalism to urban settings, writing: "I say nothing of the fields because Bastien-Lepage reigns over them as a sovereign; but the streets, however, have not yet had their... Bastien."
 
@@ -81,7 +81,7 @@ The original manuscript comprised **20,000 hand-written pages**.
 
 ## Related Entries
 
-- [Académie Julian](Academie_Julian.md)
+- [Académie Julian](../../places/schools/JULIAN.md)
 - [Tony Robert-Fleury](Tony_Robert_Fleury.md)
 - [Bastien-Lepage](Bastien_Lepage.md)
 - [Poltava](Poltava.md)

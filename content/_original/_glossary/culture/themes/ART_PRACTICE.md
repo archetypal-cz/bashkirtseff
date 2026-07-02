@@ -73,7 +73,7 @@ Notable women artists of the period include [Berthe Morisot](https://en.wikipedi
 The [Academie Julian](https://en.wikipedia.org/wiki/Acad%C3%A9mie_Julian) was founded in 1868 by the painter [Rodolphe Julian](https://en.wikipedia.org/wiki/Acad%C3%A9mie_Julian) (1839-1907) as a private art school at the Passage des Panoramas in Paris. It became the most important alternative to the Ecole des Beaux-Arts, particularly for two groups excluded from the state school: women and foreign students who could not pass the French-language entrance examination. By 1885 the women's section had 400 students; by 1889, 600, drawn from over 50 nationalities.
 
 %% GLO_ART_PRACTICE.0019 %%
-**How it worked**: Students worked from live models (including nude male models in the women's classes), drew from plaster casts, and submitted work for regular critiques by visiting instructors. The key teachers at the women's atelier during Marie's years were [Tony Robert-Fleury](https://en.wikipedia.org/wiki/Tony_Robert-Fleury) (1837-1911) and [Jules Lefebvre](https://en.wikipedia.org/wiki/Jules_Joseph_Lefebvre) (1834-1912), both prominent Academic painters and Salon jurors. [Amelie Beaury-Saurel](https://en.wikipedia.org/wiki/Am%C3%A9lie_Beaury-Saurel), later Julian's wife, supervised the women's studio at the rue Vivienne. The *concours* (weekly competitions) ranked students' work and were the primary measure of progress. Students' work was eligible for the Prix de Rome and Salon exhibition. See [#Academie_Julian](../../institutions/ACADEMIE_JULIAN.md) for the full entry.
+**How it worked**: Students worked from live models (including nude male models in the women's classes), drew from plaster casts, and submitted work for regular critiques by visiting instructors. The key teachers at the women's atelier during Marie's years were [Tony Robert-Fleury](https://en.wikipedia.org/wiki/Tony_Robert-Fleury) (1837-1911) and [Jules Lefebvre](https://en.wikipedia.org/wiki/Jules_Joseph_Lefebvre) (1834-1912), both prominent Academic painters and Salon jurors. [Amelie Beaury-Saurel](https://en.wikipedia.org/wiki/Am%C3%A9lie_Beaury-Saurel), later Julian's wife, supervised the women's studio at the rue Vivienne. The *concours* (weekly competitions) ranked students' work and were the primary measure of progress. Students' work was eligible for the Prix de Rome and Salon exhibition. See [#Academie_Julian](../../places/schools/JULIAN.md) for the full entry.
 
 %% GLO_ART_PRACTICE.0020 %%
 Marie called Julian himself "le pere Julian" -- he was a supportive, commercially astute figure who recognized her talent and warned her that her rapid progress was creating jealousy: "Quand on arrive a donner des inquietudes a celles qui avaient l'habitude d'etre premieres... on est expose a mille petites choses quelquefois desagreables" (January 2, 1878).
@@ -327,7 +327,7 @@ Do not apply when Marie:
 %% GLO_ART_PRACTICE.0070 %%
 ## Related Entries
 
-- [#Academie_Julian](../../institutions/ACADEMIE_JULIAN.md) -- the school
+- [#Academie_Julian](../../places/schools/JULIAN.md) -- the school
 - [#Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- her principal teacher
 - [#Louise_Breslau](../../people/mentioned/LOUISE_BRESLAU.md) -- her chief rival
 - [#Salon](../../art/SALON.md) -- the annual exhibition

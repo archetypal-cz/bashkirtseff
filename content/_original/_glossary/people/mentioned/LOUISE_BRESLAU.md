@@ -170,7 +170,7 @@ Breslau survived Marie by 43 years. Whether she knew the full extent of Marie's 
 
 %% GLO_LOUISE_BRESLAU.0035 %%
 ## Related Entries
-- [#Academie_Julian](../../culture/institutions/ACADEMIE_JULIAN.md) -- the school where they competed
+- [#Academie_Julian](../../places/schools/JULIAN.md) -- the school where they competed
 - [#Art_Practice](../../culture/themes/ART_PRACTICE.md) -- Marie's artistic development, Breslau's role in it
 - [#Rodolphe_Julian](RODOLPHE_JULIAN.md) -- school director who managed the rivalry
 - [#Tony](TONY.md) -- Tony Robert-Fleury, instructor to both
