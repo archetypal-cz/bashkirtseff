@@ -103,6 +103,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     publishedTime: articleDate,
     author: 'Marie Bashkirtseff',
   }}
+  sourcePath={`content/${lang.contentPath}/${carnet}/${entryDate}.md`}
 >
   <!-- Sidebar data for unified menu (entry list, calendar, etc.) -->
   <script is:inline define:vars={{ __sidebarJSON: JSON.stringify({

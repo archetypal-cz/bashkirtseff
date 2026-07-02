@@ -182,7 +182,7 @@ const carnetAlternates = buildHreflangAlternates(`${carnet}`);
 const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}. Marie Bashkirtseff.`;
 ---
 
-<ReadingLayout title={`${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}`} description={carnetDescription} lang={lang.urlPath} alternates={carnetAlternates}>
+<ReadingLayout title={`${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}`} description={carnetDescription} lang={lang.urlPath} alternates={carnetAlternates} sourcePath={`content/${lang.contentPath}/${carnet}`}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted">

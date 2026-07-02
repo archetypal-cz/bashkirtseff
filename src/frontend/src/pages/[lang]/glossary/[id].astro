@@ -99,7 +99,7 @@ const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
 const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 ---
 
-<ReadingLayout title={`${entry.name} — ${t('glossary.title')}`} lang={lang.urlPath}>
+<ReadingLayout title={`${entry.name} — ${t('glossary.title')}`} lang={lang.urlPath} sourcePath={entry.category ? `content/_original/_glossary/${entry.category}/${entry.id}.md` : undefined}>
   <article class="max-w-3xl mx-auto">
     <nav class="mb-6 text-sm text-muted">
       <a href={`/${lang.urlPath}`} class="hover:text-accent">{diaryLabel}</a>

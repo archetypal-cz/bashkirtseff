@@ -10,6 +10,8 @@ import type { FilterCategory, FilterTag } from '../../types/filter-index';
 
 const { t, locale } = useI18n();
 const currentPath = ref('');
+// GitHub URL of the current page's markdown source (set by ReadingLayout as data attr)
+const githubSource = ref<string | null>(null);
 const translationHref = computed(() => getTranslationHref(locale.value, currentPath.value || undefined));
 const originalHref = computed(() => getOriginalHref(currentPath.value || undefined));
 const glossaryLink = computed(() => glossaryHref(currentPath.value || undefined));
@@ -313,6 +315,7 @@ function onClickOutside(e: MouseEvent) {
 onMounted(() => {
   mounted.value = true;
   currentPath.value = window.location.pathname;
+  githubSource.value = document.querySelector('main[data-github-source]')?.getAttribute('data-github-source') ?? null;
 
   // Load settings
   const savedFontScale = localStorage.getItem('reading-font-scale');
@@ -832,6 +835,20 @@ onUnmounted(() => {
                     </div>
                   </div>
                 </div>
+              </div>
+
+              <!-- ═══ SOURCE ON GITHUB (content pages only) ═══ -->
+              <div v-if="githubSource" class="um-section um-github-section">
+                <a :href="githubSource" class="um-github-link" target="_blank" rel="noopener" @click="closePanel">
+                  <svg class="um-nav-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                  {{ t('nav.openInGithub') }}
+                  <svg class="um-github-external" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
               </div>
 
             </div>
@@ -1902,6 +1919,44 @@ onUnmounted(() => {
 
 [data-theme="dark"] .um-nav-link:hover {
   background: #252525;
+}
+
+/* ═══ GitHub source link ═══ */
+.um-github-section {
+  padding: 4px 8px 8px;
+}
+
+.um-github-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--text-secondary, #4A3728);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.um-github-link:hover {
+  background: var(--bg-secondary, #F5E6D3);
+  color: var(--text-primary, #2C1810);
+}
+
+.um-github-external {
+  margin-left: auto;
+  opacity: 0.5;
+}
+
+[data-theme="dark"] .um-github-link {
+  color: #b0b0b0;
+}
+
+[data-theme="dark"] .um-github-link:hover {
+  background: #252525;
+  color: #e5e5e5;
 }
 
 .um-nav-icon {
