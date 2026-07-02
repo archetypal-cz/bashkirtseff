@@ -2,15 +2,15 @@
 // Self-hosted fonts (fontsource) — no runtime Google Fonts request.
 // Literata Variable: body face, ships latin + latin-ext + cyrillic(+ext) subsets,
 //   downloaded on demand per unicode-range (Cyrillic only fetched on /uk/).
-// Playfair Display Variable: Didone display face for site title, dates, headings.
+// Old Standard TT: the global display face (site title, dates, headings) —
+//   19th-c. academic typeface with excellent Cyrillic.
 import '@fontsource-variable/literata/index.css';        // normal, all subsets
 import '@fontsource-variable/literata/wght-italic.css';  // italic (Marie uses it heavily)
-import '@fontsource-variable/playfair-display/index.css'; // display, normal
+import '@fontsource/old-standard-tt/index.css';           // display, normal (all subsets)
+import '@fontsource/old-standard-tt/700.css';             // display bold
 import '@fontsource-variable/inter/index.css';            // UI sans (latin/ext + cyrillic)
-// Brand-variant display faces (branding.css §6). @font-face CSS only — the
-// binaries download lazily, and only when the active brand actually uses them.
-import '@fontsource/old-standard-tt/index.css';           // atelier display (19th-c. academic, cyrillic)
-import '@fontsource/old-standard-tt/700.css';             // atelier display bold
+// Brand-variant display face (branding.css §6): riviera only — @font-face CSS
+// is global, but the binary downloads lazily, only when the brand renders with it.
 import '@fontsource-variable/cormorant/index.css';        // riviera display (light garamond, cyrillic)
 import '../styles/global.css';
 import { pwaInfo } from 'virtual:pwa-info';

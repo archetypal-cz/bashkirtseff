@@ -17,7 +17,6 @@
     "@fontsource-variable/cormorant": "^5.2.8",
     "@fontsource-variable/inter": "^5.2.8",
     "@fontsource-variable/literata": "^5.2.8",
-    "@fontsource-variable/playfair-display": "^5.2.8",
     "@fontsource/old-standard-tt": "^5.2.8",
     "@tailwindcss/vite": "^4.3.0",
     "@vite-pwa/astro": "^1.2.0",
