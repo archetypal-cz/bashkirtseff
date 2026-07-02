@@ -179,6 +179,7 @@ Boolean flags for workflow stages:
 - **conductor_approval**: Final approval
 - **last_modified**: Timestamp of last change
 - **modified_by**: Who made last change
+- **redaction_pass**: Model/agent + date of the last whole-carnet fluency/redaction pass over an already-approved translation (e.g. `fable-5 2026-07-02`). Set on every entry the pass reviewed, including entries it left unchanged.
 
 ### Special Flags
 
