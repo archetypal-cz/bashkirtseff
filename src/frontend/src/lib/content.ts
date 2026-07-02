@@ -365,13 +365,29 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
 
   const lines = content.split('\n');
 
-  // Get title from frontmatter, or find first non-empty, non-comment line
+  // Get title from frontmatter, or find first non-empty line that is not part
+  // of a %% comment. Comments can span multiple lines (`%% # Mercredi…\n…texte %%`),
+  // so track open/close state — otherwise a French continuation line (ending in
+  // the closing %%) leaks into the title.
   let title = frontmatter.title as string | undefined;
   if (!title) {
-    title = lines.find(l => {
+    let inComment = false;
+    for (const l of lines) {
       const trimmed = l.trim();
-      return trimmed.length > 0 && !trimmed.startsWith('%%') && !trimmed.startsWith('---');
-    }) || entryId;
+      if (trimmed.length === 0 || trimmed.startsWith('---')) continue;
+      const marks = (trimmed.match(/%%/g) || []).length;
+      if (inComment) {
+        if (marks % 2 === 1) inComment = false; // closing %% found on this line
+        continue;
+      }
+      if (trimmed.startsWith('%%')) {
+        if (marks % 2 === 1) inComment = true; // comment continues on later lines
+        continue;
+      }
+      title = trimmed;
+      break;
+    }
+    if (!title) title = entryId;
   }
 
   // Parse paragraphs and footnotes (using content without frontmatter)
