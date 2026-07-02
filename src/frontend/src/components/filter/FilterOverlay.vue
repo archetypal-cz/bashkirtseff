@@ -57,14 +57,18 @@ const bannerCountText = computed(() => {
 const showBannerFlag = computed(() => filterStore.isActive && !!filterStore.index);
 
 onMounted(async () => {
-  filterStore.init();
-  await filterStore.loadIndex();
-
-  // Capture original count texts
+  // Capture original count texts from the pristine SSR DOM FIRST — before
+  // filterStore.init() activates any persisted tags. init() can trigger the
+  // reactive watch → applyFilter() during the loadIndex() await, which would
+  // otherwise clobber the counts and get captured here as the "original"
+  // (producing doubled text like "234 / 234 /" on a filtered page reload).
   document.querySelectorAll('[data-filter-count]').forEach(el => {
     const key = el.getAttribute('data-filter-count')!;
     originalCounts.value.set(key, el.textContent || '');
   });
+
+  filterStore.init();
+  await filterStore.loadIndex();
 
   // Apply filter if already active on mount
   if (filterStore.isActive && filterStore.index) {
