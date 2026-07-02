@@ -60,6 +60,22 @@ function setTheme(newTheme: 'light' | 'sepia' | 'dark') {
   trackEvent('theme_change', { theme: newTheme });
 }
 
+// --- Brand variant picker (matches whitelist in BaseLayout pre-paint + branding.css §6) ---
+const BRAND_VARIANTS = ['atelier', 'deuil', 'riviera'];
+const brand = ref<string>('default');
+
+function setBrand(name: string) {
+  brand.value = name;
+  if (BRAND_VARIANTS.includes(name)) {
+    localStorage.setItem('reading-brand', name);
+    document.documentElement.setAttribute('data-brand', name);
+  } else {
+    localStorage.removeItem('reading-brand');
+    document.documentElement.removeAttribute('data-brand');
+  }
+  trackEvent('brand_change', { brand: name });
+}
+
 watch(fontScale, (v) => {
   localStorage.setItem('reading-font-scale', v.toString());
   applySettings();
@@ -324,6 +340,10 @@ onMounted(() => {
   if (savedTheme) theme.value = savedTheme as 'light' | 'sepia' | 'dark';
   applySettings();
 
+  // Brand variant (data-brand already applied by the pre-paint script; just sync UI state)
+  const savedBrand = localStorage.getItem('reading-brand');
+  if (savedBrand && BRAND_VARIANTS.includes(savedBrand)) brand.value = savedBrand;
+
   // Load sidebar data from window global (set by entry pages)
   const win = window as any;
   if (win.__sidebarData) {
@@ -511,6 +531,20 @@ onUnmounted(() => {
                             d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                         </svg>
                       </button>
+                    </div>
+                  </div>
+                  <!-- Brand / edition (branding.css §6 variants) -->
+                  <div class="setting-group">
+                    <label class="setting-label">{{ t('reading.edition') }}</label>
+                    <div class="brand-controls">
+                      <button @click="setBrand('default')" :class="{ active: brand === 'default' }"
+                        class="brand-btn brand-default" :aria-label="t('reading.editionDefault')" :title="t('reading.editionDefault')"></button>
+                      <button @click="setBrand('atelier')" :class="{ active: brand === 'atelier' }"
+                        class="brand-btn brand-atelier" aria-label="Atelier" title="Atelier"></button>
+                      <button @click="setBrand('deuil')" :class="{ active: brand === 'deuil' }"
+                        class="brand-btn brand-deuil" aria-label="Deuil" title="Deuil"></button>
+                      <button @click="setBrand('riviera')" :class="{ active: brand === 'riviera' }"
+                        class="brand-btn brand-riviera" aria-label="Riviera" title="Riviera"></button>
                     </div>
                   </div>
                 </div>
@@ -1271,6 +1305,38 @@ onUnmounted(() => {
   color: #e5e5e5;
   border-color: rgba(255, 255, 255, 0.15);
 }
+
+/* ═══ Brand / edition picker — two-tone swatches: ground + interactive accent ═══ */
+.brand-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.brand-btn {
+  flex: 1;
+  height: 2.25rem;
+  border-radius: 6px;
+  border: 2px solid rgba(44, 24, 16, 0.15);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.brand-btn.active {
+  border-color: var(--color-accent, #B45309);
+}
+
+[data-theme="dark"] .brand-btn {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+[data-theme="dark"] .brand-btn.active {
+  border-color: var(--accent, #E08E2B);
+}
+
+.brand-default { background: linear-gradient(135deg, #FFF8F0 55%, #B45309 55%); }
+.brand-atelier { background: linear-gradient(135deg, #EEF1F4 55%, #1F5C82 55%); }
+.brand-deuil   { background: linear-gradient(135deg, #F4F1EA 55%, #7A2E2E 55%); }
+.brand-riviera { background: linear-gradient(135deg, #FFFDF8 55%, #0E7C86 55%); }
 
 /* ═══ Contents section ═══ */
 .contents-body {

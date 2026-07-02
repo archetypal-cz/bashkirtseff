@@ -206,8 +206,15 @@
    variant needs an explicit [data-brand][data-theme="dark"] block. Sepia has
    two literal tokens (--bg-secondary, --text-muted, --selection-bg) that don't
    forward, so each variant restates those at [data-brand][data-theme="sepia"].
-   Fonts are intentionally NOT changed — the palette shift is the whole identity
-   and it keeps the diff / self-hosted-face surface tight.
+   FONTS. Each variant also sets its own DISPLAY face (--brand-font-display —
+   title, dates, headings), giving every edition a typographic persona while
+   body (Literata) and UI (Inter) stay shared for reading consistency:
+   atelier → Old Standard TT (19th-c. academic Didone, excellent Cyrillic),
+   deuil → Literata itself (mourning austerity: the Playfair flourish removed),
+   riviera → Cormorant (light, airy garamond, Cyrillic). The @font-face CSS is
+   imported globally in BaseLayout.astro, but browsers download a font binary
+   only when the active brand actually renders with it — inactive variants
+   cost a few KB of CSS, no font bytes.
 
    All body-text pairs clear WCAG AA (≥4.5:1) in light AND dark; ratios are in
    the design-audit report. -------------------------------------------------- */
@@ -227,6 +234,7 @@
   --brand-bordeaux: #8A4B3A;      /* burnt sienna — ornament only */
   --brand-ink-rgb: 27, 40, 54;
   --selection-bg: #C4D4E0;
+  --brand-font-display: 'Old Standard TT', 'Literata Variable', Georgia, serif;
 }
 [data-brand="atelier"][data-theme="sepia"] {
   --bg-secondary: #CBD5DE;
@@ -261,6 +269,7 @@
   --brand-bordeaux: #6B2229;      /* deep oxblood — ornament */
   --brand-ink-rgb: 26, 23, 20;
   --selection-bg: #E0D2C0;
+  --brand-font-display: var(--brand-font-serif);  /* austere: no display flourish */
 }
 [data-brand="deuil"][data-theme="sepia"] {
   --bg-secondary: #D8D1C2;
@@ -295,6 +304,7 @@
   --brand-bordeaux: #C1553B;      /* coral / terracotta — ornament */
   --brand-ink-rgb: 34, 32, 27;
   --selection-bg: #BFE3E0;
+  --brand-font-display: 'Cormorant Variable', 'Playfair Display Variable', Georgia, serif;
 }
 [data-brand="riviera"][data-theme="sepia"] {
   --bg-secondary: #D8E4E1;

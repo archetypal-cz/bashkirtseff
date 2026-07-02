@@ -73,6 +73,8 @@
     "decreaseFont": "Decrease font",
     "increaseFont": "Increase font",
     "theme": "Theme",
+    "edition": "Edition",
+    "editionDefault": "Default",
     "lightTheme": "Light theme",
     "sepiaTheme": "Sepia theme",
     "darkTheme": "Dark theme",

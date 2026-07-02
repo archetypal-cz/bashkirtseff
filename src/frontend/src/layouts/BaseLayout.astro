@@ -7,6 +7,11 @@ import '@fontsource-variable/literata/index.css';        // normal, all subsets
 import '@fontsource-variable/literata/wght-italic.css';  // italic (Marie uses it heavily)
 import '@fontsource-variable/playfair-display/index.css'; // display, normal
 import '@fontsource-variable/inter/index.css';            // UI sans (latin/ext + cyrillic)
+// Brand-variant display faces (branding.css §6). @font-face CSS only — the
+// binaries download lazily, and only when the active brand actually uses them.
+import '@fontsource/old-standard-tt/index.css';           // atelier display (19th-c. academic, cyrillic)
+import '@fontsource/old-standard-tt/700.css';             // atelier display bold
+import '@fontsource-variable/cormorant/index.css';        // riviera display (light garamond, cyrillic)
 import '../styles/global.css';
 import { pwaInfo } from 'virtual:pwa-info';
 

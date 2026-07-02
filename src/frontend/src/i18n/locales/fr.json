@@ -73,6 +73,8 @@
     "decreaseFont": "Réduire la police",
     "increaseFont": "Agrandir la police",
     "theme": "Thème",
+    "edition": "Édition",
+    "editionDefault": "Par défaut",
     "lightTheme": "Thème clair",
     "sepiaTheme": "Thème sépia",
     "darkTheme": "Thème sombre",

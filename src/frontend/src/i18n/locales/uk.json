@@ -73,6 +73,8 @@
     "decreaseFont": "Зменшити шрифт",
     "increaseFont": "Збільшити шрифт",
     "theme": "Тема",
+    "edition": "Видання",
+    "editionDefault": "Типове",
     "lightTheme": "Світла тема",
     "sepiaTheme": "Сепія",
     "darkTheme": "Темна тема",
