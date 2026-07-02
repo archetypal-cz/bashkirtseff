@@ -169,7 +169,16 @@ Write RED comments directly to translation files. Use timestamped format:
 
 Place RED comments after the translated text within the paragraph block (before the empty line separating blocks).
 
-**RED comments go on their OWN line — never spliced into a body line.** When you `Edit` a fix into a long single-line paragraph, the inserted comment can land mid-paragraph (matching a sentence fragment) and split readable text — a real renderer-drop risk that recurred across waves (cz-056-064, cz-080-082). **End-of-review scan (mandatory)**: run `grep -n 'RED:.*%% [^%]' content/{lang}/{carnet}/*.md` and rejoin any split paragraph, moving the comment to its own line.
+<!-- Teamcouch update 2026-07-02: splice defect recurred DESPITE the grep scan (agents
+     skipped it) — 4 introduced splices in cz-fluidity-105-106 + 1 in uk-fluidity-000-105-106,
+     prior: cz-056-064, cz-080-082. Scan upgraded to the awk stranded-text check (catches
+     every variant) and tied to the finalize step. -->
+**RED comments go on their OWN line — never spliced into a body line.** When you `Edit` a fix into a long single-line paragraph, the inserted comment can land mid-paragraph (matching a sentence fragment) and split readable text, stranding the rest of the paragraph after the closing `%%` where the renderer silently drops it — a defect that has recurred across waves (cz-056-064, cz-080-082, cz/uk-fluidity 2026-07-02) even with warnings in the brief. **End-of-review scan (mandatory, before you report)** — run the stranded-text check over every file you touched and rejoin anything it flags:
+
+```bash
+awk '/^%%/ { n=length($0); idx=0; for(i=1;i<=n-1;i++){ if(substr($0,i,2)=="%%") idx=i }
+  rest=substr($0,idx+2); if (idx>1 && rest ~ /[^ \t]/) print FILENAME": "FNR }' content/{lang}/{carnet}/*.md
+```
 
 <!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
      Evidence: cz-080-082 (CON comments) + cz-083-092 (a TR comment) — recurring across roles. -->
@@ -274,6 +283,16 @@ After reviewing an entry, return structured JSON:
 - **acceptable**: No CRITICAL issues, quality >= 0.80
 - **needs_revision**: Has HIGH or CRITICAL issues
 - **major_rework**: Multiple CRITICAL issues, quality < 0.60
+
+## Finalize — deliver your report BEFORE going idle
+
+<!-- Teamcouch update 2026-07-02: 7 of ~13 agents across the 2026-07-02 fluidity waves went
+     idle without sending their final report and had to be chased; same pattern class as the
+     translator "finish files but don't finalize" fix (uk-036-041, fixed 2026-05-30). -->
+Finishing the files is not finishing the job. As your LAST action, send your final report
+to whoever spawned you (SendMessage to "main" / the lead, or your final response text if you
+are a synchronous subagent) — files changed, fixes table, counts, flagged-not-changed items.
+Going idle without reporting forces the lead to chase you.
 
 ## Escalation
 
