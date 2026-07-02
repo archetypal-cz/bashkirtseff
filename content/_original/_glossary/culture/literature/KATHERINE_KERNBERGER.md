@@ -5,7 +5,7 @@ aliases:
   - Katherine Kernberger
   - Kernberger
 type: Person
-category: people/writers
+category: culture/literature
 research_status: Comprehensive
 last_updated: 2026-02-11
 ---

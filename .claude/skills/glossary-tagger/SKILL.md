@@ -265,7 +265,7 @@ Tags are inserted as comment lines after the paragraph ID and any existing tags:
 
 ```markdown
 %% 068.0008 %%
-%% [#Kernberger](../_glossary/people/writers/KATHERINE_KERNBERGER.md) %%
+%% [#Kernberger](../_glossary/culture/literature/KATHERINE_KERNBERGER.md) %%
 %% [#Mortality](../_glossary/culture/themes/MORTALITY.md) %%
 %% [#Dina](../_glossary/people/core/DINA.md) %%           ← NEW auto-tag
 %% [#Broussais](../_glossary/people/mentioned/BROUSSAIS.md) %%  ← NEW auto-tag

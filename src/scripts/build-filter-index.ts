@@ -91,7 +91,10 @@ function buildSubcategoryMap(categoryDir: string): Map<string, string> {
 
 /** Convert CAPITAL_ASCII ID to display name */
 function formatDisplayName(id: string): string {
-  return id
+  // ALL-CAPS file ids (KATHERINE_KERNBERGER) get title-cased; mixed-case ids
+  // (Marie_Bashkirtseff, Louis_XIV) keep their casing so acronyms survive.
+  const base = id === id.toUpperCase() ? id.toLowerCase() : id;
+  return base
     .replace(/_/g, ' ')
     .replace(/\b\w/g, c => c.toUpperCase());
 }
@@ -117,6 +120,16 @@ function main() {
     }
   }
   if (verbose) console.log(`Theme IDs: ${[...themeIdsLower].join(', ')}`);
+
+  // Canonical culture/theme ids: lowercase → glossary FILE id (CAPITAL_ASCII).
+  // Inline tags are harvested by display name ([#Kernberger]) while paragraph
+  // GlossaryTag ids are file basenames (KATHERINE_KERNBERGER) — keying the index
+  // by the canonical file id makes entry-level and paragraph-level filtering
+  // agree, and makes subcategory lookup (also keyed by file id) work.
+  const canonicalCultureIds = new Map<string, string>();
+  for (const id of cultureSubcats.keys()) {
+    canonicalCultureIds.set(id.toLowerCase(), id);
+  }
 
   // Minimum mention count for a tag to appear in the category picker
   const MIN_TAG_COUNT = 2;
@@ -186,29 +199,38 @@ function main() {
       const allCultural = entities.cultural?.filter(Boolean) || [];
 
       // Extract inline theme tags from body: %% [#Name](../_glossary/culture/themes/X.md) %%
-      const themeTagPattern = /\[#([^\]]+)\]\([^)]*\/_glossary\/culture\/themes\/[^)]+\)/g;
+      // Use the FILE basename as the id (canonical), not the display name.
+      const themeTagPattern = /\[#[^\]]+\]\([^)]*\/_glossary\/culture\/themes\/([^)]+)\.md\)/g;
       let themeMatch;
       while ((themeMatch = themeTagPattern.exec(content)) !== null) {
-        const themeId = themeMatch[1];
-        if (!allCultural.includes(themeId)) {
-          allCultural.push(themeId);
-        }
+        const themeId = themeMatch[1].split('/').pop()!;
+        allCultural.push(themeId);
       }
 
       // Also extract inline culture tags (non-theme): %% [#Name](../_glossary/culture/X.md) %%
-      const cultureTagPattern = /\[#([^\]]+)\]\([^)]*\/_glossary\/culture\/(?!themes\/)([^)]+)\)/g;
+      const cultureTagPattern = /\[#[^\]]+\]\([^)]*\/_glossary\/culture\/(?!themes\/)([^)]+)\.md\)/g;
       let cultureMatch;
       while ((cultureMatch = cultureTagPattern.exec(content)) !== null) {
-        const cultureId = cultureMatch[1];
-        if (!allCultural.includes(cultureId)) {
-          allCultural.push(cultureId);
-        }
+        allCultural.push(cultureMatch[1].split('/').pop()!);
+      }
+
+      // Canonicalize every cultural id (frontmatter ids arrive in mixed case,
+      // e.g. "Censored_1887" vs file id "CENSORED_1887") and dedupe
+      // case-insensitively so one tag never counts twice for an entry.
+      const seenCultural = new Set<string>();
+      const canonicalCultural: string[] = [];
+      for (const rawId of allCultural) {
+        const canonical = canonicalCultureIds.get(rawId.toLowerCase()) ?? rawId;
+        const key = canonical.toLowerCase();
+        if (seenCultural.has(key)) continue;
+        seenCultural.add(key);
+        canonicalCultural.push(canonical);
       }
 
       // Split into themes (from culture/themes/) and culture (everything else)
       const themes: string[] = [];
       const cultural: string[] = [];
-      for (const id of allCultural) {
+      for (const id of canonicalCultural) {
         if (themeIdsLower.has(id.toLowerCase())) {
           themes.push(id);
         } else {

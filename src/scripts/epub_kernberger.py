@@ -1120,7 +1120,7 @@ def cmd_tag(args):
     print(f"Paragraphs to tag: {len(para_ids_to_tag)}")
     print(f"Files to process:  {len(file_map)}")
 
-    KERN_TAG = "%% [#Kernberger](../_glossary/people/writers/KATHERINE_KERNBERGER.md) %%"
+    KERN_TAG = "%% [#Kernberger](../_glossary/culture/literature/KATHERINE_KERNBERGER.md) %%"
     PARA_ID_RE = re.compile(r"^%% (\d{3}\.\d{4}) %%$")
 
     # Track stats
