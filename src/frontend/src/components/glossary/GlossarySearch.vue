@@ -257,7 +257,6 @@ function getIconColor(category?: string): string {
   border: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
   border-radius: 0.5rem;
   color: var(--text-primary, #2C1810);
-  outline: none;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 

@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue';
 import { useI18n, getTranslationHref, getOriginalHref, glossaryHref, pageHref } from '../../i18n';
 import { useFilterStore } from '../../stores/filter';
+import { useDialog } from '../../composables/useDialog';
 import { useHistoryStore } from '../../stores/history';
 import { trackEvent } from '../../lib/analytics';
 import CalendarWidget from '../CalendarWidget.vue';
@@ -86,7 +87,7 @@ watch(theme, (v) => {
   applySettings();
 });
 
-// --- Sidebar data (from BookSidebar, via window global) ---
+// --- Sidebar data (entry pages set window.__sidebarData for the contents section) ---
 interface SidebarEntry {
   date: string;
   title?: string;
@@ -310,6 +311,9 @@ function togglePanel() {
   }
 }
 
+// A11y (WS-C): shared dialog behavior — Escape, Tab trap, focus move/restore
+const { onDialogKeydown } = useDialog(isOpen, panelRef, { close: () => closePanel() });
+
 function closePanel() {
   isOpen.value = false;
 }
@@ -405,7 +409,7 @@ onUnmounted(() => {
     <Teleport to="body" :disabled="!mounted">
       <Transition name="um-slide">
         <div v-if="isOpen" class="um-backdrop" @click="closePanel">
-          <div ref="panelRef" class="um-panel" @click.stop>
+          <div ref="panelRef" class="um-panel" role="dialog" aria-modal="true" :aria-label="t('common.menu')" tabindex="-1" @click.stop @keydown="onDialogKeydown">
             <!-- Panel header -->
             <div class="um-header">
               <span class="um-title">{{ t('common.menu') }}</span>
@@ -427,7 +431,7 @@ onUnmounted(() => {
 
               <!-- ═══ NAVIGATION SECTION (narrow screens only) ═══ -->
               <div class="um-section um-nav-section">
-                <button class="um-section-header" @click="toggleSection('nav')">
+                <button class="um-section-header" @click="toggleSection('nav')" :aria-expanded="expandedSections.has('nav')" aria-controls="um-body-nav">
                   <span class="um-section-label">
                     <svg class="um-chevron" :class="{ expanded: expandedSections.has('nav') }"
                       width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -436,7 +440,7 @@ onUnmounted(() => {
                     {{ t('common.navigation') }}
                   </span>
                 </button>
-                <div v-if="expandedSections.has('nav')" class="um-section-body um-nav-body">
+                <div v-if="expandedSections.has('nav')" id="um-body-nav" class="um-section-body um-nav-body">
                   <nav class="um-nav-links" :aria-label="t('a11y.menuNav')">
                     <a :href="translationHref" class="um-nav-link" @click="closePanel">
                       <svg class="um-nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -474,7 +478,7 @@ onUnmounted(() => {
 
               <!-- ═══ SETTINGS SECTION ═══ -->
               <div class="um-section">
-                <button class="um-section-header" @click="toggleSection('settings')">
+                <button class="um-section-header" @click="toggleSection('settings')" :aria-expanded="expandedSections.has('settings')" aria-controls="um-body-settings">
                   <span class="um-section-label">
                     <svg class="um-chevron" :class="{ expanded: expandedSections.has('settings') }"
                       width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -486,7 +490,7 @@ onUnmounted(() => {
                     {{ fontScaleDisplay }}
                   </span>
                 </button>
-                <div v-if="expandedSections.has('settings')" class="um-section-body">
+                <div v-if="expandedSections.has('settings')" id="um-body-settings" class="um-section-body">
                   <!-- Font size -->
                   <div class="setting-group">
                     <label class="setting-label">{{ t('reading.fontSize') }}</label>
@@ -552,7 +556,7 @@ onUnmounted(() => {
 
               <!-- ═══ HISTORY SECTION ═══ -->
               <div v-if="!historyStore.isEmpty" class="um-section">
-                <button class="um-section-header" @click="toggleSection('history')">
+                <button class="um-section-header" @click="toggleSection('history')" :aria-expanded="expandedSections.has('history')" aria-controls="um-body-history">
                   <span class="um-section-label">
                     <svg class="um-chevron" :class="{ expanded: expandedSections.has('history') }"
                       width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -564,7 +568,7 @@ onUnmounted(() => {
                     {{ historyStore.count }}
                   </span>
                 </button>
-                <div v-if="expandedSections.has('history')" class="um-section-body history-body">
+                <div v-if="expandedSections.has('history')" id="um-body-history" class="um-section-body history-body">
                   <nav class="history-list" :aria-label="t('a11y.historyNav')">
                     <div
                       v-for="item in historyStore.items"
@@ -613,7 +617,7 @@ onUnmounted(() => {
 
               <!-- ═══ CONTENTS SECTION (entry pages only) ═══ -->
               <div v-if="sidebarData" class="um-section">
-                <button class="um-section-header" @click="toggleSection('contents')">
+                <button class="um-section-header" @click="toggleSection('contents')" :aria-expanded="expandedSections.has('contents')" aria-controls="um-body-contents">
                   <span class="um-section-label">
                     <svg class="um-chevron" :class="{ expanded: expandedSections.has('contents') }"
                       width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -626,7 +630,7 @@ onUnmounted(() => {
                     {{ currentIndex + 1 }}/{{ sidebarData.entries.length }}
                   </span>
                 </button>
-                <div v-if="expandedSections.has('contents')" class="um-section-body contents-body">
+                <div v-if="expandedSections.has('contents')" id="um-body-contents" class="um-section-body contents-body">
                   <!-- Calendar -->
                   <div v-if="calendarMonths.length > 0" class="contents-calendar">
                     <CalendarWidget
@@ -676,7 +680,7 @@ onUnmounted(() => {
 
               <!-- ═══ FILTER SECTION ═══ -->
               <div class="um-section">
-                <button class="um-section-header" @click="toggleSection('filter')">
+                <button class="um-section-header" @click="toggleSection('filter')" :aria-expanded="expandedSections.has('filter')" aria-controls="um-body-filter">
                   <span class="um-section-label">
                     <svg class="um-chevron" :class="{ expanded: expandedSections.has('filter') }"
                       width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -695,7 +699,7 @@ onUnmounted(() => {
                     </span>
                   </span>
                 </button>
-                <div v-if="expandedSections.has('filter')" class="um-section-body filter-body">
+                <div v-if="expandedSections.has('filter')" id="um-body-filter" class="um-section-body filter-body">
                   <!-- Filter search -->
                   <div class="filter-search">
                     <input
@@ -1368,7 +1372,6 @@ onUnmounted(() => {
   color: var(--text-primary, #2C1810);
   font-size: 13px;
   font-family: var(--font-sans);
-  outline: none;
   transition: border-color 0.2s;
 }
 

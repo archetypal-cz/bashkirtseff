@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, computed } from 'vue';
+import { ref, onMounted, onUnmounted, computed, watch, nextTick } from 'vue';
 import { useI18n, LOCALE_NAMES, SUPPORTED_LOCALES, type SupportedLocale } from '../../i18n';
 import { trackEvent } from '../../lib/analytics';
 
@@ -89,6 +89,44 @@ function toggleDropdown() {
   isOpen.value = !isOpen.value;
 }
 
+// A11y (WS-C/C4): APG listbox keyboard — roving focus over the option buttons,
+// Escape returns focus to the trigger. Options are real <button>s, so moving
+// DOM focus is the whole implementation.
+const toggleEl = ref<HTMLElement | null>(null);
+const listEl = ref<HTMLElement | null>(null);
+
+function optionButtons(): HTMLElement[] {
+  return listEl.value ? Array.from(listEl.value.querySelectorAll<HTMLElement>('.locale-option')) : [];
+}
+
+watch(isOpen, async open => {
+  if (!open) return;
+  await nextTick();
+  const opts = optionButtons();
+  (opts.find(o => o.classList.contains('active')) ?? opts[0])?.focus();
+});
+
+function onListKeydown(e: KeyboardEvent) {
+  if (e.key === 'Escape') {
+    e.preventDefault();
+    closeDropdown();
+    toggleEl.value?.focus();
+    return;
+  }
+  const opts = optionButtons();
+  if (opts.length === 0) return;
+  const idx = opts.indexOf(document.activeElement as HTMLElement);
+  let next = -1;
+  if (e.key === 'ArrowDown') next = Math.min(idx + 1, opts.length - 1);
+  else if (e.key === 'ArrowUp') next = Math.max(idx - 1, 0);
+  else if (e.key === 'Home') next = 0;
+  else if (e.key === 'End') next = opts.length - 1;
+  else if (e.key === 'Tab') { closeDropdown(); return; }
+  else return;
+  e.preventDefault();
+  opts[next]?.focus();
+}
+
 function closeDropdown() {
   isOpen.value = false;
 }
@@ -113,10 +151,12 @@ onUnmounted(() => {
 <template>
   <div class="locale-switcher">
     <button
+      ref="toggleEl"
       @click="toggleDropdown"
       class="locale-toggle"
       :aria-expanded="isOpen"
       aria-haspopup="listbox"
+      aria-controls="locale-listbox"
     >
       <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -129,7 +169,7 @@ onUnmounted(() => {
     </button>
 
     <Transition name="dropdown">
-      <div v-if="isOpen" class="locale-dropdown" role="listbox">
+      <div v-if="isOpen" ref="listEl" id="locale-listbox" class="locale-dropdown" role="listbox" @keydown="onListKeydown">
         <button
           v-for="loc in sortedLocales"
           :key="loc"

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import { useI18n } from '../../i18n';
+import { useDialog } from '../../composables/useDialog';
 import { getCategoryIcon } from '../../lib/glossary-categories';
 import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
@@ -27,11 +28,14 @@ function toggleMenu() {
   isOpen.value = !isOpen.value;
 }
 
+const sheetEl = ref<HTMLElement | null>(null);
+// A11y (WS-C): shared dialog behavior — Escape, Tab trap, focus move/restore
 function closeMenu() {
   isOpen.value = false;
 }
 
 const mounted = ref(false);
+const { onDialogKeydown } = useDialog(isOpen, sheetEl, { close: closeMenu });
 const copied = ref(false);
 const canShare = ref(false);
 
@@ -136,7 +140,7 @@ onMounted(() => {
     <Teleport v-if="mounted" to="body">
       <Transition name="ph-modal">
         <div v-if="isOpen" class="sheet-backdrop" @click="closeMenu">
-          <div class="sheet-content" @click.stop>
+          <div ref="sheetEl" class="sheet-content" role="dialog" aria-modal="true" :aria-label="t('paragraph.options') + ' ' + paragraphId" tabindex="-1" @click.stop @keydown="onDialogKeydown">
             <!-- Close menu item -->
             <button @click="closeMenu" class="menu-item close-item">
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

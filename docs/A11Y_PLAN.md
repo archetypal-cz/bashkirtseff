@@ -242,6 +242,25 @@ composable so the fixes below are DRY.
 
 ### WS-C · Keyboard & focus (dialogs, menus, sidebar)
 
+> **STATUS: IMPLEMENTED 2026-07-03.** C1 `useDialog` composable extracted from
+> ParagraphToolbar's bottom sheet (Escape, Tab trap, focus move; restore is
+> post-flush with an `isConnected` guard so a vanishing trigger can't strand
+> focus on `<body>`). C2 dialog semantics + composable wired into UnifiedMenu,
+> ParagraphMenu and ReportDialog. C3 `aria-expanded`/`aria-controls` on the
+> UnifiedMenu accordions. C4 LocaleSwitcher APG listbox keyboard (roving focus,
+> Home/End, Escape-to-trigger). C5 ReportDialog native labeled `<select>` +
+> textarea label association (custom div dropdown + its state machine and CSS
+> removed). C6 BackToTop hands focus to `#main`. C7 global `:focus-visible`
+> ring (2px accent, ≥3:1 all 12 combos); all five `outline:none` suppressions
+> removed. Live-verified with puppeteer: 25-Tab trap holds, Escape closes and
+> restores focus, listbox arrows work, ring renders.
+> **Discovery (Codex review): `FilterPanel.vue` and `BookSidebar.vue` were
+> DEAD CODE** — zero imports anywhere; UnifiedMenu's inline filter + contents
+> sections are the live implementations. Both deleted (their F5/C2/C3 line
+> items are moot); skill docs updated. `a11y.sidebarContents` key kept for
+> future use. Remaining from the audit that referenced them: nothing — the
+> live overlays are all covered.
+
 - **C1 — Extract a `useDialog` composable** from `ParagraphToolbar.vue:103–143`
   (Escape close, Tab focus-trap, focus-move-on-open, restore `lastFocused` on
   close) into `src/composables/useDialog.ts`. Precision (Codex review): the

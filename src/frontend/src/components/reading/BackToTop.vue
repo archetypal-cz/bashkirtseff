@@ -14,6 +14,13 @@ function scrollToTop() {
     top: 0,
     behavior: 'smooth'
   });
+  // A11y (WS-C/C6): hand keyboard focus to the top of the content so the tab
+  // position isn't stranded when this button hides after scrolling.
+  const main = document.getElementById('main');
+  if (main) {
+    main.setAttribute('tabindex', '-1');
+    main.focus({ preventScroll: true });
+  }
 }
 
 onMounted(() => {

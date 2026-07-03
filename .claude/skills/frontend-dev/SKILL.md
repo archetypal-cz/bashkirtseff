@@ -31,10 +31,10 @@ src/frontend/src/
 │   ├── api/glossary/[id].json.ts    # Glossary API endpoint
 │   └── offline.astro                # PWA offline fallback
 ├── components/
-│   ├── reading/     # Core reading: FlipParagraph, ParagraphMenu, LanguageSwitcher, BookSidebar, ReadingSettings, BackToTop
+│   ├── reading/     # Core reading: FlipParagraph, ParagraphMenu, LanguageSwitcher, ReadingSettings, BackToTop
 │   ├── filter/      # Tag filtering: FilterOverlay
 │   ├── glossary/    # GlossarySearch, GlossaryCategoryBrowser
-│   ├── layout/      # Header, Footer, UnifiedMenu, LocaleSwitcher, MobileMenu, FilterPanel, FilterButton
+│   ├── layout/      # Header, Footer, UnifiedMenu, LocaleSwitcher, MobileMenu, FilterButton
 │   ├── pwa/         # InstallPrompt, OfflineDownload, OfflineStatus
 │   └── home/        # ThisDayEntry
 ├── layouts/         # BaseLayout.astro (root HTML), ReadingLayout.astro (diary pages)
@@ -164,7 +164,7 @@ Theme/font changes are managed directly via localStorage + DOM in `ReadingSettin
 | `LanguageSwitcher.vue` | `client:load` | Switch between available content languages on entry pages; preserves scroll position via paragraph tracking. Shows CZ, EN, UK, FR and globe icon for Original. |
 | `ContentLanguageSwitcher.vue` | `client:load` | Switch between content languages on browsing pages (year overview, year detail, carnet detail). Simpler than LanguageSwitcher — just swaps the lang prefix in the URL. |
 | `ContinueReading.vue` | `client:load` | Shows "Continue reading" button when user has a saved reading position (from history store) for the current carnet or year. Links to last-read paragraph. |
-| `BookSidebar.vue` | `client:load` | Collapsible sidebar: entry list, calendar, search. Pinned state in localStorage |
+| (contents/sidebar) | — | Entry list + calendar live in UnifiedMenu.vue (standalone BookSidebar.vue was dead code, removed 2026-07-03) |
 | `ReadingSettings.vue` | — | Font size slider + theme buttons (embedded in UnifiedMenu) |
 | `BackToTop.vue` | `client:visible` | Scroll-to-top button |
 
@@ -177,13 +177,13 @@ Theme/font changes are managed directly via localStorage + DOM in `ReadingSettin
 | `LocaleSwitcher.vue` | `client:load` | UI language switcher (cs/en/fr/uk). Changes UI text only, NOT content language. Saves preference to localStorage and reloads page. |
 | `MobileMenu.vue` | `client:load` | Mobile hamburger nav drawer |
 | `FilterButton.vue` | `client:load` | Shows active filter count badge |
-| `FilterPanel.vue` | — | Category tree with search, AND/OR toggle (embedded in UnifiedMenu) |
+| (filter UI) | — | Category tree with search, AND/OR toggle — an inline section of UnifiedMenu.vue (the standalone FilterPanel.vue was dead code, removed 2026-07-03) |
 
 ### Filter System
 
 `FilterOverlay.vue` (`client:load`) applies DOM-level filtering on carnet/entry lists:
 - Loads `/data/filter-index.json` (~330KB raw, ~50-80KB gzipped)
-- Tags selected in `FilterPanel` → stored in `filter` Pinia store → persisted to `localStorage['filter-tags']`
+- Tags selected in the UnifiedMenu filter section → stored in `filter` Pinia store → persisted to `localStorage['filter-tags']`
 - CSS classes: `.filter-hidden` (hide), `.filter-dimmed` (opacity: 0.2), `.filter-match` (accent left border)
 - `data-filter-carnet`, `data-filter-entry` attributes on list items enable DOM targeting
 
@@ -227,7 +227,7 @@ Translation keys use dot-separated paths: `header.siteTitle`, `diary.notebook`, 
 | `reading-theme` | `light` / `sepia` / `dark` | BaseLayout, UnifiedMenu, ReadingSettings |
 | `reading-font-scale` | number (0.8-1.3) | BaseLayout, UnifiedMenu |
 | `ui-language` | `cs` / `en` / `fr` / `uk` | BaseLayout, LocaleSwitcher, useI18n |
-| `sidebar-pinned` | `true` / absent | BaseLayout, BookSidebar |
+| `sidebar-pinned` | `true` / absent | BaseLayout (legacy of removed BookSidebar) |
 | `filter-tags` | JSON `Record<string, string[]>` | filter store |
 | `offline-downloads` | JSON download records | offline store |
 
