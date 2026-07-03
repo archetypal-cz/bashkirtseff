@@ -90,7 +90,7 @@ export default defineConfig({
         short_name: 'Bashkirtseff',
         description: 'The complete, unabridged diary of Marie Bashkirtseff',
         lang: 'en',
-        theme_color: '#B45309',
+        theme_color: '#9A4707',  // brand accent (A11y WS-A darkened value)
         background_color: '#FFF8F0',
         display: 'standalone',
         orientation: 'portrait-primary',

@@ -61,9 +61,11 @@ onUnmounted(() => {
       @click.stop="togglePanel"
       class="offline-status-btn"
       :class="{ 'has-updates': store.hasStaleDownloads }"
+      :aria-label="t('offline.storageTitle') + ' (' + downloadCount + ')' + (store.hasStaleDownloads ? ' — ' + t('offline.stale') : '')"
+      :aria-expanded="panelOpen"
       :title="store.hasStaleDownloads ? t('offline.stale') : t('offline.statusOnline')"
     >
-      <svg class="offline-status-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg class="offline-status-icon" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
           d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
       </svg>
@@ -74,8 +76,9 @@ onUnmounted(() => {
       v-else
       class="offline-status-btn is-disabled"
       :title="t('offline.statusOnline')"
+      aria-hidden="true"
     >
-      <svg class="offline-status-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg class="offline-status-icon" focusable="false" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
           d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
       </svg>

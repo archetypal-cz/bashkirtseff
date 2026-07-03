@@ -1,6 +1,6 @@
 # Accessibility Plan — bashkirtseff.org
 
-> Status: **workstreams A–F + H implemented** (2026-07-02/03 — see per-section STATUS notes). Remaining: WS-G (PWA manifest details), WS-I (manual NVDA/VoiceOver audit protocol). The baseline tables below describe the pre-implementation state.
+> Status: **workstreams A–H implemented** (2026-07-02/03 — see per-section STATUS notes). Remaining: WS-I (manual NVDA/VoiceOver audit protocol — the human part). The baseline tables below describe the pre-implementation state.
 > Audited 2026-07-02 against the live `src/frontend` codebase (Astro 7 static +
 > Vue 3 islands + Tailwind v4 + `@vite-pwa/astro`). Baseline captured with
 > axe-core 4.12 driven by headless Chrome against a local `astro dev` build.
@@ -408,6 +408,18 @@ composable so the fixes below are DRY.
   as instant toggle. *Effort:* M.
 
 ### WS-G · PWA specifics
+
+> **STATUS: IMPLEMENTED 2026-07-03.** G1 manifest reviewed: maskable 192+512
+> icons already present; `theme_color` (manifest + meta) updated to the
+> post-WS-A brand accent #9A4707; `lang: en` left as-is (per-install-context
+> lang has no meaningful platform support — noted). G2 offline toast was made
+> a live region in WS-D/D4; OfflineStatus header button now has an accessible
+> name (downloads count + stale state), aria-expanded, hidden decorative
+> icons; the non-interactive placeholder indicator is aria-hidden. G3 skip
+> link + id=main landed for all standalone layouts in WS-B/B1; admin page
+> (client:only island) gained an sr-only h1 — offline/404/home already had
+> one. Gate re-verified: PASS (light+dark, 0 serious/critical).
+
 
 - **G1 — Manifest a11y review.** *What:* manifest already has `name`, `short_name`,
   `description`, `lang: 'en'`, `theme_color`, `background_color` (`astro.config.mjs:93`).
