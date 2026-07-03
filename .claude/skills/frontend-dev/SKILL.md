@@ -311,6 +311,25 @@ just fe-preview   # Preview production build
 
 ## Pitfalls to Avoid
 
+<!-- Teamcouch update 2026-07-03: three pitfalls from the a11y wave (WS-A..H).
+     Evidence: commits a041916dc/cce19f1f0/ad21404b0 + 5 Codex review rounds
+     2026-07-02..03 — 4 of 5 found real defects (sibling misses x2, dead
+     components x2, pin-focus bug, CSS duplication). -->
+- **`[year]/index.astro` and `[carnet]/index.astro` are near-twins** — summary
+  sidebars, location links, and heading structures are byte-similar. A fix
+  applied to one almost always belongs in the other; grep for the sibling
+  before considering the fix done (missed twice in one week, both caught only
+  by external review).
+- **Verify a component is actually imported before investing work in it** —
+  `FilterPanel.vue` and `BookSidebar.vue` sat in these docs and the codebase as
+  apparent live components while UnifiedMenu's inline sections had superseded
+  them; a full dialog-a11y migration was applied to dead code before a
+  reviewer caught it. `grep -rn "ComponentName" src/` first.
+- **Get an external review pass (e.g. `/codex:rescue`) on substantial frontend
+  changes before pushing** — across the a11y wave, 4 of 5 review rounds found
+  real defects the implementer + automated gates missed.
+
+
 - **Don't shadow `lang`** — page templates receive `lang: DiaryLanguageConfig` as prop. Inside `.map()` callbacks, use different variable names (e.g., `l`, `langCode`).
 - **Astro redirects with dynamic params** don't work as config entries — create redirect pages with `getStaticPaths()` instead.
 - **`glossaryUrl(lang, id)`** must be used for all glossary links to ensure correct `/{urlPath}/glossary/{id}` paths.
