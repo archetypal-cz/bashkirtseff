@@ -514,7 +514,7 @@ function processTextToHtml(text: string, lang: string = 'original'): { html: str
       }
       // Display short version for readability
       const displayId = id.includes('.') ? id.split('.').pop() : id;
-      return `<sup><a href="#fn-${id}" id="fnref-${id}" class="footnote-ref">${displayId}</a></sup>`;
+      return `<sup><a href="#fn-${id}" id="fnref-${id}" class="footnote-ref" aria-expanded="false">${displayId}</a></sup>`;
     })
     // Convert markdown links [text](url) to HTML anchors.
     // The URL pattern supports one level of nested parentheses (common in

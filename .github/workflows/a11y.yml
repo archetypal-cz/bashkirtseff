@@ -1,0 +1,65 @@
+name: A11y gate
+
+# A11y regression gate (docs/A11Y_PLAN.md WS-H/H2): builds the site, serves
+# dist/, and runs axe-core over the 8 key page types with a budget of
+# 0 serious/critical violations (plus the %%-marker leak check). A contrast,
+# target-size, label or landmark regression fails the PR.
+#
+# NOTE: build is the expensive step (~15-20 min for 35k pages). The gate runs
+# on pull requests touching the frontend, and can be dispatched manually.
+# (The leftover build-and-deploy.yml.disabled is unrelated — do not revive it.)
+
+on:
+  pull_request:
+    paths:
+      - 'src/frontend/**'
+      - 'src/shared/**'
+      - 'src/scripts/a11y-audit.mjs'
+      - '.github/workflows/a11y.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  a11y:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build shared package
+        run: npm run build --workspace=src/shared
+
+      - name: Unit tests (vitest)
+        run: npm run test --workspace=src/frontend
+
+      - name: Build frontend
+        run: npm run build --workspace=src/frontend
+
+      - name: Serve dist
+        run: |
+          npx serve -l 4407 src/frontend/dist &
+          for i in $(seq 1 30); do curl -sf http://localhost:4407/ > /dev/null && break; sleep 1; done
+
+      - name: Contrast matrix (static)
+        run: node src/scripts/a11y-contrast-matrix.mjs
+
+      - name: Axe audit (budget 0 serious/critical, light+dark)
+        env:
+          BASE_URL: http://localhost:4407
+          THEMES: light,dark
+          CHROME_PATH: /usr/bin/google-chrome
+        run: node src/scripts/a11y-audit.mjs

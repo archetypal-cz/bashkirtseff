@@ -169,6 +169,7 @@ function getIconColor(category?: string): string {
       <input
         v-model="searchQuery"
         type="text"
+        :aria-label="t('glossary.search')"
         :placeholder="t('glossary.search')"
         class="search-input"
         @focus="handleFocus"

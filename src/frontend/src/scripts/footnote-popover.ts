@@ -6,11 +6,31 @@
  */
 
 let activePopover: HTMLElement | null = null;
+let activeRef: HTMLAnchorElement | null = null;
 
-function dismiss() {
+// A11y (WS-D/D6): the close-button label in the page's language (this script is
+// framework-free, so a tiny static map instead of the i18n system).
+const CLOSE_LABELS: Record<string, string> = { cs: 'Zavřít', uk: 'Закрити', fr: 'Fermer', en: 'Close' };
+function closeLabel(): string {
+  const lang = (document.documentElement.lang || 'cs').slice(0, 2);
+  return CLOSE_LABELS[lang] || CLOSE_LABELS.en;
+}
+
+/**
+ * @param restoreFocus return keyboard focus to the reference that opened the
+ * popover — used for Escape/close-button dismissals; scroll/outside-click
+ * dismissals must NOT yank focus around.
+ */
+function dismiss(restoreFocus = false) {
   if (activePopover) {
     activePopover.remove();
     activePopover = null;
+  }
+  if (activeRef) {
+    activeRef.setAttribute('aria-expanded', 'false');
+    activeRef.removeAttribute('aria-controls'); // the popover element is gone
+    if (restoreFocus) activeRef.focus();
+    activeRef = null;
   }
 }
 
@@ -74,17 +94,27 @@ function showPopover(ref: HTMLAnchorElement) {
 
   const popover = document.createElement('div');
   popover.className = 'footnote-popover';
+  // A11y (WS-D/D6): announced as a named dialog; focus moves in so the close
+  // button is keyboard-reachable, and returns to the reference on Escape/close.
+  popover.setAttribute('role', 'dialog');
+  popover.setAttribute('aria-label', ref.textContent ? `${closeLabel() === 'Zavřít' ? 'Poznámka' : 'Note'} ${ref.textContent.trim()}` : 'Note');
+  popover.setAttribute('tabindex', '-1');
+  popover.id = `footnote-popover-${fnId}`;
   popover.innerHTML = `
     <div class="footnote-popover-arrow arrow-down"></div>
     <div class="footnote-popover-body">
       <span class="footnote-popover-content">${fnItem.innerHTML}</span>
-      <button class="fn-close" aria-label="Close" title="Close">&times;</button>
+      <button class="fn-close" aria-label="${closeLabel()}" title="${closeLabel()}">&times;</button>
     </div>
   `;
 
+  ref.setAttribute('aria-expanded', 'true');
+  ref.setAttribute('aria-controls', popover.id);
+  activeRef = ref;
+
   popover.querySelector('.fn-close')!.addEventListener('click', (e) => {
     e.stopPropagation();
-    dismiss();
+    dismiss(true);
   });
 
   // Prevent clicks inside popover from dismissing it
@@ -92,6 +122,7 @@ function showPopover(ref: HTMLAnchorElement) {
 
   activePopover = popover;
   positionPopover(popover, ref);
+  popover.focus();
 }
 
 // Attach handlers
@@ -110,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') dismiss();
+    if (e.key === 'Escape') dismiss(true);
   });
 
   // The popover is position:fixed and does not follow the page as it scrolls,

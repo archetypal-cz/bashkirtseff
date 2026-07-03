@@ -117,7 +117,8 @@ onUnmounted(() => {
     <template v-for="lang in ALL_LANGUAGES" :key="lang">
       <!-- Current language: highlighted -->
       <span v-if="lang === currentLanguage" class="lang-current" aria-current="true">
-        <svg v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <svg aria-hidden="true" focusable="false" v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <span v-if="lang === '_original'" class="sr-only">{{ getTitle(lang) }}</span>
         <template v-else>{{ getLanguageLabel(lang) }}</template>
       </span>
 
@@ -127,9 +128,10 @@ onUnmounted(() => {
         :href="getLanguageUrl(lang)"
         class="lang-link"
         :title="getTitle(lang)"
+        :aria-label="getTitle(lang)"
         @click="trackEvent('content_lang_switch', { from: currentLanguage, to: lang })"
       >
-        <svg v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <svg aria-hidden="true" focusable="false" v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         <template v-else>{{ getLanguageLabel(lang) }}</template>
       </a>
 
@@ -139,8 +141,9 @@ onUnmounted(() => {
         href="/about"
         class="lang-unavailable"
         :title="t('language.unavailable')"
+        :aria-label="getTitle(lang) + ' — ' + t('language.unavailable')"
       >
-        <svg v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <svg aria-hidden="true" focusable="false" v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         <template v-else>{{ getLanguageLabel(lang) }}</template>
       </a>
     </template>
@@ -180,7 +183,7 @@ onUnmounted(() => {
 .lang-current {
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);  /* A11y: fill token stays white-text safe in dark */
   color: white;
   font-size: 0.875rem;
 }

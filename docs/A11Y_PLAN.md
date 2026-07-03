@@ -304,6 +304,17 @@ composable so the fixes below are DRY.
 
 ### WS-D · Screen-reader experience for the bilingual reading flow
 
+> **STATUS: IMPLEMENTED 2026-07-03** (D1–D6). Flip faces aria-hidden+inert with
+> lang attrs (D1/D2); %%-leak assertion baked into the audit script, 0 leaks
+> (D3); aria-live/status/alert on copied, filter banner, font size, report
+> states, offline toast (D4, covers G2's toast); language switchers expose
+> current/available/unavailable non-visually, globes named+hidden (D5);
+> footnote popover is a focus-managed named dialog with localized close and
+> scroll-safe dismissal (D6 — Codex empirically verified no focus/scroll race).
+> Deferred: per-run lang on inline `.foreign-text` (language not attributable
+> per-run from markup — WS-I manual item).
+
+
 - **D1 — Tame the flip in the a11y tree (F6).** *What:* toggle `aria-hidden` on
   the hidden card face and set `inert` on the rotated-away face so SR reads only
   the visible language; add `aria-pressed`/`aria-label` announcing "showing
@@ -349,6 +360,13 @@ composable so the fixes below are DRY.
 
 ### WS-E · Controls naming & touch targets
 
+> **STATUS: IMPLEMENTED 2026-07-03** (E1–E5). Menu toggle label translated,
+> paragraph-menu trigger named, globes hidden (E1); search inputs labeled (E2);
+> 24px targets on toolbar buttons, banner-clear, filter-tag labels, footer
+> small links — entry pages went 12→0 target-size nodes (E3); toolbar resting
+> opacity 0.2→0.45 (E4); aria-pressed on theme/brand toggles (E5).
+
+
 - **E1 — Name every icon-only control; hide decorative SVGs (F15).** *What:* add
   translated `aria-label` (not just `title`) to icon buttons; add
   `aria-hidden="true"` + `focusable="false"` to decorative SVGs. *Where:*
@@ -376,6 +394,11 @@ composable so the fixes below are DRY.
 
 ### WS-F · Motion & preferences
 
+> **STATUS: IMPLEMENTED 2026-07-03.** Global `prefers-reduced-motion: reduce`
+> block: smooth-scroll off, all transitions/animations to 0.01ms (Vue
+> Transition hooks still complete — verified no duration-dependent usage).
+
+
 - **F1m — Global `prefers-reduced-motion` guard (F13).** *What:* one media block
   reducing/zeroing transitions & animations; gate `scroll-behavior:smooth`; make
   the paragraph flip an instant swap under reduced motion; calm the offline toast.
@@ -402,6 +425,15 @@ composable so the fixes below are DRY.
   `admin/index.astro:7`, `home/[lang].astro:84`. *Effort:* S.
 
 ### WS-H · Testing & CI
+
+> **STATUS: IMPLEMENTED 2026-07-03.** H1 `src/scripts/a11y-audit.mjs` (axe
+> serious/critical budget + %%-leak check, themes×brands sweep) + `just a11y`;
+> H2 `.github/workflows/a11y.yml` PR gate (npm ci → shared build → vitest →
+> frontend build → serve dist → contrast matrix → axe budget 0, light+dark);
+> H3 vitest in the frontend workspace (13 tests green, runs in the CI gate).
+> **Full gate verified locally: 64 scans (8 pages × light,dark × 4 brands) =
+> 0 serious/critical, 0 %% leaks — A11Y GATE: PASS.**
+
 
 - **H1 — Promote the axe runner into the repo.** *What:* move
   `scratchpad/axe-run.mjs`/`axe-detail.mjs` to `src/scripts/a11y-audit.mjs`

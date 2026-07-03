@@ -105,7 +105,7 @@ function togglePanel() {
             >
               A-
             </button>
-            <span class="font-size-value">{{ fontScaleDisplay }}</span>
+            <span class="font-size-value" aria-live="polite">{{ fontScaleDisplay }}</span>
             <button
               @click="adjustFontSize(1)"
               :disabled="fontScale >= 130"
@@ -124,6 +124,7 @@ function togglePanel() {
             <button
               @click="setTheme('light')"
               :class="{ active: theme === 'light' }"
+              :aria-pressed="theme === 'light'"
               class="theme-btn theme-light"
               :aria-label="t('reading.lightTheme')"
             >
@@ -135,6 +136,7 @@ function togglePanel() {
             <button
               @click="setTheme('sepia')"
               :class="{ active: theme === 'sepia' }"
+              :aria-pressed="theme === 'sepia'"
               class="theme-btn theme-sepia"
               :aria-label="t('reading.sepiaTheme')"
             >
@@ -146,6 +148,7 @@ function togglePanel() {
             <button
               @click="setTheme('dark')"
               :class="{ active: theme === 'dark' }"
+              :aria-pressed="theme === 'dark'"
               class="theme-btn theme-dark"
               :aria-label="t('reading.darkTheme')"
             >

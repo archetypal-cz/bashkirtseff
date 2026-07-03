@@ -39,6 +39,14 @@ const originalLanguages = computed(() => {
   }));
 });
 
+// A11y (WS-D/D2): HTML lang attributes for the two faces. urlPath 'cz' maps to
+// the ISO code 'cs'; originals default to the diary's French.
+const translationLangAttr = computed(() => {
+  const code = props.translationLang || 'cz';
+  return code === 'cz' ? 'cs' : code;
+});
+const originalLangAttr = computed(() => props.languages?.[0] || 'fr');
+
 // Translation language (shown on front/translation side)
 const translationLanguage = computed(() => {
   const code = props.translationLang || 'cz';
@@ -51,9 +59,9 @@ const translationLanguage = computed(() => {
     class="flip-card"
     :class="{ 'is-flipped': isFlipped, 'has-original': !!originalText }"
   >
-    <!-- Front face: Translation (shows original language icon - click to see original) -->
-    <div class="card-face card-front">
-      <div class="paragraph-text" v-html="htmlContent" />
+    <!-- Front face: Translation (A11y WS-D: rotated-away face is aria-hidden + inert) -->
+    <div class="card-face card-front" :aria-hidden="isFlipped ? 'true' : undefined" :inert="isFlipped">
+      <div class="paragraph-text" :lang="translationLangAttr" v-html="htmlContent" />
       <button
         v-if="originalText"
         @click="flip"
@@ -73,8 +81,8 @@ const translationLanguage = computed(() => {
     </div>
 
     <!-- Back face: Original (shows translation language icon - click to see translation) -->
-    <div v-if="originalText" class="card-face card-back">
-      <p class="paragraph-text original-text">{{ originalText }}</p>
+    <div v-if="originalText" class="card-face card-back" :aria-hidden="!isFlipped ? 'true' : undefined" :inert="!isFlipped">
+      <p class="paragraph-text original-text" :lang="originalLangAttr">{{ originalText }}</p>
       <button
         @click="flip"
         class="flip-btn"

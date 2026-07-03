@@ -29,6 +29,10 @@ const props = defineProps<{
 
 const isFlipped = ref(false);
 
+// A11y (WS-D/D2): lang attribute for the original face — the paragraph's first
+// source language, falling back to the diary's French.
+const originalLangAttr = computed(() => props.languages?.[0] || 'fr');
+
 function flip() {
   trackEvent('paragraph_flip', {
     paragraphId: props.paragraphId,
@@ -244,14 +248,15 @@ const hasOriginal = computed(() => !!props.originalText);
       class="flip-card"
       :class="{ 'is-flipped': isFlipped, 'has-original': hasOriginal }"
     >
-      <!-- Front face -->
-      <div class="card-face card-front">
+      <!-- Front face (A11y WS-D: the rotated-away face is aria-hidden + inert
+           so screen readers hear only the visible language) -->
+      <div class="card-face card-front" :aria-hidden="isFlipped ? 'true' : undefined" :inert="isFlipped">
         <div class="paragraph-text" :lang="contentLang" v-html="htmlContent" />
       </div>
 
       <!-- Back face: Original text -->
-      <div v-if="hasOriginal" class="card-face card-back">
-        <p class="paragraph-text original-text">{{ originalText }}</p>
+      <div v-if="hasOriginal" class="card-face card-back" :aria-hidden="!isFlipped ? 'true' : undefined" :inert="!isFlipped">
+        <p class="paragraph-text original-text" :lang="originalLangAttr">{{ originalText }}</p>
       </div>
     </div>
 
@@ -305,7 +310,7 @@ const hasOriginal = computed(() => !!props.originalText);
                 <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                 </svg>
-                <span>{{ copied ? t('paragraph.copied') : t('paragraph.copyLink') }}</span>
+                <span aria-live="polite">{{ copied ? t('paragraph.copied') : t('paragraph.copyLink') }}</span>
               </button>
 
               <!-- Report issue (authenticated) -->
@@ -371,7 +376,9 @@ const hasOriginal = computed(() => !!props.originalText);
   justify-content: flex-end;
   min-height: 0.75rem;
   padding: 0;
-  opacity: 0.2;
+  /* A11y (WS-E/E4): raised from 0.2 — resting controls must be perceivable
+     without hover for low-vision users; full opacity on hover/focus-within */
+  opacity: 0.45;
   transition: opacity 0.25s ease;
   position: relative;
   z-index: 2;
@@ -402,6 +409,9 @@ const hasOriginal = computed(() => !!props.originalText);
   align-items: center;
   justify-content: center;
   padding: 0.125rem;
+  /* A11y (WS-E/E3): WCAG 2.2 target-size — every toolbar control >= 24x24 */
+  min-width: 24px;
+  min-height: 24px;
   color: var(--text-muted, #5C5650);
   background: transparent;
   border: none;

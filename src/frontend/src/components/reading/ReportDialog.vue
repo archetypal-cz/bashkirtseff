@@ -140,7 +140,7 @@ defineExpose({ open });
           </div>
 
           <!-- Success state -->
-          <div v-if="submitted" class="report-success">
+          <div v-if="submitted" class="report-success" role="status">
             <svg class="report-success__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
             </svg>
@@ -188,7 +188,7 @@ defineExpose({ open });
             </div>
 
             <!-- Error -->
-            <p v-if="error" class="report-error">{{ error }}</p>
+            <p v-if="error" class="report-error" role="alert">{{ error }}</p>
 
             <!-- Submit -->
             <button

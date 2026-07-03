@@ -925,6 +925,13 @@ a11y-contrast:
 a11y-axe:
     node src/scripts/a11y-axe-run.mjs
 
+# A11y: full CI gate — axe serious/critical budget (default 0) + %%-leak check
+# across 8 page types. THEMES=light,dark BRANDS=default,atelier,deuil,riviera
+# to sweep combos; BASE_URL to point at a built/preview server.
+a11y:
+    just a11y-contrast
+    node src/scripts/a11y-audit.mjs
+
 # Start frontend development server
 fe-dev:
     cd src/frontend && npx astro dev --host

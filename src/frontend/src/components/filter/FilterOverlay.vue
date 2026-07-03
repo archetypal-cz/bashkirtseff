@@ -284,7 +284,7 @@ function formatShortDate(dateStr: string): string {
 
 <template>
   <div v-if="showBannerFlag" class="filter-banner">
-    <div class="banner-content">
+    <div class="banner-content" role="status" aria-live="polite">
       <span v-if="bannerTagsText" class="banner-tags">{{ bannerTagsText }}</span>
       <span class="banner-text">{{ bannerCountText }}</span>
     </div>
@@ -337,7 +337,8 @@ function formatShortDate(dateStr: string): string {
   background: transparent;
   border: 1px solid var(--border-color);
   border-radius: 4px;
-  padding: 2px 10px;
+  padding: 4px 10px;
+  min-height: 24px;  /* A11y (WS-E/E3): WCAG 2.2 target-size */
   cursor: pointer;
   white-space: nowrap;
   font-family: var(--font-sans);

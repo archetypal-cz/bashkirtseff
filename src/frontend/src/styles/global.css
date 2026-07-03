@@ -39,6 +39,24 @@
     scroll-behavior: smooth;
   }
 
+  /* A11y (WS-F/F1m): honor the OS reduced-motion preference — no smooth
+     scroll, no animated transitions (the paragraph flip degrades to an
+     instant swap; Vue <Transition> still mounts/unmounts, just without the
+     animated interlude). */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
   body {
     background-color: var(--bg-primary);
     color: var(--text-primary);
@@ -54,6 +72,15 @@
   /* Themed text selection (was browser default) */
   ::selection {
     background: var(--selection-bg);
+  }
+
+  /* A11y (WS-E/E3): small footer meta/license links get a 24px-tall hit area
+     (padding compensated by negative margin so line rhythm is unchanged). */
+  .site-footer .text-xs a,
+  .site-footer .mb-1 a {
+    display: inline-block;
+    padding-block: 5px;
+    margin-block: -5px;
   }
 
   /* A11y (WS-C/C7): one visible keyboard-focus ring for the whole site.

@@ -202,7 +202,7 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
     <slot />
 
     <!-- Offline toast: appears when connection is lost on an already-loaded page -->
-    <div id="offline-toast" style="display:none;position:fixed;bottom:1rem;left:50%;transform:translateX(-50%);z-index:200;background:#451a03;color:#fbbf24;padding:0.5rem 1.25rem;border-radius:0.5rem;font-family:var(--font-sans,system-ui);font-size:0.875rem;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:opacity 0.3s;pointer-events:none;"></div>
+    <div id="offline-toast" role="status" aria-live="polite" style="display:none;position:fixed;bottom:1rem;left:50%;transform:translateX(-50%);z-index:200;background:#451a03;color:#fbbf24;padding:0.5rem 1.25rem;border-radius:0.5rem;font-family:var(--font-sans,system-ui);font-size:0.875rem;box-shadow:0 4px 12px rgba(0,0,0,0.2);transition:opacity 0.3s;pointer-events:none;"></div>
     <script is:inline>
       (function() {
         var toast = document.getElementById('offline-toast');

@@ -384,8 +384,8 @@ onUnmounted(() => {
       @click="togglePanel"
       :aria-expanded="isOpen"
       :aria-label="filterStore.isActive
-        ? `Menu (${filterStore.activeTagCount} ${t('filter.entries')})`
-        : 'Menu'"
+        ? `${t('common.menu')} (${filterStore.activeTagCount} ${t('filter.entries')})`
+        : t('common.menu')"
     >
       <!-- Hamburger icon -->
       <svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none"
@@ -501,7 +501,7 @@ onUnmounted(() => {
                         class="font-btn"
                         :aria-label="t('reading.decreaseFont')"
                       >A-</button>
-                      <span class="font-size-value">{{ fontScaleDisplay }}</span>
+                      <span class="font-size-value" aria-live="polite">{{ fontScaleDisplay }}</span>
                       <button
                         @click="adjustFontSize(1)"
                         :disabled="fontScale >= 130"
@@ -514,21 +514,21 @@ onUnmounted(() => {
                   <div class="setting-group">
                     <label class="setting-label">{{ t('reading.theme') }}</label>
                     <div class="theme-controls">
-                      <button @click="setTheme('light')" :class="{ active: theme === 'light' }"
+                      <button @click="setTheme('light')" :class="{ active: theme === 'light' }" :aria-pressed="theme === 'light'"
                         class="theme-btn theme-light" :aria-label="t('reading.lightTheme')">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                         </svg>
                       </button>
-                      <button @click="setTheme('sepia')" :class="{ active: theme === 'sepia' }"
+                      <button @click="setTheme('sepia')" :class="{ active: theme === 'sepia' }" :aria-pressed="theme === 'sepia'"
                         class="theme-btn theme-sepia" :aria-label="t('reading.sepiaTheme')">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                         </svg>
                       </button>
-                      <button @click="setTheme('dark')" :class="{ active: theme === 'dark' }"
+                      <button @click="setTheme('dark')" :class="{ active: theme === 'dark' }" :aria-pressed="theme === 'dark'"
                         class="theme-btn theme-dark" :aria-label="t('reading.darkTheme')">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -541,13 +541,13 @@ onUnmounted(() => {
                   <div class="setting-group">
                     <label class="setting-label">{{ t('reading.edition') }}</label>
                     <div class="brand-controls">
-                      <button @click="setBrand('default')" :class="{ active: brand === 'default' }"
+                      <button @click="setBrand('default')" :class="{ active: brand === 'default' }" :aria-pressed="brand === 'default'"
                         class="brand-btn brand-default" :aria-label="t('reading.editionDefault')" :title="t('reading.editionDefault')"></button>
-                      <button @click="setBrand('atelier')" :class="{ active: brand === 'atelier' }"
+                      <button @click="setBrand('atelier')" :class="{ active: brand === 'atelier' }" :aria-pressed="brand === 'atelier'"
                         class="brand-btn brand-atelier" aria-label="Atelier" title="Atelier"></button>
-                      <button @click="setBrand('deuil')" :class="{ active: brand === 'deuil' }"
+                      <button @click="setBrand('deuil')" :class="{ active: brand === 'deuil' }" :aria-pressed="brand === 'deuil'"
                         class="brand-btn brand-deuil" aria-label="Deuil" title="Deuil"></button>
-                      <button @click="setBrand('riviera')" :class="{ active: brand === 'riviera' }"
+                      <button @click="setBrand('riviera')" :class="{ active: brand === 'riviera' }" :aria-pressed="brand === 'riviera'"
                         class="brand-btn brand-riviera" aria-label="Riviera" title="Riviera"></button>
                     </div>
                   </div>
@@ -650,6 +650,7 @@ onUnmounted(() => {
                     <input
                       v-model="sidebarSearch"
                       type="text"
+                      :aria-label="t('sidebar.searchEntries')"
                       :placeholder="t('sidebar.searchEntries')"
                       class="um-search-input"
                     />
@@ -705,6 +706,7 @@ onUnmounted(() => {
                     <input
                       v-model="filterSearch"
                       type="text"
+                      :aria-label="t('filter.search')"
                       :placeholder="t('filter.search')"
                       class="um-search-input"
                     />
@@ -1733,7 +1735,8 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 2px 8px;
+  padding: 4px 8px;
+  min-height: 24px;  /* A11y (WS-E/E3): the label is the checkbox's hit area */
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.1s;
