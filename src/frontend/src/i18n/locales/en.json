@@ -14,7 +14,7 @@
     "yearsOld": "years old",
     "intro1": "Marie Bashkirtseff (1858–1884) was a Ukrainian noblewoman from Poltava who kept one of the most remarkable diaries in history from age thirteen until her premature death from tuberculosis.",
     "intro2": "For a hundred years, her diary was read only in a heavily censored version. The complete edition was published recently in a small print run and is nearly impossible to obtain.",
-    "intro3": "This project makes the full diary accessible with historical research, linguistic annotations, and is building infrastructure for translations into many languages.",
+    "intro3": "This project makes the full diary accessible with historical research, linguistic annotations, and translations into Ukrainian, Czech, English, and modern French.",
     "diaryVolumes": "Diary volumes",
     "carnet": "Notebook",
     "entries": "entries",
@@ -24,8 +24,8 @@
     "originalTextDesc": "The complete, unabridged diary in French with the original mix of languages Marie wrote in.",
     "researchAnnotations": "Research & annotations",
     "researchAnnotationsDesc": "Historical context, glossary of people and places, linguistic notes on the text.",
-    "translationInfra": "Translations in progress",
-    "translationInfraDesc": "Building infrastructure for AI-assisted translations into many languages, including Czech.",
+    "translationInfra": "In four languages",
+    "translationInfraDesc": "Ukrainian, Czech, English, and a modern French edition — now being refined paragraph by paragraph to read as literature.",
     "ctaQuote": "Je veux vivre, et vivre avec éclat.",
     "ctaQuoteTranslation": "I want to live, and live brilliantly.",
     "startReadingDiary": "Start reading the diary"
@@ -162,9 +162,9 @@
     "projectOrigin": "The project was created as part of <a href=\"https://archetypal.cz\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">archetypal.cz</a>, where we translate meaningful texts that a commercial approach couldn't deliver. First I discovered the shortened diary, then learned that a full version exists, and then that it's not easy to obtain.",
     "yearsOfWork": "Several years of spare-time work. It took many hours to obtain the complete diary in electronic form. Now I want to make it accessible to the world.",
     "currentStatus": "Current Status",
-    "currentStatusText": "We're currently in the research and annotation phase — carefully documenting historical context, identifying people and places, and preparing the source material for high-quality translation.",
-    "translationReady": "The AI-assisted translation infrastructure is already operational. Early translations into Czech are in progress, and the system can support additional languages.",
-    "collaborationStatus": "GitHub collaboration is currently private while we establish workflows, but will be opened to contributors soon.",
+    "currentStatusText": "The first full translation is done. The entire diary — all 107 notebooks, close to 3,800 entries spanning 1873–1884 — has been translated into Ukrainian, Czech, and English, with a modern French edition alongside. The Ukrainian translation has also been through its final editorial pass; the other languages have gone through the complete pipeline, from research to proofreading.",
+    "translationReady": "The work has now moved into a new phase. We go through the translations paragraph by paragraph against the French original, refining them so they read fluently and naturally — as literature, not as a translation. These redaction passes are already done for the first and last notebooks in Czech and for the preface and closing notebooks in Ukrainian, and every entry keeps a record in its metadata of which passes it has been through.",
+    "collaborationStatus": "The source texts, the translations, and the whole translation system are public on GitHub. You are just as welcome on /r/bashkirtseff and in GitHub Issues.",
     "vision": "Vision",
     "visionText": "My goal is to help <strong class=\"text-ink\">Marie Bashkirtseff's spirit</strong> make a comeback. To publish the diary in all languages at once. You click which version (censored/complete/selection) and language you want, and you can read, share paragraphs, paragraph images...",
     "aiTranslation": "Translations are created using AI, with emphasis on preserving Marie's layers of meaning, unique voice, and period context. If a translation in some language doesn't exist yet, the project includes tools that can generate it and then just fine-tune it by humans.",
@@ -186,7 +186,8 @@
     "praiseGladstoneAttrib": "William Gladstone, British Prime Minister",
     "praiseInfluence": "Her diary influenced generations of writers — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir drew on it for The Second Sex.",
     "privacy": "Privacy",
-    "privacyText": "This site has no corporate tracking, no advertising cookies, and no data sold to third parties. We use our own simple analytics to understand which entries are read and how the site is used — nothing more. When you install the app, your reading data stays on your device."
+    "privacyText": "This site has no corporate tracking, no advertising cookies, and no data sold to third parties. We use our own simple analytics to understand which entries are read and how the site is used — nothing more. When you install the app, your reading data stays on your device.",
+    "helpImprove": "And this is where you can help. If you sign in (a Google account is enough) and come across a passage that reads awkwardly, select it and send us a short note — right from the paragraph you highlighted. Every entry also has an “Open on GitHub” link in its menu, leading straight to the source file with all its translation notes and history, in case you want to go deeper. Every remark then goes through the same editorial pipeline as everything else."
   },
   "header": {
     "siteTitle": "Diary of Marie Bashkirtseff",
@@ -483,5 +484,22 @@
     "featureContinueDesc": "The app remembers your last position in each notebook. When you return, look for the \"Continue reading\" button to jump right back.",
     "startReading": "Start reading",
     "skipLabel": "Skip introduction"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "breadcrumb": "Breadcrumb",
+    "mainNav": "Main navigation",
+    "entryNav": "Previous and next entry",
+    "entryNavCompact": "Quick entry navigation",
+    "carnetNav": "Previous and next notebook",
+    "carnetNavCompact": "Quick notebook navigation",
+    "pageNav": "More pages",
+    "alphabetNav": "Alphabetical index",
+    "menuNav": "Menu navigation",
+    "historyNav": "Reading history",
+    "contentsNav": "Notebook contents",
+    "sidebarContents": "Entry list",
+    "yearNav": "Previous and next year",
+    "yearNavCompact": "Quick year navigation"
   }
 }

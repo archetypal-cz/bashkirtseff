@@ -14,7 +14,7 @@
     "yearsOld": "let",
     "intro1": "Marie Bashkirtseff (1858–1884) byla ukrajinská šlechtična z Poltavy, která si od třinácti let až do své předčasné smrti na tuberkulózu vedla jeden z nejpozoruhodnějších deníků v historii.",
     "intro2": "Po sto let se její deník četl v silně cenzurované podobě. Kompletní verze vyšla teprve nedávno v malém nákladu a je téměř nemožné ji sehnat.",
-    "intro3": "Tento projekt zpřístupňuje plné znění deníku s historickým výzkumem, jazykovými anotacemi a připravuje infrastrukturu pro překlady do mnoha jazyků.",
+    "intro3": "Tento projekt zpřístupňuje plné znění deníku s historickým výzkumem, jazykovými anotacemi a překlady do ukrajinštiny, češtiny, angličtiny a moderní francouzštiny.",
     "diaryVolumes": "Svazky deníku",
     "carnet": "Sešit",
     "entries": "záznamů",
@@ -24,8 +24,8 @@
     "originalTextDesc": "Kompletní, nekrácený deník ve francouzštině s původní směsí jazyků, kterými Marie psala.",
     "researchAnnotations": "Výzkum a anotace",
     "researchAnnotationsDesc": "Historický kontext, glosář osob a míst, jazykové poznámky k textu.",
-    "translationInfra": "Překlady v přípravě",
-    "translationInfraDesc": "Budujeme infrastrukturu pro AI-asistované překlady do mnoha jazyků, včetně češtiny.",
+    "translationInfra": "Překlady ve čtyřech jazycích",
+    "translationInfraDesc": "Ukrajinsky, česky, anglicky a v moderní francouzské edici — teď je ladíme odstavec po odstavci, aby četly jako literatura.",
     "ctaQuote": "Je veux vivre, et vivre avec éclat.",
     "ctaQuoteTranslation": "Chci žít, a žít skvěle.",
     "startReadingDiary": "Začít číst deník"
@@ -162,9 +162,9 @@
     "projectOrigin": "Projekt vznikl v rámci <a href=\"https://archetypal.cz\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">archetypal.cz</a>, kde se věnujeme překladům smysluplných textů, které by s komerčním přístupem přinést nešly. Nejprve jsem objevil zkrácenou verzi deníku, pak jsem zjistil, že existuje plné znění, a pak že ho není snadné získat.",
     "yearsOfWork": "Několik let práce ve volném čase. Stálo mnoho set hodin získat celý deník v elektronické podobě a doladit ho, ale v této podobě konečně může být Mariin duch zpřístupněn světu.",
     "currentStatus": "Aktuální stav",
-    "currentStatusText": "V současnosti se nacházíme ve fázi výzkumu a anotací — pečlivě dokumentujeme historický kontext, identifikujeme osoby a místa a připravujeme zdrojový materiál pro kvalitní překlad.",
-    "translationReady": "Infrastruktura pro AI-asistovaný překlad je již funkční. Probíhají první překlady do češtiny a systém může podporovat další jazyky.",
-    "collaborationStatus": "Spolupráce na GitHubu je zatím soukromá, dokud ustálíme pracovní postupy, ale brzy bude otevřena přispěvatelům.",
+    "currentStatusText": "Prvotní překlad je hotový. Celý deník — všech 107 sešitů, bezmála 3 800 záznamů z let 1873–1884 — je přeložen do ukrajinštiny, češtiny i angličtiny a existuje k němu i moderní francouzská edice. Ukrajinský překlad má za sebou i závěrečnou redakci; ostatní jazyky prošly kompletním překladatelským postupem od výzkumu po korektury.",
+    "translationReady": "Teď se práce přesunula do další fáze. Procházíme překlady odstavec po odstavci proti francouzskému originálu a ladíme je, aby zněly plynule a přirozeně — jako literatura, ne jako překlad. Tyhle redakční průchody už máme za sebou u prvních i posledních sešitů v češtině a u předmluvy i závěrečných sešitů v ukrajinštině; každý záznam si nese v metadatech stopu po tom, kterými průchody prošel.",
+    "collaborationStatus": "Zdrojové texty, překlady i celý překladatelský systém jsou veřejně na GitHubu. Vítáme vás i na /r/bashkirtseff a v GitHub Issues.",
     "vision": "Vize",
     "visionText": "Můj zájem je pomoci <strong class=\"text-ink\">duchu Marie Baškircevové</strong>, aby mohl udělat comeback. Vydat deník ve všech jazycích naráz. Člověk si klikne, jakou verzi (cenzurovanou/komplet/výběr) a jazyk chce, a může si číst, sdílet odstavce, obrázky odstavců...",
     "aiTranslation": "Překlady vznikají s využitím AI, s důrazem na zachování Mariiných vrstev významu, jedinečného hlasu a dobového kontextu. Kdyby překlad v nějakém jazyce ještě nebyl, součástí projektu jsou nástroje, kterými jde překlad vygenerovat a pak jen doladit lidmi.",
@@ -186,7 +186,8 @@
     "praiseGladstoneAttrib": "William Gladstone, britský premiér",
     "praiseInfluence": "Její deník ovlivnil generace spisovatelek — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir z něj čerpala pro Druhé pohlaví.",
     "privacy": "Soukromí",
-    "privacyText": "Tento web nepoužívá firemní sledování, reklamní cookies ani neprodává data třetím stranám. Používáme pouze vlastní jednoduché statistiky, abychom věděli, které záznamy se čtou a jak se web používá — nic víc. Když si aplikaci nainstalujete, vaše data o čtení zůstávají na vašem zařízení."
+    "privacyText": "Tento web nepoužívá firemní sledování, reklamní cookies ani neprodává data třetím stranám. Používáme pouze vlastní jednoduché statistiky, abychom věděli, které záznamy se čtou a jak se web používá — nic víc. Když si aplikaci nainstalujete, vaše data o čtení zůstávají na vašem zařízení.",
+    "helpImprove": "A tady můžete pomoct i vy. Když se přihlásíte (stačí účet Google) a v textu narazíte na místo, které skřípe, označte ho a pošlete nám krátké upozornění — přímo od vybraného odstavce. U každého záznamu je v menu i odkaz „Otevřít na GitHubu“, který vede přesně na zdrojový soubor se všemi překladatelskými poznámkami a historií, kdybyste chtěli jít víc do hloubky. Každá připomínka pak projde stejnou redakční kolejí jako všechno ostatní."
   },
   "header": {
     "siteTitle": "Deník Marie Bashkirtseff",
@@ -483,5 +484,22 @@
     "featureContinueDesc": "Aplikace si pamatuje vaši poslední pozici v každém sešitu. Když se vrátíte, stačí kliknout na tlačítko \"Pokračovat ve čtení\".",
     "startReading": "Začít číst",
     "skipLabel": "Přeskočit úvod"
+  },
+  "a11y": {
+    "skipToContent": "Přeskočit na obsah",
+    "breadcrumb": "Drobečková navigace",
+    "mainNav": "Hlavní navigace",
+    "entryNav": "Předchozí a další záznam",
+    "entryNavCompact": "Rychlá navigace mezi záznamy",
+    "carnetNav": "Předchozí a další sešit",
+    "carnetNavCompact": "Rychlá navigace mezi sešity",
+    "pageNav": "Další stránky",
+    "alphabetNav": "Abecední rejstřík",
+    "menuNav": "Navigace nabídky",
+    "historyNav": "Historie čtení",
+    "contentsNav": "Obsah sešitu",
+    "sidebarContents": "Seznam záznamů",
+    "yearNav": "Předchozí a další rok",
+    "yearNavCompact": "Rychlá navigace mezi roky"
   }
 }

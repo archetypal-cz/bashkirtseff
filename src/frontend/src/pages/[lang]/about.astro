@@ -61,6 +61,10 @@ const contentPath = localeToContent[lang as string] ?? 'cz';
         {t('about.translationReady')}
       </p>
 
+      <p class="leading-relaxed">
+        {t('about.helpImprove')}
+      </p>
+
       <p class="leading-relaxed text-muted text-sm">
         {t('about.collaborationStatus')}
       </p>
@@ -146,7 +150,7 @@ const contentPath = localeToContent[lang as string] ?? 'cz';
       </ul>
     </div>
 
-    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between">
+    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between" aria-label={t('a11y.pageNav')}>
       <a href={`/${lang}/marie`} class="text-muted hover:text-ink transition-colors">
         ← {t('about.aboutMarie')}
       </a>

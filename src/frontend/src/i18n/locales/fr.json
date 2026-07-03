@@ -14,7 +14,7 @@
     "yearsOld": "ans",
     "intro1": "Marie Bashkirtseff (1858–1884) était une aristocrate ukrainienne de Poltava qui a tenu l'un des journaux les plus remarquables de l'histoire, de l'âge de treize ans jusqu'à sa mort prématurée de tuberculose.",
     "intro2": "Pendant cent ans, son journal n'a été lu que dans une version fortement censurée. L'édition complète a été publiée récemment en tirage limité et est presque impossible à obtenir.",
-    "intro3": "Ce projet rend le journal complet accessible avec des recherches historiques, des annotations linguistiques, et développe une infrastructure pour des traductions en plusieurs langues.",
+    "intro3": "Ce projet rend le journal complet accessible avec des recherches historiques, des annotations linguistiques et des traductions en ukrainien, tchèque, anglais et français moderne.",
     "diaryVolumes": "Volumes du journal",
     "carnet": "Cahier",
     "entries": "entrées",
@@ -24,8 +24,8 @@
     "originalTextDesc": "Le journal complet et intégral en français avec le mélange original de langues dans lesquelles Marie écrivait.",
     "researchAnnotations": "Recherche et annotations",
     "researchAnnotationsDesc": "Contexte historique, glossaire des personnes et des lieux, notes linguistiques sur le texte.",
-    "translationInfra": "Traductions en cours",
-    "translationInfraDesc": "Construction d'une infrastructure pour des traductions assistées par IA en plusieurs langues, y compris le tchèque.",
+    "translationInfra": "En quatre langues",
+    "translationInfraDesc": "Ukrainien, tchèque, anglais et une édition française moderne — désormais affinés paragraphe par paragraphe pour se lire comme de la littérature.",
     "ctaQuote": "Je veux vivre, et vivre avec éclat.",
     "ctaQuoteTranslation": "Je veux vivre, et vivre avec éclat.",
     "startReadingDiary": "Commencer à lire le journal"
@@ -162,9 +162,9 @@
     "projectOrigin": "Le projet a été créé dans le cadre d'<a href=\"https://archetypal.cz\" class=\"text-accent hover:text-accent-light\" target=\"_blank\" rel=\"noopener\">archetypal.cz</a>, où nous traduisons des textes significatifs qu'une approche commerciale ne pourrait pas produire. D'abord j'ai découvert le journal abrégé, puis j'ai appris qu'une version complète existait, et ensuite qu'il n'était pas facile de l'obtenir.",
     "yearsOfWork": "Plusieurs années de travail pendant mon temps libre. Il a fallu de nombreuses heures pour obtenir le journal complet sous forme électronique. Maintenant je veux le rendre accessible au monde.",
     "currentStatus": "État actuel",
-    "currentStatusText": "Nous sommes actuellement dans la phase de recherche et d'annotation — documentant soigneusement le contexte historique, identifiant les personnes et les lieux, et préparant le matériel source pour une traduction de qualité.",
-    "translationReady": "L'infrastructure de traduction assistée par IA est déjà opérationnelle. Les premières traductions en tchèque sont en cours, et le système peut prendre en charge d'autres langues.",
-    "collaborationStatus": "La collaboration GitHub est actuellement privée pendant que nous établissons les flux de travail, mais sera bientôt ouverte aux contributeurs.",
+    "currentStatusText": "La première traduction complète est achevée. L’ensemble du journal — les 107 carnets, près de 3 800 entrées couvrant les années 1873–1884 — a été traduit en ukrainien, en tchèque et en anglais, avec une édition française moderne en parallèle. La traduction ukrainienne a également passé sa relecture finale ; les autres langues ont suivi tout le processus, de la recherche à la correction.",
+    "translationReady": "Le travail est maintenant entré dans une nouvelle phase. Nous parcourons les traductions paragraphe par paragraphe face à l’original français, en les affinant pour qu’elles se lisent avec fluidité et naturel — comme de la littérature, non comme une traduction. Ces passes de révision sont déjà faites pour les premiers et les derniers carnets en tchèque, ainsi que pour la préface et les carnets de clôture en ukrainien, et chaque entrée conserve dans ses métadonnées la trace des passes qu’elle a traversées.",
+    "collaborationStatus": "Les textes sources, les traductions et tout le système de traduction sont publics sur GitHub. Vous êtes également les bienvenus sur /r/bashkirtseff et dans les GitHub Issues.",
     "vision": "Vision",
     "visionText": "Mon objectif est d'aider <strong class=\"text-ink\">l'esprit de Marie Bashkirtseff</strong> à faire son retour. Publier le journal dans toutes les langues à la fois. On clique sur la version (censurée/complète/sélection) et la langue souhaitées, et on peut lire, partager des paragraphes, des images de paragraphes...",
     "aiTranslation": "Les traductions sont créées à l'aide de l'IA, en mettant l'accent sur la préservation des couches de sens de Marie, de sa voix unique et du contexte de l'époque. Si une traduction dans une langue n'existe pas encore, le projet comprend des outils pour la générer, puis la peaufiner par des humains.",
@@ -186,7 +186,8 @@
     "praiseGladstoneAttrib": "William Gladstone, Premier ministre britannique",
     "praiseInfluence": "Son journal a influencé des générations d'écrivaines — Anaïs Nin, Katherine Mansfield, Mary MacLane. Simone de Beauvoir s'en est inspirée pour Le Deuxième Sexe.",
     "privacy": "Confidentialité",
-    "privacyText": "Ce site n'utilise aucun pistage commercial, aucun cookie publicitaire et ne vend aucune donnée à des tiers. Nous utilisons uniquement nos propres statistiques simples pour savoir quelles entrées sont lues et comment le site est utilisé — rien de plus. Lorsque vous installez l'application, vos données de lecture restent sur votre appareil."
+    "privacyText": "Ce site n'utilise aucun pistage commercial, aucun cookie publicitaire et ne vend aucune donnée à des tiers. Nous utilisons uniquement nos propres statistiques simples pour savoir quelles entrées sont lues et comment le site est utilisé — rien de plus. Lorsque vous installez l'application, vos données de lecture restent sur votre appareil.",
+    "helpImprove": "Et c’est ici que vous pouvez nous aider. Si vous vous connectez (un compte Google suffit) et tombez sur un passage qui sonne faux, sélectionnez-le et envoyez-nous une brève remarque — directement depuis le paragraphe surligné. Chaque entrée comporte aussi un lien « Ouvrir sur GitHub » dans son menu, menant droit au fichier source avec toutes ses notes de traduction et son historique, si vous souhaitez aller plus loin. Chaque remarque suit ensuite le même circuit éditorial que le reste."
   },
   "header": {
     "siteTitle": "Journal de Marie Bashkirtseff",
@@ -483,5 +484,22 @@
     "featureContinueDesc": "L'application mémorise votre dernière position dans chaque carnet. À votre retour, cliquez sur le bouton \"Continuer la lecture\" pour reprendre.",
     "startReading": "Commencer à lire",
     "skipLabel": "Passer l'introduction"
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu",
+    "breadcrumb": "Fil d’Ariane",
+    "mainNav": "Navigation principale",
+    "entryNav": "Entrée précédente et suivante",
+    "entryNavCompact": "Navigation rapide des entrées",
+    "carnetNav": "Cahier précédent et suivant",
+    "carnetNavCompact": "Navigation rapide des cahiers",
+    "pageNav": "Autres pages",
+    "alphabetNav": "Index alphabétique",
+    "menuNav": "Navigation du menu",
+    "historyNav": "Historique de lecture",
+    "contentsNav": "Sommaire du cahier",
+    "sidebarContents": "Liste des entrées",
+    "yearNav": "Année précédente et suivante",
+    "yearNavCompact": "Navigation rapide des années"
   }
 }
