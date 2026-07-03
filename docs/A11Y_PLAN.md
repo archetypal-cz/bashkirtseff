@@ -1,6 +1,6 @@
 # Accessibility Plan — bashkirtseff.org
 
-> Status: **planning document** (audit + roadmap). Nothing here is implemented yet.
+> Status: **workstreams A–F + H implemented** (2026-07-02/03 — see per-section STATUS notes). Remaining: WS-G (PWA manifest details), WS-I (manual NVDA/VoiceOver audit protocol). The baseline tables below describe the pre-implementation state.
 > Audited 2026-07-02 against the live `src/frontend` codebase (Astro 7 static +
 > Vue 3 islands + Tailwind v4 + `@vite-pwa/astro`). Baseline captured with
 > axe-core 4.12 driven by headless Chrome against a local `astro dev` build.
