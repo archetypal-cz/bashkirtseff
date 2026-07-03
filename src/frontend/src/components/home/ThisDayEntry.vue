@@ -176,7 +176,7 @@ onMounted(() => {
           </svg>
         </button>
 
-        <h3 class="day-nav-date">{{ browsingDateFormatted }}</h3>
+        <h2 class="day-nav-date">{{ browsingDateFormatted }}</h2>
 
         <button class="day-nav-btn" @click="goToNextDay" :aria-label="'Next day'">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -188,7 +188,7 @@ onMounted(() => {
       <!-- Entry found -->
       <div v-if="selectedEntry" class="this-day-card">
         <div class="this-day-header">
-          <h3 class="this-day-title">{{ translations.title }}</h3>
+          <h2 class="this-day-title">{{ translations.title }}</h2>
           <div class="this-day-meta">
             <a :href="entryLink" class="this-day-date">{{ formattedDateLocalized }}</a>
             <span class="this-day-age">{{ marieAgeText }} {{ translations.yearsOld }}</span>

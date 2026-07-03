@@ -194,6 +194,19 @@ composable so the fixes below are DRY.
 
 ### WS-B · Semantics, landmarks & headings
 
+> **STATUS: IMPLEMENTED 2026-07-03.** B1 skip link (BaseLayout + `.skip-link`
+> CSS + `id="main"` on all five mains), B2 entry `<h1>` guarantee (first-para
+> `h2→h1` promotion when markdown-authored; `sr-only` h1 otherwise — exactly
+> one h1 on every entry), B3 nested footer → `<p>`, B4 distinct translated
+> `aria-label` on every `<nav>` (12 templates + 4 islands, 15 new `a11y.*`
+> keys ×4 locales), B5 heading-order fixes (ThisDay, footer, carnet+year
+> sidebars h3→h2), B6 `aria-current` (sidebar/contents entries, language
+> chips). Verified with axe on 8 page types: `page-has-heading-one`,
+> `heading-order`, `landmark-*`, `bypass` all CLEAN. Codex-reviewed; its one
+> defect (year-page sidebar h3 siblings) fixed. Known limitation (matches
+> existing convention): `aria-label`s are build-time locale, not live-patched
+> by I18nPatch when the UI-language preference differs.
+
 - **B1 — Add a skip link (F2).** *What:* first focusable element in `<body>`,
   visually-hidden until focus, jumps to `#main`. *Where:* `BaseLayout.astro:198`
   (+ give `<main>` `id="main"` in `ReadingLayout.astro:41` and the other layouts

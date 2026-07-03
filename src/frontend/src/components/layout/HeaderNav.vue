@@ -17,7 +17,7 @@ const aboutHref = computed(() => pageHref('about', locale.value));
 </script>
 
 <template>
-  <nav class="hidden md:flex items-center gap-6">
+  <nav class="hidden md:flex items-center gap-6" :aria-label="t('a11y.mainNav')">
     <a :href="translationHref" class="text-ink-light hover:text-accent transition-colors">
       {{ t('nav.translation') }}
     </a>

@@ -105,7 +105,7 @@ const contentPath = localeToContent[lang as string] ?? 'cz';
 
     </div>
 
-    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between">
+    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between" aria-label={t('a11y.pageNav')}>
       <a href={`/${lang}/about`} class="text-muted hover:text-ink transition-colors">
         ← {t('nav.about')}
       </a>

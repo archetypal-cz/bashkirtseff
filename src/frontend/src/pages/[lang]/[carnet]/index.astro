@@ -185,7 +185,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
 <ReadingLayout title={`${t('diary.notebook')} ${carnet} — ${t('diary.pageTitle')}`} description={carnetDescription} lang={lang.urlPath} alternates={carnetAlternates} sourcePath={`content/${lang.contentPath}/${carnet}`}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
-    <nav class="mb-8 text-sm text-muted">
+    <nav class="mb-8 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={basePath} class="hover:text-accent">
         {lang.isTranslation ? (
           <span data-t="diary.diary">{diaryLabel}</span>
@@ -210,7 +210,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
         <header class="summary-card p-5 rounded-lg flex flex-col justify-between">
           <div>
             {/* Prev/next carnet navigation in header */}
-            <nav class="flex justify-between items-center mb-3 text-sm">
+            <nav class="flex justify-between items-center mb-3 text-sm" aria-label={t('a11y.carnetNavCompact')}>
               {prevCarnet ? (
                 <a href={`${basePath}/${prevCarnet.id}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -323,9 +323,9 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
         {/* Tag panels (remaining columns) */}
         {!isSectionCarnet && topPeople.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="lit-label mb-3" data-t="diary.keyPeople">
+            <h2 class="lit-label mb-3" data-t="diary.keyPeople">
               {t('diary.keyPeople')}
-            </h3>
+            </h2>
             <ul class="space-y-2">
               {topPeople.map(([personId, count]) => (
                 <li class="flex items-center justify-between text-sm">
@@ -344,9 +344,9 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
 
         {!isSectionCarnet && topPlaces.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="lit-label mb-3" data-t="diary.places">
+            <h2 class="lit-label mb-3" data-t="diary.places">
               {t('diary.places')}
-            </h3>
+            </h2>
             <ul class="space-y-2">
               {topPlaces.map(([placeId, count]) => (
                 <li class="flex items-center justify-between text-sm">
@@ -365,9 +365,9 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
 
         {!isSectionCarnet && topThemes.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="lit-label mb-3" data-t="diary.themes">
+            <h2 class="lit-label mb-3" data-t="diary.themes">
               {t('diary.themes')}
-            </h3>
+            </h2>
             <div class="flex flex-wrap gap-2">
               {topThemes.map(([theme, count]) => (
                 <span class="inline-flex items-center gap-1 px-2 py-1 text-xs rounded-full bg-sepia text-ink">
@@ -382,9 +382,9 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
         {/* Calendar */}
         {!isSectionCarnet && calendarMonths.length > 0 && (
           <div class="summary-card p-4 rounded-lg xl:col-span-3 flex flex-col">
-            <h3 class="lit-label mb-2" data-t="diary.calendar">
+            <h2 class="lit-label mb-2" data-t="diary.calendar">
               {t('diary.calendar')}
-            </h3>
+            </h2>
             <div class="flex flex-wrap gap-3 flex-1 items-start content-start">
               {calendarMonths.map(({ year, month }) => (
                 <CalendarWidget
@@ -455,7 +455,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
     )}
 
     <!-- Carnet Navigation -->
-    <nav class="mt-8 pt-8 border-t border-ink/10 flex justify-between items-center">
+    <nav class="mt-8 pt-8 border-t border-ink/10 flex justify-between items-center" aria-label={t('a11y.carnetNav')}>
       {prevCarnet ? (
         <a
           href={`${basePath}/${prevCarnet.id}`}

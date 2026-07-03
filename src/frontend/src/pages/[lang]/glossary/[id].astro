@@ -101,7 +101,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 
 <ReadingLayout title={`${entry.name} — ${t('glossary.title')}`} lang={lang.urlPath} sourcePath={entry.category ? `content/_original/_glossary/${entry.category}/${entry.id}.md` : undefined}>
   <article class="max-w-3xl mx-auto">
-    <nav class="mb-6 text-sm text-muted">
+    <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={`/${lang.urlPath}`} class="hover:text-accent">{diaryLabel}</a>
       <span class="mx-2">&rsaquo;</span>
       <a href={basePath} class="hover:text-accent">{t('glossary.title')}</a>
@@ -224,7 +224,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
       <div class="prose-diary" set:html={htmlContent} />
     )}
 
-    <nav class="mt-12 pt-8 border-t border-ink/10">
+    <nav class="mt-12 pt-8 border-t border-ink/10" aria-label={t('glossary.backToGlossary')}>
       <a href={basePath} class="text-accent hover:text-accent-light transition-colors">
         &larr; {t('glossary.backToGlossary')}
       </a>

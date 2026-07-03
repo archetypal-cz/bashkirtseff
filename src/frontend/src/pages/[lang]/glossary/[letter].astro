@@ -63,7 +63,7 @@ function entryCountLabel(count: number): string {
 <ReadingLayout title={`${letter} — ${t('glossary.title')}`} lang={lang.urlPath}>
   <div class="max-w-4xl mx-auto">
     <header class="mb-8">
-      <nav class="mb-6 text-sm text-muted">
+      <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
         <a href={`/${lang.urlPath}`} class="hover:text-accent">{diaryLabel}</a>
         <span class="mx-2">&rsaquo;</span>
         <a href={basePath} class="hover:text-accent">{t('glossary.title')}</a>
@@ -80,7 +80,7 @@ function entryCountLabel(count: number): string {
     </header>
 
     <!-- Letter navigation -->
-    <nav class="mb-8 flex flex-wrap gap-2">
+    <nav class="mb-8 flex flex-wrap gap-2" aria-label={t('a11y.alphabetNav')}>
       {allLetters.map(l => (
         <a
           href={`${basePath}/${l.toLowerCase()}`}

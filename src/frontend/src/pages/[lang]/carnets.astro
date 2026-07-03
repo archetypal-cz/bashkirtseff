@@ -51,7 +51,7 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
 <ReadingLayout title={`${t('diary.allNotebooks')} — ${t('diary.pageTitle')}`} lang={lang.urlPath}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
-    <nav class="mb-8 text-sm text-muted">
+    <nav class="mb-8 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={basePath} class="hover:text-accent">{t('diary.diary')}</a>
       <span class="mx-2">&rsaquo;</span>
       <span class="text-ink">{t('diary.allNotebooks')}</span>

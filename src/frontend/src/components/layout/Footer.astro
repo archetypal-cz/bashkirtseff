@@ -31,7 +31,7 @@ const gitCommit = typeof __GIT_COMMIT__ !== 'undefined' ? __GIT_COMMIT__ : 'dev'
     <div class="grid md:grid-cols-3 gap-8">
       <!-- About -->
       <div>
-        <h3 class="font-semibold text-ink mb-3" data-t="footer.aboutProject">{t('footer.aboutProject')}</h3>
+        <h2 class="font-semibold text-ink mb-3 text-base" data-t="footer.aboutProject">{t('footer.aboutProject')}</h2>
         <p class="text-ink-light text-sm leading-relaxed" data-t="footer.aboutDescription">
           {t('footer.aboutDescription')}
         </p>
@@ -39,7 +39,7 @@ const gitCommit = typeof __GIT_COMMIT__ !== 'undefined' ? __GIT_COMMIT__ : 'dev'
 
       <!-- Links -->
       <div>
-        <h3 class="font-semibold text-ink mb-3" data-t="footer.links">{t('footer.links')}</h3>
+        <h2 class="font-semibold text-ink mb-3 text-base" data-t="footer.links">{t('footer.links')}</h2>
         <ul class="space-y-2 text-sm">
           <li>
             <a href={marieHref} class="text-ink-light hover:text-accent transition-colors" data-t="footer.aboutMarie">
@@ -73,9 +73,9 @@ const gitCommit = typeof __GIT_COMMIT__ !== 'undefined' ? __GIT_COMMIT__ : 'dev'
               {t('quotes.existenceOriginal')}
             </span>
           )}
-          <footer class="mt-2 text-muted not-italic">
+          <p class="mt-2 text-muted not-italic">
             — Marie Bashkirtseff, 1884
-          </footer>
+          </p>
         </blockquote>
       </div>
     </div>

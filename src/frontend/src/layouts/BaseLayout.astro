@@ -196,6 +196,9 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
     </script>
   </head>
   <body class="min-h-screen flex flex-col">
+    <!-- A11y (WS-B/B1): first focusable element; visually hidden until focused.
+         Czech default text is re-translated client-side via data-t (I18nPatch). -->
+    <a href="#main" class="skip-link" data-t="a11y.skipToContent">Přeskočit na obsah</a>
     <slot />
 
     <!-- Offline toast: appears when connection is lost on an already-loaded page -->

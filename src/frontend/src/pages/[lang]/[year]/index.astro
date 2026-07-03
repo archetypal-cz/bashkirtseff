@@ -119,7 +119,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
 <ReadingLayout title={`${t('diary.year', { year })} — ${t('diary.pageTitle')}`} description={yearDescription} lang={lang.urlPath} alternates={yearAlternates}>
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
-    <nav class="mb-8 text-sm text-muted">
+    <nav class="mb-8 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={basePath} class="hover:text-accent">
         {lang.isTranslation ? (
           <span data-t="diary.diary">{diaryLabel}</span>
@@ -204,9 +204,9 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
         {/* Key People */}
         {topPeople.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="lit-label mb-3" data-t="diary.keyPeople">
+            <h2 class="lit-label mb-3" data-t="diary.keyPeople">
               {t('diary.keyPeople')}
-            </h3>
+            </h2>
             <ul class="space-y-2">
               {topPeople.map(([personId, count]) => (
                 <li class="flex items-center justify-between text-sm">
@@ -226,9 +226,9 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
         {/* Places */}
         {topPlaces.length > 0 && (
           <div class="summary-card p-4 rounded-lg">
-            <h3 class="lit-label mb-3" data-t="diary.places">
+            <h2 class="lit-label mb-3" data-t="diary.places">
               {t('diary.places')}
-            </h3>
+            </h2>
             <ul class="space-y-2">
               {topPlaces.map(([placeId, count]) => (
                 <li class="flex items-center justify-between text-sm">
@@ -248,9 +248,9 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
         {/* Themes (spans full width) */}
         {topThemes.length > 0 && (
           <div class="summary-card p-4 rounded-lg sm:col-span-2 xl:col-span-3">
-            <h3 class="lit-label mb-3" data-t="diary.themes">
+            <h2 class="lit-label mb-3" data-t="diary.themes">
               {t('diary.themes')}
-            </h3>
+            </h2>
             <div class="flex flex-wrap gap-2">
               {topThemes.map(([theme, count]) => (
                 <span class="inline-flex items-center gap-1 px-2 py-1 text-xs rounded-full bg-sepia text-ink">
@@ -265,7 +265,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
     </section>
 
     <!-- Year Navigation -->
-    <nav class="flex justify-between items-center mb-8 text-sm">
+    <nav class="flex justify-between items-center mb-8 text-sm" aria-label={t('a11y.yearNavCompact')}>
       {prevYear ? (
         <a href={`${basePath}/${prevYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -357,7 +357,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
     )}
 
     <!-- Bottom navigation (mirrors top nav) -->
-    <nav class="mt-8 pt-8 border-t border-ink/10 flex justify-between items-center text-sm">
+    <nav class="mt-8 pt-8 border-t border-ink/10 flex justify-between items-center text-sm" aria-label={t('a11y.yearNav')}>
       {prevYear ? (
         <a href={`${basePath}/${prevYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -67,6 +67,24 @@ const firstParaIsDateLine =
 const showDateHeading =
   !!entry.date && !firstParaIsDateHeading && !firstParaIsDateLine && titlePlain.length > 0;
 
+// A11y (WS-B/B2): every entry page must expose exactly one <h1>.
+// Case 1 — the date heading is markdown-authored in the first paragraph
+// (content.ts renders `# date` as <h2 class="entry-date-heading">): promote
+// that FIRST heading to <h1> (global.css styles both levels identically).
+// Case 2 — no visible date heading at all (plain date line, or untitled):
+// render a screen-reader-only <h1> so the document still has one, without
+// duplicating the visible date.
+if (firstParaIsDateHeading && processedParagraphs[0]?.html) {
+  processedParagraphs[0] = {
+    ...processedParagraphs[0],
+    html: processedParagraphs[0].html.replace(
+      /<h2 class="entry-date-heading">(.*?)<\/h2>/,
+      '<h1 class="entry-date-heading">$1</h1>',
+    ),
+  };
+}
+const showSrOnlyHeading = !showDateHeading && !firstParaIsDateHeading;
+
 // Generate description from first paragraph (strip HTML and truncate).
 // NB: the `+ '...'` must live INSIDE the ternary — `expr + '...' || ''` parses
 // as `(expr + '...') || ''`, so an empty entry produced the literal
@@ -131,7 +149,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 
   <article class="max-w-3xl mx-auto">
     <!-- Breadcrumb -->
-    <nav class="mb-6 text-sm text-muted">
+    <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={`/${lang.urlPath}`} class="hover:text-accent">
         {lang.isTranslation ? (
           <span data-t="diary.diary">{diaryLabel}</span>
@@ -158,7 +176,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         />
 
         {/* Compact entry navigation */}
-        <nav class="flex items-center gap-3 text-sm">
+        <nav class="flex items-center gap-3 text-sm" aria-label={t('a11y.entryNavCompact')}>
           {nav.prev ? (
             <a
               href={`/${lang.urlPath}/${carnet}/${nav.prev}`}
@@ -212,6 +230,11 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     {showDateHeading && (
       <h1 class="entry-date-heading">{entry.title}</h1>
     )}
+    {/* A11y (WS-B/B2): invisible h1 when the visible one would duplicate the
+        first body line — keeps page-has-heading-one satisfied on every entry */}
+    {showSrOnlyHeading && (
+      <h1 class="sr-only">{entry.title}</h1>
+    )}
 
     <!-- Entry Content -->
     <div class="prose-diary entry-end space-y-6">
@@ -242,7 +265,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     )}
 
     {/* Entry Navigation */}
-    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center">
+    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center" aria-label={t('a11y.entryNav')}>
       {nav.prev ? (
         <a
           href={`/${lang.urlPath}/${carnet}/${nav.prev}`}

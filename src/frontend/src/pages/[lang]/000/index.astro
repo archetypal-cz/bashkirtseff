@@ -80,7 +80,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 
   <article class="max-w-3xl mx-auto">
     <!-- Breadcrumb -->
-    <nav class="mb-6 text-sm text-muted">
+    <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={basePath} class="hover:text-accent">{diaryLabel}</a>
       <span class="mx-2">&rsaquo;</span>
       <span class="text-ink">{t('diary.notebook')} 000</span>
@@ -98,7 +98,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         />
 
         {/* Navigation to next carnet */}
-        <nav class="flex items-center gap-3 text-sm">
+        <nav class="flex items-center gap-3 text-sm" aria-label={t('a11y.carnetNavCompact')}>
           <span class="text-muted/30 flex items-center gap-1">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -195,7 +195,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     )}
 
     {/* Navigation */}
-    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center">
+    <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center" aria-label={t('a11y.carnetNav')}>
       <a href={basePath} class="text-muted hover:text-ink transition-colors">
         &larr; {diaryLabel}
       </a>

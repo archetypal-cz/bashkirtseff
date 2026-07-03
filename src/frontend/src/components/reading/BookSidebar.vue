@@ -223,13 +223,14 @@ function formatDate(dateStr: string): string {
         </div>
 
         <!-- Entry list (independently scrollable) -->
-        <nav class="entry-list">
+        <nav class="entry-list" :aria-label="t('a11y.sidebarContents')">
           <a
             v-for="(entry, index) in filteredEntries"
             :key="entry.date"
             :href="`${basePath}/${carnet}/${entry.date}`"
             class="entry-item"
             :class="{ 'is-current': entry.date === currentEntry }"
+            :aria-current="entry.date === currentEntry ? 'page' : undefined"
           >
             <span class="entry-number">{{ index + 1 }}</span>
             <span class="entry-date">{{ formatDate(entry.date) }}</span>

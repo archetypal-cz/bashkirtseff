@@ -56,6 +56,25 @@
     background: var(--selection-bg);
   }
 
+  /* A11y (WS-B/B1): skip link — visually hidden until keyboard focus */
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 300;
+    padding: 0.5rem 1rem;
+    background: var(--bg-secondary, #F5E6D3);
+    color: var(--text-primary, #2C1810);
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    border-radius: 0 0 6px 0;
+    text-decoration: underline;
+  }
+
+  .skip-link:focus {
+    left: 0;
+  }
+
   /* Filter visibility — hard hide for list pages */
   .filter-hidden {
     display: none !important;

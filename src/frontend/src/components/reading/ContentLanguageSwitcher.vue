@@ -60,7 +60,7 @@ function getTitle(lang: string): string {
   <div class="content-lang-switcher">
     <template v-for="lang in ALL_LANGUAGES" :key="lang">
       <!-- Current language: highlighted -->
-      <span v-if="lang === normalizedCurrent" class="lang-current">
+      <span v-if="lang === normalizedCurrent" class="lang-current" aria-current="true">
         <svg v-if="lang === '_original'" class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><path stroke-width="1.5" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
         <template v-else>{{ getLanguageLabel(lang) }}</template>
       </span>

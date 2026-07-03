@@ -38,7 +38,7 @@ const githubSource = sourcePath ? githubSourceUrl(sourcePath) : undefined;
 <BaseLayout title={title} description={description} lang={htmlLang} lockLang={!!htmlLang} image={image} type={type} canonicalUrl={canonicalUrl} alternates={alternates} article={article}>
   <Header locale={locale} />
 
-  <main class="flex-grow" data-github-source={githubSource}>
+  <main id="main" class="flex-grow" data-github-source={githubSource}>
     <div class="max-w-4xl mx-auto px-4 py-8">
       <slot />
     </div>
