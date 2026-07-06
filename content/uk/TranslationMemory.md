@@ -145,7 +145,7 @@ Established terminology for consistent translation across carnets.
 | moi je m'en moque | а мені байдуже | I don't care |
 | excusez du peu | нічого собі | Ironic understatement |
 | à la bonne franquette | по-простому | Informally |
-| un beau matin | одного прекрасного ранку | One fine morning |
+| un beau matin | одного чудового ранку | One fine morning. 2026-07-06 RSR: «одного прекрасного ранку» replaced — shape of the Russian idiom «в одно прекрасное утро» (native-reader review, RED in uk/000/000-07); old form still live in uk 000-05, 026, 088, 103 — sweep pending |
 | Pouah | Тьфу | Exclamation of disgust |
 | par ricochet | рикошетом | Indirectly/by rebound |
 | Tout à coup | Раптом | Suddenly, all at once |

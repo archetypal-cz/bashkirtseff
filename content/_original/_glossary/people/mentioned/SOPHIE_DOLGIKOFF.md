@@ -19,6 +19,8 @@ last_updated: 2026-03-06
 
 Mademoiselle Sophie Dolgikoff was one of Marie Bashkirtseff's governesses during her childhood in Russia. She was notably young for a governess - only 16 years old when she entered the Bashkirtseff household.
 
+**NOT to be confused with**: [SOPHIE](SOPHIE.md) — Sophie Tutcheff, née Bashkirtseff, Marie's paternal aunt (carnets 001+). An RSR note of 2026-02-09 (carnet 000-09) suggested merging the two files; that note predates the 2026-05-24 correction of SOPHIE.md and is wrong — they are different people.
+
 ## Background
 
 Marie describes her as coming from Russia: "Sainte Russie!" (Holy Russia!) - Marie's characteristic exclamation suggesting both her Russian origin and perhaps her innocent, provincial character.
@@ -88,3 +90,4 @@ This story exemplifies several recurring themes in Marie's preface:
 - Historical context about governesses in Russian aristocratic households
 
 %% 2025-12-07T15:15:00 RSR: Created glossary entry for Sophie Dolgikoff based on Book 00, paragraph 00.36. Only 16 years old, treated as child of house, nearly married to man with bad reputation - story breaks off dramatically. Characteristic of Marie's incomplete but vivid childhood memories. %%
+%% 2026-07-06T16:32:00 RSR: Added the NOT-to-be-confused disambiguation vs SOPHIE.md (Sophie Tutcheff, paternal aunt) and repointed the §000.0037 tag in _original/uk from [#Sophie] to [#Sophie_Dolgikoff] — no merge, the old merge suggestion was based on a since-corrected identification. The story's resolution (the 17th failed engagement, "je ne puis pas m'habituer à sa figure") is in §000.0037, not broken off: per Kernberger (2013), "One hour later he buckled his trunk, watering it with his tears, and left. It was his seventeenth failed courtship." %%
