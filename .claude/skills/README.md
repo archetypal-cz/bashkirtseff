@@ -28,7 +28,7 @@ This directory defines the roles that power the Marie Bashkirtseff diary transla
 
 ### Source Preparation (RSR → LAN)
 
-Prepare French originals for translation. **Status: COMPLETE for all 106 carnets.**
+Prepare French originals for translation. **Status: COMPLETE for all 107 carnets (000–106).**
 
 ```
 Researcher (RSR)  →  Linguistic Annotator (LAN)  →  Evaluator (ED)
@@ -63,7 +63,8 @@ Standalone — run anytime to maintain the entity database.
 
 ```bash
 /glossary                          # Interactive glossary work
-just glossary-validate             # Check all links
+just glossary-missing              # List broken glossary links
+just check-links-all LANG          # Verify relative links resolve
 just glossary-stats                # Usage statistics
 just glossary-find ENTITY_ID       # Find references
 just glossary-merge SOURCE TARGET  # Merge duplicates

@@ -38,7 +38,7 @@ If no command given, ask what's needed.
 
 ### 1. "This Day in Marie's Life" (Daily Driver)
 
-The backbone of the content strategy. 3,300+ entries means years of daily content.
+The backbone of the content strategy. ~3,800 entries means years of daily content.
 
 **Process:**
 1. Find entries matching today's date across all years (1873-1884)

@@ -187,8 +187,6 @@ Write CON comments directly to translation files. Use timestamped format:
 %% 2026-02-13T14:02:00 CON: Para 015.0236 - The translation flows naturally while preserving the French cadence. Excellent. %%
 ```
 
-**Never type a literal `%%` inside your comment prose** — an embedded `%%` unbalances the marker count and fails the `verify-carnet` gate (3 instances in cz-080-082). Write "paragraph-ID wrapper" or "the French comment block" instead.
-
 ## Patterns to Watch
 
 ### Excellence Indicators

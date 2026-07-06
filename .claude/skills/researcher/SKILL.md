@@ -85,23 +85,25 @@ Footnotes serve readers who need context to follow the text. They are NOT the sa
 
 #### Footnote format:
 
-Footnote IDs use the pattern `[^CC.PP.N]` — carnet number (2-digit), paragraph number, sequential count:
+Footnote IDs use the pattern `[^CCC.PPPP.N]` — carnet number and paragraph number exactly as they appear in the paragraph ID (3-digit carnet, 4-digit paragraph), plus a sequential count:
 
 Inline reference in text (within paragraph 015.0119):
 
 ```markdown
-On a raconté les différentes divinations.[^15.119.1]
+On a raconté les différentes divinations.[^015.0119.1]
 ```
 
 Definition at end of entry (after last paragraph block):
 
 ```markdown
-[^15.119.1]: Mirror divination (гадание) was a Russian folk tradition practiced around New Year. Young women would set up two mirrors facing each other by candlelight, hoping to see the face of their future husband in the infinite reflections. Marie's family maintained Russian customs despite living abroad.
+[^015.0119.1]: Mirror divination (гадание) was a Russian folk tradition practiced around New Year. Young women would set up two mirrors facing each other by candlelight, hoping to see the face of their future husband in the infinite reflections. Marie's family maintained Russian customs despite living abroad.
 ```
 
 **Footnotes are written in English** so translators for all target languages can inherit and translate them.
 
-Multiple footnotes in the same paragraph increment the last number: `[^15.119.1]`, `[^15.119.2]`.
+Multiple footnotes in the same paragraph increment the last number: `[^015.0119.1]`, `[^015.0119.2]`.
+
+Older carnets carry a legacy unpadded form (`[^15.119.1]`, or EN's `[^fn047-034]`); leave existing IDs alone — an entry's references and definitions just need to match each other — but write NEW footnotes in the padded form above.
 
 #### Transcription notes (NOT footnotes)
 
@@ -133,7 +135,7 @@ These are part of the source text. If one needs explanation for readers, add a f
 
 When resolving or creating an entity, distinguish **a family/group from a named individual**, and **spelling variants that may be different people**. Read the referencing paragraph (French text + nearby RSR notes) before deciding — never collapse two entries on a surname match alone. Real cases: `SOLOMINKA_MARKEVITCH` is a *distinct person* from `MME_MARKEVITCH` (do not merge them); `M_TCHERNIKOFF` was kept distinct from `TCHERNICHOFF` because the identity was uncertain. **Rule of thumb: when unsure, create a distinct entry rather than collapse two people — under-merging is reversible, but a wrong merge quietly corrupts the record.** As always, **cite your sources** (Kernberger 2013, Wikipedia, Blind 1890, Britannica, BNF, etc.) for any identity claim. See [`docs/GLOSSARY_LINK_MAINTENANCE.md`](../../../docs/GLOSSARY_LINK_MAINTENANCE.md) §3.
 
-**Glossary entry format** (save to `content/_original/_glossary/CAPITAL_ASCII_NAME.md`):
+**Glossary entry format** (save to `content/_original/_glossary/{category}/CAPITAL_ASCII_NAME.md` — always inside the category subfolder matching the `category:` field, e.g. `people/mentioned/`, never flat at the glossary root):
 
 ```yaml
 ---

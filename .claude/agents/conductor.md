@@ -1,6 +1,6 @@
 ---
 name: conductor
-description: Final quality gate. Ensure translation sings in Czech as it does in French. Uncompromising standards. Use after editor review.
+description: Final quality gate. Ensure translation sings in the target language as it does in French. Uncompromising standards. Use after editor review.
 tools: Read, Edit, Write, Grep, Glob
 model: opus
 ---

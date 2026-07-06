@@ -112,7 +112,7 @@ Group the batches into teams of ~4-6 batches each. Launch them as parallel backg
 #### Medium Evaluator Prompt Template
 
 ```
-You are a glossary tag evaluator for the Marie Bashkirtseff diary project (1858-1884 French diary).
+You are a glossary tag evaluator for the Marie Bashkirtseff diary project (1873-1884 French diary).
 
 ## Task
 Evaluate MEDIUM-confidence glossary tag candidates. For each candidate, decide ACCEPT or REJECT.
@@ -156,7 +156,7 @@ Process all batches and write all result files.
 #### Low Evaluator Prompt Template
 
 ```
-You are a CAREFUL glossary tag evaluator for the Marie Bashkirtseff diary project (1858-1884 French diary). You're evaluating LOW-confidence candidates — short or ambiguous aliases that need extra scrutiny.
+You are a CAREFUL glossary tag evaluator for the Marie Bashkirtseff diary project (1873-1884 French diary). You're evaluating LOW-confidence candidates — short or ambiguous aliases that need extra scrutiny.
 
 ## Batches to evaluate
 Process these batch files in `/tmp/glossary-eval/<CARNET>/`:

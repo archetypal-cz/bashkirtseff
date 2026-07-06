@@ -93,7 +93,7 @@ All glossary entries MUST have YAML frontmatter with these fields:
 
 ### ID Validation Utilities
 
-The shared package provides utilities for ID validation (`shared/src/models/glossary.ts`):
+The shared package provides utilities for ID validation (`src/shared/src/models/glossary.ts`):
 
 ```typescript
 import {
@@ -304,7 +304,7 @@ When restructuring an entry's body into paragraph clusters by hand, follow the f
 
 ### Content Loading
 
-The frontend parses glossary entries in `frontend/src/lib/content.ts`:
+The frontend parses glossary entries in `src/frontend/src/lib/content.ts`:
 
 ```typescript
 // Get all glossary entries
@@ -361,7 +361,7 @@ Note: Dots in paragraph IDs are converted to dashes for HTML IDs.
 
 The shared package supports glossary paragraph IDs:
 
-### Patterns (`shared/src/parser/patterns.ts`)
+### Patterns (`src/shared/src/parser/patterns.ts`)
 
 ```typescript
 // Matches both diary and glossary IDs
@@ -380,9 +380,9 @@ const PARAGRAPH_ID_CONTENT_PATTERN = /^(?:\d+|GLO_[A-Z0-9_]+)\.\d+$/;
 - `people/mentioned/` - Single or rare mentions
 - `places/cities/` - Cities and towns
 - `places/venues/` - Hotels, theaters, shops
-- `culture/arts/` - Paintings, sculptures
+- `culture/art/` - Paintings, sculptures
 - `culture/music/` - Operas, concerts
-- `society/events/` - Balls, races, exhibitions
+- `culture/social_customs/` - Balls, races, exhibitions (there is no top-level `society/` — see the directory structure above and `_categories.yaml` for the full list)
 
 ### 2. Create file with CAPITAL_ASCII name:
 

@@ -45,8 +45,10 @@ skills/
 │   └── SKILL.md                   # Frontend development (AstroJS PWA)
 ├── listmonk-copywriter/
 │   └── SKILL.md                   # Email copywriting & campaign content
-└── listmonk-admin/
-    └── SKILL.md                   # Listmonk API administration
+├── listmonk-admin/
+│   └── SKILL.md                   # Listmonk API administration
+└── codex-review-loop/
+    └── SKILL.md                   # Codex-driven correctness review loop (frontend)
 ```
 
 ## Pipelines
@@ -63,19 +65,21 @@ Get every original French entry properly researched, annotated, and footnoted be
 
 **Agent Teams setup**: ED is team lead in delegate mode. RSR and LAN are persistent teammates that self-claim tasks from a shared task list with dependency chains. EVAL is handled by ED or a Sonnet subagent. Sonnet is sufficient for verification work; Opus for complex entries.
 
-**Status**: Source preparation is COMPLETE for all 106 carnets. This pipeline is now only needed for gap-filling.
+**Status**: Source preparation is COMPLETE for all 107 carnets (000–106). This pipeline is now only needed for gap-filling.
 
 ### Pipeline 2: Translation (ACTIVE)
 
 | Order | Role | Code | Model | Purpose |
 |-------|------|------|-------|---------|
 | 1 | Translator (x3) | TR | Opus | French → target language (3 parallel agents) |
-| 2 | Editor | RED | Opus | Real-time quality review (reviews as entries appear) |
-| 3a | Gemini Editor | GEM | External | Cross-model review (Bash subagent, not teammate) |
-| 3b | Opus Editor | OPS | Opus | Same-model language expert review (no corruption) |
+| 2a | Gemini Editor (optional) | GEM | External | Cross-model review (run from team lead, not teammate) |
+| 2b | Opus Editor (optional) | OPS | Opus | Same-model language expert review (no corruption) |
+| 3 | Editor | RED | Opus | Quality review; cleans up any GEM-introduced artifacts. Reviews in near-real-time when GEM/OPS are skipped |
 | 4 | Conductor | CON | Opus | Final literary approval |
 
-**Proven configuration** (Feb 12 runs): 5 persistent agents (3 TR + RED + CON), GEM dispatched as needed. No RSR/LAN needed — source prep complete for all 106 carnets.
+**Order note**: when GEM is used it must run BEFORE (or alongside) RED — RED cleans up GEM-introduced comment splices (see gemini-editor Known Issues). OPS carries no corruption risk. CON is always last.
+
+**Proven configuration** (Feb 12 runs): 5 persistent agents (3 TR + RED + CON), GEM dispatched as needed. No RSR/LAN needed — source prep complete for all 107 carnets.
 
 ## Support Roles
 

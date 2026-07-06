@@ -34,7 +34,7 @@ src/frontend/src/
 │   ├── reading/     # Core reading: FlipParagraph, ParagraphMenu, LanguageSwitcher, ReadingSettings, BackToTop
 │   ├── filter/      # Tag filtering: FilterOverlay
 │   ├── glossary/    # GlossarySearch, GlossaryCategoryBrowser
-│   ├── layout/      # Header, Footer, UnifiedMenu, LocaleSwitcher, MobileMenu, FilterButton
+│   ├── layout/      # Header, HeaderNav, Footer, UnifiedMenu, LocaleSwitcher, HistoryTracker
 │   ├── pwa/         # InstallPrompt, OfflineDownload, OfflineStatus
 │   └── home/        # ThisDayEntry
 ├── layouts/         # BaseLayout.astro (root HTML), ReadingLayout.astro (diary pages)
@@ -175,8 +175,8 @@ Theme/font changes are managed directly via localStorage + DOM in `ReadingSettin
 | `Header.astro` | Static | Logo, nav links, slots for Vue islands |
 | `UnifiedMenu.vue` | `client:load` | Combined sidebar: reading settings + entry navigation + filter panel |
 | `LocaleSwitcher.vue` | `client:load` | UI language switcher (cs/en/fr/uk). Changes UI text only, NOT content language. Saves preference to localStorage and reloads page. |
-| `MobileMenu.vue` | `client:load` | Mobile hamburger nav drawer |
-| `FilterButton.vue` | `client:load` | Shows active filter count badge |
+| `HeaderNav.vue` | via `Header.astro` | Header nav links incl. mobile nav (there is no separate MobileMenu/FilterButton component — both were phantoms removed from these docs 2026-07-06) |
+| `HistoryTracker.vue` | via `ReadingLayout.astro` | Listens for paragraph-read/glossary-visit events, records them to the `history` Pinia store |
 | (filter UI) | — | Category tree with search, AND/OR toggle — an inline section of UnifiedMenu.vue (the standalone FilterPanel.vue was dead code, removed 2026-07-03) |
 
 ### Filter System
@@ -245,7 +245,7 @@ HTML anchors: `#p-002-0001` (dots replaced with dashes).
 
 Example: `MARIE_BASHKIRTSEFF`, `PROMENADE_DES_ANGLAIS`
 
-Categories: `people/core/`, `people/family/`, `places/cities/`, `culture/arts/`, `themes/daily_life/`
+Categories: `people/core/`, `people/family/`, `places/cities/`, `culture/art/`, `culture/daily_life/` (full list: `content/_original/_glossary/_categories.yaml` — there is no top-level `themes/`; themes live under `culture/themes/`)
 
 Link format in content: `[#Marie Bashkirtseff](../_glossary/people/core/MARIE_BASHKIRTSEFF.md)`
 
@@ -340,4 +340,4 @@ just fe-preview   # Preview production build
 - **`preferences` store is unused** — theme/font are managed directly via localStorage in components. Don't add consumers without migrating existing code.
 - **`vue-i18n` package is installed but unused** — the app uses a custom i18n system (`src/i18n/index.ts` + `astro.ts`), not the `vue-i18n` library. Don't import from `vue-i18n`.
 - **UI locale vs content language** — `LocaleSwitcher.vue` changes only the UI language (labels, headings) and reloads the page. `ContentLanguageSwitcher.vue` and `LanguageSwitcher.vue` change the content language by navigating to a different URL path. Never confuse these two concerns.
-- **`getTranslationHref()` and `getOriginalHref()` are path-aware** — pass `window.location.pathname` as the second argument to preserve the current path suffix when generating nav links. Without it, links default to just the root content path. Both are used in HeaderNav, MobileMenu, and UnifiedMenu.
+- **`getTranslationHref()` and `getOriginalHref()` are path-aware** — pass `window.location.pathname` as the second argument to preserve the current path suffix when generating nav links. Without it, links default to just the root content path. Both are used in HeaderNav and UnifiedMenu.

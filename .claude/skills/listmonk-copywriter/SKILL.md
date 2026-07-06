@@ -150,7 +150,7 @@ Draw content from the project itself:
 | English translations | `content/en/*/` | English translations |
 | Glossary | `content/_original/_glossary/` | People, places, context |
 | Stewardship queue | `docs/stewardship/queue/` | Pre-written content |
-| Project status | `just project-status` | Progress numbers |
+| Project status | `just status` | Progress numbers |
 
 ## Newsletter Templates
 

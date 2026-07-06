@@ -73,7 +73,6 @@ Propagate TODO items between original and translations:
 ## File Locations
 
 ### Progress Files
-- `content/_original/PROGRESS.md` - French source overall
 - `content/_original/{carnet}/README.md` - Per-carnet source status
 - `content/cz/PROGRESS.md` - Czech overall
 - `content/cz/{carnet}/README.md` - Per-carnet Czech status
@@ -154,7 +153,7 @@ The skill counts entries with each flag to generate percentages.
 ```
 === Czech Translation Status ===
 
-Overall: 127/3300 entries (3.8%)
+Overall: 127/3800 entries (3.3%)
 
 | Carnet | Entries | RSR | LAN | TR  | GEM | ED  | CON | Worker  |
 |--------|---------|-----|-----|-----|-----|-----|-----|---------|

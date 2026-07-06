@@ -39,25 +39,25 @@ quality:
 # Principle: Opus for understanding, knowledge, and writing.
 # Sonnet for administrative and evaluation tasks.
 models:
-  # Source preparation pipeline (Phase 1 — current focus)
+  # Source preparation pipeline (COMPLETE for all 107 carnets — gap-filling only)
   executive_director: opus       # deep understanding needed to evaluate all roles
   researcher: opus               # knowledge, research, footnote writing
   linguistic_annotator: opus     # deep language understanding, period expertise
   source_evaluator: sonnet       # checklist-based quality verification
 
-  # Translation pipeline (Phase 2 — future)
-  translator: sonnet             # TBD, may upgrade to opus
-  editor: sonnet
-  conductor: opus
+  # Translation pipeline (ACTIVE)
+  translator: opus               # proven config since Feb 2026 runs
+  editor: opus                   # RED — spawn as general-purpose subagent type (Edit access)
+  conductor: opus                # CON — spawn as general-purpose subagent type (Edit access)
 
 ## Agent Teams Settings
 
 agent_teams:
   enabled: true
   # Current active pipeline
-  active_pipeline: source_preparation
+  active_pipeline: translation
 
-  # Source preparation pipeline: RSR → LAN → EVAL
+  # Source preparation pipeline: RSR → LAN → EVAL (complete; gap-filling only)
   source_preparation:
     team_name_pattern: "source-{carnet}"
     teammates:
@@ -71,14 +71,14 @@ agent_teams:
       model: sonnet    # ED or subagent runs quality checks
       method: checklist  # systematic verification, not literary judgment
 
-  # Translation pipeline (future — activate after originals stable)
-  # translation:
-  #   team_name_pattern: "{lang}-{carnet}"
-  #   teammates:
-  #     - role: translator
-  #     - role: editor
-  #     - role: conductor
-  #   gemini_review: subagent  # not a teammate
+  # Translation pipeline (ACTIVE)
+  translation:
+    team_name_pattern: "{lang}-{carnet}"
+    teammates:
+      - role: translator
+      - role: editor       # RED — general-purpose subagent type
+      - role: conductor    # CON — general-purpose subagent type
+    gemini_review: subagent  # GEM/OPS dispatched as subagents, not teammates
 
 ## Automation Settings
 
@@ -105,42 +105,19 @@ human_gates:
 ## Target Languages
 
 languages:
-  primary: cz               # Czech - main translation target
-  future:
-    - en                    # English
-    - de                    # German
+  active:
+    - cz                    # Czech — full corpus translated; quality/fluidity waves ongoing
+    - uk                    # Ukrainian — 100% conductor-approved (3,733/3,733); corrections/TM only
+    - en                    # English — partial
+    - fr                    # French modern edition
 
-## Book Status
+## Carnet Status
 
-books:
-  "00":
-    status: source_ready
-    entries: ~100
-    translation_cz: partial
-  "01":
-    status: source_ready
-    entries: ~300
-    translation_cz: partial
-  "02":
-    status: source_ready
-    entries: ~400
-    translation_cz: none
-  "03":
-    status: source_ready
-    entries: ~350
-    translation_cz: none
-  "04":
-    status: source_ready
-    entries: ~380
-    translation_cz: none
-  "05":
-    status: raw_only
-    entries: unknown
-  "15":
-    status: source_ready
-    entries: 434
-    translation_cz: none
-    notes: "Complete book, good for testing full pipeline"
+# Per-carnet status is tracked on disk, not here — this section previously held
+# a hand-maintained snapshot that went stale. Use:
+#   just status                    # overall status
+#   just status {lang} {carnet}    # specific carnet
+# and content/{lang}/PROGRESS.md for language-level progress.
 
 ---
 

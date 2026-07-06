@@ -88,8 +88,16 @@ These French constructions are frequently mistranslated to mean the **opposite**
 | exaspéré(e) | furious, exasperated | "exhausted" (wrong register) |
 | misère | wretchedness, misery | "insult/offence" (wrong category) |
 | je respirai | I breathed (relief) | "I suffocated" (opposite) |
+| descendre / monter pairs | keep the down/up direction of EACH verb | swapping which verb is "down" and which is "up" |
+| faire + infinitive (causative) | MAKE someone do it ("me fera mourir" = will make me die; "il m'a fait poser" = he made me pose) | "let me die" / "he posed for me" (agency reversed) |
+| Vous pensez si… / Pensez si… | rhetorical exclamation ("you can imagine how…!") | a literal whether-question ("do you think that…?") |
 
 **Verify polarity**: After translating any sentence with "avant/après", "assez", emotional states, or negation, re-read the French and confirm your translation preserves the **direction** (before vs after, enough vs insufficient, positive vs negative).
+
+<!-- Teamcouch update 2026-07-06: last three rows added — each hit BOTH the cz and uk
+     2026-07-02 fluidity waves in carnets 105-106 (same paragraph, same error family,
+     two independent language teams). Evidence: 2026-07-02-cz-fluidity-105-106.md,
+     2026-07-02-uk-fluidity-000-105-106.md. -->
 
 <!-- Teamcouch update 2026-05-24: Added fabricated word warning.
      Evidence: 3 reports (uk-018-022: "збільшувально"/"боянним"/"спіла",

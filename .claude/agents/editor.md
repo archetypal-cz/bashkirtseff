@@ -1,6 +1,6 @@
 ---
 name: editor
-description: Review Czech translations for quality, naturalness, and accuracy. Catch lost nuances and literal translations. Use after translation phase.
+description: Review translations (cz/uk/en/fr) for quality, naturalness, and accuracy. Catch lost nuances and literal translations. Use after translation phase.
 tools: Read, Edit, Write, Grep, Glob
 model: sonnet
 ---

@@ -1,6 +1,6 @@
 ---
 name: translator
-description: Translate Marie Bashkirtseff diary entries from French to Czech. Use after source preparation (research + annotation) is complete.
+description: Translate Marie Bashkirtseff diary entries from French to the target language (cz/uk/en/fr). Use after source preparation (research + annotation) is complete.
 tools: Read, Edit, Write, Grep, Glob
 model: sonnet
 ---

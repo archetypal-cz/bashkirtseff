@@ -45,7 +45,7 @@ Executive Director (Opus, team lead)
         └── Gemini Editor / GEM (external, optional) or Opus Editor / OPS (preferred)
 ```
 
-Source preparation (RSR+LAN) is COMPLETE for all 106 carnets — the active pipeline is translation (TR → RED → [GEM/OPS] → CON). See `.claude/skills/CLAUDE.md` for the current pipeline tables.
+Source preparation (RSR+LAN) is COMPLETE for all 107 carnets (000-106) — the active pipeline is translation (TR → [GEM/OPS optional] → RED → CON; when GEM runs, it runs before RED so RED can clean up GEM artifacts). See `.claude/skills/CLAUDE.md` for the current pipeline tables.
 
 ## Key Design Decisions (Context)
 
@@ -232,7 +232,7 @@ just annotate 1882-05-01 015
 
 ## Current System Status
 
-The system is mature and battle-tested: source prep (RSR+LAN) is complete for all 106 carnets, and the translation pipeline has run dozens of multi-carnet waves across cz/uk/en/fr (see `.claude/reports/`). The Agent Teams configuration (3 TR + RED + CON, GEM/OPS dispatched as needed) is the proven pattern.
+The system is mature and battle-tested: source prep (RSR+LAN) is complete for all 107 carnets (000-106), and the translation pipeline has run dozens of multi-carnet waves across cz/uk/en/fr (see `.claude/reports/`). The Agent Teams configuration (3 TR + RED + CON, GEM/OPS dispatched as needed) is the proven pattern.
 
 **Where to find current state — don't trust this file's snapshot, check:**
 - `.claude/reports/WATCHLIST.md` — live issue tracker, gate-gap proposals, escalations to architect
