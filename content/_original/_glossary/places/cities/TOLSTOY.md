@@ -18,6 +18,8 @@ last_updated: 2026-03-06
 
 ## Overview
 
+**Not to be confused with** [`LEO_TOLSTOY.md`](../../people/mentioned/LEO_TOLSTOY.md) — the novelist himself, whom Marie mentions once, separately, a decade later (carnet 105, 1884-07-15), discussing *War and Peace*. See also [`TOLSTOY_FAMILY.md`](../../people/mentioned/TOLSTOY_FAMILY.md), the collective stub for this same Nice family.
+
 The Tolstoy family appears 19 times in Marie Bashkirtseff's diary during 1873-1874. While the name immediately brings to mind the famous writer Leo Tolstoy, the diary references appear to be to members of the broader Tolstoy family who were part of the Russian expatriate community in Nice.
 
 ## The Tolstoy Connection
