@@ -95,6 +95,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **listmonk-copywriter** | `/listmonk-copywriter`  | Email copywriting, campaign content            |
 | **listmonk-admin**       | `/listmonk-admin`       | Newsletter infrastructure, lists, subscribers  |
 | **teamcouch**            | `/teamcouch`            | Post-session retrospective, skill evolution    |
+| **report-triage**        | `/report-triage`        | Evaluate & implement user bug reports          |
 
 ## Core Workflow
 

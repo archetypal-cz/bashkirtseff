@@ -129,6 +129,10 @@ These three surfaced together (2026-06-14) while fixing a reader-reported bug �
 - [ ] **Agent message delivery unreliable** — agents complete tasks and mark them done, but completion messages don't reach team lead. Requires proactive task/file state checking. 2 instances (2026-05-24) + reinforced by uk-031-035/uk-036-041 (session-pause ping loss; translators idling pre-finalize). Infrastructure issue; mitigated by disk-state checking (now in ED skill). See also "Translators finish files but don't finalize task" and "Session-pause ping loss" above.
 - [ ] **Code-switch visibility loss (UK)** — Marie's deliberate Cyrillic "мене" inside French text becomes invisible in Ukrainian translation. CON resolved with footnote in 024.0207. 1 report only (2026-05-24-uk-023-025). Document as standard practice if recurs.
 
+### Product / Content Ideas (from user reports)
+
+- [ ] **Link public-domain translations & performances of works Marie references** — user report on 097.0081 (Musset's "L'espoir en Dieu" — Marie explicitly asks her editor to insert the poem in full): referenced literary/musical works could link to out-of-copyright translations (Czech especially — 19th-century translators like Vrchlický) and performances, either embedded in glossary entries or linked. Minimal version implemented 2026-07-06 (glossary entry for L'espoir en Dieu); the general mechanism (a `works` glossary convention + per-language PD-translation links) is open. Raised via report-triage 2026-07-06.
+
 ## Resolved Issues
 
 - [x] **Kernberger page-number paragraphs in body text** — ~30 clusters carrying stray Kernberger edition page numbers were converted to ED comments repo-wide on 2026-07-02 (per 2026-07-02-cz-fluidity-105-106.md); recorded here 2026-07-06 (was never tracked as an open item).

@@ -16,6 +16,7 @@ This directory defines the roles that power the Marie Bashkirtseff diary transla
 | **executive-director** | `/executive-director` | ED | Team orchestration, quality evaluation, reporting |
 | **glossary** | `/glossary` | — | Create/maintain glossary entries |
 | **teamcouch** | `/teamcouch` | — | Post-session retrospective, skill evolution |
+| **report-triage** | `/report-triage` | — | Evaluate & implement user bug reports from the site |
 | **project-status** | `/project-status` | — | Progress tracking and reports |
 | **entry-restructurer** | `/entry-restructurer` | — | Standardize entry format |
 | **workflow-architect** | `/architect` | — | Maintain the agent system itself |

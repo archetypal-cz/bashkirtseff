@@ -1654,6 +1654,11 @@ When translating, refer to this document for established translations of recurri
 - First flagged: 089 (recurs 089.0143, 0217)
 - Notes: Anachronism trap across the whole 1873–1884 span — never "rozvedený/rozvod" for séparé/séparation.
 
+### folle que je suis → já bláhová, NOT "bláznice, co jsem" / "blázen, co jsem"
+- Context: Marie's recurring self-deprecating aside ("fool that I am"). "bláznice, co jsem" is a word-for-word calque of the French construction, and "bláznice" (= madwoman) is far harsher than the affectionate "folle". Use "já bláhová" (adjust syntax to the sentence). Distinct case: substantival "une folle qui l'aimait" (a madwoman who loved him, Marie's deliberate hyperbole) → "bláznice, co ho milovala" IS correct — only the calqued "…, co jsem" construction is banned.
+- First flagged: user report 001.0049 (2026-07-06); fixed in 001/1873-01-24, 005/1873-06-15, 010/1873-09-24
+- Notes: An earlier RED pass had fixed only the gender (blázen→bláznice) and left the calque standing — when fixing agreement, re-check whether the whole construction is natural Czech.
+
 ### manie → posedlost / manýra (per sense), NOT "mánie"
 - Context: "manie" = obsession/compulsion OR an affectation; pick by sense. "manie" (mania) ≠ the medical "mánie".
 - First flagged: 089.0418/0423

@@ -195,6 +195,20 @@
     opacity: var(--ornament-date-rule-opacity);
   }
 
+  /* Sub-date / section headings inside an entry body ("## …" in multi-day
+     entries like carnets 067/068, or the 000 preface's "## 1884 . Květen").
+     Same display face as the date heading, smaller, no rule beneath. */
+  .prose-diary .entry-section-heading,
+  .entry-section-heading {
+    font-family: var(--font-display);
+    font-weight: var(--display-weight);
+    text-align: center;
+    color: var(--text-primary);
+    font-size: calc(var(--entry-date-heading-size) * 0.72 * (1 + (var(--reading-font-scale) - 1) * 0.5));
+    line-height: 1.25;
+    margin: 2rem 0 1.25rem;
+  }
+
   /* End-of-entry asterism — a quiet "you've finished" mark */
   .entry-end::after {
     content: var(--ornament-asterism);

@@ -505,6 +505,12 @@ function processTextToHtml(text: string, lang: string = 'original'): { html: str
   let html = text
     // Convert # heading to HTML heading (entry date headers)
     .replace(/^#\s+(.+)$/gm, '<h2 class="entry-date-heading">$1</h2>')
+    // Convert ## / ### sub-headings to block headings (sub-date headers in
+    // multi-day entries like carnets 067/068, section headers in the 000
+    // preface). Without this they leak into the page as literal "## …" text
+    // (user report 000.0002).
+    .replace(/^###\s+(.+)$/gm, '<h4 class="entry-section-heading">$1</h4>')
+    .replace(/^##\s+(.+)$/gm, '<h3 class="entry-section-heading">$1</h3>')
     // Convert ==text== to highlighted span (foreign language)
     .replace(/==([^=]+)==/g, '<span class="foreign-text">$1</span>')
     // Convert [^id] to footnote link (supports both "1" and "00.03.1" formats)
@@ -584,8 +590,8 @@ function joinClusterLines(html: string): string {
     const first = line.replace(/^\s+/, '').charAt(0);
     // Dialogue turn: em-dash, en-dash, or "- " at the start of the line.
     const isDialogue = first === '—' || first === '–' || /^\s*-\s/.test(line);
-    if (prev.endsWith('</h2>')) {
-      out += '\n' + line; // block <h2> heading manages its own spacing
+    if (prev.endsWith('</h2>') || prev.endsWith('</h3>') || prev.endsWith('</h4>')) {
+      out += '\n' + line; // block heading manages its own spacing
     } else if (isDialogue) {
       out += '<br>\n' + line;
     } else {
@@ -595,10 +601,10 @@ function joinClusterLines(html: string): string {
   return out
     .split(PARA)
     .join('<br><br>\n')
-    // A block <h2> date heading manages its own spacing; drop any <br>(s) that
+    // A block heading manages its own spacing; drop any <br>(s) that
     // landed right after it (e.g. heading followed by a blank line then body),
     // keeping a bare newline so tag-stripping meta paths keep their separator.
-    .replace(/(<\/h2>)(?:<br>\n?)+/g, '$1\n');
+    .replace(/(<\/h[234]>)(?:<br>\n?)+/g, '$1\n');
 }
 
 /**
