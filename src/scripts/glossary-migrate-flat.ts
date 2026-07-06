@@ -1,5 +1,8 @@
 #!/usr/bin/env npx tsx
 
+// OBSOLETE (2026-07-06): one-shot migration completed Feb 2026 (7,650 refs migrated,
+// commit ec39f9b0b); zero flat-path glossary refs remain in content/ — candidate for removal.
+
 /**
  * Glossary Flat-Path Migration
  *

@@ -7,8 +7,8 @@ Instructions for Claude Code when working on the @bashkirtseff/shared TypeScript
 ## Package Overview
 
 This is the shared TypeScript library providing models, parsers, renderers, and utilities for the Marie Bashkirtseff Diary project. It's consumed by:
-- Frontend (Astro PWA)
-- Standalone scripts in `/scripts`
+- Frontend (Astro PWA) — note: the frontend does its own content parsing in `src/frontend/src/lib/content.ts` and imports only types/constants from this package
+- Standalone scripts in `/src/scripts`
 - AI translation workflow agents
 
 ## CRITICAL: Use Justfile Commands
@@ -67,7 +67,7 @@ After modifying this package:
 For active development:
 
 ```bash
-cd shared && npm run dev
+cd src/shared && npm run dev
 ```
 
 ---
@@ -148,8 +148,9 @@ export function createMyModel(id: string): MyModel {
 
 Read markdown files and convert to TypeScript models.
 
-- `DiaryParser` - Parse diary entries
+- `ParagraphParser` - Parse diary entries (paragraph clusters)
 - `GlossaryParser` - Parse glossary entries
+- `SummaryParser` - Parse carnet summary files
 - `patterns.ts` - Regex patterns (shared)
 - `frontmatter.ts` - YAML frontmatter parsing
 
@@ -157,8 +158,13 @@ Read markdown files and convert to TypeScript models.
 
 Convert TypeScript models back to markdown.
 
-- `DiaryRenderer` - Render diary entries
+- `ParagraphRenderer` - Render diary entries
 - `GlossaryRenderer` - Render glossary entries
+- `SummaryRenderer` - Render carnet summaries
+
+Caution: `just round-trip-test` shows the renderer is NOT byte-faithful to current
+files (it merges glossary-tag lines and reorders notes/tags) — do not use it to
+rewrite existing entries without checking the diff.
 
 ### Utils (`src/utils/`)
 
@@ -174,6 +180,8 @@ Stateful utilities that may perform I/O.
 Static data and mappings.
 
 - `languages.ts` - Language tags, ISO codes
+- `roles.ts` - Note role codes (RSR, LAN, TR, RED, CON, PA, GEM, OPS, ED, PPX, KRR)
+- `marie.ts` - Marie's birth date constants
 
 ---
 
@@ -286,5 +294,5 @@ just build-ts
 
 - `/justfile` - Project-wide commands (ALWAYS prefer these)
 - `/package.json` - Workspace configuration
-- `/scripts/` - Standalone scripts using this package
+- `/src/scripts/` - Standalone scripts using this package
 - `/.claude/skills/glossary/SKILL.md` - Glossary management docs

@@ -1,5 +1,8 @@
 # Carnet Migration Report - 2026-01-31
 
+> OBSOLETE (2026-07-06): historical one-shot migration report; does not belong in src/scripts/ —
+> candidate for moving to .claude/reports/ or src/scripts/_archive/ (or removal).
+
 ## Summary
 
 Successfully migrated diary entries from book-based structure (00-16) to carnet-based structure (000-106).

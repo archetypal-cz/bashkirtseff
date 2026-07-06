@@ -18,7 +18,7 @@ The extension recognizes and styles six types of comments:
 
 ### 3. Timestamped Notes
 - **Pattern:** `%% 2025-12-07T10:20:00 LAN: note content %%`
-- **Roles:** RSR (Researcher), LAN (Linguistic Annotator), TR (Translator), RED (Editor), CON (Conductor), PA (Project Assistant), GEM (Gemini Editor)
+- **Roles:** RSR (Researcher), LAN (Linguistic Annotator), TR (Translator), RED (Editor), CON (Conductor), PA (Project Assistant), GEM (Gemini Editor), OPS (Opus Editor), ED (Executive Director), PPX (Perplexity), KRR (human owner)
 - **Style:** Green timestamp (#B5CEA8), yellow role (#DCDCAA), orange content (#CE9178)
 - **Use:** Annotated notes with timestamps and roles
 
@@ -42,10 +42,11 @@ The extension recognizes and styles six types of comments:
 ### Method 1: Symlink (Development)
 ```bash
 # From VSCode, open the extension folder
-cd scripts/vscode-markdown-highlighting
+cd .vscode/bashkirtseff-highlighting
 
 # Press F5 to open a new VSCode window with the extension loaded
 # The extension will be active in the new window
+# (Or run ./install.sh to symlink into ~/.vscode/extensions/)
 ```
 
 ### Method 2: Package and Install
@@ -54,7 +55,7 @@ cd scripts/vscode-markdown-highlighting
 npm install -g @vscode/vsce
 
 # Navigate to the extension directory
-cd scripts/vscode-markdown-highlighting
+cd .vscode/bashkirtseff-highlighting
 
 # Package the extension
 vsce package
@@ -66,7 +67,7 @@ code --install-extension bashkirtseff-markdown-highlighting-0.0.1.vsix
 ### Method 3: Copy to VSCode Extensions Folder
 ```bash
 # Copy the extension folder to VSCode's extensions directory
-cp -r scripts/vscode-markdown-highlighting ~/.vscode/extensions/bashkirtseff-markdown-highlighting
+cp -r .vscode/bashkirtseff-highlighting ~/.vscode/extensions/bashkirtseff-highlighting
 ```
 
 ## Customization

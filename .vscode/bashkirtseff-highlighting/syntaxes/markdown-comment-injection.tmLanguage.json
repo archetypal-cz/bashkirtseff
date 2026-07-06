@@ -36,9 +36,9 @@
       }
     },
     {
-      "comment": "Timestamped notes with all roles: RSR, LAN, TR, RED, CON, PA, GEM",
+      "comment": "Timestamped notes with all roles: RSR, LAN, TR, RED, CON, PA, GEM, OPS, ED, PPX, KRR",
       "name": "meta.timestamp-annotation.bashkirtseff",
-      "match": "(%%\\s*)(\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{3})?Z?)\\s+(RSR|LAN|TR|RED|CON|PA|GEM)(:)\\s*([^%]+)(%%)",
+      "match": "(%%\\s*)(\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{3})?Z?)\\s+(RSR|LAN|TR|RED|CON|PA|GEM|OPS|ED|PPX|KRR)(:)\\s*([^%]+)(%%)",
       "captures": {
         "1": {
           "name": "punctuation.definition.timestamp.begin.bashkirtseff"

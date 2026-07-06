@@ -1,3 +1,5 @@
+// OBSOLETE (2026-07-06): unreferenced anywhere (no justfile recipe, no CI); superseded by
+// a11y-audit.mjs from the same work session — candidate for removal.
 import puppeteer from 'puppeteer-core';
 import axePkg from 'axe-core';
 const axeSource = axePkg.source;

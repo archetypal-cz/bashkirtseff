@@ -69,6 +69,7 @@ glossary-merge source target *FLAGS:
 glossary-duplicates:
     npx tsx src/scripts/glossary-merge.ts find-duplicates
 
+# OBSOLETE (2026-07-06): one-shot migration completed Feb 2026 (7,650 refs); zero flat refs remain — candidate for removal
 # Migrate flat-path glossary refs to categorized paths
 glossary-migrate-flat *FLAGS:
     npx tsx src/scripts/glossary-migrate-flat.ts {{FLAGS}}
@@ -267,8 +268,8 @@ search-lang query lang=default_lang:
 find-missing pattern directory:
     @echo "Finding .md files in {{directory}} that don't contain '{{pattern}}'..."
     @for file in {{directory}}/*.md; do \
-        if [ -f "$$file" ] && ! grep -q "{{pattern}}" "$$file"; then \
-            basename "$$file"; \
+        if [ -f "$file" ] && ! grep -q "{{pattern}}" "$file"; then \
+            basename "$file"; \
         fi; \
     done
 
@@ -351,6 +352,7 @@ check-para-start carnet=default_carnet:
     else
         missing=0
         for file in content/_original/{{carnet}}/*.md; do
+            case "$(basename "$file")" in _*) continue;; esac
             if grep -q "^---" "$file" && ! grep -q "^para_start:" "$file"; then
                 echo "Missing para_start: $file"
                 missing=$((missing + 1))
@@ -387,6 +389,7 @@ list-missing-para-start carnet=default_carnet:
         echo "Carnet 000 has special handling (no frontmatter)"
     else
         for file in content/_original/{{carnet}}/*.md; do
+            case "$(basename "$file")" in _*) continue;; esac
             if grep -q "^---" "$file" && ! grep -q "^para_start:" "$file"; then
                 basename "$file"
             fi
@@ -397,10 +400,11 @@ list-missing-para-start carnet=default_carnet:
 check-frontmatter carnet=default_carnet:
     @echo "Checking frontmatter in Carnet {{carnet}}..."
     @for file in content/_original/{{carnet}}/*.md; do \
-        if ! grep -q "^---" "$$file"; then \
-            echo "Missing frontmatter: $$file"; \
-        elif ! grep -q "marie_age:" "$$file"; then \
-            echo "Missing calculated fields: $$file"; \
+        case "$(basename "$file")" in _*) continue;; esac; \
+        if ! grep -q "^---" "$file"; then \
+            echo "Missing frontmatter: $file"; \
+        elif ! grep -q "marie_age:" "$file"; then \
+            echo "Missing calculated fields: $file"; \
         fi \
     done
 
@@ -544,18 +548,29 @@ workspace-ssh:
 #   https://github.com/archetypal-cz/bashkirtseff/actions
 
 # === AI TRANSLATION WORKFLOW ===
+#
+# OBSOLETE — candidates for removal (2026-07-06 backend-tooling review):
+# This headless `claude -p` pipeline predates the current skills/agent-team
+# workflow (/executive-director, background Agents, verify-carnet gate).
+# content/_original/_workflow/ has been dormant since Feb 2026 (carnet-015-era
+# JSONs only), and `claude --resume latest` is not valid on the current CLI.
+# Kept for reference until KRR confirms removal. `workflow-status` still works
+# (it just wraps project-status.ts) and is NOT obsolete.
 
+# OBSOLETE: superseded by the /architect skill used interactively
 # Start Workflow Architect session (for developing/debugging the system)
 architect:
     @echo "Starting Workflow Architect session..."
     @echo "Use /architect command or load .claude/skills/workflow-architect/SKILL.md"
     claude "Load the workflow-architect skill from .claude/skills/workflow-architect/SKILL.md. You are the system architect, not a translation agent. Read the skill file completely, then ask what I want to work on."
 
+# OBSOLETE: `claude --resume latest` is invalid on the current CLI; use the /executive-director skill
 # Start Executive Director for a carnet (interactive mode)
 ed carnet="015":
     @echo "Starting Executive Director for Carnet {{carnet}}..."
     claude --resume latest "You are the Executive Director. Load .claude/project_config.md and .claude/skills/executive-director/SKILL.md. Begin processing Carnet {{carnet}}. Report current status and await instructions."
 
+# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
 # Run researcher on a specific entry (headless)
 research entry carnet="015":
     @echo "Running researcher on {{entry}}..."
@@ -564,6 +579,7 @@ research entry carnet="015":
         --allowedTools "Read,Write,Edit,Grep,Glob,WebSearch" \
         | tee content/_original/_workflow/research_{{entry}}.json
 
+# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
 # Run linguistic annotator on a specific entry (headless)
 annotate entry carnet="015":
     @echo "Running linguistic annotator on {{entry}}..."
@@ -572,6 +588,7 @@ annotate entry carnet="015":
         --allowedTools "Read,Edit,Write,Grep,Glob" \
         | tee content/_original/_workflow/annotate_{{entry}}.json
 
+# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
 # Run translator on a specific entry (headless)
 translate entry carnet="015" lang="cz":
     @echo "Running translator on {{entry}} to {{lang}}..."
@@ -581,6 +598,7 @@ translate entry carnet="015" lang="cz":
         --allowedTools "Read,Edit,Write,Grep,Glob" \
         | tee content/_original/_workflow/translate_{{entry}}.json
 
+# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
 # Run editor review on a translation (headless)
 review entry carnet="015" lang="cz":
     @echo "Running editor review on {{entry}}..."
@@ -589,6 +607,7 @@ review entry carnet="015" lang="cz":
         --allowedTools "Read,Grep,Glob" \
         | tee content/_original/_workflow/review_{{entry}}.json
 
+# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
 # Run conductor final review (headless)
 conduct entry carnet="015" lang="cz":
     @echo "Running conductor final review on {{entry}}..."
@@ -597,6 +616,7 @@ conduct entry carnet="015" lang="cz":
         --allowedTools "Read,Grep,Glob" \
         | tee content/_original/_workflow/conduct_{{entry}}.json
 
+# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
 # Run full pipeline on a single entry
 pipeline entry carnet="015" lang="cz":
     @echo "=== Full pipeline for {{entry}} ==="
@@ -611,6 +631,7 @@ pipeline entry carnet="015" lang="cz":
     just conduct {{entry}} {{carnet}} {{lang}}
     @echo "=== Pipeline complete for {{entry}} ==="
 
+# OBSOLETE: headless pipeline unused since Feb 2026; also broken ($$ PID-expansion bug in the loop)
 # Batch process multiple entries (research + annotate only)
 prepare-batch start end carnet="015":
     @echo "Preparing entries {{start}} to {{end}} in Carnet {{carnet}}..."
@@ -623,12 +644,14 @@ prepare-batch start end carnet="015":
 workflow-status carnet="015":
     npx tsx src/scripts/project-status.ts original {{carnet}}
 
+# OBSOLETE: targets the dormant content/_original/_workflow/ dir
 # Generate workflow metrics report
 workflow-report carnet="015":
     @echo "Generating workflow report for Carnet {{carnet}}..."
     claude -p "Analyze all JSON files in content/_original/_workflow/. Generate a metrics report with agent performance, quality trends, and improvement suggestions. Save to content/_original/_workflow/metrics/carnet_{{carnet}}_metrics.md" \
         --allowedTools "Read,Write,Grep,Glob"
 
+# OBSOLETE: targets the dormant _workflow/ dir; also broken ($$confirm PID bug — always prints "Cancelled")
 # Clean workflow state (careful!)
 workflow-clean:
     @echo "This will delete all workflow state files. Continue? [y/N]"
@@ -782,8 +805,8 @@ stewardship-approve file:
 stewardship-approve-all:
     @echo "Approving all draft content..."
     @grep -l "status: draft" docs/stewardship/queue/*.md 2>/dev/null | while IFS= read -r file; do \
-        sed -i 's/status: draft/status: approved/' "$$file"; \
-        echo "Approved: $$file"; \
+        sed -i 's/status: draft/status: approved/' "$file"; \
+        echo "Approved: $file"; \
     done
 
 # View published log
@@ -812,15 +835,15 @@ stewardship-archive:
     @echo "Moving posted items to archive..."
     @mkdir -p docs/stewardship/archive
     @grep -l "status: posted" docs/stewardship/queue/*.md 2>/dev/null | while IFS= read -r file; do \
-        mv "$$file" docs/stewardship/archive/; \
-        echo "Archived: $$(basename $$file)"; \
+        mv "$file" docs/stewardship/archive/; \
+        echo "Archived: $(basename "$file")"; \
     done
 
 # === KERNBERGER EPUB ANALYSIS ===
 #
 # Analyze the Kernberger English translation EPUB to identify which
 # French paragraphs were included and extract images/footnotes.
-# Requires: EPUB file at raw_books/The Journal of Marie Bashkirtse - Marie Bashkirtseff.epub
+# Requires: EPUB file at raw_books/Kernberger_Journal_illustrated.epub
 
 # Shared uv dependencies for Kernberger scripts
 _kernberger_deps := "--with ebooklib --with beautifulsoup4 --with lxml --with rapidfuzz"
@@ -899,7 +922,7 @@ analytics-restart:
 
 # Check Umami status
 analytics-status:
-    @docker ps --filter name=umami --format "table {{{{.Names}}}}\t{{{{.Status}}}}\t{{{{.Ports}}}}"
+    @docker ps --filter name=umami --format "table {{{{.Names}}\t{{{{.Status}}\t{{{{.Ports}}"
 
 # === FRONTEND (Astro PWA) ===
 

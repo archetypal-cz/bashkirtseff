@@ -24,8 +24,8 @@ import * from '@bashkirtseff/shared';
 
 // Import specific modules
 import { DiaryEntry, Paragraph } from '@bashkirtseff/shared/models';
-import { DiaryParser } from '@bashkirtseff/shared/parser';
-import { DiaryRenderer } from '@bashkirtseff/shared/renderer';
+import { ParagraphParser } from '@bashkirtseff/shared/parser';
+import { ParagraphRenderer } from '@bashkirtseff/shared/renderer';
 import { GlossaryManager } from '@bashkirtseff/shared/utils';
 import { LANGUAGE_TAGS } from '@bashkirtseff/shared/constants';
 ```
@@ -73,21 +73,21 @@ toCapitalAscii("Café")                 // "CAFE"
 Parse diary entries and glossary files from markdown:
 
 ```typescript
-import { DiaryParser, GlossaryParser } from '@bashkirtseff/shared/parser';
+import { ParagraphParser, GlossaryParser } from '@bashkirtseff/shared/parser';
 
 // Parse a diary entry
-const parser = new DiaryParser();
-const entry = parser.parseFile('src/_original/001/1873-01-11.md');
+const parser = new ParagraphParser();
+const entry = parser.parseFile('content/_original/001/1873-01-11.md');
 
 // Parse a glossary entry
 const glossaryParser = new GlossaryParser();
-const glossaryEntry = glossaryParser.parseFile('src/_original/_glossary/people/core/DINA.md');
+const glossaryEntry = glossaryParser.parseFile('content/_original/_glossary/people/core/DINA.md');
 
 // Parse a carnet summary
 import { SummaryParser } from '@bashkirtseff/shared/parser';
 
 const summaryParser = new SummaryParser();
-const summary = summaryParser.parseFile('src/_original/001/_summary.md');
+const summary = summaryParser.parseFile('content/_original/001/_summary.md');
 ```
 
 #### Paragraph ID Patterns
@@ -100,11 +100,15 @@ const summary = summaryParser.parseFile('src/_original/001/_summary.md');
 
 Convert parsed entries back to markdown:
 
+Caution: rendering is not byte-faithful to hand-edited files (glossary-tag lines are
+merged, note/tag ordering normalized) — see `just round-trip-test` before using the
+renderer to rewrite existing content.
+
 ```typescript
-import { DiaryRenderer, GlossaryRenderer } from '@bashkirtseff/shared/renderer';
+import { ParagraphRenderer, GlossaryRenderer } from '@bashkirtseff/shared/renderer';
 
 // Render original entry
-const renderer = new DiaryRenderer();
+const renderer = new ParagraphRenderer();
 const markdown = renderer.renderOriginalEntry(entry);
 
 // Render translation
@@ -163,7 +167,7 @@ const isoLangs = extractLanguagesFromTags(tags); // ['fr', 'ru', 'de']
 
 ## Standalone Scripts
 
-Scripts in `/scripts` use this package:
+Scripts in `/src/scripts` use this package (see the justfile for the full command set):
 
 | Script | Description |
 |--------|-------------|
@@ -177,16 +181,16 @@ Run via `npx tsx`:
 
 ```bash
 # Merge glossary entries
-npx tsx scripts/glossary-merge.ts merge OLD_TAG NEW_TAG
+npx tsx src/scripts/glossary-merge.ts merge OLD_TAG NEW_TAG
 
 # Find duplicates
-npx tsx scripts/glossary-merge.ts find-duplicates
+npx tsx src/scripts/glossary-merge.ts find-duplicates
 
 # Find references to an entry
-npx tsx scripts/glossary-refs.ts find DUKE_OF_HAMILTON
+npx tsx src/scripts/glossary-refs.ts find DUKE_OF_HAMILTON
 
 # Manage glossary frontmatter
-npx tsx scripts/glossary-frontmatter.ts ensure --dry-run
+npx tsx src/scripts/glossary-frontmatter.ts ensure --dry-run
 ```
 
 ## Development
@@ -205,7 +209,7 @@ npm run clean
 ## Architecture
 
 ```
-shared/
+src/shared/
 ├── src/
 │   ├── index.ts           # Main exports
 │   ├── models/            # TypeScript interfaces
@@ -214,15 +218,18 @@ shared/
 │   │   ├── note.ts        # Note
 │   │   ├── glossary.ts    # GlossaryLink, GlossaryTag, validation
 │   │   ├── glossary-entry.ts # GlossaryEntryParsed
+│   │   ├── summary.ts     # CarnetSummaryDocument
 │   │   └── book.ts        # DiaryCarnet
 │   ├── parser/            # Markdown → TypeScript
-│   │   ├── diary-parser.ts
+│   │   ├── paragraph-parser.ts
 │   │   ├── glossary-parser.ts
+│   │   ├── summary-parser.ts
 │   │   ├── frontmatter.ts
 │   │   └── patterns.ts    # Regex patterns
 │   ├── renderer/          # TypeScript → Markdown
-│   │   ├── diary-renderer.ts
-│   │   └── glossary-renderer.ts
+│   │   ├── paragraph-renderer.ts
+│   │   ├── glossary-renderer.ts
+│   │   └── summary-renderer.ts
 │   ├── utils/             # Utilities
 │   │   ├── validation.ts
 │   │   ├── statistics.ts
@@ -233,6 +240,8 @@ shared/
 │   │   └── scaffold.ts
 │   └── constants/         # Constants and mappings
 │       ├── languages.ts
+│       ├── roles.ts       # Note role codes
+│       ├── marie.ts       # Marie's birth date
 │       └── index.ts
 └── dist/                  # Compiled output
 ```
