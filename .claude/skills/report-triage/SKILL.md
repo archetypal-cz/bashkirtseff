@@ -44,15 +44,26 @@ Same pattern for status updates if `just report-status` reports "No report found
    - **Feature requests** (in `custom_reason`) → implement a minimal version if cheap (e.g. a glossary entry), log the broader idea in `.claude/reports/WATCHLIST.md`
    - **Unwarranted** → `dismissed`, but say why in the session summary
 3. **Fix via the team.** Spawn role agents (translator, editor, researcher, entry-restructurer) with: the report verbatim, the French original, the current text, your analysis, and the comment convention below. Batch reports per carnet/agent; run independent agents in parallel. If two agents will touch the same file (e.g. a tagger and a splitter), order them explicitly and tell the later one to re-read from disk.
+   <!-- Teamcouch update 2026-07-06 (first-run calibration): two taggers sharded over one carnet
+        collided when one overran its file scope (5th instance of the concurrent-edit family;
+        benign only because their tag sets converged). -->
+   **One agent per carnet per concern** — never shard a single sweep (tagging, convention fix) across two agents in the same carnet, even with disjoint file lists; scope instructions get overrun. Serialize instead, or give the whole carnet to one agent.
 4. **Comment convention**: fixes triggered by reports carry a role comment noting the origin, e.g. `%% 2026-07-06T21:00:00 TR: User report fix. … %%`. KRR is a valid comment code for notes from the owner himself.
 5. **Editor pass**: translation fixes get a quick RED review (fresh agent) before being called done — user-reported paragraphs have already failed review once.
 6. **Update status** in the DB: `fixed` when committed, `dismissed` with reasoning reported to the user, `acknowledged` for deferred items (also add them to WATCHLIST so they aren't lost).
+   <!-- Teamcouch update 2026-07-06 (first-run calibration): a new report arrived MID-SESSION;
+        a WHERE status='open' update would have wrongly marked it fixed. -->
+   Update rows by **explicit id (UUID)**, never by a status filter — and **re-query the table before closing out**: reports can arrive while you work, and a fresh one deserves the same triage in the same session.
 7. **Commit** with a message referencing the report(s), e.g. `fix(content): user report fixes cz 000.0009-0025 + 105 entry splits`.
 
 ## Verification before "fixed"
 
 - `%%` markers balanced in every touched file (stranded-text check from the cz-fluidity method if in doubt)
 - For splits: paragraph IDs unchanged, no paragraph lost (count IDs before/after across both halves), all five language versions consistent
+  <!-- Teamcouch update 2026-07-06 (first-run calibration): the splitter's sed-range derivation
+       silently dropped 3 paragraphs at seams (self-caught by its count check), and it applied
+       _original's `#` date-heading convention but left translations as plain text. -->
+  Concretely: `grep -c '^%% NNN\.[0-9]\{4\} %%$'` must be **identical per file across all five sources**, the ID range contiguous with no duplicates; then eyeball each new file's opening — the date must be a `#` heading in **that language's own sibling convention** (translated, no stray periods). fr trap: the fr edition promotes a cluster's `%% … %%` comment to visible text only when the cluster has NO visible line — so a heading added to an fr cluster hides its commented prose unless the prose is also copied out visibly. fr files also have no YAML frontmatter (repo-wide; `verify-carnet fr` frontmatter failures are baseline, not your regression).
 - For renderer changes: `just fe-build` must pass; spot-check the affected paragraph in build output if feasible
 - For tags: link targets exist (`just glossary-missing`)
 

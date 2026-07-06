@@ -4,7 +4,7 @@ type: report-triage
 operator: "@kerray"
 scope: paragraph_reports DB → carnets 000, 034, 067, 068, 097, 105 + frontend renderer
 pipeline: [report-triage (new role), translator, editor, researcher, entry-restructurer]
-status: final
+status: reviewed
 ---
 
 # Report Triage Run — 15 open user reports, all implemented
@@ -49,4 +49,29 @@ First run of the new **report-triage** role (skill created this session at `.cla
 
 ## Teamcouch Review
 
-(to be added by the follow-up teamcouch pass on the report-triage role)
+**Reviewed**: 2026-07-06 (same-session retro requested by operator — first run of a new role, so this is skill *calibration*, not 3-report pattern-hardening)
+**Reports analyzed**: this run + WATCHLIST cross-reference (concurrent-edit family: 4 prior instances)
+
+### What worked (validated, kept in skill)
+- **Timing check** (`highlighted_text` vs current file + commit times): correctly identified that reports targeted the just-deployed polish — two complaints were about *same-day* RED choices ("rikošetem", "uzavřené skupinky"), and the skill's "owner feedback overrides prior role decisions" rule resolved them without churn.
+- **Class-level fixing**: the 000.0002 "formatting" report became a renderer fix benefiting ~40 entries plus three collateral data-defect families (068 dup headings, cz/067 French leftover, fr/068 trapped headings). Fixing the paragraph alone would have left all of it.
+- **Evaluate-against-source before fixing**: found MORE of the reported defect class than reported — 2 extra buried days beyond the 3 reported splits; the "bláznice" calque in 2 more carnets than the reported one.
+- **Mechanical verification as backstop**: per-language ID-count parity caught nothing the splitter's own self-check hadn't, but the splitter's self-caught seam bug (3 paragraphs silently dropped by sed ranges) proves count-parity is load-bearing — an agent that skipped its self-check would have shipped silent content loss.
+- **DB updates by explicit UUID**: a new report arrived mid-session; a `WHERE status='open'` update would have falsely marked it fixed. It instead got triaged in the same session.
+
+### What was lacking → fixes applied
+- **Two taggers sharded over one carnet collided** (scope overrun despite explicit "do NOT touch" list) — 5th instance of the WATCHLIST concurrent-edits family. → report-triage SKILL: "one agent per carnet per concern"; WATCHLIST updated.
+- **Splitter applied `_original`'s heading convention but not the translations'** (plain-text dates, stray periods, fr promotion trap) — orchestrator had to fix 20 files by hand. → SKILL verification section now spells out per-language heading convention check + the fr promotion/frontmatter traps.
+- **Mid-session interruption recovery** worked but only because disk state was re-surveyed from scratch (git status per language dir) — half-applied multi-language operations (original split done, languages not) are the dangerous resume state. Already implicit in the skill's verification gates; no further change.
+- **DB re-query before close** was luck (done to confirm the UPDATE), not process. → SKILL now requires it.
+
+### WATCHLIST Changes
+- Concurrent-edits item: 5th instance recorded (scope-overrun variant).
+- Added: Edit tool false "file modified since read" with write landing anyway (harness quirk, watch).
+- (Earlier in session: Product Ideas section added with the PD-translations linking idea from 097.0081.)
+
+### Recommendations for Human
+1. **Push to deploy** — reports are marked `fixed` in the DB but the live site shows the fixes only after push→deploy.
+2. **Glossary backlog** from this run: LEO_TOLSTOY entry needed (TOLSTOY.md is a different family — 5 mentions untagged); duplicates DAILLENS/DE_DAILLENS and MICHEL_ANGE/MICHELANGELO; missing entries for Grancher, Béclère, Pernetti, Zuccarini, Flaubert, de Vogüé.
+3. **Harden `just reports`**: drop the `2>/dev/null` or add an explicit error when DEPLOY_HOST is empty/SSH fails — silent-empty cost real diagnosis time; also decide whether deploy@aretea should accept this machine's key (currently only root works).
+4. **fr edition frontmatter**: either exempt fr from `verify-carnet` frontmatter checks or backfill — currently the gate fails wholesale on fr and trains operators to ignore it.
