@@ -95,6 +95,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **listmonk-copywriter** | `/listmonk-copywriter`  | Email copywriting, campaign content            |
 | **listmonk-admin**       | `/listmonk-admin`       | Newsletter infrastructure, lists, subscribers  |
 | **teamcouch**            | `/teamcouch`            | Post-session retrospective, skill evolution    |
+| **fablelous**            | `/fablelous`            | Fable word-level polish pass (post-CON)        |
 | **report-triage**        | `/report-triage`        | Evaluate & implement user bug reports          |
 
 ## Core Workflow
@@ -144,7 +145,7 @@ All roles use timestamped comments:
 %% YYYY-MM-DDThh:mm:ss ROLE: Comment text %%
 ```
 
-Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), GEM (Gemini), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), PPX (Perplexity)
+Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), GEM (Gemini), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), PPX (Perplexity), FAB (Fablelous polish)
 
 ### Paragraph IDs
 

@@ -37,6 +37,8 @@ skills/
 │   └── SKILL.md                   # External Gemini review
 ├── opus-editor/
 │   └── SKILL.md                   # Opus language expert review
+├── fablelous/
+│   └── SKILL.md                   # Fable word-level polish pass (post-CON)
 ├── teamcouch/
 │   └── SKILL.md                   # Post-session retrospective
 ├── stewardship/
