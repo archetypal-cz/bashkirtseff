@@ -76,7 +76,7 @@ The project uses a multi-agent workflow with specialized roles:
 1. **Researcher** - Historical research, entity identification, context
 2. **Linguistic Annotator** - Translation guidance, language notes
 3. **Translator** - French to Czech translation
-4. **Gemini** - External AI review for fresh perspective
+4. **Opus Editor** - Language expert cross-validation review
 5. **Editor** - Quality review and corrections
 6. **Conductor** - Final literary quality approval
 
@@ -85,7 +85,7 @@ Each role adds timestamped comments to track decisions:
 ```
 %% 2025-12-07T16:00:00 RSR: Historical context note... %%
 %% 2025-12-07T17:00:00 LAN: Translation guidance... %%
-%% 2025-12-08T10:00:00 GEM: Alternative phrasing suggestion... %%
+%% 2025-12-08T10:00:00 OPS: Alternative phrasing suggestion... %%
 ```
 
 ## Entry Format

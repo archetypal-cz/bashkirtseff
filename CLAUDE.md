@@ -84,8 +84,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **researcher**           | `/researcher`           | Research and annotate entries, create glossary |
 | **linguistic-annotator** | `/linguistic-annotator` | Add translation guidance (LAN notes)           |
 | **translator**           | `/translator`           | Translate French → Czech                       |
-| **gemini-editor**  | `/gemini-editor`  | External AI review (Gemini)                    |
-| **opus-editor**    | `/opus-editor`    | Opus language expert review (no corruption)    |
+| **opus-editor**    | `/opus-editor`    | Language expert review (cross-validation pass)    |
 | **editor**               | `/editor`               | Review translations for quality                |
 | **conductor**            | `/conductor`            | Final quality gate                             |
 | **executive-director**   | `/executive-director`   | Orchestrate workflow                           |
@@ -105,7 +104,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 1. **Research Phase** (researcher) - Extract entities, historical context, RSR comments
 2. **Annotation Phase** (linguistic-annotator) - Translation guidance, LAN comments
 3. **Translation Phase** (translator) - Translate preserving Marie's voice, TR comments
-4. **Gemini Review** (gemini-editor) - External AI review, GEM comments
+4. **Opus Review** (opus-editor) - Language expert cross-validation, OPS comments
 5. **Editor Review** (editor) - Check naturalness and accuracy, RED comments
 6. **Final Approval** (conductor) - Ensure literary quality, CON comments
 
@@ -145,7 +144,7 @@ All roles use timestamped comments:
 %% YYYY-MM-DDThh:mm:ss ROLE: Comment text %%
 ```
 
-Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), GEM (Gemini), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), PPX (Perplexity), FAB (Fablelous polish)
+Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), FAB (Fablelous polish). Retired codes still found in older comments: GEM (Gemini review — role removed 2026-07-08), PPX (Perplexity)
 
 ### Paragraph IDs
 

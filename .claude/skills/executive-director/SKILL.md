@@ -18,7 +18,7 @@ Your responsibilities:
 - Build the task list with dependency chains for all entries in a carnet
 - Monitor progress via task list and teammate messages
 - Evaluate teammate work quality (you understand what good RSR and LAN look like)
-- Run Gemini reviews as subagents when needed
+- Run Opus (OPS) reviews as subagents when needed
 - Escalate to human when confidence is low or patterns emerge
 - Generate reports on completion
 
@@ -319,7 +319,7 @@ When you add comments to files:
 
 ## Translation Pipeline Mode
 
-The translation pipeline (TR → optional GEM/OPS → RED → CON) translates prepared French originals into target languages. All carnets 000-106 have RSR+LAN complete, so source preparation is no longer a bottleneck.
+The translation pipeline (TR → optional OPS → RED → CON, then optional FAB polish) translates prepared French originals into target languages. All carnets 000-106 have RSR+LAN complete, so source preparation is no longer a bottleneck.
 
 ### Team Composition
 
@@ -382,7 +382,7 @@ Translating a full carnet (25-36 entries) consumes most of the context window. A
 2. Spawn a NEW translator agent for carnet Y → fresh context, works reliably
 3. Repeat
 
-**Same applies to GEM and RED agents** — one carnet per agent lifecycle.
+**Same applies to OPS and RED agents** — one carnet per agent lifecycle.
 
 **Oversized single entries (>~150 paragraphs) kill translators on the 32k OUTPUT-token limit**, not context — two consecutive translators died on 106's `1884-10-07.md` (277 paragraphs) before a third finished it cleanly (cz-104-106; also uk-056-061, a 363-paragraph entry). When a carnet contains one, dedicate a fresh agent to just that file (or warn the translator up front): minimal narration, translate + SAVE in ~30-paragraph batches, never hold the whole entry in memory. See the translator SKILL "Oversized single entries" section.
 
@@ -476,28 +476,25 @@ activate the agent (con idled ~24 min in cz-056-064); a plain status ping reliab
 - If resuming a partially-done carnet: explicit list of remaining entries + "DO NOT redo existing files"
 
 **RED-specific:**
-- "Fix inline GEM comment placements (move to own lines, reconnect split text)"
 - "Check for Cyrillic character contamination"
 - "Set editor_approved: true on each reviewed entry"
 
-**GEM-specific:**
-- "Commit before each Gemini pass. Use `gemini -y` (yolo mode). Audit via git diff after each pass."
-- "See /gemini-editor skill for full workflow"
+**OPS-specific:**
+- "Two-pass review (naturalness, then semantic against the French). Set opus_reviewed: true on each entry."
+- "See /opus-editor skill for full workflow"
 
 **CON-specific:**
 - "Three-pass review: target-language-only, comparative, 'Would Marie approve?'"
 - "Quality bar: see recent `.claude/reports/` for your language (recent plateaus: cz ~0.92, en ~0.95-0.96, uk ~0.92-0.96)"
 - "On 30+-entry carnets, send a halfway heartbeat" — and on your side, do NOT read a 0/N `conductor_approved` disk count as "stuck": CON reviews the whole carnet then batch-flips the flags at the end, so the count jumps 0→N. Monitor via the heartbeat, not the disk count (cz-065-069).
 
-### GEM / OPS Integration (optional cross-model review)
+### OPS Integration (optional extra review pass)
 
-**OPS (opus-editor) is the preferred option** when you want an extra review pass: zero corruption across its proven runs, no rate limits, no git-audit overhead. GEM (gemini-editor) gives a different model family's perspective but carries a real corruption risk (mid-paragraph comment splices, duplicated paragraphs — see its Known Issues) and must be run from the team lead, not a teammate (it mutates git).
+**OPS (opus-editor) is the standard extra review pass**: zero corruption across its proven runs, no rate limits, no git-audit overhead. It runs after the verify-carnet gate and before or alongside RED. (The earlier external Gemini reviewer, GEM, was retired 2026-07-08 — its corruption issues left ~290 splices the 2026-06/07 fluidity waves had to clean; older entries still carry GEM comments as historical record.)
 
-If dispatching GEM, do it **after the verify-carnet gate and BEFORE RED**, so RED cleans up any GEM-introduced splices. Dispatching GEM after RED is what left ~290 uncleaned GEM splices in the cz corpus (cleaned by the 2026-06/07 fluidity waves — don't recreate the backlog).
-
-1. Use the `/gemini-editor` or `/opus-editor` skill, run as a one-shot operation (not a persistent teammate)
+1. Use the `/opus-editor` skill, run as a one-shot operation (not a persistent teammate)
 2. Process each entry in the carnet
-3. Apply valid corrections, add GEM/OPS comments
+3. Apply valid corrections, add OPS comments
 4. This can run in parallel with RED/CON work on other carnets (never the same carnet — one writer per carnet)
 
 ### Session Resilience
@@ -642,7 +639,7 @@ Pipeline throughput: ~1.4 entries/minute across 3 translators.
 **Get skill hashes** for the report frontmatter:
 ```bash
 git log --format="%h" -1 -- .claude/skills/translator/SKILL.md
-git log --format="%h" -1 -- .claude/skills/gemini-editor/SKILL.md
+git log --format="%h" -1 -- .claude/skills/opus-editor/SKILL.md
 # etc. for each skill used
 ```
 

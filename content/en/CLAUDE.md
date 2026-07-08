@@ -61,13 +61,13 @@ matches Marie's enthusiastic register. %%
 
 **Frontmatter flag**: `translation_complete: true`
 
-### 2. Gemini Review (GEM)
-- External AI review for fresh perspective
+### 2. Opus Review (OPS)
+- Language expert cross-validation review
 - Check consistency and naturalness
 - Suggest alternative phrasings
-- Catch issues Claude might miss
+- Catch issues the translation pass might miss
 
-**Frontmatter flag**: `gemini_reviewed: true`
+**Frontmatter flag**: `opus_reviewed: true`
 
 ### 3. Editor Review (RED)
 - Check naturalness in English
@@ -119,7 +119,7 @@ Marie frequently code-switches between French, English, Italian, and Russian:
 
 ## Editor / review traps (English)
 
-Concrete English traps for RED, OPS, and GEM to catch (the language-agnostic frame lives in the `editor`/`opus-editor`/`gemini-editor` skills; the concrete examples live here):
+Concrete English traps for RED and OPS to catch (the language-agnostic frame lives in the `editor`/`opus-editor` skills; the concrete examples live here):
 
 | Category | Example |
 |----------|---------|
@@ -130,9 +130,9 @@ Concrete English traps for RED, OPS, and GEM to catch (the language-agnostic fra
 - Keep Marie's same-language code-switches as-is with `==highlight==` and footnote "*In English in the original*".
 - 19th century sophistication without archaism.
 
-## Gemini review prompts (GEM)
+## Review criteria (OPS / RED)
 
-The `gemini-editor` skill inserts these into the `gemini -y` command (the `{INSERT … PROMPT …}` placeholders).
+Language-specific review checklists for the two review passes (naturalness-only, then semantic against the French). These were originally the external reviewer's prompts; they remain the concrete English criteria for the OPS and RED passes.
 
 **Pass 1 — text-only:**
 
@@ -158,9 +158,9 @@ For each issue, assign severity:
 ```
 You are an experienced English editor and stylist. Review this English translation of Marie Bashkirtseff's diary (19th century).
 
-The text contains inline comments in %% ... %% format — these include the French original, translator notes (TR), linguistic notes (LAN), research notes (RSR), and previous corrections (GEM). Use them for context, but review ONLY the English translation (lines without %%).
+The text contains inline comments in %% ... %% format — these include the French original, translator notes (TR), linguistic notes (LAN), research notes (RSR), and previous corrections. Use them for context, but review ONLY the English translation (lines without %%).
 
-IMPORTANT: Disregard previous GEM corrections — evaluate each passage independently, as if seeing it for the first time.
+IMPORTANT: Disregard previous corrections — evaluate each passage independently, as if seeing it for the first time.
 
 FOCUS ON:
 1. Semantic shifts (compare the English with the French original — does it capture the actual meaning?)
@@ -180,9 +180,10 @@ For each issue, assign severity:
 | Code | Role | Purpose |
 |------|------|---------|
 | TR | Translator | Translation decisions |
-| GEM | Gemini | External AI review notes |
+| OPS | Opus Editor | Language expert review notes |
 | RED | Editor | Quality notes, suggestions |
 | CON | Conductor | Approval, final notes |
+| GEM | Gemini (retired 2026-07-08) | Legacy review notes — still present in older entries |
 
 ## Progress Tracking
 

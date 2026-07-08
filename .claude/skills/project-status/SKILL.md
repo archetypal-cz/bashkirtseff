@@ -141,7 +141,7 @@ Progress is calculated by analyzing entry frontmatter:
 research_complete: true
 linguistic_annotation_complete: true
 translation_complete: true
-gemini_reviewed: true
+opus_reviewed: true
 editor_approved: true
 conductor_approved: true
 ```
@@ -155,7 +155,7 @@ The skill counts entries with each flag to generate percentages.
 
 Overall: 127/3800 entries (3.3%)
 
-| Carnet | Entries | RSR | LAN | TR  | GEM | ED  | CON | Worker  |
+| Carnet | Entries | RSR | LAN | TR  | OPS | ED  | CON | Worker  |
 |--------|---------|-----|-----|-----|-----|-----|-----|---------|
 | 000    | 1       | 100%| 100%| 100%| 100%| 100%| 100%| @kerray |
 | 001    | 35      | 100%| 100%| 100%| 90% | 86% | 71% | @kerray |

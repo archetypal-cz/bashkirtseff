@@ -78,7 +78,7 @@ agent_teams:
       - role: translator
       - role: editor       # RED — general-purpose subagent type
       - role: conductor    # CON — general-purpose subagent type
-    gemini_review: subagent  # GEM/OPS dispatched as subagents, not teammates
+    opus_review: subagent  # OPS dispatched as a subagent, not a teammate
 
 ## Automation Settings
 

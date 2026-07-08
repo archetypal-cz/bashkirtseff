@@ -28,9 +28,8 @@ When working as a **teammate** in a translation team:
 
 ### Known Issues to Watch For
 
-- **Inline GEM comments**: GEM review often places `%% GEM: ... %%` comments mid-paragraph, breaking readable text. Reconnect the split text and move GEM comments to their own lines after the paragraph text.
+- **Legacy inline GEM comments**: The retired Gemini reviewer (GEM) sometimes placed `%% GEM: ... %%` comments mid-paragraph, breaking readable text. In older entries that still carry them, reconnect the split text and move GEM comments to their own lines after the paragraph text. (GEM no longer runs, but its comments remain in the corpus as historical record — leave the comment content intact, only fix placement.)
 - **Script contamination**: Translators occasionally leak characters from the wrong script into the target text (e.g. stray Cyrillic in Latin-script Czech/English, or Russian letters in Ukrainian). Search for out-of-script characters and fix. See `content/{lang}/CLAUDE.md` for the script checks relevant to your language.
-- **GEM overcorrections**: GEM sometimes "fixes" correct translations. Verify GEM changes against the French original before accepting.
 
 ### Communication
 
@@ -188,7 +187,7 @@ awk '/^%%/ { n=length($0); idx=0; for(i=1;i<=n-1;i++){ if(substr($0,i,2)=="%%") 
 
 ### Gallicisms, Calques, and False Friends
 
-**This is the #1 category of issues found by cross-model review (Gemini).** Prioritize catching these:
+**This is the #1 category of issues found in review.** Prioritize catching these:
 
 | Category | What to look for | Example |
 |----------|-----------------|---------|

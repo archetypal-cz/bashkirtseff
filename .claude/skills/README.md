@@ -10,9 +10,9 @@ This directory defines the roles that power the Marie Bashkirtseff diary transla
 | **linguistic-annotator** | `/linguistic-annotator` | LAN | Period vocabulary, idioms, Marie's quirks, translation guidance |
 | **translator** | `/translator` | TR | French → target language, three-phase (think/translate/self-review) |
 | **editor** | `/editor` | RED | Quality review — naturalness, accuracy, voice preservation |
-| **gemini-editor** | `/gemini-editor` | GEM | External Gemini review — two-pass (text-only + with-comments) |
 | **opus-editor** | `/opus-editor` | OPS | Opus language expert review — two-pass (naturalness + semantic) |
 | **conductor** | `/conductor` | CON | Final literary quality gate |
+| **fablelous** | `/fablelous` | FAB | Word-level expressiveness polish, post-conductor |
 | **executive-director** | `/executive-director` | ED | Team orchestration, quality evaluation, reporting |
 | **glossary** | `/glossary` | — | Create/maintain glossary entries |
 | **teamcouch** | `/teamcouch` | — | Post-session retrospective, skill evolution |
@@ -47,15 +47,13 @@ Translate prepared originals into target languages.
 
 ```
 Translator (TR)  →  Review  →  Conductor (CON)
-   three-phase        choose one or both:        final literary
-   think/translate/     GEM (Gemini two-pass)       quality gate
-   self-review          OPS (Opus language expert)
-                        RED (editor)
+   three-phase        one or both:               final literary
+   think/translate/     OPS (Opus language expert)   quality gate
+   self-review          RED (editor)
 ```
 
 **Review options** — mix and match based on needs:
-- **GEM** (gemini-editor): Cross-model validation. Catches blind spots. Has file corruption issues (~50% inline comment placement). Cheapest option but needs audit.
-- **OPS** (opus-editor): Same-model language expert. No file corruption. Higher quality analysis. More expensive per entry.
+- **OPS** (opus-editor): Language expert cross-validation. No file corruption. Two-pass (naturalness + semantic).
 - **RED** (editor): Full editorial review with voice/nuance checks. Most thorough but most context-heavy.
 
 ### Glossary Management
@@ -109,14 +107,13 @@ Based on experiments (Feb 2026):
 | Team Size | Configuration | Best For |
 |-----------|--------------|----------|
 | **2 agents** | 2 translators | Quick parallel translation, no review |
-| **2+1 agents** | 2 translators + 1 GEM/OPS reviewer | Translation + quality pass |
+| **2+1 agents** | 2 translators + 1 OPS reviewer | Translation + quality pass |
 | **3+2 agents** | 3 translators + RED + CON | Full pipeline with editorial review |
-| **5 agents** | 3 TR + RED + CON (GEM as subagent) | Proven maximum throughput config |
+| **5 agents** | 3 TR + RED + CON (OPS as subagent) | Proven maximum throughput config |
 
 **Key constraints**:
 - One carnet per agent lifecycle (prevents context exhaustion)
 - Review agents read 2x context (original + translation) — smaller batches
-- Gemini has API rate limits — don't run 3+ GEM agents in parallel
 - Opus reviewers have no rate limits but cost more per token
 
 ### Agent Lifecycle Rules

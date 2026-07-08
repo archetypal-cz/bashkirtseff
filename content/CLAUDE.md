@@ -79,10 +79,12 @@ All annotations use: `%% YYYY-MM-DDThh:mm:ss CODE: Text %%`
 | RSR  | Researcher           | Historical context, entity identification |
 | LAN  | Linguistic Annotator | Translation guidance, idioms              |
 | TR   | Translator           | Translation decisions, alternatives       |
+| OPS  | Opus Editor          | Language expert review notes              |
 | RED  | Editor               | Quality issues, suggestions               |
 | CON  | Conductor            | Final approval notes                      |
-| GEM  | Gemini               | External AI contributions                 |
-| PPX  | Perplexity           | External AI contributions                 |
+| FAB  | Fablelous            | Word-level expressiveness polish          |
+| GEM  | Gemini (retired 2026-07-08) | Legacy review notes in older entries |
+| PPX  | Perplexity (retired) | Legacy notes in older entries             |
 
 ## Glossary Links
 

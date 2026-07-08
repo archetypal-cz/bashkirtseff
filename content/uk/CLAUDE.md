@@ -33,13 +33,13 @@ Marie Bashkirtseff was born in Gavrontsi (Гавронці), near Poltava, Ukrai
 
 **Frontmatter flag**: `translation_complete: true`
 
-### 2. Gemini Review (GEM)
+### 2. Opus Review (OPS)
 
-- External AI review for fresh perspective
+- Language expert cross-validation review
 - Check consistency and naturalness
 - Suggest alternative phrasings
 
-**Frontmatter flag**: `gemini_reviewed: true`
+**Frontmatter flag**: `opus_reviewed: true`
 
 ### 3. Editor Review (RED)
 
@@ -81,9 +81,10 @@ translation_complete: false
 | Code | Role       | Purpose                    |
 | ---- | ---------- | -------------------------- |
 | TR   | Translator | Translation decisions      |
-| GEM  | Gemini     | External AI review notes   |
+| OPS  | Opus Editor | Language expert review notes |
 | RED  | Editor     | Quality notes, suggestions |
 | CON  | Conductor  | Approval, final notes      |
+| GEM  | Gemini (retired 2026-07-08) | Legacy review notes — still in older entries |
 
 ## Style Considerations
 
@@ -133,7 +134,7 @@ Beyond the explicit checklist above, watch for **subtle calques** — technicall
 
 ## Editor / review traps (українська)
 
-Concrete Ukrainian traps for RED, OPS, and GEM to catch (the language-agnostic frame is in the `editor`/`opus-editor`/`gemini-editor` skills; the concrete examples live here). The **Russianisms Checklist** and **Subtle Russianisms** sections above are the primary watch-list — start there.
+Concrete Ukrainian traps for RED and OPS to catch (the language-agnostic frame is in the `editor`/`opus-editor` skills; the concrete examples live here). The **Russianisms Checklist** and **Subtle Russianisms** sections above are the primary watch-list — start there.
 
 | Category | Example |
 |----------|---------|
@@ -147,9 +148,9 @@ Concrete Ukrainian traps for RED, OPS, and GEM to catch (the language-agnostic f
 
 Result must be Ukrainian, not Russian-influenced Ukrainian.
 
-## Gemini review prompts (GEM)
+## Review criteria (OPS / RED)
 
-The `gemini-editor` skill inserts these into the `gemini -y` command (the `{INSERT … PROMPT …}` placeholders).
+Language-specific review checklists for the two review passes (naturalness-only, then semantic against the French). These were originally the external reviewer's prompts; they remain the concrete Ukrainian criteria for the OPS and RED passes.
 
 **Pass 1 — text-only:**
 
@@ -175,9 +176,9 @@ The `gemini-editor` skill inserts these into the `gemini -y` command (the `{INSE
 ```
 Ти досвідчений український редактор і стиліст. Перевір цей український переклад щоденника Марії Башкирцевої (19 століття).
 
-Текст містить коментарі у форматі %% ... %% — вони містять французький оригінал, нотатки перекладача (TR), мовні нотатки (LAN), дослідницькі нотатки (RSR) та попередні виправлення (GEM). Використовуй їх для контексту, але перевіряй ЛИШЕ український переклад (рядки без %%).
+Текст містить коментарі у форматі %% ... %% — вони містять французький оригінал, нотатки перекладача (TR), мовні нотатки (LAN), дослідницькі нотатки (RSR) та попередні виправлення. Використовуй їх для контексту, але перевіряй ЛИШЕ український переклад (рядки без %%).
 
-ВАЖЛИВО: Не зважай на попередні виправлення GEM — оціни кожен уривок незалежно, наче бачиш його вперше.
+ВАЖЛИВО: Не зважай на попередні виправлення — оціни кожен уривок незалежно, наче бачиш його вперше.
 
 ЗВЕРНИ УВАГУ НА:
 1. Смислові зсуви (порівняй український переклад з французьким оригіналом — чи передає він справжній зміст?)

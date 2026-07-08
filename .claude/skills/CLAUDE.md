@@ -33,8 +33,6 @@ skills/
 │   └── SKILL.md                   # Progress tracking & reporting
 ├── workflow-architect/
 │   └── SKILL.md                   # System maintenance
-├── gemini-editor/
-│   └── SKILL.md                   # External Gemini review
 ├── opus-editor/
 │   └── SKILL.md                   # Opus language expert review
 ├── fablelous/
@@ -74,14 +72,13 @@ Get every original French entry properly researched, annotated, and footnoted be
 | Order | Role | Code | Model | Purpose |
 |-------|------|------|-------|---------|
 | 1 | Translator (x3) | TR | Opus | French → target language (3 parallel agents) |
-| 2a | Gemini Editor (optional) | GEM | External | Cross-model review (run from team lead, not teammate) |
-| 2b | Opus Editor (optional) | OPS | Opus | Same-model language expert review (no corruption) |
-| 3 | Editor | RED | Opus | Quality review; cleans up any GEM-introduced artifacts. Reviews in near-real-time when GEM/OPS are skipped |
+| 2 | Opus Editor (optional) | OPS | Opus | Language expert cross-validation review (no corruption) |
+| 3 | Editor | RED | Opus | Quality review; reviews in near-real-time when OPS is skipped |
 | 4 | Conductor | CON | Opus | Final literary approval |
 
-**Order note**: when GEM is used it must run BEFORE (or alongside) RED — RED cleans up GEM-introduced comment splices (see gemini-editor Known Issues). OPS carries no corruption risk. CON is always last.
+**Order note**: OPS (when used) runs before or alongside RED; CON is always last. FAB (fablelous) is an optional word-level polish pass that runs after CON.
 
-**Proven configuration** (Feb 12 runs): 5 persistent agents (3 TR + RED + CON), GEM dispatched as needed. No RSR/LAN needed — source prep complete for all 107 carnets.
+**Proven configuration** (Feb 12 runs): 5 persistent agents (3 TR + RED + CON), OPS dispatched as needed. No RSR/LAN needed — source prep complete for all 107 carnets.
 
 ## Support Roles
 

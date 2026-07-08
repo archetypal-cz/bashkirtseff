@@ -42,10 +42,10 @@ Executive Director (Opus, team lead)
         ├── Linguistic Annotator / LAN (Opus) - Translation guidance notes
         ├── Translator / TR (Opus, usually 3 in parallel) - French → target language
         ├── Editor / RED (Opus) - Quality review
-        └── Gemini Editor / GEM (external, optional) or Opus Editor / OPS (preferred)
+        └── Opus Editor / OPS (Opus, optional cross-validation pass)
 ```
 
-Source preparation (RSR+LAN) is COMPLETE for all 107 carnets (000-106) — the active pipeline is translation (TR → [GEM/OPS optional] → RED → CON; when GEM runs, it runs before RED so RED can clean up GEM artifacts). See `.claude/skills/CLAUDE.md` for the current pipeline tables.
+Source preparation (RSR+LAN) is COMPLETE for all 107 carnets (000-106) — the active pipeline is translation (TR → [OPS optional] → RED → CON, then optional FAB polish after CON). See `.claude/skills/CLAUDE.md` for the current pipeline tables.
 
 ## Key Design Decisions (Context)
 
@@ -82,7 +82,7 @@ Source preparation (RSR+LAN) is COMPLETE for all 107 carnets (000-106) — the a
 - `.claude/pending_changes/` - Drafted improvements awaiting approval (created on demand; may not exist)
 
 ### Skills (Model-Invoked Capabilities)
-All in `.claude/skills/{name}/SKILL.md`. Translation pipeline: `researcher`, `linguistic-annotator`, `translator`, `gemini-editor`, `opus-editor`, `editor`, `conductor`, `executive-director`. Support: `project-status`, `glossary`, `glossary-tagger`, `entry-restructurer`, `teamcouch`, `workflow-architect` (this file). Non-translation: `frontend-dev`, `stewardship`, `listmonk-*`. Shared format spec: `.claude/skills/_shared/paragraph_format.md`. Index: `.claude/skills/CLAUDE.md`.
+All in `.claude/skills/{name}/SKILL.md`. Translation pipeline: `researcher`, `linguistic-annotator`, `translator`, `opus-editor`, `editor`, `conductor`, `fablelous`, `executive-director`. Support: `project-status`, `glossary`, `glossary-tagger`, `entry-restructurer`, `teamcouch`, `workflow-architect` (this file). Non-translation: `frontend-dev`, `stewardship`, `listmonk-*`. Shared format spec: `.claude/skills/_shared/paragraph_format.md`. Index: `.claude/skills/CLAUDE.md`.
 
 ### Agents (Subagent Definitions for Task tool)
 `.claude/agents/`: researcher, linguistic-annotator, translator, editor, conductor, entry-restructurer. **NOTE**: the `conductor` and `editor` subagent types lack Edit access — RED/CON are spawned as `general-purpose` with skill instructions in the prompt (see ED skill).
@@ -232,7 +232,7 @@ just annotate 1882-05-01 015
 
 ## Current System Status
 
-The system is mature and battle-tested: source prep (RSR+LAN) is complete for all 107 carnets (000-106), and the translation pipeline has run dozens of multi-carnet waves across cz/uk/en/fr (see `.claude/reports/`). The Agent Teams configuration (3 TR + RED + CON, GEM/OPS dispatched as needed) is the proven pattern.
+The system is mature and battle-tested: source prep (RSR+LAN) is complete for all 107 carnets (000-106), and the translation pipeline has run dozens of multi-carnet waves across cz/uk/en/fr (see `.claude/reports/`). The Agent Teams configuration (3 TR + RED + CON, OPS dispatched as needed) is the proven pattern.
 
 **Where to find current state — don't trust this file's snapshot, check:**
 - `.claude/reports/WATCHLIST.md` — live issue tracker, gate-gap proposals, escalations to architect

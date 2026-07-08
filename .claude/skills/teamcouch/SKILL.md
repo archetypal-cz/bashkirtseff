@@ -12,7 +12,7 @@ You facilitate post-session retrospectives for the translation pipeline. You rea
 
 > Roles are interfaces. Agents are implementations. Skills define the interface.
 
-Every role (translator, editor, GEM reviewer, conductor) is defined by its skill file. Any agent — Claude, Gemini, a human — can fill the role. Your job is to help the *roles* get better, not to evaluate individual agents.
+Every role (translator, editor, OPS reviewer, conductor) is defined by its skill file. Any agent — or a human — can fill the role. Your job is to help the *roles* get better, not to evaluate individual agents.
 
 You don't make changes based on single incidents. You look for **patterns across 3+ reports** before updating skills. Single incidents go to WATCHLIST as "watch" items.
 
@@ -116,14 +116,13 @@ Change the report's `status` from `final` to `reviewed`.
 - TranslationMemory usage — are translators finding and using established terms?
 - Context exhaustion — are carnets too large for single agents?
 
-### GEM Reviewer
-- Corruption rate — is the inline comment problem getting worse or better?
-- False positive rate — is Gemini "fixing" correct translations?
+### OPS Reviewer
+- False positive rate — is OPS "fixing" correct translations?
 - Severity distribution — all B's suggests translator is strong; A's suggest problems.
-- Rate limit frequency — need to adjust batch sizes?
+- Catch rate — what real issues is the extra pass surfacing?
 
 ### Editor (RED)
-- Catch rate — what does RED find that TR + GEM missed?
+- Catch rate — what does RED find that TR + OPS missed?
 - Fix-vs-flag ratio — is RED fixing directly or just flagging?
 - Consistency — does RED quality vary across carnets?
 

@@ -59,19 +59,19 @@ Marie's enthusiastic tone. %%
 
 **Frontmatter flag**: `translation_complete: true`
 
-### 2. Gemini Review (GEM)
+### 2. Opus Review (OPS)
 
-- Use Gemini skill to send things for fresh perspective and external review and feedback. This is a chance to catch things you might have missed and get suggestions for improvement.
-- Check consistency and natural flow of Czech - the key point of view (and not just for Gemini, but definitely pass it on too) is "if this was said in Czech, would it be the best most natural way to say it to display a Czech version of Marie's layered meanings and implications - while noting that they are there and we need to express them.
+- Use the opus-editor skill for a language expert cross-validation pass. This is a chance to catch things you might have missed and get suggestions for improvement.
+- Check consistency and natural flow of Czech - the key point of view is "if this was said in Czech, would it be the best most natural way to say it to display a Czech version of Marie's layered meanings and implications - while noting that they are there and we need to express them.
 - Suggest alternative phrasings
 
-**Frontmatter flag**: `gemini_reviewed: true`
+**Frontmatter flag**: `opus_reviewed: true`
 
 ### 3. Editor Review (RED)
 
 #### Editor / review traps (čeština)
 
-Konkrétní české pasti, na které se RED, OPS i GEM mají zaměřit (jazykově neutrální rámec je ve skillu `editor`/`opus-editor`/`gemini-editor`, sem patří konkrétní české příklady):
+Konkrétní české pasti, na které se RED i OPS mají zaměřit (jazykově neutrální rámec je ve skillu `editor`/`opus-editor`, sem patří konkrétní české příklady):
 
 | Kategorie | Příklad |
 |-----------|---------|
@@ -87,9 +87,9 @@ Konkrétní české pasti, na které se RED, OPS i GEM mají zaměřit (jazykov�
 
 **Kontaminace písmem**: hledej zatoulané cyrilské znaky v latinkovém českém textu (překladatelé občas prosakují ruská písmena) a oprav je.
 
-#### Gemini review prompts (GEM)
+#### Kritéria revize (OPS / RED)
 
-Tyto prompty vkládá skill `gemini-editor` do příkazu `gemini -y` (placeholdery `{INSERT … PROMPT …}`).
+Jazykově specifické kontrolní seznamy pro dvě revizní fáze (nejprve jen přirozenost, poté sémantika proti francouzštině). Původně to byly prompty externího redaktora; zůstávají konkrétními českými kritérii pro fáze OPS a RED.
 
 **Pass 1 — text-only:**
 
@@ -115,9 +115,9 @@ Pro každý problém urči závažnost:
 ```
 Jsi zkušený český redaktor a stylista. Zkontroluj tento český překlad deníku Marie Bashkirtseffové (19. století).
 
-Text obsahuje inline komentáře ve formátu %% ... %% — ty obsahují francouzský originál, poznámky překladatele (TR), jazykové poznámky (LAN), výzkumné poznámky (RSR) a předchozí opravy (GEM). Využij je pro kontext, ale kontroluj POUZE český překlad (řádky bez %%).
+Text obsahuje inline komentáře ve formátu %% ... %% — ty obsahují francouzský originál, poznámky překladatele (TR), jazykové poznámky (LAN), výzkumné poznámky (RSR) a předchozí opravy. Využij je pro kontext, ale kontroluj POUZE český překlad (řádky bez %%).
 
-DŮLEŽITÉ: Nehleď na předchozí opravy GEM — posuď každou pasáž nezávisle, jako bys ji viděl poprvé.
+DŮLEŽITÉ: Nehleď na předchozí opravy — posuď každou pasáž nezávisle, jako bys ji viděl poprvé.
 
 ZAMĚŘ SE NA:
 1. Významové posuny (porovnej český překlad s francouzským originálem — zachycuje skutečný smysl?)
@@ -174,10 +174,11 @@ Check `TranslationMemory.md` for established translations of:
 | Code | Role            | Purpose                       |
 | ---- | --------------- | ----------------------------- |
 | TR   | Translator      | Translation decisions         |
-| GEM  | Gemini          | External AI review notes      |
+| OPS  | Opus Editor     | Language expert review notes  |
 | RED  | Editor          | Quality notes, suggestions    |
 | CON  | Conductor       | Approval, final notes         |
 | KRR  | People initials | Notes from human colaborators |
+| GEM  | Gemini (retired 2026-07-08) | Legacy review notes — still present in older entries |
 
 ## Progress Tracking
 
