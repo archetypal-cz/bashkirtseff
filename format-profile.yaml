@@ -1,0 +1,23 @@
+# Book profile per docs/FORMAT.md §9 — Bashkirtseff
+spec_version: "1.0"
+original_language: fr
+translation_language: cs
+paragraph_id:
+  pattern: '(\d{3}|GLO_[A-Z_]+|SUM\.\d{3})\.\d{4}'
+  fields: [carnet, sequence]
+  uniqueness: global
+  ordering: per-carnet   # sequence never resets across entries within a carnet
+authors:
+  style: codes
+  vocabulary: [RSR, LAN, TR, OPS, RED, CON, ED, FAB, PA, KRR]
+  retired: [GEM, PPX]
+footnotes:
+  pattern: '\d+|\d{2}\.\d{2}\.\d+'
+  uniqueness: per-file
+scene_break: "---"
+features:
+  version_comments: true
+  glossary_links: true
+  tag_annotations: true
+frontmatter:
+  required: []           # see docs/FRONTMATTER.md for the full schema
