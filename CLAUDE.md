@@ -95,6 +95,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **listmonk-admin**       | `/listmonk-admin`       | Newsletter infrastructure, lists, subscribers  |
 | **teamcouch**            | `/teamcouch`            | Post-session retrospective, skill evolution    |
 | **fablelous**            | `/fablelous`            | Fable word-level polish pass (post-CON)        |
+| **vox**                  | `/vox`                  | Voice of the Reader — opposing artistic review |
 | **report-triage**        | `/report-triage`        | Evaluate & implement user bug reports          |
 
 ## Core Workflow
@@ -144,7 +145,7 @@ All roles use timestamped comments:
 %% YYYY-MM-DDThh:mm:ss ROLE: Comment text %%
 ```
 
-Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), FAB (Fablelous polish). Retired codes still found in older comments: GEM (Gemini review — role removed 2026-07-08), PPX (Perplexity)
+Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), FAB (Fablelous polish), VOX (Voice of the Reader — opposing review). Retired codes still found in older comments: GEM (Gemini review — role removed 2026-07-08), PPX (Perplexity)
 
 ### Paragraph IDs
 

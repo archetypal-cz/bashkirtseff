@@ -37,6 +37,8 @@ skills/
 │   └── SKILL.md                   # Opus language expert review
 ├── fablelous/
 │   └── SKILL.md                   # Fable word-level polish pass (post-CON)
+├── vox/
+│   └── SKILL.md                   # Voice of the Reader — opposing artistic review (Fable)
 ├── teamcouch/
 │   └── SKILL.md                   # Post-session retrospective
 ├── stewardship/
@@ -76,7 +78,7 @@ Get every original French entry properly researched, annotated, and footnoted be
 | 3 | Editor | RED | Opus | Quality review; reviews in near-real-time when OPS is skipped |
 | 4 | Conductor | CON | Opus | Final literary approval |
 
-**Order note**: OPS (when used) runs before or alongside RED; CON is always last. FAB (fablelous) is an optional word-level polish pass that runs after CON.
+**Order note**: OPS (when used) runs before or alongside RED; CON is always last. FAB (fablelous) is an optional word-level polish pass that runs after CON. VOX (vox) is an optional opposing review — an adversarial reader-side counterpart to FAB — that also runs post-CON, on files clean in git.
 
 **Proven configuration** (Feb 12 runs): 5 persistent agents (3 TR + RED + CON), OPS dispatched as needed. No RSR/LAN needed — source prep complete for all 107 carnets.
 
