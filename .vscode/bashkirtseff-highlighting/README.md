@@ -18,7 +18,8 @@ The extension recognizes and styles six types of comments:
 
 ### 3. Timestamped Notes
 - **Pattern:** `%% 2025-12-07T10:20:00 LAN: note content %%`
-- **Roles:** RSR (Researcher), LAN (Linguistic Annotator), TR (Translator), RED (Editor), CON (Conductor), PA (Project Assistant), GEM (Gemini Editor), OPS (Opus Editor), ED (Executive Director), PPX (Perplexity), KRR (human owner)
+- **Roles:** RSR (Researcher), LAN (Linguistic Annotator), TR (Translator), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), FAB (Fablelous polish), VOX (Voice of the Reader — opposing review), FRE (French modern edition), KRR (human owner)
+- **Retired roles** (still highlighted in older comments): GEM (Gemini Editor — removed 2026-07-08), PPX (Perplexity), PA (Project Assistant)
 - **Style:** Green timestamp (#B5CEA8), yellow role (#DCDCAA), orange content (#CE9178)
 - **Use:** Annotated notes with timestamps and roles
 
