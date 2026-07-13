@@ -1,7 +1,8 @@
 # Translation Markdown — Format Specification
 
-**Version 1.0.0-draft** · maintained at `hpamr/docs/FORMAT.md`, mirrored verbatim at
-`bashkirtseff/docs/FORMAT.md` · changelog at the end of this file.
+**Version 1.0.0-draft** · canonical home: [`archetypal-cz/tmd`](https://github.com/archetypal-cz/tmd)
+— this file is a read-only mirror (`bashkirtseff/docs/FORMAT.md`); propose changes there ·
+changelog at the end of this file.
 
 Translation Markdown (TMD) is the bilingual Markdown format used by the Archetypal.cz
 translation projects — **Bashkirtseff** (_Deník Marie Bashkirtseff_, French→Czech) and
@@ -255,6 +256,9 @@ overlays into output.
 
 ## Changelog
 
+- **1.0.0-draft** (2026-07-13) — canonical home moved to `archetypal-cz/tmd`, published
+  alongside the reference implementation (`@archetypal-cz/tmd` on npm); hpamr and
+  bashkirtseff now carry mirrors.
 - **1.0.0-draft** (2026-07-10) — first consolidated spec, built from HPaMR and
   Bashkirtseff practice: normative core + pluggable per-book profiles (paragraph-ID
   scheme, author vocabulary, footnotes, features), deterministic comment
