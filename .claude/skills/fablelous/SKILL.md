@@ -17,7 +17,13 @@ The pass is executed by **specially instructed Fable agents** (model: inherit �
 Invoked as `/fablelous {carnet} {lang...}` (e.g. `/fablelous 000 cz uk`):
 
 1. Spawn one Fable agent per language (in parallel, background), each instructed with the **Agent instructions** below plus the file list.
-2. When agents finish, verify: `%%`-balance intact (no stranded French, no broken comments), `redaction_passes` updated in every file, FAB comments present where text changed.
+2. When agents finish, verify — the **primary gate is the stranded-text scan**, not `%%`-parity (a mid-line splice has an even marker count and passes parity):
+
+   ```bash
+   awk '/%%/ { line=$0; while (match(line, /%%[^%]*(%[^%][^%]*)*%%/)) { line = substr(line,1,RSTART-1) substr(line,RSTART+RLENGTH) }; gsub(/[[:space:]]/,"",line); if (line != "") print FILENAME ":" FNR ": " $0 }' content/{lang}/{carnet}/[0-9]*.md
+   ```
+
+   Must return nothing. Then also check: `%%`-parity intact, no stranded French, `redaction_passes` updated in every file, FAB comments present where text changed, `conductor_approved` flags untouched.
 3. Summarize changes per language for the user. Do NOT auto-commit.
 
 ## Agent instructions
@@ -67,6 +73,8 @@ Considered-but-rejected alternatives worth recording:
 - **ONLY edit** visible translation text (lines without `%%`).
 - **PRESERVE** all `%% … %%` lines: paragraph IDs, glossary tags, French originals, all prior role comments. Never modify or delete them.
 - **NEVER** place FAB comments inline within text — always on their own line.
+- **SPLICE TRAP** (all three agents of the 2026-08-08 wave introduced this — 66 instances total): if your Edit `old_string` matches only the first part of a long text line, the FAB comment lands mid-line and the rest of the paragraph is stranded after the closing marker — the renderer silently drops it, and `%%`-parity does NOT catch it. Prevention: **anchor the FAB comment insertion on the line FOLLOWING the text** (an existing comment line, or the blank line before the next paragraph ID) rather than matching through a 600-character text line. Before finishing, mechanically re-scan every edited line: any line containing a comment must have NO visible text outside the comment markers (run the orchestrator's awk scan if you have shell access).
+- Never type a literal double-percent sequence inside a comment's prose — write "marker" or "wrapper" instead (it breaks the balance gate).
 - **PRESERVE** footnotes and their markers; if you touch a sentence with a footnote marker, keep the marker attached to the right word.
 - Keep target-language punctuation conventions (quotes, dashes, dates) per `content/{lang}/CLAUDE.md`.
 
