@@ -5,8 +5,6 @@ location: Gavronzi
 translation_complete: true
 editor_approved: true
 conductor_approved: true
-redaction_passes:
-  - fablelous 2026-08-08
 ---
 
 %% 066.0167 %%
@@ -21,8 +19,7 @@ redaction_passes:
 %% 2026-02-02T12:20:00 LAN: "produire de l'effet" - to make an impression %%
 %% 2026-02-02T12:20:00 LAN: "vous voient à travers" - see right through you %%
 %% Vous [Mots noircis: irez au] théâtre en marchant sur les pieds de ceux qui y sont avant vous, et échangeant des poignées de main ou plutôt en tendant vos doigts à des amis qui vous parlent du succès de la nouvelle actrice pendant que vous lorgnez les femmes avec votre air le plus impertinent croyant produire de l'effet. Et comme vous vous trompez ! Et comme les femmes vous voient à travers ! %%
-Vy [škrtnutá slova: budete chodit] do divadla, šlapajíce po nohou těm, kdo tam přišli před vámi, a podávajíce ruce — nebo spíše natahujíce prsty — přátelům, kteří vám vyprávějí o úspěchu nové herečky, zatímco si co nejimpertinentněji měříte ženy lorňonem, myslíce si, že děláte dojem. A jak se mýlíte! A jak vás ženy vidí skrz naskrz!
-%% 2026-08-10T09:06:00 FAB: "lorňujete ženy s co nejimpertinentějším výrazem" → "si co nejimpertinentněji měříte ženy lorňonem" — "lorňovat" je vymyšlené sloveso (čeština má lorňon, ne odvozené sloveso); nová vazba zachovává dobovou rekvizitu i pohled shora, který fr. "lorgnez" nese %%
+Vy [škrtnutá slova: budete chodit] do divadla, šlapajíce po nohou těm, kdo tam přišli před vámi, a podávajíce ruce — nebo spíše natahujíce prsty — přátelům, kteří vám vyprávějí o úspěchu nové herečky, zatímco lorňujete ženy s co nejimpertinentějším výrazem, myslíce si, že děláte dojem. A jak se mýlíte! A jak vás ženy vidí skrz naskrz!
 %% 2026-08-08T12:52:00 FAB: doplněno "těm, kdo tam přišli před vámi" (fr. "ceux qui y sont avant vous" v překladu chybělo) a odstraněno zdvojené "přátelům… přátelé" — v originále jsou přátelé jmenováni jednou %%
 
 %% 066.0169 %%
@@ -39,9 +36,8 @@ Ruinujete se, abyste se klaněli pařížským hvězdám, které tam vyhasly a p
 %% 066.0170 %%
 %% [#Theater_theme](../../_original/_glossary/culture/themes/THEATER_THEME.md) %%
 %% Vous rentrez le matin chez vous pour vous coucher, ou plutôt on vous rentre. Et comme alors vous êtes pâles, ridés ! Et comme vous vous faites pitié à vous-mêmes ! Puis, puis., vers trente-cinq ou quarante ans, on s'éprend définitivement d'une danseuse et on l'épouse. Elle vous bat et vous jouez le rôle le plus misérable dans les coulisses pendant qu'elle danse ! %%
-Ráno se vracíte domů spát — nebo spíš vás domů přinesou. A jak jste tehdy bledí a svraštělí! A jak je vám sebe samých líto! A pak, pak… — někdy kolem pětatřiceti či čtyřiceti let — definitivně se zamilujete do tanečnice a oženíte se s ní. Ona vás bije a vy hrajete tu nejubožejší roli v zákulisí, zatímco ona tančí!
-%% 2026-08-08T12:53:30 FAB: "vás odnášejí" → "vás domů přinesou" (fr. "on vous rentre" má cíl, ne odnos); obnoveno Mariino zaváhání "A pak, pak…" (fr. "Puis, puis.") %%
-%% 2026-08-10T09:05:00 FAB: SPLICE OPRAVEN — poslední věta odstavce ("Ona vás bije…") trčela za koncovou značkou předchozího FAB komentáře; vrácena do textu %%
+Ráno se vracíte domů spát — nebo spíš vás domů přinesou. A jak jste tehdy bledí a svraštělí! A jak je vám sebe samých líto! A pak, pak… — někdy kolem pětatřiceti či čtyřiceti let — definitivně se zamilujete do tanečnice a oženíte se s ní.
+%% 2026-08-08T12:53:30 FAB: "vás odnášejí" → "vás domů přinesou" (fr. "on vous rentre" má cíl, ne odnos); obnoveno Mariino zaváhání "A pak, pak…" (fr. "Puis, puis.") %% Ona vás bije a vy hrajete tu nejubožejší roli v zákulisí, zatímco ona tančí!
 
 %% 066.0171 %%
 %% [#Kernberger](../../_original/_glossary/culture/literature/KATHERINE_KERNBERGER.md) %%
@@ -69,6 +65,7 @@ Zde jsem byla přerušena — Gritz a Michel [škrtnutá slova: oba padli na kol
 %% 2025-07-20T03:50:00 RSR: Entry extracted from book 9 raw carnet, lines 1121-1135. %%
 %% — Et peut-être vous marierez-vous dans un mois, dit Pacha avec acharnement. Il n'avait pas dit un mot mais je suivais le jeu de sa physionomie. Un homme étonnant, il fera dans sa vie des choses affreuses et finira mal. il me semble qu'il s'assassinera; il est capable de le faire avec le calme le plus parfait. Ou bien il assassinera. %%
 %% 2026-06-07T10:00:00 TR: Pašovo proroctví — silná předtucha; zachovávám tón %%
-— A možná se oženíte za měsíc, řekl Paša s prudkostí. Celou dobu nepromluvil ani slovo, ale já jsem sledovala hru jeho tváře. Je to podivuhodný člověk — v životě vykoná hrozné věci a špatně skončí. Zdá se mi, že se zastřelí; je toho schopen s nejdokonalejším klidem. Nebo zastřelí jiného.
+— A možná se oženíte za měsíc, řekl Paša zarputile. Celou dobu nepromluvil ani slovo, ale já jsem sledovala hru jeho tváře. Je to podivuhodný člověk — provede v životě hrozné věci a špatně skončí. Zdá se mi, že zavraždí sám sebe; je toho schopen s nejdokonalejším klidem. Anebo zavraždí někoho jiného.
+%% 2026-08-08T12:55:30 FAB: "s prudkostí" → "zarputile" (fr. "acharnement" je urputnost, ne prudkost); "vykoná" → "provede" (vykonat se česky pojí s dobrým dílem); "zastřelí… zastřelí jiného" → "zavraždí sám sebe… zavraždí někoho jiného" — fr. "s'assassinera / assassinera" nikde neurčuje zbraň a právě to zvláštní zvratné „zavraždit sebe" je jádro Mariiny předtuchy %%
 
 %% 2026-06-07T16:30:00 CON: APPROVED - Satirický portrét prostopášníka; 'žena ze společnosti' sjednoceno; Pašovo proroctví. %%
