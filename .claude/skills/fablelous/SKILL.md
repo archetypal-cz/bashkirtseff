@@ -23,6 +23,8 @@ Invoked as `/fablelous {carnet} {lang...}` (e.g. `/fablelous 000 cz uk`):
    awk '/%%/ { line=$0; while (match(line, /%%[^%]*(%[^%][^%]*)*%%/)) { line = substr(line,1,RSTART-1) substr(line,RSTART+RLENGTH) }; gsub(/[[:space:]]/,"",line); if (line != "") print FILENAME ":" FNR ": " $0 }' content/{lang}/{carnet}/[0-9]*.md
    ```
 
+   Known false positives: carnets whose French originals are multi-line `%% … %%` blocks flag every block's opening/closing line (~dozens of noise lines). Disambiguate by comparing per-file flag COUNTS against HEAD (`git show HEAD:file`) — identical counts mean pre-existing format, not damage. A tightened variant that only flags lines with an even marker count plus leftover text (the classic `text %% comment %% rest` signature) lives at `src/scripts/splicescan.awk` (`awk -f src/scripts/splicescan.awk content/{lang}/{carnet}/[0-9]*.md`); it suppresses the multi-line-block noise while still catching real splices, though it misses odd-count splices — on noisy carnets run both and HEAD-compare the stock scan's hits.
+
    Must return nothing. Then also check: `%%`-parity intact, no stranded French, `redaction_passes` updated in every file, FAB comments present where text changed, `conductor_approved` flags untouched.
 3. Summarize changes per language for the user. Do NOT auto-commit.
 
