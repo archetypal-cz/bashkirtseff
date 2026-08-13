@@ -455,6 +455,29 @@ last_updated: 2026-02-03   # Update when making changes
 ---
 ```
 
+### Illustrations (`images:`)
+
+An entry can carry illustrations (paintings, portraits, photographs). They render
+in the entry header on the site — the first one large, the rest in a row beneath:
+
+```yaml
+images:
+  - src: /images/marie/works/un-meeting.jpg   # path under src/frontend/public/
+    caption: "Un meeting (1884), oil on canvas, Musée d'Orsay"
+    credit: "Photo: Google Art Project, public domain"
+    link: https://www.musee-orsay.fr/en/artworks/un-meeting-54   # optional
+    alt: "Six boys in a Paris street, huddled around one holding something"  # optional
+```
+
+Only `src` is required; entries without it are dropped. The caption doubles as
+alt text unless `alt` overrides it — write a real `alt` when the caption is a
+title rather than a description. `credit` carries the rights/source line and
+should name the holding institution or public-domain source.
+
+Images live in the original entry file; translated glossary entries inherit them
+automatically, so only duplicate the block in a translation when the captions
+need translating.
+
 ## Quality Standards
 
 - Every entry MUST have complete frontmatter

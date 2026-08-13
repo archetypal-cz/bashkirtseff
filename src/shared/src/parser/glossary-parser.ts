@@ -4,7 +4,7 @@ import * as path from 'node:path';
 import type { Paragraph } from '../models/paragraph.js';
 import type { Note } from '../models/note.js';
 import type { GlossaryLink } from '../models/glossary.js';
-import type { GlossaryEntryParsed } from '../models/glossary-entry.js';
+import type { GlossaryEntryParsed, GlossaryImage } from '../models/glossary-entry.js';
 import {
   createParagraph,
   createGlossaryEntry,
@@ -63,6 +63,11 @@ export class GlossaryParser {
     if (metadata.transliteration) entry.transliteration = metadata.transliteration as string;
     if (metadata.pronunciation) entry.pronunciation = metadata.pronunciation as string;
     if (metadata.aliases) entry.aliases = metadata.aliases as string[];
+    if (Array.isArray(metadata.images)) {
+      entry.images = (metadata.images as GlossaryImage[]).filter(
+        img => img && typeof img.src === 'string' && img.src.trim() !== ''
+      );
+    }
     entry.metadata = metadata;
 
     const lines = content.split('\n');

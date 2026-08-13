@@ -2,6 +2,29 @@ import type { Paragraph } from './paragraph.js';
 import { isValidGlossaryId, toCapitalAscii } from './glossary.js';
 
 /**
+ * An illustration attached to a glossary entry (frontmatter `images:`).
+ *
+ * `src` is a site-absolute path under the frontend's `public/` (e.g.
+ * `/images/marie/works/un-meeting.jpg`) or an absolute URL.
+ */
+export interface GlossaryImage {
+  /** Image URL / site-absolute path */
+  src: string;
+
+  /** Caption shown under the image; also the default alt text */
+  caption?: string;
+
+  /** Source / rights line shown under the caption */
+  credit?: string;
+
+  /** Alt text override (defaults to the caption) */
+  alt?: string;
+
+  /** Optional URL the image links to (museum page, source scan, …) */
+  link?: string;
+}
+
+/**
  * Represents a parsed glossary entry with paragraph clusters
  */
 export interface GlossaryEntryParsed {
@@ -49,6 +72,9 @@ export interface GlossaryEntryParsed {
 
   /** Alternative names/spellings for the entry */
   aliases?: string[];
+
+  /** Illustrations for the entry (first one renders prominently) */
+  images?: GlossaryImage[];
 }
 
 /**

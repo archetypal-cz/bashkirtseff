@@ -1,0 +1,108 @@
+---
+/**
+ * One illustration on a glossary entry page.
+ *
+ * Fed from the entry's frontmatter `images:` list (see GlossaryImage in
+ * lib/content.ts). The caption doubles as alt text unless `alt` overrides it;
+ * an entry with neither gets the entry name as a last resort, so the image is
+ * never announced as an unnamed graphic.
+ */
+import type { GlossaryImage } from '../../lib/content';
+
+interface Props {
+  image: GlossaryImage;
+  fallbackAlt: string;
+  lead?: boolean;
+}
+
+const { image, fallbackAlt, lead = false } = Astro.props;
+const alt = image.alt || image.caption || fallbackAlt;
+const hasCaption = Boolean(image.caption || image.credit);
+---
+
+<figure class:list={['glossary-figure', lead && 'glossary-figure--lead']}>
+  {image.link ? (
+    <a href={image.link} target="_blank" rel="noopener" class="glossary-figure-link">
+      <img src={image.src} alt={alt} loading="lazy" decoding="async" />
+    </a>
+  ) : (
+    <img src={image.src} alt={alt} loading="lazy" decoding="async" />
+  )}
+
+  {hasCaption && (
+    <figcaption>
+      {image.caption && <span class="glossary-figure-caption">{image.caption}</span>}
+      {image.credit && <span class="glossary-figure-credit">{image.credit}</span>}
+    </figcaption>
+  )}
+</figure>
+
+<style>
+  .glossary-figure {
+    margin: 0;
+  }
+
+  /* Height-capped rather than width-driven: portrait and landscape works then
+     line up with each other instead of one towering over the row, and nothing
+     gets cropped to a uniform box. */
+  .glossary-figure img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 14rem;
+    margin-inline: auto;
+    border-radius: 0.375rem;
+    background: var(--bg-secondary);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+
+  .glossary-figure--lead img {
+    max-height: 26rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .glossary-figure-link {
+    display: block;
+    transition: box-shadow 0.15s, opacity 0.15s;
+  }
+
+  .glossary-figure-link:hover img {
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.22);
+  }
+
+  .glossary-figure figcaption {
+    margin-top: 0.5rem;
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    color: var(--text-muted);
+    text-align: center;
+  }
+
+  .glossary-figure--lead figcaption {
+    font-size: 0.875rem;
+  }
+
+  .glossary-figure-caption {
+    display: block;
+    color: var(--text-secondary);
+  }
+
+  .glossary-figure-credit {
+    display: block;
+    margin-top: 0.125rem;
+    font-size: 0.75rem;
+    opacity: 0.85;
+  }
+
+  /* Dark grounds: soften the drop shadow, which reads as a smudge there. */
+  :global([data-theme='dark']) .glossary-figure img {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--border-color);
+  }
+
+  :global([data-theme='dark']) .glossary-figure--lead img {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+  }
+</style>

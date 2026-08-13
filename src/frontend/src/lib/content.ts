@@ -110,6 +110,25 @@ export interface GlossaryEntry {
   transliteration?: string;    // Latin transliteration
   pronunciation?: string;      // URL to pronunciation (e.g., Google Translate)
   aliases?: string[];          // Alternative names/spellings
+  images?: GlossaryImage[];    // Illustrations (frontmatter `images:`)
+}
+
+/**
+ * An illustration attached to a glossary entry, from frontmatter:
+ *
+ *   images:
+ *     - src: /images/marie/works/un-meeting.jpg
+ *       caption: "Un meeting (1884), oil on canvas, Musée d'Orsay"
+ *       credit: "Photo: Google Art Project, public domain"
+ *
+ * `src` is a site-absolute path under `public/` or an absolute URL.
+ */
+export interface GlossaryImage {
+  src: string;
+  caption?: string;   // Shown under the image; also the default alt text
+  credit?: string;    // Source / rights line under the caption
+  alt?: string;       // Alt text override (defaults to the caption)
+  link?: string;      // Optional URL the image links to (museum page, source scan)
 }
 
 export interface GlossaryParagraph {
@@ -1741,7 +1760,20 @@ export function getGlossaryEntry(id: string, language: string = 'original', link
 export function getGlossaryEntryWithFallback(id: string, language: string): GlossaryEntry | null {
   if (!isOriginalLanguage(language)) {
     const translated = getGlossaryEntry(id, language);
-    if (translated) return translated;
+    if (translated) {
+      // A translated file replaces the original wholesale, so illustrations
+      // declared only in the original would disappear on translated pages.
+      // Inherit them (captions stay in the source language until the
+      // translation declares its own `images:` block, which wins).
+      if (!translated.images) {
+        const original = getGlossaryEntry(id, 'original', language);
+        if (original?.images) {
+          // Copy — parsed entries are cached and must not be mutated.
+          return { ...translated, images: original.images };
+        }
+      }
+      return translated;
+    }
   }
   // Fall back to the original entry file, but keep `language` as the LINK
   // prefix so in-prose cross-references stay in the reader's language
@@ -1864,6 +1896,7 @@ function parseGlossaryEntryFromPath(filePath: string, category: string, language
     transliteration: metadata.transliteration as string | undefined,
     pronunciation: metadata.pronunciation as string | undefined,
     aliases: metadata.aliases as string[] | undefined,
+    images: normalizeGlossaryImages(metadata.images),
   };
 
   // Parse paragraph clusters if present
@@ -1872,6 +1905,45 @@ function parseGlossaryEntryFromPath(filePath: string, category: string, language
   }
 
   return entry;
+}
+
+/**
+ * Normalize the frontmatter `images:` list into GlossaryImage objects.
+ *
+ * Hand-written frontmatter is untrusted here: entries without a usable `src`
+ * are dropped rather than rendering a broken <img>, and a bare string is
+ * accepted as shorthand for `{ src }`.
+ */
+function normalizeGlossaryImages(value: unknown): GlossaryImage[] | undefined {
+  if (!Array.isArray(value)) return undefined;
+
+  const str = (v: unknown): string | undefined => {
+    if (typeof v !== 'string') return undefined;
+    const trimmed = v.trim();
+    return trimmed === '' ? undefined : trimmed;
+  };
+
+  const images: GlossaryImage[] = [];
+  for (const raw of value) {
+    if (typeof raw === 'string') {
+      const src = str(raw);
+      if (src) images.push({ src });
+      continue;
+    }
+    if (!raw || typeof raw !== 'object') continue;
+    const item = raw as Record<string, unknown>;
+    const src = str(item.src);
+    if (!src) continue;
+    images.push({
+      src,
+      caption: str(item.caption),
+      credit: str(item.credit),
+      alt: str(item.alt),
+      link: str(item.link),
+    });
+  }
+
+  return images.length > 0 ? images : undefined;
 }
 
 /**

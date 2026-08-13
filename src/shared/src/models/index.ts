@@ -43,7 +43,7 @@ export {
 } from './book.js';
 
 // Glossary Entry (with paragraph clusters)
-export type { GlossaryEntryParsed } from './glossary-entry.js';
+export type { GlossaryEntryParsed, GlossaryImage } from './glossary-entry.js';
 export {
   createGlossaryEntry,
   getGlossaryParagraphById,

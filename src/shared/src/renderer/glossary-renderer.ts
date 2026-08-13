@@ -75,6 +75,7 @@ export class GlossaryRenderer {
       ...(entry.transliteration && { transliteration: entry.transliteration }),
       ...(entry.pronunciation && { pronunciation: entry.pronunciation }),
       ...(entry.aliases && entry.aliases.length > 0 && { aliases: entry.aliases }),
+      ...(entry.images && entry.images.length > 0 && { images: entry.images }),
     };
 
     // Include any additional metadata

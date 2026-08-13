@@ -1,6 +1,7 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
+import GlossaryFigure from '../../../components/glossary/GlossaryFigure.astro';
 import { getMergedGlossaryEntries, getGlossaryEntryWithFallback, buildGlossaryUsageCounts } from '../../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
@@ -97,6 +98,10 @@ const processedParagraphs = hasParagraphs
 const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
 
 const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
+
+// Illustrations from frontmatter `images:` — first one leads, rest form a row
+const images = entry.images ?? [];
+const [leadImage, ...moreImages] = images;
 ---
 
 <ReadingLayout title={`${entry.name} — ${t('glossary.title')}`} lang={lang.urlPath} sourcePath={entry.category ? `content/_original/_glossary/${entry.category}/${entry.id}.md` : undefined}>
@@ -183,6 +188,19 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
           {t('diary.showInDiary')}
           <span class="glossary-filter-count">{t('diary.mentions', { count: usageCount })}</span>
         </a>
+      )}
+
+      {leadImage && (
+        <div class="glossary-images">
+          <GlossaryFigure image={leadImage} fallbackAlt={entry.name} lead />
+          {moreImages.length > 0 && (
+            <div class="glossary-images-grid">
+              {moreImages.map(image => (
+                <GlossaryFigure image={image} fallbackAlt={entry.name} />
+              ))}
+            </div>
+          )}
+        </div>
       )}
     </header>
 
@@ -317,6 +335,19 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   [data-theme="dark"] .glossary-filter-btn:hover {
     background: var(--color-accent-light, #92400E);
     color: #1a1a1a;
+  }
+
+  .glossary-images {
+    margin-top: 1.75rem;
+  }
+
+  /* Secondary images sit in a row that wraps rather than a fixed column count,
+     so 2 images read as a pair and 5 don't shrink to thumbnails. */
+  .glossary-images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.25rem;
   }
 
   .prose-diary h2 {
