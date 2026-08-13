@@ -44,6 +44,34 @@ function filterIndexIntegration() {
   };
 }
 
+// Stamp public/data/offline-manifest.json with the commit being built, so the
+// PWA can tell readers their offline download is out of date (stores/offline.ts
+// compares the stored commit against this file). Same reason as above: the
+// production image only runs `astro build`, so the deployed stamp used to be
+// whatever a developer last committed and nobody's download was ever flagged
+// stale. Build-only — `astro dev` has nothing to invalidate, and rewriting the
+// hash on every dev start would dirty a committed file. Non-fatal on failure.
+function offlineManifestIntegration() {
+  return {
+    name: 'bashkirtseff:offline-manifest',
+    hooks: {
+      'astro:config:setup': async ({ command, logger }) => {
+        if (command !== 'build') return;
+        try {
+          const { writeOfflineManifest } = await import('./src/lib/offline-manifest-builder.ts');
+          const { manifest, changed, skipped } = writeOfflineManifest();
+          logger.info(
+            `offline-manifest.json: commit ${manifest.commit}, v${manifest.version}` +
+            `${skipped ? ' (no git commit resolved — kept existing)' : changed ? '' : ' (unchanged)'}`
+          );
+        } catch (err) {
+          logger.warn(`offline manifest not regenerated: ${err instanceof Error ? err.message : err}`);
+        }
+      },
+    },
+  };
+}
+
 export default defineConfig({
   // Site URL for canonical links, sitemaps, and proper HTTPS handling
   site: 'https://bashkirtseff.org',
@@ -85,6 +113,7 @@ export default defineConfig({
 
   integrations: [
     filterIndexIntegration(),
+    offlineManifestIntegration(),
     vue({
       appEntrypoint: '/src/vue-app'
     }),
