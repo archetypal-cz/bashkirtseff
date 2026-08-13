@@ -14,6 +14,15 @@ const filterStore = useFilterStore();
 // Store original counts to restore when filter is cleared
 const originalCounts = ref<Map<string, string>>(new Map());
 
+/** Display name for a tag id the category picker doesn't list.
+ *  The picker hides tags mentioned in a single entry, but such a tag can still
+ *  be selected — the "Show in diary" button on a glossary page sets it
+ *  directly — and an unnamed filter reads as a broken one. */
+function fallbackTagName(id: string): string {
+  const base = id === id.toUpperCase() ? id.toLowerCase() : id;
+  return base.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
 /** Active tag names across all categories */
 const activeTagNames = computed<string[]>(() => {
   if (!filterStore.isActive || !filterStore.index) return [];
@@ -21,10 +30,9 @@ const activeTagNames = computed<string[]>(() => {
   for (const [catKey, ids] of Object.entries(filterStore.selectedTags)) {
     if (ids.length === 0) continue;
     const category = filterStore.index.categories.find(c => c.key === catKey);
-    if (!category) continue;
-    const idSet = new Set(ids);
-    for (const tag of category.tags) {
-      if (idSet.has(tag.id)) names.push(tag.name);
+    const byId = new Map((category?.tags ?? []).map(tag => [tag.id, tag.name]));
+    for (const id of ids) {
+      names.push(byId.get(id) ?? fallbackTagName(id));
     }
   }
   return names;
@@ -258,10 +266,9 @@ function getActiveFilterLabels(): string[] {
   for (const [catKey, tagIds] of Object.entries(filterStore.selectedTags)) {
     if (!tagIds || tagIds.length === 0) continue;
     const cat = filterStore.index.categories.find(c => c.key === catKey);
-    if (!cat) continue;
     for (const tagId of tagIds) {
-      const tag = cat.tags.find(t => t.id === tagId);
-      if (tag) labels.push(tag.name);
+      const tag = cat?.tags.find(t => t.id === tagId);
+      labels.push(tag ? tag.name : fallbackTagName(tagId));
     }
   }
   return labels;

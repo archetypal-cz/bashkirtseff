@@ -18,6 +18,32 @@ function getGitCommitHash() {
   }
 }
 
+// Regenerate public/data/filter-index.json from content/ before the build (and
+// before `astro dev` serves it). The production image only runs `astro build`,
+// so without this the deployed filter index is whatever was last committed —
+// glossary tags added since then filter to 0 entries ("Show in diary" bug).
+// Failures are non-fatal: the committed index is still served.
+function filterIndexIntegration() {
+  return {
+    name: 'bashkirtseff:filter-index',
+    hooks: {
+      'astro:config:setup': async ({ logger }) => {
+        try {
+          const { writeFilterIndex } = await import('./src/lib/filter-index-builder.ts');
+          const { index, changed } = writeFilterIndex();
+          logger.info(
+            `filter-index.json: ${index.totalEntries} entries, ` +
+            `${index.categories.reduce((s, c) => s + c.tags.length, 0)} tags` +
+            `${changed ? '' : ' (unchanged)'}`
+          );
+        } catch (err) {
+          logger.warn(`filter index not regenerated: ${err instanceof Error ? err.message : err}`);
+        }
+      },
+    },
+  };
+}
+
 export default defineConfig({
   // Site URL for canonical links, sitemaps, and proper HTTPS handling
   site: 'https://bashkirtseff.org',
@@ -58,6 +84,7 @@ export default defineConfig({
   },
 
   integrations: [
+    filterIndexIntegration(),
     vue({
       appEntrypoint: '/src/vue-app'
     }),

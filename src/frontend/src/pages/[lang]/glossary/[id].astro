@@ -3,6 +3,7 @@ import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import GlossaryFigure from '../../../components/glossary/GlossaryFigure.astro';
 import { getMergedGlossaryEntries, getGlossaryEntryWithFallback, buildGlossaryUsageCounts } from '../../../lib/content';
+import { linkifyParagraphRefs } from '../../../lib/paragraph-refs';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 
@@ -41,9 +42,14 @@ if (!entry) {
 // Usage count and filter category for "Show in diary" button
 const usageCounts = buildGlossaryUsageCounts();
 const usageCount = usageCounts[entry.id] || 0;
-const topCategory = (entry.category || '').split('/')[0];
+// Themes are indexed in their own filter category (entry.th), not under culture,
+// so a culture/themes entry must filter as 'themes' or it matches nothing.
+const category = entry.category || '';
+const topCategory = category.split('/')[0];
 const filterCategoryMap: Record<string, string> = { people: 'people', places: 'places', culture: 'culture' };
-const filterCategory = filterCategoryMap[topCategory] || 'people';
+const filterCategory = category.startsWith('culture/themes')
+  ? 'themes'
+  : filterCategoryMap[topCategory] || 'people';
 
 // Simple markdown to HTML conversion for old format content
 function simpleMarkdownToHtml(markdown: string): string {
@@ -88,14 +94,19 @@ function simpleMarkdownToHtml(markdown: string): string {
 }
 
 // Prepare content for rendering
+// Diary citations in the text ("(099.0239)", "¶ 096.0312") become links into
+// the entry that contains the paragraph — see lib/paragraph-refs.ts.
+const linkifyRefs = (html: string) => linkifyParagraphRefs(html, lang.urlPath, lang.contentPath);
+
 const hasParagraphs = entry.hasParagraphClusters && entry.paragraphs && entry.paragraphs.length > 0;
 const processedParagraphs = hasParagraphs
   ? entry.paragraphs!.map(p => ({
       ...p,
+      html: linkifyRefs(p.html),
       htmlId: `p-${p.id.replace(/\./g, '-')}`,
     }))
   : [];
-const htmlContent = !hasParagraphs ? simpleMarkdownToHtml(entry.content) : '';
+const htmlContent = !hasParagraphs ? linkifyRefs(simpleMarkdownToHtml(entry.content)) : '';
 
 const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 
@@ -348,6 +359,25 @@ const [leadImage, ...moreImages] = images;
     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
     gap: 1.25rem;
     margin-top: 1.25rem;
+  }
+
+  /* Diary paragraph citations, e.g. (099.0239). Quieter than glossary links:
+     they are reference apparatus, and some paragraphs carry a dozen of them. */
+  .prose-diary .para-ref {
+    color: var(--color-accent, #9A4707);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 0.15em;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .prose-diary .para-ref:hover {
+    text-decoration-style: solid;
+  }
+
+  [data-theme="dark"] .prose-diary .para-ref {
+    color: var(--color-accent-light, #92400E);
   }
 
   .prose-diary h2 {
