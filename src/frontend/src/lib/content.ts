@@ -160,7 +160,7 @@ const CARNET_DIR_PATTERN = /^\d{3}$/;
 // Reviewer. An annotation is `%% [TIMESTAMP ]ROLE: …%%`, so we require the role
 // token to sit at the very start of the comment body (optionally after a
 // timestamp), followed by a colon.
-const KNOWN_ROLE_CODES = '(?:RSR|LAN|TR|RED|CON|PA|GEM|PPX|OPS|FRE|REV)';
+const KNOWN_ROLE_CODES = '(?:RSR|LAN|TR|RED|CON|PA|GEM|PPX|OPS|FRE|REV|ED|FAB|VOX|KRR)';
 // Role at start of comment body: `%% RSR: …` (timestamps are filtered separately
 // by the leading-date check, which also covers `%% 2025-…T… RSR: …`).
 const ROLE_ANNOTATION_PATTERN = new RegExp(`^%%\\s*${KNOWN_ROLE_CODES}:`);
@@ -658,6 +658,9 @@ function isCommentLine(line: string): boolean {
   const trimmed = line.trim();
   if (trimmed.startsWith('%%')) return true;
   if (trimmed.startsWith('[^')) return true;
+  // Retired pre-migration comment syntax still present in older carnets
+  // (062, 081, 068, 067, 053, 063, ...): must never render as visible text
+  if (trimmed.startsWith('[//]:')) return true;
   return false;
 }
 
