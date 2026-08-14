@@ -36,6 +36,12 @@ Same pattern for status updates if `just report-status` reports "No report found
 ## Triage loop (one report at a time)
 
 1. **Locate** the paragraph in `content/<lang>/` and `content/_original/`.
+   <!-- Teamcouch update 2026-08-14: fix the class, not the instance.
+        Evidence: 2026-08-13-report-triage-099.md — a single-instance uk/082 fix missed 3 more
+        duplicates in the SAME FILE (caught by RED); two old RED notes (uk/082 08-22, 09-09) and
+        a TR note (en/082 09-03) from earlier waves had each flagged one instance of the same
+        defect and left the rest — three independent half-fixes across waves. -->
+   **Before fixing, sweep for the class.** A reported defect is usually one instance of a family: grep the same file, then the carnet, then (cheaply) the tree for the same pattern — and check the *other language trees and `_original`* at the same paragraph. Fix the whole set you find, or explicitly report what you're deferring. A fix that patches only the reported instance reads as done but isn't — that's how half-fixed files accumulate.
 2. **Evaluate** against the French original. Classify:
    - **Translation quality** (`unnatural`, meaning shifts) → translator fixes, editor verifies
    - **Missing/wrong glossary tags** → researcher (scope tags to the explicitly reported files ONLY — never repo-wide propagation)

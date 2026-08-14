@@ -179,6 +179,11 @@ awk '/^%%/ { n=length($0); idx=0; for(i=1;i<=n-1;i++){ if(substr($0,i,2)=="%%") 
   rest=substr($0,idx+2); if (idx>1 && rest ~ /[^ \t]/) print FILENAME": "FNR }' content/{lang}/{carnet}/*.md
 ```
 
+<!-- Teamcouch update 2026-08-14: gate tooling added after the 2026-08-13 repo-wide cleanup
+     (202 splices + 3,715 leaked block lines, comment dates spanning 8+ waves Feb-Jun 2026).
+     Evidence: 2026-08-13-report-triage-099.md + cz-056-064 + cz-080-082. -->
+Also run the repo gate — it catches every structure family (splices, multi-line blocks, stray markers), not just the awk pattern: `just check-comments {lang}` must come back clean for your tree before you report.
+
 <!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
      Evidence: cz-080-082 (CON comments) + cz-083-092 (a TR comment) — recurring across roles. -->
 **Never type the literal sequence `%%` inside a RED comment** (e.g. "the %% wrapper"). It adds stray markers, makes the file's `%%` count odd, and fails the `%%-balance` gate — write "značky"/"paragraph-ID wrapper" instead.

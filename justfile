@@ -408,6 +408,10 @@ check-frontmatter carnet=default_carnet:
         fi \
     done
 
+# Check %%-comment structure (mid-line splices, multi-line blocks, stray markers) — these drop or leak text at render time. Args: optional tree names (default all)
+check-comments *TREES:
+    python3 src/scripts/check_comment_structure.py {{TREES}}
+
 # Check that relative .md links (glossary tags, cross-refs) resolve in a translation carnet
 check-links lang=default_lang carnet=default_carnet:
     #!/usr/bin/env bash

@@ -78,3 +78,45 @@ rule: naive "delete the later copy" would have made 6 wrong calls).
 - en cimaise footnote is per-file, so non-first-use pages show the italic term unglossed
 - source-side `[//]: #` migration for carnets 053/062/063/067/068/081
 - cz comment-only echoes in 081/082 still encode the overlap artifact (resync hazard)
+
+## Teamcouch Review
+
+**Reviewed**: 2026-08-14
+**Reports analyzed**: this run + WATCHLIST history (cz-056-064, cz-080-082, cz-104-106,
+cz/uk-fluidity 2026-07-02; splice comment dates confirm 8+ distinct waves Feb–Jun 2026)
+
+### Patterns Identified
+- **Comment-splice family recurs despite skill guidance** (8+ waves) — guidance existed in
+  editor/opus-editor/conductor skills since June; the gap was detection, not instruction.
+  → Built the missing gate: `just check-comments` (src/scripts/check_comment_structure.py),
+  wired into the editor skill's mandatory end-of-review pass.
+- **Single-instance fixes of class defects** (3 independent half-fixes across waves: old RED
+  notes uk/082 08-22 + 09-09, old TR note en/082 09-03; plus this run's own uk/082 first fix)
+  → report-triage skill: new "fix the class, not the instance" step in the triage loop.
+- **Idle-without-report** (3× this run) → WATCHLIST watch item.
+- **Sweep residue outside literal spec** (3× this run, one shared root: the fixing net ≠
+  verification net) → WATCHLIST watch item; countermeasure (re-scan with a different net) proven.
+
+### Gate shakedown findings (fixed during review)
+Running the new gate exposed one more pre-existing family: bare source-French lines with only
+a trailing `%%` — 50 in cz/uk/en (leaking French into translation pages; repaired per-line),
+~1,700 in fr/_original (render-benign there; gate-excluded, WATCHLISTed), 8 mangled
+`%% %% RSR: ENHANCED CONTEXT` blocks in fr/003-004 that displayed entire English research
+essays on public fr pages (collapsed to inert single-line comments, French text re-anchored),
+2 junk `%% %%` lines in cz/016.
+
+### Skill Updates Applied
+- editor: end-of-review pass now requires a clean `just check-comments {lang}` (evidence: 3+ waves)
+- report-triage: class-sweep step before marking fixed (evidence: 3 independent half-fixes)
+
+### WATCHLIST Changes
+- Updated: mid-paragraph splice item (remediated + gated; resolve after 3 clean waves)
+- Added: stray-marker legacy family (fr/_original, gate-excluded); idle-without-report (watch);
+  sweep-residue (watch)
+
+### Recommendations for Human
+- fr/_original stray-marker normalization (~1,700 lines) is safe to defer; the gate keeps
+  translation trees clean meanwhile
+- Consider `just check-comments` in CI/pre-push once the fr/_original baseline is normalized
+
+**Status**: reviewed
