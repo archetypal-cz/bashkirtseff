@@ -36,8 +36,8 @@ conductor_approved: false
 %% [#Nice](../../_original/_glossary/places/cities/NICE.md) %%
 %% Samedi 11 janvier 1873. Il fait un temps superbe... %%
 Sobota 11. ledna 1873. Je nádherné počasí...
-%% 2025-12-08T10:00:00 TR: Used "nádherné" for "superbe" to match
-Marie's enthusiastic tone. %%
+%% 2025-12-08T10:00:00 TR: Used "nádherné" for "superbe" to match %%
+%% Marie's enthusiastic tone. %%
 ```
 
 **Key points:**

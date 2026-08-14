@@ -42,8 +42,8 @@ conductor_approved: false
 %% [#Nice](../../_original/_glossary/places/cities/NICE.md) %%
 %% Samedi 11 janvier 1873. Il fait un temps superbe... %%
 Saturday, 11 January 1873. The weather is superb...
-%% 2026-02-13T12:00:00 TR: "superbe" — kept cognate "superb" as it
-matches Marie's enthusiastic register. %%
+%% 2026-02-13T12:00:00 TR: "superbe" — kept cognate "superb" as it %%
+%% matches Marie's enthusiastic register. %%
 ```
 
 **Key points:**

@@ -56,10 +56,10 @@ _original/
 %% 001.0015 %%
 %% [#Paul_de_Cassagnac](../_glossary/people/politicians/PAUL_DE_CASSAGNAC.md) %%
 Je lis les articles de M. de Cassagnac dans Le Pays...
-%% 2025-12-07T16:00:00 RSR: Paul de Cassagnac (1842-1904), Bonapartist
-journalist and politician. Marie follows his political articles closely. %%
-%% 2025-12-07T17:00:00 LAN: "Le Pays" - Bonapartist newspaper, keep as
-"Le Pays" with footnote on first occurrence. %%
+%% 2025-12-07T16:00:00 RSR: Paul de Cassagnac (1842-1904), Bonapartist %%
+%% journalist and politician. Marie follows his political articles closely. %%
+%% 2025-12-07T17:00:00 LAN: "Le Pays" - Bonapartist newspaper, keep as %%
+%% "Le Pays" with footnote on first occurrence. %%
 ```
 
 ## Glossary Linking
