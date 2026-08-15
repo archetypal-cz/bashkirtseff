@@ -25,6 +25,8 @@ flags:
   has_continuation: false
 para_start: 1
 para_end: 8
+redaction_passes:
+  - fablelous 2026-08-15
 ---
 
 %% 067.0001 %%
