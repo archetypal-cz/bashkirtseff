@@ -22,19 +22,70 @@ import {
   calculateMarieAge,
 } from '../shared/src/parser/frontmatter.js';
 import { getEntryStatistics } from '../shared/src/utils/statistics.js';
+import { writeFileAtomic } from './lib/atomic-write.js';
+import { normalizeCarnet } from './lib/carnet.js';
 
 const parser = new ParagraphParser();
 const CONTENT_DIR = path.resolve('content');
 
 // ── CLI args ────────────────────────────────────────────────────────
 
+const USAGE = `Update calculated frontmatter fields (metrics, age) for diary entries.
+
+Usage:
+  npx tsx src/scripts/update-frontmatter.ts [--lang <code>] [--dry-run] [carnet]
+
+Arguments:
+  carnet        Carnet ID, 1-3 digits (e.g., 001, 63, 106). Omit for all carnets.
+
+Options:
+  --lang <code> Update a translation tree instead of content/_original
+  --dry-run     Preview changes without writing files
+  -h, --help    Show this help message`;
+
 const args = process.argv.slice(2);
-const dryRun = args.includes('--dry-run');
-const langIdx = args.indexOf('--lang');
-const lang = langIdx >= 0 ? args[langIdx + 1] : null;
-const specificCarnet = args.find(
-  (a) => !a.startsWith('--') && (langIdx < 0 || args.indexOf(a) !== langIdx + 1)
-);
+
+if (args.includes('--help') || args.includes('-h')) {
+  console.log(USAGE);
+  process.exit(0);
+}
+
+let dryRun = false;
+let lang: string | null = null;
+const positional: string[] = [];
+
+for (let i = 0; i < args.length; i++) {
+  const arg = args[i];
+  if (arg === '--dry-run') {
+    dryRun = true;
+  } else if (arg === '--lang') {
+    lang = args[++i] ?? null;
+    if (!lang) {
+      console.error('--lang requires a language code');
+      process.exit(2);
+    }
+  } else if (arg.startsWith('-')) {
+    console.error(`Unknown option: ${arg}\n\n${USAGE}`);
+    process.exit(2);
+  } else {
+    positional.push(arg);
+  }
+}
+
+if (positional.length > 1) {
+  console.error(`Unexpected extra argument(s): ${positional.slice(1).join(' ')}\n\n${USAGE}`);
+  process.exit(2);
+}
+
+let specificCarnet: string | undefined;
+if (positional.length === 1) {
+  try {
+    specificCarnet = normalizeCarnet(positional[0]);
+  } catch (err) {
+    console.error(err instanceof Error ? err.message : String(err));
+    process.exit(2);
+  }
+}
 
 // Determine base directory
 const baseDir = lang ? path.join(CONTENT_DIR, lang) : path.join(CONTENT_DIR, '_original');
@@ -115,7 +166,7 @@ function updateEntryFrontmatter(
       // Rebuild file with updated frontmatter
       const frontmatterStr = createFrontmatter(metadata);
       const newContent = frontmatterStr + content;
-      fs.writeFileSync(filePath, newContent, 'utf-8');
+      writeFileAtomic(filePath, newContent);
     }
 
     return { file: path.basename(filePath), changed: true, metrics };

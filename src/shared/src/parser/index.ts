@@ -14,6 +14,10 @@ export {
   DATE_FILENAME_PATTERN,
   SECTION_PATTERN,
   PARAGRAPH_ID_CONTENT_PATTERN,
+  PARAGRAPH_ID_PARTS_PATTERN,
+  LEGACY_PARAGRAPH_ID_PATTERN,
+  VERSION_CONTENT_PATTERN,
+  FOOTNOTE_CONTINUATION_PATTERN,
   SUMMARY_PARA_ID_PATTERN,
   HIGHLIGHT_PATTERN,
   ITALIC_STAR_PATTERN,
@@ -26,6 +30,10 @@ export {
   isTimestampedNote,
   hasGlossaryLinks,
 } from './patterns.js';
+
+// Comment scanner
+export type { CommentSegment, ScannedLine, CommentScanResult } from './comment-scanner.js';
+export { scanComments } from './comment-scanner.js';
 
 // Frontmatter
 export type {

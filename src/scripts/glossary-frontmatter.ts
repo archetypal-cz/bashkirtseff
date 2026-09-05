@@ -18,6 +18,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import YAML from 'yaml';
+import { writeFileAtomic } from './lib/atomic-write.js';
 
 const GLOSSARY_DIR = path.resolve('content/_original/_glossary');
 const SKIP_FILES = new Set(['CLAUDE.md', 'README.md']);
@@ -43,6 +44,8 @@ interface GlossaryFile {
   hasFrontmatter: boolean;
   metadata: GlossaryFrontmatter;
   body: string;
+  /** Set when the YAML frontmatter could not be parsed; metadata is then unusable. */
+  parseError: string | null;
 }
 
 // ── File Discovery ───────────────────────────────────────────────────
@@ -75,6 +78,7 @@ function parseGlossaryFile(filePath: string): GlossaryFile {
   let hasFrontmatter = false;
   let metadata: GlossaryFrontmatter = { id: filename, name: filename };
   let body = content;
+  let parseError: string | null = null;
 
   if (content.startsWith('---\n')) {
     const endIndex = content.indexOf('\n---\n', 4);
@@ -84,8 +88,9 @@ function parseGlossaryFile(filePath: string): GlossaryFile {
       try {
         const parsed = YAML.parse(fmStr) ?? {};
         metadata = { id: filename, name: filename, ...parsed };
-      } catch {
-        // Keep defaults on parse error
+      } catch (e) {
+        // Writing the defaults back would erase whatever the file actually holds
+        parseError = String(e);
       }
       body = content.substring(endIndex + 5);
     }
@@ -103,7 +108,28 @@ function parseGlossaryFile(filePath: string): GlossaryFile {
   metadata.id = metadata.id || filename;
   metadata.category = metadata.category || category;
 
-  return { filePath, relativePath, id: filename, category, hasFrontmatter, metadata, body };
+  return { filePath, relativePath, id: filename, category, hasFrontmatter, metadata, body, parseError };
+}
+
+/**
+ * Report an unparsable entry and remember that the run failed.
+ * Returns true when the caller should skip the file.
+ */
+function skipUnparsable(file: GlossaryFile): boolean {
+  if (!file.parseError) return false;
+  console.error(`SKIP ${file.relativePath}: unparsable frontmatter — ${file.parseError}`);
+  process.exitCode = 1;
+  return true;
+}
+
+/** Entry type implied by the category, per content/_original/_glossary/_categories.yaml. */
+function typeForCategory(category: string): string {
+  if (category.startsWith('culture/languages')) return 'Language';
+  if (category.startsWith('people')) return 'Person';
+  if (category.startsWith('places')) return 'Place';
+  if (category.startsWith('culture')) return 'Culture';
+  if (category.startsWith('society')) return 'Society';
+  return 'Unknown';
 }
 
 // ── Frontmatter Writing ─────────────────────────────────────────────
@@ -134,7 +160,7 @@ function createGlossaryFrontmatter(metadata: GlossaryFrontmatter): string {
 
 function writeGlossaryFile(file: GlossaryFile): void {
   const fm = createGlossaryFrontmatter(file.metadata);
-  fs.writeFileSync(file.filePath, fm + file.body, 'utf-8');
+  writeFileAtomic(file.filePath, fm + file.body);
 }
 
 // ── Alias Derivation ────────────────────────────────────────────────
@@ -255,6 +281,7 @@ function cmdEnsure(dryRun: boolean): void {
 
   for (const filePath of files) {
     const file = parseGlossaryFile(filePath);
+    if (skipUnparsable(file)) continue;
 
     if (file.hasFrontmatter) {
       skipped++;
@@ -263,15 +290,7 @@ function cmdEnsure(dryRun: boolean): void {
 
     added++;
 
-    // Determine type from category
-    let type = 'Unknown';
-    if (file.category.startsWith('people')) type = 'Person';
-    else if (file.category.startsWith('places')) type = 'Place';
-    else if (file.category.startsWith('culture')) type = 'Culture';
-    else if (file.category.startsWith('society')) type = 'Society';
-    else if (file.category.startsWith('languages')) type = 'Language';
-
-    file.metadata.type = file.metadata.type || type;
+    file.metadata.type = file.metadata.type || typeForCategory(file.category);
     file.metadata.category = file.category;
     file.metadata.research_status = file.metadata.research_status || 'Basic';
     file.metadata.last_updated = file.metadata.last_updated || new Date().toISOString().split('T')[0];
@@ -297,6 +316,7 @@ function cmdAliases(dryRun: boolean, filterCategory?: string): void {
 
   for (const filePath of files) {
     const file = parseGlossaryFile(filePath);
+    if (skipUnparsable(file)) continue;
 
     if (filterCategory && !file.category.startsWith(filterCategory)) {
       continue;
@@ -316,12 +336,7 @@ function cmdAliases(dryRun: boolean, filterCategory?: string): void {
 
     // Ensure frontmatter exists
     if (!file.hasFrontmatter) {
-      let type = 'Unknown';
-      if (file.category.startsWith('people')) type = 'Person';
-      else if (file.category.startsWith('places')) type = 'Place';
-      else if (file.category.startsWith('culture')) type = 'Culture';
-      else if (file.category.startsWith('society')) type = 'Society';
-      file.metadata.type = file.metadata.type || type;
+      file.metadata.type = file.metadata.type || typeForCategory(file.category);
       file.metadata.research_status = file.metadata.research_status || 'Basic';
       file.metadata.last_updated = new Date().toISOString().split('T')[0];
     }
@@ -349,6 +364,7 @@ function cmdSet(idOrPath: string, field: string, value: string): void {
   }
 
   const parsed = parseGlossaryFile(file);
+  if (skipUnparsable(parsed)) process.exit(1);
 
   // Parse value — try JSON first (for arrays/objects), then string
   let parsedValue: unknown;
@@ -363,11 +379,7 @@ function cmdSet(idOrPath: string, field: string, value: string): void {
 
   // Ensure frontmatter basics if adding to entry without FM
   if (!parsed.hasFrontmatter) {
-    let type = 'Unknown';
-    if (parsed.category.startsWith('people')) type = 'Person';
-    else if (parsed.category.startsWith('places')) type = 'Place';
-    else if (parsed.category.startsWith('culture')) type = 'Culture';
-    parsed.metadata.type = parsed.metadata.type || type;
+    parsed.metadata.type = parsed.metadata.type || typeForCategory(parsed.category);
     parsed.metadata.research_status = parsed.metadata.research_status || 'Basic';
     parsed.metadata.last_updated = new Date().toISOString().split('T')[0];
   }
@@ -384,6 +396,7 @@ function cmdGet(idOrPath: string): void {
   }
 
   const parsed = parseGlossaryFile(file);
+  if (skipUnparsable(parsed)) process.exit(1);
   console.log(`File: ${parsed.relativePath}`);
   console.log(`Has frontmatter: ${parsed.hasFrontmatter}`);
   console.log('---');
@@ -409,6 +422,7 @@ function cmdQuery(args: string[]): void {
 
   for (const filePath of files) {
     const file = parseGlossaryFile(filePath);
+    if (skipUnparsable(file)) continue;
 
     // Filter by category
     if (category && !file.category.startsWith(category)) continue;
@@ -463,6 +477,7 @@ function cmdAddAlias(idOrPath: string, alias: string): void {
   }
 
   const parsed = parseGlossaryFile(file);
+  if (skipUnparsable(parsed)) process.exit(1);
   const aliases = parsed.metadata.aliases || [];
 
   if (aliases.includes(alias)) {
@@ -475,11 +490,7 @@ function cmdAddAlias(idOrPath: string, alias: string): void {
 
   // Ensure frontmatter basics
   if (!parsed.hasFrontmatter) {
-    let type = 'Unknown';
-    if (parsed.category.startsWith('people')) type = 'Person';
-    else if (parsed.category.startsWith('places')) type = 'Place';
-    else if (parsed.category.startsWith('culture')) type = 'Culture';
-    parsed.metadata.type = parsed.metadata.type || type;
+    parsed.metadata.type = parsed.metadata.type || typeForCategory(parsed.category);
     parsed.metadata.research_status = parsed.metadata.research_status || 'Basic';
     parsed.metadata.last_updated = new Date().toISOString().split('T')[0];
   }
@@ -497,6 +508,7 @@ function cmdRemoveAlias(idOrPath: string, alias: string): void {
   }
 
   const parsed = parseGlossaryFile(file);
+  if (skipUnparsable(parsed)) process.exit(1);
   const aliases = parsed.metadata.aliases || [];
 
   const idx = aliases.indexOf(alias);
@@ -527,6 +539,7 @@ function cmdStats(): void {
 
   for (const filePath of files) {
     const file = parseGlossaryFile(filePath);
+    if (skipUnparsable(file)) continue;
     const topCat = file.category.split('/')[0];
 
     if (!byCategory.has(topCat)) {

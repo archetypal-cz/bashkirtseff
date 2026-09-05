@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """
 Fix lines where a %% comment %% is followed by text on the same line.
 
@@ -15,15 +19,49 @@ It also handles the case where text is followed by a trailing %% comment %%
 (splitting into three lines: comment, text, comment).
 """
 
+import argparse
 import re
-import sys
 from pathlib import Path
+
+from _fileio import read_text, write_text_atomic
+
+CONTENT = Path(__file__).resolve().parents[2] / 'content'
+TREES = ('en', 'cz', 'fr', 'uk')
+# A role comment continuing after a closing %%: `2026-01-29T09:13:00 LAN: ...` or `LAN: ...`.
+# In fr these follow a promoted source block on the same line and are NOT diary text.
+RE_ROLE_HEADER = re.compile(r'^(?:\d{4}-\d{2}-\d{2}(?:T[\d:]+)?\s+)?[A-Z]{2,5}:\s')
 
 # Pattern to find lines that start with %% and have text after a closing %%
 # We need to be careful:
 # - Lines that are JUST %% comment %% should be left alone
 # - Lines that are glossary links %% [#...] %% should be left alone
 # - We want lines where after the closing %% there's actual text
+
+def _marker_positions(stripped: str) -> list[int]:
+    """Indices of every `%%` marker in the line, left to right, non-overlapping."""
+    positions = []
+    idx = 0
+    while idx < len(stripped):
+        pos = stripped.find('%%', idx)
+        if pos == -1:
+            break
+        positions.append(pos)
+        idx = pos + 2
+    return positions
+
+
+def _closes_with_role_comment(stripped: str, positions: list[int]) -> bool:
+    """True if the line's LAST `%% ... %%` pair is itself a role comment.
+
+    That is the signature of a genuine splice (`%% LAN: x %% prose %% RSR: y %%`):
+    real diary text sits between two role comments. A role comment that merely QUOTES
+    markers in its prose (`... removed a redundant `%% 229 %%` comment line ... %%`)
+    ends on a fragment of its own sentence instead, so it is left intact.
+    """
+    if len(positions) < 4 or positions[-1] + 2 < len(stripped):
+        return False
+    return bool(RE_ROLE_HEADER.match(stripped[positions[-2] + 2:positions[-1]].strip()))
+
 
 def find_split_point(line: str) -> tuple[str, str, str] | None:
     """
@@ -43,22 +81,22 @@ def find_split_point(line: str) -> tuple[str, str, str] | None:
     if not stripped.startswith('%%'):
         return None
 
+    positions = _marker_positions(stripped)
+
+    # A role comment whose prose QUOTES literal markers is ONE comment; splitting on an
+    # inner marker would tear it in half. Two shapes occur in content: an odd %% count
+    # ("...text stranded after the closing %%. Rejoined. %%"), and an even count from a
+    # quoted PAIR ("...removed a redundant `%% 229 %%` comment line... %%"). Both are
+    # suppressed, but only for a line that opens with a role header and closes on the
+    # same line — and only when its last %% pair is not itself a role comment, so a
+    # genuine splice (`%% LAN: x %% prose %% RSR: y %%`) is still caught below.
+    if stripped.endswith('%%') and RE_ROLE_HEADER.match(stripped[2:].lstrip()):
+        if (stripped.count('%%') % 2 == 1
+                or not _closes_with_role_comment(stripped, positions)):
+            return None
+
     # If it ends with %% and the whole thing is just a comment, skip it
     # We need to check if there's text BETWEEN comment blocks
-
-    # Strategy: find all %% positions
-    # A comment is %% ... %% where the content doesn't contain %%
-    # But actually, comments CAN'T contain %% since %% is the delimiter
-
-    # Find all %% occurrences
-    positions = []
-    idx = 0
-    while idx < len(stripped):
-        pos = stripped.find('%%', idx)
-        if pos == -1:
-            break
-        positions.append(pos)
-        idx = pos + 2
 
     # We need at least 2 %% markers (one open, one close) for the leading comment
     if len(positions) < 2:
@@ -85,9 +123,16 @@ def find_split_point(line: str) -> tuple[str, str, str] | None:
     if after_stripped.startswith('[#'):
         return None
 
-    # The text immediately after %% (after whitespace) must start with a letter
-    # This distinguishes diary text from timestamps (which start with digits)
-    if not re.match(r'[A-Za-zÀ-ž]', after_stripped):
+    # The text immediately after %% must start with a real character (Latin or
+    # Cyrillic letter, digit, quote, emphasis marker, ...), not another marker, and
+    # must not be a role comment that simply continues past the closing %%.
+    if not re.match(r'[^\s%]', after_stripped):
+        return None
+    # Only the segment immediately following the first closing %% is examined: in fr
+    # these carry a role comment that continues past a promoted source block and are
+    # not diary text. Text beyond the NEXT %% belongs to another comment, so it must
+    # not veto the split (`%% LAN: x %% prose %% RSR: y %%` is a real splice).
+    if RE_ROLE_HEADER.match(after_stripped.split('%%', 1)[0].strip()):
         return None
 
     # We have text after the closing %%
@@ -127,16 +172,16 @@ def find_split_point(line: str) -> tuple[str, str, str] | None:
     if not middle_text.strip():
         return None
 
-    # Verify the middle text has actual word characters (not just whitespace/punctuation)
-    if not re.search(r'[A-Za-zÀ-ž]', middle_text):
+    # Verify the middle text carries real content, not just whitespace and markers
+    if not re.search(r'[^\s%]', middle_text):
         return None
 
     return (leading_comment, middle_text.strip(), trailing_comment.strip())
 
 
-def process_file(filepath: Path, dry_run: bool = False) -> int:
+def process_file(filepath: Path, apply: bool = False) -> int:
     """Process a single file. Returns number of lines fixed."""
-    content = filepath.read_text(encoding='utf-8')
+    content, newline = read_text(filepath)
     lines = content.split('\n')
     new_lines = []
     fixes = 0
@@ -150,7 +195,7 @@ def process_file(filepath: Path, dry_run: bool = False) -> int:
         leading, text, trailing = result
         fixes += 1
 
-        if dry_run:
+        if not apply:
             print(f"  Line {i+1}: WOULD SPLIT")
             print(f"    BEFORE: {line[:120]}{'...' if len(line) > 120 else ''}")
             print(f"    AFTER:")
@@ -165,31 +210,23 @@ def process_file(filepath: Path, dry_run: bool = False) -> int:
         if trailing:
             new_lines.append(trailing)
 
-    if fixes > 0 and not dry_run:
-        filepath.write_text('\n'.join(new_lines), encoding='utf-8')
+    if fixes > 0 and apply:
+        write_text_atomic(filepath, '\n'.join(new_lines), newline)
 
     return fixes
 
 
 def main():
-    dry_run = '--dry-run' in sys.argv
-    single_file = None
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument('file', nargs='?', help='single file to process (default: all trees)')
+    ap.add_argument('--apply', action='store_true', help='write changes (default: dry-run)')
+    args = ap.parse_args()
 
-    for arg in sys.argv[1:]:
-        if arg != '--dry-run' and not arg.startswith('-'):
-            single_file = arg
-
-    content_dir = Path('/home/krr/bashkirtseff/content')
-
-    if single_file:
-        files = [Path(single_file).resolve()]
+    if args.file:
+        files = [Path(args.file).resolve()]
     else:
-        # Process en/, cz/, fr/ directories
-        files = sorted(
-            list(content_dir.glob('en/**/*.md')) +
-            list(content_dir.glob('cz/**/*.md')) +
-            list(content_dir.glob('fr/**/*.md'))
-        )
+        files = sorted(f for tree in TREES for f in CONTENT.glob(f'{tree}/**/*.md'))
 
     total_fixes = 0
     fixed_files = 0
@@ -199,14 +236,16 @@ def main():
         if filepath.name in ('CLAUDE.md', 'README.md', 'PROGRESS.md', 'TranslationMemory.md'):
             continue
 
-        fixes = process_file(filepath, dry_run=dry_run)
+        fixes = process_file(filepath, apply=args.apply)
         if fixes > 0:
             total_fixes += fixes
             fixed_files += 1
-            action = "Would fix" if dry_run else "Fixed"
-            print(f"{action} {fixes} line(s) in {filepath.relative_to(content_dir)}")
+            action = "Fixed" if args.apply else "Would fix"
+            rel = filepath.relative_to(CONTENT) if filepath.is_relative_to(CONTENT) else filepath
+            print(f"{action} {fixes} line(s) in {rel}")
 
-    print(f"\n{'Would fix' if dry_run else 'Fixed'} {total_fixes} lines across {fixed_files} files")
+    print(f"\n{'Fixed' if args.apply else 'Would fix'} {total_fixes} lines "
+          f"across {fixed_files} files")
 
 
 if __name__ == '__main__':

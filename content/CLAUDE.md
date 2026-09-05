@@ -109,13 +109,13 @@ See `/docs/INFRASTRUCTURE.md` for full progress tracking documentation.
 ### To research an entry
 
 ```bash
-just research 1873-01-11    # Or use /researcher skill
+just research 1873-01-11 001    # Or use /researcher skill
 ```
 
 ### To translate an entry
 
 ```bash
-just translate 1873-01-11 cz    # Or use /translator skill
+just translate 1873-01-11 001 cz    # Or use /translator skill
 ```
 
 ### To check progress

@@ -19,6 +19,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
+import { normalizeCarnet } from './lib/carnet.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -34,16 +35,24 @@ interface Finding {
 const args = process.argv.slice(2);
 const flags = new Set(args.filter((a) => a.startsWith('--')));
 const positional = args.filter((a) => !a.startsWith('--'));
-const [lang, carnet] = positional;
+const [lang, rawCarnet] = positional;
 const STRICT = flags.has('--strict');
 const QUIET = flags.has('--quiet');
 
 const KNOWN_FLAGS = new Set(['--strict', '--quiet']);
 const unknownFlags = [...flags].filter((f) => !KNOWN_FLAGS.has(f));
-if (!lang || !carnet || unknownFlags.length > 0 || positional.length > 2) {
+if (!lang || !rawCarnet || unknownFlags.length > 0 || positional.length > 2) {
   const bad = [...unknownFlags, ...positional.slice(2)];
   if (bad.length) console.error(`Unknown/extra argument(s): ${bad.join(' ')}`);
   console.error('Usage: verify-carnet <lang> <carnet> [--strict] [--quiet]');
+  process.exit(2);
+}
+
+let carnet: string;
+try {
+  carnet = normalizeCarnet(rawCarnet);
+} catch (err) {
+  console.error(err instanceof Error ? err.message : String(err));
   process.exit(2);
 }
 
@@ -61,10 +70,12 @@ const checkScripts = CYRILLIC_LANGS.has(lang);
 const findings: Finding[] = [];
 const add = (f: Finding) => findings.push(f);
 
-const entryFiles = fs
-  .readdirSync(dir)
-  .filter((f) => f.endsWith('.md') && !f.startsWith('.') && f !== 'README.md' && f !== 'PROGRESS.md' && f !== '_summary.md')
-  .sort();
+const isEntryFile = (f: string) =>
+  f.endsWith('.md') && !f.startsWith('.') && f !== 'README.md' && f !== 'PROGRESS.md' && !f.startsWith('_summary');
+
+const entryFiles = fs.readdirSync(dir).filter(isEntryFile).sort();
+
+const sourceDir = path.join(projectRoot, 'content', '_original', carnet);
 
 // An empty carnet must not silently PASS — there is nothing to verify.
 if (entryFiles.length === 0) {
@@ -83,6 +94,20 @@ function splitFrontmatter(text: string): { fm: string | null; bodyStartLine: num
     }
   }
   return { fm: null, bodyStartLine: 0 }; // unterminated frontmatter
+}
+
+// A structural paragraph marker is the ID alone on its own line — the same shape
+// the frontend parser recognises. A mid-line ID is invisible here, exactly as it is
+// at build time, and therefore surfaces as a missing ID in the alignment check.
+const ID_LINE_RE = /^\s*%%\s*((?:\d+|GLO_[A-Z0-9_]+)\.\d+)\s*%%\s*$/;
+
+function paragraphIds(lines: string[]): string[] {
+  const ids: string[] = [];
+  for (const line of lines) {
+    const m = line.match(ID_LINE_RE);
+    if (m) ids.push(m[1]);
+  }
+  return ids;
 }
 
 // Strip spans that legitimately contain foreign script, so the contamination
@@ -183,11 +208,50 @@ for (const fname of entryFiles) {
       }
     }
   }
+
+  // 8. Paragraph-ID alignment with the source entry (translations only).
+  // WARN, not FAIL: two benign conventions diverge legitimately across the corpus —
+  // a translation may omit a notes-only source paragraph, and it may number a header
+  // the source leaves unnumbered. See docs/VERIFY_CARNET_GATE.md.
+  if (isTranslation) {
+    const srcPath = path.join(sourceDir, fname);
+    if (!fs.existsSync(srcPath)) {
+      add({ check: 'id-alignment', severity: 'WARN', file: fname, message: `no source counterpart at content/_original/${carnet}/${fname}` });
+    } else {
+      const srcIds = paragraphIds(fs.readFileSync(srcPath, 'utf8').split('\n'));
+      const ids = paragraphIds(lines);
+      if (ids.length !== srcIds.length || ids.some((id, i) => id !== srcIds[i])) {
+        const at = ids.findIndex((id, i) => id !== srcIds[i]);
+        const missing = srcIds.filter((id) => !ids.includes(id));
+        const extra = ids.filter((id) => !srcIds.includes(id));
+        const cap = (list: string[]) => `${list.slice(0, 5).join(', ')}${list.length > 5 ? ` (+${list.length - 5} more)` : ''}`;
+        const detail = [
+          `${ids.length} paragraph IDs vs ${srcIds.length} in source`,
+          at >= 0 ? `first divergence at #${at + 1}: "${ids[at]}" vs source "${srcIds[at] ?? '(none)'}"` : '',
+          missing.length ? `missing: ${cap(missing)}` : '',
+          extra.length ? `extra: ${cap(extra)}` : '',
+        ]
+          .filter(Boolean)
+          .join('; ');
+        add({ check: 'id-alignment', severity: 'WARN', file: fname, message: detail });
+      }
+    }
+  }
+}
+
+// 8 (reverse). Source entries with no translation counterpart
+if (isTranslation && fs.existsSync(sourceDir)) {
+  const present = new Set(entryFiles);
+  for (const f of fs.readdirSync(sourceDir).filter(isEntryFile).sort()) {
+    if (!present.has(f)) {
+      add({ check: 'id-alignment', severity: 'WARN', file: f, message: `source entry has no ${lang} translation file` });
+    }
+  }
 }
 
 // --- report --------------------------------------------------------------
 
-const CHECK_ORDER = ['frontmatter', 'links', 'glossary-depth', 'footnotes', '%%-balance', 'latin-in-cyr', 'foreign-script'];
+const CHECK_ORDER = ['frontmatter', 'links', 'glossary-depth', 'footnotes', '%%-balance', 'id-alignment', 'latin-in-cyr', 'foreign-script'];
 const effSeverity = (f: Finding): 'FAIL' | 'WARN' => (STRICT && f.severity === 'WARN' ? 'FAIL' : f.severity);
 const fails = findings.filter((f) => effSeverity(f) === 'FAIL');
 const warns = findings.filter((f) => effSeverity(f) === 'WARN');

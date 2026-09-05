@@ -8,32 +8,57 @@ import { MARIE_BIRTH_DATE } from '../constants/marie.js';
 export interface FrontmatterResult {
   metadata: Record<string, unknown>;
   content: string;
+  /** The frontmatter block verbatim, delimiters included ('' when absent) */
+  raw: string;
+  /** Set when a block was present but could not be read as a YAML mapping */
+  error?: string;
 }
+
+const OPEN_DELIMITER = /^---\r?\n/;
 
 /**
  * Parse YAML frontmatter from content
  * Returns metadata object and content without frontmatter
  */
 export function parseFrontmatter(content: string): FrontmatterResult {
-  if (!content.startsWith('---\n')) {
-    return { metadata: {}, content };
+  const open = content.match(OPEN_DELIMITER);
+  if (!open) {
+    return { metadata: {}, content, raw: '' };
   }
 
+  const bodyStart = open[0].length;
+  const close = content.slice(bodyStart).match(/(?:^|\r?\n)---(?:\r?\n|$)/);
+  if (!close || close.index === undefined) {
+    return { metadata: {}, content, raw: '', error: 'unterminated frontmatter block' };
+  }
+
+  const frontmatterStr = content.slice(bodyStart, bodyStart + close.index);
+  const endIndex = bodyStart + close.index + close[0].length;
+  const raw = content.slice(0, endIndex);
+  const remainingContent = content.slice(endIndex);
+
+  let parsed: unknown;
   try {
-    // Find end of frontmatter
-    const endIndex = content.indexOf('\n---\n', 4);
-    if (endIndex === -1) {
-      return { metadata: {}, content };
-    }
-
-    const frontmatterStr = content.substring(4, endIndex);
-    const remainingContent = content.substring(endIndex + 5);
-
-    const metadata = YAML.parse(frontmatterStr) ?? {};
-    return { metadata, content: remainingContent };
-  } catch {
-    return { metadata: {}, content };
+    parsed = YAML.parse(frontmatterStr) ?? {};
+  } catch (e) {
+    return {
+      metadata: {},
+      content: remainingContent,
+      raw,
+      error: `invalid YAML: ${e instanceof Error ? e.message : String(e)}`,
+    };
   }
+
+  if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) {
+    return {
+      metadata: {},
+      content: remainingContent,
+      raw,
+      error: `frontmatter is ${Array.isArray(parsed) ? 'a sequence' : typeof parsed}, expected a mapping`,
+    };
+  }
+
+  return { metadata: parsed as Record<string, unknown>, content: remainingContent, raw };
 }
 
 /**

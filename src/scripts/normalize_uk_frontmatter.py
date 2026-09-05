@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Normalize a translation carnet's frontmatter to the lean canonical form.
 
 Translators sometimes copy the French original's heavy frontmatter (nested
@@ -8,16 +12,22 @@ frontend expect the lean translation frontmatter:
     date: <date>
     carnet: "<NNN>"
     language: <lang>
-    translation_complete: true
+    translation_complete: <preserved|true>
     editor_approved: <preserved|false>
     conductor_approved: <preserved|false>
 
-The body (everything after the closing `---`) is preserved byte-for-byte.
+The body (everything after the closing `---`) is preserved verbatim, except that
+line endings are normalized to the file's dominant style (see _fileio.read_text).
 Usage: normalize_uk_frontmatter.py <lang> <carnet_dir>
 """
 import sys
 import re
 from pathlib import Path
+
+from _fileio import read_text, write_text_atomic
+
+TRUE_TOKENS = {'true', 'yes', 'on'}
+FALSE_TOKENS = {'false', 'no', 'off'}
 
 
 def parse_scalar(fm_text: str, key: str):
@@ -28,12 +38,24 @@ def parse_scalar(fm_text: str, key: str):
     return m.group(1).strip()
 
 
-def truthy(val):
-    return val is not None and val.strip().lower() in ('true', 'yes', 'on')
+def bool_token(val, default):
+    """Parse a YAML boolean scalar, ignoring a trailing inline `# comment`.
+
+    Returns `default` when the key is absent or its value is not a recognised
+    boolean, so an unexpected value is never silently flipped.
+    """
+    if val is None:
+        return default
+    tok = re.sub(r'\s+#.*$', '', val).strip().strip('"\'').lower()
+    if tok in TRUE_TOKENS:
+        return True
+    if tok in FALSE_TOKENS:
+        return False
+    return default
 
 
 def normalize(path: Path, lang: str):
-    text = path.read_text(encoding='utf-8')
+    text, newline = read_text(path)
     if not text.startswith('---'):
         return 'no-frontmatter'
     # split: ---\n FM \n---\n BODY
@@ -50,21 +72,21 @@ def normalize(path: Path, lang: str):
         return 'missing-date-or-carnet'
 
     # preserve approval state if already present (idempotent re-runs)
-    tc = truthy(parse_scalar(fm, 'translation_complete'))
-    ea = truthy(parse_scalar(fm, 'editor_approved'))
-    ca = truthy(parse_scalar(fm, 'conductor_approved'))
+    tc = bool_token(parse_scalar(fm, 'translation_complete'), True)
+    ea = bool_token(parse_scalar(fm, 'editor_approved'), False)
+    ca = bool_token(parse_scalar(fm, 'conductor_approved'), False)
 
     new_fm = (
         f"date: {date}\n"
         f'carnet: "{carnet}"\n'
         f"language: {lang}\n"
-        f"translation_complete: {'true' if tc else 'true'}\n"  # translation done => true
+        f"translation_complete: {'true' if tc else 'false'}\n"
         f"editor_approved: {'true' if ea else 'false'}\n"
         f"conductor_approved: {'true' if ca else 'false'}\n"
     )
     new_text = f"---\n{new_fm}---\n{body}"
     if new_text != text:
-        path.write_text(new_text, encoding='utf-8')
+        write_text_atomic(path, new_text, newline)
         return 'normalized'
     return 'unchanged'
 

@@ -7,12 +7,14 @@
 
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-
-// Pattern to match glossary links: [#Display_Text](../_glossary/category/ID.md)
-export const GLOSSARY_LINK_PATTERN = /\[#([^\]]+)\]\(([^)]*\/_glossary\/[^)]+\.md)\)/g;
+import { writeFileAtomic } from './atomic-write.js';
+import { rewriteGlossaryLinks } from './glossary-links.js';
 
 // Pattern to match frontmatter list items
 export const FRONTMATTER_ITEM_PATTERN = /^(\s+-\s+)(\S+)$/;
+
+/** Translation trees that carry glossary links alongside `_original`. */
+export const TRANSLATION_DIRS = ['cz', 'uk', 'en', 'fr'];
 
 export interface MergeResult {
   filesUpdated: number;
@@ -27,6 +29,17 @@ export interface MergeOptions {
   dryRun?: boolean;
   verbose?: boolean;
   deleteSource?: boolean;
+  translationDirs?: string[];
+  /**
+   * Optional AI-assisted merge of the two entries. Returns the full merged file
+   * content for the target, or null to fall back to a plain append.
+   */
+  smartMerge?: (
+    sourceId: string,
+    sourceContent: string,
+    targetId: string,
+    targetContent: string
+  ) => string | null;
 }
 
 export interface DuplicateCandidate {
@@ -36,11 +49,15 @@ export interface DuplicateCandidate {
 }
 
 /**
- * Get all markdown files that may contain glossary references
+ * Get all markdown files that may contain glossary references: the originals,
+ * every translation tree, and the glossary itself (entries cross-link).
  */
-export function getAllContentFiles(basePath: string, translationDirs: string[] = ['cz']): string[] {
+export function getAllContentFiles(
+  basePath: string,
+  translationDirs: string[] = TRANSLATION_DIRS
+): string[] {
   const files: string[] = [];
-  const originalBase = path.join(basePath, 'content/_original');
+  const contentBase = path.join(basePath, 'content');
 
   const addDiaryFiles = (baseDir: string) => {
     if (!fs.existsSync(baseDir)) return;
@@ -58,13 +75,22 @@ export function getAllContentFiles(basePath: string, translationDirs: string[] =
     }
   };
 
-  // Add original files
-  addDiaryFiles(originalBase);
+  addDiaryFiles(path.join(contentBase, '_original'));
 
-  // Add translation files
   for (const lang of translationDirs) {
-    addDiaryFiles(path.join(basePath, 'content', lang));
+    addDiaryFiles(path.join(contentBase, lang));
   }
+
+  const walkGlossary = (dir: string) => {
+    if (!fs.existsSync(dir)) return;
+    for (const item of fs.readdirSync(dir, { withFileTypes: true })) {
+      const fullPath = path.join(dir, item.name);
+      if (item.isDirectory()) walkGlossary(fullPath);
+      else if (item.name.endsWith('.md')) files.push(fullPath);
+    }
+  };
+
+  walkGlossary(path.join(contentBase, '_original/_glossary'));
 
   return files.sort();
 }
@@ -99,39 +125,6 @@ export function getGlossaryRelativePath(glossaryBase: string, id: string): strin
   const filePath = findGlossaryFile(glossaryBase, id);
   if (!filePath) return null;
   return path.relative(glossaryBase, filePath);
-}
-
-/**
- * Update glossary links in content
- * Replaces [#SOURCE](...SOURCE.md) with [#TARGET](...TARGET.md)
- */
-export function updateGlossaryLinks(
-  content: string,
-  sourceId: string,
-  targetId: string,
-  targetRelPath: string
-): { content: string; count: number } {
-  let count = 0;
-
-  const newContent = content.replace(
-    new RegExp(GLOSSARY_LINK_PATTERN.source, 'g'),
-    (match, displayText, linkPath) => {
-      // Extract the ID from the link path
-      const idMatch = linkPath.match(/([A-Z0-9_]+)\.md$/);
-      if (!idMatch) return match;
-
-      const linkId = idMatch[1];
-      if (linkId !== sourceId) return match;
-
-      // Replace with target
-      count++;
-      // Preserve the relative path prefix (../_glossary/ or similar)
-      const prefix = linkPath.match(/^(.*\/_glossary\/)/)?.[1] || '../_glossary/';
-      return `[#${targetId}](${prefix}${targetRelPath})`;
-    }
-  );
-
-  return { content: newContent, count };
 }
 
 /**
@@ -262,6 +255,68 @@ export function levenshteinDistance(a: string, b: string): number {
   return matrix[b.length][a.length];
 }
 
+interface PendingWrite {
+  filePath: string;
+  content: string;
+  links: number;
+}
+
+/**
+ * Compute the rewrite of every file that references `sourceId`.
+ * Reads and parses everything up front so a single unreadable file aborts the
+ * merge before any of it is written.
+ */
+export function planMergeRewrites(
+  contentFiles: string[],
+  glossaryBase: string,
+  sourceId: string,
+  targetPath: string,
+  targetId: string
+): { writes: PendingWrite[]; linksUpdated: number; frontmatterUpdated: number; errors: string[] } {
+  const writes: PendingWrite[] = [];
+  const errors: string[] = [];
+  let linksUpdated = 0;
+  let frontmatterUpdated = 0;
+
+  const sourceFile = `${sourceId}.md`;
+
+  for (const filePath of contentFiles) {
+    let content: string;
+    try {
+      content = fs.readFileSync(filePath, 'utf-8');
+    } catch (e) {
+      errors.push(`Cannot read ${filePath}: ${e}`);
+      continue;
+    }
+
+    const originalContent = content;
+
+    const linkResult = rewriteGlossaryLinks(
+      content,
+      path.dirname(filePath),
+      glossaryBase,
+      (target, displayText) =>
+        path.basename(target) === sourceFile
+          ? { path: targetPath, displayText: displayText.startsWith('#') ? `#${targetId}` : undefined }
+          : null
+    );
+    content = linkResult.content;
+    linksUpdated += linkResult.count;
+
+    if (filePath.includes(`${path.sep}_original${path.sep}`)) {
+      const fmResult = updateFrontmatter(content, sourceId, targetId);
+      content = fmResult.content;
+      frontmatterUpdated += fmResult.count;
+    }
+
+    if (content !== originalContent) {
+      writes.push({ filePath, content, links: linkResult.count });
+    }
+  }
+
+  return { writes, linksUpdated, frontmatterUpdated, errors };
+}
+
 /**
  * Merge two glossary entries
  */
@@ -271,7 +326,13 @@ export async function mergeGlossaryEntries(
   targetId: string,
   options: MergeOptions = {}
 ): Promise<MergeResult> {
-  const { dryRun = false, verbose = false, deleteSource = true } = options;
+  const {
+    dryRun = false,
+    verbose = false,
+    deleteSource = true,
+    translationDirs = TRANSLATION_DIRS,
+    smartMerge,
+  } = options;
 
   const glossaryBase = path.join(basePath, 'content/_original/_glossary');
   const result: MergeResult = {
@@ -294,9 +355,8 @@ export async function mergeGlossaryEntries(
 
   // Find target glossary file (must exist)
   const targetPath = findGlossaryFile(glossaryBase, upperTarget);
-  const targetRelPath = getGlossaryRelativePath(glossaryBase, upperTarget);
 
-  if (!targetPath || !targetRelPath) {
+  if (!targetPath) {
     result.errors.push(`Target glossary entry not found: ${upperTarget}`);
     return result;
   }
@@ -306,7 +366,7 @@ export async function mergeGlossaryEntries(
 
   if (verbose) {
     console.log(`\nMerging ${upperSource} → ${upperTarget}`);
-    console.log(`  Target: ${targetRelPath}`);
+    console.log(`  Target: ${path.relative(glossaryBase, targetPath)}`);
     if (sourcePath) {
       console.log(`  Source: ${path.relative(glossaryBase, sourcePath)}`);
     } else {
@@ -314,73 +374,68 @@ export async function mergeGlossaryEntries(
     }
   }
 
-  // Update all content files
-  const contentFiles = getAllContentFiles(basePath);
+  // Preflight every rewrite before touching anything on disk
+  const contentFiles = getAllContentFiles(basePath, translationDirs);
+  const plan = planMergeRewrites(contentFiles, glossaryBase, upperSource, targetPath, upperTarget);
 
-  for (const filePath of contentFiles) {
-    try {
-      let content = fs.readFileSync(filePath, 'utf-8');
-      const originalContent = content;
+  result.linksUpdated = plan.linksUpdated;
+  result.frontmatterUpdated = plan.frontmatterUpdated;
+  result.filesUpdated = plan.writes.length;
 
-      // Update glossary links
-      const linkResult = updateGlossaryLinks(content, upperSource, upperTarget, targetRelPath);
-      content = linkResult.content;
-      result.linksUpdated += linkResult.count;
+  if (plan.errors.length > 0) {
+    result.errors.push(...plan.errors);
+    result.filesUpdated = 0;
+    result.linksUpdated = 0;
+    result.frontmatterUpdated = 0;
+    return result;
+  }
 
-      // Update frontmatter (only for original files)
-      if (filePath.includes('/_original/')) {
-        const fmResult = updateFrontmatter(content, upperSource, upperTarget);
-        content = fmResult.content;
-        result.frontmatterUpdated += fmResult.count;
-      }
-
-      if (content !== originalContent) {
-        result.filesUpdated++;
-
-        if (verbose) {
-          const relPath = path.relative(basePath, filePath);
-          console.log(`  Updated: ${relPath} (${linkResult.count} links)`);
-        }
-
-        if (!dryRun) {
-          fs.writeFileSync(filePath, content, 'utf-8');
-        }
-      }
-    } catch (e) {
-      result.errors.push(`Error processing ${filePath}: ${e}`);
+  for (const write of plan.writes) {
+    if (verbose) {
+      console.log(`  Updated: ${path.relative(basePath, write.filePath)} (${write.links} links)`);
+    }
+    if (!dryRun) {
+      writeFileAtomic(write.filePath, write.content);
     }
   }
 
   // Merge glossary content if source exists
-  if (sourcePath) {
+  if (sourcePath && !dryRun) {
     try {
       const sourceContent = fs.readFileSync(sourcePath, 'utf-8');
       const targetContent = fs.readFileSync(targetPath, 'utf-8');
 
-      // Extract content after frontmatter from source
-      const sourceBody = extractBodyContent(sourceContent);
+      const merged = smartMerge
+        ? smartMerge(upperSource, sourceContent, upperTarget, targetContent)
+        : null;
 
-      if (sourceBody.trim()) {
-        // Append source content to target with merge marker
-        const mergeNote = `\n\n---\n\n%% ${new Date().toISOString()} RSR: Merged content from ${upperSource} %%\n\n`;
-        const newTargetContent = targetContent.trimEnd() + mergeNote + sourceBody;
-
-        if (!dryRun) {
-          fs.writeFileSync(targetPath, newTargetContent, 'utf-8');
-        }
-
+      if (merged) {
+        writeFileAtomic(targetPath, merged.endsWith('\n') ? merged : `${merged}\n`);
         result.glossaryMerged = true;
-
-        if (verbose) {
-          console.log(`  Merged glossary content from ${upperSource} to ${upperTarget}`);
+      } else {
+        // The source body's own links are relative to the source's directory;
+        // appending them under the target rebases them to the target's depth.
+        const sourceBody = rewriteGlossaryLinks(
+          extractBodyContent(sourceContent),
+          path.dirname(sourcePath),
+          glossaryBase,
+          (target) => ({ path: target }),
+          path.dirname(targetPath)
+        ).content;
+        if (sourceBody.trim()) {
+          const mergeNote = `\n\n---\n\n%% ${new Date().toISOString()} RSR: Merged content from ${upperSource} %%\n\n`;
+          writeFileAtomic(targetPath, targetContent.trimEnd() + mergeNote + sourceBody);
+          result.glossaryMerged = true;
         }
       }
 
-      // Delete source file
+      if (verbose && result.glossaryMerged) {
+        console.log(`  Merged glossary content from ${upperSource} to ${upperTarget}`);
+      }
+
+      // Only now is the source redundant
       if (deleteSource) {
-        if (!dryRun) {
-          fs.unlinkSync(sourcePath);
-        }
+        fs.unlinkSync(sourcePath);
         result.sourceDeleted = true;
 
         if (verbose) {
@@ -390,6 +445,8 @@ export async function mergeGlossaryEntries(
     } catch (e) {
       result.errors.push(`Error merging glossary files: ${e}`);
     }
+  } else if (sourcePath && dryRun && verbose) {
+    console.log(`  Would merge ${upperSource} into ${upperTarget} and delete the source`);
   }
 
   return result;

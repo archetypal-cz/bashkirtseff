@@ -26,13 +26,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '../..');
 
-// Import from shared package (assumes built)
 import {
   TranslationScaffold,
   createDefaultScaffoldOptions,
   type ScaffoldOptions,
   type ScaffoldCarnetResult,
-} from '../shared/dist/utils/index.js';
+} from '../shared/src/utils/index.js';
+import { normalizeCarnet } from './lib/carnet.js';
 
 interface CliOptions {
   carnetId: string;
@@ -50,8 +50,16 @@ function parseArgs(): CliOptions | null {
     return null;
   }
 
+  let carnetId: string;
+  try {
+    carnetId = normalizeCarnet(args[0]);
+  } catch (err) {
+    console.error(err instanceof Error ? err.message : String(err));
+    process.exit(2);
+  }
+
   const options: CliOptions = {
-    carnetId: args[0],
+    carnetId,
     targetLanguage: 'cz',
     overwrite: false,
     dryRun: false,
@@ -93,7 +101,7 @@ Usage:
   npx ts-node --esm scripts/scaffold-translation.ts <carnet> [options]
 
 Arguments:
-  <carnet>    Carnet ID (e.g., 001, 02, 100)
+  <carnet>    Carnet ID, 1-3 digits (e.g., 001, 63, 106)
 
 Options:
   -l, --lang <code>   Target language code (default: cz)

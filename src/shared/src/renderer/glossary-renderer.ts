@@ -4,10 +4,25 @@ import type { Note } from '../models/note.js';
 import YAML from 'yaml';
 
 /**
- * Format a timestamp for output (without milliseconds)
+ * Format a timestamp for output as zone-less local time, e.g. 2025-12-07T16:00:00.
+ *
+ * Content timestamps are written in local time without a zone, so rendering a
+ * UTC instant with the `Z` stripped would silently shift the clock.
  */
 function formatTimestamp(date: Date): string {
-  return date.toISOString().replace(/\.\d{3}Z$/, '');
+  const pad = (value: number): string => String(value).padStart(2, '0');
+  return (
+    `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}` +
+    `T${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
+  );
+}
+
+/**
+ * Re-emit the timestamp exactly as the source wrote it, falling back to a
+ * formatted value for notes built in memory.
+ */
+function noteTimestamp(note: Note): string {
+  return note.rawTimestamp ?? formatTimestamp(note.timestamp);
 }
 
 /**
@@ -121,7 +136,7 @@ export class GlossaryRenderer {
       (a, b) => a.timestamp.getTime() - b.timestamp.getTime()
     );
     for (const note of sortedNotes) {
-      lines.push(`%% ${formatTimestamp(note.timestamp)} ${note.role}: ${note.content} %%`);
+      lines.push(`%% ${noteTimestamp(note)} ${note.role}: ${note.content} %%`);
     }
 
     // Original text (the actual content)
@@ -175,7 +190,7 @@ export class GlossaryRenderer {
       (a, b) => a.timestamp.getTime() - b.timestamp.getTime()
     );
     for (const note of sortedNotes) {
-      lines.push(`%% ${formatTimestamp(note.timestamp)} ${note.role}: ${note.content} %%`);
+      lines.push(`%% ${noteTimestamp(note)} ${note.role}: ${note.content} %%`);
     }
 
     // 5. Translation versions

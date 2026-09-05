@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """
 Repo-wide broken glossary-link scanner across ALL five content trees.
 
@@ -36,8 +40,9 @@ LINK_RE = re.compile(r"\]\((\.\.[^)#]*?_glossary/[^)#]+\.md)\)")
 
 
 def scan_tree(lang):
-    """Return (instances, Counter{glossary-relative-target: count})."""
+    """Return (instances, Counter{glossary-relative-target: count}, [unreadable paths])."""
     broken = Counter()
+    unreadable = []
     instances = 0
     for f in glob.glob(f"content/{lang}/[0-9][0-9][0-9]/*.md"):
         if os.path.basename(f) in SKIP:
@@ -45,7 +50,8 @@ def scan_tree(lang):
         d = os.path.dirname(f)
         try:
             text = open(f, encoding="utf-8").read()
-        except OSError:
+        except OSError as e:
+            unreadable.append(f"{f}: {e}")
             continue
         for m in LINK_RE.finditer(text):
             target = m.group(1)
@@ -55,16 +61,18 @@ def scan_tree(lang):
                 key = target.split("_glossary/", 1)[1]
                 broken[key] += 1
                 instances += 1
-    return instances, broken
+    return instances, broken, unreadable
 
 
 def main():
     quiet = "--quiet" in sys.argv[1:]
     total_broken = 0
     total_distinct = 0
+    unreadable = []
     print("=== check-links-repo: broken glossary links across all five trees ===")
     for lang in TREES:
-        instances, broken = scan_tree(lang)
+        instances, broken, tree_unreadable = scan_tree(lang)
+        unreadable.extend(tree_unreadable)
         distinct = len(broken)
         total_broken += instances
         total_distinct += distinct
@@ -76,8 +84,13 @@ def main():
                 for k, v in sorted(broken.items()):
                     print(f"            {v:>3}  {k}")
     print(f"{'TOTAL':>10}: {total_broken} broken, {total_distinct} distinct")
-    if total_broken:
-        print("FAIL: broken glossary links present.")
+    if unreadable:
+        print(f"\nUNREADABLE: {len(unreadable)} file(s) could not be scanned:")
+        for u in unreadable:
+            print(f"  {u}")
+    if total_broken or unreadable:
+        print("FAIL: broken glossary links present."
+              if total_broken else "FAIL: unreadable files were skipped.")
         return 1
     print("OK: 0 broken glossary links in all five trees.")
     return 0

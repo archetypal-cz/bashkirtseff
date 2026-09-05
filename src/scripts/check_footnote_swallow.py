@@ -1,3 +1,7 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 import re,glob,sys
 CARNETS=sys.argv[1].split() if len(sys.argv)>1 else "000 001 002 003 004 005 006 007 008 016 017 018 019 020 021 022 023 024 025 026 027 028 029 030 031 032 033 050 051".split()
 def nsent(t):

@@ -28,8 +28,9 @@
  *   npx tsx src/scripts/fix-midline-paragraph-ids.ts --dry    # report only
  */
 
-import { readFileSync, writeFileSync, readdirSync, statSync } from 'fs';
+import { readFileSync, readdirSync, statSync } from 'fs';
 import { join } from 'path';
+import { writeFileAtomic } from './lib/atomic-write.js';
 
 const CONTENT_ROOT = join(import.meta.dirname, '..', '..', 'content');
 const TRANSLATION_DIRS = ['cz', 'uk', 'en', 'fr'];
@@ -126,7 +127,7 @@ for (const file of files) {
     const rel = file.replace(CONTENT_ROOT + '/', '');
     report.push(`  ${rel}`);
     if (!dryRun) {
-      writeFileSync(file, newLines.join('\n'), 'utf8');
+      writeFileAtomic(file, newLines.join('\n'));
     }
   }
 }

@@ -15,12 +15,12 @@ export const PARAGRAPH_ID_PATTERN = /^%%\s*((?:\d{2,3}|GLO_[A-Z0-9_]+|SUM\.\d{3}
 /** Note pattern: %% 2025-12-07T16:00:00 LAN: "A quoi bon" - idiomatic expression... %% */
 /** Also handles ISO format with milliseconds and timezone: 2025-12-07T16:00:00.000Z */
 export const NOTE_PATTERN =
-  /^%%\s*(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z?)\s+([A-Z]+):\s*(.*)\s*%%$/;
+  /^%%\s*(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,6})?(?:Z|[+-]\d{2}:?\d{2})?)\s+([A-Z]+):\s*([\s\S]*?)\s*%%$/;
 
 /** Timestamp pattern for notes (without %% markers) */
 /** Also handles ISO format with milliseconds and timezone */
 export const TIMESTAMP_PATTERN =
-  /^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z?)\s+([A-Z]+):\s+(.+)$/;
+  /^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,6})?(?:Z|[+-]\d{2}:?\d{2})?)\s+([A-Z]+):\s+([\s\S]+)$/;
 
 /** Glossary pattern: [#Person](path/to/glossary.md) */
 export const GLOSSARY_PATTERN = /\[#([^\]]+)\]\(([^)]+)\)/g;
@@ -31,11 +31,17 @@ export const FOOTNOTE_REF_PATTERN = /\[\^([^\]]+)\]/g;
 /** Footnote definition pattern: [^1]: Definition text */
 export const FOOTNOTE_DEF_PATTERN = /^\[\^([^\]]+)\]:\s*(.+)$/;
 
+/** A footnote definition continues on any following indented, non-empty line */
+export const FOOTNOTE_CONTINUATION_PATTERN = /^[ \t]+\S/;
+
 /** Header pattern: # Header or ## Subheader */
 export const HEADER_PATTERN = /^(#{1,6})\s+(.+)$/;
 
 /** Translation version pattern: %% v1.2 translated text %% */
 export const VERSION_PATTERN = /^%%\s*v([\d._-]+)\s+(.+)\s*%%$/;
+
+/** Translation version, comment markers already stripped: v1.2 translated text */
+export const VERSION_CONTENT_PATTERN = /^v([\d._-]+)\s+([\s\S]+)$/;
 
 /** Original text in comment (no version prefix) */
 export const ORIGINAL_COMMENT_PATTERN = /^%%\s*([^v].+|v[^0-9].*)\s*%%$/;
@@ -57,6 +63,14 @@ export const SECTION_PATTERN = /^\d{2}-\d{2}\.md$/;
  * Note: GLO_ IDs use CAPITAL_ASCII format [A-Z0-9_]+ (no accents or special characters)
  */
 export const PARAGRAPH_ID_CONTENT_PATTERN = /^(?:\d+|GLO_[A-Z0-9_]+|SUM\.\d{3})\.\d+$/;
+
+/** Same, capturing the carnet part and the sequence part separately */
+export const PARAGRAPH_ID_PARTS_PATTERN =
+  /^((?:\d{2,3}|GLO_[A-Z0-9_]+|SUM\.\d{3}))\.(\d+)$/;
+
+/** Legacy paragraph ID line: [//]: # (081.0340) */
+export const LEGACY_PARAGRAPH_ID_PATTERN =
+  /^\[\/\/\]: # \(\s*((?:\d{2,3}|GLO_[A-Z0-9_]+|SUM\.\d{3}))\.(\d+)\s*\)$/;
 
 /**
  * Summary paragraph ID pattern: %% SUM.001.0001 %%

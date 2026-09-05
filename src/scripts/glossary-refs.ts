@@ -229,7 +229,14 @@ async function main(): Promise<void> {
         } else {
           for (const id of missing.slice(0, options.limit).sort()) {
             const references = refs.findReferences(id);
+            const broken = refs.getBrokenLinkPaths(id);
             console.log(`${id} (referenced ${references.length} times)`);
+            for (const linkPath of broken.slice(0, 3)) {
+              console.log(`  broken link: ${linkPath}`);
+            }
+            if (broken.length > 3) {
+              console.log(`  ... and ${broken.length - 3} more broken link paths`);
+            }
             if (options.verbose) {
               for (const ref of references.slice(0, 3)) {
                 console.log(`  - ${ref.entryPath}`);

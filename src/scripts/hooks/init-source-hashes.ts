@@ -18,6 +18,7 @@ import { readdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { getProjectRoot } from './lib/config.js';
 import { calculateSourceHash, getStoredSourceHash, updateSourceHash } from './lib/source-sync.js';
+import { normalizeCarnet } from '../lib/carnet.js';
 
 function getLanguages(filterLang?: string): string[] {
   const root = getProjectRoot();
@@ -65,7 +66,16 @@ function getEntries(language: string, carnet: string): string[] {
 async function main(): Promise<void> {
   const args = process.argv.slice(2);
   const filterLang = args[0];
-  const filterCarnet = args[1];
+  let filterCarnet = args[1];
+
+  if (filterCarnet !== undefined) {
+    try {
+      filterCarnet = normalizeCarnet(filterCarnet);
+    } catch (err) {
+      console.error(err instanceof Error ? err.message : String(err));
+      process.exit(2);
+    }
+  }
 
   const root = getProjectRoot();
   const languages = getLanguages(filterLang);

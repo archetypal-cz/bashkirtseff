@@ -1,6 +1,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import { GLOSSARY_PATTERN } from '../parser/patterns.js';
+import { MD_LINK_PATTERN, resolveGlossaryLink } from './glossary-links.js';
+import { TRANSLATION_DIRS } from './glossary-merge.js';
 
 /**
  * Reference to a glossary entry from a diary entry
@@ -41,12 +42,17 @@ export interface GlossaryUsageStats {
  */
 export class GlossaryReferences {
   private basePath: string;
+  private contentBase: string;
   private diaryBase: string;
   private glossaryBase: string;
   private reverseIndex: Map<string, GlossaryReference[]> | null = null;
+  /** Glossary ID → link paths that resolve to no existing glossary file */
+  private brokenLinks: Map<string, Set<string>> = new Map();
+  private glossaryFiles: Set<string> | null = null;
 
   constructor(basePath: string = '.') {
     this.basePath = basePath;
+    this.contentBase = path.join(basePath, 'content');
     this.diaryBase = path.join(basePath, 'content/_original');
     this.glossaryBase = path.join(basePath, 'content/_original/_glossary');
   }
@@ -61,6 +67,7 @@ export class GlossaryReferences {
     }
 
     this.reverseIndex = new Map();
+    this.brokenLinks = new Map();
     const diaryFiles = this.getAllDiaryFiles();
 
     for (const filePath of diaryFiles) {
@@ -68,6 +75,27 @@ export class GlossaryReferences {
     }
 
     return this.reverseIndex;
+  }
+
+  /**
+   * Absolute paths of every real glossary file, for case-sensitive link validation.
+   */
+  private getGlossaryFilePaths(): Set<string> {
+    if (this.glossaryFiles) return this.glossaryFiles;
+
+    const paths = new Set<string>();
+    const walkDir = (dir: string) => {
+      if (!fs.existsSync(dir)) return;
+      for (const item of fs.readdirSync(dir, { withFileTypes: true })) {
+        const fullPath = path.join(dir, item.name);
+        if (item.isDirectory()) walkDir(fullPath);
+        else if (item.name.endsWith('.md')) paths.add(path.resolve(fullPath));
+      }
+    };
+
+    walkDir(this.glossaryBase);
+    this.glossaryFiles = paths;
+    return paths;
   }
 
   /**
@@ -83,7 +111,10 @@ export class GlossaryReferences {
       const lines = content.split('\n');
       const relativePath = path.relative(path.join(this.basePath, 'src'), filePath);
       const filename = path.basename(filePath, '.md');
-      const carnet = path.basename(path.dirname(filePath));
+      const fileDir = path.dirname(filePath);
+      const inGlossary = !path.relative(path.resolve(this.glossaryBase), path.resolve(fileDir)).startsWith('..');
+      const carnet = inGlossary ? '_glossary' : path.basename(fileDir);
+      const realFiles = this.getGlossaryFilePaths();
 
       // Extract date from filename (YYYY-MM-DD format)
       const dateMatch = filename.match(/^(\d{4}-\d{2}-\d{2})/);
@@ -94,16 +125,26 @@ export class GlossaryReferences {
 
       for (let lineNum = 0; lineNum < lines.length; lineNum++) {
         const line = lines[lineNum];
-        const pattern = new RegExp(GLOSSARY_PATTERN.source, 'g');
+        const pattern = new RegExp(MD_LINK_PATTERN.source, 'g');
         let match;
 
         while ((match = pattern.exec(line)) !== null) {
           const displayText = match[1];
           const linkPath = match[2]; // e.g., ../_glossary/people/core/DINA.md
 
-          // Extract glossary ID from path
-          const glossaryId = this.extractGlossaryId(linkPath);
-          if (!glossaryId) continue;
+          const target = resolveGlossaryLink(fileDir, linkPath, this.glossaryBase);
+          if (!target) continue;
+
+          const glossaryId = path.basename(target, '.md');
+
+          // A link whose resolved path is not a real file is broken, even when a
+          // file of that name exists elsewhere or under different casing.
+          if (!realFiles.has(target)) {
+            if (!this.brokenLinks.has(glossaryId)) {
+              this.brokenLinks.set(glossaryId, new Set());
+            }
+            this.brokenLinks.get(glossaryId)!.add(linkPath);
+          }
 
           // Add to file refs
           if (!fileRefs.has(glossaryId)) {
@@ -134,38 +175,33 @@ export class GlossaryReferences {
   }
 
   /**
-   * Extract glossary ID from a link path
-   * e.g., ../_glossary/people/core/DINA.md → DINA
-   */
-  private extractGlossaryId(linkPath: string): string | null {
-    const match = linkPath.match(/([A-Z0-9_]+)\.md$/);
-    return match ? match[1] : null;
-  }
-
-  /**
-   * Get all diary entry files (not glossary files)
+   * Get every file that can carry a glossary link: the originals, each
+   * translation tree, and the glossary itself (entries cross-link).
    */
   private getAllDiaryFiles(): string[] {
     const diaryFiles: string[] = [];
 
-    if (!fs.existsSync(this.diaryBase)) {
-      return diaryFiles;
-    }
+    const addCarnets = (baseDir: string) => {
+      if (!fs.existsSync(baseDir)) return;
 
-    const items = fs.readdirSync(this.diaryBase, { withFileTypes: true });
-    for (const item of items) {
-      // Skip glossary directory and non-carnet directories
-      if (!item.isDirectory() || item.name === '_glossary' || item.name.startsWith('_')) {
-        continue;
+      for (const item of fs.readdirSync(baseDir, { withFileTypes: true })) {
+        if (!item.isDirectory() || item.name.startsWith('_')) continue;
+
+        const carnetDir = path.join(baseDir, item.name);
+        const files = fs
+          .readdirSync(carnetDir)
+          .filter((f) => f.endsWith('.md'))
+          .map((f) => path.join(carnetDir, f));
+        diaryFiles.push(...files);
       }
+    };
 
-      const carnetDir = path.join(this.diaryBase, item.name);
-      const files = fs
-        .readdirSync(carnetDir)
-        .filter((f) => f.endsWith('.md'))
-        .map((f) => path.join(carnetDir, f));
-      diaryFiles.push(...files);
+    addCarnets(this.diaryBase);
+    for (const lang of TRANSLATION_DIRS) {
+      addCarnets(path.join(this.contentBase, lang));
     }
+
+    diaryFiles.push(...this.getGlossaryFilePaths());
 
     return diaryFiles.sort();
   }
@@ -202,7 +238,16 @@ export class GlossaryReferences {
    */
   findReferences(glossaryId: string): GlossaryReference[] {
     const index = this.buildReverseIndex();
-    return index.get(glossaryId.toUpperCase()) || [];
+    return index.get(glossaryId) || index.get(glossaryId.toUpperCase()) || [];
+  }
+
+  /**
+   * Link paths recorded for an ID that resolve to no existing glossary file
+   * (wrong category, wrong casing, or a genuinely absent entry).
+   */
+  getBrokenLinkPaths(glossaryId: string): string[] {
+    this.buildReverseIndex();
+    return [...(this.brokenLinks.get(glossaryId) ?? [])].sort();
   }
 
   /**
@@ -229,14 +274,17 @@ export class GlossaryReferences {
     const allIds = this.getAllGlossaryIds();
     const index = this.buildReverseIndex();
 
-    const missing: string[] = [];
+    const missing = new Set<string>();
     for (const id of index.keys()) {
       if (!allIds.has(id)) {
-        missing.push(id);
+        missing.add(id);
       }
     }
+    for (const id of this.brokenLinks.keys()) {
+      missing.add(id);
+    }
 
-    return missing.sort();
+    return [...missing].sort();
   }
 
   /**
@@ -415,5 +463,7 @@ export class GlossaryReferences {
    */
   clearCache(): void {
     this.reverseIndex = null;
+    this.brokenLinks = new Map();
+    this.glossaryFiles = null;
   }
 }

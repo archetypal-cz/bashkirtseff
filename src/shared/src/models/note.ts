@@ -4,6 +4,8 @@
 export interface Note {
   /** ISO timestamp of when the note was created */
   timestamp: Date;
+  /** Timestamp exactly as written in the source, re-emitted verbatim on render */
+  rawTimestamp?: string;
   /** Role identifier: RSR, LAN, TR, RED, CON, PA, GEM */
   role: string;
   /** Note content */
@@ -27,6 +29,7 @@ export function parseNote(str: string): Note | null {
 
   return {
     timestamp: new Date(match[1]),
+    rawTimestamp: match[1],
     role: match[2],
     content: match[3],
   };

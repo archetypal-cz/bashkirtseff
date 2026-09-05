@@ -2,10 +2,11 @@
  * Parse and update README.md files for progress tracking
  */
 
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import type { ReadmeData, TodoItem, ChangelogEntry, CarnetProgress } from './types.js';
 import { getTimestamp, getProjectRoot } from './config.js';
+import { writeFileAtomic } from '../../lib/atomic-write.js';
 
 /**
  * Parse a carnet README.md file
@@ -156,7 +157,7 @@ export function addChangelogEntry(
     newContent = content.slice(0, insertPoint) + newEntry + content.slice(insertPoint);
   }
 
-  writeFileSync(readmePath, newContent);
+  writeFileAtomic(readmePath, newContent);
   return true;
 }
 
@@ -192,7 +193,7 @@ export function updateStatusTable(
     }
   }
 
-  writeFileSync(readmePath, content);
+  writeFileAtomic(readmePath, content);
   return true;
 }
 

@@ -139,7 +139,7 @@ This gives you Claude Code, Gemini CLI, code-server (VS Code in browser), byobu,
 
 ### Local Setup
 
-Prerequisites: Node.js 18+, npm 9+, [Just](https://just.systems)
+Prerequisites: Node.js 22.12+, npm 9+, [Just](https://just.systems)
 
 ```bash
 just setup               # Install dependencies + build shared package

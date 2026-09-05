@@ -31,6 +31,7 @@ Each check reports `OK` / `WARN` / `FAIL` per file (and a carnet summary). Exit 
 | 5 | **Balanced `%%` markers** | FAIL | Even count of `%%` per file (no unterminated comment/source block). (RED fixed an unbalanced `%%` in 062.) |
 | 6 | **Latin-in-Cyrillic** | WARN | For Cyrillic-script languages (uk, …): flag tokens mixing Cyrillic + Latin letters inside one word (e.g. «відданi», «Музе»+Latin). Heuristic → WARN, not FAIL (deliberate code-switches/URLs exist). Excludes `%% … %%` source blocks (those legitimately contain French). |
 | 7 | **Stray foreign scripts** | WARN | Flag CJK / other unexpected Unicode ranges in translation body (context-window artifacts, e.g. tr-062's «历»). WARN. |
+| 8 | **Paragraph-ID alignment** | WARN | The ordered list of standalone `%% NNN.NNNN %%` markers in each translation entry vs the source entry's, plus entries missing on either side. (Catches dropped/reordered paragraphs and mid-line IDs, which the frontend parser ignores at build time.) WARN, not FAIL: a uk sweep flagged 140 files, of which 137 are the benign convention of omitting a notes-only source paragraph and 2 are headers the translation numbers and the source does not — 1 was a real dropped paragraph (uk/068 `1877-02-13-21.md`, source 068.0620). Promote to FAIL once the check ignores source paragraphs that carry no translatable text. |
 
 Notes:
 - Checks #6/#7 scan only the **translation body lines**, never the `%% French source %%` comment blocks (which legitimately hold French/italics).
@@ -67,7 +68,7 @@ Exit 0 on PASS (warns allowed), exit 1 if any FAIL, exit 2 on usage/structural e
   verify-carnet-all lang *FLAGS:
       ... loop over carnets, fail if any fails ...
   ```
-- **Severity config:** hard-fail set = {frontmatter, links, glossary-depth, footnotes, %%-balance}; warn set = {latin-in-cyrillic, foreign-script}.
+- **Severity config:** hard-fail set = {frontmatter, links, glossary-depth, footnotes, %%-balance}; warn set = {id-alignment, latin-in-cyrillic, foreign-script}.
 
 ## Integration into the workflow
 

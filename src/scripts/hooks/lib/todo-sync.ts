@@ -2,11 +2,12 @@
  * TODO synchronization between original and translations
  */
 
-import { readdirSync, readFileSync, writeFileSync, existsSync } from 'fs';
+import { readdirSync, readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 import type { TodoItem } from './types.js';
 import { getProjectRoot } from './config.js';
 import { parseReadme, getReadmePath } from './readme-parser.js';
+import { writeFileAtomic } from '../../lib/atomic-write.js';
 
 /**
  * Tags that sync from original to translations
@@ -29,10 +30,11 @@ function getLanguages(): string[] {
     return [];
   }
 
-  return readdirSync(contentPath)
-    .filter(d => d !== '_original' && !d.startsWith('.') && d !== 'HASHTAGS.md')
-    .filter(d => existsSync(join(contentPath, d)) &&
-                 readdirSync(join(contentPath, d)).some(f => /^\d{3}$/.test(f)));
+  return readdirSync(contentPath, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+    .filter(d => d !== '_original' && !d.startsWith('.'))
+    .filter(d => readdirSync(join(contentPath, d)).some(f => /^\d{3}$/.test(f)));
 }
 
 /**
@@ -85,7 +87,7 @@ function updateSyncSection(
     '\n' + todoList + '\n' +
     content.slice(endIndex);
 
-  writeFileSync(readmePath, newContent);
+  writeFileAtomic(readmePath, newContent);
   return true;
 }
 

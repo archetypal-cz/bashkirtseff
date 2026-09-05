@@ -54,35 +54,32 @@ function main(): void {
 
   const warnings: string[] = [];
 
-  // Check for paragraph ID format in entry files
   const entryPattern = /\d{4}-\d{2}-\d{2}\.md$/;
   if (entryPattern.test(filePath) && existsSync(filePath)) {
     const content = readFileSync(filePath, 'utf-8');
 
-    // Check if file has paragraph IDs
-    const paragraphIdPattern = /\[\/\/\]: # \( \d+\.\d+ \)/;
-    if (!paragraphIdPattern.test(content)) {
-      warnings.push('Missing paragraph IDs');
+    const frontmatterMatch = content.match(/^---\r?\n([\s\S]*?)\r?\n---(\r?\n|$)/);
+    if (!frontmatterMatch) {
+      warnings.push('Missing YAML frontmatter block');
+    } else {
+      const frontmatter = frontmatterMatch[1];
+      if (!/^date:/m.test(frontmatter)) {
+        warnings.push('Frontmatter missing date:');
+      }
+      if (!/^carnet:/m.test(frontmatter)) {
+        warnings.push('Frontmatter missing carnet:');
+      }
     }
 
-    // Check for date header
-    const lines = content.split('\n');
-    if (lines.length > 0 && !lines[0].startsWith('#')) {
-      warnings.push('Missing date header');
+    const body = frontmatterMatch ? content.slice(frontmatterMatch[0].length) : content;
+
+    if (!/%%\s*\d{3}\.\d{4}\s*%%/.test(body)) {
+      warnings.push('Missing %% NNN.NNNN %% paragraph IDs');
     }
-  }
 
-  // If translation file (any language except _original), check for original French in comments
-  const translationPattern = /content\/[a-z]{2}\//;
-  const isTranslation = translationPattern.test(filePath) && !filePath.includes('content/_original/');
-
-  if (isTranslation && entryPattern.test(filePath) && existsSync(filePath)) {
-    const content = readFileSync(filePath, 'utf-8');
-
-    // Should have French text in comments
-    const frenchCommentPattern = /\[\/\/\]: # \( [A-Za-z]/;
-    if (!frenchCommentPattern.test(content)) {
-      warnings.push('Translation may be missing French original in comments');
+    const markerCount = (body.match(/%%/g) || []).length;
+    if (markerCount % 2 !== 0) {
+      warnings.push(`Unbalanced %% markers (${markerCount} found, expected an even count)`);
     }
   }
 

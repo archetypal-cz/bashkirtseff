@@ -34,17 +34,32 @@ export { GlossaryReferences } from './glossary-references.js';
 // Glossary Merge utilities
 export type { MergeResult, MergeOptions, DuplicateCandidate } from './glossary-merge.js';
 export {
-  GLOSSARY_LINK_PATTERN,
   FRONTMATTER_ITEM_PATTERN,
+  TRANSLATION_DIRS,
   getAllContentFiles,
   findGlossaryFile,
   getGlossaryRelativePath,
-  updateGlossaryLinks,
   updateFrontmatter,
   extractBodyContent,
   levenshteinDistance,
+  planMergeRewrites,
   mergeGlossaryEntries,
 } from './glossary-merge.js';
+
+// Glossary link resolution
+export type { GlossaryLinkTarget } from './glossary-links.js';
+export {
+  MD_LINK_PATTERN,
+  resolveGlossaryLink,
+  glossaryLinkFrom,
+  rewriteGlossaryLinks,
+} from './glossary-links.js';
+
+// Atomic writes
+export { writeFileAtomic } from './atomic-write.js';
+
+// Glossary link depth
+export { localizeGlossaryPath } from './glossary-path.js';
 
 // Sync utilities
 export type {

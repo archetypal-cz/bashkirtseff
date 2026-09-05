@@ -19,6 +19,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import YAML from 'yaml';
+import { writeFileAtomic } from './lib/atomic-write.js';
 
 const CONTENT_DIR = path.resolve('content/_original');
 const GLOSSARY_DIR = path.resolve('content/_original/_glossary');
@@ -479,14 +480,62 @@ interface ApplyResult {
   tags: { paraId: string; glossaryId: string; displayName: string }[];
 }
 
+/**
+ * An accept list is an external JSON file, so every field it carries is checked
+ * against the carnet actually being tagged before anything is written.
+ */
+function candidateProblem(carnet: string, c: ScanCandidate): string | null {
+  for (const field of ['entryFile', 'paraId', 'glossaryId', 'glossaryPath', 'displayName'] as const) {
+    if (typeof c[field] !== 'string' || c[field].length === 0) return `missing ${field}`;
+  }
+
+  const segments = c.entryFile.split('/');
+  if (segments.length !== 2 || segments[0] !== carnet || segments.includes('..')) {
+    return `entry file is not in carnet ${carnet}`;
+  }
+
+  if (!fs.existsSync(path.join(CONTENT_DIR, c.entryFile))) {
+    return 'entry file does not exist';
+  }
+
+  if (path.isAbsolute(c.glossaryPath) || !/^[A-Z0-9_]+\.md$/.test(path.basename(c.glossaryPath))) {
+    return `glossary entry not found: ${c.glossaryPath}`;
+  }
+
+  // The path comes from an external JSON file: keep it inside the glossary tree
+  // and make it name the entry it claims to be.
+  const glossaryFile = path.resolve(GLOSSARY_DIR, c.glossaryPath);
+  const withinGlossary = path.relative(GLOSSARY_DIR, glossaryFile);
+  if (!withinGlossary || withinGlossary.startsWith('..') || path.isAbsolute(withinGlossary)) {
+    return `glossary path escapes the glossary tree: ${c.glossaryPath}`;
+  }
+
+  if (path.basename(glossaryFile) !== `${c.glossaryId}.md`) {
+    return `glossary path does not match id ${c.glossaryId}: ${c.glossaryPath}`;
+  }
+
+  if (!fs.existsSync(glossaryFile)) {
+    return `glossary entry not found: ${c.glossaryPath}`;
+  }
+
+  return null;
+}
+
 function applyToCarnet(
   carnet: string,
   candidates: ScanCandidate[],
   dryRun: boolean,
-): ApplyResult[] {
+): { results: ApplyResult[]; skipped: string[] } {
+  const skipped: string[] = [];
+
   // Group candidates by file
   const byFile = new Map<string, ScanCandidate[]>();
   for (const c of candidates) {
+    const problem = candidateProblem(carnet, c);
+    if (problem) {
+      skipped.push(`${c.entryFile} §${c.paraId} [${c.glossaryId}] — ${problem}`);
+      continue;
+    }
     const list = byFile.get(c.entryFile) || [];
     list.push(c);
     byFile.set(c.entryFile, list);
@@ -499,12 +548,20 @@ function applyToCarnet(
     const content = fs.readFileSync(filePath, 'utf-8');
     const { frontmatter, blocks, trailing } = parseBlocks(content);
 
+    const knownParaIds = new Set(blocks.map(b => b.paraId));
+    for (const c of fileCandidates) {
+      if (!knownParaIds.has(c.paraId)) {
+        skipped.push(`${c.entryFile} §${c.paraId} [${c.glossaryId}] — paragraph not found`);
+      }
+    }
+
     const result: ApplyResult = { file: relFile, tagsAdded: 0, tags: [] };
     let modified = false;
 
     // Deduplicate: one glossary ID per paragraph
     const candidatesByPara = new Map<string, Map<string, ScanCandidate>>();
     for (const c of fileCandidates) {
+      if (!knownParaIds.has(c.paraId)) continue;
       if (!candidatesByPara.has(c.paraId)) {
         candidatesByPara.set(c.paraId, new Map());
       }
@@ -550,7 +607,7 @@ function applyToCarnet(
       const sizeDelta = Math.abs(newContent.length - content.length);
       const maxDelta = result.tagsAdded * 200;
       if (sizeDelta <= maxDelta + 100) {
-        fs.writeFileSync(filePath, newContent, 'utf-8');
+        writeFileAtomic(filePath, newContent);
       } else {
         console.error(`WARNING: ${relFile} — size delta ${sizeDelta} exceeds expected ${maxDelta}. Skipping write.`);
       }
@@ -561,7 +618,7 @@ function applyToCarnet(
     }
   }
 
-  return results;
+  return { results, skipped };
 }
 
 function getConfidenceOrder(c: string): number {
@@ -896,7 +953,13 @@ Examples:
       console.log(`${dryRun ? 'DRY RUN: ' : ''}Applying ${candidates.length} tags to carnet ${carnet}`);
     }
 
-    const results = applyToCarnet(carnet, candidates, dryRun);
+    const { results, skipped } = applyToCarnet(carnet, candidates, dryRun);
+
+    if (skipped.length > 0) {
+      console.error(`Skipped ${skipped.length} candidate(s):`);
+      for (const s of skipped) console.error(`  ${s}`);
+      process.exitCode = 1;
+    }
 
     if (jsonOutput) {
       console.log(JSON.stringify(results, null, 2));

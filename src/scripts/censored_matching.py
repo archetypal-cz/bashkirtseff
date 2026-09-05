@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = ["rapidfuzz"]
+# ///
 """
 Match the 1887 censored French edition against our uncensored French originals.
 
@@ -382,11 +386,28 @@ def _load_mapping() -> dict:
 
 
 RE_ANNOTATION = re.compile(r"^%%\s.*%%\s*$")
+# One %% ... %% span, matched non-greedily so `%% a %% prose %% b %%` yields the
+# two annotations and leaves the prose behind.
+RE_ANNOTATION_SPAN = re.compile(r"%%\s.*?\s%%")
 RE_FRONTMATTER_SEP = re.compile(r"^---\s*$")
 RE_HEADING = re.compile(r"^#+\s+")
 RE_FOOTNOTE_REF = re.compile(r"\[\^[^\]]+\]")
 RE_FOOTNOTE_LINE = re.compile(r"^\[\^[^\]]+\]:\s")
 RE_HTML_COMMENT = re.compile(r"^\[//\]:\s*#\s*\(.*\)\s*$")
+
+
+def strip_annotation_spans(stripped: str) -> str:
+    """Return the prose left after removing the `%% ... %%` annotation spans of a line.
+
+    A line that BOTH starts and ends with `%%` is annotation in full and yields "": a
+    role comment may quote a literal `%%` in its prose ("...stranded after the closing
+    %%. Rejoined. %%"), and reading that inner marker as a delimiter would leak the
+    tail of the comment into the diary text. Any other line has each span removed and
+    the remainder kept, which covers `%% a %% prose` and `prose %% a %%`.
+    """
+    if stripped.startswith("%%") and stripped.endswith("%%"):
+        return ""
+    return RE_ANNOTATION_SPAN.sub(" ", stripped).strip()
 
 
 def _parse_entry_file(fpath: Path, carnet_id: str, date_str: str) -> list[EntryParagraph]:
@@ -433,11 +454,28 @@ def _parse_entry_file(fpath: Path, carnet_id: str, date_str: str) -> list[EntryP
                 current_para_id = id_match.group(1)
                 current_text_lines = []
                 current_line_start = line_num + 1
-            continue
+                continue
+            prose = strip_annotation_spans(stripped)
+            if not prose:
+                continue
+            stripped = prose
 
         if stripped.startswith("%%") and not stripped.endswith("%%"):
-            in_multiline_comment = True
-            continue
+            # One marker = a real block opener. Two or more = `%% note %% body`, whose
+            # annotation already closed on this line, so only the prose is kept.
+            if stripped.count("%%") == 1:
+                in_multiline_comment = True
+                continue
+            stripped = strip_annotation_spans(stripped)
+            if not stripped:
+                continue
+
+        # `prose %% annotation %%`: a trailing annotation after real text. Drop the
+        # span so the annotation is never compared as diary prose.
+        if "%%" in stripped:
+            stripped = strip_annotation_spans(stripped)
+            if not stripped:
+                continue
 
         if stripped:
             if RE_FOOTNOTE_LINE.match(stripped):

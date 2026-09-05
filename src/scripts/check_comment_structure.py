@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """Gate check: %%-comment structure violations that break rendering.
 
 The renderer (src/frontend/src/lib/content.ts) treats comments PER LINE:
@@ -74,13 +78,16 @@ def check_file(path, tree):
     return violations
 
 def main():
+    explicit = bool(sys.argv[1:])
     trees = sys.argv[1:] or TREES
     total = 0
     for tree in trees:
         base = ROOT / tree
         if not base.is_dir():
-            print(f'unknown tree: {tree}', file=sys.stderr)
-            return 2
+            if explicit:
+                print(f'unknown tree: {tree}', file=sys.stderr)
+                return 2
+            continue  # default tree not created yet (e.g. a language in preparation)
         for p in sorted(base.rglob('*.md')):
             sp = str(p)
             if '_glossary' in sp or '_archive' in sp or p.name in ('TranslationMemory.md', 'CLAUDE.md', 'PROGRESS.md', 'README.md'):

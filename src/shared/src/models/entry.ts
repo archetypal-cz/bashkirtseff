@@ -25,6 +25,11 @@ export interface DiaryEntry {
 
   /** Frontmatter metadata (contains para_start, title, themes, etc.) */
   metadata: Record<string, unknown>;
+
+  /** Paragraph ID notation used by the source file */
+  idStyle: 'obsidian' | 'legacy';
+  /** Problems found while parsing (unbalanced %%, duplicate footnote labels, ...) */
+  warnings: string[];
 }
 
 /**
@@ -43,6 +48,8 @@ export function createDiaryEntry(
     paragraphs: [],
     footnotes: {},
     metadata: {},
+    idStyle: 'obsidian',
+    warnings: [],
   };
 }
 

@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """
 Propagate a single glossary tag from the French source into existing translations.
 
@@ -18,6 +22,8 @@ Usage:
 """
 import os, re, glob, sys, argparse
 
+from _fileio import read_text, write_text_atomic
+
 def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument('--target', default='culture/themes/MARRIAGE.md',
@@ -34,6 +40,9 @@ def parse_args():
 
 PARA_RE = re.compile(r'^(?:%%\s*([0-9]{3}\.[0-9]{4})\s*%%|\[//\]:\s*#\s*\(\s*([0-9]{3}\.[0-9]{4})\s*\))\s*$')
 GLOSS_PREFIX_RE = re.compile(r'\]\((\.\.[^)]*?)_glossary/')
+TAG_LINE_RE = re.compile(
+    r'^\s*(?:%%|\[//\]:\s*#\s*\()\s*((?:\[#[^\]]+\]\([^)]+\)\s*)+)(?:%%|\))\s*$')
+LINK_TARGET_RE = re.compile(r'\[#[^\]]+\]\(([^)]+)\)')
 
 def para_id(line):
     m = PARA_RE.match(line.rstrip('\n'))
@@ -44,6 +53,18 @@ def para_id(line):
 def is_gloss_tag_line(line):
     return '_glossary/' in line and line.lstrip().startswith(('%%', '[//]:'))
 
+def tag_line_targets(line):
+    """Glossary paths carried by a PURE tag line (one holding nothing but [#X](path)
+    links). Prose that merely mentions a path — an RSR comment quoting one, say — yields
+    nothing, so it can neither seed nor suppress propagation."""
+    m = TAG_LINE_RE.match(line.rstrip('\n'))
+    if not m:
+        return []
+    return [t.split('_glossary/')[-1] for t in LINK_TARGET_RE.findall(m.group(1))]
+
+def line_tags_target(line, target):
+    return target in tag_line_targets(line)
+
 def source_tagged_paras(orig_dir, target):
     """Return {(carnet, basename): set(paraIds)} for source paragraphs carrying target."""
     out = {}
@@ -52,14 +73,14 @@ def source_tagged_paras(orig_dir, target):
         if base in ('README.md', 'PROGRESS.md'):
             continue
         carnet = os.path.basename(os.path.dirname(f))
-        lines = open(f, encoding='utf-8').read().split('\n')
+        lines = read_text(f)[0].split('\n')
         cur = None
         tagged = set()
         for ln in lines:
             pid = para_id(ln)
             if pid:
                 cur = pid
-            elif cur and target in ln:
+            elif cur and line_tags_target(ln, target):
                 tagged.add(cur)
         if tagged:
             out[(carnet, base)] = tagged
@@ -115,7 +136,8 @@ def propagate(args):
             if not os.path.isfile(tf):
                 no_file += 1
                 continue
-            lines = open(tf, encoding='utf-8').read().split('\n')
+            text, newline = read_text(tf)
+            lines = text.split('\n')
             prefix = detect_prefix(lines, lang)
             style = tag_style(lines)
             link = f'[#{display}]({prefix}_glossary/{target})'
@@ -137,13 +159,13 @@ def propagate(args):
                     insert_at = len(out_lines)  # after the ID line
                     while j < n and is_gloss_tag_line(lines[j]):
                         out_lines.append(lines[j])
-                        if target in lines[j]:
+                        if line_tags_target(lines[j], target):
                             block_has_target = True
                         j += 1
                     # also scan rest of block for an existing target tag (defensive)
                     k = j
                     while k < n and para_id(lines[k]) is None:
-                        if target in lines[k]:
+                        if line_tags_target(lines[k], target):
                             block_has_target = True
                         k += 1
                     if not block_has_target:
@@ -162,7 +184,7 @@ def propagate(args):
             if file_changed:
                 files_touched += 1
                 if args.apply:
-                    open(tf, 'w', encoding='utf-8').write('\n'.join(out_lines))
+                    write_text_atomic(tf, '\n'.join(out_lines), newline)
         grand[lang] = dict(added=added, files=files_touched, already=already,
                            missing_para=missing_para, no_file=no_file)
         print(f"{lang}: +{added} tags in {files_touched} files | "

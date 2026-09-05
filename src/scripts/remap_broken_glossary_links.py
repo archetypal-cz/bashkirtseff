@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
 """
 Repair broken glossary links in translations by resolving each broken target's
 BASENAME to the entry's actual location under content/_original/_glossary/.
@@ -18,6 +22,8 @@ Usage:
 """
 import glob, os, re, argparse
 from collections import Counter
+
+from _fileio import read_text, write_text_atomic
 
 GLOSS = 'content/_original/_glossary'
 LINK = re.compile(r'\]\((\.\./\.\./_original/_glossary/[^)#]+\.md)\)')
@@ -60,7 +66,7 @@ def main():
         broken_tails = Counter()
         for f in glob.glob(f'content/{lang}/[0-9][0-9][0-9]/*.md'):
             d = os.path.dirname(f)
-            for m in LINK.finditer(open(f, encoding='utf-8').read()):
+            for m in LINK.finditer(read_text(f)[0]):
                 if not os.path.isfile(os.path.normpath(os.path.join(d, m.group(1)))):
                     broken_tails[m.group(1).split('_glossary/')[1]] += 1
 
@@ -79,7 +85,7 @@ def main():
         changed_files = 0
         applied = 0
         for f in glob.glob(f'content/{lang}/[0-9][0-9][0-9]/*.md'):
-            txt = open(f, encoding='utf-8').read()
+            txt, newline = read_text(f)
             new = txt
             for old, act in mapping.items():
                 a = f'](../../_original/_glossary/{old})'
@@ -91,7 +97,7 @@ def main():
             if new != txt:
                 changed_files += 1
                 if args.apply:
-                    open(f, 'w', encoding='utf-8').write(new)
+                    write_text_atomic(f, new, newline)
 
         print(f"{lang}: remapped {applied} links in {changed_files} files | "
               f"distinct remapped={len(mapping)} | "

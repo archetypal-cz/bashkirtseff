@@ -264,9 +264,8 @@ localeToContentPath('cs')  // → 'cz'
 contentPathToLocale('cz')  // → 'cs'
 ```
 
-See [docs/LOCALE_MAPPING.md](docs/LOCALE_MAPPING.md). Note: a
-`src/i18n/__tests__/locale-mapping.test.ts` file exists but **there is no test
-runner installed** (no vitest/jest) — it does not currently run.
+See [docs/LOCALE_MAPPING.md](docs/LOCALE_MAPPING.md). Covered by
+`src/i18n/__tests__/locale-mapping.test.ts`, run with `npm test` (vitest).
 
 ---
 

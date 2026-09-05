@@ -32,8 +32,6 @@ export interface RenderOptions {
   /** Show all translation versions */
   showAllVersions: boolean;
 
-  /** Include YAML frontmatter */
-  includeFrontmatter: boolean;
   /** Include empty paragraphs */
   includeEmptyParagraphs: boolean;
 }
@@ -57,11 +55,10 @@ export function createDefaultRenderOptions(): RenderOptions {
     },
     includeGlossaryLinks: true,
     includeFootnotes: true,
-    elementOrder: ['glossary_links', 'paragraph_id', 'original_text', 'translated_text', 'notes'],
+    elementOrder: ['paragraph_id', 'glossary_links', 'original_text', 'translated_text', 'notes'],
     commentStyle: 'obsidian',
     noteFormat: 'timestamp',
     showAllVersions: false,
-    includeFrontmatter: true,
     includeEmptyParagraphs: true,
   };
 }
@@ -70,11 +67,41 @@ export function createDefaultRenderOptions(): RenderOptions {
  * Renderer for paragraph-clustered markdown files
  */
 /**
- * Format a timestamp for output (without milliseconds)
- * Converts 2025-12-07T16:00:00.000Z to 2025-12-07T16:00:00
+ * Format a timestamp for output as zone-less local time, e.g. 2025-12-07T16:00:00.
+ *
+ * Content timestamps are written in local time without a zone, so rendering a
+ * UTC instant with the `Z` stripped would silently shift the clock.
  */
 function formatTimestamp(date: Date): string {
-  return date.toISOString().replace(/\.\d{3}Z$/, '');
+  const pad = (value: number): string => String(value).padStart(2, '0');
+  return (
+    `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}` +
+    `T${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
+  );
+}
+
+/**
+ * Re-emit a footnote definition. Continuation lines keep the leading indent
+ * the parser needs to re-attach them, so the definition survives a reparse.
+ */
+function formatFootnoteDefinition(id: string, text: string): string[] {
+  const [first, ...rest] = text.split('\n');
+  return [`[^${id}]: ${first}`, ...rest.map((line) => `    ${line.trim()}`)];
+}
+
+/**
+ * Re-emit the timestamp exactly as the source wrote it, falling back to a
+ * formatted value for notes built in memory.
+ */
+function noteTimestamp(note: Note): string {
+  return note.rawTimestamp ?? formatTimestamp(note.timestamp);
+}
+
+/**
+ * Render a paragraph ID line in the notation the source file used
+ */
+function formatParagraphId(id: string, style: 'obsidian' | 'legacy'): string {
+  return style === 'legacy' ? `[//]: # (${id})` : `%% ${id} %%`;
 }
 
 export class ParagraphRenderer {
@@ -114,7 +141,7 @@ export class ParagraphRenderer {
         ([a], [b]) => a.localeCompare(b)
       );
       for (const [fnId, fnText] of sortedFootnotes) {
-        lines.push(`[^${fnId}]: ${fnText}`);
+        lines.push(...formatFootnoteDefinition(fnId, fnText));
       }
     }
 
@@ -130,7 +157,29 @@ export class ParagraphRenderer {
     // Handle headers specially
     if (para.isHeader) {
       const headerPrefix = '#'.repeat(para.headerLevel);
-      return `${headerPrefix} ${para.originalText ?? para.translatedText ?? ''}`;
+      const headerLines: string[] = [];
+      if (options.includeParagraphIds && !para.id.startsWith('header_')) {
+        headerLines.push(this.formatComment(para.id, options.commentStyle));
+      }
+      headerLines.push(`${headerPrefix} ${para.originalText ?? para.translatedText ?? ''}`);
+
+      // Headers carry glossary tags and notes like any other paragraph; drop
+      // them here and a render loses them (see pushAnnotations).
+      if (options.includeGlossaryLinks && para.glossaryLinks.length > 0) {
+        const glossaryLine = this.renderGlossaryLinks(para.glossaryLinks);
+        if (glossaryLine) {
+          headerLines.push(this.formatComment(glossaryLine, options.commentStyle));
+        }
+      }
+      for (const note of para.notes) {
+        if (options.includeNotes[note.role] !== false) {
+          headerLines.push(
+            this.formatComment(this.renderNote(note, options), options.commentStyle)
+          );
+        }
+      }
+
+      return headerLines.join('\n');
     }
 
     // Render elements in specified order
@@ -274,7 +323,7 @@ export class ParagraphRenderer {
         [NOTE_ROLES.TR]: false,
         [NOTE_ROLES.PA]: false,
       },
-      elementOrder: ['translated_text', 'notes', 'paragraph_id'],
+      elementOrder: ['paragraph_id', 'translated_text', 'notes'],
     };
     return this.renderEntry(entry, options);
   }
@@ -304,12 +353,13 @@ export class ParagraphRenderer {
       // Paragraph ID (must come first for parser to associate content correctly)
       // Output for all paragraphs including headers (unless synthetic ID)
       if (!para.id.startsWith('header_')) {
-        lines.push(`%% ${para.id} %%`);
+        lines.push(formatParagraphId(para.id, entry.idStyle));
       }
 
       if (para.isHeader) {
         const headerPrefix = '#'.repeat(para.headerLevel);
         lines.push(`${headerPrefix} ${para.originalText ?? ''}`);
+        this.pushAnnotations(lines, para);
         continue;
       }
 
@@ -323,7 +373,7 @@ export class ParagraphRenderer {
 
       // Notes (preserve file order for round-trip fidelity)
       for (const note of para.notes) {
-        lines.push(`%% ${formatTimestamp(note.timestamp)} ${note.role}: ${note.content.trimEnd()} %%`);
+        lines.push(`%% ${noteTimestamp(note)} ${note.role}: ${note.content.trimEnd()} %%`);
       }
 
       // Original text
@@ -339,7 +389,7 @@ export class ParagraphRenderer {
         ([a], [b]) => a.localeCompare(b)
       );
       for (const [fnId, fnText] of sortedFootnotes) {
-        lines.push(`[^${fnId}]: ${fnText}`);
+        lines.push(...formatFootnoteDefinition(fnId, fnText));
       }
     }
 
@@ -373,7 +423,7 @@ export class ParagraphRenderer {
 
       // 1. Paragraph ID (MUST come first for parser to associate content correctly)
       if (!para.id.startsWith('header_')) {
-        lines.push(`%% ${para.id} %%`);
+        lines.push(formatParagraphId(para.id, entry.idStyle));
       }
 
       if (para.isHeader) {
@@ -381,6 +431,7 @@ export class ParagraphRenderer {
         // For headers in translation, use translatedText if available, fall back to originalText
         const headerText = para.translatedText ?? para.originalText ?? '';
         lines.push(`${headerPrefix} ${headerText}`);
+        this.pushAnnotations(lines, para);
         continue;
       }
 
@@ -397,12 +448,9 @@ export class ParagraphRenderer {
         }
       }
 
-      // 4. Notes (sorted by timestamp)
-      const sortedNotes = [...para.notes].sort(
-        (a, b) => a.timestamp.getTime() - b.timestamp.getTime()
-      );
-      for (const note of sortedNotes) {
-        lines.push(`%% ${formatTimestamp(note.timestamp)} ${note.role}: ${note.content.trimEnd()} %%`);
+      // 4. Notes (file order is already meaningful; syncNotes owns ordering)
+      for (const note of para.notes) {
+        lines.push(`%% ${noteTimestamp(note)} ${note.role}: ${note.content.trimEnd()} %%`);
       }
 
       // 5. Translation versions
@@ -423,11 +471,27 @@ export class ParagraphRenderer {
         ([a], [b]) => a.localeCompare(b)
       );
       for (const [fnId, fnText] of sortedFootnotes) {
-        lines.push(`[^${fnId}]: ${fnText}`);
+        lines.push(...formatFootnoteDefinition(fnId, fnText));
       }
     }
 
     return lines.join('\n');
+  }
+
+  /**
+   * Emit the glossary links and notes carried by a header paragraph
+   */
+  private pushAnnotations(lines: string[], para: Paragraph): void {
+    if (para.glossaryLinks.length > 0) {
+      const glossaryLine = this.renderGlossaryLinks(para.glossaryLinks);
+      if (glossaryLine) {
+        lines.push(`%% ${glossaryLine} %%`);
+      }
+    }
+
+    for (const note of para.notes) {
+      lines.push(`%% ${noteTimestamp(note)} ${note.role}: ${note.content.trimEnd()} %%`);
+    }
   }
 
   /**
@@ -445,7 +509,7 @@ export class ParagraphRenderer {
    */
   private renderNote(note: Note, options: RenderOptions): string {
     if (options.noteFormat === 'timestamp') {
-      return `${formatTimestamp(note.timestamp)} ${note.role}: ${note.content.trimEnd()}`;
+      return `${noteTimestamp(note)} ${note.role}: ${note.content.trimEnd()}`;
     }
     return `${note.role}: ${note.content.trimEnd()}`;
   }
@@ -543,7 +607,7 @@ export class ParagraphRenderer {
         translatedText: para.translatedText,
         translationVersions: translationVersionsToObject(para.translationVersions),
         notes: para.notes.map((note) => ({
-          timestamp: note.timestamp.toISOString(),
+          timestamp: noteTimestamp(note),
           role: note.role,
           content: note.content,
         })),

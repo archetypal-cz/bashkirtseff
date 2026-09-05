@@ -18,13 +18,12 @@
 
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { writeFileAtomic } from './lib/atomic-write.js';
+import { rewriteGlossaryLinks } from '../shared/src/utils/glossary-links.js';
+import { getAllContentFiles } from '../shared/src/utils/glossary-merge.js';
 
 const BASE_PATH = process.cwd();
 const GLOSSARY_BASE = path.join(BASE_PATH, 'content/_original/_glossary');
-const CONTENT_BASE = path.join(BASE_PATH, 'content');
-
-// Pattern matching glossary links: [#Name](../_glossary/category/FILE.md)
-const GLOSSARY_LINK_PATTERN = /\[([^\]]*)\]\(\.\.\/_glossary\/([^)]+\.md)\)/g;
 
 interface MoveResult {
   id: string;
@@ -81,50 +80,6 @@ function findGlossaryFile(id: string): string | null {
 }
 
 /**
- * Get all content files (originals + all translations) that may contain glossary links
- */
-function getAllContentFiles(): string[] {
-  const files: string[] = [];
-
-  const walkDir = (dir: string) => {
-    if (!fs.existsSync(dir)) return;
-    const items = fs.readdirSync(dir, { withFileTypes: true });
-    for (const item of items) {
-      const fullPath = path.join(dir, item.name);
-      if (item.isDirectory()) {
-        // Skip _glossary, _carnets, _summary, _workflow, _archive, node_modules
-        if (item.name.startsWith('_') || item.name === 'node_modules') continue;
-        walkDir(fullPath);
-      } else if (item.name.endsWith('.md')) {
-        files.push(fullPath);
-      }
-    }
-  };
-
-  // Scan all language directories: _original, cz, en, uk, fr
-  const langDirs = ['_original', 'cz', 'en', 'uk', 'fr'];
-  for (const lang of langDirs) {
-    const langDir = path.join(CONTENT_BASE, lang);
-    if (!fs.existsSync(langDir)) continue;
-
-    const items = fs.readdirSync(langDir, { withFileTypes: true });
-    for (const item of items) {
-      if (!item.isDirectory()) continue;
-      // Skip special directories
-      if (item.name.startsWith('_')) continue;
-
-      const carnetDir = path.join(langDir, item.name);
-      const carnetFiles = fs.readdirSync(carnetDir)
-        .filter(f => f.endsWith('.md'))
-        .map(f => path.join(carnetDir, f));
-      files.push(...carnetFiles);
-    }
-  }
-
-  return files.sort();
-}
-
-/**
  * Move a glossary entry and update all references
  */
 function moveGlossaryEntry(id: string, newCategory: string, dryRun: boolean): MoveResult | null {
@@ -132,6 +87,7 @@ function moveGlossaryEntry(id: string, newCategory: string, dryRun: boolean): Mo
   const currentPath = findGlossaryFile(id);
   if (!currentPath) {
     console.error(`Error: Glossary file for ${id} not found`);
+    process.exitCode = 1;
     return null;
   }
 
@@ -144,63 +100,97 @@ function moveGlossaryEntry(id: string, newCategory: string, dryRun: boolean): Mo
   }
 
   const newFullPath = path.join(GLOSSARY_BASE, newRelative);
+  if (fs.existsSync(newFullPath)) {
+    console.error(`Error: destination already exists: _glossary/${newRelative}`);
+    process.exitCode = 1;
+    return null;
+  }
 
   console.log(`\nMoving ${id}:`);
   console.log(`  From: _glossary/${oldRelative}`);
   console.log(`  To:   _glossary/${newRelative}`);
   console.log();
 
-  // 2. Move the file
-  if (!dryRun) {
-    const newDir = path.dirname(newFullPath);
-    fs.mkdirSync(newDir, { recursive: true });
-    fs.renameSync(currentPath, newFullPath);
+  // 2. Compute every rewrite before the entry moves, so a file we cannot read
+  //    aborts the move instead of leaving half the references dangling.
+  const oldTarget = path.resolve(currentPath);
+  const newTarget = path.resolve(newFullPath);
+  const contentFiles = getAllContentFiles(BASE_PATH);
+
+  const pending: Array<{ file: string; writeTo: string; content: string; count: number }> = [];
+  const failures: string[] = [];
+
+  const newDir = path.dirname(newFullPath);
+
+  for (const file of contentFiles) {
+    let content: string;
+    try {
+      content = fs.readFileSync(file, 'utf-8');
+    } catch (e) {
+      failures.push(`${path.relative(BASE_PATH, file)}: ${e}`);
+      continue;
+    }
+
+    // The entry's own outgoing links are relative to its directory, so they are
+    // regenerated from the destination.
+    const isEntry = path.resolve(file) === oldTarget;
+
+    const rewritten = rewriteGlossaryLinks(
+      content,
+      path.dirname(file),
+      GLOSSARY_BASE,
+      (target) => {
+        if (target === oldTarget) return { path: newTarget };
+        return isEntry ? { path: target } : null;
+      },
+      isEntry ? newDir : undefined
+    );
+
+    if (rewritten.count > 0) {
+      // The entry itself is written at its destination: by then it has moved.
+      pending.push({
+        file,
+        writeTo: isEntry ? newFullPath : file,
+        content: rewritten.content,
+        count: rewritten.count,
+      });
+    }
   }
 
-  // 3. Find and update all references
-  const contentFiles = getAllContentFiles();
+  if (failures.length > 0) {
+    console.error(`Error: ${failures.length} file(s) could not be read; nothing was changed:`);
+    for (const failure of failures) console.error(`  ${failure}`);
+    process.exitCode = 1;
+    return null;
+  }
+
   const result: MoveResult = {
     id,
     oldPath: oldRelative,
     newPath: newRelative,
-    filesUpdated: 0,
-    refsUpdated: 0,
-    details: [],
+    filesUpdated: pending.length,
+    refsUpdated: pending.reduce((sum, p) => sum + p.count, 0),
+    details: pending.map((p) => ({ file: path.relative(BASE_PATH, p.file), count: p.count })),
   };
 
-  for (const file of contentFiles) {
-    try {
-      let content = fs.readFileSync(file, 'utf-8');
-      const originalContent = content;
-      let count = 0;
-
-      // Replace old path with new path in glossary links
-      content = content.replace(GLOSSARY_LINK_PATTERN, (match, displayText, linkPath) => {
-        if (linkPath === oldRelative) {
-          count++;
-          return `[${displayText}](../_glossary/${newRelative})`;
-        }
-        return match;
-      });
-
-      if (content !== originalContent) {
-        const relFile = path.relative(BASE_PATH, file);
-        result.filesUpdated++;
-        result.refsUpdated += count;
-        result.details.push({ file: relFile, count });
-
-        if (!dryRun) {
-          fs.writeFileSync(file, content, 'utf-8');
-        }
-        console.log(`  ${dryRun ? 'Would update' : 'Updated'}: ${relFile} (${count} ref${count > 1 ? 's' : ''})`);
-      }
-    } catch (e) {
-      console.error(`  Error processing ${file}:`, e);
-    }
+  // 3. Move the entry first: a failed mkdir/rename must not leave the references
+  //    already rewritten to a path nothing lives at.
+  if (!dryRun) {
+    fs.mkdirSync(newDir, { recursive: true });
+    fs.renameSync(currentPath, newFullPath);
   }
 
-  // 4. Clean up empty source directory
+  // 4. Apply the rewrites
+  for (const p of pending) {
+    const relFile = path.relative(BASE_PATH, p.file);
+    if (!dryRun) {
+      writeFileAtomic(p.writeTo, p.content);
+    }
+    console.log(`  ${dryRun ? 'Would update' : 'Updated'}: ${relFile} (${p.count} ref${p.count > 1 ? 's' : ''})`);
+  }
+
   if (!dryRun) {
+    // 5. Clean up empty source directory
     const oldDir = path.dirname(currentPath);
     try {
       const remaining = fs.readdirSync(oldDir);

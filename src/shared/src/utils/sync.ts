@@ -6,6 +6,9 @@ import { createParagraph, createDiaryEntry } from '../models/index.js';
 import { NOTE_ROLES } from '../constants/roles.js';
 import { ParagraphParser } from '../parser/paragraph-parser.js';
 import { ParagraphRenderer } from '../renderer/paragraph-renderer.js';
+import { parseFrontmatter } from '../parser/frontmatter.js';
+import { localizeGlossaryPath } from './glossary-path.js';
+import { writeFileAtomic } from './atomic-write.js';
 
 /**
  * Roles that should be synced from original to translation
@@ -145,7 +148,7 @@ export class EntrySync {
 
       // Check glossary links
       if (options.syncGlossaryLinks) {
-        const glossaryChanges = this.detectGlossaryChanges(origPara, transPara);
+        const glossaryChanges = this.detectGlossaryChanges(origPara, transPara, translation.language);
         changes.push(...glossaryChanges);
       }
     }
@@ -207,7 +210,8 @@ export class EntrySync {
    */
   private detectGlossaryChanges(
     origPara: Paragraph,
-    transPara: Paragraph
+    transPara: Paragraph,
+    language: string
   ): SyncChange[] {
     const changes: SyncChange[] = [];
 
@@ -223,7 +227,7 @@ export class EntrySync {
           type: 'glossary_added',
           paragraphId: origPara.id,
           description: `New glossary link [#${link.displayText}] in paragraph ${origPara.id}`,
-          newValue: link.filePath,
+          newValue: localizeGlossaryPath(link.filePath, language),
         });
       }
     }
@@ -231,13 +235,15 @@ export class EntrySync {
     // Check for updated paths (same display text, different path)
     for (const origLink of origPara.glossaryLinks) {
       const transLink = transPara.glossaryLinks.find(l => l.displayText === origLink.displayText);
-      if (transLink && transLink.filePath !== origLink.filePath) {
+      if (!transLink) continue;
+      const target = localizeGlossaryPath(origLink.filePath, language);
+      if (transLink.filePath !== target) {
         changes.push({
           type: 'glossary_updated',
           paragraphId: origPara.id,
           description: `Updated glossary path for [#${origLink.displayText}] in paragraph ${origPara.id}`,
           originalValue: transLink.filePath,
-          newValue: origLink.filePath,
+          newValue: target,
         });
       }
     }
@@ -328,7 +334,7 @@ export class EntrySync {
         changes.push({
           type: 'glossary_added',
           description: `New entry-level glossary link [#${link.displayText}]`,
-          newValue: link.filePath,
+          newValue: localizeGlossaryPath(link.filePath, translation.language),
         });
       }
     }
@@ -375,7 +381,7 @@ export class EntrySync {
 
       // Sync glossary links
       if (options.syncGlossaryLinks) {
-        this.syncGlossaryLinks(origPara, syncedPara);
+        this.syncGlossaryLinks(origPara, syncedPara, synced.language);
       }
 
       // Sync languages from original
@@ -439,12 +445,13 @@ export class EntrySync {
         synced.entryGlossaryLinks.map(l => [l.displayText, l])
       );
       for (const link of original.entryGlossaryLinks) {
+        const target = localizeGlossaryPath(link.filePath, synced.language);
         const existing = existingLinkMap.get(link.displayText);
         if (!existing) {
-          synced.entryGlossaryLinks.push({ ...link });
-        } else if (existing.filePath !== link.filePath) {
-          // Update path to match original
-          existing.filePath = link.filePath;
+          synced.entryGlossaryLinks.push({ ...link, filePath: target });
+        } else if (existing.filePath !== target) {
+          // Update path to match original, at the translation's depth
+          existing.filePath = target;
         }
       }
     }
@@ -468,26 +475,30 @@ export class EntrySync {
       }
     }
 
-    // Sort notes by timestamp
-    syncedPara.notes.sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
+    // Sort notes by timestamp, keeping the original order within a timestamp
+    const order = new Map(syncedPara.notes.map((n, i) => [n, i]));
+    syncedPara.notes.sort(
+      (a, b) => a.timestamp.getTime() - b.timestamp.getTime() || order.get(a)! - order.get(b)!
+    );
   }
 
   /**
    * Sync glossary links from original to translation paragraph
    */
-  private syncGlossaryLinks(origPara: Paragraph, syncedPara: Paragraph): void {
+  private syncGlossaryLinks(origPara: Paragraph, syncedPara: Paragraph, language: string): void {
     const existingLinks = new Map(
       syncedPara.glossaryLinks.map(l => [l.displayText, l])
     );
 
     for (const link of origPara.glossaryLinks) {
+      const target = localizeGlossaryPath(link.filePath, language);
       const existing = existingLinks.get(link.displayText);
       if (!existing) {
-        // Add new link
-        syncedPara.glossaryLinks.push({ ...link });
-      } else if (existing.filePath !== link.filePath) {
+        // Add new link at the translation's depth
+        syncedPara.glossaryLinks.push({ ...link, filePath: target });
+      } else if (existing.filePath !== target) {
         // Update path
-        existing.filePath = link.filePath;
+        existing.filePath = target;
       }
     }
   }
@@ -525,6 +536,13 @@ export class EntrySync {
         );
       }
 
+      const duplicate =
+        this.findDuplicateId(original) ?? this.findDuplicateId(translation);
+      if (duplicate) {
+        result.error = `Duplicate paragraph ID ${duplicate}; refusing to sync`;
+        return result;
+      }
+
       // Detect changes
       result.changes = this.detectChanges(original, translation, options);
 
@@ -544,8 +562,12 @@ export class EntrySync {
         }
       }
 
-      // Render back to markdown using the renderer's translation format
-      const content = this.renderer.renderTranslationEntry(synced);
+      // Render back to markdown using the renderer's translation format,
+      // keeping the translation file's own frontmatter untouched
+      const existingFrontmatter = fs.existsSync(translationPath)
+        ? parseFrontmatter(fs.readFileSync(translationPath, 'utf-8')).raw
+        : '';
+      const content = existingFrontmatter + this.renderer.renderTranslationEntry(synced);
 
       // Write if not dry run
       if (!options.dryRun) {
@@ -554,7 +576,7 @@ export class EntrySync {
         if (!fs.existsSync(dir)) {
           fs.mkdirSync(dir, { recursive: true });
         }
-        fs.writeFileSync(translationPath, content, 'utf-8');
+        writeFileAtomic(translationPath, content);
         result.written = true;
       }
 
@@ -605,7 +627,7 @@ export class EntrySync {
         result.errors.push(`${file}: ${entryResult.error}`);
       } else if (entryResult.changes.length > 0) {
         result.totalChanges += entryResult.changes.length;
-        if (entryResult.written) {
+        if (entryResult.written || options.dryRun) {
           result.entriesModified++;
         }
       } else {
@@ -634,6 +656,8 @@ export class EntrySync {
   private cloneEntry(entry: DiaryEntry): DiaryEntry {
     const cloned = createDiaryEntry(entry.filePath, entry.date, entry.language);
     cloned.location = entry.location;
+    // Without this a legacy-notation entry comes back as `%%` notation on sync
+    cloned.idStyle = entry.idStyle;
     cloned.entryGlossaryLinks = entry.entryGlossaryLinks.map(l => ({ ...l }));
     cloned.footnotes = { ...entry.footnotes };
     cloned.metadata = { ...entry.metadata };
@@ -653,6 +677,19 @@ export class EntrySync {
     });
 
     return cloned;
+  }
+
+  /**
+   * Return the first paragraph ID that appears more than once, if any
+   */
+  private findDuplicateId(entry: DiaryEntry): string | null {
+    const seen = new Set<string>();
+    for (const para of entry.paragraphs) {
+      if (para.id.startsWith('header_')) continue;
+      if (seen.has(para.id)) return para.id;
+      seen.add(para.id);
+    }
+    return null;
   }
 
   /**

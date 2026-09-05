@@ -51,7 +51,7 @@ glossary-stats:
 
 # Search glossary entries by pattern
 glossary-search pattern:
-    npx tsx src/scripts/glossary-refs.ts search {{pattern}}
+    npx tsx src/scripts/glossary-refs.ts search {{quote(pattern)}}
 
 # Generate detailed report for a glossary entry
 glossary-entry-report id:
@@ -80,7 +80,7 @@ glossary-dedup-analyze:
 
 # Execute glossary dedup plan (use --dry-run to preview)
 glossary-dedup-execute plan_file *FLAGS:
-    npx tsx src/scripts/glossary-dedup.ts execute {{FLAGS}} {{plan_file}}
+    npx tsx src/scripts/glossary-dedup.ts execute {{FLAGS}} {{quote(plan_file)}}
 
 # Ensure all glossary entries have YAML frontmatter (use --dry-run to preview)
 glossary-fm-ensure *FLAGS:
@@ -92,7 +92,7 @@ glossary-aliases *FLAGS:
 
 # Set a frontmatter field on a glossary entry
 glossary-fm-set id field value:
-    npx tsx src/scripts/glossary-frontmatter.ts set {{id}} {{field}} '{{value}}'
+    npx tsx src/scripts/glossary-frontmatter.ts set {{id}} {{field}} {{quote(value)}}
 
 # Show frontmatter for a glossary entry
 glossary-fm-get id:
@@ -100,11 +100,11 @@ glossary-fm-get id:
 
 # Add a single alias to a glossary entry
 glossary-add-alias id alias:
-    npx tsx src/scripts/glossary-frontmatter.ts add-alias {{id}} '{{alias}}'
+    npx tsx src/scripts/glossary-frontmatter.ts add-alias {{id}} {{quote(alias)}}
 
 # Remove a single alias from a glossary entry
 glossary-remove-alias id alias:
-    npx tsx src/scripts/glossary-frontmatter.ts remove-alias {{id}} '{{alias}}'
+    npx tsx src/scripts/glossary-frontmatter.ts remove-alias {{id}} {{quote(alias)}}
 
 # Query glossary frontmatter (supports --field, --category, --has-field, --no-field, --json, --limit)
 glossary-query *FLAGS:
@@ -124,7 +124,7 @@ theme-tag *FLAGS:
 # (additive; never edits text/other tags; default dry-run, pass --apply to write).
 # e.g. just propagate-tag --target culture/themes/MARRIAGE.md --display Marriage --apply
 propagate-tag *FLAGS:
-    python3 src/scripts/propagate_glossary_tag.py {{FLAGS}}
+    uv run src/scripts/propagate_glossary_tag.py {{FLAGS}}
 
 # Harvest reader-facing [^n] footnotes from a translation (default: English) into the
 # French source, so future/new-language translations inherit them via the sync tool.
@@ -136,13 +136,13 @@ propagate-tag *FLAGS:
 #   LOW (implies --med). --selftest validates anchoring against carnet 063 ground truth.
 # e.g. just harvest-footnotes --carnet 063 --med --report .claude/reports/footnote-harvest-063.md
 harvest-footnotes *FLAGS:
-    python3 src/scripts/harvest_footnotes.py {{FLAGS}}
+    uv run src/scripts/harvest_footnotes.py {{FLAGS}}
 
 # Repair broken glossary links in translations by resolving each target's basename
 # to the entry's real location (subcategory/category moves, bare-name/old styles).
 # Run AFTER the path-depth fix. Default dry-run; pass --apply. e.g. just remap-glossary-links --langs fr,uk --apply
 remap-glossary-links *FLAGS:
-    python3 src/scripts/remap_broken_glossary_links.py {{FLAGS}}
+    uv run src/scripts/remap_broken_glossary_links.py {{FLAGS}}
 
 # Show theme tag statistics without modifying files
 theme-stats *FLAGS:
@@ -170,7 +170,11 @@ glossary-apply carnet *FLAGS:
 reports status="open":
     #!/usr/bin/env bash
     echo "=== Bug Reports (status: {{status}}) ==="
-    ssh {{deploy_user}}@{{deploy_host}} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports WHERE status = '{{status}}' ORDER BY created_at\"" 2>/dev/null | while IFS='|' read -r para lang reason custom highlight status created; do
+    if ! rows=$(ssh {{deploy_user}}@{{deploy_host}} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports WHERE status = '{{status}}' ORDER BY created_at\""); then
+        echo "Query failed (see error above)" >&2
+        exit 1
+    fi
+    printf '%s\n' "$rows" | while IFS='|' read -r para lang reason custom highlight status created; do
         para=$(echo "$para" | xargs)
         lang=$(echo "$lang" | xargs)
         reason=$(echo "$reason" | xargs)
@@ -190,7 +194,11 @@ reports status="open":
 reports-all:
     #!/usr/bin/env bash
     echo "=== All Bug Reports ==="
-    ssh {{deploy_user}}@{{deploy_host}} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports ORDER BY created_at\"" 2>/dev/null | while IFS='|' read -r para lang reason custom highlight status created; do
+    if ! rows=$(ssh {{deploy_user}}@{{deploy_host}} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"SELECT paragraph_id, language, reason, coalesce(custom_reason, ''), coalesce(highlighted_text, ''), status, created_at::date FROM public.paragraph_reports ORDER BY created_at\""); then
+        echo "Query failed (see error above)" >&2
+        exit 1
+    fi
+    printf '%s\n' "$rows" | while IFS='|' read -r para lang reason custom highlight status created; do
         para=$(echo "$para" | xargs)
         lang=$(echo "$lang" | xargs)
         reason=$(echo "$reason" | xargs)
@@ -213,7 +221,10 @@ report-status paragraph_id language new_status:
         open|acknowledged|fixed|dismissed) ;;
         *) echo "Invalid status '{{new_status}}'. Use: open, acknowledged, fixed, dismissed"; exit 1 ;;
     esac
-    result=$(ssh {{deploy_user}}@{{deploy_host}} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"UPDATE public.paragraph_reports SET status = '{{new_status}}' WHERE paragraph_id = '{{paragraph_id}}' AND language = '{{language}}' RETURNING paragraph_id, status\"" 2>/dev/null)
+    if ! result=$(ssh {{deploy_user}}@{{deploy_host}} "docker exec auth-db psql -U gotrue -d gotrue -t -c \"UPDATE public.paragraph_reports SET status = '{{new_status}}' WHERE paragraph_id = '{{paragraph_id}}' AND language = '{{language}}' RETURNING paragraph_id, status\""); then
+        echo "Update failed (see error above)" >&2
+        exit 1
+    fi
     if echo "$result" | grep -q "{{paragraph_id}}"; then
         echo "Updated {{paragraph_id}} ({{language}}) → {{new_status}}"
     else
@@ -222,9 +233,10 @@ report-status paragraph_id language new_status:
 
 # === UTILITIES ===
 
-# Verify all entries are properly formatted
+# Count entry files in _original and cz (file counts only — for structural
+# checks use `just verify-carnet LANG CARNET` / `just verify-carnet-all LANG`)
 verify:
-    @echo "Verifying entry consistency..."
+    @echo "Counting entry files..."
     @find content/_original -name "*.md" -type f | wc -l | xargs echo "Total source files:"
     @find content/cz -name "*.md" -type f | wc -l | xargs echo "Total Czech files:"
 
@@ -290,9 +302,13 @@ scaffold carnet *FLAGS:
 round-trip-test *ARGS:
     npx tsx src/scripts/round-trip-test.ts {{ARGS}}
 
+# Run the @bashkirtseff/shared unit tests (parser, renderer, sync)
+test-shared:
+    npx tsx --test 'src/shared/src/**/*.test.ts'
+
 # Debug parser/renderer round-trip for a single file
 debug-roundtrip file:
-    npx tsx src/scripts/debug-roundtrip.ts {{file}}
+    npx tsx src/scripts/debug-roundtrip.ts {{quote(file)}}
 
 # Verify diary entries against source DOCX tomes
 docx-verify *ARGS:
@@ -310,23 +326,43 @@ sync carnet lang=default_lang *FLAGS:
 sync-all lang=default_lang:
     #!/usr/bin/env bash
     echo "Syncing all carnets for language: {{lang}}"
+    if [ ! -d "content/{{lang}}" ]; then
+        echo "No such language tree: content/{{lang}}"
+        exit 1
+    fi
     total_changes=0
     total_modified=0
+    failed=""
     for carnet_dir in content/{{lang}}/[0-9][0-9][0-9]; do
+        [ -d "$carnet_dir" ] || continue
         carnet=$(basename "$carnet_dir")
         if [ -d "content/_original/$carnet" ]; then
-            result=$(npx tsx src/scripts/sync-translation.ts "$carnet" --lang {{lang}} 2>&1)
+            if ! result=$(npx tsx src/scripts/sync-translation.ts "$carnet" --lang {{lang}} 2>&1); then
+                echo "  $carnet: FAILED"
+                echo "$result" | sed 's/^/    /'
+                failed="$failed $carnet"
+                continue
+            fi
             modified=$(echo "$result" | grep "^Modified:" | awk '{print $2}')
             changes=$(echo "$result" | grep "^Total changes:" | awk '{print $3}')
-            if [ "${changes:-0}" -gt 0 ]; then
+            if [ -z "$changes" ]; then
+                echo "  $carnet: FAILED (no 'Total changes:' line in output)"
+                failed="$failed $carnet"
+                continue
+            fi
+            if [ "$changes" -gt 0 ]; then
                 echo "  $carnet: $modified files, $changes changes"
-                total_changes=$((total_changes + ${changes:-0}))
+                total_changes=$((total_changes + changes))
                 total_modified=$((total_modified + ${modified:-0}))
             fi
         fi
     done
     echo ""
     echo "Total: $total_modified files modified, $total_changes changes"
+    if [ -n "$failed" ]; then
+        echo "FAILED carnets:$failed"
+        exit 1
+    fi
 
 # === FRONTMATTER MANAGEMENT ===
 
@@ -410,7 +446,7 @@ check-frontmatter carnet=default_carnet:
 
 # Check %%-comment structure (mid-line splices, multi-line blocks, stray markers) — these drop or leak text at render time. Args: optional tree names (default all)
 check-comments *TREES:
-    python3 src/scripts/check_comment_structure.py {{TREES}}
+    uv run src/scripts/check_comment_structure.py {{TREES}}
 
 # Check that relative .md links (glossary tags, cross-refs) resolve in a translation carnet
 check-links lang=default_lang carnet=default_carnet:
@@ -454,12 +490,22 @@ check-links lang=default_lang carnet=default_carnet:
 check-links-all lang=default_lang:
     #!/usr/bin/env bash
     echo "=== check-links sweep: content/{{lang}} ==="
+    if [ ! -d "content/{{lang}}" ]; then
+        echo "No such language tree: content/{{lang}}"
+        exit 1
+    fi
     fail=0
+    processed=0
     for dir in content/{{lang}}/[0-9][0-9][0-9]; do
         [ -d "$dir" ] || continue
         carnet=$(basename "$dir")
+        processed=$((processed + 1))
         just check-links {{lang}} "$carnet" || fail=1
     done
+    if [ "$processed" -eq 0 ]; then
+        echo "No carnets found in content/{{lang}}"
+        exit 1
+    fi
     if [ "$fail" -eq 0 ]; then
         echo "=== All carnets OK ==="
     else
@@ -478,25 +524,35 @@ verify-carnet lang carnet *FLAGS:
 verify-carnet-all lang=default_lang *FLAGS:
     #!/usr/bin/env bash
     echo "=== verify-carnet sweep: content/{{lang}} ==="
+    if [ ! -d "content/{{lang}}" ]; then
+        echo "No such language tree: content/{{lang}}"
+        exit 1
+    fi
     fail=0
+    processed=0
     for dir in content/{{lang}}/[0-9][0-9][0-9]; do
         [ -d "$dir" ] || continue
         carnet=$(basename "$dir")
+        processed=$((processed + 1))
         npx tsx src/scripts/verify-carnet.ts {{lang}} "$carnet" --quiet {{FLAGS}} || fail=1
     done
+    if [ "$processed" -eq 0 ]; then
+        echo "No carnets found in content/{{lang}}"
+        exit 1
+    fi
     if [ "$fail" -eq 0 ]; then echo "=== All carnets PASS ==="; else echo "=== Failures found (see above) ==="; exit 1; fi
 
 # Repo-wide broken glossary-link scan across ALL five trees (_original, cz, en, uk, fr).
 # Applies correct path-depth per tree, prints per-tree counts + broken targets, and
 # EXITS NON-ZERO if any link is broken (CI-usable). Use this, NOT `just sync`, for link health.
 check-links-repo *FLAGS:
-    python3 src/scripts/check_links_repo.py {{FLAGS}}
+    uv run src/scripts/check_links_repo.py {{FLAGS}}
 
 # Suggest existing glossary entries that might be the same entity as a missing/broken
 # target (REMAP candidate suggester). Matches filename + aliases:/name: + fuzzy/substring.
 # Read-only. e.g. just glossary-resolve NINA_BELLOTTI
 glossary-resolve name:
-    python3 src/scripts/glossary_resolve.py "{{name}}"
+    uv run src/scripts/glossary_resolve.py "{{name}}"
 
 # === WORKSPACE ===
 #
@@ -578,7 +634,7 @@ ed carnet="015":
 # Run researcher on a specific entry (headless)
 research entry carnet="015":
     @echo "Running researcher on {{entry}}..."
-    claude -p "First, read your full instructions from .claude/skills/researcher/SKILL.md. Then process entry content/_original/{{carnet}}/{{entry}}.md following those instructions. Return structured JSON output as specified." \
+    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/researcher/SKILL.md. Then process entry content/_original/{{carnet}}/{{entry}}.md following those instructions. Return structured JSON output as specified." \
         --output-format json \
         --allowedTools "Read,Write,Edit,Grep,Glob,WebSearch" \
         | tee content/_original/_workflow/research_{{entry}}.json
@@ -587,7 +643,7 @@ research entry carnet="015":
 # Run linguistic annotator on a specific entry (headless)
 annotate entry carnet="015":
     @echo "Running linguistic annotator on {{entry}}..."
-    claude -p "First, read your full instructions from .claude/skills/linguistic-annotator/SKILL.md. Then process entry content/_original/{{carnet}}/{{entry}}.md following those instructions. Return structured JSON output as specified." \
+    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/linguistic-annotator/SKILL.md. Then process entry content/_original/{{carnet}}/{{entry}}.md following those instructions. Return structured JSON output as specified." \
         --output-format json \
         --allowedTools "Read,Edit,Write,Grep,Glob" \
         | tee content/_original/_workflow/annotate_{{entry}}.json
@@ -597,7 +653,7 @@ annotate entry carnet="015":
 translate entry carnet="015" lang="cz":
     @echo "Running translator on {{entry}} to {{lang}}..."
     @mkdir -p content/{{lang}}/{{carnet}}
-    claude -p "First, read your full instructions from .claude/skills/translator/SKILL.md. Then translate content/_original/{{carnet}}/{{entry}}.md to the target language ({{lang}}). Output to content/{{lang}}/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
+    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/translator/SKILL.md. Then translate content/_original/{{carnet}}/{{entry}}.md to the target language ({{lang}}). Output to content/{{lang}}/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
         --output-format json \
         --allowedTools "Read,Edit,Write,Grep,Glob" \
         | tee content/_original/_workflow/translate_{{entry}}.json
@@ -606,7 +662,7 @@ translate entry carnet="015" lang="cz":
 # Run editor review on a translation (headless)
 review entry carnet="015" lang="cz":
     @echo "Running editor review on {{entry}}..."
-    claude -p "First, read your full instructions from .claude/skills/editor/SKILL.md. Then review translation content/{{lang}}/{{carnet}}/{{entry}}.md against original content/_original/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
+    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/editor/SKILL.md. Then review translation content/{{lang}}/{{carnet}}/{{entry}}.md against original content/_original/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
         --output-format json \
         --allowedTools "Read,Grep,Glob" \
         | tee content/_original/_workflow/review_{{entry}}.json
@@ -615,7 +671,7 @@ review entry carnet="015" lang="cz":
 # Run conductor final review (headless)
 conduct entry carnet="015" lang="cz":
     @echo "Running conductor final review on {{entry}}..."
-    claude -p "First, read your full instructions from .claude/skills/conductor/SKILL.md. Then do final review of content/{{lang}}/{{carnet}}/{{entry}}.md against content/_original/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
+    set -o pipefail; claude -p "First, read your full instructions from .claude/skills/conductor/SKILL.md. Then do final review of content/{{lang}}/{{carnet}}/{{entry}}.md against content/_original/{{carnet}}/{{entry}}.md. Return structured JSON output as specified." \
         --output-format json \
         --allowedTools "Read,Grep,Glob" \
         | tee content/_original/_workflow/conduct_{{entry}}.json
@@ -635,13 +691,15 @@ pipeline entry carnet="015" lang="cz":
     just conduct {{entry}} {{carnet}} {{lang}}
     @echo "=== Pipeline complete for {{entry}} ==="
 
-# OBSOLETE: headless pipeline unused since Feb 2026; also broken ($$ PID-expansion bug in the loop)
+# OBSOLETE: headless pipeline unused since Feb 2026; use skills/agent teams
 # Batch process multiple entries (research + annotate only)
 prepare-batch start end carnet="015":
-    @echo "Preparing entries {{start}} to {{end}} in Carnet {{carnet}}..."
-    @for entry in $(ls content/_original/{{carnet}}/ | grep -E "\.md$" | sort | sed -n '/^{{start}}/,/^{{end}}/p'); do \
-        just research $${entry%.md} {{carnet}}; \
-        just annotate $${entry%.md} {{carnet}}; \
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo "Preparing entries {{start}} to {{end}} in Carnet {{carnet}}..."
+    for entry in $(ls content/_original/{{carnet}}/ | grep -E '\.md$' | sort | sed -n '/^{{start}}/,/^{{end}}/p'); do
+        just research "${entry%.md}" {{carnet}}
+        just annotate "${entry%.md}" {{carnet}}
     done
 
 # Show workflow status for a carnet
@@ -655,11 +713,18 @@ workflow-report carnet="015":
     claude -p "Analyze all JSON files in content/_original/_workflow/. Generate a metrics report with agent performance, quality trends, and improvement suggestions. Save to content/_original/_workflow/metrics/carnet_{{carnet}}_metrics.md" \
         --allowedTools "Read,Write,Grep,Glob"
 
-# OBSOLETE: targets the dormant _workflow/ dir; also broken ($$confirm PID bug — always prints "Cancelled")
+# OBSOLETE: targets the dormant _workflow/ dir
 # Clean workflow state (careful!)
 workflow-clean:
-    @echo "This will delete all workflow state files. Continue? [y/N]"
-    @read -r confirm && [ "$$confirm" = "y" ] && rm -rf content/_original/_workflow/*.json || echo "Cancelled"
+    #!/usr/bin/env bash
+    echo "This will delete all workflow state files. Continue? [y/N]"
+    read -r confirm
+    if [ "$confirm" = "y" ]; then
+        rm -rf content/_original/_workflow/*.json
+        echo "Deleted."
+    else
+        echo "Cancelled"
+    fi
 
 # === HELP ===
 
@@ -691,7 +756,9 @@ help:
     @echo "  just status original      # Source preparation status"
     @echo "  just status original 001  # Specific carnet"
     @echo "  just status cz            # Czech translation status"
-    @echo "  just verify               # Verify file consistency"
+    @echo "  just verify               # Count entry files (_original + cz)"
+    @echo "  just verify-carnet cz 001 # Structural integrity gate for a carnet (lang: cz|uk|en|fr|es)"
+    @echo "  just verify-carnet-all cz # Run that gate across every carnet"
     @echo "  just search 'term'        # Search in source files (with links)"
     @echo "  just search-lang 'term' cz  # Search in a language (with links)"
     @echo ""
@@ -712,8 +779,8 @@ help:
     @echo "  just round-trip-test       # Run parser/renderer round-trip test"
     @echo "  just round-trip-test 001   # Test specific carnet"
     @echo "  just debug-roundtrip FILE  # Debug round-trip for a single file"
-    @echo "  just docx-verify           # Verify entries against source DOCX"
-    @echo "  just extract-czech         # Extract visible Czech text"
+    @echo "  just docx-verify compare   # Verify entries against source DOCX"
+    @echo "  just extract-czech FILE    # Extract visible Czech text from a file"
     @echo ""
     @echo "WORKSPACE (Docker dev environment):"
     @echo "  just workspace-up      # Build and start workspace container"
@@ -733,7 +800,7 @@ help:
     @echo "  just ed 015                     # Start Executive Director for Carnet 015"
     @echo "  just research 1881-05-15 015    # Run researcher on entry"
     @echo "  just annotate 1881-05-15 015    # Run linguistic annotator on entry"
-    @echo "  just translate 1881-05-15 015   # Translate entry to Czech"
+    @echo "  just translate 1881-05-15 015 cz # Translate entry to Czech"
     @echo "  just review 1881-05-15 015      # Run editor review"
     @echo "  just conduct 1881-05-15 015     # Run conductor final review"
     @echo "  just pipeline 1881-05-15 015    # Run full pipeline on entry"
@@ -752,7 +819,7 @@ help:
     @echo "  just stewardship-approve-all # Approve all drafts"
     @echo "  just stewardship-progress    # Show translation progress"
     @echo "  just stewardship-log         # View publish history"
-    @echo "  just stewardship-archive     # Archive old posted items"
+    @echo "  just stewardship-archive     # Archive all posted items"
     @echo ""
     @echo "ANALYTICS (Umami):"
     @echo "  just analytics-up       # Start Umami analytics stack"
@@ -834,7 +901,8 @@ stewardship-init:
     @touch docs/stewardship/published.log
     @echo "Stewardship directories initialized"
 
-# Archive old queue items (posted more than 7 days ago)
+# Archive every queue item marked `status: posted` (queue items carry no
+# posted-at date, so there is nothing to age them by)
 stewardship-archive:
     @echo "Moving posted items to archive..."
     @mkdir -p docs/stewardship/archive

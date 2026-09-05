@@ -17,6 +17,8 @@
 
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { writeFileAtomic } from './lib/atomic-write.js';
+import { normalizeCarnet } from './lib/carnet.js';
 
 const CONTENT_DIR = path.resolve('content/_original');
 
@@ -784,7 +786,7 @@ function processFile(
     const sizeDelta = Math.abs(newContent.length - content.length);
     const maxDelta = stats.tagsAdded * 200; // ~200 chars per tag line max
     if (sizeDelta <= maxDelta + 100) {
-      fs.writeFileSync(filePath, newContent, 'utf-8');
+      writeFileAtomic(filePath, newContent);
     } else {
       console.error(`  WARNING: ${relPath} — size delta ${sizeDelta} exceeds expected ${maxDelta}. Skipping write.`);
     }
@@ -795,31 +797,76 @@ function processFile(
 
 // ── Main ────────────────────────────────────────────────────────────
 
+const USAGE = `Usage: theme-tagger [carnet] [--theme <id>] [--dry-run] [--stats] [--verbose]
+
+Arguments:
+  carnet        Carnet ID, 1-3 digits (e.g., 001, 63, 106). Omit for all carnets.`;
+
 function main() {
   const args = process.argv.slice(2);
-  const dryRun = args.includes('--dry-run');
-  const statsOnly = args.includes('--stats');
-  const verbose = args.includes('--verbose');
 
-  // Theme filter
-  const themeFlag = args.find(a => a.startsWith('--theme=') || a === '--theme');
-  let selectedThemes = THEMES;
-  if (themeFlag) {
-    const themeValue = themeFlag.includes('=')
-      ? themeFlag.split('=')[1]
-      : args[args.indexOf('--theme') + 1];
-    if (themeValue) {
-      selectedThemes = THEMES.filter(t => t.id === themeValue || t.id.includes(themeValue));
-      if (selectedThemes.length === 0) {
-        console.error(`Unknown theme: ${themeValue}`);
-        console.error(`Available: ${THEMES.map(t => t.id).join(', ')}`);
-        process.exit(1);
+  if (args.includes('--help') || args.includes('-h')) {
+    console.log(USAGE);
+    process.exit(0);
+  }
+
+  let dryRun = false;
+  let statsOnly = false;
+  let verbose = false;
+  let themeValue: string | undefined;
+  const positional: string[] = [];
+
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    if (arg === '--dry-run') {
+      dryRun = true;
+    } else if (arg === '--stats') {
+      statsOnly = true;
+    } else if (arg === '--verbose') {
+      verbose = true;
+    } else if (arg === '--theme') {
+      themeValue = args[++i];
+      if (!themeValue) {
+        console.error('--theme requires a theme id');
+        process.exit(2);
       }
+    } else if (arg.startsWith('--theme=')) {
+      themeValue = arg.slice('--theme='.length);
+    } else if (arg.startsWith('-')) {
+      console.error(`Unknown option: ${arg}\n\n${USAGE}`);
+      process.exit(2);
+    } else {
+      positional.push(arg);
     }
   }
 
-  // Carnet filter
-  const carnetArg = args.find(a => /^\d{3}$/.test(a));
+  if (positional.length > 1) {
+    console.error(`Unexpected extra argument(s): ${positional.slice(1).join(' ')}\n\n${USAGE}`);
+    process.exit(2);
+  }
+
+  // Theme filter
+  let selectedThemes = THEMES;
+  if (themeValue) {
+    const wanted = themeValue;
+    selectedThemes = THEMES.filter(t => t.id === wanted || t.id.includes(wanted));
+    if (selectedThemes.length === 0) {
+      console.error(`Unknown theme: ${wanted}`);
+      console.error(`Available: ${THEMES.map(t => t.id).join(', ')}`);
+      process.exit(1);
+    }
+  }
+
+  // Carnet filter — a malformed id must never silently widen the run to every carnet
+  let carnetArg: string | undefined;
+  if (positional.length === 1) {
+    try {
+      carnetArg = normalizeCarnet(positional[0]);
+    } catch (err) {
+      console.error(err instanceof Error ? err.message : String(err));
+      process.exit(2);
+    }
+  }
 
   // Get carnet directories
   let carnets: string[];

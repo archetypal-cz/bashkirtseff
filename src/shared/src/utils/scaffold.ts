@@ -1,11 +1,13 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-import type { DiaryEntry, Paragraph } from '../models/index.js';
+import type { DiaryEntry, Paragraph, Note } from '../models/index.js';
 import { createParagraph, createDiaryEntry } from '../models/index.js';
 import { ParagraphParser } from '../parser/paragraph-parser.js';
 import { createFrontmatter } from '../parser/frontmatter.js';
 import { SYNC_ROLES } from './sync.js';
+import { localizeGlossaryPath } from './glossary-path.js';
+import { writeFileAtomic } from './atomic-write.js';
 
 /**
  * Placeholder text for untranslated paragraphs
@@ -74,10 +76,26 @@ export interface ScaffoldCarnetResult {
 }
 
 /**
- * Format a timestamp for output (without milliseconds)
+ * Format a timestamp for output as zone-less local time, e.g. 2025-12-07T16:00:00.
+ *
+ * Content timestamps are written in local time without a zone, so rendering a
+ * UTC instant with the `Z` stripped would silently shift the clock.
  */
 function formatTimestamp(date: Date): string {
-  return date.toISOString().replace(/\.\d{3}Z$/, '');
+  const pad = (value: number): string => String(value).padStart(2, '0');
+  return (
+    `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}` +
+    `T${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`
+  );
+}
+
+/**
+ * Re-emit the timestamp exactly as the source wrote it. Parsed timestamps are
+ * local-time, so reformatting through toISOString() would shift every note by
+ * the machine's UTC offset.
+ */
+function noteTimestamp(note: Note): string {
+  return note.rawTimestamp ?? formatTimestamp(note.timestamp);
 }
 
 /**
@@ -105,32 +123,45 @@ export class TranslationScaffold {
       options.targetLanguage
     );
 
-    // Copy metadata
-    scaffolded.location = original.location;
-    scaffolded.metadata = { ...original.metadata };
-    scaffolded.footnotes = { ...original.footnotes };
-    scaffolded.entryGlossaryLinks = original.entryGlossaryLinks.map(l => ({ ...l }));
+    const existingEntry = options.preserveExisting ? existingTranslation : null;
 
-    // Build map of existing translations
+    // Copy metadata
+    scaffolded.location = existingEntry?.location ?? original.location;
+    scaffolded.metadata = this.buildMetadata(original, existingEntry, options);
+    // Translated footnotes win; the source only supplies the ones not there yet.
+    scaffolded.footnotes = { ...original.footnotes, ...(existingEntry?.footnotes ?? {}) };
+    scaffolded.entryGlossaryLinks = original.entryGlossaryLinks.map(l => ({
+      ...l,
+      filePath: localizeGlossaryPath(l.filePath, options.targetLanguage),
+    }));
+
+    // Build map of existing translations. Headers without their own `%% id %%`
+    // get a line-index-derived id (`header_<line>`), which differs between the
+    // source and its translation, so they are matched by ordinal instead.
     const existingParagraphs = new Map<string, Paragraph>();
-    if (existingTranslation && options.preserveExisting) {
-      for (const para of existingTranslation.paragraphs) {
-        existingParagraphs.set(para.id, para);
+    const existingHeaders: Paragraph[] = [];
+    if (existingEntry) {
+      for (const para of existingEntry.paragraphs) {
+        if (para.id.startsWith('header_')) {
+          existingHeaders.push(para);
+        } else {
+          existingParagraphs.set(para.id, para);
+        }
       }
     }
 
     // Process each original paragraph
+    let headerOrdinal = 0;
     for (const origPara of original.paragraphs) {
-      const existing = existingParagraphs.get(origPara.id);
+      const existing = origPara.id.startsWith('header_')
+        ? existingHeaders[headerOrdinal++]
+        : existingParagraphs.get(origPara.id);
 
-      // Check if existing has real translation (not TODO)
-      const hasRealTranslation = existing?.translatedText &&
-        existing.translatedText !== TODO_PLACEHOLDER &&
-        existing.translatedText.trim() !== '';
-
-      if (hasRealTranslation) {
-        // Preserve existing translation, but update notes from original
-        const preserved = this.cloneParagraph(existing!);
+      if (existing) {
+        // Preserve the paragraph the translation already has — translated text,
+        // role notes and local tags alike — and refresh only source-derived data.
+        // A TODO paragraph carries notes too, so it must survive as well.
+        const preserved = this.cloneParagraph(existing);
 
         // Sync notes from original (RSR, LAN)
         if (options.includeRSR || options.includeLAN) {
@@ -138,10 +169,30 @@ export class TranslationScaffold {
         }
 
         // Update glossary links from original
-        preserved.glossaryLinks = origPara.glossaryLinks.map(l => ({ ...l }));
+        preserved.glossaryLinks = origPara.glossaryLinks.map(l => ({
+          ...l,
+          filePath: localizeGlossaryPath(l.filePath, options.targetLanguage),
+        }));
+
+        // A translated header usually carries no `%% French %%` comment, so the
+        // parser files its text under originalText. Recover it as the translation
+        // before the source heading overwrites it.
+        if (
+          preserved.isHeader &&
+          !preserved.translatedText?.trim() &&
+          preserved.originalText?.trim() &&
+          preserved.originalText !== origPara.originalText
+        ) {
+          preserved.translatedText = preserved.originalText;
+        }
 
         // Ensure original text is current
         preserved.originalText = origPara.originalText;
+
+        // A paragraph that gained source text still needs its TODO marker.
+        if (!preserved.translatedText?.trim() && origPara.originalText?.trim()) {
+          preserved.translatedText = TODO_PLACEHOLDER;
+        }
 
         scaffolded.paragraphs.push(preserved);
       } else {
@@ -151,7 +202,10 @@ export class TranslationScaffold {
         newPara.headerLevel = origPara.headerLevel;
         newPara.originalText = origPara.originalText;
         newPara.languages = [...origPara.languages];
-        newPara.glossaryLinks = origPara.glossaryLinks.map(l => ({ ...l }));
+        newPara.glossaryLinks = origPara.glossaryLinks.map(l => ({
+          ...l,
+          filePath: localizeGlossaryPath(l.filePath, options.targetLanguage),
+        }));
 
         // Copy notes from original (RSR, LAN only)
         if (options.includeRSR || options.includeLAN) {
@@ -172,6 +226,50 @@ export class TranslationScaffold {
   }
 
   /**
+   * Compose the translation frontmatter. An existing translation's own keys win
+   * key-by-key (approval flags, redaction passes, source_hash); the source only
+   * fills in what is missing.
+   */
+  private buildMetadata(
+    original: DiaryEntry,
+    existingTranslation: DiaryEntry | null,
+    options: ScaffoldOptions
+  ): Record<string, unknown> {
+    const fromSource: Record<string, unknown> = {
+      date: original.date,
+      carnet: original.metadata.carnet || original.metadata.carnetId,
+      language: options.targetLanguage,
+    };
+
+    // Only a brand-new stub is "pending" — never stamp that onto worked-on files.
+    if (!existingTranslation) {
+      fromSource.status = 'translation_pending';
+    }
+
+    if (original.location) {
+      fromSource.location = original.location;
+    }
+    if (original.metadata.title) {
+      fromSource.title_original = original.metadata.title;
+    }
+    for (const key of ['people', 'places', 'themes']) {
+      if (original.metadata[key]) {
+        fromSource[key] = original.metadata[key];
+      }
+    }
+
+    const merged: Record<string, unknown> = existingTranslation
+      ? { ...existingTranslation.metadata }
+      : {};
+    for (const [key, value] of Object.entries(fromSource)) {
+      if (!(key in merged)) {
+        merged[key] = value;
+      }
+    }
+    return merged;
+  }
+
+  /**
    * Sync RSR and LAN notes from original to scaffolded paragraph
    */
   private syncNotesFromOriginal(
@@ -180,7 +278,7 @@ export class TranslationScaffold {
     options: ScaffoldOptions
   ): void {
     const existingKeys = new Set(
-      targetPara.notes.map(n => `${formatTimestamp(n.timestamp)}|${n.role}`)
+      targetPara.notes.map(n => `${noteTimestamp(n)}|${n.role}`)
     );
 
     for (const note of origPara.notes) {
@@ -189,7 +287,7 @@ export class TranslationScaffold {
         (options.includeLAN && note.role === 'LAN');
 
       if (shouldInclude) {
-        const key = `${formatTimestamp(note.timestamp)}|${note.role}`;
+        const key = `${noteTimestamp(note)}|${note.role}`;
         if (!existingKeys.has(key)) {
           targetPara.notes.push({ ...note });
           existingKeys.add(key);
@@ -197,8 +295,35 @@ export class TranslationScaffold {
       }
     }
 
-    // Sort notes by timestamp
-    targetPara.notes.sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
+    // Sort notes by timestamp, keeping the original order within a timestamp
+    const order = new Map(targetPara.notes.map((n, i) => [n, i]));
+    targetPara.notes.sort(
+      (a, b) => a.timestamp.getTime() - b.timestamp.getTime() || order.get(a)! - order.get(b)!
+    );
+  }
+
+  /**
+   * Render a paragraph's glossary tags followed by its notes, oldest first.
+   * Shared by the header and body branches so both emit the same shape.
+   */
+  private renderTagsAndNotes(para: Paragraph): string[] {
+    const out: string[] = [];
+
+    if (para.glossaryLinks.length > 0) {
+      const glossaryLine = para.glossaryLinks
+        .map(l => `[#${l.displayText}](${l.filePath})`)
+        .join(' ');
+      out.push(`%% ${glossaryLine} %%`);
+    }
+
+    const sortedNotes = [...para.notes].sort(
+      (a, b) => a.timestamp.getTime() - b.timestamp.getTime()
+    );
+    for (const note of sortedNotes) {
+      out.push(`%% ${noteTimestamp(note)} ${note.role}: ${note.content} %%`);
+    }
+
+    return out;
   }
 
   /**
@@ -207,33 +332,8 @@ export class TranslationScaffold {
   renderScaffoldedEntry(entry: DiaryEntry, options: ScaffoldOptions): string {
     const lines: string[] = [];
 
-    // Frontmatter
-    const metadata: Record<string, unknown> = {
-      date: entry.date,
-      carnet: entry.metadata.carnet || entry.metadata.carnetId,
-      language: options.targetLanguage,
-      status: 'translation_pending',
-    };
-
-    if (entry.location) {
-      metadata.location = entry.location;
-    }
-
-    // Copy over other useful metadata
-    if (entry.metadata.title) {
-      metadata.title_original = entry.metadata.title;
-    }
-    if (entry.metadata.people) {
-      metadata.people = entry.metadata.people;
-    }
-    if (entry.metadata.places) {
-      metadata.places = entry.metadata.places;
-    }
-    if (entry.metadata.themes) {
-      metadata.themes = entry.metadata.themes;
-    }
-
-    lines.push(createFrontmatter(metadata).trim());
+    // Frontmatter — already merged by buildMetadata(), so render it verbatim
+    lines.push(createFrontmatter(entry.metadata).trim());
     lines.push('');
 
     // Entry-level glossary links
@@ -259,15 +359,29 @@ export class TranslationScaffold {
         const translatedHeaderText = para.translatedText === TODO_PLACEHOLDER
           ? `${TODO_PLACEHOLDER}`
           : (para.translatedText?.replace(/^#+\s*/, '') ?? originalHeaderText);
+        const hasRealId = !para.id.startsWith('header_');
+        // Tags and notes, in the paragraph renderer's order (tags then notes)
+        const headerMeta = this.renderTagsAndNotes(para);
         // Paragraph ID (if not a generated header ID)
-        if (!para.id.startsWith('header_')) {
+        if (hasRealId) {
           lines.push(`%% ${para.id} %%`);
         }
         // Comment with original header text (without the # prefix)
         if (originalHeaderText) {
           lines.push(`%% ${originalHeaderText} %%`);
         }
+        // A real `%% id %%` opens the cluster, so its tags and notes belong with
+        // it, ahead of the heading line — where the paragraph renderer and the
+        // existing corpus put them. An id-less heading is a one-line cluster of
+        // its own: comments in front of it make the parser drop the heading, so
+        // there they have to follow it.
+        if (hasRealId) {
+          lines.push(...headerMeta);
+        }
         lines.push(`${headerPrefix} ${translatedHeaderText}`);
+        if (!hasRealId) {
+          lines.push(...headerMeta);
+        }
         continue;
       }
 
@@ -279,21 +393,8 @@ export class TranslationScaffold {
         lines.push(`%% ${para.originalText} %%`);
       }
 
-      // 3. Glossary links
-      if (para.glossaryLinks.length > 0) {
-        const glossaryLine = para.glossaryLinks
-          .map(l => `[#${l.displayText}](${l.filePath})`)
-          .join(' ');
-        lines.push(`%% ${glossaryLine} %%`);
-      }
-
-      // 4. Notes (RSR, LAN only - sorted by timestamp)
-      const sortedNotes = [...para.notes].sort(
-        (a, b) => a.timestamp.getTime() - b.timestamp.getTime()
-      );
-      for (const note of sortedNotes) {
-        lines.push(`%% ${formatTimestamp(note.timestamp)} ${note.role}: ${note.content} %%`);
-      }
+      // 3./4. Glossary links, then notes (sorted by timestamp)
+      lines.push(...this.renderTagsAndNotes(para));
 
       // 5. Translated text (or TODO placeholder)
       if (para.translatedText) {
@@ -380,7 +481,7 @@ export class TranslationScaffold {
         if (!fs.existsSync(dir)) {
           fs.mkdirSync(dir, { recursive: true });
         }
-        fs.writeFileSync(translationPath, content, 'utf-8');
+        writeFileAtomic(translationPath, content);
         result.created = true;
       } else {
         result.created = false;
@@ -417,9 +518,10 @@ export class TranslationScaffold {
       return result;
     }
 
-    // Find all markdown files in original (exclude _workflow folder)
+    // Entry files only — README/PROGRESS are carnet docs, not diary entries,
+    // and scaffolding them rewrites them into a translation stub.
     const files = fs.readdirSync(originalDir)
-      .filter(f => f.endsWith('.md') && !f.startsWith('_'))
+      .filter(f => f.endsWith('.md') && !f.startsWith('_') && f !== 'README.md' && f !== 'PROGRESS.md')
       .sort();
 
     for (const file of files) {

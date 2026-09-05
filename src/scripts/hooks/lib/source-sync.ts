@@ -3,11 +3,12 @@
  */
 
 import { createHash } from 'crypto';
-import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
+import { readFileSync, existsSync, readdirSync } from 'fs';
 import { join, basename } from 'path';
 import { parse as parseYaml, stringify as stringifyYaml } from 'yaml';
 import { getProjectRoot, getTimestamp } from './config.js';
 import { addChangelogEntry, getReadmePath } from './readme-parser.js';
+import { writeFileAtomic } from '../../lib/atomic-write.js';
 
 /**
  * Calculate hash of French content (excluding comments/annotations)
@@ -91,7 +92,7 @@ export function updateSourceHash(translationPath: string, newHash: string): bool
         `---\n${newFrontmatter}\n---`
       );
 
-      writeFileSync(translationPath, newContent);
+      writeFileAtomic(translationPath, newContent);
       return true;
     } catch {
       return false;
@@ -112,7 +113,7 @@ export function updateSourceHash(translationPath: string, newHash: string): bool
     const newFrontmatter = stringifyYaml(frontmatter).trim();
     const newContent = `---\n${newFrontmatter}\n---\n\n${content}`;
 
-    writeFileSync(translationPath, newContent);
+    writeFileAtomic(translationPath, newContent);
     return true;
   }
 }
@@ -128,13 +129,13 @@ function getTranslationLanguages(): string[] {
     return [];
   }
 
-  return readdirSync(contentPath)
-    .filter(d => d !== '_original' && !d.startsWith('.') && !d.endsWith('.md'))
-    .filter(d => {
-      const langPath = join(contentPath, d);
-      return existsSync(langPath) &&
-             readdirSync(langPath).some(f => /^\d{3}$/.test(f));
-    });
+  // Directories only: a stray root-level file (e.g. `CLAUDE.md.tmp`) must never
+  // be treated as a language tree. Mirrors todo-sync.ts getLanguages().
+  return readdirSync(contentPath, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+    .filter(d => d !== '_original' && !d.startsWith('.'))
+    .filter(d => readdirSync(join(contentPath, d)).some(f => /^\d{3}$/.test(f)));
 }
 
 /**
@@ -245,7 +246,7 @@ export function notifySourceChange(
   const insertPoint = content.indexOf('### Local') + '### Local\n'.length;
   const newContent = content.slice(0, insertPoint) + newTodo + content.slice(insertPoint);
 
-  writeFileSync(readmePath, newContent);
+  writeFileAtomic(readmePath, newContent);
   return true;
 }
 

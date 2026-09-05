@@ -15,6 +15,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { parseFrontmatter } from '../shared/src/parser/frontmatter.js';
+import { normalizeCarnet } from './lib/carnet.js';
 
 const BASE_PATH = process.cwd();
 const CONTENT_BASE = path.join(BASE_PATH, 'content');
@@ -243,7 +244,16 @@ Usage:
   }
 
   const lang = args[0];
-  const carnet = args[1];
+  let carnet = args[1];
+
+  if (carnet !== undefined) {
+    try {
+      carnet = normalizeCarnet(carnet);
+    } catch (err) {
+      console.error(err instanceof Error ? err.message : String(err));
+      process.exit(2);
+    }
+  }
 
   if (!lang) {
     printOverview();

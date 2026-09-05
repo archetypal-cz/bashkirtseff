@@ -118,49 +118,158 @@ function classify(rawCommand: string, cwd?: string): string | null {
     }
   };
 
+  // Quote-aware tokenizer. Keeps `git restore "my file.md"` as ONE token and
+  // normalises `\git` / `'git'` / "--hard" to their bare forms. Deliberately not
+  // a shell grammar: no expansion, no here-docs, no operator handling.
+  const tokenize = (input: string): string[] => {
+    const out: string[] = [];
+    let cur = '';
+    let started = false;
+    let quote: string | null = null;
+    for (let i = 0; i < input.length; i++) {
+      const ch = input[i];
+      if (quote) {
+        if (ch === quote) {
+          quote = null;
+          continue;
+        }
+        if (quote === '"' && ch === '\\' && i + 1 < input.length) {
+          cur += input[++i];
+          continue;
+        }
+        cur += ch;
+        continue;
+      }
+      if (ch === '"' || ch === "'") {
+        quote = ch;
+        started = true;
+        continue;
+      }
+      if (ch === '\\' && i + 1 < input.length) {
+        cur += input[++i];
+        started = true;
+        continue;
+      }
+      if (/\s/.test(ch)) {
+        if (started) {
+          out.push(cur);
+          cur = '';
+          started = false;
+        }
+        continue;
+      }
+      cur += ch;
+      started = true;
+    }
+    if (started) out.push(cur);
+    return out;
+  };
+
+  // Wrapper options that consume a following operand. Missing one would leave the
+  // operand looking like the command word (`env -u X git …` -> `X`).
+  const WRAPPER_OPERAND_OPTS: Record<string, string[]> = {
+    env: ['-u', '--unset', '-C', '--chdir', '--block-signal', '--default-signal', '--ignore-signal'],
+    sudo: [
+      '-u', '--user', '-g', '--group', '-p', '--prompt', '-C', '--close-from',
+      '-D', '--chdir', '-h', '--host', '-r', '--role', '-t', '--type',
+      '-U', '--other-user', '-R', '--chroot',
+    ],
+    command: [],
+  };
+
+  // git's own global options that consume a following operand when given bare.
+  // Attached forms (`-C.`, `-ccore.x=y`, `--git-dir=.git`) carry their own value.
+  const GIT_OPERAND_OPTS = [
+    '-C', '-c', '--git-dir', '--work-tree', '--namespace', '--config-env',
+    '--super-prefix', '--attr-source',
+  ];
+
+  // Short options whose value may be attached (`-sHEAD`, `-mmsg`): such a token is
+  // NOT a combined flag cluster and must not be expanded letter by letter.
+  const ATTACHED_VALUE_SHORTS = new Set(['s', 'm', 'o', 'F', 'C']);
+
   // Only concern ourselves with git invocations. Split on shell separators so a
   // chained command like `foo && git reset --hard` is still inspected.
-  const segments = command.split(/&&|\|\||;|\|/);
+  const segments = command.split(/&&|\|\||;|\||\n|\$\(|`/);
 
   for (const segRaw of segments) {
-    let seg = segRaw.trim();
+    // A trailing `)` closes the `$(...)` we split on.
+    const seg = segRaw.trim().replace(/\)+$/, '');
+    if (!seg) continue;
 
-    // Strip a leading `sudo` and any leading ENV=VAR assignments so the command
-    // word is exposed. This is also how we avoid matching `git` when it appears
-    // only as an argument (e.g. `echo git reset --hard`): the segment must START
-    // with the git command word.
-    seg = seg.replace(/^sudo\s+/, '');
-    while (true) {
-      const m = seg.match(/^[A-Za-z_][A-Za-z0-9_]*=\S*\s+/);
-      if (!m) break;
-      seg = seg.slice(m[0].length);
+    const tokens = tokenize(seg);
+    let i = 0;
+
+    // Strip leading `ENV=VAL` assignments and `sudo`/`env`/`command` wrappers,
+    // consuming wrapper options AND their operands, so the command word is
+    // exposed. This is also how we avoid matching `git` when it appears only as
+    // an argument (`echo git reset --hard`): the segment must START with git.
+    while (i < tokens.length) {
+      const t = tokens[i];
+      if (/^[A-Za-z_][A-Za-z0-9_]*=/.test(t)) {
+        i++;
+        continue;
+      }
+      if (t !== 'sudo' && t !== 'env' && t !== 'command') break;
+      const operandOpts = WRAPPER_OPERAND_OPTS[t];
+      i++;
+      while (i < tokens.length && tokens[i].startsWith('-') && tokens[i] !== '--') {
+        const opt = tokens[i];
+        i++;
+        // `env -S '<command line>'` hides a whole command line in one operand:
+        // expand it in place rather than skipping over it.
+        if (opt === '-S' || opt === '--split-string') {
+          if (i < tokens.length) tokens.splice(i, 1, ...tokenize(tokens[i]));
+          break;
+        }
+        if ((opt.startsWith('-S') && opt.length > 2) || opt.startsWith('--split-string=')) {
+          tokens.splice(i, 0, ...tokenize(opt.replace(/^(?:-S|--split-string=)/, '')));
+          break;
+        }
+        if (operandOpts.includes(opt) && i < tokens.length) i++;
+      }
+      if (i < tokens.length && tokens[i] === '--') i++;
     }
 
     // The segment must begin with the literal `git` command word.
-    if (!/^git(\s|$)/.test(seg)) continue;
+    if (tokens[i] !== 'git') continue;
+    i++;
 
-    // Everything after the literal leading `git` token.
-    let rest = seg.replace(/^git\b/, '').trim();
-    // Strip global options that precede the subcommand.
-    while (true) {
-      const m = rest.match(/^(-C\s+\S+|-c\s+\S+|--no-pager|--git-dir\s+\S+|--work-tree\s+\S+|-p|--paginate)\s+/);
-      if (!m) break;
-      rest = rest.slice(m[0].length).trim();
+    // Strip git global options (separated or attached) before the subcommand.
+    while (i < tokens.length && tokens[i].startsWith('-') && tokens[i] !== '--') {
+      const opt = tokens[i];
+      i++;
+      if (GIT_OPERAND_OPTS.includes(opt) && i < tokens.length) i++;
     }
 
-    const tokens = rest.split(/\s+/);
-    const sub = tokens[0] || '';
-    const args = tokens.slice(1);
-    const argStr = args.join(' ');
+    const sub = tokens[i] || '';
+    const args = tokens.slice(i + 1);
+
+    // Flag parsing STOPS at `--`: everything after it is a pathspec, never an
+    // option (`git clean -f -- -n` deletes a file named `-n`, it is no dry run).
+    const ddIndex = args.indexOf('--');
+    const hasDashDash = ddIndex !== -1;
+    const optArgs = hasDashDash ? args.slice(0, ddIndex) : args;
+    const pathArgs = hasDashDash ? args.slice(ddIndex + 1) : [];
+
+    // Expand combined short flags: `-SW` -> `-S -W`, `-fdn` -> `-f -d -n`.
+    const flags: string[] = [];
+    for (const a of optArgs) {
+      if (/^-[A-Za-z]{2,}$/.test(a) && !ATTACHED_VALUE_SHORTS.has(a[1])) {
+        for (const c of a.slice(1)) flags.push('-' + c);
+      } else {
+        flags.push(a);
+      }
+    }
 
     // --- git reset --hard ---
-    if (sub === 'reset' && args.includes('--hard')) {
+    if (sub === 'reset' && flags.includes('--hard')) {
       return 'git reset --hard discards all uncommitted changes in tracked files.';
     }
 
     // --- git stash (bare, or destructive subcommands) ---
     if (sub === 'stash') {
-      const stashSub = args.find((a) => !a.startsWith('-')) || '';
+      const stashSub = optArgs.find((a) => !a.startsWith('-')) || '';
       if (stashSub === '' || ['drop', 'pop', 'clear', 'push', 'save'].includes(stashSub)) {
         return 'git stash moves/clears uncommitted changes off the working tree (recoverable only via reflog, easily lost).';
       }
@@ -169,14 +278,26 @@ function classify(rawCommand: string, cwd?: string): string | null {
 
     // --- git clean -f / -d / -x ---
     if (sub === 'clean') {
-      if (/-[a-z]*[fdx]/.test(argStr) || args.includes('--force')) {
+      // `-n` / `--dry-run` only previews what would be removed; nothing is deleted.
+      const isDryRun = flags.includes('-n') || flags.includes('--dry-run');
+      const isDestructive =
+        flags.includes('-f') ||
+        flags.includes('-d') ||
+        flags.includes('-x') ||
+        flags.includes('-X') ||
+        flags.includes('--force');
+      if (!isDryRun && isDestructive) {
         return 'git clean -f/-d/-x permanently deletes untracked (and possibly ignored) files.';
       }
     }
 
     // --- git push --force / --force-with-lease ---
     if (sub === 'push') {
-      if (args.includes('--force') || args.includes('-f') || args.some((a) => a.startsWith('--force-with-lease'))) {
+      if (
+        flags.includes('--force') ||
+        flags.includes('-f') ||
+        optArgs.some((a) => a.startsWith('--force-with-lease'))
+      ) {
         return 'git push --force / --force-with-lease rewrites remote history.';
       }
       // normal push -> allow
@@ -185,7 +306,7 @@ function classify(rawCommand: string, cwd?: string): string | null {
     // --- git rebase ---
     if (sub === 'rebase') {
       // allow `git rebase --abort` / `--continue` / `--skip` (recovery ops)
-      if (args.includes('--abort') || args.includes('--continue') || args.includes('--skip')) {
+      if (flags.includes('--abort') || flags.includes('--continue') || flags.includes('--skip')) {
         continue;
       }
       return 'git rebase rewrites history and can drop commits / disturb the working tree.';
@@ -193,7 +314,7 @@ function classify(rawCommand: string, cwd?: string): string | null {
 
     // --- git branch -D (force-delete) ---
     if (sub === 'branch') {
-      if (args.includes('-D') || (args.includes('--delete') && args.includes('--force'))) {
+      if (flags.includes('-D') || (flags.includes('--delete') && flags.includes('--force'))) {
         return 'git branch -D force-deletes a branch ref (may orphan unmerged commits).';
       }
       // `git branch`, `git branch -a`, `git branch -d <merged>` -> allow
@@ -202,13 +323,24 @@ function classify(rawCommand: string, cwd?: string): string | null {
     // --- git checkout / git restore: block only genuine working-tree overwrites ---
     if (sub === 'checkout' || sub === 'restore') {
       // `git checkout -b X` / `git checkout -B X` -> creating a branch, safe.
-      if (sub === 'checkout' && (args.includes('-b') || args.includes('-B'))) {
+      if (sub === 'checkout' && (flags.includes('-b') || flags.includes('-B'))) {
         continue;
       }
 
-      const hasDashDash = args.includes('--');
-      const hasForce = args.includes('-f') || args.includes('--force');
-      const positional = args.filter((a) => a !== '--' && !a.startsWith('-'));
+      const hasForce = flags.includes('-f') || flags.includes('--force');
+      const positional = [...optArgs.filter((a) => !a.startsWith('-')), ...pathArgs];
+
+      // `git restore --staged` without `--worktree` only rewrites the index; the
+      // working-tree files keep their local edits. `-W`/`--worktree` cancels the
+      // exemption, including inside a combined cluster such as `-SW`.
+      if (
+        sub === 'restore' &&
+        (flags.includes('--staged') || flags.includes('-S')) &&
+        !flags.includes('--worktree') &&
+        !flags.includes('-W')
+      ) {
+        continue;
+      }
 
       // A bare `.` always means "everything in cwd" -> overwrite working tree.
       if (positional.includes('.')) {

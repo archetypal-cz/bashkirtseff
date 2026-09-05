@@ -7,16 +7,52 @@ import type { GlossaryLink } from '../models/glossary.js';
 import { createParagraph, createDiaryEntry, createDiaryCarnet } from '../models/index.js';
 import { LANGUAGE_TAGS, extractLanguagesFromTags } from '../constants/languages.js';
 import {
-  PARAGRAPH_ID_PATTERN,
-  NOTE_PATTERN,
+  PARAGRAPH_ID_PARTS_PATTERN,
+  LEGACY_PARAGRAPH_ID_PATTERN,
+  TIMESTAMP_PATTERN,
   GLOSSARY_PATTERN,
   FOOTNOTE_DEF_PATTERN,
+  FOOTNOTE_CONTINUATION_PATTERN,
   FOOTNOTE_REF_PATTERN,
   HEADER_PATTERN,
-  VERSION_PATTERN,
-  isCommentLine,
+  VERSION_CONTENT_PATTERN,
 } from './patterns.js';
+import { scanComments } from './comment-scanner.js';
 import { parseFrontmatter, extractDateFromFilename, detectLanguage } from './frontmatter.js';
+
+/**
+ * Normalize overflowed seconds (e.g. :60, :61) left by auto-incremented timestamps
+ * so `new Date()` still yields a usable value for sorting.
+ */
+function normalizeTimestamp(tsStr: string): string {
+  const parts = tsStr.match(/^(.*T\d{2}):(\d{2}):(\d{2})(.*)$/);
+  if (!parts) return tsStr;
+
+  const seconds = parseInt(parts[3], 10);
+  if (seconds < 60) return tsStr;
+
+  const minutes = parseInt(parts[2], 10) + Math.floor(seconds / 60);
+  return `${parts[1]}:${String(minutes).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}${parts[4]}`;
+}
+
+/**
+ * One classified element of a parsed file: a paragraph ID, a comment block, or
+ * a line of ordinary text.
+ */
+type ParsedItem =
+  | { kind: 'id'; carnet: string; seq: string }
+  | { kind: 'comment'; content: string }
+  | { kind: 'text'; text: string };
+
+/**
+ * Result of extracting footnote definitions from a file
+ */
+export interface FootnoteExtraction {
+  footnotes: Record<string, string>;
+  /** Line indices occupied by definitions and their continuations */
+  lines: Set<number>;
+  warnings: string[];
+}
 
 /**
  * Parser for paragraph-clustered markdown files
@@ -33,7 +69,7 @@ export class ParagraphParser {
     const rawContent = fs.readFileSync(filePath, 'utf-8');
 
     // Check for frontmatter
-    const { metadata, content } = parseFrontmatter(rawContent);
+    const { metadata, content, error } = parseFrontmatter(rawContent);
 
     // Split remaining content into lines
     const lines = content.split('\n');
@@ -45,36 +81,38 @@ export class ParagraphParser {
     // Create diary entry
     const entry = createDiaryEntry(filePath, date, language);
 
+    if (error) {
+      entry.warnings.push(`Frontmatter: ${error}`);
+    }
+
     // Apply metadata from frontmatter
     if (metadata) {
       entry.location = metadata.location as string | undefined;
       entry.metadata = metadata;
     }
 
+    const footnoteResult = this.extractFootnotes(lines);
+    entry.footnotes = footnoteResult.footnotes;
+    entry.warnings.push(...footnoteResult.warnings);
+
+    const scan = scanComments(lines);
+    entry.warnings.push(...scan.warnings);
+
+    const items = this.buildItems(lines, scan.lines, footnoteResult.lines, entry);
+
     // Parse entry-level glossary links (first lines before any paragraph IDs)
     if (!metadata || Object.keys(metadata).length === 0) {
-      let idx = 0;
-      while (idx < lines.length) {
-        const line = lines[idx].trim();
+      for (const item of items) {
+        if (item.kind === 'id') break;
+        if (item.kind !== 'comment') continue;
 
-        // Stop if we hit a paragraph ID
-        if (PARAGRAPH_ID_PATTERN.test(line)) {
-          break;
-        }
-
-        // Extract glossary links from comment lines at the top
-        if (line.startsWith('%%') && line.endsWith('%%')) {
-          const links = this.extractGlossaryLinks(line);
-          if (links.length > 0) {
-            entry.entryGlossaryLinks.push(...links);
-            // First glossary link is typically the location
-            if (!entry.location && links.length > 0) {
-              entry.location = links[0].displayText;
-            }
+        const links = this.extractGlossaryLinks(item.content);
+        if (links.length > 0) {
+          entry.entryGlossaryLinks.push(...links);
+          if (!entry.location) {
+            entry.location = links[0].displayText;
           }
         }
-
-        idx++;
       }
     }
 
@@ -82,16 +120,13 @@ export class ParagraphParser {
     // Pass language so parser knows how to assign text fields
     const isTranslation = language !== 'original';
     let idx = 0;
-    while (idx < lines.length) {
-      const [para, nextIdx] = this.parseParagraphCluster(lines, idx, isTranslation);
+    while (idx < items.length) {
+      const [para, nextIdx] = this.parseParagraphCluster(items, idx, isTranslation);
       if (para) {
         entry.paragraphs.push(para);
       }
       idx = nextIdx;
     }
-
-    // Extract footnotes
-    entry.footnotes = this.extractFootnotes(lines);
 
     // French edition: the original text in comments IS the content.
     // Promote originalText → translatedText where no visible text exists,
@@ -108,23 +143,70 @@ export class ParagraphParser {
   }
 
   /**
-   * Parse a single paragraph cluster
+   * Flatten scanned lines into paragraph IDs, comment blocks and text lines.
+   * Records the paragraph ID notation on the entry so the renderer can match it.
+   */
+  private buildItems(
+    lines: string[],
+    scanned: ReturnType<typeof scanComments>['lines'],
+    footnoteLines: Set<number>,
+    entry: DiaryEntry
+  ): ParsedItem[] {
+    const items: ParsedItem[] = [];
+
+    for (let i = 0; i < lines.length; i++) {
+      if (footnoteLines.has(i)) continue;
+
+      const sl = scanned[i];
+      if (sl.consumed) continue;
+
+      const trimmed = lines[i].trim();
+
+      const legacy = trimmed.match(LEGACY_PARAGRAPH_ID_PATTERN);
+      if (legacy) {
+        entry.idStyle = 'legacy';
+        items.push({ kind: 'id', carnet: legacy[1], seq: legacy[2] });
+        continue;
+      }
+
+      if (sl.isCommentOnly) {
+        for (const segment of sl.comments) {
+          const idMatch = segment.content.match(PARAGRAPH_ID_PARTS_PATTERN);
+          if (idMatch) {
+            items.push({ kind: 'id', carnet: idMatch[1], seq: idMatch[2] });
+          } else {
+            items.push({ kind: 'comment', content: segment.content });
+          }
+        }
+        continue;
+      }
+
+      if (trimmed) {
+        items.push({ kind: 'text', text: trimmed });
+      }
+    }
+
+    return items;
+  }
+
+  /**
+   * Parse a single paragraph cluster from the item stream
    * Returns [paragraph, nextIndex]
    *
    * Handles content both BEFORE and AFTER the paragraph ID.
    * Old format: French text in comment -> paragraph ID -> notes -> translation
    * New format: paragraph ID -> French text in comment -> notes -> translation
    *
-   * @param lines - All lines in the file
+   * @param items - Classified items for the whole file
    * @param startIdx - Starting index
    * @param isTranslation - If true, main text goes to translatedText, comment text to originalText
    */
   parseParagraphCluster(
-    lines: string[],
+    items: ParsedItem[],
     startIdx: number,
     isTranslation: boolean = false
   ): [Paragraph | null, number] {
-    if (startIdx >= lines.length) {
+    if (startIdx >= items.length) {
       return [null, startIdx + 1];
     }
 
@@ -135,20 +217,18 @@ export class ParagraphParser {
       notes: Note[];
     } = { glossaryLinks: [], notes: [] };
 
-    // Look for paragraph ID, collecting pre-content
     let idx = startIdx;
-    let paraIdMatch: RegExpMatchArray | null = null;
+    let idItem: Extract<ParsedItem, { kind: 'id' }> | null = null;
 
-    while (idx < lines.length) {
-      const line = lines[idx].trim();
-      paraIdMatch = line.match(PARAGRAPH_ID_PATTERN);
-      if (paraIdMatch) {
+    while (idx < items.length) {
+      const item = items[idx];
+      if (item.kind === 'id') {
+        idItem = item;
         break;
       }
 
-      // Extract pre-ID content (content before paragraph ID)
-      if (line.startsWith('%%') && line.endsWith('%%')) {
-        const extracted = this.extractMetadata(line);
+      if (item.kind === 'comment') {
+        const extracted = this.extractMetadata(item.content);
         if (extracted) {
           if ('timestamp' in extracted) {
             preIdContent.notes.push(extracted as Note);
@@ -167,12 +247,10 @@ export class ParagraphParser {
     }
 
     // No paragraph ID found
-    if (!paraIdMatch) {
-      // Check if this is a header or other content
-      if (startIdx < lines.length) {
-        const line = lines[startIdx].trim();
-        const headerMatch = line.match(HEADER_PATTERN);
-
+    if (!idItem) {
+      const first = items[startIdx];
+      if (first.kind === 'text') {
+        const headerMatch = first.text.match(HEADER_PATTERN);
         if (headerMatch) {
           const para = createParagraph(`header_${startIdx}`, '00', 0);
           para.isHeader = true;
@@ -182,14 +260,13 @@ export class ParagraphParser {
         }
       }
 
-      return [null, lines.length];
+      return [null, items.length];
     }
 
-    // Found paragraph ID - preserve original format
-    const carnetNum = paraIdMatch[1];
-    const paraNumStr = paraIdMatch[2];
+    // Found paragraph ID - preserve original format with leading zeros
+    const carnetNum = idItem.carnet;
+    const paraNumStr = idItem.seq;
     const paraNum = parseInt(paraNumStr, 10);
-    // Preserve original format with leading zeros (e.g., "001.01" not "001.1")
     const paraId = `${carnetNum}.${paraNumStr}`;
 
     const para = createParagraph(paraId, carnetNum, paraNum);
@@ -208,18 +285,14 @@ export class ParagraphParser {
     const mainTextLines: string[] = [];
 
     // Parse content after paragraph ID until next paragraph ID or EOF
-    while (idx < lines.length) {
-      const line = lines[idx];
-      const strippedLine = line.trim();
-
-      // Check if we've hit the next paragraph ID
-      if (PARAGRAPH_ID_PATTERN.test(strippedLine)) {
+    while (idx < items.length) {
+      const item = items[idx];
+      if (item.kind === 'id') {
         break;
       }
 
-      // Extract metadata from comment lines
-      if (strippedLine.startsWith('%%') && strippedLine.endsWith('%%')) {
-        const extracted = this.extractMetadata(strippedLine);
+      if (item.kind === 'comment') {
+        const extracted = this.extractMetadata(item.content);
 
         if (extracted) {
           if ('timestamp' in extracted) {
@@ -242,19 +315,15 @@ export class ParagraphParser {
             }
           }
         }
-      } else if (strippedLine) {
-        // Non-empty, non-comment line
-        // Skip footnote definitions - they're handled separately by extractFootnotes
-        if (!FOOTNOTE_DEF_PATTERN.test(strippedLine)) {
-          // Actual paragraph text
-          if (!para.isHeader) {
-            mainTextLines.push(strippedLine);
-          }
-
-          // Extract inline glossary links
-          const inlineLinks = this.extractGlossaryLinks(strippedLine);
-          para.glossaryLinks.push(...inlineLinks);
+      } else {
+        // Actual paragraph text
+        if (!para.isHeader) {
+          mainTextLines.push(item.text);
         }
+
+        // Extract inline glossary links
+        const inlineLinks = this.extractGlossaryLinks(item.text);
+        para.glossaryLinks.push(...inlineLinks);
       }
 
       idx++;
@@ -312,38 +381,25 @@ export class ParagraphParser {
   }
 
   /**
-   * Extract metadata from a comment line
+   * Classify the inner content of a `%% ... %%` block
    * Returns Note, GlossaryLink[], or version tuple
    */
   extractMetadata(
-    commentLine: string
+    content: string
   ): Note | GlossaryLink[] | { version: string | null; text: string } | null {
     // Check for note pattern
-    const noteMatch = commentLine.match(NOTE_PATTERN);
+    const noteMatch = content.match(TIMESTAMP_PATTERN);
     if (noteMatch) {
-      // Normalize overflowed seconds (e.g., :60, :61) from auto-incremented timestamps
-      let tsStr = noteMatch[1];
-      const secMatch = tsStr.match(/:(\d{2})$/);
-      if (secMatch && parseInt(secMatch[1], 10) >= 60) {
-        const overflow = parseInt(secMatch[1], 10);
-        const extraMinutes = Math.floor(overflow / 60);
-        const normalizedSec = String(overflow % 60).padStart(2, '0');
-        // Adjust minutes
-        const minMatch = tsStr.match(/:(\d{2}):\d{2}$/);
-        if (minMatch) {
-          const newMin = String(parseInt(minMatch[1], 10) + extraMinutes).padStart(2, '0');
-          tsStr = tsStr.replace(/:(\d{2}):(\d{2})$/, `:${newMin}:${normalizedSec}`);
-        }
-      }
       return {
-        timestamp: new Date(tsStr),
+        timestamp: new Date(normalizeTimestamp(noteMatch[1])),
+        rawTimestamp: noteMatch[1],
         role: noteMatch[2],
         content: noteMatch[3],
       };
     }
 
     // Check for version pattern
-    const versionMatch = commentLine.match(VERSION_PATTERN);
+    const versionMatch = content.match(VERSION_CONTENT_PATTERN);
     if (versionMatch) {
       return {
         version: `v${versionMatch[1]}`,
@@ -352,14 +408,13 @@ export class ParagraphParser {
     }
 
     // Check for glossary links
-    const glossaryLinks = this.extractGlossaryLinks(commentLine);
+    const glossaryLinks = this.extractGlossaryLinks(content);
     if (glossaryLinks.length > 0) {
       return glossaryLinks;
     }
 
     // Check for original text in comment (no version prefix)
-    const content = commentLine.slice(2, -2).trim();
-    if (content && !content.startsWith('v') || (content.startsWith('v') && !/^v\d/.test(content))) {
+    if ((content && !content.startsWith('v')) || (content.startsWith('v') && !/^v\d/.test(content))) {
       return { version: null, text: content };
     }
 
@@ -390,19 +445,50 @@ export class ParagraphParser {
   }
 
   /**
-   * Extract footnote definitions from the file
+   * Extract footnote definitions from the file.
+   * Indented lines following a definition continue it; a repeated label keeps
+   * the first definition and reports a warning.
    */
-  extractFootnotes(lines: string[]): Record<string, string> {
+  extractFootnotes(lines: string[]): FootnoteExtraction {
     const footnotes: Record<string, string> = {};
+    const claimed = new Set<number>();
+    const warnings: string[] = [];
 
-    for (const line of lines) {
-      const match = line.trim().match(FOOTNOTE_DEF_PATTERN);
-      if (match) {
-        footnotes[match[1]] = match[2];
+    let currentLabel: string | null = null;
+    let currentLines: string[] = [];
+
+    const flush = () => {
+      if (currentLabel === null) return;
+      if (currentLabel in footnotes) {
+        warnings.push(`Duplicate footnote definition [^${currentLabel}]; keeping the first`);
+      } else {
+        footnotes[currentLabel] = currentLines.join('\n');
       }
-    }
+      currentLabel = null;
+      currentLines = [];
+    };
 
-    return footnotes;
+    for (let i = 0; i < lines.length; i++) {
+      const match = lines[i].trim().match(FOOTNOTE_DEF_PATTERN);
+      if (match) {
+        flush();
+        currentLabel = match[1];
+        currentLines = [match[2]];
+        claimed.add(i);
+        continue;
+      }
+
+      if (currentLabel !== null && FOOTNOTE_CONTINUATION_PATTERN.test(lines[i])) {
+        currentLines.push(lines[i].trim());
+        claimed.add(i);
+        continue;
+      }
+
+      flush();
+    }
+    flush();
+
+    return { footnotes, lines: claimed, warnings };
   }
 
   /**

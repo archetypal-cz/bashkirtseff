@@ -9,7 +9,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/guard-git.ts",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && npx tsx src/scripts/hooks/guard-git.ts",
             "timeout": 10
           }
         ]
@@ -21,12 +21,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/validate-write.ts",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && npx tsx src/scripts/hooks/validate-write.ts",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/post-edit.ts",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && npx tsx src/scripts/hooks/post-edit.ts",
             "timeout": 15
           }
         ]
@@ -38,7 +38,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd $CLAUDE_PROJECT_DIR && npx tsx src/scripts/hooks/session-end.ts",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && npx tsx src/scripts/hooks/session-end.ts",
             "timeout": 30
           }
         ]

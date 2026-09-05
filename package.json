@@ -15,6 +15,7 @@
     "dev:frontend": "npm run dev -w bashkirtseff-frontend"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.1",
     "axe-core": "^4.12.1",
     "puppeteer-core": "^25.3.0",
     "sharp": "^0.34.5",
@@ -26,7 +27,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@playwright/test": "^1.58.1",
     "yaml": "^2.7.1"
   },
   "overrides": {

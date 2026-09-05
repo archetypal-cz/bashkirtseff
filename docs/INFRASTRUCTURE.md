@@ -245,17 +245,25 @@ Examples:
 
 ## Claude Code Hooks
 
-TypeScript [hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) automate progress tracking and sync. These run automatically during Claude Code sessions:
+TypeScript [hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) automate progress tracking and sync. `.claude/settings.json` registers three events:
+
+| Event | Matcher | Scripts |
+| --- | --- | --- |
+| `PreToolUse` | `Bash` | `guard-git.ts` |
+| `PostToolUse` | `Write\|Edit` | `validate-write.ts`, then `post-edit.ts` |
+| `Stop` | (all) | `session-end.ts` |
+
+The remaining scripts below are run by hand, not by the harness.
 
 ```
 src/scripts/hooks/
-├── pre-session.ts        # Show work status on Claude Code start
+├── pre-session.ts        # Show work status — NOT registered; run manually
 ├── guard-git.ts          # Block working-tree-destroying git (PreToolUse/Bash)
 ├── post-edit.ts          # Update README and detect source changes after edits
-├── validate-write.ts     # Validate file format before writing
-├── session-end.ts        # End-of-session cleanup
-├── bootstrap-readmes.ts  # Create missing README/PROGRESS files
-├── init-source-hashes.ts # Initialize source hashes for sync
+├── validate-write.ts     # Warn on malformed diary files (PostToolUse)
+├── session-end.ts        # End-of-session cleanup (Stop)
+├── bootstrap-readmes.ts  # Create missing README/PROGRESS files (manual)
+├── init-source-hashes.ts # Initialize source hashes for sync (manual)
 └── lib/
     ├── readme-parser.ts  # Parse/update README.md files
     ├── todo-sync.ts      # TODO propagation logic
@@ -269,11 +277,6 @@ src/scripts/hooks/
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  PRE-SESSION (on Claude Code start)                         │
-│  ├─ Read worker config                                      │
-│  ├─ Show assigned work and status                           │
-│  └─ Check for upstream changes or conflicts                 │
-├─────────────────────────────────────────────────────────────┤
 │  GUARD-GIT (PreToolUse, before every Bash call)            │
 │  ├─ Inspect the command string                             │
 │  ├─ Block working-tree/history-destroying git              │
@@ -285,9 +288,9 @@ src/scripts/hooks/
 │  └─ Append changelog entry with timestamp + @user           │
 ├─────────────────────────────────────────────────────────────┤
 │  VALIDATE-WRITE (after Write/Edit completes)               │
-│  └─ Check that diary files have valid format                │
+│  └─ Warn if a diary file lacks frontmatter/paragraph IDs    │
 ├─────────────────────────────────────────────────────────────┤
-│  SESSION-END (on Claude Code exit)                          │
+│  SESSION-END (Stop event, when the agent finishes)          │
 │  └─ Cleanup and summary                                     │
 └─────────────────────────────────────────────────────────────┘
 ```

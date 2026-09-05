@@ -14,13 +14,17 @@ export const NOTE_ROLES = {
   CON: 'CON',
   /** Project Assistant notes - automated or system notes */
   PA: 'PA',
-  /** Gemini editor notes - AI-assisted editing */
+  /** Gemini editor notes - AI-assisted editing (retired) */
   GEM: 'GEM',
   /** Opus Editor notes - Opus language expert review */
   OPS: 'OPS',
   /** Executive Director notes - workflow orchestration */
   ED: 'ED',
-  /** Perplexity notes - external research assistance */
+  /** Fablelous notes - Fable word-level polish pass */
+  FAB: 'FAB',
+  /** Voice of the Reader notes - opposing artistic review */
+  VOX: 'VOX',
+  /** Perplexity notes - external research assistance (retired) */
   PPX: 'PPX',
   /** KRR notes - human owner/editor remarks */
   KRR: 'KRR',
@@ -46,6 +50,8 @@ export const NOTE_ROLE_DESCRIPTIONS: Record<NoteRole, string> = {
   GEM: 'Gemini Editor',
   OPS: 'Opus Editor',
   ED: 'Executive Director',
+  FAB: 'Fablelous',
+  VOX: 'Voice of the Reader',
   PPX: 'Perplexity',
   KRR: 'KRR (human owner)',
 };
@@ -63,6 +69,8 @@ export const NOTE_ROLE_DEFAULTS: Record<NoteRole, boolean> = {
   GEM: true,
   OPS: true,
   ED: true,
+  FAB: true,
+  VOX: true,
   PPX: true,
   KRR: true,
 };

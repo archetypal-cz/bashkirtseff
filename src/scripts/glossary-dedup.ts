@@ -23,14 +23,15 @@
 
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import { execSync } from 'node:child_process';
+import { execFileSync } from 'node:child_process';
 import * as yaml from 'yaml';
+import { writeFileAtomic } from './lib/atomic-write.js';
+import { MD_LINK_PATTERN, resolveGlossaryLink, rewriteGlossaryLinks } from '../shared/src/utils/glossary-links.js';
+import { getAllContentFiles } from '../shared/src/utils/glossary-merge.js';
 
 const BASE_PATH = process.cwd();
 const GLOSSARY_BASE = path.join(BASE_PATH, 'content/_original/_glossary');
-const CONTENT_BASE = path.join(BASE_PATH, 'content');
 
-const GLOSSARY_LINK_PATTERN = /\[([^\]]*)\]\(\.\.\/_glossary\/([^)]+\.md)\)/g;
 const FRONTMATTER_ITEM_PATTERN = /^(\s+-\s+)(\S+)$/;
 
 // ── Target category structure ───────────────────────────────────────────────
@@ -49,13 +50,12 @@ const VALID_CATEGORIES = new Set([
   'culture/history', 'culture/newspapers', 'culture/institutions',
   'culture/languages', 'culture/fashion', 'culture/education', 'culture/politics',
   'culture/leisure',
+  'society/aristocracy', 'society/artists',
 ]);
 
 /** Map deprecated/overlapping categories → target categories */
 const CATEGORY_MAP: Record<string, string> = {
-  'society/aristocracy': 'people/aristocracy',
   'society/clubs': 'people/mentioned',
-  'society/artists': 'people/artists',
   'society/politics': 'people/politicians',
   'society/phenomena': 'culture/history',
   'people/art': 'people/artists',
@@ -165,30 +165,6 @@ interface Plan {
 
 // ── Utility functions ───────────────────────────────────────────────────────
 
-function getAllContentFiles(): string[] {
-  const files: string[] = [];
-  const langDirs = ['_original', 'cz', 'en', 'uk', 'fr'];
-
-  for (const lang of langDirs) {
-    const langDir = path.join(CONTENT_BASE, lang);
-    if (!fs.existsSync(langDir)) continue;
-
-    const items = fs.readdirSync(langDir, { withFileTypes: true });
-    for (const item of items) {
-      if (!item.isDirectory() || item.name.startsWith('_')) continue;
-      const carnetDir = path.join(langDir, item.name);
-      try {
-        const mdFiles = fs.readdirSync(carnetDir)
-          .filter(f => f.endsWith('.md'))
-          .map(f => path.join(carnetDir, f));
-        files.push(...mdFiles);
-      } catch { /* skip unreadable */ }
-    }
-  }
-
-  return files.sort();
-}
-
 function buildGlossaryIndex(): Map<string, GlossaryCopy[]> {
   const index = new Map<string, GlossaryCopy[]>();
 
@@ -216,20 +192,48 @@ function buildGlossaryIndex(): Map<string, GlossaryCopy[]> {
   return index;
 }
 
+/**
+ * Every glossary file currently on disk. Actions move, create and delete
+ * glossary entries, so this half of the content list is re-walked between them.
+ */
+function listGlossaryFiles(): string[] {
+  const files: string[] = [];
+
+  const walk = (dir: string) => {
+    if (!fs.existsSync(dir)) return;
+    for (const item of fs.readdirSync(dir, { withFileTypes: true })) {
+      const fullPath = path.join(dir, item.name);
+      if (item.isDirectory()) walk(fullPath);
+      else if (item.name.endsWith('.md')) files.push(fullPath);
+    }
+  };
+
+  walk(GLOSSARY_BASE);
+  return files;
+}
+
 function buildRefIndex(contentFiles: string[]): Map<string, number> {
   const refCounts = new Map<string, number>();
 
   for (const file of contentFiles) {
     const content = fs.readFileSync(file, 'utf-8');
-    const pattern = new RegExp(GLOSSARY_LINK_PATTERN.source, 'g');
+    const fileDir = path.dirname(file);
+    const pattern = new RegExp(MD_LINK_PATTERN.source, 'g');
     let match;
     while ((match = pattern.exec(content)) !== null) {
-      const linkPath = match[2];
-      refCounts.set(linkPath, (refCounts.get(linkPath) || 0) + 1);
+      const target = resolveGlossaryLink(fileDir, match[2], GLOSSARY_BASE);
+      if (!target) continue;
+      const relPath = toGlossaryRelPath(target);
+      refCounts.set(relPath, (refCounts.get(relPath) || 0) + 1);
     }
   }
 
   return refCounts;
+}
+
+/** Glossary-relative, posix-separated path — the key shape used by plans. */
+function toGlossaryRelPath(absPath: string): string {
+  return path.relative(GLOSSARY_BASE, absPath).split(path.sep).join('/');
 }
 
 function getCategory(relPath: string): string {
@@ -249,11 +253,15 @@ function isStub(size: number): boolean {
 
 function callClaude(prompt: string, timeout = 120_000): string | null {
   try {
-    const result = execSync(
-      `claude -p --permission-mode bypassPermissions ${JSON.stringify(prompt)}`,
+    // Prompt goes on stdin: glossary bodies contain backticks and $(…) that a
+    // shell command line would expand.
+    const result = execFileSync(
+      'claude',
+      ['-p', '--permission-mode', 'bypassPermissions'],
       {
+        input: prompt,
         encoding: 'utf-8',
-        maxBuffer: 2 * 1024 * 1024,
+        maxBuffer: 16 * 1024 * 1024,
         timeout,
         cwd: BASE_PATH,
       }
@@ -424,7 +432,7 @@ async function analyze(): Promise<void> {
   console.log(`  ${glossaryIndex.size} unique IDs found`);
 
   console.log('\nPhase 2: Building reference index...');
-  const contentFiles = getAllContentFiles();
+  const contentFiles = getAllContentFiles(BASE_PATH);
   console.log(`  Scanning ${contentFiles.length} content files...`);
   const refCounts = buildRefIndex(contentFiles);
   console.log(`  ${refCounts.size} unique glossary paths referenced`);
@@ -562,29 +570,45 @@ function rewriteRefs(
   idMap: Map<string, string>,   // old ID → new ID (for frontmatter + display text)
   dryRun: boolean,
 ): { filesUpdated: number; refsUpdated: number; frontmatterUpdated: number } {
-  let filesUpdated = 0;
   let refsUpdated = 0;
   let frontmatterUpdated = 0;
+
+  // Plans address entries by glossary-relative path; links resolve to absolute ones.
+  const targetMap = new Map<string, string>();
+  for (const [from, to] of pathMap) {
+    targetMap.set(path.resolve(GLOSSARY_BASE, from), path.resolve(GLOSSARY_BASE, to));
+  }
+
+  // Everything is read and rewritten before anything is written, so a file we
+  // cannot read aborts the action instead of half-applying it.
+  const pending: Array<{ file: string; content: string }> = [];
 
   for (const file of contentFiles) {
     let content = fs.readFileSync(file, 'utf-8');
     const original = content;
 
-    // Rewrite glossary links
-    content = content.replace(
-      new RegExp(GLOSSARY_LINK_PATTERN.source, 'g'),
-      (match, displayText, linkPath) => {
-        const newPath = pathMap.get(linkPath);
-        if (!newPath) return match;
+    // A glossary entry that is itself moving needs its own outgoing links
+    // regenerated from the destination directory.
+    const selfDestination = targetMap.get(path.resolve(file));
 
-        refsUpdated++;
+    // Rewrite glossary links
+    const linkResult = rewriteGlossaryLinks(
+      content,
+      path.dirname(file),
+      GLOSSARY_BASE,
+      (target, displayText) => {
+        const newTarget = targetMap.get(target);
+        if (!newTarget) return selfDestination ? { path: target } : null;
+
         // Also update display text if ID changed
-        const oldId = path.basename(linkPath, '.md');
+        const oldId = path.basename(target, '.md');
         const newId = idMap.get(oldId);
-        const newDisplay = newId ? displayText.replace(oldId, newId) : displayText;
-        return `[${newDisplay}](../_glossary/${newPath})`;
-      }
+        return { path: newTarget, displayText: newId ? displayText.replace(oldId, newId) : undefined };
+      },
+      selfDestination ? path.dirname(selfDestination) : undefined
     );
+    content = linkResult.content;
+    refsUpdated += linkResult.count;
 
     // Rewrite frontmatter entity lists (for RENAME actions)
     if (idMap.size > 0 && file.includes('/_original/')) {
@@ -626,14 +650,17 @@ function rewriteRefs(
     }
 
     if (content !== original) {
-      filesUpdated++;
-      if (!dryRun) {
-        fs.writeFileSync(file, content, 'utf-8');
-      }
+      pending.push({ file, content });
     }
   }
 
-  return { filesUpdated, refsUpdated, frontmatterUpdated };
+  if (!dryRun) {
+    for (const p of pending) {
+      writeFileAtomic(p.file, p.content);
+    }
+  }
+
+  return { filesUpdated: pending.length, refsUpdated, frontmatterUpdated };
 }
 
 function deleteFile(relPath: string, dryRun: boolean): void {
@@ -667,6 +694,10 @@ function moveFile(fromRel: string, toRel: string, dryRun: boolean): void {
   if (!fs.existsSync(fromFull)) {
     console.error(`  Warning: source file not found: ${fromRel}`);
     return;
+  }
+
+  if (fs.existsSync(toFull)) {
+    throw new Error(`destination already exists: ${toRel}`);
   }
 
   if (!dryRun) {
@@ -711,7 +742,13 @@ async function execute(planPath: string, dryRun: boolean): Promise<void> {
   console.log(`  MOVE:         ${plan.summary.moves}`);
 
   console.log('\nScanning content files...');
-  const contentFiles = getAllContentFiles();
+  // The diary trees are stable for the whole run; the glossary tree is not,
+  // because each action can move, create or delete entries in it.
+  const glossaryPrefix = GLOSSARY_BASE + path.sep;
+  const diaryFiles = getAllContentFiles(BASE_PATH).filter((f) => !f.startsWith(glossaryPrefix));
+  const currentContentFiles = (): string[] => [...diaryFiles, ...listGlossaryFiles()].sort();
+
+  let contentFiles = currentContentFiles();
   console.log(`  ${contentFiles.length} content files`);
 
   let totalFilesUpdated = 0;
@@ -725,6 +762,10 @@ async function execute(planPath: string, dryRun: boolean): Promise<void> {
   for (let i = 0; i < plan.actions.length; i++) {
     const action = plan.actions[i];
     const progress = `[${i + 1}/${plan.actions.length}]`;
+
+    // Re-list: the previous action may have renamed or deleted glossary files,
+    // and a stale path would abort this action's rewrite pass on read.
+    contentFiles = currentContentFiles();
 
     try {
       switch (action.type) {
@@ -794,7 +835,9 @@ async function execute(planPath: string, dryRun: boolean): Promise<void> {
             totalRefsRewritten += result.refsUpdated;
           }
 
-          // Merge content files
+          // Merge content files. A source is only safe to delete once its content
+          // is demonstrably in the target.
+          const mergedSources = new Set<string>();
           if (!dryRun && action.merge_from.length > 0) {
             const targetFull = path.join(GLOSSARY_BASE, action.target);
             let targetContent: string;
@@ -821,32 +864,47 @@ async function execute(planPath: string, dryRun: boolean): Promise<void> {
               targetContent = fs.readFileSync(path.join(GLOSSARY_BASE, bestSource), 'utf-8');
               // Create target directory
               fs.mkdirSync(path.dirname(targetFull), { recursive: true });
-              fs.writeFileSync(targetFull, targetContent, 'utf-8');
+              writeFileAtomic(targetFull, targetContent);
             }
 
             // Merge each source into target
             for (const src of action.merge_from) {
               const srcFull = path.join(GLOSSARY_BASE, src);
-              if (!fs.existsSync(srcFull) || src === action.target) continue;
+              if (src === action.target || !fs.existsSync(srcFull)) {
+                mergedSources.add(src);
+                continue;
+              }
 
               const srcContent = fs.readFileSync(srcFull, 'utf-8');
-              if (isStub(srcContent.length)) continue; // skip stubs
+              if (isStub(srcContent.length)) {
+                mergedSources.add(src); // no content to lose
+                continue;
+              }
 
               const merged = smartMergeGlossaryContent(
                 path.basename(src, '.md'), srcContent,
                 action.id, targetContent,
               );
 
-              if (merged) {
-                targetContent = merged;
-                fs.writeFileSync(targetFull, merged + '\n', 'utf-8');
-                totalMerges++;
+              if (!merged) {
+                const msg = `Merge of ${src} into ${action.target} produced no content; source kept`;
+                console.error(`  ${msg}`);
+                errors.push(msg);
+                continue;
               }
+
+              targetContent = merged;
+              writeFileAtomic(targetFull, merged + '\n');
+              mergedSources.add(src);
+              totalMerges++;
             }
           }
 
-          // Delete sources and stubs
-          const toDelete = [...action.merge_from, ...(action.delete || [])];
+          // Delete merged sources and stubs
+          const toDelete = [
+            ...action.merge_from.filter(src => dryRun || mergedSources.has(src)),
+            ...(action.delete || []),
+          ];
           for (const del of toDelete) {
             if (del !== action.target) {
               deleteFile(del, dryRun);
@@ -953,6 +1011,7 @@ async function execute(planPath: string, dryRun: boolean): Promise<void> {
     for (const e of errors) {
       console.log(`  - ${e}`);
     }
+    process.exitCode = 1;
   }
 
   if (dryRun) {

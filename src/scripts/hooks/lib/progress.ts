@@ -8,15 +8,19 @@ import { parse as parseYaml } from 'yaml';
 import type { CarnetProgress } from './types.js';
 import { getProjectRoot } from './config.js';
 
-interface EntryFrontmatter {
-  date?: string;
-  carnet?: string;
+interface WorkflowFlags {
   research_complete?: boolean;
   linguistic_annotation_complete?: boolean;
   translation_complete?: boolean;
   gemini_reviewed?: boolean;
   editor_approved?: boolean;
   conductor_approved?: boolean;
+}
+
+interface EntryFrontmatter extends WorkflowFlags {
+  date?: string;
+  carnet?: string;
+  workflow?: WorkflowFlags;
 }
 
 /**
@@ -67,12 +71,14 @@ export function calculateCarnetProgress(
   for (const file of files) {
     const fm = parseFrontmatter(join(carnetPath, file));
     if (fm) {
-      if (fm.research_complete) progress.research++;
-      if (fm.linguistic_annotation_complete) progress.annotation++;
-      if (fm.translation_complete) progress.translation++;
-      if (fm.gemini_reviewed) progress.gemini++;
-      if (fm.editor_approved) progress.edited++;
-      if (fm.conductor_approved) progress.approved++;
+      // Flags live either at the top level or nested under `workflow:`.
+      const flag = (key: keyof WorkflowFlags) => !!(fm[key] || fm.workflow?.[key]);
+      if (flag('research_complete')) progress.research++;
+      if (flag('linguistic_annotation_complete')) progress.annotation++;
+      if (flag('translation_complete')) progress.translation++;
+      if (flag('gemini_reviewed')) progress.gemini++;
+      if (flag('editor_approved')) progress.edited++;
+      if (flag('conductor_approved')) progress.approved++;
     }
   }
 
