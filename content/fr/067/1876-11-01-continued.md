@@ -1,3 +1,25 @@
+---
+date: 1876-11-01
+entry_id: 1876-11-01
+carnet: "067"
+location: Gavronzi
+locations:
+  - Gavronzi
+dates:
+  primary: Mercredi, 1er novembre 1876 (20 octobre)
+type: daily_entry
+entities:
+  people:
+    - Pacha
+  places:
+    - Gavronzi
+flags:
+  has_continuation: false
+para_start: 1
+para_end: 8
+edition_complete: false
+---
+
 %% 067.0001 %%
 %% — Mais simplement. Pourquoi ces réticences ? Pourquoi ne pas être simple et franc; je ne me moquerai pas, si je ris, ce sont les nerfs et rien d'autre. Je suis la plus malheureuse des créatures et personne ne me plaint. %%
 %% [#Gavronzi](../../_original/_glossary/places/residences/GAVRONZI.md) [#Pacha](../../_original/_glossary/people/mentioned/PACHA.md) %%
