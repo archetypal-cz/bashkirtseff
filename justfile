@@ -457,6 +457,10 @@ check-frontmatter carnet=default_carnet:
 check-comments *TREES:
     uv run src/scripts/check_comment_structure.py {{TREES}}
 
+# Repair the %% marker shapes check-comments cannot see (glued spans, retired [//] lines inside fr blocks, unclosed tag lines). Dry run unless --apply. Flags: --apply --tree cz --carnet 070 --only S1,S3,S4
+fix-marker-shapes *FLAGS:
+    uv run src/scripts/fix_marker_shapes.py {{FLAGS}}
+
 # Check that relative .md links (glossary tags, cross-refs) resolve in a translation carnet
 check-links lang=default_lang carnet=default_carnet:
     #!/usr/bin/env bash
