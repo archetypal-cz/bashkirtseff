@@ -12,12 +12,12 @@
     (function() {
       var saved;
       try { saved = localStorage.getItem('ui-language'); } catch(e) {}
-      if (saved && ['cs', 'fr', 'en', 'uk'].indexOf(saved) !== -1) {
+      if (saved && ['cs', 'fr', 'en', 'uk', 'es'].indexOf(saved) !== -1) {
         window.location.replace('/' + saved + '/about');
         return;
       }
       var browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
-      var supported = ['cs', 'en', 'fr', 'uk'];
+      var supported = ['cs', 'en', 'fr', 'uk', 'es'];
       var targetLang = 'en';
       for (var i = 0; i < browserLangs.length; i++) {
         var lang = browserLangs[i].toLowerCase().split('-')[0];

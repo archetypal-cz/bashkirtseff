@@ -33,7 +33,7 @@ import { join } from 'path';
 import { writeFileAtomic } from './lib/atomic-write.js';
 
 const CONTENT_ROOT = join(import.meta.dirname, '..', '..', 'content');
-const TRANSLATION_DIRS = ['cz', 'uk', 'en', 'fr'];
+const TRANSLATION_DIRS = ['cz', 'uk', 'en', 'fr', 'es'];
 
 // A bare paragraph-ID marker: %% NNN.NNNN %% or %% GLO_FOO.NNNN %% (no role/tag/timestamp).
 const BARE_ID = /%%\s*(?:\d+|GLO_[A-Z0-9_]+)\.\d+\s*%%/;

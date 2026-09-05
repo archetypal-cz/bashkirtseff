@@ -115,7 +115,9 @@ locales, feature flags). `DIARY_LANGUAGES` drives `getStaticPaths`.
 | `/{lang}/glossary/` | Glossary index |
 | `/{lang}/glossary/NICE` | Glossary entry |
 
-`{lang}` is `cz`, `original`, `en`, `uk`, or `fr`.
+`{lang}` is `cz`, `original`, `en`, `uk`, or `fr`. Spanish (`es`) is **staged but
+disabled**: the UI locale is live, but its `DIARY_LANGUAGES` entry is commented out
+(`PILOT es` markers, see below) until the first es carnet is conductor-approved.
 
 ### Carnet 000 special-casing
 
@@ -251,10 +253,16 @@ Vue app entrypoint: `src/vue-app.ts` (registers Pinia, i18n).
 
 The app uses two language-code systems:
 
-| System | Czech | French | English | Ukrainian | Original |
-|--------|-------|--------|---------|-----------|----------|
-| UI Locale (ISO 639-1) | `cs` | `fr` | `en` | `uk` | N/A |
-| Content Path / URL | `cz` | `fr` | `en` | `uk` | `original` |
+| System | Czech | French | English | Ukrainian | Spanish | Original |
+|--------|-------|--------|---------|-----------|---------|----------|
+| UI Locale (ISO 639-1) | `cs` | `fr` | `en` | `uk` | `es` | N/A |
+| Content Path / URL | `cz` | `fr` | `en` | `uk` | `es` (staged, disabled) | `original` |
+
+Enabling the Spanish diary once content exists is a two-line change plus three
+commented list entries — grep for `PILOT es`: uncomment the `es` block in
+`src/lib/diary-lang-config.ts` and add `'es'` to `activeTranslations` in
+`src/i18n/index.ts`, then uncomment `es` in `LanguageSwitcher.vue`,
+`ContentLanguageSwitcher.vue` and `pages/[lang]/index.astro`.
 
 URLs use `/cz/` (not `/cs/`) for historical link stability; the UI locale system
 uses ISO `cs`. Helpers in `src/i18n/index.ts`:

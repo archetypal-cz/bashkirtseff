@@ -30,7 +30,7 @@ import re
 import sys
 from collections import Counter
 
-TREES = ["_original", "cz", "en", "uk", "fr"]
+TREES = ["_original", "cz", "en", "uk", "fr", "es"]
 SKIP = {"README.md", "PROGRESS.md"}
 
 # Match any markdown link whose target is a .md path that passes through _glossary/

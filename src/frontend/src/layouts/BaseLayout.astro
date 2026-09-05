@@ -97,7 +97,7 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
     <meta property="og:description" content={description} />
     <meta property="og:image" content={fullImageUrl} />
     <meta property="og:site_name" content={siteName} />
-    <meta property="og:locale" content={lang === 'cs' ? 'cs_CZ' : lang === 'fr' ? 'fr_FR' : lang === 'uk' ? 'uk_UA' : 'en_US'} />
+    <meta property="og:locale" content={lang === 'cs' ? 'cs_CZ' : lang === 'fr' ? 'fr_FR' : lang === 'uk' ? 'uk_UA' : lang === 'es' ? 'es_ES' : 'en_US'} />
 
     {/* Article-specific Open Graph tags */}
     {type === 'article' && article?.publishedTime && (
@@ -136,7 +136,7 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
       "name": siteName,
       "url": siteUrl,
       "description": "Complete unabridged diary of Marie Bashkirtseff (1858-1884), Ukrainian-born French artist and diarist.",
-      "inLanguage": ["cs", "fr", "en", "uk"],
+      "inLanguage": ["cs", "fr", "en", "uk", "es"],
       "about": {
         "@type": "Person",
         "name": "Marie Bashkirtseff",
@@ -190,7 +190,7 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
         // readers and crawlers see the real content language.
         if (!document.documentElement.hasAttribute('data-lock-lang')) {
           var l = localStorage.getItem('ui-language');
-          if (l && ['cs','en','fr','uk'].includes(l)) document.documentElement.setAttribute('lang', l);
+          if (l && ['cs','en','fr','uk','es'].includes(l)) document.documentElement.setAttribute('lang', l);
         }
       })();
     </script>

@@ -14,7 +14,7 @@ Marie Bashkirtseff (1858-1884) was a Ukrainian-born artist and diarist who wrote
 | **Diary entries**            | ~3,300                                         |
 | **Date range**               | January 1873 - October 1884                    |
 | **Source language**          | Mostly French, some English, Russian, Italian  |
-| **Planned target languages** | Czech, Ukrainian, English, French (modern)     |
+| **Planned target languages** | Czech, Ukrainian, English, French (modern), Spanish (pilot) |
 | **Frontend**                 | https://bashkirtseff.org                       |
 
 ## Project Structure
@@ -183,7 +183,7 @@ git clone https://github.com/YOUR_USERNAME/bashkirtseff.git
 cd bashkirtseff
 just setup
 cp .claude/WORKER_CONFIG.yaml.template .claude/WORKER_CONFIG.yaml
-# Edit WORKER_CONFIG.yaml with your language (cz, uk, en, fr)
+# Edit WORKER_CONFIG.yaml with your language (cz, uk, en, fr, es)
 ```
 
 ## License

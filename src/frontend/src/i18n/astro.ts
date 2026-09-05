@@ -3,10 +3,11 @@ import cs from './locales/cs.json';
 import fr from './locales/fr.json';
 import en from './locales/en.json';
 import uk from './locales/uk.json';
+import es from './locales/es.json';
 
-export type SupportedLocale = 'cs' | 'fr' | 'en' | 'uk';
+export type SupportedLocale = 'cs' | 'fr' | 'en' | 'uk' | 'es';
 
-const messages: Record<SupportedLocale, typeof cs> = { cs, fr, en, uk };
+const messages: Record<SupportedLocale, typeof cs> = { cs, fr, en, uk, es };
 
 // Get nested value from object by dot-separated path
 function getNestedValue(obj: Record<string, any>, path: string): string {
@@ -59,7 +60,7 @@ export function createT(locale: SupportedLocale) {
 // Canonical implementation lives in i18n/index.ts
 export function contentPathToLocale(path: string): SupportedLocale {
   if (path === 'cz') return 'cs';
-  const supported: SupportedLocale[] = ['cs', 'fr', 'en', 'uk'];
+  const supported: SupportedLocale[] = ['cs', 'fr', 'en', 'uk', 'es'];
   if (supported.includes(path as SupportedLocale)) return path as SupportedLocale;
   return 'cs';
 }

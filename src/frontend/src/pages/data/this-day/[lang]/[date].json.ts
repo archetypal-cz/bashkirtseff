@@ -17,7 +17,8 @@ import { buildThisDayData } from '../../../../lib/content';
  */
 
 // Languages built for the landing page (content-path codes used in links).
-const LANGUAGES = ['cz', 'en', 'uk', 'fr'];
+// 'es' is staged: with no content/es carnets it yields French-original previews only.
+const LANGUAGES = ['cz', 'en', 'uk', 'fr', 'es'];
 
 export const getStaticPaths: GetStaticPaths = () => {
   const paths: { params: { lang: string; date: string } }[] = [];

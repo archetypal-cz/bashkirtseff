@@ -13,6 +13,7 @@ export function getStaticPaths() {
     { params: { lang: 'en' } },
     { params: { lang: 'fr' } },
     { params: { lang: 'uk' } },
+    { params: { lang: 'es' } },
   ];
 }
 
@@ -41,6 +42,7 @@ const carnets = FEATURED_CARNET_IDS.map(id => {
 
 // Map UI locale to content path for links
 const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'fr' };
+// PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md) — add `es: 'es'` above; until then es falls through to /cz like any unmapped locale.
 const languagePath = localeToContent[lang as string] ?? 'cz';
 
 // "This Day" data is served per-day as static JSON from
@@ -63,9 +65,9 @@ const thisDayTranslations = {
   yearsOld: t('home.yearsOld'),
 };
 
-// hreflang alternates for the four landing-page variants (/home/{cs,en,fr,uk}).
+// hreflang alternates for the five landing-page variants (/home/{cs,en,fr,uk,es}).
 // These use UI-locale codes directly; x-default points at English.
-const homeLocales = ['cs', 'en', 'fr', 'uk'];
+const homeLocales = ['cs', 'en', 'fr', 'uk', 'es'];
 const homeAlternates = [
   ...homeLocales.map(l => ({ hreflang: l, href: `/home/${l}` })),
   { hreflang: 'x-default', href: '/home/en' },
@@ -267,7 +269,7 @@ const homeAlternates = [
   (function() {
     var pathParts = window.location.pathname.split('/').filter(Boolean);
     var lang = pathParts[pathParts.length - 1];
-    if (lang && ['cs', 'en', 'fr', 'uk'].includes(lang)) {
+    if (lang && ['cs', 'en', 'fr', 'uk', 'es'].includes(lang)) {
       localStorage.setItem('ui-language', lang);
     }
   })();

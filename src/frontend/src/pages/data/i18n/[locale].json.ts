@@ -3,6 +3,7 @@ import cs from '../../../i18n/locales/cs.json';
 import en from '../../../i18n/locales/en.json';
 import fr from '../../../i18n/locales/fr.json';
 import uk from '../../../i18n/locales/uk.json';
+import es from '../../../i18n/locales/es.json';
 
 /**
  * Per-locale UI message dictionaries served as static, cacheable JSON.
@@ -16,7 +17,7 @@ import uk from '../../../i18n/locales/uk.json';
  * offline for free.
  */
 
-const LOCALES: Record<string, unknown> = { cs, en, fr, uk };
+const LOCALES: Record<string, unknown> = { cs, en, fr, uk, es };
 
 export const getStaticPaths: GetStaticPaths = () =>
   Object.keys(LOCALES).map(locale => ({ params: { locale } }));

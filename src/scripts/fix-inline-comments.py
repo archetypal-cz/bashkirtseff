@@ -26,7 +26,7 @@ from pathlib import Path
 from _fileio import read_text, write_text_atomic
 
 CONTENT = Path(__file__).resolve().parents[2] / 'content'
-TREES = ('en', 'cz', 'fr', 'uk')
+TREES = ('en', 'cz', 'fr', 'uk', 'es')
 # A role comment continuing after a closing %%: `2026-01-29T09:13:00 LAN: ...` or `LAN: ...`.
 # In fr these follow a promoted source block on the same line and are NOT diary text.
 RE_ROLE_HEADER = re.compile(r'^(?:\d{4}-\d{2}-\d{2}(?:T[\d:]+)?\s+)?[A-Z]{2,5}:\s')

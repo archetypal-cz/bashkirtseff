@@ -38,7 +38,10 @@ export const LANGUAGE_CODES = {
 export const LANGUAGE_DIRS = {
   ORIGINAL: '_original',
   CZECH: 'cz',
+  UKRAINIAN: 'uk',
   ENGLISH: 'en',
+  FRENCH: 'fr',
+  SPANISH: 'es',
 } as const;
 
 /**

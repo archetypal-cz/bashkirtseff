@@ -38,13 +38,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       var lang = 'en';
       try {
         var saved = localStorage.getItem('ui-language');
-        if (saved && ['cs', 'en', 'fr', 'uk'].indexOf(saved) !== -1) lang = saved;
+        if (saved && ['cs', 'en', 'fr', 'uk', 'es'].indexOf(saved) !== -1) lang = saved;
       } catch (e) {}
       var strings = {
         cs: { title: 'Stránka nenalezena', text: 'Tato stránka neexistuje nebo byla přesunuta. Pokračujte ve čtení deníku Marie:' },
         en: { title: 'Page not found', text: 'This page does not exist, or has moved. Continue reading Marie’s diary:' },
         fr: { title: 'Page introuvable', text: 'Cette page n’existe pas ou a été déplacée. Poursuivez la lecture du journal de Marie :' },
-        uk: { title: 'Сторінку не знайдено', text: 'Цієї сторінки не існує або її переміщено. Продовжуйте читати щоденник Марії:' }
+        uk: { title: 'Сторінку не знайдено', text: 'Цієї сторінки не існує або її переміщено. Продовжуйте читати щоденник Марії:' },
+        es: { title: 'Página no encontrada', text: 'Esta página no existe o se ha movido. Sigue leyendo el diario de Marie:' }
       };
       var s = strings[lang] || strings.en;
       var t = document.getElementById('nf-title');

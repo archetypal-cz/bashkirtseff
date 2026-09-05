@@ -199,7 +199,7 @@ export default defineConfig({
           },
           {
             // Cache diary index pages (year and carnet) for offline
-            urlPattern: /\/(cz|original|en|uk|fr)\/(\d{3}|\d{4})\/?$/,
+            urlPattern: /\/(cz|original|en|uk|fr|es)\/(\d{3}|\d{4})\/?$/,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'diary-entries-cache',
@@ -214,7 +214,7 @@ export default defineConfig({
           },
           {
             // Cache section-based entries (e.g., /original/000/000-01/)
-            urlPattern: /\/(cz|original|en|uk|fr)\/\d{3}\/\d{3}-\d{2}\/?$/,
+            urlPattern: /\/(cz|original|en|uk|fr|es)\/\d{3}\/\d{3}-\d{2}\/?$/,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'diary-entries-cache',
@@ -230,7 +230,7 @@ export default defineConfig({
           {
             // Cache diary entries for offline reading (also used by offline download feature).
             // Allows date-suffixed IDs like 1877-01-07-09 or 1878-10-04-evening.
-            urlPattern: /\/(cz|original|en|uk|fr)\/\d{3}\/\d{4}-\d{2}-\d{2}[^/]*\/?$/,
+            urlPattern: /\/(cz|original|en|uk|fr|es)\/\d{3}\/\d{4}-\d{2}-\d{2}[^/]*\/?$/,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'diary-entries-cache',

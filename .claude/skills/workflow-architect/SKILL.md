@@ -232,7 +232,7 @@ just annotate 1882-05-01 015
 
 ## Current System Status
 
-The system is mature and battle-tested: source prep (RSR+LAN) is complete for all 107 carnets (000-106), and the translation pipeline has run dozens of multi-carnet waves across cz/uk/en/fr (see `.claude/reports/`). The Agent Teams configuration (3 TR + RED + CON, OPS dispatched as needed) is the proven pattern.
+The system is mature and battle-tested: source prep (RSR+LAN) is complete for all 107 carnets (000-106), and the translation pipeline has run dozens of multi-carnet waves across cz/uk/en/fr (es is in preparation, pilot carnet 001 pending; see `.claude/reports/`). The Agent Teams configuration (3 TR + RED + CON, OPS dispatched as needed) is the proven pattern.
 
 **Where to find current state — don't trust this file's snapshot, check:**
 - `.claude/reports/WATCHLIST.md` — live issue tracker, gate-gap proposals, escalations to architect

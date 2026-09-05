@@ -3,16 +3,18 @@ import cs from './locales/cs.json';
 import fr from './locales/fr.json';
 import en from './locales/en.json';
 import uk from './locales/uk.json';
+import es from './locales/es.json';
 
-export type SupportedLocale = 'cs' | 'fr' | 'en' | 'uk';
+export type SupportedLocale = 'cs' | 'fr' | 'en' | 'uk' | 'es';
 
-export const SUPPORTED_LOCALES: SupportedLocale[] = ['cs', 'uk', 'en', 'fr'];
+export const SUPPORTED_LOCALES: SupportedLocale[] = ['cs', 'uk', 'en', 'fr', 'es'];
 
 export const LOCALE_NAMES: Record<SupportedLocale, string> = {
   cs: 'Čeština',
   uk: 'Українська',
   en: 'English',
-  fr: 'Français'
+  fr: 'Français',
+  es: 'Español'
 };
 
 /**
@@ -43,7 +45,8 @@ export function localeToContentPath(locale: SupportedLocale): string {
     cs: 'cz',  // Czech: cs (ISO) → cz (content path)
     uk: 'uk',  // Ukrainian: same
     en: 'en',  // English: same
-    fr: 'fr'   // French: same
+    fr: 'fr',  // French: same
+    es: 'es'   // Spanish: same
   };
   return mapping[locale] || locale;
 }
@@ -57,7 +60,7 @@ export function contentPathToLocale(path: string): SupportedLocale {
   return 'cs'; // Default fallback
 }
 
-const messages: Record<SupportedLocale, typeof cs> = { cs, uk, en, fr };
+const messages: Record<SupportedLocale, typeof cs> = { cs, uk, en, fr, es };
 
 // Reactive locale state — defaults to 'cs' to match SSR output.
 // The actual user preference is loaded after hydration via initLocaleFromStorage().
@@ -137,12 +140,13 @@ export function getTranslationHref(locale: SupportedLocale, currentPath?: string
   const contentPath = localeToContentPath(locale);
   // Active translation content paths — must mirror DIARY_LANGUAGES isTranslation entries
   const activeTranslations = new Set(['cz', 'en', 'uk', 'fr']);
+  // PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md) — add 'es' here together with the DIARY_LANGUAGES block
   const base = activeTranslations.has(contentPath) ? `/${contentPath}` : '/cz';
 
   // If we have a current path on a diary page, preserve the suffix
   // but drop /glossary — the glossary is shared, nav should link to the diary
   if (currentPath) {
-    const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
+    const match = currentPath.match(/^\/(cz|original|en|uk|fr|es)(\/.*)?$/);
     if (match && match[2] && !match[2].startsWith('/glossary')) {
       return `${base}${truncateSuffixToCarnet(match[2])}`;
     }
@@ -179,7 +183,7 @@ function truncateSuffixToCarnet(suffix: string): string {
  */
 export function getOriginalHref(currentPath?: string): string {
   if (currentPath) {
-    const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
+    const match = currentPath.match(/^\/(cz|original|en|uk|fr|es)(\/.*)?$/);
     if (match && match[2] && !match[2].startsWith('/glossary')) {
       // Original exists for every entry, but truncating to the carnet keeps
       // parity with getTranslationHref and avoids surprises on section ids.
@@ -199,7 +203,7 @@ export function getOriginalHref(currentPath?: string): string {
  */
 export function glossaryHref(currentPath?: string): string {
   if (currentPath) {
-    const match = currentPath.match(/^\/(cz|original|en|uk|fr)(\/|$)/);
+    const match = currentPath.match(/^\/(cz|original|en|uk|fr|es)(\/|$)/);
     if (match) {
       return `/${match[1]}/glossary`;
     }
@@ -211,7 +215,7 @@ export function glossaryHref(currentPath?: string): string {
  * Localized href for a static chrome page (`about`, `marie`, `privacy`) (M3).
  *
  * These pages live at `/{uiLocale}/{page}` (e.g. `/cs/about`, `/en/marie`) — the
- * segment is the ISO UI locale, not the diary content path. Built for cs/en/fr/uk.
+ * segment is the ISO UI locale, not the diary content path. Built for cs/en/fr/uk/es.
  */
 export function pageHref(page: 'about' | 'marie' | 'privacy', locale: SupportedLocale): string {
   const loc = SUPPORTED_LOCALES.includes(locale) ? locale : 'cs';

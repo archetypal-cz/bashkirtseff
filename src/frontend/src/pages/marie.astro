@@ -10,12 +10,12 @@
   <script>
     // Check localStorage first (user's explicit choice)
     const saved = localStorage.getItem('ui-language');
-    if (saved && ['cs', 'fr', 'en', 'uk'].includes(saved)) {
+    if (saved && ['cs', 'fr', 'en', 'uk', 'es'].includes(saved)) {
       window.location.replace('/' + saved + '/marie');
     } else {
       // Detect from browser preferences (navigator.languages is ordered by preference)
       const browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
-      const supported = ['cs', 'en', 'fr', 'uk'];
+      const supported = ['cs', 'en', 'fr', 'uk', 'es'];
 
       let targetLang = 'en'; // default
       for (const browserLang of browserLangs) {

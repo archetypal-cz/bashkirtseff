@@ -263,7 +263,7 @@ just glossary-move WALITSKY people/recurring --dry-run       # Dry run first
 The script:
 1. Finds the file wherever it currently lives in the glossary tree
 2. Moves it to the new category (creating directories if needed)
-3. Updates all references in `content/_original/` and `content/{cz,en,uk,fr}/`
+3. Updates all references in `content/_original/` and `content/{cz,en,uk,fr,es}/`
 4. Cleans up empty source directories
 
 ### Merging Duplicate Entries

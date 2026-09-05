@@ -66,10 +66,14 @@ Add timestamped comments to document your translation process or questions:
 
 ## Language-Specific Guidelines
 
-Each target language has its own specific style guide that should be consulted:
+Each target language has its own specific style guide that should be consulted. It lives in the language's `content/{lang}/CLAUDE.md` (workflow part in English, style part in the target language, plus a `## Editor / review traps` section that the review skills read):
 
-- Czech: `./src/cz/Style.cz.md`
-- [Other languages as they are added]
+- Czech: `content/cz/CLAUDE.md` (style section "Český překladatelský styl")
+- Ukrainian: `content/uk/CLAUDE.md` (Russianisms checklist + traps)
+- English: `content/en/CLAUDE.md` (Style Guidelines + traps)
+- French modern edition: `content/fr/CLAUDE.md`
+- Spanish: `content/es/CLAUDE.md` (Guía de estilo + traps; pilot)
+- Adding another language: `docs/ADDING_LANGUAGES.md`, Part 3
 
 These language-specific guides contain information about:
 

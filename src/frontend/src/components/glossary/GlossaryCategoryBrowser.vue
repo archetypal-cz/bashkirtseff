@@ -5,6 +5,7 @@ import cs from '../../i18n/locales/cs.json';
 import en from '../../i18n/locales/en.json';
 import fr from '../../i18n/locales/fr.json';
 import uk from '../../i18n/locales/uk.json';
+import es from '../../i18n/locales/es.json';
 
 interface EntryBrief {
   id: string;
@@ -32,7 +33,7 @@ const props = defineProps<{
   locale?: string;
 }>();
 
-const messages: Record<string, any> = { cs, en, fr, uk };
+const messages: Record<string, any> = { cs, en, fr, uk, es };
 
 function t(key: string, params?: Record<string, string | number>): string {
   const locale = props.locale || 'cs';

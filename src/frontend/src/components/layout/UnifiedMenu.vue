@@ -139,7 +139,7 @@ const calendarMonths = computed(() => {
 
 function formatDate(dateStr: string): string {
   const date = new Date(dateStr);
-  const localeMap: Record<string, string> = { cs: 'cs-CZ', en: 'en-US', fr: 'fr-FR', uk: 'uk-UA' };
+  const localeMap: Record<string, string> = { cs: 'cs-CZ', en: 'en-US', fr: 'fr-FR', uk: 'uk-UA', es: 'es-ES' };
   const dateLocale = localeMap[locale.value] || 'en-US';
   return date.toLocaleDateString(dateLocale, { day: 'numeric', month: 'short' });
 }

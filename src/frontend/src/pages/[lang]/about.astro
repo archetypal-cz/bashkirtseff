@@ -8,6 +8,7 @@ export function getStaticPaths() {
     { params: { lang: 'en' } },
     { params: { lang: 'fr' } },
     { params: { lang: 'uk' } },
+    { params: { lang: 'es' } },
   ];
 }
 
@@ -16,6 +17,7 @@ const t = createT(lang as SupportedLocale);
 
 // Map UI locale to content path for links
 const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'fr' };
+// PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md) — add `es: 'es'` above; until then es falls through to /cz like any unmapped locale.
 const contentPath = localeToContent[lang as string] ?? 'cz';
 ---
 
@@ -165,7 +167,7 @@ const contentPath = localeToContent[lang as string] ?? 'cz';
   // Save language preference when user visits this page
   const pathParts = window.location.pathname.split('/').filter(Boolean);
   const lang = pathParts[0];
-  if (lang && ['cs', 'en', 'fr', 'uk'].includes(lang)) {
+  if (lang && ['cs', 'en', 'fr', 'uk', 'es'].includes(lang)) {
     localStorage.setItem('ui-language', lang);
   }
 </script>

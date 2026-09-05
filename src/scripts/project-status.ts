@@ -215,7 +215,7 @@ function printOverview(): void {
   console.log(`\nGlossary: ${glossaryCount} entries in ${categoryCount} categories`);
 
   // Translation status for each language that exists
-  for (const lang of ['cz', 'en', 'uk', 'fr']) {
+  for (const lang of ['cz', 'en', 'uk', 'fr', 'es']) {
     const langDir = path.join(CONTENT_BASE, lang);
     if (!fs.existsSync(langDir)) continue;
     const hasCarnets = fs.readdirSync(langDir).some(f => /^\d{3}$/.test(f));

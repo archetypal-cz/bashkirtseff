@@ -29,7 +29,7 @@ def parse_args():
     p.add_argument('--target', default='culture/themes/MARRIAGE.md',
                    help='glossary path fragment after _glossary/')
     p.add_argument('--display', default='Marriage', help='display name for [#Name]')
-    p.add_argument('--langs', default='cz,uk,en,fr')
+    p.add_argument('--langs', default='cz,uk,en,fr,es')
     p.add_argument('--apply', action='store_true', help='write changes (default: dry-run)')
     p.add_argument('--from', dest='from_lang', default=None, metavar='LANG',
                    help='Seed propagation from paragraphs tagged in this language '

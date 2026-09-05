@@ -126,7 +126,8 @@ function generateTranslationReadme(
 ): string {
   const timestamp = getTimestamp();
   const locationStr = info.locations.size > 0 ? Array.from(info.locations).join(', ') : 'TBD';
-  const langName = language === 'cz' ? 'Czech' : language === 'en' ? 'English' : language.toUpperCase();
+  const LANGUAGE_NAMES: Record<string, string> = { cz: 'Czech', uk: 'Ukrainian', en: 'English', fr: 'French', es: 'Spanish' };
+  const langName = LANGUAGE_NAMES[language] ?? language.toUpperCase();
 
   return `# Carnet ${info.carnet} — ${langName} Translation
 

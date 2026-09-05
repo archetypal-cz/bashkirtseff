@@ -55,21 +55,21 @@ function selectLocale(newLocale: SupportedLocale) {
 
   const path = window.location.pathname;
 
-  // Diary content pages: /cz/..., /original/..., /en/..., /uk/..., /fr/...
+  // Diary content pages: /cz/..., /original/..., /en/..., /uk/..., /fr/..., /es/...
   // The locale switcher only changes the UI language, NOT the content language.
   // Content language switching is handled by the ContentLanguageSwitcher component.
   // Just reload with the new UI locale (already saved by setLocale above).
-  const diaryMatch = path.match(/^\/(cz|original|en|uk|fr)(\/.*)?$/);
+  const diaryMatch = path.match(/^\/(cz|original|en|uk|fr|es)(\/.*)?$/);
   if (diaryMatch) {
     window.location.reload();
     return;
   }
 
   // Static locale-parameterized pages
-  const homeMatch = path.match(/^\/home\/(cs|en|fr|uk)\/?$/);
-  const aboutMatch = path.match(/^\/(cs|en|fr|uk)\/about\/?$/);
-  const marieMatch = path.match(/^\/(cs|en|fr|uk)\/marie\/?$/);
-  const privacyMatch = path.match(/^\/(cs|en|fr|uk)\/privacy\/?$/);
+  const homeMatch = path.match(/^\/home\/(cs|en|fr|uk|es)\/?$/);
+  const aboutMatch = path.match(/^\/(cs|en|fr|uk|es)\/about\/?$/);
+  const marieMatch = path.match(/^\/(cs|en|fr|uk|es)\/marie\/?$/);
+  const privacyMatch = path.match(/^\/(cs|en|fr|uk|es)\/privacy\/?$/);
 
   if (homeMatch) {
     window.location.href = `/home/${newLocale}/`;

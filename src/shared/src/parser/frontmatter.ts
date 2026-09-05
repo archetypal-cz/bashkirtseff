@@ -174,6 +174,8 @@ export function detectLanguage(filePath: string): string {
     return 'uk';
   } else if (filePath.includes('/fr/')) {
     return 'fr';
+  } else if (filePath.includes('/es/')) {
+    return 'es';
   }
 
   return 'original';

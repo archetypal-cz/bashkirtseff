@@ -38,7 +38,7 @@ const languageValue = lang.isTranslation ? lang.urlPath : '_original';
 
 // Available languages for this carnet
 const availableLanguages: string[] = ['original'];
-for (const checkLang of ['cz', 'en', 'uk', 'fr']) {
+for (const checkLang of ['cz', 'en', 'uk', 'fr', 'es']) {
   if (hasCarnet000Content(checkLang)) {
     availableLanguages.push(checkLang);
   }

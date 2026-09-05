@@ -45,7 +45,7 @@ Same pattern for status updates if `just report-status` reports "No report found
 2. **Evaluate** against the French original. Classify:
    - **Translation quality** (`unnatural`, meaning shifts) → translator fixes, editor verifies
    - **Missing/wrong glossary tags** → researcher (scope tags to the explicitly reported files ONLY — never repo-wide propagation)
-   - **Structure** ("má být nový záznam" = entry split, paragraph order) → entry-restructurer, and remember splits touch **all five versions** (_original + cz/uk/en/fr) plus `para_start`/`para_end` frontmatter
+   - **Structure** ("má být nový záznam" = entry split, paragraph order) → entry-restructurer, and remember splits touch **all six versions** (_original + cz/uk/en/fr/es) plus `para_start`/`para_end` frontmatter
    - **Formatting/rendering** (markdown leaking as literal text, layout) → frontend, usually `src/frontend/src/lib/content.ts` (`processTextToHtml`, `joinClusterLines`) — fix the renderer for the whole class, not the one paragraph, and check whether content elsewhere depended on the old broken behavior (e.g. duplicated heading lines)
    - **Feature requests** (in `custom_reason`) → implement a minimal version if cheap (e.g. a glossary entry), log the broader idea in `.claude/reports/WATCHLIST.md`
    - **Unwarranted** → `dismissed`, but say why in the session summary
@@ -69,7 +69,7 @@ Same pattern for status updates if `just report-status` reports "No report found
   <!-- Teamcouch update 2026-07-06 (first-run calibration): the splitter's sed-range derivation
        silently dropped 3 paragraphs at seams (self-caught by its count check), and it applied
        _original's `#` date-heading convention but left translations as plain text. -->
-  Concretely: `grep -c '^%% NNN\.[0-9]\{4\} %%$'` must be **identical per file across all five sources**, the ID range contiguous with no duplicates; then eyeball each new file's opening — the date must be a `#` heading in **that language's own sibling convention** (translated, no stray periods). fr trap: the fr edition promotes a cluster's `%% … %%` comment to visible text only when the cluster has NO visible line — so a heading added to an fr cluster hides its commented prose unless the prose is also copied out visibly. fr files also have no YAML frontmatter (repo-wide; `verify-carnet fr` frontmatter failures are baseline, not your regression).
+  Concretely: `grep -c '^%% NNN\.[0-9]\{4\} %%$'` must be **identical per file across all six sources** (_original + cz/uk/en/fr/es, skipping any tree the carnet does not exist in yet), the ID range contiguous with no duplicates; then eyeball each new file's opening — the date must be a `#` heading in **that language's own sibling convention** (translated, no stray periods). fr trap: the fr edition promotes a cluster's `%% … %%` comment to visible text only when the cluster has NO visible line — so a heading added to an fr cluster hides its commented prose unless the prose is also copied out visibly. fr files also have no YAML frontmatter (repo-wide; `verify-carnet fr` frontmatter failures are baseline, not your regression).
 - For renderer changes: `just fe-build` must pass; spot-check the affected paragraph in build output if feasible
 - For tags: link targets exist (`just glossary-missing`)
 

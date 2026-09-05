@@ -283,7 +283,7 @@ function dateDiffDays(dateA: string, dateB: string): number {
 function formatShortDate(dateStr: string): string {
   const datePart = dateStr.split('-').slice(0, 3).join('-');
   const d = new Date(datePart);
-  const localeMap: Record<string, string> = { cs: 'cs-CZ', fr: 'fr-FR', en: 'en-US', uk: 'uk-UA' };
+  const localeMap: Record<string, string> = { cs: 'cs-CZ', fr: 'fr-FR', en: 'en-US', uk: 'uk-UA', es: 'es-ES' };
   return d.toLocaleDateString(localeMap[locale.value] || 'cs-CZ', { day: 'numeric', month: 'short' });
 }
 

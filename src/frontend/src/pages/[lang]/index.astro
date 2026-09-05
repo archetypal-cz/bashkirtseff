@@ -57,6 +57,8 @@ const allTranslations = [
   { urlPath: 'en', labelKey: 'translation.english', langCode: 'EN' },
   { urlPath: 'uk', labelKey: 'translation.ukrainian', langCode: 'UK' },
   { urlPath: 'fr', labelKey: 'translation.french', langCode: 'FR' },
+  // PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md) — listed-but-inactive entries render a "coming soon" card
+  // { urlPath: 'es', labelKey: 'translation.spanish', langCode: 'ES' },
 ];
 const activePaths = new Set(DIARY_LANGUAGES.filter(l => l.isTranslation).map(l => l.urlPath));
 

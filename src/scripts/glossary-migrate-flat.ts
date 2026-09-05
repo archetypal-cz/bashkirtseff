@@ -186,7 +186,7 @@ function buildGlossaryIndex(): Map<string, string> {
 function getAllContentFiles(): string[] {
   const files: string[] = [];
 
-  const langDirs = ['_original', 'cz', 'en', 'uk', 'fr'];
+  const langDirs = ['_original', 'cz', 'en', 'uk', 'fr', 'es'];
   for (const lang of langDirs) {
     const langDir = path.join(CONTENT_BASE, lang);
     if (!fs.existsSync(langDir)) continue;

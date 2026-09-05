@@ -64,10 +64,10 @@ src/frontend/src/
 
 **CRITICAL** — the app uses two distinct language code systems:
 
-| System | Czech | French | English | Original French |
-|--------|-------|--------|---------|-----------------|
-| **UI Locale** (ISO 639-1) | `cs` | `fr` | `en` | N/A |
-| **Content Path** (URLs) | `cz` | `fr` | `en` | `original` |
+| System | Czech | French | English | Ukrainian | Spanish | Original French |
+|--------|-------|--------|---------|-----------|---------|-----------------|
+| **UI Locale** (ISO 639-1) | `cs` | `fr` | `en` | `uk` | `es` | N/A |
+| **Content Path** (URLs) | `cz` | `fr` | `en` | `uk` | `es` (staged, disabled) | `original` |
 
 URLs use `/cz/` (not `/cs/`) to avoid breaking existing links. The `original` path maps to `_original` content directory.
 
@@ -101,7 +101,7 @@ interface DiaryLanguageConfig {
 - `glossaryUrl(lang, id)` → e.g., `/cz/glossary/MARIE_BASHKIRTSEFF`
 - `toGlossaryId(name)` → `MARIE_BASHKIRTSEFF`
 
-Each page's `getStaticPaths()` iterates `DIARY_LANGUAGES` to generate paths for all configured languages. Currently active: `cz`, `original`, `en`, `uk`, `fr`.
+Each page's `getStaticPaths()` iterates `DIARY_LANGUAGES` to generate paths for all configured languages. Currently active: `cz`, `original`, `en`, `uk`, `fr`. Spanish (`es`) is staged but commented out — grep `PILOT es` for the enable points.
 
 ## Content Loading (`lib/content.ts`)
 
@@ -284,7 +284,7 @@ just fe-preview   # Preview production build
 
 ### Add new i18n keys
 
-1. Add key to all 4 locale files: `cs.json`, `en.json`, `fr.json`, `uk.json`
+1. Add key to all 5 locale files: `cs.json`, `en.json`, `fr.json`, `uk.json`, `es.json`
 2. Czech (`cs.json`) is the primary — add the real translation
 3. Other locales: translate or use Czech as placeholder
 4. Use `t('your.key')` in Astro (SSR) or `useI18n().t('your.key')` in Vue (client)

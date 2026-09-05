@@ -21,6 +21,7 @@ const { t } = useI18n();
  */
 
 /** All content languages the project supports, in display order */
+// PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md) — insert 'es' before '_original'; unlisted = no greyed-out ES button
 const ALL_LANGUAGES = ['cz', 'en', 'uk', 'fr', '_original'] as const;
 
 interface Props {

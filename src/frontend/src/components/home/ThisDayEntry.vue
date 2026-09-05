@@ -17,7 +17,7 @@ interface Props {
   initialMonthDay: string;
   // Language path for links and the per-day JSON endpoint (e.g., 'cz', 'original')
   languagePath: string;
-  // UI locale for date formatting (e.g., 'cs', 'en', 'fr', 'uk')
+  // UI locale for date formatting (e.g., 'cs', 'en', 'fr', 'uk', 'es')
   uiLocale?: string;
   // UI translations
   translations: {
@@ -75,7 +75,7 @@ async function fetchDay(monthDay: string): Promise<ThisDayEntry[]> {
 }
 
 // Map UI locale to Intl locale string
-const localeMap: Record<string, string> = { cs: 'cs-CZ', fr: 'fr-FR', en: 'en-US', uk: 'uk-UA' };
+const localeMap: Record<string, string> = { cs: 'cs-CZ', fr: 'fr-FR', en: 'en-US', uk: 'uk-UA', es: 'es-ES' };
 const intlLocale = computed(() => localeMap[props.uiLocale || ''] || 'en-US');
 
 // Format the browsing date for display (day + month only, no year)

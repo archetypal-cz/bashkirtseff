@@ -485,7 +485,7 @@ activate the agent (con idled ~24 min in cz-056-064); a plain status ping reliab
 
 **CON-specific:**
 - "Three-pass review: target-language-only, comparative, 'Would Marie approve?'"
-- "Quality bar: see recent `.claude/reports/` for your language (recent plateaus: cz ~0.92, en ~0.95-0.96, uk ~0.92-0.96)"
+- "Quality bar: see recent `.claude/reports/` for your language (recent plateaus: cz ~0.92, en ~0.95-0.96, uk ~0.92-0.96; es ~0.94 (pilot slice 1, carnet 001, 2026-09-05; 5 entries))"
 - "On 30+-entry carnets, send a halfway heartbeat" — and on your side, do NOT read a 0/N `conductor_approved` disk count as "stuck": CON reviews the whole carnet then batch-flips the flags at the end, so the count jumps 0→N. Monitor via the heartbeat, not the disk count (cz-065-069).
 
 ### OPS Integration (optional extra review pass)

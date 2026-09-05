@@ -14,7 +14,7 @@ import { rewriteGlossaryLinks } from './glossary-links.js';
 export const FRONTMATTER_ITEM_PATTERN = /^(\s+-\s+)(\S+)$/;
 
 /** Translation trees that carry glossary links alongside `_original`. */
-export const TRANSLATION_DIRS = ['cz', 'uk', 'en', 'fr'];
+export const TRANSLATION_DIRS = ['cz', 'uk', 'en', 'fr', 'es'];
 
 export interface MergeResult {
   filesUpdated: number;

@@ -30,7 +30,7 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[2] / 'content'
-TREES = ['cz', 'uk', 'en', 'fr', '_original']
+TREES = ['cz', 'uk', 'en', 'fr', 'es', '_original']
 # multi-line %% blocks are the DESIGNED shape in fr (visible text lives in
 # them and gets promoted); everywhere else they are violations
 MULTILINE_OK = {'fr'}

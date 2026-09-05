@@ -8,24 +8,32 @@
  * 1. Add an entry to DIARY_LANGUAGES below
  * 2. Ensure content exists in content/{contentPath}/
  * 3. Pages are generated automatically by getStaticPaths() helpers
+ * 4. Add the content path to `activeTranslations` in ../i18n/index.ts
+ *    (getTranslationHref) so the GUI locale switcher links to it
+ * 5. Uncomment the matching entries in LanguageSwitcher.vue,
+ *    ContentLanguageSwitcher.vue and [lang]/index.astro (allTranslations)
+ *    — those lists render greyed-out buttons for anything listed but not
+ *    active, so staged languages stay commented there (see PILOT es)
+ *
+ * Full checklist: docs/ADDING_LANGUAGES.md
  */
 
 import type { SupportedLocale } from '../i18n/index';
 
 export interface DiaryLanguageConfig {
-  /** URL path segment: 'cz', 'original', 'en', 'uk', 'fr' */
+  /** URL path segment: 'cz', 'original', 'en', 'uk', 'fr', 'es' */
   urlPath: string;
 
-  /** Content directory path for content.ts functions: 'cz', '_original', 'en', 'uk', 'fr' */
+  /** Content directory path for content.ts functions: 'cz', '_original', 'en', 'uk', 'fr', 'es' */
   contentPath: string;
 
-  /** UI locale for SSR i18n (createT): 'cs', 'en', 'fr', 'uk' */
+  /** UI locale for SSR i18n (createT): 'cs', 'en', 'fr', 'uk', 'es' */
   uiLocale: SupportedLocale;
 
   /** Locale for date formatting (Intl.DateTimeFormat): 'cs-CZ', 'fr-FR', etc. */
   dateLocale: string;
 
-  /** HTML lang attribute for content: 'cs', 'fr', 'en', 'uk' */
+  /** HTML lang attribute for content: 'cs', 'fr', 'en', 'uk', 'es' */
   contentLangAttr: string;
 
   /** true = shows FlipParagraph, translation progress, FR badges */
@@ -73,6 +81,15 @@ export const DIARY_LANGUAGES: DiaryLanguageConfig[] = [
     contentLangAttr: 'fr',
     isTranslation: true,
   },
+  // PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md)
+  // {
+  //   urlPath: 'es',
+  //   contentPath: 'es',
+  //   uiLocale: 'es',
+  //   dateLocale: 'es-ES',
+  //   contentLangAttr: 'es',
+  //   isTranslation: true,
+  // },
 ];
 
 /**
@@ -83,6 +100,7 @@ export const DIARY_LANGUAGES: DiaryLanguageConfig[] = [
  *   en       -> 'en'
  *   uk       -> 'uk'
  *   original -> 'fr'     (the French source text; the canonical French)
+ *   es       -> 'es'
  *   fr       -> 'fr-FR'  (the modern French *edition*; both /original/ and /fr/
  *                         are French, so the edition gets a region-qualified
  *                         tag to disambiguate it from the original. Search
@@ -94,6 +112,7 @@ const HREFLANG_BY_URLPATH: Record<string, string> = {
   en: 'en',
   uk: 'uk',
   fr: 'fr-FR',
+  es: 'es',
 };
 
 /** Get the hreflang value for a URL-path segment (e.g. 'cz' -> 'cs'). */

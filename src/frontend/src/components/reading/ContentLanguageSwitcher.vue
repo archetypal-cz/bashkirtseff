@@ -15,6 +15,7 @@ import { trackEvent } from '../../lib/analytics';
  * NOT UI locale codes ('cs').
  */
 
+// PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md) — insert 'es' before '_original'; unlisted = no greyed-out ES button
 const ALL_LANGUAGES = ['cz', 'en', 'uk', 'fr', '_original'] as const;
 
 interface Props {
