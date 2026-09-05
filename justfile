@@ -555,7 +555,7 @@ verify-carnet-all lang=default_lang *FLAGS:
     fi
     if [ "$fail" -eq 0 ]; then echo "=== All carnets PASS ==="; else echo "=== Failures found (see above) ==="; exit 1; fi
 
-# Repo-wide broken glossary-link scan across ALL five trees (_original, cz, en, uk, fr).
+# Repo-wide broken glossary-link scan across ALL six trees (_original, cz, en, uk, fr, es — es skipped until it exists).
 # Applies correct path-depth per tree, prints per-tree counts + broken targets, and
 # EXITS NON-ZERO if any link is broken (CI-usable). Use this, NOT `just sync`, for link health.
 check-links-repo *FLAGS:
@@ -769,6 +769,7 @@ help:
     @echo "  just status original      # Source preparation status"
     @echo "  just status original 001  # Specific carnet"
     @echo "  just status cz            # Czech translation status"
+    @echo "  just status es            # Spanish translation status (pilot, in preparation)"
     @echo "  just verify               # Count entry files (_original + cz)"
     @echo "  just verify-carnet cz 001 # Structural integrity gate for a carnet (lang: cz|uk|en|fr|es)"
     @echo "  just verify-carnet-all cz # Run that gate across every carnet"

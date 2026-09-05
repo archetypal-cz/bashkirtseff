@@ -6,7 +6,14 @@
  */
 
 import { describe, it, expect } from 'vitest';
-import { localeToContentPath, contentPathToLocale, type SupportedLocale } from '../index';
+import {
+  localeToContentPath,
+  contentPathToLocale,
+  getTranslationHref,
+  SUPPORTED_LOCALES,
+  type SupportedLocale,
+} from '../index';
+import { localeToContentPath as astroLocaleToContentPath } from '../astro';
 
 describe('Locale to Content Path Mapping', () => {
   describe('localeToContentPath', () => {
@@ -98,6 +105,34 @@ describe('Locale to Content Path Mapping', () => {
         const url = `/${contentPath}/002/1873-08-11`;
         expect(url).toBe(expectedUrls[i]);
       });
+    });
+  });
+
+  describe('staged locales (no diary routes yet)', () => {
+    // A locale whose translation pages don't exist yet must fall back to the
+    // French SOURCE, never to another translation: /home/es once linked into the
+    // Czech diary, so a Spanish reader got Czech prose under Spanish chrome.
+    it('never routes a staged locale into another translation', () => {
+      for (const locale of SUPPORTED_LOCALES) {
+        const href = getTranslationHref(locale);
+        const contentPath = localeToContentPath(locale);
+        expect([`/${contentPath}`, '/original']).toContain(href);
+      }
+    });
+
+    it('routes Spanish to the French original while es is staged', () => {
+      expect(getTranslationHref('es')).toBe('/original');
+    });
+  });
+
+  describe('astro mirror', () => {
+    // i18n/astro.ts mirrors localeToContentPath so .astro pages don't import the
+    // Vue-dependent module. The two must not drift — a divergent inline map in
+    // the .astro pages is what produced the Czech-on-Spanish bug.
+    it('matches the canonical mapping for every supported locale', () => {
+      for (const locale of SUPPORTED_LOCALES) {
+        expect(astroLocaleToContentPath(locale)).toBe(localeToContentPath(locale));
+      }
     });
   });
 

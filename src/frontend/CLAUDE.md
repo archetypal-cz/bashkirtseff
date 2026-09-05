@@ -264,6 +264,17 @@ commented list entries — grep for `PILOT es`: uncomment the `es` block in
 `src/i18n/index.ts`, then uncomment `es` in `LanguageSwitcher.vue`,
 `ContentLanguageSwitcher.vue` and `pages/[lang]/index.astro`.
 
+While a language is staged, `/home/{lang}` and `/{lang}/{marie,about,privacy}`
+still exist. They must **not** hardcode a locale→content map: they call
+`localeToContentPath()` (mirrored in `i18n/astro.ts`) and gate diary links on
+`findDiaryLang()`, so a staged language links to `/original/` and flips to its own
+tree by itself. An inline map that forgot `es` is what made the Spanish landing
+page render Czech diary text under Spanish chrome. Same rule in
+`getTranslationHref()`: an inactive locale falls back to `/original`, never to
+another translation. "This Day" previews follow suit — `ThisDayEntry.vue` labels
+any excerpt that is the French original (`previewIsOriginal` from `content.ts`)
+and points its link at the text actually shown.
+
 URLs use `/cz/` (not `/cs/`) for historical link stability; the UI locale system
 uses ISO `cs`. Helpers in `src/i18n/index.ts`:
 

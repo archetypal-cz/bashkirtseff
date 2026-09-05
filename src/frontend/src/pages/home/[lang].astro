@@ -4,7 +4,8 @@ import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import ThisDayEntry from '../../components/home/ThisDayEntry.vue';
 import ContinueReadingGlobal from '../../components/reading/ContinueReadingGlobal.vue';
-import { createT, type SupportedLocale } from '../../i18n/astro';
+import { createT, localeToContentPath, type SupportedLocale } from '../../i18n/astro';
+import { findDiaryLang } from '../../lib/diary-lang-config';
 import { getThisDayEntries, getCarnets } from '../../lib/content';
 
 export function getStaticPaths() {
@@ -40,10 +41,20 @@ const carnets = FEATURED_CARNET_IDS.map(id => {
   return { id, years, entries };
 });
 
-// Map UI locale to content path for links
-const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'fr' };
-// PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md) — add `es: 'es'` above; until then es falls through to /cz like any unmapped locale.
-const languagePath = localeToContent[lang as string] ?? 'cz';
+// The content tree this locale reads from ('cs' → 'cz', 'es' → 'es', …).
+const contentPath = localeToContentPath(lang as SupportedLocale);
+// PILOT es: nothing to uncomment here. `findDiaryLang` is the flag — a language
+// whose DIARY_LANGUAGES entry is still commented out has no /{lang}/… routes, so
+// every diary link on its landing page points at the French source instead. The
+// moment the es block in diary-lang-config.ts is uncommented, these links switch
+// to /es/ on their own.
+const diaryRoutesPublished = findDiaryLang(contentPath) !== undefined;
+// Link base for the diary CTAs and the carnet grid.
+const diaryPath = diaryRoutesPublished ? contentPath : 'original';
+// Preview language for "This Day": always this locale's own content tree, so a
+// staged language shows its own translation where it has one and a clearly
+// labelled French original where it doesn't — never a third language's prose.
+const languagePath = contentPath;
 
 // "This Day" data is served per-day as static JSON from
 // /data/this-day/{lang}/{MM-DD}.json (see pages/data/this-day/[lang]/[date].json.ts).
@@ -61,6 +72,8 @@ const thisDayTranslations = {
   onThisDay: t('home.thisDayOn'),
   marieWas: t('home.thisDayAge'),
   readFullEntry: t('home.readFullEntry'),
+  readFullEntryOriginal: t('home.readFullEntryOriginal'),
+  notTranslatedYet: t('home.notTranslatedYet'),
   noEntryToday: t('home.noEntryToday'),
   yearsOld: t('home.yearsOld'),
 };
@@ -102,7 +115,7 @@ const homeAlternates = [
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <ContinueReadingGlobal client:load />
-          <a href={`/${languagePath}/000`} class="btn btn-primary text-lg px-8 py-3">
+          <a href={`/${diaryPath}/000`} class="btn btn-primary text-lg px-8 py-3">
             {t('home.startReading')}
           </a>
           <a href={`/${lang}/about`} class="btn btn-secondary text-lg px-8 py-3">
@@ -152,6 +165,7 @@ const homeAlternates = [
           initialEntries={initialEntries}
           initialMonthDay={buildMonthDay}
           languagePath={languagePath}
+          diaryPath={diaryPath}
           uiLocale={lang}
           translations={thisDayTranslations}
         />
@@ -168,7 +182,7 @@ const homeAlternates = [
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {carnets.map(carnet => (
             <a
-              href={`/${languagePath}/${carnet.id}`}
+              href={`/${diaryPath}/${carnet.id}`}
               class="block p-6 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow-lg transition-all group"
             >
               <div class="text-3xl font-light text-accent mb-2 group-hover:text-accent-light transition-colors">
@@ -182,7 +196,7 @@ const homeAlternates = [
         </div>
 
         <div class="text-center mt-8">
-          <a href={`/${languagePath}`} class="text-accent hover:text-accent-light transition-colors">
+          <a href={`/${diaryPath}`} class="text-accent hover:text-accent-light transition-colors">
             {t('home.viewAllVolumes')} →
           </a>
         </div>
@@ -252,7 +266,7 @@ const homeAlternates = [
             — Marie Bashkirtseff
           </p>
         )}
-        <a href={`/${languagePath}/000`} class="inline-block btn bg-parchment text-ink hover:bg-sepia text-lg px-8 py-3">
+        <a href={`/${diaryPath}/000`} class="inline-block btn bg-parchment text-ink hover:bg-sepia text-lg px-8 py-3">
           {t('home.startReadingDiary')}
         </a>
       </div>

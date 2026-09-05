@@ -1,6 +1,7 @@
 ---
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
-import { createT, type SupportedLocale } from '../../i18n/astro';
+import { createT, localeToContentPath, type SupportedLocale } from '../../i18n/astro';
+import { findDiaryLang } from '../../lib/diary-lang-config';
 
 export function getStaticPaths() {
   return [
@@ -15,10 +16,13 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 const t = createT(lang as SupportedLocale);
 
-// Map UI locale to content path for links
-const localeToContent: Record<string, string> = { cs: 'cz', en: 'en', uk: 'uk', fr: 'fr' };
-// PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md) — add `es: 'es'` above; until then es falls through to /cz like any unmapped locale.
-const contentPath = localeToContent[lang as string] ?? 'cz';
+// Link back to this locale's diary. PILOT es: nothing to uncomment here —
+// `findDiaryLang` is the flag. A language whose DIARY_LANGUAGES entry is still
+// commented out has no /{lang}/… routes, so the link points at the French source
+// rather than at another translation, and switches to /es/ on its own once the
+// es block in diary-lang-config.ts is uncommented.
+const langContentPath = localeToContentPath(lang as SupportedLocale);
+const contentPath = findDiaryLang(langContentPath) ? langContentPath : 'original';
 ---
 
 <ReadingLayout

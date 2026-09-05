@@ -10,6 +10,8 @@
     "thisDayOn": "Ce jour en {year}",
     "thisDayAge": "Marie avait {age}",
     "readFullEntry": "Lire l'entrée complète",
+    "readFullEntryOriginal": "Lire l'entrée complète dans l'original",
+    "notTranslatedYet": "Cette entrée n'a pas encore été reprise dans l'édition modernisée — l'extrait provient de l'original.",
     "noEntryToday": "Pas d'entrée pour ce jour",
     "yearsOld": "ans",
     "intro1": "Marie Bashkirtseff (1858–1884) était une aristocrate ukrainienne de Poltava qui a tenu l'un des journaux les plus remarquables de l'histoire, de l'âge de treize ans jusqu'à sa mort prématurée de tuberculose.",

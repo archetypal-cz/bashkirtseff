@@ -17,7 +17,9 @@ import { buildThisDayData } from '../../../../lib/content';
  */
 
 // Languages built for the landing page (content-path codes used in links).
-// 'es' is staged: with no content/es carnets it yields French-original previews only.
+// 'es' is staged: content/es holds only carnet 001, so most days yield a
+// French-original preview with hasTranslation:false. ThisDayEntry.vue labels those
+// as the original instead of passing them off as Spanish.
 const LANGUAGES = ['cz', 'en', 'uk', 'fr', 'es'];
 
 export const getStaticPaths: GetStaticPaths = () => {

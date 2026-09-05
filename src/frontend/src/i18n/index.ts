@@ -128,8 +128,9 @@ export function getLocale(): SupportedLocale {
 
 /**
  * Get the translation content path for the current UI locale.
- * Maps locale → content URL path, falling back to /cz if the
- * locale's translation pages don't exist yet.
+ * Maps locale → content URL path, falling back to /original (the French source)
+ * if the locale's translation pages don't exist yet — never to another
+ * translation, which would send e.g. a Spanish reader into the Czech diary.
  *
  * If currentPath is provided (the current window.location.pathname),
  * the suffix after the lang prefix is preserved. E.g. if the user is
@@ -141,7 +142,8 @@ export function getTranslationHref(locale: SupportedLocale, currentPath?: string
   // Active translation content paths — must mirror DIARY_LANGUAGES isTranslation entries
   const activeTranslations = new Set(['cz', 'en', 'uk', 'fr']);
   // PILOT es: uncomment when the first es carnet is conductor-approved (see content/es/PROGRESS.md) — add 'es' here together with the DIARY_LANGUAGES block
-  const base = activeTranslations.has(contentPath) ? `/${contentPath}` : '/cz';
+  // Staged locales fall back to the French SOURCE, not to another translation.
+  const base = activeTranslations.has(contentPath) ? `/${contentPath}` : '/original';
 
   // If we have a current path on a diary page, preserve the suffix
   // but drop /glossary — the glossary is shared, nav should link to the diary

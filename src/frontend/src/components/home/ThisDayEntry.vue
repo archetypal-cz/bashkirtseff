@@ -8,6 +8,10 @@ interface ThisDayEntry {
   preview: string;        // Preview excerpt from entry
   marieAge: number;       // Marie's age at this entry
   hasTranslation: boolean; // Whether translation exists
+  // Whether `preview` is the French original rather than this language.
+  // Optional: JSON cached by the service worker before this field existed
+  // won't carry it, so readers fall back to !hasTranslation.
+  previewIsOriginal?: boolean;
 }
 
 interface Props {
@@ -15,8 +19,14 @@ interface Props {
   initialEntries: ThisDayEntry[];
   // The MM-DD that initialEntries corresponds to (the build date).
   initialMonthDay: string;
-  // Language path for links and the per-day JSON endpoint (e.g., 'cz', 'original')
+  // Content-path code the previews are in and the per-day JSON endpoint to fetch
+  // (e.g. 'cz', 'es', 'original'). Entries this language has not translated yet
+  // carry hasTranslation:false and a French-original preview.
   languagePath: string;
+  // URL base for links into this language's diary. Equals `languagePath` once the
+  // language's routes are published; a staged language (no /es/ pages yet) passes
+  // 'original' so links land on the French source instead of a 404.
+  diaryPath?: string;
   // UI locale for date formatting (e.g., 'cs', 'en', 'fr', 'uk', 'es')
   uiLocale?: string;
   // UI translations
@@ -25,6 +35,8 @@ interface Props {
     onThisDay: string;       // "On this day in {year}"
     marieWas: string;        // "Marie was {age}"
     readFullEntry: string;   // "Read full entry"
+    readFullEntryOriginal: string; // "Read the full entry in French"
+    notTranslatedYet: string;      // "Not translated yet — excerpt from the French original"
     noEntryToday: string;    // "No diary entry for this date"
     yearsOld: string;        // "years old" (suffix for age)
   };
@@ -90,15 +102,35 @@ const formattedDateLocalized = computed(() => {
   return date.toLocaleDateString(intlLocale.value, { day: 'numeric', month: 'long', year: 'numeric' });
 });
 
-// Build the link to the entry — fall back to /original/ when translation doesn't exist
+// URL base for entries this language HAS translated. Defaults to languagePath;
+// a staged language passes 'original' because its diary routes don't exist yet.
+const diaryBase = computed(() => props.diaryPath || props.languagePath);
+
+// The excerpt is the French original, not this page's language. Never show
+// another language's prose unlabelled: a reader must be able to tell that what
+// they are reading is not the translation they asked for.
+const previewIsOriginal = computed(() => {
+  const entry = selectedEntry.value;
+  if (!entry || props.languagePath === 'original') return false;
+  return entry.previewIsOriginal ?? !entry.hasTranslation;
+});
+
+// Build the link to the entry. It follows the EXCERPT, not the mere existence of
+// a translation file: a scaffolded entry (file present, body still empty) shows
+// the original here and would otherwise link to a blank translated page.
 const entryLink = computed(() => {
   if (!selectedEntry.value) return '#';
   const entry = selectedEntry.value;
-  const usePath = entry.hasTranslation || props.languagePath === 'original'
-    ? (props.languagePath === 'original' ? '/original' : `/${props.languagePath}`)
+  const usePath = !previewIsOriginal.value && diaryBase.value !== 'original'
+    ? `/${diaryBase.value}`
     : '/original';
   return `${usePath}/${entry.carnet}/${entry.date}`;
 });
+
+// "Read full entry" leads to the French original rather than this language.
+const linkIsOriginal = computed(
+  () => props.languagePath !== 'original' && entryLink.value.startsWith('/original/')
+);
 
 // Replace placeholders in translation strings
 function formatMessage(template: string, values: Record<string, string | number>): string {
@@ -195,12 +227,16 @@ onMounted(() => {
           </div>
         </div>
 
-        <blockquote class="this-day-quote">
+        <p v-if="previewIsOriginal" class="this-day-untranslated">
+          {{ translations.notTranslatedYet }}
+        </p>
+
+        <blockquote class="this-day-quote" :lang="previewIsOriginal ? 'fr' : undefined">
           <p>{{ selectedEntry.preview }}</p>
         </blockquote>
 
         <a :href="entryLink" class="this-day-link">
-          {{ translations.readFullEntry }}
+          {{ linkIsOriginal ? translations.readFullEntryOriginal : translations.readFullEntry }}
           <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -365,6 +401,17 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-age {
+  color: #a3a3a3;
+}
+
+.this-day-untranslated {
+  margin: 1.25rem 0 -0.5rem 0;
+  font-size: 0.8125rem;
+  color: var(--text-muted, #5C5650);
+  font-style: italic;
+}
+
+[data-theme="dark"] .this-day-untranslated {
   color: #a3a3a3;
 }
 

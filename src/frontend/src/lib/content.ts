@@ -1400,7 +1400,7 @@ export function getAvailableLanguages(carnetId: string, entryDate: string): stri
   const languages = ['_original'];
 
   // Check all translation directories for this entry
-  const translationDirs = ['cz', 'en', 'uk', 'fr'];
+  const translationDirs = ['cz', 'en', 'uk', 'fr', 'es'];
   for (const lang of translationDirs) {
     if (fs.existsSync(path.join(CONTENT_ROOT, lang, carnetId, `${entryDate}.md`))) {
       languages.push(lang);
@@ -2413,6 +2413,11 @@ export interface ThisDayEntry {
   preview: string;        // Preview excerpt from entry (in target language)
   marieAge: number;       // Marie's age at this entry
   hasTranslation: boolean; // Whether translation exists for this entry
+  // True when `preview` is the French original rather than the requested
+  // language. Tracked separately from hasTranslation because a translated entry
+  // whose own preview comes out empty also falls back to the original text —
+  // and a preview in another language must always be labelled as such.
+  previewIsOriginal: boolean;
 }
 
 /**
@@ -2484,10 +2489,12 @@ function computeThisDayData(language: string = 'original'): ThisDayData {
       const translationExists = hasTranslation(carnet.id, entryId, language);
       const previewLang = translationExists ? language : 'original';
       let preview = getEntryPreview(carnet.id, entryId, previewLang, 200);
+      let previewIsOriginal = !translationExists && !isOriginalLanguage(language);
 
       // Fallback to original if translation preview is empty
       if (!preview && previewLang !== 'original') {
         preview = getEntryPreview(carnet.id, entryId, 'original', 200);
+        previewIsOriginal = true;
       }
 
       // Skip entries without meaningful content
@@ -2505,6 +2512,7 @@ function computeThisDayData(language: string = 'original'): ThisDayData {
         preview,
         marieAge: calculateMarieAge(fullDate),
         hasTranslation: translationExists,
+        previewIsOriginal,
       });
     }
   }

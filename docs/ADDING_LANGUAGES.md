@@ -265,7 +265,7 @@ None of these fail loudly for an unknown code; they simply skip it. Extend every
 | `i18n/locales/*.json` | new `{lang}.json` + key `translation.{language}` in every locale file |
 | `pages/data/i18n/[locale].json.ts`, `pages/data/this-day/[lang]/[date].json.ts:20` | `LOCALES`, `LANGUAGES` |
 | `pages/[lang]/index.astro:56-59`, `pages/[lang]/000/index.astro:41`, `lib/content.ts:1372` | translation cards, `checkLang` loop, `translationDirs` |
-| `pages/home/[lang].astro`, `pages/[lang]/{marie,about,privacy}.astro` | duplicated `localeToContent` maps + hardcoded `getStaticPaths` + `/cz/` fall-throughs (bug class seen in fb35b2869) |
+| `pages/home/[lang].astro`, `pages/[lang]/{marie,about,privacy}.astro` | hardcoded `getStaticPaths` only. The duplicated `localeToContent` maps and their `/cz/` fall-throughs are **gone** (2026-09-05): all four now call `localeToContentPath()` from `i18n/astro.ts` and gate diary links on `findDiaryLang()`, so a staged language links to `/original/` and switches to its own tree the moment its `DIARY_LANGUAGES` block is uncommented. Do not reintroduce an inline map — the old one silently served Czech diary text on the Spanish landing page (bug class first seen in fb35b2869) |
 | `pages/{index,about,privacy,marie,404}.astro`, `layouts/BaseLayout.astro:100,139,193` | client-side detection stubs, og:locale, JSON-LD `inLanguage` |
 | `components/reading/{LanguageSwitcher,ContentLanguageSwitcher}.vue` | `ALL_LANGUAGES` |
 | `components/layout/LocaleSwitcher.vue:62`, `components/glossary/GlossaryCategoryBrowser.vue:4-7` | regex; locale JSON imports |

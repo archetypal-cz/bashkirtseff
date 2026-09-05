@@ -11,6 +11,9 @@ onMounted(() => {
 
 const translationHref = computed(() => getTranslationHref(locale.value, currentPath.value || undefined));
 const originalHref = computed(() => getOriginalHref(currentPath.value || undefined));
+// A staged locale (no diary pages of its own yet) gets the French source as its
+// translation href — hide the duplicate link rather than show the same target twice.
+const hasOwnTranslation = computed(() => translationHref.value !== originalHref.value);
 const glossaryLink = computed(() => glossaryHref(currentPath.value || undefined));
 const marieHref = computed(() => pageHref('marie', locale.value));
 const aboutHref = computed(() => pageHref('about', locale.value));
@@ -18,7 +21,7 @@ const aboutHref = computed(() => pageHref('about', locale.value));
 
 <template>
   <nav class="hidden md:flex items-center gap-6" :aria-label="t('a11y.mainNav')">
-    <a :href="translationHref" class="text-ink-light hover:text-accent transition-colors">
+    <a v-if="hasOwnTranslation" :href="translationHref" class="text-ink-light hover:text-accent transition-colors">
       {{ t('nav.translation') }}
     </a>
     <a :href="originalHref" class="text-ink-light hover:text-accent transition-colors">

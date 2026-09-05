@@ -56,8 +56,17 @@ export function createT(locale: SupportedLocale) {
 // 4. Most UI interactions happen on the client side anyway
 //
 // For pages that need locale-aware SSR, use the [lang] route pattern and createT(lang).
-// Re-export contentPathToLocale for Astro server-side use
-// Canonical implementation lives in i18n/index.ts
+// Re-export localeToContentPath / contentPathToLocale for Astro server-side use.
+// Canonical implementations live in i18n/index.ts; they are mirrored here so
+// .astro pages don't have to import the Vue-dependent module.
+//
+// Pages must use this rather than an inline `{ cs: 'cz', … }` map: an inline map
+// that forgets a locale silently falls through to some other language's content,
+// which is how the Spanish home page came to render Czech diary text.
+export function localeToContentPath(locale: SupportedLocale): string {
+  return locale === 'cs' ? 'cz' : locale;
+}
+
 export function contentPathToLocale(path: string): SupportedLocale {
   if (path === 'cz') return 'cs';
   const supported: SupportedLocale[] = ['cs', 'fr', 'en', 'uk', 'es'];
