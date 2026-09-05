@@ -717,17 +717,36 @@ function parseParagraphs(content: string, language: string, context?: string): P
     let inOriginalBlock = false;
     let originalBlockLines: string[] = [];
 
+    // A `%%`-wrapped source line often carries MORE than the French sentence:
+    // a role note or a glossary-tag span appended on the same line (121 lines
+    // project-wide — see docs/COMMENT_MARKER_RULES.md §b, shape S1), e.g.
+    //   `%% <French> %% %% 2026-…T… LAN: … %%`
+    //   `%% <French> %% [#Name](…) %%`
+    // Only the FIRST `%%`-delimited span is diary source; everything after it is
+    // annotation and must never reach the French-original panel. Classify and
+    // promote that first span alone.
+    const firstMarkerSpan = (trimmed: string): string =>
+      trimmed.replace(/^%%/, '').split('%%')[0].trim();
+
+    // `2026-05-30T12:00:00 TR:` anywhere in a span marks it as an annotation even
+    // when prose precedes the timestamp (`%% Zoé established as … ; 2026-…T… TR: … %%`,
+    // uk 031.0330). Diary source never contains a timestamped role marker.
+    const TIMESTAMPED_ROLE = new RegExp(`\\d{4}-\\d{2}-\\d{2}T[\\d:]+\\s*${KNOWN_ROLE_CODES}:`);
+
     const isFrenchOriginal = (trimmed: string): boolean => {
       if (!trimmed.startsWith('%%') || !trimmed.endsWith('%%')) return false;
-      if (trimmed.match(/^%%\s*(?:\d+|GLO_[A-Z0-9_]+)\.\d+\s*%%$/)) return false;
+      const body = firstMarkerSpan(trimmed);
+      if (!body) return false;
+      if (/^(?:\d+|GLO_[A-Z0-9_]+)\.\d+$/.test(body)) return false;
       // Filter out annotation comments (audit issue L8). Anchored to KNOWN role
       // codes at the start of the comment body so French text containing
       // accidental "XX:" runs (e.g. "Louis XIV:", "OUT:") is NOT dropped.
-      if (ROLE_ANNOTATION_PATTERN.test(trimmed)) return false;
+      if (ROLE_ANNOTATION_PATTERN.test(`%% ${body}`)) return false;
       // Filter out glossary tags [#Name] and timestamped annotation lines
       // (e.g. `%% 2025-12-07T… RSR: …%%`) — the date prefix catches all
       // timestamped role notes regardless of role code.
-      if (trimmed.includes('[#') || trimmed.match(/^%%\s*\d{4}-\d{2}-\d{2}/)) return false;
+      if (body.includes('[#') || /^\d{4}-\d{2}-\d{2}/.test(body)) return false;
+      if (TIMESTAMPED_ROLE.test(body)) return false;
       return true;
     };
 
@@ -765,8 +784,15 @@ function parseParagraphs(content: string, language: string, context?: string): P
     for (const line of lines) {
       const trimmed = line.trim();
 
-      // Handle multi-line original block start
-      if (trimmed.startsWith('%%') && !trimmed.endsWith('%%') && !trimmed.match(/^%%\s*\d/)) {
+      // Handle multi-line original block start.
+      // A line opens a block when its ONLY `%%` is the one it starts with
+      // (rule 3 in docs/COMMENT_MARKER_RULES.md §a, shared with the shared-package
+      // comment scanner and the Python tooling). A paragraph-ID line and a
+      // `%% comment %% text` splice both carry a second marker, so neither opens
+      // a block. The previous `^%%\s*\d` exclusion also refused verse blocks whose
+      // first line is a bare number (`%% 1`), losing that line and leaking the
+      // rest of the verse — 53 blocks in `fr`.
+      if (trimmed.startsWith('%%') && (trimmed.match(/%%/g) || []).length === 1) {
         inOriginalBlock = true;
         originalBlockLines = [trimmed.slice(2).trim()];
         continue;
@@ -776,9 +802,15 @@ function parseParagraphs(content: string, language: string, context?: string): P
       if (inOriginalBlock) {
         if (trimmed.endsWith('%%')) {
           originalBlockLines.push(trimmed.slice(0, -2).trim());
-          // Assign to current paragraph, not pending
-          if (currentId && !currentOriginal) {
-            currentOriginal = originalBlockLines.join(' ').trim();
+          // Assign to current paragraph, not pending. A wrapped multi-line role
+          // note is an annotation, not diary source: never promote it.
+          const blockOriginal = originalBlockLines.join(' ').trim();
+          const isAnnotationBlock =
+            /^\d{4}-\d{2}-\d{2}/.test(blockOriginal) ||
+            ROLE_ANNOTATION_PATTERN.test(`%% ${blockOriginal}`) ||
+            TIMESTAMPED_ROLE.test(blockOriginal);
+          if (currentId && !currentOriginal && blockOriginal && !isAnnotationBlock) {
+            currentOriginal = blockOriginal;
           }
           inOriginalBlock = false;
           originalBlockLines = [];
@@ -799,11 +831,10 @@ function parseParagraphs(content: string, language: string, context?: string): P
       }
 
       // Check for single-line French original - assign to CURRENT paragraph, not next
-      const singleLineMatch = trimmed.match(/^%%\s*(.+?)\s*%%$/);
-      if (singleLineMatch && isFrenchOriginal(trimmed)) {
+      if (isFrenchOriginal(trimmed)) {
         // Original text comes after paragraph ID, so assign to current paragraph
         if (currentId && !currentOriginal) {
-          currentOriginal = singleLineMatch[1].trim();
+          currentOriginal = firstMarkerSpan(trimmed);
         }
         continue;
       }
