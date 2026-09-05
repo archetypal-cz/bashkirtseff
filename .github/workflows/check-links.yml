@@ -35,6 +35,10 @@ jobs:
       - name: Install just
         uses: extractions/setup-just@v2
 
-      # python3 is preinstalled on ubuntu-latest; the scanner is stdlib-only.
+      # The scanner is stdlib-only, but the justfile invokes it through uv
+      # (project convention: never bare python), so uv must be on PATH.
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
       - name: Check glossary links across all trees
         run: just check-links-repo
