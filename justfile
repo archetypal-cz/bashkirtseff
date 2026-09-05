@@ -144,6 +144,15 @@ harvest-footnotes *FLAGS:
 remap-glossary-links *FLAGS:
     uv run src/scripts/remap_broken_glossary_links.py {{FLAGS}}
 
+# Give content/fr/ entries that have none the frontmatter of their _original counterpart
+# (verbatim minus the workflow block and the flags fr does not carry), plus an
+# edition_complete flag derived from the file: true when the entry has no text to edit
+# or is already edited into visible French, false while it is still the generated
+# %%-wrapped scaffold. Never touches a file that already has frontmatter.
+# Default dry-run, pass --apply to write. e.g. just backfill-fr-frontmatter --carnet 067
+backfill-fr-frontmatter *FLAGS:
+    uv run src/scripts/backfill_fr_frontmatter.py {{FLAGS}}
+
 # Show theme tag statistics without modifying files
 theme-stats *FLAGS:
     npx tsx src/scripts/theme-tagger.ts --stats {{FLAGS}}

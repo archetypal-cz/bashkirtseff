@@ -64,6 +64,10 @@ if (!fs.existsSync(dir) || !fs.statSync(dir).isDirectory()) {
 }
 
 const isTranslation = lang !== '_original';
+// fr is an annotated edition of the French source, not a translation, so its
+// completion flag is `edition_complete` (content/fr/CLAUDE.md, "Phases
+// éditoriales"); every other target tree tracks `translation_complete`.
+const COMPLETION_KEY = lang === 'fr' ? 'edition_complete' : 'translation_complete';
 const CYRILLIC_LANGS = new Set(['uk', 'ru', 'bg', 'sr', 'be']);
 const checkScripts = CYRILLIC_LANGS.has(lang);
 
@@ -132,7 +136,7 @@ for (const fname of entryFiles) {
   if (fm === null) {
     add({ check: 'frontmatter', severity: 'FAIL', file: fname, message: 'missing or unterminated YAML frontmatter (no leading --- block)' });
   } else {
-    for (const key of ['date', 'carnet', 'translation_complete']) {
+    for (const key of ['date', 'carnet', COMPLETION_KEY]) {
       if (isTranslation && !new RegExp(`^${key}:`, 'm').test(fm)) {
         add({ check: 'frontmatter', severity: 'FAIL', file: fname, message: `frontmatter missing required key: ${key}` });
       }
