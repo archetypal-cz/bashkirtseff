@@ -20,6 +20,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { normalizeCarnet } from './lib/carnet.js';
+import { scanMarkerStructure } from '../shared/src/parser/comment-scanner.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -186,10 +187,10 @@ for (const fname of entryFiles) {
     if (!defLabels.has(label)) add({ check: 'footnotes', severity: 'FAIL', file: fname, message: `footnote reference [^${label}] has no definition` });
   }
 
-  // 5. Balanced %% markers (even count)
-  const pct = (text.match(/%%/g) || []).length;
-  if (pct % 2 !== 0) {
-    add({ check: '%%-balance', severity: 'FAIL', file: fname, message: `odd number of %% markers (${pct}) — an unterminated comment/source block` });
+  // 5. %% marker structure, per line (docs/COMMENT_MARKER_RULES.md rule 3)
+  for (const f of scanMarkerStructure(lines, { allowTrailingCloser: !isTranslation || lang === 'fr' })) {
+    const snippet = f.text.length > 70 ? `${f.text.slice(0, 70)}…` : f.text;
+    add({ check: '%%-balance', severity: 'FAIL', file: fname, line: f.line, message: `${f.kind}: ${snippet}` });
   }
 
   // 6 & 7. Script contamination — only on translation BODY lines (skip %% blocks & frontmatter)

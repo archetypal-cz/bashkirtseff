@@ -60,6 +60,63 @@ function scanTail(line: string, from: number): TailScan {
   }
 }
 
+export type MarkerFindingKind = 'splice' | 'unclosed-block' | 'closer-without-opener';
+
+export interface MarkerFinding {
+  /** 1-based line number; for `unclosed-block`, the line that opened it */
+  line: number;
+  kind: MarkerFindingKind;
+  /** The offending line, trimmed */
+  text: string;
+}
+
+export interface MarkerScanOptions {
+  /**
+   * `fr` and `_original` carry ~1,700 legacy lines of bare source ending in a
+   * stray `%%`; the glyph is stripped at render time, so it is noise there.
+   * Elsewhere such a line leaks source text or marks a mangled edit.
+   */
+  allowTrailingCloser: boolean;
+}
+
+/**
+ * Report the line shapes that break `scanComments` (and the frontend parser,
+ * which reads the same shapes). See docs/COMMENT_MARKER_RULES.md rule 3.
+ */
+export function scanMarkerStructure(lines: string[], opts: MarkerScanOptions): MarkerFinding[] {
+  const findings: MarkerFinding[] = [];
+  let openedAt = -1;
+
+  lines.forEach((raw, i) => {
+    const s = raw.trim();
+
+    if (openedAt >= 0) {
+      if (s.endsWith('%%')) openedAt = -1;
+      return;
+    }
+    if (!s.includes('%%')) return;
+
+    if (s.startsWith('%%')) {
+      const markers = s.split('%%').length - 1;
+      // One marker means the comment continues onto the following lines; two or
+      // more that end the line make it self-contained, inner literals included.
+      if (markers === 1) openedAt = i;
+      else if (!s.endsWith('%%')) findings.push({ line: i + 1, kind: 'splice', text: s });
+      return;
+    }
+
+    if (s.endsWith('%%') && !opts.allowTrailingCloser) {
+      findings.push({ line: i + 1, kind: 'closer-without-opener', text: s });
+    }
+  });
+
+  if (openedAt >= 0) {
+    findings.push({ line: openedAt + 1, kind: 'unclosed-block', text: lines[openedAt].trim() });
+  }
+
+  return findings;
+}
+
 export function scanComments(lines: string[]): CommentScanResult {
   const out: ScannedLine[] = lines.map((raw) => ({
     raw,
