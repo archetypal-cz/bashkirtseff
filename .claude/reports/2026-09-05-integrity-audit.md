@@ -479,3 +479,55 @@ edition:
 
 Category 3 is the reason this text cannot simply be left in place pending a decision. The
 other two misrepresent the diary; this one manufactures period evidence.
+
+## Addendum 2026-09-06e — `just sync` has a real bug, and it is localised
+
+Yesterday `just sync` refreshed cz/018 perfectly (0 of 26 files altered) and **corrupted**
+cz/011, en/091 and en/102 — French leaking into visible translation text, 84 of 148 files
+with altered translated text. The cause is now diagnosed and it is not the glued-marker
+shape (see Addendum 2026-09-06f).
+
+**Mechanism.** `sync.ts:552` copies `originalText` from the source paragraph into the synced
+paragraph, and `paragraph-renderer.ts:381` emits it with `lines.push(para.originalText)` —
+a **single array element**. When `originalText` contains a newline (a paragraph whose French
+spans several source lines), that one push produces two physical lines: the wrapping `%%`
+closer lands on the second, the first is left unclosed, and the continuation line is then
+read as translation text by `content.ts`. French appears in the reader.
+
+**Evidence.** Multi-line French blocks in the source, against yesterday's outcomes:
+
+| carnet | blocks | multi-line French | sync outcome |
+|---|---|---|---|
+| 018 | 308 | **0** | safe, 0 of 26 files altered |
+| 011 | 437 | 26 | corrupted |
+| 102 | 149 | 63 | corrupted |
+| 091 | 509 | **0** | **corrupted anyway** |
+
+So the mechanism explains 011 and 102 and predicts 018's safety, but **091 is not explained
+by it**. 091 is the carnet with the known paragraph-ID misalignment (date heading in its own
+block, every later ID running one ahead of source — see Addendum 2026-09-06). A second
+failure mode, probably block mismatching during the merge, is likely. Not yet proven.
+
+**Consequence: `just sync` is not safe to run unreviewed on any carnet whose source has
+multi-line French paragraphs or misaligned paragraph IDs.** Check both before syncing:
+
+```
+# multi-line French blocks in the source
+python3 - <<'PY'
+import re,glob
+for f in glob.glob("content/_original/<carnet>/[0-9]*.md"):
+    t=open(f).read()
+    for blk in re.split(r'^%% \d{3}\.\d{4} %%\s*$', t, flags=re.M)[1:]:
+        body=[l for l in blk.split("\n") if l.strip() and not l.strip().startswith(("%%","#","[^","[//]"))]
+        if len(body)>1: print(f)
+PY
+# id alignment
+just verify-carnet <lang> <carnet> | grep id-alignment
+```
+And always verify after: a sorted diff of visible text against HEAD must be identical, and
+splicescan must stay empty. That procedure is what caught the corruption; the gates alone
+did not.
+
+The renderer fix itself (emit `originalText` line by line, or wrap each physical line) is
+small and worth doing — it would make `sync` usable again for the stale-embedded-French
+class, which currently has no safe automated remedy.
