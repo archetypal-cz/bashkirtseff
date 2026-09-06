@@ -531,7 +531,22 @@ check-links-all lang=default_lang:
 # Exits non-zero on hard failures. --strict promotes warnings to failures, --quiet prints only failures.
 # See docs/VERIFY_CARNET_GATE.md
 verify-carnet lang carnet *FLAGS:
+    #!/usr/bin/env bash
     npx tsx src/scripts/verify-carnet.ts {{lang}} {{carnet}} {{FLAGS}}
+    rc=$?
+    # WARN tier: diary prose glued onto a footnote-definition line renders as
+    # footnote text and vanishes from the paragraph. Measured against
+    # content/_original, never the embedded French (which can itself be stale).
+    # --warn-only because a few benign shapes are permanent; verify-carnet.ts
+    # still governs the exit code.
+    uv run src/scripts/check_footnote_glue.py --lang {{lang}} --carnet {{carnet}} --warn-only || true
+    exit $rc
+
+# Find diary prose glued onto footnote-definition lines across whole trees.
+# Exits non-zero on any candidate (CI-usable); add --warn-only for a report-only sweep.
+#   just check-footnote-glue --lang cz,uk --carnet 092
+check-footnote-glue *FLAGS:
+    uv run src/scripts/check_footnote_glue.py {{FLAGS}}
 
 # Run verify-carnet across every carnet of a language (exits non-zero if any fails)
 verify-carnet-all lang=default_lang *FLAGS:
@@ -548,6 +563,7 @@ verify-carnet-all lang=default_lang *FLAGS:
         carnet=$(basename "$dir")
         processed=$((processed + 1))
         npx tsx src/scripts/verify-carnet.ts {{lang}} "$carnet" --quiet {{FLAGS}} || fail=1
+        uv run src/scripts/check_footnote_glue.py --lang {{lang}} --carnet "$carnet" --quiet --warn-only || true
     done
     if [ "$processed" -eq 0 ]; then
         echo "No carnets found in content/{{lang}}"
