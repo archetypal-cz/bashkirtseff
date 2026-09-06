@@ -37,7 +37,7 @@ The philosopher Henri Bergson cited the work as an example of a "snowball effect
 
 ## Performance Context (1873)
 
-Marie attended a performance at the [French Theater of Nice](French_Theater_Nice.md) on January 12, 1873, with the famous actor [Ravel](Ravel.md) in the lead role. The play was frequently performed throughout France during the 1870s and would have been familiar to most educated theatergoers.
+Marie attended a performance at the [French Theater of Nice](../social/FRENCH_THEATER_NICE.md) on January 12, 1873, with the famous actor [Ravel](../../people/mentioned/RAVEL.md) in the lead role. The play was frequently performed throughout France during the 1870s and would have been familiar to most educated theatergoers.
 
 The farcical nature of this comedy - with its rapid pace, mistaken identities, and absurd situations - contrasted sharply with the dramatic opera Marie had attended the previous evening.
 

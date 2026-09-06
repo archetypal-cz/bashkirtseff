@@ -63,7 +63,7 @@ In another passage from Book 00, Marie reveals that Akhtyrka served as a gatheri
 
 ("It was at Akhtyrka where everyone gathered, except grand-papa, that they found M. Romanoff.")
 
-The family gathered there specifically to entrap the wealthy 40-year-old bachelor uncle [#Romanoff](Romanoff.md). The fact that Grand-papa did not join them suggests either disapproval or deliberate exclusion from the scheme.
+The family gathered there specifically to entrap the wealthy 40-year-old bachelor uncle [#Romanoff](../../people/mentioned/ROMANOFF.md). The fact that Grand-papa did not join them suggests either disapproval or deliberate exclusion from the scheme.
 
 This reveals Akhtyrka's role as:
 - **Social Center**: Suitable location for family gatherings and social maneuvering
@@ -98,10 +98,10 @@ The position of **district physician** (медицин округа) in imperial
 Walitsky's position indicates his qualifications and explains both his connection to the region and his availability to accompany the family when they needed a physician for their European journey.
 
 ## Related Entries
-- [#Walitsky](./Walitsky.md) - District physician at Akhtyrka
+- [#Walitsky](../../people/recurring/WALITSKY.md) - District physician at Akhtyrka
 - [#Kharkov_Governorate](./Kharkov_Governorate.md) - Administrative region
-- [#Ukraine](./Ukraine.md) - Geographic and cultural context
-- [#Maman](./Maman.md) - Her brothers were university friends with Walitsky
+- [#Ukraine](../countries/UKRAINE.md) - Geographic and cultural context
+- [#Maman](../../people/family/MAMAN.md) - Her brothers were university friends with Walitsky
 
 ## Sources
 

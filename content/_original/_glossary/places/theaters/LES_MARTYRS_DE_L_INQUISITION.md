@@ -17,11 +17,11 @@ last_updated: 2026-03-06
 
 ## Overview
 
-A dramatic theatrical work performed at the [French Theater of Nice](French_Theater_Nice.md) in January 1873. The play dealt with themes of religious persecution during the Inquisition.
+A dramatic theatrical work performed at the [French Theater of Nice](../social/FRENCH_THEATER_NICE.md) in January 1873. The play dealt with themes of religious persecution during the Inquisition.
 
 ## Performance Context (1873)
 
-Marie Bashkirtseff attended a performance at the French Theater of Nice on January 18, 1873, where it was performed by [Méran](Meran.md). The title suggests a historical drama focused on the victims of the Spanish Inquisition - a popular subject for French theater during this period.
+Marie Bashkirtseff attended a performance at the French Theater of Nice on January 18, 1873, where it was performed by [Méran](../cities/MERAN.md). The title suggests a historical drama focused on the victims of the Spanish Inquisition - a popular subject for French theater during this period.
 
 ## Historical Context
 

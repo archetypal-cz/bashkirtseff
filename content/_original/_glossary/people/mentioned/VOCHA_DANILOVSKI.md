@@ -31,7 +31,7 @@ Man who made acquaintance with Marie's mother. Had smallpox.
 - Name in quotes suggests nickname
 
 ## Related Entries
-- [#Maman](Maman.md) - Made his acquaintance
+- [#Maman](../family/MAMAN.md) - Made his acquaintance
 
 ## Research Notes
 - Smallpox common health issue of era

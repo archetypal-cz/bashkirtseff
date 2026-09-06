@@ -30,8 +30,8 @@ Member of the Howard family, sister of Hélène.
 - Part of Nice social circle
 
 ## Related Entries
-- [#Howard_family](Howard_family.md) - Family
-- [#Helene](Helene.md) - Sister
+- [#Howard_family](../recurring/HOWARD_FAMILY.md) - Family
+- [#Helene](HELENE.md) - Sister
 
 ## Research Notes
 - Howard family English residents in Nice

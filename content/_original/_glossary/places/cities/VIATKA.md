@@ -99,10 +99,10 @@ The Vyatka exile system reflected Russian autocratic power:
 
 ## Related Entries
 
-- [#Georges](Georges.md) - Marie's uncle, exiled to Viatka in 1865
-- [#Poltava](Poltava.md) - Where Georges caused trouble
-- [#Russia](Russia.md)
-- [#Grand_papa](Grand_papa.md) - Who antagonized Poltava governors
+- [#Georges](../../people/family/GEORGES.md) - Marie's uncle, exiled to Viatka in 1865
+- [#Poltava](POLTAVA.md) - Where Georges caused trouble
+- [#Russia](../countries/RUSSIA.md)
+- [#Grand_papa](../../people/family/GRAND_PAPA.md) - Who antagonized Poltava governors
 
 ## Sources
 

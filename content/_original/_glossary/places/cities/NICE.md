@@ -192,7 +192,7 @@ For Marie, Nice increasingly represented limitation while Paris represented poss
 - **[Menton](./MENTON.md)**: Neighboring coastal town, favored by Russians.
 - **[Eze](./EZE.md)**: Hilltop village above the coast.
 - **[San Remo](./SAN_REMO.md)**: Italian Riviera town across the border, also popular with Russians.
-- **[Villefranche](./VILLEFRANCHE.md)**: Adjacent coastal town with a Russian naval base established in 1856.
+- **[Villefranche](../../people/mentioned/VILLEFRANCHE.md)**: Adjacent coastal town with a Russian naval base established in 1856.
 
 ## Related Entries
 

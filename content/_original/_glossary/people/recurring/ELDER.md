@@ -35,5 +35,5 @@ English governesses were highly sought after by Continental aristocratic familie
 - Referenced as teaching English lessons to Marie
 
 ## Related Entries
-- [#Maman](Maman.md) - Marie's mother who employed the governess
+- [#Maman](../family/MAMAN.md) - Marie's mother who employed the governess
 - Educational figures in Marie's life

@@ -124,7 +124,7 @@ Oil on canvas. One of several self-portraits Marie produced, this one showing he
 %% GLO_ART_PRACTICE.0030 %%
 ### *Portrait de Dina* (1883)
 
-Pastel portrait of her cousin [Dina](../../people/family/DINA.md), the constant companion of her diary years. Exhibited at the Salon of 1884 alongside *Le Meeting*.
+Pastel portrait of her cousin [Dina](../../people/core/DINA.md), the constant companion of her diary years. Exhibited at the Salon of 1884 alongside *Le Meeting*.
 
 %% GLO_ART_PRACTICE.0031 %%
 ### *Un meeting* (The Meeting / A Meeting, 1884)
@@ -142,7 +142,7 @@ Marie's last major project -- a large-scale biblical composition (3.26m x 2.5m) 
 %% GLO_ART_PRACTICE.0034 %%
 ### *Le Printemps* (Spring, c. 1884) and *Douleur de Nausicaa* (1884, bronze sculpture)
 
-Marie's work extended beyond painting into sculpture. Carriès, a sculptor who visited her studio, exclaimed: "You were born to make sculpture!" Her clay sketches (*esquisses en terre*) impressed professional sculptors, and both Robert-Fleury and [Saint-Marceaux](../../people/mentioned/SAINT_MARCEAUX.md) judged her sculpture promising enough for Salon recognition.
+Marie's work extended beyond painting into sculpture. Carriès, a sculptor who visited her studio, exclaimed: "You were born to make sculpture!" Her clay sketches (*esquisses en terre*) impressed professional sculptors, and both Robert-Fleury and [Saint-Marceaux](../../people/religious/SAINT_MARCEAUX.md) judged her sculpture promising enough for Salon recognition.
 
 %% GLO_ART_PRACTICE.0035 %%
 ### Other Works
@@ -330,7 +330,7 @@ Do not apply when Marie:
 - [#Academie_Julian](../../places/schools/JULIAN.md) -- the school
 - [#Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- her principal teacher
 - [#Louise_Breslau](../../people/mentioned/LOUISE_BRESLAU.md) -- her chief rival
-- [#Salon](../../art/SALON.md) -- the annual exhibition
+- [#Salon](../art/SALON.md) -- the annual exhibition
 - [#Politics](POLITICS.md) -- includes Marie's feminist advocacy for women artists
 - [#Marie_Bashkirtseff](../../people/family/MARIE_BASHKIRTSEFF.md) -- the main biographical entry
 

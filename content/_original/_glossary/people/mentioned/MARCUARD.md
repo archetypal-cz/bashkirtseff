@@ -40,7 +40,7 @@ last_updated: 2026-05-25
 ## Overview
 
 %% GLO_MARCUARD.0004 %%
-Friedrich ("F.") de Marcuard was a Swiss gentleman from the patrician Marcuard banking family of Berne, a friend of [Count Alessandro de Larderel](LARDEREI.md), and one of the most enduring secondary figures in Marie Bashkirtseff's diary. Introduced to Marie in Naples on March 29, 1877, he remained a loyal correspondent and social companion for over two years. He was simultaneously Marie's platonic confidant, a devoted admirer of her cousin [Dina](../../core/DINA.md), and eventually, by late 1878, a suitor whom Marie herself deflected with a joke.
+Friedrich ("F.") de Marcuard was a Swiss gentleman from the patrician Marcuard banking family of Berne, a friend of [Count Alessandro de Larderel](LARDEREI.md), and one of the most enduring secondary figures in Marie Bashkirtseff's diary. Introduced to Marie in Naples on March 29, 1877, he remained a loyal correspondent and social companion for over two years. He was simultaneously Marie's platonic confidant, a devoted admirer of her cousin [Dina](../core/DINA.md), and eventually, by late 1878, a suitor whom Marie herself deflected with a joke.
 
 %% GLO_MARCUARD.0005 %%
 Marie's relationship with Marcuard is unique in the diary: he is neither a grand romantic obsession nor a mere social acquaintance, but something rarer -- a genuine male friend whom she trusted, teased, confided in, and used as an emotional anchor during her most turbulent period. She calls him "mon frère de lait et ami d'enfance" (my milk-brother and childhood friend) in mock-formal affection, and repeatedly describes him as a calming presence: "Marcuard agit sur moi comme un calmant" (Marcuard acts on me like a sedative). Yet she never considers him romantically, dismissing him as "bien rangé, bien propre, bien gentil" (well-ordered, clean, nice) -- the antithesis of the dangerous, glamorous men who consumed her heart.
@@ -220,7 +220,7 @@ His presence in the Naples-Florence social circuit of the 1870s was typical of w
 
 %% GLO_MARCUARD.0053 %%
 - [LARDEREI](LARDEREI.md) -- Larderei, his close friend and the catalyst for his introduction to Marie
-- [DINA](../../core/DINA.md) -- Dina, Marie's cousin, whom Marcuard initially courted
+- [DINA](../core/DINA.md) -- Dina, Marie's cousin, whom Marcuard initially courted
 - [DOENHOFF](DOENHOFF.md) -- Doenhoff, fellow member of the Neapolitan circle, porcelain discussion partner
 - [MELISSANO](MELISSANO.md) -- Prince Melissano, another member of the Naples entourage
 - [CASSAGNAC](../recurring/CASSAGNAC.md) -- Cassagnac, whose rumored engagement to Marie was relayed by Marcuard

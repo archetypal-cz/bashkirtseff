@@ -183,7 +183,7 @@ Marie used a rich variety of appellations reflecting the evolving intimacy:
 - [DENIS_GAVINI](./DENIS_GAVINI.md) -- Denis Gavini (stub)
 - [MADAME_GAVINI](../aristocracy/MADAME_GAVINI.md) -- Adeline Gavini (stub in aristocracy folder)
 
-All five stubs should redirect to this entry. When tagging diary entries, use `[#Gavini](../_glossary/people/mentioned/GAVINI.md)` for the family collectively, and the individual stubs only when a specific individual needs disambiguation.
+All five stubs should redirect to this entry. When tagging diary entries, use `[#Gavini](GAVINI.md)` for the family collectively, and the individual stubs only when a specific individual needs disambiguation.
 
 %% GLO_GAVINI.0034 %%
 ## Related Entries

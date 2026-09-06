@@ -75,9 +75,9 @@ The fact that he was estranged from his own (wealthier) sister for twenty years 
 ## Connection to Other Family Members
 
 The story of Romanoff appears in the same narrative section where Marie discusses:
-- [#Vassilissa_Babanine](Vassilissa_Babanine.md) - Grand-papa's sister, another wealthy relative
-- [#Georges](Georges.md) - Family member who orchestrated the entrapment
-- [#Maman](Maman.md) - Used as the romantic bait
+- [#Vassilissa_Babanine](../family/VASSILISSA_BABANINE.md) - Grand-papa's sister, another wealthy relative
+- [#Georges](../family/GEORGES.md) - Family member who orchestrated the entrapment
+- [#Maman](../family/MAMAN.md) - Used as the romantic bait
 
 ## Historical Context
 
@@ -85,8 +85,8 @@ In 19th century Russia, wealthy bachelors like Romanoff were prized marriage pro
 
 ## Related Locations
 
-- [#Akhtyrka](Akhtyrka.md) - Where the family gathered to entrap Romanoff
-- [#Kharkoff](Kharkoff.md) - Major city where the theatrical courtship unfolded
-- [#Yalta](Yalta.md) - Crimean resort where Romanoff took the family
+- [#Akhtyrka](../../places/travel/AKHTYRKA.md) - Where the family gathered to entrap Romanoff
+- [#Kharkoff](../../places/cities/KHARKOFF.md) - Major city where the theatrical courtship unfolded
+- [#Yalta](../../places/cities/YALTA.md) - Crimean resort where Romanoff took the family
 
 %% 2025-12-07T18:30:00 RSR: Created based on Book 00 retrospective preface describing family marriage schemes %%

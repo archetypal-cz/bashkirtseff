@@ -33,9 +33,9 @@ When Anckarström discovers the affair between his wife and the king, he joins a
 
 ## Performance Context (1873)
 
-Marie attended a performance of this opera at the [Nice Opera House](Opera_Nice.md) on January 11, 1873. The opera was a staple of the repertoire at European opera houses during the 1870s and would have been a prestigious cultural event for the winter season in Nice.
+Marie attended a performance of this opera at the [Nice Opera House](OPERA_NICE.md) on January 11, 1873. The opera was a staple of the repertoire at European opera houses during the 1870s and would have been a prestigious cultural event for the winter season in Nice.
 
-The themes of forbidden love, betrayal, and tragic destiny would have resonated with the young Marie, who was beginning to develop her own romantic fascinations, particularly with the [Duke of Hamilton](Duke_of_Hamilton.md).
+The themes of forbidden love, betrayal, and tragic destiny would have resonated with the young Marie, who was beginning to develop her own romantic fascinations, particularly with the [Duke of Hamilton](../../people/core/DUKE_OF_HAMILTON.md).
 
 ## Musical Highlights
 

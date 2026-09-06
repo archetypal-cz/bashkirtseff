@@ -71,10 +71,10 @@ Jules's brother Émile Bastien-Lepage (1845–1938) was an architect who became 
 - Multiple mentions in Book 15 discussing his work and their interactions
 
 ## Related Entries
-- [#Carolus_Duran](./Carolus_Duran.md) - Fellow painter at Salon
-- [#Salon](./Salon.md) - Where they met
-- [#Sarah_Bernhardt](./Sarah_Bernhardt.md) - Portrayed by Bastien-Lepage
-- [#Julian](./Julian.md) - Shared artistic milieu
+- [#Carolus_Duran](../artists/CAROLUS_DURAN.md) - Fellow painter at Salon
+- [#Salon](../../culture/art/SALON.md) - Where they met
+- [#Sarah_Bernhardt](../artists/SARAH_BERNHARDT.md) - Portrayed by Bastien-Lepage
+- [#Julian](../../places/schools/JULIAN.md) - Shared artistic milieu
 
 %% 2025-12-06T00:00:00 RSR: Expanded from stub with biographical research %%
 %% 2026-02-10T11:00:00 RSR: "Bastien" is Marie's informal name for Jules Bastien-Lepage. Consolidated from separate BASTIEN.md redirect entry. %%

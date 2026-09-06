@@ -104,10 +104,10 @@ Marie's preface leaves many questions unanswered:
 
 ## Related Entries
 
-- [#Georges](Georges.md) - Her father
-- [#Domenica](Domenica.md) - Her mother
-- [#Dina](Dina.md) - Her sister, raised with Marie
-- [#Etienne](Etienne.md) - Her brother who died at sixteen
-- [#Grand_maman](Grand_maman.md) - Her grandmother who took Dina but apparently not Lola
+- [#Georges](../family/GEORGES.md) - Her father
+- [#Domenica](DOMENICA.md) - Her mother
+- [#Dina](../core/DINA.md) - Her sister, raised with Marie
+- [#Etienne](ETIENNE.md) - Her brother who died at sixteen
+- [#Grand_maman](../family/GRAND_MAMAN.md) - Her grandmother who took Dina but apparently not Lola
 
 %% 2025-12-07T15:15:00 RSR: Created based on Book 00.35. Lola represents the conventional female fate Marie rejected - married and forgotten. The contrast between extensive Dina entries and dismissive one-line Lola mention reveals Marie's values and relationships. %%

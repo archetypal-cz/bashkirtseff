@@ -35,5 +35,5 @@ Further research needed to determine:
 - Whether male or female (diary context suggests likely male)
 
 ## Related Entries
-- [#Gavini](./Gavini.md) - Mentioned in similar social contexts
+- [#Gavini](GAVINI.md) - Mentioned in similar social contexts
 - [#Daillens](./Daillens.md) - Another frequent companion

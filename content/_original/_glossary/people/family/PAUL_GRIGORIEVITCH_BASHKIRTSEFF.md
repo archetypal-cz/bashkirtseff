@@ -54,9 +54,9 @@ Russian generals of the mid-19th century often came from the lesser nobility and
 
 ## Related Entries
 
-- [#Papa](Papa.md) - His son, Constantin Bashkirtseff
-- [#Poltava](Poltava.md) - Location of his estate
-- [#Crimean_War](Crimean_War.md) - Conflict that led to his promotion
+- [#Papa](PAPA.md) - His son, Constantin Bashkirtseff
+- [#Poltava](../../places/cities/POLTAVA.md) - Location of his estate
+- [#Crimean_War](../../culture/history/CRIMEAN_WAR.md) - Conflict that led to his promotion
 
 %% 2025-12-07T12:00:00 RSR: Created entry based on Book 00 preface where Marie describes her paternal grandfather %%
 %% 2026-02-11T14:20:00 RSR: Per Kernberger (2013), note that this is Marie's PATERNAL grandfather. The diary's "Grand-papa" / "Papa" is Stepan Babanine (1807-1878), Marie's MATERNAL grandfather, who died on August 29, 1878, and after whom Marie dressed in mourning. Paul Grigorievitch was Constantine's father. %%

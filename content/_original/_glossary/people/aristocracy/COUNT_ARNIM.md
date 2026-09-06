@@ -31,6 +31,6 @@ Count Arnim's mention in Nice society gossip indicates he was either present on 
 - **March 1, 1874**: Mentioned as "a great friend of the prince" in social gossip
 
 ## Related Entries
-- [#Nice](Nice.md) - Where he was discussed in society
+- [#Nice](../../places/cities/NICE.md) - Where he was discussed in society
 
 %% RSR: Need to verify which Count Arnim and which prince - context suggests diplomatic circles %%

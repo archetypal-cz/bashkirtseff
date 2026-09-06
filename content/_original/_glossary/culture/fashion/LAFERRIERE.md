@@ -39,4 +39,4 @@ Marie considers Laferriere as an alternative to Worth for her clothing needs, fa
 
 ## Related Entries
 
-- [Worth](../../culture/fashion/WORTH.md) - rival fashion house, Marie's previous choice
+- [Worth](../../people/mentioned/WORTH.md) - rival fashion house, Marie's previous choice

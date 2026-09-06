@@ -38,7 +38,7 @@ Charles Augustin Sainte-Beuve (1804-1869), major French literary critic and writ
 - Major cultural authority
 
 ## Related Entries
-- [#Mary_Stuart](Mary_Stuart.md) - Subject of his writing
+- [#Mary_Stuart](../../culture/literature/MARY_STUART.md) - Subject of his writing
 
 ## Research Notes
 - French literary culture 1870s

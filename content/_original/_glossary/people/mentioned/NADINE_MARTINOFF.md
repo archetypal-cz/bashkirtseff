@@ -17,7 +17,7 @@ last_updated: 2026-03-06
 
 ## Identity
 
-Nadine Martinoff was a young orphan adopted by [#Vassilissa_Babanine](Vassilissa_Babanine.md), Marie's great-aunt. She became the central figure in a calculated fortune-hunting scheme, marrying Marie's uncle [#Alexandre](Alexandre.md) at age 15 1/2.
+Nadine Martinoff was a young orphan adopted by [#Vassilissa_Babanine](../family/VASSILISSA_BABANINE.md), Marie's great-aunt. She became the central figure in a calculated fortune-hunting scheme, marrying Marie's uncle [#Alexandre](../core/ALEXANDRE.md) at age 15 1/2.
 
 ## Life Story
 
@@ -29,7 +29,7 @@ Vassilissa Babanine, having become "maniaque et un peu ridicule" (obsessive and 
 
 At age 14, Nadine:
 - "S'est empressee de lacher sa protectrice" (hastened to abandon her protector)
-- Left Vassilissa to live at Grand-papa's estate at [#Tcherniakovka](Tcherniakovka.md)
+- Left Vassilissa to live at Grand-papa's estate at [#Tcherniakovka](../../places/residences/TCHERNIAKOVKA.md)
 - Was attracted by "plus de distractions" (more entertainments/distractions)
 - Brought with her a fortune of about 20,000 rubles
 
@@ -82,13 +82,13 @@ The story illustrates how gratitude and loyalty could be displaced by self-inter
 
 ## Related People
 
-- [#Vassilissa_Babanine](Vassilissa_Babanine.md) - Her adoptive mother whom she abandoned
-- [#Alexandre](Alexandre.md) - Uncle who married her for her fortune
-- [#Grand_papa](Grand_papa.md) - Who was furious about the marriage
+- [#Vassilissa_Babanine](../family/VASSILISSA_BABANINE.md) - Her adoptive mother whom she abandoned
+- [#Alexandre](../core/ALEXANDRE.md) - Uncle who married her for her fortune
+- [#Grand_papa](../family/GRAND_PAPA.md) - Who was furious about the marriage
 
 ## Related Location
 
-- [#Tcherniakovka](Tcherniakovka.md) - Estate where the marriage scheme unfolded
+- [#Tcherniakovka](../../places/residences/TCHERNIAKOVKA.md) - Estate where the marriage scheme unfolded
 
 ## Marie's Moral Commentary
 

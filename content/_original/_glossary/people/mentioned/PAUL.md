@@ -39,7 +39,7 @@ Paul was Marie Bashkirtseff's younger brother, roughly one year her junior. Born
 After the rescue by their maternal family, Paul grew up primarily with his mother's household. When the family left Russia in 1870, the traveling party included [Grand-papa](../../people/family/GRAND_PAPA.md), Maman, the Romanoffs, [Dina](../../people/core/DINA.md), [Walitsky](../../people/recurring/WALITSKY.md), Paul, and Marie. They settled in [Nice](../../places/cities/NICE.md), where Paul spent his adolescence.
 
 %% GLO_PAUL.0005 %%
-Unlike Marie, who received intensive private education and pursued artistic ambitions with ferocious determination, Paul's upbringing was neglected. By 1874, at roughly fourteen, Marie painted a devastating portrait in words: "maigre, pale, nonchalant, et parfois ennuyeux comme un moustique" (thin, pale, nonchalant, sometimes annoying as a mosquito). He was barely literate, corrupted by servants (especially cook [Adam](Adam.md)), frequented cafes and theaters, consorted with actresses, and stayed out until 2--3 AM. Marie judged him "use autant qu'on peut l'etre" (worn out as much as one can be) at only fourteen years old (carnet 017, March 24, 1874).
+Unlike Marie, who received intensive private education and pursued artistic ambitions with ferocious determination, Paul's upbringing was neglected. By 1874, at roughly fourteen, Marie painted a devastating portrait in words: "maigre, pale, nonchalant, et parfois ennuyeux comme un moustique" (thin, pale, nonchalant, sometimes annoying as a mosquito). He was barely literate, corrupted by servants (especially cook [Adam](ADAM.md)), frequented cafes and theaters, consorted with actresses, and stayed out until 2--3 AM. Marie judged him "use autant qu'on peut l'etre" (worn out as much as one can be) at only fourteen years old (carnet 017, March 24, 1874).
 
 %% GLO_PAUL.0006 %%
 ## The Fortune Teller's Prophecy
@@ -181,7 +181,7 @@ Paul continued to manage the Gavronzi estate after Marie's death in 1884. Detail
 - [#Dina](../../people/core/DINA.md) -- Marie's cousin, raised as family
 - [#Georges](../../people/family/GEORGES.md) -- Marie's uncle
 - [#Alexandre](../../people/core/ALEXANDRE.md) -- Marie's uncle, quarreled with Paul over inheritance
-- [#Adam](Adam.md) -- Cook who corrupted Paul as a teenager
+- [#Adam](ADAM.md) -- Cook who corrupted Paul as a teenager
 - [#Walitsky](../../people/recurring/WALITSKY.md) -- Family friend whom Paul loved; "nerveux comme une femme" at his death
 
 %% GLO_PAUL.0030 %%

@@ -30,8 +30,8 @@ Member of the Howard family, sister of Lise.
 - Part of Nice English society
 
 ## Related Entries
-- [#Howard_family](Howard_family.md) - Family
-- [#Lise](Lise.md) - Sister
+- [#Howard_family](../recurring/HOWARD_FAMILY.md) - Family
+- [#Lise](LISE.md) - Sister
 
 ## Research Notes
 - Beauty comparisons common in diary

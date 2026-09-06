@@ -86,10 +86,10 @@ The Hôtel de la Couronne represents:
 
 ## Related Entries
 
-- [#Geneva](Geneva.md) - The city where the hotel was located
-- [#Franco_Prussian_War](Franco_Prussian_War.md) - Reason for the family's flight to Geneva
-- [#Baden_Baden](Baden_Baden.md) - Where the family fled from
-- [#Pension_Huberkoller](Pension_Huberkoller.md) - Where they moved after the hotel
-- [#Mont_Blanc](Mont_Blanc.md) - Visible from the later residence
+- [#Geneva](../travel/GENEVA.md) - The city where the hotel was located
+- [#Franco_Prussian_War](../../culture/history/FRANCO_PRUSSIAN_WAR.md) - Reason for the family's flight to Geneva
+- [#Baden_Baden](../travel/BADEN_BADEN.md) - Where the family fled from
+- [#Pension_Huberkoller](PENSION_HUBERKOLLER.md) - Where they moved after the hotel
+- [#Mont_Blanc](../landmarks/MONT_BLANC.md) - Visible from the later residence
 
 %% 2025-12-07T17:20:00 RSR: Created entry based on Book 00, paragraphs 00.43-00.44. The hotel was the family's first refuge in Geneva during the Franco-Prussian War. %%

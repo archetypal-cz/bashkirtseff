@@ -30,8 +30,8 @@ Woman in Nice social circle being courted by comte de Lareld. Associated with Le
 - Serious courtship indicates marriage possibility
 
 ## Related Entries
-- [#Leech](Leech.md) - Social companion
-- [#comte_de_Lareld](comte_de_Lareld.md) - Suitor
+- [#Leech](LEECH.md) - Social companion
+- [#comte_de_Lareld](../aristocracy/COMTE_DE_LARELD.md) - Suitor
 
 ## Research Notes
 - International marriages common in Nice

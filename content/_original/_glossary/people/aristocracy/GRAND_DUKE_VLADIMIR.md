@@ -40,8 +40,8 @@ Russian Grand Duke Vladimir Alexandrovich (1847-1909), son of Emperor Alexander 
 - Grand bearing and sublime manner
 
 ## Related Entries
-- [#Grand_Duke_Alexis](Grand_Duke_Alexis.md) - Brother
-- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Comparison
+- [#Grand_Duke_Alexis](GRAND_DUKE_ALEXIS.md) - Brother
+- [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) - Comparison
 
 ## Research Notes
 - Romanov family in Nice

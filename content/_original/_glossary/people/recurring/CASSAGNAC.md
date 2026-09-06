@@ -215,7 +215,7 @@ Paul de Cassagnac continued his political and journalistic career through the 18
 - [#Popaul](../mentioned/POPAUL.md) -- Redirect entry (Marie's nickname)
 - [#Blanc](../mentioned/BLANC.md) -- Captain Blanc, Cassagnac's companion and Marie's informant
 - [#Mlle_Acard](../mentioned/MLLE_ACARD.md) -- Alexandrine Julie Acard, Cassagnac's wife
-- [#Le_Pays](../../culture/newspapers/LE_PAYS.md) -- Bonapartist newspaper Cassagnac edited
+- [#Le_Pays](../mentioned/LE_PAYS.md) -- Bonapartist newspaper Cassagnac edited
 - [#Politics](../../culture/themes/POLITICS.md) -- Comprehensive entry on Marie's political world (covers Cassagnac's parliamentary career extensively)
 - [#Love](../../culture/themes/LOVE.md) -- Thematic entry covering the Cassagnac relationship in context of Marie's romantic life
 - [#Gambetta](../../places/churches/GAMBETTA.md) -- Republican leader Marie later preferred to Cassagnac

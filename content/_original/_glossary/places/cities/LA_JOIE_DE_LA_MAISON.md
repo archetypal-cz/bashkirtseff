@@ -31,7 +31,7 @@ The play was performed at various French theaters including the Opéra de Tours 
 
 ## Performance Context (1873)
 
-Marie attended a performance at the [French Theater of Nice](French_Theater_Nice.md) on January 12, 1873, where it was performed on a double bill with Labiche's famous farce [Un chapeau de paille d'Italie](Un_chapeau_de_paille_d_Italie.md), featuring the renowned actor [Ravel](Ravel.md).
+Marie attended a performance at the [French Theater of Nice](../social/FRENCH_THEATER_NICE.md) on January 12, 1873, where it was performed on a double bill with Labiche's famous farce [Un chapeau de paille d'Italie](../theaters/UN_CHAPEAU_DE_PAILLE_D_ITALIE.md), featuring the renowned actor [Ravel](../../people/mentioned/RAVEL.md).
 
 The light comedic nature of the play was typical entertainment for the wealthy winter visitors to Nice during the social season.
 

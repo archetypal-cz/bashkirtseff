@@ -20,7 +20,7 @@ last_updated: 2026-03-06
 
 **Marie Bashkirtseff** (Maria Konstantinovna Bashkirtseva; 24 November 1858 – 31 October 1884) was the author of the diary we are translating. Ukrainian-born painter, sculptor, diarist, and proto-feminist who lived and worked in Paris. Died of tuberculosis at age 25.
 
-Born near [Poltava](Poltava.md) in the Russian Empire (present-day Ukraine) to a noble family. Her father Konstantin Pavlovich Bashkirtsev was a local marshal of nobility.
+Born near [Poltava](../../places/cities/POLTAVA.md) in the Russian Empire (present-day Ukraine) to a noble family. Her father Konstantin Pavlovich Bashkirtsev was a local marshal of nobility.
 
 ## Why She Matters
 
@@ -44,7 +44,7 @@ Feminist art historians Roszika Parker and Griselda Pollock wrote: "Never before
 
 ### Artist
 
-Trained at the [Académie Julian](../../places/schools/JULIAN.md) under [Tony Robert-Fleury](Tony_Robert_Fleury.md). Her masterpiece ***The Meeting*** (1884) hangs at the **Musée d'Orsay**—a naturalist street scene of working-class Parisian children.
+Trained at the [Académie Julian](../../places/schools/JULIAN.md) under [Tony Robert-Fleury](../mentioned/TONY_ROBERT_FLEURY.md). Her masterpiece ***The Meeting*** (1884) hangs at the **Musée d'Orsay**—a naturalist street scene of working-class Parisian children.
 
 She consciously took naturalism to urban settings, writing: "I say nothing of the fields because Bastien-Lepage reigns over them as a sovereign; but the streets, however, have not yet had their... Bastien."
 
@@ -82,11 +82,11 @@ The original manuscript comprised **20,000 hand-written pages**.
 ## Related Entries
 
 - [Académie Julian](../../places/schools/JULIAN.md)
-- [Tony Robert-Fleury](Tony_Robert_Fleury.md)
-- [Bastien-Lepage](Bastien_Lepage.md)
-- [Poltava](Poltava.md)
-- [Nice](Nice.md)
-- [Paris](Paris.md)
+- [Tony Robert-Fleury](../mentioned/TONY_ROBERT_FLEURY.md)
+- [Bastien-Lepage](../recurring/BASTIEN_LEPAGE.md)
+- [Poltava](../../places/cities/POLTAVA.md)
+- [Nice](../../places/cities/NICE.md)
+- [Paris](../../places/cities/PARIS.md)
 
 ## Sources
 

@@ -68,10 +68,10 @@ Marie's entries from April 30-May 1, 1882 describe:
 - Multiple mentions throughout diaries regarding preparation, anxiety, and results
 
 ## Related Entries
-- [#Julian](./Julian.md) - Her teacher at Académie Julian
+- [#Julian](../../places/schools/JULIAN.md) - Her teacher at Académie Julian
 - [#Breslau](./Breslau.md) - Rival artist
-- [#Bastien_Lepage](./Bastien_Lepage.md) - Fellow exhibitor
-- [#Carolus_Duran](./Carolus_Duran.md) - Society portrait painter
-- [#Paris](./Paris.md) - Location
+- [#Bastien_Lepage](../../people/recurring/BASTIEN_LEPAGE.md) - Fellow exhibitor
+- [#Carolus_Duran](../../people/artists/CAROLUS_DURAN.md) - Society portrait painter
+- [#Paris](../../places/cities/PARIS.md) - Location
 
 %% 2025-12-06T00:00:00 RSR: Expanded from stub with historical and diary context %%

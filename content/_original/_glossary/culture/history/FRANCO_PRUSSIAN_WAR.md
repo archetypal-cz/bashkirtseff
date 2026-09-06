@@ -55,10 +55,10 @@ The war:
 
 ## Related Entries
 
-- [#Baden_Baden](Baden_Baden.md) - Where the Bashkirtseff family was staying when war was declared
-- [#Geneva](Geneva.md) - Their refuge during the war
-- [#Grand_maman](Grand_maman.md) - Died in 1870, prompting family's departure from Russia
-- [#Nice](Nice.md) - Where family eventually settled after the war
+- [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - Where the Bashkirtseff family was staying when war was declared
+- [#Geneva](../../places/travel/GENEVA.md) - Their refuge during the war
+- [#Grand_maman](../../people/family/GRAND_MAMAN.md) - Died in 1870, prompting family's departure from Russia
+- [#Nice](../../places/cities/NICE.md) - Where family eventually settled after the war
 
 ## Sources
 

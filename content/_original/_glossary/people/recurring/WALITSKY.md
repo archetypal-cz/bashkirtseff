@@ -108,7 +108,7 @@ This passage reveals:
 
 %% GLO_WALITSKY.0017 %%
 ### Medical Duties
-- Treated [Romanoff](./ROMANOFF.md)'s mental illness
+- Treated [Romanoff](../mentioned/ROMANOFF.md)'s mental illness
 - Attended to [Maman](../family/MAMAN.md)'s real and imagined illnesses
 - General family physician during European travels
 - Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0158 %%, echoed in %% 102.0005 %%)
@@ -330,14 +330,14 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 - [#Akhtyrka](../../places/travel/AKHTYRKA.md) -- Where he served as district physician
 - [#Maman](../family/MAMAN.md) -- Object of his "holy devotion"
 - [#Grand_papa](../family/GRAND_PAPA.md) -- His godfather; he nursed him through paralysis
-- [#Romanoff](./ROMANOFF.md) -- Patient he treated for mental illness; subject of poisoning rumor
+- [#Romanoff](../mentioned/ROMANOFF.md) -- Patient he treated for mental illness; subject of poisoning rumor
 - [#Baden_Baden](../../places/travel/BADEN_BADEN.md) -- First European destination (June 1870)
-- [#Duke_of_Hamilton](./DUKE_OF_HAMILTON.md) -- Social connection in Nice 1873
+- [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) -- Social connection in Nice 1873
 - [#Grand_maman](../family/GRAND_MAMAN.md) -- Her death preceded European journey
 - [#Dina](../core/DINA.md) -- Companion; present at his death
-- [#Paul](./PAUL.md) -- Marie's brother; Walitsky defended him physically
+- [#Paul](../mentioned/PAUL.md) -- Marie's brother; Walitsky defended him physically
 - [#Cassagnac](./CASSAGNAC.md) -- Marie compares losses: Walitsky's death, Cassagnac's marriage
-- [#Collignon](./COLLIGNON.md) -- His patient whose tuberculosis he correctly diagnosed
+- [#Collignon](../mentioned/COLLIGNON.md) -- His patient whose tuberculosis he correctly diagnosed
 
 %% GLO_WALITSKY.0048 %%
 ## Diary References

@@ -104,10 +104,10 @@ This suggests:
 
 ## Related Entries
 
-- [#Georges](Georges.md) - His father, described as troubled
-- [#Domenica](Domenica.md) - His mother
-- [#Dina](Dina.md) - His older sister, raised with Marie
-- [#Lola](Lola.md) - His other sister
-- [#Grand_maman](Grand_maman.md) - His grandmother
+- [#Georges](../family/GEORGES.md) - His father, described as troubled
+- [#Domenica](DOMENICA.md) - His mother
+- [#Dina](../core/DINA.md) - His older sister, raised with Marie
+- [#Lola](LOLA.md) - His other sister
+- [#Grand_maman](../family/GRAND_MAMAN.md) - His grandmother
 
 %% 2025-12-07T15:30:00 RSR: Created based on Book 00.35. Etienne's death at sixteen is set up dramatically ("vous verrez comment") but the promised explanation doesn't appear in available text. The emphasis on HOW he died suggests scandal, tragedy, or unusual circumstances worth detailed narration. %%

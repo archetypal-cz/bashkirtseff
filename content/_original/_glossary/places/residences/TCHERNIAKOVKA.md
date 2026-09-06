@@ -51,8 +51,8 @@ Tcherniakovka carries dual significance for Marie:
 
 - [#Papa](../../people/family/PAPA.md) - Former owner, source of nostalgic stories
 - [#Grand_papa](../../people/family/GRAND_PAPA.md) - Earlier family connection
-- [#Alexandre](../../people/family/ALEXANDRE.md) - Family context
-- [#Baba](../../people/family/BABA.md) - Grandmother, connection to the old estate
+- [#Alexandre](../../people/core/ALEXANDRE.md) - Family context
+- [#Baba](../../people/mentioned/BABA.md) - Grandmother, connection to the old estate
 - [#Ukraine](../../places/countries/UKRAINE.md) - The region
 - [#Vichnevka](./VICHNEVKA.md) - Another family property
 - [#Villa_Bashkirtseff](./VILLA_BASHKIRTSEFF.md) - The Nice property

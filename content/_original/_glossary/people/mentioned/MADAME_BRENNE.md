@@ -122,11 +122,11 @@ Marie's specific, affectionate memory of Madame Brenne - including the drawing l
 
 ## Related Entries
 
-- [#Crimea](Crimea.md) - Where Madame Brenne died seeking tuberculosis treatment
-- [#Madame_Melnikoff](Madame_Melnikoff.md) - Russian governess who taught music and dance
-- [#Sophie_Dolgikoff](Sophie_Dolgikoff.md) - Young Russian companion
-- [#Russia](Russia.md) - Cultural context employing French governesses
-- [#Grand_maman](Grand_maman.md) - Head of household during this period
+- [#Crimea](../../places/travel/CRIMEA.md) - Where Madame Brenne died seeking tuberculosis treatment
+- [#Madame_Melnikoff](MADAME_MELNIKOFF.md) - Russian governess who taught music and dance
+- [#Sophie_Dolgikoff](SOPHIE_DOLGIKOFF.md) - Young Russian companion
+- [#Russia](../../places/countries/RUSSIA.md) - Cultural context employing French governesses
+- [#Grand_maman](../family/GRAND_MAMAN.md) - Head of household during this period
 
 ## Sources
 

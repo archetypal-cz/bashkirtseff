@@ -38,8 +38,8 @@ Capital of Egypt, part of Duke of Hamilton's Middle Eastern travels.
 - Colonial luxury travel
 
 ## Related Entries
-- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Traveler
-- [#Alexandria](Alexandria.md) - Next destination
+- [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md) - Traveler
+- [#Alexandria](ALEXANDRIA.md) - Next destination
 
 ## Research Notes
 - Victorian travel to Egypt

@@ -30,7 +30,7 @@ Woman in Nice social circle, possibly departed. Associated with Spang.
 - Text partially illegible about their usual location
 
 ## Related Entries
-- [#Spang](Spang.md) - Social companion
+- [#Spang](SPANG.md) - Social companion
 
 ## Research Notes
 - British expatriate community in Nice

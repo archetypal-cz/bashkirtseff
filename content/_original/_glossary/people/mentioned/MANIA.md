@@ -30,8 +30,8 @@ Charming young woman, sister of Katia who married Potemkine.
 - Witness to sister's romantic engagement
 
 ## Related Entries
-- [#Katia](Katia.md) - Sister
-- [#Potemkine](Potemkine.md) - Brother-in-law
+- [#Katia](KATIA.md) - Sister
+- [#Potemkine](POTEMKINE.md) - Brother-in-law
 
 ## Research Notes
 - "Mania" typical Russian diminutive for Maria

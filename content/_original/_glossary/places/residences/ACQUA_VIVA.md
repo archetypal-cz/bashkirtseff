@@ -35,6 +35,6 @@ Villa names in Nice often reflected the romantic sensibilities of the era. "Acqu
 - Referenced as a symbol of what the family has lost
 
 ## Related Entries
-- [#Villa_Baquis](Villa_Baquis.md) - Their current, despised residence
+- [#Villa_Baquis](../cities/VILLA_BAQUIS.md) - Their current, despised residence
 - [#Nice_Society](Nice_Society.md) - The social world that judges by addresses
 - Social decline of the Bashkirtseff family

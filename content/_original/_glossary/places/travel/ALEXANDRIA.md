@@ -38,9 +38,9 @@ Egyptian port city, embarkation point for Hamilton's journey to Constantinople.
 - British naval presence
 
 ## Related Entries
-- [#Cairo](Cairo.md) - Previous location
-- [#Constantinople](Constantinople.md) - Next destination
-- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Traveler
+- [#Cairo](CAIRO.md) - Previous location
+- [#Constantinople](CONSTANTINOPLE.md) - Next destination
+- [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md) - Traveler
 
 ## Research Notes
 - Steam ship routes 1870s

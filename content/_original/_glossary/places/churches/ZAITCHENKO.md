@@ -33,7 +33,7 @@ Russian merchant who Marie previously referred to as "28" - her numerological ad
 - Marie's numerological system abandoned
 
 ## Related Entries
-- [#Palajka](Palajka.md) - His chambermaid
+- [#Palajka](../../people/mentioned/PALAJKA.md) - His chambermaid
 
 ## Research Notes
 - Russian merchant class in Nice

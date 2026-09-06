@@ -22,6 +22,6 @@ Marie references Taine as part of the intellectual milieu she engaged with. His 
 
 ## Related Entries
 
-- [#Renan](RENAN.md) - Fellow intellectual figure of the era
+- [#Renan](../mentioned/RENAN.md) - Fellow intellectual figure of the era
 
 %% 2026-02-11T13:15:00 RSR: Per Kernberger (2013), Taine's work "The Origins of Contemporary France" is referenced in the diary. Enriched from stub with basic biographical data. %%

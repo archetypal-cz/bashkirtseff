@@ -54,4 +54,4 @@ Marie notes that during this leg of the journey:
 
 ## Related Entries
 
-See also: [#Train](Train.md), [#Paris_1870s](Paris_1870s.md), [#Marseille](Marseille.md)
+See also: [#Train](../../people/mentioned/TRAIN.md), [#Paris_1870s](PARIS_1870S.md), [#Marseille](MARSEILLE.md)

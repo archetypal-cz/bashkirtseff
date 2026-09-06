@@ -106,10 +106,10 @@ The Gonzalès family episode teaches young Marie several lessons:
 
 ## Related Entries
 
-- [#Gonzales_Family](GONZALES_FAMILY.md) - The full family
-- [#Boyd_Family](Boyd_Family.md) - Berthe's family
-- [#Berthe](Berthe.md) - Rémy's primary romantic interest
-- [#Baden_Baden](Baden_Baden.md) - Where this all took place
-- [#Maman](Maman.md) - Marie's naïve mother
+- [#Gonzales_Family](../recurring/GONZALES_FAMILY.md) - The full family
+- [#Boyd_Family](../recurring/BOYD_FAMILY.md) - Berthe's family
+- [#Berthe](../recurring/BERTHE.md) - Rémy's primary romantic interest
+- [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - Where this all took place
+- [#Maman](../family/MAMAN.md) - Marie's naïve mother
 
 %% 2025-12-07T14:45:00 RSR: Created entry for Rémy de Gonzalès Moreno based on Book 00 retrospective. The spelling "Gonzalès" (with accent) appears in Marie's text, though "Gonzales" (without accent) is more common in Spanish. This represents one of Marie's first observations of romantic rivalry and social manipulation. %%

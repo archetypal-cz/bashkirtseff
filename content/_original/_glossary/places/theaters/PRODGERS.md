@@ -36,7 +36,7 @@ English person in Nice social circles, known for participating in theatrical pre
 - Would not be received in Paris society
 
 ## Related Entries
-- [#Durand](Durand.md) - Similar social status
+- [#Durand](../../people/mentioned/DURAND.md) - Similar social status
 - [#Audiffret](Audiffret.md) - Prank partner
 
 ## Research Notes

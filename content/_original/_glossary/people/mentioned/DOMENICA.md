@@ -110,11 +110,11 @@ Marie's 1884 retrospective doesn't mention Domenica's later fate, focusing inste
 
 ## Related Entries
 
-- [#Georges](Georges.md) - Her husband who abandoned her
-- [#Dina](Dina.md) - Her daughter, taken by grand-maman
-- [#Grand_maman](Grand_maman.md) - Her mother-in-law who took Dina
-- [#Lola](Lola.md) - Her daughter who married
-- [#Etienne](Etienne.md) - Her son who died at sixteen
+- [#Georges](../family/GEORGES.md) - Her husband who abandoned her
+- [#Dina](../core/DINA.md) - Her daughter, taken by grand-maman
+- [#Grand_maman](../family/GRAND_MAMAN.md) - Her mother-in-law who took Dina
+- [#Lola](LOLA.md) - Her daughter who married
+- [#Etienne](ETIENNE.md) - Her son who died at sixteen
 
 ## Sources
 

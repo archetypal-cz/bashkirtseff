@@ -210,7 +210,7 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 - [#Gavini](GAVINI.md) -- Social connection in Paris
 - [#Martin_Baton](MARTIN_BATON.md) -- Gardener whose poodle resembles Lambertye
 - [#Pavloucha](PAVLOUCHA.md) -- Notices Marie's distress when Lambertye absent
-- [#Soria](../hotels/SORIA.md) -- Mother's preferred alternative to Lambertye
+- [#Soria](../../places/hotels/SORIA.md) -- Mother's preferred alternative to Lambertye
 - [#Valsenter](VALSENTER.md) -- Example of tall women Lambertye admires ("les obélisques")
 - [#Walzeff](WALZEFF.md) -- Another marriage prospect mentioned alongside Lambertye
 

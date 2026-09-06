@@ -32,8 +32,8 @@ Race horse from Duke of Hamilton's stable, ridden to multiple victories by Princ
 - Symbol of Hamilton's sporting interests
 
 ## Related Entries
-- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Owner
-- [#Prince_Louis_Esterhazy](Prince_Louis_Esterhazy.md) - Jockey
+- [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) - Owner
+- [#Prince_Louis_Esterhazy](PRINCE_LOUIS_ESTERHAZY.md) - Jockey
 
 ## Research Notes
 - Aristocratic horse racing 1870s

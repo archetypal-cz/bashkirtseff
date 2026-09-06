@@ -64,9 +64,9 @@ Marie's description is notable for its psychological insight:
 
 ## Related Entries
 
-- [#Grand_papa](Grand_papa.md) - Her despotic husband
-- [#Grand_maman](Grand_maman.md) - Alternative reference
-- [#Maman](Maman.md) - Her daughter, one of the nine children
-- [#Babanine](Babanine.md) - The family name
+- [#Grand_papa](GRAND_PAPA.md) - Her despotic husband
+- [#Grand_maman](GRAND_MAMAN.md) - Alternative reference
+- [#Maman](MAMAN.md) - Her daughter, one of the nine children
+- [#Babanine](../mentioned/BABANINE.md) - The family name
 
 %% 2025-12-07T12:30:00 RSR: Created entry for Marie's maternal grandmother, showing family dynamics and women's position %%

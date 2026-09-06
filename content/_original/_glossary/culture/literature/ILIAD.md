@@ -49,6 +49,6 @@ The Patroclus/Achilles relationship was understood in Marie's era as ideal male 
 
 ## Related Entries
 
-- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Her "Patroclus"
-- [#Nice](Nice.md) - Where she reads during Christmas 1873
+- [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md) - Her "Patroclus"
+- [#Nice](../../places/cities/NICE.md) - Where she reads during Christmas 1873
 - [#Classical_Education](Classical_Education.md) - Marie's educational background

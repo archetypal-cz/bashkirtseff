@@ -31,8 +31,8 @@ Russian family who dines at London House and admires Marie, seeking to arrange a
 - Marie's reaction shows class consciousness despite wealth
 
 ## Related Entries
-- [#Sorokooumovski](Sorokooumovski.md) - Proposed match
-- [#London_House](London_House.md) - Where they dine
+- [#Sorokooumovski](SOROKOOUMOVSKI.md) - Proposed match
+- [#London_House](../../places/cities/LONDON_HOUSE.md) - Where they dine
 
 ## Research Notes
 - Russian merchant families in Nice

@@ -69,9 +69,9 @@ The Caucasus service was characteristic of educated Russian officers of the 1820
 
 ## Related Entries
 
-- [#Lermontov](Lermontov.md) - "Poet of the Caucasus"
-- [#Pushkin](Pushkin.md) - Wrote Caucasus-themed poems
-- [#Grand_papa](Grand_papa.md) - Served in the Caucasus
-- [#Russia](Russia.md)
+- [#Lermontov](../../culture/literature/LERMONTOV.md) - "Poet of the Caucasus"
+- [#Pushkin](../../culture/literature/PUSHKIN.md) - Wrote Caucasus-themed poems
+- [#Grand_papa](../../people/family/GRAND_PAPA.md) - Served in the Caucasus
+- [#Russia](../countries/RUSSIA.md)
 
 %% 2025-12-07T12:25:00 RSR: Created entry to explain cultural and military significance of Caucasus service for Marie's grandfather %%

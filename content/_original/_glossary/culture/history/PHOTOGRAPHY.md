@@ -95,8 +95,8 @@ Marie would have been familiar with photography through:
 
 ## See Also
 
-- [#Madame_de_Sevigne](./Madame_de_Sevigne.md) - The polished epistolary style Marie rejects
-- [#Paris](./Paris.md) - Where Daguerre unveiled photography in 1839
+- [#Madame_de_Sevigne](../../people/writers/MADAME_DE_SEVIGNE.md) - The polished epistolary style Marie rejects
+- [#Paris](../../places/cities/PARIS.md) - Where Daguerre unveiled photography in 1839
 
 ## Sources
 

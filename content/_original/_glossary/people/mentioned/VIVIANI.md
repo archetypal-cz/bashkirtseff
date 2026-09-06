@@ -30,8 +30,8 @@ Social acquaintance who invites the Bashkirtseff family to Beaulieu.
 - Host of day trips
 
 ## Related Entries
-- [#Beaulieu](Beaulieu.md) - Excursion destination
-- [#La_Musette](La_Musette.md) - Where encountered
+- [#Beaulieu](../../places/travel/BEAULIEU.md) - Excursion destination
+- [#La_Musette](LA_MUSETTE.md) - Where encountered
 
 ## Research Notes
 - Italian community in Nice

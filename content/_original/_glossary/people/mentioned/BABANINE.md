@@ -52,11 +52,11 @@ In modern times, the surname Babanin is most frequently found in Russia, particu
 
 ## Family Members
 
-- [#Grand_papa](Grand_papa.md) - Marie's maternal grandfather, head of the Babanine family
-- [#Grand_maman](Grand_maman.md) - Julie Cornelius, Marie's maternal grandmother
-- [#Maman](Maman.md) - Maria Stepanovna Babanina, Marie's mother
-- [#Georges](Georges.md) - Marie's maternal uncle, eldest son
-- [#Dina](Dina.md) - Daughter of Georges, Marie's cousin
+- [#Grand_papa](../family/GRAND_PAPA.md) - Marie's maternal grandfather, head of the Babanine family
+- [#Grand_maman](../family/GRAND_MAMAN.md) - Julie Cornelius, Marie's maternal grandmother
+- [#Maman](../family/MAMAN.md) - Maria Stepanovna Babanina, Marie's mother
+- [#Georges](../family/GEORGES.md) - Marie's maternal uncle, eldest son
+- [#Dina](../core/DINA.md) - Daughter of Georges, Marie's cousin
 
 ## Research Sources
 

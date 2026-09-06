@@ -78,11 +78,11 @@ This story exemplifies several recurring themes in Marie's preface:
 
 ## Related Entries
 
-- [#Madame_Melnikoff](Madame_Melnikoff.md) - Previous governess, treated very differently
-- [#Madame_Brenne](Madame_Brenne.md) - Another governess, the French one who died in Crimea
-- [#Walitsky](Walitsky.md) - Family friend who brought the unsuitable young man
-- [#Russia](Russia.md) - Cultural context for young noble governesses
-- [#Grand_maman](Grand_maman.md) - Head of household during this period
+- [#Madame_Melnikoff](MADAME_MELNIKOFF.md) - Previous governess, treated very differently
+- [#Madame_Brenne](MADAME_BRENNE.md) - Another governess, the French one who died in Crimea
+- [#Walitsky](../recurring/WALITSKY.md) - Family friend who brought the unsuitable young man
+- [#Russia](../../places/countries/RUSSIA.md) - Cultural context for young noble governesses
+- [#Grand_maman](../family/GRAND_MAMAN.md) - Head of household during this period
 
 ## Sources
 

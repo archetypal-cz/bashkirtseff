@@ -30,8 +30,8 @@ Papa's beloved pet animal (likely a dog).
 - Papa's emotional attachment described as life-threatening
 
 ## Related Entries
-- [#Papa](Papa.md) - Owner
-- [#Stiopa](Stiopa.md) - Finder
+- [#Papa](../family/PAPA.md) - Owner
+- [#Stiopa](STIOPA.md) - Finder
 
 ## Research Notes
 - Pet ownership in 1870s Nice

@@ -44,6 +44,6 @@ Marie reflected upon the often troubled relations between them and regretted not
 
 - [#Maman](MAMAN.md) - Marie's mother, separated from Constantine
 - [#Paul_Grigorievitch_Bashkirtseff](PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md) - His father
-- [#Gavronzi](../../places/estates/GAVRONZI.md) - The Bashkirtseff family estate
+- [#Gavronzi](../../places/residences/GAVRONZI.md) - The Bashkirtseff family estate
 
 %% 2026-02-11T12:30:00 RSR: Per Kernberger (2013), Constantine Bashkirtseff (1833-1883) was Marie's father, separated from her mother. He died at Gavronzi on June 11, 1883. Enriched from stub with biographical data from Kernberger's glossary and chronology. %%

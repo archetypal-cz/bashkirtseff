@@ -35,12 +35,12 @@ Marie describes Vassilissa's tragic descent with powerful imagery:
 
 **The Permanent Visit**: One time she came as usual for a visit. A few weeks later, they removed the plants from the terrace - but she stayed forever. "Toujours veneree de moins en moins" (always revered less and less).
 
-**Final Years**: After Grand-papa left, her adopted daughter [#Nadine_Martinoff](Nadine_Martinoff.md) and [#Alexandre](Alexandre.md) relegated her to a miserable room in an old pavilion where she died - abandoned by everyone.
+**Final Years**: After Grand-papa left, her adopted daughter [#Nadine_Martinoff](../mentioned/NADINE_MARTINOFF.md) and [#Alexandre](../core/ALEXANDRE.md) relegated her to a miserable room in an old pavilion where she died - abandoned by everyone.
 
 ## Failed Inheritance Schemes
 
 Before adopting Nadine, there were attempts to acquire Vassilissa's fortune:
-- [#Georges](Georges.md) had proposed to marry her himself
+- [#Georges](GEORGES.md) had proposed to marry her himself
 - He had already tried to obtain the fortune of another aunt
 - After much scheming ("bien des tripotages"), he only got 12,000-15,000 rubles from her
 - This "vieille fille" (old maid) came to die in a small room at Grand-papa's house
@@ -79,14 +79,14 @@ In 19th century Russian aristocratic society:
 
 ## Related People
 
-- [#Grand_papa](Grand_papa.md) - Her brother who initially protected her
-- [#Georges](Georges.md) - Who tried to marry her for her fortune
-- [#Nadine_Martinoff](Nadine_Martinoff.md) - Adopted daughter who abandoned her
-- [#Alexandre](Alexandre.md) - Nephew who married the adopted daughter
+- [#Grand_papa](GRAND_PAPA.md) - Her brother who initially protected her
+- [#Georges](GEORGES.md) - Who tried to marry her for her fortune
+- [#Nadine_Martinoff](../mentioned/NADINE_MARTINOFF.md) - Adopted daughter who abandoned her
+- [#Alexandre](../core/ALEXANDRE.md) - Nephew who married the adopted daughter
 
 ## Related Location
 
-- [#Tcherniakovka](Tcherniakovka.md) - Grand-papa's estate where she died
+- [#Tcherniakovka](../../places/residences/TCHERNIAKOVKA.md) - Grand-papa's estate where she died
 
 ## Marie's Perspective
 

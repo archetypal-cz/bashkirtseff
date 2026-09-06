@@ -59,6 +59,6 @@ The fact that a "beautiful lady from Poltava" was visiting Paris and dining with
 
 ## Related Entries
 
-- [#Poltava](./Poltava.md)
+- [#Poltava](POLTAVA.md)
 - [#Russian_Expatriates](./Russian_Expatriates.md)
 - [#Marie_Health_Concerns](./Marie_Health_Concerns.md)

@@ -105,8 +105,8 @@ Gambetta represents:
 His rise parallels Marie's own ambitions to position herself at the center of French cultural and social life.
 
 ## Related Entries
-- [#Cassagnac](./Cassagnac.md) - Bonapartist opponent; contrast to Gambetta
+- [#Cassagnac](../../people/recurring/CASSAGNAC.md) - Bonapartist opponent; contrast to Gambetta
 - [#Third_Republic](./Third_Republic.md) - Political system Gambetta shaped
-- [#Chambre_des_Deputes](./Chambre_des_Deputes.md) - Where Gambetta dominated
+- [#Chambre_des_Deputes](../social/CHAMBRE_DES_DEPUTES.md) - Where Gambetta dominated
 - [#Republican](./Republican.md) - The political movement he led
 - [#Bonapartist](./Bonapartist.md) - The faction Marie was abandoning

@@ -41,8 +41,8 @@ Brother of the Duke of Hamilton, spotted by Marie in Nice. Described as having "
 - Would look perfect in Louis XV costume
 
 ## Related Entries
-- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Brother
-- [#Baden_Baden](Baden_Baden.md) - Where known
+- [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) - Brother
+- [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - Where known
 
 ## Carriage Accident (1875)
 

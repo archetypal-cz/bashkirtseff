@@ -41,6 +41,6 @@ Nice in the 1870s was divided into distinct quarters, with the most fashionable 
 - September 30, 1873: Her complaints lead to a family discussion about their social position
 
 ## Related Entries
-- [#Acqua_Viva](Acqua_Viva.md) - Their former, beloved residence
+- [#Acqua_Viva](../residences/ACQUA_VIVA.md) - Their former, beloved residence
 - [#Nice_Society](Nice_Society.md) - The social world Marie navigated
-- [#Maman](Maman.md) - Marie's mother who chose the residence
+- [#Maman](../../people/family/MAMAN.md) - Marie's mother who chose the residence

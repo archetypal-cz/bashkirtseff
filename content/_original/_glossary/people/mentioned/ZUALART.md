@@ -31,9 +31,9 @@ Man in Lambertye's social circle whom Marie finds particularly repulsive.
 - Provokes violent fantasies of revenge in Marie
 
 ## Related Entries
-- [#Lambertye](Lambertye.md) - Social companion who initiates the staring
-- [#Furstenberg](Furstenberg.md) - Fellow starer
-- [#Galve](Galve.md) - Another member of the group
+- [#Lambertye](LAMBERTYE.md) - Social companion who initiates the staring
+- [#Furstenberg](../aristocracy/FURSTENBERG.md) - Fellow starer
+- [#Galve](GALVE.md) - Another member of the group
 
 ## Research Notes
 - Male homosocial behavior in 1870s Nice

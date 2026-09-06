@@ -112,7 +112,7 @@ Marie was characteristically self-aware about the role of personality in her pol
 Marie's relationship with Cassagnac was the most sustained political-romantic entanglement of her youth. She first met him socially in Nice in 1876, visited his apartment in Paris in the famous "five women" episode (January 1878), and followed his career obsessively through *Le Pays*. The visit to his apartment -- where she jumped on his bed, washed her face in his basin, and knocked over his silver -- is one of the most vivid episodes in the diary. She described his home as *"l'intérieur d'un Joseph Balsamo quelconque, d'un homme à bonnes fortunes, panaché de politique, de dévouements, de toutes sortes de choses merveilleuses"* (23 January 1878). By 1880, attending the Chamber of Deputies, she noted his physical decline: *"Cassagnac a pris la parole Dieu sait pourquoi. Il a pris du ventre et se fane décidément"* (28 May 1880). By 1883, her disillusionment was complete: *"Ce Cassagnac est vraiment une nature basse"* (5 August 1883).
 
 %% GLO_POLITICS.0034 %%
-See also: [#Cassagnac](../../../people/recurring/CASSAGNAC.md), [#Paul_de_Cassagnac](../../../people/mentioned/PAUL_DE_CASSAGNAC.md)
+See also: [#Cassagnac](../../people/recurring/CASSAGNAC.md), [#Paul_de_Cassagnac](../../people/mentioned/PAUL_DE_CASSAGNAC.md)
 
 %% GLO_POLITICS.0035 %%
 ### Leon Gambetta (1838-1882)
@@ -127,7 +127,7 @@ Marie's engagement with Gambetta was audacious. In January 1877, learning that G
 Gambetta's death in January 1883 profoundly affected Marie. She visited his death chamber at Ville-d'Avray with Jules Bastien-Lepage (who was painting the scene), was shocked by the miserable conditions in which he had died -- *"Comment ! C'est dans cette miserable cage dont je touche le plafond avec la main litteralement qu'on a laisse pendant six semaines un malade de la constitution de Gambetta"* (16 January 1883) -- and wept at the bullet hole in the wall. She described him as *"le grand, le noble, le calomnie, le genial Gambetta"* (13 January 1883), and at the Chamber of Deputies mourning session quoted Brisson's eulogy: *"ce chant heroique qui etait la poesie de notre lutteur depuis quinze ans, nous ne l'entendrons plus"* (29 January 1883).
 
 %% GLO_POLITICS.0039 %%
-See also: [#Gambetta](../../../places/churches/GAMBETTA.md), [#Leon_Gambetta](../../../people/mentioned/LEON_GAMBETTA.md)
+See also: [#Gambetta](../../places/churches/GAMBETTA.md), [#Leon_Gambetta](../../people/mentioned/LEON_GAMBETTA.md)
 
 %% GLO_POLITICS.0040 %%
 ### Other Political Figures
@@ -173,7 +173,7 @@ Marie invested 500 francs to become a shareholder in *La Citoyenne* (6 March 188
 Marie's feminism was sincere but shot through with class contradictions. She advocated for women's rights at dinner parties -- *"La politique a eu sa part aussi et j'ai revendiqué les droits de la femme. C'est la plus grande des injustices à l'heure qu'il est"* (March 1883) -- and had articulated a sophisticated gender philosophy as early as 1877: *"L'homme c'est la force, la femme c'est l'intelligence"* (9 January 1877). Yet she attended feminist meetings in disguise, feared her family's reaction, and was often repelled by the social class of her fellow activists. Her feminism was ultimately grounded in personal experience -- the barriers she faced as a woman painter -- more than in abstract ideology.
 
 %% GLO_POLITICS.0053 %%
-See also: [#Hubertine_Auclert](../../../people/mentioned/HUBERTINE_AUCLERT.md), [#La_Citoyenne](../../newspapers/LA_CITOYENNE.md), [#Droit_des_femmes](../../../people/politicians/DROIT_DES_FEMMES.md)
+See also: [#Hubertine_Auclert](../../people/mentioned/HUBERTINE_AUCLERT.md), [#La_Citoyenne](../newspapers/LA_CITOYENNE.md), [#Droit_des_femmes](../../people/politicians/DROIT_DES_FEMMES.md)
 
 %% GLO_POLITICS.0054 %%
 ## International Politics

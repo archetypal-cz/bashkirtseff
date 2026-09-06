@@ -44,6 +44,6 @@ He joins family outings to the Bois de Boulogne and brings along Gabriel Géry.
 
 ## Related Entries
 
-- [#Rigoletto](./Rigoletto.md) - Opera he performed
-- [#Gabriel_Gery](./Gabriel_Gery.md) - Friend he brought along
-- [#Bois_de_Boulogne](./Bois_de_Boulogne.md) - Where they went together
+- [#Rigoletto](../../culture/music/RIGOLETTO.md) - Opera he performed
+- [#Gabriel_Gery](../mentioned/GABRIEL_GERY.md) - Friend he brought along
+- [#Bois_de_Boulogne](../../places/social/BOIS_DE_BOULOGNE.md) - Where they went together

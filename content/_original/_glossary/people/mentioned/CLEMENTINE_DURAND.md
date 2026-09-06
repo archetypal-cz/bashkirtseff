@@ -31,9 +31,9 @@ Person whom Marie's mother used to look at in a particular way, used as comparis
 - May be related to other Durand family members
 
 ## Related Entries
-- [#Maman](Maman.md) - Who used to look at her
-- [#Lucie_Durand](Lucie_Durand.md) - Possible relative
-- [#Lambertye](Lambertye.md) - Who looks at Marie similarly
+- [#Maman](../family/MAMAN.md) - Who used to look at her
+- [#Lucie_Durand](LUCIE_DURAND.md) - Possible relative
+- [#Lambertye](LAMBERTYE.md) - Who looks at Marie similarly
 
 ## Research Notes
 - Durand common French surname

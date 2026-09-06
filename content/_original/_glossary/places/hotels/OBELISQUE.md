@@ -36,7 +36,7 @@ A remarkably tall and beautiful woman who attends the concert with the Duchess d
 - Used as standard for comparing other beauties
 
 ## Related Entries
-- [#Mme_de_Mouchy](Mme_de_Mouchy.md) - Mother of future "Obélisque"
+- [#Mme_de_Mouchy](../../people/mentioned/MME_DE_MOUCHY.md) - Mother of future "Obélisque"
 
 ## Research Notes
 - Real identity unknown

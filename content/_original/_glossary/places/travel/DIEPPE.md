@@ -99,7 +99,7 @@ The Dieppe races were the social climax of the season, and Marie's description o
 ### The Casino and Concerts
 
 %% GLO_DIEPPE.0018 %%
-The [Casino de Dieppe](./Casino_de_Dieppe.md) served as the social hub of the resort -- gambling, concerts, and balls. On September 2, Marie attended a grand concert where [Camillo Sivori](https://en.wikipedia.org/wiki/Camillo_Sivori), the famous Italian violinist and student of [Paganini](https://en.wikipedia.org/wiki/Niccol%C3%B2_Paganini), "a joué comme un ange" (086.0206). After the concert there was a grand ball, but Marie left early. Her mother and Dina "sont restées au Casino avec Mme de Martellet et ses deux filles, des gens du monde."
+The [Casino de Dieppe](../social/CASINO_DE_DIEPPE.md) served as the social hub of the resort -- gambling, concerts, and balls. On September 2, Marie attended a grand concert where [Camillo Sivori](https://en.wikipedia.org/wiki/Camillo_Sivori), the famous Italian violinist and student of [Paganini](https://en.wikipedia.org/wiki/Niccol%C3%B2_Paganini), "a joué comme un ange" (086.0206). After the concert there was a grand ball, but Marie left early. Her mother and Dina "sont restées au Casino avec Mme de Martellet et ses deux filles, des gens du monde."
 
 %% GLO_DIEPPE.0019 %%
 Marie's ambivalence about resort entertainment was perfectly captured in her dismissal of "musiques, plages, Casino et autres abrutissements des villes d'été" (086.0206) -- and her simultaneous admission that "Je commence à jouir de Dieppe à la veille du départ."

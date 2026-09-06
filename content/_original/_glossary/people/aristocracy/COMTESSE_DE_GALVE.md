@@ -31,8 +31,8 @@ Countess who has moved to London, envied by Marie.
 - Possibly related to "papa Galve"
 
 ## Related Entries
-- [#Galve](Galve.md) - Possible relation
-- [#England](England.md) - Where she moved
+- [#Galve](../mentioned/GALVE.md) - Possible relation
+- [#England](../../places/travel/ENGLAND.md) - Where she moved
 
 ## Research Notes
 - Marie's anglophilia evident

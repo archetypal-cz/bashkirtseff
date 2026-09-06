@@ -14,7 +14,7 @@ last_updated: 2026-03-06
 **Last Updated**: 2025-07-06
 **Diary Coverage**: Up to 1874-03-04
 
-An actress performing at the [#French Theater in Nice](French_Theater_Nice.md) in March 1874. Marie saw her perform in the play "[#Les diables roses](Les_diables_roses.md)" on March 4, 1874.
+An actress performing at the [#French Theater in Nice](../../places/social/FRENCH_THEATER_NICE.md) in March 1874. Marie saw her perform in the play "[#Les diables roses](../../places/cities/LES_DIABLES_ROSES.md)" on March 4, 1874.
 
 ## Context in Diary
 

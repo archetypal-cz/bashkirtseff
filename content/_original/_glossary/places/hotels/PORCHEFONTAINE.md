@@ -72,4 +72,4 @@ Marie declares racing "ce qu'il y a au monde de plus amusant" (the most amusing 
 
 ## Related Entries
 
-See also: [#Duke_of_Hamilton](Duke_of_Hamilton.md), [#Longchamp](Longchamp.md), [#Bikowsky](Bikowsky.md), [#Paris_1870s](Paris_1870s.md)
+See also: [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md), [#Longchamp](../cities/LONGCHAMP.md), [#Bikowsky](../../people/mentioned/BIKOWSKY.md), [#Paris_1870s](../cities/PARIS_1870S.md)

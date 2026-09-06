@@ -88,10 +88,10 @@ While specific details about Dr. Hactius's educational methods are not preserved
 
 ## Related Entries
 
-- [#Geneva](Geneva.md) - Location of the boarding school
-- [#Chtcherbine](Chtcherbine.md) - Young student being enrolled
-- [#Bachmakoff](Bachmakoff.md) - The stepfather enrolling him
-- [#Franco_Prussian_War](Franco_Prussian_War.md) - Context for families in Geneva
+- [#Geneva](../../places/travel/GENEVA.md) - Location of the boarding school
+- [#Chtcherbine](CHTCHERBINE.md) - Young student being enrolled
+- [#Bachmakoff](BACHMAKOFF.md) - The stepfather enrolling him
+- [#Franco_Prussian_War](../../culture/history/FRANCO_PRUSSIAN_WAR.md) - Context for families in Geneva
 
 ## Research Notes
 

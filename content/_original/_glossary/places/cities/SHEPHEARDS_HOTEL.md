@@ -37,8 +37,8 @@ Famous British colonial hotel in Cairo where the Duke of Hamilton stayed during 
 - Height of luxury travel
 
 ## Related Entries
-- [#Cairo](Cairo.md) - Location
-- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Guest
+- [#Cairo](../travel/CAIRO.md) - Location
+- [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md) - Guest
 
 ## Research Notes
 - Colonial hotel culture

@@ -68,9 +68,9 @@ For the Bashkirtseff family, access to the Queen's salon represented:
 Despite her political prominence, Isabel II "never learned to speak French properly" during her decades in Paris. She maintained close relationships with French legitimists and Bonapartists who shared her anti-Republican sentiments.
 
 ## Related Entries
-- [#Cassagnac](./Cassagnac.md) - Bonapartist journalist Marie hoped to meet there
+- [#Cassagnac](../../people/recurring/CASSAGNAC.md) - Bonapartist journalist Marie hoped to meet there
 - [#Palais_Castille](./Palais_Castille.md) - The Queen's residence
-- [#Paris](./Paris.md) - Location of exile
-- [#Fitz_James](./Fitz_James.md) - Related aristocratic family
+- [#Paris](../cities/PARIS.md) - Location of exile
+- [#Fitz_James](../../people/mentioned/FITZ_JAMES.md) - Related aristocratic family
 
 %% 2025-12-06T00:00:00 RSR: Created entry for Queen Isabel II of Spain based on diary references and historical research %%

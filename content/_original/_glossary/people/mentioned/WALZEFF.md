@@ -32,7 +32,7 @@ Potential marriage candidate discussed by Marie's family.
 - Part of marriage market calculations
 
 ## Related Entries
-- [#Lambertye](Lambertye.md) - Another marriage prospect mentioned
+- [#Lambertye](LAMBERTYE.md) - Another marriage prospect mentioned
 
 ## Research Notes
 - Russian expatriate marriage market

@@ -31,9 +31,9 @@ His most celebrated role was **Fadinard** in Eugène Labiche's *Un chapeau de pa
 
 ## Performance in Nice (1873)
 
-In January 1873, Ravel performed in Nice at the [French Theater of Nice](French_Theater_Nice.md). Marie Bashkirtseff attended his performance on January 12, 1873, where he appeared in a double bill featuring:
-- [La joie de la maison](La_joie_de_la_maison.md)
-- [Un chapeau de paille d'Italie](Un_chapeau_de_paille_d_Italie.md) (likely his signature role as Fadinard)
+In January 1873, Ravel performed in Nice at the [French Theater of Nice](../social/FRENCH_THEATER_NICE.md). Marie Bashkirtseff attended his performance on January 12, 1873, where he appeared in a double bill featuring:
+- [La joie de la maison](../cities/LA_JOIE_DE_LA_MAISON.md)
+- [Un chapeau de paille d'Italie](UN_CHAPEAU_DE_PAILLE_D_ITALIE.md) (likely his signature role as Fadinard)
 
 During the winter season, prominent actors from Parisian theaters would tour to Nice and other fashionable Riviera resorts to perform for the wealthy international visitors.
 
@@ -43,7 +43,7 @@ Ravel was one of the most respected comic actors of his generation. His appearan
 
 ## Note
 
-Not to be confused with [Ravel](Ravel.md), the family carriage mentioned in later diary entries.
+Not to be confused with [Ravel](../../people/mentioned/RAVEL.md), the family carriage mentioned in later diary entries.
 
 ## Sources
 

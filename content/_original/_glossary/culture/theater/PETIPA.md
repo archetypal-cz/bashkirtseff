@@ -71,6 +71,6 @@ Petipa is often called the "Father of Classical Ballet" and held his position un
 
 ## Related Entries
 
-- [#Marie_Bashkirtseff](Marie_Bashkirtseff.md) - Her childhood performance instincts
-- [#Russia](Russia.md) - Cultural context of Imperial Russia
-- [#Maman](Maman.md) - Whose lace Marie wore to perform
+- [#Marie_Bashkirtseff](../../people/family/MARIE_BASHKIRTSEFF.md) - Her childhood performance instincts
+- [#Russia](../../places/countries/RUSSIA.md) - Cultural context of Imperial Russia
+- [#Maman](../../people/family/MAMAN.md) - Whose lace Marie wore to perform

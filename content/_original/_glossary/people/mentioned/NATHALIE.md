@@ -29,7 +29,7 @@ Member of the Patton household who shows Marie around their home.
 - Part of social visiting customs
 
 ## Related Entries
-- [#Patton](Patton.md) - Household connection
+- [#Patton](../../places/hotels/PATTON.md) - Household connection
 
 ## Research Notes
 - Household social dynamics

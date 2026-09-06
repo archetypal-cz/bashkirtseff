@@ -77,10 +77,10 @@ The story also shows Marie's ironic distance—even in describing this impressiv
 
 ## Related Entries
 
-- [#Maman](Maman.md) - Marie's mother who met the Emperor
-- [#Yalta](Yalta.md) - Where the promised meeting took place
-- [#Tcherniakovka](Tcherniakovka.md) - The family estate near the station
-- [#Russia](Russia.md) - The empire he ruled
+- [#Maman](../family/MAMAN.md) - Marie's mother who met the Emperor
+- [#Yalta](../../places/cities/YALTA.md) - Where the promised meeting took place
+- [#Tcherniakovka](../../places/residences/TCHERNIAKOVKA.md) - The family estate near the station
+- [#Russia](../../places/countries/RUSSIA.md) - The empire he ruled
 
 ## Sources
 

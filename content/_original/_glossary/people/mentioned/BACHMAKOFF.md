@@ -84,11 +84,11 @@ The chance meeting demonstrates:
 
 ## Related Entries
 
-- [#Poltava](Poltava.md) - City where Bachmakoff served as vice-governor
-- [#Maman](Maman.md) - Marie's mother, whom Bachmakoff remembered
-- [#Chtcherbine](Chtcherbine.md) - His stepson enrolled in Geneva school
-- [#Dr_Hactius](Dr_Hactius.md) - Director of the famous Geneva boarding school
-- [#Geneva](Geneva.md) - Where the encounter took place
-- [#Franco_Prussian_War](Franco_Prussian_War.md) - Reason the families were in Geneva
+- [#Poltava](../../places/cities/POLTAVA.md) - City where Bachmakoff served as vice-governor
+- [#Maman](../family/MAMAN.md) - Marie's mother, whom Bachmakoff remembered
+- [#Chtcherbine](CHTCHERBINE.md) - His stepson enrolled in Geneva school
+- [#Dr_Hactius](DR_HACTIUS.md) - Director of the famous Geneva boarding school
+- [#Geneva](../../places/travel/GENEVA.md) - Where the encounter took place
+- [#Franco_Prussian_War](../../culture/history/FRANCO_PRUSSIAN_WAR.md) - Reason the families were in Geneva
 
 %% 2025-12-07T16:45:00 RSR: Created entry based on Book 00, paragraph 00.46. Bachmakoff represents the interconnected world of Russian imperial officials across continents. %%

@@ -60,9 +60,9 @@ For Marie, Carolus-Duran represented:
 - **May 1, 1882**: Accompanies Marie to her carriage after conversation at the Salon
 
 ## Related Entries
-- [#Salon](./Salon.md) - Annual exhibition where they met
-- [#Bastien_Lepage](./Bastien_Lepage.md) - Fellow painter at Salon
+- [#Salon](../../culture/art/SALON.md) - Annual exhibition where they met
+- [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) - Fellow painter at Salon
 - [#John_Singer_Sargent](./John_Singer_Sargent.md) - His most famous student
-- [#Julian](./Julian.md) - Rival teaching atelier
+- [#Julian](../../places/schools/JULIAN.md) - Rival teaching atelier
 
 %% 2025-12-06T00:00:00 RSR: Expanded from stub with biographical research %%

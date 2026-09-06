@@ -48,4 +48,4 @@ Marie's repeated returns to Klein to study Gioia's photograph reveal her jealous
 
 ## Related Entries
 
-See also: [#Walery_Studio](Walery_Studio.md), [#Gioia](Gioia.md), [#Paris_1870s](Paris_1870s.md)
+See also: [#Walery_Studio](../../places/theaters/WALERY_STUDIO.md), [#Gioia](../../places/cities/GIOIA.md), [#Paris_1870s](../../places/cities/PARIS_1870S.md)

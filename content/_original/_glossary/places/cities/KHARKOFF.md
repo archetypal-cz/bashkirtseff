@@ -64,7 +64,7 @@ In Marie's retrospective preface (Book 00), Kharkoff appears as the city where h
 
 ### The Elaborate Courtship
 
-After gathering at [#Akhtyrka](Akhtyrka.md), the family moved to Kharkoff where:
+After gathering at [#Akhtyrka](../travel/AKHTYRKA.md), the family moved to Kharkoff where:
 
 **Social Display**: "On a mené une existence inconcevable" (They led an inconceivable existence)
 
@@ -73,7 +73,7 @@ After gathering at [#Akhtyrka](Akhtyrka.md), the family moved to Kharkoff where:
 - Trays of fruits and bonbons brought at each intermission
 - Constant public display of wealth and refinement
 
-**Scandal**: [#Georges](Georges.md) fell in love with an actress and had her received at the house.
+**Scandal**: [#Georges](../../people/family/GEORGES.md) fell in love with an actress and had her received at the house.
 
 **Manipulation**: Both Romanoff and Georges were described as "absolument étranger aux usages du monde" (absolutely foreign to the ways of society) - naive men being manipulated by more experienced schemers.
 
@@ -117,11 +117,11 @@ Kharkoff exemplified the Russian provincial capital in its golden age:
 
 ## Related People and Places
 
-- [#Romanoff](Romanoff.md) - The wealthy bachelor ensnared there
-- [#Georges](Georges.md) - Who orchestrated schemes and fell for an actress
-- [#Maman](Maman.md) - Used as romantic bait in the courtship
-- [#Akhtyrka](Akhtyrka.md) - Where the family initially gathered
-- [#Yalta](Yalta.md) - Crimean resort where the courtship continued
+- [#Romanoff](../../people/mentioned/ROMANOFF.md) - The wealthy bachelor ensnared there
+- [#Georges](../../people/family/GEORGES.md) - Who orchestrated schemes and fell for an actress
+- [#Maman](../../people/family/MAMAN.md) - Used as romantic bait in the courtship
+- [#Akhtyrka](../travel/AKHTYRKA.md) - Where the family initially gathered
+- [#Yalta](YALTA.md) - Crimean resort where the courtship continued
 
 ## Later History
 

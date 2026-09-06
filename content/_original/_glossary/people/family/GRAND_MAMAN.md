@@ -126,15 +126,15 @@ The grandmother played a protective role in the family. When Marie's father kidn
 
 ## Related Entries
 
-- [#Maman](Maman.md) - Marie's mother, grand-maman's daughter
-- [#Ma_tante](Ma_tante.md) - Marie's aunt who helped raise her
-- [#Paul](Paul.md) - Marie's brother, also raised by grand-maman
-- [#Papa](Papa.md) - Constantin Bashkirtseff, confronted at Gavronzi
-- [#Paul_Grigorievitch_Bashkirtseff](Paul_Grigorievitch_Bashkirtseff.md) - The General, Marie's paternal grandfather
-- [#Gavronzi](Gavronzi.md) - Estate where the custody battle occurred
-- [#Georges](Georges.md) - Troubled family member grand-maman enabled
-- [#Madame_Melnikoff](Madame_Melnikoff.md) - The governess whose departure prompted the soup incident
-- [#Russia](Russia.md) - The family's homeland
+- [#Maman](MAMAN.md) - Marie's mother, grand-maman's daughter
+- [#Ma_tante](MA_TANTE.md) - Marie's aunt who helped raise her
+- [#Paul](../mentioned/PAUL.md) - Marie's brother, also raised by grand-maman
+- [#Papa](PAPA.md) - Constantin Bashkirtseff, confronted at Gavronzi
+- [#Paul_Grigorievitch_Bashkirtseff](PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md) - The General, Marie's paternal grandfather
+- [#Gavronzi](../../places/residences/GAVRONZI.md) - Estate where the custody battle occurred
+- [#Georges](GEORGES.md) - Troubled family member grand-maman enabled
+- [#Madame_Melnikoff](../mentioned/MADAME_MELNIKOFF.md) - The governess whose departure prompted the soup incident
+- [#Russia](../../places/countries/RUSSIA.md) - The family's homeland
 
 ## Sources
 

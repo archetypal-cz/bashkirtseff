@@ -107,10 +107,10 @@ Marie writes "Gonzales" (with grave accent on the 'e'), though "Gonzales" (witho
 
 ## Related Entries
 
-- [#Remy_de_Gonzales_Moreno](Remy_de_Gonzales_Moreno.md) - The son
-- [#Boyd_Family](Boyd_Family.md) - Social connections in Baden-Baden
-- [#Berthe](Berthe.md) - Remy's romantic interest
-- [#Maman](Maman.md) - The innocent party in the triangle
-- [#Baden_Baden](Baden_Baden.md) - Where they met
+- [#Remy_de_Gonzales_Moreno](../mentioned/REMY_DE_GONZALES_MORENO.md) - The son
+- [#Boyd_Family](BOYD_FAMILY.md) - Social connections in Baden-Baden
+- [#Berthe](BERTHE.md) - Remy's romantic interest
+- [#Maman](../family/MAMAN.md) - The innocent party in the triangle
+- [#Baden_Baden](../../places/travel/BADEN_BADEN.md) - Where they met
 
 %% 2025-12-07T15:00:00 RSR: Created comprehensive entry for Gonzales Family based on Book 00 retrospective. This episode showcases Marie's early ability to read social situations and her awareness of the gap between surface politeness and underlying tensions - skills that would serve her throughout her life as a diarist and social observer. %%

@@ -31,7 +31,7 @@ Wealthy Russian fur merchant family with a bachelor heir proposed as match for M
 - Represents new merchant wealth vs old nobility
 
 ## Related Entries
-- [#Karitoff](Karitoff.md) - Family proposing match
+- [#Karitoff](KARITOFF.md) - Family proposing match
 
 ## Research Notes
 - Russian fur trade wealth

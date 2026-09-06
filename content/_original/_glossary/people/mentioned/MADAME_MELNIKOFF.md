@@ -87,9 +87,9 @@ Marie uses "romanesque" (romanticized, novel-like) repeatedly to describe both M
 
 ## Related Entries
 
-- [#Grand_maman](Grand_maman.md) - Ordered the invalid's soup
-- [#Russia](Russia.md) - Cultural context for romantic behavior
-- [#Maman](Maman.md) - Marie's mother, head of household
+- [#Grand_maman](../family/GRAND_MAMAN.md) - Ordered the invalid's soup
+- [#Russia](../../places/countries/RUSSIA.md) - Cultural context for romantic behavior
+- [#Maman](../family/MAMAN.md) - Marie's mother, head of household
 
 ## Sources
 

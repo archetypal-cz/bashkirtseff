@@ -56,8 +56,8 @@ Russian man with a scandalous past, introduced to the Bashkirtseff family. His f
 - "Simplicité affectée" (affected simplicity)
 
 ## Related Entries
-- [#Lautrec](Lautrec.md) - Comparison figure
-- [#Maman](Maman.md) - Object of his courtship
+- [#Lautrec](../../places/cities/LAUTREC.md) - Comparison figure
+- [#Maman](../family/MAMAN.md) - Object of his courtship
 
 ## Research Notes
 - Wife poisoning scandals

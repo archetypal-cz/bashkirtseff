@@ -29,7 +29,7 @@ A person who recognizes Marie along with Brady. Part of Nice society.
 - Gender unclear from context
 
 ## Related Entries
-- [#Brady](Brady.md) - Often mentioned together
+- [#Brady](BRADY.md) - Often mentioned together
 
 ## Research Notes
 - Could be nickname or surname

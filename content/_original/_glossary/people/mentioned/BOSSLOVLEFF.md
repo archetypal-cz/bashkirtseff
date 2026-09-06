@@ -30,8 +30,8 @@ Russian family with daughters ("demoiselles Bosslovleff") who attend social even
 - Attend dances and social events
 
 ## Related Entries
-- [#Nadia](Nadia.md) - Social companion
-- [#Howard_family](Howard_family.md) - Event hosts
+- [#Nadia](NADIA.md) - Social companion
+- [#Howard_family](../recurring/HOWARD_FAMILY.md) - Event hosts
 
 ## Research Notes
 - Russian family structures

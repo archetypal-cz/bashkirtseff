@@ -38,7 +38,7 @@ Need to verify:
 
 ## Related Entries
 
-- [#Galignani](Galignani.md) - English-language newspaper Marie also reads
-- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Subject of Marie's obsessive reading
-- [#Gioia](Gioia.md) - Subject of scandal report
-- [#Nice](Nice.md) - Location where Marie reads these publications
+- [#Galignani](../../culture/newspapers/GALIGNANI.md) - English-language newspaper Marie also reads
+- [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md) - Subject of Marie's obsessive reading
+- [#Gioia](GIOIA.md) - Subject of scandal report
+- [#Nice](NICE.md) - Location where Marie reads these publications

@@ -30,7 +30,7 @@ Woman in Marie's social circle who went on carriage ride with Machenka and a vio
 - English name suggests British connections
 
 ## Related Entries
-- [#Machenka](Machenka.md) - Companion on carriage ride
+- [#Machenka](MACHENKA.md) - Companion on carriage ride
 
 ## Research Notes
 - Hamsley possibly English resident in Nice

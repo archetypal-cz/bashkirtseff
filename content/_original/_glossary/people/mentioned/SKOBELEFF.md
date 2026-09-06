@@ -30,8 +30,8 @@ Russian noblewoman marrying Grand Duke Nicolas (son of Constantin) in 1874. Sist
 - Part of 1874 marriage season
 
 ## Related Entries
-- [#Grand Duke Nicolas](Grand_Duke_Nicolas.md) - Groom
-- [#Princess Belocelsky](Princess_Belocelsky.md) - Sister
+- [#Grand Duke Nicolas](../aristocracy/GRAND_DUKE_NICOLAS.md) - Groom
+- [#Princess Belocelsky](../aristocracy/PRINCESS_BELOCELSKY.md) - Sister
 
 ## Research Notes
 - Skobelev family famous for military generals

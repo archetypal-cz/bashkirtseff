@@ -66,4 +66,4 @@ Marie finds the visit tedious and is "vraiment contente" (truly happy) to leave.
 
 ## Related Entries
 
-See also: [#Paris_1870s](Paris_1870s.md), [#Diacre](Diacre.md)
+See also: [#Paris_1870s](../../places/cities/PARIS_1870S.md), [#Diacre](DIACRE.md)

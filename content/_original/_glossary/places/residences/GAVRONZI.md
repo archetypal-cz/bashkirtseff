@@ -64,12 +64,12 @@ Such estates were common among Russian nobility in the Poltava Governorate.
 
 ## Related Entries
 
-- [#Grand_maman](Grand_maman.md) - Led the rescue mission
-- [#Papa](Papa.md) - Constantin Bashkirtseff, who orchestrated the kidnapping
-- [#Paul_Grigorievitch_Bashkirtseff](Paul_Grigorievitch_Bashkirtseff.md) - The General, who aided his son
-- [#Paul](Paul.md) - Marie's brother, kidnapped with her
-- [#Maman](Maman.md) - The target of the pressure campaign
-- [#Poltava](Poltava.md) - The region where Gavronzi was located
+- [#Grand_maman](../../people/family/GRAND_MAMAN.md) - Led the rescue mission
+- [#Papa](../../people/family/PAPA.md) - Constantin Bashkirtseff, who orchestrated the kidnapping
+- [#Paul_Grigorievitch_Bashkirtseff](../../people/family/PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md) - The General, who aided his son
+- [#Paul](../../people/mentioned/PAUL.md) - Marie's brother, kidnapped with her
+- [#Maman](../../people/family/MAMAN.md) - The target of the pressure campaign
+- [#Poltava](../cities/POLTAVA.md) - The region where Gavronzi was located
 
 %% 2025-11-20T00:00:00 RSR: Created stub entry %%
 %% 2025-12-07T16:10:00 RSR: Comprehensive update based on Book 00 paragraph 00.13 describing the custody battle and yellow pavilion confrontation %%

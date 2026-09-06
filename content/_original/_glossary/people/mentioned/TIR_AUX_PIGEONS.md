@@ -32,7 +32,7 @@ Pigeon shooting event in Nice/Monte Carlo area, popular aristocratic sport.
 - Held at specific venue (likely Monte Carlo)
 
 ## Related Entries
-- [#Monte_Carlo](Monte_Carlo.md) - Likely location
+- [#Monte_Carlo](../../places/theaters/MONTE_CARLO.md) - Likely location
 - Aristocratic sports and social events
 
 ## Research Notes

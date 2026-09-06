@@ -68,11 +68,11 @@ Odessa served as:
 - **Railway Hub**: Railways connected Odessa to Russian interior by 1860s
 
 ## Related Entries
-- [#Yalta](./Yalta.md) - Where family met Romanoff before Odessa
-- [#Romanoff](./Romanoff.md) - Marriage arranged in Odessa
-- [#Ma_tante](./Ma_tante.md) - Married in Odessa
-- [#Tcherniakovka](./Tcherniakovka.md) - Destination after Odessa
-- [#Ukraine](./Ukraine.md) - Region where Odessa is located
+- [#Yalta](YALTA.md) - Where family met Romanoff before Odessa
+- [#Romanoff](../../people/mentioned/ROMANOFF.md) - Marriage arranged in Odessa
+- [#Ma_tante](../../people/family/MA_TANTE.md) - Married in Odessa
+- [#Tcherniakovka](../residences/TCHERNIAKOVKA.md) - Destination after Odessa
+- [#Ukraine](../countries/UKRAINE.md) - Region where Odessa is located
 
 ## Sources
 

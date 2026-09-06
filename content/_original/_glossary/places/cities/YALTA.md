@@ -54,11 +54,11 @@ Yalta in the 1870s served as:
 - **Social stage**: Public places where one could see and be seen
 
 ## Related Entries
-- [#Alexander_II](./Alexander_II.md) - Emperor who frequented Yalta
+- [#Alexander_II](../../people/aristocracy/ALEXANDER_II.md) - Emperor who frequented Yalta
 - [#Livadia_Palace](./Livadia_Palace.md) - Imperial residence near Yalta
-- [#Maman](./Maman.md) - Marie's mother who pursued social connections there
-- [#Romanoff](./Romanoff.md) - Met the family in Yalta
-- [#Crimea](./Crimea.md) - Peninsula where Yalta is located
+- [#Maman](../../people/family/MAMAN.md) - Marie's mother who pursued social connections there
+- [#Romanoff](../../people/mentioned/ROMANOFF.md) - Met the family in Yalta
+- [#Crimea](../travel/CRIMEA.md) - Peninsula where Yalta is located
 
 ## Sources
 

@@ -130,12 +130,12 @@ During the Franco-Prussian War (1870-1871):
 - The war created a refugee crisis that Geneva helped address
 
 ## Related Entries
-- [#Franco_Prussian_War](Franco_Prussian_War.md) - The war that drove the family to Geneva
-- [#Baden_Baden](Baden_Baden.md) - Where they fled from
-- [#Nice](Nice.md) - Where they eventually settled
-- [#Paris_1870s](Paris_1870s.md) - Ultimate destination
-- [#London](London.md) - Other dream city
-- [#Maman](Maman.md) - Who managed the family's flight
+- [#Franco_Prussian_War](../../culture/history/FRANCO_PRUSSIAN_WAR.md) - The war that drove the family to Geneva
+- [#Baden_Baden](BADEN_BADEN.md) - Where they fled from
+- [#Nice](../cities/NICE.md) - Where they eventually settled
+- [#Paris_1870s](../cities/PARIS_1870S.md) - Ultimate destination
+- [#London](../cities/LONDON.md) - Other dream city
+- [#Maman](../../people/family/MAMAN.md) - Who managed the family's flight
 
 %% 2025-07-06T00:00:00 RSR: Created basic entry for Geneva %%
 %% 2025-12-07T15:45:00 RSR: Expanded with Book 00 information about Geneva as war refuge in 1870, adding historical context about Franco-Prussian War displacement and Geneva's role as neutral sanctuary for international aristocracy %%

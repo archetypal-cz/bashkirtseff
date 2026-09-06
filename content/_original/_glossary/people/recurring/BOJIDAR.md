@@ -37,6 +37,6 @@ Bojidar represented the kind of aristocratic connection Marie valued — a princ
 ## Related Entries
 
 - [#Alexis_Karageorgevitch](../aristocracy/ALEXIS_KARAGEORGEVITCH.md) - His elder brother
-- [#Dieppe](../../places/cities/DIEPPE.md) - Where Marie first met the Karageorgevitch brothers
+- [#Dieppe](../../places/travel/DIEPPE.md) - Where Marie first met the Karageorgevitch brothers
 
 %% 2026-02-11T12:40:00 RSR: Per Kernberger (2013), Prince Bojidar Karageorgevitch (1861-1908), second son of Prince George Karageorgevitch (pretender to Serbian throne). Brother: Alexis (1859-1920). Met Marie at Dieppe in August 1879. Marie painted his portrait in autumn 1883. Enriched from stub using Kernberger's glossary and chronology. %%

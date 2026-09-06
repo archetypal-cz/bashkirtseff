@@ -103,10 +103,10 @@ For young Marie (around 11 years old in 1870), Pension Huberkoller represented:
 
 ## Related Entries
 
-- [#Mont_Blanc](Mont_Blanc.md) - The mountain view from the pension
-- [#Geneva](Geneva.md) - The city where the pension was located
-- [#Hotel_de_la_Couronne](Hotel_de_la_Couronne.md) - Where the family stayed before the pension
-- [#Franco_Prussian_War](Franco_Prussian_War.md) - Reason for the family's extended Geneva stay
-- [#Baden_Baden](Baden_Baden.md) - Where the family fled from
+- [#Mont_Blanc](../landmarks/MONT_BLANC.md) - The mountain view from the pension
+- [#Geneva](../travel/GENEVA.md) - The city where the pension was located
+- [#Hotel_de_la_Couronne](HOTEL_DE_LA_COURONNE.md) - Where the family stayed before the pension
+- [#Franco_Prussian_War](../../culture/history/FRANCO_PRUSSIAN_WAR.md) - Reason for the family's extended Geneva stay
+- [#Baden_Baden](../travel/BADEN_BADEN.md) - Where the family fled from
 
 %% 2025-12-07T17:30:00 RSR: Created entry based on Book 00, paragraph 00.44. The pension's Mont Blanc view inspired Marie's first attempt at drawing from nature rather than copying stylized models. %%

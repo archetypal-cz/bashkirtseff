@@ -36,8 +36,8 @@ Father of Lord Mandeville, related to Duke of Hamilton through marriage.
 - Marriage alliances with Scottish nobility
 
 ## Related Entries
-- [#Lord_Mandeville](Lord_Mandeville.md) - Son
-- [#Duke_of_Hamilton](Duke_of_Hamilton.md) - Connected by marriage
+- [#Lord_Mandeville](LORD_MANDEVILLE.md) - Son
+- [#Duke_of_Hamilton](../core/DUKE_OF_HAMILTON.md) - Connected by marriage
 
 ## Research Notes
 - British ducal families

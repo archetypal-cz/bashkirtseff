@@ -77,10 +77,10 @@ Lermontov's generation represented Russian Romanticism at its height:
 
 ## Related Entries
 
-- [#Pushkin](Pushkin.md) - Russia's greatest poet, died 1837
-- [#Lord_Byron](Lord_Byron.md) - Major influence on Russian Romantics
-- [#Grand_papa](Grand_papa.md) - Marie's grandfather, Lermontov's contemporary
-- [#Caucasus](Caucasus.md) - Setting for Lermontov's major works
+- [#Pushkin](PUSHKIN.md) - Russia's greatest poet, died 1837
+- [#Lord_Byron](../../people/aristocracy/LORD_BYRON.md) - Major influence on Russian Romantics
+- [#Grand_papa](../../people/family/GRAND_PAPA.md) - Marie's grandfather, Lermontov's contemporary
+- [#Caucasus](../../places/travel/CAUCASUS.md) - Setting for Lermontov's major works
 
 ## Sources
 

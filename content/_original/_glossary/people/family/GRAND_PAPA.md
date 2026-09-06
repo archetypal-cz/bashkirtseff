@@ -103,11 +103,11 @@ Marie saw Grand-papa as someone who wasted his considerable gifts:
 
 ### Family Authority - Limited and Defied
 
-**Sons' Marriages**: "Presque tous ses fils se sont mariés sans le lui dire" (Almost all his sons married without telling him). When [#Alexandre](Alexandre.md) married [#Nadine_Martinoff](Nadine_Martinoff.md), Grand-papa was furious, but this defiance was a pattern.
+**Sons' Marriages**: "Presque tous ses fils se sont mariés sans le lui dire" (Almost all his sons married without telling him). When [#Alexandre](../core/ALEXANDRE.md) married [#Nadine_Martinoff](../mentioned/NADINE_MARTINOFF.md), Grand-papa was furious, but this defiance was a pattern.
 
-**Absent from Schemes**: When the family gathered at [#Akhtyrka](Akhtyrka.md) to entrap [#Romanoff](Romanoff.md), Grand-papa was notably absent ("tout le monde s'installe, sauf grand-papa"). This suggests either disapproval of such machinations or deliberate exclusion.
+**Absent from Schemes**: When the family gathered at [#Akhtyrka](../../places/travel/AKHTYRKA.md) to entrap [#Romanoff](../mentioned/ROMANOFF.md), Grand-papa was notably absent ("tout le monde s'installe, sauf grand-papa"). This suggests either disapproval of such machinations or deliberate exclusion.
 
-**Vassilissa's Honor**: He maintained respect for his sister [#Vassilissa_Babanine](Vassilissa_Babanine.md). When she visited, "on endimanchait la maison" (they dressed up the house as for Sunday) and her presence brought "un air de fête" (an air of celebration). After Grand-papa's departure, Alexandre and Nadine relegated Vassilissa to a miserable room where she died.
+**Vassilissa's Honor**: He maintained respect for his sister [#Vassilissa_Babanine](VASSILISSA_BABANINE.md). When she visited, "on endimanchait la maison" (they dressed up the house as for Sunday) and her presence brought "un air de fête" (an air of celebration). After Grand-papa's departure, Alexandre and Nadine relegated Vassilissa to a miserable room where she died.
 
 ## Legacy
 
@@ -154,13 +154,13 @@ For the Byronic intellectual who had spent his life in the Caucasus and Ukrainia
 
 ## Related Entries
 
-- [#Grand_maman](Grand_maman.md) - Julie Cornelius, his wife
-- [#Babanine](Babanine.md) - His family name and heritage
-- [#Georges](Georges.md) - His eldest son who caused family crisis
-- [#Maman](Maman.md) - His daughter Maria Stepanovna
-- [#Lermontov](Lermontov.md) - Contemporary Russian poet
-- [#Pushkin](Pushkin.md) - Contemporary Russian poet
-- [#Caucasus](Caucasus.md) - Where he served militarily
-- [#Poltava](Poltava.md) - Family estates location
+- [#Grand_maman](GRAND_MAMAN.md) - Julie Cornelius, his wife
+- [#Babanine](../mentioned/BABANINE.md) - His family name and heritage
+- [#Georges](GEORGES.md) - His eldest son who caused family crisis
+- [#Maman](MAMAN.md) - His daughter Maria Stepanovna
+- [#Lermontov](../../culture/literature/LERMONTOV.md) - Contemporary Russian poet
+- [#Pushkin](../../culture/literature/PUSHKIN.md) - Contemporary Russian poet
+- [#Caucasus](../../places/travel/CAUCASUS.md) - Where he served militarily
+- [#Poltava](../../places/cities/POLTAVA.md) - Family estates location
 
 %% 2025-12-07T14:35:00 RSR: Completely rewrote entry based on 1884 preface. Previous entry incorrectly identified "grand-papa" as a dance (which does exist in the 1874 entries, but is unrelated to this person). This entry is about Marie's maternal grandfather, a Byronic intellectual and family patriarch. %%

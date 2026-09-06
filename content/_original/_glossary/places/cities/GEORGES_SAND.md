@@ -81,8 +81,8 @@ By 1880, four years after Sand's death, she was already becoming a canonical fig
 
 ## Related Entries
 
-- [#Theophile_Gautier](./Theophile_Gautier.md) - Compared to Sand
-- [#Alphonse_Daudet](./Alphonse_Daudet.md) - Preferred over Sand
-- [#Valentine](./Valentine.md) - Novel Marie is reading
+- [#Theophile_Gautier](../theaters/THEOPHILE_GAUTIER.md) - Compared to Sand
+- [#Alphonse_Daudet](../../culture/literature/ALPHONSE_DAUDET.md) - Preferred over Sand
+- [#Valentine](../../people/mentioned/VALENTINE.md) - Novel Marie is reading
 - [#Women_Writers](./Women_Writers.md)
 - [#Class_Consciousness](./Class_Consciousness.md)

@@ -123,11 +123,11 @@ The Prince Imperial's death was a watershed:
 - **Historical closing**: Chapter of French history definitively ended
 
 ## Related Entries
-- [#Napoleon_III](./Napoleon_III.md) - His father, former Emperor
-- [#Imperatrice_Eugenie](./Imperatrice_Eugenie.md) - His mother, Empress Eugénie
-- [#Chislehurst](./Chislehurst.md) - Exile residence in England
-- [#Lieutenant_Carey](./Lieutenant_Carey.md) - Officer blamed for not saving him
+- [#Napoleon_III](../politicians/NAPOLEON_III.md) - His father, former Emperor
+- [#Imperatrice_Eugenie](../mentioned/IMPERATRICE_EUGENIE.md) - His mother, Empress Eugénie
+- [#Chislehurst](../mentioned/CHISLEHURST.md) - Exile residence in England
+- [#Lieutenant_Carey](../mentioned/LIEUTENANT_CAREY.md) - Officer blamed for not saving him
 - [#Bonapartist](./Bonapartist.md) - Political movement he symbolized
-- [#Cassagnac](./Cassagnac.md) - Bonapartist journalist who mourned him
-- [#Gambetta](./Gambetta.md) - Republican beneficiary of his death
-- [#Second_Empire](./Second_Empire.md) - The regime he would have restored
+- [#Cassagnac](../recurring/CASSAGNAC.md) - Bonapartist journalist who mourned him
+- [#Gambetta](../../places/churches/GAMBETTA.md) - Republican beneficiary of his death
+- [#Second_Empire](../mentioned/SECOND_EMPIRE.md) - The regime he would have restored

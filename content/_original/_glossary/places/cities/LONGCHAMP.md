@@ -49,7 +49,7 @@ Marie attended the Grand Prix with the Gavini family:
 - More interested in social gossip (Duke of Rivoli as marriage prospect) than the races
 
 ## Related Entries
-- [#Grand_Prix](./Grand_Prix.md) - The premier race held at Longchamp
-- [#Bois_de_Boulogne](./Bois_de_Boulogne.md) - The park containing Longchamp
-- [#Gavini](./Gavini.md) - Marie's companions at the races
-- [#Paris](./Paris.md) - The city
+- [#Grand_Prix](../../people/mentioned/GRAND_PRIX.md) - The premier race held at Longchamp
+- [#Bois_de_Boulogne](../social/BOIS_DE_BOULOGNE.md) - The park containing Longchamp
+- [#Gavini](../../people/mentioned/GAVINI.md) - Marie's companions at the races
+- [#Paris](PARIS.md) - The city

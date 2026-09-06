@@ -32,8 +32,8 @@ Member of the Anitchkoff family, known for erratic social behavior that Marie co
 - Russian expatriate family
 
 ## Related Entries
-- [#Anitchkoff](Anitchkoff.md) - Family connection
-- [#Marie_Anitchkoff](Marie_Anitchkoff.md) - Possible relative
+- [#Anitchkoff](../recurring/ANITCHKOFF.md) - Family connection
+- [#Marie_Anitchkoff](../../places/churches/MARIE_ANITCHKOFF.md) - Possible relative
 
 ## Research Notes
 - Mental health stigma in 1870s

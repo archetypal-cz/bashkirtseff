@@ -46,7 +46,7 @@ For Marie's generation in the 1880s, Verdi's operas represented the height of It
 
 ## Related Entries
 
-- [#Saint_Amand](./Saint_Amand.md) - Performed the entire opera
-- [#Opera](./Opera.md) - General opera culture
+- [#Saint_Amand](../../people/religious/SAINT_AMAND.md) - Performed the entire opera
+- [#Opera](../../places/theaters/OPERA.md) - General opera culture
 - [#Giuseppe_Verdi](./Giuseppe_Verdi.md)
-- [#Victor_Hugo](./Victor_Hugo.md) - Original play author
+- [#Victor_Hugo](../../people/mentioned/VICTOR_HUGO.md) - Original play author
