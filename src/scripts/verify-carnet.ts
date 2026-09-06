@@ -165,7 +165,8 @@ for (const fname of entryFiles) {
 
   // 4. Footnote integrity: refs vs defs, no duplicate defs
   const defLabels = new Map<string, number>();
-  const refLabels = new Set<string>();
+  const refLabels = new Set<string>(); // every marker, %% comments included
+  const renderedRefLabels = new Set<string>(); // only markers the reader can actually follow
   lines.forEach((line) => {
     // A definition is a LINE-START `[^id]:` (the colon is required Markdown syntax).
     const defM = line.match(/^\s*\[\^([^\]]+)\]:/);
@@ -175,15 +176,25 @@ for (const fname of entryFiles) {
       scan = line.replace(/^\s*\[\^[^\]]+\]:/, ''); // strip the def marker; remainder may still hold refs
     }
     // Everything else (incl. a mid-prose `[^id]:` followed by a real colon) is a reference.
-    const refRe = /\[\^([^\]]+)\]/g;
-    let rm: RegExpExecArray | null;
-    while ((rm = refRe.exec(scan)) !== null) refLabels.add(rm[1]);
+    const collect = (s: string, into: Set<string>) => {
+      const refRe = /\[\^([^\]]+)\]/g;
+      let rm: RegExpExecArray | null;
+      while ((rm = refRe.exec(s)) !== null) into.add(rm[1]);
+    };
+    collect(scan, refLabels);
+    // Markers inside `%% … %%` are not rendered: role comments routinely quote a
+    // footnote id when recording a renumbering ("[^1] → [^02.236.1]"), and the
+    // embedded French mirror carries the source tree's own ids. Neither obliges
+    // this file to define the label, so the ref→def check sees comments stripped.
+    // The def→ref check keeps the full set: a marker in the French mirror is still
+    // evidence the definition is anchored, so stripping there would orphan it.
+    collect(scan.replace(/%%.*?%%/g, ' '), renderedRefLabels);
   });
   for (const [label, count] of defLabels) {
     if (count > 1) add({ check: 'footnotes', severity: 'FAIL', file: fname, message: `duplicate footnote definition [^${label}] (${count}×)` });
     if (!refLabels.has(label)) add({ check: 'footnotes', severity: 'FAIL', file: fname, message: `footnote definition [^${label}] has no in-text reference` });
   }
-  for (const label of refLabels) {
+  for (const label of renderedRefLabels) {
     if (!defLabels.has(label)) add({ check: 'footnotes', severity: 'FAIL', file: fname, message: `footnote reference [^${label}] has no definition` });
   }
 
