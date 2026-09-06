@@ -454,3 +454,28 @@ The restored text has never been reviewed — it was invisible when RED, CON and
 - Open naming questions: `Machenka` (33x) vs `Mačenka` (10x), now split within single files;
   the lone `Nejencov` against the carnet's Latin-name convention; and whether "in furia"
   stays visible inside the highlight or is replaced by Czech with the Italian footnoted.
+
+### A third category of fabrication: invented detail inside a quoted source
+
+018.0327 (04-23) is worse in kind than the others and was nearly mis-stated, so the precise
+shape matters. Marie quotes a Le Derby dispatch. Baden and the steeplechase **are** genuine:
+the manuscript has Bar-le-Duc, "l'un des chevaux de l'écurie du duc de Hamilton", winning
+"plusieurs victoires importantes" in steeple chase last year, and Esterhazy known "à Bade".
+
+What the variant added **inside the quotation marks** is not in the manuscript: select company
+at the hotel, horses *trained for* Baden, and a second steeplechase worth **3,000 gulden** —
+the manuscript quote names no sum at all.
+
+So the fabrications fall into three kinds, in ascending order of seriousness for a scholarly
+edition:
+
+1. **Invented narration** — 018.0318's moonlit tableau. Bad, but visibly Marie's voice.
+2. **Invented quotation of Marie** — 018.0269, 018.0273, 018.0287, where footnotes told
+   readers the English and Italian "originals" said things she did not write.
+3. **Invented detail inside a documentary source Marie is quoting** — 018.0327. A reader has
+   no way to tell an embellished newspaper from a real one, and the embellishment is
+   plausible enough to survive scrutiny: it sits among genuine names, a genuine horse and a
+   genuine racecourse.
+
+Category 3 is the reason this text cannot simply be left in place pending a decision. The
+other two misrepresent the diary; this one manufactures period evidence.
