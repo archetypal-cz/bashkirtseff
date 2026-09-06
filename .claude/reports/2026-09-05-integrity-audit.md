@@ -437,3 +437,20 @@ Whatever this text is, it is **not a witness to the diary**, and the footnotes c
 telling readers that Marie wrote words she did not write. That argues against preserving it
 as a parallel source — but the decision remains KRR's, and every line is parked in-file
 either way.
+
+### For the cz/018 RED + CON pass
+
+The restored text has never been reviewed — it was invisible when RED, CON and the
+2026-08-08 polish pass ran — so cz/018 needs a full review, not a spot check. Carry these in:
+
+- **Reviewer notes can argue against the correct text.** At 018.0207 a RED comment pushed the
+  manuscript's "grande assemblée" toward the variant's "réunions". Check every note against
+  `_original` before deferring to it. Ten stale annotations are listed in Addendum 2026-09-06c
+  for 04-11..04-17; six more in the commit message of d3876fa88 for 04-18..04-23.
+- **018.0219** (04-12): "avant de savoir qui il est" is rendered "Než zjistím jeho *jméno*" —
+  name rather than who he is. Approved text, slight narrowing, not corrected.
+- **Coverage ratios cannot screen this carnet.** Variant blocks were found at 1.25 and 1.59.
+  Read block pairs; do not trust a metric.
+- Open naming questions: `Machenka` (33x) vs `Mačenka` (10x), now split within single files;
+  the lone `Nejencov` against the carnet's Latin-name convention; and whether "in furia"
+  stays visible inside the highlight or is replaced by Czech with the Italian footnoted.
