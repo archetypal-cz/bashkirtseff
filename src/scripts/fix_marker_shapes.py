@@ -5,7 +5,7 @@
 # ///
 """Repair the `%%` marker shapes that drop or leak text at render time.
 
-Step 2 of docs/COMMENT_MARKER_RULES.md. Four families, all of them shapes the
+Step 2 of docs/COMMENT_MARKER_RULES.md. Five families, all of them shapes the
 frontend parser (src/frontend/src/lib/content.ts) mis-reads:
 
 S1  a line wrapped in `%%` that carries further `%%` markers inside it, so the
@@ -25,6 +25,38 @@ S3  a retired `[//]: # (…)` line INSIDE a multi-line `fr` block. The block
 S4  a glossary-tag line that opens a block because its closing `%%` is missing,
     so the raw tag markdown is promoted into the paragraph. Close the line.
 
+S7  a complete `%% … %%` annotation span GLUED onto the end of a text line
+    (`<French> %% 2026-…T… LAN: … %%`). 132 lines: `_original` 97, `fr` 35.
+    The span is well formed, so `content.ts` strips it and the page is correct
+    — this family costs the reader nothing today, and no gate sees it because
+    check-comments exempts a line ending in `%%` in `fr`/`_original` (docs
+    shape S5, the bare prose closer) and this hides inside that exemption. In
+    `_original` the exemption is in fact vacuous: all 97 S5 lines there are
+    this shape, not bare closers.
+
+    What it does cost is the MODEL. Because the line does not START with `%%`,
+    comment-scanner.ts leaves `outsideText` non-empty, so the whole line —
+    annotation and all — is classified as paragraph TEXT
+    (paragraph-parser.ts:180) and the span never becomes a `Note`. 115 LAN
+    notes in `_original` are therefore invisible to `just sync`, to
+    verify-carnet and to the scaffolder, and a newly scaffolded language tree
+    silently inherits none of them. Lifting the span onto its own line makes
+    them visible again (+115 notes).
+
+    The repair is content-preserving: every span is relocated, none is ever
+    dropped, so the file's non-whitespace characters and its multiset of
+    `[#Tag]` occurrences are identical afterwards. 10 of the 17 glued glossary
+    tags do duplicate a tag line their own paragraph already carries, but
+    removing a duplicate is a separate decision with its own evidence and its
+    own approval — it does not belong inside a marker-shape repair. NOTE that
+    S1 above still carries exactly that conflation and can delete a tag.
+
+    It does NOT cause the French-into-translation leak `just sync` produces in
+    these carnets: that comes from multi-line paragraph text being re-emitted
+    as a `%% … %%` block, and is unchanged by this repair (161 of 222
+    glued-line paragraphs shift on sync both before and after it, alongside 77
+    paragraphs that never had a glued line).
+
 SPECIAL  content/_original/055/1876-03-11.md — a LAN annotation whose opening
     `%% <timestamp> LAN:` was lost, leaving the note as diary prose.
 
@@ -41,7 +73,7 @@ from _fileio import read_text, write_text_atomic  # noqa: E402
 ROOT = pathlib.Path(__file__).resolve().parents[2] / 'content'
 TREES = ['cz', 'uk', 'en', 'fr', '_original']
 SKIP_NAMES = {'TranslationMemory.md', 'CLAUDE.md', 'PROGRESS.md', 'README.md'}
-FAMILIES = ['S1', 'S3', 'S4', 'SPECIAL']
+FAMILIES = ['S1', 'S3', 'S4', 'S7', 'SPECIAL']
 
 ROLE_CODES = 'RSR|LAN|TR|OPS|RED|CON|ED|FAB|VOX|GEM|PPX|FRE|KRR'
 TIMESTAMP = r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2})?'
@@ -51,6 +83,11 @@ RE_FOOTNOTE_HEAD = re.compile(r'^\[\^[^\]]+\]:')
 RE_RETIRED_ID = re.compile(r'^\d+\.\d+$')
 RE_RETIRED_LINE = re.compile(r'^\[//\]:\s*#\s*\((.*)\)\s*$', re.DOTALL)
 RE_PARAGRAPH_ID = re.compile(r'^%%\s*(?:\d+|GLO_[A-Z0-9_]+)\.\d+\s*%%$')
+# The LAST `%% … %%` span on a line, with the text that precedes it. The span
+# body may not itself contain `%%`, so a quoted marker inside a role comment
+# (docs section (d)) never matches.
+RE_TRAILING_SPAN = re.compile(r'^(.*[^%\s])\s*%%((?:[^%]|%(?!%))*)%%$')
+RE_CARNET_DIR = re.compile(r'^\d{3}$')
 
 SPECIAL_PATH = '_original/055/1876-03-11.md'
 SPECIAL_OLD = ("Caccia-Club z...z...z.. Zucchini - Marie's onomatopoeia "
@@ -239,6 +276,88 @@ def fix_s1(lines, log):
     return out
 
 
+def peel_trailing_spans(stripped):
+    """Split `<text> %% A %% %% B %%` into ('<text>', ['%% A %%', '%% B %%']).
+
+    Returns (None, None) unless EVERY peeled span is a self-contained
+    annotation — a role comment, a glossary tag or a footnote definition — and
+    real text is left in front of them. A trailing span of loose prose is left
+    alone: the line is then either a bare S5 closer or a shape this family has
+    no opinion about.
+    """
+    head, spans = stripped, []
+    while True:
+        match = RE_TRAILING_SPAN.match(head)
+        if not match:
+            break
+        body = match.group(2).strip()
+        if segment_kind(body) not in ('comment', 'tag', 'footnote'):
+            return None, None
+        spans.insert(0, f'%% {body} %%')
+        head = match.group(1).rstrip()
+    if not spans or not head or head.startswith('%%'):
+        return None, None
+    return head, spans
+
+
+def fix_s7(relative, lines, log):
+    """Lift an annotation span off the end of the text line it is glued to.
+
+    Entry files only. `content/fr/_non_french_passages.md` is a bulleted work
+    manifest whose 1,482 rows all end in a quoted LAN span (`- **005/…** para
+    005.0210 [ITALIAN]: %% … %%`); those are list items, not diary text, and
+    splitting them would shred the list.
+    """
+    if not RE_CARNET_DIR.match(pathlib.PurePosixPath(relative).parent.name):
+        return lines
+    out, in_block = [], False
+    for number, line in enumerate(lines, 1):
+        stripped = line.strip()
+        if in_block:
+            if not stripped.endswith('%%'):
+                out.append(line)
+                continue
+            # The line that closes an `fr` source block can carry a glued span
+            # too (10 lines). There the block's closing `%%` is the one at the
+            # very END, so the annotation is swallowed INTO the block, and
+            # content.ts — seeing a timestamped role code inside it — discards
+            # the block as an annotation (fr 101.0497). Those blocks happen not
+            # to reach the page either way, because the paragraph also carries
+            # a bare text line that wins, so this is a model repair like the
+            # rest of S7, not a rendering one. Close the block on the text and
+            # put the span after it, as fix_s3 does for a trapped `[//]:` line.
+            in_block = False
+            head, spans = peel_trailing_spans(stripped)
+            if head is None:
+                out.append(line)
+                continue
+            out.append(head + ' %%')
+            out.extend(spans)
+            log.append(('S7-block', number, f'{len(spans)} span(s) lifted'))
+            continue
+        if opens_block(stripped):
+            in_block = True
+            out.append(line)
+            continue
+        # A line that STARTS with `%%` is S1's business, not this family's.
+        if stripped.startswith('%%') or not stripped.endswith('%%'):
+            out.append(line)
+            continue
+        head, spans = peel_trailing_spans(stripped)
+        if head is None:
+            out.append(line)
+            continue
+        # Every span is relocated, never dropped — including a tag the
+        # paragraph already carries verbatim. A marker-shape repair moves
+        # characters between lines and does nothing else; deciding that a
+        # duplicate tag is redundant is a separate call needing its own
+        # evidence, and it must not ride along inside this one.
+        out.append(head)
+        out.extend(spans)
+        log.append(('S7', number, f'{len(spans)} span(s) lifted'))
+    return out
+
+
 def fix_special(relative, lines, log):
     if relative != SPECIAL_PATH:
         return lines
@@ -259,6 +378,8 @@ def repair(relative, lines, families, log):
         lines = fix_s3(lines, log)
     if 'S1' in families:
         lines = fix_s1(lines, log)
+    if 'S7' in families:
+        lines = fix_s7(relative, lines, log)
     if 'SPECIAL' in families:
         lines = fix_special(relative, lines, log)
     return lines
