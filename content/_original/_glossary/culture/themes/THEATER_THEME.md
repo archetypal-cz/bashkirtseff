@@ -169,7 +169,7 @@ The theatrical metaphor extends to her understanding of social life itself. When
 While this entry covers theater broadly, opera occupied a distinct social and artistic space. In Nice, the opera season was the pinnacle of winter society. In Rome, the opera houses (including the Teatro Valle and the Apollo) were stages for aristocratic display during carnival. In Paris, the [Palais Garnier](https://en.wikipedia.org/wiki/Palais_Garnier) -- inaugurated in January 1875, during Marie's adolescence -- was the supreme monument to the inseparability of art and social spectacle.
 
 %% GLO_THEATER_THEME.0036 %%
-Marie attended opera throughout her life: Donizetti's *La Favorita* and Verdi's *Un ballo in maschera* in Nice, Gounod's *Faust* and Thomas's *Mignon* in Nice and Rome, and various performances at the Comedie-Francaise and other Paris venues. Music moved her profoundly -- at the Nice opera on New Year's Day 1874, she nearly cried as the music conjured Hamilton's image. For broader coverage of Marie's musical life, see the [#Music](MUSIC.md) thematic entry and the [#Italian_Opera_Nice](../../places/theaters/ITALIAN_OPERA_NICE.md) venue entry.
+Marie attended opera throughout her life: Donizetti's *La Favorita* and Verdi's *Un ballo in maschera* in Nice, Gounod's *Faust* and Thomas's *Mignon* in Nice and Rome, and various performances at the Comedie-Francaise and other Paris venues. Music moved her profoundly -- at the Nice opera on New Year's Day 1874, she nearly cried as the music conjured Hamilton's image. For broader coverage of Marie's musical life, see the [#Music](MUSIC_THEME.md) thematic entry and the [#Italian_Opera_Nice](../../places/theaters/ITALIAN_OPERA_NICE.md) venue entry.
 
 %% GLO_THEATER_THEME.0037 %%
 ## The Stars of the Stage
@@ -261,7 +261,7 @@ The contrast between the Nice and Paris theater scenes shaped Marie's cultural d
 - [#Moliere](../theater/MOLIERE.md) -- The classical dramatist, frequently performed
 
 ### Thematic
-- [#Music](MUSIC.md) -- Music thematic tag (overlapping domain)
+- [#Music](MUSIC_THEME.md) -- Music thematic tag (overlapping domain)
 - [#Fashion](FASHION.md) -- Theater dress as fashion display
 - [#Fourth_Wall](FOURTH_WALL.md) -- Marie's meta-awareness of performance
 

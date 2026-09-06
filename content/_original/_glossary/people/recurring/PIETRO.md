@@ -39,7 +39,7 @@ Marie met Pietro at a masquerade in Rome in 1876. Discussion of marriage between
 
 ## Related Entries
 
-- [#Antonelli_Cardinal](../../people/religious/ANTONELLI_CARDINAL.md) - His uncle, Vatican Secretary of State
-- [#Larderel](../../people/recurring/LARDEREL.md) - Alexander de Larderel, rival suitor
+- [#Antonelli_Cardinal](../mentioned/CARDINAL_ANTONELLI.md) - His uncle, Vatican Secretary of State
+- [#Larderel](../mentioned/LARDEREI.md) - Alexander de Larderel, rival suitor
 
 %% 2026-02-11T12:35:00 RSR: Per Kernberger (2013), Pietro Antonelli was nephew of Cardinal Giacomo Antonelli (Vatican Secretary of State under Pius IX). Family: father Luigi, mother Camilla née Folchi, brothers Domenico ("Savage") and Paolo ("Lion"). Nicknames: Pazzerello, Monk, Cardinalino, Pietruccio. Enriched from stub with Kernberger's glossary and chronology data. %%

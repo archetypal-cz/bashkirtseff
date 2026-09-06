@@ -36,4 +36,4 @@ Further research needed to determine:
 
 ## Related Entries
 - [#Gavini](GAVINI.md) - Mentioned in similar social contexts
-- [#Daillens](./Daillens.md) - Another frequent companion
+- [#Daillens](DE_DAILLENS.md) - Another frequent companion

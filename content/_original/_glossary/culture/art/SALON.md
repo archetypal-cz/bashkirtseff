@@ -69,7 +69,7 @@ Marie's entries from April 30-May 1, 1882 describe:
 
 ## Related Entries
 - [#Julian](../../places/schools/JULIAN.md) - Her teacher at Académie Julian
-- [#Breslau](./Breslau.md) - Rival artist
+- [#Breslau](../../people/mentioned/LOUISE_BRESLAU.md) - Rival artist
 - [#Bastien_Lepage](../../people/recurring/BASTIEN_LEPAGE.md) - Fellow exhibitor
 - [#Carolus_Duran](../../people/artists/CAROLUS_DURAN.md) - Society portrait painter
 - [#Paris](../../places/cities/PARIS.md) - Location

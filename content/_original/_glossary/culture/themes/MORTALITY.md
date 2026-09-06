@@ -183,7 +183,7 @@ The distinction between MORTALITY (broad, including figurative) and DEATH (narro
 - [DISEASES](DISEASES.md) -- Specific named illnesses
 - [EMOTIONS](EMOTIONS.md) -- Emotional self-analysis
 - [PHILOSOPHY](PHILOSOPHY.md) -- Existential meditation
-- [JULES_BASTIEN_LEPAGE](../../people/mentioned/JULES_BASTIEN_LEPAGE.md) -- Fellow artist dying alongside Marie
+- [JULES_BASTIEN_LEPAGE](../../people/recurring/BASTIEN_LEPAGE.md) -- Fellow artist dying alongside Marie
 - [META_DIARY](META_DIARY.md) -- Marie's reflections on the diary as posthumous document
 
 %% 2026-02-12T00:00:00 RSR: Created broad thematic tag capturing Marie's figurative and literal death vocabulary. Deliberately includes hyperbolic usage -- this IS the theme. %%
