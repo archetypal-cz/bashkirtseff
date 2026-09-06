@@ -379,3 +379,61 @@ Only tr-cz-018-A's six entries were scanned this way; 04-18..04-23 have not been
   principle.
 - 04-18: whether "in furia" stays visible inside the highlight (as the approved text has it)
   or is replaced by Czech with the Italian footnoted, per `content/cz/CLAUDE.md`.
+
+## Addendum 2026-09-06d — what the cz/018 variant text actually contains
+
+Inventory of Czech removed from 04-18..04-23 that has **no manuscript counterpart**. All of
+it is also parked in-file in `%% … %%` comments, so this is an index, not the only copy.
+(04-11..04-17 was handled by preserving in place from the start; its displaced text sits in
+those files under `%% Dřívější český text: … %%`.)
+
+**The variant is not a faithful abridgement. It contradicts the manuscript on facts, and
+invents detail.** That bears directly on the editorial decision, so the cases are grouped by
+kind rather than by block.
+
+### It reverses or fabricates facts
+
+- **018.0284** — Walitsky's duel is rendered as already fought where the manuscript has it
+  *pending*; the slap comes *from* the other man where the manuscript has **Walitsky giving
+  it**; Marie's "(Une histoire que je peux oublier.)" is dropped; and two sentences are added
+  that exist nowhere in the source: "a on se podíval – hádejte kam? Jaká drzost!" and
+  "Jak hrdý musí člověk být, když se bije za dámu!"
+- **018.0307** — conflates two separate statements: the ragpicker remark is about **Hélène
+  and Lise**; the Boutowskys are a different sentence about relations improving.
+- **018.0286** — "La Musette a Viviani nás zvou": in the manuscript **Viviani alone** invites.
+- **018.0310** — "poslouchali mě" (they listened to me); the manuscript has the Filimonoffs
+  *wanting* to hear.
+- **018.0317** — "Strašná bitva s mámou": there is no battle in the manuscript.
+- **018.0314** — framed as hearsay about Paris and furniture; the manuscript has Marie's own
+  Saturday departure with her mother.
+
+### It invents whole passages
+
+- **018.0318** — an entire poet's tableau ("Na balkóně, na pozadí měsíčního kouzla, půvabné
+  dítě v bílých šatech…"). The manuscript has her kneeling by the balcony door, the dress in
+  wide folds, the moon on her arms.
+- **018.0269**, **018.0270**, **018.0281**, **018.0288** ("to člověku stoupne do hlavy", a
+  bare gallicism), **018.0293**, **018.0306** ("Ples" where the manuscript says only
+  "Le soir chez les Howard").
+
+### It fabricates quoted "originals"
+
+Most serious for a scholarly edition: footnote definitions quoted source text that does not
+exist.
+- `[^18.269.1]` claimed the English begins "I had a new dress, it was very nice. There were
+  many bands of music…" — the genuine English begins mid-sentence at "bands of music from
+  Menton".
+- `[^18.273.1]` quoted a long Italian passage ("egl'altri sono uguali e non mi piacciono,
+  nessuno mi garba, prenderò il primo che verrà…") absent from the manuscript, which has only
+  "gli altri sono uguali, eccettuati certamente, qualche antipatia irresistibile".
+- `[^18.287.1]` quoted "I was furious, it's so dull and ridiculous"; the manuscript reads
+  "I was furious and I said a few words to show it to her."
+
+### Implication for the editorial decision
+
+A published redaction condenses; it does not reverse who struck whom, invent a moonlit
+tableau, or attribute quoted English and Italian to a manuscript that does not contain them.
+Whatever this text is, it is **not a witness to the diary**, and the footnotes citing it were
+telling readers that Marie wrote words she did not write. That argues against preserving it
+as a parallel source — but the decision remains KRR's, and every line is parked in-file
+either way.
