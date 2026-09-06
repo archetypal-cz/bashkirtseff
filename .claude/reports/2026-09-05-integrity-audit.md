@@ -325,3 +325,57 @@ me fera pas dire`), `ridcule`, `impossbible`, `compre-rendu` (→ `compte-rendu`
 translator fixes these independently and silently, so the source keeps its errors and the
 corrections are never shared. Compare the recurring `!!` → `I!`/`II`/`11!` artefact already
 logged in the uk wave.
+
+## Addendum 2026-09-06c — cz/018 provenance, corrected and narrowed
+
+**The earlier "garçonnet" inference in Addendum 2026-09-06 was WRONG.** I claimed `_original`
+glossed a word existing only in the condensed text, implying source-side contamination. It
+does not: `content/_original/018/1874-04-11.md:42` reads "…quel charme il peut trouver dans
+la société d'un **garçonnet** comme Paul." The word occurs twice in that file — in the LAN
+note and in the manuscript line it annotates. Disregard that inference.
+
+**What the evidence actually supports is sharper and date-separable.** Scanning every role
+comment in cz/018 for French fragments absent from `_original`:
+
+- **Every** comment quoting condensed-only French is dated **2026-02-16 or later** — TR, GEM,
+  RED, FAB.
+- **No** LAN (2026-01-30) or RSR (2025-06/07) comment quotes anything absent from
+  `_original`; their quotes match modulo diacritics ("lache"/"lâche", "o prodige"/"ô prodige").
+
+The clean illustration is block **018.0231**: the LAN note glosses "grandeurs passées"
+(3× in `_original/018/1874-04-13.md`) while the GEM note on the *same block* quotes
+"anciennes splendeurs" — **absent from the entire `_original` tree**. Two annotators, one
+paragraph, two different source texts.
+
+**Conclusion: source preparation ran on `_original`. The condensed text entered at the cz
+translation-file scaffolding step, and everything from 2026-02-16 onward reviewed against
+it.** So the source-side LAN/RSR annotations are probably sound, and the search for how this
+happened should focus on the cz scaffolding step, not on source prep.
+
+### Reviewer notes in cz/018 can argue *against* the correct text
+
+At **018.0207** a RED comment (2026-06-13) corrected good text *toward* the condensed
+reading, pushing the manuscript's "grande assemblée" to "réunions". Anyone reviewing this
+carnet must check reviewer notes against `_original` before deferring to them.
+
+### Stale annotations in cz/018 — all translation-side, none edited
+
+04-11 018.0199 FAB ("Quelle question !") · 018.0204 TR+RED (discuss "crachat", which is real
+but sits in 0205 — the comment landed on the wrong block) · 018.0206 RED ("lorsque l'office
+finit nous étions debout depuis") · 018.0207 RED ("réunions", see above) · 04-12 018.0216 FAB
+×2 ("nous nous injurions", "n'avoir pas de suite dans les idées") · 04-13 018.0221 FAB
+("J'ai fait") · 018.0231 GEM ("anciennes splendeurs") · 04-15 018.0250 FAB ×2 ("retenir",
+"y a vu du sien") · 018.0255 RED ("il nous faudrait") · 04-16 018.0258 RED ("au Havre" —
+no Le Havre anywhere in carnet 018).
+
+Only tr-cz-018-A's six entries were scanned this way; 04-18..04-23 have not been.
+
+### Open items for KRR beyond the provenance question
+
+- `Machenka` (33×) vs `Mačenka` (10×) coexist in cz/018, now split *within* single files
+  after the 2026-08-08 FAB pass unified only 04-15.
+- The lone Czech-phonetic `Nejencov` against the carnet's Latin-name convention
+  (Walitsky, Anitchkoff, Le Bec) — the same FAB pass normalised "Anitčkovových" on that
+  principle.
+- 04-18: whether "in furia" stays visible inside the highlight (as the approved text has it)
+  or is replaced by Czech with the Italian footnoted, per `content/cz/CLAUDE.md`.
