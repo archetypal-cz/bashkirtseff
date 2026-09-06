@@ -202,3 +202,65 @@ length-based metric on those blocks lies, in every language.
 - "Silent structural repairs": 22 glue blocks were fixed by polish passes without a
   STRUKTURA/STRUCTURAL comment. Polishers should log any move of text between a footnote
   and its paragraph.
+
+---
+
+## Addendum 2026-09-06 — outcomes, and two measurement traps
+
+The 20 entries this audit flagged were worked on 2026-09-06. Outcome:
+
+| entry | verdict | result |
+|---|---|---|
+| cz/018 ×12 | real, but NOT a truncation — see below | in progress |
+| cz/014/1873-12-18 | real omission (~2,880 chars of French untranslated) | restored, 0.37 → 0.86 |
+| cz/011/1873-10-21 | real omission (452 chars); embedded French was NOT stale | restored, 0.63 → 0.87 |
+| cz/082/1878-08-14 | **not a defect** — artifact of the 081/082 duplication | unchanged, correctly |
+| en/102 ×3 | real: 8 consecutive paragraphs missing in 12-01 alone | restored to 98-103% (919cb7669) |
+| en/091 ×2 | **false positives** — see trap 2 | unchanged apart from a 1-char fix |
+
+### cz/018 is not a stale snapshot — it is a different French text
+
+The embedded French that cz/018 was translated from is **not a truncated copy of the
+manuscript but a condensed, rewritten one**. Block 018.0198 embedded
+"Nejentsov, par le petit garçonnet de Paul, a envoyé un bouquet pour Moussia";
+`_original` has "Il y a deux ou trois jours que Paul m'a donné un bouquet de
+marguerites… Un certain *Nejentsov* qui ne quitte pas Paul, a, selon nos conjectures
+envoyé ce bouquet…" — different sentences, and the condensed one gets the relationships
+wrong. In 04-12 the Czech names Vienna, republicans and Monte Carlo, none of which are in
+the manuscript paragraph.
+
+Provenance is unresolved and worth someone's attention: `_original/018/1874-04-11.md` has
+held the manuscript text in **every commit in its history**, so the condensed text never
+came from there — yet `_original` carries a LAN annotation glossing "garçonnet", a word
+only in the condensed version. So some source-side annotation was written against it too.
+cz/018 has zero `Censored_1887` tags, so this was not a deliberate censored-edition
+inclusion. **Open editorial question for KRR: is that condensed French a source worth
+keeping, reconciling, or discarding?** Displaced Czech is being preserved in `%%` comments
+rather than deleted, so the decision stays open.
+
+### Trap 1 — never measure a working tree that already contains the fix
+
+I re-measured coverage while an agent's restoration was already on disk, read its own
+restored text as evidence that nothing had been missing, and ordered a revert that would
+have deleted eleven real paragraphs. Always measure `git show HEAD:<file>`. This is the
+same circularity as the underlying bug: reviewers validating a translation against a copy
+embedded in the file being reviewed.
+
+### Trap 2 — paragraph-ID misalignment mimics missing text
+
+en/091's 0.40 / 0.65 readings were **not** missing text. In four files —
+`1881-05-10`, `05-11`, `05-12`, `05-14` — the date heading is given its own block and
+takes the first ID, so every block from the second on carries the previous block's ID and
+one ID appears twice. Any ID-keyed comparison then lines the source's first large
+paragraph up against a block holding only `# Wednesday, 11 May 1881`. `verify-carnet`
+already reports this as an id-alignment WARN.
+
+**Open question for KRR:** does a date heading get its own paragraph ID (as en/091 does
+throughout) or share the first paragraph's (as `_original` does)? It needs one carnet-wide
+decision, not four patches — which is why the four files were left alone.
+
+Related: a block-length extractor that assumes one French line per block also
+under-reads any block whose French spans several `%%` lines or is interrupted by an inline
+`%% LAN … %%` comment (the cause of a spurious "82% stale" reading on cz/011, where all 19
+blocks were in fact byte-identical to source). Use `src/scripts/check_footnote_glue.py`,
+which is validated, rather than ad-hoc scripts.
