@@ -264,3 +264,64 @@ under-reads any block whose French spans several `%%` lines or is interrupted by
 `%% LAN … %%` comment (the cause of a spurious "82% stale" reading on cz/011, where all 19
 blocks were in fact byte-identical to source). Use `src/scripts/check_footnote_glue.py`,
 which is validated, rather than ad-hoc scripts.
+
+## Addendum 2026-09-06b — five defects found by reading, none fixed
+
+Surfaced by tr-en-missing while reading en/091 and en/102 against the French. All
+verified independently before recording. **Nothing below was changed.** Each needs a
+decision or a mechanical pass, not entry-by-entry translation work.
+
+### A. Translations drop the source's glossary tags — corpus-wide
+
+Comparing the tag set of each `_original` entry against its translation:
+
+| tree | files compared | files dropping source tags | share |
+|---|---|---|---|
+| cz | 3738 | 803 | 21% |
+| uk | 3738 | 756 | 20% |
+| fr | 3738 | 1299 | 34% |
+| **en** | 3738 | **1755** | **46%** |
+
+Per carnet the concentration can be far higher: en/091 drops tags in 58 of 71 files (82%),
+en/102 in 44 of 88. What is dropped is overwhelmingly `culture/themes/` — EMOTIONS,
+MORTALITY, PHILOSOPHY, READING, RELIGION, LOVE, MUSIC_THEME, POLITICS, HEALTH. People and
+place tags are carried faithfully. A few files also ADD tags the source lacks (en 8 in 102).
+
+**Invisible to the current gate**: `verify-carnet`'s link and glossary-depth checks
+validate the tags that are present, never the ones that are absent. Impact depends on
+whether theme tags drive anything reader-facing; if they do, this is a large hole.
+
+### B. Léon Gambetta is filed as a church (source-side, affects every language)
+
+`content/_original/_glossary/places/churches/GAMBETTA.md` has `name: Léon Gambetta`,
+`type: Place`, `category: places/churches`. There is no `people/*/GAMBETTA.md`. Entries tag
+him from that path in sentences about his rumoured marriage, so the referent is
+unambiguously the politician. **306 files reference the churches path**, so recategorising
+means a path rewrite across the corpus — not a quick fix, and it must be done in one pass.
+
+### C. An orphaned LAN annotation, possibly marking a hole in the French
+
+`content/_original/091/1881-05-11.md:29` carries
+`LAN: "l'innocente Isabelle" - ironic reference to Queen Isabella, possibly satirical`.
+The string `Isabelle` occurs exactly once in that file — inside the annotation itself. It
+is nowhere in the French it annotates, though the paragraph does discuss
+`Cette chose de la Reine d'Espagne`. Either the note drifted from a neighbouring entry, or
+the phrase dropped out of the source paragraph. Worth checking against the manuscript.
+
+### D. Blackened-word brackets use seven different wordings in en
+
+Across en/091 and en/102, 52 renderings of `[Mots noircis: …]` appear as:
+`[words blackened` (20), `[Words blackened` (12), `[word blackened` (9),
+`[word blacked out` (5), `[words blacked out` (3), `[Words blacked out` (2),
+`[word blackened]` (1). Reader-visible editorial furniture; one mechanical normalisation
+pass over the English tree. No translator will fix this entry by entry.
+
+### E. Manuscript garbles in `_original` that each language silently normalises
+
+Nine confirmed in five files: `c'était moi II!` (→ `!!`), `ftuin dernier)` (→ `(juin
+dernier)`), `C'en serais désolée)` (→ `(J'en serais désolée)`), `un ou deux être` (→
+`êtres`), `une de ces tâches` (→ `taches`, blemishes not tasks), `me fera pas dire` (→ `ne
+me fera pas dire`), `ridcule`, `impossbible`, `compre-rendu` (→ `compte-rendu`). Each
+translator fixes these independently and silently, so the source keeps its errors and the
+corrections are never shared. Compare the recurring `!!` → `I!`/`II`/`11!` artefact already
+logged in the uk wave.
