@@ -165,6 +165,31 @@ export function generateReportFilename(
 }
 
 /**
+ * Build the Results table rows for ONE language tree.
+ *
+ * The report is scoped to a single `target_language`, so the rows must come
+ * from that tree only. An earlier version looped over every language the
+ * session touched and pushed a `| carnet | … |` row per (lang, carnet) pair;
+ * since the row carries no language column, a carnet edited in cz, uk and en
+ * appeared three times (see .claude/reports drafts of 2026-09-05..07, rows
+ * repeated 3-5x). Each carnet is emitted exactly once, in sorted order.
+ */
+export function buildResultsRows(
+  lang: string,
+  carnets: string[],
+  count: (lang: string, carnet: string) => number = countEntries
+): string[] {
+  const seen = new Set<string>();
+  const rows: string[] = [];
+  for (const carnet of [...carnets].sort()) {
+    if (seen.has(carnet)) continue;
+    seen.add(carnet);
+    rows.push(`| ${carnet} | ${count(lang, carnet)} | — | — | — |`);
+  }
+  return rows;
+}
+
+/**
  * Generate a draft report stub from session data
  */
 export async function generateReportStub(): Promise<string | null> {
@@ -181,20 +206,11 @@ export async function generateReportStub(): Promise<string | null> {
   const skillNames = pipeline.length > 0 ? pipeline : ['translator'];
   const skillVersions = getSkillVersions(skillNames);
 
-  // Build results table
-  const resultsRows: string[] = [];
-  for (const lang of work.languages) {
-    const carnets = work.carnets[lang] || [];
-    for (const carnet of carnets) {
-      const entries = countEntries(lang, carnet);
-      resultsRows.push(
-        `| ${carnet} | ${entries} | — | — | — |`
-      );
-    }
-  }
-
+  // The report describes ONE language (frontmatter target_language), so the
+  // results table lists that tree's carnets only — see buildResultsRows.
   const primaryLang = work.languages[0];
   const allCarnets = work.carnets[primaryLang] || [];
+  const resultsRows = buildResultsRows(primaryLang, allCarnets);
   const filename = generateReportFilename(primaryLang, allCarnets);
 
   const skillHashLines = Object.entries(skillVersions)
