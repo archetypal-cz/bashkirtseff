@@ -125,7 +125,7 @@ Established terminology for consistent translation across carnets.
 | duc de Hamilton | герцог Гамільтон | Marie's obsession, carnet 001+ |
 | Boreel | Борель | Young suitor in Nice |
 | Gioia | Джоя | Duke's mistress |
-| Mlle Collignon | панна Коліньйон | English governess |
+| Mlle Collignon | панна Коліньйон | French governess who taught English (not English; see glossary COLLIGNON and the rows below — corrected 2026-09-07) |
 | Sophie | Софі | Companion |
 | Hélène | Елен | Friend |
 | Howard | Говарди | English family in Nice |
