@@ -218,7 +218,7 @@ Paul de Cassagnac continued his political and journalistic career through the 18
 - [#Le_Pays](../mentioned/LE_PAYS.md) -- Bonapartist newspaper Cassagnac edited
 - [#Politics](../../culture/themes/POLITICS.md) -- Comprehensive entry on Marie's political world (covers Cassagnac's parliamentary career extensively)
 - [#Love](../../culture/themes/LOVE.md) -- Thematic entry covering the Cassagnac relationship in context of Marie's romantic life
-- [#Gambetta](../../places/churches/GAMBETTA.md) -- Republican leader Marie later preferred to Cassagnac
+- [#Gambetta](../politicians/GAMBETTA.md) -- Republican leader Marie later preferred to Cassagnac
 - [#Boulevard_Malesherbes](../../places/social/BOULEVARD_MALESHERBES.md) -- Location of Cassagnac's residence (#161)
 
 %% GLO_CASSAGNAC.0058 %%

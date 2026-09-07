@@ -107,7 +107,7 @@ Anton Chekhov, himself suffering from tuberculosis, spent significant time in Ya
 - [#Maman](../../people/family/MAMAN.md) - Marie's mother who traveled to Crimean sea baths
 - [#Grand_maman](../../people/family/GRAND_MAMAN.md) - Cared for Marie while her mother visited Crimea
 - [#Madame_Brenne](../../people/mentioned/MADAME_BRENNE.md) - French governess who died in Crimea from tuberculosis (1868)
-- [#St_Petersburg](../cities/ST_PETERSBURG.md) - The imperial capital, contrasted with provincial Crimean resort society
+- [#PETERSBURG](../cities/PETERSBURG.md) - The imperial capital, contrasted with provincial Crimean resort society
 - [#Russia](../countries/RUSSIA.md) - The Russian Empire, to which Crimea belonged
 - [#Nice](../cities/NICE.md) - Western European equivalent as health resort for the Bashkirtseff family
 

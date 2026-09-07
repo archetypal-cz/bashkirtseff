@@ -3,11 +3,15 @@ id: PETERSBURG
 name: Saint-Petersbourg
 aliases:
   - Saint-Petersbourg
+  - Saint-Pétersbourg
+  - Petersbourg
   - Petersburg
+  - St. Petersburg
+  - St Petersburg
 type: Place
 category: places/cities
 research_status: Moderate
-last_updated: 2026-02-12
+last_updated: 2026-09-07
 ---
 
 # Saint-Petersbourg (St. Petersburg)
@@ -60,3 +64,4 @@ The French called it "Petersbourg" or "Saint-Petersbourg." After 1914 it became 
 - [#Poltava](../../places/cities/POLTAVA.md)
 
 %% 2025-12-07T13:10:00 RSR: Updated with 1862 Georges crisis details from Book 00 preface %%
+%% 2026-09-07T16:25:00 RSR: Merged the ST_PETERSBURG redirect stub (6 links) into this entry; its aliases (St. Petersburg, St Petersburg) carried over into the frontmatter. %%

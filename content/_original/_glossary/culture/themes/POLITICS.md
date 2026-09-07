@@ -127,7 +127,7 @@ Marie's engagement with Gambetta was audacious. In January 1877, learning that G
 Gambetta's death in January 1883 profoundly affected Marie. She visited his death chamber at Ville-d'Avray with Jules Bastien-Lepage (who was painting the scene), was shocked by the miserable conditions in which he had died -- *"Comment ! C'est dans cette miserable cage dont je touche le plafond avec la main litteralement qu'on a laisse pendant six semaines un malade de la constitution de Gambetta"* (16 January 1883) -- and wept at the bullet hole in the wall. She described him as *"le grand, le noble, le calomnie, le genial Gambetta"* (13 January 1883), and at the Chamber of Deputies mourning session quoted Brisson's eulogy: *"ce chant heroique qui etait la poesie de notre lutteur depuis quinze ans, nous ne l'entendrons plus"* (29 January 1883).
 
 %% GLO_POLITICS.0039 %%
-See also: [#Gambetta](../../places/churches/GAMBETTA.md), [#Leon_Gambetta](../../people/mentioned/LEON_GAMBETTA.md)
+See also: [#Gambetta](../../people/politicians/GAMBETTA.md), [#GAMBETTA](../../people/politicians/GAMBETTA.md)
 
 %% GLO_POLITICS.0040 %%
 ### Other Political Figures

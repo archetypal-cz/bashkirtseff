@@ -3,11 +3,14 @@ id: GAMBETTA
 name: Léon Gambetta
 aliases:
   - Léon Gambetta
+  - Leon Gambetta
+  - M. Gambetta
+  - M Gambetta
   - Gambetta
-type: Place
-category: places/churches
+type: Person
+category: people/politicians
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-09-07
 ---
 # Léon Gambetta
 
@@ -105,8 +108,10 @@ Gambetta represents:
 His rise parallels Marie's own ambitions to position herself at the center of French cultural and social life.
 
 ## Related Entries
-- [#Cassagnac](../../people/recurring/CASSAGNAC.md) - Bonapartist opponent; contrast to Gambetta
+- [#Cassagnac](../recurring/CASSAGNAC.md) - Bonapartist opponent; contrast to Gambetta
 - [#Politics](../../culture/themes/POLITICS.md) - The Third Republic, the political system Gambetta shaped (thematic tag)
-- [#Chambre_des_Deputes](../social/CHAMBRE_DES_DEPUTES.md) - Where Gambetta dominated
+- [#Chambre_des_Deputes](../../places/social/CHAMBRE_DES_DEPUTES.md) - Where Gambetta dominated
 - Republicans - The political movement he led (no glossary entry)
 - Bonapartists - The faction Marie was abandoning (no glossary entry)
+
+%% 2026-09-07T16:25:00 RSR: Moved from places/churches to people/politicians (was miscategorised). Merged the empty auto-stubs LEON_GAMBETTA (46 links) and M_GAMBETTA (15 links) into this entry; they carried no content beyond the aliases now listed in the frontmatter. %%

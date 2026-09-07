@@ -129,5 +129,5 @@ The Prince Imperial's death was a watershed:
 - [#Lieutenant_Carey](../mentioned/LIEUTENANT_CAREY.md) - Officer blamed for not saving him
 - [#Politics](../../culture/themes/POLITICS.md) - The Bonapartist movement he symbolized (thematic tag)
 - [#Cassagnac](../recurring/CASSAGNAC.md) - Bonapartist journalist who mourned him
-- [#Gambetta](../../places/churches/GAMBETTA.md) - Republican beneficiary of his death
+- [#Gambetta](../politicians/GAMBETTA.md) - Republican beneficiary of his death
 - [#Second_Empire](../mentioned/SECOND_EMPIRE.md) - The regime he would have restored
