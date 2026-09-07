@@ -579,7 +579,7 @@ verify-carnet-all lang=default_lang *FLAGS:
     uv run src/scripts/check_comment_structure.py {{lang}} || fail=1
     if [ "$fail" -eq 0 ]; then echo "=== All carnets PASS ==="; else echo "=== Failures found (see above) ==="; exit 1; fi
 
-# Repo-wide broken glossary-link scan across ALL six trees (_original, cz, en, uk, fr, es — es skipped until it exists).
+# Repo-wide broken glossary-link scan across ALL six trees (_original, cz, en, uk, fr, es).
 # Applies correct path-depth per tree, prints per-tree counts + broken targets, and
 # EXITS NON-ZERO if any link is broken (CI-usable). Use this, NOT `just sync`, for link health.
 check-links-repo *FLAGS:
