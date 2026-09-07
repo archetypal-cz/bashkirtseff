@@ -531,3 +531,55 @@ did not.
 The renderer fix itself (emit `originalText` line by line, or wrap each physical line) is
 small and worth doing — it would make `sync` usable again for the stale-embedded-French
 class, which currently has no safe automated remedy.
+
+## Addendum 2026-09-07 — two corrections
+
+Both flagged by the footnote reviewer on 2026-09-07 and verified before recording. The
+earlier text is left as written; this addendum supersedes it on these two points.
+
+### Correction 1 — the en/091 paragraph-ID misalignment is first-block only
+
+Addendum 2026-09-06e says 091 has "every later ID running one ahead of source", and Trap 2
+above says the date heading takes its own ID "as en/091 does throughout". Neither is
+right. In the four files (`1881-05-10`, `05-11`, `05-12`, `05-14`) the heading is given
+its own block carrying the **same** ID as the first paragraph, so **one ID appears twice
+and every later ID is identical to the source's**. Measured on `1881-05-12`: translation
+IDs 0582, 0583, 0583, 0584, 0585 against source 0582, 0583, 0584, 0585. The other 67
+files of en/091 are aligned. `verify-carnet en 091` reports exactly those four files
+(id-alignment WARN, "N paragraph IDs vs N-1 in source; first divergence at #3/#2").
+
+What follows from it: an ID-keyed comparison mis-pairs only the heading block and the
+first paragraph in those four files, not the whole entry — which is why the 0.40 / 0.65
+coverage readings were confined to them — and the second `just sync` failure mode
+suspected for 091 in addendum 2026-09-06e was not a running offset. The heading-ID
+decision for KRR (Trap 2) stands, unchanged.
+
+### Correction 2 — Gambetta is a three-way duplicate, not a missing people entry
+
+Addendum 2026-09-06b §B says "There is no `people/*/GAMBETTA.md`". There are two:
+`people/mentioned/LEON_GAMBETTA.md` and `people/mentioned/M_GAMBETTA.md`, alongside the
+miscategorised `places/churches/GAMBETTA.md` that the 306 entry links point at. So the
+defect is a **3-way duplicate whose canonical entry is the one filed under churches**, and
+the fix is a glossary merge (`just glossary-merge`, people-side target, then the path
+rewrite of the 306 links), not the creation of a people entry. Still open; still one pass.
+
+## Addendum 2026-09-07 — outcomes
+
+**Closed today (or since the last addendum):**
+
+- `just sync` corruption — both failure modes fixed in 72a4ce7c7 (per-line French wrapping; footnote ids mapped by position, nothing added when the target already holds the note or the mapping is ambiguous); scratch re-syncs of cz/011, en/102, uk/011, cz/001 leave visible text byte-identical, splicescan empty.
+- Gate blind spots — e9076d600: a multi-line `%%` block now FAILs `verify-carnet` outside fr (the shape sync used to produce), the S5 exemption is fr-only, links are case-aware, and in `_original` a footnote definition needs a marker in the rendered French.
+- Carnet 095 footnotes — the three definitions corrected only in cz by db232c2b3 now say the same thing in `_original`, en and uk (d47e6ecd7).
+- Comment-buried footnote markers — 15 `_original` markers (001 ×14, 073 ×1) that lived only inside 2025 comments are placed in the French text (8496736a1); the gate would now reject the old state.
+- Lost footnote markers — fr 49 (2b874eace), es 27 (2feb917eb), `_original` 18 (c5a9c6f3f).
+- Glossary cross-references — 596 broken `_original` links repaired and the checker widened (f6df30e02), the last 36 glossary-internal cross-refs resolved with 6 new entries (770104d2c), 11 more retargeted (a390b1b61); `check-links-repo` case/anchor/title aware with `--selftest` (c9a97296d); shared link pattern case-aware (62c1959f9).
+- Footnote glue — detector wired into `verify-carnet` as a WARN sidecar (0c0baa9e0); the ten glued blocks repaired (4e4f0f12a).
+- Scaffold — writes the four pipeline flags (d7b7ab821), so the es/001 hand-patch is not needed again.
+
+**Still open:**
+
+- cz/018: 018.0244; the RED + CON carry-in pass over the restored text (c60e9d3c1 lists the traps); 16 stale translation-side annotations; the variant-text policy decision.
+- en/091: the heading-ID decision (Trap 2; four files left alone on purpose).
+- `_original` 081/082 sliding-window duplicates (§5).
+- uk/074/1877-08-23 last two sentences (§4); cz/063 and cz/060 items from §6.
+- Addendum 2026-09-06b, all five: A dropped theme tags corpus-wide, B Gambetta merge (see Correction 2), C the orphaned LAN annotation, D blackened-word bracket wordings in en, E manuscript garbles each tree normalises.
