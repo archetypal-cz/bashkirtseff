@@ -784,21 +784,11 @@ function parseParagraphs(content: string, language: string, context?: string): P
     for (const line of lines) {
       const trimmed = line.trim();
 
-      // Handle multi-line original block start.
-      // A line opens a block when its ONLY `%%` is the one it starts with
-      // (rule 3 in docs/COMMENT_MARKER_RULES.md §a, shared with the shared-package
-      // comment scanner and the Python tooling). A paragraph-ID line and a
-      // `%% comment %% text` splice both carry a second marker, so neither opens
-      // a block. The previous `^%%\s*\d` exclusion also refused verse blocks whose
-      // first line is a bare number (`%% 1`), losing that line and leaking the
-      // rest of the verse — 53 blocks in `fr`.
-      if (trimmed.startsWith('%%') && (trimmed.match(/%%/g) || []).length === 1) {
-        inOriginalBlock = true;
-        originalBlockLines = [trimmed.slice(2).trim()];
-        continue;
-      }
-
-      // Handle multi-line original block continuation/end
+      // Handle multi-line original block continuation/end FIRST: inside an open
+      // block only a line ENDING in `%%` closes it. A continuation line that
+      // happens to start with a lone `%%` is literal text of the block (the
+      // shared comment scanner and the Python gate read it that way); testing the
+      // opener before this branch used to discard the open block and restart it.
       if (inOriginalBlock) {
         if (trimmed.endsWith('%%')) {
           originalBlockLines.push(trimmed.slice(0, -2).trim());
@@ -817,6 +807,20 @@ function parseParagraphs(content: string, language: string, context?: string): P
         } else {
           originalBlockLines.push(trimmed);
         }
+        continue;
+      }
+
+      // Handle multi-line original block start.
+      // A line opens a block when its ONLY `%%` is the one it starts with
+      // (rule 3 in docs/COMMENT_MARKER_RULES.md §a, shared with the shared-package
+      // comment scanner and the Python tooling). A paragraph-ID line and a
+      // `%% comment %% text` splice both carry a second marker, so neither opens
+      // a block. The previous `^%%\s*\d` exclusion also refused verse blocks whose
+      // first line is a bare number (`%% 1`), losing that line and leaking the
+      // rest of the verse — 53 blocks in `fr`.
+      if (trimmed.startsWith('%%') && (trimmed.match(/%%/g) || []).length === 1) {
+        inOriginalBlock = true;
+        originalBlockLines = [trimmed.slice(2).trim()];
         continue;
       }
 

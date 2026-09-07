@@ -237,4 +237,27 @@ describe('single-line French source with an appended span', () => {
     const p = paragraph('uk', '900', '1875-04-22', '900.0070');
     expect(p!.originalText).toBe('De retour nous avons une conversation des plus animées.');
   });
+
+  it('keeps a continuation line that starts with a lone %% inside the open block', () => {
+    // Inside an open block only a line ENDING in `%%` closes it (rule 3, shared
+    // with the comment scanner and the Python gate). Testing the opener before
+    // the in-block branch used to discard the open block and restart it here.
+    writeEntry(
+      'fr',
+      '900',
+      '1875-10-07',
+      [
+        '%% 900.0080 %%',
+        '%% Première ligne du bloc',
+        '%% deuxième ligne, marqueur littéral',
+        'troisième ligne. %%',
+        '%% 2026-02-02T12:00:00 LAN: note %%',
+      ].join('\n')
+    );
+
+    const p = paragraph('fr', '900', '1875-10-07', '900.0080');
+    expect(p).toBeDefined();
+    expect(p!.text).toBe('Première ligne du bloc %% deuxième ligne, marqueur littéral troisième ligne.');
+    expect(p!.text).not.toContain('LAN');
+  });
 });
