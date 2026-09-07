@@ -236,3 +236,67 @@ test('overwrite scaffold keeps a header paragraph its glossary tag and its notes
     fs.rmSync(dir, { recursive: true, force: true });
   }
 });
+
+test('a fresh scaffold carries the four pipeline flags the gate and the frontend read', () => {
+  const { originalPath, translationPath, cleanup } = fixture();
+  try {
+    fs.rmSync(translationPath);
+    const result = new TranslationScaffold().scaffoldEntryFile(originalPath, translationPath, {
+      ...createDefaultScaffoldOptions(),
+      targetLanguage: 'es',
+    });
+    assert.equal(result.created, true, result.reason ?? 'expected the stub to be written');
+    const out = fs.readFileSync(translationPath, 'utf-8');
+    // Same key set that content/es/001 placeholders had to be hand-patched with.
+    for (const key of ['translation_complete', 'opus_reviewed', 'editor_approved', 'conductor_approved']) {
+      assert.match(out, new RegExp(`^${key}: false$`, 'm'), `missing ${key}`);
+    }
+    assert.match(out, /^status: translation_pending$/m);
+    assert.match(out, /^language: es$/m);
+  } finally {
+    cleanup();
+  }
+});
+
+test('multi-line source paragraphs and heading+body paragraphs scaffold as one %% block per line', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-scaffold-ml-'));
+  try {
+    const originalPath = path.join(dir, 'src.md');
+    const translationPath = path.join(dir, 'cz.md');
+    fs.writeFileSync(
+      originalPath,
+      [
+        '---',
+        'date: 1873-01-11',
+        'carnet: "001"',
+        '---',
+        '%% 001.0001 %%',
+        '# Samedi 11 janvier 1873',
+        'Carnet N° 1',
+        '',
+        '%% 001.0002 %%',
+        'On dîne déjà et nous recevons un scolding de maman.',
+        'Paul s\'en va barbotant comme un domestique.',
+        '',
+      ].join('\n'),
+      'utf-8'
+    );
+    const result = new TranslationScaffold().scaffoldEntryFile(originalPath, translationPath, {
+      ...createDefaultScaffoldOptions(),
+      targetLanguage: 'cz',
+    });
+    assert.equal(result.created, true, result.reason ?? 'expected the stub to be written');
+    const lines = fs.readFileSync(translationPath, 'utf-8').split('\n');
+    assert.match(lines.join('\n'), /^%% On dîne déjà et nous recevons un scolding de maman\. %%$/m);
+    assert.match(lines.join('\n'), /^%% Paul s'en va barbotant comme un domestique\. %%$/m);
+    // No line opens a block it does not close (the frontend would show its interior as prose).
+    const openers = lines.filter(l => l.trim().startsWith('%%') && (l.match(/%%/g) || []).length === 1);
+    assert.deepEqual(openers, []);
+    // 001.0001 keeps both the heading (without its `#`) and the body line, each as its own block.
+    assert.ok(lines.includes('%% Samedi 11 janvier 1873 %%'), 'heading line source missing');
+    assert.ok(lines.includes('%% Carnet N° 1 %%'), 'heading paragraph body source missing');
+    assert.ok(!lines.some(l => /^%% #/.test(l)), 'heading marker leaked into the source comment');
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});

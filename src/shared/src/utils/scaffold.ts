@@ -4,6 +4,7 @@ import * as path from 'node:path';
 import type { DiaryEntry, Paragraph, Note } from '../models/index.js';
 import { createParagraph, createDiaryEntry } from '../models/index.js';
 import { ParagraphParser } from '../parser/paragraph-parser.js';
+import { renderSourceComment } from '../renderer/paragraph-renderer.js';
 import { createFrontmatter } from '../parser/frontmatter.js';
 import { SYNC_ROLES } from './sync.js';
 import { localizeGlossaryPath } from './glossary-path.js';
@@ -242,7 +243,14 @@ export class TranslationScaffold {
     };
 
     // Only a brand-new stub is "pending" — never stamp that onto worked-on files.
+    // The four pipeline flags are what `just verify-carnet` and the frontend
+    // read (the gate requires translation_complete); es/001 placeholders had to
+    // be hand-patched with exactly this key set when the scaffold omitted them.
     if (!existingTranslation) {
+      fromSource.translation_complete = false;
+      fromSource.opus_reviewed = false;
+      fromSource.editor_approved = false;
+      fromSource.conductor_approved = false;
       fromSource.status = 'translation_pending';
     }
 
@@ -366,9 +374,11 @@ export class TranslationScaffold {
         if (hasRealId) {
           lines.push(`%% ${para.id} %%`);
         }
-        // Comment with original header text (without the # prefix)
+        // Comment with original header text (without the # prefix), one block
+        // per physical line — a heading paragraph that also carries body text
+        // (001.0001: date heading + "Carnet N° 1") must not become a two-line block
         if (originalHeaderText) {
-          lines.push(`%% ${originalHeaderText} %%`);
+          lines.push(...renderSourceComment(originalHeaderText));
         }
         // A real `%% id %%` opens the cluster, so its tags and notes belong with
         // it, ahead of the heading line — where the paragraph renderer and the
@@ -388,9 +398,9 @@ export class TranslationScaffold {
       // 1. Paragraph ID (MUST come first)
       lines.push(`%% ${para.id} %%`);
 
-      // 2. French original in comment
+      // 2. French original in comment, one `%% … %%` block per physical line
       if (para.originalText) {
-        lines.push(`%% ${para.originalText} %%`);
+        lines.push(...renderSourceComment(para.originalText));
       }
 
       // 3./4. Glossary links, then notes (sorted by timestamp)
