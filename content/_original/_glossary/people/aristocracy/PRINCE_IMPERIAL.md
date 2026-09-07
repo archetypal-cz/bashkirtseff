@@ -127,7 +127,7 @@ The Prince Imperial's death was a watershed:
 - [#Imperatrice_Eugenie](../mentioned/IMPERATRICE_EUGENIE.md) - His mother, Empress Eugénie
 - [#Chislehurst](../mentioned/CHISLEHURST.md) - Exile residence in England
 - [#Lieutenant_Carey](../mentioned/LIEUTENANT_CAREY.md) - Officer blamed for not saving him
-- [#Bonapartist](./Bonapartist.md) - Political movement he symbolized
+- [#Politics](../../culture/themes/POLITICS.md) - The Bonapartist movement he symbolized (thematic tag)
 - [#Cassagnac](../recurring/CASSAGNAC.md) - Bonapartist journalist who mourned him
 - [#Gambetta](../../places/churches/GAMBETTA.md) - Republican beneficiary of his death
 - [#Second_Empire](../mentioned/SECOND_EMPIRE.md) - The regime he would have restored

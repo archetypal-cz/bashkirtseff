@@ -3,10 +3,12 @@ id: ALEXIS
 name: Alexis
 aliases:
   - Alexis
+  - Alexis Karageorgevitch
+  - Prince Alexis Karageorgevitch
 type: Person
 category: people/recurring
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-09-07
 ---
 # Alexis
 
@@ -16,6 +18,9 @@ last_updated: 2026-03-06
 **Type**: Person/Place
 
 ## Overview
+
+%% 2026-09-07T12:00:00 RSR: Identified per existing entries BOJIDAR and DIEPPE: Prince Alexis Karageorgevitch (1859-1920), elder brother of Bojidar; Marie met both at Dieppe in August 1879. Kernberger (2013) is the source cited in BOJIDAR for the dates. Body still a stub. %%
+Prince Alexis Karageorgevitch, elder brother of [Bojidar](./BOJIDAR.md); Marie met the two brothers at [Dieppe](../../places/travel/DIEPPE.md) in August 1879 and they remained part of her circle in Paris (dinners in carnet 086, the Folies-Bergère outing in disguise of February 1881).
 
 [Research needed]
 

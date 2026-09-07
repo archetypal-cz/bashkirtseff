@@ -36,6 +36,7 @@ The Bashkirtseff family's Nice properties reflected their position as minor Russ
 ## Related Entries
 - [#Nice](../cities/NICE.md) - The city where the villa was located
 - [#Promenade_des_Anglais](../cities/PROMENADE_DES_ANGLAIS.md) - The seafront near the family residences
-- [#Villa_Romanoff](./VILLA_ROMANOFF.md) - Another family property (55 bis)
+- Villa Romanoff - Another family property (55 bis Promenade des Anglais; no glossary entry, see Overview)
+%% 2026-09-07T12:00:00 RSR: delinked VILLA_ROMANOFF — no glossary target; kept as plain text. %%
 
 %% 2026-02-10T13:00:00 RSR: Expanded from one-line stub with context from diary references %%

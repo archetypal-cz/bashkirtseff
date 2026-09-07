@@ -56,7 +56,7 @@ Full citation: Kernberger, Katherine, trans. and ed. *I Am the Most Interesting 
 
 %% GLO_KATHERINE_KERNBERGER.0013 %%
 ## Related Entries
-- [#Mathilde_Blind](../mentioned/MATHILDE_BLIND.md) — Earlier English translator (1890 abridged edition)
+- [#Mathilde_Blind](../../people/writers/MATHILDE_BLIND.md) — Earlier English translator (1890 abridged edition)
 
 %% GLO_KATHERINE_KERNBERGER.0014 %%
 %% 2026-02-11T12:00:00 RSR: Katherine Kernberger produced the first unabridged English translation of Marie Bashkirtseff's complete diary (all 106 carnets). Her two-volume edition (Fonthill Press, 2013) is the primary English-language reference for this project. The #Kernberger tag marks 9,252 paragraphs across 2,465 entries that have translations in her edition (~27% paragraph coverage). %%

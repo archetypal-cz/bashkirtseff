@@ -42,5 +42,5 @@ Nice in the 1870s was divided into distinct quarters, with the most fashionable 
 
 ## Related Entries
 - [#Acqua_Viva](../residences/ACQUA_VIVA.md) - Their former, beloved residence
-- [#Nice_Society](Nice_Society.md) - The social world Marie navigated
+- [#Nice](./NICE.md) - The social world Marie navigated
 - [#Maman](../../people/family/MAMAN.md) - Marie's mother who chose the residence

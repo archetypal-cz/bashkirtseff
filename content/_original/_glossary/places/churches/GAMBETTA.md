@@ -106,7 +106,7 @@ His rise parallels Marie's own ambitions to position herself at the center of Fr
 
 ## Related Entries
 - [#Cassagnac](../../people/recurring/CASSAGNAC.md) - Bonapartist opponent; contrast to Gambetta
-- [#Third_Republic](./Third_Republic.md) - Political system Gambetta shaped
+- [#Politics](../../culture/themes/POLITICS.md) - The Third Republic, the political system Gambetta shaped (thematic tag)
 - [#Chambre_des_Deputes](../social/CHAMBRE_DES_DEPUTES.md) - Where Gambetta dominated
-- [#Republican](./Republican.md) - The political movement he led
-- [#Bonapartist](./Bonapartist.md) - The faction Marie was abandoning
+- Republicans - The political movement he led (no glossary entry)
+- Bonapartists - The faction Marie was abandoning (no glossary entry)

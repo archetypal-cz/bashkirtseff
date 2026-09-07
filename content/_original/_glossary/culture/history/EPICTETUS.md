@@ -82,7 +82,6 @@ The reference also shows the influence of Classical philosophy in 19th century F
 
 ## Related Entries
 
-- [#Stoicism](./Stoicism.md) - Philosophical school
-- [#Marcus_Aurelius](./Marcus_Aurelius.md) - Another Stoic philosopher
-- [#Ancient_Philosophy](./Ancient_Philosophy.md)
-- [#Marie_Health_Concerns](./Marie_Health_Concerns.md) - Context for turning to Stoicism
+- [#Philosophy](../themes/PHILOSOPHY.md) - Thematic tag; covers Stoicism, ancient philosophy and Marie's Stoic practice
+- Marcus Aurelius - Another Stoic philosopher (no glossary entry)
+- [#Health](../themes/HEALTH.md) - Context for turning to Stoicism

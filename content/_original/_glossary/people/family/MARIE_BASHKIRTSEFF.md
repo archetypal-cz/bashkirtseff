@@ -14,7 +14,7 @@ last_updated: 2026-03-06
 **Research Status**: Comprehensive
 **Last Updated**: 2025-12-06
 **Type**: Person - The Diarist
-**Full Research**: [docs/research/Marie_Bashkirtseff_Legacy.md](../../../docs/research/Marie_Bashkirtseff_Legacy.md)
+**Full Research**: [docs/research/Marie_Bashkirtseff_Legacy.md](../../../../../docs/research/Marie_Bashkirtseff_Legacy.md)
 
 ## Overview
 

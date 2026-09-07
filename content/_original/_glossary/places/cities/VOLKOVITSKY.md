@@ -60,5 +60,5 @@ The fact that a "beautiful lady from Poltava" was visiting Paris and dining with
 ## Related Entries
 
 - [#Poltava](POLTAVA.md)
-- [#Russian_Expatriates](./Russian_Expatriates.md)
-- [#Marie_Health_Concerns](./Marie_Health_Concerns.md)
+- Russian expatriates (no glossary entry)
+- [#Health](../../culture/themes/HEALTH.md) - Marie's health concerns (thematic tag)

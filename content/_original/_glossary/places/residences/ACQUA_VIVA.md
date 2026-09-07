@@ -36,5 +36,5 @@ Villa names in Nice often reflected the romantic sensibilities of the era. "Acqu
 
 ## Related Entries
 - [#Villa_Baquis](../cities/VILLA_BAQUIS.md) - Their current, despised residence
-- [#Nice_Society](Nice_Society.md) - The social world that judges by addresses
+- [#Nice](../cities/NICE.md) - The social world that judges by addresses
 - Social decline of the Bashkirtseff family

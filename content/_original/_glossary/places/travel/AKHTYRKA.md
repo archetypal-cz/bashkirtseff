@@ -99,7 +99,7 @@ Walitsky's position indicates his qualifications and explains both his connectio
 
 ## Related Entries
 - [#Walitsky](../../people/recurring/WALITSKY.md) - District physician at Akhtyrka
-- [#Kharkov_Governorate](./Kharkov_Governorate.md) - Administrative region
+- [#Kharkov](../cities/KHARKOV.md) - Seat of the Kharkov Governorate, the administrative region
 - [#Ukraine](../countries/UKRAINE.md) - Geographic and cultural context
 - [#Maman](../../people/family/MAMAN.md) - Her brothers were university friends with Walitsky
 

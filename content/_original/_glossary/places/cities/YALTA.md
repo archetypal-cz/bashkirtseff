@@ -55,7 +55,8 @@ Yalta in the 1870s served as:
 
 ## Related Entries
 - [#Alexander_II](../../people/aristocracy/ALEXANDER_II.md) - Emperor who frequented Yalta
-- [#Livadia_Palace](./Livadia_Palace.md) - Imperial residence near Yalta
+- Livadia Palace - Imperial residence near Yalta (no glossary entry; see the Wikipedia link under Sources)
+%% 2026-09-07T12:00:00 RSR: delinked Livadia_Palace — no glossary target; kept as plain text. %%
 - [#Maman](../../people/family/MAMAN.md) - Marie's mother who pursued social connections there
 - [#Romanoff](../../people/mentioned/ROMANOFF.md) - Met the family in Yalta
 - [#Crimea](../travel/CRIMEA.md) - Peninsula where Yalta is located

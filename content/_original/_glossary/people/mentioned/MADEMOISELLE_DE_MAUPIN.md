@@ -57,5 +57,5 @@ By 1880, the book had become a cult classic among aesthetes and those interested
 
 - [#Theophile_Gautier](../../places/theaters/THEOPHILE_GAUTIER.md) - Author
 - [#Georges_Sand](../../places/cities/GEORGES_SAND.md) - Another author Marie critiques in same entry
-- [#Russian_Trip](./Russian_Trip.md) - Where she first read it
-- [#Art_for_Arts_Sake](./Art_for_Arts_Sake.md) - Aesthetic movement
+- [#Russia](../../places/countries/RUSSIA.md) - The 1876 Russian trip, where she first read it
+- Art for art's sake - Aesthetic movement (no glossary entry)

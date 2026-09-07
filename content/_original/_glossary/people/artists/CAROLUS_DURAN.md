@@ -62,7 +62,7 @@ For Marie, Carolus-Duran represented:
 ## Related Entries
 - [#Salon](../../culture/art/SALON.md) - Annual exhibition where they met
 - [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) - Fellow painter at Salon
-- [#John_Singer_Sargent](./John_Singer_Sargent.md) - His most famous student
+- [#John_Singer_Sargent](./JOHN_SINGER_SARGENT.md) - His most famous student
 - [#Julian](../../places/schools/JULIAN.md) - Rival teaching atelier
 
 %% 2025-12-06T00:00:00 RSR: Expanded from stub with biographical research %%

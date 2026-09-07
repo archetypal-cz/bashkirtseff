@@ -42,5 +42,5 @@ Marie questions whether her family does this through "cowardly hypocrisy or stup
 
 ## Related Entries
 
-- [#Family_Tensions](./Family_Tensions.md)
-- [#Social_Reputation](./Social_Reputation.md)
+- Family tensions (no glossary entry)
+- Social reputation (no glossary entry)

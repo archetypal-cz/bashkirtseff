@@ -66,7 +66,7 @@ Despite its heavy censorship, this edition caused a literary sensation. It was t
 ## Related Entries
 
 - [#Katherine_Kernberger](KATHERINE_KERNBERGER.md) – Produced the modern annotated English translation from the uncensored text
-- [#Andre_Theuriet](ANDRE_THEURIET.md) – Editor of the 1887 edition (if entry exists)
+- [#Andre_Theuriet](../../people/writers/ANDRE_THEURIET.md) – Editor of the 1887 edition
 
 ## Diary References
 

@@ -69,7 +69,7 @@ Despite her political prominence, Isabel II "never learned to speak French prope
 
 ## Related Entries
 - [#Cassagnac](../../people/recurring/CASSAGNAC.md) - Bonapartist journalist Marie hoped to meet there
-- [#Palais_Castille](./Palais_Castille.md) - The Queen's residence
+- [#Palais_de_Castille](../residences/PALAIS_DE_CASTILLE.md) - The Queen's residence
 - [#Paris](../cities/PARIS.md) - Location of exile
 - [#Fitz_James](../../people/mentioned/FITZ_JAMES.md) - Related aristocratic family
 

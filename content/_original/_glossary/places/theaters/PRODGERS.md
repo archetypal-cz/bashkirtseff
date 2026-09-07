@@ -37,7 +37,7 @@ English person in Nice social circles, known for participating in theatrical pre
 
 ## Related Entries
 - [#Durand](../../people/mentioned/DURAND.md) - Similar social status
-- [#Audiffret](Audiffret.md) - Prank partner
+- [#Audiffret](../../people/recurring/EMILE_D_AUDIFFRET.md) - Prank partner
 
 ## Research Notes
 - Gender ambiguity in earlier references
