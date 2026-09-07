@@ -583,3 +583,12 @@ rewrite of the 306 links), not the creation of a people entry. Still open; still
 - `_original` 081/082 sliding-window duplicates (§5).
 - uk/074/1877-08-23 last two sentences (§4); cz/063 and cz/060 items from §6.
 - Addendum 2026-09-06b, all five: A dropped theme tags corpus-wide, B Gambetta merge (see Correction 2), C the orphaned LAN annotation, D blackened-word bracket wordings in en, E manuscript garbles each tree normalises.
+
+## Addendum 2026-09-07 — decisions (cz/018)
+
+- **Variant text discarded** per maintainer decision. The 79 `%% Dřívější český text: „…" %%` lines and the 41 `TR: ZACHOVÁNO` introducer comments that labelled them are removed from `content/cz/018`; the variant Czech survives only in git history (a2a7ca002, d3876fa88, a9727f3ca, 9a3928bfe). One `ZACHOVÁNO` note that records a decision rather than a label (04-18, 018.0270: the "Hrála jsem v Monte-Carlu" sentence has no manuscript basis, `Monte_Carlo` tag kept) stays. No visible text changed (per-file diff of non-`%%` lines against HEAD shows only the flag lines).
+- **Flags reset on all 26 entries**: `editor_approved: false`, `conductor_approved: false`; `translation_complete` and `redaction_passes` untouched. Each file opens with a dated `ED: Approvals reset` comment.
+- **RED + CON pass scheduled** over the restored text; the reviewer brief is c60e9d3c1 (annotations in this carnet can argue against the correct text).
+- **Remaining for that pass**: 018.0244 (1874-04-14; a dated `ED: OPEN` line now sits directly above its Czech) and the 16 stale translation-side annotations.
+- Gates after the change: `verify-carnet cz 018` PASS (0 fail, 0 warn), `check-comments cz` OK, splicescan empty.
+
