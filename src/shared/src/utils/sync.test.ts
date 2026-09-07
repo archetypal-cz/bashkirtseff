@@ -313,3 +313,37 @@ test('a definition matching the source text under another id counts as present',
     f.cleanup();
   }
 });
+
+test('inline glossary links inside a copied note are localised to the translation depth', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-sync-notelink-'));
+  try {
+    const originalDir = path.join(dir, 'content', '_original', '023');
+    const translationDir = path.join(dir, 'content', 'cz', '023');
+    fs.mkdirSync(originalDir, { recursive: true });
+    fs.mkdirSync(translationDir, { recursive: true });
+    const originalPath = path.join(originalDir, '1874-06-01.md');
+    const translationPath = path.join(translationDir, '1874-06-01.md');
+    fs.writeFileSync(originalPath, [
+      '---', 'date: 1874-06-01', 'carnet: "023"', '---',
+      '%% 023.0001 %%',
+      '%% 2026-01-01T10:00:00 LAN: [#English](../_glossary/culture/languages/ENGLISH.md) "Blackprince" is English in the original; cf. [#Nice](../_glossary/places/cities/NICE.md) %%',
+      'Le Blackprince est arrivé.',
+      '',
+    ].join('\n'), 'utf-8');
+    fs.writeFileSync(translationPath, ['---', 'date: 1874-06-01', 'carnet: "023"', '---', '%% 023.0001 %%', 'Blackprince dorazil.', ''].join('\n'), 'utf-8');
+
+    const sync = new EntrySync();
+    const result = sync.syncEntryFile(originalPath, translationPath, createDefaultSyncOptions());
+    assert.equal(result.error, undefined);
+    const written = fs.readFileSync(translationPath, 'utf-8');
+    assert.doesNotMatch(written, /\]\(\.\.\/_glossary\//);
+    assert.match(written, /LAN: \[#English\]\(\.\.\/\.\.\/_original\/_glossary\/culture\/languages\/ENGLISH\.md\) "Blackprince"/);
+    assert.match(written, /cf\. \[#Nice\]\(\.\.\/\.\.\/_original\/_glossary\/places\/cities\/NICE\.md\)/);
+
+    // A second sync sees the localised note as the same note: nothing to add.
+    const again = sync.syncEntryFile(originalPath, translationPath, createDefaultSyncOptions());
+    assert.deepEqual(again.changes.filter(c => c.type === 'note_added'), []);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});

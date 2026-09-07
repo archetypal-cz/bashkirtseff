@@ -477,7 +477,7 @@ export class EntrySync {
 
       // Sync notes
       if (options.syncRoles.length > 0) {
-        this.syncNotes(origPara, syncedPara, options.syncRoles);
+        this.syncNotes(origPara, syncedPara, options.syncRoles, synced.language);
       }
 
       // Sync glossary links
@@ -541,14 +541,17 @@ export class EntrySync {
   /**
    * Sync notes from original to translation paragraph
    */
-  private syncNotes(origPara: Paragraph, syncedPara: Paragraph, syncRoles: string[]): void {
+  private syncNotes(origPara: Paragraph, syncedPara: Paragraph, syncRoles: string[], language: string): void {
     const existingNoteKeys = new Set(syncedPara.notes.map(n => this.noteKey(n)));
 
     for (const note of origPara.notes) {
       if (syncRoles.includes(note.role)) {
         const key = this.noteKey(note);
         if (!existingNoteKeys.has(key)) {
-          syncedPara.notes.push({ ...note });
+          // A note copied verbatim keeps the source tree's `../_glossary/` link
+          // depth; inline links inside note text need the same localisation as
+          // tag lines (cz/023 LAN notes: 26 unresolved links, 2026-09-07).
+          syncedPara.notes.push({ ...note, content: localizeLinksInText(note.content, language) });
           existingNoteKeys.add(key);
         }
       }
@@ -782,8 +785,21 @@ export class EntrySync {
    * Create a unique key for a note (for deduplication)
    */
   private noteKey(note: Note): string {
-    return `${note.timestamp.toISOString()}|${note.role}|${note.content}`;
+    // Depth-agnostic: a source note and its localised copy are the same note.
+    return `${note.timestamp.toISOString()}|${note.role}|${localizeLinksInText(note.content, 'original')}`;
   }
+}
+
+/**
+ * Localise every `](…_glossary/…)` link target inside free text (note bodies,
+ * comment spans) for the tree `language` lives in — the per-link equivalent of
+ * `localizeGlossaryPath`, which handles tag lines.
+ */
+export function localizeLinksInText(text: string, language: string): string {
+  return text.replace(/\]\(([^)\s]+)\)/g, (m, target: string) => {
+    const localized = localizeGlossaryPath(target, language);
+    return localized === target ? m : `](${localized})`;
+  });
 }
 
 /**
