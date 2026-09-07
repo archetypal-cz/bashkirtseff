@@ -50,3 +50,22 @@ test('a bare line ending in %% fails outside fr/_original', () => {
   ]);
   assert.deepEqual(scanMarkerStructure(lines, SOURCE), []);
 });
+
+test('a multi-line block is a finding only where the tree forbids it', () => {
+  const lines = [
+    '%% 011.0168 %%',
+    '%% On dîne déjà et nous recevons un scolding.',
+    'Paul s\'en va barbotant comme un domestique. %%',
+    'Už večeříme.',
+  ];
+  // Historical default and fr: tolerated.
+  assert.deepEqual(scanMarkerStructure(lines, TRANSLATION), []);
+  assert.deepEqual(scanMarkerStructure(lines, { ...TRANSLATION, allowMultiLineBlocks: true }), []);
+  // Translation trees: the interior leaks as visible text (check_comment_structure.py agrees).
+  assert.deepEqual(scanMarkerStructure(lines, { ...TRANSLATION, allowMultiLineBlocks: false }), [
+    { line: 2, kind: 'multi-line-block', text: lines[1] },
+  ]);
+  // One self-contained block per line is the canonical shape and never a finding.
+  const perLine = ['%% 011.0168 %%', '%% On dîne déjà et nous recevons un scolding. %%', '%% Paul s\'en va barbotant. %%', 'Už večeříme.'];
+  assert.deepEqual(scanMarkerStructure(perLine, { ...TRANSLATION, allowMultiLineBlocks: false }), []);
+});

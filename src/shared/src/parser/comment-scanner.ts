@@ -60,7 +60,7 @@ function scanTail(line: string, from: number): TailScan {
   }
 }
 
-export type MarkerFindingKind = 'splice' | 'unclosed-block' | 'closer-without-opener';
+export type MarkerFindingKind = 'splice' | 'unclosed-block' | 'closer-without-opener' | 'multi-line-block';
 
 export interface MarkerFinding {
   /** 1-based line number; for `unclosed-block`, the line that opened it */
@@ -72,11 +72,19 @@ export interface MarkerFinding {
 
 export interface MarkerScanOptions {
   /**
-   * `fr` and `_original` carry ~1,700 legacy lines of bare source ending in a
-   * stray `%%`; the glyph is stripped at render time, so it is noise there.
-   * Elsewhere such a line leaks source text or marks a mangled edit.
+   * `fr` carries ~1,600 legacy lines of bare source ending in a stray `%%`;
+   * the glyph is stripped at render time, so it is noise there. Elsewhere such
+   * a line leaks source text or marks a mangled edit.
    */
   allowTrailingCloser: boolean;
+  /**
+   * A `%% … %%` block spanning several lines is the designed shape in `fr`
+   * (the French text lives in it and is promoted to the page). In every other
+   * tree the frontend reads such a block as visible text, so it is reported as
+   * `multi-line-block`, matching `src/scripts/check_comment_structure.py`.
+   * Defaults to `true` (the historical behaviour) when omitted.
+   */
+  allowMultiLineBlocks?: boolean;
 }
 
 /**
@@ -100,8 +108,14 @@ export function scanMarkerStructure(lines: string[], opts: MarkerScanOptions): M
       const markers = s.split('%%').length - 1;
       // One marker means the comment continues onto the following lines; two or
       // more that end the line make it self-contained, inner literals included.
-      if (markers === 1) openedAt = i;
-      else if (!s.endsWith('%%')) findings.push({ line: i + 1, kind: 'splice', text: s });
+      if (markers === 1) {
+        openedAt = i;
+        if (opts.allowMultiLineBlocks === false) {
+          findings.push({ line: i + 1, kind: 'multi-line-block', text: s });
+        }
+      } else if (!s.endsWith('%%')) {
+        findings.push({ line: i + 1, kind: 'splice', text: s });
+      }
       return;
     }
 

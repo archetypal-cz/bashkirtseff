@@ -147,11 +147,19 @@ for (const fname of entryFiles) {
   // 2 & 3. Links + glossary path-depth
   lines.forEach((line, idx) => {
     const ln = idx + 1;
-    const linkRe = /\]\(([^)]+\.md[^)]*)\)/g;
+    // `.md` in ANY letter case so a `FOO.MD` link is seen at all; a target whose
+    // extension is not lowercase is then reported broken regardless of the
+    // filesystem (Linux is case-sensitive: FOO.MD is not FOO.md). Mirrors
+    // src/scripts/check_links_repo.py.
+    const linkRe = /\]\(([^)]+\.md[^)]*)\)/gi;
     let m: RegExpExecArray | null;
     while ((m = linkRe.exec(line)) !== null) {
-      let target = m[1].split('#')[0];
+      let target = m[1].split('#')[0].replace(/\s+"[^"]*"\s*$/, '').trim();
       if (/^(https?:|mailto:)/.test(target)) continue;
+      if (!target.endsWith('.md')) {
+        add({ check: 'links', severity: 'FAIL', file: fname, line: ln, message: `link extension is not lowercase .md -> ${target}` });
+        continue;
+      }
       // 3. path-depth: translations must reach the source glossary via ../../_original/
       if (isTranslation && target.includes('../_glossary/') && !target.includes('../../_original/_glossary/')) {
         add({ check: 'glossary-depth', severity: 'FAIL', file: fname, line: ln, message: `short glossary path "${target}" (should be ../../_original/_glossary/…)` });
@@ -186,20 +194,32 @@ for (const fname of entryFiles) {
     // footnote id when recording a renumbering ("[^1] → [^02.236.1]"), and the
     // embedded French mirror carries the source tree's own ids. Neither obliges
     // this file to define the label, so the ref→def check sees comments stripped.
-    // The def→ref check keeps the full set: a marker in the French mirror is still
-    // evidence the definition is anchored, so stripping there would orphan it.
+    // The def→ref check keeps the full set in TRANSLATION trees: a marker in the
+    // French mirror is still evidence the definition is anchored (fr/es hold
+    // their markers inside the mirror legitimately), so stripping there would
+    // orphan it. `_original` has no mirror: a marker that exists only inside a
+    // role comment leaves the definition unreachable for every reader and every
+    // downstream tree, so there the def→ref check uses rendered markers only.
     collect(scan.replace(/%%.*?%%/g, ' '), renderedRefLabels);
   });
+  const anchoringRefLabels = isTranslation ? refLabels : renderedRefLabels;
   for (const [label, count] of defLabels) {
     if (count > 1) add({ check: 'footnotes', severity: 'FAIL', file: fname, message: `duplicate footnote definition [^${label}] (${count}×)` });
-    if (!refLabels.has(label)) add({ check: 'footnotes', severity: 'FAIL', file: fname, message: `footnote definition [^${label}] has no in-text reference` });
+    if (!anchoringRefLabels.has(label)) {
+      const where = !isTranslation && refLabels.has(label) ? ' (marker sits inside a %% comment only)' : '';
+      add({ check: 'footnotes', severity: 'FAIL', file: fname, message: `footnote definition [^${label}] has no in-text reference${where}` });
+    }
   }
   for (const label of renderedRefLabels) {
     if (!defLabels.has(label)) add({ check: 'footnotes', severity: 'FAIL', file: fname, message: `footnote reference [^${label}] has no definition` });
   }
 
-  // 5. %% marker structure, per line (docs/COMMENT_MARKER_RULES.md rule 3)
-  for (const f of scanMarkerStructure(lines, { allowTrailingCloser: !isTranslation || lang === 'fr' })) {
+  // 5. %% marker structure, per line (docs/COMMENT_MARKER_RULES.md rule 3).
+  // Multi-line blocks are the designed shape only in fr; everywhere else the
+  // frontend shows the block's interior as translated text, and
+  // `just check-comments` already FAILs them — this keeps the two gates aligned.
+  // The bare-closer exemption (S5) is fr-only: _original carries none today.
+  for (const f of scanMarkerStructure(lines, { allowTrailingCloser: lang === 'fr', allowMultiLineBlocks: lang === 'fr' })) {
     const snippet = f.text.length > 70 ? `${f.text.slice(0, 70)}…` : f.text;
     add({ check: '%%-balance', severity: 'FAIL', file: fname, line: f.line, message: `${f.kind}: ${snippet}` });
   }

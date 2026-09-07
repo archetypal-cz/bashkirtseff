@@ -486,11 +486,16 @@ check-links lang=default_lang carnet=default_carnet:
                 http://*|https://*|mailto:*) continue;;
             esac
             checked=$((checked + 1))
+            # Linux is case-sensitive: FOO.MD never resolves to FOO.md (mirrors check_links_repo.py)
+            case "$target" in
+                *.md) ;;
+                *) echo "  BROKEN  $b:$ln  ->  $target  [extension not lowercase .md]"; broken=$((broken + 1)); continue;;
+            esac
             if [ ! -f "$fdir/$target" ]; then
                 echo "  BROKEN  $b:$ln  ->  $target"
                 broken=$((broken + 1))
             fi
-        done < <(grep -noE '\]\([^)]+\.md[^)]*\)' "$file")
+        done < <(grep -inoE '\]\([^)]+\.md[^)]*\)' "$file")
     done < <(find "$dir" -maxdepth 1 -name '*.md' | sort)
     if [ "$broken" -eq 0 ]; then
         echo "check-links {{lang}}/{{carnet}}: OK ($checked .md links resolve)"
@@ -569,6 +574,9 @@ verify-carnet-all lang=default_lang *FLAGS:
         echo "No carnets found in content/{{lang}}"
         exit 1
     fi
+    # Tree-level %% shape gate (glued spans, tag lines, retired [//] lines in blocks) —
+    # the shapes verify-carnet does not model. Same exit-code contract as the loop.
+    uv run src/scripts/check_comment_structure.py {{lang}} || fail=1
     if [ "$fail" -eq 0 ]; then echo "=== All carnets PASS ==="; else echo "=== Failures found (see above) ==="; exit 1; fi
 
 # Repo-wide broken glossary-link scan across ALL six trees (_original, cz, en, uk, fr, es — es skipped until it exists).

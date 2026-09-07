@@ -132,12 +132,13 @@ def check_lines(lines, tree):
             violations.append((i, 'glossary-tag line without %% markers (renders as prose)', s))
             continue
         if not s.startswith('%%') and s.endswith('%%') and s not in ('', '%%'):
-            # fr and _original carry ~1,700 legacy lines of this shape (bare
-            # French with a trailing marker); the glyph is stripped at render
-            # time and the text is French-in-French-context, so it is noise
-            # there — but in translation trees it leaks source French or
-            # marks a reverse splice. Gate only where it damages readers.
-            if tree in ('fr', '_original'):
+            # fr carries ~1,600 legacy lines of this shape (bare French with a
+            # trailing marker); the glyph is stripped at render time and the
+            # text is French-in-French-context, so it is noise there — but in
+            # every other tree it leaks source French or marks a reverse
+            # splice. _original has had 0 such lines since 2026-09-07, so it
+            # is gated like the translations (S5 in docs/COMMENT_MARKER_RULES.md).
+            if tree == 'fr':
                 continue
             if not s.startswith('[^') and not s.startswith('[//]:'):
                 violations.append((i, 'closer without opener', s))
