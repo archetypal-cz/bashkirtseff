@@ -277,11 +277,11 @@ None of these fail loudly for an unknown code; they simply skip it. Extend every
 |------|------|
 | `project-status.ts:217` | `['cz','en','uk','fr']` |
 | `fix-midline-paragraph-ids.ts:35` | `TRANSLATION_DIRS` |
-| `check_links_repo.py:33`, `check_comment_structure.py:33`, `fix-inline-comments.py:29` | `TREES` |
-| `propagate_glossary_tag.py:32` | `--langs` default |
-| `glossary-dedup.ts:170`, `glossary-migrate-flat.ts:189` | `langDirs` |
-| `hooks/bootstrap-readmes.ts:129` | language-name map (cz/en only) |
-| `verify-carnet.ts:58` | `CYRILLIC_LANGS` — only for Cyrillic targets |
+| `check_links_repo.py` (`TREES`, ~line 51), `check_comment_structure.py` (`TREES`, ~line 44), `fix-inline-comments.py:29` | `TREES` — all three already list `es` |
+| `propagate_glossary_tag.py:32` | `--langs` default — already `cz,uk,en,fr,es` |
+| `glossary-migrate-flat.ts:189` | `langDirs` — already lists `es` (`glossary-dedup.ts` no longer carries its own list) |
+| `hooks/bootstrap-readmes.ts:129` | language-name map — cz/uk/en/fr/es present |
+| `verify-carnet.ts` (`CYRILLIC_LANGS`, ~line 72) | only for Cyrillic targets |
 
 **Justfile** — `default_lang := "cz"` (line 8) and the `translate/review/conduct/pipeline` recipes default `lang="cz"`; the comment "ALL five trees" near `check-links-repo` and the help examples (~758-761) enumerate languages. No validation of the `lang` argument.
 
@@ -289,13 +289,9 @@ None of these fail loudly for an unknown code; they simply skip it. Extend every
 
 | File | What |
 |------|------|
-| `skills/opus-editor/SKILL.md:11` | "Czech (cz), Ukrainian (uk), English (en), French modern edition (fr)" |
-| `skills/report-triage/SKILL.md:48,72` | "all five versions (_original + cz/uk/en/fr)" |
-| `skills/glossary/SKILL.md:266` | `content/{cz,en,uk,fr}/` brace expansion |
-| `skills/workflow-architect/SKILL.md:235` | "across cz/uk/en/fr" |
-| `skills/executive-director/SKILL.md:488` | per-language quality plateaus (new language has no baseline until its pilot report) |
-| `skills/frontend-dev/SKILL.md` | many enumerations (:15,20,53,69-70,104,164,177,229,287,339) + its own "Add a new content language" at :298 |
-| `agents/{translator,conductor,editor}.md` | legacy Czech-hardcoded descriptions ("cz/uk/en/fr") |
+| `skills/opus-editor/SKILL.md:11`, `skills/report-triage/SKILL.md:48,72`, `skills/glossary/SKILL.md:266`, `skills/workflow-architect/SKILL.md:235`, `skills/README.md:183`, `agents/{translator,editor}.md:3` | language enumerations — all updated for `es` by 2026-09-07; the next language must touch each again |
+| `skills/executive-director/SKILL.md:488` | per-language quality plateaus (a new language has no baseline until its pilot report; es ~0.94 added from 2026-09-05-es-001) |
+| `skills/frontend-dev/SKILL.md` | its own "Add a new content language" section (~:298) and the locale examples around :76-87 |
 | `WORKER_CONFIG.yaml.template:8-10` | already anticipates `es` |
 
 **Docs and reports**

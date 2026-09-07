@@ -168,7 +168,7 @@ Write CON comments directly to translation files. Use timestamped format:
 
 <!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
      Evidence: cz-080-082 (CON comments on 081/082) + cz-083-092 — 2nd instance. -->
-**Never type the literal sequence `%%` inside a CON comment** (e.g. "the %% French wrapper"). It unbalances the file's `%%` count and fails the `%%-balance` gate — write "paragraph-ID wrapper" / "embedded French reference" instead.
+**Never type the literal sequence `%%` inside a CON comment** (e.g. "the %% French wrapper"). The gate no longer counts file-level `%%` parity (8b69323fb): it checks the per-line marker shapes of `docs/COMMENT_MARKER_RULES.md` rule 3 (comment-then-prose splice, block unclosed at EOF, multi-line block outside fr, trailing closer with no opener), so a quoted `%%` inside a one-line comment is tolerated — but it is one edit away from a real splice, so write "paragraph-ID wrapper" / "embedded French reference" instead.
 
 
 **Verdict comment** (at the end of the file, after the last paragraph block):

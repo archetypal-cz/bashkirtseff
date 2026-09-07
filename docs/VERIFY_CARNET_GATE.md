@@ -1,6 +1,6 @@
 # Plan: `just verify-carnet` — mechanical pre-RED integrity gate
 
-**Status:** BUILT + validated (2026-06-06). Author: team-lead (uk-062-064 wave). Script `src/scripts/verify-carnet.ts`; recipes `just verify-carnet` / `just verify-carnet-all`.
+**Status:** BUILT + validated (2026-06-06); checks tightened 2026-09-05..07 (see the table and the "Sidecar" section below). Author: team-lead (uk-062-064 wave). Script `src/scripts/verify-carnet.ts`; recipes `just verify-carnet` / `just verify-carnet-all`.
 
 **Build outcome:** Implemented all 7 checks. Validated: uk/062–064 PASS; a synthetic broken file FAILs on all 5 hard checks (proving it catches the tr-063 frontmatter + tr-064 path-drift regressions). **On first run it caught 5 real malformed footnote definitions in carnet 064** (missing the `]:` colon → won't render) that RED and CON both missed — all 5 fixed. One regex false-positive (inline ref followed by a prose colon) was found and fixed (definition = line-start `[^id]:` only). **Remaining:** wire into the executive-director + translator skills (deferred until the parallel teamcouch retro finishes, to avoid concurrent skill edits).
 
@@ -25,10 +25,10 @@ Each check reports `OK` / `WARN` / `FAIL` per file (and a carnet summary). Exit 
 | # | Check | Severity | Detail |
 |---|-------|----------|--------|
 | 1 | **Frontmatter present** | FAIL | Every entry `*.md` (excluding `README.md`) starts with `---` and the block contains `date`, `carnet`, and `translation_complete`. (Catches tr-063.) |
-| 2 | **Link resolution** | FAIL | Reuse `check-links` logic: every relative `.md` link resolves from the file's location. (Catches broken glossary refs.) |
+| 2 | **Link resolution** | FAIL | Reuse `check-links` logic: every relative `.md` link resolves from the file's location. (Catches broken glossary refs.) **Case-aware (e9076d600):** the link regex matches the `.md` extension in any letter case so a `FOO.MD` link is seen at all, and a target whose extension is not lowercase `.md` is reported as broken, because the filesystem is case-sensitive. Mirrors `check-links-repo` (c9a97296d) and the shared `MD_LINK_PATTERN` (62c1959f9). |
 | 3 | **Glossary path-depth** | FAIL | No short `](../_glossary/` paths in `content/{lang}/…` — must be `](../../_original/_glossary/`. (Catches tr-064 + the scaffold path-depth bug directly, with a clearer message than #2.) |
-| 4 | **Footnote integrity** | FAIL | Within each file: every inline `[^key]` ref has a matching `[^key]:` definition and vice-versa; no duplicate definition labels. (Catches "orphaned footnotes" + the label-collision class CON fixed in 062.) |
-| 5 | **`%%` marker structure** (reported as `%%-balance`) | FAIL | Per-line shapes of `docs/COMMENT_MARKER_RULES.md` rule 3, shared with the frontend parser via `scanMarkerStructure()`: `splice` (a complete comment followed by prose on the same line — the prose vanishes from the page), `unclosed-block` (a block still open at EOF), `closer-without-opener` (a line ending in `%%` that does not start with one; exempt in `fr`/`_original`, which carry ~1,700 legacy lines of that shape). File-level `%%` parity is deliberately NOT checked: a comment may quote a literal `%%`, and 121 lines legitimately do. |
+| 4 | **Footnote integrity** | FAIL | Within each file: every inline `[^key]` ref has a matching `[^key]:` definition and vice-versa; no duplicate definition labels. (Catches "orphaned footnotes" + the label-collision class CON fixed in 062.) Markers quoted inside `%% … %%` comments never count as references for the ref→def direction (a RED note recording a renumbering does not oblige the file to define the old id). **Source-tree rule (e9076d600):** for the def→ref direction, translation trees accept a marker that sits in the embedded French mirror (fr/es legitimately keep markers there), but in `_original` a definition needs a marker in the *rendered* French — a marker that exists only inside a role comment fails with "marker sits inside a %% comment only". This exposed 15 comment-only markers in 001 and 073, fixed in 8496736a1. |
+| 5 | **`%%` marker structure** (reported as `%%-balance`) | FAIL | Per-line shapes of `docs/COMMENT_MARKER_RULES.md` rule 3, shared with the frontend parser via `scanMarkerStructure()`: `splice` (a complete comment followed by prose on the same line — the prose vanishes from the page), `unclosed-block` (a block still open at EOF), `multi-line-block` (a `%% … %%` block spanning several lines — FAILs in every tree except `fr`, where the modern edition uses that shape by design; added in e9076d600 because `just sync` used to produce exactly this shape and the gate let it through, so `check-comments` and `verify-carnet` now agree), `closer-without-opener` (a line ending in `%%` that does not start with one; the exemption is now **fr-only** — S5 in the marker-rules doc — since `_original` carries none after the S7 repair 6c23b7aae). File-level `%%` parity is deliberately NOT checked: a comment may quote a literal `%%`, and 121 lines legitimately do. |
 | 6 | **Latin-in-Cyrillic** | WARN | For Cyrillic-script languages (uk, …): flag tokens mixing Cyrillic + Latin letters inside one word (e.g. «відданi», «Музе»+Latin). Heuristic → WARN, not FAIL (deliberate code-switches/URLs exist). Excludes `%% … %%` source blocks (those legitimately contain French). |
 | 7 | **Stray foreign scripts** | WARN | Flag CJK / other unexpected Unicode ranges in translation body (context-window artifacts, e.g. tr-062's «历»). WARN. |
 | 8 | **Paragraph-ID alignment** | WARN | The ordered list of standalone `%% NNN.NNNN %%` markers in each translation entry vs the source entry's, plus entries missing on either side. (Catches dropped/reordered paragraphs and mid-line IDs, which the frontend parser ignores at build time.) WARN, not FAIL: a uk sweep flagged 140 files, of which 137 are the benign convention of omitting a notes-only source paragraph and 2 are headers the translation numbers and the source does not — 1 was a real dropped paragraph (uk/068 `1877-02-13-21.md`, source 068.0620). Promote to FAIL once the check ignores source paragraphs that carry no translatable text. |
@@ -36,6 +36,13 @@ Each check reports `OK` / `WARN` / `FAIL` per file (and a carnet summary). Exit 
 Notes:
 - Checks #6/#7 scan only the **translation body lines**, never the `%% French source %%` comment blocks (which legitimately hold French/italics).
 - `language: {lang}` consistency (#1 extended) optional: warn if frontmatter `language` ≠ the tree.
+- Check #1's completion key is tree-dependent (82cb4f7d2): `edition_complete` on `fr` (an annotated edition, not a translation), `translation_complete` everywhere else. See `docs/FRONTMATTER.md`.
+
+### Sidecar: footnote-glue (WARN, wired in the justfile, not in the script)
+
+`just verify-carnet` and `just verify-carnet-all` also run `uv run src/scripts/check_footnote_glue.py --lang {lang} --carnet {carnet} --warn-only` after `verify-carnet.ts` (0c0baa9e0). It is **not** one of the eight checks in the script's `CHECK_ORDER`, it prints its own block, and it never changes the exit code — the recipe saves the script's return code first and exits with it. What it catches: diary prose glued onto a `[^id]:` definition line, which is structurally valid (so check #4 cannot see it) yet renders as footnote text and vanishes from the paragraph; ten such blocks were repaired on 2026-09-05. It measures each block's visible translation against `content/_original`, never against the embedded French mirror, because the mirror can itself be stale (cz/018). Candidates are listed with two coverage ratios (`r1` visible/French, `r2` visible+footnote/French) for a human to open and compare. A few benign shapes are permanent, hence WARN. For a blocking run use the standalone `just check-footnote-glue --lang cz,uk --carnet 092`, which exits non-zero on any candidate.
+
+`verify-carnet-all` additionally finishes with a tree-level `just check-comments {lang}` (the `%%` shape families the per-file scanner does not model) and that one **does** affect the sweep's exit code.
 
 ## Output & UX
 
@@ -46,10 +53,12 @@ just verify-carnet uk 062
   links:           OK   (1444 resolve, 0 broken)
   glossary-depth:  OK   (0 short paths)
   footnotes:       OK   (33 defs, 33 refs, 0 orphan, 0 dup)
-  %%-balance:      OK   (all even)
+  %%-balance:      OK   (no splice / unclosed / multi-line block / stray closer)
+  id-alignment:    OK
   latin-in-cyr:    WARN (2 suspect tokens — see below)   [non-fatal]
   foreign-script:  OK
 RESULT: PASS (0 fail, 1 warn)
+footnote-glue: 0 candidate(s) in 33 footnote-bearing blocks (uk, carnet 062)   [sidecar, never affects exit code]
 ```
 
 Exit 0 on PASS (warns allowed), exit 1 if any FAIL, exit 2 on usage/structural error (bad args, missing dir, empty carnet — an empty carnet must not silently PASS). `--strict` promotes WARN→FAIL. `--quiet` prints only failures (for the ED loop).
@@ -68,7 +77,7 @@ Exit 0 on PASS (warns allowed), exit 1 if any FAIL, exit 2 on usage/structural e
   verify-carnet-all lang *FLAGS:
       ... loop over carnets, fail if any fails ...
   ```
-- **Severity config:** hard-fail set = {frontmatter, links, glossary-depth, footnotes, %%-balance}; warn set = {id-alignment, latin-in-cyrillic, foreign-script}.
+- **Severity config:** hard-fail set = {frontmatter, links, glossary-depth, footnotes, %%-balance}; warn set = {id-alignment, latin-in-cyrillic, foreign-script}. The footnote-glue sidecar lives outside both sets (justfile only, see above).
 
 ## Integration into the workflow
 

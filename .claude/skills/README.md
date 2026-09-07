@@ -180,7 +180,7 @@ allowed-tools: Read, Write, Edit, ...
 ## Key Directories
 
 - `/content/_original/` — French source (researched + annotated)
-- `/content/{lang}/` — Translations (cz, en, uk, fr)
+- `/content/{lang}/` — Translations (cz, en, uk, fr, es)
 - `/content/_original/_glossary/` — Entity database
 - `/.claude/reports/` — Team run reports
 - `/.claude/skills/` — This directory (role definitions)

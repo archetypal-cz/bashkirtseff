@@ -169,9 +169,11 @@ Read the subagent's findings. For each valid issue:
      Evidence: cz-080-082 (CON comments) + cz-083-092 (a TR comment "(bez %%)" in
      084/1879-01-18) — 2nd instance, met the WATCHLIST-set threshold. -->
 **Never type the literal sequence `%%` inside a `%% … %%` comment** (e.g. don't write
-"(bez %%)" or "the %% wrapper"). It adds stray markers, makes the file's `%%` count odd, and
-fails the `%%-balance` gate. Write "značky" / "paragraph-ID wrapper" / "embedded French
-reference" instead.
+"(bez %%)" or "the %% wrapper"). The `%%-balance` check no longer counts file-level parity —
+since 8b69323fb it applies the per-line marker rule of `docs/COMMENT_MARKER_RULES.md` (rule 3:
+splice, unclosed block, multi-line block outside fr, trailing closer with no opener), so a
+quoted `%%` inside a one-line comment passes — but it is one careless edit from a real splice.
+Write "značky" / "paragraph-ID wrapper" / "embedded French reference" instead.
 
 Skip any suggestions you disagree with — you know Marie's voice and context better than the critic subagent.
 
@@ -331,7 +333,7 @@ These defects are **invisible to a reading review** (the text reads fine) and ha
      (e.g. "en bílém a"→should stay "en blanc et", "à Paříži"→"à Paris"). Latin-script, so the
      verify-carnet latin-in-cyr/foreign-script checks do NOT see it; slips past a reading review. -->
 3. **Never partially translate the preserved French `%%` source lines.** The original-French paragraph line and the RSR/LAN comment lines are source-of-truth — copy them **verbatim**. A copy-paste slip that swaps even one French word for its Czech equivalent (e.g. `en blanc` → `en bílém`, `à Paris` → `à Paříži`) corrupts the source and is **invisible** to `verify-carnet` (it's Latin-script). Self-check: scan every `%% … %%` French/source line for target-language-only diacritics (cz: ě ř ů; uk: і ї є ґ) before finalizing — there should be none except in legitimately-cited foreign words.
-4. **Before finalizing**, run `just verify-carnet {lang} {carnet}` (the single gate: links + frontmatter + footnotes + %%-balance). It must report **PASS** (0 fail). Do not mark the task complete until it does. **Team mode caveat**: teammates spawned via the Agent tool usually have no Bash, so you cannot run the gate yourself — the team lead runs it pre-RED. In that case do the manual self-checks above (tag-set match, diacritic scan of `%%` lines, footnote linking) and note in your summary that the gate is pending.
+4. **Before finalizing**, run `just verify-carnet {lang} {carnet}` (the single gate: frontmatter + links + glossary path-depth + footnotes + per-line `%%` marker shapes, plus WARN-tier id-alignment, script checks and the footnote-glue sidecar — full list in `docs/VERIFY_CARNET_GATE.md`). It must report **PASS** (0 fail). Do not mark the task complete until it does. **Team mode caveat**: teammates spawned via the Agent tool usually have no Bash, so you cannot run the gate yourself — the team lead runs it pre-RED. In that case do the manual self-checks above (tag-set match, diacritic scan of `%%` lines, footnote linking) and note in your summary that the gate is pending.
 
 ## Output Format
 

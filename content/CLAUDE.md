@@ -29,10 +29,16 @@ content/
 │   ├── PROGRESS.md      # Overall English status
 │   └── 000/-106/        # Translated entries
 │
-└── fr/                  # French modern edition
-    ├── CLAUDE.md        # French edition guidance
-    ├── PROGRESS.md      # Overall French status
-    └── 000/-106/        # Edited entries
+├── fr/                  # French modern edition
+│   ├── CLAUDE.md        # French edition guidance
+│   ├── PROGRESS.md      # Overall French status
+│   └── 000/-106/        # Edited entries
+│
+└── es/                  # Spanish translations (pilot: carnet 001, slice 1 done 2026-09-05)
+    ├── CLAUDE.md        # Spanish-specific guidance
+    ├── PROGRESS.md      # Overall Spanish status
+    ├── TranslationMemory.md
+    └── 001/             # Translated entries (further carnets scaffolded as the pilot expands)
 ```
 
 ## Entry File Format
@@ -131,5 +137,6 @@ just translate 1873-01-11 001 cz    # Or use /translator skill
 - `/uk/CLAUDE.md` - Ukrainian translation specifics
 - `/en/CLAUDE.md` - English translation specifics
 - `/fr/CLAUDE.md` - French modern edition specifics
+- `/es/CLAUDE.md` - Spanish translation specifics (pilot)
 - `/_original/_glossary/CLAUDE.md` - Glossary system
 - `/docs/FRONTMATTER.md` - Detailed frontmatter spec

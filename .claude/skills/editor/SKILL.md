@@ -104,7 +104,7 @@ Is this still Marie speaking?
      CON-backstopped). These are invisible to a reading review — only a tool catches them.
      The `just verify-carnet` gate (built 2026-06-06) runs pre-RED and makes this manual step
      redundant; run it yourself only if you're unsure the ED gate ran. -->
-- [ ] **Mechanical integrity (run the tool, don't eyeball):** confirm `just verify-carnet {lang} {carnet}` reports **PASS** (links 0 broken, frontmatter intact, footnotes/%%-balance OK). Glossary path-depth defects and stripped frontmatter read perfectly fine and have repeatedly slipped past reading review — only the tool catches them. (Normally the ED runs this pre-RED; skip if so.)
+- [ ] **Mechanical integrity (run the tool, don't eyeball):** confirm `just verify-carnet {lang} {carnet}` reports **PASS** (links 0 broken, frontmatter intact, glossary path-depth, footnotes and per-line `%%` shapes OK; read the WARN lines too — id-alignment and the footnote-glue sidecar flag dropped paragraphs and prose swallowed into a footnote; full list in `docs/VERIFY_CARNET_GATE.md`). Glossary path-depth defects and stripped frontmatter read perfectly fine and have repeatedly slipped past reading review — only the tool catches them. (Normally the ED runs this pre-RED; skip if so.)
 - [ ] **Glossary-tag fidelity spot-check:** for a few entries, compare the translation's glossary-tag lines against the source entry's — the tag SET must match exactly (only the path depth differs). Translators have invented tags, renamed entities, and dropped source tags in ways that still *resolve* and so pass the gate (uk-075-077, cz-080-082); a spot-check against source is currently the only guard.
 
 **LAN Compliance Checklist** (typical entry has 15-40 LAN annotations):
@@ -186,7 +186,7 @@ Also run the repo gate — it catches every structure family (splices, multi-lin
 
 <!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
      Evidence: cz-080-082 (CON comments) + cz-083-092 (a TR comment) — recurring across roles. -->
-**Never type the literal sequence `%%` inside a RED comment** (e.g. "the %% wrapper"). It adds stray markers, makes the file's `%%` count odd, and fails the `%%-balance` gate — write "značky"/"paragraph-ID wrapper" instead.
+**Never type the literal sequence `%%` inside a RED comment** (e.g. "the %% wrapper"). Since 8b69323fb the gate no longer counts file-level `%%` parity — it checks the per-line marker shapes of `docs/COMMENT_MARKER_RULES.md` rule 3 (a comment followed by prose on the same line, a block unclosed at EOF, a multi-line block outside fr, a trailing closer with no opener) — so a quoted `%%` inside a one-line comment no longer fails on its own. It still produces a shape that a later edit or a `printf` can turn into a real splice, and the frontend drops the line — write "značky"/"paragraph-ID wrapper" instead.
 
 ## Common Issues Checklist
 

@@ -86,6 +86,14 @@ workflow:
   last_modified: 2025-12-07T16:00:00
   modified_by: RSR
 
+# Translation-tree pipeline flags (top level, written by `just scaffold` — see
+# "Translation pipeline flags" below; the fr tree carries edition_complete instead)
+status: translation_pending
+translation_complete: false
+opus_reviewed: false
+editor_approved: false
+conductor_approved: false
+
 # Special flags
 flags:
   empty_in_source: false # true if verified empty in raw carnet
@@ -147,7 +155,7 @@ Calculated based on birth date 1860-11-24 (Marie's claimed date for consistency)
 - **sentence_count_original**: Sentences in French original text. Headers/date lines count as 1 sentence each. Footnotes are included. Abbreviations (M., Mme., etc.) are protected from false splits.
 - **sentence_count_translated**: Sentences in translation (0 if no translation). Useful for comparing against original to catch missed/hallucinated content.
 - **has_original**: Whether French text is present
-- **has_translation**: Whether Czech translation exists
+- **has_translation**: Whether a translation exists in this file (the tree decides the language: cz, uk, en, es; fr is an edition, see `edition_complete` below)
 - **translation_version_count**: Number of translation versions
 
 ### Entities
@@ -180,6 +188,23 @@ Boolean flags for workflow stages:
 - **last_modified**: Timestamp of last change
 - **modified_by**: Who made last change
 - **redaction_passes**: YAML list of whole-carnet fluency/redaction passes over an already-approved translation, one `model/agent + date` entry per pass (e.g. `- fable-5 2026-07-02`). Append a new list item for each later pass; never overwrite earlier ones. Set on every entry the pass reviewed, including entries it left unchanged.
+
+### Translation pipeline flags (translation trees: cz, uk, en, es)
+
+Translation files carry the pipeline state as **top-level** boolean keys, one per role, flipped in order by the role that finishes:
+
+| Key | Set to `true` by | Gate use |
+|-----|------------------|----------|
+| `translation_complete` | translator | required by `just verify-carnet` on every translation tree (FAIL if missing) |
+| `opus_reviewed` | opus-editor (OPS) | — |
+| `editor_approved` | editor (RED) | — |
+| `conductor_approved` | conductor (CON) | counted by `/project-status` as "approved" |
+
+`just scaffold` (d7b7ab821) writes all four as `false` plus `status: translation_pending`, so a fresh scaffold passes the gate's frontmatter check without hand-patching (before that fix it wrote only `status`, and every new scaffold failed until edited — es/001 was patched by hand). `status` is a free-text progress label (`translation_pending` while untranslated); the booleans are the machine-read state.
+
+### `edition_complete` (fr tree only)
+
+`content/fr/` is an annotated modern edition of the French source, not a translation, so it does not carry `translation_complete`. Its completion key is **`edition_complete`**: `true` for empty entries and fully edited files, `false` while the entry is still the generated `%%`-wrapped scaffold. `just verify-carnet fr NNN` requires this key instead of `translation_complete` (verify-carnet.ts, `COMPLETION_KEY`). `just backfill-fr-frontmatter` (82cb4f7d2; dry-run by default, `--apply` to write, `--carnet` to filter) copies each fr entry's frontmatter from its `_original` counterpart and derives the flag by that rule.
 
 ### Special Flags
 

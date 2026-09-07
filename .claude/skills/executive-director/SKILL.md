@@ -530,7 +530,7 @@ pre-commit health gate. See `docs/VERIFY_CARNET_GATE.md`.
 
 <!-- Teamcouch update 2026-06-07: verify mechanical agent claims against ground truth.
      Evidence: 3 reports (uk-050-055 «Сорока», cz-050-055 051-vs-053 + stale completeness
-     list, cz-056-064 red-a "verify-carnet doesn't exist" — it does, justfile line 454). -->
+     list, cz-056-064 red-a "verify-carnet doesn't exist" — it does: the `verify-carnet` recipe in the justfile). -->
 **Verify mechanical agent claims against the justfile/disk before acting.** Agents
 confidently assert checkable facts that are wrong — "recipe X doesn't exist", "carnet N is
 the outlier", "these files still need fixing", "term Y collides". Before you act on any such
