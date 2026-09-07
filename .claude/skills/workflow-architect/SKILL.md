@@ -161,6 +161,14 @@ When proposing changes:
 - Check that state files update properly
 - Validate metrics calculation
 
+<!-- Teamcouch update 2026-09-07: a content writer ships with a gate that fails its own failure shape.
+     Evidence: 2026-06-10-uk-075-077 (sync stripped frontmatter, found only on a backup copy),
+     2026-05-31-cz-050-055 + 2026-06-06-uk-062-064 (scaffold/translator path depth, no gate until
+     verify-carnet), 2026-09-05-integrity-audit (sync multi-line blocks PASSed verify-carnet),
+     2026-09-07-review-and-fix (3rd sync defect on a production run; def→ref counted comment markers;
+     one .md regex copied into three checkers). -->
+- **Any tool that writes content (`sync`, `scaffold`, fixers, mergers) is tested against real carnets on a scratch copy before its first production run, and the gate is tested against that tool's actual output** — a gate that tolerates the writer's failure shape is a blind spot, not a gate. Verification after every run: sorted visible text identical to HEAD, `splicescan` empty, `verify-carnet` PASS. Before changing any checker rule, grep for the same logic duplicated elsewhere (`.md` matching lived in three files) and change them together.
+
 ## Change Approval Workflow
 
 **CRITICAL: You cannot apply changes to skill files without human approval.**

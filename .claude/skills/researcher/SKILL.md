@@ -105,6 +105,12 @@ Multiple footnotes in the same paragraph increment the last number: `[^015.0119.
 
 Older carnets carry a legacy unpadded form (`[^15.119.1]`, or EN's `[^fn047-034]`); leave existing IDs alone — an entry's references and definitions just need to match each other — but write NEW footnotes in the padded form above.
 
+<!-- Teamcouch update 2026-09-07: source-fact corrections propagate to every tree in the same commit.
+     Evidence: 2026-05-31-glossary-link-cleanup (tags needed a separate propagation pass), 2026-06-17
+     footnote backfill (footnotes lived in translations, not the source), 2026-09-05-cz-002-106 (095
+     footnotes fixed only in cz), 2026-09-07-review-and-fix (Collignon fix skipped es and the uk TM). -->
+**When you correct a footnote or glossary fact, correct it in `content/_original` and in every translation tree that carries the note or claim, in the same commit.** A comment in the source saying "this is wrong" is not a fix: readers of en/uk saw the wrong 095 footnotes for two days after cz was corrected. `just sync` will not overwrite a definition the target already holds, so the translations must be patched by hand; list the files in your report.
+
 #### Transcription notes (NOT footnotes)
 
 The text contains editorial notes from the original transcription by Ginnette Apostolescu. These are marked with square brackets and should be **preserved as-is, never removed**:

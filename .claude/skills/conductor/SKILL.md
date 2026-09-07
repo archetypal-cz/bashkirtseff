@@ -168,6 +168,11 @@ Write CON comments directly to translation files. Use timestamped format:
 
 <!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
      Evidence: cz-080-082 (CON comments on 081/082) + cz-083-092 — 2nd instance. -->
+<!-- Teamcouch update 2026-09-07: approve against content/_original, not the embedded French.
+     Evidence: 2026-06-11-cz-080-082, 2026-08-08 fablelous wave (elided embeds), 2026-09-05-integrity-audit
+     (cz/018 ×12, en/091, en/102, cz/011, cz/014 conductor-approved against a stale or condensed copy). -->
+**Approval means the translation matches `content/_original`, not the `%%` French inside the file.** That copy can be stale, elided or a different text, and a review that trusts it approves an entry missing half its source. Before approving, spot-check paragraph count and length against the source file, and open it in full for any entry the gate or the glue detector flags.
+
 **Never type the literal sequence `%%` inside a CON comment** (e.g. "the %% French wrapper"). The gate no longer counts file-level `%%` parity (8b69323fb): it checks the per-line marker shapes of `docs/COMMENT_MARKER_RULES.md` rule 3 (comment-then-prose splice, block unclosed at EOF, multi-line block outside fr, trailing closer with no opener), so a quoted `%%` inside a one-line comment is tolerated — but it is one edit away from a real splice, so write "paragraph-ID wrapper" / "embedded French reference" instead.
 
 

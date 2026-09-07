@@ -105,6 +105,13 @@ Is this still Marie speaking?
      The `just verify-carnet` gate (built 2026-06-06) runs pre-RED and makes this manual step
      redundant; run it yourself only if you're unsure the ED gate ran. -->
 - [ ] **Mechanical integrity (run the tool, don't eyeball):** confirm `just verify-carnet {lang} {carnet}` reports **PASS** (links 0 broken, frontmatter intact, glossary path-depth, footnotes and per-line `%%` shapes OK; read the WARN lines too — id-alignment and the footnote-glue sidecar flag dropped paragraphs and prose swallowed into a footnote; full list in `docs/VERIFY_CARNET_GATE.md`). Glossary path-depth defects and stripped frontmatter read perfectly fine and have repeatedly slipped past reading review — only the tool catches them. (Normally the ED runs this pre-RED; skip if so.)
+<!-- Teamcouch update 2026-09-07: review against content/_original, not the embedded copy; propagate source-fact fixes.
+     Evidence: 2026-06-11-cz-080-082 (external-edition text caught only by RED's source comparison),
+     2026-08-08 fablelous wave (elided/contaminated embeds), 2026-09-05-integrity-audit (cz/018, en/091,
+     en/102, cz/011, cz/014 approved against a stale or condensed embedded French); propagation:
+     2026-05-31-glossary-link-cleanup, 2026-06-17 footnote backfill, 2026-09-05-cz-002-106 (095), 2026-09-07 (Collignon→es). -->
+- [ ] **Coverage checked against `content/_original/{carnet}/`, not only the `%%` French in the file.** The embedded copy can be stale, elided or a different text, and then every reading review approves a half-missing entry. Open the source file for any entry whose length, paragraph count or date heading looks off, and for every entry in a carnet flagged by `check-footnote-glue` or id-alignment.
+- [ ] **A correction to a source fact (footnote text, glossary claim, a name) is applied to `_original` and every translation tree that carries it, in the same commit** — or handed to the lead with the file list. Fixing one language leaves the others wrong, and `sync` will not carry a definition change to a note the target already holds.
 - [ ] **Glossary-tag fidelity spot-check:** for a few entries, compare the translation's glossary-tag lines against the source entry's — the tag SET must match exactly (only the path depth differs). Translators have invented tags, renamed entities, and dropped source tags in ways that still *resolve* and so pass the gate (uk-075-077, cz-080-082); a spot-check against source is currently the only guard.
 
 **LAN Compliance Checklist** (typical entry has 15-40 LAN annotations):

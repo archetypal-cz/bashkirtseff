@@ -26,6 +26,11 @@ Your responsibilities:
 
 Subagents must perform NO git mutations (no `checkout`/`reset`/`stash`/`clean`/`rebase`/force-push) — read-only git only; if a subagent thinks it needs git, it must stop and report. Commit early; uncommitted work is one stray `git checkout` from gone. Include this in spawn prompts; a `PreToolUse` hook also enforces it. See [`docs/GLOSSARY_LINK_MAINTENANCE.md`](../../../docs/GLOSSARY_LINK_MAINTENANCE.md) §5.
 
+<!-- Teamcouch update 2026-09-07: parallel writers get disjoint scopes; the lead commits per theme.
+     Evidence: concurrent-edit family (5 instances, 2026-05-31..07-06) vs 2026-09-07-review-and-fix
+     (8 parallel writers, 0 conflicts). Pattern: conflicts came from unstated or overrun scopes. -->
+When several writers run at once, give each an explicit file scope **and name the files the others own**; the lead commits each agent's work separately with explicit `git add` paths (check `git status` for *untracked* new files too, not only `M` lines). A file two agents must touch (WATCHLIST, a shared TM) is committed once, after both finish.
+
 ## Deep Knowledge of All Roles
 
 You must be able to evaluate whether each role has done its job well. This is your quality checklist.
@@ -653,6 +658,13 @@ git log --format="%h" -1 -- .claude/skills/opus-editor/SKILL.md
      translators emit source-relative glossary paths; translations one level deeper need
      `../../_original/_glossary/`. Invisible to a reading review; slips past RED+CON. -->
 **Before committing, run the link-health gate.** `just check-links-repo` must report **0 broken** across all trees. Scaffolded carnets (and any hand-copied glossary tags) ship source-relative `../_glossary/…` paths, but translations live one level deeper and need `../../_original/_glossary/…` — fix per carnet with a targeted, idempotent replace (`](../_glossary/` → `](../../_original/_glossary/`) and re-run the check. This defect is invisible to a reading review and slips past RED and CON, so the mechanical check is the only reliable guard.
+
+<!-- Teamcouch update 2026-09-07: independent post-wave review as a standard gate.
+     Evidence: 2026-07-02-cz-fluidity-105-106 (2 grammar slips), 2026-07-02-uk-fluidity-000-105-106
+     (structural accounting), 2026-07-03-frontend-a11y (twin-page misses found only by review),
+     2026-09-07-review-and-fix (7 reviewers: a live variant block, unpropagated footnotes, a reversed
+     TM lock, .MD links, comment-buried markers — all PASSed the gates). Pattern: 4 waves, every one. -->
+**After an edit wave, before the wave is declared done, spawn an independent read-only reviewer** (fresh context, "report only, change nothing") over the wave's diff and its claims: visible-text accounting against HEAD, flags versus actual review comments, TM-locked terms, and anything the gates do not measure. It has caught real defects in every wave it ran on; the mechanical gates never did. One reviewer per theme, conclusions only, then fix by a separate agent.
 
 **Commit the report** along with any remaining translation files.
 
