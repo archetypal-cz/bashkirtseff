@@ -1703,3 +1703,38 @@ When translating, refer to this document for established translations of recurri
 - "le père Cassagnac" → starý Cassagnac; Larderei particle uninflected ("k Lardereimu")
 - First appearance: 087
 - Notes: by-design duplicate/error date-headers in 087 (Dimancher 02/01, "March 17/16/6") are preserved verbatim — do not correct.
+
+## Carnet 018 Terms (Nice, 28 Mar – 23 Apr 1874; rulings recorded by CON 2026-09-07)
+
+### Machenka → Mačenka
+- Translation (Czech): Mačenka (declines Mačenky, Mačence, Mačenku, Mačenkou)
+- Context: Stiopa's wife; recurs from carnet 015 onwards. The glossary entry, its id and the tag `[#Machenka]` keep the French form and are NOT touched — this ruling governs running Czech text only.
+- Ruling (2026-09-07, CON): the corpus had three forms in Czech-inflected use — Mačenk- 48, Mašenk- 13, Machenk- 6 — and two FAB passes had normalised in opposite directions (cz/015 and cz/017 to Mačenka, cz/016 to Machenka). Locked on **Mačenka**, the plurality form and the one already dominant in 017 and 018.
+- Open: cz/015 (Mašenka) and cz/016 (Machenka) still diverge; a sweep needs a separate pass, they were outside carnet 018's scope.
+
+### Nejentsov → Nejencov
+- Translation (Czech): Nejencov (italicised, as Marie italicises it)
+- Context: Russian man attached to Paul; 018.0198 is his only appearance in the entire diary.
+- Ruling (2026-09-07, CON): Russian ц renders as Czech c, so Nejencov. No corpus precedent existed either way; nothing else to align.
+
+### Russian surnames: Czech-ised vs. French spelling — UNRESOLVED, maintainer call
+- Carnet 018 (and the corpus at large) mixes two treatments and neither is dominant: Czech-ised (Mačenka, Walitský, Azarevič, Zajčenko, Černjakovka) and French-kept (Anitchkoff/Anitchkoffová, Tutcheff, Apletcheieff, Kolokolzoff, Tchernichoff).
+- Within 018, CON aligned individual names to whichever form the rest of the corpus already used: Tutčev → Tutcheff, Aplečejev → Apletcheieff, Walitsky → Walitský, and the hybrid Zaïtčenko (French diaeresis + Czech háček) → Zajčenko.
+- A corpus-wide rule needs a maintainer decision; do not normalise one way on a single carnet's authority.
+
+### le Bec → Huba (running text), also carnet 018
+- Translation (Czech): Huba / Zamilovaná Huba — see the carnet 016 entry above.
+- Ruling (2026-09-07, CON): carnet 018 had left three occurrences untranslated as "Le Bec" (1874-04-09, 04-11, 04-13), the only three in the whole Czech corpus; carnets 016 and 017 use Huba throughout. Aligned to Huba.
+- Exception: 018.0035 (1874-03-28), where Marie transfers the nickname to Lambertye's nose ("se casse son Bec amoureux, voilà un vrai Bec"), keeps **zobák/zobáček** — "huba" is a mouth and will not do for a nose.
+
+### plashchanitsa → plaščanice (carnet 018 alignment)
+- Ruling (2026-09-07, CON): cz/018 had "plachtšanice", a transliteration of Marie's French spelling. Aligned to the locked form (see the carnet 032 entry), which is also what cz/004 and cz/032 use.
+
+### Glossary tags in translations follow the source tag line
+- Ruling (2026-09-07, CON): two paragraphs in cz/018 carried a tag the source paragraph's tag line does not have and the paragraph text does not support — `#Duke_of_Hamilton` on 018.0195 (Marie's coded "un seul", he is never named) and `#Monte_Carlo` on 018.0270 (hung on a sentence that is not in the manuscript). Both removed. If a coded reference deserves a tag, it belongs in `content/_original/` first; translations do not add tags of their own.
+
+### English passages: Czech in the text, English in the footnote
+- Ruling (2026-09-07, CON): confirms the rule in `content/cz/CLAUDE.md`. Three blocks in cz/018 (018.0275, 018.0276, 018.0287) had it inverted — English in the running text, Czech in the footnote — while three neighbouring blocks in the same entry followed the rule. Converted.
+- The opposite convention (foreign phrase kept in `==highlight==` + Czech in the footnote) stays reserved for short Italian and Latin code-switches, as established for carnets 051/055.
+
+%% 2026-09-07T20:45:00 CON: Added carnet 018 rulings after the full conductor pass (Mačenka, Nejencov, Huba, plaščanice, tag parity, English-passage direction, and the open question of Czech-ised vs. French-kept Russian surnames). %%
