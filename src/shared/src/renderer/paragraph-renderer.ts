@@ -104,6 +104,23 @@ function formatParagraphId(id: string, style: 'obsidian' | 'legacy'): string {
   return style === 'legacy' ? `[//]: # (${id})` : `%% ${id} %%`;
 }
 
+/**
+ * Wrap a source (French) paragraph for a translation file as `%% … %%` comment
+ * lines. A paragraph whose source spans several physical lines is emitted as one
+ * self-contained block PER LINE — the corpus shape (e.g. cz/011 011.0168) and the
+ * only one every `%%` reader agrees on. Emitting the whole text inside a single
+ * pair leaves the first line unclosed, and the frontend then shows the
+ * continuation lines as translated text (2026-09-06 `just sync` corruption of
+ * cz/011, en/102, uk/011).
+ */
+export function renderSourceComment(text: string): string[] {
+  return text
+    .split('\n')
+    .map(line => line.trim().replace(/^#{1,6}\s+/, '')) // a heading line keeps its text, not its `#`
+    .filter(line => line.length > 0)
+    .map(line => `%% ${line} %%`);
+}
+
 export class ParagraphRenderer {
   /**
    * Render a complete diary entry
@@ -435,9 +452,9 @@ export class ParagraphRenderer {
         continue;
       }
 
-      // 2. French original in comment
+      // 2. French original in comment, one `%% … %%` block per physical line
       if (para.originalText) {
-        lines.push(`%% ${para.originalText} %%`);
+        lines.push(...renderSourceComment(para.originalText));
       }
 
       // 3. Glossary links

@@ -2,6 +2,7 @@ export type { RenderOptions } from './paragraph-renderer.js';
 export {
   ParagraphRenderer,
   createDefaultRenderOptions,
+  renderSourceComment,
 } from './paragraph-renderer.js';
 
 export {

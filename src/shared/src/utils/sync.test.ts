@@ -167,3 +167,149 @@ test('a dry run counts entries it would modify', () => {
     f.cleanup();
   }
 });
+
+// --- footnote propagation ---------------------------------------------------
+
+const ORIGINAL_FN = [
+  '---',
+  'date: 1873-01-20',
+  'carnet: "001"',
+  '---',
+  '%% 001.0030 %%',
+  'Au cercle Masséna[^3], énormément de monde. Maman a dansé[^4].',
+  '',
+  '%% 001.0031 %%',
+  'Le soir, au Français[^5].',
+  '',
+  '%% 001.0032 %%',
+  'Boreel s\'est approché de moi.',
+  '',
+  '[^3]: Cercle Masséna, a private club in Nice.',
+  '[^4]: Marie\'s mother, Maria Stepanovna.',
+  '[^5]: Théâtre Français de Nice.',
+  '',
+].join('\n');
+
+function footnoteFixture(translationBody: string): Fixture {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-sync-fn-'));
+  const originalDir = path.join(dir, 'content', '_original', '001');
+  const translationDir = path.join(dir, 'content', 'cz', '001');
+  fs.mkdirSync(originalDir, { recursive: true });
+  fs.mkdirSync(translationDir, { recursive: true });
+  const originalPath = path.join(originalDir, '1873-01-20.md');
+  const translationPath = path.join(translationDir, '1873-01-20.md');
+  fs.writeFileSync(originalPath, ORIGINAL_FN, 'utf-8');
+  fs.writeFileSync(translationPath, translationBody, 'utf-8');
+  return { originalPath, translationPath, cleanup: () => fs.rmSync(dir, { recursive: true, force: true }) };
+}
+
+test('renumbered footnotes are recognised as present and not re-added', () => {
+  // cz renumbers: source [^3]/[^4] are [^01.30.1]/[^01.30.2], source [^5] is [^01.31.1].
+  const f = footnoteFixture([
+    '---',
+    'date: 1873-01-20',
+    'carnet: "001"',
+    '---',
+    '%% 001.0030 %%',
+    'V klubu Masséna[^01.30.1] spousta lidí. Maman tančila[^01.30.2].',
+    '',
+    '%% 001.0031 %%',
+    'Večer ve Français[^01.31.1].',
+    '',
+    '%% 001.0032 %%',
+    'Boreel se ke mně přiblížil.',
+    '',
+    '[^01.30.1]: Cercle Masséna, soukromý klub v Nice.',
+    '[^01.30.2]: Mariina matka, Maria Stěpanovna.',
+    '[^01.31.1]: Théâtre Français v Nice.',
+    '',
+  ].join('\n'));
+  try {
+    const sync = new EntrySync();
+    const before = fs.readFileSync(f.translationPath, 'utf-8');
+    const result = sync.syncEntryFile(f.originalPath, f.translationPath, createDefaultSyncOptions());
+    assert.equal(result.error, undefined);
+    assert.deepEqual(result.changes.filter(c => c.type.startsWith('footnote')), []);
+    assert.deepEqual(result.warnings, []);
+    assert.equal(result.written, false);
+    assert.equal(fs.readFileSync(f.translationPath, 'utf-8'), before);
+  } finally {
+    f.cleanup();
+  }
+});
+
+test('a paragraph with fewer markers than the source is skipped with a warning, never guessed', () => {
+  const f = footnoteFixture([
+    '---',
+    'date: 1873-01-20',
+    'carnet: "001"',
+    '---',
+    '%% 001.0030 %%',
+    'V klubu Masséna[^1] spousta lidí. Maman tančila.',
+    '',
+    '%% 001.0031 %%',
+    'Večer ve Français.',
+    '',
+    '%% 001.0032 %%',
+    'TODO',
+    '',
+    '[^1]: Cercle Masséna, soukromý klub v Nice.',
+    '',
+  ].join('\n'));
+  try {
+    const sync = new EntrySync();
+    const result = sync.syncEntryFile(f.originalPath, f.translationPath, createDefaultSyncOptions());
+    assert.equal(result.error, undefined);
+
+    // 001.0030: one marker vs two in source — ambiguous, nothing added.
+    assert.ok(result.warnings.some(w => w.includes('[^3]') && w.includes('001.0030')), result.warnings.join('\n'));
+    assert.ok(result.warnings.some(w => w.includes('[^4]') && w.includes('001.0030')), result.warnings.join('\n'));
+    // 001.0031: translated, no marker at all — the only safe case, [^5] is appended.
+    const out = fs.readFileSync(f.translationPath, 'utf-8');
+    assert.match(out, /^Večer ve Français\.\[\^5\]$/m);
+    assert.match(out, /^\[\^5\]: Théâtre Français de Nice\.$/m);
+    assert.doesNotMatch(out, /^\[\^3\]:/m);
+    assert.doesNotMatch(out, /^\[\^4\]:/m);
+    assert.doesNotMatch(out, /Maman tančila\.\[\^/);
+    // The translated definition under the translation's own id is untouched.
+    assert.match(out, /^\[\^1\]: Cercle Masséna, soukromý klub v Nice\.$/m);
+    assert.deepEqual(
+      result.changes.filter(c => c.type.startsWith('footnote')).map(c => c.type),
+      ['footnote_added', 'footnote_ref_added']
+    );
+  } finally {
+    f.cleanup();
+  }
+});
+
+test('a definition matching the source text under another id counts as present', () => {
+  const f = footnoteFixture([
+    '---',
+    'date: 1873-01-20',
+    'carnet: "001"',
+    '---',
+    '%% 001.0030 %%',
+    'V klubu Masséna[^a] spousta lidí. Maman tančila[^b].',
+    '',
+    '%% 001.0031 %%',
+    'Večer ve Français.',
+    '',
+    '%% 001.0032 %%',
+    'Boreel se ke mně přiblížil.',
+    '',
+    '[^a]: Cercle Masséna, soukromý klub v Nice.',
+    '[^b]: Mariina matka.',
+    '[^c]: *Théâtre Français de Nice.*',
+    '',
+  ].join('\n'));
+  try {
+    const sync = new EntrySync();
+    const result = sync.syncEntryFile(f.originalPath, f.translationPath, createDefaultSyncOptions());
+    assert.equal(result.error, undefined);
+    // [^5]'s text already exists as [^c] (emphasis aside): not re-added, no marker appended.
+    assert.deepEqual(result.changes.filter(c => c.type.startsWith('footnote')), []);
+    assert.doesNotMatch(fs.readFileSync(f.translationPath, 'utf-8'), /\[\^5\]/);
+  } finally {
+    f.cleanup();
+  }
+});

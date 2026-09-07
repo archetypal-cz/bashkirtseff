@@ -76,6 +76,20 @@ export interface EntrySyncResult {
   changes: SyncChange[];
   written: boolean;
   error?: string;
+  /** Footnotes deliberately NOT propagated because the target's state is ambiguous */
+  warnings: string[];
+}
+
+/**
+ * What the footnote sync will actually do for one entry. Built once and shared
+ * by change detection and the merge so the two never disagree.
+ */
+interface FootnotePlan {
+  /** Source ids whose definition is copied verbatim (under the source id) */
+  addDefinitions: string[];
+  /** Translation paragraph id -> source ids whose marker is appended at its end */
+  addRefs: Map<string, string[]>;
+  warnings: string[];
 }
 
 /**
@@ -259,31 +273,19 @@ export class EntrySync {
     translation: DiaryEntry
   ): SyncChange[] {
     const changes: SyncChange[] = [];
+    const plan = this.planFootnoteSync(original, translation);
 
-    // Build map of which paragraphs have which footnote refs in original
-    const origFootnoteParaMap = new Map<string, string>(); // fnId -> paraId
-    for (const origPara of original.paragraphs) {
-      for (const fnRef of origPara.footnoteRefs) {
-        origFootnoteParaMap.set(fnRef, origPara.id);
-      }
-    }
-
-    // Build set of existing footnote refs in translation
-    const existingTransFnRefs = new Set<string>();
-    for (const transPara of translation.paragraphs) {
-      for (const fnRef of transPara.footnoteRefs) {
-        existingTransFnRefs.add(fnRef);
-      }
+    for (const fnId of plan.addDefinitions) {
+      const fnText = original.footnotes[fnId];
+      changes.push({
+        type: 'footnote_added',
+        description: `New footnote [^${fnId}]`,
+        newValue: fnText.substring(0, 60) + (fnText.length > 60 ? '...' : ''),
+      });
     }
 
     for (const [fnId, fnText] of Object.entries(original.footnotes)) {
-      if (!(fnId in translation.footnotes)) {
-        changes.push({
-          type: 'footnote_added',
-          description: `New footnote [^${fnId}]`,
-          newValue: fnText.substring(0, 60) + (fnText.length > 60 ? '...' : ''),
-        });
-      } else if (translation.footnotes[fnId] !== fnText) {
+      if (fnId in translation.footnotes && translation.footnotes[fnId] !== fnText) {
         changes.push({
           type: 'footnote_updated',
           description: `Updated footnote [^${fnId}]`,
@@ -291,21 +293,120 @@ export class EntrySync {
           newValue: fnText.substring(0, 40),
         });
       }
+    }
 
-      // Check if footnote reference is missing in translation
-      if (!existingTransFnRefs.has(fnId)) {
-        const origParaId = origFootnoteParaMap.get(fnId);
-        if (origParaId) {
-          changes.push({
-            type: 'footnote_ref_added',
-            paragraphId: origParaId,
-            description: `Add footnote ref [^${fnId}] to paragraph ${origParaId}`,
-          });
-        }
+    for (const [paraId, fnIds] of plan.addRefs) {
+      for (const fnId of fnIds) {
+        changes.push({
+          type: 'footnote_ref_added',
+          paragraphId: paraId,
+          description: `Add footnote ref [^${fnId}] to paragraph ${paraId}`,
+        });
       }
     }
 
     return changes;
+  }
+
+  /**
+   * Normalise a footnote definition for a same-note comparison across ids:
+   * emphasis, quotes and whitespace differences must not hide an identical note.
+   */
+  private static footnoteKey(text: string): string {
+    return text
+      .toLowerCase()
+      .replace(/[*_`«»"'“”‘’]/g, '')
+      .replace(/\s+/g, ' ')
+      .replace(/[.\s]+$/, '')
+      .trim();
+  }
+
+  /**
+   * Decide which source footnotes are genuinely absent from the translation.
+   *
+   * Translation trees renumber footnotes (source `[^3]` may be `[^01.10.1]` or
+   * `[^2]` in the target), so "the source id is missing" is not evidence the note
+   * is missing. A source marker counts as PRESENT when
+   *   - the target references the same id anywhere, or
+   *   - the target paragraph carries at least as many markers as the source
+   *     paragraph (the k-th source marker maps to the k-th target marker), or
+   *   - some target definition is the same text as the source definition.
+   * A source marker is ADDED (definition + marker at paragraph end) only when the
+   * target paragraph is translated and carries no marker at all. Anything else —
+   * fewer markers than the source, an untranslated paragraph, a source note no
+   * source paragraph references — is ambiguous: it is skipped with a warning
+   * rather than guessed. A definition is never overwritten and never added
+   * without a marker to anchor it.
+   */
+  private planFootnoteSync(original: DiaryEntry, translation: DiaryEntry): FootnotePlan {
+    const plan: FootnotePlan = { addDefinitions: [], addRefs: new Map(), warnings: [] };
+
+    const transParas = new Map(translation.paragraphs.map(p => [p.id, p]));
+    const transRefIds = new Set<string>();
+    for (const p of translation.paragraphs) {
+      for (const id of p.footnoteRefs) transRefIds.add(id);
+    }
+    const transDefKeys = new Set(
+      Object.values(translation.footnotes).map(t => EntrySync.footnoteKey(t))
+    );
+
+    const referencedInSource = new Set<string>();
+    const decided = new Set<string>();
+    const addDef = (fnId: string) => {
+      if (fnId in original.footnotes && !(fnId in translation.footnotes) && !plan.addDefinitions.includes(fnId)) {
+        plan.addDefinitions.push(fnId);
+      }
+    };
+
+    for (const origPara of original.paragraphs) {
+      const transPara = transParas.get(origPara.id);
+      for (const fnId of origPara.footnoteRefs) {
+        referencedInSource.add(fnId);
+        if (decided.has(fnId)) continue;
+        decided.add(fnId);
+        const fnText = original.footnotes[fnId];
+
+        if (transRefIds.has(fnId)) {
+          // Same id already anchored; only a missing definition needs repair
+          addDef(fnId);
+          continue;
+        }
+        if (transPara && transPara.footnoteRefs.length >= origPara.footnoteRefs.length) {
+          continue; // renumbered: the k-th target marker is this note
+        }
+        if (fnText !== undefined && transDefKeys.has(EntrySync.footnoteKey(fnText))) {
+          continue; // same note text under another id
+        }
+        if (fnText === undefined) {
+          plan.warnings.push(`[^${fnId}] referenced in source paragraph ${origPara.id} but never defined in the source; not propagated`);
+          continue;
+        }
+        if (!transPara || !transPara.translatedText || transPara.translatedText.trim() === 'TODO') {
+          plan.warnings.push(`[^${fnId}] (paragraph ${origPara.id}) skipped: paragraph is not translated yet, nowhere to anchor the marker`);
+          continue;
+        }
+        if (transPara.footnoteRefs.length > 0) {
+          plan.warnings.push(
+            `[^${fnId}] (paragraph ${origPara.id}) skipped: target paragraph carries ${transPara.footnoteRefs.length} marker(s) ` +
+            `[${transPara.footnoteRefs.map(r => `^${r}`).join(', ')}] vs ${origPara.footnoteRefs.length} in source — cannot tell which note is missing`
+          );
+          continue;
+        }
+        // Translated paragraph with no marker at all: safe to append
+        addDef(fnId);
+        const list = plan.addRefs.get(origPara.id) ?? [];
+        list.push(fnId);
+        plan.addRefs.set(origPara.id, list);
+      }
+    }
+
+    for (const fnId of Object.keys(original.footnotes)) {
+      if (!referencedInSource.has(fnId) && !(fnId in translation.footnotes)) {
+        plan.warnings.push(`[^${fnId}] is defined in the source but no source paragraph references it; not propagated`);
+      }
+    }
+
+    return plan;
   }
 
   /**
@@ -395,41 +496,19 @@ export class EntrySync {
       return a.paraNum - b.paraNum;
     });
 
-    // Sync footnotes (definitions and references)
+    // Sync footnotes (definitions and references) — see planFootnoteSync for
+    // what counts as "already present"; a definition is never overwritten.
     if (options.syncFootnotes) {
-      // Build map of which paragraphs have which footnote refs in original
-      const origFootnoteParaMap = new Map<string, string>(); // fnId -> paraId
-      for (const origPara of original.paragraphs) {
-        for (const fnRef of origPara.footnoteRefs) {
-          origFootnoteParaMap.set(fnRef, origPara.id);
-        }
+      const plan = this.planFootnoteSync(original, translation);
+      for (const fnId of plan.addDefinitions) {
+        synced.footnotes[fnId] = original.footnotes[fnId];
       }
-
-      // Build set of existing footnote refs in translation
-      const existingTransFnRefs = new Set<string>();
-      for (const transPara of synced.paragraphs) {
-        for (const fnRef of transPara.footnoteRefs) {
-          existingTransFnRefs.add(fnRef);
-        }
-      }
-
-      for (const [fnId, fnText] of Object.entries(original.footnotes)) {
-        // Add footnote definition if not present (don't overwrite translated)
-        if (!(fnId in synced.footnotes)) {
-          synced.footnotes[fnId] = fnText;
-        }
-
-        // Add footnote reference to paragraph if not already present
-        if (!existingTransFnRefs.has(fnId)) {
-          const origParaId = origFootnoteParaMap.get(fnId);
-          if (origParaId) {
-            const syncedPara = syncedParagraphs.get(origParaId);
-            if (syncedPara && syncedPara.translatedText) {
-              // Add footnote ref at end of translated text
-              syncedPara.translatedText = syncedPara.translatedText.trimEnd() + `[^${fnId}]`;
-              syncedPara.footnoteRefs.push(fnId);
-            }
-          }
+      for (const [paraId, fnIds] of plan.addRefs) {
+        const syncedPara = syncedParagraphs.get(paraId);
+        if (!syncedPara || !syncedPara.translatedText) continue;
+        for (const fnId of fnIds) {
+          syncedPara.translatedText = syncedPara.translatedText.trimEnd() + `[^${fnId}]`;
+          syncedPara.footnoteRefs.push(fnId);
         }
       }
     }
@@ -517,6 +596,7 @@ export class EntrySync {
       translationPath,
       changes: [],
       written: false,
+      warnings: [],
     };
 
     try {
@@ -545,6 +625,12 @@ export class EntrySync {
 
       // Detect changes
       result.changes = this.detectChanges(original, translation, options);
+      if (options.syncFootnotes) {
+        result.warnings = this.planFootnoteSync(original, translation).warnings;
+        for (const w of result.warnings) {
+          console.warn(`[sync] WARN ${path.basename(translationPath)}: ${w}`);
+        }
+      }
 
       if (result.changes.length === 0) {
         return result;
