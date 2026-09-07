@@ -16,6 +16,8 @@ import {
   FOOTNOTE_REF_PATTERN,
   HEADER_PATTERN,
   VERSION_CONTENT_PATTERN,
+  UNTIMESTAMPED_ROLE_NOTE_PATTERN,
+  EMBEDDED_ROLE_NOTE_PATTERN,
 } from './patterns.js';
 import { scanComments } from './comment-scanner.js';
 import { parseFrontmatter, extractDateFromFilename, detectLanguage } from './frontmatter.js';
@@ -41,8 +43,25 @@ function normalizeTimestamp(tsStr: string): string {
  */
 type ParsedItem =
   | { kind: 'id'; carnet: string; seq: string }
-  | { kind: 'comment'; content: string }
+  /** `line`/`endLine` are 0-based indices of the physical lines the block spans */
+  | { kind: 'comment'; content: string; line: number; endLine: number }
   | { kind: 'text'; text: string };
+
+/**
+ * An untimestamped, tag-free comment body in a translation file is embedded
+ * French source unless it is an annotation in disguise: a role note without a
+ * timestamp (`TR: …`), one whose date lacks a time or whose role is not a bare
+ * code (`2026-05-30 TR: …`, `2026-02-02T12:20:00 LAN context: …`), or a body
+ * carrying a timestamped role marker after some prose. Same exclusions as
+ * `isFrenchOriginal` in src/frontend/src/lib/content.ts.
+ */
+function isAnnotationContent(content: string): boolean {
+  return (
+    /^\d{4}-\d{2}-\d{2}/.test(content) ||
+    UNTIMESTAMPED_ROLE_NOTE_PATTERN.test(content) ||
+    EMBEDDED_ROLE_NOTE_PATTERN.test(content)
+  );
+}
 
 /**
  * Result of extracting footnote definitions from a file
@@ -175,7 +194,12 @@ export class ParagraphParser {
           if (idMatch) {
             items.push({ kind: 'id', carnet: idMatch[1], seq: idMatch[2] });
           } else {
-            items.push({ kind: 'comment', content: segment.content });
+            items.push({
+              kind: 'comment',
+              content: segment.content,
+              line: segment.startLine,
+              endLine: segment.endLine,
+            });
           }
         }
         continue;
@@ -284,12 +308,23 @@ export class ParagraphParser {
     // Collect main text lines (non-comment) to join later
     const mainTextLines: string[] = [];
 
+    // Embedded French source in a translation file: the first source comment
+    // after the ID, plus every source comment on the physical lines directly
+    // following it (a multi-line source paragraph is stored as consecutive
+    // `%% line %%` lines). Anything else — a note, a tag, translation text, a
+    // blank line, a second span on the same line — ends the run; later source
+    // comments in the block are ignored. See docs/COMMENT_MARKER_RULES.md (f).
+    let sourceRunEndLine: number | null = null;
+
     // Parse content after paragraph ID until next paragraph ID or EOF
     while (idx < items.length) {
       const item = items[idx];
       if (item.kind === 'id') {
         break;
       }
+
+      const runEndLine = sourceRunEndLine;
+      sourceRunEndLine = null;
 
       if (item.kind === 'comment') {
         const extracted = this.extractMetadata(item.content);
@@ -306,11 +341,15 @@ export class ParagraphParser {
             const { version, text } = extracted as { version: string | null; text: string };
             if (version) {
               para.translationVersions.set(version, text);
-            } else {
+            } else if (isTranslation && !isAnnotationContent(text)) {
               // Plain text in comment = original French text (for translation files)
-              // Only store if we're in a translation file and not already set
-              if (isTranslation && !para.originalText) {
+              const singleLine = item.line === item.endLine;
+              if (!para.originalText) {
                 para.originalText = text;
+                if (singleLine) sourceRunEndLine = item.endLine;
+              } else if (runEndLine !== null && singleLine && item.line === runEndLine + 1) {
+                para.originalText += '\n' + text;
+                sourceRunEndLine = item.endLine;
               }
             }
           }

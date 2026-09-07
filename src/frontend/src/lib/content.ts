@@ -781,8 +781,18 @@ function parseParagraphs(content: string, language: string, context?: string): P
       }
     };
 
+    // A multi-line source paragraph is stored as CONSECUTIVE `%% line %%` lines.
+    // The run opens on the first bare source line after the paragraph ID and is
+    // extended by each source line on the physically following line; any other
+    // line (note, tag, translation text, blank, block opener, a line carrying a
+    // second span) ends it, and later source lines in the block are ignored.
+    // Mirrors ParagraphParser in src/shared — docs/COMMENT_MARKER_RULES.md (f).
+    let sourceRunOpen = false;
+
     for (const line of lines) {
       const trimmed = line.trim();
+      const continuesSourceRun = sourceRunOpen;
+      sourceRunOpen = false;
 
       // Handle multi-line original block continuation/end FIRST: inside an open
       // block only a line ENDING in `%%` closes it. A continuation line that
@@ -836,9 +846,16 @@ function parseParagraphs(content: string, language: string, context?: string): P
 
       // Check for single-line French original - assign to CURRENT paragraph, not next
       if (isFrenchOriginal(trimmed)) {
+        // A line with an appended span (`%% French %% %% note %%`) is source, but
+        // the annotation after it closes the run.
+        const bareSpan = (trimmed.match(/%%/g) || []).length === 2;
         // Original text comes after paragraph ID, so assign to current paragraph
         if (currentId && !currentOriginal) {
           currentOriginal = firstMarkerSpan(trimmed);
+          sourceRunOpen = bareSpan;
+        } else if (currentId && continuesSourceRun) {
+          currentOriginal += '\n' + firstMarkerSpan(trimmed);
+          sourceRunOpen = bareSpan;
         }
         continue;
       }

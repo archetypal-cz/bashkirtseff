@@ -119,3 +119,23 @@ do it per carnet, behind `just check-comments`. Step 4 changes rendering for
 1,052 `fr` blocks; verify a sample of promoted paragraphs before deploying.
 The `_original` and `fr` exemptions at `check_comment_structure.py:72` hide
 1,695 lines from every gate — narrowing that is a separate, larger cleanup.
+
+## (f) Multi-line embedded source (2026-09-07)
+
+A translation file stores a multi-line French paragraph as **consecutive**
+`%% line %%` lines (the shape the corpus uses and what `just sync` and the scaffolder
+emit since 72a4ce7c7). Both parsers — `ParagraphParser.parseParagraphCluster` in
+`src/shared/src/parser/paragraph-parser.ts` and `parseParagraphs` in
+`src/frontend/src/lib/content.ts` — build `originalText` the same way: the first
+source line after the paragraph ID, plus every source line on the physically
+following lines, joined with `\n` (the renderer splits on `\n` and re-emits one
+`%% line %%` per line, so the shape round-trips). A source line is a single-line
+`%% … %%` span whose body is not a paragraph ID, not a glossary tag, and not a role
+note (timestamped, `TR:`-style untimestamped, or with a timestamped role marker
+anywhere in the body); a `# …` body counts as source (the `# Vendredi… / Carnet N° 13`
+heading blocks). The run ends at the first line that is anything else — a note, a
+tag, translation text, a blank line, a footnote, a `[//]:` line, a multi-line block
+opener, or a line carrying a second span after the source span — and later source
+lines in the same block are ignored as before. Before this rule both parsers kept
+only the first line; on 2026-09-07 that affected 1,198 cz, 851 uk and 784 en
+paragraphs (0 in `fr` and `es`).

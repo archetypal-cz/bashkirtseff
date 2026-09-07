@@ -46,6 +46,24 @@ export const VERSION_CONTENT_PATTERN = /^v([\d._-]+)\s+([\s\S]+)$/;
 /** Original text in comment (no version prefix) */
 export const ORIGINAL_COMMENT_PATTERN = /^%%\s*([^v].+|v[^0-9].*)\s*%%$/;
 
+/**
+ * Role codes that may open an annotation comment. Superset of NOTE_ROLES:
+ * FRE and REV occur in older files. Kept in step with KNOWN_ROLE_CODES in
+ * src/frontend/src/lib/content.ts.
+ */
+export const ROLE_CODES_SOURCE = '(?:RSR|LAN|TR|RED|CON|PA|GEM|PPX|OPS|FRE|REV|ED|FAB|VOX|KRR)';
+
+/** Untimestamped role note, markers stripped: `TR: kept the telegram style` */
+export const UNTIMESTAMPED_ROLE_NOTE_PATTERN = new RegExp(`^${ROLE_CODES_SOURCE}:`);
+
+/**
+ * A timestamped role marker anywhere in a comment body (`… ; 2026-05-30T12:00:00 TR: …`).
+ * Diary source never contains one, so its presence marks the span as annotation.
+ */
+export const EMBEDDED_ROLE_NOTE_PATTERN = new RegExp(
+  `\\d{4}-\\d{2}-\\d{2}T[\\d:]+\\s*${ROLE_CODES_SOURCE}:`
+);
+
 /** Old comment format: [//]: # ( comment content ) */
 export const OLD_COMMENT_PATTERN = /^\[\/\/\]: # \((.*?)\)$/s;
 

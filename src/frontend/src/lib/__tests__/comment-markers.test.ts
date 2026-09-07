@@ -261,3 +261,151 @@ describe('single-line French source with an appended span', () => {
     expect(p!.text).not.toContain('LAN');
   });
 });
+
+describe('consecutive source lines (docs/COMMENT_MARKER_RULES.md (f))', () => {
+  it('joins consecutive `%% line %%` source lines into one originalText', () => {
+    writeEntry(
+      'cz',
+      '901',
+      '1873-11-01',
+      [
+        '%% 901.0001 %%',
+        '%% [#Nice](../../_original/_glossary/places/cities/NICE.md) %%',
+        '%% Mon malheureux journal %%',
+        '%% commencé le samedi 1er novembre 1873 %%',
+        '%% terminé le jeudi 20 novembre 1873 %%',
+        '%% 2026-01-29T09:16:00 LAN: "malheureux" - unhappy and unlucky %%',
+        'Můj ubohý deník',
+        'začatý v sobotu 1. listopadu 1873',
+      ].join('\n')
+    );
+
+    const p = paragraph('cz', '901', '1873-11-01', '901.0001');
+    expect(p!.originalText).toBe(
+      'Mon malheureux journal\ncommencé le samedi 1er novembre 1873\nterminé le jeudi 20 novembre 1873'
+    );
+    expect(p!.originalText).not.toContain('LAN');
+    expect(p!.originalText).not.toContain('[#');
+    expect(p!.text).toBe('Můj ubohý deník\nzačatý v sobotu 1. listopadu 1873');
+  });
+
+  it('leaves a single source line unchanged', () => {
+    writeEntry(
+      'cz',
+      '901',
+      '1873-01-11',
+      ['%% 901.0002 %%', '%% Il fait un temps superbe. %%', 'Je nádherné počasí.'].join('\n')
+    );
+    const p = paragraph('cz', '901', '1873-01-11', '901.0002');
+    expect(p!.originalText).toBe('Il fait un temps superbe.');
+  });
+
+  it('ends the run at a note, a tag, an untimestamped role note or translation text', () => {
+    writeEntry(
+      'cz',
+      '901',
+      '1873-01-12',
+      [
+        '%% 901.0003 %%',
+        '%% Première ligne. %%',
+        '%% 2026-01-29T09:16:00 LAN: a note %%',
+        '%% Pas une continuation. %%',
+        'První.',
+        '',
+        '%% 901.0004 %%',
+        '%% Deuxième ligne. %%',
+        '%% [#Nice](../../_original/_glossary/places/cities/NICE.md) %%',
+        '%% Pas une continuation. %%',
+        'Druhý.',
+        '',
+        '%% 901.0005 %%',
+        '%% Troisième ligne. %%',
+        '%% TR: kept the telegram style %%',
+        '%% Pas une continuation. %%',
+        'Třetí.',
+        '',
+        '%% 901.0006 %%',
+        '%% Quatrième ligne. %%',
+        'Čtvrtý.',
+        '%% Pas une continuation. %%',
+      ].join('\n')
+    );
+
+    for (const [id, expected] of [
+      ['901.0003', 'Première ligne.'],
+      ['901.0004', 'Deuxième ligne.'],
+      ['901.0005', 'Troisième ligne.'],
+      ['901.0006', 'Quatrième ligne.'],
+    ]) {
+      expect(paragraph('cz', '901', '1873-01-12', id)!.originalText).toBe(expected);
+    }
+  });
+
+  it('ends the run at a blank line, an empty span or a second span on the line', () => {
+    writeEntry(
+      'cz',
+      '901',
+      '1873-01-13',
+      [
+        '%% 901.0007 %%',
+        '%% Première ligne. %%',
+        '',
+        '%% Après un blanc. %%',
+        'První.',
+        '',
+        '%% 901.0008 %%',
+        '%% Deuxième ligne. %%',
+        '%% %%',
+        '%% Après un vide. %%',
+        'Druhý.',
+        '',
+        '%% 901.0009 %%',
+        '%% Troisième ligne. %% %% 2026-01-29T09:16:00 LAN: glued note %%',
+        '%% Après une note collée. %%',
+        'Třetí.',
+      ].join('\n')
+    );
+
+    for (const [id, expected] of [
+      ['901.0007', 'Première ligne.'],
+      ['901.0008', 'Deuxième ligne.'],
+      ['901.0009', 'Troisième ligne.'],
+    ]) {
+      expect(paragraph('cz', '901', '1873-01-13', id)!.originalText).toBe(expected);
+    }
+  });
+
+  it('does not let a lone-%% multi-line block open a run', () => {
+    writeEntry(
+      'cz',
+      '901',
+      '1873-01-14',
+      [
+        '%% 901.0010 %%',
+        '%% Première ligne du bloc',
+        'seconde ligne du bloc. %%',
+        '%% Pas une continuation. %%',
+        'Překlad.',
+      ].join('\n')
+    );
+    const p = paragraph('cz', '901', '1873-01-14', '901.0010');
+    expect(p!.originalText).toBe('Première ligne du bloc seconde ligne du bloc.');
+  });
+
+  it('joins a heading-shaped source line with the line after it', () => {
+    writeEntry(
+      'cz',
+      '901',
+      '1873-11-21',
+      [
+        '%% 901.0011 %%',
+        '%% # Vendredi 21 novembre 1873 %%',
+        '%% Carnet N° 13 %%',
+        '# Pátek 21. listopadu 1873',
+        'Sešit č. 13',
+      ].join('\n')
+    );
+    const p = paragraph('cz', '901', '1873-11-21', '901.0011');
+    expect(p!.originalText).toBe('# Vendredi 21 novembre 1873\nCarnet N° 13');
+  });
+});

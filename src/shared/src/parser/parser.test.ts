@@ -275,3 +275,157 @@ test('frontmatter tolerates CRLF and reports unusable YAML', () => {
   assert.equal(none.raw, '');
   assert.equal(none.error, undefined);
 });
+
+// ---------------------------------------------------------------------------
+// Embedded French source in translation files (docs/COMMENT_MARKER_RULES.md (f))
+// ---------------------------------------------------------------------------
+
+function withTranslationFile(body: string, run: (filePath: string) => void): void {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-parser-'));
+  const carnetDir = path.join(dir, 'content', 'cz', '001');
+  fs.mkdirSync(carnetDir, { recursive: true });
+  const filePath = path.join(carnetDir, '1873-01-11.md');
+  fs.writeFileSync(filePath, body, 'utf-8');
+  try {
+    run(filePath);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+}
+
+test('consecutive source lines join into one originalText and round-trip', () => {
+  const body = [
+    '%% 001.0001 %%',
+    '%% [#Nice](../../_original/_glossary/places/cities/NICE.md) %%',
+    '%% Mon malheureux journal %%',
+    '%% commencé le samedi 1er novembre 1873 %%',
+    '%% terminé le jeudi 20 novembre 1873 %%',
+    '%% 2026-01-29T09:16:00 LAN: "malheureux" - unhappy and unlucky %%',
+    'Můj ubohý deník',
+    'začatý v sobotu 1. listopadu 1873',
+    'ukončený ve čtvrtek 20. listopadu 1873',
+    '',
+  ].join('\n');
+
+  withTranslationFile(body, (filePath) => {
+    const entry = parser.parseFile(filePath);
+    const para = entry.paragraphs[0];
+    assert.equal(
+      para.originalText,
+      'Mon malheureux journal\ncommencé le samedi 1er novembre 1873\nterminé le jeudi 20 novembre 1873'
+    );
+    assert.equal(para.notes.length, 1);
+    assert.deepEqual(para.glossaryLinks.map((l) => l.displayText), ['Nice']);
+
+    const rendered = renderer.renderTranslationEntry(entry);
+    fs.writeFileSync(filePath, rendered, 'utf-8');
+    const reparsed = parser.parseFile(filePath);
+    assert.equal(reparsed.paragraphs[0].originalText, para.originalText);
+    assert.equal(renderer.renderTranslationEntry(reparsed), rendered);
+  });
+});
+
+test('a single source line is unchanged', () => {
+  const body = ['%% 001.0001 %%', '%% Il fait un temps superbe. %%', 'Je nádherné počasí.', ''].join('\n');
+  withTranslationFile(body, (filePath) => {
+    const entry = parser.parseFile(filePath);
+    assert.equal(entry.paragraphs[0].originalText, 'Il fait un temps superbe.');
+    assert.equal(entry.paragraphs[0].translatedText, 'Je nádherné počasí.');
+  });
+});
+
+test('a note, a tag or an untimestamped role note after the source ends the run', () => {
+  const body = [
+    '%% 001.0001 %%',
+    '%% Première ligne. %%',
+    '%% 2026-01-29T09:16:00 LAN: a note %%',
+    '%% Pas une continuation. %%',
+    'První.',
+    '',
+    '%% 001.0002 %%',
+    '%% Deuxième ligne. %%',
+    '%% [#Nice](../../_original/_glossary/places/cities/NICE.md) %%',
+    '%% Pas une continuation. %%',
+    'Druhý.',
+    '',
+    '%% 001.0003 %%',
+    '%% Troisième ligne. %%',
+    '%% TR: kept the telegram style %%',
+    '%% Pas une continuation. %%',
+    'Třetí.',
+    '',
+  ].join('\n');
+
+  withTranslationFile(body, (filePath) => {
+    const entry = parser.parseFile(filePath);
+    assert.deepEqual(
+      entry.paragraphs.map((p) => p.originalText),
+      ['Première ligne.', 'Deuxième ligne.', 'Troisième ligne.']
+    );
+    assert.equal(entry.paragraphs[0].notes[0].content, 'a note');
+    assert.deepEqual(entry.paragraphs[1].glossaryLinks.map((l) => l.displayText), ['Nice']);
+  });
+});
+
+test('a blank line, an empty span or a second span on the line ends the run', () => {
+  const body = [
+    '%% 001.0001 %%',
+    '%% Première ligne. %%',
+    '',
+    '%% Après un blanc. %%',
+    'První.',
+    '',
+    '%% 001.0002 %%',
+    '%% Deuxième ligne. %%',
+    '%% %%',
+    '%% Après un vide. %%',
+    'Druhý.',
+    '',
+    '%% 001.0003 %%',
+    '%% Troisième ligne. %% %% 2026-01-29T09:16:00 LAN: glued note %%',
+    '%% Après une note collée. %%',
+    'Třetí.',
+    '',
+  ].join('\n');
+
+  withTranslationFile(body, (filePath) => {
+    const entry = parser.parseFile(filePath);
+    assert.deepEqual(
+      entry.paragraphs.map((p) => p.originalText),
+      ['Première ligne.', 'Deuxième ligne.', 'Troisième ligne.']
+    );
+    assert.equal(entry.paragraphs[2].notes[0].content, 'glued note');
+  });
+});
+
+test('a lone-%% multi-line block is one source and does not open a run', () => {
+  const body = [
+    '%% 001.0001 %%',
+    '%% Première ligne du bloc',
+    'seconde ligne du bloc. %%',
+    '%% Pas une continuation. %%',
+    'Překlad.',
+    '',
+  ].join('\n');
+
+  withTranslationFile(body, (filePath) => {
+    const entry = parser.parseFile(filePath);
+    assert.equal(entry.paragraphs[0].originalText, 'Première ligne du bloc\nseconde ligne du bloc.');
+  });
+});
+
+test('a heading-shaped source line joins the line after it', () => {
+  const body = [
+    '%% 001.0001 %%',
+    '%% # Vendredi 21 novembre 1873 %%',
+    '%% Carnet N° 13 %%',
+    '# Pátek 21. listopadu 1873',
+    'Sešit č. 13',
+    '',
+  ].join('\n');
+
+  withTranslationFile(body, (filePath) => {
+    const entry = parser.parseFile(filePath);
+    assert.equal(entry.paragraphs[0].originalText, '# Vendredi 21 novembre 1873\nCarnet N° 13');
+  });
+});
