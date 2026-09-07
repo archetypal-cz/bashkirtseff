@@ -1,7 +1,7 @@
 # Spanish Translation Progress
 
-<!-- Last updated: 2026-09-05 -->
-<!-- Updated by: ED (pilot slice 1 closeout) -->
+<!-- Last updated: 2026-09-07 -->
+<!-- Updated by: ED (pilot policy decisions) -->
 
 ## Overview
 
@@ -61,13 +61,19 @@ Pilot on carnet 001 must complete and be reviewed by the human before any wave i
 - **Top defect categories**: (1) tense/voice — passé composé and narrative present flattened, periphrastic *ser*-passive; (2) deixis and null-subject ambiguity; (3) ser/estar on appearance; (4) register drift into notarial or dubbing-flavoured Spanish; (5) adverb/adjective placement calqued from French; (6) footnote fidelity when translating inherited notes. Plus garment "con"/static "en" prepositions and one asserted-but-unapplied fix in a review comment.
 - **Decisions taken**: *voiture* → "carruaje"; bare "Cuaderno n.º 1"; footnote call before punctuation (RAE); performed-work titles kept in French + glossed, descriptive titles translated; translator-added footnotes allowed when aligned with the en apparatus. All folded into `CLAUDE.md` on 2026-09-05.
 
-### Open decisions for the human (after the first slice / carnet)
+### Decided 2026-09-07 (maintainer's brief: sensible defaults from Spanish translations of French literature, modern lean, readable in Spain and Latin America alike)
 
-1. **vosotros vs ustedes** — pilot default is `vosotros` for informal plural (classic literary translation norm); alternative is `ustedes` throughout for a Latin-American readership. Decide once; the switch is mechanical only if TR comments flag every informal plural. **Still untested after slice 1**: zero informal plurals occurred; needs a later slice with family dialogue.
-2. **Spanish UI locale before or after the diary tree** — whether `es.json` and the GUI locale go live first (readers of cz/en/uk with a Spanish interface) or only together with the first published Spanish carnet.
-3. **TM seeding** — whether to pre-seed `TranslationMemory.md` from the en/uk TM structure (People, Places, Titles, Key Terms) beyond the policy rows already present, or grow it per carnet as cz/uk did.
-4. **Russian name transliteration** — Piotr vs Pedro, Nikolái vs Nicolás; decide the policy line (Spanish transliteration for people, exonym for places) before carnet 002.
-5. **Footnote label style** — "N. de la T." (default) vs "Nota de la traductora"; confirm with the frontend renderer.
+Full rules in `CLAUDE.md` (sections marked DECIDIDO 2026-09-07) and `TranslationMemory.md`.
+
+1. **Second person: tú / usted by the French *tu/vous* per instance; plural always `ustedes`.** *Ustedes* is the only plural in all of Latin America, the Canaries and western Andalusia (DPD, s. v. *vosotros*, *usted*) and is understood everywhere; *vosotros* reads as foreign to most readers. Cost: in Spain the intimate plural sounds slightly formal and the tú/usted contrast vanishes in the plural; in a first-person diary the second-person plural occurs almost only in quoted dialogue, so the loss is marginal. Slice 1 contains no second-person plural, so no entry changes. Supersedes the `vosotros` pilot default.
+2. **Names: three tiers.** "Marie Bashkirtseff" locked; private persons keep Marie's French spelling as in the glossary (Babanine, Gagarine, Paul Grigorievitch, Nicolas, Pierre; the "Piotr vs Pedro" question is closed: neither, keep Marie's form); public figures take the established Spanish form (Tolstói, Dostoievski per the FundéuRAE transcription guide; monarchs and saints hispanised per the RAE *Ortografía*: Alejandro II, Nicolás I, Pedro el Grande). Glossary tags keep the `_original` id; each rendering is recorded in the TM with its glossary id for the future onomastics checker.
+3. **Footnote labels confirmed: N. de la A. / N. de la T. / N. de la E.**, mapped one-to-one onto cz *Pozn. aut. / Pozn. překl. / Pozn. red.* with the same meaning (T = inherited explanatory notes + translation decisions; E = editorial reading/research notes). Abbreviated form with the colon; the frontend does not parse the label. The feminine form is an internal-consistency choice (already approved in slice 1; "N. del T." and "N. de la T." both circulate in Spanish publishing), reversible by mechanical substitution.
+4. **Exonyms: established Spanish exonym when one exists and is current, local form otherwise** (RAE *Ortografía* 2010, FundéuRAE): Niza, París, Roma, Nápoles, Florencia, Viena, Ginebra, Versalles, Bruselas, Marsella, Génova, Venecia, Berlín, Londres, Moscú, San Petersburgo, Kiev, Járkov, Odesa, Mónaco, Montecarlo, los Campos Elíseos; kept: Gioia, Dieppe, Baden-Baden, Spa, Soden, Wiesbaden, Schlangenbad, Biarritz, Ostende, Poltava, Gavronzi (Marie's spelling, as in en and the glossary), Promenade des Anglais, Bois de Boulogne. Kiev/Járkov/Odesa are the FundéuRAE-recommended forms, so the es tree departs from the expansion plan's "transliterate from Ukrainian" line for Ukrainian places; Ukrainian variants are recorded in the glossary/TM only.
+
+### Still open for the human
+
+1. **Spanish UI locale before or after the diary tree** — whether `es.json` and the GUI locale go live first (readers of cz/en/uk with a Spanish interface) or only together with the first published Spanish carnet.
+2. **TM seeding** — whether to pre-seed `TranslationMemory.md` from the en/uk TM structure (People, Places, Titles, Key Terms) beyond the policy rows already present, or grow it per carnet as cz/uk did.
 
 ## Historical Note
 
@@ -85,6 +91,7 @@ No complete Spanish translation of the diary exists; circulating Spanish selecti
 
 - **2026-09-05**: Language tree bootstrapped (CLAUDE.md, PROGRESS.md, TranslationMemory.md); pilot plan drafted; no entries translated
 - **2026-09-05**: Pilot slice 1 (001: 1873-01-11 .. 1873-01-15, 5 entries, 17 paragraphs) through TR → OPS → RED → CON, all 5 conductor-approved, CON 0.94; all gates green on the slice; run report `.claude/reports/2026-09-05-es-001.md`; CLAUDE.md style guide revised from the findings
+- **2026-09-07**: Four pilot policies settled by the maintainer (ustedes plural, three-tier name rule, footnote labels confirmed, exonym rule + table); written into CLAUDE.md and TranslationMemory.md; no entry text changed (slice 1 already conforms)
 
 ---
 

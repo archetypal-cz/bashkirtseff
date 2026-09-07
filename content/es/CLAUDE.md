@@ -1,8 +1,8 @@
 # es/ — Spanish Translations (Traducción al español)
 
-This directory contains Spanish translations of Marie Bashkirtseff's diary. **Status: pilot** (2026-09-05) — the workflow is being trialled on carnet 001 before any wave is scheduled. Several style decisions below are marked PILOT DECISION and must be confirmed by the human after the first carnet.
+This directory contains Spanish translations of Marie Bashkirtseff's diary. **Status: pilot** (2026-09-05) — the workflow is being trialled on carnet 001 before any wave is scheduled. The four policies left open after slice 1 (plural address, Russian names, footnote labels, exonyms) were settled by the maintainer on 2026-09-07; the sections marked **DECIDIDO 2026-09-07** are binding. The maintainer's brief: the most sensible defaults from the practice of Spanish translations of French literature, leaning modern, and readable for Spain and Latin America alike.
 
-> Style guide revised after pilot slice 1 (carnet 001, entries 1873-01-11 .. 1873-01-15) on 2026-09-05; run report `.claude/reports/2026-09-05-es-001.md`.
+> Style guide revised after pilot slice 1 (carnet 001, entries 1873-01-11 .. 1873-01-15) on 2026-09-05; run report `.claude/reports/2026-09-05-es-001.md`. Policy decisions folded in on 2026-09-07.
 
 ## Structure
 
@@ -103,20 +103,29 @@ No se sigue servilmente el orden de palabras francés. Se busca la frase que una
 - Marie escribe a menudo en **telegrama**: fragmentos nominales, enumeraciones sin verbo, frases truncadas ("Tiempo espléndido. Paseo. Nadie."). Es un registro, no un descuido: **no se suplen verbos** ni se completan las frases; se reproduce la elipsis con la misma economía.
 - Sus **cambios de tiempo verbal son deliberados**: presente para la vanidad, la profecía y el ensueño ("seré célebre", "estoy hermosa"), pretérito para la crónica del día. **Nunca se unifican** los tiempos de un párrafo para "alisarlo"; el salto forma parte del sentido.
 
-## Variedad del español — DECISIÓN PILOTO
+## Variedad del español y tratamiento — DECIDIDO 2026-09-07
 
 Por defecto, **español neutro literario panhispánico**: evitar regionalismos marcados (ni *coche* vs *carro* como bandera, ni voseo, ni *ordenador/computadora*, que además no aparecen). Preferir la palabra común a todo el ámbito hispánico; cuando no exista, la forma peninsular culta, que es la tradición de las grandes traducciones literarias del francés.
 
-| Francés | Español (por defecto) | Nota |
-|---------|----------------------|------|
-| tu | tú (tuteo) | familia, Dina, amigas íntimas, Dios en oración |
-| vous (singular) | usted | sociedad, pretendientes, criados en registro formal |
-| vous (plural) | **vosotros/vosotras** | PILOTO: forma de las traducciones literarias clásicas |
-| Alternativa | **ustedes** en todos los plurales | opción para lectores latinoamericanos |
+### Nota sobre el público hispanohablante (Regional-readership note)
+
+Esta edición se lee en Madrid, Buenos Aires, Ciudad de México y Bogotá con el mismo texto; no habrá versiones regionales. Por eso el registro es el del **español culto compartido**: nada de jerga regional ni de argot de época de un solo país, nada de voseo (ni *vos tenés* ni *vos sos*), y ningún léxico exclusivamente peninsular donde exista un término común (*carruaje* y no *coche*; *tomar* y no *coger* un vehículo; *dinero* y no *plata*; *bonito/hermoso* y no *chulo/lindo* como muletilla; *enfadarse* o *enojarse* según el contexto, pero sin convertir ninguno en bandera). Cuando dos palabras son igual de neutras, se prefiere la que ya usaban las traducciones literarias del francés en el siglo XIX y sigue viva hoy; entre un vocablo de época y un coloquialismo moderno se elige siempre el de época (*tedio* antes que *aburrimiento total*, *pretendiente* antes que *ligue*). El objetivo es que ningún lector sepa, por el léxico, en qué país se tradujo el libro.
+
+### Segunda persona: tú / usted / ustedes
+
+| Francés | Español | Regla |
+|---------|---------|-------|
+| tu | **tú** | familia (Maman, Dina, Paul, abuelos), amigas íntimas, criadas de confianza en trato descendente si el francés tutea, Dios en la oración, Marie hablándose a sí misma |
+| vous (singular) | **usted** | toda persona adulta ajena a la familia: sociedad, pretendientes, profesores, médicos, criados dirigiéndose a la familia; también dentro de la familia cuando el francés usa *vous* (p. ej. cartas formales al padre) |
+| vous (plural) | **ustedes** | **siempre**, para cualquier grupo, íntimo o formal; nunca *vosotros/vosotras*, *os*, *vuestro/a* |
+
+La regla singular sigue el par *tu/vous* del francés caso por caso; no se "moderniza" un *vous* de 1873 a *tú* ni se envejece un *tu* a *usted*. El plural es único: **ustedes** con verbo en tercera persona (*vengan*, *miren*, *¿vienen?*), pronombres *los/las/les/se* y posesivo *su(s)*. Cuando *su* resulte ambiguo frente a la tercera persona, se desambigua con *de ustedes* o con el contexto. La intimidad que el peninsular expresaría con *vosotros* se recupera con el **vocativo** y el tono: «Dina, Maman, ¿vienen esta noche?» — no con la forma verbal.
+
+**Razón**: *ustedes* es la única forma de plural de la segunda persona en toda América, en Canarias y en Andalucía occidental (DPD, s. v. *vosotros* y *usted*); un lector de España la entiende sin esfuerzo, mientras que *vosotros* suena a otro país para la mayoría de los lectores del español. El coste de *ustedes* es real pero pequeño: en España el plural íntimo suena algo más formal y desaparece la distinción tú/usted en plural; en un diario en primera persona el plural de segunda persona aparece casi sólo en diálogos citados, de modo que la pérdida es marginal. Las grandes editoriales españolas de clásicos franceses usan *vosotros*; las ediciones internacionales y latinoamericanas, *ustedes*. Con un público en los dos continentes, *ustedes* es la elección de menor daño. No se mezcla nunca con *vosotros* dentro de la edición.
+
+Compatibilidad con el corte 1 (001, 11–15 de enero de 1873): no contiene ningún plural de segunda persona; no requiere cambios.
 
 **Regionalismos que delatan**: *voiture* (de caballos) → **carruaje** (o "el coche de caballos" sólo si el contexto lo exige); "coche" a secas es bandera regional y evoca el automóvil. Igual criterio para toda palabra que sitúe al lector en un país concreto antes que en 1873.
-
-**El humano decide tras el carnet 001** entre `vosotros` (peninsular, marca de distancia informal/formal en plural, tradición literaria) y `ustedes` universal (neutro para América, pierde la distinción tú/usted en plural). Hasta entonces: `vosotros`, y anotar en TR toda ocurrencia de plural informal para poder cambiarlo mecánicamente. No mezclar ambas en un mismo cuaderno.
 
 ## Lista de galicismos y falsos amigos
 
@@ -203,15 +212,67 @@ La trampa central de esta lengua meta: el español acepta con demasiada facilida
 
 ## Nombres, tratamientos y lugares
 
-- **Marie Bashkirtseff**: siempre así, con esta grafía; es la marca del proyecto. Nunca "María Bashkírtseva" ni "Bashkirtseva".
-- Nombres franceses, ingleses e italianos: sin cambio (Marie, Paul, Dina, los Howard, el duque de Hamilton, Pietro).
-- **Nombres rusos**: transliteración española (Nikolái, Alexéi, Gagarin, Bábanin/Babanine según TM); la familia materna se mantiene como **Babanine** (forma francesa que usa Marie). Las decisiones caso por caso (Пётр → Piotr o Pedro; Dina/Dinah) se fijan en `TranslationMemory.md`, no en cada entrada.
-- **Moussia**: apodo familiar de Marie; se conserva "Moussia" en cursiva la primera vez de cada carnet, luego redonda.
-- **Maman**: se conserva "Maman" (como en la tradición en/cz), no "Mamá"; con mayúscula, sin artículo.
+### Nombres de persona — DECIDIDO 2026-09-07
+
+Marie escribe todos los nombres, rusos incluidos, en su forma francesa latina; el glosario (`content/_original/_glossary/`) los cataloga con esa misma forma, y las etiquetas `[#Nombre](...)` de cada párrafo apuntan a ella. La regla española se apoya en tres niveles, del más fijo al más libre:
+
+1. **Marie Bashkirtseff**: siempre así, con esta grafía; es la marca del proyecto en toda lengua de alfabeto latino. Nunca "María Bashkírtseva", "Bashkirtseva" ni "Bashkírtseva". Su hermano es **Paul**, su prima **Dina**, su apodo **Moussia** (cursiva la primera vez de cada carnet, luego redonda).
+2. **Personas privadas** (familia, sociedad de Niza y París, conocidos rusos que sólo existen en la grafía de Marie): **se conserva la forma francesa que usa Marie y que da el glosario**, sin re-transliterar desde un cirílico que nadie ha visto: **Babanine** (no Babanin/Babánina), **el príncipe Gagarine** (no Gagarin), **Paul Grigorievitch** (no Pável Grigórievich), **Nicolas**, **Alexandre**, **Pierre** (la cuestión "Piotr o Pedro" queda cerrada: ninguno de los dos; se escribe lo que escribe Marie). Apellidos extranjeros invariables en plural: *los Howard*, *los Babanine*. Si el RSR demuestra que una "persona privada" es en realidad una figura pública con forma española asentada, pasa al nivel 3 y la decisión se anota en `TranslationMemory.md`.
+3. **Figuras públicas** con forma española establecida en la edición y la prensa en español: se usa esa forma. Escritores y artistas según la transcripción del ruso recomendada por la FundéuRAE (*Sistemas de transcripción. Guía de aplicación*): **Tolstói** (Marie: *Tolstoï*; nombre completo *Lev Tolstói*), **Dostoievski**, **Turguénev**, **Pushkin**, **Chaikovski**. Monarcas, príncipes de casas reinantes, papas y santos se hispanizan, como manda la norma académica (*Ortografía de la lengua española*, 2010, sobre nombres de reyes y papas): **Alejandro II**, **Nicolás I**, **Pablo I**, **Pedro el Grande**, **Catalina II**, **el gran duque Nicolás**. Ningún otro nombre de pila se traduce.
+
+Comprobación de compatibilidad: la etiqueta de glosario conserva siempre el identificador del `_original` (`[#Alexander_II](.../ALEXANDER_II.md)`, `[#Prince_Gagarine](.../PRINCE_GAGARINE.md)`); sólo cambia el texto español. Cada forma decidida se registra en `TranslationMemory.md` con su identificador de glosario, para que el futuro comprobador onomástico (`docs/LANGUAGE_EXPANSION_PLAN.md` §3.4) pueda verificarla. Esta regla coincide con el árbol en (conserva las formas de Marie) y con la práctica cz (formas checas asentadas para figuras públicas, forma original para las demás); el árbol uk, que vuelve al cirílico, es el único que translitera sistemáticamente.
+
+- **Nombres franceses, ingleses e italianos**: sin cambio (Marie, Paul, Dina, los Howard, el duque de Hamilton, Pietro).
+- **Maman**: se conserva "Maman" (como en la tradición en/cz), no "Mamá"; con mayúscula, sin artículo. **Papá** en español para el padre.
 - **madame / mademoiselle / monsieur** + apellido en la sociedad francesa de Niza o París: **se conservan en francés**, en minúscula, sin cursiva ("madame Howard", "monsieur de Biesme"), como hace el árbol en. Como sustantivo común (*une dame*, *ce monsieur*) → "una señora", "ese caballero".
-- Títulos nobiliarios: en español y minúscula (*el duque*, *la condesa*, *el príncipe*); "Su Alteza" con mayúscula.
-- **Topónimos**: exónimo español establecido — **Niza**, París, Roma, Florencia, Nápoles, Viena, Londres, San Petersburgo, Moscú; sin exónimo → forma local o transliteración (Poltava, Gavrontsi, Ostende, Schlangenbad). *Promenade des Anglais* se conserva.
+- Títulos nobiliarios: en español y minúscula (*el duque*, *la condesa*, *el príncipe*); "Su Alteza", "Su Majestad" con mayúscula.
 - *carnet* → "cuaderno"; *journal* → "diario"; *salon* → "salón".
+
+### Topónimos — DECIDIDO 2026-09-07
+
+Regla (norma académica sobre topónimos, *Ortografía* 2010, y recomendaciones de la FundéuRAE): **si existe un exónimo español tradicional y vigente, se usa; si no, se conserva la forma local** (o, para lugares de alfabeto no latino, la transcripción española usual). Un exónimo "vigente" es el que emplean hoy la prensa y la edición en español; los exónimos desusados no se resucitan (*Burdeos* sigue vivo; *Cantorbery* por Canterbury ya no). Nombres de calles, paseos, hoteles, teatros y villas se conservan en la lengua del lugar sin cursiva, como nombres propios (*Promenade des Anglais*, *Théâtre français*, *Villa Baquis*, *Bois de Boulogne*), salvo los pocos con forma española consagrada (**los Campos Elíseos**).
+
+Lugares recurrentes del diario (por número de enlaces de glosario en `_original`) y su forma española:
+
+| Glosario (`_original`) | Forma de Marie | Español | Base |
+|------------------------|----------------|---------|------|
+| PARIS | Paris | **París** | exónimo, tilde obligatoria |
+| NICE | Nice | **Niza** | exónimo tradicional; "Nice" es la trampa copiada del en |
+| ROME | Rome | **Roma** | exónimo |
+| GIOIA | Gioia | Gioia | sin exónimo; forma local |
+| NAPLES | Naples | **Nápoles** | exónimo |
+| MONACO | Monaco | **Mónaco** | exónimo (tilde) |
+| MONTE_CARLO | Monte-Carlo | **Montecarlo** | forma usual en español (práctica común, en una palabra) |
+| BOIS_DE_BOULOGNE | Bois de Boulogne | Bois de Boulogne | nombre propio, se conserva |
+| DIEPPE | Dieppe | Dieppe | sin exónimo |
+| FLORENCE | Florence | **Florencia** | exónimo |
+| CHAMPS_ELYSEES | Champs-Élysées | **los Campos Elíseos** | exónimo consagrado en la traducción literaria (práctica común) |
+| GAVRONZI | Gavronzi | Gavronzi | forma de Marie, igual que en el árbol en y el glosario; variantes registradas: Gavrontsi (ruso), Havrontsi (ucraniano) — sólo en glosario/notas |
+| BADEN_BADEN | Baden-Baden | Baden-Baden | sin exónimo |
+| POLTAVA | Poltava | Poltava | sin exónimo; coincide con la forma ucraniana |
+| OSTENDE | Ostende | Ostende | forma española coincide con la francesa |
+| SODEN | Soden | Soden (Bad Soden) | sin exónimo |
+| VERSAILLES | Versailles | **Versalles** | exónimo |
+| SPA | Spa | Spa | sin exónimo |
+| WIESBADEN | Wiesbaden | Wiesbaden | sin exónimo |
+| BERLIN | Berlin | **Berlín** | exónimo (tilde) |
+| BIARRITZ | Biarritz | Biarritz | sin exónimo |
+| SCHLANGENBAD | Schlangenbad | Schlangenbad | sin exónimo |
+| VIENNA | Vienne | **Viena** | exónimo |
+| GENEVA | Genève | **Ginebra** | exónimo |
+| PETERSBURG / ST_PETERSBURG | Saint-Pétersbourg | **San Petersburgo** | exónimo (FundéuRAE) |
+| LONDON | Londres | **Londres** | exónimo |
+| KIEV | Kiev | **Kiev** | exónimo tradicional recomendado por la FundéuRAE frente a *Kyiv*; sin tilde |
+| MARSEILLE | Marseille | **Marsella** | exónimo |
+| BRUSSELS | Bruxelles | **Bruselas** | exónimo |
+| ODESSA | Odessa | **Odesa** | una sola *s* (DPD, FundéuRAE) |
+| MOSCOW | Moscou | **Moscú** | exónimo |
+| KHARKOV / KHARKOFF | Kharkoff | **Járkov** | forma española recomendada (tesauro de topónimos del CSIC, FundéuRAE); *Járkiv* registrada como variante, no en el cuerpo |
+| GENOA | Gênes | **Génova** | exónimo |
+| VENICE | Venise | **Venecia** | exónimo |
+| JULIAN (schools) | l'académie Julian | la academia Julian | nombre propio; "academia" en minúscula |
+
+Países y regiones: Rusia, Ucrania, Italia, Francia, Inglaterra, Escocia, Alemania, Suiza, Bélgica. Nota sobre Ucrania: el plan de expansión (`docs/LANGUAGE_EXPANSION_PLAN.md` §2.3) pide transliterar los lugares hoy ucranianos desde el nombre ucraniano; en español, Kiev, Járkov y Odesa son **exónimos** de tradición propia (como *Kyjev/Charkov* en cz), no transliteraciones del ruso, y son las formas que recomienda la FundéuRAE; por eso se usan en el cuerpo, con las formas ucranianas anotadas en el glosario. Si la Academia cambia la recomendación, se cambia aquí y se propaga con una sustitución mecánica.
 
 ## Pasajes en otras lenguas
 
@@ -225,11 +286,19 @@ Marie alterna francés, inglés, italiano y ruso:
 
 ## Notas al pie
 
-Formato idéntico al de los árboles en/cz: `[^CC.PP.n]` — carnet en dos cifras, número de párrafo con al menos dos cifras (sin el relleno de cuatro), número de nota: `[^01.07.1]`, `[^01.13.1]`, `[^01.108.2]`. (La forma `[^NNN.PPPP.n]` de la especificación antigua no se usa en la práctica.) Definidas al final de la entrada. Tipos:
+Formato idéntico al de los árboles en/cz: `[^CC.PP.n]` — carnet en dos cifras, número de párrafo con al menos dos cifras (sin el relleno de cuatro), número de nota: `[^01.07.1]`, `[^01.13.1]`, `[^01.108.2]`. (La forma `[^NNN.PPPP.n]` de la especificación antigua no se usa en la práctica.) Definidas al final de la entrada.
 
-- **N. de la A.** — nota de la autora, sólo si está en el manuscrito.
-- **N. de la T.** — nota de la traductora: decisiones, lenguas originales, juegos de palabras.
-- **N. de la E.** — nota de la editora: contexto, dudas de lectura, investigación.
+### Etiquetas — DECIDIDO 2026-09-07
+
+Las tres etiquetas siguen la misma división que el árbol cz (`content/cz/CLAUDE.md`, "Poznámky pod čarou": *Pozn. aut.* / *Pozn. překl.* / *Pozn. red.*), para que un mismo tipo de nota lleve la misma etiqueta en todas las lenguas:
+
+- **N. de la A.** = *Pozn. aut.* — nota de la autora: sólo lo que está en el propio manuscrito; no se inventa ni se completa nada.
+- **N. de la T.** = *Pozn. překl.* — nota de la traductora. Cubre dos cosas: (a) las notas que llegan del `_original` sobre cosas y fenómenos que no merecen entrada propia en el glosario pero deben explicarse al lector hispanohablante; (b) las notas que explican decisiones de traducción: lengua original de un pasaje (*En inglés en el original*), juegos de palabras, un título francés conservado con su glosa española, un término de época sin equivalente.
+- **N. de la E.** = *Pozn. red.* — nota de la editora: observaciones sobre el texto que proceden de la revisión y la investigación: posibles lecturas o sentidos de un pasaje dudoso, datos históricos y biográficos hallados por el RSR (calendario juliano, costumbres populares, quién era un actor), correcciones de hecho.
+
+Prueba rápida: si la nota dice *qué significa el texto o cómo se ha vertido*, es N. de la T.; si dice *qué averiguó el equipo sobre el mundo de Marie*, es N. de la E. En caso de duda, N. de la T.
+
+Forma de la etiqueta: abreviatura con puntos y espacios, seguida de dos puntos: `N. de la T.:`, nunca "Nota de la traductora:" desarrollado ni "N. del T." (masculino genérico). Se elige la forma femenina porque el proyecto habla de la traductora y la editora en femenino en todo el aparato español, y porque es la forma ya aprobada en el corte 1; "N. del T." y "N. de la T." conviven en la edición actual en español (práctica común), así que la elección es de coherencia interna, no de corrección. El renderizador del frontend no interpreta la etiqueta: es texto plano dentro de la nota. Cambiar de forma sería una sustitución mecánica.
 
 ```markdown
 —Está casado desde ayer[^14.25.1].
@@ -244,7 +313,7 @@ Reglas:
 - **Fidelidad**: las notas heredadas del `_original` se traducen enteras; no se omiten oraciones ni matices de la nota.
 - **Notas añadidas por la traductora**: permitidas cuando alinean el aparato con el del árbol en (referencias de época que en ya anota) o cuando glosan un título francés conservado; se crean primero en `_original` y se propagan con `just sync`, o se anotan en TR si se añaden sólo en es.
 - **Cursiva** para la glosa española de un título dentro de la nota; el texto extranjero citado va entre comillas latinas.
-- Etiqueta por defecto **N. de la T.** (decisión pendiente del humano: "Nota de la traductora").
+- Etiqueta por defecto **N. de la T.** (decidido 2026-09-07; véase Etiquetas, arriba).
 
 ---
 
@@ -263,11 +332,11 @@ Concrete Spanish traps for RED and OPS to catch (the language-agnostic frame liv
 | **Punctuation** | missing ¿ ¡; space before `;:?!`; French « » with spaces inside; dialogue with quotation marks instead of raya; "..." with four dots |
 | **Capitalisation** | "Enero", "Sábado", "Ruso", "Señora X", "Condesa" → all lowercase; "Dios", "Ópera" (institution) uppercase |
 | **Register** | archaic pastiche ("empero", "mas", "vuestra merced") vs. flat modern colloquialism ("vale", "guay", "flipar"); regionalisms ("coger" ambiguity outside Spain — prefer "tomar" for vehicles) |
-| **Variety consistency** | mixing vosotros and ustedes within a carnet; voseo; Latin-American vs peninsular lexicon flip-flopping |
+| **Variety consistency** | any *vosotros/vosotras*, *os*, *vuestro* or *-áis/-éis/-ad* form (plural is always *ustedes*, decided 2026-09-07); voseo; Latin-American vs peninsular lexicon flip-flopping; *tu/vous* singular not matching the French |
 | **False friends** | "actualmente" (= now, not "actually"); "sensible" (= sensitive); "largo" (= long, not wide); "simpático"; "librería"; "ignorar"; "pretender"; "suceso"; "gentil"; "entender" for *entendre* |
 | **Feminine agreement** | Marie about herself: "estaba cansado" → "cansada"; "fui invitado" → "invitada" |
 | **Gerund abuse** | gerund of posterity; gerund as adjective ("una carta conteniendo") → relative clause |
-| **Name/exonym drift** | "Nice" → "Niza"; "Florence" → "Florencia"; "Bashkirtseva/María" → "Marie Bashkirtseff"; Russian names not following TM transliteration |
+| **Name/exonym drift** | "Nice" → "Niza"; "Florence" → "Florencia"; "Odessa" → "Odesa"; "Kyiv/Kharkiv" → "Kiev/Járkov"; "Bashkirtseva/María" → "Marie Bashkirtseff"; private persons re-transliterated ("Gagarin", "Pável Grigórievich") → Marie's French form ("Gagarine", "Paul Grigorievitch"); public figures left in French ("Tolstoï", "Alexandre II") → Spanish form ("Tolstói", "Alejandro II"); see Nombres de persona |
 | **Foreign passages** | English left untranslated in the body (must be translated + `==highlight==` + footnote) |
 | **Dubbing formulas** | "si tan solo" → "si al menos"; "es por eso que" → "por eso"; "no es hasta que" → "sólo cuando"; "basado en"; "en orden a" — if it would sit comfortably in a dubbed film, it is not period Spanish |
 | **Ser/estar on appearance** | "sería hermosa" for *je serais belle* (that night) → "estaría hermosa"; "es guapa" vs "está guapa" is a meaning change, not style |
@@ -301,7 +370,7 @@ FÍJATE EN:
 5. Desplazamientos de sentido (galicismos que cambian el significado)
 6. Falsos amigos (actualmente, eventualmente, asistir, ignorar, pretender, sensible, largo…)
 7. Puntuación y tipografía españolas (¿¡, raya de diálogo, comillas latinas, minúsculas)
-8. Coherencia de variedad (vosotros/ustedes, sin regionalismos marcados)
+8. Coherencia de variedad (plural siempre "ustedes", nunca "vosotros"; sin voseo ni regionalismos marcados)
 
 Para cada problema, asigna gravedad:
 - A: hay que corregir (error gramatical, cambio de sentido, sinsentido)
