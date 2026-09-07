@@ -12,8 +12,19 @@
 
 import * as path from 'node:path';
 
-/** Any markdown link whose target is a relative path to a .md file. */
-export const MD_LINK_PATTERN = /\[([^\]]*)\]\(([^)\s]+\.md)\)/g;
+/**
+ * Any markdown link whose target is a relative path to a .md file. The
+ * extension matches in ANY letter case so a `FOO.MD` link is seen (and can be
+ * reported) instead of silently skipped; `hasLowercaseMdExtension` tells a
+ * consumer whether the target can actually resolve on a case-sensitive
+ * filesystem. Mirrors src/scripts/check_links_repo.py.
+ */
+export const MD_LINK_PATTERN = /\[([^\]]*)\]\(([^)\s]+\.[mM][dD])\)/g;
+
+/** Linux is case-sensitive: `FOO.MD` never resolves to `FOO.md`. */
+export function hasLowercaseMdExtension(linkPath: string): boolean {
+  return linkPath.endsWith('.md');
+}
 
 /**
  * Resolve a markdown link to the glossary entry it points at.
@@ -64,6 +75,7 @@ export function rewriteGlossaryLinks(
   const newContent = content.replace(
     new RegExp(MD_LINK_PATTERN.source, 'g'),
     (match, displayText: string, linkPath: string) => {
+      if (!hasLowercaseMdExtension(linkPath)) return match; // broken by case; leave for the link gate
       const current = resolveGlossaryLink(fileDir, linkPath, glossaryBase);
       if (!current) return match;
 

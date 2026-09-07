@@ -1,6 +1,6 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import { MD_LINK_PATTERN, resolveGlossaryLink } from './glossary-links.js';
+import { MD_LINK_PATTERN, hasLowercaseMdExtension, resolveGlossaryLink } from './glossary-links.js';
 import { TRANSLATION_DIRS } from './glossary-merge.js';
 
 /**
@@ -132,7 +132,9 @@ export class GlossaryReferences {
           const displayText = match[1];
           const linkPath = match[2]; // e.g., ../_glossary/people/core/DINA.md
 
-          const target = resolveGlossaryLink(fileDir, linkPath, this.glossaryBase);
+          const target = hasLowercaseMdExtension(linkPath)
+            ? resolveGlossaryLink(fileDir, linkPath, this.glossaryBase)
+            : null;
           if (!target) continue;
 
           const glossaryId = path.basename(target, '.md');

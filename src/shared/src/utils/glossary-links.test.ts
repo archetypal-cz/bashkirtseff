@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import * as path from 'node:path';
-import { resolveGlossaryLink, glossaryLinkFrom, rewriteGlossaryLinks } from './glossary-links.js';
+import { MD_LINK_PATTERN, hasLowercaseMdExtension, resolveGlossaryLink, glossaryLinkFrom, rewriteGlossaryLinks } from './glossary-links.js';
 
 const BASE = '/repo';
 const GLOSSARY = path.join(BASE, 'content/_original/_glossary');
@@ -79,4 +79,23 @@ test('display text is replaced only when the caller asks for it', () => {
     result.content,
     '[#NEW](../_glossary/people/core/X.md) and [Old_Name](../_glossary/people/core/X.md)'
   );
+});
+
+test('a link whose .md extension is not lowercase is seen but never rewritten as if it resolved', () => {
+  const pattern = new RegExp(MD_LINK_PATTERN.source, 'g');
+  const hits = [...'[#Dina](../_glossary/people/core/DINA.MD) [#Maman](../_glossary/people/core/MAMAN.md)'.matchAll(pattern)].map(m => m[2]);
+  assert.deepEqual(hits, ['../_glossary/people/core/DINA.MD', '../_glossary/people/core/MAMAN.md']);
+  assert.equal(hasLowercaseMdExtension('../_glossary/people/core/DINA.MD'), false);
+  assert.equal(hasLowercaseMdExtension('../_glossary/people/core/DINA.md'), true);
+
+  // The rewriter leaves the case-broken link alone for the link gate to report,
+  // while the well-formed one next to it is still rewritten.
+  const { content, count } = rewriteGlossaryLinks(
+    '[#Dina](../_glossary/people/core/DINA.MD) [#X](../_glossary/people/core/X.md)',
+    ORIGINAL_DIR,
+    GLOSSARY,
+    (target) => (target === ENTRY ? { path: MOVED } : null)
+  );
+  assert.equal(count, 1);
+  assert.equal(content, '[#Dina](../_glossary/people/core/DINA.MD) [#X](../_glossary/people/family/X.md)');
 });

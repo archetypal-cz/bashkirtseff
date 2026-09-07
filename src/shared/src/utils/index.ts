@@ -50,6 +50,7 @@ export {
 export type { GlossaryLinkTarget } from './glossary-links.js';
 export {
   MD_LINK_PATTERN,
+  hasLowercaseMdExtension,
   resolveGlossaryLink,
   glossaryLinkFrom,
   rewriteGlossaryLinks,
