@@ -3,10 +3,16 @@
  *
  * Generates draft reports from git history and session metadata.
  * Reports are written to .claude/reports/ and committed to the repo.
+ *
+ * Unfilled-stub gate: a new stub is NOT written while any report in the
+ * directory is still an unfilled stub (`status: draft` + template placeholder
+ * text). The hook prints the offending path(s) instead and appends a one-line
+ * "Also touched" note to the newest unfilled stub so the refused session's
+ * scope is not lost. Escape hatch: `REPORT_HOOK_FORCE=1` writes the stub anyway.
  */
 
 import { execSync } from 'child_process';
-import { existsSync, writeFileSync, readdirSync } from 'fs';
+import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { getProjectRoot, getTimestamp, loadWorkerConfig } from './config.js';
 import type { RunReport } from './types.js';
@@ -142,7 +148,8 @@ export function countEntries(lang: string, carnet: string): number {
 export function generateReportFilename(
   lang: string,
   carnets: string[],
-  date?: string
+  date?: string,
+  reportsDir: string = join(getProjectRoot(), '.claude', 'reports')
 ): string {
   const d = date || new Date().toISOString().split('T')[0];
   const carnetRange =
@@ -150,8 +157,6 @@ export function generateReportFilename(
       ? carnets.join('-')
       : `${carnets[0]}-${carnets[carnets.length - 1]}`;
 
-  const root = getProjectRoot();
-  const reportsDir = join(root, '.claude', 'reports');
   let filename = `${d}-${lang}-${carnetRange}.md`;
 
   // Handle duplicates
@@ -189,55 +194,197 @@ export function buildResultsRows(
   return rows;
 }
 
+// ---------------------------------------------------------------------------
+// Stub gate: never write a fresh draft while an unfilled one is lying around
+// ---------------------------------------------------------------------------
+
 /**
- * Generate a draft report stub from session data
+ * Environment variable that bypasses the unfilled-stub gate.
+ * `REPORT_HOOK_FORCE=1` (or `true` / `yes`) writes a new stub even when
+ * unfilled drafts exist. Inherited from the shell that launched Claude Code.
  */
-export async function generateReportStub(): Promise<string | null> {
+export const REPORT_HOOK_FORCE_ENV = 'REPORT_HOOK_FORCE';
+
+/** `true` when the force escape hatch is set in `env`. */
+export function isForceRequested(env: NodeJS.ProcessEnv = process.env): boolean {
+  const v = (env[REPORT_HOOK_FORCE_ENV] || '').trim().toLowerCase();
+  return v === '1' || v === 'true' || v === 'yes';
+}
+
+/**
+ * Placeholder strings the template below writes into a fresh stub. A draft
+ * that still contains any of them has not been filled in. Both the template
+ * and the detector use these constants so they cannot drift apart.
+ */
+export const STUB_PLACEHOLDER = '(fill in)';
+export const STUB_SECTION_PLACEHOLDER = '(Fill in:';
+const STUB_PLACEHOLDERS = [STUB_PLACEHOLDER, STUB_SECTION_PLACEHOLDER];
+
+/** Prefix of the note appended to an unfilled stub when a new one is refused. */
+export const ALSO_TOUCHED_PREFIX = '> **Also touched**';
+
+/** Files in the reports dir that are not reports. */
+const NON_REPORT_FILES = new Set(['README.md', 'WATCHLIST.md']);
+
+/**
+ * A report is an unfilled stub when its frontmatter says `status: draft`
+ * and its body still carries a template placeholder. A draft whose sections
+ * were written but whose status was never flipped is NOT counted — the
+ * operator did the work, only the flag lags.
+ */
+export function isUnfilledStub(content: string): boolean {
+  const fm = content.match(/^---\n([\s\S]*?)\n---/);
+  if (!fm) return false;
+  if (!/^status:\s*draft\b/m.test(fm[1])) return false;
+  const body = content.slice(fm[0].length);
+  return STUB_PLACEHOLDERS.some((p) => body.includes(p));
+}
+
+/**
+ * Unfilled stubs in `reportsDir`, newest first (filenames start with the
+ * date, so a reverse lexical sort is a reverse chronological one).
+ */
+export function findUnfilledStubs(reportsDir: string): string[] {
+  if (!existsSync(reportsDir)) return [];
+  const names = readdirSync(reportsDir).filter(
+    (f) => f.endsWith('.md') && !NON_REPORT_FILES.has(f)
+  );
+  const unfilled: string[] = [];
+  for (const name of names) {
+    try {
+      if (isUnfilledStub(readFileSync(join(reportsDir, name), 'utf-8'))) unfilled.push(name);
+    } catch {
+      // unreadable — ignore
+    }
+  }
+  return unfilled.sort().reverse();
+}
+
+/**
+ * Record what a refused stub would have covered inside the newest unfilled
+ * stub, so the information survives past the session's stderr. Appends one
+ * line; a second call with the same line (the Stop hook fires on every turn)
+ * is a no-op. Returns whether a line was appended.
+ */
+export function noteAlsoTouched(stubPath: string, date: string, summary: string): boolean {
+  const line = `${ALSO_TOUCHED_PREFIX} (${date}, session-end hook): ${summary} — no new stub written while this one is unfilled.`;
+  let existing = '';
+  try {
+    existing = readFileSync(stubPath, 'utf-8');
+  } catch {
+    return false;
+  }
+  if (existing.includes(line)) return false;
+  const sep = existing.endsWith('\n') ? '\n' : '\n\n';
+  appendFileSync(stubPath, `${sep}${line}\n`, 'utf-8');
+  return true;
+}
+
+/** Human-readable refusal for the hook's stderr box. */
+export function formatStubRefusal(
+  unfilled: string[],
+  notedIn: string | null,
+  summary: string,
+  relDir = '.claude/reports'
+): string[] {
+  const shown = unfilled.slice(0, 5);
+  const lines = [
+    `No new run report stub: ${unfilled.length} unfilled draft stub${unfilled.length === 1 ? '' : 's'} already exist${unfilled.length === 1 ? 's' : ''}.`,
+    ...shown.map((f) => `  ${relDir}/${f}`),
+  ];
+  if (unfilled.length > shown.length) lines.push(`  … and ${unfilled.length - shown.length} more`);
+  lines.push(
+    notedIn
+      ? `This session (${summary}) was noted as "also touched" in ${relDir}/${notedIn}.`
+      : `This session covered: ${summary}.`
+  );
+  lines.push(
+    `Fill them in (status: final) or delete them before a new stub will be generated; ${REPORT_HOOK_FORCE_ENV}=1 overrides.`
+  );
+  return lines;
+}
+
+// ---------------------------------------------------------------------------
+// Stub generation
+// ---------------------------------------------------------------------------
+
+/** Everything the template needs, gathered from git + worker config. */
+export interface StubInput {
+  date: string;
+  operator: string;
+  durationMinutes: number | '?';
+  lang: string;
+  carnets: string[];
+  pipeline: string[];
+  skillVersions: Record<string, string>;
+  /** `(lang, carnet) => entry count` — injectable for tests. */
+  countEntries?: (lang: string, carnet: string) => number;
+}
+
+/** One-line description of the stub's scope, e.g. `cz 001, 018, 095`. */
+export function stubSummary(input: Pick<StubInput, 'lang' | 'carnets'>): string {
+  return `${input.lang} ${input.carnets.join(', ') || '(no carnets)'}`;
+}
+
+/**
+ * Collect session data from git history and WORKER_CONFIG.yaml.
+ * Returns null when the session touched no content tree.
+ */
+export async function gatherStubInput(): Promise<StubInput | null> {
   const config = await loadWorkerConfig();
   const operator = config?.github_user ? `@${config.github_user}` : 'unknown';
   const sessionStart = config?.session?.started_at || undefined;
 
   const work = detectSessionWork(sessionStart);
-
-  // Only generate if there was actual translation/content work
   if (work.languages.length === 0) return null;
 
   const pipeline = detectPipeline(sessionStart);
   const skillNames = pipeline.length > 0 ? pipeline : ['translator'];
-  const skillVersions = getSkillVersions(skillNames);
 
   // The report describes ONE language (frontmatter target_language), so the
   // results table lists that tree's carnets only — see buildResultsRows.
-  const primaryLang = work.languages[0];
-  const allCarnets = work.carnets[primaryLang] || [];
-  const resultsRows = buildResultsRows(primaryLang, allCarnets);
-  const filename = generateReportFilename(primaryLang, allCarnets);
+  const lang = work.languages[0];
+  return {
+    date: new Date().toISOString().split('T')[0],
+    operator,
+    durationMinutes: sessionStart
+      ? Math.round((Date.now() - new Date(sessionStart).getTime()) / 60000)
+      : '?',
+    lang,
+    carnets: work.carnets[lang] || [],
+    pipeline,
+    skillVersions: getSkillVersions(skillNames),
+  };
+}
 
-  const skillHashLines = Object.entries(skillVersions)
+/** Render the draft report markdown (pure). */
+export function renderReportStub(input: StubInput): string {
+  const resultsRows = buildResultsRows(input.lang, input.carnets, input.countEntries);
+  const skillHashLines = Object.entries(input.skillVersions)
     .map(([name, hash]) => `  ${name}: ${hash}`)
     .join('\n');
 
-  const report = `---
-date: ${new Date().toISOString().split('T')[0]}
-operator: "${operator}"
-duration_minutes: ~${sessionStart ? Math.round((Date.now() - new Date(sessionStart).getTime()) / 60000) : '?'}
-target_language: ${primaryLang}
-carnets: [${allCarnets.map(c => `"${c}"`).join(', ')}]
-pipeline: [${pipeline.join(', ')}]
+  return `---
+date: ${input.date}
+operator: "${input.operator}"
+duration_minutes: ~${input.durationMinutes}
+target_language: ${input.lang}
+carnets: [${input.carnets.map((c) => `"${c}"`).join(', ')}]
+pipeline: [${input.pipeline.join(', ')}]
 skills:
 ${skillHashLines}
 status: draft
 ---
 
-# Team Run Report: ${primaryLang.toUpperCase()} ${allCarnets.join(', ')}
+# Team Run Report: ${input.lang.toUpperCase()} ${input.carnets.join(', ')}
 
 > **DRAFT** — auto-generated by session-end hook. Fill in agent lifecycle, issues, and observations.
 
 ## Configuration
 
-- **Skills used**: ${pipeline.join(', ')}
-- **Models**: (fill in)
-- **Team structure**: (fill in)
+- **Skills used**: ${input.pipeline.join(', ')}
+- **Models**: ${STUB_PLACEHOLDER}
+- **Team structure**: ${STUB_PLACEHOLDER}
 
 ## Results
 
@@ -247,26 +394,64 @@ ${resultsRows.join('\n')}
 
 ## Agent Lifecycle
 
-(Fill in: how each agent behaved — normal completion, stuck, crashed, interrupted)
+${STUB_SECTION_PLACEHOLDER} how each agent behaved — normal completion, stuck, crashed, interrupted)
 
 ## Issues Encountered
 
-(Fill in: reference WATCHLIST.md categories)
+${STUB_SECTION_PLACEHOLDER} reference WATCHLIST.md categories)
 
 ## Observations
 
-(Fill in: quality notes, patterns, surprises)
+${STUB_SECTION_PLACEHOLDER} quality notes, patterns, surprises)
 
 ## Proposed Changes
 
-(Fill in: specific skill improvements suggested by this run)
+${STUB_SECTION_PLACEHOLDER} specific skill improvements suggested by this run)
 `;
+}
 
-  // Write the report
-  const root = getProjectRoot();
-  const reportsDir = join(root, '.claude', 'reports');
-  const reportPath = join(reportsDir, filename);
-  writeFileSync(reportPath, report, 'utf-8');
+export type StubOutcome =
+  /** Session touched no content tree — nothing to report. */
+  | { kind: 'none' }
+  /** A fresh stub was written (filename relative to the reports dir). */
+  | { kind: 'written'; filename: string }
+  /** Refused: unfilled stubs exist (newest first); `notedIn` got the also-touched line. */
+  | { kind: 'refused'; unfilled: string[]; summary: string; notedIn: string | null };
 
-  return filename;
+export interface GenerateStubOptions {
+  /** Reports directory; defaults to `<project>/.claude/reports`. */
+  reportsDir?: string;
+  /** Bypass the unfilled-stub gate; defaults to `REPORT_HOOK_FORCE` in the env. */
+  force?: boolean;
+  /** Session data source; defaults to git + worker config. */
+  gather?: () => Promise<StubInput | null>;
+}
+
+/**
+ * Generate a draft report stub from session data — unless an unfilled stub
+ * already exists, in which case refuse (one stub at a time) and note this
+ * session's scope inside the newest unfilled stub instead.
+ */
+export async function generateReportStub(
+  opts: GenerateStubOptions = {}
+): Promise<StubOutcome> {
+  const reportsDir = opts.reportsDir ?? join(getProjectRoot(), '.claude', 'reports');
+  const force = opts.force ?? isForceRequested();
+  const input = await (opts.gather ?? gatherStubInput)();
+  if (!input) return { kind: 'none' };
+
+  const summary = stubSummary(input);
+  if (!force) {
+    const unfilled = findUnfilledStubs(reportsDir);
+    if (unfilled.length > 0) {
+      const newest = unfilled[0];
+      const noted = noteAlsoTouched(join(reportsDir, newest), input.date, summary);
+      return { kind: 'refused', unfilled, summary, notedIn: noted ? newest : null };
+    }
+  }
+
+  const filename = generateReportFilename(input.lang, input.carnets, input.date, reportsDir);
+  mkdirSync(reportsDir, { recursive: true });
+  writeFileSync(join(reportsDir, filename), renderReportStub(input), 'utf-8');
+  return { kind: 'written', filename };
 }

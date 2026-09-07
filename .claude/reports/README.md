@@ -87,6 +87,8 @@ The session-end hook generates a **draft report** when it detects team-related c
 - Results table from file counts and commit messages
 - Skill version hashes
 
+**One unfilled stub at a time.** The hook refuses to write a new stub while any report in this directory is still an unfilled stub (`status: draft` with the `(fill in)` placeholders left in). It prints the unfilled path(s) at session end and appends an `> **Also touched** (date): lang carnets` line to the newest unfilled stub so the refused session's scope is not lost. Fill the stub in and set `status: final`, or delete it, and the next session will get a fresh one. Escape hatch: `REPORT_HOOK_FORCE=1` in the environment Claude Code was launched from writes the stub regardless.
+
 ### Manual
 
 The operator fills in:

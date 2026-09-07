@@ -7,6 +7,16 @@
  * - Add changelog entries summarizing work done
  * - Sync TODOs between original and translations
  * - Auto-commit if configured
+ * - Write a draft run report stub to .claude/reports/ (at most one per session)
+ *
+ * Unfilled-stub gate: no new stub is written while an earlier stub is still
+ * unfilled (`status: draft` + "(fill in)" placeholders). The hook lists the
+ * unfilled path(s) instead and appends an "Also touched: <lang carnets>" line
+ * to the newest one so this session's scope survives. Fill those stubs in
+ * (status: final) or delete them to re-enable generation.
+ *
+ * Escape hatch: REPORT_HOOK_FORCE=1 in the environment that launched Claude
+ * Code (or in settings.json "env") writes the stub regardless.
  */
 
 import { readFileSync, existsSync, readdirSync, rmSync, mkdirSync, writeFileSync } from 'fs';
@@ -16,7 +26,7 @@ import { execSync } from 'child_process';
 import { loadWorkerConfig, getProjectRoot, getTimestamp } from './lib/config.js';
 import { addChangelogEntry, getReadmePath } from './lib/readme-parser.js';
 import { syncAllTodos } from './lib/todo-sync.js';
-import { generateReportStub } from './lib/report.js';
+import { generateReportStub, formatStubRefusal } from './lib/report.js';
 import type { HookOutput } from './lib/types.js';
 
 /**
@@ -172,9 +182,20 @@ async function main(): Promise<void> {
       console.error('Run report already generated for this session — skipping.');
       (output.actions as string[]).push('report: skipped (already generated this session)');
     } else {
-      const reportFile = await generateReportStub();
-      if (reportFile) {
-        const { kept, removedDuplicate } = dedupAgainstExisting(reportFile);
+      const outcome = await generateReportStub();
+      if (outcome.kind === 'refused') {
+        // An earlier stub is still unfilled — one at a time. The session's
+        // scope was noted inside that stub (see report.ts noteAlsoTouched).
+        // No session marker: the nudge repeats on every Stop until acted on.
+        console.error('');
+        for (const line of formatStubRefusal(outcome.unfilled, outcome.notedIn, outcome.summary)) {
+          console.error(line);
+        }
+        (output.actions as string[]).push(
+          `report: refused, ${outcome.unfilled.length} unfilled stub(s) — newest ${outcome.unfilled[0]}`
+        );
+      } else if (outcome.kind === 'written') {
+        const { kept, removedDuplicate } = dedupAgainstExisting(outcome.filename);
         if (sessionId) markReportGenerated(sessionId, kept);
         console.error('');
         if (removedDuplicate) {
