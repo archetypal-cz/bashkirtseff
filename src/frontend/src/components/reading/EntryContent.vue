@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue';
 import { useFilterStore } from '../../stores/filter';
+import type { SupportedLocale } from '../../i18n';
 import ParagraphToolbar from './ParagraphToolbar.vue';
 import FilteredParagraphGap from './FilteredParagraphGap.vue';
 
@@ -15,7 +16,7 @@ interface ProcessedParagraph {
   text: string;
   html: string;
   htmlId: string;
-  originalText?: string;
+  originalHtml?: string;
   glossaryTags?: GlossaryTag[];
   footnoteRefs?: string[];
   languages?: string[];
@@ -26,6 +27,7 @@ const props = defineProps<{
   isTranslation: boolean;
   urlPath: string;
   contentLangAttr: string;
+  uiLocale?: SupportedLocale; // page UI locale, forwarded so SSR labels match it
 }>();
 
 const parsedParagraphs = computed<ProcessedParagraph[]>(() => {
@@ -129,20 +131,22 @@ const renderItems = computed<RenderItem[]>(() => {
       <ParagraphToolbar
         :paragraphId="item.paragraph.id"
         :htmlContent="item.paragraph.html"
-        :originalText="isTranslation ? item.paragraph.originalText : undefined"
+        :originalHtml="isTranslation ? item.paragraph.originalHtml : undefined"
         :languages="isTranslation ? item.paragraph.languages : undefined"
         :translationLang="isTranslation ? urlPath : undefined"
         :glossaryTags="item.paragraph.glossaryTags"
         :language="urlPath"
         :contentLang="contentLangAttr"
+        :pageLocale="uiLocale"
       />
     </div>
 
     <!-- Gap: consecutive non-matching paragraphs -->
     <FilteredParagraphGap
       v-else
-      :paragraphs="item.paragraphs.map(p => ({ id: p.id, html: p.html, originalText: p.originalText }))"
+      :paragraphs="item.paragraphs.map(p => ({ id: p.id, html: p.html }))"
       :count="item.count"
+      :pageLocale="uiLocale"
     />
   </template>
 </template>

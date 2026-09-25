@@ -1,22 +1,22 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
-import { useI18n } from '../../i18n';
+import { useI18n, type SupportedLocale } from '../../i18n';
 
 interface ParagraphData {
   id: string;
   html: string;
-  originalText?: string;
 }
 
 const props = withDefaults(defineProps<{
   paragraphs: ParagraphData[];
   count: number;
   filterColor?: string;
+  pageLocale?: SupportedLocale;
 }>(), {
   filterColor: '',
 });
 
-const { t } = useI18n();
+const { t } = useI18n(props.pageLocale);
 
 const expanded = ref(false);
 
@@ -236,7 +236,7 @@ function toggle() {
 }
 
 [data-theme="dark"] .gap-paragraph :deep(p) {
-  color: var(--text-secondary, #a3a3a3);
+  color: var(--text-secondary);
 }
 
 /* --- Sepia mode --- */

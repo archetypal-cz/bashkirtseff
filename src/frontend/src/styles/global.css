@@ -64,6 +64,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-kerning: normal;
+    font-optical-sizing: auto; /* Literata's opsz axis: sturdier small text, finer display sizes */
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizeLegibility;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -185,7 +186,22 @@
     line-height: 1.2;
     margin: 0.5rem 0 1.75rem;
   }
-  .entry-date-heading::after {
+  /* The French date line on the back of a flipped paragraph
+     (lib/original-html.ts) gets the same chapter-head treatment, so the flip
+     shows "Dimanche 29 août 1875" as a heading, not a body-italic line. */
+  .original-date-heading {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: var(--display-weight);
+    font-style: normal;
+    text-align: center;
+    color: var(--text-primary);
+    font-size: calc(var(--entry-date-heading-size) * (1 + (var(--reading-font-scale) - 1) * 0.5));
+    line-height: 1.2;
+    margin: 0.5rem 0 1.75rem;
+  }
+  .entry-date-heading::after,
+  .original-date-heading::after {
     content: '';
     display: block;
     width: 4rem;

@@ -27,11 +27,14 @@ import {
   MARIE_BIRTH_YEAR,
   MARIE_BIRTH_MONTH,
   MARIE_BIRTH_DAY,
+  MARIE_DEATH_DATE,
   extractLanguagesFromTags,
   parseFrontmatter,
 } from '@bashkirtseff/shared';
 
 import { THEME_SUBCATEGORIES } from './glossary-categories';
+import { renderOriginalHtml } from './original-html';
+import { applyTypography, typographyLocaleFor } from './typography';
 
 // Re-export shared types for convenience
 export type { GlossaryTag };
@@ -65,7 +68,8 @@ export interface Paragraph {
   id: string;          // e.g., "02.01"
   text: string;        // The paragraph content (raw)
   html: string;        // Paragraph with highlights converted to HTML
-  originalText?: string; // For translations, the French original
+  originalText?: string; // For translations, the French original (raw markdown)
+  originalHtml?: string; // originalText rendered for the flip panel (escaped inline markdown)
   glossaryTags?: GlossaryTag[]; // Tags from %%[#Name](path)%% comments
   footnoteRefs?: string[]; // Footnote references in this paragraph (e.g., ["1", "2"])
   languages?: string[]; // Languages in original text: ['fr'], ['fr', 'en'], etc.
@@ -413,6 +417,18 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
   const paragraphs = parseParagraphs(content, language, entryPath);
   const footnotes = extractFootnotes(content, language);
 
+  if (!isOriginalLanguage(language) && language !== 'fr') {
+    fillMissingOriginals(paragraphs, carnetId, entryId);
+  }
+  finishParagraphs(paragraphs, language);
+  // Footnotes of the French source are editorial English, so only
+  // translations (whose notes are in the translation language) get the
+  // language's typography.
+  if (!isOriginalLanguage(language)) {
+    const typoLocale = typographyLocaleFor(language);
+    for (const fn of footnotes) fn.text = applyTypography(fn.text, typoLocale);
+  }
+
   // Determine if this is a date-based or section-based entry
   const isSection = !DATE_PATTERN.test(entryId);
   const date = isSection ? null : parseDateFromEntryId(entryId);
@@ -447,6 +463,38 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
     themes,
     location,
   };
+}
+
+/**
+ * Give translation paragraphs that lost their embedded French (`%% … %%` source
+ * lines stripped by an earlier polish/sync pass — cz 059/093, uk 030/070/100/103,
+ * en 050/053/100) the source text from `_original`, matched by paragraph ID.
+ * Paragraphs that still carry embedded French are left untouched, so this is a
+ * no-op once the content is re-synced.
+ */
+function fillMissingOriginals(paragraphs: Paragraph[], carnetId: string, entryId: string): void {
+  if (!paragraphs.some(p => !p.originalText)) return;
+  const source = getEntry(carnetId, entryId, 'original');
+  if (!source) return;
+  const sourceById = new Map(source.paragraphs.map(p => [p.id, p.text]));
+  for (const p of paragraphs) {
+    if (!p.originalText) p.originalText = sourceById.get(p.id);
+  }
+}
+
+/**
+ * Per-language presentation applied once a paragraph list is final: locale
+ * typography (quotes, apostrophes, French spacing) on the rendered text nodes,
+ * and the flip-panel HTML of the French original.
+ */
+function finishParagraphs(paragraphs: Paragraph[], language: string): void {
+  const typoLocale = typographyLocaleFor(language);
+  for (const p of paragraphs) {
+    p.html = applyTypography(p.html, typoLocale);
+    if (p.originalText) {
+      p.originalHtml = applyTypography(renderOriginalHtml(p.originalText), 'fr');
+    }
+  }
 }
 
 // ============================================
@@ -1435,6 +1483,52 @@ export function getAvailableLanguages(carnetId: string, entryDate: string): stri
 // CARNET 000 SPECIAL HANDLING (Preface)
 // ============================================
 
+// ============================================
+// APPROVAL STATUS (translation progress badges)
+// ============================================
+
+/**
+ * Whether an entry's frontmatter marks it finished for its language.
+ * Translations (cz/uk/en/es) are finished when the conductor approved them —
+ * `conductor_approved: true`, top-level or under `workflow:`. The modern French
+ * edition (fr) instead flags each entry `edition_complete: true`; its files all
+ * exist from day one (unedited ones fall back to the original), so counting
+ * files made fr look "Complete!" at 207 of 3,846 edited entries.
+ */
+export function isEntryApproved(frontmatter: Record<string, unknown>, language: string): boolean {
+  if (language === 'fr') return frontmatter.edition_complete === true;
+  if (frontmatter.conductor_approved === true) return true;
+  const workflow = frontmatter.workflow;
+  return !!workflow && typeof workflow === 'object' &&
+    (workflow as Record<string, unknown>).conductor_approved === true;
+}
+
+const _approvedCache = new Map<string, Set<string>>();
+
+/**
+ * `${carnet}/${entryId}` for every approved dated entry of a translation
+ * (carnet 000, the preface, is not counted — the totals are dated entries).
+ */
+export function getApprovedEntries(language: string): Set<string> {
+  const cached = _approvedCache.get(language);
+  if (cached) return cached;
+  const approved = new Set<string>();
+  if (!isOriginalLanguage(language)) {
+    for (const carnet of getCarnets(language)) {
+      if (carnet.id === '000') continue;
+      for (const entryId of getCarnetEntries(carnet.id, language)) {
+        const file = path.join(CONTENT_ROOT, language, carnet.id, `${entryId}.md`);
+        const { metadata } = parseFrontmatter(fs.readFileSync(file, 'utf-8'));
+        if (isEntryApproved(metadata as Record<string, unknown>, language)) {
+          approved.add(`${carnet.id}/${entryId}`);
+        }
+      }
+    }
+  }
+  _approvedCache.set(language, approved);
+  return approved;
+}
+
 /**
  * Check if Carnet 000 (preface) has content
  */
@@ -1534,8 +1628,15 @@ export interface YearInfo {
  * late-November birthday she is `year - birthYear - 1`, after it `year -
  * birthYear`.
  */
-function getMarieAge(year: number): string {
+export function getMarieAge(year: number): string {
   const ageAtStart = year - MARIE_BIRTH_YEAR - 1; // Age at start of year (before birthday)
+  // She died on MARIE_DEATH_DATE (1884-10-31), before her birthday that year,
+  // so the final year has a single age (25), not "25–26".
+  const [deathYear, deathMonth, deathDay] = MARIE_DEATH_DATE.split('-').map(Number);
+  const reachesBirthday = year < deathYear ||
+    (year === deathYear &&
+      (deathMonth > MARIE_BIRTH_MONTH || (deathMonth === MARIE_BIRTH_MONTH && deathDay >= MARIE_BIRTH_DAY)));
+  if (!reachesBirthday) return `${ageAtStart}`;
   const ageAtEnd = year - MARIE_BIRTH_YEAR;       // Age by end of year (after birthday)
   return `${ageAtStart}–${ageAtEnd}`;
 }

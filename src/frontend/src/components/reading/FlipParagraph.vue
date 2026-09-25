@@ -1,13 +1,18 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import { useI18n, type SupportedLocale } from '../../i18n';
+import { languageSymbol, languageTitle } from '../../lib/language-labels';
 
 const props = defineProps<{
   paragraphId: string;
   htmlContent: string;
-  originalText?: string;
+  originalHtml?: string;     // French original, pre-rendered and escaped at build time
   languages?: string[];
   translationLang?: string;  // e.g., 'cz'
+  pageLocale?: SupportedLocale;
 }>();
+
+const { t, locale } = useI18n(props.pageLocale);
 
 const isFlipped = ref(false);
 
@@ -15,27 +20,13 @@ function flip() {
   isFlipped.value = !isFlipped.value;
 }
 
-// Language display configuration
-// Using subtle, iconic symbols for each language
-const languageIcons: Record<string, { symbol: string; title: string }> = {
-  fr: { symbol: '⚜', title: 'Francouzsky' },      // Fleur-de-lis
-  en: { symbol: '♔', title: 'Anglicky' },         // Crown
-  ru: { symbol: '☆', title: 'Rusky' },            // Star (from Russian flag/symbolism)
-  it: { symbol: '⚬', title: 'Italsky' },          // Circle (Roman simplicity)
-  de: { symbol: '✧', title: 'Německy' },          // Diamond
-  la: { symbol: '∞', title: 'Latinsky' },         // Infinity (eternal language)
-  el: { symbol: 'Ω', title: 'Řecky' },            // Omega
-  es: { symbol: '◈', title: 'Španělsky' },        // Diamond
-  cz: { symbol: 'cz', title: 'Česky' },           // Czech letters
-  cs: { symbol: 'cz', title: 'Česky' },           // Czech (alternate code)
-};
-
-// Original languages (shown on back/original side)
+// Subtle, iconic symbols per language; names in the reader's UI language.
 const originalLanguages = computed(() => {
   const langs = props.languages || ['fr'];
   return langs.map(code => ({
     code,
-    ...languageIcons[code] || { symbol: code.toUpperCase(), title: code }
+    symbol: languageSymbol(code),
+    title: languageTitle(code, locale.value),
   }));
 });
 
@@ -50,24 +41,31 @@ const originalLangAttr = computed(() => props.languages?.[0] || 'fr');
 // Translation language (shown on front/translation side)
 const translationLanguage = computed(() => {
   const code = props.translationLang || 'cz';
-  return languageIcons[code] || { symbol: code.toUpperCase(), title: code };
+  return { symbol: languageSymbol(code), title: languageTitle(code, locale.value) };
 });
+
+const showOriginalLabel = computed(() =>
+  t('paragraph.showOriginal', { langs: originalLanguages.value.map(l => l.title).join(', ') })
+);
+const showTranslationLabel = computed(() =>
+  t('paragraph.showTranslation', { lang: translationLanguage.value.title })
+);
 </script>
 
 <template>
   <div
     class="flip-card"
-    :class="{ 'is-flipped': isFlipped, 'has-original': !!originalText }"
+    :class="{ 'is-flipped': isFlipped, 'has-original': !!originalHtml }"
   >
     <!-- Front face: Translation (A11y WS-D: rotated-away face is aria-hidden + inert) -->
     <div class="card-face card-front" :aria-hidden="isFlipped ? 'true' : undefined" :inert="isFlipped">
       <div class="paragraph-text" :lang="translationLangAttr" v-html="htmlContent" />
       <button
-        v-if="originalText"
+        v-if="originalHtml"
         @click="flip"
         class="flip-btn"
-        :aria-label="'Zobrazit originál: ' + originalLanguages.map(l => l.title).join(', ')"
-        :title="'→ ' + originalLanguages.map(l => l.title).join(', ')"
+        :aria-label="showOriginalLabel"
+        :title="showOriginalLabel"
       >
         <span class="language-icons">
           <span
@@ -81,13 +79,13 @@ const translationLanguage = computed(() => {
     </div>
 
     <!-- Back face: Original (shows translation language icon - click to see translation) -->
-    <div v-if="originalText" class="card-face card-back" :aria-hidden="!isFlipped ? 'true' : undefined" :inert="!isFlipped">
-      <p class="paragraph-text original-text" :lang="originalLangAttr">{{ originalText }}</p>
+    <div v-if="originalHtml" class="card-face card-back" :aria-hidden="!isFlipped ? 'true' : undefined" :inert="!isFlipped">
+      <div class="paragraph-text original-text" :lang="originalLangAttr" v-html="originalHtml" />
       <button
         @click="flip"
         class="flip-btn"
-        :aria-label="'Zobrazit překlad: ' + translationLanguage.title"
-        :title="'→ ' + translationLanguage.title"
+        :aria-label="showTranslationLabel"
+        :title="showTranslationLabel"
       >
         <span class="language-icons">
           <span class="lang-symbol" :title="translationLanguage.title">{{ translationLanguage.symbol }}</span>
@@ -128,18 +126,12 @@ const translationLanguage = computed(() => {
   position: absolute;
   inset: 0;
   transform: rotateY(180deg);
+  /* Same "pasted-in slip" as ParagraphToolbar's back face. */
   background: var(--bg-secondary, #F5E6D3);
-  border-radius: 0.5rem;
-  padding: 1rem;
-  margin: -1rem;
-}
-
-[data-theme="dark"] .card-back {
-  background: #252525;
-}
-
-[data-theme="sepia"] .card-back {
-  background: #EBD9C4;
+  border-left: 2px solid var(--ornament, #722F37);
+  border-radius: 0 0.25rem 0.25rem 0;
+  padding: 0.75rem 0 0.75rem 1rem;
+  margin: -0.75rem 0;
 }
 
 .paragraph-text {
@@ -150,12 +142,8 @@ const translationLanguage = computed(() => {
 
 .original-text {
   font-style: italic;
-  font-family: 'Crimson Pro', Georgia, serif;
+  font-family: var(--font-serif);
   color: var(--text-secondary, #4A3728);
-}
-
-[data-theme="dark"] .original-text {
-  color: #a3a3a3;
 }
 
 /* Flip button with language icons - positioned at top right, floating into gap */
@@ -182,13 +170,6 @@ const translationLanguage = computed(() => {
   -webkit-backface-visibility: hidden;
 }
 
-[data-theme="dark"] .flip-btn {
-  background: #1a1a1a;
-}
-
-[data-theme="sepia"] .flip-btn {
-  background: #F5E6D3;
-}
 
 .flip-btn:hover {
   opacity: 1;
@@ -196,10 +177,6 @@ const translationLanguage = computed(() => {
   background: var(--bg-secondary, #F5E6D3);
 }
 
-[data-theme="dark"] .flip-btn:hover {
-  background: #333;
-  color: var(--color-accent, #9A4707);
-}
 
 .language-icons {
   display: flex;
@@ -209,7 +186,7 @@ const translationLanguage = computed(() => {
 }
 
 .lang-symbol {
-  font-family: 'Crimson Pro', Georgia, serif;
+  font-family: var(--font-serif);
   font-style: normal;
 }
 

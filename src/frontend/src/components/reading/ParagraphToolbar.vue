@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, nextTick, watch } from 'vue';
-import { useI18n } from '../../i18n';
+import { useI18n, type SupportedLocale } from '../../i18n';
 import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
 import ReportDialog from './ReportDialog.vue';
+import { languageTitle } from '../../lib/language-labels';
 
-const { t } = useI18n();
 const auth = useAuthStore();
 
 interface GlossaryTag {
@@ -17,13 +17,16 @@ interface GlossaryTag {
 const props = defineProps<{
   paragraphId: string;
   htmlContent: string;
-  originalText?: string;
+  originalHtml?: string;     // French original, pre-rendered and escaped at build time
   languages?: string[];
   translationLang?: string;  // e.g., 'cz'
   glossaryTags?: GlossaryTag[];
   language?: string; // 'cz', 'en', etc. - for glossary link prefix
   contentLang?: string; // HTML lang attribute (e.g., 'fr', 'cs')
+  pageLocale?: SupportedLocale; // UI locale the server rendered the page in
 }>();
+
+const { t, locale } = useI18n(props.pageLocale);
 
 // ─── Flip state ───────────────────────────────────────────────────────
 
@@ -43,32 +46,19 @@ function flip() {
 
 // ─── Language display ─────────────────────────────────────────────────
 
-const languageIcons: Record<string, { symbol: string; title: string }> = {
-  fr: { symbol: '\u269C', title: 'Francouzsky' },      // Fleur-de-lis
-  en: { symbol: '\u2654', title: 'Anglicky' },         // Crown
-  ru: { symbol: '\u2606', title: 'Rusky' },            // Star
-  it: { symbol: '\u26AC', title: 'Italsky' },          // Circle
-  de: { symbol: '\u2727', title: 'N\u011Bmecky' },          // Diamond
-  la: { symbol: '\u221E', title: 'Latinsky' },         // Infinity
-  el: { symbol: '\u03A9', title: '\u0158ecky' },            // Omega
-  es: { symbol: '\u25C8', title: '\u0160pan\u011Blsky' },        // Diamond
-  cz: { symbol: 'cz', title: '\u010Cesky' },           // Czech letters
-  cs: { symbol: 'cz', title: '\u010Cesky' },           // Czech (alternate code)
-};
-
-const originalLanguages = computed(() => {
-  const langs = props.languages || ['fr'];
-  return langs.map(code => ({
-    code,
-    ...languageIcons[code] || { symbol: code.toUpperCase(), title: code }
-  }));
-});
-
-const translationLanguage = computed(() => {
-  const code = props.translationLang || 'cz';
-  return languageIcons[code] || { symbol: code.toUpperCase(), title: code };
-});
-
+// Language names in the reader's UI language ("French" / "francouzština" …).
+const originalLanguagesLabel = computed(() =>
+  (props.languages?.length ? props.languages : ['fr'])
+    .map(code => languageTitle(code, locale.value))
+    .join(', ')
+);
+const translationLanguageLabel = computed(() =>
+  languageTitle(props.translationLang || 'cz', locale.value)
+);
+const flipLabel = computed(() => isFlipped.value
+  ? t('paragraph.showTranslation', { lang: translationLanguageLabel.value })
+  : t('paragraph.showOriginal', { langs: originalLanguagesLabel.value })
+);
 // ─── Menu (bottom sheet) state ────────────────────────────────────────
 
 const categoryIcons: Record<string, string> = {
@@ -207,7 +197,7 @@ function handleSignInToReport() {
 
 // Computed: has any glossary tags
 const hasGlossaryTags = computed(() => props.glossaryTags && props.glossaryTags.length > 0);
-const hasOriginal = computed(() => !!props.originalText);
+const hasOriginal = computed(() => !!props.originalHtml);
 </script>
 
 <template>
@@ -234,12 +224,8 @@ const hasOriginal = computed(() => !!props.originalText);
         class="toolbar__btn toolbar__btn--fleur"
         :class="{ 'toolbar__btn--active': isFlipped }"
         :aria-pressed="isFlipped"
-        :aria-label="isFlipped
-          ? '\u2192 ' + translationLanguage.title
-          : '\u2192 ' + originalLanguages.map(l => l.title).join(', ')"
-        :title="isFlipped
-          ? '\u2192 ' + translationLanguage.title
-          : '\u2192 ' + originalLanguages.map(l => l.title).join(', ')"
+        :aria-label="flipLabel"
+        :title="flipLabel"
       >&#x269C;</button>
     </div>
 
@@ -256,7 +242,7 @@ const hasOriginal = computed(() => !!props.originalText);
 
       <!-- Back face: Original text -->
       <div v-if="hasOriginal" class="card-face card-back" :aria-hidden="!isFlipped ? 'true' : undefined" :inert="!isFlipped">
-        <p class="paragraph-text original-text" :lang="originalLangAttr">{{ originalText }}</p>
+        <div class="paragraph-text original-text" :lang="originalLangAttr" v-html="originalHtml" />
       </div>
     </div>
 
@@ -294,7 +280,7 @@ const hasOriginal = computed(() => !!props.originalText);
                 <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
                 </svg>
-                <span>{{ isFlipped ? '\u2192 ' + translationLanguage.title : '\u2192 ' + originalLanguages.map(l => l.title).join(', ') }}</span>
+                <span>{{ flipLabel }}</span>
               </button>
 
               <!-- Share button (if Web Share API available) -->
@@ -428,7 +414,7 @@ const hasOriginal = computed(() => !!props.originalText);
 /* Fleur-de-lis button */
 .toolbar__btn--fleur {
   font-size: 0.75rem;
-  font-family: 'Crimson Pro', Georgia, serif;
+  font-family: var(--font-serif);
   user-select: none;
 }
 
@@ -480,18 +466,13 @@ const hasOriginal = computed(() => !!props.originalText);
   position: absolute;
   inset: 0;
   transform: rotateY(180deg);
+  /* A slip pasted into the text column: kept inside the column (the old
+     -1rem margin overhung it by 16px each side), with an oxblood rule. */
   background: var(--bg-secondary, #F5E6D3);
-  border-radius: 0.5rem;
-  padding: 1rem;
-  margin: -1rem;
-}
-
-[data-theme="dark"] .card-back {
-  background: #252525;
-}
-
-[data-theme="sepia"] .card-back {
-  background: #EBD9C4;
+  border-left: 2px solid var(--ornament, #722F37);
+  border-radius: 0 0.25rem 0.25rem 0;
+  padding: 0.75rem 0 0.75rem 1rem;
+  margin: -0.75rem 0;
 }
 
 /* ─── Paragraph text ─────────────────────────────────────────────────── */
@@ -504,12 +485,8 @@ const hasOriginal = computed(() => !!props.originalText);
 
 .original-text {
   font-style: italic;
-  font-family: 'Crimson Pro', Georgia, serif;
+  font-family: var(--font-serif);
   color: var(--text-secondary, #4A3728);
-}
-
-[data-theme="dark"] .original-text {
-  color: #a3a3a3;
 }
 
 /* ─── Bottom sheet modal ─────────────────────────────────────────────── */
@@ -535,7 +512,7 @@ const hasOriginal = computed(() => !!props.originalText);
 }
 
 [data-theme="dark"] .sheet-content {
-  background: #1a1a1a;
+  background: var(--bg-primary);
 }
 
 [data-theme="sepia"] .sheet-content {
@@ -605,7 +582,7 @@ const hasOriginal = computed(() => !!props.originalText);
 }
 
 [data-theme="dark"] .menu-item {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .menu-item:hover {
@@ -613,7 +590,7 @@ const hasOriginal = computed(() => !!props.originalText);
 }
 
 [data-theme="dark"] .menu-item:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .menu-item__icon {

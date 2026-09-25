@@ -46,8 +46,9 @@ if (!entry) {
   return Astro.redirect(`/${lang.urlPath}`);
 }
 
-// Process content to add paragraph anchors
-const processedParagraphs = entry.paragraphs.map(p => ({
+// Process content to add paragraph anchors. The raw French markdown stays on
+// the server: the island only needs its rendered form (originalHtml).
+const processedParagraphs = entry.paragraphs.map(({ originalText: _raw, ...p }) => ({
   ...p,
   htmlId: `p-${p.id.replace('.', '-')}`,
 }));
@@ -199,6 +200,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         {/* Language Switcher with scroll preservation */}
         <LanguageSwitcher
           client:load
+          pageLocale={lang.uiLocale}
           currentLanguage={languageValue}
           carnet={carnet!}
           entryDate={entryDate!}
@@ -274,6 +276,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         isTranslation={lang.isTranslation}
         urlPath={lang.urlPath}
         contentLangAttr={lang.contentLangAttr}
+        uiLocale={lang.uiLocale}
       />
     </div>
 

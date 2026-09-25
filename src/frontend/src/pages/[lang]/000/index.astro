@@ -38,7 +38,9 @@ const processedParagraphs = entry.paragraphs.map(p => ({
 const languageValue = lang.isTranslation ? lang.urlPath : '_original';
 
 // Available languages for this carnet
-const availableLanguages: string[] = ['original'];
+// Content-path codes, as LanguageSwitcher expects: the French source is
+// '_original' (with 'original' it was greyed out as "not available").
+const availableLanguages: string[] = ['_original'];
 for (const checkLang of ['cz', 'en', 'uk', 'fr', 'es']) {
   if (hasCarnet000Content(checkLang)) {
     availableLanguages.push(checkLang);
@@ -56,6 +58,13 @@ const firstParagraphText = entry.paragraphs[0]?.html
 const pageDescription = `${t('diary.preface')} — Marie Bashkirtseff. ${firstParagraphText}`;
 
 const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
+
+// The preface is dated May 1884; render it in the page's date locale
+// ("květen 1884", "May 1884", "mai 1884") rather than hardcoded French.
+const prefaceMonth = new Date(Date.UTC(1884, 4, 1)).toLocaleDateString(lang.dateLocale, {
+  month: 'long', year: 'numeric', timeZone: 'UTC',
+});
+const prefaceDate = prefaceMonth.charAt(0).toLocaleUpperCase(lang.dateLocale) + prefaceMonth.slice(1);
 ---
 
 <ReadingLayout
@@ -93,6 +102,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         {/* Language Switcher with scroll preservation */}
         <LanguageSwitcher
           client:load
+          pageLocale={lang.uiLocale}
           currentLanguage={languageValue}
           carnet="000"
           availableLanguages={availableLanguages}
@@ -125,9 +135,9 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
       </p>
 
       <div class="flex items-center gap-4 text-sm text-muted flex-wrap">
-        <span>Mai 1884</span>
+        <span>{prefaceDate}</span>
         <span class="text-ink/30">|</span>
-        <span>{entry.paragraphs.length} {t('diary.sections')}</span>
+        <span data-t="diary.sectionCount" data-t-params={JSON.stringify({ count: entry.paragraphs.length })}>{t('diary.sectionCount', { count: entry.paragraphs.length })}</span>
       </div>
     </div>
 
@@ -146,9 +156,10 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
                 client:visible
                 paragraphId={paragraph.id}
                 htmlContent={paragraph.html}
-                originalText={paragraph.originalText}
+                originalHtml={paragraph.originalHtml}
                 languages={paragraph.languages}
                 translationLang={lang.urlPath}
+                pageLocale={lang.uiLocale}
               />
 
               <div class="absolute -top-3 right-16 opacity-50 hover:opacity-100 group-hover:opacity-100 transition-opacity z-10" style="transform: translateZ(100px); transform-style: flat;">
@@ -157,6 +168,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
                   paragraphId={paragraph.id}
                   glossaryTags={paragraph.glossaryTags}
                   language={lang.urlPath}
+                  pageLocale={lang.uiLocale}
                 />
               </div>
             </>
@@ -170,6 +182,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
                   paragraphId={paragraph.id}
                   glossaryTags={paragraph.glossaryTags}
                   language={lang.urlPath}
+                  pageLocale={lang.uiLocale}
                 />
               </div>
             </>
