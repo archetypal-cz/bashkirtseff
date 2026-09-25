@@ -3,7 +3,9 @@ import { ref, onMounted, onUnmounted, computed, watch, nextTick } from 'vue';
 import { useI18n, LOCALE_NAMES, SUPPORTED_LOCALES, type SupportedLocale } from '../../i18n';
 import { trackEvent } from '../../lib/analytics';
 
-const { locale, setLocale } = useI18n();
+// UI locale the server rendered this island in (Header.astro passes the page's).
+const props = defineProps<{ pageLocale?: SupportedLocale }>();
+const { locale, setLocale } = useI18n(props.pageLocale);
 
 const isOpen = ref(false);
 
@@ -218,12 +220,12 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .locale-toggle {
-  color: #a3a3a3;
+  color: var(--text-secondary);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
 [data-theme="dark"] .locale-toggle:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .locale-label {
@@ -250,7 +252,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .locale-dropdown {
-  background: #1a1a1a;
+  background: var(--bg-primary);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -278,11 +280,11 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .locale-option {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .locale-option:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .locale-code {
@@ -296,7 +298,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .locale-name {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 .check {

@@ -17,17 +17,24 @@
  *
  * Performance (H2): the locale dictionaries used to be inlined here (~103 KB of
  * all-four-locale JSON on every one of ~20k pages). They are now served as static,
- * cacheable per-locale files from /data/i18n/{locale}.json and fetched once. Czech
- * ('cs') is the SSR default, so Czech readers never fetch anything — the page is
- * already correct. Only a non-default UI preference triggers a single (then cached)
- * fetch, after which the patch runs. This keeps the inline payload ~1 KB.
+ * cacheable per-locale files from /data/i18n/{locale}.json and fetched once.
+ * Readers whose preference matches the page never fetch anything. Only a
+ * differing UI preference triggers a single (then cached) fetch, after which the
+ * patch runs. This keeps the inline payload ~1 KB.
+ *
+ * The server HTML is in the page's own UI locale (`<html data-ui-locale>`, set by
+ * BaseLayout) — Czech on /cz/ and /original/, English on /en/, … — so a patch is
+ * needed only when the stored preference differs from it. Counted messages are
+ * CLDR plural objects (see i18n/messages.ts), resolved with Intl.PluralRules.
  */
 ---
 
 <script is:inline>
 (function() {
-  var locale = localStorage.getItem('ui-language');
-  if (!locale || locale === 'cs') return; // Czech is the SSR default — nothing to patch
+  var locale;
+  try { locale = localStorage.getItem('ui-language'); } catch (e) { return; }
+  var pageLocale = document.documentElement.getAttribute('data-ui-locale') || 'cs';
+  if (!locale || locale === pageLocale) return; // server HTML already in this locale
 
   function getNestedValue(obj, path) {
     var keys = path.split('.');
@@ -39,7 +46,7 @@
         return null;
       }
     }
-    return typeof value === 'string' ? value : null;
+    return (typeof value === 'string' || (value && typeof value === 'object' && 'other' in value)) ? value : null;
   }
 
   function replacePlaceholders(str, params) {
@@ -47,6 +54,18 @@
     return str.replace(/\{(\w+)\}/g, function(_, key) {
       return (key in params) ? String(params[key]) : '{' + key + '}';
     });
+  }
+
+  // Plural object → the form for params.count ({count} shown locale-grouped).
+  function resolve(value, params) {
+    if (typeof value === 'string') return replacePlaceholders(value, params);
+    var count = params ? Number(params.count) : NaN;
+    if (!isFinite(count)) return replacePlaceholders(value.other, params);
+    var form = value[new Intl.PluralRules(locale).select(count)] || value.other;
+    var shown = {};
+    for (var k in params) shown[k] = params[k];
+    shown.count = new Intl.NumberFormat(locale).format(count);
+    return replacePlaceholders(form, shown);
   }
 
   function applyMessages(messages) {
@@ -59,7 +78,7 @@
       if (translated !== null) {
         var paramsAttr = el.getAttribute('data-t-params');
         var params = paramsAttr ? JSON.parse(paramsAttr) : null;
-        el.textContent = replacePlaceholders(translated, params);
+        el.textContent = resolve(translated, params);
       }
     }
   }

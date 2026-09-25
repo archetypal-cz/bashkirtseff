@@ -8,6 +8,7 @@ import { createT, localeToContentPath, type SupportedLocale } from '../../i18n/a
 import { findDiaryLang } from '../../lib/diary-lang-config';
 import { getThisDayEntries, getCarnets } from '../../lib/content';
 import { withTrailingSlash } from '../../lib/url';
+import { quote } from '../../lib/typography';
 
 export function getStaticPaths() {
   return [
@@ -90,6 +91,7 @@ const homeAlternates = [
 
 <BaseLayout
   lang={lang}
+  lockLang
   alternates={homeAlternates}
   title={t('home.pageTitle') || 'Marie Bashkirtseff — Complete Unabridged Diary'}
   description={t('home.pageDescription') || 'Read the complete, unabridged diary of Marie Bashkirtseff (1858-1884). A remarkable document of 19th century life, art, and female ambition. Free and accessible in multiple languages.'}
@@ -106,7 +108,7 @@ const homeAlternates = [
           <span class="block text-3xl md:text-4xl font-normal mt-1">Marie Bashkirtseff</span>
         </h1>
         <p class="text-xl md:text-2xl text-ink-light italic mb-8" style="font-family: var(--font-serif);">
-          "{t('quotes.interestingBook')}"
+          {quote(t('quotes.interestingBook'), lang!)}
         </p>
         {t('quotes.interestingBookOriginal') && (
           <p class="text-muted text-sm mb-8 -mt-6">
@@ -256,7 +258,7 @@ const homeAlternates = [
     <section class="py-16 bg-ink text-parchment">
       <div class="max-w-3xl mx-auto px-4 text-center">
         <blockquote class="text-2xl md:text-3xl italic mb-6" style="font-family: var(--font-serif);">
-          "{t('quotes.live')}"
+          {quote(t('quotes.live'), lang!)}
         </blockquote>
         {t('quotes.liveOriginal') ? (
           <p class="text-parchment/70 mb-8">

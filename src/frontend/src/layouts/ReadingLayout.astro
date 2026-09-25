@@ -35,7 +35,7 @@ const htmlLang = diaryLang?.contentLangAttr ?? lang;
 const githubSource = sourcePath ? githubSourceUrl(sourcePath) : undefined;
 ---
 
-<BaseLayout title={title} description={description} lang={htmlLang} lockLang={!!htmlLang} image={image} type={type} canonicalUrl={canonicalUrl} alternates={alternates} article={article}>
+<BaseLayout title={title} description={description} lang={htmlLang} uiLocale={locale} lockLang={!!htmlLang} image={image} type={type} canonicalUrl={canonicalUrl} alternates={alternates} article={article}>
   <Header locale={locale} />
 
   <main id="main" class="flex-grow" data-github-source={githubSource}>

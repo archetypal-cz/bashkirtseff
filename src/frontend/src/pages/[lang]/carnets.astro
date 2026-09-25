@@ -64,9 +64,9 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
       </h1>
 
       <div class="flex items-center gap-6 text-sm text-muted">
-        <span>{allCarnets.length} sešitů</span>
+        <span data-t="diary.notebookCount" data-t-params={JSON.stringify({ count: allCarnets.length })}>{t('diary.notebookCount', { count: allCarnets.length })}</span>
         <span>&bull;</span>
-        <span>{totalEntries} {t('diary.entries')}</span>
+        <span data-t="diary.entryCount" data-t-params={JSON.stringify({ count: totalEntries })}>{t('diary.entryCount', { count: totalEntries })}</span>
         <span>&bull;</span>
         <span class="text-accent">{totalTranslated} {t('diary.translated')}</span>
       </div>
@@ -136,7 +136,7 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
                 </div>
               )}
               <div class="text-sm text-muted">
-                {carnet.totalEntries} {t('diary.entries')}
+                <span data-t="diary.entryCount" data-t-params={JSON.stringify({ count: carnet.totalEntries })}>{t('diary.entryCount', { count: carnet.totalEntries })}</span>
               </div>
               <svg class="w-5 h-5 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />

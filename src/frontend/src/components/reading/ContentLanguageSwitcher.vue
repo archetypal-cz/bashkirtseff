@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { useI18n } from '../../i18n';
+import { useI18n, type SupportedLocale } from '../../i18n';
 import { DIARY_LANGUAGES } from '../../lib/diary-lang-config';
 import { trackEvent } from '../../lib/analytics';
 
@@ -21,10 +21,11 @@ const ALL_LANGUAGES = ['cz', 'en', 'uk', 'fr', '_original'] as const;
 interface Props {
   currentLanguage: string;  // 'cz', 'en', 'uk', 'fr', 'original'
   pathSuffix: string;       // e.g., '/001/', '/1877/', '/'
+  pageLocale?: SupportedLocale; // UI locale the server rendered the page in
 }
 
 const props = defineProps<Props>();
-const { t } = useI18n();
+const { t } = useI18n(props.pageLocale);
 
 // Active content URL paths from DIARY_LANGUAGES
 const activeContentPaths = new Set(DIARY_LANGUAGES.map(l =>
@@ -117,12 +118,12 @@ function getTitle(lang: string): string {
 }
 
 [data-theme="dark"] .lang-link {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 [data-theme="dark"] .lang-link:hover {
-  background: #252525;
-  color: #e5e5e5;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
 }
 
 .lang-current {
@@ -149,7 +150,7 @@ function getTitle(lang: string): string {
 }
 
 [data-theme="dark"] .lang-unavailable {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 .globe-icon {

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue';
 import { useFilterStore } from '../stores/filter';
+import { useI18n, type SupportedLocale } from '../i18n';
+import { monthName as localMonthName, weekdayLabels } from '../lib/calendar-labels';
 
 interface Props {
   year: number;
@@ -10,9 +12,11 @@ interface Props {
   carnet: string;
   language: string; // 'cz' or 'original'
   compact?: boolean;
+  pageLocale?: SupportedLocale; // UI locale the server rendered the page in
 }
 
 const props = defineProps<Props>();
+const { locale } = useI18n(props.pageLocale);
 const filterStore = useFilterStore();
 
 // Initialize filter store (reads persisted tags from localStorage).
@@ -26,14 +30,8 @@ onMounted(() => {
   }
 });
 
-// Czech month names
-const CZECH_MONTHS = [
-  'leden', 'únor', 'březen', 'duben', 'květen', 'červen',
-  'červenec', 'srpen', 'září', 'říjen', 'listopad', 'prosinec'
-];
-
-// Day labels (Mon-Sun)
-const DAY_LABELS = ['Po', 'Út', 'St', 'Čt', 'Pá', 'So', 'Ne'];
+// Day labels (Mon-Sun) in the reader's UI language
+const dayLabels = computed(() => weekdayLabels(locale.value));
 
 // Build base path for links
 const basePath = computed(() => {
@@ -42,8 +40,8 @@ const basePath = computed(() => {
     : `/${props.language}`;
 });
 
-// Get month name in Czech
-const monthName = computed(() => CZECH_MONTHS[props.month - 1]);
+// Month name in the reader's UI language
+const monthName = computed(() => localMonthName(props.month, locale.value));
 
 // Create a set for O(1) lookup of entry dates
 const entryDateSet = computed(() => new Set(props.entryDates));
@@ -171,7 +169,7 @@ const calendarWeeks = computed(() => {
 
     <!-- Day labels -->
     <div class="calendar-days-header">
-      <span v-for="label in DAY_LABELS" :key="label" class="day-label">
+      <span v-for="(label, i) in dayLabels" :key="i" class="day-label">
         {{ label }}
       </span>
     </div>
@@ -223,7 +221,7 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .calendar-widget {
-  background: #1a1a1a;
+  background: var(--bg-primary);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -292,7 +290,7 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .calendar-month {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .calendar-year {
@@ -301,7 +299,7 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .calendar-year {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 /* Day labels row */
@@ -323,7 +321,7 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .day-label {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 /* Calendar grid */
@@ -362,7 +360,7 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .calendar-day.no-entry {
-  color: #737373;
+  color: var(--text-muted);
 }
 
 /* Days from other months */
@@ -372,7 +370,7 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .calendar-day.other-month {
-  color: #525252;
+  color: color-mix(in srgb, var(--text-muted) 60%, transparent);
 }
 
 /* Days with entries */
@@ -385,8 +383,8 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .calendar-day.has-entry {
-  color: #e5e5e5;
-  background: #252525;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
 }
 
 .calendar-day.has-entry:hover {
@@ -451,7 +449,7 @@ const calendarWeeks = computed(() => {
 
 [data-theme="dark"] .calendar-day.has-entry.filter-active-match {
   background: #D97706;
-  color: #1a1a1a;
+  color: var(--bg-primary);
 }
 
 [data-theme="dark"] .calendar-day.has-entry.filter-active-dim {

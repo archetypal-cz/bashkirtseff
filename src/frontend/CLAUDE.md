@@ -31,7 +31,7 @@ Deployment is automatic via GitHub Actions on push to `main`.
 | Framework | **Astro 7** (static output) |
 | UI Islands | **Vue 3** (Composition API), via `@astrojs/vue` |
 | State | **Pinia** (`src/stores/`) |
-| i18n | `vue-i18n` (islands) + a tiny build-time `t()` for `.astro` (`src/i18n/astro.ts`) |
+| i18n | Own tiny `useI18n()` for islands (`src/i18n/index.ts`) + build-time `createT()` for `.astro` (`src/i18n/astro.ts`), both resolving through `src/i18n/messages.ts` (CLDR plurals). `vue-i18n` is a dependency but unused. |
 | Styling | **Tailwind CSS v4** via `@tailwindcss/vite` (no `tailwind.config.*`) + `src/styles/branding.css` design tokens |
 | PWA | **`@vite-pwa/astro`** (Workbox `generateSW`) |
 | Auth | Custom GoTrue-style client (`src/lib/auth.ts`) against `PUBLIC_AUTH_URL` (default `https://auth.bashkirtseff.org`) — used only for the "report an issue" feature. **No `@supabase/supabase-js` SDK.** |
@@ -291,6 +291,29 @@ contentPathToLocale('cz')  // → 'cs'
 
 See [docs/LOCALE_MAPPING.md](docs/LOCALE_MAPPING.md). Covered by
 `src/i18n/__tests__/locale-mapping.test.ts`, run with `npm test` (vitest).
+
+---
+
+## UI locale, plurals and typography
+
+- Every page renders its chrome in its **own UI locale** (`DiaryLanguageConfig.uiLocale`,
+  the `[lang]` of home/about pages) and writes it to `<html data-ui-locale>`
+  (BaseLayout `uiLocale` prop). A reader's stored `ui-language` preference is applied
+  on top: by `I18nPatch` for `data-t` elements, and by `useI18n()` in islands.
+- Islands: pass `pageLocale` (the page's UI locale) wherever the .astro parent knows
+  it, e.g. `<HeaderNav client:idle pageLocale={locale} />` → `useI18n(props.pageLocale)`.
+  `useI18n` renders in that locale until mounted and only then switches to the
+  stored preference — Vue does not repair mismatched *attributes* on hydration,
+  which is how Czech `title`/`aria-label`s used to stick on /en/ pages.
+- Counted strings are CLDR plural objects in `locales/*.json`
+  (`{"one": "{count} sešit", "few": "{count} sešity", "other": "{count} sešitů"}`),
+  resolved with `Intl.PluralRules`; `{count}` is locale-grouped. Always include `other`.
+  For a static count use `data-t="diary.entryCount" data-t-params={JSON.stringify({ count })}`.
+- Diary text gets locale quotes/apostrophes/French spacing at render time
+  (`lib/typography.ts`, applied in `content.ts`), never in `content/`. The French
+  flip panel is `Paragraph.originalHtml` (`lib/original-html.ts`, escaped inline
+  markdown), falling back to the `_original` paragraph when a translation file
+  lost its embedded French.
 
 ---
 

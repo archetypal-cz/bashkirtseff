@@ -3,6 +3,7 @@ import ReadingLayout from '../../layouts/ReadingLayout.astro';
 import { createT, localeToContentPath, type SupportedLocale } from '../../i18n/astro';
 import { findDiaryLang } from '../../lib/diary-lang-config';
 import { withTrailingSlash } from '../../lib/url';
+import { quote } from '../../lib/typography';
 
 export function getStaticPaths() {
   return [
@@ -85,7 +86,7 @@ const contentPath = findDiaryLang(langContentPath) ? langContentPath : 'original
       </p>
 
       <blockquote class="border-l-4 border-accent pl-6 py-2 my-8 italic text-ink">
-        "{t('quotes.existence')}"
+        {quote(t('quotes.existence'), lang!)}
         {t('quotes.existenceOriginal') && (
           <span class="block text-xs text-muted mt-1 not-italic">
             {t('quotes.existenceOriginal')}
@@ -103,7 +104,7 @@ const contentPath = findDiaryLang(langContentPath) ? langContentPath : 'original
       <h2 class="text-xl font-medium text-ink mt-8 mb-4">{t('about.praise')}</h2>
 
       <blockquote class="border-l-4 border-accent pl-6 py-2 my-6 italic text-ink">
-        "{t('about.praiseGladstone')}"
+        {quote(t('about.praiseGladstone'), lang!)}
         <footer class="mt-2 text-muted not-italic text-sm">
           — {t('about.praiseGladstoneAttrib')}
         </footer>

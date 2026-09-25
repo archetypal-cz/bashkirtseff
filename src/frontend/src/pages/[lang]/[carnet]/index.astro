@@ -254,13 +254,13 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
 
             <div class="flex items-center gap-3 text-sm mb-3 flex-wrap">
               <span class="text-muted">
-                {allEntries.length} {isSectionCarnet ? <span data-t="diary.sections">{t('diary.sections')}</span> : <span data-t="diary.entries">{t('diary.entries')}</span>}
+                {isSectionCarnet ? <span data-t="diary.sectionCount" data-t-params={JSON.stringify({ count: allEntries.length })}>{t('diary.sectionCount', { count: allEntries.length })}</span> : <span data-t="diary.entryCount" data-t-params={JSON.stringify({ count: allEntries.length })}>{t('diary.entryCount', { count: allEntries.length })}</span>}
               </span>
               {totalWordCount > 0 && (
                 <>
                   <span class="text-muted">&bull;</span>
                   <span class="text-muted">
-                    {totalWordCount.toLocaleString(lang.dateLocale)} {t('diary.words')}
+                    <span data-t="diary.wordCount" data-t-params={JSON.stringify({ count: totalWordCount })}>{t('diary.wordCount', { count: totalWordCount })}</span>
                   </span>
                 </>
               )}
@@ -298,6 +298,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
           <div class="flex flex-col gap-3 mt-4 w-full">
             <ContentLanguageSwitcher
               client:load
+              pageLocale={lang.uiLocale}
               currentLanguage={lang.urlPath}
               pathSuffix={`/${carnet}/`}
             />
@@ -396,6 +397,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
                   carnet={carnet!}
                   language={calendarLanguage}
                   compact={true}
+                  pageLocale={lang.uiLocale}
                 />
               ))}
             </div>
@@ -426,7 +428,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
                 </time>
                 {entry.wordCount != null && entry.wordCount > 0 && (
                   <span class="text-xs text-muted">
-                    ({entry.wordCount.toLocaleString(lang.dateLocale)} {t('diary.words')})
+                    (<span data-t="diary.wordCount" data-t-params={JSON.stringify({ count: entry.wordCount })}>{t('diary.wordCount', { count: entry.wordCount })}</span>)
                   </span>
                 )}
                 {lang.isTranslation && !entry.isTranslated && (

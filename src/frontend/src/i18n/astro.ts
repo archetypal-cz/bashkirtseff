@@ -4,41 +4,20 @@ import fr from './locales/fr.json';
 import en from './locales/en.json';
 import uk from './locales/uk.json';
 import es from './locales/es.json';
+import { resolveMessage, type MessageParams, type MessageTree } from './messages';
 
 export type SupportedLocale = 'cs' | 'fr' | 'en' | 'uk' | 'es';
 
-const messages: Record<SupportedLocale, typeof cs> = { cs, fr, en, uk, es };
-
-// Get nested value from object by dot-separated path
-function getNestedValue(obj: Record<string, any>, path: string): string {
-  const keys = path.split('.');
-  let value: any = obj;
-  for (const key of keys) {
-    if (value && typeof value === 'object' && key in value) {
-      value = value[key];
-    } else {
-      return path; // Return key if not found
-    }
-  }
-  return typeof value === 'string' ? value : path;
-}
-
-// Replace placeholders like {year} or {book} in translation strings
-function replacePlaceholders(str: string, params?: Record<string, string | number>): string {
-  if (!params) return str;
-  return str.replace(/\{(\w+)\}/g, (_, key) => {
-    return params[key]?.toString() ?? `{${key}}`;
-  });
-}
+const messages: Record<SupportedLocale, MessageTree> = { cs, fr, en, uk, es };
 
 // Create a translation function for a specific locale
 // Use this in pages with a [lang] parameter: const t = createT(lang as SupportedLocale)
 export function createT(locale: SupportedLocale) {
-  const localeMessages = messages[locale] || messages.cs;
+  const loc: SupportedLocale = messages[locale] ? locale : 'cs';
+  const localeMessages = messages[loc];
 
-  return function t(key: string, params?: Record<string, string | number>): string {
-    const value = getNestedValue(localeMessages, key);
-    return replacePlaceholders(value, params);
+  return function t(key: string, params?: MessageParams): string {
+    return resolveMessage(localeMessages, key, loc, params);
   };
 }
 

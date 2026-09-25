@@ -102,13 +102,18 @@
   },
   "paragraph": {
     "options": "Paragraph options",
-    "relatedItems": "{count} related items",
+    "relatedItems": {
+      "one": "{count} related item",
+      "other": "{count} related items"
+    },
     "share": "Share paragraph",
     "copyLink": "Copy link",
     "copied": "Copied!",
     "relatedEntries": "Related entries",
     "clickToViewGlossary": "Click to view in glossary",
-    "filterByTag": "Filter entries in this carnet"
+    "filterByTag": "Filter entries in this carnet",
+    "showOriginal": "Show original: {langs}",
+    "showTranslation": "Show translation: {lang}"
   },
   "footer": {
     "aboutProject": "About",
@@ -259,7 +264,10 @@
     "clearFilter": "Clear filter",
     "bannerCount": "Filtered: {matching} of {total} entries",
     "bannerCarnet": "Showing {matching} of {total} entries ({hidden} hidden)",
-    "paragraphsHidden": "{count} paragraphs hidden",
+    "paragraphsHidden": {
+      "one": "{count} paragraph hidden",
+      "other": "{count} paragraphs hidden"
+    },
     "showHidden": "Show hidden",
     "hideFiltered": "Hide filtered"
   },
@@ -268,7 +276,10 @@
     "description": "People, places, works and terms from the diary of Marie Bashkirtseff.",
     "search": "Search glossary...",
     "noResults": "No entries found",
-    "results": "{count} entries found",
+    "results": {
+      "one": "{count} entry found",
+      "other": "{count} entries found"
+    },
     "entries": "entries",
     "entry1": "entry",
     "entries2to4": "entries",
@@ -278,7 +289,10 @@
     "updated": "Updated",
     "pronunciation": "Pronunciation",
     "pronunciationTitle": "Hear pronunciation",
-    "filterMentions": "Filter {count} mentions in diary",
+    "filterMentions": {
+      "one": "Filter {count} mention in diary",
+      "other": "Filter {count} mentions in diary"
+    },
     "categories": {
       "people": "People",
       "places": "Places",
@@ -381,11 +395,30 @@
     "frenchOriginal": "French original",
     "showInDiary": "Show in diary",
     "alsoKnownAs": "Also known as:",
-    "mentions": "{count} mentions",
+    "mentions": {
+      "one": "{count} mention",
+      "other": "{count} mentions"
+    },
     "notebooks": "notebooks",
     "crossYearContinues": "Continues to year {years}",
     "words": "words",
-    "entryDescription": "Diary entry — {title} (Notebook {carnet})."
+    "entryDescription": "Diary entry — {title} (Notebook {carnet}).",
+    "entryCount": {
+      "one": "{count} entry",
+      "other": "{count} entries"
+    },
+    "notebookCount": {
+      "one": "{count} notebook",
+      "other": "{count} notebooks"
+    },
+    "sectionCount": {
+      "one": "{count} section",
+      "other": "{count} sections"
+    },
+    "wordCount": {
+      "one": "{count} word",
+      "other": "{count} words"
+    }
   },
   "history": {
     "title": "Reading History",

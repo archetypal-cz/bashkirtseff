@@ -102,13 +102,19 @@
   },
   "paragraph": {
     "options": "Параметри абзацу",
-    "relatedItems": "{count} пов'язаних елементів",
+    "relatedItems": {
+      "one": "{count} пов’язаний елемент",
+      "few": "{count} пов’язані елементи",
+      "other": "{count} пов’язаних елементів"
+    },
     "share": "Поділитися абзацом",
     "copyLink": "Копіювати посилання",
     "copied": "Скопійовано!",
     "relatedEntries": "Пов'язані записи",
     "clickToViewGlossary": "Натисніть, щоб переглянути в глосарії",
-    "filterByTag": "Фільтрувати записи в зошиті"
+    "filterByTag": "Фільтрувати записи в зошиті",
+    "showOriginal": "Показати оригінал: {langs}",
+    "showTranslation": "Показати переклад: {lang}"
   },
   "footer": {
     "aboutProject": "Про проєкт",
@@ -259,7 +265,11 @@
     "clearFilter": "Скасувати фільтр",
     "bannerCount": "Відфільтровано: {matching} з {total} записів",
     "bannerCarnet": "Показано {matching} з {total} записів ({hidden} приховано)",
-    "paragraphsHidden": "{count} абзаців приховано",
+    "paragraphsHidden": {
+      "one": "{count} абзац приховано",
+      "few": "{count} абзаци приховано",
+      "other": "{count} абзаців приховано"
+    },
     "showHidden": "Показати приховані",
     "hideFiltered": "Сховати відфільтровані"
   },
@@ -268,7 +278,11 @@
     "description": "Особи, місця, твори та терміни з щоденника Марії Башкирцевої.",
     "search": "Шукати в глосарії...",
     "noResults": "Записів не знайдено",
-    "results": "{count} знайдених записів",
+    "results": {
+      "one": "{count} знайдений запис",
+      "few": "{count} знайдені записи",
+      "other": "{count} знайдених записів"
+    },
     "entries": "записів",
     "entry1": "запис",
     "entries2to4": "записи",
@@ -278,7 +292,11 @@
     "updated": "Оновлено",
     "pronunciation": "Вимова",
     "pronunciationTitle": "Послухати вимову",
-    "filterMentions": "Фільтрувати {count} згадок у щоденнику",
+    "filterMentions": {
+      "one": "Фільтрувати {count} згадку в щоденнику",
+      "few": "Фільтрувати {count} згадки в щоденнику",
+      "other": "Фільтрувати {count} згадок у щоденнику"
+    },
     "categories": {
       "people": "Особи",
       "places": "Місця",
@@ -381,11 +399,35 @@
     "frenchOriginal": "Французький оригінал",
     "showInDiary": "Показати у щоденнику",
     "alsoKnownAs": "Також відомий як:",
-    "mentions": "{count} згадок",
+    "mentions": {
+      "one": "{count} згадка",
+      "few": "{count} згадки",
+      "other": "{count} згадок"
+    },
     "notebooks": "зошитів",
     "crossYearContinues": "Продовжується у {years}",
     "words": "слів",
-    "entryDescription": "Запис зі щоденника — {title} (зошит {carnet})."
+    "entryDescription": "Запис зі щоденника — {title} (зошит {carnet}).",
+    "entryCount": {
+      "one": "{count} запис",
+      "few": "{count} записи",
+      "other": "{count} записів"
+    },
+    "notebookCount": {
+      "one": "{count} зошит",
+      "few": "{count} зошити",
+      "other": "{count} зошитів"
+    },
+    "sectionCount": {
+      "one": "{count} розділ",
+      "few": "{count} розділи",
+      "other": "{count} розділів"
+    },
+    "wordCount": {
+      "one": "{count} слово",
+      "few": "{count} слова",
+      "other": "{count} слів"
+    }
   },
   "history": {
     "title": "Історія читання",

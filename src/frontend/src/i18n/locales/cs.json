@@ -102,13 +102,19 @@
   },
   "paragraph": {
     "options": "Možnosti odstavce",
-    "relatedItems": "{count} souvisejících položek",
+    "relatedItems": {
+      "one": "{count} související položka",
+      "few": "{count} související položky",
+      "other": "{count} souvisejících položek"
+    },
     "share": "Sdílet odstavec",
     "copyLink": "Kopírovat odkaz",
     "copied": "Zkopírováno!",
     "relatedEntries": "Související položky",
     "clickToViewGlossary": "Klikněte pro zobrazení v glosáři",
-    "filterByTag": "Filtrovat záznamy v sešitu"
+    "filterByTag": "Filtrovat záznamy v sešitu",
+    "showOriginal": "Zobrazit originál: {langs}",
+    "showTranslation": "Zobrazit překlad: {lang}"
   },
   "footer": {
     "aboutProject": "O projektu",
@@ -259,7 +265,11 @@
     "clearFilter": "Zrušit filtr",
     "bannerCount": "Filtrováno: {matching} z {total} záznamů",
     "bannerCarnet": "Zobrazeno {matching} z {total} záznamů ({hidden} skryto)",
-    "paragraphsHidden": "{count} odstavců vynecháno",
+    "paragraphsHidden": {
+      "one": "{count} odstavec vynechán",
+      "few": "{count} odstavce vynechány",
+      "other": "{count} odstavců vynecháno"
+    },
     "showHidden": "Zobrazit skryté",
     "hideFiltered": "Skrýt odfiltrované"
   },
@@ -268,7 +278,11 @@
     "description": "Osoby, místa, díla a pojmy z deníku Marie Bashkirtseff.",
     "search": "Hledat v glosáři...",
     "noResults": "Žádné položky nenalezeny",
-    "results": "{count} nalezených položek",
+    "results": {
+      "one": "{count} nalezená položka",
+      "few": "{count} nalezené položky",
+      "other": "{count} nalezených položek"
+    },
     "entries": "položek",
     "entry1": "položka",
     "entries2to4": "položky",
@@ -278,7 +292,11 @@
     "updated": "Aktualizováno",
     "pronunciation": "Výslovnost",
     "pronunciationTitle": "Poslechněte si výslovnost",
-    "filterMentions": "Filtrovat {count} zmínek v deníku",
+    "filterMentions": {
+      "one": "Filtrovat {count} zmínku v deníku",
+      "few": "Filtrovat {count} zmínky v deníku",
+      "other": "Filtrovat {count} zmínek v deníku"
+    },
     "categories": {
       "people": "Osoby",
       "places": "Místa",
@@ -381,11 +399,35 @@
     "frenchOriginal": "Francouzský originál",
     "showInDiary": "Zobrazit v deníku",
     "alsoKnownAs": "Také známý jako:",
-    "mentions": "{count} zmínek",
+    "mentions": {
+      "one": "{count} zmínka",
+      "few": "{count} zmínky",
+      "other": "{count} zmínek"
+    },
     "notebooks": "sešitů",
     "crossYearContinues": "Pokračuje do roku {years}",
     "words": "slov",
-    "entryDescription": "Deníkový záznam — {title} (sešit {carnet})."
+    "entryDescription": "Deníkový záznam — {title} (sešit {carnet}).",
+    "entryCount": {
+      "one": "{count} záznam",
+      "few": "{count} záznamy",
+      "other": "{count} záznamů"
+    },
+    "notebookCount": {
+      "one": "{count} sešit",
+      "few": "{count} sešity",
+      "other": "{count} sešitů"
+    },
+    "sectionCount": {
+      "one": "{count} oddíl",
+      "few": "{count} oddíly",
+      "other": "{count} oddílů"
+    },
+    "wordCount": {
+      "one": "{count} slovo",
+      "few": "{count} slova",
+      "other": "{count} slov"
+    }
   },
   "history": {
     "title": "Historie čtení",

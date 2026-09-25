@@ -26,31 +26,32 @@ const t = locale ? createT(locale) : defaultT;
       </a>
 
       <!-- Navigation (desktop) — Vue island for reactive locale -->
-      <HeaderNav client:idle />
+      <HeaderNav client:idle pageLocale={locale} />
 
       <!-- Right side: Locale switcher + Login + Mobile Menu -->
       <div class="flex items-center gap-2 md:gap-4">
         <!-- Offline status indicator -->
-        <OfflineStatus client:load />
+        <OfflineStatus client:load pageLocale={locale} />
 
         <!-- UI Locale Switcher (CS/FR/EN) -->
-        <LocaleSwitcher client:load />
+        <LocaleSwitcher client:load pageLocale={locale} />
 
         <!-- Unified Menu (settings + contents + filter + nav on mobile) -->
-        <UnifiedMenu client:load />
+        <UnifiedMenu client:load pageLocale={locale} />
       </div>
     </div>
   </div>
 </header>
 
 <script is:inline>
-// Update site title from user's locale preference (static HTML is always Czech)
+// Update site title from the user's locale preference (static HTML is in the page's UI locale)
 (function() {
   var titles = {
     cs: 'Deník Marie Bashkirtseff',
     en: 'Diary of Marie Bashkirtseff',
     fr: 'Journal de Marie Bashkirtseff',
-    uk: 'Щоденник Марії Башкирцевої'
+    uk: 'Щоденник Марії Башкирцевої',
+    es: 'Diario de Marie Bashkirtseff'
   };
   var locale = localStorage.getItem('ui-language');
   if (locale && titles[locale]) {

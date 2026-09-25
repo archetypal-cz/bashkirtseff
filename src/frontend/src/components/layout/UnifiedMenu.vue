@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue';
-import { useI18n, getTranslationHref, getOriginalHref, glossaryHref, pageHref } from '../../i18n';
+import { useI18n, getTranslationHref, getOriginalHref, glossaryHref, pageHref, type SupportedLocale } from '../../i18n';
 import { useFilterStore } from '../../stores/filter';
 import { useDialog } from '../../composables/useDialog';
 import { useHistoryStore } from '../../stores/history';
@@ -9,7 +9,9 @@ import CalendarWidget from '../CalendarWidget.vue';
 import UserMenu from '../auth/UserMenu.vue';
 import type { FilterCategory, FilterTag } from '../../types/filter-index';
 
-const { t, locale } = useI18n();
+// UI locale the server rendered this island in (Header.astro passes the page's).
+const props = defineProps<{ pageLocale?: SupportedLocale }>();
+const { t, locale } = useI18n(props.pageLocale);
 const currentPath = ref('');
 // GitHub URL of the current page's markdown source (set by ReadingLayout as data attr)
 const githubSource = ref<string | null>(null);
@@ -645,6 +647,7 @@ onUnmounted(() => {
                       :selected-date="sidebarData.selectedDate || sidebarData.currentEntry"
                       :carnet="sidebarData.carnet"
                       :language="sidebarData.language === '_original' ? 'original' : sidebarData.language"
+                      :page-locale="props.pageLocale"
                       compact
                     />
                   </div>
@@ -952,14 +955,14 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .unified-menu-toggle {
-  background: linear-gradient(180deg, #2a2a2a 0%, #1e1e1e 100%);
+  background: linear-gradient(180deg, var(--surface-hover) 0%, var(--bg-secondary) 100%);
   border-color: rgba(255, 255, 255, 0.12);
   color: #b0b0b0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 [data-theme="dark"] .unified-menu-toggle:hover {
-  color: #e5e5e5;
+  color: var(--text-primary);
   border-color: var(--color-accent, #D97706);
 }
 
@@ -1066,7 +1069,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .um-panel {
-  background: #1a1a1a;
+  background: var(--bg-primary);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -1092,7 +1095,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .um-title {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .um-close {
@@ -1151,7 +1154,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .um-section-header:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .um-section-label {
@@ -1249,8 +1252,8 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .font-btn {
-  background: #2a2a2a;
-  color: #e5e5e5;
+  background: var(--surface-hover);
+  color: var(--text-primary);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -1274,7 +1277,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .font-size-value {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .theme-controls {
@@ -1389,9 +1392,9 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .um-search-input {
-  background: #252525;
+  background: var(--bg-secondary);
   border-color: rgba(255, 255, 255, 0.1);
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .contents-list {
@@ -1422,11 +1425,11 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .contents-entry {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .contents-entry:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .entry-number {
@@ -1454,7 +1457,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .entry-title {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 .contents-footer {
@@ -1517,7 +1520,7 @@ onUnmounted(() => {
 
 [data-theme="dark"] .mode-btn {
   border-color: rgba(255, 255, 255, 0.15);
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 [data-theme="dark"] .mode-btn.active {
@@ -1615,7 +1618,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .filter-category-header:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .filter-category-label {
@@ -1772,7 +1775,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .tag-name {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .tag-count {
@@ -1824,7 +1827,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .history-row:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .history-item {
@@ -1841,7 +1844,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .history-item {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .history-delete {
@@ -1871,8 +1874,8 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .history-delete:hover {
-  background: #333;
-  color: #e5e5e5;
+  background: var(--surface-hover);
+  color: var(--text-primary);
 }
 
 
@@ -1904,7 +1907,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .history-label {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 .history-glossary-icon {
@@ -1990,11 +1993,11 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .um-nav-link {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .um-nav-link:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 /* ═══ GitHub source link ═══ */
@@ -2031,8 +2034,8 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .um-github-link:hover {
-  background: #252525;
-  color: #e5e5e5;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
 }
 
 .um-nav-icon {

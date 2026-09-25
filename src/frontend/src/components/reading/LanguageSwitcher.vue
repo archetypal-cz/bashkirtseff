@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
-import { useI18n } from '../../i18n';
+import { useI18n, type SupportedLocale } from '../../i18n';
 import { trackEvent } from '../../lib/analytics';
 
-const { t } = useI18n();
 
 /**
  * LanguageSwitcher Component
@@ -29,9 +28,11 @@ interface Props {
   carnet: string;
   entryDate?: string;
   availableLanguages: string[];
+  pageLocale?: SupportedLocale; // UI locale the server rendered the page in
 }
 
 const props = defineProps<Props>();
+const { t } = useI18n(props.pageLocale);
 
 const availableSet = computed(() => new Set(props.availableLanguages));
 
@@ -173,12 +174,12 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .lang-link {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 [data-theme="dark"] .lang-link:hover {
-  background: #252525;
-  color: #e5e5e5;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
 }
 
 .lang-current {
@@ -205,7 +206,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .lang-unavailable {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 .globe-icon {

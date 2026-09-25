@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import { useI18n } from '../../i18n';
+import { useI18n, type SupportedLocale } from '../../i18n';
 import { useDialog } from '../../composables/useDialog';
 import { getCategoryIcon } from '../../lib/glossary-categories';
 import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
 import ReportDialog from './ReportDialog.vue';
 
-const { t } = useI18n();
 const auth = useAuthStore();
 
 interface GlossaryTag {
@@ -20,7 +19,10 @@ const props = defineProps<{
   paragraphId: string;
   glossaryTags?: GlossaryTag[];
   language?: string; // 'cz', 'en', etc. - omit for original/French
+  pageLocale?: SupportedLocale; // UI locale the server rendered the page in
 }>();
+
+const { t } = useI18n(props.pageLocale);
 
 const isOpen = ref(false);
 
@@ -296,7 +298,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .menu-item {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .menu-item:hover {
@@ -304,7 +306,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .menu-item:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .menu-item--muted {
@@ -346,7 +348,7 @@ onMounted(() => {
 
 [data-theme="dark"] .tag-filter-btn:hover {
   color: var(--color-accent-light, #92400E);
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .glossary-link svg {
@@ -391,7 +393,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .sheet-content {
-  background: #1a1a1a;
+  background: var(--bg-primary);
 }
 
 [data-theme="sepia"] .sheet-content {

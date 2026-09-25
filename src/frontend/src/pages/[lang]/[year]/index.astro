@@ -150,11 +150,11 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
 
             <div class="flex items-center gap-3 text-sm mb-3">
               <span class="text-muted">
-                {carnetsWithStatus.length} <span data-t="diary.notebooks">{t('diary.notebooks')}</span>
+                <span data-t="diary.notebookCount" data-t-params={JSON.stringify({ count: carnetsWithStatus.length })}>{t('diary.notebookCount', { count: carnetsWithStatus.length })}</span>
               </span>
               <span class="text-muted">&bull;</span>
               <span class="text-muted">
-                {totalEntries} <span data-t="diary.entries">{t('diary.entries')}</span>
+                <span data-t="diary.entryCount" data-t-params={JSON.stringify({ count: totalEntries })}>{t('diary.entryCount', { count: totalEntries })}</span>
               </span>
               {lang.isTranslation && !isCurrentComplete && (
                 <>
@@ -190,6 +190,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
           <div class="flex flex-col gap-3 mt-4">
             <ContentLanguageSwitcher
               client:load
+              pageLocale={lang.uiLocale}
               currentLanguage={lang.urlPath}
               pathSuffix={`/${year}/`}
             />

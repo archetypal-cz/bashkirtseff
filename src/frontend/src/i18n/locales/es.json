@@ -102,13 +102,18 @@
   },
   "paragraph": {
     "options": "Opciones del párrafo",
-    "relatedItems": "{count} elementos relacionados",
+    "relatedItems": {
+      "one": "{count} elemento relacionado",
+      "other": "{count} elementos relacionados"
+    },
     "share": "Compartir el párrafo",
     "copyLink": "Copiar el enlace",
     "copied": "¡Copiado!",
     "relatedEntries": "Entradas relacionadas",
     "clickToViewGlossary": "Haz clic para ver en el glosario",
-    "filterByTag": "Filtrar las entradas de este cuaderno"
+    "filterByTag": "Filtrar las entradas de este cuaderno",
+    "showOriginal": "Mostrar el original: {langs}",
+    "showTranslation": "Mostrar la traducción: {lang}"
   },
   "footer": {
     "aboutProject": "Acerca de",
@@ -259,7 +264,10 @@
     "clearFilter": "Quitar el filtro",
     "bannerCount": "Filtradas: {matching} de {total} entradas",
     "bannerCarnet": "Se muestran {matching} de {total} entradas ({hidden} ocultas)",
-    "paragraphsHidden": "{count} párrafos ocultos",
+    "paragraphsHidden": {
+      "one": "{count} párrafo oculto",
+      "other": "{count} párrafos ocultos"
+    },
     "showHidden": "Mostrar los ocultos",
     "hideFiltered": "Ocultar los filtrados"
   },
@@ -268,7 +276,10 @@
     "description": "Personas, lugares, obras y términos del diario de Marie Bashkirtseff.",
     "search": "Buscar en el glosario...",
     "noResults": "No se han encontrado entradas",
-    "results": "{count} entradas encontradas",
+    "results": {
+      "one": "{count} entrada encontrada",
+      "other": "{count} entradas encontradas"
+    },
     "entries": "entradas",
     "entry1": "entrada",
     "entries2to4": "entradas",
@@ -278,7 +289,10 @@
     "updated": "Actualizado",
     "pronunciation": "Pronunciación",
     "pronunciationTitle": "Escuchar la pronunciación",
-    "filterMentions": "Filtrar {count} menciones en el diario",
+    "filterMentions": {
+      "one": "Filtrar {count} mención en el diario",
+      "other": "Filtrar {count} menciones en el diario"
+    },
     "categories": {
       "people": "Personas",
       "places": "Lugares",
@@ -381,11 +395,30 @@
     "frenchOriginal": "Original francés",
     "showInDiary": "Mostrar en el diario",
     "alsoKnownAs": "También conocido como:",
-    "mentions": "{count} menciones",
+    "mentions": {
+      "one": "{count} mención",
+      "other": "{count} menciones"
+    },
     "notebooks": "cuadernos",
     "crossYearContinues": "Continúa en el año {years}",
     "words": "palabras",
-    "entryDescription": "Entrada del diario — {title} (cuaderno {carnet})."
+    "entryDescription": "Entrada del diario — {title} (cuaderno {carnet}).",
+    "entryCount": {
+      "one": "{count} entrada",
+      "other": "{count} entradas"
+    },
+    "notebookCount": {
+      "one": "{count} cuaderno",
+      "other": "{count} cuadernos"
+    },
+    "sectionCount": {
+      "one": "{count} sección",
+      "other": "{count} secciones"
+    },
+    "wordCount": {
+      "one": "{count} palabra",
+      "other": "{count} palabras"
+    }
   },
   "history": {
     "title": "Historial de lectura",

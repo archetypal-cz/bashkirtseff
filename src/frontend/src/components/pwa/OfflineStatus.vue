@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { useOfflineStore } from '../../stores/offline';
-import { useI18n } from '../../i18n';
+import { useI18n, type SupportedLocale } from '../../i18n';
 import { formatBytes } from '../../lib/offline';
 
-const { t } = useI18n();
+// UI locale the server rendered this island in (Header.astro passes the page's).
+const props = defineProps<{ pageLocale?: SupportedLocale }>();
+const { t } = useI18n(props.pageLocale);
 const store = useOfflineStore();
 
 const panelOpen = ref(false);
@@ -345,20 +347,20 @@ onUnmounted(() => {
 
 /* Dark mode */
 [data-theme="dark"] .offline-panel {
-  background: #1a1a1a;
+  background: var(--bg-primary);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
 [data-theme="dark"] .offline-panel-title {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .offline-panel-item-name {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .update-dot {
-  border-color: #1a1a1a;
+  border-color: var(--bg-primary);
 }
 
 [data-theme="dark"] .status-ok {

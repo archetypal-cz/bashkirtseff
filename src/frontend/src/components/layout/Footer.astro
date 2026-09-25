@@ -1,6 +1,7 @@
 ---
 // Footer component with i18n and version display
 import { t as defaultT, createT, type SupportedLocale } from '../../i18n/astro';
+import { quoteMarks } from '../../lib/typography';
 
 interface Props {
   locale?: SupportedLocale;
@@ -17,6 +18,8 @@ const aboutHref = `/${pageLocale}/about/`;
 const privacyHref = `/${pageLocale}/privacy/`;
 
 const currentYear = new Date().getFullYear();
+// Locale quotation marks around the footer quote (was ASCII " in every language).
+const [qOpen, qClose] = quoteMarks(pageLocale);
 
 // Version info injected at build time via Vite define
 declare const __APP_VERSION__: string;
@@ -67,7 +70,7 @@ const gitCommit = typeof __GIT_COMMIT__ !== 'undefined' ? __GIT_COMMIT__ : 'dev'
       <!-- Quote -->
       <div>
         <blockquote class="text-ink-light italic text-sm border-l-2 border-accent pl-4">
-          "<span data-t="quotes.existence">{t('quotes.existence')}</span>"
+          {qOpen}<span data-t="quotes.existence">{t('quotes.existence')}</span>{qClose}
           {t('quotes.existenceOriginal') && (
             <span class="block text-xs text-muted mt-1 not-italic" data-t="quotes.existenceOriginal">
               {t('quotes.existenceOriginal')}

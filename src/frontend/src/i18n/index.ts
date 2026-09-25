@@ -5,6 +5,7 @@ import en from './locales/en.json';
 import uk from './locales/uk.json';
 import es from './locales/es.json';
 import { withTrailingSlash } from '../lib/url';
+import { resolveMessage, type MessageParams, type MessageTree } from './messages';
 
 export type SupportedLocale = 'cs' | 'fr' | 'en' | 'uk' | 'es';
 
@@ -61,70 +62,62 @@ export function contentPathToLocale(path: string): SupportedLocale {
   return 'cs'; // Default fallback
 }
 
-const messages: Record<SupportedLocale, typeof cs> = { cs, uk, en, fr, es };
+const messages: Record<SupportedLocale, MessageTree> = { cs, uk, en, fr, es };
 
-// Reactive locale state — defaults to 'cs' to match SSR output.
-// The actual user preference is loaded after hydration via initLocaleFromStorage().
-const currentLocale = ref<SupportedLocale>('cs');
-let _localeInitialized = false;
+function isSupported(value: unknown): value is SupportedLocale {
+  return typeof value === 'string' && SUPPORTED_LOCALES.includes(value as SupportedLocale);
+}
 
 /**
- * Read the user's locale preference from localStorage.
+ * Which UI language an island renders in.
  *
- * Deferred to a macrotask (setTimeout) so it runs AFTER all Astro islands
- * have finished hydrating. Astro islands are separate Vue apps sharing this
- * module — if one island's onMounted changes currentLocale before another
- * island hydrates, Vue detects a mismatch between SSR HTML (Czech) and the
- * client render (user's saved locale).
+ * Three sources, most specific first:
+ *   1. the reader's stored preference (localStorage 'ui-language'), client-only;
+ *   2. the page's own UI locale — the `pageLocale` an island is given as a prop,
+ *      or `<html data-ui-locale>` written by BaseLayout;
+ *   3. 'cs', the historical default.
+ *
+ * Hydration must reproduce the server HTML exactly: Vue repairs mismatched text
+ * but NOT mismatched attributes, so an island that hydrated straight into the
+ * stored locale kept Czech `title`/`aria-label`s forever (the "1 souvisejících
+ * položek" tooltip on /en/). Each useI18n() caller therefore renders in the
+ * server's locale (its `pageLocale` prop, else 'cs') until it has mounted, then
+ * switches to the effective locale and re-renders, patching attributes too.
  */
-function initLocaleFromStorage() {
-  if (_localeInitialized || typeof window === 'undefined') return;
-  _localeInitialized = true;
-  const saved = localStorage.getItem('ui-language') as SupportedLocale;
-  if (saved && SUPPORTED_LOCALES.includes(saved)) {
-    currentLocale.value = saved;
+const userLocale = ref<SupportedLocale | null>(null);
+let _userLocaleRead = false;
+
+function readUserLocale() {
+  if (_userLocaleRead || typeof window === 'undefined') return;
+  _userLocaleRead = true;
+  try {
+    const saved = localStorage.getItem('ui-language');
+    if (isSupported(saved)) userLocale.value = saved;
+  } catch {
+    // storage blocked (private mode) — fall back to the page locale
   }
 }
 
-function scheduleLocaleInit() {
-  if (_localeInitialized) return;
-  // setTimeout defers to the next macrotask, after all pending island hydrations
-  setTimeout(initLocaleFromStorage, 0);
-}
-
-// Get nested value from object by dot-separated path
-function getNestedValue(obj: Record<string, any>, path: string): string {
-  const keys = path.split('.');
-  let value: any = obj;
-  for (const key of keys) {
-    if (value && typeof value === 'object' && key in value) {
-      value = value[key];
-    } else {
-      return path; // Return key if not found
-    }
-  }
-  return typeof value === 'string' ? value : path;
-}
-
-// Replace placeholders like {year} or {book} in translation strings
-function replacePlaceholders(str: string, params?: Record<string, string | number>): string {
-  if (!params) return str;
-  return str.replace(/\{(\w+)\}/g, (_, key) => {
-    return params[key]?.toString() ?? `{${key}}`;
-  });
+function documentLocale(): SupportedLocale | null {
+  if (typeof document === 'undefined') return null;
+  const value = document.documentElement.dataset.uiLocale;
+  return isSupported(value) ? value : null;
 }
 
 export function setLocale(locale: SupportedLocale) {
-  if (SUPPORTED_LOCALES.includes(locale)) {
-    currentLocale.value = locale;
+  if (isSupported(locale)) {
+    _userLocaleRead = true;
+    userLocale.value = locale;
     if (typeof window !== 'undefined') {
       localStorage.setItem('ui-language', locale);
     }
   }
 }
 
+/** The locale the UI is shown in on this page (preference, else page locale). */
 export function getLocale(): SupportedLocale {
-  return currentLocale.value;
+  readUserLocale();
+  return userLocale.value ?? documentLocale() ?? 'cs';
 }
 
 /**
@@ -225,17 +218,26 @@ export function pageHref(page: 'about' | 'marie' | 'privacy', locale: SupportedL
   return `/${loc}/${page}/`;
 }
 
-// Composable for use in Vue components
-export function useI18n() {
-  const locale = computed(() => currentLocale.value);
+// Composable for use in Vue components.
+// `pageLocale` is the UI locale the server rendered this island in; pass it
+// whenever the parent .astro page knows it, so the server HTML is already in
+// the right language (no Czech flash before hydration).
+export function useI18n(pageLocale?: SupportedLocale) {
+  const serverLocale: SupportedLocale = isSupported(pageLocale) ? pageLocale : 'cs';
+  const mounted = ref(false);
 
-  // Schedule locale init — deferred past all island hydrations
-  onMounted(scheduleLocaleInit);
+  onMounted(() => {
+    readUserLocale();
+    mounted.value = true;
+  });
 
-  function t(key: string, params?: Record<string, string | number>): string {
-    const localeMessages = messages[currentLocale.value] || messages.cs;
-    const value = getNestedValue(localeMessages, key);
-    return replacePlaceholders(value, params);
+  const locale = computed<SupportedLocale>(() => {
+    if (!mounted.value) return serverLocale;
+    return userLocale.value ?? (isSupported(pageLocale) ? pageLocale : null) ?? documentLocale() ?? serverLocale;
+  });
+
+  function t(key: string, params?: MessageParams): string {
+    return resolveMessage(messages[locale.value] || messages.cs, key, locale.value, params);
   }
 
   return {

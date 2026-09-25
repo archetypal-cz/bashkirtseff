@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
-import { useI18n, getTranslationHref, getOriginalHref, glossaryHref, pageHref } from '../../i18n';
+import { useI18n, getTranslationHref, getOriginalHref, glossaryHref, pageHref, type SupportedLocale } from '../../i18n';
 
-const { t, locale } = useI18n();
+// UI locale the server rendered this island in (Header.astro passes the page's).
+const props = defineProps<{ pageLocale?: SupportedLocale }>();
+const { t, locale } = useI18n(props.pageLocale);
 const currentPath = ref('');
 
 onMounted(() => {

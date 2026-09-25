@@ -102,13 +102,18 @@
   },
   "paragraph": {
     "options": "Options du paragraphe",
-    "relatedItems": "{count} éléments associés",
+    "relatedItems": {
+      "one": "{count} élément associé",
+      "other": "{count} éléments associés"
+    },
     "share": "Partager le paragraphe",
     "copyLink": "Copier le lien",
     "copied": "Copié !",
     "relatedEntries": "Éléments associés",
     "clickToViewGlossary": "Cliquez pour voir dans le glossaire",
-    "filterByTag": "Filtrer les entrées dans ce carnet"
+    "filterByTag": "Filtrer les entrées dans ce carnet",
+    "showOriginal": "Afficher l’original : {langs}",
+    "showTranslation": "Afficher la traduction : {lang}"
   },
   "footer": {
     "aboutProject": "À propos",
@@ -259,7 +264,10 @@
     "clearFilter": "Annuler le filtre",
     "bannerCount": "Filtré : {matching} sur {total} entrées",
     "bannerCarnet": "Affiché {matching} sur {total} entrées ({hidden} masquées)",
-    "paragraphsHidden": "{count} paragraphes masqués",
+    "paragraphsHidden": {
+      "one": "{count} paragraphe masqué",
+      "other": "{count} paragraphes masqués"
+    },
     "showHidden": "Afficher les masqués",
     "hideFiltered": "Masquer les filtrés"
   },
@@ -268,7 +276,10 @@
     "description": "Personnes, lieux, œuvres et termes du journal de Marie Bashkirtseff.",
     "search": "Rechercher dans le glossaire...",
     "noResults": "Aucune entrée trouvée",
-    "results": "{count} entrées trouvées",
+    "results": {
+      "one": "{count} entrée trouvée",
+      "other": "{count} entrées trouvées"
+    },
     "entries": "entrées",
     "entry1": "entrée",
     "entries2to4": "entrées",
@@ -278,7 +289,10 @@
     "updated": "Mis à jour",
     "pronunciation": "Prononciation",
     "pronunciationTitle": "Écouter la prononciation",
-    "filterMentions": "Filtrer {count} mentions dans le journal",
+    "filterMentions": {
+      "one": "Filtrer {count} mention dans le journal",
+      "other": "Filtrer {count} mentions dans le journal"
+    },
     "categories": {
       "people": "Personnes",
       "places": "Lieux",
@@ -381,11 +395,30 @@
     "frenchOriginal": "Original français",
     "showInDiary": "Voir dans le journal",
     "alsoKnownAs": "Également connu sous :",
-    "mentions": "{count} mentions",
+    "mentions": {
+      "one": "{count} mention",
+      "other": "{count} mentions"
+    },
     "notebooks": "cahiers",
     "crossYearContinues": "Continue en {years}",
     "words": "mots",
-    "entryDescription": "Entrée du journal — {title} (cahier {carnet})."
+    "entryDescription": "Entrée du journal — {title} (cahier {carnet}).",
+    "entryCount": {
+      "one": "{count} entrée",
+      "other": "{count} entrées"
+    },
+    "notebookCount": {
+      "one": "{count} cahier",
+      "other": "{count} cahiers"
+    },
+    "sectionCount": {
+      "one": "{count} section",
+      "other": "{count} sections"
+    },
+    "wordCount": {
+      "one": "{count} mot",
+      "other": "{count} mots"
+    }
   },
   "history": {
     "title": "Historique de lecture",
