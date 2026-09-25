@@ -59,6 +59,7 @@ COPY --from=builder /app/src/frontend/dist /usr/share/nginx/html
 
 # Copy nginx configuration
 COPY src/frontend/nginx.conf /etc/nginx/conf.d/default.conf
+COPY src/frontend/nginx-security-headers.conf /etc/nginx/security-headers.conf
 
 # Expose port
 EXPOSE 80
