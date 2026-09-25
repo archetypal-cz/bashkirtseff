@@ -385,7 +385,7 @@
     "notebooks": "cuadernos",
     "crossYearContinues": "Continúa en el año {years}",
     "words": "palabras",
-    "entryDescription": "Entrada del diario del {title} (Cuaderno {carnet})."
+    "entryDescription": "Entrada del diario — {title} (cuaderno {carnet})."
   },
   "history": {
     "title": "Historial de lectura",

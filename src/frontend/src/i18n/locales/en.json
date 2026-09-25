@@ -385,7 +385,7 @@
     "notebooks": "notebooks",
     "crossYearContinues": "Continues to year {years}",
     "words": "words",
-    "entryDescription": "Diary entry from {title} (Notebook {carnet})."
+    "entryDescription": "Diary entry — {title} (Notebook {carnet})."
   },
   "history": {
     "title": "Reading History",

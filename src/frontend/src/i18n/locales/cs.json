@@ -385,7 +385,7 @@
     "notebooks": "sešitů",
     "crossYearContinues": "Pokračuje do roku {years}",
     "words": "slov",
-    "entryDescription": "Záznam z deníku z {title} (sešit {carnet})."
+    "entryDescription": "Deníkový záznam — {title} (sešit {carnet})."
   },
   "history": {
     "title": "Historie čtení",

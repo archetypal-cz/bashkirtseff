@@ -385,7 +385,7 @@
     "notebooks": "cahiers",
     "crossYearContinues": "Continue en {years}",
     "words": "mots",
-    "entryDescription": "Entrée du journal du {title} (cahier {carnet})."
+    "entryDescription": "Entrée du journal — {title} (cahier {carnet})."
   },
   "history": {
     "title": "Historique de lecture",
