@@ -77,6 +77,8 @@ Konkrétní české pasti, na které se RED i OPS mají zaměřit (jazykově neu
 |-----------|---------|
 | **Galicismy** | "vzít si ženu" (= oženit se), "dítě domu", "dát pochopit", "dělám tisíc hloupostí" (mille bêtises), "jsou oddělení" (sont séparés → žijí odděleně), "bít nohou" (battre du pied → dupat/podupávat) |
 | **Falešní přátelé** | "ceremonie" (CZ = obřad, FR = okolky), "kostým" (CZ = oblek, FR = plavky), "kabinet", "sympatický" |
+| ***sans doute*** | Posuď každý výskyt: v dobové francouzštině často „jistě, ovšem, bezpochyby“ (jistota, ústupek), jen někdy „nejspíš“. Mechanické „sans doute = nejspíš“ (FAB 2026-09-25) změkčovalo Mariinu jistotu. |
+| **Rejstřík** | Psaná Mariina čeština: nemohu/mohu/lépe, ne nemůžu/můžu/líp (mimo přímou řeč); „moc“ nepřidávat jako zesilovač. |
 | **Zvratná slovesa** | "kojila jsem se" (= kojila jsem sebe sama) |
 | **Neexistující slova** | "rukavičkuje se", "voitře" — vymyšlené tvary, které v češtině neexistují |
 | **Slovosled / příklonky** | "pak na tribuně jsem" — příklonka jsem/se/si musí stát na 2. pozici |
