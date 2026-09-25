@@ -10,9 +10,13 @@ on:
       - '.github/workflows/deploy.yml'
   workflow_dispatch:  # Allow manual trigger
 
+# Queue, never cancel: a cancel kills the runner mid-deploy (inside the remote
+# `docker compose up --build` or the checkout update) and can leave the server
+# half-deployed. GitHub keeps at most one pending run per group, so a burst of
+# pushes still collapses into a single follow-up deploy of the newest main.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 # Required secrets:
 #   TAILSCALE_AUTHKEY - Tailscale auth key for network access

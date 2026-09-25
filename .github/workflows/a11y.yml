@@ -6,10 +6,19 @@ name: A11y gate
 # target-size, label or landmark regression fails the PR.
 #
 # NOTE: build is the expensive step (~15-20 min for 35k pages). The gate runs
-# on pull requests touching the frontend, and can be dispatched manually.
+# on pull requests and on pushes to main touching the frontend (the project
+# mostly pushes straight to main, so a PR-only gate never ran), and can be
+# dispatched manually.
 # (The leftover build-and-deploy.yml.disabled is unrelated — do not revive it.)
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/frontend/**'
+      - 'src/shared/**'
+      - 'src/scripts/a11y-audit.mjs'
+      - '.github/workflows/a11y.yml'
   pull_request:
     paths:
       - 'src/frontend/**'
