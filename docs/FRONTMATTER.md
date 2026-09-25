@@ -80,9 +80,6 @@ notes:
 workflow:
   research_complete: true
   linguistic_annotation_complete: true
-  translation_complete: false
-  editorial_review_complete: false
-  conductor_approval: false
   last_modified: 2025-12-07T16:00:00
   modified_by: RSR
 
@@ -178,15 +175,17 @@ Roles: RSR (researcher), LAN (linguistic annotator), TR (translator), etc.
 
 ### Workflow Tracking
 
-Boolean flags for workflow stages:
+The `workflow:` block exists in `content/_original/` entries only (source-preparation state):
 
 - **research_complete**: RSR phase done
 - **linguistic_annotation_complete**: LAN phase done
-- **translation_complete**: Translation exists
-- **editorial_review_complete**: Editor reviewed
-- **conductor_approval**: Final approval
 - **last_modified**: Timestamp of last change
 - **modified_by**: Who made last change
+
+(Earlier versions of this spec listed `workflow.translation_complete`, `editorial_review_complete` and `conductor_approval`; no file uses them. Translation state is the top-level flags below.)
+
+Translation trees also carry:
+
 - **redaction_passes**: YAML list of whole-carnet fluency/redaction passes over an already-approved translation, one `model/agent + date` entry per pass (e.g. `- fable-5 2026-07-02`). Append a new list item for each later pass; never overwrite earlier ones. Set on every entry the pass reviewed, including entries it left unchanged.
 
 ### Translation pipeline flags (translation trees: cz, uk, en, es)
@@ -222,20 +221,24 @@ just check-para-start-all               # All carnets
 
 ### Sync translations with updated originals
 
-When the French source is edited (new research, corrected annotations), translations need to know. The sync script propagates changes without overwriting existing translations:
+When the French source is edited (new research, corrected annotations, restored text), translations need to know. The sync script propagates changes without overwriting existing translations. Always pass the language — the recipe defaults to `cz` — and verify before committing:
 
 ```bash
-npx tsx src/scripts/sync-translation.ts 001              # Sync carnet 001
-npx tsx src/scripts/sync-translation.ts 001 --dry-run    # Preview changes
-npx tsx src/scripts/sync-translation.ts 001 --lang en    # Specific language
+just sync 001 en --dry-run    # Preview changes
+just sync 001 en              # Sync carnet 001 of the en tree
+just sync-verify 001 en       # Visible text identical to HEAD, splicescan empty, stray README.md reported
+just verify-carnet en 001     # The gate must PASS
 ```
+
+Sync does not overwrite a footnote definition the target already holds (a corrected definition is patched by hand in every tree), and it copies the source carnet's `README.md` into the target — delete it. Rule: `.claude/skills/_shared/editing_rules.md` §6.
 
 ### Generate translation file scaffolds
 
 Create empty translation files pre-populated with paragraph IDs, glossary tags, and the French text in comments — ready for a translator to fill in:
 
 ```bash
-npx tsx src/scripts/scaffold-translation.ts 001 cz       # Czech scaffold for carnet 001
+just scaffold 001 --lang cz              # Czech scaffold for carnet 001 (without --lang it defaults to cz)
+just scaffold 001 --lang es --dry-run    # Preview
 ```
 
 ## Notes for Developers

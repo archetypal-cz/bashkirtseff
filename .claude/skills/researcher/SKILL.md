@@ -1,7 +1,7 @@
 ---
 name: researcher
 description: Research and annotate Marie Bashkirtseff diary entries. Extract entities, create glossary entries, identify cultural references, determine Marie's location. Use PROACTIVELY when processing new diary entries or when historical context is needed.
-allowed-tools: Read, Write, Edit, Grep, Glob, WebSearch, TaskList, TaskGet, TaskUpdate
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash, WebSearch, TaskList, TaskGet, TaskUpdate
 ---
 
 # Researcher
@@ -93,7 +93,7 @@ Inline reference in text (within paragraph 015.0119):
 On a raconté les différentes divinations.[^015.0119.1]
 ```
 
-Definition at end of entry (after last paragraph block):
+Definition right after the paragraph that references it, separated by a blank line, before the next paragraph ID (the corpus convention — ~97% of files; the scaffolder appends to the end, which is also accepted):
 
 ```markdown
 [^015.0119.1]: Mirror divination (гадание) was a Russian folk tradition practiced around New Year. Young women would set up two mirrors facing each other by candlelight, hoping to see the face of their future husband in the infinite reflections. Marie's family maintained Russian customs despite living abroad.
@@ -103,13 +103,13 @@ Definition at end of entry (after last paragraph block):
 
 Multiple footnotes in the same paragraph increment the last number: `[^015.0119.1]`, `[^015.0119.2]`.
 
-Older carnets carry a legacy unpadded form (`[^15.119.1]`, or EN's `[^fn047-034]`); leave existing IDs alone — an entry's references and definitions just need to match each other — but write NEW footnotes in the padded form above.
+Older carnets carry a legacy unpadded form (`[^15.119.1]`, or EN's `[^fn047-034]`); leave existing IDs alone — an entry's references and definitions just need to match each other — but write NEW footnotes in the padded form above. (The ID scheme is still an open WATCHLIST item — the corpus mostly uses plain `[^1]`, and `format-profile.yaml` does not yet admit the padded form; what the gate requires is that every ID is unique in its file and has exactly one definition and at least one reference.)
 
 <!-- Teamcouch update 2026-09-07: source-fact corrections propagate to every tree in the same commit.
      Evidence: 2026-05-31-glossary-link-cleanup (tags needed a separate propagation pass), 2026-06-17
      footnote backfill (footnotes lived in translations, not the source), 2026-09-05-cz-002-106 (095
      footnotes fixed only in cz), 2026-09-07-review-and-fix (Collignon fix skipped es and the uk TM). -->
-**When you correct a footnote or glossary fact, correct it in `content/_original` and in every translation tree that carries the note or claim, in the same commit.** A comment in the source saying "this is wrong" is not a fix: readers of en/uk saw the wrong 095 footnotes for two days after cz was corrected. `just sync` will not overwrite a definition the target already holds, so the translations must be patched by hand; list the files in your report.
+**When you correct a footnote or glossary fact, correct it in `content/_original` and in every translation tree that carries the note or claim, in the same commit.** A comment in the source saying "this is wrong" is not a fix: readers of en/uk saw the wrong 095 footnotes for two days after cz was corrected. `just sync` will not overwrite a definition the target already holds, so the translations must be patched by hand; list the files in your report. When you do sync a tree after changing the source, follow the safe-sync check in `.claude/skills/_shared/editing_rules.md` §6 (`just sync {carnet} {lang}` then `just sync-verify {carnet} {lang}`). Never "correct" Marie's own text — a factual error of hers gets a footnote, not an edit (§3).
 
 #### Transcription notes (NOT footnotes)
 
@@ -312,11 +312,10 @@ entities:
 workflow:
   research_complete: true # set to true when done
   linguistic_annotation_complete: false
-  translation_complete: false
-  editorial_review_complete: false
-  conductor_approval: false
   last_modified: 2026-01-07T14:30:00
   modified_by: RSR
+# (translation state lives in each translation tree's own frontmatter —
+#  translation_complete / editor_approved / conductor_approved — never here)
 
 flags:
   empty_in_source: false # true if verified empty in carnet
@@ -432,6 +431,15 @@ just find-missing "#French" content/_original/015 # Find entries without languag
 ```
 
 This is useful for batch processing to identify which entries still need work.
+
+**Reading the manuscript tomes** (`content/_raw/tome*.docx` are Word files — the Read tool refuses them): find the tome for your carnet in `content/_raw/CARNET-REFERENCE.md` (carnet → tome → date range), extract that tome once to a scratch text file with python-docx (or `pandoc -t plain` if pandoc is installed; it currently is not), then grep the text file:
+
+```bash
+uv run --with python-docx python -c "import docx,sys; print('\n'.join(p.text for p in docx.Document(sys.argv[1]).paragraphs))" content/_raw/tome01.docx > {scratchpad}/tome01.txt
+grep -n "11 janvier 1873" {scratchpad}/tome01.txt
+```
+
+**Gates after editing `_original`**: `just splicescan _original {carnet}` must print nothing (rules: `.claude/skills/_shared/editing_rules.md`); for translation trees you touched, `just verify-carnet {lang} {carnet}` must PASS.
 
 ### Using WebSearch:
 

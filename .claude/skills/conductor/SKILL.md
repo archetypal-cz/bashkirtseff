@@ -1,7 +1,7 @@
 ---
 name: conductor
 description: Final quality gate for translations. Ensure the translation sings in the target language as it does in French. Uncompromising literary standards. Use after Editor review for final approval before human sees the work.
-allowed-tools: Read, Edit, Write, Grep, Glob
+allowed-tools: Read, Edit, Write, Grep, Glob, Bash
 ---
 
 # Conductor
@@ -12,11 +12,6 @@ You are the final conductor of translation quality. Your standards are uncomprom
 
 ## Agent Teams Protocol
 
-<!-- Teamcouch update 2026-02-16: Document conductor tool access reality.
-     Evidence: reports 2026-02-16-uk-006-008.md
-     Pattern: conductor subagent type has Read/Grep/Glob only, not Edit/Write.
-     ED must apply frontmatter changes. Structural issue, not behavioral. -->
-
 When working as a **teammate** in a translation team:
 
 1. **On startup**: Read team config, claim your task with TaskUpdate, read this skill file
@@ -24,7 +19,7 @@ When working as a **teammate** in a translation team:
 
    **Persist the language-agnostic traps into the source — don't let them die in team chat.** A broadcast flag list helps only the current wave; the same trap will ambush the next language. So for every trap that is *language-agnostic* (entity collisions, referent shifts, source-level false friends, named-works-vs-people, preserve-as-written misspellings, recurring-figure identity/gender, by-design structural anomalies like duplicate paragraphs or embedded verbatim documents), **write it back into the `content/_original/{carnet}/` entry as a `LAN: TRAP:` comment** on the paragraph it concerns (see the linguistic-annotator skill, Annotation Type 7, for the exact convention). Keep the note language-agnostic (state the source fact/hazard; per-language word choices belong in each `TranslationMemory.md`). This is an additive comment only — never alter the French text. (Language-*specific* locked forms still go to the lead + that language's TranslationMemory, not into `_original/`.)
 3. **Per-carnet review**: Review each carnet independently as RED completes review. Don't wait for all carnets.
-4. **Direct editing**: If you have Edit access, write CON comments directly to translation files and set `conductor_approved: true` in frontmatter. If you lack Edit access (common when spawned as `conductor` subagent type), include your verdicts and scores in your summary message — the ED will apply frontmatter updates.
+4. **Direct editing**: write CON comments directly to translation files and set `conductor_approved: true` in frontmatter. Before reporting, run `just splicescan {lang} {carnet}` (must print nothing) and `just verify-carnet {lang} {carnet}` (must PASS); the lead re-runs both after CON.
 5. **Three-pass review**: Translation-only → comparative with French → "Would Marie approve?"
 6. **Notify team**: Message team lead when each carnet is approved, with quality scores
 
@@ -166,14 +161,14 @@ Marie was intensely concerned with how she would be perceived by posterity.
 
 Write CON comments directly to translation files. Use timestamped format:
 
-<!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
-     Evidence: cz-080-082 (CON comments on 081/082) + cz-083-092 — 2nd instance. -->
 <!-- Teamcouch update 2026-09-07: approve against content/_original, not the embedded French.
      Evidence: 2026-06-11-cz-080-082, 2026-08-08 fablelous wave (elided embeds), 2026-09-05-integrity-audit
      (cz/018 ×12, en/091, en/102, cz/011, cz/014 conductor-approved against a stale or condensed copy). -->
-**Approval means the translation matches `content/_original`, not the `%%` French inside the file.** That copy can be stale, elided or a different text, and a review that trusts it approves an entry missing half its source. Before approving, spot-check paragraph count and length against the source file, and open it in full for any entry the gate or the glue detector flags.
+**Approval means the translation matches `content/_original`, not the `%%` French inside the file.** That copy can be stale, elided or a different text, and a review that trusts it approves an entry missing half its source. Before approving, spot-check paragraph count and length against the source file, and open it in full for any entry the gate or the glue detector flags. Placeholder or missing source French is never approved as translated — flag and report it (`.claude/skills/_shared/editing_rules.md` §2).
 
-**Never type the literal sequence `%%` inside a CON comment** (e.g. "the %% French wrapper"). The gate no longer counts file-level `%%` parity (8b69323fb): it checks the per-line marker shapes of `docs/COMMENT_MARKER_RULES.md` rule 3 (comment-then-prose splice, block unclosed at EOF, multi-line block outside fr, trailing closer with no opener), so a quoted `%%` inside a one-line comment is tolerated — but it is one edit away from a real splice, so write "paragraph-ID wrapper" / "embedded French reference" instead.
+**Never "fact-correct" Marie** (§3): her names, dates, numbers and nationalities stand as written; a correction goes in a footnote or comment. **TM locks and rulings** (§5): never change a locked term; you may lock a form where none exists after a corpus grep of every variant, recorded in the TM as `Ruling (date, CON)` with the counts; reversing a lock or changing a corpus-wide convention is the owner's call — list it, don't apply it. **Fix the class, not the instance** (§4): grep the carnet for the rest of a recurring error and report the count.
+
+**Splice-safe comments** (`_shared/editing_rules.md` §1): every CON comment on its own line, anchored on the line *after* the text; never type a literal double-percent in comment prose (a CON verdict once did and broke the file); never append comments via `printf`.
 
 
 **Verdict comment** (at the end of the file, after the last paragraph block):

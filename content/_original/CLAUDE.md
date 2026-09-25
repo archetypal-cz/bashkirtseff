@@ -15,12 +15,10 @@ _original/
 │   └── README.md        # Per-carnet progress
 │
 ├── _glossary/           # Entity definitions
-│   ├── CLAUDE.md        # Glossary system docs
+│   ├── _categories.yaml # Category tree (docs: .claude/skills/glossary/SKILL.md)
 │   ├── people/          # Person entries
 │   ├── places/          # Location entries
-│   ├── culture/         # Cultural references
-│   ├── society/         # Social/institutional
-│   └── languages/       # Language references
+│   └── culture/         # Cultural references (incl. culture/languages/)
 │
 ├── _carnets/            # Carnet metadata (YAML)
 ├── _summary/            # Book summaries
@@ -119,7 +117,7 @@ Use `/glossary` skill or create file in appropriate category.
 ### Check what needs research
 ```bash
 /project-status original          # Overall status
-grep -r "RSR-NEEDED" src/_original/*/README.md
+grep -r "RSR-NEEDED" content/_original/*/README.md
 ```
 
 ## Related Documentation

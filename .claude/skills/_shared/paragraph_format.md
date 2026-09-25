@@ -1,6 +1,10 @@
 # Canonical Paragraph Format Specification
 
-**This is the authoritative reference for paragraph formatting in all Marie Bashkirtseff files.**
+**The Bashkirtseff profile of the cluster format, as the corpus and tools actually use it.** The generic spec is `docs/FORMAT.md` (a mirror of the external TMD spec; its §3 cluster order differs from this corpus — see "Order tolerance" below). Editing procedure (splice-safe comments, scans): `_shared/editing_rules.md`.
+
+**Hard invariants** (the parser and the gate depend on them): the paragraph ID is the first line of the cluster; no blank lines inside a cluster; one blank line between clusters; every `%% … %%` comment on its own line with nothing outside it; visible text never inside a comment line.
+
+**Order tolerance:** between the ID and the visible text, the parser accepts tags, annotations and the embedded French in any order. Hand-written clusters use the order shown below; `just scaffold` emits ID → French → tags/notes → `TODO`, which is also valid. **Do not reorder existing clusters to "fix" the order** — it churns thousands of files for no reader-visible gain. Which order is canonical for new tooling is an open owner decision.
 
 ## Paragraph ID Format
 
@@ -81,7 +85,7 @@ Next translated paragraph
 3. Annotations (LAN copied from source, TR added by translator) are comment lines within the block
 4. French text is IN COMMENT, copied verbatim from the source
 5. Previous translation versions IN COMMENTS
-6. Current translation is VISIBLE text at the end
+6. Current translation is the VISIBLE text; review comments added later (OPS/RED/CON/FAB/VOX, and TR self-review notes) go on their own lines after it, inside the cluster
 7. Empty line between paragraph clusters
 
 ## Common Errors to Avoid
@@ -102,7 +106,7 @@ Text
 %% 001.0020 %% Text here
 ```
 
-❌ **WRONG - Annotations after text:**
+❌ **WRONG - Source annotations (RSR/LAN) after the French text in `_original`:**
 ```
 %% 001.0020 %%
 Original text

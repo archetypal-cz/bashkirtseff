@@ -10,9 +10,9 @@ You develop and maintain the AstroJS Progressive Web App for reading Marie Bashk
 
 ## Architecture Overview
 
-**Stack**: AstroJS 5.x (static site generation) + Vue 3 islands + Tailwind CSS v4 + Pinia + PWA (Workbox)
+**Stack**: AstroJS 7 (static site generation) + Vue 3 islands + Tailwind CSS v4 + Pinia + PWA (Workbox)
 
-The frontend generates **11,000+ static HTML pages** from markdown content in `/content/`. Interactive features use Vue 3 components hydrated as Astro islands. The site supports multiple content languages (Czech translation, French original) and multiple UI languages (cs, en, fr, uk).
+The frontend generates **11,000+ static HTML pages** from markdown content in `/content/`. Interactive features use Vue 3 components hydrated as Astro islands. The site supports multiple content languages (cz, uk, en, fr modern edition, es pilot, plus the French original) and multiple UI languages (cs, en, fr, uk).
 
 ```
 src/frontend/src/
@@ -259,7 +259,7 @@ just fe-preview   # Preview production build
 
 **Config files**:
 - `astro.config.mjs` — redirects, PWA manifest, workbox caching, Vite plugins
-- `tailwind.config.mjs` — Tailwind v4 config
+- Tailwind v4 via the `@tailwindcss/vite` plugin (no `tailwind.config.mjs`)
 - `vue-app.ts` — Vue entry point (installs Pinia only)
 
 **Build output**: All routes pre-rendered to static HTML. Service worker (Workbox) precaches shell, runtime-caches diary entries (NetworkFirst, 90 days), fonts (CacheFirst, 1 year).

@@ -24,7 +24,7 @@ Spanish is the first target language of this project with a large readership on 
 
 ## Translation File Format
 
-Spanish files mirror the French originals and follow the **cz/uk/en frontmatter shape** (not the fr tree, which has no frontmatter). `just scaffold NNN -l es` produces the skeleton; `just sync NNN es` re-syncs RSR/LAN comments later.
+Spanish files mirror the French originals and follow the **cz/uk/en frontmatter shape** (not the fr tree, whose frontmatter carries `edition_complete` instead of the translation flags). `just scaffold NNN -l es` produces the skeleton; `just sync NNN es` re-syncs RSR/LAN comments later.
 
 ```markdown
 ---

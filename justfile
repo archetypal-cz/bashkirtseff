@@ -457,6 +457,36 @@ check-frontmatter carnet=default_carnet:
 check-comments *TREES:
     uv run src/scripts/check_comment_structure.py {{TREES}}
 
+# Stranded-text scan: a line holding a complete %% span plus visible text outside it (a splice the renderer drops). Empty output = clean; exits 1 on hits. Rules: .claude/skills/_shared/editing_rules.md
+splicescan lang carnet:
+    #!/usr/bin/env bash
+    hits=$(awk -f src/scripts/splicescan.awk content/{{lang}}/{{carnet}}/[0-9]*.md)
+    [ -z "$hits" ] && exit 0
+    echo "$hits"
+    echo "splicescan: $(echo "$hits" | wc -l) line(s) flagged in content/{{lang}}/{{carnet}}" >&2
+    exit 1
+
+# Check a carnet after `just sync {carnet} {lang}` (or any bulk rewrite), before committing: visible text (frontmatter excluded) identical to HEAD per file, splicescan empty, no untracked README.md (sync copies the source README; delete it). Exits 1 on any finding.
+sync-verify carnet lang:
+    #!/usr/bin/env bash
+    dir="content/{{lang}}/{{carnet}}"
+    [ -d "$dir" ] || { echo "No such directory: $dir"; exit 1; }
+    visible() { awk 'NR==1 && /^---$/ {fm=1; next} fm && /^---$/ {fm=0; next} !fm' | grep -v '^%%' | grep -v '^\[' | grep -v '^$' | sort; }
+    rc=0
+    for f in "$dir"/[0-9]*.md; do
+        git cat-file -e HEAD:"$f" 2>/dev/null || { echo "NEW (not in HEAD): $f"; continue; }
+        if ! diff -q <(git show HEAD:"$f" | visible) <(visible < "$f") >/dev/null; then
+            echo "VISIBLE TEXT CHANGED: $f"; rc=1
+        fi
+    done
+    hits=$(awk -f src/scripts/splicescan.awk "$dir"/[0-9]*.md)
+    [ -n "$hits" ] && { echo "$hits"; rc=1; }
+    for r in $(git ls-files --others --exclude-standard -- "$dir" | grep 'README\.md$'); do
+        echo "STRAY README (created by sync, delete): $r"; rc=1
+    done
+    [ $rc -eq 0 ] && echo "sync-verify {{lang}}/{{carnet}}: OK (visible text unchanged, splicescan empty)"
+    exit $rc
+
 # Repair the %% marker shapes check-comments cannot see (glued spans, retired [//] lines inside fr blocks, unclosed tag lines). Dry run unless --apply. Flags: --apply --tree cz --carnet 070 --only S1,S3,S4
 fix-marker-shapes *FLAGS:
     uv run src/scripts/fix_marker_shapes.py {{FLAGS}}

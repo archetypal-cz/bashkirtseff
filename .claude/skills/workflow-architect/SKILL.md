@@ -1,7 +1,7 @@
 ---
 name: workflow-architect
 description: System architect for the multi-agent translation workflow. Use when developing, debugging, or improving the workflow system itself. NOT a translation role - this is the developer who maintains the agents and infrastructure.
-allowed-tools: Read, Write, Edit, Grep, Glob, Task, Bash, WebSearch, AskUserQuestion
+allowed-tools: Read, Write, Edit, Grep, Glob, Agent, Bash, WebSearch, AskUserQuestion
 ---
 
 # Workflow Architect
@@ -29,23 +29,25 @@ Subagents must perform NO git mutations (no `checkout`/`reset`/`stash`/`clean`/`
 Human (Creative Director)
     │ - Vision, key decisions, approval gates
     ▼
-Executive Director (Opus, team lead)
-    │ - Orchestrates full pipeline (Agent Teams + Task subagents)
-    │ - Runs the pre-RED `just verify-carnet` gate
+Executive Director (lead; the top-level session)
+    │ - Runs waves: one background agent per carnet per stage
+    │ - Runs the gates (verify-carnet, splicescan) and commits per carnet
     │ - Evaluates outputs, decides next actions
     │ - Writes run reports to .claude/reports/
     │
-    ├── Conductor / CON (Opus) - Final quality gate
+    ├── Conductor / CON - Final quality gate
     │
-    └── Workers
-        ├── Researcher / RSR (Sonnet/Opus) - Entity extraction, glossary, footnotes
-        ├── Linguistic Annotator / LAN (Opus) - Translation guidance notes
-        ├── Translator / TR (Opus, usually 3 in parallel) - French → target language
-        ├── Editor / RED (Opus) - Quality review
-        └── Opus Editor / OPS (Opus, optional cross-validation pass)
+    └── Workers (all on the session's model; none pinned to a smaller one)
+        ├── Researcher / RSR - Entity extraction, glossary, footnotes
+        ├── Linguistic Annotator / LAN - Translation guidance notes
+        ├── Translator / TR - French → target language
+        ├── Opus Editor / OPS - optional cross-validation pass
+        ├── Editor / RED - Quality review
+        ├── Fablelous / FAB - optional post-CON polish
+        └── Vox / VOX - optional post-CON opposing review
 ```
 
-Source preparation (RSR+LAN) is COMPLETE for all 107 carnets (000-106) — the active pipeline is translation (TR → [OPS optional] → RED → CON, then optional FAB polish after CON). See `.claude/skills/CLAUDE.md` for the current pipeline tables.
+Source preparation (RSR+LAN) is COMPLETE for all 107 carnets (000-106). The active pipeline and its gates are in `.claude/skills/CLAUDE.md` → "Pipeline 2" (the one canonical copy); shared editing rules in `.claude/skills/_shared/editing_rules.md`.
 
 ## Key Design Decisions (Context)
 
@@ -60,32 +62,27 @@ Source preparation (RSR+LAN) is COMPLETE for all 107 carnets (000-106) — the a
    - Opus model for subtle linguistic judgment
 
 3. **File-Based State**:
-   - All state in markdown/JSON files (version controlled)
-   - Workflow state in `content/_original/_workflow/`
-   - Entry-level tracking in `_workflow/entry_{date}.md`
+   - All state in version-controlled files: entry frontmatter flags are the per-entry pipeline state
+   - (`content/_original/_workflow/` is a dormant leftover of the retired headless pipeline)
 
 4. **Feedback System**:
-   - Decision logs for all agent actions
-   - Quality metrics aggregated per book
-   - ED drafts prompt improvements, human approves
+   - Run reports + `WATCHLIST.md` in `.claude/reports/`
+   - `/teamcouch` turns recurring patterns into skill edits; the owner approves them at commit
 
 5. **Justfile Integration**:
-   - Headless mode for individual steps
-   - Interactive mode for ED orchestration
-   - Can run pipeline steps independently or chained
+   - `just` wraps the gates and tools; the headless per-step recipes are obsolete (skills + background agents replaced them)
 
 ## File Locations
 
 ### Configuration
 - `.claude/project_config.md` - Global settings, thresholds, model allocation
-- `.claude/prompt_history.md` - Log of all prompt changes
-- `.claude/pending_changes/` - Drafted improvements awaiting approval (created on demand; may not exist)
+- Skill change history: `git log -- .claude/skills/` (the old `prompt_history.md` / `pending_changes/` process is retired; last used 2025-12)
 
 ### Skills (Model-Invoked Capabilities)
-All in `.claude/skills/{name}/SKILL.md`. Translation pipeline: `researcher`, `linguistic-annotator`, `translator`, `opus-editor`, `editor`, `conductor`, `fablelous`, `executive-director`. Support: `project-status`, `glossary`, `glossary-tagger`, `entry-restructurer`, `teamcouch`, `workflow-architect` (this file). Non-translation: `frontend-dev`, `stewardship`, `listmonk-*`. Shared format spec: `.claude/skills/_shared/paragraph_format.md`. Index: `.claude/skills/CLAUDE.md`.
+All in `.claude/skills/{name}/SKILL.md`. Translation pipeline: `researcher`, `linguistic-annotator`, `translator`, `opus-editor`, `editor`, `conductor`, `fablelous`, `vox`, `executive-director`. Support: `project-status`, `glossary`, `glossary-tagger`, `entry-restructurer`, `report-triage`, `teamcouch`, `workflow-architect` (this file). Non-translation: `frontend-dev`, `stewardship`, `listmonk-*`, `codex-review-loop`. Shared: `.claude/skills/_shared/paragraph_format.md` (format), `.claude/skills/_shared/editing_rules.md` (editing, gates, locks, commits). Index: `.claude/skills/CLAUDE.md`.
 
 ### Agents (Subagent Definitions for Task tool)
-`.claude/agents/`: researcher, linguistic-annotator, translator, editor, conductor, entry-restructurer. **NOTE**: the `conductor` and `editor` subagent types lack Edit access — RED/CON are spawned as `general-purpose` with skill instructions in the prompt (see ED skill).
+`.claude/agents/`: researcher, linguistic-annotator, translator, editor, conductor, entry-restructurer. Each is a thin pointer (tools + `model: inherit` + "read the SKILL.md"); keep instructions in the skills only, so the two cannot drift. OPS, FAB and VOX have no agent file — they are spawned as `general-purpose` with the skill path.
 
 ### Workflow State & Feedback
 - `.claude/reports/` - Run reports per team run + `WATCHLIST.md` (the live issue tracker — your main signal source)
@@ -101,24 +98,16 @@ All in `.claude/skills/{name}/SKILL.md`. Translation pipeline: `researcher`, `li
 ## Justfile Commands
 
 ```bash
-# Individual workflow steps (headless)
-just research {entry} {book}      # Run researcher
-just annotate {entry} {book}      # Run linguistic annotator
-just translate {entry} {book}     # Run translator
-just review {entry} {book}        # Run editor
-just conduct {entry} {book}       # Run conductor
-
-# Full pipeline
-just pipeline {entry} {book}      # All steps sequentially
-
-# Orchestration
-just ed {book}                    # Start Executive Director
-
-# Management
-just workflow-status {book}       # Check progress
-just workflow-report {book}       # Generate metrics
-just workflow-clean               # Reset state (careful!)
+just verify-carnet {lang} {carnet}   # The mechanical gate (docs/VERIFY_CARNET_GATE.md)
+just splicescan {lang} {carnet}      # Stranded-text scan (src/scripts/splicescan.awk)
+just check-comments [trees]          # %%-structure check across trees
+just sync {carnet} {lang} --dry-run  # Preview a source→translation sync (lang is required in practice: defaults to cz)
+just sync-verify {carnet} {lang}     # After a sync: visible text vs HEAD, splicescan, stray README
+just status {lang} [carnet]          # Progress (src/scripts/project-status.ts)
+just check-links-repo                # Link health across all trees
 ```
+
+The headless `research/annotate/translate/review/conduct/pipeline/ed/workflow-*` recipes are marked OBSOLETE in the justfile.
 
 ## Comment Notation System
 
@@ -132,6 +121,8 @@ All agents use timestamped comments:
 %% YYYY-MM-DDThh:mm:ss ED: Executive Director note %%
 ```
 
+Full role-code list (OPS, FAB, VOX, KRR, fr's FRE/REV, retired GEM/PPX): `format-profile.yaml` → `authors`.
+
 ## Your Responsibilities
 
 ### 1. System Maintenance
@@ -142,23 +133,20 @@ All agents use timestamped comments:
 
 ### 2. Debugging
 When something isn't working:
-- Check workflow state files for errors
-- Review decision logs for unexpected patterns
-- Test individual pipeline steps in isolation
+- Check the latest run reports and `WATCHLIST.md`
+- Reproduce with the gates on the affected carnet
+- Test individual tools on a scratch copy
 - Identify whether issue is in prompt, tool access, or logic
 
 ### 3. Improvements
 When proposing changes:
 - Always explain the problem being solved
 - Show evidence (from logs, metrics, or testing)
-- Draft changes to `.claude/pending_changes/`
-- Wait for human approval before applying
-- Log applied changes in `prompt_history.md`
+- Edit the skill directly (same process as teamcouch); the owner reviews the diff before it is committed
 
 ### 4. Testing
-- Run test entries through pipeline steps
-- Verify JSON output format is correct
-- Check that state files update properly
+- Run tools against real carnets on a scratch copy
+- Check the gates catch the tool's own failure shapes
 - Validate metrics calculation
 
 <!-- Teamcouch update 2026-09-07: a content writer ships with a gate that fails its own failure shape.
@@ -169,74 +157,23 @@ When proposing changes:
      one .md regex copied into three checkers). -->
 - **Any tool that writes content (`sync`, `scaffold`, fixers, mergers) is tested against real carnets on a scratch copy before its first production run, and the gate is tested against that tool's actual output** — a gate that tolerates the writer's failure shape is a blind spot, not a gate. Verification after every run: sorted visible text identical to HEAD, `splicescan` empty, `verify-carnet` PASS. Before changing any checker rule, grep for the same logic duplicated elsewhere (`.md` matching lived in three files) and change them together.
 
-## Change Approval Workflow
+## Change Process
 
-**CRITICAL: You cannot apply changes to skill files without human approval.**
-
-Process:
-1. Identify need for change (from testing, user feedback, or analysis)
-2. Draft change document:
-   ```markdown
-   # .claude/pending_changes/{skill}_v{N}.md
-
-   ---
-   change_id: {SKILL}-YYYY-MM-DD-NNN
-   proposed_by: workflow-architect
-   reason: "Description of problem"
-   evidence: "How we know this is a problem"
-   ---
-
-   ## Current
-   [existing text]
-
-   ## Proposed
-   [new text]
-
-   ## Validation
-   How to verify this change works
-   ```
-3. Present to human for review
-4. Human approves, modifies, or rejects
-5. If approved: Apply change, update prompt_history.md
-6. Test the change
+Skills are edited directly — by teamcouch after a run, or by you — with the evidence in the edit (a short `<!-- Teamcouch update … -->` note or the commit message). The owner approves by reviewing the diff before it is committed; nothing is committed without that. Before editing, grep for the same rule elsewhere (skills, agent files, `content/*/CLAUDE.md`, docs) and change it in its canonical home rather than adding another copy.
 
 ## Common Tasks
 
-### "Test the pipeline on an entry"
-```bash
-# Pick an entry
-ls content/_original/015/ | head -5
+### "An agent broke files in a wave"
+1. Reproduce: `just verify-carnet {lang} {carnet}`, `just splicescan {lang} {carnet}`, `just check-comments {lang}`
+2. Diff visible text against the pre-wave commit (subagent) to size the damage
+3. Find the instruction that allowed it (skill, spawn prompt, tool) and fix it at its canonical home
+4. If a gate missed it, extend the gate and test it against the broken shape
 
-# Run research phase
-just research 1882-05-01 015
-
-# Check output
-cat content/_original/_workflow/research_1882-05-01.json
-
-# Continue with annotation
-just annotate 1882-05-01 015
-```
-
-### "Debug why researcher isn't finding entities"
-1. Read the skill file: `.claude/skills/researcher/SKILL.md`
-2. Check if entry has expected format
-3. Run researcher manually and observe output
-4. Check if glossary directory is accessible
-5. Propose prompt improvement if needed
-
-### "Add a new capability to an agent"
-1. Identify which skill file needs updating
-2. Draft change in pending_changes/
-3. Explain rationale clearly
-4. Ask human for approval
-5. Apply change and test
+### "Test a content-writing tool"
+Run it on a scratch copy of a real carnet, then the safe-sync checks (`just sync-verify`), `verify-carnet` and a HEAD visible-text diff.
 
 ### "Review system performance"
-1. Check `content/_original/_workflow/decision_log.md`
-2. Look for patterns in agent decisions
-3. Calculate metrics manually or run `just workflow-report`
-4. Identify improvement opportunities
-5. Propose changes with evidence
+Read the newest run reports and WATCHLIST; count recurring failure families; propose changes with evidence.
 
 ## Current System Status
 
@@ -247,7 +184,7 @@ The system is mature and battle-tested: source prep (RSR+LAN) is complete for al
 - `.claude/reports/` (most recent files) — what just happened
 - `.claude/architect/issues.md` + `ideas.md` — architect-side backlog
 
-**Standing architect backlog** (from WATCHLIST escalations): `verify-carnet` gate enhancements (duplicate paragraph IDs, mojibake, single-script foreign contamination, source-line contamination, TM-locked-name lint, paragraph-ID/source-text parity), a Czech straight-quote autofix pass, and making `just sync` safe for translation trees (currently frontmatter-destructive and not depth-aware — do not run it against `content/{lang}/` trees).
+**Standing architect backlog** (from WATCHLIST escalations): `verify-carnet` gate enhancements (duplicate paragraph IDs, mojibake, single-script foreign contamination, source-line contamination, TM-locked-name lint, paragraph-ID/source-text parity), a Czech straight-quote autofix pass, and a morphological non-word lint. `just sync` was repaired 2026-09-07 (72a4ce7c7, e9076d600, 2e3091386) and is safe to run with the check in `_shared/editing_rules.md` §6 (`just sync-verify`).
 
 ## Interacting with Human
 
@@ -255,7 +192,7 @@ When you need human input:
 - Use `AskUserQuestion` for decisions with options
 - Be clear about what you're proposing and why
 - Provide evidence for your recommendations
-- Never apply skill changes without explicit approval
+- Never commit skill changes without the owner reviewing the diff
 
 When human asks about the system:
 - Explain architecture clearly
@@ -287,8 +224,6 @@ You have a dedicated workspace at `.claude/architect/`:
 | `ideas.md` | Future improvements, not yet approved |
 | `testing.md` | Test plans and results |
 | `sessions/` | What happened each session |
-| `prompt_history.md` | Skill/prompt file changes specifically |
-| `pending_changes/` | Drafted changes awaiting approval |
 
 ### Session Logging
 
@@ -331,7 +266,7 @@ When starting a new session as Workflow Architect:
 
 1. **Load context** - Read this skill file completely
 2. **Check recent sessions** - Read latest in `.claude/architect/sessions/`
-3. **Review pending changes** - Check `.claude/pending_changes/`
+3. **Check recent skill edits** - `git log --oneline -10 -- .claude/skills/`
 4. **Check issues** - Review `.claude/architect/issues.md` for open bugs
 5. **Ask human** - What do they want to work on?
 

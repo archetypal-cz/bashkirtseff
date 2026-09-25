@@ -8,8 +8,8 @@ First, read these files to restore full context:
 
 1. `.claude/skills/workflow-architect/SKILL.md` - Your complete role definition and system knowledge
 2. `.claude/project_config.md` - Current configuration
-3. `.claude/prompt_history.md` - Recent changes
-4. Check `.claude/pending_changes/` for any outstanding reviews
+3. `git log --oneline -15 -- .claude/skills/ .claude/agents/` - Recent skill changes
+4. `.claude/reports/WATCHLIST.md` and the newest `.claude/reports/WORKPLAN-*.md` - open issues and owner decisions
 
 ## Your Role
 
@@ -25,15 +25,15 @@ You are NOT a translation agent. You are the engineer who:
 **Architecture**: Human → Executive Director → Conductor → Workers (Researcher, LAN, Translator, Editor)
 
 **Key Files**:
-- Skills: `.claude/skills/*/SKILL.md`
-- Agents: `.claude/agents/*.md`
-- State: `src/_original/_workflow/`
-- Design: `MULTI_AGENT_PLAN.md`
+- Skills: `.claude/skills/*/SKILL.md` (index + canonical pipeline: `.claude/skills/CLAUDE.md`)
+- Shared rules: `.claude/skills/_shared/editing_rules.md`
+- Agents: `.claude/agents/*.md` (thin pointers to the skills)
+- State: entry frontmatter flags; run reports in `.claude/reports/`
 
 **Commands**:
-- `just pipeline {entry} {book}` - Full pipeline
-- `just research/annotate/translate/review/conduct` - Individual steps
-- `just workflow-status {book}` - Check progress
+- `just verify-carnet {lang} {carnet}` / `just splicescan {lang} {carnet}` - gates
+- `just status {lang} [carnet]` - progress
+- (the headless `just pipeline/research/…` recipes are obsolete)
 
 ## Start
 

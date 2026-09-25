@@ -1,7 +1,7 @@
 ---
 name: report-triage
 description: Evaluate and implement user bug reports from the paragraph_reports database on aretea. Fetch open reports, map each to content files, judge against the French original, fix via translator/editor/researcher/restructurer agents, and update report status. Use when the user asks to go through reader reports.
-allowed-tools: Read, Write, Edit, Grep, Glob, Bash, Task, TaskCreate, TaskUpdate, TaskList, AskUserQuestion
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash, Agent, TaskCreate, TaskUpdate, TaskList, AskUserQuestion
 ---
 
 # Report Triage — Evaluating and Implementing User Reports
@@ -49,7 +49,7 @@ Same pattern for status updates if `just report-status` reports "No report found
    - **Formatting/rendering** (markdown leaking as literal text, layout) → frontend, usually `src/frontend/src/lib/content.ts` (`processTextToHtml`, `joinClusterLines`) — fix the renderer for the whole class, not the one paragraph, and check whether content elsewhere depended on the old broken behavior (e.g. duplicated heading lines)
    - **Feature requests** (in `custom_reason`) → implement a minimal version if cheap (e.g. a glossary entry), log the broader idea in `.claude/reports/WATCHLIST.md`
    - **Unwarranted** → `dismissed`, but say why in the session summary
-3. **Fix via the team.** Spawn role agents (translator, editor, researcher, entry-restructurer) with: the report verbatim, the French original, the current text, your analysis, and the comment convention below. Batch reports per carnet/agent; run independent agents in parallel. If two agents will touch the same file (e.g. a tagger and a splitter), order them explicitly and tell the later one to re-read from disk.
+3. **Fix via the team.** Spawn role agents (`subagent_type`: translator, editor, researcher, entry-restructurer — each loads its skill; always state the language) with: the report verbatim, the French original, the current text, your analysis, the comment convention below, and `.claude/skills/_shared/editing_rules.md` (splice-safe edits, `_original` as reference, never fact-correct Marie, locked terms). Batch reports per carnet/agent; run independent agents in parallel. If two agents will touch the same file (e.g. a tagger and a splitter), order them explicitly and tell the later one to re-read from disk.
    <!-- Teamcouch update 2026-07-06 (first-run calibration): two taggers sharded over one carnet
         collided when one overran its file scope (5th instance of the concurrent-edit family;
         benign only because their tag sets converged). -->
@@ -64,12 +64,12 @@ Same pattern for status updates if `just report-status` reports "No report found
 
 ## Verification before "fixed"
 
-- `%%` markers balanced in every touched file (stranded-text check from the cz-fluidity method if in doubt)
+- `just splicescan {lang} {carnet}` prints nothing and `just verify-carnet {lang} {carnet}` PASSes for every touched carnet and tree; if the fix changed `_original` and you synced translations, `just sync-verify {carnet} {lang}` is OK (`_shared/editing_rules.md` §6)
 - For splits: paragraph IDs unchanged, no paragraph lost (count IDs before/after across both halves), all five language versions consistent
   <!-- Teamcouch update 2026-07-06 (first-run calibration): the splitter's sed-range derivation
        silently dropped 3 paragraphs at seams (self-caught by its count check), and it applied
        _original's `#` date-heading convention but left translations as plain text. -->
-  Concretely: `grep -c '^%% NNN\.[0-9]\{4\} %%$'` must be **identical per file across all six sources** (_original + cz/uk/en/fr/es, skipping any tree the carnet does not exist in yet), the ID range contiguous with no duplicates; then eyeball each new file's opening — the date must be a `#` heading in **that language's own sibling convention** (translated, no stray periods). fr trap: the fr edition promotes a cluster's `%% … %%` comment to visible text only when the cluster has NO visible line — so a heading added to an fr cluster hides its commented prose unless the prose is also copied out visibly. fr files also have no YAML frontmatter (repo-wide; `verify-carnet fr` frontmatter failures are baseline, not your regression).
+  Concretely: `grep -c '^%% NNN\.[0-9]\{4\} %%$'` must be **identical per file across all six sources** (_original + cz/uk/en/fr/es, skipping any tree the carnet does not exist in yet), the ID range contiguous with no duplicates; then eyeball each new file's opening — the date must be a `#` heading in **that language's own sibling convention** (translated, no stray periods). fr trap: the fr edition promotes a cluster's `%% … %%` comment to visible text only when the cluster has NO visible line — so a heading added to an fr cluster hides its commented prose unless the prose is also copied out visibly. fr files carry YAML frontmatter with `edition_complete` instead of `translation_complete` (since 82cb4f7d2) — a new fr file from a split needs it too, or `verify-carnet fr` FAILs.
 - For renderer changes: `just fe-build` must pass; spot-check the affected paragraph in build output if feasible
 - For tags: link targets exist (`just glossary-missing`)
 

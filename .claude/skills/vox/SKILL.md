@@ -1,6 +1,6 @@
 ---
 name: vox
-description: Voice of the Reader (VOX) — opposing artistic review by a Fable agent deeply attuned to the natural flow of the target language. Reads the translation as a demanding native reader, audits whether the editors truly delivered, fixes stumbles directly, and explains judgment calls in VOX comments. Use on translated entries as an adversarial counterpart to the cooperative pipeline passes.
+description: Voice of the Reader (VOX) — opposing artistic review by an agent deeply attuned to the natural flow of the target language. Reads the translation as a demanding native reader, audits whether the editors truly delivered, fixes stumbles directly, and explains judgment calls in VOX comments. Use on translated entries as an adversarial counterpart to the cooperative pipeline passes.
 allowed-tools: Read, Edit, Write, Grep, Glob, Bash, Agent
 ---
 
@@ -15,7 +15,7 @@ Vox is two things at once:
 1. **Artistic polish** — intuitively feeling what the flow of the language needs to be perfect *for this text*, with deep understanding of the depths of meaning in individual words.
 2. **An audit of the editors** — OPS, RED, CON (and FAB where it ran) have all signed off. Vox does not extend them the benefit of the doubt. It verifies, adversarially, that their approvals were earned.
 
-The pass is executed by **Fable agents** (model: inherit — never downgrade for this work). One agent per language per carnet, so the ear stays consistent across entries.
+The pass runs on the session's model (Opus 5.5 and Fable have both been used — the owner chooses per run; never pick a smaller model for this work). One agent per language per carnet, so the ear stays consistent across entries; name the model that ran in your report.
 
 **Vox vs. Fablelous**: FAB interrogates word choices *from the French outward* (is this the most expressive rendering of Marie's intent?). VOX reads *from the reader inward* (does this text flow flawlessly as native literature, before you even know it's a translation?). FAB is a collaborator; VOX is the opposition. They are complementary and may both run on the same carnet.
 
@@ -23,9 +23,11 @@ The pass is executed by **Fable agents** (model: inherit — never downgrade for
 
 Invoked as `/vox {carnet} {lang...}` (e.g. `/vox 000 cz uk`):
 
-1. Spawn one Fable agent per language (in parallel, background), each instructed with the **Agent instructions** below plus the file list.
-2. When agents finish, verify: `%%`-balance intact, freshness gate was respected (no file edited that was already dirty), `redaction_passes` updated in every reviewed file, VOX comments present for every non-obvious change.
-3. Summarize changes per language for the user. Do NOT auto-commit.
+1. Spawn one agent per language (in parallel, background), each instructed with the **Agent instructions** below plus the file list.
+2. When agents finish, verify per carnet: `just splicescan {lang} {carnet}` prints nothing and `just verify-carnet {lang} {carnet}` PASSes (`.claude/skills/_shared/editing_rules.md` §1, §6), freshness gate was respected (no file edited that was already dirty), `redaction_passes` updated in every reviewed file, VOX comments present for every non-obvious change.
+3. Summarize changes per language for the user. Agents do not commit; the lead commits each carnet after the gates pass.
+
+**Run VOX only on committed text.** Any earlier pass on the carnet (FAB in particular) must be committed by the lead first — otherwise the freshness gate below skips every file as STALE and the run does nothing.
 
 ## Agent instructions
 
@@ -43,7 +45,7 @@ If the file has uncommitted changes, **do not edit it**. Skip it, record it as `
 
 1. Read this SKILL.md in full.
 2. Read `content/{lang}/CLAUDE.md` — language-specific style guide, punctuation rules, known traps.
-3. For each entry, read the French original (in `content/_original/{carnet}/` or the `%% … %%` French embedded in the file) — but see the method below for *when*.
+3. For each entry, read the French original in `content/_original/{carnet}/` — always the source file, never only the `%% … %%` copy embedded in the translation (it can be stale or elided; see `_shared/editing_rules.md` §2). If paragraph count or length differs from the source, stop on that entry and report it. See the method below for *when* to read it.
 
 ### Method — the reader first, the French second
 
@@ -81,7 +83,8 @@ Use the real current timestamp (`date +%Y-%m-%dT%H:%M:%S`).
 
 - **ONLY edit** visible translation text (lines without `%%`).
 - **PRESERVE** all `%% … %%` lines: paragraph IDs, glossary tags, French originals, all prior role comments. Never modify or delete them.
-- **NEVER** place VOX comments inline within text — always on their own line.
+- **Splice-safe insertion** — canonical procedure in `.claude/skills/_shared/editing_rules.md` §1: every VOX comment on its own line, anchored on the line *after* the text; bundle a text edit with a comment only when `old_string` runs to the real end of the line; run `just splicescan {lang} {carnet}` after each file.
+- **Never "fact-correct" Marie, never change a TM-locked term**, leave pending-ruling items as they are and flag them (§3, §5). When a fix belongs to a recurring family, grep the carnet for the rest and report the count (§4).
 - **PRESERVE** footnotes and their markers; if you touch a sentence with a footnote marker, keep the marker attached to the right word.
 - Keep target-language punctuation conventions per `content/{lang}/CLAUDE.md`.
 

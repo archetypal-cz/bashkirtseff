@@ -47,8 +47,8 @@ models:
 
   # Translation pipeline (ACTIVE)
   translator: opus               # proven config since Feb 2026 runs
-  editor: opus                   # RED — spawn as general-purpose subagent type (Edit access)
-  conductor: opus                # CON — spawn as general-purpose subagent type (Edit access)
+  editor: opus                   # RED — spawn as `editor` (has Edit + Bash) or general-purpose
+  conductor: opus                # CON — spawn as `conductor` (has Edit + Bash) or general-purpose
 
 ## Agent Teams Settings
 
@@ -110,6 +110,7 @@ languages:
     - uk                    # Ukrainian — 100% conductor-approved (3,733/3,733); corrections/TM only
     - en                    # English — partial
     - fr                    # French modern edition
+    - es                    # Spanish — pilot (slice 1 of carnet 001 CON-approved 2026-09-05); see docs/LANGUAGE_EXPANSION_PLAN.md
 
 ## Carnet Status
 

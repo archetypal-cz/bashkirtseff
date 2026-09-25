@@ -130,6 +130,15 @@ Concrete English traps for RED and OPS to catch (the language-agnostic frame liv
 - Keep Marie's same-language code-switches as-is with `==highlight==` and footnote "*In English in the original*".
 - 19th century sophistication without archaism.
 
+**Register watchlist** (the #1 RED fix category across English runs, en-048…en-106) — technically correct words that are wrong for Marie's voice:
+- "sordid" → "dirty/grubby"; "bloody" → "vile/wretched"; "minx" (of children) → "imp/little devil"; "chest" → "bosom/breast"; "immune to" → "not subject to"; "good God" → "good Lord/good heavens"
+- Always ask: would a well-bred 1880s young woman write this word in her diary?
+
+**French word-order calques** (the #2 issue after register):
+- "make oneself beautiful only to have…" → "dress up only to have…"; "I have often that expression" → "I often wear that expression"; "she is of a charming amiability" → "she is charmingly amiable"; "one's arms drop" → "one is left helpless"
+
+**Formal address — do not inflate** (en-042-047): "mon oncle" → "my uncle", not "my dear uncle"; add "dear" only when the French has *cher/chère*.
+
 ## Review criteria (OPS / RED)
 
 Language-specific review checklists for the two review passes (naturalness-only, then semantic against the French). These were originally the external reviewer's prompts; they remain the concrete English criteria for the OPS and RED passes.

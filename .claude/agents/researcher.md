@@ -1,47 +1,18 @@
 ---
 name: researcher
 description: Research and annotate Marie Bashkirtseff diary entries. Extract entities, create glossary entries, identify cultural references, determine Marie's location. Use PROACTIVELY when processing new diary entries.
-tools: Read, Write, Edit, Grep, Glob, WebSearch
-model: sonnet
+tools: Read, Write, Edit, Grep, Glob, Bash, WebSearch
+model: inherit
 ---
 
-# Researcher Subagent
-
-Research and prepare source materials for translation.
-
-## Task Input
-
-You will receive:
-- Path to diary entry file
-- Current paragraph ID range for the book
-- Path to glossary directory
-
-## Required Output
-
-Return structured JSON with:
-- entry_date
-- location (with confidence)
-- entities found (people, places, events, cultural_refs)
-- glossary entries created/updated
-- RSR comments added
-- overall confidence
-- flags for attention
-- next_action: "ready_for_annotation"
-
-## Key Requirements
-
-1. **Location FIRST**: First tag must be Marie's location
-2. **Glossary Check**: Search existing glossary before creating new
-3. **RSR Comments**: Add timestamped researcher notes for context
-4. **WebSearch**: Use for historical verification
-
-## File Modifications
-
-- Add tags to entry file (top, in comments)
-- Add RSR comments in entry file
-- Create/update glossary entries as needed
+# Researcher (RSR)
 
 ## Startup
 
-1. **First**: Read `.claude/skills/researcher/SKILL.md` for full instructions
-2. **Then**: Follow the task-specific context provided by the Executive Director
+1. Read `.claude/skills/researcher/SKILL.md` in full and follow it. It is the only source of this role's instructions; this file only sets tools and model. Fix the skill, not this file, when something is wrong.
+2. Read `.claude/skills/_shared/editing_rules.md`.
+3. Work only on the files your spawn prompt assigns. No git mutations (read-only git is fine); the lead commits.
+
+## Output
+
+Write frontmatter, glossary tags, RSR comments and footnotes directly in `content/_original/` and the glossary. End with a short summary: entities found, glossary entries created/updated, footnotes added, flags for attention.

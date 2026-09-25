@@ -53,7 +53,7 @@ Sobota 11. ledna 1873. Je nádherné počasí...
 - Translate from annotated French source, thinking about it paragraph by paragraph.
 - Evaluate Czech sentence structure and word choice to best capture Marie's voice and the original layers of meaning and intent and attention. LAN and RSR comments in the original can guide you on what to pay attention to.
 - Preserve Marie's voice and style and mood and intent, not just the literal meaning. This is a literary translation, not a technical one. The Czech should read as literature, as a czech Marie, not as a translation.
-- Follow terminology established in `TranslationMemory.md` for consistency across entries - and take care of it too, launch subagent to updated it with new information as you translate.
+- Follow terminology established in `TranslationMemory.md` for consistency across entries - and take care of it too: add new terms as you translate (if you are a teammate without the Agent tool, or other translators are editing the TM, list them in your summary for the lead to fold in).
 - Add TR comments for non-obvious choices and thinking process.
 - After finishing first pass of a paragraph (or several short ones) take a look at it again with fresh eyes - maybe a subagent can help with that, just a young czech native speaker, prompted in czech, with good literary sense and intuitive knowledge of how meanings change with small shifts in wording. Make improvements as needed.
 
@@ -75,13 +75,14 @@ Konkrétní české pasti, na které se RED i OPS mají zaměřit (jazykově neu
 
 | Kategorie | Příklad |
 |-----------|---------|
-| **Galicismy** | "vzít si ženu" (= oženit se), "dítě domu", "dát pochopit", "dělám tisíc hloupostí" (mille bêtises) |
+| **Galicismy** | "vzít si ženu" (= oženit se), "dítě domu", "dát pochopit", "dělám tisíc hloupostí" (mille bêtises), "jsou oddělení" (sont séparés → žijí odděleně), "bít nohou" (battre du pied → dupat/podupávat) |
 | **Falešní přátelé** | "ceremonie" (CZ = obřad, FR = okolky), "kostým" (CZ = oblek, FR = plavky), "kabinet", "sympatický" |
 | **Zvratná slovesa** | "kojila jsem se" (= kojila jsem sebe sama) |
 | **Neexistující slova** | "rukavičkuje se", "voitře" — vymyšlené tvary, které v češtině neexistují |
 | **Slovosled / příklonky** | "pak na tribuně jsem" — příklonka jsem/se/si musí stát na 2. pozici |
 | **Předložkové kalky** | "za čelem" → "z čela", "mít" jako kalk za avoir, "dělat" za faire |
 | **Významové posuny** | "zimnice" (nemoc) za "frisson" (zachvění), "vařila jsem" (vaření) za "je bouillais" (vařit se vzteky) |
+| **Doslovné obraty (FAB krok 5 „Calque hunt“)** | vytýkací *c'est … que* → „je to … co“; jmenný styl místo slovesa (*faire une promenade* → „udělat procházku“ místo „projít se“); přivlastňovací zájmeno navíc („zvedla jsem svou ruku“). Opravovat *nenásilně* — česká verze má znít jako psaná česky, ne jako chytrý přepis. |
 
 **Kontrola podmiňovacího způsobu a osoby** (nejčastější kritická chyba, která mění význam): grepni tvary `kdyby` a ověř osobu proti francouzskému podmětu — "si je…" → kdybych, "si vous…" → kdybyste/kdybys, "si il/elle/on…" → kdyby. Záměna osoby tu dělá z Marie podmět cizí akce (dominantní třída chyb v cz-056-064). **Rod 1. osoby:** Marie je žena (ž. r. j. č.) — francouzské rodově neutrální příčestí / "on" se v češtině často omylem převede do mužského rodu nebo 3. os. mn. č., když je podmětem Marie. Grepni minulé tvary, přechodníky a „rád/ráda" v kontextech 1. osoby a ověř rod proti francouzskému podmětu (např. *mysleli→myslela*, *zaměněn→zaměněna*, *rád→ráda*, přechodník *maje→majíc*). Opakovaná kritická třída napříč 089/084 (cz-083-092) i dříve (uk-018-022, cz-016-021).
 
@@ -225,14 +226,11 @@ Use `/project-status cz 001` to check status.
 
 ## Branch Strategy
 
-Czech translations live on the `cz` branch:
-
-- Regularly merge from `main` to get source updates
-- Translation commits use format: `[cz-001] Description`
+Czech work lands on `main` (there is no `cz` branch), committed by the lead per carnet with explicit paths, in the form `ops(cz): …` / `fix(cz/NNN): …`.
 
 ## Related Documentation
 
-- `/src/_original/CLAUDE.md` - French source materials
+- `/content/_original/CLAUDE.md` - French source materials
 - `/docs/INFRASTRUCTURE.md` - Progress tracking system
 - `/.claude/skills/translator/SKILL.md` - Translator role
 - `/.claude/skills/editor/SKILL.md` - Editor role

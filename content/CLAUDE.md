@@ -53,15 +53,16 @@ location: Nice
 entities:
   people: [Howard_family, Maman]
   places: [Nice, Promenade_des_Anglais]
-research_complete: true
-linguistic_annotation_complete: true
+workflow:
+  research_complete: true
+  linguistic_annotation_complete: true
 ---
 
 %% 001.0001 %%
 %% [#Nice](../_glossary/places/cities/NICE.md) %%
-Samedi 11 janvier 1873. Il fait un temps superbe...
 %% 2025-12-07T16:00:00 RSR: First entry of the diary... %%
-%% 2025-12-07T17:00:00 LAN: "superbe" - consider "nádherný" %%
+%% 2025-12-07T17:00:00 LAN: "superbe" - radiant/glorious weather, not "superb" in the modern sense %%
+Samedi 11 janvier 1873. Il fait un temps superbe...
 
 %% 001.0002 %%
 Next paragraph...
@@ -89,6 +90,9 @@ All annotations use: `%% YYYY-MM-DDThh:mm:ss CODE: Text %%`
 | RED  | Editor               | Quality issues, suggestions               |
 | CON  | Conductor            | Final approval notes                      |
 | FAB  | Fablelous            | Word-level expressiveness polish          |
+| VOX  | Voice of the Reader  | Opposing reader-side review               |
+| ED   | Executive Director   | Orchestration notes, lead fixes           |
+| KRR  | Owner                | Owner's own notes and rulings             |
 | GEM  | Gemini (retired 2026-07-08) | Legacy review notes in older entries |
 | PPX  | Perplexity (retired) | Legacy notes in older entries             |
 
@@ -97,7 +101,7 @@ All annotations use: `%% YYYY-MM-DDThh:mm:ss CODE: Text %%`
 Format: `%% [#Display_Name](../_glossary/category/FILENAME.md) %%`
 
 - Filenames: CAPITAL_ASCII (uppercase, underscores, no accents)
-- Categories: `people/`, `places/`, `culture/`, `society/`, `languages/`
+- Categories: `people/`, `places/`, `culture/` (each with subcategories; languages live under `culture/languages/` — see `_original/_glossary/_categories.yaml`)
 - Always use relative paths from entry location
 
 ## Progress Tracking
@@ -112,17 +116,9 @@ See `/docs/INFRASTRUCTURE.md` for full progress tracking documentation.
 
 ## Working with Content
 
-### To research an entry
+### To research, translate or review
 
-```bash
-just research 1873-01-11 001    # Or use /researcher skill
-```
-
-### To translate an entry
-
-```bash
-just translate 1873-01-11 001 cz    # Or use /translator skill
-```
+Use the skills (`/researcher`, `/translator`, `/editor`, …) or `/executive-director` for a whole carnet. The headless `just research` / `just translate` / `just pipeline` recipes are obsolete. Gates: `just verify-carnet {lang} {carnet}` and `just splicescan {lang} {carnet}`.
 
 ### To check progress
 
@@ -138,5 +134,5 @@ just translate 1873-01-11 001 cz    # Or use /translator skill
 - `/en/CLAUDE.md` - English translation specifics
 - `/fr/CLAUDE.md` - French modern edition specifics
 - `/es/CLAUDE.md` - Spanish translation specifics (pilot)
-- `/_original/_glossary/CLAUDE.md` - Glossary system
+- `/.claude/skills/glossary/SKILL.md` - Glossary system
 - `/docs/FRONTMATTER.md` - Detailed frontmatter spec

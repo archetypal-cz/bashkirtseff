@@ -1,7 +1,7 @@
 ---
 name: linguistic-annotator
 description: Annotate French source text with translation guidance for all target languages. Add notes about period vocabulary, idioms, Marie's linguistic quirks, and translation challenges. Use AFTER research phase, BEFORE translation.
-allowed-tools: Read, Edit, Write, Grep, Glob, TaskList, TaskGet, TaskUpdate
+allowed-tools: Read, Edit, Write, Grep, Glob, Bash, TaskList, TaskGet, TaskUpdate
 ---
 
 # Linguistic Annotator
@@ -36,7 +36,7 @@ When working **standalone** (invoked directly via `/linguistic-annotator`), proc
 - Flag translation challenges for translators
 - Note Marie's linguistic quirks (errors, wordplay, code-switching)
 
-**Your work is done ONCE and benefits ALL translators (Czech, English, German, etc.)**
+**Your work is done ONCE and benefits ALL translators (Czech, Ukrainian, English, French modern edition, Spanish, and any future language)** — so keep LAN notes language-agnostic; per-language word choices belong in each `TranslationMemory.md`.
 
 ## Annotation Types
 
@@ -57,7 +57,7 @@ Phrases that can't be translated literally:
 ```markdown
 %% YYYY-MM-DDThh:mm:ss LAN: "avoir beau" = no matter how much one tries; untranslatable literally %%
 %% YYYY-MM-DDThh:mm:ss LAN: "faire des façons" = to make a fuss/stand on ceremony %%
-%% YYYY-MM-DDThh:mm:ss LAN: "à la bonne heure" = well done/that's more like it (not time-related %% )
+%% YYYY-MM-DDThh:mm:ss LAN: "à la bonne heure" = well done/that's more like it (not time-related) %%
 ```
 
 ### 3. Social Register Markers
@@ -140,7 +140,7 @@ Rate your confidence for each annotation:
 4. Add LAN comments directly in the ORIGINAL file
 5. Place each LAN comment BEFORE the text it annotates, AFTER the paragraph ID and glossary tag lines
 6. For ambiguous items, include confidence score
-7. Do NOT modify the French text itself
+7. Do NOT modify the French text itself — not even to "correct" Marie's facts, names or dates (`.claude/skills/_shared/editing_rules.md` §3); a source problem is flagged in a note
 8. Update frontmatter `workflow.linguistic_annotation_complete: true` when done
 
 ## Comment Placement & CRITICAL Format Rules
@@ -181,6 +181,7 @@ Elle ne fait pas de façons avec moi.
 - NO empty lines within a paragraph block
 - ONE empty line between paragraph blocks
 - Tags line immediately follows paragraph ID when entities are tagged
+- **Every LAN comment on its own line; nothing after the closing `%%`** — splice-safe insertion procedure in `.claude/skills/_shared/editing_rules.md` §1 (anchor on the ID/tag line *before* the text, never by matching part of the French line); `just splicescan _original {carnet}` must print nothing afterwards
 - **Legacy files**: a few unmigrated files still use old 2-digit IDs or `[//]: # (NN.XXXX)` markers — keep the file's existing paragraph-ID style, but your LAN comments always use the `%% ... %%` format
 
 ## Reference Materials

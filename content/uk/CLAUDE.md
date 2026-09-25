@@ -196,5 +196,5 @@ Language-specific review checklists for the two review passes (naturalness-only,
 
 ## Related Documentation
 
-- `/src/_original/CLAUDE.md` - French source materials
+- `/content/_original/CLAUDE.md` - French source materials
 - `/docs/INFRASTRUCTURE.md` - Progress tracking system

@@ -1,7 +1,7 @@
 ---
 name: teamcouch
 description: Post-session retrospective. Analyze team run reports, facilitate skill evolution, track patterns across runs. Use after a translation team finishes to improve the workflow.
-allowed-tools: Read, Write, Edit, Grep, Glob, Task, AskUserQuestion, TaskCreate, TaskUpdate, TaskList, TaskGet
+allowed-tools: Read, Write, Edit, Grep, Glob, Agent, AskUserQuestion, TaskCreate, TaskUpdate, TaskList, TaskGet
 ---
 
 # Teamcouch — Team Retrospective Facilitator
@@ -152,7 +152,7 @@ Change the report's `status` from `final` to `reviewed`.
 ## Anti-Patterns
 
 - **Don't over-optimize** — if quality is 0.93+, focus on efficiency, not pushing to 0.99
-- **Don't make skills longer** — skills that are too detailed cause agents to spend more context reading them. Prefer concise, actionable guidance.
+- **Don't make skills longer** — skills that are too detailed cause agents to spend more context reading them. Prefer concise, actionable guidance. A rule that applies to several editing roles goes once into `.claude/skills/_shared/editing_rules.md` (each skill keeps a one-line pointer); the pipeline order lives only in `.claude/skills/CLAUDE.md`; agent files in `.claude/agents/` stay thin pointers — never copy skill text into them.
 - **Don't add rules for one-off issues** — that's what WATCHLIST is for
 - **Don't remove working patterns** — if something is in the skill because it solved a real problem, don't remove it unless the underlying issue is gone
 - **Don't blame agents** — agents execute skills. If the output is bad, the skill needs improvement, not the agent.

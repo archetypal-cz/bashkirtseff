@@ -83,7 +83,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | ------------------------ | ----------------------- | ---------------------------------------------- |
 | **researcher**           | `/researcher`           | Research and annotate entries, create glossary |
 | **linguistic-annotator** | `/linguistic-annotator` | Add translation guidance (LAN notes)           |
-| **translator**           | `/translator`           | Translate French → Czech                       |
+| **translator**           | `/translator`           | Translate French → target language             |
 | **opus-editor**    | `/opus-editor`    | Language expert review (cross-validation pass)    |
 | **editor**               | `/editor`               | Review translations for quality                |
 | **conductor**            | `/conductor`            | Final quality gate                             |
@@ -94,20 +94,22 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **listmonk-copywriter** | `/listmonk-copywriter`  | Email copywriting, campaign content            |
 | **listmonk-admin**       | `/listmonk-admin`       | Newsletter infrastructure, lists, subscribers  |
 | **teamcouch**            | `/teamcouch`            | Post-session retrospective, skill evolution    |
-| **fablelous**            | `/fablelous`            | Fable word-level polish pass (post-CON)        |
+| **fablelous**            | `/fablelous`            | Word-level polish pass (post-CON)              |
 | **vox**                  | `/vox`                  | Voice of the Reader — opposing artistic review |
 | **report-triage**        | `/report-triage`        | Evaluate & implement user bug reports          |
+| **glossary**             | `/glossary`             | Create and maintain glossary entries           |
+| **glossary-tagger**      | `/glossary-tagger`      | Auto-tag entries with glossary references      |
+| **entry-restructurer**   | `/entry-restructurer`   | Standardize entry format (never renumbers IDs) |
+| **stewardship**          | `/stewardship`          | Social media content                           |
+| **codex-review-loop**    | `/codex-review-loop`    | Codex-driven correctness review of code areas  |
+
+Shared rules for every role that edits content (splice-safe comments, `_original` as the reference, never fact-correcting Marie, locked terms, gates and commits): `.claude/skills/_shared/editing_rules.md`.
 
 ## Core Workflow
 
 ### Standard Translation Pipeline
 
-1. **Research Phase** (researcher) - Extract entities, historical context, RSR comments
-2. **Annotation Phase** (linguistic-annotator) - Translation guidance, LAN comments
-3. **Translation Phase** (translator) - Translate preserving Marie's voice, TR comments
-4. **Opus Review** (opus-editor) - Language expert cross-validation, OPS comments
-5. **Editor Review** (editor) - Check naturalness and accuracy, RED comments
-6. **Final Approval** (conductor) - Ensure literary quality, CON comments
+Source preparation (RSR research → LAN annotation) is complete for all carnets; the active pipeline is TR → gate → [OPS] → RED → gate → CON → gate → commit → [FAB → gate → commit] → [VOX]. The canonical table (roles, gates, who commits) is in `.claude/skills/CLAUDE.md` → "Pipeline 2: Translation".
 
 ## File Format Standards
 
@@ -145,7 +147,7 @@ All roles use timestamped comments:
 %% YYYY-MM-DDThh:mm:ss ROLE: Comment text %%
 ```
 
-Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), FAB (Fablelous polish), VOX (Voice of the Reader — opposing review). Retired codes still found in older comments: GEM (Gemini review — role removed 2026-07-08), PPX (Perplexity)
+Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), OPS (Opus Editor), RED (Editor), CON (Conductor), ED (Executive Director), FAB (Fablelous polish), VOX (Voice of the Reader — opposing review), KRR (the owner); fr edition only: FRE (édition), REV (révision). Canonical list: `format-profile.yaml` `authors.vocabulary`. Retired codes still found in older comments: GEM (Gemini review — role removed 2026-07-08), PPX (Perplexity)
 
 ### Paragraph IDs
 
@@ -197,10 +199,13 @@ just glossary-find ID   # Find references to entry
 just glossary-orphaned  # List unreferenced entries
 just glossary-missing   # List broken glossary links
 
-# AI Workflow
-just ed 015             # Start Executive Director
-just research ENTRY     # Run researcher on entry
-just pipeline ENTRY     # Full translation pipeline
+# Quality gates
+just verify-carnet cz 015   # Mechanical gate for a translation carnet (must PASS)
+just splicescan cz 015      # Stranded-text scan (must print nothing)
+just sync-verify 015 cz     # After `just sync 015 cz`: visible text unchanged vs HEAD
+
+# AI workflow: use the skills (/executive-director, /translator, …);
+# the headless `just research/translate/pipeline/ed` recipes are obsolete
 
 # Deployment (automatic on push to main)
 # Check status: https://github.com/archetypal-cz/bashkirtseff/actions

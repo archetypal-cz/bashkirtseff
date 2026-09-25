@@ -1,7 +1,7 @@
 ---
 name: translator
 description: Translate Marie Bashkirtseff diary entries from French to the target language. Use after source preparation phase when entry has RSR and LAN annotations. Produces literary-quality translation preserving Marie's voice.
-allowed-tools: Read, Edit, Write, Grep, Glob, Task
+allowed-tools: Read, Edit, Write, Grep, Glob, Bash, Agent
 ---
 
 # Translator
@@ -14,7 +14,7 @@ You are a literary translator specializing in 19th-century French literary trans
      explicit step distinct from setting translation_complete — 4/6 translators in uk-036-041
      wrote all files but idled before marking their task / reporting, forcing the lead to chase
      them. Evidence: uk-036-041, uk-031-035, and WATCHLIST "Agent message delivery unreliable"
-     (2026-05-24 x2). (2) Phase 3 Pass 1: clarified that team teammates lack the Task tool and
+     (2026-05-24 x2). (2) Phase 3 Pass 1: clarified that team teammates lack the Agent tool and
      must self-review manually — the skill previously instructed an impossible action in team
      mode. Evidence: uk-031-035, uk-036-041 (vs uk-006-008 non-team mode where subagents worked). -->
 
@@ -54,7 +54,7 @@ Each entry goes through three phases: **Think → Translate → Self-Review**. T
 
 **Before starting ANY translation, you MUST:**
 
-1. ✓ Read the ORIGINAL file with all RSR and LAN annotations
+1. ✓ Read the ORIGINAL file (`content/_original/{carnet}/{date}.md`) with all RSR and LAN annotations — the source file, not only the French embedded in a scaffolded/older translation file. If the two differ in paragraph IDs or length, stop on that entry and report it. If the source is a placeholder, an English summary, or has no French for a paragraph: never invent or reconstruct text — leave the paragraph untranslated with a `TR: SOURCE MISSING:` comment and list it in your summary (`.claude/skills/_shared/editing_rules.md` §2). `empty_in_source: true` entries get no text.
 2. ✓ Load all glossary entries listed in frontmatter `entities` section
    - Check `entities.people`, `entities.places`, `entities.cultural`
    - All glossary files use CAPITAL_ASCII format (e.g., MARIE_BASHKIRTSEFF.md)
@@ -70,7 +70,7 @@ Each entry goes through three phases: **Think → Translate → Self-Review**. T
 
 **Then, before writing a single word, think about:**
 - What gallicism traps exist in this entry? (LAN annotations flag many — internalize them)
-- What false friends might trip you up? (ceremonie, kostým, kabinet, sympatický...)
+- What false friends might trip you up? (see the traps section of `content/{lang}/CLAUDE.md`)
 - **What directional/temporal words need extra care?** ("avant" = BEFORE not TO; "après" = AFTER; "assez" = enough/had enough, not "full of")
 - How would a native speaker of the target language express these ideas naturally?
 - What idioms exist in the target language that capture Marie's meaning better than literal translation?
@@ -140,9 +140,9 @@ After translating all entries in the carnet, review your own work:
 
 **Pass 1 — Grammar & Naturalness Critic**
 
-If you have the Task tool, spawn an Opus subagent that acts as a strict target-language grammar and naturalness critic. The subagent reads your translations WITHOUT the French source and evaluates purely on target-language merits:
+If you have the Agent tool, spawn an Opus subagent that acts as a strict target-language grammar and naturalness critic. The subagent reads your translations WITHOUT the French source and evaluates purely on target-language merits:
 
-> **When running as a team teammate you do NOT have the Task tool** (teammates spawned via the Agent tool cannot spawn subagents). In that case, do this pass **manually**: reread each translation ignoring the French source and apply the same checklist below (unnatural phrasing, grammar/agreement, calques, false friends). A careful manual pass is the accepted approach in team mode — do not skip self-review just because you can't spawn the critic.
+> **When running as a team teammate you do NOT have the Agent tool** (teammates spawned via the Agent tool cannot spawn subagents). In that case, do this pass **manually**: reread each translation ignoring the French source and apply the same checklist below (unnatural phrasing, grammar/agreement, calques, false friends). A careful manual pass is the accepted approach in team mode — do not skip self-review just because you can't spawn the critic.
 
 ```
 Prompt: "You are a strict {TARGET_LANGUAGE} grammar and style critic. Read these
@@ -160,20 +160,12 @@ Report issues with file name, the problematic text, and suggested fix."
 
 Read the subagent's findings. For each valid issue:
 1. Edit the translation file to fix it
-2. Add a TR comment documenting the self-correction:
+2. Add a TR comment documenting the self-correction (own line, anchored on the line *after* the text — splice-safe procedure in `.claude/skills/_shared/editing_rules.md` §1):
    ```
    %% YYYY-MM-DDThh:mm:ss TR: Self-review fix: "original" → "fixed" — reason %%
    ```
 
-<!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
-     Evidence: cz-080-082 (CON comments) + cz-083-092 (a TR comment "(bez %%)" in
-     084/1879-01-18) — 2nd instance, met the WATCHLIST-set threshold. -->
-**Never type the literal sequence `%%` inside a `%% … %%` comment** (e.g. don't write
-"(bez %%)" or "the %% wrapper"). The `%%-balance` check no longer counts file-level parity —
-since 8b69323fb it applies the per-line marker rule of `docs/COMMENT_MARKER_RULES.md` (rule 3:
-splice, unclosed block, multi-line block outside fr, trailing closer with no opener), so a
-quoted `%%` inside a one-line comment passes — but it is one careless edit from a real splice.
-Write "značky" / "paragraph-ID wrapper" / "embedded French reference" instead.
+**Never type the literal sequence `%%` inside a comment's prose**, and never write comments through `printf`/`echo` — write "značky" / "paragraph-ID wrapper" and use the Edit tool (`_shared/editing_rules.md` §1).
 
 Skip any suggestions you disagree with — you know Marie's voice and context better than the critic subagent.
 
@@ -218,7 +210,7 @@ Marie Bashkirtseff was:
 |------|--------|--------|
 | Period vocabulary | `LAN: "toilette" - 1870s: dressing process` | Use period-appropriate term in target language |
 | Idiom | `LAN: "avoir beau" = no matter how much...` | Find equivalent in target language, don't translate literally |
-| Code-switching | `LAN: ENGLISH follows - Marie switches to English` | Translate to target language, mark with ==highlight==, footnote original |
+| Code-switching | `LAN: ENGLISH follows - Marie switches to English` | Mark per `content/{lang}/CLAUDE.md` code-switch convention |
 | Marie's quirk | `LAN: SPELLING ERROR: "excelent"` | Usually correct; preserve if emotionally significant |
 | Register marker | `LAN: "homme bien" indicates class` | Choose term conveying same social register |
 | Ambiguous | `LAN: AMBIGUOUS [0.60]: ironic or sincere?` | Use judgment OR escalate if confidence too low |
@@ -234,64 +226,28 @@ Marie Bashkirtseff was:
 
 **Watch for these categories:**
 
-| Category | What it is | Example (Czech) |
-|----------|-----------|-----------------|
-| **Gallicism** | French syntax/construction transplanted | "dělám tisíc hloupostí" (mille bêtises) — exaggeration pattern |
-| **Calque** | Literal translation of a French phrase | "vzít si ženu" (prendre femme = oženit se) |
-| **False friend** | Same-looking word, different meaning | "ceremonie" (CZ = formal ceremony, FR = fuss/okolky) |
-| **Semantic shift** | Translation sounds fine but means something else | "vařila jsem" for "je bouillais" (cooking vs seething) |
+| Category | What it is |
+|----------|-----------|
+| **Gallicism** | French syntax/construction transplanted |
+| **Calque** | Literal translation of a French phrase |
+| **False friend** | Same-looking word, different meaning |
+| **Semantic shift** | Translation sounds fine but means something else |
+
+Concrete examples per language (false friends, calques, register watchlists, word-order tells) are in the "Editor / review traps" section of `content/{lang}/CLAUDE.md`.
 
 **Prevention strategies:**
 - After translating a phrase, ask: "Would a native speaker of my target language ever say this unprompted?"
 - For each French idiom, find the *equivalent idiom* in the target language, not a word-for-word translation
-- Be especially wary of words that exist in both languages but with shifted meanings (costume/kostým, cabinet/kabinet, sympathique/sympatický)
+- Be especially wary of words that exist in both languages but with shifted meanings
 - When French uses *avoir* + noun constructions ("avoir peur", "avoir raison"), translate the *concept*, not the verb + noun
 
-<!-- Teamcouch update 2026-03-05: Formal address inflation.
-     Evidence: 2026-03-05-en-042-047 (3 instances in carnet 046).
-     Pattern: translator adds "dear" to formal kinship address. -->
-**Formal address — do not inflate:**
-- "mon oncle" → "my uncle" (NOT "my dear uncle")
-- "ma tante" → "my aunt" (NOT "my dear aunt")
-- Only add "dear" when the French explicitly uses "cher/chère"
-
 **Add TR comments** when you encounter a significant false friend or calque trap — this helps downstream reviewers understand your choices.
-
-<!-- Teamcouch update 2026-03-11: Register watchlist.
-     Evidence: reports en-048-056, en-057-064, en-065-070, en-093-106, en-091-103
-     (5/5 reports). Pattern: register errors are the #1 RED fix category across
-     all English runs — technically correct words but wrong for Marie's 1880s
-     voice or context. -->
-**Register watchlist — words that are technically correct but wrong for Marie's voice:**
-- "sordid" → prefer "dirty/grubby" (too literary-modern for casual diary speech)
-- "bloody" → prefer "vile/wretched" (British slang register, wrong for 1880s cosmopolitan)
-- "minx" → prefer "imp/little devil" (when describing children — "minx" implies adult sexuality)
-- "chest" → prefer "bosom/breast" (19th-century women's language about their own bodies)
-- "immune to" → prefer "not subject to/not susceptible to" (medical register anachronism)
-- "good God" → prefer "good Lord/good heavens" (Marie's exclamations are dramatic but not profane)
-- Always ask: is this word something a well-bred 1880s young woman would write in her diary?
-
-<!-- Teamcouch update 2026-03-11: French word-order calque warning.
-     Evidence: reports en-065-070, en-093-106, en-091-103 (3/5 reports).
-     Pattern: translators preserve French syntax in English, producing
-     grammatical but unnatural constructions. -->
-**French word-order calques — the #2 issue after register:**
-- "make oneself beautiful only to have..." → "dress up only to have..." (French reflexive calque)
-- "I have often that expression" → "I often wear that expression" (French adverb placement)
-- "she is of a charming amiability" → "she is charmingly amiable" (French nominal construction)
-- "one's arms drop" → "one is left helpless" (French idiom rendered literally)
-- After translating, re-read each sentence and ask: "Would an English speaker structure this sentence this way?"
 
 ### Special Cases
 
 **Foreign Language Passages**
 
-When Marie uses English/Italian/Russian in the French text:
-1. Translate to your target language (unless the passage is already in that language — then keep as-is)
-2. Mark with ==highlight==
-3. Add footnote with original language text
-
-See `content/{lang}/CLAUDE.md` for language-specific handling (e.g., when translating to English, keep Marie's English passages as-is and footnote "*In English in the original*").
+When Marie uses English/Italian/Russian in the French text, follow the code-switch convention of `content/{lang}/CLAUDE.md` exactly (what stays in the running text, what goes into the footnote, whether `==highlight==` is used). The conventions differ by language and one is still awaiting an owner ruling — do not import another language's convention.
 
 **Period Vocabulary (from LAN notes)**
 
@@ -300,10 +256,11 @@ Follow LAN guidance for period-appropriate terms. Common traps:
 - "homme bien" = man of good standing/breeding (NOT "good man")
 - "cabinet" = study/office (NOT furniture/cabinet)
 
-**Always check TranslationMemory** for established translations in your target language.
+**Always check TranslationMemory** for established translations in your target language. Locked terms and `Ruling (…)` entries are binding; items awaiting an owner ruling are left as found and flagged, not normalised (`_shared/editing_rules.md` §5).
 
 **Marie's Errors**
 
+- **Never "fact-correct" Marie**: wrong names, dates, numbers, nationalities or titles stay as she wrote them; a correction goes in a footnote or TR comment (a GEM pass once turned her *société américaine* into „anglické“ — `_shared/editing_rules.md` §3)
 - Spelling errors: Generally correct silently
 - Grammar errors revealing emotional state: Consider preserving with [TR] note
 - Intentional wordplay: Attempt equivalent wordplay in target language, note if impossible
@@ -325,7 +282,7 @@ Read `content/{lang}/CLAUDE.md` for language-specific translation guidance (fals
 These defects are **invisible to a reading review** (the text reads fine) and have repeatedly slipped past RED and CON — caught only by a mechanical link/frontmatter check. Get them right while writing:
 
 1. **Glossary tags: COPY from the source, change ONLY the path depth.** <!-- Teamcouch update 2026-06-10: tr-a in uk-075-077 CONSTRUCTED tags from scratch — wrong category folders (LARDEREI under people/suitors/ not people/mentioned/, PINCIO under people/mentioned/ not places/cities/), invented entities (ACADEMIE_JULIAN), and a tag SET diverging from source → 245 broken links, gate FAIL. The prior "do not copy verbatim" wording (depth lesson) had overcorrected into "construct your own". --> For each paragraph, take the source entry's glossary-tag line(s) verbatim and change ONLY the path prefix: `](../_glossary/…)` → `](../../_original/_glossary/…)`. Do **NOT** infer or guess the category folder (they are NOT predictable — e.g. `people/mentioned/LARDEREI.md`, `places/cities/PINCIO.md`, `people/mentioned/SORRENTO.md`), do **NOT** invent tags for entities the source doesn't tag, and do **NOT** drift back to the short path partway through a carnet (a mid-carnet drift broke 608 links in uk-064; constructing-from-scratch broke 245 in uk-075). The translation's tag set should match the source's exactly, only deeper. Self-check before finalizing: every `](../../_original/_glossary/X/NAME.md)` in your file should have a matching `](../_glossary/X/NAME.md)` in the source entry.
-2. **Preserve YAML frontmatter when overwriting a file.** If you `Write` a "fresh"/continuation entry, you MUST keep the existing frontmatter (date, carnet, language, `translation_complete`, `editor_approved`, `conductor_approved`). Stripping it is silent data loss. Prefer `Edit` over full-file `Write` for entries that already exist. New translation files should include `editor_approved: false` and `conductor_approved: false` so reviewers have the fields to flip (missing `conductor_approved` was a systematic scaffold gap across 3 carnets in cz-056-064).
+2. **Preserve YAML frontmatter when overwriting a file.** If you `Write` a "fresh"/continuation entry, you MUST keep the existing frontmatter (date, carnet, language, `translation_complete`, `editor_approved`, `conductor_approved`). Stripping it is silent data loss. Prefer `Edit` over full-file `Write` for entries that already exist. New translation files get the **lean** frontmatter `just scaffold` writes (`date`, `carnet`, `location`, `language`, `translation_complete`, `opus_reviewed`, `editor_approved`, `conductor_approved`, and `status` while untranslated) — do not copy the original's heavy frontmatter in by hand (older cz/uk files carry it from tooling; preserve what a file already has). Missing flags are a gate FAIL; when you finish an entry, set `translation_complete: true` and remove `status: translation_pending`. Every scaffold `TODO` line must be gone before you set the flag.
 <!-- Teamcouch update 2026-06-10: preserved-French-source-line contamination.
      Evidence: 2026-06-07-cz-056-064.md (5 in 056, 3 in 062, also 057/059/060/064),
      2026-06-10-cz-071-073.md (3 in 071, 6 in 072 incl. one CON caught after RED, 2 in 073) — 11 more.
@@ -333,7 +290,7 @@ These defects are **invisible to a reading review** (the text reads fine) and ha
      (e.g. "en bílém a"→should stay "en blanc et", "à Paříži"→"à Paris"). Latin-script, so the
      verify-carnet latin-in-cyr/foreign-script checks do NOT see it; slips past a reading review. -->
 3. **Never partially translate the preserved French `%%` source lines.** The original-French paragraph line and the RSR/LAN comment lines are source-of-truth — copy them **verbatim**. A copy-paste slip that swaps even one French word for its Czech equivalent (e.g. `en blanc` → `en bílém`, `à Paris` → `à Paříži`) corrupts the source and is **invisible** to `verify-carnet` (it's Latin-script). Self-check: scan every `%% … %%` French/source line for target-language-only diacritics (cz: ě ř ů; uk: і ї є ґ) before finalizing — there should be none except in legitimately-cited foreign words.
-4. **Before finalizing**, run `just verify-carnet {lang} {carnet}` (the single gate: frontmatter + links + glossary path-depth + footnotes + per-line `%%` marker shapes, plus WARN-tier id-alignment, script checks and the footnote-glue sidecar — full list in `docs/VERIFY_CARNET_GATE.md`). It must report **PASS** (0 fail). Do not mark the task complete until it does. **Team mode caveat**: teammates spawned via the Agent tool usually have no Bash, so you cannot run the gate yourself — the team lead runs it pre-RED. In that case do the manual self-checks above (tag-set match, diacritic scan of `%%` lines, footnote linking) and note in your summary that the gate is pending.
+4. **Before finalizing**, run `just verify-carnet {lang} {carnet}` (the single gate: frontmatter + links + glossary path-depth + footnotes + per-line `%%` marker shapes, plus WARN-tier id-alignment, script checks and the footnote-glue sidecar — full list in `docs/VERIFY_CARNET_GATE.md`). It must report **PASS** (0 fail), and `just splicescan {lang} {carnet}` must print nothing. Do not mark the task complete until both hold. If you were spawned without Bash, do the manual self-checks above (tag-set match, diacritic scan of `%%` lines, footnote linking) and say in your summary that the gate is pending — the lead runs it pre-RED.
 
 ## Output Format
 

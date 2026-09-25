@@ -9,6 +9,7 @@ skills/
 ├── CLAUDE.md                      # This file
 │
 ├── _shared/                       # Shared resources across skills
+│   ├── editing_rules.md           # Splice-safe edits, _original as reference, locks, gates, commits
 │   └── paragraph_format.md        # Standard paragraph format spec
 │
 ├── researcher/
@@ -36,11 +37,13 @@ skills/
 ├── opus-editor/
 │   └── SKILL.md                   # Opus language expert review
 ├── fablelous/
-│   └── SKILL.md                   # Fable word-level polish pass (post-CON)
+│   └── SKILL.md                   # Word-level polish pass (post-CON)
 ├── vox/
-│   └── SKILL.md                   # Voice of the Reader — opposing artistic review (Fable)
+│   └── SKILL.md                   # Voice of the Reader — opposing artistic review
 ├── teamcouch/
 │   └── SKILL.md                   # Post-session retrospective
+├── report-triage/
+│   └── SKILL.md                   # Reader bug reports → fixes
 ├── stewardship/
 │   └── SKILL.md                   # Social content generation
 ├── frontend-dev/
@@ -55,7 +58,7 @@ skills/
 
 ## Pipelines
 
-### Pipeline 1: Source Preparation (ACTIVE)
+### Pipeline 1: Source Preparation (COMPLETE — gap-filling only)
 
 Get every original French entry properly researched, annotated, and footnoted before any translation begins. Uses **Agent Teams** for parallel processing.
 
@@ -69,18 +72,23 @@ Get every original French entry properly researched, annotated, and footnoted be
 
 **Status**: Source preparation is COMPLETE for all 107 carnets (000–106). This pipeline is now only needed for gap-filling.
 
-### Pipeline 2: Translation (ACTIVE)
+### Pipeline 2: Translation (ACTIVE) — canonical order
 
-| Order | Role | Code | Model | Purpose |
-|-------|------|------|-------|---------|
-| 1 | Translator (x3) | TR | Opus | French → target language (3 parallel agents) |
-| 2 | Opus Editor (optional) | OPS | Opus | Language expert cross-validation review (no corruption) |
-| 3 | Editor | RED | Opus | Quality review; reviews in near-real-time when OPS is skipped |
-| 4 | Conductor | CON | Opus | Final literary approval |
+This table is the single statement of the pipeline; other files link here.
 
-**Order note**: OPS (when used) runs before or alongside RED; CON is always last. FAB (fablelous) is an optional word-level polish pass that runs after CON. VOX (vox) is an optional opposing review — an adversarial reader-side counterpart to FAB — that also runs post-CON, on files clean in git.
+| Step | Role | Code | Sets flag | Gate after the step (lead runs) |
+|------|------|------|-----------|---------------------------------|
+| 1 | Translator | TR | `translation_complete` | `just verify-carnet {lang} {c}` PASS + `just splicescan {lang} {c}` empty, before RED |
+| 2 | Opus Editor [optional, lead's choice per wave] | OPS | `opus_reviewed` | same gate |
+| 3 | Editor | RED | `editor_approved` | same gate |
+| 4 | Conductor | CON | `conductor_approved` | same gate, **re-run after CON** → lead commits the carnet |
+| 5 | Fablelous [optional, post-CON] | FAB | `redaction_passes` entry | same gate → lead commits |
+| 6 | Vox [optional, post-CON] | VOX | `redaction_passes` entry | same gate → lead commits; runs only on committed files |
 
-**Proven configuration** (Feb 12 runs): 5 persistent agents (3 TR + RED + CON), OPS dispatched as needed. No RSR/LAN needed — source prep complete for all 107 carnets.
+- One writer per carnet at a time: a stage starts only after the previous stage's agent has finished (ED "Translation wave").
+- Workers never commit; the lead commits per carnet with explicit paths after the gate passes (`_shared/editing_rules.md` §6).
+- All roles run on the session's model (Opus 5.5 or Fable — the owner chooses per run); none is pinned to a smaller model.
+- After an edit wave the lead also runs an independent read-only reviewer (ED skill).
 
 ## Support Roles
 
@@ -106,16 +114,12 @@ Get every original French entry properly researched, annotated, and footnoted be
 /project-status cz 001   # Check carnet 001 status
 ```
 
-### Agent Teams (bulk processing)
+### Bulk processing
 ```
-/executive-director 015   # ED creates team for carnet 015
+/executive-director cz 015   # ED runs a translation wave for carnet 015 in cz
 ```
 
-ED will:
-1. Create team "source-015"
-2. Spawn RSR (Opus) and LAN (Opus) teammates
-3. Create tasks with dependency chains for all entries
-4. Monitor, evaluate, report
+ED runs each stage as a background agent per carnet, runs the gates between stages, commits per carnet and writes a run report (see the ED skill). Source-prep teams (RSR+LAN) are only for gap-filling.
 
 ## Skill File Format
 

@@ -1,7 +1,7 @@
 ---
 name: opus-editor
 description: Language expert review for translations in any language. Two-pass review — naturalness-first then semantic accuracy, with direct file editing and no corruption risk. Use after translation, before Conductor.
-allowed-tools: Read, Edit, Write, Grep, Glob
+allowed-tools: Read, Edit, Write, Grep, Glob, Bash
 ---
 
 # Opus Translation Editor
@@ -14,7 +14,7 @@ Works with any target language: Czech (cz), Ukrainian (uk), English (en), French
 
 ## Role note
 
-OPS is the standard review pass. It succeeded the earlier external Gemini reviewer (GEM, retired 2026-07-08), which carried file-corruption and rate-limit problems; older entries still carry GEM comments as historical record. Proven zero corruption and zero false positives across many runs (200+ entries; see WATCHLIST "OPS zero-corruption track record").
+OPS is the review pass the lead adds between TR and RED when a wave wants one (optional; see `.claude/skills/CLAUDE.md` → "Pipeline 2"). It succeeded the earlier external Gemini reviewer (GEM, retired 2026-07-08), which carried file-corruption and rate-limit problems; older entries still carry GEM comments as historical record. Proven zero corruption and zero false positives across many runs (200+ entries; see WATCHLIST "OPS zero-corruption track record").
 
 ## Agent Teams Protocol
 
@@ -68,14 +68,14 @@ Read each translation file **without looking at the French original** (ignore `%
 
 ### Pass 2: Semantic Accuracy (with French source)
 
-Now read the full file including `%% ... %%` comments. Compare the translation against the French original.
+Now compare the translation against the French original in `content/_original/{CARNET}/{date}.md` — the source file, not only the `%% ... %%` copy embedded in the translation, which can be stale or elided (`.claude/skills/_shared/editing_rules.md` §2). If paragraph count or length differs from the source, stop on that entry and report it. Read the embedded comments too (LAN/RSR/TR notes).
 
 **Focus on:**
 
 1. **Semantic shifts** — does the translation capture the actual meaning?
 2. **Mistranslations** — words meaning something different in the target language
 3. **Lost nuances** — irony, social register, emotional tone
-4. **Code-switching** — are foreign language passages properly marked with ==highlight== and footnoted?
+4. **Code-switching** — are Marie's foreign-language passages marked the way `content/{lang}/CLAUDE.md` prescribes?
 5. **Annotation compliance** — did the translator follow LAN guidance?
 
 **Important:** Evaluate each passage independently. Disregard your own Pass 1 fixes — re-evaluate everything from the semantic perspective.
@@ -91,7 +91,8 @@ Now read the full file including `%% ... %%` comments. Compare the translation a
 - **PRESERVE** the French original in comments
 - **ONLY EDIT** the visible translation text (lines without `%%` prefix)
 - **ADD** OPS comments on their **own line** after the translated text, within the paragraph block
-- **NEVER** place OPS comments inline within text. Always on a separate line.
+- **NEVER** place OPS comments inline within text. Always on a separate line — splice-safe procedure in `.claude/skills/_shared/editing_rules.md` §1 (anchor on the line *after* the text; bundle text edit + comment only when `old_string` runs to the end of the line). Run `just splicescan {lang} {carnet}` after each file and `just verify-carnet {lang} {carnet}` before reporting.
+- **NEVER** "fact-correct" Marie or change a TM-locked term; flag pending-ruling items instead of normalising them (§3, §5). Fix a recurring error as a class: grep the carnet and report the count (§4).
 - **NEVER** modify YAML frontmatter (except adding `opus_reviewed: true`)
 - **NEVER** delete or modify existing comments from other roles
 
@@ -111,7 +112,7 @@ Saturday, 11 January 1873. The weather is %% OPS: fix %% magnificent...
 
 ## Language-Specific Guidance
 
-Read `content/{lang}/CLAUDE.md` for your target language — the "Editor / review traps" section lists the concrete watch-list (gallicisms, false friends, grammar pitfalls, script contamination, and for Ukrainian the russianisms checklist). Across all languages: keep Marie's same-language code-switches as-is with `==highlight==` and a footnote noting the original language, and aim for 19th-century sophistication without archaism.
+Read `content/{lang}/CLAUDE.md` for your target language — the "Editor / review traps" section lists the concrete watch-list (gallicisms, false friends, grammar pitfalls, script contamination, and for Ukrainian the russianisms checklist). Across all languages: mark Marie's code-switches as the language's CLAUDE.md prescribes, and aim for 19th-century sophistication without archaism.
 
 ## Comment Format
 

@@ -9,7 +9,7 @@ paragraph_id:
   ordering: per-carnet   # sequence never resets across entries within a carnet
 authors:
   style: codes
-  vocabulary: [RSR, LAN, TR, OPS, RED, CON, ED, FAB, PA, KRR]
+  vocabulary: [RSR, LAN, TR, OPS, RED, CON, ED, FAB, VOX, FRE, REV, PA, KRR]
   retired: [GEM, PPX]
 footnotes:
   pattern: '\d+|\d{2}\.\d{2}\.\d+'

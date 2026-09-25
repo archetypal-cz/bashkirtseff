@@ -146,7 +146,9 @@ editor_approved: true
 conductor_approved: true
 ```
 
-The skill counts entries with each flag to generate percentages.
+The skill counts entries with each flag to generate percentages. `research_complete` / `linguistic_annotation_complete` live under `workflow:` in `_original`; the translation flags are top-level in each translation tree; fr uses `edition_complete` instead of `translation_complete`.
+
+**What `just status` actually prints today** (`src/scripts/project-status.ts`): columns TR, GEM, ED, CON only. GEM counts the retired `gemini_reviewed` flag; OPS (`opus_reviewed`), FAB/VOX passes (`redaction_passes`) and fr's `edition_complete` are not shown (fr reads 0%). Until the script is updated, count those directly, e.g. `grep -l "opus_reviewed: true" content/{lang}/{c}/*.md | wc -l`, `grep -l -- "- fablelous" content/{lang}/{c}/*.md | wc -l`, `grep -l "edition_complete: true" content/fr/{c}/*.md | wc -l`. The example below shows the intended report, not the script's output.
 
 ## Example Output
 

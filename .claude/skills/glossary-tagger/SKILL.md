@@ -1,7 +1,7 @@
 ---
 name: glossary-tagger
 description: Auto-tag diary entries with glossary references using alias matching + AI evaluation. Run on a carnet to scan, evaluate, and apply tags. Handles the full pipeline including team coordination.
-allowed-tools: Agent, Task, Read, Write, Edit, Bash, Grep, Glob, AskUserQuestion, TaskCreate, TaskUpdate, TaskList, TaskGet
+allowed-tools: Agent, Read, Write, Edit, Bash, Grep, Glob, AskUserQuestion, TaskCreate, TaskUpdate, TaskList, TaskGet
 ---
 
 # Glossary Auto-Tagger — Team Pipeline
@@ -231,6 +231,10 @@ Also check for glossary data quality issues flagged by evaluators:
 - Entries miscategorized (e.g., places filed under `people/mentioned/`)
 - Duplicate/stub entries that should be merged
 - Missing aliases for entities that appear frequently
+
+### Step 7: Propagate to the translation trees
+
+The tagger writes source-relative `../_glossary/…` tags into `content/_original` only. Translations need the same tags at `../../_original/_glossary/…` depth. Propagate each new tag with `just propagate-tag --target {category}/{ID}.md --display {Display}` (dry run first, then `--apply`), which is additive and localises the path. Keep the scope explicit: run it only for the tags this run added. The script has no carnet filter — it covers every source paragraph carrying the tag — so read the dry run and confirm the changes fall in the carnets you expect before `--apply`. Never "union all tags on the touched paragraphs" — that once ballooned into a repo-wide rewrite. Afterwards, `just check-links {lang} {carnet}` must report 0 broken links in every tree. Details: `docs/GLOSSARY_LINK_MAINTENANCE.md`.
 
 ## Grouping Strategy
 

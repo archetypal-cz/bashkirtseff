@@ -1,7 +1,7 @@
 ---
 name: editor
 description: Review translations for quality, naturalness, and accuracy. Catch lost nuances, literal translations, and unnatural phrasing. Use after translation phase to ensure quality before conductor review.
-allowed-tools: Read, Edit, Write, Grep, Glob
+allowed-tools: Read, Edit, Write, Grep, Glob, Bash
 ---
 
 # Editor
@@ -83,8 +83,7 @@ Is this still Marie speaking?
 
 ### Step 4: Technical Verification
 
-- [ ] Foreign phrases marked with ==highlight==?
-- [ ] Footnotes for language attribution present?
+- [ ] Marie's code-switches marked as `content/{lang}/CLAUDE.md` prescribes (text + footnote convention)?
 - [ ] Paragraph IDs sequential and correct?
 - [ ] All LAN recommendations followed (check LAN comments)?
 - [ ] TranslationMemory terms used consistently?
@@ -110,7 +109,8 @@ Is this still Marie speaking?
      2026-08-08 fablelous wave (elided/contaminated embeds), 2026-09-05-integrity-audit (cz/018, en/091,
      en/102, cz/011, cz/014 approved against a stale or condensed embedded French); propagation:
      2026-05-31-glossary-link-cleanup, 2026-06-17 footnote backfill, 2026-09-05-cz-002-106 (095), 2026-09-07 (Collignon→es). -->
-- [ ] **Coverage checked against `content/_original/{carnet}/`, not only the `%%` French in the file.** The embedded copy can be stale, elided or a different text, and then every reading review approves a half-missing entry. Open the source file for any entry whose length, paragraph count or date heading looks off, and for every entry in a carnet flagged by `check-footnote-glue` or id-alignment.
+- [ ] **Coverage checked against `content/_original/{carnet}/`, not only the `%%` French in the file.** The embedded copy can be stale, elided or a different text, and then every reading review approves a half-missing entry. Open the source file for any entry whose length, paragraph count or date heading looks off, and for every entry in a carnet flagged by `check-footnote-glue` or id-alignment. Placeholder or missing source French: never invent, flag and report (`.claude/skills/_shared/editing_rules.md` §2).
+- [ ] **Marie is not "fact-corrected"** — her names, dates, numbers and nationalities stand as she wrote them; corrections go in a footnote or comment (§3). **TM-locked terms are not changed**; pending-ruling items are flagged, not normalised (§5).
 - [ ] **A correction to a source fact (footnote text, glossary claim, a name) is applied to `_original` and every translation tree that carries it, in the same commit** — or handed to the lead with the file list. Fixing one language leaves the others wrong, and `sync` will not carry a definition change to a note the target already holds.
 - [ ] **Glossary-tag fidelity spot-check:** for a few entries, compare the translation's glossary-tag lines against the source entry's — the tag SET must match exactly (only the path depth differs). Translators have invented tags, renamed entities, and dropped source tags in ways that still *resolve* and so pass the gate (uk-075-077, cz-080-082); a spot-check against source is currently the only guard.
 
@@ -119,7 +119,7 @@ Is this still Marie speaking?
 | LAN Type | Verify |
 |----------|--------|
 | Period vocabulary | Translator used correct 1870s meaning, not modern |
-| Code-switching (English/Italian/Russian) | Marked with ==highlight==, footnote with original |
+| Code-switching (English/Italian/Russian) | Marked per `content/{lang}/CLAUDE.md` |
 | Idioms | Target language equivalent found, NOT literal translation |
 | Register markers | Social class implications preserved |
 | Marie's quirks | Handled appropriately (corrected/preserved per context) |
@@ -127,7 +127,7 @@ Is this still Marie speaking?
 
 **Common LAN compliance failures**:
 - "toilette" translated with modern meaning (bathroom/toilet) instead of 1870s meaning (outfit/dress)
-- Code-switching passages left unhighlighted
+- Code-switching passages left unmarked
 - Class markers lost ("homme bien" losing social distinction)
 - Idioms translated literally instead of finding target language equivalent
 
@@ -175,25 +175,9 @@ Write RED comments directly to translation files. Use timestamped format:
 
 Place RED comments after the translated text within the paragraph block (before the empty line separating blocks).
 
-<!-- Teamcouch update 2026-07-02: splice defect recurred DESPITE the grep scan (agents
-     skipped it) — 4 introduced splices in cz-fluidity-105-106 + 1 in uk-fluidity-000-105-106,
-     prior: cz-056-064, cz-080-082. Scan upgraded to the awk stranded-text check (catches
-     every variant) and tied to the finalize step. -->
-**RED comments go on their OWN line — never spliced into a body line.** When you `Edit` a fix into a long single-line paragraph, the inserted comment can land mid-paragraph (matching a sentence fragment) and split readable text, stranding the rest of the paragraph after the closing `%%` where the renderer silently drops it — a defect that has recurred across waves (cz-056-064, cz-080-082, cz/uk-fluidity 2026-07-02) even with warnings in the brief. **End-of-review scan (mandatory, before you report)** — run the stranded-text check over every file you touched and rejoin anything it flags:
+**RED comments go on their OWN line — never spliced into a body line.** Canonical procedure: `.claude/skills/_shared/editing_rules.md` §1 (anchor comment insertions on the line *after* the text; bundle a text edit with a comment only when `old_string` runs to the real end of the line; never type a literal double-percent in comment prose; never write comments via `printf`). Splices recurred across waves (cz-056-064, cz-080-082, cz/uk-fluidity 2026-07-02) even with warnings in the brief. **Before you report (mandatory):** `just splicescan {lang} {carnet}` prints nothing and `just check-comments {lang}` is clean for your tree. No Bash? Say so in your report — the lead runs them.
 
-```bash
-awk '/^%%/ { n=length($0); idx=0; for(i=1;i<=n-1;i++){ if(substr($0,i,2)=="%%") idx=i }
-  rest=substr($0,idx+2); if (idx>1 && rest ~ /[^ \t]/) print FILENAME": "FNR }' content/{lang}/{carnet}/*.md
-```
-
-<!-- Teamcouch update 2026-08-14: gate tooling added after the 2026-08-13 repo-wide cleanup
-     (202 splices + 3,715 leaked block lines, comment dates spanning 8+ waves Feb-Jun 2026).
-     Evidence: 2026-08-13-report-triage-099.md + cz-056-064 + cz-080-082. -->
-Also run the repo gate — it catches every structure family (splices, multi-line blocks, stray markers), not just the awk pattern: `just check-comments {lang}` must come back clean for your tree before you report.
-
-<!-- Teamcouch update 2026-06-13: never type a literal %% inside comment prose.
-     Evidence: cz-080-082 (CON comments) + cz-083-092 (a TR comment) — recurring across roles. -->
-**Never type the literal sequence `%%` inside a RED comment** (e.g. "the %% wrapper"). Since 8b69323fb the gate no longer counts file-level `%%` parity — it checks the per-line marker shapes of `docs/COMMENT_MARKER_RULES.md` rule 3 (a comment followed by prose on the same line, a block unclosed at EOF, a multi-line block outside fr, a trailing closer with no opener) — so a quoted `%%` inside a one-line comment no longer fails on its own. It still produces a shape that a later edit or a `printf` can turn into a real splice, and the frontend drops the line — write "značky"/"paragraph-ID wrapper" instead.
+**Fix the class, not the instance** (§4): when you fix a recurring error, grep the carnet for the rest of the family and report the count. A changelog that claims a defect class done after fixing one instance is how the rest escaped CON.
 
 ## Common Issues Checklist
 
@@ -201,17 +185,17 @@ Also run the repo gate — it catches every structure family (splices, multi-lin
 
 **This is the #1 category of issues found in review.** Prioritize catching these:
 
-| Category | What to look for | Example |
-|----------|-----------------|---------|
-| **Gallicism** | French syntax that's grammatically valid but unnatural | "jsou oddělení" (sont séparés → žijí odděleně) |
-| **Calque** | Literal translation of French phrase | "bít nohou" (battre du pied → dupat/podupávat) |
-| **False friend** | Same word, different meaning in target language | "ceremonie" (FR = fuss → CZ = okolky, NOT formal ceremony) |
-| **Semantic shift** | Sounds fine but means something different | "zimnice" (fever/disease) for "frisson" (shiver of emotion) |
-| **Self-confirming** | Previous fixes that introduced new problems | A GEM fix that resolved one issue but created another calque |
+| Category | What to look for |
+|----------|-----------------|
+| **Gallicism** | French syntax that's grammatically valid but unnatural |
+| **Calque** | Literal translation of a French phrase |
+| **False friend** | Same word, different meaning in target language |
+| **Semantic shift** | Sounds fine but means something different |
+| **Self-confirming** | Previous fixes that introduced new problems (e.g. a GEM fix that resolved one issue but created another calque) |
 
 **Testing technique:** Read each sentence in isolation, without looking at the French. Does it sound like something a native speaker would write? If it sounds "technically correct but odd" — it's likely a calque.
 
-**Common traps by language:** see the "Editor / review traps" section of `content/{lang}/CLAUDE.md` for the curated per-language list (e.g. Czech clitic placement and avoir/faire calques, Ukrainian russianisms and case government, English false friends like "sympathetic"/"actually").
+**Examples, by language:** see the "Editor / review traps" section of `content/{lang}/CLAUDE.md` for the curated per-language list (e.g. Czech clitic placement and avoir/faire calques, Ukrainian russianisms and case government, English false friends like "sympathetic"/"actually").
 
 ### Other Literal Translation Traps
 - "faire" constructions translated word-for-word
@@ -226,7 +210,7 @@ Also run the repo gate — it catches every structure family (splices, multi-lin
 - Emotional intensity muted
 
 ### Technical Misses
-- Foreign passages not highlighted
+- Foreign passages not marked per the language convention
 - Footnotes missing or incomplete
 - LAN recommendations ignored
 - TM terms inconsistent

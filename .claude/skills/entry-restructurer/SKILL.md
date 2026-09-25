@@ -1,7 +1,7 @@
 ---
 name: entry-restructurer
 description: Restructure Marie Bashkirtseff diary entries with proper frontmatter and paragraph clustering. Use when original entries need format standardization.
-allowed-tools: Read, Edit, Write, Grep, Glob
+allowed-tools: Read, Edit, Write, Grep, Glob, Bash
 ---
 
 # Entry Restructurer
@@ -257,6 +257,6 @@ just verify-carnet {lang} {carnet}     # Full mechanical gate (for translation t
 ## Important Notes
 
 1. **Preserve all content**: Never delete text, annotations, or footnotes - only reorganize them
-2. **Maintain paragraph numbering**: If the file already has paragraph IDs, preserve them (don't renumber)
+2. **Never renumber paragraph IDs**: existing IDs are shared by all five translation trees, reader reports and footnote IDs, so they are preserved exactly. If a structural fix seems to need a new or shifted ID (e.g. a date heading without its own ID), stop and report it to the lead instead of renumbering
 3. **Location determination**: Check previous entries if location unclear
 4. **Carnet number from path**: `/001/` = carnet 001, `/000/` = carnet 000 (preface), etc.
