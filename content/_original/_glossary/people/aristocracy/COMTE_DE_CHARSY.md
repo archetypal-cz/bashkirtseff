@@ -31,7 +31,7 @@ French count in Nice social circle. Friend of Marie's father. Marie uncertain of
 - Socializes at the fashionable Détroit
 
 ## Related Entries
-- [#Papa](../family/PAPA.md) - Friend
+- [#Grand_papa](../family/GRAND_PAPA.md) - Friend (Marie's "papa" in 1873–1875 = her grandfather Stepan Babanine)
 - [#Promenade_des_Anglais](../../places/cities/PROMENADE_DES_ANGLAIS.md) - Social venue
 
 ## Research Notes

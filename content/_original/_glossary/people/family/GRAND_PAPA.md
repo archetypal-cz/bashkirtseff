@@ -6,20 +6,24 @@ aliases:
   - Marie's Maternal Grandfather
   - Grand-papa
   - Grand Papa
+  - Stepan Babanine
+  - Papa
 type: Person
 category: people/family
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-09-26
 ---
 # Grand-papa (Marie's Maternal Grandfather)
 
 **Research Status**: Comprehensive
-**Last Updated**: 2025-12-07
-**Diary Coverage**: Up to 1884-05-02
+**Last Updated**: 2026-09-26
+**Diary Coverage**: 1873–1876 as "papa" / "grand-papa" (Nice household); 1884 preface
+
+> **Alias note — "Papa".** In the 1873–1875 Nice diary Marie's bare "papa" is this man, not her father Constantin (who is "mon père"; see [#Papa](PAPA.md)). Tag bare "papa" in 1873–1875 as #Grand_papa. Exceptions: 013.0085, 013.0093, 013.0109 (Constantin's visit to Nice, Nov 1873); "Papa (rigolo)" = M. Paparigopoulos at Spa (021.0143–022.0289); "le papa" 012.0189 = the Pope; "danser le grand-papa" (017.0253) = a dance. From 1876 (carnets 065 onward, in Poltava) "Papa" means Constantin again. Ruling of 2026-09-26: `.claude/reports/papa-referent-2026-09-26.md`.
 
 ## Identity
 
-Marie's maternal grandfather, head of the Babanine family. He was a cultured Russian nobleman, poet, military officer, and intellectual who served in the Caucasus and was a contemporary of the great Russian Romantic poets Lermontov and Pushkin.
+Marie's maternal grandfather, **Stepan Babanine** (1807–1878), head of the Babanine family. Per Kernberger (2013) glossary: "Babanine, Stepan: Marie's grandfather (1807-1878), addressed as 'Papa'". He was a cultured Russian nobleman, poet, military officer, and intellectual who served in the Caucasus and was a contemporary of the great Russian Romantic poets Lermontov and Pushkin.
 
 ## Background and Character
 
@@ -143,6 +147,24 @@ Before Baden-Baden, the family stayed in Vienna for a month: "A Vienne, on resta
 
 For the Byronic intellectual who had spent his life in the Caucasus and Ukrainian estates, this European cultural immersion must have been a profound experience.
 
+## "Papa" in the Nice household (1873–1875)
+
+The whole household, his daughter (Marie's mother) included, called him Papa, and Marie does the same. The evidence (details in the ruling report):
+
+- **Age**: "papa est encore fort et jeune pour soixante-quatre ans" (007.0015, 1873-07-14), which fits Stepan, not Constantin (then 40).
+- **Name day**: "Nous rencontrons papa, c'est son jour de nom" (015.0071, 8 Jan 1874 = 27 Dec O.S., St Stephen's day); Kernberger (2013) renders it "Grandpapa's name day".
+- **Blindness**: "c'est un vieillard aveugle" (010.0007–0009); "on y a logé papa, presque aveugle, Trifon qui lui est nécessaire" (024.0219). Kernberger's glossary lists "Golezowsky: Papa's ophthalmologist".
+- **His valet Trifon**: "Trifon (valet de chambre de papa)" (011.0453); the 1887 edition and Blind (1890) print "domestique de grand-papa" / "grandpapa's servant". The 1887 edition also prints "grand-papa" for Marie's "papa" in 011.0168.
+- **Youth and estate**: stories of his youth and "les régiments" (018.0228); "les grandeurs passées de Tcherniakovka" (018.0231); he meets his old friend Norov after forty years (019.0014).
+- **His will**: "grand-papa me parle de son testament … papa va donner des traites à maman" (006.0171–0172).
+- **Marie's own words**: "sous la protection de papa, il me répugne de le nommer papa" (025.0185), about the grandfather who shelters Makaroff.
+
+### Anecdotes (moved from PAPA.md, 2026-09-26)
+
+- **Vienna tobacco** (1873-08-13, 008.0021): at the Vienna World Exhibition the family finds "le tabac de papa" in the Russian section; "*Sacha* lui a fait une surprise en exposant". Sacha is Uncle Alexandre Babanine; Marie hopes the tobacco will win a medal.
+- **Amour-propre** (1873-09-01, 008.0345): after Makaroff's outburst, "notre Makaroff … a fait des excuses à papa mais celui-ci *monte sur ses grands chevaux, amour-propre* etc."
+- **Tyranny at table**: frequent quarrels with maman, Marie and Collignon; the Hamilton and Lady Hamilton stories he tells "comme toujours" (015.0050, 016.0329); his dog Renard (018.0138).
+
 ## Diary References
 
 ### 1874
@@ -164,3 +186,4 @@ For the Byronic intellectual who had spent his life in the Caucasus and Ukrainia
 - [#Poltava](../../places/cities/POLTAVA.md) - Family estates location
 
 %% 2025-12-07T14:35:00 RSR: Completely rewrote entry based on 1884 preface. Previous entry incorrectly identified "grand-papa" as a dance (which does exist in the 1874 entries, but is unrelated to this person). This entry is about Marie's maternal grandfather, a Byronic intellectual and family patriarch. %%
+%% 2026-09-26T01:20:00 RSR: Papa ruling (.claude/reports/papa-referent-2026-09-26.md): added aliases "Stepan Babanine" and "Papa", the 1873–1875 "papa" usage section with evidence, and the Vienna-tobacco and amour-propre anecdotes moved from PAPA.md. Identity and dates per Kernberger (2013) glossary; 1887 Fasquelle edition and Mathilde Blind (1890) readings as cited in the report. ~70 #Papa tags in 002–043 retagged to #Grand_papa the same day. %%

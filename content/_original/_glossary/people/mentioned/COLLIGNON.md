@@ -131,7 +131,6 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - [#Anglican_Church](../../culture/history/ANGLICAN_CHURCH.md) — Collignon took Marie to Anglican services
 - [#Grand_Hotel](../../places/hotels/GRAND_HOTEL.md) — Where Collignon's former lover was staying
 - [#Rickard](./RICKARD.md) — English acquaintance with whom Marie walked while Collignon chaperoned
-- [#Papa](../family/PAPA.md) — Had "former feelings" for Collignon
 - [#Grand_papa](../family/GRAND_PAPA.md) — The "malheureuse affaire" with Collignon
 ## Key Paragraph References
 

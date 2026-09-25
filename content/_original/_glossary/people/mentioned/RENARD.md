@@ -30,7 +30,7 @@ Papa's beloved pet animal (likely a dog).
 - Papa's emotional attachment described as life-threatening
 
 ## Related Entries
-- [#Papa](../family/PAPA.md) - Owner
+- [#Grand_papa](../family/GRAND_PAPA.md) - Owner (Marie's "papa" in 1873–1875 = her grandfather Stepan Babanine)
 - [#Stiopa](STIOPA.md) - Finder
 
 ## Research Notes

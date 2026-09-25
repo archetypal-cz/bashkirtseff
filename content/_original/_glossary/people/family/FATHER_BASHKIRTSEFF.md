@@ -15,7 +15,7 @@ last_updated: 2026-02-11
 
 ## Basic Information
 
-Constantine Bashkirtseff (1833-1883) was Marie Bashkirtseff's father, a Russian nobleman and landowner from the Poltava region of Ukraine. Marie refers to him as "Papa" in her diary. He separated from Marie's mother in 1861.
+Constantine Bashkirtseff (1833-1883) was Marie Bashkirtseff's father, a Russian nobleman and landowner from the Poltava region of Ukraine. Marie refers to him as "Papa" from 1876 on; in the 1873–1875 Nice diary her bare "papa" is her maternal grandfather Stepan Babanine (see [#Grand_papa](GRAND_PAPA.md)), and Constantin is "mon père". He separated from Marie's mother in 1861.
 
 ## Family Background
 
@@ -47,3 +47,4 @@ Marie reflected upon the often troubled relations between them and regretted not
 - [#Gavronzi](../../places/residences/GAVRONZI.md) - The Bashkirtseff family estate
 
 %% 2026-02-11T12:30:00 RSR: Per Kernberger (2013), Constantine Bashkirtseff (1833-1883) was Marie's father, separated from her mother. He died at Gavronzi on June 11, 1883. Enriched from stub with biographical data from Kernberger's glossary and chronology. %%
+%% 2026-09-26T01:35:00 RSR: Papa ruling 2026-09-26 (.claude/reports/papa-referent-2026-09-26.md): 1873–1875 "papa" = grandfather Stepan Babanine; only 013.0085/0093/0109 (Nov 1873 Nice visit) use "Papa" for Constantin in that period. Per Kernberger (2013) glossary. %%
