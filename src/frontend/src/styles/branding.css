@@ -70,12 +70,52 @@
 /* ============================================================================
    2. TYPOGRAPHY — font stacks for the three registers
    ============================================================================
-   Self-hosted variable faces (fontsource; @font-face internals live in the
-   fontsource packages imported in BaseLayout.astro — intentionally NOT here).
+   Body face: "Literata Book", self-hosted from the upstream google/fonts
+   variable TTFs (OFL, public/fonts/Literata-OFL.txt), subset with
+   `pyftsubset --layout-features='*'` into latin and cyrillic woff2 files in
+   src/assets/fonts/. Unlike the Google-Fonts-API build that fontsource ships,
+   these keep onum (old-style figures), smcp/c2sc (true small caps, Czech and
+   Cyrillic included), the ⁂ asterism and the opsz axis, so the
+   oldstyle-nums / all-small-caps CSS below renders real glyphs. (Neither build
+   has ❦ or U+202F; those fall back per glyph.)
+   Display/UI faces stay on fontsource (imported in BaseLayout.astro).
    Fallbacks keep Cyrillic readable (Georgia covers it) if a face fails. */
+@font-face {
+  font-family: 'Literata Book';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('../assets/fonts/literata-latin.woff2') format('woff2');
+  unicode-range: U+0000-024F, U+0259, U+0300-036F, U+1E00-1EFF, U+2000-206F, U+2070-209F, U+20A0-20CF, U+2100-214F, U+2190-21FF, U+2212, U+2215, U+25CA, U+FB00-FB06;
+}
+@font-face {
+  font-family: 'Literata Book';
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('../assets/fonts/literata-cyrillic.woff2') format('woff2');
+  unicode-range: U+0400-052F, U+1C80-1C8F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F, U+02BC, U+2116;
+}
+@font-face {
+  font-family: 'Literata Book';
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('../assets/fonts/literata-italic-latin.woff2') format('woff2');
+  unicode-range: U+0000-024F, U+0259, U+0300-036F, U+1E00-1EFF, U+2000-206F, U+2070-209F, U+20A0-20CF, U+2100-214F, U+2190-21FF, U+2212, U+2215, U+25CA, U+FB00-FB06;
+}
+@font-face {
+  font-family: 'Literata Book';
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url('../assets/fonts/literata-italic-cyrillic.woff2') format('woff2');
+  unicode-range: U+0400-052F, U+1C80-1C8F, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F, U+02BC, U+2116;
+}
+
 :root {
-  --brand-font-serif: 'Literata Variable', 'Crimson Pro', Georgia, 'Times New Roman', serif;   /* body */
-  --brand-font-display: 'Old Standard TT', 'Literata Variable', Georgia, serif;                  /* display: title, dates, headings — 19th-c. academic face (KRR 2026-07-02) */
+  --brand-font-serif: 'Literata Book', Georgia, 'Times New Roman', serif;                  /* body */
+  --brand-font-display: 'Old Standard TT', 'Literata Book', Georgia, serif;                /* display: title, dates, headings — 19th-c. academic face (KRR 2026-07-02) */
   --brand-font-sans: 'Inter Variable', 'Inter', system-ui, sans-serif;                           /* UI chrome, footnotes */
 
   /* Convenience aliases consumed directly by components via var(--font-*).
@@ -155,6 +195,8 @@
   --text-secondary: var(--brand-ink-light);
   --text-muted: var(--brand-muted);
   --border-color: rgba(var(--brand-ink-rgb), 0.1);
+  /* Raised/hovered surfaces in components (menus, calendar cells, buttons). */
+  --surface-hover: #EBD9C4;
 
   --accent: var(--brand-accent);
   /* Hover/emphasis variant of accent-as-TEXT. In light themes hover DARKENS
@@ -182,6 +224,7 @@
   --text-secondary: var(--brand-ink-light);
   --text-muted: #5C5650;   /* A11y WS-A: was #6B5D52 — 4.5:1 on sepia bg2 */
   --border-color: rgba(var(--brand-ink-rgb), 0.15);
+  --surface-hover: #E3CBA6;
 
   --accent: var(--brand-accent);
   --ornament: var(--brand-bordeaux);
@@ -194,16 +237,21 @@
   --bg-primary: #171310;     /* warm near-black */
   --bg-secondary: #211B16;
   --bg-ink-deep: #0E0B09;    /* CTA ground, darker than bg-primary */
-  --text-primary: #E8E0D3;   /* warm off-white */
-  --text-secondary: #BFB3A2;
-  --text-muted: #A89B89;     /* ~8:1 on bg-primary */
+  --text-primary: #DCD2C2;   /* warm off-white, 12.3:1 — was #E8E0D3 (14.1:1), softened against halation on OLED */
+  --text-secondary: #BFB3A2; /* 9.0:1 */
+  --text-muted: #A89B89;     /* 6.8:1 on bg-primary */
   --border-color: rgba(232, 224, 211, 0.10);
+  /* Components' dark surfaces used to be neutral greys (#1a1a1a, #252525,
+     #333…) that sat colder than the candlelight ground; they now use
+     --bg-primary / --bg-secondary and this hover step. */
+  --surface-hover: #2B231D;
 
   --accent: #E08E2B;         /* brightened amber for contrast on dark grounds */
   --accent-light: #F0A952;   /* hover text — brighter still (9.2:1 on bg) */
   --accent-fill: #B45309;    /* button fill under white text (5.0:1) — the historical brand amber */
   --accent-fill-hover: #92400E;
-  --ornament: #B05A5E;       /* lifted oxblood for dark */
+  --ornament: #C06A6E;       /* lifted oxblood for dark, 4.9:1 (was #B05A5E, 3.9:1) */
+  --ornament-end-opacity: 0.7; /* the ⁂ at 0.5 was ~1.9:1, effectively invisible */
   --selection-bg: rgba(224, 142, 43, 0.30);
 }
 

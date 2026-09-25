@@ -1,11 +1,11 @@
 ---
-// Self-hosted fonts (fontsource) — no runtime Google Fonts request.
-// Literata Variable: body face, ships latin + latin-ext + cyrillic(+ext) subsets,
-//   downloaded on demand per unicode-range (Cyrillic only fetched on /uk/).
+// Self-hosted fonts — no runtime Google Fonts request.
+// Literata Book: body face, full-feature upstream build (old-style figures,
+//   small caps, ⁂, optical sizes) declared in branding.css §2; latin and
+//   cyrillic files are fetched per unicode-range (Cyrillic only on /uk/).
 // Old Standard TT: the global display face (site title, dates, headings) —
 //   19th-c. academic typeface with excellent Cyrillic.
-import '@fontsource-variable/literata/index.css';        // normal, all subsets
-import '@fontsource-variable/literata/wght-italic.css';  // italic (Marie uses it heavily)
+import literataLatinUrl from '../assets/fonts/literata-latin.woff2?url';
 import '@fontsource/old-standard-tt/index.css';           // display, normal (all subsets)
 import '@fontsource/old-standard-tt/700.css';             // display bold
 import '@fontsource-variable/inter/index.css';            // UI sans (latin/ext + cyrillic)
@@ -15,6 +15,7 @@ import '@fontsource-variable/cormorant/index.css';        // riviera display (li
 import '../styles/global.css';
 import { pwaInfo } from 'virtual:pwa-info';
 import { withTrailingSlash } from '../lib/url';
+import { createT, contentPathToLocale, type SupportedLocale } from '../i18n/astro';
 
 interface Props {
   title?: string;
@@ -34,6 +35,13 @@ interface Props {
    * see the real content language rather than the reader's chrome locale.
    */
   lockLang?: boolean;
+  /**
+   * UI (chrome) locale this page is rendered in. Written to
+   * `<html data-ui-locale>` so islands and the I18nPatch script know which
+   * language the server HTML is already in. Defaults to the locale implied by
+   * `lang` (cs for anything unsupported).
+   */
+  uiLocale?: SupportedLocale;
   /** hreflang alternates (href is a site-relative path; made absolute below). */
   alternates?: { hreflang: string; href: string }[];
   article?: {
@@ -52,9 +60,12 @@ const {
   canonicalUrl,
   noindex = false,
   lockLang = false,
+  uiLocale = contentPathToLocale(lang),
   alternates,
   article,
 } = Astro.props;
+
+const t = createT(uiLocale);
 
 // Umami analytics (cookie-free, privacy-respecting)
 const umamiUrl = import.meta.env.PUBLIC_UMAMI_URL;
@@ -78,7 +89,7 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
 ---
 
 <!DOCTYPE html>
-<html lang={lang} data-lock-lang={lockLang ? '' : undefined}>
+<html lang={lang} data-ui-locale={uiLocale} data-lock-lang={lockLang ? '' : undefined}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -120,8 +131,9 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={fullImageUrl} />
 
-    <!-- Fonts are self-hosted (fontsource), imported in the layout frontmatter.
-         No third-party font request at runtime. -->
+    <!-- Fonts are self-hosted (branding.css + fontsource), no third-party font
+         request at runtime. Preload the body face every page opens with. -->
+    <link rel="preload" href={literataLatinUrl} as="font" type="font/woff2" crossorigin />
 
     <!-- PWA -->
     {/* vite-pwa emits the manifest link tag (correct href + crossorigin) via pwaInfo */}
@@ -200,8 +212,9 @@ const resolvedAlternates = (alternates ?? []).map(a => ({
   </head>
   <body class="min-h-screen flex flex-col">
     <!-- A11y (WS-B/B1): first focusable element; visually hidden until focused.
-         Czech default text is re-translated client-side via data-t (I18nPatch). -->
-    <a href="#main" class="skip-link" data-t="a11y.skipToContent">Přeskočit na obsah</a>
+         Rendered in the page's UI locale; a differing stored preference is
+         applied client-side via data-t (I18nPatch). -->
+    <a href="#main" class="skip-link" data-t="a11y.skipToContent">{t('a11y.skipToContent')}</a>
     <slot />
 
     <!-- Offline toast: appears when connection is lost on an already-loaded page -->
