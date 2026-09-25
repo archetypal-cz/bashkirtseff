@@ -116,12 +116,12 @@ describe('Locale to Content Path Mapping', () => {
       for (const locale of SUPPORTED_LOCALES) {
         const href = getTranslationHref(locale);
         const contentPath = localeToContentPath(locale);
-        expect([`/${contentPath}`, '/original']).toContain(href);
+        expect([`/${contentPath}/`, '/original/']).toContain(href);
       }
     });
 
     it('routes Spanish to the French original while es is staged', () => {
-      expect(getTranslationHref('es')).toBe('/original');
+      expect(getTranslationHref('es')).toBe('/original/');
     });
   });
 

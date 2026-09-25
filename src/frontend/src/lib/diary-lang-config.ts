@@ -19,6 +19,7 @@
  */
 
 import type { SupportedLocale } from '../i18n/index';
+import { withTrailingSlash } from './url';
 
 export interface DiaryLanguageConfig {
   /** URL path segment: 'cz', 'original', 'en', 'uk', 'fr', 'es' */
@@ -146,14 +147,14 @@ export function buildHreflangAlternates(
     if (!available.includes(cfg.urlPath)) continue;
     out.push({
       hreflang: hreflangFor(cfg.urlPath),
-      href: `/${cfg.urlPath}${suffix}`,
+      href: withTrailingSlash(`/${cfg.urlPath}${suffix}`),
     });
   }
 
   // x-default -> the French original (the source text, neutral entry point),
   // but only if it is among the available variants.
   if (available.includes('original')) {
-    out.push({ hreflang: 'x-default', href: `/original${suffix}` });
+    out.push({ hreflang: 'x-default', href: withTrailingSlash(`/original${suffix}`) });
   }
 
   return out;
@@ -173,14 +174,14 @@ export function findDiaryLang(urlPath: string): DiaryLanguageConfig | undefined 
   return DIARY_LANGUAGES.find(l => l.urlPath === urlPath);
 }
 
-/** Build a URL path for this language: /{urlPath}/{rest} */
+/** Build a URL path for this language: /{urlPath}/{rest}/ */
 export function diaryUrl(lang: DiaryLanguageConfig, ...segments: string[]): string {
-  return `/${lang.urlPath}/${segments.join('/')}`;
+  return withTrailingSlash(`/${lang.urlPath}/${segments.join('/')}`);
 }
 
-/** Build a glossary URL: /{urlPath}/glossary/{id} */
+/** Build a glossary URL: /{urlPath}/glossary/{id}/ */
 export function glossaryUrl(lang: DiaryLanguageConfig, id: string): string {
-  return `/${lang.urlPath}/glossary/${id}`;
+  return `/${lang.urlPath}/glossary/${id}/`;
 }
 
 /** Convert a location or entity name to a glossary-compatible ID */

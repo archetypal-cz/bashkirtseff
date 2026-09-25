@@ -14,6 +14,7 @@ import '@fontsource-variable/inter/index.css';            // UI sans (latin/ext 
 import '@fontsource-variable/cormorant/index.css';        // riviera display (light garamond, cyrillic)
 import '../styles/global.css';
 import { pwaInfo } from 'virtual:pwa-info';
+import { withTrailingSlash } from '../lib/url';
 
 interface Props {
   title?: string;
@@ -67,10 +68,12 @@ const siteName = 'Diary of Marie Bashkirtseff';
 const fullImageUrl = image.startsWith('http') ? image : `${siteUrl}${image}`;
 const fullCanonicalUrl = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
 
-// hreflang alternates: resolve site-relative hrefs to absolute URLs.
+// hreflang alternates: resolve site-relative hrefs to absolute URLs. Targets
+// must be the final (canonical, slash-terminated) URL — Google ignores
+// alternates that redirect.
 const resolvedAlternates = (alternates ?? []).map(a => ({
   hreflang: a.hreflang,
-  href: a.href.startsWith('http') ? a.href : new URL(a.href, siteUrl).href,
+  href: withTrailingSlash(a.href.startsWith('http') ? a.href : new URL(a.href, siteUrl).href),
 }));
 ---
 

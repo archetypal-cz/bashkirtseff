@@ -4,6 +4,7 @@ import FilterOverlay from '../../components/filter/FilterOverlay.vue';
 import { getCarnets } from '../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../lib/diary-lang-config';
 import { createT } from '../../i18n/astro';
+import { withTrailingSlash } from '../../lib/url';
 
 // Only generate for translation languages (flat carnet list is a translation feature)
 export function getStaticPaths() {
@@ -52,7 +53,7 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
-      <a href={basePath} class="hover:text-accent">{t('diary.diary')}</a>
+      <a href={withTrailingSlash(basePath)} class="hover:text-accent">{t('diary.diary')}</a>
       <span class="mx-2">&rsaquo;</span>
       <span class="text-ink">{t('diary.allNotebooks')}</span>
     </nav>
@@ -90,7 +91,7 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
     <div class="grid gap-4">
       {allCarnets.map(carnet => (
         <a
-          href={carnet.hasTranslation ? `${basePath}/${carnet.id}` : `/original/${carnet.id}`}
+          href={carnet.hasTranslation ? `${basePath}/${carnet.id}/` : `/original/${carnet.id}/`}
           data-filter-carnet={carnet.id}
           class={`block p-4 rounded-lg border transition-all ${
             carnet.hasTranslation
@@ -154,7 +155,7 @@ const totalTranslated = allCarnets.reduce((sum, c) => sum + c.translatedEntries,
 
     <!-- Back link -->
     <div class="mt-8 pt-8 border-t border-ink/10">
-      <a href={basePath} class="text-accent hover:text-accent-light transition-colors">
+      <a href={withTrailingSlash(basePath)} class="text-accent hover:text-accent-light transition-colors">
         &larr; {t('diary.allNotebooks')}
       </a>
     </div>

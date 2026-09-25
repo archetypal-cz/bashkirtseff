@@ -5,6 +5,7 @@ import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
 import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages } from '../../../lib/content';
 import { DIARY_LANGUAGES, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
+import { withTrailingSlash } from '../../../lib/url';
 
 export function getStaticPaths() {
   const paths: { params: { lang: string; carnet: string; entry: string }; props: { lang: DiaryLanguageConfig } }[] = [];
@@ -85,17 +86,46 @@ if (firstParaIsDateHeading && processedParagraphs[0]?.html) {
 }
 const showSrOnlyHeading = !showDateHeading && !firstParaIsDateHeading;
 
-// Generate description from first paragraph (strip HTML and truncate).
+// Page <title> date. `entry.title` is the first line of the file, which for the
+// first entry of a carnet is the carnet heading ("Sešit č. 1" / "Notebook No. 1"),
+// not the date. Keep an authored date line (it carries the weekday in the
+// target language) only when it actually contains the entry's year; otherwise
+// format the date from the entry id.
+const entryYear = entryDate!.slice(0, 4);
+const titleDate = titlePlain.replace(/^#+\s*/, '');
+const titleIsDateLine = titleDate.includes(entryYear) && titleDate.length <= 60 &&
+  !/^\d{4}-\d{2}-\d{2}/.test(titleDate); // bare entry id = no authored title
+const formattedDate = entry.date?.toLocaleDateString(lang.dateLocale, {
+  weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
+});
+const pageDate = entry.date && !titleIsDateLine && formattedDate
+  ? formattedDate.charAt(0).toLocaleUpperCase(lang.dateLocale) + formattedDate.slice(1)
+  : titleDate || entryDate!;
+
+// Generate description from the first real text paragraph (strip HTML and
+// truncate) — not paragraph 0, which is usually the date/carnet heading and
+// made the description a repeat of the title.
 // NB: the `+ '...'` must live INSIDE the ternary — `expr + '...' || ''` parses
 // as `(expr + '...') || ''`, so an empty entry produced the literal
 // "undefined..." (truthy). Empty/untranslated entries now get a clean prefix.
-const rawFirst = entry.paragraphs[0]?.html?.replace(/<[^>]*>/g, '').trim();
-const firstParagraphText = rawFirst ? `${rawFirst.slice(0, 160).trim()}…` : '';
-// Localized "Diary entry from {date} in Carnet {carnet}." prefix.
+const plainParagraphs = entry.paragraphs.map(p => ({
+  isHeading: /<h[1-6][\s>]/.test(p.html ?? ''),
+  text: (p.html ?? '').replace(/<sup\b[^>]*>.*?<\/sup>/g, '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim(),
+}));
+const descCandidates = plainParagraphs.filter(p =>
+  !p.isHeading && p.text.length > 0 && p.text !== 'TODO' &&
+  !(titleDate.length > 0 && p.text.startsWith(titleDate) && p.text.length <= titleDate.length + 2),
+);
+// Prefer a sentence-length paragraph over a stray label line ("Carnet N° 1").
+const rawFirst = (descCandidates.find(p => p.text.length >= 25) ?? descCandidates[0])?.text;
+const firstParagraphText = rawFirst
+  ? (rawFirst.length > 160 ? `${rawFirst.slice(0, 160).trim()}…` : rawFirst)
+  : '';
+// Localized "Diary entry — {date} (Notebook {carnet})." prefix.
 // The /original/ (French source) uses the French label; translations use t().
 const entryDescPrefix = lang.isTranslation
-  ? t('diary.entryDescription', { title: entry.title ?? '', carnet: carnet! })
-  : `Journal — entrée du ${entry.title} (carnet ${carnet}).`;
+  ? t('diary.entryDescription', { title: pageDate, carnet: carnet! })
+  : `Journal — ${pageDate} (carnet ${carnet}).`;
 const pageDescription = `${entryDescPrefix} ${firstParagraphText}`.trim();
 
 // hreflang alternates: reuse the availability the entry already computed for the
@@ -112,7 +142,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 ---
 
 <ReadingLayout
-  title={`${entry.title} — ${t('diary.notebook')} ${carnet}`}
+  title={`${pageDate} — ${t('diary.notebook')} ${carnet} — Marie Bashkirtseff`}
   description={pageDescription}
   lang={lang.urlPath}
   type="article"
@@ -150,7 +180,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   <article class="max-w-3xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
-      <a href={`/${lang.urlPath}`} class="hover:text-accent">
+      <a href={withTrailingSlash(`/${lang.urlPath}`)} class="hover:text-accent">
         {lang.isTranslation ? (
           <span data-t="diary.diary">{diaryLabel}</span>
         ) : (
@@ -158,7 +188,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         )}
       </a>
       <span class="mx-2">&rsaquo;</span>
-      <a href={`/${lang.urlPath}/${carnet}`} class="hover:text-accent"><span data-t="diary.notebook">{t('diary.notebook')}</span> {carnet}</a>
+      <a href={withTrailingSlash(`/${lang.urlPath}/${carnet}`)} class="hover:text-accent"><span data-t="diary.notebook">{t('diary.notebook')}</span> {carnet}</a>
       <span class="mx-2">&rsaquo;</span>
       <span class="text-ink">{entryDate}</span>
     </nav>
@@ -179,7 +209,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         <nav class="flex items-center gap-3 text-sm" aria-label={t('a11y.entryNavCompact')}>
           {nav.prev ? (
             <a
-              href={`/${lang.urlPath}/${carnet}/${nav.prev}`}
+              href={withTrailingSlash(`/${lang.urlPath}/${carnet}/${nav.prev}`)}
               class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
               title={t('diary.previousEntry')}
               data-track-nav="prev"
@@ -196,12 +226,12 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
               </svg>
             </span>
           )}
-          <a href={`/${lang.urlPath}/${carnet}`} class="text-muted hover:text-ink transition-colors" title={t('diary.carnetOverview')}>
+          <a href={withTrailingSlash(`/${lang.urlPath}/${carnet}`)} class="text-muted hover:text-ink transition-colors" title={t('diary.carnetOverview')}>
             <span data-t="diary.notebook">{t('diary.notebook')}</span> {carnet}
           </a>
           {nav.next ? (
             <a
-              href={`/${lang.urlPath}/${carnet}/${nav.next}`}
+              href={withTrailingSlash(`/${lang.urlPath}/${carnet}/${nav.next}`)}
               class="flex items-center gap-1 text-muted hover:text-accent transition-colors"
               title={t('diary.nextEntry')}
               data-track-nav="next"
@@ -268,7 +298,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center" aria-label={t('a11y.entryNav')}>
       {nav.prev ? (
         <a
-          href={`/${lang.urlPath}/${carnet}/${nav.prev}`}
+          href={withTrailingSlash(`/${lang.urlPath}/${carnet}/${nav.prev}`)}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
           data-track-nav="prev"
         >
@@ -281,13 +311,13 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         <div />
       )}
 
-      <a href={`/${lang.urlPath}/${carnet}`} class="text-muted hover:text-ink transition-colors" data-t="diary.carnetOverview">
+      <a href={withTrailingSlash(`/${lang.urlPath}/${carnet}`)} class="text-muted hover:text-ink transition-colors" data-t="diary.carnetOverview">
         {t('diary.carnetOverview')}
       </a>
 
       {nav.next ? (
         <a
-          href={`/${lang.urlPath}/${carnet}/${nav.next}`}
+          href={withTrailingSlash(`/${lang.urlPath}/${carnet}/${nav.next}`)}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
           data-track-nav="next"
         >
@@ -363,7 +393,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
                 carnet: data.carnet,
                 entryDate: data.entryDate,
                 language: data.language,
-                url: `/${data.language}/${data.carnet}/${data.entryDate}#p-${paragraphId.replace('.', '-')}`,
+                url: `/${data.language}/${data.carnet}/${data.entryDate}/#p-${paragraphId.replace('.', '-')}`,
               },
             }));
           }

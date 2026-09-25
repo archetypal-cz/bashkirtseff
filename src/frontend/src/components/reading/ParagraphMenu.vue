@@ -198,7 +198,7 @@ onMounted(() => {
                 class="glossary-row"
               >
                 <a
-                  :href="language ? `/${language}/glossary/${tag.id}` : `/glossary/${tag.id}`"
+                  :href="language ? `/${language}/glossary/${tag.id}/` : `/original/glossary/${tag.id}/`"
                   class="menu-item glossary-link"
                   :class="`category-${tag.category || 'default'}`"
                   @click="trackEvent('glossary_tag_click', { tagId: tag.id, tagName: tag.name, source: 'menu' }); closeMenu()"

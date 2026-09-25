@@ -663,7 +663,7 @@ onUnmounted(() => {
                     <a
                       v-for="(entry, index) in filteredEntries"
                       :key="entry.date"
-                      :href="`${sidebarBasePath}/${sidebarData.carnet}/${entry.date}`"
+                      :href="`${sidebarBasePath}/${sidebarData.carnet}/${entry.date}/`"
                       class="contents-entry"
                       :class="{ 'is-current': entry.date === sidebarData.currentEntry }"
                       :aria-current="entry.date === sidebarData.currentEntry ? 'page' : undefined"
@@ -675,7 +675,7 @@ onUnmounted(() => {
                   </nav>
                   <!-- Footer -->
                   <div class="contents-footer">
-                    <a :href="`${sidebarBasePath}/${sidebarData.carnet}`" class="back-link">
+                    <a :href="`${sidebarBasePath}/${sidebarData.carnet}/`" class="back-link">
                       ← {{ t('sidebar.backToCarnet') }}
                     </a>
                   </div>

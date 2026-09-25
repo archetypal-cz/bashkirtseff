@@ -98,7 +98,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
   localStorage.setItem('filter-tags', JSON.stringify({ [filterCategory]: [entryId] }));
   window.dispatchEvent(new CustomEvent('filter-sync'));
   const langPath = props.glossaryBasePath.split('/glossary')[0] || '/cz';
-  window.location.href = langPath;
+  window.location.href = `${langPath}/`;
 }
 </script>
 
@@ -168,7 +168,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
                   <a
                     v-for="entry in sub.entries"
                     :key="entry.id"
-                    :href="`${glossaryBasePath}/${entry.id}`"
+                    :href="`${glossaryBasePath}/${entry.id}/`"
                     class="entry-item"
                   >
                     <div class="entry-row">

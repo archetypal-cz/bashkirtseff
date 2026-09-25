@@ -66,8 +66,8 @@ function updateCurrentParagraph() {
 function getLanguageUrl(lang: string): string {
   const langPrefix = lang === '_original' ? '/original' : `/${lang}`;
   const basePath = props.entryDate
-    ? `${langPrefix}/${props.carnet}/${props.entryDate}`
-    : `${langPrefix}/${props.carnet}`;
+    ? `${langPrefix}/${props.carnet}/${props.entryDate}/`
+    : `${langPrefix}/${props.carnet}/`;
 
   // Add paragraph hash if we have one
   if (currentParagraphId.value) {
@@ -139,7 +139,7 @@ onUnmounted(() => {
       <!-- Unavailable: greyed out, links to /about -->
       <a
         v-else
-        href="/about"
+        href="/about/"
         class="lang-unavailable"
         :title="t('language.unavailable')"
         :aria-label="getTitle(lang) + ' — ' + t('language.unavailable')"

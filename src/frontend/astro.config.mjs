@@ -23,6 +23,7 @@ function getGitCommitHash() {
 // so without this the deployed filter index is whatever was last committed —
 // glossary tags added since then filter to 0 entries ("Show in diary" bug).
 // Failures are non-fatal: the committed index is still served.
+/** @returns {import('astro').AstroIntegration} */
 function filterIndexIntegration() {
   return {
     name: 'bashkirtseff:filter-index',
@@ -51,6 +52,7 @@ function filterIndexIntegration() {
 // whatever a developer last committed and nobody's download was ever flagged
 // stale. Build-only — `astro dev` has nothing to invalidate, and rewriting the
 // hash on every dev start would dirty a committed file. Non-fatal on failure.
+/** @returns {import('astro').AstroIntegration} */
 function offlineManifestIntegration() {
   return {
     name: 'bashkirtseff:offline-manifest',
@@ -84,16 +86,18 @@ export default defineConfig({
 
   redirects: {
     // Legacy redirects from old 2-digit to new 3-digit carnet URLs
-    '/original/00': '/original/000',
-    '/original/00/preface': '/original/000',
-    '/cz/00': '/cz/000',
-    '/cz/00/preface': '/cz/000',
-    '/original/01': '/original/001',
-    '/original/02': '/original/002',
-    '/cz/01': '/cz/001',
-    '/cz/02': '/cz/002',
+    // (Targets end in `/`: the pages are directories, so a slash-less target
+    // costs one more server redirect.)
+    '/original/00': '/original/000/',
+    '/original/00/preface': '/original/000/',
+    '/cz/00': '/cz/000/',
+    '/cz/00/preface': '/cz/000/',
+    '/original/01': '/original/001/',
+    '/original/02': '/original/002/',
+    '/cz/01': '/cz/001/',
+    '/cz/02': '/cz/002/',
     // Redirect bare /glossary/ to /original/glossary/
-    '/glossary': '/original/glossary',
+    '/glossary': '/original/glossary/',
   },
 
   build: {
@@ -125,13 +129,14 @@ export default defineConfig({
     // sitemap. Pure-redirect routes (Astro.redirect, e.g. bare /glossary/:id)
     // emit no HTML in a static build and are already absent — but the
     // language-detection JS stubs (/ , /about, /marie) DO emit noindex HTML, as
-    // do /offline (PWA fallback) and /404 (error page). Exclude them explicitly
-    // so the sitemap only advertises real, indexable content.
+    // do /offline (PWA fallback), /404 (error page) and /admin (noindex
+    // dashboard). Exclude them explicitly so the sitemap only advertises real,
+    // indexable content.
     sitemap({
       filter: (page) => {
         // `page` is the absolute URL string, e.g. https://bashkirtseff.org/about/
         const path = new URL(page).pathname.replace(/\/$/, '');
-        const excluded = ['', '/about', '/marie', '/privacy', '/offline', '/404'];
+        const excluded = ['', '/about', '/marie', '/privacy', '/offline', '/404', '/admin'];
         return !excluded.includes(path);
       },
     }),
@@ -140,6 +145,7 @@ export default defineConfig({
       base: '/',
       scope: '/',
       includeAssets: ['favicon.svg'],
+      includeManifestIcons: false,
       registerType: 'autoUpdate',
       manifest: {
         name: 'Marie Bashkirtseff — The Complete Diary',
@@ -168,6 +174,11 @@ export default defineConfig({
         // setCatchHandler if we want it back.
         navigateFallback: null,
         globPatterns: ['**/*.{css,js,svg,png,ico,txt,woff,woff2}'],
+        // Keep the 512px PWA icons out of the precache (~280 KB that every
+        // installing visitor would download); the browser fetches manifest
+        // icons itself when it needs them. includeManifestIcons: false below
+        // stops vite-pwa from adding them back.
+        globIgnores: ['**/node_modules/**/*', 'icons/icon-512.png', 'icons/icon-maskable-512.png'],
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,

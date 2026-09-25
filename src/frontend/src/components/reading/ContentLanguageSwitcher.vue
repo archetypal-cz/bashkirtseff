@@ -83,7 +83,7 @@ function getTitle(lang: string): string {
       <!-- Unavailable: greyed out -->
       <a
         v-else
-        href="/about"
+        href="/about/"
         class="lang-unavailable"
         :title="t('language.unavailable')"
         :aria-label="getTitle(lang) + ' — ' + t('language.unavailable')"

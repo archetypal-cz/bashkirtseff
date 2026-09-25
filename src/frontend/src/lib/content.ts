@@ -552,7 +552,7 @@ function processTextToHtml(text: string, lang: string = 'original'): { html: str
           // Absolute, lang-prefixed glossary URL (audit issue L4). A relative
           // `../glossary/{id}` resolves wrong under directory-format entry URLs
           // like `/cz/001/1873-01-11/` (→ `/cz/001/glossary/{id}`, a 404).
-          return `<a href="/${glossaryPrefix}/glossary/${glossaryId}" class="text-accent hover:text-accent-light underline">${linkText}</a>`;
+          return `<a href="/${glossaryPrefix}/glossary/${glossaryId}/" class="text-accent hover:text-accent-light underline">${linkText}</a>`;
         }
         return linkText;
       }

@@ -129,7 +129,7 @@ function handleKeydown(event: KeyboardEvent) {
     event.preventDefault();
     const entry = filteredEntries.value[selectedIndex.value];
     if (entry) {
-      window.location.href = `${props.basePath}/${entry.id}`;
+      window.location.href = `${props.basePath}/${entry.id}/`;
     }
   } else if (event.key === 'Escape') {
     isOpen.value = false;
@@ -202,7 +202,7 @@ function getIconColor(category?: string): string {
           <a
             v-for="(entry, index) in filteredEntries"
             :key="entry.id"
-            :href="`${basePath}/${entry.id}`"
+            :href="`${basePath}/${entry.id}/`"
             class="result-item"
             :class="{ 'is-selected': index === selectedIndex }"
           >

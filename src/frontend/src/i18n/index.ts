@@ -4,6 +4,7 @@ import fr from './locales/fr.json';
 import en from './locales/en.json';
 import uk from './locales/uk.json';
 import es from './locales/es.json';
+import { withTrailingSlash } from '../lib/url';
 
 export type SupportedLocale = 'cs' | 'fr' | 'en' | 'uk' | 'es';
 
@@ -150,11 +151,11 @@ export function getTranslationHref(locale: SupportedLocale, currentPath?: string
   if (currentPath) {
     const match = currentPath.match(/^\/(cz|original|en|uk|fr|es)(\/.*)?$/);
     if (match && match[2] && !match[2].startsWith('/glossary')) {
-      return `${base}${truncateSuffixToCarnet(match[2])}`;
+      return withTrailingSlash(`${base}${truncateSuffixToCarnet(match[2])}`);
     }
   }
 
-  return base;
+  return `${base}/`;
 }
 
 /**
@@ -189,10 +190,10 @@ export function getOriginalHref(currentPath?: string): string {
     if (match && match[2] && !match[2].startsWith('/glossary')) {
       // Original exists for every entry, but truncating to the carnet keeps
       // parity with getTranslationHref and avoids surprises on section ids.
-      return `/original${truncateSuffixToCarnet(match[2])}`;
+      return withTrailingSlash(`/original${truncateSuffixToCarnet(match[2])}`);
     }
   }
-  return '/original';
+  return '/original/';
 }
 
 /**
@@ -207,10 +208,10 @@ export function glossaryHref(currentPath?: string): string {
   if (currentPath) {
     const match = currentPath.match(/^\/(cz|original|en|uk|fr|es)(\/|$)/);
     if (match) {
-      return `/${match[1]}/glossary`;
+      return `/${match[1]}/glossary/`;
     }
   }
-  return '/original/glossary';
+  return '/original/glossary/';
 }
 
 /**
@@ -221,7 +222,7 @@ export function glossaryHref(currentPath?: string): string {
  */
 export function pageHref(page: 'about' | 'marie' | 'privacy', locale: SupportedLocale): string {
   const loc = SUPPORTED_LOCALES.includes(locale) ? locale : 'cs';
-  return `/${loc}/${page}`;
+  return `/${loc}/${page}/`;
 }
 
 // Composable for use in Vue components

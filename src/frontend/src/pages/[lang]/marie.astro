@@ -2,6 +2,7 @@
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
 import { createT, localeToContentPath, type SupportedLocale } from '../../i18n/astro';
 import { findDiaryLang } from '../../lib/diary-lang-config';
+import { withTrailingSlash } from '../../lib/url';
 
 export function getStaticPaths() {
   return [
@@ -43,12 +44,21 @@ const contentPath = findDiaryLang(langContentPath) ? langContentPath : 'original
 
       <!-- Portrait -->
       <figure class="float-right ml-6 mb-4 w-48 md:w-64">
-        <img
-          src="/images/marie/self-portrait.jpg"
-          alt={t('marie.selfPortraitAlt')}
-          class="rounded-lg shadow-md"
-          loading="lazy"
-        />
+        <picture>
+          <source type="image/avif" srcset="/images/marie/self-portrait-256w.avif 256w, /images/marie/self-portrait-466w.avif 466w" sizes="(min-width: 768px) 256px, 192px" />
+          <source type="image/webp" srcset="/images/marie/self-portrait-256w.webp 256w, /images/marie/self-portrait-466w.webp 466w" sizes="(min-width: 768px) 256px, 192px" />
+          <img
+            src="/images/marie/self-portrait-466w.jpg"
+            srcset="/images/marie/self-portrait-256w.jpg 256w, /images/marie/self-portrait-466w.jpg 466w"
+            sizes="(min-width: 768px) 256px, 192px"
+            width="466"
+            height="600"
+            alt={t('marie.selfPortraitAlt')}
+            class="rounded-lg shadow-md"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <figcaption class="text-xs text-muted mt-2 text-center">
           {t('marie.selfPortraitCaption')}
         </figcaption>
@@ -82,23 +92,41 @@ const contentPath = findDiaryLang(langContentPath) ? langContentPath : 'original
       <div class="grid grid-cols-2 gap-4 my-8">
         <figure>
           <a href="https://www.musee-orsay.fr/en/artworks/un-meeting-54" target="_blank" rel="noopener">
-            <img
-              src="/images/marie/the-meeting.jpg"
-              alt={t('marie.meetingAlt')}
-              class="rounded shadow-sm hover:shadow-md transition-shadow"
-              loading="lazy"
-            />
+            <picture>
+              <source type="image/avif" srcset="/images/marie/the-meeting-480w.avif 480w, /images/marie/the-meeting-960w.avif 960w" sizes="(min-width: 800px) 376px, calc(50vw - 24px)" />
+              <source type="image/webp" srcset="/images/marie/the-meeting-480w.webp 480w, /images/marie/the-meeting-960w.webp 960w" sizes="(min-width: 800px) 376px, calc(50vw - 24px)" />
+              <img
+                src="/images/marie/the-meeting-960w.jpg"
+                srcset="/images/marie/the-meeting-480w.jpg 480w, /images/marie/the-meeting-960w.jpg 960w"
+                sizes="(min-width: 800px) 376px, calc(50vw - 24px)"
+                width="960"
+                height="1101"
+                alt={t('marie.meetingAlt')}
+                class="rounded shadow-sm hover:shadow-md transition-shadow"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </a>
           <figcaption class="text-xs text-muted mt-2">{t('marie.meetingCaption')}</figcaption>
         </figure>
         <figure>
           <a href="https://artvee.com/dl/in-the-studio-3/" target="_blank" rel="noopener">
-            <img
-              src="/images/marie/in-the-studio.jpg"
-              alt={t('marie.studioAlt')}
-              class="rounded shadow-sm hover:shadow-md transition-shadow"
-              loading="lazy"
-            />
+            <picture>
+              <source type="image/avif" srcset="/images/marie/in-the-studio-480w.avif 480w, /images/marie/in-the-studio-960w.avif 960w" sizes="(min-width: 800px) 376px, calc(50vw - 24px)" />
+              <source type="image/webp" srcset="/images/marie/in-the-studio-480w.webp 480w, /images/marie/in-the-studio-960w.webp 960w" sizes="(min-width: 800px) 376px, calc(50vw - 24px)" />
+              <img
+                src="/images/marie/in-the-studio-960w.jpg"
+                srcset="/images/marie/in-the-studio-480w.jpg 480w, /images/marie/in-the-studio-960w.jpg 960w"
+                sizes="(min-width: 800px) 376px, calc(50vw - 24px)"
+                width="960"
+                height="787"
+                alt={t('marie.studioAlt')}
+                class="rounded shadow-sm hover:shadow-md transition-shadow"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
           </a>
           <figcaption class="text-xs text-muted mt-2">{t('marie.studioCaption')}</figcaption>
         </figure>
@@ -184,10 +212,10 @@ const contentPath = findDiaryLang(langContentPath) ? langContentPath : 'original
     </div>
 
     <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between" aria-label={t('a11y.pageNav')}>
-      <a href={`/${lang}/about`} class="text-muted hover:text-ink transition-colors">
+      <a href={withTrailingSlash(`/${lang}/about`)} class="text-muted hover:text-ink transition-colors">
         ← {t('marie.aboutProject')}
       </a>
-      <a href={`/${contentPath}`} class="text-muted hover:text-ink transition-colors">
+      <a href={withTrailingSlash(`/${contentPath}`)} class="text-muted hover:text-ink transition-colors">
         {t('marie.readDiary')} →
       </a>
     </nav>

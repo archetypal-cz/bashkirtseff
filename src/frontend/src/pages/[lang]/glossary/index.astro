@@ -5,6 +5,7 @@ import GlossarySearch from '../../../components/glossary/GlossarySearch.vue';
 import GlossaryCategoryBrowser from '../../../components/glossary/GlossaryCategoryBrowser.vue';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
+import { withTrailingSlash } from '../../../lib/url';
 
 export function getStaticPaths() {
   return DIARY_LANGUAGES.map(lang => ({
@@ -76,7 +77,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   <div class="max-w-4xl mx-auto">
     <header class="summary-card rounded-lg p-5 mb-8">
       <nav class="mb-4 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
-        <a href={`/${lang.urlPath}`} class="hover:text-accent">{diaryLabel}</a>
+        <a href={withTrailingSlash(`/${lang.urlPath}`)} class="hover:text-accent">{diaryLabel}</a>
         <span class="mx-2">&rsaquo;</span>
         <span class="text-ink">{t('glossary.title')}</span>
       </nav>
@@ -114,7 +115,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     <div class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-2">
       {letterCounts.map(({ letter, count }) => (
         <a
-          href={`${basePath}/${letter.toLowerCase()}`}
+          href={withTrailingSlash(`${basePath}/${letter.toLowerCase()}`)}
           class="group block p-2 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow transition-all text-center"
         >
           <span class="text-xl font-normal text-ink group-hover:text-accent transition-colors" style="font-family: var(--font-serif);">

@@ -14,7 +14,7 @@
       var saved;
       try { saved = localStorage.getItem('ui-language'); } catch(e) {}
       if (saved && ['cs', 'fr', 'en', 'uk', 'es'].indexOf(saved) !== -1) {
-        window.location.replace('/home/' + saved);
+        window.location.replace('/home/' + saved + '/');
         return;
       }
       var browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
@@ -28,7 +28,7 @@
           break;
         }
       }
-      window.location.replace('/home/' + targetLang);
+      window.location.replace('/home/' + targetLang + '/');
     })();
   </script>
   <noscript>

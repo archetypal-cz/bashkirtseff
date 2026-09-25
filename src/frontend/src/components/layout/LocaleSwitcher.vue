@@ -74,11 +74,11 @@ function selectLocale(newLocale: SupportedLocale) {
   if (homeMatch) {
     window.location.href = `/home/${newLocale}/`;
   } else if (aboutMatch) {
-    window.location.href = `/${newLocale}/about`;
+    window.location.href = `/${newLocale}/about/`;
   } else if (marieMatch) {
-    window.location.href = `/${newLocale}/marie`;
+    window.location.href = `/${newLocale}/marie/`;
   } else if (privacyMatch) {
-    window.location.href = `/${newLocale}/privacy`;
+    window.location.href = `/${newLocale}/privacy/`;
   } else {
     // For other pages, reload to apply client-side locale change
     window.location.reload();

@@ -13,7 +13,7 @@
       var saved;
       try { saved = localStorage.getItem('ui-language'); } catch(e) {}
       if (saved && ['cs', 'fr', 'en', 'uk', 'es'].indexOf(saved) !== -1) {
-        window.location.replace('/' + saved + '/about');
+        window.location.replace('/' + saved + '/about/');
         return;
       }
       var browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
@@ -27,7 +27,7 @@
           break;
         }
       }
-      window.location.replace('/' + targetLang + '/about');
+      window.location.replace('/' + targetLang + '/about/');
     })();
   </script>
   <noscript>

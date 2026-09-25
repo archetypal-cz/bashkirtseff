@@ -104,7 +104,7 @@ function linkifyTextChunk(text: string, urlPath: string, contentPath: string): s
   return text.replace(REF_PATTERN, (match, carnet: string, para: string) => {
     const entryId = resolveParagraphRef(carnet, parseInt(para, 10));
     if (!entryId || !entryExists(contentPath, carnet, entryId)) return match;
-    const href = `/${urlPath}/${carnet}/${entryId}#p-${carnet}-${para}`;
+    const href = `/${urlPath}/${carnet}/${entryId}/#p-${carnet}-${para}`;
     return `<a href="${href}" class="para-ref">${match}</a>`;
   });
 }

@@ -124,7 +124,7 @@ const entryLink = computed(() => {
   const usePath = !previewIsOriginal.value && diaryBase.value !== 'original'
     ? `/${diaryBase.value}`
     : '/original';
-  return `${usePath}/${entry.carnet}/${entry.date}`;
+  return `${usePath}/${entry.carnet}/${entry.date}/`;
 });
 
 // "Read full entry" leads to the French original rather than this language.

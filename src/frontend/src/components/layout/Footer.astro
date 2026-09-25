@@ -12,9 +12,9 @@ const t = locale ? createT(locale) : defaultT;
 // Localized chrome-page links (M3). about/marie/privacy live at /{uiLocale}/{page}
 // (cs/en/fr/uk). Default to 'cs' when no locale is passed.
 const pageLocale: SupportedLocale = locale ?? 'cs';
-const marieHref = `/${pageLocale}/marie`;
-const aboutHref = `/${pageLocale}/about`;
-const privacyHref = `/${pageLocale}/privacy`;
+const marieHref = `/${pageLocale}/marie/`;
+const aboutHref = `/${pageLocale}/about/`;
+const privacyHref = `/${pageLocale}/privacy/`;
 
 const currentYear = new Date().getFullYear();
 

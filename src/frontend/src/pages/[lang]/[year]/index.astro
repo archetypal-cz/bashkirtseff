@@ -7,6 +7,7 @@ import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getYears, getCarnetsByYear, getYearInfo, getYearSummary, isCarnetCrossYear } from '../../../lib/content';
 import { DIARY_LANGUAGES, glossaryUrl, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
+import { withTrailingSlash } from '../../../lib/url';
 
 export function getStaticPaths() {
   const paths: { params: { lang: string; year: string }; props: { lang: DiaryLanguageConfig } }[] = [];
@@ -120,7 +121,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
-      <a href={basePath} class="hover:text-accent">
+      <a href={withTrailingSlash(basePath)} class="hover:text-accent">
         {lang.isTranslation ? (
           <span data-t="diary.diary">{diaryLabel}</span>
         ) : (
@@ -267,14 +268,14 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
     <!-- Year Navigation -->
     <nav class="flex justify-between items-center mb-8 text-sm" aria-label={t('a11y.yearNavCompact')}>
       {prevYear ? (
-        <a href={`${basePath}/${prevYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+        <a href={withTrailingSlash(`${basePath}/${prevYear.year}`)} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
           {prevYear.year}
         </a>
       ) : <span />}
-      <a href={basePath} class="text-muted hover:text-ink transition-colors flex items-center gap-1">
+      <a href={withTrailingSlash(basePath)} class="text-muted hover:text-ink transition-colors flex items-center gap-1">
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
         </svg>
@@ -288,7 +289,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
         </svg>
       </a>
       {nextYear ? (
-        <a href={`${basePath}/${nextYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+        <a href={withTrailingSlash(`${basePath}/${nextYear.year}`)} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
           {nextYear.year}
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -303,7 +304,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
     <div class="masonry-carnets">
       {carnetsWithStatus.map(carnet => (
         <a
-          href={`${basePath}/${carnet.id}`}
+          href={withTrailingSlash(`${basePath}/${carnet.id}`)}
           data-filter-carnet={carnet.id}
           class={`block p-4 rounded-lg border transition-all ${
             lang.isTranslation && !isCurrentComplete && carnet.translatedCount === 0
@@ -359,14 +360,14 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
     <!-- Bottom navigation (mirrors top nav) -->
     <nav class="mt-8 pt-8 border-t border-ink/10 flex justify-between items-center text-sm" aria-label={t('a11y.yearNav')}>
       {prevYear ? (
-        <a href={`${basePath}/${prevYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+        <a href={withTrailingSlash(`${basePath}/${prevYear.year}`)} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
           {prevYear.year}
         </a>
       ) : <span />}
-      <a href={basePath} class="text-muted hover:text-ink transition-colors flex items-center gap-1">
+      <a href={withTrailingSlash(basePath)} class="text-muted hover:text-ink transition-colors flex items-center gap-1">
         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
         </svg>
@@ -380,7 +381,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
         </svg>
       </a>
       {nextYear ? (
-        <a href={`${basePath}/${nextYear.year}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+        <a href={withTrailingSlash(`${basePath}/${nextYear.year}`)} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
           {nextYear.year}
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />

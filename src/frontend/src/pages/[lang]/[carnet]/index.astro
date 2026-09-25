@@ -8,6 +8,7 @@ import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getCarnets, getCarnetEntries, getEntry, hasTranslation, isCarnetCrossYear, getCarnetSummary, getEntryPreview } from '../../../lib/content';
 import { DIARY_LANGUAGES, glossaryUrl, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
+import { withTrailingSlash } from '../../../lib/url';
 
 export function getStaticPaths() {
   const paths: { params: { lang: string; carnet: string }; props: { lang: DiaryLanguageConfig } }[] = [];
@@ -186,7 +187,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
   <div class="max-w-4xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-8 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
-      <a href={basePath} class="hover:text-accent">
+      <a href={withTrailingSlash(basePath)} class="hover:text-accent">
         {lang.isTranslation ? (
           <span data-t="diary.diary">{diaryLabel}</span>
         ) : (
@@ -196,7 +197,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
       <span class="mx-2">&rsaquo;</span>
       {primaryYear ? (
         <>
-          <a href={`${basePath}/${primaryYear}`} class="hover:text-accent">{primaryYear}</a>
+          <a href={withTrailingSlash(`${basePath}/${primaryYear}`)} class="hover:text-accent">{primaryYear}</a>
           <span class="mx-2">&rsaquo;</span>
         </>
       ) : null}
@@ -212,7 +213,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
             {/* Prev/next carnet navigation in header */}
             <nav class="flex justify-between items-center mb-3 text-sm" aria-label={t('a11y.carnetNavCompact')}>
               {prevCarnet ? (
-                <a href={`${basePath}/${prevCarnet.id}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+                <a href={withTrailingSlash(`${basePath}/${prevCarnet.id}`)} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                   </svg>
@@ -220,7 +221,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
                 </a>
               ) : <span />}
               {nextCarnet ? (
-                <a href={`${basePath}/${nextCarnet.id}`} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
+                <a href={withTrailingSlash(`${basePath}/${nextCarnet.id}`)} class="text-accent hover:text-accent-light transition-colors flex items-center gap-1">
                   <span data-t="diary.notebook">{t('diary.notebook')}</span> {nextCarnet.id}
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -241,10 +242,10 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
               return (
                 <p class="text-ink-light mb-3">
                   {startMonth}{' '}
-                  <a href={`${basePath}/${startYear}`} class="hover:text-accent transition-colors">{startYear}</a>
+                  <a href={withTrailingSlash(`${basePath}/${startYear}`)} class="hover:text-accent transition-colors">{startYear}</a>
                   {' — '}
                   {endMonth}{' '}
-                  <a href={`${basePath}/${endYear}`} class="hover:text-accent transition-colors">{endYear}</a>
+                  <a href={withTrailingSlash(`${basePath}/${endYear}`)} class="hover:text-accent transition-colors">{endYear}</a>
                 </p>
               );
             })() : carnet === '000' && (
@@ -307,7 +308,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
             />
             {allEntries.length > 0 && (
               <a
-                href={entryHref(allEntries[0])}
+                href={withTrailingSlash(entryHref(allEntries[0]))}
                 class="btn btn-primary flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm w-full"
               >
                 <span data-t={isSectionCarnet ? 'diary.start' : 'diary.readFromBeginning'}>{isSectionCarnet ? t('diary.start') : t('diary.readFromBeginning')}</span>
@@ -409,7 +410,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
     <div class="space-y-2">
       {allEntries.map(entry => (
         <a
-          href={entryHref(entry)}
+          href={withTrailingSlash(entryHref(entry))}
           data-filter-entry={entry.date}
           class={`block p-4 rounded-lg border transition-all duration-200 ${
             lang.isTranslation && !entry.isTranslated
@@ -458,7 +459,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
     <nav class="mt-8 pt-8 border-t border-ink/10 flex justify-between items-center" aria-label={t('a11y.carnetNav')}>
       {prevCarnet ? (
         <a
-          href={`${basePath}/${prevCarnet.id}`}
+          href={withTrailingSlash(`${basePath}/${prevCarnet.id}`)}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
         >
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -471,18 +472,18 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
       )}
 
       {primaryYear ? (
-        <a href={`${basePath}/${primaryYear}`} class="text-muted hover:text-ink transition-colors" data-t="diary.year" data-t-params={JSON.stringify({ year: primaryYear })}>
+        <a href={withTrailingSlash(`${basePath}/${primaryYear}`)} class="text-muted hover:text-ink transition-colors" data-t="diary.year" data-t-params={JSON.stringify({ year: primaryYear })}>
           {t('diary.year', { year: primaryYear })}
         </a>
       ) : (
-        <a href={basePath} class="text-muted hover:text-ink transition-colors" data-t="diary.overview">
+        <a href={withTrailingSlash(basePath)} class="text-muted hover:text-ink transition-colors" data-t="diary.overview">
           {t('diary.overview')}
         </a>
       )}
 
       {nextCarnet ? (
         <a
-          href={`${basePath}/${nextCarnet.id}`}
+          href={withTrailingSlash(`${basePath}/${nextCarnet.id}`)}
           class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors"
         >
           <span><span data-t="diary.notebook">{t('diary.notebook')}</span> {nextCarnet.id}</span>

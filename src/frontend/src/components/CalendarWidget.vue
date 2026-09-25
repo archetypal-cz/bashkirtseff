@@ -84,7 +84,7 @@ function formatDateISO(year: number, month: number, day: number): string {
 
 // Build link URL for a date
 function getDateUrl(dateStr: string): string {
-  return `${basePath.value}/${props.carnet}/${dateStr}`;
+  return `${basePath.value}/${props.carnet}/${dateStr}/`;
 }
 
 // Calendar grid computation

@@ -7,6 +7,7 @@ import ContinueReadingGlobal from '../../components/reading/ContinueReadingGloba
 import { createT, localeToContentPath, type SupportedLocale } from '../../i18n/astro';
 import { findDiaryLang } from '../../lib/diary-lang-config';
 import { getThisDayEntries, getCarnets } from '../../lib/content';
+import { withTrailingSlash } from '../../lib/url';
 
 export function getStaticPaths() {
   return [
@@ -82,8 +83,8 @@ const thisDayTranslations = {
 // These use UI-locale codes directly; x-default points at English.
 const homeLocales = ['cs', 'en', 'fr', 'uk', 'es'];
 const homeAlternates = [
-  ...homeLocales.map(l => ({ hreflang: l, href: `/home/${l}` })),
-  { hreflang: 'x-default', href: '/home/en' },
+  ...homeLocales.map(l => ({ hreflang: l, href: `/home/${l}/` })),
+  { hreflang: 'x-default', href: '/home/en/' },
 ];
 ---
 
@@ -115,10 +116,10 @@ const homeAlternates = [
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <ContinueReadingGlobal client:load />
-          <a href={`/${diaryPath}/000`} class="btn btn-primary text-lg px-8 py-3">
+          <a href={withTrailingSlash(`/${diaryPath}/000`)} class="btn btn-primary text-lg px-8 py-3">
             {t('home.startReading')}
           </a>
-          <a href={`/${lang}/about`} class="btn btn-secondary text-lg px-8 py-3">
+          <a href={withTrailingSlash(`/${lang}/about`)} class="btn btn-secondary text-lg px-8 py-3">
             {t('home.aboutMarie')}
           </a>
         </div>
@@ -182,7 +183,7 @@ const homeAlternates = [
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {carnets.map(carnet => (
             <a
-              href={`/${diaryPath}/${carnet.id}`}
+              href={withTrailingSlash(`/${diaryPath}/${carnet.id}`)}
               class="block p-6 bg-parchment rounded-lg border border-ink/10 hover:border-accent hover:shadow-lg transition-all group"
             >
               <div class="text-3xl font-light text-accent mb-2 group-hover:text-accent-light transition-colors">
@@ -196,7 +197,7 @@ const homeAlternates = [
         </div>
 
         <div class="text-center mt-8">
-          <a href={`/${diaryPath}`} class="text-accent hover:text-accent-light transition-colors">
+          <a href={withTrailingSlash(`/${diaryPath}`)} class="text-accent hover:text-accent-light transition-colors">
             {t('home.viewAllVolumes')} →
           </a>
         </div>
@@ -266,7 +267,7 @@ const homeAlternates = [
             — Marie Bashkirtseff
           </p>
         )}
-        <a href={`/${diaryPath}/000`} class="inline-block btn bg-parchment text-ink hover:bg-sepia text-lg px-8 py-3">
+        <a href={withTrailingSlash(`/${diaryPath}/000`)} class="inline-block btn bg-parchment text-ink hover:bg-sepia text-lg px-8 py-3">
           {t('home.startReadingDiary')}
         </a>
       </div>

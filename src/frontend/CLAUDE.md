@@ -79,7 +79,8 @@ unknown clears it. No attribute = the default identity, unchanged.
 frontend/
 ├── CLAUDE.md              # This file
 ├── astro.config.mjs       # Integrations: vue, sitemap, @vite-pwa/astro
-├── nginx.conf             # Container server config (try_files =404, 404.html, glossary 301)
+├── nginx.conf             # Container server config (try_files =404, 404.html, glossary 301, relative redirects)
+├── nginx-security-headers.conf # Security headers, `include`d in every location with add_header
 ├── Dockerfile
 ├── package.json
 ├── src/
@@ -109,11 +110,16 @@ locales, feature flags). `DIARY_LANGUAGES` drives `getStaticPaths`.
 | `/{lang}/` | Year overview (1873-1884) with Marie's age |
 | `/{lang}/1873/` | Carnets from 1873 |
 | `/{lang}/001/` | Entries in Carnet 001 |
-| `/{lang}/001/1873-01-11` | Individual diary entry |
-| `/{lang}/000` | **Preface (special carnet — see below)** |
-| `/{lang}/carnets` | Flat list of all carnets (translations only) |
+| `/{lang}/001/1873-01-11/` | Individual diary entry |
+| `/{lang}/000/` | **Preface (special carnet — see below)** |
+| `/{lang}/carnets/` | Flat list of all carnets (translations only) |
 | `/{lang}/glossary/` | Glossary index |
-| `/{lang}/glossary/NICE` | Glossary entry |
+| `/{lang}/glossary/NICE/` | Glossary entry |
+
+**Internal links end in `/`.** Pages are built as directories, so a slash-less
+link costs a server redirect per click, and hreflang targets must be the final
+URL. Build links with `diaryUrl()` / `glossaryUrl()` (both slash-terminated) or
+wrap them in `withTrailingSlash()` from `src/lib/url.ts`.
 
 `{lang}` is `cz`, `original`, `en`, `uk`, or `fr`. Spanish (`es`) is **staged but
 disabled**: the UI locale is live, but its `DIARY_LANGUAGES` entry is commented out

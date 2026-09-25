@@ -6,6 +6,7 @@ import FlipParagraph from '../../../components/reading/FlipParagraph.vue';
 import { getCarnet000Merged, hasCarnet000Content, getCarnetEntries } from '../../../lib/content';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
+import { withTrailingSlash } from '../../../lib/url';
 
 export function getStaticPaths() {
   return DIARY_LANGUAGES.map(lang => ({
@@ -81,7 +82,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
   <article class="max-w-3xl mx-auto">
     <!-- Breadcrumb -->
     <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
-      <a href={basePath} class="hover:text-accent">{diaryLabel}</a>
+      <a href={withTrailingSlash(basePath)} class="hover:text-accent">{diaryLabel}</a>
       <span class="mx-2">&rsaquo;</span>
       <span class="text-ink">{t('diary.notebook')} 000</span>
     </nav>
@@ -104,7 +105,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
             </svg>
           </span>
-          <a href={`${basePath}/001`} class="text-muted hover:text-accent transition-colors" title={`${t('diary.notebook')} 001`}>
+          <a href={withTrailingSlash(`${basePath}/001`)} class="text-muted hover:text-accent transition-colors" title={`${t('diary.notebook')} 001`}>
             {t('diary.notebook')} 001 &rarr;
           </a>
         </nav>
@@ -196,11 +197,11 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 
     {/* Navigation */}
     <nav class="mt-12 pt-8 border-t border-ink/10 flex justify-between items-center" aria-label={t('a11y.carnetNav')}>
-      <a href={basePath} class="text-muted hover:text-ink transition-colors">
+      <a href={withTrailingSlash(basePath)} class="text-muted hover:text-ink transition-colors">
         &larr; {diaryLabel}
       </a>
 
-      <a href={`${basePath}/001`} class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors">
+      <a href={withTrailingSlash(`${basePath}/001`)} class="flex items-center gap-2 text-accent hover:text-accent-light transition-colors">
         <span>{t('diary.notebook')} 001</span>
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
