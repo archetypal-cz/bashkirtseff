@@ -68,7 +68,7 @@ const latestParagraph = computed((): HistoryItem | null => {
 
 [data-theme="dark"] .continue-global-btn {
   background: var(--color-accent, #D97706);
-  color: #1a1a1a;
+  color: var(--bg-primary);
 }
 
 [data-theme="dark"] .continue-global-btn:hover {

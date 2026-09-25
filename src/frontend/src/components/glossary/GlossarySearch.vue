@@ -271,9 +271,9 @@ function getIconColor(category?: string): string {
 }
 
 [data-theme="dark"] .search-input {
-  background: #252525;
+  background: var(--bg-secondary);
   border-color: rgba(255, 255, 255, 0.1);
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .search-input:focus {
@@ -297,7 +297,7 @@ function getIconColor(category?: string): string {
 }
 
 [data-theme="dark"] .clear-btn:hover {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .search-results {
@@ -316,7 +316,7 @@ function getIconColor(category?: string): string {
 }
 
 [data-theme="dark"] .search-results {
-  background: #1a1a1a;
+  background: var(--bg-primary);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -329,7 +329,7 @@ function getIconColor(category?: string): string {
 }
 
 [data-theme="dark"] .results-count {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .results-list {
@@ -351,12 +351,12 @@ function getIconColor(category?: string): string {
 }
 
 [data-theme="dark"] .result-item {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .result-item:hover,
 [data-theme="dark"] .result-item.is-selected {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .result-header {
@@ -390,7 +390,7 @@ function getIconColor(category?: string): string {
 }
 
 [data-theme="dark"] .result-refs {
-  background: #333;
+  background: var(--surface-hover);
 }
 
 .result-type {
@@ -405,7 +405,7 @@ function getIconColor(category?: string): string {
 }
 
 [data-theme="dark"] .result-type {
-  background: #333;
+  background: var(--surface-hover);
 }
 
 .result-summary {
@@ -421,7 +421,7 @@ function getIconColor(category?: string): string {
 }
 
 [data-theme="dark"] .result-summary {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 .no-results {

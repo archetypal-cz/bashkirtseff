@@ -134,7 +134,7 @@ async function handleSignOut() {
 }
 
 [data-theme="dark"] .user-menu__name {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .user-menu__btn {
@@ -152,7 +152,7 @@ async function handleSignOut() {
 }
 
 [data-theme="dark"] .user-menu__btn {
-  color: #e5e5e5;
+  color: var(--text-primary);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -161,7 +161,7 @@ async function handleSignOut() {
 }
 
 [data-theme="dark"] .user-menu__btn:hover {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .user-menu__btn--signout {

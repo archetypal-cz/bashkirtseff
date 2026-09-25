@@ -327,7 +327,7 @@ onMounted(() => {
 
 [data-theme="dark"] .day-nav-btn:hover {
   background: #D97706;
-  color: #1a1a1a;
+  color: var(--bg-primary);
   border-color: #D97706;
 }
 
@@ -345,7 +345,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-card {
-  background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -388,7 +388,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-date {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .this-day-date:hover {
@@ -401,7 +401,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-age {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 .this-day-untranslated {
@@ -412,7 +412,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-untranslated {
-  color: #a3a3a3;
+  color: var(--text-secondary);
 }
 
 .this-day-quote {
@@ -437,7 +437,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-quote p {
-  color: #d4d4d4;
+  color: var(--text-primary);
 }
 
 .this-day-link {
@@ -481,7 +481,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-empty {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 
 .empty-message {

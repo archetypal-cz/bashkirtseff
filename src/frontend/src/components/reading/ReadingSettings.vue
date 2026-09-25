@@ -211,7 +211,7 @@ function togglePanel() {
 }
 
 [data-theme="dark"] .settings-panel {
-  --panel-bg: #1a1a1a;
+  --panel-bg: var(--bg-primary);
   --border-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -227,7 +227,7 @@ function togglePanel() {
 }
 
 [data-theme="dark"] .settings-header {
-  --text-color: #e5e5e5;
+  --text-color: var(--text-primary);
 }
 
 .close-btn {
@@ -280,8 +280,8 @@ function togglePanel() {
 }
 
 [data-theme="dark"] .font-btn {
-  --btn-bg: #2a2a2a;
-  --text-color: #e5e5e5;
+  --btn-bg: var(--surface-hover);
+  --text-color: var(--text-primary);
 }
 
 .font-btn:hover:not(:disabled) {
@@ -303,7 +303,7 @@ function togglePanel() {
 }
 
 [data-theme="dark"] .font-size-value {
-  --text-color: #e5e5e5;
+  --text-color: var(--text-primary);
 }
 
 .theme-controls {

@@ -78,8 +78,8 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .back-to-top {
-  background: #2a2a2a;
-  color: #e5e5e5;
+  background: var(--surface-hover);
+  color: var(--text-primary);
   border-color: rgba(255, 255, 255, 0.1);
 }
 

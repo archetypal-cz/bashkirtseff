@@ -377,7 +377,7 @@ async function retry() {
 
 /* Dark mode */
 [data-theme="dark"] .offline-btn-download {
-  color: #a3a3a3;
+  color: var(--text-secondary);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -388,6 +388,6 @@ async function retry() {
 }
 
 [data-theme="dark"] .offline-progress-bar {
-  background: #252525;
+  background: var(--bg-secondary);
 }
 </style>

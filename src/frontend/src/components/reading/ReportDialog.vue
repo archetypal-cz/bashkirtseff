@@ -227,7 +227,7 @@ defineExpose({ open });
 }
 
 [data-theme="dark"] .sheet-content {
-  background: #1a1a1a;
+  background: var(--bg-primary);
 }
 
 [data-theme="sepia"] .sheet-content {
@@ -273,7 +273,7 @@ defineExpose({ open });
 }
 
 [data-theme="dark"] .sheet-header__title {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 .sheet-header__id {
@@ -345,7 +345,7 @@ defineExpose({ open });
 }
 
 [data-theme="dark"] .reason-dropdown__select {
-  color: #e5e5e5;
+  color: var(--text-primary);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -360,7 +360,7 @@ defineExpose({ open });
 }
 
 [data-theme="dark"] .reason-dropdown__trigger--selected {
-  color: #e5e5e5;
+  color: var(--text-primary);
   border-color: var(--color-accent, #D97706);
 }
 
@@ -390,8 +390,8 @@ defineExpose({ open });
 }
 
 [data-theme="dark"] .report-text__input {
-  color: #e5e5e5;
-  background: #222;
+  color: var(--text-primary);
+  background: var(--surface-hover);
   border-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -439,8 +439,8 @@ defineExpose({ open });
 }
 
 [data-theme="dark"] .report-btn--done {
-  color: #e5e5e5;
-  background: #252525;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
 }
 
 .report-success {
@@ -462,7 +462,7 @@ defineExpose({ open });
 }
 
 [data-theme="dark"] .report-success p {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 </style>
 

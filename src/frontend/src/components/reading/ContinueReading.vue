@@ -94,7 +94,7 @@ const matchingItem = computed((): HistoryItem | null => {
 
 [data-theme="dark"] .continue-btn:hover {
   background: var(--color-accent, #D97706);
-  color: #1a1a1a;
+  color: var(--bg-primary);
 }
 
 .continue-icon {

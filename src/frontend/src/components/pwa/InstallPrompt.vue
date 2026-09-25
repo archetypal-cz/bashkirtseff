@@ -127,7 +127,7 @@ onUnmounted(() => {
   flex-shrink: 0;
   width: 3rem;
   height: 3rem;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   border-radius: 0.5rem;
   display: flex;
@@ -153,7 +153,7 @@ onUnmounted(() => {
 
 .install-text .privacy-note {
   font-size: 0.75rem;
-  opacity: 0.7;
+  /* No opacity: dimming --text-muted drops it below 4.5:1 (axe, A11y gate) */
 }
 
 .install-actions {
@@ -182,7 +182,7 @@ onUnmounted(() => {
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
   color: white;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);  /* A11y: fill token stays white-text safe in dark */
   border: none;
   border-radius: 0.375rem;
   cursor: pointer;
@@ -190,7 +190,7 @@ onUnmounted(() => {
 }
 
 .btn-install:hover {
-  background: var(--color-accent-light, #92400E);
+  background: var(--accent-fill-hover, #92400E);
 }
 
 /* Transition */
@@ -207,25 +207,25 @@ onUnmounted(() => {
 
 /* Dark mode */
 [data-theme="dark"] .install-prompt {
-  background: #1a1a1a;
+  background: var(--bg-primary);
   border-color: rgba(255, 255, 255, 0.1);
 }
 
 [data-theme="dark"] .install-text strong {
-  color: #e5e5e5;
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .install-text span {
-  color: #737373;
+  color: var(--text-muted);
 }
 
 [data-theme="dark"] .btn-dismiss {
-  color: #737373;
+  color: var(--text-muted);
   border-color: rgba(255, 255, 255, 0.2);
 }
 
 [data-theme="dark"] .btn-dismiss:hover {
-  background: #252525;
-  color: #e5e5e5;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
 }
 </style>

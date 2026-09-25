@@ -58,6 +58,16 @@ for (const theme of THEMES) {
         }, theme, brand);
         await page.goto(BASE + path, { waitUntil: 'networkidle2', timeout: 60000 });
         await new Promise(r => setTimeout(r, 1500)); // let islands hydrate
+        // The PWA install prompt only appears when Chrome happens to fire
+        // beforeinstallprompt, which made the gate flaky. Fire it ourselves so
+        // the prompt is always present and always audited.
+        await page.evaluate(() => {
+          const e = new Event('beforeinstallprompt', { cancelable: true });
+          e.prompt = () => {};
+          e.userChoice = Promise.resolve({ outcome: 'dismissed' });
+          window.dispatchEvent(e);
+        });
+        await new Promise(r => setTimeout(r, 300));
 
         // WS-D/D3: %% annotation markers must never reach rendered text
         const leaks = await page.evaluate(() =>
