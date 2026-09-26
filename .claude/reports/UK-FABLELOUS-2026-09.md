@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–007. Next: 008 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–013. Next: 014 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -40,6 +40,7 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–007. Next: 008 upward, waves of 6 
 | 008 | calque 2 | 6e3b0047 | 22 (21 changed) | 104 | not needed | 0331 *comme une biche* «сарна» (slang kept woman?); 0345 «сідає на високого коня» loan idiom — owner |
 | 012 | calque 2 | 78dd17a8 | 19 (19 changed) | 110 | not needed | Aggie «Аґґі» (0281) vs «Еґі» (0052, 0102; tree 7 vs 12); «мадам/пані Говард» switch mid-carnet; 0207 dîner and déjeuner both «обідати» |
 | 011 | calque 2 | 0b6e4c12 | 18 (18 changed) | 172 | not needed (127 lines) | «руське порося» (0267, 0275) for *cochon russe* — «руський» ambiguous, owner; «Галіньяні» (0218) probably nickname |
+| 010 | calque 2 | ea12dc23 | 22 (21 changed) | 228 | RED: 85% better / 14% neutral / 1 worse, fixed | Одіффре ×3; après-midi → «пополудні» |
 
 ## Findings (other uk work)
 
