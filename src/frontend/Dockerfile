@@ -31,6 +31,12 @@ COPY content/ ./content/
 # Copy .git for commit hash extraction
 COPY .git ./.git/
 
+# Deployed commit and build time for the footer (passed by the deploy workflow)
+ARG GIT_COMMIT=""
+ARG BUILD_DATE=""
+ENV GIT_COMMIT=$GIT_COMMIT
+ENV BUILD_DATE=$BUILD_DATE
+
 # Umami analytics (set at build time, appears in static HTML)
 ARG PUBLIC_UMAMI_WEBSITE_ID=""
 ARG PUBLIC_UMAMI_URL=""

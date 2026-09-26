@@ -90,6 +90,8 @@ jobs:
              git fetch origin main && \
              git reset --hard origin/main && \
              cd src/frontend && \
+             GIT_COMMIT='${GITHUB_SHA}' \
+             BUILD_DATE='$(date -u +%Y-%m-%dT%H:%M:%SZ)' \
              PUBLIC_UMAMI_URL='${PUBLIC_UMAMI_URL}' \
              PUBLIC_UMAMI_WEBSITE_ID='${PUBLIC_UMAMI_WEBSITE_ID}' \
              docker compose up -d --build"

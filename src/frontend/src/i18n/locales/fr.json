@@ -125,7 +125,8 @@
     "privacy": "Confidentialité",
     "copyright": "© {year} Projet Bashkirtseff. Contenu en libre accès.",
     "projectOf": "Un projet de",
-    "version": "Version"
+    "version": "Version",
+    "deployed": "Mis en ligne le"
   },
   "marie": {
     "pageTitle": "Marie Bashkirtseff — Vie et œuvre",

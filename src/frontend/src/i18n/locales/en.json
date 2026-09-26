@@ -125,7 +125,8 @@
     "privacy": "Privacy",
     "copyright": "© {year} Bashkirtseff Project. Content is freely available.",
     "projectOf": "A project of",
-    "version": "Version"
+    "version": "Version",
+    "deployed": "Deployed"
   },
   "marie": {
     "pageTitle": "Marie Bashkirtseff — Life and Work",

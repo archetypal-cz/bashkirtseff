@@ -9,10 +9,14 @@ import AstroPWA from '@vite-pwa/astro';
 
 // https://astro.build/config
 // Get git commit hash for version display
-function getGitCommitHash() {
+function getGitCommitHash(full = false) {
+  // Deploys pass the commit in as a build arg (GIT_COMMIT = github.sha); the
+  // .git copied into the image is not reliable (it showed a commit that does
+  // not exist on main).
+  if (process.env.GIT_COMMIT) return full ? process.env.GIT_COMMIT : process.env.GIT_COMMIT.slice(0, 9);
   try {
     // Try current directory first, then parent (for Docker builds)
-    return execSync('git rev-parse --short HEAD 2>/dev/null || git -C .. rev-parse --short HEAD 2>/dev/null').toString().trim();
+    return execSync(full ? 'git rev-parse HEAD 2>/dev/null || git -C .. rev-parse HEAD 2>/dev/null' : 'git rev-parse --short HEAD 2>/dev/null || git -C .. rev-parse --short HEAD 2>/dev/null').toString().trim();
   } catch {
     return 'dev';
   }
@@ -109,6 +113,8 @@ export default defineConfig({
     define: {
       __APP_VERSION__: JSON.stringify(process.env.npm_package_version || '0.1.0'),
       __GIT_COMMIT__: JSON.stringify(getGitCommitHash()),
+      __GIT_COMMIT_FULL__: JSON.stringify(getGitCommitHash(true)),
+      __BUILD_DATE__: JSON.stringify(process.env.BUILD_DATE || new Date().toISOString()),
       __VUE_PROD_DEVTOOLS__: false,
       __VUE_I18N_FULL_INSTALL__: true,
       __VUE_I18N_LEGACY_API__: false

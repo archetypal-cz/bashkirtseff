@@ -5,6 +5,8 @@ services:
       dockerfile: src/frontend/Dockerfile
       args:
         # Umami analytics — set after creating the site in Umami dashboard
+        GIT_COMMIT: ${GIT_COMMIT:-}
+        BUILD_DATE: ${BUILD_DATE:-}
         PUBLIC_UMAMI_WEBSITE_ID: ${PUBLIC_UMAMI_WEBSITE_ID:-}
         PUBLIC_UMAMI_URL: ${PUBLIC_UMAMI_URL:-}
         PUBLIC_AUTH_URL: ${PUBLIC_AUTH_URL:-https://auth.bashkirtseff.org}
