@@ -487,6 +487,10 @@ sync-verify carnet lang:
     [ $rc -eq 0 ] && echo "sync-verify {{lang}}/{{carnet}}: OK (visible text unchanged, splicescan empty)"
     exit $rc
 
+# Add glossary tag lines missing in a translation carnet, copied per paragraph ID from _original (tag lines only; dry run unless --write). Then run `just sync-verify CARNET LANG`.
+tag-sync lang carnet *FLAGS:
+    python3 src/scripts/tag_sync.py {{lang}} {{carnet}} {{FLAGS}}
+
 # Restore the embedded French copy lines of a translation carnet from _original (dry run unless --write). Then run `just sync-verify CARNET LANG`.
 resync-french lang carnet *FLAGS:
     #!/usr/bin/env bash
