@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–041. Next: 042 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–050. Next: 051 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -71,8 +71,20 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–041. Next: 042 upward, waves of 6 
 | 033 | calque 2 | 09b1193f | 21 (20 changed) | 112 | not needed | *paysan* «мужлай» vs TM cluster «селюк»; *faquin* first-FAB «негідник/шельмо» vs TM «фат»; en/033.0292 «his smile» may be wrong |
 | 040 | calque 2 | 54f53867 | 5 (5 changed) | 46 | not needed | Schlangenbad split four ways in tree (21/12/9/6) — ruling |
 | (tree) | TM-lock sweep | c52f62e7 | 9 carnets | 34 | — | Сапожеников- → Сапоженіков- |
+| 042 | calque 2 | a67de9bc | 2 (2 changed) | 12 | not needed | source-side (RSR/LAN): 042.0040 Gioia tagged as a place; 042.0018 LAN glosses *gros bleu* as coarse; 0012 «шибеника» (*face de pendu*) — «повішеника»? |
+| 044 | calque 2 | 48eaf0e2 | 4 (4 changed) | 37 | not needed | «Сапогеніков-» may remain elsewhere (045, 050, 059, 079) — sweep |
+| 043 | calque 2 | 3662b4e5 | 10 (10 changed) | 63 | not needed | *centenaire* rendered «Чотиривікові роковини» (043.0104) vs «сторіччя» (041.0016) vs «чотиристаліття» (037.0141) — one ruling |
+| 047 | calque 2 | 11651fe3 | 11 (11 changed) | 70 | not needed | footnote corrected Giroflé = Olga; 0365 «загартовуючи» for *durcissant* too positive? |
+| 046 | calque 2 | f8732139 | 10 (10 changed) | 87 + 1 NOTE | not needed | 0014 who greets whom (cz differs); 0089 «шибениця» as fem. of «шибеник» (= gallows) |
+| 045 | calque 2 | ff56bdee | 7 (7 changed) | 89 | not needed | 3 dropped strikes restored; «Ґалюла» still in 019, 024, 026, 050 (TM Ґалула) — sweep; 0122 *supérieure en haut* transcription? |
+| 049 | calque 2 | f6f3de4b | 10 (10 changed) | 77 | not needed | 0217 *mon homme* → «мій герой» (flagged); note: a 2026-08 FAB in 049 had moved Sapogenikoff toward «Сапожеников-»; the 2026-09 sweep followed TM «Сапоженіков-» — owner confirm |
+| 048 | calque 2 | 2a43a32e | 14 (14 changed) | 156 | not needed (142 lines) | Marie's weekday slip restored (0093); tarot «Приміряю!» overrides TR/CON; 0150 «я його хочу» reads sexual |
+| (tree) | TM-lock sweep | 6e149796 | 13 carnets | 27 | — | Ґалюл-/Галул- → Ґалул-, Сапогеніков- → Сапоженіков- |
+| 050 | calque 2 | 81e14714 | 38 (36 changed) | 158 | RED: 73% better / 25% neutral / 2% worse, 3 fixed | *Petit Noël* → «Святий Миколай» (0925, 0980) cultural substitution — owner; 0516 *mauvais esprit* «лихим кодлом»? |
 
 ## Findings (other uk work)
+
+- Done (6e149796): «Сапогеніков-» and Galula variants swept. Still TODO: demonym «ніццець» in 028/1875-01-02, 033 (done), 035/1875-07-01 → «ніццянець» (check each is the demonym, not the pet name).
 
 - **Laferrière is a woman** (the couturière; Marie: *cette sorcière… elle*, 024.0090/0130) but uk declines «Лафер'єр» as masculine («Лафер'єра», «якого боюся») — tree-wide check needed (indeclinable feminine «Лафер'єр» / «пані Лафер'єр»?). Owner/RED.
 - **024.0207 footnote + ==highlight== claim Marie wrote «contre мене» in Cyrillic**; _original has plain «contre moi» / «pour moi» — recommend deleting the footnote and highlights (FAB NOTE at 0274). Owner.
