@@ -1,0 +1,245 @@
+pid	round	stratum	verdict	note
+002.0034	1	cur_only	PARTIAL	only 'we saw Boreel' echoed; walk with Collignon omitted
+002.0264	2	retained	NO	Ermine coat passage absent
+003.0065	2	add_sentence	PARTIAL	lesson prep, proverb, royal carriage, horseback
+003.0169	1	neither_cand	NO	Mme de Daillens interruption omitted
+004.0031	1	cur_only	PARTIAL	Behaved well, didn't blush; talked of him (EN377)
+004.0242	1	new_only	YES	spread over EN421-423
+005.0099	1	both	PARTIAL	Villa Durando sentences only; hopes about him omitted
+007.0298	2	rm_long	NO	Tight boots / Quattro Stagioni hotel not rendered
+008.0157	1	neither_cand	NO	Purse at Klein, Countess de Galve absent
+008.0208	2	add_sentence	PARTIAL	went straight to Laferrière, dress ugly
+008.0270	2	rm_short	UNSURE	Non-textual separator mark '|'; nothing to translate
+010.0049	2	neither_sig	NO	EN1001 renders 010.0047; laughing/meet Gioia absent
+010.0127	1	both	YES	Mama does honors; scoundrels; Gala dinners
+010.0263	2	rm_long	NO	Wittgenstein musings not translated
+012.0266	1	cur_only	NO	Carriage errands/talk with mama not rendered
+013.0204	1	new_only	YES	had fun because no reason to be bored
+013.0275	2	rm_short	YES	'Tomorrow!'
+014.0118	2	retained	PARTIAL	Manby's ulsters/conspirators, dark blue ordered
+016.0166	1	cur_only	NO	bench/Dina fragment absent
+016.0207	2	neither_nosig	NO	Love declaration line absent on 02-07/02-09
+016.0281	2	add_short	YES	'How unhappy I am today!'
+016.0289	2	add_bracket	YES	Well dressed, nice manners, good taste
+016.0308	1	new_only	NO	Rain ruins carnival not rendered
+016.0380	1	new_only	NO	Garden walks fragment absent
+016.0387	2	add_bracket	YES	sun took pity at 4:30
+017.0047	1	cur_only	PARTIAL	Dina/Derwies concert kept; villa 55, Diadia, envy omitted
+018.0083	2	neither_nosig	NO	Letter/Hôtel de la Méditerranée appointment absent
+018.0214	2	neither_sig	YES	'I slept until noon'
+018.0253	2	add_short	NO	5000 francs line absent
+018.0276	1	cur_only	YES	They consent to go to-morrow
+019.0234	2	neither_sig	NO	'Where?' carriage-driver exchange absent
+020.0057	1	cur_only	NO	Debts line not rendered
+020.0329	2	neither_nosig	NO	lament mood line absent
+020.0368	2	neither_nosig	NO	margin anagram not rendered
+021.0153	2	add_strong-offchain	YES	Also lined-out version EN1973
+021.0236	2	retained	NO	portrait line absent
+021.0260	1	new_only	YES	Bas with her Count arrived last, two tete-a-tetes
+021.0342	2	neither_sig	NO	Walitsky's verses remark absent
+021.0351	2	retained	NO	EN2042 renders different paragraph (cochon); walk home absent
+021.0473	1	both	YES	Pole jealous of Gericke; cunning, secretive, enigmatic
+024.0117	2	neither_nosig	NO	No Kernberger text within ±1 day
+024.0190	2	neither_nosig	NO	no English for this date
+025.0039	2	add_strong	YES	screamed I lie, pale, forced smile
+025.0198	2	rm_long	NO	Patton soirée absent
+026.0008	1	new_only	YES	Damned lawsuit, not a crime, why avoid us
+028.0220	2	rm_short	NO	scandal line absent
+029.0217	1	neither_cand	YES	With unmatched joy I begin studying again
+032.0315	2	add_datewin	PARTIAL	Only 'But what a crazy girl I am!' rendered
+033.0140	1	both	YES	100-sou coin, questions, baron at window
+033.0480	1	both	YES	terrace, frogs, barking
+037.0021	2	add_strong-offchain	YES	Not yet a woman... follow me from childhood to death
+037.0033	2	add_datewin	YES	sad air, deceit, conspiracy
+037.0060	1	cur_only	UNSURE	short reply; EN3911 'Yes, she told him' possibly
+037.0110	2	add_strong	YES	No distinction; asked by the other?
+037.0298	2	both	YES	Mashenka, Girofla's castle, No. 77
+038.0107	1	neither_cand	NO	Anger at Audiffret for making her write absent
+038.0135	2	neither_nosig	NO	mortified/cold behaviour lines absent
+038.0159	1	cur_only	PARTIAL	Only 'What a bore to go to Schlangenbad!'
+039.0013	1	both	YES	Surprise! Diadia, M. de Toulouse
+042.0006	2	add_datewin	YES	letterhead rendered as 'Hôtel Noailles, Marseille'
+043.0008	2	rm_long	NO	fragment about man beyond seas absent
+043.0071	2	rm_short	NO	'Am I in Nice?' lines not rendered
+043.0306	1	cur_only	NO	Girofla's remark on Mme Prodgers' curtains absent
+044.0127	2	add_strong	YES	sky on fire, fiacre at castle, abridged
+044.0209	2	rm_long	PARTIAL	'What the devil does it matter!' condensed
+045.0017	2	retained	NO	Yourkoff door greeting absent
+045.0098	2	rm_long	NO	laughing fit with Olga absent
+045.0179	2	rm_long	NO	Greek bonnet remark absent
+046.0065	2	retained	NO	Fiouloulou/aunt dialogue absent
+046.0272	2	add_sandwich2	NO	EN3684 'All this exhausts me' differs; madness line absent
+047.0390	1	neither_cand	NO	Olga at window absent
+048.0130	2	rm_short	NO	Portrait-return dialogue of 10-28 not in Kernberger
+049.0055	1	neither_cand	NO	'I'll leave Sunday' not rendered; EN says staying
+050.0251	1	cur_only	NO	Aunt's love-to-hate remark absent
+050.0432	2	add_sandwich2	NO	'makes me angry' line absent
+050.0692	2	neither_nosig	NO	Promenade reproaches scene absent
+050.0876	2	neither_sig	NO	Ricardo loge remark absent
+050.1018	1	neither_cand	NO	Pepino/Galula visit, laughing absent
+052.0039	1	neither_cand	NO	'That's why they all looked at me' absent
+052.0085	1	cur_only	NO	Nice/despair line absent
+052.0096	2	add_strong	YES	singing, triumph, emperors
+052.0361	1	cur_only	YES	'No, Holy Father... From the Ukraine'
+053.0241	2	add_strong-offchain	NO	Johnstone/Bueno/Francia marriage news absent
+053.0325	1	new_only	YES	context truncated; found in full Kernberger text (k-index)
+054.0344	1	new_only	YES	context truncated; found in full text
+054.0402	2	add_strong	YES	'It is charming!' enchanted to bottom of heart
+054.0517	2	add_bracket	YES	'Tiger and hyena!'
+055.0109	2	neither_sig	NO	fragment about Marguerite/Doria absent
+055.0414	2	retained	YES	'I love you.' in matching dialogue
+055.0972	1	cur_only	NO	Horse-seller line absent
+055.0990	1	both	YES	Madame Angot at Valle, dark corner
+055.1075	2	rm_short	NO	Dialogue compressed; 'c'est trop fort' not rendered
+056.0061	2	both	YES	Nerve / not marry Pietro / two or three rooms
+056.0110	1	both	YES	False position, Antonelli proposal, Visconti
+056.0163	1	new_only	YES	Once alone with him, I attacked bravely
+056.0166	1	cur_only	YES	You want everything, do nothing yourself
+056.0323	1	new_only	NO	Rhetorical 'tenderness for monk? Via!' not rendered
+056.0498	1	cur_only	NO	only related 'not to know where to go for him' (EN5322)
+059.0460	1	new_only	PARTIAL	garland, fireworks kept; Trifon great-man remark cut
+060.0019	2	neither_sig	NO	Don Clemente/Larderei/princess list not rendered
+060.0105	1	neither_cand	NO	Monk watch dialogue not rendered
+060.0107	1	neither_cand	UNSURE	Torlonia dialogue exists 05-12 (EN5774) but no 'Torlonia?'
+060.0282	1	cur_only	YES	Hmm!
+060.0286	1	cur_only	YES	'How is that?'
+060.0375	1	cur_only	YES	Won't you ever love me?
+060.0514	1	cur_only	NO	'Unhappy to be a child' line absent
+060.0566	2	rm_short	YES	'you are an exception'
+060.0842	1	cur_only	NO	'Where, wretch?' skipped; EN jumps to 'How dreadful'
+060.0859	2	rm_short	NO	Torlonia/war section omitted
+061.0079	1	cur_only	UNSURE	Dina 'comfortingly' EN6265 nearby; question itself not rendered
+062.0171	2	both	PARTIAL	Religious debate rendered; Dina, Montanists, Egyptian confession omitted
+062.0300	2	retained	PARTIAL	discussing Dina's idea with Collignon; Laurenti omitted
+062.0322	1	new_only	PARTIAL	Ill, languish, family worried; horses/Epictetus scene cut
+062.0560	1	cur_only	PARTIAL	Only 'it's done, I had nothing to do with it'; Pope part omitted
+062.0574	1	new_only	YES	Clairvoyant out; EN6652 cigarettes, journal, bed
+063.0041	1	new_only	YES	context truncated; Paris most elegant city
+063.0093	1	neither_cand	NO	Hat admired by elegant woman absent
+063.0278	1	new_only	YES	'Yesterday they were in the same envelope'
+063.0285	1	cur_only	YES	context truncated; 'What marriage?'
+063.0345	2	add_strong-offchain	PARTIAL	Question folded into dialogue; retrospective explanation omitted
+063.0473	2	retained	NO	Female somnambulist session not in Kernberger (only Alexis)
+064.0089	1	cur_only	NO	Lone 'Ah!' opener not rendered
+064.0222	1	new_only	YES	context truncated; guests at 11 in large room
+064.0400	1	new_only	YES	Russian politeness, cordiality
+064.0517	1	cur_only	NO	Grand Duke Wladimir portrait kiss absent
+065.0151	2	add_datewin	NO	City garden / Miloradovitch waiting not rendered
+065.0227	1	cur_only	NO	Gritz debauchery comrade line absent
+066.0233	2	add_strong	YES	Hunting description: briars, reeds, pure air, rain
+066.0392	2	add_short	YES	God, Lord Jesus, take me away
+066.0423	1	new_only	YES	Horse/Russian harness/English style, full
+066.0437	1	new_only	YES	'Today! Horror!' ends paragraph
+066.0453	1	new_only	YES	farming, notaries, ten letters, chancellery
+067.0118	2	add_bracket	YES	sleeping car, tired, atrocious smoke
+067.0265	2	add_strong	YES	Ballo in Maschera hair and dress
+067.0298	2	add_sandwich2	NO	Zourmiline absent
+067.0366	2	add_datewin	NO	Maxim about men absent
+068.0136	1	neither_cand	NO	reverie in eight tableaux absent
+068.0174	1	new_only	YES	Wants fine study full of precious books
+068.0211	1	new_only	PARTIAL	Merjewsky missed trains; 'short and clear' cut
+068.0338	1	new_only	YES	exaggerated beauty/ugliness; complete or incomplete
+069.0322	1	neither_cand	YES	Which Countess? Larderel's sister...
+069.0367	2	add_sentence	NO	Altamura letter scene absent
+069.0386	1	cur_only	NO	Maid's line about the Count not rendered
+069.0647	2	rm_short	NO	blank half-page note not rendered
+070.0016	2	neither_sig	NO	Burning-body aftermath not rendered; EN stops at 'that was the truth'
+071.0223	2	neither_sig	YES	thought as in Duke's time, baseness
+073.0150	1	cur_only	NO	ten more days Paris / Biarritz absent
+073.0288	1	new_only	PARTIAL	Departure list kept; tearful separation omitted
+073.0496	1	cur_only	NO	Ariadne plot (Gioia dying) not retold
+074.0045	1	new_only	PARTIAL	18 years, thought 20, lost novelty; middle cut
+075.0028	2	retained	YES	'November.' answer to Edmond
+075.0134	2	add_sandwich2	NO	'bad joke' line absent
+075.0488	1	neither_cand	NO	Alexandre story line absent
+076.0168	1	neither_cand	NO	Washstand sketch of Rosalie absent
+077.0379	1	neither_cand	NO	'the liar' line absent
+077.0522	1	new_only	YES	Mask removal like cold shower; Paul consoling cut
+077.0578	2	add_datewin	YES	Conscience two weeks; work not disturbed
+077.0648	1	cur_only	NO	d'Andigné visit absent
+078.0005	2	add_sentence	YES	Asked low whether woman alone could go to Opera
+078.0331	2	retained	YES	Robert-Fleury pleased
+078.0449	1	new_only	NO	envy/guitar/mandolin Italy line absent
+079.0573	1	cur_only	NO	Goldsmid asleep on bench absent
+080.0213	2	neither_sig	NO	mistress/socks gossip not translated
+080.0255	1	new_only	YES	opened the box eleventh time
+080.0265	2	rm_long	NO	Cassagnac's Marie room absent
+081.0220	1	cur_only	NO	Multedo/Cassagnac teasing absent
+081.0253	2	retained	YES	Cassagnacs never went into society
+081.0290	1	new_only	NO	kissing hand/Bertha line absent
+081.0361	1	cur_only	PARTIAL	Only 'Multedo had my guitar repaired!'
+081.0458	1	cur_only	NO	Baron Schenk / Dourassoff ball absent
+081.0471	2	retained	PARTIAL	Gans looking, Schwarz hammock skeleton
+082.0154	1	cur_only	NO	only Feuillet named in EN11390; questions absent
+082.0283	2	neither_sig	NO	Scene narrated EN11413 but this intro sentence absent
+083.0287	1	new_only	YES	freezing and snowing
+084.0200	1	both	PARTIAL	London House kept; names omitted
+085.0149	2	both	YES	'What, Monsieur! I thought you were in China!'
+086.0036	2	neither_sig	PARTIAL	Bois with Bertha only; circus omitted
+086.0089	1	new_only	PARTIAL	Happier alone making music/painting; rest cut
+087.0066	2	neither_sig	NO	Gavini letters remark not in EN12087
+087.0092	1	cur_only	PARTIAL	loose gist: affair ruins his view of me; Gabriel omitted
+087.0183	1	cur_only	NO	Stage setup, Tarente, Gabriel visit absent
+087.0235	2	rm_long	PARTIAL	Gavini's 'you who... have a right to' abridged
+087.0247	1	both	YES	To go or not; 8:30 Gavinis (Gavini not Mama against)
+087.0357	2	rm_short	YES	'No. Listen.' to Soutzo
+087.0546	2	add_sandwich2	NO	Courtès etc. omitted; guests line is prior para
+087.0758	1	both	PARTIAL	Julian's 'you're behind... phenomenon' kept; first sentence omitted
+087.0766	1	new_only	PARTIAL	ear ringing kept; scene/Etrangleurs omitted
+087.0776	1	both	PARTIAL	Republicans not good for us: Hecht, Munkacsy, Krishaber
+087.0894	2	add_bracket	YES	'Tonight La Vie de Bohème'
+088.0066	1	new_only	PARTIAL	Dress like bundle of dirty gauze; went in rage; details cut
+088.0175	1	both	PARTIAL	better disposed, impossible to end so, Adeline; first/exaggeration bits cut
+088.0203	2	both	YES	Salon early, Jeanne d'Arc, Morot's Good Samaritan
+088.0308	1	both	PARTIAL	Chopin waltz, Soutzo remark; miaowing cut
+088.0362	2	add_bracket	NO	Mouzay retort absent
+088.0370	1	cur_only	YES	First person I saw as I arrived was Soutzo
+088.0441	1	new_only	PARTIAL	ugly painting next to mine; now on the line omitted
+088.0522	1	neither_cand	PARTIAL	'The eternal answer...' kept; 'since when' changed
+088.0814	2	add_sandwich2	YES	'I beg your pardon?'
+089.0018	2	neither_sig	PARTIAL	reproach Republic's blood and mud, reworded
+089.0108	1	new_only	YES	perfectly honest, never betray husband
+089.0415	1	new_only	PARTIAL	Fitz-James forgivable; dinner invitations omitted
+089.0482	2	add_sandwich2	YES	'No, you see, my family doesn't know what it has made of me'
+089.0483	2	add_sentence	PARTIAL	fear of slander, humiliation, index
+089.0502	1	cur_only	UNSURE	date heading only; Kernberger dates as metadata
+089.0569	2	add_short	YES	'Oh, around the beginning of October at the latest'
+089.0636	2	retained	PARTIAL	laugh with eyes, keep light; rest omitted
+090.0244	1	new_only	YES	Alexander writes Mama must stay for lawsuit
+090.0424	1	both	YES	Gavini, Champs-Elysees, candy shops, crowd
+091.0428	2	add_strong	YES	baccarat, 23 francs, hands idea
+091.0471	1	both	YES	George's outlaw life, Poltava, Viatka, Mama petitions
+091.0484	1	neither_cand	NO	honorable pupils/luck line absent
+092.0103	1	both	PARTIAL	Poltava trip, rain; governor Sviatopolk-Mirsky omitted
+093.0140	1	cur_only	UNSURE	only loose echo (disobey last winter, bad weeks) dated 11-23
+094.0224	1	new_only	YES	Nice everything simple; urchins; corpse reflection
+095.0143	1	cur_only	NO	pastel/painting lament absent
+095.0280	1	new_only	PARTIAL	Julian proper; peasant insistence (EN13693); 'a word' omitted
+096.0090	1	cur_only	NO	Academician/Tony/Julian reflection absent
+099.0110	1	both	YES	two telegrams, father ill
+099.0138	2	rm_long	NO	Breslau/mention comparison not in EN
+099.0254	1	neither_cand	NO	Bastien's Ophelia explanation absent
+101.0118	2	add_short	YES	'Where is a life more miserable than mine?'
+102.0025	2	both	PARTIAL	Only Baroness Derschau/Solominka bonbons part translated
+102.0140	1	neither_cand	PARTIAL	'He's a master' kept; portraits clause cut
+103.0069	1	new_only	PARTIAL	napkin embroidery kept; insults to architect cut
+103.0130	2	neither_sig	NO	father's description not translated
+103.0297	2	add_bracket	PARTIAL	thumb pain, Spartan, arnica kept; Hérodiade part omitted
+103.0380	2	retained	PARTIAL	Jules talk, Lorraine/Ukraine, Jeanne d'Arc
+103.0386	1	new_only	YES	'Rotten luck!... Misery!'
+103.0467	2	add_sandwich2	NO	not translated
+103.0528	1	new_only	YES	Raffaelli terrific, true impressionism
+103.0608	2	add_sentence	PARTIAL	crochet instead of painting; rest omitted
+103.0613	2	add_bracket	NO	Jury votes / tearful eyes line absent
+103.0650	1	new_only	YES	'absolutely ill. My family will bury me' (dated 04-03)
+104.0204	2	add_short	YES	would kill him to cure Bastien
+104.0557	1	both	YES	Puvis, Sargent Gautereau, Renouf, Ribot listed
+104.0655	1	cur_only	NO	Goncourt/Daudet/Sport notes absent
+104.0708	2	add_bracket	YES	'But he's not repellant... not to mind about medals'
+104.0759	1	cur_only	NO	no mention of faults in Bastien's painting
+104.0765	1	new_only	YES	And I? Art? ... lost
+105.0014	1	both	YES	wrestlers with Rosalie and Irma
+105.0067	1	new_only	PARTIAL	'these 2 men with swollen muscles' only
+105.0680	2	add_bracket	YES	'Maybe this visit, alone, is good luck'
+105.0762	2	add_sandwich2	NO	Pope/Engelhardts/architect line absent
+106.0082	2	add_sandwich2	YES	'Oh, not yet! Don't let go of me.'
