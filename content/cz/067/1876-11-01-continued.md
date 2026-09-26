@@ -8,6 +8,7 @@ editor_approved: true
 conductor_approved: true
 redaction_passes:
   - fablelous 2026-08-08
+  - fablelous 2026-09-25
 ---
 
 %% 067.0001 %%
@@ -41,7 +42,8 @@ redaction_passes:
 
 %% 067.0007 %%
 %% — Alors je ne vous plais plus... %%
-– Tedy se vám už nelíbím...
+– Takže se vám už nelíbím...
+%% 2026-09-26T14:33:21 FAB: "– Tedy se vám už nelíbím..." → "– Takže se vám už nelíbím..." — „Alors" v rychlé replice; knižní „Tedy" na začátku věty zní přeloženě. %%
 
 %% 067.0008 %%
 %% — Vous me plaisez. %%
