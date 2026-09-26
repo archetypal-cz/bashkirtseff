@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–019. Next: 020 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–025. Next: 026 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -47,8 +47,20 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–019. Next: 020 upward, waves of 6 
 | 018 | calque 2 | fbc01b94 | 26 (25 changed) | 149 | not needed | «ніццяни» 21× elsewhere vs TM «ніццянці» 45× — sweep candidate; Lambertye «Ламбер'є» here vs «Ламбертьє» (FAB 004 said 170 vs 4) |
 | 016 | calque 2 | 816faa73 | 26 (25 changed) | 158 | not needed (130 lines) | 0254 «Барон Потьомкін-перший» fuses Woerman+Potemkine (no comma in French); «Соломінка» (0087, 0193) vs «Соломинка» (0349, 0352) |
 | 017 | calque 2 | 5e8642d9 | 34 (34 changed) | 248 | RED: 94% better / 3% neutral / 3% worse, 7 fixed | «на Бакі» (0113, 0189, elsewhere) vs TM «вілла Бакіс» — declension ruling |
+| 025 | calque 2 | 4e6402d2 | 23 (20 changed) | 98 | not needed | TM «Башкирцева» applied; 0099 *cocodès* rendered «кокотками» (male dandies?) — owner |
+| 021 | calque 2 | 43034fbc | 19 (18 changed) | 162 | not needed (130 lines) | Marie's «Orphée à Paris» restored (0060); TM double forms: Жерике/Жерікке, Танле/Тансле, Ґамбар vs text Гамбар, Маргарита/Марґеріт; *comme il faut* kept French once, «бездоганний» 5× |
+| 022 | calque 2 | 4eec4b98 | 16 (15 changed) | 132 | not needed | «Папа» (Paparigopoulos) could read as the Pope — «Папарі»?; «Терези» (0265, the Thérèse sisters) reads as scales; «[закреслено:» vs «[Закреслено:» case mixed; «Маккейни» for *Macainne* (0367) |
+| 020 | calque 2 | c37db74b | 36 (32 changed) | 177 | not needed (134 lines) | TM «порох» vs first-FAB «пил» (06-28/29); Notlimah forms; Вітґенштейн vs TM Вітґенштайн; «мисливці-піхотинці» vs TM; 0521 *au premier* «на першому поверсі» (006 changed floors to Ukrainian convention) |
+| 024 | calque 2 | d7290702 | 41 (37 changed) | 188 | RED: 90% better / 9% neutral / 1% worse, 2 fixed | 0115 «del Puente I» read as «!» artefact — cz/en/fr and RSR stub keep «I»; fix belongs at source (RSR) |
+| 023 | calque 2 | 69060d21 | 35 (32 changed) | 185 | RED: 90% better / 8% neutral / 2% worse, 4 fixed | footnote 023.0191.4 still «герцога Гамільтонського» (literal gloss) |
+| (tree) | TM-lock sweep | 42ab95e0 | 25 carnets | 60 ED | — | Башкірцев → Башкирцев, Колліньйон → Коліньйон |
 
 ## Findings (other uk work)
+
+- **Laferrière is a woman** (the couturière; Marie: *cette sorcière… elle*, 024.0090/0130) but uk declines «Лафер'єр» as masculine («Лафер'єра», «якого боюся») — tree-wide check needed (indeclinable feminine «Лафер'єр» / «пані Лафер'єр»?). Owner/RED.
+- **024.0207 footnote + ==highlight== claim Marie wrote «contre мене» in Cyrillic**; _original has plain «contre moi» / «pour moi» — recommend deleting the footnote and highlights (FAB NOTE at 0274). Owner.
+
+- «Башкірцев-» → locked «Башкирцев-» (58×, 25 carnets) and stray «Колліньйон» → «Коліньйон»: swept in 42ab95e0. Note: 002.0303 signature now «Башкирцева [sic]» — TM says no [sic] for the signature slip; owner may drop it.
 
 - 100 07-21 «Весна … біля його ніг» (pre-existing gender mismatch, Marie's *Le Printemps est un jeune dieu*) — left.
 - Outside uk (for the local session): en/100 06-10 still has added "blind" + corrected "Demodocus"; _original/100/1883-06-27 LAN note on *la modeste Mignon* (Bettina/Goethe) is wrong — it is Balzac's *Modeste Mignon*.
@@ -89,8 +101,13 @@ Disputed spellings seen (not normalised — owner ruling needed):
 - 010: Brunet «Брюне» (0002, 0153, 0229) vs TM (lines 724, 952) «Бруне».
 - 017: «Звєгінцов», «Вочею Данилівським» (0407), «Бете»; Mlle as «Мадемуазель Коліньон» and «панна де Ґальве».
 - 018: Lise «Ліз» (0123–0124) vs «Ліза» (0307); Simone «Сімон» (016, 018) vs «Сімона» (015).
+- 020: TM «порох» vs «пил» (06-28/29); Notlimah «Нотліма/Нотлім/Нотлімах»; Вітґенштейн vs TM Вітґенштайн/Віттґенштайн (also князь/принц split, 024.0307); «мисливці-піхотинці» vs TM «пішохідні мисливці»; «[Анотація: …]» vs TM «[Примітка … р.:]»; «Закреслено» and «Rayé» both used.
+- 024: «батько Морено» (0075); «Басілєвич» vs TM Базілевич; «Ґалюла» vs TM Ґалула; «Бове»/«Соваса»; «Льовен» (Lewin); «Кертьє» (Querteux); мадам/пані mixed.
+- **Floors**: *au premier* rendered «на першому поверсі» in 020.0521, 024.0025 while 006 converted to Ukrainian counting («на другому») — convention ruling.
+- 023: Муленар regularises Marie's own «Mulinare»/«Moelenar» (0187–0202) — fact-correction?; «предводитель» vs TM «ватажок дворянства» (0208); stray «Колліньйон» still in 011/1873-11-01, 072/1877-07-14.
 
 Other questions:
+- 023.0058 *maison de quatorze siècles* rendered «будинок чотирнадцятого сторіччя» — corrects Marie's "fourteen centuries [old]"?
 - 010.0157 *chez les ânes* → «в ослів» (nickname for the Anitchkoffs); is «ослячий прокат» (*la petite ânerie*) also their house? 010.0225 *il est au Français* → «у Французькому ліцеї» (Théâtre Français? French class?); 010.0302 *J'ai joué au petit cosaque* — a game or the tune?
 - 011: God Ти/Ви mixed inside one entry (0017 vs 0018/0019…); in 0389/0390 Marie herself writes *tu*.
 - *dîner/déjeuner*: uk tree splits dîner between «обід» and «вечеря» (007 aligned to сніданок/обід; 103 mixes) — make «обід» a uk-wide TM rule?
