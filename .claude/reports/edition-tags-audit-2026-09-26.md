@@ -121,3 +121,56 @@ See the "Gate results" section below.
   - Commit 3eb459100 (source placeholders replaced with Marie's French) already swept my tag lines in 78 `_original` files. The tags in them match the audit.
   - That commit also changed the text of 110 `_original` paragraphs after I scored them. None of my applied changes are among them.
   - The deferred `_original/068` operations were scored on the old placeholder text: 068.0238 was an English stub and matched Kernberger spuriously. **Re-score 068 before applying its pending operations** (list in the scratchpad: `text_changed.json`).
+
+## Option A final: Censored_1887 rule v2 (after the lead's review of the +3,308 jump)
+
+I hand-verified a stratified sample of 66 new Censored adds (the per-item list is in the scratchpad: `cen_samp.txt`):
+
+| Stratum | Checked |
+|---|---|
+| Far from other matches in the entry, i.e. isolated in the OCR | 12 |
+| 1–4-word exact dialogue lines | 10 |
+| Date headings / bag matches | 10 |
+| Off-chain verbatim runs | 6 |
+| ≥15-word runs | 8 |
+| Local short | 10 |
+| Local long | 10 |
+
+60 of 66 were correct (91%). All 6 errors fell into two failing classes:
+- **1–2-word exact matches** ("— Pourquoi ?", "moi.", "Ma tante:"): 3 of 6 were coincidences.
+- **Local matches carried only by scattered common 4-grams** ("je ne sais pas ce que", "il n'y a … rien"): 104.0305, 004.0102, 060.0846.
+
+Isolation or distance from the date was not itself a failure signal: every "far" add with a ≥15-word run was correct.
+
+**Settled rule (v2).** A paragraph is tagged when any one of these holds:
+- (a) A verbatim run of ≥15 words appears anywhere in the edition.
+- (b) Inside the anchor-bracketed region of the edition, one of:
+  - a ≥8-word verbatim run;
+  - ≥10 words covered by *clustered rare trigrams* (trigrams occurring ≤20× in the edition), making up ≥20% of the paragraph;
+  - for paragraphs under 25 words, clustered coverage of ≥max(5, 45%).
+- (c) Date headings and short lines match in order inside a ≤250-word gap between printed neighbours, and have at least 2 content words.
+- (d) An exact match for lines of **3–6 words** only, between printed neighbours.
+
+1–2-word lines are never tagged by inference. Old tags without counter-evidence are kept; only the 5 verified-absent ones are removed.
+
+A fresh sample of 30 v2 adds, excluding ≥15-word runs, was 30 of 30 correct. **Estimated precision of the adds is ≥97%.** v2 dropped 225 v1 adds (187 were 1–2-word lines, 38 weak locals) and added 4, for a final net of **+3,087 / −5** in `_original`.
+
+v2 has been applied to _original, cz, en and fr (122+100+122+122 files). `diffcheck` found 0 bad and the per-paragraph re-parse found 0 mismatches. The 169 carnet×tree gates all pass: `verify-carnet` 0 fail, `splicescan` empty. `glossary-missing`: 0.
+
+**Written so far (safe to commit as layer A):**
+- `content/_original` 000–106 (1,723 files, **excluding** the deferred 5 in 068).
+- `content/cz` 000–063 and 071–106. 071–077 were written in pass 1, before scope change 2, and have not been touched since. cz 071–077 also carries the fablelous agent's edits.
+- `content/en` 000–106 (2,049 files).
+- `content/fr` 000–106 (1,740 files).
+
+The full list is in the scratchpad: `edtags-changed.txt`. Note that en/fr 068 and 100 and _original/100 were written in pass 1, before scope change 1.
+
+**Pending (not written; dry-run operation lists in the scratchpad `pending_*.json`):**
+- `_original/068`: 5 files, +8 Censored / +56 Kernberger. Re-score after the source restore lands; 068.0238 was scored on an English stub.
+- `_original/100`: in sync, but its text was restored after scoring, so re-score it.
+- `cz` 064–077 and 100: 140 files. +549/−12 Censored, +493/−6 Kernberger.
+- en and fr: 1 operation each (−Censored in 068/100).
+- uk: 1,862 files. +3,203/−5 Censored, +4,760/−64 Kernberger.
+
+## Phase B (Kernberger meaning alignment)
+Status: STARTING. Batch results are appended below as each batch completes.

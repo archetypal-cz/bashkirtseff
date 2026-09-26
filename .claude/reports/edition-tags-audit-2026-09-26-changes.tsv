@@ -150,6 +150,7 @@ pid	file	tag	change	evidence
 003.0303	content/_original/003/1873-04-14.md	Censored_1887	+	run31 run=31 nw=60
 003.0304	content/_original/003/1873-04-14.md	Censored_1887	+	local64/129-w178 run=11 nw=129
 003.0304	content/_original/003/1873-04-14.md	Kernberger	+	strong m=0.30
+004.0004	content/_original/004/1873-04-15.md	Censored_1887	+	local5/11-w178 run=5 nw=11
 004.0011	content/_original/004/1873-04-16.md	Censored_1887	+	local25/51-w178 run=12 nw=51
 004.0013	content/_original/004/1873-04-16.md	Censored_1887	+	shortseq3-w178 run=0 nw=3
 004.0014	content/_original/004/1873-04-16.md	Censored_1887	+	shortseq3-w178 run=0 nw=3
@@ -159,7 +160,6 @@ pid	file	tag	change	evidence
 004.0018	content/_original/004/1873-04-16.md	Censored_1887	+	local14/50-w127 run=6 nw=50
 004.0019	content/_original/004/1873-04-16.md	Censored_1887	+	local40/62-w127 run=14 nw=62
 004.0024	content/_original/004/1873-04-17.md	Kernberger	+	strong m=0.53
-004.0041	content/_original/004/1873-04-17.md	Censored_1887	+	shortseq1-w127 run=0 nw=1
 004.0044	content/_original/004/1873-04-17.md	Kernberger	+	strong m=0.82
 004.0046	content/_original/004/1873-04-17.md	Kernberger	+	strong m=0.48
 004.0052	content/_original/004/1873-04-17.md	Kernberger	+	strong m=0.27
@@ -172,7 +172,6 @@ pid	file	tag	change	evidence
 004.0095	content/_original/004/1873-04-20.md	Kernberger	+	strong m=0.54
 004.0096	content/_original/004/1873-04-20.md	Kernberger	+	strong m=0.37
 004.0101	content/_original/004/1873-04-20.md	Kernberger	+	strong m=0.46
-004.0102	content/_original/004/1873-04-20.md	Censored_1887	+	local10/40-w127 run=7 nw=40
 004.0130	content/_original/004/1873-04-21.md	Kernberger	+	strong m=0.42
 004.0136	content/_original/004/1873-04-22.md	Kernberger	+	strong m=0.45
 004.0158	content/_original/004/1873-04-24.md	Kernberger	+	strong m=0.48
@@ -266,7 +265,6 @@ pid	file	tag	change	evidence
 005.0220	content/_original/005/1873-06-08.md	Censored_1887	+	local21/54-w109 run=14 nw=54
 005.0220	content/_original/005/1873-06-08.md	Kernberger	+	strong m=0.27
 005.0222	content/_original/005/1873-06-09.md	Censored_1887	+	run31 run=31 nw=195
-005.0232	content/_original/005/1873-06-10.md	Censored_1887	+	local5/8-w705 run=5 nw=8
 005.0232	content/_original/005/1873-06-10.md	Kernberger	+	strong m=1.00
 005.0233	content/_original/005/1873-06-10.md	Censored_1887	+	run22 run=22 nw=282
 005.0236	content/_original/005/1873-06-10.md	Censored_1887	+	run18 run=18 nw=127
@@ -298,7 +296,6 @@ pid	file	tag	change	evidence
 006.0079	content/_original/006/1873-06-23.md	Kernberger	+	strong m=0.30
 006.0099	content/_original/006/1873-06-27.md	Kernberger	+	strong m=0.35
 006.0125	content/_original/006/1873-06-29.md	Censored_1887	+	local8/13-w74 run=8 nw=13
-006.0148	content/_original/006/1873-06-29.md	Censored_1887	+	shortseq1-w74 run=0 nw=1
 006.0164	content/_original/006/1873-06-29.md	Kernberger	+	strong m=0.42
 006.0171	content/_original/006/1873-07-01.md	Kernberger	+	strong m=0.39
 006.0172	content/_original/006/1873-07-01.md	Kernberger	+	strong m=0.35
@@ -316,11 +313,9 @@ pid	file	tag	change	evidence
 007.0030	content/_original/007/1873-07-17.md	Kernberger	+	strong m=0.45
 007.0031	content/_original/007/1873-07-17.md	Kernberger	+	strong m=0.47
 007.0032	content/_original/007/1873-07-17.md	Kernberger	+	strong m=0.26
-007.0047	content/_original/007/1873-07-18.md	Censored_1887	+	shortseq2-w136 run=0 nw=2
 007.0066	content/_original/007/1873-07-18.md	Censored_1887	+	local63/249-w136 run=13 nw=249
 007.0067	content/_original/007/1873-07-18.md	Censored_1887	+	run23 run=23 nw=111
 007.0072	content/_original/007/1873-07-19.md	Censored_1887	+	local32/82-w168 run=10 nw=82
-007.0082	content/_original/007/1873-07-20.md	Censored_1887	+	local14/60-w168 run=5 nw=60
 007.0083	content/_original/007/1873-07-20.md	Censored_1887	+	local57/129-w168 run=12 nw=129
 007.0085	content/_original/007/1873-07-20.md	Censored_1887	+	run16 run=16 nw=24
 007.0086	content/_original/007/1873-07-20.md	Censored_1887	+	run25 run=25 nw=125
@@ -330,7 +325,6 @@ pid	file	tag	change	evidence
 007.0171	content/_original/007/1873-07-26.md	Kernberger	+	strong m=0.47
 007.0239	content/_original/007/1873-07-27.md	Kernberger	+	strong m=0.72
 007.0263	content/_original/007/1873-07-29.md	Censored_1887	+	shortseq3-w270 run=0 nw=3
-007.0264	content/_original/007/1873-07-29.md	Censored_1887	+	shortseq1-w13 run=0 nw=1
 007.0265	content/_original/007/1873-07-29.md	Censored_1887	+	local12/69-w270 run=8 nw=69
 007.0267	content/_original/007/1873-07-29.md	Censored_1887	+	local9/14-w270 run=9 nw=14
 007.0298	content/_original/007/1873-07-30.md	Kernberger	-	llm-verified-NO
@@ -405,7 +399,6 @@ pid	file	tag	change	evidence
 009.0278	content/_original/009/1873-09-21.md	Kernberger	+	strong m=0.31
 009.0284	content/_original/009/1873-09-22.md	Kernberger	+	strong m=0.54
 009.0287	content/_original/009/1873-09-22.md	Kernberger	+	strong m=0.61
-010.0030	content/_original/010/1873-09-23.md	Censored_1887	+	shortseq1-w76 run=0 nw=1
 010.0045	content/_original/010/1873-09-24.md	Kernberger	+	strong m=0.56
 010.0048	content/_original/010/1873-09-24.md	Kernberger	+	strong m=0.22
 010.0059	content/_original/010/1873-09-25.md	Kernberger	+	strong m=0.36
@@ -417,7 +410,6 @@ pid	file	tag	change	evidence
 010.0129	content/_original/010/1873-09-29.md	Kernberger	+	strong m=0.34
 010.0162	content/_original/010/1873-10-01.md	Kernberger	+	strong m=0.61
 010.0170	content/_original/010/1873-10-02.md	Kernberger	+	strong m=0.62
-010.0173	content/_original/010/1873-10-02.md	Censored_1887	+	local5/10-w76 run=5 nw=10
 010.0183	content/_original/010/1873-10-03.md	Kernberger	+	strong m=0.60
 010.0222	content/_original/010/1873-10-04.md	Kernberger	+	strong m=0.75
 010.0248	content/_original/010/1873-10-05.md	Kernberger	+	strong m=0.76
@@ -430,7 +422,6 @@ pid	file	tag	change	evidence
 010.0345	content/_original/010/1873-10-10.md	Kernberger	+	strong m=0.32
 010.0403	content/_original/010/1873-10-13.md	Censored_1887	+	bag3-w76 run=0 nw=3
 010.0408	content/_original/010/1873-10-13.md	Kernberger	+	strong m=0.56
-010.0409	content/_original/010/1873-10-13.md	Censored_1887	+	shortseq2-w98 run=0 nw=2
 010.0411	content/_original/010/1873-10-13.md	Censored_1887	+	local75/111-w245 run=9 nw=111
 010.0413	content/_original/010/1873-10-13.md	Censored_1887	+	run21 run=21 nw=99
 010.0428	content/_original/010/1873-10-13.md	Kernberger	+	strong m=0.71
@@ -462,8 +453,7 @@ pid	file	tag	change	evidence
 011.0051	content/_original/011/1873-10-17.md	Kernberger	+	strong m=0.33
 011.0057	content/_original/011/1873-10-17.md	Kernberger	+	strong m=0.20
 011.0066	content/_original/011/1873-10-17.md	Censored_1887	+	local13/28-w68 run=5 nw=28
-011.0070	content/_original/011/1873-10-17.md	Censored_1887	+	shortseq1-w88 run=0 nw=1
-011.0071	content/_original/011/1873-10-17.md	Censored_1887	+	local5/5-w88 run=5 nw=5
+011.0071	content/_original/011/1873-10-17.md	Censored_1887	+	shortseq5-w88 run=5 nw=5
 011.0072	content/_original/011/1873-10-17.md	Censored_1887	+	local21/36-w88 run=6 nw=36
 011.0073	content/_original/011/1873-10-17.md	Censored_1887	+	run21 run=21 nw=55
 011.0074	content/_original/011/1873-10-17.md	Censored_1887	+	run15 run=15 nw=28
@@ -481,7 +471,6 @@ pid	file	tag	change	evidence
 011.0228	content/_original/011/1873-10-24.md	Censored_1887	+	local8/61-w69 run=8 nw=61
 011.0240	content/_original/011/1873-10-24.md	Censored_1887	+	local23/28-w69 run=12 nw=28
 011.0241	content/_original/011/1873-10-24.md	Censored_1887	+	local12/46-w69 run=12 nw=46
-011.0243	content/_original/011/1873-10-24.md	Censored_1887	+	local13/49-w69 run=5 nw=49
 011.0245	content/_original/011/1873-10-24.md	Censored_1887	+	run15 run=15 nw=41
 011.0246	content/_original/011/1873-10-24.md	Censored_1887	+	local22/23-w93 run=13 nw=23
 011.0247	content/_original/011/1873-10-24.md	Censored_1887	+	local11/24-w93 run=11 nw=24
@@ -495,7 +484,6 @@ pid	file	tag	change	evidence
 011.0260	content/_original/011/1873-10-25.md	Censored_1887	+	local42/133-w132 run=11 nw=133
 011.0308	content/_original/011/1873-10-28.md	Censored_1887	+	bag3-w132 run=0 nw=3
 011.0314	content/_original/011/1873-10-28.md	Censored_1887	+	local10/119-w99 run=10 nw=119
-011.0329	content/_original/011/1873-10-28.md	Censored_1887	+	local18/68-w99 run=7 nw=68
 011.0331	content/_original/011/1873-10-28.md	Censored_1887	+	local12/29-w99 run=5 nw=29
 011.0343	content/_original/011/1873-10-29.md	Kernberger	+	strong m=0.48
 011.0389	content/_original/011/1873-10-31.md	Censored_1887	+	run26 run=26 nw=112
@@ -507,7 +495,6 @@ pid	file	tag	change	evidence
 012.0064	content/_original/012/1873-11-06.md	Kernberger	+	strong m=0.37
 012.0098	content/_original/012/1873-11-08.md	Censored_1887	+	bag3-w145 run=0 nw=3
 012.0100	content/_original/012/1873-11-08.md	Kernberger	+	strong m=0.54
-012.0126	content/_original/012/1873-11-09.md	Censored_1887	+	local12/59-w145 run=6 nw=59
 012.0154	content/_original/012/1873-11-10.md	Kernberger	+	strong m=0.42
 012.0157	content/_original/012/1873-11-10.md	Kernberger	+	strong m=0.36
 012.0165	content/_original/012/1873-11-11.md	Kernberger	+	strong m=0.40
@@ -548,7 +535,6 @@ pid	file	tag	change	evidence
 014.0059	content/_original/014/1873-12-13.md	Kernberger	+	strong m=0.50
 014.0066	content/_original/014/1873-12-14.md	Kernberger	+	strong m=0.71
 014.0068	content/_original/014/1873-12-14.md	Kernberger	+	strong m=0.50
-014.0098	content/_original/014/1873-12-14.md	Censored_1887	+	shortseq1-w77 run=0 nw=1
 014.0127	content/_original/014/1873-12-16.md	Kernberger	+	strong m=0.51
 014.0148	content/_original/014/1873-12-19.md	Kernberger	+	strong m=0.42
 014.0151	content/_original/014/1873-12-19.md	Kernberger	+	strong m=0.45
@@ -576,8 +562,6 @@ pid	file	tag	change	evidence
 015.0137	content/_original/015/1874-01-12.md	Kernberger	+	strong m=0.34
 015.0139	content/_original/015/1874-01-12.md	Kernberger	+	strong m=0.68
 015.0140	content/_original/015/1874-01-12.md	Censored_1887	+	local12/14-w97 run=7 nw=14
-015.0143	content/_original/015/1874-01-12.md	Censored_1887	+	shortseq1-w97 run=0 nw=1
-015.0144	content/_original/015/1874-01-12.md	Censored_1887	+	shortseq1-w97 run=0 nw=1
 015.0188	content/_original/015/1874-01-15.md	Kernberger	+	strong m=0.43
 015.0191	content/_original/015/1874-01-15.md	Kernberger	+	strong m=0.53
 015.0202	content/_original/015/1874-01-15.md	Kernberger	+	strong m=0.52
@@ -682,7 +666,6 @@ pid	file	tag	change	evidence
 020.0144	content/_original/020/1874-06-06.md	Kernberger	+	strong m=0.24
 020.0187	content/_original/020/1874-06-09.md	Kernberger	+	strong m=0.50
 020.0190	content/_original/020/1874-06-09.md	Kernberger	+	strong m=0.47
-020.0209	content/_original/020/1874-06-11.md	Censored_1887	+	local13/63-w97 run=6 nw=63
 020.0252	content/_original/020/1874-06-14.md	Kernberger	+	strong m=0.42
 020.0253	content/_original/020/1874-06-14.md	Kernberger	+	strong m=0.36
 020.0271	content/_original/020/1874-06-14.md	Kernberger	+	strong m=0.34
@@ -704,7 +687,6 @@ pid	file	tag	change	evidence
 021.0004	content/_original/021/1874-07-05.md	Kernberger	+	strong m=0.54
 021.0014	content/_original/021/1874-07-05.md	Kernberger	+	strong m=0.68
 021.0070	content/_original/021/1874-07-09.md	Kernberger	+	strong m=0.38
-021.0084	content/_original/021/1874-07-09.md	Censored_1887	+	local12/48-w97 run=5 nw=48
 021.0097	content/_original/021/1874-07-10.md	Kernberger	+	strong m=0.73
 021.0107	content/_original/021/1874-07-10.md	Kernberger	+	strong m=0.51
 021.0125	content/_original/021/1874-07-10.md	Kernberger	+	strong m=0.44
@@ -757,8 +739,6 @@ pid	file	tag	change	evidence
 022.0286	content/_original/022/1874-08-01.md	Kernberger	+	strong m=0.56
 022.0288	content/_original/022/1874-08-01.md	Kernberger	+	strong m=0.66
 022.0292	content/_original/022/1874-08-01.md	Kernberger	+	strong m=0.96
-022.0293	content/_original/022/1874-08-01.md	Censored_1887	+	shortseq1-w97 run=0 nw=1
-022.0294	content/_original/022/1874-08-01.md	Censored_1887	+	shortseq1-w97 run=0 nw=1
 022.0313	content/_original/022/1874-08-01.md	Kernberger	+	strong m=0.83
 022.0314	content/_original/022/1874-08-01.md	Kernberger	+	strong m=1.00
 022.0318	content/_original/022/1874-08-01.md	Kernberger	+	strong m=0.70
@@ -779,7 +759,6 @@ pid	file	tag	change	evidence
 023.0176	content/_original/023/1874-08-19.md	Kernberger	+	strong m=0.47
 024.0021	content/_original/024/1874-09-16.md	Kernberger	+	strong m=0.59
 024.0030	content/_original/024/1874-09-17.md	Kernberger	+	strong m=0.46
-024.0045	content/_original/024/1874-09-18.md	Censored_1887	+	shortseq1-w97 run=0 nw=1
 024.0069	content/_original/024/1874-09-22.md	Kernberger	+	strong m=0.40
 024.0152	content/_original/024/1874-09-27.md	Kernberger	+	strong m=0.43
 024.0162	content/_original/024/1874-09-27.md	Kernberger	+	strong m=0.55
@@ -912,7 +891,6 @@ pid	file	tag	change	evidence
 030.0268	content/_original/030/1875-03-26.md	Kernberger	+	strong m=0.83
 030.0271	content/_original/030/1875-03-26.md	Kernberger	+	strong m=0.40
 030.0283	content/_original/030/1875-03-27.md	Kernberger	+	strong m=0.42
-030.0284	content/_original/030/1875-03-27.md	Censored_1887	+	shortseq2-w97 run=0 nw=2
 030.0293	content/_original/030/1875-03-27.md	Kernberger	+	strong m=0.43
 030.0294	content/_original/030/1875-03-27.md	Kernberger	+	strong m=0.40
 030.0318	content/_original/030/1875-03-29.md	Kernberger	+	strong m=0.35
@@ -938,7 +916,6 @@ pid	file	tag	change	evidence
 032.0121	content/_original/032/1875-04-27.md	Kernberger	+	strong m=0.54
 032.0122	content/_original/032/1875-04-27.md	Kernberger	+	strong m=0.42
 032.0124	content/_original/032/1875-04-27.md	Kernberger	+	strong m=0.68
-032.0227	content/_original/032/1875-05-05.md	Censored_1887	+	shortseq2-w97 run=0 nw=2
 032.0257	content/_original/032/1875-05-06.md	Kernberger	+	strong m=0.55
 032.0258	content/_original/032/1875-05-06.md	Kernberger	+	strong m=0.84
 032.0260	content/_original/032/1875-05-06.md	Kernberger	+	strong m=0.64
@@ -1024,7 +1001,6 @@ pid	file	tag	change	evidence
 036.0096	content/_original/036/1875-07-11.md	Kernberger	+	strong m=0.44
 036.0099	content/_original/036/1875-07-11.md	Kernberger	+	strong m=1.00
 036.0126	content/_original/036/1875-07-11.md	Kernberger	+	strong m=0.46
-036.0134	content/_original/036/1875-07-12.md	Censored_1887	+	shortseq1-w39 run=0 nw=1
 036.0154	content/_original/036/1875-07-13.md	Kernberger	+	strong m=0.69
 036.0179	content/_original/036/1875-07-13.md	Kernberger	+	strong m=0.45
 036.0186	content/_original/036/1875-07-14.md	Censored_1887	+	run25 run=25 nw=96
@@ -1037,8 +1013,6 @@ pid	file	tag	change	evidence
 037.0021	content/_original/037/1875-07-15.md	Censored_1887	+	run16 run=16 nw=43
 037.0021	content/_original/037/1875-07-15.md	Kernberger	+	llm-verified-YES
 037.0033	content/_original/037/1875-07-15.md	Kernberger	+	llm-verified-YES
-037.0050	content/_original/037/1875-07-15.md	Censored_1887	+	shortseq2-w59 run=0 nw=2
-037.0085	content/_original/037/1875-07-15.md	Censored_1887	+	shortseq1-w59 run=0 nw=1
 037.0110	content/_original/037/1875-07-15.md	Kernberger	+	llm-verified-YES
 037.0124	content/_original/037/1875-07-16.md	Censored_1887	+	bag3-w59 run=0 nw=3
 037.0135	content/_original/037/1875-07-16.md	Censored_1887	+	run35 run=35 nw=84
@@ -1072,7 +1046,6 @@ pid	file	tag	change	evidence
 038.0004	content/_original/038/1875-08-01.md	Kernberger	+	strong m=0.49
 038.0013	content/_original/038/1875-08-02.md	Censored_1887	+	shortseq3-w258 run=0 nw=3
 038.0031	content/_original/038/1875-08-02.md	Censored_1887	+	local16/25-w258 run=7 nw=25
-038.0049	content/_original/038/1875-08-03.md	Censored_1887	+	shortseq1-w20 run=0 nw=1
 038.0061	content/_original/038/1875-08-03.md	Kernberger	+	strong m=0.40
 038.0073	content/_original/038/1875-08-03.md	Censored_1887	+	run16 run=16 nw=31
 038.0154	content/_original/038/1875-08-05.md	Censored_1887	+	run15 run=15 nw=95
@@ -1080,7 +1053,6 @@ pid	file	tag	change	evidence
 038.0222	content/_original/038/1875-08-10.md	Kernberger	+	strong m=0.68
 038.0262	content/_original/038/1875-08-11.md	Kernberger	+	strong m=0.65
 038.0274	content/_original/038/1875-08-12.md	Kernberger	+	strong m=0.47
-038.0279	content/_original/038/1875-08-12.md	Censored_1887	+	local5/9-w10 run=6 nw=9
 038.0294	content/_original/038/1875-08-13.md	Kernberger	+	strong m=0.57
 038.0295	content/_original/038/1875-08-13.md	Kernberger	+	strong m=0.61
 039.0045	content/_original/039/1875-08-17.md	Censored_1887	+	run18 run=18 nw=112
@@ -1106,7 +1078,6 @@ pid	file	tag	change	evidence
 040.0057	content/_original/040/1875-08-27-28.md	Kernberger	+	strong m=1.00
 040.0058	content/_original/040/1875-08-27-28.md	Kernberger	+	strong m=0.69
 040.0059	content/_original/040/1875-08-27-28.md	Kernberger	+	strong m=0.54
-040.0060	content/_original/040/1875-08-27-28.md	Censored_1887	+	local8/16-w0 run=5 nw=16
 040.0061	content/_original/040/1875-08-27-28.md	Kernberger	+	strong m=0.63
 040.0064	content/_original/040/1875-08-27-28.md	Kernberger	+	strong m=0.46
 040.0065	content/_original/040/1875-08-27-28.md	Kernberger	+	strong m=0.48
@@ -1217,7 +1188,6 @@ pid	file	tag	change	evidence
 044.0046	content/_original/044/1875-09-22.md	Kernberger	+	strong m=0.51
 044.0048	content/_original/044/1875-09-22.md	Kernberger	+	strong m=0.74
 044.0053	content/_original/044/1875-09-22.md	Kernberger	+	strong m=0.32
-044.0066	content/_original/044/1875-09-22.md	Censored_1887	+	local5/9-w281 run=5 nw=9
 044.0073	content/_original/044/1875-09-23.md	Kernberger	+	strong m=0.66
 044.0075	content/_original/044/1875-09-23.md	Kernberger	+	strong m=0.46
 044.0079	content/_original/044/1875-09-23.md	Kernberger	+	strong m=0.79
@@ -1320,9 +1290,6 @@ pid	file	tag	change	evidence
 048.0413	content/_original/048/1875-11-01.md	Kernberger	+	strong m=0.85
 048.0539	content/_original/048/1875-11-05.md	Kernberger	+	strong m=0.46
 048.0590	content/_original/048/1875-11-05.md	Kernberger	+	strong m=0.45
-048.0692	content/_original/048/1875-11-07.md	Censored_1887	+	shortseq1-w85 run=0 nw=1
-049.0135	content/_original/049/1875-11-11.md	Censored_1887	+	local8/14-w85 run=6 nw=14
-049.0185	content/_original/049/1875-11-12.md	Censored_1887	+	shortseq1-w85 run=0 nw=1
 049.0234	content/_original/049/1875-11-14.md	Kernberger	+	strong m=0.65
 049.0260	content/_original/049/1875-11-14.md	Kernberger	+	strong m=0.71
 049.0279	content/_original/049/1875-11-15.md	Kernberger	+	strong m=0.52
@@ -1332,8 +1299,6 @@ pid	file	tag	change	evidence
 049.0294	content/_original/049/1875-11-15.md	Kernberger	+	strong m=0.46
 049.0297	content/_original/049/1875-11-15.md	Kernberger	+	strong m=0.31
 049.0305	content/_original/049/1875-11-15.md	Kernberger	+	strong m=0.41
-049.0310	content/_original/049/1875-11-15.md	Censored_1887	+	local8/16-w85 run=5 nw=16
-049.0326	content/_original/049/1875-11-16.md	Censored_1887	+	shortseq1-w85 run=0 nw=1
 049.0350	content/_original/049/1875-11-17.md	Kernberger	+	strong m=0.50
 049.0352	content/_original/049/1875-11-17.md	Kernberger	+	strong m=0.47
 050.0141	content/_original/050/1875-11-23.md	Kernberger	+	strong m=0.31
@@ -1346,7 +1311,6 @@ pid	file	tag	change	evidence
 050.0433	content/_original/050/1875-12-03.md	Kernberger	+	strong m=0.31
 050.0450	content/_original/050/1875-12-04.md	Kernberger	+	strong m=0.52
 050.0454	content/_original/050/1875-12-04.md	Kernberger	+	strong m=0.69
-050.0482	content/_original/050/1875-12-04.md	Censored_1887	+	local16/50-w85 run=5 nw=50
 050.0521	content/_original/050/1875-12-07.md	Kernberger	+	strong m=0.38
 050.0539	content/_original/050/1875-12-08.md	Kernberger	+	strong m=0.42
 050.0622	content/_original/050/1875-12-11.md	Kernberger	+	strong m=0.40
@@ -1374,7 +1338,6 @@ pid	file	tag	change	evidence
 051.0195	content/_original/051/1876-01-01.md	Kernberger	+	strong m=0.80
 051.0208	content/_original/051/1876-01-01.md	Kernberger	+	strong m=0.46
 051.0211	content/_original/051/1876-01-01.md	Kernberger	+	strong m=0.63
-051.0213	content/_original/051/1876-01-01.md	Censored_1887	+	local6/12-w741 run=6 nw=12
 051.0214	content/_original/051/1876-01-01.md	Kernberger	+	strong m=0.85
 051.0224	content/_original/051/1876-01-01.md	Censored_1887	+	local10/40-w741 run=10 nw=40
 051.0233	content/_original/051/1876-01-01.md	Kernberger	+	strong m=0.78
@@ -1435,7 +1398,6 @@ pid	file	tag	change	evidence
 052.0131	content/_original/052/1876-01-13.md	Kernberger	+	strong m=0.63
 052.0143	content/_original/052/1876-01-14.md	Censored_1887	+	bag3-w59 run=0 nw=3
 052.0148	content/_original/052/1876-01-14.md	Kernberger	+	strong m=0.46
-052.0159	content/_original/052/1876-01-14.md	Censored_1887	+	local5/10-w51 run=5 nw=10
 052.0175	content/_original/052/1876-01-15.md	Censored_1887	+	local13/23-w48 run=13 nw=23
 052.0176	content/_original/052/1876-01-15.md	Censored_1887	+	run22 run=22 nw=22
 052.0177	content/_original/052/1876-01-15.md	Censored_1887	+	local15/17-w64 run=10 nw=17
@@ -1489,8 +1451,6 @@ pid	file	tag	change	evidence
 053.0469	content/_original/053/1876-02-11.md	Kernberger	+	strong m=0.43
 053.0471	content/_original/053/1876-02-11.md	Kernberger	+	strong m=0.34
 053.0472	content/_original/053/1876-02-11.md	Kernberger	+	strong m=0.78
-054.0048	content/_original/054/1876-02-13.md	Censored_1887	+	shortseq1-w60 run=0 nw=1
-054.0061	content/_original/054/1876-02-13.md	Censored_1887	+	shortseq1-w60 run=0 nw=1
 054.0067	content/_original/054/1876-02-14.md	Censored_1887	+	bag3-w60 run=0 nw=3
 054.0071	content/_original/054/1876-02-14.md	Censored_1887	+	local21/58-w60 run=7 nw=58
 054.0072	content/_original/054/1876-02-14.md	Censored_1887	+	run30 run=30 nw=45
@@ -1517,7 +1477,6 @@ pid	file	tag	change	evidence
 054.0226	content/_original/054/1876-02-18.md	Censored_1887	+	local14/14-w63 run=14 nw=14
 054.0227	content/_original/054/1876-02-18.md	Censored_1887	+	shortseq3-w63 run=0 nw=3
 054.0231	content/_original/054/1876-02-18.md	Censored_1887	+	local5/5-w63 run=5 nw=5
-054.0232	content/_original/054/1876-02-18.md	Censored_1887	+	shortseq1-w63 run=0 nw=1
 054.0233	content/_original/054/1876-02-18.md	Censored_1887	+	run17 run=17 nw=25
 054.0234	content/_original/054/1876-02-18.md	Censored_1887	+	run28 run=28 nw=28
 054.0235	content/_original/054/1876-02-18.md	Censored_1887	+	local17/18-w51 run=14 nw=18
@@ -1538,7 +1497,7 @@ pid	file	tag	change	evidence
 054.0254	content/_original/054/1876-02-18.md	Censored_1887	+	local12/12-w66 run=12 nw=12
 054.0255	content/_original/054/1876-02-18.md	Censored_1887	+	local8/8-w66 run=8 nw=8
 054.0256	content/_original/054/1876-02-18.md	Censored_1887	+	local8/8-w66 run=8 nw=8
-054.0257	content/_original/054/1876-02-18.md	Censored_1887	+	local5/8-w66 run=5 nw=8
+054.0257	content/_original/054/1876-02-18.md	Censored_1887	+	bag8-w66 run=5 nw=8
 054.0258	content/_original/054/1876-02-18.md	Censored_1887	+	local6/6-w66 run=6 nw=6
 054.0259	content/_original/054/1876-02-18.md	Censored_1887	+	run23 run=23 nw=23
 054.0259	content/_original/054/1876-02-18.md	Kernberger	+	strong m=0.65
@@ -1588,7 +1547,6 @@ pid	file	tag	change	evidence
 054.0401	content/_original/054/1876-02-23.md	Censored_1887	+	local7/8-w104 run=4 nw=8
 054.0402	content/_original/054/1876-02-23.md	Kernberger	+	llm-verified-YES
 054.0403	content/_original/054/1876-02-23.md	Censored_1887	+	local15/32-w104 run=10 nw=32
-054.0407	content/_original/054/1876-02-23.md	Censored_1887	+	local5/8-w85 run=5 nw=8
 054.0408	content/_original/054/1876-02-23.md	Censored_1887	+	local11/26-w85 run=7 nw=26
 054.0410	content/_original/054/1876-02-23.md	Censored_1887	+	local13/17-w85 run=7 nw=17
 054.0424	content/_original/054/1876-02-24.md	Kernberger	+	strong m=0.71
@@ -1602,9 +1560,7 @@ pid	file	tag	change	evidence
 054.0517	content/_original/054/1876-02-27.md	Kernberger	+	llm-verified-YES
 054.0518	content/_original/054/1876-02-27.md	Kernberger	+	strong m=0.48
 054.0520	content/_original/054/1876-02-28.md	Censored_1887	+	bag3-w16 run=0 nw=3
-054.0529	content/_original/054/1876-02-28.md	Censored_1887	+	shortseq1-w1 run=0 nw=1
 054.0535	content/_original/054/1876-02-28.md	Censored_1887	+	bag4-w169 run=4 nw=4
-054.0536	content/_original/054/1876-02-28.md	Censored_1887	+	shortseq2-w2 run=0 nw=2
 054.0539	content/_original/054/1876-02-28.md	Kernberger	+	strong m=0.53
 054.0540	content/_original/054/1876-02-28.md	Censored_1887	+	local29/43-w169 run=7 nw=43
 054.0555	content/_original/054/1876-02-28.md	Censored_1887	+	local8/33-w45 run=8 nw=33
@@ -1622,7 +1578,6 @@ pid	file	tag	change	evidence
 055.0107	content/_original/055/1876-03-05.md	Censored_1887	+	run15 run=15 nw=52
 055.0107	content/_original/055/1876-03-05.md	Kernberger	+	strong m=0.27
 055.0114	content/_original/055/1876-03-05.md	Censored_1887	+	run15 run=15 nw=34
-055.0117	content/_original/055/1876-03-05.md	Censored_1887	+	shortseq2-w131 run=0 nw=2
 055.0120	content/_original/055/1876-03-05.md	Censored_1887	+	bag4-w131 run=0 nw=4
 055.0128	content/_original/055/1876-03-05.md	Kernberger	+	strong m=0.62
 055.0147	content/_original/055/1876-03-05.md	Censored_1887	+	run17 run=17 nw=38
@@ -1654,7 +1609,6 @@ pid	file	tag	change	evidence
 055.0284	content/_original/055/1876-03-08.md	Kernberger	+	strong m=0.52
 055.0286	content/_original/055/1876-03-08.md	Censored_1887	+	bag7-w86 run=0 nw=7
 055.0287	content/_original/055/1876-03-08.md	Censored_1887	+	local6/6-w86 run=6 nw=6
-055.0288	content/_original/055/1876-03-08.md	Censored_1887	+	shortseq1-w86 run=0 nw=1
 055.0289	content/_original/055/1876-03-08.md	Censored_1887	+	local11/18-w86 run=8 nw=18
 055.0289	content/_original/055/1876-03-08.md	Kernberger	+	strong m=0.47
 055.0293	content/_original/055/1876-03-08.md	Kernberger	+	strong m=0.70
@@ -1686,8 +1640,7 @@ pid	file	tag	change	evidence
 055.0366	content/_original/055/1876-03-08.md	Censored_1887	+	run15 run=15 nw=15
 055.0367	content/_original/055/1876-03-08.md	Censored_1887	+	local10/10-w50 run=10 nw=10
 055.0368	content/_original/055/1876-03-08.md	Censored_1887	+	local9/11-w50 run=9 nw=11
-055.0369	content/_original/055/1876-03-08.md	Censored_1887	+	shortseq2-w50 run=0 nw=2
-055.0370	content/_original/055/1876-03-08.md	Censored_1887	+	local6/9-w50 run=6 nw=9
+055.0370	content/_original/055/1876-03-08.md	Censored_1887	+	bag9-w50 run=6 nw=9
 055.0371	content/_original/055/1876-03-08.md	Censored_1887	+	local22/28-w50 run=12 nw=28
 055.0372	content/_original/055/1876-03-08.md	Censored_1887	+	run23 run=23 nw=28
 055.0373	content/_original/055/1876-03-08.md	Censored_1887	+	run16 run=16 nw=20
@@ -1703,15 +1656,12 @@ pid	file	tag	change	evidence
 055.0384	content/_original/055/1876-03-08.md	Censored_1887	+	run17 run=17 nw=34
 055.0385	content/_original/055/1876-03-08.md	Censored_1887	+	run25 run=25 nw=35
 055.0387	content/_original/055/1876-03-08.md	Censored_1887	+	local9/9-w80 run=9 nw=9
-055.0388	content/_original/055/1876-03-08.md	Censored_1887	+	shortseq2-w80 run=0 nw=2
 055.0389	content/_original/055/1876-03-08.md	Censored_1887	+	bag10-w80 run=4 nw=10
 055.0390	content/_original/055/1876-03-08.md	Censored_1887	+	local6/6-w80 run=6 nw=6
 055.0392	content/_original/055/1876-03-08.md	Censored_1887	+	local7/7-w80 run=7 nw=7
 055.0393	content/_original/055/1876-03-08.md	Censored_1887	+	local17/18-w80 run=9 nw=18
 055.0394	content/_original/055/1876-03-08.md	Censored_1887	+	run18 run=18 nw=36
 055.0398	content/_original/055/1876-03-08.md	Censored_1887	+	run30 run=30 nw=52
-055.0399	content/_original/055/1876-03-08.md	Censored_1887	+	shortseq2-w68 run=0 nw=2
-055.0401	content/_original/055/1876-03-08.md	Censored_1887	+	shortseq1-w68 run=0 nw=1
 055.0402	content/_original/055/1876-03-08.md	Censored_1887	+	run33 run=33 nw=87
 055.0402	content/_original/055/1876-03-08.md	Kernberger	+	strong m=0.46
 055.0403	content/_original/055/1876-03-08.md	Censored_1887	+	bag4-w20 run=4 nw=4
@@ -1805,15 +1755,12 @@ pid	file	tag	change	evidence
 055.1103	content/_original/055/1876-03-25.md	Kernberger	+	strong m=0.81
 055.1104	content/_original/055/1876-03-25.md	Censored_1887	+	bag2-w210 run=0 nw=2
 055.1105	content/_original/055/1876-03-25.md	Censored_1887	+	local16/21-w210 run=9 nw=21
-055.1106	content/_original/055/1876-03-25.md	Censored_1887	+	shortseq1-w5 run=0 nw=1
 055.1107	content/_original/055/1876-03-25.md	Censored_1887	+	run15 run=15 nw=18
-055.1108	content/_original/055/1876-03-25.md	Censored_1887	+	shortseq1-w25 run=0 nw=1
 055.1109	content/_original/055/1876-03-25.md	Censored_1887	+	local9/9-w25 run=9 nw=9
 055.1110	content/_original/055/1876-03-25.md	Censored_1887	+	run18 run=18 nw=28
 055.1112	content/_original/055/1876-03-25.md	Censored_1887	+	bag4-w84 run=4 nw=4
 055.1113	content/_original/055/1876-03-25.md	Censored_1887	+	local7/7-w84 run=7 nw=7
 055.1114	content/_original/055/1876-03-25.md	Censored_1887	+	local6/6-w84 run=6 nw=6
-055.1115	content/_original/055/1876-03-25.md	Censored_1887	+	shortseq2-w84 run=0 nw=2
 055.1117	content/_original/055/1876-03-25.md	Censored_1887	+	local5/5-w84 run=5 nw=5
 055.1118	content/_original/055/1876-03-25.md	Censored_1887	+	local7/7-w84 run=7 nw=7
 055.1119	content/_original/055/1876-03-25.md	Censored_1887	+	local9/18-w84 run=6 nw=18
@@ -1822,7 +1769,6 @@ pid	file	tag	change	evidence
 055.1152	content/_original/055/1876-03-27.md	Kernberger	+	strong m=0.23
 055.1157	content/_original/055/1876-03-27.md	Kernberger	+	strong m=0.99
 055.1159	content/_original/055/1876-03-27.md	Kernberger	+	strong m=0.46
-055.1199	content/_original/055/1876-03-27.md	Censored_1887	+	local5/10-w84 run=6 nw=10
 055.1207	content/_original/055/1876-03-27.md	Kernberger	+	strong m=0.74
 056.0002	content/_original/056/1876-03-28.md	Censored_1887	+	shortseq3-w18 run=0 nw=3
 056.0004	content/_original/056/1876-03-28.md	Censored_1887	+	shortseq3-w18 run=0 nw=3
@@ -1832,7 +1778,6 @@ pid	file	tag	change	evidence
 056.0007	content/_original/056/1876-03-28.md	Censored_1887	+	local24/48-w69 run=14 nw=48
 056.0007	content/_original/056/1876-03-28.md	Kernberger	+	strong m=0.50
 056.0009	content/_original/056/1876-03-28.md	Censored_1887	+	local6/6-w69 run=6 nw=6
-056.0010	content/_original/056/1876-03-28.md	Censored_1887	+	shortseq1-w69 run=0 nw=1
 056.0011	content/_original/056/1876-03-28.md	Censored_1887	+	shortseq3-w69 run=0 nw=3
 056.0012	content/_original/056/1876-03-28.md	Censored_1887	+	local6/10-w69 run=6 nw=10
 056.0014	content/_original/056/1876-03-28.md	Kernberger	+	strong m=0.62
@@ -1840,18 +1785,15 @@ pid	file	tag	change	evidence
 056.0017	content/_original/056/1876-03-28.md	Censored_1887	+	run15 run=15 nw=22
 056.0017	content/_original/056/1876-03-28.md	Kernberger	+	strong m=0.69
 056.0018	content/_original/056/1876-03-28.md	Censored_1887	+	run15 run=15 nw=37
-056.0019	content/_original/056/1876-03-28.md	Censored_1887	+	shortseq1-w25 run=0 nw=1
 056.0020	content/_original/056/1876-03-28.md	Censored_1887	+	run27 run=27 nw=27
 056.0020	content/_original/056/1876-03-28.md	Kernberger	+	strong m=0.98
 056.0022	content/_original/056/1876-03-28.md	Censored_1887	+	local9/11-w46 run=7 nw=11
 056.0023	content/_original/056/1876-03-28.md	Censored_1887	+	local14/14-w46 run=14 nw=14
 056.0024	content/_original/056/1876-03-28.md	Censored_1887	+	local5/5-w46 run=5 nw=5
-056.0025	content/_original/056/1876-03-28.md	Censored_1887	+	local11/28-w46 run=7 nw=28
 056.0026	content/_original/056/1876-03-28.md	Censored_1887	+	run36 run=36 nw=68
 056.0027	content/_original/056/1876-03-28.md	Censored_1887	+	local10/10-w51 run=10 nw=10
 056.0028	content/_original/056/1876-03-28.md	Censored_1887	+	local9/17-w51 run=9 nw=17
 056.0031	content/_original/056/1876-03-28.md	Censored_1887	+	run20 run=20 nw=20
-056.0032	content/_original/056/1876-03-28.md	Censored_1887	+	local10/14-w60 run=7 nw=14
 056.0062	content/_original/056/1876-03-28.md	Kernberger	+	strong m=0.42
 056.0068	content/_original/056/1876-03-28.md	Kernberger	+	strong m=0.73
 056.0075	content/_original/056/1876-03-29.md	Censored_1887	+	bag3-w60 run=0 nw=3
@@ -1866,12 +1808,10 @@ pid	file	tag	change	evidence
 056.0140	content/_original/056/1876-03-30.md	Censored_1887	+	run22 run=22 nw=103
 056.0150	content/_original/056/1876-03-30.md	Censored_1887	+	bag3-w42 run=0 nw=3
 056.0151	content/_original/056/1876-03-30.md	Censored_1887	+	run17 run=17 nw=41
-056.0154	content/_original/056/1876-03-30.md	Censored_1887	+	shortseq2-w124 run=0 nw=2
 056.0157	content/_original/056/1876-03-30.md	Censored_1887	+	local21/23-w124 run=7 nw=23
 056.0163	content/_original/056/1876-03-30.md	Kernberger	+	llm-verified-YES
 056.0169	content/_original/056/1876-03-30.md	Censored_1887	+	local7/7-w40 run=4 nw=7
 056.0171	content/_original/056/1876-03-30.md	Censored_1887	+	local6/6-w40 run=6 nw=6
-056.0172	content/_original/056/1876-03-30.md	Censored_1887	+	shortseq2-w40 run=0 nw=2
 056.0178	content/_original/056/1876-03-30.md	Kernberger	+	strong m=0.73
 056.0183	content/_original/056/1876-03-31.md	Censored_1887	+	run17 run=17 nw=105
 056.0183	content/_original/056/1876-03-31.md	Kernberger	+	strong m=0.43
@@ -1902,7 +1842,6 @@ pid	file	tag	change	evidence
 056.0216	content/_original/056/1876-03-31.md	Censored_1887	+	local14/15-w130 run=7 nw=15
 056.0217	content/_original/056/1876-03-31.md	Censored_1887	+	run28 run=28 nw=62
 056.0218	content/_original/056/1876-03-31.md	Censored_1887	+	local8/11-w50 run=8 nw=11
-056.0219	content/_original/056/1876-03-31.md	Censored_1887	+	shortseq1-w50 run=0 nw=1
 056.0220	content/_original/056/1876-03-31.md	Censored_1887	+	local19/24-w50 run=11 nw=24
 056.0223	content/_original/056/1876-03-31.md	Censored_1887	+	local7/12-w50 run=7 nw=12
 056.0224	content/_original/056/1876-03-31.md	Censored_1887	+	run32 run=32 nw=52
@@ -1944,11 +1883,9 @@ pid	file	tag	change	evidence
 056.0491	content/_original/056/1876-04-08.md	Kernberger	+	strong m=0.59
 056.0492	content/_original/056/1876-04-09.md	Censored_1887	+	bag3-w16 run=0 nw=3
 056.0498	content/_original/056/1876-04-09.md	Kernberger	-	llm-verified-NO
-056.0499	content/_original/056/1876-04-09.md	Censored_1887	+	local10/50-w57 run=6 nw=50
 056.0504	content/_original/056/1876-04-09.md	Kernberger	+	strong m=0.88
 056.0511	content/_original/056/1876-04-09.md	Censored_1887	+	local25/56-w116 run=12 nw=56
 056.0512	content/_original/056/1876-04-09.md	Censored_1887	+	local29/46-w116 run=14 nw=46
-056.0518	content/_original/056/1876-04-09.md	Censored_1887	+	shortseq2-w116 run=0 nw=2
 056.0519	content/_original/056/1876-04-09.md	Kernberger	+	strong m=0.73
 056.0534	content/_original/056/1876-04-09.md	Kernberger	+	strong m=0.42
 056.0539	content/_original/056/1876-04-09.md	Kernberger	+	strong m=0.45
@@ -2022,7 +1959,6 @@ pid	file	tag	change	evidence
 059.0079	content/_original/059/1876-04-24.md	Kernberger	+	strong m=0.41
 059.0080	content/_original/059/1876-04-24.md	Kernberger	+	strong m=0.35
 059.0081	content/_original/059/1876-04-24.md	Censored_1887	+	local8/8-w159 run=8 nw=8
-059.0082	content/_original/059/1876-04-24.md	Censored_1887	+	shortseq2-w108 run=0 nw=2
 059.0088	content/_original/059/1876-04-25.md	Censored_1887	+	bag3-w159 run=0 nw=3
 059.0089	content/_original/059/1876-04-25.md	Kernberger	+	strong m=0.22
 059.0098	content/_original/059/1876-04-26.md	Kernberger	+	strong m=0.38
@@ -2052,20 +1988,15 @@ pid	file	tag	change	evidence
 059.0161	content/_original/059/1876-04-26.md	Censored_1887	+	local17/42-w78 run=13 nw=42
 059.0162	content/_original/059/1876-04-26.md	Censored_1887	+	bag3-w78 run=0 nw=3
 059.0163	content/_original/059/1876-04-26.md	Censored_1887	+	local5/5-w78 run=5 nw=5
-059.0165	content/_original/059/1876-04-26.md	Censored_1887	+	shortseq1-w78 run=0 nw=1
 059.0166	content/_original/059/1876-04-26.md	Censored_1887	+	bag4-w78 run=4 nw=4
-059.0167	content/_original/059/1876-04-26.md	Censored_1887	+	shortseq2-w78 run=0 nw=2
 059.0168	content/_original/059/1876-04-26.md	Censored_1887	+	shortseq4-w78 run=4 nw=4
-059.0169	content/_original/059/1876-04-26.md	Censored_1887	+	shortseq1-w78 run=0 nw=1
-059.0171	content/_original/059/1876-04-26.md	Censored_1887	+	local5/9-w78 run=5 nw=9
 059.0173	content/_original/059/1876-04-26.md	Censored_1887	+	local10/21-w78 run=10 nw=21
 059.0174	content/_original/059/1876-04-26.md	Censored_1887	+	run23 run=23 nw=50
 059.0175	content/_original/059/1876-04-26.md	Censored_1887	+	bag2-w14 run=0 nw=2
 059.0176	content/_original/059/1876-04-26.md	Censored_1887	+	local22/32-w946 run=6 nw=32
 059.0179	content/_original/059/1876-04-27.md	Kernberger	+	strong m=0.32
 059.0186	content/_original/059/1876-04-27.md	Kernberger	+	strong m=0.45
-059.0208	content/_original/059/1876-04-27.md	Censored_1887	+	local5/5-w946 run=5 nw=5
-059.0230	content/_original/059/1876-04-28.md	Censored_1887	+	local14/27-w946 run=6 nw=27
+059.0229	content/_original/059/1876-04-28.md	Censored_1887	+	shortseq3-w42 run=0 nw=3
 059.0231	content/_original/059/1876-04-28.md	Censored_1887	+	run18 run=18 nw=54
 059.0244	content/_original/059/1876-04-29.md	Kernberger	+	strong m=0.56
 059.0249	content/_original/059/1876-04-29.md	Kernberger	+	strong m=0.42
@@ -2115,15 +2046,11 @@ pid	file	tag	change	evidence
 060.0050	content/_original/060/1876-05-12.md	Censored_1887	+	local9/9-w60 run=9 nw=9
 060.0051	content/_original/060/1876-05-12.md	Censored_1887	+	local7/7-w60 run=7 nw=7
 060.0052	content/_original/060/1876-05-12.md	Censored_1887	+	run15 run=15 nw=42
-060.0053	content/_original/060/1876-05-12.md	Censored_1887	+	shortseq1-w1 run=0 nw=1
 060.0054	content/_original/060/1876-05-12.md	Censored_1887	+	run21 run=21 nw=21
 060.0055	content/_original/060/1876-05-12.md	Censored_1887	+	run33 run=33 nw=33
 060.0060	content/_original/060/1876-05-12.md	Kernberger	+	strong m=0.78
 060.0082	content/_original/060/1876-05-13.md	Kernberger	+	strong m=0.71
 060.0093	content/_original/060/1876-05-13.md	Kernberger	+	strong m=0.55
-060.0102	content/_original/060/1876-05-13.md	Censored_1887	+	shortseq1-w10 run=0 nw=1
-060.0103	content/_original/060/1876-05-13.md	Censored_1887	+	local6/8-w34 run=6 nw=8
-060.0107	content/_original/060/1876-05-13.md	Censored_1887	+	shortseq1-w75 run=0 nw=1
 060.0125	content/_original/060/1876-05-13.md	Censored_1887	+	run37 run=37 nw=151
 060.0126	content/_original/060/1876-05-13.md	Censored_1887	+	run27 run=27 nw=196
 060.0126	content/_original/060/1876-05-13.md	Kernberger	+	strong m=0.25
@@ -2160,20 +2087,15 @@ pid	file	tag	change	evidence
 060.0279	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.97
 060.0280	content/_original/060/1876-05-17.md	Censored_1887	+	local15/21-w51 run=7 nw=21
 060.0281	content/_original/060/1876-05-17.md	Censored_1887	+	local15/17-w51 run=11 nw=17
-060.0282	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq1-w51 run=0 nw=1
 060.0283	content/_original/060/1876-05-17.md	Censored_1887	+	run29 run=29 nw=96
 060.0283	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.58
 060.0284	content/_original/060/1876-05-17.md	Censored_1887	+	local15/53-w86 run=11 nw=53
 060.0284	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.37
 060.0287	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.60
 060.0289	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.58
-060.0290	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq1-w86 run=0 nw=1
-060.0292	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq1-w86 run=0 nw=1
 060.0293	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq3-w86 run=0 nw=3
-060.0298	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq1-w86 run=0 nw=1
 060.0299	content/_original/060/1876-05-17.md	Censored_1887	+	bag3-w86 run=0 nw=3
 060.0300	content/_original/060/1876-05-17.md	Censored_1887	+	run18 run=18 nw=18
-060.0301	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq1-w45 run=0 nw=1
 060.0302	content/_original/060/1876-05-17.md	Censored_1887	+	local22/24-w45 run=13 nw=24
 060.0303	content/_original/060/1876-05-17.md	Censored_1887	+	local9/11-w45 run=6 nw=11
 060.0306	content/_original/060/1876-05-17.md	Censored_1887	+	run19 run=19 nw=28
@@ -2181,20 +2103,20 @@ pid	file	tag	change	evidence
 060.0309	content/_original/060/1876-05-17.md	Censored_1887	+	local8/8-w148 run=8 nw=8
 060.0310	content/_original/060/1876-05-17.md	Censored_1887	+	local8/8-w148 run=8 nw=8
 060.0311	content/_original/060/1876-05-17.md	Censored_1887	+	local14/14-w148 run=14 nw=14
-060.0313	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq2-w148 run=0 nw=2
 060.0314	content/_original/060/1876-05-17.md	Censored_1887	+	local6/6-w148 run=6 nw=6
 060.0315	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq4-w148 run=4 nw=4
 060.0317	content/_original/060/1876-05-17.md	Censored_1887	+	local8/9-w148 run=8 nw=9
+060.0319	content/_original/060/1876-05-17.md	Censored_1887	+	local9/20-w148 run=4 nw=20
 060.0320	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq3-w148 run=0 nw=3
 060.0322	content/_original/060/1876-05-17.md	Censored_1887	+	local16/20-w148 run=8 nw=20
 060.0322	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.72
 060.0325	content/_original/060/1876-05-17.md	Censored_1887	+	local10/24-w148 run=10 nw=24
+060.0339	content/_original/060/1876-05-17.md	Censored_1887	+	local6/13-w148 run=0 nw=13
 060.0347	content/_original/060/1876-05-17.md	Censored_1887	+	run15 run=15 nw=109
 060.0347	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.44
 060.0348	content/_original/060/1876-05-17.md	Censored_1887	+	local14/27-w100 run=10 nw=27
 060.0349	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq3-w100 run=0 nw=3
 060.0354	content/_original/060/1876-05-17.md	Censored_1887	+	local14/15-w100 run=7 nw=15
-060.0364	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq2-w100 run=0 nw=2
 060.0366	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.66
 060.0375	content/_original/060/1876-05-17.md	Censored_1887	+	local5/5-w100 run=5 nw=5
 060.0376	content/_original/060/1876-05-17.md	Censored_1887	+	bag5-w100 run=4 nw=5
@@ -2211,19 +2133,15 @@ pid	file	tag	change	evidence
 060.0402	content/_original/060/1876-05-17.md	Censored_1887	+	local6/12-w101 run=6 nw=12
 060.0404	content/_original/060/1876-05-17.md	Censored_1887	+	run18 run=18 nw=34
 060.0405	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq4-w59 run=4 nw=4
-060.0406	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq1-w59 run=0 nw=1
 060.0407	content/_original/060/1876-05-17.md	Censored_1887	+	local7/10-w59 run=7 nw=10
-060.0408	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq1-w59 run=0 nw=1
 060.0409	content/_original/060/1876-05-17.md	Censored_1887	+	local14/20-w59 run=7 nw=20
 060.0411	content/_original/060/1876-05-17.md	Censored_1887	+	local10/12-w59 run=10 nw=12
 060.0412	content/_original/060/1876-05-17.md	Censored_1887	+	local14/14-w59 run=14 nw=14
 060.0414	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.62
 060.0418	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.49
 060.0419	content/_original/060/1876-05-17.md	Censored_1887	+	local10/11-w59 run=6 nw=11
-060.0425	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq2-w59 run=0 nw=2
 060.0433	content/_original/060/1876-05-17.md	Kernberger	+	strong m=0.51
 060.0434	content/_original/060/1876-05-17.md	Censored_1887	+	run15 run=15 nw=26
-060.0435	content/_original/060/1876-05-17.md	Censored_1887	+	shortseq1-w26 run=0 nw=1
 060.0436	content/_original/060/1876-05-17.md	Censored_1887	+	local9/11-w26 run=6 nw=11
 060.0438	content/_original/060/1876-05-17.md	Censored_1887	+	local5/7-w26 run=5 nw=7
 060.0458	content/_original/060/1876-05-18.md	Censored_1887	+	run17 run=17 nw=56
@@ -2244,33 +2162,25 @@ pid	file	tag	change	evidence
 060.0519	content/_original/060/1876-05-19.md	Censored_1887	+	run31 run=31 nw=76
 060.0520	content/_original/060/1876-05-19.md	Censored_1887	+	local12/12-w123 run=12 nw=12
 060.0521	content/_original/060/1876-05-19.md	Censored_1887	+	local8/14-w123 run=8 nw=14
-060.0522	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w123 run=0 nw=1
 060.0523	content/_original/060/1876-05-19.md	Censored_1887	+	bag5-w123 run=0 nw=5
 060.0525	content/_original/060/1876-05-19.md	Censored_1887	+	bag5-w123 run=4 nw=5
-060.0526	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w123 run=0 nw=1
 060.0527	content/_original/060/1876-05-19.md	Censored_1887	+	local13/13-w123 run=13 nw=13
 060.0528	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w123 run=5 nw=5
-060.0533	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w123 run=0 nw=1
-060.0534	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w123 run=0 nw=1
 060.0535	content/_original/060/1876-05-19.md	Censored_1887	+	local16/21-w123 run=10 nw=21
-060.0539	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w123 run=0 nw=1
 060.0540	content/_original/060/1876-05-19.md	Censored_1887	+	local15/15-w123 run=12 nw=15
 060.0541	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq3-w123 run=0 nw=3
 060.0542	content/_original/060/1876-05-19.md	Censored_1887	+	local8/8-w123 run=8 nw=8
 060.0544	content/_original/060/1876-05-19.md	Censored_1887	+	run16 run=16 nw=16
 060.0545	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w14 run=5 nw=5
-060.0546	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w14 run=0 nw=1
 060.0547	content/_original/060/1876-05-19.md	Censored_1887	+	local8/8-w14 run=8 nw=8
 060.0548	content/_original/060/1876-05-19.md	Censored_1887	+	run15 run=15 nw=15
 060.0549	content/_original/060/1876-05-19.md	Censored_1887	+	local11/20-w59 run=7 nw=20
-060.0551	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w59 run=0 nw=1
 060.0553	content/_original/060/1876-05-19.md	Censored_1887	+	local11/41-w59 run=6 nw=41
 060.0553	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.51
 060.0554	content/_original/060/1876-05-19.md	Censored_1887	+	local10/10-w59 run=10 nw=10
 060.0555	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w59 run=5 nw=5
 060.0556	content/_original/060/1876-05-19.md	Censored_1887	+	bag5-w59 run=4 nw=5
 060.0557	content/_original/060/1876-05-19.md	Censored_1887	+	local12/12-w59 run=12 nw=12
-060.0558	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w59 run=0 nw=1
 060.0559	content/_original/060/1876-05-19.md	Censored_1887	+	run33 run=33 nw=33
 060.0560	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w5 run=5 nw=5
 060.0561	content/_original/060/1876-05-19.md	Censored_1887	+	run30 run=30 nw=32
@@ -2280,25 +2190,21 @@ pid	file	tag	change	evidence
 060.0565	content/_original/060/1876-05-19.md	Censored_1887	+	local11/12-w164 run=6 nw=12
 060.0566	content/_original/060/1876-05-19.md	Censored_1887	+	local10/14-w164 run=6 nw=14
 060.0567	content/_original/060/1876-05-19.md	Censored_1887	+	local7/11-w164 run=7 nw=11
-060.0569	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w4 run=0 nw=1
 060.0572	content/_original/060/1876-05-19.md	Censored_1887	+	local37/58-w164 run=13 nw=58
 060.0573	content/_original/060/1876-05-19.md	Censored_1887	+	local8/9-w164 run=8 nw=9
 060.0574	content/_original/060/1876-05-19.md	Censored_1887	+	local5/7-w164 run=5 nw=7
 060.0575	content/_original/060/1876-05-19.md	Censored_1887	+	local7/7-w164 run=7 nw=7
 060.0578	content/_original/060/1876-05-19.md	Censored_1887	+	local7/7-w164 run=7 nw=7
 060.0579	content/_original/060/1876-05-19.md	Censored_1887	+	local9/9-w164 run=9 nw=9
-060.0581	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w17 run=0 nw=2
 060.0582	content/_original/060/1876-05-19.md	Censored_1887	+	run24 run=24 nw=28
 060.0583	content/_original/060/1876-05-19.md	Censored_1887	+	local6/6-w44 run=6 nw=6
 060.0584	content/_original/060/1876-05-19.md	Censored_1887	+	local6/6-w44 run=5 nw=6
 060.0585	content/_original/060/1876-05-19.md	Censored_1887	+	local20/29-w44 run=12 nw=29
-060.0587	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w44 run=0 nw=1
 060.0588	content/_original/060/1876-05-19.md	Censored_1887	+	run21 run=21 nw=21
 060.0589	content/_original/060/1876-05-19.md	Censored_1887	+	local6/6-w145 run=6 nw=6
 060.0590	content/_original/060/1876-05-19.md	Censored_1887	+	local10/10-w145 run=10 nw=10
 060.0592	content/_original/060/1876-05-19.md	Censored_1887	+	local24/27-w145 run=10 nw=27
 060.0593	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq4-w145 run=4 nw=4
-060.0594	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w145 run=0 nw=2
 060.0595	content/_original/060/1876-05-19.md	Censored_1887	+	local19/19-w145 run=11 nw=19
 060.0596	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq4-w145 run=4 nw=4
 060.0597	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq3-w145 run=0 nw=3
@@ -2310,18 +2216,14 @@ pid	file	tag	change	evidence
 060.0602	content/_original/060/1876-05-19.md	Censored_1887	+	local12/26-w91 run=8 nw=26
 060.0603	content/_original/060/1876-05-19.md	Censored_1887	+	local13/15-w91 run=13 nw=15
 060.0603	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.75
-060.0604	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w91 run=0 nw=1
-060.0605	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w91 run=0 nw=1
 060.0606	content/_original/060/1876-05-19.md	Censored_1887	+	local13/16-w91 run=8 nw=16
 060.0607	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w91 run=5 nw=5
-060.0608	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w91 run=0 nw=1
 060.0609	content/_original/060/1876-05-19.md	Censored_1887	+	run18 run=18 nw=45
 060.0610	content/_original/060/1876-05-19.md	Censored_1887	+	local13/20-w152 run=10 nw=20
 060.0611	content/_original/060/1876-05-19.md	Censored_1887	+	local8/8-w152 run=8 nw=8
 060.0612	content/_original/060/1876-05-19.md	Censored_1887	+	local9/9-w152 run=9 nw=9
 060.0613	content/_original/060/1876-05-19.md	Censored_1887	+	local25/32-w152 run=14 nw=32
 060.0614	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq3-w152 run=0 nw=3
-060.0615	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w1 run=0 nw=1
 060.0616	content/_original/060/1876-05-19.md	Censored_1887	+	local16/18-w152 run=8 nw=18
 060.0618	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.97
 060.0621	content/_original/060/1876-05-19.md	Censored_1887	+	local15/17-w152 run=11 nw=17
@@ -2338,7 +2240,6 @@ pid	file	tag	change	evidence
 060.0631	content/_original/060/1876-05-19.md	Censored_1887	+	local18/26-w133 run=11 nw=26
 060.0632	content/_original/060/1876-05-19.md	Censored_1887	+	local10/10-w133 run=10 nw=10
 060.0633	content/_original/060/1876-05-19.md	Censored_1887	+	local9/9-w133 run=9 nw=9
-060.0635	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w133 run=0 nw=1
 060.0636	content/_original/060/1876-05-19.md	Censored_1887	+	local9/14-w133 run=9 nw=14
 060.0636	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.68
 060.0637	content/_original/060/1876-05-19.md	Censored_1887	+	local8/22-w133 run=8 nw=22
@@ -2346,40 +2247,32 @@ pid	file	tag	change	evidence
 060.0640	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.43
 060.0641	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.58
 060.0645	content/_original/060/1876-05-19.md	Censored_1887	+	local16/21-w18 run=9 nw=21
-060.0646	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w18 run=0 nw=2
 060.0647	content/_original/060/1876-05-19.md	Censored_1887	+	run16 run=16 nw=18
 060.0648	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w101 run=5 nw=5
 060.0650	content/_original/060/1876-05-19.md	Censored_1887	+	local10/12-w101 run=10 nw=12
-060.0652	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w101 run=0 nw=1
 060.0654	content/_original/060/1876-05-19.md	Censored_1887	+	local17/21-w101 run=11 nw=21
 060.0654	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.70
 060.0655	content/_original/060/1876-05-19.md	Censored_1887	+	local13/14-w101 run=9 nw=14
 060.0656	content/_original/060/1876-05-19.md	Censored_1887	+	local12/14-w101 run=12 nw=14
 060.0658	content/_original/060/1876-05-19.md	Censored_1887	+	run19 run=19 nw=57
-060.0661	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w32 run=0 nw=1
 060.0662	content/_original/060/1876-05-19.md	Censored_1887	+	bag4-w32 run=4 nw=4
 060.0664	content/_original/060/1876-05-19.md	Censored_1887	+	run18 run=18 nw=18
 060.0664	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.97
 060.0665	content/_original/060/1876-05-19.md	Censored_1887	+	local46/56-w199 run=14 nw=56
 060.0666	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w199 run=5 nw=5
-060.0667	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w5 run=0 nw=1
 060.0668	content/_original/060/1876-05-19.md	Censored_1887	+	local8/9-w199 run=8 nw=9
-060.0669	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w20 run=0 nw=1
-060.0672	content/_original/060/1876-05-19.md	Censored_1887	+	local5/9-w199 run=5 nw=9
+060.0672	content/_original/060/1876-05-19.md	Censored_1887	+	bag9-w199 run=5 nw=9
 060.0676	content/_original/060/1876-05-19.md	Censored_1887	+	bag3-w199 run=0 nw=3
 060.0677	content/_original/060/1876-05-19.md	Censored_1887	+	local14/14-w199 run=14 nw=14
-060.0678	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w7 run=0 nw=2
-060.0679	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w7 run=0 nw=1
 060.0680	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq3-w199 run=0 nw=3
 060.0682	content/_original/060/1876-05-19.md	Censored_1887	+	local6/6-w199 run=6 nw=6
 060.0683	content/_original/060/1876-05-19.md	Censored_1887	+	local10/11-w199 run=5 nw=11
 060.0686	content/_original/060/1876-05-19.md	Censored_1887	+	local11/11-w199 run=11 nw=11
 060.0687	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq3-w199 run=0 nw=3
 060.0688	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq4-w199 run=4 nw=4
-060.0689	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w2 run=0 nw=2
 060.0690	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w199 run=5 nw=5
 060.0691	content/_original/060/1876-05-19.md	Censored_1887	+	local7/7-w199 run=7 nw=7
-060.0693	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w199 run=5 nw=5
+060.0693	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq5-w199 run=5 nw=5
 060.0694	content/_original/060/1876-05-19.md	Censored_1887	+	local14/14-w199 run=14 nw=14
 060.0695	content/_original/060/1876-05-19.md	Censored_1887	+	local6/6-w199 run=6 nw=6
 060.0696	content/_original/060/1876-05-19.md	Censored_1887	+	run15 run=15 nw=15
@@ -2391,8 +2284,6 @@ pid	file	tag	change	evidence
 060.0706	content/_original/060/1876-05-19.md	Censored_1887	+	local5/8-w39 run=5 nw=8
 060.0707	content/_original/060/1876-05-19.md	Censored_1887	+	local8/8-w39 run=8 nw=8
 060.0708	content/_original/060/1876-05-19.md	Censored_1887	+	local8/9-w39 run=8 nw=9
-060.0709	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w39 run=0 nw=2
-060.0710	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w39 run=0 nw=2
 060.0711	content/_original/060/1876-05-19.md	Censored_1887	+	run27 run=27 nw=44
 060.0712	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq4-w48 run=4 nw=4
 060.0715	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq4-w48 run=4 nw=4
@@ -2416,7 +2307,6 @@ pid	file	tag	change	evidence
 060.0732	content/_original/060/1876-05-19.md	Censored_1887	+	local6/6-w72 run=6 nw=6
 060.0733	content/_original/060/1876-05-19.md	Censored_1887	+	local6/6-w72 run=6 nw=6
 060.0734	content/_original/060/1876-05-19.md	Censored_1887	+	local7/7-w72 run=7 nw=7
-060.0735	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w72 run=0 nw=2
 060.0736	content/_original/060/1876-05-19.md	Censored_1887	+	run16 run=16 nw=24
 060.0737	content/_original/060/1876-05-19.md	Censored_1887	+	bag7-w6 run=5 nw=7
 060.0740	content/_original/060/1876-05-19.md	Censored_1887	+	local11/13-w347 run=8 nw=13
@@ -2424,9 +2314,7 @@ pid	file	tag	change	evidence
 060.0742	content/_original/060/1876-05-19.md	Censored_1887	+	local7/9-w347 run=7 nw=9
 060.0743	content/_original/060/1876-05-19.md	Censored_1887	+	local10/11-w347 run=6 nw=11
 060.0744	content/_original/060/1876-05-19.md	Censored_1887	+	local10/10-w347 run=10 nw=10
-060.0745	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w5 run=0 nw=1
 060.0746	content/_original/060/1876-05-19.md	Censored_1887	+	local7/7-w347 run=7 nw=7
-060.0747	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w5 run=0 nw=1
 060.0748	content/_original/060/1876-05-19.md	Censored_1887	+	local10/10-w347 run=10 nw=10
 060.0749	content/_original/060/1876-05-19.md	Censored_1887	+	local10/10-w347 run=10 nw=10
 060.0752	content/_original/060/1876-05-19.md	Censored_1887	+	local13/13-w347 run=13 nw=13
@@ -2446,16 +2334,11 @@ pid	file	tag	change	evidence
 060.0767	content/_original/060/1876-05-19.md	Censored_1887	+	local25/27-w347 run=13 nw=27
 060.0767	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.67
 060.0768	content/_original/060/1876-05-19.md	Censored_1887	+	local7/7-w347 run=7 nw=7
-060.0769	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w9 run=0 nw=2
 060.0770	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq3-w9 run=0 nw=3
 060.0771	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq4-w347 run=4 nw=4
-060.0772	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w6 run=0 nw=2
-060.0773	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w6 run=0 nw=2
 060.0774	content/_original/060/1876-05-19.md	Censored_1887	+	local13/15-w347 run=13 nw=15
 060.0775	content/_original/060/1876-05-19.md	Censored_1887	+	local12/12-w347 run=12 nw=12
-060.0776	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w6 run=0 nw=2
 060.0777	content/_original/060/1876-05-19.md	Censored_1887	+	local6/6-w347 run=6 nw=6
-060.0778	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w5 run=0 nw=1
 060.0779	content/_original/060/1876-05-19.md	Censored_1887	+	local13/13-w347 run=13 nw=13
 060.0782	content/_original/060/1876-05-19.md	Censored_1887	+	local16/17-w347 run=12 nw=17
 060.0783	content/_original/060/1876-05-19.md	Censored_1887	+	run26 run=26 nw=26
@@ -2483,7 +2366,6 @@ pid	file	tag	change	evidence
 060.0809	content/_original/060/1876-05-19.md	Censored_1887	+	run23 run=23 nw=42
 060.0810	content/_original/060/1876-05-19.md	Censored_1887	+	local25/70-w223 run=11 nw=70
 060.0810	content/_original/060/1876-05-19.md	Kernberger	+	strong m=0.40
-060.0813	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w19 run=0 nw=1
 060.0814	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq3-w223 run=0 nw=3
 060.0815	content/_original/060/1876-05-19.md	Censored_1887	+	local12/22-w223 run=8 nw=22
 060.0817	content/_original/060/1876-05-19.md	Censored_1887	+	local14/19-w223 run=10 nw=19
@@ -2503,17 +2385,13 @@ pid	file	tag	change	evidence
 060.0834	content/_original/060/1876-05-19.md	Censored_1887	+	local12/12-w12 run=12 nw=12
 060.0835	content/_original/060/1876-05-19.md	Censored_1887	+	run16 run=16 nw=16
 060.0837	content/_original/060/1876-05-19.md	Censored_1887	+	local5/6-w55 run=5 nw=6
-060.0838	content/_original/060/1876-05-19.md	Censored_1887	+	local5/5-w55 run=5 nw=5
+060.0838	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq5-w55 run=5 nw=5
 060.0841	content/_original/060/1876-05-19.md	Censored_1887	+	local11/13-w55 run=7 nw=13
 060.0842	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq3-w55 run=0 nw=3
 060.0842	content/_original/060/1876-05-19.md	Kernberger	-	llm-verified-NO
-060.0843	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq2-w55 run=0 nw=2
 060.0844	content/_original/060/1876-05-19.md	Censored_1887	+	bag2-w55 run=0 nw=2
 060.0845	content/_original/060/1876-05-19.md	Censored_1887	+	local8/8-w55 run=8 nw=8
-060.0846	content/_original/060/1876-05-19.md	Censored_1887	+	local6/7-w55 run=6 nw=7
-060.0849	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w55 run=0 nw=1
 060.0850	content/_original/060/1876-05-19.md	Censored_1887	+	run20 run=20 nw=22
-060.0851	content/_original/060/1876-05-19.md	Censored_1887	+	shortseq1-w5 run=0 nw=1
 060.0852	content/_original/060/1876-05-19.md	Censored_1887	+	run16 run=16 nw=17
 060.0853	content/_original/060/1876-05-19.md	Censored_1887	+	run15 run=15 nw=15
 060.0854	content/_original/060/1876-05-19.md	Censored_1887	+	local10/13-w39 run=10 nw=13
@@ -2581,9 +2459,7 @@ pid	file	tag	change	evidence
 062.0189	content/_original/062/1876-06-04.md	Kernberger	+	strong m=0.43
 062.0209	content/_original/062/1876-06-05.md	Censored_1887	+	shortseq3-w3 run=0 nw=3
 062.0213	content/_original/062/1876-06-05.md	Censored_1887	+	local12/20-w69 run=8 nw=20
-062.0231	content/_original/062/1876-06-05.md	Censored_1887	+	shortseq1-w8 run=0 nw=1
 062.0233	content/_original/062/1876-06-05.md	Censored_1887	+	shortseq3-w81 run=0 nw=3
-062.0238	content/_original/062/1876-06-05.md	Censored_1887	+	local15/31-w33 run=5 nw=31
 062.0247	content/_original/062/1876-06-05.md	Censored_1887	+	local10/22-w72 run=5 nw=22
 062.0260	content/_original/062/1876-06-06.md	Censored_1887	+	local10/45-w72 run=10 nw=45
 062.0264	content/_original/062/1876-06-07.md	Censored_1887	+	local19/84-w72 run=8 nw=84
@@ -2774,24 +2650,17 @@ pid	file	tag	change	evidence
 063.0172	content/_original/063/1876-07-12.md	Kernberger	+	strong m=0.90
 063.0181	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.62
 063.0182	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.53
-063.0184	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq2-w35 run=0 nw=2
 063.0188	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.36
 063.0191	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq3-w40 run=0 nw=3
 063.0192	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.78
-063.0196	content/_original/063/1876-07-18.md	Censored_1887	+	local5/5-w31 run=5 nw=5
+063.0196	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq5-w31 run=5 nw=5
 063.0197	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq3-w31 run=0 nw=3
-063.0200	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq2-w31 run=0 nw=2
 063.0201	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.86
 063.0203	content/_original/063/1876-07-18.md	Censored_1887	+	bag4-w30 run=4 nw=4
-063.0204	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq1-w30 run=0 nw=1
 063.0205	content/_original/063/1876-07-18.md	Censored_1887	+	bag4-w30 run=4 nw=4
-063.0212	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq1-w60 run=0 nw=1
 063.0218	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.61
-063.0219	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq2-w42 run=0 nw=2
 063.0232	content/_original/063/1876-07-18.md	Censored_1887	+	bag4-w112 run=0 nw=4
-063.0246	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq1-w33 run=0 nw=1
 063.0252	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.87
-063.0256	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq2-w23 run=0 nw=2
 063.0257	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq4-w23 run=4 nw=4
 063.0258	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.63
 063.0264	content/_original/063/1876-07-18.md	Censored_1887	+	local5/9-w39 run=5 nw=9
@@ -2800,10 +2669,8 @@ pid	file	tag	change	evidence
 063.0269	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.78
 063.0270	content/_original/063/1876-07-18.md	Censored_1887	+	bag6-w51 run=0 nw=6
 063.0278	content/_original/063/1876-07-18.md	Kernberger	+	llm-verified-YES
-063.0281	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq1-w97 run=0 nw=1
 063.0282	content/_original/063/1876-07-18.md	Censored_1887	+	bag3-w97 run=0 nw=3
 063.0284	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.76
-063.0286	content/_original/063/1876-07-18.md	Censored_1887	+	shortseq2-w97 run=0 nw=2
 063.0290	content/_original/063/1876-07-18.md	Censored_1887	+	local21/33-w97 run=13 nw=33
 063.0291	content/_original/063/1876-07-18.md	Kernberger	+	strong m=0.60
 063.0299	content/_original/063/1876-07-18.md	Censored_1887	+	local12/17-w64 run=6 nw=17
@@ -2811,7 +2678,6 @@ pid	file	tag	change	evidence
 063.0302	content/_original/063/1876-07-18.md	Censored_1887	+	local9/20-w64 run=9 nw=20
 063.0304	content/_original/063/1876-07-18.md	Censored_1887	+	local6/7-w19 run=0 nw=7
 063.0345	content/_original/063/1876-07-19.md	Kernberger	+	llm-verified-PARTIAL
-063.0362	content/_original/063/1876-07-19.md	Censored_1887	+	shortseq2-w91 run=0 nw=2
 063.0473	content/_original/063/1876-07-19.md	Kernberger	-	llm-verified-NO
 064.0010	content/_original/064/1876-07-20.md	Kernberger	+	strong m=0.59
 064.0020	content/_original/064/1876-07-20.md	Kernberger	+	strong m=0.66
@@ -2833,7 +2699,6 @@ pid	file	tag	change	evidence
 064.0222	content/_original/064/1876-07-25.md	Kernberger	+	llm-verified-YES
 064.0223	content/_original/064/1876-07-25.md	Kernberger	+	strong m=0.59
 064.0228	content/_original/064/1876-07-25.md	Kernberger	+	strong m=0.85
-064.0239	content/_original/064/1876-07-25.md	Censored_1887	+	shortseq1-w52 run=0 nw=1
 064.0254	content/_original/064/1876-07-26-27.md	Kernberger	+	strong m=0.49
 064.0255	content/_original/064/1876-07-26-27.md	Censored_1887	+	local11/11-w52 run=11 nw=11
 064.0256	content/_original/064/1876-07-26-27.md	Censored_1887	+	run58 run=58 nw=96
@@ -2861,7 +2726,7 @@ pid	file	tag	change	evidence
 064.0280	content/_original/064/1876-07-28.md	Kernberger	+	strong m=0.47
 064.0281	content/_original/064/1876-07-28.md	Kernberger	+	strong m=0.52
 064.0283	content/_original/064/1876-07-28.md	Kernberger	+	strong m=0.61
-064.0286	content/_original/064/1876-07-28.md	Censored_1887	-	no-match run=0 nw=6
+064.0286	content/_original/064/1876-07-28.md	Censored_1887	-	verified-absent run=0 nw=6
 064.0286	content/_original/064/1876-07-28.md	Kernberger	+	strong m=0.99
 064.0290	content/_original/064/1876-07-28.md	Kernberger	+	strong m=0.38
 064.0291	content/_original/064/1876-07-28.md	Kernberger	+	strong m=0.46
@@ -2896,17 +2761,14 @@ pid	file	tag	change	evidence
 064.0342	content/_original/064/1876-07-31.md	Censored_1887	+	local14/14-w39 run=14 nw=14
 064.0343	content/_original/064/1876-07-31.md	Censored_1887	+	local7/7-w39 run=7 nw=7
 064.0344	content/_original/064/1876-07-31.md	Censored_1887	+	shortseq3-w39 run=0 nw=3
-064.0345	content/_original/064/1876-07-31.md	Censored_1887	+	shortseq2-w39 run=0 nw=2
 064.0346	content/_original/064/1876-07-31.md	Censored_1887	+	bag4-w39 run=4 nw=4
-064.0347	content/_original/064/1876-07-31.md	Censored_1887	+	shortseq1-w39 run=0 nw=1
 064.0348	content/_original/064/1876-07-31.md	Censored_1887	+	local7/7-w39 run=7 nw=7
 064.0349	content/_original/064/1876-07-31.md	Censored_1887	+	run23 run=23 nw=23
 064.0350	content/_original/064/1876-07-31.md	Censored_1887	+	local12/12-w33 run=12 nw=12
-064.0351	content/_original/064/1876-07-31.md	Censored_1887	+	shortseq2-w33 run=0 nw=2
 064.0352	content/_original/064/1876-07-31.md	Censored_1887	+	local18/18-w33 run=9 nw=18
 064.0352	content/_original/064/1876-07-31.md	Kernberger	+	strong m=0.62
 064.0353	content/_original/064/1876-07-31.md	Censored_1887	+	run15 run=15 nw=15
-064.0354	content/_original/064/1876-07-31.md	Censored_1887	+	local6/6-w54 run=6 nw=6
+064.0354	content/_original/064/1876-07-31.md	Censored_1887	+	shortseq6-w54 run=6 nw=6
 064.0355	content/_original/064/1876-07-31.md	Censored_1887	+	local6/6-w54 run=6 nw=6
 064.0356	content/_original/064/1876-07-31.md	Censored_1887	+	local14/14-w54 run=14 nw=14
 064.0357	content/_original/064/1876-07-31.md	Censored_1887	+	shortseq3-w54 run=0 nw=3
@@ -2940,7 +2802,6 @@ pid	file	tag	change	evidence
 064.0402	content/_original/064/1876-08-04.md	Censored_1887	+	run20 run=20 nw=42
 064.0403	content/_original/064/1876-08-04.md	Censored_1887	+	run26 run=26 nw=35
 064.0405	content/_original/064/1876-08-04.md	Censored_1887	+	local12/12-w88 run=12 nw=12
-064.0406	content/_original/064/1876-08-04.md	Censored_1887	+	shortseq2-w88 run=0 nw=2
 064.0407	content/_original/064/1876-08-04.md	Censored_1887	+	bag2-w88 run=0 nw=2
 064.0408	content/_original/064/1876-08-04.md	Censored_1887	+	shortseq4-w88 run=4 nw=4
 064.0410	content/_original/064/1876-08-04.md	Censored_1887	+	shortseq4-w88 run=4 nw=4
@@ -3074,7 +2935,6 @@ pid	file	tag	change	evidence
 065.0046	content/_original/065/1876-08-21.md	Censored_1887	+	run27 run=27 nw=36
 065.0047	content/_original/065/1876-08-21.md	Censored_1887	+	local7/8-w85 run=7 nw=8
 065.0048	content/_original/065/1876-08-21.md	Censored_1887	+	bag4-w85 run=4 nw=4
-065.0049	content/_original/065/1876-08-21.md	Censored_1887	+	shortseq1-w85 run=0 nw=1
 065.0050	content/_original/065/1876-08-21.md	Censored_1887	+	local5/5-w85 run=5 nw=5
 065.0051	content/_original/065/1876-08-21.md	Censored_1887	+	local8/8-w85 run=8 nw=8
 065.0052	content/_original/065/1876-08-21.md	Censored_1887	+	local11/11-w85 run=11 nw=11
@@ -3172,11 +3032,9 @@ pid	file	tag	change	evidence
 065.0177	content/_original/065/1876-08-28.md	Censored_1887	+	local14/14-w93 run=14 nw=14
 065.0178	content/_original/065/1876-08-28.md	Censored_1887	+	run16 run=16 nw=25
 065.0179	content/_original/065/1876-08-28.md	Censored_1887	+	run19 run=19 nw=21
-065.0180	content/_original/065/1876-08-28.md	Censored_1887	+	shortseq1-w13 run=0 nw=1
 065.0185	content/_original/065/1876-08-29.md	Censored_1887	+	run52 run=52 nw=64
 065.0186	content/_original/065/1876-08-29.md	Censored_1887	+	local11/33-w47 run=7 nw=33
 065.0189	content/_original/065/1876-08-29.md	Censored_1887	+	local5/7-w47 run=5 nw=7
-065.0190	content/_original/065/1876-08-29.md	Censored_1887	+	shortseq1-w47 run=0 nw=1
 065.0191	content/_original/065/1876-08-29.md	Censored_1887	+	local8/8-w47 run=8 nw=8
 065.0192	content/_original/065/1876-08-29.md	Censored_1887	+	run16 run=16 nw=21
 065.0193	content/_original/065/1876-08-29.md	Censored_1887	+	run16 run=16 nw=18
@@ -3184,7 +3042,6 @@ pid	file	tag	change	evidence
 065.0195	content/_original/065/1876-08-29.md	Censored_1887	+	run16 run=16 nw=16
 065.0197	content/_original/065/1876-08-29.md	Censored_1887	+	local10/41-w10 run=10 nw=41
 065.0200	content/_original/065/1876-08-29.md	Censored_1887	+	run17 run=17 nw=24
-065.0201	content/_original/065/1876-08-29.md	Censored_1887	+	shortseq1-w28 run=0 nw=1
 065.0202	content/_original/065/1876-08-29.md	Censored_1887	+	run16 run=16 nw=35
 065.0203	content/_original/065/1876-08-29.md	Censored_1887	+	local12/14-w81 run=8 nw=14
 065.0205	content/_original/065/1876-08-30.md	Censored_1887	+	local12/14-w81 run=8 nw=14
@@ -3192,16 +3049,14 @@ pid	file	tag	change	evidence
 065.0207	content/_original/065/1876-08-30.md	Censored_1887	+	local7/7-w81 run=7 nw=7
 065.0208	content/_original/065/1876-08-30.md	Censored_1887	+	bag4-w81 run=4 nw=4
 065.0210	content/_original/065/1876-08-30.md	Censored_1887	+	local7/8-w81 run=4 nw=8
-065.0211	content/_original/065/1876-08-30.md	Censored_1887	+	shortseq2-w81 run=0 nw=2
 065.0212	content/_original/065/1876-08-30.md	Censored_1887	+	shortseq3-w81 run=0 nw=3
 065.0213	content/_original/065/1876-08-30.md	Censored_1887	+	local8/8-w81 run=8 nw=8
 065.0214	content/_original/065/1876-08-30.md	Censored_1887	+	local22/23-w81 run=10 nw=23
 065.0216	content/_original/065/1876-08-30.md	Censored_1887	+	run17 run=17 nw=20
 065.0217	content/_original/065/1876-08-30.md	Censored_1887	+	local13/15-w53 run=13 nw=15
 065.0218	content/_original/065/1876-08-30.md	Censored_1887	+	local10/22-w53 run=6 nw=22
-065.0219	content/_original/065/1876-08-30.md	Censored_1887	+	shortseq2-w53 run=0 nw=2
 065.0220	content/_original/065/1876-08-30.md	Censored_1887	+	run17 run=17 nw=28
-065.0221	content/_original/065/1876-08-30.md	Censored_1887	+	local5/5-w10 run=5 nw=5
+065.0221	content/_original/065/1876-08-30.md	Censored_1887	+	bag5-w10 run=5 nw=5
 065.0222	content/_original/065/1876-08-30.md	Censored_1887	+	run15 run=15 nw=24
 065.0223	content/_original/065/1876-08-30.md	Censored_1887	+	local6/6-w22 run=6 nw=6
 065.0227	content/_original/065/1876-08-31.md	Kernberger	-	llm-verified-NO
@@ -3257,21 +3112,17 @@ pid	file	tag	change	evidence
 066.0020	content/_original/066/1876-09-04.md	Censored_1887	+	local7/8-w57 run=7 nw=8
 066.0021	content/_original/066/1876-09-04.md	Censored_1887	+	local17/20-w57 run=13 nw=20
 066.0022	content/_original/066/1876-09-04.md	Censored_1887	+	local10/10-w57 run=10 nw=10
-066.0023	content/_original/066/1876-09-04.md	Censored_1887	+	shortseq2-w57 run=0 nw=2
 066.0024	content/_original/066/1876-09-04.md	Censored_1887	+	run23 run=23 nw=23
 066.0025	content/_original/066/1876-09-04.md	Censored_1887	+	local14/14-w233 run=14 nw=14
 066.0026	content/_original/066/1876-09-04.md	Censored_1887	+	local10/10-w233 run=10 nw=10
 066.0027	content/_original/066/1876-09-04.md	Censored_1887	+	local11/16-w233 run=11 nw=16
 066.0028	content/_original/066/1876-09-04.md	Censored_1887	+	local26/29-w233 run=13 nw=29
 066.0029	content/_original/066/1876-09-04.md	Censored_1887	+	local11/11-w233 run=11 nw=11
-066.0030	content/_original/066/1876-09-04.md	Censored_1887	+	shortseq2-w8 run=0 nw=2
-066.0031	content/_original/066/1876-09-04.md	Censored_1887	+	shortseq2-w8 run=0 nw=2
 066.0032	content/_original/066/1876-09-04.md	Censored_1887	+	local18/19-w233 run=12 nw=19
 066.0033	content/_original/066/1876-09-04.md	Censored_1887	+	local6/6-w233 run=6 nw=6
 066.0034	content/_original/066/1876-09-04.md	Censored_1887	+	local6/7-w233 run=6 nw=7
 066.0035	content/_original/066/1876-09-04.md	Censored_1887	+	local14/14-w233 run=14 nw=14
 066.0036	content/_original/066/1876-09-04.md	Censored_1887	+	local9/9-w233 run=9 nw=9
-066.0037	content/_original/066/1876-09-04.md	Censored_1887	+	shortseq1-w14 run=0 nw=1
 066.0038	content/_original/066/1876-09-04.md	Censored_1887	+	local17/20-w233 run=11 nw=20
 066.0039	content/_original/066/1876-09-04.md	Censored_1887	+	local8/13-w233 run=5 nw=13
 066.0040	content/_original/066/1876-09-04.md	Censored_1887	+	local8/9-w233 run=8 nw=9
@@ -3392,7 +3243,6 @@ pid	file	tag	change	evidence
 066.0371	content/_original/066/1876-09-27.md	Kernberger	+	strong m=0.45
 066.0374	content/_original/066/1876-09-27.md	Censored_1887	+	bag4-w17 run=4 nw=4
 066.0376	content/_original/066/1876-09-27.md	Censored_1887	+	shortseq3-w50 run=0 nw=3
-066.0377	content/_original/066/1876-09-27.md	Censored_1887	+	shortseq2-w50 run=0 nw=2
 066.0378	content/_original/066/1876-09-27.md	Kernberger	+	strong m=0.58
 066.0384	content/_original/066/1876-09-27.md	Kernberger	+	strong m=0.44
 066.0387	content/_original/066/1876-09-28.md	Kernberger	+	strong m=0.64
@@ -3400,7 +3250,6 @@ pid	file	tag	change	evidence
 066.0392	content/_original/066/1876-09-28.md	Kernberger	+	llm-verified-YES
 066.0395	content/_original/066/1876-09-29.md	Kernberger	+	strong m=0.57
 066.0398	content/_original/066/1876-09-29.md	Kernberger	+	strong m=0.58
-066.0404	content/_original/066/1876-09-29.md	Censored_1887	+	shortseq1-w44 run=0 nw=1
 066.0411	content/_original/066/1876-09-29.md	Kernberger	+	strong m=0.48
 066.0418	content/_original/066/1876-09-29.md	Kernberger	+	strong m=0.63
 066.0420	content/_original/066/1876-09-29.md	Kernberger	+	strong m=0.62
@@ -3618,7 +3467,7 @@ pid	file	tag	change	evidence
 068.0073	content/_original/068/1876-12-27-29.md	Censored_1887	+	local19/35-w125 run=9 nw=35
 068.0074	content/_original/068/1876-12-27-29.md	Censored_1887	+	run26 run=26 nw=54
 068.0075	content/_original/068/1876-12-27-29.md	Censored_1887	+	run22 run=22 nw=99
-068.0076	content/_original/068/1876-12-27-29.md	Censored_1887	+	local6/6-w595 run=6 nw=6
+068.0076	content/_original/068/1876-12-27-29.md	Censored_1887	+	shortseq6-w595 run=6 nw=6
 068.0129	content/_original/068/1877-01-01.md	Kernberger	+	strong m=0.76
 068.0137	content/_original/068/1877-01-02-06.md	Kernberger	+	strong m=0.69
 068.0138	content/_original/068/1877-01-02-06.md	Kernberger	+	strong m=0.57
@@ -3688,7 +3537,6 @@ pid	file	tag	change	evidence
 068.0482	content/_original/068/1877-02-10-12.md	Kernberger	+	strong m=0.81
 068.0484	content/_original/068/1877-02-10-12.md	Kernberger	+	strong m=0.78
 068.0493	content/_original/068/1877-02-13-21.md	Kernberger	+	strong m=0.25
-068.0497	content/_original/068/1877-02-13-21.md	Censored_1887	+	shortseq1-w49 run=0 nw=1
 068.0498	content/_original/068/1877-02-13-21.md	Kernberger	+	strong m=0.37
 068.0539	content/_original/068/1877-02-13-21.md	Kernberger	+	strong m=0.44
 068.0568	content/_original/068/1877-02-13-21.md	Kernberger	+	strong m=0.32
@@ -3720,13 +3568,11 @@ pid	file	tag	change	evidence
 069.0037	content/_original/069/1877-02-26.md	Censored_1887	+	run16 run=16 nw=16
 069.0038	content/_original/069/1877-02-26.md	Censored_1887	+	local12/12-w48 run=12 nw=12
 069.0039	content/_original/069/1877-02-26.md	Censored_1887	+	bag4-w48 run=4 nw=4
-069.0040	content/_original/069/1877-02-26.md	Censored_1887	+	shortseq1-w48 run=0 nw=1
 069.0041	content/_original/069/1877-02-26.md	Censored_1887	+	run35 run=35 nw=63
 069.0042	content/_original/069/1877-02-26.md	Censored_1887	+	run45 run=45 nw=45
 069.0043	content/_original/069/1877-02-26.md	Censored_1887	+	local13/13-w29 run=13 nw=13
 069.0045	content/_original/069/1877-02-26.md	Kernberger	+	strong m=0.70
 069.0071	content/_original/069/1877-03-01.md	Kernberger	+	strong m=0.46
-069.0111	content/_original/069/1877-03-03.md	Censored_1887	+	shortseq2-w72 run=0 nw=2
 069.0162	content/_original/069/1877-03-04.md	Kernberger	+	strong m=0.52
 069.0163	content/_original/069/1877-03-04.md	Kernberger	+	strong m=0.66
 069.0249	content/_original/069/1877-03-10.md	Kernberger	+	strong m=0.31
@@ -3738,7 +3584,6 @@ pid	file	tag	change	evidence
 069.0322	content/_original/069/1877-03-16.md	Kernberger	+	llm-verified-YES
 069.0345	content/_original/069/1877-03-16.md	Kernberger	+	strong m=0.49
 069.0386	content/_original/069/1877-03-16.md	Kernberger	-	llm-verified-NO
-069.0407	content/_original/069/1877-03-17.md	Censored_1887	+	shortseq1-w72 run=0 nw=1
 069.0488	content/_original/069/1877-03-27.md	Kernberger	+	strong m=0.49
 069.0519	content/_original/069/1877-03-28.md	Kernberger	+	strong m=0.62
 069.0522	content/_original/069/1877-03-29.md	Kernberger	+	strong m=0.45
@@ -3843,7 +3688,6 @@ pid	file	tag	change	evidence
 073.0319	content/_original/073/1877-08-08.md	Censored_1887	+	bag4-w155 run=4 nw=4
 073.0320	content/_original/073/1877-08-08.md	Censored_1887	+	local23/27-w155 run=14 nw=27
 073.0320	content/_original/073/1877-08-08.md	Kernberger	+	strong m=0.67
-073.0321	content/_original/073/1877-08-08.md	Censored_1887	+	shortseq2-w7 run=0 nw=2
 073.0322	content/_original/073/1877-08-08.md	Censored_1887	+	run29 run=29 nw=84
 073.0323	content/_original/073/1877-08-08.md	Censored_1887	+	run15 run=15 nw=40
 073.0324	content/_original/073/1877-08-08.md	Censored_1887	+	local33/39-w79 run=10 nw=39
@@ -3865,7 +3709,6 @@ pid	file	tag	change	evidence
 073.0480	content/_original/073/1877-08-18.md	Censored_1887	+	run59 run=59 nw=59
 073.0481	content/_original/073/1877-08-18.md	Censored_1887	+	run17 run=17 nw=43
 073.0496	content/_original/073/1877-08-19.md	Kernberger	-	llm-verified-NO
-074.0028	content/_original/074/1877-08-21.md	Censored_1887	+	local5/10-w38 run=5 nw=10
 074.0035	content/_original/074/1877-08-23.md	Censored_1887	+	bag3-w38 run=0 nw=3
 074.0045	content/_original/074/1877-08-23.md	Censored_1887	+	run16 run=16 nw=149
 074.0045	content/_original/074/1877-08-23.md	Kernberger	+	llm-verified-PARTIAL
@@ -3911,7 +3754,6 @@ pid	file	tag	change	evidence
 075.0130	content/_original/075/1877-10-04.md	Kernberger	+	strong m=0.36
 075.0141	content/_original/075/1877-10-04.md	Censored_1887	+	bag4-w48 run=4 nw=4
 075.0142	content/_original/075/1877-10-05.md	Censored_1887	+	bag3-w48 run=0 nw=3
-075.0147	content/_original/075/1877-10-05.md	Censored_1887	+	shortseq1-w48 run=0 nw=1
 075.0149	content/_original/075/1877-10-05.md	Censored_1887	+	shortseq3-w48 run=0 nw=3
 075.0151	content/_original/075/1877-10-05.md	Kernberger	+	strong m=0.81
 075.0155	content/_original/075/1877-10-06.md	Censored_1887	+	bag3-w30 run=0 nw=3
@@ -3928,7 +3770,6 @@ pid	file	tag	change	evidence
 075.0187	content/_original/075/1877-10-08.md	Kernberger	+	strong m=0.23
 075.0203	content/_original/075/1877-10-10.md	Censored_1887	+	bag3-w3 run=0 nw=3
 075.0207	content/_original/075/1877-10-10.md	Kernberger	+	strong m=0.68
-075.0208	content/_original/075/1877-10-10.md	Censored_1887	+	shortseq2-w5 run=0 nw=2
 075.0209	content/_original/075/1877-10-11.md	Censored_1887	+	bag3-w5 run=0 nw=3
 075.0221	content/_original/075/1877-10-12.md	Censored_1887	+	bag3-w3 run=0 nw=3
 075.0223	content/_original/075/1877-10-12.md	Censored_1887	+	local6/6-w10 run=6 nw=6
@@ -3969,11 +3810,8 @@ pid	file	tag	change	evidence
 075.0531	content/_original/075/1877-10-31.md	Kernberger	+	strong m=0.30
 076.0011	content/_original/076/1877-11-03.md	Kernberger	+	strong m=0.39
 076.0012	content/_original/076/1877-11-03.md	Censored_1887	+	shortseq4-w37 run=4 nw=4
-076.0026	content/_original/076/1877-11-03.md	Censored_1887	+	shortseq1-w37 run=0 nw=1
 076.0044	content/_original/076/1877-11-04.md	Kernberger	+	strong m=0.46
 076.0064	content/_original/076/1877-11-07.md	Kernberger	+	strong m=0.55
-076.0074	content/_original/076/1877-11-08.md	Censored_1887	+	shortseq1-w13 run=0 nw=1
-076.0080	content/_original/076/1877-11-08.md	Censored_1887	+	shortseq2-w25 run=0 nw=2
 076.0089	content/_original/076/1877-11-09.md	Kernberger	+	strong m=0.57
 076.0093	content/_original/076/1877-11-09.md	Kernberger	+	strong m=0.50
 076.0095	content/_original/076/1877-11-09.md	Kernberger	+	strong m=0.51
@@ -3999,7 +3837,6 @@ pid	file	tag	change	evidence
 076.0172	content/_original/076/1877-11-19.md	Kernberger	+	strong m=0.60
 076.0203	content/_original/076/1877-11-24.md	Kernberger	+	strong m=0.63
 076.0206	content/_original/076/1877-11-24.md	Censored_1887	+	local10/15-w47 run=7 nw=15
-076.0212	content/_original/076/1877-11-24.md	Censored_1887	+	shortseq2-w30 run=0 nw=2
 076.0220	content/_original/076/1877-11-25.md	Kernberger	+	strong m=0.45
 076.0221	content/_original/076/1877-11-25.md	Kernberger	+	strong m=0.45
 076.0247	content/_original/076/1877-11-27.md	Censored_1887	+	local26/30-w31 run=13 nw=30
@@ -4009,8 +3846,6 @@ pid	file	tag	change	evidence
 076.0253	content/_original/076/1877-11-27.md	Censored_1887	+	bag2-w70 run=0 nw=2
 076.0255	content/_original/076/1877-11-27.md	Censored_1887	+	bag2-w70 run=0 nw=2
 076.0261	content/_original/076/1877-11-27.md	Censored_1887	+	local8/8-w70 run=8 nw=8
-076.0262	content/_original/076/1877-11-27.md	Censored_1887	+	shortseq2-w70 run=0 nw=2
-076.0263	content/_original/076/1877-11-27.md	Censored_1887	+	shortseq2-w70 run=0 nw=2
 076.0264	content/_original/076/1877-11-27.md	Censored_1887	+	shortseq4-w70 run=4 nw=4
 076.0265	content/_original/076/1877-11-27.md	Censored_1887	+	run24 run=24 nw=41
 076.0266	content/_original/076/1877-11-27.md	Censored_1887	+	run19 run=19 nw=31
@@ -4025,7 +3860,6 @@ pid	file	tag	change	evidence
 076.0381	content/_original/076/1877-12-12.md	Kernberger	+	strong m=0.40
 076.0383	content/_original/076/1877-12-12.md	Censored_1887	+	local8/90-w9 run=8 nw=90
 076.0386	content/_original/076/1877-12-12.md	Kernberger	+	strong m=0.60
-076.0416	content/_original/076/1877-12-15.md	Censored_1887	+	local11/44-w247 run=6 nw=44
 076.0425	content/_original/076/1877-12-16.md	Kernberger	+	strong m=0.45
 076.0464	content/_original/076/1877-12-22.md	Censored_1887	+	run35 run=35 nw=108
 076.0472	content/_original/076/1877-12-22.md	Kernberger	+	strong m=0.60
@@ -4102,19 +3936,14 @@ pid	file	tag	change	evidence
 078.0149	content/_original/078/1878-02-15.md	Kernberger	+	strong m=0.77
 078.0152	content/_original/078/1878-02-15.md	Censored_1887	+	run31 run=31 nw=37
 078.0153	content/_original/078/1878-02-15.md	Censored_1887	+	local6/7-w84 run=6 nw=7
-078.0154	content/_original/078/1878-02-15.md	Censored_1887	+	shortseq2-w84 run=0 nw=2
 078.0155	content/_original/078/1878-02-15.md	Censored_1887	+	local10/11-w84 run=6 nw=11
-078.0156	content/_original/078/1878-02-15.md	Censored_1887	+	shortseq2-w84 run=0 nw=2
 078.0157	content/_original/078/1878-02-15.md	Censored_1887	+	local6/6-w84 run=6 nw=6
-078.0158	content/_original/078/1878-02-15.md	Censored_1887	+	shortseq2-w84 run=0 nw=2
 078.0159	content/_original/078/1878-02-15.md	Censored_1887	+	bag4-w84 run=4 nw=4
 078.0160	content/_original/078/1878-02-15.md	Censored_1887	+	shortseq3-w84 run=0 nw=3
 078.0161	content/_original/078/1878-02-15.md	Censored_1887	+	local10/10-w84 run=10 nw=10
 078.0162	content/_original/078/1878-02-15.md	Censored_1887	+	local13/13-w84 run=13 nw=13
 078.0163	content/_original/078/1878-02-15.md	Censored_1887	+	local14/16-w84 run=14 nw=16
 078.0192	content/_original/078/1878-02-18.md	Kernberger	+	strong m=0.53
-078.0231	content/_original/078/1878-02-18.md	Censored_1887	+	shortseq1-w84 run=0 nw=1
-078.0276	content/_original/078/1878-02-23.md	Censored_1887	+	shortseq1-w84 run=0 nw=1
 078.0306	content/_original/078/1878-02-26.md	Kernberger	+	strong m=0.57
 078.0313	content/_original/078/1878-02-26.md	Kernberger	+	strong m=0.37
 078.0315	content/_original/078/1878-02-26.md	Kernberger	+	strong m=0.44
@@ -4208,7 +4037,6 @@ pid	file	tag	change	evidence
 080.0265	content/_original/080/1878-05-20.md	Kernberger	-	llm-verified-NO
 080.0268	content/_original/080/1878-05-20.md	Censored_1887	+	local12/21-w29 run=4 nw=21
 080.0299	content/_original/080/1878-05-23.md	Kernberger	+	strong m=0.68
-080.0302	content/_original/080/1878-05-24.md	Censored_1887	+	local10/28-w50 run=7 nw=28
 080.0342	content/_original/080/1878-05-26.md	Kernberger	+	strong m=0.98
 080.0347	content/_original/080/1878-05-27.md	Censored_1887	+	run42 run=42 nw=44
 080.0349	content/_original/080/1878-05-27.md	Censored_1887	+	run32 run=32 nw=66
@@ -4258,21 +4086,11 @@ pid	file	tag	change	evidence
 081.0140	content/_original/081/1878-07-01.md	Kernberger	+	strong m=0.38
 081.0143	content/_original/081/1878-07-01.md	Kernberger	+	strong m=0.37
 081.0180	content/_original/081/1878-07-03.md	Censored_1887	+	bag3-w31 run=0 nw=3
-081.0196	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq2-w19 run=0 nw=2
-081.0200	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq2-w7 run=0 nw=2
-081.0208	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq2-w26 run=0 nw=2
 081.0210	content/_original/081/1878-07-03.md	Censored_1887	+	local5/5-w26 run=5 nw=5
-081.0217	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq2-w4 run=0 nw=2
-081.0218	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq2-w4 run=0 nw=2
 081.0220	content/_original/081/1878-07-03.md	Kernberger	-	llm-verified-NO
 081.0227	content/_original/081/1878-07-03.md	Censored_1887	+	bag2-w9 run=0 nw=2
-081.0228	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq2-w9 run=0 nw=2
-081.0229	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq2-w9 run=0 nw=2
 081.0230	content/_original/081/1878-07-03.md	Censored_1887	+	bag3-w9 run=0 nw=3
-081.0232	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq1-w20 run=0 nw=1
-081.0233	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq2-w20 run=0 nw=2
-081.0235	content/_original/081/1878-07-03.md	Censored_1887	+	shortseq1-w20 run=0 nw=1
-081.0236	content/_original/081/1878-07-03.md	Censored_1887	+	local5/5-w20 run=5 nw=5
+081.0236	content/_original/081/1878-07-03.md	Censored_1887	+	bag5-w20 run=5 nw=5
 081.0254	content/_original/081/1878-07-04.md	Kernberger	+	strong m=0.40
 081.0255	content/_original/081/1878-07-04.md	Kernberger	+	strong m=0.38
 081.0257	content/_original/081/1878-07-05.md	Censored_1887	+	bag3-w20 run=0 nw=3
@@ -4308,7 +4126,7 @@ pid	file	tag	change	evidence
 081.0457	content/_original/081/1878-08-05.md	Kernberger	+	strong m=0.55
 081.0458	content/_original/081/1878-08-05.md	Kernberger	-	llm-verified-NO
 081.0465	content/_original/081/1878-08-06.md	Censored_1887	+	run29 run=29 nw=140
-081.0466	content/_original/081/1878-08-06.md	Censored_1887	-	no-match run=5 nw=76
+081.0466	content/_original/081/1878-08-06.md	Censored_1887	-	verified-absent run=5 nw=76
 081.0473	content/_original/081/1878-08-06.md	Censored_1887	+	run38 run=38 nw=131
 081.0476	content/_original/081/1878-08-06.md	Censored_1887	+	local11/11-w30 run=11 nw=11
 081.0488	content/_original/081/1878-08-07.md	Censored_1887	+	run45 run=45 nw=45
@@ -4325,12 +4143,12 @@ pid	file	tag	change	evidence
 082.0104	content/_original/082/1878-08-18.md	Censored_1887	+	run29 run=29 nw=107
 082.0112	content/_original/082/1878-08-19.md	Censored_1887	+	run28 run=28 nw=82
 082.0113	content/_original/082/1878-08-19.md	Censored_1887	+	run29 run=29 nw=53
-082.0114	content/_original/082/1878-08-19.md	Censored_1887	-	no-match run=0 nw=0
+082.0114	content/_original/082/1878-08-19.md	Censored_1887	-	verified-absent run=0 nw=0
 082.0116	content/_original/082/1878-08-20.md	Kernberger	+	strong m=0.41
 082.0117	content/_original/082/1878-08-20.md	Kernberger	+	strong m=0.29
 082.0141	content/_original/082/1878-08-24.md	Censored_1887	+	bag3-w46 run=0 nw=3
 082.0142	content/_original/082/1878-08-24.md	Kernberger	+	strong m=0.60
-082.0144	content/_original/082/1878-08-24.md	Censored_1887	-	no-match run=0 nw=0
+082.0144	content/_original/082/1878-08-24.md	Censored_1887	-	verified-absent run=0 nw=0
 082.0154	content/_original/082/1878-08-26.md	Kernberger	-	llm-verified-NO
 082.0168	content/_original/082/1878-08-29.md	Censored_1887	+	run37 run=37 nw=92
 082.0169	content/_original/082/1878-08-29.md	Censored_1887	+	run23 run=23 nw=23
@@ -4364,7 +4182,6 @@ pid	file	tag	change	evidence
 082.0393	content/_original/082/1878-09-28.md	Kernberger	+	strong m=0.44
 082.0395	content/_original/082/1878-09-28.md	Kernberger	+	strong m=0.52
 082.0396	content/_original/082/1878-09-28.md	Kernberger	+	strong m=0.46
-082.0404	content/_original/082/1878-09-28.md	Censored_1887	+	shortseq2-w39 run=0 nw=2
 082.0418	content/_original/082/1878-09-30.md	Censored_1887	+	bag3-w69 run=0 nw=3
 082.0419	content/_original/082/1878-09-30.md	Kernberger	+	strong m=0.34
 082.0427	content/_original/082/1878-10-04-evening.md	Censored_1887	+	run35-offchain run=35 nw=152
@@ -4445,7 +4262,6 @@ pid	file	tag	change	evidence
 084.0020	content/_original/084/1879-01-16.md	Censored_1887	+	run33 run=33 nw=94
 084.0022	content/_original/084/1879-01-17.md	Censored_1887	+	run15 run=15 nw=15
 084.0024	content/_original/084/1879-01-17.md	Censored_1887	+	bag6-w42 run=4 nw=6
-084.0025	content/_original/084/1879-01-17.md	Censored_1887	+	shortseq2-w42 run=0 nw=2
 084.0026	content/_original/084/1879-01-17.md	Censored_1887	+	local13/13-w42 run=13 nw=13
 084.0027	content/_original/084/1879-01-17.md	Censored_1887	+	local9/9-w42 run=9 nw=9
 084.0028	content/_original/084/1879-01-17.md	Censored_1887	+	run22 run=22 nw=49
@@ -4473,7 +4289,7 @@ pid	file	tag	change	evidence
 084.0204	content/_original/084/1879-02-22.md	Censored_1887	+	run55 run=55 nw=72
 084.0206	content/_original/084/1879-02-23.md	Censored_1887	+	shortseq3-w28 run=0 nw=3
 084.0213	content/_original/084/1879-02-23.md	Kernberger	+	strong m=0.84
-084.0214	content/_original/084/1879-02-23.md	Censored_1887	-	no-match run=0 nw=8
+084.0214	content/_original/084/1879-02-23.md	Censored_1887	-	verified-absent run=0 nw=8
 084.0215	content/_original/084/1879-02-24.md	Censored_1887	+	bag3-w11 run=0 nw=3
 084.0220	content/_original/084/1879-02-24.md	Kernberger	+	strong m=0.33
 084.0266	content/_original/084/1879-03-03.md	Censored_1887	+	run61 run=61 nw=146
@@ -4507,14 +4323,11 @@ pid	file	tag	change	evidence
 084.0558	content/_original/084/1879-04-15.md	Censored_1887	+	run59 run=59 nw=78
 084.0559	content/_original/084/1879-04-15.md	Censored_1887	+	local27/86-w29 run=10 nw=86
 084.0566	content/_original/084/1879-04-16.md	Censored_1887	+	bag3-w29 run=0 nw=3
-084.0571	content/_original/084/1879-04-16.md	Censored_1887	+	shortseq2-w88 run=0 nw=2
 084.0574	content/_original/084/1879-04-16.md	Censored_1887	+	local6/6-w88 run=6 nw=6
 084.0578	content/_original/084/1879-04-16.md	Censored_1887	+	local6/6-w66 run=6 nw=6
 084.0579	content/_original/084/1879-04-16.md	Censored_1887	+	shortseq4-w66 run=4 nw=4
 084.0581	content/_original/084/1879-04-16.md	Censored_1887	+	shortseq3-w66 run=0 nw=3
 084.0582	content/_original/084/1879-04-16.md	Censored_1887	+	bag3-w66 run=0 nw=3
-084.0583	content/_original/084/1879-04-16.md	Censored_1887	+	shortseq2-w66 run=0 nw=2
-084.0585	content/_original/084/1879-04-16.md	Censored_1887	+	shortseq1-w66 run=0 nw=1
 084.0586	content/_original/084/1879-04-16.md	Censored_1887	+	shortseq4-w66 run=4 nw=4
 084.0597	content/_original/084/1879-04-18.md	Censored_1887	+	bag3-w66 run=0 nw=3
 084.0610	content/_original/084/1879-04-21.md	Censored_1887	+	bag3-w79 run=0 nw=3
@@ -4664,8 +4477,6 @@ pid	file	tag	change	evidence
 087.0289	content/_original/087/1880-01-20.md	Censored_1887	+	local14/95-w44 run=14 nw=95
 087.0328	content/_original/087/1880-01-31.md	Censored_1887	+	bag3-w3 run=0 nw=3
 087.0333	content/_original/087/1880-01-31.md	Kernberger	+	strong m=0.49
-087.0359	content/_original/087/1880-01-31.md	Censored_1887	+	shortseq2-w86 run=0 nw=2
-087.0370	content/_original/087/1880-01-31.md	Censored_1887	+	shortseq1-w86 run=0 nw=1
 087.0385	content/_original/087/1880-01-31.md	Kernberger	+	strong m=0.58
 087.0395	content/_original/087/1880-02-01.md	Kernberger	+	strong m=0.31
 087.0422	content/_original/087/1880-02-05.md	Censored_1887	+	bag3-w86 run=0 nw=3
@@ -4676,7 +4487,6 @@ pid	file	tag	change	evidence
 087.0502	content/_original/087/1880-02-17.md	Kernberger	+	strong m=0.33
 087.0526	content/_original/087/1880-02-23.md	Kernberger	+	strong m=0.65
 087.0532	content/_original/087/1880-02-25.md	Censored_1887	+	bag3-w51 run=0 nw=3
-087.0534	content/_original/087/1880-02-25.md	Censored_1887	+	shortseq2-w34 run=0 nw=2
 087.0561	content/_original/087/1880-03-03.md	Censored_1887	+	bag3-w3 run=0 nw=3
 087.0582	content/_original/087/1880-03-10.md	Kernberger	+	strong m=0.77
 087.0594	content/_original/087/1880-03-12.md	Censored_1887	+	bag3-w14 run=0 nw=3
@@ -4696,7 +4506,6 @@ pid	file	tag	change	evidence
 087.0641	content/_original/087/1880-03-20.md	Kernberger	+	strong m=0.47
 087.0650	content/_original/087/1880-03-21.md	Censored_1887	+	bag3-w10 run=0 nw=3
 087.0664	content/_original/087/1880-03-22.md	Censored_1887	+	bag3-w95 run=0 nw=3
-087.0668	content/_original/087/1880-03-22.md	Censored_1887	+	shortseq2-w13 run=0 nw=2
 087.0670	content/_original/087/1880-03-22.md	Kernberger	+	strong m=0.39
 087.0672	content/_original/087/1880-03-22.md	Censored_1887	+	local13/22-w60 run=13 nw=22
 087.0687	content/_original/087/1880-03-24.md	Censored_1887	+	bag3-w69 run=0 nw=3
@@ -4770,7 +4579,6 @@ pid	file	tag	change	evidence
 088.0394	content/_original/088/1880-05-27.md	Censored_1887	+	run53 run=53 nw=53
 088.0394	content/_original/088/1880-05-27.md	Kernberger	+	strong m=0.58
 088.0421	content/_original/088/1880-05-30.md	Kernberger	+	strong m=0.71
-088.0428	content/_original/088/1880-05-30.md	Censored_1887	+	shortseq1-w46 run=0 nw=1
 088.0441	content/_original/088/1880-05-31.md	Kernberger	+	llm-verified-PARTIAL
 088.0449	content/_original/088/1880-06-01.md	Kernberger	+	strong m=0.61
 088.0451	content/_original/088/1880-06-01.md	Censored_1887	+	run42 run=42 nw=95
@@ -4899,7 +4707,6 @@ pid	file	tag	change	evidence
 089.0273	content/_original/089/1880-08-01.md	Kernberger	+	strong m=0.57
 089.0275	content/_original/089/1880-08-01.md	Kernberger	+	strong m=0.61
 089.0292	content/_original/089/1880-08-03.md	Kernberger	+	strong m=0.44
-089.0304	content/_original/089/1880-08-09.md	Censored_1887	+	local5/9-w102 run=5 nw=9
 089.0328	content/_original/089/1880-08-11.md	Kernberger	+	strong m=0.78
 089.0348	content/_original/089/1880-08-17.md	Censored_1887	+	run29-offchain run=29 nw=116
 089.0349	content/_original/089/1880-08-17.md	Censored_1887	+	run20-offchain run=20 nw=36
@@ -4978,7 +4785,6 @@ pid	file	tag	change	evidence
 089.0517	content/_original/089/1880-09-14.md	Kernberger	+	strong m=0.48
 089.0521	content/_original/089/1880-09-14.md	Kernberger	+	strong m=0.43
 089.0523	content/_original/089/1880-09-14.md	Kernberger	+	strong m=0.86
-089.0535	content/_original/089/1880-09-14.md	Censored_1887	+	local6/9-w5 run=6 nw=9
 089.0537	content/_original/089/1880-09-14.md	Kernberger	+	strong m=0.44
 089.0540	content/_original/089/1880-09-14.md	Kernberger	+	strong m=0.53
 089.0551	content/_original/089/1880-09-14.md	Kernberger	+	strong m=0.75
@@ -4998,7 +4804,6 @@ pid	file	tag	change	evidence
 089.0639	content/_original/089/1880-09-28.md	Kernberger	+	strong m=0.53
 089.0641	content/_original/089/1880-09-28.md	Kernberger	+	strong m=0.58
 089.0643	content/_original/089/1880-09-28.md	Kernberger	+	strong m=0.52
-089.0645	content/_original/089/1880-09-28.md	Censored_1887	+	shortseq2-w21 run=0 nw=2
 089.0654	content/_original/089/1880-09-29.md	Kernberger	+	strong m=0.45
 089.0659	content/_original/089/1880-09-30.md	Kernberger	+	strong m=0.37
 089.0661	content/_original/089/1880-09-30.md	Censored_1887	+	run45 run=45 nw=186
@@ -5058,7 +4863,6 @@ pid	file	tag	change	evidence
 090.0272	content/_original/090/1880-12-01.md	Censored_1887	+	run23 run=23 nw=23
 090.0273	content/_original/090/1880-12-01.md	Censored_1887	+	run20 run=20 nw=57
 090.0274	content/_original/090/1880-12-01.md	Censored_1887	+	local18/19-w25 run=13 nw=19
-090.0275	content/_original/090/1880-12-01.md	Censored_1887	+	shortseq2-w25 run=0 nw=2
 090.0296	content/_original/090/1880-12-08.md	Kernberger	+	strong m=0.74
 090.0298	content/_original/090/1880-12-09.md	Kernberger	+	strong m=0.80
 090.0302	content/_original/090/1880-12-11.md	Kernberger	+	strong m=0.42
@@ -5071,7 +4875,6 @@ pid	file	tag	change	evidence
 090.0392	content/_original/090/1880-12-20.md	Kernberger	+	strong m=0.45
 090.0401	content/_original/090/1880-12-22.md	Censored_1887	+	bag3-w39 run=0 nw=3
 090.0404	content/_original/090/1880-12-23.md	Censored_1887	+	bag3-w26 run=0 nw=3
-090.0410	content/_original/090/1880-12-23.md	Censored_1887	+	shortseq2-w21 run=0 nw=2
 090.0413	content/_original/090/1880-12-23.md	Kernberger	+	strong m=0.28
 090.0415	content/_original/090/1880-12-23.md	Kernberger	+	strong m=0.70
 090.0417	content/_original/090/1880-12-24.md	Censored_1887	+	bag3-w102 run=0 nw=3
@@ -5106,7 +4909,6 @@ pid	file	tag	change	evidence
 091.0064	content/_original/091/1881-02-09.md	Kernberger	+	strong m=0.50
 091.0065	content/_original/091/1881-02-09.md	Kernberger	+	strong m=0.62
 091.0066	content/_original/091/1881-02-09.md	Kernberger	+	strong m=0.33
-091.0069	content/_original/091/1881-02-09.md	Censored_1887	+	shortseq1-w3 run=0 nw=1
 091.0070	content/_original/091/1881-02-09.md	Kernberger	+	strong m=0.45
 091.0072	content/_original/091/1881-02-12.md	Kernberger	+	strong m=0.33
 091.0076	content/_original/091/1881-02-12.md	Censored_1887	+	bag3-w33 run=0 nw=3
@@ -5152,7 +4954,6 @@ pid	file	tag	change	evidence
 091.0273	content/_original/091/1881-03-18.md	Censored_1887	+	run15 run=15 nw=17
 091.0274	content/_original/091/1881-03-18.md	Censored_1887	+	local14/14-w21 run=14 nw=14
 091.0276	content/_original/091/1881-03-18.md	Kernberger	+	strong m=0.45
-091.0280	content/_original/091/1881-03-18.md	Censored_1887	+	shortseq2-w18 run=0 nw=2
 091.0281	content/_original/091/1881-03-18.md	Kernberger	+	strong m=0.69
 091.0282	content/_original/091/1881-03-18.md	Kernberger	+	strong m=0.66
 091.0286	content/_original/091/1881-03-18.md	Kernberger	+	strong m=0.32
@@ -5288,7 +5089,7 @@ pid	file	tag	change	evidence
 092.0351	content/_original/092/1881-07-29.md	Kernberger	+	strong m=0.64
 092.0352	content/_original/092/1881-07-29.md	Kernberger	+	strong m=0.69
 092.0367	content/_original/092/1881-08-07.md	Kernberger	+	strong m=0.51
-092.0377	content/_original/092/1881-08-09.md	Censored_1887	+	local6/6-w29 run=6 nw=6
+092.0377	content/_original/092/1881-08-09.md	Censored_1887	+	shortseq6-w29 run=6 nw=6
 092.0381	content/_original/092/1881-08-11.md	Censored_1887	+	run45 run=45 nw=95
 092.0382	content/_original/092/1881-08-11.md	Censored_1887	+	run15 run=15 nw=15
 092.0383	content/_original/092/1881-08-11.md	Censored_1887	+	run51 run=51 nw=160
@@ -5464,12 +5265,10 @@ pid	file	tag	change	evidence
 095.0277	content/_original/095/1882-07-18.md	Kernberger	+	strong m=0.64
 095.0280	content/_original/095/1882-07-18.md	Kernberger	+	llm-verified-PARTIAL
 095.0286	content/_original/095/1882-07-18.md	Kernberger	+	strong m=0.45
-095.0289	content/_original/095/1882-07-19.md	Censored_1887	+	shortseq1-w44 run=0 nw=1
 095.0290	content/_original/095/1882-07-19.md	Kernberger	+	strong m=0.44
 095.0291	content/_original/095/1882-07-19.md	Kernberger	+	strong m=0.37
 095.0295	content/_original/095/1882-07-19.md	Kernberger	+	strong m=0.23
 095.0301	content/_original/095/1882-07-20.md	Kernberger	+	strong m=0.37
-095.0308	content/_original/095/1882-07-23.md	Censored_1887	+	shortseq2-w44 run=0 nw=2
 095.0334	content/_original/095/1882-07-25.md	Kernberger	+	strong m=0.50
 095.0348	content/_original/095/1882-07-27.md	Kernberger	+	strong m=0.42
 095.0349	content/_original/095/1882-07-29.md	Censored_1887	+	run42 run=42 nw=103
@@ -5478,7 +5277,6 @@ pid	file	tag	change	evidence
 095.0353	content/_original/095/1882-07-31.md	Censored_1887	+	run24 run=24 nw=58
 095.0354	content/_original/095/1882-07-31.md	Censored_1887	+	run61 run=61 nw=98
 095.0355	content/_original/095/1882-07-31.md	Kernberger	+	strong m=0.47
-095.0359	content/_original/095/1882-07-31.md	Censored_1887	+	shortseq1-w61 run=0 nw=1
 096.0005	content/_original/096/1882-08-03.md	Kernberger	+	strong m=0.45
 096.0021	content/_original/096/1882-08-06.md	Kernberger	+	strong m=0.30
 096.0022	content/_original/096/1882-08-06.md	Kernberger	+	strong m=0.24
@@ -5533,7 +5331,6 @@ pid	file	tag	change	evidence
 096.0143	content/_original/096/1882-08-29.md	Censored_1887	+	run41 run=41 nw=41
 096.0144	content/_original/096/1882-08-29.md	Censored_1887	+	run24 run=24 nw=44
 096.0157	content/_original/096/1882-08-29.md	Censored_1887	+	local14/15-w20 run=8 nw=15
-096.0161	content/_original/096/1882-08-30.md	Censored_1887	+	local6/7-w20 run=6 nw=7
 096.0162	content/_original/096/1882-08-30.md	Kernberger	+	strong m=0.65
 096.0166	content/_original/096/1882-08-31.md	Censored_1887	+	run43 run=43 nw=208
 096.0167	content/_original/096/1882-08-31.md	Censored_1887	+	run35 run=35 nw=35
@@ -5659,7 +5456,6 @@ pid	file	tag	change	evidence
 097.0205	content/_original/097/1882-12-07.md	Kernberger	+	strong m=0.75
 097.0206	content/_original/097/1882-12-07.md	Censored_1887	+	local28/46-w29 run=14 nw=46
 097.0207	content/_original/097/1882-12-07.md	Censored_1887	+	run93 run=93 nw=121
-097.0208	content/_original/097/1882-12-07.md	Censored_1887	+	local11/30-w159 run=7 nw=30
 097.0213	content/_original/097/1882-12-09.md	Kernberger	+	strong m=0.60
 097.0221	content/_original/097/1882-12-11.md	Kernberger	+	strong m=0.33
 097.0224	content/_original/097/1882-12-11.md	Kernberger	+	strong m=0.58
@@ -5705,7 +5501,7 @@ pid	file	tag	change	evidence
 097.0370	content/_original/097/1883-01-06.md	Censored_1887	+	run51 run=51 nw=141
 097.0377	content/_original/097/1883-01-07.md	Kernberger	+	strong m=0.81
 097.0391	content/_original/097/1883-01-08.md	Censored_1887	+	bag3-w71 run=0 nw=3
-097.0393	content/_original/097/1883-01-08.md	Censored_1887	+	local6/6-w227 run=6 nw=6
+097.0393	content/_original/097/1883-01-08.md	Censored_1887	+	bag6-w227 run=6 nw=6
 097.0405	content/_original/097/1883-01-08.md	Kernberger	+	strong m=0.50
 098.0010	content/_original/098/1883-01-13.md	Kernberger	+	strong m=0.98
 098.0057	content/_original/098/1883-01-16.md	Censored_1887	+	bag3-w23 run=0 nw=3
@@ -5763,7 +5559,7 @@ pid	file	tag	change	evidence
 098.0592	content/_original/098/1883-03-27.md	Censored_1887	+	run32 run=32 nw=74
 098.0592	content/_original/098/1883-03-27.md	Kernberger	+	strong m=0.39
 098.0593	content/_original/098/1883-03-27.md	Censored_1887	+	local11/12-w93 run=11 nw=12
-098.0594	content/_original/098/1883-03-27.md	Censored_1887	+	local5/5-w93 run=5 nw=5
+098.0594	content/_original/098/1883-03-27.md	Censored_1887	+	shortseq5-w93 run=5 nw=5
 098.0595	content/_original/098/1883-03-27.md	Censored_1887	+	local7/7-w93 run=7 nw=7
 098.0596	content/_original/098/1883-03-27.md	Censored_1887	+	local22/23-w93 run=11 nw=23
 098.0597	content/_original/098/1883-03-27.md	Censored_1887	+	run22 run=22 nw=23
@@ -5815,7 +5611,6 @@ pid	file	tag	change	evidence
 099.0217	content/_original/099/1883-04-27.md	Censored_1887	+	local11/11-w28 run=7 nw=11
 099.0217	content/_original/099/1883-04-27.md	Kernberger	+	strong m=0.75
 099.0233	content/_original/099/1883-04-29.md	Censored_1887	+	bag3-w19 run=0 nw=3
-099.0234	content/_original/099/1883-04-29.md	Censored_1887	+	shortseq1-w19 run=0 nw=1
 099.0237	content/_original/099/1883-04-29.md	Censored_1887	+	run17 run=17 nw=17
 099.0238	content/_original/099/1883-04-29.md	Censored_1887	+	local12/12-w84 run=12 nw=12
 099.0239	content/_original/099/1883-04-29.md	Censored_1887	+	run64 run=64 nw=186
@@ -5913,7 +5708,6 @@ pid	file	tag	change	evidence
 101.0037	content/_original/101/1883-08-12.md	Kernberger	+	strong m=0.35
 101.0043	content/_original/101/1883-08-12.md	Kernberger	+	strong m=0.82
 101.0071	content/_original/101/1883-08-13.md	Kernberger	+	strong m=0.52
-101.0098	content/_original/101/1883-08-14.md	Censored_1887	+	local13/65-w9 run=5 nw=65
 101.0103	content/_original/101/1883-08-14.md	Kernberger	+	strong m=0.49
 101.0112	content/_original/101/1883-08-15.md	Kernberger	+	strong m=0.59
 101.0118	content/_original/101/1883-08-15.md	Kernberger	+	llm-verified-YES
@@ -5930,7 +5724,6 @@ pid	file	tag	change	evidence
 101.0195	content/_original/101/1883-08-20.md	Kernberger	+	strong m=0.51
 101.0202	content/_original/101/1883-08-20.md	Kernberger	+	strong m=0.50
 101.0205	content/_original/101/1883-08-20.md	Kernberger	+	strong m=0.33
-101.0209	content/_original/101/1883-08-20.md	Censored_1887	+	shortseq1-w32 run=0 nw=1
 101.0218	content/_original/101/1883-08-20.md	Kernberger	+	strong m=0.43
 101.0223	content/_original/101/1883-08-20.md	Kernberger	+	strong m=0.32
 101.0232	content/_original/101/1883-08-21.md	Censored_1887	+	run20 run=20 nw=83
@@ -6026,7 +5819,6 @@ pid	file	tag	change	evidence
 103.0023	content/_original/103/1884-01-15.md	Censored_1887	+	local20/23-w38 run=13 nw=23
 103.0024	content/_original/103/1884-01-15.md	Kernberger	+	strong m=0.52
 103.0026	content/_original/103/1884-01-15.md	Kernberger	+	strong m=0.35
-103.0044	content/_original/103/1884-01-15.md	Censored_1887	+	shortseq1-w39 run=0 nw=1
 103.0055	content/_original/103/1884-01-18.md	Kernberger	+	strong m=0.54
 103.0056	content/_original/103/1884-01-18.md	Kernberger	+	strong m=0.45
 103.0057	content/_original/103/1884-01-18.md	Kernberger	+	strong m=0.42
@@ -6073,13 +5865,11 @@ pid	file	tag	change	evidence
 103.0415	content/_original/103/1884-03-01.md	Kernberger	+	strong m=0.34
 103.0417	content/_original/103/1884-03-01.md	Kernberger	+	strong m=0.38
 103.0418	content/_original/103/1884-03-01.md	Kernberger	+	strong m=0.42
-103.0421	content/_original/103/1884-03-01.md	Censored_1887	+	shortseq1-w5 run=0 nw=1
 103.0429	content/_original/103/1884-03-05.md	Kernberger	+	strong m=0.29
 103.0430	content/_original/103/1884-03-05.md	Kernberger	+	strong m=0.45
 103.0433	content/_original/103/1884-03-05.md	Kernberger	+	strong m=0.40
 103.0435	content/_original/103/1884-03-05.md	Kernberger	+	strong m=0.47
 103.0437	content/_original/103/1884-03-05.md	Kernberger	+	strong m=0.79
-103.0446	content/_original/103/1884-03-07.md	Censored_1887	+	local12/52-w5 run=6 nw=52
 103.0457	content/_original/103/1884-03-08.md	Kernberger	+	strong m=0.41
 103.0459	content/_original/103/1884-03-09.md	Kernberger	+	strong m=0.46
 103.0460	content/_original/103/1884-03-09.md	Kernberger	+	strong m=0.58
@@ -6172,7 +5962,6 @@ pid	file	tag	change	evidence
 104.0050	content/_original/104/1884-04-30.md	Censored_1887	+	local12/29-w26 run=10 nw=29
 104.0056	content/_original/104/1884-05-01.md	Kernberger	+	strong m=0.57
 104.0081	content/_original/104/1884-05-03.md	Kernberger	+	strong m=0.78
-104.0089	content/_original/104/1884-05-03.md	Censored_1887	+	shortseq1-w10 run=0 nw=1
 104.0105	content/_original/104/1884-05-05.md	Kernberger	+	strong m=0.80
 104.0109	content/_original/104/1884-05-05.md	Censored_1887	+	shortseq3-w26 run=0 nw=3
 104.0119	content/_original/104/1884-05-07.md	Censored_1887	+	run26 run=26 nw=28
@@ -6212,7 +6001,6 @@ pid	file	tag	change	evidence
 104.0257	content/_original/104/1884-05-18.md	Censored_1887	+	local19/21-w67 run=13 nw=21
 104.0258	content/_original/104/1884-05-18.md	Censored_1887	+	run45 run=45 nw=73
 104.0259	content/_original/104/1884-05-18.md	Censored_1887	+	run57 run=57 nw=85
-104.0305	content/_original/104/1884-05-23.md	Censored_1887	+	local13/56-w2 run=5 nw=56
 104.0321	content/_original/104/1884-05-24.md	Censored_1887	+	local10/25-w55 run=6 nw=25
 104.0325	content/_original/104/1884-05-24.md	Kernberger	+	strong m=0.75
 104.0329	content/_original/104/1884-05-25.md	Kernberger	+	strong m=0.73
@@ -6220,10 +6008,8 @@ pid	file	tag	change	evidence
 104.0342	content/_original/104/1884-05-25.md	Censored_1887	+	local5/5-w5 run=5 nw=5
 104.0368	content/_original/104/1884-05-26.md	Kernberger	+	strong m=0.89
 104.0370	content/_original/104/1884-05-26.md	Kernberger	+	strong m=0.50
-104.0394	content/_original/104/1884-05-26.md	Censored_1887	+	shortseq2-w2 run=0 nw=2
-104.0397	content/_original/104/1884-05-26.md	Censored_1887	+	shortseq2-w3 run=0 nw=2
 104.0400	content/_original/104/1884-05-27.md	Censored_1887	+	local8/10-w15 run=8 nw=10
-104.0401	content/_original/104/1884-05-27.md	Censored_1887	+	local5/5-w15 run=5 nw=5
+104.0401	content/_original/104/1884-05-27.md	Censored_1887	+	bag5-w15 run=5 nw=5
 104.0402	content/_original/104/1884-05-27.md	Censored_1887	+	run18 run=18 nw=18
 104.0404	content/_original/104/1884-05-27.md	Kernberger	+	strong m=0.83
 104.0408	content/_original/104/1884-05-27.md	Kernberger	+	strong m=0.58
@@ -6293,7 +6079,6 @@ pid	file	tag	change	evidence
 104.0759	content/_original/104/1884-06-29.md	Kernberger	-	llm-verified-NO
 104.0765	content/_original/104/1884-06-29.md	Kernberger	+	llm-verified-YES
 104.0772	content/_original/104/1884-06-30.md	Kernberger	+	strong m=0.45
-104.0774	content/_original/104/1884-06-30.md	Censored_1887	+	shortseq1-w101 run=0 nw=1
 104.0778	content/_original/104/1884-06-30.md	Kernberger	+	strong m=0.52
 104.0784	content/_original/104/1884-07-01.md	Censored_1887	+	local5/7-w85 run=5 nw=7
 104.0785	content/_original/104/1884-07-01.md	Censored_1887	+	local14/14-w85 run=14 nw=14
@@ -6305,7 +6090,6 @@ pid	file	tag	change	evidence
 104.0793	content/_original/104/1884-07-01.md	Censored_1887	+	run33 run=33 nw=43
 105.0002	content/_original/105/1884-07-02.md	Kernberger	+	strong m=0.61
 105.0009	content/_original/105/1884-07-02.md	Kernberger	+	strong m=0.63
-105.0022	content/_original/105/1884-07-03.md	Censored_1887	+	shortseq2-w51 run=0 nw=2
 105.0023	content/_original/105/1884-07-03.md	Kernberger	-	empty-paragraph
 105.0024	content/_original/105/1884-07-03.md	Censored_1887	+	local6/6-w51 run=6 nw=6
 105.0032	content/_original/105/1884-07-05.md	Kernberger	+	strong m=0.44
@@ -6357,13 +6141,11 @@ pid	file	tag	change	evidence
 105.0236	content/_original/105/1884-07-17.md	Kernberger	+	strong m=0.28
 105.0239	content/_original/105/1884-07-17.md	Kernberger	+	strong m=0.71
 105.0241	content/_original/105/1884-07-17.md	Kernberger	+	strong m=0.22
-105.0246	content/_original/105/1884-07-17.md	Censored_1887	+	shortseq1-w0 run=0 nw=1
 105.0247	content/_original/105/1884-07-17.md	Kernberger	+	strong m=0.73
 105.0248	content/_original/105/1884-07-17.md	Kernberger	+	strong m=0.69
 105.0249	content/_original/105/1884-07-17.md	Kernberger	+	strong m=0.72
 105.0250	content/_original/105/1884-07-17.md	Kernberger	+	strong m=0.60
 105.0278	content/_original/105/1884-07-21.md	Kernberger	+	strong m=0.44
-105.0288	content/_original/105/1884-07-21.md	Censored_1887	+	shortseq1-w4 run=0 nw=1
 105.0294	content/_original/105/1884-07-22.md	Kernberger	-	empty-paragraph
 105.0309	content/_original/105/1884-07-24.md	Kernberger	+	strong m=0.20
 105.0310	content/_original/105/1884-07-24.md	Kernberger	+	strong m=0.58
@@ -6406,7 +6188,6 @@ pid	file	tag	change	evidence
 105.0444	content/_original/105/1884-08-04.md	Kernberger	+	strong m=0.47
 105.0448	content/_original/105/1884-08-04.md	Kernberger	-	empty-paragraph
 105.0461	content/_original/105/1884-08-05.md	Kernberger	+	strong m=0.22
-105.0480	content/_original/105/1884-08-05.md	Censored_1887	+	shortseq1-w17 run=0 nw=1
 105.0484	content/_original/105/1884-08-05.md	Kernberger	+	strong m=0.38
 105.0491	content/_original/105/1884-08-06.md	Kernberger	+	strong m=0.75
 105.0496	content/_original/105/1884-08-08.md	Kernberger	+	strong m=0.87
@@ -6466,7 +6247,7 @@ pid	file	tag	change	evidence
 105.0714	content/_original/105/1884-08-25.md	Kernberger	+	strong m=0.57
 105.0716	content/_original/105/1884-08-25.md	Kernberger	-	empty-paragraph
 105.0722	content/_original/105/1884-08-26.md	Censored_1887	+	bag3-w12 run=0 nw=3
-105.0723	content/_original/105/1884-08-26.md	Censored_1887	+	local5/5-w12 run=5 nw=5
+105.0723	content/_original/105/1884-08-26.md	Censored_1887	+	shortseq5-w12 run=5 nw=5
 105.0726	content/_original/105/1884-08-26.md	Kernberger	+	strong m=0.66
 105.0729	content/_original/105/1884-08-26.md	Kernberger	+	strong m=0.48
 105.0736	content/_original/105/1884-08-27.md	Kernberger	-	empty-paragraph
@@ -6555,11 +6336,9 @@ pid	file	tag	change	evidence
 106.0412	content/_original/106/1884-10-07.md	Censored_1887	+	run72-offchain run=72 nw=72
 106.0414	content/_original/106/1884-10-07.md	Censored_1887	+	run23-offchain run=23 nw=29
 106.0416	content/_original/106/1884-10-07.md	Censored_1887	+	run35-offchain run=35 nw=35
-106.0422	content/_original/106/1884-10-09.md	Censored_1887	+	shortseq1-w19 run=0 nw=1
 106.0424	content/_original/106/1884-10-09.md	Kernberger	+	strong m=0.60
 106.0435	content/_original/106/1884-10-11.md	Kernberger	+	strong m=0.70
 106.0445	content/_original/106/1884-10-16.md	Kernberger	+	strong m=0.67
-106.0450	content/_original/106/1884-10-16.md	Censored_1887	+	shortseq2-w52 run=0 nw=2
 106.0453	content/_original/106/1884-10-18.md	Censored_1887	+	run16 run=16 nw=20
 106.0454	content/_original/106/1884-10-18.md	Censored_1887	+	local9/9-w26 run=9 nw=9
 106.0455	content/_original/106/1884-10-18.md	Kernberger	+	strong m=0.66
