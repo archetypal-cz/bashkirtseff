@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–013. Next: 014 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–019. Next: 020 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -41,6 +41,12 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–013. Next: 014 upward, waves of 6 
 | 012 | calque 2 | 78dd17a8 | 19 (19 changed) | 110 | not needed | Aggie «Аґґі» (0281) vs «Еґі» (0052, 0102; tree 7 vs 12); «мадам/пані Говард» switch mid-carnet; 0207 dîner and déjeuner both «обідати» |
 | 011 | calque 2 | 0b6e4c12 | 18 (18 changed) | 172 | not needed (127 lines) | «руське порося» (0267, 0275) for *cochon russe* — «руський» ambiguous, owner; «Галіньяні» (0218) probably nickname |
 | 010 | calque 2 | ea12dc23 | 22 (21 changed) | 228 | RED: 85% better / 14% neutral / 1 worse, fixed | Одіффре ×3; après-midi → «пополудні» |
+| 014 | calque 2 | b037e1bf | 23 (23 changed) | 140 | not needed (92 lines) | 0205 *ne l'a remarqué* and 0283 *Je ne me proposais* — stray ne? (left); «Анічковські» (0078) vs «Анічкови» |
+| 019 | calque 2 | 32059118 | 36 (29 changed) | 108 | not needed | «Тріфон» vs TM «Трифон»; Laferrière «Лафер'єр» is the 2026-06-14 corpus-wide form (TM 019 section still says «Лаферрьєр» — TM stale) |
+| 015 | calque 2 | a381ff56 | 24 (24 changed) | 160 | not needed (116 lines) | «до Сімон» (0086) vs «до Сімони» (0206, 0232); «авеню де ла Ґар» (0019) vs «Вокзальна алея» (0198) |
+| 018 | calque 2 | fbc01b94 | 26 (25 changed) | 149 | not needed | «ніццяни» 21× elsewhere vs TM «ніццянці» 45× — sweep candidate; Lambertye «Ламбер'є» here vs «Ламбертьє» (FAB 004 said 170 vs 4) |
+| 016 | calque 2 | 816faa73 | 26 (25 changed) | 158 | not needed (130 lines) | 0254 «Барон Потьомкін-перший» fuses Woerman+Potemkine (no comma in French); «Соломінка» (0087, 0193) vs «Соломинка» (0349, 0352) |
+| 017 | calque 2 | 5e8642d9 | 34 (34 changed) | 248 | RED: 94% better / 3% neutral / 3% worse, 7 fixed | «на Бакі» (0113, 0189, elsewhere) vs TM «вілла Бакіс» — declension ruling |
 
 ## Findings (other uk work)
 
@@ -81,6 +87,8 @@ Disputed spellings seen (not normalised — owner ruling needed):
 - 007: «Ґаліцина» (Ґ) here vs 7× «Галіцин» in tree; «Ґранд-Готель» vs majority «Гранд-Готел…».
 - 008: Hélène «Елен» (0039) vs «Елені» (0281 → Елена); 012: «боярською жоною» (0108); 013: «Коліньйон» (0154), «Воерман» (0093/0118), «Батько Бартер» (literally the father, 0111).
 - 010: Brunet «Брюне» (0002, 0153, 0229) vs TM (lines 724, 952) «Бруне».
+- 017: «Звєгінцов», «Вочею Данилівським» (0407), «Бете»; Mlle as «Мадемуазель Коліньон» and «панна де Ґальве».
+- 018: Lise «Ліз» (0123–0124) vs «Ліза» (0307); Simone «Сімон» (016, 018) vs «Сімона» (015).
 
 Other questions:
 - 010.0157 *chez les ânes* → «в ослів» (nickname for the Anitchkoffs); is «ослячий прокат» (*la petite ânerie*) also their house? 010.0225 *il est au Français* → «у Французькому ліцеї» (Théâtre Français? French class?); 010.0302 *J'ai joué au petit cosaque* — a game or the tune?
