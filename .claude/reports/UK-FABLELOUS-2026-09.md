@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–050. Next: 051 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–056. Next: 057 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -81,6 +81,12 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–050. Next: 051 upward, waves of 6 
 | 048 | calque 2 | 2a43a32e | 14 (14 changed) | 156 | not needed (142 lines) | Marie's weekday slip restored (0093); tarot «Приміряю!» overrides TR/CON; 0150 «я його хочу» reads sexual |
 | (tree) | TM-lock sweep | 6e149796 | 13 carnets | 27 | — | Ґалюл-/Галул- → Ґалул-, Сапогеніков- → Сапоженіков- |
 | 050 | calque 2 | 81e14714 | 38 (36 changed) | 158 | RED: 73% better / 25% neutral / 2% worse, 3 fixed | *Petit Noël* → «Святий Миколай» (0925, 0980) cultural substitution — owner; 0516 *mauvais esprit* «лихим кодлом»? |
+| 051 | calque 2 | 057c8c88 | 14 (14 changed) | 87 | not needed | «монах» (0343) vs «ченці» elsewhere; *Si vous croyez que…* → «Ви, мабуть, гадаєте…» as a tree convention? |
+| 052 | calque 2 | fb169f35 | 14 (14 changed) | 77 | not needed | 0264 *Je crois bien être nièce de l'Empereur* — irony or wish?; source oddities 0034 (duplicate of 0041), 0035 garbled |
+| 053 | calque 2 | d08fb739 | 19 (18 changed) | 111 + 1 NOTE | not needed | **source-side: _original/053/1876-02-05 footnote calls Vigier a tenor** (she is the vicomtesse de Vigier; en same) — fix in _original/en; «умирущий гладіатор» vs «Вмираючий галл»? |
+| 055 | calque 2 | 18f49c7c | 27 (27 changed) | 156 | lead spot-check (146 lines) | floor numbering mixed within 055 (0012 French counting vs 0681/0901 Ukrainian) |
+| 054 | calque 2 | 14ce8756 | 18 (18 changed) | ~206 | RED: 85% better / 12% neutral / 3% worse, 5 fixed | Marie's «al Apollo» restored |
+| 056 | calque 2 | fb058316 | 13 (13 changed) | ~258 | RED: 70% better / 27% neutral / 3% worse, 5 fixed | *huit jours* kept «вісім днів» (Marie counts them, 0263); 0570 *pour avoir des paroles* — news from him or words to express? |
 
 ## Findings (other uk work)
 
@@ -134,6 +140,7 @@ Disputed spellings seen (not normalised — owner ruling needed):
 - 024: «батько Морено» (0075); «Басілєвич» vs TM Базілевич; «Ґалюла» vs TM Ґалула; «Бове»/«Соваса»; «Льовен» (Lewin); «Кертьє» (Querteux); мадам/пані mixed.
 - **Floors**: *au premier* rendered «на першому поверсі» in 020.0521, 024.0025 while 006 converted to Ukrainian counting («на другому») — convention ruling.
 - 023: Муленар regularises Marie's own «Mulinare»/«Moelenar» (0187–0202) — fact-correction?; «предводитель» vs TM «ватажок дворянства» (0208); stray «Колліньйон» still in 011/1873-11-01, 072/1877-07-14.
+- 054: *coup de foudre* «удар грому» (0362, 0651) vs TM lines 453/702 "keep French" (not Locked) — «закохатися з першого погляду»?; footnote 054.0570.1 dates Fanny Lear scandal 1874 vs French RSR 1876.
 
 Other questions:
 - 023.0058 *maison de quatorze siècles* rendered «будинок чотирнадцятого сторіччя» — corrects Marie's "fourteen centuries [old]"?
