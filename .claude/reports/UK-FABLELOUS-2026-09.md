@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000, 001. Next: 002 upward (briefs brief_uk{c}.md are regenerated from the lead's template; see the prompt in this routine). Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–007. Next: 008 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -29,6 +29,12 @@ Phase 1 (098–106) DONE. Phase 2 done: 000, 001. Next: 002 upward (briefs brief
 | 104 | FAB 1 | bb90be94 | 53 | 169 | not needed (142 lines) | Marie's «!!» ×4; pre-existing splice in RED comment (1884-06-15) repaired |
 | 105 | FAB 1 | 80566966 | 61 (47 changed) | 169 | not needed (148 lines) | 0075 *faire poser* = keep waiting (cz/105 has the same error «Nechal mě pózovat» — for the local session); TM «Пополь» |
 | 106 | FAB 1 | 39f706e1 | 39 (14 changed) | 114 | not needed (102 lines) | TM «Жюліан» ×4; Мак-Кей vs Маккей here is Marie's own distinction (0007) — keep |
+| 002 | calque 2 | 94b118b6 | 25 (23 changed) | 90 | not needed (77 lines) | «Miserere I» → «Miserere!» (0041; source/cz/en still have «I»); signature «Башкірцева [sic]» (0303) vs TM-071 lock «Башкирцева» — owner |
+| 004 | calque 2 | 99026c14 | 33 (33 changed) | 158 | not needed (121 lines) | stray marginal-note copies at 0054/0067 removed (ED); God *vous* restored as «Ви» ×4 (see owner question)  |
+| 006 | calque 2 | b9d8faf4 | 27 (27 changed) | 131 | not needed (81 lines) | floor numbering au premier → «на другому поверсі»; *pont* read as bathing stage (0118/0199) and 0068 «постати перед судом» — owner may revert |
+| 003 | calque 2 | 5b5b9f2e | 33 (33 changed) | 160 | not needed (112 lines) | 0249 TR addition removed (Marie's contradiction about Boreel) |
+| 005 | calque 2 | 36b33bcc | 29 (27 changed) | 167 | not needed (120 lines) | 0282 second «ревнувала до племінниці» ambiguous (left); God Toi→Vous switch 0229–0230 flattened to Ти (kept) |
+| 007 | calque 2 | 2f73dfa6 | 29 (29 changed) | 182 | not needed (122 lines) | 0355 Marie's «Снідали … увечері» restored; *faire son chic* (0356) — owner |
 
 ## Findings (other uk work)
 
@@ -61,14 +67,22 @@ Disputed spellings seen (not normalised — owner ruling needed):
 
 - 104: «Ехт» (0159) vs TM «Гехт»; Ґавіні; **«Мітинг» ×6 for Marie's *Meeting* vs TM-103 «Збори»**; «княгиня Матильда» (0357, 0459) vs TM «принцеса»; «Сарицькі» used for both *Saritsky* (0219) and *Staritsky* (0271, 0458, 0597, 0701, 0719) — Marie's variants silently unified.
 
+- 002: «Габрієллі» (Г) vs Ґ; «авеню де ля Ґар» (0127); signature «Марі де Башкірцева [sic]» (0303) vs TM-071 lock «Башкирцева».
+- 004: Tolstoy — «Толстая» (Russian nominative, 0160/0162/0199) next to «Толстої/Толстою/Толстій»; no lock — «Толста»? 0083 «як кажуть по-нашому» hides Marie's *en russe*; 0262 «(нудьга)» for *(cochon)*.
+- 006: vocative «Муся» (0008) vs «Мусю» in 021/027.
+- 003: Ґальве ×3 (0033, 0080, 0115) vs Гальве ×16; Бенза ×6 vs Бенса (0210; tree majority Бенса); «New Scotland» Latin (0096) vs «Нью Скотленд» (0191); *matinée* at cercle Masséna ×3 renderings vs TM «музичний ранок»; «прогулянка» for the Promenade as a place (0061).
+- 005: «Чернікофф» (-офф, 0213/0238/0278) vs -ов elsewhere; «Ненькова» (Nennkoff, 0224); «Маноте» (0220); «Ліонс» (0155).
+- 007: «Ґаліцина» (Ґ) here vs 7× «Галіцин» in tree; «Ґранд-Готель» vs majority «Гранд-Готел…».
+
 Other questions:
+- *dîner/déjeuner*: uk tree splits dîner between «обід» and «вечеря» (007 aligned to сніданок/обід; 103 mixes) — make «обід» a uk-wide TM rule?
 - 106.0030 «Та блакиті, Вікторе Гюго» for *du bleu Victor Hugo* (Hugo-style blue?) — TR defends it; 106.0147 «бідолашний пес» for affectionate *pauvre chien*.
 - 105: «Пер'в'є» for Périvier (0677, 0713) looks malformed («Перів'є»?). 105.0155 *comme je vais bien* likely a transcription slip for *je sais bien* (uk+cz literal). 105.0506 *la tête dans les mains* — «обхопивши» dangles; source check. 105.0192 verse attributed to Vigny *La Maison du berger* — unverified.
 - «меса» for Orthodox services (104.0572 «Заупокійна меса»; 102 changed 5× to «служба») — ruling?
 - 000.0006 *des mineurs* kept «промисловців» (LAN/RSR: mine owners); Kernberger reads "minors", likelier with *gens ruinés*. 000.0023 RED «поляк — підданий Росії» interprets Marie's *polonais, russe*. 000.0046 *sa bonne amie* «подруга» — maybe sweetheart.
 - 098.0356 Marie's *sale Juif* → slur «жид», but *Juifs* in 0064 → «євреями». Keep? 098.0005 *jouent à la Porte* rendered as a Porte-Saint-Martin scene — maybe Musset's *Il faut qu'une porte…*. 098.0259 «Мадьє де Монжо» silently corrects Marie's "Montjan" (left).
 - **Tchernitsky's gender**: 102.0030 changed «Черницького» → «Черницьку» (source continues *elle, le pope…*, 0035 *la Tchernitsky*), but 102.0148 and 101 are masculine — ruling needed.
-- **God addressed as «ви» vs «Ти»**: 101 has «ви» (0235, 0247) and «Ти» (0095, 0302, 0575). Marie writes *vous*; Ukrainian norm is «Ти». Corpus-wide ruling?
+- **God addressed as «ви» vs «Ти»**: 101 has «ви» (0235, 0247) and «Ти» (0095, 0302, 0575). Marie writes *vous*; Ukrainian norm is «Ти». Corpus-wide ruling? Note: agents moved in both directions pending the ruling — 098.0056 «Ви» → «Ти» (to match 0024); 004 four imperatives «ти» → «Ви» (to match the carnet's «Благаю Вас»).
 - *maréchal de la noblesse*: «маршал…» ×7 vs «предводител…» ×13 in corpus, no lock (100.0009).
 - «Нового времени» (100, 06-17/07-01) keeps the Russian paper title — keep or «Нового часу»?
 - 100.0093 Marie's slip *pique d'amour-pur* (for *amour-propre*) rendered «уколом гордості» — restore literally with a note?
