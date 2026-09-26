@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–032. Next: 033 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–041. Next: 042 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -61,6 +61,16 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–032. Next: 033 upward, waves of 6 
 | 027 | calque 2 | 9c07b927 | 30 (28 changed) | 160 | not needed (119 lines) | pre-existing mixed-script «flapperом» (1874-12-04) |
 | 032 | calque 2 | f095f8d6 | 24 (20 changed) | 62 | not needed | Marie's truncated *Audiffer* rendered «Одіффре» vs TM «Одіффер» (later carnet); TM-locked «грудь» for *gorge* reads Russian-leaning; 0109 *mon journal* diary or newspaper? |
 | 030 | calque 2 | 75660119 | 33 (33 changed) | ~200 | not needed (142 lines) | footnotes 030.075.1 (Gioia = Maria Beckwith?) and 030.155.1 («Диявол» = Hamilton?) look wrong — RSR; «Зоя» vs TM «Зое Пелікан»; 0257 *qui ne me regarde pas* = God? (NOTE) |
+| 035 | calque 2 | 687079ea | 2 (2 changed) | 21 | not needed | «зволює» also in 099/1883-05-01 (post-FAB) |
+| 036 | calque 2 | 5b056ab4 | 6 (6 changed) | 44 | not needed | **0026 reread against LAN/RED/CON** (*Je ne puis le sentir ni le voir* = can't feel whether I paid him back) — owner; 0015 *Je dîne seule toujours* = still? |
+| 037 | calque 2 | 7b474317 | 7 (6 changed) | 50 | not needed | 0141 *centenaire de Michel-Ange* rendered «чотиристаліття» (glosses Marie; «ювілей»?) |
+| 038 | calque 2 | 3dbc27ba | 11 (11 changed) | 70 | not needed | demonym «ніццець» still in 028/1875-01-02, 033/1875-06-06, 035/1875-07-01 ×2 (TM: «ніццянець»; «мій ніццець» pet name OK) |
+| 034 | calque 2 | 72378465 | 11 (11 changed) | 72 | lead spot-checked restored strikes | 11 dropped [Rayé:] restored; «Сапожеников-» still in 031, 043, 047–049, 064, 085, 102, 103 (TM/tree: Сапоженіков-, 190:47) — sweep candidate |
+| 041 | calque 2 | 6932cff9 | 2 (2 changed) | 13 | not needed | Schlangenbad «Шлангенбад» ×24 / «Шлянгенбад» ×16 / «Шлянґенбад» ×10 — no lock |
+| 039 | calque 2 | c154ad49 | 12 (10 changed) | 31 | not needed | 0114 «підряд» kept for rhyme; 0056 *je me trouve moins bien* health or looks? (NOTE) |
+| 033 | calque 2 | 09b1193f | 21 (20 changed) | 112 | not needed | *paysan* «мужлай» vs TM cluster «селюк»; *faquin* first-FAB «негідник/шельмо» vs TM «фат»; en/033.0292 «his smile» may be wrong |
+| 040 | calque 2 | 54f53867 | 5 (5 changed) | 46 | not needed | Schlangenbad split four ways in tree (21/12/9/6) — ruling |
+| (tree) | TM-lock sweep | c52f62e7 | 9 carnets | 34 | — | Сапожеников- → Сапоженіков- |
 
 ## Findings (other uk work)
 
