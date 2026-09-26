@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–056. Next: 057 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–065. Next: 066 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -87,6 +87,15 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–056. Next: 057 upward, waves of 6 
 | 055 | calque 2 | 18f49c7c | 27 (27 changed) | 156 | lead spot-check (146 lines) | floor numbering mixed within 055 (0012 French counting vs 0681/0901 Ukrainian) |
 | 054 | calque 2 | 14ce8756 | 18 (18 changed) | ~206 | RED: 85% better / 12% neutral / 3% worse, 5 fixed | Marie's «al Apollo» restored |
 | 056 | calque 2 | fb058316 | 13 (13 changed) | ~258 | RED: 70% better / 27% neutral / 3% worse, 5 fixed | *huit jours* kept «вісім днів» (Marie counts them, 0263); 0570 *pour avoir des paroles* — news from him or words to express? |
+| 057 | calque 2 | 6c9ad619 | 4 (4 changed) | 79 | not needed | 0104 «я подурнішав» (FAB 08-14) ambiguous (less handsome?) — «отупів»? |
+| 058 | calque 2 | 103a0e9a | 6 (6 changed) | 115 | not needed | «Петруччо» (058, 059) vs TM «П'єтруччо»; «Десклі» for Desclée («Декле»?) |
+| 061 | calque 2 | 2cb09bee | 7 (7 changed) | 157 | not needed (111 lines) | Marie's code asterisk restored (0096); «Ессаєвич» (no TM); «Наді» for Nadine; «Рима/Риму» |
+| 065 | calque 2 | cf32609b | 16 (15 changed) | 50 | not needed | 0166 father's formal *vous* rendered «дозволь … тобі» |
+| 063 | calque 2 | 3663aa23 | 13 (8 changed) | 142 | not needed | source-side: LAN note on _original 063.0104 (*amener* = persuade) is wrong; 0313 *Vous devez chanter* inference or advice? |
+| 060 | calque 2 | ece5e947 | 9 (9 changed) | 245 | RED: 80% better / 17% neutral / 2.5% worse, 6 fixed | — |
+| 059 | calque 2 | 9a0ef8cb | 20 (20 changed) | ~244 | RED: 80% better / 19% neutral / <1% worse, 2 fixed | Wykerslooth «Вейкерслот» (0384) vs «Вейкерслоот» (0577) |
+| 062 | calque 2 | f4c4e17f | 35 (35 changed) | 399 | RED: 80% better / 16% neutral / 4% worse, 7 fixed | Savoy princess «Маргарита» (062) vs «Маргерита» (055, 060, 072) vs TM «Марґеріт» — ruling |
+| 064 | calque 2 | 58bba800 | 23 (21 changed) | 222 | RED: 76% better / 22% neutral / 2% worse, 4 fixed | «мюлі» vs TM line 1303 *mules* «пантофлі»; footnote-glue candidate 064.0429 (pre-existing) — check |
 
 ## Findings (other uk work)
 
@@ -141,6 +150,8 @@ Disputed spellings seen (not normalised — owner ruling needed):
 - **Floors**: *au premier* rendered «на першому поверсі» in 020.0521, 024.0025 while 006 converted to Ukrainian counting («на другому») — convention ruling.
 - 023: Муленар regularises Marie's own «Mulinare»/«Moelenar» (0187–0202) — fact-correction?; «предводитель» vs TM «ватажок дворянства» (0208); stray «Колліньйон» still in 011/1873-11-01, 072/1877-07-14.
 - 054: *coup de foudre* «удар грому» (0362, 0651) vs TM lines 453/702 "keep French" (not Locked) — «закохатися з першого погляду»?; footnote 054.0570.1 dates Fanny Lear scandal 1874 vs French RSR 1876.
+- 060: Larderei's given name — «Олександру» (0450, the uncle's locked form) vs TM 071 «Алессандро» vs «Александра» (0067); «Рима/Риму» mixed.
+- 062: «Шоколь» (0420, 0421) vs TM-063 «Шоколад»; vocative «Маріє» (0207, 0211, 0215) vs TM «Марі» indeclinable; *mes mères* «матусі»; *fraises* «суниці»/«полуниці».
 
 Other questions:
 - 023.0058 *maison de quatorze siècles* rendered «будинок чотирнадцятого сторіччя» — corrects Marie's "fourteen centuries [old]"?
