@@ -1,5 +1,11 @@
 
 ## Changelog
 
+### 2026-09-26T10:12:00 @claude-CON
+First CON gate. All 23 entries were re-read against content/_original/014; the embedded French is identical to the source and no sentences are missing. conductor_approved: true on 23/23, mean score 0.918 (range 0.90–0.94). Fixes: 014.0125 Hitchcock's grievance meant the opposite („dělá si nároky, že nemá vycházet“ → „je dotčená, že nevychází s mámou“); 014.0189 panier = a light wicker carriage, not „košík“; 014.0267 pesage → vážnice; bataclan → bataklán per TM (5 hits in 014); register fixes in 0122 and 0283 (no „moc“); 19 footnotes brought to the Pozn. překl. form; straight closing quotes → “ (54). Left for the owner: the TM has conspirateur = „konspirační plášť“, but 014 uses „spiklenec“, which carries the *Madame Angot* joke, and 015–019 use spiklenecký 6× against konspirační 2×; bataclan survives in cz 004, 012, 013, 015 and 067.
+
+### 2026-09-26T09:45:00 @claude-RED
+RED after the FAB calque pass, all 23 entries checked against content/_original/014 (embedded French identical to source; no dropped sentences except "pour écrire" in 014.0018, restored). Fixes: 014.0044 elle monte/ne montent pas = riding, not "přichází/nenastupují"; 014.0277 papiers du cabinet = toilet paper, not "z kabinetu"; 014.0181 dames seules = ladies' compartment; 014.0118 "ass" = donkey, a nickname (LAN), not "assistant"; 014.0221 "sňatek se dvěma r" now refers to the word mariage; "peeresse" left untranslated in 014.0040; sans doute judged per case (0041, 0141, 0157, 0191, 0326 → jistě/samozřejmě; 0236 kept nejspíš); dialogue hyphens and em dashes → en dash across the carnet; footnotes reformatted to "Pozn. překl." where they said "V originále francouzsky" or were wrong (0271 spiklenec, 0341 cabinets). editor_approved stays true on all 23.
+
 ### 2026-06-13T18:10:00 @claude-RED
 Fluidity pass vs French originals — worst splice hotspot in repo: 38 GEM-splice repairs. Recovered untranslated half-paragraph (014.0346, the New Year music/Hamilton passage); fixed dropped negation ("teta si toho nevšimla"), GEM howler reverted (tonneau de harengs: sleďů ne slečen), restored missing day ("den, noc a den"), "ce journal" = tento deník ne noviny, prayer 2nd person restored; gender fixes (bláznice, kretinka, školačka, ubozé). First editor pass — editor_approved set true. RED comments inline.
