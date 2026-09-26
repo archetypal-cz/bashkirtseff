@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–025. Next: 026 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–032. Next: 033 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -54,6 +54,13 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–025. Next: 026 upward, waves of 6 
 | 024 | calque 2 | d7290702 | 41 (37 changed) | 188 | RED: 90% better / 9% neutral / 1% worse, 2 fixed | 0115 «del Puente I» read as «!» artefact — cz/en/fr and RSR stub keep «I»; fix belongs at source (RSR) |
 | 023 | calque 2 | 69060d21 | 35 (32 changed) | 185 | RED: 90% better / 8% neutral / 2% worse, 4 fixed | footnote 023.0191.4 still «герцога Гамільтонського» (literal gloss) |
 | (tree) | TM-lock sweep | 42ab95e0 | 25 carnets | 60 ED | — | Башкірцев → Башкирцев, Колліньйон → Коліньйон |
+| 026 | calque 2 | d0b64b33 | 5 (5 changed) | 28 + 3 NOTE | not needed | TM vs tree majority: Трифон (TM) vs Тріфон (32:10 files); Мержеєвська (TM) vs Мержевськ- (78:15); Ґалула (TM, 79) vs Ґалюл- (19) |
+| 031 | calque 2 | 3cfe1069 | 20 (16 changed) | 68 | not needed | Laussel «Лосселя/Лоссель» vs TM «Лосель» (032); 0098 *mon journal* after Galignani = newspaper?; 0164/0165 «I» artefacts (guess, left) |
+| 028 | calque 2 | 7cdfee5c | 27 (23 changed) | 89 | not needed | Boileau quote misattributed in _original/028/1874-12-31 LAN note too (outside uk); Barrême «Барреме» (028) vs «Барем» (027, 029); «Єтьєнну» vs «Етьєн» |
+| 029 | calque 2 | c9faacaa | 29 (27 changed) | 126 | not needed | 0227 «Юм» for source *Horne* (silent identification); 0080 «він трохи Каліостро»; 0223 inserted «(добре)» for *désonner* [sic] |
+| 027 | calque 2 | 9c07b927 | 30 (28 changed) | 160 | not needed (119 lines) | pre-existing mixed-script «flapperом» (1874-12-04) |
+| 032 | calque 2 | f095f8d6 | 24 (20 changed) | 62 | not needed | Marie's truncated *Audiffer* rendered «Одіффре» vs TM «Одіффер» (later carnet); TM-locked «грудь» for *gorge* reads Russian-leaning; 0109 *mon journal* diary or newspaper? |
+| 030 | calque 2 | 75660119 | 33 (33 changed) | ~200 | not needed (142 lines) | footnotes 030.075.1 (Gioia = Maria Beckwith?) and 030.155.1 («Диявол» = Hamilton?) look wrong — RSR; «Зоя» vs TM «Зое Пелікан»; 0257 *qui ne me regarde pas* = God? (NOTE) |
 
 ## Findings (other uk work)
 
