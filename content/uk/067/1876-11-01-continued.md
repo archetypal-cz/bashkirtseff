@@ -27,6 +27,7 @@ para_start: 1
 para_end: 8
 redaction_passes:
   - fablelous 2026-08-15
+  - fablelous 2026-09-26
 ---
 
 %% 067.0001 %%
@@ -35,7 +36,8 @@ redaction_passes:
 %% 2026-02-02T12:30:00 LAN: "réticences" - reticence/evasiveness (withholding in conversation) %%
 %% 2026-02-02T12:30:00 LAN: "si je ris, ce sont les nerfs" - if I laugh, it's nerves (nervous laughter, not mockery) %%
 %% — Mais simplement. Pourquoi ces réticences ? Pourquoi ne pas être simple et franc; je ne me moquerai pas, si je ris, ce sont les nerfs et rien d'autre. Je suis la plus malheureuse des créatures et personne ne me plaint. %%
-— Та просто. Навіщо ці недомовки? Чому не бути простим і відвертим; я не глузуватиму, а якщо засміюся, то це нерви й нічого більше. Я найнещасніша з усіх створінь, і ніхто мене не жаліє.
+— Та просто. Навіщо ці недомовки? Чому б не бути простим і відвертим; я не глузуватиму, а якщо засміюся, то це нерви й нічого більше. Я найнещасніша з усіх створінь, і ніхто мене не жаліє.
+%% 2026-09-26T11:24:57 FAB: "Чому не бути простим і відвертим" → "Чому б не бути простим і відвертим" — «pourquoi ne pas être» по-українськи просить умовної частки «б»; без неї питання звучить як калька %%
 
 %% 067.0002 %%
 %% — Vous, malheureuse ? %%
