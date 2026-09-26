@@ -6,7 +6,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Stub
-last_updated: 2026-02-10
+last_updated: 2026-09-26
 languages:
   - ru
   - uk
@@ -29,7 +29,7 @@ A Ukrainian family involved in gambling and what Marie describes as predatory so
 
 ## Relevance to Marie
 
-The Zankovskys are the cause of family distress in August 1875. Paul Bashkirtseff (Marie's half-brother) has fallen for the younger daughter, and the family is pushing him to enlist as a soldier to be in the same regiment as the Zankovsky son. Their previous victim was a neighbor named Doublansky. The news arrives by letter from Russia, causing Maman to have one of her nervous crises.
+The Zankovskys are the cause of family distress in August 1875. Paul Bashkirtseff (Marie's younger brother) has fallen for the younger daughter, and the family is pushing him to enlist as a soldier to be in the same regiment as the Zankovsky son. Their previous victim was a neighbor named Doublansky. The news arrives by letter from Russia, causing Maman to have one of her nervous crises.
 
 ## References in Diary
 

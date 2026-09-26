@@ -10,7 +10,7 @@ aliases:
 type: Person
 category: people/core
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-09-26
 ---
 
 %% GLO_ALEXANDRE.0001 %%
@@ -143,7 +143,7 @@ But Marie also mocked him freely. She reports with comic horror that Alexandre a
 ## The Mediator (1877)
 
 %% GLO_ALEXANDRE.0040 %%
-Alexandre also served as a mediator in the Bashkirtseff family. When Marie's half-brother Paul fled Gavronzi because their father "lui rendait la vie si dure" (made life so hard for him), Marie hoped "que l'oncle Alexandre le ramenera a Gavronzi et que tout marchera tant bien que mal de nouveau" (that Uncle Alexandre will bring him back to Gavronzi and everything will go along more or less again) (074.0216). Despite being a Babanine, Alexandre maintained enough influence over the Bashkirtseff estate to broker family truces.
+Alexandre also served as a mediator in the Bashkirtseff family. When Marie's brother Paul fled Gavronzi because their father "lui rendait la vie si dure" (made life so hard for him), Marie hoped "que l'oncle Alexandre le ramenera a Gavronzi et que tout marchera tant bien que mal de nouveau" (that Uncle Alexandre will bring him back to Gavronzi and everything will go along more or less again) (074.0216). Despite being a Babanine, Alexandre maintained enough influence over the Bashkirtseff estate to broker family truces.
 
 %% GLO_ALEXANDRE.0041 %%
 ## Letter-Writer from Russia (1879)

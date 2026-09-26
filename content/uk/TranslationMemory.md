@@ -1383,7 +1383,7 @@ Established terminology for consistent translation across carnets.
 | Émile d'Audiffret / Girofla | Одіффре / Джирофла | Selling estates to pay father's debts (established 030/035) |
 | Saetone | Саетоне | Recurring Nice young man (established 026) |
 | Fiouloulou (Detriaz) | Фіулулу | Audiffret's follower (established 036) |
-| Paul (Bashkirtseff) | Поль / Башкірцев | Half-brother in Russia; enlisting under Zankovsky influence |
+| Paul (Bashkirtseff) | Поль / Башкірцев | Marie's (full) younger brother in Russia; enlisting under Zankovsky influence |
 | Zankovsky (family) | Занковські | Predatory card-cheating family corrupting Paul |
 | Doublansky | Дублянський | Zankovskys' previous victim |
 | Alexandre | Олександр | Family member trying to rescue Paul |

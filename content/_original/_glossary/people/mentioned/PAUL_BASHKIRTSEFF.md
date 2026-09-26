@@ -7,7 +7,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-02-10
+last_updated: 2026-09-26
 languages:
   - ru
   - uk
@@ -20,7 +20,7 @@ pronunciation: https://translate.google.com/?sl=ru&tl=en&text=Павел%20Ба�
 
 ## Overview
 
-Marie's half-brother (or brother), son of Konstantin Bashkirtseff. Paul remained in Russia while Marie and her mother lived abroad in Western Europe.
+Marie's younger brother (1859–1899), full brother, son of Konstantin Bashkirtseff and Marie's mother (née Babanine); per Kernberger (2013) glossary: "Bashkirtseff, Paul: Marie's brother (1859-1899)". Paul remained in Russia while Marie and her mother lived abroad in Western Europe.
 
 ## Relevance to Marie
 
