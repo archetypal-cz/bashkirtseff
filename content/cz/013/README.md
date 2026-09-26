@@ -1,5 +1,11 @@
 
 ## Changelog
 
+### 2026-09-26T10:04:00 @claude-CON
+First CON gate for 013, against content/_original/013. Embedded French is identical to _original in all 18 entries, and no sentences are missing (the RED restorations at 0071/0132 check out). Fixes: 013.0054 („v pěkném domácím úboru“ came from misreading „ou bien“), 013.0068 (vous to God kept through the end), 013.0071 („víc ženou“ restored, which undoes a GEM flattening), 013.0111 (infuria → rozdováděl), 013.0119 („Je vous crois“ idiom; „miluji“ → „mám ráda“), 013.0123 (tu → nemluv), 013.0185 (štolba → pacholek ze stáje), 013.0202 (garbled sentence rebuilt), 013.0276 (FAB „nedořekla jsem ani slova“ → „nedořekávat slova“), plus footnote quotes at 0082 and 0280, and 0293 („fat“ is French). Papa referents are correct: dědeček at 0009/0040/0243, táta/otec for Constantin at 0085/0093/0109. conductor_approved true on 18/18, mean 0.92.
+
+### 2026-09-26T09:40:00 @claude-RED
+Full RED pass after the FAB calque hunt, against content/_original/013 (embedded French identical to _original in all 18 entries; only the empty terminal ID differs). Completeness: one dropped word (013.0071 „bête“) and one dropped clause (013.0132 „me rend malheureuse“) restored. Meaning: 013.0125 (débouche avec les dents → zuby vytáhne zátku), 013.0009 (clef de l'armoire → skříně), 013.0158 (et bien ≠ „dobře tak“), 013.0293 (me vole → okrádali), 013.0029, 013.0093 (Muší průliv), 013.0214. Sans doute at 013.0132 → jistě. Register: zakryji/nesměji/méně/„moc“ removed. Footnotes added for Italian/English code-switches (propria persona, antipolvere ×2, ride, main sinistra). Mechanical: Czech quotes „…“ in visible lines (81), dialogue hyphens → en dash (6), italic footnote labels → „Pozn. překl.“. editor_approved stays true on 18/18.
+
 ### 2026-06-13T16:00:00 @claude-RED
 Fluidity pass vs French originals: 11 GEM-splice repairs, gender fixes (folle → šílená/bláznice ×4, byl→byla jsem), 2 stray Cyrillic characters fixed, meaning fixes (subjugué = podmaněn ne pokořen, placée = situována, vaine = ješitná, soutenir = podpírat, mate = tlumený), agent fix in "vous avez pu laisser un vide", kdyby jsem → kdybych, calques and dangling participles rebuilt. First editor pass for these entries — editor_approved set true. RED comments inline.
