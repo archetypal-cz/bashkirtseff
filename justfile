@@ -487,6 +487,13 @@ sync-verify carnet lang:
     [ $rc -eq 0 ] && echo "sync-verify {{lang}}/{{carnet}}: OK (visible text unchanged, splicescan empty)"
     exit $rc
 
+# Restore the embedded French copy lines of a translation carnet from _original (dry run unless --write). Then run `just sync-verify CARNET LANG`.
+resync-french lang carnet *FLAGS:
+    #!/usr/bin/env bash
+    t=$(mktemp); echo "{{lang}} {{carnet}}" > "$t"
+    npx tsx src/scripts/resync-embedded-french.ts "$t" /dev/null {{FLAGS}}
+    rm -f "$t"
+
 # Repair the %% marker shapes check-comments cannot see (glued spans, retired [//] lines inside fr blocks, unclosed tag lines). Dry run unless --apply. Flags: --apply --tree cz --carnet 070 --only S1,S3,S4
 fix-marker-shapes *FLAGS:
     uv run src/scripts/fix_marker_shapes.py {{FLAGS}}
