@@ -22,7 +22,7 @@ last_updated: 2026-05-24
 - **Full name**: Pavel Konstantinovitch Bashkirtsev (Paul Bashkirtseff in French usage)
 - **Born**: 1859 or 1860, at the family estate of [Gavronzi](../../places/residences/GAVRONZI.md) near [Poltava](../../places/cities/POLTAVA.md), Russian Empire (now Ukraine)
 - **Died**: 1899 (per Kernberger, 2013)
-- **Father**: [Constantin Bashkirtseff](../../people/family/FATHER_BASHKIRTSEFF.md) (1833--1883), landowner and former marshal of nobility
+- **Father**: [Constantin Bashkirtseff](../../people/family/PAPA.md) (1833--1883), landowner and former marshal of nobility
 - **Mother**: [Maria Stepanovna Babanina](../../people/family/MAMAN.md) (1833--1920)
 - **Sister**: [Marie Bashkirtseff](../../people/family/MARIE_BASHKIRTSEFF.md) (1858--1884), diarist and painter
 - **Wife**: Alexandrine Patchenko (called "[Nini](NINI.md)" in the diary), married 1880
@@ -172,7 +172,7 @@ Paul continued to manage the Gavronzi estate after Marie's death in 1884. Detail
 ## Related Entries
 
 - [#Maman](../../people/family/MAMAN.md) -- Their mother Maria Stepanovna Babanina, who raised both children after the separation
-- [#Father_Bashkirtseff](../../people/family/FATHER_BASHKIRTSEFF.md) -- Their father Constantin (1833--1883)
+- [#Papa](../../people/family/PAPA.md) -- Their father Constantin (1833--1883)
 - [#Paul_Grigorievitch_Bashkirtseff](../../people/family/PAUL_GRIGORIEVITCH_BASHKIRTSEFF.md) -- Paul's paternal grandfather, General; Paul was likely named after him
 - [#Nini](NINI.md) -- Alexandrine Patchenko, Paul's wife (married 1880)
 - [#M_Patchenko](M_PATCHENKO.md) -- Nini's father, Paul's stingy father-in-law

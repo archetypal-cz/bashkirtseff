@@ -17,9 +17,9 @@ last_updated: 2026-09-26
 
 **Research Status**: Comprehensive
 **Last Updated**: 2026-09-26
-**Diary Coverage**: 1873–1876 as "papa" / "grand-papa" (Nice household); 1884 preface
+**Diary Coverage**: 1873–1877 as "papa" / "grand-papa" (Nice household, Wiesbaden/Schlangenbad 1877); he died 29 August 1878 (Kernberger 2013, chronology); 1884 preface
 
-> **Alias note — "Papa".** In the 1873–1875 Nice diary Marie's bare "papa" is this man, not her father Constantin (who is "mon père"; see [#Papa](PAPA.md)). Tag bare "papa" in 1873–1875 as #Grand_papa. Exceptions: 013.0085, 013.0093, 013.0109 (Constantin's visit to Nice, Nov 1873); "Papa (rigolo)" = M. Paparigopoulos at Spa (021.0143–022.0289); "le papa" 012.0189 = the Pope; "danser le grand-papa" (017.0253) = a dance. From 1876 (carnets 065 onward, in Poltava) "Papa" means Constantin again. Ruling of 2026-09-26: `.claude/reports/papa-referent-2026-09-26.md`.
+> **Alias note — "Papa".** In the 1873–1875 Nice diary Marie's bare "papa" is this man, not her father Constantin (who is "mon père"; see [#Papa](PAPA.md)). Tag bare "papa" in 1873–1875 as #Grand_papa. Exceptions: 013.0085, 013.0093, 013.0109 (Constantin's visit to Nice, Nov 1873); "Papa (rigolo)" = M. Paparigopoulos at Spa (021.0143–022.0289); "le papa" 012.0189 = the Pope; "danser le grand-papa" (017.0253) = a dance. "Papa" means Constantin only while Marie is with him: in Poltava and Gavronzi (Jul–Oct 1876, carnets 064–066) and in Paris (Nov 1876, 067.0122). In the Nice household bare "papa" stays the grandfather through 1877 (059.0385, 062.0059–0622, 072.0006, 072.0061, 074.0370), though from 1875 Marie mostly writes "grand-papa". Other 1875–76 "papa"s: old M. d'Audiffret, nicknamed "papa" (049.0155, 050.0104–0502), operetta refrains (048.0098–0452), and other people's fathers. Per-occurrence table for 031–075 in the ruling report. Ruling of 2026-09-26: `.claude/reports/papa-referent-2026-09-26.md`.
 
 ## Identity
 
@@ -165,6 +165,18 @@ The whole household, his daughter (Marie's mother) included, called him Papa, an
 - **Amour-propre** (1873-09-01, 008.0345): after Makaroff's outburst, "notre Makaroff … a fait des excuses à papa mais celui-ci *monte sur ses grands chevaux, amour-propre* etc."
 - **Tyranny at table**: frequent quarrels with maman, Marie and Collignon; the Hamilton and Lady Hamilton stories he tells "comme toujours" (015.0050, 016.0329); his dog Renard (018.0138).
 
+## 1875–1877: "grand-papa", blind and then seeing
+
+From 1875 Marie mostly names him "grand-papa" / "mon grand-père", and bare "papa" becomes rarer (031.0079–0139, 033.0022–0170, 045.0269–0284, 062.0059–0622, 072.0006, 072.0061, 074.0370).
+
+- **Blindness and fall**: "pauvre aveugle qu'il est" (032.0164, May 1875), after a false alarm of apoplexy.
+- **Collignon**: Marie blames the governess's departure on him (032.0141); he is "jaloux" of Collignon and Barnola (046.0245, 059.0238, 062.0101).
+- **The pavilion at Nice**: he lives in the garden pavilion of the family villa (037.0228, 046.0291, 062.0681).
+- **Advice on Antonelli** (June 1876): "Grand-papa, vous parlez comme un ange" (062.0616–0622); he opposes the match (062.0644–0648).
+- **Eye operation** (May 1877): "grand-papa s'est fait opérer l'œil et l'opération a réussi" (071.0096). After it "Monsieur mon grand-père, depuis qu'il voie, est intraitable" (074.0042).
+- **Germany, summer 1877**: with the family at Schlangenbad and Wiesbaden (073.0288–074.0423); meets his old friend Prince Repnine, "ancien ami de grand-papa il y a quarante ans" (074.0080, 074.0386, 074.0415).
+- **Death**: 29 August 1878, per Kernberger (2013) chronology ("M. Babanine, Marie's grandfather, dies, and she dresses in mourning").
+
 ## Diary References
 
 ### 1874
@@ -187,3 +199,4 @@ The whole household, his daughter (Marie's mother) included, called him Papa, an
 
 %% 2025-12-07T14:35:00 RSR: Completely rewrote entry based on 1884 preface. Previous entry incorrectly identified "grand-papa" as a dance (which does exist in the 1874 entries, but is unrelated to this person). This entry is about Marie's maternal grandfather, a Byronic intellectual and family patriarch. %%
 %% 2026-09-26T01:20:00 RSR: Papa ruling (.claude/reports/papa-referent-2026-09-26.md): added aliases "Stepan Babanine" and "Papa", the 1873–1875 "papa" usage section with evidence, and the Vienna-tobacco and amour-propre anecdotes moved from PAPA.md. Identity and dates per Kernberger (2013) glossary; 1887 Fasquelle edition and Mathilde Blind (1890) readings as cited in the report. ~70 #Papa tags in 002–043 retagged to #Grand_papa the same day. %%
+%% 2026-09-26T02:05:00 RSR: Papa ruling extended to carnets 031–075 (report section "Carnets 031–075"): bare "papa" in the Nice household stays the grandfather through 1877 (072.0006, 072.0061, 074.0370); Constantin is "papa" only while Marie is with him in 1876. Added the 1875–1877 section; death date 29 Aug 1878 per Kernberger (2013) chronology. The earlier "from 1876 (carnets 065 onward) Papa means Constantin again" line was too broad and was narrowed. %%
