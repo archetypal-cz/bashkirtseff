@@ -174,3 +174,19 @@ The full list is in the scratchpad: `edtags-changed.txt`. Note that en/fr 068 an
 
 ## Phase B (Kernberger meaning alignment)
 Status: STARTING. Batch results are appended below as each batch completes.
+- Setup: 190 job files in 50 carnet-aligned batches, judged by Sonnet subagents 4 at a time. Each judge sees the English window of the entry's dates (±1 day, ±3 if empty) and every non-anchor French paragraph. Strong lexical anchors are shown as known and are not re-judged. Verdicts: Y or P → tag; N → untag; U or missing → keep the current tag. 40 files have no Kernberger English within ±3 days, and none of them has a Kernberger tag. Carnet 000 (the preface) is excluded.
+- Batch 0–3 (carnets 001–011): 2,987 verdicts. On the 11 paragraphs that overlap the earlier verified sample, agreement was 10/11 (the 1 disagreement was a marginal PARTIAL).
+  - _original: +671 / −226 Kernberger, 240 files. The same operations were mirrored to cz, en and fr.
+  - Gates: diffcheck 0 bad, except 14 cz files that contain concurrent RED "God ty/vy" edits by another agent; my tag lines are correct.
+  - verify-carnet and splicescan: all pass. glossary-missing: 0.
+- Quality audit of Sonnet verdicts (pack E, 45 items, Opus judge): removals 15/15 correct, current tags kept 5/5, non-tags kept 9/10, additions 10/15 correct.
+  - 4 of the 5 addition disagreements are date-heading paragraphs. Sonnet tags a date heading when that entry appears in Kernberger (her EPUB prints the same date lines); Opus treated a heading as not translated. **Policy: date headings follow their entry.** This is consistent with the Censored rule (c).
+  - Genuine errors: 1 false addition (005.0147) and 1 miss (011.0277). Estimated verdict accuracy is ≈95%.
+- Batch 4–7 (carnets 012–020): _original +351 / −155 Kernberger, 150 files, mirrored to cz, en and fr.
+  - Gates pass. diffcheck: 8 cz files contain concurrent RED ty/vy edits by another agent.
+  - Missing verdicts are kept as they were and queued for a mop-up job. So far: 019-030 (36 ids) plus 1–2 ids in several jobs.
+- Batch 8–11 (carnets 021–035): _original +576 / −253 Kernberger, 170 files, mirrored to cz, en and fr. en and fr had 2–4 extra operations each, where their tags had drifted from _original.
+  - Gates pass. diffcheck: 13 cz files contain concurrent ty/vy edits by another agent.
+- Batch 12–15 (carnets 036–052): _original +596 / −392 Kernberger, 129 files, mirrored to cz, en and fr.
+  - Gates pass. diffcheck: 25 cz files contain concurrent ty/vy edits by another agent.
+- Batch 16–19 (carnets 053–058): _original +583/−398 Kernberger, 82 files, mirrored to cz, en and fr. Gates pass.
