@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–073. Next: 074 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–081. Next: 082 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -107,11 +107,23 @@ Fresh-context RED review: ~79% better / 14% neutral / 4% worse;
 splicescan clean, verify-carnet PASS. |
 | 072 | calque 2 | d8c616a8 | 34 (33 changed) | 171 | not needed (145 lines) | **Кондарефф ×20 in 072 vs TM/071 «Кондарева»** — ruling; «пані де Музé» with Latin é; Трифон (TM) vs Тріфон (tree 32:10) — ruling |
 | 073 | calque 2 | 33e56a25 | 36 (33 changed) | 263 | RED: 91% better / 8% neutral / 1% worse, 3 fixed | «Єтьєн» ×4 still in 078; 072 «оглядала готелі» / 073.0213 — «особняки»? |
+| 074 | calque 2 | 565001bb | 37 (33 changed) | 121 | not needed | «Берт» undeclined in 083 (1878-12-04/08/15) vs «Берта»; 0029 *passée* «минула» → «зів'яла»?; 0224 *lâcher les poneys* |
+| 077 | calque 2 | 01433d89 | 43 (37 changed) | 173 | not needed (149 lines) | signature «Марі Башкірцефф» in letters (0090, 0167, 0279, 0397) vs TM 2192 lock «Башкирцева»; «де Бопрер» (077) vs «де Бовреп'єр» (078–079) |
+| 079 | calque 2 | ed91633a | 44 (35 changed) | 194 | RED: 92% better / 6% neutral / 1.5% worse, 3 fixed | Alexandre lock conflict (see questions) |
+| 076 | calque 2 | 6941516e | 52 (43 changed) | 202 | RED: 73% better / 25% neutral / 2% worse, 3 fixed | 071/1877-05-13 FAB 08-15 declined «Коліньйона» (TM indeclinable) |
+| 075 | calque 2 | ecbb12a0 | 36 (33 changed) | 195 | RED: 75% better / 21% neutral / 4% worse, 7 fixed | — |
+| 078 | calque 2 | 3cd299ff | 41 (32 changed) | 246 | RED: 78% better / 19% neutral / 3% worse, 6 fixed | Alexandre (Larderei) «Александр» ×11 vs 071 lock «Алессандро»; «Єтьєн» 4× remains (sweep) |
+| 080 | calque 2 | 25b9dbe1 | 48 (~41 changed) | 240 | RED: 82% better / 15% neutral / 3% worse, 7 fixed | — |
+| 081 | calque 2 | e162fd9f | 47 (43 changed) | ~290 | RED: 78% better / 20% neutral / 2% worse, 4 fixed | reviewer: «приймати за» is normative Ukrainian (SUM), not a Russianism — agents should not swap it |
+| (tree) | TM-lock sweep | 382b9887 | 028, 078, 091 | 8 | — | Єтьєн → Етьєн, Latin-ó Попóль → Пополь |
 
 ## Findings (other uk work)
 
+- 081: source footnotes absent from uk (0035, 0347, 0357 [^2], 0362, 0439) — needs `just sync 081 uk` check or RSR decision; heading «#» inconsistent (06-23..06-27 lack it); «Олександр» for Larderei in 0223, 0445 (TM «Алессандро»).
+- 080: Joyeuse «Жуаезький» (0305–0313) vs «Жуаєз» (0679); Multedo letter 0537/0538 made masculine (flagged).
+
 - 073.0304 (1877-08-07): uk (and en) carry a visible editorial note «Марі написала «Вівторок 7 серпня 1877», але це помилка, 7 серпня було понеділком» — false: 7 Aug 1877 was a Tuesday; _original paragraph is empty. Removed in uk (see git log); en needs the same fix.
-- Strike-marker wording mixed in uk: «[Закреслено: …]» (majority in places) vs «[Викреслено: …]» (TM form used by this wave). Owner: pick one.
+- Strike-marker wording mixed in uk (075 alone has «[Замазане слово]», «[Замазані слова: …]», «[Закреслені слова: …]», «[закреслено: …]», «[Закреслені рядки: …]», «[Викреслене слово]»): «[Закреслено: …]» (majority in places) vs «[Викреслено: …]» (TM form used by this wave). Owner: pick one.
 
 - **_original/068 (Feb 1877) contains English summary placeholders in brackets** (0189, 0191, 0194, 0197, 0204, 0207, 0216, ~0219, 0231, 0234, 0235, 0238, 0239, 0241, 0243, 0246, 0247, 0249–0251, 0253, 0255, 0257, 0271) plus truncated 0181 ("et prenez") and placeholder 0031. uk translates them as bracketed editorial notes — per editing_rules §2 they must not read as Marie's words; needs a source fix (RSR) and an owner decision. Also date headings sit one paragraph apart fr vs uk in 068 (0085/0086 … 0634/0635).
 - **«I!»/«II» transcription artefacts**: this wave renders them as Marie's «!!/!!!» (the routine brief lists them as a known trap), but TM lines ~1869/2047 (Conventions 068/069) and some TR notes say "preserved as-is"; cz keeps «II», en uses «‖». Owner: confirm the brief's convention and update the TM (or order a revert). Source-side fix in _original would settle all trees.
@@ -169,6 +181,9 @@ Disputed spellings seen (not normalised — owner ruling needed):
 - 054: *coup de foudre* «удар грому» (0362, 0651) vs TM lines 453/702 "keep French" (not Locked) — «закохатися з першого погляду»?; footnote 054.0570.1 dates Fanny Lear scandal 1874 vs French RSR 1876.
 - 060: Larderei's given name — «Олександру» (0450, the uncle's locked form) vs TM 071 «Алессандро» vs «Александра» (0067); «Рима/Риму» mixed.
 - 062: «Шоколь» (0420, 0421) vs TM-063 «Шоколад»; vocative «Маріє» (0207, 0211, 0215) vs TM «Марі» indeclinable; *mes mères* «матусі»; *fraises* «суниці»/«полуниці».
+- 079: **Alexandre** rendered «Александр» throughout (RED 0045 calls it canonical) vs TM lock Larderei = «Алессандро», uncle = «Олександр» (Larderei in 0045, 0050, 0128, 0129, 0213, 0216; uncle 0113, 0239) — lock conflict, owner/lead; Сент-Оґюстен/Сент-Огюстен/Сен-Огюстен; Морган/Морґан; 0654 *chez papa* (1878) «до тата» may be the grandfather; stray empty ID 079.0566 at end of 04-27, extra 079.0144 in 03-28.
+- 076: «Маркуар (вимовляється Маркуар)» (0328) meaningless in Cyrillic — footnote or drop?; «Популь» still 4× in 087 (TM «Пополь») — fix when 087 is polished.
+- 075: address forms «Мосьє» (Marcuard) vs «пане» (Julian); «Принцеса Суворова» vs «княгиня» (0445).
 
 Other questions:
 - 023.0058 *maison de quatorze siècles* rendered «будинок чотирнадцятого сторіччя» — corrects Marie's "fourteen centuries [old]"?
