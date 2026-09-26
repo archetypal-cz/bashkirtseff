@@ -25,7 +25,7 @@ quality_score: 0.95
 — I, wretched.
 
 %% 067.0004 %%
-%% — Ha ! ha ! ha ! %%
+%% — Ha ! h a! ha ! %%
 — Ha! ha! ha!
 
 %% 067.0005 %%
