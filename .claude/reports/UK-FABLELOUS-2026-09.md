@@ -35,6 +35,11 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–007. Next: 008 upward, waves of 6 
 | 003 | calque 2 | 5b5b9f2e | 33 (33 changed) | 160 | not needed (112 lines) | 0249 TR addition removed (Marie's contradiction about Boreel) |
 | 005 | calque 2 | 36b33bcc | 29 (27 changed) | 167 | not needed (120 lines) | 0282 second «ревнувала до племінниці» ambiguous (left); God Toi→Vous switch 0229–0230 flattened to Ти (kept) |
 | 007 | calque 2 | 2f73dfa6 | 29 (29 changed) | 182 | not needed (122 lines) | 0355 Marie's «Снідали … увечері» restored; *faire son chic* (0356) — owner |
+| 009 | calque 2 | 673e7486 | 21 (20 changed) | 83 | not needed | 0041 *vache espagnole* literal «корова по-іспанськи» (CON-kept) → «страшенно калічить мову» — owner may revert |
+| 013 | calque 2 | 6becb6f0 | 18 (17 changed) | 132 | not needed | «Халкіонов» (tree form, 79×) replaces «Хальціонов» ×2 — lock?; *salon* «салон» vs TM «вітальня» — owner |
+| 008 | calque 2 | 6e3b0047 | 22 (21 changed) | 104 | not needed | 0331 *comme une biche* «сарна» (slang kept woman?); 0345 «сідає на високого коня» loan idiom — owner |
+| 012 | calque 2 | 78dd17a8 | 19 (19 changed) | 110 | not needed | Aggie «Аґґі» (0281) vs «Еґі» (0052, 0102; tree 7 vs 12); «мадам/пані Говард» switch mid-carnet; 0207 dîner and déjeuner both «обідати» |
+| 011 | calque 2 | 0b6e4c12 | 18 (18 changed) | 172 | not needed (127 lines) | «руське порося» (0267, 0275) for *cochon russe* — «руський» ambiguous, owner; «Галіньяні» (0218) probably nickname |
 
 ## Findings (other uk work)
 
@@ -73,8 +78,12 @@ Disputed spellings seen (not normalised — owner ruling needed):
 - 003: Ґальве ×3 (0033, 0080, 0115) vs Гальве ×16; Бенза ×6 vs Бенса (0210; tree majority Бенса); «New Scotland» Latin (0096) vs «Нью Скотленд» (0191); *matinée* at cercle Masséna ×3 renderings vs TM «музичний ранок»; «прогулянка» for the Promenade as a place (0061).
 - 005: «Чернікофф» (-офф, 0213/0238/0278) vs -ов elsewhere; «Ненькова» (Nennkoff, 0224); «Маноте» (0220); «Ліонс» (0155).
 - 007: «Ґаліцина» (Ґ) here vs 7× «Галіцин» in tree; «Ґранд-Готель» vs majority «Гранд-Готел…».
+- 008: Hélène «Елен» (0039) vs «Елені» (0281 → Елена); 012: «боярською жоною» (0108); 013: «Коліньйон» (0154), «Воерман» (0093/0118), «Батько Бартер» (literally the father, 0111).
+- 010: Brunet «Брюне» (0002, 0153, 0229) vs TM (lines 724, 952) «Бруне».
 
 Other questions:
+- 010.0157 *chez les ânes* → «в ослів» (nickname for the Anitchkoffs); is «ослячий прокат» (*la petite ânerie*) also their house? 010.0225 *il est au Français* → «у Французькому ліцеї» (Théâtre Français? French class?); 010.0302 *J'ai joué au petit cosaque* — a game or the tune?
+- 011: God Ти/Ви mixed inside one entry (0017 vs 0018/0019…); in 0389/0390 Marie herself writes *tu*.
 - *dîner/déjeuner*: uk tree splits dîner between «обід» and «вечеря» (007 aligned to сніданок/обід; 103 mixes) — make «обід» a uk-wide TM rule?
 - 106.0030 «Та блакиті, Вікторе Гюго» for *du bleu Victor Hugo* (Hugo-style blue?) — TR defends it; 106.0147 «бідолашний пес» for affectionate *pauvre chien*.
 - 105: «Пер'в'є» for Périvier (0677, 0713) looks malformed («Перів'є»?). 105.0155 *comme je vais bien* likely a transcription slip for *je sais bien* (uk+cz literal). 105.0506 *la tête dans les mains* — «обхопивши» dangles; source check. 105.0192 verse attributed to Vigny *La Maison du berger* — unverified.
