@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–065. Next: 066 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. Phase 2 done: 000–073. Next: 074 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -96,8 +96,25 @@ Phase 1 (098–106) DONE. Phase 2 done: 000–065. Next: 066 upward, waves of 6 
 | 059 | calque 2 | 9a0ef8cb | 20 (20 changed) | ~244 | RED: 80% better / 19% neutral / <1% worse, 2 fixed | Wykerslooth «Вейкерслот» (0384) vs «Вейкерслоот» (0577) |
 | 062 | calque 2 | f4c4e17f | 35 (35 changed) | 399 | RED: 80% better / 16% neutral / 4% worse, 7 fixed | Savoy princess «Маргарита» (062) vs «Маргерита» (055, 060, 072) vs TM «Марґеріт» — ruling |
 | 064 | calque 2 | 58bba800 | 23 (21 changed) | 222 | RED: 76% better / 22% neutral / 2% worse, 4 fixed | «мюлі» vs TM line 1303 *mules* «пантофлі»; footnote-glue candidate 064.0429 (pre-existing) — check |
+| 070 | calque 2 | a96406d4 | 8 (8 changed) | 109 | not needed | **070.0162 «Alexandre»**: TM says uncle Олександр, context suggests Larderei (Алессандро) — owner; Кьяя vs К'яя; «Сілен»/«Силена» |
+| 071 | calque 2 | c7f9bed2 | 25 (25 changed) | 107 | not needed | 0150 *une réponse de moi dit que je battais le monde* — manuscript check; 0264 Rosalie as the dictionary (flagged) |
+| 066 | calque 2 | f4a109d5 | 37 (28 changed) | 112 | not needed | footnotes mix «Марія»/«Марі» (tree-wide question) |
+| 067 | calque 2 | d019758d | 37 (16 changed) | 142 | not needed | Girofla «Жирофля» (masc.) vs TM operetta «Жирофле-Жирофля»; 0061 vocative «Поль» vs «Полю»; TM «ватажок дворянства» sounds odd |
+| 069 | calque 2 | f237a57b | 36 (33 changed) | 191 | RED: 91% better / 6% neutral / 3% worse, 6 fixed | «Дзуніка» (TM 069) vs «Зуніка» (TM 070); «Караччоло» vs «Каракчоло»; I/II artefacts also in _original/069 |
+| 068 | calque 2 | 1cb052aa | as-is).
+Fresh-context RED review: ~79% better / 14% neutral / 4% worse;
+7 fixed (0077, 0079, 0177, 0321, 0410 idiom, 0508, 0584). Gates:
+splicescan clean, verify-carnet PASS. |
+| 072 | calque 2 | d8c616a8 | 34 (33 changed) | 171 | not needed (145 lines) | **Кондарефф ×20 in 072 vs TM/071 «Кондарева»** — ruling; «пані де Музé» with Latin é; Трифон (TM) vs Тріфон (tree 32:10) — ruling |
+| 073 | calque 2 | 33e56a25 | 36 (33 changed) | 263 | RED: 91% better / 8% neutral / 1% worse, 3 fixed | «Єтьєн» ×4 still in 078; 072 «оглядала готелі» / 073.0213 — «особняки»? |
 
 ## Findings (other uk work)
+
+- 073.0304 (1877-08-07): uk (and en) carry a visible editorial note «Марі написала «Вівторок 7 серпня 1877», але це помилка, 7 серпня було понеділком» — false: 7 Aug 1877 was a Tuesday; _original paragraph is empty. Removed in uk (see git log); en needs the same fix.
+- Strike-marker wording mixed in uk: «[Закреслено: …]» (majority in places) vs «[Викреслено: …]» (TM form used by this wave). Owner: pick one.
+
+- **_original/068 (Feb 1877) contains English summary placeholders in brackets** (0189, 0191, 0194, 0197, 0204, 0207, 0216, ~0219, 0231, 0234, 0235, 0238, 0239, 0241, 0243, 0246, 0247, 0249–0251, 0253, 0255, 0257, 0271) plus truncated 0181 ("et prenez") and placeholder 0031. uk translates them as bracketed editorial notes — per editing_rules §2 they must not read as Marie's words; needs a source fix (RSR) and an owner decision. Also date headings sit one paragraph apart fr vs uk in 068 (0085/0086 … 0634/0635).
+- **«I!»/«II» transcription artefacts**: this wave renders them as Marie's «!!/!!!» (the routine brief lists them as a known trap), but TM lines ~1869/2047 (Conventions 068/069) and some TR notes say "preserved as-is"; cz keeps «II», en uses «‖». Owner: confirm the brief's convention and update the TM (or order a revert). Source-side fix in _original would settle all trees.
 
 - Done (6e149796): «Сапогеніков-» and Galula variants swept. Still TODO: demonym «ніццець» in 028/1875-01-02, 033 (done), 035/1875-07-01 → «ніццянець» (check each is the demonym, not the pet name).
 
