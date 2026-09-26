@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1: 099, 101, 102 committed (099 not yet pushed — tree never clean while agents run; push at wave end). Running: FAB 098, 104, 105, 106; reviewers on 100 and 103 (then commit them). Next: phase 2 from 000.
+Phase 1 (098–106) DONE. Phase 2 done: 000, 001. Next: 002 upward (briefs brief_uk{c}.md are regenerated from the lead's template; see the prompt in this routine). Running: —
 
 ## Done
 
@@ -26,6 +26,9 @@ Phase 1: 099, 101, 102 committed (099 not yet pushed — tree never clean while 
 | 000 | calque 2 | 78b89e14 | 10 (10 changed) | 60 | not needed (32 lines) | preface; «Свята Русь!!» restored (0036) |
 | 001 | calque 2 | 657ffc33 | 22 (18 changed) | 37 | not needed (35 lines) | 2 pre-existing id-alignment warns (empty/footnote-only source paras 0019, 0104) |
 | (tree) | TM-lock sweep | 2eb49e75 | 10 carnets | ~44 ED | — | Карагеоргевич → Караджорджевич, Суцо/Сутцо → Соутцо |
+| 104 | FAB 1 | bb90be94 | 53 | 169 | not needed (142 lines) | Marie's «!!» ×4; pre-existing splice in RED comment (1884-06-15) repaired |
+| 105 | FAB 1 | 80566966 | 61 (47 changed) | 169 | not needed (148 lines) | 0075 *faire poser* = keep waiting (cz/105 has the same error «Nechal mě pózovat» — for the local session); TM «Пополь» |
+| 106 | FAB 1 | 39f706e1 | 39 (14 changed) | 114 | not needed (102 lines) | TM «Жюліан» ×4; Мак-Кей vs Маккей here is Marie's own distinction (0007) — keep |
 
 ## Findings (other uk work)
 
@@ -56,7 +59,12 @@ Disputed spellings seen (not normalised — owner ruling needed):
 - 000: «Батько Ґонзалес» (*le père Gonzalès*, 0026/0027 — here literally Rémy's father); «Жюлі Корнеліус» (0007).
 - 098: Soutzo «Суцо» ×7 → fixed to locked «Соутцо» in the 2eb49e75 sweep; Eristoff «Принцеса Еристова» (0410) vs locked «Ерістов» and принцеса/княгиня mix; Ґабріель ×2 (0237); Дусе (0341); Ґамбетта (Ґ, corpus-normalised, TM 097 section still says Г).
 
+- 104: «Ехт» (0159) vs TM «Гехт»; Ґавіні; **«Мітинг» ×6 for Marie's *Meeting* vs TM-103 «Збори»**; «княгиня Матильда» (0357, 0459) vs TM «принцеса»; «Сарицькі» used for both *Saritsky* (0219) and *Staritsky* (0271, 0458, 0597, 0701, 0719) — Marie's variants silently unified.
+
 Other questions:
+- 106.0030 «Та блакиті, Вікторе Гюго» for *du bleu Victor Hugo* (Hugo-style blue?) — TR defends it; 106.0147 «бідолашний пес» for affectionate *pauvre chien*.
+- 105: «Пер'в'є» for Périvier (0677, 0713) looks malformed («Перів'є»?). 105.0155 *comme je vais bien* likely a transcription slip for *je sais bien* (uk+cz literal). 105.0506 *la tête dans les mains* — «обхопивши» dangles; source check. 105.0192 verse attributed to Vigny *La Maison du berger* — unverified.
+- «меса» for Orthodox services (104.0572 «Заупокійна меса»; 102 changed 5× to «служба») — ruling?
 - 000.0006 *des mineurs* kept «промисловців» (LAN/RSR: mine owners); Kernberger reads "minors", likelier with *gens ruinés*. 000.0023 RED «поляк — підданий Росії» interprets Marie's *polonais, russe*. 000.0046 *sa bonne amie* «подруга» — maybe sweetheart.
 - 098.0356 Marie's *sale Juif* → slur «жид», but *Juifs* in 0064 → «євреями». Keep? 098.0005 *jouent à la Porte* rendered as a Porte-Saint-Martin scene — maybe Musset's *Il faut qu'une porte…*. 098.0259 «Мадьє де Монжо» silently corrects Marie's "Montjan" (left).
 - **Tchernitsky's gender**: 102.0030 changed «Черницького» → «Черницьку» (source continues *elle, le pope…*, 0035 *la Tchernitsky*), but 102.0148 and 101 are masculine — ruling needed.
