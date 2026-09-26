@@ -9,6 +9,7 @@ quality_score: 0.95
 ---
 
 %% 067.0001 %%
+%% [#Censored_1887](../../_original/_glossary/culture/literature/CENSORED_1887.md) %%
 %% [#Gavronzi](../../_original/_glossary/places/residences/GAVRONZI.md) [#Pacha](../../_original/_glossary/people/mentioned/PACHA.md) %%
 %% 2026-02-09T22:30:00 RSR: Continuation of the November 1 entry dialogue. Marie is in conversation with Pacha (likely a man she's involved with romantically), pleading for directness. The rapid-fire exchange has a theatrical quality typical of Marie's dialogue transcriptions. Her assertion "Je suis la plus malheureuse des creatures et personne ne me plaint" is a recurring self-dramatization. The dialogue ends with a mutual attraction that neither fully acknowledges. %%
 %% 2026-02-02T12:30:00 LAN: "réticences" - reticence/evasiveness (withholding in conversation) %%
@@ -37,6 +38,7 @@ quality_score: 0.95
 — Thank you.
 
 %% 067.0007 %%
+%% [#Censored_1887](../../_original/_glossary/culture/literature/CENSORED_1887.md) %%
 %% — Alors je ne vous plais plus... %%
 — So you no longer find me pleasing...
 
