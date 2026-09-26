@@ -196,7 +196,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 
     <!-- Entry Header: language + navigation bar -->
     <header class="mb-6">
-      <div class="flex items-center justify-between mb-3">
+      <div class="flex items-center justify-between mb-3" data-print="hide">
         {/* Language Switcher with scroll preservation */}
         <LanguageSwitcher
           client:load
@@ -289,6 +289,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
             id={`fn-${fn.id}`}
             class="footnote-item"
             data-fn={fn.id}
+            data-fn-label={fn.id.split('.').pop()}
           >
             <span set:html={fn.text} />
             <a href={`#fnref-${fn.id}`} class="footnote-backref" title={t('diary.backToText')}>&#x21A9;</a>

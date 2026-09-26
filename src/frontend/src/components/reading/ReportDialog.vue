@@ -226,13 +226,8 @@ defineExpose({ open });
   overflow-y: auto;
 }
 
-[data-theme="dark"] .sheet-content {
-  background: var(--bg-primary);
-}
-
-[data-theme="sepia"] .sheet-content {
-  background: #F5E6D3;
-}
+/* Every theme and brand uses the page ground (--bg-primary); the old sepia
+   override hardcoded the default brand's #F5E6D3 under atelier/deuil/riviera. */
 
 .close-item {
   display: flex;
@@ -309,14 +304,14 @@ defineExpose({ open });
   font-size: 0.8125rem;
   font-style: italic;
   color: var(--text-secondary, #4A3728);
-  background: rgba(180, 83, 9, 0.06);
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
   border-left: 3px solid var(--color-accent, #9A4707);
   border-radius: 0 0.25rem 0.25rem 0;
 }
 
 [data-theme="dark"] .report-selection__text {
-  color: #c5c5c5;
-  background: rgba(180, 83, 9, 0.1);
+  color: var(--text-secondary);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
 }
 
 /* ─── Reason dropdown ──────────────────────────────────────────────── */
@@ -346,7 +341,7 @@ defineExpose({ open });
 
 [data-theme="dark"] .reason-dropdown__select {
   color: var(--text-primary);
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: color-mix(in srgb, var(--text-primary) 15%, transparent);
 }
 
 .reason-dropdown__select option {
@@ -392,7 +387,7 @@ defineExpose({ open });
 [data-theme="dark"] .report-text__input {
   color: var(--text-primary);
   background: var(--surface-hover);
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: color-mix(in srgb, var(--text-primary) 15%, transparent);
 }
 
 .report-text__input:focus {
@@ -421,11 +416,11 @@ defineExpose({ open });
 
 .report-btn--submit {
   color: white;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
 }
 
 .report-btn--submit:hover:not(:disabled) {
-  background: #92400E;
+  background: var(--accent-fill-hover, #92400E);
 }
 
 .report-btn--submit:disabled {

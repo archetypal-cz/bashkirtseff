@@ -200,7 +200,7 @@ async function retry() {
 .offline-btn-download:hover {
   border-color: var(--color-accent, #9A4707);
   color: var(--color-accent, #9A4707);
-  background: rgba(180, 83, 9, 0.05);
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
 }
 
 .offline-btn-download:disabled {
@@ -346,7 +346,7 @@ async function retry() {
 }
 
 .offline-btn-resume:hover {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
 }
 
@@ -371,20 +371,20 @@ async function retry() {
 }
 
 .offline-btn-retry:hover {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
 }
 
 /* Dark mode */
 [data-theme="dark"] .offline-btn-download {
   color: var(--text-secondary);
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: color-mix(in srgb, var(--text-primary) 15%, transparent);
 }
 
 [data-theme="dark"] .offline-btn-download:hover {
-  color: #D97706;
-  border-color: #D97706;
-  background: rgba(217, 119, 6, 0.1);
+  color: var(--accent);
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
 }
 
 [data-theme="dark"] .offline-progress-bar {

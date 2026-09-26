@@ -392,13 +392,8 @@ onMounted(() => {
   overflow-y: auto;
 }
 
-[data-theme="dark"] .sheet-content {
-  background: var(--bg-primary);
-}
-
-[data-theme="sepia"] .sheet-content {
-  background: #F5E6D3;
-}
+/* Every theme and brand uses the page ground (--bg-primary); the old sepia
+   override hardcoded the default brand's #F5E6D3 under atelier/deuil/riviera. */
 
 .close-item {
   font-weight: 600;

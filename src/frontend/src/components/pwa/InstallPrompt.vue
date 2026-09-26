@@ -208,7 +208,7 @@ onUnmounted(() => {
 /* Dark mode */
 [data-theme="dark"] .install-prompt {
   background: var(--bg-primary);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 [data-theme="dark"] .install-text strong {
@@ -221,7 +221,7 @@ onUnmounted(() => {
 
 [data-theme="dark"] .btn-dismiss {
   color: var(--text-muted);
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: color-mix(in srgb, var(--text-primary) 20%, transparent);
 }
 
 [data-theme="dark"] .btn-dismiss:hover {

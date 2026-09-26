@@ -267,10 +267,10 @@
     border-radius: inherit;
     background: linear-gradient(
       135deg,
-      rgba(180, 83, 9, 0.15),
+      color-mix(in srgb, var(--accent) 15%, transparent),
       rgba(var(--brand-ink-rgb), 0.06) 40%,
       rgba(var(--brand-ink-rgb), 0.06) 60%,
-      rgba(180, 83, 9, 0.1)
+      color-mix(in srgb, var(--accent) 10%, transparent)
     );
     z-index: -1;
     pointer-events: none;
@@ -280,16 +280,16 @@
     background: var(--bg-secondary);
     box-shadow:
       0 1px 3px rgba(0, 0, 0, 0.2),
-      0 0 0 1px rgba(255, 255, 255, 0.06);
+      0 0 0 1px color-mix(in srgb, var(--text-primary) 6%, transparent);
   }
 
   [data-theme="dark"] .summary-card::before {
     background: linear-gradient(
       135deg,
-      rgba(217, 119, 6, 0.15),
-      rgba(255, 255, 255, 0.04) 40%,
-      rgba(255, 255, 255, 0.04) 60%,
-      rgba(217, 119, 6, 0.1)
+      color-mix(in srgb, var(--accent) 15%, transparent),
+      color-mix(in srgb, var(--text-primary) 4%, transparent) 40%,
+      color-mix(in srgb, var(--text-primary) 4%, transparent) 60%,
+      color-mix(in srgb, var(--accent) 10%, transparent)
     );
   }
 
@@ -351,8 +351,11 @@
 
 /* Theme-aware overrides for Tailwind utilities.
    Must be OUTSIDE @layer to beat utility-layer specificity in Tailwind v4. */
-[data-theme="dark"] header,
-[data-theme="dark"] footer {
+/* Site chrome only: a bare `header`/`footer` selector also painted the entry
+   toolbar's <header>, page headers and blockquote attributions as a lighter
+   dark-only slab with no counterpart in light mode. */
+[data-theme="dark"] header.site-header,
+[data-theme="dark"] footer.site-footer {
   background-color: var(--bg-secondary);
   border-color: var(--border-color);
 }
@@ -459,7 +462,7 @@ footer.site-footer {
   color: var(--text-primary);
   border-color: var(--border-color);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    inset 0 1px 0 color-mix(in srgb, var(--text-primary) 5%, transparent),
     0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -535,21 +538,20 @@ footer.site-footer {
 
   /* Dark mode: warm amber wash instead of the bright light-amber flash */
   [data-theme="dark"] .paragraph-highlight {
-    background-color: rgba(217, 119, 6, 0.15);
+    background-color: color-mix(in srgb, var(--accent) 15%, transparent);
   }
 
   /* Foreign text marker (translated foreign language) */
+  /* Tinted from the theme accent (was Tailwind's fixed amber-50/900/100, which
+     stayed orange under the atelier/riviera brands). */
   .foreign-text {
-    @apply bg-amber-50 px-1 rounded;
+    @apply px-1 rounded;
+    background-color: color-mix(in srgb, var(--accent) 8%, transparent);
     border-bottom: 1px dotted var(--color-accent);
   }
 
   [data-theme="dark"] .foreign-text {
-    @apply bg-amber-900/30;
-  }
-
-  [data-theme="sepia"] .foreign-text {
-    @apply bg-amber-100/50;
+    background-color: color-mix(in srgb, var(--accent) 14%, transparent);
   }
 
   /* Untranslated content placeholder (TODO) */
@@ -567,29 +569,50 @@ footer.site-footer {
     cursor: pointer;
   }
 
-  /* Footnotes section */
+  /* Footnotes section — set like a book's notes: the text face at note size
+     (small optical size), a short hairline above instead of a full-width
+     border, a small-caps title, and the same short number the text shows. */
   .footnotes {
-    @apply mt-8 pt-6 border-t border-ink/10;
-    font-family: var(--font-sans);
+    @apply mt-8 pt-6 relative;
+    font-family: var(--font-serif);
+    font-variation-settings: "opsz" 10;
+    font-variant-numeric: oldstyle-nums;
+    line-height: 1.55;
     /* 120% scale effect: base * (1 + (scale - 1) * 1.2) */
     font-size: calc(var(--base-footnote-size) * (1 + (var(--reading-font-scale) - 1) * 1.2));
   }
 
+  .footnotes::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    height: 1px;
+    background: color-mix(in srgb, var(--text-primary) 30%, transparent);
+  }
+
   .footnotes-title {
-    @apply text-lg font-medium mb-4;
-    color: var(--text-secondary);
+    @apply mb-3;
+    font-size: 1rem;
+    font-weight: var(--lit-label-weight);
+    font-variant-caps: all-small-caps;
+    letter-spacing: var(--lit-label-tracking);
+    color: var(--text-muted);
   }
 
   .footnote-item {
-    @apply mb-3 pl-12 relative;
+    @apply mb-2 pl-7 relative;
     color: var(--text-secondary);
   }
 
+  /* data-fn-label is the id's last segment, matching the superscript in the
+     text (lib/content.ts); data-fn keeps the full id for older markup. */
   .footnote-item::before {
-    content: attr(data-fn) ".";
-    @apply absolute left-0 text-accent font-medium text-xs;
-    top: 0.15em;
-    min-width: 2.5rem;
+    content: attr(data-fn-label) ".";
+    @apply absolute left-0;
+    min-width: 1.5rem;
+    color: var(--text-muted);
   }
 
   .footnote-item a {
@@ -615,7 +638,7 @@ footer.site-footer {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     padding: 12px 16px;
-    font-family: var(--font-sans);
+    font-family: var(--font-serif);
     font-size: var(--base-footnote-size);
     color: var(--text-secondary);
     line-height: 1.5;
@@ -666,5 +689,79 @@ footer.site-footer {
   .footnote-popover-arrow.arrow-up {
     top: -7px;
     border-bottom: 7px solid var(--border-color);
+  }
+}
+
+/* Print: an entry prints as a page of the book — no site chrome, toolbars,
+   flip controls or menus; black on white; the reading column at full width. */
+@media print {
+  header.site-header,
+  footer.site-footer,
+  nav,
+  .toolbar,
+  .flip-btn,
+  .unified-menu-wrapper,
+  .reading-settings,
+  .back-to-top,
+  .install-prompt,
+  .footnote-popover,
+  [data-print="hide"] {
+    display: none !important;
+  }
+
+  :root,
+  [data-theme] {
+    --bg-primary: #fff;
+    --bg-secondary: #fff;
+    --text-primary: #000;
+    --text-secondary: #222;
+    --text-muted: #444;
+    --accent: #000;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000;
+    font-size: 11pt;
+  }
+
+  .prose-diary {
+    max-width: none;
+    font-variant-numeric: oldstyle-nums;
+    orphans: 3;
+    widows: 3;
+  }
+
+  .entry-date-heading,
+  .entry-section-heading {
+    break-after: avoid;
+  }
+
+  /* A flipped paragraph prints its visible face only, unrotated. */
+  .flip-card {
+    transform: none !important;
+  }
+
+  .flip-card.is-flipped > .card-front,
+  .flip-card:not(.is-flipped) > .card-back {
+    display: none !important;
+  }
+
+  .card-back {
+    background: none !important;
+    transform: none !important;
+  }
+
+  .footnotes {
+    break-before: avoid;
+  }
+
+  .prose-diary a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+
+  @page {
+    margin: 22mm 20mm 25mm;
   }
 }

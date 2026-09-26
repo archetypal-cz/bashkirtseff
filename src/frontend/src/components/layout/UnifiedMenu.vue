@@ -919,31 +919,31 @@ onUnmounted(() => {
   gap: 0;
   height: 36px;
   border-radius: 18px;
-  border: 1px solid rgba(44, 24, 16, 0.15);
+  border: 1px solid rgba(var(--brand-ink-rgb), 0.15);
   background: linear-gradient(180deg, var(--bg-primary, #FFF8F0) 0%, var(--bg-secondary, #F5E6D3) 100%);
   color: var(--text-secondary, #4A3728);
   cursor: pointer;
   transition: all 0.2s;
   padding: 0 10px;
-  box-shadow: 0 1px 3px rgba(44, 24, 16, 0.08), 0 1px 2px rgba(44, 24, 16, 0.04);
+  box-shadow: 0 1px 3px rgba(var(--brand-ink-rgb), 0.08), 0 1px 2px rgba(var(--brand-ink-rgb), 0.04);
 }
 
 .unified-menu-toggle:hover {
   color: var(--text-primary, #2C1810);
   border-color: var(--color-accent, #9A4707);
-  box-shadow: 0 2px 8px rgba(44, 24, 16, 0.12);
+  box-shadow: 0 2px 8px rgba(var(--brand-ink-rgb), 0.12);
 }
 
 .unified-menu-toggle.has-filter {
   border-color: color-mix(in srgb, var(--color-accent, #9A4707) 40%, transparent);
-  box-shadow: 0 1px 4px rgba(180, 83, 9, 0.12), 0 1px 2px rgba(44, 24, 16, 0.04);
+  box-shadow: 0 1px 4px color-mix(in srgb, var(--accent) 12%, transparent), 0 1px 2px rgba(var(--brand-ink-rgb), 0.04);
 }
 
 .unified-menu-toggle.is-open {
   background: linear-gradient(180deg, var(--color-accent-light, #92400E) 0%, var(--color-accent, #9A4707) 100%);
   color: white;
   border-color: var(--color-accent, #9A4707);
-  box-shadow: 0 2px 8px rgba(180, 83, 9, 0.25);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 25%, transparent);
 }
 
 .unified-menu-toggle.is-open .toggle-divider {
@@ -956,8 +956,8 @@ onUnmounted(() => {
 
 [data-theme="dark"] .unified-menu-toggle {
   background: linear-gradient(180deg, var(--surface-hover) 0%, var(--bg-secondary) 100%);
-  border-color: rgba(255, 255, 255, 0.12);
-  color: #b0b0b0;
+  border-color: color-mix(in srgb, var(--text-primary) 12%, transparent);
+  color: var(--text-secondary);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -966,13 +966,14 @@ onUnmounted(() => {
   border-color: var(--color-accent, #D97706);
 }
 
+/* White icon on the dark-theme fill tokens (the old #D97706 top stop was 3.0:1) */
 [data-theme="dark"] .unified-menu-toggle.is-open {
-  background: linear-gradient(180deg, #D97706 0%, #B45309 100%);
+  background: linear-gradient(180deg, var(--accent-fill) 0%, var(--accent-fill-hover) 100%);
+  border-color: var(--accent-fill);
 }
 
 [data-theme="sepia"] .unified-menu-toggle {
-  background: linear-gradient(180deg, #F5E6D3 0%, #EBD9C4 100%);
-  border-color: rgba(44, 24, 16, 0.18);
+  border-color: rgba(var(--brand-ink-rgb), 0.18);
 }
 
 .toggle-icon {
@@ -1011,7 +1012,7 @@ onUnmounted(() => {
   height: 14px;
   padding: 0 3px;
   border-radius: 7px;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   font-size: 9px;
   font-weight: 700;
@@ -1069,12 +1070,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .um-panel {
-  background: var(--bg-primary);
-  border-color: rgba(255, 255, 255, 0.1);
-}
-
-[data-theme="sepia"] .um-panel {
-  background: #F5E6D3;
+  border-color: var(--border-color);
 }
 
 /* ═══ Panel header ═══ */
@@ -1254,11 +1250,11 @@ onUnmounted(() => {
 [data-theme="dark"] .font-btn {
   background: var(--surface-hover);
   color: var(--text-primary);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--border-color);
 }
 
 .font-btn:hover:not(:disabled) {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   border-color: var(--color-accent, #9A4707);
 }
@@ -1302,20 +1298,23 @@ onUnmounted(() => {
 }
 
 .theme-light {
-  background: #ffffff;
-  color: #2C1810;
-  border-color: rgba(44, 24, 16, 0.15);
+  background: var(--brand-parchment);
+  color: var(--brand-ink);
+  border-color: rgba(var(--brand-ink-rgb), 0.15);
 }
 
 .theme-sepia {
-  background: #F5E6D3;
-  color: #2C1810;
-  border-color: rgba(44, 24, 16, 0.15);
+  background: var(--brand-sepia);
+  color: var(--brand-ink);
+  border-color: rgba(var(--brand-ink-rgb), 0.15);
 }
 
+/* Swatches preview each theme in the active brand; --brand-* keep their
+   light values under every theme. Dark has no brand-level token, so it shows
+   the candlelight ground rather than a neutral grey. */
 .theme-dark {
-  background: #1a1a1a;
-  color: #e5e5e5;
+  background: #171310;
+  color: #DCD2C2;
   border-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -1329,7 +1328,7 @@ onUnmounted(() => {
   flex: 1;
   height: 2.25rem;
   border-radius: 6px;
-  border: 2px solid rgba(44, 24, 16, 0.15);
+  border: 2px solid rgba(var(--brand-ink-rgb), 0.15);
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -1339,7 +1338,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .brand-btn {
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: color-mix(in srgb, var(--text-primary) 15%, transparent);
 }
 
 [data-theme="dark"] .brand-btn.active {
@@ -1393,7 +1392,7 @@ onUnmounted(() => {
 
 [data-theme="dark"] .um-search-input {
   background: var(--bg-secondary);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--border-color);
   color: var(--text-primary);
 }
 
@@ -1420,7 +1419,7 @@ onUnmounted(() => {
 }
 
 .contents-entry.is-current {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
 }
 
@@ -1508,7 +1507,7 @@ onUnmounted(() => {
 }
 
 .mode-btn.active {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   border-color: var(--color-accent, #9A4707);
 }
@@ -1519,12 +1518,12 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .mode-btn {
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: color-mix(in srgb, var(--text-primary) 15%, transparent);
   color: var(--text-secondary);
 }
 
 [data-theme="dark"] .mode-btn.active {
-  background: var(--color-accent, #D97706);
+  background: var(--accent-fill, #9A4707);
   border-color: var(--color-accent, #D97706);
   color: white;
 }
@@ -1562,7 +1561,7 @@ onUnmounted(() => {
 }
 
 .filter-clear-all:hover {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
 }
 
@@ -1581,7 +1580,7 @@ onUnmounted(() => {
   height: 18px;
   padding: 0 5px;
   border-radius: 9px;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   font-size: 11px;
   font-weight: 600;
@@ -1669,7 +1668,7 @@ onUnmounted(() => {
   height: 16px;
   padding: 0 4px;
   border-radius: 8px;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   font-size: 10px;
   font-weight: 600;
@@ -2030,7 +2029,7 @@ onUnmounted(() => {
 }
 
 [data-theme="dark"] .um-github-link {
-  color: #b0b0b0;
+  color: var(--text-secondary);
 }
 
 [data-theme="dark"] .um-github-link:hover {

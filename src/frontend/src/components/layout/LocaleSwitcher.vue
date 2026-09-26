@@ -221,7 +221,7 @@ onUnmounted(() => {
 
 [data-theme="dark"] .locale-toggle {
   color: var(--text-secondary);
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: color-mix(in srgb, var(--text-primary) 15%, transparent);
 }
 
 [data-theme="dark"] .locale-toggle:hover {
@@ -253,7 +253,7 @@ onUnmounted(() => {
 
 [data-theme="dark"] .locale-dropdown {
   background: var(--bg-primary);
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: color-mix(in srgb, var(--text-primary) 15%, transparent);
 }
 
 .locale-option {

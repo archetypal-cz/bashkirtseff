@@ -52,7 +52,7 @@ const latestParagraph = computed((): HistoryItem | null => {
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   text-decoration: none;
   font-size: 1rem;
@@ -63,7 +63,7 @@ const latestParagraph = computed((): HistoryItem | null => {
 
 .continue-global-btn:hover {
   background: var(--color-accent-light, #92400E);
-  box-shadow: 0 4px 12px rgba(180, 83, 9, 0.3);
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
 [data-theme="dark"] .continue-global-btn {

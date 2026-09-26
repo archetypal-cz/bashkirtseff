@@ -153,7 +153,7 @@ async function handleSignOut() {
 
 [data-theme="dark"] .user-menu__btn {
   color: var(--text-primary);
-  border-color: rgba(255, 255, 255, 0.15);
+  border-color: color-mix(in srgb, var(--text-primary) 15%, transparent);
 }
 
 .user-menu__btn:hover {
@@ -176,13 +176,13 @@ async function handleSignOut() {
 
 .user-menu__btn--continue {
   color: white;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   border-color: var(--color-accent, #9A4707);
 }
 
 .user-menu__btn--continue:hover {
-  background: #92400E;
-  border-color: #92400E;
+  background: var(--accent-fill-hover, #92400E);
+  border-color: var(--accent-fill-hover, #92400E);
 }
 
 .user-menu__google-icon {

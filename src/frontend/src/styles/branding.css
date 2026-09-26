@@ -143,7 +143,7 @@
   --base-footnote-size: 0.875rem;
 
   /* Display register */
-  --display-weight: 500;
+  --display-weight: 400;   /* Old Standard TT ships 400 and 700 only; 500 rendered as 400 anyway */
   --entry-date-heading-size: 1.7rem;   /* the diary's signature chapter head */
 
   /* UI small-caps section labels */
@@ -269,8 +269,12 @@
    forward through var(--brand-*), overriding the palette re-themes light (and
    most of sepia) automatically. The DARK theme sets literal hexes, so each
    variant needs an explicit [data-brand][data-theme="dark"] block. Sepia has
-   two literal tokens (--bg-secondary, --text-muted, --selection-bg) that don't
-   forward, so each variant restates those at [data-brand][data-theme="sepia"].
+   literal tokens (--bg-secondary, --text-muted, --selection-bg, --surface-hover)
+   that don't forward, so each variant restates those at
+   [data-brand][data-theme="sepia"]. --surface-hover is a literal in every
+   theme, so each variant also restates it for light ([data-brand]) and dark;
+   without that, atelier/riviera menus and buttons hovered to the default
+   brand's warm tan/brown.
    FONTS. Old Standard TT is the GLOBAL display face (section 2 — KRR decision
    2026-07-02); variants may override --brand-font-display for their own
    typographic persona while body (Literata) and UI (Inter) stay shared:
@@ -299,9 +303,11 @@
   --brand-bordeaux: #8A4B3A;      /* burnt sienna — ornament only */
   --brand-ink-rgb: 27, 40, 54;
   --selection-bg: #C4D4E0;
+  --surface-hover: #CBD5DE;
 }
 [data-brand="atelier"][data-theme="sepia"] {
   --bg-secondary: #CBD5DE;
+  --surface-hover: #C6D0D9;
   --text-muted: #4C5A66;   /* A11y WS-A: was #566472 */
   --selection-bg: #C4D4E0;
 }
@@ -313,6 +319,7 @@
   --text-secondary: #AEBAC6;
   --text-muted: #8B98A5;
   --border-color: rgba(220, 228, 236, 0.10);
+  --surface-hover: #25303B;
   --accent: #6FB3D9;              /* bright cerulean for dark contrast */
   --accent-light: #93C8E5;        /* hover text */
   --accent-fill: #2E7BA8;         /* button fill under white (4.7:1; 3.8:1 vs ground) */
@@ -336,10 +343,12 @@
   --brand-bordeaux: #6B2229;      /* deep oxblood — ornament */
   --brand-ink-rgb: 26, 23, 20;
   --selection-bg: #E0D2C0;
+  --surface-hover: #D8D1C2;
   --brand-font-display: var(--brand-font-serif);  /* austere: no display flourish */
 }
 [data-brand="deuil"][data-theme="sepia"] {
   --bg-secondary: #D8D1C2;
+  --surface-hover: #D3CCBE;
   --text-muted: #5D564E;   /* A11y WS-A: was #665F56 */
   --selection-bg: #E0D2C0;
 }
@@ -351,6 +360,7 @@
   --text-secondary: #BBB2A5;
   --text-muted: #948B7E;
   --border-color: rgba(230, 224, 214, 0.10);
+  --surface-hover: #211D1A;
   --accent: #C56B6B;              /* lifted oxblood */
   --accent-light: #D68A8A;        /* hover text */
   --accent-fill: #A84545;         /* button fill under white (5.8:1; 3.2:1 vs ground) */
@@ -374,10 +384,13 @@
   --brand-bordeaux: #C1553B;      /* coral / terracotta — ornament */
   --brand-ink-rgb: 34, 32, 27;
   --selection-bg: #BFE3E0;
+  --surface-hover: #D8E4E1;
   --brand-font-display: 'Cormorant Variable', 'Old Standard TT', Georgia, serif;
+  --display-weight: 500;   /* Cormorant is variable; 400 reads too thin */
 }
 [data-brand="riviera"][data-theme="sepia"] {
   --bg-secondary: #D8E4E1;
+  --surface-hover: #D2DDDA;
   --text-muted: #5F5C56;   /* A11y WS-A: was #64605A */
   --selection-bg: #BFE3E0;
 }
@@ -389,6 +402,7 @@
   --text-secondary: #B4BEB8;
   --text-muted: #8C9791;
   --border-color: rgba(228, 232, 226, 0.10);
+  --surface-hover: #20302E;
   --accent: #38C0C9;              /* bright teal for dark contrast */
   --accent-light: #66D3DA;        /* hover text */
   --accent-fill: #108088;         /* button fill under white (4.7:1; 3.8:1 vs ground) */

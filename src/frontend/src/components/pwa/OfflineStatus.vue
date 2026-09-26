@@ -178,7 +178,7 @@ onUnmounted(() => {
   line-height: 0.875rem;
   text-align: center;
   color: white;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   border-radius: 9999px;
   font-family: var(--font-sans, system-ui);
 }
@@ -331,7 +331,7 @@ onUnmounted(() => {
 }
 
 .offline-panel-btn-update {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   border-color: var(--color-accent, #9A4707);
 }
@@ -348,7 +348,7 @@ onUnmounted(() => {
 /* Dark mode */
 [data-theme="dark"] .offline-panel {
   background: var(--bg-primary);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 [data-theme="dark"] .offline-panel-title {

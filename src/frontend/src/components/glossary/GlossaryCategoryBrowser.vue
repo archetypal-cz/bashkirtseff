@@ -244,7 +244,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 
 [data-theme="dark"] .category-card {
   background: var(--bg-primary);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 [data-theme="dark"] .category-card:hover,
@@ -376,7 +376,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 .subcategory-chip.is-active {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   border-color: var(--color-accent, #9A4707);
   color: white;
 }
@@ -392,7 +392,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 
 [data-theme="dark"] .subcategory-chip {
   background: var(--bg-secondary);
-  border-color: rgba(255, 255, 255, 0.08);
+  border-color: color-mix(in srgb, var(--text-primary) 8%, transparent);
   color: var(--text-secondary);
 }
 
@@ -427,7 +427,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 
 [data-theme="dark"] .subcategory-count-badge {
   background: var(--bg-primary);
-  color: #888;
+  color: var(--text-muted);
 }
 
 .sub-chevron {
@@ -452,7 +452,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 [data-theme="dark"] .entries-panel {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 .entries-panel-header {
@@ -466,7 +466,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 
 [data-theme="dark"] .entries-panel-header {
   background: var(--bg-secondary);
-  border-color: rgba(255, 255, 255, 0.08);
+  border-color: color-mix(in srgb, var(--text-primary) 8%, transparent);
 }
 
 .entries-panel-count {
@@ -499,7 +499,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 
 [data-theme="dark"] .entry-item {
   color: var(--text-primary);
-  border-color: rgba(255, 255, 255, 0.05);
+  border-color: color-mix(in srgb, var(--text-primary) 5%, transparent);
 }
 
 [data-theme="dark"] .entry-item:hover {
@@ -536,7 +536,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 }
 
 .entry-filter-btn:hover {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   border-color: var(--color-accent, #9A4707);
   color: white;
 }
@@ -548,7 +548,7 @@ function activateFilter(event: Event, categoryName: string, entryId: string) {
 
 [data-theme="dark"] .entry-filter-btn {
   background: var(--surface-hover);
-  color: #888;
+  color: var(--text-muted);
 }
 
 [data-theme="dark"] .entry-filter-btn:hover {

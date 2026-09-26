@@ -263,7 +263,7 @@ function getIconColor(category?: string): string {
 
 .search-input:focus {
   border-color: var(--color-accent, #9A4707);
-  box-shadow: 0 0 0 3px rgba(180, 83, 9, 0.1);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 10%, transparent);
 }
 
 .search-input::placeholder {
@@ -272,12 +272,12 @@ function getIconColor(category?: string): string {
 
 [data-theme="dark"] .search-input {
   background: var(--bg-secondary);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
   color: var(--text-primary);
 }
 
 [data-theme="dark"] .search-input:focus {
-  box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.2);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
 }
 
 .clear-btn {
@@ -317,7 +317,7 @@ function getIconColor(category?: string): string {
 
 [data-theme="dark"] .search-results {
   background: var(--bg-primary);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 .results-count {
@@ -432,14 +432,14 @@ function getIconColor(category?: string): string {
 }
 
 :deep(.highlight) {
-  background: rgba(180, 83, 9, 0.2);
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
   color: inherit;
   padding: 0 0.125rem;
   border-radius: 0.125rem;
 }
 
 [data-theme="dark"] :deep(.highlight) {
-  background: rgba(217, 119, 6, 0.3);
+  background: color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
 /* Transitions */

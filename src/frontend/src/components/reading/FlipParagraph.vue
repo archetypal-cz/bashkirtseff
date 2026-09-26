@@ -130,8 +130,24 @@ const showTranslationLabel = computed(() =>
   background: var(--bg-secondary, #F5E6D3);
   border-left: 2px solid var(--ornament, #722F37);
   border-radius: 0 0.25rem 0.25rem 0;
-  padding: 0.75rem 0 0.75rem 1rem;
+  padding: 0.75rem 0.75rem 0.75rem 1rem;
   margin: -0.75rem 0;
+}
+
+/* Flipped: both faces share one grid cell so a longer original grows the
+   card instead of spilling past the slip (see ParagraphToolbar.vue). */
+.flip-card.is-flipped {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.flip-card.is-flipped > .card-face {
+  grid-area: 1 / 1;
+}
+
+.flip-card.is-flipped > .card-back {
+  position: relative;
+  inset: auto;
 }
 
 .paragraph-text {

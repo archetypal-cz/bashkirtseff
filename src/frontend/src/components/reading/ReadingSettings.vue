@@ -176,7 +176,7 @@ function togglePanel() {
   width: 2.75rem;
   height: 2.75rem;
   border-radius: 9999px;
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   display: flex;
   align-items: center;
@@ -212,7 +212,7 @@ function togglePanel() {
 
 [data-theme="dark"] .settings-panel {
   --panel-bg: var(--bg-primary);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 .settings-header {
@@ -285,7 +285,7 @@ function togglePanel() {
 }
 
 .font-btn:hover:not(:disabled) {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   border-color: var(--color-accent, #9A4707);
 }
@@ -328,20 +328,23 @@ function togglePanel() {
 }
 
 .theme-light {
-  background: #ffffff;
-  color: #2C1810;
-  border-color: rgba(44, 24, 16, 0.2);
+  background: var(--brand-parchment);
+  color: var(--brand-ink);
+  border-color: rgba(var(--brand-ink-rgb), 0.2);
 }
 
 .theme-sepia {
-  background: #F5E6D3;
-  color: #2C1810;
-  border-color: rgba(44, 24, 16, 0.2);
+  background: var(--brand-sepia);
+  color: var(--brand-ink);
+  border-color: rgba(var(--brand-ink-rgb), 0.2);
 }
 
+/* Swatches preview each theme in the active brand; --brand-* keep their
+   light values under every theme. Dark has no brand-level token, so it shows
+   the candlelight ground rather than a neutral grey. */
 .theme-dark {
-  background: #1a1a1a;
-  color: #e5e5e5;
+  background: #171310;
+  color: #DCD2C2;
   border-color: rgba(255, 255, 255, 0.2);
 }
 

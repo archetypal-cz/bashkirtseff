@@ -471,8 +471,26 @@ const hasOriginal = computed(() => !!props.originalHtml);
   background: var(--bg-secondary, #F5E6D3);
   border-left: 2px solid var(--ornament, #722F37);
   border-radius: 0 0.25rem 0.25rem 0;
-  padding: 0.75rem 0 0.75rem 1rem;
+  padding: 0.75rem 0.75rem 0.75rem 1rem;
   margin: -0.75rem 0;
+}
+
+/* While flipped, stack both faces in one grid cell so the card is as tall as
+   the longer text. With the back absolutely positioned, a French paragraph
+   longer than its translation spilled past the slip's background onto the
+   next paragraph. Unflipped, the back stays absolute so it adds no height. */
+.flip-card.is-flipped {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.flip-card.is-flipped > .card-face {
+  grid-area: 1 / 1;
+}
+
+.flip-card.is-flipped > .card-back {
+  position: relative;
+  inset: auto;
 }
 
 /* ─── Paragraph text ─────────────────────────────────────────────────── */
@@ -511,13 +529,8 @@ const hasOriginal = computed(() => !!props.originalHtml);
   overflow-y: auto;
 }
 
-[data-theme="dark"] .sheet-content {
-  background: var(--bg-primary);
-}
-
-[data-theme="sepia"] .sheet-content {
-  background: #F5E6D3;
-}
+/* Every theme and brand uses the page ground (--bg-primary); the old sepia
+   override hardcoded the default brand's #F5E6D3 under atelier/deuil/riviera. */
 
 /* ─── Menu items ─────────────────────────────────────────────────────── */
 

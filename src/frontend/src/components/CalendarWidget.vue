@@ -222,7 +222,7 @@ const calendarWeeks = computed(() => {
 
 [data-theme="dark"] .calendar-widget {
   background: var(--bg-primary);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 /* Compact variant — no own chrome, parent panel provides border/bg */
@@ -240,7 +240,7 @@ const calendarWeeks = computed(() => {
 .calendar-compact .calendar-header {
   margin-bottom: 0.25rem;
   padding-bottom: 0.25rem;
-  border-bottom-color: rgba(44, 24, 16, 0.06);
+  border-bottom-color: rgba(var(--brand-ink-rgb), 0.06);
 }
 
 .calendar-compact .calendar-month {
@@ -279,7 +279,7 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .calendar-header {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 .calendar-month {
@@ -388,7 +388,7 @@ const calendarWeeks = computed(() => {
 }
 
 .calendar-day.has-entry:hover {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
 }
 
@@ -409,12 +409,12 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .entry-indicator {
-  background: #D97706;
+  background: var(--accent);
 }
 
 /* Selected date */
 .calendar-day.is-selected {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   font-weight: 600;
 }
@@ -429,7 +429,7 @@ const calendarWeeks = computed(() => {
 
 /* Filter-active states */
 .calendar-day.has-entry.filter-active-match {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   font-weight: 600;
 }
@@ -448,7 +448,7 @@ const calendarWeeks = computed(() => {
 }
 
 [data-theme="dark"] .calendar-day.has-entry.filter-active-match {
-  background: #D97706;
+  background: var(--accent);
   color: var(--bg-primary);
 }
 

@@ -83,7 +83,7 @@ const matchingItem = computed((): HistoryItem | null => {
 }
 
 .continue-btn:hover {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
 }
 

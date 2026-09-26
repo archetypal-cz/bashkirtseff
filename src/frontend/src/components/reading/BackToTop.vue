@@ -72,7 +72,7 @@ onUnmounted(() => {
 .back-to-top:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   border-color: var(--color-accent, #9A4707);
 }
@@ -80,11 +80,11 @@ onUnmounted(() => {
 [data-theme="dark"] .back-to-top {
   background: var(--surface-hover);
   color: var(--text-primary);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 [data-theme="dark"] .back-to-top:hover {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
 }
 

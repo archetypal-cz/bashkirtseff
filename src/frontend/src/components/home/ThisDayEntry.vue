@@ -297,7 +297,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .day-nav-date {
-  color: #D97706;
+  color: var(--accent);
 }
 
 .day-nav-btn {
@@ -315,20 +315,20 @@ onMounted(() => {
 }
 
 .day-nav-btn:hover {
-  background: var(--color-accent, #9A4707);
+  background: var(--accent-fill, #9A4707);
   color: white;
   border-color: var(--color-accent, #9A4707);
 }
 
 [data-theme="dark"] .day-nav-btn {
-  border-color: rgba(255, 255, 255, 0.15);
-  color: #D97706;
+  border-color: color-mix(in srgb, var(--text-primary) 15%, transparent);
+  color: var(--accent);
 }
 
 [data-theme="dark"] .day-nav-btn:hover {
-  background: #D97706;
+  background: var(--accent);
   color: var(--bg-primary);
-  border-color: #D97706;
+  border-color: var(--accent);
 }
 
 .day-nav-btn svg {
@@ -346,7 +346,7 @@ onMounted(() => {
 
 [data-theme="dark"] .this-day-card {
   background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: color-mix(in srgb, var(--text-primary) 10%, transparent);
 }
 
 .this-day-header {
@@ -364,7 +364,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-title {
-  color: #D97706;
+  color: var(--accent);
 }
 
 .this-day-meta {
@@ -392,7 +392,7 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-date:hover {
-  color: #D97706;
+  color: var(--accent);
 }
 
 .this-day-age {
@@ -456,11 +456,11 @@ onMounted(() => {
 }
 
 [data-theme="dark"] .this-day-link {
-  color: #D97706;
+  color: var(--accent);
 }
 
 [data-theme="dark"] .this-day-link:hover {
-  color: #F59E0B;
+  color: var(--accent-light);
 }
 
 .link-arrow {
