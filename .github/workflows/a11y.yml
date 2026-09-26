@@ -69,6 +69,5 @@ jobs:
       - name: Axe audit (budget 0 serious/critical, light+dark)
         env:
           BASE_URL: http://localhost:4407
-          THEMES: light,dark
           CHROME_PATH: /usr/bin/google-chrome
         run: node src/scripts/a11y-audit.mjs

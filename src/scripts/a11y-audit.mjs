@@ -1,9 +1,9 @@
 // A11y audit (WS-H/H1, docs/A11Y_PLAN.md) — axe-core over the key page types,
-// optionally across themes and brand variants. CI-ready: exits non-zero when
-// serious/critical violations exceed the budget (default 0).
+// across every theme × brand variant (3 × 4 = 12 combos by default). CI-ready:
+// exits non-zero when serious/critical violations exceed the budget (default 0).
 //
 //   BASE_URL=http://localhost:4407 node src/scripts/a11y-audit.mjs
-//   THEMES=light,dark BRANDS=default,atelier,deuil,riviera node src/scripts/a11y-audit.mjs
+//   THEMES=light,dark BRANDS=default,deuil PAGES=entry-flipped node src/scripts/a11y-audit.mjs   (subset)
 //   CHROME_PATH=/usr/bin/chromium node ...   (default: puppeteer cache)
 //
 // Also asserts (WS-D/D3) that no `%%` annotation markers leak into rendered
@@ -13,8 +13,8 @@ import axePkg from 'axe-core';
 import { readdirSync } from 'fs';
 
 const BASE = process.env.BASE_URL || 'http://localhost:4407';
-const THEMES = (process.env.THEMES || 'light').split(',');
-const BRANDS = (process.env.BRANDS || 'default').split(',');
+const THEMES = (process.env.THEMES || 'light,sepia,dark').split(',');
+const BRANDS = (process.env.BRANDS || 'default,atelier,deuil,riviera').split(',');
 const BUDGET = parseInt(process.env.A11Y_BUDGET || '0', 10);
 
 function chromePath() {
@@ -29,11 +29,30 @@ const PAGES = {
   'year-overview': '/cz/',
   'carnet-year': '/cz/1873/',
   'carnet-entries': '/cz/105/',
-  'entry-cz': '/cz/105/1884-07-02',
-  'entry-uk': '/uk/106/1884-10-20',
+  'entry-cz': '/cz/105/1884-07-02/',
+  'entry-uk': '/uk/106/1884-10-20/',
+  // Same entry with its first paragraphs flipped to the French original, so
+  // the back face (the "slip": text-secondary italic on bg-secondary) and its
+  // footnote markers are audited in every theme × brand.
+  'entry-flipped': '/cz/001/1873-01-11/',
   'glossary-index': '/cz/glossary/',
-  'about': '/cz/about',
+  'about': '/cz/about/',
 };
+
+// PAGES=entry-flipped,glossary-index audits a subset (e.g. against a slow dev server).
+const ONLY = process.env.PAGES ? process.env.PAGES.split(',') : null;
+if (ONLY) for (const k of Object.keys(PAGES)) if (!ONLY.includes(k)) delete PAGES[k];
+
+// Flip up to three paragraphs that carry an original; returns how many flipped.
+async function flipParagraphs(page) {
+  const n = await page.evaluate(() => {
+    const btns = [...document.querySelectorAll('.toolbar__btn--fleur')].slice(0, 3);
+    btns.forEach(b => b.click());
+    return btns.length;
+  });
+  await new Promise(r => setTimeout(r, 900)); // the 0.6s rotateY transition
+  return n;
+}
 
 const axeSource = axePkg.source;
 const browser = await puppeteer.launch({
@@ -68,6 +87,10 @@ for (const theme of THEMES) {
           window.dispatchEvent(e);
         });
         await new Promise(r => setTimeout(r, 300));
+
+        if (name === 'entry-flipped' && (await flipParagraphs(page)) === 0) {
+          throw new Error('no flippable paragraph (toolbar not hydrated?)');
+        }
 
         // WS-D/D3: %% annotation markers must never reach rendered text
         const leaks = await page.evaluate(() =>
