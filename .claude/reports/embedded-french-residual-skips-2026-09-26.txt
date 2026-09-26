@@ -1,0 +1,287 @@
+cz/022 ratioSkip   SKIP 1874-08-08.md 022.0464 missing ratio=0.00 | V= | O=Livre 23ème commencé le vendredi 8 août 1874 terminé à la Cour de Lond
+cz/046 differSkip   SKIP 1875-10-03.md 046.0005 | T=V kostele bylo jen málo lidí. Sedm nebo osm osob. Skariatinová s dcerou si mě zvlášť prohl | O=A l'église il n'y avait que peu de gens. Sept ou huit personnes. La Skariatine et sa fille
+cz/060 ratioSkip   SKIP 1876-05-13.md 060.0207 missing ratio=0.00 | V= | O=Bonne Vierge Marie, mère de Notre Seigneur Jésus, protégez-moi ! Si je
+cz/060 differSkip   SKIP 1876-05-17.md 060.0297 | T=French: — Une preuve ! | O=— Une preuve I
+cz/060 differSkip   SKIP 1876-05-17.md 060.0346 | T=French: — Ah ! Monsieur ! | O=— Ah ! Monsieur 1
+cz/060 differSkip   SKIP 1876-05-17.md 060.0365 | T=French: — Oui ! | O=— Oui 1
+cz/060 differSkip   SKIP 1876-05-17.md 060.0423 | T=French: — Marie ! cria ma tante, d'en haut, Marie ! | O=— Marie I cria ma tante, d'en haut, Marie !
+cz/060 differSkip   SKIP 1876-05-19.md 060.0529 | T=French: *Rien de plus bête que moi ! Comme les victimes de romans. Fi !* | O=*Rien de plus idiot que moi. C'est au point que je deviens comme toutes les jeunes filles 
+cz/068 ratioSkip   SKIP 1876-12-19.md 068.0041 differ ratio=0.25 | V=Není to škoda, že se mi tak poctivý muž jako Bruschetti tolik protiví. | O=N'est-ce pas dommage qu'un loyal homme comme Bruschetti me déplaise ta
+cz/073 differSkip   SKIP 1877-07-15.md 073.0001 | T=[Pokračování fantazie ze 14. července] | O=Dimanche 15 juillet 1877 [Continuation de la fantaisie du 14 juillet]
+cz/081 ratioSkip   SKIP 1878-08-05.md 081.0461 differ ratio=0.18 | V=Abych byla přesná, je třeba říct, že moje knížata zahrála ruskou hymnu | O=Pour être scrupuleuse il faut dire que mes princes ont joué l'hymme ru
+cz/081 ratioSkip   SKIP 1878-08-08.md 081.0499 differ ratio=0.15 | V=Co k čertu — vlastně ne. --- Gloriae Cupiditas — Kniha 82. *začata ve  | O=--- Gloriae Cupiditas - Livre 82ème *commencé le jeudi 8 août 1878 - t
+cz/094 differSkip   SKIP 1882-02-21.md 094.0180 | T=Mardi 21 février 1882 [full text as source - long carnival entry] | O=Mardi 21 février 1882 Oh ! un succes monstre, nous allons lundi a la bataille de fleurs de
+uk/018 differSkip   SKIP 1874-03-28.md 018.0036 | T=[image] | O=[Note de l'éd. : ici un dessin de Marie dans le journal.]
+uk/073 differSkip   SKIP 1877-07-19.md 073.0075 no visible text
+uk/073 differSkip   SKIP 1877-08-05.md 073.0284 no visible text
+uk/077 LINEINTERLEAVED-DIFF   SKIP LINEINTERLEAVED-DIFF 1878-01-17.md 077.0257 | T=Jeudi 17 janvier 1878 Nous avons dîné chez les Boyd, moi et Dina et puis sous le patronnag | O=Jeudi 17 janvier 1878 Nous avons dîné chez les Boyd, moi et Dina et puis sous le <u>patron
+uk/081 ratioSkip   SKIP 1878-08-05.md 081.0461 differ ratio=0.17 | V=Щоб бути точною, слід сказати, що мої принці зіграли російський гімн,  | O=Pour être scrupuleuse il faut dire que mes princes ont joué l'hymme ru
+uk/082 differSkip   SKIP 1878-08-19.md 082.0113 | T=Mademoiselle Oelsnitz, celle qui était gouvernante chez Mme Anitchkoff, est maintenant che | O=J'espère pouvoir commencer l'atelier mercredi ou jeudi. Eh bien j'ai une terrible maladie.
+uk/082 differSkip   SKIP 1878-08-24.md 082.0143 | T=J'ai mis une heure à faire une esquisse de grand-papa couché. C'est sur une toile de 3. On | O=Aprè-demain je vais aller à l'Atelier, pour moins m'impa-tienter, j'ai nettoyé mes boîtes,
+uk/082 differSkip   SKIP 1878-08-26.md 082.0153 | T=L'un a été fait il y a deux ans, l'homme est à cheval sur une chaise. L'autre est tout réc | O=J'ai recommencé mon travail avec toute l'ardeur et tout l'amour qui résultent d'un long re
+uk/082 differSkip   SKIP 1878-08-26.md 082.0154 | T=J'ai recommencé mon travail avec toute l'ardeur et tout l'amour qui résultent d'un long re | O=Est-ce que je n'aimerai jamais personne ? Est-ce que j'ai déjà aimé ? Est-ce que j'aime ? 
+uk/082 differSkip   SKIP 1878-08-26.md 082.0155 | T=Est-ce que je n'aimerai jamais personne ? Est-ce que j'ai déjà aimé ? Est-ce que j'aime ?  | O=Mais il me semble que je suis liée à cet homme et tenez ! Je voudrais que cela fût [vrai].
+en/009 differSkip   SKIP 1873-09-02.md 009.0001 | T=Le premier jour depuis l'interruption des études, je me lève à cinq heures. | O=Mardi 2 septembre 1873
+en/012 differSkip   SKIP 1873-11-07.md 012.0083 | T=Then the princess says: | O=Alors la princesse dit:
+en/016 differSkip   SKIP 1874-02-05.md 016.0121 | T=Allard vient nous coiffer, il me fait une très jolie tête... | O=Je me fais coiffer par Allard, il me fait une très jolie tête, la moitié des cheveux relev
+en/021 differSkip   SKIP 1874-07-23.md 021.0500 | T=Comme nous ressortions au Casino, Mme Lausberg remet à maman une boîte et une carte de vis | O=Je marche avec Gambart et Body malgré une petite pluie. Je suis mouillée et crottée. Après
+en/022 ratioSkip   SKIP 1874-08-08.md 022.0464 missing ratio=0.00 | V= | O=Livre 23ème commencé le vendredi 8 août 1874 terminé à la Cour de Lond
+en/023 differSkip   SKIP 1874-09-05.md 023.0202 | T=[Very long French text - see original] | O=Samedi, 5 septembre 1874 Nous ne partons pas, comme je le pensais un peu. Je me lève compa
+en/023 differSkip   SKIP 1874-09-06.md 023.0203 | T=[Long French text] | O=Dimanche, 6 septembre 1874 Je me suis couchée à trois heures, à huit heures déjà on me tou
+en/023 differSkip   SKIP 1874-09-07.md 023.0204 | T=[Long French text] | O=Lundi, 7 septembre 1874 Nous déjeunons tout à fait comme j'aime, prenons une calèche à l'h
+en/023 differSkip   SKIP 1874-09-08.md 023.0205 | T=[Long French text] | O=Mardi, 8 septembre 1874 Je me porte aussi mal que les derniers jours à Spa. C'est un état 
+en/023 differSkip   SKIP 1874-09-09.md 023.0206 | T=[Long French text] | O=Mercredi, 9 septembre 1874 Je vais un peu mieux mais toujours le même état qu'en bateau. J
+en/023 differSkip   SKIP 1874-09-10.md 023.0207 | T=[Long French text] | O=Jeudi, 10 septembre 1874 Je suis une heureuse nature. Avant-hier ma tante nous a dit une n
+en/023 differSkip   SKIP 1874-09-11.md 023.0208 | T=[Long French text] | O=Vendredi, 11 septembre 1874 J'ai essayé chez Wolmershausen, la robe est jolie mais il y a 
+en/024 ratioSkip   SKIP 1874-09-18.md 024.0043 differ ratio=8.50 | V=Monsieur de Gonzales, For two days I have been in Paris with my aunt a | O=Monsieur de Gonzalès
+en/024 ratioSkip   SKIP 1874-09-18.md 024.0044 missing ratio=0.00 | V= | O=Depuis deux jours je suis à Paris avec ma tante et nous serions enchan
+en/024 differSkip   SKIP 1874-09-18.md 024.0045 no visible text
+en/025 ratioSkip   SKIP 1874-11-14.md 025.0226 missing ratio=19.50 | V=Pour fâcher maman et ma tante j'ai parlé d'Audiffret en l'élevant asse | O=— Où ?
+en/025 ratioSkip   SKIP 1874-11-14.md 025.0229 missing ratio=0.35 | V=In the evening we go to the opera — the second performance since the o | O=Je l'accueillis froidement ne me tournant que rarement seulement quand
+en/025 ratioSkip   SKIP 1874-11-14.md 025.0231 missing ratio=12.46 | V=When I was dressed, I gazed with pride at my white neck, my high white | O=— C'est que la marquise a changé d'avis, sans doute.
+en/025 ratioSkip   SKIP 1874-11-14.md 025.0232 missing ratio=3.02 | V=Mlle Pelikan — Zoé; I shall call her by her name, it is shorter — Zoé, | O=Comme il voulait s'en aller disant que sa mère est seule,
+en/025 ratioSkip   SKIP 1874-11-14.md 025.0234 missing ratio=14.15 | V=The theatre fills gradually, and at the second act appear: Audiffret,  | O=Il est resté.
+en/025 ratioSkip   SKIP 1874-11-14.md 025.0236 missing ratio=2.98 | V=Hélène, Lise, and Aggie with their father are in a second-tier box, in | O=Gambart est venu dans notre loge, et parla comme un fou.
+en/025 ratioSkip   SKIP 1874-11-14.md 025.0237 missing ratio=5.29 | V=[In the margin: *The second or dress tier is quite as good as the firs | O=Le spectacle fini je m'enveloppai dans mon grand manteau de cygne et n
+en/026 ratioSkip   SKIP 1874-11-20.md 026.0018 missing ratio=0.17 | V=I cannot explain these strange aversions. Often, from the very first m | O=Je ne puis m'expliquer ces aversions étranges. Souvent, du premier mom
+en/026 ratioSkip   SKIP 1874-11-20.md 026.0019 missing ratio=5.22 | V=There are several people here in Nice for whom I feel this aversion, p | O=— Trifon, quand viendra l'homme plus grand qu'un palmier, mets-le deho
+en/026 ratioSkip   SKIP 1874-11-20.md 026.0020 missing ratio=0.24 | V=— Trifon, when the man taller than a palm tree comes, show him out — | O=Il y a des moments où je ne veux ni lire, ni écrire, ni jouer, ni mang
+en/026 ratioSkip   SKIP 1874-11-22.md 026.0030 missing ratio=0.39 | V=, a woman of little wit but one I found agreeable. All husbands turn b | O=Le soir à l'Opéra "L'Italiana in Algeria", même robe de l'autre soir, 
+en/026 ratioSkip   SKIP 1874-11-22.md 026.0031 missing ratio=0.23 | V=That is a golden saying; the thought was in me before, but it was the  | O=Ce cher Moreno commence par des compliments, que dans sa loge on avait
+en/026 ratioSkip   SKIP 1874-11-22.md 026.0033 missing ratio=37.00 | V=Dear Moreno opens with compliments: that in his box they had said I wa | O=[Deux lignes cancellées]
+en/029 differSkip   SKIP 1875-01-21.md 029.0002 | T=*In English in the original* | O=[H[is] G[race] t[he] D[uke] o[f] H[amilton] Livre 29ème commencé le mercredi 20 janvier 18
+en/053 ratioSkip   SKIP 1876-01-26.md 053.0110 missing ratio=0.26 | V=*God, give me wit!* Now there is a gem. Oh, how stupid I am — no, it i | O=*Dieu donnez-moi de l'esprit* ! Voilà qui est un sucre. Oh que je suis
+en/055 differSkip   SKIP 1876-03-07.md 055.0236 | T=— Sans doute non, après les fine things you have said. | O=— Sans doute non, après les belles choses que vous avez dites.
+en/055 differSkip   SKIP 1876-03-13.md 055.0615 | T=Il fait mauvais, j'ai mal à la gorge, et nous allons pourtant à la villa Doria Pamphilj. I | O=Je me mets en noir et nous allons visiter des appartements.
+en/055 differSkip   SKIP 1876-03-13.md 055.0616 | T=Dès que nous entrons par la grille, Pietro vient vers moi, et en chemin faisant, entre les | O=— Puisque je ne suis pas en blanc, dis-je, allons visiter le palais de la villa Pamphili.
+en/055 differSkip   SKIP 1876-03-13.md 055.0617 | T=Savez-vous lequel ? | O=— Allons.
+en/055 differSkip   SKIP 1876-03-13.md 055.0618 | T=C'est Torlonia qu'il m'a présenté, à la villa. | O=Et nous allons. Mais à peine sommes-nous descendus de voiture et à moitié du chemin que j'
+en/055 differSkip   SKIP 1876-03-13.md 055.0619 | T=J'étais ravie ! J'ai dit quelques mots banaux. | O=— Comment êtes-vous ici, Monsieur ?
+en/055 differSkip   SKIP 1876-03-13.md 055.0620 | T=Il y a parmi les habitués de la villa un animal superbe du nom de Chocolat: c'est un grand | O=— Je suis ici, j'ai vu Torlonia, je suis resté jusqu'à deux heures du matin au club pour v
+en/055 differSkip   SKIP 1876-03-13.md 055.0621 | T=En passant par le Capitole, après notre promenade de avant-hier, je ne sais comment il s'e | O=— Très bien, vous n'êtes resté si tard que pour cela.
+en/055 differSkip   SKIP 1876-03-13.md 055.0622 | T=Deux gamins d'une dizaine d'années avaient un combat de chiens et des Romains d'un bel âge | O=— Je lui ai parlé, mais vous savez il ne veut pas vendre ses chevaux, seulement pour vous 
+en/055 differSkip   SKIP 1876-03-13.md 055.0623 | T=Pietro m'a dit ensuite que la vieille femme qui était là, s'est mise à rire de sa bêtise à | O=— Bien, bien.
+en/055 differSkip   SKIP 1876-03-13.md 055.0624 | T=Et puis le cheval qu'on montait s'appelait Fortuné. Et Pietro s'est mis à rire lui aussi.  | O=— Ils sont là, les chevaux de Torlonia, quant aux cheveux je n'ai pas encore pu en avoir.
+en/060 differSkip   SKIP 1876-05-10.md 060.0002 | T=As I said Tuesday evening, I departed yesterday at three o'clock. Without any obstacle and | O=Comme je l'ai dit mardi soir, je suis partie hier à trois heures. Sans aucun empêchement e
+en/060 differSkip   SKIP 1876-05-16.md 060.0257 | T=A midi je ne voulais pas encore me lever. | O=Mardi, 16 mai 1876
+en/066 differSkip   SKIP 1876-09-25.md 066.0324 | T=" Et lacryma et riou" | O=Lundi, 25 septembre 1876 (13 septembre)
+en/066 differSkip   SKIP 1876-09-25.md 066.0325 | T=Mon père comme d'habitude m'avait réveillée et je descendis pour le déjeuner... je n'étais | O=" Et lacryma et riou"
+en/066 differSkip   SKIP 1876-09-25.md 066.0326 | T=— Je l'ai vu - dis-je en parlant de la scène du théâtre. | O=Mon père comme d'habitude m'avait réveillée et je descendis pour le déjeuner... je n'étais
+en/066 differSkip   SKIP 1876-09-25.md 066.0327 | T=— Tu ne l'as pas vu, s'écria mon père, c'est Georges qui te l'a dit, le grand Georges, le  | O=— Je l'ai vu - dis-je en parlant de la scène du théâtre.
+en/066 differSkip   SKIP 1876-09-25.md 066.0328 | T=— Laissons Georges. | O=— Tu ne l'as pas vu, s'écria mon père, c'est Georges qui te l'a dit, le grand Georges, le 
+en/066 differSkip   SKIP 1876-09-25.md 066.0329 | T=— Mais [Mots noircis: je n'ai pas vu] que Mille Ikornikoff s'est embrassée avec Potechine, | O=— Laissons Georges.
+en/066 differSkip   SKIP 1876-09-25.md 066.0330 | T=Le ton, l'impertinence, et devant le misérable Michel... je sentis un serrement dans la go | O=— Mais [Mots noircis: je n'ai pas vu] que Mille Ikornikoff s'est embrassée avec Potechine,
+en/066 differSkip   SKIP 1876-09-25.md 066.0331 | T=- Je sais que tu ne dis que des impertinences, et je sortis de la chambre et courus chez m | O=Le ton, l'impertinence, et devant le misérable Michel... je sentis un serrement dans la go
+en/066 differSkip   SKIP 1876-09-25.md 066.0332 | T=[En travers: Quand je pense que cet homme là m'a embrassée j'ai honte] | O=- Je sais que tu ne dis que des impertinences, et je sortis de la chambre et courus chez m
+en/066 differSkip   SKIP 1876-09-25.md 066.0333 | T=- Devant ce misérable Michel, disais-je à travers les sanglots, qui osera... lui aussi, de | O=[En travers: Quand je pense que cet homme là m'a embrassée j'ai honte]
+en/066 differSkip   SKIP 1876-09-25.md 066.0334 | T=- Je dirai devant Michel que j'ai inventé, que c'est... | O=- Devant ce misérable Michel, disais-je à travers les sanglots, qui osera... lui aussi, de
+en/066 differSkip   SKIP 1876-09-25.md 066.0335 | T=- Ce serait pire... Oh ! le bel héroïsme que de dire des lâchetés devant Eristoff et les d | O=- Je dirai devant Michel que j'ai inventé, que c'est...
+en/066 differSkip   SKIP 1876-09-25.md 066.0336 | T=Plus il s'excusait plus je [Mots noircis: je demandais]. | O=- Ce serait pire... Oh ! le bel héroïsme que de dire des lâchetés devant Eristoff et les d
+en/066 differSkip   SKIP 1876-09-25.md 066.0337 | T=- Croyez-vous que moi aussi je ne sache point les saletés de ta famille à toi ? Ai-je jama | O=Plus il s'excusait plus je [Mots noircis: je demandais].
+en/066 differSkip   SKIP 1876-09-25.md 066.0338 | T=Si je voulais [Mot noirci: montrer] tout ce qu'une fille peut dire à son père je continuer | O=- Croyez-vous que moi aussi je ne sache point les saletés de ta famille à toi ? Ai-je jama
+en/066 differSkip   SKIP 1876-09-25.md 066.0339 | T=Je m'adoucis enfin, on ne pouvait pas être plus soumis, plus s'excuser, plus endurer des r | O=Si je voulais [Mot noirci: montrer] tout ce qu'une fille peut dire à son père je continuer
+en/066 differSkip   SKIP 1876-09-25.md 066.0340 | T=Il me conduisit sur la galerie voir une noce de paysans qui était venue saluer Monsieur. I | O=Je m'adoucis enfin, on ne pouvait pas être plus soumis, plus s'excuser, plus endurer des r
+en/066 differSkip   SKIP 1876-09-25.md 066.0341 | T=L'homme porte le costume habituel, des bottes noires jusqu'aux genoux, un pantalon foncé e | O=Il me conduisit sur la galerie voir une noce de paysans qui était venue saluer Monsieur. I
+en/066 differSkip   SKIP 1876-09-25.md 066.0342 | T=La femme est en jupe et en veste pareille de forme à celle de l'homme, mais d'une étoffe p | O=L'homme porte le costume habituel, des bottes noires jusqu'aux genoux, un pantalon foncé e
+en/066 differSkip   SKIP 1876-09-25.md 066.0343 | T=Ils entrèrent au salon suivis des garçons d'honneur, des femmes d'honneur et de ceux qui a | O=La femme est en jupe et en veste pareille de forme à celle de l'homme, mais d'une étoffe p
+en/066 differSkip   SKIP 1876-09-25.md 066.0344 | T=Le mari et la femme s'agenouillèrent à trois reprises, devant mon père puis devant moi, [M | O=Ils entrèrent au salon suivis des garçons d'honneur, des femmes d'honneur et de ceux qui a
+en/066 differSkip   SKIP 1876-09-25.md 066.0345 | T=En échange de quoi il fallut donner de l'argent. Ensuite ils dansèrent sur la galerie et c | O=Le mari et la femme s'agenouillèrent à trois reprises, devant mon père puis devant moi, [M
+en/066 differSkip   SKIP 1876-09-25.md 066.0346 | T=- Vous avez mal fait de vous enfuir comme vous dites, il fallait rester et méditer sur les | O=En échange de quoi il fallut donner de l'argent. Ensuite ils dansèrent sur la galerie et c
+en/066 differSkip   SKIP 1876-09-25.md 066.0347 | T=On comprend bien que le reste du jour a été gêné, que l'auteur de mes malheureux jours a p | O=- Vous avez mal fait de vous enfuir comme vous dites, il fallait rester et méditer sur les
+en/066 differSkip   SKIP 1876-09-25.md 066.0348 | T=- Je regrette d'être si nerveuse, il fallait cracher et s'en aller au lieu de vous donner  | O=On comprend bien que le reste du jour a été gêné, que l'auteur de mes malheureux jours a p
+en/066 differSkip   SKIP 1876-09-25.md 066.0349 | T=[Mots noircis: "Je vois bien à présent pourquoi ma mère n'a pas pu vivre avec toi, ton car | O=- Je regrette d'être si nerveuse, il fallait cracher et s'en aller au lieu de vous donner 
+en/066 differSkip   SKIP 1876-09-25.md 066.0350 | T=J'avais encore perdu à Paul, on m'apporta mon nécessaire pour en tirer l'argent, et ce fut | O=[Mots noircis: "Je vois bien à présent pourquoi ma mère n'a pas pu vivre avec toi, ton car
+en/066 differSkip   SKIP 1876-09-25.md 066.0351 | T=J'insiste sur ce détail car il donna lieu... à une scène aussi bizarre que... bizarre. J'a | O=J'avais encore perdu à Paul, on m'apporta mon nécessaire pour en tirer l'argent, et ce fut
+en/066 differSkip   SKIP 1876-09-25.md 066.0352 | T=— Bien, dis-je, si vous soutenez les coups. | O=J'insiste sur ce détail car il donna lieu... à une scène aussi bizarre que... bizarre. J'a
+en/066 differSkip   SKIP 1876-09-25.md 066.0353 | T=Il se coucha sur le ventre et je lui appliquai l'un après l'autre douze remarquables coups | O=— Bien, dis-je, si vous soutenez les coups.
+en/066 differSkip   SKIP 1876-09-25.md 066.0354 | T=Le prince charmant ne cria pas, mais il leva deux fois la tête pour dire que je frappais s | O=Il se coucha sur le ventre et je lui appliquai l'un après l'autre douze remarquables coups
+en/066 differSkip   SKIP 1876-09-25.md 066.0355 | T=C'est que c'est assez original cet homme qui se fait rosser pour obtenir mon portrait. | O=Le prince charmant ne cria pas, mais il leva deux fois la tête pour dire que je frappais s
+en/066 differSkip   SKIP 1876-09-25.md 066.0356 | T=Il me donna le sien et comme il se plaignait du mal : | O=C'est que c'est assez original cet homme qui se fait rosser pour obtenir mon portrait.
+en/066 differSkip   SKIP 1876-09-25.md 066.0357 | T=— Vous êtes trop difficile, en vérité. Comment ! Je prends votre portrait sans supplément  | O=Il me donna le sien et comme il se plaignait du mal :
+en/066 differSkip   SKIP 1876-09-25.md 066.0358 | T=Et je lui dictai la suivante : | O=— Vous êtes trop difficile, en vérité. Comment ! Je prends votre portrait sans supplément 
+en/066 differSkip   SKIP 1876-09-25.md 066.0359 | T=- Je soussigné, le plus dévergondé des gommeux du gouvernement de Poltava et de beaucoup d | O=Et je lui dictai la suivante :
+en/066 differSkip   SKIP 1876-09-25.md 066.0360 | T=prince Michel Andryevitch Eristoff d'Aragwa | O=- Je soussigné, le plus dévergondé des gommeux du gouvernement de Poltava et de beaucoup d
+en/066 differSkip   SKIP 1876-09-25.md 066.0361 | T=Et en écrivant cela il s'interrompait pour demander un conseil à Paul, ou bien : | O=prince Michel Andryevitch Eristoff d'Aragwa
+en/066 differSkip   SKIP 1876-09-25.md 066.0362 | T=— Mais si j'écris cela, vous vous en moquerez, vous rirez ! | O=Et en écrivant cela il s'interrompait pour demander un conseil à Paul, ou bien :
+en/066 differSkip   SKIP 1876-09-25.md 066.0363 | T=— Soyez-en convaincu. Un pareil document n'engendre pas les pleurs. | O=— Mais si j'écris cela, vous vous en moquerez, vous rirez !
+en/066 differSkip   SKIP 1876-09-25.md 066.0364 no visible text
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-24-25.md 067.0198
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0217
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0218
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0219
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0220
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0221
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0222
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0223
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0224
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0225
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-28.md 067.0228
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-28.md 067.0229
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-28.md 067.0230
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-28.md 067.0232
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-29-30-12-01.md 067.0235
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-29-30-12-01.md 067.0237
+en/067 UNBALANCED   SKIP UNBALANCED 1876-11-29-30-12-01.md 067.0239
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0242
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0243
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0244
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0245
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0247
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0248
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0250
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0251
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0254
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0255
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0257
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0260
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0261
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0262
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0265
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0266
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0269
+en/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0271
+en/068 ratioSkip   SKIP 1877-01-02-06.md 068.0145 differ ratio=0.11 | V=Thursday, 4 January 1877 | O=Les Anitchkoff, grand-papa qui est aveugle, Pelikan qui est sourd, Bro
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0146 | T=Les Anitchkoff, grand-papa qui est aveugle, Pelikan qui est sourd, Broussais qui crie, tou | O=Ô ça ! Les cancans, car Mme Tutcheff raconte que nous n'avons plus rien, qu'on va tout ven
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0147 | T=Ô ça ! Les cancans, car Mme Tutcheff raconte que nous n'avons plus rien, qu'on va tout ven | O=Les vieillards, les murs marrons ! Ô cauchemar, ô désespoir, ô folie ! Vendredi 5 janvier 
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0148 | T=Les vieillards, les murs marrons ! Ô cauchemar, ô désespoir, ô folie ! | O=Je ne me rappelle du duc de Hamilton que pour me dire que je l'ai oublié, cette réflexion 
+en/068 ratioSkip   SKIP 1877-01-02-06.md 068.0149 differ ratio=0.02 | V=Friday, 5 January 1877 | O=J'ai été à Rome et c'est comme si je n'y avais pas été. Pourtant tous 
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0150 | T=Je ne me rappelle du duc de Hamilton que pour me dire que je l'ai oublié, cette réflexion  | O=Pour abréger le temps je dormis jusqu'à une heure et à déjeuner je fus surprise en peignoi
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0151 | T=J'ai été à Rome et c'est comme si je n'y avais pas été. Pourtant tous ceux que nous avons  | O=Laissant Broussais débiter ses plus extravagantes blagues, je m'en allai après un dîner de
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0152 | T=Pour abréger le temps je dormis jusqu'à une heure et à déjeuner je fus surprise en peignoi | O=On s'est ensuite apitoyé sur le sort du pauvre Émile ruiné par Saëtone, Cresci etc. Étant 
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0153 | T=Laissant Broussais débiter ses plus extravagantes blagues, je m'en allai après un dîner de | O=Émile dans peu de jours Miaulera, car des vautours Ignoblement vendant sa tour Lui jouerai
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0154 | T=On s'est ensuite apitoyé sur le sort du pauvre Émile ruiné par Saëtone, Cresci etc. Étant  | O=Qu'onc après ce calembour À qui fera-t-il la cour ?
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0155 | T=Émile dans peu de jours Miaulera, car des vautours Ignoblement vendant sa tour Lui jouerai | O=Un immense concours De dames qui pour Indemniser leur amour Font remuer la tour
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0156 | T=Qu'onc après ce calembour À qui fera-t-il la cour ? | O=Fichu coquin, crient-elles, bonjour !
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0157 | T=Un immense concours De dames qui pour Indemniser leur amour Font remuer la tour | O=Rends-nous nos cœurs, affreux Giaour Et puis va-t-en dans quelque four Te fourrer... ô Tro
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0158 | T=Fichu coquin, crient-elles, bonjour ! | O=Et puis une chanson sur le retour de Serbie ou plutôt une scène.
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0159 | T=Rends-nous nos cœurs, affreux Giaour Et puis va-t-en dans quelque four Te fourrer... ô Tro | O=**Acte 1er**
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0160 | T=Et puis une chanson sur le retour de Serbie ou plutôt une scène. | O=Girofla en robe de chambre turque et en pantoufles, marche en sautillant et chante. La scè
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0161 | T=**Acte 1er** | O=Je reviens, ô chrétien, De ces lieux Gais et radieux Ne connaissant point la géographie Je
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0162 | T=Girofla en robe de chambre turque et en pantoufles, marche en sautillant et chante. La scè | O=(Il s'arrête et comme pris d'un souvenir délicieux sourit et se frappe les genoux).
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0163 | T=Je reviens, ô chrétien, De ces lieux Gais et radieux Ne connaissant point la géographie Je | O=Quel beau temps. Ah ! Satan J'ai passé chez le Sultan ! bis.
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0164 | T=(Il s'arrête et comme pris d'un souvenir délicieux sourit et se frappe les genoux). | O=Je vous épargne le reste.
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0165 | T=Quel beau temps. Ah ! Satan J'ai passé chez le Sultan ! bis. | O=Donc ce soir il y a eu grande réception dans mon appartement illuminé comme tous les soirs
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0166 | T=Je vous épargne le reste. | O=Vous pensez peut-être que je suis désappointée de n'avoir pas vu Antonelli. Eh bien, vous 
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0167 | T=Donc ce soir il y a eu grande réception dans mon appartement illuminé comme tous les soirs | O=- Moi, des reproches ? Plus tard.
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0168 | T=Vous pensez peut-être que je suis désappointée de n'avoir pas vu Antonelli. Eh bien, vous  | O=Pourtant c'est affreux qu'il y ait un homme qui pense de moi ce qu'Antonelli a tout le dro
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0169 | T=- Moi, des reproches ? Plus tard. | O=Ô folie, ô abaissement, ô Éclipse d'intelligence.
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0170 | T=Pourtant c'est affreux qu'il y ait un homme qui pense de moi ce qu'Antonelli a tout le dro | O=Culpa mea.
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0171 | T=Ô folie, ô abaissement, ô Éclipse d'intelligence. | O=Dubium, illusio, deceptio oppressio. Voilà ma vie exprimée en langue distinguée.
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0172 | T=Culpa mea. | O=Je trouve une lettre de Berthe à l'occasion de la nouvelle année et un sachet de violettes
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0173 | T=Dubium, illusio, deceptio oppressio. Voilà ma vie exprimée en langue distinguée. | O=Il n'y a que Nice pour m'être utile. Je ne suis pas dissipée et passe ma vie à faire des r
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0174 | T=Je trouve une lettre de Berthe à l'occasion de la nouvelle année et un sachet de violettes | O=Et alors... vient un désir fou d'avoir un magnifique cabinet d'études plein de livres préc
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0175 | T=Il n'y a que Nice pour m'être utile. Je ne suis pas dissipée et passe ma vie à faire des r | O=Voilà pourquoi je veux aller dans le monde : trouver un mari riche et me livrer aux études
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0176 | T=Et alors... vient un désir fou d'avoir un magnifique cabinet d'études plein de livres préc | O=Et vous attribuez cela au désir de montrer des robes !
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0177 | T=Voilà pourquoi je veux aller dans le monde : trouver un mari riche et me livrer aux études | O=Je ne les dédaigne point, tant s'en faut. Le luxe physique est nécessaire au luxe moral. S
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0178 | T=Et vous attribuez cela au désir de montrer des robes ! | O=J'ai rencontré la princesse Souvoroff au Skating qui... m'a répété sur la Tutcheff la même
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0179 | T=Je ne les dédaigne point, tant s'en faut. Le luxe physique est nécessaire au luxe moral. | O=C'est une ville de cancans et de calomnie, en revenant de Rome, j'ai appris.
+en/068 differSkip   SKIP 1877-01-02-06.md 068.0181 | T=J'ai rencontré la princesse Souvoroff au Skating qui... m'a répété sur la Tutcheff la même | O=- Ne faites pas attention à ces cancans, dit-elle, et prenez [//]: # ( 2025-07-22T22:52:00
+en/070 ratioSkip   SKIP 1877-04-03.md 070.0001 differ ratio=156.37 | V=— Not too much Larderei, yes? said Doenhoff as he departed. Today is t | O=Mardi 3 avril 1877 — Pas trop de Larderei n'est-ce pas ? dit en partan
+en/081 ratioSkip   SKIP 1878-08-05.md 081.0461 differ ratio=0.19 | V=To be scrupulous I must say that my princes played the Russian anthem, | O=Pour être scrupuleuse il faut dire que mes princes ont joué l'hymme ru
+en/081 differSkip   SKIP 1878-08-08.md 081.0499 | T=Le soir Thilenius est venu et je l'ai prié de me soigner d'une légère aliénation mentale q | O=--- Gloriae Cupiditas - Livre 82ème *commencé le jeudi 8 août 1878 - terminé le mercredi 1
+en/082 differSkip   SKIP 1878-08-27.md 082.0160 | T=Vous savez M. de Bismarck a débuté dans un petit journal. Avant la catastrophe j'avais l'h | O=J'ai dit à maman de demander aux Anitchkoff une lettre pour l'Ambassade de Paris. Ils ont 
+en/082 differSkip   SKIP 1878-08-30.md 082.0184 | T=La vie réelle est un détestable et ennuyeux rêve... Pourtant comme je pourrais être heureu | O=Les Coubé m'écrivent.
+en/082 differSkip   SKIP 1878-09-04.md 082.0223 | T=Il me semble incroyable que l'ayant approché de si près j'ai été si folle. | O=Comment ! me dis-je, il est venu et il ne vient plus; il m'a...
+en/082 differSkip   SKIP 1878-09-09.md 082.0280 | T=Un caillou suffit pour faire dévier je ne sais combien de wagons... Non, non il n'y a pas  | O=Tout est comme ça pour moi à la maison il y a ma famille qui est folle et là il y a eu Ber
+en/082 differSkip   SKIP 1878-09-09.md 082.0275 no visible text
+en/089 differSkip   SKIP 1880-08-09.md 089.0310 | T=Mais c'est ma soeur. | O=Mais c'est ma sœur.
+en/095 differSkip   SKIP 1882-06-08.md 095.0142 | T=Ah ! cet être est amusant !... [full French paragraph] | O=Ah ! cet être est amusant ! Figurez-vous qu'il m'a fait éprouver presque de la jalousie en
+en/101 differSkip   SKIP 1883-08-13.md 101.0068 no visible text
+en/104 differSkip   SKIP 1884-05-25.md 104.0330 no visible text
+en/104 differSkip   SKIP 1884-05-25.md 104.0346 no visible text
+en/104 differSkip   SKIP 1884-05-26.md 104.0367 no visible text
+en/104 differSkip   SKIP 1884-05-26.md 104.0393 no visible text
+fr/009 UNBALANCED   SKIP UNBALANCED 1873-09-21.md 009.0278
+fr/009 UNBALANCED   SKIP UNBALANCED 1873-09-22.md 009.0281
+fr/010 UNBALANCED   SKIP UNBALANCED 1873-09-23.md 010.0011
+fr/010 UNBALANCED   SKIP UNBALANCED 1873-09-23.md 010.0012
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-21.md 011.0152
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-21.md 011.0154
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-21.md 011.0156
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-21.md 011.0168
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-22.md 011.0182
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-22.md 011.0186
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-22.md 011.0189
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-23.md 011.0221
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-24.md 011.0245
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-25.md 011.0260
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-25.md 011.0265
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-25.md 011.0267
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-26.md 011.0289
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-26.md 011.0290
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-26.md 011.0292
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-28.md 011.0314
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-28.md 011.0329
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-28.md 011.0333
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-29.md 011.0349
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-30.md 011.0359
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-30.md 011.0363
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-30.md 011.0370
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-31.md 011.0379
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-31.md 011.0381
+fr/011 UNBALANCED   SKIP UNBALANCED 1873-10-31.md 011.0384
+fr/023 UNBALANCED   SKIP UNBALANCED 1874-09-03.md 023.0200
+fr/023 UNBALANCED   SKIP UNBALANCED 1874-09-05.md 023.0202
+fr/067 UNBALANCED   SKIP UNBALANCED 1876-11-24-25.md 067.0198
+fr/067 UNBALANCED   SKIP UNBALANCED 1876-11-26.md 067.0214
+fr/067 UNBALANCED   SKIP UNBALANCED 1876-11-27.md 067.0225
+fr/067 UNBALANCED   SKIP UNBALANCED 1876-11-28.md 067.0232
+fr/067 UNBALANCED   SKIP UNBALANCED 1876-12-02-07.md 067.0271
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-12.md 068.0005
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-13.md 068.0011
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-14-15.md 068.0023
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-16.md 068.0030
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-17-18.md 068.0036
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-19.md 068.0041
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-20.md 068.0043
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-21-24.md 068.0049
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-21-24.md 068.0052
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-21-24.md 068.0054
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-25.md 068.0058
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-26.md 068.0061
+fr/068 UNBALANCED   SKIP UNBALANCED 1876-12-26.md 068.0063
+fr/068 UNBALANCED   SKIP UNBALANCED 1877-01-02-06.md 068.0151
+fr/068 UNBALANCED   SKIP UNBALANCED 1877-01-02-06.md 068.0177
+fr/068 UNBALANCED   SKIP UNBALANCED 1877-01-02-06.md 068.0181
+fr/068 UNBALANCED   SKIP UNBALANCED 1877-02-10-12.md 068.0268
+fr/070 ratioSkip   SKIP 1877-04-03.md 070.0001 differ ratio=157.23 | V=— Pas trop de Larderei n'est-ce pas ? dit en partant Doenhoff. C'est a | O=Mardi 3 avril 1877 — Pas trop de Larderei n'est-ce pas ? dit en partan
+fr/070 UNBALANCED   SKIP UNBALANCED 1877-04-07.md 070.0011
+fr/070 UNBALANCED   SKIP UNBALANCED 1877-04-07.md 070.0021
+fr/073 UNBALANCED   SKIP UNBALANCED 1877-07-25.md 073.0143
+fr/073 UNBALANCED   SKIP UNBALANCED 1877-08-06.md 073.0285
+fr/084 UNBALANCED   SKIP UNBALANCED 1879-01-18.md 084.0030
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-13.md 085.0372
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-13.md 085.0375
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-16.md 085.0387
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-19.md 085.0391
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-20.md 085.0398
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-20.md 085.0399
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-21.md 085.0400
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-21.md 085.0403
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-30.md 085.0423
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-07-31.md 085.0432
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-08-03.md 085.0441
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-08-04.md 085.0458
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-08-06.md 085.0466
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-08-06.md 085.0467
+fr/085 UNBALANCED   SKIP UNBALANCED 1879-08-06.md 085.0469
+fr/086 UNBALANCED   SKIP UNBALANCED 1879-08-07.md 086.0004
+fr/086 UNBALANCED   SKIP UNBALANCED 1879-08-07.md 086.0007
+fr/086 UNBALANCED   SKIP UNBALANCED 1879-08-10.md 086.0046
+fr/086 UNBALANCED   SKIP UNBALANCED 1879-08-11.md 086.0051
+fr/090 UNBALANCED   SKIP UNBALANCED 1882-04-18.md 090.0477
+fr/090 UNBALANCED   SKIP UNBALANCED 1882-04-25.md 090.0518
+fr/094 ratioSkip   SKIP 1882-01-02.md 094.0041 missing ratio=0.06 | V=Dans cette classe il est legendaire. %% | O=Nous avons rencontre Cassagnac dans la voiture d'un ami qui conduisait
+fr/094 ratioSkip   SKIP 1882-01-13.md 094.0068 missing ratio=0.37 | V=Eh bien cet abominable Gavini est encore venu nous trouver la, je sais | O=Dina, Paul, je ne sais qui quoi, on ne savait plus qui allait conduire
+fr/094 UNBALANCED   SKIP UNBALANCED 1882-01-13.md 094.0073
+fr/094 ratioSkip   SKIP 1882-02-18.md 094.0179 missing ratio=0.10 | V=C'etait aussi bien que les tetes d'une Suedoise medaillee. Que tout ce | O=Ah ! quel terrible et dangereux moment lorsqu'on sort du travail regle
+fr/094 ratioSkip   SKIP 1882-03-26.md 094.0226 missing ratio=0.16 | V=les mariages d'amour sont rares... Mais d'un autre cote cette soeur gr | O=Je revenais avec ma peinture juste comme Savine et Barnola arrivaient 
+fr/101 UNBALANCED   SKIP UNBALANCED 1883-10-06.md 101.0497
+fr/101 UNBALANCED   SKIP UNBALANCED 1883-10-07.md 101.0523
+fr/101 UNBALANCED   SKIP UNBALANCED 1883-10-11.md 101.0566
+fr/101 UNBALANCED   SKIP UNBALANCED 1883-10-14.md 101.0597
+fr/101 UNBALANCED   SKIP UNBALANCED 1883-10-14.md 101.0598
+fr/101 UNBALANCED   SKIP UNBALANCED 1883-10-15.md 101.0604
+fr/101 UNBALANCED   SKIP UNBALANCED 1883-10-15.md 101.0615
+fr/102 UNBALANCED   SKIP UNBALANCED 1883-12-24.md 102.0085
+fr/105 ratioSkip   SKIP 1884-09-06.md 105.0786 missing ratio=0.00 | V= | O=Samedi 6 septembre 1884 Je devrais regretter que ce paysan Emile ne so
