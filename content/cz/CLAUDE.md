@@ -321,6 +321,7 @@ Důležité zásady:
 - Čeština často vynechává osobní zájmena, když je podmět jasný z kontextu
 - Používáme zájmena pro zdůraznění nebo vyjasnění, když je to potřeba
 - Věnujeme pozornost rozlišení tykání/vykání na základě vztahu mezi mluvčími
+- **Oslovení Boha / Krista / Panny Marie → tykání** (rozhodnutí KRR 2026-09-26: „Bůh bude ty“), i když Marie francouzsky vyká: „Bože, učiň…“, „smiluj se nade mnou“, „prosím Tě“. Zájmena velkým písmenem (Ty, Tě, Ti, Tobě, Tvůj…). Oslovuje-li Marie naráz víc osob („Bože a Svatá Panno, odpusťte mi“), zůstává množné číslo; ustálené biblické a liturgické citáty ponecháváme v zavedeném znění. Viz `TranslationMemory.md` → „Oslovení Boha“.
 
 ## Terminologie a postavy
 

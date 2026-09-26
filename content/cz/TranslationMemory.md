@@ -117,6 +117,13 @@ When translating, refer to this document for established translations of recurri
 - Context: Torn-out pages
 - First appearance: Various
 
+### Oslovení Boha / Krista / Panny Marie (Mon Dieu, faites que… / Vous, mon Dieu…)
+- Translation (Czech): **tykání** — „Bože, učiň…“, „smiluj se nade mnou“, „prosím Tě“, „jen Ty můžeš“, „odpusť mi“, „Panno Maria, oroduj / pros za mě“
+- Ruling (2026-09-26, KRR): „Bůh bude ty.“ Oslovení Boha / Krista / Panny Marie → tykání, i když Marie francouzsky vyká. **Locked.** Replaces the FAB decisions of 2026-08-11 that kept „vy“ in some carnets (034, 037, 060, 074…).
+- Capitalisation: divine pronouns capitalised — Ty, Tě/Tebe, Ti/Tobě, Tebou, Tvůj/Tvá/Tvé… (corpus majority); verbs and „abys/jsi/ses“ stay lower-case.
+- Scope: only direct address to one divine person. When Marie addresses two or more at once („Ježíši Kriste, Svatá Panno, modlete se…“, „Bože a Svatá Panno, odpusťte mi…“), the plural stays plural. Exclamations „Bože!“ / „Bože můj“ spoken to a human or the reader are not address to God — the human addressee keeps vykání. Fixed liturgical and biblical quotations keep their standard Czech form („Tlučte a bude vám otevřeno“).
+- First appearance: 001 (1873-02-06); swept across 000–106 on 2026-09-26 (RED comments „KRR ruling — God addressed with ty“).
+
 ## Register & Crude Language
 
 ### crever (vulgar for "die")
