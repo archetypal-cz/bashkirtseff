@@ -13,6 +13,7 @@ redaction_passes:
 
 %% 067.0001 %%
 %% [#Gavronzi](../../_original/_glossary/places/residences/GAVRONZI.md) [#Pacha](../../_original/_glossary/people/mentioned/PACHA.md) %%
+%% [#Censored_1887](../../_original/_glossary/culture/literature/CENSORED_1887.md) %%
 %% 2026-02-09T22:30:00 RSR: Continuation of the November 1 entry dialogue. Marie is in conversation with Pacha (likely a man she's involved with romantically), pleading for directness. The rapid-fire exchange has a theatrical quality typical of Marie's dialogue transcriptions. Her assertion "Je suis la plus malheureuse des creatures et personne ne me plaint" is a recurring self-dramatization. The dialogue ends with a mutual attraction that neither fully acknowledges. %%
 %% 2026-02-02T12:30:00 LAN: "réticences" - reticence/evasiveness (withholding in conversation) %%
 %% 2026-02-02T12:30:00 LAN: "si je ris, ce sont les nerfs" - if I laugh, it's nerves (nervous laughter, not mockery) %%
@@ -41,6 +42,7 @@ redaction_passes:
 – Děkuji.
 
 %% 067.0007 %%
+%% [#Censored_1887](../../_original/_glossary/culture/literature/CENSORED_1887.md) %%
 %% — Alors je ne vous plais plus... %%
 – Takže se vám už nelíbím...
 %% 2026-09-26T14:33:21 FAB: "– Tedy se vám už nelíbím..." → "– Takže se vám už nelíbím..." — „Alors" v rychlé replice; knižní „Tedy" na začátku věty zní přeloženě. %%
