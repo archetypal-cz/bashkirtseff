@@ -21,6 +21,7 @@ edition_complete: false
 ---
 
 %% 067.0001 %%
+%% [#Censored_1887](../../_original/_glossary/culture/literature/CENSORED_1887.md) %%
 %% — Mais simplement. Pourquoi ces réticences ? Pourquoi ne pas être simple et franc; je ne me moquerai pas, si je ris, ce sont les nerfs et rien d'autre. Je suis la plus malheureuse des créatures et personne ne me plaint. %%
 %% [#Gavronzi](../../_original/_glossary/places/residences/GAVRONZI.md) [#Pacha](../../_original/_glossary/people/mentioned/PACHA.md) %%
 %% 2026-02-02T12:30:00 LAN: "réticences" - reticence/evasiveness (withholding in conversation) %%
@@ -43,6 +44,7 @@ edition_complete: false
 %% — Merci. %%
 
 %% 067.0007 %%
+%% [#Censored_1887](../../_original/_glossary/culture/literature/CENSORED_1887.md) %%
 %% — Alors je ne vous plais plus... %%
 
 %% 067.0008 %%
