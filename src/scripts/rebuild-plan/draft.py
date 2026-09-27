@@ -31,11 +31,13 @@ import re
 import sys
 from pathlib import Path
 
-from common import (RE_YEAR_ONLY, CACHE, TREES, dump_docx, entry_order_key, grams, livre_number, load_carnet, norm,
+from common import (RE_YEAR_ONLY, CACHE, CONTENT, TREES, dump_docx, entry_order_key, grams, livre_number, load_carnet, norm,
                     ocr_flags, para_text, parse_heading, tome_carnets, tome_of)
-from scanlib import figure_candidates, pagemap, pdf_pages_for, printed_pages
+from scanlib import figure_candidates, pagemap, pdf_pages_for, printed_pages, typography
 
-SKIP_STYLES = {'Header or footer', 'Table of contents', 'Picture caption'}
+SKIP_STYLES = {'Header or footer', 'Table of contents'}
+# ABBYY files the text of a pasted facsimile (programme, clipping, card) as picture captions
+CAPTION_STYLE = 'Picture caption'
 TODAY = datetime.date.today().isoformat()
 EMPTY_DAY = '[Aucun texte - date seule mentionnée]'
 
@@ -43,7 +45,7 @@ RE_BRACKET_ONLY = re.compile(r'^\[[^\[\]]*\]$|^\(Ray[ée][^()]*\)$', re.S)
 RE_MARGIN = re.compile(r'^\[(En travers|Dans la marge|En marge|En haut|En bas|Bas de page|Au bas|En tête|Au dos)', re.I)
 RE_RAYE = re.compile(r'Ray[ée]|cancell|noirci|barr[ée]|biff', re.I)
 RE_EDITORIAL = re.compile(r'Marie (est passée|a (noté|écrit|collé|dessiné|laissé|numéroté|arraché))|manuscrit|\bp(?:ages?)?\.?\s*\d|feuillet|Note d[eu]|illisible|déchiré|Il manque|lacune', re.I)
-RE_SALUTATION = re.compile(r'^\s*["«“]?\s*(Monsieur|Madame|Mademoiselle|Mon cher|Ma chère|Cher|Chère|Mon bon|Ma bonne|Mon ami|Ma petite)\b[^.!?]{0,40}(,|$)', re.I)
+RE_SALUTATION = re.compile(r'^\s*(?:[-–—]\s*)?["«“]?\s*(Monsieur|Madame|Mademoiselle|Mon cher|Ma chère|Cher|Chère|Mon bon|Ma bonne|Mon ami|Ma petite)\b[^.!?]{0,40}(,|$)', re.I)
 RE_LETTER_OPEN = re.compile(r'^\s*["«“]\s*(Monsieur|Madame|Mademoiselle|Mon cher|Ma chère|Cher|Chère)\b', re.I)
 RE_CAPS_TITLE = re.compile(r'^[^a-zà-ÿ]{6,}$')
 
@@ -66,6 +68,7 @@ class Tome:
         self.pos = {c['id']: k for k, c in enumerate(self.C)}
         self.pm = pagemap(tome)
         self.figs = figure_candidates(tome)
+        self.typo = typography(tome) or {}
         self.review: dict[str, list[str]] = collections.defaultdict(list)
         self._classify()
         self._segment()
@@ -77,11 +80,13 @@ class Tome:
         prev = None
         for p in self.paras:
             t = p['t'].strip()
-            r = {'i': p['i'], 't': t, 's': p['s'], 'pic': p.get('pic', False)}
+            r = {'i': p['i'], 't': t, 's': p['s'], 'pic': p.get('pic', False), 'caption': p['s'] == CAPTION_STYLE}
             if not t:
                 r['cls'] = 'empty'
-            elif p['s'] in SKIP_STYLES or re.fullmatch(r'[\d\s\-–—.*]+', t) or RE_YEAR_ONLY.match(t):
+            elif p['s'] in SKIP_STYLES or (re.fullmatch(r'[\d\s\-–—.*]+', t) and p['s'] != CAPTION_STYLE) or RE_YEAR_ONLY.match(t):
                 r['cls'] = 'furniture'
+            elif p['s'] == CAPTION_STYLE:
+                r['cls'] = 'text'
             elif livre_number(t) is not None:
                 r['cls'] = 'livre'
                 r['livre'] = f'{livre_number(t):03d}'
@@ -153,7 +158,7 @@ class Tome:
             if r['cls'] != 'text':
                 continue
             text_rows.append({'i': r['i'], 'src': r['i'], 't': r['t'], 's': r['s'], 'head': head, 'n': norm(r['t']),
-                              'best': None, 'sc': 0})
+                              'best': None, 'sc': 0, 'caption': r['caption']})
         # pass 1: long paragraphs, gram containment
         for r in text_rows:
             g = grams(r['n'])
@@ -237,6 +242,25 @@ def guess_kind(text: str) -> tuple[str | None, str]:
         return 'other', 'bracketed note of unknown kind'
     if RE_SALUTATION.match(t):
         return 'letter', 'opens with a salutation'
+    return None, ''
+
+
+def typo_kind(tome: 'Tome', rows: list[int], text: str) -> tuple[str | None, str]:
+    """(kind, kind_guess_reason) from how the printed edition sets these docx paragraphs."""
+    rows = [int(x) for x in rows]
+    if any(tome.R.get(i, {}).get('caption') for i in rows):
+        return 'clipping', 'set as a picture caption in the docx: the text of a pasted facsimile (programme, clipping, card)'
+    sig = [tome.typo.get(i, {}) for i in rows]
+    pic = [s['in_picture'] for s in sig if 'in_picture' in s]
+    if pic and len(pic) * 2 >= len(rows):
+        return 'clipping', f"inside a picture region of the scan (printed p.{pic[0].get('printed_page') or '?'}, PDF p.{pic[0]['page']}): a facsimile of pasted printed matter"
+    ins = [s['inset'] for s in sig if 'inset' in s]
+    if ins:
+        x = ins[0]
+        where = f"set in from both margins on printed p.{x.get('printed_page') or '?'} (PDF p.{x['page']}; left {x['left']} pt, right {x['right']} pt, {x['lines']} lines)"
+        if RE_SALUTATION.match(text):
+            return 'letter', where + ' and opens with a salutation: a copied letter'
+        return 'clipping', where + ': quoted material — a clipping, a letter or a programme; decide which'
     return None, ''
 
 
@@ -395,7 +419,7 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
             run = run[:1]
         for x in run:
             letter_of[x] = n0
-        rv['kinds'].append(f"old {run[0]}–{run[-1][4:]} ({c['file']}): a copied letter («{textl[0][:40]}») — kind letter, French quoted with set_french; give it a source")
+        rv['kinds'].append(f"old {run[0]}–{run[-1][4:]} ({c['file']}) → **letter**, French quoted with set_french; give it a source. kind_guess_reason: opens with a quoted salutation «{textl[0][:40]}» and runs to the closing quote")
 
     # --- heading_to_next: clusters that end with the next day's heading
     h2n = set()
@@ -416,7 +440,9 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
                 prev = g['text']
                 pl = prev.split('\n')[-1].rstrip('*').rstrip()
                 join = None
-                if not re.search(r'[A-Za-zÀ-ÿ]', t):
+                if r.get('caption') and g.get('caption'):
+                    join = '\n'  # one pasted facsimile: keep its lines together
+                elif not re.search(r'[A-Za-zÀ-ÿ]', t):
                     join = '\n'
                 elif re.match(r'^[a-zà-ÿ]', t) or pl.endswith('-') or (pl.startswith('[') and pl.count('[') > pl.count(']')):
                     join = ' '
@@ -426,7 +452,7 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
                     g['text'] = prev + join + t
                     g['last'] = r['src']
                     continue
-        groups.append({'first': r['i'], 'last': r['src'], 'src': r['src'], 'text': t, 's': r['s']})
+        groups.append({'first': r['i'], 'last': r['src'], 'src': r['src'], 'text': t, 's': r['s'], 'caption': r.get('caption')})
 
     def rsr(g) -> str:
         a_, b_ = int(g['first']), int(g['last'])
@@ -451,6 +477,10 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
             continue
         dom = doms[carnet]
         kind, why = guess_kind(g['text'])
+        grow = [r['src'] for r in newrows if g['first'] <= r['i'] <= g['last']]
+        tk, twhy = typo_kind(tome, grow, g['text'])
+        if tk and (not kind or kind == 'letter'):
+            kind, why = tk, twhy
         if not kind and dom and g['s'] != dom and len(g['text']) > 150:
             kind, why = 'clipping', f"set in style «{g['s']}», not the diary's «{dom}»"
         prev_row = tome.R.get(int(g['first']) - 1)
@@ -460,8 +490,8 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
         para = {'new': nw}
         if kind:
             nw['kind'] = kind
-            para['_why'] = why
-            rv['kinds'].append(f"new ¶{int(g['first'])}: kind {kind} ({why}) — «{g['text'][:60]}»")
+            para['_kind_guess_reason'] = why
+            rv['kinds'].append(f"new ¶{int(g['first'])} → **{kind}**. kind_guess_reason: {why}. «{g['text'][:60]}»")
         fl = ocr_flags(g['text'])
         if fl:
             rv['ocr'].append(f"new ¶{int(g['first'])}: {', '.join(fl)} — «{g['text'][:80]}»")
@@ -479,15 +509,18 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
         if k in h2n:
             para['heading_to_next'] = True
         kind, why = guess_kind('\n'.join(l for l in c['vis'] if not l.startswith('#')))
+        tk, twhy = typo_kind(tome, bycl.get(k, []), '\n'.join(c['vis']))
+        if tk and k not in letter_of and not kind:
+            rv['kinds'].append(f"old {k} → candidate **{tk}** (not set). kind_guess_reason: {twhy}. «{' '.join(c['vis'])[:60]}»")
         if k in letter_of:
-            kind, why = 'letter', 'part of a copied letter (see Kind guesses)'
+            kind, why = 'letter', 'part of a copied letter: opens with a quoted salutation (see the letter entry above)'
             base = setf.get(k, '\n'.join(l for l in c['vis'] if not l.startswith('#')))
             para['set_french'] = '\n'.join(l if l.startswith('> ') else '> ' + l for l in base.split('\n'))
         elif kind:
-            rv['kinds'].append(f"old {k}: kind {kind} ({why}) — «{' '.join(c['vis'])[:60]}»")
+            rv['kinds'].append(f"old {k} → **{kind}**. kind_guess_reason: {why}. «{' '.join(c['vis'])[:60]}»")
         if kind:
             para['kind'] = kind
-            para['_why'] = why
+            para['_kind_guess_reason'] = why
         items.append((kk, carnet, para, None))
         if carnet != k[:3]:
             rv['cross'].append(f"{k} ({c['file']}) sits in the docx under Livre {carnet} (¶{int(kk)}) — moved to carnet {carnet}")
@@ -622,14 +655,21 @@ def review_md(tome: Tome, plans: dict, carnets: list[str]) -> str:
                  f"{sum(len(x['new']['french']) for x in new):,} | {sum(1 for x in ps if 'set_french' in x)} | {sum(1 for x in ps if x.get('heading_to_next'))} | "
                  f"{', '.join(f'{k}×{v}' for k, v in kinds.items()) or '—'} |")
     L.append('')
+    # things rebuild-carnet will refuse, whatever the plan says
+    for c in carnets:
+        for f in sorted((CONTENT / '_original' / c).glob('*.md')):
+            n = len(re.findall(r'^\[//\]: # \(\s*\d{2,3}\.\d+\s*\)\s*$', f.read_text(encoding='utf-8'), re.M))
+            if n:
+                rv['blockers'].append(f"_original/{c}/{f.name}: {n} legacy `[//]: # (NN.NNNN)` ID line(s) — migrate them to `%% CCC.NNNN %%` first; the draft ignores those paragraphs")
     sections = [
+        ('blockers', 'Blockers', 'Fix these before the plan can be applied.'),
         ('cross', 'Cross-carnet placements', 'The Livre heading in the docx disagrees with the carnet `_original` files these paragraphs in. Run the plans together: `just rebuild-carnets plan-A.json plan-B.json`.'),
         ('segments', 'Carnet boundaries', ''),
         ('splits', 'Clusters that span several days', 'One old paragraph matches docx text under more than one date line. The draft keeps it at its first line. Split it with `set_french` plus a `new` paragraph if the rest belongs to another day.'),
         ('completions', 'Completions (`set_french` proposed)', 'The old text is a strict part of one docx paragraph. The draft replaces it with the docx text: check the OCR.'),
         ('nodocx', 'Old paragraphs not found in the docx', 'Placed after their predecessor. Check them against the printed page.'),
         ('alignment', 'Uncertain alignments', ''),
-        ('kinds', 'Kind guesses', 'Guessed from markers only: brackets, salutations, a different docx style, a capitals title. Letters and clippings need `source`, and clippings a newspaper tag.'),
+        ('kinds', 'Kind guesses', 'Each line gives the kind the draft set (or only suggests: «candidate … (not set)») and its `kind_guess_reason` — the same text as `_kind_guess_reason` on the plan paragraph. Signals: brackets and salutations in the text; a docx style other than the diary\'s or a picture caption; in the scan, text set in from both margins (quoted letters, clippings) or lying inside a picture region (a pasted facsimile). Letters and clippings need `source`, clippings a newspaper tag.'),
         ('cover', 'Cover entries', ''),
         ('headings', 'Date lines', ''),
         ('empty_days', 'Empty days', ''),

@@ -69,7 +69,18 @@ for 068:
    (`[En travers…]`/`[En marge…]` margin, `[Rayé…]` rayé, notes about the
    manuscript editorial, a quoted salutation opening a copied letter — the
    letter's clusters get `kind: letter` and `> `-quoted French — text set in a
-   different docx style or under a capitals title as clipping), cross-carnet
+   different docx style or under a capitals title as clipping), and from the
+   **typography of the printed edition** when the scan exists
+   (`scanlib.typography`): the scan's text lines are attributed to docx
+   paragraphs by aligning the two word streams, and a paragraph whose wrapped
+   lines are set in from *both* margins (13–40 pt; quoted letters and clippings
+   sit ~20 pt in) is quoted material, one whose lines lie inside an ABBYY
+   picture region is a pasted facsimile (programme, race card, clipping), and
+   docx `Picture caption` paragraphs are the text of such facsimiles (they are
+   no longer discarded as furniture). New paragraphs get the kind; old ones
+   are only listed as candidates. Every guess carries a `kind_guess_reason`
+   (`_kind_guess_reason` on the plan paragraph, ignored by the tool, and the
+   same text in REVIEW.md), cross-carnet
    placement when the Livre boundary disagrees with `_original` (the partner
    carnet's plan is emitted too), `redirect_from` for old range files whose
    start date survives as an entry.
@@ -85,7 +96,11 @@ final plan, `just rebuild-diff-plan`): the same 75 entries, 651 vs 650 old
 paragraphs placed (the planner also dropped the empty 068.0271), old
 paragraphs in the same order except 2, 642 of ~655 new texts identical
 (15,694 of 15,800 new words shared), the 16 letter paragraphs and the 2
-completions found. What stays manual: splits (0046, 0238), OCR fixes in new
+completions found. With the typography signal the two *Le Sport*
+clippings (¶4293, ¶4349) are found; the other flags in 068 are the anonymous
+letter ¶4228 and two old letter-quoting paragraphs (0246, 0250, candidates
+only). In tome 10 it finds the concert programme (printed pp.43–45) and the
+race cards (pp.79–80). What stays manual: splits (0046, 0238), OCR fixes in new
 text, «En travers:» labels the extraction dropped, the stanza grouping of
 verse, sources for letters and clippings. The draft passes `rebuild-carnet`
 and, applied in a throwaway worktree, `renumber-check`, `verify-carnet` and

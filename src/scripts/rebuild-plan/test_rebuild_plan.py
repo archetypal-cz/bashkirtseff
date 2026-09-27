@@ -5,7 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from common import entry_order_key, grams, livre_number, norm, ocr_flags, para_text, parse_heading, visible_lines  # noqa: E402
-from draft import guess_kind  # noqa: E402
+from draft import guess_kind, typo_kind  # noqa: E402
 
 
 def test_headings():
@@ -53,6 +53,19 @@ def test_kinds():
     assert guess_kind('"Monsieur,')[0] == 'letter'
     assert guess_kind('[Elliminez.]')[0] == 'other'
     assert guess_kind('Il pleut.')[0] is None
+
+
+def test_typography_kinds():
+    class FakeTome:
+        R = {1: {'caption': False}, 2: {'caption': True}, 3: {'caption': False}, 4: {'caption': False}}
+        typo = {1: {'inset': {'page': 285, 'printed_page': 281, 'left': 19, 'right': 21, 'lines': 5}},
+                3: {'in_picture': {'page': 80, 'printed_page': 79, 'frac': 1.0}}}
+    k, why = typo_kind(FakeTome, [1], '«L’équipage à sensation a été celui de deux petites dames»')
+    assert k == 'clipping' and 'both margins on printed p.281' in why
+    assert typo_kind(FakeTome, [1], '"Monsieur,\nJe vous écris')[0] == 'letter'
+    assert typo_kind(FakeTome, [2], 'PROGRAMMA')[1].startswith('set as a picture caption')
+    assert 'picture region' in typo_kind(FakeTome, [3], 'Corsa')[1]
+    assert typo_kind(FakeTome, [4], 'Il pleut.') == (None, '')
 
 
 if __name__ == '__main__':
