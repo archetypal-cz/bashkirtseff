@@ -23,7 +23,7 @@ His report on the Nice races in Le Sport, read by Marie on 27 January 1877, desc
 - 1877-01-27, 1877-01-30 (carnet 068)
 
 ## Related
-- [LE_SPORT](../../places/theaters/LE_SPORT.md)
+- [LE_SPORT](../../culture/newspapers/LE_SPORT.md)
 - [VILLEMESSANT](../mentioned/VILLEMESSANT.md)
 - [MALAUSSENA](../mentioned/MALAUSSENA.md)
 

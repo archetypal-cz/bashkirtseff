@@ -23,6 +23,8 @@ last_updated: 2026-05-24
 
 **Relationship**: Marie's PATERNAL aunt -- sister of Marie's father (Papa/Constantin Bashkirtseff). Daughter of the General (Paul Grigorievitch Bashkirtseff).
 
+**Sources disagree**: Marie calls her «la sœur de mon père» (068.0117, 18 December 1876), and her father's «sœurs, Mmes Tutcheff» (011, 25 October 1873) and «son frère» (065, 2 September 1876) point the same way. Kernberger (2013, glossary) calls her Marie's maternal aunt. This entry follows Marie.
+
 **Married name**: Mme Tutcheff, married to M. Tutcheff (described by Marie as "un excellent bonhomme gros comme un tonneau" -- an excellent fellow fat as a barrel).
 
 **NOT to be confused with**: "Ma tante" in the early diary, who is Nadine Romanoff, nee Babanine -- Marie's MATERNAL aunt. See [MA_TANTE](../family/MA_TANTE.md).

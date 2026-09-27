@@ -26,6 +26,6 @@ Angelini is one of Marie's teasing correspondents: on 1 January 1877 she sends h
 
 ## Related
 - [RANGONI](RANGONI.md)
-- [VEGLIONE](VEGLIONE.md)
+- [VEGLIONE](../../culture/social_customs/VEGLIONE.md)
 
 %% 2026-09-27T22:18:57 RSR: Created during RSR research of the restored carnet 068 paragraphs (2026-09-27 rebuild). %%
