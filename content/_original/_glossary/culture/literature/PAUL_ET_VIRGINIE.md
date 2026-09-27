@@ -6,7 +6,7 @@ aliases:
 type: Culture
 category: culture/literature
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-09-27
 ---
 # Paul et Virginie
 
@@ -28,3 +28,8 @@ Marie is profoundly moved by this work, weeping repeatedly when reading it or he
 
 **In Marie's life:**
 When she first met Paul de Cassagnac, she ordered stationery from Duchod featuring Paul and Virginie under their leaf. Duchod mistakenly drew Virginie drowned - which Marie later saw as prophetic of her failed relationship with Cassagnac.
+
+## Massé's opera (1876)
+Victor Massé's three-act opera *Paul et Virginie* (libretto by Jules Barbier and Michel Carré) had its premiere in Paris on 15 November 1876 (BnF data, "Victor Massé, Paul et Virginie"; Wikipedia, "Paul et Virginie"). On 18 December 1876, in Nice, Marie quotes from memory the song she calls «cette chanson de vieux nègre dans Paul et Virginie», with the refrain «L'oiseau s'envole / Là-bas, là-bas / Et ne revient pas», and comments: «Je n'ai pas de maison, moi ! Je n'ai pas de nid» (068.0118-0120). On 22 January 1877 she throws into the sea the dining-room clock, a bronze of «un Paul sans Virginie, pêchant à la ligne» (068.0438).
+
+%% 2026-09-27T22:18:57 RSR: Added Massé's 1876 opera and the carnet 068 references (18 Dec 1876, 22 Jan 1877). %%
