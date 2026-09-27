@@ -315,6 +315,32 @@ rebuild-carnet carnet plan *FLAGS:
 rebuild-carnets +ARGS:
     npx tsx src/scripts/rebuild-carnet.ts --multi {{ARGS}}
 
+# Draft rebuild plans + REVIEW.md from the tome docx (and scan, when content/_raw/scans/TomeN.pdf exists): entries per manuscript date, moved/new paragraphs, kinds, completions, cross-carnet moves. Output: .cache/rebuild-drafts/<carnets>/ (--out DIR to change). Method: docs/REBUILD_CARNET.md "Drafting a plan"
+rebuild-draft-plan +ARGS:
+    uv run --quiet --with python-docx --with pymupdf --with numpy python src/scripts/rebuild-plan/draft.py {{ARGS}}
+
+# Unit tests for the rebuild-plan drafting helpers
+test-rebuild-plan:
+    python3 src/scripts/rebuild-plan/test_rebuild_plan.py
+
+# Compare two rebuild plans for one carnet (e.g. a draft against the plan finally applied)
+rebuild-diff-plan A B:
+    python3 src/scripts/rebuild-plan/diffplan.py {{A}} {{B}}
+
+# Source completeness: every tome docx paragraph vs content/_original → .claude/reports/source-completeness-<date>.md; with carnets, also print their gap rows
+source-completeness *CARNETS:
+    uv run --quiet --with python-docx python src/scripts/completeness/run.py {{CARNETS}}
+
+# Tome scan helpers (content/_raw/scans/TomeN.pdf, gitignored): page→docx map with printed pages, figure candidates, keyword sweep, survey
+scan-pagemap TOME *OUT:
+    uv run --quiet --with python-docx --with pymupdf python src/scripts/scans/pagemap.py {{TOME}} {{OUT}}
+scan-figures TOME:
+    uv run --quiet --with python-docx --with pymupdf --with numpy python src/scripts/scans/figures.py {{TOME}}
+scan-figure-keywords:
+    uv run --quiet --with pymupdf python src/scripts/scans/figure_keywords.py
+scan-survey:
+    uv run --quiet --with pymupdf python src/scripts/scans/survey.py
+
 # Print the carnet's current layout as a rebuild plan (the template to edit): just rebuild-carnet-plan 068 > plan.json
 rebuild-carnet-plan carnet:
     @npx tsx src/scripts/rebuild-carnet.ts --identity-plan {{carnet}}

@@ -58,3 +58,9 @@ raw_books_work/
 
 # Experiment results (large, generated)
 src/scripts/experiments/results/
+
+# Manuscript tome scans (ABBYY PDFs, ~16-25 MB each; source: arrdata backups/OneDrive/bashkirtseff)
+content/_raw/scans/
+
+# Tool caches and drafts (rebuild-plan docx dumps, scan maps, draft plans, source-completeness work files)
+/.cache/

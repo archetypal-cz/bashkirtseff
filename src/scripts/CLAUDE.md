@@ -42,6 +42,9 @@ scripts/
 ├── round-trip-test.ts               # Parse-render round-trip testing
 ├── rebuild-carnet.ts                # Rebuild + renumber a carnet from a plan (docs/REBUILD_CARNET.md)
 ├── lib/rebuild-carnet-core.ts       # …its logic; lib/rebuild-carnet.test.ts = fixture tests
+├── rebuild-plan/                    # Draft rebuild plans + REVIEW.md from the tome docx/scans (just rebuild-draft-plan)
+├── completeness/                    # Tome docx vs _original completeness report (just source-completeness)
+├── scans/                           # Tome scan helpers: page map, figure candidates (just scan-*)
 ├── debug-roundtrip.ts               # Debug round-trip issues
 │
 ├── epub_kernberger.py               # Kernberger EPUB analysis

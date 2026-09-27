@@ -36,6 +36,66 @@ The identity plan is a zero diff on 89 of 106 carnets (sweep of 2026-09-27;
 082 and 101 now also renumber, because a bare-date file and its `-evening`
 sibling were numbered in the other order — see Entry order).
 
+## Drafting a plan
+
+`just rebuild-draft-plan CCC [CCC…]` drafts the plans and a `REVIEW.md`
+(default output `.cache/rebuild-drafts/<carnets>/`, gitignored; `--out DIR`).
+Code: `src/scripts/rebuild-plan/` (`draft.py`, `common.py`, `scanlib.py`,
+`diffplan.py`; `just test-rebuild-plan`). It automates the method used by hand
+for 068:
+
+1. **Segment** the tome docx (`content/_raw/tomeNN.docx`, python-docx
+   paragraph index = "docx ¶") by `Livre NN` headings and French date lines
+   (weekday optional, OCR-split digits such as «1 3 janvier» and «1 877»
+   repaired, Julian second dates kept in the heading). The short lines around a
+   `Livre` heading become the carnet's **cover entry** (`kind: cover`). A Livre
+   number that occurs twice leaves the stretch between the two to `_original`.
+2. **Align** docx paragraphs with `_original` clusters: word-4-gram
+   containment for long paragraphs (a docx paragraph that holds a whole cluster
+   and more marks a cut-short cluster), then a windowed fuzzy match for short
+   ones; a short match under a day where the cluster has no long match is
+   rejected; a cluster matched far from its main place (a repeated sentence)
+   keeps its main place.
+3. **Place**: each old cluster goes to the entry of its first matched docx
+   paragraph (unmatched ones follow their predecessor; a heading-only cluster
+   goes to its date); unmatched docx text becomes `new` paragraphs, one per
+   manuscript paragraph, OCR line breaks rejoined, verse lines kept, italic runs
+   as `*…*`, each with an RSR note citing docx ¶ and — when
+   `content/_raw/scans/TomeN.pdf` exists — «Mon Journal t.N p.X» from the
+   page map. Days with a date line and no text get «[Aucun texte - date seule
+   mentionnée]». Empty placeholder clusters are dropped.
+4. **Guess**: `set_french` completions for clusters cut short, `heading_to_next`
+   for clusters ending with the next day's heading, kinds from markers
+   (`[En travers…]`/`[En marge…]` margin, `[Rayé…]` rayé, notes about the
+   manuscript editorial, a quoted salutation opening a copied letter — the
+   letter's clusters get `kind: letter` and `> `-quoted French — text set in a
+   different docx style or under a capitals title as clipping), cross-carnet
+   placement when the Livre boundary disagrees with `_original` (the partner
+   carnet's plan is emitted too), `redirect_from` for old range files whose
+   start date survives as an entry.
+5. **REVIEW.md** lists everything that needs judgement: cross-carnet moves,
+   clusters spanning days (splits), completions, old text not found in the
+   docx, uncertain alignments, kind guesses, cover lines, date-line
+   inferences, empty days, OCR oddities, and drawings / figure candidates (docx
+   pictures, empty picture slots, and pages where the scan has ink outside the
+   text layer).
+
+Validation on 068 (draft from the pre-rebuild state against planner-068's
+final plan, `just rebuild-diff-plan`): the same 75 entries, 651 vs 650 old
+paragraphs placed (the planner also dropped the empty 068.0271), old
+paragraphs in the same order except 2, 642 of ~655 new texts identical
+(15,694 of 15,800 new words shared), the 16 letter paragraphs and the 2
+completions found. What stays manual: splits (0046, 0238), OCR fixes in new
+text, «En travers:» labels the extraction dropped, the stanza grouping of
+verse, sources for letters and clippings. The draft passes `rebuild-carnet`
+and, applied in a throwaway worktree, `renumber-check`, `verify-carnet` and
+`splicescan` for all five trees.
+
+Related: `just source-completeness [CCC…]` (every tome paragraph against
+`_original`, report in `.claude/reports/`, code `src/scripts/completeness/`),
+`just scan-pagemap N`, `just scan-figures N`, `just scan-figure-keywords`,
+`just scan-survey` (`src/scripts/scans/`).
+
 ## Multi-carnet runs
 
 When paragraphs sit in the wrong carnet (a Livre boundary misplaced in
@@ -102,6 +162,7 @@ The tool refuses carnets with duplicate IDs in any tree or legacy
         { "old": "CCC.0261" },
         { "old": "CCC.0262", "set_french": "Only the first half of the old text." },
         { "old": "CCC.0263", "kind": "letter", "source": "Lettre de Multedo, 22 juillet 1876" },
+        { "old": "CCC.0264", "heading_to_next": true },
         { "new": {
             "kind": "clipping", "source": "Le Figaro, 19 janvier 1877",
             "french": "Hier soir, à l'Opéra…\nSecond line of the cutting.",
@@ -170,6 +231,13 @@ that does not move is written back byte for byte.
   A partial tree (one without every source entry) only gets the entries it
   already has paragraphs for.
 
+- **`heading_to_next`** (on an `old` paragraph whose French ends with a date
+  heading — an extraction artefact that glued the next day's heading onto the
+  previous paragraph): the trailing heading moves to the start of the next
+  paragraph of the plan, in every tree — in translations the translated
+  heading together with its embedded French. Validation refuses the flag on a
+  paragraph that does not end with a heading; a tree whose next paragraph
+  already opens with a heading keeps its own where it is (warning).
 - **`redirect_from`** on an entry makes those old entry files' URLs (and
   links to them) point to this entry instead of the entry that received their
   first paragraph.
