@@ -48,7 +48,7 @@ Constantin is absent from the Nice household. Marie mentions him with marked for
 - At Poltava and Gavronzi she calls him "Papa" and plays up to him: "Vous serez mon frère aîné et je vous nommerai Constantin" (065.0179). Prince Michel Eristoff, stepson of his sister Nathalie, "mange l'argent à papa" (065.0064).
 - In November 1876 Marie and her father travel to Paris together (067.0122, "Papa et maman"), where she introduces him to Cassagnac. They go on to Rome at Christmas 1876, but he leaves before New Year without improving Marie's social standing.
 - In December 1876 he makes a provocative visit to Nice (067.0291 "la carte de mon père … voici son défi"), and maman confronts him at Monaco with his mistress and Mme Tutcheff (067.0316).
-- "M. Constantin Bashkirtseff a épousé la plus belle et la plus vertueuse des femmes… Il a rendu cette femme parfaitement malheureuse" (068.0240).
+- "M. Constantin Bashkirtseff a épousé la plus belle et la plus vertueuse des femmes… Il a rendu cette femme parfaitement malheureuse" (068.0367).
 
 ## Later life and death
 
