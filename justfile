@@ -307,6 +307,22 @@ clean-ts:
 scaffold carnet *FLAGS:
     npx tsx src/scripts/scaffold-translation.ts {{carnet}} {{FLAGS}}
 
+# Rebuild + renumber a carnet from a PLAN json (paragraphs into their correct date files, missing French inserted, CCC.0001..N in reading order, every reference rewritten). Dry run unless --write; --emit DIR writes the would-be files. Spec: docs/REBUILD_CARNET.md
+rebuild-carnet carnet plan *FLAGS:
+    npx tsx src/scripts/rebuild-carnet.ts {{carnet}} {{plan}} {{FLAGS}}
+
+# Print the carnet's current layout as a rebuild plan (the template to edit): just rebuild-carnet-plan 068 > plan.json
+rebuild-carnet-plan carnet:
+    @npx tsx src/scripts/rebuild-carnet.ts --identity-plan {{carnet}}
+
+# After a rebuild: IDs 0001..N contiguous in file order, every tree aligned with _original, no stale references. Exits 1 on failure.
+renumber-check carnet:
+    npx tsx src/scripts/rebuild-carnet.ts --check {{carnet}}
+
+# Fixture tests for rebuild-carnet
+test-rebuild-carnet:
+    npx tsx --test src/scripts/lib/rebuild-carnet.test.ts
+
 # Run parser/renderer round-trip test (validates parse→render fidelity)
 round-trip-test *ARGS:
     npx tsx src/scripts/round-trip-test.ts {{ARGS}}
@@ -843,6 +859,9 @@ help:
     @echo "  just check-footnote-glue --lang cz,uk --carnet 092     # Prose swallowed into footnote-definition lines; exits 1 on any candidate"
     @echo "  just backfill-fr-frontmatter --carnet 067 --apply      # Copy fr frontmatter from _original + derive edition_complete (dry run by default)"
     @echo "  just check-links-repo     # Repo-wide broken-link scan, case/anchor/title aware; --selftest builds a fixture tree"
+    @echo "  just rebuild-carnet 068 plan.json [--write]  # Rebuild + renumber a carnet from a plan (dry run default; docs/REBUILD_CARNET.md)"
+    @echo "  just rebuild-carnet-plan 068 > plan.json     # Current layout as a plan template"
+    @echo "  just renumber-check 068   # Post-rebuild verifier (contiguous IDs, trees aligned, no stale refs)"
     @echo "  just search 'term'        # Search in source files (with links)"
     @echo "  just search-lang 'term' cz  # Search in a language (with links)"
     @echo ""

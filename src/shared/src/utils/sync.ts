@@ -489,11 +489,29 @@ export class EntrySync {
       syncedPara.languages = [...origPara.languages];
     }
 
-    // Sort paragraphs by ID
+    // Order paragraphs as the source orders them, not by number: after a
+    // carnet rebuild the numbers follow reading order again, but a file may
+    // still hold IDs out of numeric order and the source order is what counts.
+    // A translation-only paragraph stays right after the one it followed.
+    const sourceIndex = new Map(original.paragraphs.map((p, i) => [p.id, i]));
+    const sortKey = new Map<Paragraph, number>();
+    let lastKey = -1;
+    let offset = 0;
+    for (const para of synced.paragraphs) {
+      const idx = sourceIndex.get(para.id);
+      if (idx !== undefined) {
+        lastKey = idx;
+        offset = 0;
+      } else {
+        offset += 1e-6;
+      }
+      sortKey.set(para, idx ?? lastKey + offset);
+    }
     synced.paragraphs.sort((a, b) => {
-      if (a.isHeader && a.id.startsWith('header_')) return -1;
-      if (b.isHeader && b.id.startsWith('header_')) return 1;
-      return a.paraNum - b.paraNum;
+      const aHeader = a.isHeader && a.id.startsWith('header_');
+      const bHeader = b.isHeader && b.id.startsWith('header_');
+      if (aHeader !== bHeader) return aHeader ? -1 : 1;
+      return sortKey.get(a)! - sortKey.get(b)!;
     });
 
     // Sync footnotes (definitions and references) — see planFootnoteSync for

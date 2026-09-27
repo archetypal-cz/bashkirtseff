@@ -77,6 +77,12 @@ Format: `%% XXX.YYYY %%`
 
 **Critical**: IDs are sequential across the ENTIRE carnet, never resetting between entries.
 
+## Carnet rebuild / renumbering
+
+IDs are stable: every tree, reader reports, footnote labels, glossary citations and URLs point at them. **No agent renumbers IDs by hand**, and a structural fix that seems to need a shifted ID is reported to the lead.
+
+The one exception (owner decision, 2026-09-27) is a **carnet rebuild** for carnets whose `_original` has missing manuscript paragraphs or paragraphs in the wrong day's file. A plan (JSON) lists every entry file in reading order and the paragraphs it holds; `just rebuild-carnet CCC plan.json --write` moves each paragraph cluster into place in `_original` and every translation tree, inserts the missing French (translations get `TODO`), renumbers the carnet `CCC.0001..N`, resets approval flags of entries whose paragraph set changed, rewrites every reference in the repo, and commits a map under `content/_renumber/` (old→new IDs, SQL for reader reports, URL redirects). `just renumber-check CCC` verifies the result. Spec and plan format: `docs/REBUILD_CARNET.md`.
+
 ## Comment Types
 
 All annotations use: `%% YYYY-MM-DDThh:mm:ss CODE: Text %%`

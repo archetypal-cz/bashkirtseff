@@ -74,7 +74,7 @@ After setting static fields, run `just update-frontmatter {carnet}` to populate 
 ### Paragraph Cluster Structure:
 
 A **paragraph cluster** contains:
-1. **Paragraph ID** (first line): `%% CCC.PPPP %%` — 3-digit carnet number, 4-digit zero-padded paragraph number (e.g. `%% 081.0003 %%`). Some older files still use 2-digit IDs or `[//]: # (NN.XXXX)` markers — preserve the file's existing ID values (don't renumber), but use `%% ... %%` format for anything you add.
+1. **Paragraph ID** (first line): `%% CCC.PPPP %%` — 3-digit carnet number, 4-digit zero-padded paragraph number (e.g. `%% 081.0003 %%`). Some older files still use 2-digit IDs or `[//]: # (NN.XXXX)` markers — preserve the file's existing ID values (never renumber by hand — see Important Notes 2), but use `%% ... %%` format for anything you add.
 2. **Tags line(s)** (optional): `%% [#Tag1](path) [#Tag2](path) %%` — may span several lines
 3. **Annotations** (any number, in order: LAN, RSR, RED, CON): `%% YYYY-MM-DDThh:mm:ss TYPE: note %%`
 4. **Original French text** (one or more lines)
@@ -257,6 +257,6 @@ just verify-carnet {lang} {carnet}     # Full mechanical gate (for translation t
 ## Important Notes
 
 1. **Preserve all content**: Never delete text, annotations, or footnotes - only reorganize them
-2. **Never renumber paragraph IDs**: existing IDs are shared by all five translation trees, reader reports and footnote IDs, so they are preserved exactly. If a structural fix seems to need a new or shifted ID (e.g. a date heading without its own ID), stop and report it to the lead instead of renumbering
+2. **Never renumber paragraph IDs by hand**: existing IDs are shared by all five translation trees, reader reports and footnote IDs, so they are preserved exactly. If a structural fix seems to need a new or shifted ID (e.g. a date heading without its own ID, a missing manuscript paragraph, paragraphs filed under the wrong day), stop and report it to the lead instead of renumbering. The only renumbering is a planned carnet rebuild with `just rebuild-carnet` (owner decision 2026-09-27), which moves and renumbers every tree and rewrites every reference in one run; see `docs/REBUILD_CARNET.md`
 3. **Location determination**: Check previous entries if location unclear
 4. **Carnet number from path**: `/001/` = carnet 001, `/000/` = carnet 000 (preface), etc.

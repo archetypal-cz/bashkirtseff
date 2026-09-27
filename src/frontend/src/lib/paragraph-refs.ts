@@ -7,9 +7,11 @@
  * the paragraph itself (`#p-099-0239`, the anchor scheme used by
  * pages/[lang]/[carnet]/[entry].astro).
  *
- * Paragraph → entry resolution comes from the `para_start` / `para_end`
- * frontmatter of the ORIGINAL entries (the authoritative numbering); the link
- * then points into the requested language's tree, and is emitted only when that
+ * Paragraph → entry resolution reads the `%% CCC.NNNN %%` ID lines of the
+ * ORIGINAL entries (the authoritative numbering) — the IDs actually present,
+ * not the `para_start` / `para_end` frontmatter, which can go stale and would
+ * mis-resolve a file whose IDs are not one contiguous run. The link then
+ * points into the requested language's tree, and is emitted only when that
  * language actually has the entry. Unresolvable references stay plain text.
  */
 
@@ -18,36 +20,16 @@ import path from 'node:path';
 
 const CONTENT_ROOT = path.resolve(process.cwd(), '../../content');
 
-interface ParagraphRange {
-  start: number;
-  end: number;
-  /** Entry id = file basename, e.g. "1883-04-29" (also the URL segment) */
-  entryId: string;
-}
+/** A structural paragraph ID: the marker alone on its line */
+const ID_LINE = /^\s*%%\s*(\d{3})\.(\d{4})\s*%%\s*$/gm;
 
-/** carnet id → paragraph ranges, sorted by start */
-let _rangeCache: Map<string, ParagraphRange[]> | null = null;
+/** carnet id → (paragraph number → entry id = file basename, also the URL segment) */
+let _idCache: Map<string, Map<number, string>> | null = null;
 
-/** Read `para_start` / `para_end` out of the YAML frontmatter block */
-function readParaRange(filePath: string): { start: number; end: number } | null {
-  let head: string;
-  try {
-    head = fs.readFileSync(filePath, 'utf-8').slice(0, 4096);
-  } catch {
-    return null;
-  }
-  const fmEnd = head.indexOf('\n---', 3);
-  const frontmatter = fmEnd > 0 ? head.slice(0, fmEnd) : head;
-  const start = frontmatter.match(/^para_start:\s*(\d+)\s*$/m);
-  const end = frontmatter.match(/^para_end:\s*(\d+)\s*$/m);
-  if (!start || !end) return null;
-  return { start: parseInt(start[1], 10), end: parseInt(end[1], 10) };
-}
+function buildIdIndex(): Map<string, Map<number, string>> {
+  if (_idCache) return _idCache;
 
-function buildRangeIndex(): Map<string, ParagraphRange[]> {
-  if (_rangeCache) return _rangeCache;
-
-  const index = new Map<string, ParagraphRange[]>();
+  const index = new Map<string, Map<number, string>>();
   const originalDir = path.join(CONTENT_ROOT, '_original');
 
   if (fs.existsSync(originalDir)) {
@@ -57,31 +39,33 @@ function buildRangeIndex(): Map<string, ParagraphRange[]> {
 
     for (const carnet of carnets) {
       const carnetDir = path.join(originalDir, carnet);
-      const ranges: ParagraphRange[] = [];
+      const ids = new Map<number, string>();
       // Entry ids are date-based but may carry a suffix (1877-01-07-09, 1878-10-04-evening)
-      for (const file of fs.readdirSync(carnetDir).filter(f => /^\d{4}-\d{2}-\d{2}.*\.md$/.test(f))) {
-        const range = readParaRange(path.join(carnetDir, file));
-        if (!range || range.start <= 0 || range.end < range.start) continue;
-        ranges.push({ ...range, entryId: file.replace(/\.md$/, '') });
+      for (const file of fs.readdirSync(carnetDir).filter(f => /^\d{4}-\d{2}-\d{2}.*\.md$/.test(f)).sort()) {
+        let text: string;
+        try {
+          text = fs.readFileSync(path.join(carnetDir, file), 'utf-8');
+        } catch {
+          continue;
+        }
+        const entryId = file.replace(/\.md$/, '');
+        for (const m of text.matchAll(ID_LINE)) {
+          if (m[1] !== carnet) continue;
+          const para = parseInt(m[2], 10);
+          if (!ids.has(para)) ids.set(para, entryId); // a duplicate keeps its first file
+        }
       }
-      ranges.sort((a, b) => a.start - b.start);
-      index.set(carnet, ranges);
+      index.set(carnet, ids);
     }
   }
 
-  _rangeCache = index;
+  _idCache = index;
   return index;
 }
 
 /** Resolve a paragraph id ("099.0239") to the entry that contains it */
 export function resolveParagraphRef(carnet: string, paragraph: number): string | null {
-  const ranges = buildRangeIndex().get(carnet);
-  if (!ranges) return null;
-  for (const range of ranges) {
-    if (paragraph >= range.start && paragraph <= range.end) return range.entryId;
-    if (range.start > paragraph) break; // sorted: no later range can match
-  }
-  return null;
+  return buildIdIndex().get(carnet)?.get(paragraph) ?? null;
 }
 
 /** Does `language` have this entry? ('original' always does) */

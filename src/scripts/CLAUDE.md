@@ -40,6 +40,8 @@ scripts/
 ├── generate-pwa-icons.ts            # Generate PWA icons
 ├── i18n-diff.ts                     # Compare i18n locale files
 ├── round-trip-test.ts               # Parse-render round-trip testing
+├── rebuild-carnet.ts                # Rebuild + renumber a carnet from a plan (docs/REBUILD_CARNET.md)
+├── lib/rebuild-carnet-core.ts       # …its logic; lib/rebuild-carnet.test.ts = fixture tests
 ├── debug-roundtrip.ts               # Debug round-trip issues
 │
 ├── epub_kernberger.py               # Kernberger EPUB analysis

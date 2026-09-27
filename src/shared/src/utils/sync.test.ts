@@ -6,6 +6,7 @@ import * as path from 'node:path';
 
 import { EntrySync, createDefaultSyncOptions } from './sync.js';
 import { localizeGlossaryPath } from './glossary-path.js';
+import { ParagraphParser } from '../parser/paragraph-parser.js';
 
 const ORIGINAL = [
   '---',
@@ -343,6 +344,30 @@ test('inline glossary links inside a copied note are localised to the translatio
     // A second sync sees the localised note as the same note: nothing to add.
     const again = sync.syncEntryFile(originalPath, translationPath, createDefaultSyncOptions());
     assert.deepEqual(again.changes.filter(c => c.type === 'note_added'), []);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test('syncEntry orders paragraphs as the source does, not by number', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-sync-order-'));
+  try {
+    const originalPath = path.join(dir, 'orig.md');
+    const translationPath = path.join(dir, 'tr.md');
+    fs.writeFileSync(
+      originalPath,
+      ['%% 063.0005 %%', 'Cinq.', '', '%% 063.0004 %%', 'Quatre.', '', '%% 063.0006 %%', 'Six.', ''].join('\n'),
+      'utf-8'
+    );
+    fs.writeFileSync(
+      translationPath,
+      ['%% 063.0005 %%', '%% Cinq. %%', 'Pět.', '', '%% 063.0004 %%', '%% Quatre. %%', 'Čtyři.', ''].join('\n'),
+      'utf-8'
+    );
+    const sync = new EntrySync();
+    const parser = new ParagraphParser();
+    const synced = sync.syncEntry(parser.parseFile(originalPath), parser.parseFile(translationPath), createDefaultSyncOptions());
+    assert.deepEqual(synced.paragraphs.map((p) => p.id), ['063.0005', '063.0004', '063.0006']);
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
   }

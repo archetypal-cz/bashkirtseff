@@ -160,10 +160,9 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
       if (!yearMatch) continue; // section-based entries (000-01) don't have dates
       const year = parseInt(yearMatch[1], 10);
 
-      // Paragraph count
-      const paraStart = (metadata.para_start as number) || 0;
-      const paraEnd = (metadata.para_end as number) || 0;
-      const paraCount = paraEnd > 0 && paraStart > 0 ? paraEnd - paraStart + 1 : 0;
+      // Paragraph count: the ID lines actually present, not para_end - para_start
+      // (stale frontmatter or a file whose IDs are not one contiguous run miscounts)
+      const paraCount = content.match(/^\s*%%\s*\d{3}\.\d{4}\s*%%\s*$/gm)?.length ?? 0;
       totalParagraphs += paraCount;
 
       const location = (metadata.location as string) || undefined;

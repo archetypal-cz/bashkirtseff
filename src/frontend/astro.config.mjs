@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import vue from '@astrojs/vue';
 import sitemap from '@astrojs/sitemap';
 import { execSync } from 'child_process';
+import { readFileSync } from 'fs';
 import AstroPWA from '@vite-pwa/astro';
 
 // https://astro.build/config
@@ -78,6 +79,17 @@ function offlineManifestIntegration() {
   };
 }
 
+// Entry URLs that moved when a carnet was rebuilt and renumbered
+// (src/scripts/rebuild-carnet.ts writes content/_renumber/redirects.json;
+// docs/REBUILD_CARNET.md). Missing or unreadable file = no extra redirects.
+function renumberRedirects() {
+  try {
+    return JSON.parse(readFileSync(new URL('../../content/_renumber/redirects.json', import.meta.url), 'utf-8'));
+  } catch {
+    return {};
+  }
+}
+
 export default defineConfig({
   // Site URL for canonical links, sitemaps, and proper HTTPS handling
   site: 'https://bashkirtseff.org',
@@ -102,6 +114,7 @@ export default defineConfig({
     '/cz/02': '/cz/002/',
     // Redirect bare /glossary/ to /original/glossary/
     '/glossary': '/original/glossary/',
+    ...renumberRedirects(),
   },
 
   build: {

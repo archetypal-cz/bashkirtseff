@@ -15,4 +15,4 @@ model: inherit
 
 ## Output
 
-Restructure the assigned files in place. **Never renumber paragraph IDs**: they are shared by every language tree, reader reports and footnote IDs. If a fix seems to need a new or shifted ID, stop and report it. Validate with the `just` commands listed in the skill (the old `paragraph_parser.py` no longer exists) and report per file: what changed, paragraph-ID count before/after (must be equal), validation result.
+Restructure the assigned files in place. **Never renumber paragraph IDs by hand**: they are shared by every language tree, reader reports and footnote IDs. If a fix seems to need a new or shifted ID, stop and report it; the only renumbering is a planned `just rebuild-carnet` run (docs/REBUILD_CARNET.md). Validate with the `just` commands listed in the skill (the old `paragraph_parser.py` no longer exists) and report per file: what changed, paragraph-ID count before/after (must be equal), validation result.

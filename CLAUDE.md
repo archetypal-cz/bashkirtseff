@@ -99,7 +99,7 @@ The project defines specialized roles in `.claude/skills/*/SKILL.md`:
 | **report-triage**        | `/report-triage`        | Evaluate & implement user bug reports          |
 | **glossary**             | `/glossary`             | Create and maintain glossary entries           |
 | **glossary-tagger**      | `/glossary-tagger`      | Auto-tag entries with glossary references      |
-| **entry-restructurer**   | `/entry-restructurer`   | Standardize entry format (never renumbers IDs) |
+| **entry-restructurer**   | `/entry-restructurer`   | Standardize entry format (never renumbers IDs; only `just rebuild-carnet` does) |
 | **stewardship**          | `/stewardship`          | Social media content                           |
 | **codex-review-loop**    | `/codex-review-loop`    | Codex-driven correctness review of code areas  |
 
@@ -154,6 +154,7 @@ Role codes: RSR (Researcher), LAN (Linguistic), TR (Translator), OPS (Opus Edito
 Format: `%% XXX.YYYY %%` (carnet.paragraph)
 
 - IDs are sequential across the ENTIRE carnet, never resetting
+- IDs are never renumbered by hand; a whole-carnet rebuild (`just rebuild-carnet`, `docs/REBUILD_CARNET.md`) is the only exception
 - Example: Carnet 002 runs from 002.0001 to 002.2453
 
 ### Glossary Tags
