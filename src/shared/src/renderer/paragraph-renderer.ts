@@ -1,6 +1,7 @@
 import type { DiaryEntry, Paragraph, Note, GlossaryLink } from '../models/index.js';
 import { NOTE_ROLES, type NoteRole } from '../constants/roles.js';
 import { translationVersionsToObject } from '../models/paragraph.js';
+import { formatKindMarker } from '../parser/patterns.js';
 
 /**
  * Options for rendering diary entries
@@ -206,6 +207,8 @@ export class ParagraphRenderer {
           if (options.includeParagraphIds) {
             lines.push(this.formatComment(para.id, options.commentStyle));
           }
+          // The kind marker travels with the ID line, whatever the element order
+          if (para.kind) lines.push(formatKindMarker(para.kind, para.kindSource));
           break;
 
         case 'glossary_links':
@@ -372,6 +375,8 @@ export class ParagraphRenderer {
       if (!para.id.startsWith('header_')) {
         lines.push(formatParagraphId(para.id, entry.idStyle));
       }
+      // Kind marker (clipping, letter…) directly under the ID in every tree
+      if (para.kind) lines.push(formatKindMarker(para.kind, para.kindSource));
 
       if (para.isHeader) {
         const headerPrefix = '#'.repeat(para.headerLevel);
@@ -442,6 +447,8 @@ export class ParagraphRenderer {
       if (!para.id.startsWith('header_')) {
         lines.push(formatParagraphId(para.id, entry.idStyle));
       }
+      // Kind marker (clipping, letter…) directly under the ID in every tree
+      if (para.kind) lines.push(formatKindMarker(para.kind, para.kindSource));
 
       if (para.isHeader) {
         const headerPrefix = '#'.repeat(para.headerLevel);

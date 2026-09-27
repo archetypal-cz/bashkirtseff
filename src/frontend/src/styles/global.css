@@ -554,6 +554,109 @@ footer.site-footer {
     background-color: color-mix(in srgb, var(--accent) 14%, transparent);
   }
 
+  /* Paragraph kinds (lib/paragraph-kind.ts): material Marie put in the
+     notebook that is not her running diary text. Colours come from the theme
+     tokens, so light / sepia / dark follow automatically. */
+  .para-kind {
+    margin: 0.25rem 0;
+  }
+
+  .para-kind-label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-family: var(--font-sans);
+    font-size: 0.72em;
+    font-style: normal;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: 1.4;
+    color: var(--text-muted);
+  }
+
+  .para-kind-source {
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 0.01em;
+  }
+
+  /* Newspaper clipping: a pasted slip of newsprint — narrower column, set
+     tighter and justified, ruled like a press column. */
+  .para-kind-clipping {
+    max-width: 36em;
+    margin-inline: auto;
+    padding: 0.9rem 1.2rem 1rem;
+    background: color-mix(in srgb, var(--bg-secondary) 85%, transparent);
+    border-top: 3px double var(--text-muted);
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .para-kind-clipping .para-kind-body {
+    font-family: var(--font-serif);
+    font-size: 0.92em;
+    line-height: 1.6;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  /* Copied letter: indented under a thin ornament rule */
+  .para-kind-letter {
+    padding-left: 1.1rem;
+    border-left: 2px solid color-mix(in srgb, var(--ornament) 60%, transparent);
+  }
+
+  /* Whole struck-out paragraph: still readable, visibly crossed out */
+  .para-kind-raye .para-kind-body {
+    display: block;
+    color: var(--text-secondary);
+    text-decoration: line-through;
+    text-decoration-color: color-mix(in srgb, var(--text-muted) 70%, transparent);
+    text-decoration-thickness: 1px;
+  }
+
+  /* Marginal note: set off to the side, smaller */
+  .para-kind-margin {
+    margin-left: 1.5rem;
+    padding-left: 0.75rem;
+    border-left: 1px dashed var(--border-color);
+    font-size: 0.9em;
+  }
+
+  .para-kind-other {
+    padding-left: 0.75rem;
+    border-left: 1px solid var(--border-color);
+  }
+
+  /* Drawings from the notebook scans (frontmatter `drawings:`) */
+  .entry-drawing {
+    margin: 1.5rem auto;
+    max-width: 32rem;
+    text-align: center;
+  }
+
+  .entry-drawing img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-inline: auto;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  }
+
+  .entry-drawing figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.85em;
+    font-style: italic;
+    color: var(--text-secondary);
+  }
+
+  .entry-drawing-source {
+    display: block;
+    font-style: normal;
+    font-size: 0.9em;
+    color: var(--text-muted);
+  }
+
   /* Untranslated content placeholder (TODO) */
   .untranslated {
     @apply text-muted italic;

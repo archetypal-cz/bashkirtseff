@@ -42,6 +42,12 @@ export interface Paragraph {
   /** Footnote references in this paragraph (e.g., ["1", "01.03.1"]) */
   footnoteRefs: string[];
 
+  // Kind of material (clipping, letter, rayé, margin, other); undefined = diary text
+  /** From the `%% kind: … %%` marker line (see KIND_CONTENT_PATTERN) */
+  kind?: 'clipping' | 'letter' | 'rayé' | 'margin' | 'other';
+  /** The marker's optional source="…" (newspaper and date, letter writer…) */
+  kindSource?: string;
+
   // Header handling
   /** Whether this is a header paragraph */
   isHeader: boolean;

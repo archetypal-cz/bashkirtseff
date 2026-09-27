@@ -18,6 +18,8 @@ import {
   VERSION_CONTENT_PATTERN,
   UNTIMESTAMPED_ROLE_NOTE_PATTERN,
   EMBEDDED_ROLE_NOTE_PATTERN,
+  KIND_CONTENT_PATTERN,
+  parseKindMarker,
 } from './patterns.js';
 import { scanComments } from './comment-scanner.js';
 import { parseFrontmatter, extractDateFromFilename, detectLanguage } from './frontmatter.js';
@@ -57,6 +59,7 @@ type ParsedItem =
  */
 function isAnnotationContent(content: string): boolean {
   return (
+    KIND_CONTENT_PATTERN.test(content) ||
     /^\d{4}-\d{2}-\d{2}/.test(content) ||
     UNTIMESTAMPED_ROLE_NOTE_PATTERN.test(content) ||
     EMBEDDED_ROLE_NOTE_PATTERN.test(content)
@@ -252,6 +255,10 @@ export class ParagraphParser {
       }
 
       if (item.kind === 'comment') {
+        if (KIND_CONTENT_PATTERN.test(item.content)) {
+          idx++;
+          continue;
+        }
         const extracted = this.extractMetadata(item.content);
         if (extracted) {
           if ('timestamp' in extracted) {
@@ -327,6 +334,16 @@ export class ParagraphParser {
       sourceRunEndLine = null;
 
       if (item.kind === 'comment') {
+        // Kind marker (`%% kind: clipping source="…" %%`): paragraph metadata,
+        // never a note, tag or embedded French.
+        const kindMarker = parseKindMarker(item.content);
+        if (kindMarker) {
+          para.kind = kindMarker.kind;
+          if (kindMarker.source) para.kindSource = kindMarker.source;
+          idx++;
+          continue;
+        }
+
         const extracted = this.extractMetadata(item.content);
 
         if (extracted) {

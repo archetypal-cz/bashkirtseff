@@ -249,6 +249,13 @@ Concrete examples per language (false friends, calques, register watchlists, wor
 
 When Marie uses English/Italian/Russian in the French text, follow the code-switch convention of `content/{lang}/CLAUDE.md` exactly (what stays in the running text, what goes into the footnote, whether `==highlight==` is used). The conventions differ by language and one is still awaiting an owner ruling — do not import another language's convention.
 
+**Clippings, letters, struck and marginal paragraphs** (`%% kind: … %%` under the ID; `docs/REBUILD_CARNET.md`, "Paragraph kinds")
+
+- Leave the `%% kind: … %%` line exactly where it is, directly under the ID; never translate or move it (its `source="…"` stays in the original too).
+- `clipping` / `letter`: the French is quoted with `> `; quote every line of your translation with `> ` as well (replace the scaffold `TODO` with `> …` lines). Translate a clipping in the register of 1870s journalism — formal, impersonal, period press formulas — not in Marie's voice; a copied letter keeps its writer's voice and forms of address.
+- `rayé`: a paragraph Marie struck out — translate it in full, plainly (the page draws the strike). Inline `[Rayé: …]` inside a paragraph follows your tree's existing convention.
+- `margin` / `other`: translate as usual.
+
 **Period Vocabulary (from LAN notes)**
 
 Follow LAN guidance for period-appropriate terms. Common traps:

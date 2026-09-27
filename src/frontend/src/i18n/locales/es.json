@@ -113,7 +113,14 @@
     "clickToViewGlossary": "Haz clic para ver en el glosario",
     "filterByTag": "Filtrar las entradas de este cuaderno",
     "showOriginal": "Mostrar el original: {langs}",
-    "showTranslation": "Mostrar la traducción: {lang}"
+    "showTranslation": "Mostrar la traducción: {lang}",
+    "kind": {
+      "clipping": "Recorte de prensa",
+      "letter": "Carta copiada",
+      "raye": "Pasaje tachado",
+      "margin": "Al margen",
+      "other": "Hoja insertada"
+    }
   },
   "footer": {
     "aboutProject": "Acerca de",
@@ -419,7 +426,9 @@
     "wordCount": {
       "one": "{count} palabra",
       "other": "{count} palabras"
-    }
+    },
+    "drawing": "Dibujo del cuaderno",
+    "drawings": "Dibujos del cuaderno"
   },
   "history": {
     "title": "Historial de lectura",

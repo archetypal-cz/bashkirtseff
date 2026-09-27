@@ -20,6 +20,7 @@ import { renderSourceComment } from '../../shared/src/renderer/paragraph-rendere
 import { localizeGlossaryPath } from '../../shared/src/utils/glossary-path.ts';
 import { localizeLinksInText } from '../../shared/src/utils/sync.ts';
 import { TODO_PLACEHOLDER } from '../../shared/src/utils/scaffold.ts';
+import { PARAGRAPH_KINDS, KIND_LINE_PATTERN, formatKindMarker, type ParagraphKind } from '../../shared/src/parser/patterns.ts';
 
 // --- plan types ------------------------------------------------------------
 
@@ -30,6 +31,10 @@ export interface PlanNewParagraph {
   rsr: string;
   /** Optional glossary tag links in _original form: "[#Nice](../_glossary/places/cities/NICE.md)" */
   tags?: string[];
+  /** Optional paragraph kind (docs/REBUILD_CARNET.md, "Paragraph kinds") */
+  kind?: ParagraphKind;
+  /** Optional source of a clipping/letter: newspaper and date, writer… (no double quote) */
+  source?: string;
 }
 
 export interface PlanParagraph {
@@ -37,6 +42,10 @@ export interface PlanParagraph {
   old?: string;
   /** With `old`: replace that paragraph's French text (used to split a paragraph) */
   set_french?: string;
+  /** With `old`: set (or replace) the paragraph's kind marker in every tree */
+  kind?: ParagraphKind;
+  /** With `old` + `kind`: the marker's source */
+  source?: string;
   /** A paragraph that does not exist yet */
   new?: PlanNewParagraph;
 }
@@ -273,6 +282,10 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
           if (typeof p.set_french !== 'string' || !p.set_french.trim() || p.set_french.includes('%%')) err(`${where}: set_french for ${old} must be non-empty text without the comment marker`);
           planParaOfNewId.set(newId, p);
         }
+        if (p.kind !== undefined || p.source !== undefined) {
+          checkKind(p.kind, p.source, `${where} ${old}`, err);
+          planParaOfNewId.set(newId, p);
+        }
       } else {
         const np = p.new!;
         if (typeof np.french !== 'string' || !np.french.trim()) err(`${where}: new paragraph without french text`);
@@ -282,6 +295,7 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
         for (const t of np.tags ?? []) {
           if (!/^\[#[^\]]+\]\(\.\.\/_glossary\/[^)]+\.md\)$/.test(t)) err(`${where}: tag must look like [#Name](../_glossary/…/X.md): ${t}`);
         }
+        if (np.kind !== undefined || np.source !== undefined) checkKind(np.kind, np.source, `${where} new paragraph`, err);
         planParaOfNewId.set(newId, p);
       }
       ids.push(newId);
@@ -316,6 +330,11 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
   const removedFiles = [...original.files.keys()].filter((f) => !planFiles.has(f));
   const addedFiles = [...planFiles].filter((f) => !original.files.has(f));
   return { carnet, idMap, dropped, fileOfNewId, planParaOfNewId, newFileIds, fileMap, removedFiles, addedFiles };
+}
+
+function checkKind(kind: unknown, source: unknown, where: string, err: (m: string) => void): void {
+  if (!PARAGRAPH_KINDS.includes(kind as ParagraphKind)) err(`${where}: kind must be one of ${PARAGRAPH_KINDS.join(', ')} (got ${JSON.stringify(kind)})`);
+  if (source !== undefined && (typeof source !== 'string' || !source.trim() || /["\n]|%%/.test(source))) err(`${where}: source must be one line without double quotes or the comment marker`);
 }
 
 /** A plan that reproduces the current layout (a template for plan authors). */
@@ -591,8 +610,28 @@ function dedupeFootnoteLabels(parts: { origin: string; lines: string[] }[], file
   }
 }
 
-function newOriginalCluster(newId: string, np: PlanNewParagraph, ts: string): string[] {
+/** Glossary tag every clipping carries (plus its newspaper's own tag, from the plan) */
+export const CLIPPING_TAG = '[#Press_clipping](../_glossary/culture/newspapers/PRESS_CLIPPING.md)';
+
+/**
+ * A new paragraph with its kind applied: clippings and letters are block
+ * quotations (`> ` on every line), and a clipping always carries CLIPPING_TAG.
+ */
+function withKind(np: PlanNewParagraph): PlanNewParagraph & { kindLine: string | null } {
+  if (!np.kind) return { ...np, kindLine: null };
+  let french = np.french;
+  if (np.kind === 'clipping' || np.kind === 'letter') {
+    french = french.split('\n').map((l) => (!l.trim() || /^\s*>/.test(l) || HEADING_RE.test(l.trim()) ? l : `> ${l.trim()}`)).join('\n');
+  }
+  const tags = [...(np.tags ?? [])];
+  if (np.kind === 'clipping' && !tags.includes(CLIPPING_TAG)) tags.push(CLIPPING_TAG);
+  return { ...np, french, tags, kindLine: formatKindMarker(np.kind, np.source?.trim()) };
+}
+
+function newOriginalCluster(newId: string, raw: PlanNewParagraph, ts: string): string[] {
+  const np = withKind(raw);
   const out = [`%% ${newId} %%`];
+  if (np.kindLine) out.push(np.kindLine);
   for (const t of np.tags ?? []) out.push(`%% ${t} %%`);
   out.push(`%% ${ts} RSR: ${np.rsr.trim()} %%`);
   out.push(...np.french.split('\n').map((l) => l.trimEnd()).filter((l) => l.trim()));
@@ -600,8 +639,11 @@ function newOriginalCluster(newId: string, np: PlanNewParagraph, ts: string): st
 }
 
 /** A translation cluster for a new paragraph, shaped like `just scaffold` output. */
-function newTranslationCluster(newId: string, np: PlanNewParagraph, ts: string, lang: string, frVisible: boolean): string[] {
-  const out = [`%% ${newId} %%`, ...renderSourceComment(np.french)];
+function newTranslationCluster(newId: string, raw: PlanNewParagraph, ts: string, lang: string, frVisible: boolean): string[] {
+  const np = withKind(raw);
+  const out = [`%% ${newId} %%`];
+  if (np.kindLine) out.push(np.kindLine);
+  out.push(...renderSourceComment(np.french));
   for (const t of np.tags ?? []) {
     const m = t.match(/^\[#([^\]]+)\]\(([^)]+)\)$/)!;
     out.push(`%% [#${m[1]}](${localizeGlossaryPath(m[2], lang)}) %%`);
@@ -714,6 +756,7 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
       }
       let lines = src.map((l) => rewrite(l).text);
       if (pp?.set_french !== undefined) lines = applySetFrench(lines, oldId, newId, pp.set_french, isOrig, original, ts, label, tree.lang, warnings);
+      if (pp?.kind) lines = setKindLine(lines, formatKindMarker(pp.kind, pp.source?.trim()));
       parts.push({ origin: oldFileOfId.get(oldId)!, lines, seq: seqOfId.get(oldId) });
       lastOrigin = oldFileOfId.get(oldId)!;
       carried++;
@@ -923,6 +966,14 @@ function rewriteFrontmatter(fm: string[], entry: PlanEntry, ids: string[], isOri
     if (st >= 0 && lang !== 'fr') fmSet(fm, 'status', 'translation_pending', { anyIndent: true });
   }
   return fm;
+}
+
+/** Put the kind marker directly under the ID line, replacing any marker already in the cluster. */
+function setKindLine(lines: string[], marker: string): string[] {
+  const out = lines.filter((l) => !KIND_LINE_PATTERN.test(l));
+  const at = out.findIndex((l) => ID_LINE_RE.test(l));
+  out.splice(at + 1, 0, marker);
+  return out;
 }
 
 /** Replace a paragraph's French text (splits). In translations: swap the embedded copy and leave an ED note. */

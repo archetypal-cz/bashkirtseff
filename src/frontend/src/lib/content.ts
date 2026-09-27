@@ -34,6 +34,8 @@ import {
 
 import { THEME_SUBCATEGORIES } from './glossary-categories';
 import { renderOriginalHtml } from './original-html';
+import { findKind, parseKindLine, stripQuoteMarkers, wrapKindHtml, type ParagraphKind } from './paragraph-kind';
+import { normalizeDrawings, type EntryDrawing } from './drawings';
 import { applyTypography, typographyLocaleFor } from './typography';
 
 // Re-export shared types for convenience
@@ -62,6 +64,7 @@ export interface DiaryEntry {
   places?: string[];   // Place IDs from frontmatter
   themes?: string[];   // Theme strings from frontmatter
   location?: string;   // Primary location from frontmatter
+  drawings?: EntryDrawing[]; // Frontmatter `drawings:` (scans of Marie's sketches), see lib/drawings.ts
 }
 
 export interface Paragraph {
@@ -73,6 +76,8 @@ export interface Paragraph {
   glossaryTags?: GlossaryTag[]; // Tags from %%[#Name](path)%% comments
   footnoteRefs?: string[]; // Footnote references in this paragraph (e.g., ["1", "2"])
   languages?: string[]; // Languages in original text: ['fr'], ['fr', 'en'], etc.
+  kind?: ParagraphKind; // From `%% kind: … %%`: clipping, letter, rayé, margin, other
+  kindSource?: string;  // The marker's source="…" (newspaper and date, letter writer)
 }
 
 export interface Footnote {
@@ -438,6 +443,10 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
   const places = Array.isArray(frontmatter.places) ? frontmatter.places as string[] : undefined;
   const themes = Array.isArray(frontmatter.themes) ? frontmatter.themes as string[] : undefined;
   const location = typeof frontmatter.location === 'string' ? frontmatter.location : undefined;
+  // Drawings are listed in the _original frontmatter; a translation may carry
+  // its own list (translated captions), otherwise it shows the original's.
+  let drawings = normalizeDrawings(frontmatter.drawings);
+  if (!drawings && !isOriginalLanguage(language)) drawings = getEntry(carnetId, entryId, 'original')?.drawings;
 
   const wordCount = paragraphs.reduce((total, p) => {
     const trimmed = p.text.trim();
@@ -462,6 +471,7 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
     places,
     themes,
     location,
+    drawings,
   };
 }
 
@@ -760,6 +770,7 @@ function parseParagraphs(content: string, language: string, context?: string): P
 
     let currentId: string | null = null;
     let currentOriginal: string | undefined;
+    let currentKind: ReturnType<typeof parseKindLine> = null;
     let currentCzechLines: string[] = [];
 
     let inOriginalBlock = false;
@@ -815,12 +826,14 @@ function parseParagraphs(content: string, language: string, context?: string): P
       }
 
       if (text) {
+        text = stripQuoteMarkers(text);
         const { html, footnoteRefs } = processTextToHtml(text, language);
         const languages = extractLanguages(glossaryTags);
         paragraphs.push({
           id: currentId,
           text,
-          html,
+          html: currentKind ? wrapKindHtml(html, currentKind.kind, currentKind.source, language) : html,
+          ...(currentKind ? { kind: currentKind.kind, kindSource: currentKind.source } : {}),
           originalText: language === 'fr' ? undefined : currentOriginal,
           glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
           footnoteRefs: footnoteRefs.length > 0 ? footnoteRefs : undefined,
@@ -888,7 +901,15 @@ function parseParagraphs(content: string, language: string, context?: string): P
         finalizeCurrentParagraph();
         currentId = idMatch[1];
         currentOriginal = undefined; // Will be set by the next original line
+        currentKind = null;
         currentCzechLines = [];
+        continue;
+      }
+
+      // Kind marker (`%% kind: clipping source="…" %%`): metadata, never French
+      const kindMarker = parseKindLine(trimmed);
+      if (kindMarker) {
+        if (currentId) currentKind = kindMarker;
         continue;
       }
 
@@ -935,7 +956,8 @@ function parseParagraphs(content: string, language: string, context?: string): P
 
       const textLines = rawText.split('\n').filter(l => !isCommentLine(l));
       let text = textLines.join('\n').trim();
-      text = stripCommentMarkers(text);
+      text = stripQuoteMarkers(stripCommentMarkers(text));
+      const kind = findKind(rawText.split('\n'));
 
       if (text) {
         const { html, footnoteRefs } = processTextToHtml(text, language);
@@ -943,7 +965,8 @@ function parseParagraphs(content: string, language: string, context?: string): P
         paragraphs.push({
           id: ids[i].id,
           text,
-          html,
+          html: kind ? wrapKindHtml(html, kind.kind, kind.source, language) : html,
+          ...(kind ? { kind: kind.kind, kindSource: kind.source } : {}),
           glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
           footnoteRefs: footnoteRefs.length > 0 ? footnoteRefs : undefined,
           languages

@@ -113,7 +113,14 @@
     "clickToViewGlossary": "Click to view in glossary",
     "filterByTag": "Filter entries in this carnet",
     "showOriginal": "Show original: {langs}",
-    "showTranslation": "Show translation: {lang}"
+    "showTranslation": "Show translation: {lang}",
+    "kind": {
+      "clipping": "Newspaper clipping",
+      "letter": "Copied letter",
+      "raye": "Struck-out passage",
+      "margin": "In the margin",
+      "other": "Inserted item"
+    }
   },
   "footer": {
     "aboutProject": "About",
@@ -419,7 +426,9 @@
     "wordCount": {
       "one": "{count} word",
       "other": "{count} words"
-    }
+    },
+    "drawing": "Drawing in the notebook",
+    "drawings": "Drawings in the notebook"
   },
   "history": {
     "title": "Reading History",

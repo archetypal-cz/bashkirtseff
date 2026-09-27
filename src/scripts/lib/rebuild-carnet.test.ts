@@ -323,3 +323,50 @@ test('redirects chain and drop sources that are live pages again', () => {
   const out = mergeRedirects({ '/cz/099/x': '/cz/099/b/', '/cz/099/a': '/cz/099/old/' }, m, ['cz']);
   assert.deepEqual(out, { '/cz/099/b': '/cz/099/c/', '/cz/099/x': '/cz/099/c/' });
 });
+
+test('new clipping / old letter: kind marker, blockquote and clipping tag in every tree', () => {
+  const root = makeRepo();
+  try {
+    const plan: Plan = {
+      carnet: '099',
+      entries: [
+        { file: '1880-01-01.md', date: '1880-01-01', paragraphs: [{ old: '099.0001' }, { old: '099.0002', kind: 'letter', source: 'Lettre de Dina' }, { old: '099.0003' }] },
+        {
+          file: '1880-01-02.md',
+          date: '1880-01-02',
+          paragraphs: [
+            { old: '099.0004' },
+            { new: { kind: 'clipping', source: 'Le Figaro, 2 janvier 1880', french: "Hier soir on remarquait\nMlle Bashkirtseff.", rsr: 'Clipping pasted on the page; fixture.docx ¶20.', tags: ['[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)'] } },
+            { old: '099.0005' },
+          ],
+        },
+      ],
+    };
+    const planPath = path.join(root, 'plan.json');
+    fs.writeFileSync(planPath, JSON.stringify(plan));
+    const wr = run(root, '099', planPath, '--write');
+    assert.equal(wr.code, 0, wr.out);
+
+    const o2 = read(root, 'content/_original/099/1880-01-02.md');
+    assert.match(o2, /%% 099\.0005 %%\n%% kind: clipping source="Le Figaro, 2 janvier 1880" %%\n%% \[#Le_Figaro\]\(\.\.\/_glossary\/culture\/newspapers\/LE_FIGARO\.md\) %%\n%% \[#Press_clipping\]\(\.\.\/_glossary\/culture\/newspapers\/PRESS_CLIPPING\.md\) %%\n%% [\d\-T:]+ RSR: [^\n]+%%\n> Hier soir on remarquait\n> Mlle Bashkirtseff\./);
+    const c2 = read(root, 'content/cz/099/1880-01-02.md');
+    assert.match(c2, /%% 099\.0005 %%\n%% kind: clipping source="Le Figaro, 2 janvier 1880" %%\n%% > Hier soir on remarquait %%\n%% > Mlle Bashkirtseff\. %%\n%% \[#Le_Figaro\]\(\.\.\/\.\.\/_original\/_glossary\/culture\/newspapers\/LE_FIGARO\.md\) %%\n%% \[#Press_clipping\]/);
+    assert.match(c2, /RSR: Clipping pasted[^\n]+%%\nTODO\n/);
+
+    // an existing paragraph marked as a letter: marker under the ID everywhere, flags kept
+    const o1 = read(root, 'content/_original/099/1880-01-01.md');
+    assert.match(o1, /%% 099\.0002 %%\n%% kind: letter source="Lettre de Dina" %%\nDeuxième paragraphe\./);
+    const c1 = read(root, 'content/cz/099/1880-01-01.md');
+    assert.match(c1, /%% 099\.0002 %%\n%% kind: letter source="Lettre de Dina" %%\n%% Deuxième paragraphe\. %%/);
+    assert.match(c1, /^conductor_approved: true$/m);
+
+    const bad: Plan = JSON.parse(JSON.stringify(plan));
+    (bad.entries[0].paragraphs[1] as { kind: string }).kind = 'poster';
+    const original = loadTree(path.join(root, 'content'), '_original', '099')!;
+    const issues: Issues = { errors: [], warnings: [] };
+    buildMapping(bad, original, issues);
+    assert.match(issues.errors.join('\n'), /kind must be one of clipping, letter, rayé, margin, other/);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});

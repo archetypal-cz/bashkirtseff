@@ -77,6 +77,19 @@ Format: `%% XXX.YYYY %%`
 
 **Critical**: IDs are sequential across the ENTIRE carnet, never resetting between entries.
 
+## Clippings, letters, struck and marginal text, drawings
+
+`_original` holds everything Marie put in her notebooks (owner decision 2026-09-27). A pasted newspaper clipping, a copied letter, a whole struck-out paragraph or a marginal note is its own paragraph with a kind marker directly under its ID, the same line in every tree:
+
+```markdown
+%% 068.0456 %%
+%% kind: clipping source="Le Figaro, 12 février 1877" %%
+%% [#Press_clipping](../_glossary/culture/newspapers/PRESS_CLIPPING.md) %%
+> Hier soir, à l'Opéra, …
+```
+
+Kinds: `clipping`, `letter` (both quoted with `> `), `rayé`, `margin`, `other`. Words struck inside a paragraph stay inline as `[Rayé: …]`. Drawings from the scans are listed in the entry's frontmatter under `drawings:` (images in `src/frontend/public/images/marie/drawings/<carnet>/`). Full convention: `docs/REBUILD_CARNET.md`, "Paragraph kinds" and "Drawings".
+
 ## Carnet rebuild / renumbering
 
 IDs are stable: every tree, reader reports, footnote labels, glossary citations and URLs point at them. **No agent renumbers IDs by hand**, and a structural fix that seems to need a shifted ID is reported to the lead.

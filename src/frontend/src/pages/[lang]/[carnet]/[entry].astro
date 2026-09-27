@@ -6,6 +6,7 @@ import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailabl
 import { DIARY_LANGUAGES, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 import { withTrailingSlash } from '../../../lib/url';
+import { placeDrawings } from '../../../lib/drawings';
 
 export function getStaticPaths() {
   const paths: { params: { lang: string; carnet: string; entry: string }; props: { lang: DiaryLanguageConfig } }[] = [];
@@ -48,9 +49,13 @@ if (!entry) {
 
 // Process content to add paragraph anchors. The raw French markdown stays on
 // the server: the island only needs its rendered form (originalHtml).
+// Drawings from the notebook scans (frontmatter `drawings:`): next to their
+// paragraph when they name one, otherwise after the last paragraph.
+const drawingPlacement = placeDrawings(entry.drawings, entry.paragraphs.map(p => p.id));
 const processedParagraphs = entry.paragraphs.map(({ originalText: _raw, ...p }) => ({
   ...p,
   htmlId: `p-${p.id.replace('.', '-')}`,
+  ...(drawingPlacement.byParagraph[p.id] ? { drawings: drawingPlacement.byParagraph[p.id] } : {}),
 }));
 
 // Entry date as a chapter heading.
@@ -277,7 +282,23 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         urlPath={lang.urlPath}
         contentLangAttr={lang.contentLangAttr}
         uiLocale={lang.uiLocale}
+        drawingLabel={t('diary.drawing')}
       />
+      {drawingPlacement.atEnd.length > 0 && (
+        <section class="entry-drawings" aria-label={t('diary.drawings')}>
+          {drawingPlacement.atEnd.map(d => (
+            <figure class="entry-drawing">
+              <img src={d.src} alt={d.alt ?? d.caption ?? t('diary.drawing')} loading="lazy" decoding="async" />
+              {(d.caption || d.source) && (
+                <figcaption>
+                  {d.caption}
+                  {d.source && <span class="entry-drawing-source">{d.source}</span>}
+                </figcaption>
+              )}
+            </figure>
+          ))}
+        </section>
+      )}
     </div>
 
     {/* Footnotes */}

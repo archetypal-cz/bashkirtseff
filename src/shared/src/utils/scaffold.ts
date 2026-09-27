@@ -8,6 +8,7 @@ import { renderSourceComment } from '../renderer/paragraph-renderer.js';
 import { createFrontmatter } from '../parser/frontmatter.js';
 import { SYNC_ROLES } from './sync.js';
 import { localizeGlossaryPath } from './glossary-path.js';
+import { formatKindMarker } from '../parser/patterns.js';
 import { writeFileAtomic } from './atomic-write.js';
 
 /**
@@ -187,8 +188,10 @@ export class TranslationScaffold {
           preserved.translatedText = preserved.originalText;
         }
 
-        // Ensure original text is current
+        // Ensure original text and kind are current
         preserved.originalText = origPara.originalText;
+        preserved.kind = origPara.kind;
+        preserved.kindSource = origPara.kindSource;
 
         // A paragraph that gained source text still needs its TODO marker.
         if (!preserved.translatedText?.trim() && origPara.originalText?.trim()) {
@@ -202,6 +205,8 @@ export class TranslationScaffold {
         newPara.isHeader = origPara.isHeader;
         newPara.headerLevel = origPara.headerLevel;
         newPara.originalText = origPara.originalText;
+        newPara.kind = origPara.kind;
+        newPara.kindSource = origPara.kindSource;
         newPara.languages = [...origPara.languages];
         newPara.glossaryLinks = origPara.glossaryLinks.map(l => ({
           ...l,
@@ -395,8 +400,9 @@ export class TranslationScaffold {
         continue;
       }
 
-      // 1. Paragraph ID (MUST come first)
+      // 1. Paragraph ID (MUST come first), then the kind marker if any
       lines.push(`%% ${para.id} %%`);
+      if (para.kind) lines.push(formatKindMarker(para.kind, para.kindSource));
 
       // 2. French original in comment, one `%% … %%` block per physical line
       if (para.originalText) {
@@ -568,6 +574,8 @@ export class TranslationScaffold {
     cloned.glossaryLinks = para.glossaryLinks.map(l => ({ ...l }));
     cloned.footnoteRefs = [...para.footnoteRefs];
     cloned.languages = [...para.languages];
+    cloned.kind = para.kind;
+    cloned.kindSource = para.kindSource;
     return cloned;
   }
 }

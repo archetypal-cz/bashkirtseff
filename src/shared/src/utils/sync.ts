@@ -58,7 +58,8 @@ export function createDefaultSyncOptions(): SyncOptions {
  */
 export interface SyncChange {
   type: 'note_added' | 'note_updated' | 'glossary_added' | 'glossary_updated' |
-        'footnote_added' | 'footnote_updated' | 'footnote_ref_added' | 'metadata_updated' | 'paragraph_added';
+        'footnote_added' | 'footnote_updated' | 'footnote_ref_added' | 'metadata_updated' | 'paragraph_added' |
+        'kind_updated';
   paragraphId?: string;
   role?: string;
   description: string;
@@ -152,6 +153,17 @@ export class EntrySync {
           description: `New paragraph ${origPara.id} in original`,
         });
         continue;
+      }
+
+      // The kind marker (clipping, letter…) always follows the source
+      if ((origPara.kind ?? null) !== (transPara.kind ?? null) || (origPara.kindSource ?? null) !== (transPara.kindSource ?? null)) {
+        changes.push({
+          type: 'kind_updated',
+          paragraphId: origPara.id,
+          description: `Paragraph kind of ${origPara.id}: ${transPara.kind ?? 'none'} → ${origPara.kind ?? 'none'}`,
+          originalValue: transPara.kind,
+          newValue: origPara.kind,
+        });
       }
 
       // Check notes
@@ -485,8 +497,10 @@ export class EntrySync {
         this.syncGlossaryLinks(origPara, syncedPara, synced.language);
       }
 
-      // Sync languages from original
+      // Sync languages and the kind marker from original
       syncedPara.languages = [...origPara.languages];
+      syncedPara.kind = origPara.kind;
+      syncedPara.kindSource = origPara.kindSource;
     }
 
     // Order paragraphs as the source orders them, not by number: after a
@@ -780,6 +794,8 @@ export class EntrySync {
       clonedPara.glossaryLinks = para.glossaryLinks.map(l => ({ ...l }));
       clonedPara.footnoteRefs = [...para.footnoteRefs];
       clonedPara.languages = [...para.languages];
+      clonedPara.kind = para.kind;
+      clonedPara.kindSource = para.kindSource;
       return clonedPara;
     });
 

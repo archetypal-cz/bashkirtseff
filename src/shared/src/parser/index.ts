@@ -25,6 +25,11 @@ export {
   ROLE_CODES_SOURCE,
   UNTIMESTAMPED_ROLE_NOTE_PATTERN,
   EMBEDDED_ROLE_NOTE_PATTERN,
+  PARAGRAPH_KINDS,
+  KIND_CONTENT_PATTERN,
+  KIND_LINE_PATTERN,
+  parseKindMarker,
+  formatKindMarker,
   isCommentLine,
   stripCommentMarkers,
   stripAllComments,
@@ -33,6 +38,7 @@ export {
   isTimestampedNote,
   hasGlossaryLinks,
 } from './patterns.js';
+export type { ParagraphKind } from './patterns.js';
 
 // Comment scanner
 export type { CommentSegment, ScannedLine, CommentScanResult } from './comment-scanner.js';

@@ -114,7 +114,14 @@
     "clickToViewGlossary": "Klikněte pro zobrazení v glosáři",
     "filterByTag": "Filtrovat záznamy v sešitu",
     "showOriginal": "Zobrazit originál: {langs}",
-    "showTranslation": "Zobrazit překlad: {lang}"
+    "showTranslation": "Zobrazit překlad: {lang}",
+    "kind": {
+      "clipping": "Novinový výstřižek",
+      "letter": "Opsaný dopis",
+      "raye": "Přeškrtnutá pasáž",
+      "margin": "Na okraji",
+      "other": "Vložený list"
+    }
   },
   "footer": {
     "aboutProject": "O projektu",
@@ -428,7 +435,9 @@
       "one": "{count} slovo",
       "few": "{count} slova",
       "other": "{count} slov"
-    }
+    },
+    "drawing": "Kresba v sešitě",
+    "drawings": "Kresby v sešitě"
   },
   "history": {
     "title": "Historie čtení",

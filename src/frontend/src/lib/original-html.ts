@@ -14,6 +14,7 @@
  *                                  translation below; a bare number here
  *                                  would point nowhere)
  *   [text](url) links            → their text only
+ *   `> ` quote markers           → dropped (clipping/letter kind)
  *   dialogue lines (— / – / "- ")→ line break before each turn
  *   blank line                   → paragraph gap
  *   other line breaks            → a space (soft wraps)
@@ -54,7 +55,8 @@ export function renderOriginalHtml(markdown: string): string {
 
   return blocks
     .map(block => {
-      const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+      // `> ` quotes a clipping or letter; the translation face draws the quote
+      const lines = block.split('\n').map(l => l.trim().replace(/^>\s?/, '')).filter(Boolean);
       let html = '';
       let atStart = true; // at block start or right after a heading line
       for (const line of lines) {

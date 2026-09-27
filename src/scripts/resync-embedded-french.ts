@@ -25,6 +25,7 @@ const isSourceLine = (l: string) => {
   const b = m[1];
   if (b.includes('%%')) return false;
   if (/^\d{3}\.\d{4}$/.test(b) || /^\[#/.test(b)) return false;
+  if (/^kind:\s/.test(b)) return false; // paragraph kind marker (clipping, letter…)
   if (/^\d{4}-\d{2}-\d{2}/.test(b) || /^[A-Z]{2,4}( [A-Za-z ]+)?:/.test(b)) return false;
   if (/\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})? [A-Z]{2,4}:/.test(b)) return false;
   return true;

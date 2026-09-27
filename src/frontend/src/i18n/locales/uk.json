@@ -114,7 +114,14 @@
     "clickToViewGlossary": "Натисніть, щоб переглянути в глосарії",
     "filterByTag": "Фільтрувати записи в зошиті",
     "showOriginal": "Показати оригінал: {langs}",
-    "showTranslation": "Показати переклад: {lang}"
+    "showTranslation": "Показати переклад: {lang}",
+    "kind": {
+      "clipping": "Газетна вирізка",
+      "letter": "Переписаний лист",
+      "raye": "Закреслений уривок",
+      "margin": "На берегах",
+      "other": "Вкладка"
+    }
   },
   "footer": {
     "aboutProject": "Про проєкт",
@@ -428,7 +435,9 @@
       "one": "{count} слово",
       "few": "{count} слова",
       "other": "{count} слів"
-    }
+    },
+    "drawing": "Малюнок у зошиті",
+    "drawings": "Малюнки в зошиті"
   },
   "history": {
     "title": "Історія читання",

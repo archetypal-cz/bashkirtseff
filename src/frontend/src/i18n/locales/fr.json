@@ -113,7 +113,14 @@
     "clickToViewGlossary": "Cliquez pour voir dans le glossaire",
     "filterByTag": "Filtrer les entrées dans ce carnet",
     "showOriginal": "Afficher l’original : {langs}",
-    "showTranslation": "Afficher la traduction : {lang}"
+    "showTranslation": "Afficher la traduction : {lang}",
+    "kind": {
+      "clipping": "Coupure de presse",
+      "letter": "Lettre recopiée",
+      "raye": "Passage rayé",
+      "margin": "En marge",
+      "other": "Pièce insérée"
+    }
   },
   "footer": {
     "aboutProject": "À propos",
@@ -419,7 +426,9 @@
     "wordCount": {
       "one": "{count} mot",
       "other": "{count} mots"
-    }
+    },
+    "drawing": "Dessin du carnet",
+    "drawings": "Dessins du carnet"
   },
   "history": {
     "title": "Historique de lecture",

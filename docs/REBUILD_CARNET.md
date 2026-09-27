@@ -56,6 +56,13 @@ The tool refuses carnets with duplicate IDs in any tree or legacy
       "paragraphs": [
         { "old": "CCC.0261" },
         { "old": "CCC.0262", "set_french": "Only the first half of the old text." },
+        { "old": "CCC.0263", "kind": "letter", "source": "Lettre de Multedo, 22 juillet 1876" },
+        { "new": {
+            "kind": "clipping", "source": "Le Figaro, 19 janvier 1877",
+            "french": "Hier soir, à l'Opéra…\nSecond line of the cutting.",
+            "rsr": "Clipping pasted on f. 34; tome09.docx ¶3874.",
+            "tags": ["[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)"]
+        } },
         { "new": {
             "french": "Exact French text.\nA second line of the same paragraph.",
             "rsr": "Missing in the transcription; tome09.docx ¶3871 (Livre 68, «Vendredi 19 janvier»).",
@@ -75,6 +82,7 @@ Validation fails loudly (nothing is written) unless:
 - every old entry file without any paragraph ID (`empty_in_source` stubs) is
   carried with `body_from` or listed in `drop_files`;
 - new paragraphs have French text and an `rsr` note, and nothing contains the comment marker;
+- `kind` is one of `clipping letter rayé margin other`, and `source` is one line without a double quote;
 - no translation tree holds an ID that `_original` lacks, and no tree has duplicate IDs.
 
 Dates going backwards between entries only warn (plan order is reading order).
@@ -114,6 +122,14 @@ that does not move is written back byte for byte.
 - **Paragraphs a translation tree lacks** are reported and stay missing.
   A partial tree (one without every source entry) only gets the entries it
   already has paragraphs for.
+
+- **Kinds** (see Paragraph kinds below). A `new` paragraph with `kind` gets the
+  marker line under its ID in every tree; for `clipping` and `letter` each French
+  line is quoted (`> `), and a clipping always gets the `[#Press_clipping]` tag
+  (add the newspaper's own tag in `tags`). Translations get the quoted French as
+  embedded copy and a plain `TODO`. `kind` on an `old` paragraph sets or
+  replaces its marker in every tree without touching text or approval flags
+  (quote its French with `set_french` if it should become a blockquote).
 
 ## Headings
 
@@ -195,3 +211,85 @@ footnote labels (`68.0123` for carnet 068).
 tree has the same ID sequence per file (missing files only warn: partial
 trees); (c) no ID token beyond N, no link to an entry file a rebuild removed,
 no path+anchor pointing at a file that does not hold the paragraph.
+
+## Paragraph kinds
+
+Owner decision (KRR, 2026-09-27): `_original` holds everything Marie put in her
+notebooks, not only her diary prose: pasted newspaper clippings and printed
+matter, letters she copied or pinned in, struck-out passages, marginal notes.
+Each such piece is a paragraph of its own, marked by one line directly under
+its ID, **identical in `_original` and every translation tree**:
+
+```markdown
+%% 068.0456 %%
+%% kind: clipping source="Le Figaro, 12 février 1877" %%
+%% [#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md) %%
+%% [#Press_clipping](../_glossary/culture/newspapers/PRESS_CLIPPING.md) %%
+%% 2026-09-27T10:00:00 RSR: Clipping pasted on f. 34; tome09.docx ¶3874. %%
+> Hier soir, à l'Opéra, on remarquait dans la loge de Mme Bashkirtseff…
+> …
+```
+
+and in a translation:
+
+```markdown
+%% 068.0456 %%
+%% kind: clipping source="Le Figaro, 12 février 1877" %%
+%% > Hier soir, à l'Opéra, on remarquait dans la loge de Mme Bashkirtseff… %%
+%% [#Le_Figaro](../../_original/_glossary/culture/newspapers/LE_FIGARO.md) %%
+%% [#Press_clipping](../../_original/_glossary/culture/newspapers/PRESS_CLIPPING.md) %%
+> Včera večer v Opeře bylo v lóži paní Baškirtsevové lze spatřit…
+```
+
+| Kind | What | Text |
+|------|------|------|
+| `clipping` | pasted newspaper cutting, printed matter | `> ` quoted; tagged `[#Press_clipping]` plus the newspaper's entry when it has one (`culture/newspapers/`) |
+| `letter` | letter copied or pinned into the notebook | `> ` quoted; tag the writer as usual |
+| `rayé` | a whole paragraph Marie struck out | plain text. Words struck **inside** a paragraph keep the established inline form `[Rayé: …]` (≈1,600 occurrences), unchanged |
+| `margin` | marginal text | plain text |
+| `other` | any other inserted item (card, menu, pressed flower note…) | plain text; say what it is in `source` |
+
+- Syntax: `%% kind: <kind> %%` or `%% kind: <kind> source="<free text>" %%`, alone
+  on its line, right after the ID line. `source` has no double quote; the
+  newspaper and date for a clipping, the writer and date for a letter. `raye`
+  is accepted for `rayé`. Regex: `KIND_CONTENT_PATTERN` in
+  `src/shared/src/parser/patterns.ts` (the frontend mirror is
+  `src/frontend/src/lib/paragraph-kind.ts`).
+- The marker is metadata: the shared parser (`Paragraph.kind`, `kindSource`), the
+  frontend and `resync-french` never take it for embedded French or a note;
+  `just sync` / `just scaffold` copy it from `_original` into translations and
+  keep it directly under the ID; `tag-sync` inserts tags below it. It is a normal
+  one-line comment for `verify-carnet`, `splicescan` and `check-comments`.
+- Translations keep the `> ` quoting on their visible text. The embedded French
+  copy keeps it too (`%% > … %%`).
+- Page: clippings render as a narrow ruled newsprint slip, letters as an
+  indented quotation, rayé paragraphs crossed out, margin notes set off to the
+  side; each opens with a small label in the reading language ("Coupure de
+  presse · Le Figaro, 12 février 1877"). Styles: `src/frontend/src/styles/global.css`
+  (`.para-kind-*`), labels `paragraph.kind.*` in the locale files.
+
+## Drawings
+
+Drawings Marie made in a notebook are cut from the manuscript scans and listed
+in the `_original` entry's frontmatter:
+
+```yaml
+drawings:
+  - src: /images/marie/drawings/068/tome09-p0123-1.webp
+    caption: "Profil de femme, à la plume"
+    source: "Tome 9, p. 123"
+    paragraph: "068.0456"      # optional: shown right after this paragraph
+    alt: "…"                   # optional; defaults to the caption
+```
+
+- Files: `src/frontend/public/images/marie/drawings/<carnet>/`, WebP, at most
+  1600 px on the long side, aim for under 300 KB, named
+  `tome<NN>-p<page>-<n>.webp`. The raw scans stay in the gitignored
+  `content/_raw/scans/`. (Glossary artworks use `public/images/marie/works/`.)
+- Without `paragraph`, or when the entry has no such paragraph, the drawing is
+  shown at the end of the entry. Translations show the original's drawings
+  unless their own frontmatter lists `drawings:` (for translated captions).
+- `paragraph` IDs in frontmatter are rewritten by `rebuild-carnet` like any other
+  reference. Code: `src/frontend/src/lib/drawings.ts`, rendered by
+  `EntryContent.vue` (after the paragraph) and `[entry].astro` (end of entry).
+

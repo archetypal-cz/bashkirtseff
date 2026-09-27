@@ -64,6 +64,42 @@ export const EMBEDDED_ROLE_NOTE_PATTERN = new RegExp(
   `\\d{4}-\\d{2}-\\d{2}T[\\d:]+\\s*${ROLE_CODES_SOURCE}:`
 );
 
+/**
+ * Paragraph KIND marker (docs/REBUILD_CARNET.md, "Paragraph kinds"): what sort
+ * of material the paragraph is, when it is not Marie's own running diary text.
+ * One line directly after the paragraph ID, identical in every tree:
+ *
+ *   %% kind: clipping source="Le Figaro, 12 février 1877" %%
+ *
+ * Kinds: clipping (pasted newspaper/printed matter), letter (a letter copied or
+ * pinned into the notebook), rayé (a whole struck-out paragraph; words struck
+ * inside a paragraph stay inline as `[Rayé: …]`), margin (marginal text),
+ * other. `source` is optional and holds no double quote.
+ */
+export const PARAGRAPH_KINDS = ['clipping', 'letter', 'rayé', 'margin', 'other'] as const;
+export type ParagraphKind = (typeof PARAGRAPH_KINDS)[number];
+
+/** The marker's body, comment wrapper stripped */
+export const KIND_CONTENT_PATTERN =
+  /^kind:\s*(clipping|letter|rayé|raye|margin|other)(?:\s+source="([^"]*)")?\s*$/;
+
+/** The whole marker line */
+export const KIND_LINE_PATTERN =
+  /^\s*%%\s*kind:\s*(clipping|letter|rayé|raye|margin|other)(?:\s+source="([^"]*)")?\s*%%\s*$/;
+
+/** Parse a marker body (`kind: clipping source="…"`); `raye` is read as `rayé`. */
+export function parseKindMarker(content: string): { kind: ParagraphKind; source?: string } | null {
+  const m = content.trim().match(KIND_CONTENT_PATTERN);
+  if (!m) return null;
+  const kind = (m[1] === 'raye' ? 'rayé' : m[1]) as ParagraphKind;
+  return m[2] !== undefined && m[2].trim() ? { kind, source: m[2].trim() } : { kind };
+}
+
+/** Render the marker line for a kind (and optional source) */
+export function formatKindMarker(kind: ParagraphKind, source?: string): string {
+  return source ? `%% kind: ${kind} source="${source}" %%` : `%% kind: ${kind} %%`;
+}
+
 /** Old comment format: [//]: # ( comment content ) */
 export const OLD_COMMENT_PATTERN = /^\[\/\/\]: # \((.*?)\)$/s;
 

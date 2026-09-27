@@ -13,6 +13,7 @@ LANG = sys.argv[1]
 ID_RE = re.compile(r'^%% (\d{3}\.\d{4}) %%$')
 TAGLINE_RE = re.compile(r'^%% (\[#[^\]]+\]\([^)]+\)\s*)+%%$')
 TAG_RE = re.compile(r'\[#([^\]]+)\]\(([^)]+)\)')
+KIND_RE = re.compile(r'^%% kind: ')  # paragraph kind marker stays directly under the ID
 write = '--write' in sys.argv
 carnets = [a for a in sys.argv[2:] if a[0].isdigit()]
 changed = []
@@ -46,6 +47,8 @@ for c in carnets:
             if m:
                 pid = m.group(1)
                 j = i + 1
+                if j < n and KIND_RE.match(lines[j]):
+                    new.append(lines[j]); j += 1
                 have = set()
                 while j < n and TAGLINE_RE.match(lines[j]):
                     have.update(t for t, _ in TAG_RE.findall(lines[j])); new.append(lines[j]); j += 1

@@ -4,6 +4,7 @@ import { useFilterStore } from '../../stores/filter';
 import type { SupportedLocale } from '../../i18n';
 import ParagraphToolbar from './ParagraphToolbar.vue';
 import FilteredParagraphGap from './FilteredParagraphGap.vue';
+import type { EntryDrawing } from '../../lib/drawings';
 
 interface GlossaryTag {
   id: string;
@@ -20,6 +21,8 @@ interface ProcessedParagraph {
   glossaryTags?: GlossaryTag[];
   footnoteRefs?: string[];
   languages?: string[];
+  kind?: string;
+  drawings?: EntryDrawing[]; // notebook drawings shown right after this paragraph
 }
 
 const props = defineProps<{
@@ -28,6 +31,7 @@ const props = defineProps<{
   urlPath: string;
   contentLangAttr: string;
   uiLocale?: SupportedLocale; // page UI locale, forwarded so SSR labels match it
+  drawingLabel?: string;      // fallback alt text for a drawing without caption
 }>();
 
 const parsedParagraphs = computed<ProcessedParagraph[]>(() => {
@@ -120,26 +124,35 @@ const renderItems = computed<RenderItem[]>(() => {
 
 <template>
   <template v-for="(item, idx) in renderItems" :key="idx">
-    <!-- Matching paragraph (or all paragraphs when no filter) -->
-    <div
-      v-if="item.type === 'paragraph'"
-      :id="item.paragraph.htmlId"
-      class="paragraph-container scroll-mt-24"
-      :data-paragraph-id="item.paragraph.id"
-      :style="isTranslation ? 'perspective: 1000px;' : undefined"
-    >
-      <ParagraphToolbar
-        :paragraphId="item.paragraph.id"
-        :htmlContent="item.paragraph.html"
-        :originalHtml="isTranslation ? item.paragraph.originalHtml : undefined"
-        :languages="isTranslation ? item.paragraph.languages : undefined"
-        :translationLang="isTranslation ? urlPath : undefined"
-        :glossaryTags="item.paragraph.glossaryTags"
-        :language="urlPath"
-        :contentLang="contentLangAttr"
-        :pageLocale="uiLocale"
-      />
-    </div>
+    <!-- Matching paragraph (or all paragraphs when no filter), then any
+         notebook drawings that belong next to it -->
+    <template v-if="item.type === 'paragraph'">
+      <div
+        :id="item.paragraph.htmlId"
+        class="paragraph-container scroll-mt-24"
+        :data-paragraph-id="item.paragraph.id"
+        :style="isTranslation ? 'perspective: 1000px;' : undefined"
+      >
+        <ParagraphToolbar
+          :paragraphId="item.paragraph.id"
+          :htmlContent="item.paragraph.html"
+          :originalHtml="isTranslation ? item.paragraph.originalHtml : undefined"
+          :languages="isTranslation ? item.paragraph.languages : undefined"
+          :translationLang="isTranslation ? urlPath : undefined"
+          :glossaryTags="item.paragraph.glossaryTags"
+          :language="urlPath"
+          :contentLang="contentLangAttr"
+          :pageLocale="uiLocale"
+        />
+      </div>
+      <figure v-for="d in item.paragraph.drawings ?? []" :key="d.src" class="entry-drawing">
+        <img :src="d.src" :alt="d.alt ?? d.caption ?? drawingLabel ?? ''" loading="lazy" decoding="async" />
+        <figcaption v-if="d.caption || d.source">
+          {{ d.caption }}
+          <span v-if="d.source" class="entry-drawing-source">{{ d.source }}</span>
+        </figcaption>
+      </figure>
+    </template>
 
     <!-- Gap: consecutive non-matching paragraphs -->
     <FilteredParagraphGap
