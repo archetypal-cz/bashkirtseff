@@ -30,6 +30,8 @@ def test_headings():
 def test_livre_and_order():
     assert livre_number('Livre 68ème') == 68
     assert livre_number('Livre 6 8ème') == 68
+    assert livre_number('Livre 4Qème') == 40
+    assert livre_number('Livre Quatre') is None
     assert livre_number('Je livre mes pensées') is None
     names = ['1878-10-04-evening.md', '1878-10-05.md', '1878-10-04.md', '1878-10-04-cover.md', '1878-10-04-05.md']
     assert sorted(names, key=entry_order_key) == ['1878-10-04-cover.md', '1878-10-04.md', '1878-10-04-05.md', '1878-10-04-evening.md', '1878-10-05.md']

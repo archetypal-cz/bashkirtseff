@@ -215,14 +215,14 @@ def parse_heading(text: str, prev: tuple[int, int, int] | None) -> dict | None:
     return {'date': f'{yr}-{mon:02d}-{day:02d}', 'ymd': (yr, mon, day), 'heading': heading, 'rest': rest, 'guessed': guessed}
 
 
-RE_LIVRE = re.compile(r'^\s*(?:livre|carnet|cahier)\s*(?:n°)?\s*([0-9IOlo ]{1,4})', re.I)
+RE_LIVRE = re.compile(r'^\s*(?:livre|carnet|cahier)\s*(?:n°)?\s*([0-9IOlQDî ]{1,4})', re.I)  # OCR: O/o/Q/D for 0, I/l/î for 1 («Livre 4Qème»)
 
 
 def livre_number(text: str) -> int | None:
     m = RE_LIVRE.match(text)
     if not m or len(text) > 250:
         return None
-    num = m.group(1).replace(' ', '').translate(str.maketrans('OoIl', '0011'))
+    num = m.group(1).replace(' ', '').translate(str.maketrans('OoQqDdIiLlî', '00000011111'))
     return int(num) if num.isdigit() and 0 < int(num) < 107 else None
 
 
