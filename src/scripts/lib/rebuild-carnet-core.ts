@@ -1247,7 +1247,18 @@ export function checkCarnet(repoRoot: string, carnet: string, removedFiles: stri
       const t = tree.files.get(name);
       if (!t) { warnings.push(`${lang}/${carnet}: no entry file ${name} (partial tree?)`); continue; }
       const a = pf.clusters.map((c) => c.id).join(','), b = t.clusters.map((c) => c.id).join(',');
-      if (a !== b) errors.push(`${lang}/${carnet}/${name}: ID sequence differs from _original`);
+      if (a === b) continue;
+      // A source paragraph with no text (notes only, or an empty trailing ID) may
+      // be absent from a translation: the benign case verify-carnet also allows.
+      const textless = new Set(pf.clusters.filter((c) => !textLineIdx(c.lines).length && !hasHeading(c.lines)).map((c) => c.id));
+      const tIds = new Set(t.clusters.map((c) => c.id));
+      const aText = pf.clusters.map((c) => c.id).filter((id) => !textless.has(id) || tIds.has(id)).join(',');
+      if (aText === b) {
+        const gone = pf.clusters.map((c) => c.id).filter((id) => !tIds.has(id));
+        warnings.push(`${lang}/${carnet}/${name}: lacks text-less source paragraph(s) ${gone.join(', ')}`);
+      } else {
+        errors.push(`${lang}/${carnet}/${name}: ID sequence differs from _original`);
+      }
     }
     for (const name of tree.files.keys()) if (!original.files.has(name)) errors.push(`${lang}/${carnet}/${name}: no _original counterpart`);
   }
