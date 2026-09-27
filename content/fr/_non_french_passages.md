@@ -1287,22 +1287,22 @@ They need AI translation into French.
 - **067/1876-11-16-18.md** para 067.0100 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? - Marie's code-switching %%
 - **067/1876-11-16-18.md** para 067.0104 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Est socia mortis homini vita ingloria" - An inglorious life is death's companion %%
 - **067/1876-12-08-11.md** para 067.0322 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN: "Agnus Dei" = Lamb of God. Marie sarcastically compares her humble, wheedling father to the sacrificial lamb. %%
-- **068/1876-12-12.md** para 068.0003 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH Italian: "che" - Marie writes Italian "che" instead of French "que", possibly showing emotional agitation %%
-- **068/1876-12-12.md** para 068.0004 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating-rink" - roller skating rink, fashionable entertainment venue in 1870s; often social gathering place %%
-- **068/1876-12-16.md** para 068.0026 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating" - roller skating rink; fashionable social venue in 1870s Europe %%
-- **068/1876-12-27-29.md** para 068.0068 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "barcaccia" - ITALIAN: boat-shaped box at theater front; prestigious seating area %%
-- **068/1876-12-27-29.md** para 068.0095 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "birra" - beer; suggests coarse behavior in contrast to wine %%
-- **068/1876-12-27-29.md** para 068.0096 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Voi a gnor? Vergogna e pietà di voi" - You now? Shame and pity on you; addressing Pietro in Italian %%
-- **068/1876-12-27-29.md** para 068.0099 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "soffro di veder vi avilito ma non n'amo più" - I suffer to see you debased but I love you no more %%
-- **068/1877-01-02-06.md** para 068.0137 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Vogliamo l'accessione al regno costituzionale di Vittorio Emanuele" - We want accession to the constitutional kingdom of Victor Emmanuel; Risorgimento slogan %%
-- **068/1877-01-02-06.md** para 068.0139 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Re e liberatore" - King and Liberator; Victor Emmanuel II's title after Italian unification %%
-- **068/1877-01-02-06.md** para 068.0170 [LATIN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH LATIN: "Culpa mea" - my fault; from Catholic confession formula %%
-- **068/1877-01-02-06.md** para 068.0171 [LATIN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH LATIN: "Dubium, illusio, deceptio, oppressio" - Doubt, illusion, deception, oppression; mock-learned summary of her life %%
-- **068/1877-02-10-12.md** para 068.0268 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "veglione" - grand masked ball; traditional carnival entertainment %%
-- **068/1877-02-10-12.md** para 068.0420 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "coriandoli" - confetti; small paper pieces thrown during carnival %%
-- **068/1877-02-13-21.md** para 068.0511 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "stenco di tenerla" - tired of keeping her; weary of maintaining his mistress %%
-- **068/1877-02-13-21.md** para 068.0539 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "lazzaroni" - Neapolitan street people, homeless poor; from Lazarus the beggar %%
-- **068/1877-02-22-23.md** para 068.0636 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ENGLISH: "I pay no attention" - switch to English for dismissive phrase; shows sophistication %%
+- **068/1876-12-12.md** para 068.0005 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH Italian: "che" - Marie writes Italian "che" instead of French "que", possibly showing emotional agitation %%
+- **068/1876-12-12.md** para 068.0006 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating-rink" - roller skating rink, fashionable entertainment venue in 1870s; often social gathering place %%
+- **068/1876-12-16.md** para 068.0063 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating" - roller skating rink; fashionable social venue in 1870s Europe %%
+- **068/1876-12-27.md** para 068.0177 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "barcaccia" - ITALIAN: boat-shaped box at theater front; prestigious seating area %%
+- **068/1876-12-27.md** para 068.0204 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "birra" - beer; suggests coarse behavior in contrast to wine %%
+- **068/1876-12-27.md** para 068.0205 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Voi a gnor? Vergogna e pietà di voi" - You now? Shame and pity on you; addressing Pietro in Italian %%
+- **068/1876-12-27.md** para 068.0208 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "soffro di veder vi avilito ma non n'amo più" - I suffer to see you debased but I love you no more %%
+- **068/1877-01-02.md** para 068.0246 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Vogliamo l'accessione al regno costituzionale di Vittorio Emanuele" - We want accession to the constitutional kingdom of Victor Emmanuel; Risorgimento slogan %%
+- **068/1877-01-02.md** para 068.0248 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Re e liberatore" - King and Liberator; Victor Emmanuel II's title after Italian unification %%
+- **068/1877-01-02.md** para 068.0279 [LATIN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH LATIN: "Culpa mea" - my fault; from Catholic confession formula %%
+- **068/1877-01-02.md** para 068.0280 [LATIN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH LATIN: "Dubium, illusio, deceptio, oppressio" - Doubt, illusion, deception, oppression; mock-learned summary of her life %%
+- **068/1877-02-10.md** para 068.0816 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "veglione" - grand masked ball; traditional carnival entertainment %%
+- **068/1877-02-10.md** para 068.0967 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "coriandoli" - confetti; small paper pieces thrown during carnival %%
+- **068/1877-02-13.md** para 068.1149 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "stenco di tenerla" - tired of keeping her; weary of maintaining his mistress %%
+- **068/1877-02-13.md** para 068.1177 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "lazzaroni" - Neapolitan street people, homeless poor; from Lazarus the beggar %%
+- **068/1877-02-22.md** para 068.1276 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ENGLISH: "I pay no attention" - switch to English for dismissive phrase; shows sophistication %%
 - **069/1877-02-25.md** para 069.0014 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "La Forza del destino" - Verdi opera (1862), "The Force of Destiny" %%
 - **069/1877-02-26.md** para 069.0033 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "fra" - ITALIAN: friar/brother (religious title) %%
 - **069/1877-02-26.md** para 069.0046 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Povero gente!" - "Poor people!" - exclamation of pity/contempt %%
