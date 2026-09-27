@@ -311,6 +311,10 @@ scaffold carnet *FLAGS:
 rebuild-carnet carnet plan *FLAGS:
     npx tsx src/scripts/rebuild-carnet.ts {{carnet}} {{plan}} {{FLAGS}}
 
+# Rebuild several carnets in one run (one plan per carnet); a plan may place another carnet's paragraph ({"old": "065.0412"} in 066's plan) — the cluster moves in every tree, all carnets are renumbered together. Dry run unless --write.
+rebuild-carnets +ARGS:
+    npx tsx src/scripts/rebuild-carnet.ts --multi {{ARGS}}
+
 # Print the carnet's current layout as a rebuild plan (the template to edit): just rebuild-carnet-plan 068 > plan.json
 rebuild-carnet-plan carnet:
     @npx tsx src/scripts/rebuild-carnet.ts --identity-plan {{carnet}}
@@ -860,6 +864,7 @@ help:
     @echo "  just backfill-fr-frontmatter --carnet 067 --apply      # Copy fr frontmatter from _original + derive edition_complete (dry run by default)"
     @echo "  just check-links-repo     # Repo-wide broken-link scan, case/anchor/title aware; --selftest builds a fixture tree"
     @echo "  just rebuild-carnet 068 plan.json [--write]  # Rebuild + renumber a carnet from a plan (dry run default; docs/REBUILD_CARNET.md)"
+    @echo "  just rebuild-carnets p065.json p066.json [--write]  # Several carnets in one run, paragraphs may move between them"
     @echo "  just rebuild-carnet-plan 068 > plan.json     # Current layout as a plan template"
     @echo "  just renumber-check 068   # Post-rebuild verifier (contiguous IDs, trees aligned, no stale refs)"
     @echo "  just search 'term'        # Search in source files (with links)"

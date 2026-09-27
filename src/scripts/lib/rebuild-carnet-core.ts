@@ -123,6 +123,15 @@ export function isEntryFileName(f: string): boolean {
   return /^\d{4}-\d{2}-\d{2}.*\.md$/.test(f);
 }
 
+/**
+ * In a multi-carnet run, clusters another carnet's plan claims are moved into
+ * this carnet's trees as a pseudo-file named `<source carnet>/<source file>`
+ * before the single-carnet machinery runs (importForeignClusters).
+ */
+export function isImportName(name: string): boolean {
+  return name.includes('/');
+}
+
 /** A carnet's cover entry (text on the notebook's cover / front pages): `<first-entry-date>-cover.md` */
 export function isCoverFile(f: string): boolean {
   return /^\d{4}-\d{2}-\d{2}-cover\.md$/.test(f);
@@ -236,7 +245,7 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
   for (const [name, pf] of original.files) {
     for (const c of pf.clusters) {
       if (oldIdFile.has(c.id)) err(`_original: duplicate paragraph ID ${c.id} (${oldIdFile.get(c.id)} and ${name})`);
-      if (!c.id.startsWith(`${carnet}.`)) err(`_original/${name}: foreign paragraph ID ${c.id}`);
+      if (!c.id.startsWith(`${carnet}.`) && !isImportName(name)) err(`_original/${name}: foreign paragraph ID ${c.id}`);
       oldIdFile.set(c.id, name);
       oldOrder.push(c.id);
     }
@@ -364,6 +373,7 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
   // old file → file holding its first surviving paragraph
   const fileMap = new Map<string, string>();
   for (const [name, pf] of original.files) {
+    if (isImportName(name)) continue; // clusters imported from another carnet (multi-carnet run)
     if (planFiles.has(name)) { fileMap.set(name, name); continue; }
     if (redirectFrom.has(name)) { fileMap.set(name, redirectFrom.get(name)!); continue; }
     if (pf.idlessBody !== null) {
@@ -376,7 +386,7 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
       if (nid) { fileMap.set(name, fileOfNewId.get(nid)!); break; }
     }
   }
-  const removedFiles = [...original.files.keys()].filter((f) => !planFiles.has(f));
+  const removedFiles = [...original.files.keys()].filter((f) => !planFiles.has(f) && !isImportName(f));
   const addedFiles = [...planFiles].filter((f) => !original.files.has(f));
   return { carnet, idMap, dropped, fileOfNewId, planParaOfNewId, newFileIds, fileMap, removedFiles, addedFiles };
 }
@@ -384,6 +394,129 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
 function checkKind(kind: unknown, source: unknown, where: string, err: (m: string) => void): void {
   if (!PARAGRAPH_KINDS.includes(kind as ParagraphKind)) err(`${where}: kind must be one of ${PARAGRAPH_KINDS.join(', ')} (got ${JSON.stringify(kind)})`);
   if (source !== undefined && (typeof source !== 'string' || !source.trim() || /["\n]|%%/.test(source))) err(`${where}: source must be one line without double quotes or the comment marker`);
+}
+
+// --- multi-carnet runs ----------------------------------------------------------------
+
+export interface CarnetSet {
+  carnet: string;
+  plan: Plan;
+  /** trees by language, as loaded from disk and then mutated by importForeignClusters */
+  trees: Map<string, CarnetTree>;
+  /** _original file → its IDs before any cluster moved to another carnet */
+  snapshot: Map<string, string[]>;
+}
+
+/**
+ * Multi-carnet run: a plan may place a paragraph of another carnet of the run
+ * (`{"old": "065.0412"}` in 066's plan). Before each carnet is rebuilt on its
+ * own, every such cluster is taken out of its source carnet — in every tree —
+ * and put into the target carnet's tree as the pseudo-file
+ * `<source carnet>/<source file>` (source order kept). Footnote definitions
+ * are copied across the cut so both sides stay complete, and entry-level notes
+ * stay with the source entry. Returns ID → target carnet.
+ */
+export function importForeignClusters(sets: CarnetSet[], issues: Issues): Map<string, string> {
+  const err = (m: string) => issues.errors.push(m);
+  const byCarnet = new Map(sets.map((s) => [s.carnet, s]));
+  const claims = new Map<string, string>(); // old ID → carnet whose plan places it
+  const count = new Map<string, number>();
+  for (const s of sets) {
+    for (const e of s.plan.entries ?? []) {
+      for (const p of e?.paragraphs ?? []) {
+        if (typeof p?.old !== 'string') continue;
+        count.set(p.old, (count.get(p.old) ?? 0) + 1);
+        const src = p.old.slice(0, 3);
+        if (src === s.carnet) continue;
+        if (!byCarnet.has(src)) { err(`${s.carnet} plan: ${p.old} belongs to carnet ${src}, which has no plan in this run`); continue; }
+        claims.set(p.old, s.carnet);
+      }
+    }
+    for (const d of s.plan.drop ?? []) {
+      if (typeof d?.id === 'string') {
+        count.set(d.id, (count.get(d.id) ?? 0) + 1);
+        if (!d.id.startsWith(`${s.carnet}.`)) err(`${s.carnet} plan: drop ${d.id} — a carnet can only drop its own paragraphs`);
+      }
+    }
+  }
+  for (const [id, n] of count) if (n > 1) err(`${id} is placed or dropped ${n} times across the run's plans`);
+  if (issues.errors.length) return claims;
+
+  for (const [id, target] of claims) {
+    const src = byCarnet.get(id.slice(0, 3))!;
+    const dst = byCarnet.get(target)!;
+    let foundInOriginal = false;
+    for (const [lang, tree] of src.trees) {
+      for (const [name, pf] of tree.files) {
+        const idx = pf.clusters.findIndex((c) => c.id === id);
+        if (idx < 0) continue;
+        if (lang === '_original') foundInOriginal = true;
+        const cluster = pf.clusters[idx];
+        const lines = [...cluster.lines];
+        const staying = pf.clusters.filter((_, i) => i !== idx);
+        // entry-level notes stay with the source entry
+        if (idx === pf.clusters.length - 1 && idx > 0) {
+          const tail = splitEntryTail(lines);
+          if (tail.length) pf.clusters[idx - 1].lines.push(...tail);
+        }
+        // footnote definitions the cluster uses but another cluster of the file holds
+        for (const label of footnoteRefs(lines)) {
+          if (footnoteDefs(lines).some((d) => d.label === label)) continue;
+          for (const o of staying) {
+            const d = footnoteDefs(o.lines).find((x) => x.label === label);
+            if (d) { lines.push('', ...o.lines.slice(d.start, d.end)); break; }
+          }
+        }
+        // …and definitions it holds that staying clusters still use
+        for (const d of footnoteDefs(cluster.lines)) {
+          const user = staying.find((o) => footnoteRefs(o.lines).has(d.label) && !footnoteDefs(o.lines).some((x) => x.label === d.label));
+          if (user) {
+            const tail = user.lines.length - trimTrailingBlank(user.lines).length;
+            user.lines.splice(user.lines.length - tail, 0, '', ...cluster.lines.slice(d.start, d.end));
+          }
+        }
+        pf.clusters.splice(idx, 1);
+        let dstTree = dst.trees.get(lang);
+        if (!dstTree) {
+          issues.warnings.push(`${lang}: ${id} exists in ${lang}/${src.carnet} but ${lang} has no carnet ${dst.carnet} — its translation is not carried`);
+          continue;
+        }
+        const vname = `${src.carnet}/${name}`;
+        let vf = dstTree.files.get(vname);
+        if (!vf) {
+          vf = { name: vname, fm: pf.fm ? [...pf.fm] : null, clusters: [], idlessBody: null, eofNewline: pf.eofNewline };
+          dstTree.files.set(vname, vf);
+        }
+        vf.clusters.push({ id, lines, origin: vname });
+        // keep source order inside the pseudo-file
+        const order = new Map((src.snapshot.get(name) ?? []).map((x, i) => [x, i]));
+        vf.clusters.sort((a, b) => (order.get(a.id) ?? 0) - (order.get(b.id) ?? 0));
+      }
+    }
+    if (!foundInOriginal) err(`${target} plan: ${id} does not exist in _original/${src.carnet}`);
+  }
+  return claims;
+}
+
+/**
+ * After the per-carnet mappings exist: old entry files whose paragraphs all
+ * went to another carnet redirect (and their links point) to where the first
+ * of them landed, as "CCC/file.md".
+ */
+export function linkMovedEntries(sets: CarnetSet[], mappings: Map<string, Mapping>): void {
+  const where = new Map<string, string>(); // old ID → new ID, whole run
+  for (const m of mappings.values()) for (const [o, n] of m.idMap) where.set(o, n);
+  for (const s of sets) {
+    const m = mappings.get(s.carnet)!;
+    for (const [file, ids] of s.snapshot) {
+      if (m.fileMap.has(file) || m.newFileIds.has(file)) continue;
+      const first = ids.map((id) => where.get(id)).find(Boolean);
+      if (!first) continue;
+      const nc = first.slice(0, 3);
+      const target = mappings.get(nc)!.fileOfNewId.get(first)!;
+      m.fileMap.set(file, nc === s.carnet ? target : `${nc}/${target}`);
+    }
+  }
 }
 
 /** A plan that reproduces the current layout (a template for plan authors). */
@@ -421,53 +554,70 @@ export interface Rewriter {
  *   - paragraph ID tokens `CCC.NNNN` (ID lines, comments, glossary citations, code)
  * Dropped IDs become `CCC.DROPPED-NNNN` / `#p-CCC-DROPPED-NNNN` so nothing points at a wrong paragraph.
  */
-export function makeRewriter(m: Mapping, opts: { footnoteLabels?: boolean } = {}): Rewriter {
-  const c = m.carnet;
-  const cNum = String(Number(c));
-  const alt = (names: string[]) =>
-    names.length ? names.map((o) => o.replace(/\.md$/, '')).sort((a, b) => b.length - a.length).map(escapeRe).join('|') : '(?!x)x';
-  const renamedAlt = alt([...m.fileMap].filter(([o, nw]) => o !== nw).map(([o]) => o));
-  const allAlt = alt([...m.fileMap.keys()]);
+export function makeRewriter(ms: Mapping | Mapping[], opts: { footnoteLabels?: boolean } = {}): Rewriter {
+  // Several mappings = a multi-carnet run: one pass over every carnet in the
+  // set, so an ID moved from 065 to 066 is never picked up again by 066's map.
+  const maps = Array.isArray(ms) ? ms : [ms];
+  const byCarnet = new Map(maps.map((m) => [m.carnet, m]));
+  const idMap = new Map<string, string>();
+  const dropped = new Set<string>();
+  const fileOfNewId = new Map<string, string>();
+  for (const m of maps) {
+    for (const [o, n] of m.idMap) idMap.set(o, n);
+    for (const d of m.dropped.keys()) dropped.add(d);
+    for (const [n, f] of m.fileOfNewId) fileOfNewId.set(n, f);
+  }
+  const cAlt = maps.map((m) => m.carnet).join('|');
+  const shortAlt = maps.flatMap((m) => [m.carnet, String(Number(m.carnet))]).join('|');
+  const BASE = '(\\d{4}-\\d{2}-\\d{2}[A-Za-z0-9-]*)';
   // Footnote labels are file-local; the short carnet form ("[^6.12.1]" for 006)
-  // is too ambiguous to rewrite outside the carnet's own files.
-  const fnAlt = opts.footnoteLabels ? `\\[\\^(${c}|${cNum})\\.(\\d{1,4})([a-z]?)\\.(\\d+)\\]` : '(?!x)x()()()()';
+  // is too ambiguous to rewrite outside the carnets' own files.
+  const fnAlt = opts.footnoteLabels ? `\\[\\^(${shortAlt})\\.(\\d{1,4})([a-z]?)\\.(\\d+)\\]` : '(?!x)x()()()()';
   const re = new RegExp(
     [
-      `(?<![\\w-])${c}/(${allAlt})((?:\\.md)?/?)#p-${c}-(\\d{4})(?!\\d)`, // 1 file, 2 sep, 3 para
-      `(?<![\\w-])${c}/(${renamedAlt})(?![\\w-])`, // 4 file
-      `#p-${c}-(\\d{4})(?!\\d)`, // 5 para
-      fnAlt, // 6 carnet form, 7 para, 8 suffix, 9 note
-      `(?<![\\w.])${c}\\.(\\d{4})(?![\\d])`, // 10 para
+      `(?<![\\w-])(${cAlt})/${BASE}((?:\\.md)?/?)#p-(${cAlt})-(\\d{4})(?!\\d)`, // 1 carnet, 2 file, 3 sep, 4 carnet, 5 para
+      `(?<![\\w-])(${cAlt})/${BASE}(?![\\w-])`, // 6 carnet, 7 file
+      `#p-(${cAlt})-(\\d{4})(?!\\d)`, // 8 carnet, 9 para
+      fnAlt, // 10 carnet form, 11 para, 12 suffix, 13 note
+      `(?<![\\w.])(${cAlt})\\.(\\d{4})(?![\\d])`, // 14 carnet, 15 para
     ].join('|'),
     'g',
   );
-  const newNum = (para: string): string | null => {
-    const id = `${c}.${pad4(Number(para))}`;
-    const nid = m.idMap.get(id);
-    return nid ? nid.slice(c.length + 1) : null;
+  const pad3 = (c: string) => c.padStart(3, '0');
+  const newIdOf = (c: string, para: string) => idMap.get(`${pad3(c)}.${pad4(Number(para))}`) ?? null;
+  const isDropped = (c: string, para: string) => dropped.has(`${pad3(c)}.${pad4(Number(para))}`);
+  const split = (id: string) => ({ c: id.slice(0, 3), n: id.slice(4) });
+  /** carnet/base the old entry `c/base` now lives at (itself when unchanged or unknown) */
+  const fileOf = (c: string, base: string): string => {
+    const target = byCarnet.get(c)?.fileMap.get(`${base}.md`);
+    if (!target) return `${c}/${base}`;
+    return target.includes('/') ? target.replace(/\.md$/, '') : `${c}/${target.replace(/\.md$/, '')}`;
   };
-  const isDropped = (para: string) => m.dropped.has(`${c}.${pad4(Number(para))}`);
-  const fileOf = (oldBase: string) => (m.fileMap.get(`${oldBase}.md`) ?? `${oldBase}.md`).replace(/\.md$/, '');
+  const pathOfNew = (nid: string) => `${split(nid).c}/${fileOfNewId.get(nid)!.replace(/\.md$/, '')}`;
 
   const rewriteSpan = (text: string) => {
     let hits = 0;
-    const out = text.replace(re, (whole, f1, s2, p3, f4, p5, fc6, fp7, fs8, fn9, p10) => {
+    const out = text.replace(re, (whole, c1, f2, s3, c4, p5, c6, f7, c8, p9, fc10, fp11, fs12, fn13, c14, p15) => {
       let rep = whole;
-      if (f1 !== undefined) {
-        const nn = newNum(p3);
-        if (nn) rep = `${c}/${m.fileOfNewId.get(`${c}.${nn}`)!.replace(/\.md$/, '')}${s2}#p-${c}-${nn}`;
-        else rep = `${c}/${fileOf(f1)}${s2}#p-${c}-${isDropped(p3) ? `DROPPED-${p3}` : p3}`;
-      } else if (f4 !== undefined) {
-        rep = `${c}/${fileOf(f4)}`;
-      } else if (p5 !== undefined) {
-        const nn = newNum(p5);
-        rep = nn ? `#p-${c}-${nn}` : isDropped(p5) ? `#p-${c}-DROPPED-${p5}` : whole;
-      } else if (fc6 !== undefined) {
-        const nn = newNum(fp7);
-        if (nn) rep = `[^${fc6}.${String(Number(nn)).padStart(fp7.length, '0')}${fs8}.${fn9}]`;
-      } else if (p10 !== undefined) {
-        const nn = newNum(p10);
-        rep = nn ? `${c}.${nn}` : isDropped(p10) ? `${c}.DROPPED-${p10}` : whole;
+      if (c1 !== undefined) {
+        const nid = newIdOf(c4, p5);
+        if (nid) rep = `${pathOfNew(nid)}${s3}#p-${split(nid).c}-${split(nid).n}`;
+        else rep = `${fileOf(c1, f2)}${s3}#p-${c4}-${isDropped(c4, p5) ? `DROPPED-${p5}` : p5}`;
+      } else if (c6 !== undefined) {
+        rep = fileOf(c6, f7);
+      } else if (c8 !== undefined) {
+        const nid = newIdOf(c8, p9);
+        rep = nid ? `#p-${split(nid).c}-${split(nid).n}` : isDropped(c8, p9) ? `#p-${c8}-DROPPED-${p9}` : whole;
+      } else if (fc10 !== undefined) {
+        const nid = newIdOf(fc10, fp11);
+        if (nid) {
+          const { c, n } = split(nid);
+          const form = fc10.length === 3 ? c : String(Number(c));
+          rep = `[^${form}.${String(Number(n)).padStart(fp11.length, '0')}${fs12}.${fn13}]`;
+        }
+      } else if (c14 !== undefined) {
+        const nid = newIdOf(c14, p15);
+        rep = nid ?? (isDropped(c14, p15) ? `${c14}.DROPPED-${p15}` : whole);
       }
       if (rep !== whole) hits++;
       return rep;
@@ -556,6 +706,8 @@ export interface RebuildContext {
   timestamp: string;
   /** Short label used in ED/RSR comments, e.g. "rebuild-carnet 068 (plan tome09.docx)" */
   label: string;
+  /** Multi-carnet run: _original file → IDs before clusters moved between carnets */
+  snapshot?: Map<string, string[]>;
 }
 
 /** Old _original ID list per entry file, for the "unchanged entry" test. */
@@ -736,7 +888,9 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
   const isOrig = tree.lang === '_original';
   const warnings: string[] = [];
   const result: TreeResult = { lang: tree.lang, files: new Map(), deleted: [], flagResets: [], warnings };
-  const oldLists = oldIdLists(original);
+  // "unchanged entry" compares with the files as they were on disk, before any
+  // cluster left for another carnet (a file that lost one has changed)
+  const oldLists = ctx.snapshot ? new Map([...ctx.snapshot].map(([f, ids]) => [f, ids.join(',')])) : oldIdLists(original);
   const origOldIdOfNew = new Map<string, string>();
   for (const [o, nw] of mapping.idMap) origOldIdOfNew.set(nw, o);
 
@@ -765,7 +919,12 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
   }
   const tailsByNewFile = new Map<string, string[]>();
   for (const [name, tail] of tails) {
-    const dest = mapping.fileMap.get(name) ?? (mapping.newFileIds.has(name) ? name : undefined);
+    let dest = mapping.fileMap.get(name) ?? (mapping.newFileIds.has(name) ? name : undefined);
+    if (!dest && isImportName(name)) {
+      // a whole entry imported from another carnet: its notes go where its first paragraph went
+      const first = tree.files.get(name)!.clusters.map((c) => mapping.idMap.get(c.id)).find(Boolean);
+      dest = first ? mapping.fileOfNewId.get(first) : undefined;
+    }
     if (!dest) { warnings.push(`${tree.lang}/${name}: entry-level notes dropped with the entry: ${tail.filter((l) => l.trim()).join(' | ').slice(0, 120)}`); continue; }
     if (!tailsByNewFile.has(dest)) tailsByNewFile.set(dest, []);
     tailsByNewFile.get(dest)!.push(...tail);
@@ -785,7 +944,7 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
   const eofDefault = [...tree.files.values()].filter((f) => f.eofNewline).length * 2 >= tree.files.size;
   // A translation tree that lacks some source entries is partial: it only gets
   // the entries it already has paragraphs for.
-  const treeComplete = [...original.files.keys()].every((f) => tree.files.has(f));
+  const treeComplete = [...original.files.keys()].filter((f) => !isImportName(f)).every((f) => tree.files.has(f));
 
   for (const entry of plan.entries) {
     const ids = mapping.newFileIds.get(entry.file)!;
@@ -901,7 +1060,7 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
     result.files.set(entry.file, text);
   }
 
-  for (const name of tree.files.keys()) if (!result.files.has(name)) result.deleted.push(name);
+  for (const name of tree.files.keys()) if (!result.files.has(name) && !isImportName(name)) result.deleted.push(name);
   // Clusters in this tree that the plan does not reach (translation-only IDs)
   for (const id of oldFileOfId.keys()) {
     if (!mapping.idMap.has(id) && !mapping.dropped.has(id)) warnings.push(`${tree.lang}: paragraph ${id} exists only in this tree and was not carried over`);
@@ -1015,6 +1174,8 @@ function rewriteFrontmatter(fm: string[], entry: PlanEntry, ids: string[], isOri
   else if (oldEntryId && oldEntryId === oldDate) fmSet(fm, 'entry_id', entry.date);
   // A range-style date ("1876-11-12-15") on a file that keeps its name stays as it is.
   if (!(oldDate && oldDate.startsWith(entry.date) && baseName === entry.file)) fmSet(fm, 'date', entry.date);
+  // new IDs belong to the plan's carnet; a base may come from another carnet's entry
+  if (ids.length) fmSet(fm, 'carnet', ids[0].slice(0, 3));
   const nums = ids.map((id) => Number(id.split('.')[1]));
   if (nums.length) {
     const [start, end] = [nums[0], nums[nums.length - 1]];
@@ -1120,14 +1281,20 @@ export function formatTimestamp(d: Date = new Date()): string {
 
 // --- outputs -------------------------------------------------------------------------
 
-export function mapJson(plan: Plan, m: Mapping, planPath: string, trees: TreeResult[], date: string) {
+export function mapJson(plan: Plan, m: Mapping, planPath: string, trees: TreeResult[], date: string, cross: { movedOut?: Record<string, string>; runCarnets?: string[] } = {}) {
   const newParas = [...m.planParaOfNewId].filter(([, p]) => p.new).map(([id]) => ({ id, file: m.fileOfNewId.get(id) }));
+  const own = [...m.idMap].filter(([o]) => o.startsWith(`${m.carnet}.`));
+  const movedIn = [...m.idMap].filter(([o]) => !o.startsWith(`${m.carnet}.`));
   return {
     carnet: m.carnet,
     date,
     plan_path: planPath,
     plan_source: plan.source ?? null,
-    id_map: Object.fromEntries(m.idMap),
+    ...(cross.runCarnets ? { run_carnets: cross.runCarnets } : {}),
+    // every old ID of this carnet → its new ID (possibly in another carnet of the run)
+    id_map: Object.fromEntries([...own, ...Object.entries(cross.movedOut ?? {})].sort(([a], [b]) => a.localeCompare(b))),
+    ...(movedIn.length ? { moved_in: Object.fromEntries(movedIn) } : {}),
+    ...(cross.movedOut && Object.keys(cross.movedOut).length ? { moved_out: cross.movedOut } : {}),
     changed_ids: [...m.idMap].filter(([o, n]) => o !== n).length,
     new_paragraphs: newParas,
     dropped: [...m.dropped].map(([id, reason]) => ({ id, reason, rewritten_as: id.replace('.', '.DROPPED-') })),
@@ -1140,12 +1307,16 @@ export function mapJson(plan: Plan, m: Mapping, planPath: string, trees: TreeRes
   };
 }
 
-export function sqlRemap(m: Mapping, date: string): string {
-  const pairs = [...m.idMap].filter(([o, n]) => o !== n);
-  const dropped = [...m.dropped.keys()];
-  const table = `renumber_${m.carnet}`;
+export function sqlRemap(ms: Mapping | Mapping[], date: string): string {
+  const maps = Array.isArray(ms) ? ms : [ms];
+  // One statement for the whole run: with per-carnet files, 065.0412→066.0123
+  // followed by 066's own 066.0123→066.0130 would chain.
+  const pairs = maps.flatMap((m) => [...m.idMap].filter(([o, n]) => o !== n));
+  const dropped = maps.flatMap((m) => [...m.dropped.keys()]);
+  const names = maps.map((m) => m.carnet);
+  const table = `renumber_${names.join('_')}`;
   const out = [
-    `-- rebuild-carnet ${m.carnet} (${date}): remap reader reports to the new paragraph IDs.`,
+    `-- rebuild-carnet ${names.join(' + ')} (${date}): remap reader reports to the new paragraph IDs.`,
     `-- paragraph_reports is the only table keyed by paragraph ID (src/auth/init.sql).`,
     `-- Reading history / bookmarks live in each reader's localStorage and cannot be remapped here.`,
     `-- One UPDATE through a mapping table, so a chain like 0005→0006→0007 cannot double-apply.`,
@@ -1180,7 +1351,8 @@ export function mergeRedirects(existing: Record<string, string>, m: Mapping, tre
     for (const f of m.newFileIds.keys()) liveNow.add(`/${seg}/${m.carnet}/${f.replace(/\.md$/, '')}`);
     for (const [o, n] of renamed) {
       const from = `/${seg}/${m.carnet}/${o.replace(/\.md$/, '')}`;
-      const to = `/${seg}/${m.carnet}/${n.replace(/\.md$/, '')}/`;
+      // a target "066/x.md" lies in another carnet of a multi-carnet run
+      const to = n.includes('/') ? `/${seg}/${n.replace(/\.md$/, '')}/` : `/${seg}/${m.carnet}/${n.replace(/\.md$/, '')}/`;
       for (const k of Object.keys(out)) if (out[k] === `${from}/`) out[k] = to;
       out[from] = to;
     }

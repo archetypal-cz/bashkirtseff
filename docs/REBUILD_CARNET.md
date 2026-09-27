@@ -24,6 +24,7 @@ just rebuild-carnet 068 plan.json          # dry run: validation, id map, per-tr
 just rebuild-carnet 068 plan.json --emit /tmp/x   # also write the would-be files under /tmp/x
 just rebuild-carnet 068 plan.json --write  # apply, write the map/SQL/redirects, run the check
 just renumber-check 068                    # post-apply verifier (also run by --write)
+just rebuild-carnets p065.json p066.json [--write]   # several carnets in one run (see Multi-carnet runs)
 just test-rebuild-carnet                   # fixture tests
 ```
 
@@ -34,6 +35,34 @@ the rewritten reference files, and `content/_renumber/` together.
 The identity plan is a zero diff on 89 of 106 carnets (sweep of 2026-09-27;
 082 and 101 now also renumber, because a bare-date file and its `-evening`
 sibling were numbered in the other order — see Entry order).
+
+## Multi-carnet runs
+
+When paragraphs sit in the wrong carnet (a Livre boundary misplaced in
+extraction, clippings filed in a neighbouring notebook), rebuild the carnets
+involved together: `just rebuild-carnets plan-065.json plan-066.json …`
+(one ordinary plan per carnet; single-carnet mode is unchanged).
+
+- A plan places another carnet's paragraph with a plain `{"old": "065.0412"}`
+  wherever it belongs in reading order. The source carnet's plan simply does
+  not list it. Every carnet whose paragraph moves must have a plan in the run.
+- Validation covers the whole set: every old ID of every carnet in the run is
+  placed or dropped exactly once across all plans; a carnet can drop only its
+  own paragraphs; the usual per-carnet checks apply to each plan.
+- The whole cluster moves in every tree (tags, notes, embedded French,
+  translation, footnote definitions it uses — copied, so the source keeps any
+  it still needs). Entry-level notes stay with the source entry. Translation
+  flags reset on both sides, except for an entry that arrives whole and
+  unchanged (it keeps its flags; frontmatter `carnet:` is updated).
+- All carnets are renumbered and all references rewritten in **one pass**, so
+  `065.0412 → 066.0123` is never mapped again by 066's own renumbering.
+  Old entry files whose paragraphs all left for another carnet redirect there.
+- Outputs: one `CCC-<date>.json` per carnet (its `id_map` covers every old ID
+  of that carnet, with `moved_out` / `moved_in`), **one** SQL file for the run
+  (`065+066-<date>.sql` — separate files would chain), and the redirects.
+- Internally the moved clusters sit in the target carnet as pseudo-files named
+  `<source carnet>/<source file>` while the single-carnet machinery runs; ED
+  comments name them that way.
 
 ## Entry order
 

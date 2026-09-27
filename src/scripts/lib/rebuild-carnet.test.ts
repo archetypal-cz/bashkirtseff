@@ -414,3 +414,160 @@ test('cover entry sorts first, plan order must match file order, redirect_from o
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+const ORIG_098 = `---
+date: 1879-12-30
+entry_id: 1879-12-30
+carnet: "098"
+location: Paris
+para_start: 1
+para_end: 3
+---
+%% 098.0001 %%
+# Mardi 30 décembre 1879
+Fin du livre précédent.
+
+%% 098.0002 %%
+Encore une ligne[^9].
+
+[^9]: Note nine, used by 098.0002 and 098.0003.
+
+%% 098.0003 %%
+Ceci appartient au livre suivant[^9].
+
+%% 2026-01-03T10:00:00 CON: APPROVED — entry 1879-12-30 %%
+`;
+
+const ORIG_098_B = `---
+date: 1879-12-31
+entry_id: 1879-12-31
+carnet: "098"
+location: Paris
+para_start: 4
+para_end: 4
+---
+%% 098.0004 %%
+# Mercredi 31 décembre 1879
+Un jour entier mal classé.
+`;
+
+const CZ_098 = `---
+date: 1879-12-30
+carnet: "098"
+translation_complete: true
+editor_approved: true
+conductor_approved: true
+---
+
+%% 098.0001 %%
+# Úterý 30. prosince 1879
+%% Fin du livre précédent. %%
+Konec předchozí knihy.
+
+%% 098.0002 %%
+%% Encore une ligne. %%
+Ještě řádek[^098.2.1].
+
+[^098.2.1]: Pozn.
+
+%% 098.0003 %%
+%% Ceci appartient au livre suivant. %%
+Tohle patří do další knihy.
+`;
+
+const CZ_098_B = `---
+date: 1879-12-31
+carnet: "098"
+translation_complete: true
+editor_approved: true
+conductor_approved: true
+---
+
+%% 098.0004 %%
+# Středa 31. prosince 1879
+%% Un jour entier mal classé. %%
+Celý den zařazený jinam.
+`;
+
+test('multi-carnet run: clusters move between carnets in every tree, one pass renumbers both', () => {
+  const root = makeRepo();
+  const w = (rel: string, text: string) => {
+    fs.mkdirSync(path.dirname(path.join(root, rel)), { recursive: true });
+    fs.writeFileSync(path.join(root, rel), text);
+  };
+  try {
+    w('content/_original/098/1879-12-30.md', ORIG_098);
+    w('content/_original/098/1879-12-31.md', ORIG_098_B);
+    w('content/cz/098/1879-12-30.md', CZ_098);
+    w('content/cz/098/1879-12-31.md', CZ_098_B);
+    w('content/_original/_glossary/people/X.md', 'See 098.0003, 098.0004, 099.0001 and [it](/cz/098/1879-12-31/#p-098-0004).\n');
+
+    const p098: Plan = { carnet: '098', entries: [{ file: '1879-12-30.md', date: '1879-12-30', paragraphs: [{ old: '098.0001' }, { old: '098.0002' }] }] };
+    const p099: Plan = {
+      carnet: '099',
+      entries: [
+        { file: '1879-12-31.md', date: '1879-12-31', paragraphs: [{ old: '098.0004' }] },
+        { file: '1880-01-01.md', date: '1880-01-01', paragraphs: [{ old: '098.0003' }, { old: '099.0001' }, { old: '099.0002' }, { old: '099.0003' }] },
+        { file: '1880-01-02.md', date: '1880-01-02', paragraphs: [{ old: '099.0004' }, { old: '099.0005' }] },
+      ],
+    };
+    const a = path.join(root, 'p098.json'), b = path.join(root, 'p099.json');
+    fs.writeFileSync(a, JSON.stringify(p098));
+    fs.writeFileSync(b, JSON.stringify(p099));
+
+    // a paragraph placed twice across the run is refused
+    const dup: Plan = JSON.parse(JSON.stringify(p098));
+    dup.entries[0].paragraphs.push({ old: '098.0004' });
+    fs.writeFileSync(path.join(root, 'dup.json'), JSON.stringify(dup));
+    const bad = run(root, '--multi', path.join(root, 'dup.json'), b);
+    assert.equal(bad.code, 1);
+    assert.match(bad.out, /098\.0004 is placed or dropped 2 times/);
+
+    const wr = run(root, '--multi', a, b, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    assert.match(wr.out, /renumber-check 098[\s\S]*RESULT: PASS[\s\S]*renumber-check 099[\s\S]*RESULT: PASS/);
+
+    // 098 keeps two paragraphs; its entry keeps the CON note and the footnote 098.0002 still needs
+    const o98 = read(root, 'content/_original/098/1879-12-30.md');
+    assert.match(o98, /%% 098\.0002 %%\nEncore une ligne\[\^9\]\.\n\n\[\^9\]: Note nine/);
+    assert.match(o98, /CON: APPROVED — entry 1879-12-30/);
+    assert.doesNotMatch(o98, /098\.0003/);
+    assert.ok(!fs.existsSync(path.join(root, 'content/_original/098/1879-12-31.md')));
+    const c98 = read(root, 'content/cz/098/1879-12-30.md');
+    assert.match(c98, /^conductor_approved: false$/m, 'the entry that lost a paragraph to 099 is reset');
+    assert.match(c98, /\[\^098\.2\.1\]: Pozn\./);
+
+    // 099: the moved paragraphs come first, renumbered in 099; the moved one took its footnote along
+    const o99a = read(root, 'content/_original/099/1879-12-31.md');
+    assert.match(o99a, /^carnet: "099"$/m);
+    assert.match(o99a, /%% 099\.0001 %%\n# Mercredi 31 décembre 1879/);
+    const o99b = read(root, 'content/_original/099/1880-01-01.md');
+    assert.match(o99b, /%% 099\.0002 %%\nCeci appartient au livre suivant\[\^9\]\.[\s\S]*\[\^9\]: Note nine/);
+    assert.match(o99b, /%% 099\.0003 %%\n%% \[#Paris\]/);
+    const c99b = read(root, 'content/cz/099/1880-01-01.md');
+    assert.match(c99b, /%% 099\.0002 %%\n%% Ceci appartient au livre suivant\. %%\nTohle patří do další knihy\./);
+    const c99a = read(root, 'content/cz/099/1879-12-31.md');
+    assert.match(c99a, /Celý den zařazený jinam\./);
+    assert.match(c99a, /^conductor_approved: true$/m, 'a whole entry moved as is keeps its flags');
+    assert.match(c99a, /^carnet: "099"$/m);
+
+    // references: one pass across both carnets (098.0003→099.0002 is not re-mapped by 099's own map)
+    assert.equal(read(root, 'content/_original/_glossary/people/X.md'), 'See 099.0002, 099.0001, 099.0003 and [it](/cz/099/1879-12-31/#p-099-0001).\n');
+
+    // outputs: a map per carnet, one SQL, cross-carnet redirect
+    const files = fs.readdirSync(path.join(root, 'content/_renumber'));
+    const m98 = JSON.parse(read(root, `content/_renumber/${files.find((f) => /^098-.*\.json$/.test(f))}`));
+    assert.deepEqual(m98.moved_out, { '098.0003': '099.0002', '098.0004': '099.0001' });
+    assert.equal(m98.id_map['098.0004'], '099.0001');
+    const m99 = JSON.parse(read(root, `content/_renumber/${files.find((f) => /^099-.*\.json$/.test(f))}`));
+    assert.deepEqual(m99.moved_in, { '098.0004': '099.0001', '098.0003': '099.0002' });
+    const sql = read(root, `content/_renumber/${files.find((f) => /^098\+099-.*\.sql$/.test(f))}`);
+    assert.match(sql, /\('098\.0003', '099\.0002'\)/);
+    assert.match(sql, /\('099\.0001', '099\.0003'\)/);
+    assert.equal((sql.match(/UPDATE paragraph_reports/g) ?? []).length, 1);
+    const redirects = JSON.parse(read(root, 'content/_renumber/redirects.json'));
+    assert.equal(redirects['/cz/098/1879-12-31'], '/cz/099/1879-12-31/');
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
