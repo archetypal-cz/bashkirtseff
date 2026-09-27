@@ -46,6 +46,13 @@ export interface PlanParagraph {
   kind?: ParagraphKind;
   /** With `old` + `kind`: the marker's source */
   source?: string;
+  /**
+   * With `old`: the paragraph ends with the NEXT day's heading (an extraction
+   * artefact). The trailing heading line — and in translations the translated
+   * heading plus its embedded French — moves to the start of the next paragraph
+   * of the plan, in every tree.
+   */
+  heading_to_next?: boolean;
   /** A paragraph that does not exist yet */
   new?: PlanNewParagraph;
 }
@@ -317,6 +324,12 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
           checkKind(p.kind, p.source, `${where} ${old}`, err);
           planParaOfNewId.set(newId, p);
         }
+        if (p.heading_to_next !== undefined) {
+          if (p.heading_to_next !== true) err(`${where}: heading_to_next must be true when given`);
+          const cl = [...original.files.values()].flatMap((f) => f.clusters).find((c) => c.id === old);
+          if (cl && !trailingHeadingIdx(cl.lines).length) err(`${where}: heading_to_next on ${old}, but its French does not end with a heading line`);
+          planParaOfNewId.set(newId, p);
+        }
       } else {
         const np = p.new!;
         if (typeof np.french !== 'string' || !np.french.trim()) err(`${where}: new paragraph without french text`);
@@ -369,6 +382,7 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
     }
   }
   if (n > 9999) err(`carnet would have ${n} paragraphs — beyond 4 digits`);
+  if ([...planParaOfNewId].some(([id, p]) => p.heading_to_next && id === `${carnet}.${pad4(n)}`)) err('heading_to_next on the plan\'s last paragraph: there is no next paragraph');
 
   // old file → file holding its first surviving paragraph
   const fileMap = new Map<string, string>();
@@ -732,6 +746,16 @@ function textLineIdx(lines: string[]): number[] {
   return idx;
 }
 
+/** Is the first reader-visible line of the cluster a heading? */
+function hasLeadingHeading(lines: string[]): boolean {
+  for (const l of lines) {
+    const t = l.trim();
+    if (!t || t.startsWith('%%') || t.startsWith('[//]:') || FOOTNOTE_DEF_RE.test(l) || ID_LINE_RE.test(l)) continue;
+    return HEADING_RE.test(t);
+  }
+  return false;
+}
+
 function hasHeading(lines: string[]): boolean {
   return lines.some((l) => HEADING_RE.test(l.trim()));
 }
@@ -946,6 +970,23 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
   // the entries it already has paragraphs for.
   const treeComplete = [...original.files.keys()].filter((f) => !isImportName(f)).every((f) => tree.files.has(f));
 
+  // heading_to_next: heading blocks waiting for the next paragraph of the plan
+  const planOrder = plan.entries.flatMap((e) => mapping.newFileIds.get(e.file) ?? []);
+  const nextOf = new Map(planOrder.map((id, i) => [id, planOrder[i + 1]]));
+  const pendingHeading = new Map<string, string[]>();
+  const origClusterOf = new Map<string, string[]>();
+  for (const pf of original.files.values()) for (const c of pf.clusters) origClusterOf.set(c.id, c.lines);
+  const withPending = (newId: string, lines: string[]): string[] => {
+    const block = pendingHeading.get(newId);
+    if (!block) return lines;
+    pendingHeading.delete(newId);
+    if (hasLeadingHeading(lines)) {
+      warnings.push(`${tree.lang}: heading_to_next into ${newId}, which already has a heading — heading dropped: ${block.filter((l) => !l.startsWith('%%')).join(' ')}`);
+      return lines;
+    }
+    return insertLeadingHeading(lines, block, isOrig);
+  };
+
   for (const entry of plan.entries) {
     const ids = mapping.newFileIds.get(entry.file)!;
     const oldIds = ids.map((id) => origOldIdOfNew.get(id)).filter((x): x is string => !!x);
@@ -969,7 +1010,7 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
     for (const newId of ids) {
       const pp = mapping.planParaOfNewId.get(newId);
       if (pp?.new) {
-        parts.push({ origin: '(new)', lines: isOrig ? newOriginalCluster(newId, pp.new, ts) : newTranslationCluster(newId, pp.new, ts, tree.lang, frVisible) });
+        parts.push({ origin: '(new)', lines: withPending(newId, isOrig ? newOriginalCluster(newId, pp.new, ts) : newTranslationCluster(newId, pp.new, ts, tree.lang, frVisible)) });
         lastOrigin = null;
         continue;
       }
@@ -982,6 +1023,24 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
       let lines = src.map((l) => rewrite(l).text);
       if (pp?.set_french !== undefined) lines = applySetFrench(lines, oldId, newId, pp.set_french, isOrig, original, ts, label, tree.lang, warnings);
       if (pp?.kind) lines = setKindLine(lines, formatKindMarker(pp.kind, pp.source?.trim()));
+      if (pp?.heading_to_next) {
+        const fr = trailingHeadingIdx(origClusterOf.get(oldId) ?? []).map((i) => origClusterOf.get(oldId)![i].trim());
+        const next = nextOf.get(newId);
+        const nextPara = next ? mapping.planParaOfNewId.get(next) : undefined;
+        const nextOld = next ? origOldIdOfNew.get(next) : undefined;
+        const nextHasHeading = nextPara?.new
+          ? nextPara.new.french.split('\n').some((l) => HEADING_RE.test(l.trim()))
+          : nextOld ? hasLeadingHeading(clusterLines.get(nextOld) ?? []) : false;
+        const cut = cutTrailingHeading(lines, fr);
+        // a tree that already moved the heading has nothing to cut; one whose next
+        // paragraph already opens with a heading keeps its own where it is
+        if (cut.block.length && nextHasHeading) warnings.push(`${tree.lang}: heading_to_next on ${oldId}: the next paragraph already opens with a heading in this tree — trailing heading left in place`);
+        else if (cut.block.length) {
+          lines = cut.lines;
+          if (next) pendingHeading.set(next, cut.block);
+        }
+      }
+      lines = withPending(newId, lines);
       parts.push({ origin: oldFileOfId.get(oldId)!, lines, seq: seqOfId.get(oldId) });
       lastOrigin = oldFileOfId.get(oldId)!;
       carried++;
@@ -1060,6 +1119,9 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
     result.files.set(entry.file, text);
   }
 
+  for (const [id, block] of pendingHeading) {
+    warnings.push(`${tree.lang}: heading_to_next: ${id} is missing in this tree — heading not placed: ${block.filter((l) => !l.startsWith('%%')).join(' ')}`);
+  }
   for (const name of tree.files.keys()) if (!result.files.has(name) && !isImportName(name)) result.deleted.push(name);
   // Clusters in this tree that the plan does not reach (translation-only IDs)
   for (const id of oldFileOfId.keys()) {
@@ -1193,6 +1255,60 @@ function rewriteFrontmatter(fm: string[], entry: PlanEntry, ids: string[], isOri
     if (st >= 0 && lang !== 'fr') fmSet(fm, 'status', 'translation_pending', { anyIndent: true });
   }
   return fm;
+}
+
+/**
+ * Indices of the heading lines that close a cluster: headings after its last
+ * visible text line (footnote definitions, comments and blanks may follow).
+ */
+function trailingHeadingIdx(lines: string[]): number[] {
+  const out: number[] = [];
+  for (let i = lines.length - 1; i >= 0; i--) {
+    const t = lines[i].trim();
+    if (!t || t.startsWith('%%') || t.startsWith('[//]:') || FOOTNOTE_DEF_RE.test(lines[i]) || FOOTNOTE_CONT_RE.test(lines[i])) continue;
+    if (ID_LINE_RE.test(lines[i])) break;
+    if (HEADING_RE.test(t)) { out.unshift(i); continue; }
+    break;
+  }
+  return out;
+}
+
+/**
+ * heading_to_next: cut the trailing heading block out of a cluster. In a
+ * translation the block is the visible heading plus the embedded copy of the
+ * French heading (`%% # Jeudi 4 janvier 1877 %%` or without the `#`).
+ */
+function cutTrailingHeading(lines: string[], frenchHeadings: string[]): { lines: string[]; block: string[] } {
+  const idx = trailingHeadingIdx(lines);
+  if (!idx.length) return { lines, block: [] };
+  const plain = new Set(frenchHeadings.map((h) => h.replace(/^#+\s*/, '').trim()));
+  const embed = lines
+    .map((l, i) => ({ l, i }))
+    .filter(({ l }) => {
+      const m = l.trim().match(/^%%\s*(.*?)\s*%%$/);
+      return !!m && plain.has(m[1].replace(/^#+\s*/, '').trim());
+    })
+    .map(({ i }) => i);
+  const take = new Set([...embed, ...idx]);
+  const block = lines.filter((_, i) => take.has(i));
+  const rest = lines.filter((_, i) => !take.has(i));
+  // do not leave a dangling blank run where the heading was
+  while (rest.length > 1 && rest[rest.length - 1].trim() === '' && rest[rest.length - 2].trim() === '') rest.pop();
+  return { lines: rest, block };
+}
+
+/** Insert a moved heading block at the start of a cluster (before the text in _original, after ID/kind lines in a translation). */
+function insertLeadingHeading(lines: string[], block: string[], isOrig: boolean): string[] {
+  const out = [...lines];
+  if (isOrig) {
+    const at = textLineIdx(out)[0] ?? afterIdAndComments(out);
+    out.splice(at, 0, ...block.filter((l) => !l.trim().startsWith('%%')));
+  } else {
+    let at = out.findIndex((l) => ID_LINE_RE.test(l)) + 1;
+    while (at < out.length && KIND_LINE_PATTERN.test(out[at])) at++;
+    out.splice(at, 0, ...block);
+  }
+  return out;
 }
 
 /** Put the kind marker directly under the ID line, replacing any marker already in the cluster. */

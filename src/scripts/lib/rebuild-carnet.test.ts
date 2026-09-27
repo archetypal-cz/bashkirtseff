@@ -571,3 +571,55 @@ test('multi-carnet run: clusters move between carnets in every tree, one pass re
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('heading_to_next moves a trailing next-day heading into the next paragraph in every tree', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-rebuild-h-'));
+  const w = (rel: string, text: string) => {
+    fs.mkdirSync(path.dirname(path.join(root, rel)), { recursive: true });
+    fs.writeFileSync(path.join(root, rel), text);
+  };
+  try {
+    w('content/_original/097/1880-01-01-02.md', [
+      '---', 'date: 1880-01-01', 'carnet: "097"', 'para_start: 1', 'para_end: 3', '---',
+      '%% 097.0001 %%', '# Jeudi 1er janvier 1880', 'Un.', '',
+      '%% 097.0002 %%', 'Deux.', '# Vendredi 2 janvier 1880', '',
+      '%% 097.0003 %%', 'Trois.', '',
+    ].join('\n'));
+    w('content/cz/097/1880-01-01-02.md', [
+      '---', 'date: 1880-01-01', 'carnet: "097"', 'translation_complete: true', 'editor_approved: true', 'conductor_approved: true', '---', '',
+      '%% 097.0001 %%', '# Čtvrtek 1. ledna 1880', '%% Un. %%', 'Jedna.', '',
+      '%% 097.0002 %%', '%% Deux. %%', '%% # Vendredi 2 janvier 1880 %%', 'Dva.', '# Pátek 2. ledna 1880', '%% 2026-01-01T10:00:00 FAB: note %%', '',
+      '%% 097.0003 %%', '%% Trois. %%', 'Tři.', '',
+    ].join('\n'));
+    const plan: Plan = {
+      carnet: '097',
+      entries: [
+        { file: '1880-01-01.md', date: '1880-01-01', frontmatter_from: '1880-01-01-02.md', paragraphs: [{ old: '097.0001' }, { old: '097.0002', heading_to_next: true }] },
+        { file: '1880-01-02.md', date: '1880-01-02', frontmatter_from: '1880-01-01-02.md', paragraphs: [{ old: '097.0003' }] },
+      ],
+    };
+    const planPath = path.join(root, 'plan.json');
+    fs.writeFileSync(planPath, JSON.stringify(plan));
+    const wr = run(root, '097', planPath, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    assert.doesNotMatch(wr.out, /first paragraph has no date heading/);
+    const o1 = read(root, 'content/_original/097/1880-01-01.md');
+    assert.match(o1, /%% 097\.0002 %%\nDeux\.\n*$/);
+    const o2 = read(root, 'content/_original/097/1880-01-02.md');
+    assert.match(o2, /%% 097\.0003 %%\n# Vendredi 2 janvier 1880\nTrois\./);
+    const c1 = read(root, 'content/cz/097/1880-01-01.md');
+    assert.match(c1, /%% 097\.0002 %%\n%% Deux\. %%\nDva\.\n%% 2026-01-01T10:00:00 FAB: note %%/);
+    assert.doesNotMatch(c1, /Pátek/);
+    const c2 = read(root, 'content/cz/097/1880-01-02.md');
+    assert.match(c2, /%% 097\.0003 %%\n%% # Vendredi 2 janvier 1880 %%\n# Pátek 2\. ledna 1880\n%% Trois\. %%\nTři\./);
+
+    // only a paragraph that really ends with a heading may carry the flag
+    const bad: Plan = JSON.parse(JSON.stringify(plan));
+    (bad.entries[0].paragraphs[0] as { heading_to_next?: boolean }).heading_to_next = true;
+    fs.writeFileSync(planPath, JSON.stringify(bad));
+    const r = run(root, '097', planPath);
+    assert.equal(r.code, 1);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
