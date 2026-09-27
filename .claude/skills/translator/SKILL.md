@@ -254,7 +254,8 @@ When Marie uses English/Italian/Russian in the French text, follow the code-swit
 - Leave the `%% kind: … %%` line exactly where it is, directly under the ID; never translate or move it (its `source="…"` stays in the original too).
 - `clipping` / `letter`: the French is quoted with `> `; quote every line of your translation with `> ` as well (replace the scaffold `TODO` with `> …` lines). Translate a clipping in the register of 1870s journalism — formal, impersonal, period press formulas — not in Marie's voice; a copied letter keeps its writer's voice and forms of address.
 - `rayé`: a paragraph Marie struck out — translate it in full, plainly (the page draws the strike). Inline `[Rayé: …]` inside a paragraph follows your tree's existing convention.
-- `margin` / `other`: translate as usual.
+- `margin` / `cover` / `other`: translate as usual (a `cover` paragraph is what Marie wrote on the notebook's cover; keep its layout lines).
+- `editorial`: a bracketed note by the edition's editors about the manuscript (`[Marie est passée de la page 184 à 185…]`) — translate it, keep the brackets, neutral editorial register.
 
 **Period Vocabulary (from LAN notes)**
 

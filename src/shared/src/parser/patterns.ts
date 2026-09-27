@@ -74,18 +74,20 @@ export const EMBEDDED_ROLE_NOTE_PATTERN = new RegExp(
  * Kinds: clipping (pasted newspaper/printed matter), letter (a letter copied or
  * pinned into the notebook), rayé (a whole struck-out paragraph; words struck
  * inside a paragraph stay inline as `[Rayé: …]`), margin (marginal text),
- * other. `source` is optional and holds no double quote.
+ * cover (what Marie wrote on the notebook's cover or front pages; lives in the
+ * carnet's cover entry `<first-entry-date>-cover.md`), editorial (a bracketed
+ * note by the edition's editors about the physical manuscript), other. `source` is optional and holds no double quote.
  */
-export const PARAGRAPH_KINDS = ['clipping', 'letter', 'rayé', 'margin', 'other'] as const;
+export const PARAGRAPH_KINDS = ['clipping', 'letter', 'rayé', 'margin', 'cover', 'editorial', 'other'] as const;
 export type ParagraphKind = (typeof PARAGRAPH_KINDS)[number];
 
 /** The marker's body, comment wrapper stripped */
 export const KIND_CONTENT_PATTERN =
-  /^kind:\s*(clipping|letter|rayé|raye|margin|other)(?:\s+source="([^"]*)")?\s*$/;
+  /^kind:\s*(clipping|letter|rayé|raye|margin|cover|editorial|other)(?:\s+source="([^"]*)")?\s*$/;
 
 /** The whole marker line */
 export const KIND_LINE_PATTERN =
-  /^\s*%%\s*kind:\s*(clipping|letter|rayé|raye|margin|other)(?:\s+source="([^"]*)")?\s*%%\s*$/;
+  /^\s*%%\s*kind:\s*(clipping|letter|rayé|raye|margin|cover|editorial|other)(?:\s+source="([^"]*)")?\s*%%\s*$/;
 
 /** Parse a marker body (`kind: clipping source="…"`); `raye` is read as `rayé`. */
 export function parseKindMarker(content: string): { kind: ParagraphKind; source?: string } | null {

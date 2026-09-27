@@ -96,6 +96,18 @@ describe('paragraph kind helpers', () => {
     expect(html).toContain('<cite class="para-kind-source">Le &lt;Figaro&gt;</cite>');
     expect(wrapKindHtml('x', 'rayé', undefined, 'en')).toContain('<del class="para-kind-body">x</del>');
     expect(wrapKindHtml('x', 'margin', undefined, 'cz')).toContain('Na okraji');
+    expect(wrapKindHtml('[Marie est passée de la page 184 à 185]', 'editorial', undefined, 'original')).toContain('<span class="para-kind-label sr-only">');
+    expect(wrapKindHtml('x', 'cover', undefined, 'en')).toContain('Notebook cover');
+  });
+});
+
+describe('entry order', () => {
+  it('puts the cover entry first on its date, then the bare date, then suffixes', async () => {
+    const { compareEntryIds, isCoverEntryId } = await import('../content');
+    const ids = ['1878-10-04-evening', '1878-10-05', '1878-10-04', '1878-10-04-cover', '1878-10-04-05'];
+    expect(ids.sort(compareEntryIds)).toEqual(['1878-10-04-cover', '1878-10-04', '1878-10-04-05', '1878-10-04-evening', '1878-10-05']);
+    expect(isCoverEntryId('1878-10-04-cover')).toBe(true);
+    expect(isCoverEntryId('1878-10-04')).toBe(false);
   });
 });
 

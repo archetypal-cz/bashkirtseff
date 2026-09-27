@@ -207,6 +207,27 @@ function parseDateFromEntryId(entryId: string): Date {
 }
 
 /**
+ * Reading order of a carnet's entry IDs: by date; on the same date the
+ * carnet's cover entry (`<date>-cover`, what Marie wrote on the notebook's
+ * cover or front pages, dated like the first entry) comes first; otherwise
+ * plain string order ("1874-02-14" before "1874-02-14-15" before
+ * "1874-02-14-evening"). Same rule as entryOrder() in
+ * src/scripts/lib/rebuild-carnet-core.ts, which numbers paragraphs in it.
+ */
+export function compareEntryIds(a: string, b: string): number {
+  const da = a.slice(0, 10), db = b.slice(0, 10);
+  if (da !== db) return da < db ? -1 : 1;
+  const ca = a.endsWith('-cover'), cb = b.endsWith('-cover');
+  if (ca !== cb) return ca ? -1 : 1;
+  return a < b ? -1 : a > b ? 1 : 0;
+}
+
+/** A carnet's cover entry: `<YYYY-MM-DD>-cover` */
+export function isCoverEntryId(entryId: string): boolean {
+  return /^\d{4}-\d{2}-\d{2}-cover$/.test(entryId);
+}
+
+/**
  * Extract the calendar year from an entry ID by string arithmetic.
  * Timezone-independent (audit issue M8) — the entry ID already *is* the date.
  */
@@ -350,7 +371,7 @@ function computeCarnetEntries(carnetId: string, language: string = 'original'): 
   const dateEntries = allFiles
     .filter(f => DATE_PATTERN.test(f))
     .map(f => f.replace('.md', ''))
-    .sort();
+    .sort(compareEntryIds);
 
   // Check for section-based entries (Carnet 000 preface)
   const sectionEntries = allFiles

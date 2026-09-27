@@ -119,7 +119,9 @@
       "letter": "Copied letter",
       "raye": "Struck-out passage",
       "margin": "In the margin",
-      "other": "Inserted item"
+      "other": "Inserted item",
+      "cover": "Notebook cover",
+      "editorial": "Editors' note"
     }
   },
   "footer": {
@@ -428,7 +430,8 @@
       "other": "{count} words"
     },
     "drawing": "Drawing in the notebook",
-    "drawings": "Drawings in the notebook"
+    "drawings": "Drawings in the notebook",
+    "cover": "Notebook cover"
   },
   "history": {
     "title": "Reading History",

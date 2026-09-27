@@ -1,7 +1,8 @@
 /**
  * Paragraph kinds: material Marie put in her notebooks that is not her running
  * diary text — pasted newspaper clippings, copied letters, struck-out passages,
- * marginal notes. In content files a kind is one marker line directly under the
+ * marginal notes, notebook covers, the editors' notes on the physical
+ * manuscript. In content files a kind is one marker line directly under the
  * paragraph ID, identical in every tree (docs/REBUILD_CARNET.md, "Paragraph kinds"):
  *
  *   %% 068.0456 %%
@@ -15,11 +16,11 @@
 import { createT, contentPathToLocale } from '../i18n/astro';
 import { escapeHtml } from './original-html';
 
-export type ParagraphKind = 'clipping' | 'letter' | 'rayé' | 'margin' | 'other';
+export type ParagraphKind = 'clipping' | 'letter' | 'rayé' | 'margin' | 'cover' | 'editorial' | 'other';
 
 /** The whole marker line, `%%` wrapper included */
 export const KIND_LINE_PATTERN =
-  /^\s*%%\s*kind:\s*(clipping|letter|rayé|raye|margin|other)(?:\s+source="([^"]*)")?\s*%%\s*$/;
+  /^\s*%%\s*kind:\s*(clipping|letter|rayé|raye|margin|cover|editorial|other)(?:\s+source="([^"]*)")?\s*%%\s*$/;
 
 /** Read a kind marker line; `raye` is accepted for `rayé`. */
 export function parseKindLine(line: string): { kind: ParagraphKind; source?: string } | null {
@@ -53,6 +54,8 @@ const KEY: Record<ParagraphKind, string> = {
   letter: 'letter',
   'rayé': 'raye',
   margin: 'margin',
+  cover: 'cover',
+  editorial: 'editorial',
   other: 'other',
 };
 
@@ -72,7 +75,9 @@ export function wrapKindHtml(html: string, kind: ParagraphKind, source: string |
   const t = createT(labelLocale(contentPath));
   const label = escapeHtml(t(`paragraph.kind.${key}`));
   const cite = source ? `<span class="para-kind-sep" aria-hidden="true"> · </span><cite class="para-kind-source">${escapeHtml(source)}</cite>` : '';
-  const head = `<span class="para-kind-label"><span class="para-kind-name">${label}</span>${cite}</span>`;
+  // An editors' note is already bracketed in the text; its label is for screen readers only.
+  const labelClass = kind === 'editorial' ? 'para-kind-label sr-only' : 'para-kind-label';
+  const head = `<span class="${labelClass}"><span class="para-kind-name">${label}</span>${cite}</span>`;
   const quoted = kind === 'clipping' || kind === 'letter';
   const tag = quoted ? 'blockquote' : 'div';
   const body = kind === 'rayé' ? `<del class="para-kind-body">${html}</del>` : `<div class="para-kind-body">${html}</div>`;

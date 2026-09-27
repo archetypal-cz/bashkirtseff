@@ -104,7 +104,9 @@ const titleIsDateLine = titleDate.includes(entryYear) && titleDate.length <= 60 
 const formattedDate = entry.date?.toLocaleDateString(lang.dateLocale, {
   weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
 });
-const pageDate = entry.date && !titleIsDateLine && formattedDate
+const pageDate = entryDate!.endsWith('-cover')
+  ? t('diary.cover')
+  : entry.date && !titleIsDateLine && formattedDate
   ? formattedDate.charAt(0).toLocaleUpperCase(lang.dateLocale) + formattedDate.slice(1)
   : titleDate || entryDate!;
 

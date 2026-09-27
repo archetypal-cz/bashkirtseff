@@ -61,6 +61,8 @@ export interface PlanEntry {
   frontmatter_from?: string;
   /** Optional old ID-less entry file (empty_in_source) whose body is carried over verbatim */
   body_from?: string;
+  /** Old entry files whose URLs should redirect here (overrides "the file that got its first paragraph") */
+  redirect_from?: string[];
   paragraphs: PlanParagraph[];
 }
 
@@ -121,6 +123,26 @@ export function isEntryFileName(f: string): boolean {
   return /^\d{4}-\d{2}-\d{2}.*\.md$/.test(f);
 }
 
+/** A carnet's cover entry (text on the notebook's cover / front pages): `<first-entry-date>-cover.md` */
+export function isCoverFile(f: string): boolean {
+  return /^\d{4}-\d{2}-\d{2}-cover\.md$/.test(f);
+}
+
+/**
+ * Reading order of entry files: by date; on the same date the cover entry
+ * first; otherwise plain string order of the name without `.md`. Paragraph
+ * IDs run in this order. Same rule as compareEntryIds() in
+ * src/frontend/src/lib/content.ts (navigation, carnet listings).
+ */
+export function entryOrder(a: string, b: string): number {
+  const x = a.replace(/\.md$/, ''), y = b.replace(/\.md$/, '');
+  const da = x.slice(0, 10), db = y.slice(0, 10);
+  if (da !== db) return da < db ? -1 : 1;
+  const ca = x.endsWith('-cover'), cb = y.endsWith('-cover');
+  if (ca !== cb) return ca ? -1 : 1;
+  return x < y ? -1 : x > y ? 1 : 0;
+}
+
 export function parseEntryText(name: string, text: string): ParsedFile {
   const lines = text.split('\n');
   const eofNewline = text.endsWith('\n');
@@ -163,7 +185,7 @@ export function loadTree(contentRoot: string, lang: string, carnet: string): Car
   if (!fs.existsSync(dir) || !fs.statSync(dir).isDirectory()) return null;
   const files = new Map<string, ParsedFile>();
   const otherFiles: string[] = [];
-  for (const f of fs.readdirSync(dir).sort()) {
+  for (const f of fs.readdirSync(dir).sort(entryOrder)) {
     const full = path.join(dir, f);
     if (!fs.statSync(full).isFile()) continue;
     if (isEntryFileName(f)) files.set(f, parseEntryText(f, fs.readFileSync(full, 'utf-8')));
@@ -303,6 +325,32 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
     }
   }
 
+  // Plan order is reading order, and paragraph IDs must run in file-name order:
+  // the two have to agree (a cover entry first, then by date).
+  const names = (plan.entries ?? []).map((e) => e?.file).filter((f): f is string => typeof f === 'string');
+  const sorted = [...names].sort(entryOrder);
+  const firstOff = names.findIndex((f, i) => f !== sorted[i]);
+  if (firstOff >= 0) err(`entry order: ${names[firstOff]} is listed where ${sorted[firstOff]} sorts — list entries in file-name order (by date; a cover entry first on its date)`);
+  names.forEach((f, i) => {
+    if (isCoverFile(f) && i !== 0) err(`${f}: a cover entry must be the carnet's first entry`);
+  });
+  if (names.length > 1 && isCoverFile(names[0]) && names[1].slice(0, 10) !== names[0].slice(0, 10)) {
+    warn(`${names[0]}: a cover entry takes the date of the carnet's first dated entry (${names[1].slice(0, 10)})`);
+  }
+
+  // redirect_from: explicit old-URL targets
+  const redirectFrom = new Map<string, string>();
+  for (const e of plan.entries ?? []) {
+    if (e?.redirect_from === undefined) continue;
+    if (!Array.isArray(e.redirect_from)) { err(`entry ${e.file}: redirect_from must be a list of old file names`); continue; }
+    for (const old of e.redirect_from) {
+      if (typeof old !== 'string' || !original.files.has(old)) err(`entry ${e.file}: redirect_from ${JSON.stringify(old)} is not a file of _original/${carnet}`);
+      else if (planFiles.has(old)) err(`entry ${e.file}: redirect_from ${old} is still a live entry in the plan`);
+      else if (redirectFrom.has(old)) err(`redirect_from ${old} listed by both ${redirectFrom.get(old)} and ${e.file}`);
+      else redirectFrom.set(old, e.file);
+    }
+  }
+
   const missing = oldOrder.filter((id) => !seen.has(id) && !dropped.has(id));
   if (missing.length) err(`plan omits ${missing.length} existing ID(s) (place them or list them in "drop"): ${missing.slice(0, 20).join(', ')}${missing.length > 20 ? ' …' : ''}`);
   const droppedFiles = new Set((plan.drop_files ?? []).map((d) => d.file));
@@ -317,6 +365,7 @@ export function buildMapping(plan: Plan, original: CarnetTree, issues: Issues): 
   const fileMap = new Map<string, string>();
   for (const [name, pf] of original.files) {
     if (planFiles.has(name)) { fileMap.set(name, name); continue; }
+    if (redirectFrom.has(name)) { fileMap.set(name, redirectFrom.get(name)!); continue; }
     if (pf.idlessBody !== null) {
       const e = plan.entries.find((x) => x.body_from === name);
       if (e) fileMap.set(name, e.file);
@@ -400,7 +449,7 @@ export function makeRewriter(m: Mapping, opts: { footnoteLabels?: boolean } = {}
   const isDropped = (para: string) => m.dropped.has(`${c}.${pad4(Number(para))}`);
   const fileOf = (oldBase: string) => (m.fileMap.get(`${oldBase}.md`) ?? `${oldBase}.md`).replace(/\.md$/, '');
 
-  return (text: string) => {
+  const rewriteSpan = (text: string) => {
     let hits = 0;
     const out = text.replace(re, (whole, f1, s2, p3, f4, p5, fc6, fp7, fs8, fn9, p10) => {
       let rep = whole;
@@ -425,7 +474,24 @@ export function makeRewriter(m: Mapping, opts: { footnoteLabels?: boolean } = {}
     });
     return { text: out, hits };
   };
+  // Pragmas: `rebuild-carnet: keep-file` anywhere keeps the whole text,
+  // `rebuild-carnet: keep` keeps its own line (examples, historical citations).
+  return (text: string) => {
+    if (text.includes(KEEP_FILE_PRAGMA)) return { text, hits: 0 };
+    if (!text.includes(KEEP_PRAGMA)) return rewriteSpan(text);
+    let hits = 0;
+    const lines = text.split('\n').map((line) => {
+      if (line.includes(KEEP_PRAGMA)) return line;
+      const r = rewriteSpan(line);
+      hits += r.hits;
+      return r.text;
+    });
+    return { text: lines.join('\n'), hits };
+  };
 }
+
+export const KEEP_PRAGMA = 'rebuild-carnet: keep';
+export const KEEP_FILE_PRAGMA = 'rebuild-carnet: keep-file';
 
 // --- frontmatter (line-level, so untouched keys keep their formatting) ------------
 
@@ -1015,21 +1081,31 @@ function applySetFrench(lines: string[], oldId: string, newId: string, french: s
 
 // --- repo-wide rewrite ------------------------------------------------------------
 
-export const REWRITE_EXTENSIONS = new Set(['.md', '.ts', '.js', '.mjs', '.cjs', '.json', '.yaml', '.yml', '.astro', '.vue', '.txt', '.csv', '.sql', '.py', '.html', '.sh', '.toml', '.awk']);
-/** Paths (relative to the repo root) never rewritten: history, raw material, the maps themselves. */
-export const REWRITE_EXCLUDES = ['.git', 'node_modules', 'dist', '.astro', '.claude/reports', 'content/_raw', 'content/_renumber', '.venv', '__pycache__', 'raw_books'];
+export const REWRITE_EXTENSIONS = new Set(['.md', '.json', '.yaml', '.yml', '.txt', '.csv']);
+/**
+ * Scope of the reference rewrite: the content tree only. Code, docs, skills
+ * and root notes cite paragraph IDs as examples or history (a real 068 run
+ * rewrote examples in this file, docs/VERIFY_CARNET_GATE.md, i18n/index.ts
+ * and issues_plan.md), so they are never touched. Inside content/, these are
+ * skipped too: raw material, the rebuild maps themselves, and CLAUDE.md
+ * guidance files (examples). A file containing `rebuild-carnet: keep-file`
+ * and a line containing `rebuild-carnet: keep` are left alone as well.
+ */
+export const REWRITE_ROOTS = ['content'];
+export const REWRITE_EXCLUDES = ['content/_raw', 'content/_renumber'];
+export const REWRITE_SKIP_FILES = new Set(['CLAUDE.md']);
 
 export function* walkRewritable(root: string, skipDirs: string[]): Generator<string> {
   const skip = new Set([...REWRITE_EXCLUDES, ...skipDirs].map((p) => path.join(root, p)));
-  const stack = [root];
+  const stack = REWRITE_ROOTS.map((r) => path.join(root, r)).filter((d) => fs.existsSync(d));
   while (stack.length) {
     const dir = stack.pop()!;
     for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
       const full = path.join(dir, ent.name);
       if (ent.isDirectory()) {
-        if (skip.has(full) || ent.name === 'node_modules' || ent.name === '.git' || ent.name === 'dist') continue;
+        if (skip.has(full) || ent.name === 'node_modules' || ent.name === '.git') continue;
         stack.push(full);
-      } else if (ent.isFile() && REWRITE_EXTENSIONS.has(path.extname(ent.name))) {
+      } else if (ent.isFile() && REWRITE_EXTENSIONS.has(path.extname(ent.name)) && !REWRITE_SKIP_FILES.has(ent.name)) {
         if (fs.statSync(full).size > 20 * 1024 * 1024) continue;
         yield full;
       }
@@ -1183,8 +1259,9 @@ export function checkCarnet(repoRoot: string, carnet: string, removedFiles: stri
   for (const file of walkRewritable(repoRoot, [])) {
     const rel = path.relative(repoRoot, file);
     const text = fs.readFileSync(file, 'utf-8');
-    if (!text.includes(carnet)) continue;
+    if (!text.includes(carnet) || text.includes(KEEP_FILE_PRAGMA)) continue;
     text.split('\n').forEach((line, i) => {
+      if (line.includes(KEEP_PRAGMA)) return;
       const at = `${rel}:${i + 1}`;
       for (const mm of line.matchAll(tokenRe)) {
         if (Number(mm[1]) > lastNum || Number(mm[1]) === 0) errors.push(`${at}: ${mm[0]} is beyond the carnet's last paragraph ${lastId}`);

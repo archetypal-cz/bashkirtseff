@@ -39,6 +39,7 @@ import {
   rebuildTree,
   sqlRemap,
   walkRewritable,
+  REWRITE_SKIP_FILES,
   type CarnetTree,
   type Issues,
   type Plan,
@@ -193,7 +194,7 @@ for (const r of results) {
   // Carnet docs (README.md …): references only
   for (const f of t.otherFiles) {
     const full = path.join(t.dir, f);
-    if (!/\.(md|json|ya?ml|txt)$/.test(f)) continue;
+    if (!/\.(md|json|ya?ml|txt)$/.test(f) || REWRITE_SKIP_FILES.has(f)) continue;
     const cur = fs.readFileSync(full, 'utf-8');
     const { text } = repoRewrite(cur);
     if (text !== cur) changes.push({ rel: path.relative(repoRoot, full), content: text });

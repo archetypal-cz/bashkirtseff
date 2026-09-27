@@ -120,7 +120,9 @@
       "letter": "Opsaný dopis",
       "raye": "Přeškrtnutá pasáž",
       "margin": "Na okraji",
-      "other": "Vložený list"
+      "other": "Vložený list",
+      "cover": "Obálka sešitu",
+      "editorial": "Poznámka editorů"
     }
   },
   "footer": {
@@ -437,7 +439,8 @@
       "other": "{count} slov"
     },
     "drawing": "Kresba v sešitě",
-    "drawings": "Kresby v sešitě"
+    "drawings": "Kresby v sešitě",
+    "cover": "Obálka sešitu"
   },
   "history": {
     "title": "Historie čtení",

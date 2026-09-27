@@ -119,7 +119,9 @@
       "letter": "Lettre recopiée",
       "raye": "Passage rayé",
       "margin": "En marge",
-      "other": "Pièce insérée"
+      "other": "Pièce insérée",
+      "cover": "Couverture du carnet",
+      "editorial": "Note des éditeurs"
     }
   },
   "footer": {
@@ -428,7 +430,8 @@
       "other": "{count} mots"
     },
     "drawing": "Dessin du carnet",
-    "drawings": "Dessins du carnet"
+    "drawings": "Dessins du carnet",
+    "cover": "Couverture du carnet"
   },
   "history": {
     "title": "Historique de lecture",

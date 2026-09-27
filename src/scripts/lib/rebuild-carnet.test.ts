@@ -124,7 +124,9 @@ function makeRepo(): string {
   w('content/cz/099/1880-01-01.md', CZ_01);
   w('content/cz/099/1880-01-02.md', CZ_02);
   w('content/_original/_glossary/places/cities/PARIS.md', GLOSSARY);
-  w('docs/notes.md', 'Entry file: content/_original/099/1880-01-02.md\n');
+  w('docs/notes.md', 'Entry file: content/_original/099/1880-01-02.md, example 099.0003\n');
+  w('content/_original/_summary/notes.md', 'Entry file: ../099/1880-01-02.md; see 099.0003\nHistory: 099.0003 was split <!-- rebuild-carnet: keep -->\n');
+  w('content/cz/CLAUDE.md', 'Example: 099.0003\n');
   w('.claude/reports/old-run.md', 'History mentions 099.0003.\n');
   return root;
 }
@@ -263,6 +265,8 @@ test('dry run writes nothing; --write moves clusters, inserts, rewrites refs, re
     assert.match(g, /Not ours: 098\.0003, SUM\.099\.0003, 1099\.0003\./);
     assert.equal(read(root, 'content/_original/099/README.md'), 'Carnet 099 — see 099.0004.\n');
     assert.equal(read(root, '.claude/reports/old-run.md'), 'History mentions 099.0003.\n');
+    assert.equal(read(root, 'content/_original/_summary/notes.md'), 'Entry file: ../099/1880-01-02.md; see 099.0004\nHistory: 099.0003 was split <!-- rebuild-carnet: keep -->\n');
+    assert.equal(read(root, 'docs/notes.md'), 'Entry file: content/_original/099/1880-01-02.md, example 099.0003\n');
 
     // outputs
     const maps = fs.readdirSync(path.join(root, 'content/_renumber'));
@@ -304,7 +308,10 @@ test('a pure rename keeps approval flags and records a redirect', () => {
     assert.ok(!fs.existsSync(path.join(root, 'content/cz/099/1880-01-02.md')));
     const c = read(root, 'content/cz/099/1880-01-02-03.md');
     assert.equal(c, CZ_02, 'same paragraph set: file content and flags unchanged');
-    assert.equal(read(root, 'docs/notes.md'), 'Entry file: content/_original/099/1880-01-02-03.md\n');
+    assert.equal(read(root, 'content/_original/_summary/notes.md'), 'Entry file: ../099/1880-01-02-03.md; see 099.0003\nHistory: 099.0003 was split <!-- rebuild-carnet: keep -->\n');
+    // code/docs and CLAUDE.md guidance are outside the rewrite scope
+    assert.equal(read(root, 'docs/notes.md'), 'Entry file: content/_original/099/1880-01-02.md, example 099.0003\n');
+    assert.equal(read(root, 'content/cz/CLAUDE.md'), 'Example: 099.0003\n');
     const redirects = JSON.parse(read(root, 'content/_renumber/redirects.json'));
     assert.equal(redirects['/cz/099/1880-01-02'], '/cz/099/1880-01-02-03/');
     assert.equal(redirects['/original/099/1880-01-02'], '/original/099/1880-01-02-03/');
@@ -365,7 +372,44 @@ test('new clipping / old letter: kind marker, blockquote and clipping tag in eve
     const original = loadTree(path.join(root, 'content'), '_original', '099')!;
     const issues: Issues = { errors: [], warnings: [] };
     buildMapping(bad, original, issues);
-    assert.match(issues.errors.join('\n'), /kind must be one of clipping, letter, rayé, margin, other/);
+    assert.match(issues.errors.join('\n'), /kind must be one of clipping, letter, rayé, margin, cover, editorial, other \(got "poster"\)/);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test('cover entry sorts first, plan order must match file order, redirect_from overrides the target', () => {
+  const root = makeRepo();
+  try {
+    const original = loadTree(path.join(root, 'content'), '_original', '099')!;
+    const plan: Plan = {
+      carnet: '099',
+      entries: [
+        { file: '1880-01-01-cover.md', date: '1880-01-01', paragraphs: [{ new: { kind: 'cover', french: '# Couverture\nJournal. Livre 99.', rsr: 'Cover text; fixture.docx ¶1.' } }] },
+        { file: '1880-01-01.md', date: '1880-01-01', paragraphs: [{ old: '099.0001' }, { old: '099.0002' }, { old: '099.0003' }, { old: '099.0004' }] },
+        { file: '1880-01-03.md', date: '1880-01-03', redirect_from: ['1880-01-02.md'], paragraphs: [{ old: '099.0005' }] },
+      ],
+    };
+    const issues: Issues = { errors: [], warnings: [] };
+    const m = buildMapping(plan, original, issues);
+    assert.deepEqual(issues.errors, []);
+    assert.equal(m.idMap.get('099.0001'), '099.0002', 'the cover paragraph is 0001');
+    assert.equal(m.fileMap.get('1880-01-02.md'), '1880-01-03.md', 'redirect_from wins over "first paragraph went to 1880-01-01"');
+
+    const swapped: Plan = { ...plan, entries: [plan.entries[1], plan.entries[0], plan.entries[2]] };
+    const bad: Issues = { errors: [], warnings: [] };
+    buildMapping(swapped, original, bad);
+    assert.match(bad.errors.join('\n'), /entry order: 1880-01-01\.md is listed where 1880-01-01-cover\.md sorts/);
+    assert.match(bad.errors.join('\n'), /a cover entry must be the carnet's first entry/);
+
+    const planPath = path.join(root, 'plan.json');
+    fs.writeFileSync(planPath, JSON.stringify(plan));
+    const wr = run(root, '099', planPath, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    assert.match(read(root, 'content/_original/099/1880-01-01-cover.md'), /%% 099\.0001 %%\n%% kind: cover %%\n%% [^\n]+RSR: Cover text[^\n]+%%\n# Couverture\nJournal\. Livre 99\./);
+    assert.deepEqual(fs.readdirSync(path.join(root, 'content/cz/099')).sort(), ['1880-01-01-cover.md', '1880-01-01.md', '1880-01-03.md']);
+    const redirects = JSON.parse(read(root, 'content/_renumber/redirects.json'));
+    assert.equal(redirects['/cz/099/1880-01-02'], '/cz/099/1880-01-03/');
   } finally {
     fs.rmSync(root, { recursive: true, force: true });
   }

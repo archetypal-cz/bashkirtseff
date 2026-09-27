@@ -88,7 +88,7 @@ Format: `%% XXX.YYYY %%`
 > Hier soir, à l'Opéra, …
 ```
 
-Kinds: `clipping`, `letter` (both quoted with `> `), `rayé`, `margin`, `other`. Words struck inside a paragraph stay inline as `[Rayé: …]`. Drawings from the scans are listed in the entry's frontmatter under `drawings:` (images in `src/frontend/public/images/marie/drawings/<carnet>/`). Full convention: `docs/REBUILD_CARNET.md`, "Paragraph kinds" and "Drawings".
+Kinds: `clipping`, `letter` (both quoted with `> `), `rayé`, `margin`, `cover` (text on the notebook's cover or front pages, in the carnet's cover entry `<first-entry-date>-cover.md`, which sorts before the first dated entry), `editorial` (the editors' bracketed notes on the physical manuscript), `other`. Words struck inside a paragraph stay inline as `[Rayé: …]`. Drawings from the scans are listed in the entry's frontmatter under `drawings:` (images in `src/frontend/public/images/marie/drawings/<carnet>/`). Full convention: `docs/REBUILD_CARNET.md`, "Paragraph kinds" and "Drawings".
 
 ## Carnet rebuild / renumbering
 

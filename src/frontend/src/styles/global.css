@@ -622,6 +622,27 @@ footer.site-footer {
     font-size: 0.9em;
   }
 
+  /* Notebook cover / front page: set like a title page */
+  .para-kind-cover {
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .para-kind-cover .para-kind-body {
+    font-family: var(--font-display);
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+  }
+
+  /* Editors' note on the physical manuscript: an aside, not diary text */
+  .para-kind-editorial .para-kind-body {
+    font-family: var(--font-sans);
+    font-size: 0.8em;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--text-muted);
+  }
+
   .para-kind-other {
     padding-left: 0.75rem;
     border-left: 1px solid var(--border-color);

@@ -119,7 +119,9 @@
       "letter": "Carta copiada",
       "raye": "Pasaje tachado",
       "margin": "Al margen",
-      "other": "Hoja insertada"
+      "other": "Hoja insertada",
+      "cover": "Cubierta del cuaderno",
+      "editorial": "Nota de los editores"
     }
   },
   "footer": {
@@ -428,7 +430,8 @@
       "other": "{count} palabras"
     },
     "drawing": "Dibujo del cuaderno",
-    "drawings": "Dibujos del cuaderno"
+    "drawings": "Dibujos del cuaderno",
+    "cover": "Cubierta del cuaderno"
   },
   "history": {
     "title": "Historial de lectura",

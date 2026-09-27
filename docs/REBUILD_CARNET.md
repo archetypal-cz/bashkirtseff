@@ -31,7 +31,22 @@ After `--write`, for `_original` and every tree: `just verify-carnet LANG 068`
 (PASS) and `just splicescan LANG 068` (empty). Then commit the carnet trees,
 the rewritten reference files, and `content/_renumber/` together.
 
-The identity plan is a zero diff on 89 of 106 carnets (sweep of 2026-09-27).
+The identity plan is a zero diff on 89 of 106 carnets (sweep of 2026-09-27;
+082 and 101 now also renumber, because a bare-date file and its `-evening`
+sibling were numbered in the other order — see Entry order).
+
+## Entry order
+
+Paragraph IDs run in the order the site reads a carnet's entries
+(`compareEntryIds` in `src/frontend/src/lib/content.ts`, `entryOrder` in the
+tool): by date; on the same date the cover entry first, then plain string order
+of the name without `.md` (`1878-10-04`, `1878-10-04-05`, `1878-10-04-evening`).
+The plan must list entries in that order. A **cover entry** holds what Marie
+wrote on the notebook's cover or front pages: it is named
+`<date of the carnet's first dated entry>-cover.md`, dated like that entry,
+comes first in the plan, and its paragraphs carry `kind: cover`. Navigation,
+carnet listings and year pages place it before the first dated entry, and it is
+labelled "Couverture du carnet" / "Notebook cover" instead of a date.
 The tool refuses carnets with duplicate IDs in any tree or legacy
 `[//]: # (NN.NNNN)` ID lines; fix those first.
 
@@ -53,6 +68,7 @@ The tool refuses carnets with duplicate IDs in any tree or legacy
       "date": "1877-01-19",
       "heading": "Vendredi 19 janvier 1877",   // optional, see Headings
       "frontmatter_from": "1877-01-10-18.md",  // optional, see Frontmatter
+      "redirect_from": ["1877-01-10-18.md"],   // optional: old entry URLs that redirect here
       "paragraphs": [
         { "old": "CCC.0261" },
         { "old": "CCC.0262", "set_french": "Only the first half of the old text." },
@@ -82,7 +98,9 @@ Validation fails loudly (nothing is written) unless:
 - every old entry file without any paragraph ID (`empty_in_source` stubs) is
   carried with `body_from` or listed in `drop_files`;
 - new paragraphs have French text and an `rsr` note, and nothing contains the comment marker;
-- `kind` is one of `clipping letter rayé margin other`, and `source` is one line without a double quote;
+- `kind` is one of `clipping letter rayé margin cover editorial other`, and `source` is one line without a double quote;
+- entries are listed in file-name order (the reading order below), and a cover entry comes first;
+- each `redirect_from` names an old `_original` file that is no longer an entry, once.
 - no translation tree holds an ID that `_original` lacks, and no tree has duplicate IDs.
 
 Dates going backwards between entries only warn (plan order is reading order).
@@ -123,6 +141,9 @@ that does not move is written back byte for byte.
   A partial tree (one without every source entry) only gets the entries it
   already has paragraphs for.
 
+- **`redirect_from`** on an entry makes those old entry files' URLs (and
+  links to them) point to this entry instead of the entry that received their
+  first paragraph.
 - **Kinds** (see Paragraph kinds below). A `new` paragraph with `kind` gets the
   marker line under its ID in every tree; for `clipping` and `letter` each French
   line is quoted (`> `), and a clipping always gets the `[#Press_clipping]` tag
@@ -181,9 +202,14 @@ never matched again (0005→0006→0007 cannot chain). For this carnet only:
 Dropped IDs become `CCC.DROPPED-0123` / `#p-CCC-DROPPED-0123`, so nothing points
 at a wrong paragraph; `renumber-check` lists them.
 
-Scope: every text file in the repo (`.md .ts .js .mjs .json .yaml .astro .vue
-.sql .py …`) except `.git`, `node_modules`, `dist`, `.astro`, `.claude/reports`
-(run reports and WORKPLANs are history), `content/_raw`, `content/_renumber`.
+Scope: text files (`.md .json .yaml .txt .csv`) under `content/` only, minus
+`content/_raw`, `content/_renumber` and every `CLAUDE.md`. Code, `docs/`,
+skills, `.claude/reports` and root notes cite IDs as examples or history and
+are never rewritten (a first real run rewrote examples in this tool, i18n and
+two docs). Inside `content/`, keep a citation as it is with a pragma: a line
+containing `rebuild-carnet: keep` (e.g. in an HTML comment) is left alone, and
+a file containing `rebuild-carnet: keep-file` is skipped entirely;
+`renumber-check` skips them too.
 Not handled: bare numbers without the carnet (`¶ 0123`), range ends
 (`CCC.0121–0125` rewrites only the first ID), 2-digit carnet IDs outside
 footnote labels (`68.0123` for carnet 068).
@@ -247,6 +273,8 @@ and in a translation:
 | `letter` | letter copied or pinned into the notebook | `> ` quoted; tag the writer as usual |
 | `rayé` | a whole paragraph Marie struck out | plain text. Words struck **inside** a paragraph keep the established inline form `[Rayé: …]` (≈1,600 occurrences), unchanged |
 | `margin` | marginal text | plain text |
+| `cover` | text on the notebook's cover or front pages; only in the carnet's cover entry | plain text, often with a heading |
+| `editorial` | a bracketed note by the edition's editors about the physical manuscript, e.g. `[Marie est passée de la page 184 à 185…]` | plain text, brackets kept; rendered small and muted, label for screen readers only |
 | `other` | any other inserted item (card, menu, pressed flower note…) | plain text; say what it is in `source` |
 
 - Syntax: `%% kind: <kind> %%` or `%% kind: <kind> source="<free text>" %%`, alone

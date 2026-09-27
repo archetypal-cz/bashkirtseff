@@ -44,7 +44,7 @@ export interface Paragraph {
 
   // Kind of material (clipping, letter, rayé, margin, other); undefined = diary text
   /** From the `%% kind: … %%` marker line (see KIND_CONTENT_PATTERN) */
-  kind?: 'clipping' | 'letter' | 'rayé' | 'margin' | 'other';
+  kind?: 'clipping' | 'letter' | 'rayé' | 'margin' | 'cover' | 'editorial' | 'other';
   /** The marker's optional source="…" (newspaper and date, letter writer…) */
   kindSource?: string;
 
