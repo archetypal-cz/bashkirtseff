@@ -43,6 +43,7 @@ GLOSS_PREFIX_RE = re.compile(r'\]\((\.\.[^)]*?)_glossary/')
 TAG_LINE_RE = re.compile(
     r'^\s*(?:%%|\[//\]:\s*#\s*\()\s*((?:\[#[^\]]+\]\([^)]+\)\s*)+)(?:%%|\))\s*$')
 LINK_TARGET_RE = re.compile(r'\[#[^\]]+\]\(([^)]+)\)')
+KIND_RE = re.compile(r'^%% kind: ')
 
 def para_id(line):
     m = PARA_RE.match(line.rstrip('\n'))
@@ -156,7 +157,10 @@ def propagate(args):
                     # gather following contiguous glossary-tag lines
                     j = i + 1
                     block_has_target = False
-                    insert_at = len(out_lines)  # after the ID line
+                    # a paragraph kind marker stays directly under the ID line
+                    if j < n and KIND_RE.match(lines[j]):
+                        out_lines.append(lines[j])
+                        j += 1
                     while j < n and is_gloss_tag_line(lines[j]):
                         out_lines.append(lines[j])
                         if line_tags_target(lines[j], target):
