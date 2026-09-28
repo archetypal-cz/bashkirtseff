@@ -1,0 +1,127 @@
+[
+ {
+  "pdf_page": 1,
+  "regions_pt": [],
+  "abbyy_picture_regions": [
+   [
+    0,
+    19,
+    354,
+    94
+   ],
+   [
+    3,
+    398,
+    356,
+    562
+   ]
+  ]
+ },
+ {
+  "pdf_page": 4,
+  "regions_pt": [
+   {
+    "y0": 287,
+    "y1": 333,
+    "ink": 685
+   }
+  ],
+  "abbyy_picture_regions": [
+   [
+    227,
+    287,
+    287,
+    347
+   ],
+   [
+    183,
+    223,
+    312,
+    254
+   ]
+  ]
+ },
+ {
+  "pdf_page": 87,
+  "regions_pt": [],
+  "abbyy_picture_regions": [
+   [
+    170,
+    544,
+    182,
+    565
+   ]
+  ]
+ },
+ {
+  "pdf_page": 228,
+  "regions_pt": [],
+  "abbyy_picture_regions": [
+   [
+    31,
+    35,
+    312,
+    97
+   ]
+  ]
+ },
+ {
+  "pdf_page": 284,
+  "regions_pt": [
+   {
+    "y0": 97,
+    "y1": 155,
+    "ink": 934
+   }
+  ],
+  "abbyy_picture_regions": [
+   [
+    193,
+    96,
+    294,
+    156
+   ]
+  ]
+ },
+ {
+  "pdf_page": 336,
+  "regions_pt": [
+   {
+    "y0": 23,
+    "y1": 536,
+    "ink": 2477
+   }
+  ],
+  "abbyy_picture_regions": []
+ },
+ {
+  "pdf_page": 353,
+  "regions_pt": [
+   {
+    "y0": 470,
+    "y1": 501,
+    "ink": 1093
+   }
+  ],
+  "abbyy_picture_regions": [
+   [
+    194,
+    548,
+    259,
+    588
+   ]
+  ]
+ },
+ {
+  "pdf_page": 354,
+  "regions_pt": [],
+  "abbyy_picture_regions": [
+   [
+    84,
+    536,
+    237,
+    567
+   ]
+  ]
+ }
+]
