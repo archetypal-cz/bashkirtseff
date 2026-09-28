@@ -1,0 +1,2709 @@
+{
+ "carnet": "021",
+ "source": "tome04.docx",
+ "drop": [
+  {
+   "id": "021.0517",
+   "reason": "withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1874-07-05.md",
+   "date": "1874-07-05",
+   "heading": "Dimanche, 5 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0001",
+     "_docx": 49.5
+    },
+    {
+     "old": "021.0002",
+     "_docx": 50
+    },
+    {
+     "old": "021.0003",
+     "_docx": 51
+    },
+    {
+     "old": "021.0004",
+     "_docx": 52
+    },
+    {
+     "old": "021.0005",
+     "_docx": 53
+    },
+    {
+     "old": "021.0006",
+     "_docx": 54
+    },
+    {
+     "old": "021.0007",
+     "_docx": 55
+    },
+    {
+     "old": "021.0008",
+     "_docx": 56
+    },
+    {
+     "old": "021.0009",
+     "_docx": 57
+    },
+    {
+     "old": "021.0010",
+     "_docx": 61
+    },
+    {
+     "old": "021.0011",
+     "_docx": 62
+    },
+    {
+     "old": "021.0012",
+     "_docx": 63
+    },
+    {
+     "old": "021.0013",
+     "_docx": 64
+    },
+    {
+     "old": "021.0014",
+     "_docx": 65
+    },
+    {
+     "old": "021.0015",
+     "_docx": 66
+    },
+    {
+     "old": "021.0016",
+     "_docx": 67
+    },
+    {
+     "old": "021.0017",
+     "_docx": 68
+    },
+    {
+     "old": "021.0018",
+     "_docx": 69
+    },
+    {
+     "old": "021.0019",
+     "_docx": 70
+    },
+    {
+     "old": "021.0020",
+     "_docx": 71
+    },
+    {
+     "old": "021.0021",
+     "_docx": 72
+    },
+    {
+     "old": "021.0022",
+     "_docx": 76
+    },
+    {
+     "old": "021.0023",
+     "_docx": 77
+    },
+    {
+     "old": "021.0024",
+     "_docx": 78
+    },
+    {
+     "old": "021.0025",
+     "_docx": 79
+    }
+   ]
+  },
+  {
+   "file": "1874-07-06.md",
+   "date": "1874-07-06",
+   "heading": "Lundi, 6 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0026",
+     "_docx": 80.5
+    },
+    {
+     "old": "021.0027",
+     "_docx": 81
+    },
+    {
+     "old": "021.0028",
+     "_docx": 82
+    },
+    {
+     "old": "021.0029",
+     "_docx": 83
+    },
+    {
+     "old": "021.0030",
+     "_docx": 84
+    },
+    {
+     "old": "021.0031",
+     "_docx": 85
+    },
+    {
+     "old": "021.0032",
+     "_docx": 86
+    },
+    {
+     "old": "021.0033",
+     "_docx": 87
+    }
+   ]
+  },
+  {
+   "file": "1874-07-07.md",
+   "date": "1874-07-07",
+   "heading": "Mardi, 7 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0034",
+     "_docx": 90.5
+    },
+    {
+     "old": "021.0035",
+     "_docx": 91
+    },
+    {
+     "old": "021.0036",
+     "_docx": 92
+    },
+    {
+     "old": "021.0037",
+     "_docx": 93
+    },
+    {
+     "old": "021.0038",
+     "_docx": 94
+    },
+    {
+     "old": "021.0039",
+     "_docx": 95
+    },
+    {
+     "old": "021.0040",
+     "_docx": 96
+    }
+   ]
+  },
+  {
+   "file": "1874-07-08.md",
+   "date": "1874-07-08",
+   "heading": "Mercredi, 8 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0041",
+     "_docx": 97.5
+    },
+    {
+     "old": "021.0042",
+     "_docx": 98
+    },
+    {
+     "old": "021.0043",
+     "_docx": 99
+    },
+    {
+     "old": "021.0044",
+     "_docx": 100
+    },
+    {
+     "old": "021.0045",
+     "_docx": 101
+    },
+    {
+     "old": "021.0046",
+     "_docx": 102
+    },
+    {
+     "old": "021.0047",
+     "_docx": 103
+    },
+    {
+     "old": "021.0048",
+     "_docx": 107
+    },
+    {
+     "old": "021.0049",
+     "_docx": 108
+    },
+    {
+     "old": "021.0050",
+     "_docx": 109
+    },
+    {
+     "old": "021.0051",
+     "_docx": 110
+    },
+    {
+     "old": "021.0052",
+     "_docx": 111
+    },
+    {
+     "old": "021.0053",
+     "_docx": 112
+    },
+    {
+     "old": "021.0054",
+     "_docx": 113
+    },
+    {
+     "old": "021.0055",
+     "_docx": 114
+    },
+    {
+     "old": "021.0056",
+     "_docx": 115
+    },
+    {
+     "old": "021.0057",
+     "_docx": 116
+    },
+    {
+     "old": "021.0058",
+     "_docx": 117
+    },
+    {
+     "old": "021.0059",
+     "_docx": 118
+    },
+    {
+     "old": "021.0060",
+     "_docx": 119
+    },
+    {
+     "old": "021.0061",
+     "_docx": 120
+    },
+    {
+     "old": "021.0062",
+     "_docx": 121
+    }
+   ]
+  },
+  {
+   "file": "1874-07-09.md",
+   "date": "1874-07-09",
+   "heading": "Jeudi, 9 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0063",
+     "_docx": 124.5
+    },
+    {
+     "old": "021.0064",
+     "_docx": 125
+    },
+    {
+     "old": "021.0065",
+     "_docx": 126
+    },
+    {
+     "old": "021.0066",
+     "_docx": 127
+    },
+    {
+     "old": "021.0067",
+     "_docx": 128
+    },
+    {
+     "old": "021.0068",
+     "_docx": 129
+    },
+    {
+     "old": "021.0069",
+     "_docx": 130
+    },
+    {
+     "old": "021.0070",
+     "_docx": 131
+    },
+    {
+     "old": "021.0071",
+     "_docx": 135
+    },
+    {
+     "old": "021.0072",
+     "_docx": 136
+    },
+    {
+     "old": "021.0073",
+     "_docx": 137
+    },
+    {
+     "old": "021.0074",
+     "_docx": 138
+    },
+    {
+     "old": "021.0075",
+     "_docx": 139
+    },
+    {
+     "old": "021.0076",
+     "_docx": 140
+    },
+    {
+     "old": "021.0077",
+     "_docx": 140.01
+    },
+    {
+     "old": "021.0078",
+     "_docx": 142
+    },
+    {
+     "old": "021.0079",
+     "_docx": 143
+    },
+    {
+     "old": "021.0080",
+     "_docx": 144
+    },
+    {
+     "old": "021.0081",
+     "_docx": 145
+    },
+    {
+     "old": "021.0082",
+     "_docx": 146
+    },
+    {
+     "old": "021.0083",
+     "_docx": 147
+    },
+    {
+     "old": "021.0084",
+     "_docx": 148
+    },
+    {
+     "old": "021.0085",
+     "_docx": 149
+    },
+    {
+     "old": "021.0086",
+     "_docx": 150
+    },
+    {
+     "new": {
+      "french": "La femme est brésilienne, et mène avec elle deux ou trois dames et le même nombre de messieurs. Les dames très élégantes, les Haristoff sont des millionnaires. En outre il y a deux petits bataclans espagnols ou brésiliens.",
+      "rsr": "Restored from tome04.docx ¶153 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      153,
+      153
+     ]
+    },
+    {
+     "new": {
+      "french": "J'ai chanté le soir chez moi, Viviani et Cie accoururent du Casino et Walitsky et Paul m'entendirent de l'hôtel de Flandre.",
+      "rsr": "Restored from tome04.docx ¶154 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      154,
+      154
+     ]
+    },
+    {
+     "new": {
+      "french": "*C'est chic - ça !*",
+      "rsr": "Restored from tome04.docx ¶155 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      155,
+      155
+     ]
+    }
+   ]
+  },
+  {
+   "file": "1874-07-10.md",
+   "date": "1874-07-10",
+   "heading": "Vendredi, 10 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0087",
+     "_docx": 156.5
+    },
+    {
+     "old": "021.0088",
+     "_docx": 157,
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "021.0089",
+     "_docx": 158
+    },
+    {
+     "old": "021.0090",
+     "_docx": 159
+    },
+    {
+     "old": "021.0091",
+     "_docx": 160
+    },
+    {
+     "old": "021.0092",
+     "_docx": 161
+    },
+    {
+     "old": "021.0093",
+     "_docx": 162
+    },
+    {
+     "old": "021.0094",
+     "_docx": 163
+    },
+    {
+     "old": "021.0095",
+     "_docx": 164
+    },
+    {
+     "old": "021.0096",
+     "_docx": 165
+    },
+    {
+     "old": "021.0097",
+     "_docx": 168
+    },
+    {
+     "old": "021.0098",
+     "_docx": 169
+    },
+    {
+     "old": "021.0099",
+     "_docx": 170
+    },
+    {
+     "old": "021.0100",
+     "_docx": 171
+    },
+    {
+     "old": "021.0101",
+     "_docx": 172
+    },
+    {
+     "old": "021.0102",
+     "_docx": 173
+    },
+    {
+     "old": "021.0103",
+     "_docx": 174
+    },
+    {
+     "old": "021.0104",
+     "_docx": 175
+    },
+    {
+     "old": "021.0105",
+     "_docx": 176
+    },
+    {
+     "old": "021.0106",
+     "_docx": 177
+    },
+    {
+     "old": "021.0107",
+     "_docx": 178
+    },
+    {
+     "old": "021.0108",
+     "_docx": 179
+    },
+    {
+     "old": "021.0109",
+     "_docx": 180
+    },
+    {
+     "old": "021.0110",
+     "_docx": 181
+    },
+    {
+     "old": "021.0111",
+     "_docx": 182
+    },
+    {
+     "old": "021.0112",
+     "_docx": 186
+    },
+    {
+     "old": "021.0113",
+     "_docx": 187
+    },
+    {
+     "old": "021.0114",
+     "_docx": 187.01
+    },
+    {
+     "old": "021.0115",
+     "_docx": 189
+    },
+    {
+     "old": "021.0116",
+     "_docx": 189.01
+    },
+    {
+     "old": "021.0117",
+     "_docx": 191
+    },
+    {
+     "old": "021.0118",
+     "_docx": 191.01
+    },
+    {
+     "old": "021.0119",
+     "_docx": 193
+    },
+    {
+     "old": "021.0120",
+     "_docx": 194
+    },
+    {
+     "old": "021.0121",
+     "_docx": 195
+    },
+    {
+     "old": "021.0122",
+     "_docx": 196
+    },
+    {
+     "old": "021.0123",
+     "_docx": 197
+    },
+    {
+     "old": "021.0124",
+     "_docx": 198
+    },
+    {
+     "old": "021.0125",
+     "_docx": 199
+    },
+    {
+     "old": "021.0126",
+     "_docx": 200
+    },
+    {
+     "old": "021.0127",
+     "_docx": 201
+    },
+    {
+     "old": "021.0128",
+     "_docx": 202
+    },
+    {
+     "old": "021.0129",
+     "_docx": 203
+    },
+    {
+     "old": "021.0130",
+     "_docx": 204
+    },
+    {
+     "old": "021.0131",
+     "_docx": 205
+    },
+    {
+     "old": "021.0132",
+     "_docx": 206,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    }
+   ]
+  },
+  {
+   "file": "1874-07-11.md",
+   "date": "1874-07-11",
+   "heading": "Samedi, 11 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0133",
+     "_docx": 207.5
+    },
+    {
+     "old": "021.0134",
+     "_docx": 211
+    },
+    {
+     "old": "021.0135",
+     "_docx": 212
+    },
+    {
+     "old": "021.0136",
+     "_docx": 213
+    },
+    {
+     "old": "021.0137",
+     "_docx": 214
+    },
+    {
+     "old": "021.0138",
+     "_docx": 215
+    },
+    {
+     "old": "021.0139",
+     "_docx": 216
+    },
+    {
+     "old": "021.0140",
+     "_docx": 220
+    },
+    {
+     "old": "021.0141",
+     "_docx": 221
+    },
+    {
+     "old": "021.0142",
+     "_docx": 222
+    },
+    {
+     "old": "021.0143",
+     "_docx": 223
+    },
+    {
+     "old": "021.0144",
+     "_docx": 224
+    },
+    {
+     "old": "021.0145",
+     "_docx": 225
+    },
+    {
+     "old": "021.0146",
+     "_docx": 226
+    },
+    {
+     "old": "021.0147",
+     "_docx": 230
+    },
+    {
+     "old": "021.0148",
+     "_docx": 231
+    },
+    {
+     "old": "021.0149",
+     "_docx": 232
+    },
+    {
+     "old": "021.0150",
+     "_docx": 233
+    },
+    {
+     "old": "021.0151",
+     "_docx": 234
+    },
+    {
+     "old": "021.0152",
+     "_docx": 235
+    },
+    {
+     "old": "021.0153",
+     "_docx": 236
+    }
+   ]
+  },
+  {
+   "file": "1874-07-12.md",
+   "date": "1874-07-12",
+   "heading": "Dimanche, 12 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0154",
+     "_docx": 237.5
+    },
+    {
+     "old": "021.0155",
+     "_docx": 238
+    },
+    {
+     "old": "021.0156",
+     "_docx": 239
+    },
+    {
+     "old": "021.0157",
+     "_docx": 242
+    },
+    {
+     "old": "021.0158",
+     "_docx": 243
+    },
+    {
+     "old": "021.0159",
+     "_docx": 244
+    },
+    {
+     "old": "021.0160",
+     "_docx": 245
+    },
+    {
+     "old": "021.0161",
+     "_docx": 246
+    },
+    {
+     "old": "021.0162",
+     "_docx": 247
+    },
+    {
+     "old": "021.0163",
+     "_docx": 248
+    },
+    {
+     "old": "021.0164",
+     "_docx": 252
+    },
+    {
+     "old": "021.0165",
+     "_docx": 253
+    },
+    {
+     "old": "021.0166",
+     "_docx": 254
+    },
+    {
+     "old": "021.0167",
+     "_docx": 255
+    },
+    {
+     "old": "021.0168",
+     "_docx": 256
+    },
+    {
+     "old": "021.0169",
+     "_docx": 257
+    },
+    {
+     "old": "021.0170",
+     "_docx": 258
+    },
+    {
+     "old": "021.0171",
+     "_docx": 259
+    },
+    {
+     "old": "021.0172",
+     "_docx": 263
+    },
+    {
+     "old": "021.0173",
+     "_docx": 264
+    },
+    {
+     "old": "021.0174",
+     "_docx": 265
+    },
+    {
+     "old": "021.0175",
+     "_docx": 266
+    },
+    {
+     "old": "021.0176",
+     "_docx": 267
+    },
+    {
+     "old": "021.0177",
+     "_docx": 268
+    },
+    {
+     "old": "021.0178",
+     "_docx": 269
+    },
+    {
+     "old": "021.0179",
+     "_docx": 270
+    },
+    {
+     "old": "021.0180",
+     "_docx": 271
+    },
+    {
+     "old": "021.0181",
+     "_docx": 272
+    },
+    {
+     "old": "021.0182",
+     "_docx": 273
+    },
+    {
+     "old": "021.0183",
+     "_docx": 274
+    },
+    {
+     "old": "021.0184",
+     "_docx": 275
+    },
+    {
+     "old": "021.0185",
+     "_docx": 276
+    },
+    {
+     "old": "021.0186",
+     "_docx": 277
+    },
+    {
+     "old": "021.0187",
+     "_docx": 278
+    },
+    {
+     "old": "021.0188",
+     "_docx": 279
+    },
+    {
+     "old": "021.0189",
+     "_docx": 280
+    },
+    {
+     "old": "021.0190",
+     "_docx": 281
+    },
+    {
+     "old": "021.0191",
+     "_docx": 282
+    },
+    {
+     "old": "021.0192",
+     "_docx": 283
+    },
+    {
+     "old": "021.0193",
+     "_docx": 284
+    },
+    {
+     "old": "021.0194",
+     "_docx": 285
+    }
+   ]
+  },
+  {
+   "file": "1874-07-13.md",
+   "date": "1874-07-13",
+   "heading": "Lundi, 13 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0195",
+     "_docx": 288.5
+    },
+    {
+     "old": "021.0196",
+     "_docx": 289
+    },
+    {
+     "old": "021.0197",
+     "_docx": 290
+    },
+    {
+     "old": "021.0198",
+     "_docx": 291
+    },
+    {
+     "old": "021.0199",
+     "_docx": 292
+    },
+    {
+     "old": "021.0200",
+     "_docx": 293
+    },
+    {
+     "old": "021.0201",
+     "_docx": 294
+    },
+    {
+     "old": "021.0202",
+     "_docx": 295
+    },
+    {
+     "old": "021.0203",
+     "_docx": 296
+    },
+    {
+     "old": "021.0204",
+     "_docx": 297
+    },
+    {
+     "old": "021.0205",
+     "_docx": 301
+    },
+    {
+     "old": "021.0206",
+     "_docx": 302
+    },
+    {
+     "old": "021.0207",
+     "_docx": 303
+    },
+    {
+     "old": "021.0208",
+     "_docx": 304
+    },
+    {
+     "old": "021.0209",
+     "_docx": 305
+    },
+    {
+     "old": "021.0210",
+     "_docx": 306
+    },
+    {
+     "old": "021.0211",
+     "_docx": 306.01
+    },
+    {
+     "old": "021.0212",
+     "_docx": 310
+    },
+    {
+     "old": "021.0213",
+     "_docx": 311
+    },
+    {
+     "old": "021.0214",
+     "_docx": 312
+    },
+    {
+     "old": "021.0215",
+     "_docx": 312.01
+    },
+    {
+     "old": "021.0216",
+     "_docx": 312.02
+    },
+    {
+     "old": "021.0217",
+     "_docx": 315
+    },
+    {
+     "old": "021.0218",
+     "_docx": 316
+    },
+    {
+     "old": "021.0219",
+     "_docx": 317
+    },
+    {
+     "old": "021.0220",
+     "_docx": 318
+    },
+    {
+     "old": "021.0221",
+     "_docx": 319
+    },
+    {
+     "old": "021.0222",
+     "_docx": 320
+    },
+    {
+     "old": "021.0223",
+     "_docx": 321
+    },
+    {
+     "old": "021.0224",
+     "_docx": 322
+    },
+    {
+     "old": "021.0225",
+     "_docx": 323
+    },
+    {
+     "old": "021.0226",
+     "_docx": 324
+    },
+    {
+     "old": "021.0227",
+     "_docx": 325
+    },
+    {
+     "old": "021.0228",
+     "_docx": 326
+    },
+    {
+     "old": "021.0229",
+     "_docx": 327
+    },
+    {
+     "old": "021.0230",
+     "_docx": 328
+    },
+    {
+     "old": "021.0231",
+     "_docx": 329
+    },
+    {
+     "old": "021.0232",
+     "_docx": 330
+    },
+    {
+     "old": "021.0233",
+     "_docx": 331
+    },
+    {
+     "old": "021.0234",
+     "_docx": 332
+    },
+    {
+     "old": "021.0235",
+     "_docx": 333
+    },
+    {
+     "old": "021.0236",
+     "_docx": 334
+    },
+    {
+     "old": "021.0237",
+     "_docx": 335
+    },
+    {
+     "old": "021.0238",
+     "_docx": 338
+    },
+    {
+     "old": "021.0239",
+     "_docx": 339
+    },
+    {
+     "old": "021.0240",
+     "_docx": 340
+    },
+    {
+     "old": "021.0241",
+     "_docx": 341
+    },
+    {
+     "old": "021.0242",
+     "_docx": 342
+    },
+    {
+     "old": "021.0243",
+     "_docx": 343
+    },
+    {
+     "new": {
+      "french": "Le Polonais me demanda la réponse, je dis qu'il n'en aura point.",
+      "rsr": "Restored from tome04.docx ¶344 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      344,
+      344
+     ]
+    },
+    {
+     "new": {
+      "french": "Je pars demain, dit-il d'une voix suppliante.",
+      "rsr": "Restored from tome04.docx ¶345 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      345,
+      345
+     ]
+    },
+    {
+     "new": {
+      "french": "Pour que je passe mon examen, dites.",
+      "rsr": "Restored from tome04.docx ¶346 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      346,
+      346
+     ]
+    },
+    {
+     "new": {
+      "french": "Eh bien pour votre examen, soit.",
+      "rsr": "Restored from tome04.docx ¶347 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      347,
+      347
+     ]
+    },
+    {
+     "new": {
+      "french": "Oh si ce n'est que pour cela je ne veux pas.",
+      "rsr": "Restored from tome04.docx ¶348 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      348,
+      348
+     ]
+    },
+    {
+     "new": {
+      "french": "Je le regardai avec étonnement. En voilà un ! quel petit lézard !",
+      "rsr": "Restored from tome04.docx ¶349 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      349,
+      349
+     ]
+    },
+    {
+     "new": {
+      "french": "Je pars pour quatre jours, vous qui oubliez si vite.",
+      "rsr": "Restored from tome04.docx ¶350 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      350,
+      350
+     ]
+    },
+    {
+     "new": {
+      "french": "Eh bien j'oublierai voilà tout.",
+      "rsr": "Restored from tome04.docx ¶351 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      351,
+      351
+     ]
+    },
+    {
+     "new": {
+      "french": "Sa mère prétend qu'il a maigri depuis deux jours. Fi les sales Polonais. Ce n'est pas une conquête, c'est un *★salissement*.* Je me suis salie. Le lézard a osé dire quelque chose contre Gericke, c'est-à-dire que je l'oublie pour Gericke. Est-il fou ? Y pensais-je jamais ? Pour oublier il faut s'être souvenu. Si Gericke me faisait une cour comme le Polonais je lui donnerais ma main à baiser.",
+      "rsr": "Restored from tome04.docx ¶352 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      352,
+      352
+     ]
+    },
+    {
+     "new": {
+      "french": "Le Polonais me répugne ! Fi !",
+      "rsr": "Restored from tome04.docx ¶353 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      353,
+      353
+     ]
+    },
+    {
+     "new": {
+      "french": "Maman voyant que je ne puis ni dire ni entendre dire le nom du baron sans sourire a dit: *Un tel baron est de la race des petits cochons*.",
+      "rsr": "Restored from tome04.docx ¶354 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      354,
+      354
+     ]
+    },
+    {
+     "new": {
+      "french": "Oh ma mère, je vous comprends.",
+      "rsr": "Restored from tome04.docx ¶355 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      355,
+      355
+     ]
+    }
+   ]
+  },
+  {
+   "file": "1874-07-14.md",
+   "date": "1874-07-14",
+   "heading": "Mardi, 14 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0244",
+     "_docx": 356.5
+    },
+    {
+     "old": "021.0245",
+     "_docx": 357
+    },
+    {
+     "old": "021.0246",
+     "_docx": 361
+    },
+    {
+     "old": "021.0247",
+     "_docx": 362
+    },
+    {
+     "old": "021.0248",
+     "_docx": 363
+    },
+    {
+     "old": "021.0249",
+     "_docx": 364
+    },
+    {
+     "old": "021.0250",
+     "_docx": 365
+    },
+    {
+     "old": "021.0251",
+     "_docx": 366
+    },
+    {
+     "old": "021.0252",
+     "_docx": 367
+    },
+    {
+     "old": "021.0253",
+     "_docx": 368
+    },
+    {
+     "old": "021.0254",
+     "_docx": 369
+    },
+    {
+     "old": "021.0255",
+     "_docx": 370
+    },
+    {
+     "old": "021.0256",
+     "_docx": 374
+    },
+    {
+     "old": "021.0257",
+     "_docx": 375
+    },
+    {
+     "old": "021.0258",
+     "_docx": 376
+    },
+    {
+     "old": "021.0259",
+     "_docx": 377
+    },
+    {
+     "old": "021.0260",
+     "_docx": 378
+    },
+    {
+     "old": "021.0261",
+     "_docx": 379
+    },
+    {
+     "old": "021.0262",
+     "_docx": 380
+    },
+    {
+     "old": "021.0263",
+     "_docx": 381
+    },
+    {
+     "old": "021.0264",
+     "_docx": 385
+    },
+    {
+     "old": "021.0265",
+     "_docx": 386
+    },
+    {
+     "old": "021.0266",
+     "_docx": 387
+    },
+    {
+     "old": "021.0267",
+     "_docx": 388
+    },
+    {
+     "old": "021.0268",
+     "_docx": 389
+    },
+    {
+     "old": "021.0269",
+     "_docx": 390
+    },
+    {
+     "old": "021.0270",
+     "_docx": 391
+    },
+    {
+     "old": "021.0271",
+     "_docx": 392
+    },
+    {
+     "old": "021.0272",
+     "_docx": 393
+    },
+    {
+     "old": "021.0273",
+     "_docx": 394
+    },
+    {
+     "old": "021.0274",
+     "_docx": 395
+    },
+    {
+     "old": "021.0275",
+     "_docx": 396
+    },
+    {
+     "old": "021.0276",
+     "_docx": 400
+    },
+    {
+     "old": "021.0277",
+     "_docx": 401
+    },
+    {
+     "old": "021.0278",
+     "_docx": 402
+    },
+    {
+     "old": "021.0279",
+     "_docx": 403
+    },
+    {
+     "old": "021.0280",
+     "_docx": 404
+    },
+    {
+     "old": "021.0281",
+     "_docx": 405
+    },
+    {
+     "old": "021.0282",
+     "_docx": 406
+    },
+    {
+     "old": "021.0283",
+     "_docx": 407
+    },
+    {
+     "old": "021.0284",
+     "_docx": 408
+    },
+    {
+     "old": "021.0285",
+     "_docx": 409
+    },
+    {
+     "old": "021.0286",
+     "_docx": 410
+    },
+    {
+     "old": "021.0287",
+     "_docx": 414
+    }
+   ]
+  },
+  {
+   "file": "1874-07-15.md",
+   "date": "1874-07-15",
+   "heading": "Mercredi, 15 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0288",
+     "_docx": 415.5
+    },
+    {
+     "old": "021.0289",
+     "_docx": 416
+    },
+    {
+     "old": "021.0290",
+     "_docx": 417
+    },
+    {
+     "old": "021.0291",
+     "_docx": 418
+    }
+   ]
+  },
+  {
+   "file": "1874-07-16.md",
+   "date": "1874-07-16",
+   "heading": "Jeudi, 16 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0292",
+     "_docx": 419.5
+    },
+    {
+     "old": "021.0293",
+     "_docx": 420
+    },
+    {
+     "old": "021.0294",
+     "_docx": 421
+    },
+    {
+     "old": "021.0295",
+     "_docx": 422
+    },
+    {
+     "old": "021.0296",
+     "_docx": 423
+    },
+    {
+     "old": "021.0297",
+     "_docx": 424
+    },
+    {
+     "old": "021.0298",
+     "_docx": 427
+    },
+    {
+     "old": "021.0299",
+     "_docx": 428
+    },
+    {
+     "old": "021.0300",
+     "_docx": 429
+    },
+    {
+     "old": "021.0301",
+     "_docx": 430,
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "021.0302",
+     "_docx": 431
+    },
+    {
+     "old": "021.0303",
+     "_docx": 432
+    },
+    {
+     "old": "021.0304",
+     "_docx": 433
+    },
+    {
+     "old": "021.0305",
+     "_docx": 437
+    },
+    {
+     "old": "021.0306",
+     "_docx": 438
+    },
+    {
+     "old": "021.0307",
+     "_docx": 439
+    },
+    {
+     "old": "021.0308",
+     "_docx": 440
+    },
+    {
+     "old": "021.0309",
+     "_docx": 441
+    },
+    {
+     "old": "021.0310",
+     "_docx": 442
+    }
+   ]
+  },
+  {
+   "file": "1874-07-17.md",
+   "date": "1874-07-17",
+   "heading": "Vendredi, 17 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0311",
+     "_docx": 443.5
+    },
+    {
+     "old": "021.0312",
+     "_docx": 444
+    },
+    {
+     "old": "021.0313",
+     "_docx": 445
+    },
+    {
+     "old": "021.0314",
+     "_docx": 446
+    },
+    {
+     "old": "021.0315",
+     "_docx": 447
+    },
+    {
+     "old": "021.0316",
+     "_docx": 451
+    },
+    {
+     "old": "021.0317",
+     "_docx": 452
+    },
+    {
+     "old": "021.0318",
+     "_docx": 453
+    },
+    {
+     "old": "021.0319",
+     "_docx": 454
+    },
+    {
+     "old": "021.0320",
+     "_docx": 455
+    },
+    {
+     "old": "021.0321",
+     "_docx": 456
+    },
+    {
+     "old": "021.0322",
+     "_docx": 457
+    },
+    {
+     "old": "021.0323",
+     "_docx": 458
+    },
+    {
+     "old": "021.0324",
+     "_docx": 459
+    },
+    {
+     "old": "021.0325",
+     "_docx": 460
+    },
+    {
+     "old": "021.0326",
+     "_docx": 461
+    },
+    {
+     "old": "021.0327",
+     "_docx": 462
+    },
+    {
+     "old": "021.0328",
+     "_docx": 466
+    },
+    {
+     "old": "021.0329",
+     "_docx": 467
+    },
+    {
+     "old": "021.0330",
+     "_docx": 468
+    },
+    {
+     "old": "021.0331",
+     "_docx": 469
+    },
+    {
+     "old": "021.0332",
+     "_docx": 470
+    },
+    {
+     "old": "021.0333",
+     "_docx": 471
+    },
+    {
+     "old": "021.0334",
+     "_docx": 472
+    },
+    {
+     "old": "021.0335",
+     "_docx": 473
+    },
+    {
+     "old": "021.0336",
+     "_docx": 474
+    },
+    {
+     "old": "021.0337",
+     "_docx": 475
+    },
+    {
+     "old": "021.0338",
+     "_docx": 476
+    },
+    {
+     "old": "021.0339",
+     "_docx": 477
+    },
+    {
+     "old": "021.0340",
+     "_docx": 478
+    },
+    {
+     "old": "021.0341",
+     "_docx": 479
+    },
+    {
+     "old": "021.0342",
+     "_docx": 480
+    },
+    {
+     "old": "021.0343",
+     "_docx": 481
+    },
+    {
+     "old": "021.0344",
+     "_docx": 482
+    },
+    {
+     "old": "021.0345",
+     "_docx": 483
+    },
+    {
+     "old": "021.0346",
+     "_docx": 484
+    },
+    {
+     "old": "021.0347",
+     "_docx": 485
+    },
+    {
+     "old": "021.0348",
+     "_docx": 486
+    },
+    {
+     "old": "021.0349",
+     "_docx": 487
+    },
+    {
+     "old": "021.0350",
+     "_docx": 490
+    },
+    {
+     "old": "021.0351",
+     "_docx": 491
+    },
+    {
+     "old": "021.0352",
+     "_docx": 493
+    },
+    {
+     "old": "021.0353",
+     "_docx": 494
+    },
+    {
+     "old": "021.0354",
+     "_docx": 495
+    },
+    {
+     "old": "021.0355",
+     "_docx": 496
+    },
+    {
+     "old": "021.0356",
+     "_docx": 497
+    }
+   ]
+  },
+  {
+   "file": "1874-07-18.md",
+   "date": "1874-07-18",
+   "heading": "Samedi, 18 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0357",
+     "_docx": 498.5
+    },
+    {
+     "old": "021.0358",
+     "_docx": 499
+    },
+    {
+     "old": "021.0359",
+     "_docx": 500
+    },
+    {
+     "old": "021.0360",
+     "_docx": 501
+    },
+    {
+     "old": "021.0361",
+     "_docx": 502
+    },
+    {
+     "old": "021.0362",
+     "_docx": 503
+    },
+    {
+     "old": "021.0363",
+     "_docx": 504
+    },
+    {
+     "old": "021.0364",
+     "_docx": 508
+    },
+    {
+     "old": "021.0365",
+     "_docx": 509
+    },
+    {
+     "old": "021.0366",
+     "_docx": 510
+    },
+    {
+     "old": "021.0367",
+     "_docx": 511
+    },
+    {
+     "old": "021.0368",
+     "_docx": 512
+    },
+    {
+     "old": "021.0369",
+     "_docx": 516
+    },
+    {
+     "old": "021.0370",
+     "_docx": 517
+    },
+    {
+     "old": "021.0371",
+     "_docx": 518
+    },
+    {
+     "old": "021.0372",
+     "_docx": 519
+    },
+    {
+     "old": "021.0373",
+     "_docx": 520
+    },
+    {
+     "old": "021.0374",
+     "_docx": 521
+    },
+    {
+     "old": "021.0375",
+     "_docx": 522
+    },
+    {
+     "old": "021.0377",
+     "_docx": 523
+    },
+    {
+     "old": "021.0378",
+     "_docx": 524
+    },
+    {
+     "old": "021.0379",
+     "_docx": 525
+    },
+    {
+     "old": "021.0380",
+     "_docx": 526
+    },
+    {
+     "old": "021.0381",
+     "_docx": 527
+    }
+   ]
+  },
+  {
+   "file": "1874-07-19.md",
+   "date": "1874-07-19",
+   "heading": "Dimanche, 19 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0376",
+     "_docx": 531.5
+    },
+    {
+     "new": {
+      "french": "Ayant parlé de Berthe avec M. de Tanlay, l'idée me vint de lui écrire, ce que je fis, pour que de Tanlay portât ma lettre.",
+      "rsr": "Restored from tome04.docx ¶532 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      532,
+      532
+     ]
+    },
+    {
+     "new": {
+      "french": "Spa, Maison Lausberg\nChère Berthe,\nVous serez étonnée de recevoir ma lettre, je suis moi-même étonnée de vous écrire. Nous n'étions jamais intimes jusqu'au point de nous écrire, ce que je regrette toujours.",
+      "rsr": "Restored from tome04.docx ¶533–535 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à Berthe, Spa, 19 juillet 1874 (copie)"
+     },
+     "_docx": [
+      533,
+      535
+     ]
+    },
+    {
+     "new": {
+      "french": "J'avais le plaisir de rencontrer ici M. le comte de Tanlay, qui est de vos amis, nous avons parlé de vous et l'idée me vint de vous envoyer un message par lui. Il fut un temps où nous nous détestions, vous vous souvenez à Bade ? Depuis c'est complètement changé j'espère.",
+      "rsr": "Restored from tome04.docx ¶536 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à Berthe, Spa, 19 juillet 1874 (copie)"
+     },
+     "_docx": [
+      536,
+      536
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous nous rencontrâmes à Paris, dernièrement, mais vous ne fûtes pas aimable en ne me venant point voir. Je vais vous rendre confuse et la prochaine fois que nous irons à Paris je viendrai chez vous.",
+      "rsr": "Restored from tome04.docx ¶537 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à Berthe, Spa, 19 juillet 1874 (copie)"
+     },
+     "_docx": [
+      537,
+      537
+     ]
+    },
+    {
+     "new": {
+      "french": "Je serais enchantée de recevoir une lettre de vous, je vous crois mon amie, ai-je tort ?",
+      "rsr": "Restored from tome04.docx ¶538–539 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à Berthe, Spa, 19 juillet 1874 (copie)"
+     },
+     "_docx": [
+      538,
+      539
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous restons encore quelque temps à Spa, c'est une petite ville très agréable.",
+      "rsr": "Restored from tome04.docx ¶540–541 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à Berthe, Spa, 19 juillet 1874 (copie)"
+     },
+     "_docx": [
+      540,
+      541
+     ]
+    },
+    {
+     "new": {
+      "french": "M. de Tanlay part demain et ma lettre aussi.",
+      "rsr": "Restored from tome04.docx ¶542 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à Berthe, Spa, 19 juillet 1874 (copie)"
+     },
+     "_docx": [
+      542,
+      542
+     ]
+    },
+    {
+     "new": {
+      "french": "J'attendrai avec impatience notre retour à Paris pour vous voir.",
+      "rsr": "Restored from tome04.docx ¶543 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à Berthe, Spa, 19 juillet 1874 (copie)"
+     },
+     "_docx": [
+      543,
+      543
+     ]
+    },
+    {
+     "new": {
+      "french": "Toute à vous, Marie de Bachkirsève.",
+      "rsr": "Restored from tome04.docx ¶544 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à Berthe, Spa, 19 juillet 1874 (copie)"
+     },
+     "_docx": [
+      544,
+      544
+     ]
+    },
+    {
+     "new": {
+      "french": "[Annotation:! 876 Rome. Quelle lettre prétentieuse I]",
+      "rsr": "Restored from tome04.docx ¶545 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "other",
+      "source": "Annotation ultérieure de Marie, 876"
+     },
+     "_docx": [
+      545,
+      545
+     ],
+     "_kind_guess_reason": "bracketed note of unknown kind"
+    },
+    {
+     "new": {
+      "french": "A la musique il y avait une foule de cochons des villes à I entour (robe blanche et argent, bien). Nous n'étions pas assises dix minutes quand vinrent de Gericke et *Mikhaïl Petrovitch*, le Grec.",
+      "rsr": "Restored from tome04.docx ¶546 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      546,
+      546
+     ]
+    },
+    {
+     "new": {
+      "french": "Gericke est rêveur, il reste auprès de nous sans y penser, il entame des conversations comme une machine. Depuis qu'il est ainsi, il est convenable et je ne puis placer ma belle phrase. A quatre heures et demie nous allons tous au Pouhon, où nous rencontrons M. de Jahal, un charmant homme. Basilévitch se montre a a fenêtre, Gericke court, elle disparaît, il s'arrête au milieu de la rue.",
+      "rsr": "Restored from tome04.docx ¶547 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      547,
+      547
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous dînons à l'hôtel de Flandre, Gericke vient avec nous, mais aussitôt qu'elle le vit avec nous, elle vient et l'enlève.",
+      "rsr": "Restored from tome04.docx ¶550 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      550,
+      550
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous eûmes le temps de faire une visite aux Row et de nous placer à table, avant qu'elle l'eut lâché. C'est qu'on va le prendre pour de bon, Tanlay part, on prend Gericke. Si Gericke n'est pas, on prend le petit Polonais, sinon Body même, ce qui m'étonne c'est la patience de Gericke, il sait de Tanlay et attend tranquillement son tour. Il ne désire pas *avoir* seul, il veut *avoir* voilà tout.",
+      "rsr": "Restored from tome04.docx ¶551 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      551,
+      551
+     ]
+    },
+    {
+     "new": {
+      "french": "A la table d'hôte à côté de nous sont M. et Mme de Bauche et le comte Bloudoff.",
+      "rsr": "Restored from tome04.docx ¶552 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      552,
+      552
+     ]
+    },
+    {
+     "new": {
+      "french": "J'avais peur que Gericke ne dise quelque bêtise devant Mme de Bauche née princesse Troubetskoy et sœur de la princesse Woronzoff. Heureusement il ne dit rien de mauvais. C'est une désagréable connaissance qu'un monsieur pour lequel on a peur. Je commence à me lasser de lui, j'aime peu ce genre commun et libre. Je ne lui refuse pas un extérieur agréable, mais l'esprit et les manières sont gâtés et inconvenants. Il a dit *la *sotte et *Douchenka* mais c'est permis. Mme de Bauche s'est adressée alors à Dina, disant que sans doute ce monsieur pensait dire quelque chose d'agréable et parla pendant le dîner avec elle.",
+      "rsr": "Restored from tome04.docx ¶553 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      553,
+      553
+     ]
+    },
+    {
+     "new": {
+      "french": "A la musique le soir avec M. de Jahal, de Bauche, Merjeewsky qui a passé son examen très bien et qui revient peigné et en tube. Eristoff et Body nous font l'honneur de s'asseoir avec nous. Maman envoie chercher le baron qui rêve sous un arbre, il continuait de rêver avec nous mais vers la fin lia conversation avec moi, une conversation toute insignifiante, comme tout ce qu'il dit. Il a dit une chose inconvenante seulement, c'est:",
+      "rsr": "Restored from tome04.docx ¶554 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      554,
+      554
+     ]
+    },
+    {
+     "new": {
+      "french": "Quand donc me permettrez-vous de baiser votre main ?",
+      "rsr": "Restored from tome04.docx ¶555 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      555,
+      555
+     ]
+    },
+    {
+     "new": {
+      "french": "Mais jamais, Monsieur.",
+      "rsr": "Restored from tome04.docx ¶556 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      556,
+      556
+     ]
+    },
+    {
+     "new": {
+      "french": "C'est impossible, voyons.",
+      "rsr": "Restored from tome04.docx ¶557 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      557,
+      557
+     ]
+    },
+    {
+     "new": {
+      "french": "Alors dans vingt ans.",
+      "rsr": "Restored from tome04.docx ¶558 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      558,
+      558
+     ]
+    },
+    {
+     "new": {
+      "french": "Je ne veux pas alors.",
+      "rsr": "Restored from tome04.docx ¶559 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      559,
+      559
+     ]
+    },
+    {
+     "new": {
+      "french": "Non, dans dix ans.",
+      "rsr": "Restored from tome04.docx ¶560 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      560,
+      560
+     ]
+    },
+    {
+     "new": {
+      "french": "Ah ! je veux bien dans dix ans.",
+      "rsr": "Restored from tome04.docx ¶561 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      561,
+      561
+     ]
+    },
+    {
+     "new": {
+      "french": "J'avais dans l'idée en effet de lui donner ma main à baiser avec le temps, c'est pour cela que j'ai dit ces bêtises.",
+      "rsr": "Restored from tome04.docx ¶562 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      562,
+      562
+     ]
+    },
+    {
+     "new": {
+      "french": "Au Casino maman se place à côté de la comtesse Merjeewsky, et moi et Dina sur un autre canapé entre Gericke, Paparigo etc. et le petit comte derrière. Basilévitch n'était pas là, je voulais qu'elle vint pour donner ma lettre à de Tanlay, et je ne voulais pas. Je faisais des yeux au Polonais beaucoup, et aux autres aussi mais très peu.",
+      "rsr": "Restored from tome04.docx ¶563–566 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      563,
+      566
+     ]
+    },
+    {
+     "new": {
+      "french": "Il me dégoûte et pour ne pas laisser voir que je le déteste je le *regarde.*",
+      "rsr": "Restored from tome04.docx ¶567 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      567,
+      567
+     ]
+    },
+    {
+     "new": {
+      "french": "Gericke m'a demandé la permission de me faire une déclaration d'amour; après qu'il l'eut récitée le Polonais dit qu'il répétait la même chose au superlatif. Les plaisanteries étaient convenables et propres, je ne sais pas ce que Gericke a.",
+      "rsr": "Restored from tome04.docx ¶568 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      568,
+      568
+     ]
+    },
+    {
+     "new": {
+      "french": "Arrive Basilévitch etc. je m'apprête à voir tous nos cavaliers s'envoler mais pas du tout, ils ne bougent pas. C'est surnaturel.",
+      "rsr": "Restored from tome04.docx ¶569 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      569,
+      569
+     ]
+    },
+    {
+     "new": {
+      "french": "Je remis ma lettre au milieu d'une contredanse à de Tanlay qui est le seul véritable monsieur parmi tous ces êtres qui portent des pantalons. Il part demain, il était venu chercher la lettre mais ne nous a pas trouvés. Il nous fit ses adieux ce soir de la manière la plus charmante. Gericke et le Polonais disparaissent, Papa est au théâtre.",
+      "rsr": "Restored from tome04.docx ¶570 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      570,
+      570
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous n'étions pas rentrées une demi heure lorsqu'on frappe à la porte, *entrez* ! c'est Papa, cela m'étonne mais enfin. Il reste trois quarts d'heure, on cause; je montre beaucoup de finesse et d'esprit, je me moque de lui.",
+      "rsr": "Restored from tome04.docx ¶571 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      571,
+      571
+     ]
+    },
+    {
+     "new": {
+      "french": "Ce n'était pas trop ennuyeux.",
+      "rsr": "Restored from tome04.docx ¶572 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      572,
+      572
+     ]
+    }
+   ]
+  },
+  {
+   "file": "1874-07-20.md",
+   "date": "1874-07-20",
+   "heading": "Lundi, 20 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0382",
+     "_docx": 573.5
+    },
+    {
+     "old": "021.0383",
+     "_docx": 574
+    },
+    {
+     "old": "021.0384",
+     "_docx": 575
+    },
+    {
+     "old": "021.0385",
+     "_docx": 576
+    },
+    {
+     "old": "021.0386",
+     "_docx": 577
+    },
+    {
+     "old": "021.0387",
+     "_docx": 578
+    },
+    {
+     "old": "021.0388",
+     "_docx": 581
+    },
+    {
+     "old": "021.0389",
+     "_docx": 582
+    },
+    {
+     "old": "021.0390",
+     "_docx": 583
+    },
+    {
+     "old": "021.0391",
+     "_docx": 584
+    },
+    {
+     "old": "021.0392",
+     "_docx": 585
+    }
+   ]
+  },
+  {
+   "file": "1874-07-21.md",
+   "date": "1874-07-21",
+   "heading": "Mardi, 21 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0393",
+     "_docx": 586.5
+    },
+    {
+     "old": "021.0394",
+     "_docx": 587
+    },
+    {
+     "old": "021.0395",
+     "_docx": 591,
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "021.0396",
+     "_docx": 592
+    },
+    {
+     "old": "021.0397",
+     "_docx": 593
+    },
+    {
+     "old": "021.0398",
+     "_docx": 594
+    },
+    {
+     "old": "021.0399",
+     "_docx": 595
+    },
+    {
+     "old": "021.0400",
+     "_docx": 596
+    },
+    {
+     "old": "021.0401",
+     "_docx": 597
+    },
+    {
+     "old": "021.0402",
+     "_docx": 598
+    },
+    {
+     "old": "021.0403",
+     "_docx": 599
+    },
+    {
+     "old": "021.0404",
+     "_docx": 600
+    },
+    {
+     "old": "021.0405",
+     "_docx": 601
+    },
+    {
+     "old": "021.0406",
+     "_docx": 602
+    },
+    {
+     "old": "021.0407",
+     "_docx": 603
+    },
+    {
+     "old": "021.0408",
+     "_docx": 604
+    },
+    {
+     "old": "021.0409",
+     "_docx": 605
+    },
+    {
+     "old": "021.0410",
+     "_docx": 606
+    },
+    {
+     "old": "021.0411",
+     "_docx": 608
+    },
+    {
+     "old": "021.0412",
+     "_docx": 609
+    },
+    {
+     "old": "021.0413",
+     "_docx": 610
+    },
+    {
+     "old": "021.0414",
+     "_docx": 611
+    },
+    {
+     "old": "021.0415",
+     "_docx": 612
+    },
+    {
+     "old": "021.0416",
+     "_docx": 613
+    },
+    {
+     "old": "021.0417",
+     "_docx": 614
+    },
+    {
+     "old": "021.0418",
+     "_docx": 615
+    },
+    {
+     "old": "021.0419",
+     "_docx": 616
+    },
+    {
+     "old": "021.0420",
+     "_docx": 617
+    }
+   ]
+  },
+  {
+   "file": "1874-07-22.md",
+   "date": "1874-07-22",
+   "heading": "Mercredi, 22 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0421",
+     "_docx": 618.5
+    },
+    {
+     "old": "021.0422",
+     "_docx": 619
+    },
+    {
+     "old": "021.0423",
+     "_docx": 620
+    },
+    {
+     "old": "021.0424",
+     "_docx": 624
+    },
+    {
+     "old": "021.0425",
+     "_docx": 625
+    },
+    {
+     "old": "021.0426",
+     "_docx": 626
+    },
+    {
+     "old": "021.0427",
+     "_docx": 627
+    },
+    {
+     "old": "021.0428",
+     "_docx": 628
+    },
+    {
+     "old": "021.0429",
+     "_docx": 629
+    },
+    {
+     "old": "021.0430",
+     "_docx": 630
+    },
+    {
+     "old": "021.0431",
+     "_docx": 631
+    },
+    {
+     "old": "021.0432",
+     "_docx": 632
+    },
+    {
+     "old": "021.0433",
+     "_docx": 633
+    },
+    {
+     "old": "021.0434",
+     "_docx": 634
+    },
+    {
+     "old": "021.0435",
+     "_docx": 635
+    },
+    {
+     "old": "021.0436",
+     "_docx": 639
+    },
+    {
+     "old": "021.0437",
+     "_docx": 640
+    },
+    {
+     "old": "021.0438",
+     "_docx": 641
+    },
+    {
+     "old": "021.0439",
+     "_docx": 642
+    },
+    {
+     "old": "021.0440",
+     "_docx": 643
+    },
+    {
+     "old": "021.0441",
+     "_docx": 644
+    },
+    {
+     "old": "021.0442",
+     "_docx": 645
+    },
+    {
+     "old": "021.0443",
+     "_docx": 646
+    },
+    {
+     "old": "021.0444",
+     "_docx": 647
+    },
+    {
+     "old": "021.0445",
+     "_docx": 652
+    },
+    {
+     "old": "021.0446",
+     "_docx": 653
+    },
+    {
+     "old": "021.0447",
+     "_docx": 654
+    },
+    {
+     "old": "021.0448",
+     "_docx": 655
+    },
+    {
+     "old": "021.0449",
+     "_docx": 656
+    },
+    {
+     "old": "021.0450",
+     "_docx": 657
+    },
+    {
+     "old": "021.0451",
+     "_docx": 658
+    },
+    {
+     "old": "021.0452",
+     "_docx": 659
+    },
+    {
+     "old": "021.0453",
+     "_docx": 660
+    },
+    {
+     "old": "021.0454",
+     "_docx": 661
+    },
+    {
+     "old": "021.0455",
+     "_docx": 662
+    },
+    {
+     "old": "021.0456",
+     "_docx": 663
+    },
+    {
+     "old": "021.0457",
+     "_docx": 664
+    },
+    {
+     "old": "021.0458",
+     "_docx": 664.01
+    },
+    {
+     "old": "021.0459",
+     "_docx": 668
+    },
+    {
+     "old": "021.0460",
+     "_docx": 669
+    },
+    {
+     "old": "021.0461",
+     "_docx": 670
+    },
+    {
+     "old": "021.0462",
+     "_docx": 671
+    },
+    {
+     "old": "021.0463",
+     "_docx": 672
+    },
+    {
+     "old": "021.0464",
+     "_docx": 673
+    },
+    {
+     "old": "021.0465",
+     "_docx": 674
+    },
+    {
+     "old": "021.0466",
+     "_docx": 675
+    },
+    {
+     "old": "021.0467",
+     "_docx": 676
+    },
+    {
+     "old": "021.0468",
+     "_docx": 677
+    },
+    {
+     "old": "021.0469",
+     "_docx": 678
+    },
+    {
+     "old": "021.0470",
+     "_docx": 679
+    },
+    {
+     "old": "021.0471",
+     "_docx": 680
+    },
+    {
+     "old": "021.0472",
+     "_docx": 681
+    },
+    {
+     "old": "021.0473",
+     "_docx": 682
+    },
+    {
+     "old": "021.0474",
+     "_docx": 683
+    },
+    {
+     "old": "021.0475",
+     "_docx": 684
+    },
+    {
+     "old": "021.0476",
+     "_docx": 685
+    },
+    {
+     "old": "021.0477",
+     "_docx": 686
+    },
+    {
+     "old": "021.0478",
+     "_docx": 689
+    },
+    {
+     "old": "021.0479",
+     "_docx": 690
+    }
+   ]
+  },
+  {
+   "file": "1874-07-23.md",
+   "date": "1874-07-23",
+   "heading": "Jeudi, 23 juillet 1874",
+   "paragraphs": [
+    {
+     "old": "021.0480",
+     "_docx": 691.5
+    },
+    {
+     "old": "021.0481",
+     "_docx": 692
+    },
+    {
+     "old": "021.0482",
+     "_docx": 693
+    },
+    {
+     "old": "021.0483",
+     "_docx": 694
+    },
+    {
+     "old": "021.0484",
+     "_docx": 695
+    },
+    {
+     "old": "021.0485",
+     "_docx": 696
+    },
+    {
+     "old": "021.0486",
+     "_docx": 697
+    },
+    {
+     "old": "021.0487",
+     "_docx": 703
+    },
+    {
+     "old": "021.0488",
+     "_docx": 704,
+     "kind": "editorial",
+     "_kind_guess_reason": "the editors' description of the torn page corner with the surviving word fragments"
+    },
+    {
+     "old": "021.0489",
+     "_docx": 712
+    },
+    {
+     "old": "021.0490",
+     "_docx": 713
+    },
+    {
+     "old": "021.0491",
+     "_docx": 714
+    },
+    {
+     "old": "021.0492",
+     "_docx": 715
+    },
+    {
+     "old": "021.0493",
+     "_docx": 720
+    },
+    {
+     "old": "021.0494",
+     "_docx": 721
+    },
+    {
+     "old": "021.0495",
+     "_docx": 722
+    },
+    {
+     "old": "021.0496",
+     "_docx": 723
+    },
+    {
+     "old": "021.0497",
+     "_docx": 727
+    },
+    {
+     "old": "021.0498",
+     "_docx": 728
+    },
+    {
+     "old": "021.0499",
+     "_docx": 729
+    },
+    {
+     "old": "021.0500",
+     "_docx": 730
+    },
+    {
+     "old": "021.0501",
+     "_docx": 732
+    },
+    {
+     "old": "021.0502",
+     "_docx": 733
+    },
+    {
+     "old": "021.0503",
+     "_docx": 734
+    },
+    {
+     "old": "021.0504",
+     "_docx": 735
+    },
+    {
+     "old": "021.0505",
+     "_docx": 738
+    },
+    {
+     "old": "021.0506",
+     "_docx": 739
+    },
+    {
+     "old": "021.0507",
+     "_docx": 740
+    },
+    {
+     "old": "021.0508",
+     "_docx": 741
+    },
+    {
+     "old": "021.0509",
+     "_docx": 742
+    },
+    {
+     "old": "021.0510",
+     "_docx": 743
+    },
+    {
+     "old": "021.0511",
+     "_docx": 744
+    },
+    {
+     "old": "021.0512",
+     "_docx": 745
+    },
+    {
+     "old": "021.0513",
+     "_docx": 746
+    },
+    {
+     "old": "021.0514",
+     "_docx": 747
+    },
+    {
+     "old": "021.0515",
+     "_docx": 748
+    },
+    {
+     "old": "021.0516",
+     "_docx": 749
+    }
+   ]
+  }
+ ],
+ "_reviewed": "planner-tome0304, 2026-09-28: draft reviewed; see REVIEW.md"
+}

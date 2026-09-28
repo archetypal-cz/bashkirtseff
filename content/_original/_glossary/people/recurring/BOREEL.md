@@ -123,7 +123,7 @@ By March 1873, Marie declares Boreel "indifferent" to her (003.0024, entry 1873-
 In later diary entries and marginal notes, Marie consistently distances herself from her Boreel infatuation:
 - Calls her writings about him "detestable and stupid" (marginal notes)
 - Refers to him as "une petite plaisanterie, maladroite meme car il n'est pas gentilhomme" -- a clumsy little joke, not even a gentleman (002.0172, entry 1873-03-03)
-- In 1874, still involuntarily blushes when passing his balcony, which infuriates her (017.0050, entry 1874-02-26)
+- In 1874, still involuntarily blushes when passing his balcony, which infuriates her (017.0052, entry 1874-02-26)
 - By 1874 in Spa, refers to him as "ce bon gros Boreel, mon ancienne passion, d'enfance" -- that good fat Boreel, my old childhood passion (021.0067, entry 1874-07-09)
 - In 1875-76 finds him physically diminished: fat, ugly, lost his chic (051, entry 1876-01-04)
 - In 1877, categorizes him as "childhood" among her past attachments (068, entry 1877-01-10-18)

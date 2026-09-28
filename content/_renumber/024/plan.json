@@ -1,0 +1,2034 @@
+{
+ "carnet": "024",
+ "source": "tome04.docx",
+ "drop": [
+  {
+   "id": "024.0022",
+   "reason": "withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+  },
+  {
+   "id": "024.0023",
+   "reason": "withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+  },
+  {
+   "id": "024.0024",
+   "reason": "withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+  },
+  {
+   "id": "024.0025",
+   "reason": "withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1874-09-17.md",
+   "date": "1874-09-17",
+   "heading": "Jeudi, 17 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0026",
+     "_docx": 2258.5
+    },
+    {
+     "old": "024.0027",
+     "_docx": 2257
+    },
+    {
+     "old": "024.0028",
+     "_docx": 2259
+    },
+    {
+     "old": "024.0029",
+     "_docx": 2260
+    },
+    {
+     "old": "024.0030",
+     "_docx": 2261
+    },
+    {
+     "old": "024.0031",
+     "_docx": 2262
+    },
+    {
+     "old": "024.0032",
+     "_docx": 2263
+    },
+    {
+     "old": "024.0033",
+     "_docx": 2264
+    }
+   ]
+  },
+  {
+   "file": "1874-09-18.md",
+   "date": "1874-09-18",
+   "heading": "Vendredi, 18 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0034",
+     "_docx": 2268.5
+    },
+    {
+     "old": "024.0035",
+     "_docx": 2269
+    },
+    {
+     "old": "024.0036",
+     "_docx": 2270
+    },
+    {
+     "old": "024.0037",
+     "_docx": 2271
+    },
+    {
+     "old": "024.0038",
+     "_docx": 2272
+    },
+    {
+     "old": "024.0039",
+     "_docx": 2273
+    },
+    {
+     "old": "024.0040",
+     "_docx": 2274
+    },
+    {
+     "old": "024.0041",
+     "_docx": 2275
+    },
+    {
+     "old": "024.0042",
+     "_docx": 2276
+    },
+    {
+     "old": "024.0043",
+     "_docx": 2277
+    },
+    {
+     "old": "024.0044",
+     "_docx": 2278
+    },
+    {
+     "old": "024.0045",
+     "_docx": 2279
+    },
+    {
+     "old": "024.0046",
+     "_docx": 2280
+    },
+    {
+     "old": "024.0047",
+     "_docx": 2281
+    },
+    {
+     "old": "024.0048",
+     "_docx": 2285
+    },
+    {
+     "old": "024.0049",
+     "_docx": 2286
+    },
+    {
+     "old": "024.0050",
+     "_docx": 2287
+    }
+   ]
+  },
+  {
+   "file": "1874-09-19.md",
+   "date": "1874-09-19",
+   "heading": "Samedi, 19 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0051",
+     "_docx": 2288.5
+    },
+    {
+     "old": "024.0052",
+     "_docx": 2289
+    },
+    {
+     "old": "024.0053",
+     "_docx": 2290
+    },
+    {
+     "old": "024.0054",
+     "_docx": 2291
+    },
+    {
+     "old": "024.0055",
+     "_docx": 2292
+    },
+    {
+     "old": "024.0056",
+     "_docx": 2293
+    }
+   ]
+  },
+  {
+   "file": "1874-09-20.md",
+   "date": "1874-09-20",
+   "heading": "Dimanche, 20 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0057",
+     "_docx": 2294.5
+    },
+    {
+     "old": "024.0058",
+     "_docx": 2295
+    },
+    {
+     "old": "024.0059",
+     "_docx": 2298
+    },
+    {
+     "old": "024.0060",
+     "_docx": 2299
+    },
+    {
+     "old": "024.0061",
+     "_docx": 2300
+    },
+    {
+     "old": "024.0062",
+     "_docx": 2301
+    },
+    {
+     "old": "024.0063",
+     "_docx": 2302
+    },
+    {
+     "old": "024.0064",
+     "_docx": 2303,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    }
+   ]
+  },
+  {
+   "file": "1874-09-21.md",
+   "date": "1874-09-21",
+   "heading": "Lundi, 21 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0065",
+     "_docx": 2304.5
+    },
+    {
+     "old": "024.0066",
+     "_docx": 2305
+    },
+    {
+     "old": "024.0067",
+     "_docx": 2306
+    }
+   ]
+  },
+  {
+   "file": "1874-09-22.md",
+   "date": "1874-09-22",
+   "heading": "Mardi, 22 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0068",
+     "_docx": 2307.5
+    },
+    {
+     "old": "024.0069",
+     "_docx": 2308
+    },
+    {
+     "old": "024.0070",
+     "_docx": 2309
+    },
+    {
+     "old": "024.0071",
+     "_docx": 2312
+    },
+    {
+     "old": "024.0072",
+     "_docx": 2313
+    },
+    {
+     "old": "024.0073",
+     "_docx": 2314
+    },
+    {
+     "old": "024.0074",
+     "_docx": 2315
+    },
+    {
+     "old": "024.0075",
+     "_docx": 2316
+    },
+    {
+     "old": "024.0076",
+     "_docx": 2317
+    },
+    {
+     "old": "024.0077",
+     "_docx": 2318
+    },
+    {
+     "old": "024.0078",
+     "_docx": 2319
+    },
+    {
+     "old": "024.0079",
+     "_docx": 2320
+    },
+    {
+     "old": "024.0080",
+     "_docx": 2321
+    },
+    {
+     "old": "024.0081",
+     "_docx": 2322
+    },
+    {
+     "old": "024.0082",
+     "_docx": 2323
+    },
+    {
+     "old": "024.0083",
+     "_docx": 2327
+    },
+    {
+     "old": "024.0084",
+     "_docx": 2328
+    },
+    {
+     "old": "024.0085",
+     "_docx": 2329
+    },
+    {
+     "old": "024.0086",
+     "_docx": 2330
+    },
+    {
+     "old": "024.0087",
+     "_docx": 2331
+    },
+    {
+     "old": "024.0088",
+     "_docx": 2332
+    }
+   ]
+  },
+  {
+   "file": "1874-09-23.md",
+   "date": "1874-09-23",
+   "heading": "Mercredi, 23 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0089",
+     "_docx": 2333.5
+    },
+    {
+     "old": "024.0090",
+     "_docx": 2334
+    },
+    {
+     "old": "024.0091",
+     "_docx": 2335
+    },
+    {
+     "old": "024.0092",
+     "_docx": 2336
+    },
+    {
+     "old": "024.0093",
+     "_docx": 2337
+    },
+    {
+     "old": "024.0094",
+     "_docx": 2341
+    },
+    {
+     "old": "024.0095",
+     "_docx": 2342
+    },
+    {
+     "old": "024.0096",
+     "_docx": 2343
+    }
+   ]
+  },
+  {
+   "file": "1874-09-24.md",
+   "date": "1874-09-24",
+   "heading": "Jeudi, 24 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0097",
+     "_docx": 2344.5
+    },
+    {
+     "old": "024.0098",
+     "_docx": 2345
+    },
+    {
+     "old": "024.0099",
+     "_docx": 2346
+    },
+    {
+     "old": "024.0100",
+     "_docx": 2347
+    },
+    {
+     "old": "024.0101",
+     "_docx": 2348
+    },
+    {
+     "old": "024.0102",
+     "_docx": 2349
+    },
+    {
+     "old": "024.0103",
+     "_docx": 2350
+    },
+    {
+     "old": "024.0104",
+     "_docx": 2351
+    },
+    {
+     "old": "024.0105",
+     "_docx": 2352
+    },
+    {
+     "old": "024.0106",
+     "_docx": 2353
+    },
+    {
+     "old": "024.0107",
+     "_docx": 2354
+    },
+    {
+     "old": "024.0108",
+     "_docx": 2355
+    },
+    {
+     "old": "024.0109",
+     "_docx": 2356
+    },
+    {
+     "old": "024.0110",
+     "_docx": 2358
+    },
+    {
+     "old": "024.0111",
+     "_docx": 2359
+    },
+    {
+     "old": "024.0112",
+     "_docx": 2360
+    },
+    {
+     "old": "024.0113",
+     "_docx": 2361
+    },
+    {
+     "old": "024.0114",
+     "_docx": 2362
+    },
+    {
+     "old": "024.0115",
+     "_docx": 2363
+    },
+    {
+     "old": "024.0116",
+     "_docx": 2364
+    },
+    {
+     "old": "024.0117",
+     "_docx": 2365
+    },
+    {
+     "old": "024.0118",
+     "_docx": 2366
+    },
+    {
+     "old": "024.0119",
+     "_docx": 2367
+    },
+    {
+     "old": "024.0120",
+     "_docx": 2368,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "024.0121",
+     "_docx": 2369
+    },
+    {
+     "old": "024.0122",
+     "_docx": 2370
+    }
+   ]
+  },
+  {
+   "file": "1874-09-25.md",
+   "date": "1874-09-25",
+   "heading": "Vendredi, 25 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0123",
+     "_docx": 2371.5
+    },
+    {
+     "old": "024.0124",
+     "_docx": 2372
+    },
+    {
+     "old": "024.0125",
+     "_docx": 2376
+    },
+    {
+     "old": "024.0126",
+     "_docx": 2377
+    },
+    {
+     "old": "024.0127",
+     "_docx": 2378
+    },
+    {
+     "old": "024.0128",
+     "_docx": 2379
+    },
+    {
+     "old": "024.0129",
+     "_docx": 2380
+    },
+    {
+     "old": "024.0130",
+     "_docx": 2381
+    },
+    {
+     "old": "024.0131",
+     "_docx": 2385
+    },
+    {
+     "old": "024.0132",
+     "_docx": 2386
+    },
+    {
+     "old": "024.0133",
+     "_docx": 2387
+    },
+    {
+     "old": "024.0134",
+     "_docx": 2391
+    },
+    {
+     "old": "024.0135",
+     "_docx": 2392
+    },
+    {
+     "old": "024.0136",
+     "_docx": 2393
+    },
+    {
+     "old": "024.0137",
+     "_docx": 2394
+    },
+    {
+     "old": "024.0138",
+     "_docx": 2395
+    },
+    {
+     "old": "024.0139",
+     "_docx": 2396
+    },
+    {
+     "old": "024.0140",
+     "_docx": 2397
+    }
+   ]
+  },
+  {
+   "file": "1874-09-26.md",
+   "date": "1874-09-26",
+   "heading": "Samedi, 26 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0141",
+     "_docx": 2400.5
+    },
+    {
+     "old": "024.0142",
+     "_docx": 2401
+    },
+    {
+     "old": "024.0143",
+     "_docx": 2402
+    },
+    {
+     "old": "024.0144",
+     "_docx": 2403
+    },
+    {
+     "old": "024.0145",
+     "_docx": 2404
+    }
+   ]
+  },
+  {
+   "file": "1874-09-27.md",
+   "date": "1874-09-27",
+   "heading": "Dimanche, 27 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0146",
+     "_docx": 2405.5
+    },
+    {
+     "old": "024.0147",
+     "_docx": 2406
+    },
+    {
+     "old": "024.0148",
+     "_docx": 2407
+    },
+    {
+     "old": "024.0149",
+     "_docx": 2408
+    },
+    {
+     "old": "024.0150",
+     "_docx": 2411
+    },
+    {
+     "old": "024.0151",
+     "_docx": 2412
+    },
+    {
+     "old": "024.0152",
+     "_docx": 2413
+    },
+    {
+     "old": "024.0153",
+     "_docx": 2414
+    },
+    {
+     "old": "024.0154",
+     "_docx": 2415
+    },
+    {
+     "old": "024.0155",
+     "_docx": 2416
+    },
+    {
+     "old": "024.0156",
+     "_docx": 2417
+    },
+    {
+     "old": "024.0157",
+     "_docx": 2418
+    },
+    {
+     "old": "024.0158",
+     "_docx": 2419
+    },
+    {
+     "old": "024.0159",
+     "_docx": 2420
+    },
+    {
+     "old": "024.0160",
+     "_docx": 2421
+    },
+    {
+     "old": "024.0161",
+     "_docx": 2422
+    },
+    {
+     "old": "024.0162",
+     "_docx": 2423
+    },
+    {
+     "old": "024.0163",
+     "_docx": 2426
+    },
+    {
+     "old": "024.0164",
+     "_docx": 2427
+    },
+    {
+     "old": "024.0165",
+     "_docx": 2428
+    },
+    {
+     "old": "024.0166",
+     "_docx": 2429
+    },
+    {
+     "old": "024.0167",
+     "_docx": 2430
+    },
+    {
+     "old": "024.0168",
+     "_docx": 2431
+    },
+    {
+     "old": "024.0169",
+     "_docx": 2432
+    },
+    {
+     "old": "024.0170",
+     "_docx": 2433
+    },
+    {
+     "old": "024.0171",
+     "_docx": 2434
+    }
+   ]
+  },
+  {
+   "file": "1874-09-28.md",
+   "date": "1874-09-28",
+   "heading": "Lundi, 28 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0172",
+     "_docx": 2435.5
+    },
+    {
+     "old": "024.0173",
+     "_docx": 2436
+    },
+    {
+     "old": "024.0174",
+     "_docx": 2437
+    },
+    {
+     "old": "024.0175",
+     "_docx": 2438
+    },
+    {
+     "old": "024.0176",
+     "_docx": 2442
+    }
+   ]
+  },
+  {
+   "file": "1874-09-29.md",
+   "date": "1874-09-29",
+   "heading": "Mardi, 29 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0177",
+     "_docx": 2443.5
+    },
+    {
+     "old": "024.0178",
+     "_docx": 2444
+    },
+    {
+     "old": "024.0179",
+     "_docx": 2445
+    },
+    {
+     "old": "024.0180",
+     "_docx": 2446,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "024.0181",
+     "_docx": 2447
+    },
+    {
+     "old": "024.0182",
+     "_docx": 2448
+    },
+    {
+     "old": "024.0183",
+     "_docx": 2449
+    },
+    {
+     "old": "024.0184",
+     "_docx": 2450
+    },
+    {
+     "old": "024.0185",
+     "_docx": 2451
+    },
+    {
+     "old": "024.0186",
+     "_docx": 2452
+    },
+    {
+     "old": "024.0187",
+     "_docx": 2456
+    },
+    {
+     "old": "024.0188",
+     "_docx": 2457
+    },
+    {
+     "old": "024.0189",
+     "_docx": 2458
+    }
+   ]
+  },
+  {
+   "file": "1874-09-30.md",
+   "date": "1874-09-30",
+   "heading": "Mercredi, 30 septembre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0190",
+     "_docx": 2459.5
+    },
+    {
+     "old": "024.0191",
+     "_docx": 2460
+    },
+    {
+     "old": "024.0192",
+     "_docx": 2461
+    },
+    {
+     "old": "024.0193",
+     "_docx": 2462
+    },
+    {
+     "old": "024.0194",
+     "_docx": 2463
+    },
+    {
+     "old": "024.0195",
+     "_docx": 2464
+    },
+    {
+     "old": "024.0196",
+     "_docx": 2465
+    },
+    {
+     "old": "024.0197",
+     "_docx": 2466
+    },
+    {
+     "old": "024.0198",
+     "_docx": 2469
+    }
+   ]
+  },
+  {
+   "file": "1874-10-01.md",
+   "date": "1874-10-01",
+   "heading": "Jeudi, 1er octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0199",
+     "_docx": 2470.5
+    },
+    {
+     "old": "024.0200",
+     "_docx": 2471
+    },
+    {
+     "old": "024.0201",
+     "_docx": 2472
+    },
+    {
+     "old": "024.0202",
+     "_docx": 2473
+    },
+    {
+     "old": "024.0203",
+     "_docx": 2474
+    },
+    {
+     "old": "024.0204",
+     "_docx": 2475
+    },
+    {
+     "old": "024.0205",
+     "_docx": 2476
+    },
+    {
+     "old": "024.0206",
+     "_docx": 2477
+    },
+    {
+     "old": "024.0207",
+     "_docx": 2478
+    },
+    {
+     "old": "024.0208",
+     "_docx": 2479
+    },
+    {
+     "old": "024.0209",
+     "_docx": 2481
+    },
+    {
+     "old": "024.0210",
+     "_docx": 2482
+    }
+   ]
+  },
+  {
+   "file": "1874-10-02.md",
+   "date": "1874-10-02",
+   "heading": "Vendredi, 2 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0211",
+     "_docx": 2483.5
+    },
+    {
+     "old": "024.0212",
+     "_docx": 2484
+    },
+    {
+     "old": "024.0213",
+     "_docx": 2485
+    },
+    {
+     "old": "024.0214",
+     "_docx": 2486
+    },
+    {
+     "old": "024.0215",
+     "_docx": 2487
+    },
+    {
+     "old": "024.0216",
+     "_docx": 2488
+    },
+    {
+     "old": "024.0217",
+     "_docx": 2489
+    },
+    {
+     "old": "024.0218",
+     "_docx": 2492
+    },
+    {
+     "old": "024.0219",
+     "_docx": 2493
+    },
+    {
+     "old": "024.0220",
+     "_docx": 2494
+    },
+    {
+     "old": "024.0221",
+     "_docx": 2495
+    },
+    {
+     "old": "024.0222",
+     "_docx": 2496
+    },
+    {
+     "old": "024.0223",
+     "_docx": 2497
+    }
+   ]
+  },
+  {
+   "file": "1874-10-03.md",
+   "date": "1874-10-03",
+   "heading": "Samedi, 3 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0224",
+     "_docx": 2498.5
+    },
+    {
+     "old": "024.0225",
+     "_docx": 2499
+    },
+    {
+     "old": "024.0226",
+     "_docx": 2500
+    },
+    {
+     "old": "024.0227",
+     "_docx": 2501
+    },
+    {
+     "old": "024.0228",
+     "_docx": 2502
+    },
+    {
+     "old": "024.0229",
+     "_docx": 2503
+    },
+    {
+     "old": "024.0230",
+     "_docx": 2504
+    },
+    {
+     "old": "024.0231",
+     "_docx": 2508
+    },
+    {
+     "old": "024.0232",
+     "_docx": 2509
+    },
+    {
+     "old": "024.0233",
+     "_docx": 2510
+    },
+    {
+     "old": "024.0234",
+     "_docx": 2511
+    },
+    {
+     "old": "024.0235",
+     "_docx": 2512
+    },
+    {
+     "old": "024.0236",
+     "_docx": 2513
+    },
+    {
+     "old": "024.0237",
+     "_docx": 2516
+    },
+    {
+     "old": "024.0238",
+     "_docx": 2517,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "024.0239",
+     "_docx": 2518
+    },
+    {
+     "old": "024.0240",
+     "_docx": 2519
+    },
+    {
+     "old": "024.0241",
+     "_docx": 2520
+    },
+    {
+     "old": "024.0242",
+     "_docx": 2521
+    },
+    {
+     "new": {
+      "french": "Je pleure parce que je ne veux plus de ce que je voulais tant, parce qu'on m'a dégoûtée, parce qu'on a empoisonné mon plaisir. Quelquefois une seule parole contraire m'empoisonne tant, et alors je ne pleure plus parce que je veux ce que je désire, mais parce qu'on me l'a empoisonné et que j'en suis détournée.",
+      "rsr": "Restored from tome04.docx ¶2522 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2522,
+      2522
+     ]
+    },
+    {
+     "new": {
+      "french": "Et aujourd'hui je me désespère parce que le pavillon est perdu pour moi, *dans moi.* Ma tante seule est bonne, ne m'empoisonne en rien, m'aime, me soigne, en vérité et non sur paroles; elle me fait prendre du fer en cachette, tandis que d'autres l'annonceraient avec une trompette et s'en glorifieraient ! Elle est bonne pour moi et je l'aime pour cela plus que personne au monde ! Elle vient de m'accrocher des rideaux de tulle pour que je ne sois pas misérablement mangée par les moustiques, à Paris elle m'a fait apporter un bain, tandis que les autres parlent seulement et me proclament malade, mourante, défaillante, et que sais-je encore !",
+      "rsr": "Restored from tome04.docx ¶2523 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2523,
+      2523
+     ]
+    },
+    {
+     "new": {
+      "french": "Mon Dieu pardonne-moi si je suis injuste, je dis *si* parce que je suis tellement désolée que je ne reconnais plus ce qui est juste et ce qui ne l'est pas. Je me semble la plus misérable des misérables et en même temps je pense combien il y a des malheureux, vraiment malheureux auprès du malheur desquels, mon désagrément est une folie incompréhensible, et alors je prie Dieu de me pardonner parce que je suis coupable, je suis capricieuse.",
+      "rsr": "Restored from tome04.docx ¶2527 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2527,
+      2527
+     ]
+    },
+    {
+     "new": {
+      "french": "Pardonnez-moi Seigneur !",
+      "rsr": "Restored from tome04.docx ¶2528 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2528,
+      2528
+     ]
+    },
+    {
+     "new": {
+      "french": "Mais l'annexe n'est pas le pavillon qui est si près de la Promenade, qui est si gentil, si gracieux en dedans, je voulais joindre ma terrasse à la terrasse des cyprès par un pont rustique, je voulais... je voulais tant de choses, j'ai si bien pensé et imaginé moi-même demeurant dans ce pavillon.",
+      "rsr": "Restored from tome04.docx ¶2529 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2529,
+      2529
+     ]
+    },
+    {
+     "new": {
+      "french": "Sa perte pour moi est comme la perte du duc de Hamilton, c'est un chagrin à peu près pareil.",
+      "rsr": "Restored from tome04.docx ¶2530 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2530,
+      2530
+     ]
+    },
+    {
+     "new": {
+      "french": "Ah ! mon Dieu, rien ne remplacera le pavillon pour maintenant, pour moi, il me plaisait et comme exprès on me l'a pris.",
+      "rsr": "Restored from tome04.docx ¶2531 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2531,
+      2531
+     ]
+    },
+    {
+     "new": {
+      "french": "[En travers: C'est un chagrin à peu près pareil, avec la différence que je ne pense plus au pavillon et ne le regrette pas du tout, tandis que je pense au duc et le regrette de plus en plus.]",
+      "rsr": "Restored from tome04.docx ¶2532 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "margin"
+     },
+     "_docx": [
+      2532,
+      2532
+     ],
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "new": {
+      "french": "Mon Dieu pardonnez-moi et calmez-moi. Pardonnez-moi et faites que je vive comme j'aime !",
+      "rsr": "Restored from tome04.docx ¶2533 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2533,
+      2533
+     ]
+    }
+   ]
+  },
+  {
+   "file": "1874-10-04.md",
+   "date": "1874-10-04",
+   "heading": "Dimanche, 4 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0243",
+     "_docx": 2534.5
+    },
+    {
+     "old": "024.0244",
+     "_docx": 2535
+    },
+    {
+     "old": "024.0245",
+     "_docx": 2536
+    },
+    {
+     "old": "024.0246",
+     "_docx": 2537
+    },
+    {
+     "old": "024.0247",
+     "_docx": 2538
+    },
+    {
+     "old": "024.0248",
+     "_docx": 2539
+    },
+    {
+     "old": "024.0249",
+     "_docx": 2543
+    },
+    {
+     "old": "024.0250",
+     "_docx": 2544
+    },
+    {
+     "old": "024.0251",
+     "_docx": 2545
+    },
+    {
+     "old": "024.0252",
+     "_docx": 2546
+    },
+    {
+     "old": "024.0253",
+     "_docx": 2547
+    },
+    {
+     "old": "024.0254",
+     "_docx": 2551
+    }
+   ]
+  },
+  {
+   "file": "1874-10-05.md",
+   "date": "1874-10-05",
+   "paragraphs": [
+    {
+     "old": "024.0255"
+    },
+    {
+     "old": "024.0256"
+    },
+    {
+     "old": "024.0257"
+    },
+    {
+     "old": "024.0258"
+    },
+    {
+     "old": "024.0259"
+    }
+   ]
+  },
+  {
+   "file": "1874-10-06.md",
+   "date": "1874-10-06",
+   "paragraphs": [
+    {
+     "old": "024.0260"
+    },
+    {
+     "old": "024.0261"
+    },
+    {
+     "old": "024.0262"
+    },
+    {
+     "old": "024.0263"
+    },
+    {
+     "old": "024.0264"
+    },
+    {
+     "old": "024.0265"
+    },
+    {
+     "old": "024.0266"
+    },
+    {
+     "old": "024.0267"
+    },
+    {
+     "old": "024.0268"
+    },
+    {
+     "old": "024.0269"
+    }
+   ]
+  },
+  {
+   "file": "1874-10-07.md",
+   "date": "1874-10-07",
+   "heading": "Mercredi, 7 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0270",
+     "_docx": 2570.5
+    },
+    {
+     "old": "024.0271",
+     "_docx": 2571
+    },
+    {
+     "old": "024.0272",
+     "_docx": 2572
+    },
+    {
+     "old": "024.0273",
+     "_docx": 2573
+    },
+    {
+     "old": "024.0274",
+     "_docx": 2574
+    },
+    {
+     "old": "024.0275",
+     "_docx": 2575
+    },
+    {
+     "old": "024.0276",
+     "_docx": 2576
+    },
+    {
+     "old": "024.0277",
+     "_docx": 2577
+    },
+    {
+     "old": "024.0278",
+     "_docx": 2581
+    },
+    {
+     "old": "024.0279",
+     "_docx": 2582
+    }
+   ]
+  },
+  {
+   "file": "1874-10-08.md",
+   "date": "1874-10-08",
+   "heading": "Jeudi, 8 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0280",
+     "_docx": 2583.5
+    },
+    {
+     "old": "024.0281",
+     "_docx": 2584
+    },
+    {
+     "old": "024.0282",
+     "_docx": 2585
+    },
+    {
+     "old": "024.0283",
+     "_docx": 2585.01
+    },
+    {
+     "old": "024.0284",
+     "_docx": 2586
+    },
+    {
+     "old": "024.0285",
+     "_docx": 2588
+    },
+    {
+     "old": "024.0286",
+     "_docx": 2588.01
+    },
+    {
+     "old": "024.0287",
+     "_docx": 2590
+    }
+   ]
+  },
+  {
+   "file": "1874-10-09.md",
+   "date": "1874-10-09",
+   "heading": "Vendredi, 9 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0288",
+     "_docx": 2593.5
+    },
+    {
+     "old": "024.0289",
+     "_docx": 2594
+    },
+    {
+     "old": "024.0290",
+     "_docx": 2595
+    },
+    {
+     "old": "024.0291",
+     "_docx": 2596
+    },
+    {
+     "old": "024.0292",
+     "_docx": 2599
+    },
+    {
+     "old": "024.0293",
+     "_docx": 2601
+    },
+    {
+     "old": "024.0294",
+     "_docx": 2602
+    },
+    {
+     "old": "024.0295",
+     "_docx": 2603
+    },
+    {
+     "old": "024.0296",
+     "_docx": 2604
+    }
+   ]
+  },
+  {
+   "file": "1874-10-10.md",
+   "date": "1874-10-10",
+   "heading": "Samedi, 10 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0297",
+     "_docx": 2605.5
+    },
+    {
+     "old": "024.0298",
+     "_docx": 2606
+    },
+    {
+     "old": "024.0299",
+     "_docx": 2607
+    },
+    {
+     "old": "024.0300",
+     "_docx": 2608
+    },
+    {
+     "old": "024.0301",
+     "_docx": 2609
+    }
+   ]
+  },
+  {
+   "file": "1874-10-11.md",
+   "date": "1874-10-11",
+   "heading": "Dimanche, 11 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0302",
+     "_docx": 2610.5
+    },
+    {
+     "old": "024.0303",
+     "_docx": 2611
+    },
+    {
+     "old": "024.0304",
+     "_docx": 2615
+    },
+    {
+     "old": "024.0305",
+     "_docx": 2616
+    },
+    {
+     "old": "024.0306",
+     "_docx": 2617
+    },
+    {
+     "old": "024.0307",
+     "_docx": 2618
+    },
+    {
+     "old": "024.0308",
+     "_docx": 2619
+    },
+    {
+     "old": "024.0309",
+     "_docx": 2620
+    }
+   ]
+  },
+  {
+   "file": "1874-10-12.md",
+   "date": "1874-10-12",
+   "heading": "Lundi, 12 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0310",
+     "_docx": 2623.5
+    },
+    {
+     "old": "024.0311",
+     "_docx": 2624
+    },
+    {
+     "old": "024.0312",
+     "_docx": 2625
+    }
+   ]
+  },
+  {
+   "file": "1874-10-13.md",
+   "date": "1874-10-13",
+   "heading": "Mardi, 13 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0313",
+     "_docx": 2626.5
+    },
+    {
+     "old": "024.0314",
+     "_docx": 2627
+    },
+    {
+     "old": "024.0315",
+     "_docx": 2628
+    },
+    {
+     "old": "024.0316",
+     "_docx": 2629
+    },
+    {
+     "old": "024.0317",
+     "_docx": 2630
+    },
+    {
+     "old": "024.0318",
+     "_docx": 2631
+    },
+    {
+     "old": "024.0319",
+     "_docx": 2632
+    },
+    {
+     "old": "024.0320",
+     "_docx": 2633
+    },
+    {
+     "old": "024.0321",
+     "_docx": 2634
+    },
+    {
+     "old": "024.0322",
+     "_docx": 2635
+    },
+    {
+     "old": "024.0323",
+     "_docx": 2636
+    },
+    {
+     "old": "024.0324",
+     "_docx": 2637
+    },
+    {
+     "old": "024.0325",
+     "_docx": 2638
+    },
+    {
+     "old": "024.0326",
+     "_docx": 2641
+    },
+    {
+     "old": "024.0327",
+     "_docx": 2642
+    },
+    {
+     "old": "024.0328",
+     "_docx": 2643
+    },
+    {
+     "old": "024.0329",
+     "_docx": 2644
+    },
+    {
+     "old": "024.0330",
+     "_docx": 2645
+    },
+    {
+     "old": "024.0331",
+     "_docx": 2646
+    },
+    {
+     "old": "024.0332",
+     "_docx": 2647
+    },
+    {
+     "old": "024.0333",
+     "_docx": 2648
+    },
+    {
+     "old": "024.0334",
+     "_docx": 2649
+    },
+    {
+     "old": "024.0335",
+     "_docx": 2650
+    },
+    {
+     "old": "024.0336",
+     "_docx": 2651
+    },
+    {
+     "old": "024.0337",
+     "_docx": 2652
+    },
+    {
+     "old": "024.0338",
+     "_docx": 2653
+    },
+    {
+     "old": "024.0339",
+     "_docx": 2654
+    },
+    {
+     "old": "024.0340",
+     "_docx": 2655
+    },
+    {
+     "old": "024.0341",
+     "_docx": 2656
+    },
+    {
+     "old": "024.0342",
+     "_docx": 2657
+    },
+    {
+     "old": "024.0343",
+     "_docx": 2658
+    },
+    {
+     "old": "024.0344",
+     "_docx": 2661
+    },
+    {
+     "old": "024.0345",
+     "_docx": 2662
+    },
+    {
+     "old": "024.0346",
+     "_docx": 2663
+    },
+    {
+     "old": "024.0347",
+     "_docx": 2664
+    },
+    {
+     "old": "024.0348",
+     "_docx": 2665
+    },
+    {
+     "old": "024.0349",
+     "_docx": 2666
+    },
+    {
+     "old": "024.0350",
+     "_docx": 2667
+    },
+    {
+     "old": "024.0351",
+     "_docx": 2668
+    },
+    {
+     "old": "024.0352",
+     "_docx": 2669
+    }
+   ]
+  },
+  {
+   "file": "1874-10-14.md",
+   "date": "1874-10-14",
+   "heading": "Mercredi, 14 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0353",
+     "_docx": 2670.5
+    },
+    {
+     "old": "024.0354",
+     "_docx": 2671
+    },
+    {
+     "old": "024.0355",
+     "_docx": 2672
+    },
+    {
+     "old": "024.0356",
+     "_docx": 2673
+    },
+    {
+     "old": "024.0357",
+     "_docx": 2674
+    },
+    {
+     "old": "024.0358",
+     "_docx": 2675
+    },
+    {
+     "old": "024.0359",
+     "_docx": 2676
+    },
+    {
+     "old": "024.0360",
+     "_docx": 2677
+    },
+    {
+     "old": "024.0361",
+     "_docx": 2680,
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    }
+   ]
+  },
+  {
+   "file": "1874-10-15.md",
+   "date": "1874-10-15",
+   "heading": "Jeudi, 15 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0362",
+     "_docx": 2681.5
+    },
+    {
+     "old": "024.0363",
+     "_docx": 2682
+    },
+    {
+     "old": "024.0364",
+     "_docx": 2683
+    }
+   ]
+  },
+  {
+   "file": "1874-10-16.md",
+   "date": "1874-10-16",
+   "heading": "Vendredi, 16 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0365",
+     "_docx": 2684.5
+    },
+    {
+     "old": "024.0366",
+     "_docx": 2685
+    },
+    {
+     "old": "024.0367",
+     "_docx": 2686
+    }
+   ]
+  },
+  {
+   "file": "1874-10-17.md",
+   "date": "1874-10-17",
+   "heading": "Samedi, 17 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0368",
+     "_docx": 2687.5
+    },
+    {
+     "old": "024.0369",
+     "_docx": 2688
+    },
+    {
+     "old": "024.0370",
+     "_docx": 2689
+    },
+    {
+     "old": "024.0371",
+     "_docx": 2690
+    },
+    {
+     "old": "024.0372",
+     "_docx": 2691
+    }
+   ]
+  },
+  {
+   "file": "1874-10-18.md",
+   "date": "1874-10-18",
+   "heading": "Dimanche, 18 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0373",
+     "_docx": 2692.5
+    },
+    {
+     "old": "024.0374",
+     "_docx": 2693
+    },
+    {
+     "old": "024.0375",
+     "_docx": 2697
+    }
+   ]
+  },
+  {
+   "file": "1874-10-19.md",
+   "date": "1874-10-19",
+   "heading": "Lundi, 19 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0376",
+     "_docx": 2698.5
+    },
+    {
+     "old": "024.0377",
+     "_docx": 2699
+    },
+    {
+     "old": "024.0378",
+     "_docx": 2700
+    },
+    {
+     "old": "024.0379",
+     "_docx": 2701
+    },
+    {
+     "old": "024.0380",
+     "_docx": 2702
+    },
+    {
+     "old": "024.0381",
+     "_docx": 2703
+    },
+    {
+     "old": "024.0382",
+     "_docx": 2705
+    },
+    {
+     "old": "024.0383",
+     "_docx": 2706
+    },
+    {
+     "old": "024.0384",
+     "_docx": 2707
+    },
+    {
+     "old": "024.0385",
+     "_docx": 2708
+    }
+   ]
+  },
+  {
+   "file": "1874-10-20.md",
+   "date": "1874-10-20",
+   "heading": "Mardi, 20 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0386",
+     "_docx": 2709.5
+    },
+    {
+     "old": "024.0387",
+     "_docx": 2710
+    },
+    {
+     "old": "024.0388",
+     "_docx": 2711
+    },
+    {
+     "old": "024.0389",
+     "_docx": 2712
+    }
+   ]
+  },
+  {
+   "file": "1874-10-21.md",
+   "date": "1874-10-21",
+   "heading": "Mercredi, 21 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0390",
+     "_docx": 2713.5
+    },
+    {
+     "old": "024.0391",
+     "_docx": 2714
+    },
+    {
+     "old": "024.0392",
+     "_docx": 2715
+    },
+    {
+     "old": "024.0393",
+     "_docx": 2716
+    }
+   ]
+  },
+  {
+   "file": "1874-10-22.md",
+   "date": "1874-10-22",
+   "heading": "Jeudi, 22 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0394",
+     "_docx": 2719.5
+    },
+    {
+     "old": "024.0395",
+     "_docx": 2720
+    },
+    {
+     "old": "024.0396",
+     "_docx": 2721
+    },
+    {
+     "old": "024.0397",
+     "_docx": 2722
+    },
+    {
+     "old": "024.0398",
+     "_docx": 2723
+    },
+    {
+     "old": "024.0399",
+     "_docx": 2724
+    },
+    {
+     "old": "024.0400",
+     "_docx": 2725
+    },
+    {
+     "old": "024.0401",
+     "_docx": 2726
+    },
+    {
+     "old": "024.0402",
+     "_docx": 2727
+    }
+   ]
+  },
+  {
+   "file": "1874-10-23.md",
+   "date": "1874-10-23",
+   "heading": "Vendredi, 23 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0403",
+     "_docx": 2728.5
+    },
+    {
+     "old": "024.0404",
+     "_docx": 2729
+    },
+    {
+     "old": "024.0405",
+     "_docx": 2730
+    },
+    {
+     "old": "024.0406",
+     "_docx": 2731
+    },
+    {
+     "old": "024.0407",
+     "_docx": 2732
+    },
+    {
+     "old": "024.0408",
+     "_docx": 2734
+    },
+    {
+     "old": "024.0409",
+     "_docx": 2738
+    }
+   ]
+  },
+  {
+   "file": "1874-10-24.md",
+   "date": "1874-10-24",
+   "heading": "Samedi, 24 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0410",
+     "_docx": 2739.5
+    },
+    {
+     "old": "024.0411",
+     "_docx": 2740
+    },
+    {
+     "old": "024.0412",
+     "_docx": 2741
+    },
+    {
+     "old": "024.0413",
+     "_docx": 2742
+    },
+    {
+     "old": "024.0414",
+     "_docx": 2746
+    },
+    {
+     "old": "024.0415",
+     "_docx": 2747
+    }
+   ]
+  },
+  {
+   "file": "1874-10-25.md",
+   "date": "1874-10-25",
+   "heading": "Dimanche, 25 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0416",
+     "_docx": 2748.5
+    },
+    {
+     "old": "024.0417",
+     "_docx": 2749
+    },
+    {
+     "old": "024.0418",
+     "_docx": 2749.01
+    },
+    {
+     "old": "024.0419",
+     "_docx": 2753
+    },
+    {
+     "old": "024.0420",
+     "_docx": 2754
+    },
+    {
+     "old": "024.0421",
+     "_docx": 2755
+    },
+    {
+     "old": "024.0422",
+     "_docx": 2756
+    },
+    {
+     "old": "024.0423",
+     "_docx": 2757
+    },
+    {
+     "old": "024.0424",
+     "_docx": 2758
+    },
+    {
+     "old": "024.0425",
+     "_docx": 2758.01
+    },
+    {
+     "old": "024.0426",
+     "_docx": 2759
+    }
+   ]
+  },
+  {
+   "file": "1874-10-26.md",
+   "date": "1874-10-26",
+   "heading": "Lundi, 26 octobre 1874",
+   "paragraphs": [
+    {
+     "old": "024.0427",
+     "_docx": 2760.5
+    },
+    {
+     "old": "024.0428",
+     "_docx": 2761
+    },
+    {
+     "old": "024.0429",
+     "_docx": 2762
+    },
+    {
+     "old": "024.0430",
+     "_docx": 2763
+    },
+    {
+     "old": "024.0431",
+     "_docx": 2764
+    },
+    {
+     "old": "024.0432",
+     "_docx": 2765
+    },
+    {
+     "old": "024.0433",
+     "_docx": 2769
+    },
+    {
+     "new": {
+      "french": "Décembre 13 mercredi\n14\n16\n20\n25\nJanvier 5 dimanche\n24\nFévrier 8 samedi\n9\n12\nen tout 12 fois.",
+      "rsr": "Restored from tome04.docx ¶2770–2782 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "other",
+      "source": "Liste de Marie: les jours où elle a vu le duc de Hamilton"
+     },
+     "_docx": [
+      2770,
+      2782
+     ]
+    }
+   ]
+  }
+ ],
+ "_reviewed": "planner-tome0304, 2026-09-28: draft reviewed; see REVIEW.md"
+}

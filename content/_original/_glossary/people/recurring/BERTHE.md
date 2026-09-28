@@ -52,7 +52,7 @@ Berthe reappears in Nice in the Bashkirtseffs' social orbit. Both girls fixate o
 
 Marie's mother defines Berthe memorably: "jolie comme un ange, espiegle et grossiere comme un diable, porte une canne et marche une jambe eloignee de l'autre" (008.0353) -- pretty as an angel, mischievous and coarse as the devil, carries a cane and walks with legs wide apart.
 
-Marie recalls seeing Berthe with Hamilton on a balcony at a ball in Baden-Baden: "il se moquait d'elle" (006.0110). Among Hamilton's racehorses, Marie notices one named "Berthe" and smiles through tears (017.0134).
+Marie recalls seeing Berthe with Hamilton on a balcony at a ball in Baden-Baden: "il se moquait d'elle" (006.0110). Among Hamilton's racehorses, Marie notices one named "Berthe" and smiles through tears (017.0137).
 
 ### Phase 3: Nice and Paris -- Acquaintanceship Without Friendship (1875-1877)
 

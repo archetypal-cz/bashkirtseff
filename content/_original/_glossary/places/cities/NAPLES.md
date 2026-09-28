@@ -75,7 +75,7 @@ Naples first appears in the diary on April 30, 1873 (004.0069), when the fourtee
 ### 1874: Imagined Refuge
 
 %% GLO_NAPLES.0010 %%
-After the devastating Lewin ball invitation rejection (March 11, 1874), when the family sent to request an invitation only to be told "la liste était close," Marie and her mother lay together in bed weeping and planning escape. Marie wrote: "Nous avons parlé de vendre 55 et nous en aller à Naples, car à Nice il n'y a plus de salut pour nous!" (We talked about selling 55 and going to Naples, for in Nice there is no salvation for us!) (017.0263). This dramatic reaction reveals:
+After the devastating Lewin ball invitation rejection (March 11, 1874), when the family sent to request an invitation only to be told "la liste était close," Marie and her mother lay together in bed weeping and planning escape. Marie wrote: "Nous avons parlé de vendre 55 et nous en aller à Naples, car à Nice il n'y a plus de salut pour nous!" (We talked about selling 55 and going to Naples, for in Nice there is no salvation for us!) (017.0266). This dramatic reaction reveals:
 
 - The depth of social humiliation the family felt in Nice
 - Naples as representing an alternative social scene where they might start fresh

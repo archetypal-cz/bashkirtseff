@@ -49,7 +49,7 @@ Tcherniakovka carries dual significance for Marie:
 
 ## Related Entries
 
-- [#Grand_papa](../../people/family/GRAND_PAPA.md) - Stepan Babanine, the Babanine estate's owner; tells of its "grandeurs passées" (018.0231; Marie's "papa" in 1873–1875)
+- [#Grand_papa](../../people/family/GRAND_PAPA.md) - Stepan Babanine, the Babanine estate's owner; tells of its "grandeurs passées" (018.0258; Marie's "papa" in 1873–1875)
 - [#Alexandre](../../people/core/ALEXANDRE.md) - Family context
 - [#Baba](../../people/mentioned/BABA.md) - Grandmother, connection to the old estate
 - [#Ukraine](../../places/countries/UKRAINE.md) - The region

@@ -74,7 +74,7 @@ Alexandre's central role in the family was as the manager of the Babanine estate
 ### Revenue Withholding (1875)
 
 %% GLO_ALEXANDRE.0017 %%
-In January 1875, Marie reveals that Alexandre was withholding estate revenues from the family in Europe. She writes two carefully crafted letters to Russia: one to Uncle Etienne about traveling to Russia "pour louer les terres car l'oncle Alexandre n'envoie pas les revenus" (to lease the lands because Uncle Alexandre doesn't send the revenues), and one to Alexandre himself designed "d'adoucir Alexandre" (to soften Alexandre) while concealing her true purpose -- to remove him from managing Ma tante's properties. Marie describes him bluntly: "c'est un mechant homme, quelquefois, et pourrait me faire du mal" (he's a wicked man sometimes, and could hurt me). Her plan was to arrange the leases so tenants would send money directly to her aunt "sans passer par les mains de mon oncle et de son frere" (without passing through the hands of my uncle and his brother) (028.0111).
+In January 1875, Marie reveals that Alexandre was withholding estate revenues from the family in Europe. She writes two carefully crafted letters to Russia: one to Uncle Etienne about traveling to Russia "pour louer les terres car l'oncle Alexandre n'envoie pas les revenus" (to lease the lands because Uncle Alexandre doesn't send the revenues), and one to Alexandre himself designed "d'adoucir Alexandre" (to soften Alexandre) while concealing her true purpose -- to remove him from managing Ma tante's properties. Marie describes him bluntly: "c'est un mechant homme, quelquefois, et pourrait me faire du mal" (he's a wicked man sometimes, and could hurt me). Her plan was to arrange the leases so tenants would send money directly to her aunt "sans passer par les mains de mon oncle et de son frere" (without passing through the hands of my uncle and his brother) (028.0109).
 
 %% GLO_ALEXANDRE.0018 %%
 ### The Money Courier (1875)
@@ -205,8 +205,8 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **000-04**: Marriage to Nadine Martinoff, characterization as rapacious couple, abandonment of Vassilissa
 
 ### 1875
-- **028.0111** (January 1): Alexandre withholding revenues; Marie's diplomatic letters; plan to remove him from estate management
-- **029.0170-0172** (February 7): Alexandre arrives in Nice from Russia with family; children Stiopa (7) and Julie (6); Marie's ambivalence: "est-il bonhomme ? est-il ruse ? That is the question"
+- **028.0109** (January 1): Alexandre withholding revenues; Marie's diplomatic letters; plan to remove him from estate management
+- **029.0171-0172** (February 7): Alexandre arrives in Nice from Russia with family; children Stiopa (7) and Julie (6); Marie's ambivalence: "est-il bonhomme ? est-il ruse ? That is the question"
 - **034.0413** (June 25): Alexandre brings 108,000 francs from Russia, squandered in two months
 
 ### 1876
@@ -288,4 +288,4 @@ Alexandre's behavior reflects several aspects of 19th century Russian provincial
 
 %% GLO_ALEXANDRE.0064 %%
 %% 2025-12-07T19:55:00 RSR: Expanded entry based on Book 00 preface. Alexandre emerges as calculating opportunist who married 15-year-old for her fortune, then betrayed her adoptive mother %%
-%% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Confirmed Alexandre is MATERNAL (Babanine), not paternal (Bashkirtseff), per 067.0944 where he gives his name as "Babanine." Added extensive diary references across carnets 028, 029, 034, 059, 064, 067, 073, 074, 078, 079, 082, 084, 089, 090, 092, 094, 096, 097, 102. Key additions: estate revenue withholding (028), buying out brothers' inheritance (096 via raw carnet 14), Soulima legal affair, Zamiatine lawsuit representation, Paris life and "M. vingt francs l'heure" episode, death entry with complex tribute (102). Note: the RSR comment in 029.0172 incorrectly identifies him as "Alexandre Bashkirtseff" -- he is Alexandre Babanine. The LAN comment in 028.0111 calling oncle Etienne and oncle Alexandre "paternal" is also incorrect. The stub entries ONCLE_ALEXANDRE and ALEXANDRE_BASHKIRTSEFF in people/mentioned/ should be merged/redirected to this entry. %%
+%% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Confirmed Alexandre is MATERNAL (Babanine), not paternal (Bashkirtseff), per 067.0944 where he gives his name as "Babanine." Added extensive diary references across carnets 028, 029, 034, 059, 064, 067, 073, 074, 078, 079, 082, 084, 089, 090, 092, 094, 096, 097, 102. Key additions: estate revenue withholding (028), buying out brothers' inheritance (096 via raw carnet 14), Soulima legal affair, Zamiatine lawsuit representation, Paris life and "M. vingt francs l'heure" episode, death entry with complex tribute (102). Note: the RSR comment in 029.0173 incorrectly identifies him as "Alexandre Bashkirtseff" -- he is Alexandre Babanine. The LAN comment in 028.0109 calling oncle Etienne and oncle Alexandre "paternal" is also incorrect. The stub entries ONCLE_ALEXANDRE and ALEXANDRE_BASHKIRTSEFF in people/mentioned/ should be merged/redirected to this entry. %%

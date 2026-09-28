@@ -1,0 +1,3 @@
+1. **tome04 image 4** (23 July 1874): an engraved ornamental monogram. It looks like printed matter (letterhead or a pasted-in vignette) rather than Marie's pen, so it is not linked. Include it as a facsimile? (Default: left out.)
+2. **Spellings left as printed:** «estl» (inside a [Rayé:] passage), «fourures», «rappellée». Typesetting typos to correct, or Marie's own spellings to keep? (Default: kept.)
+3. **028/029 translated date lines:** the `set_french` corrections of 028.0216 0218 0226 0241 0250, 029.0001 0014 leave each translation (cz/uk/en/fr) showing the old translated date line, with an `ED: SOURCE CHANGED` note. These headings need fixing in the translation wave (not an owner decision; listed so it is not lost).

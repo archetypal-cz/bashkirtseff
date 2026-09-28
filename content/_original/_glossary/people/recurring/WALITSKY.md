@@ -126,7 +126,7 @@ Walitsky was far more than a physician. He was a constant presence in family lif
 - **Social intermediary**: Knew the Duke of Hamilton through social connections; noted Marie's reactions with teasing grimaces
 - **Household participant**: Joined roulette games, carnival outings, croquet matches, excursions
 - **Physical protector**: Slapped an Englishman at Monaco who insulted Paul: "Walitsky... lui donna des beaux coups dans la figure et partout" (%% 018.0087 %%)
-- **Verse-writer**: Composed humorous poems about the family's social circle at Spa, satirizing their suitors (%% 022.0105 %%: "Improvisation de Walitsky")
+- **Verse-writer**: Composed humorous poems about the family's social circle at Spa, satirizing their suitors (%% 022.0106 %%: "Improvisation de Walitsky")
 - **Dog-fighter intervener**: Even timid in domestic crises -- "Walitsky n'osant intervenir" when the dogs fought (%% 071.0537 %%)
 - **Financial handler**: Managed practical matters the family disdained: "Walitsky pourvoira a tout. Je n'aime pas m'occuper de ces choses" (%% 020.0085 %%)
 
@@ -296,7 +296,7 @@ This stands in extraordinary contrast to her harsh judgments of almost everyone 
 - **1873-74**: Living with family in Nice; social connections with Duke of Hamilton; carnival outings
 - **1874 (March)**: Diagnosed Mlle Collignon's terminal illness (%% 002.0158 %%)
 - **1874 (April)**: Slapped an Englishman at Monaco defending Paul (%% 018.0082 %%)
-- **1874 (summer)**: With family at Spa; wrote satirical verse about suitors (%% 022.0105 %%)
+- **1874 (summer)**: With family at Spa; wrote satirical verse about suitors (%% 022.0106 %%)
 - **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (%% 055.0290 %%)
 - **1876 (October)**: Accused (absurdly) of poisoning Romanoff (%% 066.0629 %%)
 - **1877 (summer)**: Recommended Soden spa for Marie's throat (%% 073.0242 %%)
@@ -364,7 +364,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 ### Books 19-22 (Paris, Spa 1874)
 - %% 020.0052 %% (Jun 12): Escorts Marie to theatre "deguisee en noir"
 - %% 020.0085 %%: Handles practical finances: "Walitsky pourvoira a tout"
-- %% 022.0105 %% (Jul 25): Composes satirical verse about Spa suitors ("Improvisation de Walitsky")
+- %% 022.0106 %% (Jul 25): Composes satirical verse about Spa suitors ("Improvisation de Walitsky")
 
 %% GLO_WALITSKY.0053 %%
 ### Books 47-62 (Rome, Nice, Italy 1875-76)

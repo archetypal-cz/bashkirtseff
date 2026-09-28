@@ -30,7 +30,7 @@ Constantin (Constantine) Bashkirtseff (1833–1883) was Marie's father, a Russia
 - Landowner at the Gavronzi estate near Poltava
 - Married Marie Stepanovna Babanine ([#Maman](MAMAN.md))
 - Father of Marie (1858–1884) and Paul (1859–1899)
-- Marshal of the nobility: "mon père est maréchal de noblesse" (023.0208); "mon honorable père, maréchal de noblesse" (030.0128)
+- Marshal of the nobility: "mon père est maréchal de noblesse" (023.0265); "mon honorable père, maréchal de noblesse" (030.0127)
 
 ## In the diary, 1873–1875
 
@@ -39,7 +39,7 @@ Constantin is absent from the Nice household. Marie mentions him with marked for
 - **Durocher affair** (1873-10-25, 011.0277–0284): "Mon très cher père a une actrice française Durocher…", his public liaison in Russia.
 - **Announced visit** (1873-11-07, 012.0096): "Mon cher père vient à Nice. Animal !"
 - **Visit to Nice / Monte-Carlo, 24–27 November 1873** (013.0082–0109): "Mon auguste père est arrivé." Only during this visit does Marie call him "Papa" / "le Papa" / "mon adorable papa" (013.0085, 013.0093, 013.0109), always next to "mon père".
-- **Family quarrels**: the grandfather reproaches "ma race, mon nom, mon père" (019.0313); Marie defends him (025.0054: "Je connais peu mon père et l'aime encore moins…").
+- **Family quarrels**: the grandfather reproaches "ma race, mon nom, mon père" (019.0327); Marie defends him (025.0054: "Je connais peu mon père et l'aime encore moins…").
 - **Letters, 1875**: Marie writes to Paul and Sacha so that they tell "mon père" she is coming to Russia, "pas pour rester chez lui" (032.0372); "Mon père écrit que … Paul se conduit d'une façon impossible" (039.0106).
 
 ## 1876–1877: Poltava, Gavronzi, Paris, Rome

@@ -1,0 +1,210 @@
+{
+ "carnet": "026",
+ "source": "tome04.docx",
+ "drop": [
+  {
+   "id": "026.0041",
+   "reason": "withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1874-11-19.md",
+   "date": "1874-11-19",
+   "heading": "Jeudi, 19 novembre 1874",
+   "paragraphs": [
+    {
+     "old": "026.0001",
+     "_docx": 3123.5
+    },
+    {
+     "old": "026.0002",
+     "_docx": 3124
+    },
+    {
+     "old": "026.0003",
+     "_docx": 3125
+    },
+    {
+     "old": "026.0004",
+     "_docx": 3126
+    },
+    {
+     "old": "026.0005",
+     "_docx": 3127
+    },
+    {
+     "old": "026.0006",
+     "_docx": 3128
+    },
+    {
+     "old": "026.0007",
+     "_docx": 3129
+    },
+    {
+     "old": "026.0008",
+     "_docx": 3130
+    },
+    {
+     "old": "026.0009",
+     "_docx": 3134
+    },
+    {
+     "old": "026.0010",
+     "_docx": 3135
+    },
+    {
+     "old": "026.0011",
+     "_docx": 3136
+    },
+    {
+     "old": "026.0012",
+     "_docx": 3137
+    },
+    {
+     "old": "026.0013",
+     "_docx": 3138
+    },
+    {
+     "old": "026.0014",
+     "_docx": 3139
+    }
+   ]
+  },
+  {
+   "file": "1874-11-20.md",
+   "date": "1874-11-20",
+   "heading": "Vendredi, 20 novembre 1874",
+   "paragraphs": [
+    {
+     "old": "026.0015",
+     "_docx": 3140.5
+    },
+    {
+     "old": "026.0016",
+     "_docx": 3141
+    },
+    {
+     "old": "026.0017",
+     "_docx": 3142
+    },
+    {
+     "old": "026.0018",
+     "_docx": 3143
+    },
+    {
+     "old": "026.0019",
+     "_docx": 3146
+    },
+    {
+     "old": "026.0020",
+     "_docx": 3147
+    }
+   ]
+  },
+  {
+   "file": "1874-11-21.md",
+   "date": "1874-11-21",
+   "heading": "Samedi, 21 novembre 1874",
+   "paragraphs": [
+    {
+     "old": "026.0021",
+     "_docx": 3148.5
+    },
+    {
+     "old": "026.0022",
+     "_docx": 3149
+    },
+    {
+     "old": "026.0023",
+     "_docx": 3150
+    },
+    {
+     "old": "026.0024",
+     "_docx": 3151
+    },
+    {
+     "old": "026.0025",
+     "_docx": 3152
+    }
+   ]
+  },
+  {
+   "file": "1874-11-22.md",
+   "date": "1874-11-22",
+   "heading": "Dimanche, 22 novembre 1874",
+   "paragraphs": [
+    {
+     "old": "026.0026",
+     "_docx": 3153.5
+    },
+    {
+     "old": "026.0027",
+     "_docx": 3154
+    },
+    {
+     "old": "026.0028",
+     "_docx": 3155
+    },
+    {
+     "old": "026.0029",
+     "_docx": 3157
+    },
+    {
+     "old": "026.0030",
+     "_docx": 3157.01
+    },
+    {
+     "old": "026.0031",
+     "_docx": 3158
+    },
+    {
+     "old": "026.0032",
+     "_docx": 3159
+    },
+    {
+     "old": "026.0033",
+     "_docx": 3162,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "026.0034",
+     "_docx": 3163
+    }
+   ]
+  },
+  {
+   "file": "1874-11-23.md",
+   "date": "1874-11-23",
+   "heading": "Lundi, 23 novembre 1874",
+   "paragraphs": [
+    {
+     "old": "026.0035",
+     "_docx": 3164.5
+    },
+    {
+     "old": "026.0036",
+     "_docx": 3165
+    },
+    {
+     "old": "026.0037",
+     "_docx": 3166
+    },
+    {
+     "old": "026.0038",
+     "_docx": 3167
+    },
+    {
+     "old": "026.0039",
+     "_docx": 3168
+    },
+    {
+     "old": "026.0040",
+     "_docx": 3169
+    }
+   ]
+  }
+ ],
+ "_reviewed": "planner-tome0304, 2026-09-28: draft reviewed; see REVIEW.md"
+}

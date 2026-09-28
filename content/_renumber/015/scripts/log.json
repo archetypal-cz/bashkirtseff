@@ -1,0 +1,1077 @@
+[
+ [
+  "016",
+  "kept",
+  "3 empty clusters (old RSR summaries) kept in place, not dropped: 016.0221, 016.0315, 016.0346"
+ ],
+ [
+  "019",
+  "kept",
+  "29 empty clusters (old RSR summaries) kept in place, not dropped: 019.0074, 019.0080, 019.0093, 019.0099, 019.0112, 019.0130, 019.0136, 019.0153, 019.0161, 019.0167, 019.0171, 019.0177, 019.0197, 019.0220, 019.0228, 019.0252, 019.0274, 019.0287, 019.0296, 019.0307, 019.0318, 019.0323, 019.0342, 019.0358, 019.0361, 019.0375, 019.0380, 019.0393, 019.0415"
+ ],
+ [
+  "020",
+  "kept",
+  "36 empty clusters (old RSR summaries) kept in place, not dropped: 020.0014, 020.0020, 020.0106, 020.0111, 020.0115, 020.0131, 020.0142, 020.0149, 020.0178, 020.0182, 020.0195, 020.0204, 020.0214, 020.0232, 020.0245, 020.0280, 020.0288, 020.0310, 020.0330, 020.0335, 020.0356, 020.0361, 020.0365, 020.0372, 020.0387, 020.0389, 020.0400, 020.0407, 020.0413, 020.0434, 020.0453, 020.0458, 020.0488, 020.0504, 020.0517, 020.0537"
+ ],
+ [
+  "022",
+  "kept",
+  "12 empty clusters (old RSR summaries) kept in place, not dropped: 022.0211, 022.0249, 022.0269, 022.0354, 022.0355, 022.0365, 022.0387, 022.0408, 022.0418, 022.0431, 022.0458, 022.0511"
+ ],
+ [
+  "023",
+  "kept",
+  "11 empty clusters (old RSR summaries) kept in place, not dropped: 023.0021, 023.0033, 023.0045, 023.0057, 023.0061, 023.0072, 023.0087, 023.0113, 023.0150, 023.0173, 023.0185"
+ ],
+ [
+  "015",
+  "cover",
+  "cover entry 1874-01-02-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "015",
+  "new-dropped",
+  "docx ¶204 «i»: OCR debris"
+ ],
+ [
+  "016",
+  "cover",
+  "cover entry 1874-01-26-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "017",
+  "cover",
+  "cover entry 1874-02-22-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "018",
+  "cover",
+  "cover entry 1874-03-28-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "018",
+  "new-dropped",
+  "docx ¶2242 «I»: OCR debris"
+ ],
+ [
+  "019",
+  "cover",
+  "cover entry 1874-04-24-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "020",
+  "cover",
+  "cover entry 1874-05-30-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "020",
+  "new-dropped",
+  "docx ¶3171 «'i»: OCR debris"
+ ],
+ [
+  "021",
+  "cover",
+  "cover entry 1874-07-05-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "021",
+  "new-dropped",
+  "docx ¶698 «48»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "021",
+  "cover",
+  "docx ¶751 «H[is] G[race] t[he] D[uke] o[f] H[amilton]»: title-page line, withdrawn"
+ ],
+ [
+  "022",
+  "cover",
+  "cover entry 1874-07-24-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "023",
+  "cover",
+  "cover entry 1874-08-08-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "023",
+  "new-dropped",
+  "docx ¶1555 «! ! !»: OCR debris"
+ ],
+ [
+  "023",
+  "new-dropped",
+  "docx ¶1954 «126»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "023",
+  "new-dropped",
+  "docx ¶2108 «134»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "023",
+  "new-dropped",
+  "docx ¶2223 «142»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "023",
+  "cover",
+  "docx ¶2252 «H[is] G[race] t[he] D[uke] o[f] Hamilton]»: title-page line, withdrawn"
+ ],
+ [
+  "024",
+  "cover",
+  "cover entry 1874-09-17-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "024",
+  "cover",
+  "docx ¶2256 «Nice, depuis le 1er octobre Promenade des Anglais, 55bis»: title-page line, withdrawn"
+ ],
+ [
+  "024",
+  "new-dropped",
+  "docx ¶2514 «166»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "024",
+  "new-dropped",
+  "docx ¶2612 «174»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "024",
+  "cover",
+  "docx ¶2789 «H[is] G[race] t[he] D[uke] o[f] H[amilton]»: title-page line, withdrawn"
+ ],
+ [
+  "025",
+  "cover",
+  "cover entry 1874-10-27-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "025",
+  "cover",
+  "docx ¶2792 «Promenade des Anglais, 55 bis, en ma villa, Nice»: title-page line, withdrawn"
+ ],
+ [
+  "026",
+  "cover",
+  "cover entry 1874-11-19-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "026",
+  "cover",
+  "docx ¶3172 «H[is] G[race] t[he] D[uke] o[f] Hamilton]»: title-page line, withdrawn"
+ ],
+ [
+  "027",
+  "cover",
+  "cover entry 1874-11-24-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "027",
+  "new-dropped",
+  "docx ¶3504 «244»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "027",
+  "cover",
+  "docx ¶3685 «H[is] Gfrace] t[he] D[uke] o[f] H[amilton]»: title-page line, withdrawn"
+ ],
+ [
+  "028",
+  "cover",
+  "cover entry 1874-12-25-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "028",
+  "cover",
+  "docx ¶3688 «Promenade des Anglais, 55 bis, en ma villa, Nice»: title-page line, withdrawn"
+ ],
+ [
+  "028",
+  "new-dropped",
+  "docx ¶4013 «280»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "028",
+  "cover",
+  "docx ¶4067 «[H[is] G[race] t[he] D[uke] o[f] H[amilton]»: title-page line, withdrawn"
+ ],
+ [
+  "029",
+  "cover",
+  "cover entry 1875-01-20-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "029",
+  "cover",
+  "docx ¶4069 «commencé le mercredi 20 janvier 1875 terminé le jeudi 18 fév»: title-page line, withdrawn"
+ ],
+ [
+  "029",
+  "cover",
+  "docx ¶4514 «H[is] G[race] t[he] D[uke] o[f] H[amilton]»: title-page line, withdrawn"
+ ],
+ [
+  "030",
+  "cover",
+  "cover entry 1875-02-19-cover.md not created (title page withdrawn)"
+ ],
+ [
+  "030",
+  "cover",
+  "docx ¶4517 «Promenade des Anglais 55 bis, en ma villa»: title-page line, withdrawn"
+ ],
+ [
+  "030",
+  "new-dropped",
+  "docx ¶4692 «332»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "030",
+  "new-dropped",
+  "docx ¶4906 «347»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "030",
+  "new-dropped",
+  "docx ¶5042 «356»: printed page number (picture-caption style), not text"
+ ],
+ [
+  "020",
+  "kind-removed",
+  "020.0350: dialogue or narration, not a copied letter (drafter guess from a salutation)"
+ ],
+ [
+  "020",
+  "kind-removed",
+  "020.0476: dialogue or narration, not a copied letter (drafter guess from a salutation)"
+ ],
+ [
+  "021",
+  "kind-removed",
+  "021.0365: dialogue or narration, not a copied letter (drafter guess from a salutation)"
+ ],
+ [
+  "021",
+  "kind-removed",
+  "021.0399: dialogue or narration, not a copied letter (drafter guess from a salutation)"
+ ],
+ [
+  "025",
+  "kind-removed",
+  "025.0230: dialogue or narration, not a copied letter (drafter guess from a salutation)"
+ ],
+ [
+  "027",
+  "kind-removed",
+  "027.0262: dialogue or narration, not a copied letter (drafter guess from a salutation)"
+ ],
+ [
+  "027",
+  "kind-removed",
+  "027.0306: dialogue or narration, not a copied letter (drafter guess from a salutation)"
+ ],
+ [
+  "028",
+  "kind-removed",
+  "028.0039: dialogue or narration, not a copied letter (drafter guess from a salutation)"
+ ],
+ [
+  "029",
+  "kind-removed",
+  "029.0141: dialogue or narration, not a copied letter (drafter guess from a salutation)"
+ ],
+ [
+  "017",
+  "kind",
+  "017.0147 → other (Annotation ultérieure de Marie, 1875): Marie's later annotation"
+ ],
+ [
+  "017",
+  "kind",
+  "017.0160 → other (Annotation ultérieure de Marie, 1875): Marie's later annotation"
+ ],
+ [
+  "019",
+  "kind",
+  "019.0338 → other (Annotation ultérieure de Marie, 1880): Marie's later annotation"
+ ],
+ [
+  "020",
+  "kind",
+  "020.0296 → other (Annotation ultérieure de Marie, 1876): Marie's later annotation"
+ ],
+ [
+  "022",
+  "kind",
+  "022.0469 → other (Annotation ultérieure de Marie, 1875): Marie's later annotation"
+ ],
+ [
+  "023",
+  "kind",
+  "023.0142 → other (Annotation ultérieure de Marie, 1876): Marie's later annotation"
+ ],
+ [
+  "028",
+  "kind",
+  "028.0088 → other (Annotation ultérieure de Marie, 1880): Marie's later annotation"
+ ],
+ [
+  "028",
+  "kind",
+  "028.0240 → other (Annotation ultérieure de Marie, 1880): Marie's later annotation"
+ ],
+ [
+  "029",
+  "kind",
+  "029.0032 → other (Annotation ultérieure de Marie): Marie's later annotation"
+ ],
+ [
+  "030",
+  "kind",
+  "030.0046 → other (Annotation ultérieure de Marie): Marie's later annotation"
+ ],
+ [
+  "030",
+  "kind",
+  "030.0087 → other (Annotation ultérieure de Marie): Marie's later annotation"
+ ],
+ [
+  "030",
+  "kind",
+  "030.0343 → other (Annotation ultérieure de Marie): Marie's later annotation"
+ ],
+ [
+  "021",
+  "cover",
+  "021.0517 «H[is] G[race] t[he] D[uke] o[f] H[amilton]»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "022",
+  "cover",
+  "022.0464 «Livre 23ème\ncommencé le vendredi 8 août 1874\nterminé à la Cour de Lond»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "024",
+  "cover",
+  "024.0022 «H[is] G[race] t[he] D[uke] o[f] Hamilton]»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "024",
+  "cover",
+  "024.0023 «Livre 24^ème^»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "024",
+  "cover",
+  "024.0024 «commencé le jeudi 17 septembre 1874 terminé le 26 octobre 1874»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "024",
+  "cover",
+  "024.0025 «Paris, hôtel des Iles Britanniques, au premier»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "025",
+  "cover",
+  "025.0265 «H[is] G[race] t[he] D[uke] o[f] H[amilton]»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "026",
+  "cover",
+  "026.0041 «H[is] G[race] t[he] D[uke] o[f] Hamilton]»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "028",
+  "cover",
+  "028.0024 «H[is] G[race] t[he] D[uke] o[f] H[amilton]»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "029",
+  "cover",
+  "029.0002 «[H[is] G[race] t[he] D[uke] o[f] H[amilton]\nLivre 29ème\ncommencé le me»: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "030",
+  "cover",
+  "030.0002 «[Livre 30ème commencé le vendredi 19 février 1875 terminé le vendredi »: withdrawn title-page text (owner 2026-09-28: no cover pages until the manuscript is scanned; text kept in content/_renumber/015-030/REVIEW.md)"
+ ],
+ [
+  "015",
+  "set_french-rejected",
+  "015.0277: the docx paragraph also holds 015.0278, which _original keeps as its own paragraph; no text is missing"
+ ],
+ [
+  "016",
+  "set_french-rejected",
+  "016.0412: the docx paragraph also holds 016.0401–0411, which _original keeps as its own paragraph; no text is missing"
+ ],
+ [
+  "024",
+  "set_french-rejected",
+  "024.0282: the docx paragraph also holds 024.0283, which _original keeps as its own paragraph; no text is missing"
+ ],
+ [
+  "024",
+  "set_french-rejected",
+  "024.0426: the docx paragraph also holds 024.0425, which _original keeps as its own paragraph; no text is missing"
+ ],
+ [
+  "025",
+  "set_french-rejected",
+  "025.0225: the docx paragraph also holds 025.0224, which _original keeps as its own paragraph; no text is missing"
+ ],
+ [
+  "026",
+  "set_french-rejected",
+  "026.0029: the docx paragraph also holds 026.0028, which _original keeps as its own paragraph; no text is missing"
+ ],
+ [
+  "026",
+  "set_french-rejected",
+  "026.0031: the docx paragraph also holds 026.0030, which _original keeps as its own paragraph; no text is missing"
+ ],
+ [
+  "030",
+  "set_french-rejected",
+  "030.0092: the docx paragraph also holds 030.0091, which _original keeps as its own paragraph; no text is missing"
+ ],
+ [
+  "015",
+  "kind",
+  "new ¶156 → other («Laid et poussiéreux, je ne le compte pas»): footnote in Marie's voice («Laid et poussiéreux, je ne le compte pas»), not the editors'"
+ ],
+ [
+  "015",
+  "new-dropped",
+  "docx ¶229 «2 Gâteau pascal au fromage blanc [NdT]»: printed-edition footnote marked [NdT] (translator's gloss of a Russian word)"
+ ],
+ [
+  "015",
+  "new-dropped",
+  "docx ¶232 «tesse de Galve, je l'ai vue [Rayé: assez] plus que les autres.»: page-break repeat of the end of 015.0133 («…la com-/tesse de Galve»); its struck word goes into 015.0133"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0133: restore the struck word «[Rayé: assez]» (docx ¶232)"
+ ],
+ [
+  "015",
+  "restored",
+  "1874-01-20.md, 1874-01-21.md kept as in _original: the manuscript dates both entries «21 janvier» (Mardi 21, then Mercredi 21); Tuesday was the 20th, so the first stays 1874-01-20 as in _original"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0290: complete the sentence cut at a page break (docx ¶451 + ¶456)"
+ ],
+ [
+  "015",
+  "new-dropped",
+  "docx ¶456 «la nuit pour en commencer une autre presque semblable.»: appended to 015.0290 (same sentence)"
+ ],
+ [
+  "015",
+  "new-edited",
+  "docx ¶457: split into 2 paragraphs — two docx paragraphs; OCR «I» → «!»"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0026: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0027: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0032: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0037: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0051: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0058: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0062: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0085: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0097: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0098: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0103: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0135: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0137: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0150: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0171: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0178: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0218: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0226: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0234: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0248: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0281: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0292: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "015",
+  "set_french",
+  "015.0300: restore the struck words «[Rayé: …]» the docx has inside this paragraph (the 015 extraction dropped them)"
+ ],
+ [
+  "016",
+  "new-dropped",
+  "docx ¶754 «non loin de\nAvant\nHoward me\nleva aussi;»: entry 1874-02-07.md restored as in _original"
+ ],
+ [
+  "016",
+  "restored",
+  "1874-02-07.md kept as in _original: the docx lines here come from a garbled two-column OCR; _original holds the complete text in reading order"
+ ],
+ [
+  "016",
+  "moved",
+  "016.0281 back to docx ¶881: the drafter matched «Que je suis malheureuse aujourd'hui !» to 1 March (¶1189 «Ah ! que je suis…») and took ¶881 for new text"
+ ],
+ [
+  "017",
+  "new-added",
+  "1874-03-01.md: «Ah ! que je suis malheureuse aujourd'hui !» — the 1 March line, distinct from 016.0281"
+ ],
+ [
+  "016",
+  "kind",
+  "new ¶948 → other («Je ne pensais pas à ces choses-là, je n'en savais »): footnote in Marie's voice («… j'avais douze ans»)"
+ ],
+ [
+  "016",
+  "set_french",
+  "016.0282: the old cluster held both date lines; 14 February becomes its own empty day"
+ ],
+ [
+  "016",
+  "entry",
+  "1874-02-14: date line only → «[Aucun texte…]» entry; 016.0282 opens 1874-02-15"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0400 → editorial: the editors' note introducing the struck fragments (docx ¶1040)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0401 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0402 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0403 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0404 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0405 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0406 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0407 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0408 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0409 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0410 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "016",
+  "kind",
+  "016.0411 → rayé: unfinished phrase Marie struck out (docx ¶1040–1041)"
+ ],
+ [
+  "017",
+  "set_french",
+  "017.0097: complete the sentence cut at a page break (docx ¶1184 + ¶1188)"
+ ],
+ [
+  "017",
+  "new-dropped",
+  "docx ¶1188 «ces dames à la gare; je vais avec Machenka chez Rumpelmayer.»: appended to 017.0097 (same sentence)"
+ ],
+ [
+  "017",
+  "new-dropped",
+  "docx ¶1274 «Pourquoi sommes-nous si malheureux I Pourquoi ne veut-on»: page-break repeat of the start of 017.0162"
+ ],
+ [
+  "017",
+  "new-dropped",
+  "docx ¶1290 «ments.»: page-break repeat of the end of 017.0170 («…embellisse-ments»)"
+ ],
+ [
+  "018",
+  "new-dropped",
+  "docx ¶1909 «folie s'est prè-\nles yeux fermés,\ngauche le prince»: words of 018.0121 printed around the facsimile (image7); already in _original"
+ ],
+ [
+  "018",
+  "new-dropped",
+  "docx ¶2006 «Merceredi 8 avril 1874»: entry 1874-04-07.md restored as in _original"
+ ],
+ [
+  "018",
+  "restored",
+  "1874-04-07.md, 1874-04-08.md kept as in _original: the date line «Merceredi 8 avril» (OCR) was not recognised by the drafter"
+ ],
+ [
+  "018",
+  "new-dropped",
+  "docx ¶2208 «Lund 20 avril 1874»: entry 1874-04-19.md restored as in _original"
+ ],
+ [
+  "018",
+  "restored",
+  "1874-04-19.md, 1874-04-20.md kept as in _original: the date line «Lund 20 avril» (OCR) was not recognised by the drafter"
+ ],
+ [
+  "018",
+  "moved",
+  "018.0310 → 018/1874-04-21.md: «Lundi 20 - suite.» sits after the 21 April text in the manuscript (docx ¶2223–2224)"
+ ],
+ [
+  "018",
+  "new-added",
+  "1874-04-21.md: «Lundi 20 - suite.» — the label of the addendum"
+ ],
+ [
+  "018",
+  "new-edited",
+  "docx ¶2036: OCR «Oh Paris I» → «Oh Paris !»"
+ ],
+ [
+  "019",
+  "set_french",
+  "019.0374: complete the paragraph cut at a page break (docx ¶2745 + ¶2749)"
+ ],
+ [
+  "019",
+  "new-dropped",
+  "docx ¶2749 «sœurs. Elle est grasse mais jolie et un air satisfait et heureux. Elle»: appended to 019.0374 (same paragraph)"
+ ],
+ [
+  "019",
+  "old-dropped",
+  "019.0221 «# Vendredi, 15 mai 1874»: date line «Vendredi, 15 mai 1874» invented by the extraction: neither tome03.docx nor the raw carnet has it; the text stays under Jeudi 14 mai (docx ¶2524–2558)"
+ ],
+ [
+  "020",
+  "old-dropped",
+  "020.0373 «# Mardi, 23 juin 1874»: date line «Mardi, 23 juin 1874» invented by the extraction: neither tome03.docx nor the raw carnet has it; the text stays under Lundi 22 juin (Marie: «depuis lundi 22 je n'ai rien écrit»)"
+ ],
+ [
+  "020",
+  "old-dropped",
+  "020.0388 «# Mercredi, 24 juin 1874»: date line «Mercredi, 24 juin 1874» invented by the extraction: neither tome03.docx nor the raw carnet has it; the text stays under Lundi 22 juin (Marie: «depuis lundi 22 je n'ai rien écrit»)"
+ ],
+ [
+  "020",
+  "new-dropped",
+  "docx ¶3250.5 «Duc de Hamilton.»: «12 février Duc de Hamilton.» is text (020.0314), not a date line"
+ ],
+ [
+  "020",
+  "restored",
+  "1874-06-17.md kept as in _original: «12 février Duc de Hamilton.» was read as a date line by the drafter"
+ ],
+ [
+  "020",
+  "set_french",
+  "020.0194: complete the paragraph cut at the facsimile pages (docx ¶3068–3076)"
+ ],
+ [
+  "020",
+  "new-dropped",
+  "docx ¶3076 «sa fille à cheval avec l'homme commode, M. Zveguinzoff. Nous arrêtons »: appended to 020.0194 (same sentence)"
+ ],
+ [
+  "020",
+  "set_french",
+  "020.0279: complete the sentence cut at a page break (docx ¶3185 + ¶3189)"
+ ],
+ [
+  "020",
+  "new-dropped",
+  "docx ¶3189 «avec étonnement.»: appended to 020.0279 (same sentence)"
+ ],
+ [
+  "020",
+  "kind",
+  "020.0158 → other (Note de Marie, imprimée en bas de page dans Mon Journal): Marie's own note printed as a footnote (as the new ones in 015/016/027)"
+ ],
+ [
+  "020",
+  "kind",
+  "020.0166 → other (Note de Marie, imprimée en bas de page dans Mon Journal): Marie's own note printed as a footnote (as the new ones in 015/016/027)"
+ ],
+ [
+  "021",
+  "new-edited",
+  "docx ¶153: drop «d'arriver.», the end of 021.0086 repeated after the page break"
+ ],
+ [
+  "021",
+  "new-dropped",
+  "docx ¶185 «J CUI IO.»: OCR debris («J CUI IO.»)"
+ ],
+ [
+  "021",
+  "new-dropped",
+  "docx ¶208 «m H S' hal||le|b°nhoUr-,d aV0'r un saint'bernard je le nomme Nothmah. »: garbled OCR of 021.0134 (same text)"
+ ],
+ [
+  "021",
+  "new-dropped",
+  "docx ¶307 «enfa\td°nnera'S des man'ères, il les a trop libres et trop»: garbled OCR of the end of 021.0211"
+ ],
+ [
+  "021",
+  "kind",
+  "new ¶533–544 → letter: the copy of Marie's letter to Berthe (19 July 1874)"
+ ],
+ [
+  "021",
+  "kind",
+  "021.0488 → editorial: the editors' description of the torn page corner with the surviving word fragments"
+ ],
+ [
+  "022",
+  "new-dropped",
+  "docx ¶857 «Descendant d'Achille Admirateur du roi d'Ephèse Papari poulous grec Et»: the acrostic lines are already in _original, one line per paragraph (022.0084–0087)"
+ ],
+ [
+  "022",
+  "new-dropped",
+  "docx ¶859 «Monarque à demi sauvage Aux quatre yeux Albin Body Pas d'autre rime qu»: the acrostic lines are already in _original (022.0089–0097)"
+ ],
+ [
+  "022",
+  "set_french",
+  "022.0465: Marie's date line «Samedi 8 août 1874 - suite» opens Livre 23 (docx ¶1307); made a heading"
+ ],
+ [
+  "023",
+  "new-dropped",
+  "docx ¶1805 «Ma tante:»: already in 023.0194"
+ ],
+ [
+  "023",
+  "new-dropped",
+  "docx ¶1995 «nous»: already in 023.0202 (German verse)"
+ ],
+ [
+  "023",
+  "new-dropped",
+  "docx ¶2110 «première fois.»: page-break repeat inside 023.0203"
+ ],
+ [
+  "023",
+  "new-dropped",
+  "docx ¶2159 «Mercredi 9 septembe 1874»: the misspelt date line «Mercredi 9 septembe»; 023.0206 already opens 9 September"
+ ],
+ [
+  "023",
+  "restored",
+  "1874-09-08.md, 1874-09-09.md kept as in _original: the date line «Mercredi 9 septembe 1874» (OCR) was not recognised by the drafter"
+ ],
+ [
+  "023",
+  "entry",
+  "1874-09-16 (024.0001–0021) kept as one entry: «Dimanche 13 septembre» inside it is Marie's retrospective sub-date, not a new day"
+ ],
+ [
+  "024",
+  "moved",
+  "024.0026 (date line) back before 024.0027 («Je pense qu'on peut beaucoup supprimer dans ce livre…», written on the title page) as in _original"
+ ],
+ [
+  "024",
+  "new-dropped",
+  "docx ¶2557 «Mardi 6 octore 1874»: entry 1874-10-05.md restored as in _original"
+ ],
+ [
+  "024",
+  "restored",
+  "1874-10-05.md, 1874-10-06.md kept as in _original: the date line «Mardi 6 octore 1874» (OCR) was not recognised by the drafter"
+ ],
+ [
+  "024",
+  "new-dropped",
+  "docx ¶2783 «1 Marie a rencontré leduc de Hamilton (Nd R)»: printed-edition footnote «(Nd R)»"
+ ],
+ [
+  "024",
+  "new-edited",
+  "docx ¶2770: Marie's tally of the days she saw the duke of Hamilton (docx ¶2770–2782, a table the OCR broke: two cells of the January column are blank)"
+ ],
+ [
+  "025",
+  "new-dropped",
+  "docx ¶2832 «contente.»: page-break repeat of the end of 025.0032"
+ ],
+ [
+  "027",
+  "new-edited",
+  "docx ¶3529: the second date line of 18 December (Marie wrote «Jeudi 18» and then «Vendredi 18»), kept as a sub-heading"
+ ],
+ [
+  "027",
+  "kind",
+  "new ¶3582 → other («belle-mère de la Prodgers. jeune et passable à qui»): footnote in Marie's voice (docx style «Footnote»: «belle-mère de la Prodgers…»)"
+ ],
+ [
+  "028",
+  "new-dropped",
+  "docx ¶3819 «ri., tpvtp- 3 octobre 1874 Page manuscrite du texte.»: caption of the facsimile page (image26), used for the drawing entry, not diary text"
+ ],
+ [
+  "028",
+  "restored",
+  "1875-01-05.md, 1875-01-06.md kept as in _original: the manuscript dates both entries «6 janvier» (Mardi 6, then Mercredi 6); Tuesday was the 5th, so the first stays 1875-01-05 as in _original"
+ ],
+ [
+  "028",
+  "set_french",
+  "028.0216: its date line «Samedi 16 janvier» is dropped: the text is Vendredi 15 (docx ¶3990), whose heading 028.0214 now precedes it"
+ ],
+ [
+  "028",
+  "set_french",
+  "028.0218: text of Samedi 16 janvier (docx ¶3993)"
+ ],
+ [
+  "028",
+  "set_french",
+  "028.0226: text of Dimanche 17 janvier (docx ¶4004)"
+ ],
+ [
+  "028",
+  "set_french",
+  "028.0241: text of Lundi 18 janvier (docx ¶4023)"
+ ],
+ [
+  "028",
+  "set_french",
+  "028.0250: text of Mardi 19 janvier (docx ¶4035)"
+ ],
+ [
+  "029",
+  "set_french",
+  "029.0001: text of Mercredi 20 janvier, before the Livre 29 title page (docx ¶4046)"
+ ],
+ [
+  "029",
+  "set_french",
+  "029.0014: text of Jeudi 21 janvier (docx ¶4086)"
+ ],
+ [
+  "028",
+  "new-added",
+  "1875-01-14.md: «## Jeudi 14 janvier 1875» — the repeated date line of 14 January"
+ ],
+ [
+  "028",
+  "new-dropped",
+  "docx ¶4056 «Et c'est là seulement que je comprends la vie»: already in 029.0001 (the poem)"
+ ],
+ [
+  "029",
+  "new-dropped",
+  "docx ¶4377 «Mardi Gras 9 février 1875»: the date line «Mardi Gras 9 février 1875»; 029.0182 already opens 9 February"
+ ],
+ [
+  "029",
+  "restored",
+  "1875-02-08.md, 1875-02-09.md kept as in _original: the date line «Mardi Gras 9 février 1875» was not recognised by the drafter"
+ ],
+ [
+  "029",
+  "set_french",
+  "029.0182: the date line as Marie wrote it (docx ¶4377)"
+ ],
+ [
+  "030",
+  "entry",
+  "1875-04-02: heading 030.0359, then the tome04 text (docx ¶5078–5088), then 030.0360–0362 (the continuation from tome05)"
+ ],
+ [
+  "022",
+  "new-added",
+  "1874-07-24.md: «De la part du Baron Charles de Gericke d'Herwynen Maria Douchenka\n1874» — the visiting card Marie put before the first page of Livre 22"
+ ],
+ [
+  "017",
+  "new-edited",
+  "docx ¶1069: typos corrected «lui- même» → «lui-même»"
+ ],
+ [
+  "018",
+  "new-edited",
+  "docx ¶1915: typos corrected «Tepla- koff» → «Teplakoff»"
+ ],
+ [
+  "018",
+  "new-edited",
+  "docx ¶1919: typos corrected «rafraî-chie» → «rafraîchie»"
+ ],
+ [
+  "020",
+  "set_french",
+  "020.0194: typos corrected «après- demain» → «après-demain»"
+ ],
+ [
+  "020",
+  "new-edited",
+  "docx ¶3199: typos corrected «parti-culier» → «particulier»"
+ ],
+ [
+  "020",
+  "new-edited",
+  "docx ¶3201: typos corrected «au- dessus» → «au-dessus»"
+ ],
+ [
+  "020",
+  "new-edited",
+  "docx ¶3303: typos corrected «peut- être» → «peut-être»"
+ ],
+ [
+  "023",
+  "new-edited",
+  "docx ¶1604: typos corrected «Zurybarren» → «Jurybarren»"
+ ],
+ [
+  "030",
+  "new-edited",
+  "docx ¶4724: typos corrected «dis- je» → «dis-je»"
+ ],
+ [
+  "030",
+  "new-edited",
+  "docx ¶4776: typos corrected «indiffférents» → «indifférents»"
+ ],
+ [
+  "030",
+  "new-edited",
+  "docx ¶4782: typos corrected «criai- je» → «criai-je»"
+ ],
+ [
+  "030",
+  "new-edited",
+  "docx ¶4803: typos corrected «veus sortir» → «veux sortir»"
+ ],
+ [
+  "030",
+  "new-edited",
+  "docx ¶4804: typos corrected «davan- tage» → «davantage»"
+ ]
+]

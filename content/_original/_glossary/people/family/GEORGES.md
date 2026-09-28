@@ -278,7 +278,7 @@ Marie's vocabulary for Georges is among the richest invective in the diary:
 - "cet être ignoble" (this ignoble being) -- 000-09
 - "ce cher trésor" (this dear treasure) -- HEAVY IRONY -- 000-03
 - "cet adorable Georges" -- HEAVY IRONY -- 050.1875-12-02
-- "mon très honoré oncle" (my most honored uncle) -- IRONIC -- 028.1874-12-28
+- "mon très honoré oncle" (my most honored uncle) -- IRONIC -- 028.1874-12-27
 - "cette horreur" (this horror) -- 015.1874-01-08
 - "âne," "bête stupide" (donkey, stupid beast) -- 005.1873-05-31
 - "vagabond" (vagrant/scoundrel) -- 004.1873-05-17
