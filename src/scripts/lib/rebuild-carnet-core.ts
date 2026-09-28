@@ -20,7 +20,7 @@ import { renderSourceComment } from '../../shared/src/renderer/paragraph-rendere
 import { localizeGlossaryPath } from '../../shared/src/utils/glossary-path.ts';
 import { localizeLinksInText } from '../../shared/src/utils/sync.ts';
 import { TODO_PLACEHOLDER } from '../../shared/src/utils/scaffold.ts';
-import { PARAGRAPH_KINDS, KIND_LINE_PATTERN, formatKindMarker, type ParagraphKind } from '../../shared/src/parser/patterns.ts';
+import { PARAGRAPH_KINDS, KIND_LINE_PATTERN, KIND_CONTENT_PATTERN, UNTIMESTAMPED_ROLE_NOTE_PATTERN, EMBEDDED_ROLE_NOTE_PATTERN, formatKindMarker, type ParagraphKind } from '../../shared/src/parser/patterns.ts';
 
 // --- plan types ------------------------------------------------------------
 
@@ -710,6 +710,8 @@ export interface TreeResult {
   /** entries whose approval flags were reset */
   flagResets: string[];
   warnings: string[];
+  /** problems that must stop a --write */
+  errors: string[];
 }
 
 export interface RebuildContext {
@@ -917,7 +919,7 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
   const { plan, mapping, rewrite, original, timestamp: ts, label } = ctx;
   const isOrig = tree.lang === '_original';
   const warnings: string[] = [];
-  const result: TreeResult = { lang: tree.lang, files: new Map(), deleted: [], flagResets: [], warnings };
+  const result: TreeResult = { lang: tree.lang, files: new Map(), deleted: [], flagResets: [], warnings, errors: [] };
   // "unchanged entry" compares with the files as they were on disk, before any
   // cluster left for another carnet (a file that lost one has changed)
   const oldLists = ctx.snapshot ? new Map([...ctx.snapshot].map(([f, ids]) => [f, ids.join(',')])) : oldIdLists(original);
@@ -1027,7 +1029,7 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
         continue;
       }
       let lines = src.map((l) => rewrite(l).text);
-      if (pp?.set_french !== undefined) lines = applySetFrench(lines, oldId, newId, pp.set_french, isOrig, original, ts, label, tree.lang, warnings);
+      if (pp?.set_french !== undefined) lines = applySetFrench(lines, oldId, newId, pp.set_french, isOrig, original, ts, label, tree.lang, warnings, result.errors);
       if (pp?.kind) lines = setKindLine(lines, formatKindMarker(pp.kind, pp.source?.trim()));
       if (pp?.heading_to_next) {
         const fr = trailingHeadingIdx(origClusterOf.get(oldId) ?? []).map((i) => origClusterOf.get(oldId)![i].trim());
@@ -1326,7 +1328,39 @@ function setKindLine(lines: string[], marker: string): string[] {
 }
 
 /** Replace a paragraph's French text (splits). In translations: swap the embedded copy and leave an ED note. */
-function applySetFrench(lines: string[], oldId: string, newId: string, french: string, isOrig: boolean, original: CarnetTree, ts: string, label: string, lang: string, warnings: string[]): string[] {
+/**
+ * Embedded French lines of a translation cluster: whole-line `%% … %%` comments that
+ * are not the ID, a tag line, a kind marker, a version, a `[//]` line or a role note
+ * (timestamped or not). Heading copies count (`%% Jeudi 18 octobre 1883 %%`).
+ */
+export function embeddedFrenchIdx(lines: string[]): number[] {
+  const out: number[] = [];
+  lines.forEach((l, i) => {
+    const m = l.trim().match(/^%%\s*(.*?)\s*%%$/);
+    if (!m || m[1].includes('%%') || !m[1]) return;
+    const b = m[1];
+    if (/^\d{3}\.\d{4}$/.test(b) || b.startsWith('[#') || b.startsWith('[//]') || /^v\d/.test(b)) return;
+    if (/^\d{4}-\d{2}-\d{2}/.test(b) || UNTIMESTAMPED_ROLE_NOTE_PATTERN.test(b) || EMBEDDED_ROLE_NOTE_PATTERN.test(b) || KIND_CONTENT_PATTERN.test(b)) return;
+    out.push(i);
+  });
+  return out;
+}
+
+/** French compared loosely: no markers, `#`, `> `, footnote refs, typographic quotes, case or spacing. */
+export function normFrench(s: string): string {
+  return s
+    .replace(/%%/g, ' ')
+    .replace(/^\s*#+\s*/gm, '')
+    .replace(/^\s*>\s?/gm, '')
+    .replace(/\[\^[^\]]+\]/g, '')
+    .replace(/[’‘ʼ]/g, "'")
+    .replace(/[“”«»]/g, '"')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
+}
+
+function applySetFrench(lines: string[], oldId: string, newId: string, french: string, isOrig: boolean, original: CarnetTree, ts: string, label: string, lang: string, warnings: string[], errors: string[]): string[] {
   const out = [...lines];
   const newLines = french.split('\n').map((l) => l.trimEnd()).filter((l) => l.trim());
   // set_french is the paragraph's whole French: text lines AND its `#` heading lines
@@ -1349,19 +1383,25 @@ function applySetFrench(lines: string[], oldId: string, newId: string, french: s
     out.splice(idx[0], 0, ...newLines);
     return out;
   }
-  const oldEmbed = renderSourceComment(oldText.join('\n'));
+  // Translations: EVERY embedded French line of the cluster goes (heading copies are
+  // embedded without their `#`, stale copies may sit beside the current one); the
+  // new copy takes the place of the first. Never append next to a stale copy.
   const newEmbed = renderSourceComment(newLines.join('\n'));
-  let at = -1;
-  for (let i = 0; i + oldEmbed.length <= out.length && oldEmbed.length; i++) {
-    if (oldEmbed.every((l, k) => out[i + k].trim() === l.trim())) { at = i; break; }
+  const blocks = out.filter((l) => /^\s*%%/.test(l) && !/^\s*%%.*%%\s*$/.test(l));
+  if (blocks.length) {
+    errors.push(`${lang} ${oldId}→${newId}: set_french on a cluster with a multi-line %% block — replace its embedded French by hand before the rebuild`);
+    return out;
   }
+  const embed = embeddedFrenchIdx(out);
   let how = 'embedded French replaced';
-  if (at >= 0) out.splice(at, oldEmbed.length, ...newEmbed);
-  else {
-    const idAt = out.findIndex((l) => ID_LINE_RE.test(l)) + 1;
-    out.splice(idAt, 0, ...newEmbed);
-    how = 'old embedded French not found — new copy inserted after the ID';
-    warnings.push(`${lang} ${oldId}→${newId}: ${how}`);
+  if (embed.length) {
+    for (const i of [...embed].reverse()) out.splice(i, 1);
+    out.splice(embed[0], 0, ...newEmbed);
+  } else {
+    let at = out.findIndex((l) => ID_LINE_RE.test(l)) + 1;
+    while (at < out.length && KIND_LINE_PATTERN.test(out[at])) at++;
+    out.splice(at, 0, ...newEmbed);
+    how = 'the cluster had no embedded French; a copy was added';
   }
   const vis = afterIdAndComments(out);
   out.splice(vis, 0, `%% ${ts} ED: ${label}: SOURCE CHANGED — the French of this paragraph was cut/replaced (${how}); the translation below still renders the old text and must be trimmed to match. %%`);
@@ -1540,6 +1580,16 @@ export function checkCarnet(repoRoot: string, carnet: string, removedFiles: stri
   const lastNum = expect - 1;
   const lastId = lastNum > 0 ? `${carnet}.${pad4(lastNum)}` : null;
 
+  // _original French per ID: text lines, and the headings (a translation may or may not embed those)
+  const origFrench = new Map<string, { text: string; heads: Set<string> }>();
+  for (const pf of original.files.values()) {
+    for (const c of pf.clusters) {
+      const fl = frenchLineIdx(c.lines).map((i) => c.lines[i]);
+      const text = normFrench(fl.filter((l) => !HEADING_RE.test(l.trim())).join('\n'));
+      const heads = new Set(fl.filter((l) => HEADING_RE.test(l.trim())).map(normFrench));
+      if (text || heads.size) origFrench.set(c.id, { text, heads });
+    }
+  }
   for (const lang of TREES.slice(1)) {
     const tree = loadTree(contentRoot, lang, carnet);
     if (!tree) continue;
@@ -1561,6 +1611,23 @@ export function checkCarnet(repoRoot: string, carnet: string, removedFiles: stri
       }
     }
     for (const name of tree.files.keys()) if (!original.files.has(name)) errors.push(`${lang}/${carnet}/${name}: no _original counterpart`);
+    // (d) the embedded French copy must be _original's French for the same ID
+    const differs: string[] = [];
+    for (const [name, pf] of tree.files) {
+      for (const c of pf.clusters) {
+        const of = origFrench.get(c.id);
+        const emb = embeddedFrenchIdx(c.lines);
+        if (!of || !emb.length || c.lines.some((l) => /^\s*%%/.test(l) && !/^\s*%%.*%%\s*$/.test(l))) continue;
+        const tf = emb.map((i) => normFrench(c.lines[i])).filter((l) => !of.heads.has(l)).join(' ');
+        if (tf === of.text) continue;
+        if ((of.text === '' && tf) || (tf.includes(of.text) && tf.length > of.text.length * 1.2)) {
+          errors.push(`${lang}/${carnet}/${name} ${c.id}: the embedded French holds _original's French plus other text — a stale or duplicated copy`);
+        } else {
+          differs.push(c.id);
+        }
+      }
+    }
+    if (differs.length) warnings.push(`${lang}/${carnet}: embedded French differs from _original in ${differs.length} paragraph(s): ${differs.slice(0, 8).join(', ')}${differs.length > 8 ? ' …' : ''} (resync with just resync-french ${lang} ${carnet})`);
   }
 
   const removed = removedFiles.map((f) => f.replace(/\.md$/, ''));

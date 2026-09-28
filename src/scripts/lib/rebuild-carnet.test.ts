@@ -649,3 +649,37 @@ test('set_french replaces heading lines too; date citations are not paragraph ID
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('set_french swaps every embedded French line of a translation (heading copies without #); renumber-check flags stale copies', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-rebuild-sf-'));
+  const w = (rel: string, text: string) => {
+    fs.mkdirSync(path.dirname(path.join(root, rel)), { recursive: true });
+    fs.writeFileSync(path.join(root, rel), text);
+  };
+  try {
+    w('content/_original/096/1883-10-18.md', ['---', 'date: 1883-10-18', 'carnet: "096"', 'para_start: 1', 'para_end: 2', '---',
+      '%% 096.0001 %%', '# Jeudi 18 octobre 1883', 'Texte ancien, coupé', '', '%% 096.0002 %%', 'Suite.', ''].join('\n'));
+    w('content/uk/096/1883-10-18.md', ['---', 'date: 1883-10-18', 'carnet: "096"', 'translation_complete: true', '---', '',
+      '%% 096.0001 %%', '%% Jeudi 18 octobre 1883 %%', '%% Texte ancien, coupé %%', '%% 2026-01-01T10:00:00 TR: note %%', '# Четвер, 18 жовтня 1883', 'Старий текст', '',
+      '%% 096.0002 %%', '%% Suite. %%', 'Далі.', ''].join('\n'));
+    const plan: Plan = { carnet: '096', entries: [{ file: '1883-10-18.md', date: '1883-10-18', paragraphs: [
+      { old: '096.0001', set_french: '# Jeudi 18 octobre 1883\nTexte ancien, coupé, et complété.' }, { old: '096.0002' }] }] };
+    const planPath = path.join(root, 'plan.json');
+    fs.writeFileSync(planPath, JSON.stringify(plan));
+    const wr = run(root, '096', planPath, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    assert.doesNotMatch(wr.out, /not found/);
+    const u = read(root, 'content/uk/096/1883-10-18.md');
+    assert.match(u, /%% 096\.0001 %%\n%% Jeudi 18 octobre 1883 %%\n%% Texte ancien, coupé, et complété\. %%\n%% 2026-01-01T10:00:00 TR: note %%/);
+    assert.doesNotMatch(u, /%% Texte ancien, coupé %%/);
+    assert.equal((u.match(/Jeudi 18 octobre 1883/g) ?? []).length, 1);
+
+    // a stale second copy is caught by renumber-check
+    fs.writeFileSync(path.join(root, 'content/uk/096/1883-10-18.md'), u.replace('%% Texte ancien, coupé, et complété. %%', '%% Texte ancien, coupé, et complété. %%\n%% Texte ancien, coupé %%'));
+    const chk = run(root, '--check', '096');
+    assert.equal(chk.code, 1, chk.out);
+    assert.match(chk.out, /096\.0001: the embedded French holds _original's French plus other text/);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});

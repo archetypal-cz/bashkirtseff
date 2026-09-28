@@ -271,6 +271,14 @@ for (const s of sets) {
   }
 }
 
+// Problems found while rebuilding the trees stop the run, dry or not
+const treeErrors = [...resultsOf.values()].flat().flatMap((r) => r.errors);
+if (treeErrors.length) {
+  console.error(`=== rebuild-carnet ${runName}: plan REJECTED while rebuilding the trees (${treeErrors.length} error(s)) ===`);
+  for (const e of treeErrors) console.error(`  [ERROR] ${e}`);
+  process.exit(1);
+}
+
 // References elsewhere in content/
 const carnetDirs = sets.flatMap((s) => [...s.trees.values()].map((t) => path.relative(repoRoot, t.dir)));
 const refFiles: string[] = [];

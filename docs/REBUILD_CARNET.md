@@ -239,7 +239,10 @@ that does not move is written back byte for byte.
   paragraph's whole French, `#` heading lines included — a heading the new
   text leaves out is removed (with a warning), one it repeats is not doubled.
   `_original` gets the new text in place of the old text and heading lines; each translation's embedded French copy
-  is replaced (or inserted, with a warning, if it cannot be found), and an
+  is replaced as a whole: every embedded French line of the cluster (heading
+  copies are embedded without `#`) goes, and the new copy takes the first one's
+  place — never appended beside a stale copy; a cluster with a multi-line `%%`
+  block stops the run. An
   `ED: … SOURCE CHANGED` comment tells the translator that the visible
   translation still renders the old text. Put the cut-off half into a `new`
   paragraph. A footnote marker dropped by `set_french` is warned about; move its
@@ -350,7 +353,12 @@ footnote labels (`68.0123` for carnet 068).
 `para_end` match, frontmatter dates match file names; (b) every translation
 tree has the same ID sequence per file (missing files only warn: partial
 trees); (c) no ID token beyond N, no link to an entry file a rebuild removed,
-no path+anchor pointing at a file that does not hold the paragraph.
+no path+anchor pointing at a file that does not hold the paragraph; (d) every
+translation cluster's embedded French equals `_original`'s French for the same
+ID, compared loosely (markers, `#`, `> `, footnote refs, quotes, case, spacing;
+a missing heading copy is fine): an embedded copy that holds the current French
+plus more (a stale or duplicated copy) FAILs, any other difference is a WARN
+per tree with the IDs (`just resync-french LANG CCC`).
 
 ## Paragraph kinds
 
