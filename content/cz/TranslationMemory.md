@@ -601,7 +601,7 @@ When translating, refer to this document for established translations of recurri
 
 ### la Pie rasee / soroka / britaya soroka (Audiffret)
 - Translation (Czech): Oholená straka / soroka
-- Context: New Audiffret nickname in 052, esp. from his aunt's letters; clean-shaven chattering "shaved magpie". Russian "britaya soroka" appears in 052.0294 (footnoted), abbreviated to "soroka"
+- Context: New Audiffret nickname in 052, esp. from his aunt's letters; clean-shaven chattering "shaved magpie". Russian "britaya soroka" appears in 052.0296 (footnoted), abbreviated to "soroka"
 - First appearance: 052 (1876-01-12)
 - Notes: Keep Russian "soroka" as-is with footnote; French "la Pie rasee" → "Oholená straka"
 
