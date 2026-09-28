@@ -2,7 +2,7 @@
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import EntryContent from '../../../components/reading/EntryContent.vue';
 import LanguageSwitcher from '../../../components/reading/LanguageSwitcher.vue';
-import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages } from '../../../lib/content';
+import { getCarnets, getCarnetEntries, getEntry, getEntryNavigation, getAvailableLanguages, isCoverEntryId } from '../../../lib/content';
 import { DIARY_LANGUAGES, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 import { withTrailingSlash } from '../../../lib/url';
@@ -116,7 +116,7 @@ const pageDate = entryDate!.endsWith('-cover')
 // NB: the `+ '...'` must live INSIDE the ternary — `expr + '...' || ''` parses
 // as `(expr + '...') || ''`, so an empty entry produced the literal
 // "undefined..." (truthy). Empty/untranslated entries now get a clean prefix.
-const plainParagraphs = entry.paragraphs.map(p => ({
+const plainParagraphs = entry.paragraphs.filter(p => !p.untranslated).map(p => ({
   isHeading: /<h[1-6][\s>]/.test(p.html ?? ''),
   text: (p.html ?? '').replace(/<sup\b[^>]*>.*?<\/sup>/g, '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim(),
 }));
@@ -198,7 +198,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
       <span class="mx-2">&rsaquo;</span>
       <a href={withTrailingSlash(`/${lang.urlPath}/${carnet}`)} class="hover:text-accent"><span data-t="diary.notebook">{t('diary.notebook')}</span> {carnet}</a>
       <span class="mx-2">&rsaquo;</span>
-      <span class="text-ink">{entryDate}</span>
+      <span class="text-ink">{isCoverEntryId(entryDate!) ? pageDate : entryDate}</span>
     </nav>
 
     <!-- Entry Header: language + navigation bar -->

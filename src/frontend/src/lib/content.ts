@@ -33,10 +33,12 @@ import {
 } from '@bashkirtseff/shared';
 
 import { THEME_SUBCATEGORIES } from './glossary-categories';
-import { renderOriginalHtml } from './original-html';
+import { escapeHtml, renderOriginalHtml } from './original-html';
 import { findKind, parseKindLine, stripQuoteMarkers, wrapKindHtml, type ParagraphKind } from './paragraph-kind';
 import { normalizeDrawings, type EntryDrawing } from './drawings';
 import { applyTypography, typographyLocaleFor } from './typography';
+import { createT, contentPathToLocale } from '../i18n/astro';
+import { DIARY_LANGUAGES } from './diary-lang-config';
 
 // Re-export shared types for convenience
 export type { GlossaryTag };
@@ -78,6 +80,7 @@ export interface Paragraph {
   languages?: string[]; // Languages in original text: ['fr'], ['fr', 'en'], etc.
   kind?: ParagraphKind; // From `%% kind: … %%`: clipping, letter, rayé, margin, other
   kindSource?: string;  // The marker's source="…" (newspaper and date, letter writer)
+  untranslated?: boolean; // Scaffold placeholder (`TODO`) shown as the French original
 }
 
 export interface Footnote {
@@ -438,6 +441,8 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
     }
     if (!title) title = entryId;
   }
+  // An untranslated day heading (`# TODO`) is never the title.
+  if (isTodoLine(title)) title = localizedEntryHeading(entryId, language) ?? entryId;
 
   // Parse paragraphs and footnotes (using content without frontmatter)
   const paragraphs = parseParagraphs(content, language, entryPath);
@@ -447,6 +452,9 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
     fillMissingOriginals(paragraphs, carnetId, entryId);
   }
   finishParagraphs(paragraphs, language);
+  if (!isOriginalLanguage(language)) {
+    resolveUntranslated(paragraphs, carnetId, entryId, language);
+  }
   // Footnotes of the French source are editorial English, so only
   // translations (whose notes are in the translation language) get the
   // language's typography.
@@ -471,7 +479,7 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
 
   const wordCount = paragraphs.reduce((total, p) => {
     const trimmed = p.text.trim();
-    if (trimmed === TODO_PLACEHOLDER) return total;
+    if (p.untranslated || trimmed === TODO_PLACEHOLDER) return total;
     if (trimmed.startsWith('# ')) return total;
     const clean = trimmed.replace(/^#+\s*/, '');
     return total + clean.split(/\s+/).filter(w => w.length > 0).length;
@@ -525,6 +533,94 @@ function finishParagraphs(paragraphs: Paragraph[], language: string): void {
     if (p.originalText) {
       p.originalHtml = applyTypography(renderOriginalHtml(p.originalText), 'fr');
     }
+  }
+}
+
+/** A scaffold placeholder line: `TODO` (paragraph) or `# TODO` (day heading) */
+function isTodoLine(line: string): boolean {
+  return /^(?:#{1,6}\s*)?TODO$/.test(line.trim());
+}
+
+/**
+ * The heading a translation shows for an entry whose own heading is still a
+ * placeholder: the notebook-cover label for a cover entry, else the entry date
+ * in the language's date format ("Čtvrtek 1. února 1877").
+ */
+function localizedEntryHeading(entryId: string, language: string): string | null {
+  if (isCoverEntryId(entryId)) return createT(contentPathToLocale(language))('diary.cover');
+  if (!DATE_PATTERN.test(entryId)) return null;
+  const dateLocale = DIARY_LANGUAGES.find(l => l.contentPath === language)?.dateLocale ?? 'fr-FR';
+  const formatted = parseDateFromEntryId(entryId).toLocaleDateString(dateLocale, {
+    weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC',
+  });
+  return formatted.charAt(0).toLocaleUpperCase(dateLocale) + formatted.slice(1);
+}
+
+/**
+ * Untranslated paragraphs (scaffolded by `just scaffold` / rebuild-carnet as a
+ * visible `TODO`, day headings as `# TODO`) are shown as the French original,
+ * under a small "not yet translated" note, so readers never see the placeholder.
+ * A `# TODO` heading becomes the localized date heading. The French comes from
+ * `_original` by paragraph ID (the embedded `%% … %%` copy drops the `#` of a
+ * heading), falling back to the embedded copy. The paragraph keeps its kind
+ * block, and `untranslated` keeps it out of word counts and previews.
+ */
+function resolveUntranslated(paragraphs: Paragraph[], carnetId: string, entryId: string, language: string): void {
+  if (!paragraphs.some(p => p.text.split('\n').some(isTodoLine))) return;
+  const sourceById = new Map((getEntry(carnetId, entryId, 'original')?.paragraphs ?? []).map(p => [p.id, p.text]));
+  const locale = contentPathToLocale(language);
+  const note = escapeHtml(createT(locale)('paragraph.untranslated'));
+  const heading = localizedEntryHeading(entryId, language);
+  const typoLocale = typographyLocaleFor(language);
+  const isHeadingLine = (l: string) => /^#{1,6}\s/.test(l.trim());
+
+  for (let i = paragraphs.length - 1; i >= 0; i--) {
+    const p = paragraphs[i];
+    const lines = p.text.split('\n');
+    if (!lines.some(isTodoLine)) continue;
+
+    // The translation owns the heading when it has one (translated or `# TODO`);
+    // otherwise the source heading stays with the French.
+    const french = (sourceById.get(p.id) ?? p.originalText ?? '').split('\n');
+    const frenchText = (lines.some(isHeadingLine) ? french.filter(l => !isHeadingLine(l)) : french).join('\n').trim();
+
+    const parts: { fr: boolean; text: string }[] = [];
+    const push = (fr: boolean, text: string) => {
+      const last = parts[parts.length - 1];
+      if (last && last.fr === fr) last.text += '\n' + text;
+      else parts.push({ fr, text });
+    };
+    let frenchShown = false;
+    for (const line of lines) {
+      if (/^#{1,6}\s*TODO$/.test(line.trim())) {
+        if (heading) push(false, `# ${heading}`);
+      } else if (line.trim() === TODO_PLACEHOLDER) {
+        if (frenchText && !frenchShown) push(true, frenchText);
+        frenchShown = true;
+      } else {
+        push(false, line);
+      }
+    }
+    if (parts.length === 0) {
+      paragraphs.splice(i, 1);
+      continue;
+    }
+
+    const footnoteRefs: string[] = [];
+    const html = parts.map(part => {
+      const r = processTextToHtml(part.text, language);
+      for (const ref of r.footnoteRefs) if (!footnoteRefs.includes(ref)) footnoteRefs.push(ref);
+      if (!part.fr) return applyTypography(r.html, typoLocale);
+      return `<div class="untranslated-fallback"><span class="untranslated-note" lang="${locale}">${note}</span>` +
+        `<div class="untranslated-original" lang="fr">${applyTypography(r.html, 'fr')}</div></div>`;
+    }).join('\n');
+
+    p.text = parts.map(part => part.text).join('\n');
+    p.html = p.kind ? wrapKindHtml(html, p.kind, p.kindSource, language) : html;
+    p.footnoteRefs = footnoteRefs.length > 0 ? footnoteRefs : undefined;
+    p.untranslated = true;
+    // The paragraph already shows the French: no flip to the same text.
+    delete p.originalHtml;
   }
 }
 
@@ -2521,6 +2617,8 @@ export function getEntryPreview(carnetId: string, entryId: string, language: str
   // Find the first paragraph with meaningful content
   // Skip very short paragraphs (like date headers, titles, or section markers)
   for (const paragraph of entry.paragraphs) {
+    // An untranslated paragraph shows French: not a preview of the translation
+    if (paragraph.untranslated) continue;
     // Strip footnote references like [^01.128.1] from preview text
     const text = paragraph.text.replace(/\[\^[^\]]+\]/g, '').trim();
 

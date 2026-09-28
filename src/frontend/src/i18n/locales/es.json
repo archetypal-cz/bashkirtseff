@@ -114,6 +114,7 @@
     "filterByTag": "Filtrar las entradas de este cuaderno",
     "showOriginal": "Mostrar el original: {langs}",
     "showTranslation": "Mostrar la traducción: {lang}",
+    "untranslated": "Aún sin traducir — original francés",
     "kind": {
       "clipping": "Recorte de prensa",
       "letter": "Carta copiada",

@@ -114,6 +114,7 @@
     "filterByTag": "Filter entries in this carnet",
     "showOriginal": "Show original: {langs}",
     "showTranslation": "Show translation: {lang}",
+    "untranslated": "Not yet translated — French original",
     "kind": {
       "clipping": "Newspaper clipping",
       "letter": "Copied letter",

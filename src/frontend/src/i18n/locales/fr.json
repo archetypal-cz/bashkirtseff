@@ -114,6 +114,7 @@
     "filterByTag": "Filtrer les entrées dans ce carnet",
     "showOriginal": "Afficher l’original : {langs}",
     "showTranslation": "Afficher la traduction : {lang}",
+    "untranslated": "Pas encore traduit — original français",
     "kind": {
       "clipping": "Coupure de presse",
       "letter": "Lettre recopiée",

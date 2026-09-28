@@ -685,6 +685,24 @@ footer.site-footer {
     letter-spacing: 0.1em;
   }
 
+  /* Untranslated paragraph shown as the French original (content.ts
+     resolveUntranslated): a small note, then the French set off by a rule. */
+  .untranslated-fallback {
+    border-inline-start: 2px solid var(--border-color);
+    padding-inline-start: 0.9rem;
+  }
+
+  .untranslated-note {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-family: var(--font-sans);
+    font-size: 0.72em;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    line-height: 1.4;
+    color: var(--text-muted);
+  }
+
   /* Footnote references */
   .footnote-ref {
     @apply text-accent hover:text-accent-light no-underline;

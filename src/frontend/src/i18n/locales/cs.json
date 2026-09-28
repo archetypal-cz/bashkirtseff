@@ -115,6 +115,7 @@
     "filterByTag": "Filtrovat záznamy v sešitu",
     "showOriginal": "Zobrazit originál: {langs}",
     "showTranslation": "Zobrazit překlad: {lang}",
+    "untranslated": "Zatím nepřeloženo — francouzský originál",
     "kind": {
       "clipping": "Novinový výstřižek",
       "letter": "Opsaný dopis",
