@@ -1721,7 +1721,7 @@ When translating, refer to this document for established translations of recurri
 
 ### Nejentsov → Nejencov
 - Translation (Czech): Nejencov (italicised, as Marie italicises it)
-- Context: Russian man attached to Paul; 018.0198 is his only appearance in the entire diary.
+- Context: Russian man attached to Paul; 018.0225 is his only appearance in the entire diary.
 - Ruling (2026-09-07, CON): Russian ц renders as Czech c, so Nejencov. No corpus precedent existed either way; nothing else to align.
 
 ### Russian surnames: Czech-ised vs. French spelling — UNRESOLVED, maintainer call
@@ -1738,10 +1738,10 @@ When translating, refer to this document for established translations of recurri
 - Ruling (2026-09-07, CON): cz/018 had "plachtšanice", a transliteration of Marie's French spelling. Aligned to the locked form (see the carnet 032 entry), which is also what cz/004 and cz/032 use.
 
 ### Glossary tags in translations follow the source tag line
-- Ruling (2026-09-07, CON): two paragraphs in cz/018 carried a tag the source paragraph's tag line does not have and the paragraph text does not support — `#Duke_of_Hamilton` on 018.0195 (Marie's coded "un seul", he is never named) and `#Monte_Carlo` on 018.0270 (hung on a sentence that is not in the manuscript). Both removed. If a coded reference deserves a tag, it belongs in `content/_original/` first; translations do not add tags of their own.
+- Ruling (2026-09-07, CON): two paragraphs in cz/018 carried a tag the source paragraph's tag line does not have and the paragraph text does not support — `#Duke_of_Hamilton` on 018.0222 (Marie's coded "un seul", he is never named) and `#Monte_Carlo` on 018.0304 (hung on a sentence that is not in the manuscript). Both removed. If a coded reference deserves a tag, it belongs in `content/_original/` first; translations do not add tags of their own.
 
 ### English passages: Czech in the text, English in the footnote
-- Ruling (2026-09-07, CON): confirms the rule in `content/cz/CLAUDE.md`. Three blocks in cz/018 (018.0275, 018.0276, 018.0287) had it inverted — English in the running text, Czech in the footnote — while three neighbouring blocks in the same entry followed the rule. Converted.
+- Ruling (2026-09-07, CON): confirms the rule in `content/cz/CLAUDE.md`. Three blocks in cz/018 (018.0309, 018.0310, 018.0321) had it inverted — English in the running text, Czech in the footnote — while three neighbouring blocks in the same entry followed the rule. Converted.
 - The opposite convention (foreign phrase kept in `==highlight==` + Czech in the footnote) stays reserved for short Italian and Latin code-switches, as established for carnets 051/055.
 
 %% 2026-09-07T20:45:00 CON: Added carnet 018 rulings after the full conductor pass (Mačenka, Nejencov, Huba, plaščanice, tag parity, English-passage direction, and the open question of Czech-ised vs. French-kept Russian surnames). %%
