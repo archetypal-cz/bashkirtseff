@@ -235,8 +235,10 @@ that does not move is written back byte for byte.
   note, then `TODO` (and `# TODO` for a heading line). The fr edition gets no
   `TODO`: it gets the French verbatim if its carnet already shows visible text,
   otherwise only the embedded copy (the state of an unedited fr carnet).
-- **Splits** (`set_french` on an `old` paragraph): `_original` gets the new
-  text in place of the old text lines; each translation's embedded French copy
+- **Splits** (`set_french` on an `old` paragraph): `set_french` is the
+  paragraph's whole French, `#` heading lines included — a heading the new
+  text leaves out is removed (with a warning), one it repeats is not doubled.
+  `_original` gets the new text in place of the old text and heading lines; each translation's embedded French copy
   is replaced (or inserted, with a warning, if it cannot be found), and an
   `ED: … SOURCE CHANGED` comment tells the translator that the visible
   translation still renders the old text. Put the cut-off half into a `new`

@@ -250,6 +250,13 @@ def dominant_style(tome: Tome, carnet: str) -> str:
     return c.most_common(1)[0][0] if c else ''
 
 
+def with_headings(vis: list[str], text: str) -> str:
+    """set_french replaces a paragraph's heading lines too: keep the old ones around the new text."""
+    first = next((n for n, l in enumerate(vis) if not l.startswith('#')), len(vis))
+    last = max((n for n, l in enumerate(vis) if not l.startswith('#')), default=-1)
+    return '\n'.join(vis[:first] + [text] + vis[last + 1:])
+
+
 def guess_kind(text: str) -> tuple[str | None, str]:
     """(kind, why) from the text's own markers."""
     t = text.strip()
@@ -418,7 +425,7 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
         covered_ = len(cgr & rgr) / len(rgr)
         extra = len(r['n'].split()) - len(norm(textl[0]).split())
         if inside >= 0.95 and covered_ < 0.8 and extra >= 5:
-            setf[k] = para_text(tome.P[r['src']])
+            setf[k] = with_headings(c['vis'], para_text(tome.P[r['src']]))
             rv['completions'].append(f"{k}: _original holds {len(norm(textl[0]).split())} words of docx ¶{r['src']} ({len(r['n'].split())} words) — set_french to the docx text; check the OCR")
 
     # --- letters copied into the diary: a cluster that opens with a quoted salutation,
@@ -535,8 +542,8 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
             rv['kinds'].append(f"old {k} → candidate **{tk}** (not set). kind_guess_reason: {twhy}. «{' '.join(c['vis'])[:60]}»")
         if k in letter_of:
             kind, why = 'letter', 'part of a copied letter: opens with a quoted salutation (see the letter entry above)'
-            base = setf.get(k, '\n'.join(l for l in c['vis'] if not l.startswith('#')))
-            para['set_french'] = '\n'.join(l if l.startswith('> ') else '> ' + l for l in base.split('\n'))
+            base = setf.get(k, '\n'.join(c['vis']))
+            para['set_french'] = '\n'.join(l if l.startswith(('> ', '#')) else '> ' + l for l in base.split('\n'))
         elif kind:
             rv['kinds'].append(f"old {k} → **{kind}**. kind_guess_reason: {why}. «{' '.join(c['vis'])[:60]}»")
         if kind:

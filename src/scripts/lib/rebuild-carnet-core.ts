@@ -593,7 +593,7 @@ export function makeRewriter(ms: Mapping | Mapping[], opts: { footnoteLabels?: b
       `(?<![\\w-])(${cAlt})/${BASE}(?![\\w-])`, // 6 carnet, 7 file
       `#p-(${cAlt})-(\\d{4})(?!\\d)`, // 8 carnet, 9 para
       fnAlt, // 10 carnet form, 11 para, 12 suffix, 13 note
-      `(?<![\\w.])(${cAlt})\\.(\\d{4})(?![\\d])`, // 14 carnet, 15 para
+      `(?<![\\w.])(${cAlt})\\.(\\d{4})(?![\\d])(?!-\\d{2}-\\d{2})`, // 14 carnet, 15 para («076.1877-12-11» is a date citation)
     ].join('|'),
     'g',
   );
@@ -754,6 +754,12 @@ function hasLeadingHeading(lines: string[]): boolean {
     return HEADING_RE.test(t);
   }
   return false;
+}
+
+/** The French of an _original cluster: its text lines and its `#` heading lines, in order. */
+function frenchLineIdx(lines: string[]): number[] {
+  const text = new Set(textLineIdx(lines));
+  return lines.map((l, i) => i).filter((i) => text.has(i) || (HEADING_RE.test(lines[i].trim()) && !ID_LINE_RE.test(lines[i])));
 }
 
 function hasHeading(lines: string[]): boolean {
@@ -1323,15 +1329,21 @@ function setKindLine(lines: string[], marker: string): string[] {
 function applySetFrench(lines: string[], oldId: string, newId: string, french: string, isOrig: boolean, original: CarnetTree, ts: string, label: string, lang: string, warnings: string[]): string[] {
   const out = [...lines];
   const newLines = french.split('\n').map((l) => l.trimEnd()).filter((l) => l.trim());
+  // set_french is the paragraph's whole French: text lines AND its `#` heading lines
   let oldText: string[] = [];
   for (const pf of original.files.values()) {
     const c = pf.clusters.find((x) => x.id === oldId);
-    if (c) oldText = textLineIdx(c.lines).map((i) => c.lines[i]);
+    if (c) oldText = frenchLineIdx(c.lines).map((i) => c.lines[i]);
   }
   const lostRefs = [...footnoteRefs(oldText)].filter((r) => !french.includes(`[^${r}]`));
   if (lostRefs.length && isOrig) warnings.push(`_original ${oldId}: set_french drops footnote marker(s) ${lostRefs.join(', ')} — move their definitions by hand`);
+  const oldHeads = oldText.filter((l) => HEADING_RE.test(l.trim())).map((l) => l.trim());
+  const newHeads = newLines.filter((l) => HEADING_RE.test(l.trim())).map((l) => l.trim());
+  if (isOrig && oldHeads.join('|') !== newHeads.join('|')) {
+    warnings.push(`_original ${oldId}: set_french ${newHeads.length ? 'changes' : 'removes'} its heading ${oldHeads.map((h) => `«${h}»`).join(' ') || '(none)'}${newHeads.length ? ` → ${newHeads.map((h) => `«${h}»`).join(' ')}` : ''} (set_french replaces heading lines too)`);
+  }
   if (isOrig) {
-    const idx = textLineIdx(out);
+    const idx = frenchLineIdx(out);
     if (!idx.length) { out.splice(afterIdAndComments(out), 0, ...newLines); return out; }
     for (const i of [...idx].reverse()) out.splice(i, 1);
     out.splice(idx[0], 0, ...newLines);
@@ -1553,7 +1565,7 @@ export function checkCarnet(repoRoot: string, carnet: string, removedFiles: stri
 
   const removed = removedFiles.map((f) => f.replace(/\.md$/, ''));
   const staleFile = removed.length ? new RegExp(`(?<![\\w-])${carnet}/(${removed.map(escapeRe).join('|')})(?![\\w-])`, 'g') : null;
-  const tokenRe = new RegExp(`(?<![\\w.])${carnet}\\.(\\d{4})(?!\\d)`, 'g');
+  const tokenRe = new RegExp(`(?<![\\w.^])${carnet}\\.(\\d{4})(?!\\d)(?!-\\d{2}-\\d{2})`, 'g'); // not «[^102.1224.1]» labels, not «076.1877-12-11» dates
   const linkRe = new RegExp(`(?<![\\w-])${carnet}/(\\d{4}-\\d{2}-\\d{2}[\\w-]*)/?#p-${carnet}-(\\d{4})(?!\\d)`, 'g');
   for (const file of walkRewritable(repoRoot, [])) {
     const rel = path.relative(repoRoot, file);

@@ -5,7 +5,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from common import entry_order_key, grams, livre_number, norm, ocr_flags, para_text, parse_heading, visible_lines  # noqa: E402
-from draft import guess_kind, typo_kind  # noqa: E402
+from draft import guess_kind, typo_kind, with_headings  # noqa: E402
 
 
 def test_headings():
@@ -62,6 +62,11 @@ def test_kinds():
     assert guess_kind('"Monsieur,')[0] == 'letter'
     assert guess_kind('[Elliminez.]')[0] == 'other'
     assert guess_kind('Il pleut.')[0] is None
+
+
+def test_with_headings():
+    assert with_headings(['# Lundi', 'vieux', '## Mardi'], 'nouveau') == '# Lundi\nnouveau\n## Mardi'
+    assert with_headings(['vieux'], 'nouveau') == 'nouveau'
 
 
 def test_typography_kinds():

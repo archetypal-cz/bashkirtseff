@@ -623,3 +623,29 @@ test('heading_to_next moves a trailing next-day heading into the next paragraph 
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('set_french replaces heading lines too; date citations are not paragraph IDs', () => {
+  const root = makeRepo();
+  try {
+    const original = loadTree(path.join(root, 'content'), '_original', '099')!;
+    const plan: Plan = {
+      carnet: '099',
+      entries: [
+        { file: '1880-01-01.md', date: '1880-01-01', paragraphs: [{ old: '099.0001' }, { old: '099.0002' }, { old: '099.0003' }] },
+        { file: '1880-01-02.md', date: '1880-01-02', paragraphs: [{ old: '099.0004', set_french: '# Vendredi 2 janvier 1880\nQuatrième, complété.' }, { old: '099.0005', set_french: 'Cinquième.' }] },
+      ],
+    };
+    const m = buildMapping(plan, original, { errors: [], warnings: [] });
+    assert.equal(makeRewriter(m)('(099.1877-12-11) and 099.0004').text, '(099.1877-12-11) and 099.0004');
+    const planPath = path.join(root, 'plan.json');
+    fs.writeFileSync(planPath, JSON.stringify(plan));
+    const wr = run(root, '099', planPath, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    const o2 = read(root, 'content/_original/099/1880-01-02.md');
+    assert.equal((o2.match(/# Vendredi 2 janvier 1880/g) ?? []).length, 1, 'heading not doubled');
+    assert.match(o2, /%% 099\.0004 %%\n# Vendredi 2 janvier 1880\nQuatrième, complété\./);
+    assert.doesNotMatch(wr.out, /099\.0004: set_french .*heading/);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
