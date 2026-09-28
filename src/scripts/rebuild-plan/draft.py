@@ -73,6 +73,7 @@ class Tome:
         self._classify()
         self._segment()
         self._align()
+        self._segment_fallback()
 
     # --- 1. classify and segment -------------------------------------------------------------
     def _classify(self):
@@ -113,7 +114,7 @@ class Tome:
         self.body = (start, end)
 
     def _segment(self):
-        """carnet of every body row, from Livre headings; carnets without one get a boundary from _original."""
+        """carnet of every body row, from Livre headings (carnets without one: _segment_fallback)."""
         a, b = self.body
         seg = {}
         cur = self.carnets[0]
@@ -134,6 +135,26 @@ class Tome:
                 cur = r['livre']
             seg[r['i']] = None if r['i'] in ambiguous else cur
         self.seg = seg
+
+    def _segment_fallback(self):
+        """A carnet without a Livre heading starts at the date line before its first long match
+        in _original and runs to the next Livre heading."""
+        a, b = self.body
+        self.fallback_at = {}
+        for c in [c for c in self.carnets if c not in self.livre_at]:
+            longs = [r for r in self.text_rows if r.get('how') == 'long']
+            # the start of a sustained run of this carnet's text, not a stray repeated sentence
+            first = next((r['src'] for j, r in enumerate(longs) if r['best'].startswith(c + '.')
+                          and sum(x['best'].startswith(c + '.') for x in longs[j:j + 10]) >= 7), None)
+            if first is None:
+                continue
+            head = max([x['i'] for x in self.rows[a:b] if x['cls'] == 'head' and x['i'] <= first], default=first)
+            nxt = min([v for v in self.livre_at.values() if v > head], default=b)
+            for i in range(head, nxt):
+                if self.seg.get(i) is not None:
+                    self.seg[i] = c
+            self.fallback_at[c] = head
+            self.review['segments'].append(f"no «Livre {int(c)}» heading in tome{self.tome:02d}.docx: carnet {c} starts at the date line ¶{head} before its first paragraph found in _original (¶{first}) and runs to ¶{nxt - 1}; check the boundary")
 
     # --- 2. alignment --------------------------------------------------------------------------
     def _align(self):
@@ -634,8 +655,8 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
             rv['drawings'].append(f"scan PDF p.{f['pdf_page']} (printed p.{rng[0].get('printed_page', '?')}): figure candidate "
                                   f"({len(f['regions_pt'])} ink region(s), {len(f['abbyy_picture_regions'])} picture region(s)), docx ¶{rng[0]['docx_para_start']}–{rng[0]['docx_para_end']}, "
                                   f"{heads[h]['date'] if h else '?'} (Livre {tome.seg.get(rng[0]['docx_para_start'])})")
-    for w in [c for c in tome.carnets if c not in tome.livre_at]:
-        rv['segments'].append(f"no «Livre {int(w)}» heading in tome{tome.tome:02d}.docx: carnet {w}'s paragraphs keep their own carnet unless their docx position lies inside another Livre")
+    for w in [c for c in tome.carnets if c not in tome.livre_at and c not in tome.fallback_at]:
+        rv['segments'].append(f"no «Livre {int(w)}» heading in tome{tome.tome:02d}.docx and none of its paragraphs found: carnet {w} gets no segment")
     return plans
 
 

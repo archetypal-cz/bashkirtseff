@@ -32,6 +32,13 @@ def test_livre_and_order():
     assert livre_number('Livre 6 8ème') == 68
     assert livre_number('Livre 4Qème') == 40
     assert livre_number('Livre Quatre') is None
+    assert livre_number('Gloriae Cupiditas\n[Livre] 101') == 101
+    assert livre_number('[Cahier n°] 102\ndepuis le …') == 102
+    assert livre_number('Gloria Cupditas\n[Livre] 1 04') == 104
+    assert livre_number('Gloriae Cupiditas\n[Livre ]105') == 105
+    assert livre_number('[Livre 1 06]\ndepuis le 1er octobre') == 106
+    assert livre_number('Gloriae [Rayé: Cupididate] Cupiditas\nLivre 75ème') == 75
+    assert livre_number("Livre que j'ai lu hier chez Julian et qui m'a beaucoup plu, surtout la fin où il parle de 1880 et de l'avenir") is None
     assert livre_number('Je livre mes pensées') is None
     names = ['1878-10-04-evening.md', '1878-10-05.md', '1878-10-04.md', '1878-10-04-cover.md', '1878-10-04-05.md']
     assert sorted(names, key=entry_order_key) == ['1878-10-04-cover.md', '1878-10-04.md', '1878-10-04-05.md', '1878-10-04-evening.md', '1878-10-05.md']

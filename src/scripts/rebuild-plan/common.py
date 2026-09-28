@@ -219,11 +219,19 @@ RE_LIVRE = re.compile(r'^\s*(?:livre|carnet|cahier)\s*(?:n°)?\s*([0-9IOlQDî ]{
 
 
 def livre_number(text: str) -> int | None:
-    m = RE_LIVRE.match(text)
-    if not m or len(text) > 250:
+    """Number of a notebook title line: «Livre 68ème», «[Livre] 1 03», «[Cahier n°] 102», «[Livre 1 06]».
+    The title may be preceded by Marie's motto on its own line («Gloriae Cupiditas\n[Livre] 101»),
+    so the first three lines of the paragraph are tried."""
+    if len(text) > 250:
         return None
-    num = m.group(1).replace(' ', '').translate(str.maketrans('OoQqDdIiLlî', '00000011111'))
-    return int(num) if num.isdigit() and 0 < int(num) < 107 else None
+    for line in text.split('\n')[:3]:
+        m = RE_LIVRE.match(line.replace('[', '').replace(']', ''))
+        if not m or len(line) > 80:
+            continue
+        num = m.group(1).replace(' ', '').translate(str.maketrans('OoQqDdIiLlî', '00000011111'))
+        if num.isdigit() and 0 < int(num) < 107:
+            return int(num)
+    return None
 
 
 # --- _original ------------------------------------------------------------------------------
