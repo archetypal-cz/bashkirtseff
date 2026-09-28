@@ -382,13 +382,18 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
           </div>
         )}
 
-        {/* Calendar */}
+        {/* Calendar — collapsed under its heading by default (native details, no JS) */}
         {!isSectionCarnet && calendarMonths.length > 0 && (
-          <div class="summary-card p-4 rounded-lg xl:col-span-3 flex flex-col">
-            <h2 class="lit-label mb-2" data-t="diary.calendar">
-              {t('diary.calendar')}
-            </h2>
-            <div class="flex flex-wrap gap-3 flex-1 items-start content-start">
+          <details class="carnet-calendar summary-card p-4 rounded-lg sm:col-span-2 xl:col-span-3 self-start">
+            <summary class="carnet-calendar-summary">
+              <h2 class="lit-label" data-t="diary.calendar">
+                {t('diary.calendar')}
+              </h2>
+              <svg class="carnet-calendar-chevron w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <div class="flex flex-wrap gap-3 items-start content-start mt-3">
               {calendarMonths.map(({ year, month }) => (
                 <CalendarWidget
                   client:visible
@@ -402,7 +407,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
                 />
               ))}
             </div>
-          </div>
+          </details>
         )}
       </div>
     </section>
@@ -500,3 +505,35 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
     </nav>
   </div>
 </ReadingLayout>
+
+<style>
+  .carnet-calendar-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    cursor: pointer;
+    list-style: none;
+    color: var(--text-muted);
+    border-radius: 0.25rem;
+  }
+  .carnet-calendar-summary::-webkit-details-marker {
+    display: none;
+  }
+  .carnet-calendar-summary:hover,
+  .carnet-calendar-summary:hover .lit-label {
+    color: var(--accent);
+  }
+  .carnet-calendar-chevron {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+  .carnet-calendar[open] .carnet-calendar-chevron {
+    transform: rotate(180deg);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .carnet-calendar-chevron {
+      transition: none;
+    }
+  }
+</style>
