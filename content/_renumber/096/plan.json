@@ -1,0 +1,2078 @@
+{
+ "carnet": "096",
+ "source": "tome15.docx",
+ "drop": [
+  {
+   "id": "096.0324",
+   "reason": "heading-only cluster «Samedi 7 octobre 1882» with no date line in the manuscript: the text after it runs on under «Vendredi 6 octobre 1882» (tome15.docx ¶1051–1078, Mon Journal t.15 pp.89–92) (2026-09-28 rebuild)"
+  },
+  {
+   "id": "096.0342",
+   "reason": "heading-only cluster «Dimanche 8 octobre 1882» with no date line in the manuscript (tome15.docx ¶1078–1079: 6 octobre text, then «Lundi 9 octobre 1882», Mon Journal t.15 p.92) (2026-09-28 rebuild)"
+  }
+ ],
+ "drop_files": [
+  {
+   "file": "1882-08-01.md",
+   "reason": "empty stub (no paragraph IDs); the day is rebuilt from tome15.docx as a new entry of the same name (2026-09-28 rebuild)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1882-08-01.md",
+   "date": "1882-08-01",
+   "heading": "Mardi 1er août 1882",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶631, Mon Journal t.15 p.51: the date line «Mardi 1er août 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-08-02.md",
+   "date": "1882-08-02",
+   "paragraphs": [
+    {
+     "old": "096.0001"
+    },
+    {
+     "old": "096.0002"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-03.md",
+   "date": "1882-08-03",
+   "paragraphs": [
+    {
+     "old": "096.0003"
+    },
+    {
+     "old": "096.0004"
+    },
+    {
+     "old": "096.0005"
+    },
+    {
+     "old": "096.0006"
+    },
+    {
+     "old": "096.0007"
+    },
+    {
+     "old": "096.0008"
+    },
+    {
+     "old": "096.0009"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-04.md",
+   "date": "1882-08-04",
+   "paragraphs": [
+    {
+     "old": "096.0010"
+    },
+    {
+     "old": "096.0011"
+    },
+    {
+     "old": "096.0012"
+    },
+    {
+     "old": "096.0013"
+    },
+    {
+     "old": "096.0014"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-05.md",
+   "date": "1882-08-05",
+   "paragraphs": [
+    {
+     "old": "096.0015"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶649, Mon Journal t.15 p.52: the date line «Samedi 5 août 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-08-06.md",
+   "date": "1882-08-06",
+   "paragraphs": [
+    {
+     "old": "096.0016"
+    },
+    {
+     "old": "096.0017"
+    },
+    {
+     "old": "096.0018"
+    },
+    {
+     "old": "096.0019"
+    },
+    {
+     "old": "096.0020"
+    },
+    {
+     "old": "096.0021"
+    },
+    {
+     "old": "096.0022"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-07.md",
+   "date": "1882-08-07",
+   "paragraphs": [
+    {
+     "old": "096.0023"
+    },
+    {
+     "old": "096.0024"
+    },
+    {
+     "old": "096.0025"
+    },
+    {
+     "old": "096.0026"
+    },
+    {
+     "old": "096.0027"
+    },
+    {
+     "old": "096.0028"
+    },
+    {
+     "old": "096.0029"
+    },
+    {
+     "old": "096.0030"
+    },
+    {
+     "old": "096.0031"
+    },
+    {
+     "old": "096.0032"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-08.md",
+   "date": "1882-08-08",
+   "paragraphs": [
+    {
+     "old": "096.0033"
+    },
+    {
+     "old": "096.0034"
+    },
+    {
+     "old": "096.0035"
+    },
+    {
+     "old": "096.0036"
+    },
+    {
+     "old": "096.0037"
+    },
+    {
+     "old": "096.0038"
+    },
+    {
+     "old": "096.0039"
+    },
+    {
+     "old": "096.0040"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-09.md",
+   "date": "1882-08-09",
+   "paragraphs": [
+    {
+     "old": "096.0041"
+    },
+    {
+     "old": "096.0042"
+    },
+    {
+     "old": "096.0043"
+    },
+    {
+     "old": "096.0044"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-10.md",
+   "date": "1882-08-10",
+   "paragraphs": [
+    {
+     "old": "096.0045"
+    },
+    {
+     "old": "096.0046"
+    },
+    {
+     "old": "096.0047"
+    },
+    {
+     "old": "096.0048"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-11.md",
+   "date": "1882-08-11",
+   "paragraphs": [
+    {
+     "old": "096.0049"
+    },
+    {
+     "old": "096.0050"
+    },
+    {
+     "old": "096.0051"
+    },
+    {
+     "old": "096.0052"
+    },
+    {
+     "old": "096.0053"
+    },
+    {
+     "old": "096.0054"
+    },
+    {
+     "old": "096.0055"
+    },
+    {
+     "old": "096.0056"
+    },
+    {
+     "old": "096.0057"
+    },
+    {
+     "old": "096.0058"
+    },
+    {
+     "old": "096.0059"
+    },
+    {
+     "old": "096.0061"
+    },
+    {
+     "old": "096.0062"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-12.md",
+   "date": "1882-08-12",
+   "paragraphs": [
+    {
+     "old": "096.0060"
+    },
+    {
+     "old": "096.0063"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-13.md",
+   "date": "1882-08-13",
+   "paragraphs": [
+    {
+     "old": "096.0064"
+    },
+    {
+     "old": "096.0065"
+    },
+    {
+     "old": "096.0066"
+    },
+    {
+     "old": "096.0067"
+    },
+    {
+     "old": "096.0068"
+    },
+    {
+     "old": "096.0069"
+    },
+    {
+     "old": "096.0070"
+    },
+    {
+     "old": "096.0071"
+    },
+    {
+     "old": "096.0072"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-14.md",
+   "date": "1882-08-14",
+   "paragraphs": [
+    {
+     "old": "096.0073"
+    },
+    {
+     "old": "096.0074"
+    },
+    {
+     "old": "096.0075"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-15.md",
+   "date": "1882-08-15",
+   "paragraphs": [
+    {
+     "old": "096.0076"
+    },
+    {
+     "old": "096.0077"
+    },
+    {
+     "old": "096.0078"
+    },
+    {
+     "old": "096.0079"
+    },
+    {
+     "old": "096.0080"
+    },
+    {
+     "old": "096.0081"
+    },
+    {
+     "old": "096.0082"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-16.md",
+   "date": "1882-08-16",
+   "paragraphs": [
+    {
+     "old": "096.0083"
+    },
+    {
+     "old": "096.0084"
+    },
+    {
+     "old": "096.0085"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-17.md",
+   "date": "1882-08-17",
+   "paragraphs": [
+    {
+     "old": "096.0086"
+    },
+    {
+     "old": "096.0087"
+    },
+    {
+     "old": "096.0088"
+    },
+    {
+     "old": "096.0089"
+    },
+    {
+     "old": "096.0090"
+    },
+    {
+     "old": "096.0091"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-18.md",
+   "date": "1882-08-18",
+   "paragraphs": [
+    {
+     "old": "096.0092"
+    },
+    {
+     "old": "096.0093"
+    },
+    {
+     "old": "096.0094"
+    },
+    {
+     "old": "096.0095"
+    },
+    {
+     "old": "096.0096",
+     "kind": "margin"
+    },
+    {
+     "old": "096.0097"
+    },
+    {
+     "old": "096.0098"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-19.md",
+   "date": "1882-08-19",
+   "paragraphs": [
+    {
+     "old": "096.0099"
+    },
+    {
+     "old": "096.0100"
+    },
+    {
+     "old": "096.0101"
+    },
+    {
+     "old": "096.0102"
+    },
+    {
+     "old": "096.0103"
+    },
+    {
+     "old": "096.0104"
+    },
+    {
+     "old": "096.0105"
+    },
+    {
+     "old": "096.0106"
+    },
+    {
+     "old": "096.0107"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-20.md",
+   "date": "1882-08-20",
+   "paragraphs": [
+    {
+     "old": "096.0108"
+    },
+    {
+     "old": "096.0109"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-21.md",
+   "date": "1882-08-21",
+   "paragraphs": [
+    {
+     "old": "096.0110"
+    },
+    {
+     "old": "096.0111"
+    },
+    {
+     "old": "096.0112"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-22.md",
+   "date": "1882-08-22",
+   "paragraphs": [
+    {
+     "old": "096.0113"
+    },
+    {
+     "old": "096.0114"
+    },
+    {
+     "old": "096.0115"
+    },
+    {
+     "old": "096.0116"
+    },
+    {
+     "old": "096.0117"
+    },
+    {
+     "old": "096.0118"
+    },
+    {
+     "old": "096.0119"
+    },
+    {
+     "old": "096.0120"
+    },
+    {
+     "old": "096.0121"
+    },
+    {
+     "old": "096.0122"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-23.md",
+   "date": "1882-08-23",
+   "paragraphs": [
+    {
+     "old": "096.0123"
+    },
+    {
+     "old": "096.0124"
+    },
+    {
+     "old": "096.0125"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-24.md",
+   "date": "1882-08-24",
+   "paragraphs": [
+    {
+     "old": "096.0126"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶793, Mon Journal t.15 p.65: the date line «Jeudi 24 août 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-08-25.md",
+   "date": "1882-08-25",
+   "paragraphs": [
+    {
+     "old": "096.0127"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶794, Mon Journal t.15 p.65: the date line «Vendredi 25 août 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-08-26.md",
+   "date": "1882-08-26",
+   "paragraphs": [
+    {
+     "old": "096.0128"
+    },
+    {
+     "old": "096.0129"
+    },
+    {
+     "old": "096.0130"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-27.md",
+   "date": "1882-08-27",
+   "paragraphs": [
+    {
+     "old": "096.0131"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶800, Mon Journal t.15 p.66: the date line «Dimanche 27 août 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-08-28.md",
+   "date": "1882-08-28",
+   "paragraphs": [
+    {
+     "old": "096.0132"
+    },
+    {
+     "old": "096.0133"
+    },
+    {
+     "old": "096.0134"
+    },
+    {
+     "old": "096.0135"
+    },
+    {
+     "old": "096.0136"
+    },
+    {
+     "old": "096.0137",
+     "kind": "margin"
+    },
+    {
+     "old": "096.0138"
+    },
+    {
+     "old": "096.0139"
+    },
+    {
+     "old": "096.0140"
+    },
+    {
+     "old": "096.0141"
+    },
+    {
+     "old": "096.0143"
+    },
+    {
+     "old": "096.0144"
+    },
+    {
+     "old": "096.0145"
+    },
+    {
+     "old": "096.0146"
+    },
+    {
+     "old": "096.0147"
+    },
+    {
+     "old": "096.0148"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-29.md",
+   "date": "1882-08-29",
+   "paragraphs": [
+    {
+     "old": "096.0142"
+    },
+    {
+     "old": "096.0149"
+    },
+    {
+     "old": "096.0150"
+    },
+    {
+     "old": "096.0151"
+    },
+    {
+     "old": "096.0152"
+    },
+    {
+     "old": "096.0153"
+    },
+    {
+     "old": "096.0154",
+     "kind": "editorial"
+    },
+    {
+     "old": "096.0155"
+    },
+    {
+     "old": "096.0156"
+    },
+    {
+     "old": "096.0157"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-30.md",
+   "date": "1882-08-30",
+   "paragraphs": [
+    {
+     "old": "096.0158"
+    },
+    {
+     "old": "096.0159"
+    },
+    {
+     "old": "096.0160"
+    },
+    {
+     "old": "096.0161"
+    },
+    {
+     "old": "096.0162"
+    },
+    {
+     "old": "096.0163"
+    }
+   ]
+  },
+  {
+   "file": "1882-08-31.md",
+   "date": "1882-08-31",
+   "paragraphs": [
+    {
+     "old": "096.0164"
+    },
+    {
+     "old": "096.0165"
+    },
+    {
+     "old": "096.0166"
+    },
+    {
+     "old": "096.0167"
+    },
+    {
+     "old": "096.0168"
+    },
+    {
+     "old": "096.0169"
+    },
+    {
+     "old": "096.0170"
+    },
+    {
+     "old": "096.0171"
+    },
+    {
+     "old": "096.0172"
+    },
+    {
+     "old": "096.0173"
+    },
+    {
+     "old": "096.0174"
+    },
+    {
+     "old": "096.0175"
+    },
+    {
+     "old": "096.0176"
+    },
+    {
+     "old": "096.0177"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-01.md",
+   "date": "1882-09-01",
+   "paragraphs": [
+    {
+     "old": "096.0178"
+    },
+    {
+     "old": "096.0179"
+    },
+    {
+     "old": "096.0180"
+    },
+    {
+     "old": "096.0181"
+    },
+    {
+     "old": "096.0182"
+    },
+    {
+     "old": "096.0183"
+    },
+    {
+     "old": "096.0184"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-02.md",
+   "date": "1882-09-02",
+   "paragraphs": [
+    {
+     "old": "096.0185"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶879, Mon Journal t.15 p.74: the date line «Samedi 2 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-03.md",
+   "date": "1882-09-03",
+   "paragraphs": [
+    {
+     "old": "096.0186"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶880, Mon Journal t.15 p.74: the date line «Dimanche 3 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-04.md",
+   "date": "1882-09-04",
+   "paragraphs": [
+    {
+     "old": "096.0187"
+    },
+    {
+     "old": "096.0188"
+    },
+    {
+     "old": "096.0189"
+    },
+    {
+     "old": "096.0190"
+    },
+    {
+     "old": "096.0191"
+    },
+    {
+     "old": "096.0192"
+    },
+    {
+     "old": "096.0193"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-05.md",
+   "date": "1882-09-05",
+   "paragraphs": [
+    {
+     "old": "096.0194"
+    },
+    {
+     "old": "096.0195"
+    },
+    {
+     "old": "096.0196"
+    },
+    {
+     "old": "096.0197"
+    },
+    {
+     "old": "096.0198"
+    },
+    {
+     "old": "096.0199"
+    },
+    {
+     "old": "096.0200"
+    },
+    {
+     "old": "096.0201"
+    },
+    {
+     "old": "096.0202"
+    },
+    {
+     "old": "096.0203"
+    },
+    {
+     "old": "096.0204"
+    },
+    {
+     "old": "096.0205"
+    },
+    {
+     "old": "096.0206"
+    },
+    {
+     "old": "096.0207"
+    },
+    {
+     "old": "096.0208"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-06.md",
+   "date": "1882-09-06",
+   "paragraphs": [
+    {
+     "old": "096.0209",
+     "set_french": "# Mercredi 6 septembre 1882"
+    },
+    {
+     "old": "096.0210"
+    },
+    {
+     "old": "096.0211"
+    },
+    {
+     "old": "096.0212"
+    },
+    {
+     "old": "096.0213"
+    },
+    {
+     "old": "096.0214"
+    },
+    {
+     "old": "096.0215"
+    },
+    {
+     "old": "096.0216"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-07.md",
+   "date": "1882-09-07",
+   "paragraphs": [
+    {
+     "old": "096.0217"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶923, Mon Journal t.15 p.78: the date line «Jeudi 7 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-08.md",
+   "date": "1882-09-08",
+   "paragraphs": [
+    {
+     "old": "096.0218"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶924, Mon Journal t.15 p.78: the date line «Vendredi 8 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-09.md",
+   "date": "1882-09-09",
+   "paragraphs": [
+    {
+     "old": "096.0219"
+    },
+    {
+     "old": "096.0220"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-10.md",
+   "date": "1882-09-10",
+   "paragraphs": [
+    {
+     "old": "096.0221"
+    },
+    {
+     "old": "096.0222"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-11.md",
+   "date": "1882-09-11",
+   "paragraphs": [
+    {
+     "old": "096.0223"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶929, Mon Journal t.15 p.78: the date line «Lundi 11 septembre 1882» has no text under it (one of several date lines written together in the manuscript) (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-12.md",
+   "date": "1882-09-12",
+   "paragraphs": [
+    {
+     "old": "096.0224"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶929, Mon Journal t.15 p.78: the date line «Mardi 12 septembre 1882» has no text under it (one of several date lines written together in the manuscript) (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-13.md",
+   "date": "1882-09-13",
+   "paragraphs": [
+    {
+     "old": "096.0225"
+    },
+    {
+     "old": "096.0226"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-14.md",
+   "date": "1882-09-14",
+   "paragraphs": [
+    {
+     "old": "096.0227"
+    },
+    {
+     "old": "096.0228"
+    },
+    {
+     "old": "096.0229"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-15.md",
+   "date": "1882-09-15",
+   "paragraphs": [
+    {
+     "old": "096.0230"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶936, Mon Journal t.15 p.79: the date line «Vendredi 15 septembre 1882» has no text under it (one of several date lines written together in the manuscript) (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-16.md",
+   "date": "1882-09-16",
+   "paragraphs": [
+    {
+     "old": "096.0231"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶936, Mon Journal t.15 p.79: the date line «Samedi 16 septembre 1882» has no text under it (one of several date lines written together in the manuscript) (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-17.md",
+   "date": "1882-09-17",
+   "paragraphs": [
+    {
+     "old": "096.0232"
+    },
+    {
+     "old": "096.0233"
+    },
+    {
+     "old": "096.0234"
+    },
+    {
+     "old": "096.0235"
+    },
+    {
+     "old": "096.0236"
+    },
+    {
+     "old": "096.0237"
+    },
+    {
+     "old": "096.0238"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-18.md",
+   "date": "1882-09-18",
+   "paragraphs": [
+    {
+     "old": "096.0239"
+    },
+    {
+     "old": "096.0240"
+    },
+    {
+     "old": "096.0241"
+    },
+    {
+     "old": "096.0242"
+    },
+    {
+     "old": "096.0243"
+    },
+    {
+     "old": "096.0244"
+    },
+    {
+     "old": "096.0245"
+    },
+    {
+     "old": "096.0246"
+    },
+    {
+     "old": "096.0247"
+    },
+    {
+     "old": "096.0248"
+    },
+    {
+     "old": "096.0249"
+    },
+    {
+     "old": "096.0250"
+    },
+    {
+     "old": "096.0251"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-19.md",
+   "date": "1882-09-19",
+   "paragraphs": [
+    {
+     "old": "096.0252"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶961, Mon Journal t.15 p.81: the date line «Mardi 19 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-20.md",
+   "date": "1882-09-20",
+   "paragraphs": [
+    {
+     "old": "096.0253"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶962, Mon Journal t.15 p.81: the date line «Mercredi 20 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-21.md",
+   "date": "1882-09-21",
+   "paragraphs": [
+    {
+     "old": "096.0254"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶963, Mon Journal t.15 p.81: the date line «Jeudi 21 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-22.md",
+   "date": "1882-09-22",
+   "paragraphs": [
+    {
+     "old": "096.0255"
+    },
+    {
+     "old": "096.0256"
+    },
+    {
+     "old": "096.0257"
+    },
+    {
+     "old": "096.0258"
+    },
+    {
+     "old": "096.0259"
+    },
+    {
+     "old": "096.0260"
+    },
+    {
+     "old": "096.0261"
+    },
+    {
+     "old": "096.0262"
+    },
+    {
+     "old": "096.0263"
+    },
+    {
+     "old": "096.0264"
+    },
+    {
+     "old": "096.0265"
+    },
+    {
+     "old": "096.0266"
+    },
+    {
+     "old": "096.0267"
+    },
+    {
+     "old": "096.0268"
+    },
+    {
+     "old": "096.0269"
+    },
+    {
+     "old": "096.0270"
+    },
+    {
+     "old": "096.0271"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-23.md",
+   "date": "1882-09-23",
+   "paragraphs": [
+    {
+     "old": "096.0272"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶987, Mon Journal t.15 p.83: the date line «Samedi 23 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-24.md",
+   "date": "1882-09-24",
+   "paragraphs": [
+    {
+     "old": "096.0273"
+    },
+    {
+     "old": "096.0274"
+    },
+    {
+     "old": "096.0275"
+    },
+    {
+     "old": "096.0276"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-25.md",
+   "date": "1882-09-25",
+   "paragraphs": [
+    {
+     "old": "096.0277"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶995, Mon Journal t.15 p.84: the date line «Lundi 25 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-26.md",
+   "date": "1882-09-26",
+   "paragraphs": [
+    {
+     "old": "096.0278"
+    },
+    {
+     "old": "096.0279"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-27.md",
+   "date": "1882-09-27",
+   "paragraphs": [
+    {
+     "old": "096.0280"
+    },
+    {
+     "old": "096.0281"
+    },
+    {
+     "old": "096.0282"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-28.md",
+   "date": "1882-09-28",
+   "paragraphs": [
+    {
+     "old": "096.0283"
+    },
+    {
+     "old": "096.0284"
+    },
+    {
+     "old": "096.0285"
+    },
+    {
+     "old": "096.0286"
+    },
+    {
+     "old": "096.0287"
+    },
+    {
+     "old": "096.0288"
+    },
+    {
+     "old": "096.0289"
+    },
+    {
+     "old": "096.0290"
+    },
+    {
+     "old": "096.0291"
+    },
+    {
+     "old": "096.0292"
+    },
+    {
+     "old": "096.0293"
+    },
+    {
+     "old": "096.0294"
+    },
+    {
+     "old": "096.0295"
+    },
+    {
+     "old": "096.0296"
+    },
+    {
+     "old": "096.0297"
+    },
+    {
+     "old": "096.0298"
+    }
+   ]
+  },
+  {
+   "file": "1882-09-29.md",
+   "date": "1882-09-29",
+   "paragraphs": [
+    {
+     "old": "096.0299"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1022, Mon Journal t.15 p.86: the date line «Vendredi 29 septembre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-09-30.md",
+   "date": "1882-09-30",
+   "paragraphs": [
+    {
+     "old": "096.0300"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1023, Mon Journal t.15 p.86: the date line «Samedi 30 septembre 1882» has no text under it (one of several date lines written together in the manuscript) (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-01.md",
+   "date": "1882-10-01",
+   "paragraphs": [
+    {
+     "old": "096.0301"
+    },
+    {
+     "old": "096.0302"
+    },
+    {
+     "old": "096.0303"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-02.md",
+   "date": "1882-10-02",
+   "paragraphs": [
+    {
+     "old": "096.0304"
+    },
+    {
+     "old": "096.0305"
+    },
+    {
+     "old": "096.0306"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-03.md",
+   "date": "1882-10-03",
+   "paragraphs": [
+    {
+     "old": "096.0307"
+    },
+    {
+     "old": "096.0308"
+    },
+    {
+     "old": "096.0309"
+    },
+    {
+     "old": "096.0310"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-04.md",
+   "date": "1882-10-04",
+   "paragraphs": [
+    {
+     "old": "096.0311"
+    },
+    {
+     "old": "096.0312"
+    },
+    {
+     "old": "096.0313"
+    },
+    {
+     "old": "096.0314"
+    },
+    {
+     "old": "096.0315"
+    },
+    {
+     "old": "096.0316"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-05.md",
+   "date": "1882-10-05",
+   "paragraphs": [
+    {
+     "old": "096.0317"
+    },
+    {
+     "old": "096.0318"
+    },
+    {
+     "old": "096.0319"
+    },
+    {
+     "old": "096.0320"
+    },
+    {
+     "old": "096.0321"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-06.md",
+   "date": "1882-10-06",
+   "paragraphs": [
+    {
+     "old": "096.0322"
+    },
+    {
+     "old": "096.0323"
+    },
+    {
+     "old": "096.0325"
+    },
+    {
+     "old": "096.0326"
+    },
+    {
+     "old": "096.0327"
+    },
+    {
+     "old": "096.0328"
+    },
+    {
+     "old": "096.0329",
+     "kind": "editorial"
+    },
+    {
+     "old": "096.0330"
+    },
+    {
+     "old": "096.0331"
+    },
+    {
+     "old": "096.0332"
+    },
+    {
+     "old": "096.0333"
+    },
+    {
+     "old": "096.0334"
+    },
+    {
+     "old": "096.0335"
+    },
+    {
+     "old": "096.0336"
+    },
+    {
+     "old": "096.0337"
+    },
+    {
+     "old": "096.0338"
+    },
+    {
+     "old": "096.0339"
+    },
+    {
+     "old": "096.0340"
+    },
+    {
+     "old": "096.0341"
+    }
+   ],
+   "redirect_from": [
+    "1882-10-07.md",
+    "1882-10-08.md"
+   ]
+  },
+  {
+   "file": "1882-10-09.md",
+   "date": "1882-10-09",
+   "paragraphs": [
+    {
+     "old": "096.0343"
+    },
+    {
+     "old": "096.0344"
+    },
+    {
+     "old": "096.0345"
+    },
+    {
+     "old": "096.0346"
+    },
+    {
+     "old": "096.0347"
+    },
+    {
+     "old": "096.0348"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-10.md",
+   "date": "1882-10-10",
+   "paragraphs": [
+    {
+     "old": "096.0349"
+    },
+    {
+     "old": "096.0350"
+    },
+    {
+     "old": "096.0351"
+    },
+    {
+     "old": "096.0352"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-11.md",
+   "date": "1882-10-11",
+   "paragraphs": [
+    {
+     "old": "096.0353"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1091, Mon Journal t.15 p.93: the date line «Mercredi 11 octobre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-12.md",
+   "date": "1882-10-12",
+   "paragraphs": [
+    {
+     "old": "096.0354"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1092, Mon Journal t.15 p.93: the date line «Jeudi 12 octobre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-13.md",
+   "date": "1882-10-13",
+   "paragraphs": [
+    {
+     "old": "096.0355"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1093, Mon Journal t.15 p.93: the date line «Vendredi 13 octobre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-14.md",
+   "date": "1882-10-14",
+   "paragraphs": [
+    {
+     "old": "096.0356"
+    },
+    {
+     "old": "096.0357"
+    },
+    {
+     "old": "096.0358"
+    },
+    {
+     "old": "096.0359"
+    },
+    {
+     "old": "096.0360"
+    },
+    {
+     "old": "096.0361"
+    },
+    {
+     "old": "096.0362"
+    },
+    {
+     "old": "096.0363"
+    },
+    {
+     "old": "096.0364"
+    },
+    {
+     "old": "096.0365"
+    },
+    {
+     "old": "096.0366"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-15.md",
+   "date": "1882-10-15",
+   "paragraphs": [
+    {
+     "old": "096.0367"
+    },
+    {
+     "old": "096.0368"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-16.md",
+   "date": "1882-10-16",
+   "paragraphs": [
+    {
+     "old": "096.0369"
+    },
+    {
+     "old": "096.0370"
+    },
+    {
+     "old": "096.0371"
+    },
+    {
+     "old": "096.0372"
+    },
+    {
+     "old": "096.0373"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-17.md",
+   "date": "1882-10-17",
+   "paragraphs": [
+    {
+     "old": "096.0374"
+    },
+    {
+     "old": "096.0375"
+    },
+    {
+     "old": "096.0376"
+    },
+    {
+     "old": "096.0377",
+     "kind": "letter",
+     "source": "Lettre de Marie à Rodolphe Julian, octobre 1882 (copiée dans le journal)",
+     "set_french": "> \"il fait trop froid pour travailler dehors et dedans on est trop dérangé, du reste c'est peut-être un bien de rester en dehors de tout pendant quinze jours. Je change d'air comme un joueur change de chaise... Enfin vous ne saurez jamais à quel point je suis dégoûtée de moi. Les mots arts, travail, peinture, me font mal comme des coups sur une peau meurtrie... L'impression est presque physique. Et si je conserve quelque apparence de courage c'est qu'il est inutile de faire plaisir à l'humanité en étalant ses misères. C'est une pudeur. J'en arrive à chercher à me consoler par des comparaisons mais être comme les autres - quels qu'ils soient - c'est déjà une déchéance et un désespoir. Assez comme cela car je sais que je vais essayer de vous en faire accroire après m'être couverte de cendres\"..."
+    }
+   ]
+  },
+  {
+   "file": "1882-10-18.md",
+   "date": "1882-10-18",
+   "paragraphs": [
+    {
+     "old": "096.0378"
+    },
+    {
+     "old": "096.0379"
+    },
+    {
+     "old": "096.0380"
+    },
+    {
+     "old": "096.0381"
+    },
+    {
+     "old": "096.0382"
+    },
+    {
+     "old": "096.0383"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-19.md",
+   "date": "1882-10-19",
+   "paragraphs": [
+    {
+     "old": "096.0384"
+    },
+    {
+     "old": "096.0385"
+    },
+    {
+     "old": "096.0386"
+    },
+    {
+     "old": "096.0387"
+    },
+    {
+     "old": "096.0388"
+    },
+    {
+     "old": "096.0389"
+    },
+    {
+     "old": "096.0390"
+    },
+    {
+     "new": {
+      "french": "Donc pour en revenir à nos princes.",
+      "rsr": "Restored from tome15.docx ¶1145, Mon Journal t.15 p.99 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Eh bien voilà, ce sont deux jeunes gens dès mieux. [Rayé: Et voilà tout] Des conversations purement mondaines comme celles-ci me fatiguent assez vite et j’ai eu à *travailler* toute la journée : Ah ! sans doute ce n’est pas comme les artistes et les hommes d’esprit de Paris... mais c’est tout naturel.",
+      "rsr": "Restored from tome15.docx ¶1146, Mon Journal t.15 p.99 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quant à Michka nous le gardons ici après leur départ, il me répète toute la soirée qu’il m’adore toujours etc.",
+      "rsr": "Restored from tome15.docx ¶1147, Mon Journal t.15 p.99 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-20.md",
+   "date": "1882-10-20",
+   "paragraphs": [
+    {
+     "old": "096.0391"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1148, Mon Journal t.15 p.99: the date line «Vendredi 20 octobre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-21.md",
+   "date": "1882-10-21",
+   "paragraphs": [
+    {
+     "old": "096.0392"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1149, Mon Journal t.15 p.99: the date line «Samedi 21 octobre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-22.md",
+   "date": "1882-10-22",
+   "paragraphs": [
+    {
+     "old": "096.0393"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1150, Mon Journal t.15 p.99: the date line «Dimanche 22 octobre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-23.md",
+   "date": "1882-10-23",
+   "paragraphs": [
+    {
+     "old": "096.0394"
+    },
+    {
+     "old": "096.0395"
+    },
+    {
+     "old": "096.0396"
+    },
+    {
+     "old": "096.0397"
+    },
+    {
+     "old": "096.0398"
+    },
+    {
+     "old": "096.0399"
+    },
+    {
+     "old": "096.0400"
+    },
+    {
+     "old": "096.0401"
+    },
+    {
+     "old": "096.0402"
+    },
+    {
+     "old": "096.0403"
+    },
+    {
+     "old": "096.0404"
+    },
+    {
+     "old": "096.0405"
+    },
+    {
+     "old": "096.0406"
+    },
+    {
+     "old": "096.0407"
+    },
+    {
+     "old": "096.0408"
+    },
+    {
+     "old": "096.0409"
+    },
+    {
+     "old": "096.0410"
+    },
+    {
+     "old": "096.0411"
+    },
+    {
+     "old": "096.0412"
+    },
+    {
+     "old": "096.0413"
+    },
+    {
+     "old": "096.0414"
+    },
+    {
+     "old": "096.0415"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-24.md",
+   "date": "1882-10-24",
+   "paragraphs": [
+    {
+     "old": "096.0416"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1182, Mon Journal t.15 p.102: the date line «Mardi 24 octobre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-25.md",
+   "date": "1882-10-25",
+   "paragraphs": [
+    {
+     "old": "096.0417"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1183, Mon Journal t.15 p.102: the date line «Mercredi 25 octobre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-26.md",
+   "date": "1882-10-26",
+   "paragraphs": [
+    {
+     "old": "096.0418"
+    },
+    {
+     "old": "096.0420"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-27.md",
+   "date": "1882-10-27",
+   "paragraphs": [
+    {
+     "old": "096.0419"
+    },
+    {
+     "old": "096.0421"
+    },
+    {
+     "old": "096.0422"
+    },
+    {
+     "old": "096.0423"
+    },
+    {
+     "old": "096.0424"
+    },
+    {
+     "old": "096.0425"
+    },
+    {
+     "old": "096.0426"
+    }
+   ]
+  },
+  {
+   "file": "1882-10-28.md",
+   "date": "1882-10-28",
+   "paragraphs": [
+    {
+     "old": "096.0427"
+    },
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome15.docx ¶1199, Mon Journal t.15 p.104: the date line «Samedi 28 octobre 1882» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1882-10-29.md",
+   "date": "1882-10-29",
+   "paragraphs": [
+    {
+     "old": "096.0428"
+    },
+    {
+     "old": "096.0429"
+    },
+    {
+     "old": "096.0430"
+    },
+    {
+     "old": "096.0431"
+    },
+    {
+     "old": "096.0432"
+    },
+    {
+     "old": "096.0433"
+    },
+    {
+     "old": "096.0434"
+    },
+    {
+     "old": "096.0435"
+    },
+    {
+     "old": "096.0436"
+    },
+    {
+     "old": "096.0437"
+    },
+    {
+     "old": "096.0438"
+    },
+    {
+     "old": "096.0439"
+    },
+    {
+     "old": "096.0440"
+    },
+    {
+     "old": "096.0441"
+    },
+    {
+     "old": "096.0442"
+    },
+    {
+     "old": "096.0443"
+    }
+   ]
+  }
+ ]
+}

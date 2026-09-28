@@ -48,7 +48,7 @@ Nothing is documented. The drawing is undated by the museum, unmatched in the di
 
 %% GLO_FEMME_LISANT_PIANO.0010 %%
 %% [#Music_theme](../themes/MUSIC_THEME.md) %%
-One related but distinct idea does appear in the diary: on 27 December 1882 Marie sketches out, on going to bed, a picture she wants to make — "un homme de profil et dans l'ombre joue du piano, deux autres l'écoutent" (¶ 097.0289), one listener with his head against the base of a statue, another astride a chair with a cigarette. That is a lamp-lit interior with a man at the keyboard and is **not** this drawing; it is recorded here only because it shows the piano-corner interior was a composition she thought in. She never mentions it again.
+One related but distinct idea does appear in the diary: on 27 December 1882 Marie sketches out, on going to bed, a picture she wants to make — "un homme de profil et dans l'ombre joue du piano, deux autres l'écoutent" (¶ 097.0294), one listener with his head against the base of a statue, another astride a chair with a cigarette. That is a lamp-lit interior with a man at the keyboard and is **not** this drawing; it is recorded here only because it shows the piano-corner interior was a composition she thought in. She never mentions it again.
 
 %% GLO_FEMME_LISANT_PIANO.0011 %%
 ## References in Diary
@@ -57,7 +57,7 @@ One related but distinct idea does appear in the diary: on 27 December 1882 Mari
 **No diary mention has been found**, and none is likely to be found by title: the sheet is undated, generically titled, and one of hundreds of drawings she made without recording.
 
 %% GLO_FEMME_LISANT_PIANO.0013 %%
-- Related but distinct: 1882-12-27, ¶ 097.0289 — a planned lamp-lit interior with a man playing the piano and two listeners, sketched once and never mentioned again
+- Related but distinct: 1882-12-27, ¶ 097.0294 — a planned lamp-lit interior with a man playing the piano and two listeners, sketched once and never mentioned again
 
 %% GLO_FEMME_LISANT_PIANO.0014 %%
 ## Related Entries
@@ -77,4 +77,4 @@ One related but distinct idea does appear in the diary: on 27 December 1882 Mari
 - The diary itself, carnet 097
 
 %% GLO_FEMME_LISANT_PIANO.0018 %%
-%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.13). Museum data (PPD929, crayon/charcoal/frotté/gratté, 24,6 x 19,2 cm, mount 53 x 40, 1907 gift) comes via the project catalogue; the Paris Musées object record was not fetched directly for this entry, hence research_status Basic and a link to the collections portal root rather than to a deep link this project has not verified. The suggested match with 1885 catalogue no. 116 "La Lecture" is labelled a guess and should not be repeated as established. 097.0289 is included explicitly as a DIFFERENT composition, to stop a future reader from silently merging the two. Image: Commons CC0 file at 4317x5531, downscaled to 937x1200 for the site (this sheet compresses poorly — fine charcoal texture — so it is published smaller than the other entries to stay under the size budget). %%
+%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.13). Museum data (PPD929, crayon/charcoal/frotté/gratté, 24,6 x 19,2 cm, mount 53 x 40, 1907 gift) comes via the project catalogue; the Paris Musées object record was not fetched directly for this entry, hence research_status Basic and a link to the collections portal root rather than to a deep link this project has not verified. The suggested match with 1885 catalogue no. 116 "La Lecture" is labelled a guess and should not be repeated as established. 097.0294 is included explicitly as a DIFFERENT composition, to stop a future reader from silently merging the two. Image: Commons CC0 file at 4317x5531, downscaled to 937x1200 for the site (this sheet compresses poorly — fine charcoal texture — so it is published smaller than the other entries to stay under the size budget). %%

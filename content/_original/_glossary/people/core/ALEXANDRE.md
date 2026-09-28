@@ -92,7 +92,7 @@ The most revealing passage about Alexandre's long-term strategy comes from Marie
 ### Managing Georges's Inheritance (1882)
 
 %% GLO_ALEXANDRE.0023 %%
-When Georges faked his death in March 1882, it was Alexandre who held Georges's inheritance. Marie notes acidly: "c'est Alexandre qui detient l'heritage de Georges. Et ce cher Alexandre qui a sans doute pris toutes les dispositions pour mieux evincer Dina et l'autre soeur." (It's Alexandre who holds Georges's inheritance. And dear Alexandre has no doubt taken all measures to better squeeze out Dina and the other sister.) Marie's father had to send telegrams to Alexandre to send funeral money -- for a death that turned out to be fabricated (094.0207).
+When Georges faked his death in March 1882, it was Alexandre who held Georges's inheritance. Marie notes acidly: "c'est Alexandre qui detient l'heritage de Georges. Et ce cher Alexandre qui a sans doute pris toutes les dispositions pour mieux evincer Dina et l'autre soeur." (It's Alexandre who holds Georges's inheritance. And dear Alexandre has no doubt taken all measures to better squeeze out Dina and the other sister.) Marie's father had to send telegrams to Alexandre to send funeral money -- for a death that turned out to be fabricated (094.0259).
 
 %% GLO_ALEXANDRE.0024 %%
 ## The Soulima Affair
@@ -128,7 +128,7 @@ Marie sarcastically quotes Alexandre's habitual excuse-making in letters: "'Mon 
 ## Manipulating Family Relations (1881)
 
 %% GLO_ALEXANDRE.0035 %%
-During Marie's 1881 visit to Gavronzi, she observes Alexandre's skill at setting family members against each other. When Maman turned hostile toward Paul, Marie identified the source: "C'est ce cher oncle Alexandre qui l'a soufflee" (It's dear Uncle Alexandre who whispered to her / incited her) (092.0222). The sarcastic "cher" (dear) underscores Marie's contempt for this manipulation. In 1882, Marie noted "les memes histoires agacantes sur la rapacite, la rouerie d'Alexandre; ses prouesses d'escamotage au prejudice de tous" (the same annoying stories about Alexandre's rapacity, his cunning; his sleight-of-hand feats at everyone's expense).
+During Marie's 1881 visit to Gavronzi, she observes Alexandre's skill at setting family members against each other. When Maman turned hostile toward Paul, Marie identified the source: "C'est ce cher oncle Alexandre qui l'a soufflee" (It's dear Uncle Alexandre who whispered to her / incited her) (092.0233). The sarcastic "cher" (dear) underscores Marie's contempt for this manipulation. In 1882, Marie noted "les memes histoires agacantes sur la rapacite, la rouerie d'Alexandre; ses prouesses d'escamotage au prejudice de tous" (the same annoying stories about Alexandre's rapacity, his cunning; his sleight-of-hand feats at everyone's expense).
 
 %% GLO_ALEXANDRE.0036 %%
 ## Life in Paris (1878)
@@ -155,10 +155,10 @@ During the Eristoff-Tutcheff crisis in Nice (March 1879), when the Tutcheffs fil
 ## Marie's Visit to Tcherniakovka (1882)
 
 %% GLO_ALEXANDRE.0044 %%
-During Marie's autumn 1882 trip to Russia, she visited Alexandre at Tcherniakovka for an elaborate hunting party. Alexandre prepared lavishly: "Alexandre a ete chercher trois cuisiniers de Harkoff, le fameux Prosper du club" (Alexandre fetched three cooks from Kharkiv, the famous Prosper from the club). He "se mettait en quatre pour etre agreable avec mille flatteries a mon egard. Nadine aussi." (was bending over backwards to be agreeable with a thousand flatteries toward me. Nadine too.) (096.0404).
+During Marie's autumn 1882 trip to Russia, she visited Alexandre at Tcherniakovka for an elaborate hunting party. Alexandre prepared lavishly: "Alexandre a ete chercher trois cuisiniers de Harkoff, le fameux Prosper du club" (Alexandre fetched three cooks from Kharkiv, the famous Prosper from the club). He "se mettait en quatre pour etre agreable avec mille flatteries a mon egard. Nadine aussi." (was bending over backwards to be agreeable with a thousand flatteries toward me. Nadine too.) (096.0431).
 
 %% GLO_ALEXANDRE.0045 %%
-Marie was moved by revisiting the estate where she had spent her childhood, noting how beautifully Grand-papa had designed the house, garden, park, ponds, and allees. But she saw through Alexandre's hospitality: during the fire that broke out from fireworks, "Alexandre a distribue quelques horions a droite et a gauche a ceux qui ne couraient pas assez vite" (Alexandre distributed blows left and right to those who didn't run fast enough) (096.0414). The lord of the manor, punching servants who moved too slowly -- a vivid portrait of the provincial despot.
+Marie was moved by revisiting the estate where she had spent her childhood, noting how beautifully Grand-papa had designed the house, garden, park, ponds, and allees. But she saw through Alexandre's hospitality: during the fire that broke out from fireworks, "Alexandre a distribue quelques horions a droite et a gauche a ceux qui ne couraient pas assez vite" (Alexandre distributed blows left and right to those who didn't run fast enough) (096.0441). The lord of the manor, punching servants who moved too slowly -- a vivid portrait of the provincial despot.
 
 %% GLO_ALEXANDRE.0046 %%
 ## Death (January 1884)
@@ -236,14 +236,14 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **090.1880-11-24**: Alexandre writes that Maman must stay in Russia
 
 ### 1881
-- **092.0222** (July 8): Alexandre manipulates Maman against Paul at Gavronzi
+- **092.0233** (July 8): Alexandre manipulates Maman against Paul at Gavronzi
 
 ### 1882
-- **094.0207** (March 13): Alexandre holds Georges's inheritance; suspected of positioning to dispossess Dina
-- **096.0399-0414** (October 23): Tcherniakovka visit; lavish hospitality; Alexandre has bought out brother Etienne's land share; "c'est une force"; punches servants during fire
+- **094.0259** (March 13): Alexandre holds Georges's inheritance; suspected of positioning to dispossess Dina
+- **096.0426-0414** (October 23): Tcherniakovka visit; lavish hospitality; Alexandre has bought out brother Etienne's land share; "c'est une force"; punches servants during fire
 - **096.1882-10-05**: Soulima affair mentioned -- Georges and Alexandre slapped someone
 - **096.1882-10-29**: Alexandre at Paul's baby's baptism
-- **097.0032** (November 6): Lunch at Alexandre's in Poltava; all family "plus ou moins brouille"
+- **097.0033** (November 6): Lunch at Alexandre's in Poltava; all family "plus ou moins brouille"
 
 ### 1884
 - **102.0099-0102** (January 2): Death by stroke; Marie's complex tribute; his words about loving Nadine; three children left behind

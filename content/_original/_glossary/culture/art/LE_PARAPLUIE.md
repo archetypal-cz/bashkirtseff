@@ -31,21 +31,21 @@ The picture is conventionally dated **1883**, and the 1885 posthumous catalogue 
 ## Description
 
 %% GLO_LE_PARAPLUIE.0005 %%
-A ragged girl stands in the rain under an open umbrella, an old black skirt pulled up over her head and shoulders in place of a shawl, looking straight out at the viewer. Marie's own description, written the day she began it, is exact: "Une petite fille qui a mis sa vieille jupe noire sur ses épaules et qui tient un parapluie ouvert. Je travaille dehors et il pleut presque tous les jours" (096.0155). The wet grey light and the child's steady, unsentimental stare are the whole picture; it is naturalism at its plainest, and it has outlived nearly everything else she painted in popularity.
+A ragged girl stands in the rain under an open umbrella, an old black skirt pulled up over her head and shoulders in place of a shawl, looking straight out at the viewer. Marie's own description, written the day she began it, is exact: "Une petite fille qui a mis sa vieille jupe noire sur ses épaules et qui tient un parapluie ouvert. Je travaille dehors et il pleut presque tous les jours" (096.0160). The wet grey light and the child's steady, unsentimental stare are the whole picture; it is naturalism at its plainest, and it has outlived nearly everything else she painted in popularity.
 
 %% GLO_LE_PARAPLUIE.0006 %%
 ## Making of the Work
 
 %% GLO_LE_PARAPLUIE.0007 %%
-It was painted outdoors in bad weather, with a child model who would not hold still. The diary of 30 August 1882 records the interruptions in sequence -- the upholsterer, a downpour, "c'est la petite qui ne pose pas du tout", a visit from Félix -- and her own summary of the working method it forced on her: "Je commence, je lâche, je recommence" (096.0159, 096.0162). Painting in the rain was not an affectation: Marie had by then committed herself to plein-air naturalism, and she was already ill. On 14 September [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) went through the canvases she brought back to Paris and was pleased with them -- "Et puis la petite avec le parapluie" (096.0228).
+It was painted outdoors in bad weather, with a child model who would not hold still. The diary of 30 August 1882 records the interruptions in sequence -- the upholsterer, a downpour, "c'est la petite qui ne pose pas du tout", a visit from Félix -- and her own summary of the working method it forced on her: "Je commence, je lâche, je recommence" (096.0164, 096.0167). Painting in the rain was not an affectation: Marie had by then committed herself to plein-air naturalism, and she was already ill. On 14 September [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) went through the canvases she brought back to Paris and was pleased with them -- "Et puis la petite avec le parapluie" (096.0239).
 
 %% GLO_LE_PARAPLUIE.0008 %%
 ## References in Diary
 
 %% GLO_LE_PARAPLUIE.0009 %%
-- **First mention: 1882-08-29 (096.0155)** -- "Qu'est-ce que je fais? Une petite fille qui a mis sa vieille jupe noire sur ses épaules et qui tient un parapluie ouvert. Je travaille dehors et il pleut presque tous les jours."
-- 1882-08-30 (096.0159, 096.0162) -- the interruptions, the model who will not pose, "Je commence, je lâche, je recommence"
-- 1882-09-14 (096.0228) -- Julian's approval of the summer's canvases: "Et puis la petite avec le parapluie"
+- **First mention: 1882-08-29 (096.0160)** -- "Qu'est-ce que je fais? Une petite fille qui a mis sa vieille jupe noire sur ses épaules et qui tient un parapluie ouvert. Je travaille dehors et il pleut presque tous les jours."
+- 1882-08-30 (096.0164, 096.0167) -- the interruptions, the model who will not pose, "Je commence, je lâche, je recommence"
+- 1882-09-14 (096.0239) -- Julian's approval of the summer's canvases: "Et puis la petite avec le parapluie"
 
 %% GLO_LE_PARAPLUIE.0010 %%
 The diary trail is short: unlike *[Un meeting](./UN_MEETING.md)* or *[La Rue](./LA_RUE.md)*, this small, quickly made picture never became a campaign, and Marie seems not to have thought it important. Its later fame is entirely posthumous.
@@ -69,4 +69,4 @@ The diary trail is short: unlike *[Un meeting](./UN_MEETING.md)* or *[La Rue](./
 - All diary quotations from the French originals in `/content/_original/`
 
 %% GLO_LE_PARAPLUIE.0015 %%
-%% 2026-08-13T14:00:00 RSR: Created as part of the artworks glossary wave. Facts from the project research catalog (scratchpad/artworks-catalog.md, §3.5) and the diary mention map for carnets 087-096. The dating conflict is left open on purpose: museums and the standard literature give 1883, the diary documents the picture being painted outdoors at rue Ampère in August-September 1882 (096.0155-0228), and no source reconciles the two. The image caption therefore reads "1882-83". Accession history follows the museum's own record (received 1904), which contradicts the widely repeated "1908 donation" framing. Image downscaled from the Wikimedia Commons file (2496 x 3198 original). %%
+%% 2026-08-13T14:00:00 RSR: Created as part of the artworks glossary wave. Facts from the project research catalog (scratchpad/artworks-catalog.md, §3.5) and the diary mention map for carnets 087-096. The dating conflict is left open on purpose: museums and the standard literature give 1883, the diary documents the picture being painted outdoors at rue Ampère in August-September 1882 (096.0160-0228), and no source reconciles the two. The image caption therefore reads "1882-83". Accession history follows the museum's own record (received 1904), which contradicts the widely repeated "1908 donation" framing. Image downscaled from the Wikimedia Commons file (2496 x 3198 original). %%

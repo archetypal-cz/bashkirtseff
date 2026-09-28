@@ -122,7 +122,7 @@ After visiting, Florence becomes a standard of comparison:
 
 ### "Ma famille de Florence" (1877-1882)
 
-Marie's ironic appropriation of the Larderei family as "ma famille" persists long after the obsession's peak. As late as April 1882, when her father reports meeting Larderei at Monaco -- now fallen, "tare," consorting with prostitutes -- Marie writes: "j'ai garde un faible pour ma famille de Florence" (094.0250). The phrase combines residual tenderness, social aspiration, and self-aware irony.
+Marie's ironic appropriation of the Larderei family as "ma famille" persists long after the obsession's peak. As late as April 1882, when her father reports meeting Larderei at Monaco -- now fallen, "tare," consorting with prostitutes -- Marie writes: "j'ai garde un faible pour ma famille de Florence" (094.0320). The phrase combines residual tenderness, social aspiration, and self-aware irony.
 
 ## People Associated with Florence in the Diary
 

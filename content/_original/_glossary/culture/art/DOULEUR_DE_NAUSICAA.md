@@ -29,13 +29,13 @@ Marie had wanted to sculpt for years before she dared. From 1878 she talks about
 ## Description
 
 %% GLO_DOULEUR_DE_NAUSICAA.0005 %%
-Marie's own description, written the day she made the first sketch, is the best one there is: «Ma figure est une femme debout qui pleure la tête dans ses mains. Vous savez ce mouvement d'épaules quand on pleure.» (098.0422) — a woman standing, weeping with her head in her hands, and that particular movement of the shoulders. The grief is carried by the back and shoulders rather than by a face, which is hidden; the figure is legible only as posture.
+Marie's own description, written the day she made the first sketch, is the best one there is: «Ma figure est une femme debout qui pleure la tête dans ses mains. Vous savez ce mouvement d'épaules quand on pleure.» (098.0424) — a woman standing, weeping with her head in her hands, and that particular movement of the shoulders. The grief is carried by the back and shoulders rather than by a face, which is hidden; the figure is legible only as posture.
 
 %% GLO_DOULEUR_DE_NAUSICAA.0006 %%
-The mythological title came afterwards. The figure was first conceived as one of the mourning women in her projected history painting *[Les Saintes Femmes](./LES_SAINTES_FEMMES.md)*, then detached from it and re-read as **Nausicaa**, the Phaeacian princess of the *Odyssey* who watches Odysseus sail away. Marie retells the parting on the shore at length in her entry of 22 March 1883 (098.0551–0554), and that passage is the interpretive core of the work: the weeping is not bereavement but a woman left standing on a beach while the man goes on to his own story. Her aside there about Penelope — she would gladly strangle her, after Ouida — belongs to the same argument.
+The mythological title came afterwards. The figure was first conceived as one of the mourning women in her projected history painting *[Les Saintes Femmes](./LES_SAINTES_FEMMES.md)*, then detached from it and re-read as **Nausicaa**, the Phaeacian princess of the *Odyssey* who watches Odysseus sail away. Marie retells the parting on the shore at length in her entry of 22 March 1883 (098.0553–0554), and that passage is the interpretive core of the work: the weeping is not bereavement but a woman left standing on a beach while the man goes on to his own story. Her aside there about Penelope — she would gladly strangle her, after Ouida — belongs to the same argument.
 
 %% GLO_DOULEUR_DE_NAUSICAA.0007 %%
-**A note on scale.** The diary describes a large armature — «la grande machine», built full-size by two *praticiens* from her clay maquette, needing an iron frame fixed by a man sent by the sculptor Carriès, and at one point remade because a workman «l'a faite trop grande» (100.0124, 102.0129). The surviving bronze at the Orsay is 83 cm high. How the museum's statuette relates to the large plaster she was fighting with in 1883–84 — reduction, model, or a separate resolution of the same figure — is not established by any source consulted here, and this entry does not assert it.
+**A note on scale.** The diary describes a large armature — «la grande machine», built full-size by two *praticiens* from her clay maquette, needing an iron frame fixed by a man sent by the sculptor Carriès, and at one point remade because a workman «l'a faite trop grande» (100.0257, 102.0129). The surviving bronze at the Orsay is 83 cm high. How the museum's statuette relates to the large plaster she was fighting with in 1883–84 — reduction, model, or a separate resolution of the same figure — is not established by any source consulted here, and this entry does not assert it.
 
 %% GLO_DOULEUR_DE_NAUSICAA.0008 %%
 **No free image exists.** There is nothing on Wikimedia Commons for this sculpture — a conspicuous gap, since it is the only one of her sculptures anyone can still see. One CC BY photograph by the Commons user Sailko, of an Orsay decorative-arts room (the Dampt panelling from the Hôtel de Béarn), claims in its *filename* to include a Bashkirtseff sculpture of 1884, but the file page itself does not confirm it and this project has not verified the identification. A reproduction request to the Musée d'Orsay is the obvious way to close the gap.
@@ -45,11 +45,11 @@ The mythological title came afterwards. The figure was first conceived as one of
 
 %% GLO_DOULEUR_DE_NAUSICAA.0010 %%
 %% [#Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) %%
-The statue is begun on **27 February 1883**, the same week she finishes *[Jean et Jacques](./JEAN_ET_JACQUES.md)*, and in the same breath as one of her most quoted lines: «j'ai fait l'esquisse de *ma statue*… Je suis née sculpteur, j'aime la forme à l'adoration» (098.0420). Within a month two *praticiens* have built the full-scale armature (098.0549); by 28 March she is pleased with the movement — «désolé» — and that same night the whole thing falls down and has to be rebuilt (098.0608).
+The statue is begun on **27 February 1883**, the same week she finishes *[Jean et Jacques](./JEAN_ET_JACQUES.md)*, and in the same breath as one of her most quoted lines: «j'ai fait l'esquisse de *ma statue*… Je suis née sculpteur, j'aime la forme à l'adoration» (098.0422). Within a month two *praticiens* have built the full-scale armature (098.0551); by 28 March she is pleased with the movement — «désolé» — and that same night the whole thing falls down and has to be rebuilt (098.0610).
 
 %% GLO_DOULEUR_DE_NAUSICAA.0011 %%
 %% [#Saint_Marceaux](../../people/religious/SAINT_MARCEAUX.md) %%
-Through the summer of 1883 she works *en ronde-bosse* on the advice of the sculptor **Saint-Marceaux** (100.0008), who functions here as her model of ambition much as Bastien-Lepage does in painting. By 30 August she rates the sculpture at least as highly as her painting: «ma sculpture actuelle vaut ma peinture si elle ne lui est pas supérieure» (101.0299). Then in December the confidence collapses — «ma Nausicaa ne signifie rien, on ne comprend pas qu'elle pleure» (102.0077) — and is restored six days later when Julian is summoned and raves: «exquis, charmant, très bien, empoignant… Admirablement bien construit» (102.0083). Tony Robert-Fleury, two days after that, is cooler but satisfied (102.0085).
+Through the summer of 1883 she works *en ronde-bosse* on the advice of the sculptor **Saint-Marceaux** (100.0016), who functions here as her model of ambition much as Bastien-Lepage does in painting. By 30 August she rates the sculpture at least as highly as her painting: «ma sculpture actuelle vaut ma peinture si elle ne lui est pas supérieure» (101.0299). Then in December the confidence collapses — «ma Nausicaa ne signifie rien, on ne comprend pas qu'elle pleure» (102.0077) — and is restored six days later when Julian is summoned and raves: «exquis, charmant, très bien, empoignant… Admirablement bien construit» (102.0083). Tony Robert-Fleury, two days after that, is cooler but satisfied (102.0085).
 
 %% GLO_DOULEUR_DE_NAUSICAA.0012 %%
 The last winter is a running fight over models — she reckons she has used twenty-three where fifteen would do — until she finds the right body in February 1884: «J'ai trouvé une Nausicaa. Un peu grêle mais charmante, seize ans, des formes très pures. Je suis enchantée mais aurai-je le temps.» (103.0318). She did not. On 14 March 1884 she gives up on submitting it: «Ce ne sera pas fini, je n'enverrai donc que le Meeting» (103.0487). Her last recorded plan for it, on 5 April 1884, is to take up the statue seriously in the mornings and paint a nude study in the afternoons (103.0674). She died on 31 October 1884. The bronze that survives is signed 84.
@@ -63,13 +63,13 @@ The long prehistory, before this particular figure: 1878-05-18 (080.0189), 1878-
 %% GLO_DOULEUR_DE_NAUSICAA.0015 %%
 The work itself:
 
-- **1883-02-27 (098.0420, 098.0422)** — first mention; the sketch, and the description of the weeping woman
-- 1883-03-22 (098.0549) — the full-size armature built by two *praticiens*
-- **1883-03-22 (098.0551–0554)** — the Nausicaa identification and the parting on the shore
-- 1883-03-28 (098.0608) — pleased with the movement; the figure collapses overnight
-- 1883-06-05 (100.0008) — a model engaged for *ronde-bosse* work, on Saint-Marceaux's instructions
-- 1883-06-22 (100.0029) — the verdict that she should send it to the next Salon
-- 1883-08-03 (100.0124) — the iron armature of «la grande machine», fixed by a man sent by Carriès
+- **1883-02-27 (098.0422, 098.0424)** — first mention; the sketch, and the description of the weeping woman
+- 1883-03-22 (098.0551) — the full-size armature built by two *praticiens*
+- **1883-03-22 (098.0553–0554)** — the Nausicaa identification and the parting on the shore
+- 1883-03-28 (098.0610) — pleased with the movement; the figure collapses overnight
+- 1883-06-05 (100.0016) — a model engaged for *ronde-bosse* work, on Saint-Marceaux's instructions
+- 1883-06-22 (100.0106) — the verdict that she should send it to the next Salon
+- 1883-08-03 (100.0257) — the iron armature of «la grande machine», fixed by a man sent by Carriès
 - 1883-08-27 evening (101.0270) — the wager: the statue, the *gamins* and the *Saintes femmes* at one Salon, and a thousand francs to the poor
 - 1883-08-30 (101.0299) — the sculpture worth as much as the painting, or more
 - 1883-12-16 (102.0077) — «ma Nausicaa ne signifie rien»

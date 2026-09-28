@@ -129,7 +129,7 @@ Lambertye fades but never quite disappears. On **September 18, 1874** (024.0050)
 ### Phase 6: Later Encounters -- Dieppe and Paris, 1879--1883 (carnets 086--099)
 
 %% GLO_LAMBERTYE.0026 %%
-On **August 24, 1879** (086.0046), at Dieppe races, Marie spots him with old Nice acquaintances: "Lambertye vous vous rappelez bien du comte de Lambertye à Nice? de mes acrostiches?" -- she herself remembers the acrostic poems from five years earlier. On **January 20, 1882** (094.0033), at a Kessler soirée in Paris, she encounters the **Marquise de Lambertye**, described as "une ancienne entrepreneuse en bâtiments richissime" who married the marquis and "reçoit très bien." On **January 26, 1882** (094.0047), Marie attends a ball at the Marquise de Lambertye's. On **June 10, 1882** (095.0031), Marie goes to the Salon and finds "Mmes de Lambertye" among the visitors. On **September 22, 1882** (096.0087--0093), Marie dines at Viroflay at the marquise's estate and recounts the cruel marriage story: the marquis took his wife's money to restore his château, then abandoned her, saying "nous avons marié nos capitaux et non pas nos cœurs." Marie's acid observation: "la dame est dans l'impossibilité de déshonorer son mari vu sa laideur, sa grosseur et sa tenue commune." On **April 24, 1883** (099.0042), "Les miens dînent chez Mme de Lambertye" -- the family dines at the marquise's while Marie stays home discussing Jules Bastien-Lepage.
+On **August 24, 1879** (086.0046), at Dieppe races, Marie spots him with old Nice acquaintances: "Lambertye vous vous rappelez bien du comte de Lambertye à Nice? de mes acrostiches?" -- she herself remembers the acrostic poems from five years earlier. On **January 20, 1882** (094.0063), at a Kessler soirée in Paris, she encounters the **Marquise de Lambertye**, described as "une ancienne entrepreneuse en bâtiments richissime" who married the marquis and "reçoit très bien." On **January 26, 1882** (094.0078), Marie attends a ball at the Marquise de Lambertye's. On **June 10, 1882** (095.0020), Marie goes to the Salon and finds "Mmes de Lambertye" among the visitors. On **September 22, 1882** (096.0089--0093), Marie dines at Viroflay at the marquise's estate and recounts the cruel marriage story: the marquis took his wife's money to restore his château, then abandoned her, saying "nous avons marié nos capitaux et non pas nos cœurs." Marie's acid observation: "la dame est dans l'impossibilité de déshonorer son mari vu sa laideur, sa grosseur et sa tenue commune." On **April 24, 1883** (099.0042), "Les miens dînent chez Mme de Lambertye" -- the family dines at the marquise's while Marie stays home discussing Jules Bastien-Lepage.
 
 %% GLO_LAMBERTYE.0027 %%
 ## Significance in Marie's Diary
@@ -190,8 +190,8 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 | 1875-08-30 | 040.0106 | Dyes his moustache and remaining hair |
 | 1876-07-22 | 064.0022 | "Son éternel sourire; vu mon âge, il sourit un peu moins" |
 | 1879-08-24 | 086.0046 | Dieppe: "vous vous rappelez... de mes acrostiches?" |
-| 1882-01-20 | 094.0033 | Marquise de Lambertye at Kessler soirée |
-| 1882-09-22 | 096.0087 | Dinner at Viroflay; marriage of convenience story |
+| 1882-01-20 | 094.0063 | Marquise de Lambertye at Kessler soirée |
+| 1882-09-22 | 096.0089 | Dinner at Viroflay; marriage of convenience story |
 | 1883-04-24 | 099.0042 | Family dines at Mme de Lambertye's |
 
 %% GLO_LAMBERTYE.0036 %%

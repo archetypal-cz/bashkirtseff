@@ -35,7 +35,7 @@ That description is worth holding beside *[La Douleur de Nausicaa](./DOULEUR_DE_
 ## Making of the Work
 
 %% GLO_SORROW.0008 %%
-**No passage in the diary has been matched to it.** The sweep of carnets 087–096, which covers the summer of 1881 at Gavronzi in detail, found one substantial picture from that stay: a life-size peasant woman standing against a wattle fence with water buckets at her feet, painted outdoors under a portable two-room pavilion (092.0104, 092.0110, 092.0143, 092.0198, and Julian's demolition of it at 092.0362). That canvas has no hidden face and no *contre-jour* effect, and the identification with *Горе* was explicitly rejected by the sweep. If the Sumy picture is the 1881 one the museum says it is, Marie did not describe it — or described it in terms nobody has yet recognised.
+**No passage in the diary has been matched to it.** The sweep of carnets 087–096, which covers the summer of 1881 at Gavronzi in detail, found one substantial picture from that stay: a life-size peasant woman standing against a wattle fence with water buckets at her feet, painted outdoors under a portable two-room pavilion (092.0112, 092.0122, 092.0155, 092.0209, and Julian's demolition of it at 092.0373). That canvas has no hidden face and no *contre-jour* effect, and the identification with *Горе* was explicitly rejected by the sweep. If the Sumy picture is the 1881 one the museum says it is, Marie did not describe it — or described it in terms nobody has yet recognised.
 
 %% GLO_SORROW.0009 %%
 **The picture is at risk, and this should be said plainly.** The Sumy museum's roof was damaged in 2023 and its windows were lost in the ballistic strike of **13 April 2025**. Sumy is thirty kilometres from the Russian border. The collection is **not** fully evacuated, and the acting director treats the question of what has been moved as classified. Nothing published states where *Горе* is or what condition it is in. Any claim that three Bashkirtseff paintings survive in Ukraine should carry the date on which it was made.
@@ -44,7 +44,7 @@ That description is worth holding beside *[La Douleur de Nausicaa](./DOULEUR_DE_
 ## References in Diary
 
 %% GLO_SORROW.0011 %%
-None identified. For the 1881 Gavronzi painting campaign — the most likely context if the museum's 1881 dating is right — see 1881-06-12 (092.0104), 1881-06-16 (092.0110), 1881-06-27 (092.0143), 1881-07-06 (092.0198), 1881-07-28 (092.0344), 1881-07-31 (092.0354) and 1881-08-03 (092.0362).
+None identified. For the 1881 Gavronzi painting campaign — the most likely context if the museum's 1881 dating is right — see 1881-06-12 (092.0112), 1881-06-16 (092.0122), 1881-06-27 (092.0155), 1881-07-06 (092.0209), 1881-07-28 (092.0355), 1881-07-31 (092.0365) and 1881-08-03 (092.0373).
 
 %% GLO_SORROW.0012 %%
 ## Related Entries

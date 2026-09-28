@@ -1,0 +1,2883 @@
+{
+ "carnet": "091",
+ "source": "tome14.docx",
+ "_draft": "rebuild-draft-plan 2026-09-28: a draft — read REVIEW.md before using it",
+ "drop": [
+  {
+   "id": "091.0071",
+   "reason": "heading-only cluster «# Vendredi, 11 février 1881 / Samedi 12 février 1881», an extraction artefact joining two date lines (tome14.docx ¶1057 and ¶1058); replaced by a placeholder entry for 11 Feb and the 12 Feb entry heading"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1881-01-23.md",
+   "date": "1881-01-23",
+   "heading": "Dimanche 23 janvier 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶913: the date line «Dimanche 23 janvier 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-01-24.md",
+   "date": "1881-01-24",
+   "heading": "Lundi 24 janvier 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶914: the date line «Lundi 24 janvier 1 881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-01-25.md",
+   "date": "1881-01-25",
+   "heading": "Mardi 25 janvier 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶915: the date line «Mardi 25 janvier 1 881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-01-26.md",
+   "date": "1881-01-26",
+   "heading": "Mercredi 26 janvier 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "On a dit chez les Russes que j’étais malade, c’est pour montrer le contraire que nous allons à l’église, puis chez les Gavini, chez la Bailleul, chez la princesse. Les deux petits viennent dîner et la Bailleul aussi et les deux Mouzay. Après toutes ces lettres ! Elles reprennent l’habitude du dimanche des autres hivers",
+      "rsr": "Restored from tome14.docx ¶917, Mon Journal t.14 p.71 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La princesse a envoyé je ne sais quelle viande fumée de Serbie d’un aspect prodigieux, aussi de Daillens demande t-elle si ce n’est pas un ancêtre conservé, le chef de la dynastie ? La Bailleul enlève tout à coup Alexis et je viens tout bas lui dire à lui que je regrette de ne pouvoir lui donner les conseils d’usage mais: du courage, mon ami, du courage. Sans croire tout à fait à l’impureté d’un départ à deux je suis convaincue que la mère Bailleul qui se donne quarante-six ans, qui se poudre à frimas et qui est robuste comme une paysanne et aimant la gaudriole ... n’est-ce pas qu’elle ne peut pas être sage ? D’autant plus que les Karageorgevitch savent certaines choses par leur ami le blond et l’adolescent Marcel Koechlin...",
+      "rsr": "Restored from tome14.docx ¶918, Mon Journal t.14 p.71 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et puis la voilà qui prend sa liqueur et s’adressant à Alexis: je ne connais personne ayant les lèvres aussi sensuelles en buvant que moi...",
+      "rsr": "Restored from tome14.docx ¶919, Mon Journal t.14 p.71 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Donc nous avons ri et ceci ajouté à mes visites dans la journée, (je laissais ma pelisse en voiture et traversais les rues et les cours en taille) fait que je suis enrhumée comme un vieux chien.",
+      "rsr": "Restored from tome14.docx ¶920, Mon Journal t.14 p.71 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Une indiscrétion de la bonne. Il paraît que c’est Julian qui payera la cloison; j’en suis aise pour lui.",
+      "rsr": "Restored from tome14.docx ¶923, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Donc mardi en revenant d’atelier je suis prise de la fièvre et reste jusqu’à sept heures sans lumière à grelotter dans un fauteuil, moitié endormie et toujours le tableau devant les yeux comme chaque nuit depuis huit jours. Vous savez qu’Amélie s’est installée à l’autre extrémité de l’atelier et fait mon tableau à rebours, et comme chaque fois qu’elle veut me surpasser elle croit qu’elle y arrivera en prenant tout le temps des mesures, elle en a pris tout le temps et ce bras tendu, cette main avec ce bout de fusain me dansent les yeux avec des lignes très noires tracées sur mon tableau, comme pour la perspective... N’ayant pris qu’un peu de lait la nuit a été encore plus extraordinaire, je ne dormais pas puisque j’ai fait plusieurs fois sonner le réveil, mais le tableau était toujours là et j’y travaillais seulement je faisais tout le contraire de ce qu’il fallait entraîner par une volonté surnaturelle à effacer ce qui était bien. Oh ! c’était énervant !",
+      "rsr": "Restored from tome14.docx ¶924, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et pas moyen de rester calme, je m’agitais comme un diable, m’efforçais de croire que je rêvais mais non; mais c’est donc du délire me disais [je].",
+      "rsr": "Restored from tome14.docx ¶925, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je crois que ça en était, maintenant je sais ce que c’est et n’en serais pas fâchée si ce n’était la fatigue partout et dans les jambes.",
+      "rsr": "Restored from tome14.docx ¶926, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais ce qu’il y a de bon, c’est que toute faible j’attends Julian pour avoir son avis sur une figure que j’ai changée hier, il vient et trouve que j’ai eu grandement tort. J’ai effacé ce qui était bien, avant le rêve.",
+      "rsr": "Restored from tome14.docx ¶927, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et le soir hier par un phénomène curieux j’entendais très bien, très bien.",
+      "rsr": "Restored from tome14.docx ¶928, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis brisée.",
+      "rsr": "Restored from tome14.docx ¶929, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-01-27.md",
+   "date": "1881-01-27",
+   "heading": "Jeudi 27 janvier 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "La ligne noire qui m’obsédait tant dans mon rêve a été tirée à la place même par le monsieur qui est venu me mettre le tableau en perspective.",
+      "rsr": "Restored from tome14.docx ¶931, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En parcourant mes écritures je me demande comment je puis vivre enterrée après avoir été à Nice, en Italie, aux théâtres, à la promenade, au soleil ! Et à présent, la tombe. Les vieilles filles de l’atelier et ma bibliothèque.",
+      "rsr": "Restored from tome14.docx ¶932, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "L’art ! Et qu’est-ce que je serais devenue si je ne travaillais pas ? Que ferais-je de mes journées ? Ou aller ? Quand on a été deux fois par semaine chez les Gavini ça suffit. Les joueuses de baccara chez la Bailleul ou les Moreau ? Ah ! non par exemple.",
+      "rsr": "Restored from tome14.docx ¶933, Mon Journal t.14 p.72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On ne peut pas aller tous les soirs au théâtre. Ah ! misère.",
+      "rsr": "Restored from tome14.docx ¶936, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-01-28.md",
+   "date": "1881-01-28",
+   "heading": "Vendredi 28 janvier 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Potain est revenu, je l’amuse par des bavardages insensés. Un coup de sonnette à dîner, c’est l’oncle Etienne qui arrive de Nice où il s’est installé avec Mme Hamsley.",
+      "rsr": "Restored from tome14.docx ¶938, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il parle de sa femme comme d’une sainte bien-aimée, hypocrite. Et à mes reproches il répond que tout ceci va s’apaiser, qu’il se réconcilieront et que Dieu seul est sans péché. Et cela sans arrogance mais simplement, bonnement comme un honnête chrétien. C’est si odieux, si c’était de l’affection. Ils prennent cela en douceur, c’est un peu le caractère russe. Ils nous apportent des nouvelles de Nice, des détails sur la villa, les bêtes, les gens, les anciens fournisseurs, tous les cochers de fiacre, les boutiquiers, tous les citoyens sauf ceux de la société, ils demandent des nouvelles, nous connaissent tous par nos noms, c’est touchant de loin, comme un parfum...",
+      "rsr": "Restored from tome14.docx ¶939, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin la vie à Nice était atroce mais tout cela... Et puis je suis si malheureuse. Je suis enterrée. Il n’y a pas d’issue, tout est fini.",
+      "rsr": "Restored from tome14.docx ¶940, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il raconte aussi les affaires de Russie, il serait fastidieux d’en parler ici car Vous connaissez l’incurie, l’indolence et l’enfantillage de ma famille... Inutile d’insister.",
+      "rsr": "Restored from tome14.docx ¶941, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oh ! ma vie est atroce... et lorsqu’à cinq heures j’ai fini de travailler je me sens perdue.",
+      "rsr": "Restored from tome14.docx ¶942, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Etienne a vieilli et engraissé et il rappelle encore plus qu’avant Cassagnac.",
+      "rsr": "Restored from tome14.docx ¶943, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oui, je suis enterrée !",
+      "rsr": "Restored from tome14.docx ¶944, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous avez lu des romans de jeunes filles qu’on enferme de force dans des couvents et bien voilà... C’est horrible, c’est atroce, c’est hideux, c’est inhumain, contre nature, contre Dieu et Dieu quel qu’il soit je l’invoque et tombe à genoux pour qu’il me délivre !",
+      "rsr": "Restored from tome14.docx ¶945, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-01-29.md",
+   "date": "1881-01-29",
+   "heading": "Vendredi 29 janvier 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Lettre de Mme Bashkirtseff à sa fille Marie]",
+      "kind": "editorial",
+      "source": "note of the Cercle edition's editors identifying the inserted letter",
+      "rsr": "Restored from tome14.docx ¶947, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "*Grand Hôtel, Kharkov (29 janvier)*",
+      "kind": "letter",
+      "source": "Lettre de Mme Bashkirtseff (la mère) à Marie, Kharkov, 29 janvier 1881 (en russe, traduite par Tatiana Mojenok pour l'édition)",
+      "rsr": "Restored from tome14.docx ¶948, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "*Mon ange, ma chère Moussia, si tu savais comment je fais tout mon posible pour venir chez toi,, ma fierté, ma gloire, mon bonheur et ma joie ! Tout le monde dit ici que cette fichue affaire se terminera pour rien, que nous l’avons gagné.*",
+      "kind": "letter",
+      "source": "Lettre de Mme Bashkirtseff (la mère) à Marie, Kharkov, 29 janvier 1881 (en russe, traduite par Tatiana Mojenok pour l'édition)",
+      "rsr": "Restored from tome14.docx ¶949, Mon Journal t.14 p.73 (missing from original extraction, 2026-09-28 rebuild). printed «avns» (Mon Journal t.14 p.73) corrected to «avons», a typesetting typo."
+     }
+    },
+    {
+     "new": {
+      "french": "*Le pire du tout est la perte de temps ainsi que mon inquiétude à ton sujet qu'on ne peut même exprimer avec des mots. Si j'avais pu imaginer cette souffrance que je suis obligée de vivre maintenant en étant séparée de toi je ne serais bien sûr jamais partie en Russie.*",
+      "kind": "letter",
+      "source": "Lettre de Mme Bashkirtseff (la mère) à Marie, Kharkov, 29 janvier 1881 (en russe, traduite par Tatiana Mojenok pour l'édition)",
+      "rsr": "Restored from tome14.docx ¶950–953, Mon Journal t.14 pp.73–74 (missing from original extraction, 2026-09-28 rebuild). printed «séprarée» (Mon Journal t.14 p.74) corrected to «séparée», a typesetting typo."
+     }
+    },
+    {
+     "new": {
+      "french": "*La bonne Maria Bogdanovna m’a envoyé ta lettre et moi comme un amoureux, je la relis et l’arrose avec mes larmes? J’embrasse tes mains et tes pieds et prie le Dieu que je puisse au plus vite le faire en vrai. Je t’embrasse fort notre chère tante Nadia. Toi à tout jamais.*\nMarie Bashkirtseff",
+      "kind": "letter",
+      "source": "Lettre de Mme Bashkirtseff (la mère) à Marie, Kharkov, 29 janvier 1881 (en russe, traduite par Tatiana Mojenok pour l'édition)",
+      "rsr": "Restored from tome14.docx ¶954–955, Mon Journal t.14 p.74 (missing from original extraction, 2026-09-28 rebuild). The signature line is the first half of ¶955. printed «ains» (Mon Journal t.14 p.74) corrected to «mains», a typesetting typo; printed «embrase» (Mon Journal t.14 p.74) corrected to «embrasse», a typesetting typo."
+     }
+    },
+    {
+     "new": {
+      "french": "(traduction de Tatania Mojenok)",
+      "kind": "editorial",
+      "source": "the Cercle edition's credit for the translation from Russian",
+      "rsr": "Restored from tome14.docx ¶955, Mon Journal t.14 p.74 (missing from original extraction, 2026-09-28 rebuild). Second half of ¶955, printed in roman type outside the letter; «Tatania» is the printed spelling."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-01-30.md",
+   "date": "1881-01-30",
+   "heading": "Dimanche 30 janvier 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Je travaille au tableau même le dimanche.",
+      "rsr": "Restored from tome14.docx ¶957, Mon Journal t.14 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-01-31.md",
+   "date": "1881-01-31",
+   "heading": "Lundi 31 janvier 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Sommes invitées à dîner chez les Juvisy avec E. de Girardin.",
+      "rsr": "Restored from tome14.docx ¶959, Mon Journal t.14 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La mère Gavini, puis Saint Amand puis Alexis; je venais justement de rentrer. Mais avec Alexis qui ne parle pas fort je suis très gênée.",
+      "rsr": "Restored from tome14.docx ¶960, Mon Journal t.14 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! il ne me manquait plus qu’une pareille chose dans la vie !",
+      "rsr": "Restored from tome14.docx ¶961, Mon Journal t.14 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Julian et Tony, Julian surtout puisqu’il l’a vu plus souvent sont contents du tableau et me l’ont dit, et Julian me l’a dit plusieurs fois et j’en étais contente moi-même et très montée. A présent ça tombe, je ne suis plus satisfaite de ma composition et j’ai beau me répéter que Tony l’a vu deux fois et m’a dit que c’est très bien arrangé, amusant et qu’il ne faut rien changer. Julian me dit de ne rien changé. Je n’ai plus confiance. Julian aussi me dit de ne rien changer. Enfin tout le monde trouve cela bien, un groupe du second plan surtout très joli mais je ne suis pas contente. Je vois ça autrement, il ne faut plus songer à des modifications, il est trop tard... du reste...",
+      "rsr": "Restored from tome14.docx ¶962, Mon Journal t.14 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C’est tout de même curieux que tant de choses me choquent dans ce tableau et ne choquent ni Julian ni Tony... C’est qu’ils pensent que je ne puis pas faire mieux et ne veulent pas me laisser enfoncer en cherchant midi à quatorze heures...",
+      "rsr": "Restored from tome14.docx ¶963, Mon Journal t.14 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-02-01.md",
+   "date": "1881-02-01",
+   "heading": "Mardi 1er février 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶964: the date line «Mardi 1er février 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-02-02.md",
+   "date": "1881-02-02",
+   "heading": "Mercredi 2 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0001"
+    },
+    {
+     "old": "091.0002"
+    },
+    {
+     "old": "091.0003"
+    },
+    {
+     "old": "091.0004"
+    },
+    {
+     "old": "091.0005"
+    },
+    {
+     "old": "091.0006"
+    },
+    {
+     "old": "091.0007"
+    },
+    {
+     "old": "091.0008"
+    },
+    {
+     "old": "091.0009"
+    },
+    {
+     "old": "091.0010"
+    },
+    {
+     "old": "091.0011"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-03.md",
+   "date": "1881-02-03",
+   "heading": "Jeudi 3 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0012"
+    },
+    {
+     "old": "091.0013"
+    },
+    {
+     "old": "091.0014"
+    },
+    {
+     "old": "091.0015"
+    },
+    {
+     "old": "091.0016"
+    },
+    {
+     "old": "091.0017"
+    },
+    {
+     "old": "091.0018"
+    },
+    {
+     "old": "091.0019"
+    },
+    {
+     "old": "091.0020"
+    },
+    {
+     "old": "091.0021"
+    },
+    {
+     "old": "091.0022"
+    },
+    {
+     "old": "091.0023"
+    },
+    {
+     "old": "091.0024"
+    },
+    {
+     "old": "091.0025"
+    },
+    {
+     "old": "091.0026"
+    },
+    {
+     "old": "091.0027"
+    },
+    {
+     "old": "091.0028",
+     "kind": "margin"
+    },
+    {
+     "old": "091.0029"
+    },
+    {
+     "old": "091.0030"
+    },
+    {
+     "old": "091.0031"
+    },
+    {
+     "old": "091.0032"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-04.md",
+   "date": "1881-02-04",
+   "heading": "Vendredi 4 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0033"
+    },
+    {
+     "old": "091.0034"
+    },
+    {
+     "old": "091.0035"
+    },
+    {
+     "old": "091.0036"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-05.md",
+   "date": "1881-02-05",
+   "heading": "Samedi 5 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0037"
+    },
+    {
+     "old": "091.0038"
+    },
+    {
+     "old": "091.0039"
+    },
+    {
+     "old": "091.0040"
+    },
+    {
+     "old": "091.0041"
+    },
+    {
+     "old": "091.0042"
+    },
+    {
+     "old": "091.0043"
+    },
+    {
+     "old": "091.0044"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-06.md",
+   "date": "1881-02-06",
+   "heading": "Dimanche 6 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0045"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-07.md",
+   "date": "1881-02-07",
+   "heading": "Lundi 7 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0046"
+    },
+    {
+     "old": "091.0047"
+    },
+    {
+     "old": "091.0048"
+    },
+    {
+     "old": "091.0049"
+    },
+    {
+     "old": "091.0050"
+    },
+    {
+     "old": "091.0051"
+    },
+    {
+     "old": "091.0052"
+    },
+    {
+     "old": "091.0053"
+    },
+    {
+     "old": "091.0054"
+    },
+    {
+     "old": "091.0055"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-08.md",
+   "date": "1881-02-08",
+   "heading": "Mardi 8 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0056"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-09.md",
+   "date": "1881-02-09",
+   "heading": "Mercredi 9 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0057"
+    },
+    {
+     "old": "091.0058"
+    },
+    {
+     "old": "091.0059"
+    },
+    {
+     "old": "091.0060"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-10.md",
+   "date": "1881-02-10",
+   "heading": "Jeudi 10 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0061"
+    },
+    {
+     "old": "091.0062"
+    },
+    {
+     "old": "091.0063",
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère (copie de sa réponse), 10 février 1881"
+    },
+    {
+     "old": "091.0064",
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère (copie de sa réponse), 10 février 1881"
+    },
+    {
+     "old": "091.0065",
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère (copie de sa réponse), 10 février 1881"
+    },
+    {
+     "old": "091.0066",
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère (copie de sa réponse), 10 février 1881"
+    },
+    {
+     "old": "091.0067",
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère (copie de sa réponse), 10 février 1881"
+    },
+    {
+     "old": "091.0068",
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère (copie de sa réponse), 10 février 1881"
+    },
+    {
+     "old": "091.0069",
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère (copie de sa réponse), 10 février 1881"
+    },
+    {
+     "old": "091.0070"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-11.md",
+   "date": "1881-02-11",
+   "heading": "Vendredi 11 février 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶1057: the date line «Vendredi 11 février 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-02-12.md",
+   "date": "1881-02-12",
+   "heading": "Samedi 12 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0072"
+    },
+    {
+     "old": "091.0073"
+    },
+    {
+     "old": "091.0074"
+    },
+    {
+     "old": "091.0075"
+    },
+    {
+     "old": "091.0076"
+    },
+    {
+     "old": "091.0077"
+    },
+    {
+     "old": "091.0078"
+    },
+    {
+     "old": "091.0079"
+    },
+    {
+     "old": "091.0080"
+    },
+    {
+     "old": "091.0081"
+    },
+    {
+     "old": "091.0082"
+    },
+    {
+     "old": "091.0083"
+    },
+    {
+     "old": "091.0084"
+    },
+    {
+     "old": "091.0085"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-13.md",
+   "date": "1881-02-13",
+   "heading": "Dimanche 13 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0086"
+    },
+    {
+     "old": "091.0087"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-14.md",
+   "date": "1881-02-14",
+   "heading": "Lundi 14 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0088"
+    },
+    {
+     "old": "091.0089"
+    },
+    {
+     "old": "091.0090"
+    },
+    {
+     "old": "091.0091"
+    },
+    {
+     "old": "091.0092"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-15.md",
+   "date": "1881-02-15",
+   "heading": "Mardi 15 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0093"
+    },
+    {
+     "old": "091.0094"
+    },
+    {
+     "old": "091.0095"
+    },
+    {
+     "old": "091.0096"
+    },
+    {
+     "old": "091.0097"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-16.md",
+   "date": "1881-02-16",
+   "heading": "Mercredi 16 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0098"
+    },
+    {
+     "old": "091.0099"
+    },
+    {
+     "old": "091.0100"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-17.md",
+   "date": "1881-02-17",
+   "heading": "Jeudi 17 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0101"
+    },
+    {
+     "old": "091.0102"
+    },
+    {
+     "old": "091.0103"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-18.md",
+   "date": "1881-02-18",
+   "heading": "Vendredi 18 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0104"
+    },
+    {
+     "old": "091.0105"
+    },
+    {
+     "old": "091.0106"
+    },
+    {
+     "old": "091.0107"
+    },
+    {
+     "old": "091.0108"
+    },
+    {
+     "old": "091.0109"
+    },
+    {
+     "old": "091.0110"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-19.md",
+   "date": "1881-02-19",
+   "heading": "Samedi 19 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0111"
+    },
+    {
+     "old": "091.0112"
+    },
+    {
+     "old": "091.0113"
+    },
+    {
+     "old": "091.0114"
+    },
+    {
+     "old": "091.0115"
+    },
+    {
+     "old": "091.0116"
+    },
+    {
+     "old": "091.0117"
+    },
+    {
+     "old": "091.0118"
+    },
+    {
+     "old": "091.0119"
+    },
+    {
+     "old": "091.0120"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-20.md",
+   "date": "1881-02-20",
+   "heading": "Dimanche 20 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0121"
+    },
+    {
+     "old": "091.0122"
+    },
+    {
+     "old": "091.0123"
+    },
+    {
+     "old": "091.0124"
+    },
+    {
+     "old": "091.0125"
+    },
+    {
+     "old": "091.0126"
+    },
+    {
+     "old": "091.0127"
+    },
+    {
+     "old": "091.0128"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-21.md",
+   "date": "1881-02-21",
+   "heading": "Lundi 21 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0129"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-22.md",
+   "date": "1881-02-22",
+   "heading": "Mardi 22 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0130"
+    },
+    {
+     "old": "091.0131"
+    },
+    {
+     "old": "091.0132"
+    },
+    {
+     "old": "091.0133"
+    },
+    {
+     "old": "091.0134"
+    },
+    {
+     "old": "091.0135"
+    },
+    {
+     "old": "091.0136"
+    },
+    {
+     "old": "091.0137"
+    },
+    {
+     "old": "091.0138"
+    },
+    {
+     "old": "091.0139"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-23.md",
+   "date": "1881-02-23",
+   "heading": "Mercredi 23 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0140"
+    },
+    {
+     "old": "091.0141"
+    },
+    {
+     "old": "091.0142"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-24.md",
+   "date": "1881-02-24",
+   "heading": "Jeudi 24 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0143"
+    },
+    {
+     "old": "091.0144"
+    },
+    {
+     "old": "091.0145"
+    },
+    {
+     "old": "091.0146"
+    },
+    {
+     "old": "091.0147"
+    },
+    {
+     "old": "091.0148"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-25.md",
+   "date": "1881-02-25",
+   "heading": "Vendredi 25 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0149"
+    },
+    {
+     "old": "091.0150"
+    },
+    {
+     "old": "091.0151"
+    },
+    {
+     "old": "091.0152"
+    },
+    {
+     "old": "091.0153"
+    },
+    {
+     "old": "091.0154"
+    },
+    {
+     "old": "091.0155"
+    },
+    {
+     "old": "091.0156"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-26.md",
+   "date": "1881-02-26",
+   "heading": "Samedi 26 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0157"
+    },
+    {
+     "old": "091.0158"
+    },
+    {
+     "old": "091.0159"
+    },
+    {
+     "old": "091.0160"
+    },
+    {
+     "old": "091.0161"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-27.md",
+   "date": "1881-02-27",
+   "heading": "Dimanche 27 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0162"
+    },
+    {
+     "old": "091.0163"
+    },
+    {
+     "old": "091.0164"
+    },
+    {
+     "old": "091.0165"
+    },
+    {
+     "old": "091.0166"
+    },
+    {
+     "old": "091.0167"
+    },
+    {
+     "old": "091.0168"
+    },
+    {
+     "old": "091.0169"
+    }
+   ]
+  },
+  {
+   "file": "1881-02-28.md",
+   "date": "1881-02-28",
+   "heading": "Lundi 28 février 1881",
+   "paragraphs": [
+    {
+     "old": "091.0170"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-01.md",
+   "date": "1881-03-01",
+   "heading": "Mardi 1er mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0171"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-02.md",
+   "date": "1881-03-02",
+   "heading": "Mercredi 2 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0172"
+    },
+    {
+     "old": "091.0173"
+    },
+    {
+     "old": "091.0174"
+    },
+    {
+     "old": "091.0175"
+    },
+    {
+     "old": "091.0176"
+    },
+    {
+     "old": "091.0177"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-03.md",
+   "date": "1881-03-03",
+   "heading": "Jeudi 3 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0178"
+    },
+    {
+     "old": "091.0179"
+    },
+    {
+     "old": "091.0180"
+    },
+    {
+     "old": "091.0181"
+    },
+    {
+     "old": "091.0182"
+    },
+    {
+     "old": "091.0183"
+    },
+    {
+     "old": "091.0184"
+    },
+    {
+     "old": "091.0185"
+    },
+    {
+     "old": "091.0186"
+    },
+    {
+     "old": "091.0187"
+    },
+    {
+     "old": "091.0188"
+    },
+    {
+     "old": "091.0189"
+    },
+    {
+     "old": "091.0190"
+    },
+    {
+     "old": "091.0191"
+    },
+    {
+     "old": "091.0192"
+    },
+    {
+     "old": "091.0193"
+    },
+    {
+     "old": "091.0194"
+    },
+    {
+     "old": "091.0195"
+    },
+    {
+     "old": "091.0196"
+    },
+    {
+     "old": "091.0197",
+     "set_french": "à monsieur et à l'écurie 1.500"
+    },
+    {
+     "old": "091.0198",
+     "set_french": "à moi 2.000"
+    },
+    {
+     "old": "091.0199",
+     "set_french": "à la cuisine 1.500"
+    },
+    {
+     "old": "091.0200"
+    },
+    {
+     "old": "091.0201"
+    },
+    {
+     "old": "091.0202"
+    },
+    {
+     "old": "091.0203"
+    },
+    {
+     "old": "091.0204"
+    },
+    {
+     "old": "091.0205"
+    },
+    {
+     "old": "091.0206"
+    },
+    {
+     "old": "091.0207"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-04.md",
+   "date": "1881-03-04",
+   "heading": "Vendredi 4 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0208"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-05.md",
+   "date": "1881-03-05",
+   "heading": "Samedi 5 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0209"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-06.md",
+   "date": "1881-03-06",
+   "heading": "Dimanche 6 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0210"
+    },
+    {
+     "old": "091.0211"
+    },
+    {
+     "old": "091.0212"
+    },
+    {
+     "old": "091.0213"
+    },
+    {
+     "old": "091.0214"
+    },
+    {
+     "old": "091.0215"
+    },
+    {
+     "old": "091.0216"
+    },
+    {
+     "old": "091.0217"
+    },
+    {
+     "old": "091.0218"
+    },
+    {
+     "old": "091.0219"
+    },
+    {
+     "old": "091.0220"
+    },
+    {
+     "old": "091.0221"
+    },
+    {
+     "old": "091.0222"
+    },
+    {
+     "old": "091.0223"
+    },
+    {
+     "old": "091.0224"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-07.md",
+   "date": "1881-03-07",
+   "heading": "Lundi 7 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0225"
+    },
+    {
+     "old": "091.0226"
+    },
+    {
+     "old": "091.0227"
+    },
+    {
+     "old": "091.0228"
+    },
+    {
+     "old": "091.0229"
+    },
+    {
+     "old": "091.0230"
+    },
+    {
+     "old": "091.0231"
+    },
+    {
+     "old": "091.0232"
+    },
+    {
+     "old": "091.0233"
+    },
+    {
+     "old": "091.0234"
+    },
+    {
+     "old": "091.0235"
+    },
+    {
+     "old": "091.0236"
+    },
+    {
+     "old": "091.0237"
+    },
+    {
+     "old": "091.0238"
+    },
+    {
+     "old": "091.0239"
+    },
+    {
+     "old": "091.0240"
+    },
+    {
+     "old": "091.0241"
+    },
+    {
+     "old": "091.0242"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-08.md",
+   "date": "1881-03-08",
+   "heading": "Mardi 8 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0243"
+    },
+    {
+     "old": "091.0244"
+    },
+    {
+     "old": "091.0245"
+    },
+    {
+     "old": "091.0246"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-09.md",
+   "date": "1881-03-09",
+   "heading": "Mercredi 9 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0247"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-10.md",
+   "date": "1881-03-10",
+   "heading": "Jeudi 10 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0248"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-11.md",
+   "date": "1881-03-11",
+   "heading": "Vendredi 11 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0249"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-12.md",
+   "date": "1881-03-12",
+   "heading": "Samedi 12 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0250"
+    },
+    {
+     "old": "091.0251"
+    },
+    {
+     "old": "091.0252"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-13.md",
+   "date": "1881-03-13",
+   "heading": "Dimanche 13 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0253"
+    },
+    {
+     "old": "091.0254"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-14.md",
+   "date": "1881-03-14",
+   "heading": "Lundi 14 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0255"
+    },
+    {
+     "old": "091.0256"
+    },
+    {
+     "old": "091.0257"
+    },
+    {
+     "old": "091.0258"
+    },
+    {
+     "old": "091.0259"
+    },
+    {
+     "old": "091.0260"
+    },
+    {
+     "old": "091.0261"
+    },
+    {
+     "old": "091.0262"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-15.md",
+   "date": "1881-03-15",
+   "heading": "Mardi 15 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0263"
+    },
+    {
+     "old": "091.0264"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-16.md",
+   "date": "1881-03-16",
+   "heading": "Mercredi 16 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0265"
+    },
+    {
+     "old": "091.0266"
+    },
+    {
+     "old": "091.0267"
+    },
+    {
+     "old": "091.0268"
+    },
+    {
+     "old": "091.0269"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-17.md",
+   "date": "1881-03-17",
+   "heading": "Jeudi 17 mars 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶1300: the date line «Jeudi 1 7 mars 1 881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-03-18.md",
+   "date": "1881-03-18",
+   "heading": "Vendredi 18 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0270"
+    },
+    {
+     "old": "091.0271"
+    },
+    {
+     "old": "091.0272"
+    },
+    {
+     "old": "091.0273"
+    },
+    {
+     "old": "091.0274"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-19.md",
+   "date": "1881-03-19",
+   "heading": "Samedi 19 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0275"
+    },
+    {
+     "old": "091.0276"
+    },
+    {
+     "old": "091.0277"
+    },
+    {
+     "old": "091.0278"
+    },
+    {
+     "old": "091.0279"
+    },
+    {
+     "old": "091.0280"
+    },
+    {
+     "old": "091.0281"
+    },
+    {
+     "old": "091.0282"
+    },
+    {
+     "old": "091.0283"
+    },
+    {
+     "old": "091.0284"
+    },
+    {
+     "old": "091.0285"
+    },
+    {
+     "old": "091.0286"
+    },
+    {
+     "old": "091.0287"
+    },
+    {
+     "old": "091.0288"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-20.md",
+   "date": "1881-03-20",
+   "heading": "Dimanche 20 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0289"
+    },
+    {
+     "old": "091.0290"
+    },
+    {
+     "old": "091.0291"
+    },
+    {
+     "old": "091.0292"
+    },
+    {
+     "old": "091.0293"
+    },
+    {
+     "old": "091.0294"
+    },
+    {
+     "old": "091.0295"
+    },
+    {
+     "old": "091.0296"
+    },
+    {
+     "old": "091.0297"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-21.md",
+   "date": "1881-03-21",
+   "heading": "Lundi 21 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0298"
+    },
+    {
+     "old": "091.0299"
+    },
+    {
+     "old": "091.0300"
+    },
+    {
+     "old": "091.0301"
+    },
+    {
+     "old": "091.0302"
+    },
+    {
+     "old": "091.0303"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-22.md",
+   "date": "1881-03-22",
+   "heading": "Mardi 22 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0304"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-23.md",
+   "date": "1881-03-23",
+   "heading": "Mercredi 23 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0305"
+    },
+    {
+     "old": "091.0306"
+    },
+    {
+     "old": "091.0307"
+    },
+    {
+     "old": "091.0308"
+    },
+    {
+     "old": "091.0309"
+    },
+    {
+     "old": "091.0310"
+    },
+    {
+     "old": "091.0311"
+    },
+    {
+     "old": "091.0312"
+    },
+    {
+     "old": "091.0313"
+    },
+    {
+     "old": "091.0314"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-24.md",
+   "date": "1881-03-24",
+   "heading": "Jeudi 24 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0315"
+    },
+    {
+     "old": "091.0316"
+    },
+    {
+     "old": "091.0317"
+    },
+    {
+     "old": "091.0318"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-25.md",
+   "date": "1881-03-25",
+   "heading": "Vendredi 25 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0319"
+    },
+    {
+     "old": "091.0320"
+    },
+    {
+     "old": "091.0321"
+    },
+    {
+     "old": "091.0322"
+    },
+    {
+     "old": "091.0323"
+    },
+    {
+     "old": "091.0324"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-26.md",
+   "date": "1881-03-26",
+   "heading": "Samedi 26 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0325"
+    },
+    {
+     "old": "091.0326"
+    },
+    {
+     "old": "091.0327"
+    },
+    {
+     "old": "091.0328"
+    },
+    {
+     "old": "091.0329"
+    },
+    {
+     "old": "091.0330"
+    },
+    {
+     "old": "091.0331"
+    },
+    {
+     "old": "091.0332"
+    },
+    {
+     "old": "091.0333"
+    },
+    {
+     "old": "091.0334"
+    },
+    {
+     "old": "091.0335"
+    },
+    {
+     "old": "091.0336"
+    },
+    {
+     "old": "091.0337"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-27.md",
+   "date": "1881-03-27",
+   "heading": "Dimanche 27 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0338"
+    },
+    {
+     "old": "091.0339"
+    },
+    {
+     "old": "091.0340"
+    },
+    {
+     "old": "091.0341"
+    },
+    {
+     "old": "091.0342"
+    },
+    {
+     "old": "091.0343"
+    },
+    {
+     "old": "091.0344"
+    },
+    {
+     "old": "091.0345"
+    },
+    {
+     "old": "091.0346"
+    },
+    {
+     "old": "091.0347"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-28.md",
+   "date": "1881-03-28",
+   "heading": "Lundi 28 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0348"
+    },
+    {
+     "old": "091.0349"
+    },
+    {
+     "old": "091.0350"
+    },
+    {
+     "old": "091.0351"
+    },
+    {
+     "old": "091.0352"
+    },
+    {
+     "old": "091.0353"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-29.md",
+   "date": "1881-03-29",
+   "heading": "Mardi 29 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0354"
+    },
+    {
+     "old": "091.0355"
+    },
+    {
+     "old": "091.0356"
+    },
+    {
+     "old": "091.0357"
+    },
+    {
+     "old": "091.0358"
+    },
+    {
+     "old": "091.0359"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-30.md",
+   "date": "1881-03-30",
+   "heading": "Mercredi 30 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0360"
+    },
+    {
+     "old": "091.0361"
+    },
+    {
+     "old": "091.0362"
+    },
+    {
+     "old": "091.0363"
+    }
+   ]
+  },
+  {
+   "file": "1881-03-31.md",
+   "date": "1881-03-31",
+   "heading": "Jeudi 31 mars 1881",
+   "paragraphs": [
+    {
+     "old": "091.0364"
+    },
+    {
+     "old": "091.0365"
+    },
+    {
+     "old": "091.0366"
+    },
+    {
+     "old": "091.0367"
+    },
+    {
+     "old": "091.0368"
+    },
+    {
+     "old": "091.0369"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-01.md",
+   "date": "1881-04-01",
+   "heading": "Vendredi 1er avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0370"
+    },
+    {
+     "old": "091.0371"
+    },
+    {
+     "old": "091.0372"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-02.md",
+   "date": "1881-04-02",
+   "heading": "Samedi 2 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0373"
+    },
+    {
+     "old": "091.0374"
+    },
+    {
+     "old": "091.0375"
+    },
+    {
+     "old": "091.0376"
+    },
+    {
+     "old": "091.0377"
+    },
+    {
+     "old": "091.0378"
+    },
+    {
+     "old": "091.0379"
+    },
+    {
+     "old": "091.0380"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-03.md",
+   "date": "1881-04-03",
+   "heading": "Dimanche 3 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0381"
+    },
+    {
+     "old": "091.0382"
+    },
+    {
+     "old": "091.0383"
+    },
+    {
+     "old": "091.0384"
+    },
+    {
+     "old": "091.0385"
+    },
+    {
+     "old": "091.0386"
+    },
+    {
+     "old": "091.0387"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-04.md",
+   "date": "1881-04-04",
+   "heading": "Lundi 4 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0388"
+    },
+    {
+     "old": "091.0389"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-05.md",
+   "date": "1881-04-05",
+   "heading": "Mardi 5 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0390"
+    },
+    {
+     "old": "091.0391"
+    },
+    {
+     "old": "091.0392"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-06.md",
+   "date": "1881-04-06",
+   "heading": "Mercredi 6 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0393"
+    },
+    {
+     "old": "091.0394"
+    },
+    {
+     "old": "091.0395"
+    },
+    {
+     "old": "091.0396"
+    },
+    {
+     "old": "091.0397"
+    },
+    {
+     "old": "091.0398"
+    },
+    {
+     "old": "091.0399"
+    },
+    {
+     "old": "091.0400"
+    },
+    {
+     "old": "091.0401"
+    },
+    {
+     "old": "091.0402"
+    },
+    {
+     "old": "091.0403"
+    },
+    {
+     "old": "091.0404"
+    },
+    {
+     "old": "091.0405"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-07.md",
+   "date": "1881-04-07",
+   "heading": "Jeudi 7 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0406"
+    },
+    {
+     "old": "091.0407"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-08.md",
+   "date": "1881-04-08",
+   "heading": "Vendredi 8 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0408"
+    },
+    {
+     "old": "091.0409"
+    },
+    {
+     "old": "091.0410"
+    },
+    {
+     "old": "091.0411"
+    },
+    {
+     "old": "091.0412"
+    },
+    {
+     "old": "091.0413"
+    },
+    {
+     "old": "091.0414"
+    },
+    {
+     "old": "091.0415"
+    },
+    {
+     "old": "091.0416"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-09.md",
+   "date": "1881-04-09",
+   "heading": "Samedi 9 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0417"
+    },
+    {
+     "old": "091.0418"
+    },
+    {
+     "old": "091.0419"
+    },
+    {
+     "old": "091.0420"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-10.md",
+   "date": "1881-04-10",
+   "heading": "Dimanche 10 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0421"
+    },
+    {
+     "old": "091.0422"
+    },
+    {
+     "old": "091.0423"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-11.md",
+   "date": "1881-04-11",
+   "heading": "Lundi 11 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0424"
+    },
+    {
+     "old": "091.0425"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-12.md",
+   "date": "1881-04-12",
+   "heading": "Mardi 12 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0426"
+    },
+    {
+     "old": "091.0427"
+    },
+    {
+     "old": "091.0428"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-13.md",
+   "date": "1881-04-13",
+   "heading": "Mercredi 13 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0429"
+    },
+    {
+     "old": "091.0430"
+    },
+    {
+     "old": "091.0431"
+    },
+    {
+     "old": "091.0432"
+    },
+    {
+     "old": "091.0433"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-14.md",
+   "date": "1881-04-14",
+   "heading": "Jeudi 14 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0434",
+     "set_french": "# Jeudi 14 avril 1881"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-15.md",
+   "date": "1881-04-15",
+   "heading": "Vendredi 15 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0435"
+    },
+    {
+     "old": "091.0436"
+    },
+    {
+     "old": "091.0437"
+    },
+    {
+     "old": "091.0438"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-16.md",
+   "date": "1881-04-16",
+   "heading": "Samedi 16 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0439"
+    },
+    {
+     "old": "091.0440"
+    },
+    {
+     "old": "091.0441"
+    },
+    {
+     "old": "091.0442"
+    },
+    {
+     "old": "091.0443"
+    },
+    {
+     "new": {
+      "french": "rent !!",
+      "rsr": "Restored from tome14.docx ¶1522, Mon Journal t.14 p.116 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "091.0444"
+    },
+    {
+     "old": "091.0445"
+    },
+    {
+     "old": "091.0446"
+    },
+    {
+     "old": "091.0447"
+    },
+    {
+     "old": "091.0448"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-17.md",
+   "date": "1881-04-17",
+   "heading": "Dimanche 17 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0449"
+    },
+    {
+     "old": "091.0450"
+    },
+    {
+     "old": "091.0451"
+    },
+    {
+     "old": "091.0452"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-18.md",
+   "date": "1881-04-18",
+   "heading": "Lundi 18 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0453"
+    },
+    {
+     "old": "091.0454"
+    },
+    {
+     "old": "091.0455"
+    },
+    {
+     "old": "091.0456"
+    },
+    {
+     "old": "091.0457"
+    },
+    {
+     "old": "091.0458"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-19.md",
+   "date": "1881-04-19",
+   "heading": "Mardi 19 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0459"
+    },
+    {
+     "old": "091.0460"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-20.md",
+   "date": "1881-04-20",
+   "heading": "Mercredi 20 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0461"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-21.md",
+   "date": "1881-04-21",
+   "heading": "Jeudi 21 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0462"
+    },
+    {
+     "old": "091.0463"
+    },
+    {
+     "old": "091.0464"
+    },
+    {
+     "old": "091.0465"
+    },
+    {
+     "old": "091.0466"
+    },
+    {
+     "old": "091.0467"
+    },
+    {
+     "old": "091.0468"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-22.md",
+   "date": "1881-04-22",
+   "heading": "Vendredi 22 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0469"
+    },
+    {
+     "old": "091.0470"
+    },
+    {
+     "old": "091.0471"
+    },
+    {
+     "old": "091.0472"
+    },
+    {
+     "old": "091.0473"
+    },
+    {
+     "old": "091.0474"
+    },
+    {
+     "old": "091.0475"
+    },
+    {
+     "old": "091.0476"
+    },
+    {
+     "old": "091.0477"
+    },
+    {
+     "old": "091.0478"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-23.md",
+   "date": "1881-04-23",
+   "heading": "Samedi 23 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0479"
+    },
+    {
+     "old": "091.0480"
+    },
+    {
+     "old": "091.0481"
+    },
+    {
+     "old": "091.0482"
+    },
+    {
+     "old": "091.0483"
+    },
+    {
+     "old": "091.0484"
+    },
+    {
+     "old": "091.0485"
+    },
+    {
+     "old": "091.0486"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-24.md",
+   "date": "1881-04-24",
+   "heading": "Dimanche 24 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0487"
+    },
+    {
+     "old": "091.0488"
+    },
+    {
+     "old": "091.0489"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-25.md",
+   "date": "1881-04-25",
+   "heading": "Lundi 25 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0490"
+    },
+    {
+     "old": "091.0491"
+    },
+    {
+     "old": "091.0492"
+    },
+    {
+     "old": "091.0493"
+    },
+    {
+     "old": "091.0494"
+    },
+    {
+     "old": "091.0495"
+    },
+    {
+     "old": "091.0496"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-26.md",
+   "date": "1881-04-26",
+   "heading": "Mardi 26 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0497"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-27.md",
+   "date": "1881-04-27",
+   "heading": "Mercredi 27 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0498"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-28.md",
+   "date": "1881-04-28",
+   "heading": "Jeudi 28 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0499"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-29.md",
+   "date": "1881-04-29",
+   "heading": "Vendredi 29 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0500"
+    },
+    {
+     "old": "091.0501"
+    },
+    {
+     "old": "091.0502"
+    },
+    {
+     "old": "091.0503"
+    },
+    {
+     "old": "091.0504"
+    }
+   ]
+  },
+  {
+   "file": "1881-04-30.md",
+   "date": "1881-04-30",
+   "heading": "Samedi 30 avril 1881",
+   "paragraphs": [
+    {
+     "old": "091.0505"
+    },
+    {
+     "old": "091.0506"
+    },
+    {
+     "old": "091.0507"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-01.md",
+   "date": "1881-05-01",
+   "heading": "Dimanche 1er mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0508"
+    },
+    {
+     "old": "091.0509"
+    },
+    {
+     "old": "091.0510"
+    },
+    {
+     "old": "091.0511"
+    },
+    {
+     "old": "091.0512"
+    },
+    {
+     "old": "091.0513"
+    },
+    {
+     "old": "091.0514"
+    },
+    {
+     "old": "091.0515"
+    },
+    {
+     "old": "091.0516"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-02.md",
+   "date": "1881-05-02",
+   "heading": "Lundi 2 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0517"
+    },
+    {
+     "old": "091.0518"
+    },
+    {
+     "old": "091.0519"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-03.md",
+   "date": "1881-05-03",
+   "heading": "Mardi 3 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0520"
+    },
+    {
+     "old": "091.0521"
+    },
+    {
+     "old": "091.0522"
+    },
+    {
+     "old": "091.0523"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-04.md",
+   "date": "1881-05-04",
+   "heading": "Mercredi 4 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0524"
+    },
+    {
+     "old": "091.0525"
+    },
+    {
+     "old": "091.0526"
+    },
+    {
+     "old": "091.0527"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-05.md",
+   "date": "1881-05-05",
+   "heading": "Jeudi 5 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0528"
+    },
+    {
+     "old": "091.0529"
+    },
+    {
+     "old": "091.0530"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-06.md",
+   "date": "1881-05-06",
+   "heading": "Vendredi 6 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0531"
+    },
+    {
+     "old": "091.0532"
+    },
+    {
+     "old": "091.0533"
+    },
+    {
+     "old": "091.0534"
+    },
+    {
+     "old": "091.0535"
+    },
+    {
+     "old": "091.0536"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-07.md",
+   "date": "1881-05-07",
+   "heading": "Samedi 7 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0537"
+    },
+    {
+     "old": "091.0538"
+    },
+    {
+     "old": "091.0539"
+    },
+    {
+     "old": "091.0540"
+    },
+    {
+     "old": "091.0541"
+    },
+    {
+     "old": "091.0542"
+    },
+    {
+     "old": "091.0543"
+    },
+    {
+     "old": "091.0544"
+    },
+    {
+     "old": "091.0545"
+    },
+    {
+     "old": "091.0546"
+    },
+    {
+     "old": "091.0547"
+    },
+    {
+     "old": "091.0548"
+    },
+    {
+     "old": "091.0549"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-08.md",
+   "date": "1881-05-08",
+   "heading": "Dimanche 8 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0550"
+    },
+    {
+     "old": "091.0551"
+    },
+    {
+     "old": "091.0552"
+    },
+    {
+     "old": "091.0553"
+    },
+    {
+     "old": "091.0554"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-09.md",
+   "date": "1881-05-09",
+   "heading": "Lundi 9 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0555"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-10.md",
+   "date": "1881-05-10",
+   "heading": "Mardi 10 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0556"
+    },
+    {
+     "old": "091.0557"
+    },
+    {
+     "old": "091.0558"
+    },
+    {
+     "old": "091.0559"
+    },
+    {
+     "old": "091.0560"
+    },
+    {
+     "old": "091.0561"
+    },
+    {
+     "old": "091.0562"
+    },
+    {
+     "old": "091.0563"
+    },
+    {
+     "old": "091.0564"
+    },
+    {
+     "old": "091.0565"
+    },
+    {
+     "old": "091.0566"
+    },
+    {
+     "old": "091.0567"
+    },
+    {
+     "old": "091.0568"
+    },
+    {
+     "old": "091.0569"
+    },
+    {
+     "old": "091.0570"
+    },
+    {
+     "old": "091.0571"
+    },
+    {
+     "old": "091.0572"
+    },
+    {
+     "old": "091.0573"
+    },
+    {
+     "old": "091.0574"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-11.md",
+   "date": "1881-05-11",
+   "heading": "Mercredi 11 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0575"
+    },
+    {
+     "old": "091.0576"
+    },
+    {
+     "old": "091.0577"
+    },
+    {
+     "old": "091.0578"
+    },
+    {
+     "old": "091.0579"
+    },
+    {
+     "old": "091.0580"
+    },
+    {
+     "old": "091.0581"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-12.md",
+   "date": "1881-05-12",
+   "heading": "Jeudi 12 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0582"
+    },
+    {
+     "old": "091.0583"
+    },
+    {
+     "old": "091.0584"
+    },
+    {
+     "old": "091.0585"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-13.md",
+   "date": "1881-05-13",
+   "heading": "Vendredi 13 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0586"
+    }
+   ]
+  },
+  {
+   "file": "1881-05-14.md",
+   "date": "1881-05-14",
+   "heading": "Samedi 14 mai 1881",
+   "paragraphs": [
+    {
+     "old": "091.0587"
+    },
+    {
+     "old": "091.0588"
+    },
+    {
+     "old": "091.0589"
+    },
+    {
+     "old": "091.0590"
+    },
+    {
+     "old": "091.0591"
+    },
+    {
+     "old": "091.0592"
+    },
+    {
+     "old": "091.0593"
+    },
+    {
+     "old": "091.0594"
+    },
+    {
+     "old": "091.0595"
+    },
+    {
+     "old": "091.0596"
+    },
+    {
+     "old": "091.0597"
+    },
+    {
+     "old": "091.0598"
+    },
+    {
+     "old": "091.0599"
+    },
+    {
+     "old": "091.0600"
+    },
+    {
+     "old": "091.0601"
+    },
+    {
+     "old": "091.0602"
+    }
+   ]
+  }
+ ]
+}

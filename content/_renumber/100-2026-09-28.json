@@ -1,0 +1,3154 @@
+{
+  "carnet": "100",
+  "date": "2026-09-28",
+  "plan_path": "../rebuild-state/plan-tome1415/final2/plan-100.json",
+  "plan_source": "tome15.docx",
+  "run_carnets": [
+    "095",
+    "096",
+    "097",
+    "098",
+    "099",
+    "100"
+  ],
+  "id_map": {
+    "100.0001": "100.0001",
+    "100.0002": "100.0002",
+    "100.0003": "100.0003",
+    "100.0004": "100.0004",
+    "100.0005": "100.0005",
+    "100.0006": "100.0008",
+    "100.0007": "100.0009",
+    "100.0008": "100.0016",
+    "100.0009": "100.0017",
+    "100.0010": "100.0043",
+    "100.0011": "100.0053",
+    "100.0012": "100.0054",
+    "100.0013": "100.0089",
+    "100.0014": "100.0090",
+    "100.0015": "100.0091",
+    "100.0016": "100.0092",
+    "100.0017": "100.0093",
+    "100.0018": "100.0094",
+    "100.0019": "100.0096",
+    "100.0020": "100.0097",
+    "100.0021": "100.0098",
+    "100.0022": "100.0099",
+    "100.0023": "100.0100",
+    "100.0024": "100.0101",
+    "100.0025": "100.0102",
+    "100.0026": "100.0103",
+    "100.0027": "100.0104",
+    "100.0028": "100.0105",
+    "100.0029": "100.0106",
+    "100.0030": "100.0107",
+    "100.0031": "100.0108",
+    "100.0032": "100.0109",
+    "100.0033": "100.0110",
+    "100.0034": "100.0111",
+    "100.0035": "100.0112",
+    "100.0036": "100.0113",
+    "100.0037": "100.0114",
+    "100.0038": "100.0115",
+    "100.0039": "100.0116",
+    "100.0040": "100.0117",
+    "100.0041": "100.0118",
+    "100.0042": "100.0119",
+    "100.0043": "100.0120",
+    "100.0044": "100.0121",
+    "100.0045": "100.0122",
+    "100.0046": "100.0123",
+    "100.0047": "100.0124",
+    "100.0048": "100.0125",
+    "100.0049": "100.0126",
+    "100.0050": "100.0127",
+    "100.0051": "100.0128",
+    "100.0052": "100.0129",
+    "100.0053": "100.0130",
+    "100.0054": "100.0131",
+    "100.0055": "100.0132",
+    "100.0056": "100.0134",
+    "100.0057": "100.0135",
+    "100.0058": "100.0136",
+    "100.0059": "100.0137",
+    "100.0060": "100.0138",
+    "100.0061": "100.0139",
+    "100.0062": "100.0140",
+    "100.0063": "100.0141",
+    "100.0064": "100.0142",
+    "100.0065": "100.0143",
+    "100.0066": "100.0144",
+    "100.0067": "100.0145",
+    "100.0068": "100.0146",
+    "100.0069": "100.0147",
+    "100.0070": "100.0148",
+    "100.0071": "100.0149",
+    "100.0072": "100.0150",
+    "100.0073": "100.0151",
+    "100.0074": "100.0152",
+    "100.0075": "100.0153",
+    "100.0076": "100.0154",
+    "100.0077": "100.0155",
+    "100.0078": "100.0156",
+    "100.0079": "100.0157",
+    "100.0080": "100.0158",
+    "100.0081": "100.0159",
+    "100.0082": "100.0160",
+    "100.0083": "100.0161",
+    "100.0084": "100.0162",
+    "100.0085": "100.0175",
+    "100.0086": "100.0176",
+    "100.0087": "100.0177",
+    "100.0088": "100.0178",
+    "100.0089": "100.0179",
+    "100.0090": "100.0182",
+    "100.0091": "100.0185",
+    "100.0092": "100.0192",
+    "100.0093": "100.0193",
+    "100.0094": "100.0194",
+    "100.0095": "100.0195",
+    "100.0096": "100.0210",
+    "100.0097": "100.0221",
+    "100.0098": "100.0222",
+    "100.0099": "100.0225",
+    "100.0100": "100.0226",
+    "100.0101": "100.0227",
+    "100.0102": "100.0228",
+    "100.0103": "100.0232",
+    "100.0104": "100.0235",
+    "100.0105": "100.0236",
+    "100.0106": "100.0237",
+    "100.0107": "100.0238",
+    "100.0108": "100.0239",
+    "100.0109": "100.0240",
+    "100.0110": "100.0245",
+    "100.0111": "100.0246",
+    "100.0113": "100.0247",
+    "100.0114": "100.0248",
+    "100.0115": "100.0249",
+    "100.0117": "100.0250",
+    "100.0118": "100.0251",
+    "100.0119": "100.0252",
+    "100.0120": "100.0253",
+    "100.0121": "100.0254",
+    "100.0122": "100.0255",
+    "100.0123": "100.0256",
+    "100.0124": "100.0257",
+    "100.0125": "100.0258",
+    "100.0126": "100.0259",
+    "100.0127": "100.0260",
+    "100.0128": "100.0261",
+    "100.0129": "100.0262",
+    "100.0130": "100.0263",
+    "100.0131": "100.0264",
+    "100.0133": "100.0265",
+    "100.0134": "100.0266",
+    "100.0135": "100.0267",
+    "100.0136": "100.0268",
+    "100.0137": "100.0269",
+    "100.0138": "100.0270",
+    "100.0139": "100.0271",
+    "100.0140": "100.0272",
+    "100.0141": "100.0273",
+    "100.0142": "100.0274",
+    "100.0143": "100.0275",
+    "100.0144": "100.0276",
+    "100.0145": "100.0277",
+    "100.0146": "100.0278",
+    "100.0147": "100.0279",
+    "100.0148": "100.0280",
+    "100.0149": "100.0281",
+    "100.0150": "100.0282",
+    "100.0151": "100.0283",
+    "100.0152": "100.0284",
+    "100.0153": "100.0285",
+    "100.0154": "100.0286",
+    "100.0155": "100.0287",
+    "100.0156": "100.0288",
+    "100.0157": "100.0289",
+    "100.0158": "100.0290",
+    "100.0159": "100.0291",
+    "100.0160": "100.0292",
+    "100.0161": "100.0293",
+    "100.0162": "100.0294",
+    "100.0163": "100.0295",
+    "100.0164": "100.0296",
+    "100.0165": "100.0297",
+    "100.0166": "100.0298",
+    "100.0167": "100.0299",
+    "100.0168": "100.0300",
+    "100.0169": "100.0301",
+    "100.0170": "100.0302",
+    "100.0171": "100.0303",
+    "100.0172": "100.0304",
+    "100.0173": "100.0305",
+    "100.0174": "100.0306",
+    "100.0175": "100.0307",
+    "100.0176": "100.0308",
+    "100.0179": "100.0310",
+    "100.0180": "100.0311",
+    "100.0181": "100.0312",
+    "100.0182": "100.0313",
+    "100.0183": "100.0314",
+    "100.0184": "100.0315",
+    "100.0185": "100.0316",
+    "100.0186": "100.0317",
+    "100.0187": "100.0318",
+    "100.0188": "100.0319",
+    "100.0189": "100.0320",
+    "100.0190": "100.0321",
+    "100.0191": "100.0322",
+    "100.0192": "100.0323",
+    "100.0193": "100.0324",
+    "100.0194": "100.0325",
+    "100.0195": "100.0326",
+    "100.0196": "100.0327",
+    "100.0197": "100.0328",
+    "100.0198": "100.0329",
+    "100.0199": "100.0330",
+    "100.0200": "100.0331",
+    "100.0201": "100.0332",
+    "100.0202": "100.0333",
+    "100.0203": "100.0334",
+    "100.0204": "100.0335",
+    "100.0205": "100.0336",
+    "100.0206": "100.0337",
+    "100.0207": "100.0309"
+  },
+  "changed_ids": 197,
+  "new_paragraphs": [
+    {
+      "id": "100.0006",
+      "file": "1883-06-01.md"
+    },
+    {
+      "id": "100.0007",
+      "file": "1883-06-01.md"
+    },
+    {
+      "id": "100.0010",
+      "file": "1883-06-03.md"
+    },
+    {
+      "id": "100.0011",
+      "file": "1883-06-03.md"
+    },
+    {
+      "id": "100.0012",
+      "file": "1883-06-03.md"
+    },
+    {
+      "id": "100.0013",
+      "file": "1883-06-04.md"
+    },
+    {
+      "id": "100.0014",
+      "file": "1883-06-04.md"
+    },
+    {
+      "id": "100.0015",
+      "file": "1883-06-04.md"
+    },
+    {
+      "id": "100.0018",
+      "file": "1883-06-07.md"
+    },
+    {
+      "id": "100.0019",
+      "file": "1883-06-07.md"
+    },
+    {
+      "id": "100.0020",
+      "file": "1883-06-07.md"
+    },
+    {
+      "id": "100.0021",
+      "file": "1883-06-07.md"
+    },
+    {
+      "id": "100.0022",
+      "file": "1883-06-07.md"
+    },
+    {
+      "id": "100.0023",
+      "file": "1883-06-07.md"
+    },
+    {
+      "id": "100.0024",
+      "file": "1883-06-08.md"
+    },
+    {
+      "id": "100.0025",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0026",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0027",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0028",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0029",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0030",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0031",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0032",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0033",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0034",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0035",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0036",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0037",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0038",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0039",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0040",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0041",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0042",
+      "file": "1883-06-09.md"
+    },
+    {
+      "id": "100.0044",
+      "file": "1883-06-11.md"
+    },
+    {
+      "id": "100.0045",
+      "file": "1883-06-11.md"
+    },
+    {
+      "id": "100.0046",
+      "file": "1883-06-11.md"
+    },
+    {
+      "id": "100.0047",
+      "file": "1883-06-11.md"
+    },
+    {
+      "id": "100.0048",
+      "file": "1883-06-11.md"
+    },
+    {
+      "id": "100.0049",
+      "file": "1883-06-11.md"
+    },
+    {
+      "id": "100.0050",
+      "file": "1883-06-11.md"
+    },
+    {
+      "id": "100.0051",
+      "file": "1883-06-12.md"
+    },
+    {
+      "id": "100.0052",
+      "file": "1883-06-12.md"
+    },
+    {
+      "id": "100.0055",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0056",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0057",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0058",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0059",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0060",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0061",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0062",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0063",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0064",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0065",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0066",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0067",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0068",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0069",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0070",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0071",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0072",
+      "file": "1883-06-13.md"
+    },
+    {
+      "id": "100.0073",
+      "file": "1883-06-14.md"
+    },
+    {
+      "id": "100.0074",
+      "file": "1883-06-15.md"
+    },
+    {
+      "id": "100.0075",
+      "file": "1883-06-15.md"
+    },
+    {
+      "id": "100.0076",
+      "file": "1883-06-15.md"
+    },
+    {
+      "id": "100.0077",
+      "file": "1883-06-15.md"
+    },
+    {
+      "id": "100.0078",
+      "file": "1883-06-15.md"
+    },
+    {
+      "id": "100.0079",
+      "file": "1883-06-15.md"
+    },
+    {
+      "id": "100.0080",
+      "file": "1883-06-15.md"
+    },
+    {
+      "id": "100.0081",
+      "file": "1883-06-16.md"
+    },
+    {
+      "id": "100.0082",
+      "file": "1883-06-16.md"
+    },
+    {
+      "id": "100.0083",
+      "file": "1883-06-16.md"
+    },
+    {
+      "id": "100.0084",
+      "file": "1883-06-16.md"
+    },
+    {
+      "id": "100.0085",
+      "file": "1883-06-16.md"
+    },
+    {
+      "id": "100.0086",
+      "file": "1883-06-16.md"
+    },
+    {
+      "id": "100.0087",
+      "file": "1883-06-16.md"
+    },
+    {
+      "id": "100.0088",
+      "file": "1883-06-16.md"
+    },
+    {
+      "id": "100.0095",
+      "file": "1883-06-19.md"
+    },
+    {
+      "id": "100.0133",
+      "file": "1883-06-26.md"
+    },
+    {
+      "id": "100.0163",
+      "file": "1883-07-02.md"
+    },
+    {
+      "id": "100.0164",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0165",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0166",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0167",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0168",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0169",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0170",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0171",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0172",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0173",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0174",
+      "file": "1883-07-03.md"
+    },
+    {
+      "id": "100.0180",
+      "file": "1883-07-09.md"
+    },
+    {
+      "id": "100.0181",
+      "file": "1883-07-09.md"
+    },
+    {
+      "id": "100.0183",
+      "file": "1883-07-10.md"
+    },
+    {
+      "id": "100.0184",
+      "file": "1883-07-10.md"
+    },
+    {
+      "id": "100.0186",
+      "file": "1883-07-12.md"
+    },
+    {
+      "id": "100.0187",
+      "file": "1883-07-12.md"
+    },
+    {
+      "id": "100.0188",
+      "file": "1883-07-12.md"
+    },
+    {
+      "id": "100.0189",
+      "file": "1883-07-12.md"
+    },
+    {
+      "id": "100.0190",
+      "file": "1883-07-12.md"
+    },
+    {
+      "id": "100.0191",
+      "file": "1883-07-12.md"
+    },
+    {
+      "id": "100.0196",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0197",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0198",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0199",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0200",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0201",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0202",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0203",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0204",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0205",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0206",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0207",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0208",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0209",
+      "file": "1883-07-16.md"
+    },
+    {
+      "id": "100.0211",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0212",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0213",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0214",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0215",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0216",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0217",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0218",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0219",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0220",
+      "file": "1883-07-17.md"
+    },
+    {
+      "id": "100.0223",
+      "file": "1883-07-19.md"
+    },
+    {
+      "id": "100.0224",
+      "file": "1883-07-19.md"
+    },
+    {
+      "id": "100.0229",
+      "file": "1883-07-23.md"
+    },
+    {
+      "id": "100.0230",
+      "file": "1883-07-23.md"
+    },
+    {
+      "id": "100.0231",
+      "file": "1883-07-23.md"
+    },
+    {
+      "id": "100.0233",
+      "file": "1883-07-24.md"
+    },
+    {
+      "id": "100.0234",
+      "file": "1883-07-24.md"
+    },
+    {
+      "id": "100.0241",
+      "file": "1883-07-30.md"
+    },
+    {
+      "id": "100.0242",
+      "file": "1883-07-30.md"
+    },
+    {
+      "id": "100.0243",
+      "file": "1883-07-30.md"
+    },
+    {
+      "id": "100.0244",
+      "file": "1883-07-30.md"
+    }
+  ],
+  "dropped": [
+    {
+      "id": "100.0112",
+      "reason": "plain-text duplicate of the date line «Jeudi 2 août 1883», left at the end of the 1 August file (extraction artefact); the 1883-08-02 entry gets the heading",
+      "rewritten_as": "100.DROPPED-0112"
+    },
+    {
+      "id": "100.0116",
+      "reason": "pointer stub «[Le texte de cette date figure dans l'entrée du 1er août…]»: the day's own paragraphs 100.0113–0115 now move into the 1883-08-02 entry, which gets the heading (tome15.docx ¶4060)",
+      "rewritten_as": "100.DROPPED-0116"
+    },
+    {
+      "id": "100.0132",
+      "reason": "plain-text duplicate of the date line «Samedi 4 août 1883» at the end of 3 August; 100.0133 carries that day (extraction artefact)",
+      "rewritten_as": "100.DROPPED-0132"
+    },
+    {
+      "id": "100.0177",
+      "reason": "plain-text duplicate of the date line «Lundi 6 août 1883» at the end of 5 August; 100.0207 carries that day (extraction artefact)",
+      "rewritten_as": "100.DROPPED-0177"
+    },
+    {
+      "id": "100.0178",
+      "reason": "plain-text duplicate of the date line «Mardi 7 août 1883» at the end of 5 August; the 1883-08-07 entry gets the heading (extraction artefact)",
+      "rewritten_as": "100.DROPPED-0178"
+    },
+    {
+      "id": "100.0208",
+      "reason": "pointer stub «[Le texte de cette date figure dans l'entrée du 5 août…]»: the day's own paragraphs 100.0179–0206 now move into the 1883-08-07 entry, which gets the heading (tome15.docx ¶4133)",
+      "rewritten_as": "100.DROPPED-0208"
+    },
+    {
+      "id": "100.0209",
+      "reason": "accent-stripped duplicate of 099.0091 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md",
+      "rewritten_as": "100.DROPPED-0209"
+    },
+    {
+      "id": "100.0210",
+      "reason": "accent-stripped duplicate of 099.0092 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md",
+      "rewritten_as": "100.DROPPED-0210"
+    },
+    {
+      "id": "100.0211",
+      "reason": "accent-stripped duplicate of 099.0093 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md",
+      "rewritten_as": "100.DROPPED-0211"
+    },
+    {
+      "id": "100.0212",
+      "reason": "accent-stripped duplicate of 099.0094 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md",
+      "rewritten_as": "100.DROPPED-0212"
+    },
+    {
+      "id": "100.0213",
+      "reason": "accent-stripped duplicate of 099.0094 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md",
+      "rewritten_as": "100.DROPPED-0213"
+    },
+    {
+      "id": "100.0214",
+      "reason": "accent-stripped duplicate of 099.0095 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md",
+      "rewritten_as": "100.DROPPED-0214"
+    },
+    {
+      "id": "100.0215",
+      "reason": "accent-stripped duplicate of 099.0096 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md",
+      "rewritten_as": "100.DROPPED-0215"
+    },
+    {
+      "id": "100.0216",
+      "reason": "accent-stripped duplicate of 099.0097 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md",
+      "rewritten_as": "100.DROPPED-0216"
+    },
+    {
+      "id": "100.0217",
+      "reason": "accent-stripped duplicate of 099.0097 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md",
+      "rewritten_as": "100.DROPPED-0217"
+    }
+  ],
+  "file_map": {},
+  "files_removed": [
+    "1883-08-08.md"
+  ],
+  "files_added": [
+    "1883-05-28.md",
+    "1883-06-03.md",
+    "1883-06-07.md",
+    "1883-06-08.md",
+    "1883-06-09.md",
+    "1883-06-11.md",
+    "1883-06-12.md",
+    "1883-06-14.md",
+    "1883-06-15.md",
+    "1883-06-16.md",
+    "1883-06-18.md",
+    "1883-06-19.md",
+    "1883-06-21.md",
+    "1883-06-23.md",
+    "1883-06-25.md",
+    "1883-06-26.md",
+    "1883-06-28.md",
+    "1883-07-02.md",
+    "1883-07-03.md",
+    "1883-07-09.md",
+    "1883-07-12.md"
+  ],
+  "last_id": "100.0337",
+  "flag_resets": {
+    "cz": [
+      "1883-05-27.md",
+      "1883-05-28.md",
+      "1883-06-01.md",
+      "1883-06-03.md",
+      "1883-06-04.md",
+      "1883-06-06.md",
+      "1883-06-07.md",
+      "1883-06-08.md",
+      "1883-06-09.md",
+      "1883-06-10.md",
+      "1883-06-11.md",
+      "1883-06-12.md",
+      "1883-06-13.md",
+      "1883-06-14.md",
+      "1883-06-15.md",
+      "1883-06-16.md",
+      "1883-06-17.md",
+      "1883-06-18.md",
+      "1883-06-19.md",
+      "1883-06-20.md",
+      "1883-06-21.md",
+      "1883-06-22.md",
+      "1883-06-23.md",
+      "1883-06-24.md",
+      "1883-06-25.md",
+      "1883-06-26.md",
+      "1883-06-27.md",
+      "1883-06-28.md",
+      "1883-06-29.md",
+      "1883-07-01.md",
+      "1883-07-02.md",
+      "1883-07-03.md",
+      "1883-07-04.md",
+      "1883-07-08.md",
+      "1883-07-09.md",
+      "1883-07-10.md",
+      "1883-07-11.md",
+      "1883-07-12.md",
+      "1883-07-15.md",
+      "1883-07-16.md",
+      "1883-07-17.md",
+      "1883-07-18.md",
+      "1883-07-19.md",
+      "1883-07-22.md",
+      "1883-07-23.md",
+      "1883-07-24.md",
+      "1883-07-29.md",
+      "1883-07-30.md",
+      "1883-08-01.md",
+      "1883-08-02.md",
+      "1883-08-03.md",
+      "1883-08-05.md",
+      "1883-08-07.md"
+    ],
+    "uk": [
+      "1883-05-27.md",
+      "1883-05-28.md",
+      "1883-06-01.md",
+      "1883-06-03.md",
+      "1883-06-04.md",
+      "1883-06-06.md",
+      "1883-06-07.md",
+      "1883-06-08.md",
+      "1883-06-09.md",
+      "1883-06-10.md",
+      "1883-06-11.md",
+      "1883-06-12.md",
+      "1883-06-13.md",
+      "1883-06-14.md",
+      "1883-06-15.md",
+      "1883-06-16.md",
+      "1883-06-17.md",
+      "1883-06-18.md",
+      "1883-06-19.md",
+      "1883-06-20.md",
+      "1883-06-21.md",
+      "1883-06-22.md",
+      "1883-06-23.md",
+      "1883-06-24.md",
+      "1883-06-25.md",
+      "1883-06-26.md",
+      "1883-06-27.md",
+      "1883-06-28.md",
+      "1883-06-29.md",
+      "1883-07-01.md",
+      "1883-07-02.md",
+      "1883-07-03.md",
+      "1883-07-04.md",
+      "1883-07-08.md",
+      "1883-07-09.md",
+      "1883-07-10.md",
+      "1883-07-11.md",
+      "1883-07-12.md",
+      "1883-07-15.md",
+      "1883-07-16.md",
+      "1883-07-17.md",
+      "1883-07-18.md",
+      "1883-07-19.md",
+      "1883-07-22.md",
+      "1883-07-23.md",
+      "1883-07-24.md",
+      "1883-07-29.md",
+      "1883-07-30.md",
+      "1883-08-01.md",
+      "1883-08-02.md",
+      "1883-08-03.md",
+      "1883-08-05.md",
+      "1883-08-07.md"
+    ],
+    "en": [
+      "1883-05-27.md",
+      "1883-05-28.md",
+      "1883-06-01.md",
+      "1883-06-03.md",
+      "1883-06-04.md",
+      "1883-06-06.md",
+      "1883-06-07.md",
+      "1883-06-08.md",
+      "1883-06-09.md",
+      "1883-06-10.md",
+      "1883-06-11.md",
+      "1883-06-12.md",
+      "1883-06-13.md",
+      "1883-06-14.md",
+      "1883-06-15.md",
+      "1883-06-16.md",
+      "1883-06-17.md",
+      "1883-06-18.md",
+      "1883-06-19.md",
+      "1883-06-20.md",
+      "1883-06-21.md",
+      "1883-06-22.md",
+      "1883-06-23.md",
+      "1883-06-24.md",
+      "1883-06-25.md",
+      "1883-06-26.md",
+      "1883-06-27.md",
+      "1883-06-28.md",
+      "1883-06-29.md",
+      "1883-07-01.md",
+      "1883-07-02.md",
+      "1883-07-03.md",
+      "1883-07-04.md",
+      "1883-07-08.md",
+      "1883-07-09.md",
+      "1883-07-10.md",
+      "1883-07-11.md",
+      "1883-07-12.md",
+      "1883-07-15.md",
+      "1883-07-16.md",
+      "1883-07-17.md",
+      "1883-07-18.md",
+      "1883-07-19.md",
+      "1883-07-22.md",
+      "1883-07-23.md",
+      "1883-07-24.md",
+      "1883-07-29.md",
+      "1883-07-30.md",
+      "1883-08-01.md",
+      "1883-08-02.md",
+      "1883-08-03.md",
+      "1883-08-05.md",
+      "1883-08-07.md"
+    ],
+    "fr": [
+      "1883-05-27.md",
+      "1883-05-28.md",
+      "1883-06-01.md",
+      "1883-06-03.md",
+      "1883-06-04.md",
+      "1883-06-06.md",
+      "1883-06-07.md",
+      "1883-06-08.md",
+      "1883-06-09.md",
+      "1883-06-10.md",
+      "1883-06-11.md",
+      "1883-06-12.md",
+      "1883-06-13.md",
+      "1883-06-14.md",
+      "1883-06-15.md",
+      "1883-06-16.md",
+      "1883-06-17.md",
+      "1883-06-18.md",
+      "1883-06-19.md",
+      "1883-06-20.md",
+      "1883-06-21.md",
+      "1883-06-22.md",
+      "1883-06-23.md",
+      "1883-06-24.md",
+      "1883-06-25.md",
+      "1883-06-26.md",
+      "1883-06-27.md",
+      "1883-06-28.md",
+      "1883-06-29.md",
+      "1883-07-01.md",
+      "1883-07-02.md",
+      "1883-07-03.md",
+      "1883-07-04.md",
+      "1883-07-08.md",
+      "1883-07-09.md",
+      "1883-07-10.md",
+      "1883-07-11.md",
+      "1883-07-12.md",
+      "1883-07-15.md",
+      "1883-07-16.md",
+      "1883-07-17.md",
+      "1883-07-18.md",
+      "1883-07-19.md",
+      "1883-07-22.md",
+      "1883-07-23.md",
+      "1883-07-24.md",
+      "1883-07-29.md",
+      "1883-07-30.md",
+      "1883-08-01.md",
+      "1883-08-02.md",
+      "1883-08-03.md",
+      "1883-08-05.md",
+      "1883-08-07.md"
+    ]
+  },
+  "plan": {
+    "carnet": "100",
+    "source": "tome15.docx",
+    "drop": [
+      {
+        "id": "100.0112",
+        "reason": "plain-text duplicate of the date line «Jeudi 2 août 1883», left at the end of the 1 August file (extraction artefact); the 1883-08-02 entry gets the heading"
+      },
+      {
+        "id": "100.0116",
+        "reason": "pointer stub «[Le texte de cette date figure dans l'entrée du 1er août…]»: the day's own paragraphs 100.0113–0115 now move into the 1883-08-02 entry, which gets the heading (tome15.docx ¶4060)"
+      },
+      {
+        "id": "100.0132",
+        "reason": "plain-text duplicate of the date line «Samedi 4 août 1883» at the end of 3 August; 100.0133 carries that day (extraction artefact)"
+      },
+      {
+        "id": "100.0177",
+        "reason": "plain-text duplicate of the date line «Lundi 6 août 1883» at the end of 5 August; 100.0207 carries that day (extraction artefact)"
+      },
+      {
+        "id": "100.0178",
+        "reason": "plain-text duplicate of the date line «Mardi 7 août 1883» at the end of 5 August; the 1883-08-07 entry gets the heading (extraction artefact)"
+      },
+      {
+        "id": "100.0208",
+        "reason": "pointer stub «[Le texte de cette date figure dans l'entrée du 5 août…]»: the day's own paragraphs 100.0179–0206 now move into the 1883-08-07 entry, which gets the heading (tome15.docx ¶4133)"
+      },
+      {
+        "id": "100.0209",
+        "reason": "accent-stripped duplicate of 099.0091 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md"
+      },
+      {
+        "id": "100.0210",
+        "reason": "accent-stripped duplicate of 099.0092 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md"
+      },
+      {
+        "id": "100.0211",
+        "reason": "accent-stripped duplicate of 099.0093 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md"
+      },
+      {
+        "id": "100.0212",
+        "reason": "accent-stripped duplicate of 099.0094 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md"
+      },
+      {
+        "id": "100.0213",
+        "reason": "accent-stripped duplicate of 099.0094 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md"
+      },
+      {
+        "id": "100.0214",
+        "reason": "accent-stripped duplicate of 099.0095 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md"
+      },
+      {
+        "id": "100.0215",
+        "reason": "accent-stripped duplicate of 099.0096 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md"
+      },
+      {
+        "id": "100.0216",
+        "reason": "accent-stripped duplicate of 099.0097 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md"
+      },
+      {
+        "id": "100.0217",
+        "reason": "accent-stripped duplicate of 099.0097 (Sunday 8 April 1883, tome15.docx ¶2667–2673, Livre 99; the edition misprints the date line «Dimanche 8 août 1883»): the text is kept once, in 099/1883-04-08.md"
+      }
+    ],
+    "drop_files": [
+      {
+        "file": "1883-06-01.md",
+        "reason": "ID-less heading stub; the 1883-06-01 entry is rebuilt with the day's restored text (tome15.docx ¶3479–3481)"
+      },
+      {
+        "file": "1883-06-04.md",
+        "reason": "ID-less heading stub; the 1883-06-04 entry is rebuilt with the day's restored text (tome15.docx ¶3503–3506)"
+      }
+    ],
+    "entries": [
+      {
+        "file": "1883-05-27.md",
+        "date": "1883-05-27",
+        "heading": "Dimanche 27 mai 1883",
+        "paragraphs": [
+          {
+            "old": "100.0001"
+          }
+        ]
+      },
+      {
+        "file": "1883-05-28.md",
+        "date": "1883-05-28",
+        "heading": "Lundi 28 mai 1883",
+        "paragraphs": [
+          {
+            "old": "100.0002",
+            "set_french": "# Lundi 28 mai 1883\nNous rentrons au moment ou Saint Marceaux sonne a notre porte.\n- Vous etes bien attrape, vous pensiez ne trouver personne.\nAh! je suis contente!\nVous pensez bien que c'est la mention qui fait les frais, je me ressers de tout ce que j'ai dit et ecrit depuis ce fatal evenement et le presente a ce grand homme comme une brillante improvisation.\nLe grand homme est tout a fait charmant. Ce n'est pas le sournois de Damvillers. C'est un homme du monde et d'esprit. Il n'a dit que des choses remarquables, ce n'est ni Bouguereau ni Manet, ni meme le faux naif de Damvillers.\nJe le nomme faux naif et Saint Marceaux approuve, du reste il l'a traite de photographe a la troisieme personne.\nL'ecole moderne est dans une mauvaise voie, Bastien aussi. Nous en convenons. Pourtant Bastien parle des arts comme j'en pense, mais la sentimentalite le perdra.\nL'illustre sculpteur aime mieux l'Amour au village que Jeanne d'Arc; il ne me semble pas tres porte vers ces choses... Enfin en voyant mes Saintes femmes il a demande ce qu'elles regardent la... Hum...\n[Rayé: Le sculpteur, marchande sculpture. Les peintres photographes.]\nIl fait des exceptions, il aime les grandes machines de Puvis de Chavannes et puis des tableaux au Salon dont il ne sait pas meme le nom mais qui lui plaisent parce qu'ils lui plaisent. C'est comme ca que je comprends l'art moi.\nQuant a venir dire que voila un tableau \"tres bien\", qu'il y a la \"des qualites\"... etc.\nQu'est-ce que ca signifie?\nC'est Tony qui dit: il y a la des qualites. Vieil ennuque va!!\nOn a donne une premiere medaille, la seule, a une machine d'un M. Machin qui a peint Francesca et Paolo, aux enfers.\nEt Saint Marceaux dit que chaque fois qu'il va au Salon il va se mettre devant ca, en se disant: \"Ah! voila le tableau qui a eu une premiere medaille, bien, c'est ca, oui, eh bien la prochaine fois je me promets de l'examiner avec soin\". Et ca recommence toujours.\nCe que c'est vrai comme impression!\nIl est reste tres longtemps, j'ai ete fort agitee, ai renverse les cigarettes, dit des choses spirituelles et droles et demain a dix heures du matin je vais chez le grand homme."
+          }
+        ]
+      },
+      {
+        "file": "1883-05-29.md",
+        "date": "1883-05-29",
+        "heading": "Mardi 29 mai 1883",
+        "paragraphs": [
+          {
+            "old": "100.0003"
+          }
+        ]
+      },
+      {
+        "file": "1883-05-30.md",
+        "date": "1883-05-30",
+        "heading": "Mercredi 30 mai 1883",
+        "paragraphs": [
+          {
+            "old": "100.0004"
+          }
+        ]
+      },
+      {
+        "file": "1883-05-31.md",
+        "date": "1883-05-31",
+        "heading": "Jeudi 31 mai 1883",
+        "paragraphs": [
+          {
+            "old": "100.0005"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-01.md",
+        "date": "1883-06-01",
+        "heading": "Vendredi 1er juin 1883",
+        "frontmatter_from": "1883-06-01.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Les gosses qui posent m’exaspèrent à la folie ! J’ai l’autorisation des parents de taper dessus et aujourd’hui j’en ai empoigné un et je l’ai flanqué par terre comme un paquet, absolument enragée. Or la mère passe et me fait une scène et veut emmener l’enfant, il a fallu une demi-heure pour arranger tout ça. Vraiment je m’expose à des choses détestables. Cette aimable famille avait l’air de croire que j’assomme son enfant. C’est déplorable. Je les ai retenus de force, le père voulait emmener le sale garçon, enfin tout s’arrange.",
+              "rsr": "Restored from tome15.docx ¶3480, Mon Journal t.15 p.273 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et puis ?... Et puis rien.",
+              "rsr": "Restored from tome15.docx ¶3481, Mon Journal t.15 p.273 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-02.md",
+        "date": "1883-06-02",
+        "heading": "Samedi 2 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0006"
+          },
+          {
+            "old": "100.0007"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-03.md",
+        "date": "1883-06-03",
+        "heading": "Dimanche 3 juin 1883 - Grand Prix",
+        "frontmatter_from": "1883-06-02.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Ma tante, Dina, Mme Gavini et moi.",
+              "rsr": "Restored from tome15.docx ¶3497, Mon Journal t.15 p.274 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Nous n’allons qu’au retour de courses. J’ai voulu être très bien et je le suis. Je me néglige trop souvent, voilà plus d’un an que je porte presque toujours un chapeau pareil et qui me va mal et n’importe quelle robe. C’est que je ne sors que pour affaires et alors j’ai le tort de penser que cela m’est égal. Dorénavant je veux être toujours bien arrangée, ça n’empêche pas d’avoir du talent... Donc je me mets en blanc écru, un chapeau de paille blanche avec des ailes et une plume blanches. Un chapeau assez petit mais très seyant. La robe est garnie de broderies très délicates, le gilet est tout brodé et le corsage se noue devant comme une espèce de Figaro. L’aspect est très pimpant et en même temps sobre. Si on s’habille avec extravagance on ne peut pas savoir l’effet qu’on produit, car alors c’est la robe qu’on regarde. Suis-je folle ou sage de me caserner au lieu de me promener partout... Eh ! j’ai déjà répondu, je n’ai pas le choix !...",
+              "rsr": "Restored from tome15.docx ¶3498, Mon Journal t.15 p.274 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je serais si jolie si je sortais beaucoup et ne pensais qu’à cela. Sans être régulièrement belle je suis gracieuse et éclatante... Quand je suis de bonne humeur... Et il me semble que si comme les autres femmes je ne pensais qu’à plaire, j’y arriverai... Mais je n’y pense pas du tout, sauf une fois par hasard et alors c’est forcé et ne va plus.",
+              "rsr": "Restored from tome15.docx ¶3499–3502, Mon Journal t.15 pp.274–275 (missing from original extraction, 2026-09-28 rebuild). printed «réuglièrement» (Mon Journal t.15 p.274) corrected to «régulièrement», a typesetting typo."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-04.md",
+        "date": "1883-06-04",
+        "heading": "Lundi 4 juin 1883",
+        "frontmatter_from": "1883-06-04.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Voici la lettre à Alice.",
+              "rsr": "Restored from tome15.docx ¶3504, Mon Journal t.15 p.275 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’en parle en abrégé à Claire qui vient demander un renseignement, ils partent demain matin. Je lui ai demandé si Alice n’a rien dit de notre froid, elle a paraît-il dit seulement que je suis toquée de Bastien et que je lui en ai voulu parce qu’elle n’a pas voulu dîner avec le susdit Bastien chez nous. Donc voici la lettre, [lettre manque]",
+              "rsr": "Restored from tome15.docx ¶3505, Mon Journal t.15 p.275 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il fait une chaleur !",
+              "rsr": "Restored from tome15.docx ¶3506, Mon Journal t.15 p.275 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-05.md",
+        "date": "1883-06-05",
+        "heading": "Mardi 5 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0008"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-06.md",
+        "date": "1883-06-06",
+        "heading": "Mercredi 6 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0009",
+            "set_french": "# Mercredi 6 juin 1883\nMa famille ne veut pas comprendre que ni Etincelle, ni le \"Sport\", ni Saint Amand, ni personne ne peuvent continuer à chanter mes louanges; je ne sors pas, et puis on se moque d'eux parler toujours de quelqu'un qui n'est pas posé. S'il s'agissait de me lancer comme cabotine, ce serait autre chose, mais comme demoiselle du monde c'est impossible d'être à la mode sans être au moins assez répandu dans les salons.\nEt ma famille qui ne comprend pas cela est furieuse parce que Mlle Martinoff est citée partout.\nC'est une grande belle fille à visage irrégulier et pas joli mais qui fait beaucoup d'effet avec un peu de fard. Elle va partout.\nMoi, je n'ai jamais été à un vrai bal, sauf celui des Fitz-James et sans me préparer, en robe de soirée et fatiguée et de mauvaise humeur. Je ne compte pas les bals du Continental et deux bals officiels où l'on ne fait que paraître et se promener, surtout à ceux du Continental. Ça me fait bêtement douter de la possibilité d'avoir du succès dans le monde. Pourtant aux très rares soirées dansantes... Une chez les Kanchine, je crois même que c'est la seule soirée dansante où j'ai été. Le bal costumé des Foleyeff ou je suis allée comme on va à une noce de village.\nUn bal costumé il y a deux ou trois ans chez les Pascalis, du sale monde. Un chez M. de Dalmas aussi costumé, mais il n'y avait là que des femmes mariées assez lancées et des vieilles impérialistes, et j'y ai fait très bonne figure. Et puis voilà tout. Ça a l'air d'une charge, mais voilà toutes mes sorties dansantes. Mon Dieu par goût je ne serais peut-être pas allée danser plus souvent que ça... Mais dire que même si j'en étais folle je n'en aurais pas davatange ça c'est enrageant.\nLes gens du vrai monde et cette duchesse Martinoff, pensent sans doute qu'élégante comme je suis, je danse tous les soirs dans des bals [Rayé: où plutôt eux] ne vont pas; je ne veux pas dire qu'on me soupçonne d'aller à des soirées inconvenantes; mais il y a tant de réceptions assez honorables sans être du vrai monde. Voilà, on me croit très lancée... à côté. C'est charmant.\nIl y a ce matin une cérémonie [Rayé : assez assomante.]. Nous avons depuis près d'un an un nègre nommé Louis et âgé d'une quinzaine d'années, très intelligent, qui me rappelle l'ancien Chocolat-Fortuné Saïd. Donc ce nègre était à la veille de faire sa première communion, le curé a des doutes sur l'authenticité de son baptême et pour ne pas administrer un païen, il prend la précaution de le rebaptiser. Ça a paru très drôle à toute la maison ce païen et je veux être sa marraine... tout ça ne se sait que d'hier, j'écris hier soir à Saint Amand et à Bojidar.\nA onze heures personne et tout attend à l'église, le pauvre enfant est très inquiet car je crois qu'il a pris tout ça au sérieux, et je l'approuve, ça moralise les peuples, sans religion il n'y aurait pas moyen de circuler... Il y aura peut-être moyen mais dans bien longtemps, lorsque tout le monde sera très instruit, en attendant les prêtres sont un fléau nécessaire et bienfaisant.\nJe l'ai compris à l'attitude de ce petit garçon. Donc à onze heures et demie personne, j'envoie une lettre à Saint Marceaux comme le plus voisin, avec des explications rapides que j'écris sérieusement et qui produisent un effet si comique que je me tords toute seule.\nMarraine, nègre, subitement heureusement on ne le trouve pas et il n'a pas vu la lettre. Alors courrier à l'architecte, moyen violent: si vous voulez faire la paix avec moi, arrivez tout de suite. Lui non plus n'est pas chez lui... Alors on finit par le plus simpe, M. le curé nous donne un employé de l'église qui représente M. Bashkirseff, je le fais pompeusement inscrire, maréchal de la noblsse et conseiller d'Etat actuel (il vient d'être nommé).\nIl y a justement un mariage riche qui passe et tous ces idiots nous regardent dans la petite chapelle. Je le baptise Louis-Jules-René-Marie.\nEt ce monstre qui nous entend plaisanter à table, rit en entendant ces noms.\nJe suis sa mère spirituelle, un nègre de quinze ans. C'est amusant, je le moraliserai.\nDonc, je m'installe à peindre lorsque l'architecte arrive. Je le croyais furieux et désolé de ma dernière lettre, il n'a pas l'air, se dit très occupé et paraît très content. Moi ça me vexe. Je lui dis que je le méprise, voilà de la dignité, je dis encore des phrases élégantes comme celle par exemple: je n'ai que des embêtements et des misères; le monde est ignoble, les membres du jury sont de sales animaux; de dégoûtants crétins !! Toute la conversation est dans ce style exquis.\nEn surplus je ne suis pas contente d'avoir envoyé chercher ce subalterne qui n'a même pas l'air de m'être soumis, on dirait d'un individu ravi de s'être affranchi. Je me mets dans mon tort vis à vis des plus humbles.\nTémoin la petite Américaine, et puis cette idée d'avoir l'autre soir au bal parlé à ce vil architecte des débordements de son frère. C'est inqualifiable... J'ai cru comprendre aujourd'hui qu'il avait envie de donner à entendre que lui aussi pourrait bien ne pas être sans péché. C'est grotesque et c'est ma faute. Je ne serai donc jamais raisonnable !!!!!!!!!!\nC'est excédant à la fin ! Comment ! Après tout ce que je me dis depuis des années j'en suis encore à ne pas savoir ce que je dis devant du monde !! C'est désespérant. C'est une exubérance et une expansion tolérables à douze ans mais insupportable plus tard !\nIl faut toujours que je raconte tout et le reste avec et ce que je fais et surtout ce que je voudrais faire et des enfantillages qui chez une grande fille sont des insanités.\nJe ne pourrais être ainsi que devant des Balzac qui seraient fous de moi, mais devant n'importe qui ! Ah ! je suis un beau machiavel et un joli stratégiste.\nAllez, on a raison de tout dire, je fais mon possible pour qu'on le croit. Sale bête va.\nIl a vu mon tableau le faux Bastien et il le trouve beaucoup mieux que celui du Salon. Je suis mécontente de l'attitude de ce subalterne, je vous dis qu'il a l'air émancipé. Oh ! très respectueux, bien entendu, ça va de soi, seulement il a l'air très content et ça me vexe comme si ça devait me vexer.\nEn somme quelque répugnance que j'aie à parler de ces choses à propos d'un simple frère d'homme de talent, je vous dirai que je m'étais habituée à compter sur cette affection et maintenant qu'elle semble me manquer c'est presque une déception. Il est même peut-être plus humiliant d'être détrôné à Monaco qu'à Paris, qu'en dites-vous ? Mais là n'est pas la question. La princesse Massalsky, l'ambassade, mais vous vous rendrez peut-être compte de l'état de mon esprit... Mais non, c'est impossible.\nD'abord je suis terrassée par les oreilles, (voilà une belle image). Vous comprendrez mes souffrances quand je vous dirai que les jours ou j'entends bien sont comme des évènements heureux. Saisissez-vous l'horreur d'une telle préoccupation !\nEt des nerfs surexcités à un point absolument extraordinaire. Mon travail en souffre, je peins tout en étant dévorée d'appréhensions chimériques. Je m'imagine des quantités d'horreurs, l'imagination court, court, court, je subis toutes les infamies, j'invente des opprobres craignant les voir arriver. En entrant dans l'église il m'a semblé que l'on me regardait comme une infâme, quelqu'un viendrait et me frapperait que je ne serais pas étonnée.\nJe crois toujours qu'on me prend partout pour une cocotte... et c'est depuis le fameux article du \"Figaro\" il y a six ans. Je crois que j'en ai été frappée comme d'une maladie... Oui ce doit être une sorte de point de folie. Je reste à peindre et je pense à ce qu'on peut bien dire de moi et j'invente de telles horreurs qu'il m'arrive de me lever en sursaut et d'aller à l'autre bout du jardin comme une folle en poussant des exclamations indignées.\nAh ! ça doit produire de la belle peinture. Il faudrait prendre des douches. Et ce soir je vais écrire à maman pour qu'elle songe à l'ambassade ou j'en deviendrai folle, c'est commencé."
+          }
+        ]
+      },
+      {
+        "file": "1883-06-07.md",
+        "date": "1883-06-07",
+        "heading": "Jeudi 7 juin 1883",
+        "frontmatter_from": "1883-06-06.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Louis-Jules-René-Marie a fait sa première communion ce matin. Nous avons été à l’église, et Bojidar désolé d’avoir reçu la lettre trop tard se dévoue toute la journée, il se croît parrain quand même, encore un peu et il se croira père. Cérémonies, représentations, deuils etc. etc. Tout ça fait son bonheur. Et ce soir il mène Boule de neige au cirque. Du reste nous le faisons dîner avec nous pour qu’il se souvienne bien de ce jour mémorable. Ce pauvre enfant est fou de joie et il s’est tenu avec tant de réserve pendant le dîner et un sentiment si juste que j’en suis touchée.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3544–3547, Mon Journal t.15 pp.278–279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je n’avais jamais vu cette cérémonie de l’église et toutes ses petites filles blanches prosternées, ce blanc si pur, ces attitudes uniformes et enfantines... C’est d’un effet ravissant avec les lueurs des cierges au fond. Il faudrait touver un tableau tout blanc à faire avec des cierges. Pas de communiantes, Bastien en a fait une déjà...",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3548, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Saint Amand vient ce soir et est assommant.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3549, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ma tante a vu une quantité de voitures à la porte de l’architecte.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3550, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il a dit qu’il ne peut venir que dans quinze jours, qu’il est occupé à quelque chose de très important, qu’il ne sort pas du tout, du tout ! ...",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3551, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Qu’il dira ce que c’est dans quinze jours. Et on suppose que c’est le monument Gambetta... Que ce soit n’importe quoi, il n’y a en somme que Jules. Du reste je veux moi-même devenir Jules, je veux que ce tableau que je fais soit bien, bien, bien bien.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3552, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-08.md",
+        "date": "1883-06-08",
+        "heading": "Vendredi 8 juin 1883",
+        "frontmatter_from": "1883-06-06.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "[Aucun texte - date seule mentionnée]",
+              "rsr": "tome15.docx ¶3553: the date line «Vendredi 8 juin 1 883» has no text under it (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-09.md",
+        "date": "1883-06-09",
+        "heading": "Samedi 9 juin 1883",
+        "frontmatter_from": "1883-06-06.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Cassagnac a passé hier devant la maison le long du jardin, avec sa femme, il avait passé pareillement avant-hier, ma tante et Dina qui n’ont rien à faire l’ont vu avant-hier et me l’ont montré hier, j’ai vu son profil à travers la fente de la porte.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3555, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et ça ne me fait rien.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3556, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et aujourd’hui j’ai eu la visite de Mme Bertaux, présidente de l’association des femmes peintres et sculpteurs. Vous vous rappelez qu’au mois de mars j’ai été chez cette dame avec maman pour lui demander d’exposer à l’exposition des femmes... pensant que Breslau en était.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3557, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Elle a répondu alors qu’il était trop tard, il ne restait que cinq jours et nous ne l’avons plus revue.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3558, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et maintenant elle vient très aimable et reste une heure et me comble de compliments, elle n’a pas pensé, elle ne pouvait pas supposer que je puisse avoir tant de talent *déjà,* mon Salon l’enchante, c’est un grand succès etc. etc. etc.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3559, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin les talents sont si rares, les femmes ont tant besoin de s’unir pour défendre leurs intérêts, un nom de femme de talent est un apport si considérable qu’elle vient me prier de permettre d’inscrire le mien parmi ses sociétaires.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3560, Mon Journal t.15 p.279 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin c’est une amende honorable complète et j’accorde l’autorisation.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3561–3564, Mon Journal t.15 pp.279–280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il faudrait et *il faut* que *tous* reviennent comme cela.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3565, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ma tante, Dina, Bojidar, Engelhardt au cirque.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3566, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Si Cassagnac avait été seul je l’aurais arrosé avec la pompe du jardin... C’est ça qui aurait été drôle. Il ne me dit plus rien, ni personne.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3567, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ça m’ennuie, il faut toujours avoir un être à qui on puisse penser avec plaisir, plus ou moins... Quelquefois des gens à peine entrevus,... Saint Marceaux, mais il ne me dit rien... Et Jules-Jules, je sens de l’inimitié et puis Mme Massalsky, Mme Mackay, tous ces infâmes potins... Et puis Jules... au fait, oui, on peut y penser... y penser seulement, et encore...",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3568, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Si... Non... Faute de mieux...",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3569, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je me suis bien imaginée que son frère, le faux Bastien, faisait un héritage de quarante milions et venait les mettre à mes pieds. Cela m’a servi à m’endormir un soir. Tous les soirs je m’invente des histoires, quelquefois les histoires durent plusieurs soirs. Et maintenant plus rien depuis que le vrai Jules m’attriste car il m’attriste, on lui dit des horreurs et son frère aussi.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3570, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Des atrocités, des infamies. Je serais la fille ou la mère d'assassins... Mais c’est à se tuer !!",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3571, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah ! c’est aussi par trop ridicule, et pourtant, ça se dit !",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3572, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah ! misère ! Et Dieu laisse dire !",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3573, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’ai rêvé que mes cheveux avaient pris feu et étaient en flammes. Et Rosalie les a éteint et il m’en restait encore jusqu’au milieu du dos.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3574, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ça doit être bon le feu sur la tête.",
+              "rsr": "Moved out of 100.0009, which ran several manuscript days together: this day's text from tome15.docx ¶3575, Mon Journal t.15 p.280 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-10.md",
+        "date": "1883-06-10",
+        "heading": "Dimanche 10 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0010",
+            "set_french": "# Dimanche 10 juin 1883\nComme le dimanche on ne risque de rencontrer personne je vais au Salon le matin.\nIl y a vraiment des récompenses abominablement injustes. Le tableau de Bastien me fait de plus en plus de la peine. Qui vais-je admirer Bon Dieu ?\nJe voudrais revoir sa Jeanne d'Arc...\nIl y a toujours foule devant le jeune tableau du jeune Rochegrosse. C'est très puissant, c'est incontestable mais ça me laisse froide. Mais qu'est-ce qui ne me laisse pas froide ?\nIl faut pour être émue que je me batte les flancs, et alors à force de travail j'arrive à une grande exaltation... factice... Pourtant Jeanne d'Arc...\nOui c'est vrai, et puis ? Et quelques autres choses aussi. Au Louvre ? Des portraits, car les grandes machines anciennes... Mais les portraits, et puis de délicieuses choses de l'Ecole française. Et à la dernière Exposition des portraits du siècle, ceux de Lawrence et deux ou trois de Bastien, son frère, Theuriet, Sarah.\nEt puis... Et puis qui vous dit que je sois artiste peintre... Poussée dans une autre voie j'y serais arrivée au même point à force d'intelligence et de volonté, sauf les mathématiques. Mais la musique me passionne et je composerais facilement. Alors pourquoi la peinture ? Et quoi à la place ? C'est misérable, de pareilles pensées.\nJe veux faire un grand tableau, grand de dimensions...\nEt je cherche un sujet...\nJ'en ai un antique... Ulysse racontant ses aventurs au roi des Phaeciens Alcinous, Alcinous et la reine Arête sont sur leurs trônes, entourés des princes, des jeunes gens et de leur maison, cela se passe dans une galerie à colonnes de marbre rose, Nausicaa appuyée à une de ces colonnes un peu en arrière de ses parents écoute le héros. L'attaque de festin et le chant du poète Demodonis qui est tout au fond et regarde dehors avec son luth appuyé sur le genou indifférent comme un chanteur qu'on n'écoute plus. Dans tout cela il y a les attitudes, les groupes, la compostion enfin.\nCe n'est pas ça qui m'embarrasse et ça sera bien, mais l'exécuter. Voilà le terrible...\nJe ne sais rien, rien, rien. Meubles, costumes accéssoires et puis pour fabriquer une grande machine comme cela il faut des recherches... Et il faut savoir ce que Tony appelle les qualités ou le... Quoi ?\nEnfin... Tiens ça paraît si difficile que ça ne doit pas l'être tant que cela...\nUne femme avec un pareil tableau ferait un tapage énorme. Mais j'ai tant de projets que ma vie y passera. Le grand tableau serait pour 1885 !! Où serons-nous ?"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-11.md",
+        "date": "1883-06-11",
+        "heading": "Lundi 11 juin 1883",
+        "frontmatter_from": "1883-06-10.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Mon père est mort.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3592, Mon Journal t.15 p.281 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "On a reçu la dépêche ce matin à dix heures. C’est-à-dire à l’instant, ces folles en bas disaient qu’il fallait que maman revînt à la minute sans attendre l’enterrement. Et je suis montée ici très émue mais ne pleurant pas seulement lorsque Rosalie est venue me montrer l’arrangement d’une robe je lui ait dit “ce n’est pas la peine, monsieur est mort”.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3593, Mon Journal t.15 p.281 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et [je] me mis à pleurer, irrésistiblement.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3594, Mon Journal t.15 p.281 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ai-je des torts envers lui ? Je ne crois pas. J’ai toujours tâché d’être convenable... Mais dans un moment pareil on se croit toujours coupable de quelque chose... Il fallait partir avec maman... mais nos relations n’étaient pas assez tendres pour que mon départ eut raison d’être... Qu’importe il fallait faire plus que ce qui était juste. Mais [Rayé il était innocent, je] ne pourrais pas rester là... il m’avait froissée de mille manières et il faut que tout soit fini pour que j’oublie entièrement.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3595–3598, Mon Journal t.15 pp.281–282 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’attendais avec une sorte d’impatience un dénouement, sans le désirer, mais cette idée d’un évènement, d’être en grand deuil..., il y avait là une occupation, une nouveauté...",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3599, Mon Journal t.15 p.282 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dois-je me reprocher ces pensées ? Je fais surtout mal en les écrivant, il passe tant de choses par le tête que si on les écrivait...",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3600, Mon Journal t.15 p.282 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il n’avait que cinquante ans, tant souffrir !.. Et n’avoir en somme fait de mal à personne: très aimé chez lui, parfaitement honorable, probe, ennemi de tout tripotage et très bon garçon.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3601, Mon Journal t.15 p.282 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-12.md",
+        "date": "1883-06-12",
+        "heading": "Mardi 12 juin 1883",
+        "frontmatter_from": "1883-06-10.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "J’ai peint un peu... ce n’est peut-être pas très correct, mais je n’ai rien fait hier.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3603, Mon Journal t.15 p.282 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Bojidar vient mettre les adresses aux lettres de faire-part, et nous manquons de recueillement, les noms des gens appellent des commentaires... Si l’évènement avait eu lieu ici, j’aurais été très impressionnée mais à distance et puis on s’y attendait. Saint Amand vient pleurer.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3604, Mon Journal t.15 p.282 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-13.md",
+        "date": "1883-06-13",
+        "heading": "Mercredi 13 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0011"
+          },
+          {
+            "old": "100.0012",
+            "set_french": "Il arrive des cartes en quantité. Mme Gavini a envoyé une dépêche d’Agen, Odette est venue, et M. Eschmann un russe, et le père Géry qui arrive avec une tête de l’autre monde, en larmes... j’avais de la peine à être en harmonie...",
+            "_note": "pointer stub filled: tome15.docx ¶3606"
+          },
+          {
+            "new": {
+              "french": "Il aurait fallu pleurer... Et je n’ai pas pleuré même pendant l’office à l’église qui a eu lieu à cinq heures. Personne n’a été invité et il n’y avait que Saint Amand, Bojidar, les Englehardt et Tchernitsky. Si j’avais été vraiment affligée je ne le raconterais pas, car il y a là une pudeur qu’il me semblerait blesser; c’est égal, je suis trop calme... J’ai eu modèle ce matin, Edwige qui pose chez Suchetet et Suchetet apprenant hier qu’elle poserait chez moi ce matin m’envoie ses plus sincères compliments sur mon Salon.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3607, Mon Journal t.15 p.282 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il se promenait avec Saint Marceaux qui lui a fait voir mes tableaux dont il est très content. Je n’ai jamais vu ce Suchetet, seulement nous avons souvent le même modèle par l’entremise duquel je lui ai demandé quelques renseignements sur les ébauchoirs, selles, etc.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3608–3611, Mon Journal t.15 pp.282–283 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Cela m’est excessivement agréable, n’est-ce pas que c’est agréable ?",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3612, Mon Journal t.15 p.283 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Entre autres cartes on reçoit celle de Jules Bastien-Lepage, une des premières et une lettre de l’architecte qui dit: “ chère Mlle, si je ne craignais pas d’être opportun etc. etc. qui frappe d’une façon si violente toute votre sympathique famille que j’ai le plaisir de connaître... “ ensuite il me prie de croire à la sincérié etc., à son respect et à son admiration. Il ne faudrait peut-être pas se moquer de la forme lorsque le fond vient du cœur, mais c’est égal c’est une lettre presque de portière. Est-ce que le grand frère n’écrit pas mieux... je voudrais lui extor-quer une lettre.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3613, Mon Journal t.15 p.283 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce qui me préoccupe c’est que je suis trop froide, ça va faire faire des commentaires...",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3614, Mon Journal t.15 p.283 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "S’il pouvait, lui, mon père, me voir préoccupée de mon deuil et des cartes et lettres de condoléances, il aurait eu un de ses airs moqueurs et méprisants, comme pour dire: *voilà tout ?* C’est sa faute ! Sa nature m’était très sympathique, bien plus que celle de maman, et il s’est plu à se rendre... indifférent et souvent détesté en ne faisant que me froisser et me parler d’un air que je ne souffrirais de personne.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3615, Mon Journal t.15 p.283 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il y mettait de l’amour-propre. Ah ! vous êtes à plat ventre devant elle, eh bien vous allez voir !! Ici à Paris, il a été de la dernière violence, il a presque menacé de me battre un jour, mon air lui avait paru insolent et il s’est écrié: “tu verras ce que je te ferai, tu verras tu t’en souviendras toute ta vie”. Maman l’a emmené craignant qu’il me jette quelque chose à la tête. Et qu’est-ce que j’avais fait pour cela ? Rien que de lui avoir dit: je vous prie de ne pas crier contre moi, je n’ai pas l’habitude qu’on me parle ainsi ! Cet air calme que j’avais l’exaspérait. Quand je pense à présent à ce ton abominable qu’il prenait pour avoir le dessus de “mes bravades” le sang me monte à la tête.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3616, Mon Journal t.15 p.283 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et pourtant j’ai essayé d’être gentille mais il avait toujours peur d’être sous ma “domination”.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3617, Mon Journal t.15 p.283 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’aurais pu l’aimer beaucoup, beaucoup, mais ça et cette histoire sur maman... Enfin, je vous dis les choses comme elles sont.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3618, Mon Journal t.15 p.283 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il a vécu de son côté en régnant sur son entourage et moi du mien en régnant sur le mien, puis nous avons été réunis et il mettait une sorte d’enfantillage à prouver son indépendance. Très souvent il prenait la mouche et s’imaginait que je voulais “commander” lorsque j’étais à mille lieues d’y songer. Enfin il faut mettre son irritabilité sur le compte de la maladie...",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3619–3622, Mon Journal t.15 pp.283–284 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin... Dans un moment comme celui-ci, devant la mort, devant cette fin de tout ! je me demande si j’ai eu des torts ? Et je ne le crois pas... Il m’a traitée comme je ne sais quoi, j’en ai pleuré et j’ai même eu l’idée de partir, m’en aller, pour bien montrer que...",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3623, Mon Journal t.15 p.284 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je me représente maman, si j’avais le malheur de la perdre eh bien j’aurais mille reproches et mille remords car j’ai été très grossière et très violente... Pour le bon motif et par instinct de conservation je sais bien, mais c’est égal, je me reprocherai tous ces excès de paroles...",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3624, Mon Journal t.15 p.284 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Du reste maman... Il y aurait là un chagrin immense, rien que d’y penser me fait pleurer, j’ai beau lui reconnaître des défauts, nous ne sympathiserions pas si nous n’étions pas parentes, j’ai beau me dire... Mais chez elle tout cela est inconséquence, légèreté et manque de savoir; c’est une enfant et une enfant dans ces conditions est un être haïssable, je sais bien; je lui aimerais mieux des amants et qu’elle sache vivre comme les autres...",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3625, Mon Journal t.15 p.284 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Elle est vertueuse mais elle ne comprend rien et n’a pas confiance en moi..., et croit toujours que tout va s’arranger qu’il vaut mieux “ne pas fair d’histoires”.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3626, Mon Journal t.15 p.284 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je crois que la mort qui me ferait le plus de peine ce serait encore celle de ma tante qui s’est dévouée toute sa vie à tout le monde et qui n’a jamais, pas une seule minute vécu pour elle, sauf les heures passées à la roulette de Bade ou de Monaco.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3627, Mon Journal t.15 p.284 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il n’y a que maman qui soit gentille avec elle, moi, je ne l’ai pas embrassée depuis un an et ne lui dis que des choses indifférentes ou des reproches sur un tas de bêtises. Ce n’est pas par méchanceté, mais c’est que j’ai été moi aussi très malheureuse et que je le suis encore et que toutes ces discussions sur nos affaires avec maman et ma tante m’ont habituée à un ton bref, dur, cassant. Si je me mettais à dire des choses tendres ou seulement douces je pleurerais comme une bête.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3628, Mon Journal t.15 p.284 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin sans être tendre, je pourrais être plus aimable, sourire et causer quelquefois, ça la rendrait si heureuse et ne me coûterait rien mais ce serait un tel changement dans mes manières... que je n’ose pas par une sorte de fausse honte. Et pourtant cette pauvre femme dont l’histoire s’écrit en un mot: Dévouement, m’attendrit et je voudrais être gentille... Et si elle venait à mourir en voilà une qui me laisserait des remords ! Tenez grand-papa, il m’impatientait quelquefois par des manies de vieillard, mais il faut respecter la vieillesse, il m’est arrivée de lui répondre de travers et lorsqu’il a été paralysé j’en ai eu tant de remords que je venais très souvent rester près de lui pour effacer, atténuer, expier. Et puis grand-papa m’aimait beaucoup et voilà qu’en pensant à lui je pleure.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3629–3632, Mon Journal t.15 pp.284–285 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais mon père... Au bout de vingt ans de séparation il a voulu me conquérir par des grossièretés ou des brusqueries !...",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3633, Mon Journal t.15 p.285 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-14.md",
+        "date": "1883-06-14",
+        "heading": "Jeudi 14 juin 1883",
+        "frontmatter_from": "1883-06-10.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "[Aucun texte - date seule mentionnée]",
+              "rsr": "tome15.docx ¶3634: the date line «Jeudi 1 4 juin 1 883» has no text under it (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-15.md",
+        "date": "1883-06-15",
+        "heading": "Vendredi 15 juin 1883",
+        "frontmatter_from": "1883-06-10.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Les Canrobert m’écrivent une lettre charmante, du reste tout le monde est très sympathique et je ne suis pas en harmonie avec toutes ces condoléances.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3636, Mon Journal t.15 p.285 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce matin espérant ne rencontrer personne le matin, je me risque à la Salle Petit; exposition de cent chef-d’œuvres au profit de quelque chose. Decamps, Delacroix, Fortuny, Rembrandt, Rousseau, Millet, Meissonnier, le seul vivant, et d’autres.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3637, Mon Journal t.15 p.285 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et d’abord je fais mes excuses à Meissonnier que je connaissais mal, et qui n’avait que des choses inférieures à la dernière Exposition des portraits.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3638, Mon Journal t.15 p.285 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ici ce sont des merveilles, à la lettre. Mais ce qui m’a poussé à sortir mes voiles de crêpe c’est l’envie de voir Millet que je ne connaissais pas du tout et dont on m’assourdissait. Bastien n’en est que le faible imitateur, disait-on enfin j’en étais agacée. J’ai vu et je retournerai voir.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3639, Mon Journal t.15 p.285 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Bastien en est l’imitateur si l’on veut parce que ce sont des paysans et parce que tous deux sont de grands artistes et que tous les véritables chef-d’œuvres ont un air de famille [Rayé: peinture doivent se ressembler...]",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3640, Mon Journal t.15 p.285 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Les paysages de Cazin se rapprochent bien plus de Millet que ceux de Bastien. Chez Millet, dans les six toiles que je vois là, ce qui est beau c’est l’ensemble, l’harmonie, l’air, la fluidité. Ce sont de petites figures vues d’une façon sommaire, très large et très juste. Et ce qui rend Bastien d’une force sans égale aujourd’hui c’est l’exécution méticuleuse, forte, vivante, extraordinaire de ces figures humaines; l’imitation parfaite de la nature enfin, *la vie.* Son Soir au village qui n’est qu’une impression de petite dimension égale Millet certainement; il n’y a là que deux petites figures perdues dans le crépuscule. Mais le souvenir de son Amour au village me déchire les yeux. Quelle faute que ce fond ! Comment ne le voit-il pas ? Oui, dans ces grands tableaux il manque ce qui rend Millet extraordinaire dans les petits... L’air, l’harmonie... Il faut quoiqu’on dise que la figure domine ! Le père",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3641, Mon Journal t.15 p.285 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Jacques est supérieur à l’Amour au village comme effet, les foins aussi, le père Jacques était plein de poésie, la fillette cueillant des fleurs est une figure ravissante et le vieux faisait bien... Je sais bien qu’il est plus difficile de donner à un grand tableau cette... enveloppe, ce fondu si doux et si ferme qui caractérise Millet... mais il faudrait y arriver. Dans un petit tableau beaucoup de choses peuvent s’escamoter. Le fond de petits tableaux et ou l’impression domine, (et pas du méticuleux Messonnier) comme Cazin par exemple qui est le fils de Millet; on peut souvent donner ce rien et ce tout qui s’étend à tout et qui ne se trouve précisément sur aucun point, appelé charme, avec quelques coups de pinceaux heureux... Tandis que dans un grand tableau tout cela change., et devient terriblement difficile car le sentiment doit s’appuyer sur la science et que c’est souvent comme l’amour et l’argent...",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3644, Mon Journal t.15 p.286 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-16.md",
+        "date": "1883-06-16",
+        "heading": "Samedi 16 juin 1883",
+        "frontmatter_from": "1883-06-10.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "La duchesse de Fitz-James est restée une heure, puis d’autres, cela interrompi e travail, je suis furieuse.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3646, Mon Journal t.15 p.286 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Alors, je retire aux peintures de Bastien la qualification chef d’œuvre. Pourquoi ? Parce que son Amour au village m’horripile ou parce que je n’ai pas le courage de mon opinion ? On n’ose déifier que les morts, si Millet était vivant qu’en dirait-on ? Et puis on voit là six toiles de Millet seulement; est-ce que nous ne trouverons pas six toiles équivalentes rue Legendre? Pas mèche 1. Jeanne d’Arc 2. Le portrait du frère 3. Le soir au village 4. Les foins 5. Je ne connais pas tout, et il n’est pas encore mort. Bastien est moins le fils de Millet que Cazin qui lui ressemble beaucoup ou plus... jeune... Bastien est original, il est lui. On procède toujours un peu de quelqu’un mais la personnalité se dégage ensuite. Du reste la poésie, la force, le charme sont toujours les mêmes et si c’est *imiter* que de les chercher alors ce serait désespérant. On ressent une vive impression devant un Millet, on la retrouve devant un Jules... Qu’est-ce que ça prouve ?",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3647, Mon Journal t.15 p.286 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Les superficiels disent *imitations.* Ils ont tort, deux acteurs différents dans des pièces différentes peuvent vous émouvoir de la même façon parce que les sentiments véritables, humains, intenses sont toujours les mêmes.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3648, Mon Journal t.15 p.286 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il y a une dizaine de lignes tout à fait gracieuses d’Etincelle sur moi. Je suis un peintre remarquable, une belle jeune fille et une élève de Bastien-Lepage. Attrape.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3649, Mon Journal t.15 p.286 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’ai vu le buste de E. Renan chez Saint-Marceaux et hier j’ai vu passer Renan en fiacre.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3650, Mon Journal t.15 p.286 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je l’ai reconnu tout de suite.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3653, Mon Journal t.15 p.287 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Voilà de la ressemblance au moins ! Renan qui a étudié la Judée et le judaïsme... son buste ?",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3654, Mon Journal t.15 p.287 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "De plus en plus juif Saint-Marceaux.",
+              "rsr": "Moved out of 100.0010, which ran several manuscript days together: this day's text from tome15.docx ¶3655, Mon Journal t.15 p.287 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-17.md",
+        "date": "1883-06-17",
+        "heading": "Dimanche 17 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0013"
+          },
+          {
+            "old": "100.0014",
+            "set_french": "N'envisager que le résultat qui est que vous êtes aujourd'hui sortie de la foule, que vous êtes *quelqu'un* et ça aidera à vous donner une médaille. Et que enfin, il a fait tout au monde pour arriver à ce résultat, car cette mention me donne la situation que je mérite et que je dois être enchantée et que je ne suis pas dans des conditions très favorables et que pour qu'il n'y ait pas d'injustice possible il faut faire une oeuvre qui ne soit pas simplement bonne, mais qui s'impose. Je sais bien.. Enfin-"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-18.md",
+        "date": "1883-06-18",
+        "heading": "Samedi 18 juin 1883",
+        "frontmatter_from": "1883-06-17.md",
+        "paragraphs": [
+          {
+            "old": "100.0015"
+          },
+          {
+            "old": "100.0016"
+          },
+          {
+            "old": "100.0017"
+          },
+          {
+            "old": "100.0018",
+            "set_french": "Et moi ? Eh bien je suis inquiète, un peu, j'ai en somme posé pour un journaliste...\nEt à part ça je n'ai pas assez causé...\nS'il le prend pour de la timidité de jeunesse ce sera parfait, mais... C'est égal j'aurais pu parler beaux-arts.\nQu'est-ce que je lui ai dit ? Comment ai-je été ? Qu'est-ce qu'il va dire ?\nAh ! j'ai été sotte.\nC'est ma tante et Dina qui... ont tout dit, quoi ? J'attends cet article avec angoisse... Et il faudra attendre une quinzaine... On a surtout appuyé sur ma jeunesse... et ayant mal dormi j'avais une tête fatiguée et plus vieille que nature... Enfin-"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-19.md",
+        "date": "1883-06-19",
+        "heading": "Mardi 19 juin 1883",
+        "frontmatter_from": "1883-06-17.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "[Aucun texte - date seule mentionnée]",
+              "rsr": "tome15.docx ¶3670: the date line «Mardi 1 9 juin 1 883» has no text under it (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-20.md",
+        "date": "1883-06-20",
+        "heading": "Mercredi 20 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0019",
+            "set_french": "# Mercredi 20 juin 1883\n[Aucun texte - date seule mentionnée]"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-21.md",
+        "date": "1883-06-21",
+        "heading": "Jeudi 21 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0020"
+          },
+          {
+            "old": "100.0021"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-22.md",
+        "date": "1883-06-22",
+        "heading": "Vendredi 22 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0022"
+          },
+          {
+            "old": "100.0023"
+          },
+          {
+            "old": "100.0024"
+          },
+          {
+            "old": "100.0025"
+          },
+          {
+            "old": "100.0026"
+          },
+          {
+            "old": "100.0027"
+          },
+          {
+            "old": "100.0028"
+          },
+          {
+            "old": "100.0029"
+          },
+          {
+            "old": "100.0030"
+          },
+          {
+            "old": "100.0031"
+          },
+          {
+            "old": "100.0032"
+          },
+          {
+            "old": "100.0033"
+          },
+          {
+            "old": "100.0034"
+          },
+          {
+            "old": "100.0035",
+            "set_french": "Etre célèbre, très célèbre, illustre ! Cela arrangera tout... Non... il ne faut pas compter sur la rencontre d'un être idéal qui me respectera, m'aimera et sera un bon parti...\nLes femmes célèbres effrayent... Les gens ordinaires et les génies sont rares..."
+          }
+        ]
+      },
+      {
+        "file": "1883-06-23.md",
+        "date": "1883-06-23",
+        "heading": "Samedi 23 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0036"
+          },
+          {
+            "old": "100.0037"
+          },
+          {
+            "old": "100.0038"
+          },
+          {
+            "old": "100.0039"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-24.md",
+        "date": "1883-06-24",
+        "heading": "Dimanche 24 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0040"
+          },
+          {
+            "old": "100.0041"
+          },
+          {
+            "old": "100.0042"
+          },
+          {
+            "old": "100.0043"
+          },
+          {
+            "old": "100.0044"
+          },
+          {
+            "old": "100.0045"
+          },
+          {
+            "old": "100.0046"
+          },
+          {
+            "old": "100.0047"
+          },
+          {
+            "old": "100.0048"
+          },
+          {
+            "old": "100.0049"
+          },
+          {
+            "old": "100.0050"
+          },
+          {
+            "old": "100.0051",
+            "set_french": "Non, je n'ai jamais été amoureuse et je ne le serai plus maintenant, il faut qu'un homme soit si supérieur pour me plaire à présent, je suis si exigeante, il faudrait que ce fut... Et être simplement amoureuse d'un charmant garçon quelconque non, ça ne se pourra plus jamais."
+          }
+        ]
+      },
+      {
+        "file": "1883-06-25.md",
+        "date": "1883-06-25",
+        "heading": "Lundi 25 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0052"
+          },
+          {
+            "old": "100.0053"
+          },
+          {
+            "old": "100.0054"
+          },
+          {
+            "old": "100.0055",
+            "set_french": "Avec Bojidar ça n'est plus à craindre, il n'y aura qu'à le rosser s'il ne marche pas droit. Jules est rentré à Paris. Bojidar l'a vu.\nSaint-Amand est venu ce matin toujours toqué."
+          }
+        ]
+      },
+      {
+        "file": "1883-06-26.md",
+        "date": "1883-06-26",
+        "heading": "Mardi 26 juin 1883",
+        "frontmatter_from": "1883-06-24.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "[Aucun texte - date seule mentionnée]",
+              "rsr": "tome15.docx ¶3737: the date line «Mardi 26 juin 1 883» has no text under it (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-06-27.md",
+        "date": "1883-06-27",
+        "heading": "Mercredi 27 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0056"
+          },
+          {
+            "old": "100.0057"
+          },
+          {
+            "old": "100.0058",
+            "kind": "letter",
+            "source": "Lettre de Marie à Alice (passage copié de sa réponse), 27 juin 1883",
+            "set_french": "> Quant aux raisons qui ont déterminé ma lettre c'est sa lettre à Claire à qui vous avez écrit parce que vous vous êtes imaginée qu'elle est plus grande dame que moi. Et je trouve cela *ingrat,* servile et ridicule.\n> Et j'en ris et après tout ce n'est pas votre faute si vous n'avez ni esprit, ni coeur, ni tact. etc.\n> Marie Bashkirtseff"
+          },
+          {
+            "old": "100.0059"
+          },
+          {
+            "old": "100.0060",
+            "set_french": "Gervex oui mais Bastien, il n'est ni assez beau ni assez parisien pour cela. Et dire qu'on confond, invente, raconte sur tout le monde des tas d'infamies..."
+          }
+        ]
+      },
+      {
+        "file": "1883-06-28.md",
+        "date": "1883-06-28",
+        "heading": "Jeudi 28 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0061"
+          },
+          {
+            "old": "100.0062"
+          },
+          {
+            "old": "100.0063"
+          },
+          {
+            "old": "100.0064"
+          },
+          {
+            "old": "100.0065"
+          },
+          {
+            "old": "100.0066"
+          },
+          {
+            "old": "100.0067"
+          },
+          {
+            "old": "100.0068"
+          },
+          {
+            "old": "100.0069"
+          },
+          {
+            "old": "100.0070"
+          },
+          {
+            "old": "100.0071"
+          },
+          {
+            "old": "100.0072"
+          },
+          {
+            "old": "100.0073"
+          },
+          {
+            "old": "100.0074"
+          },
+          {
+            "old": "100.0075"
+          },
+          {
+            "old": "100.0076"
+          }
+        ]
+      },
+      {
+        "file": "1883-06-29.md",
+        "date": "1883-06-29",
+        "heading": "Vendredi 29 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0077"
+          },
+          {
+            "old": "100.0078"
+          },
+          {
+            "old": "100.0079"
+          },
+          {
+            "old": "100.0080"
+          },
+          {
+            "old": "100.0081",
+            "set_french": "Oh ! Oui ! C'est comme la sculpture. Je voudrais savoir sculpter pour exprimer les belles choses que je vois, comme je voudrais savoir écrire pour raconter une quantité de choses qui m'étouffent. Mais la peinture ! Je fais des tableaux parce que je sais peindre. La différence est énorme ! Ah ! mon Dieu pourvu que je vive assez longtemps."
+          }
+        ]
+      },
+      {
+        "file": "1883-06-30.md",
+        "date": "1883-06-30",
+        "heading": "Samedi 30 juin 1883",
+        "paragraphs": [
+          {
+            "old": "100.0082"
+          },
+          {
+            "old": "100.0083"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-01.md",
+        "date": "1883-07-01",
+        "heading": "Dimanche 1er juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0084",
+            "set_french": "# Dimanche 1er juillet 1883\nDonc... Ce matin je vais au musée du Luxembourg et n'en rapporte que deux souvenirs, l'Agar et l'Esmal de Cazin et le Génie gardant le secret de la tombe de Saint-Marceaux.\nLe soir à dîner les Engelhardt, le pope, Tchoumakoff, Bojidar qui est resté toute la journée.\nVillevieille dans la journée.\nJe suis très montée sur mes mérites, je chante mes louanges, m'adore, m'admire (seulement devant Dina et Bojidar) et suis heureuse.\nVous ne vous imaginez pas, c'est une ivresse... je me sens des forces... J'ai travaillé un peu aux Saintes femmes... Ce sera beau, beau...\nQuoi encore ? Gabriel m'écrit une lettre de condoléances, ce diplomate distingué. Et puis ? Et puis c'est tout et ma littérature.\nOh ! Elle prospère, je n'écris rien encore, je rends des comptes des choses qui viennent s'ajouter à d'autres dans ma mémoire et sur des feuilles volantes... Et quand je serai munie d'assez de documents je tâcherai de... Mon roman est là, je ne l'ai pas déchiré, je verrai bien... c'est une folie, je me crois capable de tout. Je m'aime."
+          }
+        ]
+      },
+      {
+        "file": "1883-07-02.md",
+        "date": "1883-07-02",
+        "heading": "Lundi 2 juillet 1883",
+        "frontmatter_from": "1883-07-01.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "[Aucun texte - date seule mentionnée]",
+              "rsr": "tome15.docx ¶3790: the date line «Lundi 2 juillet 1 883» has no text under it (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-03.md",
+        "date": "1883-07-03",
+        "heading": "Mardi 3 juillet 1883",
+        "frontmatter_from": "1883-07-01.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Le tableau ne va pas. Je suis dans le chagrin. Rien qui console !",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3792, Mon Journal t.15 p.297 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Les Engelhardt, Agathe, Bojidar et une chaleur ! Vendredi j’irai chez les Canrobert, la maréchale est venue cet après-midi pour me décider. Sont-ils gentils ces gens-là !",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3793, Mon Journal t.15 p.297 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin voici l’article du “Nouveau Temps”. Il est très bien et me gêne un peu parce qu’il y est dit que je n’ai que dix-neuf ans et que j’en ai bien plus et que l’on m’en donne encore d’avantage. Mais l’effet en Russie sera très grand.",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3794, Mon Journal t.15 p.297 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "N’oublions pas que ce matin nous sommes allées accompagner le père Tchoumakoff à la recherche d’un M. Carriès sculpteur, annoncé comme futur homme de génie, artiste du XVIe siècle, sauvage, primitif, desenchanté, tout jeune inconnu, toutes les poésies... Naturellement nous nous sommes précipités, rue Boissonnade, derrière Montparnasse , au diable. C’est parfait.",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3795–3798, Mon Journal t.15 pp.297–298 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il a exposé vingt-quatre (!) bustes dans un Cercle, cette série était appelée les Désolés (!). Ça sent Rollinat¹... Tchoumakoff en était fou, moi je n’ai pas vu. Un homme qui expose vingt-quatre têtes et qui les intitule les Désolés ! Et qui a un bel article de journal n’est ni un innocent ni un sauvage.",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3799, Mon Journal t.15 p.298 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "1- Rollinat poète macabre, fantastique, épileptique, névrosiaque et moderne ! moderne !",
+              "rsr": "Marie's own note to «Rollinat¹» (tome15.docx ¶3799), printed at the foot of Mon Journal t.15 p.298 (tome15.docx ¶3810); it was filed under 4 July (100.0085) because it falls on that printed page; moved to the day it annotates (2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin, nous entrons et moi toute prête à encourager ce jeune... Il ne nous en laisse pas le temps et commence aussitôt à nous parler de lui-même avec la plus vive admiration...",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3800, Mon Journal t.15 p.298 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C’est abominable de manquer à ce point de modestie, j’en étais gênée et amusée... Il nous prenait pour des femmes du monde et allait, allait, allait ! Un talent très original, fantastique même et qui fatigue.",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3801, Mon Journal t.15 p.298 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il vend des bustes à cent francs, j’en achète deux. Il connaît Bastien, Gervex et n’a pas l’air d’un monsieur qui restera longtemps en chemin, je le vois déjà dans les environs du Parc Monceau. Pas mal au physique, vingt-six ou vingt-sept ans. Il me paraît Juif. Il n’aime pas Saint-Marceaux, l’imbécile.",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3802, Mon Journal t.15 p.298 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Certainement c’est un talent très original... Et il *veut* l’être... Mais quelle suffisance !",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3803, Mon Journal t.15 p.298 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Bastien n’est qu’un paquet de violettes à côté, quant à Saint-Marceaux qui est réellement très modeste, ne comparons pas. Est-il possible de se gober à ce point ?",
+              "rsr": "Moved out of 100.0084, which ran several manuscript days together: this day's text from tome15.docx ¶3804, Mon Journal t.15 p.298 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-04.md",
+        "date": "1883-07-04",
+        "heading": "Mercredi 4 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0085",
+            "set_french": "# Mercredi 4 juillet 1883\nEt il paraît qu'il ne connaît pas Bastien, l'architecte qui est venu aujourd'hui ne le connaît pas. Jules est à Chantilly pour huit heures, ils viennent tous les deux du bord de la mer.\nJ'ai été au Consulat pour légaliser des papiers d'héritage.\nJ'ai démoli deux têtes du tableau pour les refaire tout à fait et je me sens mieux, ayant détruit ces preuves d'incapacité...\nAh !... Je cherche quel souhait allait accompagner ce soupir ? Le plus pressé serait d'avoir fini ce tableau, puis je voudrais bien...! un tas de choses..."
+          }
+        ]
+      },
+      {
+        "file": "1883-07-05.md",
+        "date": "1883-07-05",
+        "heading": "Jeudi 5 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0086"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-06.md",
+        "date": "1883-07-06",
+        "heading": "Vendredi 6 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0087"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-07.md",
+        "date": "1883-07-07",
+        "heading": "Samedi 7 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0088"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-08.md",
+        "date": "1883-07-08",
+        "heading": "Dimanche 8 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0089",
+            "set_french": "# Dimanche 8 juillet 1883\nMa tante me mène chez les Canrobert, près de Versailles dans le village de Jouy en Josas. Charmante propriété. Un ancien pavillon de chasse approprié avec le génie anglais du confort, quoiqu'assez simple. Il est impossible de se faire une idée de la cordialité, de la bonté, de la gracieuseté de ces gens. Le maréchal a les plus grandes façons, la maréchale est divine et Claire est charmante et le gamin qui n'a que dix ans est un amour. J'y ai passé trois jours seule, ma tante est repartie pour Paris après déjeuner. Mais malgré leur délicatesse j'ai beaucoup souffert, je ne m'habituerai jamais à mon malheur.\nC'est l'empoisonnement de tout. J'envisageais ces trois journées avec angoisse, elles sont passées... Mais il y a promesse formelle, sacrée, de revenir pour quinze jours ! Hier soir nous nous sommes promenés en voiture, la plupart du temps se passe au jardin à bavarder de rien. Je n'ai pas travaillé, nous avons chassé l'araignée au lieu de peindre, j'en rapporte deux grosses dans un bocal, je me les ferai copier en émail.\nJe rentre pour dîner et trouve les Engelhardt, le pope et Dusautoy.\nJ'ai écrit là-bas... Une esquisse, il me vient comme ça des quantité d'histoires, j'y assiste comme à un spectacle ou je les vis moi-même, alors on n'a qu'à raconter ce qu'on a vu, ou senti. C'est comme la réalité même, l'imagination donne l'illusion de la vie, on n'a qu'à essayer de rendre ses impressions. Et pas de thèse, un événement, une histoire, des sentiments vrais, une situation intéressante. Alors à quoi cela sert-il ? Je n'en sais rien, un besoin, presque tous les jours je prends quelques notes, des impressions ou des inventions, mais il est bien rare que je fasse des esquisses de tableaux d'ou je conclus que écrire m'est naturel."
+          }
+        ]
+      },
+      {
+        "file": "1883-07-09.md",
+        "date": "1883-07-09",
+        "heading": "Lundi 9 juillet 1883",
+        "frontmatter_from": "1883-07-08.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "J’ai vu le croissant de l’œil gauche. C’est idiot de croire à ces machins-là mais j’y crois. Je ferai encore un mauvais mois de peinture comme le dernier. Sapristi ! Le tableau n’avance guère comme cela. Mais je vais faire après un...",
+              "rsr": "Moved out of 100.0089, which ran several manuscript days together: this day's text from tome15.docx ¶3822, Mon Journal t.15 p.299 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon Dieu soyez bon pour moi !",
+              "rsr": "Moved out of 100.0089, which ran several manuscript days together: this day's text from tome15.docx ¶3823, Mon Journal t.15 p.299 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-10.md",
+        "date": "1883-07-10",
+        "heading": "Mardi 10 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0090",
+            "set_french": "# Mardi 10 juillet 1883\nModeler de huit à midi, peindre de une à sept, et dessiner le soir. Voilà la vie. Car il faut que je fasse un dessin pour la publication de ce M. de Bellina. L’article du “Nouveau Temps” est réimprimé dans le Sud (russe). Ça fait crier à Poltava sans doute, car on me donne dix-neuf ans, on n’a qu’à rétablir le chiffre, mais si j’avais dit vingt-quatre, on dirait vingt-neuf.",
+            "_note": "pointer stub filled: tome15.docx ¶3827"
+          },
+          {
+            "new": {
+              "french": "Encore si après dix ou douze heures de travail on était content !! Mais non, j’ai des remords affreux, j’ai honte du résultat et je voudrais tout recommencer.",
+              "rsr": "Moved out of 100.0089, which ran several manuscript days together: this day's text from tome15.docx ¶3828, Mon Journal t.15 p.300 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin ! Si ça menait à quelque chose encore !",
+              "rsr": "Moved out of 100.0089, which ran several manuscript days together: this day's text from tome15.docx ¶3829, Mon Journal t.15 p.300 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-11.md",
+        "date": "1883-07-11",
+        "heading": "Mercredi 11 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0091",
+            "set_french": "# Mercredi 11 juillet 1883\nAgitation. Car j'avais invité l'infime architecte à venir mercredi ou jeudi et comme son frère est ici, on s'est imaginé qu'il viendrait aussi. Au lieu de ça nous avons Bailleul, Tchoumakoff et le pope. Attrape."
+          }
+        ]
+      },
+      {
+        "file": "1883-07-12.md",
+        "date": "1883-07-12",
+        "heading": "Jeudi 12 juillet 1883",
+        "frontmatter_from": "1883-07-11.md",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Les Canrobert à dejeuner et puis nous allons à l’Exposition de la rue de Sèze. Mais avant de sortir il arrive la visite du faux Bastien. Le vrai est parti pour la Bretagne hier et le faux part ce soir pour quatre jours. Sale bête. Non, il n’y a rien à faire, je ne l’intéresse pas, eh bien tant pis, je n’y tiens pas, ce que je veux c’est avoir du talent. Mon Dieu. Aussi, il n’y a plus rien que ça. Toilette, coquetterie, rien n’existe, je m’arrange bien, parce que c’est encore de l’art et je ne pourrais pas être fagotée mais autrement... Cette préoccupation constante me rend laide et vieille, je m’enterre, je m’enferme, et qu’est-ce que ça me rapportera.",
+              "rsr": "Moved out of 100.0091, which ran several manuscript days together: this day's text from tome15.docx ¶3833, Mon Journal t.15 p.300 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tout ça c’est superbe à raconter après l’éclosion du génie, mais comme ça ! Je ne trouve pas Benvenuto Cellini aussi fort que moi en brûlant son mobilier; je jette dans les flammes bien plus et bien mieux et qu’est-ce qui m’en reviendra.",
+              "rsr": "Moved out of 100.0091, which ran several manuscript days together: this day's text from tome15.docx ¶3834, Mon Journal t.15 p.300 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Lui il savait ce que ce serait et moi ?!",
+              "rsr": "Moved out of 100.0091, which ran several manuscript days together: this day's text from tome15.docx ¶3835, Mon Journal t.15 p.300 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Si je me débarassais bientôt de ce tableau des gamins je m’en irais à la campagne, une vraie campagne avec de grands horizons, des landes, pas de montagnes, de beaux couchers de soleil, des terrains gris, des herbes et des fleurs sauvages roses... Et de l’espace, de l’espace. Et peindre un grand tableau avec un ciel infini... Des herbes et des fleurs sauvages...",
+              "rsr": "Moved out of 100.0091, which ran several manuscript days together: this day's text from tome15.docx ¶3836, Mon Journal t.15 p.300 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’oubliais, Tony qui est venu hier très content de ma sculpture et du grand tableau qui est ébauché, il persiste à dire qu’on peut en faire quelque chose de beau. Pour ce qui est des gamins, ils sont au même point à peu près, j’ai recommencé dix fois la même chose et en somme il n’y a pas un morceau à garder...",
+              "rsr": "Moved out of 100.0091, which ran several manuscript days together: this day's text from tome15.docx ¶3837–3840, Mon Journal t.15 pp.300–301 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je veux m’en aller à la campagne, m’enterrer encore mieux. Imbécile.",
+              "rsr": "Moved out of 100.0091, which ran several manuscript days together: this day's text from tome15.docx ¶3841, Mon Journal t.15 p.301 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-13.md",
+        "date": "1883-07-13",
+        "heading": "Vendredi 13 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0092"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-14.md",
+        "date": "1883-07-14",
+        "heading": "Samedi 14 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0093"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-15.md",
+        "date": "1883-07-15",
+        "heading": "Dimanche 15 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0094",
+            "set_french": "# Dimanche 15 juillet 1883\nA dîner: Bagnitsky, le pope, Tchoumakoff, etc."
+          }
+        ]
+      },
+      {
+        "file": "1883-07-16.md",
+        "date": "1883-07-16",
+        "heading": "Lundi 16 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0095",
+            "set_french": "# Lundi 16 juillet 1883\nLa cristallisation me préoccupe vivement et je suis convaincue qu’il y a un livre à faire sur les cristallisations innocentes, qui n’aboutissent pas.",
+            "_note": "pointer stub filled: tome15.docx ¶3908"
+          },
+          {
+            "new": {
+              "french": "Moi par exemple chez qui l’amour [Rayé: passion] complet serait possible que dans le mariage ou toute autre jeune fille ou même une femme mariée à principes. Nous ne sommes pas exemptes pour cela des choses qui déterminent les cristalisations, ces cristallisations n’aboutissent pas, et permettez-moi de dire ici que je n’aime pas le mot *cristallisation* mais il évite comme dit Stendhal une longue phrase explicative, je l’emploie donc. Je disais, nous disions oui. [Rayé: l’amour commence] la cristallisation commence, si “l’objet a toutes les perfections” nous nous y laissons aller et nous arrivons à l’amour. C’est-à-dire que nous aimons, l’essentiel c’est d’aimer et non pas de pratiquer la chose que M. Alexandre Dumas fils appelle amour.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3909–3912, Mon Journal t.15 pp.306–307 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Si l’objet n’a pas toutes les perfections, si nous lui découvrons un défaut, des défauts, soit une laideur, soit un ridicule, soit un manque d’esprit, la chose s’arrête à mi-chemin. Je [Mot noirci: crois] aussi que l’on peut l’arrêter à volonté.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3913, Mon Journal t.15 p.307 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il y avait commencement de cristallisation pour Cassagnac, je le raisonne, l’examine, c’est un tribun tapageur, l’Europe en parle, les femmes en sont folles, il est reçu par le Faubourg Saint-Germain. Je m’accorde la permission de l’aimer. La cristallisation continue et j’y arrive. Si je lui avais découvert alors quelque *déchet* aux yeux du monde, la cristallisation cesserait. Autre exemple, supposez que je sois préoccupée, et je le suis un peu je ne sais au juste pourquoi, de Bastien-Lepage.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3914, Mon Journal t.15 p.307 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais comme je ne puis me donner licence de m’emballer dans cette voie, la cristallisation ne se fera pas et point d’amour.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3915, Mon Journal t.15 p.307 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C’est un homme de talent, mais aux yeux de tous ce n’est qu’un “peintre de grand talent”. Mes vanités seraient blessées.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3916, Mon Journal t.15 p.307 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Alors dites-vous, ce n’est pas du vrai amour. C’est possible. Je vous raconte comment je suis et il y en a probablement d’autres comme moi. Supposez que le même peintre soit non seulement reconnu comme le plus grand des artistes, cela ne suffirait pas mais qu’il devienne un artiste-dieu comme feu Wagner et avec pas plus que ce que j’ai dans le cœur à présent, je me fais forte d’éprouver l’amour-passion le plus complet et le plus fou.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3917, Mon Journal t.15 p.307 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il n’y aura plus d’obstacles, de défauts, l’objet aura toutes les perfections et la cristallisation se fera.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3918, Mon Journal t.15 p.307 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Maintenant je vais noter toutes les impressions relatives à ce sentiment. La vue d’un chapeau qui ressemmble à celui de l’objet arrête les battements du cœur, dit Stendhal. Il rougissait en outre en entendant le coin de la porte près de laquelle habitait l’amie de sa bien-aimée.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3919, Mon Journal t.15 p.307 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Moi à quatorze ans, je rougissais en prononçant ou entendant prononcer le mot *duc* à cause du duc de Hamilton. Depuis je n’ai pas retrouvé cette sensibilité si violente. Lorsque je lisais mes leçons d’anglais ou il était souvent question des ducs historiques c’était un supplice, j’étais tremblante comme une coupable. Je n’ai pas retrouvé cela depuis, à ce degré; il m’est arrivé de prononcer avec plaisir le nom des personnes ou des objets proches de l’Objet de mes rêves du moment; sourire, rougir très peu et voilà tout.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3920–3923, Mon Journal t.15 pp.307–308 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "L’amour-propre ou la vanité me donnent encore des émotions de la dernière violence.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3924, Mon Journal t.15 p.308 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’attends une visite ou un salut avec des battements de cœur et de la vraie fièvre, et cela des gens auprès desquels le cœur n’a rien à voir, des femmes quelquefois. Ce même Jules m’a plongée dans des agitations immenses. Viendra-t-il, ne viendra-t-il pas, ira-t-il parcourir l’exposition avec nous ? J’avais fait des frais et je désirais rembourser ma vanité. Ce sont ces sentiments qui ont fait que je pense [Mot noirci: encore] à cet artiste. Et puis son frère bénéficie de cette préoccupation, il m’a paru qu’il était amoureux de *moi.* quel homme de goût ! Ce sentiment de la part d’un autre subalterne ne me préoccuperait peut-être pas tant, mais c’est le frère de l’autre et ça change les choses. Puis il me semble qu’il se détache, ça me vexe et me voilà très occupée de cela et agitée et en observation devant sa manière d’être. Ça tient-il ? Est-ce passé ?",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3925, Mon Journal t.15 p.308 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dans ces moments-là la vue d’un chapeau pareil à celui de l’infime architecte peut me causer de vifs battements de cœur, parole d’honneur. Donc il ne faut pas se fier à ces choses.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3926, Mon Journal t.15 p.308 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Puis je sors avec la maréchale, il me semble tout à coup qu’elle n’est pas aussi gracieuse que d’ordinaire et voilà les battements de mon cœur fort compromis, je cherche la cause, m’imagine mille chose et perds la tête. Puis... Dès qu’on a l’espoir de plaire à un homme quel qu’il soit, cet homme sort immédiatement de la foule. Puis on s’en fiche bien entendu... Voilà Carrier-Belleuse. Il a été charmé par ma ravissante personne, il a peut-être cru qu’étrangère originale, artiste, il y avait de l’espoir... Et une fois éclairé sur ma personne il s’est détaché. Il m’a préoccupé et jusqu’à présent il est toujours un peu plus que les autres. Enfin voilà comment je suis moi, il doit y en avoir d’autres !",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3927, Mon Journal t.15 p.308 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais me voilà très attentive pour la cristallisation... Si j'étais mariée avec Saint-Amand ça permetterait d’être moins entière et de se contenter de cristallisations partielles. Je pourrais il me semble... Mais la plume rend si positives toutes ces divagations que je m’arrête.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3928, Mon Journal t.15 p.308 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-17.md",
+        "date": "1883-07-17",
+        "heading": "Mardi 17 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0096",
+            "set_french": "# Mardi 17 juillet 1883\nToujours préoccupée des cristallisations, sans objet, hélas.",
+            "_note": "pointer stub filled: tome15.docx ¶3930"
+          },
+          {
+            "new": {
+              "french": "Et de la sculpture. La peinture va un petit peu mieux.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3931, Mon Journal t.15 p.308 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oh ! avoir du talent !! Effacer cette misérable mention ! Exposer les gamins, les Saintes femmes dans un cadre tout noir et au bas le texte: ... Et ayant roulé une grande pierre à l’ouverture du sépulcre il s’en alla. Or Marie-Magdeleine et l’autre Marie étaient demeurées là en face du sépulcre.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3932–3935, Mon Journal t.15 pp.308–309 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et une statue. Nausicca ou Ariadne, les esquisses sont tout arrêtées. Ariadne fera blaguer, on dira que c’est moi, abandonnée par qui ? Et Nausicaa. J’aime les deux.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3936, Mon Journal t.15 p.309 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Trois choses. Deux tableaux et une statue. Je le désire tellement que je crains les plus affreux malheurs.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3937, Mon Journal t.15 p.309 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Stendhal dit que l’amour vit d’espérance et de craintes des plus affreux malheurs. Eh bien c’est de l’amour alors ? L’équivalent. Ah ! il faut que l’objet soit irréprochable pour inspirer de tels sentiments.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3938, Mon Journal t.15 p.309 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Voyons, est-ce que je ne vais pas devenir amoureuse ? Et de qui ? Le *moins impossible* paraîtrait encore le peintre qui me déteste, mais pas même. Un inconnu ? Mais je lui trouverai des défauts. Non.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3939, Mon Journal t.15 p.309 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "L’amour ne peut pas m’absorber entièrement, ce sera un accessoire, le couronnement de l’édifice; un superflu aimable. Enfin nous verrons bien. Si j’étais mariée avec le baron cela arrangerait bien des choses... Car alors l’amour ne serait pas un engagement éternel, je serais moins difficile puisque je pourrais changer... Le moins possible. Ah ! ce serait une existence bien agréable... Mais ça ne se fera pas, les choses combinées d’avance ratent presque toujours.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3940, Mon Journal t.15 p.309 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "On siffle (il y a un porte-voix de l’antichambre à l’atelier) et je vais demander ce que c’est avec un léger battement de cœur, car cela pourrait bien être l’architecte qui doit être revenu. C’est Dusautoy.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3941, Mon Journal t.15 p.309 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Un battement de cœur pour le frère de Bastien ? Mais oui, je vous ai expliqué cela. Ne suis-je pas quelquefois restée une heure entière à attendre Julian et Tony, et très agitée je vous prie de le croire. Et c’est encore comme ça et quand on sonne mon cœur palpite. Mais ce sont vraiment des inepties, ces battements de cœur n’ont rien à voir avec ceux de Stendhal. Alors expliquez-les ? Pourquoi ? Ce sont des amis avec lesquels j’aime bien passer une soirée, qui m’amusent, devant lesquels je crois briller. Et l’architecte surtout parce que je me figure qu’il m’adore. Voilà. J’embête mes lecteurs mais je note mes impressions.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3942, Mon Journal t.15 p.309 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Si je rate ma Célébrité ce sera idiot.",
+              "rsr": "Moved out of 100.0094, which ran several manuscript days together: this day's text from tome15.docx ¶3943, Mon Journal t.15 p.309 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-18.md",
+        "date": "1883-07-18",
+        "heading": "Mercredi 18 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0097",
+            "set_french": "# Mercredi 18 juillet 1883\n[Aucun texte - date seule mentionnée]"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-19.md",
+        "date": "1883-07-19",
+        "heading": "Jeudi 19 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0098",
+            "set_french": "# Jeudi 19 juillet 1883\nUne grande discussion avec Bojidar sur le sang, la race, les préjugés, etc. Je regrette d’avoir dépensé du talent et de m’être fatiguée le larynx. Bojidar, ma tante et Dina n’ont compris qu’une chose, c’est que: elle *prêche l’égalité* avec les domestiques et les paysans. Les sots. Je ne nie pas l’hérédité des facultés acquises, ni non plus la transmission des qualités et défauts physiques, mais ce que je voulais établir c’est que le sang est le même. Ces imbéciles soutenaient le contraire.",
+            "_note": "pointer stub filled: tome15.docx ¶3946–3949"
+          },
+          {
+            "new": {
+              "french": "Il est évident que le père étant grossier le fils peut l’être, et le père étant un être supérieur le fils peut hériter de ces qualités. Oui mais c’est inutile de raconter cela ici car je m’adresse à des gens sensés de quelque opinion qu’ils soient et non à des simples comme mon entourage. Et j’ai perdu deux heures à discuter des inepties et à dire des choses amusantes, mais pour eux je prêchais l’égalité avec les domestiques. Les sots. Pour vous les peindre, ils m’ont soutenu mordicus que le sang était tout différent et qu’un noble est d’une essence spéciale.",
+              "rsr": "Moved out of 100.0097, which ran several manuscript days together: this day's text from tome15.docx ¶3950, Mon Journal t.15 p.310 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et j’ai discuté. Mais il faut bien que je me dépense.",
+              "rsr": "Moved out of 100.0097, which ran several manuscript days together: this day's text from tome15.docx ¶3951, Mon Journal t.15 p.310 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-20.md",
+        "date": "1883-07-20",
+        "heading": "Vendredi 20 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0099"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-21.md",
+        "date": "1883-07-21",
+        "heading": "Samedi 21 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0100"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-22.md",
+        "date": "1883-07-22",
+        "heading": "Dimanche 22 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0101",
+            "set_french": "# Dimanche 22 juillet 1883\nHier soir je me suis brûlée la poitrine, au-dessus du sein droit, à l'endroit où le poumon est malade. Je m'y suis enfin décidée, ce sera une tache jaune pendant trois ou quatre mois mais au moins je ne mourrai pas poitrinaire.\nJ'ai besoin d'être très forte.\nSi on allait trouver cette chose si belle, fade ? Pourquoi ?\nLe printemps, le soir, la nuit, le sommeil... Ce sont toujours des allégories dont la splendeur ou la fadeur dépendent absolument de celui qui les traite. Alors ?\nJe suis pleine de doutes... Ça me paraît trop beau mais... c'est peut-être trop beau... Poncif...\nEt puis quelle probabilité que je fasse comme ça d'inspiration une chose colossale, difficile ?... On dira que ce n'est pas de moi ! Car ce sera bien ! Voyons, je sais dessiner et la plupart des sculpteurs ne savent pas, et ils sont bêtes, et sans invention. Il est bien plus facile de sculpter une figure que de la peindre.\nLa difficulté en sculpture ne commence qu'au talent et là encore... C'est un paradoxe.\nIl est facile de modeler d'une façon ordinaire. Mais si on peut faire plus... Ce n'est plus une question de difficulté mais de talent et de tempérament.\nLe métier je ne le sais pas. Mais je ne ferai pas de fautes de grammaire. Et lorsqu'on sait sa grammaire le talent est ou n'est pas, on ne peut apprendre que la grammaire.\nJe mets des figures en place très juste, il faudra voir comment je pourrai exécuter un bras ou une jambe... Cela me paraît tellement ville conquise qu'il me semble qu'on ne croira pas... Et quel tapage ! Ce n'est pas une chose de sentiment comme les Saintes femmes qui peuvent hélas passer inaperçues, mais cela imposera à tout le monde, un succès brutal et qui forcera de faire attention aux abstractions sentimentales comme Nausicaa ou les Saintes femmes. Je vois ce tapage énorme, on voudra m'être présentée comme moi quand j'admire les gens... Les artistes voudront savoir qui m'a fait cela.\nOn ne croira pas. Est-ce que je ne vous semble pas folle d'assurance ? Non, je rêve et je vous fais part de mes rêveries. Enfin d'autres auraient pu faire une machine aussi grande et attirer l'attention par ce moyen, oui, mais souvent ceux qui pourraient exécuter ne peuvent pas dépenser, un groupe de deux ou trois figures coûte déjà bien cher. Ceux qui pensent faire une figure seule, inaperçue pourraient attirer l'attention avec une grande composition, mais l'argent manque. Et pour qu'une statue donne de la gloire il faut qu'elle soit vraiment admirable.\nIl me semble que je déprécie d'avance en attribuant le succès au volume... Et pourtant composer c'est encore quelque chose.\nPersonne ne sait le sujet et je ne le dirai à personne par superstition. Je ferai une esquisse grandeur nature et la montrerai très avancée.\nCes animaux qui font de la sculpture depuis dix ans, ne croiront pas. Des incapables.\nPour endormir la brûlure, je me suis endormie cette nuit avec de l'opium et toute la matinée me sentais sur le point de m'évanouir et maintenant c'est presque passé et je travaille à l'esquisse.\nProdigieuse ma chère.\nMais enfin si je réussis ma biographie rendra une foule de gens, tous les orgueilleux, tous les vaniteux incapables se croiront avoir simplement conscience de leur génie.\nMais si je rate quelle leçon !!\nRosalie dit qu'elle est ahurie de voir que mademoiselle entreprend des machins pareilles avant que d'avoir seulement fait un busqué.\nElle a peut-être raison.\nNe suis-je pas folle ?"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-23.md",
+        "date": "1883-07-23",
+        "heading": "Lundi 23 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0102",
+            "set_french": "# Lundi 23 juillet 1883\nTout à la décoration je vois de grandes machines, des avalanches de corps humains, des façades de monuments avec des figures et des fantaisies décoratives.",
+            "_note": "pointer stub filled: tome15.docx ¶3998"
+          },
+          {
+            "new": {
+              "french": "Là est un champ ouvert à ma frénésie du grand et du beau. Des choses babyloniennes, des chants du Dante mis en sculpture.",
+              "rsr": "Moved out of 100.0101, which ran several manuscript days together: this day's text from tome15.docx ¶3999, Mon Journal t.15 p.313 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Des bandes de damnés et des chœurs d’anges. Qui a fait cela ? Personne.",
+              "rsr": "Moved out of 100.0101, which ran several manuscript days together: this day's text from tome15.docx ¶4000, Mon Journal t.15 p.313 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Notre sculpture est pauvre et si tout a été fait en peinture il y a une belle place à prendre dans la taille des pierres. C’est inapplicable car ou voulez-vous le mettre ? Au point de vue pratique c’est fou, on n’a plus de monuments à décorer. Mais comme c’est beau ! Non, c’est vraiment beau.",
+              "rsr": "Moved out of 100.0101, which ran several manuscript days together: this day's text from tome15.docx ¶4001, Mon Journal t.15 p.313 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-24.md",
+        "date": "1883-07-24",
+        "heading": "Mardi 24 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0103",
+            "set_french": "# Mardi 24 juillet 1883\nCe n’est peut-être pas beau. Ce n’est peut-être pas faisable. Je n’en ai pas vu comme ça au Salon. Ni aux musées ! Alors ? C’et une insanité ? Il pleut depuis plusieurs jours et pour ne pas perdre de temps je commence un portrait de Dina.",
+            "_note": "pointer stub filled: tome15.docx ¶4003–4006"
+          },
+          {
+            "new": {
+              "french": "L’architecte vient vers six heures, il apporte le dessin de l’hôtel où il m’a proposé de faire quelque petite sculpture de décoration. J’accepterais si c’était plus important. Je continue à ne faire aucune plaisanterie sur Jules, je fais de grands éloges d’autres artistes et je dis même sans affectation que je sens entre Jules et moi de *l’inaffection,* naturellement Emile proteste mais je dis c’est égal, il m’est désagréable.",
+              "rsr": "Moved out of 100.0101, which ran several manuscript days together: this day's text from tome15.docx ¶4007, Mon Journal t.15 p.314 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "La comtesse Malewska est venue et aussi la vicomtesse de Janzé, Gavini, Linsingen.",
+              "rsr": "Moved out of 100.0101, which ran several manuscript days together: this day's text from tome15.docx ¶4008, Mon Journal t.15 p.314 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-25.md",
+        "date": "1883-07-25",
+        "heading": "Mercredi 25 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0104"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-26.md",
+        "date": "1883-07-26",
+        "heading": "Jeudi 26 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0105"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-27.md",
+        "date": "1883-07-27",
+        "heading": "Vendredi 27 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0106"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-28.md",
+        "date": "1883-07-28",
+        "heading": "Samedi 28 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0107"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-29.md",
+        "date": "1883-07-29",
+        "heading": "Dimanche 29 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0108",
+            "set_french": "# Dimanche 29 juillet 1883\n[Aucun texte - date seule mentionnée]"
+          }
+        ]
+      },
+      {
+        "file": "1883-07-30.md",
+        "date": "1883-07-30",
+        "heading": "Lundi 30 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0109",
+            "set_french": "# Lundi 30 juillet 1883\nLes Engelhardt, la mère Tchoumakoff, la Bailleul et d’autres habitués sont en voyage. Nous serons plus seules à dîner.",
+            "_note": "pointer stub filled: tome15.docx ¶4050"
+          },
+          {
+            "new": {
+              "french": "Je travaille sans pouvoir comparer ce que je fais, c’est un mal, je me souviens que chez Julian les premiers temps... Rien ne m’apprenait autant que de regarder les autres. Ma sculpture sera naïve, oh certainement, ni système, ni procédé, ni exemple, ni indication. Et je suis contente de ce que je fais, il me semble avoir fait de grands progrès, depuis que j’ai commencé.",
+              "rsr": "Moved out of 100.0108, which ran several manuscript days together: this day's text from tome15.docx ¶4051, Mon Journal t.15 p.317 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Saint-Marceaux ne m’a jamais dit ce que dit tout le monde, comme c’est beau de travailler, mais vous travaillez sérieusement, mais ce n’est pas du travail de femme, mais vous avez du talent, enfin tout ce que dit tout le monde; il a l’air de trouver tout simple que je travaille et ne m’a complimentée que sur le pastel et aussi sur la tête d’Irma; Il a été un peu trop spirituel la dernière fois... Ne plus travailler, se promener et voir les choses d’une certaine façon, plus de métier. Est-ce que les Byzantins avaient du métier. Les artistes de la Renaissance sont déjà des misérables, ils en savent trop. Rembrandt est grand *quoique* très fort mais non *parce que.*",
+              "rsr": "Moved out of 100.0108, which ran several manuscript days together: this day's text from tome15.docx ¶4052–4055, Mon Journal t.15 pp.317–318 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Disons aussi qu’une visite de ce grand sculpteur commence à me paraître un évènement à peu près naturel. Ce n’est [Mots noircis: pas qu’il vienne souvent, mais enfin] il est venu depuis quelques mois trois ou quatre fois et je suis un peu familiarisée avec ces bonheurs.",
+              "rsr": "Moved out of 100.0108, which ran several manuscript days together: this day's text from tome15.docx ¶4056, Mon Journal t.15 p.318 (2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’ai très peur de revoir ce que j’ai peint aujourd’hui il me semble que c’est mieux... Mais demain ? Et c’est chaque jour une angoisse pareille à moins qu’on sache tout de suite que c’est mauvais.",
+              "rsr": "Moved out of 100.0108, which ran several manuscript days together: this day's text from tome15.docx ¶4057, Mon Journal t.15 p.318 (2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1883-07-31.md",
+        "date": "1883-07-31",
+        "heading": "Mardi 31 juillet 1883",
+        "paragraphs": [
+          {
+            "old": "100.0110"
+          }
+        ]
+      },
+      {
+        "file": "1883-08-01.md",
+        "date": "1883-08-01",
+        "heading": "Mercredi 1er août 1883",
+        "paragraphs": [
+          {
+            "old": "100.0111"
+          }
+        ]
+      },
+      {
+        "file": "1883-08-02.md",
+        "date": "1883-08-02",
+        "heading": "Jeudi 2 août 1883",
+        "frontmatter_from": "1883-08-02.md",
+        "paragraphs": [
+          {
+            "old": "100.0113"
+          },
+          {
+            "old": "100.0114"
+          },
+          {
+            "old": "100.0115"
+          }
+        ]
+      },
+      {
+        "file": "1883-08-03.md",
+        "date": "1883-08-03",
+        "heading": "Vendredi 3 août 1883",
+        "paragraphs": [
+          {
+            "old": "100.0117"
+          },
+          {
+            "old": "100.0118"
+          },
+          {
+            "old": "100.0119"
+          },
+          {
+            "old": "100.0120"
+          },
+          {
+            "old": "100.0121"
+          },
+          {
+            "old": "100.0122"
+          },
+          {
+            "old": "100.0123"
+          },
+          {
+            "old": "100.0124"
+          },
+          {
+            "old": "100.0125"
+          },
+          {
+            "old": "100.0126"
+          },
+          {
+            "old": "100.0127"
+          },
+          {
+            "old": "100.0128"
+          },
+          {
+            "old": "100.0129",
+            "set_french": "Comprenez, il ne s'agit de rien, puisque Saint-Marceaux a un attachement, du reste ni l'un ni l'autre ne sont des epouseurs... mais [Rayé: non], enfin je lui deplais."
+          },
+          {
+            "old": "100.0130",
+            "set_french": "C'est triste de deplaire meme a une femme, ca m'ecrase [Rayé: ecrasee] quand je suis en face d'un etre a qui je deplais. Ce n'est pas humiliant, les plus belles peuvent deplaire, mais c'est embetant. Il n'y a que la parfaite indifference qui peut... Cet idiot me croit a ses pieds, je le lui ai fait croire, et l'ai recu avec tant de trouble la fois qu'il est venu, le jour qu'il m'a dit d'un ton tres doux: \"voyons, soyez calme, je ne suis pas bien effrayant, je suis un homme comme les autres\". Ca c'est assez joli. S'il savait comme je m'en moque... tant qu'on n'a pas l'air de se gober je puis admirer mais des qu'un etre me prend au mot et croit Dieu je n'ai pas assez de tous mes sentiments les plus divers pour m'en moquer, en dedans..."
+          },
+          {
+            "old": "100.0131"
+          }
+        ]
+      },
+      {
+        "file": "1883-08-04.md",
+        "date": "1883-08-04",
+        "heading": "Samedi 4 août 1883",
+        "paragraphs": [
+          {
+            "old": "100.0133"
+          }
+        ]
+      },
+      {
+        "file": "1883-08-05.md",
+        "date": "1883-08-05",
+        "heading": "Dimanche 5 août 1883",
+        "paragraphs": [
+          {
+            "old": "100.0134"
+          },
+          {
+            "old": "100.0135"
+          },
+          {
+            "old": "100.0136"
+          },
+          {
+            "old": "100.0137"
+          },
+          {
+            "old": "100.0138"
+          },
+          {
+            "old": "100.0139"
+          },
+          {
+            "old": "100.0140"
+          },
+          {
+            "old": "100.0141"
+          },
+          {
+            "old": "100.0142"
+          },
+          {
+            "old": "100.0143"
+          },
+          {
+            "old": "100.0144"
+          },
+          {
+            "old": "100.0145"
+          },
+          {
+            "old": "100.0146"
+          },
+          {
+            "old": "100.0147"
+          },
+          {
+            "old": "100.0148"
+          },
+          {
+            "old": "100.0149"
+          },
+          {
+            "old": "100.0150"
+          },
+          {
+            "old": "100.0151"
+          },
+          {
+            "old": "100.0152"
+          },
+          {
+            "old": "100.0153"
+          },
+          {
+            "old": "100.0154"
+          },
+          {
+            "old": "100.0155"
+          },
+          {
+            "old": "100.0156"
+          },
+          {
+            "old": "100.0157"
+          },
+          {
+            "old": "100.0158"
+          },
+          {
+            "old": "100.0159"
+          },
+          {
+            "old": "100.0160"
+          },
+          {
+            "old": "100.0161"
+          },
+          {
+            "old": "100.0162"
+          },
+          {
+            "old": "100.0163"
+          },
+          {
+            "old": "100.0164"
+          },
+          {
+            "old": "100.0165"
+          },
+          {
+            "old": "100.0166"
+          },
+          {
+            "old": "100.0167"
+          },
+          {
+            "old": "100.0168"
+          },
+          {
+            "old": "100.0169"
+          },
+          {
+            "old": "100.0170"
+          },
+          {
+            "old": "100.0171"
+          },
+          {
+            "old": "100.0172"
+          },
+          {
+            "old": "100.0173"
+          },
+          {
+            "old": "100.0174"
+          },
+          {
+            "old": "100.0175"
+          },
+          {
+            "old": "100.0176"
+          }
+        ]
+      },
+      {
+        "file": "1883-08-06.md",
+        "date": "1883-08-06",
+        "heading": "Lundi 6 août 1883",
+        "paragraphs": [
+          {
+            "old": "100.0207"
+          }
+        ]
+      },
+      {
+        "file": "1883-08-07.md",
+        "date": "1883-08-07",
+        "heading": "Mardi 7 août 1883",
+        "frontmatter_from": "1883-08-07.md",
+        "paragraphs": [
+          {
+            "old": "100.0179"
+          },
+          {
+            "old": "100.0180"
+          },
+          {
+            "old": "100.0181"
+          },
+          {
+            "old": "100.0182"
+          },
+          {
+            "old": "100.0183"
+          },
+          {
+            "old": "100.0184"
+          },
+          {
+            "old": "100.0185"
+          },
+          {
+            "old": "100.0186"
+          },
+          {
+            "old": "100.0187"
+          },
+          {
+            "old": "100.0188"
+          },
+          {
+            "old": "100.0189"
+          },
+          {
+            "old": "100.0190"
+          },
+          {
+            "old": "100.0191"
+          },
+          {
+            "old": "100.0192"
+          },
+          {
+            "old": "100.0193"
+          },
+          {
+            "old": "100.0194"
+          },
+          {
+            "old": "100.0195"
+          },
+          {
+            "old": "100.0196"
+          },
+          {
+            "old": "100.0197"
+          },
+          {
+            "old": "100.0198"
+          },
+          {
+            "old": "100.0199"
+          },
+          {
+            "old": "100.0200"
+          },
+          {
+            "old": "100.0201"
+          },
+          {
+            "old": "100.0202"
+          },
+          {
+            "old": "100.0203"
+          },
+          {
+            "old": "100.0204"
+          },
+          {
+            "old": "100.0205"
+          },
+          {
+            "old": "100.0206"
+          }
+        ]
+      }
+    ]
+  }
+}

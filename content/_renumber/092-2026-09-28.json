@@ -1,0 +1,2676 @@
+{
+  "carnet": "092",
+  "date": "2026-09-28",
+  "plan_path": "../rebuild-state/plan-tome1415/final2/plan-092.json",
+  "plan_source": "tome14.docx",
+  "run_carnets": [
+    "090",
+    "091",
+    "092",
+    "093",
+    "094"
+  ],
+  "id_map": {
+    "092.0001": "092.0001",
+    "092.0002": "092.0002",
+    "092.0003": "092.0003",
+    "092.0004": "092.0004",
+    "092.0005": "092.0005",
+    "092.0006": "092.0006",
+    "092.0007": "092.0007",
+    "092.0008": "092.0008",
+    "092.0009": "092.0009",
+    "092.0010": "092.0010",
+    "092.0011": "092.0011",
+    "092.0012": "092.0012",
+    "092.0013": "092.0013",
+    "092.0014": "092.0014",
+    "092.0015": "092.0015",
+    "092.0016": "092.0016",
+    "092.0017": "092.0017",
+    "092.0018": "092.0018",
+    "092.0019": "092.0019",
+    "092.0020": "092.0020",
+    "092.0021": "092.0021",
+    "092.0022": "092.0022",
+    "092.0023": "092.0023",
+    "092.0024": "092.0024",
+    "092.0025": "092.0025",
+    "092.0026": "092.0026",
+    "092.0027": "092.0027",
+    "092.0028": "092.0028",
+    "092.0029": "092.0029",
+    "092.0030": "092.0030",
+    "092.0031": "092.0031",
+    "092.0032": "092.0032",
+    "092.0033": "092.0033",
+    "092.0034": "092.0034",
+    "092.0035": "092.0035",
+    "092.0036": "092.0036",
+    "092.0037": "092.0037",
+    "092.0038": "092.0038",
+    "092.0039": "092.0039",
+    "092.0040": "092.0040",
+    "092.0041": "092.0041",
+    "092.0042": "092.0042",
+    "092.0043": "092.0043",
+    "092.0044": "092.0044",
+    "092.0045": "092.0045",
+    "092.0046": "092.0046",
+    "092.0047": "092.0047",
+    "092.0048": "092.0048",
+    "092.0049": "092.0049",
+    "092.0050": "092.0050",
+    "092.0051": "092.0051",
+    "092.0052": "092.0052",
+    "092.0053": "092.0053",
+    "092.0054": "092.0054",
+    "092.0055": "092.0055",
+    "092.0056": "092.0056",
+    "092.0057": "092.0057",
+    "092.0058": "092.0058",
+    "092.0059": "092.0059",
+    "092.0060": "092.0060",
+    "092.0061": "092.0061",
+    "092.0062": "092.0062",
+    "092.0063": "092.0063",
+    "092.0064": "092.0064",
+    "092.0065": "092.0065",
+    "092.0066": "092.0066",
+    "092.0067": "092.0067",
+    "092.0068": "092.0068",
+    "092.0069": "092.0069",
+    "092.0070": "092.0070",
+    "092.0071": "092.0071",
+    "092.0072": "092.0072",
+    "092.0073": "092.0073",
+    "092.0074": "092.0074",
+    "092.0075": "092.0075",
+    "092.0076": "092.0076",
+    "092.0077": "092.0077",
+    "092.0078": "092.0078",
+    "092.0079": "092.0079",
+    "092.0080": "092.0080",
+    "092.0081": "092.0081",
+    "092.0082": "092.0082",
+    "092.0083": "092.0083",
+    "092.0084": "092.0084",
+    "092.0085": "092.0085",
+    "092.0086": "092.0086",
+    "092.0087": "092.0087",
+    "092.0088": "092.0088",
+    "092.0089": "092.0089",
+    "092.0090": "092.0090",
+    "092.0091": "092.0091",
+    "092.0092": "092.0092",
+    "092.0093": "092.0093",
+    "092.0094": "092.0094",
+    "092.0095": "092.0095",
+    "092.0096": "092.0096",
+    "092.0097": "092.0100",
+    "092.0098": "092.0101",
+    "092.0099": "092.0103",
+    "092.0100": "092.0104",
+    "092.0101": "092.0105",
+    "092.0102": "092.0106",
+    "092.0103": "092.0107",
+    "092.0104": "092.0112",
+    "092.0105": "092.0113",
+    "092.0106": "092.0118",
+    "092.0107": "092.0119",
+    "092.0108": "092.0120",
+    "092.0109": "092.0121",
+    "092.0110": "092.0122",
+    "092.0111": "092.0123",
+    "092.0112": "092.0124",
+    "092.0113": "092.0125",
+    "092.0114": "092.0126",
+    "092.0115": "092.0127",
+    "092.0116": "092.0128",
+    "092.0117": "092.0129",
+    "092.0118": "092.0130",
+    "092.0119": "092.0131",
+    "092.0120": "092.0132",
+    "092.0121": "092.0133",
+    "092.0122": "092.0134",
+    "092.0123": "092.0135",
+    "092.0124": "092.0136",
+    "092.0125": "092.0137",
+    "092.0126": "092.0138",
+    "092.0127": "092.0139",
+    "092.0128": "092.0140",
+    "092.0129": "092.0141",
+    "092.0130": "092.0142",
+    "092.0131": "092.0143",
+    "092.0132": "092.0144",
+    "092.0133": "092.0145",
+    "092.0134": "092.0148",
+    "092.0135": "092.0149",
+    "092.0136": "092.0150",
+    "092.0137": "092.0146",
+    "092.0138": "092.0147",
+    "092.0139": "092.0151",
+    "092.0140": "092.0152",
+    "092.0141": "092.0153",
+    "092.0142": "092.0154",
+    "092.0143": "092.0155",
+    "092.0144": "092.0156",
+    "092.0145": "092.0157",
+    "092.0146": "092.0158",
+    "092.0147": "092.0159",
+    "092.0148": "092.0160",
+    "092.0149": "092.0161",
+    "092.0150": "092.0162",
+    "092.0151": "092.0163",
+    "092.0152": "092.0164",
+    "092.0153": "092.0165",
+    "092.0154": "092.0166",
+    "092.0155": "092.0167",
+    "092.0156": "092.0168",
+    "092.0157": "092.0169",
+    "092.0158": "092.0170",
+    "092.0160": "092.0171",
+    "092.0161": "092.0172",
+    "092.0162": "092.0173",
+    "092.0163": "092.0174",
+    "092.0164": "092.0175",
+    "092.0165": "092.0176",
+    "092.0166": "092.0177",
+    "092.0167": "092.0178",
+    "092.0168": "092.0179",
+    "092.0169": "092.0180",
+    "092.0170": "092.0181",
+    "092.0171": "092.0182",
+    "092.0172": "092.0183",
+    "092.0173": "092.0184",
+    "092.0174": "092.0185",
+    "092.0175": "092.0186",
+    "092.0176": "092.0187",
+    "092.0177": "092.0188",
+    "092.0178": "092.0189",
+    "092.0179": "092.0190",
+    "092.0180": "092.0191",
+    "092.0181": "092.0192",
+    "092.0182": "092.0193",
+    "092.0183": "092.0194",
+    "092.0184": "092.0195",
+    "092.0185": "092.0196",
+    "092.0186": "092.0197",
+    "092.0187": "092.0198",
+    "092.0188": "092.0199",
+    "092.0189": "092.0200",
+    "092.0190": "092.0201",
+    "092.0191": "092.0202",
+    "092.0192": "092.0203",
+    "092.0193": "092.0204",
+    "092.0194": "092.0205",
+    "092.0195": "092.0206",
+    "092.0196": "092.0207",
+    "092.0197": "092.0208",
+    "092.0198": "092.0209",
+    "092.0199": "092.0210",
+    "092.0200": "092.0211",
+    "092.0201": "092.0212",
+    "092.0202": "092.0213",
+    "092.0203": "092.0214",
+    "092.0204": "092.0215",
+    "092.0205": "092.0216",
+    "092.0206": "092.0217",
+    "092.0207": "092.0218",
+    "092.0208": "092.0219",
+    "092.0209": "092.0220",
+    "092.0210": "092.0221",
+    "092.0211": "092.0222",
+    "092.0212": "092.0223",
+    "092.0213": "092.0224",
+    "092.0214": "092.0225",
+    "092.0215": "092.0226",
+    "092.0216": "092.0227",
+    "092.0217": "092.0228",
+    "092.0218": "092.0229",
+    "092.0219": "092.0230",
+    "092.0220": "092.0231",
+    "092.0221": "092.0232",
+    "092.0222": "092.0233",
+    "092.0223": "092.0234",
+    "092.0224": "092.0235",
+    "092.0225": "092.0236",
+    "092.0226": "092.0237",
+    "092.0227": "092.0238",
+    "092.0228": "092.0239",
+    "092.0229": "092.0240",
+    "092.0230": "092.0241",
+    "092.0231": "092.0242",
+    "092.0232": "092.0243",
+    "092.0233": "092.0244",
+    "092.0234": "092.0245",
+    "092.0235": "092.0246",
+    "092.0236": "092.0247",
+    "092.0237": "092.0248",
+    "092.0238": "092.0249",
+    "092.0239": "092.0250",
+    "092.0240": "092.0251",
+    "092.0241": "092.0252",
+    "092.0242": "092.0253",
+    "092.0243": "092.0254",
+    "092.0244": "092.0255",
+    "092.0245": "092.0256",
+    "092.0246": "092.0257",
+    "092.0247": "092.0258",
+    "092.0248": "092.0259",
+    "092.0249": "092.0260",
+    "092.0250": "092.0261",
+    "092.0251": "092.0262",
+    "092.0252": "092.0263",
+    "092.0253": "092.0264",
+    "092.0254": "092.0265",
+    "092.0255": "092.0266",
+    "092.0256": "092.0267",
+    "092.0257": "092.0268",
+    "092.0258": "092.0269",
+    "092.0259": "092.0270",
+    "092.0260": "092.0271",
+    "092.0261": "092.0272",
+    "092.0262": "092.0273",
+    "092.0263": "092.0274",
+    "092.0264": "092.0275",
+    "092.0265": "092.0276",
+    "092.0266": "092.0277",
+    "092.0267": "092.0278",
+    "092.0268": "092.0279",
+    "092.0269": "092.0280",
+    "092.0270": "092.0281",
+    "092.0271": "092.0282",
+    "092.0272": "092.0283",
+    "092.0273": "092.0284",
+    "092.0274": "092.0285",
+    "092.0275": "092.0286",
+    "092.0276": "092.0287",
+    "092.0277": "092.0288",
+    "092.0278": "092.0289",
+    "092.0279": "092.0290",
+    "092.0280": "092.0291",
+    "092.0281": "092.0292",
+    "092.0282": "092.0293",
+    "092.0283": "092.0294",
+    "092.0284": "092.0295",
+    "092.0285": "092.0296",
+    "092.0286": "092.0297",
+    "092.0287": "092.0298",
+    "092.0288": "092.0299",
+    "092.0289": "092.0300",
+    "092.0290": "092.0301",
+    "092.0291": "092.0302",
+    "092.0292": "092.0303",
+    "092.0293": "092.0304",
+    "092.0294": "092.0305",
+    "092.0295": "092.0306",
+    "092.0296": "092.0307",
+    "092.0297": "092.0308",
+    "092.0298": "092.0309",
+    "092.0299": "092.0310",
+    "092.0300": "092.0311",
+    "092.0301": "092.0312",
+    "092.0302": "092.0313",
+    "092.0303": "092.0314",
+    "092.0304": "092.0315",
+    "092.0305": "092.0316",
+    "092.0306": "092.0317",
+    "092.0307": "092.0318",
+    "092.0308": "092.0319",
+    "092.0309": "092.0320",
+    "092.0310": "092.0321",
+    "092.0311": "092.0322",
+    "092.0312": "092.0323",
+    "092.0313": "092.0324",
+    "092.0314": "092.0325",
+    "092.0315": "092.0326",
+    "092.0316": "092.0327",
+    "092.0317": "092.0328",
+    "092.0318": "092.0329",
+    "092.0319": "092.0330",
+    "092.0320": "092.0331",
+    "092.0321": "092.0332",
+    "092.0322": "092.0333",
+    "092.0323": "092.0334",
+    "092.0324": "092.0335",
+    "092.0325": "092.0336",
+    "092.0326": "092.0337",
+    "092.0327": "092.0338",
+    "092.0328": "092.0339",
+    "092.0329": "092.0340",
+    "092.0330": "092.0341",
+    "092.0331": "092.0342",
+    "092.0332": "092.0343",
+    "092.0333": "092.0344",
+    "092.0334": "092.0345",
+    "092.0335": "092.0346",
+    "092.0336": "092.0347",
+    "092.0337": "092.0348",
+    "092.0338": "092.0349",
+    "092.0339": "092.0350",
+    "092.0340": "092.0351",
+    "092.0341": "092.0352",
+    "092.0342": "092.0353",
+    "092.0343": "092.0354",
+    "092.0344": "092.0355",
+    "092.0345": "092.0356",
+    "092.0346": "092.0357",
+    "092.0347": "092.0358",
+    "092.0348": "092.0359",
+    "092.0349": "092.0360",
+    "092.0350": "092.0361",
+    "092.0351": "092.0362",
+    "092.0352": "092.0363",
+    "092.0353": "092.0364",
+    "092.0354": "092.0365",
+    "092.0355": "092.0366",
+    "092.0356": "092.0367",
+    "092.0357": "092.0368",
+    "092.0358": "092.0369",
+    "092.0359": "092.0370",
+    "092.0360": "092.0371",
+    "092.0361": "092.0372",
+    "092.0362": "092.0373",
+    "092.0363": "092.0374",
+    "092.0364": "092.0375",
+    "092.0365": "092.0376",
+    "092.0366": "092.0377",
+    "092.0367": "092.0378",
+    "092.0368": "092.0380",
+    "092.0369": "092.0381",
+    "092.0370": "092.0382",
+    "092.0371": "092.0379",
+    "092.0372": "092.0383",
+    "092.0373": "092.0384",
+    "092.0374": "092.0385",
+    "092.0375": "092.0386",
+    "092.0376": "092.0387",
+    "092.0377": "092.0388",
+    "092.0378": "092.0389",
+    "092.0379": "092.0390",
+    "092.0380": "092.0391",
+    "092.0381": "092.0392",
+    "092.0382": "092.0393",
+    "092.0383": "092.0394",
+    "092.0384": "092.0395",
+    "092.0385": "092.0396",
+    "092.0386": "092.0397",
+    "092.0387": "092.0398",
+    "092.0388": "092.0399",
+    "092.0389": "092.0400",
+    "092.0390": "092.0401",
+    "092.0391": "092.0402",
+    "092.0392": "092.0403",
+    "092.0393": "092.0404",
+    "092.0394": "092.0405",
+    "092.0395": "092.0406",
+    "092.0396": "092.0407",
+    "092.0397": "092.0408",
+    "092.0398": "092.0409",
+    "092.0400": "092.0411",
+    "092.0401": "092.0412",
+    "092.0402": "092.0413",
+    "092.0403": "092.0414",
+    "092.0404": "092.0415",
+    "092.0405": "092.0416",
+    "092.0406": "092.0417",
+    "092.0407": "092.0418",
+    "092.0408": "092.0419",
+    "092.0409": "092.0420",
+    "092.0410": "092.0421",
+    "092.0411": "092.0422",
+    "092.0412": "092.0423",
+    "092.0413": "092.0424",
+    "092.0414": "092.0425",
+    "092.0415": "092.0426",
+    "092.0416": "092.0427",
+    "092.0417": "092.0428",
+    "092.0418": "092.0429",
+    "092.0419": "092.0430",
+    "092.0420": "092.0431",
+    "092.0421": "092.0432",
+    "092.0422": "092.0433",
+    "092.0423": "092.0434",
+    "092.0424": "092.0435",
+    "092.0425": "092.0436",
+    "092.0426": "092.0437",
+    "092.0427": "092.0438",
+    "092.0428": "092.0439",
+    "092.0429": "092.0440",
+    "092.0430": "092.0441",
+    "092.0431": "092.0442",
+    "092.0432": "092.0443",
+    "092.0433": "092.0444",
+    "092.0434": "092.0445",
+    "092.0435": "092.0446",
+    "092.0436": "092.0447",
+    "092.0437": "092.0448",
+    "092.0438": "092.0449",
+    "092.0439": "092.0450",
+    "092.0440": "092.0451"
+  },
+  "changed_ids": 342,
+  "new_paragraphs": [
+    {
+      "id": "092.0097",
+      "file": "1881-06-05.md"
+    },
+    {
+      "id": "092.0098",
+      "file": "1881-06-05.md"
+    },
+    {
+      "id": "092.0099",
+      "file": "1881-06-05.md"
+    },
+    {
+      "id": "092.0102",
+      "file": "1881-06-06.md"
+    },
+    {
+      "id": "092.0108",
+      "file": "1881-06-11.md"
+    },
+    {
+      "id": "092.0109",
+      "file": "1881-06-11.md"
+    },
+    {
+      "id": "092.0110",
+      "file": "1881-06-11.md"
+    },
+    {
+      "id": "092.0111",
+      "file": "1881-06-11.md"
+    },
+    {
+      "id": "092.0114",
+      "file": "1881-06-13.md"
+    },
+    {
+      "id": "092.0115",
+      "file": "1881-06-13.md"
+    },
+    {
+      "id": "092.0116",
+      "file": "1881-06-13.md"
+    },
+    {
+      "id": "092.0117",
+      "file": "1881-06-13.md"
+    },
+    {
+      "id": "092.0410",
+      "file": "1881-08-12.md"
+    }
+  ],
+  "dropped": [
+    {
+      "id": "092.0159",
+      "reason": "no date line for this day in the manuscript (tome14.docx ¶1976–¶1988: Samedi 2 juillet is followed by Lundi 4 juillet); «[Pas d'entrée pour cette date]» stub",
+      "rewritten_as": "092.DROPPED-0159"
+    },
+    {
+      "id": "092.0399",
+      "reason": "duplicate of 092.0402 (extraction artefact): docx ¶2345 «Eh bien j'y travaille deux heures…» occurs once, under Samedi 13 août; its slot under 12 Aug holds ¶2338, restored as a new paragraph",
+      "rewritten_as": "092.DROPPED-0399"
+    }
+  ],
+  "file_map": {},
+  "files_removed": [
+    "1881-07-03.md"
+  ],
+  "files_added": [],
+  "last_id": "092.0451",
+  "flag_resets": {
+    "cz": [
+      "1881-06-05.md",
+      "1881-06-06.md",
+      "1881-06-11.md",
+      "1881-06-12.md",
+      "1881-06-13.md",
+      "1881-06-14.md",
+      "1881-06-19.md",
+      "1881-06-20.md",
+      "1881-06-21.md",
+      "1881-06-22.md",
+      "1881-08-07.md",
+      "1881-08-08.md",
+      "1881-08-12.md"
+    ],
+    "uk": [
+      "1881-06-05.md",
+      "1881-06-06.md",
+      "1881-06-11.md",
+      "1881-06-12.md",
+      "1881-06-13.md",
+      "1881-06-14.md",
+      "1881-06-19.md",
+      "1881-06-20.md",
+      "1881-06-21.md",
+      "1881-06-22.md",
+      "1881-08-07.md",
+      "1881-08-08.md",
+      "1881-08-12.md"
+    ],
+    "en": [
+      "1881-06-05.md",
+      "1881-06-06.md",
+      "1881-06-11.md",
+      "1881-06-12.md",
+      "1881-06-13.md",
+      "1881-06-14.md",
+      "1881-06-19.md",
+      "1881-06-20.md",
+      "1881-06-21.md",
+      "1881-06-22.md",
+      "1881-08-07.md",
+      "1881-08-08.md",
+      "1881-08-12.md"
+    ],
+    "fr": [
+      "1881-06-05.md",
+      "1881-06-06.md",
+      "1881-06-11.md",
+      "1881-06-12.md",
+      "1881-06-13.md",
+      "1881-06-14.md",
+      "1881-06-19.md",
+      "1881-06-20.md",
+      "1881-06-21.md",
+      "1881-06-22.md",
+      "1881-08-07.md",
+      "1881-08-08.md",
+      "1881-08-12.md"
+    ]
+  },
+  "plan": {
+    "carnet": "092",
+    "source": "tome14.docx",
+    "_draft": "rebuild-draft-plan 2026-09-28: a draft — read REVIEW.md before using it",
+    "drop": [
+      {
+        "id": "092.0159",
+        "reason": "no date line for this day in the manuscript (tome14.docx ¶1976–¶1988: Samedi 2 juillet is followed by Lundi 4 juillet); «[Pas d'entrée pour cette date]» stub"
+      },
+      {
+        "id": "092.0399",
+        "reason": "duplicate of 092.0402 (extraction artefact): docx ¶2345 «Eh bien j'y travaille deux heures…» occurs once, under Samedi 13 août; its slot under 12 Aug holds ¶2338, restored as a new paragraph"
+      }
+    ],
+    "entries": [
+      {
+        "file": "1881-05-15.md",
+        "date": "1881-05-15",
+        "heading": "Dimanche 15 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0001"
+          },
+          {
+            "old": "092.0002"
+          },
+          {
+            "old": "092.0003"
+          },
+          {
+            "old": "092.0004"
+          },
+          {
+            "old": "092.0005"
+          },
+          {
+            "old": "092.0006"
+          },
+          {
+            "old": "092.0007"
+          },
+          {
+            "old": "092.0008"
+          },
+          {
+            "old": "092.0009"
+          },
+          {
+            "old": "092.0010"
+          },
+          {
+            "old": "092.0011"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-16.md",
+        "date": "1881-05-16",
+        "heading": "Lundi 16 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0012"
+          },
+          {
+            "old": "092.0013"
+          },
+          {
+            "old": "092.0014"
+          },
+          {
+            "old": "092.0015"
+          },
+          {
+            "old": "092.0016"
+          },
+          {
+            "old": "092.0017"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-17.md",
+        "date": "1881-05-17",
+        "heading": "Mardi 17 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0018"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-18.md",
+        "date": "1881-05-18",
+        "heading": "Mercredi 18 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0019"
+          },
+          {
+            "old": "092.0020"
+          },
+          {
+            "old": "092.0021"
+          },
+          {
+            "old": "092.0022"
+          },
+          {
+            "old": "092.0023"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-19.md",
+        "date": "1881-05-19",
+        "heading": "Jeudi 19 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0024"
+          },
+          {
+            "old": "092.0025"
+          },
+          {
+            "old": "092.0026"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-20.md",
+        "date": "1881-05-20",
+        "heading": "Vendredi 20 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0027"
+          },
+          {
+            "old": "092.0028"
+          },
+          {
+            "old": "092.0029"
+          },
+          {
+            "old": "092.0030"
+          },
+          {
+            "old": "092.0031"
+          },
+          {
+            "old": "092.0032"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-21.md",
+        "date": "1881-05-21",
+        "heading": "Samedi 21 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0033"
+          },
+          {
+            "old": "092.0034"
+          },
+          {
+            "old": "092.0035"
+          },
+          {
+            "old": "092.0036"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-22.md",
+        "date": "1881-05-22",
+        "heading": "Dimanche 22 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0037"
+          },
+          {
+            "old": "092.0038"
+          },
+          {
+            "old": "092.0039"
+          },
+          {
+            "old": "092.0040"
+          },
+          {
+            "old": "092.0041"
+          },
+          {
+            "old": "092.0042"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-23.md",
+        "date": "1881-05-23",
+        "heading": "Lundi 23 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0043"
+          },
+          {
+            "old": "092.0044"
+          },
+          {
+            "old": "092.0045"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-24.md",
+        "date": "1881-05-24",
+        "heading": "Mardi 24 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0046"
+          },
+          {
+            "old": "092.0047"
+          },
+          {
+            "old": "092.0048"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-25.md",
+        "date": "1881-05-25",
+        "heading": "Mercredi 25 mai 1881 - Berlin",
+        "paragraphs": [
+          {
+            "old": "092.0049"
+          },
+          {
+            "old": "092.0050"
+          },
+          {
+            "old": "092.0051"
+          },
+          {
+            "old": "092.0052"
+          },
+          {
+            "old": "092.0053"
+          },
+          {
+            "old": "092.0054"
+          },
+          {
+            "old": "092.0055"
+          },
+          {
+            "old": "092.0056"
+          },
+          {
+            "old": "092.0057"
+          },
+          {
+            "old": "092.0058"
+          },
+          {
+            "old": "092.0059"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-26.md",
+        "date": "1881-05-26",
+        "heading": "Jeudi 26 mai 1881 - Fastow près Kiev",
+        "paragraphs": [
+          {
+            "old": "092.0060"
+          },
+          {
+            "old": "092.0061"
+          },
+          {
+            "old": "092.0062"
+          },
+          {
+            "old": "092.0063"
+          },
+          {
+            "old": "092.0064"
+          },
+          {
+            "old": "092.0065"
+          },
+          {
+            "old": "092.0066"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-27.md",
+        "date": "1881-05-27",
+        "heading": "Vendredi 27 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0067"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-28.md",
+        "date": "1881-05-28",
+        "heading": "Samedi 28 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0068"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-29.md",
+        "date": "1881-05-29",
+        "heading": "Dimanche 29 mai 1881 - Gavronzi",
+        "paragraphs": [
+          {
+            "old": "092.0069"
+          },
+          {
+            "old": "092.0070"
+          },
+          {
+            "old": "092.0071"
+          },
+          {
+            "old": "092.0072"
+          },
+          {
+            "old": "092.0073"
+          },
+          {
+            "old": "092.0074"
+          },
+          {
+            "old": "092.0075"
+          },
+          {
+            "old": "092.0076"
+          },
+          {
+            "old": "092.0077"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-30.md",
+        "date": "1881-05-30",
+        "heading": "Lundi 30 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0078"
+          },
+          {
+            "old": "092.0079"
+          },
+          {
+            "old": "092.0080"
+          },
+          {
+            "old": "092.0081"
+          }
+        ]
+      },
+      {
+        "file": "1881-05-31.md",
+        "date": "1881-05-31",
+        "heading": "Mardi 31 mai 1881",
+        "paragraphs": [
+          {
+            "old": "092.0082"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-01.md",
+        "date": "1881-06-01",
+        "heading": "Mercredi 1er juin 1881",
+        "paragraphs": [
+          {
+            "old": "092.0083"
+          },
+          {
+            "old": "092.0084"
+          },
+          {
+            "old": "092.0085"
+          },
+          {
+            "old": "092.0086"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-02.md",
+        "date": "1881-06-02",
+        "heading": "Jeudi 2 juin 1881 - 21 mai",
+        "paragraphs": [
+          {
+            "old": "092.0087"
+          },
+          {
+            "old": "092.0088"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-03.md",
+        "date": "1881-06-03",
+        "heading": "Vendredi 3 juin 1881 - 22 mai",
+        "paragraphs": [
+          {
+            "old": "092.0089"
+          },
+          {
+            "old": "092.0090"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-04.md",
+        "date": "1881-06-04",
+        "heading": "Samedi 4 juin 1881 - 23 mai",
+        "paragraphs": [
+          {
+            "old": "092.0091"
+          },
+          {
+            "old": "092.0092"
+          },
+          {
+            "old": "092.0093"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-05.md",
+        "date": "1881-06-05",
+        "heading": "Dimanche 5 juin 1881 - 24 mai",
+        "paragraphs": [
+          {
+            "old": "092.0094"
+          },
+          {
+            "old": "092.0095"
+          },
+          {
+            "old": "092.0096"
+          },
+          {
+            "new": {
+              "french": "On va dire qu’on ne raconte les “pressentiments\" qu’après l’évènement, c’est que on n’ose pas dire de peur d’appeler le malheur... Mais quand j’ai appris la maladie de Tony [Mot noirci: cela m’a] fait un drôle d’effet, pas comme les autres fois qu’il était malade... et tout en voyageant je me disais que c’est [Mot noirci: après.] qu’il mourra sans me croire moi-même. Enfin Dieu fera peut-être qu’il nous le laissera. A propos de pressentiment je n’en ai jamais eu de plus mauvais que pour ce voyage. Il me semblait que je mourrais de douleur si je laissais partir maman et qu’il m’arriverait Dieu sait quoi si je partais moi-même de là ces cruelles hésitations. Et l’impression de l’arrivée ! Maintenant ça va. Mais Tony... Oh ! si Dieu était bon... Vous croyez peut-être que je parle de Dieu ou de sentiments, jamais de la vie. Quand je parle je blague et plus il y a lieu d’être sensible plus je blague pour détruire jusqu’à l’apparence de cœur ou d’âme. Ainsi à l’égard de Tony tout ce que je me permets c’est de dire: Non d’un chien ça m’embêterait fortement si ce pauvre Tony... Ou bien alors je dis qu’on ne m’en parle pas.",
+              "rsr": "Restored from tome14.docx ¶1885, Mon Journal t.14 p.145 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C’est maman qui m’ennuie toujours... La voilà qui fait de l’émotion sur Tony ! Ça ne regarde que moi, ça c’est comme quand elle parle peinture ou invente mes succès, dix hommes en mourraient si on pouvait être tué par les ridicules exagérations. La voilà qui dans un moment d’expansion dit que Julian me doit sa décoration, que c’est ma présence qui lui a porté bonheur. “Il me l’a dit”. Alors la présence des cent cinquante autres élèves ? Dame, ça ne s’explique pas, affaire de sentiments, sans parler des fleurs de Mme de Peronney, la voilà qui est allée embêter Tony sans que je le sache, en lui recommander et un tas de choses gauches, j’en suis sûre. Le talent de me créer des positions d’une fausseté !... Me couvrir de ridicule enfin et plus je la supplie de ne pas me désespérer plus elle s’en cache mais le fait tout de même.",
+              "rsr": "Restored from tome14.docx ¶1886, Mon Journal t.14 p.145 (missing from original extraction, 2026-09-28 rebuild). printed «cinquantre» (Mon Journal t.14 p.145) corrected to «cinquante», a typesetting typo."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin demain je saurai le sort de ce pauvre Tony.",
+              "rsr": "Restored from tome14.docx ¶1887, Mon Journal t.14 p.145 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1881-06-06.md",
+        "date": "1881-06-06",
+        "heading": "Lundi 6 juin 1881 - 25 mai",
+        "paragraphs": [
+          {
+            "old": "092.0097"
+          },
+          {
+            "old": "092.0098"
+          },
+          {
+            "new": {
+              "french": "Voilà ce que Zola dit de Jules Vallès... Une sensibilité cachée comme un ridicule, une brutalité souvent voulue et par dessus tout la passion de la vie, du grouillement humain, vous aurez toute sa nature avec cela très gai “blaguant\" tout de suite peut- être de peur d’ête blagué, cachant ses larmes sous une ironie féroce. Je crois que ça me ressemble. Mais on a l’air bête quand on s’apprécie comme ça soi-même.",
+              "rsr": "Restored from tome14.docx ¶1894, Mon Journal t.14 p.146 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1881-06-07.md",
+        "date": "1881-06-07",
+        "heading": "Mardi 7 juin 1881 - 26 mai",
+        "paragraphs": [
+          {
+            "old": "092.0099"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-08.md",
+        "date": "1881-06-08",
+        "heading": "Mercredi 8 juin 1881 - 27 mai",
+        "paragraphs": [
+          {
+            "old": "092.0100"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-09.md",
+        "date": "1881-06-09",
+        "heading": "Jeudi 9 juin 1881 - 28 mai",
+        "paragraphs": [
+          {
+            "old": "092.0101"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-10.md",
+        "date": "1881-06-10",
+        "heading": "Vendredi 10 juin 1881 - 29 mai",
+        "paragraphs": [
+          {
+            "old": "092.0102"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-11.md",
+        "date": "1881-06-11",
+        "heading": "Samedi 11 juin 1881 - 30 mai",
+        "paragraphs": [
+          {
+            "old": "092.0103",
+            "set_french": "# Samedi 11 juin 1881\nHier donc nous sommes allés à Poltava, mon père devait y aller officiellement pour voir le prince Sviatopolk-Mirsky[^1], général gouverneur de trois ou cinq provinces qui vient passer vingt-quatre heures à Poltava. Il pleuvait et ne pouvant travailler j'ai voulu venir. Mon père en était un peu gêné, comme je n'avais pas fait de visite à Mme Abaza, il craignait d'être invité seul à dîner, ce qui du reste est arrivé. Abaza est maire de la ville (c'est plus que les maires français, il n'y en a qu'un) et le Prince est logé chez lui. Donc tous ces idiots en uniformes sont allés le recevoir à la gare, puis dîner chez Abaza, réception officielle des fonctionnaires à huit heures. Maman et moi sommes allées chez les Trégouboff, madame est la sœur de la petite tante, la femme à Etienne, Dina et sa sœur Lola logées là viennent dîner avec nous. Puis un cousin à elles, M. Votrogradsky, officier de hussards je crois; le jeune homme délirant de Poltava. Nous allons au théâtre, où de malheureux acteurs jouaient devant une salle vide et puis le soir papa par de petits détours enfantins et voilés se mit à s'excuser pour le dîner Abaza, je lui répondais que je ne comprenais pas ce qu'il disait et ennuyé à tout cela suis allée me coucher en disant que j'étais vraiment une bête de sacrifier ma santé, de venir m'enterrer ici mais que c'est la dernière fois. J'ai eu ainsi l'air d'être venue en Russie pour lui. Il disait toujours qu'il en aurait été autrement si je n'avais pas déclaré dix fois ne vouloir voir personne et juré de me cacher s'il venait du monde. J'ai répondu que je refusais de voir le monde de Poltava certainement, que j'estime indigne de moi. Il est venu dans ma chambre toujours avec des discours: “l'union fait la force, ne me décourage pas, ces petits coups d'épingles m'ôtent envie de faire quoique ce soit”. Bien sûr je lui ai répondu que s'il venait me parler de tout cela je n'aurais rien à lui dire lui ayant tout expliqué trente fois et qu'il me laisse tranquille."
+          },
+          {
+            "new": {
+              "french": "Non c’est vraiment ridicule et j’en ai assez par dessus les yeux. Ce n’est pas ce dîner car en somme c’est correct mais tout. Qu’est-ce qu’il vient me dire encore, n’est-il pas venu m’offrir des arrangements et des promesses n’exigeant même plus que je fasse ce voyage, le voyage n’était plus une condition sine qua non, il devait sans cela tout faire. Et puis voilà que je le fais ce sacré voyage pour une raison ou pour une autre mais je le fais et rien n’a l’air tranché, tout est en question. Ah ! que le diable les patafiole. Rien ne peut exprimer à quel point j’en suis fatiguée.",
+              "rsr": "Restored from tome14.docx ¶1905, Mon Journal t.14 p.147 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Vers quatre heures nous revenons à Gavronzi. M. Sperandio le mari de la sœur de Pacha est arrivé. Il est d’Ancone je crois et connaît les Bruschetti, le comte Vincenzo Bruschetti si indignement blackboulé par votre servante s’est marié et le voilà veuf avec un enfant. Son frère est mort et le voilà à la tête de deux cent mille francs de rente. Déjà de mauvaise humeur ceci m’achève...",
+              "rsr": "Restored from tome14.docx ¶1906, Mon Journal t.14 p.147 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce n’est pas une vie ça ! Mais il ne faut pas songer de retourner à Rome *comme avant,* sans cela j’aurais peut-être pu rallumer l’ancienne flamme.",
+              "rsr": "Restored from tome14.docx ¶1907, Mon Journal t.14 p.147 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais impossible dans de mauvaises conditions.",
+              "rsr": "Restored from tome14.docx ¶1908, Mon Journal t.14 p.147 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1881-06-12.md",
+        "date": "1881-06-12",
+        "heading": "Dimanche 12 juin 1881 - 31 mai",
+        "paragraphs": [
+          {
+            "old": "092.0104",
+            "set_french": "# Dimanche 12 juin 1881\n[Aucun texte - date seule mentionnée]"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-13.md",
+        "date": "1881-06-13",
+        "heading": "Lundi 13 juin 1881 - 1er juin",
+        "paragraphs": [
+          {
+            "old": "092.0105",
+            "set_french": "# Lundi 13 juin 1881\nJ'ai commencé une paysanne grandeur nature, debout, appuyée à une haie tressée avec des branches sèches comme un panier. On a mis de la paille et des planches par terre pour me préserver de l'humidité et on a placé là un petit pavillon ambulant composé de deux pièces, de sorte que je suis admirablement."
+          },
+          {
+            "new": {
+              "french": "Maman, Paul, Nini, papa, Michel, Dina et Sperandio restent là une partie de la journée. Dina s’est costumée en paysanne (le nez poudré), ça lui va mais elle a cet air inspiré, de défi, lascif, qui me dégoûte beaucoup. Je crois qu’il y a eu quelques flirtations [Mots noircis: avec Michel] cet hiver car c’est évidemment à cause de son arrivée qu’elle a pris cet air aujourd’hui.",
+              "rsr": "Restored from tome14.docx ¶1915, Mon Journal t.14 p.148 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Michel est d’un froid glacial du reste. C’est égal c’est dégoûtant cette expression de visage et de corps, il y a là je ne sais quoi qui me cause comme de la honte, une sorte de souffrance, d’inquiétude. Michel a apporté des fleurs et à dessein a oublié d’en offrir à Dina. Il m’a apporté de la toile pour peindre et est aimable avec moi infiniment plus qu’avec elle parce que je suis absolument indifférente peut-être. Michel, le chat, Nini ou n’importe quoi; avec tout le monde la même bienveillance indifférente et presque dédaigneuse. [Rayé : ce n’est pas une cause]",
+              "rsr": "Restored from tome14.docx ¶1916, Mon Journal t.14 p.148 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je voudrais bien pouvoir dire que je me suis composée ce maintien mais [Mots noircis: je crois], parce que c’est mon sentiment. Je suis triste et découragée, ce qui me rend [Mot noirci: gênante]",
+              "rsr": "Restored from tome14.docx ¶1917, Mon Journal t.14 p.148 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce soir nous avons joué à la roulette. Je tâche de faire n’importe quoi le soir pour ne pas lire, ce qui me fatigue les yeux.",
+              "rsr": "Restored from tome14.docx ¶1918, Mon Journal t.14 p.148 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1881-06-14.md",
+        "date": "1881-06-14",
+        "heading": "Mardi 14 juin 1881 - 2 juin",
+        "paragraphs": [
+          {
+            "old": "092.0106",
+            "set_french": "# Mardi 14 juin 1881\nJournée plus animée que les autres, je me suis laissée aller à la paresse, il pleut. Nous jouons aux cartes. Le soir mon père revient de Poltava et amène Vassya Lyahewitch un bon type d'ici qui ressemble un peu à Robert Mitchell.[^1] Quatre nouveaux extraits de journaux arrivent de Paris dont deux petits éreintements. Mais ça ne fait rien. Le \"Sport\" a parlé par la complaisance de Saint Agathe et puis les autres ont fait chorus. Il y en a à l'heure qu'il [est] vingt qui ont parlé de mon tableau dont trois éreintements dont un par P. Orell."
+          }
+        ]
+      },
+      {
+        "file": "1881-06-15.md",
+        "date": "1881-06-15",
+        "heading": "Mercredi 15 juin 1881 - 3 juin",
+        "paragraphs": [
+          {
+            "old": "092.0107"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-16.md",
+        "date": "1881-06-16",
+        "heading": "Jeudi 16 juin 1881 - 4 juin",
+        "paragraphs": [
+          {
+            "old": "092.0108"
+          },
+          {
+            "old": "092.0109"
+          },
+          {
+            "old": "092.0110"
+          },
+          {
+            "old": "092.0111"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-17.md",
+        "date": "1881-06-17",
+        "heading": "Vendredi 17 juin 1881 - 5 juin",
+        "paragraphs": [
+          {
+            "old": "092.0112"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-18.md",
+        "date": "1881-06-18",
+        "heading": "Samedi 18 juin 1881 - 6 juin",
+        "paragraphs": [
+          {
+            "old": "092.0113"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-19.md",
+        "date": "1881-06-19",
+        "heading": "Dimanche 19 juin 1881 - 7 juin",
+        "paragraphs": [
+          {
+            "old": "092.0114"
+          },
+          {
+            "old": "092.0115"
+          },
+          {
+            "old": "092.0116"
+          },
+          {
+            "old": "092.0117"
+          },
+          {
+            "old": "092.0118"
+          },
+          {
+            "old": "092.0119"
+          },
+          {
+            "old": "092.0120",
+            "kind": "margin"
+          },
+          {
+            "old": "092.0121",
+            "kind": "margin"
+          },
+          {
+            "old": "092.0122"
+          },
+          {
+            "old": "092.0123"
+          },
+          {
+            "old": "092.0124"
+          },
+          {
+            "old": "092.0125"
+          },
+          {
+            "old": "092.0126"
+          },
+          {
+            "old": "092.0127",
+            "set_french": "Hier j'ai cassé ma glace, ça m'a fait froid et chaud. C'est un mauvais présage... j'en casse assez souvent, il est vrai que je ne"
+          },
+          {
+            "old": "092.0128"
+          },
+          {
+            "old": "092.0129"
+          },
+          {
+            "old": "092.0130"
+          },
+          {
+            "old": "092.0131"
+          },
+          {
+            "old": "092.0132"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-20.md",
+        "date": "1881-06-20",
+        "heading": "Lundi 20 juin 1881 - 8 juin",
+        "paragraphs": [
+          {
+            "old": "092.0133",
+            "set_french": "# Lundi 20 juin 1881\n[Aucun texte - date seule mentionnée]"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-21.md",
+        "date": "1881-06-21",
+        "heading": "Mardi 21 juin 1881 - 9 juin",
+        "paragraphs": [
+          {
+            "old": "092.0137",
+            "set_french": "# Mardi 21 juin 1881\n[Aucun texte - date seule mentionnée]"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-22.md",
+        "date": "1881-06-22",
+        "heading": "Mercredi 22 juin 1881 - 10 juin",
+        "paragraphs": [
+          {
+            "old": "092.0138",
+            "set_french": "# Mercredi 22 juin 1881\nJe me disais, plus souvent que vous en pensez que je suis injuste envers maman et les autres; qu'elle fait tout ce qu'elle peut etc. Bien je vous dirai en passant qu'elle m'a juré à genoux et en larmes me baisant les mains que dès son arrivée ici le ciel et la terre seront remués et qu'elle n'aura qu'une pensée finir l'affaire et revenir. Vous rappelez-vous les lettres sur lesquelles je m'attendrissais et où elle me disait à moi et â ma tante qu'elle ne me survivrait pas un quart d'heure. Et pas plus tard qu'avant-hier Paul et sa femme m'ont raconté les évanouissements, spasmes et sanglots de maman à la réception des télégrammes et lettres annonçant ma fin prochaine cet hiver. Nous voici à la campagne [Mots noircis: pour des] semaines, depuis trois semaines, je lui parle tous les jours de l'affaire répétant que j'irais à Paris et n'en bougerais pas sans elle et ne me soignerai pas. Et elle m'a toujours juré que seules les démarches nécessaires étaient faites. J'ai eu la bêtise de presque croire. *Et ce n'est qu'aujour-d-hui* que la première démarche a été faite... L'avocat est venu aujourd'hui et en apprenant tout je me suis mise à pleurer... [Mots noircis: Ce serait maintenant] la source à sentiments et le prétexte à inquiétudes mortelles sans lesquelles ni maman ni ma tante peu intelligentes et oisives et isolées du monde ne peuvent vivre. Très"
+          },
+          {
+            "old": "092.0134"
+          },
+          {
+            "old": "092.0135"
+          },
+          {
+            "old": "092.0136"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-23.md",
+        "date": "1881-06-23",
+        "heading": "Jeudi 23 juin 1881 - 11 juin",
+        "paragraphs": [
+          {
+            "old": "092.0139"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-24.md",
+        "date": "1881-06-24",
+        "heading": "Vendredi 24 juin 1881 - 12 juin",
+        "paragraphs": [
+          {
+            "old": "092.0140"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-25.md",
+        "date": "1881-06-25",
+        "heading": "Samedi 25 juin 1881 - 13 juin",
+        "paragraphs": [
+          {
+            "old": "092.0141"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-26.md",
+        "date": "1881-06-26",
+        "heading": "Dimanche 26 juin 1881 - 14 juin",
+        "paragraphs": [
+          {
+            "old": "092.0142"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-27.md",
+        "date": "1881-06-27",
+        "heading": "Lundi 27 juin 1881 - 15 juin",
+        "paragraphs": [
+          {
+            "old": "092.0143"
+          },
+          {
+            "old": "092.0144"
+          },
+          {
+            "old": "092.0145"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-28.md",
+        "date": "1881-06-28",
+        "heading": "Mardi 28 juin 1881 - 16 juin",
+        "paragraphs": [
+          {
+            "old": "092.0146"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-29.md",
+        "date": "1881-06-29",
+        "heading": "Mercredi 29 juin 1881 - 17 juin",
+        "paragraphs": [
+          {
+            "old": "092.0147"
+          }
+        ]
+      },
+      {
+        "file": "1881-06-30.md",
+        "date": "1881-06-30",
+        "heading": "Jeudi 30 juin 1881 - 18 juin",
+        "paragraphs": [
+          {
+            "old": "092.0148"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-01.md",
+        "date": "1881-07-01",
+        "heading": "Vendredi 1er juillet 1881 - 19 juin",
+        "paragraphs": [
+          {
+            "old": "092.0149"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-02.md",
+        "date": "1881-07-02",
+        "heading": "Samedi 2 juillet 1881 - 20 juin",
+        "paragraphs": [
+          {
+            "old": "092.0150"
+          },
+          {
+            "old": "092.0151"
+          },
+          {
+            "old": "092.0152"
+          },
+          {
+            "old": "092.0153"
+          },
+          {
+            "old": "092.0154"
+          },
+          {
+            "old": "092.0155"
+          },
+          {
+            "old": "092.0156"
+          },
+          {
+            "old": "092.0157"
+          },
+          {
+            "old": "092.0158"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-04.md",
+        "date": "1881-07-04",
+        "heading": "Lundi 4 juillet 1881 - 22 juin",
+        "paragraphs": [
+          {
+            "old": "092.0160"
+          },
+          {
+            "old": "092.0161"
+          },
+          {
+            "old": "092.0162"
+          },
+          {
+            "old": "092.0163"
+          },
+          {
+            "old": "092.0164"
+          },
+          {
+            "old": "092.0165"
+          },
+          {
+            "old": "092.0166"
+          },
+          {
+            "old": "092.0167"
+          },
+          {
+            "old": "092.0168"
+          },
+          {
+            "old": "092.0169"
+          },
+          {
+            "old": "092.0170"
+          },
+          {
+            "old": "092.0171"
+          },
+          {
+            "old": "092.0172"
+          },
+          {
+            "old": "092.0173"
+          },
+          {
+            "old": "092.0174"
+          },
+          {
+            "old": "092.0175"
+          },
+          {
+            "old": "092.0176"
+          },
+          {
+            "old": "092.0177"
+          },
+          {
+            "old": "092.0178"
+          },
+          {
+            "old": "092.0179"
+          },
+          {
+            "old": "092.0180"
+          },
+          {
+            "old": "092.0181"
+          },
+          {
+            "old": "092.0182"
+          },
+          {
+            "old": "092.0183"
+          },
+          {
+            "old": "092.0184"
+          },
+          {
+            "old": "092.0185"
+          },
+          {
+            "old": "092.0186"
+          },
+          {
+            "old": "092.0187"
+          },
+          {
+            "old": "092.0188"
+          },
+          {
+            "old": "092.0189"
+          },
+          {
+            "old": "092.0190"
+          },
+          {
+            "old": "092.0191"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-05.md",
+        "date": "1881-07-05",
+        "heading": "Mardi 5 juillet 1881 - 23 juin",
+        "paragraphs": [
+          {
+            "old": "092.0192"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-06.md",
+        "date": "1881-07-06",
+        "heading": "Mercredi 6 juillet 1881 - 24 juin",
+        "paragraphs": [
+          {
+            "old": "092.0193"
+          },
+          {
+            "old": "092.0194"
+          },
+          {
+            "old": "092.0195"
+          },
+          {
+            "old": "092.0196"
+          },
+          {
+            "old": "092.0197"
+          },
+          {
+            "old": "092.0198"
+          },
+          {
+            "old": "092.0199"
+          },
+          {
+            "old": "092.0200"
+          },
+          {
+            "old": "092.0201"
+          },
+          {
+            "old": "092.0202"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-07.md",
+        "date": "1881-07-07",
+        "heading": "Jeudi 7 juillet 1881 - 25 juin",
+        "paragraphs": [
+          {
+            "old": "092.0203"
+          },
+          {
+            "old": "092.0204"
+          },
+          {
+            "old": "092.0205"
+          },
+          {
+            "old": "092.0206"
+          },
+          {
+            "old": "092.0207"
+          },
+          {
+            "old": "092.0208"
+          },
+          {
+            "old": "092.0209"
+          },
+          {
+            "old": "092.0210"
+          },
+          {
+            "old": "092.0211"
+          },
+          {
+            "old": "092.0212"
+          },
+          {
+            "old": "092.0213"
+          },
+          {
+            "old": "092.0214"
+          },
+          {
+            "old": "092.0215"
+          },
+          {
+            "old": "092.0216"
+          },
+          {
+            "old": "092.0217"
+          },
+          {
+            "old": "092.0218"
+          },
+          {
+            "old": "092.0219"
+          },
+          {
+            "old": "092.0220"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-08.md",
+        "date": "1881-07-08",
+        "heading": "Vendredi 8 juillet 1881 - 26 juin",
+        "paragraphs": [
+          {
+            "old": "092.0221"
+          },
+          {
+            "old": "092.0222"
+          },
+          {
+            "old": "092.0223"
+          },
+          {
+            "old": "092.0224"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-09.md",
+        "date": "1881-07-09",
+        "heading": "Samedi 9 juillet 1881 - 27 juin",
+        "paragraphs": [
+          {
+            "old": "092.0225"
+          },
+          {
+            "old": "092.0226"
+          },
+          {
+            "old": "092.0227"
+          },
+          {
+            "old": "092.0228"
+          },
+          {
+            "old": "092.0229"
+          },
+          {
+            "old": "092.0230"
+          },
+          {
+            "old": "092.0231"
+          },
+          {
+            "old": "092.0232"
+          },
+          {
+            "old": "092.0233"
+          },
+          {
+            "old": "092.0234"
+          },
+          {
+            "old": "092.0235"
+          },
+          {
+            "old": "092.0236"
+          },
+          {
+            "old": "092.0237"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-10.md",
+        "date": "1881-07-10",
+        "heading": "Dimanche 10 juillet 1881 - 28 juin",
+        "paragraphs": [
+          {
+            "old": "092.0238"
+          },
+          {
+            "old": "092.0239"
+          },
+          {
+            "old": "092.0240"
+          },
+          {
+            "old": "092.0241"
+          },
+          {
+            "old": "092.0242"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-11.md",
+        "date": "1881-07-11",
+        "heading": "Lundi 11 juillet 1881 - 29 juin",
+        "paragraphs": [
+          {
+            "old": "092.0243"
+          },
+          {
+            "old": "092.0244"
+          },
+          {
+            "old": "092.0245"
+          },
+          {
+            "old": "092.0246"
+          },
+          {
+            "old": "092.0247"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-12.md",
+        "date": "1881-07-12",
+        "heading": "Mardi 12 juillet 1881 - 30 juin",
+        "paragraphs": [
+          {
+            "old": "092.0248"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-13.md",
+        "date": "1881-07-13",
+        "heading": "Mercredi 13 juillet 1881 - 1er juillet",
+        "paragraphs": [
+          {
+            "old": "092.0249"
+          },
+          {
+            "old": "092.0250"
+          },
+          {
+            "old": "092.0251"
+          },
+          {
+            "old": "092.0252"
+          },
+          {
+            "old": "092.0253"
+          },
+          {
+            "old": "092.0254"
+          },
+          {
+            "old": "092.0255"
+          },
+          {
+            "old": "092.0256"
+          },
+          {
+            "old": "092.0257"
+          },
+          {
+            "old": "092.0258"
+          },
+          {
+            "old": "092.0259"
+          },
+          {
+            "old": "092.0260"
+          },
+          {
+            "old": "092.0261"
+          },
+          {
+            "old": "092.0262"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-14.md",
+        "date": "1881-07-14",
+        "heading": "Jeudi 14 juillet 1881 - 2 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0263"
+          },
+          {
+            "old": "092.0264"
+          },
+          {
+            "old": "092.0265"
+          },
+          {
+            "old": "092.0266"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-15.md",
+        "date": "1881-07-15",
+        "heading": "Vendredi 15 juillet 1881 - 3 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0267"
+          },
+          {
+            "old": "092.0268"
+          },
+          {
+            "old": "092.0269"
+          },
+          {
+            "old": "092.0270"
+          },
+          {
+            "old": "092.0271"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-16.md",
+        "date": "1881-07-16",
+        "heading": "Samedi 16 juillet 1881 - 4 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0272"
+          },
+          {
+            "old": "092.0273"
+          },
+          {
+            "old": "092.0274"
+          },
+          {
+            "old": "092.0275"
+          },
+          {
+            "old": "092.0276"
+          },
+          {
+            "old": "092.0277"
+          },
+          {
+            "old": "092.0278"
+          },
+          {
+            "old": "092.0279"
+          },
+          {
+            "old": "092.0280"
+          },
+          {
+            "old": "092.0281"
+          },
+          {
+            "old": "092.0282"
+          },
+          {
+            "old": "092.0283"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-17.md",
+        "date": "1881-07-17",
+        "heading": "Dimanche 17 juillet 1881 - 5 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0284"
+          },
+          {
+            "old": "092.0285"
+          },
+          {
+            "old": "092.0286"
+          },
+          {
+            "old": "092.0287"
+          },
+          {
+            "old": "092.0288"
+          },
+          {
+            "old": "092.0289"
+          },
+          {
+            "old": "092.0290"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-18.md",
+        "date": "1881-07-18",
+        "heading": "Lundi 18 juillet 1881 - 6 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0291"
+          },
+          {
+            "old": "092.0292"
+          },
+          {
+            "old": "092.0293"
+          },
+          {
+            "old": "092.0294"
+          },
+          {
+            "old": "092.0295"
+          },
+          {
+            "old": "092.0296"
+          },
+          {
+            "old": "092.0297"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-19.md",
+        "date": "1881-07-19",
+        "heading": "Mardi 19 juillet 1881 - 7 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0298"
+          },
+          {
+            "old": "092.0299"
+          },
+          {
+            "old": "092.0300"
+          },
+          {
+            "old": "092.0301"
+          },
+          {
+            "old": "092.0302"
+          },
+          {
+            "old": "092.0303"
+          },
+          {
+            "old": "092.0304"
+          },
+          {
+            "old": "092.0305"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-20.md",
+        "date": "1881-07-20",
+        "heading": "Mercredi 20 juillet 1881 - 8 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0306"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-21.md",
+        "date": "1881-07-21",
+        "heading": "Jeudi 21 juillet 1881 - 9 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0307"
+          },
+          {
+            "old": "092.0308"
+          },
+          {
+            "old": "092.0309"
+          },
+          {
+            "old": "092.0310"
+          },
+          {
+            "old": "092.0311"
+          },
+          {
+            "old": "092.0312"
+          },
+          {
+            "old": "092.0313"
+          },
+          {
+            "old": "092.0314"
+          },
+          {
+            "old": "092.0315"
+          },
+          {
+            "old": "092.0316"
+          },
+          {
+            "old": "092.0317"
+          },
+          {
+            "old": "092.0318"
+          },
+          {
+            "old": "092.0319"
+          },
+          {
+            "old": "092.0320"
+          },
+          {
+            "old": "092.0321"
+          },
+          {
+            "old": "092.0322"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-22.md",
+        "date": "1881-07-22",
+        "heading": "Vendredi 22 juillet 1881 - 10 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0323"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-23.md",
+        "date": "1881-07-23",
+        "heading": "Samedi 23 juillet 1881 - 11 juillet 1881",
+        "paragraphs": [
+          {
+            "old": "092.0324"
+          },
+          {
+            "old": "092.0325"
+          },
+          {
+            "old": "092.0326"
+          },
+          {
+            "old": "092.0327"
+          },
+          {
+            "old": "092.0328"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-24.md",
+        "date": "1881-07-24",
+        "heading": "Dimanche 24 juillet 1881 - 12 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0329"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-25.md",
+        "date": "1881-07-25",
+        "heading": "Lundi 25 juillet 1881 - 13 juillet",
+        "paragraphs": [
+          {
+            "old": "092.0330"
+          },
+          {
+            "old": "092.0331"
+          },
+          {
+            "old": "092.0332"
+          },
+          {
+            "old": "092.0333"
+          },
+          {
+            "old": "092.0334"
+          },
+          {
+            "old": "092.0335"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-26.md",
+        "date": "1881-07-26",
+        "heading": "Mardi 26 juillet 1881",
+        "paragraphs": [
+          {
+            "old": "092.0336"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-27.md",
+        "date": "1881-07-27",
+        "heading": "Mercredi 27 juillet 1881",
+        "paragraphs": [
+          {
+            "old": "092.0337"
+          },
+          {
+            "old": "092.0338"
+          },
+          {
+            "old": "092.0339"
+          },
+          {
+            "old": "092.0340"
+          },
+          {
+            "old": "092.0341"
+          },
+          {
+            "old": "092.0342"
+          },
+          {
+            "old": "092.0343"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-28.md",
+        "date": "1881-07-28",
+        "heading": "Jeudi 28 juillet 1881",
+        "paragraphs": [
+          {
+            "old": "092.0344"
+          },
+          {
+            "old": "092.0345"
+          },
+          {
+            "old": "092.0346"
+          },
+          {
+            "old": "092.0347"
+          },
+          {
+            "old": "092.0348"
+          },
+          {
+            "old": "092.0349"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-29.md",
+        "date": "1881-07-29",
+        "heading": "Vendredi 29 juillet 1881",
+        "paragraphs": [
+          {
+            "old": "092.0350"
+          },
+          {
+            "old": "092.0351"
+          },
+          {
+            "old": "092.0352"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-30.md",
+        "date": "1881-07-30",
+        "heading": "Samedi 30 juillet 1881",
+        "paragraphs": [
+          {
+            "old": "092.0353"
+          }
+        ]
+      },
+      {
+        "file": "1881-07-31.md",
+        "date": "1881-07-31",
+        "heading": "Dimanche 31 juillet 1881",
+        "paragraphs": [
+          {
+            "old": "092.0354"
+          },
+          {
+            "old": "092.0355"
+          },
+          {
+            "old": "092.0356"
+          },
+          {
+            "old": "092.0357"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-01.md",
+        "date": "1881-08-01",
+        "heading": "Lundi 1er août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0358"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-02.md",
+        "date": "1881-08-02",
+        "heading": "Mardi 2 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0359"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-03.md",
+        "date": "1881-08-03",
+        "heading": "Mercredi 3 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0360"
+          },
+          {
+            "old": "092.0361"
+          },
+          {
+            "old": "092.0362"
+          },
+          {
+            "old": "092.0363"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-04.md",
+        "date": "1881-08-04",
+        "heading": "Jeudi 4 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0364"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-05.md",
+        "date": "1881-08-05",
+        "heading": "Vendredi 5 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0365"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-06.md",
+        "date": "1881-08-06",
+        "heading": "Samedi 6 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0366"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-07.md",
+        "date": "1881-08-07",
+        "heading": "Dimanche 7 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0367",
+            "set_french": "# Dimanche 7 août 1881\n[Aucun texte - date seule mentionnée]"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-08.md",
+        "date": "1881-08-08",
+        "heading": "Lundi 8 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0371",
+            "set_french": "# Lundi 8 août 1881\nSaint Agathe nous a eu une loge pour la répétition générale d' “Œdipe roi” au Français.[^1]"
+          },
+          {
+            "old": "092.0368"
+          },
+          {
+            "old": "092.0369"
+          },
+          {
+            "old": "092.0370"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-09.md",
+        "date": "1881-08-09",
+        "heading": "Mardi 9 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0372"
+          },
+          {
+            "old": "092.0373"
+          },
+          {
+            "old": "092.0374"
+          },
+          {
+            "old": "092.0375"
+          },
+          {
+            "old": "092.0376"
+          },
+          {
+            "old": "092.0377"
+          },
+          {
+            "old": "092.0378"
+          },
+          {
+            "old": "092.0379"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-10.md",
+        "date": "1881-08-10",
+        "heading": "Mercredi 10 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0380"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-11.md",
+        "date": "1881-08-11",
+        "heading": "Jeudi 11 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0381"
+          },
+          {
+            "old": "092.0382"
+          },
+          {
+            "old": "092.0383"
+          },
+          {
+            "old": "092.0384"
+          },
+          {
+            "old": "092.0385"
+          },
+          {
+            "old": "092.0386"
+          },
+          {
+            "old": "092.0387"
+          },
+          {
+            "old": "092.0388"
+          },
+          {
+            "old": "092.0389"
+          },
+          {
+            "old": "092.0390"
+          },
+          {
+            "old": "092.0391"
+          },
+          {
+            "old": "092.0392"
+          },
+          {
+            "old": "092.0393"
+          },
+          {
+            "old": "092.0394"
+          },
+          {
+            "old": "092.0395"
+          },
+          {
+            "old": "092.0396"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-12.md",
+        "date": "1881-08-12",
+        "heading": "Vendredi 12 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0397"
+          },
+          {
+            "old": "092.0398"
+          },
+          {
+            "new": {
+              "french": "Et tout s’en mêle. Je renonce au tableau et me décide à peindre Oelsnitz mais elle part dans deux jours. Alors je vais chercher un modèle que je ne trouve pas. Puis je cours chez Julia, elle ne peut poser qu’à partir de lundi. Je me retourne vers la petite du concierge mais elle a encore trois jours de classes. Enfin... S’il y avait encore quelqu’un mais je suis toute seule, le milieu fait tant ! Et quand je ne suis pas seule je suis avec des êtres qui ne comprennent rien à tout cela. Ah ! que Breslau est heureuse. Je suis idiote à force de ne pas échanger trois mots par jour. Ma tante m’agace pour peu qu’elle me demande si je n’ai pas faim ou bien ce que je compte faire dans la journée.",
+              "rsr": "Restored from tome14.docx ¶2338, Mon Journal t.14 p.186 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "old": "092.0400"
+          },
+          {
+            "old": "092.0401"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-13.md",
+        "date": "1881-08-13",
+        "heading": "Samedi 13 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0402"
+          },
+          {
+            "old": "092.0403"
+          },
+          {
+            "old": "092.0404"
+          },
+          {
+            "old": "092.0405"
+          },
+          {
+            "old": "092.0406"
+          },
+          {
+            "old": "092.0407"
+          },
+          {
+            "old": "092.0408"
+          },
+          {
+            "old": "092.0409"
+          },
+          {
+            "old": "092.0410"
+          },
+          {
+            "old": "092.0411"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-14.md",
+        "date": "1881-08-14",
+        "heading": "Dimanche 14 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0412"
+          },
+          {
+            "old": "092.0413"
+          },
+          {
+            "old": "092.0414"
+          },
+          {
+            "old": "092.0415"
+          },
+          {
+            "old": "092.0416"
+          },
+          {
+            "old": "092.0417"
+          },
+          {
+            "old": "092.0418"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-15.md",
+        "date": "1881-08-15",
+        "heading": "Lundi 15 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0419"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-16.md",
+        "date": "1881-08-16",
+        "heading": "Mardi 16 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0420"
+          },
+          {
+            "old": "092.0421"
+          },
+          {
+            "old": "092.0422"
+          },
+          {
+            "old": "092.0423"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-17.md",
+        "date": "1881-08-17",
+        "heading": "Mercredi 17 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0424"
+          }
+        ]
+      },
+      {
+        "file": "1881-08-18.md",
+        "date": "1881-08-18",
+        "heading": "Jeudi 18 août 1881",
+        "paragraphs": [
+          {
+            "old": "092.0425"
+          },
+          {
+            "old": "092.0426"
+          },
+          {
+            "old": "092.0427"
+          },
+          {
+            "old": "092.0428"
+          },
+          {
+            "old": "092.0429"
+          },
+          {
+            "old": "092.0430"
+          },
+          {
+            "old": "092.0431"
+          },
+          {
+            "old": "092.0432"
+          },
+          {
+            "old": "092.0433"
+          },
+          {
+            "old": "092.0434"
+          },
+          {
+            "old": "092.0435"
+          },
+          {
+            "old": "092.0436"
+          },
+          {
+            "old": "092.0437"
+          },
+          {
+            "old": "092.0438"
+          },
+          {
+            "old": "092.0439",
+            "kind": "margin"
+          },
+          {
+            "old": "092.0440",
+            "kind": "margin"
+          }
+        ]
+      }
+    ]
+  }
+}

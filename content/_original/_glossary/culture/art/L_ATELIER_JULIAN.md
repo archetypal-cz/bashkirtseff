@@ -42,17 +42,17 @@ The picture illustrates the ethos Marie had set down in her own words as a begin
 
 %% GLO_L_ATELIER_JULIAN.0008 %%
 %% [#Academie_Julian](../../places/schools/JULIAN.md) %%
-The picture was a commission, and the commission was a bargain: on **24 December 1880** [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) offered her a subject that would make her name two days after the Salon opened, on condition that the canvas be his at whatever stage of finish -- an engagement she and [Amélie](../../people/mentioned/AMELIE.md) signed in writing, with Magnan and Magdeleine as witnesses (090.0418). Marie got "un coin de notre atelier avec trois personnes sur le premier plan grandeur nature"; Amélie got the whole rue Vivienne studio in small. "Jamais un atelier de femmes n'a été fait," Marie wrote (090.0419) -- and she noted Julian's three motives without illusion: he had no time to paint it himself, he wanted to please her, and he wanted to enrage [Breslau](../../people/mentioned/LOUISE_BRESLAU.md) (090.0422). She also suspected he wanted her bogged down in a picture too big for the time available.
+The picture was a commission, and the commission was a bargain: on **24 December 1880** [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) offered her a subject that would make her name two days after the Salon opened, on condition that the canvas be his at whatever stage of finish -- an engagement she and [Amélie](../../people/mentioned/AMELIE.md) signed in writing, with Magnan and Magdeleine as witnesses (090.0445). Marie got "un coin de notre atelier avec trois personnes sur le premier plan grandeur nature"; Amélie got the whole rue Vivienne studio in small. "Jamais un atelier de femmes n'a été fait," Marie wrote (090.0446) -- and she noted Julian's three motives without illusion: he had no time to paint it himself, he wanted to please her, and he wanted to enrage [Breslau](../../people/mentioned/LOUISE_BRESLAU.md) (090.0449). She also suspected he wanted her bogged down in a picture too big for the time available.
 
 %% GLO_L_ATELIER_JULIAN.0009 %%
-The making of it was a three-month war with the room itself. She could not compose the *esquisse* without knowing where she would be allowed to stand and how much space she would be given; Julian jeered at her through the acoustic tube; her letter to him survives in full in the diary -- "Je n'ai jamais demandé qu'on démolisse la maison mais il faudrait m'accorder un certain espace" (090.0444). The *perspecteur*'s ruling upended the whole design -- she had to imagine herself six metres further back than the wall allowed -- costing four or five days and a 25-minute lecture on his infallible rules (091.0072, 091.0091). [Alice Brisbane](../../people/mentioned/ALICE_BRISBANE.md) and Villevieille were her principal models (091.0048); Brisbane's head was painted in two hours and Julian told her to leave it alone (091.0090).
+The making of it was a three-month war with the room itself. She could not compose the *esquisse* without knowing where she would be allowed to stand and how much space she would be given; Julian jeered at her through the acoustic tube; her letter to him survives in full in the diary -- "Je n'ai jamais demandé qu'on démolisse la maison mais il faudrait m'accorder un certain espace" (090.0471). The *perspecteur*'s ruling upended the whole design -- she had to imagine herself six metres further back than the wall allowed -- costing four or five days and a 25-minute lecture on his infallible rules (091.0111, 091.0130). [Alice Brisbane](../../people/mentioned/ALICE_BRISBANE.md) and Villevieille were her principal models (091.0087); Brisbane's head was painted in two hours and Julian told her to leave it alone (091.0129).
 
 %% GLO_L_ATELIER_JULIAN.0010 %%
-By late February the verdict had turned: "il dit que j'ai fatigué ma toile" -- she had overworked the canvas (091.0163), a reproach she repeated against herself when it was done (091.0286). The finish, on **18 March 1881**, was a crisis: the three principal central figures repainted, [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) praising passages but not the whole, and Julian declaring "qu'il est furieux de m'avoir donné cet épatant sujet pour mon premier tableau" and hinting he would be charmed if she withdrew it (091.0271–0288). Amélie painted the small head in the middle for her; [Bojidar](../../people/recurring/BOJIDAR.md) walked the porters to the Palais de l'Industrie (091.0290–0295). There was a caricature painted into a corner of the canvas, which Amélie later erased, to Marie's fury (091.0409–0416).
+By late February the verdict had turned: "il dit que j'ai fatigué ma toile" -- she had overworked the canvas (091.0202), a reproach she repeated against herself when it was done (091.0326). The finish, on **18 March 1881**, was a crisis: the three principal central figures repainted, [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) praising passages but not the whole, and Julian declaring "qu'il est furieux de m'avoir donné cet épatant sujet pour mon premier tableau" and hinting he would be charmed if she withdrew it (091.0311–0288). Amélie painted the small head in the middle for her; [Bojidar](../../people/recurring/BOJIDAR.md) walked the porters to the Palais de l'Industrie (091.0330–0295). There was a caricature painted into a corner of the canvas, which Amélie later erased, to Marie's fury (091.0449–0416).
 
 %% GLO_L_ATELIER_JULIAN.0011 %%
 %% [#Salon](./SALON.md) %%
-She signed it **Andrey** -- "Aussi bien français du russe, André si dit Andrey en russe et ça commence par un *A*" (091.0297): a name beginning with A would place her early in the alphabetical *livret* and let her learn her fate sooner. (Her 1880 debut had gone in as "Marie Constantin"; from 1882–83 she signed her own name. Julian, recalling the affair later, misremembered the pseudonym as "Audrey", 092.0433.) The picture was accepted on 1 April with a jury classification of *numéro 2* (091.0371–0372) -- the likely source of the Ukrainian press formula that the jury "placed it second". On opening day her name had been left out of the catalogue by error; she had it corrected, and [Louise Abbéma](../../people/mentioned/ABBEMA.md) sent word that she liked it: "c'est viril, amusant" (091.0510–0514). It hung between a portrait by Wolff and Bastien-Lepage's *Mendiant*. [Jules Lefebvre](./JULES_LEFEBVRE.md), introduced by Julian, told her there were great qualities in it (091.0532); she petitioned the administration, unsuccessfully, to have it hung lower (091.0539). No award came: Julian had tried for her and for Breslau, Breslau got it, "moi ça ne prend pas. Ce n'est pas assez peint" (091.0588–0590). Her own review of the Salon appeared in *[La Citoyenne](../newspapers/LA_CITOYENNE.md)* (091.0597), and rather than attend the prize-giving she left for Russia (092.0001).
+She signed it **Andrey** -- "Aussi bien français du russe, André si dit Andrey en russe et ça commence par un *A*" (091.0337): a name beginning with A would place her early in the alphabetical *livret* and let her learn her fate sooner. (Her 1880 debut had gone in as "Marie Constantin"; from 1882–83 she signed her own name. Julian, recalling the affair later, misremembered the pseudonym as "Audrey", 092.0444.) The picture was accepted on 1 April with a jury classification of *numéro 2* (091.0411–0372) -- the likely source of the Ukrainian press formula that the jury "placed it second". On opening day her name had been left out of the catalogue by error; she had it corrected, and [Louise Abbéma](../../people/mentioned/ABBEMA.md) sent word that she liked it: "c'est viril, amusant" (091.0551–0514). It hung between a portrait by Wolff and Bastien-Lepage's *Mendiant*. [Jules Lefebvre](./JULES_LEFEBVRE.md), introduced by Julian, told her there were great qualities in it (091.0573); she petitioned the administration, unsuccessfully, to have it hung lower (091.0580). No award came: Julian had tried for her and for Breslau, Breslau got it, "moi ça ne prend pas. Ce n'est pas assez peint" (091.0629–0590). Her own review of the Salon appeared in *[La Citoyenne](../newspapers/LA_CITOYENNE.md)* (091.0638), and rather than attend the prize-giving she left for Russia (092.0001).
 
 %% GLO_L_ATELIER_JULIAN.0012 %%
 ## Afterlife
@@ -65,25 +65,25 @@ The canvas travelled with the bulk of her work: from her mother to the Museum of
 
 %% GLO_L_ATELIER_JULIAN.0015 %%
 - Precursor: 1877-10 (075.0162) -- the atelier as a place where name and family disappear; the idea the picture illustrates
-- **First mention**: 1880-12-24 (090.0418–0422) -- Julian's offer, the signed engagement, "jamais un atelier de femmes n'a été fait", and his three motives
-- 1880-12-27 (090.0440–0444, 090.0451) -- she cannot compose without knowing her allotted space; her letter to Julian in full
-- 1881-02-05 (091.0039) -- Tony: "Le point de départ est bon, cela va bien"
-- 1881-02-06 (091.0048) -- the picture back on track; Villevieille and Alice Brisbane as principal models
-- 1881-02-12 (091.0072), 1881-02-13 (091.0091) -- the perspective expert overturns the composition
-- 1881-02-13 (091.0090) -- Brisbane's head painted in two hours
-- 1881-02-27 (091.0163) -- Julian cools: "j'ai fatigué ma toile"
-- 1881-03-06 (091.0218), 1881-03-07 (091.0236) -- one of Julian's own canvases punctured behind hers, and she pays for it, as well as for the frame of the picture she is painting for him
-- 1881-03-07 (091.0226–0228, 091.0239) -- Villevieille's daughter posing; Julian discusses her faults as a painter in front of the model
-- 1881-03-13 (091.0254) -- dread of being mocked by the men's studio downstairs
-- **1881-03-18 (091.0271–0288)** -- finished, and the crisis: the central figures repainted, Julian's fury at having given her the subject
-- 1881-03-20 (091.0290–0295) -- Amélie paints the little head; the canvas carried to the Palais de l'Industrie
-- **1881-03-20 (091.0297)** -- the signature: "J'ai signé Andrey, ce sera mon nom"
-- 1881-03-27 (091.0355), **1881-04-01 (091.0371–0372)** -- Breslau accepted first; then her own admission, with *numéro 2*
-- 1881-04-08 (091.0409–0416) -- the caricature in the corner of the canvas, erased by Amélie
-- **1881-05-01 (091.0510–0514)** -- opening day: her name omitted from the catalogue; Abbéma's "c'est viril, amusant"; hung between Wolff and Bastien-Lepage's *Mendiant*
-- 1881-05-03 (091.0522), 1881-05-06 (091.0532), 1881-05-07 (091.0539) -- people stop to look; Jules Lefebvre's praise; her failed petition to have it rehung lower
-- **1881-05-14 (091.0588–0590, 091.0597, 091.0600)** -- no award; Breslau takes it; her Salon review in *La Citoyenne*
-- 1881-05-15 (092.0001), 1881-08-18 (092.0433) -- she leaves for Russia rather than attend the prize-giving; Julian later admits he tried the award for "Audrey" first
+- **First mention**: 1880-12-24 (090.0445–0422) -- Julian's offer, the signed engagement, "jamais un atelier de femmes n'a été fait", and his three motives
+- 1880-12-27 (090.0467–0444, 090.0478) -- she cannot compose without knowing her allotted space; her letter to Julian in full
+- 1881-02-05 (091.0078) -- Tony: "Le point de départ est bon, cela va bien"
+- 1881-02-06 (091.0087) -- the picture back on track; Villevieille and Alice Brisbane as principal models
+- 1881-02-12 (091.0111), 1881-02-13 (091.0130) -- the perspective expert overturns the composition
+- 1881-02-13 (091.0129) -- Brisbane's head painted in two hours
+- 1881-02-27 (091.0202) -- Julian cools: "j'ai fatigué ma toile"
+- 1881-03-06 (091.0257), 1881-03-07 (091.0275) -- one of Julian's own canvases punctured behind hers, and she pays for it, as well as for the frame of the picture she is painting for him
+- 1881-03-07 (091.0265–0228, 091.0278) -- Villevieille's daughter posing; Julian discusses her faults as a painter in front of the model
+- 1881-03-13 (091.0293) -- dread of being mocked by the men's studio downstairs
+- **1881-03-18 (091.0311–0288)** -- finished, and the crisis: the central figures repainted, Julian's fury at having given her the subject
+- 1881-03-20 (091.0330–0295) -- Amélie paints the little head; the canvas carried to the Palais de l'Industrie
+- **1881-03-20 (091.0337)** -- the signature: "J'ai signé Andrey, ce sera mon nom"
+- 1881-03-27 (091.0395), **1881-04-01 (091.0411–0372)** -- Breslau accepted first; then her own admission, with *numéro 2*
+- 1881-04-08 (091.0449–0416) -- the caricature in the corner of the canvas, erased by Amélie
+- **1881-05-01 (091.0551–0514)** -- opening day: her name omitted from the catalogue; Abbéma's "c'est viril, amusant"; hung between Wolff and Bastien-Lepage's *Mendiant*
+- 1881-05-03 (091.0563), 1881-05-06 (091.0573), 1881-05-07 (091.0580) -- people stop to look; Jules Lefebvre's praise; her failed petition to have it rehung lower
+- **1881-05-14 (091.0629–0590, 091.0638, 091.0641)** -- no award; Breslau takes it; her Salon review in *La Citoyenne*
+- 1881-05-15 (092.0001), 1881-08-18 (092.0444) -- she leaves for Russia rather than attend the prize-giving; Julian later admits he tried the award for "Audrey" first
 
 %% GLO_L_ATELIER_JULIAN.0016 %%
 ## Related Entries

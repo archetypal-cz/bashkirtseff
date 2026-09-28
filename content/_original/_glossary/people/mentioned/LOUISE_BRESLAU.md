@@ -99,7 +99,7 @@ One of Marie's most devastating self-assessments comes through the Breslau compa
 %% GLO_LOUISE_BRESLAU.0019 %%
 ### Breslau as Mirror (1882)
 
-By 1882, Marie recognizes that Breslau represents what she could be if she shed her social ambitions: "Breslau est maigre, biscornue, ravagee, quoiqu'avec une tete interessante. Aucune grace et *garcon* et saie ! Elle n'arrivera a etre un peu femme que si elle a du genie; moi si j'avais son talent je serais comme personne a Paris" (090.1882-04-22). The contrast is clear: Breslau sacrificed everything for art; Marie could not entirely abandon the world. She envied Breslau's freedom: "heureuse Breslau... je donnerais pour l'etre autant qu'elle sans hesiter tout ce qu'on appelle mes *bonheurs et mes richesses.* Dix mille francs de rente pour etre independante et du talent avec cela on a tout" (094.1882-02-10).
+By 1882, Marie recognizes that Breslau represents what she could be if she shed her social ambitions: "Breslau est maigre, biscornue, ravagee, quoiqu'avec une tete interessante. Aucune grace et *garcon* et saie ! Elle n'arrivera a etre un peu femme que si elle a du genie; moi si j'avais son talent je serais comme personne a Paris" (094.1882-04-22). The contrast is clear: Breslau sacrificed everything for art; Marie could not entirely abandon the world. She envied Breslau's freedom: "heureuse Breslau... je donnerais pour l'etre autant qu'elle sans hesiter tout ce qu'on appelle mes *bonheurs et mes richesses.* Dix mille francs de rente pour etre independante et du talent avec cela on a tout" (094.1882-02-10).
 
 %% GLO_LOUISE_BRESLAU.0020 %%
 ### The Mme Cartwright Affair (1882-1883)

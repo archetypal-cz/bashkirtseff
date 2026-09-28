@@ -55,7 +55,7 @@ It went with her mother's gift to the Museum of Alexander III in St Petersburg (
 ## References in Diary
 
 %% GLO_AT_A_BOOK.0012 %%
-None identified. The mention-map sweeps of carnets 060–075, 076–086, 087–096 and 097–106 all record this work as absent from the diary; the works of 1882 that she does name and describe are *Thérèse*, the Nice campaign of ¶ 090.0492–0493, *[La Parisienne](./LA_PARISIENNE.md)* and *[Les Saintes Femmes](./LES_SAINTES_FEMMES.md)*.
+None identified. The mention-map sweeps of carnets 060–075, 076–086, 087–096 and 097–106 all record this work as absent from the diary; the works of 1882 that she does name and describe are *Thérèse*, the Nice campaign of ¶ 094.0356–0493, *[La Parisienne](./LA_PARISIENNE.md)* and *[Les Saintes Femmes](./LES_SAINTES_FEMMES.md)*.
 
 %% GLO_AT_A_BOOK.0013 %%
 ## Related Entries

@@ -98,18 +98,18 @@ In May-June 1876, Marie painted Collignon's portrait in twelve sittings on a "fo
 Collignon made several penetrating observations about Marie:
 
 - On her appearance: "si elle ne me connaissait pas, elle dirait de moi — Voila une belle fille, car vous etes grande et bien faite" (%% 033.0351 %%).
-- On her handwriting: "il semble que vous n'osez pas faire vos lettres elancees, elles paraissent retenues, comme si quelque chose pesait sur elles, un effort et puis un aplatissement... C'est toute ma vie" — Marie agreed this described her entire existence (%% 090.0132 %%: Dec 1880).
+- On her handwriting: "il semble que vous n'osez pas faire vos lettres elancees, elles paraissent retenues, comme si quelque chose pesait sur elles, un effort et puis un aplatissement... C'est toute ma vie" — Marie agreed this described her entire existence (%% 090.0144 %%: Dec 1880).
 - On Marie's character: "Marie a beaucoup change" — said with confidence in her own influence (%% 059.0162 %%: May 1876).
 
 ## Illness and Death (1873-1881)
 
 Collignon's tuberculosis was diagnosed remarkably early. On March 3, 1873, Dr Walitsky told the family: "Mlle Collignon est malade comme Koukoueff qui vient de mourir, qu'elle peut vivre cinq ans, et qu'elle peut mourir en trois semaines" (%% 002.0158 %%). Despite this devastating prognosis, Collignon lived another eight years, spending summers at Allevard (a thermal spa in the Alps) and winters in the Midi (%% 102.0005 %%).
 
-On July 27, 1881, Marie visited the dying Collignon and was horrified: "elle va mourir bientot, en voila une qui est changee. Rosalie m'avait prevenue mais j'en suis restee saisie... La Mort elle-meme. Et puis, dans la chambre une odeur de bouillon tres fort que l'on donne aux malades... C'est horrible" (%% 092.0340 %%). Marie brought gifts — silk for a dress and a shawl she herself coveted — then caught herself calculating heavenly reward: "je me suis decidee a cet immense sacrifice pour la mauvaise pensee que cela me sera rembourse par le ciel. Ces calculs enlevent tout merite" (%% 092.0340 %%).
+On July 27, 1881, Marie visited the dying Collignon and was horrified: "elle va mourir bientot, en voila une qui est changee. Rosalie m'avait prevenue mais j'en suis restee saisie... La Mort elle-meme. Et puis, dans la chambre une odeur de bouillon tres fort que l'on donne aux malades... C'est horrible" (%% 092.0351 %%). Marie brought gifts — silk for a dress and a shawl she herself coveted — then caught herself calculating heavenly reward: "je me suis decidee a cet immense sacrifice pour la mauvaise pensee que cela me sera rembourse par le ciel. Ces calculs enlevent tout merite" (%% 092.0351 %%).
 
-She visited again in August 1881 but admitted avoiding further visits: "j'aurais pu y aller plus souvent mais je cede au desir de ne pas y aller... je ne fais plus d'efforts pour surmonter cet egoisme parce que je n'espere plus de recompense" (%% 093.0134 %%: Aug 23, 1881).
+She visited again in August 1881 but admitted avoiding further visits: "j'aurais pu y aller plus souvent mais je cede au desir de ne pas y aller... je ne fais plus d'efforts pour surmonter cet egoisme parce que je n'espere plus de recompense" (%% 093.0175 %%: Aug 23, 1881).
 
-Collignon died in late October 1881. Marie records it laconically on November 15: "La pauvre Collignon est morte depuis plus de vingt jours deja" (%% 093.0136 %%).
+Collignon died in late October 1881. Marie records it laconically on November 15: "La pauvre Collignon est morte depuis plus de vingt jours deja" (%% 093.0177 %%).
 
 ## Posthumous References
 
@@ -121,7 +121,7 @@ Even after Collignon's death, Marie continued to invoke her memory:
 
 ## Significance
 
-Collignon occupies a unique position in the diary. She is the only person who serves Marie successively as governess, antagonist, friend, confidante, artistic subject, marriage adviser, philosophical interlocutor, and finally as a mirror of Marie's own mortality. The arc from "cette canaille Collignon" (%% 006.0163 %%) to "cette pauvre Collignon" (%% 093.0136 %%) traces Marie's own maturation. The fact that Marie's last diary reference to Collignon, written months before her own death from the same disease, returns to the image of a thirteen-year-old girl blushing during geography lessons, creates one of the diary's most poignant symmetries.
+Collignon occupies a unique position in the diary. She is the only person who serves Marie successively as governess, antagonist, friend, confidante, artistic subject, marriage adviser, philosophical interlocutor, and finally as a mirror of Marie's own mortality. The arc from "cette canaille Collignon" (%% 006.0163 %%) to "cette pauvre Collignon" (%% 093.0177 %%) traces Marie's own maturation. The fact that Marie's last diary reference to Collignon, written months before her own death from the same disease, returns to the image of a thirteen-year-old girl blushing during geography lessons, creates one of the diary's most poignant symmetries.
 
 ## Related Entries
 
@@ -156,9 +156,9 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 085.0068 %% (May 16, 1879): Collignon's father dies
 - %% 085.0081 %% (May 18, 1879): Marie visits Collignon's family — shocked by their poverty
 - %% 088.0173 %% (Jun 12, 1880): Calls Soutzo "un ane bate" — advises Marie against marrying him
-- %% 090.0132 %% (Dec 27, 1880): Handwriting insight — "un effort et puis un aplatissement"
-- %% 092.0340 %% (Jul 27, 1881): Marie visits dying Collignon — "la Mort elle-meme"
-- %% 093.0136 %% (Nov 15, 1881): "La pauvre Collignon est morte depuis plus de vingt jours deja"
+- %% 090.0144 %% (Dec 27, 1880): Handwriting insight — "un effort et puis un aplatissement"
+- %% 092.0351 %% (Jul 27, 1881): Marie visits dying Collignon — "la Mort elle-meme"
+- %% 093.0177 %% (Nov 15, 1881): "La pauvre Collignon est morte depuis plus de vingt jours deja"
 - %% 101.0031 %% (Aug 21, 1883): Marie expects to die "vers quarante ans comme Mlle Collignon"
 - %% 102.0005 %% (Oct 17, 1883): Explicit parallel — Walitsky's diagnosis, eight-year survival
 - %% 103.0007 %% (Feb 25, 1884): Last mention — childhood blushing during lessons

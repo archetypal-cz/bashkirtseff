@@ -1,0 +1,1428 @@
+{
+ "carnet": "093",
+ "source": "tome14.docx",
+ "_draft": "rebuild-draft-plan 2026-09-28: a draft — read REVIEW.md before using it",
+ "drop": [
+  {
+   "id": "093.0141",
+   "reason": "Livre 94 title page («Gloriae Cupiditas / Livre 94ème / du mercredi 23 novembre 1881 au samedi 29 avril 1882 / Paris, 34, avenue Montaigne / Nice, du 29 janvier au mercredi 13 avril»), not diary text: withdrawn cover page (tome14.docx ¶3044–3047, Mon Journal t.14 p.257)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1881-08-18.md",
+   "date": "1881-08-18",
+   "heading": "Jeudi 18 août 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Avec ma peinture je n’ai rien dit du départ d’Oelsnitz, voilà déjà longtemps qu’elle veut s’en aller, on l’a toujours retenue. Mais la pauvre enfant est à bout de forces, elle s’ennuie à mourir; pensez-donc, moi je dis bonjour et bonsoir et tous les soirs je me reproche de ne pas causer d’avantage et tous les jours cela recommence.",
+      "rsr": "Restored from tome14.docx ¶2408, Mon Journal t.14 p.193 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai eu cent cinquante élans généreux pour me rapprocher d’elle mais ça en est resté là et je trouve mon excuse dans les tristesses qui m’accablent.",
+      "rsr": "Restored from tome14.docx ¶2409, Mon Journal t.14 p.193 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ma tante ne dit rien non plus excepté pour les choses du ménage et puis elle est dure, peu délicate... une excellente femme à ce qu’on dit... Enfin elle est partie la pauvre petite; une nature vraiment angélique et ce départ m’a serré le cœur bien fort, mais elle sera plus heureuse là-bas, elle vivra comme tout le monde, elle a des amis incomparables dans la famille Anitchkoff. Mais ce qui surtout me chagrine, c’est que je ne puis plus réparer ma froideur, mon indifférence; je la traitais comme maman, ma tante, Dina, mais les miens ça leur est moins pénible, tandis que cette enfant étrangère, seule, si douce, si calme, aussi je suis allée droit à la Réunion pour ne pas laisser de place aux attendrissements. Elle est partie hier à neuf heures, je ne pouvais pas parler... pour ne pas pleurer, et j’ai affecté un air détaché mais j’espère qu’elle aura vu... Non, j’aurai du oublier un peu mes ennuis et m’occuper de cette fille angélique. Il est trop tard et je ne fais que me vanter en exprimant ces regrets qui font croire à du cœur... Il est facile d’en avoir après coup et gratuitement.",
+      "rsr": "Restored from tome14.docx ¶2410–2413, Mon Journal t.14 pp.193–194 (missing from original extraction, 2026-09-28 rebuild). printed «étangère» (Mon Journal t.14 p.194) corrected to «étrangère», a typesetting typo."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-08-19.md"
+  },
+  {
+   "file": "1881-08-19.md",
+   "date": "1881-08-19",
+   "heading": "Vendredi 19 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0001"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-20.md",
+   "date": "1881-08-20",
+   "heading": "Samedi 20 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0002"
+    },
+    {
+     "old": "093.0003"
+    },
+    {
+     "old": "093.0004"
+    },
+    {
+     "old": "093.0005",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "093.0006",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "093.0007"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-21.md",
+   "date": "1881-08-21",
+   "heading": "Dimanche 21 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0008"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-22.md",
+   "date": "1881-08-22",
+   "heading": "Lundi 22 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0009"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-23.md",
+   "date": "1881-08-23",
+   "heading": "Mardi 23 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0010"
+    },
+    {
+     "old": "093.0011"
+    },
+    {
+     "old": "093.0012"
+    },
+    {
+     "old": "093.0013"
+    },
+    {
+     "old": "093.0014"
+    },
+    {
+     "old": "093.0015"
+    },
+    {
+     "old": "093.0016"
+    },
+    {
+     "old": "093.0017"
+    },
+    {
+     "old": "093.0018"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-24.md",
+   "date": "1881-08-24",
+   "heading": "Mercredi 24 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0019"
+    },
+    {
+     "old": "093.0020"
+    },
+    {
+     "old": "093.0021"
+    },
+    {
+     "old": "093.0022"
+    },
+    {
+     "old": "093.0023"
+    },
+    {
+     "old": "093.0024"
+    },
+    {
+     "old": "093.0025"
+    },
+    {
+     "old": "093.0026"
+    },
+    {
+     "old": "093.0027"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-25.md",
+   "date": "1881-08-25",
+   "heading": "Jeudi 25 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0028"
+    },
+    {
+     "old": "093.0029"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-26.md",
+   "date": "1881-08-26",
+   "heading": "Vendredi 26 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0030"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-27.md",
+   "date": "1881-08-27",
+   "heading": "Samedi 27 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0031"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-28.md",
+   "date": "1881-08-28",
+   "heading": "Dimanche 28 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0032"
+    },
+    {
+     "old": "093.0033"
+    },
+    {
+     "old": "093.0034"
+    },
+    {
+     "old": "093.0035"
+    },
+    {
+     "old": "093.0036"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-29.md",
+   "date": "1881-08-29",
+   "heading": "Lundi 29 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0037"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-30.md",
+   "date": "1881-08-30",
+   "heading": "Mardi 30 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0038"
+    }
+   ]
+  },
+  {
+   "file": "1881-08-31.md",
+   "date": "1881-08-31",
+   "heading": "Mercredi 31 août 1881",
+   "paragraphs": [
+    {
+     "old": "093.0039"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-01.md",
+   "date": "1881-09-01",
+   "heading": "Jeudi 1er septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0040"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-02.md",
+   "date": "1881-09-02",
+   "heading": "Vendredi 2 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2475: the date line «Vendredi 2 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-01.md"
+  },
+  {
+   "file": "1881-09-03.md",
+   "date": "1881-09-03",
+   "heading": "Samedi 3 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2476: the date line «Samedi 3 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-01.md"
+  },
+  {
+   "file": "1881-09-04.md",
+   "date": "1881-09-04",
+   "heading": "Dimanche 4 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2477: the date line «Dimanche 4 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-01.md"
+  },
+  {
+   "file": "1881-09-05.md",
+   "date": "1881-09-05",
+   "heading": "Lundi 5 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2478: the date line «Lundi 5 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-01.md"
+  },
+  {
+   "file": "1881-09-06.md",
+   "date": "1881-09-06",
+   "heading": "Mardi 6 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0041"
+    },
+    {
+     "old": "093.0042"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-07.md",
+   "date": "1881-09-07",
+   "heading": "Mercredi 7 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0043"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-08.md",
+   "date": "1881-09-08",
+   "heading": "Jeudi 8 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2489: the date line «Jeudi 8 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-07.md"
+  },
+  {
+   "file": "1881-09-09.md",
+   "date": "1881-09-09",
+   "heading": "Vendredi 9 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0044"
+    },
+    {
+     "old": "093.0045"
+    },
+    {
+     "old": "093.0046"
+    },
+    {
+     "old": "093.0047"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-10.md",
+   "date": "1881-09-10",
+   "heading": "Samedi 10 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2515: the date line «Samedi 10 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-09.md"
+  },
+  {
+   "file": "1881-09-11.md",
+   "date": "1881-09-11",
+   "heading": "Dimanche 11 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0048"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-12.md",
+   "date": "1881-09-12",
+   "heading": "Lundi 12 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0049"
+    },
+    {
+     "old": "093.0050"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-13.md",
+   "date": "1881-09-13",
+   "heading": "Mardi 13 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0051"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-14.md",
+   "date": "1881-09-14",
+   "heading": "Mercredi 14 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2529: the date line «Mercredi 14 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-13.md"
+  },
+  {
+   "file": "1881-09-15.md",
+   "date": "1881-09-15",
+   "heading": "Jeudi 15 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2530: the date line «Jeudi 15 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-13.md"
+  },
+  {
+   "file": "1881-09-16.md",
+   "date": "1881-09-16",
+   "heading": "Vendredi 16 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0052"
+    },
+    {
+     "old": "093.0053"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-17.md",
+   "date": "1881-09-17",
+   "heading": "Samedi 17 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0054"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-18.md",
+   "date": "1881-09-18",
+   "heading": "Dimanche 18 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0055"
+    },
+    {
+     "old": "093.0056"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-19.md",
+   "date": "1881-09-19",
+   "heading": "Lundi 19 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0057"
+    },
+    {
+     "old": "093.0058"
+    },
+    {
+     "old": "093.0059"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-20.md",
+   "date": "1881-09-20",
+   "heading": "Mardi 20 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0060"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-21.md",
+   "date": "1881-09-21",
+   "heading": "Mercredi 21 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2573: the date line «Mercredi 21 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-20.md"
+  },
+  {
+   "file": "1881-09-22.md",
+   "date": "1881-09-22",
+   "heading": "Jeudi 22 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0061"
+    },
+    {
+     "old": "093.0062"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-23.md",
+   "date": "1881-09-23",
+   "heading": "Vendredi 23 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0063"
+    },
+    {
+     "old": "093.0064"
+    },
+    {
+     "old": "093.0065"
+    },
+    {
+     "old": "093.0066"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-24.md",
+   "date": "1881-09-24",
+   "heading": "Samedi 24 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0067"
+    },
+    {
+     "old": "093.0068"
+    },
+    {
+     "old": "093.0069"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-25.md",
+   "date": "1881-09-25",
+   "heading": "Dimanche 25 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2627: the date line «Dimanche 25 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-24.md"
+  },
+  {
+   "file": "1881-09-26.md",
+   "date": "1881-09-26",
+   "heading": "Lundi 26 septembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0070",
+     "set_french": "# Lundi 26 septembre 1881\n[Aucun texte - date seule mentionnée]"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-27.md",
+   "date": "1881-09-27",
+   "heading": "Mardi 27 septembre 1881",
+   "frontmatter_from": "1881-09-26.md",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "On se couche tard, on dort jusqu’à dix heures. Misérables soirées, moitié au salon de l’hôtel, moitié au Casino, car je me suis décidée à y aller quand même.",
+      "rsr": "Re-set from tome14.docx ¶2630, Mon Journal t.14 p.213: this text sat under «Lundi 26 septembre 1881» in the old extraction but belongs to the date line «Mardi 27 septembre 1881» (¶2629) (2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout cela en compagnie des Karaouleff et d’un Anglais et puis le petit Russe tout jeune, tout jeune. [Mots noircis: Monsieur et Madame débarqués récemment de] Marseille, très comme il faut avec trois enfants ravissants, mais elle est partie hier. En emportant la caricature d’une vieille fée qui vit ici et que j’ai faite en double pour elle.",
+      "rsr": "Re-set from tome14.docx ¶2631, Mon Journal t.14 p.213: this text sat under «Lundi 26 septembre 1881» in the old extraction but belongs to the date line «Mardi 27 septembre 1881» (¶2629) (2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Hier à Bayonne en famille, aujourd’hui à Fontarabie et la famille aussi, je ne sors jamais sans les Karaouleff, je voulais y aller à cheval mais le corsage de l’amazone va si mal et puis ce serait agaçant de faire route avec ce Karaouleff que je ne connais pas et qui est ennuyeux. La femme est très belle mais pas du meilleur genre et puis on n’a pas l’air de s’occuper assez de l’enfant et puis ces gens-là me donnent sur les nerfs parfois... Fontarabie c’est charmant, du reste Biarritz est si commun, si maladroit dans sa beauté très banale que l’on est heureux d’en sortir. Et tout de suite, là sur le petit port des enfants mendiants, dont on ferait facilement un tableau. Seulement je veux voir l’Espagne d’abord et si là je ne rencontre pas mieux je reviendrai par Fontarabie... J’ai joué, il y a une roulette, mais ayant perdu quarante francs je fis des croquis. C’est un petit coin perdu, j’espère que personne ne m’a vue jouant, du reste...",
+      "rsr": "Re-set from tome14.docx ¶2632, Mon Journal t.14 p.213: this text sat under «Lundi 26 septembre 1881» in the old extraction but belongs to the date line «Mardi 27 septembre 1881» (¶2629) (2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oh ! ces trois heures de voitures à écouter cette dame raconter ses inepties qui n’avaient même pas le charme des bavardages du monde !...",
+      "rsr": "Re-set from tome14.docx ¶2633, Mon Journal t.14 p.213: this text sat under «Lundi 26 septembre 1881» in the old extraction but belongs to the date line «Mardi 27 septembre 1881» (¶2629) (2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! qu’ai-je fait au ciel pour être comme ça. Pourquoi ne puis-je manger la mauvaise cuisine de l’hôtel que mangent des princesses du sang pourtant; pourquoi ne puis-je supporter la misère intellectuelle qui m’entoure ! Certes je n’ai sans doute que ce que je mérite, si je méritais mieux Dieu... et puis en somme si j’étais vraiment si supérieure je saurais bien... Ah ! funèbre banalité.",
+      "rsr": "Re-set from tome14.docx ¶2634, Mon Journal t.14 p.213: this text sat under «Lundi 26 septembre 1881» in the old extraction but belongs to the date line «Mardi 27 septembre 1881» (¶2629) (2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "093.0071"
+    },
+    {
+     "old": "093.0072"
+    }
+   ]
+  },
+  {
+   "file": "1881-09-28.md",
+   "date": "1881-09-28",
+   "heading": "Mercredi 28 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2646: the date line «Mercredi 28 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-26.md"
+  },
+  {
+   "file": "1881-09-29.md",
+   "date": "1881-09-29",
+   "heading": "Jeudi 29 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2647: the date line «Jeudi 29 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-26.md"
+  },
+  {
+   "file": "1881-09-30.md",
+   "date": "1881-09-30",
+   "heading": "Vendredi 30 septembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2648: the date line «Vendredi 30 septembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-09-26.md"
+  },
+  {
+   "file": "1881-10-01.md",
+   "date": "1881-10-01",
+   "heading": "Samedi 1er octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0073",
+     "set_french": "# Samedi 1er octobre 1881\n[Aucun texte - date seule mentionnée]"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-02.md",
+   "date": "1881-10-02",
+   "heading": "Dimanche 2 octobre 1881",
+   "frontmatter_from": "1881-10-01.md",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Mots noircis: On croit] avoir rêvé en sortant de cette infamie sanglante. Combats de taureaux. Abominable tuerie de rosses et de vaches où les hommes n’ont l’air de courir aucun danger et où ils jouent un rôle ignoble. Du reste les seuls instants intéressants pour moi c’était de voir les hommes rouler par terre; un d’eux a été foulé par le taureau, un vrai miracle d”échapper aussi lui fit-on une ovation. On lance des cigares, des chapeaux qu’on renvoie très adroitement, pas les cigares, les chapeaux. Et les mouchoirs s’agitent et l’on pousse des hurlements sauvages... Au fait l’ovation était adressée à un autre, pas à celui qui est tombé, n’importe. Le public les connaît et a ses favoris, pour moi ce sont des marionnettes de couleurs diverses. C’est un jeu cruel mais est-il amusant ? Voilà ! Eh bien non, ce n’est ni passionnant ni intéressant, c’est horrible et ignoble. [Mots noircis: Cette bête] soit-disant furieuse qu’on agace avec des manteaux multicolores et à laquelle on plante des espèces d’épées dans le corps, le sang coule; plus l’animal se secoue, plus il bondit, plus il se blesse. On lui présente de pauvres chevaux [Mots noircis: avec les] yeux bandés, [Mots noircis: qu’il éventre, les intes]tins sortent, le sang coule, le cheval se relève néanmoins et obéit jusqu’à la dernière extrémité à l’homme qui tombe souvent avec lui mais n’a presque jamais rien. Ce sang noir sur le sable et ce sang écarlate sur le dos des taureaux, surtout il y en avait un noir lorsque nous sommes arrivées, c’était comme des bandelettes écarlates; je le crus d’abord ornée de rubans, car ces piques plantées dans sa peau",
+      "rsr": "Re-set from tome14.docx ¶2650, Mon Journal t.14 p.215: this text sat under «Samedi 1er octobre 1881» in the old extraction but belongs to the date line «Dimanche 2 octobre 1881» (¶2649, printed as its own line) (2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "093.0074"
+    },
+    {
+     "old": "093.0075"
+    },
+    {
+     "old": "093.0076"
+    },
+    {
+     "old": "093.0077"
+    },
+    {
+     "old": "093.0078"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-03.md",
+   "date": "1881-10-03",
+   "heading": "Lundi 3 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2682: the date line «Lundi 3 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-01.md"
+  },
+  {
+   "file": "1881-10-04.md",
+   "date": "1881-10-04",
+   "heading": "Mardi 4 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0079"
+    },
+    {
+     "old": "093.0080"
+    },
+    {
+     "old": "093.0081"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-05.md",
+   "date": "1881-10-05",
+   "heading": "Mercredi 5 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2700: the date line «Mercredi 5 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-04.md"
+  },
+  {
+   "file": "1881-10-06.md",
+   "date": "1881-10-06",
+   "heading": "Jeudi 6 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0082"
+    },
+    {
+     "old": "093.0083"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-07.md",
+   "date": "1881-10-07",
+   "heading": "Vendredi 7 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2713: the date line «Vendredi 7 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-06.md"
+  },
+  {
+   "file": "1881-10-08.md",
+   "date": "1881-10-08",
+   "heading": "Samedi 8 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2714: the date line «Samedi 8 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-06.md"
+  },
+  {
+   "file": "1881-10-09.md",
+   "date": "1881-10-09",
+   "heading": "Dimanche 9 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0084"
+    },
+    {
+     "old": "093.0085"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-10.md",
+   "date": "1881-10-10",
+   "heading": "Lundi 10 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0086"
+    },
+    {
+     "old": "093.0087"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-11.md",
+   "date": "1881-10-11",
+   "heading": "Mardi 11 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0088"
+    },
+    {
+     "old": "093.0089"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-12.md",
+   "date": "1881-10-12",
+   "heading": "Mercredi 12 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0090"
+    },
+    {
+     "old": "093.0091"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-13.md",
+   "date": "1881-10-13",
+   "heading": "Jeudi 13 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2753: the date line «Jeudi 13 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-12.md"
+  },
+  {
+   "file": "1881-10-14.md",
+   "date": "1881-10-14",
+   "heading": "Vendredi 14 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0092"
+    },
+    {
+     "old": "093.0093"
+    },
+    {
+     "old": "093.0094"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-15.md",
+   "date": "1881-10-15",
+   "heading": "Samedi 15 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0095"
+    },
+    {
+     "old": "093.0096"
+    },
+    {
+     "old": "093.0097"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-16.md",
+   "date": "1881-10-16",
+   "heading": "Dimanche 16 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0098"
+    },
+    {
+     "old": "093.0099"
+    },
+    {
+     "old": "093.0100"
+    },
+    {
+     "old": "093.0101"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-17.md",
+   "date": "1881-10-17",
+   "heading": "Lundi 17 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2815: the date line «Lundi 17 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-16.md"
+  },
+  {
+   "file": "1881-10-18.md",
+   "date": "1881-10-18",
+   "heading": "Mardi 18 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0102"
+    },
+    {
+     "old": "093.0103"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-19.md",
+   "date": "1881-10-19",
+   "heading": "Mercredi 19 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0104"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-20.md",
+   "date": "1881-10-20",
+   "heading": "Jeudi 20 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0105"
+    },
+    {
+     "old": "093.0106"
+    },
+    {
+     "old": "093.0107"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-21.md",
+   "date": "1881-10-21",
+   "heading": "Vendredi 21 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2842: the date line «Vendredi 21 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-20.md"
+  },
+  {
+   "file": "1881-10-22.md",
+   "date": "1881-10-22",
+   "heading": "Samedi 22 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0108"
+    },
+    {
+     "old": "093.0109"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-23.md",
+   "date": "1881-10-23",
+   "heading": "Dimanche 23 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2852: the date line «Dimanche 23 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-22.md"
+  },
+  {
+   "file": "1881-10-24.md",
+   "date": "1881-10-24",
+   "heading": "Lundi 24 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2853: the date line «Lundi 24 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-22.md"
+  },
+  {
+   "file": "1881-10-25.md",
+   "date": "1881-10-25",
+   "heading": "Mardi 25 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0110"
+    },
+    {
+     "old": "093.0111"
+    },
+    {
+     "old": "093.0112"
+    },
+    {
+     "old": "093.0113"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-26.md",
+   "date": "1881-10-26",
+   "heading": "Mercredi 26 octobre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2878: the date line «Mercredi 26 octobre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-25.md"
+  },
+  {
+   "file": "1881-10-27.md",
+   "date": "1881-10-27",
+   "heading": "Jeudi 27 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0114"
+    },
+    {
+     "old": "093.0115"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-28.md",
+   "date": "1881-10-28",
+   "heading": "Vendredi 28 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0116"
+    },
+    {
+     "old": "093.0117"
+    },
+    {
+     "old": "093.0118"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-29.md",
+   "date": "1881-10-29",
+   "heading": "Samedi 29 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0119"
+    },
+    {
+     "old": "093.0120"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-30.md",
+   "date": "1881-10-30",
+   "heading": "Dimanche 30 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0121"
+    }
+   ]
+  },
+  {
+   "file": "1881-10-31.md",
+   "date": "1881-10-31",
+   "heading": "Lundi 31 octobre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0122"
+    },
+    {
+     "old": "093.0123"
+    }
+   ]
+  },
+  {
+   "file": "1881-11-01.md",
+   "date": "1881-11-01",
+   "heading": "Mardi 1er novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2929: the date line «Mardi 1er novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-10-31.md"
+  },
+  {
+   "file": "1881-11-02.md",
+   "date": "1881-11-02",
+   "heading": "Mercredi 2 novembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0124"
+    },
+    {
+     "old": "093.0125"
+    }
+   ]
+  },
+  {
+   "file": "1881-11-03.md",
+   "date": "1881-11-03",
+   "heading": "Jeudi 3 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2944: the date line «Jeudi 3 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-02.md"
+  },
+  {
+   "file": "1881-11-04.md",
+   "date": "1881-11-04",
+   "heading": "Vendredi 4 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2945: the date line «Vendredi 4 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-02.md"
+  },
+  {
+   "file": "1881-11-05.md",
+   "date": "1881-11-05",
+   "heading": "Samedi 5 novembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0126"
+    },
+    {
+     "old": "093.0127"
+    }
+   ]
+  },
+  {
+   "file": "1881-11-06.md",
+   "date": "1881-11-06",
+   "heading": "Dimanche 6 novembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0128"
+    }
+   ]
+  },
+  {
+   "file": "1881-11-07.md",
+   "date": "1881-11-07",
+   "heading": "Lundi 7 novembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0129"
+    },
+    {
+     "old": "093.0130"
+    },
+    {
+     "old": "093.0131"
+    },
+    {
+     "old": "093.0132"
+    }
+   ]
+  },
+  {
+   "file": "1881-11-08.md",
+   "date": "1881-11-08",
+   "heading": "Mardi 8 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2985: the date line «Mardi 8 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-07.md"
+  },
+  {
+   "file": "1881-11-09.md",
+   "date": "1881-11-09",
+   "heading": "Mercredi 9 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2986: the date line «Mercredi 9 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-07.md"
+  },
+  {
+   "file": "1881-11-10.md",
+   "date": "1881-11-10",
+   "heading": "Jeudi 10 novembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0133",
+     "set_french": "# Jeudi 10 novembre 1881\n[Aucun texte - date seule mentionnée]"
+    }
+   ]
+  },
+  {
+   "file": "1881-11-11.md",
+   "date": "1881-11-11",
+   "heading": "Vendredi 11 novembe 1881",
+   "frontmatter_from": "1881-11-10.md",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2988, Mon Journal t.14 p.251: the date line «Vendredi 11 novembe 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1881-11-12.md",
+   "date": "1881-11-12",
+   "heading": "Samedi 12 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2989: the date line «Samedi 12 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-10.md"
+  },
+  {
+   "file": "1881-11-13.md",
+   "date": "1881-11-13",
+   "heading": "Dimanche 13 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2990: the date line «Dimanche 13 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-10.md"
+  },
+  {
+   "file": "1881-11-14.md",
+   "date": "1881-11-14",
+   "heading": "Lundi 14 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶2991: the date line «Lundi 14 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-10.md"
+  },
+  {
+   "file": "1881-11-15.md",
+   "date": "1881-11-15",
+   "heading": "Mardi 15 novembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0134"
+    },
+    {
+     "old": "093.0135"
+    },
+    {
+     "old": "093.0136"
+    }
+   ]
+  },
+  {
+   "file": "1881-11-16.md",
+   "date": "1881-11-16",
+   "heading": "Mercredi 16 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶3009: the date line «Mercredi 16 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-15.md"
+  },
+  {
+   "file": "1881-11-17.md",
+   "date": "1881-11-17",
+   "heading": "Jeudi 17 novembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0137"
+    }
+   ]
+  },
+  {
+   "file": "1881-11-18.md",
+   "date": "1881-11-18",
+   "heading": "Vendredi 18 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶3015: the date line «Vendredi 18 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-17.md"
+  },
+  {
+   "file": "1881-11-19.md",
+   "date": "1881-11-19",
+   "heading": "Samedi 19 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶3016: the date line «Samedi 19 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-17.md"
+  },
+  {
+   "file": "1881-11-20.md",
+   "date": "1881-11-20",
+   "heading": "Dimanche 20 novembre 1881",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome14.docx ¶3017: the date line «Dimanche 20 novembre 1881» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1881-11-17.md"
+  },
+  {
+   "file": "1881-11-21.md",
+   "date": "1881-11-21",
+   "heading": "Lundi 21 novembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0138"
+    },
+    {
+     "old": "093.0139"
+    }
+   ]
+  },
+  {
+   "file": "1881-11-22.md",
+   "date": "1881-11-22",
+   "heading": "Mardi 22 novembre 1881",
+   "paragraphs": [
+    {
+     "old": "093.0140"
+    }
+   ]
+  }
+ ]
+}

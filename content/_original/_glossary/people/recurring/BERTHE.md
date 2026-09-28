@@ -98,7 +98,7 @@ The last mention: June 1882, Marie recalls an adventure "il y a trois ans quand 
 
 Marie's feelings toward Berthe oscillate between affection, contempt, jealousy, and grudging companionship. Key self-analyses:
 
-**On their non-friendship** (October 1880): "Nous n'avons jamais ete liees mais se connaitre depuis dix ans et n'avoir pas d'aversion physique l'une pour l'autre, cela cree une sorte d'amitie qui n'en est pas une. Du reste je suis neutre, elle vient c'est bon; elle ne vient pas, c'est encore bon" (090.0158).
+**On their non-friendship** (October 1880): "Nous n'avons jamais ete liees mais se connaitre depuis dix ans et n'avoir pas d'aversion physique l'une pour l'autre, cela cree une sorte d'amitie qui n'en est pas une. Du reste je suis neutre, elle vient c'est bon; elle ne vient pas, c'est encore bon" (090.0171).
 
 **On Berthe's usefulness** (May 1880): "En un instant je pardonne tout a Berthe et pendant cinq minutes l'aime de vraie amitie" -- but only because Berthe brings news of a potential Salon medal (088, May 4).
 

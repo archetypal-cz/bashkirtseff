@@ -44,10 +44,10 @@ Marie's own first description of the composition, written more than a year befor
 
 %% GLO_UN_MEETING.0008 %%
 %% [#Art_practice](../themes/ART_PRACTICE.md) %%
-The idea arrived whole on **4 April 1883** (099.0033–0035) and the picture took fourteen months. Marie first planned the boys half-length, then in late April scaled the whole thing up to life-size figures at a street corner beside a lamp-post (099.0239), and on 7 May restarted the canvas entirely: "Je recommence entièrement les gamins, je les fais en pied, en toile plus grande, c'est bien plus amusant" (099.0349). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) had "craintes sérieuses" about the ambition of it (099.0210–0212), and she brought in [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) not for advice but as a specimen of "la majorité bien-pensante" -- a test of how the ordinary Salon-goer would react (099.0363–0364).
+The idea arrived whole on **4 April 1883** (099.0033–0035) and the picture took fourteen months. Marie first planned the boys half-length, then in late April scaled the whole thing up to life-size figures at a street corner beside a lamp-post (099.0248), and on 7 May restarted the canvas entirely: "Je recommence entièrement les gamins, je les fais en pied, en toile plus grande, c'est bien plus amusant" (099.0359). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) had "craintes sérieuses" about the ambition of it (099.0211–0212), and she brought in [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) not for advice but as a specimen of "la majorité bien-pensante" -- a test of how the ordinary Salon-goer would react (099.0373–0364).
 
 %% GLO_UN_MEETING.0009 %%
-It was painted out of doors, and the weather fought it: a storm knocked the canvas over and holed it in July 1883 (100.0100), and again in September, though "pas dans les figures" (101.0434). By August she was writing "Les gamins ne sont pas finis !!!" (100.0180). In October, Bastien-Lepage gave her the counsel she followed -- let it rest over the winter and finish selected passages in the spring, with "Bastien et la nature" as the two standards of comparison (101.0526). Through the autumn she stalled: "je suis restée trop longtemps devant les gamins pour y retravailler à présent, j'ai voulu, je ne peux pas" (102.0018). In November 1883 a photograph her mother had carried to St Petersburg was reproduced on the front page of *L'Illustration universelle* (102.0054) -- the picture was famous in Russia before it was finished in France.
+It was painted out of doors, and the weather fought it: a storm knocked the canvas over and holed it in July 1883 (100.0226), and again in September, though "pas dans les figures" (101.0434). By August she was writing "Les gamins ne sont pas finis !!!" (100.0311). In October, Bastien-Lepage gave her the counsel she followed -- let it rest over the winter and finish selected passages in the spring, with "Bastien et la nature" as the two standards of comparison (101.0526). Through the autumn she stalled: "je suis restée trop longtemps devant les gamins pour y retravailler à présent, j'ai voulu, je ne peux pas" (102.0018). In November 1883 a photograph her mother had carried to St Petersburg was reproduced on the front page of *L'Illustration universelle* (102.0054) -- the picture was famous in Russia before it was finished in France.
 
 %% GLO_UN_MEETING.0010 %%
 The title appears in the diary only on **9 March 1884**, in Tony's verdict, and in her own spelling: "mes gamins intitué: *Un Metting,* ont beaucoup gagné et qu'en somme c'est sérieusement bien et que ça comptera au salon" (103.0473). Five days later she decided it would go to the Salon alone, her *Douleur de Nausicaa* sculpture being unfinishable in time (103.0487).
@@ -61,10 +61,10 @@ The Salon of 1884 gave her everything except the medal. Charles Baude photograph
 
 %% GLO_UN_MEETING.0013 %%
 - **First mention**: 1883-04-04 (099.0033–0035) -- the entire conception set down in three paragraphs, six boys with a nest, "Ça a l'air commun d'après la description mais en réalité toutes ces têtes ensemble forment quelque chose d'excessivement intéressant"
-- 1883-04-27 (099.0210–0212) -- Tony's serious misgivings, and her retort on copying "avec l'âme comme avec les yeux"
-- 1883-04-29 (099.0239) and 1883-05-07 (099.0349) -- enlargement to life-size, the canvas restarted
-- 1883-05-12 (099.0363–0364) -- Julian shown it as a proxy for public opinion
-- 1883-07-21 (100.0100), 1883-08-05 (100.0180), 1883-09-26 (101.0434) -- storm damage and the summer's frustration
+- 1883-04-27 (099.0211–0212) -- Tony's serious misgivings, and her retort on copying "avec l'âme comme avec les yeux"
+- 1883-04-29 (099.0248) and 1883-05-07 (099.0359) -- enlargement to life-size, the canvas restarted
+- 1883-05-12 (099.0373–0364) -- Julian shown it as a proxy for public opinion
+- 1883-07-21 (100.0226), 1883-08-05 (100.0311), 1883-09-26 (101.0434) -- storm damage and the summer's frustration
 - 1883-10-08 (101.0526), 1883-10-09 (101.0542) -- Bastien-Lepage's advice; "Oui, il faut *achever* les gamins"
 - 1883-10-17 (102.0018), 1883-11-21 (102.0053), 1883-12-16 (102.0077) -- the stalled autumn
 - 1883-11-22 (102.0054) -- front page of *L'Illustration universelle*, St Petersburg

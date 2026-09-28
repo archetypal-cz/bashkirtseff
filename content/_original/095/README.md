@@ -47,7 +47,7 @@ _Progress tracking initialized._
 ## Changelog
 
 ### 2026-02-10T12:00:00 @claude
-Removed entries 1882-04-27 and 1882-04-29 (moved to carnet 094). These entries belong to Tome 14, not Tome 15. Carnet now starts at 1882-04-30. Note: paragraph IDs 095.0001-095.0013 are now unused; remaining entries start at 095.0014.
+Removed entries 1882-04-27 and 1882-04-29 (moved to carnet 094). These entries belong to Tome 14, not Tome 15. Carnet now starts at 1882-04-30. Note: paragraph IDs 095.0001-095.0013 are now unused; remaining entries start at 095.0001.
 
 ### 2026-02-04T10:50:27 @kerray
 Initialized carnet README for progress tracking.
