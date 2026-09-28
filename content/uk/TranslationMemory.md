@@ -1819,7 +1819,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Larderei (comte Alessandro) | Лардереї | CANONICAL. Naples carnival object of obsession; indeclinable (no «Лардереєм»). Rosalie's mangled form «Ladreréel»→«Ладререль» kept as her error |
-| Bijou-bouzouk (Larderei nickname) | Біжу-бузук | Marie's mocking nickname for Larderei (Bijou=trinket + bachi-bouzouk); footnote-free, recurs from 068.1192 |
+| Bijou-bouzouk (Larderei nickname) | Біжу-бузук | Marie's mocking nickname for Larderei (Bijou=trinket + bachi-bouzouk); footnote-free, recurs from 068.1190 |
 | Mirafiore (comte/comtesse de) | Мірафіоре | Larderei's brother-in-law/sister; King's morganatic kin. Rosalie's «Mirafiol»→«Мірафіоль» kept as her error |
 | Antonelli (Pietro/Paolo) | Антонеллі (П'єтро/Паоло) | The broken-engagement scandal centre; Pietro=П'єтро (canonical per TM) |
 | Broussais | Бруссе | Crude Nice doctor-bore living with deaf Pelikan |
@@ -1859,7 +1859,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | traite (de X francs) | вексель | Bill of exchange/promissory note |
 | guignon | зла доля / невезіння | Persistent jinx |
 | coup de pied au derrière | копняк під зад | Crude idiom for humiliation |
-| fini / achevé / complet vs inachevé | завершений / довершений / повний vs незавершений | Marie's character taxonomy (068.0885); independent of intelligence |
+| fini / achevé / complet vs inachevé | завершений / довершений / повний vs незавершений | Marie's character taxonomy (068.0883); independent of intelligence |
 | comme le naufragé s'accroche à un brin de paille | як потопельник хапається за соломинку | Idiom of desperate attachment |
 | faire de trou dans l'eau | бити повітря | Idiom: to strive in vain |
 | vieux style | старого стилю | Julian calendar; footnote |
@@ -1868,7 +1868,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 ### Conventions (Carnet 068)
 - "II" / "I!" — Marie's double-bar emphasis punctuation: preserved as-is.
 - "fichu-" prefix («fichu-père», «fichu-coquin») → «осоружний-/клятий-» (per TM 065 «клятий-»).
-- French acrostic on "ÉMILE" (068.0262-0157) + Girofla Serbia song (068.0269-0163): acrostic kept in French ==highlight==+footnote with Ukrainian gloss (first-letters untranslatable); the comic song rendered as Ukrainian verse (it is Marie's own French joke, not a code-switch).
+- French acrostic on "ÉMILE" (068.0260-0157) + Girofla Serbia song (068.0267-0163): acrostic kept in French ==highlight==+footnote with Ukrainian gloss (first-letters untranslatable); the comic song rendered as Ukrainian verse (it is Marie's own French joke, not a code-switch).
 - Italian code-switches (Pietro reproaches, train-station, fake telegram) and Latin («Culpa mea», «Dubium…») → ==highlight==+footnote.
 - Altamura's mangled French (eou/«еу», «Poua vous serouiar») → phonetic Ukrainian preserving the buffoonery.
 - "dialogue petit-russien" → «малоросійський діалог» (Marie marks family switching to Ukrainian).
