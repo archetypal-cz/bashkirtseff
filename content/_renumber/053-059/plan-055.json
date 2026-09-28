@@ -1,0 +1,4226 @@
+{
+ "carnet": "055",
+ "source": "tome07.docx",
+ "drop": [
+  {
+   "id": "055.1175",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); Livre 55 closing motto and Livre 56 title page, tome07.docx ¶2659–2662"
+  },
+  {
+   "id": "055.1176",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); Livre 55 closing motto and Livre 56 title page, tome07.docx ¶2659–2662"
+  },
+  {
+   "id": "055.1177",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); Livre 55 closing motto and Livre 56 title page, tome07.docx ¶2659–2662"
+  },
+  {
+   "id": "055.1178",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); Livre 55 closing motto and Livre 56 title page, tome07.docx ¶2659–2662"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1876-03-01.md",
+   "date": "1876-03-01",
+   "heading": "Mercredi 1er mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0001"
+    },
+    {
+     "old": "055.0002"
+    },
+    {
+     "old": "055.0003"
+    },
+    {
+     "old": "055.0004"
+    },
+    {
+     "old": "055.0005"
+    },
+    {
+     "old": "055.0006"
+    },
+    {
+     "old": "055.0007"
+    },
+    {
+     "old": "055.0008"
+    },
+    {
+     "old": "055.0009"
+    },
+    {
+     "old": "055.0010"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-02.md",
+   "date": "1876-03-02",
+   "heading": "Jeudi 2 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0011"
+    },
+    {
+     "old": "055.0012"
+    },
+    {
+     "old": "055.0013"
+    },
+    {
+     "old": "055.0014"
+    },
+    {
+     "old": "055.0015"
+    },
+    {
+     "old": "055.0016"
+    },
+    {
+     "old": "055.0017"
+    },
+    {
+     "old": "055.0018"
+    },
+    {
+     "old": "055.0019"
+    },
+    {
+     "old": "055.0020"
+    },
+    {
+     "old": "055.0021"
+    },
+    {
+     "old": "055.0022"
+    },
+    {
+     "old": "055.0023"
+    },
+    {
+     "old": "055.0024"
+    },
+    {
+     "old": "055.0025"
+    },
+    {
+     "old": "055.0026"
+    },
+    {
+     "old": "055.0027"
+    },
+    {
+     "old": "055.0028"
+    },
+    {
+     "old": "055.0029"
+    },
+    {
+     "old": "055.0030"
+    },
+    {
+     "old": "055.0031"
+    },
+    {
+     "old": "055.0032"
+    },
+    {
+     "old": "055.0033"
+    },
+    {
+     "old": "055.0034"
+    },
+    {
+     "old": "055.0035"
+    },
+    {
+     "old": "055.0036"
+    },
+    {
+     "old": "055.0037"
+    },
+    {
+     "old": "055.0038"
+    },
+    {
+     "old": "055.0039"
+    },
+    {
+     "old": "055.0040"
+    },
+    {
+     "old": "055.0041"
+    },
+    {
+     "old": "055.0042"
+    },
+    {
+     "old": "055.0043"
+    },
+    {
+     "old": "055.0044"
+    },
+    {
+     "old": "055.0045"
+    },
+    {
+     "old": "055.0046"
+    },
+    {
+     "old": "055.0047"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-03.md",
+   "date": "1876-03-03",
+   "heading": "Vendredi 3 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0048"
+    },
+    {
+     "old": "055.0049"
+    },
+    {
+     "old": "055.0050"
+    },
+    {
+     "old": "055.0051"
+    },
+    {
+     "old": "055.0052"
+    },
+    {
+     "old": "055.0053"
+    },
+    {
+     "old": "055.0054"
+    },
+    {
+     "old": "055.0055"
+    },
+    {
+     "old": "055.0056"
+    },
+    {
+     "old": "055.0057"
+    },
+    {
+     "old": "055.0058"
+    },
+    {
+     "old": "055.0059"
+    },
+    {
+     "old": "055.0060"
+    },
+    {
+     "old": "055.0061"
+    },
+    {
+     "old": "055.0062"
+    },
+    {
+     "old": "055.0063"
+    },
+    {
+     "old": "055.0064"
+    },
+    {
+     "old": "055.0065"
+    },
+    {
+     "old": "055.0066",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "055.0067"
+    },
+    {
+     "old": "055.0068"
+    },
+    {
+     "old": "055.0069"
+    },
+    {
+     "old": "055.0070"
+    },
+    {
+     "old": "055.0071"
+    },
+    {
+     "old": "055.0072"
+    },
+    {
+     "old": "055.0073"
+    },
+    {
+     "old": "055.0074"
+    },
+    {
+     "old": "055.0075"
+    },
+    {
+     "old": "055.0076"
+    },
+    {
+     "old": "055.0077"
+    },
+    {
+     "old": "055.0078"
+    },
+    {
+     "old": "055.0079"
+    },
+    {
+     "old": "055.0080"
+    },
+    {
+     "old": "055.0081"
+    },
+    {
+     "old": "055.0082"
+    },
+    {
+     "old": "055.0083"
+    },
+    {
+     "old": "055.0084"
+    },
+    {
+     "old": "055.0085"
+    },
+    {
+     "old": "055.0086"
+    },
+    {
+     "old": "055.0087"
+    },
+    {
+     "old": "055.0088"
+    },
+    {
+     "old": "055.0089"
+    },
+    {
+     "old": "055.0090"
+    },
+    {
+     "old": "055.0091"
+    },
+    {
+     "old": "055.0092"
+    },
+    {
+     "old": "055.0093"
+    },
+    {
+     "old": "055.0094"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-04.md",
+   "date": "1876-03-04",
+   "heading": "Samedi 4 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0095"
+    },
+    {
+     "old": "055.0096"
+    },
+    {
+     "old": "055.0097"
+    },
+    {
+     "old": "055.0098"
+    },
+    {
+     "old": "055.0099"
+    },
+    {
+     "old": "055.0100"
+    },
+    {
+     "old": "055.0101"
+    },
+    {
+     "old": "055.0102"
+    },
+    {
+     "old": "055.0103"
+    },
+    {
+     "old": "055.0104"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-05.md",
+   "date": "1876-03-05",
+   "heading": "Dimanche 5 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0105"
+    },
+    {
+     "old": "055.0106"
+    },
+    {
+     "old": "055.0107"
+    },
+    {
+     "old": "055.0108"
+    },
+    {
+     "old": "055.0109"
+    },
+    {
+     "old": "055.0110"
+    },
+    {
+     "old": "055.0111"
+    },
+    {
+     "old": "055.0112"
+    },
+    {
+     "old": "055.0113"
+    },
+    {
+     "old": "055.0114"
+    },
+    {
+     "old": "055.0115"
+    },
+    {
+     "old": "055.0116"
+    },
+    {
+     "old": "055.0117"
+    },
+    {
+     "old": "055.0118"
+    },
+    {
+     "old": "055.0119"
+    },
+    {
+     "old": "055.0120"
+    },
+    {
+     "old": "055.0121",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "055.0122"
+    },
+    {
+     "old": "055.0123"
+    },
+    {
+     "old": "055.0124"
+    },
+    {
+     "old": "055.0125"
+    },
+    {
+     "old": "055.0126"
+    },
+    {
+     "old": "055.0127"
+    },
+    {
+     "old": "055.0128"
+    },
+    {
+     "old": "055.0129"
+    },
+    {
+     "old": "055.0130"
+    },
+    {
+     "old": "055.0131"
+    },
+    {
+     "old": "055.0132"
+    },
+    {
+     "old": "055.0133"
+    },
+    {
+     "old": "055.0134"
+    },
+    {
+     "old": "055.0135"
+    },
+    {
+     "old": "055.0136"
+    },
+    {
+     "old": "055.0137"
+    },
+    {
+     "old": "055.0138"
+    },
+    {
+     "old": "055.0139"
+    },
+    {
+     "old": "055.0140"
+    },
+    {
+     "old": "055.0141"
+    },
+    {
+     "old": "055.0142"
+    },
+    {
+     "old": "055.0143"
+    },
+    {
+     "old": "055.0144"
+    },
+    {
+     "old": "055.0145"
+    },
+    {
+     "old": "055.0146"
+    },
+    {
+     "old": "055.0147"
+    },
+    {
+     "old": "055.0148"
+    },
+    {
+     "old": "055.0149"
+    },
+    {
+     "old": "055.0150"
+    },
+    {
+     "old": "055.0151"
+    },
+    {
+     "old": "055.0152"
+    },
+    {
+     "old": "055.0153"
+    },
+    {
+     "old": "055.0154"
+    },
+    {
+     "old": "055.0155"
+    },
+    {
+     "old": "055.0156"
+    },
+    {
+     "old": "055.0157"
+    },
+    {
+     "old": "055.0158"
+    },
+    {
+     "old": "055.0159"
+    },
+    {
+     "old": "055.0160"
+    },
+    {
+     "old": "055.0161"
+    },
+    {
+     "old": "055.0162"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-06.md",
+   "date": "1876-03-06",
+   "heading": "Lundi 6 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0163"
+    },
+    {
+     "old": "055.0164"
+    },
+    {
+     "old": "055.0165"
+    },
+    {
+     "old": "055.0166"
+    },
+    {
+     "old": "055.0167"
+    },
+    {
+     "old": "055.0168",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "055.0169"
+    },
+    {
+     "old": "055.0170"
+    },
+    {
+     "old": "055.0171",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "055.0172"
+    },
+    {
+     "old": "055.0173"
+    },
+    {
+     "old": "055.0174"
+    },
+    {
+     "old": "055.0175"
+    },
+    {
+     "old": "055.0176"
+    },
+    {
+     "old": "055.0177"
+    },
+    {
+     "old": "055.0178"
+    },
+    {
+     "old": "055.0179"
+    },
+    {
+     "old": "055.0180"
+    },
+    {
+     "old": "055.0182"
+    },
+    {
+     "old": "055.0183"
+    },
+    {
+     "old": "055.0184"
+    },
+    {
+     "old": "055.0185"
+    },
+    {
+     "old": "055.0186"
+    },
+    {
+     "old": "055.0187"
+    },
+    {
+     "old": "055.0188"
+    },
+    {
+     "old": "055.0189"
+    },
+    {
+     "old": "055.0190"
+    },
+    {
+     "old": "055.0191"
+    },
+    {
+     "old": "055.0192"
+    },
+    {
+     "old": "055.0193"
+    },
+    {
+     "old": "055.0194"
+    },
+    {
+     "old": "055.0195"
+    },
+    {
+     "old": "055.0196"
+    },
+    {
+     "old": "055.0197"
+    },
+    {
+     "old": "055.0198"
+    },
+    {
+     "old": "055.0199"
+    },
+    {
+     "old": "055.0200"
+    },
+    {
+     "old": "055.0201"
+    },
+    {
+     "old": "055.0202"
+    },
+    {
+     "old": "055.0203"
+    },
+    {
+     "old": "055.0204"
+    },
+    {
+     "old": "055.0205"
+    },
+    {
+     "old": "055.0206"
+    },
+    {
+     "old": "055.0207"
+    },
+    {
+     "old": "055.0208"
+    },
+    {
+     "old": "055.0209"
+    },
+    {
+     "old": "055.0210"
+    },
+    {
+     "old": "055.0211"
+    },
+    {
+     "old": "055.0212"
+    },
+    {
+     "old": "055.0213"
+    },
+    {
+     "old": "055.0214"
+    },
+    {
+     "old": "055.0215"
+    },
+    {
+     "old": "055.0216"
+    },
+    {
+     "old": "055.0217"
+    },
+    {
+     "old": "055.0218"
+    },
+    {
+     "old": "055.0219"
+    },
+    {
+     "old": "055.0220"
+    },
+    {
+     "old": "055.0221"
+    },
+    {
+     "old": "055.0222"
+    },
+    {
+     "old": "055.0223"
+    },
+    {
+     "old": "055.0224"
+    },
+    {
+     "old": "055.0225"
+    },
+    {
+     "old": "055.0226"
+    },
+    {
+     "old": "055.0227"
+    },
+    {
+     "old": "055.0228"
+    },
+    {
+     "old": "055.0229"
+    },
+    {
+     "old": "055.0230"
+    },
+    {
+     "old": "055.0231"
+    },
+    {
+     "old": "055.0232"
+    },
+    {
+     "old": "055.0233"
+    },
+    {
+     "old": "055.0234"
+    },
+    {
+     "old": "055.0235"
+    },
+    {
+     "old": "055.0236"
+    },
+    {
+     "old": "055.0237"
+    },
+    {
+     "old": "055.0238"
+    },
+    {
+     "old": "055.0239"
+    },
+    {
+     "old": "055.0240"
+    },
+    {
+     "old": "055.0241"
+    },
+    {
+     "old": "055.0242"
+    },
+    {
+     "old": "055.0243"
+    },
+    {
+     "old": "055.0244"
+    },
+    {
+     "old": "055.0245"
+    },
+    {
+     "old": "055.0246"
+    },
+    {
+     "old": "055.0247"
+    },
+    {
+     "old": "055.0248"
+    },
+    {
+     "old": "055.0249"
+    },
+    {
+     "old": "055.0250"
+    },
+    {
+     "old": "055.0251"
+    },
+    {
+     "old": "055.0252"
+    },
+    {
+     "old": "055.0253"
+    },
+    {
+     "old": "055.0254"
+    },
+    {
+     "old": "055.0255"
+    },
+    {
+     "old": "055.0256"
+    },
+    {
+     "old": "055.0257"
+    },
+    {
+     "old": "055.0258"
+    },
+    {
+     "old": "055.0259"
+    },
+    {
+     "old": "055.0260"
+    },
+    {
+     "old": "055.0261"
+    },
+    {
+     "old": "055.0262"
+    },
+    {
+     "old": "055.0267"
+    },
+    {
+     "old": "055.0263"
+    },
+    {
+     "old": "055.0264"
+    },
+    {
+     "old": "055.0265"
+    },
+    {
+     "old": "055.0266"
+    },
+    {
+     "old": "055.0268"
+    },
+    {
+     "old": "055.0269"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-07.md",
+   "date": "1876-03-07",
+   "heading": "Mardi 7 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0181"
+    },
+    {
+     "old": "055.0270",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "055.0271"
+    },
+    {
+     "old": "055.0272"
+    },
+    {
+     "old": "055.0273"
+    },
+    {
+     "old": "055.0274"
+    },
+    {
+     "old": "055.0275"
+    },
+    {
+     "old": "055.0276"
+    },
+    {
+     "old": "055.0277"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-08.md",
+   "date": "1876-03-08",
+   "heading": "Mercredi 8 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0278"
+    },
+    {
+     "old": "055.0279"
+    },
+    {
+     "old": "055.0280"
+    },
+    {
+     "old": "055.0281"
+    },
+    {
+     "old": "055.0282"
+    },
+    {
+     "old": "055.0283"
+    },
+    {
+     "old": "055.0284"
+    },
+    {
+     "old": "055.0285"
+    },
+    {
+     "old": "055.0286"
+    },
+    {
+     "old": "055.0287"
+    },
+    {
+     "old": "055.0288"
+    },
+    {
+     "old": "055.0289"
+    },
+    {
+     "old": "055.0290"
+    },
+    {
+     "old": "055.0291"
+    },
+    {
+     "old": "055.0292"
+    },
+    {
+     "old": "055.0293"
+    },
+    {
+     "old": "055.0294"
+    },
+    {
+     "old": "055.0295"
+    },
+    {
+     "old": "055.0296"
+    },
+    {
+     "old": "055.0297"
+    },
+    {
+     "old": "055.0298"
+    },
+    {
+     "old": "055.0299"
+    },
+    {
+     "old": "055.0300"
+    },
+    {
+     "old": "055.0301"
+    },
+    {
+     "old": "055.0302"
+    },
+    {
+     "old": "055.0303"
+    },
+    {
+     "old": "055.0304"
+    },
+    {
+     "old": "055.0305"
+    },
+    {
+     "old": "055.0306"
+    },
+    {
+     "old": "055.0307"
+    },
+    {
+     "old": "055.0308"
+    },
+    {
+     "old": "055.0309"
+    },
+    {
+     "old": "055.0310"
+    },
+    {
+     "old": "055.0311"
+    },
+    {
+     "old": "055.0312"
+    },
+    {
+     "old": "055.0313"
+    },
+    {
+     "old": "055.0314"
+    },
+    {
+     "old": "055.0315"
+    },
+    {
+     "old": "055.0316"
+    },
+    {
+     "old": "055.0317"
+    },
+    {
+     "old": "055.0318"
+    },
+    {
+     "old": "055.0319"
+    },
+    {
+     "old": "055.0320"
+    },
+    {
+     "old": "055.0321"
+    },
+    {
+     "old": "055.0322"
+    },
+    {
+     "old": "055.0323"
+    },
+    {
+     "old": "055.0324"
+    },
+    {
+     "old": "055.0325"
+    },
+    {
+     "old": "055.0326"
+    },
+    {
+     "old": "055.0327"
+    },
+    {
+     "old": "055.0328"
+    },
+    {
+     "old": "055.0329"
+    },
+    {
+     "old": "055.0330"
+    },
+    {
+     "old": "055.0331"
+    },
+    {
+     "old": "055.0332"
+    },
+    {
+     "old": "055.0333"
+    },
+    {
+     "old": "055.0334"
+    },
+    {
+     "old": "055.0335"
+    },
+    {
+     "old": "055.0336"
+    },
+    {
+     "old": "055.0337"
+    },
+    {
+     "old": "055.0338"
+    },
+    {
+     "old": "055.0339"
+    },
+    {
+     "old": "055.0340"
+    },
+    {
+     "old": "055.0341"
+    },
+    {
+     "old": "055.0342"
+    },
+    {
+     "old": "055.0343"
+    },
+    {
+     "old": "055.0344"
+    },
+    {
+     "old": "055.0345"
+    },
+    {
+     "old": "055.0346"
+    },
+    {
+     "old": "055.0347"
+    },
+    {
+     "old": "055.0348"
+    },
+    {
+     "old": "055.0349"
+    },
+    {
+     "old": "055.0350"
+    },
+    {
+     "old": "055.0351"
+    },
+    {
+     "old": "055.0352"
+    },
+    {
+     "old": "055.0353"
+    },
+    {
+     "old": "055.0354"
+    },
+    {
+     "old": "055.0355"
+    },
+    {
+     "old": "055.0356"
+    },
+    {
+     "old": "055.0357"
+    },
+    {
+     "old": "055.0358"
+    },
+    {
+     "old": "055.0359"
+    },
+    {
+     "old": "055.0360"
+    },
+    {
+     "old": "055.0361"
+    },
+    {
+     "old": "055.0362"
+    },
+    {
+     "old": "055.0363"
+    },
+    {
+     "old": "055.0364"
+    },
+    {
+     "old": "055.0365"
+    },
+    {
+     "old": "055.0366"
+    },
+    {
+     "old": "055.0367"
+    },
+    {
+     "old": "055.0368"
+    },
+    {
+     "old": "055.0369"
+    },
+    {
+     "old": "055.0370"
+    },
+    {
+     "old": "055.0371"
+    },
+    {
+     "old": "055.0372"
+    },
+    {
+     "old": "055.0373"
+    },
+    {
+     "old": "055.0374"
+    },
+    {
+     "old": "055.0375"
+    },
+    {
+     "old": "055.0376"
+    },
+    {
+     "old": "055.0377"
+    },
+    {
+     "old": "055.0378"
+    },
+    {
+     "old": "055.0379"
+    },
+    {
+     "old": "055.0380"
+    },
+    {
+     "old": "055.0381"
+    },
+    {
+     "old": "055.0382"
+    },
+    {
+     "old": "055.0383"
+    },
+    {
+     "old": "055.0384"
+    },
+    {
+     "old": "055.0385"
+    },
+    {
+     "old": "055.0386"
+    },
+    {
+     "old": "055.0387"
+    },
+    {
+     "old": "055.0388"
+    },
+    {
+     "old": "055.0389"
+    },
+    {
+     "old": "055.0390"
+    },
+    {
+     "old": "055.0391"
+    },
+    {
+     "old": "055.0392"
+    },
+    {
+     "old": "055.0393"
+    },
+    {
+     "old": "055.0394"
+    },
+    {
+     "old": "055.0395"
+    },
+    {
+     "old": "055.0396"
+    },
+    {
+     "old": "055.0397"
+    },
+    {
+     "old": "055.0398"
+    },
+    {
+     "old": "055.0399"
+    },
+    {
+     "old": "055.0400"
+    },
+    {
+     "old": "055.0401"
+    },
+    {
+     "old": "055.0402"
+    },
+    {
+     "old": "055.0403"
+    },
+    {
+     "old": "055.0404"
+    },
+    {
+     "old": "055.0405"
+    },
+    {
+     "old": "055.0406"
+    },
+    {
+     "old": "055.0407"
+    },
+    {
+     "old": "055.0408"
+    },
+    {
+     "old": "055.0409"
+    },
+    {
+     "old": "055.0410"
+    },
+    {
+     "old": "055.0411"
+    },
+    {
+     "old": "055.0412"
+    },
+    {
+     "old": "055.0413"
+    },
+    {
+     "old": "055.0414"
+    },
+    {
+     "old": "055.0415"
+    },
+    {
+     "old": "055.0416"
+    },
+    {
+     "old": "055.0417"
+    },
+    {
+     "old": "055.0418"
+    },
+    {
+     "old": "055.0419"
+    },
+    {
+     "old": "055.0420"
+    },
+    {
+     "old": "055.0421"
+    },
+    {
+     "old": "055.0422"
+    },
+    {
+     "old": "055.0423"
+    },
+    {
+     "old": "055.0424"
+    },
+    {
+     "old": "055.0425"
+    },
+    {
+     "old": "055.0426"
+    },
+    {
+     "old": "055.0427"
+    },
+    {
+     "old": "055.0428"
+    },
+    {
+     "old": "055.0429"
+    },
+    {
+     "old": "055.0430"
+    },
+    {
+     "old": "055.0431"
+    },
+    {
+     "old": "055.0432"
+    },
+    {
+     "old": "055.0433"
+    },
+    {
+     "old": "055.0434"
+    },
+    {
+     "old": "055.0435"
+    },
+    {
+     "old": "055.0436"
+    },
+    {
+     "old": "055.0437"
+    },
+    {
+     "old": "055.0438"
+    },
+    {
+     "old": "055.0439"
+    },
+    {
+     "old": "055.0440"
+    },
+    {
+     "old": "055.0441"
+    },
+    {
+     "old": "055.0442"
+    },
+    {
+     "old": "055.0443"
+    },
+    {
+     "old": "055.0444"
+    },
+    {
+     "old": "055.0445"
+    },
+    {
+     "old": "055.0446"
+    },
+    {
+     "old": "055.0447"
+    },
+    {
+     "old": "055.0448"
+    },
+    {
+     "old": "055.0449"
+    },
+    {
+     "old": "055.0450"
+    },
+    {
+     "old": "055.0451",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "055.0452"
+    },
+    {
+     "old": "055.0453"
+    },
+    {
+     "old": "055.0454"
+    },
+    {
+     "old": "055.0455"
+    },
+    {
+     "old": "055.0456"
+    },
+    {
+     "old": "055.0457"
+    },
+    {
+     "old": "055.0458"
+    },
+    {
+     "old": "055.0459"
+    },
+    {
+     "old": "055.0460"
+    },
+    {
+     "old": "055.0461"
+    },
+    {
+     "old": "055.0462"
+    },
+    {
+     "new": {
+      "french": "Deux, en si peu de jours, s’écrie maman.",
+      "rsr": "Restored from tome07.docx ¶1829, Mon Journal t.7 p.127 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oui, oui, deux.",
+      "rsr": "Restored from tome07.docx ¶1830, Mon Journal t.7 p.127 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je rentre, me déshabille, passe un peignoir et m’étends sur le canapé, fatiguée, charmée, étourdie. Je ne comprenais d’abord rien, j’avais tout oublié pendant deux heures. Il m’a fallu deux heures pour rassembler ce que vous venez de lire. Je serais au comble de la joie si je croyais Antonelli. Mais je doute, malgré son air vrai, honnête, gentil, naïf même. Voilà ce que c’est que d'être soi-même une canaille. D’ailleurs cela vaut mieux ainsi.",
+      "rsr": "Restored from tome07.docx ¶1831, Mon Journal t.7 p.127 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Dix fois je quitte le cahier pour m’étendre sur le lit et penser et repasser tout dans ma pauvre tête, et rêver et sourire.",
+      "rsr": "Restored from tome07.docx ¶1832, Mon Journal t.7 p.127 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis comme dans un rêve. J’écris en regardant le portrait du misérable.",
+      "rsr": "Restored from tome07.docx ¶1833, Mon Journal t.7 p.127 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Voyez bonnes gens ! Je suis là toute bouleversée et languissante, et lui est sans doute au club; décidément la femme est plus faible.",
+      "rsr": "Restored from tome07.docx ¶1834, Mon Journal t.7 p.127 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Dieu ! j’embrasserais sur les deux joues celui qui me dirait que lui aussi est troublé, étendu quelque part sur un lit ou par terre comme moi, et que lui aussi pense à moi et que lui (j’allais dire *aussi)* m'aime.",
+      "rsr": "Restored from tome07.docx ¶1835, Mon Journal t.7 p.127 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai adoré, j’ai été amoureuse, mais il ne m’est jamais arrivé d'être aimée par celui que je voulais, de sorte que cela me semble incroyable. Il n’y a rien d’aussi agréable au monde. Je me sens tout autre, toute neuve, c’est bête sans doute. A présent je suis calme, mais encore étourdie par tout ce qu’il m’a dit. Si c’était vrai !",
+      "rsr": "Restored from tome07.docx ¶1836, Mon Journal t.7 p.127 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Rayé: Jeudi 9 mars 1876]",
+      "rsr": "Restored from tome07.docx ¶1837, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild). OCR «inayc. jcuui *v* mars IO4OJ»; read from the printed page (top line, partly cut in the scan).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "new": {
+      "french": "Je me souviens encore, il m’a dit qu’il était ambitieux.",
+      "rsr": "Restored from tome07.docx ¶1838, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Chaque homme bien né doit l’être, lui répondis-je.",
+      "rsr": "Restored from tome07.docx ¶1839, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’aime la façon dont il me parlait. Ni rhétorique, ni affectation, on voyait qu’il pensait tout, il m’a dit des choses très gentilles, par exemple celle-là, je m’arrangeais les cheveux et m’inquiétais de mon apparence.",
+      "rsr": "Restored from tome07.docx ¶1840, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous êtes toujours gentille, dit-il, je ne sais comment vous faites.",
+      "rsr": "Restored from tome07.docx ¶1841, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis toute décoiffée.",
+      "rsr": "Restored from tome07.docx ¶1842, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tant mieux, vous êtes encore mieux ainsi, décoiffée vous êtes encore plus, vous êtes... il s’arrêta et sourit, vous êtes encore plus, je ne sais comment dire, plus excitante.",
+      "rsr": "Restored from tome07.docx ¶1843, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je pense à présent au moment où il me dit: je vous aime, et lorsque j’avais répondu pour la centième fois ce *n'est pas vrai,* il se secoua tout entier et se baissant sur la selle et abandonnant les rênes:",
+      "rsr": "Restored from tome07.docx ¶1844, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous ne croyez pas ! s’écria-t-il en cherchant mes yeux que je tenais baissés, (non pas par coquetterie je vous le jure).",
+      "rsr": "Restored from tome07.docx ¶1845, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oh ! en ce moment il disait vrai, j’ai levé la tête et j’ai vu son regard inquiet, ses yeux noirs - marrons grands ouverts [Rayé: avaient une telle expression] qui semblaient vouloir chercher jusqu’au fond de mon cœur ma pensée, ils étaient inquiets, irrités, *agacés* par la fuite des miens. Je ne le faisais pas exprès, si je l’avais regardé en face j’aurais pleuré, j’étais énervée, confuse, je ne savais où me mettre, et il a pensé peut-être que je jouais à la coquetterie.",
+      "rsr": "Restored from tome07.docx ¶1846, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oui, oui, en ce moment du moins je sais qu’il ne mentait pas.",
+      "rsr": "Restored from tome07.docx ¶1847, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais il plaisante peut-être !",
+      "rsr": "Restored from tome07.docx ¶1848, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous m'aimez à présent et dans une semaine vous ne m’aimerez plus.",
+      "rsr": "Restored from tome07.docx ¶1849, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oh ! de grâce, je ne suis pas de ces hommes qui passent leur vie à chanter aux demoiselles, je n’ai jamais fait la cour à personne, je n’aime personne. Il y a une femme ici qui veut à toute force se faire aimer de moi, elle m’a donné cinq ou six rendez-vous, j’ai toujours manqué parce que je ne peux pas l’aimer, vous voyez bien.",
+      "rsr": "Restored from tome07.docx ¶1850, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Basta, basta, je n’en finirai jamais si je me mets à me souvenir et à écrire. On a dit tant de choses, c’est encore miracle de se souvenir de ce que j’ai écrit. Il est deux heures, il faut dormir, je serai laide et il ne voudra plus m’aimer.",
+      "rsr": "Restored from tome07.docx ¶1851, Mon Journal t.7 p.128 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Allons, bon ! voilà autre chose. Voilà qu’un malin esprit me souffle dans l'oreille qu'Antonelli s’est moqué de moi. Tout me semble d’une autre couleur, il me semble que j’ai mal vu, mal entendu !",
+      "rsr": "Restored from tome07.docx ¶1852, Mon Journal t.7 p.129 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C’est pour me donner un furieux désir de tout entendre da capo: Vade retro, retro Satanas !",
+      "rsr": "Restored from tome07.docx ¶1853, Mon Journal t.7 p.129 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Allons, allons, il faut dormir.",
+      "rsr": "Restored from tome07.docx ¶1854, Mon Journal t.7 p.129 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1876-03-09.md",
+   "date": "1876-03-09",
+   "heading": "Jeudi 9 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0463"
+    },
+    {
+     "old": "055.0464"
+    },
+    {
+     "old": "055.0465"
+    },
+    {
+     "old": "055.0466"
+    },
+    {
+     "old": "055.0467"
+    },
+    {
+     "old": "055.0468"
+    },
+    {
+     "old": "055.0469"
+    },
+    {
+     "old": "055.0470"
+    },
+    {
+     "old": "055.0471"
+    },
+    {
+     "old": "055.0472"
+    },
+    {
+     "old": "055.0473"
+    },
+    {
+     "old": "055.0474"
+    },
+    {
+     "old": "055.0475"
+    },
+    {
+     "old": "055.0476"
+    },
+    {
+     "old": "055.0477"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-10.md",
+   "date": "1876-03-10",
+   "heading": "Vendredi 10 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0478"
+    },
+    {
+     "old": "055.0479"
+    },
+    {
+     "old": "055.0480"
+    },
+    {
+     "old": "055.0481"
+    },
+    {
+     "old": "055.0482"
+    },
+    {
+     "old": "055.0483"
+    },
+    {
+     "old": "055.0484"
+    },
+    {
+     "old": "055.0485"
+    },
+    {
+     "old": "055.0486"
+    },
+    {
+     "old": "055.0487"
+    },
+    {
+     "old": "055.0488"
+    },
+    {
+     "old": "055.0489"
+    },
+    {
+     "old": "055.0490"
+    },
+    {
+     "old": "055.0491"
+    },
+    {
+     "old": "055.0492"
+    },
+    {
+     "old": "055.0493"
+    },
+    {
+     "old": "055.0494"
+    },
+    {
+     "old": "055.0495"
+    },
+    {
+     "old": "055.0496"
+    },
+    {
+     "old": "055.0497"
+    },
+    {
+     "old": "055.0498"
+    },
+    {
+     "old": "055.0499"
+    },
+    {
+     "old": "055.0500"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-11.md",
+   "date": "1876-03-11",
+   "heading": "Samedi 11 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0501"
+    },
+    {
+     "old": "055.0502"
+    },
+    {
+     "old": "055.0503"
+    },
+    {
+     "old": "055.0504"
+    },
+    {
+     "old": "055.0505"
+    },
+    {
+     "old": "055.0506"
+    },
+    {
+     "old": "055.0507"
+    },
+    {
+     "old": "055.0508"
+    },
+    {
+     "old": "055.0509"
+    },
+    {
+     "old": "055.0510"
+    },
+    {
+     "old": "055.0511"
+    },
+    {
+     "old": "055.0512"
+    },
+    {
+     "old": "055.0513"
+    },
+    {
+     "old": "055.0514"
+    },
+    {
+     "old": "055.0515"
+    },
+    {
+     "old": "055.0516"
+    },
+    {
+     "old": "055.0517"
+    },
+    {
+     "old": "055.0518"
+    },
+    {
+     "old": "055.0519"
+    },
+    {
+     "old": "055.0520"
+    },
+    {
+     "old": "055.0521"
+    },
+    {
+     "old": "055.0522"
+    },
+    {
+     "old": "055.0523"
+    },
+    {
+     "old": "055.0524"
+    },
+    {
+     "old": "055.0525"
+    },
+    {
+     "old": "055.0526"
+    },
+    {
+     "old": "055.0527",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "055.0528"
+    },
+    {
+     "old": "055.0529"
+    },
+    {
+     "old": "055.0530"
+    },
+    {
+     "old": "055.0531"
+    },
+    {
+     "old": "055.0532"
+    },
+    {
+     "old": "055.0533"
+    },
+    {
+     "old": "055.0534"
+    },
+    {
+     "old": "055.0535"
+    },
+    {
+     "old": "055.0536"
+    },
+    {
+     "old": "055.0537"
+    },
+    {
+     "old": "055.0538"
+    },
+    {
+     "old": "055.0539"
+    },
+    {
+     "old": "055.0540"
+    },
+    {
+     "old": "055.0541"
+    },
+    {
+     "old": "055.0542"
+    },
+    {
+     "old": "055.0543"
+    },
+    {
+     "old": "055.0544"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-12.md",
+   "date": "1876-03-12",
+   "heading": "Dimanche 12 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0545"
+    },
+    {
+     "old": "055.0546"
+    },
+    {
+     "old": "055.0547"
+    },
+    {
+     "old": "055.0548"
+    },
+    {
+     "old": "055.0549"
+    },
+    {
+     "old": "055.0550"
+    },
+    {
+     "old": "055.0551"
+    },
+    {
+     "old": "055.0552"
+    },
+    {
+     "old": "055.0553"
+    },
+    {
+     "old": "055.0554"
+    },
+    {
+     "old": "055.0555"
+    },
+    {
+     "old": "055.0556"
+    },
+    {
+     "old": "055.0557"
+    },
+    {
+     "old": "055.0558"
+    },
+    {
+     "old": "055.0559"
+    },
+    {
+     "old": "055.0560"
+    },
+    {
+     "old": "055.0561"
+    },
+    {
+     "old": "055.0562"
+    },
+    {
+     "old": "055.0563"
+    },
+    {
+     "old": "055.0564"
+    },
+    {
+     "old": "055.0565"
+    },
+    {
+     "old": "055.0566"
+    },
+    {
+     "old": "055.0567"
+    },
+    {
+     "old": "055.0568"
+    },
+    {
+     "old": "055.0569"
+    },
+    {
+     "old": "055.0570"
+    },
+    {
+     "old": "055.0571"
+    },
+    {
+     "old": "055.0572"
+    },
+    {
+     "old": "055.0573"
+    },
+    {
+     "old": "055.0574"
+    },
+    {
+     "old": "055.0575"
+    },
+    {
+     "old": "055.0576"
+    },
+    {
+     "old": "055.0577"
+    },
+    {
+     "old": "055.0578"
+    },
+    {
+     "old": "055.0579"
+    },
+    {
+     "old": "055.0580"
+    },
+    {
+     "old": "055.0581"
+    },
+    {
+     "old": "055.0582"
+    },
+    {
+     "old": "055.0583"
+    },
+    {
+     "old": "055.0584"
+    },
+    {
+     "old": "055.0585"
+    },
+    {
+     "old": "055.0586"
+    },
+    {
+     "old": "055.0587"
+    },
+    {
+     "old": "055.0588"
+    },
+    {
+     "old": "055.0589"
+    },
+    {
+     "old": "055.0590"
+    },
+    {
+     "old": "055.0591"
+    },
+    {
+     "old": "055.0592"
+    },
+    {
+     "old": "055.0593"
+    },
+    {
+     "old": "055.0594"
+    },
+    {
+     "old": "055.0595"
+    },
+    {
+     "old": "055.0596"
+    },
+    {
+     "old": "055.0597"
+    },
+    {
+     "old": "055.0598"
+    },
+    {
+     "old": "055.0599"
+    },
+    {
+     "old": "055.0600"
+    },
+    {
+     "old": "055.0601"
+    },
+    {
+     "old": "055.0602"
+    },
+    {
+     "old": "055.0603"
+    },
+    {
+     "old": "055.0604"
+    },
+    {
+     "old": "055.0605"
+    },
+    {
+     "old": "055.0606"
+    },
+    {
+     "old": "055.0607"
+    },
+    {
+     "old": "055.0608"
+    },
+    {
+     "old": "055.0609"
+    },
+    {
+     "old": "055.0610"
+    },
+    {
+     "old": "055.0611"
+    },
+    {
+     "old": "055.0612"
+    },
+    {
+     "old": "055.0613"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-13.md",
+   "date": "1876-03-13",
+   "heading": "Lundi 13 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0614"
+    },
+    {
+     "old": "055.0615"
+    },
+    {
+     "old": "055.0616"
+    },
+    {
+     "old": "055.0617"
+    },
+    {
+     "old": "055.0618"
+    },
+    {
+     "old": "055.0619"
+    },
+    {
+     "old": "055.0620"
+    },
+    {
+     "old": "055.0621"
+    },
+    {
+     "old": "055.0622"
+    },
+    {
+     "old": "055.0623"
+    },
+    {
+     "old": "055.0624"
+    },
+    {
+     "old": "055.0625"
+    },
+    {
+     "old": "055.0626"
+    },
+    {
+     "old": "055.0627"
+    },
+    {
+     "old": "055.0628"
+    },
+    {
+     "old": "055.0629"
+    },
+    {
+     "old": "055.0630"
+    },
+    {
+     "old": "055.0631"
+    },
+    {
+     "old": "055.0632"
+    },
+    {
+     "old": "055.0633"
+    },
+    {
+     "old": "055.0634"
+    },
+    {
+     "old": "055.0635"
+    },
+    {
+     "old": "055.0636"
+    },
+    {
+     "old": "055.0637"
+    },
+    {
+     "old": "055.0638"
+    },
+    {
+     "old": "055.0639"
+    },
+    {
+     "old": "055.0640"
+    },
+    {
+     "old": "055.0641"
+    },
+    {
+     "old": "055.0642"
+    },
+    {
+     "old": "055.0643"
+    },
+    {
+     "old": "055.0644"
+    },
+    {
+     "old": "055.0645"
+    },
+    {
+     "old": "055.0646"
+    },
+    {
+     "old": "055.0647"
+    },
+    {
+     "old": "055.0648"
+    },
+    {
+     "old": "055.0649"
+    },
+    {
+     "old": "055.0650"
+    },
+    {
+     "old": "055.0651"
+    },
+    {
+     "old": "055.0652"
+    },
+    {
+     "old": "055.0653"
+    },
+    {
+     "old": "055.0654"
+    },
+    {
+     "old": "055.0655"
+    },
+    {
+     "old": "055.0656"
+    },
+    {
+     "old": "055.0657"
+    },
+    {
+     "old": "055.0658"
+    },
+    {
+     "old": "055.0659"
+    },
+    {
+     "old": "055.0660"
+    },
+    {
+     "old": "055.0661"
+    },
+    {
+     "old": "055.0662"
+    },
+    {
+     "old": "055.0663"
+    },
+    {
+     "old": "055.0664"
+    },
+    {
+     "old": "055.0665"
+    },
+    {
+     "old": "055.0666"
+    },
+    {
+     "old": "055.0667"
+    },
+    {
+     "old": "055.0668"
+    },
+    {
+     "old": "055.0669"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-14.md",
+   "date": "1876-03-14",
+   "heading": "Mardi 14 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0670"
+    },
+    {
+     "old": "055.0671"
+    },
+    {
+     "old": "055.0672"
+    },
+    {
+     "old": "055.0673"
+    },
+    {
+     "old": "055.0674"
+    },
+    {
+     "old": "055.0675"
+    },
+    {
+     "old": "055.0676"
+    },
+    {
+     "old": "055.0677"
+    },
+    {
+     "old": "055.0678"
+    },
+    {
+     "old": "055.0679"
+    },
+    {
+     "old": "055.0680"
+    },
+    {
+     "old": "055.0681"
+    },
+    {
+     "old": "055.0682"
+    },
+    {
+     "old": "055.0683"
+    },
+    {
+     "old": "055.0684"
+    },
+    {
+     "old": "055.0685"
+    },
+    {
+     "old": "055.0686"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-15.md",
+   "date": "1876-03-15",
+   "heading": "Mercredi 15 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0687"
+    },
+    {
+     "old": "055.0688"
+    },
+    {
+     "old": "055.0689"
+    },
+    {
+     "old": "055.0690"
+    },
+    {
+     "old": "055.0691"
+    },
+    {
+     "old": "055.0692"
+    },
+    {
+     "old": "055.0693"
+    },
+    {
+     "old": "055.0694"
+    },
+    {
+     "old": "055.0695"
+    },
+    {
+     "old": "055.0696"
+    },
+    {
+     "old": "055.0697"
+    },
+    {
+     "old": "055.0698"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-16.md",
+   "date": "1876-03-16",
+   "heading": "Jeudi 16 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0699"
+    },
+    {
+     "old": "055.0700"
+    },
+    {
+     "old": "055.0701"
+    },
+    {
+     "old": "055.0702"
+    },
+    {
+     "old": "055.0703"
+    },
+    {
+     "old": "055.0704"
+    },
+    {
+     "old": "055.0705"
+    },
+    {
+     "old": "055.0706"
+    },
+    {
+     "old": "055.0707"
+    },
+    {
+     "old": "055.0708",
+     "set_french": "J’admire toujours votre taille, dit-il, comme nous approchions de la porte du Peuple, vraiment vous avez une taille remarquable. Comme vous pouvez voir cet Antonelli était à mettre à la porte. [Une ligne et demie cancellée]"
+    },
+    {
+     "old": "055.0709"
+    },
+    {
+     "old": "055.0710"
+    },
+    {
+     "old": "055.0711"
+    },
+    {
+     "old": "055.0712"
+    },
+    {
+     "old": "055.0713"
+    },
+    {
+     "old": "055.0714"
+    },
+    {
+     "old": "055.0715"
+    },
+    {
+     "old": "055.0716"
+    },
+    {
+     "old": "055.0717"
+    },
+    {
+     "old": "055.0718"
+    },
+    {
+     "old": "055.0719"
+    },
+    {
+     "old": "055.0720"
+    },
+    {
+     "old": "055.0721"
+    },
+    {
+     "old": "055.0722"
+    },
+    {
+     "old": "055.0723"
+    },
+    {
+     "old": "055.0724"
+    },
+    {
+     "old": "055.0725"
+    },
+    {
+     "old": "055.0726"
+    },
+    {
+     "old": "055.0727"
+    },
+    {
+     "old": "055.0728"
+    },
+    {
+     "old": "055.0729"
+    },
+    {
+     "old": "055.0730"
+    },
+    {
+     "old": "055.0731"
+    },
+    {
+     "old": "055.0732"
+    },
+    {
+     "old": "055.0733"
+    },
+    {
+     "old": "055.0734"
+    },
+    {
+     "old": "055.0735"
+    },
+    {
+     "old": "055.0736"
+    },
+    {
+     "old": "055.0737"
+    },
+    {
+     "old": "055.0738"
+    },
+    {
+     "old": "055.0739"
+    },
+    {
+     "old": "055.0740"
+    },
+    {
+     "old": "055.0741"
+    },
+    {
+     "old": "055.0742"
+    },
+    {
+     "old": "055.0743"
+    },
+    {
+     "old": "055.0744"
+    },
+    {
+     "old": "055.0745"
+    },
+    {
+     "old": "055.0746"
+    },
+    {
+     "old": "055.0747"
+    },
+    {
+     "old": "055.0748"
+    },
+    {
+     "old": "055.0749"
+    },
+    {
+     "old": "055.0750"
+    },
+    {
+     "old": "055.0751"
+    },
+    {
+     "old": "055.0752"
+    },
+    {
+     "old": "055.0753"
+    },
+    {
+     "old": "055.0754"
+    },
+    {
+     "old": "055.0755"
+    },
+    {
+     "old": "055.0756"
+    },
+    {
+     "old": "055.0757"
+    },
+    {
+     "old": "055.0758"
+    },
+    {
+     "old": "055.0759"
+    },
+    {
+     "old": "055.0760"
+    },
+    {
+     "old": "055.0761"
+    },
+    {
+     "old": "055.0762"
+    },
+    {
+     "old": "055.0763"
+    },
+    {
+     "old": "055.0764"
+    },
+    {
+     "old": "055.0765"
+    },
+    {
+     "old": "055.0766"
+    },
+    {
+     "old": "055.0767"
+    },
+    {
+     "old": "055.0768"
+    },
+    {
+     "old": "055.0769"
+    },
+    {
+     "old": "055.0770"
+    },
+    {
+     "old": "055.0771"
+    },
+    {
+     "old": "055.0772"
+    },
+    {
+     "old": "055.0773"
+    },
+    {
+     "old": "055.0774"
+    },
+    {
+     "old": "055.0775"
+    },
+    {
+     "old": "055.0776"
+    },
+    {
+     "old": "055.0777"
+    },
+    {
+     "old": "055.0778"
+    },
+    {
+     "old": "055.0779"
+    },
+    {
+     "old": "055.0780"
+    },
+    {
+     "old": "055.0781"
+    },
+    {
+     "old": "055.0782"
+    },
+    {
+     "old": "055.0783"
+    },
+    {
+     "old": "055.0784"
+    },
+    {
+     "old": "055.0785"
+    },
+    {
+     "old": "055.0786"
+    },
+    {
+     "old": "055.0787"
+    },
+    {
+     "old": "055.0788"
+    },
+    {
+     "old": "055.0789"
+    },
+    {
+     "old": "055.0790"
+    },
+    {
+     "old": "055.0791"
+    },
+    {
+     "old": "055.0792"
+    },
+    {
+     "old": "055.0793"
+    },
+    {
+     "old": "055.0794"
+    },
+    {
+     "old": "055.0795"
+    },
+    {
+     "old": "055.0796"
+    },
+    {
+     "old": "055.0797"
+    },
+    {
+     "old": "055.0798"
+    },
+    {
+     "old": "055.0799"
+    },
+    {
+     "old": "055.0800"
+    },
+    {
+     "old": "055.0801"
+    },
+    {
+     "old": "055.0802"
+    },
+    {
+     "old": "055.0803"
+    },
+    {
+     "old": "055.0804"
+    },
+    {
+     "old": "055.0805"
+    },
+    {
+     "old": "055.0806"
+    },
+    {
+     "old": "055.0807"
+    },
+    {
+     "old": "055.0808"
+    },
+    {
+     "old": "055.0809"
+    },
+    {
+     "old": "055.0810"
+    },
+    {
+     "old": "055.0811"
+    },
+    {
+     "old": "055.0812"
+    },
+    {
+     "old": "055.0813"
+    },
+    {
+     "old": "055.0814"
+    },
+    {
+     "old": "055.0815"
+    },
+    {
+     "old": "055.0816"
+    },
+    {
+     "old": "055.0817"
+    },
+    {
+     "old": "055.0818"
+    },
+    {
+     "old": "055.0819"
+    },
+    {
+     "old": "055.0820"
+    },
+    {
+     "old": "055.0821"
+    },
+    {
+     "old": "055.0822"
+    },
+    {
+     "old": "055.0823"
+    },
+    {
+     "old": "055.0824"
+    },
+    {
+     "old": "055.0825"
+    },
+    {
+     "old": "055.0826"
+    },
+    {
+     "old": "055.0827"
+    },
+    {
+     "old": "055.0828"
+    },
+    {
+     "old": "055.0829"
+    },
+    {
+     "old": "055.0830"
+    },
+    {
+     "old": "055.0831"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-17.md",
+   "date": "1876-03-17",
+   "heading": "Vendredi 17 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0832"
+    },
+    {
+     "old": "055.0833"
+    },
+    {
+     "old": "055.0834"
+    },
+    {
+     "old": "055.0835"
+    },
+    {
+     "old": "055.0836"
+    },
+    {
+     "old": "055.0837"
+    },
+    {
+     "old": "055.0838"
+    },
+    {
+     "old": "055.0839"
+    },
+    {
+     "old": "055.0840"
+    },
+    {
+     "old": "055.0841"
+    },
+    {
+     "old": "055.0842"
+    },
+    {
+     "old": "055.0843"
+    },
+    {
+     "old": "055.0844"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-18.md",
+   "date": "1876-03-18",
+   "heading": "Samedi 18 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0845"
+    },
+    {
+     "old": "055.0846"
+    },
+    {
+     "old": "055.0847"
+    },
+    {
+     "old": "055.0848"
+    },
+    {
+     "old": "055.0849"
+    },
+    {
+     "old": "055.0850"
+    },
+    {
+     "old": "055.0851"
+    },
+    {
+     "old": "055.0852"
+    },
+    {
+     "old": "055.0853"
+    },
+    {
+     "old": "055.0854"
+    },
+    {
+     "old": "055.0855"
+    },
+    {
+     "old": "055.0856"
+    },
+    {
+     "old": "055.0857"
+    },
+    {
+     "old": "055.0858"
+    },
+    {
+     "old": "055.0859"
+    },
+    {
+     "old": "055.0860"
+    },
+    {
+     "old": "055.0861"
+    },
+    {
+     "old": "055.0862"
+    },
+    {
+     "old": "055.0863"
+    },
+    {
+     "old": "055.0864"
+    },
+    {
+     "old": "055.0865"
+    },
+    {
+     "old": "055.0866"
+    },
+    {
+     "old": "055.0867"
+    },
+    {
+     "old": "055.0868"
+    },
+    {
+     "old": "055.0869"
+    },
+    {
+     "old": "055.0870"
+    },
+    {
+     "old": "055.0871"
+    },
+    {
+     "old": "055.0872"
+    },
+    {
+     "old": "055.0873"
+    },
+    {
+     "old": "055.0874"
+    },
+    {
+     "old": "055.0875"
+    },
+    {
+     "old": "055.0876"
+    },
+    {
+     "old": "055.0877"
+    },
+    {
+     "old": "055.0878"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-19.md",
+   "date": "1876-03-19",
+   "heading": "Dimanche 19 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0879"
+    },
+    {
+     "old": "055.0880"
+    },
+    {
+     "old": "055.0881"
+    },
+    {
+     "old": "055.0882"
+    },
+    {
+     "old": "055.0883"
+    },
+    {
+     "old": "055.0884"
+    },
+    {
+     "old": "055.0885"
+    },
+    {
+     "old": "055.0886"
+    },
+    {
+     "old": "055.0887"
+    },
+    {
+     "old": "055.0888"
+    },
+    {
+     "old": "055.0889"
+    },
+    {
+     "old": "055.0890"
+    },
+    {
+     "old": "055.0891"
+    },
+    {
+     "old": "055.0892"
+    },
+    {
+     "old": "055.0893"
+    },
+    {
+     "old": "055.0894"
+    },
+    {
+     "old": "055.0895"
+    },
+    {
+     "old": "055.0896"
+    },
+    {
+     "old": "055.0897"
+    },
+    {
+     "old": "055.0898"
+    },
+    {
+     "old": "055.0899"
+    },
+    {
+     "old": "055.0900"
+    },
+    {
+     "old": "055.0901"
+    },
+    {
+     "old": "055.0902"
+    },
+    {
+     "old": "055.0903"
+    },
+    {
+     "old": "055.0904"
+    },
+    {
+     "old": "055.0905"
+    },
+    {
+     "old": "055.0906"
+    },
+    {
+     "old": "055.0907"
+    },
+    {
+     "old": "055.0908"
+    },
+    {
+     "old": "055.0909"
+    },
+    {
+     "old": "055.0910"
+    },
+    {
+     "old": "055.0911"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-20.md",
+   "date": "1876-03-20",
+   "heading": "Lundi 20 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0912"
+    },
+    {
+     "old": "055.0913"
+    },
+    {
+     "old": "055.0914"
+    },
+    {
+     "old": "055.0915"
+    },
+    {
+     "old": "055.0916"
+    },
+    {
+     "old": "055.0917"
+    },
+    {
+     "old": "055.0918"
+    },
+    {
+     "old": "055.0919"
+    },
+    {
+     "old": "055.0920"
+    },
+    {
+     "old": "055.0921"
+    },
+    {
+     "old": "055.0922"
+    },
+    {
+     "old": "055.0923"
+    },
+    {
+     "old": "055.0924"
+    },
+    {
+     "old": "055.0925"
+    },
+    {
+     "old": "055.0926"
+    },
+    {
+     "old": "055.0927"
+    },
+    {
+     "old": "055.0928"
+    },
+    {
+     "old": "055.0929"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-21.md",
+   "date": "1876-03-21",
+   "heading": "Mardi 21 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0930"
+    },
+    {
+     "old": "055.0931"
+    },
+    {
+     "old": "055.0932"
+    },
+    {
+     "old": "055.0933"
+    },
+    {
+     "new": {
+      "french": "Je viens de repasser mon dernier livre et je vois que ce n’est pas encore désespéré avec Torlonia. Antonelli a été présenté le 20 février, a fait sa visite le 21 et après cela nous ne l’avons plus vu jusqu’au 28. Le 28 il vient sur le balcon et on l’invita à venir le même soir chez nous.",
+      "rsr": "Restored from tome07.docx ¶2346, Mon Journal t.7 p.160 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous avons connu Torlonia le 13 mars, le 14 il a fait sa visite. Le 16 nous avons déjeuné chez Spillmann et passé la moitié de la journée ensemble. Mais continuons, Antonelli est venu pour la seconde fois le soir, le 5 mars entre les deux soirées il y a cinq jours de distance. Continuons toujours, ces calculs me consolent. Le lendemain 6 mars nous avons monté à cheval avec Plowden, Loëbecke et Antonelli. Le 8 encore cavalcade mais en tête à tête. Le 9 Antonelli a encore passé la soirée chez nous; depuis ce temps il n’y a plus à compter. Mais le principal c’est le commencement, voyez: 26 fév. - 28 - 5 mars !",
+      "rsr": "Restored from tome07.docx ¶2347, Mon Journal t.7 p.160 (missing from original extraction, 2026-09-28 rebuild). Typesetting typo corrected: «calvacade» → «cavalcade» (Mon Journal t.7 p.160). Typesetting typo corrected: «en tète à tête» → «en tête à tête» (Mon Journal t.7 p.160)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il n’y a donc pas à désespérer. Torlonia n’a pas eu le temps (console-toi, brute !).",
+      "rsr": "Restored from tome07.docx ¶2348, Mon Journal t.7 p.160 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Voyez les dates: 13 mars - 16 mars. Pour le moment c’est tout. Nous sommes au 21. Du 16 au 21 il n’y a que quatre jours, avec celui du 21, cinq jours. Ne pleurons pas, ce n’est pas encore désespéré. Ah ! bigre. Comme ce bigre serait plaintif si au lieu de l’écrire je le disais !",
+      "rsr": "Restored from tome07.docx ¶2349, Mon Journal t.7 p.160 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le Roi a ordonné un deuil de sept jours pour le vieux Doria. Voilà ce qui est chic ! Voilà ce qui fait rouler au diable le pauvre Antonelli ! Voilà de la grandeur comme il m’en faudrait !",
+      "rsr": "Restored from tome07.docx ¶2350, Mon Journal t.7 p.160 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’en gémis, foi de gentille femme !",
+      "rsr": "Restored from tome07.docx ¶2351, Mon Journal t.7 p.160 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Sur le Corso nous avons rencontré le marquis Sorgagli une vieille connaissance de Nice dont je m’étonne de n’avoir jamais dit un mot. Il revient du Caire et viendra ce soir raconter son voyage.",
+      "rsr": "Restored from tome07.docx ¶2352, Mon Journal t.7 p.160 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Sorgagli est de, diable ! j’oublie la ville, mais bah ! il est presque romain et son oncle a été vingt ans ministre ici. Il peut avoir de trente-cinq à quarante ans, veuf inconsolable d’une femme morte il y a peu de temps en lui laissant un fils.",
+      "rsr": "Restored from tome07.docx ¶2353, Mon Journal t.7 p.160 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin Antonelli a amené Fosti, le maître de chant le plus demandé et le plus à la mode de Rome. Il donne des leçons à la princesse Marguerite et tous les seigneurs de Rome lui donnent la main, et le souffrent presque en égal.",
+      "rsr": "Restored from tome07.docx ¶2354–2355, Mon Journal t.7 pp.160–161 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Depuis un mois et demi j'ai essayé pour la première fois de chanter. Je n’ai pu que montrer la moitié de mon instrument et Fosti l'a trouvé fort beau.",
+      "rsr": "Restored from tome07.docx ¶2356, Mon Journal t.7 p.161 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et voilà une avalanche de monde (admirez la distinction du style). Les deux Swedomsky, Sorgagli, Rossi et le baron Visconti. Ce dernier reste son temps habituel pendant lequel temps il dit des choses pas du tout habituelles, comme je l’apprends plus tard.",
+      "rsr": "Restored from tome07.docx ¶2357, Mon Journal t.7 p.161 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Antonelli s’en va avec Fosti de bonne heure.",
+      "rsr": "Restored from tome07.docx ¶2358, Mon Journal t.7 p.161 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Restez, lui ai-je dit.",
+      "rsr": "Restored from tome07.docx ¶2359, Mon Journal t.7 p.161 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne peux pas !",
+      "rsr": "Restored from tome07.docx ¶2360, Mon Journal t.7 p.161 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Eh bien je me fâcherai.",
+      "rsr": "Restored from tome07.docx ¶2361, Mon Journal t.7 p.161 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je lui ai dit des impertinences et l’ai laissé partir, restant moi-méme à rire avec les autres, avec Sorgagli qui se souvient de mes robes comme Danis et qui “m’étudie depuis quatre ans”. Il s’étonne de me voir si grande et autre chose encore. On va dans mon studio qui est à côté du grand salon. Mais je m’ennuyais sans Pietro. Au bout d’une demi-heure ce monsieur, si désiré ce soir, revient.",
+      "rsr": "Restored from tome07.docx ¶2362, Mon Journal t.7 p.161 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Rossi *nous* examine pour aller faire son rapport à Monseigneur et aux Antonelli. On désire tant marier ce méchant garçon, lui-même me l’a dit cent fois.",
+      "rsr": "Restored from tome07.docx ¶2363, Mon Journal t.7 p.161 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me suis bêtement conduite ce soir. J’ai parlé bas avec le garnement et donné tout lieu de croire des choses qui ne seront jamais. Pietro avec tout le monde ne m’amuse pas, il m’amuse quand nous sommes en deux, alors il me parle amour et mariage. Nous trouvons moyen de nous isoler dans le studio. Le fils de prêtre est jaloux, furieusement jaloux. De qui ? De tout le monde, de z... Zucchini, de Torlonia, de tous les hommes. A la bonne heure. J’écoute ces discours en riant du haut de ma froide indifférence et en même temps me laisse prendre la main, prends sa main à lui d’un air presque maternel et s'il n’est pas encore tout à fait hébété par sa passion pour moi, comme il dit, il doit voir que, tout en le chassant par mes paroles, je le retiens par mes yeux, et tout en lui disant que je ne l’aime et ne l’aimerai jamais, je l’aime ou du moins me conduis comme si je l'aimais. Je lui dis toutes sortes de bêtise et le traite comme au bal du Capitole. Un autre serait content, un autre plus âgé, mais Pietro déchire une serviette, casse deux pinceaux, crève une toile. Toutes ces évolutions me permettent de le prendre par la main et de lui dire qu’il est fou.",
+      "rsr": "Restored from tome07.docx ¶2364–2365, Mon Journal t.7 pp.161–162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alors il me regarde avec une curieuse fixité, je fais de même et quand ses yeux noirs se perdent dans mes yeux gris, je lui dis sans rire:",
+      "rsr": "Restored from tome07.docx ¶2366, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Faites la grimace, et il rit et je fais semblant d’être mécontente.",
+      "rsr": "Restored from tome07.docx ¶2367, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais on apporte une dépêche, je la lis, je la montre et me montre contrariée, ennuyée, un peu furieuse. On m’a acheté des chevaux à Nice quand je voulais ceux de Torlonia ! C’est abominable. Pietro portera la dépêche à Clemente. J’en suis désolée.",
+      "rsr": "Restored from tome07.docx ¶2368, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Cet animal reste après tout le monde et en passant par l’antichambre s’arrête auprès de ma porte.",
+      "rsr": "Restored from tome07.docx ¶2369, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C’est votre chambre ?",
+      "rsr": "Restored from tome07.docx ¶2370, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oui, c’est ma chambre.",
+      "rsr": "Restored from tome07.docx ¶2371, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Walitsky retourne au salon sachant ce que cela veut dire.",
+      "rsr": "Restored from tome07.docx ¶2372, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comment voulez-vous que je vous croie quand vous venez de dire au salon que se marier avant trente-cinq ans est une bêtise !",
+      "rsr": "Restored from tome07.docx ¶2373, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais j’ai plaisanté au salon, est-ce que vous ne voyez pas.",
+      "rsr": "Restored from tome07.docx ¶2374, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non.",
+      "rsr": "Restored from tome07.docx ¶2375, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alors essayez et vous verrez vous-même.",
+      "rsr": "Restored from tome07.docx ¶2376, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il paraît que je ne quitterai pas Rome, car c’est impossible, on ne peut pas vivre sans moi, on me suivra ou je resterai. On doit me voir à présent, autrement vivre est devenu impossible.",
+      "rsr": "Restored from tome07.docx ¶2377, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Voyez-vous quelle audace. Mais il y a un proverbe russe qui dit: “Celui est un mauvais soldat qui ne désire pas devenir général”.",
+      "rsr": "Restored from tome07.docx ¶2378, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le bon soldat me baise la main en la touchant à peine de ses lèvres comme toujours.",
+      "rsr": "Restored from tome07.docx ¶2379, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous ne savez même pas baiser la main.",
+      "rsr": "Restored from tome07.docx ¶2380, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Cela veut dire que d’autres vous ont baisé les mains, puisque vous savez comment cela se fait ! s’écrie-t-il espérant me confondre.",
+      "rsr": "Restored from tome07.docx ¶2381, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Sans doute, Monsieur, les mains des demoiselles sont faites pour cela, d’ailleurs pourquoi seriez-vous le privilégié ?",
+      "rsr": "Restored from tome07.docx ¶2382, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il exécute un pas furieux dans la chambre et revient dire:",
+      "rsr": "Restored from tome07.docx ¶2383, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alors vous ne m'aimez pas ?",
+      "rsr": "Restored from tome07.docx ¶2384, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non.",
+      "rsr": "Restored from tome07.docx ¶2385, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pas même un peu ?",
+      "rsr": "Restored from tome07.docx ¶2386, Mon Journal t.7 p.162 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pas du tout.",
+      "rsr": "Restored from tome07.docx ¶2387, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne dois pas espérer ?",
+      "rsr": "Restored from tome07.docx ¶2388, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon Dieu, Monsieur, il faut toujours espérer car l’espérance est dans la nature de l’homme mais quant à moi je vous en donnerai pas.",
+      "rsr": "Restored from tome07.docx ¶2389, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et comme je parlais en riant il s’en va passablement satisfait. J’ai pris pour principe de parler de façon qu'on ne puisse jamais savoir si je dis vrai ou si je me moque. C’est excessivement commode.",
+      "rsr": "Restored from tome07.docx ¶2390, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A propos, il n’a rien confié à Torlonia.",
+      "rsr": "Restored from tome07.docx ¶2391, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais savez-vous ce qu’a dit Visconto Visconti ? Des questions sur moi et sur Pietro. Où désirez vous marier votre fille. Le pape se mêle de toutes les affaires des Antonelli et ne consentira à un mariage qu’à la condition que les enfants soient catholiques. Le jeune homme est très gentil et très riche, et il héritera des fortunes immenses, il aura une très belle position\nEt patati et patata ! Tout comme si... enfin, que voulez-vous, le bon soldat a sans doute dit à ses parents qu’il désirait devenir général. Mais quelle audace de me demander en mariage ! Maman a répondu qu’elle regardait Pietro comme un enfant, que sa fille aussi était beaucoup trop jeune, qu'elle n’avait aucun plan arrêté, ne pensait à rien et croyait fermement que les destinées des hommes étaient écrites là-Haut.",
+      "rsr": "Restored from tome07.docx ¶2392–2393, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Là-haut, là-haut sur la montagne,\nVous voyez bien ce beau castel\nMoi...",
+      "rsr": "Restored from tome07.docx ¶2394–2396, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! bigre, voilà la complainte de Girofla.",
+      "rsr": "Restored from tome07.docx ¶2397, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! si le Roi n’était pas maître de Rome, ce serait tout de suite fait.",
+      "rsr": "Restored from tome07.docx ¶2398, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En attendant traînons aussi longtemps que possible.",
+      "rsr": "Restored from tome07.docx ¶2399, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Mots cancellés]",
+      "rsr": "Restored from tome07.docx ¶2400, Mon Journal t.7 p.163 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "rayé"
+     },
+     "_kind_guess_reason": "bracketed struck passage"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-22.md",
+   "date": "1876-03-22",
+   "heading": "Mercredi 22 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0934"
+    },
+    {
+     "old": "055.0935"
+    },
+    {
+     "old": "055.0936"
+    },
+    {
+     "old": "055.0937"
+    },
+    {
+     "old": "055.0938"
+    },
+    {
+     "old": "055.0939"
+    },
+    {
+     "old": "055.0940"
+    },
+    {
+     "old": "055.0941"
+    },
+    {
+     "old": "055.0942"
+    },
+    {
+     "old": "055.0943"
+    },
+    {
+     "old": "055.0944"
+    },
+    {
+     "old": "055.0945"
+    },
+    {
+     "old": "055.0946"
+    },
+    {
+     "old": "055.0947"
+    },
+    {
+     "old": "055.0948"
+    },
+    {
+     "old": "055.0949"
+    },
+    {
+     "old": "055.0950"
+    },
+    {
+     "old": "055.0951"
+    },
+    {
+     "old": "055.0952"
+    },
+    {
+     "old": "055.0953"
+    },
+    {
+     "old": "055.0954"
+    },
+    {
+     "old": "055.0955"
+    },
+    {
+     "old": "055.0956"
+    },
+    {
+     "old": "055.0957"
+    },
+    {
+     "old": "055.0958"
+    },
+    {
+     "old": "055.0959"
+    },
+    {
+     "old": "055.0960"
+    },
+    {
+     "old": "055.0961"
+    },
+    {
+     "old": "055.0962"
+    },
+    {
+     "old": "055.0963"
+    },
+    {
+     "old": "055.0964"
+    },
+    {
+     "old": "055.0965"
+    },
+    {
+     "old": "055.0966"
+    },
+    {
+     "old": "055.0967"
+    },
+    {
+     "old": "055.0968"
+    },
+    {
+     "old": "055.0970"
+    },
+    {
+     "old": "055.0971"
+    },
+    {
+     "old": "055.0972"
+    },
+    {
+     "old": "055.0973"
+    },
+    {
+     "old": "055.0974"
+    },
+    {
+     "old": "055.0975"
+    },
+    {
+     "old": "055.0976"
+    },
+    {
+     "old": "055.0977"
+    },
+    {
+     "old": "055.0978"
+    },
+    {
+     "old": "055.0979"
+    },
+    {
+     "old": "055.0980"
+    },
+    {
+     "old": "055.0981",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "055.0982"
+    },
+    {
+     "old": "055.0983"
+    },
+    {
+     "old": "055.0984"
+    },
+    {
+     "old": "055.0985"
+    },
+    {
+     "old": "055.0986"
+    },
+    {
+     "old": "055.0987"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-23.md",
+   "date": "1876-03-23",
+   "heading": "Jeudi 23 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.0969"
+    },
+    {
+     "old": "055.0988"
+    },
+    {
+     "old": "055.0989"
+    },
+    {
+     "old": "055.0990"
+    },
+    {
+     "old": "055.0991"
+    },
+    {
+     "old": "055.0992"
+    },
+    {
+     "old": "055.0993"
+    },
+    {
+     "old": "055.0994"
+    },
+    {
+     "old": "055.0995"
+    },
+    {
+     "old": "055.0996"
+    },
+    {
+     "old": "055.0997"
+    },
+    {
+     "old": "055.0998"
+    },
+    {
+     "old": "055.0999"
+    },
+    {
+     "old": "055.1000"
+    },
+    {
+     "old": "055.1001"
+    },
+    {
+     "old": "055.1002",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "055.1003"
+    },
+    {
+     "old": "055.1004"
+    },
+    {
+     "old": "055.1005"
+    },
+    {
+     "old": "055.1006"
+    },
+    {
+     "old": "055.1007"
+    },
+    {
+     "old": "055.1008"
+    },
+    {
+     "old": "055.1009"
+    },
+    {
+     "old": "055.1010"
+    },
+    {
+     "old": "055.1011"
+    },
+    {
+     "old": "055.1012"
+    },
+    {
+     "old": "055.1013"
+    },
+    {
+     "old": "055.1014"
+    },
+    {
+     "old": "055.1015"
+    },
+    {
+     "old": "055.1016"
+    },
+    {
+     "old": "055.1017"
+    },
+    {
+     "old": "055.1018"
+    },
+    {
+     "old": "055.1019"
+    },
+    {
+     "old": "055.1020"
+    },
+    {
+     "old": "055.1021"
+    },
+    {
+     "old": "055.1022"
+    },
+    {
+     "old": "055.1023"
+    },
+    {
+     "old": "055.1024"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-24.md",
+   "date": "1876-03-24",
+   "heading": "Vendredi 24 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.1025"
+    },
+    {
+     "old": "055.1026"
+    },
+    {
+     "old": "055.1027"
+    },
+    {
+     "old": "055.1028"
+    },
+    {
+     "old": "055.1029"
+    },
+    {
+     "old": "055.1030"
+    },
+    {
+     "old": "055.1031"
+    },
+    {
+     "old": "055.1032"
+    },
+    {
+     "old": "055.1033"
+    },
+    {
+     "old": "055.1034"
+    },
+    {
+     "old": "055.1036"
+    },
+    {
+     "old": "055.1037"
+    },
+    {
+     "old": "055.1038"
+    },
+    {
+     "old": "055.1039"
+    },
+    {
+     "old": "055.1040"
+    },
+    {
+     "old": "055.1041"
+    },
+    {
+     "old": "055.1042"
+    },
+    {
+     "old": "055.1043"
+    },
+    {
+     "old": "055.1044"
+    },
+    {
+     "old": "055.1045"
+    },
+    {
+     "old": "055.1046"
+    },
+    {
+     "old": "055.1047"
+    },
+    {
+     "old": "055.1048"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-25.md",
+   "date": "1876-03-25",
+   "heading": "Samedi 25 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.1035"
+    },
+    {
+     "old": "055.1049"
+    },
+    {
+     "old": "055.1050"
+    },
+    {
+     "old": "055.1051"
+    },
+    {
+     "old": "055.1052"
+    },
+    {
+     "old": "055.1053"
+    },
+    {
+     "old": "055.1054"
+    },
+    {
+     "old": "055.1055"
+    },
+    {
+     "old": "055.1056"
+    },
+    {
+     "old": "055.1057"
+    },
+    {
+     "old": "055.1058"
+    },
+    {
+     "old": "055.1059"
+    },
+    {
+     "old": "055.1060"
+    },
+    {
+     "old": "055.1061"
+    },
+    {
+     "old": "055.1062"
+    },
+    {
+     "old": "055.1063"
+    },
+    {
+     "old": "055.1064"
+    },
+    {
+     "old": "055.1065"
+    },
+    {
+     "old": "055.1066"
+    },
+    {
+     "old": "055.1067"
+    },
+    {
+     "old": "055.1068"
+    },
+    {
+     "old": "055.1069"
+    },
+    {
+     "old": "055.1070"
+    },
+    {
+     "old": "055.1071"
+    },
+    {
+     "old": "055.1072"
+    },
+    {
+     "old": "055.1073"
+    },
+    {
+     "old": "055.1074"
+    },
+    {
+     "old": "055.1075"
+    },
+    {
+     "old": "055.1076"
+    },
+    {
+     "old": "055.1077"
+    },
+    {
+     "old": "055.1078"
+    },
+    {
+     "old": "055.1079"
+    },
+    {
+     "old": "055.1080"
+    },
+    {
+     "old": "055.1081"
+    },
+    {
+     "old": "055.1082"
+    },
+    {
+     "old": "055.1083"
+    },
+    {
+     "old": "055.1084"
+    },
+    {
+     "old": "055.1085"
+    },
+    {
+     "old": "055.1086"
+    },
+    {
+     "old": "055.1087"
+    },
+    {
+     "old": "055.1088"
+    },
+    {
+     "old": "055.1089"
+    },
+    {
+     "old": "055.1090"
+    },
+    {
+     "old": "055.1091"
+    },
+    {
+     "old": "055.1092"
+    },
+    {
+     "old": "055.1093"
+    },
+    {
+     "old": "055.1094"
+    },
+    {
+     "old": "055.1095"
+    },
+    {
+     "old": "055.1096"
+    },
+    {
+     "old": "055.1097"
+    },
+    {
+     "old": "055.1098"
+    },
+    {
+     "old": "055.1099"
+    },
+    {
+     "old": "055.1100"
+    },
+    {
+     "old": "055.1101"
+    },
+    {
+     "old": "055.1102"
+    },
+    {
+     "old": "055.1103"
+    },
+    {
+     "old": "055.1104"
+    },
+    {
+     "old": "055.1105"
+    },
+    {
+     "old": "055.1106"
+    },
+    {
+     "old": "055.1107"
+    },
+    {
+     "old": "055.1108"
+    },
+    {
+     "old": "055.1109"
+    },
+    {
+     "old": "055.1110"
+    },
+    {
+     "old": "055.1111"
+    },
+    {
+     "old": "055.1112"
+    },
+    {
+     "old": "055.1113"
+    },
+    {
+     "old": "055.1114"
+    },
+    {
+     "old": "055.1115"
+    },
+    {
+     "old": "055.1116"
+    },
+    {
+     "old": "055.1117"
+    },
+    {
+     "old": "055.1118"
+    },
+    {
+     "old": "055.1119"
+    },
+    {
+     "old": "055.1120"
+    },
+    {
+     "old": "055.1121"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-26.md",
+   "date": "1876-03-26",
+   "heading": "Dimanche 26 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.1122"
+    },
+    {
+     "old": "055.1123"
+    },
+    {
+     "old": "055.1124"
+    },
+    {
+     "old": "055.1125"
+    },
+    {
+     "old": "055.1126"
+    },
+    {
+     "old": "055.1127"
+    },
+    {
+     "old": "055.1128",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "055.1129"
+    },
+    {
+     "old": "055.1130"
+    },
+    {
+     "old": "055.1131"
+    },
+    {
+     "old": "055.1132"
+    },
+    {
+     "old": "055.1133",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "055.1134"
+    },
+    {
+     "old": "055.1135"
+    },
+    {
+     "old": "055.1136"
+    },
+    {
+     "old": "055.1137"
+    },
+    {
+     "old": "055.1138"
+    },
+    {
+     "old": "055.1139"
+    },
+    {
+     "old": "055.1140"
+    },
+    {
+     "old": "055.1141"
+    },
+    {
+     "old": "055.1142"
+    },
+    {
+     "old": "055.1143"
+    },
+    {
+     "old": "055.1145"
+    },
+    {
+     "old": "055.1146"
+    },
+    {
+     "old": "055.1147"
+    },
+    {
+     "old": "055.1148"
+    },
+    {
+     "old": "055.1149"
+    },
+    {
+     "old": "055.1150"
+    },
+    {
+     "old": "055.1151"
+    },
+    {
+     "old": "055.1152"
+    },
+    {
+     "old": "055.1153"
+    },
+    {
+     "old": "055.1154"
+    },
+    {
+     "old": "055.1155"
+    },
+    {
+     "old": "055.1156"
+    },
+    {
+     "old": "055.1157"
+    },
+    {
+     "old": "055.1158"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-27.md",
+   "date": "1876-03-27",
+   "heading": "Lundi 27 mars 1876",
+   "paragraphs": [
+    {
+     "old": "055.1144"
+    },
+    {
+     "old": "055.1159"
+    },
+    {
+     "old": "055.1160"
+    },
+    {
+     "old": "055.1161"
+    },
+    {
+     "old": "055.1162"
+    },
+    {
+     "old": "055.1163"
+    },
+    {
+     "old": "055.1164"
+    },
+    {
+     "old": "055.1165"
+    },
+    {
+     "old": "055.1166",
+     "set_french": "> Rome, Hôtel de la Ville, 10 mars.[^4]"
+    },
+    {
+     "old": "055.1167",
+     "set_french": "> Cher père."
+    },
+    {
+     "old": "055.1168",
+     "set_french": "> Vous avez toujours été prévenu contre moi sans que j'eusse jamais rien fait pour justifier cette prévention. Je n'en ai pourtant perdu ni l'estime ni l'amour que doit à son père chaque fille bien née."
+    },
+    {
+     "old": "055.1169",
+     "set_french": "> Je me crois obligée de vous consulter dans toutes les occasions graves et je suis persuadée que vous y prendrez l'intérêt que de pareilles matières comportent."
+    },
+    {
+     "old": "055.1170"
+    },
+    {
+     "old": "055.1171",
+     "set_french": "> mais hier encore j'ai reçu la demande de M. le comte A., neveu du cardinal A...[^6]"
+    },
+    {
+     "old": "055.1172",
+     "set_french": "> Je me crois trop jeune pour le mariage, mais dans tous les cas je viens vous demander votre avis et j'espère que vous me le donnerez. Ces deux messieurs sont jeunes, riches, et ont tout ce qu'il faut pour plaire. Ils me sont indifférents."
+    },
+    {
+     "old": "055.1173",
+     "set_french": "> En espérant une réponse à ma lettre, je me dis avec le plus profond respect et la plus grande estime."
+    },
+    {
+     "old": "055.1174",
+     "set_french": "> Votre fille dévouée et obéissante."
+    }
+   ]
+  }
+ ],
+ "_fixed": "fix07.py 2026-09-28 (planner tome06/07); decisions in REVIEW-07.md"
+}

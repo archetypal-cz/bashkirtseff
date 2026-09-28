@@ -56,9 +56,9 @@ Marie recalls seeing Berthe with Hamilton on a balcony at a ball in Baden-Baden:
 
 ### Phase 3: Nice and Paris -- Acquaintanceship Without Friendship (1875-1877)
 
-In November 1875, Marie visits Berthe in Paris: "nous sommes toutes les deux sur un drole de pied, pas d'amitie comme entre jeunes filles, nous sommes de simples connaissances" (050.0101) -- not friendship as between girls, but mere acquaintances.
+In November 1875, Marie visits Berthe in Paris: "nous sommes toutes les deux sur un drole de pied, pas d'amitie comme entre jeunes filles, nous sommes de simples connaissances" (050.0118) -- not friendship as between girls, but mere acquaintances.
 
-They gossip about mutual connections -- Sommier, Pertusati, the Gonzales family. Marie observes the social snobbery cascade: "J'ai parle a Berthe de Robenson, Berthe en fait fi, les Gonzales font fi de Berthe. Ils font fi les uns des autres. N'est-ce pas drole?" (050.0164).
+They gossip about mutual connections -- Sommier, Pertusati, the Gonzales family. Marie observes the social snobbery cascade: "J'ai parle a Berthe de Robenson, Berthe en fait fi, les Gonzales font fi de Berthe. Ils font fi les uns des autres. N'est-ce pas drole?" (050.0181).
 
 By late 1876, Berthe visits Marie regularly in Paris: "Berthe a ete chez moi, cette chere petite" (067.1095). In autumn 1877, the Boyd family becomes socially important as Marie's gateway to Parisian high society.
 

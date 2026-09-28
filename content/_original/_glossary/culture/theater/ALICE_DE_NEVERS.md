@@ -27,7 +27,7 @@ Marie attends the Nice premiere of Alice de Nevers on 20 October 1875 (carnet 04
 
 ## References in Diary
 
-- First mentioned: 1875-10-20 (carnet 047, para 047.0948)
+- First mentioned: 1875-10-20 (carnet 047, para 047.0282)
 - Nice premiere attended by Marie
 
 %% 2026-02-09T22:00:00 RSR: Created entry. Alice de Nevers premiered Paris April 1875, Nice October 1875. The operetta itself is secondary to the social encounter in Marie's diary. %%

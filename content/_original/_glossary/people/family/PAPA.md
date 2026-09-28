@@ -18,7 +18,7 @@ last_updated: 2026-09-26
 **Last Updated**: 2026-09-26
 **Merged from**: FATHER_BASHKIRTSEFF (now a redirect to this entry)
 
-> **Disambiguation — who is "papa"?** In the Nice household (1873–1877) Marie's bare "papa" is almost always her **maternal grandfather, Stepan Babanine** — see [#Grand_papa](GRAND_PAPA.md). Her father Constantin is "mon père", "mon (cher / auguste / illustre / honorable) père" or "mon pater". Marie calls him "Papa" only when she is with him: his Nice visit of Nov 1873 (013.0085, 013.0093, 013.0109), Poltava and Gavronzi in Jul–Oct 1876 (carnets 064–066), and Paris in Nov 1876 (067.1035). This entry is for Constantin only. Tag the grandfather's "papa" as #Grand_papa, not #Papa. Other "papas" of 1875–76: old M. d'Audiffret (049.0155, 050.0104–0502), operetta refrains, other people's fathers. The per-occurrence tables are in `.claude/reports/papa-referent-2026-09-26.md`.
+> **Disambiguation — who is "papa"?** In the Nice household (1873–1877) Marie's bare "papa" is almost always her **maternal grandfather, Stepan Babanine** — see [#Grand_papa](GRAND_PAPA.md). Her father Constantin is "mon père", "mon (cher / auguste / illustre / honorable) père" or "mon pater". Marie calls him "Papa" only when she is with him: his Nice visit of Nov 1873 (013.0085, 013.0093, 013.0109), Poltava and Gavronzi in Jul–Oct 1876 (carnets 064–066), and Paris in Nov 1876 (067.1035). This entry is for Constantin only. Tag the grandfather's "papa" as #Grand_papa, not #Papa. Other "papas" of 1875–76: old M. d'Audiffret (049.0305, 050.0121–0502), operetta refrains, other people's fathers. The per-occurrence tables are in `.claude/reports/papa-referent-2026-09-26.md`.
 
 ## Overview
 

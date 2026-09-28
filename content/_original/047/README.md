@@ -9,7 +9,7 @@ Carnet 047 of Marie Bashkirtseff's diary. An eleven-day period dominated by the 
 **Date range**: 1875-10-13 to 1875-10-23
 **Entry count**: 11
 **Location(s)**: Nice
-**Paragraph range**: 047.0667 - 047.1106
+**Paragraph range**: 047.0001 - 047.0454
 
 ## Status
 

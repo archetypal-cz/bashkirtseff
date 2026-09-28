@@ -1,0 +1,2483 @@
+{
+  "carnet": "051",
+  "date": "2026-09-28",
+  "plan_path": "../rebuild-state/plan-tome0607/final/plan-051.json",
+  "plan_source": "tome06.docx",
+  "run_carnets": [
+    "045",
+    "046",
+    "047",
+    "048",
+    "049",
+    "050",
+    "051",
+    "052"
+  ],
+  "id_map": {
+    "051.0001": "051.0001",
+    "051.0002": "051.0002",
+    "051.0003": "051.0003",
+    "051.0004": "051.0004",
+    "051.0005": "051.0005",
+    "051.0006": "051.0006",
+    "051.0007": "051.0007",
+    "051.0008": "051.0008",
+    "051.0009": "051.0009",
+    "051.0010": "051.0010",
+    "051.0011": "051.0011",
+    "051.0012": "051.0012",
+    "051.0013": "051.0013",
+    "051.0014": "051.0014",
+    "051.0015": "051.0015",
+    "051.0016": "051.0016",
+    "051.0017": "051.0017",
+    "051.0018": "051.0018",
+    "051.0019": "051.0019",
+    "051.0020": "051.0020",
+    "051.0021": "051.0021",
+    "051.0022": "051.0022",
+    "051.0023": "051.0023",
+    "051.0024": "051.0024",
+    "051.0025": "051.0025",
+    "051.0026": "051.0026",
+    "051.0027": "051.0027",
+    "051.0028": "051.0028",
+    "051.0029": "051.0029",
+    "051.0030": "051.0030",
+    "051.0031": "051.0031",
+    "051.0032": "051.0032",
+    "051.0033": "051.0033",
+    "051.0034": "051.0034",
+    "051.0035": "051.0035",
+    "051.0036": "051.0036",
+    "051.0037": "051.0037",
+    "051.0038": "051.0038",
+    "051.0039": "051.0039",
+    "051.0040": "051.0040",
+    "051.0041": "051.0041",
+    "051.0042": "051.0042",
+    "051.0043": "051.0043",
+    "051.0044": "051.0044",
+    "051.0045": "051.0045",
+    "051.0046": "051.0046",
+    "051.0047": "051.0047",
+    "051.0048": "051.0048",
+    "051.0049": "051.0049",
+    "051.0050": "051.0050",
+    "051.0051": "051.0051",
+    "051.0052": "051.0052",
+    "051.0053": "051.0053",
+    "051.0054": "051.0054",
+    "051.0055": "051.0055",
+    "051.0056": "051.0056",
+    "051.0057": "051.0057",
+    "051.0058": "051.0058",
+    "051.0059": "051.0059",
+    "051.0060": "051.0060",
+    "051.0061": "051.0061",
+    "051.0062": "051.0062",
+    "051.0063": "051.0063",
+    "051.0064": "051.0064",
+    "051.0065": "051.0065",
+    "051.0066": "051.0066",
+    "051.0067": "051.0067",
+    "051.0068": "051.0068",
+    "051.0069": "051.0069",
+    "051.0070": "051.0070",
+    "051.0071": "051.0071",
+    "051.0072": "051.0072",
+    "051.0073": "051.0073",
+    "051.0074": "051.0074",
+    "051.0075": "051.0075",
+    "051.0076": "051.0076",
+    "051.0077": "051.0077",
+    "051.0078": "051.0078",
+    "051.0079": "051.0079",
+    "051.0080": "051.0080",
+    "051.0081": "051.0081",
+    "051.0082": "051.0082",
+    "051.0083": "051.0083",
+    "051.0084": "051.0084",
+    "051.0085": "051.0085",
+    "051.0086": "051.0086",
+    "051.0087": "051.0087",
+    "051.0088": "051.0088",
+    "051.0089": "051.0089",
+    "051.0090": "051.0090",
+    "051.0091": "051.0091",
+    "051.0092": "051.0092",
+    "051.0093": "051.0093",
+    "051.0094": "051.0094",
+    "051.0095": "051.0095",
+    "051.0096": "051.0096",
+    "051.0097": "051.0097",
+    "051.0098": "051.0098",
+    "051.0099": "051.0099",
+    "051.0100": "051.0100",
+    "051.0101": "051.0101",
+    "051.0102": "051.0102",
+    "051.0103": "051.0103",
+    "051.0104": "051.0104",
+    "051.0105": "051.0105",
+    "051.0106": "051.0106",
+    "051.0107": "051.0107",
+    "051.0108": "051.0108",
+    "051.0109": "051.0109",
+    "051.0110": "051.0110",
+    "051.0111": "051.0111",
+    "051.0112": "051.0112",
+    "051.0113": "051.0113",
+    "051.0114": "051.0114",
+    "051.0115": "051.0115",
+    "051.0116": "051.0116",
+    "051.0117": "051.0117",
+    "051.0118": "051.0118",
+    "051.0119": "051.0119",
+    "051.0120": "051.0120",
+    "051.0121": "051.0121",
+    "051.0122": "051.0122",
+    "051.0123": "051.0123",
+    "051.0124": "051.0124",
+    "051.0125": "051.0125",
+    "051.0126": "051.0126",
+    "051.0127": "051.0127",
+    "051.0128": "051.0128",
+    "051.0129": "051.0129",
+    "051.0130": "051.0130",
+    "051.0131": "051.0131",
+    "051.0132": "051.0132",
+    "051.0133": "051.0133",
+    "051.0134": "051.0134",
+    "051.0135": "051.0135",
+    "051.0136": "051.0136",
+    "051.0137": "051.0137",
+    "051.0138": "051.0138",
+    "051.0139": "051.0139",
+    "051.0140": "051.0140",
+    "051.0141": "051.0141",
+    "051.0142": "051.0142",
+    "051.0143": "051.0143",
+    "051.0144": "051.0144",
+    "051.0145": "051.0210",
+    "051.0146": "051.0211",
+    "051.0147": "051.0212",
+    "051.0148": "051.0213",
+    "051.0149": "051.0214",
+    "051.0150": "051.0215",
+    "051.0151": "051.0216",
+    "051.0152": "051.0217",
+    "051.0153": "051.0218",
+    "051.0154": "051.0219",
+    "051.0155": "051.0220",
+    "051.0156": "051.0221",
+    "051.0157": "051.0222",
+    "051.0158": "051.0223",
+    "051.0159": "051.0224",
+    "051.0160": "051.0225",
+    "051.0161": "051.0226",
+    "051.0162": "051.0227",
+    "051.0163": "051.0228",
+    "051.0164": "051.0229",
+    "051.0165": "051.0230",
+    "051.0166": "051.0231",
+    "051.0167": "051.0232",
+    "051.0168": "051.0233",
+    "051.0169": "051.0234",
+    "051.0170": "051.0235",
+    "051.0171": "051.0236",
+    "051.0172": "051.0237",
+    "051.0173": "051.0238",
+    "051.0174": "051.0239",
+    "051.0175": "051.0240",
+    "051.0176": "051.0241",
+    "051.0177": "051.0242",
+    "051.0178": "051.0243",
+    "051.0179": "051.0244",
+    "051.0180": "051.0245",
+    "051.0181": "051.0246",
+    "051.0182": "051.0247",
+    "051.0183": "051.0248",
+    "051.0184": "051.0249",
+    "051.0185": "051.0250",
+    "051.0186": "051.0251",
+    "051.0187": "051.0252",
+    "051.0188": "051.0253",
+    "051.0189": "051.0254",
+    "051.0190": "051.0255",
+    "051.0191": "051.0256",
+    "051.0192": "051.0257",
+    "051.0193": "051.0258",
+    "051.0194": "051.0259",
+    "051.0195": "051.0260",
+    "051.0196": "051.0261",
+    "051.0197": "051.0262",
+    "051.0198": "051.0263",
+    "051.0199": "051.0264",
+    "051.0200": "051.0265",
+    "051.0201": "051.0266",
+    "051.0202": "051.0267",
+    "051.0203": "051.0268",
+    "051.0204": "051.0269",
+    "051.0205": "051.0270",
+    "051.0206": "051.0271",
+    "051.0207": "051.0272",
+    "051.0208": "051.0273",
+    "051.0209": "051.0274",
+    "051.0210": "051.0275",
+    "051.0211": "051.0276",
+    "051.0212": "051.0277",
+    "051.0213": "051.0278",
+    "051.0214": "051.0279",
+    "051.0215": "051.0280",
+    "051.0216": "051.0281",
+    "051.0217": "051.0282",
+    "051.0218": "051.0283",
+    "051.0219": "051.0284",
+    "051.0220": "051.0285",
+    "051.0221": "051.0286",
+    "051.0222": "051.0287",
+    "051.0223": "051.0288",
+    "051.0224": "051.0289",
+    "051.0225": "051.0290",
+    "051.0226": "051.0291",
+    "051.0227": "051.0292",
+    "051.0228": "051.0293",
+    "051.0229": "051.0294",
+    "051.0230": "051.0295",
+    "051.0231": "051.0296",
+    "051.0232": "051.0297",
+    "051.0233": "051.0298",
+    "051.0234": "051.0299",
+    "051.0235": "051.0300",
+    "051.0236": "051.0301",
+    "051.0237": "051.0303",
+    "051.0238": "051.0304",
+    "051.0239": "051.0305",
+    "051.0240": "051.0306",
+    "051.0241": "051.0307",
+    "051.0242": "051.0308",
+    "051.0243": "051.0309",
+    "051.0244": "051.0310",
+    "051.0245": "051.0311",
+    "051.0246": "051.0312",
+    "051.0247": "051.0313",
+    "051.0248": "051.0314",
+    "051.0249": "051.0315",
+    "051.0250": "051.0316",
+    "051.0251": "051.0317",
+    "051.0252": "051.0318",
+    "051.0253": "051.0319",
+    "051.0254": "051.0320",
+    "051.0255": "051.0321",
+    "051.0256": "051.0322",
+    "051.0257": "051.0323",
+    "051.0258": "051.0324",
+    "051.0259": "051.0325",
+    "051.0260": "051.0326",
+    "051.0261": "051.0327",
+    "051.0262": "051.0328",
+    "051.0263": "051.0329",
+    "051.0264": "051.0330",
+    "051.0265": "051.0331",
+    "051.0266": "051.0332",
+    "051.0267": "051.0333",
+    "051.0268": "051.0334",
+    "051.0269": "051.0335",
+    "051.0270": "051.0336",
+    "051.0271": "051.0337",
+    "051.0272": "051.0338",
+    "051.0273": "051.0339",
+    "051.0274": "051.0340",
+    "051.0275": "051.0341",
+    "051.0276": "051.0342",
+    "051.0277": "051.0343",
+    "051.0278": "051.0344",
+    "051.0279": "051.0345",
+    "051.0280": "051.0349",
+    "051.0281": "051.0350",
+    "051.0282": "051.0351",
+    "051.0283": "051.0352",
+    "051.0284": "051.0353",
+    "051.0285": "051.0354",
+    "051.0286": "051.0355",
+    "051.0287": "051.0356",
+    "051.0288": "051.0357",
+    "051.0289": "051.0358",
+    "051.0290": "051.0359",
+    "051.0291": "051.0360",
+    "051.0292": "051.0361",
+    "051.0293": "051.0362",
+    "051.0294": "051.0363",
+    "051.0295": "051.0364",
+    "051.0296": "051.0365",
+    "051.0297": "051.0366",
+    "051.0298": "051.0367",
+    "051.0299": "051.0368",
+    "051.0300": "051.0369",
+    "051.0301": "051.0370",
+    "051.0302": "051.0371",
+    "051.0303": "051.0372",
+    "051.0304": "051.0373",
+    "051.0305": "051.0374",
+    "051.0306": "051.0375",
+    "051.0307": "051.0376",
+    "051.0308": "051.0377",
+    "051.0309": "051.0378",
+    "051.0310": "051.0379",
+    "051.0311": "051.0380",
+    "051.0312": "051.0381",
+    "051.0313": "051.0382",
+    "051.0314": "051.0383",
+    "051.0315": "051.0384",
+    "051.0316": "051.0385",
+    "051.0317": "051.0386",
+    "051.0318": "051.0387",
+    "051.0319": "051.0388",
+    "051.0320": "051.0389",
+    "051.0321": "051.0390",
+    "051.0322": "051.0391",
+    "051.0323": "051.0392",
+    "051.0324": "051.0393",
+    "051.0325": "051.0394",
+    "051.0326": "051.0395",
+    "051.0327": "051.0396",
+    "051.0328": "051.0397",
+    "051.0329": "051.0398",
+    "051.0330": "051.0399",
+    "051.0331": "051.0400",
+    "051.0332": "051.0401",
+    "051.0333": "051.0402",
+    "051.0334": "051.0403",
+    "051.0335": "051.0404",
+    "051.0336": "051.0405",
+    "051.0337": "051.0406",
+    "051.0338": "051.0407",
+    "051.0339": "051.0408",
+    "051.0340": "051.0409",
+    "051.0341": "051.0410",
+    "051.0342": "051.0411",
+    "051.0343": "051.0412",
+    "051.0344": "051.0413",
+    "051.0345": "051.0414",
+    "051.0346": "051.0415",
+    "051.0347": "051.0416",
+    "051.0348": "051.0417",
+    "051.0349": "051.0418",
+    "051.0350": "051.0419",
+    "051.0351": "051.0420",
+    "051.0352": "051.0421",
+    "051.0353": "051.0422",
+    "051.0354": "051.0423",
+    "051.0355": "051.0424",
+    "051.0356": "051.0425",
+    "051.0357": "051.0426",
+    "051.0358": "051.0427",
+    "051.0359": "051.0428",
+    "051.0360": "051.0429",
+    "051.0361": "051.0430",
+    "051.0362": "051.0431",
+    "051.0363": "051.0432",
+    "051.0364": "051.0433",
+    "051.0365": "051.0434",
+    "051.0366": "051.0435",
+    "051.0367": "051.0436",
+    "051.0368": "051.0437",
+    "051.0369": "051.0438",
+    "051.0370": "051.0439",
+    "051.0371": "051.0440",
+    "051.0372": "051.0441",
+    "051.0373": "051.0442",
+    "051.0374": "051.0443",
+    "051.0375": "051.0444",
+    "051.0376": "051.0445",
+    "051.0377": "051.0446",
+    "051.0378": "051.0447",
+    "051.0379": "051.0448",
+    "051.0380": "051.0449",
+    "051.0381": "051.0450",
+    "051.0382": "051.0451",
+    "051.0383": "051.0452",
+    "051.0384": "051.0453",
+    "051.0385": "051.0454",
+    "051.0386": "051.0455",
+    "051.0387": "051.0456",
+    "051.0388": "051.0457",
+    "051.0389": "051.0458",
+    "051.0390": "051.0459",
+    "051.0391": "051.0460",
+    "051.0392": "051.0461",
+    "051.0393": "051.0462",
+    "051.0394": "051.0463",
+    "051.0395": "051.0464",
+    "051.0396": "051.0465",
+    "051.0397": "051.0466",
+    "051.0398": "051.0467",
+    "051.0399": "051.0468",
+    "051.0400": "051.0469",
+    "051.0401": "051.0470",
+    "051.0402": "051.0471"
+  },
+  "changed_ids": 258,
+  "new_paragraphs": [
+    {
+      "id": "051.0145",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0146",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0147",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0148",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0149",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0150",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0151",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0152",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0153",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0154",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0155",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0156",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0157",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0158",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0159",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0160",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0161",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0162",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0163",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0164",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0165",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0166",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0167",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0168",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0169",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0170",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0171",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0172",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0173",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0174",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0175",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0176",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0177",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0178",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0179",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0180",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0181",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0182",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0183",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0184",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0185",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0186",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0187",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0188",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0189",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0190",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0191",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0192",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0193",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0194",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0195",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0196",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0197",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0198",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0199",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0200",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0201",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0202",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0203",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0204",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0205",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0206",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0207",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0208",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0209",
+      "file": "1875-12-30.md"
+    },
+    {
+      "id": "051.0302",
+      "file": "1876-01-02.md"
+    },
+    {
+      "id": "051.0346",
+      "file": "1876-01-03.md"
+    },
+    {
+      "id": "051.0347",
+      "file": "1876-01-03.md"
+    },
+    {
+      "id": "051.0348",
+      "file": "1876-01-03.md"
+    }
+  ],
+  "dropped": [],
+  "file_map": {
+    "1876-01-02-03.md": "1876-01-02.md"
+  },
+  "files_removed": [
+    "1876-01-02-03.md"
+  ],
+  "files_added": [
+    "1876-01-02.md",
+    "1876-01-03.md"
+  ],
+  "last_id": "051.0471",
+  "flag_resets": {
+    "cz": [
+      "1875-12-30.md",
+      "1876-01-02.md",
+      "1876-01-03.md"
+    ],
+    "uk": [
+      "1875-12-30.md",
+      "1876-01-02.md",
+      "1876-01-03.md"
+    ],
+    "en": [
+      "1875-12-30.md",
+      "1876-01-02.md",
+      "1876-01-03.md"
+    ],
+    "fr": [
+      "1875-12-30.md",
+      "1876-01-02.md",
+      "1876-01-03.md"
+    ]
+  },
+  "plan": {
+    "carnet": "051",
+    "source": "tome06.docx",
+    "drop": [],
+    "entries": [
+      {
+        "file": "1875-12-26.md",
+        "date": "1875-12-26",
+        "heading": "Dimanche 26 décembre 1875",
+        "paragraphs": [
+          {
+            "old": "051.0001"
+          },
+          {
+            "old": "051.0002"
+          },
+          {
+            "old": "051.0003"
+          },
+          {
+            "old": "051.0004"
+          },
+          {
+            "old": "051.0005"
+          },
+          {
+            "old": "051.0006"
+          },
+          {
+            "old": "051.0007"
+          },
+          {
+            "old": "051.0008"
+          },
+          {
+            "old": "051.0009"
+          },
+          {
+            "old": "051.0010"
+          },
+          {
+            "old": "051.0011"
+          },
+          {
+            "old": "051.0012"
+          }
+        ]
+      },
+      {
+        "file": "1875-12-27.md",
+        "date": "1875-12-27",
+        "heading": "Lundi 27 décembre 1875",
+        "paragraphs": [
+          {
+            "old": "051.0013"
+          },
+          {
+            "old": "051.0014"
+          },
+          {
+            "old": "051.0015"
+          },
+          {
+            "old": "051.0016"
+          },
+          {
+            "old": "051.0017"
+          },
+          {
+            "old": "051.0018"
+          },
+          {
+            "old": "051.0019"
+          },
+          {
+            "old": "051.0020"
+          },
+          {
+            "old": "051.0021"
+          },
+          {
+            "old": "051.0022"
+          },
+          {
+            "old": "051.0023"
+          },
+          {
+            "old": "051.0024"
+          },
+          {
+            "old": "051.0025"
+          },
+          {
+            "old": "051.0026"
+          },
+          {
+            "old": "051.0027"
+          },
+          {
+            "old": "051.0028"
+          },
+          {
+            "old": "051.0029"
+          },
+          {
+            "old": "051.0030"
+          },
+          {
+            "old": "051.0031"
+          },
+          {
+            "old": "051.0032"
+          },
+          {
+            "old": "051.0033"
+          },
+          {
+            "old": "051.0034"
+          },
+          {
+            "old": "051.0035"
+          },
+          {
+            "old": "051.0036"
+          },
+          {
+            "old": "051.0037"
+          },
+          {
+            "old": "051.0038"
+          },
+          {
+            "old": "051.0039"
+          },
+          {
+            "old": "051.0040"
+          },
+          {
+            "old": "051.0041"
+          },
+          {
+            "old": "051.0042"
+          },
+          {
+            "old": "051.0043"
+          },
+          {
+            "old": "051.0044"
+          },
+          {
+            "old": "051.0045"
+          },
+          {
+            "old": "051.0046"
+          },
+          {
+            "old": "051.0047"
+          },
+          {
+            "old": "051.0048"
+          },
+          {
+            "old": "051.0049"
+          },
+          {
+            "old": "051.0050"
+          },
+          {
+            "old": "051.0051"
+          },
+          {
+            "old": "051.0052"
+          },
+          {
+            "old": "051.0053"
+          },
+          {
+            "old": "051.0054"
+          },
+          {
+            "old": "051.0055"
+          },
+          {
+            "old": "051.0056"
+          },
+          {
+            "old": "051.0057"
+          },
+          {
+            "old": "051.0058"
+          },
+          {
+            "old": "051.0059"
+          }
+        ]
+      },
+      {
+        "file": "1875-12-28.md",
+        "date": "1875-12-28",
+        "heading": "Mardi 28 décembre 1875",
+        "paragraphs": [
+          {
+            "old": "051.0060"
+          },
+          {
+            "old": "051.0061"
+          },
+          {
+            "old": "051.0062"
+          },
+          {
+            "old": "051.0063"
+          },
+          {
+            "old": "051.0064"
+          },
+          {
+            "old": "051.0065"
+          },
+          {
+            "old": "051.0066"
+          },
+          {
+            "old": "051.0067"
+          },
+          {
+            "old": "051.0068"
+          },
+          {
+            "old": "051.0069"
+          },
+          {
+            "old": "051.0070"
+          },
+          {
+            "old": "051.0071"
+          },
+          {
+            "old": "051.0072"
+          },
+          {
+            "old": "051.0073"
+          },
+          {
+            "old": "051.0074"
+          },
+          {
+            "old": "051.0075"
+          },
+          {
+            "old": "051.0076"
+          },
+          {
+            "old": "051.0077"
+          },
+          {
+            "old": "051.0078"
+          },
+          {
+            "old": "051.0079"
+          },
+          {
+            "old": "051.0080"
+          },
+          {
+            "old": "051.0081"
+          },
+          {
+            "old": "051.0082"
+          }
+        ]
+      },
+      {
+        "file": "1875-12-29.md",
+        "date": "1875-12-29",
+        "heading": "Mercredi 29 décembre 1875",
+        "paragraphs": [
+          {
+            "old": "051.0083"
+          },
+          {
+            "old": "051.0084"
+          },
+          {
+            "old": "051.0085"
+          },
+          {
+            "old": "051.0086"
+          },
+          {
+            "old": "051.0087"
+          },
+          {
+            "old": "051.0088"
+          },
+          {
+            "old": "051.0089"
+          },
+          {
+            "old": "051.0090"
+          },
+          {
+            "old": "051.0091"
+          },
+          {
+            "old": "051.0092"
+          },
+          {
+            "old": "051.0093"
+          },
+          {
+            "old": "051.0094"
+          },
+          {
+            "old": "051.0095"
+          },
+          {
+            "old": "051.0096"
+          },
+          {
+            "old": "051.0097"
+          },
+          {
+            "old": "051.0098"
+          },
+          {
+            "old": "051.0099"
+          },
+          {
+            "old": "051.0100"
+          },
+          {
+            "old": "051.0101"
+          },
+          {
+            "old": "051.0102"
+          },
+          {
+            "old": "051.0103"
+          },
+          {
+            "old": "051.0104"
+          },
+          {
+            "old": "051.0105"
+          },
+          {
+            "old": "051.0106"
+          },
+          {
+            "old": "051.0107"
+          }
+        ]
+      },
+      {
+        "file": "1875-12-30.md",
+        "date": "1875-12-30",
+        "heading": "Jeudi 30 décembre 1875",
+        "paragraphs": [
+          {
+            "old": "051.0108"
+          },
+          {
+            "old": "051.0109"
+          },
+          {
+            "old": "051.0110"
+          },
+          {
+            "old": "051.0111"
+          },
+          {
+            "old": "051.0112"
+          },
+          {
+            "old": "051.0113"
+          },
+          {
+            "old": "051.0114"
+          },
+          {
+            "old": "051.0115"
+          },
+          {
+            "old": "051.0116"
+          },
+          {
+            "old": "051.0117"
+          },
+          {
+            "old": "051.0118"
+          },
+          {
+            "old": "051.0119"
+          },
+          {
+            "old": "051.0120"
+          },
+          {
+            "old": "051.0121"
+          },
+          {
+            "old": "051.0122"
+          },
+          {
+            "old": "051.0123"
+          },
+          {
+            "old": "051.0124"
+          },
+          {
+            "old": "051.0125"
+          },
+          {
+            "old": "051.0126"
+          },
+          {
+            "old": "051.0127"
+          },
+          {
+            "old": "051.0128"
+          },
+          {
+            "old": "051.0129"
+          },
+          {
+            "old": "051.0130"
+          },
+          {
+            "old": "051.0131"
+          },
+          {
+            "old": "051.0132"
+          },
+          {
+            "old": "051.0133"
+          },
+          {
+            "old": "051.0134"
+          },
+          {
+            "old": "051.0135"
+          },
+          {
+            "old": "051.0136"
+          },
+          {
+            "old": "051.0137"
+          },
+          {
+            "old": "051.0138"
+          },
+          {
+            "old": "051.0139"
+          },
+          {
+            "old": "051.0140"
+          },
+          {
+            "old": "051.0141"
+          },
+          {
+            "old": "051.0142"
+          },
+          {
+            "old": "051.0143"
+          },
+          {
+            "old": "051.0144"
+          },
+          {
+            "new": {
+              "french": "- S’ils le faisaient avec tout le monde, on ne les recevrait pas. Non c’est traiter en canaille. Je crois que je finirai par me brouiller avec le monde entier, ajoutai-je à la suite d’une pensée, j’avais pensé jurer de ne jamais recevoir *ces gens-là* mais je me ravisai aussitôt, car comme cela il faudrait jurer de ne connaître personne, puisque tout le monde de Nice est compris dans *ces gens-là .*",
+              "rsr": "Restored from tome06.docx ¶4440, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pourquoi donc rester à Nice ! s’écria maman, et se martyriser !",
+              "rsr": "Restored from tome06.docx ¶4441, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je pars dimanche à trois heures.",
+              "rsr": "Restored from tome06.docx ¶4442, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tu dis cela depuis un mois.",
+              "rsr": "Restored from tome06.docx ¶4443, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je pars dimanche à trois heures !",
+              "rsr": "Restored from tome06.docx ¶4444, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "On ne sait pas ce que tu veux.",
+              "rsr": "Restored from tome06.docx ¶4445, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je pars dimanche à trois heures !!",
+              "rsr": "Restored from tome06.docx ¶4446, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pourquoi bouillir et se déchirer ?",
+              "rsr": "Restored from tome06.docx ¶4447, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je pars dimanche à trois heures !!!!",
+              "rsr": "Restored from tome06.docx ¶4448, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ça aurait pu continuer pendant longtemps, mais nous étions arrivées.",
+              "rsr": "Restored from tome06.docx ¶4449, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je montai chez moi et ordonnai du thé.",
+              "rsr": "Restored from tome06.docx ¶4450, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je viendrai le prendre chez toi, dit Dina.",
+              "rsr": "Restored from tome06.docx ¶4451, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne répondis rien et me mis à attiser le feu dans la cheminée, regardant brûler le bois et ne pensant absolument à rien, ce qui m’a sauvée d’une grande scène.",
+              "rsr": "Restored from tome06.docx ¶4452, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C’est, comparativement, un heureux état.",
+              "rsr": "Restored from tome06.docx ¶4453, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dina est entrée et m’a demandée pourquoi le thé n’était pas encore servi. J’ai entendu, je me suis tournée vers elle et je n’ai rien dit, mais j’ai cru que j’avais dit quelque chose.",
+              "rsr": "Restored from tome06.docx ¶4454, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Elle essaya plusieurs fois encore de me faire parler, mais je ne répondais pas à ses questions comme sous l’influence d’un charme. Le soufflet qui commença à brûler, tant je le tenais dans le feu, me fit sourire et le montrer à Dina en disant doucement:",
+              "rsr": "Restored from tome06.docx ¶4455, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne sais ce qu’il a, je l’ai cassé, je crois.",
+              "rsr": "Restored from tome06.docx ¶4456, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Puis j’ai pris du thé, j’ai mangé, puis j’a écrit.",
+              "rsr": "Restored from tome06.docx ¶4457, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais à la première ligne je m’arrêtai, l’abrutissement cessait, le brouillard se dissipait, et je sentis tout d’un coup toute la vilenie de ma position, comme une personne longtemps renfermée sent tout à coup l’air frais du dehors.",
+              "rsr": "Restored from tome06.docx ¶4458, Mon Journal t.6 p.280 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Peut-on être traité plus sans gêne, plus en canaille que nous ici ? Mais je n’ai pas besoin de le dire, on le voit bien par les faits que j’enregistre si précieusement.",
+              "rsr": "Restored from tome06.docx ¶4459–4460, Mon Journal t.6 pp.280–281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’ai froid, ma bouche brûle; je sais bien que c’est indigne d’un esprit fort, de s’abandonner à un vil chagrin, de se ronger les doigts pour les dédains d’une ville comme Nice, mais secouer la tête, sourire avec mépris et ne plus y penser, serait trop fort. Pleurer et rager me fait plus de plaisir. Ah ! quel charmant plaisir.",
+              "rsr": "Restored from tome06.docx ¶4461, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je suis arrivée à un tel énervement, que chaque morceau de musique qui n’est pas un galop, me fait pleurer. En lisant les lettres de Mme de Mouzay j’ai pleuré; dans chaque opéra je me retrouve, et les paroles les plus ordinaires me frappent au cœur.",
+              "rsr": "Restored from tome06.docx ¶4462, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Un pareil état ferait honneur à une femme de trente ans. Mais à seize, avoir des nerfs, pleurer comme une bête à chaque stupide phrase sentimentale, et encore où, pas au Théâtre Français, mais à l’Opéra ! Il est vrai que Pasqua est une merveilleuse comédienne.",
+              "rsr": "Restored from tome06.docx ¶4463, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Que voulez-vous, je ne le fais pas exprès.",
+              "rsr": "Restored from tome06.docx ¶4464, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tout à l’heure encore je suis tombée à genoux en sanglotant et en implorant Dieu, les bras étendus et les yeux fixés devant moi, tout comme si Dieu était là, dans ma chambre !",
+              "rsr": "Restored from tome06.docx ¶4465, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il parait que Dieu ne m’entend pas. Pourtant je crie assez fort.",
+              "rsr": "Restored from tome06.docx ¶4466, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je crois que je dis des impertinences au Bon Dieu.",
+              "rsr": "Restored from tome06.docx ¶4467, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ainsi, voilà, on s’est moqué de moi, puis on m’a craché dessus et on s’est détourné ! Je ne dis pas cela pour Audiffret, mais bien pour tout le monde;",
+              "rsr": "Restored from tome06.docx ¶4468, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mme Sabatier va donner un bal masqué, Gambart va organiser un tournoi flamand. On va s’amuser... et moi ? Et moi ?",
+              "rsr": "Restored from tome06.docx ¶4469, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et qu’est-ce que je gagne à me rouler par terre, à gémir, à hurler, à me tordre les mains, à fondre en larmes ! Des rides au visage, des sacs sous les yeux !",
+              "rsr": "Restored from tome06.docx ¶4470, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oh ! en ce moment je suis si désespérée, si malheureuse que je ne désire rien ! Si toute la ville de Nice venait s’agenouiller devant moi je ne bougerais pas !.. Si ! si ! je lui donnerais un coup de pied ! Car enfin que leur ai-je fait !",
+              "rsr": "Restored from tome06.docx ¶4471, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "“ Voir le dernier Niçois à son dernier soupir,\n“ Moi, seule en être cause et mourir de plaisir !",
+              "rsr": "Restored from tome06.docx ¶4472–4473, Mon Journal t.6 p.281 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Voyons, peut-être suis-je laide, bête ? Non, non, mais je suis si humiliée, si peureuse ! Je suis comme ces malheureux chiens de la rue qui même lorsqu’on les caresse, se baissent jusqu’à ramper par terre ou s’enfuient en tremblant !",
+              "rsr": "Restored from tome06.docx ¶4474–4475, Mon Journal t.6 pp.281–282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tout au contraire des autres, ce qui me coûte ie plus de peines me fait ie moins plaisir. A présent si on m’offrait d’aller au Cercle de la Méditerranée, je n’irais pas. A présent... Bon voilà que je sanglote encore à faire peur ! Qu’est-ce que je voulais dire, à présent ?",
+              "rsr": "Restored from tome06.docx ¶4476, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Les choses que j’obtiens avec des larmes et des gémissements me sont pour ainsi dire, abîmées, gâtées; j’en suis dégoûtée de suite;",
+              "rsr": "Restored from tome06.docx ¶4477, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon Dieu, est-ce que toute ma vie sera ainsi !",
+              "rsr": "Restored from tome06.docx ¶4478, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Lundi il y aura un Tir aux pigeons, je ne m’en inquiète seulement pas. Et avant !",
+              "rsr": "Restored from tome06.docx ¶4479, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je voudrais posséder le talent de tous les auteurs réunis pour pouvoir donner une juste idée de mon profond désespoir, de mon amour-propre blessé, de toutes mes illusions détruites, de tous mes désirs contrariés. Il suffit que je désire pour que rien n’arrive !",
+              "rsr": "Restored from tome06.docx ¶4480, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Trouverai-je jamais un chien de la rue, affamé et battu par tous les gamins, un cheval, qui depuis le matin jusqu’au soir traîne des poids énormes, un âne de moulin, un rat d’église, un professeur de mathématique sans leçons, un prêtre destitué, un diable quelconque assez écrasé, assez misérable, assez triste, assez humilié, assez abattu, pour le comparer à moi !",
+              "rsr": "Restored from tome06.docx ¶4481, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’ai des robes, une maison, un bon manger, une voiture, des loges et des places dans tous les endroits payants !",
+              "rsr": "Restored from tome06.docx ¶4482, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Combien il y a qui n’ont rien et qui me voyant passer en voiture avec une belle robe, m’envient et me pensent heureuse !",
+              "rsr": "Restored from tome06.docx ¶4483, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "\"De mici lamenti stancava il ciel \" E lo stanca amora !",
+              "rsr": "Restored from tome06.docx ¶4484, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais que faire, que faire ! Où est mon orgueil, où est ma noble fierté, où est ma fermeté ! Ecrasé, tout est écrasé !",
+              "rsr": "Restored from tome06.docx ¶4485, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce qu’il y a d’affreux chez moi, c’est que les humiliations passées ne glissent pas sur mon cœur, mais laissent leur trace hideuse !",
+              "rsr": "Restored from tome06.docx ¶4486, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pour faire comprendre à quel point je suis arrivée, je dirai que je ne désire rien en ce moment, que tout m’agace, que je veux seulement m’enfermer et rester couchée dans quelque coin, la figure contre la terre !",
+              "rsr": "Restored from tome06.docx ¶4487, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C’est étonnant comme je pense peu au Surprenant comme *à Emile,* et comme j’y pense beaucoup comme à M. d’Audiffret, c’est-à-dire, comme à Tournon et aux autres.",
+              "rsr": "Restored from tome06.docx ¶4488, Mon Journal t.6 p.282 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C’est que, voyez-vous, dans une disposition d’esprit comme la mienne l’amour n’a rien à faire. Je suis sans doute blessée, chagrinée même, je tordrais volontiers le cou à la\nRobenson, mais l’autre tourment domine, me ronge, me tue !",
+              "rsr": "Restored from tome06.docx ¶4489–4490, Mon Journal t.6 pp.282–283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais qu’est-ce que je gagne à hurler ? Des rides, je m’enlaidis, tandis qu’elle se soigne, car elle sait qu’elle n’a que sa beauté. Et moi je n'ai rien ! Je n’ai rien à soigner !",
+              "rsr": "Restored from tome06.docx ¶4491, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ai-je le courage de penser à ma figure, abattue, repoussée de partout.",
+              "rsr": "Restored from tome06.docx ¶4492, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dans notre affreuse position je n’ai même pas la consolation de penser que je plais à quelqu’un ! Ni comme *Mademoiselle,* ni comme femme !",
+              "rsr": "Restored from tome06.docx ¶4493, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Rien, rien, rien ! Des moqueries, du mépris !",
+              "rsr": "Restored from tome06.docx ¶4494, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oh ! rage ! Tigre et hyène ! Que ne descend-il pas du ciel un torrent de lave et de flamme, pour tout engloutir et tout réduire au néant !",
+              "rsr": "Restored from tome06.docx ¶4495, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne voudrais pas que l’on crût que je m’accuse en disant cela d’Audiffret.",
+              "rsr": "Restored from tome06.docx ¶4496, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Si c’était lui qui me faisait pleurer et rager je le dirais simplement comme je l’ai dit dix fois. Je ne cache pas que son... non, sa sympathie, me ferait endurer bien des choses, et m’épargner bien du chagrin. Mais pensez-donc, je n’ai rien pour me faire aimer la vie, rien, rien, rien !",
+              "rsr": "Restored from tome06.docx ¶4497, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Les amusements de mon âge me sont refusés ! Je n’ai même pas ce que chaque Américaine aux jupes retroussées a, ce que chaque fille simple a, je ne danse même pas.",
+              "rsr": "Restored from tome06.docx ¶4498, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "La promenade en voiture et les robes !!!!!",
+              "rsr": "Restored from tome06.docx ¶4499, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Jamais vous ne comprendrez, jamais vous ne vous ferez une idée de mon existence.",
+              "rsr": "Restored from tome06.docx ¶4500, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Vous me lirez et vous rirez.",
+              "rsr": "Restored from tome06.docx ¶4501, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Riez, riez, mais peut-être se trouvera t-ii quelq’un qui pleurera ! Non, personne ne me comprend ! Une vie comme ma vie, avec un caractère comme mon caractère !!!",
+              "rsr": "Restored from tome06.docx ¶4502, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon Dieu, pardonnez-moi ! Sainte Vierge Marie, priez Dieu pour moi, qu’il me regarde un instant, qu’il ne soit pas un Dieu sans miséricorde, qu’il me pardonne ! Dieu, Dieu, entendez-ma voix ! Je vous jure que je crois en Vous, Mon Dieu, mon Dieu, ayez pitié de moi ! Jésus, Seigneur fils de Dieu, ayez pitié de moi ! Vous seul savez l’étendue de mes douleurs, la profondeur de mes blessures, vous seul savez; un homme ne peut pas savoir, ayez donc pitié de moi !",
+              "rsr": "Restored from tome06.docx ¶4503, Mon Journal t.6 p.283 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je vous promets, mon Dieu, si vous me prenez en pitié, si vous me relevez, si vous me faites vivre comme j’aime, je vous promets d’aller depuis Kharkoff jusqu’à Kiew à pied, comme les pèlerins. Si en outre Vous satisfaites mon ambition et si vous me rendez tout à fait heureuse, je vous promets d’aller à\nJerusalem et de faire le dixième du chemin à pied !",
+              "rsr": "Restored from tome06.docx ¶4504–4505, Mon Journal t.6 pp.283–284 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "N’est-ce pas un péché de faire ce que je fais ! Des saints ont fait des vœux, oui, mais j’ai l’air de faire des conditions, non Dieu voit que mon intention est bonne et si je fais mal Il me pardonnera car je désire bien faire.",
+              "rsr": "Restored from tome06.docx ¶4506, Mon Journal t.6 p.284 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon Dieu, pardonnez-moi mes péchés, et prenez-moi en pitié ! Faites que j’accomplisse mes promesses ! Mon Dieu, Jésus Seigneur et la Sainte vierge Marie, soyez bon !",
+              "rsr": "Restored from tome06.docx ¶4507, Mon Journal t.6 p.284 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Au nom du père et du fils et du Saint Esprit.",
+              "rsr": "Restored from tome06.docx ¶4508, Mon Journal t.6 p.284 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Sainte Marie c’est peut-être bête mais il me semble que comme femme vous êtes plus clémente, plus indulgente, prenez-moi sous votre protection, et je jure de destiner un dixième de mon revenu à toutes sortes de bonnes œuvres. Si je fais mal, c’est sans le vouloir, Pardon !",
+              "rsr": "Restored from tome06.docx ¶4509, Mon Journal t.6 p.284 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1875-12-31.md",
+        "date": "1875-12-31",
+        "heading": "Vendredi 31 décembre 1875",
+        "paragraphs": [
+          {
+            "old": "051.0145"
+          },
+          {
+            "old": "051.0146"
+          },
+          {
+            "old": "051.0147"
+          },
+          {
+            "old": "051.0148"
+          },
+          {
+            "old": "051.0149",
+            "kind": "margin",
+            "_kind_guess_reason": "bracketed marginal note"
+          },
+          {
+            "old": "051.0150"
+          },
+          {
+            "old": "051.0151"
+          },
+          {
+            "old": "051.0152"
+          },
+          {
+            "old": "051.0153"
+          },
+          {
+            "old": "051.0154"
+          },
+          {
+            "old": "051.0155"
+          },
+          {
+            "old": "051.0156"
+          },
+          {
+            "old": "051.0157"
+          },
+          {
+            "old": "051.0158",
+            "kind": "margin",
+            "_kind_guess_reason": "bracketed marginal note"
+          },
+          {
+            "old": "051.0159"
+          },
+          {
+            "old": "051.0160"
+          },
+          {
+            "old": "051.0161"
+          },
+          {
+            "old": "051.0162"
+          },
+          {
+            "old": "051.0163"
+          },
+          {
+            "old": "051.0164"
+          },
+          {
+            "old": "051.0165"
+          },
+          {
+            "old": "051.0166"
+          },
+          {
+            "old": "051.0167"
+          },
+          {
+            "old": "051.0168"
+          },
+          {
+            "old": "051.0169"
+          },
+          {
+            "old": "051.0170"
+          },
+          {
+            "old": "051.0171"
+          },
+          {
+            "old": "051.0172"
+          },
+          {
+            "old": "051.0173"
+          },
+          {
+            "old": "051.0174"
+          },
+          {
+            "old": "051.0175"
+          },
+          {
+            "old": "051.0176"
+          },
+          {
+            "old": "051.0177"
+          },
+          {
+            "old": "051.0178"
+          },
+          {
+            "old": "051.0179"
+          },
+          {
+            "old": "051.0180"
+          },
+          {
+            "old": "051.0181"
+          },
+          {
+            "old": "051.0182"
+          },
+          {
+            "old": "051.0183"
+          },
+          {
+            "old": "051.0184"
+          },
+          {
+            "old": "051.0185"
+          },
+          {
+            "old": "051.0186"
+          },
+          {
+            "old": "051.0187"
+          },
+          {
+            "old": "051.0188"
+          },
+          {
+            "old": "051.0189"
+          },
+          {
+            "old": "051.0190"
+          },
+          {
+            "old": "051.0191"
+          },
+          {
+            "old": "051.0192"
+          },
+          {
+            "old": "051.0193"
+          }
+        ]
+      },
+      {
+        "file": "1876-01-01.md",
+        "date": "1876-01-01",
+        "heading": "Samedi 1er janvier 1876",
+        "paragraphs": [
+          {
+            "old": "051.0194"
+          },
+          {
+            "old": "051.0195"
+          },
+          {
+            "old": "051.0196"
+          },
+          {
+            "old": "051.0197"
+          },
+          {
+            "old": "051.0198"
+          },
+          {
+            "old": "051.0199"
+          },
+          {
+            "old": "051.0200"
+          },
+          {
+            "old": "051.0201",
+            "kind": "margin",
+            "_kind_guess_reason": "bracketed marginal note"
+          },
+          {
+            "old": "051.0202"
+          },
+          {
+            "old": "051.0203"
+          },
+          {
+            "old": "051.0204"
+          },
+          {
+            "old": "051.0205"
+          },
+          {
+            "old": "051.0206"
+          },
+          {
+            "old": "051.0207"
+          },
+          {
+            "old": "051.0208"
+          },
+          {
+            "old": "051.0209"
+          },
+          {
+            "old": "051.0210"
+          },
+          {
+            "old": "051.0211"
+          },
+          {
+            "old": "051.0212"
+          },
+          {
+            "old": "051.0213"
+          },
+          {
+            "old": "051.0214"
+          },
+          {
+            "old": "051.0215"
+          },
+          {
+            "old": "051.0216"
+          },
+          {
+            "old": "051.0217"
+          },
+          {
+            "old": "051.0218"
+          },
+          {
+            "old": "051.0219"
+          },
+          {
+            "old": "051.0220"
+          },
+          {
+            "old": "051.0221"
+          },
+          {
+            "old": "051.0222"
+          },
+          {
+            "old": "051.0223"
+          },
+          {
+            "old": "051.0224"
+          },
+          {
+            "old": "051.0225"
+          },
+          {
+            "old": "051.0226"
+          },
+          {
+            "old": "051.0227"
+          },
+          {
+            "old": "051.0228"
+          },
+          {
+            "old": "051.0229"
+          },
+          {
+            "old": "051.0230"
+          },
+          {
+            "old": "051.0231"
+          },
+          {
+            "old": "051.0232"
+          },
+          {
+            "old": "051.0233"
+          },
+          {
+            "old": "051.0234"
+          },
+          {
+            "old": "051.0235"
+          }
+        ]
+      },
+      {
+        "file": "1876-01-02.md",
+        "date": "1876-01-02",
+        "heading": "Dimanche 2 janvier 1876",
+        "paragraphs": [
+          {
+            "old": "051.0236"
+          },
+          {
+            "new": {
+              "french": "[Aucun texte - date seule mentionnée]",
+              "rsr": "tome06.docx ¶4619 (Mon Journal t.6 p.291): the date line «Dimanche 2 janvier 1876» is followed directly by the next date line; empty-day note as in 068 (2026-09-28 rebuild)."
+            }
+          }
+        ],
+        "redirect_from": [
+          "1876-01-02-03.md"
+        ]
+      },
+      {
+        "file": "1876-01-03.md",
+        "date": "1876-01-03",
+        "heading": "Lundi 3 janvier 1876",
+        "paragraphs": [
+          {
+            "old": "051.0237"
+          },
+          {
+            "old": "051.0238"
+          },
+          {
+            "old": "051.0239"
+          },
+          {
+            "old": "051.0240"
+          },
+          {
+            "old": "051.0241"
+          },
+          {
+            "old": "051.0242"
+          },
+          {
+            "old": "051.0243"
+          },
+          {
+            "old": "051.0244"
+          },
+          {
+            "old": "051.0245"
+          },
+          {
+            "old": "051.0246"
+          },
+          {
+            "old": "051.0247"
+          },
+          {
+            "old": "051.0248"
+          },
+          {
+            "old": "051.0249"
+          },
+          {
+            "old": "051.0250"
+          },
+          {
+            "old": "051.0251"
+          },
+          {
+            "old": "051.0252"
+          },
+          {
+            "old": "051.0253"
+          },
+          {
+            "old": "051.0254"
+          },
+          {
+            "old": "051.0255"
+          },
+          {
+            "old": "051.0256"
+          },
+          {
+            "old": "051.0257"
+          },
+          {
+            "old": "051.0258"
+          },
+          {
+            "old": "051.0259"
+          },
+          {
+            "old": "051.0260"
+          },
+          {
+            "old": "051.0261"
+          },
+          {
+            "old": "051.0262"
+          },
+          {
+            "old": "051.0263"
+          },
+          {
+            "old": "051.0264"
+          },
+          {
+            "old": "051.0265"
+          },
+          {
+            "old": "051.0266"
+          },
+          {
+            "old": "051.0267"
+          },
+          {
+            "old": "051.0268"
+          },
+          {
+            "old": "051.0269"
+          },
+          {
+            "old": "051.0270"
+          },
+          {
+            "old": "051.0271"
+          },
+          {
+            "old": "051.0272"
+          },
+          {
+            "old": "051.0273"
+          },
+          {
+            "old": "051.0274"
+          },
+          {
+            "old": "051.0275"
+          },
+          {
+            "old": "051.0276"
+          },
+          {
+            "old": "051.0277"
+          },
+          {
+            "old": "051.0278"
+          },
+          {
+            "old": "051.0279"
+          },
+          {
+            "new": {
+              "french": "Espérons que tout ira bien. Pourvu que nous ayons des connaissances.",
+              "rsr": "Restored from tome06.docx ¶4666, Mon Journal t.6 p.294 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon Dieu ! Est-ce que je ne vivrai jamais comme les autres ! O Nice ! Le premier pas est fait, je suis partie.",
+              "rsr": "Restored from tome06.docx ¶4667, Mon Journal t.6 p.294 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon Dieu je Vous en prie, je Vous en supplie, prenez-moi sous votre protection !",
+              "rsr": "Restored from tome06.docx ¶4668, Mon Journal t.6 p.294 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1876-01-04.md",
+        "date": "1876-01-04",
+        "heading": "Mardi 4 janvier 1876",
+        "paragraphs": [
+          {
+            "old": "051.0280"
+          },
+          {
+            "old": "051.0281"
+          },
+          {
+            "old": "051.0282"
+          },
+          {
+            "old": "051.0283"
+          },
+          {
+            "old": "051.0284"
+          },
+          {
+            "old": "051.0285"
+          },
+          {
+            "old": "051.0286",
+            "kind": "margin",
+            "_kind_guess_reason": "bracketed marginal note"
+          },
+          {
+            "old": "051.0287"
+          },
+          {
+            "old": "051.0288"
+          },
+          {
+            "old": "051.0289"
+          },
+          {
+            "old": "051.0290"
+          },
+          {
+            "old": "051.0291"
+          },
+          {
+            "old": "051.0292"
+          },
+          {
+            "old": "051.0293"
+          },
+          {
+            "old": "051.0294"
+          },
+          {
+            "old": "051.0295"
+          },
+          {
+            "old": "051.0296"
+          },
+          {
+            "old": "051.0297"
+          },
+          {
+            "old": "051.0298"
+          },
+          {
+            "old": "051.0299"
+          },
+          {
+            "old": "051.0300"
+          },
+          {
+            "old": "051.0301"
+          },
+          {
+            "old": "051.0302"
+          },
+          {
+            "old": "051.0303"
+          },
+          {
+            "old": "051.0304"
+          },
+          {
+            "old": "051.0305"
+          },
+          {
+            "old": "051.0306"
+          },
+          {
+            "old": "051.0307"
+          },
+          {
+            "old": "051.0308"
+          },
+          {
+            "old": "051.0309"
+          },
+          {
+            "old": "051.0310"
+          },
+          {
+            "old": "051.0311"
+          },
+          {
+            "old": "051.0312"
+          }
+        ]
+      },
+      {
+        "file": "1876-01-05.md",
+        "date": "1876-01-05",
+        "heading": "Mercredi 5 janvier 1876",
+        "paragraphs": [
+          {
+            "old": "051.0313"
+          },
+          {
+            "old": "051.0314"
+          },
+          {
+            "old": "051.0315"
+          },
+          {
+            "old": "051.0316"
+          },
+          {
+            "old": "051.0317"
+          },
+          {
+            "old": "051.0318"
+          },
+          {
+            "old": "051.0319"
+          },
+          {
+            "old": "051.0320"
+          },
+          {
+            "old": "051.0321"
+          },
+          {
+            "old": "051.0322"
+          },
+          {
+            "old": "051.0323"
+          },
+          {
+            "old": "051.0324"
+          },
+          {
+            "old": "051.0325"
+          },
+          {
+            "old": "051.0326"
+          },
+          {
+            "old": "051.0327"
+          },
+          {
+            "old": "051.0328"
+          },
+          {
+            "old": "051.0329"
+          },
+          {
+            "old": "051.0330"
+          },
+          {
+            "old": "051.0331"
+          },
+          {
+            "old": "051.0332"
+          },
+          {
+            "old": "051.0333"
+          },
+          {
+            "old": "051.0334"
+          },
+          {
+            "old": "051.0335"
+          },
+          {
+            "old": "051.0336"
+          },
+          {
+            "old": "051.0337"
+          },
+          {
+            "old": "051.0338"
+          },
+          {
+            "old": "051.0339"
+          },
+          {
+            "old": "051.0340"
+          }
+        ]
+      },
+      {
+        "file": "1876-01-06.md",
+        "date": "1876-01-06",
+        "heading": "Jeudi 6 janvier 1876",
+        "paragraphs": [
+          {
+            "old": "051.0341"
+          },
+          {
+            "old": "051.0342"
+          },
+          {
+            "old": "051.0343"
+          },
+          {
+            "old": "051.0344"
+          },
+          {
+            "old": "051.0345"
+          },
+          {
+            "old": "051.0346"
+          },
+          {
+            "old": "051.0347"
+          },
+          {
+            "old": "051.0348"
+          },
+          {
+            "old": "051.0349"
+          },
+          {
+            "old": "051.0350"
+          },
+          {
+            "old": "051.0351"
+          },
+          {
+            "old": "051.0352"
+          },
+          {
+            "old": "051.0353"
+          }
+        ]
+      },
+      {
+        "file": "1876-01-07.md",
+        "date": "1876-01-07",
+        "heading": "Vendredi 7 janvier 1876",
+        "paragraphs": [
+          {
+            "old": "051.0354"
+          },
+          {
+            "old": "051.0355"
+          },
+          {
+            "old": "051.0356"
+          },
+          {
+            "old": "051.0357"
+          },
+          {
+            "old": "051.0358"
+          },
+          {
+            "old": "051.0359"
+          },
+          {
+            "old": "051.0360",
+            "kind": "editorial",
+            "_kind_guess_reason": "bracketed note about the manuscript"
+          },
+          {
+            "old": "051.0361"
+          },
+          {
+            "old": "051.0362"
+          },
+          {
+            "old": "051.0363"
+          }
+        ]
+      },
+      {
+        "file": "1876-01-08.md",
+        "date": "1876-01-08",
+        "heading": "Samedi 8 janvier 1876",
+        "paragraphs": [
+          {
+            "old": "051.0364"
+          },
+          {
+            "old": "051.0365"
+          },
+          {
+            "old": "051.0366"
+          },
+          {
+            "old": "051.0367"
+          },
+          {
+            "old": "051.0368"
+          },
+          {
+            "old": "051.0369"
+          },
+          {
+            "old": "051.0370"
+          },
+          {
+            "old": "051.0371"
+          },
+          {
+            "old": "051.0372"
+          },
+          {
+            "old": "051.0373"
+          },
+          {
+            "old": "051.0374"
+          },
+          {
+            "old": "051.0375"
+          },
+          {
+            "old": "051.0376"
+          },
+          {
+            "old": "051.0377"
+          }
+        ]
+      },
+      {
+        "file": "1876-01-09.md",
+        "date": "1876-01-09",
+        "heading": "Dimanche 9 janvier 1876",
+        "paragraphs": [
+          {
+            "old": "051.0378"
+          },
+          {
+            "old": "051.0379"
+          },
+          {
+            "old": "051.0380"
+          },
+          {
+            "old": "051.0381"
+          },
+          {
+            "old": "051.0382"
+          },
+          {
+            "old": "051.0383"
+          },
+          {
+            "old": "051.0384"
+          },
+          {
+            "old": "051.0385"
+          },
+          {
+            "old": "051.0386"
+          },
+          {
+            "old": "051.0387"
+          },
+          {
+            "old": "051.0388",
+            "kind": "margin",
+            "_kind_guess_reason": "bracketed marginal note"
+          },
+          {
+            "old": "051.0389"
+          },
+          {
+            "old": "051.0390"
+          },
+          {
+            "old": "051.0391"
+          },
+          {
+            "old": "051.0392"
+          },
+          {
+            "old": "051.0393"
+          },
+          {
+            "old": "051.0394"
+          },
+          {
+            "old": "051.0395"
+          },
+          {
+            "old": "051.0396"
+          },
+          {
+            "old": "051.0397",
+            "kind": "margin",
+            "_kind_guess_reason": "bracketed marginal note"
+          },
+          {
+            "old": "051.0398"
+          },
+          {
+            "old": "051.0399"
+          },
+          {
+            "old": "051.0400"
+          },
+          {
+            "old": "051.0401"
+          },
+          {
+            "old": "051.0402"
+          }
+        ]
+      }
+    ],
+    "_fixed": "fix06.py 2026-09-28 (planner tome06/07); decisions in REVIEW-06.md"
+  }
+}

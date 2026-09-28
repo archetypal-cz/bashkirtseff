@@ -19,10 +19,10 @@ Andriot Saetone is a Niçois man who acts as intermediary and go-between in Mari
 
 ## Identity
 
-- First name: Andriot (revealed in 046.0649: "Andriot Saëtone")
+- First name: Andriot (revealed in 046.0296: "Andriot Saëtone")
 - Niçois social figure
 - Older than Marie's circle; she ironically calls him "mon oncle"
-- Described as handsome: "le bel Andriot" (046.0657)
+- Described as handsome: "le bel Andriot" (046.0304)
 - Associated with de Cessole in Audiffret's social group
 
 ## Role in Marie's Circle (1875)
@@ -47,4 +47,4 @@ Saetone occupies a specific and problematic role:
 - **Oct 7**: Encountered at theater, Marie says "bonsoir" in her characteristically assured voice
 - **Oct 12**: Formal reconciliation when Marie's mother arrives; Saetone approaches to "explain" himself
 
-%% 2026-02-09T21:00:00 RSR: Created entry. Saetone is the social catalyst/meddler in the Audiffret affair. His first name Andriot is confirmed in carnet 046. Nina Sapogenikoff's denunciation of him as "entremetteur" (046.0378) is the key passage for understanding his function. %%
+%% 2026-02-09T21:00:00 RSR: Created entry. Saetone is the social catalyst/meddler in the Audiffret affair. His first name Andriot is confirmed in carnet 046. Nina Sapogenikoff's denunciation of him as "entremetteur" (046.0025) is the key passage for understanding his function. %%

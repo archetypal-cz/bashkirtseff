@@ -32,6 +32,6 @@ Marie's aunt retells the plot of Frou-Frou on 18 October 1875 (carnet 047), maki
 
 ## References in Diary
 
-- First mentioned: 1875-10-18 (carnet 047, para 047.0808)
+- First mentioned: 1875-10-18 (carnet 047, para 047.0142)
 
 %% 2026-02-09T22:00:00 RSR: Created entry. The aunt uses Frou-Frou as a cautionary tale about Marie and Audiffret. %%

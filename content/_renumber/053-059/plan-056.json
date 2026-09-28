@@ -1,0 +1,2172 @@
+{
+ "carnet": "056",
+ "source": "tome07.docx",
+ "drop": [
+  {
+   "id": "056.0567",
+   "reason": "Markdown heading underline from the raw conversion (docx ¶3413 is a Heading #2 line); not in the print"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1876-03-27.md",
+   "date": "1876-03-27",
+   "heading": "Lundi 27 mars 1876 (suite)",
+   "paragraphs": [
+    {
+     "old": "055.1180"
+    },
+    {
+     "old": "055.1179",
+     "kind": "margin"
+    },
+    {
+     "old": "055.1181"
+    },
+    {
+     "old": "055.1182"
+    },
+    {
+     "old": "055.1183"
+    },
+    {
+     "old": "055.1184"
+    },
+    {
+     "old": "055.1185"
+    },
+    {
+     "old": "055.1186"
+    },
+    {
+     "old": "055.1187"
+    },
+    {
+     "old": "055.1188"
+    },
+    {
+     "old": "055.1189"
+    },
+    {
+     "old": "055.1190"
+    },
+    {
+     "old": "055.1191"
+    },
+    {
+     "old": "055.1192"
+    },
+    {
+     "old": "055.1193"
+    },
+    {
+     "old": "055.1194"
+    },
+    {
+     "old": "055.1195"
+    },
+    {
+     "old": "055.1196"
+    },
+    {
+     "old": "055.1197"
+    },
+    {
+     "old": "055.1198"
+    },
+    {
+     "old": "055.1199"
+    },
+    {
+     "old": "055.1200"
+    },
+    {
+     "old": "055.1201"
+    },
+    {
+     "old": "055.1202"
+    },
+    {
+     "old": "055.1203"
+    },
+    {
+     "old": "055.1204"
+    },
+    {
+     "old": "055.1205"
+    },
+    {
+     "old": "055.1206"
+    },
+    {
+     "old": "055.1207"
+    },
+    {
+     "old": "055.1208"
+    },
+    {
+     "old": "055.1209"
+    },
+    {
+     "old": "056.0002"
+    },
+    {
+     "old": "056.0003"
+    },
+    {
+     "old": "056.0004"
+    },
+    {
+     "old": "056.0005"
+    },
+    {
+     "old": "056.0006"
+    },
+    {
+     "old": "056.0007"
+    },
+    {
+     "old": "056.0008",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "056.0009"
+    },
+    {
+     "old": "056.0010"
+    },
+    {
+     "old": "056.0011"
+    },
+    {
+     "old": "056.0012"
+    },
+    {
+     "old": "056.0013"
+    },
+    {
+     "old": "056.0014"
+    },
+    {
+     "old": "056.0015"
+    },
+    {
+     "old": "056.0016"
+    },
+    {
+     "old": "056.0017"
+    },
+    {
+     "old": "056.0018"
+    },
+    {
+     "old": "056.0019"
+    },
+    {
+     "old": "056.0020"
+    },
+    {
+     "old": "056.0021"
+    },
+    {
+     "old": "056.0022"
+    },
+    {
+     "old": "056.0023"
+    },
+    {
+     "old": "056.0024"
+    },
+    {
+     "old": "056.0025"
+    },
+    {
+     "old": "056.0026"
+    },
+    {
+     "old": "056.0027"
+    },
+    {
+     "old": "056.0028"
+    },
+    {
+     "old": "056.0029"
+    },
+    {
+     "old": "056.0030"
+    },
+    {
+     "old": "056.0031"
+    },
+    {
+     "old": "056.0032"
+    },
+    {
+     "old": "056.0033"
+    },
+    {
+     "old": "056.0034"
+    },
+    {
+     "old": "056.0035"
+    },
+    {
+     "old": "056.0036"
+    },
+    {
+     "old": "056.0037"
+    },
+    {
+     "old": "056.0038"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-28.md",
+   "date": "1876-03-28",
+   "heading": "Mardi 28 mars 1876",
+   "paragraphs": [
+    {
+     "old": "056.0001"
+    },
+    {
+     "old": "056.0039"
+    },
+    {
+     "old": "056.0040"
+    },
+    {
+     "old": "056.0041"
+    },
+    {
+     "old": "056.0042"
+    },
+    {
+     "old": "056.0043"
+    },
+    {
+     "old": "056.0044"
+    },
+    {
+     "old": "056.0045"
+    },
+    {
+     "old": "056.0046"
+    },
+    {
+     "old": "056.0047"
+    },
+    {
+     "old": "056.0048"
+    },
+    {
+     "old": "056.0049"
+    },
+    {
+     "old": "056.0050"
+    },
+    {
+     "old": "056.0051"
+    },
+    {
+     "old": "056.0052"
+    },
+    {
+     "old": "056.0053"
+    },
+    {
+     "old": "056.0054"
+    },
+    {
+     "old": "056.0055"
+    },
+    {
+     "old": "056.0056"
+    },
+    {
+     "old": "056.0057"
+    },
+    {
+     "old": "056.0058"
+    },
+    {
+     "old": "056.0059"
+    },
+    {
+     "old": "056.0060"
+    },
+    {
+     "old": "056.0061"
+    },
+    {
+     "old": "056.0062"
+    },
+    {
+     "old": "056.0063"
+    },
+    {
+     "old": "056.0064"
+    },
+    {
+     "old": "056.0065"
+    },
+    {
+     "old": "056.0066"
+    },
+    {
+     "old": "056.0067"
+    },
+    {
+     "old": "056.0068"
+    },
+    {
+     "old": "056.0069"
+    },
+    {
+     "old": "056.0070"
+    },
+    {
+     "old": "056.0071"
+    },
+    {
+     "old": "056.0072"
+    },
+    {
+     "old": "056.0073"
+    },
+    {
+     "old": "056.0074"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-29.md",
+   "date": "1876-03-29",
+   "heading": "Mercredi 29 mars 1876",
+   "paragraphs": [
+    {
+     "old": "056.0075"
+    },
+    {
+     "old": "056.0076"
+    },
+    {
+     "old": "056.0077"
+    },
+    {
+     "old": "056.0078"
+    },
+    {
+     "old": "056.0079"
+    },
+    {
+     "old": "056.0080"
+    },
+    {
+     "old": "056.0081"
+    },
+    {
+     "old": "056.0082"
+    },
+    {
+     "old": "056.0083"
+    },
+    {
+     "old": "056.0084"
+    },
+    {
+     "old": "056.0085"
+    },
+    {
+     "old": "056.0086"
+    },
+    {
+     "old": "056.0087"
+    },
+    {
+     "old": "056.0088"
+    },
+    {
+     "old": "056.0089"
+    },
+    {
+     "old": "056.0091"
+    },
+    {
+     "old": "056.0092"
+    },
+    {
+     "old": "056.0093"
+    },
+    {
+     "old": "056.0094"
+    },
+    {
+     "old": "056.0095"
+    },
+    {
+     "old": "056.0096"
+    },
+    {
+     "old": "056.0097"
+    },
+    {
+     "old": "056.0098"
+    },
+    {
+     "old": "056.0099"
+    },
+    {
+     "old": "056.0100"
+    },
+    {
+     "old": "056.0101"
+    },
+    {
+     "old": "056.0102"
+    },
+    {
+     "old": "056.0103"
+    },
+    {
+     "old": "056.0104"
+    },
+    {
+     "old": "056.0105"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-30.md",
+   "date": "1876-03-30",
+   "heading": "Jeudi 30 mars 1876",
+   "paragraphs": [
+    {
+     "old": "056.0090"
+    },
+    {
+     "old": "056.0106"
+    },
+    {
+     "old": "056.0107"
+    },
+    {
+     "old": "056.0108"
+    },
+    {
+     "old": "056.0109"
+    },
+    {
+     "old": "056.0110"
+    },
+    {
+     "old": "056.0111"
+    },
+    {
+     "old": "056.0112"
+    },
+    {
+     "old": "056.0113"
+    },
+    {
+     "old": "056.0114"
+    },
+    {
+     "old": "056.0115"
+    },
+    {
+     "old": "056.0116"
+    },
+    {
+     "old": "056.0117"
+    },
+    {
+     "old": "056.0118"
+    },
+    {
+     "old": "056.0119"
+    },
+    {
+     "old": "056.0120"
+    },
+    {
+     "old": "056.0121"
+    },
+    {
+     "old": "056.0122"
+    },
+    {
+     "old": "056.0123"
+    },
+    {
+     "old": "056.0124"
+    },
+    {
+     "old": "056.0125"
+    },
+    {
+     "old": "056.0126"
+    },
+    {
+     "old": "056.0127"
+    },
+    {
+     "old": "056.0128"
+    },
+    {
+     "old": "056.0129"
+    },
+    {
+     "old": "056.0130"
+    },
+    {
+     "old": "056.0131"
+    },
+    {
+     "old": "056.0132"
+    },
+    {
+     "old": "056.0133"
+    },
+    {
+     "old": "056.0134"
+    },
+    {
+     "old": "056.0135",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "056.0136"
+    },
+    {
+     "old": "056.0137"
+    },
+    {
+     "old": "056.0138"
+    },
+    {
+     "old": "056.0139"
+    },
+    {
+     "old": "056.0140"
+    },
+    {
+     "old": "056.0141"
+    },
+    {
+     "old": "056.0142"
+    },
+    {
+     "old": "056.0143"
+    },
+    {
+     "old": "056.0144",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "056.0145"
+    },
+    {
+     "old": "056.0146"
+    },
+    {
+     "old": "056.0147"
+    },
+    {
+     "old": "056.0148"
+    },
+    {
+     "old": "056.0149"
+    },
+    {
+     "old": "056.0150"
+    },
+    {
+     "old": "056.0151"
+    },
+    {
+     "old": "056.0152"
+    },
+    {
+     "old": "056.0153"
+    },
+    {
+     "old": "056.0154"
+    },
+    {
+     "old": "056.0155"
+    },
+    {
+     "old": "056.0156"
+    },
+    {
+     "old": "056.0157"
+    },
+    {
+     "old": "056.0158"
+    },
+    {
+     "old": "056.0159"
+    },
+    {
+     "old": "056.0160"
+    },
+    {
+     "old": "056.0161"
+    },
+    {
+     "old": "056.0162"
+    },
+    {
+     "old": "056.0163"
+    },
+    {
+     "old": "056.0164"
+    },
+    {
+     "old": "056.0165"
+    },
+    {
+     "old": "056.0166"
+    },
+    {
+     "old": "056.0167"
+    },
+    {
+     "old": "056.0168"
+    },
+    {
+     "old": "056.0169"
+    },
+    {
+     "old": "056.0170"
+    },
+    {
+     "old": "056.0171"
+    },
+    {
+     "old": "056.0172"
+    },
+    {
+     "old": "056.0173"
+    },
+    {
+     "old": "056.0174"
+    },
+    {
+     "old": "056.0175"
+    },
+    {
+     "old": "056.0176"
+    },
+    {
+     "old": "056.0177"
+    },
+    {
+     "old": "056.0178"
+    },
+    {
+     "old": "056.0179"
+    },
+    {
+     "old": "056.0180"
+    },
+    {
+     "old": "056.0182"
+    },
+    {
+     "old": "056.0183"
+    },
+    {
+     "old": "056.0184"
+    },
+    {
+     "old": "056.0185"
+    },
+    {
+     "old": "056.0186"
+    },
+    {
+     "old": "056.0187"
+    },
+    {
+     "old": "056.0188"
+    },
+    {
+     "old": "056.0189"
+    },
+    {
+     "old": "056.0190"
+    },
+    {
+     "old": "056.0191"
+    },
+    {
+     "old": "056.0192"
+    },
+    {
+     "old": "056.0193"
+    },
+    {
+     "old": "056.0194"
+    },
+    {
+     "old": "056.0195"
+    },
+    {
+     "old": "056.0196"
+    },
+    {
+     "old": "056.0197"
+    },
+    {
+     "old": "056.0198"
+    },
+    {
+     "old": "056.0199"
+    },
+    {
+     "old": "056.0200"
+    },
+    {
+     "old": "056.0201"
+    },
+    {
+     "old": "056.0202"
+    },
+    {
+     "old": "056.0203"
+    },
+    {
+     "old": "056.0204"
+    },
+    {
+     "old": "056.0205"
+    },
+    {
+     "old": "056.0206"
+    },
+    {
+     "old": "056.0207"
+    },
+    {
+     "old": "056.0208"
+    },
+    {
+     "old": "056.0209"
+    },
+    {
+     "old": "056.0210"
+    },
+    {
+     "old": "056.0211"
+    },
+    {
+     "old": "056.0212"
+    },
+    {
+     "old": "056.0213"
+    },
+    {
+     "old": "056.0214"
+    },
+    {
+     "old": "056.0215"
+    },
+    {
+     "old": "056.0216"
+    },
+    {
+     "old": "056.0217"
+    },
+    {
+     "old": "056.0218"
+    },
+    {
+     "old": "056.0219"
+    },
+    {
+     "old": "056.0220"
+    },
+    {
+     "old": "056.0221"
+    },
+    {
+     "old": "056.0222"
+    },
+    {
+     "old": "056.0223"
+    },
+    {
+     "old": "056.0224"
+    },
+    {
+     "old": "056.0225"
+    },
+    {
+     "old": "056.0226"
+    },
+    {
+     "old": "056.0227"
+    },
+    {
+     "old": "056.0228"
+    },
+    {
+     "old": "056.0229"
+    },
+    {
+     "old": "056.0230"
+    },
+    {
+     "old": "056.0231"
+    },
+    {
+     "old": "056.0232"
+    }
+   ]
+  },
+  {
+   "file": "1876-03-31.md",
+   "date": "1876-03-31",
+   "heading": "Vendredi 31 mars 1876",
+   "paragraphs": [
+    {
+     "old": "056.0181"
+    },
+    {
+     "old": "056.0233"
+    },
+    {
+     "old": "056.0234"
+    },
+    {
+     "old": "056.0235"
+    },
+    {
+     "old": "056.0236"
+    },
+    {
+     "old": "056.0237"
+    },
+    {
+     "old": "056.0238"
+    },
+    {
+     "old": "056.0239"
+    },
+    {
+     "old": "056.0240"
+    },
+    {
+     "old": "056.0241"
+    },
+    {
+     "old": "056.0242"
+    },
+    {
+     "old": "056.0243"
+    },
+    {
+     "old": "056.0244"
+    },
+    {
+     "old": "056.0245"
+    },
+    {
+     "old": "056.0246"
+    },
+    {
+     "old": "056.0247"
+    },
+    {
+     "old": "056.0248"
+    },
+    {
+     "old": "056.0249"
+    },
+    {
+     "old": "056.0250"
+    },
+    {
+     "old": "056.0251"
+    },
+    {
+     "old": "056.0252",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "056.0253"
+    },
+    {
+     "old": "056.0254"
+    },
+    {
+     "old": "056.0255"
+    },
+    {
+     "old": "056.0256"
+    },
+    {
+     "old": "056.0257"
+    },
+    {
+     "old": "056.0258"
+    },
+    {
+     "old": "056.0259"
+    }
+   ]
+  },
+  {
+   "file": "1876-04-01.md",
+   "date": "1876-04-01",
+   "heading": "Samedi 1er avril 1876",
+   "paragraphs": [
+    {
+     "old": "056.0260"
+    },
+    {
+     "old": "056.0261"
+    },
+    {
+     "old": "056.0262"
+    },
+    {
+     "old": "056.0263"
+    },
+    {
+     "old": "056.0264"
+    },
+    {
+     "old": "056.0265"
+    },
+    {
+     "old": "056.0266"
+    },
+    {
+     "old": "056.0267"
+    },
+    {
+     "old": "056.0268"
+    },
+    {
+     "old": "056.0270"
+    },
+    {
+     "old": "056.0271"
+    },
+    {
+     "old": "056.0272"
+    },
+    {
+     "old": "056.0273"
+    },
+    {
+     "old": "056.0274"
+    },
+    {
+     "old": "056.0275"
+    },
+    {
+     "old": "056.0276"
+    },
+    {
+     "old": "056.0277"
+    },
+    {
+     "old": "056.0278"
+    },
+    {
+     "old": "056.0279"
+    },
+    {
+     "old": "056.0280"
+    },
+    {
+     "old": "056.0281"
+    },
+    {
+     "old": "056.0282"
+    },
+    {
+     "old": "056.0283"
+    },
+    {
+     "old": "056.0284"
+    },
+    {
+     "old": "056.0285"
+    },
+    {
+     "old": "056.0286"
+    },
+    {
+     "old": "056.0287"
+    },
+    {
+     "old": "056.0288"
+    }
+   ]
+  },
+  {
+   "file": "1876-04-02.md",
+   "date": "1876-04-02",
+   "heading": "Dimanche 2 avril 1876",
+   "paragraphs": [
+    {
+     "old": "056.0269"
+    },
+    {
+     "old": "056.0289"
+    },
+    {
+     "old": "056.0290"
+    },
+    {
+     "old": "056.0291"
+    },
+    {
+     "old": "056.0292"
+    },
+    {
+     "old": "056.0293"
+    },
+    {
+     "old": "056.0294"
+    },
+    {
+     "old": "056.0295"
+    },
+    {
+     "old": "056.0296"
+    },
+    {
+     "old": "056.0297"
+    },
+    {
+     "old": "056.0298"
+    },
+    {
+     "old": "056.0299"
+    },
+    {
+     "old": "056.0300"
+    },
+    {
+     "old": "056.0301"
+    },
+    {
+     "old": "056.0302"
+    },
+    {
+     "old": "056.0303"
+    },
+    {
+     "old": "056.0304"
+    },
+    {
+     "old": "056.0305"
+    },
+    {
+     "old": "056.0306"
+    },
+    {
+     "old": "056.0307"
+    },
+    {
+     "old": "056.0309"
+    },
+    {
+     "old": "056.0310"
+    },
+    {
+     "old": "056.0311"
+    },
+    {
+     "old": "056.0312"
+    },
+    {
+     "old": "056.0313",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "056.0314"
+    },
+    {
+     "old": "056.0315"
+    },
+    {
+     "old": "056.0316"
+    },
+    {
+     "old": "056.0317"
+    },
+    {
+     "old": "056.0318"
+    },
+    {
+     "old": "056.0319"
+    },
+    {
+     "old": "056.0320"
+    },
+    {
+     "old": "056.0321"
+    },
+    {
+     "old": "056.0322"
+    },
+    {
+     "old": "056.0323"
+    },
+    {
+     "old": "056.0324"
+    },
+    {
+     "old": "056.0325"
+    },
+    {
+     "old": "056.0326"
+    },
+    {
+     "old": "056.0327"
+    }
+   ]
+  },
+  {
+   "file": "1876-04-03.md",
+   "date": "1876-04-03",
+   "heading": "Lundi 3 avril 1876",
+   "paragraphs": [
+    {
+     "old": "056.0308"
+    },
+    {
+     "old": "056.0328"
+    },
+    {
+     "old": "056.0329"
+    },
+    {
+     "old": "056.0330"
+    },
+    {
+     "old": "056.0331"
+    },
+    {
+     "old": "056.0332"
+    },
+    {
+     "old": "056.0333"
+    },
+    {
+     "old": "056.0334"
+    },
+    {
+     "old": "056.0335"
+    },
+    {
+     "old": "056.0336"
+    },
+    {
+     "old": "056.0337"
+    },
+    {
+     "old": "056.0338"
+    },
+    {
+     "old": "056.0339"
+    },
+    {
+     "old": "056.0340"
+    },
+    {
+     "old": "056.0341"
+    },
+    {
+     "old": "056.0342"
+    },
+    {
+     "old": "056.0343"
+    },
+    {
+     "old": "056.0344"
+    }
+   ]
+  },
+  {
+   "file": "1876-04-04.md",
+   "date": "1876-04-04",
+   "heading": "Mardi 4 avril 1876",
+   "paragraphs": [
+    {
+     "old": "056.0345"
+    },
+    {
+     "old": "056.0346"
+    },
+    {
+     "old": "056.0347"
+    },
+    {
+     "old": "056.0348"
+    },
+    {
+     "old": "056.0349"
+    },
+    {
+     "old": "056.0350"
+    },
+    {
+     "old": "056.0351"
+    },
+    {
+     "old": "056.0352"
+    },
+    {
+     "old": "056.0353"
+    },
+    {
+     "old": "056.0354"
+    },
+    {
+     "old": "056.0355"
+    },
+    {
+     "old": "056.0356"
+    },
+    {
+     "old": "056.0357"
+    },
+    {
+     "old": "056.0358"
+    },
+    {
+     "old": "056.0359"
+    },
+    {
+     "old": "056.0360"
+    },
+    {
+     "old": "056.0361"
+    },
+    {
+     "old": "056.0362",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "056.0363"
+    },
+    {
+     "old": "056.0364"
+    },
+    {
+     "old": "056.0365"
+    },
+    {
+     "old": "056.0366"
+    },
+    {
+     "old": "056.0367"
+    },
+    {
+     "old": "056.0368"
+    },
+    {
+     "old": "056.0369"
+    },
+    {
+     "old": "056.0370"
+    },
+    {
+     "old": "056.0371"
+    },
+    {
+     "old": "056.0372"
+    },
+    {
+     "old": "056.0373"
+    },
+    {
+     "old": "056.0374"
+    },
+    {
+     "old": "056.0375"
+    },
+    {
+     "old": "056.0376"
+    },
+    {
+     "old": "056.0377"
+    },
+    {
+     "old": "056.0378"
+    },
+    {
+     "old": "056.0379"
+    },
+    {
+     "old": "056.0380"
+    },
+    {
+     "old": "056.0381"
+    },
+    {
+     "old": "056.0382"
+    }
+   ]
+  },
+  {
+   "file": "1876-04-05.md",
+   "date": "1876-04-05",
+   "heading": "Mercredi 5 avril 1876",
+   "paragraphs": [
+    {
+     "old": "056.0383"
+    },
+    {
+     "old": "056.0384"
+    },
+    {
+     "old": "056.0385"
+    },
+    {
+     "old": "056.0386"
+    },
+    {
+     "old": "056.0387"
+    },
+    {
+     "old": "056.0388"
+    },
+    {
+     "old": "056.0389"
+    },
+    {
+     "old": "056.0390"
+    },
+    {
+     "old": "056.0391"
+    },
+    {
+     "old": "056.0392"
+    },
+    {
+     "old": "056.0393"
+    },
+    {
+     "old": "056.0394"
+    },
+    {
+     "old": "056.0395"
+    },
+    {
+     "old": "056.0396"
+    },
+    {
+     "old": "056.0397"
+    },
+    {
+     "old": "056.0398"
+    },
+    {
+     "old": "056.0399"
+    },
+    {
+     "old": "056.0400"
+    },
+    {
+     "old": "056.0401"
+    },
+    {
+     "old": "056.0402",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "056.0403"
+    },
+    {
+     "old": "056.0404"
+    },
+    {
+     "old": "056.0405"
+    }
+   ]
+  },
+  {
+   "file": "1876-04-06.md",
+   "date": "1876-04-06",
+   "heading": "Jeudi 6 avril 1876",
+   "paragraphs": [
+    {
+     "old": "056.0406"
+    },
+    {
+     "old": "056.0407"
+    },
+    {
+     "old": "056.0408"
+    },
+    {
+     "old": "056.0409"
+    },
+    {
+     "old": "056.0410"
+    },
+    {
+     "old": "056.0411"
+    },
+    {
+     "old": "056.0412"
+    },
+    {
+     "old": "056.0413"
+    },
+    {
+     "old": "056.0414"
+    },
+    {
+     "old": "056.0415"
+    },
+    {
+     "old": "056.0416"
+    },
+    {
+     "old": "056.0417"
+    },
+    {
+     "old": "056.0418"
+    },
+    {
+     "old": "056.0419"
+    },
+    {
+     "old": "056.0420"
+    },
+    {
+     "old": "056.0421"
+    },
+    {
+     "old": "056.0422"
+    },
+    {
+     "old": "056.0423"
+    },
+    {
+     "old": "056.0424"
+    },
+    {
+     "old": "056.0425"
+    },
+    {
+     "old": "056.0426"
+    },
+    {
+     "old": "056.0427"
+    },
+    {
+     "new": {
+      "french": "Oui, ils ne sont pas de la société.",
+      "rsr": "Restored from tome07.docx ¶3149, Mon Journal t.7 p.221 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oui, voilà le grand mot ! Et moi avec toutes mes tendances, avec tous mes immenses désirs, avec ma fièvre de la vie, je suis toujours et partout arrêtée par ce grand mot, comme un cheval est arrêté par le mors. Il écume, il rage, il se cabre mais il est arrêté.",
+      "rsr": "Restored from tome07.docx ¶3150, Mon Journal t.7 p.221 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au diable les comparaisons, les descriptions, l’éloquence ! Au diable. Il faut avoir un poison foudroyant, je me souviens que Leclerc m’avait parlé un jour du prussiate jaune, j’en ai dans ma chimie, il n’y a qu’à en prendre. Voyez-vous ces taches ? C’est de l’encre mélangée de mes larmes. Suis-je destinée à toujours souffrir. M’empoisonner ! C’est une pensée coupable, mais que voulez-vous que je fasse quand je crève de dépit et d’humiliation ! Je ne peux plus, je ne peux plus, je ne peux plus !",
+      "rsr": "Restored from tome07.docx ¶3151, Mon Journal t.7 p.221 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pardonnez-moi mon Dieu, mais je ne peux plus ! Mois après mois, année après année, se passent et rien ne change; je me résigne d’attendre “l’hiver prochain” et l’hiver prochain se passe comme l’hiver dernier. Et je reste là à prier, à pleurer, à me déchirer par morceaux, et Dieu n’a pas pitié de moi mais au contraire m'envoie chaque jour de nouveaux tourments !",
+      "rsr": "Restored from tome07.docx ¶3152–3153, Mon Journal t.7 pp.221–222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il serait ridicule aux yeux de la généralité de pleurer pour la célébrité, l’éclat, quelque chose d’extraordinaire, je ne pleure pas pour cela. Mais comprenez donc ma position ! Des robes, rien que des robes !",
+      "rsr": "Restored from tome07.docx ¶3154, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: On pourra ne pas croire à mes notes sur Antonelli, à cela je vous demanderai simplement si j'ai jamais nié quelque chose d'autre ? Jamais. Parce que tout est vrai et si je ne le sens plus de la même façon je l'ai du moins senti, tandis que je n’ai jamais pensé ce que j'ai dit de tendre pour cet homme ]",
+      "rsr": "Restored from tome07.docx ¶3155, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "margin"
+     },
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "new": {
+      "french": "En dehors de tout, seule, misérable, à la promenade comme au théâtre !",
+      "rsr": "Restored from tome07.docx ¶3156, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Etrangère à tout le monde, rejetée de la société, oh ! j’ai honte, honte, honte de traîner partout ma jolie figure et mon élégance, exposée aux regards scrutateurs et hautains des femmes, et aux avances blessantes des hommes !",
+      "rsr": "Restored from tome07.docx ¶3157, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne demande pas le bruit, une vie folle et mondaine, mais seulement ordinaire, comme tout le monde ! Les paysans se fréquentent entre eux, les artisans fréquentent les artisans; les bourgeois des bourgeois, les nobles des nobles.",
+      "rsr": "Restored from tome07.docx ¶3158, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et nous, où sommes-nous ? Nulle part !",
+      "rsr": "Restored from tome07.docx ¶3159, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "NULLE PART !",
+      "rsr": "Restored from tome07.docx ¶3160, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je bous, je pleure, je me tords les mains de ne pouvoir m’exprimer. Les plus fortes expressions sont usées et s’il y en avait encore autant à mon service, elles seraient usées de même. Pour mon usage particulier il en faudrait plus que pour tous les Hébreux gémissant pendant la captivité d’Egypte.",
+      "rsr": "Restored from tome07.docx ¶3161, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_kind_guess_reason": "follows the capitals title «NULLE PART !»"
+    },
+    {
+     "new": {
+      "french": "J’ai pleuré, puis j'ai chanté et je me sens mieux. J’ai chanté la prière de la madone, de “Mignon.\"",
+      "rsr": "Restored from tome07.docx ¶3162, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La musique de ce divin opéra est la consolation de toutes les âmes affligées, quel que soit leur chagrin.",
+      "rsr": "Restored from tome07.docx ¶3163, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ma déplorable disposition d’esprit me fait penser que Pietro ne reviendra jamais, qu’il ne m’aime pas et ne m'a jamais aimée et que j'ai été dupée comme la dernière sotte du monde. Il devait sortir du soit-disant couvent, vendredi ou samedi, c’est-à-dire demain ou après-demain.",
+      "rsr": "Restored from tome07.docx ¶3164, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Torlonia a atrocement diminué Antonelli. Et dire que les cartes ne me prédisaient que lauriers et roses dans l’affaire torlonienne !",
+      "rsr": "Restored from tome07.docx ¶3165, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Paul m’écrit une petite lettre charmante et me nomme “chère comtesse”.",
+      "rsr": "Restored from tome07.docx ¶3166, Mon Journal t.7 p.222 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Je ne suis pas comtesse, lui ai-je répondu, et ne le serai jamais attendu que je veux être duchesse pour le moins et impératrice pour le plus.",
+      "rsr": "Restored from tome07.docx ¶3167–3168, Mon Journal t.7 pp.222–223 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quelle créature double je suis ! Dites à tous ceux qui me connaissent que je pleure, que je me désespère, que je suis mélancolique, triste, malheureuse, et ils vous riront au nez.",
+      "rsr": "Restored from tome07.docx ¶3169, Mon Journal t.7 p.223 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me montre comme une enfant insouciante, gaie, heureuse, taquine, espiègle, méchante, sans cœur. Et je n’ai pas de peine à paraître telle. Il me semble honteux de montrer ses chagrins au public.",
+      "rsr": "Restored from tome07.docx ¶3170, Mon Journal t.7 p.223 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout le monde est allé voir le Colisée au clair de la lune, restée seule je me suis regardée dans la glace, j’ai chanté et je suis consolée et pleine de confiance dans l'avenir.",
+      "rsr": "Restored from tome07.docx ¶3171, Mon Journal t.7 p.223 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Allons en Russie, dans le sein même de mes tourments.",
+      "rsr": "Restored from tome07.docx ¶3172, Mon Journal t.7 p.223 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1876-04-07.md",
+   "date": "1876-04-07",
+   "heading": "Vendredi 7 avril 1876",
+   "paragraphs": [
+    {
+     "old": "056.0428"
+    },
+    {
+     "old": "056.0429"
+    },
+    {
+     "old": "056.0430"
+    },
+    {
+     "old": "056.0431"
+    },
+    {
+     "old": "056.0432"
+    },
+    {
+     "old": "056.0433"
+    },
+    {
+     "old": "056.0434"
+    },
+    {
+     "old": "056.0435"
+    },
+    {
+     "old": "056.0436"
+    },
+    {
+     "old": "056.0437"
+    },
+    {
+     "old": "056.0438"
+    },
+    {
+     "old": "056.0439"
+    },
+    {
+     "old": "056.0440"
+    },
+    {
+     "old": "056.0441",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "056.0442"
+    },
+    {
+     "old": "056.0443"
+    },
+    {
+     "old": "056.0444"
+    },
+    {
+     "old": "056.0445"
+    },
+    {
+     "old": "056.0446"
+    },
+    {
+     "old": "056.0447"
+    },
+    {
+     "old": "056.0448"
+    },
+    {
+     "old": "056.0449"
+    },
+    {
+     "old": "056.0450"
+    },
+    {
+     "old": "056.0451"
+    },
+    {
+     "old": "056.0452",
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "056.0453"
+    },
+    {
+     "old": "056.0454"
+    },
+    {
+     "old": "056.0455"
+    },
+    {
+     "old": "056.0456"
+    },
+    {
+     "old": "056.0457"
+    },
+    {
+     "old": "056.0458"
+    },
+    {
+     "old": "056.0459"
+    },
+    {
+     "old": "056.0460"
+    },
+    {
+     "old": "056.0461"
+    },
+    {
+     "old": "056.0462"
+    },
+    {
+     "old": "056.0463"
+    },
+    {
+     "old": "056.0464"
+    },
+    {
+     "old": "056.0465"
+    },
+    {
+     "old": "056.0466"
+    },
+    {
+     "old": "056.0467"
+    },
+    {
+     "old": "056.0468"
+    },
+    {
+     "old": "056.0469"
+    },
+    {
+     "old": "056.0470"
+    },
+    {
+     "old": "056.0471"
+    },
+    {
+     "old": "056.0472"
+    },
+    {
+     "old": "056.0473"
+    },
+    {
+     "old": "056.0474"
+    },
+    {
+     "old": "056.0475"
+    }
+   ]
+  },
+  {
+   "file": "1876-04-08.md",
+   "date": "1876-04-08",
+   "heading": "Samedi 8 avril 1876",
+   "paragraphs": [
+    {
+     "old": "056.0476"
+    },
+    {
+     "old": "056.0477"
+    },
+    {
+     "old": "056.0478"
+    },
+    {
+     "old": "056.0479"
+    },
+    {
+     "old": "056.0480"
+    },
+    {
+     "old": "056.0481"
+    },
+    {
+     "old": "056.0482"
+    },
+    {
+     "old": "056.0483"
+    },
+    {
+     "old": "056.0484"
+    },
+    {
+     "old": "056.0485"
+    },
+    {
+     "old": "056.0486"
+    },
+    {
+     "old": "056.0487"
+    },
+    {
+     "old": "056.0488"
+    },
+    {
+     "old": "056.0489"
+    },
+    {
+     "old": "056.0490"
+    },
+    {
+     "old": "056.0491"
+    },
+    {
+     "new": {
+      "french": "Je ne pensais qu’à la joie que j’aurais si ma chambre était isolée, ici je devais à chaque instant me retenir de respirer, car je respirais de façon à être entendue malgré la porte, ce qui me faisait étouffer.",
+      "rsr": "Restored from tome07.docx ¶3241, Mon Journal t.7 p.228 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne pleure pas. Je fais une minutieuse description.",
+      "rsr": "Restored from tome07.docx ¶3242, Mon Journal t.7 p.228 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quelle souffrance de ne pouvoir hurler !",
+      "rsr": "Restored from tome07.docx ¶3243, Mon Journal t.7 p.228 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il m'a indignement trompée. Je ne croyais à rien et je ne crois à rien, mais je l’avais cru. Il s’est moqué de moi. Son père lui a expliqué notre position et lui a amicalement dit qu’il fallait doucement tout briser. Il s’est laissé vaincre par la raison, et il a très bien joué son rôle.",
+      "rsr": "Restored from tome07.docx ¶3244, Mon Journal t.7 p.228 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il fallait le faire jurer. Ah ! bien oui, comme si on ne jure pas chaque jour, d’ailleurs on ne jure que quand on veut tromper. S’il était au couvent il en serait déjà sorti. Il n’est pas au couvent. On l’a renvoyé loin sans doute, j’aurais dû m’en douter en voyant les sourires abominables de son frère, qui en qualité d’homme rangé a sans doute agi de concert avec le comte, “pour le bien de Pietro”.",
+      "rsr": "Restored from tome07.docx ¶3245–3246, Mon Journal t.7 pp.228–229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne sais pas ce que je dois croire. Est-il absent par sa volonté, ou le tient-on éloigné par force, ou par ruse ?",
+      "rsr": "Restored from tome07.docx ¶3247, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non, je ne peux pas croire qu'il m’ait trompée tout le temps en tout ! Ce serait à ne plus croire en rien dans ce monde. Je dis que ne je crois en rien, mais je ne peux donc pas le penser dans mon fond ! Ce serait désespérant ! Ce serait à être dégoûtée de tout !",
+      "rsr": "Restored from tome07.docx ¶3248, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne m’étais pas encore levée de dessous la froide pierre quand je me consolais déjà que peut-être je le verrais demain. Non je ne peux pas vivre de cette idée. Il faut que je pleure encore ! ... Je puis de nouveau écrire. A quoi bon écrire ! Mon histoire n’est-elle pas toujours la même ? Cela finit toujours par un paroxysme de larmes sur le tapis d’un hôtel quelconque. Il m’a trompée ou il est la victime de sa famille.",
+      "rsr": "Restored from tome07.docx ¶3249, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Peut-être que pour se débarasser d’un homme qui a commis des crimes aussi abominables que de se faire soldat, et de devenir membre du Caccia-Club, on l’a pour toujours enfermé dans ce couvent. Pour des jésuites, pour un cardinal ce n’est pas si impossible.",
+      "rsr": "Restored from tome07.docx ¶3250, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ses frères sont sages, eux; ils sont membres d’un club où l’on ne joue qu’aux échecs et où on ne boit qu’un petit vin très trempé. Ils ne vont pas à l’Opéra et ne connaissent que des cléricaux, des noirs.",
+      "rsr": "Restored from tome07.docx ¶3251, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Voilà que je veux faire un martyr de Pietro.",
+      "rsr": "Restored from tome07.docx ¶3252, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non, non, non, non, non ! Il ne mentait pas, il ne trompait pas ! Il n’est pas un scélérat, un hypocrite, un lâche !",
+      "rsr": "Restored from tome07.docx ¶3253, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Maman veut partir mardi. Je ne partirai pas !",
+      "rsr": "Restored from tome07.docx ¶3254, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ils attendent mon départ pour relâcher Pietro. Ils attendront longtemps. D’ailleurs s’il m’aime, il saura bien me trouver.",
+      "rsr": "Restored from tome07.docx ¶3255, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Si je suis parti pour faire la vie militaire sans la permission de ma famille, me dit-il le soir du piano, croyez-vous que je n’irai pas partout pour vous et sans attendre la permission d’aucun diable ! Ah ! parbleu !",
+      "rsr": "Restored from tome07.docx ¶3256, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je fume et je m’abrutis peu à peu.",
+      "rsr": "Restored from tome07.docx ¶3257, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Demain je me confesse et communie.",
+      "rsr": "Restored from tome07.docx ¶3258, Mon Journal t.7 p.229 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai ouvert un tiroir et je l’ai brusquement refermé parce que j’y vis le portrait de Pietro, ce portrait me fait mal à présent et je meurs d’envie d’aller le prendre et d’écrire en le regardant, comme pour dire qu’il me donne des mots pour me faire comprendre, pour dire combien j’ai l’air d’une femme ivre, à moitié stupide et tout à fait chagrinée. J'avais des frissons pendant tout ce temps, à présent j’ai mal à la tête, et je fume et je fume pour m’abrutir.",
+      "rsr": "Restored from tome07.docx ¶3259–3260, Mon Journal t.7 pp.229–230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non, mais me voyez-vous pleurant devant le portrait d’un homme ! Certes la femme qui écrit n’est pas la même qui pleure !",
+      "rsr": "Restored from tome07.docx ¶3261, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai pleuré quelquefois en lisant des romans, je voudrais savoir si on pleurera en me lisant. Non, car je ne dis que le mot *pleurer* et je ne dis rien de touchant. Je ne sais pas.",
+      "rsr": "Restored from tome07.docx ¶3262, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Est-ce que je ne le reverrai plus ? Via ! Dieu ne ferait pas cela. Peuh ! Il en fait bien d’autres !",
+      "rsr": "Restored from tome07.docx ¶3263, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ne blasphémons pas.",
+      "rsr": "Restored from tome07.docx ¶3264, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai même eu l’idée qu’il n’est pas venu ce soir exprès pour perdre son pari. Les cartes avaient bien dit *non.* Consultons-les pour demain. Les cartes disent *non .* Elles mentent ! Pourquoi ? Parce qu’elles ne disent pas ce que je veux ?!",
+      "rsr": "Restored from tome07.docx ¶3265, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’étais bien folle de croire que quelque chose pouvait me réussir. Ne m’est-il pas clairement démontré que tout, tout, tout me manque !",
+      "rsr": "Restored from tome07.docx ¶3266, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai l’affreuse conviction que je ne le reverrai plus et que tout est fini.",
+      "rsr": "Restored from tome07.docx ¶3267, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Eh bien, qu’y a-t-il d’étonnant dans cela ? N’est-ce pas connu que je ne dois avoir que des peines dans ce monde ?",
+      "rsr": "Restored from tome07.docx ¶3268, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tous ceux qui me voient rieuse et folle me disent: Vous finirez dans un couvent.",
+      "rsr": "Restored from tome07.docx ¶3269, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je crois. Désappointée et lasse, lasse, lasse des constantes désillusions, d’éternels désirs non satisfaits, j’irai me cacher quelque part pour pleurer, prier et blasphémer !",
+      "rsr": "Restored from tome07.docx ¶3270, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Esprit malade, cœur inquiet je vais encore avoir recours à la consolation des faibles: les cartes. Encore une fois je vais leur demander si demain je le verrai. Une seule fois encore, ce sera la dernière... pour aujourd’hui.",
+      "rsr": "Restored from tome07.docx ¶3271, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Encore et toujours *non* ! Demandons au livre, peut-être me dira-t-il quelque chose: “Ciment romain qui la recouvre toute entière et la protège\". Je ne comprends pas. Encore. Non, je ne veux pas !",
+      "rsr": "Restored from tome07.docx ¶3272, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Résigne-toi et tais-toi ! Je suis si habituée au genre burlesque que je ne sais rien dire. D’ailleurs c’est inutile. Qui se soucie du journal d’une malheureuse ! Il y en a tant !",
+      "rsr": "Restored from tome07.docx ¶3273, Mon Journal t.7 p.230 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il est une heure. Je vais dormir. Le sommeil, c’est le plus heureux des états, on est mort quand on dort.",
+      "rsr": "Restored from tome07.docx ¶3274, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je regarde le portrait et je lance la fumée de ma cigarette sur sa figure.",
+      "rsr": "Restored from tome07.docx ¶3275, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Soroka, comte Antonelli, Pietro ! Dérision des dérisions ! Et à chaque fois je me laisse prendre, et chaque fois je crois que *cette fois ce* sera autrement que toujours.",
+      "rsr": "Restored from tome07.docx ¶3276, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Folle, folle, folle ! Non, pas folle, mais malheureuse.",
+      "rsr": "Restored from tome07.docx ¶3277, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je l’aime surtout parce qu’il m’aime. Non, il ne m’aime pas. Il ne reviendra plus ! S’il devait revenir il serait revenu ce soir.",
+      "rsr": "Restored from tome07.docx ¶3278, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai encore une cigarette et demie. Fumons tout.",
+      "rsr": "Restored from tome07.docx ¶3279, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Il ne viendra plus, nous ne le verrons plus, disait maman, les moines et les prêtres l’enverront si loin.",
+      "rsr": "Restored from tome07.docx ¶3280, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les cartes disent que je ne le verrai plus “Et de nouveau je suis prise d’un accès de désespoir” ! L’abrutissement cesse, je sens, je vois, je pleure !",
+      "rsr": "Restored from tome07.docx ¶3281, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais j’ai son portrait, je vais l’adorer. S'il m’a trompée *je* le maudis, si on le retient de force je l’aime, je l’aime beaucoup, je l’aime tout à fait, je l'adore, je ne veux aimer personne d’autre, je ne veux m’occuper de personne !",
+      "rsr": "Restored from tome07.docx ¶3282, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Bêtise que Torlonia ouvre pâle et indigne d’un cœur sale et indigne.",
+      "rsr": "Restored from tome07.docx ¶3283, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: Je comprends bien ce sentiment et suis prête à l'éprouver encore pour n’importe quel homme qui serait à cause de moi dans une situation aussi romanesque et pitoyable.]",
+      "rsr": "Restored from tome07.docx ¶3284, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "margin"
+     },
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "new": {
+      "french": "Je suis punie pour mes stupides paroles !",
+      "rsr": "Restored from tome07.docx ¶3285, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Parce qu’il m’aimait je le traitais en canaille ! S’il mourait, j’en ferais un dieu et je l’adorerais toute ma vie, sans l’aimer toutefois. Toutes ces désillusions vont faire de moi une fameuse coquine, je ne crois à rien, je n’aime rien, je n’estime rien.",
+      "rsr": "Restored from tome07.docx ¶3286, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Incrédulité, cynisme et misanthropie !",
+      "rsr": "Restored from tome07.docx ¶3287, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Voilà ce que je suis, et ce n’est pas parce que je l’ai voulu. On me fait telle ! Dieu me fait telle ! Nions Dieu et ce sera complet.",
+      "rsr": "Restored from tome07.docx ¶3288, Mon Journal t.7 p.231 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1876-04-09.md",
+   "date": "1876-04-09",
+   "heading": "Dimanche 9 avril 1876",
+   "paragraphs": [
+    {
+     "old": "056.0492"
+    },
+    {
+     "old": "056.0493"
+    },
+    {
+     "old": "056.0494"
+    },
+    {
+     "old": "056.0495"
+    },
+    {
+     "old": "056.0496"
+    },
+    {
+     "old": "056.0497"
+    },
+    {
+     "old": "056.0498"
+    },
+    {
+     "old": "056.0499"
+    },
+    {
+     "old": "056.0500"
+    },
+    {
+     "old": "056.0501"
+    },
+    {
+     "old": "056.0502"
+    },
+    {
+     "old": "056.0503"
+    },
+    {
+     "old": "056.0504"
+    },
+    {
+     "old": "056.0505"
+    },
+    {
+     "old": "056.0506"
+    },
+    {
+     "old": "056.0507"
+    },
+    {
+     "old": "056.0508"
+    },
+    {
+     "old": "056.0509"
+    },
+    {
+     "old": "056.0510"
+    },
+    {
+     "old": "056.0511"
+    },
+    {
+     "old": "056.0512"
+    }
+   ]
+  }
+ ],
+ "_fixed": "fix07.py 2026-09-28 (planner tome06/07); decisions in REVIEW-07.md"
+}

@@ -1,0 +1,1351 @@
+{
+  "carnet": "057",
+  "date": "2026-09-28",
+  "plan_path": "../rebuild-state/plan-tome0607/final/plan-057.json",
+  "plan_source": "tome07.docx",
+  "run_carnets": [
+    "053",
+    "054",
+    "055",
+    "056",
+    "057",
+    "058",
+    "059"
+  ],
+  "id_map": {
+    "057.0001": "057.0077",
+    "057.0002": "057.0078",
+    "057.0003": "057.0079",
+    "057.0004": "057.0080",
+    "057.0005": "057.0081",
+    "057.0006": "057.0082",
+    "057.0007": "057.0083",
+    "057.0008": "057.0084",
+    "057.0009": "057.0085",
+    "057.0010": "057.0086",
+    "057.0011": "057.0087",
+    "057.0012": "057.0088",
+    "057.0013": "057.0089",
+    "057.0014": "057.0090",
+    "057.0015": "057.0091",
+    "057.0016": "057.0092",
+    "057.0017": "057.0093",
+    "057.0018": "057.0094",
+    "057.0019": "057.0095",
+    "057.0020": "057.0096",
+    "057.0021": "057.0097",
+    "057.0022": "057.0098",
+    "057.0023": "057.0099",
+    "057.0024": "057.0135",
+    "057.0025": "057.0136",
+    "057.0026": "057.0137",
+    "057.0027": "057.0138",
+    "057.0028": "057.0139",
+    "057.0029": "057.0140",
+    "057.0030": "057.0141",
+    "057.0031": "057.0142",
+    "057.0032": "057.0143",
+    "057.0033": "057.0144",
+    "057.0034": "057.0145",
+    "057.0035": "057.0146",
+    "057.0036": "057.0147",
+    "057.0037": "057.0148",
+    "057.0038": "057.0149",
+    "057.0039": "057.0150",
+    "057.0040": "057.0151",
+    "057.0041": "057.0152",
+    "057.0042": "057.0153",
+    "057.0043": "057.0154",
+    "057.0044": "057.0155",
+    "057.0045": "057.0156",
+    "057.0046": "057.0157",
+    "057.0047": "057.0158",
+    "057.0048": "057.0159",
+    "057.0049": "057.0160",
+    "057.0050": "057.0161",
+    "057.0051": "057.0162",
+    "057.0052": "057.0163",
+    "057.0053": "057.0164",
+    "057.0054": "057.0165",
+    "057.0055": "057.0166",
+    "057.0056": "057.0167",
+    "057.0057": "057.0168",
+    "057.0058": "057.0169",
+    "057.0059": "057.0170",
+    "057.0060": "057.0171",
+    "057.0061": "057.0172",
+    "057.0062": "057.0173",
+    "057.0063": "057.0174",
+    "057.0064": "057.0175",
+    "057.0065": "057.0176",
+    "057.0066": "057.0177",
+    "057.0067": "057.0178",
+    "057.0068": "057.0179",
+    "057.0069": "057.0180",
+    "057.0070": "057.0181",
+    "057.0071": "057.0182",
+    "057.0072": "057.0183",
+    "057.0073": "057.0184",
+    "057.0074": "057.0185",
+    "057.0075": "057.0186",
+    "057.0076": "057.0190",
+    "057.0077": "057.0191",
+    "057.0078": "057.0192",
+    "057.0079": "057.0193",
+    "057.0080": "057.0194",
+    "057.0081": "057.0195",
+    "057.0082": "057.0196",
+    "057.0083": "057.0197",
+    "057.0084": "057.0198",
+    "057.0085": "057.0199",
+    "057.0086": "057.0200",
+    "057.0087": "057.0201",
+    "057.0088": "057.0202",
+    "057.0089": "057.0203",
+    "057.0090": "057.0204",
+    "057.0091": "057.0205",
+    "057.0092": "057.0206",
+    "057.0093": "057.0207",
+    "057.0094": "057.0208",
+    "057.0095": "057.0209",
+    "057.0096": "057.0210",
+    "057.0097": "057.0211",
+    "057.0098": "057.0212",
+    "057.0099": "057.0213",
+    "057.0100": "057.0214",
+    "057.0101": "057.0215",
+    "057.0102": "057.0216",
+    "057.0103": "057.0217",
+    "057.0104": "057.0218",
+    "057.0105": "057.0219",
+    "057.0106": "057.0220",
+    "057.0107": "057.0221",
+    "057.0108": "057.0222",
+    "057.0109": "057.0223",
+    "057.0110": "057.0224",
+    "057.0111": "057.0225",
+    "057.0112": "057.0226",
+    "057.0113": "057.0227",
+    "057.0114": "057.0228",
+    "057.0115": "057.0229",
+    "057.0116": "057.0230",
+    "057.0117": "057.0231",
+    "057.0118": "057.0232",
+    "057.0119": "057.0233",
+    "057.0120": "057.0234",
+    "057.0121": "057.0235",
+    "057.0122": "057.0236",
+    "057.0123": "057.0237",
+    "057.0124": "057.0238",
+    "057.0125": "057.0239",
+    "057.0126": "057.0240",
+    "057.0127": "057.0241",
+    "057.0128": "057.0242",
+    "057.0129": "057.0244",
+    "057.0130": "057.0245",
+    "057.0131": "057.0246",
+    "057.0132": "057.0247",
+    "057.0133": "058.0003",
+    "057.0134": "058.0004",
+    "057.0135": "058.0005",
+    "057.0136": "058.0006",
+    "057.0137": "058.0007",
+    "057.0138": "058.0008",
+    "057.0139": "058.0009",
+    "057.0140": "058.0010",
+    "057.0141": "058.0011",
+    "057.0142": "058.0012"
+  },
+  "moved_in": {
+    "056.0513": "057.0001",
+    "056.0514": "057.0002",
+    "056.0515": "057.0003",
+    "056.0516": "057.0004",
+    "056.0517": "057.0005",
+    "056.0518": "057.0006",
+    "056.0519": "057.0007",
+    "056.0520": "057.0008",
+    "056.0521": "057.0009",
+    "056.0522": "057.0010",
+    "056.0523": "057.0011",
+    "056.0524": "057.0012",
+    "056.0525": "057.0013",
+    "056.0526": "057.0014",
+    "056.0527": "057.0015",
+    "056.0528": "057.0016",
+    "056.0529": "057.0017",
+    "056.0530": "057.0018",
+    "056.0531": "057.0019",
+    "056.0532": "057.0020",
+    "056.0533": "057.0021",
+    "056.0534": "057.0022",
+    "056.0535": "057.0023",
+    "056.0536": "057.0024",
+    "056.0537": "057.0025",
+    "056.0538": "057.0026",
+    "056.0539": "057.0027",
+    "056.0540": "057.0028",
+    "056.0541": "057.0029",
+    "056.0542": "057.0030",
+    "056.0543": "057.0031",
+    "056.0544": "057.0032",
+    "056.0545": "057.0033",
+    "056.0546": "057.0034",
+    "056.0547": "057.0035",
+    "056.0548": "057.0036",
+    "056.0549": "057.0037",
+    "056.0550": "057.0038",
+    "056.0551": "057.0039",
+    "056.0552": "057.0040",
+    "056.0553": "057.0041",
+    "056.0554": "057.0042",
+    "056.0555": "057.0043",
+    "056.0556": "057.0044",
+    "056.0557": "057.0045",
+    "056.0558": "057.0046",
+    "056.0559": "057.0047",
+    "056.0560": "057.0048",
+    "056.0561": "057.0049",
+    "056.0562": "057.0050",
+    "056.0563": "057.0051",
+    "056.0564": "057.0052",
+    "056.0565": "057.0053",
+    "056.0566": "057.0054",
+    "056.0568": "057.0055",
+    "056.0569": "057.0056",
+    "056.0570": "057.0057",
+    "056.0571": "057.0058",
+    "056.0572": "057.0059",
+    "056.0573": "057.0060",
+    "056.0574": "057.0061",
+    "056.0575": "057.0062",
+    "056.0576": "057.0063",
+    "056.0577": "057.0064",
+    "056.0578": "057.0065",
+    "056.0579": "057.0066",
+    "056.0580": "057.0067",
+    "056.0581": "057.0068",
+    "056.0582": "057.0069",
+    "056.0583": "057.0070",
+    "056.0584": "057.0071",
+    "056.0585": "057.0072",
+    "056.0586": "057.0073",
+    "056.0587": "057.0074",
+    "056.0588": "057.0075",
+    "056.0589": "057.0076"
+  },
+  "moved_out": {
+    "057.0133": "058.0003",
+    "057.0134": "058.0004",
+    "057.0135": "058.0005",
+    "057.0136": "058.0006",
+    "057.0137": "058.0007",
+    "057.0138": "058.0008",
+    "057.0139": "058.0009",
+    "057.0140": "058.0010",
+    "057.0141": "058.0011",
+    "057.0142": "058.0012"
+  },
+  "changed_ids": 208,
+  "new_paragraphs": [
+    {
+      "id": "057.0100",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0101",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0102",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0103",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0104",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0105",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0106",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0107",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0108",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0109",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0110",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0111",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0112",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0113",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0114",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0115",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0116",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0117",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0118",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0119",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0120",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0121",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0122",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0123",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0124",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0125",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0126",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0127",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0128",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0129",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0130",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0131",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0132",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0133",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0134",
+      "file": "1876-04-10.md"
+    },
+    {
+      "id": "057.0187",
+      "file": "1876-04-12.md"
+    },
+    {
+      "id": "057.0188",
+      "file": "1876-04-12.md"
+    },
+    {
+      "id": "057.0189",
+      "file": "1876-04-12.md"
+    },
+    {
+      "id": "057.0243",
+      "file": "1876-04-13.md"
+    }
+  ],
+  "dropped": [],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [
+    "1876-04-09.md"
+  ],
+  "last_id": "057.0247",
+  "flag_resets": {
+    "cz": [
+      "1876-04-09.md",
+      "1876-04-10.md",
+      "1876-04-12.md",
+      "1876-04-13.md"
+    ],
+    "uk": [
+      "1876-04-09.md",
+      "1876-04-10.md",
+      "1876-04-12.md",
+      "1876-04-13.md"
+    ],
+    "en": [
+      "1876-04-09.md",
+      "1876-04-10.md",
+      "1876-04-12.md",
+      "1876-04-13.md"
+    ],
+    "fr": [
+      "1876-04-09.md",
+      "1876-04-10.md",
+      "1876-04-12.md",
+      "1876-04-13.md"
+    ]
+  },
+  "plan": {
+    "carnet": "057",
+    "source": "tome07.docx",
+    "drop": [],
+    "entries": [
+      {
+        "file": "1876-04-09.md",
+        "date": "1876-04-09",
+        "heading": "Dimanche 9 avril 1876 - suite",
+        "paragraphs": [
+          {
+            "old": "056.0513"
+          },
+          {
+            "old": "056.0514"
+          },
+          {
+            "old": "056.0515"
+          },
+          {
+            "old": "056.0516"
+          },
+          {
+            "old": "056.0517"
+          },
+          {
+            "old": "056.0518"
+          },
+          {
+            "old": "056.0519"
+          },
+          {
+            "old": "056.0520"
+          },
+          {
+            "old": "056.0521"
+          },
+          {
+            "old": "056.0522"
+          },
+          {
+            "old": "056.0523"
+          },
+          {
+            "old": "056.0524"
+          },
+          {
+            "old": "056.0525"
+          },
+          {
+            "old": "056.0526"
+          },
+          {
+            "old": "056.0527"
+          },
+          {
+            "old": "056.0528"
+          },
+          {
+            "old": "056.0529"
+          },
+          {
+            "old": "056.0530"
+          },
+          {
+            "old": "056.0531"
+          },
+          {
+            "old": "056.0532"
+          },
+          {
+            "old": "056.0533"
+          },
+          {
+            "old": "056.0534"
+          },
+          {
+            "old": "056.0535",
+            "kind": "margin",
+            "_kind_guess_reason": "bracketed marginal note"
+          },
+          {
+            "old": "056.0536"
+          },
+          {
+            "old": "056.0537"
+          },
+          {
+            "old": "056.0538"
+          },
+          {
+            "old": "056.0539"
+          },
+          {
+            "old": "056.0540"
+          },
+          {
+            "old": "056.0541"
+          },
+          {
+            "old": "056.0542"
+          },
+          {
+            "old": "056.0543"
+          },
+          {
+            "old": "056.0544"
+          },
+          {
+            "old": "056.0545"
+          },
+          {
+            "old": "056.0546"
+          },
+          {
+            "old": "056.0547"
+          },
+          {
+            "old": "056.0548"
+          },
+          {
+            "old": "056.0549"
+          },
+          {
+            "old": "056.0550"
+          },
+          {
+            "old": "056.0551"
+          },
+          {
+            "old": "056.0552"
+          },
+          {
+            "old": "056.0553"
+          },
+          {
+            "old": "056.0554"
+          },
+          {
+            "old": "056.0555"
+          },
+          {
+            "old": "056.0556"
+          },
+          {
+            "old": "056.0557"
+          },
+          {
+            "old": "056.0558"
+          },
+          {
+            "old": "056.0559"
+          },
+          {
+            "old": "056.0560"
+          },
+          {
+            "old": "056.0561"
+          },
+          {
+            "old": "056.0562"
+          },
+          {
+            "old": "056.0563"
+          },
+          {
+            "old": "056.0564"
+          },
+          {
+            "old": "056.0565"
+          },
+          {
+            "old": "056.0566"
+          },
+          {
+            "old": "056.0568",
+            "kind": "margin"
+          },
+          {
+            "old": "056.0569"
+          },
+          {
+            "old": "056.0570"
+          },
+          {
+            "old": "056.0571"
+          },
+          {
+            "old": "056.0572"
+          },
+          {
+            "old": "056.0573"
+          },
+          {
+            "old": "056.0574"
+          },
+          {
+            "old": "056.0575"
+          },
+          {
+            "old": "056.0576"
+          },
+          {
+            "old": "056.0577"
+          },
+          {
+            "old": "056.0578"
+          },
+          {
+            "old": "056.0579"
+          },
+          {
+            "old": "056.0580"
+          },
+          {
+            "old": "056.0581"
+          },
+          {
+            "old": "056.0582"
+          },
+          {
+            "old": "056.0583"
+          },
+          {
+            "old": "056.0584"
+          },
+          {
+            "old": "056.0585"
+          },
+          {
+            "old": "056.0586"
+          },
+          {
+            "old": "056.0587"
+          },
+          {
+            "old": "056.0588"
+          },
+          {
+            "old": "056.0589"
+          }
+        ],
+        "frontmatter_from": "1876-04-10.md"
+      },
+      {
+        "file": "1876-04-10.md",
+        "date": "1876-04-10",
+        "heading": "Lundi 10 avril 1876",
+        "paragraphs": [
+          {
+            "old": "057.0001"
+          },
+          {
+            "old": "057.0002"
+          },
+          {
+            "old": "057.0003"
+          },
+          {
+            "old": "057.0004"
+          },
+          {
+            "old": "057.0005"
+          },
+          {
+            "old": "057.0006"
+          },
+          {
+            "old": "057.0007"
+          },
+          {
+            "old": "057.0008"
+          },
+          {
+            "old": "057.0009"
+          },
+          {
+            "old": "057.0010"
+          },
+          {
+            "old": "057.0011"
+          },
+          {
+            "old": "057.0012"
+          },
+          {
+            "old": "057.0013"
+          },
+          {
+            "old": "057.0014"
+          },
+          {
+            "old": "057.0015"
+          },
+          {
+            "old": "057.0016"
+          },
+          {
+            "old": "057.0017"
+          },
+          {
+            "old": "057.0018"
+          },
+          {
+            "old": "057.0019"
+          },
+          {
+            "old": "057.0020"
+          },
+          {
+            "old": "057.0021"
+          },
+          {
+            "old": "057.0022"
+          },
+          {
+            "old": "057.0023"
+          },
+          {
+            "new": {
+              "french": "Ensuite j’ai changé de chapeau et mis une pelisse et nous sommes allés au Corso. Rien.",
+              "rsr": "Restored from tome07.docx ¶3461, Mon Journal t.7 p.241 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Paul prétend que j’empêche la grande baronne et son fils de manger en les faisant tellement rire.",
+              "rsr": "Restored from tome07.docx ¶3462, Mon Journal t.7 p.241 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Le soir nous allons au Valle, on donne “Madame l’Archiduc” au bénéfice de la première chanteuse Preziosi.",
+              "rsr": "Restored from tome07.docx ¶3463, Mon Journal t.7 p.241 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je me suis tenue tout le temps cachée. Le monde de la barcaccia est changé. Il n’y avait ni Pandola, ni Cesaro, ni Z...zuchini, ni Antonelli, Torlonia y vient un peu avant le commencement du dernier acte. Je ne puis m’empêcher d’admirer ce dévergondé personnage. Je n’ai fait que le regarder de derrière l'épaule et à l’ombre de la coiffure de Dina.",
+              "rsr": "Restored from tome07.docx ¶3464–3465, Mon Journal t.7 pp.241–242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "L’opérette est vraiment charmante, je n’avais rien à faire, j’étais bien obligée d’écouter de toutes mes oreilles sous peine de devoir converser avec Issayevitch. Une conversation me serait insupportable.",
+              "rsr": "Restored from tome07.docx ¶3466, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Rentrée, j’allai chez maman et lui demandai ce qu’on avait fait de Pietro.",
+              "rsr": "Restored from tome07.docx ¶3467, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "On l’a éloigné, comme je l’avais dit d’abord, me répondit-elle, on lui procure tous les amusements possibles et on le tient éloigné pour ne pas donner suite à l’amour pour toi, ayant sans doute en vue quelque Romaine fort riche.",
+              "rsr": "Restored from tome07.docx ¶3468, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et vous pensez qu’il consentirait à rester ?",
+              "rsr": "Restored from tome07.docx ¶3469, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais oui, tu sais toi-même qu’il n’est fort qu’en paroles et qu’il finit toujours pas céder. On lui écrit de patienter encore, on le menace d’un scandale quant au payement des dettes.",
+              "rsr": "Restored from tome07.docx ¶3470, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il s’enfuirait.",
+              "rsr": "Restored from tome07.docx ¶3471, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il a peut-être consenti lui-même.",
+              "rsr": "Restored from tome07.docx ¶3472, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C’est peu probable, mais je vous dis une chose, c’est qu’il ne savait pas qu’on l'éloignait pour un temps indéfini !",
+              "rsr": "Restored from tome07.docx ¶3473, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oui, c’est juste, il ne le savait pas. Oh ! s’il le savait il ne partirait pas. Mais crois-tu qu’ils soient si bêtes qu’ils le lui diraient ?",
+              "rsr": "Restored from tome07.docx ¶3474, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Sans doute non. Cette affaire est étrange au possible, je tiens à l’éclaircir, elle m’occupe énormément.",
+              "rsr": "Restored from tome07.docx ¶3475, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ça ne vaut pas la peine.",
+              "rsr": "Restored from tome07.docx ¶3476, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Rien dans ce monde ne vaut la peine, et le mieux selon vous, c’est de prendre un air de noble polonais insulté par un gendarme russe, et dire d’un ton superbe en soulevant douloureusement la lèvre: “Ça ne vaut pas la peine”.",
+              "rsr": "Restored from tome07.docx ¶3477, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Sans doute ça ne vaut pas la peine.",
+              "rsr": "Restored from tome07.docx ¶3478, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Nous ne sommes jamais d’accord, c’est naturel ou habituel. Mais écoutez ceci. Si on l’a éloigné à cause de moi, une fois moi partie on le relâchera ?",
+              "rsr": "Restored from tome07.docx ¶3479, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oui.",
+              "rsr": "Restored from tome07.docx ¶3480, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Eh bien, mercredi ou jeudi nous partirons pour Naples, nous reviendrons au bout de quelques jours et nous saurons quelque chose.",
+              "rsr": "Restored from tome07.docx ¶3481, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Nous n’avons pas d’argent.",
+              "rsr": "Restored from tome07.docx ¶3482, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Eh parbleu, Madame, il faut en avoir. Je télégraphierai à ma tante. Je vous dis que je veux comprendre ce mystère.",
+              "rsr": "Restored from tome07.docx ¶3483, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais ça ne vaut pas la peine, dit maman, très blessée au fond.",
+              "rsr": "Restored from tome07.docx ¶3484, Mon Journal t.7 p.242 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "- Tout ce qui m’amuse vaut la peine. Si j’avais d’autres distractions, si j’allais dans le monde (attrape ça !) certes cela m’occuperait moins, mais dans ma présente position cela m’intéresse beaucoup et vous devez être bien heureuse de voir que quelque chose m’intéresse. Ainsi, c’est dit.",
+              "rsr": "Restored from tome07.docx ¶3485, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Elle essaya encore quelques objections pleines de fierté outragée, eh ! Madame je vous comprends parfaitement, moi aussi je suis outragée mais il faut néanmoins éclaircir cela.",
+              "rsr": "Restored from tome07.docx ¶3486, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne sais que penser de lui.",
+              "rsr": "Restored from tome07.docx ¶3487, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Victime, dupe, scélérat lâche ou bien enfant tyrannisé.",
+              "rsr": "Restored from tome07.docx ¶3488, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je suis excessivement calme mais très triste.",
+              "rsr": "Restored from tome07.docx ¶3489, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il ne s’agit que de se placer d’une certaine façon pour trouver que rien dans ce monde “ne vaut la peine”.",
+              "rsr": "Restored from tome07.docx ¶3490, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Une fois placée de cette façon on n’est qu’une brute, qu’une faible parodie de Diogène et, à ce compte-là, puisque rien ne vaut la peine, pourquoi vivre ? Je comprends bien l’idée de maman, elle dit ça ne vaut pas la peine, pour dire que Pietro n’est qu’un enfant, qu’il ne me convient pas comme mari, qu’il n’est ni assez riche, ni assez haut placé, ni assez aimé de moi pour que cela vaille la peine. Ça ne vaut pas la peine, dit-elle, parce qu’il n’est qu’un joujou dans les mains de sa famille, parce qu’il n’a ni une volonté, à lui, ni une opinion, ni aucun désir ferme à lui. Or, qu’est-ce qu’une pareille créature ?",
+              "rsr": "Restored from tome07.docx ¶3491, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je suis parfaitement d'accord avec Madame ma mère, mais pour l’être encore plus parfaitement il faut savoir au juste.",
+              "rsr": "Restored from tome07.docx ¶3492, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tout ce que je sais, c’est que c’est une bizarre aventure.",
+              "rsr": "Restored from tome07.docx ¶3493, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah ! à propos, maman a envoyé demander des nouvelles de Visconti, à la suite de mon rêve. Visconti a été très souffrant hier. N’est-ce pas étrange ? Décidément il y a quelque chose que nous ne comprenons pas. Que dis-je, il y a beaucoup de choses que nous ne comprenons pas. Mais ne sophistiquons pas, n’est-ce pas.",
+              "rsr": "Restored from tome07.docx ¶3494, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce serait tout de même joli si Pietro avait tout le temps joué la comédie et, que, voyant que cela allait trop loin, il se fût retiré pour briser là, comme dit Visconti.",
+              "rsr": "Restored from tome07.docx ¶3495, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne serai tranquille que quand je saurai ce que tout cela veut dire.",
+              "rsr": "Restored from tome07.docx ¶3496, Mon Journal t.7 p.243 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1876-04-11.md",
+        "date": "1876-04-11",
+        "heading": "Mardi 11 avril 1876",
+        "paragraphs": [
+          {
+            "old": "057.0024"
+          },
+          {
+            "old": "057.0025"
+          },
+          {
+            "old": "057.0026"
+          },
+          {
+            "old": "057.0027"
+          },
+          {
+            "old": "057.0028"
+          },
+          {
+            "old": "057.0029"
+          },
+          {
+            "old": "057.0030"
+          },
+          {
+            "old": "057.0031"
+          },
+          {
+            "old": "057.0032"
+          },
+          {
+            "old": "057.0033"
+          },
+          {
+            "old": "057.0034"
+          },
+          {
+            "old": "057.0035"
+          },
+          {
+            "old": "057.0036"
+          },
+          {
+            "old": "057.0037"
+          },
+          {
+            "old": "057.0038"
+          },
+          {
+            "old": "057.0039"
+          },
+          {
+            "old": "057.0040"
+          },
+          {
+            "old": "057.0041"
+          },
+          {
+            "old": "057.0042"
+          },
+          {
+            "old": "057.0043"
+          },
+          {
+            "old": "057.0044"
+          },
+          {
+            "old": "057.0045"
+          },
+          {
+            "old": "057.0046"
+          },
+          {
+            "old": "057.0047"
+          },
+          {
+            "old": "057.0048"
+          },
+          {
+            "old": "057.0049"
+          },
+          {
+            "old": "057.0050"
+          },
+          {
+            "old": "057.0051",
+            "kind": "margin",
+            "_kind_guess_reason": "bracketed marginal note"
+          },
+          {
+            "old": "057.0052"
+          },
+          {
+            "old": "057.0053"
+          },
+          {
+            "old": "057.0054"
+          },
+          {
+            "old": "057.0055"
+          },
+          {
+            "old": "057.0056"
+          },
+          {
+            "old": "057.0057"
+          }
+        ]
+      },
+      {
+        "file": "1876-04-12.md",
+        "date": "1876-04-12",
+        "heading": "Mercredi 12 avril 1876",
+        "paragraphs": [
+          {
+            "old": "057.0058"
+          },
+          {
+            "old": "057.0059"
+          },
+          {
+            "old": "057.0060"
+          },
+          {
+            "old": "057.0061"
+          },
+          {
+            "old": "057.0062"
+          },
+          {
+            "old": "057.0063"
+          },
+          {
+            "old": "057.0064"
+          },
+          {
+            "old": "057.0065"
+          },
+          {
+            "old": "057.0066"
+          },
+          {
+            "old": "057.0067"
+          },
+          {
+            "old": "057.0068"
+          },
+          {
+            "old": "057.0069"
+          },
+          {
+            "old": "057.0070"
+          },
+          {
+            "old": "057.0071"
+          },
+          {
+            "old": "057.0072"
+          },
+          {
+            "old": "057.0073"
+          },
+          {
+            "old": "057.0074"
+          },
+          {
+            "old": "057.0075"
+          },
+          {
+            "new": {
+              "french": "Il fait un temps gris, je suis d’humeur grise.",
+              "rsr": "Restored from tome07.docx ¶3553, Mon Journal t.7 p.248 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Botkine et Katorbinsky ont dîné avec nous. Botkine d’un ton de respectueuse familiarité me parle de mon amour pour Pietro, sans prononcer le mot amour et sans nommer Antonelli.",
+              "rsr": "Restored from tome07.docx ¶3554, Mon Journal t.7 p.248 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dans une demi-heure nous partirons.",
+              "rsr": "Restored from tome07.docx ¶3555, Mon Journal t.7 p.248 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1876-04-13.md",
+        "date": "1876-04-13",
+        "heading": "Jeudi 13 avril 1876",
+        "paragraphs": [
+          {
+            "old": "057.0076"
+          },
+          {
+            "old": "057.0077"
+          },
+          {
+            "old": "057.0078"
+          },
+          {
+            "old": "057.0079"
+          },
+          {
+            "old": "057.0080"
+          },
+          {
+            "old": "057.0081"
+          },
+          {
+            "old": "057.0082"
+          },
+          {
+            "old": "057.0083"
+          },
+          {
+            "old": "057.0084"
+          },
+          {
+            "old": "057.0085"
+          },
+          {
+            "old": "057.0086"
+          },
+          {
+            "old": "057.0087"
+          },
+          {
+            "old": "057.0088"
+          },
+          {
+            "old": "057.0089"
+          },
+          {
+            "old": "057.0090"
+          },
+          {
+            "old": "057.0091"
+          },
+          {
+            "old": "057.0092"
+          },
+          {
+            "old": "057.0093"
+          },
+          {
+            "old": "057.0094"
+          },
+          {
+            "old": "057.0095"
+          },
+          {
+            "old": "057.0096"
+          },
+          {
+            "old": "057.0097"
+          },
+          {
+            "old": "057.0098"
+          },
+          {
+            "old": "057.0099"
+          },
+          {
+            "old": "057.0100"
+          },
+          {
+            "old": "057.0101"
+          },
+          {
+            "old": "057.0102"
+          },
+          {
+            "old": "057.0103"
+          },
+          {
+            "old": "057.0104"
+          },
+          {
+            "old": "057.0105"
+          },
+          {
+            "old": "057.0106"
+          },
+          {
+            "old": "057.0107"
+          },
+          {
+            "old": "057.0108"
+          },
+          {
+            "old": "057.0109"
+          },
+          {
+            "old": "057.0110"
+          },
+          {
+            "old": "057.0111"
+          },
+          {
+            "old": "057.0112"
+          },
+          {
+            "old": "057.0113"
+          },
+          {
+            "old": "057.0114"
+          },
+          {
+            "old": "057.0115"
+          },
+          {
+            "old": "057.0116"
+          },
+          {
+            "old": "057.0117"
+          },
+          {
+            "old": "057.0118"
+          },
+          {
+            "old": "057.0119"
+          },
+          {
+            "old": "057.0120"
+          },
+          {
+            "old": "057.0121"
+          },
+          {
+            "old": "057.0122"
+          },
+          {
+            "old": "057.0123"
+          },
+          {
+            "old": "057.0124"
+          },
+          {
+            "old": "057.0125"
+          },
+          {
+            "old": "057.0126"
+          },
+          {
+            "old": "057.0127"
+          },
+          {
+            "old": "057.0128"
+          },
+          {
+            "new": {
+              "french": "[Manque p. 66 mais probablement par erreur de numérotation]",
+              "rsr": "Restored from tome07.docx ¶3612 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "editorial"
+            },
+            "_kind_guess_reason": "bracketed note about the manuscript"
+          },
+          {
+            "old": "057.0129"
+          },
+          {
+            "old": "057.0130"
+          },
+          {
+            "old": "057.0131"
+          },
+          {
+            "old": "057.0132",
+            "set_french": "Non, non, ce n'est pas des tempêtes que je suis lasse, c'est des déceptions. Et qui ne le serait pas ? !"
+          }
+        ]
+      }
+    ],
+    "_fixed": "fix07.py 2026-09-28 (planner tome06/07); decisions in REVIEW-07.md"
+  }
+}

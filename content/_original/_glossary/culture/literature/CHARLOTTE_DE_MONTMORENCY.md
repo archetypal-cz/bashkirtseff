@@ -29,6 +29,6 @@ On 17 October 1875 (carnet 047), Marie stages a deliberate reenactment: "Je veux
 
 ## References in Diary
 
-- First mentioned: 1875-10-17 (carnet 047, para 047.0792)
+- First mentioned: 1875-10-17 (carnet 047, para 047.0126)
 
 %% 2026-02-09T22:00:00 RSR: Created entry. Marie explicitly invokes Charlotte de Montmorency as a model for her candlelit balcony display. The Henri IV/Charlotte story was well known in 19th-century French culture. %%

@@ -1,0 +1,2166 @@
+{
+ "carnet": "048",
+ "source": "tome06.docx",
+ "drop": [
+  {
+   "id": "048.0020",
+   "reason": "text not in the printed integral edition (Mon Journal t.6 p.103, tome06.docx ¶1576–1598 has other text here); provenance unknown, present since the first import; replaced by the printed text"
+  },
+  {
+   "id": "048.0021",
+   "reason": "text not in the printed integral edition (Mon Journal t.6 p.103, tome06.docx ¶1576–1598 has other text here); provenance unknown, present since the first import; replaced by the printed text"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1875-10-24.md",
+   "date": "1875-10-24",
+   "heading": "Dimanche 24 octobre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0001"
+    },
+    {
+     "old": "048.0002"
+    },
+    {
+     "old": "048.0003"
+    },
+    {
+     "old": "048.0004"
+    },
+    {
+     "old": "048.0005"
+    },
+    {
+     "old": "048.0006"
+    },
+    {
+     "old": "048.0007"
+    },
+    {
+     "old": "048.0008"
+    },
+    {
+     "old": "048.0009"
+    },
+    {
+     "old": "048.0010"
+    },
+    {
+     "old": "048.0011"
+    },
+    {
+     "old": "048.0012"
+    },
+    {
+     "old": "048.0013"
+    },
+    {
+     "old": "048.0014"
+    },
+    {
+     "old": "048.0015"
+    },
+    {
+     "old": "048.0016",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "048.0017"
+    },
+    {
+     "old": "048.0018"
+    },
+    {
+     "old": "048.0019"
+    },
+    {
+     "new": {
+      "french": "Voyez ! fit-il, avec conviction.",
+      "rsr": "Restored from tome06.docx ¶1576, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me tiens comme un ange, ni rougeur, ni trouble, d’ailleurs il n’y a pas de quoi me vanter, ce n’est pas à mon caractère que je dois ce calme, car si j’étais émue ou troublée je ne saurais pas me contenir. Je me tenais donc bien parce que je n’éprouvais rien d’extraordinaire.",
+      "rsr": "Restored from tome06.docx ¶1577, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Bibi a toutes sortes de choses sur sa peau, ça me déplaît. Après quelques grimaces avec Giroflé, il se tourne vers nous. Je suis simple et aimable comme avec tous les autres. S’il a compté sur son effet cela doit le contrarier.",
+      "rsr": "Restored from tome06.docx ¶1578, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je tâche de ravoir mon portrait en employant une ruse conseillée par ma tante.",
+      "rsr": "Restored from tome06.docx ¶1579, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- J’ai reçu mes nouvelles photographies, et je vous en donnerai une très jolie, et vous me rendrez l’autre qui est laide, non, vrai, rendez-la moi, je ne veux pas que d’aussi vilaines photographies se répandent, je vous en donnerai une très jolie.",
+      "rsr": "Restored from tome06.docx ¶1580, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais pas du tout, répondit Monsieur de son air insolent, l’autre est très belle.",
+      "rsr": "Restored from tome06.docx ¶1581, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non, elle est laide.",
+      "rsr": "Restored from tome06.docx ¶1582, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Elle est très jolie, et si vous saviez comme elle est bien arrangée à présent !..",
+      "rsr": "Restored from tome06.docx ¶1583, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Bah !",
+      "rsr": "Restored from tome06.docx ¶1584, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Avec des petites machines, des plantes grimpantes.",
+      "rsr": "Restored from tome06.docx ¶1585, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je sais bien pourquoi vous ne la rendrez pas, c’est que vous ne l’avez plus.",
+      "rsr": "Restored from tome06.docx ¶1586, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Sur cela monsieur a bien l’honneur de nous saluer.",
+      "rsr": "Restored from tome06.docx ¶1587, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous désirions infiniment l’avoir ce soir chez nous, mais les mamans n’étaient pas là et puis le Surprenant nous a signifié son intention d’aller voir “La Tour de Nesle”.",
+      "rsr": "Restored from tome06.docx ¶1588, Mon Journal t.6 p.103 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je crois qu’il juge inutile de faire une visite, comme la dernière fois, lorsque nous sommes revenues de Florence, il est tout simplement venu le soir.",
+      "rsr": "Restored from tome06.docx ¶1589, Mon Journal t.6 p.104 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Que le diable l’emporte ! Si vous saviez combien je suis heureuse d’être indifférente. Je me suis tenue, je le répète comme un ange, tout comme si rien n’était, comme si ce n’était pas le Surprenant mais Godard ou Fiouloulou ou n’importe qui.",
+      "rsr": "Restored from tome06.docx ¶1590, Mon Journal t.6 p.104 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Après dîner moi et Giroflé enveloppées d’un seul manteau sortons doucement et allons sonner chez Gioia et chez Wittgenstein, puis traversons la rue et nous promenons tranquillement.",
+      "rsr": "Restored from tome06.docx ¶1591, Mon Journal t.6 p.104 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A la porte nous rencontrons Dina et Marie habillées, Dina en cocher de place, Marie en jockey, en gamin, en je ne sais quoi.",
+      "rsr": "Restored from tome06.docx ¶1592, Mon Journal t.6 p.104 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Animées d’une noble ardeur nous montons et nous travestissons comme elles, et ainsi arrangées entrons dans la salle à manger où sont Bihovetz, Ricardo, Nina, Coco, Daniloff et les gens de la maison.",
+      "rsr": "Restored from tome06.docx ¶1593, Mon Journal t.6 p.104 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais nous étions convenus d’autre chose aussi après cinq minutes nous sortons et, marchant au milieu de la Promenade les bras entrelacés, chantant le chœur des conspirateurs qui est la chanson presque nationale des Niçois et cela avec des voix impossibles. On s’enhardit peu à peu, on va sur la Promenade même, mais là deux messieurs se doutent de notre qualité véritable et se mettent à siffler et nous regardent. La peur me prit, heureusement le chapeau enfoncé sur les yeux ne laissait pas voir ma figure. Et vite nous rentrons, mais par la ruelle et la rue de France pour dépister nos deux hommes. Moi et Giroflé arrivons sans accident, mais Dina roule dans la poussière et Marie par-dessus Dina.",
+      "rsr": "Restored from tome06.docx ¶1594, Mon Journal t.6 p.104 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le landau est à la porte, nous montons et allons nous promener devant le café de la Victoire et le Théâtre Français. C’est juste l’entracte, on nous regarde beaucoup, mais plus à cause du landau que pour autre chose.",
+      "rsr": "Restored from tome06.docx ¶1595, Mon Journal t.6 p.104 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin il commençait à être dix heures et demie, nous sommes rentrées. Tous nos visiteurs sont encore là, on me fait chanter des chansons de Thérésa. Ricardo se montre enchanté.",
+      "rsr": "Restored from tome06.docx ¶1596, Mon Journal t.6 p.104 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous rions comme des fous, l’habit de garçon nous permet d’être tout à fait gamin. Et puis Ricardo et Bihovetz sont tout à fait comme il faut et on est sûr avec eux.",
+      "rsr": "Restored from tome06.docx ¶1597, Mon Journal t.6 p.104 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "048.0022",
+     "set_french": "Après le chant vient la danse, sans musique. Entraîné par l’exemple tout le monde se lève même la Daniloff, même Bihovetz, Walitsky, Barnola, Nina, tous, tous comme dans “Giroflé-Girofla\"; on est essoufflé et on ne peut pas s’arrêter. Barnola tout en sautillant met un chapeau de femme et fait la timide derrière un rideau, avec sa face brune et barbue !"
+    },
+    {
+     "old": "048.0023"
+    },
+    {
+     "old": "048.0024"
+    }
+   ]
+  },
+  {
+   "file": "1875-10-25.md",
+   "date": "1875-10-25",
+   "heading": "Lundi 25 octobre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0025"
+    },
+    {
+     "old": "048.0026"
+    },
+    {
+     "old": "048.0027"
+    },
+    {
+     "old": "048.0028"
+    },
+    {
+     "old": "048.0029"
+    },
+    {
+     "old": "048.0030"
+    },
+    {
+     "old": "048.0031"
+    },
+    {
+     "old": "048.0032"
+    },
+    {
+     "old": "048.0033"
+    },
+    {
+     "old": "048.0034"
+    }
+   ]
+  },
+  {
+   "file": "1875-10-26.md",
+   "date": "1875-10-26",
+   "heading": "Mardi 26 octobre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0035"
+    },
+    {
+     "old": "048.0036"
+    },
+    {
+     "old": "048.0037"
+    },
+    {
+     "old": "048.0038"
+    },
+    {
+     "old": "048.0039"
+    },
+    {
+     "old": "048.0040"
+    },
+    {
+     "old": "048.0041"
+    },
+    {
+     "old": "048.0042"
+    },
+    {
+     "old": "048.0043"
+    },
+    {
+     "old": "048.0044"
+    },
+    {
+     "old": "048.0045"
+    },
+    {
+     "old": "048.0046"
+    },
+    {
+     "old": "048.0047"
+    },
+    {
+     "old": "048.0048"
+    },
+    {
+     "old": "048.0049"
+    },
+    {
+     "old": "048.0050"
+    },
+    {
+     "old": "048.0051"
+    },
+    {
+     "old": "048.0052"
+    },
+    {
+     "old": "048.0053"
+    },
+    {
+     "old": "048.0054"
+    },
+    {
+     "old": "048.0055"
+    },
+    {
+     "old": "048.0056"
+    },
+    {
+     "old": "048.0057"
+    },
+    {
+     "old": "048.0058"
+    },
+    {
+     "old": "048.0059"
+    },
+    {
+     "old": "048.0060"
+    },
+    {
+     "old": "048.0061"
+    },
+    {
+     "old": "048.0062"
+    },
+    {
+     "old": "048.0063"
+    },
+    {
+     "old": "048.0064"
+    },
+    {
+     "old": "048.0065"
+    },
+    {
+     "old": "048.0066"
+    },
+    {
+     "old": "048.0067"
+    },
+    {
+     "old": "048.0068"
+    },
+    {
+     "old": "048.0069"
+    },
+    {
+     "old": "048.0070"
+    },
+    {
+     "old": "048.0071"
+    },
+    {
+     "old": "048.0072"
+    },
+    {
+     "old": "048.0073"
+    },
+    {
+     "old": "048.0074"
+    },
+    {
+     "old": "048.0075"
+    },
+    {
+     "old": "048.0076"
+    },
+    {
+     "old": "048.0077"
+    },
+    {
+     "old": "048.0078"
+    },
+    {
+     "old": "048.0079"
+    },
+    {
+     "old": "048.0080"
+    },
+    {
+     "old": "048.0081"
+    },
+    {
+     "old": "048.0082"
+    },
+    {
+     "old": "048.0083"
+    },
+    {
+     "old": "048.0084"
+    },
+    {
+     "old": "048.0085"
+    },
+    {
+     "old": "048.0086"
+    },
+    {
+     "old": "048.0087"
+    },
+    {
+     "old": "048.0088"
+    },
+    {
+     "old": "048.0089"
+    },
+    {
+     "old": "048.0090"
+    },
+    {
+     "old": "048.0091"
+    },
+    {
+     "old": "048.0092"
+    }
+   ]
+  },
+  {
+   "file": "1875-10-27.md",
+   "date": "1875-10-27",
+   "heading": "Dimanche 27 octobre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0093"
+    },
+    {
+     "old": "048.0094"
+    },
+    {
+     "old": "048.0095"
+    },
+    {
+     "old": "048.0096"
+    },
+    {
+     "old": "048.0097"
+    },
+    {
+     "old": "048.0098"
+    },
+    {
+     "old": "048.0099"
+    },
+    {
+     "old": "048.0100"
+    },
+    {
+     "old": "048.0101"
+    },
+    {
+     "old": "048.0102"
+    },
+    {
+     "old": "048.0103"
+    },
+    {
+     "old": "048.0104"
+    },
+    {
+     "old": "048.0105"
+    },
+    {
+     "old": "048.0106"
+    },
+    {
+     "old": "048.0107"
+    },
+    {
+     "old": "048.0108"
+    },
+    {
+     "old": "048.0109"
+    },
+    {
+     "old": "048.0110"
+    }
+   ]
+  },
+  {
+   "file": "1875-10-28.md",
+   "date": "1875-10-28",
+   "heading": "Jeudi 28 octobre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0111"
+    },
+    {
+     "old": "048.0112"
+    },
+    {
+     "old": "048.0113"
+    },
+    {
+     "old": "048.0114"
+    },
+    {
+     "old": "048.0115"
+    },
+    {
+     "old": "048.0116",
+     "kind": "margin"
+    },
+    {
+     "old": "048.0117"
+    },
+    {
+     "old": "048.0118"
+    },
+    {
+     "old": "048.0119"
+    },
+    {
+     "old": "048.0120"
+    },
+    {
+     "old": "048.0121"
+    },
+    {
+     "old": "048.0122"
+    },
+    {
+     "old": "048.0123"
+    },
+    {
+     "old": "048.0124"
+    },
+    {
+     "old": "048.0125"
+    },
+    {
+     "old": "048.0126"
+    },
+    {
+     "old": "048.0127"
+    },
+    {
+     "old": "048.0128"
+    },
+    {
+     "old": "048.0129"
+    },
+    {
+     "old": "048.0130"
+    },
+    {
+     "old": "048.0131"
+    },
+    {
+     "old": "048.0132"
+    },
+    {
+     "old": "048.0133"
+    },
+    {
+     "old": "048.0134"
+    },
+    {
+     "old": "048.0135"
+    },
+    {
+     "old": "048.0136"
+    },
+    {
+     "old": "048.0137"
+    },
+    {
+     "old": "048.0138"
+    },
+    {
+     "old": "048.0139"
+    },
+    {
+     "old": "048.0140"
+    }
+   ]
+  },
+  {
+   "file": "1875-10-29.md",
+   "date": "1875-10-29",
+   "heading": "Vendredi 29 octobre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0141"
+    },
+    {
+     "old": "048.0142"
+    },
+    {
+     "old": "048.0143"
+    },
+    {
+     "old": "048.0144"
+    },
+    {
+     "old": "048.0145"
+    },
+    {
+     "old": "048.0146"
+    },
+    {
+     "old": "048.0147"
+    },
+    {
+     "old": "048.0148"
+    },
+    {
+     "old": "048.0149"
+    },
+    {
+     "old": "048.0150"
+    },
+    {
+     "old": "048.0151"
+    },
+    {
+     "old": "048.0152"
+    },
+    {
+     "old": "048.0153"
+    },
+    {
+     "old": "048.0154"
+    },
+    {
+     "old": "048.0155"
+    },
+    {
+     "old": "048.0156"
+    },
+    {
+     "old": "048.0157"
+    },
+    {
+     "old": "048.0158"
+    },
+    {
+     "old": "048.0159"
+    },
+    {
+     "old": "048.0160"
+    },
+    {
+     "old": "048.0161"
+    },
+    {
+     "old": "048.0162"
+    },
+    {
+     "old": "048.0163"
+    },
+    {
+     "old": "048.0164"
+    },
+    {
+     "old": "048.0165"
+    },
+    {
+     "old": "048.0166"
+    },
+    {
+     "old": "048.0167"
+    },
+    {
+     "old": "048.0168"
+    },
+    {
+     "old": "048.0169"
+    },
+    {
+     "old": "048.0170"
+    },
+    {
+     "old": "048.0171"
+    },
+    {
+     "old": "048.0172"
+    },
+    {
+     "old": "048.0173"
+    },
+    {
+     "old": "048.0174"
+    },
+    {
+     "old": "048.0175"
+    },
+    {
+     "old": "048.0176"
+    },
+    {
+     "old": "048.0177"
+    },
+    {
+     "old": "048.0178"
+    },
+    {
+     "old": "048.0179"
+    },
+    {
+     "old": "048.0180"
+    },
+    {
+     "old": "048.0181"
+    },
+    {
+     "old": "048.0182"
+    },
+    {
+     "old": "048.0183"
+    },
+    {
+     "old": "048.0184"
+    },
+    {
+     "old": "048.0185"
+    },
+    {
+     "old": "048.0186"
+    },
+    {
+     "old": "048.0187"
+    },
+    {
+     "old": "048.0188"
+    },
+    {
+     "old": "048.0189"
+    },
+    {
+     "old": "048.0190"
+    },
+    {
+     "old": "048.0191"
+    },
+    {
+     "old": "048.0192"
+    },
+    {
+     "old": "048.0193"
+    },
+    {
+     "old": "048.0194"
+    },
+    {
+     "old": "048.0195"
+    },
+    {
+     "old": "048.0196"
+    },
+    {
+     "old": "048.0197"
+    },
+    {
+     "old": "048.0198"
+    },
+    {
+     "old": "048.0199"
+    },
+    {
+     "old": "048.0200"
+    },
+    {
+     "old": "048.0201"
+    },
+    {
+     "old": "048.0202"
+    },
+    {
+     "old": "048.0203"
+    },
+    {
+     "old": "048.0204"
+    },
+    {
+     "old": "048.0205"
+    },
+    {
+     "old": "048.0206"
+    },
+    {
+     "old": "048.0207"
+    },
+    {
+     "old": "048.0208"
+    },
+    {
+     "old": "048.0209"
+    },
+    {
+     "old": "048.0210"
+    },
+    {
+     "old": "048.0211"
+    },
+    {
+     "old": "048.0212"
+    },
+    {
+     "old": "048.0213"
+    },
+    {
+     "old": "048.0214"
+    },
+    {
+     "old": "048.0215"
+    }
+   ]
+  },
+  {
+   "file": "1875-10-30.md",
+   "date": "1875-10-30",
+   "heading": "Samedi 30 octobre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0216"
+    },
+    {
+     "old": "048.0217"
+    },
+    {
+     "old": "048.0218"
+    },
+    {
+     "old": "048.0219"
+    },
+    {
+     "old": "048.0220"
+    },
+    {
+     "old": "048.0221"
+    },
+    {
+     "old": "048.0222"
+    },
+    {
+     "old": "048.0223"
+    },
+    {
+     "old": "048.0224"
+    },
+    {
+     "old": "048.0225"
+    },
+    {
+     "old": "048.0226"
+    },
+    {
+     "old": "048.0227"
+    },
+    {
+     "old": "048.0228"
+    },
+    {
+     "old": "048.0229"
+    },
+    {
+     "old": "048.0230"
+    },
+    {
+     "old": "048.0231"
+    },
+    {
+     "old": "048.0232"
+    },
+    {
+     "old": "048.0233"
+    },
+    {
+     "old": "048.0234"
+    },
+    {
+     "old": "048.0235"
+    },
+    {
+     "old": "048.0236"
+    },
+    {
+     "old": "048.0237"
+    },
+    {
+     "old": "048.0238"
+    },
+    {
+     "old": "048.0239"
+    },
+    {
+     "old": "048.0240"
+    },
+    {
+     "old": "048.0241"
+    },
+    {
+     "old": "048.0242"
+    },
+    {
+     "old": "048.0243"
+    },
+    {
+     "old": "048.0244"
+    },
+    {
+     "old": "048.0245"
+    },
+    {
+     "old": "048.0246"
+    }
+   ]
+  },
+  {
+   "file": "1875-10-31.md",
+   "date": "1875-10-31",
+   "paragraphs": [
+    {
+     "old": "048.0247"
+    },
+    {
+     "old": "048.0248"
+    },
+    {
+     "old": "048.0249"
+    },
+    {
+     "old": "048.0250"
+    },
+    {
+     "old": "048.0251"
+    },
+    {
+     "old": "048.0252"
+    },
+    {
+     "old": "048.0253"
+    },
+    {
+     "old": "048.0254"
+    },
+    {
+     "old": "048.0255"
+    },
+    {
+     "old": "048.0256"
+    },
+    {
+     "old": "048.0257"
+    },
+    {
+     "old": "048.0258"
+    },
+    {
+     "old": "048.0259"
+    },
+    {
+     "old": "048.0260"
+    },
+    {
+     "old": "048.0261"
+    },
+    {
+     "old": "048.0262"
+    },
+    {
+     "old": "048.0263"
+    },
+    {
+     "old": "048.0264"
+    },
+    {
+     "old": "048.0265"
+    },
+    {
+     "old": "048.0266"
+    },
+    {
+     "old": "048.0267"
+    },
+    {
+     "old": "048.0268"
+    },
+    {
+     "old": "048.0269"
+    },
+    {
+     "old": "048.0270"
+    },
+    {
+     "old": "048.0271"
+    },
+    {
+     "old": "048.0272"
+    },
+    {
+     "old": "048.0273"
+    },
+    {
+     "old": "048.0274"
+    },
+    {
+     "old": "048.0275"
+    },
+    {
+     "old": "048.0276"
+    },
+    {
+     "old": "048.0277"
+    },
+    {
+     "old": "048.0278"
+    },
+    {
+     "old": "048.0279"
+    },
+    {
+     "old": "048.0280"
+    },
+    {
+     "old": "048.0281"
+    },
+    {
+     "old": "048.0282"
+    },
+    {
+     "old": "048.0283"
+    },
+    {
+     "old": "048.0284"
+    },
+    {
+     "old": "048.0285"
+    },
+    {
+     "old": "048.0286"
+    },
+    {
+     "old": "048.0287"
+    },
+    {
+     "old": "048.0288"
+    },
+    {
+     "old": "048.0289"
+    },
+    {
+     "old": "048.0290"
+    },
+    {
+     "old": "048.0291"
+    },
+    {
+     "old": "048.0292"
+    },
+    {
+     "old": "048.0293"
+    },
+    {
+     "old": "048.0294"
+    },
+    {
+     "old": "048.0295"
+    },
+    {
+     "old": "048.0296"
+    },
+    {
+     "old": "048.0297"
+    },
+    {
+     "old": "048.0298"
+    },
+    {
+     "old": "048.0299"
+    },
+    {
+     "old": "048.0300"
+    },
+    {
+     "old": "048.0301"
+    },
+    {
+     "old": "048.0302"
+    },
+    {
+     "old": "048.0303"
+    },
+    {
+     "old": "048.0304"
+    },
+    {
+     "old": "048.0305"
+    },
+    {
+     "old": "048.0306"
+    },
+    {
+     "old": "048.0307"
+    },
+    {
+     "old": "048.0308"
+    },
+    {
+     "old": "048.0309"
+    },
+    {
+     "old": "048.0310"
+    },
+    {
+     "old": "048.0311"
+    },
+    {
+     "old": "048.0312"
+    },
+    {
+     "old": "048.0313"
+    },
+    {
+     "old": "048.0314"
+    },
+    {
+     "old": "048.0315"
+    },
+    {
+     "old": "048.0316"
+    },
+    {
+     "old": "048.0317"
+    },
+    {
+     "old": "048.0318"
+    },
+    {
+     "old": "048.0319"
+    },
+    {
+     "old": "048.0320"
+    },
+    {
+     "old": "048.0321"
+    },
+    {
+     "old": "048.0322"
+    },
+    {
+     "old": "048.0323"
+    },
+    {
+     "old": "048.0324"
+    },
+    {
+     "old": "048.0325"
+    },
+    {
+     "old": "048.0326"
+    },
+    {
+     "old": "048.0327"
+    },
+    {
+     "old": "048.0328"
+    },
+    {
+     "old": "048.0329"
+    },
+    {
+     "old": "048.0330"
+    },
+    {
+     "old": "048.0331"
+    },
+    {
+     "old": "048.0332"
+    },
+    {
+     "old": "048.0333"
+    },
+    {
+     "old": "048.0334"
+    },
+    {
+     "old": "048.0335"
+    },
+    {
+     "old": "048.0336"
+    },
+    {
+     "old": "048.0337"
+    },
+    {
+     "old": "048.0338"
+    },
+    {
+     "old": "048.0339"
+    },
+    {
+     "old": "048.0340"
+    },
+    {
+     "old": "048.0341"
+    },
+    {
+     "old": "048.0342"
+    },
+    {
+     "old": "048.0343"
+    },
+    {
+     "old": "048.0344"
+    },
+    {
+     "old": "048.0345"
+    },
+    {
+     "old": "048.0346"
+    },
+    {
+     "old": "048.0347"
+    }
+   ]
+  },
+  {
+   "file": "1875-11-01.md",
+   "date": "1875-11-01",
+   "heading": "Lundi 1er novembre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0348"
+    },
+    {
+     "old": "048.0349"
+    },
+    {
+     "old": "048.0350"
+    },
+    {
+     "old": "048.0351"
+    },
+    {
+     "old": "048.0352"
+    },
+    {
+     "old": "048.0353"
+    },
+    {
+     "old": "048.0354"
+    },
+    {
+     "old": "048.0355"
+    },
+    {
+     "old": "048.0356"
+    },
+    {
+     "old": "048.0357"
+    },
+    {
+     "old": "048.0358"
+    },
+    {
+     "old": "048.0359"
+    },
+    {
+     "old": "048.0360"
+    },
+    {
+     "old": "048.0361"
+    },
+    {
+     "old": "048.0362"
+    },
+    {
+     "old": "048.0363"
+    },
+    {
+     "old": "048.0364"
+    },
+    {
+     "old": "048.0365"
+    },
+    {
+     "old": "048.0366"
+    },
+    {
+     "old": "048.0367"
+    },
+    {
+     "old": "048.0368"
+    },
+    {
+     "old": "048.0369"
+    },
+    {
+     "old": "048.0370"
+    },
+    {
+     "old": "048.0371"
+    },
+    {
+     "old": "048.0372"
+    },
+    {
+     "old": "048.0373"
+    },
+    {
+     "old": "048.0374"
+    },
+    {
+     "old": "048.0375"
+    },
+    {
+     "old": "048.0376"
+    },
+    {
+     "old": "048.0377"
+    },
+    {
+     "old": "048.0378"
+    },
+    {
+     "old": "048.0379"
+    },
+    {
+     "old": "048.0380"
+    },
+    {
+     "old": "048.0381"
+    },
+    {
+     "old": "048.0382"
+    },
+    {
+     "old": "048.0383"
+    },
+    {
+     "old": "048.0384"
+    },
+    {
+     "old": "048.0385"
+    },
+    {
+     "old": "048.0386"
+    },
+    {
+     "old": "048.0387"
+    },
+    {
+     "old": "048.0388"
+    },
+    {
+     "old": "048.0389"
+    },
+    {
+     "old": "048.0390"
+    },
+    {
+     "old": "048.0391"
+    },
+    {
+     "old": "048.0392"
+    },
+    {
+     "old": "048.0393"
+    },
+    {
+     "old": "048.0394"
+    },
+    {
+     "old": "048.0395"
+    },
+    {
+     "old": "048.0396"
+    },
+    {
+     "old": "048.0397"
+    },
+    {
+     "old": "048.0398"
+    },
+    {
+     "old": "048.0399"
+    },
+    {
+     "old": "048.0400"
+    },
+    {
+     "old": "048.0401"
+    },
+    {
+     "old": "048.0402"
+    },
+    {
+     "old": "048.0403"
+    },
+    {
+     "old": "048.0404",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage",
+     "set_french": "[Quatre lignes cancellées: Voyons, quoi ? lui dis-je.\nVous savez bie, ce que je vous dema\nJe sais bien ce ]"
+    },
+    {
+     "old": "048.0405"
+    },
+    {
+     "old": "048.0406"
+    },
+    {
+     "old": "048.0407"
+    },
+    {
+     "old": "048.0408"
+    },
+    {
+     "old": "048.0409"
+    },
+    {
+     "old": "048.0410"
+    },
+    {
+     "old": "048.0411"
+    },
+    {
+     "old": "048.0412"
+    },
+    {
+     "old": "048.0413"
+    },
+    {
+     "old": "048.0414"
+    },
+    {
+     "old": "048.0415"
+    },
+    {
+     "old": "048.0416"
+    },
+    {
+     "old": "048.0417"
+    },
+    {
+     "old": "048.0418"
+    },
+    {
+     "old": "048.0419"
+    }
+   ]
+  },
+  {
+   "file": "1875-11-02.md",
+   "date": "1875-11-02",
+   "heading": "Mardi 2 novembre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0420"
+    },
+    {
+     "old": "048.0421"
+    },
+    {
+     "old": "048.0422"
+    },
+    {
+     "old": "048.0423"
+    },
+    {
+     "old": "048.0424"
+    },
+    {
+     "old": "048.0425"
+    },
+    {
+     "old": "048.0426"
+    },
+    {
+     "old": "048.0427"
+    },
+    {
+     "old": "048.0428"
+    },
+    {
+     "old": "048.0429"
+    },
+    {
+     "old": "048.0430"
+    },
+    {
+     "old": "048.0431"
+    },
+    {
+     "old": "048.0432"
+    },
+    {
+     "old": "048.0433"
+    },
+    {
+     "old": "048.0434"
+    },
+    {
+     "old": "048.0435"
+    },
+    {
+     "old": "048.0436"
+    },
+    {
+     "old": "048.0437"
+    },
+    {
+     "old": "048.0438"
+    },
+    {
+     "old": "048.0439"
+    },
+    {
+     "old": "048.0440"
+    },
+    {
+     "old": "048.0441"
+    },
+    {
+     "old": "048.0442"
+    },
+    {
+     "old": "048.0443"
+    },
+    {
+     "old": "048.0444"
+    },
+    {
+     "old": "048.0445"
+    },
+    {
+     "old": "048.0446"
+    },
+    {
+     "old": "048.0447"
+    },
+    {
+     "old": "048.0448"
+    },
+    {
+     "old": "048.0449"
+    },
+    {
+     "old": "048.0450"
+    },
+    {
+     "old": "048.0451"
+    },
+    {
+     "old": "048.0452"
+    },
+    {
+     "old": "048.0453"
+    },
+    {
+     "old": "048.0454"
+    },
+    {
+     "old": "048.0455"
+    },
+    {
+     "old": "048.0456"
+    },
+    {
+     "old": "048.0457"
+    },
+    {
+     "old": "048.0458"
+    },
+    {
+     "old": "048.0459"
+    }
+   ]
+  },
+  {
+   "file": "1875-11-03.md",
+   "date": "1875-11-03",
+   "heading": "Mercredi 3 novembre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0460"
+    },
+    {
+     "old": "048.0461"
+    },
+    {
+     "old": "048.0462"
+    },
+    {
+     "old": "048.0463"
+    },
+    {
+     "old": "048.0464"
+    },
+    {
+     "old": "048.0465"
+    },
+    {
+     "old": "048.0466"
+    },
+    {
+     "old": "048.0467"
+    },
+    {
+     "old": "048.0468"
+    },
+    {
+     "old": "048.0469"
+    },
+    {
+     "old": "048.0470"
+    },
+    {
+     "old": "048.0471"
+    },
+    {
+     "old": "048.0472"
+    },
+    {
+     "old": "048.0473"
+    },
+    {
+     "old": "048.0474"
+    },
+    {
+     "old": "048.0475"
+    },
+    {
+     "old": "048.0476"
+    },
+    {
+     "old": "048.0477"
+    },
+    {
+     "old": "048.0478"
+    },
+    {
+     "old": "048.0479"
+    },
+    {
+     "old": "048.0480"
+    },
+    {
+     "old": "048.0481"
+    }
+   ]
+  },
+  {
+   "file": "1875-11-04.md",
+   "date": "1875-11-04",
+   "heading": "Jeudi 4 novembre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0482"
+    },
+    {
+     "old": "048.0483"
+    },
+    {
+     "old": "048.0484"
+    },
+    {
+     "old": "048.0485"
+    },
+    {
+     "old": "048.0486"
+    },
+    {
+     "old": "048.0487"
+    },
+    {
+     "old": "048.0488"
+    },
+    {
+     "old": "048.0489"
+    },
+    {
+     "old": "048.0490"
+    },
+    {
+     "old": "048.0491"
+    },
+    {
+     "old": "048.0492"
+    },
+    {
+     "old": "048.0493"
+    },
+    {
+     "old": "048.0494"
+    },
+    {
+     "old": "048.0495"
+    },
+    {
+     "old": "048.0496"
+    },
+    {
+     "old": "048.0497"
+    },
+    {
+     "old": "048.0498"
+    },
+    {
+     "old": "048.0499"
+    },
+    {
+     "old": "048.0500"
+    },
+    {
+     "old": "048.0501"
+    },
+    {
+     "old": "048.0502"
+    },
+    {
+     "old": "048.0503"
+    },
+    {
+     "old": "048.0504"
+    },
+    {
+     "old": "048.0505"
+    },
+    {
+     "old": "048.0506"
+    },
+    {
+     "old": "048.0507"
+    },
+    {
+     "old": "048.0508"
+    },
+    {
+     "old": "048.0509"
+    },
+    {
+     "old": "048.0510"
+    },
+    {
+     "old": "048.0511"
+    },
+    {
+     "old": "048.0512"
+    },
+    {
+     "old": "048.0513"
+    },
+    {
+     "old": "048.0514"
+    },
+    {
+     "old": "048.0515"
+    },
+    {
+     "old": "048.0516"
+    },
+    {
+     "old": "048.0517"
+    },
+    {
+     "old": "048.0518"
+    },
+    {
+     "old": "048.0519"
+    },
+    {
+     "new": {
+      "french": "Olga m’a tendrement embrassée en me quittant, preuve qu’elle se croit *heureuse.* Ce soir il m’est impossible de me fâcher, je suis glacée. Peu m’importe tout le monde.",
+      "rsr": "Restored from tome06.docx ¶2115, Mon Journal t.6 p.134 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Qu’elle est la pensée d’Audiffret ? Il pense peut-être que je l’aime. Bah ! ce serait drôle.",
+      "rsr": "Restored from tome06.docx ¶2116, Mon Journal t.6 p.134 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il est bien tard, je veille pour parler de saligauds ! Il faut remplir cette dernière page. Et je m’arrête pour la centième fois.",
+      "rsr": "Restored from tome06.docx ¶2117, Mon Journal t.6 p.134 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce soir au théâtre *c'était tout naturel.* Lui en bas, moi en haut, nous nous regardions de temps en temps comme des étrangers.",
+      "rsr": "Restored from tome06.docx ¶2118, Mon Journal t.6 p.134 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis reconnaissante à Dieu de m’avoir calmée. Je ne rougis plus depuis longtemps, je suis à mon aise.",
+      "rsr": "Restored from tome06.docx ¶2119, Mon Journal t.6 p.134 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et pourtant ! Comme se serait bien si Audiffret voulait être Bibi. Comme je me relèverais aux yeux de la maison, comme je prouverais que les Sapogenikoff ne peuvent pas se mesurer avec moi.",
+      "rsr": "Restored from tome06.docx ¶2120, Mon Journal t.6 p.134 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Sur l’original de la BNF [FNA 12 331] les pages correspondantes (p. 237 et suivantes) manquent.",
+      "rsr": "Restored from tome06.docx ¶2121, Mon Journal t.6 p.134 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "editorial"
+     }
+    }
+   ]
+  },
+  {
+   "file": "1875-11-05.md",
+   "date": "1875-11-05",
+   "heading": "Vendredi 5 novembre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0520"
+    },
+    {
+     "old": "048.0521"
+    },
+    {
+     "old": "048.0522"
+    },
+    {
+     "old": "048.0523"
+    },
+    {
+     "old": "048.0524"
+    },
+    {
+     "old": "048.0525"
+    },
+    {
+     "old": "048.0526"
+    },
+    {
+     "old": "048.0527"
+    },
+    {
+     "old": "048.0528"
+    },
+    {
+     "old": "048.0529"
+    },
+    {
+     "old": "048.0530"
+    },
+    {
+     "old": "048.0531"
+    },
+    {
+     "old": "048.0532",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "048.0533"
+    },
+    {
+     "old": "048.0534"
+    },
+    {
+     "old": "048.0535"
+    },
+    {
+     "old": "048.0536"
+    },
+    {
+     "old": "048.0537"
+    },
+    {
+     "old": "048.0538"
+    },
+    {
+     "old": "048.0539"
+    },
+    {
+     "old": "048.0540"
+    },
+    {
+     "old": "048.0541"
+    },
+    {
+     "old": "048.0542"
+    },
+    {
+     "old": "048.0543"
+    },
+    {
+     "old": "048.0544",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "048.0545"
+    },
+    {
+     "old": "048.0546"
+    },
+    {
+     "old": "048.0547"
+    },
+    {
+     "old": "048.0548"
+    },
+    {
+     "old": "048.0549"
+    },
+    {
+     "old": "048.0550"
+    },
+    {
+     "old": "048.0551"
+    },
+    {
+     "old": "048.0552"
+    },
+    {
+     "old": "048.0553"
+    },
+    {
+     "old": "048.0554"
+    },
+    {
+     "old": "048.0555"
+    },
+    {
+     "old": "048.0556"
+    },
+    {
+     "old": "048.0557"
+    },
+    {
+     "old": "048.0558"
+    },
+    {
+     "old": "048.0559"
+    },
+    {
+     "old": "048.0560"
+    },
+    {
+     "old": "048.0561"
+    },
+    {
+     "old": "048.0562"
+    },
+    {
+     "old": "048.0563"
+    },
+    {
+     "old": "048.0564"
+    },
+    {
+     "old": "048.0565"
+    },
+    {
+     "old": "048.0566"
+    },
+    {
+     "old": "048.0567"
+    },
+    {
+     "old": "048.0568"
+    },
+    {
+     "old": "048.0569"
+    },
+    {
+     "old": "048.0570"
+    },
+    {
+     "old": "048.0571"
+    },
+    {
+     "old": "048.0572"
+    },
+    {
+     "old": "048.0573"
+    },
+    {
+     "old": "048.0574"
+    },
+    {
+     "old": "048.0575"
+    },
+    {
+     "old": "048.0576"
+    },
+    {
+     "old": "048.0577"
+    },
+    {
+     "old": "048.0578"
+    },
+    {
+     "old": "048.0579"
+    },
+    {
+     "old": "048.0580"
+    },
+    {
+     "old": "048.0581"
+    },
+    {
+     "old": "048.0582"
+    },
+    {
+     "old": "048.0583"
+    },
+    {
+     "old": "048.0584"
+    },
+    {
+     "old": "048.0585"
+    },
+    {
+     "old": "048.0586"
+    },
+    {
+     "old": "048.0587"
+    },
+    {
+     "old": "048.0588"
+    },
+    {
+     "old": "048.0589"
+    },
+    {
+     "old": "048.0590"
+    },
+    {
+     "old": "048.0591"
+    },
+    {
+     "old": "048.0592"
+    }
+   ]
+  },
+  {
+   "file": "1875-11-06.md",
+   "date": "1875-11-06",
+   "heading": "Samedi 6 novembre 1875",
+   "paragraphs": [
+    {
+     "old": "048.0593"
+    },
+    {
+     "old": "048.0594"
+    },
+    {
+     "old": "048.0595"
+    },
+    {
+     "old": "048.0596"
+    },
+    {
+     "old": "048.0597"
+    },
+    {
+     "old": "048.0598"
+    },
+    {
+     "old": "048.0599"
+    },
+    {
+     "old": "048.0600"
+    },
+    {
+     "old": "048.0601"
+    },
+    {
+     "old": "048.0602"
+    },
+    {
+     "old": "048.0603"
+    },
+    {
+     "old": "048.0604"
+    },
+    {
+     "old": "048.0605"
+    },
+    {
+     "old": "048.0606"
+    },
+    {
+     "old": "048.0607"
+    },
+    {
+     "old": "048.0608"
+    },
+    {
+     "old": "048.0609"
+    },
+    {
+     "old": "048.0610"
+    },
+    {
+     "old": "048.0611"
+    },
+    {
+     "old": "048.0612"
+    },
+    {
+     "old": "048.0613"
+    },
+    {
+     "old": "048.0614"
+    },
+    {
+     "old": "048.0615"
+    },
+    {
+     "old": "048.0616"
+    },
+    {
+     "old": "048.0617"
+    },
+    {
+     "old": "048.0618"
+    },
+    {
+     "old": "048.0619"
+    },
+    {
+     "old": "048.0620"
+    },
+    {
+     "old": "048.0621"
+    },
+    {
+     "old": "048.0622"
+    },
+    {
+     "old": "048.0623"
+    },
+    {
+     "old": "048.0624"
+    }
+   ]
+  }
+ ],
+ "_fixed": "fix06.py 2026-09-28 (planner tome06/07); decisions in REVIEW-06.md"
+}
