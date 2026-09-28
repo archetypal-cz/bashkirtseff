@@ -917,7 +917,7 @@ When translating, refer to this document for established translations of recurri
 - Translation (Czech): ==Dubium, illusio, deceptio, oppressio== / ==Gloriae Cupiditate== (highlighted, footnoted)
 - Context: Marie's Latin motto closing carnet 070; "Doubt, illusion, deception, oppression / Through desire for glory"; bitter self-assessment of the Larderei affair
 - First appearance: 070 (1877-04-25); also appeared in 069 (1877-04-02) in same formula
-- Notes: Per foreign-passage convention: ==highlight== + Pozn. překl. footnote; same treatment as 069.0650–069.0651. Two-part motto split across two paragraphs as in original.
+- Notes: Per foreign-passage convention: ==highlight== + Pozn. překl. footnote; same treatment as 069.DROPPED-0650–069.DROPPED-0651. Two-part motto split across two paragraphs as in original.
 
 ### bonne aventure (omen-reading habit)
 - Translation (Czech): věštění
@@ -995,7 +995,7 @@ When translating, refer to this document for established translations of recurri
 
 ### mon empereur (Larderei's exclamation)
 - Translation (Czech): můj císaři (kept French in highlight, footnoted)
-- Context: Larderei's drunken/affectionate exclamation, used twice (paras 070.0069, 070.0071); mocking or ironically tender
+- Context: Larderei's drunken/affectionate exclamation, used twice (paras 070.0290, 070.0292); mocking or ironically tender
 - First appearance: 070 (1877-04-08)
 - Notes: Keep "mon empereur" in ==highlight== with footnote "Francouzsky: Můj císaři! — Lardereiovo podnapilé zvolání, jehož tón kolísá mezi výsměchem a náklonností."
 
@@ -1106,7 +1106,7 @@ When translating, refer to this document for established translations of recurri
 ### Colonia Agrippina (Latin, for Cologne)
 - Translation (Czech): ==Colonia Agrippina== (highlighted, footnoted)
 - Context: The original Roman name for Cologne (Köln); Marie uses the Latin name when passing through on the way to Paris
-- First appearance: 074 (1877-09-17, para 074.0372)
+- First appearance: 074 (1877-09-17, para 074.0373)
 - Notes: ==highlight== + footnote: "Pozn. překl.: Latinsky: Colonia Agrippina — původní římský název města Kolín nad Rýnem."
 
 ### "Odoacer" (literary/historical reference)
@@ -1135,7 +1135,7 @@ When translating, refer to this document for established translations of recurri
 
 ### assassination of Larderei (Le Figaro, September 1877)
 - Translation (Czech): [no fixed term — narrative event]
-- Context: Para 074.0416: Marie reads in Le Figaro that Alexandre de Larderei has been assassinated; she transcribes the notice. This is one of the most dramatic moments of carnet 074 — the romantic interest destroyed by real violence.
+- Context: Para 074.0418: Marie reads in Le Figaro that Alexandre de Larderei has been assassinated; she transcribes the notice. This is one of the most dramatic moments of carnet 074 — the romantic interest destroyed by real violence.
 - First appearance: 074 (1877-09-22)
 - Notes: Translate "assassiné" as "zavražděn" (murdered/assassinated); "zpráva o vraždě" for the news item; do not soften
 
