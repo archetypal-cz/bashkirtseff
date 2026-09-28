@@ -1,25 +1,27 @@
 ---
 id: FIOULOULOU
-name: Fiouloulou (Detriaz)
+name: Fiouloulou (Galula)
 aliases:
   - Fiouloulou (Detriaz)
   - Fiouloulou
   - Detriaz
+  - Galula
 type: Person
 category: people/mentioned
 research_status: Moderate
-last_updated: 2026-02-09
+last_updated: 2026-09-28
 ---
 
-# Fiouloulou (Detriaz)
+# Fiouloulou (Galula)
 
 ## Overview
 
-A young Niçois man, aspiring notary, whose real surname is Detriaz. Marie refers to him by the nickname "Fiouloulou" (sometimes spelled "Fioulouiou"). He is a persistent but unwanted suitor who becomes Audiffret's loyal follower.
+A young Niçois man, aspiring notary. Following Kernberger (2013, glossary: "Fiouloulou: nickname for Galula"; Galula = Dechiar Galula, notary's clerk in Nice and Audiffret's friend), this project identifies him as **Galula** — see [Galula](../recurring/GALULA.md) and [Galula Dechiar](GALULA_DECHIAR.md). Marie refers to him by the nickname "Fiouloulou" (sometimes spelled "Fioulouiou"). He is a persistent but unwanted suitor who becomes Audiffret's loyal follower.
 
 ## Identity
 
-- Full name includes surname **Detriaz** (revealed in carnet 045: "Fiouloulou-Detriaz")
+- **Our identification (following Kernberger 2013):** Fiouloulou = Galula (Dechiar Galula), the notary's clerk who is Audiffret's friend and follower. This fits Marie's "futur notaire" and his role at Audiffret's side.
+- **Our earlier reading (kept for the record):** in carnet 045 (1875-10-02) Marie writes "le futur notaire Fiouloulou-Detriaz", and this entry previously took **Detriaz** as his real surname and did not connect him to Galula. "Detriaz" and Kernberger's "Dechiar" are plausibly the same name in different spellings or readings, which would make the two identifications compatible. Not verified against the manuscript.
 - Dark-haired ("le noir Niçois")
 - Training to become a notary ("le futur notaire")
 - Marie earlier referred to him as "clerk" in English
@@ -52,3 +54,4 @@ By autumn 1875 (carnet 045), Fiouloulou occupies a specific social role:
 %% 2025-07-06T00:00:00 RSR: Created entry for Fiouloulou based on diary references %%
 %% 2026-02-09T19:20:00 RSR: Expanded with carnet 045 context. Real name Detriaz, aspiring notary, Audiffret's follower. %%
 %% 2026-02-09T21:15:00 RSR: Added carnet 046 references (Oct 4-12, 1875). %%
+%% 2026-09-28T10:00:00 RSR: Identification changed to Galula per Kernberger (2013, glossary), KRR decision 2026-09-28; the earlier Detriaz reading (Marie's own "Fiouloulou-Detriaz", 045) is kept in Identity. GALULA and GALULA_DECHIAR look like duplicate entries for the same person - merge candidate. %%
