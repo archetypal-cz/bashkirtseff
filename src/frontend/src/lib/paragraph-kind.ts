@@ -119,18 +119,42 @@ const LANGUAGE_NOTE_PATTERNS: RegExp[] = [
   /^(?:По-)?(\p{L}+) в оригіналі/u,
 ];
 
+/** The language phrase a note opens with, and its language ('en', 'it', …) */
+function matchLanguageNote(note: string): { phrase: string; lang: string } | null {
+  const text = note.replace(/<[^>]*>/g, '').replace(/^[\s*_]+|[\s*_]+$/g, '');
+  for (const pattern of LANGUAGE_NOTE_PATTERNS) {
+    const m = text.match(pattern);
+    if (!m) continue;
+    for (const [stem, code] of NOTE_LANGUAGE_STEMS) if (stem.test(m[1])) return { phrase: m[0], lang: code };
+  }
+  return null;
+}
+
 /**
  * The language a note says its passage is in ('en', 'it', …), or null when the
  * note says something else. `note` is plain text or rendered HTML.
  */
 export function noteLanguage(note: string): string | null {
-  const text = note.replace(/<[^>]*>/g, '').replace(/^[\s*_]+|[\s*_]+$/g, '');
-  for (const pattern of LANGUAGE_NOTE_PATTERNS) {
-    const m = text.match(pattern);
-    if (!m) continue;
-    for (const [stem, code] of NOTE_LANGUAGE_STEMS) if (stem.test(m[1])) return code;
-  }
-  return null;
+  return matchLanguageNote(note)?.lang ?? null;
+}
+
+/**
+ * What a language note says besides its language, for when a label names the
+ * language instead: '' when nothing (the note can go), the note without its
+ * language phrase ("Pozn. překl.: popis výzdoby kostela"), or the whole note
+ * when the phrase cannot be cut out cleanly (it spans markup). `note` is
+ * rendered HTML; null when it is not a language note.
+ */
+export function languageNoteRest(note: string): string | null {
+  const match = matchLanguageNote(note);
+  if (!match) return null;
+  const at = note.indexOf(match.phrase);
+  if (at < 0) return note;
+  const rest = note.slice(at + match.phrase.length).replace(/^[\s:.,;–—-]+/, '');
+  const restText = rest.replace(/<[^>]*>/g, '').replace(/[\s*_.,;:–—-]+/g, '');
+  if (!restText) return '';
+  const prefix = /^Pozn\. překl\.:/.test(match.phrase) ? 'Pozn. překl.: ' : '';
+  return note.slice(0, at) + prefix + rest;
 }
 
 /** Rendered inline notes (`^[…]`, left as literal text by the renderer), with any breaks before them */
@@ -147,11 +171,16 @@ export function inlineNoteLanguages(html: string): string[] {
 }
 
 /**
- * Remove a paragraph's language notes: inline `^[In English in the original.]`
- * and the refs of the footnotes in `footnoteIds`.
+ * Take the language out of a paragraph's language notes: an inline
+ * `^[In English in the original.]` that says nothing else goes, one that says
+ * more keeps the rest; the refs of the footnotes in `footnoteIds` go.
  */
 export function stripLanguageNotes(html: string, footnoteIds: Set<string>): string {
-  let out = html.replace(INLINE_NOTE_HTML, (whole, note) => (noteLanguage(note) ? '' : whole));
+  let out = html.replace(INLINE_NOTE_HTML, (whole, note) => {
+    const rest = languageNoteRest(note);
+    if (rest === null) return whole;
+    return rest ? whole.replace(note, rest) : '';
+  });
   for (const id of footnoteIds) {
     const escaped = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     out = out.replace(new RegExp(`<sup><a href="#fn-${escaped}"[^>]*>[^<]*</a></sup>`, 'g'), '');

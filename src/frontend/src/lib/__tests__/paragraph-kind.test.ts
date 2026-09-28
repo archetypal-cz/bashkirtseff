@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 
-import { kindRuns, noteLanguage, parseKindLine, stripQuoteMarkers, wrapKindHtml } from '../paragraph-kind';
+import { kindRuns, languageNoteRest, noteLanguage, parseKindLine, stripQuoteMarkers, wrapKindHtml } from '../paragraph-kind';
 import { normalizeDrawings, placeDrawings } from '../drawings';
 
 const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'bk-kind-'));
@@ -233,6 +233,21 @@ describe("a run's language in its label", () => {
     expect(noteLanguage('Pozn. překl.: *Miserere* – latinsky „Smiluj se“')).toBeNull();
   });
 
+  it('keeps what a language note says besides its language', () => {
+    expect(languageNoteRest('In English in the original.')).toBe('');
+    expect(languageNoteRest('Pozn. překl.: V originále anglicky.')).toBe('');
+    expect(languageNoteRest('<em>По-латині в оригіналі.</em>')).toBe('');
+    expect(languageNoteRest('Pozn. překl.: V originále anglicky: popis výzdoby kostela'))
+      .toBe('Pozn. překl.: popis výzdoby kostela');
+    expect(languageNoteRest('Pozn. překl.: V originále anglicky: „MARRIAGE OF THE DUKE“'))
+      .toBe('Pozn. překl.: „MARRIAGE OF THE DUKE“');
+    expect(languageNoteRest('В оригіналі англійською; текст статті скорочено.')).toBe('текст статті скорочено.');
+    // the phrase split by markup cannot be cut out: the note stays whole
+    const split = 'Pozn. překl.: V originále <em>anglicky</em>: popis';
+    expect(languageNoteRest(split)).toBe(split);
+    expect(languageNoteRest('Italian: in haste.')).toBeNull();
+  });
+
   const src = (i: number) => [
     `%% 902.00${i} %%`,
     '%% kind: clipping source="Galignani" %%',
@@ -247,11 +262,12 @@ describe("a run's language in its label", () => {
       `%% 902.00${i} %%`, '%% kind: clipping source="Galignani" %%', `%% > Paragraph ${i} of the article. %%`,
       `> ==Paragraph ${i} of the article.==`, '', '> ^[In English in the original.]',
     ].join('\n')).join('\n\n'));
-    // cz: every paragraph has a "V originále anglicky" footnote; one other note stays
+    // cz: every paragraph has a "V originále anglicky" footnote, 12 and 13 with a
+    // summary after it; one other note stays
     write('cz', '902', '1873-12-14', '', [11, 12, 13].map(i => [
       `%% 902.00${i} %%`, '%% kind: clipping source="Galignani" %%', `%% > Paragraph ${i} of the article. %%`,
       `> Odstavec ${i} článku.[^${i}]${i === 12 ? '[^99]' : ''}`, '',
-      `[^${i}]: Pozn. překl.: V originále anglicky: popis ${i}`,
+      `[^${i}]: Pozn. překl.: V originále anglicky${i === 11 ? '.' : `: popis ${i}`}`,
     ].join('\n')).join('\n\n') + '\n\n[^99]: Pozn. překl.: Galignani vycházel v Paříži.');
     // uk: only one paragraph has a note → it stays; the source tags name the language
     write('uk', '902', '1873-12-14', '', [11, 12, 13].map(i => [
@@ -280,13 +296,19 @@ describe("a run's language in its label", () => {
     }
   });
 
-  it('moves per-paragraph cz language footnotes into the label and drops them from the notes', () => {
+  it('moves per-paragraph cz language footnotes into the label, keeping their summaries', () => {
     const entry = getEntry('902', '1873-12-14', 'cz')!;
     expect(entry.paragraphs[0].kindRun!.labelText).toBe('Novinový výstřižek · Galignani · anglicky');
-    for (const p of entry.paragraphs) expect(p.kindBodyHtml).not.toMatch(/fn-1[123]"/);
+    // a note that only named the language goes
+    expect(entry.paragraphs[0].kindBodyHtml).not.toContain('fn-11"');
+    expect(entry.paragraphs[0].footnoteRefs).toBeUndefined();
+    // a note with a summary stays, without the language
+    expect(entry.paragraphs[1].kindBodyHtml).toContain('href="#fn-12"');
     expect(entry.paragraphs[1].kindBodyHtml).toContain('href="#fn-99"');
-    expect(entry.paragraphs[1].footnoteRefs).toEqual(['99']);
-    expect(entry.footnotes.map(f => f.id)).toEqual(['99']);
+    expect(entry.paragraphs[1].footnoteRefs).toEqual(['12', '99']);
+    expect(entry.footnotes.map(f => f.id)).toEqual(['12', '13', '99']);
+    expect(entry.footnotes[0].text).toBe('Pozn. překl.: popis 12');
+    expect(entry.footnotes[1].text).toBe('Pozn. překl.: popis 13');
   });
 
   it('takes the language from the source tags when the translation has none', () => {

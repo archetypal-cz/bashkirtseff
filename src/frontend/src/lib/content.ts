@@ -36,7 +36,7 @@ import { THEME_SUBCATEGORIES } from './glossary-categories';
 import { escapeHtml, renderOriginalHtml } from './original-html';
 import {
   findKind, inlineNoteLanguages, isQuotedKind, kindBodyHtml, kindKey, kindLabelInnerHtml, kindLabelText, kindRuns,
-  noteLanguage, parseKindLine, stripLanguageNotes, stripQuoteMarkers, wrapKindHtml, type ParagraphKind,
+  languageNoteRest, noteLanguage, parseKindLine, stripLanguageNotes, stripQuoteMarkers, wrapKindHtml, type ParagraphKind,
 } from './paragraph-kind';
 import { normalizeDrawings, type EntryDrawing } from './drawings';
 import { applyTypography, typographyLocaleFor } from './typography';
@@ -573,7 +573,9 @@ function applyKinds(
   for (const run of kindRuns(paragraphs)) {
     const { kind, kindSource } = run[0];
     if (!kind) continue;
-    const { lang, fromNotes, noteIds } = run.length > 1 ? runLanguage(run, footnotes, tagsOf) : { noteIds: new Set<string>() };
+    const { lang, fromNotes, noteIds, trimmedNotes } = run.length > 1
+      ? runLanguage(run, footnotes, tagsOf)
+      : { noteIds: new Set<string>(), trimmedNotes: new Map<string, string>() };
     // The body already has its typography (finishParagraphs); the label gets it here.
     const labelHtml = applyTypography(kindLabelInnerHtml(kind, kindSource, language, lang), typoLocale);
     for (const p of run) {
@@ -588,7 +590,9 @@ function applyKinds(
       p.html = wrapKindHtml(p.html, kind, kindSource, language, labelHtml);
     }
     for (let i = footnotes.length - 1; i >= 0; i--) {
-      if (noteIds.has(footnotes[i].id)) footnotes.splice(i, 1);
+      const fn = footnotes[i];
+      if (noteIds.has(fn.id)) footnotes.splice(i, 1);
+      else if (fromNotes && trimmedNotes.has(fn.id)) fn.text = trimmedNotes.get(fn.id)!;
     }
     if (run.length > 1) {
       run[0].kindRun = {
@@ -606,30 +610,41 @@ function applyKinds(
  * The one foreign language a run is written in, shown once in its label.
  * When the translation marks each paragraph with a language note (en
  * `^[In English in the original.]`, a cz/uk "V originále anglicky" footnote),
- * every paragraph must carry a note for the same language; the notes then go
- * (`noteIds` = footnotes to drop). Otherwise the notes stay and the language
- * tags of the source paragraphs decide (`tagsOf`; translations do not always
- * copy them): exactly one language besides French.
+ * every paragraph must carry a note for the same language; the notes then lose
+ * their language phrase, and those that said nothing else go (`noteIds` =
+ * footnotes to drop, `trimmedNotes` = what the others still say). Otherwise
+ * the notes stay and the language tags of the source paragraphs decide
+ * (`tagsOf`; translations do not always copy them): exactly one language
+ * besides French.
  */
 function runLanguage(
   run: Paragraph[], footnotes: Footnote[], tagsOf: (p: Paragraph) => string[],
-): { lang?: string; fromNotes?: boolean; noteIds: Set<string> } {
+): { lang?: string; fromNotes?: boolean; noteIds: Set<string>; trimmedNotes: Map<string, string> } {
   const noteText = new Map(footnotes.map(fn => [fn.id, fn.text]));
   const noteIds = new Set<string>();
+  const trimmedNotes = new Map<string, string>();
   const perParagraph = run.map(p => {
     const langs = inlineNoteLanguages(p.html);
     for (const id of p.footnoteRefs ?? []) {
-      const lang = noteLanguage(noteText.get(id) ?? '');
-      if (lang) { langs.push(lang); noteIds.add(id); }
+      const text = noteText.get(id) ?? '';
+      const lang = noteLanguage(text);
+      if (!lang) continue;
+      langs.push(lang);
+      const rest = languageNoteRest(text);
+      if (rest) trimmedNotes.set(id, rest);
+      else noteIds.add(id);
     }
     return new Set(langs);
   });
   const [first] = perParagraph[0];
-  if (first && perParagraph.every(langs => langs.size === 1 && langs.has(first))) return { lang: first, fromNotes: true, noteIds };
+  if (first && perParagraph.every(langs => langs.size === 1 && langs.has(first))) {
+    return { lang: first, fromNotes: true, noteIds, trimmedNotes };
+  }
   // By tag name ("English"): `languages` looks tags up by file id (ENGLISH),
   // which LANGUAGE_TAGS does not list, so it is always ['fr'].
   const tagged = new Set(run.flatMap(p => extractLanguagesFromTags(tagsOf(p))).filter(l => l !== 'fr'));
-  return tagged.size === 1 ? { lang: [...tagged][0], noteIds: new Set() } : { noteIds: new Set() };
+  const none = { noteIds: new Set<string>(), trimmedNotes: new Map<string, string>() };
+  return tagged.size === 1 ? { lang: [...tagged][0], ...none } : none;
 }
 
 /** A scaffold placeholder line: `TODO` (paragraph) or `# TODO` (day heading) */
