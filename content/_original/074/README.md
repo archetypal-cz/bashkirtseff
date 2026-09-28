@@ -35,4 +35,4 @@ Research phase complete (RSR). All 37 entries processed:
 - Location tracking: Paris (Aug 20-22, Sep 16-25), Schlangenbad (Aug 23-24, 29, 31, Sep 1-10), Wiesbaden (Aug 25-28, 30, Sep 2, 11-15)
 
 ### 2026-02-09T12:00:00
-Created from tome10.docx raw extraction. 37 entries, 444 paragraphs (074.0001–074.0444). OCR artifacts cleaned: broken hyphens joined, page numbers removed, spacing in dates fixed.
+Created from tome10.docx raw extraction. 37 entries, 444 paragraphs (074.0001–074.0446). OCR artifacts cleaned: broken hyphens joined, page numbers removed, spacing in dates fixed.

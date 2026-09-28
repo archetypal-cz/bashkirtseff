@@ -9,7 +9,7 @@ Carnet 071 of Marie Bashkirtseff's diary. Marie leaves Naples, spends 10 days in
 **Date range**: 1877-04-27 to 1877-06-10
 **Entry count**: 25
 **Location(s)**: Naples, Florence, Nice
-**Paragraph range**: 071.0770 - 071.1095
+**Paragraph range**: 071.0001-071.0624 (renumbered by the 2026-09-27 tome-10 rebuild)
 
 ## Status
 

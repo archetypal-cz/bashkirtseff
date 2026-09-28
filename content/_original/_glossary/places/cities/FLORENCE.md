@@ -51,12 +51,12 @@ Despite losing its political role, Florence remained Europe's unrivaled city for
 - **[Galleria dell'Accademia](https://en.wikipedia.org/wiki/Galleria_dell%27Accademia)**: Home to Michelangelo's *David*. Marie visits "alla galleria delle belli arti" (043.0160, with her characteristic Italian spelling error).
 - **Opificio delle Pietre Dure**: The Museum of Hard Stones, specializing in *pietra dura* mosaic work (043.0158)
 - **Churches**: [Santa Croce](https://en.wikipedia.org/wiki/Basilica_of_Santa_Croce,_Florence) with its tombs of illustrious men, [San Lorenzo](https://en.wikipedia.org/wiki/Basilica_of_San_Lorenzo,_Florence) with Michelangelo's Medici Chapels, the [Duomo](https://en.wikipedia.org/wiki/Florence_Cathedral), and the [Baptistery](https://en.wikipedia.org/wiki/Florence_Baptistery) with Ghiberti's doors (which Marie mistakenly attributes to Benvenuto Cellini, 043.0188)
-- **Working artists**: [Michele Gordigiani](https://en.wikipedia.org/wiki/Michele_Gordigiani) (1835-1909), the celebrated Florentine portrait painter who had painted Queen Victoria, the Prince of Wales, and King Vittorio Emanuele II, maintained his studio in Florence and encouraged Marie's art during her 1877 visit (071.0065).
+- **Working artists**: [Michele Gordigiani](https://en.wikipedia.org/wiki/Michele_Gordigiani) (1835-1909), the celebrated Florentine portrait painter who had painted Queen Victoria, the Prince of Wales, and King Vittorio Emanuele II, maintained his studio in Florence and encouraged Marie's art during her 1877 visit (071.0267).
 
 ### Key Venues and Promenades
 
-- **[Le Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine)** (*les Cascines* in Marie's French, or *les Cachines* in her playful variant): Florence's great public park along the Arno, transformed from a Medici hunting estate into a fashionable promenade under Elisa Baciocchi, Napoleon's sister. Stendhal called it "la promenade ou tout le monde va se montrer." Marie frequents it obsessively during both visits -- comparing it to the Bois de Boulogne, noting it is "un paradis" (071.0018), observing the Larderei equipages, and being followed by admirers.
-- **[Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola)**: Florence's principal theater, built in 1656, the oldest surviving theater with tiered boxes in Italy. Its closure during the 1877-1878 mourning period for King Vittorio Emanuele II frustrates Marie's social ambitions: "C'est cette maudite Pergola qui est fermee" (071.0043). Marie spells it "la Pergola" and treats it as a social venue as much as a theatrical one.
+- **[Le Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine)** (*les Cascines* in Marie's French, or *les Cachines* in her playful variant): Florence's great public park along the Arno, transformed from a Medici hunting estate into a fashionable promenade under Elisa Baciocchi, Napoleon's sister. Stendhal called it "la promenade ou tout le monde va se montrer." Marie frequents it obsessively during both visits -- comparing it to the Bois de Boulogne, noting it is "un paradis" (071.0101), observing the Larderei equipages, and being followed by admirers.
+- **[Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola)**: Florence's principal theater, built in 1656, the oldest surviving theater with tiered boxes in Italy. Its closure during the 1877-1878 mourning period for King Vittorio Emanuele II frustrates Marie's social ambitions: "C'est cette maudite Pergola qui est fermee" (071.0156). Marie spells it "la Pergola" and treats it as a social venue as much as a theatrical one.
 - **Teatro Pagliano** (later Teatro Verdi): The more popular theater where Marie attends an opera performance of Auber's *L'Enfant prodigue* (043.0218) and, in 1877, a performance of Wagner's *Rienzi*.
 - **The Skating rink**: A fashionable social venue electrically lit -- advanced technology for 1877. Marie notes it alongside the Pergola as the places to be seen.
 - **Piazzale Michelangelo**: The panoramic terrace above the city, where Marie attends the 1875 centenary illuminations amid enormous crowds (043.0183).
@@ -93,15 +93,15 @@ Marie arrives from Naples around May 2, staying roughly ten days. This visit is 
 
 | Date | Para IDs | Content |
 |------|----------|---------|
-| May 2 | 071.0016-0030 | Arrives; encounters Larderei's mother at the Cascine; investigates family pedigree (Mirafiori, Salviati connections); Skating rink |
-| May 4 | 071.0031-0042 | Stalks la Righi (Larderei's mistress) and baby Alexandrine; Pergola closed for season; frustrated at lack of social venues to "se montrer" |
-| May 6 | 071.0043-0052 | Reveals real purpose: planned to kidnap Alexandrine, Larderei's illegitimate daughter; plan abandoned; Gordigiani visits and encourages her art; three men follow her at Cascine |
-| May 11 | 071.0053-0065 | Last day; stays up all night; farewell to Cascine; final sighting of Larderei family; Gordigiani validates her art; Cercle philharmonique concert; cries on the departing train |
-| May 13 | 071.0066-0101 | Returns to Nice; at Cascine before departure, confronts la Righi face to face; Marcuard delivers coded marriage proposal for Larderei at the train station |
+| May 2 | 071.0099-0030 | Arrives; encounters Larderei's mother at the Cascine; investigates family pedigree (Mirafiori, Salviati connections); Skating rink |
+| May 4 | 071.0138-0042 | Stalks la Righi (Larderei's mistress) and baby Alexandrine; Pergola closed for season; frustrated at lack of social venues to "se montrer" |
+| May 6 | 071.0156-0052 | Reveals real purpose: planned to kidnap Alexandrine, Larderei's illegitimate daughter; plan abandoned; Gordigiani visits and encourages her art; three men follow her at Cascine |
+| May 11 | 071.0255-0065 | Last day; stays up all night; farewell to Cascine; final sighting of Larderei family; Gordigiani validates her art; Cercle philharmonique concert; cries on the departing train |
+| May 13 | 071.0276-0101 | Returns to Nice; at Cascine before departure, confronts la Righi face to face; Marcuard delivers coded marriage proposal for Larderei at the train station |
 
-**Florence as Larderei territory**: During this visit, Florence is less an art capital than the Larderei family's domain. Marie drives past the Palazzo Larderei on Via Tornabuoni, observes la Righi at the Cascine, tracks the family's equipages (green livery, eight springs), and uses the skating rink and Cercle philharmonique as social stages. The Pergola's closure for mourning deprives her of the main venue to be seen: "j'aurais tant donne pour avoir un succes quelconque aux yeux de Larderei" (071.0043).
+**Florence as Larderei territory**: During this visit, Florence is less an art capital than the Larderei family's domain. Marie drives past the Palazzo Larderei on Via Tornabuoni, observes la Righi at the Cascine, tracks the family's equipages (green livery, eight springs), and uses the skating rink and Cercle philharmonique as social stages. The Pergola's closure for mourning deprives her of the main venue to be seen: "j'aurais tant donne pour avoir un succes quelconque aux yeux de Larderei" (071.0156).
 
-**Gordigiani's encouragement** (071.0065) is one of the few genuine artistic moments: the celebrated painter, who had painted Queen Victoria, examines Marie's sketches and "m'a encouragee, m'a promis un avenir artistique, a trouve beaucoup de bon dans mes esquisses." This validation from a recognized professional strengthens her resolve.
+**Gordigiani's encouragement** (071.0267) is one of the few genuine artistic moments: the celebrated painter, who had painted Queen Victoria, examines Marie's sketches and "m'a encouragee, m'a promis un avenir artistique, a trouve beaucoup de bon dans mes esquisses." This validation from a recognized professional strengthens her resolve.
 
 ### The 1878 "Visit" That Was Not
 
@@ -127,7 +127,7 @@ Marie's ironic appropriation of the Larderei family as "ma famille" persists lon
 ## People Associated with Florence in the Diary
 
 - **[Alessandro de Larderei](../../people/mentioned/LARDEREI.md)**: Marie's great obsession; Florentine count, resident at Palazzo de Larderel on Via Tornabuoni
-- **Michele Gordigiani** (1835-1909): Florentine portrait painter; painted Queen Victoria, Prince of Wales, Vittorio Emanuele II; encouraged Marie's art (071.0065, 072, 075, 078)
+- **Michele Gordigiani** (1835-1909): Florentine portrait painter; painted Queen Victoria, Prince of Wales, Vittorio Emanuele II; encouraged Marie's art (071.0267, 072, 075, 078)
 - **[Marcuard](../../people/mentioned/MARCUARD.md)**: Swiss friend resident in Florence; his letters provide social intelligence about Florentine society
 - **Mlle Tanska**: Young Polish sculptor (age 16) mentioned in Marcuard's Florence letter (078.0199)
 - **Prince Strozzi**, **Mme Needham**: Florentine society figures mentioned in Marcuard's correspondence
@@ -147,12 +147,12 @@ Marie's ironic appropriation of the Larderei family as "ma famille" persists lon
 - **Palazzo Panciatichi**: Visited September 14 (043.0144ff)
 
 ### Promenades and Social Venues
-- **[Le Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine)**: Marie's primary social stage in Florence (043.0123, 071.0018, 071.0046, 071.0060, 071.0066)
+- **[Le Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine)**: Marie's primary social stage in Florence (043.0123, 071.0101, 071.0159, 071.0262, 071.0276)
 - **[Piazzale Michelangelo](https://en.wikipedia.org/wiki/Piazzale_Michelangelo)**: Centenary illuminations (043.0183)
-- **[Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola)**: The social theater (071.0040, 077.0233, 078.0199)
+- **[Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola)**: The social theater (071.0147, 077.0233, 078.0199)
 - **Teatro Pagliano** (now [Teatro Verdi](https://en.wikipedia.org/wiki/Teatro_Verdi_(Florence))): Opera performances (043.0218)
-- **Skating rink**: Electrically lit social venue (071.0028)
-- **Cercle philharmonique**: Charity concert venue (071.0062)
+- **Skating rink**: Electrically lit social venue (071.0111)
+- **Cercle philharmonique**: Charity concert venue (071.0264)
 - **Villa Demidoff**: Russian estate Marie drives past (043.0126)
 
 ## Significance in Marie's Development

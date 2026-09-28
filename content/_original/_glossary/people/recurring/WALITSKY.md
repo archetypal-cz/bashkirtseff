@@ -112,7 +112,7 @@ This passage reveals:
 - Attended to [Maman](../family/MAMAN.md)'s real and imagined illnesses
 - General family physician during European travels
 - Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0158 %%, echoed in %% 102.0005 %%)
-- Correctly recommended Soden spa for Marie's throat: "Ce coquin de Walitsky est un habile homme, il s'entend a toutes les maladies" (%% 073.0220 %%)
+- Correctly recommended Soden spa for Marie's throat: "Ce coquin de Walitsky est un habile homme, il s'entend a toutes les maladies" (%% 073.0242 %%)
 - Treated external patients in Nice: "il a la tous ses malades, tous ses amis" (%% 077.0212 %%)
 - Served as witness to grandfather's will alongside Patton, Orgesko, Bihovetz, and Anitchkoff (%% 082.0132 %%)
 - Nursed grandfather during paralysis: "Walitsky le cher Walitsky court et soigne et grogne et console" (%% 076.0363 %%)
@@ -127,7 +127,7 @@ Walitsky was far more than a physician. He was a constant presence in family lif
 - **Household participant**: Joined roulette games, carnival outings, croquet matches, excursions
 - **Physical protector**: Slapped an Englishman at Monaco who insulted Paul: "Walitsky... lui donna des beaux coups dans la figure et partout" (%% 018.0087 %%)
 - **Verse-writer**: Composed humorous poems about the family's social circle at Spa, satirizing their suitors (%% 022.0105 %%: "Improvisation de Walitsky")
-- **Dog-fighter intervener**: Even timid in domestic crises -- "Walitsky n'osant intervenir" when the dogs fought (%% 071.0239 %%)
+- **Dog-fighter intervener**: Even timid in domestic crises -- "Walitsky n'osant intervenir" when the dogs fought (%% 071.0537 %%)
 - **Financial handler**: Managed practical matters the family disdained: "Walitsky pourvoira a tout. Je n'aime pas m'occuper de ces choses" (%% 020.0085 %%)
 
 %% GLO_WALITSKY.0019 %%
@@ -138,7 +138,7 @@ Walitsky was far more than a physician. He was a constant presence in family lif
 
 %% GLO_WALITSKY.0020 %%
 ### Object of Affectionate Mockery
-Mme Kondareff's famous quip captures his position in the all-female household: "un vrai serail avec Walitsky pour ennuque" ("a true harem with Walitsky for eunuch," %% 071.1010 %%). Marie and the household treated him as a beloved fixture -- the butt of pranks (she once hid a dead rat and eggs in his bed, %% 072.0153 %%) and the audience for domestic comedies ("Walitsky se pame" -- Walitsky swoons with laughter).
+Mme Kondareff's famous quip captures his position in the all-female household: "un vrai serail avec Walitsky pour ennuque" ("a true harem with Walitsky for eunuch," %% 071.0539 %%). Marie and the household treated him as a beloved fixture -- the butt of pranks (she once hid a dead rat and eggs in his bed, %% 072.0147 %%) and the audience for domestic comedies ("Walitsky se pame" -- Walitsky swoons with laughter).
 
 %% GLO_WALITSKY.0021 %%
 ## The Poisoning Scandal
@@ -279,7 +279,7 @@ Marie's tributes to Walitsky are among the most unambiguously warm passages in t
 - **"Homme admirable"** (admirable man, %% 000.0024 %%)
 - **"Second soi-meme"** (second self, %% 000.0024 %%)
 - **"Culte fraternel, admirable et saint"** (fraternal, admirable and holy devotion, %% 000.0023 %%)
-- **"Ce coquin de Walitsky est un habile homme"** (that rascal Walitsky is a skilled man, %% 073.0220 %%)
+- **"Ce coquin de Walitsky est un habile homme"** (that rascal Walitsky is a skilled man, %% 073.0242 %%)
 - **"Le cher Walitsky court et soigne et grogne et console"** (dear Walitsky runs and heals and grumbles and consoles, %% 076.0363 %%)
 - **"Un etre entierement inoffensif, entierement bon"** (a being entirely inoffensive, entirely good, %% 077.0179 %%)
 - **"Attache comme un chien"** (devoted like a dog, %% 077.0208 %%)
@@ -299,7 +299,7 @@ This stands in extraordinary contrast to her harsh judgments of almost everyone 
 - **1874 (summer)**: With family at Spa; wrote satirical verse about suitors (%% 022.0105 %%)
 - **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (%% 055.0290 %%)
 - **1876 (October)**: Accused (absurdly) of poisoning Romanoff (%% 066.0629 %%)
-- **1877 (summer)**: Recommended Soden spa for Marie's throat (%% 073.0220 %%)
+- **1877 (summer)**: Recommended Soden spa for Marie's throat (%% 073.0242 %%)
 - **1877 (December 9)**: Nursing paralyzed grandfather: "court et soigne et grogne et console" (%% 076.0363 %%)
 - **1877 (December 27)**: Critically ill with heart and respiratory failure (%% 077.0029 %%)
 - **1878 (January 11)**: Marie cannot bear to see him suffering (%% 077.0173 %%)
@@ -379,9 +379,9 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0055 %%
 ### Books 71-73 (Nice, Paris 1877)
-- %% 071.1010 %% (Jun 2): "Un vrai serail avec Walitsky pour ennuque"
-- %% 072.0153 %% (Jun 11): Marie hides dead rat and eggs in his bed
-- %% 073.0220 %% (Jul 30): "Ce coquin de Walitsky est un habile homme" -- medical advice on Soden
+- %% 071.0539 %% (Jun 2): "Un vrai serail avec Walitsky pour ennuque"
+- %% 072.0147 %% (Jun 11): Marie hides dead rat and eggs in his bed
+- %% 073.0242 %% (Jul 30): "Ce coquin de Walitsky est un habile homme" -- medical advice on Soden
 
 %% GLO_WALITSKY.0056 %%
 ### Books 76-77 (Paris, Death 1877-78)

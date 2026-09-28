@@ -1,0 +1,2851 @@
+{
+ "carnet": "069",
+ "source": "tome10.docx",
+ "_draft": "rebuild-draft-plan 2026-09-27: a draft — read REVIEW.md before using it",
+ "drop": [
+  {
+   "id": "069.0484",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "069.0496",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "069.0574",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "069.0603",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "069.0626",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "069.0439",
+   "reason": "duplicate of 069.0450 (extraction artefact): tome10.docx ¶571 «Avant de me coucher je fais d'abominables jeux de mots…» occurs once, under Jeudi 22 mars"
+  },
+  {
+   "id": "069.0650",
+   "reason": "title-page (cover) text; withdrawn by owner decision 2026-09-28 until the manuscript is available (text kept in content/_renumber/CCC/REVIEW.md)"
+  },
+  {
+   "id": "069.0651",
+   "reason": "title-page (cover) text; withdrawn by owner decision 2026-09-28 until the manuscript is available (text kept in content/_renumber/CCC/REVIEW.md)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1877-02-24.md",
+   "date": "1877-02-24",
+   "heading": "Samedi 24 février 1877",
+   "paragraphs": [
+    {
+     "old": "069.0001"
+    },
+    {
+     "old": "069.0002"
+    },
+    {
+     "old": "069.0003"
+    },
+    {
+     "old": "069.0004"
+    },
+    {
+     "old": "069.0005"
+    },
+    {
+     "old": "069.0006"
+    },
+    {
+     "old": "069.0007"
+    },
+    {
+     "old": "069.0008"
+    }
+   ]
+  },
+  {
+   "file": "1877-02-25.md",
+   "date": "1877-02-25",
+   "heading": "Dimanche 25 février 1877",
+   "paragraphs": [
+    {
+     "old": "069.0009"
+    },
+    {
+     "old": "069.0010"
+    },
+    {
+     "old": "069.0011"
+    },
+    {
+     "old": "069.0012"
+    },
+    {
+     "old": "069.0013"
+    },
+    {
+     "old": "069.0014"
+    },
+    {
+     "old": "069.0015"
+    },
+    {
+     "old": "069.0016"
+    },
+    {
+     "old": "069.0017"
+    },
+    {
+     "old": "069.0018"
+    },
+    {
+     "old": "069.0019"
+    },
+    {
+     "old": "069.0020",
+     "set_french": "Larderel ! Je ne sais si je l'aime, je sais que je suis triste et que je l'attends comme le Messie. Demain il y aura quinze jours, demain c'est sa fête, la saint Alexandre. Il n'est pas exact au rendez-vous."
+    },
+    {
+     "old": "069.0021"
+    },
+    {
+     "old": "069.0022"
+    },
+    {
+     "old": "069.0023",
+     "set_french": "Ah ! Larderel, s'il venait j'oublierais tout ! Je suis à ses pieds, tant parce qu'il me plaît que parce que je suis la plus malheureuse des créatures de Dieu et que celui qui me ramassera sera trop bon !"
+    },
+    {
+     "old": "069.0024",
+     "set_french": "Ah ! Larderel... je ne voulais pas le prendre au sérieux, la tragédie m'a fatiguée, mais je me suis habituée à lui."
+    },
+    {
+     "old": "069.0025"
+    },
+    {
+     "old": "069.0026"
+    },
+    {
+     "old": "069.0027"
+    },
+    {
+     "old": "069.0028"
+    }
+   ]
+  },
+  {
+   "file": "1877-02-26.md",
+   "date": "1877-02-26",
+   "heading": "Lundi 26 février 1877",
+   "paragraphs": [
+    {
+     "old": "069.0029",
+     "set_french": "# Lundi 26 février 1877\nComme Larderel continue à ne pas arriver, je continue mes rares excursions."
+    },
+    {
+     "old": "069.0030"
+    },
+    {
+     "old": "069.0031"
+    },
+    {
+     "old": "069.0032"
+    },
+    {
+     "old": "069.0033"
+    },
+    {
+     "old": "069.0034",
+     "kind": "rayé"
+    },
+    {
+     "old": "069.0035",
+     "kind": "margin"
+    },
+    {
+     "old": "069.0036"
+    },
+    {
+     "old": "069.0037"
+    },
+    {
+     "old": "069.0038"
+    },
+    {
+     "old": "069.0039"
+    },
+    {
+     "old": "069.0040"
+    },
+    {
+     "old": "069.0041"
+    },
+    {
+     "old": "069.0042"
+    },
+    {
+     "old": "069.0043"
+    },
+    {
+     "old": "069.0044",
+     "kind": "rayé"
+    },
+    {
+     "old": "069.0045"
+    },
+    {
+     "old": "069.0046",
+     "set_french": "Vous savez ? Les comtes Merjeewsky père et fils sont à Nice, le père a dit à ma tante qu'il venait exprès de la Russie pour marier son fils avec moi. Povero[^2] gente ! comme dit Larderel. Fi !"
+    },
+    {
+     "old": "069.0047",
+     "set_french": "Doenhoff est venu le soir. Je me sens plus libre d'esprit et deviens peu à peu raisonnable, seulement l'air insensé de Larderel m'affole. Je relis mon voyage à Florence et puis Dina nous (Doenhoff parti) représente Merisano, en pantalon, mon riding-hot[^3] en tête, les balais de la cheminée en guise de canne et la carte de visite d'Altamura roulée en cigare."
+    },
+    {
+     "old": "069.0048"
+    }
+   ]
+  },
+  {
+   "file": "1877-02-27.md",
+   "date": "1877-02-27",
+   "heading": "Mardi 27 février 1877",
+   "paragraphs": [
+    {
+     "old": "069.0049"
+    },
+    {
+     "old": "069.0050"
+    },
+    {
+     "old": "069.0051"
+    },
+    {
+     "old": "069.0052"
+    },
+    {
+     "old": "069.0053"
+    },
+    {
+     "old": "069.0054"
+    },
+    {
+     "old": "069.0055"
+    },
+    {
+     "old": "069.0056",
+     "set_french": "La belle Rosine, comtesse de Mirafiore, épouse du roi, veut dit-on plus que jamais être déclarée reine. C'est ça qui serait beau pour Larderel que j'adore ! Et puis quel tour joué à Marguerite ! Cette princesse sera la plus grande, la plus adorée, la plus chantée des reines. Aussi... je l'envie. Je voudrais être sa favorite. Non..."
+    },
+    {
+     "old": "069.0057",
+     "set_french": "Ah ! que j'aime Larderel, je vais m'endormir et y penser."
+    },
+    {
+     "old": "069.0058"
+    },
+    {
+     "old": "069.0059"
+    },
+    {
+     "old": "069.0060",
+     "set_french": "Allons nous endormir en songeant à Larderel qui m'a pris toutes mes pensées, que j'aime et qui ne vient pas..."
+    },
+    {
+     "old": "069.0061"
+    }
+   ]
+  },
+  {
+   "file": "1877-02-28.md",
+   "date": "1877-02-28",
+   "heading": "Mercredi 28 février 1877",
+   "paragraphs": [
+    {
+     "old": "069.0062"
+    },
+    {
+     "old": "069.0063"
+    },
+    {
+     "old": "069.0064"
+    },
+    {
+     "old": "069.0065"
+    },
+    {
+     "old": "069.0066",
+     "set_french": "Rosalie m'a dit quelque chose ce soir qu'elle brûlait du désir de raconter depuis longtemps : L'cocher[^2] [sic] l'a demandée à deux reprises si j'épouserais bien Larderel."
+    },
+    {
+     "old": "069.0067"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-01.md",
+   "date": "1877-03-01",
+   "heading": "Jeudi 1er mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0068"
+    },
+    {
+     "old": "069.0069"
+    },
+    {
+     "old": "069.0070"
+    },
+    {
+     "old": "069.0071",
+     "set_french": "Je commence à moins me vanter d'être amoureuse de Larderel et à m'inquiéter de cette absence si prolongée."
+    },
+    {
+     "old": "069.0072"
+    },
+    {
+     "old": "069.0073"
+    },
+    {
+     "old": "069.0074"
+    },
+    {
+     "old": "069.0075"
+    },
+    {
+     "old": "069.0076"
+    },
+    {
+     "old": "069.0077"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-02.md",
+   "date": "1877-03-02",
+   "heading": "Vendredi 2 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0078"
+    },
+    {
+     "old": "069.0079",
+     "set_french": "- Ecoutez, me dit Rosalie, j'aime beaucoup Larderel mais celui-ci a plus d'chic[^1] [sic]."
+    },
+    {
+     "old": "069.0080",
+     "set_french": "Je suis heureuse d'avoir sur la langue un autre nom que celui de Larderel qui commence à me rendre un peu vexée; *donc,* nous ne jurons que par Borghése."
+    },
+    {
+     "old": "069.0081"
+    },
+    {
+     "old": "069.0082"
+    },
+    {
+     "old": "069.0083"
+    },
+    {
+     "old": "069.0084"
+    },
+    {
+     "old": "069.0085"
+    },
+    {
+     "old": "069.0086"
+    },
+    {
+     "old": "069.0087"
+    },
+    {
+     "old": "069.0088"
+    },
+    {
+     "old": "069.0089"
+    },
+    {
+     "old": "069.0090"
+    },
+    {
+     "old": "069.0091"
+    },
+    {
+     "old": "069.0092"
+    },
+    {
+     "old": "069.0093"
+    },
+    {
+     "old": "069.0094"
+    },
+    {
+     "old": "069.0095"
+    },
+    {
+     "old": "069.0096"
+    },
+    {
+     "old": "069.0097"
+    },
+    {
+     "old": "069.0098",
+     "set_french": "Je blague de Larderel, de sa coquine, de sa fille. Je ne trouve du plaisir que dans la conversation de ma femme de chambre, elle ne veut pas croire que je sois amoureuse de Larderel bien que je ne fasse que le lui dire et c'est justement pour cela qu'elle plaint ce pauvre Larderel que - \"Mademoiselle a choisi pour son ridicule \"-"
+    },
+    {
+     "old": "069.0099"
+    },
+    {
+     "old": "069.0100",
+     "set_french": "Il va y avoir des courses de chars à Rome dans le cirque de Romulus, Pizzardi qui guide le mieux à Rome sera là avec ses beaux chevaux, semblable à Apollon... et Larderel qui aurait pu mieux, me parle de ce que je veux, mais elle lave les layettes de sa fille !"
+    },
+    {
+     "old": "069.0101"
+    },
+    {
+     "old": "069.0102"
+    },
+    {
+     "old": "069.0103"
+    },
+    {
+     "old": "069.0104"
+    },
+    {
+     "old": "069.0105",
+     "set_french": "Vous savez Larderel a des dents doublées d'or, ses dents s'étant usées à force de manger de l'argent[^3]. Ah bien ce défaut de bouche ne le gâte pas et toutes mes pensées sont à lui."
+    }
+   ]
+  },
+  {
+   "file": "1877-03-03.md",
+   "date": "1877-03-03",
+   "heading": "Samedi 3 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0106"
+    },
+    {
+     "old": "069.0107"
+    },
+    {
+     "old": "069.0108"
+    },
+    {
+     "old": "069.0109",
+     "set_french": "Larderel ne vient pas !"
+    },
+    {
+     "old": "069.0110"
+    },
+    {
+     "old": "069.0111"
+    },
+    {
+     "old": "069.0112"
+    },
+    {
+     "old": "069.0113"
+    },
+    {
+     "old": "069.0114"
+    },
+    {
+     "old": "069.0115"
+    },
+    {
+     "old": "069.0116"
+    },
+    {
+     "old": "069.0117"
+    },
+    {
+     "old": "069.0118"
+    },
+    {
+     "old": "069.0119"
+    },
+    {
+     "old": "069.0120",
+     "set_french": "L'air évaporé de Larderel me rend folle et ce que Rosalie m'a dit de l'air grave et lent de Borghése me transporte dans les murs sombres de la ville éternelle. C'est même à cause de Borghése que je suis allée à l'église."
+    },
+    {
+     "old": "069.0121"
+    },
+    {
+     "old": "069.0122"
+    },
+    {
+     "old": "069.0123"
+    },
+    {
+     "old": "069.0124"
+    },
+    {
+     "old": "069.0125"
+    },
+    {
+     "old": "069.0126"
+    },
+    {
+     "old": "069.0127"
+    },
+    {
+     "old": "069.0128"
+    },
+    {
+     "old": "069.0129"
+    },
+    {
+     "old": "069.0130"
+    },
+    {
+     "old": "069.0131"
+    },
+    {
+     "old": "069.0132"
+    },
+    {
+     "old": "069.0133"
+    },
+    {
+     "old": "069.0134"
+    },
+    {
+     "old": "069.0135"
+    },
+    {
+     "old": "069.0136"
+    },
+    {
+     "old": "069.0137"
+    },
+    {
+     "old": "069.0138"
+    },
+    {
+     "old": "069.0139"
+    },
+    {
+     "old": "069.0140"
+    },
+    {
+     "old": "069.0141"
+    },
+    {
+     "old": "069.0142"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-04.md",
+   "date": "1877-03-04",
+   "heading": "Dimanche 4 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0143"
+    },
+    {
+     "old": "069.0144"
+    },
+    {
+     "old": "069.0145"
+    },
+    {
+     "old": "069.0146",
+     "kind": "margin"
+    },
+    {
+     "old": "069.0147"
+    },
+    {
+     "old": "069.0148"
+    },
+    {
+     "old": "069.0149"
+    },
+    {
+     "old": "069.0150"
+    },
+    {
+     "old": "069.0151",
+     "kind": "rayé"
+    },
+    {
+     "old": "069.0152"
+    },
+    {
+     "old": "069.0153"
+    },
+    {
+     "old": "069.0154"
+    },
+    {
+     "old": "069.0155"
+    },
+    {
+     "old": "069.0156"
+    },
+    {
+     "old": "069.0157"
+    },
+    {
+     "old": "069.0158"
+    },
+    {
+     "old": "069.0159"
+    },
+    {
+     "old": "069.0160"
+    },
+    {
+     "old": "069.0161",
+     "set_french": "Pendant qu'on me désignait des personnages en mettant les noms et les commérages dessus j'ai vu un homme très ressemblant à Larderel mais plus beau, c'est-à-dire plus régulier. Je l'ai regardé beaucoup, il me semblait voir Larderel et j'étais contente de cette illusion. Je le répète comme l'année passée, depuis le duc de Hamilton je n'ai rien vu d'aussi séduisant que Larderel."
+    },
+    {
+     "old": "069.0162"
+    },
+    {
+     "old": "069.0163"
+    },
+    {
+     "old": "069.0164"
+    },
+    {
+     "old": "069.0165"
+    },
+    {
+     "old": "069.0166"
+    },
+    {
+     "old": "069.0167",
+     "set_french": "J'étais assez gaie, Nasimoff ne m'a dit que du bien de Larderel et l'homme du Skating m'ayant remis en mémoire ses traits charmants et cet air égaré et plaisant [Bas de page blanc ] je deviens tout à fait gaie et comme nous étions tous ensemble à la sortie, ayant Merisano et d'autres pour spectateurs, je m'approche de l'affiche et appelant Marie Fabbricatore :"
+    },
+    {
+     "old": "069.0168"
+    },
+    {
+     "old": "069.0169"
+    },
+    {
+     "old": "069.0170",
+     "set_french": "- Lisez plutôt l'affiche : in occasione dell'arrivo del conte Alexandro de Larderel appalto sospeso ![^2]"
+    },
+    {
+     "old": "069.0171"
+    },
+    {
+     "old": "069.0172"
+    },
+    {
+     "old": "069.0173"
+    },
+    {
+     "old": "069.0174"
+    },
+    {
+     "old": "069.0175"
+    },
+    {
+     "old": "069.0176"
+    },
+    {
+     "old": "069.0177"
+    },
+    {
+     "old": "069.0178"
+    },
+    {
+     "old": "069.0179"
+    },
+    {
+     "old": "069.0180"
+    },
+    {
+     "old": "069.0181"
+    },
+    {
+     "old": "069.0182",
+     "set_french": "En rentrant j'apprends que Borghése est couché depuis neuf [heures] du soir et je me couche aussi, avec des idées très saugrenues."
+    }
+   ]
+  },
+  {
+   "file": "1877-03-05.md",
+   "date": "1877-03-05",
+   "heading": "Lundi 5 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0183",
+     "set_french": "# Lundi 5 mars 1877\nTemps affreux, humeur triste. Larderel n'arrive pas et Borghése se cache !"
+    },
+    {
+     "old": "069.0184"
+    },
+    {
+     "old": "069.0185"
+    },
+    {
+     "old": "069.0186"
+    },
+    {
+     "old": "069.0187"
+    },
+    {
+     "old": "069.0188"
+    },
+    {
+     "old": "069.0189"
+    },
+    {
+     "old": "069.0190"
+    },
+    {
+     "old": "069.0191"
+    },
+    {
+     "old": "069.0192"
+    },
+    {
+     "old": "069.0193"
+    },
+    {
+     "old": "069.0194"
+    },
+    {
+     "old": "069.0195"
+    },
+    {
+     "old": "069.0196"
+    },
+    {
+     "old": "069.0197"
+    },
+    {
+     "old": "069.0198"
+    },
+    {
+     "old": "069.0199"
+    },
+    {
+     "old": "069.0200"
+    },
+    {
+     "old": "069.0201"
+    },
+    {
+     "old": "069.0202"
+    },
+    {
+     "old": "069.0203"
+    },
+    {
+     "old": "069.0204"
+    },
+    {
+     "old": "069.0205"
+    },
+    {
+     "old": "069.0206"
+    },
+    {
+     "old": "069.0207"
+    },
+    {
+     "old": "069.0208"
+    },
+    {
+     "old": "069.0209"
+    },
+    {
+     "old": "069.0210"
+    },
+    {
+     "old": "069.0211"
+    },
+    {
+     "old": "069.0212",
+     "set_french": "Ah ! Larderel."
+    },
+    {
+     "old": "069.0213"
+    },
+    {
+     "old": "069.0214"
+    },
+    {
+     "old": "069.0215"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-06.md",
+   "date": "1877-03-06",
+   "heading": "Mardi 6 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0216"
+    },
+    {
+     "old": "069.0217"
+    },
+    {
+     "old": "069.0218"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-07.md",
+   "date": "1877-03-07",
+   "heading": "Mercredi 7 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0219"
+    },
+    {
+     "old": "069.0220",
+     "set_french": "Avec une dame, c'est charmant, et Larderel qui aurait pu... s'encanaille avec Madame la Coquine[^1] et s'incline devant Monsieur le cocher."
+    },
+    {
+     "old": "069.0221"
+    },
+    {
+     "old": "069.0222"
+    },
+    {
+     "old": "069.0223"
+    },
+    {
+     "old": "069.0224"
+    },
+    {
+     "old": "069.0225",
+     "set_french": "Au parterre j'ai deviné don Giovanni Borghése, qu'on accusait d'être plus beau que Larderel."
+    },
+    {
+     "old": "069.0226"
+    },
+    {
+     "old": "069.0227"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-08.md",
+   "date": "1877-03-08",
+   "heading": "Jeudi 8 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0228"
+    },
+    {
+     "old": "069.0229"
+    },
+    {
+     "old": "069.0230"
+    },
+    {
+     "old": "069.0231"
+    },
+    {
+     "old": "069.0232"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-09.md",
+   "date": "1877-03-09",
+   "heading": "Vendredi 9 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0233",
+     "set_french": "# Vendredi 9 mars 1877\nJ'ai rêvé de Gaston de Larderel, de sa femme, et de Bijou. Après tant de pluie je me suis amusée à revoir les figures de la promenade, il y en a quelques unes qui s'occupent fort de moi. Je ne parle pas des badauds ordinaires qui regardent tout le monde."
+    },
+    {
+     "old": "069.0234"
+    },
+    {
+     "old": "069.0235",
+     "kind": "margin"
+    },
+    {
+     "old": "069.0236"
+    },
+    {
+     "old": "069.0237"
+    },
+    {
+     "old": "069.0238"
+    },
+    {
+     "old": "069.0239",
+     "set_french": "Ah ! si Larderel était ici... en attendant je fais de mon mieux, je patine avec le fils du marquis de Santasiglia qu'on me présente et qui est blond, taché de jaune et [Rayé : bête] jeune. Les courses des messieurs ont été surtout agréables parce que Massimo et d'autres nous ont indirectement et discrètement rendu des politesses flatteuses; le point du départ se trouvait devant nous et cette masse de pantalons nous ôtait la vue des bagnes, alors ces messieurs ? Massimo en tête, ont reculé le groupe et aussitôt que quelqu'un s'avançait, il le priait de reculer en faisant des gestes très expressifs et en nous désignant de l'œil et même de la voix avec un respect tout italien, tout comme si le spectacle n'était que pour nous, comme si il n'y avait pas d'autres dames auxquelles on obstruait la vue pour nous ou la faire plus belle."
+    },
+    {
+     "old": "069.0240"
+    },
+    {
+     "old": "069.0241"
+    },
+    {
+     "old": "069.0242",
+     "set_french": "Je suis contente de tout excepté de mon Larderel qui m'a oubliée. Monsieur le cocher avait dit qu'il ne reviendrait que dans un mois, tandis que Monsieur le comte avait dit dans dix jours. Et puis on ne sait pas encore ce qu'aura dit Madame la Coquine, on sait et Antonelli m'a dit, que Monsieur le comte n'était que le domestique de Monsieur le cocher et que lorsque Monsieur le comte disait :"
+    },
+    {
+     "old": "069.0243"
+    },
+    {
+     "old": "069.0244"
+    },
+    {
+     "old": "069.0245"
+    },
+    {
+     "old": "069.0246"
+    },
+    {
+     "old": "069.0247"
+    },
+    {
+     "old": "069.0248"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-10.md",
+   "date": "1877-03-10",
+   "heading": "Samedi 10 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0249",
+     "set_french": "# Samedi 10 mars 1877\nJ'étais à la chasse avec mon père et j'ai tué un pigeon, mais l'ayant tué je me suis aperçue qu'il n'était que blessé et que ce n'était pas un pigeon, bien qu'il en eût l'air, mais que c'était Larderel. Vous voyez d'ici mon trouble, j'ai appelé un médecin qui m'a promis la guérison, après quoi je suis allée jeter des morceaux de glace dans un chaudron d'eau bouillante. Voilà un rêve qui prouve que je me couche quand les honnêtes gens se lèvent."
+    },
+    {
+     "old": "069.0250"
+    },
+    {
+     "old": "069.0251"
+    },
+    {
+     "old": "069.0252"
+    },
+    {
+     "old": "069.0253"
+    },
+    {
+     "old": "069.0254",
+     "set_french": "Qui ne quittera jamais sa première passion, ce peut ne pas être Larderel, ce peut être un autre brun et dont la première passion est peut-être moi, c'est pourquoi je dois me méfier... Cela peut s'interpréter de plusieurs manières, les anciens oracles nous ont habitué à ces tricheries."
+    },
+    {
+     "old": "069.0255"
+    },
+    {
+     "old": "069.0256"
+    },
+    {
+     "old": "069.0257",
+     "kind": "margin"
+    },
+    {
+     "old": "069.0258"
+    },
+    {
+     "old": "069.0259"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-11.md",
+   "date": "1877-03-11",
+   "heading": "Dimanche 11 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0260"
+    },
+    {
+     "old": "069.0261"
+    },
+    {
+     "old": "069.0262"
+    },
+    {
+     "old": "069.0263"
+    },
+    {
+     "old": "069.0264"
+    },
+    {
+     "old": "069.0265"
+    },
+    {
+     "old": "069.0266"
+    },
+    {
+     "old": "069.0267"
+    },
+    {
+     "old": "069.0268",
+     "set_french": "Ô Larderel."
+    },
+    {
+     "old": "069.0269"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-12.md",
+   "date": "1877-03-12",
+   "heading": "Lundi 12 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0270"
+    },
+    {
+     "old": "069.0271"
+    },
+    {
+     "old": "069.0272"
+    },
+    {
+     "old": "069.0273"
+    },
+    {
+     "old": "069.0274"
+    },
+    {
+     "old": "069.0275"
+    },
+    {
+     "old": "069.0276"
+    },
+    {
+     "old": "069.0277"
+    },
+    {
+     "old": "069.0278",
+     "kind": "rayé"
+    },
+    {
+     "old": "069.0279",
+     "set_french": "Le nom de Larderel est tellement dans ma langue que c'est la première et la dernière partie de ma conversation avec Altamura, sans compter que j'en ai parlé... tout le temps."
+    },
+    {
+     "old": "069.0280"
+    },
+    {
+     "old": "069.0281"
+    },
+    {
+     "old": "069.0282"
+    },
+    {
+     "old": "069.0283"
+    },
+    {
+     "old": "069.0284"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-13.md",
+   "date": "1877-03-13",
+   "heading": "Mardi 13 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0285"
+    },
+    {
+     "old": "069.0286"
+    },
+    {
+     "old": "069.0287"
+    },
+    {
+     "old": "069.0288"
+    },
+    {
+     "old": "069.0289"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-14.md",
+   "date": "1877-03-14",
+   "heading": "Mercredi 14 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0290"
+    },
+    {
+     "old": "069.0291"
+    },
+    {
+     "old": "069.0292"
+    },
+    {
+     "old": "069.0293"
+    },
+    {
+     "old": "069.0294",
+     "set_french": "Ah ! oui ce pauvre garçon, ce Larderel de mon cœur, comme on le calomnie chez la comtesse Souhtclan (centre aristocratique russe et nid à cancans) on s'occupe de moi, riche héritière voyez-vous; donc après avoir raconté que j'avais acheté à l'hôtel Drouot[^1] un lit de soixante mille francs, on a dit que le comte de Larderel me suit depuis un an partout et qu'il n'est pas à Naples parce que la mère de la jeune fille qui l'a toujours regardé de travers a définitivement dit : non. Malgré l'amour de la demoiselle pour lui. Ah ! Bon Dieu, comme il dit, Bon Dieu."
+    },
+    {
+     "old": "069.0295",
+     "kind": "margin"
+    },
+    {
+     "old": "069.0296",
+     "set_french": "Au moins c'est une invention flatteuse. Rosalie aussi est persuadée que Madame ne le veut pas, et surtout la tante de Mademoiselle, et ça parce qu'un jour que j'avais trop causé de Monsieur le comte, j'ai trouvé bon de lui dire ce que ma tante écrivait, c'est-à-dire : \"Larderel est une saleté, je ne veux pas en entendre parler\". Chez d'autres ça aurait en effet une signification, mais je me moque si parfaitement de ce que disent les miens, et les miens sont si habitués de suivre ma fantaisie au sérieux et pour rire que tout cela est un jeu pour moi. C'est en se basant sur cette sévérité de Madame, que Rosalie a dit au cocher que jamais on n'y consentirait."
+    },
+    {
+     "old": "069.0297"
+    },
+    {
+     "old": "069.0298"
+    },
+    {
+     "old": "069.0299"
+    },
+    {
+     "old": "069.0300"
+    },
+    {
+     "old": "069.0301"
+    },
+    {
+     "old": "069.0302"
+    },
+    {
+     "old": "069.0303",
+     "set_french": "Tout ça est trop petit. Larderel avec sa Coquine, c'est mesquin. Je voudrais lui voir une Coquine avec deux femmes de chambre, une dame de compagnie, des valets, des chevaux, je voudrais lui voir perdre des centaines de mille, acheter des chevaux, donner, jeter, faire des extravagances, se rendre célèbre dans les grands cercles... Oh ! alors ! Oh !... alors..."
+    },
+    {
+     "old": "069.0304"
+    },
+    {
+     "old": "069.0305"
+    },
+    {
+     "old": "069.0306"
+    },
+    {
+     "old": "069.0307"
+    },
+    {
+     "old": "069.0308"
+    },
+    {
+     "old": "069.0309"
+    },
+    {
+     "old": "069.0310",
+     "kind": "rayé"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-15.md",
+   "date": "1877-03-15",
+   "heading": "Jeudi 15 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0311"
+    },
+    {
+     "old": "069.0312"
+    },
+    {
+     "old": "069.0313"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-16.md",
+   "date": "1877-03-16",
+   "heading": "Vendredi 16 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0314"
+    },
+    {
+     "old": "069.0315"
+    },
+    {
+     "old": "069.0316"
+    },
+    {
+     "old": "069.0317"
+    },
+    {
+     "old": "069.0318"
+    },
+    {
+     "old": "069.0319"
+    },
+    {
+     "old": "069.0320"
+    },
+    {
+     "old": "069.0321",
+     "set_french": "- Ma la giovane comtessa, nata de Larderel è conoscuta dalle signore di Napoli ?[^7]"
+    },
+    {
+     "old": "069.0322",
+     "set_french": "- Che comtessa ? Ah ! si, Larderel, sorella di quel Larderel, sapete cosa ho inteso di lui ?[^8]"
+    },
+    {
+     "old": "069.0323"
+    },
+    {
+     "old": "069.0324"
+    },
+    {
+     "old": "069.0325"
+    },
+    {
+     "old": "069.0326"
+    },
+    {
+     "old": "069.0327"
+    },
+    {
+     "old": "069.0328"
+    },
+    {
+     "old": "069.0329"
+    },
+    {
+     "old": "069.0330"
+    },
+    {
+     "old": "069.0331"
+    },
+    {
+     "old": "069.0332",
+     "set_french": "- Ah ! dites-moi je vous en prie Monsieur, tout cela, c'est très intéressant. Je connais M. de Larderel. Alors il est blessé ?"
+    },
+    {
+     "old": "069.0333"
+    },
+    {
+     "old": "069.0334"
+    },
+    {
+     "old": "069.0335"
+    },
+    {
+     "old": "069.0336"
+    },
+    {
+     "old": "069.0337"
+    },
+    {
+     "old": "069.0339"
+    },
+    {
+     "old": "069.0340"
+    },
+    {
+     "old": "069.0338"
+    },
+    {
+     "old": "069.0341"
+    },
+    {
+     "old": "069.0342"
+    },
+    {
+     "old": "069.0343"
+    },
+    {
+     "old": "069.0344"
+    },
+    {
+     "old": "069.0345"
+    },
+    {
+     "old": "069.0346"
+    },
+    {
+     "old": "069.0347"
+    },
+    {
+     "old": "069.0348"
+    },
+    {
+     "old": "069.0349"
+    },
+    {
+     "old": "069.0350",
+     "set_french": "- Si, vous avez une lettre pour moi... Bref Larderel n'a pas pu faire autrement que de se battre et il est blessé."
+    },
+    {
+     "old": "069.0351"
+    },
+    {
+     "old": "069.0352"
+    },
+    {
+     "old": "069.0353"
+    },
+    {
+     "old": "069.0354"
+    },
+    {
+     "old": "069.0355"
+    },
+    {
+     "old": "069.0356"
+    },
+    {
+     "old": "069.0357"
+    },
+    {
+     "old": "069.0358"
+    },
+    {
+     "old": "069.0359"
+    },
+    {
+     "old": "069.0360"
+    },
+    {
+     "old": "069.0361"
+    },
+    {
+     "old": "069.0362"
+    },
+    {
+     "old": "069.0363"
+    },
+    {
+     "old": "069.0364"
+    },
+    {
+     "old": "069.0365"
+    },
+    {
+     "old": "069.0366",
+     "kind": "margin"
+    },
+    {
+     "old": "069.0367",
+     "set_french": "Pendant que je m'habillais Altamura est venu et tout [en] m'habillant je l'entendais au salon et comme s'il s'agissait de quelque explication. J'entendais les mots, *lettre, responsabilité, Larderel,* puis une confusion au milieu de laquelle maman me donne une lettre. La voici. [La lettre n'est pas dans le manuscrit]"
+    },
+    {
+     "old": "069.0368"
+    },
+    {
+     "old": "069.0369"
+    },
+    {
+     "old": "069.0370"
+    },
+    {
+     "old": "069.0371"
+    },
+    {
+     "old": "069.0372"
+    },
+    {
+     "old": "069.0373"
+    },
+    {
+     "old": "069.0374"
+    },
+    {
+     "old": "069.0375"
+    },
+    {
+     "old": "069.0376",
+     "set_french": "Il paraît que ce stupide Altamura fait toute une histoire et très étrange même. Il parle de cette lettre comme si c'était une insulte à lui, et si elle vient de Larderel il va le provoquer en duel et que l'étrange adresse A.T.E. via Nardones 118 et qu'il ne voulait pas l'accepter et un tas d'histoires étranges et stupides."
+    },
+    {
+     "old": "069.0377",
+     "set_french": "Encore un duel Bijou ? Altamura est féroce, il en a eu trois, et dernièrement il a coupé la joue et l'oreille à son adversaire avec un sabre. Tout Naples le sait. C'est dégoûtant, à cause de l'oreille, autrement je serais contente de vous procurer encore cette affaire Bijou. Cela vous illustrera et on ne dira plus comme ce vil joueur de la bourse, ce sale Altamura : \"Larderel n'est pas un de ces hommes qui se battent\"."
+    },
+    {
+     "old": "069.0378"
+    },
+    {
+     "old": "069.0379"
+    },
+    {
+     "old": "069.0380",
+     "kind": "margin"
+    },
+    {
+     "old": "069.0381",
+     "set_french": "Je répondrai à Larderel, je suis si attendrie que je vais le nommer Bijou, ici."
+    },
+    {
+     "old": "069.0382"
+    },
+    {
+     "old": "069.0383"
+    },
+    {
+     "old": "069.0384"
+    },
+    {
+     "old": "069.0385"
+    },
+    {
+     "old": "069.0386"
+    },
+    {
+     "old": "069.0387"
+    },
+    {
+     "old": "069.0388"
+    },
+    {
+     "old": "069.0389"
+    },
+    {
+     "old": "069.0390"
+    },
+    {
+     "old": "069.0391",
+     "kind": "letter",
+     "source": "Lettre de Marie à Larderei, signée Violette, 16 mars 1877",
+     "set_french": "> - \"Il est difficile de répondre à des fleurs qu'on ne reçoit pas\"."
+    },
+    {
+     "old": "069.0392",
+     "kind": "letter",
+     "source": "Lettre de Marie à Larderei, signée Violette, 16 mars 1877",
+     "set_french": "> La main gauche est plus agréable que la droite, étant celle du cœur; mais on regrette sincèrement la cause de cette substitution."
+    },
+    {
+     "old": "069.0393",
+     "kind": "letter",
+     "source": "Lettre de Marie à Larderei, signée Violette, 16 mars 1877",
+     "set_french": "> Où voulez-vous que soient les violettes en cette saison, si ce n'est à Naples ? Au lieu de Via Nardones : Poste restante. Donnez des nouvelles."
+    },
+    {
+     "old": "069.0394",
+     "kind": "letter",
+     "source": "Lettre de Marie à Larderei, signée Violette, 16 mars 1877",
+     "set_french": "> Violette."
+    },
+    {
+     "old": "069.0395",
+     "kind": "letter",
+     "source": "Lettre de Marie à Larderei, signée Violette, 16 mars 1877",
+     "set_french": "> P.S. Blessure reçue le 10 mars samedi, n'est-ce pas ?"
+    },
+    {
+     "old": "069.0396"
+    },
+    {
+     "old": "069.0397"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-17.md",
+   "date": "1877-03-17",
+   "heading": "Samedi 17 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0398"
+    },
+    {
+     "old": "069.0399"
+    },
+    {
+     "old": "069.0400"
+    },
+    {
+     "old": "069.0401"
+    },
+    {
+     "old": "069.0402"
+    },
+    {
+     "old": "069.0403"
+    },
+    {
+     "old": "069.0404"
+    },
+    {
+     "old": "069.0405"
+    },
+    {
+     "old": "069.0406",
+     "kind": "margin"
+    },
+    {
+     "old": "069.0407"
+    },
+    {
+     "old": "069.0408"
+    },
+    {
+     "old": "069.0409"
+    },
+    {
+     "old": "069.0410"
+    },
+    {
+     "old": "069.0411"
+    },
+    {
+     "old": "069.0412"
+    },
+    {
+     "old": "069.0413"
+    },
+    {
+     "old": "069.0414"
+    },
+    {
+     "old": "069.0415"
+    },
+    {
+     "old": "069.0416"
+    },
+    {
+     "old": "069.0417"
+    },
+    {
+     "old": "069.0418"
+    },
+    {
+     "old": "069.0419"
+    },
+    {
+     "old": "069.0420"
+    },
+    {
+     "old": "069.0421",
+     "kind": "letter",
+     "source": "Lettre de Marie à Larderei, signée Violette, 17 mars 1877",
+     "set_french": "> - \"On vient de faire une découverte qui force ces lignes :"
+    },
+    {
+     "old": "069.0422",
+     "kind": "letter",
+     "source": "Lettre de Marie à Larderei, signée Violette, 17 mars 1877",
+     "set_french": "> A quoi bon écrire, avec la main gauche à une personne qu'on a trouvée légère au point de le dire à... qui vous savez."
+    },
+    {
+     "old": "069.0423",
+     "kind": "letter",
+     "source": "Lettre de Marie à Larderei, signée Violette, 17 mars 1877",
+     "set_french": "> Tant pis pour votre amour-propre si vous avez eu le mauvais goût de croire que l'on est *toujours* comme on a eu la légèreté d'être avec et pour vous !"
+    },
+    {
+     "old": "069.0424",
+     "kind": "letter",
+     "source": "Lettre de Marie à Larderei, signée Violette, 17 mars 1877",
+     "set_french": "> Violette chagrinée, inappréciée et vexée\"."
+    },
+    {
+     "old": "069.0425"
+    },
+    {
+     "old": "069.0426"
+    },
+    {
+     "old": "069.0427"
+    },
+    {
+     "old": "069.0428"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-18.md",
+   "date": "1877-03-18",
+   "heading": "Dimanche 18 mars 1877",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Le joueur de mandoline m'a envoyé ce matin le nom de l'adversaire de Larderel, c'est le marquis Niccolini.",
+      "rsr": "Restored from tome10.docx ¶510, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En me promenant à pied avec maman, j'ai rencontré Bikowsky de Nice. C'est le cousin de celui de Paris et ses cartes portent une couronne de prince et-Gryf-Jaxa-Bikowsky.",
+      "rsr": "Restored from tome10.docx ¶511, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild). OCR uncertain: «et-Gryf-Jaxa-Bikowsky»."
+     }
+    },
+    {
+     "new": {
+      "french": "Cet homme a fait bien des jaloux parmi les lazzaroni en bottes vernies, qui vont en quête d'aventures depuis le matin et fondent sur les étrangères.",
+      "rsr": "Restored from tome10.docx ¶512, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous allons au Skating à pied comme des Anglaises, accompagnées de Bikowsky.",
+      "rsr": "Restored from tome10.docx ¶513, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il y avait là distribution de joujoux aux enfants, Bikowsky m'en a apporté plusieurs et j'ai assuré Pascarola que je jouais aux poupées.",
+      "rsr": "Restored from tome10.docx ¶514, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Comment, vous si savante, si artiste, si spirituelle ! vous vous moquez de moi !",
+      "rsr": "Restored from tome10.docx ¶515, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais je l'assurais avec beaucoup de simplicité. J'aime faire sauter les gens.",
+      "rsr": "Restored from tome10.docx ¶516, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Hélas ! c'était Borghése ! Celui du Fondo et de vendredi. Hélas !",
+      "rsr": "Restored from tome10.docx ¶517, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pascarola a donné de nouveaux détails sur le duel ajoutant que :",
+      "rsr": "Restored from tome10.docx ¶518, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Larderel a été blessé mais c'est Niccolini qui a été puni, car il lui est resté cette personne sur les bras.",
+      "rsr": "Restored from tome10.docx ¶519, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai écrit huit lettres : à Foster, à Mouzay, à Berthe, à Reboux, à Laferrière, à Collignon, à ma tante et à Lefèvre.",
+      "rsr": "Restored from tome10.docx ¶520, Mon Journal t.10 p.36 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Dans ma lettre à Collignon je salue la Daniloff, la pauvre femme en sera touchée, on ne la recevait pas chez nous. Et puis la lettre à Lefèvre. Il ne s'y attendait pas. Cela ne coûte rien et cela concilie des... amitiés, plus que bien des frais... qu'on parle bien de moi cela ne peut faire du mal.",
+      "rsr": "Restored from tome10.docx ¶521, Mon Journal t.10 pp.36–37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1877-03-17.md"
+  },
+  {
+   "file": "1877-03-19.md",
+   "date": "1877-03-19",
+   "heading": "Lundi 19 mars 1877",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Hier encore nous avons reçu une invitation du Cercle philharmonique.",
+      "rsr": "Restored from tome10.docx ¶523, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il fait un temps chaud et lourd. J'enlaidis, je me déteste et je crois que tout le monde me trouve laide et rebutante.",
+      "rsr": "Restored from tome10.docx ¶524, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les Fabbricatore et Mme et Mlle Hamontoff viennent nous voir.",
+      "rsr": "Restored from tome10.docx ¶525, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je m'amuse depuis deux jours à faire la cuisine. Oh ! pas à l'allemande, mais tout à fait *poétiquement.* Je cuis des œufs sur une lampe à alcool et hier j'ai rôti du jambon et des pommes de terre. Je ne puis plus avaler le manger de l'hôtel. Je joue aussi à la balle.",
+      "rsr": "Restored from tome10.docx ¶526, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je m'ennuie aussi.",
+      "rsr": "Restored from tome10.docx ¶527, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les trois cent mille francs donnés par Larderel se réduisent à cent mille francs. [Mots noircis: par mois.]",
+      "rsr": "Restored from tome10.docx ¶528, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La lettre est timbrée du 13, par conséquent mardi, partie le 12 lundi de Florence. Et Altamura ne l'a apportée que le 16 ! C'est à présent seulement que je me suis aperçue de cela en examinant l'enveloppe. J'ai répondu le 17 il recevra le 18. Cela fait qu'il aura attendu six jours pour avoir une réponse !! C'est trop pour un pareil cas. *J'en suis fâchée.* Cette phrase a un poids énorme parce qu'habituellement je me pique de négligence.",
+      "rsr": "Restored from tome10.docx ¶529, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «du 1 3,»→«du 13,»."
+     }
+    },
+    {
+     "new": {
+      "french": "Le rêve extraordinaire eut lieu dans la nuit de vendredi à samedi 10 mars. Il m'écrivait le 12.",
+      "rsr": "Restored from tome10.docx ¶530, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si j'avais eu sa lettre tout de suite, je saurais la première cette nouvelle. Je ne voudrais pas exprimer par des “Bijou” ou des \"Monsieur le cocher\" la satisfaction que j'éprouve de cet empressement à m'avertir.",
+      "rsr": "Restored from tome10.docx ¶531, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et moi qui pensais déjà avoir répondu trop vite !",
+      "rsr": "Restored from tome10.docx ¶532, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis dérangée par la visite de Mme et Mlle Hotowsky, parents de Bikowsky, qui ont dîné à la table d'hôte et qui viennent le soir chez nous.",
+      "rsr": "Restored from tome10.docx ¶533, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me suis cachée. Je déteste être prise comme ça en peignoir. Je suis fatiguée.",
+      "rsr": "Restored from tome10.docx ¶534, Mon Journal t.10 p.37 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1877-03-17.md"
+  },
+  {
+   "file": "1877-03-20.md",
+   "date": "1877-03-20",
+   "heading": "Mardi 20 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0429"
+    },
+    {
+     "old": "069.0430"
+    },
+    {
+     "old": "069.0431"
+    },
+    {
+     "old": "069.0432"
+    },
+    {
+     "old": "069.0433"
+    },
+    {
+     "old": "069.0434"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-21.md",
+   "date": "1877-03-21",
+   "heading": "Mercredi 21 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0435"
+    },
+    {
+     "old": "069.0436"
+    },
+    {
+     "old": "069.0437",
+     "set_french": "Larderel a écrit au comité des courses qu'il fait courir. Puis arrive Mme Hamontoff, et puis Bikowsky.\nEt puis je vais voir les demoiselles Fabbricatore qui sont enrhumées."
+    },
+    {
+     "old": "069.0438"
+    },
+    {
+     "new": {
+      "french": "C'est le 3 mars que Larderel s'est battu. Il a envoyé ses chevaux à Palerme et a gagné tous les prix.",
+      "rsr": "Restored from tome10.docx ¶550, Mon Journal t.10 p.38 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «Paierme»→«Palerme»."
+     }
+    },
+    {
+     "new": {
+      "french": "Ma tante écrit de se garder de Larderel : “Ce n'est pas un homme, c'est un chenapan. Comment pouvez-vous le prendre au sérieux ?”",
+      "rsr": "Restored from tome10.docx ¶551, Mon Journal t.10 p.39 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Demain j'enverrai la réponse à Florence, c'est une feuille carrée presque entièrement couverte par une rose d'un rouge fauve à moitié effeuillée sur laquelle est posée une carte de visite avec un coin plié. Naturellement tout cela est peint. C'est sur cette carte que se placent ces mots :",
+      "rsr": "Restored from tome10.docx ¶552, Mon Journal t.10 p.39 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- “Je crois que c'est celle du sabre. Parce que celle de la fleur ne vous a pas empêché de partir, tandis que l'autre vous retient encore. Mais pour bien juger, il faut du temps.",
+      "rsr": "Restored from tome10.docx ¶553, Mon Journal t.10 p.39 (missing from original extraction, 2026-09-27 rebuild).",
+      "kind": "letter",
+      "source": "Réponse de Marie à Larderei, peinte sur une carte, 21 mars 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "Violette n'a pas le pardon aussi facile que vous avez l'air de penser, mais elle est généreuse quand on se repent.",
+      "rsr": "Restored from tome10.docx ¶554, Mon Journal t.10 p.39 (missing from original extraction, 2026-09-27 rebuild).",
+      "kind": "letter",
+      "source": "Réponse de Marie à Larderei, peinte sur une carte, 21 mars 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "Vous repentez-vous ?”",
+      "rsr": "Restored from tome10.docx ¶555, Mon Journal t.10 p.39 (missing from original extraction, 2026-09-27 rebuild).",
+      "kind": "letter",
+      "source": "Réponse de Marie à Larderei, peinte sur une carte, 21 mars 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "J'aurais mieux aimé simplement ceci : Je vous répondrai à Naples - mais il peut rester deux jours de plus à Florence pendant lesquels je ne recevrais pas de lettres; je mettrai la mienne pour la nuit dans une enveloppe pleine de violettes fraîches, elle en aura le parfum; mais que je suis *fâchée,* je ne puis lui envoyer des fleurs comme dans tous les billets qui ont précédé celui de *légère.*",
+      "rsr": "Restored from tome10.docx ¶556, Mon Journal t.10 p.39 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1877-03-22.md",
+   "date": "1877-03-22",
+   "heading": "Jeudi 22 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0440"
+    },
+    {
+     "old": "069.0441"
+    },
+    {
+     "old": "069.0442"
+    },
+    {
+     "old": "069.0443"
+    },
+    {
+     "old": "069.0444"
+    },
+    {
+     "old": "069.0445"
+    },
+    {
+     "old": "069.0446"
+    },
+    {
+     "old": "069.0447"
+    },
+    {
+     "old": "069.0448"
+    },
+    {
+     "old": "069.0449"
+    },
+    {
+     "old": "069.0450"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-23.md",
+   "date": "1877-03-23",
+   "heading": "Vendredi 23 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0451"
+    },
+    {
+     "old": "069.0452"
+    },
+    {
+     "old": "069.0453"
+    },
+    {
+     "old": "069.0454"
+    },
+    {
+     "old": "069.0455",
+     "set_french": "C'est donc pour cela. Puis on présente le vieux baron Formosa."
+    },
+    {
+     "new": {
+      "french": "Santasiglia est un enfant tout à fait gentil, lui et Bikowsky sont mes cavaliers, sur l'asphalte Melito ne nous quitte pas. C'est un blond de vingt-trois ans, au parler lent et à l'intelligence bouchée à ce qu'il me semble.",
+      "rsr": "Restored from tome10.docx ¶578, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Santasiglia me demande la permission de me présenter trois messieurs dont je ne sais plus le nom.",
+      "rsr": "Restored from tome10.docx ¶579, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Je ne sais comment faire, dit-il tout en rougissant, vous permettez ?",
+      "rsr": "Restored from tome10.docx ¶580, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et c'est la présentation de Melito qui l'avait enhardi, car pour le présenter il est allé prier Mlle Fabbricatore de me demander si je voulais bien. Mais c'est Olga Hamontoff qui m'amusait. Elle voulait à toute force que Melito fût *pour elle* et se fâchait pour de bon parce qu'il ne demandait pas de lui être présenté. Il a fallu le lui amener presque de force et encore elle ne cessait de dire que ce n'était pas selon les règles et puisque c'était pour elle, elle ne comprenait pas pourquoi il était avec moi.",
+      "rsr": "Restored from tome10.docx ¶581, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Giselle et Balzorano donnent envie d'aimer. Si Balzorano n'était pas fou de sa bien-aimée, je deviendrais amoureuse de lui.",
+      "rsr": "Restored from tome10.docx ¶582, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Bon Dieu, comme dit Larderel je crois que j'ai eu un peu de succès ce soir.",
+      "rsr": "Restored from tome10.docx ¶583, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C'est surtout mes vingt-sept millions.",
+      "rsr": "Split off 069.0455: its last line is tome10.docx ¶584, Mon Journal t.10 p.40, which follows the restored paragraphs of the day (2026-09-27 rebuild); French as in _original."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1877-03-24.md",
+   "date": "1877-03-24",
+   "heading": "Samedi 24 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0456"
+    },
+    {
+     "old": "069.0457"
+    },
+    {
+     "old": "069.0458"
+    },
+    {
+     "old": "069.0459",
+     "set_french": "Enfin je retombe dans une sorte de mélancolie de laquelle vient me tirer, pour me mettre dans une sorte de colère, Rosalie qui apporte cette lettre.\nElle me semble impertinente et j'en suis rouge de contrariété."
+    },
+    {
+     "new": {
+      "french": "Me faire attendre à mercredi, c'est indigne !",
+      "rsr": "Restored from tome10.docx ¶591, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis toute troublée. Je repasse dans l'esprit tout ce que j'ai fait et dit, il me semble que j'ai ennuyé ce détestable Violet.",
+      "rsr": "Restored from tome10.docx ¶592, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai l'air de recevoir un affront, le diable sait pourquoi.",
+      "rsr": "Restored from tome10.docx ¶593, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Maman semble vexée de cette feuille. On est détestable chez nous !",
+      "rsr": "Restored from tome10.docx ¶594, Mon Journal t.10 p.41 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je n'y tiens pas et saisissant un lambeau de vieille enveloppe j'écris dessus :",
+      "rsr": "Restored from tome10.docx ¶595, Mon Journal t.10 p.42 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- “Oh ! le vilain bout de papier !",
+      "rsr": "Restored from tome10.docx ¶596, Mon Journal t.10 p.42 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «“Oh !»→«- “Oh !».",
+      "kind": "letter",
+      "source": "Billet de Marie à Larderei, 24 mars 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "Un peu plus vilain que le vôtre.”",
+      "rsr": "Restored from tome10.docx ¶597, Mon Journal t.10 p.42 (missing from original extraction, 2026-09-27 rebuild).",
+      "kind": "letter",
+      "source": "Billet de Marie à Larderei, 24 mars 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "Et le mettant dans une immense enveloppe, je descends en personne au bureau pour y coller deux timbres et le jeter dans la boîte.",
+      "rsr": "Restored from tome10.docx ¶598, Mon Journal t.10 p.42 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le croirait-on ? Je suis sérieusement offensée et cette lettre fait mourir sur mes lèvres toutes les petites tendresses que j'avais l'habitude de dire chaque jour en riant.",
+      "rsr": "Split off 069.0459: its last line is tome10.docx ¶599, Mon Journal t.10 p.42, which follows the restored paragraphs of the day (2026-09-27 rebuild); French as in _original."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1877-03-25.md",
+   "date": "1877-03-25",
+   "heading": "Dimanche 25 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0460"
+    },
+    {
+     "old": "069.0461"
+    },
+    {
+     "old": "069.0462"
+    },
+    {
+     "old": "069.0463"
+    },
+    {
+     "new": {
+      "kind": "clipping",
+      "source": "Programme du concert de musique sacrée, Società Filarmonica, Naples, 25 mars 1877",
+      "french": "SOCIETÀ FILARMONICA\nPROGRAMMA\nDEL\nCONCERTO VOCALE E STRUMENTALE\nDI MUSICA SACRA\ndel 25 Marzo 1877",
+      "rsr": "Printed concert programme pasted in the notebook (announced in 069.0463 «dont voici le programme»); tome10.docx ¶609–615 (title page) is unusable picture-caption OCR, so the text is transcribed from the facsimile in Mon Journal t.10 p.43 (PDF p.44); dot leaders and brace layout flattened, small caps as capitals/italics not kept (2026-09-27 rebuild). The printed edition sets it in the middle of the paragraph «J’éprouvai un véritable soulagement…» (a page turn); placed here, after the sentence that announces it."
+     }
+    },
+    {
+     "new": {
+      "kind": "clipping",
+      "source": "Programme du concert de musique sacrée, Società Filarmonica, Naples, 25 mars 1877",
+      "french": "PARTE PRIMA\n1. HAYDN — La seconda sonata delle Sette parole per istrumenti a corde.\n2. MICELI — Solo per Soprano dello Stabat — Sig.ª Sambon\n3. ED. MOREAUX — Rimember!. Meditazione per Melodium — Sig. Barone Galiani\n4. MOZART — Lacrimosa — Quartetto nel Requiem per Sop. Contr. Ten. e Basso — Sig.ª di Luggo, » Trifari, Sig. Guarnieri, » Fabbricatore\n5. PERGOLESI — Solo per Sop. e Duetto per Sop. e Contr. nello Stabat — Sig.ª Alvarez de Toledo, » Trifari\n6. GOUNOD — Ave Maria sul primo preludio di S. Bach per Sop. Violino Melodium e Pianoforte — Sig.ª Greco Ricci, Sig. Berardo Galiani, Barone Galiani, Marchese Filiasi",
+      "rsr": "Printed concert programme pasted in the notebook (announced in 069.0463 «dont voici le programme»); tome10.docx ¶637–650 (Parte prima) is unusable picture-caption OCR, so the text is transcribed from the facsimile in Mon Journal t.10 p.44 (PDF p.45); dot leaders and brace layout flattened, small caps as capitals/italics not kept (2026-09-27 rebuild). The printed edition sets it in the middle of the paragraph «J’éprouvai un véritable soulagement…» (a page turn); placed here, after the sentence that announces it."
+     }
+    },
+    {
+     "new": {
+      "kind": "clipping",
+      "source": "Programme du concert de musique sacrée, Società Filarmonica, Naples, 25 mars 1877",
+      "french": "PARTE SECONDA\n1. E. BURELLE — La Penitenza di Beethoven trascritta per Violino Melodium e Pianoforte — Sig. Berardo Galiani, Barone Galiani, Marchese Filiasi\n2. MOZART — Agnus Dei solo per Soprano — Sig.ª Guercia\n3. MICELI — Libera me Deus solo per Soprano nel Miserere — Sig.ª Di Luggo\n4. ROSSINI — La Carità — Coro — Sig.re Greco, Guercia, Alvarez, Sambon, Di Luggo Filiasi e Trifari\nVIOLINI — Signori Podenas, Brancaccio, Raffaele, F. Alvarez, Galiani, Lanzilli, Navarro, Imperiali, Granito, Cacace. Salvadore e Rossi.\nVIOLE — Signori Porro, Pinto e Cappuccio.\nVIOLONCELLI — Signori Ceresa, Podenas, De Marinis, Pignatelli, Padula.\nCONTROBASSI — De Ferrante, Negri, Flocco.",
+      "rsr": "Printed concert programme pasted in the notebook (announced in 069.0463 «dont voici le programme»); tome10.docx ¶677–692 (Parte seconda) is unusable picture-caption OCR, so the text is transcribed from the facsimile in Mon Journal t.10 p.45 (PDF p.46); dot leaders and brace layout flattened, small caps as capitals/italics not kept (2026-09-27 rebuild). The printed edition sets it in the middle of the paragraph «J’éprouvai un véritable soulagement…» (a page turn); placed here, after the sentence that announces it."
+     }
+    },
+    {
+     "new": {
+      "french": "En entrant une terreur panique s'empara de moi. Si toutes les autres allaient être en noir ! Nous arrivions ainsi devant la porte de droite sur laquelle se tenait le duc de San Cesario qui arrondit son bras s'avançant vers maman, mais moi qui ne voyais rien sous l'empire d'une émotion stupide, je fis un brusque demi-tour vers la gauche et les autres m’imitèrent, maman aussi.",
+      "rsr": "Restored from tome10.docx ¶606, Mon Journal t.10 p.42 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «demi- tour»→«demi-tour»."
+     }
+    },
+    {
+     "new": {
+      "french": "Voilà une entrée encourageante.",
+      "rsr": "Restored from tome10.docx ¶607, Mon Journal t.10 p.42 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'éprouvai un véritable soulagement en voyant des cous nus et des robes de toutes les couleurs. Les Fabbricatore qui se trouvaient à deux bancs de nous faisaient des signes qu'il y avait des places auprès d'eux; j'ai donc déménagé avec Dina; en ce moment apparurent un à un les dilettanti qui composaient l'orchestre et il s'éleva dans la salle comme une salve de reconnaissance et d'approbation, une gaieté, un tapage, et c'était en effet la chose la plus charmante de la terre que ces figures qui s'efforcaient d'être graves, qui étaient fières et qui riaient. Parmi les chanteuses il y eut quelques jolies femmes, elles étaient neuf en tout je crois.",
+      "rsr": "Restored from tome10.docx ¶608–718, Mon Journal t.10 pp.42–46 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «reconnais- sance»→«reconnaissance»."
+     }
+    },
+    {
+     "new": {
+      "french": "La fameuse Giselle était devant moi pressant son épaule nue et décharnée contre Balzorano qui lui effleurait presque la figure et qui est beau à faire frémir.",
+      "rsr": "Restored from tome10.docx ¶719, Mon Journal t.10 p.46 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "M. Fabbricatore prit part dans un quatuor de Mozart.",
+      "rsr": "Restored from tome10.docx ¶720, Mon Journal t.10 p.46 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le duc de San Martino jouait de la contrebasse.",
+      "rsr": "Restored from tome10.docx ¶721, Mon Journal t.10 p.46 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "De temps en temps je me tournais vers maman, elle me semblait mécontente et je souffrais de l'humilier par ma laideur. Pascarola se mit près de moi et bientôt me présenta le marquis di Campomarino, fils du duc de Sanceso et le comte Caracciolo. Le premier est un tout petit renard blond à nez énorme et à monocle, le second est un peu grand, un peu gras, un peu chauve, un peu laid, un peu ressemblant à Bruschetti. Le duc de Melito se joignit à ces messieurs et bientôt je devins le centre d'un groupe d'hommes au milieu duquel j'étais loin d'être mal à l'aise. Melito dit qu'il préferait “Les noces de Jeannette” à “cette musique de Pergolèse et Mozart\".",
+      "rsr": "Restored from tome10.docx ¶722, Mon Journal t.10 p.46 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "San Cesario, c'est-à-dire Campomarino, parla peinture, Caracciolo mandoline, Pascarola beauté, et Fabbricatore qui revenait de la scène reçut mes sincères compliments. Mme Fabbricatore se consolait en disant qu'on faisait la cour aux vingt-sept millions. Cette supposition me ferait une peine énorme si je ne me souvenais pas de mes *effets* ailleurs et là où loin de me prêter des millions on m'écorchait la peau.",
+      "rsr": "Restored from tome10.docx ¶723, Mon Journal t.10 p.46 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «vingt- sept»→«vingt-sept»."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce qui était ravissant c'est qu'Olga Hamontoff qui était avec nous, assurait avec une sainte franchise que toutes ces assiduités étaient dues à ce qu'on la croyait ma sœur et voulait arriver à elle. Elle est impayable avec sa figure carrée, anguleuse, jaune et commune avec un reflet verdâtre mais d'assez beaux yeux et des cheveux noirs superbes.",
+      "rsr": "Restored from tome10.docx ¶724, Mon Journal t.10 p.46 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «OIga»→«Olga»."
+     }
+    },
+    {
+     "new": {
+      "french": "- Vous n'êtes pas blanche aujourd'hui, mais dorée sur tranches - me dit le duc de San Cesario en venant à nous dans le dernier salon.",
+      "rsr": "Restored from tome10.docx ¶725, Mon Journal t.10 p.46 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Lorsqu'on m'a demandé de présenter Caracciolo, j'ai pensé que ce serait Caracciolo di Bello, fils du préfet de Rome, notre voisin le soir de la première d' “Aida” cet hiver à Rome, et j'étais enchantée de l'honneur et du plaisir, l'autre Caracciolo est distingué et agréable.",
+      "rsr": "Restored from tome10.docx ¶726, Mon Journal t.10 p.46 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous remarquez sans doute que je n'ai pas encore retrouvé l'art de remplir des pages, je m’embarrasse, je m'ennuie d'écrire.",
+      "rsr": "Restored from tome10.docx ¶727–728, Mon Journal t.10 pp.46–47 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A la maison il y eut une légère altercation, maman avait l'air mécontente, j'étais furieuse. Si je suis enlaidie, est-ce de ma faute !!",
+      "rsr": "Restored from tome10.docx ¶729, Mon Journal t.10 p.47 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1877-03-26.md",
+   "date": "1877-03-26",
+   "heading": "Lundi 26 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0465"
+    },
+    {
+     "old": "069.0466"
+    },
+    {
+     "old": "069.0467"
+    },
+    {
+     "old": "069.0468"
+    },
+    {
+     "old": "069.0469"
+    },
+    {
+     "old": "069.0470",
+     "kind": "margin"
+    },
+    {
+     "old": "069.0471"
+    },
+    {
+     "old": "069.0472"
+    },
+    {
+     "old": "069.0473",
+     "set_french": "Et Larderel... pas assez... pour inspirer tant de... enfin, Balzorano est fils de la princesse d'Augri, parent des premières famillles, chéri de tous. Dernièrement il s'est fait remarquer par le Roi au carnaval en lui lançant des milliers de bonbonnières. Le Roi se le fit présenter et fut très aimable. C'est tout ce que voulait l'autre car étant du camp bourbonien il ne pouvait pas être présenté par les siens. Le lendemain le Roi fut enseveli par des fleurs et mille choses galantes comme une femme. Et, dit-on en ville, c'est pour cela que la Giselle n'a pas de robes neuves. Balzorano le plus mauvais sujet de Naples, se conduit comme un ange depuis cet amour."
+    },
+    {
+     "old": "069.0474",
+     "set_french": "Tandis que mon Bijou, interdit[^1], chassé des clubs, sous les jupes d'une danseuse, et allié aux Mirafiore ! Vous savez ce qui fait Larderel pour moi ? Ce sont ces trois plus affreux vices. L'interdiction, la Righi et les scandales. Il s'en est débarrassé à présent, peut-être se posera-t-il bien. Le grand frère de Balzorano, comme celui de mon Bijou, n'était pas grand chose; comme Balzorano aussi Bijou est le second frère. Gaston de Larderel est marié à une Salviati de Rome, ça c'est bien au moins. C'est ce Mirafiore qui le met en opposition avec la Marguerite que je hais."
+    },
+    {
+     "old": "069.0475"
+    },
+    {
+     "old": "069.0476"
+    },
+    {
+     "old": "069.0477"
+    },
+    {
+     "old": "069.0478"
+    },
+    {
+     "old": "069.0479"
+    },
+    {
+     "old": "069.0480"
+    },
+    {
+     "old": "069.0481"
+    },
+    {
+     "old": "069.0482"
+    },
+    {
+     "old": "069.0483"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-27.md",
+   "date": "1877-03-27",
+   "heading": "Mardi 27 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0485"
+    },
+    {
+     "old": "069.0486"
+    },
+    {
+     "old": "069.0487"
+    },
+    {
+     "old": "069.0488"
+    },
+    {
+     "old": "069.0489"
+    },
+    {
+     "old": "069.0490"
+    },
+    {
+     "old": "069.0491"
+    },
+    {
+     "old": "069.0492"
+    },
+    {
+     "old": "069.0493"
+    },
+    {
+     "old": "069.0494"
+    },
+    {
+     "old": "069.0495"
+    },
+    {
+     "old": "069.0464"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-28.md",
+   "date": "1877-03-28",
+   "heading": "Mercredi 28 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0497"
+    },
+    {
+     "old": "069.0498"
+    },
+    {
+     "old": "069.0499"
+    },
+    {
+     "old": "069.0500"
+    },
+    {
+     "old": "069.0501"
+    },
+    {
+     "old": "069.0502"
+    },
+    {
+     "old": "069.0503"
+    },
+    {
+     "old": "069.0504"
+    },
+    {
+     "old": "069.0505"
+    },
+    {
+     "old": "069.0506"
+    },
+    {
+     "old": "069.0507"
+    },
+    {
+     "old": "069.0508"
+    },
+    {
+     "old": "069.0509"
+    },
+    {
+     "old": "069.0510"
+    },
+    {
+     "old": "069.0511"
+    },
+    {
+     "old": "069.0512"
+    },
+    {
+     "old": "069.0513"
+    },
+    {
+     "old": "069.0514"
+    },
+    {
+     "old": "069.0515"
+    },
+    {
+     "old": "069.0516"
+    },
+    {
+     "old": "069.0517"
+    },
+    {
+     "old": "069.0518"
+    },
+    {
+     "old": "069.0519"
+    },
+    {
+     "old": "069.0520"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-29.md",
+   "date": "1877-03-29",
+   "heading": "Jeudi 29 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0521",
+     "set_french": "# Jeudi 29 mars 1877\nRosalie m'a réveillée par la carte que Larderel a remise au concierge ce matin pour Mme Bashkirtseff. Il s'est logé dans un grenier mais à l'hôtel du Louvre. Je crois que j'ai baisé cette carte, encore à moitié endormie, enchantée, folle ! Je suis très bouleversée et fatiguée. Aujourd'hui c'est l'usage de se promener dans la rue de Rome (Toledo) où l'on ne laisse pas entrer les voitures le jeudi et le vendredi saint[^1]. Imaginez trois femmes seules, dont une en blanc, jetées au milieu de ce peuple; nous sommes restées une heure dans une église quelconque et après cinq minutes de marche je me suis de nouveau réfugiée dans une boutique qui fut immédiatement entourée comme une voiture renversée. Effarée j'entraîne mes gens vers une ruelle où se trouve un carrozello[^2], la plus abominable petite voiture du monde, nous levons la capote et montons toutes trois ! En chemin nous échangeons cet incroyable véhiculé contre un landau et j'arrive à l'hôtel, enfin !"
+    },
+    {
+     "old": "069.0522",
+     "set_french": "Lorsque Larderel entra dans le salon de lecture où nous attendions la table d'hôtes, je fus si saisie de la surprise, et de la beauté de cet homme que j'en demeurai imbécile pour tout le reste de la soirée. Il salua maman qui lui tendit la main. Il s'inclina devant moi, je rougis dans mon Figaro et sans savoir ce que je faisais continuai la lecture pendant une minute encore."
+    },
+    {
+     "old": "069.0523"
+    },
+    {
+     "old": "069.0524"
+    },
+    {
+     "old": "069.0525"
+    },
+    {
+     "old": "069.0526"
+    },
+    {
+     "old": "069.0527"
+    },
+    {
+     "old": "069.0528"
+    },
+    {
+     "old": "069.0529"
+    },
+    {
+     "old": "069.0530",
+     "set_french": "Je n'ai rien mangé qu'une orange que j'ai laissé à moitié pour me réfugier dans le salon de lecture où je me mis à jouer quelque chose au piano, espérant qu'il s'en irait, pas le piano mais Larderel; il vint où j'étais et présenta son ami M. le commandeur Marcuard, prononcez Marcouard, mine suisse, à barbe rousse et aux yeux bleus, grasse figure et... Suisse, que nous ne reverrons même pas. Il vint me dire je ne sais plus quoi lorsque je me souvins du morceau d'enveloppe jaune I! C'est une situation si bizarre; nous sommes sensés nous connaître à peine et à chaque instant un mot, un regard nous faisaient sentir et nous souvenir toute cette étrange affaire de bal... de lettres..."
+    },
+    {
+     "old": "069.0531"
+    },
+    {
+     "old": "069.0532"
+    },
+    {
+     "old": "069.0533",
+     "set_french": "La rapidité et la facilité avec laquelle il dit ses drôleries, ses impiétés, ses folies, m'est une impression toute neuve; je me sens lente et ne sais rien dire. Il a l'air d'être connu depuis des mois, j'éprouve de la répugnance pour la facilité des manières. Larderel m'étourdit positivement."
+    },
+    {
+     "old": "069.0534"
+    },
+    {
+     "old": "069.0535"
+    },
+    {
+     "old": "069.0536"
+    },
+    {
+     "old": "069.0537",
+     "set_french": "Je ne le retrouve plus, il est plus beau, plus grand; dix fois j'ai souffert de ses reconnaissances-, je veux que tout soit oublié ou du moins semble n'avoir jamais été et lui au contraire me le rappelle à chaque minute tantôt en s'approchant très près pour une seconde [Mots noircis: et parlant] disant un mot bas de cette voix... des lettres et du bal que je veux nommer notre voix, tantôt en me parlant des yeux."
+    },
+    {
+     "old": "069.0538"
+    },
+    {
+     "old": "069.0539",
+     "set_french": "Je suis stupide et parle avec une solennité qui m'agace et avec laquelle je désire imposer à Larderel qui s'assied à cheval sur des chaises et se conduit comme l'homme le plus célèbre, le plus gâté, le plus adoré, le pourrait... faire."
+    },
+    {
+     "old": "069.0540"
+    },
+    {
+     "old": "069.0541",
+     "set_french": "Au milieu de cette soirée si calme et si agitée, se présenta Caracciolo. Je ne redevins un peu moi-même qu'une demi-heure après le départ de Larderel et de Marcuard. En partant je lui ai donné la main et il me l'a serrée avec sa main droite, malade, et j'ai constaté avec répugnance que j'ai tressailli comme au temps de Nice."
+    },
+    {
+     "old": "069.0542"
+    },
+    {
+     "old": "069.0543"
+    },
+    {
+     "old": "069.0544",
+     "set_french": "Barnola répond à ma lettre, je la lis. Et maintenant je suis désolée et plus malheureuse que jamais. [En travers: - Larderel en ayant reçu une de sa sœur vient la lire chez nous.] Je l'ai regardé, je me suis regardée et je me mis à édifier une fantaisie qui fut ignoblement brisée par les atroces souvenirs, semés de mots ignobles de *famille, renseignements, Antonelli, Nice, ennemis calomnies hideuses !*"
+    },
+    {
+     "old": "069.0545"
+    },
+    {
+     "old": "069.0546"
+    },
+    {
+     "old": "069.0547"
+    },
+    {
+     "old": "069.0548",
+     "set_french": "Maman qui a été charmante avec Caracciolo m'a torturée avec Larderel et lui a causé des impatiences, à lui qui ne sait rien réprimer, (non pas à la manière d'Antonelli que je hais et méprise et que j'ai taché d'élever et de créer en lui inventant les défauts que j'aime)."
+    },
+    {
+     "old": "069.0549",
+     "set_french": "Maman le traite comme son enfant. C'est assez pour me désespérer, parce que je saisis les moindres impressions de cet homme que je ne veux pas nommer mon nouveau tourment parce que je ne veux pas le comparer et que tout ceux que j'ai connus ne peuvent pas lui être raisonnablement comparés; n'ayant été que des lions de province ou de vulgaires mauvais sujets, tandis que Larderel est un grand seigneur, capricieux, gâté, fou, libre, tel que je le voulais et tel que je ne pensais pas le trouver. Mes causeries avec Rosalie du petit Charles et de Monsieur le comte, l'ont rendu commun et c'est avec satisfaction que je le retrouve comme je me l'étais imaginé. Lançons le mot d'idéal et n'en parlons plus. Qui sait ce que sera demain, c'est aujourd'hui que je parle... pour l'idéal il faudrait quelques autres choses peut-être... ne nous enfonçons pas trop dans les nuages et finissons par un mot blessant et cruel mais sans doute vrai:"
+    },
+    {
+     "old": "069.0550"
+    },
+    {
+     "old": "069.0551"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-30.md",
+   "date": "1877-03-30",
+   "heading": "Vendredi 30 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0552"
+    },
+    {
+     "old": "069.0553",
+     "set_french": "Dès notre entrée dans la rue de Rome, Melito vint occuper le côté opposé à celui de Caracciolo et nous nous trouvâmes si bien prises entre ces deux misères à placer que les autres, les bons, ne firent que nous saluer; ce dont je demeurai furieuse. Tout le beau monde de Naples était là, les yeux étaient fatigués à force de tant voir. Je cherchais Larderel, ma robe noire me rendait libre. Lasse, fâchée, triste je retournais déjà lorsque Larderel prit place à mon côté reculant fort adroitement le vilain Caracciolo. J'étais rouge et troublée et stupide."
+    },
+    {
+     "old": "069.0554"
+    },
+    {
+     "old": "069.0555",
+     "set_french": "Larderel a infiniment d'esprit et son esprit me fait sentir la bêtise de ceux que je croyais spirituels. Je suis fade, empruntée, misérable."
+    },
+    {
+     "old": "069.0556",
+     "set_french": "On reste une heure chez nous et Larderel raconte qu'il a voyagé avec M. et Mme Lewin et Mlle Durand l'année passée, et comme Dina disait une aventure de cartes concernant Lewin et sa probité au jeu, il raconta comment cette charmante famille procédait, M. Lewin aux cartes aidé de Mme Clémentina et de Lucie. C'est fort propre."
+    },
+    {
+     "old": "069.0557"
+    },
+    {
+     "old": "069.0558"
+    },
+    {
+     "old": "069.0559"
+    },
+    {
+     "old": "069.0560"
+    },
+    {
+     "old": "069.0561"
+    },
+    {
+     "old": "069.0562"
+    },
+    {
+     "old": "069.0563"
+    },
+    {
+     "old": "069.0564"
+    },
+    {
+     "old": "069.0565",
+     "set_french": "Il s'en alla dîner à huit heures du soir, et alors arriva Altamura et encore Melito ! Je me suis sauvée au balcon écouter toute seule une belle sérénade et penser à Larderel et à l'éclipse totale de mes facultés intellectuelles. C'est dû à maman en partie."
+    },
+    {
+     "old": "069.0566"
+    },
+    {
+     "old": "069.0567"
+    },
+    {
+     "old": "069.0568",
+     "set_french": "Je ne comprends pas ce que c'est. C'est à en perdre la tête pour qui n'est pas comme moi et en a une bonne ou mauvaise ! Je suis allée supplier maman d'être avec Larderel comme avec les autres, me disant désespérée, malheureuse, et suppliant avec des paroles si véhémentes et vraies que je ne sais vraiment comment j'ai osé me dévoiler de la sorte !"
+    },
+    {
+     "old": "069.0569"
+    },
+    {
+     "old": "069.0570"
+    },
+    {
+     "old": "069.0571"
+    },
+    {
+     "old": "069.0572",
+     "set_french": "Je raconte ces petites choses parce que cela ne m'est jamais arrivé ni pour moi, ni pour personne. Et lorsque maman criait avec ses maladies je me contentais de m'en aller dans une autre chambre, je n'ai été troublée que lorsqu'elle avait ses fortes crises où il y avait du danger. Mais là, pour Larderel... c'est plus qu'étrange, c'est incroyable et quand je relirai cela plus tard je dirai que j'ai menti."
+    },
+    {
+     "old": "069.0573"
+    }
+   ]
+  },
+  {
+   "file": "1877-03-31.md",
+   "date": "1877-03-31",
+   "heading": "Samedi 31 mars 1877",
+   "paragraphs": [
+    {
+     "old": "069.0575"
+    },
+    {
+     "old": "069.0576"
+    },
+    {
+     "old": "069.0577"
+    },
+    {
+     "old": "069.0578"
+    },
+    {
+     "old": "069.0579"
+    },
+    {
+     "old": "069.0580"
+    },
+    {
+     "old": "069.0581"
+    },
+    {
+     "old": "069.0582"
+    },
+    {
+     "old": "069.0583"
+    },
+    {
+     "old": "069.0584"
+    },
+    {
+     "old": "069.0585"
+    },
+    {
+     "old": "069.0586",
+     "set_french": "Je voulais rester à la maison, mais ayant vu Larderel courir bras dessus bras dessous avec l'officier, et saluer maman qui passait en ce moment avec les Fabbricatore je leur fais des signes et mettant mon chapeau Dieu sait comment, [Mots noircis: je veux partir. Ah ! oui les Fabbricatore rentrent] et Doenhoff vient ! Un quart d'heure de fièvre !"
+    },
+    {
+     "old": "069.0587"
+    },
+    {
+     "old": "069.0588"
+    },
+    {
+     "old": "069.0589"
+    },
+    {
+     "old": "069.0590"
+    },
+    {
+     "old": "069.0591"
+    },
+    {
+     "old": "069.0592"
+    },
+    {
+     "old": "069.0593"
+    },
+    {
+     "old": "069.0594",
+     "set_french": "Ecoutez je suis anéantie, je n'ai jamais été ainsi, je n'ai jamais pensé à un homme comme je pense à celui-ci. Ce n'est pas qu'il me semble bien... mais il me semble parfait. Audiffret était dur, Antonelli avait une foule de défauts que je sentais bien, d'ailleurs vous savez cela n'avait fait que déteindre sur moi. Mais Larderel... c'est au point que je m'en veux de placer son nom avec les autres et que je le trouve... parfait."
+    },
+    {
+     "old": "069.0595"
+    },
+    {
+     "old": "069.0596"
+    },
+    {
+     "old": "069.0597"
+    },
+    {
+     "old": "069.0598"
+    },
+    {
+     "old": "069.0599"
+    },
+    {
+     "old": "069.0600"
+    },
+    {
+     "old": "069.0601",
+     "set_french": "Je n'aime pas Larderel, mais c'est un chagrin de plus, une honte, un je ne sais plus quoi."
+    },
+    {
+     "old": "069.0602"
+    }
+   ]
+  },
+  {
+   "file": "1877-04-01.md",
+   "date": "1877-04-01",
+   "heading": "Dimanche 1er avril 1877",
+   "paragraphs": [
+    {
+     "old": "069.0604",
+     "set_french": "# Dimanche 1er avril 1877 - Pâques\nJ'ai écrit ensemble avec Doenhoff une vingtaine de lettres ainsi conçues: \"Ce soir à six heures près de l'Aquarium absolument\". Beaucoup y ont été pris. Et surtout les graves Prussiens de la suite du prince, qui y sont allés tous en cachette les uns des autres. Doenhoff a assisté avec nous à cette scène, du balcon."
+    },
+    {
+     "old": "069.0605",
+     "set_french": "J'avais aussi écrit à Larderel, puis j'ai envoyé Rosalie retirer la lettre dans laquelle je ne cachais pas que c'est Violette, pour le mieux attraper. Nous l'avons rencontré à la rue de la Chiaja d'une façon si brusque que je me suis mise en colère. Son salut me parut froid et hésitant; Dina me tendait des violettes je les ai jetées sur le pavé et demandant à rentrer je me suis renfermée dans un silence qui semblait causé comme par une peur."
+    },
+    {
+     "old": "069.0606"
+    },
+    {
+     "old": "069.0607"
+    },
+    {
+     "old": "069.0608"
+    },
+    {
+     "old": "069.0609"
+    },
+    {
+     "old": "069.0610"
+    },
+    {
+     "old": "069.0611",
+     "set_french": "Jour triplement remarquable : 1er avril, Pâques, et présentation du très beau, très illustre, très ravissant, très grand prince de Melissano ! Il passait avec un ami, voyant Larderel sur notre balcon, ce superbe singe joignit les mains, je fis un signe de tête à Bijou qui fit un geste, Melissano descendit de voiture, monta l'étage et fut présenté comme un vrai bouffon qu'il est. Larderel me fait un drôle d'effet."
+    },
+    {
+     "old": "069.0612"
+    },
+    {
+     "old": "069.0613",
+     "set_french": "Je m'épanouissais d'être entourée. Bijou blague. Il est le mari de maman, nous sommes ses filles, Campomarino son fils, mon frère. Il raconte toute une histoire à maman qui se retire dans un coin. Je ne suis pas bête, au contraire. Enfin ! Il se mit entre moi et Dina et fit compliment à cette dernière sur ses boucles, ce à quoi je ne pus m'empêcher de répondre qu'il avait mauvais goût. Une conversation presque générale émaillée d'agaceries avec Larderel m'a rendu la soirée charmante."
+    },
+    {
+     "old": "069.0614"
+    },
+    {
+     "old": "069.0615"
+    },
+    {
+     "old": "069.0616",
+     "set_french": "On parlait de bonté, je vantais celle de maman. - Nous avons quelquefois des querelles à ce sujet, dis-je à Larderel, maman est trop bonne. - C'est parce que vous êtes mauvaise. - Je tiens cela de mon père, de vous. - Tout ce que vous avez de bon vient de moi. - Oh ! c'est certain... mais non, sérieusement je suis excellente, seulement... - Pas toujours. - Je deviens mauvaise quand on me tourmente. - Vous étiez méchante ces derniers jours, mais quelquefois vous êtes bonne... - Quand ? - Le jour que vous êtes allée chercher Madame votre tante à Cancello. - N'est-ce pas ? Mais n'en parlez pas devant maman; cette excursion m'a coûté assez cher... - On a su que vous aviez envoyé la dépêche ?... - Oui... et maman a été très fâchée, aussi ne parlez jamais de Cancello devant elle... - Mais nous pouvons bien en parler entre nous... - Oui... - Pourquoi avez-vous fait cela ? - Pour faire une farce... - Un premier avril anticipé ? - Justement, c'était pour m'amuser. - Aller en train direct pendant une heure et revenir tout de suite, le bel amusement ! - Cela amusait donc ? insistait-il. - Oui, puisque cela me faisait plaisir - répondis-je hardiment... en le regardant en face."
+    },
+    {
+     "old": "069.0617"
+    },
+    {
+     "old": "069.0618"
+    },
+    {
+     "old": "069.0619",
+     "set_french": "Nous avons longtemps attendu au foyer, dûment escortées. Melissano me donnant le bras a été un succès, on l'a presque applaudi. C'est le bouffon de la ville. J'ai ri avec les autres. [En travers: Son désir de vous être présenté était devenu proverbial.] Larderel regardait tous ceux qui attendaient comme nous leurs voitures, d'un air tellement fou que cela me faisait peine. Il ne lui manquait que la Righi !"
+    },
+    {
+     "old": "069.0620"
+    },
+    {
+     "old": "069.0621"
+    },
+    {
+     "old": "069.0622"
+    },
+    {
+     "old": "069.0623",
+     "set_french": "Si c'était un autre homme j'aurais peut-être applaudi, mais Larderel me fait pitié, honte. Il m'enrage, il m'offense II! Sa fille a deux ans. Il lui a donné cent mille francs. - Je suis tranquille, dit-il, elle recevra ces six mille francs par an ! - Elle n'est peut-être pas à vous ?"
+    },
+    {
+     "old": "069.0624"
+    },
+    {
+     "old": "069.0625"
+    },
+    {
+     "new": {
+      "french": "Jamais de la vie une histoire étrangère ne m'a émue à ce point.",
+      "rsr": "Restored from tome10.docx ¶1016, Mon Journal t.10 p.66 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Que m'est cet homme ?",
+      "rsr": "Restored from tome10.docx ¶1017, Mon Journal t.10 p.66 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je fais attention à tout parce que je suis comme le chimiste patient et infatigable qui passe des nuits devant ses cornues pour ne pas perdre l'instant où se produit l'effet attendu et désiré. Il me semble que *cela* va arriver tous les jours et je cherche et je pense... et que sais-je.",
+      "rsr": "Restored from tome10.docx ¶1018, Mon Journal t.10 p.66 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je m'examine curieusement et avec des yeux ébahis, je me demande moitié effrayé, moitié railleuse : Est-ce que, par hasard ce serait *cela ?* Mais je me suis faite une telle opinion de *cela* que je suis arrivée à croire que ça n'existe pas ou bien que ça a déjà été et que ce n'est rien de *fameux.* Mais alors toutes mes imaginations, et les livres et les poètes...",
+      "rsr": "Restored from tome10.docx ¶1019, Mon Journal t.10 p.66 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les poètes auraient-ils eu l'audace d'inventer quelque chose qui n'existe pas pour en couvrir la saleté naturelle ? Non... autrement on ne s'expliquerait pas les préférences...",
+      "rsr": "Restored from tome10.docx ¶1020, Mon Journal t.10 p.66 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'étais à Nice pendant une forte épidémie de la maladie que je ne nomme jamais et tous les jours je disais à table: “Pourvu que nous partions, j'ai si peur que cette épidémie ne passe de Paris à\nNice”. Je disais encore cela et j'attendais encore l'épidémie, quand elle était déjà passée ayant fait d'affreux ravages dans la ville. Je l'attendais toujours.",
+      "rsr": "Restored from tome10.docx ¶1021–1022, Mon Journal t.10 pp.66–67 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Serai-je dans le même cas, et demanderai-je si je dois monter l'escalier en ayant déjà franchi la moitié ?",
+      "rsr": "Restored from tome10.docx ¶1023, Mon Journal t.10 p.67 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quand cela sera, le doute n'existera plus. *En attendant* vous vous êtes aperçu comme moi qu'il se passe chez Violette quelque chose de nouveau. Violette le reconnaît, veut se secouer et ne peut rien comme dans un cauchemar.",
+      "rsr": "Restored from tome10.docx ¶1024, Mon Journal t.10 p.67 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "*Père,* mari de la Righi ! Voilà ce qui m'énerve, m'agace !",
+      "rsr": "Restored from tome10.docx ¶1025, Mon Journal t.10 p.67 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis ébahie de parler sérieusement, et je ris et je dis que ce n'est pas sérieux.",
+      "rsr": "Restored from tome10.docx ¶1026, Mon Journal t.10 p.67 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Croirait-on que je sois agacée *sérieusement* en entendant parler de cela ! J'écoutais maman par une irrésistible curiosité et à chaque instant je me levais comme m'en aller, j'étais *agacée.* Si je ne me considérais pas comme une autre personne je ne débiterais jamais autant de niaiseries et je ne les laisserais pas en les relisant. Relire son journal et ne pas le jeter au diable, voilà une rareté.",
+      "rsr": "Restored from tome10.docx ¶1027, Mon Journal t.10 p.67 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et puis, à présent il me semble que j'exagère. Et c'est vrai. Je suis une personne exagérée; [Mot noirci: ainsi] comme un piano d'un demi-ton trop haut, il est juste mais exagéré.",
+      "rsr": "Restored from tome10.docx ¶1028, Mon Journal t.10 p.67 (missing from original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1877-04-02.md",
+   "date": "1877-04-02",
+   "heading": "Lundi 2 avril 1877",
+   "paragraphs": [
+    {
+     "old": "069.0627",
+     "set_french": "# Lundi 2 avril 1877\nJe me réveille radieuse: Larderel a envoyé le coupon pour la loge de ce soir et sa carte. Il s'est occupé de nous."
+    },
+    {
+     "old": "069.0628"
+    },
+    {
+     "old": "069.0629",
+     "set_french": "Nous avons été chez les Fabbricatore, malgré moi j'ai parlé de Larderel tout en tachant de le masquer par Melissano."
+    },
+    {
+     "old": "069.0630"
+    },
+    {
+     "old": "069.0631",
+     "set_french": "Larderel est venu, profané par Melissano. Après tout ce que j'ai écrit hier je le voyais là devant moi, un étranger voilà tout. Cela m'a donné un peu froid. J'ai fait les cartes à Melissano, baissant les yeux, rougissant et ayant l'air si étrange que Larderel m'a demandé :"
+    },
+    {
+     "old": "069.0632"
+    },
+    {
+     "old": "069.0633"
+    },
+    {
+     "old": "069.0634",
+     "set_french": "Maman est rentrée en ce moment, ces messieurs n'attendaient qu'elle pour fixer définitivement le départ pour Sorrento, on les attendait dîner. Ce Larderel avec sa suite, veut nous isoler des autres. Je reconnais bien cet esprit d'invasion. Rien de nuisible comme cela. Si j'ai eu la faiblesse de consentir à n'emmener que Melissano et Marcuard, je ferai une autre partie où il y aura tout le monde."
+    },
+    {
+     "old": "069.0635"
+    },
+    {
+     "old": "069.0636",
+     "set_french": "Ah ! Larderel fait de moi ce qu'il veut comme tous ceux à qui je tiens un peu."
+    },
+    {
+     "old": "069.0637"
+    },
+    {
+     "old": "069.0638"
+    },
+    {
+     "old": "069.0639",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mouzay (réponse), 2 avril 1877",
+     "set_french": "> \"Votre lettre me ravit. C'est tellement vrai tout ce que vous dites que je l'ai pensé cent fois moi-même. Seulement vous exagérez ma valeur vraiment. Je valais peut-être quelque chose mais tous ces voyages m'ont abrutie. \""
+    },
+    {
+     "old": "069.0640",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mouzay (réponse), 2 avril 1877",
+     "set_french": "> J'ai toujours mal à la gorge et le climat de Naples me fera peut-être du bien. Ne prenez pas trop au sérieux ce que j'écris ce soir, je suis mélancolique et je vois tout sous un crêpe. Cela arrive à tout le monde. Je pense avec bonheur que dans un mois nous serons installés à Paris d'où je ne veux plus sortir."
+    },
+    {
+     "old": "069.0641",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mouzay (réponse), 2 avril 1877",
+     "set_french": "> Les oreilles coupées[^1] ont leur charme pour ceux qui les coupent. Mettez-vous en colère, écrivez-moi tout ce que vous voudrez, cela m'entretiendra dans un état d'esprit à peu près sain. Je suis moi-même lasse de moisir, vos paroles me révoltent contre moi et contre tous, j'allais m'endormir tout à fait sans vos injures que j'apprécie et comprends."
+    },
+    {
+     "old": "069.0642",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mouzay (réponse), 2 avril 1877",
+     "set_french": "> Pensez-vous que je n'aie pas mille fois ruminé cent cinquante projets ? Eh Bon Dieu ! Mais à quoi sert ? Hier j'étais gaie, ce soir je suis énervée. Maman et Dina sont à San Carlo. Je suis restée à la maison, ce qui a causé à la maison une petite escarmouche domestique dans laquelle j'ai joué un rôle tout à fait passif. Depuis quelque temps je suis si raisonnable et tranquille que c'est effrayant. Je m'ennuie !"
+    },
+    {
+     "old": "069.0643",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mouzay (réponse), 2 avril 1877",
+     "set_french": "> Qu'est-ce que vous voulez qu'on y fasse ! Je ne puis donc pas m'amuser à me monter la tête pour un imbécile ou même pour un homme d'esprit. Ce genre de divertissement ne me sourit que comme un accessoire indispensable. Je crois que j'écris des bêtises, ne prenez de la lettre que ce qu'il faut. Les sérénades continuent voudriez-vous que cet Espagnol amusement me fût interdit ! Bon Dieu que vous êtes sévère. Ça m'est égal à distance, nous vous embrasserons quand même à Paris. C'est un tas de choses qui me retiennent à Naples. Je vous raconterai tout cela. C'est vide mais cela fait passer les journées."
+    },
+    {
+     "old": "069.0644",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mouzay (réponse), 2 avril 1877",
+     "set_french": "> Vous savez que c'est le mari de Madame, c'est-à-dire mon père très estimé qui a causé les désordres de cet hiver."
+    },
+    {
+     "old": "069.0645",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mouzay (réponse), 2 avril 1877",
+     "set_french": "> Sans lui nous serions depuis longtemps tranquilles et même agités à Paris, jouissant etc. etc. etc."
+    },
+    {
+     "old": "069.0646",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mouzay (réponse), 2 avril 1877",
+     "set_french": "> Au revoir, injuriez-moi plus souvent cela me fait un bien immense. Tout à fait à vous. Marie."
+    },
+    {
+     "old": "069.0647",
+     "kind": "editorial",
+     "source": "note of the Cercle edition’s editors on the manuscript"
+    },
+    {
+     "old": "069.0648"
+    },
+    {
+     "old": "069.0649"
+    }
+   ]
+  }
+ ]
+}

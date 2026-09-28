@@ -26,7 +26,7 @@ A branch of the great Neapolitan House of Caracciolo. Founded when Ambrogio Cara
 Note: Marie writes "Torchiaroli" (French rendering); the Italian is "Torchiarolo."
 
 ## References in Diary
-- 069.0466 (1877-03-26): "comte Francesco Caracciolo, dei principe di Torchiaroli" — a count of this princely branch leaves his visiting card
+- 069.0527 (1877-03-26): "comte Francesco Caracciolo, dei principe di Torchiaroli" — a count of this princely branch leaves his visiting card
 
 ## Related Entries
 - [CARACCIOLO](../mentioned/CARACCIOLO.md) — the individual Comte Francesco Caracciolo of this branch

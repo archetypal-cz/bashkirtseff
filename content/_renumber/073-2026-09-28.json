@@ -1,0 +1,3450 @@
+{
+  "carnet": "073",
+  "date": "2026-09-28",
+  "plan_path": "../rebuild-state/plan-tome10/final3/plan-073.json",
+  "plan_source": "tome10.docx",
+  "run_carnets": [
+    "069",
+    "070",
+    "071",
+    "072",
+    "073",
+    "074"
+  ],
+  "id_map": {
+    "073.0002": "072.0564",
+    "073.0003": "072.0565",
+    "073.0004": "072.0566",
+    "073.0005": "072.0567",
+    "073.0006": "072.0568",
+    "073.0007": "072.0569",
+    "073.0008": "072.0570",
+    "073.0009": "072.0571",
+    "073.0010": "072.0572",
+    "073.0011": "072.0573",
+    "073.0012": "072.0574",
+    "073.0013": "072.0575",
+    "073.0014": "072.0576",
+    "073.0015": "072.0577",
+    "073.0016": "072.0578",
+    "073.0017": "072.0579",
+    "073.0018": "072.0580",
+    "073.0019": "072.0581",
+    "073.0020": "072.0582",
+    "073.0021": "072.0583",
+    "073.0022": "072.0584",
+    "073.0023": "072.0585",
+    "073.0024": "072.0586",
+    "073.0025": "072.0587",
+    "073.0026": "072.0588",
+    "073.0027": "072.0589",
+    "073.0028": "072.0590",
+    "073.0029": "072.0591",
+    "073.0030": "072.0592",
+    "073.0031": "072.0593",
+    "073.0032": "072.0594",
+    "073.0033": "072.0595",
+    "073.0034": "072.0596",
+    "073.0035": "072.0597",
+    "073.0036": "072.0598",
+    "073.0040": "073.0001",
+    "073.0041": "073.0002",
+    "073.0042": "073.0003",
+    "073.0043": "073.0004",
+    "073.0044": "073.0005",
+    "073.0046": "073.0021",
+    "073.0047": "073.0022",
+    "073.0048": "073.0023",
+    "073.0049": "073.0024",
+    "073.0050": "073.0025",
+    "073.0051": "073.0026",
+    "073.0052": "073.0027",
+    "073.0053": "073.0028",
+    "073.0054": "073.0029",
+    "073.0055": "073.0030",
+    "073.0056": "073.0031",
+    "073.0057": "073.0032",
+    "073.0058": "073.0033",
+    "073.0059": "073.0034",
+    "073.0060": "073.0035",
+    "073.0061": "073.0036",
+    "073.0062": "073.0037",
+    "073.0063": "073.0038",
+    "073.0064": "073.0039",
+    "073.0065": "073.0040",
+    "073.0066": "073.0041",
+    "073.0067": "073.0042",
+    "073.0068": "073.0043",
+    "073.0069": "073.0044",
+    "073.0070": "073.0045",
+    "073.0071": "073.0046",
+    "073.0072": "073.0047",
+    "073.0074": "073.0071",
+    "073.0076": "073.0073",
+    "073.0077": "073.0074",
+    "073.0078": "073.0075",
+    "073.0079": "073.0076",
+    "073.0080": "073.0077",
+    "073.0081": "073.0078",
+    "073.0082": "073.0079",
+    "073.0083": "073.0080",
+    "073.0084": "073.0081",
+    "073.0085": "073.0082",
+    "073.0086": "073.0083",
+    "073.0087": "073.0084",
+    "073.0088": "073.0085",
+    "073.0089": "073.0086",
+    "073.0090": "073.0087",
+    "073.0091": "073.0088",
+    "073.0092": "073.0089",
+    "073.0093": "073.0090",
+    "073.0094": "073.0091",
+    "073.0095": "073.0092",
+    "073.0096": "073.0093",
+    "073.0097": "073.0094",
+    "073.0098": "073.0095",
+    "073.0099": "073.0096",
+    "073.0100": "073.0097",
+    "073.0101": "073.0098",
+    "073.0102": "073.0099",
+    "073.0103": "073.0100",
+    "073.0104": "073.0101",
+    "073.0105": "073.0102",
+    "073.0106": "073.0103",
+    "073.0107": "073.0104",
+    "073.0108": "073.0105",
+    "073.0109": "073.0106",
+    "073.0110": "073.0107",
+    "073.0112": "073.0108",
+    "073.0113": "073.0109",
+    "073.0114": "073.0110",
+    "073.0116": "073.0133",
+    "073.0117": "073.0134",
+    "073.0118": "073.0135",
+    "073.0119": "073.0136",
+    "073.0120": "073.0137",
+    "073.0121": "073.0138",
+    "073.0122": "073.0139",
+    "073.0123": "073.0140",
+    "073.0124": "073.0141",
+    "073.0125": "073.0142",
+    "073.0126": "073.0143",
+    "073.0127": "073.0144",
+    "073.0128": "073.0145",
+    "073.0129": "073.0146",
+    "073.0130": "073.0147",
+    "073.0131": "073.0148",
+    "073.0132": "073.0149",
+    "073.0133": "073.0150",
+    "073.0134": "073.0151",
+    "073.0135": "073.0152",
+    "073.0136": "073.0153",
+    "073.0137": "073.0154",
+    "073.0138": "073.0155",
+    "073.0139": "073.0156",
+    "073.0140": "073.0157",
+    "073.0141": "073.0158",
+    "073.0142": "073.0159",
+    "073.0143": "073.0160",
+    "073.0144": "073.0161",
+    "073.0145": "073.0162",
+    "073.0146": "073.0163",
+    "073.0147": "073.0164",
+    "073.0148": "073.0165",
+    "073.0149": "073.0166",
+    "073.0150": "073.0167",
+    "073.0151": "073.0168",
+    "073.0152": "073.0169",
+    "073.0153": "073.0170",
+    "073.0154": "073.0171",
+    "073.0155": "073.0172",
+    "073.0156": "073.0173",
+    "073.0158": "073.0182",
+    "073.0159": "073.0183",
+    "073.0160": "073.0184",
+    "073.0161": "073.0185",
+    "073.0162": "073.0186",
+    "073.0163": "073.0187",
+    "073.0164": "073.0188",
+    "073.0165": "073.0189",
+    "073.0166": "073.0190",
+    "073.0167": "073.0191",
+    "073.0168": "073.0192",
+    "073.0169": "073.0193",
+    "073.0170": "073.0194",
+    "073.0171": "073.0195",
+    "073.0172": "073.0196",
+    "073.0173": "073.0197",
+    "073.0174": "073.0198",
+    "073.0175": "073.0199",
+    "073.0177": "073.0200",
+    "073.0178": "073.0201",
+    "073.0179": "073.0202",
+    "073.0180": "073.0203",
+    "073.0181": "073.0204",
+    "073.0182": "073.0205",
+    "073.0183": "073.0206",
+    "073.0184": "073.0207",
+    "073.0185": "073.0208",
+    "073.0186": "073.0209",
+    "073.0187": "073.0210",
+    "073.0188": "073.0211",
+    "073.0189": "073.0212",
+    "073.0190": "073.0213",
+    "073.0191": "073.0214",
+    "073.0192": "073.0215",
+    "073.0193": "073.0216",
+    "073.0194": "073.0217",
+    "073.0195": "073.0218",
+    "073.0196": "073.0219",
+    "073.0197": "073.0220",
+    "073.0198": "073.0221",
+    "073.0199": "073.0222",
+    "073.0200": "073.0223",
+    "073.0201": "073.0224",
+    "073.0202": "073.0225",
+    "073.0203": "073.0226",
+    "073.0204": "073.0227",
+    "073.0205": "073.0228",
+    "073.0206": "073.0229",
+    "073.0207": "073.0230",
+    "073.0208": "073.0231",
+    "073.0209": "073.0232",
+    "073.0210": "073.0233",
+    "073.0211": "073.0234",
+    "073.0212": "073.0235",
+    "073.0213": "073.0236",
+    "073.0214": "073.0237",
+    "073.0215": "073.0238",
+    "073.0216": "073.0239",
+    "073.0218": "073.0240",
+    "073.0219": "073.0241",
+    "073.0220": "073.0242",
+    "073.0221": "073.0243",
+    "073.0222": "073.0244",
+    "073.0223": "073.0245",
+    "073.0224": "073.0246",
+    "073.0225": "073.0247",
+    "073.0226": "073.0248",
+    "073.0227": "073.0249",
+    "073.0228": "073.0250",
+    "073.0229": "073.0251",
+    "073.0230": "073.0252",
+    "073.0231": "073.0253",
+    "073.0232": "073.0254",
+    "073.0233": "073.0255",
+    "073.0234": "073.0256",
+    "073.0235": "073.0257",
+    "073.0236": "073.0258",
+    "073.0237": "073.0259",
+    "073.0238": "073.0260",
+    "073.0239": "073.0261",
+    "073.0240": "073.0262",
+    "073.0241": "073.0263",
+    "073.0242": "073.0264",
+    "073.0243": "073.0265",
+    "073.0244": "073.0266",
+    "073.0245": "073.0267",
+    "073.0246": "073.0268",
+    "073.0247": "073.0269",
+    "073.0248": "073.0270",
+    "073.0249": "073.0271",
+    "073.0250": "073.0272",
+    "073.0251": "073.0273",
+    "073.0252": "073.0274",
+    "073.0253": "073.0275",
+    "073.0255": "073.0276",
+    "073.0256": "073.0277",
+    "073.0257": "073.0278",
+    "073.0258": "073.0279",
+    "073.0259": "073.0280",
+    "073.0260": "073.0281",
+    "073.0261": "073.0282",
+    "073.0262": "073.0283",
+    "073.0263": "073.0284",
+    "073.0264": "073.0285",
+    "073.0265": "073.0286",
+    "073.0266": "073.0287",
+    "073.0267": "073.0288",
+    "073.0268": "073.0289",
+    "073.0269": "073.0290",
+    "073.0270": "073.0291",
+    "073.0271": "073.0292",
+    "073.0272": "073.0293",
+    "073.0273": "073.0294",
+    "073.0274": "073.0295",
+    "073.0275": "073.0296",
+    "073.0276": "073.0297",
+    "073.0277": "073.0298",
+    "073.0278": "073.0299",
+    "073.0279": "073.0300",
+    "073.0280": "073.0301",
+    "073.0281": "073.0302",
+    "073.0282": "073.0303",
+    "073.0285": "073.0304",
+    "073.0287": "073.0312",
+    "073.0288": "073.0313",
+    "073.0289": "073.0314",
+    "073.0290": "073.0315",
+    "073.0291": "073.0316",
+    "073.0292": "073.0317",
+    "073.0293": "073.0318",
+    "073.0294": "073.0319",
+    "073.0295": "073.0320",
+    "073.0296": "073.0321",
+    "073.0297": "073.0322",
+    "073.0298": "073.0323",
+    "073.0299": "073.0324",
+    "073.0300": "073.0325",
+    "073.0301": "073.0326",
+    "073.0302": "073.0327",
+    "073.0303": "073.0328",
+    "073.0307": "073.0329",
+    "073.0308": "073.0330",
+    "073.0309": "073.0331",
+    "073.0310": "073.0332",
+    "073.0311": "073.0333",
+    "073.0312": "073.0334",
+    "073.0313": "073.0335",
+    "073.0314": "073.0336",
+    "073.0315": "073.0337",
+    "073.0316": "073.0338",
+    "073.0317": "073.0339",
+    "073.0318": "073.0340",
+    "073.0319": "073.0341",
+    "073.0320": "073.0342",
+    "073.0321": "073.0343",
+    "073.0322": "073.0344",
+    "073.0323": "073.0345",
+    "073.0324": "073.0346",
+    "073.0325": "073.0347",
+    "073.0326": "073.0348",
+    "073.0327": "073.0349",
+    "073.0328": "073.0350",
+    "073.0329": "073.0351",
+    "073.0330": "073.0352",
+    "073.0331": "073.0353",
+    "073.0332": "073.0354",
+    "073.0333": "073.0355",
+    "073.0334": "073.0356",
+    "073.0335": "073.0357",
+    "073.0336": "073.0358",
+    "073.0337": "073.0359",
+    "073.0338": "073.0360",
+    "073.0339": "073.0361",
+    "073.0340": "073.0362",
+    "073.0341": "073.0363",
+    "073.0342": "073.0364",
+    "073.0343": "073.0365",
+    "073.0344": "073.0366",
+    "073.0345": "073.0367",
+    "073.0346": "073.0368",
+    "073.0347": "073.0369",
+    "073.0348": "073.0370",
+    "073.0349": "073.0371",
+    "073.0350": "073.0372",
+    "073.0351": "073.0373",
+    "073.0352": "073.0374",
+    "073.0353": "073.0375",
+    "073.0354": "073.0376",
+    "073.0356": "073.0377",
+    "073.0357": "073.0378",
+    "073.0358": "073.0379",
+    "073.0359": "073.0380",
+    "073.0360": "073.0381",
+    "073.0361": "073.0382",
+    "073.0362": "073.0383",
+    "073.0363": "073.0384",
+    "073.0364": "073.0385",
+    "073.0365": "073.0386",
+    "073.0366": "073.0387",
+    "073.0367": "073.0388",
+    "073.0368": "073.0389",
+    "073.0369": "073.0390",
+    "073.0371": "073.0391",
+    "073.0372": "073.0392",
+    "073.0373": "073.0393",
+    "073.0374": "073.0394",
+    "073.0375": "073.0395",
+    "073.0376": "073.0396",
+    "073.0377": "073.0397",
+    "073.0378": "073.0398",
+    "073.0379": "073.0399",
+    "073.0380": "073.0400",
+    "073.0381": "073.0401",
+    "073.0382": "073.0402",
+    "073.0383": "073.0403",
+    "073.0384": "073.0404",
+    "073.0385": "073.0405",
+    "073.0386": "073.0406",
+    "073.0387": "073.0407",
+    "073.0388": "073.0408",
+    "073.0389": "073.0409",
+    "073.0390": "073.0410",
+    "073.0391": "073.0411",
+    "073.0392": "073.0412",
+    "073.0393": "073.0413",
+    "073.0395": "073.0414",
+    "073.0396": "073.0415",
+    "073.0397": "073.0416",
+    "073.0398": "073.0417",
+    "073.0399": "073.0418",
+    "073.0401": "073.0419",
+    "073.0402": "073.0420",
+    "073.0403": "073.0421",
+    "073.0404": "073.0422",
+    "073.0405": "073.0423",
+    "073.0406": "073.0424",
+    "073.0407": "073.0425",
+    "073.0408": "073.0426",
+    "073.0409": "073.0427",
+    "073.0410": "073.0428",
+    "073.0411": "073.0429",
+    "073.0412": "073.0430",
+    "073.0413": "073.0431",
+    "073.0414": "073.0432",
+    "073.0415": "073.0433",
+    "073.0416": "073.0434",
+    "073.0417": "073.0435",
+    "073.0418": "073.0436",
+    "073.0419": "073.0437",
+    "073.0420": "073.0438",
+    "073.0421": "073.0439",
+    "073.0422": "073.0440",
+    "073.0423": "073.0441",
+    "073.0424": "073.0442",
+    "073.0425": "073.0443",
+    "073.0427": "073.0444",
+    "073.0428": "073.0445",
+    "073.0429": "073.0446",
+    "073.0430": "073.0447",
+    "073.0431": "073.0448",
+    "073.0432": "073.0449",
+    "073.0433": "073.0450",
+    "073.0434": "073.0451",
+    "073.0435": "073.0452",
+    "073.0436": "073.0453",
+    "073.0437": "073.0454",
+    "073.0438": "073.0455",
+    "073.0439": "073.0456",
+    "073.0440": "073.0457",
+    "073.0441": "073.0458",
+    "073.0442": "073.0459",
+    "073.0443": "073.0460",
+    "073.0444": "073.0461",
+    "073.0445": "073.0462",
+    "073.0446": "073.0463",
+    "073.0447": "073.0464",
+    "073.0448": "073.0465",
+    "073.0449": "073.0466",
+    "073.0450": "073.0467",
+    "073.0451": "073.0468",
+    "073.0452": "073.0469",
+    "073.0453": "073.0470",
+    "073.0454": "073.0471",
+    "073.0455": "073.0472",
+    "073.0456": "073.0473",
+    "073.0457": "073.0474",
+    "073.0458": "073.0475",
+    "073.0460": "073.0488",
+    "073.0461": "073.0489",
+    "073.0462": "073.0490",
+    "073.0463": "073.0491",
+    "073.0464": "073.0492",
+    "073.0465": "073.0493",
+    "073.0466": "073.0494",
+    "073.0467": "073.0495",
+    "073.0468": "073.0496",
+    "073.0469": "073.0497",
+    "073.0470": "073.0498",
+    "073.0471": "073.0499",
+    "073.0472": "073.0500",
+    "073.0473": "073.0501",
+    "073.0474": "073.0502",
+    "073.0475": "073.0503",
+    "073.0476": "073.0504",
+    "073.0477": "073.0505",
+    "073.0478": "073.0506",
+    "073.0479": "073.0507",
+    "073.0480": "073.0508",
+    "073.0481": "073.0509",
+    "073.0482": "073.0510",
+    "073.0483": "073.0511",
+    "073.0484": "073.0512",
+    "073.0485": "073.0513",
+    "073.0486": "073.0514",
+    "073.0487": "073.0515",
+    "073.0488": "073.0516",
+    "073.0489": "073.0517",
+    "073.0490": "073.0518",
+    "073.0491": "073.0519",
+    "073.0492": "073.0520",
+    "073.0493": "073.0521",
+    "073.0494": "073.0522",
+    "073.0495": "073.0523",
+    "073.0496": "073.0524",
+    "073.0497": "073.0525",
+    "073.0498": "073.0526",
+    "073.0499": "073.0527",
+    "073.0500": "073.0528",
+    "073.0501": "073.0529",
+    "073.0502": "073.0530",
+    "073.0503": "073.0531",
+    "073.0504": "073.0532",
+    "073.0505": "073.0533",
+    "073.0506": "073.0534",
+    "073.0507": "073.0535",
+    "073.0508": "073.0536",
+    "073.0509": "073.0537",
+    "073.0510": "073.0538",
+    "073.0511": "073.0539",
+    "073.0512": "073.0540",
+    "073.0513": "073.0541",
+    "073.0514": "073.0542",
+    "073.0515": "073.0543",
+    "073.0516": "073.0544",
+    "073.0517": "073.0545",
+    "073.0518": "073.0546",
+    "073.0519": "073.0547",
+    "073.0520": "073.0548",
+    "073.0521": "073.0549",
+    "073.0522": "073.0550",
+    "073.0523": "073.0551",
+    "073.0524": "073.0552",
+    "073.0525": "073.0553",
+    "073.0526": "073.0554",
+    "073.0527": "073.0555",
+    "073.0528": "073.0556"
+  },
+  "moved_out": {
+    "073.0002": "072.0564",
+    "073.0003": "072.0565",
+    "073.0004": "072.0566",
+    "073.0005": "072.0567",
+    "073.0006": "072.0568",
+    "073.0007": "072.0569",
+    "073.0008": "072.0570",
+    "073.0009": "072.0571",
+    "073.0010": "072.0572",
+    "073.0011": "072.0573",
+    "073.0012": "072.0574",
+    "073.0013": "072.0575",
+    "073.0014": "072.0576",
+    "073.0015": "072.0577",
+    "073.0016": "072.0578",
+    "073.0017": "072.0579",
+    "073.0018": "072.0580",
+    "073.0019": "072.0581",
+    "073.0020": "072.0582",
+    "073.0021": "072.0583",
+    "073.0022": "072.0584",
+    "073.0023": "072.0585",
+    "073.0024": "072.0586",
+    "073.0025": "072.0587",
+    "073.0026": "072.0588",
+    "073.0027": "072.0589",
+    "073.0028": "072.0590",
+    "073.0029": "072.0591",
+    "073.0030": "072.0592",
+    "073.0031": "072.0593",
+    "073.0032": "072.0594",
+    "073.0033": "072.0595",
+    "073.0034": "072.0596",
+    "073.0035": "072.0597",
+    "073.0036": "072.0598"
+  },
+  "changed_ids": 468,
+  "new_paragraphs": [
+    {
+      "id": "073.0006",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0007",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0008",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0009",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0010",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0011",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0012",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0013",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0014",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0015",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0016",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0017",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0018",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0019",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0020",
+      "file": "1877-07-15.md"
+    },
+    {
+      "id": "073.0048",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0049",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0050",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0051",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0052",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0053",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0054",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0055",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0056",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0057",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0058",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0059",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0060",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0061",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0062",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0063",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0064",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0065",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0066",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0067",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0068",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0069",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0070",
+      "file": "1877-07-18.md"
+    },
+    {
+      "id": "073.0072",
+      "file": "1877-07-19.md"
+    },
+    {
+      "id": "073.0111",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0112",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0113",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0114",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0115",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0116",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0117",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0118",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0119",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0120",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0121",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0122",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0123",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0124",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0125",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0126",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0127",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0128",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0129",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0130",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0131",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0132",
+      "file": "1877-07-23.md"
+    },
+    {
+      "id": "073.0174",
+      "file": "1877-07-25.md"
+    },
+    {
+      "id": "073.0175",
+      "file": "1877-07-25.md"
+    },
+    {
+      "id": "073.0176",
+      "file": "1877-07-25.md"
+    },
+    {
+      "id": "073.0177",
+      "file": "1877-07-25.md"
+    },
+    {
+      "id": "073.0178",
+      "file": "1877-07-25.md"
+    },
+    {
+      "id": "073.0179",
+      "file": "1877-07-25.md"
+    },
+    {
+      "id": "073.0180",
+      "file": "1877-07-25.md"
+    },
+    {
+      "id": "073.0181",
+      "file": "1877-07-25.md"
+    },
+    {
+      "id": "073.0305",
+      "file": "1877-08-05.md"
+    },
+    {
+      "id": "073.0306",
+      "file": "1877-08-05.md"
+    },
+    {
+      "id": "073.0307",
+      "file": "1877-08-05.md"
+    },
+    {
+      "id": "073.0308",
+      "file": "1877-08-05.md"
+    },
+    {
+      "id": "073.0309",
+      "file": "1877-08-05.md"
+    },
+    {
+      "id": "073.0310",
+      "file": "1877-08-05.md"
+    },
+    {
+      "id": "073.0311",
+      "file": "1877-08-05.md"
+    },
+    {
+      "id": "073.0476",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0477",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0478",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0479",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0480",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0481",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0482",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0483",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0484",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0485",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0486",
+      "file": "1877-08-16.md"
+    },
+    {
+      "id": "073.0487",
+      "file": "1877-08-16.md"
+    }
+  ],
+  "dropped": [
+    {
+      "id": "073.0045",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0045"
+    },
+    {
+      "id": "073.0073",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0073"
+    },
+    {
+      "id": "073.0111",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0111"
+    },
+    {
+      "id": "073.0115",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0115"
+    },
+    {
+      "id": "073.0157",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0157"
+    },
+    {
+      "id": "073.0176",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0176"
+    },
+    {
+      "id": "073.0217",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0217"
+    },
+    {
+      "id": "073.0254",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0254"
+    },
+    {
+      "id": "073.0286",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0286"
+    },
+    {
+      "id": "073.0305",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0305"
+    },
+    {
+      "id": "073.0355",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0355"
+    },
+    {
+      "id": "073.0370",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0370"
+    },
+    {
+      "id": "073.0394",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0394"
+    },
+    {
+      "id": "073.0400",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0400"
+    },
+    {
+      "id": "073.0426",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0426"
+    },
+    {
+      "id": "073.0459",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "073.DROPPED-0459"
+    },
+    {
+      "id": "073.0001",
+      "reason": "«[Continuation de la fantaisie du 14 juillet]» is not in the manuscript: the extraction's note when it filed the end of the 14 July fantaisie (Livre 72, now in 072) under 15 July; the heading «Dimanche 15 juillet 1877» (tome10.docx ¶3727) comes from the plan's `heading`",
+      "rewritten_as": "073.DROPPED-0001"
+    },
+    {
+      "id": "073.0075",
+      "reason": "«Cette date n'apparaît pas dans le carnet original.» is the extraction's invention: the manuscript has the date line «Jeudi 19 juillet 1877» (tome10.docx ¶3801) with no text; replaced by the standard «[Aucun texte - date seule mentionnée]»",
+      "rewritten_as": "073.DROPPED-0075"
+    },
+    {
+      "id": "073.0283",
+      "reason": "Invented entry: there is no «Dimanche 5 août» date line in the manuscript. Marie's «Dimanche 6 août 1877» (tome10.docx ¶4047) is Sunday 5 August and now heads 1877-08-05",
+      "rewritten_as": "073.DROPPED-0283"
+    },
+    {
+      "id": "073.0284",
+      "reason": "«Cette date n'apparaît pas dans le carnet original.» is the extraction's note for its invented 5 August entry (not in tome10.docx)",
+      "rewritten_as": "073.DROPPED-0284"
+    },
+    {
+      "id": "073.0304",
+      "reason": "Empty in _original; en/fr carried an extraction note «[Note: Marie a écrit \"Mardi 7 août 1877\" mais c'est une erreur, le 7 août était un lundi]» that is wrong (7 Aug 1877 was a Tuesday) and not in the manuscript; uk had already removed it (ED 2026-09-26)",
+      "rewritten_as": "073.DROPPED-0304"
+    },
+    {
+      "id": "073.0306",
+      "reason": "«[Dans le carnet Marie a noté \"Mardi 7 août 1877\" mais c'est le 8]» is the extraction's (wrong) note, not in the manuscript: «Mardi 7 août 1877» (tome10.docx ¶4074) is right; that day is 1877-08-07 and takes its heading from the plan",
+      "rewritten_as": "073.DROPPED-0306"
+    },
+    {
+      "id": "073.0037",
+      "reason": "title-page (cover) text; withdrawn by owner decision 2026-09-28 until the manuscript is available (text kept in content/_renumber/CCC/REVIEW.md)",
+      "rewritten_as": "073.DROPPED-0037"
+    },
+    {
+      "id": "073.0038",
+      "reason": "title-page (cover) text; withdrawn by owner decision 2026-09-28 until the manuscript is available (text kept in content/_renumber/CCC/REVIEW.md)",
+      "rewritten_as": "073.DROPPED-0038"
+    },
+    {
+      "id": "073.0039",
+      "reason": "title-page (cover) text; withdrawn by owner decision 2026-09-28 until the manuscript is available (text kept in content/_renumber/CCC/REVIEW.md)",
+      "rewritten_as": "073.DROPPED-0039"
+    }
+  ],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [],
+  "last_id": "073.0556",
+  "flag_resets": {
+    "cz": [
+      "1877-07-15.md",
+      "1877-07-18.md",
+      "1877-07-19.md",
+      "1877-07-22.md",
+      "1877-07-23.md",
+      "1877-07-25.md",
+      "1877-07-26.md",
+      "1877-07-29.md",
+      "1877-08-02.md",
+      "1877-08-05.md",
+      "1877-08-06.md",
+      "1877-08-07.md",
+      "1877-08-08.md",
+      "1877-08-10.md",
+      "1877-08-11.md",
+      "1877-08-12.md",
+      "1877-08-14.md",
+      "1877-08-16.md"
+    ],
+    "uk": [
+      "1877-07-15.md",
+      "1877-07-18.md",
+      "1877-07-19.md",
+      "1877-07-22.md",
+      "1877-07-23.md",
+      "1877-07-25.md",
+      "1877-07-26.md",
+      "1877-07-29.md",
+      "1877-08-02.md",
+      "1877-08-05.md",
+      "1877-08-06.md",
+      "1877-08-07.md",
+      "1877-08-08.md",
+      "1877-08-10.md",
+      "1877-08-11.md",
+      "1877-08-12.md",
+      "1877-08-14.md",
+      "1877-08-16.md"
+    ],
+    "en": [
+      "1877-07-15.md",
+      "1877-07-18.md",
+      "1877-07-19.md",
+      "1877-07-22.md",
+      "1877-07-23.md",
+      "1877-07-25.md",
+      "1877-07-26.md",
+      "1877-07-29.md",
+      "1877-08-02.md",
+      "1877-08-05.md",
+      "1877-08-06.md",
+      "1877-08-07.md",
+      "1877-08-08.md",
+      "1877-08-10.md",
+      "1877-08-11.md",
+      "1877-08-12.md",
+      "1877-08-14.md",
+      "1877-08-16.md"
+    ],
+    "fr": [
+      "1877-07-15.md",
+      "1877-07-18.md",
+      "1877-07-19.md",
+      "1877-07-22.md",
+      "1877-07-23.md",
+      "1877-07-25.md",
+      "1877-07-26.md",
+      "1877-07-29.md",
+      "1877-08-02.md",
+      "1877-08-05.md",
+      "1877-08-06.md",
+      "1877-08-07.md",
+      "1877-08-08.md",
+      "1877-08-10.md",
+      "1877-08-11.md",
+      "1877-08-12.md",
+      "1877-08-14.md",
+      "1877-08-16.md"
+    ]
+  },
+  "plan": {
+    "carnet": "073",
+    "source": "tome10.docx",
+    "drop": [
+      {
+        "id": "073.0045",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0073",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0111",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0115",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0157",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0176",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0217",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0254",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0286",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0305",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0355",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0370",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0394",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0400",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0426",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0459",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "073.0001",
+        "reason": "«[Continuation de la fantaisie du 14 juillet]» is not in the manuscript: the extraction's note when it filed the end of the 14 July fantaisie (Livre 72, now in 072) under 15 July; the heading «Dimanche 15 juillet 1877» (tome10.docx ¶3727) comes from the plan's `heading`"
+      },
+      {
+        "id": "073.0075",
+        "reason": "«Cette date n'apparaît pas dans le carnet original.» is the extraction's invention: the manuscript has the date line «Jeudi 19 juillet 1877» (tome10.docx ¶3801) with no text; replaced by the standard «[Aucun texte - date seule mentionnée]»"
+      },
+      {
+        "id": "073.0283",
+        "reason": "Invented entry: there is no «Dimanche 5 août» date line in the manuscript. Marie's «Dimanche 6 août 1877» (tome10.docx ¶4047) is Sunday 5 August and now heads 1877-08-05"
+      },
+      {
+        "id": "073.0284",
+        "reason": "«Cette date n'apparaît pas dans le carnet original.» is the extraction's note for its invented 5 August entry (not in tome10.docx)"
+      },
+      {
+        "id": "073.0304",
+        "reason": "Empty in _original; en/fr carried an extraction note «[Note: Marie a écrit \"Mardi 7 août 1877\" mais c'est une erreur, le 7 août était un lundi]» that is wrong (7 Aug 1877 was a Tuesday) and not in the manuscript; uk had already removed it (ED 2026-09-26)"
+      },
+      {
+        "id": "073.0306",
+        "reason": "«[Dans le carnet Marie a noté \"Mardi 7 août 1877\" mais c'est le 8]» is the extraction's (wrong) note, not in the manuscript: «Mardi 7 août 1877» (tome10.docx ¶4074) is right; that day is 1877-08-07 and takes its heading from the plan"
+      },
+      {
+        "id": "073.0037",
+        "reason": "title-page (cover) text; withdrawn by owner decision 2026-09-28 until the manuscript is available (text kept in content/_renumber/CCC/REVIEW.md)"
+      },
+      {
+        "id": "073.0038",
+        "reason": "title-page (cover) text; withdrawn by owner decision 2026-09-28 until the manuscript is available (text kept in content/_renumber/CCC/REVIEW.md)"
+      },
+      {
+        "id": "073.0039",
+        "reason": "title-page (cover) text; withdrawn by owner decision 2026-09-28 until the manuscript is available (text kept in content/_renumber/CCC/REVIEW.md)"
+      }
+    ],
+    "entries": [
+      {
+        "file": "1877-07-15.md",
+        "date": "1877-07-15",
+        "heading": "Dimanche 15 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0040"
+          },
+          {
+            "old": "073.0041"
+          },
+          {
+            "old": "073.0042"
+          },
+          {
+            "old": "073.0043"
+          },
+          {
+            "old": "073.0044"
+          },
+          {
+            "new": {
+              "french": "Pour en revenir à Marcuard, Alexandre même le croyait entièrement pris. La veille de notre affreuse explication, il m'a parlé longtemps de Marcuard presque à l'oreille et Schininà souriait malicieusement de sa loge. Et à Sorrento. Nous marchions ensemble, le soir en retournant de chez les Hamontoff. Alexandre avait l'air ennuyé et perdu et moi je frémissais de l'impatienter et de l'ennuyer. Dina et Marcuard nous dépassèrent.",
+              "rsr": "Restored from tome10.docx ¶3733, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "- Dans quinze jours, dit Alexandre d'un ton railleur, M. et Mme de Marcuard.",
+              "rsr": "Restored from tome10.docx ¶3734, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "- Pourquoi pas ? dis-je très contente à l'idée de la possibilité d'une telle chose, ils sont tous les deux charmants. Il n'y a que vous qui n'êtes pas digne...",
+              "rsr": "Restored from tome10.docx ¶3735, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "- Oh ! moi, dit-il, ce n'est pas pour moi...",
+              "rsr": "Restored from tome10.docx ¶3736, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et pour poétiser ces paroles il les dit d'un air de Hamlet.",
+              "rsr": "Restored from tome10.docx ¶3737, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "- Je crois bien, me suis-je empressée de lui répondre, je crois bien.",
+              "rsr": "Restored from tome10.docx ¶3738, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah ! si Dina avait épousé Marcuard. Je demeurerais en Italie et Mme de Marcuard me conduirait dans le monde.",
+              "rsr": "Restored from tome10.docx ¶3739, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai la reproduction de la photographie de Larderel, je m'en vais renvoyer celle que Marcuard m'a envoyée.",
+              "rsr": "Restored from tome10.docx ¶3740, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je m'ennuie au point de désirer mourir. Je m'ennuie tant que rien au monde, ce me semble ne peut m'amuser, m'intéresser. Je ne désire rien, je ne veux rien ! Si, je désirerais beaucoup n'avoir pas honte de m'abrutir tout à fait. Pouvoir en un mot ne rien faire, ne penser à rien, vivre comme une plante, sans en avoir de remords.",
+              "rsr": "Restored from tome10.docx ¶3741, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «intéres-ser»→«intéresser»."
+            }
+          },
+          {
+            "new": {
+              "french": "Blanc a passé la soirée chez nous. Nous avons causé. Je suis assez dégoûtée de ma causerie depuis que j'ai lu ce que dit Mme de Staël sur l'imitation de l'esprit français par les étrangers. A l'écouter on n'a qu'à se cacher dans [une ligne rayée] son trou et ne jamais oser affronter le contact du sublime génie français.",
+              "rsr": "Restored from tome10.docx ¶3742, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Lecture, dessin, musique, mais ennui, ennui, ennui ! Il faut en dehors de ces occupations de ces délassements quelque chose de vivant, et je m'ennuie. Je ne m'ennuie pas parce que je suis une grande fille à marier, non; vous avez trop bonne opinion de moi pour le croire. Je m'ennuie parce que ma vie est toute de travers et que je m'ennuie !",
+              "rsr": "Restored from tome10.docx ¶3743, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Paris me tue ! C'est un café, un hôtel bien tenu, un bazar. Enfin, il faut espérer qu'avec l'hiver, l'Opéra, le Bois, les études je m'y ferai.",
+              "rsr": "Restored from tome10.docx ¶3744, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne connais personne !",
+              "rsr": "Restored from tome10.docx ¶3745, Mon Journal t.10 p.264 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Berthe est partie pour la Bretagne avec sa belle-sœur et son frère.",
+              "rsr": "Restored from tome10.docx ¶3746, Mon Journal t.10 p.265 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je n'ai même pas envie d'écrire à Marcuard.",
+              "rsr": "Restored from tome10.docx ¶3747, Mon Journal t.10 p.265 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-07-16.md",
+        "date": "1877-07-16",
+        "heading": "Lundi 16 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0046"
+          },
+          {
+            "old": "073.0047"
+          },
+          {
+            "old": "073.0048"
+          },
+          {
+            "old": "073.0049"
+          },
+          {
+            "old": "073.0050"
+          },
+          {
+            "old": "073.0051"
+          },
+          {
+            "old": "073.0052"
+          },
+          {
+            "old": "073.0053"
+          },
+          {
+            "old": "073.0054"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-17.md",
+        "date": "1877-07-17",
+        "heading": "Mardi 17 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0055"
+          },
+          {
+            "old": "073.0056"
+          },
+          {
+            "old": "073.0057"
+          },
+          {
+            "old": "073.0058"
+          },
+          {
+            "old": "073.0059"
+          },
+          {
+            "old": "073.0060"
+          },
+          {
+            "old": "073.0061"
+          },
+          {
+            "old": "073.0062"
+          },
+          {
+            "old": "073.0063"
+          },
+          {
+            "old": "073.0064"
+          },
+          {
+            "old": "073.0065"
+          },
+          {
+            "old": "073.0066",
+            "kind": "rayé"
+          },
+          {
+            "old": "073.0067"
+          },
+          {
+            "old": "073.0068"
+          },
+          {
+            "old": "073.0069"
+          },
+          {
+            "old": "073.0070"
+          },
+          {
+            "old": "073.0071"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-18.md",
+        "date": "1877-07-18",
+        "heading": "Mercredi 18 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0072"
+          },
+          {
+            "new": {
+              "french": "Mais avant cela j'ai été voir les Boyd, c'est-à-dire faire ma cour à Mme Boyd.",
+              "rsr": "Restored from tome10.docx ¶3777, Mon Journal t.10 p.266 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "La nièce de M. de Mertens, une jeune fille qui a exposé au dernier salon a dîné ici et quand les pensionnaires s'en furent au salon (qui touche au nôtre) je pus entendre clairement la voix de ma tante qui disait en réponse à quelque vantardise française sans doute:",
+              "rsr": "Restored from tome10.docx ¶3778, Mon Journal t.10 pp.266–267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "- Mais Mademoiselle, pourquoi donc envoie-t-on les artistes français à Rome ?",
+              "rsr": "Restored from tome10.docx ¶3779, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "[Cinq lignes cancellées]",
+              "rsr": "Restored from tome10.docx ¶3780, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild).",
+              "kind": "rayé"
+            }
+          },
+          {
+            "new": {
+              "french": "[Une feuille enlevée]",
+              "rsr": "Restored from tome10.docx ¶3781, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild).",
+              "kind": "editorial",
+              "source": "note of the Cercle edition’s editors on the manuscript"
+            }
+          },
+          {
+            "new": {
+              "french": "En entendant cela je fus prise d'un réel désespoir et je me mis à pleurer. Et comme ma tante répétait de temps en temps les mots *Rome* et *Italie* cela me faisait tant de mal que je dus l'envoyer prier de ne plus en parler.",
+              "rsr": "Restored from tome10.docx ¶3782, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Cela vous semble une invention ou un caprice, mais je vous jure que c'est très sérieux et très vrai.",
+              "rsr": "Restored from tome10.docx ¶3783, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce seul mot, *Italie* ! me fait tressaillir et frissonner comme jamais aucun nom, aucune présence.",
+              "rsr": "Restored from tome10.docx ¶3784, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oh ! quand est-ce que j'irai là !",
+              "rsr": "Restored from tome10.docx ¶3785, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "[Rayé: Je regrette presque d'avoir mal.] Je serais si fâchée si on croyait que j'écris des *oh* ! et des *ah* ! par affectation.",
+              "rsr": "Restored from tome10.docx ¶3786, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne sais pourquoi j'imagine qu'on ne me croit pas et alors j'assure, je jure et c'est tout en n'étant pas agréable, assez bête.",
+              "rsr": "Restored from tome10.docx ¶3787, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est que, voyez-vous, je veux changer, je veux écrire très simplement et je crains qu'en comparant avec mes exaltations passées on ne comprenne plus ce que je veux dire. Mais écoutez ceci, depuis Naples, c'est-à-dire depuis mon voyage en Russie, je tâchais déjà de me corriger et il me semble que cela va un peu mieux. Je veux dire les choses tout naturellement et si j'ajoute quelque figure ne pensez pas que ce soit pour orner, oh ! non, c'est tout bonnement pour exprimer aussi parfaitement que possible la confusion de mes idées.",
+              "rsr": "Restored from tome10.docx ¶3788, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je suis si agacée de ne pouvoir écrire quelques mots qui fassent pleurer ! et je voudrais tant faire sentir aux autres ce que je sens ! Je pleure et je dis que *je pleure* mais ce n'est pas cela que je voudrais, je voudrais raconter tout cela... attendrir enfin !...",
+              "rsr": "Restored from tome10.docx ¶3789, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Cela viendra, et cela ne vient que tout seul; il ne faut pas chercher cela.",
+              "rsr": "Restored from tome10.docx ¶3790, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Non, écoutez je suis malheureuse !",
+              "rsr": "Restored from tome10.docx ¶3791, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Avant pour raconter le moindre trouble j'employais les plus grands mots... Ah ! en fait je m'ennuie ! Je ne suis pas française, moi !",
+              "rsr": "Restored from tome10.docx ¶3792, Mon Journal t.10 p.267 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Non, continuons avec patience, j'ai tout dit, je crois, oui, il est donc bien établi que mes exagérations passées ne se reproduiront plus.",
+              "rsr": "Restored from tome10.docx ¶3793–3794, Mon Journal t.10 pp.267–268 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «repro-duiront»→«reproduiront»."
+            }
+          },
+          {
+            "new": {
+              "french": "Melle de Mertens en feuilletant mon album s'arrêta assez longtemps sur la photographie de M. de Larderel et demanda qui était cette belle figure si intéressante.",
+              "rsr": "Restored from tome10.docx ¶3795, Mon Journal t.10 p.268 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "- C'est un petit monsieur de Florence, dis-je.",
+              "rsr": "Restored from tome10.docx ¶3796, Mon Journal t.10 p.268 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "- Une bien belle figure, reprit-elle, fine, intelligente et distinguée.",
+              "rsr": "Restored from tome10.docx ¶3797, Mon Journal t.10 p.268 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "En même temps je me souvins de l'orthographe de beaucoup de grands hommes, et entre autre celle du maréchal de Richelieu et je suis allée jusqu'à trouver mon billet final moins tranchant que je pensais, et surtout moins spirituel. Dans tous les cas mes très-chers, on n'en pouvait trouver de meilleur pour la circonstance, de sorte que je continue à être enchantée de notre correspondance, tant de sa première que de sa deuxième partie.",
+              "rsr": "Restored from tome10.docx ¶3798, Mon Journal t.10 p.268 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je suis très sévère pour M. de Larderel et je pèse avec justesse scrupuleusement ses titres à sa nomination définitive par moi, de gentleman si non parfait du moins excentrique, fou et charmant.",
+              "rsr": "Restored from tome10.docx ¶3799, Mon Journal t.10 p.268 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je n'ai jamais sérieusement douté de ses *qualités* mais à la longue tout s'efface et je retrouve volontiers les confirmations de ce que je savais il y a longtemps; et comme je disais souvent de lui : c'est un chenapan, une espèce de gueux, un poltron, un malheureux petit; je suis très contente de retrouver les traits pour lesquels je le nommais ainsi, chez des hommes qu'on dit *tout à fait chic et grand genre*, comme dirait Rosalie.",
+              "rsr": "Restored from tome10.docx ¶3800, Mon Journal t.10 p.268 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-07-19.md",
+        "date": "1877-07-19",
+        "heading": "Jeudi 19 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0074"
+          },
+          {
+            "new": {
+              "french": "[Aucun texte - date seule mentionnée]",
+              "rsr": "Date line with no text in the manuscript: tome10.docx ¶3801 «Jeudi 19 juillet 1877», followed directly by ¶3802 «Vendredi 20 juillet 1877»; Mon Journal t.10 p.268 (2026-09-27 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-07-20.md",
+        "date": "1877-07-20",
+        "heading": "Vendredi 20 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0076"
+          },
+          {
+            "old": "073.0077"
+          },
+          {
+            "old": "073.0078"
+          },
+          {
+            "old": "073.0079"
+          },
+          {
+            "old": "073.0080"
+          },
+          {
+            "old": "073.0081"
+          },
+          {
+            "old": "073.0082"
+          },
+          {
+            "old": "073.0083"
+          },
+          {
+            "old": "073.0084"
+          },
+          {
+            "old": "073.0085"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-21.md",
+        "date": "1877-07-21",
+        "heading": "Samedi 21 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0086"
+          },
+          {
+            "old": "073.0087"
+          },
+          {
+            "old": "073.0088"
+          },
+          {
+            "old": "073.0089"
+          },
+          {
+            "old": "073.0090"
+          },
+          {
+            "old": "073.0091"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-22.md",
+        "date": "1877-07-22",
+        "heading": "Dimanche 22 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0092"
+          },
+          {
+            "old": "073.0093"
+          },
+          {
+            "old": "073.0094"
+          },
+          {
+            "old": "073.0095"
+          },
+          {
+            "old": "073.0096",
+            "set_french": "Dans le commencement j'avais réellement du plaisir à le toucher, parce qu'il était à Larderel, puis ce ne fut que grimace, et à présent c'est une habitude si chère que le contact de ce morceau de batiste m'est comme une caresse aimée."
+          },
+          {
+            "old": "073.0097"
+          },
+          {
+            "old": "073.0098"
+          },
+          {
+            "old": "073.0099"
+          },
+          {
+            "old": "073.0100"
+          },
+          {
+            "old": "073.0101"
+          },
+          {
+            "old": "073.0102"
+          },
+          {
+            "old": "073.0103"
+          },
+          {
+            "old": "073.0104"
+          },
+          {
+            "old": "073.0105"
+          },
+          {
+            "old": "073.0106"
+          },
+          {
+            "old": "073.0107"
+          },
+          {
+            "old": "073.0108"
+          },
+          {
+            "old": "073.0109"
+          },
+          {
+            "old": "073.0110"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-23.md",
+        "date": "1877-07-23",
+        "heading": "Lundi 23 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0112"
+          },
+          {
+            "old": "073.0113",
+            "kind": "editorial",
+            "source": "note of the Cercle edition’s editors on the manuscript"
+          },
+          {
+            "old": "073.0114"
+          },
+          {
+            "new": {
+              "french": "Mon ami Alexandre, vous devriez bien garder cette photographie maintenant que vous êtes dehors, elle prouve au moins que vous avez été tant bien que mal dedans. Je l'aime bien mieux dans ce groupe que sur le portrait que j'ai. Sur ce groupe il est en face, presque effacé et pas beau mais l'expression est sienne... En un mot je me demande toute la journée tout en le regardant ce que peut bien avoir cet homme pour me plaire. Il y en a treize autres excepté lui, quelques uns sont très beaux, eh bien aucun n'est un homme pour moi.",
+              "rsr": "Restored from tome10.docx ¶3843, Mon Journal t.10 p.272 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tout ça, ce sont des bêtises, il ne m'épousera pas, donc regardons ailleurs pour pouvoir le regarder ensuite et le faire enrager.",
+              "rsr": "Restored from tome10.docx ¶3844, Mon Journal t.10 p.272 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je n'ai plus envie de connaître l'Américaine.",
+              "rsr": "Restored from tome10.docx ¶3845, Mon Journal t.10 p.272 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah ! si je pouvais aller vivre en Italie !! Je n'en parle plus parce que ce mot seul, *Italie* me donne la fièvre au point de m'empêcher de manger, moi qui suis abrutie je ne devrais pourtant pas faire autre chose que dormir et manger. Eh bien non ! Je ne deviendrai jamais dégoûtante.",
+              "rsr": "Restored from tome10.docx ¶3846, Mon Journal t.10 p.272 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon Dieu, Mon Dieu, soyez bon, Mon Dieu, soyez indulgent pour mes caprices. Mon Dieu, soyez gentil, faites que je m'en aille en Italie !",
+              "rsr": "Restored from tome10.docx ¶3847–3848, Mon Journal t.10 pp.272–273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce qui m'empêche d'y aller ? Eh ! pardieu c'est la crainte, la certitude (si on peut jamais avoir une aussi horrible certitude) d'y être mal !",
+              "rsr": "Restored from tome10.docx ¶3849, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oh ! sans ça ! je vendrais mes fausses perles et les portraits d'Alexandre pour y aller !",
+              "rsr": "Restored from tome10.docx ¶3850, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il est neuf heures, je vais me coucher et parler d'Alexandre jusqu'à dix heures et demie. Comme hier soir, jusqu'à minuit j'ai retenu Rosalie pour en entendre parler.",
+              "rsr": "Restored from tome10.docx ¶3851, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je veux bien tout oublier, d'ailleurs *tout cela* ne regarde pas... Oh ! si... mais que voulez-vous c'est un délice que d'en entendre parler, un charme, un enchantement ! Et ma mère, chérie, si bonne, si gentille, que j'aime tant, tant, tant.",
+              "rsr": "Restored from tome10.docx ¶3852, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pourquoi se souvenir de quoi que ce soit ! Je ne me souviens de rien, je ne sens rien que ce que je sens en ce moment... Et ce que je sens est doux, calme, adorable, gentil.",
+              "rsr": "Restored from tome10.docx ¶3853, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "[Bas de page enlevé]",
+              "rsr": "Restored from tome10.docx ¶3854, Mon Journal t.10 p.273: the second removed page foot of 23 July (missing from original extraction, 2026-09-27 rebuild).",
+              "kind": "editorial",
+              "source": "note of the Cercle edition’s editors on the manuscript"
+            }
+          },
+          {
+            "new": {
+              "french": "Puisque je ne puis être sa femme je l'empêcherai de se marier ou le prendrai à sa femme à lui. Il ne me détestait pas et l'horrible mot de la fin de son billet prouve qu'il ne me refusera pas !",
+              "rsr": "Restored from tome10.docx ¶3855, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce sont tout bonnement d'horribles bassesses que je débite là, mais c'est la faute du sort qui me fait aimer d'un tas de gens dont je ne me soucie pas et qu'on me refuse le seul dont j'ai réellement eu envie, une fois dans ma vie.",
+              "rsr": "Restored from tome10.docx ¶3856, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "[Une feuille enlevée]",
+              "rsr": "Restored from tome10.docx ¶3857, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild).",
+              "kind": "editorial",
+              "source": "note of the Cercle edition’s editors on the manuscript"
+            }
+          },
+          {
+            "new": {
+              "french": "Il n'est pas beau, il se grise, il s'abrutit au jeu. Incapable même de comprendre tout sentiment élevé et délicat.",
+              "rsr": "Restored from tome10.docx ¶3858, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Regardez-moi cet as de cœur accroupi qui a l'air de vous dire de son air *franc et rusé* avec ce demi-sourire fin: eh bien oui, j'ai fait des bêtises, mais me voilà assis et je vais être sage, si vous n'êtes pas content vous m'ennuyez, vous !",
+              "rsr": "Restored from tome10.docx ¶3859, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je reconnaissais Gaston de très loin et pourtant je n'ai pas la vue perçante. C'est que tous les deux Larderel ont une façon à eux de tenir la tête et le bras gauche.",
+              "rsr": "Restored from tome10.docx ¶3860, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "A Sorrento, comme dans ce groupe il regarde un peu, très peu, en dessous, sans fausseté et sans timidité pourtant. Il a la même ligne du nez un peu exagérée et parfaitement noble, que la princesse Marguerite. Et puis le front, la tempe, puisque le bonnet penche à gauche, cette tempe et ce commencement de front *curieux, entêté, bon garçon*.",
+              "rsr": "Restored from tome10.docx ¶3861, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "[Deux lignes rayées]",
+              "rsr": "Restored from tome10.docx ¶3862, Mon Journal t.10 p.273 (missing from original extraction, 2026-09-27 rebuild).",
+              "kind": "rayé"
+            }
+          },
+          {
+            "new": {
+              "french": "Si tu aimes ton Larderel arrête !",
+              "rsr": "Restored from tome10.docx ¶3863, Mon Journal t.10 p.274 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ces détails qui vont à la description d'une femme rapetissent un homme lorsqu'ils sont faits par une femme.",
+              "rsr": "Restored from tome10.docx ¶3864, Mon Journal t.10 p.274 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je voulais me coucher mais Blanc est venu et pour lui montrer mes cheveux je me suis montrée. D'ailleurs je lui ai enseigné à causer *d'Alexandre*.",
+              "rsr": "Restored from tome10.docx ¶3865, Mon Journal t.10 p.274 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-07-24.md",
+        "date": "1877-07-24",
+        "heading": "Mardi 24 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0116"
+          },
+          {
+            "old": "073.0117"
+          },
+          {
+            "old": "073.0118"
+          },
+          {
+            "old": "073.0119"
+          },
+          {
+            "old": "073.0120"
+          },
+          {
+            "old": "073.0121"
+          },
+          {
+            "old": "073.0122"
+          },
+          {
+            "old": "073.0123"
+          },
+          {
+            "old": "073.0124"
+          },
+          {
+            "old": "073.0125"
+          },
+          {
+            "old": "073.0126"
+          },
+          {
+            "old": "073.0127"
+          },
+          {
+            "old": "073.0128"
+          },
+          {
+            "old": "073.0129"
+          },
+          {
+            "old": "073.0130"
+          },
+          {
+            "old": "073.0131"
+          },
+          {
+            "old": "073.0132"
+          },
+          {
+            "old": "073.0133"
+          },
+          {
+            "old": "073.0134"
+          },
+          {
+            "old": "073.0135"
+          },
+          {
+            "old": "073.0136"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-25.md",
+        "date": "1877-07-25",
+        "heading": "Mercredi 25 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0137"
+          },
+          {
+            "old": "073.0138"
+          },
+          {
+            "old": "073.0139"
+          },
+          {
+            "old": "073.0140"
+          },
+          {
+            "old": "073.0141"
+          },
+          {
+            "old": "073.0142"
+          },
+          {
+            "old": "073.0143"
+          },
+          {
+            "old": "073.0144",
+            "set_french": "Ah ! Monsieur vous vous intéressez à Euterpe[^3], cela ne m'étonne pas de la part d'un homme distingué, et puisque vous m'en suppliez je veux bien vous donner les navrants détails de la visite de M. de Larderel et les suites qu'elle eut pour Elle."
+          },
+          {
+            "old": "073.0145"
+          },
+          {
+            "old": "073.0146"
+          },
+          {
+            "old": "073.0147"
+          },
+          {
+            "old": "073.0148"
+          },
+          {
+            "old": "073.0149"
+          },
+          {
+            "old": "073.0150"
+          },
+          {
+            "old": "073.0151"
+          },
+          {
+            "old": "073.0152"
+          },
+          {
+            "old": "073.0153"
+          },
+          {
+            "old": "073.0154"
+          },
+          {
+            "old": "073.0155"
+          },
+          {
+            "old": "073.0156"
+          },
+          {
+            "new": {
+              "french": "Si je me laissais aller je serais plus *comfortable*, mais j'ai horreur d'un désespoir volontaire et je fais tout au monde pour me soutenir et pour ne pas y penser.",
+              "rsr": "Restored from tome10.docx ¶3912, Mon Journal t.10 p.278 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Fauvel m'a envoyé un masseur qui à ce qu'il paraît... guérit les entorses etc. il m'a massé mon pauvre pied, j'en ai ri et crié pendant que le baron, sa femme, sa nièce et ma tante étaient autour de moi et riaient ou... m'exhortaient à la patience. C'est que ça faisait mal, savez-vous ?",
+              "rsr": "Restored from tome10.docx ¶3913, Mon Journal t.10 p.278 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin ce n'est pas une entorse, et quand je pense que ce pauvre Gaston avait une entorse ! Il est vrai qu'il avait la consolation d'être soutenu à droite par Alexandre et à gauche par sa Silène...",
+              "rsr": "Restored from tome10.docx ¶3914, Mon Journal t.10 p.278 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Quand je songe à tout cela... comme ça a été gâché depuis.",
+              "rsr": "Restored from tome10.docx ¶3915, Mon Journal t.10 p.278 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais non, c'est cet Alexandre qui s'est moqué de moi, avec ses lettres, il m'a entraînée et puis... et puis toute cette bêtise que vous savez.",
+              "rsr": "Restored from tome10.docx ¶3916, Mon Journal t.10 p.278 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai assez de ces portraits, celui que j'ai renvoyé à Marcuard m'embêtait tout à fait, avec son costume de Gil. Je crois savoir pourquoi je déteste ces portraits, eh bien c'est parce que cela me rappelle les sales singeries avec celui d'Antonelli. Fi ! l'horreur. S'il n'y avait pas d'autres raisons on préférerait Alexandre seulement parce que son influence a été toute propre et charmante.",
+              "rsr": "Restored from tome10.docx ¶3917, Mon Journal t.10 p.278 (missing from original extraction, 2026-09-27 rebuild). OCR corrected: «Gii»→«Gil»."
+            }
+          },
+          {
+            "new": {
+              "french": "Oui, c'est Antonelli qui m'empêche de regarder Alexandre. Ce petit chien, ce saligot de Rome ! Il aurait été fort bien si je n'en avais eu la fantaisie de faire un héros ! Etait-ce...",
+              "rsr": "Restored from tome10.docx ¶3918, Mon Journal t.10 p.278 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin c'était une leçon qui m'a profité et qui me profitera, seulement on ne peut pas s'empêcher de ne pas en être fâchée.",
+              "rsr": "Restored from tome10.docx ¶3919, Mon Journal t.10 p.278 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-07-26.md",
+        "date": "1877-07-26",
+        "heading": "Jeudi 26 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0158"
+          },
+          {
+            "old": "073.0159"
+          },
+          {
+            "old": "073.0160"
+          },
+          {
+            "old": "073.0161"
+          },
+          {
+            "old": "073.0162"
+          },
+          {
+            "old": "073.0163"
+          },
+          {
+            "old": "073.0164"
+          },
+          {
+            "old": "073.0165"
+          },
+          {
+            "old": "073.0166"
+          },
+          {
+            "old": "073.0167"
+          },
+          {
+            "old": "073.0168"
+          },
+          {
+            "old": "073.0169",
+            "kind": "rayé"
+          },
+          {
+            "old": "073.0170",
+            "set_french": "Le masseur Joseph est un type curieux; une sorte de demi-soldat , demi-bourgeois, sournois et causeur. Je lui ai dit que M. Gaston de Larderel avait besoin de ses soins et que je lui en parlerai."
+          },
+          {
+            "old": "073.0171"
+          },
+          {
+            "old": "073.0172"
+          },
+          {
+            "old": "073.0173"
+          },
+          {
+            "old": "073.0174"
+          },
+          {
+            "old": "073.0175"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-27.md",
+        "date": "1877-07-27",
+        "heading": "Vendredi 27 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0177"
+          },
+          {
+            "old": "073.0178"
+          },
+          {
+            "old": "073.0179"
+          },
+          {
+            "old": "073.0180"
+          },
+          {
+            "old": "073.0181"
+          },
+          {
+            "old": "073.0182"
+          },
+          {
+            "old": "073.0183"
+          },
+          {
+            "old": "073.0184"
+          },
+          {
+            "old": "073.0185"
+          },
+          {
+            "old": "073.0186"
+          },
+          {
+            "old": "073.0187"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-28.md",
+        "date": "1877-07-28",
+        "heading": "Samedi 28 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0188"
+          },
+          {
+            "old": "073.0189"
+          },
+          {
+            "old": "073.0190"
+          },
+          {
+            "old": "073.0191"
+          },
+          {
+            "old": "073.0192"
+          },
+          {
+            "old": "073.0193"
+          },
+          {
+            "old": "073.0194"
+          },
+          {
+            "old": "073.0195"
+          },
+          {
+            "old": "073.0196"
+          },
+          {
+            "old": "073.0197"
+          },
+          {
+            "old": "073.0198"
+          },
+          {
+            "old": "073.0199"
+          },
+          {
+            "old": "073.0200"
+          },
+          {
+            "old": "073.0201"
+          },
+          {
+            "old": "073.0202"
+          },
+          {
+            "old": "073.0203"
+          },
+          {
+            "old": "073.0204"
+          },
+          {
+            "old": "073.0205"
+          },
+          {
+            "old": "073.0206"
+          },
+          {
+            "old": "073.0207"
+          },
+          {
+            "old": "073.0208"
+          },
+          {
+            "old": "073.0209"
+          },
+          {
+            "old": "073.0210"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-29.md",
+        "date": "1877-07-29",
+        "heading": "Dimanche 29 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0211",
+            "set_french": "# Dimanche 29 juillet 1877\n[Marie a écrit le 30]"
+          },
+          {
+            "old": "073.0212"
+          },
+          {
+            "old": "073.0213"
+          },
+          {
+            "old": "073.0214"
+          },
+          {
+            "old": "073.0215"
+          },
+          {
+            "old": "073.0216"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-30.md",
+        "date": "1877-07-30",
+        "heading": "Lundi 30 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0218"
+          },
+          {
+            "old": "073.0219"
+          },
+          {
+            "old": "073.0220"
+          },
+          {
+            "old": "073.0221"
+          },
+          {
+            "old": "073.0222"
+          },
+          {
+            "old": "073.0223"
+          },
+          {
+            "old": "073.0224"
+          },
+          {
+            "old": "073.0225"
+          },
+          {
+            "old": "073.0226"
+          },
+          {
+            "old": "073.0227"
+          }
+        ]
+      },
+      {
+        "file": "1877-07-31.md",
+        "date": "1877-07-31",
+        "heading": "Mardi 31 juillet 1877",
+        "paragraphs": [
+          {
+            "old": "073.0228"
+          },
+          {
+            "old": "073.0229"
+          },
+          {
+            "old": "073.0230"
+          },
+          {
+            "old": "073.0231"
+          },
+          {
+            "old": "073.0232"
+          },
+          {
+            "old": "073.0233"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-01.md",
+        "date": "1877-08-01",
+        "heading": "Mercredi 1er août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0234"
+          },
+          {
+            "old": "073.0235"
+          },
+          {
+            "old": "073.0236"
+          },
+          {
+            "old": "073.0237"
+          },
+          {
+            "old": "073.0238"
+          },
+          {
+            "old": "073.0239"
+          },
+          {
+            "old": "073.0240"
+          },
+          {
+            "old": "073.0241"
+          },
+          {
+            "old": "073.0242"
+          },
+          {
+            "old": "073.0243"
+          },
+          {
+            "old": "073.0244"
+          },
+          {
+            "old": "073.0245"
+          },
+          {
+            "old": "073.0246"
+          },
+          {
+            "old": "073.0247"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-02.md",
+        "date": "1877-08-02",
+        "heading": "Jeudi 2 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0248"
+          },
+          {
+            "old": "073.0249",
+            "set_french": "Et ce soir apprenant que maman et Dina allaient au Bois avec Miss Hall, j'ai mis un paletot à trois collets comme Robespierre par-dessus mon froc blanc à capuchon; un chapeau Dieu sait quel et une mantille marron, et je suis allée avec elles; il faisait noir (à neuf heures) mais j'étais bizarre quand même. J'ai causé de Florence, de tout son monde et par conséquent de ma famille, d'Alexandre et de Silène. Nous parlions anglais et italien. La petite ou plutôt la grande, est très au courant de tout. Il a fallu bien peu pour me troubler de nouveau et me faire rêver de nouveau à la pâle figure de Larderel encadrée de cheveux noirs sur un fond de velours gros vert. Il a fallu seulement qu'elle dit qu'on regardait Larderel comme un des plus beaux hommes de Florence et puis... de la façon dont elle en parle j'ai vu que je ne me suis pas trompée et que mes Larderel sont quelque chose."
+          },
+          {
+            "old": "073.0250",
+            "set_french": "De retour nous avons pris des boissons rafraîchissantes (pas d'ivrognerie ce soir) autour de la table de la salle à manger et comme on a reparlé de Larderel et comme je me suis animée maman s'est écriée tout à coup :"
+          },
+          {
+            "old": "073.0251"
+          },
+          {
+            "old": "073.0252"
+          },
+          {
+            "old": "073.0253"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-03.md",
+        "date": "1877-08-03",
+        "heading": "Vendredi 3 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0255"
+          },
+          {
+            "old": "073.0256"
+          },
+          {
+            "old": "073.0257"
+          },
+          {
+            "old": "073.0258"
+          },
+          {
+            "old": "073.0259"
+          },
+          {
+            "old": "073.0260"
+          },
+          {
+            "old": "073.0261"
+          },
+          {
+            "old": "073.0262"
+          },
+          {
+            "old": "073.0263",
+            "kind": "rayé"
+          },
+          {
+            "old": "073.0264"
+          },
+          {
+            "old": "073.0265",
+            "kind": "rayé"
+          },
+          {
+            "old": "073.0266"
+          },
+          {
+            "old": "073.0267"
+          },
+          {
+            "old": "073.0268"
+          },
+          {
+            "old": "073.0269"
+          },
+          {
+            "old": "073.0270"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-04.md",
+        "date": "1877-08-04",
+        "heading": "Samedi 4 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0271"
+          },
+          {
+            "old": "073.0272"
+          },
+          {
+            "old": "073.0273"
+          },
+          {
+            "old": "073.0274"
+          },
+          {
+            "old": "073.0275"
+          },
+          {
+            "old": "073.0276"
+          },
+          {
+            "old": "073.0277"
+          },
+          {
+            "old": "073.0278",
+            "kind": "rayé"
+          },
+          {
+            "old": "073.0279"
+          },
+          {
+            "old": "073.0280"
+          },
+          {
+            "old": "073.0281"
+          },
+          {
+            "old": "073.0282"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-05.md",
+        "date": "1877-08-05",
+        "heading": "Dimanche 6 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0285",
+            "set_french": "# Dimanche 6 août 1877\nNous revenons de la cascade, ma tante, Dina et l'Américaine sont seules descendues de voiture, j'étais restée avec maman.\nL'aérienne Miss Hall qui avait soupé hier de trois tranches de galantine, d'une demi-bouteille de vin blanc et de deux verres de bière ne mangea ce soir que deux livres de viande et ne but que trois verres de punch. Et en revenant, comme il faisait noir au Bois et comme il y avait peu de voitures, elle a fumé avec ma tante et sifflé avec moi.[^1]"
+          },
+          {
+            "new": {
+              "french": "Je hais ce luxe mesquin et ces illuminations de cafés, j'aime cent fois mieux un vieux palais à l'entrée éclairée par une méchante lanterne au bout d'un bâton, ou pendu à un clou.",
+              "rsr": "Restored from tome10.docx ¶4049, Mon Journal t.10 p.289 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il ne faut pas se monter la tête. Est-il bien possible que je sois comme ces fous d'artistes et de poètes, amoureuse de vieilleries, de ruines, de souvenirs ? Voilà ce que je me demande. Et *ma* répond à *je* par un sourire de pitié car il ne comprend pas qu'on puisse parler avec un langage si dur de choses ou plutôt de sentiments si délicats que la moindre brutalité les froisse au point de les anéantir et n'en laisser que le regret qu'on a de les avoir anéantis.",
+              "rsr": "Restored from tome10.docx ¶4050, Mon Journal t.10 p.289 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Quand on manque de pain on n'ose vraiment pas parler de confitures. Ainsi à présent j'ai honte de parler de mes espérances artistiques, je n'ose plus dire que je voudrais tel ou tel arrangement pour mieux travailler que je veux l'Italie pour y étudier... Tout cela m'est très gênant à dire... [Trois mots rayés]",
+              "rsr": "Restored from tome10.docx ¶4051, Mon Journal t.10 p.289 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Même si on me donnait *tout*, je crois que je ne pourrais plus être contente comme je l'aurais été il y a trois ans.",
+              "rsr": "Restored from tome10.docx ¶4052, Mon Journal t.10 p.289 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Rien ne redonne la confiance perdue. Et comme tout ce que qui est irrévocable, cela me désole !",
+              "rsr": "Restored from tome10.docx ¶4053, Mon Journal t.10 p.289 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "On est désappointé, triste, on ne remarque rien, personne; on a une figure soucieuse ce qui m'enlaidit en m'ôtant cette expression confiante que j'avais quelquefois avant.",
+              "rsr": "Restored from tome10.docx ¶4054, Mon Journal t.10 p.289 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "On ne sait plus rien dire, vos amis vous regardent avec étonnement d'abord et... s'en vont ensuite. Alors on veut être amusant et l'on devient extraordinaire, extravagant, impertinent et bête !",
+              "rsr": "Restored from tome10.docx ¶4055, Mon Journal t.10 p.289 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-08-06.md",
+        "date": "1877-08-06",
+        "heading": "Lundi 7 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0287",
+            "set_french": "# Lundi 7 août 1877\nPendant les deux heures que Rémy a passées chez nous j'ai été convenable et assez gentille, à quatre heures nous sommes allées dîner au cabaret russe[^1] en emmenant avec nous l'Américaine qui mange et qui boit que c'est un vrai plaisir."
+          },
+          {
+            "old": "073.0288"
+          },
+          {
+            "old": "073.0289"
+          },
+          {
+            "old": "073.0290"
+          },
+          {
+            "old": "073.0291"
+          },
+          {
+            "old": "073.0292"
+          },
+          {
+            "old": "073.0293"
+          },
+          {
+            "old": "073.0294"
+          },
+          {
+            "old": "073.0295"
+          },
+          {
+            "old": "073.0296"
+          },
+          {
+            "old": "073.0297"
+          },
+          {
+            "old": "073.0298"
+          },
+          {
+            "old": "073.0299"
+          },
+          {
+            "old": "073.0300"
+          },
+          {
+            "old": "073.0301"
+          },
+          {
+            "old": "073.0302"
+          },
+          {
+            "old": "073.0303"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-07.md",
+        "date": "1877-08-07",
+        "heading": "Mardi 7 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0307"
+          },
+          {
+            "old": "073.0308"
+          },
+          {
+            "old": "073.0309"
+          },
+          {
+            "old": "073.0310"
+          },
+          {
+            "old": "073.0311"
+          },
+          {
+            "old": "073.0312"
+          },
+          {
+            "old": "073.0313"
+          },
+          {
+            "old": "073.0314"
+          },
+          {
+            "old": "073.0315"
+          },
+          {
+            "old": "073.0316"
+          },
+          {
+            "old": "073.0317"
+          },
+          {
+            "old": "073.0318"
+          },
+          {
+            "old": "073.0319"
+          },
+          {
+            "old": "073.0320"
+          },
+          {
+            "old": "073.0321"
+          },
+          {
+            "old": "073.0322"
+          },
+          {
+            "old": "073.0323"
+          },
+          {
+            "old": "073.0324"
+          },
+          {
+            "old": "073.0325"
+          },
+          {
+            "old": "073.0326"
+          },
+          {
+            "old": "073.0327"
+          },
+          {
+            "old": "073.0328"
+          },
+          {
+            "old": "073.0329"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-08.md",
+        "date": "1877-08-08",
+        "heading": "Mercredi 8 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0330",
+            "set_french": "(Marie a noté Mer.8 et jeudi 8, mais a rectifié par la suite)"
+          },
+          {
+            "old": "073.0331"
+          },
+          {
+            "old": "073.0332"
+          },
+          {
+            "old": "073.0333"
+          },
+          {
+            "old": "073.0334"
+          },
+          {
+            "old": "073.0335"
+          },
+          {
+            "old": "073.0336"
+          },
+          {
+            "old": "073.0337"
+          },
+          {
+            "old": "073.0338"
+          },
+          {
+            "old": "073.0339"
+          },
+          {
+            "old": "073.0340"
+          },
+          {
+            "old": "073.0341"
+          },
+          {
+            "old": "073.0342"
+          },
+          {
+            "old": "073.0343"
+          },
+          {
+            "old": "073.0344"
+          },
+          {
+            "old": "073.0345"
+          },
+          {
+            "old": "073.0346"
+          },
+          {
+            "old": "073.0347"
+          },
+          {
+            "old": "073.0348"
+          },
+          {
+            "old": "073.0349"
+          },
+          {
+            "old": "073.0350"
+          },
+          {
+            "old": "073.0351"
+          },
+          {
+            "old": "073.0352"
+          },
+          {
+            "old": "073.0353"
+          },
+          {
+            "old": "073.0354",
+            "kind": "rayé"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-09.md",
+        "date": "1877-08-09",
+        "heading": "Jeudi 9 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0356"
+          },
+          {
+            "old": "073.0357"
+          },
+          {
+            "old": "073.0358"
+          },
+          {
+            "old": "073.0359"
+          },
+          {
+            "old": "073.0360"
+          },
+          {
+            "old": "073.0361"
+          },
+          {
+            "old": "073.0362"
+          },
+          {
+            "old": "073.0363"
+          },
+          {
+            "old": "073.0364"
+          },
+          {
+            "old": "073.0365"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-10.md",
+        "date": "1877-08-10",
+        "heading": "Vendredi 10 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0366"
+          },
+          {
+            "old": "073.0367"
+          },
+          {
+            "old": "073.0368"
+          },
+          {
+            "old": "073.0369"
+          },
+          {
+            "old": "073.0371",
+            "set_french": "Ah ! vous m'ennuyez tous !"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-11.md",
+        "date": "1877-08-11",
+        "heading": "Samedi 11 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0372"
+          },
+          {
+            "old": "073.0373"
+          },
+          {
+            "old": "073.0374"
+          },
+          {
+            "old": "073.0375"
+          },
+          {
+            "old": "073.0376"
+          },
+          {
+            "old": "073.0377"
+          },
+          {
+            "old": "073.0378"
+          },
+          {
+            "old": "073.0379"
+          },
+          {
+            "old": "073.0380"
+          },
+          {
+            "old": "073.0381"
+          },
+          {
+            "old": "073.0382"
+          },
+          {
+            "old": "073.0383"
+          },
+          {
+            "old": "073.0384",
+            "kind": "margin"
+          },
+          {
+            "old": "073.0385",
+            "set_french": "Maintenant dans tout cela je me suis énormément lamentée avec raison mais de travers c'est ce qui me fait une position humiliante devant les miens et peut-être devant vous ! ... Surtout depuis Larderel on me croit la plus négligée des femmes. Je l'ai assez écrit pour qu'on le croie; cela est peut-être."
+          },
+          {
+            "old": "073.0386"
+          },
+          {
+            "old": "073.0387"
+          },
+          {
+            "old": "073.0388"
+          },
+          {
+            "old": "073.0389"
+          },
+          {
+            "old": "073.0390"
+          },
+          {
+            "old": "073.0391"
+          },
+          {
+            "old": "073.0392"
+          },
+          {
+            "old": "073.0393"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-12.md",
+        "date": "1877-08-12",
+        "heading": "Dimanche 12 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0395"
+          },
+          {
+            "old": "073.0396",
+            "set_french": "Hall a dîné avec moi et nous ne nous sommes quittées qu'à onze heures. Elle n'a bu que de la limonade; nous n'avons parlé que de Florence et de Larderel. Aussi une intimité charmante. Elle m'a raconté sa première passion, elle avait quatorze ans, il lui a écrit qu'il en épousait une autre et elle s'est empoisonnée avec du laudanum."
+          },
+          {
+            "old": "073.0397"
+          },
+          {
+            "old": "073.0398"
+          },
+          {
+            "old": "073.0399"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-13.md",
+        "date": "1877-08-13",
+        "heading": "Lundi 13 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0401"
+          },
+          {
+            "old": "073.0402"
+          },
+          {
+            "old": "073.0403"
+          },
+          {
+            "old": "073.0404"
+          },
+          {
+            "old": "073.0405"
+          },
+          {
+            "old": "073.0406"
+          },
+          {
+            "old": "073.0407"
+          },
+          {
+            "old": "073.0408",
+            "kind": "editorial",
+            "source": "note of the Cercle edition’s editors on the manuscript"
+          },
+          {
+            "old": "073.0409"
+          },
+          {
+            "old": "073.0410"
+          },
+          {
+            "old": "073.0411"
+          },
+          {
+            "old": "073.0412"
+          },
+          {
+            "old": "073.0413"
+          },
+          {
+            "old": "073.0414"
+          },
+          {
+            "old": "073.0415"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-14.md",
+        "date": "1877-08-14",
+        "heading": "Mardi 14 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0416"
+          },
+          {
+            "old": "073.0417"
+          },
+          {
+            "old": "073.0418"
+          },
+          {
+            "old": "073.0419"
+          },
+          {
+            "old": "073.0420"
+          },
+          {
+            "old": "073.0421",
+            "set_french": "Suis-je spirituelle ou bête ? Si j'avais de l'esprit j'aurais pu tirer un charmant parti de Cancello, des lettres, de tout; en rire, tout en étant sérieusement touchée, et peut-être charmer Larderel par mon esprit, des coquetteries prudentes, et une infinité de choses qui se présentaient d'elles-mêmes."
+          },
+          {
+            "old": "073.0422"
+          },
+          {
+            "old": "073.0423"
+          },
+          {
+            "old": "073.0424"
+          },
+          {
+            "old": "073.0425"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-15.md",
+        "date": "1877-08-15",
+        "heading": "Mercredi 15 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0427"
+          },
+          {
+            "old": "073.0428"
+          },
+          {
+            "old": "073.0429"
+          },
+          {
+            "old": "073.0430"
+          },
+          {
+            "old": "073.0431"
+          },
+          {
+            "old": "073.0432"
+          },
+          {
+            "old": "073.0433"
+          },
+          {
+            "old": "073.0434"
+          },
+          {
+            "old": "073.0435"
+          },
+          {
+            "old": "073.0436"
+          },
+          {
+            "old": "073.0437"
+          },
+          {
+            "old": "073.0438"
+          },
+          {
+            "old": "073.0439"
+          },
+          {
+            "old": "073.0440"
+          },
+          {
+            "old": "073.0441"
+          },
+          {
+            "old": "073.0442"
+          },
+          {
+            "old": "073.0443"
+          },
+          {
+            "old": "073.0444"
+          },
+          {
+            "old": "073.0445",
+            "kind": "editorial",
+            "source": "note of the Cercle edition’s editors on the manuscript"
+          },
+          {
+            "old": "073.0446"
+          },
+          {
+            "old": "073.0447"
+          },
+          {
+            "old": "073.0448"
+          },
+          {
+            "old": "073.0449"
+          },
+          {
+            "old": "073.0450"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-16.md",
+        "date": "1877-08-16",
+        "heading": "Jeudi 16 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0451"
+          },
+          {
+            "old": "073.0452"
+          },
+          {
+            "old": "073.0453"
+          },
+          {
+            "old": "073.0454"
+          },
+          {
+            "old": "073.0455"
+          },
+          {
+            "old": "073.0456"
+          },
+          {
+            "old": "073.0457"
+          },
+          {
+            "old": "073.0458"
+          },
+          {
+            "new": {
+              "french": "J'ai peint jusqu'à sept heures du soir; je les déteste ces barons ! Fi, le vilain endroit... comment ai-je pu m'y loger. Et cet horrible vieillard, c'est monstrueux.",
+              "rsr": "Restored from tome10.docx ¶4228, Mon Journal t.10 p.303 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "La petite a l'air de m'aimer, de m'écouter, de me trouver raisonnable, et je suis fière et presque attendrie.",
+              "rsr": "Restored from tome10.docx ¶4229, Mon Journal t.10 p.303 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Porcinari écrit d'Aix-les-Bains à maman.",
+              "rsr": "Restored from tome10.docx ¶4230, Mon Journal t.10 p.303 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je suis allée chez elle, et vingt minutes après j'ai fait comme faisait Alexandre lorsqu'il voulait qu'on le crût sorti vous voyez que je suis pleine de reminiscences historiques ce soir, elle me donna un oreiller et je m'installai sous la table.",
+              "rsr": "Restored from tome10.docx ¶4231, Mon Journal t.10 p.303 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "On espérait que le vieil escogriffe tenterait d'entrer. Oh ! nous avons tout fait pour cela, Hall a toussé, elle s'est mouchée, elle a ouvert et refermé les tiroirs, sifflé, chanté, soupiré pour montrer qu'il n'y avait personne.",
+              "rsr": "Restored from tome10.docx ¶4232, Mon Journal t.10 p.303 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Alors elle se mit à armer une vieille arme de Damas. Pincio crut à un attentat contre ma personne et se mit en fureur. Nous avons rejoué un retour, une sortie et tout enfin, mais comme à onze heures et demie rien ne venait je m'arrêtai devant la porte de Don Alphonse et commençai le plus beau charivari qui ait jamais été exécuté avec un seul instrument, deux femmes et un chien qui hurlaient avec une harmonie rare.",
+              "rsr": "Restored from tome10.docx ¶4233, Mon Journal t.10 pp.303–304 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai ri comme avec les Sapogenikoff seulement je me sentais si vieille ! Comme une grand-mère qui rit avec ses enfants.",
+              "rsr": "Restored from tome10.docx ¶4234, Mon Journal t.10 p.304 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pendant que j'étais couchée sous la table j'ai pensé à Alexandre. Et voilà qu'un livre me remet en mémoire les paroles brûlantes d'Antonelli. Et les articles du \"Figaro\" et [Rayé: le discours] ce que dit Cassagnac dans \"Le Pays\" de la journée d'hier, me font bien regretter Cassagnac.",
+              "rsr": "Restored from tome10.docx ¶4235, Mon Journal t.10 p.304 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "En effet c'est absurde. Comme tout dans ma vie.",
+              "rsr": "Restored from tome10.docx ¶4236, Mon Journal t.10 p.304 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Bonsoir et que le diable vous emporte.",
+              "rsr": "Restored from tome10.docx ¶4237, Mon Journal t.10 p.304 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je n'entrerai à Rome qu'à pied. J'irai à Rome à pied pour la mériter.",
+              "rsr": "Restored from tome10.docx ¶4238, Mon Journal t.10 p.304 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne sais pas \"blaguer\" sur l'art, l'antiquité, les souvenirs, sur Rome enfin, mais je la comprends puisque je me prosterne et l'adore !",
+              "rsr": "Restored from tome10.docx ¶4239, Mon Journal t.10 p.304 (missing from original extraction, 2026-09-27 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-08-17.md",
+        "date": "1877-08-17",
+        "heading": "Vendredi 17 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0460"
+          },
+          {
+            "old": "073.0461"
+          },
+          {
+            "old": "073.0462"
+          },
+          {
+            "old": "073.0463"
+          },
+          {
+            "old": "073.0464"
+          },
+          {
+            "old": "073.0465"
+          },
+          {
+            "old": "073.0466"
+          },
+          {
+            "old": "073.0467"
+          },
+          {
+            "old": "073.0468"
+          },
+          {
+            "old": "073.0469"
+          },
+          {
+            "old": "073.0470"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-18.md",
+        "date": "1877-08-18",
+        "heading": "Samedi 18 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0471"
+          },
+          {
+            "old": "073.0472"
+          },
+          {
+            "old": "073.0473"
+          },
+          {
+            "old": "073.0474"
+          },
+          {
+            "old": "073.0475"
+          },
+          {
+            "old": "073.0476"
+          },
+          {
+            "old": "073.0477"
+          },
+          {
+            "old": "073.0478"
+          },
+          {
+            "old": "073.0479"
+          },
+          {
+            "old": "073.0480"
+          },
+          {
+            "old": "073.0481"
+          },
+          {
+            "old": "073.0482"
+          },
+          {
+            "old": "073.0483"
+          }
+        ]
+      },
+      {
+        "file": "1877-08-19.md",
+        "date": "1877-08-19",
+        "heading": "Dimanche 19 août 1877",
+        "paragraphs": [
+          {
+            "old": "073.0484"
+          },
+          {
+            "old": "073.0485"
+          },
+          {
+            "old": "073.0486"
+          },
+          {
+            "old": "073.0487"
+          },
+          {
+            "old": "073.0488"
+          },
+          {
+            "old": "073.0489"
+          },
+          {
+            "old": "073.0490"
+          },
+          {
+            "old": "073.0491"
+          },
+          {
+            "old": "073.0492"
+          },
+          {
+            "old": "073.0493"
+          },
+          {
+            "old": "073.0494"
+          },
+          {
+            "old": "073.0495"
+          },
+          {
+            "old": "073.0496"
+          },
+          {
+            "old": "073.0497"
+          },
+          {
+            "old": "073.0498"
+          },
+          {
+            "old": "073.0499"
+          },
+          {
+            "old": "073.0500"
+          },
+          {
+            "old": "073.0501"
+          },
+          {
+            "old": "073.0502"
+          },
+          {
+            "old": "073.0503"
+          },
+          {
+            "old": "073.0504"
+          },
+          {
+            "old": "073.0505"
+          },
+          {
+            "old": "073.0506"
+          },
+          {
+            "old": "073.0507"
+          },
+          {
+            "old": "073.0508"
+          },
+          {
+            "old": "073.0509"
+          },
+          {
+            "old": "073.0510"
+          },
+          {
+            "old": "073.0511"
+          },
+          {
+            "old": "073.0512"
+          },
+          {
+            "old": "073.0513"
+          },
+          {
+            "old": "073.0514"
+          },
+          {
+            "old": "073.0515"
+          },
+          {
+            "old": "073.0516"
+          },
+          {
+            "old": "073.0517"
+          },
+          {
+            "old": "073.0518"
+          },
+          {
+            "old": "073.0519"
+          },
+          {
+            "old": "073.0520"
+          },
+          {
+            "old": "073.0521"
+          },
+          {
+            "old": "073.0522"
+          },
+          {
+            "old": "073.0523"
+          },
+          {
+            "old": "073.0524"
+          },
+          {
+            "old": "073.0525"
+          },
+          {
+            "old": "073.0526"
+          },
+          {
+            "old": "073.0527"
+          },
+          {
+            "old": "073.0528"
+          }
+        ]
+      }
+    ]
+  }
+}
