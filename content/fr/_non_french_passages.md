@@ -1318,43 +1318,43 @@ They need AI translation into French.
 - **069/1877-03-14.md** para 069.0305 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "gettatura" - evil eye/curse; Neapolitan superstition %%
 - **069/1877-03-16.md** para 069.0314 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: NOTE: Lines 069.0315-069.0324 are dialogue in ITALIAN between Marie and her mandoline teacher; discussing Neapolitan nobility and Larderei %%
 - **069/1877-03-16.md** para 069.0318 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "ricevono come un buffone" - they receive him like a buffoon; tolerated for entertainment %%
-- **069/1877-03-29.md** para 069.0521 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "carrozello" - small hired carriage; cheap public transport %%
-- **069/1877-03-31.md** para 069.0575 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Villa-Reale" - ITALIAN: Royal Villa; public garden on Naples waterfront %%
-- **069/1877-04-02.md** para 069.0650 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, Deceptio Oppresio / Gloriae Cupiditate" - Doubt, illusion, Deception, Oppression / Desire for Glory; Marie's philosophical/mood notation %%
+- **069/1877-03-29.md** para 069.0581 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "carrozello" - small hired carriage; cheap public transport %%
+- **069/1877-03-31.md** para 069.0634 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Villa-Reale" - ITALIAN: Royal Villa; public garden on Naples waterfront %%
+- **069/1877-04-02.md** para 069.DROPPED-0650 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, Deceptio Oppresio / Gloriae Cupiditate" - Doubt, illusion, Deception, Oppression / Desire for Glory; Marie's philosophical/mood notation %%
 - **070/1877-04-03.md** para 070.0001 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "lazzarone" - Neapolitan term for street person/beggar; often hired for odd jobs %%
-- **070/1877-04-04.md** para 070.0004 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Temp'era del principio del matino..." - Inferno I:37-40; "It was the hour of morning's beginning / and the Sun was rising with those stars / that were with him when Divine Love / first set those beautiful things in motion"; invokes creation at sunrise %%
-- **070/1877-04-07.md** para 070.0028 [CODE-SWITCH]: %% 2026-02-02T12:30:00 LAN: CODE-SWITCHING: "dis-je en russe" - Marie switches to Russian for private family communication in public %%
-- **070/1877-04-07.md** para 070.0030 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Di cevo che non era Larderei... Francesco, e mio figlio, riconosco Francesco!" - "I was saying it wasn't Larderei... Francesco, it's my son, I recognize Francesco!"; mother's panic as she realizes her son was injured %%
-- **070/1877-04-22.md** para 070.0073 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Tanto gentile e tanto onesta pare..." - Vita Nuova XXVI; "So gentle and so honest appears / my lady when she greets others / that every tongue trembles and falls silent / and eyes dare not gaze upon her"; famous love sonnet for Beatrice %%
-- **070/1877-04-23.md** para 070.0109 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Guardate in alto e vidi le sue spalle / Vestite gia di raggi del pianeta / Che mena dritta altrui per ogni calle" - Inferno I:16-18; "I looked up and saw its shoulders / already clothed in rays of that planet / which leads others straight along every path"; describes sunrise on hillside %%
-- **070/1877-04-23.md** para 070.0122 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Si ch'a bene sperar m'era cagione" - Inferno I:41; "so that it gave me reason to hope"; Marie quotes Dante on hope at sunrise %%
-- **070/1877-04-23.md** para 070.0125 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "nebbioso" - misty/hazy; Italian adjective inserted into French text %%
-- **070/1877-04-25.md** para 070.0198 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" - Doubt, illusion, deception, oppression / By desire for glory; Marie's philosophical/mood notation, recurring motif %%
-- **071/1877-05-02.md** para 071.0025 [ITALIAN]: %% 2026-02-02T15:00:00 LAN: ITALIAN: "palazzo" - palace/mansion, used untranslated in French for Italian noble residences %%
-- **071/1877-05-02.md** para 071.0028 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "Skating" - refers to a skating rink, fashionable social venue; term used in English %%
-- **071/1877-05-13.md** para 071.0096 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "Veglione" - ITALIAN: masked ball, typically during carnival season %%
-- **071/1877-06-02.md** para 071.0241 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "tarentelle" - ITALIAN: tarantella; lively Italian folk dance %%
-- **071/1877-06-08.md** para 071.0307 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: "water-closet" - ENGLISH: toilet; the pun links the name "Chaussade/Closet" to toilet humor %%
-- **071/1877-06-10.md** para 071.0319 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN quotation from Dante's Inferno, Canto V: "Master, who are those people whom the black air so punishes?" %%
-- **072/1877-06-15.md** para 072.0063 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Guarda Don Bartolo" - "Look, Don Bartolo" - from the opera %%
-- **072/1877-06-18.md** para 072.0195 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "bulldog" - ENGLISH: English bulldog breed %%
-- **072/1877-06-18.md** para 072.0198 [LATIN]: %% 2026-02-02T13:00:00 LAN: "i.e." - LATIN: id est (that is); Marie codes Torlonia as "Torniole" %%
-- **072/1877-06-23.md** para 072.0272 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "gentleman" - Marie uses English term for social ideal %%
-- **072/1877-06-29.md** para 072.0308 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "don Clemente" - Italian honorific Don; Torlonia's title %%
-- **072/1877-07-01.md** para 072.0327 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "policemen" - Marie uses English term %%
-- **072/1877-07-06.md** para 072.0372 [LATIN]: %% 2026-02-02T14:30:00 LAN: LATIN: "et coetera" - and so on; Marie's educated flourish %%
-- **072/1877-07-08.md** para 072.0397 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: "whist" - ENGLISH: popular card game in 1870s upper-class society %%
-- **072/1877-07-14.md** para 072.0504 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: ENGLISH: "Violet" and "Violette" - telegraph code names; English/French versions of the same flower name, playful identity game %%
-- **073/1877-07-15.md** para 073.0037 [LATIN]: %% 2026-02-02T13:00:00 LAN: "Gloriae Cupiditate" - LATIN: With desire for glory; Marie's motto for her journals %%
-- **073/1877-07-16.md** para 073.0047 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman-farmer" - ENGLISH: country gentleman who farms %%
-- **073/1877-07-16.md** para 073.0048 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman" - ENGLISH: gentleman; French lacks exact equivalent %%
-- **073/1877-07-20.md** para 073.0082 [CODE-SWITCH]: %% 2026-02-09T16:30:00 LAN: CODE-SWITCH: "en espagnol" - the father speaks Spanish to his daughter; Marie understands enough to follow the exchange %%
-- **073/1877-08-07.md** para 073.0290 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "gangster" - Marie uses English slang; likely means large/greedy eater (slang use, not modern criminal sense) %%
-- **073/1877-08-11.md** para 073.0377 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "dissipated" - dissolute/debauched; Marie uses English term for delicacy %%
-- **073/1877-08-13.md** para 073.0404 [RUSSIAN]: %% 2026-02-02T15:00:00 LAN: RUSSIAN PROVERB: "la langue n'a pas d'os" - the tongue has no bones (it can say anything); Russian saying about gossip %%
-- **073/1877-08-13.md** para 073.0406 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "stick" - walking stick/cane; English word used in French %%
-- **073/1877-08-13.md** para 073.0409 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: Miss Hall speaks in English; "ennuie" is French word used in English context %%
-- **073/1877-08-16.md** para 073.0455 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: Miss Hall speaks English to confide about baron's improper advances %%
+- **070/1877-04-04.md** para 070.0085 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Temp'era del principio del matino..." - Inferno I:37-40; "It was the hour of morning's beginning / and the Sun was rising with those stars / that were with him when Divine Love / first set those beautiful things in motion"; invokes creation at sunrise %%
+- **070/1877-04-07.md** para 070.0213 [CODE-SWITCH]: %% 2026-02-02T12:30:00 LAN: CODE-SWITCHING: "dis-je en russe" - Marie switches to Russian for private family communication in public %%
+- **070/1877-04-07.md** para 070.0215 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Di cevo che non era Larderei... Francesco, e mio figlio, riconosco Francesco!" - "I was saying it wasn't Larderei... Francesco, it's my son, I recognize Francesco!"; mother's panic as she realizes her son was injured %%
+- **070/1877-04-22.md** para 070.0804 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Tanto gentile e tanto onesta pare..." - Vita Nuova XXVI; "So gentle and so honest appears / my lady when she greets others / that every tongue trembles and falls silent / and eyes dare not gaze upon her"; famous love sonnet for Beatrice %%
+- **070/1877-04-23.md** para 070.0840 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Guardate in alto e vidi le sue spalle / Vestite gia di raggi del pianeta / Che mena dritta altrui per ogni calle" - Inferno I:16-18; "I looked up and saw its shoulders / already clothed in rays of that planet / which leads others straight along every path"; describes sunrise on hillside %%
+- **070/1877-04-23.md** para 070.0853 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Si ch'a bene sperar m'era cagione" - Inferno I:41; "so that it gave me reason to hope"; Marie quotes Dante on hope at sunrise %%
+- **070/1877-04-23.md** para 070.0856 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "nebbioso" - misty/hazy; Italian adjective inserted into French text %%
+- **070/1877-04-25.md** para 070.DROPPED-0198 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" - Doubt, illusion, deception, oppression / By desire for glory; Marie's philosophical/mood notation, recurring motif %%
+- **071/1877-05-02.md** para 071.0108 [ITALIAN]: %% 2026-02-02T15:00:00 LAN: ITALIAN: "palazzo" - palace/mansion, used untranslated in French for Italian noble residences %%
+- **071/1877-05-02.md** para 071.0111 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "Skating" - refers to a skating rink, fashionable social venue; term used in English %%
+- **071/1877-05-13.md** para 071.0306 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "Veglione" - ITALIAN: masked ball, typically during carnival season %%
+- **071/1877-06-02.md** para 071.0539 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "tarentelle" - ITALIAN: tarantella; lively Italian folk dance %%
+- **071/1877-06-08.md** para 071.0605 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: "water-closet" - ENGLISH: toilet; the pun links the name "Chaussade/Closet" to toilet humor %%
+- **071/1877-06-10.md** para 071.0617 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN quotation from Dante's Inferno, Canto V: "Master, who are those people whom the black air so punishes?" %%
+- **072/1877-06-15.md** para 072.0061 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Guarda Don Bartolo" - "Look, Don Bartolo" - from the opera %%
+- **072/1877-06-18.md** para 072.0188 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "bulldog" - ENGLISH: English bulldog breed %%
+- **072/1877-06-18.md** para 072.0191 [LATIN]: %% 2026-02-02T13:00:00 LAN: "i.e." - LATIN: id est (that is); Marie codes Torlonia as "Torniole" %%
+- **072/1877-06-23.md** para 072.0315 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "gentleman" - Marie uses English term for social ideal %%
+- **072/1877-06-29.md** para 072.0356 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "don Clemente" - Italian honorific Don; Torlonia's title %%
+- **072/1877-07-01.md** para 072.0375 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "policemen" - Marie uses English term %%
+- **072/1877-07-06.md** para 072.0420 [LATIN]: %% 2026-02-02T14:30:00 LAN: LATIN: "et coetera" - and so on; Marie's educated flourish %%
+- **072/1877-07-08.md** para 072.0445 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: "whist" - ENGLISH: popular card game in 1870s upper-class society %%
+- **072/1877-07-14.md** para 072.0557 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: ENGLISH: "Violet" and "Violette" - telegraph code names; English/French versions of the same flower name, playful identity game %%
+- **073/1877-07-15.md** para 073.DROPPED-0037 [LATIN]: %% 2026-02-02T13:00:00 LAN: "Gloriae Cupiditate" - LATIN: With desire for glory; Marie's motto for her journals %%
+- **073/1877-07-16.md** para 073.0022 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman-farmer" - ENGLISH: country gentleman who farms %%
+- **073/1877-07-16.md** para 073.0023 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman" - ENGLISH: gentleman; French lacks exact equivalent %%
+- **073/1877-07-20.md** para 073.0079 [CODE-SWITCH]: %% 2026-02-09T16:30:00 LAN: CODE-SWITCH: "en espagnol" - the father speaks Spanish to his daughter; Marie understands enough to follow the exchange %%
+- **073/1877-08-07.md** para 073.0315 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "gangster" - Marie uses English slang; likely means large/greedy eater (slang use, not modern criminal sense) %%
+- **073/1877-08-11.md** para 073.0397 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "dissipated" - dissolute/debauched; Marie uses English term for delicacy %%
+- **073/1877-08-13.md** para 073.0422 [RUSSIAN]: %% 2026-02-02T15:00:00 LAN: RUSSIAN PROVERB: "la langue n'a pas d'os" - the tongue has no bones (it can say anything); Russian saying about gossip %%
+- **073/1877-08-13.md** para 073.0424 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "stick" - walking stick/cane; English word used in French %%
+- **073/1877-08-13.md** para 073.0427 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: Miss Hall speaks in English; "ennuie" is French word used in English context %%
+- **073/1877-08-16.md** para 073.0472 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: Miss Hall speaks English to confide about baron's improper advances %%
 - **074/1877-08-30.md** para 074.0145 [ENGLISH]: %% 2026-02-09T12:00:00 LAN: ENGLISH: "skating" - roller-skating rink; fashionable leisure activity in 1870s spa towns %%
 - **074/1877-09-01.md** para 074.0185 [RUSSIAN]: %% 2026-02-09T12:00:00 LAN: RUSSIAN: "Varéniki" - varenyky; Ukrainian/Russian dumplings filled with cheese; Marie explains them in parentheses %%
 - **074/1877-09-02.md** para 074.0189 [ENGLISH]: %% 2026-02-09T12:00:00 LAN: ENGLISH: entire paragraph is in English; a quotation about Rome, possibly from Robert Browning or another English poet %%
@@ -1362,9 +1362,9 @@ They need AI translation into French.
 - **074/1877-09-03.md** para 074.0216 [ENGLISH]: %% 2026-02-09T12:00:00 LAN: ENGLISH: "gentleman-farmer" - English term used in French; a landowner who farms for pleasure rather than livelihood %%
 - **074/1877-09-05.md** para 074.0233 [ITALIAN]: %% 2026-02-09T12:00:00 LAN: ITALIAN: "sospesi" - the suspended ones; from Dante's Inferno, Limbo (Canto IV) where virtuous pagans dwell %%
 - **074/1877-09-09.md** para 074.0259 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "Nunquam anathemathis vinculis exuenda" - Never to be freed from the chains of anathema; ecclesiastical curse formula; Marie applies it to her own fate %%
-- **074/1877-09-10.md** para 074.0282 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "sed inutilis" - but useless; Marie's blunt assessment of social contacts who cannot help her ambitions %%
+- **074/1877-09-10.md** para 074.0283 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "sed inutilis" - but useless; Marie's blunt assessment of social contacts who cannot help her ambitions %%
 - **074/1877-09-13.md** para 074.0322 [ENGLISH]: %% 2026-02-09T12:00:00 LAN: ENGLISH: "Skating" - roller-skating rink; "des patins... a moi" - her own personal roller skates, a sign of status %%
-- **074/1877-09-17.md** para 074.0372 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "Colonia Agrippina" - the Roman name for Cologne; Marie's classical erudition showing through %%
+- **074/1877-09-17.md** para 074.0373 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "Colonia Agrippina" - the Roman name for Cologne; Marie's classical erudition showing through %%
 - **075/1877-10-06.md** para 075.0169 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Sic transit gloria ducis" - Thus passes the glory of the duke; Marie's wordplay on "sic transit gloria mundi" %%
 - **075/1877-10-14.md** para 075.0273 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Aida" preserved in original - opera titles typically kept in original language %%
 - **076/1877-12-05.md** para 076.0334 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN "la belle cose" - Italian: the beautiful things %%
