@@ -2,7 +2,7 @@
 
 **Dates**: 26 September – 2 October 1875
 **Location**: Nice
-**Paragraph range**: 045.0001 – 045.0353
+**Paragraph range**: 045.0001 – 045.0354
 
 ## Status
 
@@ -57,9 +57,9 @@ Three letters sent across the carnet, all in block capitals (italicized in Engli
 ### Psychological Passages
 - Sept 28, 045.0094: "double existence" — Marie's waking dream vs. reality
 - Sept 28, 045.0108–0113: proto-feminist critique of sexual double standards
-- Sept 30, 045.0220: self-analysis identifying "l'Ambition la plus vaniteuse" as her core
-- Sept 30, 045.0251: "I shall have the man" declaration
-- Oct 2, 045.0344–0347: self-condemnation as *brute intellectuelle* (Alexandre Dumas / Audiffret as proof of intellectual decline)
+- Sept 30, 045.0221: self-analysis identifying "l'Ambition la plus vaniteuse" as her core
+- Sept 30, 045.0252: "I shall have the man" declaration
+- Oct 2, 045.0345–0347: self-condemnation as *brute intellectuelle* (Alexandre Dumas / Audiffret as proof of intellectual decline)
 
 ## Changelog
 
