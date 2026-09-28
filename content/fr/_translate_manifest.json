@@ -8925,7 +8925,7 @@
     },
     {
       "file": "1875-09-30.md",
-      "para_id": "045.0220",
+      "para_id": "045.0221",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:00:00 LAN: \"le roti n'empeche pas le potage\" - RUSSIAN PROVERB translated; meaning one thing does not prevent another, different domains %%",
       "fr_file": "content/fr/045/1875-09-30.md",
@@ -8934,7 +8934,7 @@
     },
     {
       "file": "1875-09-30.md",
-      "para_id": "045.0228",
+      "para_id": "045.0229",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:00:00 LAN: \"Charogne\" - RUSSIAN CODE-SWITCH: carrion, rotting carcass; extremely vulgar insult, likely Russian \"падаль\" rendered in French %%",
       "fr_file": "content/fr/045/1875-09-30.md",
@@ -8943,7 +8943,7 @@
     },
     {
       "file": "1875-09-30.md",
-      "para_id": "045.0231",
+      "para_id": "045.0232",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:00:00 LAN: LATIN: \"Sic factae sumus\" - Thus we are made (feminine plural); mock-classical resignation %%",
       "fr_file": "content/fr/045/1875-09-30.md",
@@ -8952,7 +8952,7 @@
     },
     {
       "file": "1875-09-30.md",
-      "para_id": "045.0237",
+      "para_id": "045.0238",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:00:00 LAN: ITALIAN: \"tutti quanti\" - all of us, the whole lot; casual code-switch %%",
       "fr_file": "content/fr/045/1875-09-30.md",
@@ -8961,7 +8961,7 @@
     },
     {
       "file": "1875-10-01.md",
-      "para_id": "045.0294",
+      "para_id": "045.0295",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:00:00 LAN: ENGLISH CODE-SWITCH: \"non-sens\" - from English \"nonsense\"; Marie uses the English word %%",
       "fr_file": "content/fr/045/1875-10-01.md",
@@ -9111,7 +9111,7 @@
     },
     {
       "file": "1875-10-26.md",
-      "para_id": "048.0042",
+      "para_id": "048.0062",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"buona compagnia\" - good company, the whole group; Marie uses Italian for light irony %%",
       "fr_file": "content/fr/048/1875-10-26.md",
@@ -9120,7 +9120,7 @@
     },
     {
       "file": "1875-10-30.md",
-      "para_id": "048.0268",
+      "para_id": "048.0288",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH: \"english-looking\" - Marie uses English for describing fashionable/distinctive appearance %%",
       "fr_file": "content/fr/048/1875-10-30.md",
@@ -9129,7 +9129,7 @@
     },
     {
       "file": "1875-11-01.md",
-      "para_id": "048.0361",
+      "para_id": "048.0381",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"Dormi pure\" - aria from \"La sonnambula\" by Bellini, meaning \"Sleep peacefully\" %%",
       "fr_file": "content/fr/048/1875-11-01.md",
@@ -9138,18 +9138,18 @@
     },
     {
       "file": "1875-11-07.md",
-      "para_id": "048.0663",
+      "para_id": "049.0039",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"sospesi\" - the suspended ones; Dante's Limbo reference for those neither happy nor sad %%",
-      "fr_file": "content/fr/048/1875-11-07.md",
-      "original_file": "content/_original/048/1875-11-07.md",
+      "fr_file": "content/fr/049/1875-11-07.md",
+      "original_file": "content/_original/049/1875-11-07.md",
       "current_text": "Et je montrai mon pied et on redoubla de compliments. Au bout de quelques minutes d'une conversation générale je m'en allai, je ne sais pourquoi, je crois parce que je craignais qu'il s'en allât, et parce que je me sens gênée et agitée en sa présence quand il me crache dessus. Lui-même est gêné. Tout le monde erre ou s'évite, on se traîne par les chambres comme les ombres des âmes en suspens sans plaisir et sans ennui."
     }
   ],
   "049": [
     {
       "file": "1875-11-12.md",
-      "para_id": "049.0165",
+      "para_id": "049.0315",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"E quando ci darete Mignon?\" - And when will you give us Mignon? %%",
       "fr_file": "content/fr/049/1875-11-12.md",
@@ -9158,7 +9158,7 @@
     },
     {
       "file": "1875-11-12.md",
-      "para_id": "049.0166",
+      "para_id": "049.0316",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"Lunedi, signorina, lunedi\" - Monday, miss, Monday %%",
       "fr_file": "content/fr/049/1875-11-12.md",
@@ -9167,7 +9167,7 @@
     },
     {
       "file": "1875-11-12.md",
-      "para_id": "049.0167",
+      "para_id": "049.0317",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"Come lunedi! Io pensavo che sarebbe sabato!\" - What, Monday! I thought it would be Saturday! (Marie's Italian has errors) %%",
       "fr_file": "content/fr/049/1875-11-12.md",
@@ -9176,7 +9176,7 @@
     },
     {
       "file": "1875-11-12.md",
-      "para_id": "049.0174",
+      "para_id": "049.0324",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"Vedete, la signorina ha gran fretta d'andar a Parigi per il Grand Hotel\" - You see, the young lady is in a great hurry to go to Paris for the Grand Hotel %%",
       "fr_file": "content/fr/049/1875-11-12.md",
@@ -9185,7 +9185,7 @@
     },
     {
       "file": "1875-11-13.md",
-      "para_id": "049.0215",
+      "para_id": "049.0364",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"signor\" - mister, sir %%",
       "fr_file": "content/fr/049/1875-11-13.md",
@@ -9194,7 +9194,7 @@
     },
     {
       "file": "1875-11-15.md",
-      "para_id": "049.0289",
+      "para_id": "049.0438",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: \"prima donna\" - ITALIAN: lead female opera singer %%",
       "fr_file": "content/fr/049/1875-11-15.md",
@@ -9203,7 +9203,7 @@
     },
     {
       "file": "1875-11-15.md",
-      "para_id": "049.0303",
+      "para_id": "049.0452",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: LATIN: \"Nescio\" - I don't know %%",
       "fr_file": "content/fr/049/1875-11-15.md",
@@ -9214,7 +9214,7 @@
   "050": [
     {
       "file": "1875-11-18.md",
-      "para_id": "050.0003",
+      "para_id": "050.DROPPED-0003",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH acronym - \"H[is] G[race] t[he] D[uke] o[f] Hamilton\" - Marie's coded reference to the Duke, using English title %%",
       "fr_file": "content/fr/050/1875-11-18.md",
@@ -9223,7 +9223,7 @@
     },
     {
       "file": "1875-11-25.md",
-      "para_id": "050.0185",
+      "para_id": "050.0202",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH \"roastbeef\" - Marie uses English word for this British dish %%",
       "fr_file": "content/fr/050/1875-11-25.md",
@@ -9232,7 +9232,7 @@
     },
     {
       "file": "1875-11-28.md",
-      "para_id": "050.0238",
+      "para_id": "050.0255",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: CODE-SWITCHING: \"parler...italien\" - Audiffret speaks Italian to stepmother (her native language) %%",
       "fr_file": "content/fr/050/1875-11-28.md",
@@ -9241,7 +9241,7 @@
     },
     {
       "file": "1875-12-01.md",
-      "para_id": "050.0339",
+      "para_id": "050.0357",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: LATIN \"nec plus\" - and nothing more, no further contact %%",
       "fr_file": "content/fr/050/1875-12-01.md",
@@ -9250,7 +9250,7 @@
     },
     {
       "file": "1875-12-08.md",
-      "para_id": "050.0553",
+      "para_id": "050.0575",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Ohime\" - alas, oh dear (Italian exclamation) %%",
       "fr_file": "content/fr/050/1875-12-08.md",
@@ -9259,7 +9259,7 @@
     },
     {
       "file": "1875-12-10.md",
-      "para_id": "050.0571",
+      "para_id": "050.0593",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Heu misera\" - Alas, wretched one! (classical exclamation of self-pity) %%",
       "fr_file": "content/fr/050/1875-12-10.md",
@@ -9268,7 +9268,7 @@
     },
     {
       "file": "1875-12-11.md",
-      "para_id": "050.0622",
+      "para_id": "050.0644",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: \"La Cenerentola\" - Rossini's Cinderella opera (1817); ITALIAN title %%",
       "fr_file": "content/fr/050/1875-12-11.md",
@@ -9277,7 +9277,7 @@
     },
     {
       "file": "1875-12-11.md",
-      "para_id": "050.0628",
+      "para_id": "050.0650",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"flirtons\" - we flirt; borrowed from English, fashionable term %%",
       "fr_file": "content/fr/050/1875-12-11.md",
@@ -9286,7 +9286,7 @@
     },
     {
       "file": "1875-12-12.md",
-      "para_id": "050.0653",
+      "para_id": "050.0692",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Delectabile tempus\" - delightful time (mock-formal nostalgia) %%",
       "fr_file": "content/fr/050/1875-12-12.md",
@@ -9295,7 +9295,7 @@
     },
     {
       "file": "1875-12-13.md",
-      "para_id": "050.0685",
+      "para_id": "050.0730",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Capite?\" - Do you understand? (rhetorical, expressing frustration) %%",
       "fr_file": "content/fr/050/1875-12-13.md",
@@ -9304,7 +9304,7 @@
     },
     {
       "file": "1875-12-15.md",
-      "para_id": "050.0709",
+      "para_id": "050.0789",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Vedete!\" - You see! (rhetorical, inviting reader to witness) %%",
       "fr_file": "content/fr/050/1875-12-15.md",
@@ -9313,7 +9313,7 @@
     },
     {
       "file": "1875-12-16.md",
-      "para_id": "050.0723",
+      "para_id": "050.0817",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"La figlia del regimento\" - The Daughter of the Regiment (Donizetti opera, 1840) %%",
       "fr_file": "content/fr/050/1875-12-16.md",
@@ -9322,7 +9322,7 @@
     },
     {
       "file": "1875-12-17.md",
-      "para_id": "050.0758",
+      "para_id": "050.0911",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Che differenza!\" - What a difference! %%",
       "fr_file": "content/fr/050/1875-12-17.md",
@@ -9331,7 +9331,7 @@
     },
     {
       "file": "1875-12-20.md",
-      "para_id": "050.0837",
+      "para_id": "050.1086",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Qui solo vorrei restare, amar et morir\" - Here only would I wish to stay, to love and to die (operatic quotation) %%",
       "fr_file": "content/fr/050/1875-12-20.md",
@@ -9340,7 +9340,7 @@
     },
     {
       "file": "1875-12-22.md",
-      "para_id": "050.0872",
+      "para_id": "050.1127",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: RUSSIAN: \"moujik\" - peasant (mocking term for Audiffret, despite his nobility) %%",
       "fr_file": "content/fr/050/1875-12-22.md",
@@ -9349,7 +9349,7 @@
     },
     {
       "file": "1875-12-22.md",
-      "para_id": "050.0895",
+      "para_id": "050.1150",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Ed ha natura si malvaggia e ria\" - And has a nature so wicked and evil (Dante, Inferno; Marie applies to jealousy) %%",
       "fr_file": "content/fr/050/1875-12-22.md",
@@ -9358,7 +9358,7 @@
     },
     {
       "file": "1875-12-24.md",
-      "para_id": "050.0916",
+      "para_id": "050.1171",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Ohime! potessi io ritornare a quelle amate sponde\" - Alas! Could I return to those beloved shores (operatic aria, possibly from Il Barbiere) %%",
       "fr_file": "content/fr/050/1875-12-24.md",
@@ -9367,7 +9367,7 @@
     },
     {
       "file": "1875-12-24.md",
-      "para_id": "050.0918",
+      "para_id": "050.1173",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"La solo restare\" - there only to stay (from the aria; Marie applies to Nice) %%",
       "fr_file": "content/fr/050/1875-12-24.md",
@@ -9376,7 +9376,7 @@
     },
     {
       "file": "1875-12-25.md",
-      "para_id": "050.0946",
+      "para_id": "050.1201",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"a mezza voce\" - at half voice, softly (musical term) %%",
       "fr_file": "content/fr/050/1875-12-25.md",
@@ -9432,7 +9432,7 @@
     },
     {
       "file": "1875-12-31.md",
-      "para_id": "051.0154",
+      "para_id": "051.0219",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH quotation from satirical novel about Nice society - \"Mrs Bodgers attained the summit of her ambition in Nice\" %%",
       "fr_file": "content/fr/051/1875-12-31.md",
@@ -9441,7 +9441,7 @@
     },
     {
       "file": "1876-01-01.md",
-      "para_id": "051.0215",
+      "para_id": "051.0280",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN (from opera Mignon, Italian version) - \"Tomorrow I will leave, I am far from you\" - Marie sings farewell %%",
       "fr_file": "content/fr/051/1876-01-01.md",
@@ -9450,7 +9450,7 @@
     },
     {
       "file": "1876-01-01.md",
-      "para_id": "051.0219",
+      "para_id": "051.0284",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN \"Addio dunque, tutti quanti\" - farewell then, everyone; operatic flourish %%",
       "fr_file": "content/fr/051/1876-01-01.md",
@@ -9459,25 +9459,25 @@
     },
     {
       "file": "1876-01-02-03.md",
-      "para_id": "051.0261",
+      "para_id": "051.0327",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: LATIN reference \"Tu quoque\" - \"You too, Brutus?\"; Caesar covering his face when betrayed %%",
-      "fr_file": "content/fr/051/1876-01-02-03.md",
-      "original_file": "content/_original/051/1876-01-02-03.md",
+      "fr_file": "content/fr/051/1876-01-02.md",
+      "original_file": "content/_original/051/1876-01-02.md",
       "current_text": "Pendant vingt-quatre heures qu'a dure cet affreux voyage, je suis restee dans un coin la figure couverte de mon manteau comme Cesar apres le *Tu quoque ?* et n'ouvrant la bouche que pour quelque plainte meprisante. Je m'efforcais de dire tout au monde pour prouver que je n'aime pas maman, qu'elle m'ennuie. Ca se faisait tout seul et je laissais ma vilaine langue."
     },
     {
       "file": "1876-01-02-03.md",
-      "para_id": "051.0271",
+      "para_id": "051.0337",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN title \"Orlando furioso\" by Ariosto - Renaissance epic poem; Marie's literary reading %%",
-      "fr_file": "content/fr/051/1876-01-02-03.md",
-      "original_file": "content/_original/051/1876-01-02-03.md",
+      "fr_file": "content/fr/051/1876-01-02.md",
+      "original_file": "content/_original/051/1876-01-02.md",
       "current_text": "Avant de m'endormir je lis l'*Orlando furioso* de l'Ariosto, et puis m'imagine des scenes a Nice, apres Rome, au printemps."
     },
     {
       "file": "1876-01-04.md",
-      "para_id": "051.0295",
+      "para_id": "051.0364",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN \"palazzo\" - palace; Roman aristocratic residence %%",
       "fr_file": "content/fr/051/1876-01-04.md",
@@ -9486,7 +9486,7 @@
     },
     {
       "file": "1876-01-04.md",
-      "para_id": "051.0295",
+      "para_id": "051.0364",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN \"misera me\" - woe is me; operatic exclamation %%",
       "fr_file": "content/fr/051/1876-01-04.md",
@@ -9495,7 +9495,7 @@
     },
     {
       "file": "1876-01-04.md",
-      "para_id": "051.0309",
+      "para_id": "051.0378",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: LATIN \"In nomine Patris, Filii et Spiritus Sancti\" - In the name of the Father, Son, and Holy Spirit; mock-religious blessing for dreaded marriage %%",
       "fr_file": "content/fr/051/1876-01-04.md",
@@ -9504,7 +9504,7 @@
     },
     {
       "file": "1876-01-05.md",
-      "para_id": "051.0316",
+      "para_id": "051.0385",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN \"Orsu\" - well then/come now; conversational Italian %%",
       "fr_file": "content/fr/051/1876-01-05.md",
@@ -9513,7 +9513,7 @@
     },
     {
       "file": "1876-01-05.md",
-      "para_id": "051.0335",
+      "para_id": "051.0404",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH quotation from Byron's \"Childe Harold's Pilgrimage\" Canto IV - famous Romantic description of the Colosseum %%",
       "fr_file": "content/fr/051/1876-01-05.md",
@@ -9522,7 +9522,7 @@
     },
     {
       "file": "1876-01-06.md",
-      "para_id": "051.0345",
+      "para_id": "051.0414",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN \"E brutto ma e tutto buono, tutto grazioso\" - He is ugly but all good, all gracious; popular saying about King Victor Emmanuel II %%",
       "fr_file": "content/fr/051/1876-01-06.md",
@@ -9531,7 +9531,7 @@
     },
     {
       "file": "1876-01-08.md",
-      "para_id": "051.0372",
+      "para_id": "051.0441",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: \"i.e.\" - LATIN id est (that is); Marie's educated abbreviation %%",
       "fr_file": "content/fr/051/1876-01-08.md",
@@ -9542,7 +9542,7 @@
   "052": [
     {
       "file": "1876-01-10.md",
-      "para_id": "052.0018",
+      "para_id": "052.0020",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"signor\" - Italian title Mr./Sir %%",
       "fr_file": "content/fr/052/1876-01-10.md",
@@ -9551,7 +9551,7 @@
     },
     {
       "file": "1876-01-10.md",
-      "para_id": "052.0019",
+      "para_id": "052.0021",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"maestro\" - master (music teacher) %%",
       "fr_file": "content/fr/052/1876-01-10.md",
@@ -9560,7 +9560,7 @@
     },
     {
       "file": "1876-01-10.md",
-      "para_id": "052.0034",
+      "para_id": "052.0036",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH: \"unprotected\" - Marie switches to English for emphasis %%",
       "fr_file": "content/fr/052/1876-01-10.md",
@@ -9569,7 +9569,7 @@
     },
     {
       "file": "1876-01-11.md",
-      "para_id": "052.0083",
+      "para_id": "052.0085",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: LATIN: mock-Latin curse modeled on classical insults - \"and let him be called Surp[rising], most soft, improper, dishonest, greedy, luxurious, drunk\" %%",
       "fr_file": "content/fr/052/1876-01-11.md",
@@ -9578,7 +9578,7 @@
     },
     {
       "file": "1876-01-11.md",
-      "para_id": "052.0089",
+      "para_id": "052.0091",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"Sara quel che sara\" - What will be will be (Che sara, sara) %%",
       "fr_file": "content/fr/052/1876-01-11.md",
@@ -9587,7 +9587,7 @@
     },
     {
       "file": "1876-01-12.md",
-      "para_id": "052.0097",
+      "para_id": "052.0099",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"il battistero di Costantino\" - the Baptistery of Constantine %%",
       "fr_file": "content/fr/052/1876-01-12.md",
@@ -9596,7 +9596,7 @@
     },
     {
       "file": "1876-01-13.md",
-      "para_id": "052.0128",
+      "para_id": "052.0130",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"Corpo di Bacco!\" - Body of Bacchus! (Italian oath, like \"Good grief!\") %%",
       "fr_file": "content/fr/052/1876-01-13.md",
@@ -9605,7 +9605,7 @@
     },
     {
       "file": "1876-01-14.md",
-      "para_id": "052.0162",
+      "para_id": "052.0164",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"Ma c'e rimedio. Udite e saprete.\" - But there is a remedy. Listen and you will know. %%",
       "fr_file": "content/fr/052/1876-01-14.md",
@@ -9614,7 +9614,7 @@
     },
     {
       "file": "1876-01-16.md",
-      "para_id": "052.0201",
+      "para_id": "052.0203",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH: \"she is very beautiful\" - Americans speaking English, Marie pretends not to understand %%",
       "fr_file": "content/fr/052/1876-01-16.md",
@@ -9623,7 +9623,7 @@
     },
     {
       "file": "1876-01-16.md",
-      "para_id": "052.0205",
+      "para_id": "052.0207",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: LATIN: \"Regis venit lux\" - The light of the king comes (quasi-religious invocation) %%",
       "fr_file": "content/fr/052/1876-01-16.md",
@@ -9632,7 +9632,7 @@
     },
     {
       "file": "1876-01-16.md",
-      "para_id": "052.0213",
+      "para_id": "052.0215",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH: \"we would be quite a nice little party\" - Foster's invitation in English %%",
       "fr_file": "content/fr/052/1876-01-16.md",
@@ -9641,7 +9641,7 @@
     },
     {
       "file": "1876-01-16.md",
-      "para_id": "052.0216",
+      "para_id": "052.0218",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH: \"pique-niques\" - picnics (borrowed from English) %%",
       "fr_file": "content/fr/052/1876-01-16.md",
@@ -9650,7 +9650,7 @@
     },
     {
       "file": "1876-01-17.md",
-      "para_id": "052.0245",
+      "para_id": "052.0247",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH: \"fast\" - fast (forward, improper, loose morals - Victorian term) %%",
       "fr_file": "content/fr/052/1876-01-17.md",
@@ -9659,7 +9659,7 @@
     },
     {
       "file": "1876-01-19.md",
-      "para_id": "052.0294",
+      "para_id": "052.0296",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: RUSSIAN: \"britaya soroka\" - shaved magpie (Audiffret's nickname, clean-shaven chatterer) %%",
       "fr_file": "content/fr/052/1876-01-19.md",
@@ -9668,7 +9668,7 @@
     },
     {
       "file": "1876-01-19.md",
-      "para_id": "052.0294",
+      "para_id": "052.0296",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: RUSSIAN: \"soroka\" - magpie %%",
       "fr_file": "content/fr/052/1876-01-19.md",
@@ -9677,7 +9677,7 @@
     },
     {
       "file": "1876-01-21.md",
-      "para_id": "052.0343",
+      "para_id": "052.0345",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: LATIN: \"Vulneratus est propter iniquitates nostras, attritus est propter scelera nostra\" - Isaiah 53:5: \"He was wounded for our transgressions, bruised for our sins\" %%",
       "fr_file": "content/fr/052/1876-01-21.md",
@@ -9686,7 +9686,7 @@
     },
     {
       "file": "1876-01-21.md",
-      "para_id": "052.0347",
+      "para_id": "052.0349",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH: \"Childe Harold\" - Byron's \"Childe Harold's Pilgrimage\" (romantic poem about Italy) %%",
       "fr_file": "content/fr/052/1876-01-21.md",
@@ -9695,7 +9695,7 @@
     },
     {
       "file": "1876-01-22.md",
-      "para_id": "052.0370",
+      "para_id": "052.0372",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ITALIAN: \"non e vero... auche il cardinale lo sa\" - isn't it so... the cardinal knows it too %%",
       "fr_file": "content/fr/052/1876-01-22.md",
@@ -9706,7 +9706,7 @@
   "053": [
     {
       "file": "1876-01-24.md",
-      "para_id": "053.0003",
+      "para_id": "053.0004",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"policemen\" - code-switching to English, fashionable term %%",
       "fr_file": "content/fr/053/1876-01-24.md",
@@ -9715,7 +9715,7 @@
     },
     {
       "file": "1876-01-25.md",
-      "para_id": "053.0064",
+      "para_id": "053.0065",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Audacer et amanter\" - Boldly and lovingly (Marie's former motto) %%",
       "fr_file": "content/fr/053/1876-01-25.md",
@@ -9724,7 +9724,7 @@
     },
     {
       "file": "1876-01-25.md",
-      "para_id": "053.0064",
+      "para_id": "053.0065",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Gloriae cupiditate\" - From desire for glory (proposed new motto) %%",
       "fr_file": "content/fr/053/1876-01-25.md",
@@ -9733,7 +9733,7 @@
     },
     {
       "file": "1876-01-25.md",
-      "para_id": "053.0065",
+      "para_id": "053.0066",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Turpis rana\" - ugly frog; Marie's insulting nickname for a rival %%",
       "fr_file": "content/fr/053/1876-01-25.md",
@@ -9742,7 +9742,7 @@
     },
     {
       "file": "1876-01-25.md",
-      "para_id": "053.0065",
+      "para_id": "053.0066",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Turpissima filia\" - most shameful/ugly daughter/girl %%",
       "fr_file": "content/fr/053/1876-01-25.md",
@@ -9751,7 +9751,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0072",
+      "para_id": "053.0073",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"turpis rana\" - ugly frog %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9760,7 +9760,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0073",
+      "para_id": "053.0074",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Quaerens quem devoret\" - \"seeking whom he may devour\" from 1 Peter 5:8, about the devil; Marie applies it to her rival %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9769,7 +9769,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0080",
+      "para_id": "053.0082",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Turpissimus omnium homo\" - most shameful/base of all men %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9778,7 +9778,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0084",
+      "para_id": "053.0086",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Lombardi alla prima crociata\" (I Lombardi) - Verdi opera (1843) about the First Crusade; Pagano is a character who becomes a hermit %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9787,7 +9787,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0089",
+      "para_id": "053.0090",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"courtship\" - Marie code-switches to English for romantic term %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9796,7 +9796,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0101",
+      "para_id": "053.0102",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"folle divengo di rabbia e di furor\" - \"I become mad with rage and fury\" - aria from Mignon (Italian version) %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9805,7 +9805,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0103",
+      "para_id": "053.0104",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"son felice, son rapita\" - \"I am happy, I am enraptured\" - another aria phrase %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9814,7 +9814,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0103",
+      "para_id": "053.0104",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"medium\" - middle register of the voice %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9823,7 +9823,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0103",
+      "para_id": "053.0104",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"mezzo voce\" - at half voice/softly %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9832,7 +9832,7 @@
     },
     {
       "file": "1876-01-26.md",
-      "para_id": "053.0104",
+      "para_id": "053.0105",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Gloriae Cupiditate\" - from desire for glory; Marie's motto %%",
       "fr_file": "content/fr/053/1876-01-26.md",
@@ -9841,7 +9841,7 @@
     },
     {
       "file": "1876-01-27.md",
-      "para_id": "053.0112",
+      "para_id": "053.0113",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-10T12:30:00 LAN: ITALIAN: \"Ohime!\" = \"Alas!\" / \"Woe is me!\" Italian exclamation Marie uses for dramatic effect. %%",
       "fr_file": "content/fr/053/1876-01-27.md",
@@ -9850,7 +9850,7 @@
     },
     {
       "file": "1876-01-27.md",
-      "para_id": "053.0113",
+      "para_id": "053.0114",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-10T12:30:00 LAN: ITALIAN: \"o invidia!\" = \"oh, envy!\" Marie envies the wealth and grandeur. %%",
       "fr_file": "content/fr/053/1876-01-27.md",
@@ -9859,7 +9859,7 @@
     },
     {
       "file": "1876-01-27.md",
-      "para_id": "053.0119",
+      "para_id": "053.0120",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-10T12:30:00 LAN: RUSSIAN: \"Soroka\" = magpie (soroka/сорока). Marie's nickname for persistent male admirers who stare at her (like magpies). She distinguishes \"le Soroka de Rome\" from \"Soroka de Nice\". Recurring code-name. %%",
       "fr_file": "content/fr/053/1876-01-27.md",
@@ -9868,7 +9868,7 @@
     },
     {
       "file": "1876-01-27.md",
-      "para_id": "053.0121",
+      "para_id": "053.0122",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-10T12:30:00 LAN: ENGLISH code-switch: \"plobsters\" - Marie's phonetic rendering of \"lobsters\" (English slang for red-coated soldiers, or more loosely, a clique of young men). Preserve the mangled English. %%",
       "fr_file": "content/fr/053/1876-01-27.md",
@@ -9877,7 +9877,7 @@
     },
     {
       "file": "1876-01-27.md",
-      "para_id": "053.0141",
+      "para_id": "053.0142",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-10T12:30:00 LAN: ITALIAN: \"Folle divengo di rabbia e di furor!\" = \"I go mad with rage and fury!\" Operatic Italian, possibly an aria quotation or pastiche. Marie code-switches to Italian for maximum dramatic effect in Rome. %%",
       "fr_file": "content/fr/053/1876-01-27.md",
@@ -9886,7 +9886,7 @@
     },
     {
       "file": "1876-01-27.md",
-      "para_id": "053.0158",
+      "para_id": "053.0159",
       "language": "LATIN",
       "lan_context": "%% 2026-02-10T12:30:00 LAN: LATIN: \"Gloriae Cupiditate\" = \"desire for glory\" (ablative). Marie's self-diagnosed core drive. This Latin formulation elevates her ambition to philosophical principle. %%",
       "fr_file": "content/fr/053/1876-01-27.md",
@@ -9895,7 +9895,7 @@
     },
     {
       "file": "1876-01-28.md",
-      "para_id": "053.0170",
+      "para_id": "053.0171",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Sua Eccelenza non ha che da fare come quel signore\" - Your Excellency only has to do as that gentleman did %%",
       "fr_file": "content/fr/053/1876-01-28.md",
@@ -9904,7 +9904,7 @@
     },
     {
       "file": "1876-01-29.md",
-      "para_id": "053.0195",
+      "para_id": "053.0196",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Misera me\" - Wretched me/Alas for me %%",
       "fr_file": "content/fr/053/1876-01-29.md",
@@ -9913,7 +9913,7 @@
     },
     {
       "file": "1876-01-30.md",
-      "para_id": "053.0211",
+      "para_id": "053.0212",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"maligni demones\" - evil demons; Marie's curse on Georges %%",
       "fr_file": "content/fr/053/1876-01-30.md",
@@ -9922,7 +9922,7 @@
     },
     {
       "file": "1876-01-30.md",
-      "para_id": "053.0225",
+      "para_id": "053.0226",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"rara avis\" - rare bird, i.e., extraordinary specimen (ironic/sarcastic) %%",
       "fr_file": "content/fr/053/1876-01-30.md",
@@ -9931,7 +9931,7 @@
     },
     {
       "file": "1876-01-30.md",
-      "para_id": "053.0233",
+      "para_id": "053.0234",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: Byron quote - from \"And Wilt Thou Weep When I am Low?\" (1808) %%",
       "fr_file": "content/fr/053/1876-01-30.md",
@@ -9940,7 +9940,7 @@
     },
     {
       "file": "1876-01-30.md",
-      "para_id": "053.0234",
+      "para_id": "053.0235",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"I groan for others\" - continuation of Byron quote, code-switching %%",
       "fr_file": "content/fr/053/1876-01-30.md",
@@ -9949,7 +9949,7 @@
     },
     {
       "file": "1876-01-31.md",
-      "para_id": "053.0246",
+      "para_id": "053.0248",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: Extended English quote - father advising daughter on propriety of not confessing love first; Marie identifies with this reproach %%",
       "fr_file": "content/fr/053/1876-01-31.md",
@@ -9958,7 +9958,7 @@
     },
     {
       "file": "1876-02-02.md",
-      "para_id": "053.0310",
+      "para_id": "053.0312",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: RUSSIAN: \"moujik\" - Russian peasant; here meaning someone of low social status %%",
       "fr_file": "content/fr/053/1876-02-02.md",
@@ -9967,7 +9967,7 @@
     },
     {
       "file": "1876-02-02.md",
-      "para_id": "053.0313",
+      "para_id": "053.0315",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: RUSSIAN EXPRESSION: \"de la graisse\" (ot zhiru) - from fat/excess; Russian idiom meaning problems from having too much, not real troubles %%",
       "fr_file": "content/fr/053/1876-02-02.md",
@@ -9976,7 +9976,7 @@
     },
     {
       "file": "1876-02-03.md",
-      "para_id": "053.0333",
+      "para_id": "053.0335",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"custodi\" - museum guards/custodians %%",
       "fr_file": "content/fr/053/1876-02-03.md",
@@ -9985,7 +9985,7 @@
     },
     {
       "file": "1876-02-03.md",
-      "para_id": "053.0342",
+      "para_id": "053.0344",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"silenzio\" - silence %%",
       "fr_file": "content/fr/053/1876-02-03.md",
@@ -9994,7 +9994,7 @@
     },
     {
       "file": "1876-02-04.md",
-      "para_id": "053.0359",
+      "para_id": "053.0361",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: RUSSIAN: \"Sobaka\" - dog; another nickname for a suitor, here Ruspoli %%",
       "fr_file": "content/fr/053/1876-02-04.md",
@@ -10003,7 +10003,7 @@
     },
     {
       "file": "1876-02-04.md",
-      "para_id": "053.0365",
+      "para_id": "053.0367",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Turpissimus omnium homo\" - most shameful/base of all men %%",
       "fr_file": "content/fr/053/1876-02-04.md",
@@ -10012,7 +10012,7 @@
     },
     {
       "file": "1876-02-05.md",
-      "para_id": "053.0385",
+      "para_id": "053.0387",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Nicae Civitas\" - City of Nice; Latin inscription on coat of arms %%",
       "fr_file": "content/fr/053/1876-02-05.md",
@@ -10021,7 +10021,7 @@
     },
     {
       "file": "1876-02-08.md",
-      "para_id": "053.0418",
+      "para_id": "053.0420",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Venus genitrix\" - Venus the Mother, type of statue showing Venus as ancestress of Rome %%",
       "fr_file": "content/fr/053/1876-02-08.md",
@@ -10030,7 +10030,7 @@
     },
     {
       "file": "1876-02-08.md",
-      "para_id": "053.0427",
+      "para_id": "053.0429",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"terza sera\" - third evening; opera subscription nights divided by social class %%",
       "fr_file": "content/fr/053/1876-02-08.md",
@@ -10039,7 +10039,7 @@
     },
     {
       "file": "1876-02-08.md",
-      "para_id": "053.0427",
+      "para_id": "053.0429",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"prima sera\" - first evening (aristocratic) %%",
       "fr_file": "content/fr/053/1876-02-08.md",
@@ -10048,7 +10048,7 @@
     },
     {
       "file": "1876-02-09.md",
-      "para_id": "053.0456",
+      "para_id": "053.0458",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN ALLUSION: \"Quousque tandem abutere, Catilina, patientia nostra?\" - \"How long, Catiline, will you abuse our patience?\" Opening of Cicero's First Catilinarian Oration %%",
       "fr_file": "content/fr/053/1876-02-09.md",
@@ -10057,7 +10057,7 @@
     },
     {
       "file": "1876-02-11.md",
-      "para_id": "053.0467",
+      "para_id": "053.0469",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN/NEOLOGISM: \"omnisapiente\" - all-knowing (Marie's mock-Latin formation for know-it-all) %%",
       "fr_file": "content/fr/053/1876-02-11.md",
@@ -10068,7 +10068,7 @@
   "054": [
     {
       "file": "1876-02-13.md",
-      "para_id": "054.0029",
+      "para_id": "054.0030",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"che vola\" - that flies, part of carnival prize name %%",
       "fr_file": "content/fr/054/1876-02-13.md",
@@ -10077,7 +10077,7 @@
     },
     {
       "file": "1876-02-13.md",
-      "para_id": "054.0030",
+      "para_id": "054.0031",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"home\" - Marie uses English word for emotional emphasis %%",
       "fr_file": "content/fr/054/1876-02-13.md",
@@ -10086,7 +10086,7 @@
     },
     {
       "file": "1876-02-14.md",
-      "para_id": "054.0096",
+      "para_id": "054.0099",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"ciocara\" - peasant woman from the Ciociaria region near Rome, popular artistic subject %%",
       "fr_file": "content/fr/054/1876-02-14.md",
@@ -10095,7 +10095,7 @@
     },
     {
       "file": "1876-02-15.md",
-      "para_id": "054.0136",
+      "para_id": "054.0139",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"pazzerello\" - little madcap, slightly crazy person (affectionate) %%",
       "fr_file": "content/fr/054/1876-02-15.md",
@@ -10104,7 +10104,7 @@
     },
     {
       "file": "1876-02-16.md",
-      "para_id": "054.0162",
+      "para_id": "054.0165",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Questa e americana\" - This one is American (Pope's remark about Marie) %%",
       "fr_file": "content/fr/054/1876-02-16.md",
@@ -10113,7 +10113,7 @@
     },
     {
       "file": "1876-02-17.md",
-      "para_id": "054.0200",
+      "para_id": "054.0204",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"In nomine Patris, Filii et Spiritus Sancti\" - In the name of the Father, Son, and Holy Spirit %%",
       "fr_file": "content/fr/054/1876-02-17.md",
@@ -10122,7 +10122,7 @@
     },
     {
       "file": "1876-02-19.md",
-      "para_id": "054.0305",
+      "para_id": "054.0309",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"di rabbia e di furror\" - with rage and fury, quote from Thomas's opera Mignon %%",
       "fr_file": "content/fr/054/1876-02-19.md",
@@ -10131,7 +10131,7 @@
     },
     {
       "file": "1876-02-22.md",
-      "para_id": "054.0371",
+      "para_id": "054.0376",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"carino! angelo!\" - darling! angel! (carnival exclamations) %%",
       "fr_file": "content/fr/054/1876-02-22.md",
@@ -10140,7 +10140,7 @@
     },
     {
       "file": "1876-02-22.md",
-      "para_id": "054.0379",
+      "para_id": "054.0384",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"coarse\" - Marie uses English word for slightly rough/vulgar quality %%",
       "fr_file": "content/fr/054/1876-02-22.md",
@@ -10149,7 +10149,7 @@
     },
     {
       "file": "1876-02-23.md",
-      "para_id": "054.0387",
+      "para_id": "054.0392",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"flirter\" - to flirt, borrowed English word %%",
       "fr_file": "content/fr/054/1876-02-23.md",
@@ -10158,7 +10158,7 @@
     },
     {
       "file": "1876-02-23.md",
-      "para_id": "054.0390",
+      "para_id": "054.0395",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Quando lei ritorna a Nizza?\" - When do you return to Nice? %%",
       "fr_file": "content/fr/054/1876-02-23.md",
@@ -10167,7 +10167,7 @@
     },
     {
       "file": "1876-02-23.md",
-      "para_id": "054.0391",
+      "para_id": "054.0396",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Nel mese d'aprile o forse di maggio\" - In April or perhaps May %%",
       "fr_file": "content/fr/054/1876-02-23.md",
@@ -10176,7 +10176,7 @@
     },
     {
       "file": "1876-02-23.md",
-      "para_id": "054.0401",
+      "para_id": "054.0406",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"E bello veramente\" - It's truly beautiful %%",
       "fr_file": "content/fr/054/1876-02-23.md",
@@ -10185,7 +10185,7 @@
     },
     {
       "file": "1876-02-24.md",
-      "para_id": "054.0425",
+      "para_id": "054.0430",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Stara sempre cosi\" - It will stay like this forever %%",
       "fr_file": "content/fr/054/1876-02-24.md",
@@ -10194,7 +10194,7 @@
     },
     {
       "file": "1876-02-24.md",
-      "para_id": "054.0426",
+      "para_id": "054.0431",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Buona sera e molte grazie\" - Good evening and many thanks %%",
       "fr_file": "content/fr/054/1876-02-24.md",
@@ -10203,7 +10203,7 @@
     },
     {
       "file": "1876-02-24.md",
-      "para_id": "054.0431",
+      "para_id": "054.0436",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"cardinalino\" - little cardinal, Marie's affectionate nickname for Antonelli %%",
       "fr_file": "content/fr/054/1876-02-24.md",
@@ -10212,7 +10212,7 @@
     },
     {
       "file": "1876-02-25.md",
-      "para_id": "054.0452",
+      "para_id": "054.0466",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: RUSSIAN: \"douchka\" (dushka) - darling, sweetheart %%",
       "fr_file": "content/fr/054/1876-02-25.md",
@@ -10221,7 +10221,7 @@
     },
     {
       "file": "1876-02-25.md",
-      "para_id": "054.0458",
+      "para_id": "054.0472",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Buona sera cardinalino\" - Good evening, little cardinal %%",
       "fr_file": "content/fr/054/1876-02-25.md",
@@ -10230,7 +10230,7 @@
     },
     {
       "file": "1876-02-25.md",
-      "para_id": "054.0459",
+      "para_id": "054.0473",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Buona sera carina\" - Good evening, darling %%",
       "fr_file": "content/fr/054/1876-02-25.md",
@@ -10239,7 +10239,7 @@
     },
     {
       "file": "1876-02-26.md",
-      "para_id": "054.0472",
+      "para_id": "054.0486",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: The following exchange in Italian about the ball; Marie pretends she wasn't there %%",
       "fr_file": "content/fr/054/1876-02-26.md",
@@ -10248,7 +10248,7 @@
     },
     {
       "file": "1876-02-26.md",
-      "para_id": "054.0488",
+      "para_id": "054.0502",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Dio! se almeno...\" - God! if only she wouldn't show it except to her family, but to the whole public! %%",
       "fr_file": "content/fr/054/1876-02-26.md",
@@ -10257,7 +10257,7 @@
     },
     {
       "file": "1876-02-27.md",
-      "para_id": "054.0508",
+      "para_id": "054.0522",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Marie Bachkirtseva creavit in mentem suam Petrus Antonellius\" - Marie Bashkirtseff created Peter Antonelli in her mind (faulty Latin) %%",
       "fr_file": "content/fr/054/1876-02-27.md",
@@ -10266,7 +10266,7 @@
     },
     {
       "file": "1876-02-28.md",
-      "para_id": "054.0522",
+      "para_id": "054.0536",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"What is the matter with you? why are you so red?\" - English neighbor speaks in English %%",
       "fr_file": "content/fr/054/1876-02-28.md",
@@ -10275,7 +10275,7 @@
     },
     {
       "file": "1876-02-28.md",
-      "para_id": "054.0523",
+      "para_id": "054.0537",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"I can't say, it is a nonsense\" - Marie replies in English %%",
       "fr_file": "content/fr/054/1876-02-28.md",
@@ -10284,7 +10284,7 @@
     },
     {
       "file": "1876-02-28.md",
-      "para_id": "054.0604",
+      "para_id": "054.0618",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"ho fame signorina, poverino, ho fame, una piccola moneta\" - I'm hungry miss, poor little one, I'm hungry, a small coin %%",
       "fr_file": "content/fr/054/1876-02-28.md",
@@ -10293,7 +10293,7 @@
     },
     {
       "file": "1876-02-29.md",
-      "para_id": "054.0626",
+      "para_id": "054.0640",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"moccoli\" - small candles, traditional end of Roman carnival where everyone tries to extinguish others' candles %%",
       "fr_file": "content/fr/054/1876-02-29.md",
@@ -10302,7 +10302,7 @@
     },
     {
       "file": "1876-02-29.md",
-      "para_id": "054.0640",
+      "para_id": "054.0654",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: Antonelli proposes marriage in Italian, Marie responds with insults %%",
       "fr_file": "content/fr/054/1876-02-29.md",
@@ -10385,7 +10385,7 @@
     },
     {
       "file": "1876-03-07.md",
-      "para_id": "055.0261",
+      "para_id": "055.0260",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN quotation from Ariosto's Orlando Furioso: \"Young lovely ladies in love / Love to have their bosoms and temples adorned\" %%",
       "fr_file": "content/fr/055/1876-03-07.md",
@@ -10421,7 +10421,7 @@
     },
     {
       "file": "1876-03-09.md",
-      "para_id": "055.0472",
+      "para_id": "055.0498",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: \"plobsters\" - ENGLISH/NEOLOGISM: Marie's invented word, likely from \"lobsters\" meaning wealthy catches %%",
       "fr_file": "content/fr/055/1876-03-09.md",
@@ -10430,7 +10430,7 @@
     },
     {
       "file": "1876-03-11.md",
-      "para_id": "055.0502",
+      "para_id": "055.0528",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: \"pazzerello\" - ITALIAN diminutive: \"little madman/crazy one\", affectionate term %%",
       "fr_file": "content/fr/055/1876-03-11.md",
@@ -10439,7 +10439,7 @@
     },
     {
       "file": "1876-03-11.md",
-      "para_id": "055.0509",
+      "para_id": "055.0535",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: \"Caccia-Club\" - ITALIAN: Hunt Club, exclusive gentleman's club in Rome %%",
       "fr_file": "content/fr/055/1876-03-11.md",
@@ -10448,7 +10448,7 @@
     },
     {
       "file": "1876-03-11.md",
-      "para_id": "055.0536",
+      "para_id": "055.0562",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: \"romo ou rumo, mamelle\" - LATIN etymology: Plutarch's derivation of Rome from Greek \"rhome\" (strength) or \"ruma\" (teat/breast), referring to the wolf nursing Romulus %%",
       "fr_file": "content/fr/055/1876-03-11.md",
@@ -10457,7 +10457,7 @@
     },
     {
       "file": "1876-03-13.md",
-      "para_id": "055.0635",
+      "para_id": "055.0661",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: \"Petruccio\" - ITALIAN diminutive of Pietro, affectionate nickname %%",
       "fr_file": "content/fr/055/1876-03-13.md",
@@ -10466,7 +10466,7 @@
     },
     {
       "file": "1876-03-13.md",
-      "para_id": "055.0661",
+      "para_id": "055.0687",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH title: \"The White Rose\" by Whyte Melville, English novelist popular with aristocracy %%",
       "fr_file": "content/fr/055/1876-03-13.md",
@@ -10475,7 +10475,7 @@
     },
     {
       "file": "1876-03-13.md",
-      "para_id": "055.0664",
+      "para_id": "055.0690",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: \"rossignou che vola\" - ITALIAN: \"nightingale that flies\", nickname for someone (likely Audiffret) %%",
       "fr_file": "content/fr/055/1876-03-13.md",
@@ -10484,7 +10484,7 @@
     },
     {
       "file": "1876-03-15.md",
-      "para_id": "055.0697",
+      "para_id": "055.0723",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH title: \"White rose\" - English novel title, keep in English %%",
       "fr_file": "content/fr/055/1876-03-15.md",
@@ -10493,7 +10493,7 @@
     },
     {
       "file": "1876-03-17.md",
-      "para_id": "055.0841",
+      "para_id": "055.0867",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"non-sens\" - nonsense, borrowed from English %%",
       "fr_file": "content/fr/055/1876-03-17.md",
@@ -10502,7 +10502,7 @@
     },
     {
       "file": "1876-03-18.md",
-      "para_id": "055.0864",
+      "para_id": "055.0890",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN/CLASSICAL: Plutarch quotation about dining with strangers %%",
       "fr_file": "content/fr/055/1876-03-18.md",
@@ -10511,7 +10511,7 @@
     },
     {
       "file": "1876-03-19.md",
-      "para_id": "055.0889",
+      "para_id": "055.0915",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"G. Cd\" = Giacomo cardinale (Cardinal Giacomo) %%",
       "fr_file": "content/fr/055/1876-03-19.md",
@@ -10520,7 +10520,7 @@
     },
     {
       "file": "1876-03-19.md",
-      "para_id": "055.0890",
+      "para_id": "055.0916",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Giacometto\" - diminutive of Giacomo (little James) %%",
       "fr_file": "content/fr/055/1876-03-19.md",
@@ -10529,7 +10529,7 @@
     },
     {
       "file": "1876-03-19.md",
-      "para_id": "055.0893",
+      "para_id": "055.0919",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"cardinalino\" - little cardinal (ironic diminutive for cardinal's nephew) %%",
       "fr_file": "content/fr/055/1876-03-19.md",
@@ -10538,7 +10538,7 @@
     },
     {
       "file": "1876-03-19.md",
-      "para_id": "055.0901",
+      "para_id": "055.0927",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"palazzo\" - palace/grand house; renting floors indicates reduced circumstances %%",
       "fr_file": "content/fr/055/1876-03-19.md",
@@ -10547,7 +10547,7 @@
     },
     {
       "file": "1876-03-20.md",
-      "para_id": "055.0913",
+      "para_id": "055.0939",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Santa Croce in gerusalemme\" - Basilica of the Holy Cross in Jerusalem, Rome %%",
       "fr_file": "content/fr/055/1876-03-20.md",
@@ -10556,7 +10556,7 @@
     },
     {
       "file": "1876-03-20.md",
-      "para_id": "055.0927",
+      "para_id": "055.0953",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH title: \"White rose\" - keep in English %%",
       "fr_file": "content/fr/055/1876-03-20.md",
@@ -10565,7 +10565,7 @@
     },
     {
       "file": "1876-03-22.md",
-      "para_id": "055.0943",
+      "para_id": "055.1019",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Caccia-Club\" - Hunt Club, exclusive aristocratic society %%",
       "fr_file": "content/fr/055/1876-03-22.md",
@@ -10574,7 +10574,7 @@
     },
     {
       "file": "1876-03-22.md",
-      "para_id": "055.0948",
+      "para_id": "055.1024",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"barcaccia\" - ground-floor box at Italian opera houses %%",
       "fr_file": "content/fr/055/1876-03-22.md",
@@ -10583,7 +10583,7 @@
     },
     {
       "file": "1876-03-22.md",
-      "para_id": "055.0961",
+      "para_id": "055.1037",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"veglione\" - grand masked ball, evening entertainment %%",
       "fr_file": "content/fr/055/1876-03-22.md",
@@ -10592,7 +10592,7 @@
     },
     {
       "file": "1876-03-23.md",
-      "para_id": "055.0991",
+      "para_id": "055.1067",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Dormi pure\" - Sleep peacefully, Italian song/aria %%",
       "fr_file": "content/fr/055/1876-03-23.md",
@@ -10601,7 +10601,7 @@
     },
     {
       "file": "1876-03-24.md",
-      "para_id": "055.1032",
+      "para_id": "055.1108",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"Dear, dear!\" - English exclamation of dismay %%",
       "fr_file": "content/fr/055/1876-03-24.md",
@@ -10610,7 +10610,7 @@
     },
     {
       "file": "1876-03-25.md",
-      "para_id": "055.1051",
+      "para_id": "055.1127",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"can't help it\" - Marie switches to English for emphasis %%",
       "fr_file": "content/fr/055/1876-03-25.md",
@@ -10619,7 +10619,7 @@
     },
     {
       "file": "1876-03-25.md",
-      "para_id": "055.1052",
+      "para_id": "055.1128",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Zuccone\" - blockhead, dunce (augmentative of zucca = pumpkin/head) %%",
       "fr_file": "content/fr/055/1876-03-25.md",
@@ -10628,7 +10628,7 @@
     },
     {
       "file": "1876-03-26.md",
-      "para_id": "055.1124",
+      "para_id": "055.1200",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Basta!\" - Enough! (Italian exclamation) %%",
       "fr_file": "content/fr/055/1876-03-26.md",
@@ -10637,7 +10637,7 @@
     },
     {
       "file": "1876-03-26.md",
-      "para_id": "055.1132",
+      "para_id": "055.1208",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Pax vobis\" - Peace be with you (papal blessing) %%",
       "fr_file": "content/fr/055/1876-03-26.md",
@@ -10646,7 +10646,7 @@
     },
     {
       "file": "1876-03-27.md",
-      "para_id": "055.1145",
+      "para_id": "055.1220",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: CODE-SWITCHING: \"nous parlons anglais\" - Marie switches to English for privacy from Pietro %%",
       "fr_file": "content/fr/055/1876-03-27.md",
@@ -10655,7 +10655,7 @@
     },
     {
       "file": "1876-03-27.md",
-      "para_id": "055.1175",
+      "para_id": "055.DROPPED-1175",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory (Marie's self-description) %%",
       "fr_file": "content/fr/055/1876-03-27.md",
@@ -10664,7 +10664,7 @@
     },
     {
       "file": "1876-03-27.md",
-      "para_id": "055.1176",
+      "para_id": "055.DROPPED-1176",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH abbreviation: His Grace the Duke of Hamilton - coded reference %%",
       "fr_file": "content/fr/055/1876-03-27.md",
@@ -10673,7 +10673,7 @@
     },
     {
       "file": "1876-03-27.md",
-      "para_id": "055.1184",
+      "para_id": "056.0006",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"contessina\" - little countess (teasing diminutive) %%",
       "fr_file": "content/fr/055/1876-03-27.md",
@@ -10682,7 +10682,7 @@
     },
     {
       "file": "1876-03-27.md",
-      "para_id": "055.1192",
+      "para_id": "056.0014",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"trattoria\" - simple Italian restaurant/eating house %%",
       "fr_file": "content/fr/055/1876-03-27.md",
@@ -10693,7 +10693,7 @@
   "056": [
     {
       "file": "1876-03-28.md",
-      "para_id": "056.0052",
+      "para_id": "056.0083",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Via!\" - Italian exclamation \"Come on!/Away!\" - Marie code-switches %%",
       "fr_file": "content/fr/056/1876-03-28.md",
@@ -10702,7 +10702,7 @@
     },
     {
       "file": "1876-03-28.md",
-      "para_id": "056.0053",
+      "para_id": "056.0084",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: Lines 2388-2391 are from Verdi's Requiem \"Lacrymosa\" - \"That tearful day / When from the ashes shall rise / Guilty man to be judged / Lord, spare him then\" %%",
       "fr_file": "content/fr/056/1876-03-28.md",
@@ -10711,7 +10711,7 @@
     },
     {
       "file": "1876-03-28.md",
-      "para_id": "056.0065",
+      "para_id": "056.0096",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"love\" and \"like\" - Marie code-switches to explain French lacks this distinction %%",
       "fr_file": "content/fr/056/1876-03-28.md",
@@ -10720,7 +10720,7 @@
     },
     {
       "file": "1876-03-30.md",
-      "para_id": "056.0157",
+      "para_id": "056.0188",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: RUSSIAN: conversation with mother in Russian for privacy from Italian visitors %%",
       "fr_file": "content/fr/056/1876-03-30.md",
@@ -10729,7 +10729,7 @@
     },
     {
       "file": "1876-03-31.md",
-      "para_id": "056.0244",
+      "para_id": "056.0275",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"I love you\" - Plowden speaks in English; \"Et de trois!\" - \"That makes three!\" (counting suitors) %%",
       "fr_file": "content/fr/056/1876-03-31.md",
@@ -10738,7 +10738,7 @@
     },
     {
       "file": "1876-03-31.md",
-      "para_id": "056.0253",
+      "para_id": "056.0284",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Brutto!\" - Italian \"Ugly!/Bad!\" - Marie code-switches for emphasis %%",
       "fr_file": "content/fr/056/1876-03-31.md",
@@ -10747,7 +10747,7 @@
     },
     {
       "file": "1876-04-02.md",
-      "para_id": "056.0280",
+      "para_id": "056.0310",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Domine, dona mihi fidem\" - \"Lord, give me faith\" - Marie's Latin prayer %%",
       "fr_file": "content/fr/056/1876-04-02.md",
@@ -10756,7 +10756,7 @@
     },
     {
       "file": "1876-04-02.md",
-      "para_id": "056.0288",
+      "para_id": "056.0318",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: Church formula: \"Plenary perpetual indulgence for the living and the dead\" %%",
       "fr_file": "content/fr/056/1876-04-02.md",
@@ -10765,7 +10765,7 @@
     },
     {
       "file": "1876-04-02.md",
-      "para_id": "056.0298",
+      "para_id": "056.0329",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Requiescat in pace\" - \"May he rest in peace\" - funeral formula used ironically for Pietro %%",
       "fr_file": "content/fr/056/1876-04-02.md",
@@ -10774,7 +10774,7 @@
     },
     {
       "file": "1876-04-03.md",
-      "para_id": "056.0314",
+      "para_id": "056.0344",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Via!\" - Italian exclamation \"Away!/Come on!\" %%",
       "fr_file": "content/fr/056/1876-04-03.md",
@@ -10783,7 +10783,7 @@
     },
     {
       "file": "1876-04-03.md",
-      "para_id": "056.0335",
+      "para_id": "056.0366",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"PAX TIBI\" - \"Peace be with you\" - liturgical greeting Marie writes on photograph %%",
       "fr_file": "content/fr/056/1876-04-03.md",
@@ -10792,7 +10792,7 @@
     },
     {
       "file": "1876-04-03.md",
-      "para_id": "056.0341",
+      "para_id": "056.0372",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: \"A.T.E.\" - initials for Aglaé, Thalie, Euphrosine (the three Graces); also ITALIAN \"a te\" = \"to you\" %%",
       "fr_file": "content/fr/056/1876-04-03.md",
@@ -10801,7 +10801,7 @@
     },
     {
       "file": "1876-04-05.md",
-      "para_id": "056.0405",
+      "para_id": "056.0436",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: \"Vanité, vanité\" - echo of Ecclesiastes 1:2 \"Vanity of vanities\"; ITALIAN \"Basta\" = \"Enough\" %%",
       "fr_file": "content/fr/056/1876-04-05.md",
@@ -10810,7 +10810,7 @@
     },
     {
       "file": "1876-04-07.md",
-      "para_id": "056.0445",
+      "para_id": "056.0498",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: RUSSIAN: \"raisonneur\" - Russian social type: argumentative intellectual; \"ses bottes craquent\" - Russian elegance marker %%",
       "fr_file": "content/fr/056/1876-04-07.md",
@@ -10819,7 +10819,7 @@
     },
     {
       "file": "1876-04-07.md",
-      "para_id": "056.0449",
+      "para_id": "056.0502",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: RUSSIAN: \"avoir un chat dans le coeur\" - Russian idiom: to have a cat scratching at one's heart (anxiety) %%",
       "fr_file": "content/fr/056/1876-04-07.md",
@@ -10828,7 +10828,7 @@
     },
     {
       "file": "1876-04-09.md",
-      "para_id": "056.0501",
+      "para_id": "056.0600",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN/ITALIAN: \"Miserere\" - Have mercy (Psalm 51); church music term %%",
       "fr_file": "content/fr/056/1876-04-09.md",
@@ -10837,7 +10837,7 @@
     },
     {
       "file": "1876-04-09.md",
-      "para_id": "056.0515",
+      "para_id": "057.0003",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Nescio\" - \"I do not know\" %%",
       "fr_file": "content/fr/056/1876-04-09.md",
@@ -10846,7 +10846,7 @@
     },
     {
       "file": "1876-04-09.md",
-      "para_id": "056.0564",
+      "para_id": "057.0052",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"Ohimè\" - \"Alas!/Woe is me!\" %%",
       "fr_file": "content/fr/056/1876-04-09.md",
@@ -10857,7 +10857,7 @@
   "057": [
     {
       "file": "1876-04-13.md",
-      "para_id": "057.0098",
+      "para_id": "057.0212",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH: \"That is the question\" - Shakespeare's Hamlet; Marie code-switches for dramatic effect %%",
       "fr_file": "content/fr/057/1876-04-13.md",
@@ -10866,7 +10866,7 @@
     },
     {
       "file": "1876-04-13.md",
-      "para_id": "057.0137",
+      "para_id": "058.0007",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"culpa mea\" - \"my fault\" (from Confiteor prayer: \"mea culpa, mea culpa, mea maxima culpa\") %%",
       "fr_file": "content/fr/057/1876-04-13.md",
@@ -10877,7 +10877,7 @@
   "058": [
     {
       "file": "1876-04-16.md",
-      "para_id": "058.0079",
+      "para_id": "058.0103",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: WORDPLAY: Pietro confuses ITALIAN \"buggia\" (lie) with French \"bougie\" (candle), then \"chandelle\" %%",
       "fr_file": "content/fr/058/1876-04-16.md",
@@ -10886,7 +10886,7 @@
     },
     {
       "file": "1876-04-17.md",
-      "para_id": "058.0093",
+      "para_id": "058.0117",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: RUSSIAN: \"*faire d'histoire*\" - Russian idiom (delat' istoriyu): to make a fuss/scene %%",
       "fr_file": "content/fr/058/1876-04-17.md",
@@ -10895,7 +10895,7 @@
     },
     {
       "file": "1876-04-17.md",
-      "para_id": "058.0106",
+      "para_id": "058.0130",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: Telegram text in Italian - \"Count Pietro Antonelli is in Rome\" %%",
       "fr_file": "content/fr/058/1876-04-17.md",
@@ -10904,7 +10904,7 @@
     },
     {
       "file": "1876-04-17.md",
-      "para_id": "058.0125",
+      "para_id": "058.0149",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ITALIAN: \"signor cardinalino\" - mocking: \"little cardinal gentleman\" (diminutive for Antonelli's Vatican connection) %%",
       "fr_file": "content/fr/058/1876-04-17.md",
@@ -10915,7 +10915,7 @@
   "059": [
     {
       "file": "1876-04-20.md",
-      "para_id": "059.0017",
+      "para_id": "059.0009",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: \"Caccia-Club\" - ITALIAN: the Hunt Club, an exclusive gentlemen's club in Rome %%",
       "fr_file": "content/fr/059/1876-04-20.md",
@@ -10924,7 +10924,7 @@
     },
     {
       "file": "1876-04-20.md",
-      "para_id": "059.0017",
+      "para_id": "059.0009",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: \"barcaccia\" - ITALIAN: literally \"old boat\"; refers to the fountain in Piazza di Spagna, a fashionable gathering place %%",
       "fr_file": "content/fr/059/1876-04-20.md",
@@ -10933,7 +10933,7 @@
     },
     {
       "file": "1876-04-20.md",
-      "para_id": "059.0044",
+      "para_id": "059.0036",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: \"gentlemen riders\" - ENGLISH: amateur riders from aristocratic families who race for sport, not money %%",
       "fr_file": "content/fr/059/1876-04-20.md",
@@ -10942,7 +10942,7 @@
     },
     {
       "file": "1876-04-21.md",
-      "para_id": "059.0049",
+      "para_id": "059.0077",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: \"Tiziano Vicellio\" - ITALIAN form of Titian's name (Tiziano Vecellio); showing Marie's art knowledge %%",
       "fr_file": "content/fr/059/1876-04-21.md",
@@ -10951,7 +10951,7 @@
     },
     {
       "file": "1876-04-21.md",
-      "para_id": "059.0051",
+      "para_id": "059.0079",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: \"Forse\" - perhaps/maybe; Marie's casual Italian interjection %%",
       "fr_file": "content/fr/059/1876-04-21.md",
@@ -10960,7 +10960,7 @@
     },
     {
       "file": "1876-04-29.md",
-      "para_id": "059.0246",
+      "para_id": "059.0597",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: \"poco m'importe\" - little does it matter to me; mixed Italian/French %%",
       "fr_file": "content/fr/059/1876-04-29.md",
@@ -10969,7 +10969,7 @@
     },
     {
       "file": "1876-05-02.md",
-      "para_id": "059.0321",
+      "para_id": "059.0672",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: \"Signor zio\" - Mr. Uncle; affectionate/ironic reference to Cardinal Antonelli %%",
       "fr_file": "content/fr/059/1876-05-02.md",
@@ -10978,7 +10978,7 @@
     },
     {
       "file": "1876-05-06.md",
-      "para_id": "059.0459",
+      "para_id": "059.0824",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: \"Rossignou che vola\" - \"The Nightingale that Flies\"; traditional Nicois song in local dialect %%",
       "fr_file": "content/fr/059/1876-05-06.md",
@@ -10987,7 +10987,7 @@
     },
     {
       "file": "1876-05-07.md",
-      "para_id": "059.0524",
+      "para_id": "059.0889",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: \"Carpo di Bacco!\" - \"Body of Bacchus!\"; Italian oath, euphemistic %%",
       "fr_file": "content/fr/059/1876-05-07.md",
@@ -10996,7 +10996,7 @@
     },
     {
       "file": "1876-05-08.md",
-      "para_id": "059.0555",
+      "para_id": "059.0920",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH RUSSIAN: \"chtchenok\" (щенок) - puppy, young dog; pejorative for an immature young man %%",
       "fr_file": "content/fr/059/1876-05-08.md",
@@ -11005,7 +11005,7 @@
     },
     {
       "file": "1876-05-09.md",
-      "para_id": "059.0586",
+      "para_id": "059.0951",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: RUSSIAN PROVERB: \"Vis un siècle et étudie un siècle\" - Live a century and study a century (one never stops learning) %%",
       "fr_file": "content/fr/059/1876-05-09.md",

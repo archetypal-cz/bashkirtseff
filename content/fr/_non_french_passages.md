@@ -986,11 +986,11 @@ They need AI translation into French.
 - **044/1875-09-25.md** para 044.0229 [LATIN]: %% 2026-01-30T18:05:15 LAN: LATIN: "o miseria" - oh misery! mock-classical lament at poor quality of suitors %%
 - **045/1875-09-26.md** para 045.0046 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: "l'appassionata" - ITALIAN: musical term for passionate piece; double meaning in flirtatious context %%
 - **045/1875-09-26.md** para 045.0054 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: RUSSIAN CODE-SWITCHING: "Nicolas Ferovitch" and "Maria Constantinovna" - Russian patronymics; indicates intimate/domestic register %%
-- **045/1875-09-30.md** para 045.0220 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: "le roti n'empeche pas le potage" - RUSSIAN PROVERB translated; meaning one thing does not prevent another, different domains %%
-- **045/1875-09-30.md** para 045.0228 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: "Charogne" - RUSSIAN CODE-SWITCH: carrion, rotting carcass; extremely vulgar insult, likely Russian "падаль" rendered in French %%
-- **045/1875-09-30.md** para 045.0231 [LATIN]: %% 2026-02-02T12:00:00 LAN: LATIN: "Sic factae sumus" - Thus we are made (feminine plural); mock-classical resignation %%
-- **045/1875-09-30.md** para 045.0237 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: ITALIAN: "tutti quanti" - all of us, the whole lot; casual code-switch %%
-- **045/1875-10-01.md** para 045.0294 [ENGLISH]: %% 2026-02-02T12:00:00 LAN: ENGLISH CODE-SWITCH: "non-sens" - from English "nonsense"; Marie uses the English word %%
+- **045/1875-09-30.md** para 045.0221 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: "le roti n'empeche pas le potage" - RUSSIAN PROVERB translated; meaning one thing does not prevent another, different domains %%
+- **045/1875-09-30.md** para 045.0229 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: "Charogne" - RUSSIAN CODE-SWITCH: carrion, rotting carcass; extremely vulgar insult, likely Russian "падаль" rendered in French %%
+- **045/1875-09-30.md** para 045.0232 [LATIN]: %% 2026-02-02T12:00:00 LAN: LATIN: "Sic factae sumus" - Thus we are made (feminine plural); mock-classical resignation %%
+- **045/1875-09-30.md** para 045.0238 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: ITALIAN: "tutti quanti" - all of us, the whole lot; casual code-switch %%
+- **045/1875-10-01.md** para 045.0295 [ENGLISH]: %% 2026-02-02T12:00:00 LAN: ENGLISH CODE-SWITCH: "non-sens" - from English "nonsense"; Marie uses the English word %%
 - **046/1875-10-03.md** para 046.0025 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: RUSSIAN: "Moussia" - Russian diminutive for Marie (Masha/Maria), her family nickname %%
 - **046/1875-10-04.md** para 046.0047 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: "imbroglio" - ITALIAN: tangled situation/intrigue; common in French literary usage %%
 - **046/1875-10-04.md** para 046.0049 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: ITALIAN: "mi ritrovo per una selva oscura, che la diritta via era smarrita" - Dante's Inferno Canto I: "I found myself in a dark wood, where the straight way was lost" %%
@@ -1006,138 +1006,138 @@ They need AI translation into French.
 - **047/1875-10-21.md** para 047.0350 [LATIN]: %% 2026-02-02T12:00:00 LAN: LATIN: "Dixi" - I have spoken; classical rhetoric marker for ending an argument %%
 - **047/1875-10-21.md** para 047.0383 [LATIN]: %% 2026-02-02T12:00:00 LAN: LATIN: "Nescio" - I don't know; classical affectation %%
 - **048/1875-10-24.md** para 048.0008 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "viz" - abbreviation of "videlicet", meaning "namely" %%
-- **048/1875-10-26.md** para 048.0042 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "buona compagnia" - good company, the whole group; Marie uses Italian for light irony %%
-- **048/1875-10-30.md** para 048.0268 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "english-looking" - Marie uses English for describing fashionable/distinctive appearance %%
-- **048/1875-11-01.md** para 048.0361 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Dormi pure" - aria from "La sonnambula" by Bellini, meaning "Sleep peacefully" %%
-- **048/1875-11-07.md** para 048.0663 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "sospesi" - the suspended ones; Dante's Limbo reference for those neither happy nor sad %%
-- **049/1875-11-12.md** para 049.0165 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "E quando ci darete Mignon?" - And when will you give us Mignon? %%
-- **049/1875-11-12.md** para 049.0166 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Lunedi, signorina, lunedi" - Monday, miss, Monday %%
-- **049/1875-11-12.md** para 049.0167 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Come lunedi! Io pensavo che sarebbe sabato!" - What, Monday! I thought it would be Saturday! (Marie's Italian has errors) %%
-- **049/1875-11-12.md** para 049.0174 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Vedete, la signorina ha gran fretta d'andar a Parigi per il Grand Hotel" - You see, the young lady is in a great hurry to go to Paris for the Grand Hotel %%
-- **049/1875-11-13.md** para 049.0215 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "signor" - mister, sir %%
-- **049/1875-11-15.md** para 049.0289 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: "prima donna" - ITALIAN: lead female opera singer %%
-- **049/1875-11-15.md** para 049.0303 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "Nescio" - I don't know %%
-- **050/1875-11-18.md** para 050.0003 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH acronym - "H[is] G[race] t[he] D[uke] o[f] Hamilton" - Marie's coded reference to the Duke, using English title %%
-- **050/1875-11-25.md** para 050.0185 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH "roastbeef" - Marie uses English word for this British dish %%
-- **050/1875-11-28.md** para 050.0238 [CODE-SWITCH]: %% 2026-02-02T12:05:00 LAN: CODE-SWITCHING: "parler...italien" - Audiffret speaks Italian to stepmother (her native language) %%
-- **050/1875-12-01.md** para 050.0339 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "nec plus" - and nothing more, no further contact %%
-- **050/1875-12-08.md** para 050.0553 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime" - alas, oh dear (Italian exclamation) %%
-- **050/1875-12-10.md** para 050.0571 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Heu misera" - Alas, wretched one! (classical exclamation of self-pity) %%
-- **050/1875-12-11.md** para 050.0622 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "La Cenerentola" - Rossini's Cinderella opera (1817); ITALIAN title %%
-- **050/1875-12-11.md** para 050.0628 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "flirtons" - we flirt; borrowed from English, fashionable term %%
-- **050/1875-12-12.md** para 050.0653 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Delectabile tempus" - delightful time (mock-formal nostalgia) %%
-- **050/1875-12-13.md** para 050.0685 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Capite?" - Do you understand? (rhetorical, expressing frustration) %%
-- **050/1875-12-15.md** para 050.0709 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Vedete!" - You see! (rhetorical, inviting reader to witness) %%
-- **050/1875-12-16.md** para 050.0723 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La figlia del regimento" - The Daughter of the Regiment (Donizetti opera, 1840) %%
-- **050/1875-12-17.md** para 050.0758 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Che differenza!" - What a difference! %%
-- **050/1875-12-20.md** para 050.0837 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Qui solo vorrei restare, amar et morir" - Here only would I wish to stay, to love and to die (operatic quotation) %%
-- **050/1875-12-22.md** para 050.0872 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "moujik" - peasant (mocking term for Audiffret, despite his nobility) %%
-- **050/1875-12-22.md** para 050.0895 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ed ha natura si malvaggia e ria" - And has a nature so wicked and evil (Dante, Inferno; Marie applies to jealousy) %%
-- **050/1875-12-24.md** para 050.0916 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime! potessi io ritornare a quelle amate sponde" - Alas! Could I return to those beloved shores (operatic aria, possibly from Il Barbiere) %%
-- **050/1875-12-24.md** para 050.0918 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La solo restare" - there only to stay (from the aria; Marie applies to Nice) %%
-- **050/1875-12-25.md** para 050.0946 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "a mezza voce" - at half voice, softly (musical term) %%
+- **048/1875-10-26.md** para 048.0062 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "buona compagnia" - good company, the whole group; Marie uses Italian for light irony %%
+- **048/1875-10-30.md** para 048.0288 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "english-looking" - Marie uses English for describing fashionable/distinctive appearance %%
+- **048/1875-11-01.md** para 048.0381 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Dormi pure" - aria from "La sonnambula" by Bellini, meaning "Sleep peacefully" %%
+- **049/1875-11-07.md** para 049.0039 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "sospesi" - the suspended ones; Dante's Limbo reference for those neither happy nor sad %%
+- **049/1875-11-12.md** para 049.0315 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "E quando ci darete Mignon?" - And when will you give us Mignon? %%
+- **049/1875-11-12.md** para 049.0316 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Lunedi, signorina, lunedi" - Monday, miss, Monday %%
+- **049/1875-11-12.md** para 049.0317 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Come lunedi! Io pensavo che sarebbe sabato!" - What, Monday! I thought it would be Saturday! (Marie's Italian has errors) %%
+- **049/1875-11-12.md** para 049.0324 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Vedete, la signorina ha gran fretta d'andar a Parigi per il Grand Hotel" - You see, the young lady is in a great hurry to go to Paris for the Grand Hotel %%
+- **049/1875-11-13.md** para 049.0364 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "signor" - mister, sir %%
+- **049/1875-11-15.md** para 049.0438 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: "prima donna" - ITALIAN: lead female opera singer %%
+- **049/1875-11-15.md** para 049.0452 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "Nescio" - I don't know %%
+- **050/1875-11-18.md** para 050.DROPPED-0003 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH acronym - "H[is] G[race] t[he] D[uke] o[f] Hamilton" - Marie's coded reference to the Duke, using English title %%
+- **050/1875-11-25.md** para 050.0202 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH "roastbeef" - Marie uses English word for this British dish %%
+- **050/1875-11-28.md** para 050.0255 [CODE-SWITCH]: %% 2026-02-02T12:05:00 LAN: CODE-SWITCHING: "parler...italien" - Audiffret speaks Italian to stepmother (her native language) %%
+- **050/1875-12-01.md** para 050.0357 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "nec plus" - and nothing more, no further contact %%
+- **050/1875-12-08.md** para 050.0575 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime" - alas, oh dear (Italian exclamation) %%
+- **050/1875-12-10.md** para 050.0593 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Heu misera" - Alas, wretched one! (classical exclamation of self-pity) %%
+- **050/1875-12-11.md** para 050.0644 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "La Cenerentola" - Rossini's Cinderella opera (1817); ITALIAN title %%
+- **050/1875-12-11.md** para 050.0650 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "flirtons" - we flirt; borrowed from English, fashionable term %%
+- **050/1875-12-12.md** para 050.0692 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Delectabile tempus" - delightful time (mock-formal nostalgia) %%
+- **050/1875-12-13.md** para 050.0730 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Capite?" - Do you understand? (rhetorical, expressing frustration) %%
+- **050/1875-12-15.md** para 050.0789 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Vedete!" - You see! (rhetorical, inviting reader to witness) %%
+- **050/1875-12-16.md** para 050.0817 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La figlia del regimento" - The Daughter of the Regiment (Donizetti opera, 1840) %%
+- **050/1875-12-17.md** para 050.0911 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Che differenza!" - What a difference! %%
+- **050/1875-12-20.md** para 050.1086 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Qui solo vorrei restare, amar et morir" - Here only would I wish to stay, to love and to die (operatic quotation) %%
+- **050/1875-12-22.md** para 050.1127 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "moujik" - peasant (mocking term for Audiffret, despite his nobility) %%
+- **050/1875-12-22.md** para 050.1150 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ed ha natura si malvaggia e ria" - And has a nature so wicked and evil (Dante, Inferno; Marie applies to jealousy) %%
+- **050/1875-12-24.md** para 050.1171 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime! potessi io ritornare a quelle amate sponde" - Alas! Could I return to those beloved shores (operatic aria, possibly from Il Barbiere) %%
+- **050/1875-12-24.md** para 050.1173 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La solo restare" - there only to stay (from the aria; Marie applies to Nice) %%
+- **050/1875-12-25.md** para 050.1201 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "a mezza voce" - at half voice, softly (musical term) %%
 - **051/1875-12-27.md** para 051.0030 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "la vecchia canzone" - the old song/same old story %%
 - **051/1875-12-27.md** para 051.0030 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Misera me" - woe is me/poor me; operatic exclamation %%
 - **051/1875-12-27.md** para 051.0032 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "partiro" - I will leave; code-switching for emotional effect %%
 - **051/1875-12-28.md** para 051.0068 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Miserere" - have mercy; liturgical reference, mock-religious tone %%
 - **051/1875-12-29.md** para 051.0104 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Dio lo sa" - God knows; code-switching for dramatic effect %%
-- **051/1875-12-31.md** para 051.0154 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from satirical novel about Nice society - "Mrs Bodgers attained the summit of her ambition in Nice" %%
-- **051/1876-01-01.md** para 051.0215 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN (from opera Mignon, Italian version) - "Tomorrow I will leave, I am far from you" - Marie sings farewell %%
-- **051/1876-01-01.md** para 051.0219 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Addio dunque, tutti quanti" - farewell then, everyone; operatic flourish %%
-- **051/1876-01-02-03.md** para 051.0261 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN reference "Tu quoque" - "You too, Brutus?"; Caesar covering his face when betrayed %%
-- **051/1876-01-02-03.md** para 051.0271 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN title "Orlando furioso" by Ariosto - Renaissance epic poem; Marie's literary reading %%
-- **051/1876-01-04.md** para 051.0295 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "palazzo" - palace; Roman aristocratic residence %%
-- **051/1876-01-04.md** para 051.0295 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "misera me" - woe is me; operatic exclamation %%
-- **051/1876-01-04.md** para 051.0309 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "In nomine Patris, Filii et Spiritus Sancti" - In the name of the Father, Son, and Holy Spirit; mock-religious blessing for dreaded marriage %%
-- **051/1876-01-05.md** para 051.0316 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Orsu" - well then/come now; conversational Italian %%
-- **051/1876-01-05.md** para 051.0335 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from Byron's "Childe Harold's Pilgrimage" Canto IV - famous Romantic description of the Colosseum %%
-- **051/1876-01-06.md** para 051.0345 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "E brutto ma e tutto buono, tutto grazioso" - He is ugly but all good, all gracious; popular saying about King Victor Emmanuel II %%
-- **051/1876-01-08.md** para 051.0372 [LATIN]: %% 2026-02-02T12:05:00 LAN: "i.e." - LATIN id est (that is); Marie's educated abbreviation %%
-- **052/1876-01-10.md** para 052.0018 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "signor" - Italian title Mr./Sir %%
-- **052/1876-01-10.md** para 052.0019 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "maestro" - master (music teacher) %%
-- **052/1876-01-10.md** para 052.0034 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "unprotected" - Marie switches to English for emphasis %%
-- **052/1876-01-11.md** para 052.0083 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: mock-Latin curse modeled on classical insults - "and let him be called Surp[rising], most soft, improper, dishonest, greedy, luxurious, drunk" %%
-- **052/1876-01-11.md** para 052.0089 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Sara quel che sara" - What will be will be (Che sara, sara) %%
-- **052/1876-01-12.md** para 052.0097 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "il battistero di Costantino" - the Baptistery of Constantine %%
-- **052/1876-01-13.md** para 052.0128 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Corpo di Bacco!" - Body of Bacchus! (Italian oath, like "Good grief!") %%
-- **052/1876-01-14.md** para 052.0162 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Ma c'e rimedio. Udite e saprete." - But there is a remedy. Listen and you will know. %%
-- **052/1876-01-16.md** para 052.0201 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "she is very beautiful" - Americans speaking English, Marie pretends not to understand %%
-- **052/1876-01-16.md** para 052.0205 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "Regis venit lux" - The light of the king comes (quasi-religious invocation) %%
-- **052/1876-01-16.md** para 052.0213 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "we would be quite a nice little party" - Foster's invitation in English %%
-- **052/1876-01-16.md** para 052.0216 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "pique-niques" - picnics (borrowed from English) %%
-- **052/1876-01-17.md** para 052.0245 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "fast" - fast (forward, improper, loose morals - Victorian term) %%
-- **052/1876-01-19.md** para 052.0294 [RUSSIAN]: %% 2026-02-02T12:05:00 LAN: RUSSIAN: "britaya soroka" - shaved magpie (Audiffret's nickname, clean-shaven chatterer) %%
-- **052/1876-01-19.md** para 052.0294 [RUSSIAN]: %% 2026-02-02T12:05:00 LAN: RUSSIAN: "soroka" - magpie %%
-- **052/1876-01-21.md** para 052.0343 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "Vulneratus est propter iniquitates nostras, attritus est propter scelera nostra" - Isaiah 53:5: "He was wounded for our transgressions, bruised for our sins" %%
-- **052/1876-01-21.md** para 052.0347 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "Childe Harold" - Byron's "Childe Harold's Pilgrimage" (romantic poem about Italy) %%
-- **052/1876-01-22.md** para 052.0370 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "non e vero... auche il cardinale lo sa" - isn't it so... the cardinal knows it too %%
-- **053/1876-01-24.md** para 053.0003 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "policemen" - code-switching to English, fashionable term %%
-- **053/1876-01-25.md** para 053.0064 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Audacer et amanter" - Boldly and lovingly (Marie's former motto) %%
-- **053/1876-01-25.md** para 053.0064 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Gloriae cupiditate" - From desire for glory (proposed new motto) %%
-- **053/1876-01-25.md** para 053.0065 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpis rana" - ugly frog; Marie's insulting nickname for a rival %%
-- **053/1876-01-25.md** para 053.0065 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpissima filia" - most shameful/ugly daughter/girl %%
-- **053/1876-01-26.md** para 053.0072 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "turpis rana" - ugly frog %%
-- **053/1876-01-26.md** para 053.0073 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Quaerens quem devoret" - "seeking whom he may devour" from 1 Peter 5:8, about the devil; Marie applies it to her rival %%
-- **053/1876-01-26.md** para 053.0080 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpissimus omnium homo" - most shameful/base of all men %%
-- **053/1876-01-26.md** para 053.0084 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Lombardi alla prima crociata" (I Lombardi) - Verdi opera (1843) about the First Crusade; Pagano is a character who becomes a hermit %%
-- **053/1876-01-26.md** para 053.0089 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "courtship" - Marie code-switches to English for romantic term %%
-- **053/1876-01-26.md** para 053.0101 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "folle divengo di rabbia e di furor" - "I become mad with rage and fury" - aria from Mignon (Italian version) %%
-- **053/1876-01-26.md** para 053.0103 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "son felice, son rapita" - "I am happy, I am enraptured" - another aria phrase %%
-- **053/1876-01-26.md** para 053.0103 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "medium" - middle register of the voice %%
-- **053/1876-01-26.md** para 053.0103 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "mezzo voce" - at half voice/softly %%
-- **053/1876-01-26.md** para 053.0104 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Gloriae Cupiditate" - from desire for glory; Marie's motto %%
-- **053/1876-01-27.md** para 053.0112 [ITALIAN]: %% 2026-02-10T12:30:00 LAN: ITALIAN: "Ohime!" = "Alas!" / "Woe is me!" Italian exclamation Marie uses for dramatic effect. %%
-- **053/1876-01-27.md** para 053.0113 [ITALIAN]: %% 2026-02-10T12:30:00 LAN: ITALIAN: "o invidia!" = "oh, envy!" Marie envies the wealth and grandeur. %%
-- **053/1876-01-27.md** para 053.0119 [RUSSIAN]: %% 2026-02-10T12:30:00 LAN: RUSSIAN: "Soroka" = magpie (soroka/сорока). Marie's nickname for persistent male admirers who stare at her (like magpies). She distinguishes "le Soroka de Rome" from "Soroka de Nice". Recurring code-name. %%
-- **053/1876-01-27.md** para 053.0121 [ENGLISH]: %% 2026-02-10T12:30:00 LAN: ENGLISH code-switch: "plobsters" - Marie's phonetic rendering of "lobsters" (English slang for red-coated soldiers, or more loosely, a clique of young men). Preserve the mangled English. %%
-- **053/1876-01-27.md** para 053.0141 [ITALIAN]: %% 2026-02-10T12:30:00 LAN: ITALIAN: "Folle divengo di rabbia e di furor!" = "I go mad with rage and fury!" Operatic Italian, possibly an aria quotation or pastiche. Marie code-switches to Italian for maximum dramatic effect in Rome. %%
-- **053/1876-01-27.md** para 053.0158 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN: "Gloriae Cupiditate" = "desire for glory" (ablative). Marie's self-diagnosed core drive. This Latin formulation elevates her ambition to philosophical principle. %%
-- **053/1876-01-28.md** para 053.0170 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Sua Eccelenza non ha che da fare come quel signore" - Your Excellency only has to do as that gentleman did %%
-- **053/1876-01-29.md** para 053.0195 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Misera me" - Wretched me/Alas for me %%
-- **053/1876-01-30.md** para 053.0211 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "maligni demones" - evil demons; Marie's curse on Georges %%
-- **053/1876-01-30.md** para 053.0225 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "rara avis" - rare bird, i.e., extraordinary specimen (ironic/sarcastic) %%
-- **053/1876-01-30.md** para 053.0233 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: Byron quote - from "And Wilt Thou Weep When I am Low?" (1808) %%
-- **053/1876-01-30.md** para 053.0234 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "I groan for others" - continuation of Byron quote, code-switching %%
-- **053/1876-01-31.md** para 053.0246 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: Extended English quote - father advising daughter on propriety of not confessing love first; Marie identifies with this reproach %%
-- **053/1876-02-02.md** para 053.0310 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "moujik" - Russian peasant; here meaning someone of low social status %%
-- **053/1876-02-02.md** para 053.0313 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN EXPRESSION: "de la graisse" (ot zhiru) - from fat/excess; Russian idiom meaning problems from having too much, not real troubles %%
-- **053/1876-02-03.md** para 053.0333 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "custodi" - museum guards/custodians %%
-- **053/1876-02-03.md** para 053.0342 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "silenzio" - silence %%
-- **053/1876-02-04.md** para 053.0359 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "Sobaka" - dog; another nickname for a suitor, here Ruspoli %%
-- **053/1876-02-04.md** para 053.0365 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpissimus omnium homo" - most shameful/base of all men %%
-- **053/1876-02-05.md** para 053.0385 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Nicae Civitas" - City of Nice; Latin inscription on coat of arms %%
-- **053/1876-02-08.md** para 053.0418 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Venus genitrix" - Venus the Mother, type of statue showing Venus as ancestress of Rome %%
-- **053/1876-02-08.md** para 053.0427 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "terza sera" - third evening; opera subscription nights divided by social class %%
-- **053/1876-02-08.md** para 053.0427 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "prima sera" - first evening (aristocratic) %%
-- **053/1876-02-09.md** para 053.0456 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN ALLUSION: "Quousque tandem abutere, Catilina, patientia nostra?" - "How long, Catiline, will you abuse our patience?" Opening of Cicero's First Catilinarian Oration %%
-- **053/1876-02-11.md** para 053.0467 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN/NEOLOGISM: "omnisapiente" - all-knowing (Marie's mock-Latin formation for know-it-all) %%
-- **054/1876-02-13.md** para 054.0029 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "che vola" - that flies, part of carnival prize name %%
-- **054/1876-02-13.md** para 054.0030 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "home" - Marie uses English word for emotional emphasis %%
-- **054/1876-02-14.md** para 054.0096 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "ciocara" - peasant woman from the Ciociaria region near Rome, popular artistic subject %%
-- **054/1876-02-15.md** para 054.0136 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "pazzerello" - little madcap, slightly crazy person (affectionate) %%
-- **054/1876-02-16.md** para 054.0162 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Questa e americana" - This one is American (Pope's remark about Marie) %%
-- **054/1876-02-17.md** para 054.0200 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "In nomine Patris, Filii et Spiritus Sancti" - In the name of the Father, Son, and Holy Spirit %%
-- **054/1876-02-19.md** para 054.0305 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "di rabbia e di furror" - with rage and fury, quote from Thomas's opera Mignon %%
-- **054/1876-02-22.md** para 054.0371 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "carino! angelo!" - darling! angel! (carnival exclamations) %%
-- **054/1876-02-22.md** para 054.0379 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "coarse" - Marie uses English word for slightly rough/vulgar quality %%
-- **054/1876-02-23.md** para 054.0387 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "flirter" - to flirt, borrowed English word %%
-- **054/1876-02-23.md** para 054.0390 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Quando lei ritorna a Nizza?" - When do you return to Nice? %%
-- **054/1876-02-23.md** para 054.0391 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Nel mese d'aprile o forse di maggio" - In April or perhaps May %%
-- **054/1876-02-23.md** para 054.0401 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "E bello veramente" - It's truly beautiful %%
-- **054/1876-02-24.md** para 054.0425 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Stara sempre cosi" - It will stay like this forever %%
-- **054/1876-02-24.md** para 054.0426 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Buona sera e molte grazie" - Good evening and many thanks %%
-- **054/1876-02-24.md** para 054.0431 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "cardinalino" - little cardinal, Marie's affectionate nickname for Antonelli %%
-- **054/1876-02-25.md** para 054.0452 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "douchka" (dushka) - darling, sweetheart %%
-- **054/1876-02-25.md** para 054.0458 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Buona sera cardinalino" - Good evening, little cardinal %%
-- **054/1876-02-25.md** para 054.0459 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Buona sera carina" - Good evening, darling %%
-- **054/1876-02-26.md** para 054.0472 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: The following exchange in Italian about the ball; Marie pretends she wasn't there %%
-- **054/1876-02-26.md** para 054.0488 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Dio! se almeno..." - God! if only she wouldn't show it except to her family, but to the whole public! %%
-- **054/1876-02-27.md** para 054.0508 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Marie Bachkirtseva creavit in mentem suam Petrus Antonellius" - Marie Bashkirtseff created Peter Antonelli in her mind (faulty Latin) %%
-- **054/1876-02-28.md** para 054.0522 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "What is the matter with you? why are you so red?" - English neighbor speaks in English %%
-- **054/1876-02-28.md** para 054.0523 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "I can't say, it is a nonsense" - Marie replies in English %%
-- **054/1876-02-28.md** para 054.0604 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "ho fame signorina, poverino, ho fame, una piccola moneta" - I'm hungry miss, poor little one, I'm hungry, a small coin %%
-- **054/1876-02-29.md** para 054.0626 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "moccoli" - small candles, traditional end of Roman carnival where everyone tries to extinguish others' candles %%
-- **054/1876-02-29.md** para 054.0640 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: Antonelli proposes marriage in Italian, Marie responds with insults %%
+- **051/1875-12-31.md** para 051.0219 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from satirical novel about Nice society - "Mrs Bodgers attained the summit of her ambition in Nice" %%
+- **051/1876-01-01.md** para 051.0280 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN (from opera Mignon, Italian version) - "Tomorrow I will leave, I am far from you" - Marie sings farewell %%
+- **051/1876-01-01.md** para 051.0284 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Addio dunque, tutti quanti" - farewell then, everyone; operatic flourish %%
+- **051/1876-01-02.md** para 051.0327 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN reference "Tu quoque" - "You too, Brutus?"; Caesar covering his face when betrayed %%
+- **051/1876-01-02.md** para 051.0337 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN title "Orlando furioso" by Ariosto - Renaissance epic poem; Marie's literary reading %%
+- **051/1876-01-04.md** para 051.0364 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "palazzo" - palace; Roman aristocratic residence %%
+- **051/1876-01-04.md** para 051.0364 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "misera me" - woe is me; operatic exclamation %%
+- **051/1876-01-04.md** para 051.0378 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "In nomine Patris, Filii et Spiritus Sancti" - In the name of the Father, Son, and Holy Spirit; mock-religious blessing for dreaded marriage %%
+- **051/1876-01-05.md** para 051.0385 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Orsu" - well then/come now; conversational Italian %%
+- **051/1876-01-05.md** para 051.0404 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from Byron's "Childe Harold's Pilgrimage" Canto IV - famous Romantic description of the Colosseum %%
+- **051/1876-01-06.md** para 051.0414 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "E brutto ma e tutto buono, tutto grazioso" - He is ugly but all good, all gracious; popular saying about King Victor Emmanuel II %%
+- **051/1876-01-08.md** para 051.0441 [LATIN]: %% 2026-02-02T12:05:00 LAN: "i.e." - LATIN id est (that is); Marie's educated abbreviation %%
+- **052/1876-01-10.md** para 052.0020 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "signor" - Italian title Mr./Sir %%
+- **052/1876-01-10.md** para 052.0021 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "maestro" - master (music teacher) %%
+- **052/1876-01-10.md** para 052.0036 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "unprotected" - Marie switches to English for emphasis %%
+- **052/1876-01-11.md** para 052.0085 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: mock-Latin curse modeled on classical insults - "and let him be called Surp[rising], most soft, improper, dishonest, greedy, luxurious, drunk" %%
+- **052/1876-01-11.md** para 052.0091 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Sara quel che sara" - What will be will be (Che sara, sara) %%
+- **052/1876-01-12.md** para 052.0099 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "il battistero di Costantino" - the Baptistery of Constantine %%
+- **052/1876-01-13.md** para 052.0130 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Corpo di Bacco!" - Body of Bacchus! (Italian oath, like "Good grief!") %%
+- **052/1876-01-14.md** para 052.0164 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Ma c'e rimedio. Udite e saprete." - But there is a remedy. Listen and you will know. %%
+- **052/1876-01-16.md** para 052.0203 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "she is very beautiful" - Americans speaking English, Marie pretends not to understand %%
+- **052/1876-01-16.md** para 052.0207 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "Regis venit lux" - The light of the king comes (quasi-religious invocation) %%
+- **052/1876-01-16.md** para 052.0215 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "we would be quite a nice little party" - Foster's invitation in English %%
+- **052/1876-01-16.md** para 052.0218 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "pique-niques" - picnics (borrowed from English) %%
+- **052/1876-01-17.md** para 052.0247 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "fast" - fast (forward, improper, loose morals - Victorian term) %%
+- **052/1876-01-19.md** para 052.0296 [RUSSIAN]: %% 2026-02-02T12:05:00 LAN: RUSSIAN: "britaya soroka" - shaved magpie (Audiffret's nickname, clean-shaven chatterer) %%
+- **052/1876-01-19.md** para 052.0296 [RUSSIAN]: %% 2026-02-02T12:05:00 LAN: RUSSIAN: "soroka" - magpie %%
+- **052/1876-01-21.md** para 052.0345 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "Vulneratus est propter iniquitates nostras, attritus est propter scelera nostra" - Isaiah 53:5: "He was wounded for our transgressions, bruised for our sins" %%
+- **052/1876-01-21.md** para 052.0349 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "Childe Harold" - Byron's "Childe Harold's Pilgrimage" (romantic poem about Italy) %%
+- **052/1876-01-22.md** para 052.0372 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "non e vero... auche il cardinale lo sa" - isn't it so... the cardinal knows it too %%
+- **053/1876-01-24.md** para 053.0004 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "policemen" - code-switching to English, fashionable term %%
+- **053/1876-01-25.md** para 053.0065 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Audacer et amanter" - Boldly and lovingly (Marie's former motto) %%
+- **053/1876-01-25.md** para 053.0065 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Gloriae cupiditate" - From desire for glory (proposed new motto) %%
+- **053/1876-01-25.md** para 053.0066 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpis rana" - ugly frog; Marie's insulting nickname for a rival %%
+- **053/1876-01-25.md** para 053.0066 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpissima filia" - most shameful/ugly daughter/girl %%
+- **053/1876-01-26.md** para 053.0073 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "turpis rana" - ugly frog %%
+- **053/1876-01-26.md** para 053.0074 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Quaerens quem devoret" - "seeking whom he may devour" from 1 Peter 5:8, about the devil; Marie applies it to her rival %%
+- **053/1876-01-26.md** para 053.0082 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpissimus omnium homo" - most shameful/base of all men %%
+- **053/1876-01-26.md** para 053.0086 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Lombardi alla prima crociata" (I Lombardi) - Verdi opera (1843) about the First Crusade; Pagano is a character who becomes a hermit %%
+- **053/1876-01-26.md** para 053.0090 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "courtship" - Marie code-switches to English for romantic term %%
+- **053/1876-01-26.md** para 053.0102 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "folle divengo di rabbia e di furor" - "I become mad with rage and fury" - aria from Mignon (Italian version) %%
+- **053/1876-01-26.md** para 053.0104 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "son felice, son rapita" - "I am happy, I am enraptured" - another aria phrase %%
+- **053/1876-01-26.md** para 053.0104 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "medium" - middle register of the voice %%
+- **053/1876-01-26.md** para 053.0104 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "mezzo voce" - at half voice/softly %%
+- **053/1876-01-26.md** para 053.0105 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Gloriae Cupiditate" - from desire for glory; Marie's motto %%
+- **053/1876-01-27.md** para 053.0113 [ITALIAN]: %% 2026-02-10T12:30:00 LAN: ITALIAN: "Ohime!" = "Alas!" / "Woe is me!" Italian exclamation Marie uses for dramatic effect. %%
+- **053/1876-01-27.md** para 053.0114 [ITALIAN]: %% 2026-02-10T12:30:00 LAN: ITALIAN: "o invidia!" = "oh, envy!" Marie envies the wealth and grandeur. %%
+- **053/1876-01-27.md** para 053.0120 [RUSSIAN]: %% 2026-02-10T12:30:00 LAN: RUSSIAN: "Soroka" = magpie (soroka/сорока). Marie's nickname for persistent male admirers who stare at her (like magpies). She distinguishes "le Soroka de Rome" from "Soroka de Nice". Recurring code-name. %%
+- **053/1876-01-27.md** para 053.0122 [ENGLISH]: %% 2026-02-10T12:30:00 LAN: ENGLISH code-switch: "plobsters" - Marie's phonetic rendering of "lobsters" (English slang for red-coated soldiers, or more loosely, a clique of young men). Preserve the mangled English. %%
+- **053/1876-01-27.md** para 053.0142 [ITALIAN]: %% 2026-02-10T12:30:00 LAN: ITALIAN: "Folle divengo di rabbia e di furor!" = "I go mad with rage and fury!" Operatic Italian, possibly an aria quotation or pastiche. Marie code-switches to Italian for maximum dramatic effect in Rome. %%
+- **053/1876-01-27.md** para 053.0159 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN: "Gloriae Cupiditate" = "desire for glory" (ablative). Marie's self-diagnosed core drive. This Latin formulation elevates her ambition to philosophical principle. %%
+- **053/1876-01-28.md** para 053.0171 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Sua Eccelenza non ha che da fare come quel signore" - Your Excellency only has to do as that gentleman did %%
+- **053/1876-01-29.md** para 053.0196 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Misera me" - Wretched me/Alas for me %%
+- **053/1876-01-30.md** para 053.0212 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "maligni demones" - evil demons; Marie's curse on Georges %%
+- **053/1876-01-30.md** para 053.0226 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "rara avis" - rare bird, i.e., extraordinary specimen (ironic/sarcastic) %%
+- **053/1876-01-30.md** para 053.0234 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: Byron quote - from "And Wilt Thou Weep When I am Low?" (1808) %%
+- **053/1876-01-30.md** para 053.0235 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "I groan for others" - continuation of Byron quote, code-switching %%
+- **053/1876-01-31.md** para 053.0248 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: Extended English quote - father advising daughter on propriety of not confessing love first; Marie identifies with this reproach %%
+- **053/1876-02-02.md** para 053.0312 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "moujik" - Russian peasant; here meaning someone of low social status %%
+- **053/1876-02-02.md** para 053.0315 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN EXPRESSION: "de la graisse" (ot zhiru) - from fat/excess; Russian idiom meaning problems from having too much, not real troubles %%
+- **053/1876-02-03.md** para 053.0335 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "custodi" - museum guards/custodians %%
+- **053/1876-02-03.md** para 053.0344 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "silenzio" - silence %%
+- **053/1876-02-04.md** para 053.0361 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "Sobaka" - dog; another nickname for a suitor, here Ruspoli %%
+- **053/1876-02-04.md** para 053.0367 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpissimus omnium homo" - most shameful/base of all men %%
+- **053/1876-02-05.md** para 053.0387 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Nicae Civitas" - City of Nice; Latin inscription on coat of arms %%
+- **053/1876-02-08.md** para 053.0420 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Venus genitrix" - Venus the Mother, type of statue showing Venus as ancestress of Rome %%
+- **053/1876-02-08.md** para 053.0429 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "terza sera" - third evening; opera subscription nights divided by social class %%
+- **053/1876-02-08.md** para 053.0429 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "prima sera" - first evening (aristocratic) %%
+- **053/1876-02-09.md** para 053.0458 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN ALLUSION: "Quousque tandem abutere, Catilina, patientia nostra?" - "How long, Catiline, will you abuse our patience?" Opening of Cicero's First Catilinarian Oration %%
+- **053/1876-02-11.md** para 053.0469 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN/NEOLOGISM: "omnisapiente" - all-knowing (Marie's mock-Latin formation for know-it-all) %%
+- **054/1876-02-13.md** para 054.0030 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "che vola" - that flies, part of carnival prize name %%
+- **054/1876-02-13.md** para 054.0031 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "home" - Marie uses English word for emotional emphasis %%
+- **054/1876-02-14.md** para 054.0099 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "ciocara" - peasant woman from the Ciociaria region near Rome, popular artistic subject %%
+- **054/1876-02-15.md** para 054.0139 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "pazzerello" - little madcap, slightly crazy person (affectionate) %%
+- **054/1876-02-16.md** para 054.0165 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Questa e americana" - This one is American (Pope's remark about Marie) %%
+- **054/1876-02-17.md** para 054.0204 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "In nomine Patris, Filii et Spiritus Sancti" - In the name of the Father, Son, and Holy Spirit %%
+- **054/1876-02-19.md** para 054.0309 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "di rabbia e di furror" - with rage and fury, quote from Thomas's opera Mignon %%
+- **054/1876-02-22.md** para 054.0376 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "carino! angelo!" - darling! angel! (carnival exclamations) %%
+- **054/1876-02-22.md** para 054.0384 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "coarse" - Marie uses English word for slightly rough/vulgar quality %%
+- **054/1876-02-23.md** para 054.0392 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "flirter" - to flirt, borrowed English word %%
+- **054/1876-02-23.md** para 054.0395 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Quando lei ritorna a Nizza?" - When do you return to Nice? %%
+- **054/1876-02-23.md** para 054.0396 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Nel mese d'aprile o forse di maggio" - In April or perhaps May %%
+- **054/1876-02-23.md** para 054.0406 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "E bello veramente" - It's truly beautiful %%
+- **054/1876-02-24.md** para 054.0430 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Stara sempre cosi" - It will stay like this forever %%
+- **054/1876-02-24.md** para 054.0431 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Buona sera e molte grazie" - Good evening and many thanks %%
+- **054/1876-02-24.md** para 054.0436 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "cardinalino" - little cardinal, Marie's affectionate nickname for Antonelli %%
+- **054/1876-02-25.md** para 054.0466 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "douchka" (dushka) - darling, sweetheart %%
+- **054/1876-02-25.md** para 054.0472 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Buona sera cardinalino" - Good evening, little cardinal %%
+- **054/1876-02-25.md** para 054.0473 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Buona sera carina" - Good evening, darling %%
+- **054/1876-02-26.md** para 054.0486 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: The following exchange in Italian about the ball; Marie pretends she wasn't there %%
+- **054/1876-02-26.md** para 054.0502 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Dio! se almeno..." - God! if only she wouldn't show it except to her family, but to the whole public! %%
+- **054/1876-02-27.md** para 054.0522 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Marie Bachkirtseva creavit in mentem suam Petrus Antonellius" - Marie Bashkirtseff created Peter Antonelli in her mind (faulty Latin) %%
+- **054/1876-02-28.md** para 054.0536 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "What is the matter with you? why are you so red?" - English neighbor speaks in English %%
+- **054/1876-02-28.md** para 054.0537 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "I can't say, it is a nonsense" - Marie replies in English %%
+- **054/1876-02-28.md** para 054.0618 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "ho fame signorina, poverino, ho fame, una piccola moneta" - I'm hungry miss, poor little one, I'm hungry, a small coin %%
+- **054/1876-02-29.md** para 054.0640 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "moccoli" - small candles, traditional end of Roman carnival where everyone tries to extinguish others' candles %%
+- **054/1876-02-29.md** para 054.0654 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: Antonelli proposes marriage in Italian, Marie responds with insults %%
 - **055/1876-03-02.md** para 055.0013 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "O Gioia!" - ITALIAN exclamation: "Oh Joy!" %%
 - **055/1876-03-02.md** para 055.0015 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "cardinalino" - ITALIAN diminutive: "little cardinal", Marie's nickname for Antonelli (nephew of Cardinal Antonelli) %%
 - **055/1876-03-03.md** para 055.0094 [LATIN]: %% 2026-02-02T12:10:00 LAN: "miserere" - LATIN: "have mercy", from the psalm %%
@@ -1146,75 +1146,75 @@ They need AI translation into French.
 - **055/1876-03-05.md** para 055.0155 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "Ohimè" - ITALIAN exclamation: "alas!" %%
 - **055/1876-03-05.md** para 055.0155 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: "associations" - ENGLISH word used, meaning emotional connections/memories %%
 - **055/1876-03-05.md** para 055.0155 [LATIN]: %% 2026-02-02T12:10:00 LAN: "requiem si non eterno" - LATIN: "rest if not eternal" %%
-- **055/1876-03-07.md** para 055.0261 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN quotation from Ariosto's Orlando Furioso: "Young lovely ladies in love / Love to have their bosoms and temples adorned" %%
+- **055/1876-03-07.md** para 055.0260 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN quotation from Ariosto's Orlando Furioso: "Young lovely ladies in love / Love to have their bosoms and temples adorned" %%
 - **055/1876-03-07.md** para 055.0271 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "barcaccia" - ITALIAN: box seats at the theater, literally "old boat" %%
 - **055/1876-03-08.md** para 055.0294 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "Campidoglio" - ITALIAN: Capitoline Hill, reference to previous masked ball encounter %%
 - **055/1876-03-08.md** para 055.0313 [LATIN]: %% 2026-02-02T12:10:00 LAN: "Faustulus et Acca Laurentia" - LATIN names: shepherd and his wife who raised Romulus and Remus according to Roman legend %%
-- **055/1876-03-09.md** para 055.0472 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: "plobsters" - ENGLISH/NEOLOGISM: Marie's invented word, likely from "lobsters" meaning wealthy catches %%
-- **055/1876-03-11.md** para 055.0502 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "pazzerello" - ITALIAN diminutive: "little madman/crazy one", affectionate term %%
-- **055/1876-03-11.md** para 055.0509 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "Caccia-Club" - ITALIAN: Hunt Club, exclusive gentleman's club in Rome %%
-- **055/1876-03-11.md** para 055.0536 [LATIN]: %% 2026-02-02T12:10:00 LAN: "romo ou rumo, mamelle" - LATIN etymology: Plutarch's derivation of Rome from Greek "rhome" (strength) or "ruma" (teat/breast), referring to the wolf nursing Romulus %%
-- **055/1876-03-13.md** para 055.0635 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "Petruccio" - ITALIAN diminutive of Pietro, affectionate nickname %%
-- **055/1876-03-13.md** para 055.0661 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH title: "The White Rose" by Whyte Melville, English novelist popular with aristocracy %%
-- **055/1876-03-13.md** para 055.0664 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "rossignou che vola" - ITALIAN: "nightingale that flies", nickname for someone (likely Audiffret) %%
-- **055/1876-03-15.md** para 055.0697 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH title: "White rose" - English novel title, keep in English %%
-- **055/1876-03-17.md** para 055.0841 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "non-sens" - nonsense, borrowed from English %%
-- **055/1876-03-18.md** para 055.0864 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN/CLASSICAL: Plutarch quotation about dining with strangers %%
-- **055/1876-03-19.md** para 055.0889 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "G. Cd" = Giacomo cardinale (Cardinal Giacomo) %%
-- **055/1876-03-19.md** para 055.0890 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Giacometto" - diminutive of Giacomo (little James) %%
-- **055/1876-03-19.md** para 055.0893 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "cardinalino" - little cardinal (ironic diminutive for cardinal's nephew) %%
-- **055/1876-03-19.md** para 055.0901 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "palazzo" - palace/grand house; renting floors indicates reduced circumstances %%
-- **055/1876-03-20.md** para 055.0913 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Santa Croce in gerusalemme" - Basilica of the Holy Cross in Jerusalem, Rome %%
-- **055/1876-03-20.md** para 055.0927 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH title: "White rose" - keep in English %%
-- **055/1876-03-22.md** para 055.0943 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Caccia-Club" - Hunt Club, exclusive aristocratic society %%
-- **055/1876-03-22.md** para 055.0948 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "barcaccia" - ground-floor box at Italian opera houses %%
-- **055/1876-03-22.md** para 055.0961 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "veglione" - grand masked ball, evening entertainment %%
-- **055/1876-03-23.md** para 055.0991 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Dormi pure" - Sleep peacefully, Italian song/aria %%
-- **055/1876-03-24.md** para 055.1032 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "Dear, dear!" - English exclamation of dismay %%
-- **055/1876-03-25.md** para 055.1051 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "can't help it" - Marie switches to English for emphasis %%
-- **055/1876-03-25.md** para 055.1052 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Zuccone" - blockhead, dunce (augmentative of zucca = pumpkin/head) %%
-- **055/1876-03-26.md** para 055.1124 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Basta!" - Enough! (Italian exclamation) %%
-- **055/1876-03-26.md** para 055.1132 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Pax vobis" - Peace be with you (papal blessing) %%
-- **055/1876-03-27.md** para 055.1145 [CODE-SWITCH]: %% 2026-02-02T12:10:00 LAN: CODE-SWITCHING: "nous parlons anglais" - Marie switches to English for privacy from Pietro %%
-- **055/1876-03-27.md** para 055.1175 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's self-description) %%
-- **055/1876-03-27.md** para 055.1176 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH abbreviation: His Grace the Duke of Hamilton - coded reference %%
-- **055/1876-03-27.md** para 055.1184 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "contessina" - little countess (teasing diminutive) %%
-- **055/1876-03-27.md** para 055.1192 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "trattoria" - simple Italian restaurant/eating house %%
-- **056/1876-03-28.md** para 056.0052 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Via!" - Italian exclamation "Come on!/Away!" - Marie code-switches %%
-- **056/1876-03-28.md** para 056.0053 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: Lines 2388-2391 are from Verdi's Requiem "Lacrymosa" - "That tearful day / When from the ashes shall rise / Guilty man to be judged / Lord, spare him then" %%
-- **056/1876-03-28.md** para 056.0065 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "love" and "like" - Marie code-switches to explain French lacks this distinction %%
-- **056/1876-03-30.md** para 056.0157 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: conversation with mother in Russian for privacy from Italian visitors %%
-- **056/1876-03-31.md** para 056.0244 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "I love you" - Plowden speaks in English; "Et de trois!" - "That makes three!" (counting suitors) %%
-- **056/1876-03-31.md** para 056.0253 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Brutto!" - Italian "Ugly!/Bad!" - Marie code-switches for emphasis %%
-- **056/1876-04-02.md** para 056.0280 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Domine, dona mihi fidem" - "Lord, give me faith" - Marie's Latin prayer %%
-- **056/1876-04-02.md** para 056.0288 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: Church formula: "Plenary perpetual indulgence for the living and the dead" %%
-- **056/1876-04-02.md** para 056.0298 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Requiescat in pace" - "May he rest in peace" - funeral formula used ironically for Pietro %%
-- **056/1876-04-03.md** para 056.0314 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Via!" - Italian exclamation "Away!/Come on!" %%
-- **056/1876-04-03.md** para 056.0335 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "PAX TIBI" - "Peace be with you" - liturgical greeting Marie writes on photograph %%
-- **056/1876-04-03.md** para 056.0341 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "A.T.E." - initials for Aglaé, Thalie, Euphrosine (the three Graces); also ITALIAN "a te" = "to you" %%
-- **056/1876-04-05.md** para 056.0405 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "Vanité, vanité" - echo of Ecclesiastes 1:2 "Vanity of vanities"; ITALIAN "Basta" = "Enough" %%
-- **056/1876-04-07.md** para 056.0445 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "raisonneur" - Russian social type: argumentative intellectual; "ses bottes craquent" - Russian elegance marker %%
-- **056/1876-04-07.md** para 056.0449 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "avoir un chat dans le coeur" - Russian idiom: to have a cat scratching at one's heart (anxiety) %%
-- **056/1876-04-09.md** para 056.0501 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN/ITALIAN: "Miserere" - Have mercy (Psalm 51); church music term %%
-- **056/1876-04-09.md** para 056.0515 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Nescio" - "I do not know" %%
-- **056/1876-04-09.md** para 056.0564 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohimè" - "Alas!/Woe is me!" %%
-- **057/1876-04-13.md** para 057.0098 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "That is the question" - Shakespeare's Hamlet; Marie code-switches for dramatic effect %%
-- **057/1876-04-13.md** para 057.0137 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "culpa mea" - "my fault" (from Confiteor prayer: "mea culpa, mea culpa, mea maxima culpa") %%
-- **058/1876-04-16.md** para 058.0079 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: WORDPLAY: Pietro confuses ITALIAN "buggia" (lie) with French "bougie" (candle), then "chandelle" %%
-- **058/1876-04-17.md** para 058.0093 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "*faire d'histoire*" - Russian idiom (delat' istoriyu): to make a fuss/scene %%
-- **058/1876-04-17.md** para 058.0106 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: Telegram text in Italian - "Count Pietro Antonelli is in Rome" %%
-- **058/1876-04-17.md** para 058.0125 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "signor cardinalino" - mocking: "little cardinal gentleman" (diminutive for Antonelli's Vatican connection) %%
-- **059/1876-04-20.md** para 059.0017 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Caccia-Club" - ITALIAN: the Hunt Club, an exclusive gentlemen's club in Rome %%
-- **059/1876-04-20.md** para 059.0017 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "barcaccia" - ITALIAN: literally "old boat"; refers to the fountain in Piazza di Spagna, a fashionable gathering place %%
-- **059/1876-04-20.md** para 059.0044 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: "gentlemen riders" - ENGLISH: amateur riders from aristocratic families who race for sport, not money %%
-- **059/1876-04-21.md** para 059.0049 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Tiziano Vicellio" - ITALIAN form of Titian's name (Tiziano Vecellio); showing Marie's art knowledge %%
-- **059/1876-04-21.md** para 059.0051 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Forse" - perhaps/maybe; Marie's casual Italian interjection %%
-- **059/1876-04-29.md** para 059.0246 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "poco m'importe" - little does it matter to me; mixed Italian/French %%
-- **059/1876-05-02.md** para 059.0321 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Signor zio" - Mr. Uncle; affectionate/ironic reference to Cardinal Antonelli %%
-- **059/1876-05-06.md** para 059.0459 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: "Rossignou che vola" - "The Nightingale that Flies"; traditional Nicois song in local dialect %%
-- **059/1876-05-07.md** para 059.0524 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Carpo di Bacco!" - "Body of Bacchus!"; Italian oath, euphemistic %%
-- **059/1876-05-08.md** para 059.0555 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH RUSSIAN: "chtchenok" (щенок) - puppy, young dog; pejorative for an immature young man %%
-- **059/1876-05-09.md** para 059.0586 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN PROVERB: "Vis un siècle et étudie un siècle" - Live a century and study a century (one never stops learning) %%
+- **055/1876-03-09.md** para 055.0498 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: "plobsters" - ENGLISH/NEOLOGISM: Marie's invented word, likely from "lobsters" meaning wealthy catches %%
+- **055/1876-03-11.md** para 055.0528 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "pazzerello" - ITALIAN diminutive: "little madman/crazy one", affectionate term %%
+- **055/1876-03-11.md** para 055.0535 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "Caccia-Club" - ITALIAN: Hunt Club, exclusive gentleman's club in Rome %%
+- **055/1876-03-11.md** para 055.0562 [LATIN]: %% 2026-02-02T12:10:00 LAN: "romo ou rumo, mamelle" - LATIN etymology: Plutarch's derivation of Rome from Greek "rhome" (strength) or "ruma" (teat/breast), referring to the wolf nursing Romulus %%
+- **055/1876-03-13.md** para 055.0661 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "Petruccio" - ITALIAN diminutive of Pietro, affectionate nickname %%
+- **055/1876-03-13.md** para 055.0687 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH title: "The White Rose" by Whyte Melville, English novelist popular with aristocracy %%
+- **055/1876-03-13.md** para 055.0690 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "rossignou che vola" - ITALIAN: "nightingale that flies", nickname for someone (likely Audiffret) %%
+- **055/1876-03-15.md** para 055.0723 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH title: "White rose" - English novel title, keep in English %%
+- **055/1876-03-17.md** para 055.0867 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "non-sens" - nonsense, borrowed from English %%
+- **055/1876-03-18.md** para 055.0890 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN/CLASSICAL: Plutarch quotation about dining with strangers %%
+- **055/1876-03-19.md** para 055.0915 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "G. Cd" = Giacomo cardinale (Cardinal Giacomo) %%
+- **055/1876-03-19.md** para 055.0916 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Giacometto" - diminutive of Giacomo (little James) %%
+- **055/1876-03-19.md** para 055.0919 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "cardinalino" - little cardinal (ironic diminutive for cardinal's nephew) %%
+- **055/1876-03-19.md** para 055.0927 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "palazzo" - palace/grand house; renting floors indicates reduced circumstances %%
+- **055/1876-03-20.md** para 055.0939 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Santa Croce in gerusalemme" - Basilica of the Holy Cross in Jerusalem, Rome %%
+- **055/1876-03-20.md** para 055.0953 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH title: "White rose" - keep in English %%
+- **055/1876-03-22.md** para 055.1019 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Caccia-Club" - Hunt Club, exclusive aristocratic society %%
+- **055/1876-03-22.md** para 055.1024 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "barcaccia" - ground-floor box at Italian opera houses %%
+- **055/1876-03-22.md** para 055.1037 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "veglione" - grand masked ball, evening entertainment %%
+- **055/1876-03-23.md** para 055.1067 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Dormi pure" - Sleep peacefully, Italian song/aria %%
+- **055/1876-03-24.md** para 055.1108 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "Dear, dear!" - English exclamation of dismay %%
+- **055/1876-03-25.md** para 055.1127 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "can't help it" - Marie switches to English for emphasis %%
+- **055/1876-03-25.md** para 055.1128 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Zuccone" - blockhead, dunce (augmentative of zucca = pumpkin/head) %%
+- **055/1876-03-26.md** para 055.1200 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Basta!" - Enough! (Italian exclamation) %%
+- **055/1876-03-26.md** para 055.1208 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Pax vobis" - Peace be with you (papal blessing) %%
+- **055/1876-03-27.md** para 055.1220 [CODE-SWITCH]: %% 2026-02-02T12:10:00 LAN: CODE-SWITCHING: "nous parlons anglais" - Marie switches to English for privacy from Pietro %%
+- **055/1876-03-27.md** para 055.DROPPED-1175 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's self-description) %%
+- **055/1876-03-27.md** para 055.DROPPED-1176 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH abbreviation: His Grace the Duke of Hamilton - coded reference %%
+- **055/1876-03-27.md** para 056.0006 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "contessina" - little countess (teasing diminutive) %%
+- **055/1876-03-27.md** para 056.0014 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "trattoria" - simple Italian restaurant/eating house %%
+- **056/1876-03-28.md** para 056.0083 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Via!" - Italian exclamation "Come on!/Away!" - Marie code-switches %%
+- **056/1876-03-28.md** para 056.0084 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: Lines 2388-2391 are from Verdi's Requiem "Lacrymosa" - "That tearful day / When from the ashes shall rise / Guilty man to be judged / Lord, spare him then" %%
+- **056/1876-03-28.md** para 056.0096 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "love" and "like" - Marie code-switches to explain French lacks this distinction %%
+- **056/1876-03-30.md** para 056.0188 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: conversation with mother in Russian for privacy from Italian visitors %%
+- **056/1876-03-31.md** para 056.0275 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "I love you" - Plowden speaks in English; "Et de trois!" - "That makes three!" (counting suitors) %%
+- **056/1876-03-31.md** para 056.0284 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Brutto!" - Italian "Ugly!/Bad!" - Marie code-switches for emphasis %%
+- **056/1876-04-02.md** para 056.0310 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Domine, dona mihi fidem" - "Lord, give me faith" - Marie's Latin prayer %%
+- **056/1876-04-02.md** para 056.0318 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: Church formula: "Plenary perpetual indulgence for the living and the dead" %%
+- **056/1876-04-02.md** para 056.0329 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Requiescat in pace" - "May he rest in peace" - funeral formula used ironically for Pietro %%
+- **056/1876-04-03.md** para 056.0344 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Via!" - Italian exclamation "Away!/Come on!" %%
+- **056/1876-04-03.md** para 056.0366 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "PAX TIBI" - "Peace be with you" - liturgical greeting Marie writes on photograph %%
+- **056/1876-04-03.md** para 056.0372 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "A.T.E." - initials for Aglaé, Thalie, Euphrosine (the three Graces); also ITALIAN "a te" = "to you" %%
+- **056/1876-04-05.md** para 056.0436 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "Vanité, vanité" - echo of Ecclesiastes 1:2 "Vanity of vanities"; ITALIAN "Basta" = "Enough" %%
+- **056/1876-04-07.md** para 056.0498 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "raisonneur" - Russian social type: argumentative intellectual; "ses bottes craquent" - Russian elegance marker %%
+- **056/1876-04-07.md** para 056.0502 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "avoir un chat dans le coeur" - Russian idiom: to have a cat scratching at one's heart (anxiety) %%
+- **056/1876-04-09.md** para 056.0600 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN/ITALIAN: "Miserere" - Have mercy (Psalm 51); church music term %%
+- **056/1876-04-09.md** para 057.0003 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Nescio" - "I do not know" %%
+- **056/1876-04-09.md** para 057.0052 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohimè" - "Alas!/Woe is me!" %%
+- **057/1876-04-13.md** para 057.0212 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "That is the question" - Shakespeare's Hamlet; Marie code-switches for dramatic effect %%
+- **057/1876-04-13.md** para 058.0007 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "culpa mea" - "my fault" (from Confiteor prayer: "mea culpa, mea culpa, mea maxima culpa") %%
+- **058/1876-04-16.md** para 058.0103 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: WORDPLAY: Pietro confuses ITALIAN "buggia" (lie) with French "bougie" (candle), then "chandelle" %%
+- **058/1876-04-17.md** para 058.0117 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "*faire d'histoire*" - Russian idiom (delat' istoriyu): to make a fuss/scene %%
+- **058/1876-04-17.md** para 058.0130 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: Telegram text in Italian - "Count Pietro Antonelli is in Rome" %%
+- **058/1876-04-17.md** para 058.0149 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "signor cardinalino" - mocking: "little cardinal gentleman" (diminutive for Antonelli's Vatican connection) %%
+- **059/1876-04-20.md** para 059.0009 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Caccia-Club" - ITALIAN: the Hunt Club, an exclusive gentlemen's club in Rome %%
+- **059/1876-04-20.md** para 059.0009 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "barcaccia" - ITALIAN: literally "old boat"; refers to the fountain in Piazza di Spagna, a fashionable gathering place %%
+- **059/1876-04-20.md** para 059.0036 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: "gentlemen riders" - ENGLISH: amateur riders from aristocratic families who race for sport, not money %%
+- **059/1876-04-21.md** para 059.0077 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Tiziano Vicellio" - ITALIAN form of Titian's name (Tiziano Vecellio); showing Marie's art knowledge %%
+- **059/1876-04-21.md** para 059.0079 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Forse" - perhaps/maybe; Marie's casual Italian interjection %%
+- **059/1876-04-29.md** para 059.0597 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "poco m'importe" - little does it matter to me; mixed Italian/French %%
+- **059/1876-05-02.md** para 059.0672 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Signor zio" - Mr. Uncle; affectionate/ironic reference to Cardinal Antonelli %%
+- **059/1876-05-06.md** para 059.0824 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: "Rossignou che vola" - "The Nightingale that Flies"; traditional Nicois song in local dialect %%
+- **059/1876-05-07.md** para 059.0889 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Carpo di Bacco!" - "Body of Bacchus!"; Italian oath, euphemistic %%
+- **059/1876-05-08.md** para 059.0920 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH RUSSIAN: "chtchenok" (щенок) - puppy, young dog; pejorative for an immature young man %%
+- **059/1876-05-09.md** para 059.0951 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN PROVERB: "Vis un siècle et étudie un siècle" - Live a century and study a century (one never stops learning) %%
 - **060/1876-05-10.md** para 060.0005 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ENGLISH: "we are off" - we're leaving; Marie's casual English %%
 - **060/1876-05-10.md** para 060.0011 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: "San Diou de Diou!" - "Saint God of God!"; Nice dialect exclamation %%
 - **060/1876-05-10.md** para 060.0021 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Corpo di Dio" - "Body of God"; oath/exclamation %%
