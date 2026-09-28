@@ -1438,47 +1438,47 @@ They need AI translation into French.
 - **089/1880-07-13.md** para 089.0140 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "waterproof" - raincoat; Marie uses the English word %%
 - **089/1880-08-17.md** para 089.0348 [ITALIAN]: %% 2026-02-09T15:00:00 LAN: ITALIAN: "fleurs de langage" - flowers of language; Italian-style elaborate courteous expressions that Marie finds charming %%
 - **090/1880-10-03.md** para 090.0001 [ITALIAN]: %% 2026-02-02T13:30:00 LAN: ITALIAN cultural reference: Rigoletto - Verdi's opera (1851), popular in Parisian salons %%
-- **090/1880-11-25.md** para 090.0248 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Unae irae" - one wrath/anger (Marie's classical allusion, possibly misremembered) %%
-- **090/1880-12-16.md** para 090.0357 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN: "Consilium" - medical consultation/council %%
-- **090/1880-12-20.md** para 090.0393 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN cultural reference: Temple of Fides (Good Faith) traditionally attributed to Romulus %%
-- **090/1882-04-18.md** para 090.0490 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: "sleeping" - ENGLISH: sleeping car (train compartment) %%
-- **091/1881-02-05.md** para 091.0040 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "flirté" - borrowed English verb "flirt" with French conjugation %%
-- **091/1881-04-01.md** para 091.0378 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "blackbouler" - from English "blackball"; to reject, ostracize %%
-- **092/1881-06-14.md** para 092.0106 [RUSSIAN]: %% 2026-02-02T09:03:04 LAN: "Vassya" - RUSSIAN diminutive of Vasily; indicates familiar/affectionate naming %%
-- **092/1881-07-17.md** para 092.0286 [RUSSIAN]: %% 2026-02-02T08:07:17 LAN: RUSSIAN: "stariovoi" - stanovoi pristav, local police chief %%
-- **092/1881-07-17.md** para 092.0289 [LATIN]: %% 2026-02-02T08:07:38 LAN: LATIN: "Ave!" - Hail! (classical salute, ironic/mock-admiring) %%
-- **092/1881-07-21.md** para 092.0307 [RUSSIAN]: %% 2026-02-02T09:00:01 LAN: "la mère de toutes les villes russes" - RUSSIAN phrase translated: "мать городов русских" (mat gorodov russkikh), traditional epithet for Kiev %%
-- **092/1881-07-21.md** para 092.0307 [ENGLISH]: %% 2026-02-02T09:00:04 LAN: "comfortable" - ENGLISH spelling preserved; Marie uses English word %%
-- **092/1881-07-21.md** para 092.0309 [RUSSIAN]: %% 2026-02-02T09:00:07 LAN: "Lavra" - RUSSIAN: Лавра, highest rank of Eastern Orthodox monastery; Kiev Pechersk Lavra is one of holiest sites %%
-- **092/1881-07-21.md** para 092.0310 [RUSSIAN]: %% 2026-02-02T09:00:08 LAN: "Iconostase" - GREEK/RUSSIAN: icon screen; Marie provides her own explanation for Western readers %%
-- **092/1881-07-25.md** para 092.0334 [ITALIAN]: %% 2026-02-02T09:02:19 LAN: "fiasco" - ITALIAN loanword: complete failure, disaster %%
-- **092/1881-08-05.md** para 092.0365 [LATIN]: %% 2026-02-02T09:05:02 LAN: "gratis" - LATIN: free of charge; commonly used in 19th century French %%
-- **092/1881-08-18.md** para 092.0427 [LATIN]: %% 2026-02-02T09:08:12 LAN: LATIN: "in petto" - in one's breast, secretly, to oneself %%
-- **092/1881-08-18.md** para 092.0431 [LATIN]: %% 2026-02-02T09:08:27 LAN: LATIN: "id est" - that is (scholarly abbreviation) %%
-- **093/1881-08-23.md** para 093.0012 [ENGLISH]: %% 2026-02-02T09:03:11 LAN: ENGLISH: "I!" - Marie's characteristic English exclamation for emphasis %%
-- **093/1881-09-18.md** para 093.0056 [ENGLISH]: %% 2026-02-02T09:01:13 LAN: "ulster" - ENGLISH: heavy overcoat (Ulster coat), fashionable 1870s-80s %%
-- **093/1881-10-04.md** para 093.0079 [LATIN]: %% 2026-02-02T09:10:06 LAN: "idem" - LATIN: the same, likewise (to be painted nude) %%
-- **093/1881-10-10.md** para 093.0086 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
-- **093/1881-10-30.md** para 093.0121 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
-- **093/1881-11-22.md** para 093.0141 [LATIN]: %% 2026-02-02T09:06:26 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory: Marie's motto, book title %%
-- **094/1882-01-23.md** para 094.0104 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "heals all wounds but those of the heart" - Gabriel's English inscription on glycerin bottle, romantic cliche %%
-- **095/1882-07-31.md** para 095.0361 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "Il corpo e piu che il vestimento" - The body is more than clothing; biblical reference Luke 12:23 %%
-- **095/1882-07-31.md** para 095.0362 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "La vita e piu che il nutrimento" - Life is more than food; biblical reference Luke 12:23 %%
-- **096/1882-08-23.md** para 096.0125 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN "Sinite parvulas venire ad me" - "Suffer the little children to come unto me" (Mark 10:14) %%
-- **096/1882-09-05.md** para 096.0195 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH "on the wrong" - on the wrong side; Marie's English code-switching %%
-- **096/1882-10-15.md** para 096.0368 [RUSSIAN]: %% 2026-02-03T10:21:00 LAN: "Dina" - RUSSIAN: diminutive, likely servant or family member %%
-- **096/1882-10-15.md** para 096.0368 [RUSSIAN]: %% 2026-02-03T10:21:00 LAN: "Kapitan" - RUSSIAN: likely a dog's name (Captain) %%
-- **096/1882-10-15.md** para 096.0368 [RUSSIAN]: %% 2026-02-03T10:21:00 LAN: "Michka" - RUSSIAN: diminutive of Michel/Mikhail %%
+- **090/1880-11-25.md** para 090.0267 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Unae irae" - one wrath/anger (Marie's classical allusion, possibly misremembered) %%
+- **090/1880-12-16.md** para 090.0384 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN: "Consilium" - medical consultation/council %%
+- **090/1880-12-20.md** para 090.0420 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN cultural reference: Temple of Fides (Good Faith) traditionally attributed to Romulus %%
+- **094/1882-04-18.md** para 094.0353 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: "sleeping" - ENGLISH: sleeping car (train compartment) %%
+- **091/1881-02-05.md** para 091.0079 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "flirté" - borrowed English verb "flirt" with French conjugation %%
+- **091/1881-04-01.md** para 091.0418 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "blackbouler" - from English "blackball"; to reject, ostracize %%
+- **092/1881-06-14.md** para 092.0118 [RUSSIAN]: %% 2026-02-02T09:03:04 LAN: "Vassya" - RUSSIAN diminutive of Vasily; indicates familiar/affectionate naming %%
+- **092/1881-07-17.md** para 092.0297 [RUSSIAN]: %% 2026-02-02T08:07:17 LAN: RUSSIAN: "stariovoi" - stanovoi pristav, local police chief %%
+- **092/1881-07-17.md** para 092.0300 [LATIN]: %% 2026-02-02T08:07:38 LAN: LATIN: "Ave!" - Hail! (classical salute, ironic/mock-admiring) %%
+- **092/1881-07-21.md** para 092.0318 [RUSSIAN]: %% 2026-02-02T09:00:01 LAN: "la mère de toutes les villes russes" - RUSSIAN phrase translated: "мать городов русских" (mat gorodov russkikh), traditional epithet for Kiev %%
+- **092/1881-07-21.md** para 092.0318 [ENGLISH]: %% 2026-02-02T09:00:04 LAN: "comfortable" - ENGLISH spelling preserved; Marie uses English word %%
+- **092/1881-07-21.md** para 092.0320 [RUSSIAN]: %% 2026-02-02T09:00:07 LAN: "Lavra" - RUSSIAN: Лавра, highest rank of Eastern Orthodox monastery; Kiev Pechersk Lavra is one of holiest sites %%
+- **092/1881-07-21.md** para 092.0321 [RUSSIAN]: %% 2026-02-02T09:00:08 LAN: "Iconostase" - GREEK/RUSSIAN: icon screen; Marie provides her own explanation for Western readers %%
+- **092/1881-07-25.md** para 092.0345 [ITALIAN]: %% 2026-02-02T09:02:19 LAN: "fiasco" - ITALIAN loanword: complete failure, disaster %%
+- **092/1881-08-05.md** para 092.0376 [LATIN]: %% 2026-02-02T09:05:02 LAN: "gratis" - LATIN: free of charge; commonly used in 19th century French %%
+- **092/1881-08-18.md** para 092.0438 [LATIN]: %% 2026-02-02T09:08:12 LAN: LATIN: "in petto" - in one's breast, secretly, to oneself %%
+- **092/1881-08-18.md** para 092.0442 [LATIN]: %% 2026-02-02T09:08:27 LAN: LATIN: "id est" - that is (scholarly abbreviation) %%
+- **093/1881-08-23.md** para 093.0015 [ENGLISH]: %% 2026-02-02T09:03:11 LAN: ENGLISH: "I!" - Marie's characteristic English exclamation for emphasis %%
+- **093/1881-09-18.md** para 093.0067 [ENGLISH]: %% 2026-02-02T09:01:13 LAN: "ulster" - ENGLISH: heavy overcoat (Ulster coat), fashionable 1870s-80s %%
+- **093/1881-10-04.md** para 093.0102 [LATIN]: %% 2026-02-02T09:10:06 LAN: "idem" - LATIN: the same, likewise (to be painted nude) %%
+- **093/1881-10-10.md** para 093.0112 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
+- **093/1881-10-30.md** para 093.0153 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
+- **093/1881-11-22.md** para 093.DROPPED-0141 [LATIN]: %% 2026-02-02T09:06:26 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory: Marie's motto, book title %%
+- **094/1882-01-23.md** para 094.0142 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "heals all wounds but those of the heart" - Gabriel's English inscription on glycerin bottle, romantic cliche %%
+- **095/1882-07-31.md** para 095.0384 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "Il corpo e piu che il vestimento" - The body is more than clothing; biblical reference Luke 12:23 %%
+- **095/1882-07-31.md** para 095.0385 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "La vita e piu che il nutrimento" - Life is more than food; biblical reference Luke 12:23 %%
+- **096/1882-08-23.md** para 096.0127 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN "Sinite parvulas venire ad me" - "Suffer the little children to come unto me" (Mark 10:14) %%
+- **096/1882-09-05.md** para 096.0202 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH "on the wrong" - on the wrong side; Marie's English code-switching %%
+- **096/1882-10-15.md** para 096.0389 [RUSSIAN]: %% 2026-02-03T10:21:00 LAN: "Dina" - RUSSIAN: diminutive, likely servant or family member %%
+- **096/1882-10-15.md** para 096.0389 [RUSSIAN]: %% 2026-02-03T10:21:00 LAN: "Kapitan" - RUSSIAN: likely a dog's name (Captain) %%
+- **096/1882-10-15.md** para 096.0389 [RUSSIAN]: %% 2026-02-03T10:21:00 LAN: "Michka" - RUSSIAN: diminutive of Michel/Mikhail %%
 - **098/1883-01-27.md** para 098.0180 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN: "in tutto" - in all/altogether; Marie's code-switching for emphasis %%
 - **098/1883-02-08.md** para 098.0304 [RUSSIAN]: %% 2026-02-02T14:00:00 LAN: RUSSIAN: "Michka" - diminutive of Michel; affectionate family name %%
 - **099/1883-03-31.md** para 099.0003 [LATIN]: %% 2026-02-02T09:08:04 LAN: "vulgo Cerny" - LATIN: commonly known as Cerny (nickname for Tchernitsky) %%
 - **099/1883-04-07.md** para 099.0050 [RUSSIAN]: %% 2026-02-02T09:06:08 LAN: "samovar" - RUSSIAN: traditional Russian tea urn; marker of Russian household %%
-- **099/1883-05-03.md** para 099.0336 [CODE-SWITCH]: %% 2026-02-02T09:09:28 LAN: CODE-SWITCH: English summary in brackets indicates transcriber's condensation of original French %%
-- **099/1883-05-19.md** para 099.0381 [LATIN]: %% 2026-02-02T09:05:04 LAN: LATIN follows - "Margaritas ante porcos" - Marie repeats idiom in Latin (Biblical, Matthew 7:6); showing classical education %%
-- **099/1883-05-23.md** para 099.0392 [ENGLISH]: %% 2026-02-03T10:00:13 LAN: "blackboulee" - ENGLISH borrowing: blackballed; rejected/excluded %%
-- **099/1883-05-25.md** para 099.0395 [LATIN]: %% 2026-02-03T10:02:38 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory; the title of Marie's journal/carnet %%
-- **100/1883-07-14.md** para 100.0093 [ITALIAN]: %% 2026-02-03T10:05:11 LAN: "sérénade" - ITALIAN context: serenade in Naples %%
-- **100/1883-07-28.md** para 100.0107 [ENGLISH]: %% 2026-02-03T10:06:18 LAN: "non-sens" - ENGLISH: nonsense; Marie's playful code-switching %%
+- **099/1883-05-03.md** para 099.0346 [CODE-SWITCH]: %% 2026-02-02T09:09:28 LAN: CODE-SWITCH: English summary in brackets indicates transcriber's condensation of original French %%
+- **099/1883-05-19.md** para 099.0391 [LATIN]: %% 2026-02-02T09:05:04 LAN: LATIN follows - "Margaritas ante porcos" - Marie repeats idiom in Latin (Biblical, Matthew 7:6); showing classical education %%
+- **099/1883-05-23.md** para 099.0402 [ENGLISH]: %% 2026-02-03T10:00:13 LAN: "blackboulee" - ENGLISH borrowing: blackballed; rejected/excluded %%
+- **099/1883-05-25.md** para 099.0442 [LATIN]: %% 2026-02-03T10:02:38 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory; the title of Marie's journal/carnet %%
+- **100/1883-07-14.md** para 100.0193 [ITALIAN]: %% 2026-02-03T10:05:11 LAN: "sérénade" - ITALIAN context: serenade in Naples %%
+- **100/1883-07-28.md** para 100.0238 [ENGLISH]: %% 2026-02-03T10:06:18 LAN: "non-sens" - ENGLISH: nonsense; Marie's playful code-switching %%
 - **101/1883-08-18.md** para 101.0182 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN CODE-SWITCH: Extended passage in Italian for privacy. Marie speculates whether Bastien knows his brother admires her, and whether this would prevent Bastien from showing interest. "Aurora qualche cosa" = "Dawn something" (cryptic opening). Contains spelling errors in Italian (beuchè for benché, nostrarsi for mostrarsi, camino for cammino, infezione for affezione). %%
 - **101/1883-08-18.md** para 101.0183 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN continues: "But he doesn't think of me; if he wanted to think of me he wouldn't show it... because of the other; if it's true the other admires me, he admires me as I admire Giulio..." %%
 - **101/1883-08-18.md** para 101.0184 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN/FRENCH: "Well, if Dina saw that I liked someone who could never love me, Dina would do nothing to win that heart..." then switches to French: "but that's not the point" %%

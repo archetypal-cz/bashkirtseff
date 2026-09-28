@@ -13081,7 +13081,7 @@
     },
     {
       "file": "1880-11-25.md",
-      "para_id": "090.0248",
+      "para_id": "090.0267",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: LATIN: \"Unae irae\" - one wrath/anger (Marie's classical allusion, possibly misremembered) %%",
       "fr_file": "content/fr/090/1880-11-25.md",
@@ -13090,7 +13090,7 @@
     },
     {
       "file": "1880-12-16.md",
-      "para_id": "090.0357",
+      "para_id": "090.0384",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T15:00:00 LAN: LATIN: \"Consilium\" - medical consultation/council %%",
       "fr_file": "content/fr/090/1880-12-16.md",
@@ -13099,7 +13099,7 @@
     },
     {
       "file": "1880-12-20.md",
-      "para_id": "090.0393",
+      "para_id": "090.0420",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T15:00:00 LAN: LATIN cultural reference: Temple of Fides (Good Faith) traditionally attributed to Romulus %%",
       "fr_file": "content/fr/090/1880-12-20.md",
@@ -13108,18 +13108,18 @@
     },
     {
       "file": "1882-04-18.md",
-      "para_id": "090.0490",
+      "para_id": "094.0353",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T15:00:00 LAN: \"sleeping\" - ENGLISH: sleeping car (train compartment) %%",
-      "fr_file": "content/fr/090/1882-04-18.md",
-      "original_file": "content/_original/090/1882-04-18.md",
+      "fr_file": "content/fr/094/1882-04-18.md",
+      "original_file": "content/_original/094/1882-04-18.md",
       "current_text": "Ce depart encore, il fallait retenir un wagon-lit mais on a laisse aller les choses tout en disant, oui il faut le retenir, puis au moment de partir c'est trop tard, me voyant furieuse de voyager dans un compartiment ordinaire, on propose de rester jusqu'a demain midi."
     }
   ],
   "091": [
     {
       "file": "1881-02-05.md",
-      "para_id": "091.0040",
+      "para_id": "091.0079",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T14:30:00 LAN: ENGLISH: \"flirté\" - borrowed English verb \"flirt\" with French conjugation %%",
       "fr_file": "content/fr/091/1881-02-05.md",
@@ -13128,7 +13128,7 @@
     },
     {
       "file": "1881-04-01.md",
-      "para_id": "091.0378",
+      "para_id": "091.0418",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T14:30:00 LAN: ENGLISH: \"blackbouler\" - from English \"blackball\"; to reject, ostracize %%",
       "fr_file": "content/fr/091/1881-04-01.md",
@@ -13139,7 +13139,7 @@
   "092": [
     {
       "file": "1881-06-14.md",
-      "para_id": "092.0106",
+      "para_id": "092.0118",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T09:03:04 LAN: \"Vassya\" - RUSSIAN diminutive of Vasily; indicates familiar/affectionate naming %%",
       "fr_file": "content/fr/092/1881-06-14.md",
@@ -13148,7 +13148,7 @@
     },
     {
       "file": "1881-07-17.md",
-      "para_id": "092.0286",
+      "para_id": "092.0297",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T08:07:17 LAN: RUSSIAN: \"stariovoi\" - stanovoi pristav, local police chief %%",
       "fr_file": "content/fr/092/1881-07-17.md",
@@ -13157,7 +13157,7 @@
     },
     {
       "file": "1881-07-17.md",
-      "para_id": "092.0289",
+      "para_id": "092.0300",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T08:07:38 LAN: LATIN: \"Ave!\" - Hail! (classical salute, ironic/mock-admiring) %%",
       "fr_file": "content/fr/092/1881-07-17.md",
@@ -13166,7 +13166,7 @@
     },
     {
       "file": "1881-07-21.md",
-      "para_id": "092.0307",
+      "para_id": "092.0318",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T09:00:01 LAN: \"la mère de toutes les villes russes\" - RUSSIAN phrase translated: \"мать городов русских\" (mat gorodov russkikh), traditional epithet for Kiev %%",
       "fr_file": "content/fr/092/1881-07-21.md",
@@ -13175,7 +13175,7 @@
     },
     {
       "file": "1881-07-21.md",
-      "para_id": "092.0307",
+      "para_id": "092.0318",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T09:00:04 LAN: \"comfortable\" - ENGLISH spelling preserved; Marie uses English word %%",
       "fr_file": "content/fr/092/1881-07-21.md",
@@ -13184,7 +13184,7 @@
     },
     {
       "file": "1881-07-21.md",
-      "para_id": "092.0309",
+      "para_id": "092.0320",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T09:00:07 LAN: \"Lavra\" - RUSSIAN: Лавра, highest rank of Eastern Orthodox monastery; Kiev Pechersk Lavra is one of holiest sites %%",
       "fr_file": "content/fr/092/1881-07-21.md",
@@ -13193,7 +13193,7 @@
     },
     {
       "file": "1881-07-21.md",
-      "para_id": "092.0310",
+      "para_id": "092.0321",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T09:00:08 LAN: \"Iconostase\" - GREEK/RUSSIAN: icon screen; Marie provides her own explanation for Western readers %%",
       "fr_file": "content/fr/092/1881-07-21.md",
@@ -13202,7 +13202,7 @@
     },
     {
       "file": "1881-07-25.md",
-      "para_id": "092.0334",
+      "para_id": "092.0345",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T09:02:19 LAN: \"fiasco\" - ITALIAN loanword: complete failure, disaster %%",
       "fr_file": "content/fr/092/1881-07-25.md",
@@ -13211,7 +13211,7 @@
     },
     {
       "file": "1881-08-05.md",
-      "para_id": "092.0365",
+      "para_id": "092.0376",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T09:05:02 LAN: \"gratis\" - LATIN: free of charge; commonly used in 19th century French %%",
       "fr_file": "content/fr/092/1881-08-05.md",
@@ -13220,7 +13220,7 @@
     },
     {
       "file": "1881-08-18.md",
-      "para_id": "092.0427",
+      "para_id": "092.0438",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T09:08:12 LAN: LATIN: \"in petto\" - in one's breast, secretly, to oneself %%",
       "fr_file": "content/fr/092/1881-08-18.md",
@@ -13229,7 +13229,7 @@
     },
     {
       "file": "1881-08-18.md",
-      "para_id": "092.0431",
+      "para_id": "092.0442",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T09:08:27 LAN: LATIN: \"id est\" - that is (scholarly abbreviation) %%",
       "fr_file": "content/fr/092/1881-08-18.md",
@@ -13240,7 +13240,7 @@
   "093": [
     {
       "file": "1881-08-23.md",
-      "para_id": "093.0012",
+      "para_id": "093.0015",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T09:03:11 LAN: ENGLISH: \"I!\" - Marie's characteristic English exclamation for emphasis %%",
       "fr_file": "content/fr/093/1881-08-23.md",
@@ -13249,7 +13249,7 @@
     },
     {
       "file": "1881-09-18.md",
-      "para_id": "093.0056",
+      "para_id": "093.0067",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T09:01:13 LAN: \"ulster\" - ENGLISH: heavy overcoat (Ulster coat), fashionable 1870s-80s %%",
       "fr_file": "content/fr/093/1881-09-18.md",
@@ -13258,7 +13258,7 @@
     },
     {
       "file": "1881-10-04.md",
-      "para_id": "093.0079",
+      "para_id": "093.0102",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T09:10:06 LAN: \"idem\" - LATIN: the same, likewise (to be painted nude) %%",
       "fr_file": "content/fr/093/1881-10-04.md",
@@ -13267,7 +13267,7 @@
     },
     {
       "file": "1881-10-10.md",
-      "para_id": "093.0086",
+      "para_id": "093.0112",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T09:03:09 LAN: LATIN: \"verticem mundi\" - summit/pinnacle of the world; Marie's classical education %%",
       "fr_file": "content/fr/093/1881-10-10.md",
@@ -13276,7 +13276,7 @@
     },
     {
       "file": "1881-10-30.md",
-      "para_id": "093.0121",
+      "para_id": "093.0153",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T09:06:05 LAN: RUSSIAN: \"les yeux s'enfuient dans toutes les directions comme on dit en russe\" - Russian idiom Marie translates %%",
       "fr_file": "content/fr/093/1881-10-30.md",
@@ -13285,7 +13285,7 @@
     },
     {
       "file": "1881-11-22.md",
-      "para_id": "093.0141",
+      "para_id": "093.DROPPED-0141",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T09:06:26 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory: Marie's motto, book title %%",
       "fr_file": "content/fr/093/1881-11-22.md",
@@ -13296,7 +13296,7 @@
   "094": [
     {
       "file": "1882-01-23.md",
-      "para_id": "094.0104",
+      "para_id": "094.0142",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: ENGLISH: \"heals all wounds but those of the heart\" - Gabriel's English inscription on glycerin bottle, romantic cliche %%",
       "fr_file": "content/fr/094/1882-01-23.md",
@@ -13307,7 +13307,7 @@
   "095": [
     {
       "file": "1882-07-31.md",
-      "para_id": "095.0361",
+      "para_id": "095.0384",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: \"Il corpo e piu che il vestimento\" - The body is more than clothing; biblical reference Luke 12:23 %%",
       "fr_file": "content/fr/095/1882-07-31.md",
@@ -13316,7 +13316,7 @@
     },
     {
       "file": "1882-07-31.md",
-      "para_id": "095.0362",
+      "para_id": "095.0385",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: \"La vita e piu che il nutrimento\" - Life is more than food; biblical reference Luke 12:23 %%",
       "fr_file": "content/fr/095/1882-07-31.md",
@@ -13327,7 +13327,7 @@
   "096": [
     {
       "file": "1882-08-23.md",
-      "para_id": "096.0125",
+      "para_id": "096.0127",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T15:00:00 LAN: LATIN \"Sinite parvulas venire ad me\" - \"Suffer the little children to come unto me\" (Mark 10:14) %%",
       "fr_file": "content/fr/096/1882-08-23.md",
@@ -13336,7 +13336,7 @@
     },
     {
       "file": "1882-09-05.md",
-      "para_id": "096.0195",
+      "para_id": "096.0202",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T15:00:00 LAN: ENGLISH \"on the wrong\" - on the wrong side; Marie's English code-switching %%",
       "fr_file": "content/fr/096/1882-09-05.md",
@@ -13345,7 +13345,7 @@
     },
     {
       "file": "1882-10-15.md",
-      "para_id": "096.0368",
+      "para_id": "096.0389",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T10:21:00 LAN: \"Dina\" - RUSSIAN: diminutive, likely servant or family member %%",
       "fr_file": "content/fr/096/1882-10-15.md",
@@ -13354,7 +13354,7 @@
     },
     {
       "file": "1882-10-15.md",
-      "para_id": "096.0368",
+      "para_id": "096.0389",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T10:21:00 LAN: \"Kapitan\" - RUSSIAN: likely a dog's name (Captain) %%",
       "fr_file": "content/fr/096/1882-10-15.md",
@@ -13363,7 +13363,7 @@
     },
     {
       "file": "1882-10-15.md",
-      "para_id": "096.0368",
+      "para_id": "096.0389",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T10:21:00 LAN: \"Michka\" - RUSSIAN: diminutive of Michel/Mikhail %%",
       "fr_file": "content/fr/096/1882-10-15.md",
@@ -13412,7 +13412,7 @@
     },
     {
       "file": "1883-05-03.md",
-      "para_id": "099.0336",
+      "para_id": "099.0346",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-02-02T09:09:28 LAN: CODE-SWITCH: English summary in brackets indicates transcriber's condensation of original French %%",
       "fr_file": "content/fr/099/1883-05-03.md",
@@ -13421,7 +13421,7 @@
     },
     {
       "file": "1883-05-19.md",
-      "para_id": "099.0381",
+      "para_id": "099.0391",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T09:05:04 LAN: LATIN follows - \"Margaritas ante porcos\" - Marie repeats idiom in Latin (Biblical, Matthew 7:6); showing classical education %%",
       "fr_file": "content/fr/099/1883-05-19.md",
@@ -13430,7 +13430,7 @@
     },
     {
       "file": "1883-05-23.md",
-      "para_id": "099.0392",
+      "para_id": "099.0402",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T10:00:13 LAN: \"blackboulee\" - ENGLISH borrowing: blackballed; rejected/excluded %%",
       "fr_file": "content/fr/099/1883-05-23.md",
@@ -13439,7 +13439,7 @@
     },
     {
       "file": "1883-05-25.md",
-      "para_id": "099.0395",
+      "para_id": "099.0442",
       "language": "LATIN",
       "lan_context": "%% 2026-02-03T10:02:38 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory; the title of Marie's journal/carnet %%",
       "fr_file": "content/fr/099/1883-05-25.md",
@@ -13450,7 +13450,7 @@
   "100": [
     {
       "file": "1883-07-14.md",
-      "para_id": "100.0093",
+      "para_id": "100.0193",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:05:11 LAN: \"sérénade\" - ITALIAN context: serenade in Naples %%",
       "fr_file": "content/fr/100/1883-07-14.md",
@@ -13459,7 +13459,7 @@
     },
     {
       "file": "1883-07-28.md",
-      "para_id": "100.0107",
+      "para_id": "100.0238",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T10:06:18 LAN: \"non-sens\" - ENGLISH: nonsense; Marie's playful code-switching %%",
       "fr_file": "content/fr/100/1883-07-28.md",
