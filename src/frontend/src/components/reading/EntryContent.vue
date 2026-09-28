@@ -22,7 +22,18 @@ interface ProcessedParagraph {
   footnoteRefs?: string[];
   languages?: string[];
   kind?: string;
+  kindBodyHtml?: string; // body without label, for a paragraph inside a kind run
+  kindRun?: KindRunInfo; // first paragraph of a run of same-kind, same-source paragraphs
   drawings?: EntryDrawing[]; // notebook drawings shown right after this paragraph
+}
+
+/** Mirrors KindRunInfo in lib/content.ts */
+interface KindRunInfo {
+  size: number;
+  key: string;
+  quoted: boolean;
+  labelHtml: string;
+  labelText: string;
 }
 
 const props = defineProps<{
@@ -82,15 +93,28 @@ function paragraphMatches(para: ProcessedParagraph): boolean {
 
 type RenderItem =
   | { type: 'paragraph'; paragraph: ProcessedParagraph }
+  | { type: 'kindRun'; run: KindRunInfo; paragraphs: ProcessedParagraph[] }
   | { type: 'gap'; paragraphs: ProcessedParagraph[]; count: number };
 
 /** Build the render list: matching paragraphs + gap groups */
 const renderItems = computed<RenderItem[]>(() => {
   const paras = parsedParagraphs.value;
 
-  // No entity filter active → show all paragraphs normally
+  // No entity filter active → show all paragraphs normally, a run of
+  // same-kind, same-source paragraphs (a clipping over several paragraphs)
+  // as one labelled block. Under a filter each paragraph keeps its own label.
   if (!hasEntityFilter.value) {
-    return paras.map(p => ({ type: 'paragraph' as const, paragraph: p }));
+    const items: RenderItem[] = [];
+    for (let i = 0; i < paras.length; i++) {
+      const run = paras[i].kindRun;
+      if (run && run.size > 1) {
+        items.push({ type: 'kindRun', run, paragraphs: paras.slice(i, i + run.size) });
+        i += run.size - 1;
+      } else {
+        items.push({ type: 'paragraph', paragraph: paras[i] });
+      }
+    }
+    return items;
   }
 
   const items: RenderItem[] = [];
@@ -153,6 +177,48 @@ const renderItems = computed<RenderItem[]>(() => {
         </figcaption>
       </figure>
     </template>
+
+    <!-- Run of same-kind, same-source paragraphs: one block, labelled once
+         (role=group named by the label text, the visible label hidden from
+         screen readers so it is announced once); each paragraph keeps its anchor,
+         toolbar and flip card -->
+    <component
+      v-else-if="item.type === 'kindRun'"
+      :is="item.run.quoted ? 'blockquote' : 'div'"
+      :class="['para-kind', 'para-kind-group', `para-kind-${item.run.key}`]"
+      :data-kind="item.run.key"
+      role="group"
+      :aria-label="item.run.labelText"
+    >
+      <span class="para-kind-label" aria-hidden="true" v-html="item.run.labelHtml" />
+      <template v-for="p in item.paragraphs" :key="p.id">
+        <div
+          :id="p.htmlId"
+          class="paragraph-container scroll-mt-24"
+          :data-paragraph-id="p.id"
+          :style="isTranslation ? 'perspective: 1000px;' : undefined"
+        >
+          <ParagraphToolbar
+            :paragraphId="p.id"
+            :htmlContent="p.kindBodyHtml ?? p.html"
+            :originalHtml="isTranslation ? p.originalHtml : undefined"
+            :languages="isTranslation ? p.languages : undefined"
+            :translationLang="isTranslation ? urlPath : undefined"
+            :glossaryTags="p.glossaryTags"
+            :language="urlPath"
+            :contentLang="contentLangAttr"
+            :pageLocale="uiLocale"
+          />
+        </div>
+        <figure v-for="d in p.drawings ?? []" :key="d.src" class="entry-drawing">
+          <img :src="d.src" :alt="d.alt ?? d.caption ?? drawingLabel ?? ''" loading="lazy" decoding="async" />
+          <figcaption v-if="d.caption || d.source">
+            {{ d.caption }}
+            <span v-if="d.source" class="entry-drawing-source">{{ d.source }}</span>
+          </figcaption>
+        </figure>
+      </template>
+    </component>
 
     <!-- Gap: consecutive non-matching paragraphs -->
     <FilteredParagraphGap

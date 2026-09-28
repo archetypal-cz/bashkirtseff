@@ -34,7 +34,10 @@ import {
 
 import { THEME_SUBCATEGORIES } from './glossary-categories';
 import { escapeHtml, renderOriginalHtml } from './original-html';
-import { findKind, parseKindLine, stripQuoteMarkers, wrapKindHtml, type ParagraphKind } from './paragraph-kind';
+import {
+  findKind, isQuotedKind, kindBodyHtml, kindKey, kindLabelInnerHtml, kindLabelText, kindRuns, parseKindLine,
+  stripQuoteMarkers, wrapKindHtml, type ParagraphKind,
+} from './paragraph-kind';
 import { normalizeDrawings, type EntryDrawing } from './drawings';
 import { applyTypography, typographyLocaleFor } from './typography';
 import { createT, contentPathToLocale } from '../i18n/astro';
@@ -81,6 +84,19 @@ export interface Paragraph {
   kind?: ParagraphKind; // From `%% kind: … %%`: clipping, letter, rayé, margin, other
   kindSource?: string;  // The marker's source="…" (newspaper and date, letter writer)
   untranslated?: boolean; // Scaffold placeholder (`TODO`) shown as the French original
+  // Run of consecutive same-kind, same-source paragraphs shown as one block
+  // (lib/paragraph-kind.ts kindRuns). `html` stays the standalone labelled
+  // block; inside the run the reading view shows `kindBodyHtml` instead.
+  kindBodyHtml?: string;
+  kindRun?: KindRunInfo; // on the run's first paragraph only
+}
+
+export interface KindRunInfo {
+  size: number;        // paragraphs in the run, this one included
+  key: string;         // CSS suffix / data-kind (rayé → raye)
+  quoted: boolean;     // blockquote (clipping, letter) or plain block
+  labelHtml: string;   // label content: kind name + source citation
+  labelText: string;   // the same as plain text
 }
 
 export interface Footnote {
@@ -455,6 +471,7 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
   if (!isOriginalLanguage(language)) {
     resolveUntranslated(paragraphs, carnetId, entryId, language);
   }
+  applyKinds(paragraphs, language);
   // Footnotes of the French source are editorial English, so only
   // translations (whose notes are in the translation language) get the
   // language's typography.
@@ -532,6 +549,35 @@ function finishParagraphs(paragraphs: Paragraph[], language: string): void {
     p.html = applyTypography(p.html, typoLocale);
     if (p.originalText) {
       p.originalHtml = applyTypography(renderOriginalHtml(p.originalText), 'fr');
+    }
+  }
+}
+
+/**
+ * Put kind paragraphs (clipping, letter, …) in their labelled block. A run of
+ * consecutive same-kind, same-source paragraphs is one block in the reading
+ * view, labelled once: its paragraphs also get `kindBodyHtml`, and the first
+ * one `kindRun`. Runs last so the untranslated fallback sits inside the block.
+ */
+function applyKinds(paragraphs: Paragraph[], language: string): void {
+  const typoLocale = typographyLocaleFor(language);
+  for (const run of kindRuns(paragraphs)) {
+    const { kind, kindSource } = run[0];
+    if (!kind) continue;
+    // The body already has its typography (finishParagraphs); the label gets it here.
+    const labelHtml = applyTypography(kindLabelInnerHtml(kind, kindSource, language), typoLocale);
+    for (const p of run) {
+      if (run.length > 1) p.kindBodyHtml = kindBodyHtml(p.html, kind);
+      p.html = wrapKindHtml(p.html, kind, kindSource, language, labelHtml);
+    }
+    if (run.length > 1) {
+      run[0].kindRun = {
+        size: run.length,
+        key: kindKey(kind),
+        quoted: isQuotedKind(kind),
+        labelHtml,
+        labelText: applyTypography(kindLabelText(kind, kindSource, language), typoLocale),
+      };
     }
   }
 }
@@ -616,7 +662,7 @@ function resolveUntranslated(paragraphs: Paragraph[], carnetId: string, entryId:
     }).join('\n');
 
     p.text = parts.map(part => part.text).join('\n');
-    p.html = p.kind ? wrapKindHtml(html, p.kind, p.kindSource, language) : html;
+    p.html = html;
     p.footnoteRefs = footnoteRefs.length > 0 ? footnoteRefs : undefined;
     p.untranslated = true;
     // The paragraph already shows the French: no flip to the same text.
@@ -949,7 +995,7 @@ function parseParagraphs(content: string, language: string, context?: string): P
         paragraphs.push({
           id: currentId,
           text,
-          html: currentKind ? wrapKindHtml(html, currentKind.kind, currentKind.source, language) : html,
+          html, // kind block added by applyKinds
           ...(currentKind ? { kind: currentKind.kind, kindSource: currentKind.source } : {}),
           originalText: language === 'fr' ? undefined : currentOriginal,
           glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
@@ -1082,7 +1128,7 @@ function parseParagraphs(content: string, language: string, context?: string): P
         paragraphs.push({
           id: ids[i].id,
           text,
-          html: kind ? wrapKindHtml(html, kind.kind, kind.source, language) : html,
+          html, // kind block added by applyKinds
           ...(kind ? { kind: kind.kind, kindSource: kind.source } : {}),
           glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
           footnoteRefs: footnoteRefs.length > 0 ? footnoteRefs : undefined,

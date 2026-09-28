@@ -66,20 +66,76 @@ function labelLocale(contentPath: string) {
 }
 
 /**
+ * Kinds whose consecutive paragraphs from the same source form one block: a
+ * clipping or letter pasted or copied over several paragraphs is one document.
+ * Struck-out passages, marginal notes and editors' notes each belong to their
+ * own spot in the text, so they stay per paragraph.
+ */
+const GROUPED_KINDS = new Set<ParagraphKind>(['clipping', 'letter', 'cover', 'other']);
+
+/** The block's label (kind name, then the source as a citation), without its outer span */
+export function kindLabelInnerHtml(kind: ParagraphKind, source: string | undefined, contentPath: string): string {
+  const t = createT(labelLocale(contentPath));
+  const label = escapeHtml(t(`paragraph.kind.${KEY[kind]}`));
+  const cite = source ? `<span class="para-kind-sep" aria-hidden="true"> · </span><cite class="para-kind-source">${escapeHtml(source)}</cite>` : '';
+  return `<span class="para-kind-name">${label}</span>${cite}`;
+}
+
+/** Plain-text label for aria-label and the like: "Coupure de presse · Le Figaro" */
+export function kindLabelText(kind: ParagraphKind, source: string | undefined, contentPath: string): string {
+  const t = createT(labelLocale(contentPath));
+  const label = t(`paragraph.kind.${KEY[kind]}`);
+  return source ? `${label} · ${source}` : label;
+}
+
+/** The paragraph's own text inside a kind block (struck through for rayé) */
+export function kindBodyHtml(html: string, kind: ParagraphKind): string {
+  return kind === 'rayé' ? `<del class="para-kind-body">${html}</del>` : `<div class="para-kind-body">${html}</div>`;
+}
+
+/** CSS class suffix / data-kind value of a kind (rayé → raye) */
+export function kindKey(kind: ParagraphKind): string {
+  return KEY[kind];
+}
+
+/** Clippings and letters are quotations: a blockquote; the rest a plain block */
+export function isQuotedKind(kind: ParagraphKind): boolean {
+  return kind === 'clipping' || kind === 'letter';
+}
+
+/**
+ * Split paragraphs into runs that render as one block: consecutive paragraphs
+ * of the same grouped kind and the same source (both unset counts as the same).
+ * Everything else, including a lone kind paragraph, is a run of one.
+ */
+export function kindRuns<T extends { kind?: ParagraphKind; kindSource?: string }>(paragraphs: T[]): T[][] {
+  const runs: T[][] = [];
+  for (const p of paragraphs) {
+    const run = runs[runs.length - 1];
+    const prev = run?.[run.length - 1];
+    if (prev && p.kind && GROUPED_KINDS.has(p.kind) && prev.kind === p.kind && prev.kindSource === p.kindSource) {
+      run.push(p);
+    } else {
+      runs.push([p]);
+    }
+  }
+  return runs;
+}
+
+/**
  * Wrap a paragraph's rendered HTML in its kind block: a blockquote for
  * clippings and letters, a plain block for the rest; a label (kind name, then
- * the source as a citation) opens it.
+ * the source as a citation) opens it. `labelInner` overrides the label content
+ * (content.ts passes it with the language's typography applied).
  */
-export function wrapKindHtml(html: string, kind: ParagraphKind, source: string | undefined, contentPath: string): string {
+export function wrapKindHtml(
+  html: string, kind: ParagraphKind, source: string | undefined, contentPath: string,
+  labelInner: string = kindLabelInnerHtml(kind, source, contentPath),
+): string {
   const key = KEY[kind];
-  const t = createT(labelLocale(contentPath));
-  const label = escapeHtml(t(`paragraph.kind.${key}`));
-  const cite = source ? `<span class="para-kind-sep" aria-hidden="true"> · </span><cite class="para-kind-source">${escapeHtml(source)}</cite>` : '';
   // An editors' note is already bracketed in the text; its label is for screen readers only.
   const labelClass = kind === 'editorial' ? 'para-kind-label sr-only' : 'para-kind-label';
-  const head = `<span class="${labelClass}"><span class="para-kind-name">${label}</span>${cite}</span>`;
-  const quoted = kind === 'clipping' || kind === 'letter';
-  const tag = quoted ? 'blockquote' : 'div';
-  const body = kind === 'rayé' ? `<del class="para-kind-body">${html}</del>` : `<div class="para-kind-body">${html}</div>`;
-  return `<${tag} class="para-kind para-kind-${key}" data-kind="${key}">${head}${body}</${tag}>`;
+  const head = `<span class="${labelClass}">${labelInner}</span>`;
+  const tag = isQuotedKind(kind) ? 'blockquote' : 'div';
+  return `<${tag} class="para-kind para-kind-${key}" data-kind="${key}">${head}${kindBodyHtml(html, kind)}</${tag}>`;
 }

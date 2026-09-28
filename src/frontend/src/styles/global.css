@@ -322,7 +322,8 @@
   }
 
   .prose-diary p,
-  .prose-diary > .paragraph-container > div {
+  .prose-diary > .paragraph-container > div,
+  .prose-diary > .para-kind-group > .paragraph-container > div {
     margin-bottom: 1.25rem;
     /* Full scale effect: base * scale */
     font-size: calc(var(--base-font-size) * var(--reading-font-scale));
@@ -571,6 +572,13 @@ footer.site-footer {
     text-transform: uppercase;
     line-height: 1.4;
     color: var(--text-muted);
+  }
+
+  /* A run of same-kind, same-source paragraphs is one block (EntryContent
+     kindRun): the frame wraps the run, the label opens it once, and the last
+     paragraph's bottom margin would only pad the frame. */
+  .prose-diary > .para-kind-group > .paragraph-container:last-child > div {
+    margin-bottom: 0;
   }
 
   .para-kind-source {

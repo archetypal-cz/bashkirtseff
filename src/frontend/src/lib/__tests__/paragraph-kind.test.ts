@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 
-import { parseKindLine, stripQuoteMarkers, wrapKindHtml } from '../paragraph-kind';
+import { kindRuns, parseKindLine, stripQuoteMarkers, wrapKindHtml } from '../paragraph-kind';
 import { normalizeDrawings, placeDrawings } from '../drawings';
 
 const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'bk-kind-'));
@@ -145,5 +145,78 @@ describe('content.ts', () => {
     expect(placed.atEnd.map(d => d.src)).toEqual(['/images/marie/drawings/901/fixture-p0001-2.webp']);
     expect(placeDrawings([{ src: '/x.webp', paragraph: '901.0099' }], ['901.0001']).atEnd).toHaveLength(1);
     expect(normalizeDrawings('nope')).toBeUndefined();
+  });
+});
+
+describe('runs of same-kind paragraphs', () => {
+  it('groups consecutive same-kind, same-source clippings/letters; breaks on kind, source or plain text', () => {
+    const runs = kindRuns<{ id: string; kind?: 'clipping' | 'letter' | 'rayé' | 'margin'; kindSource?: string }>([
+      { id: 'a', kind: 'clipping', kindSource: 'Figaro' },
+      { id: 'b', kind: 'clipping', kindSource: 'Figaro' },
+      { id: 'c', kind: 'clipping', kindSource: 'Gaulois' },
+      { id: 'd', kind: 'letter', kindSource: 'Gaulois' },
+      { id: 'e' },
+      { id: 'f', kind: 'letter' },
+      { id: 'g', kind: 'letter' },
+      { id: 'h', kind: 'rayé' },
+      { id: 'i', kind: 'rayé' },
+      { id: 'j', kind: 'margin' },
+      { id: 'k', kind: 'margin' },
+    ]);
+    expect(runs.map(r => r.map(p => p.id).join(''))).toEqual(['ab', 'c', 'd', 'e', 'fg', 'h', 'i', 'j', 'k']);
+  });
+
+  it('labels a run once in content.ts, keeping each paragraph and its standalone block', () => {
+    const body = [
+      '%% 901.0010 %%',
+      '# Mardi 13 février 1877',
+      '',
+      '%% 901.0011 %%',
+      '%% kind: clipping source="journal anglais, décembre 1873" %%',
+      '> Premier alinéa.',
+      '',
+      '%% 901.0012 %%',
+      '%% kind: clipping source="journal anglais, décembre 1873" %%',
+      '> Second alinéa.',
+      '',
+      '%% 901.0013 %%',
+      '%% kind: clipping source="journal anglais, décembre 1873" %%',
+      '> Troisième alinéa.',
+      '',
+      '%% 901.0014 %%',
+      'Et moi je dis.',
+      '',
+      '%% 901.0015 %%',
+      '%% kind: clipping source="journal anglais, décembre 1873" %%',
+      '> Seul.',
+    ].join('\n');
+    write('_original', '901', '1877-02-13', '', body);
+    write('cz', '901', '1877-02-13', '', body
+      .replace('# Mardi 13 février 1877', '%% # Mardi 13 février 1877 %%\n# Úterý 13. února 1877')
+      .replace(/^> (.+)$/gm, '%% > $1 %%\n> Český $1'));
+
+    for (const lang of ['original', 'cz']) {
+      const ps = getEntry('901', '1877-02-13', lang)!.paragraphs;
+      const byId = new Map(ps.map(p => [p.id, p]));
+      const first = byId.get('901.0011')!;
+      expect(first.kindRun).toMatchObject({ size: 3, key: 'clipping', quoted: true });
+      expect(first.kindRun!.labelHtml).toContain('journal anglais, décembre 1873');
+      expect(first.kindRun!.labelText).toBe(
+        `${lang === 'cz' ? 'Novinový výstřižek' : 'Coupure de presse'} · journal anglais, décembre 1873`,
+      );
+      for (const id of ['901.0011', '901.0012', '901.0013']) {
+        const p = byId.get(id)!;
+        expect(p.kindBodyHtml).toMatch(/^<div class="para-kind-body">/);
+        expect(p.kindBodyHtml).not.toContain('para-kind-label');
+        expect(p.html).toMatch(/^<blockquote class="para-kind para-kind-clipping"/); // standalone form kept
+      }
+      expect(byId.get('901.0012')!.kindRun).toBeUndefined();
+      // A plain paragraph breaks the run: the lone clipping after it is not grouped.
+      expect(byId.get('901.0015')!.kindRun).toBeUndefined();
+      expect(byId.get('901.0015')!.kindBodyHtml).toBeUndefined();
+    }
+    const cz = getEntry('901', '1877-02-13', 'cz')!.paragraphs.find(p => p.id === '901.0012')!;
+    expect(cz.kindBodyHtml).toContain('Český Second alinéa.');
+    expect(cz.originalHtml).toBe('Second alinéa.');
   });
 });
