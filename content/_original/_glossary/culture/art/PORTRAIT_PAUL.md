@@ -40,7 +40,7 @@ Oil; dimensions not published by the museum. The best available reproduction is 
 ## Making of the Work
 
 %% GLO_PORTRAIT_PAUL.0007 %%
-**The diary does not corroborate the 1876 date, and this should be said plainly.** A full sweep of carnets 060–075 — which covers May 1876 to 31 October 1877, exactly the period in question — found **no mention anywhere of Marie painting or drawing her brother**. Paul appears constantly in carnet 066 (Poltava, September 1876), but the material there concerns a quarrel over a photograph album (¶¶ 066.0109–066.0118), not painting.
+**The diary does not corroborate the 1876 date, and this should be said plainly.** A full sweep of carnets 060–075 — which covers May 1876 to 31 October 1877, exactly the period in question — found **no mention anywhere of Marie painting or drawing her brother**. Paul appears constantly in carnet 066 (Poltava, September 1876), but the material there concerns a quarrel over a photograph album (¶¶ 065.0377–065.0386), not painting.
 
 %% GLO_PORTRAIT_PAUL.0008 %%
 That silence is worth weighing. In these years Marie records her drawing and painting in obsessive detail — the Collignon portrait, the caricatures of Melissano, the portrait of her grandmother, the card players, the *Mirage* cartoon — so a finished oil portrait of her own brother going unmentioned is unexpected. Either the museum's date is wrong, or the picture belongs to a stretch of days the diary passes over, or it was made somewhere the diary does not follow her.

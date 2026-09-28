@@ -1,0 +1,4190 @@
+{
+ "carnet": "066",
+ "source": "tome09.docx",
+ "drop": [
+  {
+   "id": "066.0290",
+   "reason": "empty placeholder cluster (no French text in _original; no text in cz/uk/fr; en holds only the placeholder «[No further text]») — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0365",
+   "reason": "empty placeholder cluster (no French text in _original; no text in cz/uk/fr or en) — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0393",
+   "reason": "empty placeholder cluster (no French text in _original; no text in cz/uk/fr or en) — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0470",
+   "reason": "empty placeholder cluster (no French text in _original; no text in cz/uk/fr or en) — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0498",
+   "reason": "empty placeholder cluster (no French text in _original; no text in cz/uk/fr or en) — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0166",
+   "reason": "stub «[Entry content missing from source]» — the text of that stretch (tome09.docx ¶522–1139) is restored as new paragraphs (2026-09-27 rebuild)"
+  },
+  {
+   "id": "066.0017",
+   "reason": "duplicate heading «Jeudi, 24 août 1876 (12 août)»: the day keeps 066.0104, which stands at its date line (tome09.docx ¶454) — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0119",
+   "reason": "invented continuation heading «(suite)» from the 2026-09-26 heading sweep: the paragraphs it headed are 24 August text and now follow the real date line «Jeudi 24 août 1876 (12 août)» (tome09.docx ¶454) — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0129",
+   "reason": "invented continuation heading «(suite)» from the 2026-09-26 heading sweep: the paragraphs it headed are 24 August text and now follow the real date line «Jeudi 24 août 1876 (12 août)» (tome09.docx ¶454) — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0137",
+   "reason": "invented continuation heading «(suite)» from the 2026-09-26 heading sweep: the paragraphs it headed are 24 August text and now follow the real date line «Jeudi 24 août 1876 (12 août)» (tome09.docx ¶454) — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0156",
+   "reason": "invented continuation heading «(suite)» from the 2026-09-26 heading sweep: the paragraphs it headed are 24 August text and now follow the real date line «Jeudi 24 août 1876 (12 août)» (tome09.docx ¶454) — 2026-09-27 rebuild"
+  },
+  {
+   "id": "066.0167",
+   "reason": "invented continuation heading «(suite)» from the 2026-09-26 heading sweep: the paragraphs it headed are 24 August text and now follow the real date line «Jeudi 24 août 1876 (12 août)» (tome09.docx ¶454) — 2026-09-27 rebuild"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1876-09-03.md",
+   "date": "1876-09-03",
+   "heading": "Dimanche 3 septembre 1876 (22 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Il paraît que je m'amuse. J'ai été portée dans un tapis comme Cléopâtre, j'ai dompté un cheval comme Alexandre et j'ai peint comme... quelqu'un qui n'est pas encore Raphaël.",
+      "rsr": "Restored from tome09.docx ¶857, Mon Journal t.9 p.55 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le matin on s'en alla en nombreuse compagnie pêcher au filet. Etendu sur un tapis (je tiens à le dire, il ne faut pas qu'on me soupçonne de me rouler dans l’herbe et la poussière) au bord de la rivière, belle et profonde à cet endroit, à l'ombre des arbres, mangeant des melons d'eau apportés par les Crocodiles, on a passé tant bien que mal deux heures.",
+      "rsr": "Restored from tome09.docx ¶858, Mon Journal t.9 p.55 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et, au retour, je fis Cléopâtre, on me porta dans le tapis jusqu’à la grille et, là, ce furent Michel et Kapitan qui m'improvisèrent une litière avec leurs mains entrelacées... et enfin Pacha me porta tout seul. Ayant ainsi épuisé tous ces genres de locomotion, je me trouvai au bas du grand escalier que je montai moi-même, Michel invariablement acroché au bout de ma traîne.",
+      "rsr": "Restored from tome09.docx ¶859, Mon Journal t.9 p.55 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je parus au déjeuner d'une façon charmante, c'est-à-dire je parle de ma toilette. Une chemise napolitaine en crêpe de chine bleu ciel et vieille dentelle, une très longue jupe de taffetas blanc et un grand morceau d'étoffe orientale rayée de blanc, bleu et or, mis comme un drap devant, et noué derrière. Tout le reste de l'étoffe retombant naturellement comme un drap de lit dont on ferait un tablier ! Vous ne sauriez imaginer quelque chose de plus [Mot noirci: joliment] bizarre.",
+      "rsr": "Restored from tome09.docx ¶860, Mon Journal t.9 pp.55–56 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pendant que les uns s'essouflaient à jouer aux cartes et les autres à hurler à la chaleur je ne sais quel animal parla des chevaux isabelle. On vanta leur jeunesse, leur force et leur fraîcheur.",
+      "rsr": "Restored from tome09.docx ¶861, Mon Journal t.9 p.56 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Mot noirci: Depuis] plusieurs jours déjà il était question de me seller un d'eux mais on émettait de suite un océan de craintes et je laissais aller. Enfin, ce jourd'hui, tant par dépit contre ma poltronnerie que pour remplir le sac à nouvelles des Crocodiles, j'ordonnai qu'on sellât la bête et en attendant allai jouer au croquet. Ah ! mais j'oublie le principal. [Rayé: Imaginez-vous que] nous avons traversé la rivière dans une douchegoulka, ce qui veut dire perdeuse d'âme ou assassineuse. Imaginez-vous un tronc de chêne creusé. On se met dedans et on avance avec une seule rame dont on manœuvre à droite et à gauche alternativement. On s'y place trois. Ce morceau de bois, [Mots noircis:tapissé pour la] commodité des voyageurs de banquettes, mais tout est d'une pièce. Ça a une forme sauvagement extraordinaire et le devant se relève au-dessus de l'eau comme une petite tête de baleine.",
+      "rsr": "Restored from tome09.docx ¶862, Mon Journal t.9 p.56 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pendant que je jouais, mon père couché sur l'herbe ne faisait que promener ses regards clignotants de moi aux Crocodiles, il fut content et ose le dire de l'impression.",
+      "rsr": "Restored from tome09.docx ¶863, Mon Journal t.9 p.56 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon costume biscornu mais adorable était encore rehaussé par un foulard blanc, que je me mis sur la tête, bas sur le front, attaché derrière la tête et les bouts revenant par devant *à* la manière des Egyptiennes tout en couvrant la nuque et le cou. On amena le cheval et il s'éleva un chœur d'impossibilités, enfin Kapitan en souvenir de son service de garde à cheval, le monte mais les premiers pas il fut si secoué que les spectateurs charitables se mirent à rire aussi bêtement que possible.",
+      "rsr": "Restored from tome09.docx ¶864, Mon Journal t.9 p.56 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le cheval se cabrait, s'arrêtait, s'emportait et Kapitan déclara au milieu de la gaieté générale que je pouvais le monter... dans trois semaines. Je regardais la bête frémissante, dont fa peau se couvrait à chaque instant de veines, comme lorsque le vent ride la surface de l'eau, et je me suis dit :",
+      "rsr": "Restored from tome09.docx ¶865, Mon Journal t.9 p.56 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Tu vas donner en spectacle ta fausse bravoure, ma fille, tu feras comme une vraie *demoiselle,* les Crocodiles n'auront rien à raconter de toi. C'est bête. Et puis aie le courage du respect que tu te portes et ne te déshonores pas à tes yeux. Tu as peur ? Tant mieux, [Mots noircis: car ceux-là] seuls sont braves qui craignent et marchent tout de même au devant de ce qu'ils craignent. [Mots noircis : La bravoure] ne consiste pas à faire une chose dont les autres ont peur et qui ne vous effraie pas. Mais la vraie, la seule bravoure, c'est de se forcer à faire quelque chose que l'on craint.",
+      "rsr": "Restored from tome09.docx ¶866, Mon Journal t.9 pp.56–57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je montai quatre à quatre l'escalier, je mis mon amazone noire, une toque de velours noir et je redescendis pour remonter encore... à cheval...",
+      "rsr": "Restored from tome09.docx ¶867, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je fis le tour du gazon au pas, Kapitan marchait à côté sur un autre cheval, sentant les yeux de l'assistance braqués sur moi, je revins près du perron rassurer ces gens; mon père monta en cabriolet, avec un des Crocodiles, les autres prirent place dans la troïka du Prince et, suivie de ces deux équipages je pris la grande allée.",
+      "rsr": "Restored from tome09.docx ¶868, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne sais comment, mais tout simplement je pris le galop, petit, puis le grand, puis le trot et je revins vers les voitures ramasser les flatteries.",
+      "rsr": "Restored from tome09.docx ¶869, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'étais ravie et mon visage pourpre semblait lancer le feu comme les naseaux de mon cheval. J'étais radieuse ! Un cheval que l'on n'avait jamais monté !",
+      "rsr": "Restored from tome09.docx ¶870, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le soir on tira un feu d'artifice, les maisons furent illuminées et mes chiffres de tous les côtés. Une musique villageoise et les paysans dansant sous le balcon.",
+      "rsr": "Restored from tome09.docx ¶871, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La table était préparée de l'autre côté de la maison et nous traversâmes la foule des curieux sauvages.",
+      "rsr": "Restored from tome09.docx ¶872, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Mais c'est une vraie procession de l'église, dit une femme dans la foule, et voici le corps de Notre-Seigneur.",
+      "rsr": "Restored from tome09.docx ¶873, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En effet nous étions éclairés par des flambeaux et Michel portait ma traiîne, et vous savez que l'on porte Vendredi-Saint, une toile peinte représentant le corps de Jésus.",
+      "rsr": "Restored from tome09.docx ¶874, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Michel faisait des exercices acrobatiques pendant que les garçons du village le regardaient avec stupéfaction, accrochés eux-mêmes aux cordes et aux balançoires et semblant, dans la nuit, des pendus comme on en voit sur des gravures effacées et sinistres.",
+      "rsr": "Restored from tome09.docx ¶875, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je fus entourée par ces braves gens, braves gens, j'ai tort de le dire, car femmes et hommes faisaient les courtisans à ravir et me débitaient des compliments comme celui-ci par exemple.",
+      "rsr": "Restored from tome09.docx ¶876, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le cheval était beau, cet après-midi, mais l'écuyère le surpassait de beaucoup.",
+      "rsr": "Restored from tome09.docx ¶877, Mon Journal t.9 p.57 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous savez que j'adore à m'encanailler, je leur parlai à tous et peu s'en fallut que je ne me misse à danser. Ah ! c'est que la danse de nos paysans opprimés et naïfs en apparence, mais rusés comme des Italiens, en réalité, leur danse est un vrai cancan parisien et même un cancan très séditieux pour ne pas dire autre chose. On ne lève pas les jambes jusqu'au nez, ce qui d'ailleurs est affreusement laid, mais l'homme et la femme tournent, se rapprochent l’un de l'autre, se poursuivent et tout cela avec des gestes, des petits cris et des sourires qui font courir le frisson par le corps. Les filles dansent peu et très simplement.",
+      "rsr": "Restored from tome09.docx ¶878, Mon Journal t.9 pp.57–58 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On leur donna à boire et, ayant quitté ces aimables sauvages je voulus me coucher mais, sur l'escalier je m'arrêtai comme l'autre soir et mes deux cousins et Paul se groupèrent sur les marches.",
+      "rsr": "Restored from tome09.docx ¶879, Mon Journal t.9 p.58 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je voulus faire chanter Chocolat, il s'obstina, je lui fis un bonnet en papier avec des oreilles d'âne, il pleura, je le mis au coin, il hurla; après je le conduisis dans une autre chambre et je lui parlai raison avec douceur et bonté, après quoi il essuya ses larmes, se calma peu à peu et revint sur l'escalier nous chanter une chanson niçoise, à mon enchantement, car l'obstination est un des traits dominants de mon joujou et c'est une vilaine chose dans un enfant.",
+      "rsr": "Restored from tome09.docx ¶880, Mon Journal t.9 p.58 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Après le chant, vint la musique, je tirai du violon les sons les plus incroyables, et ces sons aigus, sérieux, criards, entremêlés, me faisaient rire aux éclats, et mon rire, avec ce furieux accompagnement, faisait pâmer les autres, même Chocolat.",
+      "rsr": "Restored from tome09.docx ¶881, Mon Journal t.9 p.58 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-03.md"
+  },
+  {
+   "file": "1876-09-04.md",
+   "date": "1876-09-04",
+   "heading": "Lundi 4 septembre 1876 (23 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Mots noircis : Il n’y a]vait plus personne, pas même Michel, mon père dormait, lorsqu'arriva une vieille dame à lunettes bleues, un peu bossue, plate devant, aux grands pieds et tenant une petite ombrelle noire dans ses grandes mains. Elle demanda mon père en français, s'annonçant comme la femme de l'homme qui est venu il y a deux jours vendre des moutons, un intendant français. Mon père refusa de la voir, par paresse; elle insistait, et Pacha eut à faire cinq fois le chemin du salon au lit de Monsieur.",
+      "rsr": "Restored from tome09.docx ¶883, Mon Journal t.9 p.58 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin n'écoutant aucune raison la furie entra dans la bibliothèque, Pacha la suivait, cherchant à la retenir mais elle sans rien écouter, entra dans la chambre à coucher et écartant les rideaux de l'alcôve se trouva en face de mon père. Celui-ci, abasourdi se dressa et fixa sur elle des yeux effarés lorsqu'elle éclata de rire comme une folle.",
+      "rsr": "Restored from tome09.docx ¶884, Mon Journal t.9 p.58 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et ce rire se répondit comme une traînée de feu par tout l'étage inférieur et eut un retentissant écho car dans chaque pièce il y avait ou la Princesse, ou Pacha ou Paul, qui se retenaient depuis trop longtemps. Ils entrèrent en furie chez mon père qui toujours assis se tenait les côtes pendant que je me débarbouillais.",
+      "rsr": "Restored from tome09.docx ¶885, Mon Journal t.9 p.58 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Une ligne cancellée]",
+      "rsr": "Restored from tome09.docx ¶886, Mon Journal t.9 p.58 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "new": {
+      "french": "[Mots noircis: La nuit] que nous avons sonné à l'incendie, tous les paysans arrivèrent avec des [Mot noirci: seaux], des bêches, des haches, mais nous dormions déjà. Un paysan ayant osé crier au désordre, mon père s'en fâcha, et donna une lettre de cachet afin que le séditieux fut enfermé. Cela s'est passé aujourd'hui devant moi, j'en riais aux éclats et les paysans qui avaient dénoncé souriaient malicieusement.",
+      "rsr": "Restored from tome09.docx ¶887, Mon Journal t.9 pp.58–59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On m'appela la nuit de ma chambre sur le balcon et on tira un petit feu d'artifice [Mots noircis: pour moi]. A chaque fusée, on entendait un cri dans la montagne, c'était Simon, le pauvre idiot. On assure qu'il n'est pas fou mais en fait le métier. D'ailleurs, l'effet était fantastique: la lune, le feu, et un fou dont les cris étaient plusieurs fois répétés par l'écho.",
+      "rsr": "Restored from tome09.docx ¶888, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'adore les feux d'artifice, et les eaux *d'artifice,* connues à Peterhoff. Le feu et l'eau sont les deux passions de mes yeux.",
+      "rsr": "Restored from tome09.docx ¶889, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-04.md"
+  },
+  {
+   "file": "1876-09-05.md",
+   "date": "1876-09-05",
+   "heading": "Mardi 5 septembre 1876 (24 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Je reviens de Poltava et je viens de passer vingt minutes devant le portrait d'Antonelli. Ses yeux et ses lèvres m'ont exaltée et je m'écrie de nouveau, comme avant, comme toujours : Honte pour moi de m'être flétrie, et honte pour lui, car c'est un lâche !",
+      "rsr": "Restored from tome09.docx ¶891, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Une conversation avec Alexandre m'avait énervée et je vins appeler mon père pour sortir mais il se mit à me demander où je voulais aller disant que ses habits de visite étaient avec lui. On alla simplement au magasin de Trepké acheter des cadeaux pour le jour de nom de la Princesse.",
+      "rsr": "Restored from tome09.docx ¶892, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Deux lignes cancellées]",
+      "rsr": "Restored from tome09.docx ¶893, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "new": {
+      "french": "Quant aux visites... ceux que je pourrais voir ne sont pas en ville, et voir des femmes de Tchinovnick je me refuse !",
+      "rsr": "Restored from tome09.docx ¶894, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je t'aurais menée chez Mme Miloradovitch, dit mon père, mais on a tiraillé, on a fait des bêtises.",
+      "rsr": "Restored from tome09.docx ¶895, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quoi ? Comment ?",
+      "rsr": "Restored from tome09.docx ¶896, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Avant que tu arrives, Paul n'a fait que... enfin, comme si c'était... et par-ci et par-là.",
+      "rsr": "Restored from tome09.docx ¶897, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au lieu d'être avec lui comme avec les autres... enfin... hum et à présent il ne se montre plus !",
+      "rsr": "Restored from tome09.docx ¶898, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et il se mit à marcher furieusement par la chambre.",
+      "rsr": "Restored from tome09.docx ¶899, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et si nous allions à présent, reprit-il, on dirait que lui ne venant pas, nous allons le chercher, nous incliner !!",
+      "rsr": "Restored from tome09.docx ¶900, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Michel arriva avec cinq boîtes de bonbons de Pétersbourg.",
+      "rsr": "Restored from tome09.docx ¶901, Mon Journal t.9 p.59 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comme nous ne sortions pas je me suis permis le plaisir innocent de glisser des morceaux de glace dans les cols de Michel et de Pacha, ce qui les faisait sauter. Michel me fit cadeau d'une balle et nous avons tous joué au point de casser un candélabre.",
+      "rsr": "Restored from tome09.docx ¶902–903, Mon Journal t.9 pp.59–60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous partîmes la nuit et comme Pacha était en face de moi je commençai par le nommer scélérat, animal, crétin, brute et je finis par entrer dans une dissertation sur Tout, et comme le garçon émettait des théories féroces et des idées vaguement jeunes et très bêtes je lui dis qu'il avait le cerveau vert et qu'il ne devait pour le moment que bien graver mes paroles dans sa mémoire pour les comprendre dans dix ans.",
+      "rsr": "Restored from tome09.docx ¶904, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Une lune comme en Italie, un air pur comme au paradis et personne !!!",
+      "rsr": "Restored from tome09.docx ¶905, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tu sais ce que je me demande ? demanda tout à coup l'heureux mortel qui m'a pour fille.",
+      "rsr": "Restored from tome09.docx ¶906, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quoi ?",
+      "rsr": "Restored from tome09.docx ¶907, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si je dois t'aimer énormément comme m'en vient l'envie, ou bien non ?",
+      "rsr": "Restored from tome09.docx ¶908, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Sans doute aimer, d'ailleurs l'amour ne se commande pas.",
+      "rsr": "Restored from tome09.docx ¶909, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si fait, à un certain âge et en de certaines circonstances.",
+      "rsr": "Restored from tome09.docx ¶910, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon cher père tu dis des bêtises ! Commencer d'aimer ou cesser d'aimer ! On ne se l'ordonne pas. On s'imagine des chimères. Quand on s'ordonne de ne plus aimer, on croit que l'on s'obéit et non ! Car on aime, on pense, on souffre et l'amour ne s'en va que quand ça lui plaît, comme il s'en irait si on [Mot noirci : n’imaginait ] rien du tout, et on s'imagine qu'on l'a chassé !",
+      "rsr": "Restored from tome09.docx ¶911, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "De quel côté que l'on arrive à Gavronzi, on doit descendre des montagnes d'une rapidité effrayante. Quand on pense aux montagnes de la Suisse et de l'Italie comparées à celles-là on se demande comment il se fait que là on les monte avec la plus grande facilité [Une ligne cancellée] tandis qu'ici, on risque chaque fois de se casser le cou.",
+      "rsr": "Restored from tome09.docx ¶912, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Cette phrase est embrouillée, mais passons, et arrivons... où ? Devant le portrait du cardinalino....fi !",
+      "rsr": "Restored from tome09.docx ¶913, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-05.md"
+  },
+  {
+   "file": "1876-09-06.md",
+   "date": "1876-09-06",
+   "heading": "Mercredi 6 septembre 1876 (25 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Gritz est parti pour Vienne. D'ailleurs il avait annoncé ce voyage depuis le premier jour que je le vis, et il ne partait pas [Mots noircis: de bon cœur],",
+      "rsr": "Restored from tome09.docx ¶915, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "MM. Volkovitsky et Pavelko ont passé la journée à Gavronzi. Volkovitsky est marié à une fille bâtarde du Prince Serge Kotchoubey, par conséquent bien posé à Poltava. Pavelko est un avocat et le lion d'ici.",
+      "rsr": "Restored from tome09.docx ¶916, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon père ne veut pas me montrer [à] tous : fort bien, de mon côté je refuse de lui servir de meuble pour divertir la canaille qui vient lui gagner aux cartes !",
+      "rsr": "Restored from tome09.docx ¶917, Mon Journal t.9 p.60 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je m'isolai donc avec la Princesse.",
+      "rsr": "Restored from tome09.docx ¶918, Mon Journal t.9  (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A dîner arriva Michel et le croiriez-vous ? j'ai été presque contente de cela, tant je m'ennuie, d'ailleurs il est très amoureux de moi, cela m'amuse. Vous savez il n'a eu rien de plus pressé que de l'annoncer à tout Poltava ajoutant que Miloradovitch *l’empêchait.* Empêchait quoi ? Oh ! la pauvre créature. Je me suis animée le soir grâce à l'aimable centre d'intrigue qui me fut révélé. Pacha déteste Mme Tutcheff pour ses airs hautains et surtout pour sa manière de calomnier et de faire des cancans. Je suis bien aise de l'entendre ! Ce n'est donc pas une invention de maman. Michel la déteste à cause de son frère et la Princesse ne l'aime pas pour la même raison. On a dit tout cela devant moi, tout haut, je m'en mêlai joyeusement mais prudemment.",
+      "rsr": "Restored from tome09.docx ¶919, Mon Journal t.9  (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Michel me montra la lettre que lui écrit son frère et celle qu'il lui écrit lui, il y dit simplement qu'il est honteux de passer sa vie sous de vieilles jupes et écrire sous la dictée, des impertinences à son frère. C'est un charme, on se mord les uns les autres.",
+      "rsr": "Restored from tome09.docx ¶920, Mon Journal t.9  (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous voulez des tripotages ? Vous en avez. Si j'en suis ! Je le crois bien.",
+      "rsr": "Restored from tome09.docx ¶921, Mon Journal t.9  (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les cancans ! m'écriai-je au milieu du salon, les calomnies ! Vous pensez que je n'en sais pas faire ! Vous verrez, tu verras papa, j'en ferai et sans en avoir l'air !",
+      "rsr": "Restored from tome09.docx ¶922, Mon Journal t.9  (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Voilà ma manière de procéder. Je suis comme notre ancien Prince Oleg, qui a une époque où on faisait la guerre le plus traîtreusement du monde sans que cela fut mal vu (car Oleg fut régent d'Igor, fils de Rurik, le premier prince russe, au IXe siècle) à cette époque sauvage en Russie, Oleg n'attaquait jamais une nation sans lui envoyer dire d'abord, son éternel : “Je marche contre vous”.",
+      "rsr": "Restored from tome09.docx ¶923, Mon Journal t.9  (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au lieu de me coucher de bonne heure comme je le désirais je me couche à quatre heures. La vanité de mon père voulut m'appeler pour l'aider à compter son argent, quelques milliers de francs... Il me montre ensuite des billets sur la banque et un tas de papiers à argent, je regardai et je lui dis que cela ne servait à rien.",
+      "rsr": "Restored from tome09.docx ¶924, Mon Journal t.9  (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comment ! s'écria-t-il.",
+      "rsr": "Restored from tome09.docx ¶925, Mon Journal t.9  (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Sans doute. Si vous avez tant d'argent que ça pourquoi faites-vous des dettes ? Et d'ou provient cet argent ? De la vente de vos forêts.",
+      "rsr": "Restored from tome09.docx ¶926, Mon Journal t.9  (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais ceci est d'ailleurs bien, car vous avez ingénieusement réglé la vente du bois, puisque vous n'en coupez qu'un compartiment chaque année, il y a soixante compartiments, au bout de soixante ans quand le dernier sera coupé, le premier aura grandi. Vous voyez que je sais cela, mais vous dépensez plus que vos revenus, et vous vous en repentirez. Et à quoi servent tous ces agendas, tous ces gros livres que vous remplissez de chiffres, tout cet ordre dans vos papiers, puisque vous marchez bel et bien vers votre ruine ! Je puis bien vous le dire, je n'ai aucun intérêt à la conservation de vos biens, mais je parle par pitié !",
+      "rsr": "Restored from tome09.docx ¶927, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Voilà. C'est égal, et ça ne lui a rien fait. Il a senti la vérité, la vérité lui a semblé amère, mais il n'en eut pas le moindre ressentiment contre moi. Et à présent allons dormir, car il va être jour dans quelques minutes.",
+      "rsr": "Restored from tome09.docx ¶928, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-06.md"
+  },
+  {
+   "file": "1876-09-07.md",
+   "date": "1876-09-07",
+   "heading": "Jeudi 7 septembre 1876 (26 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Le costume de tous les jours d'une Petite Russienne consiste en une chemise en grosse toile, avec de larges manches bouffantes, brodées de rouge et de bleu, et d'un morceau de drap noir, fabriqué par les paysans, dont on s'enveloppe à partir de la ceinture. Ce fourreau est plus court que la chemise dont on doit voir la broderie du bas. Ce morceau de drap n'est retenu que par une ceinture de laine de couleur.",
+      "rsr": "Restored from tome09.docx ¶930, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On met un tas de colliers au cou et un ruban autour de la tête. Les cheveux sont tressés en une tresse au bout de laquelle pend un ou plusieurs rubans.",
+      "rsr": "Restored from tome09.docx ¶931, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai envoyé acheter un pareil habillement chez des paysans, je m'en habillai et accompagnée de nos jeunes gens je m'en allai par le village. Les paysans ne me reconnaissaient pas, car je n'étais [pas] costumée comme une demoiselle, mais j'étais bel et bien habillée en paysanne, en fille, car les femmes mariées se mettent autrement. Quant à mes pieds, ils étaient chaussés de souliers noirs à talons rouges.",
+      "rsr": "Restored from tome09.docx ¶932, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je saluais tout le monde et, arrivée près du cabaret, nous nous assîmes près de la porte.",
+      "rsr": "Restored from tome09.docx ¶933, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce fut mon père qui a été surpris... mais enchanté.",
+      "rsr": "Restored from tome09.docx ¶934, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout lui va ! s'écria-t-il et nous faisant monter tous quatre dans son chariot *d'excursion,* il nous promena par les rues. Je riais aux éclats, au grand ébahissement des braves gens qui se demandaient quelle était cette jeune libertine promenée par “le vieux seigneur” et “les jeunes messieurs”.",
+      "rsr": "Restored from tome09.docx ¶935, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Rassurez-vous, papa n'est pas vieux.",
+      "rsr": "Restored from tome09.docx ¶936, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Un tam-tam chinois, un violon et une boite à musique firent les frais de la soirée. Michel tapait dans le tam-tam, je jouais du violon, (jouais, Seigneur Dieu !) la boîte joua toute seule.",
+      "rsr": "Restored from tome09.docx ¶937, Mon Journal t.9 p.62 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au lieu de se coucher de bonne heure comme c'est son habitude, l'auteur de mes jours resta jusqu'à minuit avec nous. Si je n'ai pas fait d'autres conquêtes, j'ai fait celle de mon père. Il cherche mon approbation en parlant, il m'écoute avec attention, il me laisse dire ce que je veux de la Tutcheff et me donne raison.",
+      "rsr": "Restored from tome09.docx ¶938, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: En voilà un jésuite !]",
+      "rsr": "Restored from tome09.docx ¶939, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "margin"
+     }
+    },
+    {
+     "new": {
+      "french": "La boite à musique est son cadeau à la Princesse, nous avons tous donné quelque chose, c'est sa fête.",
+      "rsr": "Restored from tome09.docx ¶940, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon costume me permettait d'être libre et même canaille, j'en profitai.",
+      "rsr": "Restored from tome09.docx ¶941, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On tira des fusées, je m'excitais à regarder de près le feu, [Mots noircis: à cheval] on tira sur un canon, entre la calvitie de mon père et la lune du ciel.",
+      "rsr": "Restored from tome09.docx ¶942, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Peu à peu, sans rien faire pour cela, je deviens la maîtresse de maison. Les domestiques sont enchantés d'être délivrés “des français”, peu à peu je commande... même le dîner.",
+      "rsr": "Restored from tome09.docx ¶943, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et dire que mon père me faisait peur ! Et dire qu'il me semblait être dans une maison étrangère, et j'avais peur des usages, des heures fixes !",
+      "rsr": "Restored from tome09.docx ¶944, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On m'attend comme à Nice et c'est moi qui fixe les heures.",
+      "rsr": "Restored from tome09.docx ¶945, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le tam-tam et le violon donnaient des secousses nerveuses à Pacha, ce qui me faisait rire jusqu'aux larmes, et ma gaieté gagnait tout le monde. Mon père adore la gaieté et il n'y est pas habitué par les siens.",
+      "rsr": "Restored from tome09.docx ¶946, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A minuit il me reconduisit jusqu'à l'escalier.",
+      "rsr": "Restored from tome09.docx ¶947, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Un vrai Papa ! s'écria Michel.",
+      "rsr": "Restored from tome09.docx ¶948, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Eh ! hé, mon cher, une fille comme moi mérite des égards.",
+      "rsr": "Restored from tome09.docx ¶949, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je crois bien, fit mon père, si elle n'était ce qu'elle est je ne m'en *ficherais* pas, mais je suis un vrai père parce qu'elle est belle et... hum, tout enfin, oui, c'est vrai.",
+      "rsr": "Restored from tome09.docx ¶950, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alexandre de Macédoine, Napoléon premier, l'architecture et les ornements intérieurs, sont des *choses* qui me donnent des frissons et m'enthousiasment jusqu'aux larmes. C'est pour vous dire qu'enthousiasmée par la lecture d'une poésie sur Napoléon, le grand et le martyr, par notre poète Lermontoff, je lus aussi celles de Pouchkine, et me voilà avec l'idée d'en faire des traductions.",
+      "rsr": "Restored from tome09.docx ¶951, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! le pourrai-je ? J'ai fait des chansons mais c'est bien différent, enfin nous verrons.",
+      "rsr": "Restored from tome09.docx ¶952, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C'est bizarre, voilà trois jours et plus que je pense à Cassagnac.",
+      "rsr": "Restored from tome09.docx ¶953, Mon Journal t.9 p.63 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai fait un mauvais rêve quant à maman et les autres. “Le Figaro” ne dit rien du cardinal que je hais, que j'exècre, que je voudrais pulvériser ! C'est qu'il n'est pas mort, il vivra deux ans et six mois. Il sera pape.",
+      "rsr": "Restored from tome09.docx ¶954–955, Mon Journal t.9 pp.63–64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et je ragerai.",
+      "rsr": "Restored from tome09.docx ¶956, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-07.md"
+  },
+  {
+   "file": "1876-09-08.md",
+   "date": "1876-09-08",
+   "heading": "Vendredi 8 septembre 1876 (27 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Misérable peur je te vaincrai ! Ne me suis-je pas avisée hier de craindre le fusil ? Il est vrai que Paul l'avait chargé et je ne savais pas combien il y avait mis de poudre, et je ne connaissais pas le fusil, il pouvait éclater et ce serait une mort stupide ou bien je serais défigurée.",
+      "rsr": "Restored from tome09.docx ¶958, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tant pis ! Ce n'est que le premier pas qui coûte, hier j'ai tiré à cinquante pas et c'est sans aucune espèce de crainte que j'ai tiré aujourd'hui en compagnie de nos messieurs, et je crois Dieu me pardonne que j'ai atteint le but chaque fois.",
+      "rsr": "Restored from tome09.docx ¶959, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si je réussis le portrait de Paul ce sera miracle car il ne pose pas et aujourd'hui j'ai travaillé pendant quinze minutes seule, seule pas tout à fait car j'avais en face de moi Michel qui ose être amoureux de moi.",
+      "rsr": "Restored from tome09.docx ¶960, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: Comme je suis enfant et gasconne tout le temps.]",
+      "rsr": "Restored from tome09.docx ¶961, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "margin"
+     }
+    },
+    {
+     "new": {
+      "french": "Tout cela nous a menés jusqu'à neuf heures, je traînais, traînais, traînais, voyant l'impatience de mon fichu-père. Je savais bien qu'il n'attendait que notre départ du salon pour s'enfuir dans la forêt... comme un loup.",
+      "rsr": "Restored from tome09.docx ¶962, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je tins de nouveau ma cour sur l'escalier... j'aime les escaliers parce qu'on monte... Pacha devait partir demain mais je fis tant ce soir qu'il restera peut-être, ou bien il partira, ce dernier serait plus raisonnable car il est dangereux de m'aimer comme une sœur pour un campagnard, un rêveur, un ténébreux de vingt-deux ans. Avec lui et Michel, je suis on ne peut mieux, ce qui fait qu'ils m'aiment beaucoup. Mais quand je me trouve avec des hommes bêtes je deviens stupide, je ne sais que dire qui leur soit compréhensible et je crains à chaque instant qu'ils ne me soupçonnent d'en être amoureuse. Comme ce pauvre Gritz, il pense que toutes les demoiselles le veulent et dans le moindre sourire il voit des guet-apens et des complots contre son célibat. Savez-vous seulement l'étymologie de ce mot ?",
+      "rsr": "Restored from tome09.docx ¶963, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Cœlebs en latin veut dire : délaissé, il provient aussi du mot grec koïlos qui veut dire: creux, vide.",
+      "rsr": "Restored from tome09.docx ¶964, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "O célibataires ! Creux, vides, délaissés !",
+      "rsr": "Restored from tome09.docx ¶965, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A peine eus-je entendu décamper mon père, que je me précipitai chez la Princesse, me roulant dans son lit, coiffant Pacha, flattant Michel [Mots noircis : sur la tête] et disant tant de bêtises que j'en suis à cette heure émerveillée.",
+      "rsr": "Restored from tome09.docx ¶966, Mon Journal t.9 p.64 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On alla au jardin tirer des fusées. J'enlevai la montre de Pacha et je courus jusqu'au premier palier de l'escalier car il me poursuivait, il ne pourra partir sans sa montre, je me sentais prise et, au moment ou il allait me l'arracher, je la glissai dans mon corsage en lui criant avec une effronterie sans nom :",
+      "rsr": "Restored from tome09.docx ¶967, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Prenez-la !",
+      "rsr": "Restored from tome09.docx ¶968, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous pensez bien qu'il ne l'a pas prise. C'est absurde !",
+      "rsr": "Restored from tome09.docx ¶969, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais Dieu, faites que je ne me mette pas à détester ce brave garçon, il est si honnête !",
+      "rsr": "Restored from tome09.docx ¶970, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai la tête terriblement montée à propos de Cassagnac.",
+      "rsr": "Restored from tome09.docx ¶971, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "M. de Cassagnac vous ne vous doutez pas de la valeur que vous me donnez auprès de Monsieur mon père.",
+      "rsr": "Restored from tome09.docx ¶972, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On a lu tout haut Pouchkine et on a parlé d'amour.",
+      "rsr": "Restored from tome09.docx ¶973, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! je voudrais bien aimer, pour savoir ce que c'est. Ou bien, peut-être ai-je déjà aimé ? En ce cas l'amour est une grande misère qu'on ramasse pour le jeter.",
+      "rsr": "Restored from tome09.docx ¶974, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tu n'aimeras jamais, me dit mon père.",
+      "rsr": "Restored from tome09.docx ¶975, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si c'était vrai, j'en remercierais le ciel, répondis-je.",
+      "rsr": "Restored from tome09.docx ¶976, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je veux et je ne veux pas. Pourtant dans mes rêves, j'aime. Oui, mais un héros imaginaire.",
+      "rsr": "Restored from tome09.docx ¶977, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et Antonelli ? Moi, l'aimer ? Non, est-ce ainsi que l'on aime ? Non. S'il n'était pas neveu du cardinal, s'il n'avait pas autour de lui des prêtres, des moines, des ruines... le Pape, je ne l'aimerais pas.",
+      "rsr": "Restored from tome09.docx ¶978, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "D'ailleurs qu'ai-je besoin de m'expliquer, vous savez tout, mieux que moi, vous savez donc que la musique de l'Opéra et Antonelli dans la barcacda faisaient un charmant effet et vous devez connaître aussi la puissance de la musique. C'était un amusement, mais ce n'était pas l'amour.",
+      "rsr": "Restored from tome09.docx ¶979, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quand donc aimerai-je? Je vais encore m'amuser à répandre de tous côtés le superflu de mon cœur, encore m'enthousiasmer, encore pleurer... et pour des riens !",
+      "rsr": "Restored from tome09.docx ¶980, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On n'a aucune nouvelle ici, je ne sais seulement pas ce que font le Pape et le cardinal.",
+      "rsr": "Restored from tome09.docx ¶981, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne lis pas les journaux russes.",
+      "rsr": "Restored from tome09.docx ¶982, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! si Antonelli devenait pape...",
+      "rsr": "Restored from tome09.docx ¶983, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Bigre, bigre, bigre !",
+      "rsr": "Restored from tome09.docx ¶984, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C'est moi qui ragerai !",
+      "rsr": "Restored from tome09.docx ¶985, Mon Journal t.9 p.65 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-08.md"
+  },
+  {
+   "file": "1876-09-09.md",
+   "date": "1876-09-09",
+   "heading": "Samedi 9 septembre 1876 (28 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Les jours passent, je perds un temps précieux dans les meilleures années de ma vie. Des soirées en famille, des plaisanteries charmantes, une gaieté dont je fais tous les frais... puis on se fait monter et descendre du grand escalier, dans un fauteuil par Michel et l'autre. On regarde ses souliers dans la glace tout en descendant... Tous les jours comme ça...",
+      "rsr": "Restored from tome09.docx ¶987, Mon Journal t.9 pp.65–66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais quel ennui ! Pas une parole d'esprit, pas une phrase instruite... je suis pédante malheureusement et j'adore entendre parler des Anciens et des sciences... cherchez-moi ça ici ! Les cartes et rien d'autre. Je m'enfermerais bien pour lire mais mon but étant de me faire aimer ce serait une étrange manière pour y parvenir.",
+      "rsr": "Restored from tome09.docx ¶988, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A peine installée pour l'hiver je me remets à étudier comme avant.",
+      "rsr": "Restored from tome09.docx ¶989, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon père a je ne sais quel plan pour demain et il a voulu passer en revue toutes mes robes, j'ai dû essayer trente costumes et il examinait chaque pli, chaque ruban. Puis les chapeaux, les gants, etc. Il n'a pas plus de goût qu'un autre de son espèce mais je laissai faire.",
+      "rsr": "Restored from tome09.docx ¶990, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Après on a joué au croquet, à la balle. Et le soir il y eut une histoire de domestiques avec Paul, mon père encouragea le valet, je *réprimandai* (c'est le mot) mon père qui *avala* la réprimande. Voilà de la vulgarité, mais mon journal en est plein. Je vous prie de croire que je ne suis pas vulgaire par ignorance et par *vulgarité.* J'ai adopté ce genre négligé pour sa vitesse et la facilité qu'il donne de beaucoup dire. Enfin il y avait du mécontentement dans l'air, j'étais fâchée et, dans ma voix, on entendait ces notes tremblantes qui annoncent un orage.",
+      "rsr": "Restored from tome09.docx ¶991, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me suis placée si haut, dis-je que toutes les misères passaient sous mes pieds et voilà qu'il y en a qui me touchent !",
+      "rsr": "Restored from tome09.docx ¶992, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En ce moment Stépann, le valet coupable, un brave paysan tout carré et tout bête, vint me saluer jusqu'à terre et me prier de le pardonner. Je n'avais rien à pardonner, mais je compris qu'il s'adressait à moi comme à une puissance et, ne voulant pas encore irriter la Princesse ou qui que ce fut, je souris en demandant pourquoi cet homme venait à moi.",
+      "rsr": "Restored from tome09.docx ¶993, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je n'ai rien à pardonner, dis-je.",
+      "rsr": "Restored from tome09.docx ¶994, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Sortez, Stépann, fit mon père.",
+      "rsr": "Restored from tome09.docx ¶995, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Paul ne sait pas se conduire, et par lui je vois que ma mère avait *raison* d'être malheureuse, car quiconque ne voit par M. Constantin tel qu'il est, est un personnage fort à plaindre.",
+      "rsr": "Restored from tome09.docx ¶996, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ces messieurs s'en allaient à la pêche pour toute la nuit, mon père aussi et comme je demandais à Paul s'il y allait, il me répondit : plus tard.",
+      "rsr": "Restored from tome09.docx ¶997, Mon Journal t.9 p.66 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si c'est moi qui te gêne, cria mon père, je n'irai pas, je m'en irai à Pavlovsk et tu resteras ici très heureux et content sans moi. Sur ce, très heureux du prétexte, il monta dans un phaéton qui l'attendait et partit.",
+      "rsr": "Restored from tome09.docx ¶998, Mon Journal t.9 pp.66–67 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Paul se mit à se justifier, à rechercher la cause du malentendu, ce qui est le vrai moyen d'en créer un autre, je m'assis sur ma plus haute *marche,* comme le rossignol de Maiborough, et Michel, Pacha, Paul et Kapitan prirent place sur les gradins inférieurs.",
+      "rsr": "Restored from tome09.docx ¶999, Mon Journal t.9 p.67 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je parlai à Paul de façon à ce qu'on rapportât mes paroles au fichu-père.",
+      "rsr": "Restored from tome09.docx ¶1000, Mon Journal t.9 p.67 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Paul essaya de mettre la conversation sur les fugues paternelles, mais je passai sous silence. Et en effet, qu'ai-je à m'inquiéter de la façon dont mon père passe ses nuits, je ne suis pas sa femme jalouse et vous conviendrez avec moi qu'il a beaucoup fait [Mots noircis: pour un] homme de quarante-cinq ans et de son caractère, en délogeant une maîtresse de trois ans pour une fille qu'il n'a presque jamais vue. Il sauve les apparences si bien que, si je ne savais rien, je n'aurais rien soupçonné. Que diable, ne demandons pas davantage !",
+      "rsr": "Restored from tome09.docx ¶1001, Mon Journal t.9 p.67 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Paul est malheureusement posé ici, je lui donnerai l’appui de Pacha qui a de l'influence sur mon père et qui est un gaillard qui dit comme il pense sans se soucier de personne.",
+      "rsr": "Restored from tome09.docx ¶1002, Mon Journal t.9 p.67 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et lorsqu'ayant monté chez moi après m'être bien tirée des allusions à la forêt en faisant la sourde oreille, je me trouvai avec Paul, Stépann vint, tout larmoyant, implorer son pardon en s'agenouillant et faisant des saluts terrains [sic] comme au Bon Dieu. Après tout il n'était coupable que d'une supercherie de poste, facilement autorisée par Monsieur, et puis l'humble humilité de ces paysans m'attendrit, on pardonna l'homme et il resta au service.",
+      "rsr": "Restored from tome09.docx ¶1003, Mon Journal t.9 p.67 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Remarquons ici que je dois être une personne bien dévergondée. Ceci est à propos du plaisir que me font les baise-mains de mes cousins, et ceux du Prince plus que de l'autre, et je m'aperçois avec une vertueuse horreur que ce que je prenais pour de l'amour pour Pietro n'était peut-être rien du tout. [Mots noircis: J’ai plus penser aux autres comme] je l'ai dit après la promenade de la Farnesina, et voilà tout. Pacha ne me baise jamais la main, c'est moi qui la lui mets contre les lèvres, et pourtant le garçon me répugne presque. Ce que c'est que ce caprice bizarre !",
+      "rsr": "Restored from tome09.docx ¶1004, Mon Journal t.9 p.67 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! si j'étais au moins récompensée pour la vie que je mène. Le croquet, la balle de caoutchouc, les cartes et pour finir une séance d'escalier, les nerfs de Pacha à irriter et les cheveux de Michel prosterné à tourmenter entremêlant cet exercice par des tiraillements dont ses oreilles se ressentent jusqu'à en rougir.",
+      "rsr": "Restored from tome09.docx ¶1005, Mon Journal t.9 p.67 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et enfin des sons atroces du violon. Le premier soir que j'en jouai, tous les domestiques vinrent en foule effrayés et ne comprenant pas d'où pouvaient venir ces cris déchirants et ces hurlements infâmes, qui avait une arrière-ressemblance avec les cris d'agonie d'un jeune cochon à la cuisine.",
+      "rsr": "Restored from tome09.docx ¶1006, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-09.md"
+  },
+  {
+   "file": "1876-09-10.md",
+   "date": "1876-09-10",
+   "heading": "Dimanche 10 septembre 1876 (29 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Ma Majesté, mon père, mon frère et mes deux cousins, se sont mis en route ce jourd'hui pour Poltava.",
+      "rsr": "Restored from tome09.docx ¶1008, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je n'ai qu'à m'applaudir, on me cède, on me flatte, et surtout on m'aime. Mon père qui au commencement voulait me détrôner a presque entièrement compris pourquoi l'on m'accordait les honneurs souverains et, sauf quelques puériles aspérités de son caractère, me les accorde.",
+      "rsr": "Restored from tome09.docx ¶1009, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Cet homme sec et étranger à tout sentiment de famille a avec moi des élans de tendresse paternelle qui étonnent tous ceux qui l'entourent. Paul en a conçu un double respect pour moi et les autres aussi m'estiment particulièrement et comme tout en *ayant* mon père je suis bonne envers tout le monde, tout le monde m'aime.",
+      "rsr": "Restored from tome09.docx ¶1010, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tu as tellement changé depuis que je t'ai vue, me dit-il aujourd'hui.",
+      "rsr": "Restored from tome09.docx ¶1011, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comment ?",
+      "rsr": "Restored from tome09.docx ¶1012, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais... hum, c'est-à-dire que si tu te débarrasses de quelques petites brusqueries insignifiantes, (d'ailleurs j'en ai aussi dans mon caractère) tu seras une perfection et un vrai trésor.",
+      "rsr": "Restored from tome09.docx ¶1013, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C'est-à-dire que... enfin, ceux qui connaissent l'homme peuvent seuls apprécier la portée de ces mots.",
+      "rsr": "Restored from tome09.docx ¶1014, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tous les matins il vient me réveiller et nous causons, lui dans un fauteuil moi dans mon lit.",
+      "rsr": "Restored from tome09.docx ¶1015, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et ce soir encore, il m'a entourée de ses bras et m'embrassant (chose inouïe à ce que dit Paul) tendrement il dit :",
+      "rsr": "Restored from tome09.docx ¶1016, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vois, Michel, voyez tous, quelle fille j'ai. Voilà une fille qui mérite d'être aimée. Oui... hum ajouta-t-il en m'embrassant encore.",
+      "rsr": "Restored from tome09.docx ¶1017, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "N'est-ce pas papa ? Je suis un trésor. Michel, vous aurez une fille comme cela vous !",
+      "rsr": "Restored from tome09.docx ¶1018, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Michel, repris-je, je vous promets de vous marier avec ma fille, pensez-donc à l'honneur, ce sera peut-être une Princesse du sang.",
+      "rsr": "Restored from tome09.docx ¶1019, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En effet c'est une idée, Michel sera mon gendre, il n'a pas dix-huit ans, dans dix-huit ans il aura trente-six ans.",
+      "rsr": "Restored from tome09.docx ¶1020, Mon Journal t.9 p.68 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'écris à Poltava. Il pleut depuis ce matin, et lorsqu'il a fallu monter cette satanique montagne qui se trouve à mi-chemin, les chevaux refusèrent presque d'obéir, mon père prit place sur le siège, le cocher descendit et nous accompagna courant dans la boue et fouettant les chevaux qu'il a fallu mettre au galop pour enlever la voiture et ne pas leur donner le temps de réfléchir sur la difficulté. Le bruit des clochettes, les claquements du fouet, les cris du valet, du cocher et de papa, l'étonnement muet de Chocolat., c'était un spectacle excitant, il me rappelait une course vivement disputée tirant à sa fin.",
+      "rsr": "Restored from tome09.docx ¶1021, Mon Journal t.9 pp.68–69 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On arriva en ville à huit heures, droit chez le Prince qui partit ce matin à cinq heures pour mettre sa maison en état. Une petite maison fort simple à l'extérieur, rien n'était fini encore; en quelques heures (détails que je sais de Paul, qui les sait de Basil, le cuisinier du Prince) les tapis ont été posés, les lampes, les glaces, les lits, et les vins achetés et placés. Dans toutes les maisons russes il y a après l'antichambre une salle, cette salle est toute blanche; puis un charmant salon marron et une chambre à coucher pour moi pleine de tous les détails nécessaires et gracieux, à chaque pas des attentions délicates... pensez, j'ai trouvé sur la toilette du blanc et du rouge !",
+      "rsr": "Restored from tome09.docx ¶1022, Mon Journal t.9 p.69 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais tout cela a occupé le temps jusqu'à sept heures, à sept heures on s'est aperçu qu'il n'y avait rien à manger ! Et lorsque nous arrivâmes le Prince feignit de ne plus nous avoir attendu, mentit très maladroitement et attaqué impitoyablement par nos railleries demeura tout confus pendant le dîner qu'on apporta du Cercle vers dix heures du soir. Des bocaux en argent doré m'ont induit dans la tentation, j'en ai bu deux, ce qui m'embellit et me délia singulièrement la langue, juste assez pour être animée, d'ailleurs depuis ce matin je le suis. Ce monstre de Kapitan s'est avisé de vanter Gambetta et de lui prédire la présidence. Horreur ! Alors j'ai juré d'être une seconde Charlotte Corday. J'ai juré et je le ferai, parce qu'en assassinant ce cyclope nauséabond je m'acquiers une gloire éternelle et je suis sûre de l'impunité.",
+      "rsr": "Restored from tome09.docx ¶1023, Mon Journal t.9 p.69 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pendant qu'on attelait les chevaux je racontais comment tout cela se passerait, à la Princesse et à Pacha qui me regardaient sérieux, riaient, redevenaient sérieux et haussaient les épaules. Je lui ai donné des coups avec l'archet et je l'ai tiré par les cheveux.",
+      "rsr": "Restored from tome09.docx ¶1024, Mon Journal t.9 p.69 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le plan de mon père est *fichu.* Ceux qu'il voulait me montrer sont à la campagne, il s'en alla dormir et je m'assis sur son lit, ayant Michel à mes pieds de façon à avoir ses cheveux sous la main. Je n'ai pas de chien ici.",
+      "rsr": "Restored from tome09.docx ¶1025, Mon Journal t.9 p.69 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comme j'ai des pieds petits, blancs et *sans taches* je me laissai déchausser par Paul et je les montrai en en vantant les mérites. Et Michel renvoyé, nous parlâmes de la bêtise de Gritz.",
+      "rsr": "Restored from tome09.docx ¶1026, Mon Journal t.9 pp.69–70 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Qu'il est bête ! m'écriai-je. Non écoutez en vérité avec mes idées ambitieuses, ayant étudiée, lu, vu, j'irais me marier avec M. Miloradovitch !",
+      "rsr": "Restored from tome09.docx ¶1027, Mon Journal t.9 p.70 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Hum, fit mon père, oui, sans doute il est bête.",
+      "rsr": "Restored from tome09.docx ¶1028, Mon Journal t.9 p.70 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et il me regardait ne sachant pas s'il devait dédaigner, emporté par mon assurance, ou bien dire sa pensée qui était ceci pour sûr : Miloradovitch est un parti désirable, même pour toi. S'il pensait autrement il n'aurait pas agi comme il a agi depuis le commencement, il aurait regardé Gritz comme les autres et ne se serait pas inquiété de la façon dont j'étais avec lui et lui avec moi. Enfin, il n'aurait pas été si tranchant avec ce jeune homme dans le but de lui inspirer un grand respect et lui ôter de sa stupide tête toute idée de sa valeur. Mais dès le premier jour j'ai remarqué chez M. Constantin une idée sur Gritz et ses manières le prouvaient clairement pour moi. Tous ces dédains, toutes ces subtilités, ces sévérités et cet amour-propre exagéré. C'était pour moi clair comme le jour. Mais il me dit : Gritz est une bête et je ne ferai pas un pas pour vous rapprocher. Et je lui réponds : Je crois bien, Gritz est une bête et je n'en voudrais pas s'il venait s'offrir à genoux",
+      "rsr": "Restored from tome09.docx ¶1029, Mon Journal t.9 p.70 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et à présent couchons-nous dans le lit fait par M. le Prince lui-même.",
+      "rsr": "Restored from tome09.docx ¶1030, Mon Journal t.9 p.70 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le ha fatto il letto, s'écriait Amalia. Un principe. Dio ! Lei è proprio une regina !",
+      "rsr": "Restored from tome09.docx ¶1031, Mon Journal t.9 p.70 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En ce moment j'entends des cris aigus... c'est Amalia qui hurle parce que Paul a ouvert la fenêtre qui donne sur la galerie et la regarde se baigner. Quel garçon ! Pacha et le Prince dorment depuis longtemps.",
+      "rsr": "Restored from tome09.docx ¶1032, Mon Journal t.9 p.70 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai à peine de la place pour mon cahier, la table est encombrée de flacons, de fioles, de boîtes à poudre, de brosses, de sachets, etc. etc... Paul de Cassagnac...",
+      "rsr": "Restored from tome09.docx ¶1033, Mon Journal t.9 p.70 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enivrée par mon succès filial je m'écrie en moi-même : Ceux qui ne m'aiment pas sont des brutes et ceux qui m'aiment *mal* sont des infâmes !",
+      "rsr": "Restored from tome09.docx ¶1034, Mon Journal t.9 p.70 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-10.md"
+  },
+  {
+   "file": "1876-09-11.md",
+   "date": "1876-09-11",
+   "heading": "Lundi 11 septembre 1876 (30 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome09.docx ¶1035 (Mon Journal t.9 p.70): the date line «Lundi 11 septembre 1876 (30 août)» is followed directly by the next date line; empty-day note as in 068 (2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-11.md"
+  },
+  {
+   "file": "1876-09-12.md",
+   "date": "1876-09-12",
+   "heading": "Mardi 12 septembre 1876 (31 août)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Une journée à Poltava ! C'est merveilleux. Ne sachant que faire, mon père me mena à pied par la ville et nous avons eu la chance de voir la colonne de Pierre le Grand qui se trouve au milieu du jardin de la ville, et Mlle Bediagra, l'homme-femme, qui se trouve partout.",
+      "rsr": "Restored from tome09.docx ¶1037–1038, Mon Journal t.9 pp.70–71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comme nous étions seuls, mon père et moi nous avons parlé de la stupidité de Gritz. Mon père est furieux contre lui, et, moi non plus, je ne suis pas enchantée. Vous savez bien que je ne le désirais pas et ne le désire point; et cette idée que le nigaud a eue de me classer parmi les aspirantes, me révolte.",
+      "rsr": "Restored from tome09.docx ¶1039, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Lundi à minuit nous avons quitté Poltava et aujourd'hui mardi nous sommes à Kharkoff. Le voyage a été gai. Nous avons envahi un wagon, on a dressé les lits, Michel a fait de la gymnastique, mon père des sauts difficiles, Pacha a boudé, et Paul a ri comme moi.",
+      "rsr": "Restored from tome09.docx ¶1040, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Mots noircis: On m’a] réveillée près de Kharkoff par un bouquet de Michel.",
+      "rsr": "Restored from tome09.docx ¶1041, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Kharkoff est une grande ville, éclairée au gaz (pas entièrement hélas ! Vous verrez les conséquences de cette circonstance, hélas I)",
+      "rsr": "Restored from tome09.docx ¶1042, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Dans la marge: La fumée des larmpes du théâtre avait noirci les nez et en rentrant je me suis aperçue que j'avais posé, ri, [Mots noircis : tout en ayant] un nez noirci II]",
+      "rsr": "Restored from tome09.docx ¶1043, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "L'hôtel où nous sommes se nomme le Grand Hôtel, et justifie [Mot noirci :son] nom. Tenue par Andrieux, la maison offre tous les conforts, d'ailleurs c'est ici que la jeunesse dorée soupe, déjeune, dîne, se grise, fraternisant avec l'aubergiste qui en dépit de cela ne s'oublie pas, ce qui m'étonne. De drôles de moeurs ici !",
+      "rsr": "Restored from tome09.docx ¶1044, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai peu dormi et un verre de champagne à déjeuner m'a étourdie tant, que je pus à peine faire une promenade en voiture avec mon père et Chocolat et, rentrée je me suis déshabillée et [Mot noirci : espérais] dormir mais en vain; ce ne furent que pèlerinages du n° 1 au n° 2.",
+      "rsr": "Restored from tome09.docx ¶1045, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les melons d'eau, Pacha, Paul, Michel, mon père, Amalia, les deux domestiques russes, Chocolat, tout cela marchait, marchait. On est tout en l'air, j'ai assisté à la coiffure du Prince et me suis fait coiffer par Louis, encore un écorcheur français. Puis, du thé, des pains d'épices... Ah oui, j'ai visité une ménagerie, ces pauvres bêtes encagées m'ont rendue triste.",
+      "rsr": "Restored from tome09.docx ¶1046, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai vu mon oncle Nicolas, le cadet de la famille, qui fait semblant d'étudier la médecine. Le pauvre diable m'a jadis aidée à jouer à la poupée, je le battais et lui tirais les oreilles.",
+      "rsr": "Restored from tome09.docx ¶1047, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il m'a fait de la peine.",
+      "rsr": "Restored from tome09.docx ¶1048, Mon Journal t.9 p.71 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon père n'adore pas les Babanine, il se tait devant ceux qui sont indépendants, mais le pauvre Nicolas... en un mot c'est laid, oh ! très laid. Je le voyais là devant moi avec ses plus beaux habits, tout confus et honteux, je le rassurai, je parlai du passé, mais il ne se remettait que doucement lorsque Paul arriva et bêtement ou naïvement me répéta dix fois que l'on m'attendait à déjeuner. Jugez ma position.",
+      "rsr": "Restored from tome09.docx ¶1049, Mon Journal t.9 pp.71–72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Entre nous, dis-je, il n'y a pas de cérémonies, ce qui est à moi est à toi, je suis toujours la même, seulement un peu plus grande voilà tout. Cher Nicolas, je ne t'invite pas à déjeuner, je ne suis pas seule, il y a là toutes sortes de gens étrangers, mais reviens demain absolument.",
+      "rsr": "Restored from tome09.docx ¶1050, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je l'embrassai prête à fondre en larmes... J'aurais voulu me bâtonner mais que pouvais-je faire ? L'inviter, causer un scandale et souffrir les oeillades de compassion de ce chenapan de Prince !",
+      "rsr": "Restored from tome09.docx ¶1051, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce fut Paul qui reçut ce que je lui devais, je le nommai d'un tas de noms et j'arrivai dans la salle à manger (particulière) toute montée.",
+      "rsr": "Restored from tome09.docx ¶1052, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il n'y a pas de quoi se fâcher, dit mon père, si tu avais voulu, tu l'aurais invité, seulement je me serais sauvé sous un ingénieux prétexte, tu connais mes relations avec les Babanine.",
+      "rsr": "Restored from tome09.docx ¶1053, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon père, vous faites semblant de ne pas comprendre que je me fâche de l'impolitesse de Paul, vous voulez m'enrager, vous n'y réussirez pas.",
+      "rsr": "Restored from tome09.docx ¶1054, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je le suis déjà, à présent il est inutile d'en parler davantage, assez !",
+      "rsr": "Restored from tome09.docx ¶1055, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La timidité de mon père plia devant ma *bouillante sécheresse* et tout fut dit.",
+      "rsr": "Restored from tome09.docx ¶1056, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Andrieux en sa qualité d'aubergiste est républicain, on l'appela et il nous dit du mal de Cassagnac. Le Prince lui serra avec effusion la main et se fourra sous la table de joie.",
+      "rsr": "Restored from tome09.docx ¶1057, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je voulus lire mais vaincue par la fatigue je m'endormis pour n'être éveillée qu'à six heures du soir par mon père",
+      "rsr": "Restored from tome09.docx ¶1058, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et à l'heure qu'il est je suis si agacée que je ne sais rien écrire, je finirai demain.",
+      "rsr": "Restored from tome09.docx ¶1059, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-12.md"
+  },
+  {
+   "file": "1876-09-13.md",
+   "date": "1876-09-13",
+   "heading": "Mercredi 13 septembre 1876 (1er sept.)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Hier nous fîmes au théâtre une de ces apparitions comme j'en ai rêvées à Nice du temps que la comtesse de Galve me semblait une déesse descendue du ciel. D'abord, moi, élégante comme toujours, et mes quatre cavaliers tous les quatre d'une parfaite distinction et cravatés de blanc. C'est bête mais ça fait de l'effet.",
+      "rsr": "Restored from tome09.docx ¶1061, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "De l'effet... devant des cochons ! Une sortie... devant personne ! Chocolat tenant le binocle, le Prince portant la traîne tout a été en vain.",
+      "rsr": "Restored from tome09.docx ¶1062, Mon Journal t.9 p.72 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous avons soupé dans ma chambre et mon père prit congé en me baisant l'épaule.",
+      "rsr": "Restored from tome09.docx ¶1063, Mon Journal t.9 p.73 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et aujourd'hui... je ne sais plus ce que j'ai fait... Ah ! si, je suis allée voir Doménica et Lola, nous avons parlé de Rome; un instant je me crus au Corso au milieu des bouquets, de Bog, d'Antonelli, de celui dont on voulait enfoncer le chapeau... On me demandait ce que j'avais fait de Pietro.",
+      "rsr": "Restored from tome09.docx ¶1064, Mon Journal t.9 p.73 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Je l'ai refusé.",
+      "rsr": "Restored from tome09.docx ¶1065, Mon Journal t.9 p.73 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me suis promenée avec mon père et le soir nous allâmes au théâtre, dans l'avant-scène gauche, la même qu'hier. Cette loge est exactement comme celle de Poltava, et j'eus le bonheur de voir Michel dans les coulisses, mais Michel n'osant pas parler aux actrices fraternisait avec les acteurs. Il y avait bien en face une sorte de barcaccia, et Paul qui y était allé voir une connaissance revint me répéter ce qu'il y avait entendu dire de moi. Mais ces gens-là ne m'intéressent pas, ils sont laids et je ne sais même par leurs noms.",
+      "rsr": "Restored from tome09.docx ¶1066, Mon Journal t.9 p.73 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Michel respirait derrière moi et j'étais dans une humeur si insensée que volontiers j'aurais fait un peu de coquetterie... aussi je me partageai entre le gommeux et l'homme vert. C'est ainsi que j'ai nommé Pacha à cause de la jeunesse de ses illusions.",
+      "rsr": "Restored from tome09.docx ¶1067, Mon Journal t.9 p.73 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "L'homme vert, je le dis sans cérémonie, parce que j'en suis sûre, l'homme vert me regarde comme tout ce qu'il y a de mieux au monde... mais il est presque mon frère. Mais plus il est timide plus je suis insolente et Michel passe sa vie à remarquer toute sorte de choses et à en ennuyer ensuite l'autre. [Mots noircis: il l’a amené] par la main, Pacha n'avait jamais baisé la main à personne, excepté sa mère, j'ai fini par lui faire baiser la mienne tous les soirs. [Mot noirci: Michel], trop heureux sans doute, n'a pas passé sous silence cette bagatelle, et Pacha devint de jour en jour plus soumis et plus honteux.",
+      "rsr": "Restored from tome09.docx ¶1068, Mon Journal t.9 p.73 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Depuis plusieurs jours déjà il veut partir et nous l'avons toujours retenu remettant son départ à notre voyage à Kharkoff. Il veut partir demain, une heure après nous. Sa mère l'attend et l'appelle.",
+      "rsr": "Restored from tome09.docx ¶1069, Mon Journal t.9 p.73 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-13.md"
+  },
+  {
+   "file": "1876-09-14.md",
+   "date": "1876-09-14",
+   "heading": "Jeudi 14 septembre 1876 (2 septembre)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Doménica a pris le café avec moi, puis j'allai rejoindre les autres et on parla du départ de Pacha pendant que celui-ci allait et venait achetant et changeant des fusils, car il est un fort chasseur devant le Seigneur, comme Nemrod. Mon père le priait de rester, mais cette nature entêtée ayant une fois dit *non* n'en démordrait pour rien au monde.",
+      "rsr": "Restored from tome09.docx ¶1071, Mon Journal t.9 p.73 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je le pris à part et tout en marchant dans le corridor je le priais de rester.",
+      "rsr": "Restored from tome09.docx ¶1072, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Permettez-moi au moins de m’en aller pour deux jours ! disait-il, et puis :",
+      "rsr": "Restored from tome09.docx ¶1073, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ne me priez pas de rester je vous en supplie, car je ne pourrais pas vous obéir...",
+      "rsr": "Restored from tome09.docx ¶1074, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et pourquoi ?",
+      "rsr": "Restored from tome09.docx ¶1075, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais parce que... vous savez... et puis je ne veux pas que Michel, qui sans cela... et ce n'est pas encore ça, mais...",
+      "rsr": "Restored from tome09.docx ¶1076, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! ha ! homme vert ! C'est pour cela ! Oh ! que vous êtes donc étrange. Ah ! c'est ça que vous craignez, c'est de Michel que vous avez peur !",
+      "rsr": "Restored from tome09.docx ¶1077, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et bien puisque vous savez pourquoi, ne me tourmentez pas.",
+      "rsr": "Restored from tome09.docx ¶1078, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au contraire homme vert !",
+      "rsr": "Restored from tome09.docx ¶1079, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En effet il fallait être folle pour taquiner un homme de la sorte.",
+      "rsr": "Restored from tome09.docx ¶1080, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je l'avais prié en vain et je n'aurais pas été fâchée de le retenir, surtout parce que je savais que c'était impossible. Je le traînais à mon bras, parcourant la gare, sans me soucier de la foule, et arrêtant des Juifs pour leur dire en français:",
+      "rsr": "Restored from tome09.docx ¶1081, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tu vois ce beau garçon-là ? Eh bien c'est celui qui craint Michel.",
+      "rsr": "Restored from tome09.docx ¶1082, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et je passais outre laissant le Juif à son étonnement. Je le laissai un instant pour causer avec Lola, sa mère et mon oncle Nicolas qui vinrent me voir partir.",
+      "rsr": "Restored from tome09.docx ¶1083, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il y avait une foule énorme à l'occasion du départ de cinquante-sept volontaires pour la Serbie. Et comme je ne me souciais pas de tous ces gens que je ne connais pas, et que je crois de la canaille (je ne parle pas des volontaires), je continuai de parcourir la gare tantôt avec Paul, tantôt avec Lola, tantôt avec Michel, Pacha, avec chacun à son tour. Une personne habillée de blanc et si remuante ne tarde pas à être remarquée.",
+      "rsr": "Restored from tome09.docx ¶1084, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- En vérité, Pacha n'est pas aimable - dit Lola ayant appris de quoi il était question.",
+      "rsr": "Restored from tome09.docx ¶1085, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alors m'efforçant de ne pas rire je m'approchai de l'homme vert et je lui fis un petit discours très sec et très offensé, et comme il avait les larmes aux yeux et comme j'avais envie de rire je me retirai pour ne pas détruire l'effet produit en éclatant.",
+      "rsr": "Restored from tome09.docx ¶1086, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On pouvait à peine circuler et c'est à grand peine que nous parvînmes jusqu'à notre coupé.",
+      "rsr": "Restored from tome09.docx ¶1087, Mon Journal t.9 p.74 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Cette foule m'amusait après la campagne et je me mis à la fenêtre. On se pressait, on criait, je regardais et je m'arrêtai court en entendant tout à coup s'élever un concert de ces voix de jeunes garçons, plus belles et plus pures que celles des femmes, qui [Mot noirci: chantaient] un chant d'église et qui semblaient un chœur d'anges.",
+      "rsr": "Restored from tome09.docx ¶1088, Mon Journal t.9 pp.74–75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C'étaient les chantres de l'archevêque qui [Mot noirci : chantaient] disaient une prière pour les volontaires.",
+      "rsr": "Restored from tome09.docx ¶1089, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout le monde se découvrit et ces voix sonores et cette harmonie divine m'ôtèrent la respiration et lorsqu' ils eurent fini et lorsque je vis tout ce monde agiter leurs chapeaux, leurs mouchoirs, leurs mains, les yeux brillants de larmes d'enthousiasme et la poitrine gonflée d'émotion, je ne pus rien faire d'autre que crier hourra comme eux et pleurer et rire.",
+      "rsr": "Restored from tome09.docx ¶1090, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les cris durèrent quelques minutes et ne cessèrent que lorsque le même chœur entonna l'hymme russe : *Dieu protège le Tsar*.",
+      "rsr": "Restored from tome09.docx ¶1091, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais la prière pour l'Empereur sembla fade après la prière pour ceux qui allaient mourir en défendant leurs frères.",
+      "rsr": "Restored from tome09.docx ¶1092, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et l'Empereur laisse faire les Turcs ! Dieu !",
+      "rsr": "Restored from tome09.docx ¶1093, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le train partit au milieu de hourras frénétiques; alors je me retournai et je vis Michel qui riait et mon père qui criait *dourak* au lieu de hourra.",
+      "rsr": "Restored from tome09.docx ¶1094, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Papa ! Michel ! est-il possible ! Michel ! Mais criez-donc, de quoi êtes vous fait, bon Dieu !",
+      "rsr": "Restored from tome09.docx ¶1095, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous ne me dites pas adieu ? demanda Pacha raide et rouge.",
+      "rsr": "Restored from tome09.docx ¶1096, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non !",
+      "rsr": "Restored from tome09.docx ¶1097, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il fit un pas en arrière, se mordit les lèvres... et je vis des larmes dans ses yeux.",
+      "rsr": "Restored from tome09.docx ¶1098, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le train marchait déjà.",
+      "rsr": "Restored from tome09.docx ¶1099, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au revoir, Pacha - dis-je en lui tendant la main, qu'il saisit et baisa sans rien dire.",
+      "rsr": "Restored from tome09.docx ¶1100, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Mots noircis: Je fais le trajet de la] gare jusqu'à l'hôtel avec Michel dans sa troïka. Le nigaud, le monstre fait le jaloux et l'amoureux ! Il me bombarde de déclarations que j'accepte n'ayant rien d'autre. Ce petit être usé et sensuel croit être amoureux parce que je suis jolie et parce qu'il est dépravé. Je [Mot noirci: l’aime] quand il me regarde pendant longtemps, puis jette son chapeau par terre ou chiffonne son mouchoir et s'en va furieux, je l'observe et je ris.",
+      "rsr": "Restored from tome09.docx ¶1101, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Me Voilà encore à Poltava, cette ville détestable.",
+      "rsr": "Restored from tome09.docx ¶1102, Mon Journal t.9 p.75 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Harkoff (c'est ainsi qu'il faut l'écrire et en prononçant il faut aspirer l'h) m'est plus connu, j'y ai passé un an avant de partir pour Vienne. Je me souviens de toutes les rues, de tous les magasins et, cet après-midi, à la gare je reconnus un médecin qui avait soigné grand-maman et je vins lui parler. Il ne s'étonna pas, Nicolas [lui] m’avait déjà montrée.",
+      "rsr": "Restored from tome09.docx ¶1103, Mon Journal t.9 pp.75–76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai envie de retourner là-bas ! “Connais-tu le pays où fleurit l'oranger ?” Pas Nice, mais l'Italie.",
+      "rsr": "Restored from tome09.docx ¶1104, Mon Journal t.9 p.76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais aujourd’hui je ne fais que répéter \"Tu vois ce beau garçon-là, c’est l’amant d’A, c’est l’amant d’Amanda\"",
+      "rsr": "Restored from tome09.docx ¶1105, Mon Journal t.9 p.76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout le monde connaît cette chanson, et à force de la répéter et de la refaire selon toutes les circonstances imaginables, je m’égaie en faisant rire les autres.",
+      "rsr": "Restored from tome09.docx ¶1106, Mon Journal t.9 p.76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-14.md"
+  },
+  {
+   "file": "1876-09-15.md",
+   "date": "1876-09-15",
+   "heading": "Vendredi 15 septembre 1876 (3 septembre)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Ayant passé la nuit dans le lit et dans la maison du Prince, je me levai un peu fatiguée et lorsque Paul m'amena le petit Etienne, le fils d'Alexandre, je ne le reconnus pas le premier moment.",
+      "rsr": "Restored from tome09.docx ¶1108, Mon Journal t.9 p.76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne fis aucune attention au plus ou moins de plaisir que causait à mon père la vue d’un Babanine et je m’occupai du gentil petit lorsque il entra tenant Michel par la main et le présenta à Etienne comme mon fils ? Je crois que le petit le crut, car il joua et causa avec le prindpino comme avec un égal, au grand, amusement de nous tous.",
+      "rsr": "Restored from tome09.docx ¶1109, Mon Journal t.9 p.76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin, mon père m'a conduite chez les *notabilités* de Poltava.",
+      "rsr": "Restored from tome09.docx ¶1110, Mon Journal t.9 p.76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Monsieur, je vous comprends, et je m'étonne de ne pas avoir compris avant, pourquoi cette résistance à mon désir de voir du monde. Depuis qu’il est avec la Durocher, il s’est retiré ou le monde s’est retiré de lui. Je l\"ai bien vu par la façon dont il appuyait sur les mots “et sa fille\" en disant son nom au domestique.",
+      "rsr": "Restored from tome09.docx ¶1111, Mon Journal t.9 p.76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "D’abord nous avons été chez Mme Martinoff. Fille du général Ogareff, très aimé de l'Empereur, elle s'est encanaillée avec le valet de chambre du susdit empereur au point qu’il fallut la marier. L'Empereur, pour réparer la faute de son valet, la maria à un M. Martinoff auquel on donna une préfecture.",
+      "rsr": "Restored from tome09.docx ¶1112, Mon Journal t.9 p.76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La préfète est une femme du monde, bien aimable, en vérité, le *gouverneur* aussi d'ailleurs : il y avait “Comité” chez lui, mais il arriva au salon en disant à mon père qu'il n'y avait pas de comité qui tînt quand il s’agit de voir une demoiselle aussi charmante. Mme Martinoff nous reconduisit jusqu’à l'antichambre et nous nous remîmes en quête de “gens convenables”.",
+      "rsr": "Restored from tome09.docx ¶1113, Mon Journal t.9 p.76 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Chez le vice-gouverneur, chez plusieurs autres que je ne connais même pas de nom, chez la nièce de M. Abaza, l'exmillionnaire, chez la Directrice de l’institut des demoiselles nobles, chez Mme Volkovitsky, (la fille de Kotchoubey), celle-là est très comme il faut.",
+      "rsr": "Restored from tome09.docx ¶1114, Mon Journal t.9 pp.76–77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Puis je pris un fiacre et allai chez Alexandre qui est ici à l'hôtel avec sa femme et ses enfants. Ah ! qu'il fait bon se trouver parmi les siens, on ne craint ni critiques, ni cancans... peut-être la famille de mon père me semble froide et méchante *entre elle,* par contraste de la nôtre qui est extraordinairement liée et unie et aimante.",
+      "rsr": "Restored from tome09.docx ¶1115, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Parlant tantôt d'affaires, tantôt d'amour, tantôt de cancans, je passai deux heures bien agréables, au bout desquelles commencèrent à m'arriver des messagers de mon père, mais comme je répondais que je n'étais pas encore disposée à partir, il vint lui-même et je le tourmentai encore pendant une demi-heure et plus, traînant, cherchant des épingles, mon mouchoir, etc. etc.",
+      "rsr": "Restored from tome09.docx ¶1116, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin nous partîmes et lorsque, à ce que je crus, il se fut un peu calmé je dis:",
+      "rsr": "Restored from tome09.docx ¶1117, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Nous avons fait une bien grande impolitesse.",
+      "rsr": "Restored from tome09.docx ¶1118, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Et laquelle ?",
+      "rsr": "Restored from tome09.docx ¶1119, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous avons été chez tout le monde excepté Mme Miloradovitch, elle qui connaît maman et qui me connaît.",
+      "rsr": "Restored from tome09.docx ¶1120, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et là-dessus toute une conversation qui se termina par ces paroles de mon père :",
+      "rsr": "Restored from tome09.docx ¶1121, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On commençait à jaser, j'ai tout corrigé. D'ailleurs, si même tu avais des plans sur Gritz, c’est ainsi qu'il faut agir.",
+      "rsr": "Restored from tome09.docx ¶1122, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: L’infâme intrigant ! En voilà un jésuite. Et moi, pour une femme extraordinaire, j'étais bien de mon âge par exemple.]",
+      "rsr": "Restored from tome09.docx ¶1123, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "margin"
+     }
+    },
+    {
+     "new": {
+      "french": "Comme M. Martinoff me demandait combien de temps je resterais chez mon père, je dis que j'espérais l'emmener avec moi.",
+      "rsr": "Restored from tome09.docx ¶1124, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tu as entendu ce qu'à dit le gouverneur quand tu as parlé de m'emmener ? demanda l’illustre auteur de mes jours.",
+      "rsr": "Restored from tome09.docx ¶1125, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quoi donc ?",
+      "rsr": "Restored from tome09.docx ¶1126, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il a dit qu'il me fallait une permission du ministre, comme maréchal de la noblesse.",
+      "rsr": "Restored from tome09.docx ¶1127, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Eh bien, demandez la vite pour que rien ne nous retienne ici trop longtemps.",
+      "rsr": "Restored from tome09.docx ¶1128, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Bien.",
+      "rsr": "Restored from tome09.docx ¶1129, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alors, vous venez avec moi ?",
+      "rsr": "Restored from tome09.docx ¶1130, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oui.",
+      "rsr": "Restored from tome09.docx ¶1131, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tu parles sérieusement ?",
+      "rsr": "Restored from tome09.docx ¶1132, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oui.",
+      "rsr": "Restored from tome09.docx ¶1133, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il était huit heures passées et l'obscurité de la voiture me permit de tout dire sans que mon fichu-visage s'en mêlât.",
+      "rsr": "Restored from tome09.docx ¶1134, Mon Journal t.9 p.77 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pourquoi Mme Tutcheff, ne vient-elle pas encore ? demandai-je.",
+      "rsr": "Restored from tome09.docx ¶1135, Mon Journal t.9 pp.77–78 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon père se mit à rire.",
+      "rsr": "Restored from tome09.docx ¶1136, Mon Journal t.9 p.78 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Craint-elle, repris-je que son Prince ne tombe amoureux de moi ?",
+      "rsr": "Restored from tome09.docx ¶1137, Mon Journal t.9 p.78 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il fallut descendre la montagne à pied; dans une heure nous étions à table.",
+      "rsr": "Restored from tome09.docx ¶1138, Mon Journal t.9 p.78 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Quatre lignes cancellées]",
+      "rsr": "Restored from tome09.docx ¶1139, Mon Journal t.9 p.78 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "rayé"
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-15.md"
+  },
+  {
+   "file": "1876-09-16.md",
+   "date": "1876-09-16",
+   "heading": "Samedi 16 septembre 1876 (4 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0174"
+    },
+    {
+     "old": "066.0175"
+    },
+    {
+     "old": "066.0176"
+    },
+    {
+     "old": "066.0177"
+    },
+    {
+     "old": "066.0178"
+    },
+    {
+     "old": "066.0179"
+    },
+    {
+     "old": "066.0180"
+    },
+    {
+     "old": "066.0181"
+    },
+    {
+     "old": "066.0182"
+    },
+    {
+     "old": "066.0183"
+    },
+    {
+     "old": "066.0184"
+    },
+    {
+     "old": "066.0185"
+    },
+    {
+     "old": "066.0186"
+    },
+    {
+     "old": "066.0187"
+    },
+    {
+     "old": "066.0188"
+    },
+    {
+     "old": "066.0189"
+    },
+    {
+     "old": "066.0190"
+    },
+    {
+     "old": "066.0191"
+    },
+    {
+     "old": "066.0192"
+    },
+    {
+     "old": "066.0193"
+    },
+    {
+     "old": "066.0194"
+    },
+    {
+     "old": "066.0195"
+    },
+    {
+     "old": "066.0196"
+    },
+    {
+     "old": "066.0197"
+    },
+    {
+     "old": "066.0198"
+    },
+    {
+     "old": "066.0199"
+    },
+    {
+     "old": "066.0200"
+    },
+    {
+     "old": "066.0201"
+    },
+    {
+     "old": "066.0202"
+    },
+    {
+     "old": "066.0203"
+    },
+    {
+     "old": "066.0204"
+    },
+    {
+     "old": "066.0205"
+    },
+    {
+     "old": "066.0206"
+    },
+    {
+     "old": "066.0207"
+    },
+    {
+     "old": "066.0208"
+    },
+    {
+     "old": "066.0209"
+    },
+    {
+     "old": "066.0210"
+    },
+    {
+     "old": "066.0211"
+    },
+    {
+     "old": "066.0212"
+    },
+    {
+     "old": "066.0213"
+    },
+    {
+     "old": "066.0214"
+    },
+    {
+     "old": "066.0215"
+    },
+    {
+     "old": "066.0216"
+    },
+    {
+     "old": "066.0217"
+    },
+    {
+     "old": "066.0218",
+     "kind": "margin"
+    },
+    {
+     "old": "066.0219"
+    },
+    {
+     "old": "066.0220",
+     "kind": "margin"
+    },
+    {
+     "old": "066.0221"
+    },
+    {
+     "old": "066.0222"
+    }
+   ],
+   "frontmatter_from": "1876-09-16.md"
+  },
+  {
+   "file": "1876-09-17.md",
+   "date": "1876-09-17",
+   "heading": "Dimanche 17 septembre 1876 (5 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0223"
+    },
+    {
+     "old": "066.0224"
+    },
+    {
+     "old": "066.0225"
+    },
+    {
+     "old": "066.0226"
+    },
+    {
+     "old": "066.0227"
+    },
+    {
+     "old": "066.0228"
+    },
+    {
+     "old": "066.0229"
+    },
+    {
+     "old": "066.0230"
+    },
+    {
+     "old": "066.0231"
+    },
+    {
+     "old": "066.0232"
+    },
+    {
+     "old": "066.0233"
+    },
+    {
+     "old": "066.0234"
+    },
+    {
+     "old": "066.0235"
+    },
+    {
+     "old": "066.0236"
+    },
+    {
+     "old": "066.0237"
+    },
+    {
+     "old": "066.0238"
+    },
+    {
+     "old": "066.0239"
+    },
+    {
+     "old": "066.0240"
+    }
+   ],
+   "frontmatter_from": "1876-09-17.md"
+  },
+  {
+   "file": "1876-09-18.md",
+   "date": "1876-09-18",
+   "heading": "Lundi 18 septembre 1876 (6 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0241"
+    },
+    {
+     "old": "066.0242"
+    },
+    {
+     "old": "066.0243"
+    },
+    {
+     "old": "066.0244"
+    },
+    {
+     "old": "066.0245"
+    },
+    {
+     "old": "066.0246"
+    },
+    {
+     "old": "066.0247"
+    },
+    {
+     "new": {
+      "french": "[Une demi-page blanche]",
+      "rsr": "Restored from tome09.docx ¶1214, Mon Journal t.9 p.82 (the docx OCR reads «[Une deùi-page blanche]»; missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "editorial"
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-18.md"
+  },
+  {
+   "file": "1876-09-19.md",
+   "date": "1876-09-19",
+   "heading": "Mardi 19 septembre 1876 (7 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0248"
+    },
+    {
+     "old": "066.0249"
+    },
+    {
+     "old": "066.0250"
+    },
+    {
+     "old": "066.0251"
+    },
+    {
+     "old": "066.0252",
+     "kind": "margin"
+    },
+    {
+     "old": "066.0253"
+    },
+    {
+     "old": "066.0254"
+    },
+    {
+     "old": "066.0255"
+    },
+    {
+     "old": "066.0256"
+    },
+    {
+     "old": "066.0257"
+    }
+   ],
+   "frontmatter_from": "1876-09-19.md"
+  },
+  {
+   "file": "1876-09-20.md",
+   "date": "1876-09-20",
+   "heading": "Mercredi 20 septembre 1876 (8 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0258"
+    },
+    {
+     "old": "066.0259"
+    },
+    {
+     "old": "066.0260"
+    },
+    {
+     "old": "066.0261"
+    },
+    {
+     "old": "066.0262"
+    }
+   ],
+   "frontmatter_from": "1876-09-20.md"
+  },
+  {
+   "file": "1876-09-21.md",
+   "date": "1876-09-21",
+   "heading": "Jeudi 21 septembre 1876 (9 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0263"
+    },
+    {
+     "old": "066.0264"
+    },
+    {
+     "old": "066.0265"
+    },
+    {
+     "old": "066.0266",
+     "kind": "margin"
+    },
+    {
+     "old": "066.0267"
+    },
+    {
+     "old": "066.0268"
+    }
+   ],
+   "frontmatter_from": "1876-09-21.md"
+  },
+  {
+   "file": "1876-09-22.md",
+   "date": "1876-09-22",
+   "heading": "Vendredi 22 septembre 1876 (10 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0269"
+    },
+    {
+     "old": "066.0270"
+    },
+    {
+     "old": "066.0271"
+    },
+    {
+     "old": "066.0272"
+    },
+    {
+     "old": "066.0273"
+    },
+    {
+     "old": "066.0274"
+    },
+    {
+     "old": "066.0275"
+    },
+    {
+     "old": "066.0276",
+     "kind": "rayé"
+    },
+    {
+     "old": "066.0277"
+    },
+    {
+     "old": "066.0278"
+    },
+    {
+     "old": "066.0279"
+    },
+    {
+     "old": "066.0280"
+    },
+    {
+     "old": "066.0281"
+    },
+    {
+     "old": "066.0282"
+    }
+   ],
+   "frontmatter_from": "1876-09-22.md"
+  },
+  {
+   "file": "1876-09-23.md",
+   "date": "1876-09-23",
+   "heading": "Samedi 23 septembre 1876 (11 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0283"
+    },
+    {
+     "old": "066.0284"
+    },
+    {
+     "old": "066.0285"
+    },
+    {
+     "old": "066.0286"
+    },
+    {
+     "old": "066.0287"
+    },
+    {
+     "old": "066.0288"
+    },
+    {
+     "old": "066.0289",
+     "kind": "margin"
+    }
+   ],
+   "frontmatter_from": "1876-09-23.md"
+  },
+  {
+   "file": "1876-09-24.md",
+   "date": "1876-09-24",
+   "heading": "Dimanche 24 septembre 1876 (12 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0291"
+    },
+    {
+     "old": "066.0292"
+    },
+    {
+     "old": "066.0293"
+    },
+    {
+     "old": "066.0294"
+    },
+    {
+     "old": "066.0295"
+    },
+    {
+     "old": "066.0296"
+    },
+    {
+     "old": "066.0297"
+    },
+    {
+     "old": "066.0298"
+    },
+    {
+     "old": "066.0299"
+    },
+    {
+     "old": "066.0300"
+    },
+    {
+     "old": "066.0301",
+     "kind": "margin"
+    },
+    {
+     "old": "066.0302"
+    },
+    {
+     "old": "066.0303"
+    },
+    {
+     "old": "066.0304"
+    },
+    {
+     "old": "066.0305"
+    },
+    {
+     "old": "066.0306"
+    },
+    {
+     "old": "066.0307"
+    },
+    {
+     "old": "066.0308"
+    },
+    {
+     "old": "066.0309"
+    },
+    {
+     "old": "066.0310"
+    },
+    {
+     "old": "066.0311"
+    },
+    {
+     "old": "066.0312"
+    },
+    {
+     "old": "066.0313"
+    },
+    {
+     "old": "066.0314"
+    },
+    {
+     "old": "066.0315"
+    },
+    {
+     "old": "066.0316"
+    },
+    {
+     "old": "066.0317"
+    },
+    {
+     "old": "066.0318"
+    },
+    {
+     "old": "066.0319"
+    },
+    {
+     "old": "066.0320"
+    },
+    {
+     "old": "066.0321"
+    },
+    {
+     "old": "066.0322"
+    },
+    {
+     "old": "066.0323"
+    },
+    {
+     "new": {
+      "french": "Cette brillante journée a été terminée par un concert sur l'escalier, ma voix, c'est-à-dire la moitié de ma voix encore, les a fait pâmer, mais je crois qu'ils n'y entendent rien et admirent au hasard...",
+      "rsr": "Restored from tome09.docx ¶1292, Mon Journal t.9 p.90 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pour moi ce sont des animaux et pas des hommes.",
+      "rsr": "Restored from tome09.docx ¶1293, Mon Journal t.9 p.90 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je vais retrouver Rome par Dumas, je n'ai pas lu avant d'avoir écrit ces pages aussi inutiles que peu intéressantes, car le nom seul de Rome m'émotionne comme jadis le duc de Hamilton. A présent allons nous affoler, je le suis déjà à moitié par Pompeï et Naples.",
+      "rsr": "Restored from tome09.docx ¶1294, Mon Journal t.9 p.90 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il me pousse des ailes quand je songe à l'Italie, je ne touche plus à la terre et je suis prête à m'écrier avec ou sans “Mignon”:",
+      "rsr": "Restored from tome09.docx ¶1295, Mon Journal t.9 p.90 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "\"Italia, raggio del del.",
+      "rsr": "Restored from tome09.docx ¶1296, Mon Journal t.9 p.90 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Suol beato... \"",
+      "rsr": "Restored from tome09.docx ¶1297, Mon Journal t.9 p.90 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-24.md"
+  },
+  {
+   "file": "1876-09-25.md",
+   "date": "1876-09-25",
+   "heading": "Lundi 25 septembre 1876 (13 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0324"
+    },
+    {
+     "old": "066.0325"
+    },
+    {
+     "old": "066.0326"
+    },
+    {
+     "old": "066.0327"
+    },
+    {
+     "old": "066.0328"
+    },
+    {
+     "old": "066.0329"
+    },
+    {
+     "old": "066.0330"
+    },
+    {
+     "old": "066.0331"
+    },
+    {
+     "old": "066.0332"
+    },
+    {
+     "old": "066.0333",
+     "kind": "margin"
+    },
+    {
+     "old": "066.0334"
+    },
+    {
+     "old": "066.0335"
+    },
+    {
+     "old": "066.0336"
+    },
+    {
+     "old": "066.0337"
+    },
+    {
+     "old": "066.0338"
+    },
+    {
+     "old": "066.0339"
+    },
+    {
+     "old": "066.0340"
+    },
+    {
+     "old": "066.0341"
+    },
+    {
+     "old": "066.0342"
+    },
+    {
+     "old": "066.0343"
+    },
+    {
+     "old": "066.0344"
+    },
+    {
+     "old": "066.0345"
+    },
+    {
+     "old": "066.0346"
+    },
+    {
+     "old": "066.0347"
+    },
+    {
+     "old": "066.0348"
+    },
+    {
+     "old": "066.0349"
+    },
+    {
+     "old": "066.0350"
+    },
+    {
+     "old": "066.0351"
+    },
+    {
+     "old": "066.0352"
+    },
+    {
+     "old": "066.0353"
+    },
+    {
+     "old": "066.0354"
+    },
+    {
+     "old": "066.0355"
+    },
+    {
+     "old": "066.0356"
+    },
+    {
+     "old": "066.0357"
+    },
+    {
+     "old": "066.0358"
+    },
+    {
+     "old": "066.0359"
+    },
+    {
+     "old": "066.0360",
+     "kind": "other",
+     "source": "Dédicace dictée par Marie à Michel Eristoff, au revers de son portrait, 25 septembre 1876"
+    },
+    {
+     "old": "066.0361",
+     "kind": "other",
+     "source": "Dédicace dictée par Marie à Michel Eristoff, au revers de son portrait, 25 septembre 1876"
+    },
+    {
+     "old": "066.0362"
+    },
+    {
+     "old": "066.0363"
+    },
+    {
+     "old": "066.0364"
+    }
+   ],
+   "frontmatter_from": "1876-09-25.md"
+  },
+  {
+   "file": "1876-09-26.md",
+   "date": "1876-09-26",
+   "heading": "Mardi 26 septembre 1876 (14 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0366"
+    },
+    {
+     "old": "066.0367"
+    }
+   ],
+   "frontmatter_from": "1876-09-26.md"
+  },
+  {
+   "file": "1876-09-27.md",
+   "date": "1876-09-27",
+   "heading": "Mercredi 27 septembre 1876 (15 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0368"
+    },
+    {
+     "old": "066.0369"
+    },
+    {
+     "old": "066.0370"
+    },
+    {
+     "old": "066.0371"
+    },
+    {
+     "old": "066.0372"
+    },
+    {
+     "old": "066.0373"
+    },
+    {
+     "old": "066.0374"
+    },
+    {
+     "old": "066.0375"
+    },
+    {
+     "old": "066.0376"
+    },
+    {
+     "old": "066.0377"
+    },
+    {
+     "old": "066.0378"
+    },
+    {
+     "old": "066.0379"
+    },
+    {
+     "old": "066.0380"
+    },
+    {
+     "old": "066.0381"
+    },
+    {
+     "old": "066.0382"
+    },
+    {
+     "old": "066.0383"
+    },
+    {
+     "old": "066.0384",
+     "set_french": "Lorsqu'on nous a séparés, j'ai été comme fou, je suis allé à pied en pèlerin, prier la Vierge d'Achtirka[^1] mais on dit que cette Vierge porte malheur et c'est vrai, car cela s'est embrouillé davantage après. Et puis, dois-je le dire, tu riras... quand vous demeuriez à Harkoff, j'y allais seul en cachette, je prenais un fiacre et je guettais votre appartement, je restais là une journée à regarder les fenêtres pour la voir passer, et puis je m'en retournais sans être vu."
+    },
+    {
+     "new": {
+      "french": "Si c'était vrai, ce serait très touchant, mais comme je n'ai pas assisté à tout cela et cela ne s'est passé du temps où je comprenais tout, je ne puis juger.",
+      "rsr": "Restored from tome09.docx ¶1358, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Et dis-moi... puisque nous en sommes à parler de maman... est-ce que... hum., est-ce qu'elle a de l'aversion pour moi ?",
+      "rsr": "Restored from tome09.docx ¶1359, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- De l'aversion et pourquoi donc ? Non, pas du tout.",
+      "rsr": "Restored from tome09.docx ¶1360, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Hum... c'est que quelquefois on a comme ça des antipathies insurmontables...",
+      "rsr": "Restored from tome09.docx ¶1361, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Mais non, mais non.",
+      "rsr": "Restored from tome09.docx ¶1362, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin nous en avons parlé longuement, j'en ai parlé comme d'une sainte qu'elle est, toujours depuis l'époque où je me souviens d'avoir compris. Ce qui était il y a des années quand j'étais enfant... je n’en sais rien et je ne peux pas juger.",
+      "rsr": "Restored from tome09.docx ¶1363, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il était tard, si j'allais dormir chez moi j'aurais soupé, écrit, lu, aussi je résolus de ne pas monter. Mon père alla me chercher du linge dans la lingerie pour ne pas réveiller les domestiques, il me fit le lit, me donna sa robe de chambre, un châle pour me couvrir et écartant le rideau qui sépare la chaise-longue du lit, nous avons causé longtemps encore et tout en riant je l'ai prié de [me] marier au prince Kotchoubey, qui est veuf, qui *a* deux fils, quarante-cinq ans et cent mille arpents de terre, soit sept cent mille roubles de rente.",
+      "rsr": "Restored from tome09.docx ¶1364, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il est son ami, ils se grisent ensemble.",
+      "rsr": "Restored from tome09.docx ¶1365, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Ah ! oui, ce serait bien.",
+      "rsr": "Restored from tome09.docx ¶1366, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Je crois bien, papa !",
+      "rsr": "Restored from tome09.docx ¶1367, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: Quand je pense que j'ai traité cet homme en père, j'ai honte.]",
+      "rsr": "Restored from tome09.docx ¶1368, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "margin"
+     }
+    },
+    {
+     "new": {
+      "french": "Ce matin à huit heures nous allions partir pour Poltava quand arriva Mme Hélène Gorpintchenko, la mère de Pacha.",
+      "rsr": "Restored from tome09.docx ¶1369, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Une aimable bossue, un peu affectée je crois. A été dans le temps maîtresse du célèbre acteur nègre Alridge.",
+      "rsr": "Restored from tome09.docx ¶1370, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous primes le thé ensemble et nous partîmes après. Mon père est appelé là pour présider je ne sais plus quelle... machine.",
+      "rsr": "Restored from tome09.docx ¶1371, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il fait froid, il pleut de temps en temps; je me suis promenée en blanc, et mon teint encore embelli par l'humidité, et les chevaux de Michel vont comme des Pégases, deux, autres que sa troïka qui est alezan, ceux-là sont noirs, le timonier est un remarquable trotteur, celui de côté est un misérable tartare qui a l'air décharné mais qui vole au lieu de courir.",
+      "rsr": "Restored from tome09.docx ¶1372, Mon Journal t.9 p.95 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Michel nous amena le fameux M. Gedanoff, nous avons déjeuné en cinq, mon père, ce monsieur, Paul, Michel et moi.",
+      "rsr": "Restored from tome09.docx ¶1373, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Puis on s'est rendu chez le photographe, j'ai posé en paysanne, debout, assise et couchée endormie.",
+      "rsr": "Restored from tome09.docx ¶1374, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Poltava semble plus animée, j'ai été vue par Yonina qui sortait de la maison Miloradovitch. Gritz est retourné d'aujourd'hui au dire de Michel.",
+      "rsr": "Restored from tome09.docx ¶1375, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Avez-vous vu ma fille ? demanda mon père en entrant, à M. Gedanoff.",
+      "rsr": "Restored from tome09.docx ¶1376, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Oui Monsieur j'ai eu ce...",
+      "rsr": "Restored from tome09.docx ¶1377, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- On n'en fait pas de meilleures, n'est-ce pas ? Il n'y en a pas de meilleures, et il n'y en a pas eu.",
+      "rsr": "Restored from tome09.docx ¶1378, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Pardon Monsieur, il y en eu, du temps où existait l'OIympe.",
+      "rsr": "Restored from tome09.docx ¶1379, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Oh ! M. Gedanoff, vous êtes un faiseur de compliments, je le vois.",
+      "rsr": "Restored from tome09.docx ¶1380, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Point du tout Mademoiselle, j'atténue au contraire la valeur que vous donne Monsieur votre père, puisque je dis “qu'il y en a eu”.",
+      "rsr": "Restored from tome09.docx ¶1381, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le monsieur est assez laid, assez brun, assez convenable, assez du monde, assez aventurier, assez joueur et assez honnête homme. A Poltava il est considéré comme le monsieur qui est le plus instruit, et le plus comme il faut, ce qui est vrai... pour Poltava.",
+      "rsr": "Restored from tome09.docx ¶1382, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Une ligne et demie cancellée]",
+      "rsr": "Restored from tome09.docx ¶1383, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "new": {
+      "french": "Ce séjour à l'Hôtel Européen de Poltava m'a relevé un tant soit peu les esprits. Je sentais qu'on était fier de moi, qu'on me regardait et qu'on s'occupait de moi. Dans une ville de province on s'occupe de moins. Mon père vola mon journal, ce fut une course, des cris dans le corridor et on en a ri.",
+      "rsr": "Restored from tome09.docx ¶1384, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Cette fois je suis restée en voiture pendant la diabolique descente, le premier froid m'a forcé à mettre ma fourrure de cet hiver. Enfermée qu'elle était, elle a gardé l'odeur qu'elle avait à Rome, et cette odeur, cette fourrure...",
+      "rsr": "Restored from tome09.docx ¶1385, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Avez-vous remarqué que pour être transporté à un endroit quelconque il ne faut qu'un parfum, un air, une couleur",
+      "rsr": "Restored from tome09.docx ¶1386, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Passer l'hiver à Paris ?!! Oh ! Non.",
+      "rsr": "Restored from tome09.docx ¶1387, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le soir on s'est égayé à propos des lettres et des télégrammes dont je bombarde Pacha. Je lui ai écrit il y a une semaine quelque chose qui a dû le blesser beaucoup et il y a trois jours je lui dis que ce n'était qu'une farce et pour le consoler je lui envoie trois abominables cravates.",
+      "rsr": "Restored from tome09.docx ¶1388, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il a dit à sa mère qu'il a failli s'évanouir lorsque je le priais de rester et qu'il ne pouvait pas.",
+      "rsr": "Restored from tome09.docx ¶1389, Mon Journal t.9 p.96 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Sensible jeune homme!",
+      "rsr": "Restored from tome09.docx ¶1390, Mon Journal t.9 p.97 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais cela me donne une idée demain... vous verrez.",
+      "rsr": "Restored from tome09.docx ¶1391, Mon Journal t.9 p.97 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-27.md"
+  },
+  {
+   "file": "1876-09-28.md",
+   "date": "1876-09-28",
+   "heading": "Jeudi 28 septembre 1876 (16 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0385"
+    },
+    {
+     "old": "066.0386"
+    },
+    {
+     "old": "066.0387"
+    },
+    {
+     "old": "066.0388"
+    },
+    {
+     "old": "066.0389"
+    },
+    {
+     "old": "066.0390"
+    },
+    {
+     "old": "066.0391"
+    },
+    {
+     "old": "066.0392"
+    }
+   ],
+   "frontmatter_from": "1876-09-28.md"
+  },
+  {
+   "file": "1876-09-29.md",
+   "date": "1876-09-29",
+   "heading": "Vendredi 29 septembre 1876 (17 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0394"
+    },
+    {
+     "old": "066.0395"
+    },
+    {
+     "old": "066.0396"
+    },
+    {
+     "old": "066.0397"
+    },
+    {
+     "old": "066.0398"
+    },
+    {
+     "old": "066.0399"
+    },
+    {
+     "old": "066.0400"
+    },
+    {
+     "old": "066.0401"
+    },
+    {
+     "old": "066.0402"
+    },
+    {
+     "old": "066.0403"
+    },
+    {
+     "old": "066.0404"
+    },
+    {
+     "old": "066.0405"
+    },
+    {
+     "old": "066.0406"
+    },
+    {
+     "old": "066.0407"
+    },
+    {
+     "old": "066.0408"
+    },
+    {
+     "old": "066.0409"
+    },
+    {
+     "old": "066.0410"
+    },
+    {
+     "old": "066.0411"
+    },
+    {
+     "old": "066.0412"
+    },
+    {
+     "old": "066.0413"
+    },
+    {
+     "old": "066.0414"
+    },
+    {
+     "old": "066.0415"
+    },
+    {
+     "old": "066.0416"
+    },
+    {
+     "old": "066.0417"
+    },
+    {
+     "old": "066.0418"
+    },
+    {
+     "old": "066.0419"
+    },
+    {
+     "old": "066.0420",
+     "set_french": "- Mais là, à la fenêtre ! et je me cachais derrière la porte pour garder mon sérieux et simuler la peur.... mais il avait tellement l'air d'une figure de boîte d'allumettes en cire, que j'éclatai de rire, et la vue de son visage qui passait du bouleversement à la stupéfaction et puis à la gaieté, mit le comble à la mienne, et le pauvre homme courut au lit en secouant... la tête et cherchant par la fuite à dérober la vue de ces jambes."
+    },
+    {
+     "new": {
+      "french": "- Ah ! disait-il, cela bouleverse tout de même tu sais non, vrai.",
+      "rsr": "Restored from tome09.docx ¶1427, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'étais enchantée de la réussite et lui ayant donné deux minutes pour se calmer :",
+      "rsr": "Restored from tome09.docx ¶1428, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Papa, il est minuit.",
+      "rsr": "Restored from tome09.docx ¶1429, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Hein ?",
+      "rsr": "Restored from tome09.docx ¶1430, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Crains-tu les fantômes ?",
+      "rsr": "Restored from tome09.docx ¶1431, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Hein ?",
+      "rsr": "Restored from tome09.docx ¶1432, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Les fantômes, les revenants, les morts.",
+      "rsr": "Restored from tome09.docx ¶1433, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Ah ! non, non, je t'en prie ne parlons pas de cela.",
+      "rsr": "Restored from tome09.docx ¶1434, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Comment tu as peur ?",
+      "rsr": "Restored from tome09.docx ¶1435, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je pris la bougie et la portai dans sa chambre et la mis sous son nez. Il était sérieux et se mit à me parler des conséquences graves que peuvent amener de pareilles frayeurs, me priant de ne pas parler de choses inquiétantes",
+      "rsr": "Restored from tome09.docx ¶1436, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous sommes poltron...",
+      "rsr": "Restored from tome09.docx ¶1437, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! misérable Romain ! Comme je t'écraserais si je pouvais, non pas pour l'offense mais la médisance qui s'est suivie de sa cour et de son amour.",
+      "rsr": "Restored from tome09.docx ¶1438, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il est homme à raconter, à rire, et je suis perdue de réputation...",
+      "rsr": "Restored from tome09.docx ¶1439, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! misérable, Ah ! misérable... Si je le tenais là, je suis d'humeur... à me jeter dans ses bras... et à l'étrangler... en l'embrassant.",
+      "rsr": "Restored from tome09.docx ¶1440, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non, vrai, de sang-froid je dis que je voudrais le presser dans mes bras et le tuer ensuite en lui disant que c’est la punition de sa lâcheté.",
+      "rsr": "Restored from tome09.docx ¶1441, Mon Journal t.9 p.99 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-09-29.md"
+  },
+  {
+   "file": "1876-09-30.md",
+   "date": "1876-09-30",
+   "heading": "Samedi 30 septembre 1876 (18 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0421"
+    },
+    {
+     "old": "066.0422"
+    },
+    {
+     "old": "066.0423"
+    },
+    {
+     "old": "066.0424"
+    },
+    {
+     "old": "066.0425"
+    }
+   ],
+   "frontmatter_from": "1876-09-30.md"
+  },
+  {
+   "file": "1876-10-01.md",
+   "date": "1876-10-01",
+   "heading": "Dimanche 1er octobre 1876 (19 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0426"
+    },
+    {
+     "old": "066.0427"
+    },
+    {
+     "old": "066.0428"
+    },
+    {
+     "old": "066.0429"
+    },
+    {
+     "old": "066.0430"
+    },
+    {
+     "old": "066.0431"
+    },
+    {
+     "old": "066.0432"
+    },
+    {
+     "old": "066.0433"
+    },
+    {
+     "old": "066.0434"
+    },
+    {
+     "old": "066.0435"
+    },
+    {
+     "old": "066.0436"
+    },
+    {
+     "old": "066.0437"
+    },
+    {
+     "old": "066.0438"
+    },
+    {
+     "old": "066.0439"
+    }
+   ],
+   "frontmatter_from": "1876-10-01.md"
+  },
+  {
+   "file": "1876-10-02.md",
+   "date": "1876-10-02",
+   "heading": "Lundi 2 octobre 1876 (20 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0440"
+    },
+    {
+     "old": "066.0441"
+    },
+    {
+     "old": "066.0442"
+    },
+    {
+     "old": "066.0443"
+    },
+    {
+     "old": "066.0444"
+    },
+    {
+     "old": "066.0445"
+    },
+    {
+     "old": "066.0446"
+    },
+    {
+     "old": "066.0447"
+    }
+   ],
+   "frontmatter_from": "1876-10-02.md"
+  },
+  {
+   "file": "1876-10-03.md",
+   "date": "1876-10-03",
+   "heading": "Mardi 3 octobre 1876 (21 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0448"
+    },
+    {
+     "old": "066.0449"
+    },
+    {
+     "old": "066.0450",
+     "set_french": "> ... Enfin, pour commencer pour ou on devrait finir, je vous dirai que nos *calculs pendant les poses du portrait* ont été vains, attendu que le jeune homme est un [Mot noirci: sot] et que sa fortune n'égale pas sa bêtise, je souffre tout hormi la bêtise. Je ne suis pas assez désespérée de trouver preneur pour prendre un pareil animal. Et puis la mère a un amant qui a une maîtresse, et ces deux volent Madame et par conséquent le fils. En vous voyant je vous raconterai bien des choses merveilleuses quant aux mœurs d'ici. Le dévergondage se pratique en règle et les cours d'amour du Moyen-âge n'étaient pas plus naïvement dépravées que les gens d'ici.",
+     "kind": "letter",
+     "source": "Lettre de Marie à Collignon (copie), 3 octobre 1876"
+    },
+    {
+     "old": "066.0451",
+     "set_french": "> Je suis toujours à la campagne.",
+     "kind": "letter",
+     "source": "Lettre de Marie à Collignon (copie), 3 octobre 1876"
+    },
+    {
+     "old": "066.0452",
+     "set_french": "> Il y a en moi deux moi, eh bien l'une de ces créatures s'émerveille comment l'autre peut faire tout ce qu'elle fait.",
+     "kind": "letter",
+     "source": "Lettre de Marie à Collignon (copie), 3 octobre 1876"
+    },
+    {
+     "old": "066.0453",
+     "set_french": "> Fermage, fermiers, intendants, acheteurs, notaires, (ô Galula) tout cela m'envahit. J'écris dix lettres par jour, la bibliothèque de mon père est convertie en chancellerie, les télégrammes et les courriers me coûtent les yeux de la tête, je dirige, j'ordonne, et je rage.",
+     "kind": "letter",
+     "source": "Lettre de Marie à Collignon (copie), 3 octobre 1876"
+    },
+    {
+     "old": "066.0454",
+     "set_french": "> J'ai à lutter contre le pouvoir établi de mon oncle qui, dans des vues pas trop désintéressées m'embrouille tout. Je le bombarde de lettres telles que s'il était un honnête homme il me jeterait tous les documents à la tête et me tournerait le dos. Mais il rit et continue avec la plus révoltante effronterie. Mais puisque ma charrue rencontre des pierres, je les broierai au lieu de m'arrêter et faillir. On a devant soi-même un amour-propre qui frise la fanfaronnade et, excitée par moi-même, je me roidis contre les autres. Je rends grâce à Dieu de m'avoir placée si jeune à la tête de l'établissement... intellectuel de toute ma famille, car j'acquiers une grande expérience, une énorme déception quant à beaucoup de choses et un profond mépris pour tout le genre humain. L'expérience m'évitera ces leçons si désagréables qu'on reçoit à chaque pas des maîtres complaisants. Le mépris m'épargnera les désillusions qui sont tout ce qu'il y a de plus cruel au monde pour les natures fines et honnêtes.",
+     "kind": "letter",
+     "source": "Lettre de Marie à Collignon (copie), 3 octobre 1876"
+    },
+    {
+     "old": "066.0455",
+     "set_french": "> Toutes ces connaissances utiles nuisent nécessairement à mes charmes, en ôtant à ma figure cette impression *jeune* et candide qu'on aime, mais elles me rendront peut-être plus heureuse. Ne riez pas (bien que j'aie moi-même envie de rire) et ne pensez pas que je m'estime savante et infaillible.",
+     "kind": "letter",
+     "source": "Lettre de Marie à Collignon (copie), 3 octobre 1876"
+    },
+    {
+     "old": "066.0456",
+     "set_french": "> Je crois seulement que j'en sais un peu plus long qu'une autre et que mon éducation sera plus tôt faite que celle [Mots noircis: de ces] malheureuses du sexe opprimé.",
+     "kind": "letter",
+     "source": "Lettre de Marie à Collignon (copie), 3 octobre 1876"
+    },
+    {
+     "old": "066.0457",
+     "set_french": "> Sur ce je vous dis au revoir en vous priant de conserver cette lettre, car après ma mort toutes mes lettres seront pieusement recueillies et publiées par la Postérité reconnaissante.",
+     "kind": "letter",
+     "source": "Lettre de Marie à Collignon (copie), 3 octobre 1876"
+    },
+    {
+     "old": "066.0458"
+    },
+    {
+     "old": "066.0459"
+    },
+    {
+     "old": "066.0460"
+    },
+    {
+     "old": "066.0461"
+    },
+    {
+     "old": "066.0462"
+    },
+    {
+     "old": "066.0463",
+     "kind": "rayé"
+    },
+    {
+     "old": "066.0464"
+    },
+    {
+     "old": "066.0465"
+    },
+    {
+     "old": "066.0466"
+    },
+    {
+     "old": "066.0467"
+    },
+    {
+     "old": "066.0468",
+     "kind": "margin"
+    },
+    {
+     "old": "066.0469",
+     "kind": "margin"
+    },
+    {
+     "new": {
+      "french": "[4 octobre au 11 octobre 1876]",
+      "kind": "editorial",
+      "source": "note des éditeurs de Mon Journal sur les dates du cahier",
+      "rsr": "Restored from tome09.docx ¶1494, Mon Journal t.9 p.105: the editors' bracketed dates for the notebook of 4–11 October 1876, printed under its «Livre 67ème» title page (¶1491–1495; title pages withdrawn until the manuscript is scanned, KRR 2026-09-28). Editors' notes on the manuscript are kept as kind editorial (KRR 2026-09-27)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-10-03.md"
+  },
+  {
+   "file": "1876-10-04.md",
+   "date": "1876-10-04",
+   "heading": "Mercredi 4 octobre 1876 (22 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0471"
+    },
+    {
+     "old": "066.0472"
+    },
+    {
+     "old": "066.0473"
+    },
+    {
+     "old": "066.0474"
+    },
+    {
+     "old": "066.0475"
+    },
+    {
+     "old": "066.0476"
+    },
+    {
+     "old": "066.0477"
+    },
+    {
+     "old": "066.0478"
+    },
+    {
+     "old": "066.0479"
+    },
+    {
+     "old": "066.0480"
+    },
+    {
+     "old": "066.0481"
+    },
+    {
+     "old": "066.0482"
+    },
+    {
+     "old": "066.0483"
+    },
+    {
+     "old": "066.0484"
+    },
+    {
+     "old": "066.0485"
+    },
+    {
+     "old": "066.0486"
+    },
+    {
+     "old": "066.0487"
+    },
+    {
+     "old": "066.0488"
+    },
+    {
+     "old": "066.0489"
+    },
+    {
+     "old": "066.0490"
+    },
+    {
+     "old": "066.0491"
+    },
+    {
+     "old": "066.0492"
+    },
+    {
+     "old": "066.0493"
+    },
+    {
+     "old": "066.0494"
+    },
+    {
+     "old": "066.0495"
+    },
+    {
+     "old": "066.0496"
+    },
+    {
+     "old": "066.0497"
+    }
+   ],
+   "frontmatter_from": "1876-10-04.md"
+  },
+  {
+   "file": "1876-10-05.md",
+   "date": "1876-10-05",
+   "heading": "Jeudi 5 octobre 1876 (23 septembre)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome09.docx ¶1524 (Mon Journal t.9 p.107): the date line «Jeudi 5 octobre 1876 (23 septembre)» is followed directly by the next date line; empty-day note as in 068 (2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-10-04.md"
+  },
+  {
+   "file": "1876-10-06.md",
+   "date": "1876-10-06",
+   "heading": "Vendredi 6 octobre 1876 (24 septembre)",
+   "paragraphs": [
+    {
+     "old": "066.0499"
+    },
+    {
+     "old": "066.0500"
+    },
+    {
+     "old": "066.0501"
+    },
+    {
+     "old": "066.0502"
+    },
+    {
+     "old": "066.0503"
+    },
+    {
+     "old": "066.0504"
+    },
+    {
+     "old": "066.0505"
+    },
+    {
+     "old": "066.0506"
+    },
+    {
+     "old": "066.0507"
+    },
+    {
+     "old": "066.0508"
+    },
+    {
+     "old": "066.0509"
+    },
+    {
+     "old": "066.0510"
+    },
+    {
+     "old": "066.0511"
+    },
+    {
+     "old": "066.0512"
+    },
+    {
+     "old": "066.0513"
+    },
+    {
+     "old": "066.0514"
+    },
+    {
+     "old": "066.0515"
+    },
+    {
+     "old": "066.0516"
+    },
+    {
+     "old": "066.0517"
+    },
+    {
+     "old": "066.0518"
+    },
+    {
+     "old": "066.0519",
+     "kind": "margin"
+    },
+    {
+     "old": "066.0520"
+    },
+    {
+     "old": "066.0521",
+     "kind": "margin"
+    },
+    {
+     "old": "066.0522"
+    },
+    {
+     "old": "066.0523"
+    },
+    {
+     "old": "066.0524"
+    },
+    {
+     "old": "066.0525"
+    },
+    {
+     "old": "066.0526"
+    },
+    {
+     "old": "066.0527"
+    },
+    {
+     "old": "066.0528"
+    },
+    {
+     "old": "066.0529"
+    },
+    {
+     "old": "066.0530"
+    },
+    {
+     "old": "066.0531"
+    },
+    {
+     "old": "066.0532"
+    },
+    {
+     "new": {
+      "french": "Alexandre m'a confié une affaire de paysans qui dépend de mon père et à laquelle il tient énormément, l'affaire étant une *machine* d'amour-propre, avec Jankowsky.",
+      "rsr": "Restored from tome09.docx ¶1559, Mon Journal t.9 p.109 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "S'il me tient, je le tiens aussi. D'ailleurs il ne me tiendra plus bientôt et vous verrez comment, j'écris tous les jours et le télégraphe me connaît par des dépêches bien autrement longues que celle au fichu-cardinalino, fils de prêtre, canaille romaine, misérable lâche et vilain !",
+      "rsr": "Restored from tome09.docx ¶1560, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: O innocence !]",
+      "rsr": "Restored from tome09.docx ¶1561, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "margin"
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai soupé à Poltava et je suis arrivée à Gavronzi capable seulement de dire mes prières, lire un chapitre d'Evangile et m'endormir ! Celui qui ne s'est jamais fatigué ne connaît pas les délices du sommeil.",
+      "rsr": "Restored from tome09.docx ¶1562, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le lendemain, jeudi, aujourd'hui, je descendis raconter mes exploits affublée d’une robe de chambre turque, les manches fendues et d’autres manches étroites en soie blanches, un otchipok sur la tête (c'est une espèce de bonnet des dames du Moyen-âge I). Et une épé au côté. Tout cela vient de là-bas, et forme l'accoutrement le plus bizarre.",
+      "rsr": "Restored from tome09.docx ¶1563, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai écrit toute la journée. Jamais je n’ai tant agi qu'à présent.",
+      "rsr": "Restored from tome09.docx ¶1564, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon père me fit rager en discutant exprès sur la construction du *conpensateur,* (physique) je passai trois heures à lui prouver ce qu'il savait bien et il finit par m’embrasser en m'étouffant presque.",
+      "rsr": "Restored from tome09.docx ¶1565, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Me souvenant de Colbert et de Mazarin, j'écrivis ceci à Alexandre:",
+      "rsr": "Restored from tome09.docx ¶1566, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- \"Mon cher,\nJ’ai besoin du plan de la forêt, envoyez-le moi par l'homme qui vous remettra ceci et qui *vous suivra partout.*",
+      "rsr": "Restored from tome09.docx ¶1567–1568, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "letter",
+      "source": "Billet de Marie à son oncle Alexandre (copie), 6 octobre 1876"
+     }
+    },
+    {
+     "new": {
+      "french": "Il n'y aura aucun prétexte ainsi.",
+      "rsr": "Restored from tome09.docx ¶1569, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "L'homme a été enseigné de rester tant qu'Alexandre ne donnera le plan, de se présenter trois fois par jour pour le demander et de suivre partout mon oncle au besoin.",
+      "rsr": "Restored from tome09.docx ¶1570, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "De nouveau il fait jour. J'ai passé la soirée et la nuit *à faire le tapissier.* J'ai tapissé la chambre de mon frère de petits rubans, de fils d’or, j'ai cousu et cloué un rideau formé de *plahta* le morceau de drap dont s'enveloppent nos paysannes, la sapaska est noire, la plahta est en carreaux et de couleurs vives.",
+      "rsr": "Restored from tome09.docx ¶1571, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Chocolat tenait les clous. Paul recouvrait les meubles aidé de deux domestiques, ces braves Petits-Russiens ! causant clouant, taillant.",
+      "rsr": "Restored from tome09.docx ¶1572, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La femme de charge ou gouvernante aidait tout le monde. Enfin, vantons-nous encore ! La chambre est ravissante, et faite en une nuit. A présent je ne crierai plus en lisant dans les romans qu'on tapisse des appartements en quelques heures.",
+      "rsr": "Restored from tome09.docx ¶1573, Mon Journal t.9 p.110 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il fait jour, au revoir, fichus-lecteurs, ne me jugez pas trop mal, intéressez-vous à moi, soyez bon, aimez-moi, mon journal est mon maître souverain.",
+      "rsr": "Restored from tome09.docx ¶1574, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai froid, assez !",
+      "rsr": "Restored from tome09.docx ¶1575, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-10-06.md"
+  },
+  {
+   "file": "1876-10-07.md",
+   "date": "1876-10-07",
+   "heading": "Samedi 7 octobre 1876 (25 septembre)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "C'est le jour de naissance de mon frère. On lui fit des cadeaux et il y eut du monde, c'est-à-dire la canaille des autres fois plus Gedanoff.",
+      "rsr": "Restored from tome09.docx ¶1577, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Michel s'est enfin décidé à revenir avec une offrande mangeable, comme toujours.",
+      "rsr": "Restored from tome09.docx ¶1578, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Décidément je suis une petite personne très à plaindre, encore un qui veut “m'oublier”. Le petit pose en Byron et raconte sa passion à tous les passants.",
+      "rsr": "Restored from tome09.docx ¶1579, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Très fatiguée, j'ai montré le plus charmant entrain et mon père fut ravi. Enfin je daignais faire quelque frais pour ces parasites !",
+      "rsr": "Restored from tome09.docx ¶1580, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A la fin de la soirée je vins habillée du costume d'hier, c'est-à-dire bonnet velours et or, robe turque ouverte sur un jupon de soie blanche, manches flottantes ouvertes sur des fourreaux blancs, une épée courte au côté, dont le ceinturon formait la pointe par le poids de l'arme. Et une croix de Saint-Georges sur la poitrine.",
+      "rsr": "Restored from tome09.docx ¶1581, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Cette croix a été donnée par le grand-duc Michel ou Nicolas à mon oncle Voldemar sur le Kourgan de Malakoff, où il restait seul avec quatre ou cinq soldats, sans perdre courage et chargeant lui-même les canons. Le grand-duc détacha la croix de sa boutonnière et la mit à celle de mon oncle. Au retour de la campagne de Crimée, maman avait serré la précieuse croix et je l'ai retrouvée dans “les fouilles” de Tchernakowka.",
+      "rsr": "Restored from tome09.docx ¶1582, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon apparition détourna l'attention du jeu. Je jouai moi-même et montai chez moi. Je ne m'étais prodiguée que jusqu'au diner. Après, je passai dans la bibliothèque avec mes deux tantes et nous parlâmes de l'Italie",
+      "rsr": "Restored from tome09.docx ¶1583, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me demande ce que je dois penser de toi, dit Hélène, tu es ou une enfant ou une grande canaille, et il y a des moments où je te crois folle.",
+      "rsr": "Restored from tome09.docx ¶1584, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne le deviendrai pas, mon état naturel est de mêler le sérieux et la folie ensemble, le grand et le grotesque, le mélancolique et le ridicule.",
+      "rsr": "Restored from tome09.docx ¶1585, Mon Journal t.9 p.111 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je découvre que je m'anéantis à la campagne, je deviens si hébétée que je ne sais plus ce que je veux. Je sens que mon journal est stupide: [A] défaut de choses à raconter, j'aurais dû raisonner cela amuserait. J'en suis réduite à m'amuser des étonnements de Crocodiles, comme hier, je parus à dîner costumée comme ce soir, devant deux fonctionnaires de Poltava; comme personne ne me dit rien ils se contentèrent de me regarder. C’est seulement au second plat que mon père éclata de rire et les mit à leur aise en leur expliquant que je me livrai à des fantaisies.",
+      "rsr": "Restored from tome09.docx ¶1586, Mon Journal t.9 pp.111–112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Chers et fichus-lecteurs, ne vous lassez pas, sûrement je vous dirai quelque bonne histoire dans la suite. Vivez de ma vie, ennuyez-vous, attendez avec moi, je vous promets de tout faire pour m'amuser. Hé ! après tout, si vous aimiez mieux lire quelque roman crasseux, lisez ! Je suis d'avance persuadée que tous vous êtes des pédants, ou des ignorants, des ennuyeux ou des ennuyés, en un mot un troupeau de canailles qui en masse peut flatter ma vanité, mais, chacun à part, ne sont bons à rien.",
+      "rsr": "Restored from tome09.docx ¶1587, Mon Journal t.9 p.112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En me dédaignant vous me donnez la plus piteuse idée de votre intelligence.",
+      "rsr": "Restored from tome09.docx ¶1588, Mon Journal t.9 p.112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin, avec l'aide de Dieu, je suis parvenue à tout ce que je désirais ici. Je suis la maîtresse, on me respecte, on m'obéit, je suis ce que je [Mots noircis: deviens pourtant] au bout d'un certain temps. Mon père est à mon service autant que le lui permettent ses *engagements.* Vous pensez bien que moi, la fille, je n'ai pas la prétention ridicule de supplanter la maîtresse. J'attends Mme Tutcheff, elle m'est très nécessaire. J'attends Pacha. Il télégraphie à la Princesse, lui demandant ce qu'il a fait pour mériter un tel mécontentement.",
+      "rsr": "Restored from tome09.docx ¶1589, Mon Journal t.9 p.112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je veux m'en faire un ami éternel, il mérite de l'être. Un tel caractère d'or, j'aurais beaucoup donné pour que mon frère fût ainsi... d'ailleurs les choses sont bien comme elles sont, [Mots noircis] et cet homme, seulement cousin, ajoute un certain piquant à nos relations qui n'auraient peut-être aucun charme étant fraternelles.",
+      "rsr": "Restored from tome09.docx ¶1590, Mon Journal t.9 p.112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne comprends aucun intérêt, aucun amour vif pour les parents masculins. Les parents femmes peuvent être aimés beaucoup et tendrement, les parents hommes ne peuvent aimés que très froidement, protégés, comblés si c'est possible. Tout cela d'après moi.",
+      "rsr": "Restored from tome09.docx ¶1591, Mon Journal t.9 p.112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je déteste les tendresses entre frère et sœur, je n'embrasse presque jamais le mien, et lorsque je l'embrasse c'est pour la forme et pour lui montrer ma bienveillance.",
+      "rsr": "Restored from tome09.docx ¶1592, Mon Journal t.9 p.112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne connais qu'un seul genre de baiser qui fasse plaisir.",
+      "rsr": "Restored from tome09.docx ¶1593, Mon Journal t.9 p.112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et c'est naturel à mon âge.",
+      "rsr": "Restored from tome09.docx ¶1594, Mon Journal t.9 p.112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Chaque fois que je rencontre le nom de Rome dans mes lectures, je ferme les yeux et je baise ces quatre lettres imprimées avec une adoration superstitieuse.",
+      "rsr": "Restored from tome09.docx ¶1595, Mon Journal t.9 p.112 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "L'état de mon âme m'a empêché de voir Rome et d'en parler. Et pourquoi en parler ? Les autres ont tout décrit, je me bornerai à dire ce que je sens tout en enviant les gens qui font mention de chaque ruine, de chaque rocher en y accolant un nom ou un fait d'histoire.",
+      "rsr": "Restored from tome09.docx ¶1596, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'éprouve rien moins que de la terreur quand je pense que je pourrais ne pas y retourner.",
+      "rsr": "Restored from tome09.docx ¶1597, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et mon but à présent et pour toujours, c'est cette ville divine. Paris donnera la célébrité, que je porterai à Rome, dont je ferai ma ville, mon nid, mon bonheur. Je dois vivre en Italie, pays de l'amour, de l'excentricité, royaume des femmes.",
+      "rsr": "Restored from tome09.docx ¶1598, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'adore Rome j'y retournerai mais en février seulement.",
+      "rsr": "Restored from tome09.docx ¶1599, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-10-07.md"
+  },
+  {
+   "file": "1876-10-08.md",
+   "date": "1876-10-08",
+   "heading": "Dimanche 8 octobre 1876 (26 septembre)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Deux lignes cancellées]",
+      "rsr": "Restored from tome09.docx ¶1601, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "new": {
+      "french": "Une journée de jugements par excellence. Le matin mon père qui est grand juge de paix, eut à juger un différend entre deux villages de cosaques voisins. Et d'abord rassurez-vous, ces cosaques ne sont point de ces monstres sauvages qu'on aime à se figurer à l'étranger; ce sont de bons paysans bien niais, bien rusés et bien... tout au monde excepté féroces et sauvages.",
+      "rsr": "Restored from tome09.docx ¶1602, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le nom *Cosaque* provient dit-on de cosà (chèvre) et fut donné aux habitants de l'Ukraine (Petite Russie) à cause de leur agilité à la course !! Mais comme il est humiliant pour un si glorieux peuple de tirer son nom d'un pareil animal, dit un historien du pays, il faut chercher une autre étymologie.",
+      "rsr": "Restored from tome09.docx ¶1603, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne la chercherai point et je me contenterai de dire qu'à notre époque on désigne sous le nom de cosaques ceux des paysans qui n'ont jamais été serfs de propriétaires et qui lors de l'esclavage en Russie étaient inscrits comme appartenant à la Couronne.",
+      "rsr": "Restored from tome09.docx ¶1604, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon père revêtit sa chaîne, Kamesky mit une chaîne de montre, on en fit l'huissier; Pavelko fut le secrétaire, nous et ceux qui sont restés d'hier, furent le public. C'était très amusant et non exempt d'une certaine dignité, seulement j'avais toujours envie de crier: mais non, ce n'est pas comme cela !",
+      "rsr": "Restored from tome09.docx ¶1605, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On s'était arrangé d'avance, qu'on ne ménagerait personne et que celui de nous qui enfreindrait l'ordre serait reconduit hors de la salle par l'huissier-Kamesky.",
+      "rsr": "Restored from tome09.docx ¶1606, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pour la circonstance je me revêtis de la robe noire et argent que je portais au bal masqué du Capitole et aux audiences du Vatican. Des souliers de satin rouge et mon cœur d'argent en sautoir. Des mitaines de soie noire.",
+      "rsr": "Restored from tome09.docx ¶1607, Mon Journal t.9 p.113 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au bout d'une dizaine de dépositions j'en eus assez et je me retirai dans la chambre de Paul (la comédie se passait dans la maison rouge) où Gedanoff fort sérieusement me fit une déclaration au nom du prince son ami.",
+      "rsr": "Restored from tome09.docx ¶1608, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Je le dis, ajouta-t-il, parce que je sais que vous n'attachez aucune importance [Mots noircis: à la grande] passion de mon jeune ami.",
+      "rsr": "Restored from tome09.docx ¶1609, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le jeune ami, plus Hamlet que jamais, errait partout.",
+      "rsr": "Restored from tome09.docx ¶1610, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Imaginez-vous l'horreur Pavelko m'accable de compliments !",
+      "rsr": "Restored from tome09.docx ¶1611, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et Gedanoff ayant trouvé par terre le fer de mon talon le serre dans son porte-monnaie, encore si j'étais ferrée d'or...",
+      "rsr": "Restored from tome09.docx ¶1612, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Mots noircis]",
+      "rsr": "Restored from tome09.docx ¶1613, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "new": {
+      "french": "A dîner, et quand nous fûmes débarrassés des étrangers on parla de Nice et je dis à la suite de je ne sais plus quoi que mon frère se promenait en plein jour avec des actrices, ce qui me força à ne plus sortir avec lui.",
+      "rsr": "Restored from tome09.docx ¶1614, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Je ne te comprends pas, dit mon père croyant à une impertinence, mais en ce moment il nous arriva une nouvelle effroyable...",
+      "rsr": "Restored from tome09.docx ¶1615, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Chocolat en compagnie des gamins du village, a tué et rôti un chien !",
+      "rsr": "Restored from tome09.docx ¶1616, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Un tel acte de barbarie me révolta. On en rit un peu, on s'indigna beaucoup. Chocolat fut appelé je voulus d'abord le renvoyer à l'écurie où on lui donnerait vingt coups de verges.",
+      "rsr": "Restored from tome09.docx ¶1617, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais Hélène me conseilla de m'assurer du crime et voici de quelle manière.",
+      "rsr": "Restored from tome09.docx ¶1618, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'appelai le garçon et le priai de me dire la vérité, il nia tout à fait, et ici se place un joli mot.",
+      "rsr": "Restored from tome09.docx ¶1619, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Mais pourquoi l'aurais-je fait, dit-il, je n'étais pas payé pour le faire !",
+      "rsr": "Restored from tome09.docx ¶1620, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Chocolat ! est-ce une raison pour faire le mal ?",
+      "rsr": "Restored from tome09.docx ¶1621, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Non, mais on le fait toujours plus facilement que lorsqu'on n’est pas payé.",
+      "rsr": "Restored from tome09.docx ¶1622, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: Ce que je me vante d'être cruelle !]",
+      "rsr": "Restored from tome09.docx ¶1623, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "margin"
+     }
+    },
+    {
+     "new": {
+      "french": "Alors je lui parlai de Dieu et quand il m'eut convaincue de sa foi, j'allai placer dans la bibliothèque une image que je couvris de poudre de riz, j'éteignis les lumières et amenant Chocolat devant l'image :",
+      "rsr": "Restored from tome09.docx ¶1624, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Mets-toi à genoux Chocolat, je te laisse, seul devant le Bon Dieu fais le signe de la croix et jure que tu ne mens pas en niant. Si tu mens tu ne baiseras pas l'image, je m'en rapporte à ta conscience puisque je ne te verrai pas faire.",
+      "rsr": "Restored from tome09.docx ¶1625, Mon Journal t.9 p.114 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au bout d'un instant Chocolat [Mot noirci: apparaissait] au salon avec le bout du nez tout blanc.",
+      "rsr": "Restored from tome09.docx ¶1626, Mon Journal t.9 pp.114–115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-10-08.md"
+  },
+  {
+   "file": "1876-10-09.md",
+   "date": "1876-10-09",
+   "heading": "Lundi 9 octobre 1876 (27 septembre)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome09.docx ¶1627 (Mon Journal t.9 p.115): the date line «Lundi 9 octobre 1876 (27 septembre)» is followed directly by the next date line; empty-day note as in 068 (2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-10-09-11.md"
+  },
+  {
+   "file": "1876-10-10.md",
+   "date": "1876-10-10",
+   "heading": "Mardi 10 octobre 1876 (28 septembre)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome09.docx ¶1628 (Mon Journal t.9 p.115): the date line «Mardi 10 octobre 1876 (28 septembre)» is followed directly by the next date line; empty-day note as in 068 (2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-10-09-11.md"
+  },
+  {
+   "file": "1876-10-11.md",
+   "date": "1876-10-11",
+   "heading": "Mercredi 11 octobre 1876 (29 septembre)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Ces trois jours se résument en un mot : souffrance, souffrance et souffrance !",
+      "rsr": "Restored from tome09.docx ¶1630, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je n'avais pas assez des difficultés d'argent, de fermiers, d'Alexandre, de ces milles agacements navrants !",
+      "rsr": "Restored from tome09.docx ¶1631, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il me faut une autre folie. Rome ! Rome dont j'adore chaque rue, chaque maison, chaque boutique de chapelets, chaque ruine, chaque église !",
+      "rsr": "Restored from tome09.docx ¶1632, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C'est une fièvre, un délire et je n'en dirai que quelques mots qui suffisent, quelque peu nombreux qu'ils soient à me mettre dans un de ces états d'exaspération et de désespoir dont personne au monde ne peut se faire une idée.",
+      "rsr": "Restored from tome09.docx ¶1633, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Toutes ces nuits j'ai couché dans la chambre de mon père et nous avons veillé fort tard occupés de discutions comico-tragiques. A peine mon père ébauchait-il une plainte conjugale que je lui criais que je ne l'avais pas marié, que je n'étais pas sa belle-mère et que je ne savais rien.",
+      "rsr": "Restored from tome09.docx ¶1634, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Je suis venue après vous, vous vous êtes trouvés vous-mêmes, aimez-vous, ou mangez-vous, peu m'importe !",
+      "rsr": "Restored from tome09.docx ¶1635, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais j'en finissais toujours par discuter le voyage. Mon père est pour Paris, moi aussi mais la nuit dernière j'eus comme un accès de folie romaine. Non contente, comme les nuits précédentes, de jouer du violon je m'emparai du tam-tam japonais. J'arpentais la chambre et, moitié désespérée, moitié rieuse, je criais que je voulais aller à Rome et que si mon père ne m'y conduisait dans le monde cet hiver je m'empoisonnerais en écrivant dans mon journal et partout que c'est lui qui m'a tuée !",
+      "rsr": "Restored from tome09.docx ¶1636, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- J'ai promis cela à maman, à ma tante, je te le promets à toi à présent et prends garde ! Je suis lasse, lasse lasse !",
+      "rsr": "Restored from tome09.docx ¶1637, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et je jetais par terre le tam-tam ce qui produisait un fracas et un résonnement [sic] effroyable.",
+      "rsr": "Restored from tome09.docx ¶1638, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Un instant je m'arrêtai mais ce ne fut que pour écrire les deux lettres que voici. La première est envoyée par télégraphe à Nice, d'où ma tante l'enverra au “Figaro”. Et d'abord sachez que la chansonnette dont on raffole à Paris est \"L'amant d'Amanda\" dans un des derniers numéros du “Figaro”.",
+      "rsr": "Restored from tome09.docx ¶1639, Mon Journal t.9 p.115 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Albert Millaud publie \"l'histoire du petit Gambetta\" représentée en vingt-quatre tableaux, le dernier tableau représente Gambetta arrivé au faîte des honneurs et se mariant avec la Princesse Amanda, fille du grand duc de Gérolstein... Mais voici ma lettre :",
+      "rsr": "Restored from tome09.docx ¶1640, Mon Journal t.9 pp.115–116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Monsieur le rédacteur je vous prie avec instance d'insérer la lettre suivante nécessaire pour faire cesser un bruit scabreux.\nJ'ai lu dans votre gracieux journal l'histoire du petit Gambetta et je peste contre le dernier [Mot noirci: vendu]. Jamais je ne consentirai à devenir la femme d'un homme dont l'âme hypothéquée à Satan et faute d'un paiement a été saisi et vendue à l'enchère publique, à l'heure de minuit, au marché des chevaux et des chiens.\nAmanda.",
+      "rsr": "Restored from tome09.docx ¶1641–1643, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à un rédacteur de journal, signée « Amanda » (copie), 11 octobre 1876"
+     }
+    },
+    {
+     "new": {
+      "french": "Celle-là est expédiée télégraphiquement à ma tante, celle-ci par poste.",
+      "rsr": "Restored from tome09.docx ¶1644, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Monsieur le rédacteur, n'ayant pas l'avantage de connaître personnellement le citoyen L. G. je vous prie de lui communiquer par la voie de votre honoré journal la lettre suivante qui est de la plus haute importance.\n“Je reviens d'un voyage fort long et fort instructif en Chine et au Japon.\nJ'avais l'avantage d'avoir pour cicérone un mandarin très distingué. Mais rien dans ces merveilleux pays ne m'a frappée comme le sublime usage du grand couteau. Parmi d'autres curiosités j’ai rapporté plusieurs de ces couteaux et j’en tiens un à votre service du moment où vous voudriez l'accepter avec les mots traditionnels et le sens authentique : Fourre-toi ça dans le ventre !”",
+      "rsr": "Restored from tome09.docx ¶1645–1647, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Marie à un rédacteur de journal, pour « le citoyen L. G. » (copie), 11 octobre 1876"
+     }
+    },
+    {
+     "new": {
+      "french": "C'est un commencement de correspondance j’ai déjà rassemblé une collection de mémoires sur la Chine et le Japon.",
+      "rsr": "Restored from tome09.docx ¶1648, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Grâce à Gambetta je connaîtrai à merveille ces merveilleux pays.",
+      "rsr": "Restored from tome09.docx ¶1649, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ceci fait que je repris ma course affolée.",
+      "rsr": "Restored from tome09.docx ¶1650, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Je veux aller à Rome, je veux aller à Rome, ou bien je veux mourir !",
+      "rsr": "Restored from tome09.docx ¶1651, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me jetais sur mon canapé, on parla de mon chagrin. Mon père m'aime, il a trop d'esprit pour être trompé en cela, je lui parle franchement ou plutôt c'est lui-même qui me parle.",
+      "rsr": "Restored from tome09.docx ¶1652, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'accuse la Tutcheff, et je fonds en larmes, je voudrais fondre tout à fait, m'évaporer, périr !",
+      "rsr": "Restored from tome09.docx ¶1653, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: Voilà qui est beau !]",
+      "rsr": "Restored from tome09.docx ¶1654, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild).",
+      "kind": "margin"
+     }
+    },
+    {
+     "new": {
+      "french": "Il viendra où je voudrai.",
+      "rsr": "Restored from tome09.docx ¶1655, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais où irai-je ?! A Rome, il faut y effacer la honteuse impression.",
+      "rsr": "Restored from tome09.docx ¶1656, Mon Journal t.9 p.116 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais Paris, mais Cassagnac et les conspirations. Cassagnac ministre sera difficile à atteindre, il faut s'en faire un ami tandis qu'il n'est rien encore. Si l'Empire revient, tant mieux; sinon, on s'en passera et la vie à Paris m'en consolera.",
+      "rsr": "Restored from tome09.docx ¶1657, Mon Journal t.9 pp.116–117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais Rome !",
+      "rsr": "Restored from tome09.docx ¶1658, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Car enfin, j'ai bien le droit une fois dans ma vie d'avoir des sentiments humains ! J'ai bien le droit d'aimer quelque chose si je me défends d'aimer quelqu'un ?",
+      "rsr": "Restored from tome09.docx ¶1659, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'avais les doigts glacés en arpentant la chambre et je riais tout haut tout en poursuivant ma pensée tout bas.",
+      "rsr": "Restored from tome09.docx ¶1660, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pourquoi chercher des raisons, pourquoi toujours calculer ! Et en ce moment je ne calculais pas, pour la première fois de ma vie j'oubliai tout pour ne me souvenir que de Rome, n'aimer que Rome et n'avoir qu'une pensée, vivre à Rome !",
+      "rsr": "Restored from tome09.docx ¶1661, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Aller à Rome ou mourir, il vaut mieux mourir que vivre de douleurs et de vexations !",
+      "rsr": "Restored from tome09.docx ¶1662, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon père me prit dans ses bras et me coucha presque par force sur ma chaise longue. Je m'endormis bientôt, enragée, folle, amoureuse.",
+      "rsr": "Restored from tome09.docx ¶1663, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce matin il faisait beau comme en Italie, je sortis sur le perron mais un rayon de soleil me forca de rentrer à l'instant même. Un rayon de soleil comme à Rome, il m'a paru éclairer la place du Peuple, l'Obélisque et les terrasses du Pincio... les larmes m'étouffaient et je lançai l'horrible tam-tam par terre. La bossue poussa un cri et se sauva dans sa chambre.",
+      "rsr": "Restored from tome09.docx ¶1664, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En ce moment l'homme que j'ai envoyé à Alexandre revient sans me rien apporter qu'un plan de mes terres, mais un plan fait en 1770 ! Il y a cent six ans !",
+      "rsr": "Restored from tome09.docx ¶1665, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enervée, humiliée, dans une prostation touchant la démence je m'assis près d'une table et fondis en larmes !",
+      "rsr": "Restored from tome09.docx ¶1666, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais il fallut se rasséréner, car Vinogradoff, un des plus importants fermiers, allait venir.",
+      "rsr": "Restored from tome09.docx ¶1667, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Jusqu'à dîner ce ne furent que discussions de prix, de conditions de paiements etc. etc.",
+      "rsr": "Restored from tome09.docx ¶1668, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je n'ai pas d'expérience, bien, mais l'homme a dû voir que je suis tenace.",
+      "rsr": "Restored from tome09.docx ¶1669, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mes tantes, sous prétexte de promenade, sont allées faire une visite à la maîtresse de mon père.",
+      "rsr": "Restored from tome09.docx ¶1670, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Tes sœurs vont voir tes femmes ! lui dis-je hier.",
+      "rsr": "Restored from tome09.docx ¶1671, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Il n'y a aucune femme ! s'écria-t-il très confus.",
+      "rsr": "Restored from tome09.docx ¶1672, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Et tu oses, continuai-je, tu oses reprocher quelque chose aux miens !!",
+      "rsr": "Restored from tome09.docx ¶1673, Mon Journal t.9 p.117 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La Tutcheff l'appelle à Nice, et je lui ai juré [Mot noirci : que] s'il allait à Nice, de louer des hommes pour le souffleter publiquement, lui et sa sœur.",
+      "rsr": "Restored from tome09.docx ¶1674, Mon Journal t.9 pp.117–118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Car en allant vivre à Nice, quand nous n'y serons plus, tu me perdrais de scandale !",
+      "rsr": "Restored from tome09.docx ¶1675, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Eh bien moi, je louerais des hommes pour qu'ils te rendent la pareille.",
+      "rsr": "Restored from tome09.docx ¶1676, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Ce serait ridicule, mon cher. Moi, en te faisant souffleter, je me venge, c'est donc fini, tandis que toi en me le rendant tu ne me rends rien mais tu me donnes, ce qui serait injuste et stupide.",
+      "rsr": "Restored from tome09.docx ¶1677, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et nous nous disions des choses encore plus belles que celles-là, en riant.",
+      "rsr": "Restored from tome09.docx ¶1678, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais tout cela m'importe peu... non assez.",
+      "rsr": "Restored from tome09.docx ¶1679, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le seul nom de Rome m'exalte et la moindre description, le moindre souvenir me font un effet tel que je ne puis supporter sa violence, je tombe pâmée et je chasse mes pensées au bout du monde; ces souvenirs affreux, voluptueusement poignants m'af- olent ! Tant, tant... tant que je n'ai pas la force, littéralement, pas la force d'y penser.",
+      "rsr": "Restored from tome09.docx ¶1680, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous nous sommes expliqués avec mon père à propos de Miloradovitch et d'une lettre que maman m'a écrite à ce sujet. Ce fut long et mon père me prouva son affection. Maman prétend qu'il a éloigné exprès Gritz et ce n'est pas vrai (et qui sait?)",
+      "rsr": "Restored from tome09.docx ¶1681, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Au moins, dit-il, on ne dira pas que nous voulions *l'attraper,* mais *elle,* au lieu de me conseiller... *elle* aurait mieux fait de ne pas faire tout ce qu'elle a fait... alors on ne le renverrait pas à Vienne !",
+      "rsr": "Restored from tome09.docx ¶1682, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vrai, laid mais vrai. Elle n'a pas fait, mais les apparences accusent et cela revient au même.",
+      "rsr": "Restored from tome09.docx ¶1683, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne dis rien de la... de la *ville,* parce que je veux pouvoir manger, je n'ai presque rien mangé depuis hier. Et j'ai tremblé la fièvre... j'aime Rome, Antonelli c'est différent.",
+      "rsr": "Restored from tome09.docx ¶1684, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si... non. Ah ! Mon Dieu soyez bon pour moi.",
+      "rsr": "Restored from tome09.docx ¶1685, Mon Journal t.9 p.118 (missing from the original extraction, 2026-09-27 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-10-09-11.md"
+  }
+ ],
+ "drop_files": [
+  {
+   "file": "1876-10-07.md",
+   "reason": "empty stub (no paragraph IDs); the day is rebuilt from tome09.docx as a new entry of the same name (2026-09-27 rebuild)"
+  },
+  {
+   "file": "1876-10-08.md",
+   "reason": "empty stub (no paragraph IDs); the day is rebuilt from tome09.docx as a new entry of the same name (2026-09-27 rebuild)"
+  },
+  {
+   "file": "1876-10-09-11.md",
+   "reason": "empty stub (no paragraph IDs) for a range the manuscript files elsewhere (2026-09-27 rebuild)"
+  },
+  {
+   "file": "1876-10-12-13.md",
+   "reason": "empty stub (no paragraph IDs) for a range the manuscript files elsewhere (2026-09-27 rebuild)"
+  }
+ ],
+ "_cross_carnet": []
+}

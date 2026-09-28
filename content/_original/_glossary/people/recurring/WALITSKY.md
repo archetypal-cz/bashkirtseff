@@ -132,8 +132,8 @@ Walitsky was far more than a physician. He was a constant presence in family lif
 
 %% GLO_WALITSKY.0019 %%
 ### Confidant and Go-Between
-- Relayed confidences: told Maman about Antonelli's nocturnal activities -- "il passait toutes ses nuites avec des filles! En sortant de chez moi!!!" (%% 067.0102 %%)
-- Participated in family councils about finances: "Walitsky et ma tante ont passe la soiree a me persuader que mes calculs ne servaient a rien" (%% 067.0140 %%)
+- Relayed confidences: told Maman about Antonelli's nocturnal activities -- "il passait toutes ses nuites avec des filles! En sortant de chez moi!!!" (%% 067.1013 %%)
+- Participated in family councils about finances: "Walitsky et ma tante ont passe la soiree a me persuader que mes calculs ne servaient a rien" (%% 067.1053 %%)
 - Observed Marie's romantic reactions: "Walitsky a dit: C'est Moussia et Dina" regarding a mysterious bouquet sender (%% 018.0083 %%)
 
 %% GLO_WALITSKY.0020 %%
@@ -144,7 +144,7 @@ Mme Kondareff's famous quip captures his position in the all-female household: "
 ## The Poisoning Scandal
 
 %% GLO_WALITSKY.0022 %%
-In October 1876, Marie hears explosive gossip during a visit to Poltava (%% 066.0480 %%):
+In October 1876, Marie hears explosive gossip during a visit to Poltava (%% 066.0629 %%):
 
 > "On dit que Walitsky, Walitsky, entendez-vous, Walitsky a empoisonne M. Romanoff."
 
@@ -298,7 +298,7 @@ This stands in extraordinary contrast to her harsh judgments of almost everyone 
 - **1874 (April)**: Slapped an Englishman at Monaco defending Paul (%% 018.0082 %%)
 - **1874 (summer)**: With family at Spa; wrote satirical verse about suitors (%% 022.0105 %%)
 - **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (%% 055.0290 %%)
-- **1876 (October)**: Accused (absurdly) of poisoning Romanoff (%% 066.0480 %%)
+- **1876 (October)**: Accused (absurdly) of poisoning Romanoff (%% 066.0629 %%)
 - **1877 (summer)**: Recommended Soden spa for Marie's throat (%% 073.0220 %%)
 - **1877 (December 9)**: Nursing paralyzed grandfather: "court et soigne et grogne et console" (%% 076.0363 %%)
 - **1877 (December 27)**: Critically ill with heart and respiratory failure (%% 077.0029 %%)
@@ -374,8 +374,8 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0054 %%
 ### Books 66-67 (Ukraine 1876)
-- %% 066.0480 %% (Oct 4, 1876): Poisoning accusation -- "Walitsky a empoisonne M. Romanoff"
-- %% 067.0102 %% (Nov 21): Relays Antonelli's scandalous behavior to Maman
+- %% 066.0629 %% (Oct 4, 1876): Poisoning accusation -- "Walitsky a empoisonne M. Romanoff"
+- %% 067.1013 %% (Nov 21): Relays Antonelli's scandalous behavior to Maman
 
 %% GLO_WALITSKY.0055 %%
 ### Books 71-73 (Nice, Paris 1877)
