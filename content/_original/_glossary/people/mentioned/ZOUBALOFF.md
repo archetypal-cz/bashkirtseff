@@ -16,7 +16,7 @@ last_updated: 2026-09-27
 A Russian couple in Nice in the winter of 1876-1877, not otherwise identified.
 
 ## Relevance to Marie
-Marie slips away when they are announced on 23 January 1877 («Je n'ai à faire avec ces gens-là», 068.0452), but they dine at the house on 3 February, when they compare her to a Vestal (068.0600, 068.0616); M. Zoubaloff is in the party at the rink on 5 February (068.0634).
+Marie slips away when they are announced on 23 January 1877 («Je n'ai à faire avec ces gens-là», 068.0450), but they dine at the house on 3 February, when they compare her to a Vestal (068.0598, 068.0614); M. Zoubaloff is in the party at the rink on 5 February (068.0632).
 
 ## References in Diary
 - 1877-01-23, 1877-02-03, 1877-02-05 (carnet 068)

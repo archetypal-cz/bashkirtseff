@@ -290,3 +290,72 @@ The worktrees were removed afterwards.
 | 1877-02-23.md | Vendredi 23 février 1877 | 27 | 0 | 0 | 0638, 0660 | margin×3, other×3 |
 
 Total new paragraphs: 651, 84,244 chars.
+
+
+## Withdrawn cover page (KRR, 2026-09-28)
+
+The cover entry `1876-12-12-cover.md` (068.0001–0002) was removed by a second rebuild on 2026-09-28. The printed edition alone cannot show which part of that page is Marie's and which is the editors'. The manuscript has not been scanned (a digitisation would cost about €90k), so there will be no cover entries until then. The rest of the carnet renumbers by −2: 068.0003 → 068.0001, and so on. The old URL redirects to `1876-12-12`.
+
+- Source: tome09.docx ¶3381–3388, Mon Journal t.9 p.225 (Tome9.pdf p.229).
+- Glosses moved elsewhere: the Latin gloss of «Dubium, illusio, deceptio, oppressio» now sits on 5 Jan 1877 (old 068.0280, now 068.0278), where it had been attached two paragraphs too late (see below). A row for the motto was added to `_glossary/culture/languages/LATIN.md`. *Gloriae Cupiditate* is already covered there.
+
+Exact `_original` file as it stood before withdrawal (with its RSR/LAN notes and footnotes), to restore once the manuscript can be checked:
+
+````markdown
+---
+date: 1876-12-12
+entry_id: 1876-12-12-cover
+carnet: "068"
+location: Nice
+locations: [Nice, Rome, Naples]
+entities:
+  people: []
+  places: [Nice, Rome, Naples]
+  cultural: []
+workflow:
+  research_complete: true
+  linguistic_annotation_complete: true
+  last_modified: 2026-09-27T22:18:57
+  modified_by: RSR
+  kernberger_covered: true
+para_start: 1
+para_end: 2
+---
+%% 068.0001 %%
+%% kind: cover source="page de titre du Livre 68" %%
+%% [#Latin](../_glossary/culture/languages/LATIN.md) [#French](../_glossary/culture/languages/FRENCH.md) [#Nice](../_glossary/places/cities/NICE.md) [#Rome](../_glossary/places/cities/ROME.md) [#Naples](../_glossary/places/cities/NAPLES.md) %%
+%% 2026-09-27T21:49:56 RSR: Restored from tome09.docx ¶3381–3387, Mon Journal t.9 p.225: the title page Marie wrote for Livre 68 (motto, book number, dates, places). Not in the original extraction; cover entry per KRR 2026-09-27. %%
+%% 2026-09-27T22:18:57 RSR: Title page of Livre 68 in Marie's hand. «Gloriae Cupiditate» and «Dubium, illusio, deceptio, oppressio» are Latin; keep them in Latin in every translation and let the footnotes carry the meaning. The four-word motto recurs in the diary on 5 January 1877 (068.0280) and 10 January 1877 (per Kernberger 2013, which renders the 10 January passage). The places line «Nice / depuis le 6 février Rome et Naples» matches the notebook's itinerary: Nice until 6 Feb, then Rome (7 Feb) and Naples (from 8 Feb). %%
+%% 2026-09-27T22:40:54 LAN: LATIN: keep both mottoes in Latin («Gloriae Cupiditate» = out of desire for glory; «Dubium, illusio, deceptio, oppressio» = doubt, illusion, disappointment, oppression); the footnotes carry the meaning. «Livre 68ème» = notebook no. 68 (Marie's «livre» = notebook, not a published book). %%
+%% 2026-09-27T22:40:54 LAN: TRAP: STRUCTURAL — this is the notebook's title page, set as seven separate lines; keep the line breaks and do not turn it into prose or a heading. %%
+Gloriae Cupiditate[^068.0001.1]
+Livre 68ème
+depuis le mardi 12 décembre 1876
+jusqu'au vendredi 23 février 1877
+Dubium, illusio, deceptio, oppressio[^068.0001.2]
+Nice
+depuis le 6 février Rome et Naples
+
+[^068.0001.1]: Latin: roughly "out of desire for glory" (literally "by the desire of glory"). Marie wrote it at the head of the title page of this notebook.
+
+[^068.0001.2]: Latin: "doubt, illusion, deception, oppression." On 5 January 1877 Marie calls these four words "my life expressed in distinguished language".
+
+%% 068.0002 %%
+%% kind: cover source="page de titre du Livre 68, écrit en travers" %%
+%% 2026-09-27T21:49:56 RSR: Restored from tome09.docx ¶3388, Mon Journal t.9 p.225. The docx OCR reads «23 mail 875»; the printed page reads «23 mai1875». Written across the title page; cover entry per KRR 2026-09-27. %%
+%% 2026-09-27T22:18:57 RSR: Crosswise note on the title page, dated 23 May 1875, eighteen months before the notebook opens. Its purpose is unknown; nothing in the surrounding diary explains it (the first meeting with Audiffret recorded in the glossary is 28 May 1875). Translate the date only; do not interpret it. %%
+%% 2026-09-27T22:40:54 LAN: «[En travers: …]» = written crosswise across the page; editorial bracket label, translate the label as elsewhere in the corpus. Only the date is Marie's. %%
+[En travers: 23 mai 1875]
+````
+
+### Footnote drift fixed in the same pass (1877-01-05)
+
+The footnote backfill had harvested from the ID-drifted en file, so six footnote markers in `_original/068/1877-01-05.md` sat two paragraphs late. They now sit on the word they gloss, and their definitions are in that paragraph:
+- `[^acrostiche]` → «En voilà un four ?»
+- `[^giaour]` → «affreux Giaour»
+- `[^girofla]` → «Girofla»
+- `[^culpamea]` → «Culpa mea.»
+- `[^latin]` → «Dubium, illusio, deceptio oppressio.»
+- `[^cabinet]` → «cabinet d'études»
+
+The embedded French copies in cz, uk, en and fr were updated to match. The translations already had their markers in the right places.

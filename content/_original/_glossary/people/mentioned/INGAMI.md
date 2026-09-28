@@ -14,7 +14,7 @@ last_updated: 2026-09-27
 A young man of Roman society, friend of Pietro Antonelli; not otherwise identified.
 
 ## Relevance to Marie
-At the Apollo masked ball on 7 February 1877 Marie, disguised, teases him about Antonelli in Italian (068.0663-0664) and sends him through the crowd to fetch Pizzardi, «le plus bel homme de Rome»; «le bon Ingami» brings back the man whom Marie at first refuses to believe is Pizzardi (068.0671-0684).
+At the Apollo masked ball on 7 February 1877 Marie, disguised, teases him about Antonelli in Italian (068.0661-0664) and sends him through the crowd to fetch Pizzardi, «le plus bel homme de Rome»; «le bon Ingami» brings back the man whom Marie at first refuses to believe is Pizzardi (068.0669-0684).
 
 ## References in Diary
 - 1877-02-08 (Rome, veglione at the Apollo)
