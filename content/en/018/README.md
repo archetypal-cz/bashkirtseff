@@ -4,7 +4,7 @@
 **Dates**: 28 March -- 23 April 1874
 **Location**: Nice
 **Entries**: 26
-**Paragraphs**: 018.0001 -- 018.0334
+**Paragraphs**: 018.0001 -- 018.0370
 
 ## Status
 

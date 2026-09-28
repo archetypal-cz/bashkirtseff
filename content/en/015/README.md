@@ -4,7 +4,7 @@
 **Dates**: 2 January -- 25 January 1874
 **Location**: Nice
 **Entries**: 24
-**Paragraphs**: 015.0001 -- 015.0330
+**Paragraphs**: 015.0001 -- 015.0336
 
 ## Status
 

@@ -2,7 +2,7 @@
 
 **Period**: 25 December 1874 – 20 January 1875
 **Location**: Nice (entries 1–19), Paris (entries 20–27)
-**Paragraphs**: 028.0001 – 028.0167
+**Paragraphs**: 028.0001 – 028.0165
 
 ## Status
 
@@ -18,32 +18,32 @@
 | Date | Paragraphs | Location | Notes |
 |------|------------|----------|-------|
 | 1874-12-25 | 028.0001 | Nice | Christmas Day; villa donation; Hamilton coded signature |
-| 1874-12-26 | 028.0002 | Nice | Mignon parody; Latin/Italian; Woerman visit |
-| 1874-12-27 | 028.0003 | Nice | Brief; Maman ill; chemistry |
-| 1874-12-28 | 028.0004 | Nice | Russian proverb; Uncle Georges attraction |
-| 1874-12-29 | 028.0005 | Nice | Dog fight; anti-Italian tirade; 1880 retraction |
-| 1874-12-30 | 028.0006 | Nice | Police complaint; Italian coded |
-| 1874-12-31 | 028.0007–017 | Nice | Riding with Mauldre; "hong for"; Cercle; Rumpelmayer |
-| 1875-01-01 | 028.0018–025 | Nice | New Year; Gambart; Uncle Alexandre letters; Papa |
-| 1875-01-02 | 028.0026–035 | Nice | Opera benefit (Romeo/Juliet); Constantin revealed as Danis |
-| 1875-01-03 | 028.0036–068 | Nice | Long entry; Hamilton mirror scene; Apollo Belvedere; pigeon shooting |
-| 1875-01-04 | 028.0069–076 | Nice | House fire; smoking; voice returning |
-| 1875-01-05 | 028.0077–081 | Nice | La Sonnambula; USS Franklin; white dress trendsetter |
-| 1875-01-06 | 028.0082–084 | Nice | Legal questionnaires; tea party |
-| 1875-01-07 | 028.0085–094 | Nice | Riding to Villefranche; maid Marie; domestic violence; Orthodox Christmas |
-| 1875-01-08 | 028.0095–101 | Nice | Family crisis with Georges; Dina; riding crop threat |
-| 1875-01-09 | 028.0102 | Nice | Brief; skipped lesson |
-| 1875-01-10 | 028.0103–104 | Nice | Paul's behavior; Caroline at Laferrière |
-| 1875-01-11 | 028.0105–108 | Nice | Departure announced; Dumas vs Scott |
-| 1875-01-12 | 028.0109–114 | Nice | Departs for Paris; Russian New Year |
-| 1875-01-13 | 028.0115–116 | Paris | Arrives Grand Hôtel room 132 |
-| 1875-01-14 | 028.0117–123 | Paris | Laferrière orders; Duval payment crisis begins |
-| 1875-01-15 | 028.0124 | Paris | *Around the World in 80 Days* at Porte Saint-Martin |
-| 1875-01-16 | 028.0125–126 | Paris | Bois de Boulogne; Offenbach Bouffes-Parisiens |
-| 1875-01-17 | 028.0127–134 | Paris | Corset; Duval scandal threat; lost coat; prayer |
-| 1875-01-18 | 028.0135–149 | Paris | Dreams; Clark from Spa; social isolation; smoking |
-| 1875-01-19 | 028.0150–158 | Paris | Caroline; Palais Garnier difficulties; Duval negotiations |
-| 1875-01-20 | 028.0159–167 | Paris | Walery photo; Laferrière approval; Blackprince dream |
+| 1874-12-26 | 027.0376 | Nice | Mignon parody; Latin/Italian; Woerman visit |
+| 1874-12-27 | 027.0377 | Nice | Brief; Maman ill; chemistry |
+| 1874-12-28 | 027.0378 | Nice | Russian proverb; Uncle Georges attraction |
+| 1874-12-29 | 027.0379 | Nice | Dog fight; anti-Italian tirade; 1880 retraction |
+| 1874-12-30 | 027.0380 | Nice | Police complaint; Italian coded |
+| 1874-12-31 | 027.0381–017 | Nice | Riding with Mauldre; "hong for"; Cercle; Rumpelmayer |
+| 1875-01-01 | 027.0392–025 | Nice | New Year; Gambart; Uncle Alexandre letters; Papa |
+| 1875-01-02 | 028.0002–035 | Nice | Opera benefit (Romeo/Juliet); Constantin revealed as Danis |
+| 1875-01-03 | 028.0012–068 | Nice | Long entry; Hamilton mirror scene; Apollo Belvedere; pigeon shooting |
+| 1875-01-04 | 028.0045–076 | Nice | House fire; smoking; voice returning |
+| 1875-01-05 | 028.0053–081 | Nice | La Sonnambula; USS Franklin; white dress trendsetter |
+| 1875-01-06 | 028.0058–084 | Nice | Legal questionnaires; tea party |
+| 1875-01-07 | 028.0061–094 | Nice | Riding to Villefranche; maid Marie; domestic violence; Orthodox Christmas |
+| 1875-01-08 | 028.0071–101 | Nice | Family crisis with Georges; Dina; riding crop threat |
+| 1875-01-09 | 028.0100 | Nice | Brief; skipped lesson |
+| 1875-01-10 | 028.0101–104 | Nice | Paul's behavior; Caroline at Laferrière |
+| 1875-01-11 | 028.0103–108 | Nice | Departure announced; Dumas vs Scott |
+| 1875-01-12 | 028.0107–114 | Nice | Departs for Paris; Russian New Year |
+| 1875-01-13 | 028.0113–116 | Paris | Arrives Grand Hôtel room 132 |
+| 1875-01-14 | 028.0115–123 | Paris | Laferrière orders; Duval payment crisis begins |
+| 1875-01-15 | 028.0122 | Paris | *Around the World in 80 Days* at Porte Saint-Martin |
+| 1875-01-16 | 028.0123–126 | Paris | Bois de Boulogne; Offenbach Bouffes-Parisiens |
+| 1875-01-17 | 028.0125–134 | Paris | Corset; Duval scandal threat; lost coat; prayer |
+| 1875-01-18 | 028.0133–149 | Paris | Dreams; Clark from Spa; social isolation; smoking |
+| 1875-01-19 | 028.0148–158 | Paris | Caroline; Palais Garnier difficulties; Duval negotiations |
+| 1875-01-20 | 028.0157–167 | Paris | Walery photo; Laferrière approval; Blackprince dream |
 
 ## Translation Notes
 

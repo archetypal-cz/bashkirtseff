@@ -6,7 +6,7 @@
 - **Date range**: 22 February 1874 -- 27 March 1874
 - **Location**: Nice
 - **Entries**: 34
-- **Paragraphs**: 017.0001 -- 017.0480
+- **Paragraphs**: 017.0001 -- 017.0502
 
 ## Translation Status
 

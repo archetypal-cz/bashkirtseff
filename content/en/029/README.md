@@ -2,7 +2,7 @@
 
 **Period**: 21 January 1875 – 18 February 1875
 **Location**: Paris (21–22 Jan), Nice (23 Jan – 18 Feb)
-**Paragraphs**: 029.0001 – 029.0227
+**Paragraphs**: 028.0279 – 029.0229
 
 ## Status
 
@@ -17,35 +17,35 @@
 
 | Date | Paragraphs | Location | Notes |
 |------|------------|----------|-------|
-| 1875-01-21 | 029.0001–013 | Paris | Poetry/Goethe parody; first opera visit (*Mireille*); Hamilton letter fantasy |
-| 1875-01-22 | 029.0014–015 | Paris | Worth jacket purchase; departure for Nice |
-| 1875-01-23 | 029.0016–018 | Nice | Return to Nice; family gossip; study plans |
-| 1875-01-24 | 029.0019–046 | Nice | Horse races at Var; Hamilton false sighting; extended reflection |
-| 1875-01-25 | 029.0047 | Nice | Opera with Sapogenikoffs |
-| 1875-01-26 | 029.0048 | Nice | Gioia sighting; race plans |
-| 1875-01-27 | 029.0049 | Nice | Sir Frederic Johnstone "thunderbolt"; extended English passage; chronological list of infatuations |
-| 1875-01-28 | 029.0050 | Nice | Monte Carlo trip; pigeon shooting; Empress Eugenie search; *La Fille de Mme Angot* |
-| 1875-01-29 | 029.0051 | Nice | "The devil" on Promenade; physics lesson |
-| 1875-01-30 | 029.0052–062 | Nice | Saturday promenade; Johnstone compared to Hamilton; Montrose |
-| 1875-01-31 | 029.0063–080 | Nice | Windy carriage ride; mesmerism session; Cagliostro references |
-| 1875-02-01 | 029.0081–094 | Nice | Family's squalid house conditions; extended prayer |
-| 1875-02-02 | 029.0095–099 | Nice | English lesson; prayer to Jesus and Virgin Mary |
-| 1875-02-03 | 029.0100–122 | Nice | Carnival committee visit; d'Aspremont tickets; Johnstone smoking |
-| 1875-02-04 | 029.0123–124 | Nice | Listless day; domino shopping |
-| 1875-02-05 | 029.0125–133 | Nice | Botkine's visit; glimpses of Johnstone; apostrophe to Hamilton |
-| 1875-02-06 | 029.0134–155 | Nice | Charity sale at Square Masséna; Carnival preparations |
-| 1875-02-07 | 029.0156–174 | Nice | Carnival Sunday: pink dominos, confetti battle; uncle Alexandre arrives from Russia |
-| 1875-02-08 | 029.0175–181 | Nice | Carnival Monday; Paul's "papa Hamilton" joke; Marie's torpor |
-| 1875-02-09 | 029.0182–199 | Nice | Mardi Gras: final carnival battle; burning effigy; heartbreak at Prefecture ball |
-| 1875-02-10 | 029.0200–201 | Nice | Post-Carnival depression; Ash Wednesday; brief entry |
-| 1875-02-11 | 029.0202–212 | Nice | Bitter cold walk; *Ruy Blas* opera; Gioia obsession intensifies; electricity metaphor |
-| 1875-02-12 | 029.0213–215 | Nice | Leclerc tutor; Dina's hand-me-down dress; fashion description |
-| 1875-02-13 | 029.0216–222 | Nice | Extended Italian practice passages; Rome plans; Sapogenikoff visit |
-| 1875-02-14 | 029.0223 | Nice | Russian church; Gonzales confrontation with Spanish accent phonetics; Miloradovitch marriage prospect; Hamilton reflection |
-| 1875-02-15 | 029.0224 | Nice | New arrivals; *Deo juvante*; singing voice returns; mirror self-admiration; *Miserere!* |
-| 1875-02-16 | 029.0225 | Nice | Englishwoman "tamed"; Latin lessons with Brunet begin |
-| 1875-02-17 | 029.0226 | Nice | Rain; *La Sonnambula*; *Le Petit Faust*; bored at both |
-| 1875-02-18 | 029.0227 | Nice | Spirits at Sapogenikoffs (D.D. Home); despair; extended final prayer — carnet ends |
+| 1875-01-21 | 028.0279–013 | Paris | Poetry/Goethe parody; first opera visit (*Mireille*); Hamilton letter fantasy |
+| 1875-01-22 | 029.0012–015 | Paris | Worth jacket purchase; departure for Nice |
+| 1875-01-23 | 029.0017–018 | Nice | Return to Nice; family gossip; study plans |
+| 1875-01-24 | 029.0020–046 | Nice | Horse races at Var; Hamilton false sighting; extended reflection |
+| 1875-01-25 | 029.0048 | Nice | Opera with Sapogenikoffs |
+| 1875-01-26 | 029.0049 | Nice | Gioia sighting; race plans |
+| 1875-01-27 | 029.0050 | Nice | Sir Frederic Johnstone "thunderbolt"; extended English passage; chronological list of infatuations |
+| 1875-01-28 | 029.0051 | Nice | Monte Carlo trip; pigeon shooting; Empress Eugenie search; *La Fille de Mme Angot* |
+| 1875-01-29 | 029.0052 | Nice | "The devil" on Promenade; physics lesson |
+| 1875-01-30 | 029.0053–062 | Nice | Saturday promenade; Johnstone compared to Hamilton; Montrose |
+| 1875-01-31 | 029.0064–080 | Nice | Windy carriage ride; mesmerism session; Cagliostro references |
+| 1875-02-01 | 029.0082–094 | Nice | Family's squalid house conditions; extended prayer |
+| 1875-02-02 | 029.0096–099 | Nice | English lesson; prayer to Jesus and Virgin Mary |
+| 1875-02-03 | 029.0101–122 | Nice | Carnival committee visit; d'Aspremont tickets; Johnstone smoking |
+| 1875-02-04 | 029.0124–124 | Nice | Listless day; domino shopping |
+| 1875-02-05 | 029.0126–133 | Nice | Botkine's visit; glimpses of Johnstone; apostrophe to Hamilton |
+| 1875-02-06 | 029.0135–155 | Nice | Charity sale at Square Masséna; Carnival preparations |
+| 1875-02-07 | 029.0157–174 | Nice | Carnival Sunday: pink dominos, confetti battle; uncle Alexandre arrives from Russia |
+| 1875-02-08 | 029.0176–181 | Nice | Carnival Monday; Paul's "papa Hamilton" joke; Marie's torpor |
+| 1875-02-09 | 029.0183–199 | Nice | Mardi Gras: final carnival battle; burning effigy; heartbreak at Prefecture ball |
+| 1875-02-10 | 029.0201–201 | Nice | Post-Carnival depression; Ash Wednesday; brief entry |
+| 1875-02-11 | 029.0203–212 | Nice | Bitter cold walk; *Ruy Blas* opera; Gioia obsession intensifies; electricity metaphor |
+| 1875-02-12 | 029.0214–215 | Nice | Leclerc tutor; Dina's hand-me-down dress; fashion description |
+| 1875-02-13 | 029.0218–222 | Nice | Extended Italian practice passages; Rome plans; Sapogenikoff visit |
+| 1875-02-14 | 029.0225 | Nice | Russian church; Gonzales confrontation with Spanish accent phonetics; Miloradovitch marriage prospect; Hamilton reflection |
+| 1875-02-15 | 029.0226 | Nice | New arrivals; *Deo juvante*; singing voice returns; mirror self-admiration; *Miserere!* |
+| 1875-02-16 | 029.0227 | Nice | Englishwoman "tamed"; Latin lessons with Brunet begin |
+| 1875-02-17 | 029.0228 | Nice | Rain; *La Sonnambula*; *Le Petit Faust*; bored at both |
+| 1875-02-18 | 029.0229 | Nice | Spirits at Sapogenikoffs (D.D. Home); despair; extended final prayer — carnet ends |
 
 ## Translation Notes
 
