@@ -11402,7 +11402,7 @@
     },
     {
       "file": "1876-08-20.md",
-      "para_id": "065.0028",
+      "para_id": "065.0029",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: RUSSIAN term - \"drochki-de course\" - racing droshky, light high-speed carriage %%",
       "fr_file": "content/fr/065/1876-08-20.md",
@@ -11411,7 +11411,7 @@
     },
     {
       "file": "1876-08-20.md",
-      "para_id": "065.0028",
+      "para_id": "065.0029",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: RUSSIAN term - \"verstes\" - Russian unit of distance, about 1.067 km %%",
       "fr_file": "content/fr/065/1876-08-20.md",
@@ -11429,34 +11429,34 @@
     },
     {
       "file": "1876-08-22.md",
-      "para_id": "065.0071",
+      "para_id": "065.0070",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: \"drochki\" - RUSSIAN: light carriage, drozhky %%",
-      "fr_file": "content/fr/065/1876-08-22.md",
-      "original_file": "content/_original/065/1876-08-22.md",
+      "fr_file": "content/fr/065/1876-08-20.md",
+      "original_file": "content/_original/065/1876-08-20.md",
+      "current_text": "Je me mis à faire ma toilette et je le laissai entrer pour qu'il vit mon linge et tout. Ma taille l'enchante, l'homme vain est fier de se montrer. Nous étions prêts, mais il voulut attendre les domestiques et le bagage pour que le cortège fût plus imposant. Un carrosse à quatre chevaux, une calèche, et un drochki à capote, attelé d'une troïka insensée au petit prince."
+    },
+    {
+      "file": "1876-08-22.md",
+      "para_id": "065.0070",
+      "language": "RUSSIAN",
+      "lan_context": "%% 2026-02-02T13:00:00 LAN: \"troïka\" - RUSSIAN: three-horse team; \"insensée\" (mad/wild) suggests spirited horses %%",
+      "fr_file": "content/fr/065/1876-08-20.md",
+      "original_file": "content/_original/065/1876-08-20.md",
       "current_text": "Je me mis à faire ma toilette et je le laissai entrer pour qu'il vit mon linge et tout. Ma taille l'enchante, l'homme vain est fier de se montrer. Nous étions prêts, mais il voulut attendre les domestiques et le bagage pour que le cortège fût plus imposant. Un carrosse à quatre chevaux, une calèche, et un drochki à capote, attelé d'une troïka insensée au petit prince."
     },
     {
       "file": "1876-08-22.md",
       "para_id": "065.0071",
-      "language": "RUSSIAN",
-      "lan_context": "%% 2026-02-02T13:00:00 LAN: \"troïka\" - RUSSIAN: three-horse team; \"insensée\" (mad/wild) suggests spirited horses %%",
-      "fr_file": "content/fr/065/1876-08-22.md",
-      "original_file": "content/_original/065/1876-08-22.md",
-      "current_text": "Je me mis à faire ma toilette et je le laissai entrer pour qu'il vit mon linge et tout. Ma taille l'enchante, l'homme vain est fier de se montrer. Nous étions prêts, mais il voulut attendre les domestiques et le bagage pour que le cortège fût plus imposant. Un carrosse à quatre chevaux, une calèche, et un drochki à capote, attelé d'une troïka insensée au petit prince."
-    },
-    {
-      "file": "1876-08-22.md",
-      "para_id": "065.0072",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: \"genitor\" - LATIN: father/begetter; ironic distancing term for her father %%",
-      "fr_file": "content/fr/065/1876-08-22.md",
-      "original_file": "content/_original/065/1876-08-22.md",
+      "fr_file": "content/fr/065/1876-08-20.md",
+      "original_file": "content/_original/065/1876-08-20.md",
       "current_text": "Mon *genitor* me regardait avec satisfaction et se tenait à quatre pour paraître calme et même indifférent."
     },
     {
       "file": "1876-08-31.md",
-      "para_id": "065.0232",
+      "para_id": "065.0223",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: RUSSIAN term - \"maréchal de noblesse\" - Marshal of the Nobility, elected leader of regional nobility %%",
       "fr_file": "content/fr/065/1876-08-31.md",
@@ -11465,7 +11465,7 @@
     },
     {
       "file": "1876-09-01.md",
-      "para_id": "065.0254",
+      "para_id": "065.0244",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: RUSSIAN term - \"Moussia\" - diminutive of Maria, family nickname %%",
       "fr_file": "content/fr/065/1876-09-01.md",
@@ -11476,7 +11476,7 @@
   "066": [
     {
       "file": "1876-09-03.md",
-      "para_id": "066.0014",
+      "para_id": "065.0287",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: ENGLISH follows: \"expectation\" - Marie uses English word, NOT French \"expectative\" %%",
       "fr_file": "content/fr/066/1876-09-03.md",
@@ -11485,7 +11485,7 @@
     },
     {
       "file": "1876-09-04.md",
-      "para_id": "066.0038",
+      "para_id": "065.0310",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"Mousse\" - diminutive of Maria, Marie's family nickname; also spelled \"Moussia\" %%",
       "fr_file": "content/fr/066/1876-09-04.md",
@@ -11494,7 +11494,7 @@
     },
     {
       "file": "1876-09-05.md",
-      "para_id": "066.0047",
+      "para_id": "065.0318",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Lacrymosa\" - from Requiem Mass, \"Day of Tears\"; likely Mozart or Verdi setting %%",
       "fr_file": "content/fr/066/1876-09-05.md",
@@ -11503,7 +11503,7 @@
     },
     {
       "file": "1876-09-07.md",
-      "para_id": "066.0074",
+      "para_id": "065.0343",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH: \"(nous parlions russe)\" - noting language change to Russian for private talk %%",
       "fr_file": "content/fr/066/1876-09-07.md",
@@ -11512,7 +11512,7 @@
     },
     {
       "file": "1876-09-16.md",
-      "para_id": "066.0176",
+      "para_id": "066.0272",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"Gritsa\" - diminutive/accusative form of Gritz in Russian %%",
       "fr_file": "content/fr/066/1876-09-16.md",
@@ -11521,7 +11521,7 @@
     },
     {
       "file": "1876-09-16.md",
-      "para_id": "066.0202",
+      "para_id": "066.0298",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"Grof\" - Count (Graf in German); similar sound to Gritz %%",
       "fr_file": "content/fr/066/1876-09-16.md",
@@ -11530,7 +11530,7 @@
     },
     {
       "file": "1876-09-16.md",
-      "para_id": "066.0202",
+      "para_id": "066.0298",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN grammar: \"-vitchou/-skomou\" - dative case endings showing \"to whom\" %%",
       "fr_file": "content/fr/066/1876-09-16.md",
@@ -11539,7 +11539,7 @@
     },
     {
       "file": "1876-09-22.md",
-      "para_id": "066.0278",
+      "para_id": "066.0375",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Lupercales\" - Lupercalia, ancient Roman fertility festival; shows classical knowledge %%",
       "fr_file": "content/fr/066/1876-09-22.md",
@@ -11548,7 +11548,7 @@
     },
     {
       "file": "1876-09-24.md",
-      "para_id": "066.0300",
+      "para_id": "066.0396",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"starosta\" - village elder/headman; Russian administrative term %%",
       "fr_file": "content/fr/066/1876-09-24.md",
@@ -11557,7 +11557,7 @@
     },
     {
       "file": "1876-09-25.md",
-      "para_id": "066.0325",
+      "para_id": "066.0427",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN/corrupted: \"Et lacryma et riou\" - likely \"Et lacrimae et risus\" (both tears and laughter) %%",
       "fr_file": "content/fr/066/1876-09-25.md",
@@ -11566,7 +11566,7 @@
     },
     {
       "file": "1876-09-25.md",
-      "para_id": "066.0342",
+      "para_id": "066.0444",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"swita\" - svita, traditional Ukrainian peasant coat; gathered at waist %%",
       "fr_file": "content/fr/066/1876-09-25.md",
@@ -11575,7 +11575,7 @@
     },
     {
       "file": "1876-09-26.md",
-      "para_id": "066.0367",
+      "para_id": "066.0468",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"cheval soumis\" - trace horse in troika; side horses with heads turned out %%",
       "fr_file": "content/fr/066/1876-09-26.md",
@@ -11584,7 +11584,7 @@
     },
     {
       "file": "1876-09-27.md",
-      "para_id": "066.0384",
+      "para_id": "066.0485",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN/ORTHODOX: \"Vierge d'Achtirka\" - Virgin of Akhtyrka, miraculous icon in Ukraine %%",
       "fr_file": "content/fr/066/1876-09-27.md",
@@ -11593,7 +11593,7 @@
     },
     {
       "file": "1876-10-02.md",
-      "para_id": "066.0443",
+      "para_id": "066.0592",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"O rus\" - O countryside! (Horace, Satires II.6); ironic use, Marie's boredom %%",
       "fr_file": "content/fr/066/1876-10-02.md",
@@ -11602,7 +11602,7 @@
     },
     {
       "file": "1876-10-06.md",
-      "para_id": "066.0504",
+      "para_id": "066.0653",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Audaces fortuna juvat\" - Fortune favors the bold (Virgil, Aeneid X.284) %%",
       "fr_file": "content/fr/066/1876-10-06.md",
@@ -11611,7 +11611,7 @@
     },
     {
       "file": "1876-10-06.md",
-      "para_id": "066.0508",
+      "para_id": "066.0657",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"troïka\" - three-horse carriage; traditional Russian transport %%",
       "fr_file": "content/fr/066/1876-10-06.md",
@@ -11622,7 +11622,7 @@
   "067": [
     {
       "file": "1876-11-11.md",
-      "para_id": "067.0026",
+      "para_id": "067.0934",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: \"Goloss\" - RUSSIAN: \"The Voice,\" Russian newspaper %%",
       "fr_file": "content/fr/067/1876-11-11.md",
@@ -11631,47 +11631,47 @@
     },
     {
       "file": "1876-11-16-18.md",
-      "para_id": "067.0076",
+      "para_id": "067.0987",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"Golova\" = head/mayor; \"Douma\" = thought/city hall - Marie's linguistic observation %%",
-      "fr_file": "content/fr/067/1876-11-16-18.md",
-      "original_file": "content/_original/067/1876-11-16-18.md",
+      "fr_file": "content/fr/067/1876-11-15.md",
+      "original_file": "content/_original/067/1876-11-15.md",
       "current_text": "Le maire en russe se nomme Golova (tête) et la mairie, Douma (la pensée). N'est-ce pas curieux ?"
     },
     {
       "file": "1876-11-16-18.md",
-      "para_id": "067.0097",
+      "para_id": "067.1008",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: ITALIAN: \"Via e al diavolo\" - Away and to the devil! %%",
-      "fr_file": "content/fr/067/1876-11-16-18.md",
-      "original_file": "content/_original/067/1876-11-16-18.md",
+      "fr_file": "content/fr/067/1876-11-15.md",
+      "original_file": "content/_original/067/1876-11-15.md",
       "current_text": "Hé ! Qu'ai-je à faire avec cette famille de faquins italiens, de charlatans et de fabricants de statues de craie ! Via e al diavolo."
     },
     {
       "file": "1876-11-16-18.md",
-      "para_id": "067.0100",
+      "para_id": "067.1011",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: ITALIAN: \"Chi lo sa?\" - Who knows? - Marie's code-switching %%",
-      "fr_file": "content/fr/067/1876-11-16-18.md",
-      "original_file": "content/_original/067/1876-11-16-18.md",
+      "fr_file": "content/fr/067/1876-11-15.md",
+      "original_file": "content/_original/067/1876-11-15.md",
       "current_text": "Il me semble qu'un grand obstacle est tombé. Mais un obstacle à quoi ? Chi lo sa ?"
     },
     {
       "file": "1876-11-16-18.md",
-      "para_id": "067.0104",
+      "para_id": "067.1015",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Est socia mortis homini vita ingloria\" - An inglorious life is death's companion %%",
-      "fr_file": "content/fr/067/1876-11-16-18.md",
-      "original_file": "content/_original/067/1876-11-16-18.md",
+      "fr_file": "content/fr/067/1876-11-15.md",
+      "original_file": "content/_original/067/1876-11-15.md",
       "current_text": "\" Est socia mortis homini vita ingloria\""
     },
     {
       "file": "1876-12-08-11.md",
-      "para_id": "067.0322",
+      "para_id": "067.1259",
       "language": "LATIN",
       "lan_context": "%% 2026-02-10T12:30:00 LAN: LATIN: \"Agnus Dei\" = Lamb of God. Marie sarcastically compares her humble, wheedling father to the sacrificial lamb. %%",
-      "fr_file": "content/fr/067/1876-12-08-11.md",
-      "original_file": "content/_original/067/1876-12-08-11.md",
+      "fr_file": "content/fr/067/1876-12-08.md",
+      "original_file": "content/_original/067/1876-12-08.md",
       "current_text": "Voyez-vous cet Agnus Dei ?"
     }
   ],

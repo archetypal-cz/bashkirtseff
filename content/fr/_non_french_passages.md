@@ -1257,36 +1257,36 @@ They need AI translation into French.
 - **064/1876-08-11-12.md** para 064.0550 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "calatch/kalach" - traditional Russian white bread, specific to Moscow %%
 - **064/1876-08-11-12.md** para 064.0550 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "assetrine/osetrina" - sturgeon, prized Russian fish %%
 - **065/1876-08-17.md** para 065.0007 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "hetman" - Cossack military leader, ruler of Little Russia/Ukraine %%
-- **065/1876-08-20.md** para 065.0028 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "drochki-de course" - racing droshky, light high-speed carriage %%
-- **065/1876-08-20.md** para 065.0028 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "verstes" - Russian unit of distance, about 1.067 km %%
+- **065/1876-08-20.md** para 065.0029 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "drochki-de course" - racing droshky, light high-speed carriage %%
+- **065/1876-08-20.md** para 065.0029 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "verstes" - Russian unit of distance, about 1.067 km %%
 - **065/1876-08-21.md** para 065.0062 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "troika" - three-horse carriage arrangement %%
-- **065/1876-08-22.md** para 065.0071 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "drochki" - RUSSIAN: light carriage, drozhky %%
-- **065/1876-08-22.md** para 065.0071 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "troïka" - RUSSIAN: three-horse team; "insensée" (mad/wild) suggests spirited horses %%
-- **065/1876-08-22.md** para 065.0072 [LATIN]: %% 2026-02-02T13:00:00 LAN: "genitor" - LATIN: father/begetter; ironic distancing term for her father %%
-- **065/1876-08-31.md** para 065.0232 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "maréchal de noblesse" - Marshal of the Nobility, elected leader of regional nobility %%
-- **065/1876-09-01.md** para 065.0254 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "Moussia" - diminutive of Maria, family nickname %%
-- **066/1876-09-03.md** para 066.0014 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH follows: "expectation" - Marie uses English word, NOT French "expectative" %%
-- **066/1876-09-04.md** para 066.0038 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Mousse" - diminutive of Maria, Marie's family nickname; also spelled "Moussia" %%
-- **066/1876-09-05.md** para 066.0047 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Lacrymosa" - from Requiem Mass, "Day of Tears"; likely Mozart or Verdi setting %%
-- **066/1876-09-07.md** para 066.0074 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH: "(nous parlions russe)" - noting language change to Russian for private talk %%
-- **066/1876-09-16.md** para 066.0176 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Gritsa" - diminutive/accusative form of Gritz in Russian %%
-- **066/1876-09-16.md** para 066.0202 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Grof" - Count (Graf in German); similar sound to Gritz %%
-- **066/1876-09-16.md** para 066.0202 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN grammar: "-vitchou/-skomou" - dative case endings showing "to whom" %%
-- **066/1876-09-22.md** para 066.0278 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Lupercales" - Lupercalia, ancient Roman fertility festival; shows classical knowledge %%
-- **066/1876-09-24.md** para 066.0300 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "starosta" - village elder/headman; Russian administrative term %%
-- **066/1876-09-25.md** para 066.0325 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN/corrupted: "Et lacryma et riou" - likely "Et lacrimae et risus" (both tears and laughter) %%
-- **066/1876-09-25.md** para 066.0342 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "swita" - svita, traditional Ukrainian peasant coat; gathered at waist %%
-- **066/1876-09-26.md** para 066.0367 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "cheval soumis" - trace horse in troika; side horses with heads turned out %%
-- **066/1876-09-27.md** para 066.0384 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN/ORTHODOX: "Vierge d'Achtirka" - Virgin of Akhtyrka, miraculous icon in Ukraine %%
-- **066/1876-10-02.md** para 066.0443 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "O rus" - O countryside! (Horace, Satires II.6); ironic use, Marie's boredom %%
-- **066/1876-10-06.md** para 066.0504 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Audaces fortuna juvat" - Fortune favors the bold (Virgil, Aeneid X.284) %%
-- **066/1876-10-06.md** para 066.0508 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "troïka" - three-horse carriage; traditional Russian transport %%
-- **067/1876-11-11.md** para 067.0026 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: "Goloss" - RUSSIAN: "The Voice," Russian newspaper %%
-- **067/1876-11-16-18.md** para 067.0076 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Golova" = head/mayor; "Douma" = thought/city hall - Marie's linguistic observation %%
-- **067/1876-11-16-18.md** para 067.0097 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Via e al diavolo" - Away and to the devil! %%
-- **067/1876-11-16-18.md** para 067.0100 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? - Marie's code-switching %%
-- **067/1876-11-16-18.md** para 067.0104 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Est socia mortis homini vita ingloria" - An inglorious life is death's companion %%
-- **067/1876-12-08-11.md** para 067.0322 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN: "Agnus Dei" = Lamb of God. Marie sarcastically compares her humble, wheedling father to the sacrificial lamb. %%
+- **065/1876-08-20.md** para 065.0070 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "drochki" - RUSSIAN: light carriage, drozhky %%
+- **065/1876-08-20.md** para 065.0070 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "troïka" - RUSSIAN: three-horse team; "insensée" (mad/wild) suggests spirited horses %%
+- **065/1876-08-20.md** para 065.0071 [LATIN]: %% 2026-02-02T13:00:00 LAN: "genitor" - LATIN: father/begetter; ironic distancing term for her father %%
+- **065/1876-08-31.md** para 065.0223 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "maréchal de noblesse" - Marshal of the Nobility, elected leader of regional nobility %%
+- **065/1876-09-01.md** para 065.0244 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "Moussia" - diminutive of Maria, family nickname %%
+- **066/1876-09-03.md** para 065.0287 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH follows: "expectation" - Marie uses English word, NOT French "expectative" %%
+- **066/1876-09-04.md** para 065.0310 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Mousse" - diminutive of Maria, Marie's family nickname; also spelled "Moussia" %%
+- **066/1876-09-05.md** para 065.0318 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Lacrymosa" - from Requiem Mass, "Day of Tears"; likely Mozart or Verdi setting %%
+- **066/1876-09-07.md** para 065.0343 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH: "(nous parlions russe)" - noting language change to Russian for private talk %%
+- **066/1876-09-16.md** para 066.0272 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Gritsa" - diminutive/accusative form of Gritz in Russian %%
+- **066/1876-09-16.md** para 066.0298 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Grof" - Count (Graf in German); similar sound to Gritz %%
+- **066/1876-09-16.md** para 066.0298 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN grammar: "-vitchou/-skomou" - dative case endings showing "to whom" %%
+- **066/1876-09-22.md** para 066.0375 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Lupercales" - Lupercalia, ancient Roman fertility festival; shows classical knowledge %%
+- **066/1876-09-24.md** para 066.0396 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "starosta" - village elder/headman; Russian administrative term %%
+- **066/1876-09-25.md** para 066.0427 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN/corrupted: "Et lacryma et riou" - likely "Et lacrimae et risus" (both tears and laughter) %%
+- **066/1876-09-25.md** para 066.0444 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "swita" - svita, traditional Ukrainian peasant coat; gathered at waist %%
+- **066/1876-09-26.md** para 066.0468 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "cheval soumis" - trace horse in troika; side horses with heads turned out %%
+- **066/1876-09-27.md** para 066.0485 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN/ORTHODOX: "Vierge d'Achtirka" - Virgin of Akhtyrka, miraculous icon in Ukraine %%
+- **066/1876-10-02.md** para 066.0592 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "O rus" - O countryside! (Horace, Satires II.6); ironic use, Marie's boredom %%
+- **066/1876-10-06.md** para 066.0653 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Audaces fortuna juvat" - Fortune favors the bold (Virgil, Aeneid X.284) %%
+- **066/1876-10-06.md** para 066.0657 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "troïka" - three-horse carriage; traditional Russian transport %%
+- **067/1876-11-11.md** para 067.0934 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: "Goloss" - RUSSIAN: "The Voice," Russian newspaper %%
+- **067/1876-11-15.md** para 067.0987 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Golova" = head/mayor; "Douma" = thought/city hall - Marie's linguistic observation %%
+- **067/1876-11-15.md** para 067.1008 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Via e al diavolo" - Away and to the devil! %%
+- **067/1876-11-15.md** para 067.1011 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? - Marie's code-switching %%
+- **067/1876-11-15.md** para 067.1015 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Est socia mortis homini vita ingloria" - An inglorious life is death's companion %%
+- **067/1876-12-08.md** para 067.1259 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN: "Agnus Dei" = Lamb of God. Marie sarcastically compares her humble, wheedling father to the sacrificial lamb. %%
 - **068/1876-12-12.md** para 068.0003 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH Italian: "che" - Marie writes Italian "che" instead of French "que", possibly showing emotional agitation %%
 - **068/1876-12-12.md** para 068.0004 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating-rink" - roller skating rink, fashionable entertainment venue in 1870s; often social gathering place %%
 - **068/1876-12-16.md** para 068.0061 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating" - roller skating rink; fashionable social venue in 1870s Europe %%

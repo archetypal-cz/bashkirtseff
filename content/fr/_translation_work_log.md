@@ -44,7 +44,7 @@ These files already have FRE comments from previous work and can be skipped.
 #### Carnet 066 (16 passages)
 
 **COMPLETED:**
-- ✅ 1876-09-03.md (para 066.0014) - "expectation" → "expectative"
+- ✅ 1876-09-03.md (para 065.0287) - "expectation" → "expectative"
 
 **REMAINING:**
 - [ ] 15 more passages
