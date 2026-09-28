@@ -115,6 +115,15 @@
     "showOriginal": "Mostrar el original: {langs}",
     "showTranslation": "Mostrar la traducción: {lang}",
     "untranslated": "Aún sin traducir — original francés",
+    "kindLanguage": {
+      "en": "en inglés",
+      "it": "en italiano",
+      "la": "en latín",
+      "ru": "en ruso",
+      "de": "en alemán",
+      "el": "en griego",
+      "es": "en español"
+    },
     "kind": {
       "clipping": "Recorte de prensa",
       "letter": "Carta copiada",

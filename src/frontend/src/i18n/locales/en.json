@@ -115,6 +115,15 @@
     "showOriginal": "Show original: {langs}",
     "showTranslation": "Show translation: {lang}",
     "untranslated": "Not yet translated — French original",
+    "kindLanguage": {
+      "en": "in English",
+      "it": "in Italian",
+      "la": "in Latin",
+      "ru": "in Russian",
+      "de": "in German",
+      "el": "in Greek",
+      "es": "in Spanish"
+    },
     "kind": {
       "clipping": "Newspaper clipping",
       "letter": "Copied letter",

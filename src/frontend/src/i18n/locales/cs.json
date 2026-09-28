@@ -116,6 +116,15 @@
     "showOriginal": "Zobrazit originál: {langs}",
     "showTranslation": "Zobrazit překlad: {lang}",
     "untranslated": "Zatím nepřeloženo — francouzský originál",
+    "kindLanguage": {
+      "en": "anglicky",
+      "it": "italsky",
+      "la": "latinsky",
+      "ru": "rusky",
+      "de": "německy",
+      "el": "řecky",
+      "es": "španělsky"
+    },
     "kind": {
       "clipping": "Novinový výstřižek",
       "letter": "Opsaný dopis",

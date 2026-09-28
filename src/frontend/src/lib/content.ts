@@ -35,8 +35,8 @@ import {
 import { THEME_SUBCATEGORIES } from './glossary-categories';
 import { escapeHtml, renderOriginalHtml } from './original-html';
 import {
-  findKind, isQuotedKind, kindBodyHtml, kindKey, kindLabelInnerHtml, kindLabelText, kindRuns, parseKindLine,
-  stripQuoteMarkers, wrapKindHtml, type ParagraphKind,
+  findKind, inlineNoteLanguages, isQuotedKind, kindBodyHtml, kindKey, kindLabelInnerHtml, kindLabelText, kindRuns,
+  noteLanguage, parseKindLine, stripLanguageNotes, stripQuoteMarkers, wrapKindHtml, type ParagraphKind,
 } from './paragraph-kind';
 import { normalizeDrawings, type EntryDrawing } from './drawings';
 import { applyTypography, typographyLocaleFor } from './typography';
@@ -471,7 +471,8 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
   if (!isOriginalLanguage(language)) {
     resolveUntranslated(paragraphs, carnetId, entryId, language);
   }
-  applyKinds(paragraphs, language);
+  applyKinds(paragraphs, footnotes, language,
+    isOriginalLanguage(language) ? undefined : () => getEntry(carnetId, entryId, 'original')?.paragraphs ?? []);
   // Footnotes of the French source are editorial English, so only
   // translations (whose notes are in the translation language) get the
   // language's typography.
@@ -559,16 +560,35 @@ function finishParagraphs(paragraphs: Paragraph[], language: string): void {
  * view, labelled once: its paragraphs also get `kindBodyHtml`, and the first
  * one `kindRun`. Runs last so the untranslated fallback sits inside the block.
  */
-function applyKinds(paragraphs: Paragraph[], language: string): void {
+function applyKinds(
+  paragraphs: Paragraph[], footnotes: Footnote[], language: string, sourceParagraphs?: () => Paragraph[],
+): void {
   const typoLocale = typographyLocaleFor(language);
+  let sourceTags: Map<string, string[]> | undefined;
+  const tagsOf = (p: Paragraph): string[] => {
+    if (!sourceParagraphs) return (p.glossaryTags ?? []).map(t => t.name);
+    sourceTags ??= new Map(sourceParagraphs().map(sp => [sp.id, (sp.glossaryTags ?? []).map(t => t.name)]));
+    return sourceTags.get(p.id) ?? [];
+  };
   for (const run of kindRuns(paragraphs)) {
     const { kind, kindSource } = run[0];
     if (!kind) continue;
+    const { lang, fromNotes, noteIds } = run.length > 1 ? runLanguage(run, footnotes, tagsOf) : { noteIds: new Set<string>() };
     // The body already has its typography (finishParagraphs); the label gets it here.
-    const labelHtml = applyTypography(kindLabelInnerHtml(kind, kindSource, language), typoLocale);
+    const labelHtml = applyTypography(kindLabelInnerHtml(kind, kindSource, language, lang), typoLocale);
     for (const p of run) {
+      if (fromNotes) {
+        p.html = stripLanguageNotes(p.html, noteIds);
+        if (p.footnoteRefs) {
+          const refs = p.footnoteRefs.filter(id => !noteIds.has(id));
+          p.footnoteRefs = refs.length > 0 ? refs : undefined;
+        }
+      }
       if (run.length > 1) p.kindBodyHtml = kindBodyHtml(p.html, kind);
       p.html = wrapKindHtml(p.html, kind, kindSource, language, labelHtml);
+    }
+    for (let i = footnotes.length - 1; i >= 0; i--) {
+      if (noteIds.has(footnotes[i].id)) footnotes.splice(i, 1);
     }
     if (run.length > 1) {
       run[0].kindRun = {
@@ -576,10 +596,40 @@ function applyKinds(paragraphs: Paragraph[], language: string): void {
         key: kindKey(kind),
         quoted: isQuotedKind(kind),
         labelHtml,
-        labelText: applyTypography(kindLabelText(kind, kindSource, language), typoLocale),
+        labelText: applyTypography(kindLabelText(kind, kindSource, language, lang), typoLocale),
       };
     }
   }
+}
+
+/**
+ * The one foreign language a run is written in, shown once in its label.
+ * When the translation marks each paragraph with a language note (en
+ * `^[In English in the original.]`, a cz/uk "V originále anglicky" footnote),
+ * every paragraph must carry a note for the same language; the notes then go
+ * (`noteIds` = footnotes to drop). Otherwise the notes stay and the language
+ * tags of the source paragraphs decide (`tagsOf`; translations do not always
+ * copy them): exactly one language besides French.
+ */
+function runLanguage(
+  run: Paragraph[], footnotes: Footnote[], tagsOf: (p: Paragraph) => string[],
+): { lang?: string; fromNotes?: boolean; noteIds: Set<string> } {
+  const noteText = new Map(footnotes.map(fn => [fn.id, fn.text]));
+  const noteIds = new Set<string>();
+  const perParagraph = run.map(p => {
+    const langs = inlineNoteLanguages(p.html);
+    for (const id of p.footnoteRefs ?? []) {
+      const lang = noteLanguage(noteText.get(id) ?? '');
+      if (lang) { langs.push(lang); noteIds.add(id); }
+    }
+    return new Set(langs);
+  });
+  const [first] = perParagraph[0];
+  if (first && perParagraph.every(langs => langs.size === 1 && langs.has(first))) return { lang: first, fromNotes: true, noteIds };
+  // By tag name ("English"): `languages` looks tags up by file id (ENGLISH),
+  // which LANGUAGE_TAGS does not list, so it is always ['fr'].
+  const tagged = new Set(run.flatMap(p => extractLanguagesFromTags(tagsOf(p))).filter(l => l !== 'fr'));
+  return tagged.size === 1 ? { lang: [...tagged][0], noteIds: new Set() } : { noteIds: new Set() };
 }
 
 /** A scaffold placeholder line: `TODO` (paragraph) or `# TODO` (day heading) */

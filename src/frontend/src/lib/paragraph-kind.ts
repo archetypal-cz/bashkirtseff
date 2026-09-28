@@ -73,19 +73,90 @@ function labelLocale(contentPath: string) {
  */
 const GROUPED_KINDS = new Set<ParagraphKind>(['clipping', 'letter', 'cover', 'other']);
 
-/** The block's label (kind name, then the source as a citation), without its outer span */
-export function kindLabelInnerHtml(kind: ParagraphKind, source: string | undefined, contentPath: string): string {
+/** The block's label (kind name, the source as a citation, the language of a
+ * foreign run: "Coupure de presse · Le Figaro · en anglais"), without its outer span */
+export function kindLabelInnerHtml(kind: ParagraphKind, source: string | undefined, contentPath: string, lang?: string): string {
   const t = createT(labelLocale(contentPath));
   const label = escapeHtml(t(`paragraph.kind.${KEY[kind]}`));
-  const cite = source ? `<span class="para-kind-sep" aria-hidden="true"> · </span><cite class="para-kind-source">${escapeHtml(source)}</cite>` : '';
-  return `<span class="para-kind-name">${label}</span>${cite}`;
+  const sep = '<span class="para-kind-sep" aria-hidden="true"> · </span>';
+  const cite = source ? `${sep}<cite class="para-kind-source">${escapeHtml(source)}</cite>` : '';
+  const langName = lang ? kindLanguageName(lang, contentPath) : null;
+  const langHtml = langName ? `${sep}<span class="para-kind-lang">${escapeHtml(langName)}</span>` : '';
+  return `<span class="para-kind-name">${label}</span>${cite}${langHtml}`;
 }
 
 /** Plain-text label for aria-label and the like: "Coupure de presse · Le Figaro" */
-export function kindLabelText(kind: ParagraphKind, source: string | undefined, contentPath: string): string {
+export function kindLabelText(kind: ParagraphKind, source: string | undefined, contentPath: string, lang?: string): string {
   const t = createT(labelLocale(contentPath));
-  const label = t(`paragraph.kind.${KEY[kind]}`);
-  return source ? `${label} · ${source}` : label;
+  const langName = lang ? kindLanguageName(lang, contentPath) : null;
+  return [t(`paragraph.kind.${KEY[kind]}`), source, langName].filter(Boolean).join(' · ');
+}
+
+/** "anglicky" / "in English" / "en anglais" … for the label, or null when not listed */
+function kindLanguageName(lang: string, contentPath: string): string | null {
+  const key = `paragraph.kindLanguage.${lang}`;
+  const name = createT(labelLocale(contentPath))(key);
+  return name && name !== key ? name : null;
+}
+
+// Stems of language names in the notes translators put on a foreign passage
+const NOTE_LANGUAGE_STEMS: Array<[RegExp, string]> = [
+  [/^(?:english|angl|англ)/i, 'en'],
+  [/^(?:italian|ital|італ|итал)/i, 'it'],
+  [/^(?:latin|латин)/i, 'la'],
+  [/^(?:russian|rus|рос)/i, 'ru'],
+  [/^(?:german|něm|нім)/i, 'de'],
+];
+
+// A note that only says which language the original passage is in:
+//   en `^[In English in the original.]`, `^[Newspaper clipping in English in the original.]`
+//   cz `Pozn. překl.: V originále anglicky: popis …`
+//   uk `В оригіналі англійською.`, `Англійською в оригіналі.`, `По-латині в оригіналі.`
+const LANGUAGE_NOTE_PATTERNS: RegExp[] = [
+  /^(?:newspaper clipping |letter )?in (\p{L}+) in the original\.?$/iu,
+  /^Pozn\. překl\.: V originále (\p{L}+)(?=[\s:.,]|$)/u,
+  /^В оригіналі (\p{L}+)/u,
+  /^(?:По-)?(\p{L}+) в оригіналі/u,
+];
+
+/**
+ * The language a note says its passage is in ('en', 'it', …), or null when the
+ * note says something else. `note` is plain text or rendered HTML.
+ */
+export function noteLanguage(note: string): string | null {
+  const text = note.replace(/<[^>]*>/g, '').replace(/^[\s*_]+|[\s*_]+$/g, '');
+  for (const pattern of LANGUAGE_NOTE_PATTERNS) {
+    const m = text.match(pattern);
+    if (!m) continue;
+    for (const [stem, code] of NOTE_LANGUAGE_STEMS) if (stem.test(m[1])) return code;
+  }
+  return null;
+}
+
+/** Rendered inline notes (`^[…]`, left as literal text by the renderer), with any breaks before them */
+const INLINE_NOTE_HTML = /(?:\s*<br>)*\s*\^\[((?:(?!\]).)*)\]/gs;
+
+/** Languages named by a paragraph's inline language notes */
+export function inlineNoteLanguages(html: string): string[] {
+  const langs: string[] = [];
+  for (const m of html.matchAll(INLINE_NOTE_HTML)) {
+    const lang = noteLanguage(m[1]);
+    if (lang) langs.push(lang);
+  }
+  return langs;
+}
+
+/**
+ * Remove a paragraph's language notes: inline `^[In English in the original.]`
+ * and the refs of the footnotes in `footnoteIds`.
+ */
+export function stripLanguageNotes(html: string, footnoteIds: Set<string>): string {
+  let out = html.replace(INLINE_NOTE_HTML, (whole, note) => (noteLanguage(note) ? '' : whole));
+  for (const id of footnoteIds) {
+    const escaped = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    out = out.replace(new RegExp(`<sup><a href="#fn-${escaped}"[^>]*>[^<]*</a></sup>`, 'g'), '');
+  }
+  return out.trim();
 }
 
 /** The paragraph's own text inside a kind block (struck through for rayé) */

@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 
-import { kindRuns, parseKindLine, stripQuoteMarkers, wrapKindHtml } from '../paragraph-kind';
+import { kindRuns, noteLanguage, parseKindLine, stripQuoteMarkers, wrapKindHtml } from '../paragraph-kind';
 import { normalizeDrawings, placeDrawings } from '../drawings';
 
 const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'bk-kind-'));
@@ -218,5 +218,86 @@ describe('runs of same-kind paragraphs', () => {
     const cz = getEntry('901', '1877-02-13', 'cz')!.paragraphs.find(p => p.id === '901.0012')!;
     expect(cz.kindBodyHtml).toContain('Český Second alinéa.');
     expect(cz.originalHtml).toBe('Second alinéa.');
+  });
+});
+
+describe("a run's language in its label", () => {
+  it('reads language-only notes in en, cz and uk, and nothing else', () => {
+    expect(noteLanguage('In English in the original.')).toBe('en');
+    expect(noteLanguage('<em>In English in the original.</em>')).toBe('en');
+    expect(noteLanguage('Pozn. překl.: V originále anglicky: popis výzdoby kostela')).toBe('en');
+    expect(noteLanguage('Pozn. překl.: V originále italsky')).toBe('it');
+    expect(noteLanguage('В оригіналі англійською.')).toBe('en');
+    expect(noteLanguage('*По-латині в оригіналі.*')).toBe('la');
+    expect(noteLanguage('Italian: in haste.')).toBeNull();
+    expect(noteLanguage('Pozn. překl.: *Miserere* – latinsky „Smiluj se“')).toBeNull();
+  });
+
+  const src = (i: number) => [
+    `%% 902.00${i} %%`,
+    '%% kind: clipping source="Galignani" %%',
+    ...(i === 11 ? ['%% [#English](../_glossary/culture/languages/ENGLISH.md) %%'] : []),
+    `> Paragraph ${i} of the article.`,
+  ].join('\n');
+
+  beforeAll(() => {
+    write('_original', '902', '1873-12-14', '', [11, 12, 13].map(src).join('\n\n'));
+    // en: every paragraph carries an inline language note
+    write('en', '902', '1873-12-14', '', [11, 12, 13].map(i => [
+      `%% 902.00${i} %%`, '%% kind: clipping source="Galignani" %%', `%% > Paragraph ${i} of the article. %%`,
+      `> ==Paragraph ${i} of the article.==`, '', '> ^[In English in the original.]',
+    ].join('\n')).join('\n\n'));
+    // cz: every paragraph has a "V originále anglicky" footnote; one other note stays
+    write('cz', '902', '1873-12-14', '', [11, 12, 13].map(i => [
+      `%% 902.00${i} %%`, '%% kind: clipping source="Galignani" %%', `%% > Paragraph ${i} of the article. %%`,
+      `> Odstavec ${i} článku.[^${i}]${i === 12 ? '[^99]' : ''}`, '',
+      `[^${i}]: Pozn. překl.: V originále anglicky: popis ${i}`,
+    ].join('\n')).join('\n\n') + '\n\n[^99]: Pozn. překl.: Galignani vycházel v Paříži.');
+    // uk: only one paragraph has a note → it stays; the source tags name the language
+    write('uk', '902', '1873-12-14', '', [11, 12, 13].map(i => [
+      `%% 902.00${i} %%`, '%% kind: clipping source="Galignani" %%', `%% > Paragraph ${i} of the article. %%`,
+      `> Абзац ${i}.${i === 12 ? '[^1]' : ''}`,
+    ].join('\n')).join('\n\n') + '\n\n[^1]: В оригіналі англійською.');
+    // fr: no notes, no language tags of its own
+    write('fr', '902', '1873-12-14', '', [11, 12, 13].map(i => [
+      `%% 902.00${i} %%`, '%% kind: clipping source="Galignani" %%', `> Paragraph ${i} of the article.`,
+    ].join('\n')).join('\n\n'));
+  });
+
+  it('shows the tagged language once in the original', () => {
+    const [first] = getEntry('902', '1873-12-14', 'original')!.paragraphs;
+    expect(first.kindRun!.labelText).toBe('Coupure de presse · Galignani · en anglais');
+    expect(first.kindRun!.labelHtml).toContain('<span class="para-kind-lang">en anglais</span>');
+  });
+
+  it('moves per-paragraph en inline notes into the label', () => {
+    const ps = getEntry('902', '1873-12-14', 'en')!.paragraphs;
+    expect(ps[0].kindRun!.labelText).toBe('Newspaper clipping · Galignani · in English');
+    for (const p of ps) {
+      expect(p.kindBodyHtml).not.toContain('original');
+      expect(p.html).not.toContain('^[');
+      expect(p.html).toContain('in English'); // the standalone block is labelled too
+    }
+  });
+
+  it('moves per-paragraph cz language footnotes into the label and drops them from the notes', () => {
+    const entry = getEntry('902', '1873-12-14', 'cz')!;
+    expect(entry.paragraphs[0].kindRun!.labelText).toBe('Novinový výstřižek · Galignani · anglicky');
+    for (const p of entry.paragraphs) expect(p.kindBodyHtml).not.toMatch(/fn-1[123]"/);
+    expect(entry.paragraphs[1].kindBodyHtml).toContain('href="#fn-99"');
+    expect(entry.paragraphs[1].footnoteRefs).toEqual(['99']);
+    expect(entry.footnotes.map(f => f.id)).toEqual(['99']);
+  });
+
+  it('takes the language from the source tags when the translation has none', () => {
+    expect(getEntry('902', '1873-12-14', 'fr')!.paragraphs[0].kindRun!.labelText)
+      .toBe('Coupure de presse · Galignani · en anglais');
+  });
+
+  it('leaves the notes alone when not every paragraph has one', () => {
+    const entry = getEntry('902', '1873-12-14', 'uk')!;
+    expect(entry.paragraphs[0].kindRun!.labelText).toBe('Газетна вирізка · Galignani · англійською');
+    expect(entry.paragraphs[1].kindBodyHtml).toContain('href="#fn-1"');
+    expect(entry.footnotes.map(f => f.id)).toEqual(['1']);
   });
 });

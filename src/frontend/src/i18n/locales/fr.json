@@ -115,6 +115,15 @@
     "showOriginal": "Afficher l’original : {langs}",
     "showTranslation": "Afficher la traduction : {lang}",
     "untranslated": "Pas encore traduit — original français",
+    "kindLanguage": {
+      "en": "en anglais",
+      "it": "en italien",
+      "la": "en latin",
+      "ru": "en russe",
+      "de": "en allemand",
+      "el": "en grec",
+      "es": "en espagnol"
+    },
     "kind": {
       "clipping": "Coupure de presse",
       "letter": "Lettre recopiée",
