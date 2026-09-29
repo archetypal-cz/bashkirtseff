@@ -63,7 +63,7 @@ Despite the unflattering nickname and occasional exasperation, Princess Galitzin
 **Source of exasperation**: Marie can be withering about her intellectual limitations. "Vraiment souvent Bête m'ennuie avec ses banalités communes" (017, Mar 4, 1874). Marie finds her repetitive and parrot-like: "maintenant que je sais qu'elle répète comme un perroquet, comme une perruche, des bêtises sans fin, je suis tout à fait dégoûtée." Yet the nickname's affectionate edge is unmistakable.
 
 %% GLO_BETE.0014 %%
-**Deep emotional bond**: After parting, Marie's feelings reveal genuine attachment. In April 1875, she writes: "J'ai un désir insensé de voir la princesse Galitzine, si elle entrait en ce moment je me jetterais à son cou. Elle, ma compagne pendant tout ce temps heureux et terrible. Avec elle seule j'ai parlé de Lui!" (031.0101-0102, Apr 6, 1875). In March 1876 from Rome, she calls her "ma chère princesse" and learns she writes "lettre sur lettre" asking about Marie's progress (055.1011).
+**Deep emotional bond**: After parting, Marie's feelings reveal genuine attachment. In April 1875, she writes: "J'ai un désir insensé de voir la princesse Galitzine, si elle entrait en ce moment je me jetterais à son cou. Elle, ma compagne pendant tout ce temps heureux et terrible. Avec elle seule j'ai parlé de Lui!" (031.0102-0102, Apr 6, 1875). In March 1876 from Rome, she calls her "ma chère princesse" and learns she writes "lettre sur lettre" asking about Marie's progress (055.1011).
 
 %% GLO_BETE.0015 %%
 ## Character as Marie Describes Her
@@ -122,7 +122,7 @@ Princess Galitzine is referenced approximately 123 times across the diary, makin
 - 020 (Jun 11, 1874): Last Nice reference -- Walitsky blames Bête for gossip about Marie and Fedus
 - 023 (Aug 18, 1874): "Julie est le portrait de Bête" -- comparing someone to her looks
 - 026 (Nov 22, 1874): Named as "princesse Nadine Galitzine" -- famous quote about gold vs. iron
-- 031.0101-0102 (Apr 6, 1875): "J'ai un désir insensé de voir la princesse Galitzine" -- deepest nostalgia
+- 031.0102-0102 (Apr 6, 1875): "J'ai un désir insensé de voir la princesse Galitzine" -- deepest nostalgia
 - 050.0825 (Dec 16, 1875): "la petite blonde Nathalie Galitzine" -- death in Russia
 - 055.1011 (Mar 22, 1876): "ma chère princesse que j'avais surnommée si bêtement Bête"
 - 064.0443 (Aug 7, 1876): Reunion near St. Petersburg -- "j'allai chercher la princesse Galitzine"

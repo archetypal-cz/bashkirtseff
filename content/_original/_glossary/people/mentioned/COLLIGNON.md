@@ -49,7 +49,7 @@ Collignon was hired as Marie's governess before the diary begins. Marie records 
 - **Educator**: Teaching English, geography, history, arithmetic. Marie studied German history with her and read aloud during lessons (%% 046.0122 %%, %% 103.0007 %%).
 - **Chaperone**: Accompanying Marie on all promenades, visits, shopping, theater outings, and sea bathing. Marie could not go out without her.
 - **Disciplinarian**: Scolding Marie for blushing at men (%% 001.0024 %%: "Ne faites pas cela, Marie, cela m'enerve tant"), for attracting attention (%% 004.0269 %%: "m'a grondee parce qu'on me regardait trop"), and for speaking indiscreetly.
-- **Confidante (limited)**: Despite tensions, Marie confided some feelings — hiding her face in Collignon's chest after seeing the Duke (%% 001.0106 %%, %% 044.0145 %%: "je me jetais dans les bras de Collignon, je cachais ma figure sur sa poitrine").
+- **Confidante (limited)**: Despite tensions, Marie confided some feelings — hiding her face in Collignon's chest after seeing the Duke (%% 001.0106 %%, %% 044.0167 %%: "je me jetais dans les bras de Collignon, je cachais ma figure sur sa poitrine").
 
 ## Dismissal (May 31, 1873)
 
@@ -61,17 +61,17 @@ Collignon departed on June 8, 1873 (%% 005.0212 %%: "A deux heures nous allames 
 
 ## The Scandal with Grand-papa
 
-Marie hints darkly at a "malheureuse affaire avec grand-papa" involving Collignon (%% 024.0398 %%). After Collignon's departure, she suspected the governess "avait des plans sur lui et lui la croyait de bonne foi et le pauvre vieillard s'est laisse un peu entortiller" (%% 005.0216 %%). Grand-papa was furious about her departure and quarreled with everyone for days (%% 005.0232 %%, %% 005.0233 %%). Papa was also "bouleverse" when Collignon visited in October 1874, "ses anciens sentiments reviennent" (%% 024.0398 %%). Marie confirmed this openly in 1875: "les desagrements avec Collignon et son depart eurent lieu a cause de grand-papa. Ce grand imbecile avait envie d'elle" (%% 032.0107 %%), and when she teased Collignon about it, the older woman "a rougi jusqu'aux oreilles" (%% 032.0108 %%: Apr 29, 1875). Papa's jealousy of Collignon and Barnola persisted for years (%% 062.0220 %%: "papa me mit sur des charbons brulants en disant des obscenites comme toujours sur Collignon et Barnola dont le vieux fou est jaloux").
+Marie hints darkly at a "malheureuse affaire avec grand-papa" involving Collignon (%% 024.0398 %%). After Collignon's departure, she suspected the governess "avait des plans sur lui et lui la croyait de bonne foi et le pauvre vieillard s'est laisse un peu entortiller" (%% 005.0216 %%). Grand-papa was furious about her departure and quarreled with everyone for days (%% 005.0232 %%, %% 005.0233 %%). Papa was also "bouleverse" when Collignon visited in October 1874, "ses anciens sentiments reviennent" (%% 024.0398 %%). Marie confirmed this openly in 1875: "les desagrements avec Collignon et son depart eurent lieu a cause de grand-papa. Ce grand imbecile avait envie d'elle" (%% 032.0147 %%), and when she teased Collignon about it, the older woman "a rougi jusqu'aux oreilles" (%% 032.0148 %%: Apr 29, 1875). Papa's jealousy of Collignon and Barnola persisted for years (%% 062.0220 %%: "papa me mit sur des charbons brulants en disant des obscenites comme toujours sur Collignon et Barnola dont le vieux fou est jaloux").
 
 ## Return as Family Friend (1874 onward)
 
 Despite the dramatic dismissal, Collignon quickly reappeared. In January 1874, Walitsky reported she had "arrived and married" (%% 015.0120 %%), but this seems to have been a rumor — she continued to be addressed as "Mademoiselle" throughout the diary. By March 1874 she was visiting the family again (%% 017.0096 %%). In October 1874 she came from Cannes for a brief visit, staying overnight (%% 024.0398-0415 %%); Marie found her "tres agreable, spirituelle, sympathique" and wished she could rehire her "si ce n'etait cette malheureuse affaire avec grand-papa."
 
-From April 1875, Collignon effectively rejoined the household for extended stays: "Collignon va venir pour un mois chez nous, je suis contente, c'est une personne tres agreable, extremement utile, indispensable meme" (%% 031.0179 %%). Marie noted: "Il semble que Collignon n'etait jamais absente" (%% 031.0216 %%). Throughout 1875-1877, Collignon was a near-constant presence — accompanying Marie to the Anglican church (%% 031.0188 %%), attending concerts, sharing adventures, observing suitors, and serving as companion, co-conspirator, and sounding board.
+From April 1875, Collignon effectively rejoined the household for extended stays: "Collignon va venir pour un mois chez nous, je suis contente, c'est une personne tres agreable, extremement utile, indispensable meme" (%% 031.0180 %%). Marie noted: "Il semble que Collignon n'etait jamais absente" (%% 031.0217 %%). Throughout 1875-1877, Collignon was a near-constant presence — accompanying Marie to the Anglican church (%% 031.0189 %%), attending concerts, sharing adventures, observing suitors, and serving as companion, co-conspirator, and sounding board.
 
 ## Anglophilia and Cultural Interests
 
-Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0188 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0291 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0193 %%), and Marie described her as "une femme serieuse" (%% 050.1334 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0202 %%).
+Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0189 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0291 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0193 %%), and Marie described her as "une femme serieuse" (%% 050.1334 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0202 %%).
 
 ## Romantic Disappointment
 
@@ -83,9 +83,9 @@ Despite (or because of) her own romantic disappointment, Collignon served as Mar
 
 - **Duke of Hamilton**: Called him "un gros boucher" who socializes with workers (%% 004.0276 %%), yet teased Marie about "les montagnes de l'Ecosse" (%% 004.0258 %%).
 - **Lambertye**: Dismissed him as "ce petit vilain" (%% 017.0187 %%).
-- **Audiffret**: Noticed his interest in Marie and reported it to the aunt (%% 033.0437 %%).
-- **Girofla**: Called him "le beau zero" (%% 032.0154 %%).
-- **Pietro Antonelli**: Worried Collignon warned Marie he was "un Lovelace" (%% 034.0226 %%), but also said "S'il ne vous aimait pas, il ne vous ecrirait pas des lettres comme ca" (%% 062.0310 %%).
+- **Audiffret**: Noticed his interest in Marie and reported it to the aunt (%% 033.0483 %%).
+- **Girofla**: Called him "le beau zero" (%% 032.0194 %%).
+- **Pietro Antonelli**: Worried Collignon warned Marie he was "un Lovelace" (%% 034.0223 %%), but also said "S'il ne vous aimait pas, il ne vous ecrirait pas des lettres comme ca" (%% 062.0310 %%).
 - **Soutzo**: Openly called him "bete et mechant" and "un ane bate" and said she would weep if Marie married him (%% 088.0174 %%: June 1880).
 - **General maxim**: "Quand une femme veut un homme, elle l'a toujours" (%% 004.0272 %%: April 15, 1873).
 
@@ -97,7 +97,7 @@ In May-June 1876, Marie painted Collignon's portrait in twelve sittings on a "fo
 
 Collignon made several penetrating observations about Marie:
 
-- On her appearance: "si elle ne me connaissait pas, elle dirait de moi — Voila une belle fille, car vous etes grande et bien faite" (%% 033.0351 %%).
+- On her appearance: "si elle ne me connaissait pas, elle dirait de moi — Voila une belle fille, car vous etes grande et bien faite" (%% 033.0385 %%).
 - On her handwriting: "il semble que vous n'osez pas faire vos lettres elancees, elles paraissent retenues, comme si quelque chose pesait sur elles, un effort et puis un aplatissement... C'est toute ma vie" — Marie agreed this described her entire existence (%% 090.0146 %%: Dec 1880).
 - On Marie's character: "Marie a beaucoup change" — said with confidence in her own influence (%% 059.0376 %%: May 1876).
 
@@ -145,9 +145,9 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 005.0212 %% (Jun 8, 1873): Departs the household
 - %% 005.0216 %% (Jun 8, 1873): Marie suspects Collignon's "plans" on grand-papa
 - %% 024.0398 %% (Oct 24, 1874): Returns from Cannes — "la belle aux longs cheveux"
-- %% 031.0179 %% (Apr 10, 1875): Returns for a month's stay — "indispensable meme"
-- %% 032.0107 %% (Apr 29, 1875): Marie confirms grand-papa scandal
-- %% 044.0145 %% (Sep 24, 1875): Remembered: Marie threw herself into Collignon's arms
+- %% 031.0180 %% (Apr 10, 1875): Returns for a month's stay — "indispensable meme"
+- %% 032.0147 %% (Apr 29, 1875): Marie confirms grand-papa scandal
+- %% 044.0167 %% (Sep 24, 1875): Remembered: Marie threw herself into Collignon's arms
 - %% 061.0241 %% (May 23, 1876): Marie begins painting her portrait
 - %% 062.0248 %% (Jun 7, 1876): Detailed physical description during portrait sessions
 - %% 062.0256 %% (Jun 12, 1876): Finishing the portrait — ninth session, the hair

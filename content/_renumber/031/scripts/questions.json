@@ -1,0 +1,10 @@
+[
+ [
+  "034",
+  "Old _original text of 034–037 keeps OCR slips of the printed edition's scan («c est», «I» for «l'»/«!», «bète/tète», «1 875», «. mie ergo parce» in 037.0336). New text was cleaned; old text left untouched (set_french would reset approvals of whole entries). Default: leave; do a separate OCR-cleanup commit?"
+ ],
+ [
+  "044",
+  "044.0222 «maman m'a dit qu'il me croyait folle de lui … à cette passion.]» (1875-09-25, docx ¶5643, small type) is the end of a bracketed note whose beginning is missing in the docx (empty ¶5642 before it). Probably a later annotation by Marie (margin); left without kind — check the printed page."
+ ]
+]

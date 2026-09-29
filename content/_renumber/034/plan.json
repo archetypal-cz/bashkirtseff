@@ -1,0 +1,3901 @@
+{
+ "carnet": "034",
+ "source": "tome05.docx",
+ "drop": [
+  {
+   "id": "034.0002",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "034.0003",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "034.0004",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "034.0447",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1875-06-07.md",
+   "date": "1875-06-07",
+   "heading": "Lundi 7 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0001",
+     "_docx": 1695.5
+    },
+    {
+     "old": "034.0005",
+     "_docx": 1696
+    },
+    {
+     "old": "034.0006",
+     "_docx": 1697
+    },
+    {
+     "old": "034.0007",
+     "_docx": 1698
+    },
+    {
+     "old": "034.0008",
+     "_docx": 1699
+    },
+    {
+     "old": "034.0009",
+     "_docx": 1701
+    },
+    {
+     "old": "034.0010",
+     "_docx": 1702
+    },
+    {
+     "old": "034.0011",
+     "_docx": 1703
+    },
+    {
+     "old": "034.0012",
+     "_docx": 1704
+    },
+    {
+     "old": "034.0013",
+     "_docx": 1705
+    },
+    {
+     "old": "034.0014",
+     "_docx": 1706
+    },
+    {
+     "old": "034.0015",
+     "_docx": 1707
+    },
+    {
+     "old": "034.0016",
+     "_docx": 1708
+    },
+    {
+     "old": "034.0017",
+     "_docx": 1709
+    },
+    {
+     "old": "034.0018",
+     "_docx": 1710
+    },
+    {
+     "old": "034.0019",
+     "_docx": 1711
+    },
+    {
+     "old": "034.0020",
+     "_docx": 1712,
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "034.0021",
+     "_docx": 1713
+    },
+    {
+     "old": "034.0022",
+     "_docx": 1715
+    },
+    {
+     "old": "034.0023",
+     "_docx": 1716
+    },
+    {
+     "old": "034.0024",
+     "_docx": 1717
+    },
+    {
+     "old": "034.0025",
+     "_docx": 1718
+    },
+    {
+     "old": "034.0026",
+     "_docx": 1719
+    },
+    {
+     "old": "034.0027",
+     "_docx": 1720
+    },
+    {
+     "old": "034.0028",
+     "_docx": 1721
+    },
+    {
+     "old": "034.0029",
+     "_docx": 1722
+    },
+    {
+     "old": "034.0030",
+     "_docx": 1723
+    },
+    {
+     "old": "034.0031",
+     "_docx": 1724
+    },
+    {
+     "old": "034.0032",
+     "_docx": 1725
+    },
+    {
+     "old": "034.0033",
+     "_docx": 1726
+    },
+    {
+     "old": "034.0034",
+     "_docx": 1727
+    },
+    {
+     "old": "034.0035",
+     "_docx": 1728
+    },
+    {
+     "old": "034.0036",
+     "_docx": 1729
+    },
+    {
+     "old": "034.0037",
+     "_docx": 1730
+    },
+    {
+     "old": "034.0038",
+     "_docx": 1731
+    },
+    {
+     "old": "034.0039",
+     "_docx": 1732
+    },
+    {
+     "old": "034.0040",
+     "_docx": 1733
+    },
+    {
+     "old": "034.0041",
+     "_docx": 1734
+    },
+    {
+     "old": "034.0042",
+     "_docx": 1735
+    },
+    {
+     "old": "034.0043",
+     "_docx": 1737
+    },
+    {
+     "old": "034.0044",
+     "_docx": 1738
+    },
+    {
+     "old": "034.0045",
+     "_docx": 1739
+    },
+    {
+     "old": "034.0046",
+     "_docx": 1740
+    },
+    {
+     "old": "034.0047",
+     "_docx": 1741
+    },
+    {
+     "old": "034.0048",
+     "_docx": 1742
+    },
+    {
+     "old": "034.0049",
+     "_docx": 1743
+    },
+    {
+     "old": "034.0050",
+     "_docx": 1744
+    },
+    {
+     "old": "034.0051",
+     "_docx": 1745
+    },
+    {
+     "old": "034.0052",
+     "_docx": 1746
+    },
+    {
+     "old": "034.0053",
+     "_docx": 1747
+    },
+    {
+     "old": "034.0054",
+     "_docx": 1748
+    },
+    {
+     "old": "034.0055",
+     "_docx": 1749
+    },
+    {
+     "old": "034.0056",
+     "_docx": 1750
+    },
+    {
+     "old": "034.0057",
+     "_docx": 1751
+    },
+    {
+     "old": "034.0058",
+     "_docx": 1752
+    },
+    {
+     "old": "034.0059",
+     "_docx": 1753
+    },
+    {
+     "old": "034.0060"
+    },
+    {
+     "old": "034.0061"
+    },
+    {
+     "old": "034.0062"
+    },
+    {
+     "old": "034.0063"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-08.md",
+   "date": "1875-06-08",
+   "heading": "Mardi 8 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0064",
+     "_docx": 1754.5
+    },
+    {
+     "old": "034.0065",
+     "_docx": 1755
+    },
+    {
+     "old": "034.0066",
+     "_docx": 1756
+    },
+    {
+     "old": "034.0067",
+     "_docx": 1758
+    },
+    {
+     "old": "034.0068",
+     "_docx": 1759
+    },
+    {
+     "old": "034.0069",
+     "_docx": 1760
+    },
+    {
+     "old": "034.0070",
+     "_docx": 1761
+    },
+    {
+     "old": "034.0071",
+     "_docx": 1762
+    },
+    {
+     "old": "034.0072",
+     "_docx": 1763
+    },
+    {
+     "old": "034.0073",
+     "_docx": 1764
+    },
+    {
+     "old": "034.0074",
+     "_docx": 1765
+    },
+    {
+     "old": "034.0075",
+     "_docx": 1766
+    },
+    {
+     "old": "034.0076",
+     "_docx": 1767
+    },
+    {
+     "old": "034.0077",
+     "_docx": 1768
+    },
+    {
+     "old": "034.0078",
+     "_docx": 1769
+    },
+    {
+     "old": "034.0079"
+    },
+    {
+     "old": "034.0080"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-09.md",
+   "date": "1875-06-09",
+   "heading": "Mercredi 9 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0081",
+     "_docx": 1770.5
+    },
+    {
+     "old": "034.0082",
+     "_docx": 1771
+    },
+    {
+     "old": "034.0083",
+     "_docx": 1772
+    },
+    {
+     "old": "034.0084",
+     "_docx": 1775
+    },
+    {
+     "old": "034.0085",
+     "_docx": 1776
+    },
+    {
+     "old": "034.0086",
+     "_docx": 1777
+    },
+    {
+     "old": "034.0087",
+     "_docx": 1778
+    },
+    {
+     "old": "034.0088",
+     "_docx": 1779
+    },
+    {
+     "old": "034.0089",
+     "_docx": 1780
+    },
+    {
+     "old": "034.0090",
+     "_docx": 1781
+    },
+    {
+     "old": "034.0091",
+     "_docx": 1782
+    },
+    {
+     "old": "034.0092",
+     "_docx": 1783
+    },
+    {
+     "old": "034.0093",
+     "_docx": 1784
+    },
+    {
+     "old": "034.0094",
+     "_docx": 1785
+    },
+    {
+     "old": "034.0095",
+     "_docx": 1785.01
+    },
+    {
+     "old": "034.0096",
+     "_docx": 1787
+    },
+    {
+     "old": "034.0097",
+     "_docx": 1787.01
+    },
+    {
+     "old": "034.0098",
+     "_docx": 1789
+    },
+    {
+     "old": "034.0099",
+     "_docx": 1792
+    },
+    {
+     "old": "034.0100",
+     "_docx": 1793
+    },
+    {
+     "old": "034.0101",
+     "_docx": 1794
+    },
+    {
+     "old": "034.0102",
+     "_docx": 1795
+    },
+    {
+     "old": "034.0103",
+     "_docx": 1796
+    },
+    {
+     "old": "034.0104",
+     "_docx": 1797
+    },
+    {
+     "old": "034.0105",
+     "_docx": 1798
+    },
+    {
+     "old": "034.0106",
+     "_docx": 1799
+    },
+    {
+     "old": "034.0107",
+     "_docx": 1800
+    },
+    {
+     "old": "034.0108",
+     "_docx": 1801
+    },
+    {
+     "old": "034.0109",
+     "_docx": 1802
+    },
+    {
+     "old": "034.0110",
+     "_docx": 1803,
+     "kind": "editorial",
+     "_kind_guess_reason": "«[Trois quarts de page enlevés]»: editors' note about the physical manuscript (generic BRACKET_EDITORIAL regex misses «enlevés»)"
+    },
+    {
+     "old": "034.0111",
+     "_docx": 1804
+    },
+    {
+     "old": "034.0112",
+     "_docx": 1805
+    },
+    {
+     "old": "034.0113",
+     "_docx": 1806
+    },
+    {
+     "old": "034.0114",
+     "_docx": 1807
+    },
+    {
+     "old": "034.0115",
+     "_docx": 1808
+    },
+    {
+     "old": "034.0116",
+     "_docx": 1809
+    },
+    {
+     "old": "034.0117",
+     "_docx": 1810
+    },
+    {
+     "old": "034.0118",
+     "_docx": 1811
+    },
+    {
+     "old": "034.0119",
+     "_docx": 1813
+    },
+    {
+     "old": "034.0120",
+     "_docx": 1814
+    },
+    {
+     "old": "034.0121",
+     "_docx": 1815
+    },
+    {
+     "old": "034.0122",
+     "_docx": 1816
+    },
+    {
+     "old": "034.0123",
+     "_docx": 1817
+    },
+    {
+     "old": "034.0124",
+     "_docx": 1818
+    },
+    {
+     "old": "034.0125",
+     "_docx": 1819
+    },
+    {
+     "old": "034.0126",
+     "_docx": 1820
+    },
+    {
+     "old": "034.0127",
+     "_docx": 1821
+    },
+    {
+     "old": "034.0128",
+     "_docx": 1822
+    },
+    {
+     "old": "034.0129",
+     "_docx": 1823
+    },
+    {
+     "old": "034.0130",
+     "_docx": 1824
+    },
+    {
+     "old": "034.0131",
+     "_docx": 1825
+    },
+    {
+     "old": "034.0132",
+     "_docx": 1826
+    },
+    {
+     "old": "034.0133",
+     "_docx": 1827
+    },
+    {
+     "old": "034.0134",
+     "_docx": 1828
+    },
+    {
+     "old": "034.0135",
+     "_docx": 1830
+    },
+    {
+     "old": "034.0136",
+     "_docx": 1831
+    },
+    {
+     "old": "034.0137"
+    },
+    {
+     "old": "034.0138"
+    },
+    {
+     "old": "034.0139"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-10.md",
+   "date": "1875-06-10",
+   "heading": "Jeudi 10 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0140",
+     "_docx": 1832.5
+    },
+    {
+     "old": "034.0141",
+     "_docx": 1833
+    },
+    {
+     "old": "034.0142",
+     "_docx": 1834
+    },
+    {
+     "old": "034.0143",
+     "_docx": 1835
+    },
+    {
+     "old": "034.0144",
+     "_docx": 1836
+    },
+    {
+     "old": "034.0145",
+     "_docx": 1837
+    },
+    {
+     "old": "034.0146",
+     "_docx": 1838
+    },
+    {
+     "old": "034.0147",
+     "_docx": 1839
+    },
+    {
+     "old": "034.0148",
+     "_docx": 1840
+    },
+    {
+     "old": "034.0149",
+     "_docx": 1841
+    },
+    {
+     "old": "034.0150",
+     "_docx": 1842
+    },
+    {
+     "old": "034.0151",
+     "_docx": 1843
+    },
+    {
+     "old": "034.0152",
+     "_docx": 1844
+    },
+    {
+     "old": "034.0153",
+     "_docx": 1845
+    },
+    {
+     "old": "034.0154",
+     "_docx": 1846
+    },
+    {
+     "old": "034.0155",
+     "_docx": 1847
+    },
+    {
+     "old": "034.0156",
+     "_docx": 1848
+    },
+    {
+     "old": "034.0157"
+    },
+    {
+     "old": "034.0158"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-11.md",
+   "date": "1875-06-11",
+   "heading": "Vendredi 11 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0159",
+     "_docx": 1850.5
+    },
+    {
+     "old": "034.0160",
+     "_docx": 1851
+    },
+    {
+     "old": "034.0161",
+     "_docx": 1852
+    },
+    {
+     "old": "034.0162",
+     "_docx": 1853
+    },
+    {
+     "old": "034.0163",
+     "_docx": 1854
+    },
+    {
+     "old": "034.0164",
+     "_docx": 1855
+    },
+    {
+     "old": "034.0165",
+     "_docx": 1856
+    },
+    {
+     "old": "034.0166",
+     "_docx": 1857
+    },
+    {
+     "old": "034.0167",
+     "_docx": 1858
+    },
+    {
+     "old": "034.0168",
+     "_docx": 1859
+    },
+    {
+     "old": "034.0169",
+     "_docx": 1860
+    },
+    {
+     "old": "034.0170",
+     "_docx": 1861
+    },
+    {
+     "old": "034.0171",
+     "_docx": 1862
+    },
+    {
+     "old": "034.0172",
+     "_docx": 1863
+    },
+    {
+     "old": "034.0173",
+     "_docx": 1866
+    },
+    {
+     "old": "034.0174",
+     "_docx": 1867
+    },
+    {
+     "old": "034.0175",
+     "_docx": 1868
+    },
+    {
+     "old": "034.0176",
+     "_docx": 1869
+    },
+    {
+     "old": "034.0177",
+     "_docx": 1870
+    },
+    {
+     "old": "034.0178",
+     "_docx": 1871
+    },
+    {
+     "old": "034.0179",
+     "_docx": 1872
+    },
+    {
+     "old": "034.0180",
+     "_docx": 1873
+    },
+    {
+     "old": "034.0181",
+     "_docx": 1874
+    },
+    {
+     "old": "034.0182",
+     "_docx": 1875
+    },
+    {
+     "old": "034.0183",
+     "_docx": 1877
+    },
+    {
+     "old": "034.0184",
+     "_docx": 1878
+    },
+    {
+     "old": "034.0185",
+     "_docx": 1879
+    },
+    {
+     "old": "034.0186",
+     "_docx": 1880
+    },
+    {
+     "old": "034.0187",
+     "_docx": 1881
+    },
+    {
+     "old": "034.0188",
+     "_docx": 1882,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "034.0189",
+     "_docx": 1883
+    },
+    {
+     "old": "034.0190",
+     "_docx": 1884,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "034.0191",
+     "_docx": 1885
+    },
+    {
+     "old": "034.0192"
+    },
+    {
+     "old": "034.0193"
+    },
+    {
+     "old": "034.0194"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-12.md",
+   "date": "1875-06-12",
+   "heading": "Samedi 12 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0195",
+     "_docx": 1886.5
+    },
+    {
+     "old": "034.0196",
+     "_docx": 1887
+    },
+    {
+     "old": "034.0197",
+     "_docx": 1888
+    },
+    {
+     "old": "034.0198",
+     "_docx": 1889
+    },
+    {
+     "old": "034.0199",
+     "_docx": 1890
+    },
+    {
+     "old": "034.0200",
+     "_docx": 1891
+    },
+    {
+     "old": "034.0201",
+     "_docx": 1894
+    },
+    {
+     "old": "034.0202",
+     "_docx": 1895
+    },
+    {
+     "old": "034.0203",
+     "_docx": 1896
+    },
+    {
+     "old": "034.0204",
+     "_docx": 1897
+    },
+    {
+     "old": "034.0205",
+     "_docx": 1898
+    },
+    {
+     "old": "034.0206",
+     "_docx": 1899
+    },
+    {
+     "old": "034.0207",
+     "_docx": 1900
+    },
+    {
+     "old": "034.0208",
+     "_docx": 1901
+    },
+    {
+     "old": "034.0209",
+     "_docx": 1902
+    },
+    {
+     "old": "034.0210",
+     "_docx": 1903
+    },
+    {
+     "old": "034.0211",
+     "_docx": 1904
+    },
+    {
+     "old": "034.0212",
+     "_docx": 1905
+    },
+    {
+     "old": "034.0213",
+     "_docx": 1906
+    },
+    {
+     "old": "034.0214",
+     "_docx": 1907
+    },
+    {
+     "old": "034.0215",
+     "_docx": 1908
+    },
+    {
+     "old": "034.0216",
+     "_docx": 1911
+    },
+    {
+     "old": "034.0217",
+     "_docx": 1912
+    },
+    {
+     "old": "034.0218",
+     "_docx": 1913
+    },
+    {
+     "old": "034.0219",
+     "_docx": 1914
+    },
+    {
+     "old": "034.0220",
+     "_docx": 1915
+    },
+    {
+     "old": "034.0221",
+     "_docx": 1916
+    },
+    {
+     "old": "034.0222",
+     "_docx": 1917
+    },
+    {
+     "old": "034.0223"
+    },
+    {
+     "old": "034.0224"
+    },
+    {
+     "old": "034.0225"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-13.md",
+   "date": "1875-06-13",
+   "heading": "Dimanche 13 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0226",
+     "_docx": 1918.5
+    },
+    {
+     "old": "034.0227",
+     "_docx": 1919
+    },
+    {
+     "old": "034.0228",
+     "_docx": 1920
+    },
+    {
+     "old": "034.0229",
+     "_docx": 1921
+    },
+    {
+     "old": "034.0230",
+     "_docx": 1923
+    },
+    {
+     "old": "034.0231",
+     "_docx": 1924
+    },
+    {
+     "old": "034.0232",
+     "_docx": 1925
+    },
+    {
+     "old": "034.0233",
+     "_docx": 1926
+    },
+    {
+     "old": "034.0234",
+     "_docx": 1927
+    },
+    {
+     "old": "034.0235",
+     "_docx": 1928
+    },
+    {
+     "old": "034.0236",
+     "_docx": 1929
+    },
+    {
+     "old": "034.0237",
+     "_docx": 1930
+    },
+    {
+     "old": "034.0238",
+     "_docx": 1931
+    },
+    {
+     "old": "034.0239",
+     "_docx": 1932
+    },
+    {
+     "old": "034.0240",
+     "_docx": 1933
+    },
+    {
+     "old": "034.0241",
+     "_docx": 1934
+    },
+    {
+     "old": "034.0242",
+     "_docx": 1935
+    },
+    {
+     "old": "034.0243",
+     "_docx": 1936
+    },
+    {
+     "old": "034.0244",
+     "_docx": 1937
+    },
+    {
+     "old": "034.0245",
+     "_docx": 1938
+    },
+    {
+     "old": "034.0246",
+     "_docx": 1939
+    },
+    {
+     "old": "034.0247",
+     "_docx": 1940
+    },
+    {
+     "old": "034.0248",
+     "_docx": 1941
+    },
+    {
+     "old": "034.0249",
+     "_docx": 1942
+    },
+    {
+     "old": "034.0250",
+     "_docx": 1943
+    },
+    {
+     "old": "034.0251",
+     "_docx": 1944
+    },
+    {
+     "old": "034.0252",
+     "_docx": 1945
+    },
+    {
+     "old": "034.0253",
+     "_docx": 1946
+    },
+    {
+     "old": "034.0254",
+     "_docx": 1947
+    },
+    {
+     "old": "034.0255",
+     "_docx": 1948
+    },
+    {
+     "old": "034.0256",
+     "_docx": 1951
+    },
+    {
+     "old": "034.0257",
+     "_docx": 1952
+    },
+    {
+     "old": "034.0258",
+     "_docx": 1953
+    },
+    {
+     "old": "034.0259",
+     "_docx": 1954
+    },
+    {
+     "old": "034.0260",
+     "_docx": 1955
+    },
+    {
+     "old": "034.0261",
+     "_docx": 1956
+    },
+    {
+     "old": "034.0262",
+     "_docx": 1957
+    },
+    {
+     "old": "034.0263",
+     "_docx": 1958
+    },
+    {
+     "old": "034.0264",
+     "_docx": 1959
+    },
+    {
+     "old": "034.0265",
+     "_docx": 1960
+    },
+    {
+     "old": "034.0266",
+     "_docx": 1961
+    },
+    {
+     "old": "034.0267",
+     "_docx": 1962
+    },
+    {
+     "old": "034.0268",
+     "_docx": 1963
+    },
+    {
+     "old": "034.0269",
+     "_docx": 1964
+    },
+    {
+     "old": "034.0270",
+     "_docx": 1965
+    },
+    {
+     "old": "034.0271",
+     "_docx": 1965.01
+    },
+    {
+     "old": "034.0272",
+     "_docx": 1967
+    },
+    {
+     "old": "034.0273",
+     "_docx": 1968
+    },
+    {
+     "old": "034.0274",
+     "_docx": 1969
+    },
+    {
+     "old": "034.0275",
+     "_docx": 1970
+    },
+    {
+     "old": "034.0276",
+     "_docx": 1971
+    },
+    {
+     "old": "034.0277",
+     "_docx": 1972
+    },
+    {
+     "old": "034.0278",
+     "_docx": 1975
+    },
+    {
+     "old": "034.0279",
+     "_docx": 1976
+    },
+    {
+     "old": "034.0280",
+     "_docx": 1977
+    },
+    {
+     "old": "034.0281"
+    },
+    {
+     "old": "034.0282"
+    },
+    {
+     "old": "034.0283"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-14.md",
+   "date": "1875-06-14",
+   "heading": "Lundi 14 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0284",
+     "_docx": 1978.5
+    },
+    {
+     "old": "034.0285",
+     "_docx": 1979
+    },
+    {
+     "old": "034.0286",
+     "_docx": 1980
+    },
+    {
+     "old": "034.0287",
+     "_docx": 1981
+    },
+    {
+     "old": "034.0288",
+     "_docx": 1982
+    },
+    {
+     "old": "034.0289",
+     "_docx": 1983
+    },
+    {
+     "old": "034.0290",
+     "_docx": 1984
+    },
+    {
+     "old": "034.0291",
+     "_docx": 1985
+    },
+    {
+     "old": "034.0292",
+     "_docx": 1988
+    },
+    {
+     "old": "034.0293",
+     "_docx": 1989
+    },
+    {
+     "old": "034.0294",
+     "_docx": 1990
+    },
+    {
+     "old": "034.0295",
+     "_docx": 1991
+    },
+    {
+     "old": "034.0296",
+     "_docx": 1992
+    },
+    {
+     "old": "034.0297",
+     "_docx": 1993
+    },
+    {
+     "old": "034.0298",
+     "_docx": 1994
+    },
+    {
+     "old": "034.0299",
+     "_docx": 1995
+    },
+    {
+     "old": "034.0300",
+     "_docx": 1998
+    },
+    {
+     "old": "034.0301",
+     "_docx": 1999
+    },
+    {
+     "old": "034.0302",
+     "_docx": 2000
+    },
+    {
+     "old": "034.0303",
+     "_docx": 2001
+    },
+    {
+     "old": "034.0304",
+     "_docx": 2002
+    },
+    {
+     "old": "034.0305",
+     "_docx": 2003
+    },
+    {
+     "old": "034.0306",
+     "_docx": 2004
+    },
+    {
+     "old": "034.0307",
+     "_docx": 2005
+    },
+    {
+     "old": "034.0308",
+     "_docx": 2006
+    },
+    {
+     "old": "034.0309",
+     "_docx": 2007
+    },
+    {
+     "old": "034.0310",
+     "_docx": 2008
+    },
+    {
+     "old": "034.0311",
+     "_docx": 2011
+    },
+    {
+     "old": "034.0312"
+    },
+    {
+     "old": "034.0313"
+    },
+    {
+     "old": "034.0314"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-15.md",
+   "date": "1875-06-15",
+   "heading": "Mardi 15 juin 1875",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "J'ai rêvé d'une fontaine jaillissante *i.e.,* position brillante, fortune rapide, mariage avantageux. Si on pouvait croire aux rêves !",
+      "rsr": "Restored from tome05.docx ¶2013 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2013,
+      2013
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous sommes tous rassemblés au salon quand d'Audiffret amène et présente son oncle Saëtone. La grosse masse ! Comment peut-il être le meneur de la société de Nice ?",
+      "rsr": "Restored from tome05.docx ¶2014 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2014,
+      2014
+     ]
+    },
+    {
+     "new": {
+      "french": "A six heures seulement nous partons et Girofla se met à côté de moi.",
+      "rsr": "Restored from tome05.docx ¶2015 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2015,
+      2015
+     ]
+    },
+    {
+     "new": {
+      "french": "Le bout du nez me fait mal, rien ne se voit encore mais ce mal me rend de mauvaise humeur. On arrive à Saint-Jean, très joli endroit, on fait le tour du golfe en bateau. Je *cause* principalement avec Saëtone et Audiffret me cherche médiocrement de sorte que je suis dépitée. Nous dînons mal, et à dîner encore il se place près de moi à gauche, à droite j'ai Saëtone.",
+      "rsr": "Restored from tome05.docx ¶2016 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2016,
+      2016
+     ]
+    },
+    {
+     "new": {
+      "french": "J'aime entendre parler Audiffret, malgré son accent méridional il prononce très agréablement.",
+      "rsr": "Restored from tome05.docx ¶2017 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2017,
+      2017
+     ]
+    },
+    {
+     "new": {
+      "french": "Au clair de la lune nous sortons sur la terrasse en face de l'auberge. Nous faisons une philippine avec Girofla à discrétion et nous promettons réciproquement les plus grandes indiscrétions du monde. Quant à moi je sais ce que je lui ferais faire, ce que j'ai juré de lui faire faire. Marcher à quatre pattes depuis chez nous jusqu'au bain et là sauter du pont tout habillé. Je ne lui dis pas. Pardi !",
+      "rsr": "Restored from tome05.docx ¶2018 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2018,
+      2018
+     ]
+    },
+    {
+     "new": {
+      "french": "Notre philippine fait rire tout le monde, mais cette fois on ne s'amuse pas comme l'autre.",
+      "rsr": "Restored from tome05.docx ¶2019 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2019,
+      2019
+     ]
+    },
+    {
+     "new": {
+      "french": "Le petit Fiouloulou manque et Saëtone le remplace.",
+      "rsr": "Restored from tome05.docx ¶2020 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2020,
+      2020
+     ]
+    },
+    {
+     "new": {
+      "french": "Au retour de nouveau l'homme se trouve près de moi; mais comme c'est un peu ma tante qui l'a placé ainsi, je fais changer de place à tout le monde et me trouve presque en face lui. Ainsi c'est mieux, car j'ai toujours le malheur de croire qu'il peut me penser éprise de sa personne.",
+      "rsr": "Restored from tome05.docx ¶2021 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2021,
+      2021
+     ]
+    },
+    {
+     "new": {
+      "french": "Je chante et bien. Saëtone hurle, Audiffret n'a pas l'air gai, il chante un petit peu, mais pas franchement, il n'est pas comme l'autre fois. Il joue avec Olga qui est familière avec lui comme une enfant. Ils ne s'appellent ni monsieur, ni mademoiselle, mais simplement Girofla et Giroflé. C'est très gentil à voir. On rit beaucoup, moi aussi mais pas de grand cœur.",
+      "rsr": "Restored from tome05.docx ¶2022–2024 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2022,
+      2024
+     ]
+    },
+    {
+     "new": {
+      "french": "Collignon m'ennuie, elle épie toutes mes paroles et regarde méchamment et quand elle est là je suis intimidée et fâchée. Libera me Domine ab Collinionis ! [sic]",
+      "rsr": "Restored from tome05.docx ¶2025 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2025,
+      2025
+     ]
+    }
+   ],
+   "frontmatter_from": "1875-06-14.md"
+  },
+  {
+   "file": "1875-06-16.md",
+   "date": "1875-06-16",
+   "heading": "Mercredi 16 juin 1875",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Mon nez me fait mal, il enfle, je suis d'une humeur affreuse.",
+      "rsr": "Restored from tome05.docx ¶2027 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2027,
+      2027
+     ]
+    },
+    {
+     "new": {
+      "french": "Ce nez me rend mélancolique. Malgré cela je vais au bain avec un double voile.",
+      "rsr": "Restored from tome05.docx ¶2028 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2028,
+      2028
+     ]
+    },
+    {
+     "new": {
+      "french": "Audiffret était là, je voyais sa voiture, je fis descendre Collignon et Marie d'abord, elles allèrent rejoindre ma tante, Olga et Dina qui étaient déjà là. Je ne vais qu'une minute après, Audiffret m'entend, se retourne et je lui dis:",
+      "rsr": "Restored from tome05.docx ¶2029 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2029,
+      2029
+     ]
+    },
+    {
+     "new": {
+      "french": "- Bonjour Philippe ! - mais il le dit aussi.",
+      "rsr": "Restored from tome05.docx ¶2030 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2030,
+      2030
+     ]
+    },
+    {
+     "new": {
+      "french": "Je descends l'escalier riant et rougissant et nous prenons Saetone pour juge. On ne sait qui a gagné. D'ailleurs Girofla a l'air de ne pas s'en soucier, ce qui me décourage.",
+      "rsr": "Restored from tome05.docx ¶2031 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2031,
+      2031
+     ]
+    },
+    {
+     "new": {
+      "french": "Il me jette de l'eau froide au visage, il le fait exprès et je me tourmente. Il ne parle qu'à Olga, à moi seulement quand c'est nécessaire et quand je m'adresse à lui. Vite, vite, mon journal ! me suis-[je] écriée intérieurement aussitôt sortie du bain.",
+      "rsr": "Restored from tome05.docx ¶2032 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2032,
+      2032
+     ]
+    },
+    {
+     "new": {
+      "french": "Oui mon cher, mon seul confident, qui partage mes ennuis et mes fureurs !",
+      "rsr": "Restored from tome05.docx ¶2033 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2033,
+      2033
+     ]
+    },
+    {
+     "new": {
+      "french": "Voyez comme je suis, je suis jalouse d'Olga. C'est bête mais vrai. Elle est une petite fille et l'homme pour m'enrager ne parle qu'à elle, n'a d'attentions que pour elle.",
+      "rsr": "Restored from tome05.docx ¶2034 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2034,
+      2034
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous marchons jusqu'à chez nous et je prends son bras et je lui souris, je voudrais la battre. Lui donner des coups de canne, des soufflets, des coups de pied, la décoiffer et l'envoyer rouler dans la rue !",
+      "rsr": "Restored from tome05.docx ¶2035 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2035,
+      2035
+     ]
+    },
+    {
+     "new": {
+      "french": "Bigre ! bigre c'est le mot de Girofla. Voyez comme nous sommes, je sais qu'il se conduit exprès comme cela, pour m'enrager, je le sais et je rage en dépit de tout.",
+      "rsr": "Restored from tome05.docx ¶2036 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2036,
+      2036
+     ]
+    },
+    {
+     "new": {
+      "french": "Voyez, comme pour un rien, chaque ver de terre, chaque indigne animal peut et sait me tourmenter !",
+      "rsr": "Restored from tome05.docx ¶2037 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2037,
+      2037
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis au monde la créature la plus tourmentable. Et que c'est mal ! Je dépends de chaque imbécile. Mon Dieu que j'en suis donc fâchée.",
+      "rsr": "Restored from tome05.docx ¶2038–2040 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2038,
+      2040
+     ]
+    },
+    {
+     "new": {
+      "french": "Ventre Saint-Gris ! Si Dieu le voudra bien, cette créature me le paiera ! Oh ! oui !",
+      "rsr": "Restored from tome05.docx ¶2041 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2041,
+      2041
+     ]
+    },
+    {
+     "new": {
+      "french": "Voyez, penser seulement à une vengeance fait du bien. Ce qui me froisse le plus, c'est ce que diront nos gens, de la maison. Maman et ma tante qui stupidement se sont imaginées mille bêtises, qui ne font qu'en parler et qui verront tout cela tomber. Et me regarderont avec inquiétude et regret ; penseront qu'il ne faut rien me dire et regarderont seulement.",
+      "rsr": "Restored from tome05.docx ¶2042 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2042,
+      2042
+     ]
+    },
+    {
+     "new": {
+      "french": "Mais c'est pire. Oh ! que c'est détestable. Je veux beaucoup écrire, pour transmettre un peu de ma colère à ce bon papier qui accepte tout. Et cette fille qui est allée à huit heures à Monaco avec ma tante, sa mère, Dina et Marie, parce que l'homme a dit qu'il y irait. Elle est toute rouge et animée.",
+      "rsr": "Restored from tome05.docx ¶2043 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2043,
+      2043
+     ]
+    },
+    {
+     "new": {
+      "french": "Je ne suis nullement inquiète, c'est une enfant qui ne peut compter avec moi, mais je suis furieuse parce que lui, pense me tourmenter.",
+      "rsr": "Restored from tome05.docx ¶2044 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2044,
+      2044
+     ]
+    },
+    {
+     "new": {
+      "french": "Je crois m'être assez bien tenue, même très bien. Seulement je suis tourmentée intérieurement, je ne puis le crier et c'est mauvais pour la santé et pour le teint.",
+      "rsr": "Restored from tome05.docx ¶2045 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2045,
+      2045
+     ]
+    },
+    {
+     "new": {
+      "french": "Et dire que tout cela c'est pour un Audiffret. Mort de ma vie ! Non, cela m'ennuie, je jure, je dis des bêtises. Eh bien ! je dis ce que je pense. Je suis malheureuse à cause de ce qu'on pensera à la maison et non pas à cause de cet homme.",
+      "rsr": "Restored from tome05.docx ¶2046 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2046,
+      2046
+     ]
+    },
+    {
+     "new": {
+      "french": "C'est si absurde de faire comme on fait chez nous. On invente, on rit, on me taquine et puis un beau jour l'homme se détourne et on est trempé dans de l'eau tiède, on est mécontent et, ce qui est le plus curieux, fâché contre moi. On s'accroche à tout ce que je dis, on cherche à me trouver changée ou ennuyée, on me dit - Mais qu'as-tu ? ou bien - Tu dois être malade parce que tu es capricieuse.",
+      "rsr": "Restored from tome05.docx ¶2047 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2047,
+      2047
+     ]
+    },
+    {
+     "new": {
+      "french": "Comprenez-vous ce que je veux dire, et savez-vous rien de plus détestable ?",
+      "rsr": "Restored from tome05.docx ¶2048 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2048,
+      2048
+     ]
+    },
+    {
+     "new": {
+      "french": "Voilà pourquoi je rage, voilà pourquoi je voudrais rosser quelqu'un, briser quelque chose !",
+      "rsr": "Restored from tome05.docx ¶2049 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2049,
+      2049
+     ]
+    },
+    {
+     "new": {
+      "french": "L'écrire même me soulage. Que ne puis-je le faire ! Mais maman se trouve mal et du tapage ne vaudrait rien. J'ai mal au nez et probablement demain ne sortirai pas. Pourvu qu'Olga ne s'aperçoive de rien, elle serait trop fière. Je crois que je n'ai pas dit comment elle était. Elle est brune, jolie, elle a un beau teint, des lèvres dédaigneuses, des yeux gris. Des cheveux courts et peu de cheveux.",
+      "rsr": "Restored from tome05.docx ¶2050–2052 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2050,
+      2052
+     ]
+    },
+    {
+     "new": {
+      "french": "J'ai dit l'autre jour comment elle est faite. Quant à l'esprit elle en a quelquefois, des manières point. Elle est même assez dégagée et a une tournure vilaine et la taille un peu de travers. Mais que peut faire ici sa figure.",
+      "rsr": "Restored from tome05.docx ¶2053 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2053,
+      2053
+     ]
+    },
+    {
+     "new": {
+      "french": "Cet imbécile la choisit comme il choisirait Dina ou Marie. Olga est la plus jolie, la plus libre. N'importe je suis horriblement dépitée. Pourquoi suis-je si fière, pourquoi ne suis-je pas toute-puissante ! Je suis humiliée de me laisser prendre à ses bêtises, je suis en colère contre moi. Que faire, ita Deus me iccil ! Je crois que je fais une faute. N'importe je veux parler latin, je veux fumer, je veux boire, je veux, je veux tout ce soir.",
+      "rsr": "Restored from tome05.docx ¶2054 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2054,
+      2054
+     ]
+    },
+    {
+     "new": {
+      "french": "O muse ne chante pas la colère d'Achille mais chante la mienne !",
+      "rsr": "Restored from tome05.docx ¶2055 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2055,
+      2055
+     ]
+    },
+    {
+     "new": {
+      "french": "Je vais me coucher pour abréger cette dégoûtante soirée, je serai sans doute calme demain. Ecrire me calme. Mais non, je suis furieuse d'être furieuse. Je suis dépitée d'être dépitée.",
+      "rsr": "Restored from tome05.docx ¶2056 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2056,
+      2056
+     ]
+    },
+    {
+     "new": {
+      "french": "Je voudrais être indifférente et regarder du haut d'un piédestal les misères humaines. Comme je suis encore jeune, je crois beaucoup savoir et je sais beaucoup mais ce que je sais ne me sert à rien. Je me laisse prendre par tout, je subis toutes les influences. Et c'est ce qui me fait rager, mais rager !",
+      "rsr": "Restored from tome05.docx ¶2057 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2057,
+      2057
+     ]
+    },
+    {
+     "new": {
+      "french": "Je rage de rager. Je suis humiliée d'être sensible à tout. Je suis furieuse surtout parce que Audiffret pense qu'il peut me tourmenter. Comprenez-vous cela ! Mi vendicar ! et prouver qu'on ne me tourmente pas.",
+      "rsr": "Restored from tome05.docx ¶2058 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2058,
+      2058
+     ]
+    },
+    {
+     "new": {
+      "french": "Voilà ce que je demande à Dieu !",
+      "rsr": "Restored from tome05.docx ¶2059 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2059,
+      2059
+     ]
+    },
+    {
+     "new": {
+      "french": "Pourquoi toutes ces colères, ma belle, puisque tu sais qu'on le fait exprès ? Je le sais, pardi ! Je le sais bien.",
+      "rsr": "Restored from tome05.docx ¶2060 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2060,
+      2060
+     ]
+    },
+    {
+     "new": {
+      "french": "Comprenez donc ce qui me fâche, ce n'est pas M. Audiffret, c'est ce qu'on dira chez nous et parce qu'il me pense à lui, et parce qu'il fait le beau, parce qu'il veut faire souffrir.",
+      "rsr": "Restored from tome05.docx ¶2061 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2061,
+      2061
+     ]
+    },
+    {
+     "new": {
+      "french": "Voilà ce qui met tout [Rayé: sens sus dessous] en ébullition dans moi. Je veux qu'on me pense inflexible, inattaquable, insensible à tout. Non par manque de cœur ou de vivacité, mais par fierté, par trop grande estime de ma personne. Je veux qu'on s'incline devant moi ! Je veux qu'on n'ose pas croire un seul homme au monde capable de me toucher. Je veux qu'on me connaisse. Non, cela je ne veux pas, car on me fuirait. Est-il agréable à un homme d'aimer, d'être maltraité, tourmenté et chassé. Car c'est ce que je me propose, surtout maintenant. Que peut une fille pas mariée !",
+      "rsr": "Restored from tome05.docx ¶2062–2064 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2062,
+      2064
+     ]
+    },
+    {
+     "new": {
+      "french": "Je voudrais l'amour et les hommages de tout le monde. A propos sait-on que je suis excessivement sensible à l'humilité, à la politesse, à la galanterie exquise. Avec des airs humbles et soumis, quand on ne me déplaît pas comme le Polonais, on peut faire de moi la créature la plus soumise et la plus douce. Mais avec des airs de conquête et de dédain on me rend furieuse, enragée et méchante comme le diable.",
+      "rsr": "Restored from tome05.docx ¶2065 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2065,
+      2065
+     ]
+    },
+    {
+     "new": {
+      "french": "Si après ces airs dédaigneux je voyais revenir la personne soumise et suppliante je crois que je pleurerais de joie et loin de profiter, je serais bonne et charmante.",
+      "rsr": "Restored from tome05.docx ¶2066 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2066,
+      2066
+     ]
+    }
+   ],
+   "frontmatter_from": "1875-06-14.md"
+  },
+  {
+   "file": "1875-06-17.md",
+   "date": "1875-06-17",
+   "heading": "Jeudi 17 juin 1875",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Et Audiffret n'y a pas été ! Elles, I mean the young ladies, sont allées en vain. Je suis contente.",
+      "rsr": "Restored from tome05.docx ¶2068 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2068,
+      2068
+     ]
+    },
+    {
+     "new": {
+      "french": "Comme je l'ai pensé ma tante est blessée de ce que Girofla ne tombe pas à genoux et ne me proclame reine de son cœur.",
+      "rsr": "Restored from tome05.docx ¶2069 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2069,
+      2069
+     ]
+    },
+    {
+     "new": {
+      "french": "Elle est tapageuse à la maison seulement, quand il y a quelqu'un (voilà que je ne sais plus écrire ce mot !) elle est timide et ne sait rien - dit ma tante.",
+      "rsr": "Restored from tome05.docx ¶2070 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2070,
+      2070
+     ]
+    },
+    {
+     "new": {
+      "french": "Vous comprenez l'allusion.",
+      "rsr": "Restored from tome05.docx ¶2071 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2071,
+      2071
+     ]
+    },
+    {
+     "new": {
+      "french": "Elle ne sait pas prendre, continue-[t']elle, (on parle de Miloradovitch) c'est à la vérité, la plus innocente des créatures. Elle ne sait que parler, radoter et montrer le mauvais côté de son caractère.",
+      "rsr": "Restored from tome05.docx ¶2072 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2072,
+      2072
+     ]
+    },
+    {
+     "new": {
+      "french": "Là, vous voyez bien ! nous étions depuis une demi-heure sur la plage avec Bihovetz à côté de moi, lorsque vient le héros avec son oncle, il pose quelques instants sur le pont et enfin descend jusqu'à nous.",
+      "rsr": "Restored from tome05.docx ¶2073 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2073,
+      2073
+     ]
+    },
+    {
+     "new": {
+      "french": "De sorte que nous avons trois cavaliers. Godard est là, j'en parlerai à la première occasion à Saëtone.",
+      "rsr": "Restored from tome05.docx ¶2074 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2074,
+      2074
+     ]
+    },
+    {
+     "new": {
+      "french": "Je me tiens comme un ange, calme et simple, et il me lance à la dérobée un regard perçant.",
+      "rsr": "Restored from tome05.docx ¶2075 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2075,
+      2075
+     ]
+    },
+    {
+     "new": {
+      "french": "Du bain je vais à la musique. Nos trois demoiselles sont à cheval avec Smirnoff, ce Russe qu'on a connu à Monaco.",
+      "rsr": "Restored from tome05.docx ¶2076 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2076,
+      2076
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis toute honteuse. Aucune ne sait monter, les chevaux sont des rosses, et ce divin cortège se pavane à la Promenade exposé à la risée de tout le monde. La Prodgers, qui nous a chassés de chez les Howard est tout près, en panier avec une femme équivoque qui rit et se moque tout haut.",
+      "rsr": "Restored from tome05.docx ¶2077 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2077,
+      2077
+     ]
+    },
+    {
+     "new": {
+      "french": "[En travers: Georges a souffleté M. Prodgers.]",
+      "rsr": "Restored from tome05.docx ¶2078 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "margin"
+     },
+     "_docx": [
+      2078,
+      2078
+     ],
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "new": {
+      "french": "On a ameuté toute la ville par cette cavalcade ! s'écrie cette dégoûtante femme aux lunettes.",
+      "rsr": "Restored from tome05.docx ¶2079–2081 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2079,
+      2081
+     ]
+    },
+    {
+     "new": {
+      "french": "Alors ma tante me dit assez haut pour être entendue. Cela vaut mieux que d'ameuter la société par des lunettes et des scandales.",
+      "rsr": "Restored from tome05.docx ¶2082 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2082,
+      2082
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis très gênée et serais volontiers ailleurs. Cette cavalcade est grotesque. Je remercie le ciel de n'en pas faire partie.",
+      "rsr": "Restored from tome05.docx ¶2083 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2083,
+      2083
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous gardons le silence avec ma tante et pensons toutes deux à Audiffret. Sorti du bain derrière nous, il se promène puis vient à la voiture des demoiselles Arson, ses amies d'enfance, puis s'en va en sa voiture, revient, tourne et enfin, à la fin des fins s'approche de nous. Galula est à la portière et ma tante et lui à la mienne mais la conversation fait un chassé-croisé pour la plupart du temps.",
+      "rsr": "Restored from tome05.docx ¶2084 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2084,
+      2084
+     ]
+    },
+    {
+     "new": {
+      "french": "Je ne rougis pas, je ne bouge pas d'une ligne plus qu'il ne faut, je me conduis adorablement.",
+      "rsr": "Restored from tome05.docx ¶2085 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2085,
+      2085
+     ]
+    },
+    {
+     "new": {
+      "french": "Comme nous rentrons ma tante en convient, mais me dit-elle, c'est un peu trop soutenu, il faudrait de la coquetterie.",
+      "rsr": "Restored from tome05.docx ¶2086 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2086,
+      2086
+     ]
+    },
+    {
+     "new": {
+      "french": "Comment, c'est ce que me conseille ma tante !",
+      "rsr": "Restored from tome05.docx ¶2087 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2087,
+      2087
+     ]
+    },
+    {
+     "new": {
+      "french": "N'alourdissez-pas les choses, je dis pas *trop,* je dis un peu, que ça soit gracieux et bien.",
+      "rsr": "Restored from tome05.docx ¶2088 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2088,
+      2088
+     ]
+    },
+    {
+     "new": {
+      "french": "Ça viendra, ma tante, attendez.",
+      "rsr": "Restored from tome05.docx ¶2089 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2089,
+      2089
+     ]
+    },
+    {
+     "new": {
+      "french": "Nina nous raconte à dîner comment un homme s'est tué pour elle. Bigre, voilà ce qu'il me faudrait.",
+      "rsr": "Restored from tome05.docx ¶2090 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2090,
+      2090
+     ]
+    },
+    {
+     "new": {
+      "french": "Je viens de dire une bêtise, je ne l'avais pas écrite à moitié que je m'en repentais déjà. Mort de ma vie !",
+      "rsr": "Restored from tome05.docx ¶2091 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2091,
+      2091
+     ]
+    },
+    {
+     "new": {
+      "french": "Je vais dire pourquoi je crains, pourquoi je suis incertaine.",
+      "rsr": "Restored from tome05.docx ¶2092 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2092,
+      2092
+     ]
+    },
+    {
+     "new": {
+      "french": "A Spa maman m'a dit que Gericke s'éloignait et se cachait parce qu'il me pensait amoureuse de lui. J'en étais au désespoir. Depuis ce temps il me semble toujours que les autres pensent comme lui et je crains d'être aimable, je crains tout et tous. Cette saison à Spa m'a été comme un poison qui même dans la suite me gâte tout. Ah ! si Dieu voulait bien chasser ces idées de ma tête et lui rendre sa fraîcheur et sa confiance d'autrefois.",
+      "rsr": "Restored from tome05.docx ¶2093 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2093,
+      2093
+     ]
+    },
+    {
+     "new": {
+      "french": "Aussi, voyez-vous cet horrible Hollandais qui sans aucune raison s'imagine de telles choses.",
+      "rsr": "Restored from tome05.docx ¶2094 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2094,
+      2094
+     ]
+    },
+    {
+     "new": {
+      "french": "Maintenant il me vient une idée. Est-ce [que] Girofla fait tous ces manèges parce qu'il est amoureux et qu'il ne veut pas le paraître ? That is the question.",
+      "rsr": "Restored from tome05.docx ¶2095 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2095,
+      2095
+     ]
+    },
+    {
+     "new": {
+      "french": "Qui peut sonder les cœurs des hommes et voir leurs pensées ?",
+      "rsr": "Restored from tome05.docx ¶2096 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2096,
+      2096
+     ]
+    },
+    {
+     "new": {
+      "french": "Qui peut deviner ?",
+      "rsr": "Restored from tome05.docx ¶2098 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2098,
+      2098
+     ]
+    },
+    {
+     "new": {
+      "french": "Qui sait s'il ne pense pas comme moi.",
+      "rsr": "Restored from tome05.docx ¶2099 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2099,
+      2099
+     ]
+    },
+    {
+     "new": {
+      "french": "Mystère plus incompréhensible que l'Apocalypse, plus incompréhensible que cette pièce d'Aulu-Gelle -qu'on n'a jamais pu comprendre.",
+      "rsr": "Restored from tome05.docx ¶2100 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2100,
+      2100
+     ]
+    },
+    {
+     "new": {
+      "french": "Pourquoi se casser la tête, qui vivra verra.",
+      "rsr": "Restored from tome05.docx ¶2101 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2101,
+      2101
+     ]
+    },
+    {
+     "new": {
+      "french": "On a reçu une lettre de Paul. Il y avait un grand dîner, on a bu à la santé de la chère hôtesse absente (maman), on a souhaité son retour et on a eu qu'une crainte c'est qu'elle ne rende tout le monde amoureux en revenant.",
+      "rsr": "Restored from tome05.docx ¶2102 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2102,
+      2102
+     ]
+    },
+    {
+     "new": {
+      "french": "Mon père m'attend avec impatience.",
+      "rsr": "Restored from tome05.docx ¶2103 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2103,
+      2103
+     ]
+    },
+    {
+     "new": {
+      "french": "Je veux aller ! Et cet oncle qui n'arrive pas !",
+      "rsr": "Restored from tome05.docx ¶2104 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2104,
+      2104
+     ]
+    },
+    {
+     "new": {
+      "french": "Mon Dieu faites-le donc venir plus vite !",
+      "rsr": "Restored from tome05.docx ¶2105 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2105,
+      2105
+     ]
+    }
+   ],
+   "frontmatter_from": "1875-06-14.md"
+  },
+  {
+   "file": "1875-06-18.md",
+   "date": "1875-06-18",
+   "heading": "Vendredi 18 juin 1875",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "J'ai rêvé toute la nuit que je jouais avec mon éventail- Rivalité d'amour, combat si l'on en croit ma Clef des songes.",
+      "rsr": "Restored from tome05.docx ¶2107 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2107,
+      2107
+     ]
+    },
+    {
+     "new": {
+      "french": "[Trois lignes cancellées]",
+      "rsr": "Restored from tome05.docx ¶2108 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "editorial"
+     },
+     "_docx": [
+      2108,
+      2108
+     ]
+    },
+    {
+     "new": {
+      "french": "Voilà que ma tante dit qu'Audiffret est refroidi. Vous comprenez ? D'ailleurs tout s'arrange mieux que je ne pensais. On parle (je voudrais savoir combien de fois j'ai écrit le nom de ce monsieur).",
+      "rsr": "Restored from tome05.docx ¶2109 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2109,
+      2109
+     ]
+    },
+    {
+     "new": {
+      "french": "On parle et je prends gaiement tout ce qui est incommode. Ah ! Monsieur, si véritablement ce ne sont que des farces vous me les payerez. Vous me faites des désagréments, vous me forcez à me retourner de cent façons différentes pour n'être pas ridicule.",
+      "rsr": "Restored from tome05.docx ¶2110 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2110,
+      2110
+     ]
+    },
+    {
+     "new": {
+      "french": "Croyez-bien que ce n'est pas la colère, ni le dépit qui me font parler.",
+      "rsr": "Restored from tome05.docx ¶2111 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2111,
+      2111
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis parfaitement tranquille et indifférente. Ce n'est pas la figure du beau Niçois qui me fait m'occuper de lui. On le sait bien. Il m'a semblé qu'il s'intéressait, je l'ai regardé. Les Sapogenikoff vinrent, j'ai beaucoup ri. Nous sommes deux fois allées chez lui, une fois seulement, le jour des Anglaises. La première, lorsque ce cocher voulait à toute force nous faire entrer, nous n'avons fait que passer. Il semblait courir derrière nous, le Niçois précédant la présentation, j'ai pensé bien des choses ou plutôt une chose et l'idée me vint que ce serait drôle si on pouvait plaisanter un peu.",
+      "rsr": "Restored from tome05.docx ¶2112 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2112,
+      2112
+     ]
+    },
+    {
+     "new": {
+      "french": "L'homme a vingt-quatre ans, j'en ai seize, nous sommes beaux. Cela ne ferait pas de mal à personne. Les premiers jours je ne savais à quoi m'en tenir et maintenant non plus.",
+      "rsr": "Restored from tome05.docx ¶2113 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2113,
+      2113
+     ]
+    },
+    {
+     "new": {
+      "french": "Attendons.",
+      "rsr": "Restored from tome05.docx ¶2115 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2115,
+      2115
+     ]
+    },
+    {
+     "new": {
+      "french": "Oui, c'est ce que je me dis tous les jours mais attendre est très ennuyeux et je suis si impatiente.",
+      "rsr": "Restored from tome05.docx ¶2116 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2116,
+      2116
+     ]
+    },
+    {
+     "new": {
+      "french": "On dirait une divinité indienne sur le passage de laquelle les peuples se prosternent sans réflexion.",
+      "rsr": "Restored from tome05.docx ¶2117 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2117,
+      2117
+     ]
+    },
+    {
+     "new": {
+      "french": "[Dans la marge: Mon nez est comme avant et j'en suis bien aise.]",
+      "rsr": "Restored from tome05.docx ¶2118 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "margin"
+     },
+     "_docx": [
+      2118,
+      2118
+     ],
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "new": {
+      "french": "Ce matin on parlait chez maman de cette affaire et j'ai dit:",
+      "rsr": "Restored from tome05.docx ¶2119 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2119,
+      2119
+     ]
+    },
+    {
+     "new": {
+      "french": "- Mais vraiment Madame, détrompez-vous. C'est absurde de s'imaginer que partout où je passe on doit tomber à genoux et m'adorer !",
+      "rsr": "Restored from tome05.docx ¶2120 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2120,
+      2120
+     ]
+    },
+    {
+     "new": {
+      "french": "Est-ce que je ne l'imagine pas moi-même ?",
+      "rsr": "Restored from tome05.docx ¶2121 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2121,
+      2121
+     ]
+    },
+    {
+     "new": {
+      "french": "Bigre ! Je suis tellement vraie dans ce journal que si jamais on le lit il faudra me cacher au diable.",
+      "rsr": "Restored from tome05.docx ¶2122 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2122,
+      2122
+     ]
+    },
+    {
+     "new": {
+      "french": "A peine nous sommes assises sur le rivage charmant de la bleue mer Méditerranée que viennent Audiffret et Saëtone. Le premier se met en face de nous et le second derrière moi. C'est au second que je parle, je suis gaie, je raconte comment je serai reine et nous rions. Alors l'autre dit qu'il veut être roi.",
+      "rsr": "Restored from tome05.docx ¶2123 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2123,
+      2123
+     ]
+    },
+    {
+     "new": {
+      "french": "Saëtone dit qu'il ne reconnaît que les femmes blondes, Audiffret est de son avis et ajoute que les hommes doivent être bruns.",
+      "rsr": "Restored from tome05.docx ¶2124 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2124,
+      2124
+     ]
+    },
+    {
+     "new": {
+      "french": "Je ne crois pas, dis-je lentement comme si j'y songeais, que les hommes devraient toujours être bruns.",
+      "rsr": "Restored from tome05.docx ¶2125 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2125,
+      2125
+     ]
+    },
+    {
+     "new": {
+      "french": "Mais pourtant, dit-il, ce n'est pas joli un homme tout blond, tout blond.",
+      "rsr": "Restored from tome05.docx ¶2126 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2126,
+      2126
+     ]
+    },
+    {
+     "new": {
+      "french": "Pas tout blond, mais comme ma tante par exemple, ou un peu plus blond.",
+      "rsr": "Restored from tome05.docx ¶2127 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2127,
+      2127
+     ]
+    },
+    {
+     "new": {
+      "french": "Mon Dieu, merci ! Je commence à croire qu'il ne me croit pas amoureuse de lui. Il sait que Saëtone ne peut m'intéresser, mais moi aussi je savais qu'Olga ne pouvait l'intéresser.",
+      "rsr": "Restored from tome05.docx ¶2128 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2128,
+      2128
+     ]
+    },
+    {
+     "new": {
+      "french": "Ma tante assure qu'il est parti furieux, moi je n'en crois rien.",
+      "rsr": "Restored from tome05.docx ¶2129 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2129,
+      2129
+     ]
+    },
+    {
+     "new": {
+      "french": "C'est un garçon vicieux et comme je disais avant de la connaître: si on fait un pas au-devant de lui il fait un bond en arrière.",
+      "rsr": "Restored from tome05.docx ¶2130 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2130,
+      2130
+     ]
+    },
+    {
+     "new": {
+      "french": "Collignon dit qu'elle ne l'aime pas parce qu'on ne sait pas comment être avec lui, que c'est un roué.",
+      "rsr": "Restored from tome05.docx ¶2131 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2131,
+      2131
+     ]
+    },
+    {
+     "new": {
+      "french": "Bravo ! Je suis de cet avis.",
+      "rsr": "Restored from tome05.docx ¶2132 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2132,
+      2132
+     ]
+    },
+    {
+     "new": {
+      "french": "Il s'en va à six heures à Monaco, nous restons un quart d'heure encore, et je ris et m'amuse avec Saëtone ce dégoûtant Niçois. Le comte de Cessole et un autre affreux écoutaient.",
+      "rsr": "Restored from tome05.docx ¶2133 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2133,
+      2133
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis gaie à table, je ris et faire rire.",
+      "rsr": "Restored from tome05.docx ¶2134 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2134,
+      2134
+     ]
+    },
+    {
+     "new": {
+      "french": "Olga, qui était chez Lefèvre avec tout le monde excepté nous trois, moi, ma tante et Dina; Olga dis-je ne mange rien et est d'une tristesse mortelle. Je la prends sur la terrasse et lui parle de l'homme. Je trouve du plaisir à la voir s'animer à son nom. Bigre !",
+      "rsr": "Restored from tome05.docx ¶2136 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2136,
+      2136
+     ]
+    },
+    {
+     "new": {
+      "french": "Ici mon cœur est parfaitement libre, je puis jouer comme je veux. Et quel plaisir !",
+      "rsr": "Restored from tome05.docx ¶2137 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2137,
+      2137
+     ]
+    },
+    {
+     "new": {
+      "french": "Enfantillages ! sans doute enfantillages, je ne m'en cache pas, bien au contraire. J'aurai le temps d'être vieille.",
+      "rsr": "Restored from tome05.docx ¶2138 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2138,
+      2138
+     ]
+    },
+    {
+     "new": {
+      "french": "Le soir on raconte de nouveau l'histoire de ma naissance, les mots de mon enfance etc. etc. C'est tous les jours la même chose. Je réponds à ces palinodies par la phrase que Tiste répète tant de fois dans La Boule:",
+      "rsr": "Restored from tome05.docx ¶2139 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2139,
+      2139
+     ]
+    },
+    {
+     "new": {
+      "french": "La première fois que je l'ai rencontrée, etc.",
+      "rsr": "Restored from tome05.docx ¶2140 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2140,
+      2140
+     ]
+    },
+    {
+     "new": {
+      "french": "Mais d'ailleurs je n'étais pas sotte. Maman venait de retourner de la Crimée au bout de quelques minutes après m'avoir embrassée (j'avais deux ou trois ans), elle me dit pour je ne sais plus quelle espièglerie: Marie est bête.",
+      "rsr": "Restored from tome05.docx ¶2141 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2141,
+      2141
+     ]
+    },
+    {
+     "new": {
+      "french": "Non, dis-je.",
+      "rsr": "Restored from tome05.docx ¶2142 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2142,
+      2142
+     ]
+    },
+    {
+     "new": {
+      "french": "Oui, Marie est bête.",
+      "rsr": "Restored from tome05.docx ¶2143 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2143,
+      2143
+     ]
+    },
+    {
+     "new": {
+      "french": "Marthe, dis-je à ma nourrice car jusqu'à l'âge de trois ans et demi je prenais de la nourriture naturelle, - Marthe, allons nous-en, maman n'a pas reconnue Marie.",
+      "rsr": "Restored from tome05.docx ¶2144 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2144,
+      2144
+     ]
+    }
+   ],
+   "frontmatter_from": "1875-06-14.md"
+  },
+  {
+   "file": "1875-06-19.md",
+   "date": "1875-06-19",
+   "heading": "Samedi 19 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0315",
+     "_docx": 2145.5
+    },
+    {
+     "old": "034.0316",
+     "_docx": 2146
+    },
+    {
+     "old": "034.0317",
+     "_docx": 2147
+    },
+    {
+     "old": "034.0318",
+     "_docx": 2148
+    },
+    {
+     "old": "034.0319",
+     "_docx": 2149
+    },
+    {
+     "old": "034.0320",
+     "_docx": 2150
+    },
+    {
+     "old": "034.0321",
+     "_docx": 2151
+    },
+    {
+     "old": "034.0322",
+     "_docx": 2154
+    },
+    {
+     "old": "034.0323",
+     "_docx": 2155
+    },
+    {
+     "old": "034.0324",
+     "_docx": 2156
+    },
+    {
+     "old": "034.0325",
+     "_docx": 2157
+    },
+    {
+     "old": "034.0326",
+     "_docx": 2158
+    },
+    {
+     "old": "034.0327",
+     "_docx": 2159
+    },
+    {
+     "old": "034.0328",
+     "_docx": 2160
+    },
+    {
+     "old": "034.0329",
+     "_docx": 2161
+    },
+    {
+     "old": "034.0330",
+     "_docx": 2162
+    },
+    {
+     "old": "034.0331",
+     "_docx": 2163
+    },
+    {
+     "old": "034.0332",
+     "_docx": 2164
+    },
+    {
+     "old": "034.0333",
+     "_docx": 2165
+    },
+    {
+     "old": "034.0334",
+     "_docx": 2166
+    },
+    {
+     "old": "034.0335",
+     "_docx": 2167
+    },
+    {
+     "old": "034.0336",
+     "_docx": 2168
+    },
+    {
+     "old": "034.0337",
+     "_docx": 2170
+    },
+    {
+     "old": "034.0338",
+     "_docx": 2171
+    },
+    {
+     "old": "034.0339",
+     "_docx": 2172
+    },
+    {
+     "old": "034.0340",
+     "_docx": 2173
+    },
+    {
+     "old": "034.0341",
+     "_docx": 2174
+    },
+    {
+     "old": "034.0342",
+     "_docx": 2175
+    },
+    {
+     "old": "034.0343",
+     "_docx": 2176
+    },
+    {
+     "old": "034.0344",
+     "_docx": 2177
+    },
+    {
+     "old": "034.0345",
+     "_docx": 2178
+    },
+    {
+     "old": "034.0346",
+     "_docx": 2179
+    },
+    {
+     "old": "034.0347",
+     "_docx": 2180
+    },
+    {
+     "old": "034.0348",
+     "_docx": 2181
+    },
+    {
+     "old": "034.0349",
+     "_docx": 2182
+    },
+    {
+     "old": "034.0350",
+     "_docx": 2183
+    },
+    {
+     "old": "034.0351",
+     "_docx": 2184
+    },
+    {
+     "old": "034.0352",
+     "_docx": 2187
+    },
+    {
+     "old": "034.0353",
+     "_docx": 2188
+    },
+    {
+     "old": "034.0354",
+     "_docx": 2189
+    },
+    {
+     "old": "034.0355",
+     "_docx": 2190
+    },
+    {
+     "old": "034.0356",
+     "_docx": 2191
+    },
+    {
+     "old": "034.0357",
+     "_docx": 2192
+    },
+    {
+     "old": "034.0358",
+     "_docx": 2193
+    },
+    {
+     "old": "034.0359",
+     "_docx": 2194
+    },
+    {
+     "old": "034.0360",
+     "_docx": 2195
+    },
+    {
+     "old": "034.0361",
+     "_docx": 2196
+    },
+    {
+     "old": "034.0362",
+     "_docx": 2197
+    },
+    {
+     "old": "034.0363",
+     "_docx": 2198
+    },
+    {
+     "old": "034.0364"
+    },
+    {
+     "old": "034.0365"
+    },
+    {
+     "old": "034.0366"
+    },
+    {
+     "old": "034.0367"
+    },
+    {
+     "old": "034.0368"
+    },
+    {
+     "old": "034.0369"
+    },
+    {
+     "old": "034.0370"
+    },
+    {
+     "old": "034.0371"
+    },
+    {
+     "old": "034.0372"
+    },
+    {
+     "old": "034.0373"
+    },
+    {
+     "old": "034.0374"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-20.md",
+   "date": "1875-06-20",
+   "heading": "Dimanche 20 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0375",
+     "_docx": 2199.5
+    },
+    {
+     "old": "034.0376",
+     "_docx": 2200
+    },
+    {
+     "old": "034.0377",
+     "_docx": 2201
+    },
+    {
+     "old": "034.0378",
+     "_docx": 2202
+    },
+    {
+     "old": "034.0379",
+     "_docx": 2203
+    },
+    {
+     "old": "034.0380",
+     "_docx": 2205
+    },
+    {
+     "old": "034.0381",
+     "_docx": 2206
+    },
+    {
+     "old": "034.0382",
+     "_docx": 2207
+    },
+    {
+     "old": "034.0383",
+     "_docx": 2208
+    },
+    {
+     "old": "034.0384",
+     "_docx": 2209
+    },
+    {
+     "old": "034.0385",
+     "_docx": 2210
+    },
+    {
+     "old": "034.0386",
+     "_docx": 2211
+    },
+    {
+     "old": "034.0387",
+     "_docx": 2212
+    },
+    {
+     "old": "034.0388",
+     "_docx": 2213,
+     "kind": "editorial",
+     "_kind_guess_reason": "bracketed editors' note about the manuscript (no text by Marie)"
+    },
+    {
+     "old": "034.0389",
+     "_docx": 2214
+    },
+    {
+     "old": "034.0390",
+     "_docx": 2215
+    },
+    {
+     "old": "034.0391",
+     "_docx": 2216
+    },
+    {
+     "old": "034.0392",
+     "_docx": 2217
+    },
+    {
+     "old": "034.0393",
+     "_docx": 2218
+    },
+    {
+     "old": "034.0394",
+     "_docx": 2219
+    },
+    {
+     "old": "034.0395",
+     "_docx": 2220
+    },
+    {
+     "old": "034.0396",
+     "_docx": 2221
+    },
+    {
+     "old": "034.0397",
+     "_docx": 2222
+    },
+    {
+     "old": "034.0398",
+     "_docx": 2223
+    },
+    {
+     "old": "034.0399",
+     "_docx": 2224
+    },
+    {
+     "old": "034.0400",
+     "_docx": 2225
+    },
+    {
+     "old": "034.0401",
+     "_docx": 2226
+    },
+    {
+     "old": "034.0402",
+     "_docx": 2227
+    },
+    {
+     "old": "034.0403",
+     "_docx": 2228
+    },
+    {
+     "old": "034.0404",
+     "_docx": 2229
+    },
+    {
+     "old": "034.0405",
+     "_docx": 2230
+    },
+    {
+     "old": "034.0406"
+    },
+    {
+     "old": "034.0407"
+    },
+    {
+     "old": "034.0408"
+    }
+   ]
+  },
+  {
+   "file": "1875-06-21.md",
+   "date": "1875-06-21",
+   "heading": "Lundi 21 juin 1875",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "J'ai reçu la caisse de Worth. C'est une charmante robe de mousseline de laine blanc-jaune, drapée devant comme une robe de statue; à longue traîne et, çà et là, des nœuds rose tendre d'une forme exquise.",
+      "rsr": "Restored from tome05.docx ¶2233 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2233,
+      2233
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis impatiente de sortir. Je renvoie Brunet une demi-heure plus tôt.",
+      "rsr": "Restored from tome05.docx ¶2234 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2234,
+      2234
+     ]
+    },
+    {
+     "new": {
+      "french": "Enfin nous sortons, moi et ma tante, Audiffret est devant le bain.",
+      "rsr": "Restored from tome05.docx ¶2235 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2235,
+      2235
+     ]
+    },
+    {
+     "new": {
+      "french": "Ma tante fait aller au port et nous ne venons au bain qu'après une demi-heure de promenade. Il y entre derrière nous. Il est pâle et triste.",
+      "rsr": "Restored from tome05.docx ¶2236 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2236,
+      2236
+     ]
+    },
+    {
+     "new": {
+      "french": "Marie et Olga nous viennent rejoindre. Elles ont des manières déplorables. Olga racontait je ne sais plus quelle chose avec tant de gestes et en des termes si peu choisis que nous nous sommes regardés en souriant, moi et Audiffer. Saëtone est là. Il part ce soir, il me parle toujours. Si tu crois que tu m'amuses, vieux chien !",
+      "rsr": "Restored from tome05.docx ¶2237 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2237,
+      2237
+     ]
+    },
+    {
+     "new": {
+      "french": "Girofla est bien pâle, pas jaune, il ne le sera jamais parce qu'il a un joli teint et qu'il se porte bien, mais, en comparaison de ses couleurs d'autrefois, il est pâle. Il a l'air malheureux et il me fait tant de peine que je rentre toute pensive intérieurement. Je dis intérieurement parce que je ris et parle haut. Je me coiffe et m'habille avec un certain soin pour le dîner et le soir tout le monde vient me voir sur ma terrasse.",
+      "rsr": "Restored from tome05.docx ¶2238 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2238,
+      2238
+     ]
+    },
+    {
+     "new": {
+      "french": "Cette pauvre terrasse a l'air d'un omnibus. Elle n'est bonne que pour deux ou trois personnes, et ce soir elle contient nous tous et les Sapogenikoff.",
+      "rsr": "Restored from tome05.docx ¶2239 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2239,
+      2239
+     ]
+    },
+    {
+     "new": {
+      "french": "Ce vilain Russe Smirnoff est ici, il fait un feu d'artifice au jardin mais je rentre chez moi et regarde à peine par la fenêtre. Le superbe Saëtone a passé devant nous, devant la terrasse à neuf heures du soir dans la diligence qui sort tous les soirs pour Puget-Théniers. Il y restera quelques jours.",
+      "rsr": "Restored from tome05.docx ¶2240 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2240,
+      2240
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis rêveuse, le matin au lieu d'étudier je composai tout un roman sur le duc, assise dans mon fauteuil dans le cabinet d'étude.",
+      "rsr": "Restored from tome05.docx ¶2241 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2241,
+      2241
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis impatiente de dormir, pour me lever demain, sauter par-dessus la journée, et aller à la musique pour voir Audiffer. Il a parlé d'aller à Milan pour huit jours.",
+      "rsr": "Restored from tome05.docx ¶2242 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2242,
+      2242
+     ]
+    },
+    {
+     "new": {
+      "french": "On a été froid avec lui, pas moi, ma tante. Je suis comme toujours, non, moi aussi.",
+      "rsr": "Restored from tome05.docx ¶2243 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2243,
+      2243
+     ]
+    },
+    {
+     "new": {
+      "french": "Il m'intéresse, il est très gentil.",
+      "rsr": "Restored from tome05.docx ¶2244 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2244,
+      2244
+     ]
+    }
+   ],
+   "frontmatter_from": "1875-06-20.md"
+  },
+  {
+   "file": "1875-06-22.md",
+   "date": "1875-06-22",
+   "heading": "Mardi 22 juin 1875",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Hier j'ai fait les cartes pour le faquin Niçois. Il a des ennuis à cause de l'argent, mais il en aura bientôt et sera heureux et content. J'ai fait les cartes pour moi et elles me disent tout ce qu'on peut désirer de mieux.",
+      "rsr": "Restored from tome05.docx ¶2247 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2247,
+      2247
+     ]
+    },
+    {
+     "new": {
+      "french": "Je trouve mon journal de ces derniers jours stupide. Tout est détaché, je saute, j'écris les choses les plus simples comme on écrit des événements remarquables. Je note ce qui devrait être dit à la suite de tout, ou ne pas être dit du tout.",
+      "rsr": "Restored from tome05.docx ¶2248 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2248,
+      2248
+     ]
+    },
+    {
+     "new": {
+      "french": "Je me dépêche, je suis distraite et mon journal s'en ressent. Est-ce le *surprenant mais stupide Emile d'Audiffret* (comme dans un des papiers d'avant-hier soir) qui en est cause. Je crois que oui. Je m'occupe beaucoup de ce garçon. On me crie, non je me trompe, ou on ne me crie rien du tout. Mais hier [Une ligne cancellée] j'ai entendu de ma chambre (on me croyait sortie) une conversation de ma tante, maman et Walitsky où ils se disaient combien Audiffret était amoureux de moi.",
+      "rsr": "Restored from tome05.docx ¶2249 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2249,
+      2249
+     ]
+    },
+    {
+     "new": {
+      "french": "Bigre ! dois-je les croire ? Jamais ma fille, jamais ! Ne crois qu'à ce que tu sauras par toi-même.",
+      "rsr": "Restored from tome05.docx ¶2250 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2250,
+      2250
+     ]
+    },
+    {
+     "new": {
+      "french": "C'est ce que je fais toujours. Je suppose tout et je ne crois rien.",
+      "rsr": "Restored from tome05.docx ¶2251 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2251,
+      2251
+     ]
+    },
+    {
+     "new": {
+      "french": "Il pleut et pour faire passer le temps plus vite je passe mon après-midi dans une douce oisiveté. Demain Audiffer part, il dit pour Milan, et je crois pour Marseille faire la cour à la riche tante pour obtenir de l'argent. Il est très gêné en ce moment.",
+      "rsr": "Restored from tome05.docx ¶2252 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2252,
+      2252
+     ]
+    },
+    {
+     "new": {
+      "french": "Je voudrais le voir avant ce départ stupide.",
+      "rsr": "Restored from tome05.docx ¶2253 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2253,
+      2253
+     ]
+    },
+    {
+     "new": {
+      "french": "Il fait très frais et humide (puisqu'il pleut, bête !), je m'habille comme en hiver, robe grise, chapeau feutre gris. Je vois avec plaisir que j'étais divinement habillée cet hiver.",
+      "rsr": "Restored from tome05.docx ¶2254 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2254,
+      2254
+     ]
+    },
+    {
+     "new": {
+      "french": "Je veux toujours donner une idée du charme et de l'élégance incomparable de cet ensemble gris et c'est bien inutile, on n'a qu'à interroger ceux qui l'ont vu.",
+      "rsr": "Restored from tome05.docx ¶2255 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2255,
+      2255
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis charmante ainsi. Bigre ! dis-je arrivée en face du café. Le café est fermé. Quel plaisir ! L'unique endroit, pendant la pluie, où on peut se rencontrer.",
+      "rsr": "Restored from tome05.docx ¶2256 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2256,
+      2256
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous allons chez Nina, je conduis maman, ma tante et le vilain Smirnoff à la gare et ramène les Sapogenikoff chez nous.",
+      "rsr": "Restored from tome05.docx ¶2257 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2257,
+      2257
+     ]
+    },
+    {
+     "new": {
+      "french": "Je trouve deux cartes d'Audiffret sur la table, mais pas pour prendre congé, il a sans doute oublié le p.p.c.",
+      "rsr": "Restored from tome05.docx ¶2258 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2258,
+      2258
+     ]
+    },
+    {
+     "new": {
+      "french": "[Annotation: 1877. Ces deux cartes m'ont fait plus de plaisir que si j'avais reçu deux cent mille francs ]",
+      "rsr": "Restored from tome05.docx ¶2259 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "margin",
+      "source": "annotation ultérieure de Marie, 1877"
+     },
+     "_docx": [
+      2259,
+      2259
+     ]
+    },
+    {
+     "new": {
+      "french": "Bigre, je suis ennuyée. Cet homme me faisait un peu oublier la tristesse niçoise. L'horreur de tout cela c'est qu'il n'y a personne pour le remplacer ! Personne, avec la meilleure bonne volonté du monde personne.",
+      "rsr": "Restored from tome05.docx ¶2261 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2261,
+      2261
+     ]
+    },
+    {
+     "new": {
+      "french": "Godard n'est qu'un gamin, les autres d'affreux paysans, mais Godard est aussi un assez grand paysan. A dîner nous nous rappelons des petits papiers de samedi. Le mien est ainsi conçu:",
+      "rsr": "Restored from tome05.docx ¶2262 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2262,
+      2262
+     ]
+    },
+    {
+     "new": {
+      "french": "Le surprenant mais stupide Emile d'Audiffret et la blonde ou rousse Mlle Bashkirtseff, se sont rencontrés à la tour:",
+      "rsr": "Restored from tome05.docx ¶2263 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2263,
+      2263
+     ]
+    },
+    {
+     "new": {
+      "french": "Cher ange, les abricots mûrissent, dit Audiffret.",
+      "rsr": "Restored from tome05.docx ¶2264 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2264,
+      2264
+     ]
+    },
+    {
+     "new": {
+      "french": "Si tu crois que tu m'amuses ! lui répond Mademoiselle Bashkirtseff, Il en est résulté beaucoup de larmes et le monde a dit: Quels idiots !",
+      "rsr": "Restored from tome05.docx ¶2265 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2265,
+      2265
+     ]
+    },
+    {
+     "new": {
+      "french": "Dans plusieurs autres il y avait l'idiot Girofla, le crétin Audiffret, l'ivrogne Audiffret, etc. etc.",
+      "rsr": "Restored from tome05.docx ¶2266 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2266,
+      2266
+     ]
+    },
+    {
+     "new": {
+      "french": "Je ris en me rappelant ces bêtises. Le hasard produisait des rencontres incroyables. Je ne connais pas de jeu plus amusant.",
+      "rsr": "Restored from tome05.docx ¶2267 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2267,
+      2267
+     ]
+    },
+    {
+     "new": {
+      "french": "Avec maman j'ai fait encore les cartes. Pour moi il y a quatre as, quatre dix. C'est surnaturellement beau. Il y a aussi amour d'un roi brun, voyage et chagrin à cause de ce roi. Bigre ! c'est impossible cela.",
+      "rsr": "Restored from tome05.docx ¶2268 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2268,
+      2268
+     ]
+    },
+    {
+     "new": {
+      "french": "Les cartes ne peuvent préciser si c'est du chagrin pour moi à cause du roi, ou du chagrin pour le roi à cause de moi.",
+      "rsr": "Restored from tome05.docx ¶2269 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2269,
+      2269
+     ]
+    },
+    {
+     "new": {
+      "french": "Je crois plutôt ce dernier car je ne puis le regretter sérieusement. Pendant plusieurs heures je l'ai regretté aujourd'hui et maintenant je suis parfaitement résignée à passer ces huit jours sans lui.",
+      "rsr": "Restored from tome05.docx ¶2270 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2270,
+      2270
+     ]
+    },
+    {
+     "new": {
+      "french": "Je sentirai son absence à Nice où il n'y a personne, où lui seul anima ma triste végétation, parce qu'il est jeune, beau et parce qu'il me semble que je lui plais, mais ailleurs je ne sentirais rien. Entendons-nous, pourvu qu'il y en ait un autre pour le remplacer. Je m'ennuie toujours et partout quand je n'ai personne.",
+      "rsr": "Restored from tome05.docx ¶2271 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2271,
+      2271
+     ]
+    },
+    {
+     "new": {
+      "french": "Aujourd'hui, un moment je me suis effrayée. C'est qu'en éprouvant un si grand mécontentement du départ de ce jeune cochon je me suis demandée si, tout en riant, je ne m'étais pas entichée de lui. Mais ce n'était qu'un instant. Il me plaît, je le dis cent fois, arrive un autre dans les conditions voulues, et cet autre me plaira aussi. Comprend-on ce que je veux dire par plaire ? chaque jeune homme plobster me plaît.",
+      "rsr": "Restored from tome05.docx ¶2272 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2272,
+      2272
+     ]
+    },
+    {
+     "new": {
+      "french": "Quand j'ai fait les cartes pour Audiffer, voilà ce qu'elles lui dirent: Une dame blonde sur le cœur, de grands ennuis à cause d'argent, voyage qui lui procurera de l'argent et tout finit par une grande joie. Je traduis cela ainsi. Il est amoureux de moi, il n'a pas le sou, il ira à Marseille chez cette tante qui lui donnera ce dont il manque et il reviendra tout content.",
+      "rsr": "Restored from tome05.docx ¶2274 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2274,
+      2274
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous verrons si c'est vrai. Quant à moi je ne puis espérer que les cartes me disent la vérité. Elles me disent trop de bien pour que ce soit vrai. Si on les traduit on doit ainsi traduire: \"Le duc de Hamilton divorcera ou sa femme mourra, vous l'épouserez, vous irez où vous désirez aller, vous serez reçue franc-maçonne, vous serez riche à millions.\"",
+      "rsr": "Restored from tome05.docx ¶2275 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2275,
+      2275
+     ]
+    },
+    {
+     "new": {
+      "french": "Vous aurez en un mot tout ce que vous pouvez désirer. Vous serez reine. Car depuis plusieurs jours et plusieurs fois de suite ces bienheureuses cartes me disent ces belles choses.",
+      "rsr": "Restored from tome05.docx ¶2276 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2276,
+      2276
+     ]
+    },
+    {
+     "new": {
+      "french": "Doit-on les croire ? Ce serait trop beau; non, le duc de Hamilton ne m'épousera pas.",
+      "rsr": "Restored from tome05.docx ¶2277 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2277,
+      2277
+     ]
+    },
+    {
+     "new": {
+      "french": "Et qui sait, peut-être que j'aurai mieux. Non, je ne connais rien de mieux, parce que je l'aime. L'espèce de penchant que j'ai vers le joli Niçois, est pour cet amour comme du vernis pour un vieux tableau. On voit ressortir toutes les couleurs, on distingue les figures, c'est comme une peinture toute fraîche.",
+      "rsr": "Restored from tome05.docx ¶2278 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2278,
+      2278
+     ]
+    },
+    {
+     "new": {
+      "french": "Qu'il me serait agréable d'être vue ce soir, en longue robe blanche, un grand fichu de valenciennes attaché sur la gorge par un hortensia tout frais et rose, et un autre hortensia plus grand à la ceinture. Je suis coiffée à l'antique [Trois lignes cancellées] pas laidement comme on voit coiffées les vilaines statues, mais joliment, gracieusement, avec mes propres cheveux d'or. Et cette coiffure me va et je me plais.",
+      "rsr": "Restored from tome05.docx ¶2279 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2279,
+      2279
+     ]
+    },
+    {
+     "new": {
+      "french": "Passer huit jours comme une pendule sans balancier. Bigre !",
+      "rsr": "Restored from tome05.docx ¶2280 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2280,
+      2280
+     ]
+    },
+    {
+     "new": {
+      "french": "Le petit s'occupait beaucoup de moi, car il me dit un jour que tous les soirs je me coiffe devant ma fenêtre entre deux bougies.",
+      "rsr": "Restored from tome05.docx ¶2281 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2281,
+      2281
+     ]
+    },
+    {
+     "new": {
+      "french": "Les rideaux sont baissés, Monsieur.",
+      "rsr": "Restored from tome05.docx ¶2282 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2282,
+      2282
+     ]
+    },
+    {
+     "new": {
+      "french": "Oui, mais on voit les bougies allumées, l'ombre et les deux bras en l'air qui arrangent quelque chose.",
+      "rsr": "Restored from tome05.docx ¶2283 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2283,
+      2283
+     ]
+    },
+    {
+     "new": {
+      "french": "Puis une autre fois il me dit qu'il a vu une bougie, ou qu'il m'a vue à la fenêtre. En un mot, il passe son temps à regarder notre maison, de la rue France et de la Promenade des Anglais. Car pour savoir comme il sait il faut cela.",
+      "rsr": "Restored from tome05.docx ¶2284 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2284,
+      2284
+     ]
+    },
+    {
+     "new": {
+      "french": "Eh bien, bête de fille, qu'est-ce que cela prouve ? Cela prouve qu'il est plus occupé de toi qu'il ne faudrait et que ta vanité doit être satisfaite.",
+      "rsr": "Restored from tome05.docx ¶2285–2287 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2285,
+      2287
+     ]
+    },
+    {
+     "new": {
+      "french": "Oui, tout cela est ainsi, mais je ne puis me défaire de ces doutes éternels qui me gâtent tant de choses. Surtout c'est le souvenir du maudit Gericke qui me gâte tout. Je ne fais rien comme à Spa, ou comme j'ai fait avec lui, de peur que la même chose ne se répète. En tout je crains la contagion comme dans les maladies.",
+      "rsr": "Restored from tome05.docx ¶2288 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2288,
+      2288
+     ]
+    },
+    {
+     "new": {
+      "french": "Je vais faire les cartes pour leur demander si je [dois] les croire. Sans doute fâchées de ce que j'aie mis en doute leur véracité elles ne répondent rien à ma question mais me prédisent un rendez-vous joyeux avec un roi brun, un voyage, et je verrai deux dames.",
+      "rsr": "Restored from tome05.docx ¶2289 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2289,
+      2289
+     ]
+    },
+    {
+     "new": {
+      "french": "Mais ! c'est leur réponse. Je verrai s'accomplir ces choses et elles me prouveront qu'elles disent vrai.",
+      "rsr": "Restored from tome05.docx ¶2290 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2290,
+      2290
+     ]
+    },
+    {
+     "new": {
+      "french": "Souvenons-nous bien, [Une ligne cancellée: au rendez-vous que] je verrai ce roi brun, ce qui me fera grand plaisir, ensuite [Deux mots cancellés: rendez-vous] ces deux dames, qui arrivent d'un voyage et deux rois. Un roi indifférent et un roi amoureux, outre le roi brun. Ce roi amoureux peut bien être un roi de mariage, puisqu'il est de carreau comme moi.",
+      "rsr": "Restored from tome05.docx ¶2291 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2291,
+      2291
+     ]
+    },
+    {
+     "new": {
+      "french": "Je deviens tout à fait stupide avec ces cartes. C'est mon passe-temps. Les rêves et les cartes. Je lis Hérodote et on comprendra qu'il faut des distractions pendant cette lecture. C'est intéressant, mais ne peut s'avaler en un jour comme un roman. On doit lire avec [Une ligne cancellée] attention, se rappeler des faits précédents et penser à ce qu'on lit.",
+      "rsr": "Restored from tome05.docx ¶2292 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2292,
+      2292
+     ]
+    }
+   ],
+   "frontmatter_from": "1875-06-20.md"
+  },
+  {
+   "file": "1875-06-23.md",
+   "date": "1875-06-23",
+   "heading": "Mercredi 23 juin 1875",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Jamais on ne se croirait au 23 juin à Nice. Il fait délicieusement frais et vers sept heures du soir on sentait le besoin d'une jaquette de drap. Je suis très gaie à cause de cette fraîcheur charmante.",
+      "rsr": "Restored from tome05.docx ¶2294 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2294,
+      2294
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous nous promenons et maman en voyant Danis etc. a dit très justement: \"Voilà les beaux restes.\"",
+      "rsr": "Restored from tome05.docx ¶2295 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2295,
+      2295
+     ]
+    },
+    {
+     "new": {
+      "french": "J'accomplis une belle action à dîner, je bois une bouteille entière de Saint-Emilion. C'est pour la première fois que je bois une bouteille de vin, à moi toute seule. Aussi après dîner je monte chez moi et me déshabille mais craignant de laisser penser des bêtises à maman et tante (qui ont seules vue combien j'ai bu) je redescends à l'instant et passe une heure avec elles et les Sapogenikoff dans la salle à manger à écouter des discussions sur la manière de traiter les domestiques. On me reproche de plaisanter avec Léonie. Je plaisante avec elle mais sans m'abaisser d'un doigt.",
+      "rsr": "Restored from tome05.docx ¶2296–2298 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2296,
+      2298
+     ]
+    },
+    {
+     "new": {
+      "french": "D'ailleurs je suis la mieux servie de la maison.",
+      "rsr": "Restored from tome05.docx ¶2299 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2299,
+      2299
+     ]
+    },
+    {
+     "new": {
+      "french": "Je ne suis pas grise, je comprends et entends tout, seulement je me sens un peu vague.",
+      "rsr": "Restored from tome05.docx ¶2300 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2300,
+      2300
+     ]
+    },
+    {
+     "new": {
+      "french": "La mer est mauvaise, il n'y avait personne au bain et je n'y suis pas descendue.",
+      "rsr": "Restored from tome05.docx ¶2301 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2301,
+      2301
+     ]
+    },
+    {
+     "new": {
+      "french": "Léonie m'a dit un jour qu'elle avait servi les Audiffret et que le vieux était très bon.",
+      "rsr": "Restored from tome05.docx ¶2302 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2302,
+      2302
+     ]
+    },
+    {
+     "new": {
+      "french": "- Ah ! ha ! vous étiez sa bonne amie ! lui dis-je.",
+      "rsr": "Restored from tome05.docx ¶2303 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2303,
+      2303
+     ]
+    },
+    {
+     "new": {
+      "french": "Depuis ce temps je ris de ce que le vieux Girofla a été son bon ami et elle le dit pour m'amuser.",
+      "rsr": "Restored from tome05.docx ¶2304 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2304,
+      2304
+     ]
+    },
+    {
+     "new": {
+      "french": "Hier elle m'a fait les cartes. Encore des bonheurs inouïs et l'amour d'un brun qui pense à moi nuit et jour.",
+      "rsr": "Restored from tome05.docx ¶2305 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2305,
+      2305
+     ]
+    },
+    {
+     "new": {
+      "french": "Voyez-vous cela. On a parlé de Hamilton. Je me suis bien tenue. D'ailleurs je n'ai pas besoin de me cacher. On sait qu'il me plaisait, seulement on ne sait pas comment, on ne sait pas qu'il me plait jusqu'à présent, que je ne l'ai pas oublié.",
+      "rsr": "Restored from tome05.docx ¶2306 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2306,
+      2306
+     ]
+    }
+   ],
+   "frontmatter_from": "1875-06-20.md"
+  },
+  {
+   "file": "1875-06-24.md",
+   "date": "1875-06-24",
+   "heading": "Jeudi 24 juin 1875",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Quel temps délicieux !",
+      "rsr": "Restored from tome05.docx ¶2308 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2308,
+      2308
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis mise en hiver, bien coiffée, et enchantée de moi j'ai besoin de me faire voir. Aussi vais-je à la musique, où on rencontre les restes. C'est misérable, mais que faire.",
+      "rsr": "Restored from tome05.docx ¶2309 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2309,
+      2309
+     ]
+    },
+    {
+     "new": {
+      "french": "Audiffret me manque bien un peu mais je suis tellement gaie que je chante en voiture, le peu de monde qu'il y a eu à la musique.",
+      "rsr": "Restored from tome05.docx ¶2310 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2310,
+      2310
+     ]
+    },
+    {
+     "new": {
+      "french": "Bihovetz a été chez nous et a dit du bien de moi à ce qu'on dit. C'est un pauvre homme malade mais, on dit qu'il cause bien.",
+      "rsr": "Restored from tome05.docx ¶2311 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2311,
+      2311
+     ]
+    },
+    {
+     "new": {
+      "french": "En étudiant mon piano l'idée me vint tout à coup que je serai reine de Bavière.",
+      "rsr": "Restored from tome05.docx ¶2312 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2312,
+      2312
+     ]
+    },
+    {
+     "new": {
+      "french": "On sait que le roi est jeune, beau, et qu'il imite en tout Louis *XIV* mon idéal, le Roi-Soleil. Cette idée m'est venue si clairement que j'ai laissé échapper un bigre formidable.",
+      "rsr": "Restored from tome05.docx ¶2313 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2313,
+      2313
+     ]
+    },
+    {
+     "new": {
+      "french": "En honneur de Girofla (pourquoi écrivais-je Girofla avec deux *f?* that is the question). J'ai appris des chansons niçoises. Elles me rappelleront toujours ce temps bienheureux.",
+      "rsr": "Restored from tome05.docx ¶2314 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2314,
+      2314
+     ]
+    },
+    {
+     "new": {
+      "french": "Maman et ma tante ne font que parler de l'homme, surtout depuis qu'il est parti. Moi-même j'en parle avec plaisir.",
+      "rsr": "Restored from tome05.docx ¶2315 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2315,
+      2315
+     ]
+    },
+    {
+     "new": {
+      "french": "[Annotation: 1877. Toujours !!\n1881. Toujours les chansons et pas du tout Audiffret.]",
+      "rsr": "Restored from tome05.docx ¶2316–2317 (missing from original extraction, 2026-09-28 rebuild). Marie's later annotations (1877, 1881) on the preceding lines.",
+      "kind": "margin",
+      "source": "annotation ultérieure de Marie, 1877 et 1881"
+     },
+     "_docx": [
+      2316,
+      2316
+     ]
+    },
+    {
+     "new": {
+      "french": "Aujourd'hui j'ai joué du piano comme un ange. Je fais tout par élans. Un jour tout me réussit un autre rien. Il en est de même de ma figure. Je suis la plus journalière créature du monde.",
+      "rsr": "Restored from tome05.docx ¶2319 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2319,
+      2319
+     ]
+    },
+    {
+     "new": {
+      "french": "Hérodote commence à m'amuser sérieusement, je trouve dans lui des naïvetés incomparables. Il comprend une multitude de choses, c'est un charme.",
+      "rsr": "Restored from tome05.docx ¶2320 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2320,
+      2320
+     ]
+    },
+    {
+     "new": {
+      "french": "J'ai feuilleté les chansons populaires de France et me suis arrêtée à M. de La Palice.",
+      "rsr": "Restored from tome05.docx ¶2321 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2321,
+      2321
+     ]
+    },
+    {
+     "new": {
+      "french": "Savez-vous une chose ? Ma main commence à embellir et à prendre une forme.",
+      "rsr": "Restored from tome05.docx ¶2322 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2322,
+      2322
+     ]
+    },
+    {
+     "new": {
+      "french": "Je me coiffe de façon à mettre en évidence mes cheveux les plus dorés. De sorte que ce soir je suis rousse.",
+      "rsr": "Restored from tome05.docx ¶2323 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2323,
+      2323
+     ]
+    },
+    {
+     "new": {
+      "french": "Maman en parlant de Gioia m'a dit \"ta rivale\", elle le dit pour le petit Niçois. C'est bête, elle ne peut être ma rivale, il l'a eue pendant un an ou deux et s'en est défait ensuite très sagement voyant que sa fortune ne pouvait tenir. J'ai rêvé que j'épousais un commis-voyageur.",
+      "rsr": "Restored from tome05.docx ¶2324 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2324,
+      2324
+     ]
+    },
+    {
+     "new": {
+      "french": "Quand donc arrivera mon oncle !",
+      "rsr": "Restored from tome05.docx ¶2325 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      2325,
+      2325
+     ]
+    }
+   ],
+   "frontmatter_from": "1875-06-20.md"
+  },
+  {
+   "file": "1875-06-25.md",
+   "date": "1875-06-25",
+   "heading": "Vendredi 25 juin 1875",
+   "paragraphs": [
+    {
+     "old": "034.0409",
+     "_docx": 2326.5
+    },
+    {
+     "old": "034.0410",
+     "_docx": 2327
+    },
+    {
+     "old": "034.0411",
+     "_docx": 2328
+    },
+    {
+     "old": "034.0412",
+     "_docx": 2329
+    },
+    {
+     "old": "034.0413",
+     "_docx": 2330
+    },
+    {
+     "old": "034.0414",
+     "_docx": 2331
+    },
+    {
+     "old": "034.0415",
+     "_docx": 2332
+    },
+    {
+     "old": "034.0416",
+     "_docx": 2335
+    },
+    {
+     "old": "034.0417",
+     "_docx": 2336
+    },
+    {
+     "old": "034.0418",
+     "_docx": 2337
+    },
+    {
+     "old": "034.0419",
+     "_docx": 2338
+    },
+    {
+     "old": "034.0420",
+     "_docx": 2339
+    },
+    {
+     "old": "034.0421",
+     "_docx": 2340
+    },
+    {
+     "old": "034.0422",
+     "_docx": 2341
+    },
+    {
+     "old": "034.0423",
+     "_docx": 2342
+    },
+    {
+     "old": "034.0424",
+     "_docx": 2343
+    },
+    {
+     "old": "034.0425",
+     "_docx": 2344
+    },
+    {
+     "old": "034.0426",
+     "_docx": 2345
+    },
+    {
+     "old": "034.0427",
+     "_docx": 2346
+    },
+    {
+     "old": "034.0428",
+     "_docx": 2347
+    },
+    {
+     "old": "034.0429",
+     "_docx": 2348,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "034.0430",
+     "_docx": 2349
+    },
+    {
+     "old": "034.0431",
+     "_docx": 2350
+    },
+    {
+     "old": "034.0432",
+     "_docx": 2353
+    },
+    {
+     "old": "034.0433",
+     "_docx": 2354
+    },
+    {
+     "old": "034.0434",
+     "_docx": 2355
+    },
+    {
+     "old": "034.0435",
+     "_docx": 2356
+    },
+    {
+     "old": "034.0436",
+     "_docx": 2357
+    },
+    {
+     "old": "034.0437",
+     "_docx": 2358
+    },
+    {
+     "old": "034.0438",
+     "_docx": 2359
+    },
+    {
+     "old": "034.0439",
+     "_docx": 2360
+    },
+    {
+     "old": "034.0440",
+     "_docx": 2361
+    },
+    {
+     "old": "034.0441",
+     "_docx": 2362
+    },
+    {
+     "old": "034.0442",
+     "_docx": 2365
+    },
+    {
+     "old": "034.0443",
+     "_docx": 2366
+    },
+    {
+     "old": "034.0444",
+     "_docx": 2367
+    },
+    {
+     "old": "034.0445",
+     "_docx": 2368
+    },
+    {
+     "old": "034.0446",
+     "_docx": 2369
+    },
+    {
+     "old": "034.0448"
+    },
+    {
+     "old": "034.0449"
+    },
+    {
+     "old": "034.0450"
+    }
+   ]
+  }
+ ],
+ "_reviewed": "planner-tome05, 2026-09-29: draft reviewed; see REVIEW.md"
+}

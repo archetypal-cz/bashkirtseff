@@ -1,0 +1,1108 @@
+{
+ "carnet": "040",
+ "source": "tome05.docx",
+ "drop": [
+  {
+   "id": "040.0002",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "040.0003",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "040.0004",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "040.0228",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "040.0229",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "040.0230",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "040.0231",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1875-08-27-28.md",
+   "date": "1875-08-27",
+   "paragraphs": [
+    {
+     "old": "040.0001",
+     "_docx": 4308.99
+    },
+    {
+     "old": "040.0005",
+     "_docx": 4311
+    },
+    {
+     "old": "040.0006",
+     "_docx": 4312
+    },
+    {
+     "old": "040.0007",
+     "_docx": 4313
+    },
+    {
+     "old": "040.0008",
+     "_docx": 4314
+    },
+    {
+     "old": "040.0009",
+     "_docx": 4315
+    },
+    {
+     "old": "040.0010",
+     "_docx": 4316
+    },
+    {
+     "old": "040.0011",
+     "_docx": 4317
+    },
+    {
+     "old": "040.0012",
+     "_docx": 4318
+    },
+    {
+     "old": "040.0013",
+     "_docx": 4319
+    },
+    {
+     "old": "040.0014",
+     "_docx": 4320
+    },
+    {
+     "old": "040.0015",
+     "_docx": 4323
+    },
+    {
+     "old": "040.0016",
+     "_docx": 4324
+    },
+    {
+     "old": "040.0017",
+     "_docx": 4325
+    },
+    {
+     "old": "040.0018",
+     "_docx": 4326
+    },
+    {
+     "old": "040.0019",
+     "_docx": 4327
+    },
+    {
+     "old": "040.0020",
+     "_docx": 4328
+    },
+    {
+     "old": "040.0021",
+     "_docx": 4329
+    },
+    {
+     "old": "040.0022",
+     "_docx": 4330,
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère, 28 août 1875",
+     "_kind_guess_reason": "«J'ai écrit à maman ce qui suit.» — letter text, signature and postscript",
+     "set_french": "> Arrivee a cinq heures du matin au Grand Hotel n° 146-147, il est huit heures seulement et je vous ecris deja. Cela prouve mon empressement."
+    },
+    {
+     "old": "040.0023",
+     "_docx": 4331,
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère, 28 août 1875",
+     "_kind_guess_reason": "«J'ai écrit à maman ce qui suit.» — letter text, signature and postscript",
+     "set_french": "> Ma tante arrivera sans doute ce soir. Stiopa ira a la gare..."
+    },
+    {
+     "old": "040.0024",
+     "_docx": 4332,
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère, 28 août 1875",
+     "_kind_guess_reason": "«J'ai écrit à maman ce qui suit.» — letter text, signature and postscript",
+     "set_french": "> Depuis quinze jours j'ai respire pour la premiere fois en entrant en France, pays bienheureux apres le cher pays de saucissons d'ou je sors."
+    },
+    {
+     "old": "040.0025",
+     "_docx": 4333,
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère, 28 août 1875",
+     "_kind_guess_reason": "«J'ai écrit à maman ce qui suit.» — letter text, signature and postscript",
+     "set_french": "> Je me porte a ravir. Je vous embrasse tous, Diadia aussi si vous le voyez. Bonjour."
+    },
+    {
+     "old": "040.0026",
+     "_docx": 4334,
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère, 28 août 1875",
+     "_kind_guess_reason": "«J'ai écrit à maman ce qui suit.» — letter text, signature and postscript",
+     "set_french": "> Marie."
+    },
+    {
+     "old": "040.0027",
+     "_docx": 4335,
+     "kind": "letter",
+     "source": "Lettre de Marie à sa mère, 28 août 1875",
+     "_kind_guess_reason": "«J'ai écrit à maman ce qui suit.» — letter text, signature and postscript",
+     "set_french": "> Soignez-vous ma mere et revenez vite."
+    },
+    {
+     "old": "040.0028",
+     "_docx": 4336
+    },
+    {
+     "old": "040.0029",
+     "_docx": 4337
+    },
+    {
+     "old": "040.0030",
+     "_docx": 4338
+    },
+    {
+     "old": "040.0031",
+     "_docx": 4339
+    },
+    {
+     "old": "040.0032",
+     "_docx": 4340
+    },
+    {
+     "old": "040.0033",
+     "_docx": 4341
+    },
+    {
+     "old": "040.0034",
+     "_docx": 4342
+    },
+    {
+     "old": "040.0035",
+     "_docx": 4345
+    },
+    {
+     "old": "040.0036",
+     "_docx": 4346
+    },
+    {
+     "old": "040.0037",
+     "_docx": 4347
+    },
+    {
+     "old": "040.0038",
+     "_docx": 4348
+    },
+    {
+     "old": "040.0039",
+     "_docx": 4349
+    },
+    {
+     "old": "040.0040",
+     "_docx": 4350
+    },
+    {
+     "old": "040.0041",
+     "_docx": 4351
+    },
+    {
+     "old": "040.0042",
+     "_docx": 4352
+    },
+    {
+     "old": "040.0043",
+     "_docx": 4353
+    },
+    {
+     "old": "040.0044",
+     "_docx": 4354
+    },
+    {
+     "old": "040.0045",
+     "_docx": 4355
+    },
+    {
+     "old": "040.0046",
+     "_docx": 4356
+    },
+    {
+     "old": "040.0047",
+     "_docx": 4357
+    },
+    {
+     "old": "040.0048",
+     "_docx": 4358
+    },
+    {
+     "old": "040.0049",
+     "_docx": 4359
+    },
+    {
+     "old": "040.0050",
+     "_docx": 4360
+    },
+    {
+     "old": "040.0051",
+     "_docx": 4361
+    },
+    {
+     "old": "040.0052",
+     "_docx": 4365
+    },
+    {
+     "old": "040.0053",
+     "_docx": 4366
+    },
+    {
+     "old": "040.0054",
+     "_docx": 4367
+    },
+    {
+     "old": "040.0055",
+     "_docx": 4368
+    },
+    {
+     "old": "040.0056",
+     "_docx": 4369
+    },
+    {
+     "old": "040.0057",
+     "_docx": 4370
+    },
+    {
+     "old": "040.0058",
+     "_docx": 4371
+    },
+    {
+     "old": "040.0059",
+     "_docx": 4372
+    },
+    {
+     "old": "040.0060",
+     "_docx": 4373
+    },
+    {
+     "old": "040.0061",
+     "_docx": 4374
+    },
+    {
+     "old": "040.0062",
+     "_docx": 4375
+    },
+    {
+     "old": "040.0063",
+     "_docx": 4376
+    },
+    {
+     "old": "040.0064",
+     "_docx": 4377
+    },
+    {
+     "old": "040.0065",
+     "_docx": 4378
+    },
+    {
+     "old": "040.0066",
+     "_docx": 4380
+    },
+    {
+     "old": "040.0067",
+     "_docx": 4381
+    },
+    {
+     "old": "040.0068",
+     "_docx": 4382
+    },
+    {
+     "old": "040.0069",
+     "_docx": 4383
+    },
+    {
+     "old": "040.0070",
+     "_docx": 4384
+    },
+    {
+     "old": "040.0071",
+     "_docx": 4385
+    },
+    {
+     "old": "040.0072",
+     "_docx": 4386
+    },
+    {
+     "old": "040.0073",
+     "_docx": 4387
+    },
+    {
+     "old": "040.0074",
+     "_docx": 4388
+    },
+    {
+     "old": "040.0075",
+     "_docx": 4389
+    },
+    {
+     "old": "040.0076",
+     "_docx": 4390
+    },
+    {
+     "old": "040.0077",
+     "_docx": 4391
+    },
+    {
+     "old": "040.0078",
+     "_docx": 4393
+    },
+    {
+     "old": "040.0079",
+     "_docx": 4394
+    },
+    {
+     "old": "040.0080",
+     "_docx": 4395
+    },
+    {
+     "old": "040.0081",
+     "_docx": 4396
+    },
+    {
+     "old": "040.0082",
+     "_docx": 4397
+    },
+    {
+     "old": "040.0083",
+     "_docx": 4398
+    },
+    {
+     "old": "040.0084",
+     "_docx": 4399
+    },
+    {
+     "old": "040.0085",
+     "_docx": 4400
+    },
+    {
+     "old": "040.0086",
+     "_docx": 4401
+    },
+    {
+     "old": "040.0087",
+     "_docx": 4402
+    },
+    {
+     "old": "040.0088",
+     "_docx": 4403
+    },
+    {
+     "old": "040.0089",
+     "_docx": 4404
+    },
+    {
+     "old": "040.0090",
+     "_docx": 4407
+    },
+    {
+     "old": "040.0091",
+     "_docx": 4408
+    },
+    {
+     "old": "040.0092",
+     "_docx": 4409
+    },
+    {
+     "old": "040.0093",
+     "_docx": 4410
+    },
+    {
+     "old": "040.0094",
+     "_docx": 4411
+    },
+    {
+     "old": "040.0095",
+     "_docx": 4412
+    },
+    {
+     "old": "040.0096",
+     "_docx": 4413
+    },
+    {
+     "old": "040.0097",
+     "_docx": 4414
+    },
+    {
+     "old": "040.0098",
+     "_docx": 4415
+    },
+    {
+     "old": "040.0099",
+     "_docx": 4416
+    },
+    {
+     "old": "040.0100",
+     "_docx": 4417
+    },
+    {
+     "old": "040.0101",
+     "_docx": 4420
+    },
+    {
+     "old": "040.0102",
+     "_docx": 4421
+    },
+    {
+     "old": "040.0103",
+     "_docx": 4422
+    },
+    {
+     "old": "040.0104",
+     "_docx": 4423
+    },
+    {
+     "old": "040.0105",
+     "_docx": 4424
+    },
+    {
+     "old": "040.0106",
+     "_docx": 4425
+    },
+    {
+     "old": "040.0107",
+     "_docx": 4426
+    },
+    {
+     "old": "040.0108",
+     "_docx": 4427
+    },
+    {
+     "old": "040.0109",
+     "_docx": 4428
+    },
+    {
+     "old": "040.0110",
+     "_docx": 4429
+    },
+    {
+     "old": "040.0111",
+     "_docx": 4430
+    },
+    {
+     "old": "040.0112",
+     "_docx": 4431
+    },
+    {
+     "old": "040.0113",
+     "_docx": 4433
+    },
+    {
+     "old": "040.0114",
+     "_docx": 4434
+    },
+    {
+     "old": "040.0115",
+     "_docx": 4435
+    },
+    {
+     "old": "040.0116",
+     "_docx": 4436
+    },
+    {
+     "old": "040.0117",
+     "_docx": 4437
+    },
+    {
+     "old": "040.0118",
+     "_docx": 4438
+    },
+    {
+     "old": "040.0119",
+     "_docx": 4439
+    },
+    {
+     "old": "040.0120",
+     "_docx": 4440
+    },
+    {
+     "old": "040.0121",
+     "_docx": 4441
+    },
+    {
+     "old": "040.0122",
+     "_docx": 4442
+    },
+    {
+     "old": "040.0123",
+     "_docx": 4443
+    },
+    {
+     "old": "040.0124",
+     "_docx": 4444
+    },
+    {
+     "old": "040.0125",
+     "_docx": 4445
+    },
+    {
+     "old": "040.0126",
+     "_docx": 4446
+    },
+    {
+     "old": "040.0127",
+     "_docx": 4447
+    },
+    {
+     "old": "040.0128",
+     "_docx": 4450
+    },
+    {
+     "old": "040.0129",
+     "_docx": 4451
+    },
+    {
+     "old": "040.0130",
+     "_docx": 4452
+    },
+    {
+     "old": "040.0131",
+     "_docx": 4453
+    },
+    {
+     "old": "040.0132",
+     "_docx": 4454
+    },
+    {
+     "old": "040.0133",
+     "_docx": 4455
+    },
+    {
+     "old": "040.0134",
+     "_docx": 4456
+    },
+    {
+     "old": "040.0135",
+     "_docx": 4457
+    },
+    {
+     "old": "040.0136",
+     "_docx": 4458
+    },
+    {
+     "old": "040.0137",
+     "_docx": 4459
+    },
+    {
+     "old": "040.0138",
+     "_docx": 4460
+    },
+    {
+     "old": "040.0139",
+     "_docx": 4461
+    },
+    {
+     "old": "040.0140",
+     "_docx": 4462
+    },
+    {
+     "old": "040.0141",
+     "_docx": 4463
+    },
+    {
+     "old": "040.0142",
+     "_docx": 4464
+    },
+    {
+     "old": "040.0143",
+     "_docx": 4465
+    },
+    {
+     "old": "040.0144",
+     "_docx": 4466
+    },
+    {
+     "old": "040.0145"
+    },
+    {
+     "old": "040.0146"
+    },
+    {
+     "old": "040.0147"
+    },
+    {
+     "old": "040.0148"
+    },
+    {
+     "old": "040.0149"
+    },
+    {
+     "old": "040.0150"
+    },
+    {
+     "old": "040.0151"
+    }
+   ],
+   "heading": "Vendredi 27, samedi 28 août 1875"
+  },
+  {
+   "file": "1875-08-29.md",
+   "date": "1875-08-29",
+   "heading": "Dimanche 29 août 1875",
+   "paragraphs": [
+    {
+     "old": "040.0152",
+     "_docx": 4469.5
+    },
+    {
+     "old": "040.0153",
+     "_docx": 4470
+    },
+    {
+     "old": "040.0154",
+     "_docx": 4471
+    },
+    {
+     "old": "040.0155",
+     "_docx": 4472
+    },
+    {
+     "old": "040.0156",
+     "_docx": 4473
+    },
+    {
+     "old": "040.0157",
+     "_docx": 4474
+    },
+    {
+     "old": "040.0158",
+     "_docx": 4475
+    },
+    {
+     "old": "040.0159",
+     "_docx": 4476
+    },
+    {
+     "old": "040.0160",
+     "_docx": 4477
+    },
+    {
+     "old": "040.0161",
+     "_docx": 4478
+    },
+    {
+     "old": "040.0162",
+     "_docx": 4479
+    },
+    {
+     "old": "040.0163",
+     "_docx": 4480
+    },
+    {
+     "old": "040.0164",
+     "_docx": 4482
+    },
+    {
+     "old": "040.0165",
+     "_docx": 4483
+    },
+    {
+     "old": "040.0166",
+     "_docx": 4484
+    },
+    {
+     "old": "040.0167",
+     "_docx": 4485
+    },
+    {
+     "old": "040.0168",
+     "_docx": 4486
+    },
+    {
+     "old": "040.0169",
+     "_docx": 4487
+    },
+    {
+     "old": "040.0170"
+    },
+    {
+     "old": "040.0171"
+    },
+    {
+     "old": "040.0172"
+    },
+    {
+     "old": "040.0173"
+    }
+   ]
+  },
+  {
+   "file": "1875-08-30.md",
+   "date": "1875-08-30",
+   "heading": "Lundi 30 août 1875",
+   "paragraphs": [
+    {
+     "old": "040.0174",
+     "_docx": 4488.5
+    },
+    {
+     "old": "040.0175",
+     "_docx": 4489
+    },
+    {
+     "old": "040.0176",
+     "_docx": 4490
+    },
+    {
+     "old": "040.0177",
+     "_docx": 4491
+    },
+    {
+     "old": "040.0178",
+     "_docx": 4492
+    },
+    {
+     "old": "040.0179",
+     "_docx": 4493
+    },
+    {
+     "old": "040.0180",
+     "_docx": 4496
+    },
+    {
+     "old": "040.0181",
+     "_docx": 4497
+    },
+    {
+     "old": "040.0182",
+     "_docx": 4498
+    },
+    {
+     "old": "040.0183",
+     "_docx": 4499
+    },
+    {
+     "old": "040.0184",
+     "_docx": 4500
+    },
+    {
+     "old": "040.0185",
+     "_docx": 4501
+    },
+    {
+     "old": "040.0186",
+     "_docx": 4502
+    },
+    {
+     "old": "040.0187",
+     "_docx": 4503
+    },
+    {
+     "old": "040.0188",
+     "_docx": 4504
+    },
+    {
+     "old": "040.0189",
+     "_docx": 4505
+    },
+    {
+     "old": "040.0190",
+     "_docx": 4506
+    },
+    {
+     "old": "040.0191",
+     "_docx": 4507
+    },
+    {
+     "old": "040.0192"
+    },
+    {
+     "old": "040.0193"
+    },
+    {
+     "old": "040.0194"
+    },
+    {
+     "old": "040.0195"
+    }
+   ]
+  },
+  {
+   "file": "1875-08-31.md",
+   "date": "1875-08-31",
+   "heading": "Mardi 31 août 1875",
+   "paragraphs": [
+    {
+     "old": "040.0196",
+     "_docx": 4510.5
+    },
+    {
+     "old": "040.0197",
+     "_docx": 4511
+    },
+    {
+     "old": "040.0198",
+     "_docx": 4512
+    },
+    {
+     "old": "040.0199",
+     "_docx": 4513
+    },
+    {
+     "old": "040.0200",
+     "_docx": 4514
+    },
+    {
+     "old": "040.0201",
+     "_docx": 4515
+    },
+    {
+     "old": "040.0202",
+     "_docx": 4516
+    },
+    {
+     "old": "040.0203",
+     "_docx": 4517
+    },
+    {
+     "old": "040.0204",
+     "_docx": 4518,
+     "kind": "editorial",
+     "_kind_guess_reason": "bracketed editors' note about the manuscript (no text by Marie)"
+    },
+    {
+     "old": "040.0205",
+     "_docx": 4519,
+     "kind": "letter",
+     "source": "Lettre de Berthe Boyd à Marie, Royat, [août 1875]",
+     "_kind_guess_reason": "letter pinned into the notebook («La lettre est attachée à la page 102»)",
+     "set_french": "> Royat"
+    },
+    {
+     "old": "040.0206",
+     "_docx": 4520,
+     "kind": "letter",
+     "source": "Lettre de Berthe Boyd à Marie, Royat, [août 1875]",
+     "_kind_guess_reason": "letter pinned into the notebook («La lettre est attachée à la page 102»)",
+     "set_french": "> B.B. (chiffre)"
+    },
+    {
+     "old": "040.0207",
+     "_docx": 4521,
+     "kind": "letter",
+     "source": "Lettre de Berthe Boyd à Marie, Royat, [août 1875]",
+     "_kind_guess_reason": "letter pinned into the notebook («La lettre est attachée à la page 102»)",
+     "set_french": "> Chere Marie,"
+    },
+    {
+     "old": "040.0208",
+     "_docx": 4522,
+     "kind": "letter",
+     "source": "Lettre de Berthe Boyd à Marie, Royat, [août 1875]",
+     "_kind_guess_reason": "letter pinned into the notebook («La lettre est attachée à la page 102»)",
+     "set_french": "> Mille excuses, que j'ose a peine vous offrir, pour ne pas etre venue causer un instant avec vous avant maintenant, mais je compte sur votre bonte pour m'accorder un pardon peu merite. Nous sommes arrivees hier soir d'Aix ou la chaleur a empeche toute correspondance. J'espere que vous avez retrouve Madame votre mere en bonne sante, ainsi que votre cousine."
+    },
+    {
+     "old": "040.0209",
+     "_docx": 4525,
+     "kind": "letter",
+     "source": "Lettre de Berthe Boyd à Marie, Royat, [août 1875]",
+     "_kind_guess_reason": "letter pinned into the notebook («La lettre est attachée à la page 102»)",
+     "set_french": "> Nous partons d'ici peut-etre demain, et comme pour trois semaines nous n'aurons pas d'adresse fixe, je vous prierai de m'ecrire a : *33 Champs-Elysees, Paris*"
+    },
+    {
+     "old": "040.0210",
+     "_docx": 4526,
+     "kind": "letter",
+     "source": "Lettre de Berthe Boyd à Marie, Royat, [août 1875]",
+     "_kind_guess_reason": "letter pinned into the notebook («La lettre est attachée à la page 102»)",
+     "set_french": "> d'ou la lettre me sera expediee. Rappelez vous, en revenant, a Paris de votre promesse de venir me voir, car je tiens absolument de vous presenter a maman, et comme depuis longtemps elle m'entend parler de vous, elle voudrait faire votre connaissance, ainsi que celle de Madame votre mere, Aix etait tres gai, des danses continuellement et des bons danseurs, chose assez rare."
+    },
+    {
+     "old": "040.0211",
+     "_docx": 4527,
+     "kind": "letter",
+     "source": "Lettre de Berthe Boyd à Marie, Royat, [août 1875]",
+     "_kind_guess_reason": "letter pinned into the notebook («La lettre est attachée à la page 102»)",
+     "set_french": "> Mes respects a Madame votre mere, et rappellez-moi au souvenir de votre cousine, je vous prie, quant a vous, je vous envoie mille amities."
+    },
+    {
+     "old": "040.0212",
+     "_docx": 4528,
+     "kind": "letter",
+     "source": "Lettre de Berthe Boyd à Marie, Royat, [août 1875]",
+     "_kind_guess_reason": "letter pinned into the notebook («La lettre est attachée à la page 102»)",
+     "set_french": "> Votre amie,"
+    },
+    {
+     "old": "040.0213",
+     "_docx": 4529,
+     "kind": "letter",
+     "source": "Lettre de Berthe Boyd à Marie, Royat, [août 1875]",
+     "_kind_guess_reason": "letter pinned into the notebook («La lettre est attachée à la page 102»)",
+     "set_french": "> Berthe Boyd."
+    },
+    {
+     "old": "040.0214",
+     "_docx": 4530
+    },
+    {
+     "old": "040.0215",
+     "_docx": 4531
+    },
+    {
+     "old": "040.0216",
+     "_docx": 4532
+    },
+    {
+     "old": "040.0217",
+     "_docx": 4533
+    },
+    {
+     "old": "040.0218",
+     "_docx": 4534
+    },
+    {
+     "old": "040.0219",
+     "_docx": 4535
+    },
+    {
+     "old": "040.0220",
+     "_docx": 4536
+    },
+    {
+     "old": "040.0221",
+     "_docx": 4539
+    },
+    {
+     "old": "040.0222"
+    },
+    {
+     "old": "040.0223"
+    },
+    {
+     "old": "040.0224"
+    },
+    {
+     "old": "040.0225"
+    },
+    {
+     "old": "040.0226"
+    }
+   ]
+  },
+  {
+   "file": "1875-09-01.md",
+   "date": "1875-09-01",
+   "heading": "Mercredi 1er septembre 1875",
+   "paragraphs": [
+    {
+     "old": "040.0227",
+     "_docx": 4540.5
+    },
+    {
+     "old": "040.0232",
+     "_docx": 4541
+    },
+    {
+     "old": "040.0233",
+     "_docx": 4542
+    },
+    {
+     "old": "040.0234",
+     "_docx": 4543,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> Chere Berthe,"
+    },
+    {
+     "old": "040.0235",
+     "_docx": 4544,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> J'ai recu votre lettre a Paris ou je suis depuis trois jours. Ma mere qui est restee a Schlangenbad me l'envoie. Madame votre mere est bien bonne de penser a moi et je suis tout impatiente de la connaitre."
+    },
+    {
+     "old": "040.0236",
+     "_docx": 4545,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> Je pense que nous resterons ici encore quelque temps. Je suis avec ma tante, Mme Romanoff, d'ailleurs je crois que vous la connaissez."
+    },
+    {
+     "old": "040.0237",
+     "_docx": 4546,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> Que je voudrais passer quelque temps dans la meme ville que vous, nous pourrions au moins nous voir."
+    },
+    {
+     "old": "040.0238",
+     "_docx": 4547,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> C'est ennuyeux de [se] rencontrer a peine deux fois par an, d'echanger quelques mots et puis etre de nouveau l'une a un bout du monde, l'autre a l'autre."
+    },
+    {
+     "old": "040.0239",
+     "_docx": 4548,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> Ecrivons-nous toujours, depuis la premiere annee de mon sejour a l'etranger je vous ai rencontree, j'etais toujours attiree vers vous et quelque chose me dit, qu'un jour nous vivrons plus liees que nous ne sommes a present."
+    },
+    {
+     "old": "040.0240",
+     "_docx": 4549,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> Nous logeons au Grand Hotel n 281."
+    },
+    {
+     "old": "040.0241",
+     "_docx": 4550,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> Au revoir ma chere, pensez de moi ce que je pense de vous."
+    },
+    {
+     "old": "040.0242",
+     "_docx": 4551,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> Bonjour !"
+    },
+    {
+     "old": "040.0243",
+     "_docx": 4552,
+     "kind": "letter",
+     "source": "Lettre de Marie à Berthe Boyd, 1er septembre 1875",
+     "_kind_guess_reason": "«Je réponds à Berthe:» — letter text and signature",
+     "set_french": "> Marie Bashkirseff"
+    },
+    {
+     "old": "040.0244",
+     "_docx": 4553
+    },
+    {
+     "old": "040.0245",
+     "_docx": 4554,
+     "kind": "editorial",
+     "_kind_guess_reason": "editors' note about the paper"
+    }
+   ]
+  }
+ ],
+ "_reviewed": "planner-tome05, 2026-09-29: draft reviewed; see REVIEW.md"
+}

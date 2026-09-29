@@ -52,20 +52,20 @@ The confusion was resolved when, at a late-night supper after a ball at the Cerc
 
 %% GLO_BOREEL.0008 %%
 Marie provides detailed and evolving descriptions of Boreel throughout the diary:
-- "Taille moyenne, gras, blanc, rose, blond, frais, beau" -- medium height, plump, fair-skinned, pink, blond, fresh, handsome (040.0088, entry 1875-08-27)
+- "Taille moyenne, gras, blanc, rose, blond, frais, beau" -- medium height, plump, fair-skinned, pink, blond, fresh, handsome (040.0085, entry 1875-08-27)
 - Had "de bons yeux de chien" -- good dog-like eyes; specifically compared to her dog Prater. A September 1874 marginal note reveals: "Boreel doit son commencement a la ressemblance que nous lui avons trouvee avec Prater" -- Boreel owed his beginning [as a romantic interest] to the resemblance we found with Prater (002.0042)
 - "Naive face that did not lack beauty" with good gray eyes
 - "Coarse" ungloved hand, which Marie found appealing (002.0041)
 - Had a mustache he would pull when displeased
 - Dressed elegantly -- "le jeune homme le plus chic de Nice" (003.0005, entry 1873-03-16)
-- Marie repeatedly criticizes his gait as "ignoble" and "vilaine demarche" -- ungainly walk lacking grace and nobility (001.0015, 040.0094)
+- Marie repeatedly criticizes his gait as "ignoble" and "vilaine demarche" -- ungainly walk lacking grace and nobility (001.0015, 040.0091)
 - By 1875-76, Marie notes he had become fat and ugly: "O Boreel! Comme tu es devenu laid et comme tu es devenu gras. Ou est ton chic?" (051, entry 1876-01-04)
 
 %% GLO_BOREEL.0009 %%
 ## Age
 
 %% GLO_BOREEL.0010 %%
-In her 1875 retrospective, Marie states that when Audiffret was barely twenty, "Boreel en avait vingt-quatre a vingt-cinq" (040.0089). This was during the winter 1871-72, placing Boreel's birth around 1847-1848. He was thus roughly ten to eleven years older than Marie (born January 12, 1858/1859).
+In her 1875 retrospective, Marie states that when Audiffret was barely twenty, "Boreel en avait vingt-quatre a vingt-cinq" (040.0086). This was during the winter 1871-72, placing Boreel's birth around 1847-1848. He was thus roughly ten to eleven years older than Marie (born January 12, 1858/1859).
 
 %% GLO_BOREEL.0011 %%
 ## Family in Nice
@@ -76,7 +76,7 @@ The Boreel family maintained a seasonal presence in Nice with significant proper
 - **Mme Boreel** (his mother): Seen at her window at the start of the 1873-74 season (010.0088, entry 1873-09-27). Marie notes her arriving with a young blonde woman she speculates might be Boreel's wife (010.0152, entry 1873-10-01). Last seen departing Nice with Boreel in May 1876 (059, entry 1876-05-07).
 - **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0204, entry 1873-03-07; 004.0333, entry 1873-05-10).
 - **A dog**: The family dog's collar read "M. Robert Boreel" and would follow Marie's family in the street (004.0203, entry 1873-04-27).
-- **Horses**: Boreel kept fine horses in Nice. Marie notes he had "les plus beaux chevaux" (040.0088) and is frequently seen with one or two horses on the Promenade.
+- **Horses**: Boreel kept fine horses in Nice. Marie notes he had "les plus beaux chevaux" (040.0085) and is frequently seen with one or two horses on the Promenade.
 
 %% GLO_BOREEL.0013 %%
 ## Social Life in Nice
@@ -88,7 +88,7 @@ Boreel participated fully in the typical activities of wealthy winter visitors t
 - Appeared in carnival costume as a "bandit" (002.0069-0065, entry 1873-02-23) and rode in the carnival cavalcade
 - Late-night suppers with Prince Gagarine, Markoff, and Gouchkevitch (002.0124, entry 1873-02-27)
 - Gambling at Monaco -- Marie morally disapproves but finds it adds to his charm (002.0138, entry 1873-02-27)
-- Close friendship with Emile d'Audiffret: "le plus grand ami d'Audiffret" and "Boreel etait le maitre du petit Nicois en beaucoup de choses" (040.0089, 040.0093)
+- Close friendship with Emile d'Audiffret: "le plus grand ami d'Audiffret" and "Boreel etait le maitre du petit Nicois en beaucoup de choses" (040.0086, 040.0090)
 - Appeared at Nice in December 1873 "tout en bleu avec son caniche bien rase" -- all in blue with his well-clipped poodle, on a dog-cart (014.0258, entry 1873-12-27)
 - In 1874-75, seen in Spa with Gericke, who reports he was courting a woman in The Hague (021.0067, entry 1874-07-09)
 
@@ -103,7 +103,7 @@ Before starting her written diary, Marie tracked her Boreel sightings using a co
 
 %% GLO_BOREEL.0018 %%
 ### Phase 1: First Infatuation (Winter 1871-72)
-Marie's attraction to Boreel began in the winter of 1871-72 when she was thirteen. She later writes: "Je devins amoureuse de Boreel, j'avais treize ans" (040.0081). She believed him to be "Baron Finot" with five racehorses and "decided she had to have him" ("j'ai decide qu'il me le fallait," 040.0085). The infatuation was based on resemblance to her dog Prater and on his elegant appearance. Marie and Boreel never spoke directly.
+Marie's attraction to Boreel began in the winter of 1871-72 when she was thirteen. She later writes: "Je devins amoureuse de Boreel, j'avais treize ans" (040.0078). She believed him to be "Baron Finot" with five racehorses and "decided she had to have him" ("j'ai decide qu'il me le fallait," 040.0082). The infatuation was based on resemblance to her dog Prater and on his elegant appearance. Marie and Boreel never spoke directly.
 
 %% GLO_BOREEL.0019 %%
 ### Phase 2: Rivalry with Hamilton (Winter 1872-73)

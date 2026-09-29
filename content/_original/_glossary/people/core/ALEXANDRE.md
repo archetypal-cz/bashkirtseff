@@ -80,7 +80,7 @@ In January 1875, Marie reveals that Alexandre was withholding estate revenues fr
 ### The Money Courier (1875)
 
 %% GLO_ALEXANDRE.0019 %%
-In June 1875, Marie records that "Alexandre en arrivant avait apporte cent huit mille francs" (Alexandre on arriving had brought 108,000 francs). Within two months the money was entirely squandered, prompting Marie's exasperated remark: "Cent huit mille francs en deux mois, et vivre comme nous vivons ! C'est a en perdre la tete !" (034.0413). Despite his reputation for rapacity, Alexandre functioned as the family's financial courier between Russia and Western Europe.
+In June 1875, Marie records that "Alexandre en arrivant avait apporte cent huit mille francs" (Alexandre on arriving had brought 108,000 francs). Within two months the money was entirely squandered, prompting Marie's exasperated remark: "Cent huit mille francs en deux mois, et vivre comme nous vivons ! C'est a en perdre la tete !" (034.0607). Despite his reputation for rapacity, Alexandre functioned as the family's financial courier between Russia and Western Europe.
 
 %% GLO_ALEXANDRE.0020 %%
 ### Buying Out His Brothers
@@ -207,7 +207,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 ### 1875
 - **028.0109** (January 1): Alexandre withholding revenues; Marie's diplomatic letters; plan to remove him from estate management
 - **029.0171-0172** (February 7): Alexandre arrives in Nice from Russia with family; children Stiopa (7) and Julie (6); Marie's ambivalence: "est-il bonhomme ? est-il ruse ? That is the question"
-- **034.0413** (June 25): Alexandre brings 108,000 francs from Russia, squandered in two months
+- **034.0607** (June 25): Alexandre brings 108,000 francs from Russia, squandered in two months
 
 ### 1876
 - **059.0653** (May 1): "only God to defend us and sometimes Uncle Alexandre"

@@ -1,0 +1,444 @@
+{
+ "carnet": "042",
+ "source": "tome05.docx",
+ "drop": [
+  {
+   "id": "042.0002",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "042.0003",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "042.0004",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "042.0005",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "042.0006",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1875-09-08.md",
+   "date": "1875-09-08",
+   "heading": "Mercredi 8 septembre 1875",
+   "paragraphs": [
+    {
+     "old": "042.0001",
+     "_docx": 4852.5
+    },
+    {
+     "old": "042.0007",
+     "_docx": 4853
+    },
+    {
+     "old": "042.0008",
+     "_docx": 4854
+    },
+    {
+     "old": "042.0009",
+     "_docx": 4855
+    },
+    {
+     "old": "042.0010",
+     "_docx": 4856
+    },
+    {
+     "old": "042.0011",
+     "_docx": 4857
+    },
+    {
+     "old": "042.0012",
+     "_docx": 4858
+    },
+    {
+     "old": "042.0013",
+     "_docx": 4859
+    },
+    {
+     "old": "042.0014",
+     "_docx": 4860
+    },
+    {
+     "old": "042.0015",
+     "_docx": 4861
+    },
+    {
+     "old": "042.0016",
+     "_docx": 4862
+    },
+    {
+     "old": "042.0017",
+     "_docx": 4863
+    },
+    {
+     "old": "042.0018",
+     "_docx": 4866
+    },
+    {
+     "old": "042.0019",
+     "_docx": 4867
+    },
+    {
+     "old": "042.0020",
+     "_docx": 4868
+    },
+    {
+     "old": "042.0021",
+     "_docx": 4869
+    },
+    {
+     "old": "042.0022",
+     "_docx": 4870
+    },
+    {
+     "old": "042.0023",
+     "_docx": 4871
+    },
+    {
+     "old": "042.0024",
+     "_docx": 4872
+    },
+    {
+     "old": "042.0025",
+     "_docx": 4873
+    },
+    {
+     "old": "042.0026"
+    },
+    {
+     "old": "042.0027"
+    },
+    {
+     "old": "042.0028"
+    },
+    {
+     "old": "042.0029"
+    }
+   ]
+  },
+  {
+   "file": "1875-09-09.md",
+   "date": "1875-09-09",
+   "heading": "Jeudi 9 septembre 1875",
+   "paragraphs": [
+    {
+     "old": "042.0030",
+     "_docx": 4874.5
+    },
+    {
+     "old": "042.0031",
+     "_docx": 4875
+    },
+    {
+     "old": "042.0032",
+     "_docx": 4876
+    },
+    {
+     "old": "042.0033",
+     "_docx": 4877
+    },
+    {
+     "old": "042.0034",
+     "_docx": 4878
+    },
+    {
+     "old": "042.0035",
+     "_docx": 4879
+    },
+    {
+     "old": "042.0036",
+     "_docx": 4880
+    },
+    {
+     "old": "042.0037",
+     "_docx": 4883
+    },
+    {
+     "old": "042.0038",
+     "_docx": 4884
+    },
+    {
+     "old": "042.0039",
+     "_docx": 4885
+    },
+    {
+     "old": "042.0040",
+     "_docx": 4886
+    },
+    {
+     "old": "042.0041",
+     "_docx": 4887
+    },
+    {
+     "old": "042.0042",
+     "_docx": 4887.01
+    },
+    {
+     "old": "042.0043",
+     "_docx": 4889
+    },
+    {
+     "old": "042.0044",
+     "_docx": 4890
+    },
+    {
+     "old": "042.0045",
+     "_docx": 4891
+    },
+    {
+     "old": "042.0046",
+     "_docx": 4892
+    },
+    {
+     "old": "042.0047",
+     "_docx": 4893
+    },
+    {
+     "old": "042.0048",
+     "_docx": 4894
+    },
+    {
+     "old": "042.0049",
+     "_docx": 4895
+    },
+    {
+     "old": "042.0050",
+     "_docx": 4896
+    },
+    {
+     "old": "042.0051",
+     "_docx": 4898
+    },
+    {
+     "old": "042.0052",
+     "_docx": 4899
+    },
+    {
+     "old": "042.0053"
+    },
+    {
+     "old": "042.0054"
+    },
+    {
+     "old": "042.0055"
+    },
+    {
+     "old": "042.0056"
+    },
+    {
+     "old": "042.0057"
+    },
+    {
+     "new": {
+      "french": "On n'a rien fait dans mes chambres. Ma tante a ordonné de travailler et mon cher oncle Georges a donné un contre-ordre, je ne sais pour quel motif. Partout et toujours cet homme sur mon chemin ! Aussi est-il le premier de mes ennemis et celui qui m'a fait le plus de mal.",
+      "rsr": "Restored from tome05.docx ¶4900 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4900,
+      4900
+     ]
+    },
+    {
+     "new": {
+      "french": "La maison est vide, en désordre, rien n'est arrangé, tout est dans un état qui fait pitié.",
+      "rsr": "Restored from tome05.docx ¶4901 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4901,
+      4901
+     ]
+    },
+    {
+     "new": {
+      "french": "Avant d'aller chez nous nous sommes entrées chez Nina, elle loge à la Promenade des Anglais, n° 7 au second.",
+      "rsr": "Restored from tome05.docx ¶4902 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4902,
+      4902
+     ]
+    },
+    {
+     "new": {
+      "french": "Elles ont le temps de nous dire que tous les meubles du château sont vendus, qu'il n'y a pas une chaise, pas un lit même et qu'il ira à l'hôtel s'il revient. Cette importante nouvelle leur est communiquée par l'ex-cocher du châtelain, dois-je dire de l'ex-châtelain ?",
+      "rsr": "Restored from tome05.docx ¶4903 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4903,
+      4903
+     ]
+    },
+    {
+     "new": {
+      "french": "Pourquoi ai-je quitté Nice ? Que suis-je allée faire là-bas ? Quel but ? Ni plaisir, ni utilité.",
+      "rsr": "Restored from tome05.docx ¶4904 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4904,
+      4904
+     ]
+    },
+    {
+     "new": {
+      "french": "J'ai dit en partant que le plaisir que je causerai à ma mère me tiendrait lieu d'utilité, et bien non, je suis désolée d'avoir voyagé pour rien.",
+      "rsr": "Restored from tome05.docx ¶4905 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4905,
+      4905
+     ]
+    },
+    {
+     "new": {
+      "french": "La voilà cette Méditerranée après laquelle je soupirais, ces arbres noirs, et il fait justement un clair de lune qui illumine ce chemin dans la mer. Calme parfait, ni roulement de voitures, ni mouvement et courses perpétuelles de ces gens qui me paraissaient des petits bonshommes pour jouer de ma fenêtre du Grand Hôtel. Calme, silence, obscurité mal éclairée par la lune qui se cache, et à peine troublée par les quelques lanternes de la Promenade qui courent les unes après les autres. J'entre dans ma chambre, dans mon cabinet de toilette, j'ouvre la fenêtre pour voir le château, toujours le même grand et immobile, en ce moment juste sonnait je ne sais plus quelle heure et mon cœur s'est non pas serré, il n'a pas bondi non plus, il s'est légèrement déplacé au son de l'horloge de *Girofla.* Il m'a semblé que je ne suis jamais partie, que demain j'aurais mes professeurs aux leçons desquels je serai impatiente, presque distraite, que le temps jusqu'à cinq heures du soir me paraîtra sans fin. A cinq heures nous irons au bain, le soir on viendra chez nous.",
+      "rsr": "Restored from tome05.docx ¶4906–4908 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4906,
+      4908
+     ]
+    },
+    {
+     "new": {
+      "french": "Saëtone, Fiouloulou, Désiré, etc. et surtout *le Surprenant mais stupide* héros.",
+      "rsr": "Restored from tome05.docx ¶4909 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4909,
+      4909
+     ]
+    },
+    {
+     "new": {
+      "french": "De nouveau je me mettrai à chasser ma conquête et de nouveau la soirée finira sans rien amener et je rentrerai dans ma chambre presque désappointée et j'irai lire dans mon cabinet de toilette, et me coucherai en espérant un lendemain semblable à la journée qui vient de finir.",
+      "rsr": "Restored from tome05.docx ¶4910 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4910,
+      4910
+     ]
+    },
+    {
+     "new": {
+      "french": "Je repasserai dans ma tête tout ce qui a été dit et je m'endormirai impatientée de la lenteur du dénouement, du dénouement qui ne devait jamais arriver.",
+      "rsr": "Restored from tome05.docx ¶4911 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4911,
+      4911
+     ]
+    },
+    {
+     "new": {
+      "french": "[Une ligne cancellée: Enfin vous comprenez.]",
+      "rsr": "Restored from tome05.docx ¶4912 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "rayé"
+     },
+     "_docx": [
+      4912,
+      4912
+     ],
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "new": {
+      "french": "Tout me manque cette année depuis la chose la moins importante: d'Audiffret, jusqu'à la plus sérieuse et la plus importante: l'arrangement de la maison. Ce qui vient entre le minimum et ce maximum a été également manqué.",
+      "rsr": "Restored from tome05.docx ¶4913 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4913,
+      4913
+     ]
+    },
+    {
+     "new": {
+      "french": "Ah ! je puis bien nommer cette année, année des soupirs, [Rayé: à l'exception cependant], non pas toute l'année, mais mes voyages sont des voyages des soupirs. Tout allait bien, je m'amusais même, jusqu'aux voyages, non, mais jusqu'au départ de son excellence de pacotille. Voyez comme un moucheron peut mordre un lion.",
+      "rsr": "Restored from tome05.docx ¶4914 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4914,
+      4914
+     ]
+    },
+    {
+     "new": {
+      "french": "Fritz et Bagatelle m'ont rencontré à la porte, Fritz s'est jeté dans mes bras et se montre si heureux de me revoir que c'est merveille dans un chien que j'ai à peine pendant quatre mois.",
+      "rsr": "Restored from tome05.docx ¶4915 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4915,
+      4915
+     ]
+    },
+    {
+     "new": {
+      "french": "Me voilà donc à Nice. C'est étrange. Ah ! voilà que je recommence à soupirer. Bonsoir, je suis un peu fatiguée.",
+      "rsr": "Restored from tome05.docx ¶4916 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4916,
+      4916
+     ]
+    },
+    {
+     "new": {
+      "french": "Oh ! j'aime Nice, j'aime Nice !",
+      "rsr": "Restored from tome05.docx ¶4917 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4917,
+      4917
+     ]
+    },
+    {
+     "new": {
+      "french": "Ce que je ne me pardonne pas, c'est de parler d'un homme qui *ne se fiche pas mal de moi !* C'est indigne de s'abaisser ainsi. Ah ! s'il lisait ceci, comme il serait fier, il croirait que je cache la vérité, que je suis follement amoureuse mais le dissimule sous des phrases arrangées. Il se tromperait, d'ailleurs se tromper est facile.",
+      "rsr": "Restored from tome05.docx ¶4918 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4918,
+      4918
+     ]
+    },
+    {
+     "new": {
+      "french": "Je suis vexée, oui, dépitée, oui. Enfin laissons cela, j'en ai tant parlé et surtout pensé que je ne sais plus que dire et comment me faire comprendre.",
+      "rsr": "Restored from tome05.docx ¶4919–4921 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4919,
+      4921
+     ]
+    },
+    {
+     "new": {
+      "french": "D'ailleurs n'ai-je pas dit que mes idées changeaient vingt fois par jour. Souvent je me mets à mon journal pour écrire une chose et à moitié chemin je pense déjà autrement. Cela est ainsi pour d'Audiffret et tout ce qui le concerne; quant aux autres choses je suis très sûre de mes idées.",
+      "rsr": "Restored from tome05.docx ¶4922 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4922,
+      4922
+     ]
+    },
+    {
+     "new": {
+      "french": "Enfin, Bonsoir, bonsoir mon cher journal, je ne finirais jamais à radoter à Nice, comme ces vieillards qui racontent les aventures de leur jeunesse.",
+      "rsr": "Restored from tome05.docx ¶4923 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      4923,
+      4923
+     ]
+    }
+   ]
+  }
+ ],
+ "_reviewed": "planner-tome05, 2026-09-29: draft reviewed; see REVIEW.md"
+}

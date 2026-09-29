@@ -1,0 +1,2881 @@
+{
+ "carnet": "032",
+ "source": "tome05.docx",
+ "drop": [
+  {
+   "id": "032.0002",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "032.0003",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "032.0462",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "032.0473",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "032.0300",
+   "reason": "placeholder «[Entrée vide ou perdue]»: the docx has the whole day of 9 May (¶870–900), restored as new paragraphs"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1875-04-23.md",
+   "date": "1875-04-23",
+   "heading": "Vendredi 23 avril 1875",
+   "paragraphs": [
+    {
+     "old": "032.0001",
+     "_docx": 474.99
+    },
+    {
+     "old": "032.0004",
+     "_docx": 478
+    },
+    {
+     "old": "032.0005",
+     "_docx": 479
+    },
+    {
+     "old": "032.0006",
+     "_docx": 480
+    },
+    {
+     "old": "032.0007",
+     "_docx": 481
+    },
+    {
+     "old": "032.0008",
+     "_docx": 482
+    },
+    {
+     "old": "032.0009",
+     "_docx": 483
+    },
+    {
+     "old": "032.0010",
+     "_docx": 484
+    },
+    {
+     "new": {
+      "french": "Eh bien comment est-il ?",
+      "rsr": "Restored from tome05.docx ¶485 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      485,
+      485
+     ]
+    },
+    {
+     "new": {
+      "french": "Il est grand.",
+      "rsr": "Restored from tome05.docx ¶486 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      486,
+      486
+     ]
+    },
+    {
+     "new": {
+      "french": "C'est bien.",
+      "rsr": "Restored from tome05.docx ¶487 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      487,
+      487
+     ]
+    },
+    {
+     "new": {
+      "french": "Il est brun (Ça se gâte).",
+      "rsr": "Restored from tome05.docx ¶488 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      488,
+      488
+     ]
+    },
+    {
+     "new": {
+      "french": "Il a des yeux gris.",
+      "rsr": "Restored from tome05.docx ¶489 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      489,
+      489
+     ]
+    },
+    {
+     "new": {
+      "french": "Bien.",
+      "rsr": "Restored from tome05.docx ¶490 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      490,
+      490
+     ]
+    },
+    {
+     "new": {
+      "french": "Des favoris noirs.",
+      "rsr": "Restored from tome05.docx ¶491 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      491,
+      491
+     ]
+    },
+    {
+     "new": {
+      "french": "Mais....",
+      "rsr": "Restored from tome05.docx ¶493 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      493,
+      493
+     ]
+    },
+    {
+     "new": {
+      "french": "Il est grand et fort.",
+      "rsr": "Restored from tome05.docx ¶494 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      494,
+      494
+     ]
+    },
+    {
+     "new": {
+      "french": "Mais ma chère c'est le portrait du prince de Wittgenstein !",
+      "rsr": "Restored from tome05.docx ¶495 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      495,
+      495
+     ]
+    },
+    {
+     "new": {
+      "french": "De qui ?",
+      "rsr": "Restored from tome05.docx ¶496 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      496,
+      496
+     ]
+    },
+    {
+     "new": {
+      "french": "Wittgenstein.",
+      "rsr": "Restored from tome05.docx ¶497 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      497,
+      497
+     ]
+    },
+    {
+     "new": {
+      "french": "Oh ! Dina, s'écrie Julie, regardez donc comme elle a rougi en prononçant ce nom. Ah ! Ah ! Ah !",
+      "rsr": "Restored from tome05.docx ¶498 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      498,
+      498
+     ]
+    },
+    {
+     "new": {
+      "french": "Mais non, je ne vois pas.",
+      "rsr": "Restored from tome05.docx ¶499 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      499,
+      499
+     ]
+    },
+    {
+     "new": {
+      "french": "Je n'ai pas rougi du tout, ma chère, je ne connais ce monsieur que pour l'avoir vu à la Promenade.",
+      "rsr": "Restored from tome05.docx ¶500 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      500,
+      500
+     ]
+    },
+    {
+     "new": {
+      "french": "Et en vérité je n'ai pas senti que je rougissais, mais le soir Dina assure que j'ai rougi.",
+      "rsr": "Restored from tome05.docx ¶501 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      501,
+      501
+     ]
+    },
+    {
+     "new": {
+      "french": "Bon ! ce n'est pas la première fois.",
+      "rsr": "Restored from tome05.docx ¶502 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      502,
+      502
+     ]
+    },
+    {
+     "new": {
+      "french": "Dina rentre et ma tante me mène chez Mme Angel, là nous trouvons Mme Patton, qui traverse toute la chambre pour me faire la révérence.",
+      "rsr": "Restored from tome05.docx ¶503 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      503,
+      503
+     ]
+    },
+    {
+     "new": {
+      "french": "Qu'est-ce qui la prend ?",
+      "rsr": "Restored from tome05.docx ¶504 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      504,
+      504
+     ]
+    },
+    {
+     "new": {
+      "french": "De là nous allons dîner au London House.",
+      "rsr": "Restored from tome05.docx ¶505 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      505,
+      505
+     ]
+    },
+    {
+     "new": {
+      "french": "J'ai commandé selon mon goût.",
+      "rsr": "Restored from tome05.docx ¶506 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      506,
+      506
+     ]
+    },
+    {
+     "new": {
+      "french": "Bisque aux écrevisses.",
+      "rsr": "Restored from tome05.docx ¶507 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      507,
+      507
+     ]
+    },
+    {
+     "new": {
+      "french": "Filet de bœuf aux fonds d'artichauts, petits pois et truffes.",
+      "rsr": "Restored from tome05.docx ¶508 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      508,
+      508
+     ]
+    },
+    {
+     "new": {
+      "french": "Asperges de Hollande.",
+      "rsr": "Restored from tome05.docx ¶509 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      509,
+      509
+     ]
+    },
+    {
+     "new": {
+      "french": "Poulet rôti.",
+      "rsr": "Restored from tome05.docx ¶510 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      510,
+      510
+     ]
+    },
+    {
+     "new": {
+      "french": "Fraises à la crème.",
+      "rsr": "Restored from tome05.docx ¶511 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      511,
+      511
+     ]
+    },
+    {
+     "new": {
+      "french": "Vin château Villegeorges de 1865",
+      "rsr": "Restored from tome05.docx ¶512 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      512,
+      512
+     ]
+    },
+    {
+     "new": {
+      "french": "Je pouvais bien chanter comme \"La Périchole\":",
+      "rsr": "Restored from tome05.docx ¶513 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      513,
+      513
+     ]
+    },
+    {
+     "new": {
+      "french": "\"Ah ! quel dîner je viens de faire.",
+      "rsr": "Restored from tome05.docx ¶514 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      514,
+      514
+     ]
+    },
+    {
+     "new": {
+      "french": "Et quels vins extraordinaires.",
+      "rsr": "Restored from tome05.docx ¶515 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      515,
+      515
+     ]
+    },
+    {
+     "new": {
+      "french": "J'en ai tant bu mais tant et tant...\"",
+      "rsr": "Restored from tome05.docx ¶516 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      516,
+      516
+     ]
+    },
+    {
+     "new": {
+      "french": "A peine sommes-nous à table que Pâris entre avec deux monstres russes et se place à côté de nous:",
+      "rsr": "Restored from tome05.docx ¶517 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      517,
+      517
+     ]
+    },
+    {
+     "new": {
+      "french": "*Maria Constantinovna, Maria Constantinovna,* dit-il s'interrompant au milieu d'une phrase et d'une voix mystérieuse, Audiffer *est arrivé*, Audiffer *est arrivé.*",
+      "rsr": "Restored from tome05.docx ¶518 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      518,
+      518
+     ]
+    },
+    {
+     "new": {
+      "french": "*Où ?*",
+      "rsr": "Restored from tome05.docx ¶519 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      519,
+      519
+     ]
+    },
+    {
+     "new": {
+      "french": "*Dans le jardin.*",
+      "rsr": "Restored from tome05.docx ¶520 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      520,
+      520
+     ]
+    },
+    {
+     "new": {
+      "french": "*Mais...*",
+      "rsr": "Restored from tome05.docx ¶521 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      521,
+      521
+     ]
+    },
+    {
+     "new": {
+      "french": "Dans un quart d'heure, Audiffer, après avoir regardé par la fenêtre qui s'y trouvait, entra dans la salle, avec le vieux bonhomme en compagnie duquel il se promenait cet après-midi pendant que nous étions au Luxembourg. C'est probablement son beau-père futur, car on dit qu'il épouse une riche héritière de Marseille.",
+      "rsr": "Restored from tome05.docx ¶522–524 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      522,
+      524
+     ]
+    },
+    {
+     "new": {
+      "french": "C'est dommage, seul il passe, avec femme, non, et puis Nice n'aura plus le moindre jeune homme.",
+      "rsr": "Restored from tome05.docx ¶525 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      525,
+      525
+     ]
+    },
+    {
+     "new": {
+      "french": "Non seulement je ne l'ai pas regardé, mais je ne me suis pas tournée de son côté et cela sans affectation aucune, car avec le mariage il perd tout. Requiem eterno.",
+      "rsr": "Restored from tome05.docx ¶526 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      526,
+      526
+     ]
+    },
+    {
+     "new": {
+      "french": "Le soir encore bavardage, on rit, et on dit des bêtises. On parle naturellement du mariage de Julie. C'est que réellement c'est un ravissant mariage.",
+      "rsr": "Restored from tome05.docx ¶527 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      527,
+      527
+     ]
+    },
+    {
+     "new": {
+      "french": "Quel dommage de ne pouvoir pas acheter un mari. Aux mêmes conditions que Julie je pourrais mais je ne veux pas. Elle a trente mille francs par an et son fiancé dix ou quinze mille. Ce n'est pas avec cela que je me contenterais.",
+      "rsr": "Restored from tome05.docx ¶528 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      528,
+      528
+     ]
+    },
+    {
+     "new": {
+      "french": "San Biou de Biou ! Comme disent les Niçois que faire avec cent mille francs de rente.",
+      "rsr": "Restored from tome05.docx ¶529 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      529,
+      529
+     ]
+    }
+   ]
+  },
+  {
+   "file": "1875-04-24.md",
+   "date": "1875-04-24",
+   "heading": "Samedi 24 avril 1875",
+   "paragraphs": [
+    {
+     "old": "032.0011",
+     "_docx": 484.01
+    },
+    {
+     "old": "032.0012",
+     "_docx": 531
+    },
+    {
+     "old": "032.0013",
+     "_docx": 532
+    },
+    {
+     "old": "032.0014",
+     "_docx": 533
+    },
+    {
+     "old": "032.0015",
+     "_docx": 534
+    },
+    {
+     "old": "032.0016",
+     "_docx": 535
+    },
+    {
+     "old": "032.0017",
+     "_docx": 536
+    },
+    {
+     "old": "032.0018",
+     "_docx": 537
+    },
+    {
+     "old": "032.0019",
+     "_docx": 538
+    },
+    {
+     "old": "032.0020",
+     "_docx": 539
+    },
+    {
+     "old": "032.0021",
+     "_docx": 540
+    },
+    {
+     "old": "032.0022",
+     "_docx": 543
+    },
+    {
+     "old": "032.0023",
+     "_docx": 544
+    },
+    {
+     "old": "032.0024",
+     "_docx": 545
+    },
+    {
+     "old": "032.0025",
+     "_docx": 546
+    },
+    {
+     "old": "032.0026",
+     "_docx": 547
+    },
+    {
+     "old": "032.0027",
+     "_docx": 548
+    },
+    {
+     "old": "032.0028",
+     "_docx": 549
+    },
+    {
+     "old": "032.0029",
+     "_docx": 550
+    },
+    {
+     "old": "032.0030",
+     "_docx": 551
+    },
+    {
+     "old": "032.0031",
+     "_docx": 552
+    },
+    {
+     "old": "032.0032",
+     "_docx": 553
+    },
+    {
+     "old": "032.0033",
+     "_docx": 554
+    },
+    {
+     "old": "032.0034",
+     "_docx": 555
+    },
+    {
+     "old": "032.0035",
+     "_docx": 558
+    },
+    {
+     "old": "032.0036",
+     "_docx": 559
+    },
+    {
+     "old": "032.0037",
+     "_docx": 560
+    },
+    {
+     "old": "032.0038",
+     "_docx": 561
+    },
+    {
+     "old": "032.0039",
+     "_docx": 562
+    },
+    {
+     "old": "032.0040",
+     "_docx": 563
+    },
+    {
+     "old": "032.0041",
+     "_docx": 564
+    },
+    {
+     "old": "032.0042",
+     "_docx": 565
+    },
+    {
+     "old": "032.0043",
+     "_docx": 566
+    },
+    {
+     "old": "032.0044",
+     "_docx": 567
+    },
+    {
+     "old": "032.0045",
+     "_docx": 568
+    },
+    {
+     "old": "032.0046",
+     "_docx": 569
+    },
+    {
+     "old": "032.0047",
+     "_docx": 570
+    },
+    {
+     "old": "032.0048",
+     "_docx": 571
+    },
+    {
+     "old": "032.0049",
+     "_docx": 572
+    },
+    {
+     "old": "032.0050",
+     "_docx": 573
+    },
+    {
+     "old": "032.0051",
+     "_docx": 574
+    },
+    {
+     "old": "032.0052",
+     "_docx": 574.01
+    },
+    {
+     "old": "032.0053",
+     "_docx": 576
+    },
+    {
+     "old": "032.0054",
+     "_docx": 577
+    },
+    {
+     "old": "032.0055",
+     "_docx": 578
+    },
+    {
+     "old": "032.0056",
+     "_docx": 579
+    },
+    {
+     "old": "032.0057",
+     "_docx": 580
+    },
+    {
+     "old": "032.0058",
+     "_docx": 582
+    },
+    {
+     "old": "032.0059",
+     "_docx": 583
+    },
+    {
+     "old": "032.0060",
+     "_docx": 584
+    },
+    {
+     "old": "032.0061",
+     "_docx": 585
+    },
+    {
+     "old": "032.0062",
+     "_docx": 586
+    },
+    {
+     "old": "032.0063",
+     "_docx": 587
+    },
+    {
+     "old": "032.0064",
+     "_docx": 588
+    },
+    {
+     "old": "032.0065",
+     "_docx": 589
+    },
+    {
+     "old": "032.0066",
+     "_docx": 590
+    },
+    {
+     "old": "032.0067",
+     "_docx": 591
+    },
+    {
+     "old": "032.0068",
+     "_docx": 592
+    },
+    {
+     "old": "032.0069",
+     "_docx": 593
+    },
+    {
+     "old": "032.0070",
+     "_docx": 596
+    },
+    {
+     "old": "032.0071",
+     "_docx": 597
+    },
+    {
+     "old": "032.0072",
+     "_docx": 598
+    },
+    {
+     "old": "032.0073",
+     "_docx": 599
+    },
+    {
+     "old": "032.0074",
+     "_docx": 600
+    },
+    {
+     "old": "032.0075",
+     "_docx": 601
+    },
+    {
+     "old": "032.0076",
+     "_docx": 602
+    },
+    {
+     "old": "032.0077",
+     "_docx": 603
+    },
+    {
+     "old": "032.0078",
+     "_docx": 604
+    },
+    {
+     "old": "032.0079",
+     "_docx": 605
+    }
+   ]
+  },
+  {
+   "file": "1875-04-25.md",
+   "date": "1875-04-25",
+   "heading": "Dimanche 25 avril 1875",
+   "paragraphs": [
+    {
+     "old": "032.0080",
+     "_docx": 605.01
+    },
+    {
+     "old": "032.0081",
+     "_docx": 607
+    },
+    {
+     "old": "032.0082",
+     "_docx": 610
+    },
+    {
+     "old": "032.0083",
+     "_docx": 611
+    },
+    {
+     "old": "032.0084",
+     "_docx": 612
+    },
+    {
+     "old": "032.0085",
+     "_docx": 613
+    },
+    {
+     "old": "032.0086",
+     "_docx": 614
+    },
+    {
+     "old": "032.0087",
+     "_docx": 615
+    },
+    {
+     "old": "032.0088",
+     "_docx": 616
+    },
+    {
+     "old": "032.0089",
+     "_docx": 617
+    },
+    {
+     "old": "032.0090",
+     "_docx": 618
+    },
+    {
+     "old": "032.0091",
+     "_docx": 619
+    },
+    {
+     "old": "032.0092",
+     "_docx": 620
+    },
+    {
+     "old": "032.0093",
+     "_docx": 621
+    },
+    {
+     "old": "032.0094",
+     "_docx": 622
+    },
+    {
+     "old": "032.0095",
+     "_docx": 623
+    },
+    {
+     "old": "032.0096",
+     "_docx": 624
+    },
+    {
+     "old": "032.0097",
+     "_docx": 625
+    },
+    {
+     "old": "032.0098",
+     "_docx": 628
+    },
+    {
+     "old": "032.0099",
+     "_docx": 629
+    },
+    {
+     "old": "032.0100",
+     "_docx": 630
+    }
+   ]
+  },
+  {
+   "file": "1875-04-26.md",
+   "date": "1875-04-26",
+   "heading": "Lundi 26 avril 1875",
+   "paragraphs": [
+    {
+     "old": "032.0101",
+     "_docx": 630.01
+    },
+    {
+     "old": "032.0102",
+     "_docx": 632
+    },
+    {
+     "old": "032.0103",
+     "_docx": 633
+    },
+    {
+     "old": "032.0104",
+     "_docx": 634
+    },
+    {
+     "old": "032.0105",
+     "_docx": 635
+    },
+    {
+     "old": "032.0106",
+     "_docx": 636
+    },
+    {
+     "old": "032.0107",
+     "_docx": 637
+    },
+    {
+     "old": "032.0108",
+     "_docx": 638
+    },
+    {
+     "old": "032.0109",
+     "_docx": 639
+    },
+    {
+     "old": "032.0110",
+     "_docx": 640
+    },
+    {
+     "old": "032.0111",
+     "_docx": 641
+    },
+    {
+     "old": "032.0112",
+     "_docx": 642
+    },
+    {
+     "old": "032.0113",
+     "_docx": 643
+    },
+    {
+     "old": "032.0114",
+     "_docx": 646
+    },
+    {
+     "old": "032.0115",
+     "_docx": 647
+    },
+    {
+     "old": "032.0116",
+     "_docx": 648
+    },
+    {
+     "old": "032.0117",
+     "_docx": 649
+    },
+    {
+     "old": "032.0118",
+     "_docx": 650
+    }
+   ]
+  },
+  {
+   "file": "1875-04-27.md",
+   "date": "1875-04-27",
+   "heading": "Mardi 27 avril 1875",
+   "paragraphs": [
+    {
+     "old": "032.0119",
+     "_docx": 650.01
+    },
+    {
+     "old": "032.0120",
+     "_docx": 652
+    },
+    {
+     "old": "032.0121",
+     "_docx": 653
+    },
+    {
+     "old": "032.0122",
+     "_docx": 654
+    },
+    {
+     "old": "032.0123",
+     "_docx": 655
+    },
+    {
+     "old": "032.0124",
+     "_docx": 656
+    },
+    {
+     "old": "032.0125",
+     "_docx": 657
+    },
+    {
+     "old": "032.0126",
+     "_docx": 658
+    },
+    {
+     "old": "032.0127",
+     "_docx": 659
+    },
+    {
+     "old": "032.0128",
+     "_docx": 660
+    },
+    {
+     "old": "032.0129",
+     "_docx": 661
+    },
+    {
+     "old": "032.0130",
+     "_docx": 664
+    }
+   ]
+  },
+  {
+   "file": "1875-04-28.md",
+   "date": "1875-04-28",
+   "heading": "Mercredi 28 avril 1875",
+   "paragraphs": [
+    {
+     "old": "032.0131",
+     "_docx": 664.01
+    },
+    {
+     "old": "032.0132",
+     "_docx": 666
+    },
+    {
+     "old": "032.0133",
+     "_docx": 667
+    },
+    {
+     "old": "032.0134",
+     "_docx": 668
+    },
+    {
+     "old": "032.0135",
+     "_docx": 669
+    },
+    {
+     "old": "032.0136",
+     "_docx": 670
+    },
+    {
+     "old": "032.0137",
+     "_docx": 671
+    },
+    {
+     "old": "032.0138",
+     "_docx": 672
+    },
+    {
+     "old": "032.0139",
+     "_docx": 673
+    }
+   ]
+  },
+  {
+   "file": "1875-04-29.md",
+   "date": "1875-04-29",
+   "heading": "Jeudi 29 avril 1875",
+   "paragraphs": [
+    {
+     "old": "032.0140",
+     "_docx": 673.01
+    },
+    {
+     "old": "032.0141",
+     "_docx": 675
+    },
+    {
+     "old": "032.0142",
+     "_docx": 676
+    },
+    {
+     "old": "032.0143",
+     "_docx": 677
+    },
+    {
+     "old": "032.0144",
+     "_docx": 680
+    },
+    {
+     "old": "032.0145",
+     "_docx": 681
+    },
+    {
+     "old": "032.0146",
+     "_docx": 682
+    },
+    {
+     "old": "032.0147",
+     "_docx": 683
+    },
+    {
+     "old": "032.0148",
+     "_docx": 684
+    }
+   ]
+  },
+  {
+   "file": "1875-04-30.md",
+   "date": "1875-04-30",
+   "heading": "Vendredi 30 avril 1875",
+   "paragraphs": [
+    {
+     "old": "032.0149",
+     "_docx": 684.01
+    },
+    {
+     "old": "032.0150",
+     "_docx": 686
+    },
+    {
+     "old": "032.0151",
+     "_docx": 687
+    },
+    {
+     "old": "032.0152",
+     "_docx": 688
+    },
+    {
+     "old": "032.0153",
+     "_docx": 689
+    },
+    {
+     "old": "032.0154",
+     "_docx": 690,
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "032.0155",
+     "_docx": 691
+    },
+    {
+     "new": {
+      "french": "Ils lisent religieusement et lèvent de temps en temps des yeux béats l'un sur l'autre pour se consulter.",
+      "rsr": "Restored from tome05.docx ¶693 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      693,
+      693
+     ]
+    },
+    {
+     "new": {
+      "french": "Cette douce lecture terminée ils se rendent au temple où ils immolent une victime et après avoir consacré aux chiens les entrailles, ils l'assaisonnent et la mangent ayant soin de régaler tout le monde. De temps en temps Yourkoff va en ville et en rapporte ou des asperges grosses et blanches comme des bougies de L'Etoile ou des fraises ou des concombres frais.",
+      "rsr": "Restored from tome05.docx ¶694 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      694,
+      694
+     ]
+    },
+    {
+     "new": {
+      "french": "On se met à table. Walitsky en face de Nina, le potage est trop salé, *Est-ce vous, Loukantchik qui avez salé ?*",
+      "rsr": "Restored from tome05.docx ¶695–696 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      695,
+      696
+     ]
+    },
+    {
+     "new": {
+      "french": "*Non c'est vous, Nina Alexandrovna,* répond Loukantchik.",
+      "rsr": "Restored from tome05.docx ¶697 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      697,
+      697
+     ]
+    },
+    {
+     "new": {
+      "french": "*Loukantchik,* reprend Nina, *nous avons mis trop de légumes*, et ainsi de suite.",
+      "rsr": "Restored from tome05.docx ¶698 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      698,
+      698
+     ]
+    },
+    {
+     "new": {
+      "french": "Après diner, on va chez maman, à onze heures on la laisse et Walitsky va dans la chambre de Nina et des jeunes filles qui, ayant cédé leur chambre à maman, dorment chez leur mère, s'assied au milieu de la chambre et raconte une multitude d'histoires et d'anecdotes sur un certain Nikonor, son bouffon en Russie.",
+      "rsr": "Restored from tome05.docx ¶699 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      699,
+      699
+     ]
+    },
+    {
+     "new": {
+      "french": "Walitsky n'est pas un grand prince mais il avait son bouffon, Nikonor Nikolevitch Popoff, employé du gouvernement et fils d'un prêtre. Il raconte ainsi jusqu'à quatre heures du matin puis se retire chez Yourkoff, et le lendemain on reprend encore le livre, la bible des profanes et on recommence comme la veille.",
+      "rsr": "Restored from tome05.docx ¶700 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      700,
+      700
+     ]
+    },
+    {
+     "new": {
+      "french": "La vie des Sapogenikoff à présent c'est vie à nous c'est une Iliade plus terrible et sanglante que celle d'Homère.",
+      "rsr": "Restored from tome05.docx ¶701 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      701,
+      701
+     ]
+    },
+    {
+     "new": {
+      "french": "Les Sapogenikoff de riches à millions sont devenus pauvres et ils prennent si noblement la chose que c'est plaisir à voir. On m'a envoyé de Russie mes armes, les voici: maintenant je vais y ajouter certaines choses qui y resteront depuis moi et j'y écrira ma devise que je n'ai pas encore trouvée.",
+      "rsr": "Restored from tome05.docx ¶702 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      702,
+      702
+     ]
+    },
+    {
+     "new": {
+      "french": "Je n'ajouterai rien du tout, ce sont des [Croquis] Dieu pourrait se fâcher. J'ai ajouté mes deux rêves, les cinq étoiles et les épis de blé. Je ne sais vraiment comment disposer tout cela. On y songera.",
+      "rsr": "Restored from tome05.docx ¶703–706 (missing from original extraction, 2026-09-28 rebuild). The printed edition prints a drawing (Marie's coat of arms) at ¶704 inside the sentence and another after it (¶707); the words hidden by the drawing, if any, are unknown."
+     },
+     "_docx": [
+      703,
+      706
+     ]
+    },
+    {
+     "new": {
+      "french": "Détestablement mise, avec une robe de ma tante je vais voir \"La Belle Hélène\" avec Marie, Olga, ma tante et Louba. Je me cache car je ne suis pas moi-même ainsi mise.",
+      "rsr": "Restored from tome05.docx ¶708 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      708,
+      708
+     ]
+    }
+   ]
+  },
+  {
+   "file": "1875-05-01.md",
+   "date": "1875-05-01",
+   "heading": "Samedi 1er mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0156",
+     "_docx": 709.5
+    },
+    {
+     "old": "032.0157",
+     "_docx": 710
+    },
+    {
+     "old": "032.0158",
+     "_docx": 711
+    },
+    {
+     "old": "032.0159",
+     "_docx": 714
+    },
+    {
+     "old": "032.0160",
+     "_docx": 715
+    },
+    {
+     "old": "032.0161",
+     "_docx": 716
+    },
+    {
+     "old": "032.0162",
+     "_docx": 717
+    },
+    {
+     "old": "032.0163",
+     "_docx": 718
+    },
+    {
+     "old": "032.0164",
+     "_docx": 719
+    },
+    {
+     "old": "032.0165",
+     "_docx": 720
+    }
+   ]
+  },
+  {
+   "file": "1875-05-02.md",
+   "date": "1875-05-02",
+   "heading": "Dimanche 2 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0166",
+     "_docx": 721.5
+    },
+    {
+     "old": "032.0167",
+     "_docx": 722
+    },
+    {
+     "old": "032.0168",
+     "_docx": 723
+    },
+    {
+     "old": "032.0169",
+     "_docx": 724
+    },
+    {
+     "old": "032.0170",
+     "_docx": 727
+    },
+    {
+     "old": "032.0171",
+     "_docx": 728
+    },
+    {
+     "old": "032.0172",
+     "_docx": 729
+    },
+    {
+     "old": "032.0173",
+     "_docx": 730
+    },
+    {
+     "old": "032.0174",
+     "_docx": 732
+    },
+    {
+     "old": "032.0175",
+     "_docx": 733
+    },
+    {
+     "old": "032.0176",
+     "_docx": 734
+    }
+   ]
+  },
+  {
+   "file": "1875-05-03.md",
+   "date": "1875-05-03",
+   "heading": "Lundi 3 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0177",
+     "_docx": 735.5
+    },
+    {
+     "old": "032.0178",
+     "_docx": 736,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "032.0179",
+     "_docx": 737
+    },
+    {
+     "old": "032.0180",
+     "_docx": 738
+    },
+    {
+     "old": "032.0181",
+     "_docx": 739
+    },
+    {
+     "old": "032.0182",
+     "_docx": 740
+    },
+    {
+     "old": "032.0183",
+     "_docx": 741
+    },
+    {
+     "old": "032.0184",
+     "_docx": 742
+    },
+    {
+     "old": "032.0185",
+     "_docx": 743
+    },
+    {
+     "old": "032.0186",
+     "_docx": 744
+    },
+    {
+     "old": "032.0187",
+     "_docx": 745
+    },
+    {
+     "old": "032.0188",
+     "_docx": 748
+    },
+    {
+     "old": "032.0189",
+     "_docx": 749
+    },
+    {
+     "old": "032.0190",
+     "_docx": 750
+    },
+    {
+     "old": "032.0191",
+     "_docx": 751
+    },
+    {
+     "old": "032.0192",
+     "_docx": 752
+    },
+    {
+     "old": "032.0193",
+     "_docx": 753
+    },
+    {
+     "old": "032.0194",
+     "_docx": 754
+    },
+    {
+     "old": "032.0195",
+     "_docx": 755
+    },
+    {
+     "old": "032.0196",
+     "_docx": 756
+    },
+    {
+     "old": "032.0197",
+     "_docx": 757
+    },
+    {
+     "old": "032.0198",
+     "_docx": 758
+    },
+    {
+     "old": "032.0199",
+     "_docx": 759
+    },
+    {
+     "old": "032.0200",
+     "_docx": 760
+    },
+    {
+     "old": "032.0201",
+     "_docx": 761
+    },
+    {
+     "old": "032.0202",
+     "_docx": 764
+    },
+    {
+     "old": "032.0203",
+     "_docx": 765
+    },
+    {
+     "old": "032.0204",
+     "_docx": 766
+    },
+    {
+     "old": "032.0205",
+     "_docx": 767
+    }
+   ]
+  },
+  {
+   "file": "1875-05-04.md",
+   "date": "1875-05-04",
+   "heading": "Mardi 4 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0206",
+     "_docx": 768.5
+    },
+    {
+     "old": "032.0207",
+     "_docx": 769
+    },
+    {
+     "old": "032.0208",
+     "_docx": 770
+    },
+    {
+     "old": "032.0209",
+     "_docx": 771
+    },
+    {
+     "old": "032.0210",
+     "_docx": 772
+    },
+    {
+     "old": "032.0211",
+     "_docx": 773
+    }
+   ]
+  },
+  {
+   "file": "1875-05-05.md",
+   "date": "1875-05-05",
+   "heading": "Mercredi 5 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0212",
+     "_docx": 774.5
+    },
+    {
+     "old": "032.0213",
+     "_docx": 775
+    },
+    {
+     "old": "032.0214",
+     "_docx": 776
+    },
+    {
+     "old": "032.0215",
+     "_docx": 777
+    },
+    {
+     "old": "032.0216",
+     "_docx": 778,
+     "kind": "editorial",
+     "_kind_guess_reason": "note about the physical manuscript («[Bas de page supprimé]»), not a marginal note by Marie"
+    },
+    {
+     "old": "032.0217",
+     "_docx": 779,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "032.0218",
+     "_docx": 780
+    },
+    {
+     "old": "032.0219",
+     "_docx": 782
+    },
+    {
+     "old": "032.0220",
+     "_docx": 783
+    },
+    {
+     "old": "032.0221",
+     "_docx": 784
+    },
+    {
+     "old": "032.0222",
+     "_docx": 785
+    },
+    {
+     "old": "032.0223",
+     "_docx": 786
+    },
+    {
+     "old": "032.0224",
+     "_docx": 787,
+     "_kind_guess_reason": "dialogue line, not a copied letter (drafter guess from a salutation)"
+    },
+    {
+     "old": "032.0225",
+     "_docx": 788
+    },
+    {
+     "old": "032.0226",
+     "_docx": 789
+    },
+    {
+     "old": "032.0227",
+     "_docx": 790
+    },
+    {
+     "old": "032.0228",
+     "_docx": 791
+    },
+    {
+     "old": "032.0229",
+     "_docx": 792
+    },
+    {
+     "old": "032.0230",
+     "_docx": 793
+    },
+    {
+     "old": "032.0231",
+     "_docx": 794
+    },
+    {
+     "old": "032.0232",
+     "_docx": 795
+    },
+    {
+     "old": "032.0233",
+     "_docx": 796
+    },
+    {
+     "old": "032.0234",
+     "_docx": 797
+    },
+    {
+     "old": "032.0235",
+     "_docx": 798
+    },
+    {
+     "old": "032.0236",
+     "_docx": 799
+    },
+    {
+     "old": "032.0237",
+     "_docx": 800
+    },
+    {
+     "old": "032.0238",
+     "_docx": 801
+    },
+    {
+     "old": "032.0239",
+     "_docx": 802
+    },
+    {
+     "old": "032.0240",
+     "_docx": 805
+    },
+    {
+     "old": "032.0241",
+     "_docx": 806
+    },
+    {
+     "old": "032.0242",
+     "_docx": 807
+    },
+    {
+     "old": "032.0243",
+     "_docx": 808
+    },
+    {
+     "old": "032.0244",
+     "_docx": 809
+    },
+    {
+     "old": "032.0245",
+     "_docx": 810
+    },
+    {
+     "old": "032.0246",
+     "_docx": 811
+    },
+    {
+     "old": "032.0247",
+     "_docx": 812
+    },
+    {
+     "old": "032.0248",
+     "_docx": 813
+    },
+    {
+     "old": "032.0249",
+     "_docx": 814
+    }
+   ]
+  },
+  {
+   "file": "1875-05-06.md",
+   "date": "1875-05-06",
+   "heading": "Jeudi 6 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0250",
+     "_docx": 815.5
+    },
+    {
+     "old": "032.0251",
+     "_docx": 816
+    },
+    {
+     "old": "032.0252",
+     "_docx": 817
+    },
+    {
+     "old": "032.0253",
+     "_docx": 818
+    },
+    {
+     "old": "032.0254",
+     "_docx": 820
+    },
+    {
+     "old": "032.0255",
+     "_docx": 821
+    },
+    {
+     "old": "032.0256",
+     "_docx": 822
+    },
+    {
+     "old": "032.0257",
+     "_docx": 823
+    },
+    {
+     "old": "032.0258",
+     "_docx": 824
+    },
+    {
+     "old": "032.0259",
+     "_docx": 825,
+     "kind": "editorial",
+     "_kind_guess_reason": "bracketed editors' note about the manuscript (no text by Marie)"
+    },
+    {
+     "old": "032.0260",
+     "_docx": 826
+    },
+    {
+     "old": "032.0261",
+     "_docx": 827
+    },
+    {
+     "old": "032.0262",
+     "_docx": 828
+    },
+    {
+     "old": "032.0263",
+     "_docx": 829,
+     "kind": "margin",
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "old": "032.0264",
+     "_docx": 830
+    },
+    {
+     "old": "032.0265",
+     "_docx": 832,
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "032.0266",
+     "_docx": 833,
+     "kind": "other",
+     "_kind_guess_reason": "note on a paper pinned into the notebook",
+     "source": "papier épinglé dans le carnet"
+    },
+    {
+     "old": "032.0267",
+     "_docx": 834
+    },
+    {
+     "old": "032.0268",
+     "_docx": 835
+    },
+    {
+     "old": "032.0269",
+     "_docx": 836
+    },
+    {
+     "old": "032.0270",
+     "_docx": 837
+    },
+    {
+     "old": "032.0271",
+     "_docx": 838
+    },
+    {
+     "old": "032.0272",
+     "_docx": 839
+    },
+    {
+     "old": "032.0273",
+     "_docx": 840
+    },
+    {
+     "old": "032.0274",
+     "_docx": 841
+    },
+    {
+     "old": "032.0275",
+     "_docx": 842
+    },
+    {
+     "old": "032.0276",
+     "_docx": 843
+    }
+   ]
+  },
+  {
+   "file": "1875-05-07.md",
+   "date": "1875-05-07",
+   "heading": "Vendredi 7 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0277",
+     "_docx": 844.5
+    },
+    {
+     "old": "032.0278",
+     "_docx": 845,
+     "kind": "editorial",
+     "_kind_guess_reason": "bracketed editors' note about the manuscript (no text by Marie)"
+    },
+    {
+     "old": "032.0279",
+     "_docx": 846
+    },
+    {
+     "old": "032.0280",
+     "_docx": 848
+    },
+    {
+     "old": "032.0281",
+     "_docx": 849
+    },
+    {
+     "old": "032.0282",
+     "_docx": 850
+    },
+    {
+     "old": "032.0283",
+     "_docx": 851
+    },
+    {
+     "old": "032.0284",
+     "_docx": 852
+    },
+    {
+     "old": "032.0285",
+     "_docx": 853
+    }
+   ]
+  },
+  {
+   "file": "1875-05-08.md",
+   "date": "1875-05-08",
+   "heading": "Samedi 8 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0286",
+     "_docx": 854.5
+    },
+    {
+     "old": "032.0287",
+     "_docx": 855
+    },
+    {
+     "old": "032.0288",
+     "_docx": 856
+    },
+    {
+     "old": "032.0289",
+     "_docx": 857
+    },
+    {
+     "old": "032.0290",
+     "_docx": 858
+    },
+    {
+     "old": "032.0291",
+     "_docx": 859
+    },
+    {
+     "old": "032.0292",
+     "_docx": 860
+    },
+    {
+     "old": "032.0293",
+     "_docx": 861
+    },
+    {
+     "old": "032.0294",
+     "_docx": 862
+    },
+    {
+     "old": "032.0295",
+     "_docx": 863
+    },
+    {
+     "old": "032.0296",
+     "_docx": 866
+    },
+    {
+     "old": "032.0297",
+     "_docx": 867
+    },
+    {
+     "old": "032.0298",
+     "_docx": 868
+    }
+   ]
+  },
+  {
+   "file": "1875-05-09.md",
+   "date": "1875-05-09",
+   "heading": "Dimanche 9 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0299",
+     "_docx": 869.5
+    },
+    {
+     "new": {
+      "french": "Je continue à faire des rêves superbes. Hier c'étaient des géants, Mmes Prodgers à cheval et Vigier sur un âne. Toutes deux cinq fois la grandeur naturelle. Ensuite Gioia plus grande encore, celle-là je l'ai embrassée. Ceci veut dire que le succès dépassera mon ambition, c'est difficile, sinon impossible.",
+      "rsr": "Restored from tome05.docx ¶870 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      870,
+      870
+     ]
+    },
+    {
+     "new": {
+      "french": "Puis j'ai rêvé encore de théâtre toujours le même, je le vois si souvent que je pourrais le dessiner, que Fritz devait chanter, que maman ne me laissait pas aller, que je priais Collignon.",
+      "rsr": "Restored from tome05.docx ¶871 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      871,
+      871
+     ]
+    },
+    {
+     "new": {
+      "french": "Aujourd'hui j'ai rêvé que je visitais la maison de Blackprince, mais si distinctement que je me souviens de chaque chambre, de chaque meuble, il y avait le portrait de Rosalie Léon et le portrait de M. Rosalie Léon, lui très ressemblant mais la tête en bas, et à côté encore un autre portrait de lui toujours renversé.",
+      "rsr": "Restored from tome05.docx ¶872 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      872,
+      872
+     ]
+    },
+    {
+     "new": {
+      "french": "Je montais des escaliers, ce qui annonce des félicités sans fin.",
+      "rsr": "Restored from tome05.docx ¶873 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      873,
+      873
+     ]
+    },
+    {
+     "new": {
+      "french": "Enfin si je croyais tout ce que me prédisent les rêves...",
+      "rsr": "Restored from tome05.docx ¶874 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      874,
+      874
+     ]
+    },
+    {
+     "new": {
+      "french": "Une chose m'attriste et chaque fois que j'y pense ou qu'on m'y fait penser m'assombrit tout à coup. C'est cette idée que j'épouserai Miloradovitch.",
+      "rsr": "Restored from tome05.docx ¶875 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      875,
+      875
+     ]
+    },
+    {
+     "new": {
+      "french": "Alors je pourrais bien accuser la Fatalité comme \"la Belle Hélène\". Ma foi, si je l'épouse, je ne me gênerai pas. Mais qui me force à ce mariage ? Mais quelle raison ai-je pour le refuser ?",
+      "rsr": "Restored from tome05.docx ¶876 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      876,
+      876
+     ]
+    },
+    {
+     "new": {
+      "french": "Dieu le veut et, pour accomplir sa volonté, il me met dans l'esprit l'idée que je suis une vieille fille ou le serai bientôt, que nous ne vivrons jamais bien. Il m'inspire mille désespoirs pour me faire accepter cette union comme un portus salutis",
+      "rsr": "Restored from tome05.docx ¶877 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      877,
+      877
+     ]
+    },
+    {
+     "new": {
+      "french": "Eh ! qui peut résister à Sa volonté, puisqu'il a tous les moyens à Sa disposition ? Tout en ne voulant pas je me sens entraînée, pas pour dire, mais véritablement tout à fait véritablement entraînée, tellement entraînée que je n'y puis rien, comme dans un cauchemar et comme dans un cauchemar aussi lorsque j'étais poursuivie par un loup, je courais, je courais toujours, mais mes jambes faiblissaient, mon cœur battait, je faisais un effort pour courir encore mais les jambes manquaient et pliaient, je sentais la bête féroce s'approcher et je me jetais par terre en me disant: eh bien qu'elle me mange, après tout ce n'est qu'un rêve et je vais me réveiller au moment suprême.",
+      "rsr": "Restored from tome05.docx ¶878–880 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      878,
+      878
+     ]
+    },
+    {
+     "new": {
+      "french": "Et, en effet, au moment où je sentais la gueule brûlante du loup près de ma figure je me réveillais.",
+      "rsr": "Restored from tome05.docx ¶881 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      881,
+      881
+     ]
+    },
+    {
+     "new": {
+      "french": "Il m'arrivait aussi étant poursuivie de me jeter du haut d'un escalier pour me réveiller.",
+      "rsr": "Restored from tome05.docx ¶882 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      882,
+      882
+     ]
+    },
+    {
+     "new": {
+      "french": "Eh bien c'est comme ce cauchemar, je n'ai ni raison, ni volonté, je vais en Russie, pourquoi ? *Je dis* pour acheter des chevaux et une fourrure, mais *je sens* que la fatalité m'y pousse.",
+      "rsr": "Restored from tome05.docx ¶883 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      883,
+      883
+     ]
+    },
+    {
+     "new": {
+      "french": "Au diable les noires idées ! J'aime mieux raconter l'expédition à la fourchette que de m'occuper de vaines fantaisies.",
+      "rsr": "Restored from tome05.docx ¶884 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      884,
+      884
+     ]
+    },
+    {
+     "new": {
+      "french": "De deux à deux heures et demie je me promène à la Promenade de notre côté, pas du côté de la mer, sans chapeau et avec Marie et Olga.",
+      "rsr": "Restored from tome05.docx ¶885 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      885,
+      885
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous admirions les jardins des petites maisons mauves, celui de Rosalie est un amour de jardin. Je m'arrête devant Gioia, comme elle n'est pas ici et que tout est fermé, je cueille des marguerites en passant le bras à travers la grille et nous les effeuillons solennellement. O fleur, pensai-je, toi qui es de son jardin, du jardin où il a passé, où il s'est promené, dis-moi une fois, pour toujours, serai-je jamais, au moins une fois et dans n'importe quelles circonstances, pour lui ce que elle lui a été. J'arrache tous les pétales de mon côté et les deux filles du leur, et une fleur m'a dit *oui*, et j'ai relevé la tête avec joie, dépit, honte et colère, mais je l'ai relevée car j'étais étrangement satisfaite.",
+      "rsr": "Restored from tome05.docx ¶886 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      886,
+      886
+     ]
+    },
+    {
+     "new": {
+      "french": "Ceci me dédommagera de tout ! Et je crache sur tout du moment qu'une pareille chose m'est promise.",
+      "rsr": "Restored from tome05.docx ¶887 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      887,
+      887
+     ]
+    },
+    {
+     "new": {
+      "french": "Je n'étais pas seule, il fallait parler, nous ramassâmes quelques cailloux sur la terrasse de Rosalie, nous prîmes quelques feuilles de chez Gioia toujours à travers la grille et retournâmes chez nous riant et bavardant.",
+      "rsr": "Restored from tome05.docx ¶888 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      888,
+      888
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous montons dans mon étude et je tiens ce discours: Mes chères, nous fondons une maçonnerie, vous savez, cette société a pour but *l'accaparation des jeunes gens*. Nous sommes pour le moment trois seulement, avec le temps chacune de nous recrutera. Toute société a eu un commencement. Nous allons composer un philtre qui sera divisé en trois parties, chacune de nous en recevra une.",
+      "rsr": "Restored from tome05.docx ¶889–891 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      889,
+      891
+     ]
+    },
+    {
+     "new": {
+      "french": "Ma proposition acceptée avec enthousiasme, nous préparons le philtre ou talisman; de l'eau de Seltz, les cailloux et les feuilles que nous avions et qui viennent de deux endroits favorables pour ce que nous voulons, et outre cela chacune de nous en se piquant le doigt avec un courage de Spartiate y versa trois gouttes de son sang. Le tout bouilli et dissous par un procédé chimique. Et maintenant, dis-je, jurons, et je vais vous dire notre devise et notre cachet. Trois grâces soutenant un ruban enguirlandé de roses sur lequel sera écrite cette devise: Audacter et amanter. Ce qui veut dire hardiment et tendrement.",
+      "rsr": "Restored from tome05.docx ¶892 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      892,
+      892
+     ]
+    },
+    {
+     "new": {
+      "french": "Le deuxième speech produisit le même effet que le premier, nous jurâmes et ayant soigneusement caché le breuvage nous descendîmes, nous arrangeâmes un peu et sortîmes.",
+      "rsr": "Restored from tome05.docx ¶893 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      893,
+      893
+     ]
+    },
+    {
+     "new": {
+      "french": "A quoi est-on réduit Mercator ! faute de mieux nous avons avisé trois blancs-becs américains qui étudient à l'école de Wash. C'est indigne !",
+      "rsr": "Restored from tome05.docx ¶894 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      894,
+      894
+     ]
+    },
+    {
+     "new": {
+      "french": "Passons à la fourchette. Le soir ayant mis de grands manteaux de conspirateurs nous sortons furtivement comme des voleuses que nous sommes comme on va voir, cachant sous ces manteaux, moi une fourchette, Marie un couteau et Olga rien du tout. Comme exprès la lune éclaire. C'est fâcheux mais n'importe.",
+      "rsr": "Restored from tome05.docx ¶895 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      895,
+      895
+     ]
+    },
+    {
+     "new": {
+      "french": "Nous passons la villa Gioia et sans avoir l'air de rien Marie donne plusieurs coups de couteau entre deux pierres rustiques qui forment la terrasse, nous repassons encore une fois et cette fois prompte comme... moi, oui comme moi, j'enfonce ma fourchette et retire avec elle mon trophée, un tout petit cactus que nous avons remarqué et résolu de voler cet après-midi encore. Un cactus grand comme une pièce de vingt sous. Mais comme nous étions fières ! On alla aussitôt au jardin et je plantai la chose volée en disant: Croissez, prospérez, je vous donnerai un nom digne de vous, avec le temps je mettrai à côté de vous un écriteau comme on fait pour les plantes rares, et j'écrirai dessus:",
+      "rsr": "Restored from tome05.docx ¶896 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      896,
+      896
+     ]
+    },
+    {
+     "new": {
+      "french": "*Planta furum*.",
+      "rsr": "Restored from tome05.docx ¶898 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      898,
+      898
+     ]
+    },
+    {
+     "new": {
+      "french": "Que je suis heureuse mon Dieu de pouvoir m'occuper de bêtises; Marie propose de lui voler, à Gioia, tous ses petits cactus, alors je vais jusqu'à proposer de la prendre elle-même et de la placer dans notre bassin. C'est vraiment heureux de pouvoir tout être.",
+      "rsr": "Restored from tome05.docx ¶899 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      899,
+      899
+     ]
+    },
+    {
+     "new": {
+      "french": "Vieille et enfant, bête et spirituelle, je hurle avec les loups... pas toujours cependant, je ne souffre pas les vilains et entre vilains ne deviens pas vilaine ou si je le deviens c'est bien malgré moi.",
+      "rsr": "Restored from tome05.docx ¶900 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_docx": [
+      900,
+      900
+     ]
+    }
+   ]
+  },
+  {
+   "file": "1875-05-10.md",
+   "date": "1875-05-10",
+   "heading": "Lundi 10 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0301",
+     "_docx": 901.5
+    },
+    {
+     "old": "032.0302",
+     "_docx": 902
+    },
+    {
+     "old": "032.0303",
+     "_docx": 903
+    },
+    {
+     "old": "032.0304",
+     "_docx": 904
+    },
+    {
+     "old": "032.0305",
+     "_docx": 905
+    },
+    {
+     "old": "032.0306",
+     "_docx": 906
+    },
+    {
+     "old": "032.0307",
+     "_docx": 907
+    },
+    {
+     "old": "032.0308",
+     "_docx": 908
+    },
+    {
+     "old": "032.0309",
+     "_docx": 909
+    },
+    {
+     "old": "032.0310",
+     "_docx": 911
+    },
+    {
+     "old": "032.0311",
+     "_docx": 912
+    },
+    {
+     "old": "032.0312",
+     "_docx": 913
+    },
+    {
+     "old": "032.0313",
+     "_docx": 914
+    },
+    {
+     "old": "032.0314",
+     "_docx": 915
+    },
+    {
+     "old": "032.0315",
+     "_docx": 916
+    },
+    {
+     "old": "032.0316",
+     "_docx": 917
+    },
+    {
+     "old": "032.0317",
+     "_docx": 918
+    },
+    {
+     "old": "032.0318",
+     "_docx": 919
+    }
+   ]
+  },
+  {
+   "file": "1875-05-11.md",
+   "date": "1875-05-11",
+   "heading": "Mardi 11 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0319",
+     "_docx": 920.5
+    },
+    {
+     "old": "032.0320",
+     "_docx": 921
+    },
+    {
+     "old": "032.0321",
+     "_docx": 922
+    },
+    {
+     "old": "032.0322",
+     "_docx": 923
+    },
+    {
+     "old": "032.0323",
+     "_docx": 924
+    }
+   ]
+  },
+  {
+   "file": "1875-05-12.md",
+   "date": "1875-05-12",
+   "heading": "Mercredi 12 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0324",
+     "_docx": 926.5
+    },
+    {
+     "old": "032.0325",
+     "_docx": 927
+    },
+    {
+     "old": "032.0326",
+     "_docx": 928
+    },
+    {
+     "old": "032.0327",
+     "_docx": 929
+    },
+    {
+     "old": "032.0328",
+     "_docx": 930
+    },
+    {
+     "old": "032.0329",
+     "_docx": 931
+    },
+    {
+     "old": "032.0330",
+     "_docx": 932
+    },
+    {
+     "old": "032.0331",
+     "_docx": 933
+    },
+    {
+     "old": "032.0332",
+     "_docx": 934
+    },
+    {
+     "old": "032.0333",
+     "_docx": 935
+    },
+    {
+     "old": "032.0334",
+     "_docx": 936
+    },
+    {
+     "old": "032.0335",
+     "_docx": 937
+    },
+    {
+     "old": "032.0336",
+     "_docx": 938
+    },
+    {
+     "old": "032.0337",
+     "_docx": 940
+    },
+    {
+     "old": "032.0338",
+     "_docx": 941
+    }
+   ]
+  },
+  {
+   "file": "1875-05-13.md",
+   "date": "1875-05-13",
+   "heading": "Jeudi 13 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0339",
+     "_docx": 942.5
+    },
+    {
+     "old": "032.0340",
+     "_docx": 943
+    },
+    {
+     "old": "032.0341",
+     "_docx": 944
+    },
+    {
+     "old": "032.0342",
+     "_docx": 945
+    },
+    {
+     "old": "032.0343",
+     "_docx": 946
+    },
+    {
+     "old": "032.0344",
+     "_docx": 947
+    },
+    {
+     "old": "032.0345",
+     "_docx": 948
+    },
+    {
+     "old": "032.0346",
+     "_docx": 949
+    },
+    {
+     "old": "032.0347",
+     "_docx": 950
+    },
+    {
+     "old": "032.0348",
+     "_docx": 951
+    },
+    {
+     "old": "032.0349",
+     "_docx": 952
+    },
+    {
+     "old": "032.0350",
+     "_docx": 953
+    },
+    {
+     "old": "032.0351",
+     "_docx": 956
+    },
+    {
+     "old": "032.0352",
+     "_docx": 957
+    },
+    {
+     "old": "032.0353",
+     "_docx": 958
+    },
+    {
+     "old": "032.0354",
+     "_docx": 959
+    },
+    {
+     "old": "032.0355",
+     "_docx": 960
+    },
+    {
+     "old": "032.0356",
+     "_docx": 961
+    },
+    {
+     "old": "032.0357",
+     "_docx": 962
+    },
+    {
+     "old": "032.0358",
+     "_docx": 963
+    },
+    {
+     "old": "032.0359",
+     "_docx": 964
+    },
+    {
+     "old": "032.0360",
+     "_docx": 965
+    },
+    {
+     "old": "032.0361",
+     "_docx": 966
+    },
+    {
+     "old": "032.0362",
+     "_docx": 967
+    },
+    {
+     "old": "032.0363",
+     "_docx": 970
+    },
+    {
+     "old": "032.0364",
+     "_docx": 971
+    },
+    {
+     "old": "032.0365",
+     "_docx": 972
+    },
+    {
+     "old": "032.0366",
+     "_docx": 973
+    },
+    {
+     "old": "032.0367",
+     "_docx": 974
+    },
+    {
+     "old": "032.0368",
+     "_docx": 975
+    },
+    {
+     "old": "032.0369",
+     "_docx": 976
+    }
+   ]
+  },
+  {
+   "file": "1875-05-14.md",
+   "date": "1875-05-14",
+   "heading": "Vendredi 14 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0370",
+     "_docx": 977.5
+    },
+    {
+     "old": "032.0371",
+     "_docx": 978,
+     "kind": "editorial",
+     "_kind_guess_reason": "bracketed editors' note about the manuscript (no text by Marie)"
+    },
+    {
+     "old": "032.0372",
+     "_docx": 979
+    },
+    {
+     "old": "032.0373",
+     "_docx": 980
+    },
+    {
+     "old": "032.0374",
+     "_docx": 981
+    },
+    {
+     "old": "032.0375",
+     "_docx": 982
+    },
+    {
+     "old": "032.0376",
+     "_docx": 983
+    },
+    {
+     "old": "032.0377",
+     "_docx": 984
+    },
+    {
+     "old": "032.0378",
+     "_docx": 985
+    },
+    {
+     "old": "032.0379",
+     "_docx": 988
+    },
+    {
+     "old": "032.0380",
+     "_docx": 989
+    },
+    {
+     "old": "032.0381",
+     "_docx": 990
+    },
+    {
+     "old": "032.0382",
+     "_docx": 991
+    },
+    {
+     "old": "032.0383",
+     "_docx": 992
+    },
+    {
+     "old": "032.0384",
+     "_docx": 993
+    }
+   ]
+  },
+  {
+   "file": "1875-05-15.md",
+   "date": "1875-05-15",
+   "heading": "Samedi 15 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0385",
+     "_docx": 994.5
+    },
+    {
+     "old": "032.0386",
+     "_docx": 995
+    },
+    {
+     "old": "032.0387",
+     "_docx": 996
+    },
+    {
+     "old": "032.0388",
+     "_docx": 997
+    },
+    {
+     "old": "032.0389",
+     "_docx": 998
+    },
+    {
+     "old": "032.0390",
+     "_docx": 999
+    },
+    {
+     "old": "032.0391",
+     "_docx": 1000
+    },
+    {
+     "old": "032.0392",
+     "_docx": 1001
+    },
+    {
+     "old": "032.0393",
+     "_docx": 1002
+    },
+    {
+     "old": "032.0394",
+     "_docx": 1003
+    },
+    {
+     "old": "032.0395",
+     "_docx": 1004
+    },
+    {
+     "old": "032.0396",
+     "_docx": 1005
+    },
+    {
+     "old": "032.0397",
+     "_docx": 1007
+    },
+    {
+     "old": "032.0398",
+     "_docx": 1008
+    },
+    {
+     "old": "032.0399",
+     "_docx": 1009
+    },
+    {
+     "old": "032.0400",
+     "_docx": 1010
+    },
+    {
+     "old": "032.0401",
+     "_docx": 1011
+    },
+    {
+     "old": "032.0402",
+     "_docx": 1012
+    },
+    {
+     "old": "032.0403",
+     "_docx": 1013
+    },
+    {
+     "old": "032.0404",
+     "_docx": 1014
+    },
+    {
+     "old": "032.0405",
+     "_docx": 1015
+    },
+    {
+     "old": "032.0406",
+     "_docx": 1016
+    },
+    {
+     "old": "032.0407",
+     "_docx": 1017
+    },
+    {
+     "old": "032.0408",
+     "_docx": 1018
+    },
+    {
+     "old": "032.0409",
+     "_docx": 1019
+    },
+    {
+     "old": "032.0410",
+     "_docx": 1020
+    },
+    {
+     "old": "032.0411",
+     "_docx": 1021
+    },
+    {
+     "old": "032.0412",
+     "_docx": 1022
+    },
+    {
+     "old": "032.0413",
+     "_docx": 1023
+    },
+    {
+     "old": "032.0414",
+     "_docx": 1024
+    },
+    {
+     "old": "032.0415",
+     "_docx": 1025
+    },
+    {
+     "old": "032.0416",
+     "_docx": 1026
+    },
+    {
+     "old": "032.0417",
+     "_docx": 1029
+    },
+    {
+     "old": "032.0418",
+     "_docx": 1030
+    },
+    {
+     "old": "032.0419",
+     "_docx": 1031
+    },
+    {
+     "old": "032.0420",
+     "_docx": 1032
+    },
+    {
+     "old": "032.0421",
+     "_docx": 1033
+    },
+    {
+     "old": "032.0422",
+     "_docx": 1034
+    },
+    {
+     "old": "032.0423",
+     "_docx": 1035
+    },
+    {
+     "old": "032.0424",
+     "_docx": 1036
+    },
+    {
+     "old": "032.0425",
+     "_docx": 1037
+    },
+    {
+     "old": "032.0426",
+     "_docx": 1038
+    },
+    {
+     "old": "032.0427",
+     "_docx": 1039
+    },
+    {
+     "old": "032.0428",
+     "_docx": 1040
+    },
+    {
+     "old": "032.0429",
+     "_docx": 1041
+    },
+    {
+     "old": "032.0430",
+     "_docx": 1042
+    },
+    {
+     "old": "032.0431",
+     "_docx": 1043
+    },
+    {
+     "old": "032.0432",
+     "_docx": 1044
+    },
+    {
+     "old": "032.0433",
+     "_docx": 1045
+    },
+    {
+     "old": "032.0434",
+     "_docx": 1046
+    },
+    {
+     "old": "032.0435",
+     "_docx": 1047
+    },
+    {
+     "old": "032.0436",
+     "_docx": 1048
+    },
+    {
+     "old": "032.0437",
+     "_docx": 1049
+    },
+    {
+     "old": "032.0438",
+     "_docx": 1050
+    },
+    {
+     "old": "032.0439",
+     "_docx": 1051
+    },
+    {
+     "old": "032.0440",
+     "_docx": 1052
+    },
+    {
+     "old": "032.0441",
+     "_docx": 1053
+    },
+    {
+     "old": "032.0442",
+     "_docx": 1055
+    },
+    {
+     "old": "032.0443",
+     "_docx": 1056
+    },
+    {
+     "old": "032.0444",
+     "_docx": 1057
+    },
+    {
+     "old": "032.0445",
+     "_docx": 1058
+    },
+    {
+     "old": "032.0446",
+     "_docx": 1059
+    },
+    {
+     "old": "032.0447",
+     "_docx": 1060
+    },
+    {
+     "old": "032.0448",
+     "_docx": 1061
+    },
+    {
+     "old": "032.0449",
+     "_docx": 1062
+    },
+    {
+     "old": "032.0450",
+     "_docx": 1063
+    },
+    {
+     "old": "032.0451",
+     "_docx": 1064
+    },
+    {
+     "old": "032.0452",
+     "_docx": 1065
+    },
+    {
+     "old": "032.0453",
+     "_docx": 1066
+    },
+    {
+     "old": "032.0454",
+     "_docx": 1067
+    },
+    {
+     "old": "032.0455",
+     "_docx": 1068
+    },
+    {
+     "old": "032.0456",
+     "_docx": 1069
+    },
+    {
+     "old": "032.0457",
+     "_docx": 1070
+    },
+    {
+     "old": "032.0458",
+     "_docx": 1073
+    },
+    {
+     "old": "032.0459",
+     "_docx": 1074
+    },
+    {
+     "old": "032.0460",
+     "_docx": 1075
+    }
+   ]
+  },
+  {
+   "file": "1875-05-16.md",
+   "date": "1875-05-16",
+   "heading": "Dimanche 16 mai 1875",
+   "paragraphs": [
+    {
+     "old": "032.0461",
+     "_docx": 1076.5
+    },
+    {
+     "old": "032.0463",
+     "_docx": 1077
+    },
+    {
+     "old": "032.0464",
+     "_docx": 1078
+    },
+    {
+     "old": "032.0465",
+     "_docx": 1079
+    },
+    {
+     "old": "032.0466",
+     "_docx": 1080
+    },
+    {
+     "old": "032.0467",
+     "_docx": 1081
+    },
+    {
+     "old": "032.0468",
+     "_docx": 1082
+    },
+    {
+     "old": "032.0469",
+     "_docx": 1083
+    },
+    {
+     "old": "032.0470",
+     "_docx": 1084
+    },
+    {
+     "old": "032.0471",
+     "_docx": 1085
+    },
+    {
+     "old": "032.0472",
+     "_docx": 1087
+    }
+   ]
+  }
+ ],
+ "_reviewed": "planner-tome05, 2026-09-29: draft reviewed; see REVIEW.md"
+}
