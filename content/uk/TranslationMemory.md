@@ -132,7 +132,7 @@ Established terminology for consistent translation across carnets.
 | Gagarine | Гагарін | Prince, Nice society |
 | Baron Bach | барон Бах | Russian, potential match for Dina |
 | Baron Merck | барон Мерк | Nice society |
-| Wittgenstein | Віттґенштайн | Princess, Duke's circle |
+| Wittgenstein | Вітґенштайн | Princess, Duke's circle — locked 2026-09-29 wave-uk for ALL Wittgensteins (NOT Віттґенштайн / Вітгенштейн) |
 | Vicomtesse Vigier | віконтеса Віж'є | Former opera singer Sophie Cruvelli |
 
 ## Idioms & Expressions
