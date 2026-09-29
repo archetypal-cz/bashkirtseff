@@ -2251,21 +2251,21 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Soutzo (= Casimir/Bézadé/Alexandre) | Соутцо (Казимир / Безаде / Александр) | Phanariot/Romanian princely suitor. Locked spelling «Соутцо» (134× consistent in 088); no prior lock — letter-by-letter, kept for internal consistency. «Bézadé/Bezadea» (son of a reigning prince) → «Безаде», kept as title-name. «Casimir» = Marie's pet name → «Казимир». |
-| Paul Bashkirtseff (father, Poltava) | Поль Башкирцев | TRAP: 088.0465 "A M. Paul Bashkirseff, Poltava" = Marie's FATHER, NOT Paul de Cassagnac. Source spells surname «Bashkirseff» (Latin, as written); UK = «Башкирцев». |
+| Paul Bashkirtseff (father, Poltava) | Поль Башкирцев | TRAP: 088.0468 "A M. Paul Bashkirseff, Poltava" = Marie's FATHER, NOT Paul de Cassagnac. Source spells surname «Bashkirseff» (Latin, as written); UK = «Башкирцев». |
 | le Défunt / mon frère (= Cassagnac) | Покійний / мій брат | TRAP: dead-relationship conceit for the (living) Cassagnac, NOT real mourning. He appears alive in Le Gaulois & 06-18 same period. «мій брат» = Baudelaire-echo spiritual-kin sense, not blood. |
 | Mgr. Viard | монсеньйор Віар | CON fix: "Mgr."=Monseigneur (Catholic prelate). «преподобний» is Orthodox-monastic (wrong register) — use «монсеньйор» for fr. Monseigneur. |
 | Breslau | Брезло | (locked per Julian-arc memory). |
 | Bisailleul (Anitchkoff's pun on Bailleul) | Бідайєль | pun preserved (Bailleul→Бідайєль). |
 | Chose et Machin (pups) | Цяця і Цьотця | rhymed playful pair for "Thing & Whatsit"; TR-noted. |
-| impératrice Maria Alexandrovna | імператриця Марія Олександрівна | d. 22 May 1880; Russian colony in mourning (088.0648). |
+| impératrice Maria Alexandrovna | імператриця Марія Олександрівна | d. 22 May 1880; Russian colony in mourning (088.0651). |
 
 ### Idiom / wordplay handled (Carnet 088)
-- "femmelle" (088.0239): Marie's coinage (femelle×femme) → «бабська» — self-contempt at her own jealousy as female weakness; TR-noted.
-- "parle nègre" (088.0551): period fr. idiom for simplified/broken speech → rendered NEUTRALLY («говорить ламаною мовою»), no racial calque. TRAP.
-- "Sur quel pied est-il reçu?" (088.0159): «На якій нозі його приймають?» — confirmed; UK has native «на дружній/короткій нозі», so «нога» = social-footing sense is idiomatic.
-- "une femme entretenue" (088.0783): kept provocative double-sense («утриманка» = both kept wife and kept mistress); TR-noted.
-- "0 colère, ô rage" (088.0067): Corneille (Le Cid) echo → elevated register.
-- "mon semblable, mon égal, mon... frère" (088.0685): Baudelaire echo preserved.
+- "femmelle" (088.0240): Marie's coinage (femelle×femme) → «бабська» — self-contempt at her own jealousy as female weakness; TR-noted.
+- "parle nègre" (088.0554): period fr. idiom for simplified/broken speech → rendered NEUTRALLY («говорить ламаною мовою»), no racial calque. TRAP.
+- "Sur quel pied est-il reçu?" (088.0160): «На якій нозі його приймають?» — confirmed; UK has native «на дружній/короткій нозі», so «нога» = social-footing sense is idiomatic.
+- "une femme entretenue" (088.0786): kept provocative double-sense («утриманка» = both kept wife and kept mistress); TR-noted.
+- "0 colère, ô rage" (088.0068): Corneille (Le Cid) echo → elevated register.
+- "mon semblable, mon égal, mon... frère" (088.0688): Baudelaire echo preserved.
 
 ### Review note
 - 2026-06-13: Carnet 088 CON complete, ~0.94, all 57 conductor_approved. RED 0.95. CON fixes: «преподобний Віар»→«монсеньйор Віар» (1×). Confirmed RED judgment-calls (Soutzo spelling, 0159 «на нозі», 0067 «Святе ім'я»). All TRAPs held (Paul=father, Défunt=Cassagnac-conceit, parle-nègre neutral). verify-carnet PASS. (con-088)
