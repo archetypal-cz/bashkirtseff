@@ -291,7 +291,7 @@ Established terminology for consistent translation across carnets.
 | vicomte de Biesme | віконт де Б'єм | Admired stranger at Spa |
 | prince Wittgenstein | принц Вітґенштайн | Marie's romantic obsession; "Blackprince" |
 | princesse Marguerite | принцеса Марґеріт | Royalty at Spa |
-| comtesse Merjeewsky | графиня Мержеєвська | Polish countess with unfaithful husband |
+| comtesse Merjeewsky | графиня Мержевська | Polish countess with unfaithful husband |
 | Filipesco | Філіпеско | Romanian millionaire at Spa |
 | Gambart | Ґамбар | Spa host who insults Marie |
 
@@ -410,6 +410,7 @@ Established terminology for consistent translation across carnets.
 | Arsenieff | Арсенієв | Russian acquaintance; predicts English husband and Scottish castle |
 | Lambertye | Ламбертьє | French nobleman, early admirer (established 018) |
 | Woerman | Верман | acquaintance in Marie's circle (German name Woermann); locked 2026-09-29 wave-uk (was split Воерман 013–029 / Верман 016–045) |
+| Jaxa | Якса | acc. Яксу; locked 2026-09-29 wave-uk (NOT Якс) |
 | Magarnoff | Маґарнов/Маґарнова | Russian family; Mlle Magarnoff = sister of the fiddler |
 | princesse Souvoroff | княгиня Суворова | Russian aristocrat; friendly with mother |
 | Carlo Hamilton | Карло Гамільтон | Hamilton's relative; distinct from the Duke |
@@ -489,7 +490,7 @@ Established terminology for consistent translation across carnets.
 |--------|-----------|-------|
 | les eaux | води | Spa waters/resort; "aux eaux" = at the spa |
 | la source | джерело | Mineral spring |
-| Pouhon | П'юон | Spa's main mineral spring building — transliterate |
+| Pouhon | Пуон | Spa's main mineral spring building — transliterate (tree form; NOT П'юон) |
 | peintures de Spa | спаські розписні вироби | Decorated wooden souvenirs, famous local craft |
 | bataclan (Marie's neologism) | батаклан | Marie's invented word for her social group/entourage — transliterate to Ukrainian, keep flavor |
 | directeur du Casino | директор казино | Casino manager, locally important |
