@@ -592,7 +592,7 @@ They need AI translation into French.
 - **021/1874-07-22.md** para 021.0476 [RUSSIAN]: %% 2026-01-30T13:11:38 LAN: RUSSIAN "Douchenka" - little soul/darling; Gericke uses Marie's Russian nickname %%
 - **021/1874-07-22.md** para 021.0493 [RUSSIAN]: %% 2026-01-30T13:11:44 LAN: RUSSIAN "moujik" - peasant; mother's contemptuous comparison %%
 - **021/1874-07-23.md** para 021.0559 [ENGLISH]: %% 2026-01-30T13:12:10 LAN: ENGLISH "However" - code-switch to English for transition/emphasis %%
-- **021/1874-07-23.md** para 021.DROPPED-0517 [ENGLISH]: %% 2026-01-30T13:12:13 LAN: ENGLISH "H.G.t.D.o.H." - His Grace the Duke of Hamilton; Marie's secret code %%
+- **021/1874-07-23.md** para withdrawn in the 2026-09 rebuild (old carnet 021 ¶0517; see content/_renumber/021-2026-09-28.json) [ENGLISH]: %% 2026-01-30T13:12:13 LAN: ENGLISH "H.G.t.D.o.H." - His Grace the Duke of Hamilton; Marie's secret code %%
 - **022/1874-07-26.md** para 022.0111 [ENGLISH]: %% 2026-01-30T13:12:41 LAN: ENGLISH "That is the question" - Shakespeare's Hamlet; literary code-switch %%
 - **022/1874-07-26.md** para 022.0111 [ITALIAN]: %% 2026-01-30T13:12:42 LAN: ITALIAN "crescendo" - musical term; growing, increasing intensity %%
 - **022/1874-07-27.md** para 022.0164 [ITALIAN]: %% 2026-01-30T13:12:54 LAN: ITALIAN "illustrissima marchesa duchessa" - most illustrious marchioness duchess; mock formality %%
@@ -745,7 +745,7 @@ They need AI translation into French.
 - **028/1875-01-14.md** para 028.0115 [ENGLISH]: %% 2026-01-30T15:03:37 LAN: ENGLISH: "skunks" - skunk fur trim (Marie uses English word) %%
 - **028/1875-01-18.md** para 028.0143 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "Beati, chi amano il te!" - Blessed are those who love tea! (mock-Italian, playful) %%
 - **028/1875-01-20.md** para 028.0163 [ENGLISH]: %% 2026-01-30T15:10:00 LAN: ENGLISH: "Blackprince" - likely a nickname (code name for someone?) %%
-- **029/1875-01-21.md** para 029.DROPPED-0002 [ENGLISH]: %% 2026-01-30T15:10:00 LAN: ENGLISH abbreviation: "H.G.t.D.o.H." = His Grace the Duke of Hamilton %%
+- **029/1875-01-21.md** para withdrawn in the 2026-09 rebuild (old carnet 029 ¶0002; see content/_renumber/029-2026-09-28.json) [ENGLISH]: %% 2026-01-30T15:10:00 LAN: ENGLISH abbreviation: "H.G.t.D.o.H." = His Grace the Duke of Hamilton %%
 - **029/1875-01-24.md** para 029.0023 [ENGLISH]: %% 2026-01-30T15:10:00 LAN: ENGLISH: "plobster" - likely Marie's approximation of "lobster" (British slang for soldier/gentleman) %%
 - **029/1875-01-24.md** para 029.0034 [ENGLISH]: %% 2026-01-30T15:10:00 LAN: ENGLISH: "steeple-chase" - steeplechase, horse race with obstacles %%
 - **029/1875-01-26.md** para 029.0049 [ITALIAN]: %% 2026-01-30T15:10:00 LAN: ITALIAN: "Gioia" - Joy (name); also Italian word for joy/delight %%
@@ -878,7 +878,7 @@ They need AI translation into French.
 - **033/1875-06-04.md** para 033.0511 [ENGLISH]: %% 2026-01-30T16:50:00 LAN: ENGLISH: "That is the question" - Shakespeare's Hamlet reference, Marie's code-switching %%
 - **033/1875-06-04.md** para 033.0511 [RUSSIAN]: %% 2026-01-30T16:50:00 LAN: RUSSIAN: "petchouna" (печенька) - Russian diminutive term of endearment, "little cookie/sweetheart" %%
 - **033/1875-06-04.md** para 033.0511 [ITALIAN]: %% 2026-01-30T16:50:00 LAN: ITALIAN: "mio bella petchouna" - incorrect Italian (should be "mia bella"), mixing Italian with Russian endearment %%
-- **033/1875-06-06.md** para 033.DROPPED-0507 [ENGLISH]: %% 2026-01-30T16:50:00 LAN: ENGLISH: "H[is] G[race] t[he] D[uc] o[f] Hamilton" - English title abbreviation, Marie's private code for the Duke %%
+- **033/1875-06-06.md** para withdrawn in the 2026-09 rebuild (old carnet 033 ¶0507; see content/_renumber/033-2026-09-29.json) [ENGLISH]: %% 2026-01-30T16:50:00 LAN: ENGLISH: "H[is] G[race] t[he] D[uc] o[f] Hamilton" - English title abbreviation, Marie's private code for the Duke %%
 - **034/1875-06-07.md** para 034.0004 [ENGLISH]: %% 2026-01-30T16:50:00 LAN: "break" - ENGLISH: open carriage with facing seats (popular 1870s vehicle) %%
 - **034/1875-06-07.md** para 034.0009 [ITALIAN]: %% 2026-01-30T16:50:00 LAN: ITALIAN: "Se non è vero è bene trovato" - proverb: "If it's not true, it's a good story" / well invented %%
 - **034/1875-06-07.md** para 034.0020 [ITALIAN]: %% 2026-01-30T16:50:00 LAN: ITALIAN: "Dormi pure" - aria from opera, meaning "Sleep peacefully" %%
@@ -897,11 +897,11 @@ They need AI translation into French.
 - **034/1875-06-19.md** para 034.0471 [LATIN]: %% 2026-01-30T17:00:00 LAN: LATIN "Deo juvante" - "with God's help"; Marie writes "Dco" (likely transcription error for Deo) %%
 - **034/1875-06-25.md** para 034.0618 [LATIN]: %% 2026-01-30T17:00:00 LAN: LATIN "confiteor" - "I confess" (Catholic confession prayer), triple repetition for emphasis %%
 - **034/1875-06-25.md** para 034.0622 [LATIN]: %% 2026-01-30T17:00:00 LAN: LATIN "Miserere" - "Have mercy" (Psalm 51), expression of despair %%
-- **034/1875-06-25.md** para 034.DROPPED-0447 [ENGLISH]: %% 2026-01-30T17:00:00 LAN: ENGLISH abbreviation "H.G. the D. of H." - His Grace the Duke of Hamilton; Marie's obsessive code %%
+- **034/1875-06-25.md** para withdrawn in the 2026-09 rebuild (old carnet 034 ¶0447; see content/_renumber/034-2026-09-29.json) [ENGLISH]: %% 2026-01-30T17:00:00 LAN: ENGLISH abbreviation "H.G. the D. of H." - His Grace the Duke of Hamilton; Marie's obsessive code %%
 - **035/1875-07-01.md** para 035.0085 [ITALIAN]: %% 2026-01-30T17:00:00 LAN: ITALIAN "jettatore" - one who casts the evil eye, bringer of bad luck %%
 - **035/1875-07-01.md** para 035.0108 [RUSSIAN]: %% 2026-01-30T17:00:00 LAN: RUSSIAN "douraque" (durak) - fool, idiot; Marie's code-switching for comic rhyme %%
 - **035/1875-07-08.md** para 035.0303 [ENGLISH]: %% 2026-01-30T17:00:00 LAN: ENGLISH "frightful spirits" - terrible mood; Marie's characteristic English for emotional states %%
-- **035/1875-07-08.md** para 035.DROPPED-0093 [ENGLISH]: %% 2026-01-30T17:00:00 LAN: ENGLISH abbreviation "H.G. the D. of H." - His Grace the Duke of Hamilton; Marie's obsessive code %%
+- **035/1875-07-08.md** para withdrawn in the 2026-09 rebuild (old carnet 035 ¶0093; see content/_renumber/035-2026-09-29.json) [ENGLISH]: %% 2026-01-30T17:00:00 LAN: ENGLISH abbreviation "H.G. the D. of H." - His Grace the Duke of Hamilton; Marie's obsessive code %%
 - **036/1875-07-10.md** para 036.0026 [ENGLISH]: %% 2026-02-10T15:20:00 LAN: ENGLISH CODE-SWITCH: "if Audiffret cares for me only as much as 1 care for him" — Marie switches to English for emotional distancing. "1" is likely a transcription error for "I" %%
 - **036/1875-07-12.md** para 036.0141 [ENGLISH]: %% 2026-02-10T15:40:00 LAN: ENGLISH CODE-SWITCH: "what is the matter?" — Marie switches to English, possibly imitating Audiffret's English affectation or for comic effect %%
 - **037/1875-07-15.md** para 037.0005 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN quotation from Phaedrus (Fabulae V): "Quem spes delusit, huic querela convenit" = "He whom hope has deceived has reason to complain." Marie garbles the Latin ("Qucm" for "Quem", "dclusit" for "delusit") -- she is quoting from memory. Preserve the garbled Latin as-is; add footnote with correct form and translation. %%
@@ -939,7 +939,7 @@ They need AI translation into French.
 - **039/1875-08-25.md** para 039.0275 [ENGLISH]: %% 2026-01-30T17:20:00 LAN: ENGLISH: "pleasantly enough" - code-switch to English for social evaluation %%
 - **039/1875-08-25.md** para 039.0275 [ENGLISH]: %% 2026-01-30T17:20:00 LAN: ENGLISH: "deliciously" - English for emphatic pleasure %%
 - **039/1875-08-26.md** para 039.0298 [RUSSIAN]: %% 2026-01-30T17:30:00 LAN: RUSSIAN: "Obeziana" - from Russian обезьяна (monkey), Marie's derogatory nickname for someone %%
-- **040/1875-08-27-28.md** para 040.DROPPED-0002 [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "H[is] G[race] t[he] D[uke] o[f] Hamilton" - coded abbreviation using English aristocratic title %%
+- **040/1875-08-27-28.md** para withdrawn in the 2026-09 rebuild (old carnet 040 ¶0002; see content/_renumber/040-2026-09-29.json) [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "H[is] G[race] t[he] D[uke] o[f] Hamilton" - coded abbreviation using English aristocratic title %%
 - **040/1875-08-27-28.md** para 040.0022 [RUSSIAN]: %% 2026-01-30T17:30:00 LAN: RUSSIAN: "Diadia" - дядя (uncle), Russian term of address for family %%
 - **040/1875-08-27-28.md** para 040.0038 [RUSSIAN]: %% 2026-01-30T17:30:00 LAN: RUSSIAN PROVERB: "Ni spirituel, ni riche, ni beau" - Marie translates/explains Russian saying about fortune over qualities %%
 - **040/1875-08-27-28.md** para 040.0040 [RUSSIAN]: %% 2026-01-30T17:30:00 LAN: RUSSIAN: "Soukhanova" - feminine form of surname (Russian gender agreement) %%
@@ -949,8 +949,8 @@ They need AI translation into French.
 - **040/1875-08-27-28.md** para 040.0140 [ITALIAN]: %% 2026-01-30T17:30:00 LAN: ITALIAN: "mi vendicar" - (I will) avenge myself; from Verdi's Il Trovatore, Azucena's aria %%
 - **040/1875-08-30.md** para 040.0180 [ITALIAN]: %% 2026-01-30T17:30:00 LAN: ITALIAN: "questa cara Gioia di Schlangenbad" - this dear Joy of Schlangenbad; punning on person named Gioia and Italian word for joy %%
 - **040/1875-08-30.md** para 040.0181 [LATIN]: %% 2026-01-30T17:30:00 LAN: LATIN: "homo celeber" - famous man, illustrious person (mock-classical, ironic) %%
-- **040/1875-09-01.md** para 040.DROPPED-0228 [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "H[is] G[race] t[he] D[uke] o[f] Hamilton" - coded abbreviation of English aristocratic title %%
-- **042/1875-09-08.md** para 042.DROPPED-0002 [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "H[is] G[race] t[he] D[uke] o[f] Hamilton" - coded abbreviation of English aristocratic title %%
+- **040/1875-09-01.md** para withdrawn in the 2026-09 rebuild (old carnet 040 ¶0228; see content/_renumber/040-2026-09-29.json) [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "H[is] G[race] t[he] D[uke] o[f] Hamilton" - coded abbreviation of English aristocratic title %%
+- **042/1875-09-08.md** para withdrawn in the 2026-09 rebuild (old carnet 042 ¶0002; see content/_renumber/042-2026-09-29.json) [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "H[is] G[race] t[he] D[uke] o[f] Hamilton" - coded abbreviation of English aristocratic title %%
 - **043/1875-09-10.md** para 043.0003 [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "home" - Marie notes English word has no French equivalent (maison = house, not home) %%
 - **043/1875-09-10.md** para 043.0003 [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "comfortable" - Marie uses English spelling (not French confortable) %%
 - **043/1875-09-10.md** para 043.0005 [ENGLISH]: %% 2026-01-30T17:30:00 LAN: ENGLISH: "Aunt Sally" - English fairground game (throwing at wooden head) %%
@@ -978,7 +978,7 @@ They need AI translation into French.
 - **043/1875-09-16.md** para 043.0227 [ITALIAN]: %% 2026-01-30T17:40:00 LAN: ITALIAN QUOTATION: "lauza leggierci a pusta molto, che di [illisible] maculato era coperta" - attempted Dante quote (corrupted); likely from Divine Comedy %%
 - **043/1875-09-17.md** para 043.0238 [ITALIAN]: %% 2026-01-30T17:40:00 LAN: ITALIAN QUOTATION: "Poi ripasato un poco il corpo lasso" - Then having rested somewhat my weary body; from Dante's Inferno Canto I %%
 - **043/1875-09-17.md** para 043.0239 [ITALIAN]: %% 2026-01-30T17:40:00 LAN: ITALIAN QUOTATION: "Ripresi via per la piagga dierta" - I resumed my way along the desert slope; Dante Inferno I.29 (slight spelling errors) %%
-- **043/1875-09-21.md** para 043.DROPPED-0422 [ENGLISH]: %% 2026-01-30T18:01:19 LAN: ENGLISH: "H[is] G[race] t[he] D[uke] o[f] H[amilton]" - abbreviated English title, Marie's private code for the Duke %%
+- **043/1875-09-21.md** para withdrawn in the 2026-09 rebuild (old carnet 043 ¶0422; see content/_renumber/043-2026-09-29.json) [ENGLISH]: %% 2026-01-30T18:01:19 LAN: ENGLISH: "H[is] G[race] t[he] D[uke] o[f] H[amilton]" - abbreviated English title, Marie's private code for the Duke %%
 - **044/1875-09-24.md** para 044.0150 [RUSSIAN]: %% 2026-01-30T18:04:01 LAN: RUSSIAN PROVERB: "On ne cache pas une lame dans un sac" - You can't hide an awl in a sack (Russian: shila v meshke ne utaish); truth will out %%
 - **044/1875-09-24.md** para 044.0163 [ENGLISH]: %% 2026-01-30T18:04:06 LAN: ENGLISH: "If at first you don't the succed, try, try, try again" - English proverb with SPELLING ERROR "succed" for "succeed" %%
 - **044/1875-09-24.md** para 044.0172 [ITALIAN]: %% 2026-01-30T18:04:12 LAN: ITALIAN: "Mi confido in Dio" - I trust in God %%
@@ -1017,7 +1017,7 @@ They need AI translation into French.
 - **049/1875-11-13.md** para 049.0364 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "signor" - mister, sir %%
 - **049/1875-11-15.md** para 049.0438 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: "prima donna" - ITALIAN: lead female opera singer %%
 - **049/1875-11-15.md** para 049.0452 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "Nescio" - I don't know %%
-- **050/1875-11-18.md** para 050.DROPPED-0003 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH acronym - "H[is] G[race] t[he] D[uke] o[f] Hamilton" - Marie's coded reference to the Duke, using English title %%
+- **050/1875-11-18.md** para withdrawn in the 2026-09 rebuild (old carnet 050 ¶0003; see content/_renumber/050-2026-09-28.json) [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH acronym - "H[is] G[race] t[he] D[uke] o[f] Hamilton" - Marie's coded reference to the Duke, using English title %%
 - **050/1875-11-25.md** para 050.0203 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH "roastbeef" - Marie uses English word for this British dish %%
 - **050/1875-11-28.md** para 050.0256 [CODE-SWITCH]: %% 2026-02-02T12:05:00 LAN: CODE-SWITCHING: "parler...italien" - Audiffret speaks Italian to stepmother (her native language) %%
 - **050/1875-12-01.md** para 050.0358 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "nec plus" - and nothing more, no further contact %%
@@ -1176,8 +1176,8 @@ They need AI translation into French.
 - **055/1876-03-26.md** para 055.1200 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Basta!" - Enough! (Italian exclamation) %%
 - **055/1876-03-26.md** para 055.1208 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Pax vobis" - Peace be with you (papal blessing) %%
 - **055/1876-03-27.md** para 055.1220 [CODE-SWITCH]: %% 2026-02-02T12:10:00 LAN: CODE-SWITCHING: "nous parlons anglais" - Marie switches to English for privacy from Pietro %%
-- **055/1876-03-27.md** para 055.DROPPED-1175 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's self-description) %%
-- **055/1876-03-27.md** para 055.DROPPED-1176 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH abbreviation: His Grace the Duke of Hamilton - coded reference %%
+- **055/1876-03-27.md** para withdrawn in the 2026-09 rebuild (old carnet 055 ¶1175; see content/_renumber/055-2026-09-28.json) [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's self-description) %%
+- **055/1876-03-27.md** para withdrawn in the 2026-09 rebuild (old carnet 055 ¶1176; see content/_renumber/055-2026-09-28.json) [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH abbreviation: His Grace the Duke of Hamilton - coded reference %%
 - **055/1876-03-27.md** para 056.0006 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "contessina" - little countess (teasing diminutive) %%
 - **055/1876-03-27.md** para 056.0014 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "trattoria" - simple Italian restaurant/eating house %%
 - **056/1876-03-28.md** para 056.0083 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Via!" - Italian exclamation "Come on!/Away!" - Marie code-switches %%
@@ -1222,7 +1222,7 @@ They need AI translation into French.
 - **060/1876-05-15.md** para 060.0255 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "com'è carina!" - "how pretty she is!"; overheard compliment %%
 - **060/1876-05-19.md** para 060.0636 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Mercurio" - Mercury, the messenger god; i.e., go-between in romantic affairs %%
 - **060/1876-05-19.md** para 060.0885 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Occhi neri" - "Black eyes"; affectionate address %%
-- **060/1876-05-20.md** para 060.DROPPED-0884 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "*Gloriae cupiditate*" - desire for glory/ambition (classical Latin phrase, shows Marie's education) %%
+- **060/1876-05-20.md** para withdrawn in the 2026-09 rebuild (old carnet 060 ¶0884; see content/_renumber/060-2026-09-29.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "*Gloriae cupiditate*" - desire for glory/ambition (classical Latin phrase, shows Marie's education) %%
 - **062/1876-06-02.md** para 062.0129 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Orlando" - Ariosto's Orlando Furioso, Italian Renaissance epic poem %%
 - **062/1876-06-02.md** para 062.0134 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Vaticinio" - from Latin vaticinium (prophecy); Marie displays classical learning %%
 - **062/1876-06-04.md** para 062.0172 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Habeas...?" - truncated Latin phrase from papal verification ritual legend %%
@@ -1240,13 +1240,13 @@ They need AI translation into French.
 - **062/1876-06-30.md** para 062.0786 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? %%
 - **062/1876-06-30.md** para 062.0786 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Deo juvante" - With God's help %%
 - **062/1876-07-03.md** para 062.0832 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Amor decrescit ubique crescere non possit" - Love diminishes where it cannot grow; classical maxim %%
-- **062/1876-07-03.md** para 062.DROPPED-0736 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "*Gloriae cupiditate*" - with desire for glory; carnet's closing motto %%
+- **062/1876-07-03.md** para withdrawn in the 2026-09 rebuild (old carnet 062 ¶0736; see content/_renumber/062-2026-09-29.json) [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "*Gloriae cupiditate*" - with desire for glory; carnet's closing motto %%
 - **063/1876-07-04-05.md** para 063.0013 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Monsignor" - ITALIAN: honorary title for Catholic prelates, used in French without translation %%
 - **063/1876-07-04-05.md** para 063.0013 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN follows - "cantiques en latin" - religious hymns in Latin as spoken in Catholic liturgy %%
 - **063/1876-07-12.md** para 063.0165 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Caccia-Club" - ITALIAN: hunting club; exclusive Roman gentlemen's social club %%
 - **063/1876-07-18.md** para 063.0530 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "papabile" - popable, eligible for papacy; cardinal considered likely papal candidate %%
-- **063/1876-07-19.md** para 063.DROPPED-0500 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Gloriae cupiditate" - desire for glory; classical phrase %%
-- **063/1876-07-19.md** para 063.DROPPED-0500 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "His Grace the Duke of Hamilton" - abbreviated; first mention of future obsession %%
+- **063/1876-07-19.md** para withdrawn in the 2026-09 rebuild (old carnet 063 ¶0500; see content/_renumber/063-2026-09-29.json) [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Gloriae cupiditate" - desire for glory; classical phrase %%
+- **063/1876-07-19.md** para withdrawn in the 2026-09 rebuild (old carnet 063 ¶0500; see content/_renumber/063-2026-09-29.json) [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "His Grace the Duke of Hamilton" - abbreviated; first mention of future obsession %%
 - **064/1876-07-25.md** para 064.0193 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN follows - "O stella argentea" Neapolitan song title meaning "O silver star" %%
 - **064/1876-07-26-27.md** para 064.0271 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH follows - "flirtation" used in French, borrowed from English %%
 - **064/1876-07-29.md** para 064.0307 [RUSSIAN]: %% 2025-07-19T23:55:00 RSR: PRUSSIAN EXCURSIONS: Russian embassy visit for Julie Benkendorff address - she's in Russia. Chocolat causing Prussian attention. Neuenhagen garden walk, German language attempts. %%
@@ -1320,7 +1320,7 @@ They need AI translation into French.
 - **069/1877-03-16.md** para 069.0318 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "ricevono come un buffone" - they receive him like a buffoon; tolerated for entertainment %%
 - **069/1877-03-29.md** para 069.0580 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "carrozello" - small hired carriage; cheap public transport %%
 - **069/1877-03-31.md** para 069.0633 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Villa-Reale" - ITALIAN: Royal Villa; public garden on Naples waterfront %%
-- **069/1877-04-02.md** para 069.DROPPED-0650 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, Deceptio Oppresio / Gloriae Cupiditate" - Doubt, illusion, Deception, Oppression / Desire for Glory; Marie's philosophical/mood notation %%
+- **069/1877-04-02.md** para withdrawn in the 2026-09 rebuild (old carnet 069 ¶0650; see content/_renumber/069-2026-09-28.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, Deceptio Oppresio / Gloriae Cupiditate" - Doubt, illusion, Deception, Oppression / Desire for Glory; Marie's philosophical/mood notation %%
 - **070/1877-04-03.md** para 070.0001 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "lazzarone" - Neapolitan term for street person/beggar; often hired for odd jobs %%
 - **070/1877-04-04.md** para 070.0085 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Temp'era del principio del matino..." - Inferno I:37-40; "It was the hour of morning's beginning / and the Sun was rising with those stars / that were with him when Divine Love / first set those beautiful things in motion"; invokes creation at sunrise %%
 - **070/1877-04-07.md** para 070.0213 [CODE-SWITCH]: %% 2026-02-02T12:30:00 LAN: CODE-SWITCHING: "dis-je en russe" - Marie switches to Russian for private family communication in public %%
@@ -1329,7 +1329,7 @@ They need AI translation into French.
 - **070/1877-04-23.md** para 070.0840 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Guardate in alto e vidi le sue spalle / Vestite gia di raggi del pianeta / Che mena dritta altrui per ogni calle" - Inferno I:16-18; "I looked up and saw its shoulders / already clothed in rays of that planet / which leads others straight along every path"; describes sunrise on hillside %%
 - **070/1877-04-23.md** para 070.0853 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Si ch'a bene sperar m'era cagione" - Inferno I:41; "so that it gave me reason to hope"; Marie quotes Dante on hope at sunrise %%
 - **070/1877-04-23.md** para 070.0856 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "nebbioso" - misty/hazy; Italian adjective inserted into French text %%
-- **070/1877-04-25.md** para 070.DROPPED-0198 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" - Doubt, illusion, deception, oppression / By desire for glory; Marie's philosophical/mood notation, recurring motif %%
+- **070/1877-04-25.md** para withdrawn in the 2026-09 rebuild (old carnet 070 ¶0198; see content/_renumber/070-2026-09-28.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" - Doubt, illusion, deception, oppression / By desire for glory; Marie's philosophical/mood notation, recurring motif %%
 - **071/1877-05-02.md** para 071.0110 [ITALIAN]: %% 2026-02-02T15:00:00 LAN: ITALIAN: "palazzo" - palace/mansion, used untranslated in French for Italian noble residences %%
 - **071/1877-05-02.md** para 071.0113 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "Skating" - refers to a skating rink, fashionable social venue; term used in English %%
 - **071/1877-05-13.md** para 071.0308 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "Veglione" - ITALIAN: masked ball, typically during carnival season %%
@@ -1345,7 +1345,7 @@ They need AI translation into French.
 - **072/1877-07-06.md** para 072.0420 [LATIN]: %% 2026-02-02T14:30:00 LAN: LATIN: "et coetera" - and so on; Marie's educated flourish %%
 - **072/1877-07-08.md** para 072.0445 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: "whist" - ENGLISH: popular card game in 1870s upper-class society %%
 - **072/1877-07-14.md** para 072.0557 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: ENGLISH: "Violet" and "Violette" - telegraph code names; English/French versions of the same flower name, playful identity game %%
-- **073/1877-07-15.md** para 073.DROPPED-0037 [LATIN]: %% 2026-02-02T13:00:00 LAN: "Gloriae Cupiditate" - LATIN: With desire for glory; Marie's motto for her journals %%
+- **073/1877-07-15.md** para withdrawn in the 2026-09 rebuild (old carnet 073 ¶0037; see content/_renumber/073-2026-09-28.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: "Gloriae Cupiditate" - LATIN: With desire for glory; Marie's motto for her journals %%
 - **073/1877-07-16.md** para 073.0022 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman-farmer" - ENGLISH: country gentleman who farms %%
 - **073/1877-07-16.md** para 073.0023 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman" - ENGLISH: gentleman; French lacks exact equivalent %%
 - **073/1877-07-20.md** para 073.0079 [CODE-SWITCH]: %% 2026-02-09T16:30:00 LAN: CODE-SWITCH: "en espagnol" - the father speaks Spanish to his daughter; Marie understands enough to follow the exchange %%
@@ -1368,7 +1368,7 @@ They need AI translation into French.
 - **075/1877-10-06.md** para 075.0176 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Sic transit gloria ducis" - Thus passes the glory of the duke; Marie's wordplay on "sic transit gloria mundi" %%
 - **075/1877-10-14.md** para 075.0297 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Aida" preserved in original - opera titles typically kept in original language %%
 - **076/1877-12-05.md** para 076.0324 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN "la belle cose" - Italian: the beautiful things %%
-- **077/1877-12-23.md** para 077.DROPPED-0002 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - "Desire for Glory" - Marie's motto, recurring at start of each carnet %%
+- **077/1877-12-23.md** para withdrawn in the 2026-09 rebuild (old carnet 077 ¶0002; see content/_renumber/077-2026-09-29.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - "Desire for Glory" - Marie's motto, recurring at start of each carnet %%
 - **077/1877-12-29.md** para 077.0052 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "gentleman-farmer" - English term used in French for country gentleman who farms %%
 - **077/1878-01-02.md** para 077.0092 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "skatiner" - Marie's Frenchified form of English "to skate"; roller skating was fashionable %%
 - **077/1878-01-07.md** para 077.0131 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "lady-like" - English term for well-bred feminine behavior %%
@@ -1376,15 +1376,15 @@ They need AI translation into French.
 - **077/1878-01-12.md** para 077.0165 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: RUSSIAN "adieu" in Russian - likely "proshchay" (farewell) %%
 - **077/1878-01-18.md** para 077.0253 [ITALIAN]: %% 2026-02-09T14:00:00 LAN: ITALIAN: "Con orgoglio di madre..." - With the pride of a mother, with the grief of a daughter, Italy prays for the great king who was a great citizen, [for the] immortality of the just and of heroes. (Inscription on the Pantheon for Victor Emmanuel II's funeral) %%
 - **077/1878-01-21.md** para 077.0297 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "Honni soit qui mal y pense" - Shame on him who thinks evil of it; motto of the Order of the Garter; Marie's playful code-switching %%
-- **077/1878-02-03.md** para 077.DROPPED-0613 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
+- **077/1878-02-03.md** para withdrawn in the 2026-09 rebuild (old carnet 077 ¶0613; see content/_renumber/077-2026-09-29.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
 - **078/1878-02-18.md** para 078.0227 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "skating" - ice rink; fashionable social venue in 1870s European cities %%
-- **078/1878-03-16.md** para 078.DROPPED-0575 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
+- **078/1878-03-16.md** para withdrawn in the 2026-09 rebuild (old carnet 078 ¶0575; see content/_renumber/078-2026-09-29.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
 - **079/1878-03-27.md** para 079.0117 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "pug" - English word for the dog breed %%
 - **079/1878-03-27.md** para 079.0117 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Skating" - skating rink, fashionable activity %%
 - **079/1878-03-27.md** para 079.0117 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Club" - English term for gentlemen's club %%
 - **079/1878-03-27.md** para 079.0118 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "gentlemen-riders" - amateur horse racing by aristocrats %%
 - **079/1878-05-01.md** para 079.0643 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Let us make the best of it" - Marie's code-switching %%
-- **080/1878-05-04.md** para 080.DROPPED-0006 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's motto) %%
+- **080/1878-05-04.md** para withdrawn in the 2026-09 rebuild (old carnet 080 ¶0006; see content/_renumber/080-2026-09-29.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's motto) %%
 - **080/1878-05-21.md** para 080.0264 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "terrarum dea gentiumque Roma" - "Rome, goddess of lands and peoples" (Martial) %%
 - **080/1878-06-17.md** para 080.0687 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Ci rivedrem signore!" - "We'll meet again, sir!" - Marie's Italian code-switching %%
 - **081/1878-06-24.md** para 081.0023 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "quaerens quem devoret" - "seeking whom to devour" (1 Peter 5:8, describing devil) %%
@@ -1394,15 +1394,15 @@ They need AI translation into French.
 - **081/1878-07-22.md** para 081.0459 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Paese che vuoi, essi che trovi" - When in Rome, do as the Romans do %%
 - **081/1878-07-23.md** para 081.0460 [LATIN]: %% 2026-02-03T10:30:00 LAN: LATIN: "in extenso" - in full/completely (legal/scholarly term) %%
 - **081/1878-08-03.md** para 081.0538 [ENGLISH]: %% 2026-02-03T11:15:00 LAN: "groom" - ENGLISH: young male servant %%
-- **081/1878-08-08.md** para 081.DROPPED-0499 [LATIN]: %% 2026-02-03T11:40:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's title for Book 82) %%
-- **082/1878-08-17.md** para 082.DROPPED-0100 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory, Latin epigraph for new volume %%
+- **081/1878-08-08.md** para withdrawn in the 2026-09 rebuild (old carnet 081 ¶0499; see content/_renumber/081-2026-09-29.json) [LATIN]: %% 2026-02-03T11:40:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's title for Book 82) %%
+- **082/1878-08-17.md** para withdrawn in the 2026-09 rebuild (old carnet 082 ¶0100; see content/_renumber/082-2026-09-29.json) [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory, Latin epigraph for new volume %%
 - **082/1878-08-18.md** para 082.0140 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "home" - Marie uses English word, suggesting foreignness of concept %%
 - **082/1878-08-31.md** para 082.0219 [ENGLISH]: %% 2026-02-03T10:00:00 LAN: "kitchen" - ENGLISH: Marie uses English word for servants' quarters %%
 - **082/1878-09-02.md** para 082.0261 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "dessiatines" - RUSSIAN: desyatina, Russian land measure (~2.7 acres) %%
 - **082/1878-09-21.md** para 082.0421 [LATIN]: %% 2026-02-03T10:00:00 LAN: "pullaire" - LATIN: pullarius, Roman augur who reads omens from chickens %%
 - **082/1878-10-04.md** para 082.0494 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "Moussia" - RUSSIAN: diminutive nickname for Marie %%
 - **082/1878-10-04.md** para 082.0498 [ITALIAN]: %% 2026-02-03T10:00:00 LAN: ITALIAN: Rossi performs in Italian, showing Marie's comprehension %%
-- **083/1878-10-17.md** para 083.DROPPED-0002 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Latin phrase meaning "Desire for Glory" - Marie's epigraph for this volume reflecting her artistic ambitions %%
+- **083/1878-10-17.md** para withdrawn in the 2026-09 rebuild (old carnet 083 ¶0002; see content/_renumber/083-2026-09-29.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Latin phrase meaning "Desire for Glory" - Marie's epigraph for this volume reflecting her artistic ambitions %%
 - **083/1878-10-25.md** para 083.0029 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "Moussia" - RUSSIAN: Marie's family nickname/diminutive %%
 - **083/1879-01-05.md** para 083.0548 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "la luce della vita" - the light of life; gospel divination result %%
 - **084/1879-01-29.md** para 084.0133 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: "La campagna" - ITALIAN: the Roman Campagna, countryside around Rome famous for ruins %%
@@ -1460,7 +1460,7 @@ They need AI translation into French.
 - **093/1881-10-04.md** para 093.0102 [LATIN]: %% 2026-02-02T09:10:06 LAN: "idem" - LATIN: the same, likewise (to be painted nude) %%
 - **093/1881-10-10.md** para 093.0112 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
 - **093/1881-10-30.md** para 093.0153 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
-- **093/1881-11-22.md** para 093.DROPPED-0141 [LATIN]: %% 2026-02-02T09:06:26 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory: Marie's motto, book title %%
+- **093/1881-11-22.md** para withdrawn in the 2026-09 rebuild (old carnet 093 ¶0141; see content/_renumber/093-2026-09-28.json) [LATIN]: %% 2026-02-02T09:06:26 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory: Marie's motto, book title %%
 - **094/1882-01-23.md** para 094.0142 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "heals all wounds but those of the heart" - Gabriel's English inscription on glycerin bottle, romantic cliche %%
 - **095/1882-07-31.md** para 095.0384 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "Il corpo e piu che il vestimento" - The body is more than clothing; biblical reference Luke 12:23 %%
 - **095/1882-07-31.md** para 095.0385 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "La vita e piu che il nutrimento" - Life is more than food; biblical reference Luke 12:23 %%

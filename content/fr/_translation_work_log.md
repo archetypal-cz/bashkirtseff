@@ -30,7 +30,7 @@ These files already have FRE comments from previous work and can be skipped.
 - [ ] 1876-06-23.md (para 062.0557) - "Pietruccio" (proper name, SKIP)
 - [ ] 1876-06-24.md (para 062.0564, 062.0579) - "la Patria", "Nizza" (context explains, SKIP)
 - [ ] 1876-06-28.md (para 062.0765) - "Domine, salvum fac futurum Pium X" (papal prayer - NEEDS TRANSLATION)
-- [ ] 1876-07-03.md (para 062.0832, 062.DROPPED-0736) - Latin maxims - one self-translated, "Gloriae cupiditate" (NEEDS TRANSLATION)
+- [ ] 1876-07-03.md (para 062.0832, withdrawn in the 2026-09 rebuild (old carnet 062 ¶0736; see content/_renumber/062-2026-09-29.json)) - Latin maxims - one self-translated, "Gloriae cupiditate" (NEEDS TRANSLATION)
 
 #### Carnet 063 (6 passages)
 - [ ] All passages need review

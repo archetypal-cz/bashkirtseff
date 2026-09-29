@@ -5333,7 +5333,8 @@
     },
     {
       "file": "1874-07-23.md",
-      "para_id": "021.DROPPED-0517",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 021 ¶0517; see content/_renumber/021-2026-09-28.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T13:12:13 LAN: ENGLISH \"H.G.t.D.o.H.\" - His Grace the Duke of Hamilton; Marie's secret code %%",
       "fr_file": "content/fr/021/1874-07-23.md",
@@ -6726,7 +6727,8 @@
   "029": [
     {
       "file": "1875-01-21.md",
-      "para_id": "029.DROPPED-0002",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 029 ¶0002; see content/_renumber/029-2026-09-28.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T15:10:00 LAN: ENGLISH abbreviation: \"H.G.t.D.o.H.\" = His Grace the Duke of Hamilton %%",
       "fr_file": "content/fr/029/1875-01-21.md",
@@ -7931,7 +7933,8 @@
     },
     {
       "file": "1875-06-06.md",
-      "para_id": "033.DROPPED-0507",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 033 ¶0507; see content/_renumber/033-2026-09-29.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T16:50:00 LAN: ENGLISH: \"H[is] G[race] t[he] D[uc] o[f] Hamilton\" - English title abbreviation, Marie's private code for the Duke %%",
       "fr_file": "content/fr/033/1875-06-06.md",
@@ -8104,7 +8107,8 @@
     },
     {
       "file": "1875-06-25.md",
-      "para_id": "034.DROPPED-0447",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 034 ¶0447; see content/_renumber/034-2026-09-29.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T17:00:00 LAN: ENGLISH abbreviation \"H.G. the D. of H.\" - His Grace the Duke of Hamilton; Marie's obsessive code %%",
       "fr_file": "content/fr/034/1875-06-25.md",
@@ -8142,7 +8146,8 @@
     },
     {
       "file": "1875-07-08.md",
-      "para_id": "035.DROPPED-0093",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 035 ¶0093; see content/_renumber/035-2026-09-29.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T17:00:00 LAN: ENGLISH abbreviation \"H.G. the D. of H.\" - His Grace the Duke of Hamilton; Marie's obsessive code %%",
       "fr_file": "content/fr/035/1875-07-08.md",
@@ -8494,7 +8499,8 @@
   "040": [
     {
       "file": "1875-08-27-28.md",
-      "para_id": "040.DROPPED-0002",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 040 ¶0002; see content/_renumber/040-2026-09-29.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T17:30:00 LAN: ENGLISH: \"H[is] G[race] t[he] D[uke] o[f] Hamilton\" - coded abbreviation using English aristocratic title %%",
       "fr_file": "content/fr/040/1875-08-27-28.md",
@@ -8584,7 +8590,8 @@
     },
     {
       "file": "1875-09-01.md",
-      "para_id": "040.DROPPED-0228",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 040 ¶0228; see content/_renumber/040-2026-09-29.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T17:30:00 LAN: ENGLISH: \"H[is] G[race] t[he] D[uke] o[f] Hamilton\" - coded abbreviation of English aristocratic title %%",
       "fr_file": "content/fr/040/1875-09-01.md",
@@ -8595,7 +8602,8 @@
   "042": [
     {
       "file": "1875-09-08.md",
-      "para_id": "042.DROPPED-0002",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 042 ¶0002; see content/_renumber/042-2026-09-29.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T17:30:00 LAN: ENGLISH: \"H[is] G[race] t[he] D[uke] o[f] Hamilton\" - coded abbreviation of English aristocratic title %%",
       "fr_file": "content/fr/042/1875-09-08.md",
@@ -8849,7 +8857,8 @@
     },
     {
       "file": "1875-09-21.md",
-      "para_id": "043.DROPPED-0422",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 043 ¶0422; see content/_renumber/043-2026-09-29.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T18:01:19 LAN: ENGLISH: \"H[is] G[race] t[he] D[uke] o[f] H[amilton]\" - abbreviated English title, Marie's private code for the Duke %%",
       "fr_file": "content/fr/043/1875-09-21.md",
@@ -9214,7 +9223,8 @@
   "050": [
     {
       "file": "1875-11-18.md",
-      "para_id": "050.DROPPED-0003",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 050 ¶0003; see content/_renumber/050-2026-09-28.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:05:00 LAN: ENGLISH acronym - \"H[is] G[race] t[he] D[uke] o[f] Hamilton\" - Marie's coded reference to the Duke, using English title %%",
       "fr_file": "content/fr/050/1875-11-18.md",
@@ -10655,7 +10665,8 @@
     },
     {
       "file": "1876-03-27.md",
-      "para_id": "055.DROPPED-1175",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 055 ¶1175; see content/_renumber/055-2026-09-28.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory (Marie's self-description) %%",
       "fr_file": "content/fr/055/1876-03-27.md",
@@ -10664,7 +10675,8 @@
     },
     {
       "file": "1876-03-27.md",
-      "para_id": "055.DROPPED-1176",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 055 ¶1176; see content/_renumber/055-2026-09-28.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:10:00 LAN: ENGLISH abbreviation: His Grace the Duke of Hamilton - coded reference %%",
       "fr_file": "content/fr/055/1876-03-27.md",
@@ -11079,7 +11091,8 @@
     },
     {
       "file": "1876-05-20.md",
-      "para_id": "060.DROPPED-0884",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 060 ¶0884; see content/_renumber/060-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN: \"*Gloriae cupiditate*\" - desire for glory/ambition (classical Latin phrase, shows Marie's education) %%",
       "fr_file": "content/fr/060/1876-05-20.md",
@@ -11243,7 +11256,8 @@
     },
     {
       "file": "1876-07-03.md",
-      "para_id": "062.DROPPED-0736",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 062 ¶0736; see content/_renumber/062-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"*Gloriae cupiditate*\" - with desire for glory; carnet's closing motto %%",
       "fr_file": "content/fr/062/1876-07-03.md",
@@ -11290,7 +11304,8 @@
     },
     {
       "file": "1876-07-19.md",
-      "para_id": "063.DROPPED-0500",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 063 ¶0500; see content/_renumber/063-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Gloriae cupiditate\" - desire for glory; classical phrase %%",
       "fr_file": "content/fr/063/1876-07-19.md",
@@ -11299,7 +11314,8 @@
     },
     {
       "file": "1876-07-19.md",
-      "para_id": "063.DROPPED-0500",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 063 ¶0500; see content/_renumber/063-2026-09-29.json)",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: ENGLISH: \"His Grace the Duke of Hamilton\" - abbreviated; first mention of future obsession %%",
       "fr_file": "content/fr/063/1876-07-19.md",
@@ -11977,7 +11993,8 @@
     },
     {
       "file": "1877-04-02.md",
-      "para_id": "069.DROPPED-0650",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 069 ¶0650; see content/_renumber/069-2026-09-28.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN: \"Dubium, illusio, Deceptio Oppresio / Gloriae Cupiditate\" - Doubt, illusion, Deception, Oppression / Desire for Glory; Marie's philosophical/mood notation %%",
       "fr_file": "content/fr/069/1877-04-02.md",
@@ -12060,7 +12077,8 @@
     },
     {
       "file": "1877-04-25.md",
-      "para_id": "070.DROPPED-0198",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 070 ¶0198; see content/_renumber/070-2026-09-28.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN: \"Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate\" - Doubt, illusion, deception, oppression / By desire for glory; Marie's philosophical/mood notation, recurring motif %%",
       "fr_file": "content/fr/070/1877-04-25.md",
@@ -12210,7 +12228,8 @@
   "073": [
     {
       "file": "1877-07-15.md",
-      "para_id": "073.DROPPED-0037",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 073 ¶0037; see content/_renumber/073-2026-09-28.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: \"Gloriae Cupiditate\" - LATIN: With desire for glory; Marie's motto for her journals %%",
       "fr_file": "content/fr/073/1877-07-15.md",
@@ -12425,7 +12444,8 @@
   "077": [
     {
       "file": "1877-12-23.md",
-      "para_id": "077.DROPPED-0002",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 077 ¶0002; see content/_renumber/077-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN \"Gloriae Cupiditas\" - \"Desire for Glory\" - Marie's motto, recurring at start of each carnet %%",
       "fr_file": "content/fr/077/1877-12-23.md",
@@ -12497,7 +12517,8 @@
     },
     {
       "file": "1878-02-03.md",
-      "para_id": "077.DROPPED-0613",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 077 ¶0613; see content/_renumber/077-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN \"Gloriae Cupiditas\" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%",
       "fr_file": "content/fr/077/1878-02-03.md",
@@ -12517,7 +12538,8 @@
     },
     {
       "file": "1878-03-16.md",
-      "para_id": "078.DROPPED-0575",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 078 ¶0575; see content/_renumber/078-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN \"Gloriae Cupiditas\" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%",
       "fr_file": "content/fr/078/1878-03-16.md",
@@ -12575,7 +12597,8 @@
   "080": [
     {
       "file": "1878-05-04.md",
-      "para_id": "080.DROPPED-0006",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 080 ¶0006; see content/_renumber/080-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory (Marie's motto) %%",
       "fr_file": "content/fr/080/1878-05-04.md",
@@ -12667,7 +12690,8 @@
     },
     {
       "file": "1878-08-08.md",
-      "para_id": "081.DROPPED-0499",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 081 ¶0499; see content/_renumber/081-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-03T11:40:00 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory (Marie's title for Book 82) %%",
       "fr_file": "content/fr/081/1878-08-08.md",
@@ -12678,7 +12702,8 @@
   "082": [
     {
       "file": "1878-08-17.md",
-      "para_id": "082.DROPPED-0100",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 082 ¶0100; see content/_renumber/082-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory, Latin epigraph for new volume %%",
       "fr_file": "content/fr/082/1878-08-17.md",
@@ -12743,7 +12768,8 @@
   "083": [
     {
       "file": "1878-10-17.md",
-      "para_id": "083.DROPPED-0002",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 083 ¶0002; see content/_renumber/083-2026-09-29.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: LATIN: \"Gloriae Cupiditas\" - Latin phrase meaning \"Desire for Glory\" - Marie's epigraph for this volume reflecting her artistic ambitions %%",
       "fr_file": "content/fr/083/1878-10-17.md",
@@ -13285,7 +13311,8 @@
     },
     {
       "file": "1881-11-22.md",
-      "para_id": "093.DROPPED-0141",
+      "para_id": null,
+      "withdrawn": "withdrawn in the 2026-09 rebuild (old carnet 093 ¶0141; see content/_renumber/093-2026-09-28.json)",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T09:06:26 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory: Marie's motto, book title %%",
       "fr_file": "content/fr/093/1881-11-22.md",
