@@ -12394,7 +12394,7 @@
   "075": [
     {
       "file": "1877-10-06.md",
-      "para_id": "075.0169",
+      "para_id": "075.0176",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN: \"Sic transit gloria ducis\" - Thus passes the glory of the duke; Marie's wordplay on \"sic transit gloria mundi\" %%",
       "fr_file": "content/fr/075/1877-10-06.md",
@@ -12403,7 +12403,7 @@
     },
     {
       "file": "1877-10-14.md",
-      "para_id": "075.0273",
+      "para_id": "075.0297",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ITALIAN: \"Aida\" preserved in original - opera titles typically kept in original language %%",
       "fr_file": "content/fr/075/1877-10-14.md",
@@ -12414,7 +12414,7 @@
   "076": [
     {
       "file": "1877-12-05.md",
-      "para_id": "076.0334",
+      "para_id": "076.0324",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ITALIAN \"la belle cose\" - Italian: the beautiful things %%",
       "fr_file": "content/fr/076/1877-12-05.md",
@@ -12425,7 +12425,7 @@
   "077": [
     {
       "file": "1877-12-23.md",
-      "para_id": "077.0002",
+      "para_id": "077.DROPPED-0002",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN \"Gloriae Cupiditas\" - \"Desire for Glory\" - Marie's motto, recurring at start of each carnet %%",
       "fr_file": "content/fr/077/1877-12-23.md",
@@ -12434,7 +12434,7 @@
     },
     {
       "file": "1877-12-29.md",
-      "para_id": "077.0051",
+      "para_id": "077.0052",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ENGLISH \"gentleman-farmer\" - English term used in French for country gentleman who farms %%",
       "fr_file": "content/fr/077/1877-12-29.md",
@@ -12443,7 +12443,7 @@
     },
     {
       "file": "1878-01-02.md",
-      "para_id": "077.0096",
+      "para_id": "077.0092",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ENGLISH \"skatiner\" - Marie's Frenchified form of English \"to skate\"; roller skating was fashionable %%",
       "fr_file": "content/fr/077/1878-01-02.md",
@@ -12452,7 +12452,7 @@
     },
     {
       "file": "1878-01-07.md",
-      "para_id": "077.0140",
+      "para_id": "077.0131",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ENGLISH \"lady-like\" - English term for well-bred feminine behavior %%",
       "fr_file": "content/fr/077/1878-01-07.md",
@@ -12461,7 +12461,7 @@
     },
     {
       "file": "1878-01-12.md",
-      "para_id": "077.0178",
+      "para_id": "077.0163",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ITALIAN \"Addio Signorina\" - Italian: Farewell Miss, nostalgic reference %%",
       "fr_file": "content/fr/077/1878-01-12.md",
@@ -12470,7 +12470,7 @@
     },
     {
       "file": "1878-01-12.md",
-      "para_id": "077.0180",
+      "para_id": "077.0165",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: RUSSIAN \"adieu\" in Russian - likely \"proshchay\" (farewell) %%",
       "fr_file": "content/fr/077/1878-01-12.md",
@@ -12479,7 +12479,7 @@
     },
     {
       "file": "1878-01-18.md",
-      "para_id": "077.0275",
+      "para_id": "077.0253",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-09T14:00:00 LAN: ITALIAN: \"Con orgoglio di madre...\" - With the pride of a mother, with the grief of a daughter, Italy prays for the great king who was a great citizen, [for the] immortality of the just and of heroes. (Inscription on the Pantheon for Victor Emmanuel II's funeral) %%",
       "fr_file": "content/fr/077/1878-01-18.md",
@@ -12488,7 +12488,7 @@
     },
     {
       "file": "1878-01-21.md",
-      "para_id": "077.0321",
+      "para_id": "077.0297",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ENGLISH \"Honni soit qui mal y pense\" - Shame on him who thinks evil of it; motto of the Order of the Garter; Marie's playful code-switching %%",
       "fr_file": "content/fr/077/1878-01-21.md",
@@ -12497,7 +12497,7 @@
     },
     {
       "file": "1878-02-03.md",
-      "para_id": "077.0613",
+      "para_id": "077.DROPPED-0613",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN \"Gloriae Cupiditas\" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%",
       "fr_file": "content/fr/077/1878-02-03.md",
@@ -12508,7 +12508,7 @@
   "078": [
     {
       "file": "1878-02-18.md",
-      "para_id": "078.0199",
+      "para_id": "078.0227",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ENGLISH \"skating\" - ice rink; fashionable social venue in 1870s European cities %%",
       "fr_file": "content/fr/078/1878-02-18.md",
@@ -12517,7 +12517,7 @@
     },
     {
       "file": "1878-03-16.md",
-      "para_id": "078.0575",
+      "para_id": "078.DROPPED-0575",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN \"Gloriae Cupiditas\" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%",
       "fr_file": "content/fr/078/1878-03-16.md",
@@ -12528,7 +12528,7 @@
   "079": [
     {
       "file": "1878-03-27.md",
-      "para_id": "079.0127",
+      "para_id": "079.0117",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ENGLISH: \"pug\" - English word for the dog breed %%",
       "fr_file": "content/fr/079/1878-03-27.md",
@@ -12537,7 +12537,7 @@
     },
     {
       "file": "1878-03-27.md",
-      "para_id": "079.0127",
+      "para_id": "079.0117",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ENGLISH: \"Skating\" - skating rink, fashionable activity %%",
       "fr_file": "content/fr/079/1878-03-27.md",
@@ -12546,7 +12546,7 @@
     },
     {
       "file": "1878-03-27.md",
-      "para_id": "079.0127",
+      "para_id": "079.0117",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ENGLISH: \"Club\" - English term for gentlemen's club %%",
       "fr_file": "content/fr/079/1878-03-27.md",
@@ -12555,7 +12555,7 @@
     },
     {
       "file": "1878-03-27.md",
-      "para_id": "079.0128",
+      "para_id": "079.0118",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ENGLISH: \"gentlemen-riders\" - amateur horse racing by aristocrats %%",
       "fr_file": "content/fr/079/1878-03-27.md",
@@ -12564,7 +12564,7 @@
     },
     {
       "file": "1878-05-01.md",
-      "para_id": "079.0622",
+      "para_id": "079.0643",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ENGLISH: \"Let us make the best of it\" - Marie's code-switching %%",
       "fr_file": "content/fr/079/1878-05-01.md",
@@ -12575,7 +12575,7 @@
   "080": [
     {
       "file": "1878-05-04.md",
-      "para_id": "080.0006",
+      "para_id": "080.DROPPED-0006",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory (Marie's motto) %%",
       "fr_file": "content/fr/080/1878-05-04.md",
@@ -12584,7 +12584,7 @@
     },
     {
       "file": "1878-05-21.md",
-      "para_id": "080.0289",
+      "para_id": "080.0264",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: LATIN: \"terrarum dea gentiumque Roma\" - \"Rome, goddess of lands and peoples\" (Martial) %%",
       "fr_file": "content/fr/080/1878-05-21.md",
@@ -12593,7 +12593,7 @@
     },
     {
       "file": "1878-06-17.md",
-      "para_id": "080.0736",
+      "para_id": "080.0687",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ITALIAN: \"Ci rivedrem signore!\" - \"We'll meet again, sir!\" - Marie's Italian code-switching %%",
       "fr_file": "content/fr/080/1878-06-17.md",
@@ -13470,7 +13470,7 @@
   "101": [
     {
       "file": "1883-08-18.md",
-      "para_id": "101.0182",
+      "para_id": "101.0179",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:07:00 LAN: ITALIAN CODE-SWITCH: Extended passage in Italian for privacy. Marie speculates whether Bastien knows his brother admires her, and whether this would prevent Bastien from showing interest. \"Aurora qualche cosa\" = \"Dawn something\" (cryptic opening). Contains spelling errors in Italian (beuchè for benché, nostrarsi for mostrarsi, camino for cammino, infezione for affezione). %%",
       "fr_file": "content/fr/101/1883-08-18.md",
@@ -13479,7 +13479,7 @@
     },
     {
       "file": "1883-08-18.md",
-      "para_id": "101.0183",
+      "para_id": "101.0180",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:07:00 LAN: ITALIAN continues: \"But he doesn't think of me; if he wanted to think of me he wouldn't show it... because of the other; if it's true the other admires me, he admires me as I admire Giulio...\" %%",
       "fr_file": "content/fr/101/1883-08-18.md",
@@ -13488,7 +13488,7 @@
     },
     {
       "file": "1883-08-18.md",
-      "para_id": "101.0184",
+      "para_id": "101.0181",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:07:00 LAN: ITALIAN/FRENCH: \"Well, if Dina saw that I liked someone who could never love me, Dina would do nothing to win that heart...\" then switches to French: \"but that's not the point\" %%",
       "fr_file": "content/fr/101/1883-08-18.md",
@@ -13497,7 +13497,7 @@
     },
     {
       "file": "1883-08-18.md",
-      "para_id": "101.0185",
+      "para_id": "101.0182",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:07:00 LAN: ITALIAN: \"I'd like to know if the other truly cares for me enough to confess to great Giulio or if great Giulio only suspects that blind devotion...\" (salamente for solamente, ciecha for cieca) %%",
       "fr_file": "content/fr/101/1883-08-18.md",
@@ -13506,7 +13506,7 @@
     },
     {
       "file": "1883-08-18.md",
-      "para_id": "101.0186",
+      "para_id": "101.0183",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:07:00 LAN: ITALIAN/FRENCH switch: \"Whatever the case, no one will ever know that I thought of that...\" then French: \"little peasant from Damvillers\" %%",
       "fr_file": "content/fr/101/1883-08-18.md",
@@ -13515,7 +13515,7 @@
     },
     {
       "file": "1883-08-19.md",
-      "para_id": "101.0190",
+      "para_id": "101.0186",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:08:00 LAN: ITALIAN: \"il gran Giulio\" - the great Giulio (ironic aggrandizement) %%",
       "fr_file": "content/fr/101/1883-08-19.md",
@@ -13524,7 +13524,7 @@
     },
     {
       "file": "1883-08-30.md",
-      "para_id": "101.0301",
+      "para_id": "101.0296",
       "language": "LATIN",
       "lan_context": "%% 2026-02-03T10:13:00 LAN: LATIN: \"Vanitas vanitatum et omnia vanitas\" - Vanity of vanities, all is vanity (Ecclesiastes 1:2) %%",
       "fr_file": "content/fr/101/1883-08-30.md",
@@ -13533,7 +13533,7 @@
     },
     {
       "file": "1883-09-18.md",
-      "para_id": "101.0399",
+      "para_id": "101.0396",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T10:18:00 LAN: ENGLISH allusion: \"Words, words, words\" - from Shakespeare's Hamlet %%",
       "fr_file": "content/fr/101/1883-09-18.md",
@@ -13544,7 +13544,7 @@
   "102": [
     {
       "file": "1883-10-24.md",
-      "para_id": "102.0025",
+      "para_id": "102.0026",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T09:02:35 LAN: \"Solominka\" - RUSSIAN: little straw/wisp of straw (nickname for thin Mme Markevitch) %%",
       "fr_file": "content/fr/102/1883-10-24.md",
@@ -13553,7 +13553,7 @@
     },
     {
       "file": "1883-11-13.md",
-      "para_id": "102.0045",
+      "para_id": "102.0046",
       "language": "LATIN",
       "lan_context": "%% 2026-02-03T09:06:25 LAN: \"sine qua non\" - LATIN: essential condition, without which not %%",
       "fr_file": "content/fr/102/1883-11-13.md",
@@ -13562,7 +13562,7 @@
     },
     {
       "file": "1883-11-20.md",
-      "para_id": "102.0052",
+      "para_id": "102.0053",
       "language": "LATIN",
       "lan_context": "%% 2026-02-03T09:07:42 LAN: \"aurea mediocritas\" - LATIN: golden mean (Horace), here: mediocrity %%",
       "fr_file": "content/fr/102/1883-11-20.md",
@@ -13571,7 +13571,7 @@
     },
     {
       "file": "1883-12-24.md",
-      "para_id": "102.0085",
+      "para_id": "102.0086",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T09:12:42 LAN: \"la gentry parisienne\" - ENGLISH: the Parisian gentry %%",
       "fr_file": "content/fr/102/1883-12-24.md",
@@ -13580,7 +13580,7 @@
     },
     {
       "file": "1884-01-02.md",
-      "para_id": "102.0098",
+      "para_id": "102.0099",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T09:14:06 LAN: \"starovoï\" - RUSSIAN: starosta, village official/police functionary %%",
       "fr_file": "content/fr/102/1884-01-02.md",
@@ -13591,7 +13591,7 @@
   "103": [
     {
       "file": "1884-02-08.md",
-      "para_id": "103.0281",
+      "para_id": "103.0279",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: \"Idem\" - LATIN: same as before, Marie's shorthand for routine days %%",
       "fr_file": "content/fr/103/1884-02-08.md",
@@ -13600,7 +13600,7 @@
     },
     {
       "file": "1884-03-26.md",
-      "para_id": "103.0558",
+      "para_id": "103.0542",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: \"i.e.\" - LATIN: id est, that is %%",
       "fr_file": "content/fr/103/1884-03-26.md",
@@ -13609,7 +13609,7 @@
     },
     {
       "file": "1884-03-29.md",
-      "para_id": "103.0572",
+      "para_id": "103.0556",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: \"si ingrata, t'amo, t'amo ancora\" - ITALIAN: \"ungrateful one, I love you, I still love you\" - from Lucia sextet %%",
       "fr_file": "content/fr/103/1884-03-29.md",

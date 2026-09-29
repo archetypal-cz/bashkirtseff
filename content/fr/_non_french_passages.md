@@ -1365,28 +1365,28 @@ They need AI translation into French.
 - **074/1877-09-10.md** para 074.0283 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "sed inutilis" - but useless; Marie's blunt assessment of social contacts who cannot help her ambitions %%
 - **074/1877-09-13.md** para 074.0322 [ENGLISH]: %% 2026-02-09T12:00:00 LAN: ENGLISH: "Skating" - roller-skating rink; "des patins... a moi" - her own personal roller skates, a sign of status %%
 - **074/1877-09-17.md** para 074.0373 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "Colonia Agrippina" - the Roman name for Cologne; Marie's classical erudition showing through %%
-- **075/1877-10-06.md** para 075.0169 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Sic transit gloria ducis" - Thus passes the glory of the duke; Marie's wordplay on "sic transit gloria mundi" %%
-- **075/1877-10-14.md** para 075.0273 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Aida" preserved in original - opera titles typically kept in original language %%
-- **076/1877-12-05.md** para 076.0334 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN "la belle cose" - Italian: the beautiful things %%
-- **077/1877-12-23.md** para 077.0002 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - "Desire for Glory" - Marie's motto, recurring at start of each carnet %%
-- **077/1877-12-29.md** para 077.0051 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "gentleman-farmer" - English term used in French for country gentleman who farms %%
-- **077/1878-01-02.md** para 077.0096 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "skatiner" - Marie's Frenchified form of English "to skate"; roller skating was fashionable %%
-- **077/1878-01-07.md** para 077.0140 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "lady-like" - English term for well-bred feminine behavior %%
-- **077/1878-01-12.md** para 077.0178 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN "Addio Signorina" - Italian: Farewell Miss, nostalgic reference %%
-- **077/1878-01-12.md** para 077.0180 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: RUSSIAN "adieu" in Russian - likely "proshchay" (farewell) %%
-- **077/1878-01-18.md** para 077.0275 [ITALIAN]: %% 2026-02-09T14:00:00 LAN: ITALIAN: "Con orgoglio di madre..." - With the pride of a mother, with the grief of a daughter, Italy prays for the great king who was a great citizen, [for the] immortality of the just and of heroes. (Inscription on the Pantheon for Victor Emmanuel II's funeral) %%
-- **077/1878-01-21.md** para 077.0321 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "Honni soit qui mal y pense" - Shame on him who thinks evil of it; motto of the Order of the Garter; Marie's playful code-switching %%
-- **077/1878-02-03.md** para 077.0613 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
-- **078/1878-02-18.md** para 078.0199 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "skating" - ice rink; fashionable social venue in 1870s European cities %%
-- **078/1878-03-16.md** para 078.0575 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
-- **079/1878-03-27.md** para 079.0127 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "pug" - English word for the dog breed %%
-- **079/1878-03-27.md** para 079.0127 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Skating" - skating rink, fashionable activity %%
-- **079/1878-03-27.md** para 079.0127 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Club" - English term for gentlemen's club %%
-- **079/1878-03-27.md** para 079.0128 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "gentlemen-riders" - amateur horse racing by aristocrats %%
-- **079/1878-05-01.md** para 079.0622 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Let us make the best of it" - Marie's code-switching %%
-- **080/1878-05-04.md** para 080.0006 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's motto) %%
-- **080/1878-05-21.md** para 080.0289 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "terrarum dea gentiumque Roma" - "Rome, goddess of lands and peoples" (Martial) %%
-- **080/1878-06-17.md** para 080.0736 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Ci rivedrem signore!" - "We'll meet again, sir!" - Marie's Italian code-switching %%
+- **075/1877-10-06.md** para 075.0176 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Sic transit gloria ducis" - Thus passes the glory of the duke; Marie's wordplay on "sic transit gloria mundi" %%
+- **075/1877-10-14.md** para 075.0297 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Aida" preserved in original - opera titles typically kept in original language %%
+- **076/1877-12-05.md** para 076.0324 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN "la belle cose" - Italian: the beautiful things %%
+- **077/1877-12-23.md** para 077.DROPPED-0002 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - "Desire for Glory" - Marie's motto, recurring at start of each carnet %%
+- **077/1877-12-29.md** para 077.0052 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "gentleman-farmer" - English term used in French for country gentleman who farms %%
+- **077/1878-01-02.md** para 077.0092 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "skatiner" - Marie's Frenchified form of English "to skate"; roller skating was fashionable %%
+- **077/1878-01-07.md** para 077.0131 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "lady-like" - English term for well-bred feminine behavior %%
+- **077/1878-01-12.md** para 077.0163 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN "Addio Signorina" - Italian: Farewell Miss, nostalgic reference %%
+- **077/1878-01-12.md** para 077.0165 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: RUSSIAN "adieu" in Russian - likely "proshchay" (farewell) %%
+- **077/1878-01-18.md** para 077.0253 [ITALIAN]: %% 2026-02-09T14:00:00 LAN: ITALIAN: "Con orgoglio di madre..." - With the pride of a mother, with the grief of a daughter, Italy prays for the great king who was a great citizen, [for the] immortality of the just and of heroes. (Inscription on the Pantheon for Victor Emmanuel II's funeral) %%
+- **077/1878-01-21.md** para 077.0297 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "Honni soit qui mal y pense" - Shame on him who thinks evil of it; motto of the Order of the Garter; Marie's playful code-switching %%
+- **077/1878-02-03.md** para 077.DROPPED-0613 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
+- **078/1878-02-18.md** para 078.0227 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "skating" - ice rink; fashionable social venue in 1870s European cities %%
+- **078/1878-03-16.md** para 078.DROPPED-0575 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
+- **079/1878-03-27.md** para 079.0117 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "pug" - English word for the dog breed %%
+- **079/1878-03-27.md** para 079.0117 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Skating" - skating rink, fashionable activity %%
+- **079/1878-03-27.md** para 079.0117 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Club" - English term for gentlemen's club %%
+- **079/1878-03-27.md** para 079.0118 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "gentlemen-riders" - amateur horse racing by aristocrats %%
+- **079/1878-05-01.md** para 079.0643 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Let us make the best of it" - Marie's code-switching %%
+- **080/1878-05-04.md** para 080.DROPPED-0006 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's motto) %%
+- **080/1878-05-21.md** para 080.0264 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "terrarum dea gentiumque Roma" - "Rome, goddess of lands and peoples" (Martial) %%
+- **080/1878-06-17.md** para 080.0687 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Ci rivedrem signore!" - "We'll meet again, sir!" - Marie's Italian code-switching %%
 - **081/1878-06-24.md** para 081.0023 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "quaerens quem devoret" - "seeking whom to devour" (1 Peter 5:8, describing devil) %%
 - **081/1878-06-30.md** para 081.0115 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "common-place" - Marie uses English for emphasis %%
 - **081/1878-07-15.md** para 081.0407 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "chic" - borrowed from French but Marie uses it as society slang for elegant/fashionable %%
@@ -1479,19 +1479,19 @@ They need AI translation into French.
 - **099/1883-05-25.md** para 099.0442 [LATIN]: %% 2026-02-03T10:02:38 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory; the title of Marie's journal/carnet %%
 - **100/1883-07-14.md** para 100.0193 [ITALIAN]: %% 2026-02-03T10:05:11 LAN: "sérénade" - ITALIAN context: serenade in Naples %%
 - **100/1883-07-28.md** para 100.0238 [ENGLISH]: %% 2026-02-03T10:06:18 LAN: "non-sens" - ENGLISH: nonsense; Marie's playful code-switching %%
-- **101/1883-08-18.md** para 101.0182 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN CODE-SWITCH: Extended passage in Italian for privacy. Marie speculates whether Bastien knows his brother admires her, and whether this would prevent Bastien from showing interest. "Aurora qualche cosa" = "Dawn something" (cryptic opening). Contains spelling errors in Italian (beuchè for benché, nostrarsi for mostrarsi, camino for cammino, infezione for affezione). %%
-- **101/1883-08-18.md** para 101.0183 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN continues: "But he doesn't think of me; if he wanted to think of me he wouldn't show it... because of the other; if it's true the other admires me, he admires me as I admire Giulio..." %%
-- **101/1883-08-18.md** para 101.0184 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN/FRENCH: "Well, if Dina saw that I liked someone who could never love me, Dina would do nothing to win that heart..." then switches to French: "but that's not the point" %%
-- **101/1883-08-18.md** para 101.0185 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN: "I'd like to know if the other truly cares for me enough to confess to great Giulio or if great Giulio only suspects that blind devotion..." (salamente for solamente, ciecha for cieca) %%
-- **101/1883-08-18.md** para 101.0186 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN/FRENCH switch: "Whatever the case, no one will ever know that I thought of that..." then French: "little peasant from Damvillers" %%
-- **101/1883-08-19.md** para 101.0190 [ITALIAN]: %% 2026-02-03T10:08:00 LAN: ITALIAN: "il gran Giulio" - the great Giulio (ironic aggrandizement) %%
-- **101/1883-08-30.md** para 101.0301 [LATIN]: %% 2026-02-03T10:13:00 LAN: LATIN: "Vanitas vanitatum et omnia vanitas" - Vanity of vanities, all is vanity (Ecclesiastes 1:2) %%
-- **101/1883-09-18.md** para 101.0399 [ENGLISH]: %% 2026-02-03T10:18:00 LAN: ENGLISH allusion: "Words, words, words" - from Shakespeare's Hamlet %%
-- **102/1883-10-24.md** para 102.0025 [RUSSIAN]: %% 2026-02-03T09:02:35 LAN: "Solominka" - RUSSIAN: little straw/wisp of straw (nickname for thin Mme Markevitch) %%
-- **102/1883-11-13.md** para 102.0045 [LATIN]: %% 2026-02-03T09:06:25 LAN: "sine qua non" - LATIN: essential condition, without which not %%
-- **102/1883-11-20.md** para 102.0052 [LATIN]: %% 2026-02-03T09:07:42 LAN: "aurea mediocritas" - LATIN: golden mean (Horace), here: mediocrity %%
-- **102/1883-12-24.md** para 102.0085 [ENGLISH]: %% 2026-02-03T09:12:42 LAN: "la gentry parisienne" - ENGLISH: the Parisian gentry %%
-- **102/1884-01-02.md** para 102.0098 [RUSSIAN]: %% 2026-02-03T09:14:06 LAN: "starovoï" - RUSSIAN: starosta, village official/police functionary %%
-- **103/1884-02-08.md** para 103.0281 [LATIN]: %% 2026-02-02T14:00:00 LAN: "Idem" - LATIN: same as before, Marie's shorthand for routine days %%
-- **103/1884-03-26.md** para 103.0558 [LATIN]: %% 2026-02-02T14:00:00 LAN: "i.e." - LATIN: id est, that is %%
-- **103/1884-03-29.md** para 103.0572 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "si ingrata, t'amo, t'amo ancora" - ITALIAN: "ungrateful one, I love you, I still love you" - from Lucia sextet %%
+- **101/1883-08-18.md** para 101.0179 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN CODE-SWITCH: Extended passage in Italian for privacy. Marie speculates whether Bastien knows his brother admires her, and whether this would prevent Bastien from showing interest. "Aurora qualche cosa" = "Dawn something" (cryptic opening). Contains spelling errors in Italian (beuchè for benché, nostrarsi for mostrarsi, camino for cammino, infezione for affezione). %%
+- **101/1883-08-18.md** para 101.0180 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN continues: "But he doesn't think of me; if he wanted to think of me he wouldn't show it... because of the other; if it's true the other admires me, he admires me as I admire Giulio..." %%
+- **101/1883-08-18.md** para 101.0181 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN/FRENCH: "Well, if Dina saw that I liked someone who could never love me, Dina would do nothing to win that heart..." then switches to French: "but that's not the point" %%
+- **101/1883-08-18.md** para 101.0182 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN: "I'd like to know if the other truly cares for me enough to confess to great Giulio or if great Giulio only suspects that blind devotion..." (salamente for solamente, ciecha for cieca) %%
+- **101/1883-08-18.md** para 101.0183 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN/FRENCH switch: "Whatever the case, no one will ever know that I thought of that..." then French: "little peasant from Damvillers" %%
+- **101/1883-08-19.md** para 101.0186 [ITALIAN]: %% 2026-02-03T10:08:00 LAN: ITALIAN: "il gran Giulio" - the great Giulio (ironic aggrandizement) %%
+- **101/1883-08-30.md** para 101.0296 [LATIN]: %% 2026-02-03T10:13:00 LAN: LATIN: "Vanitas vanitatum et omnia vanitas" - Vanity of vanities, all is vanity (Ecclesiastes 1:2) %%
+- **101/1883-09-18.md** para 101.0396 [ENGLISH]: %% 2026-02-03T10:18:00 LAN: ENGLISH allusion: "Words, words, words" - from Shakespeare's Hamlet %%
+- **102/1883-10-24.md** para 102.0026 [RUSSIAN]: %% 2026-02-03T09:02:35 LAN: "Solominka" - RUSSIAN: little straw/wisp of straw (nickname for thin Mme Markevitch) %%
+- **102/1883-11-13.md** para 102.0046 [LATIN]: %% 2026-02-03T09:06:25 LAN: "sine qua non" - LATIN: essential condition, without which not %%
+- **102/1883-11-20.md** para 102.0053 [LATIN]: %% 2026-02-03T09:07:42 LAN: "aurea mediocritas" - LATIN: golden mean (Horace), here: mediocrity %%
+- **102/1883-12-24.md** para 102.0086 [ENGLISH]: %% 2026-02-03T09:12:42 LAN: "la gentry parisienne" - ENGLISH: the Parisian gentry %%
+- **102/1884-01-02.md** para 102.0099 [RUSSIAN]: %% 2026-02-03T09:14:06 LAN: "starovoï" - RUSSIAN: starosta, village official/police functionary %%
+- **103/1884-02-08.md** para 103.0279 [LATIN]: %% 2026-02-02T14:00:00 LAN: "Idem" - LATIN: same as before, Marie's shorthand for routine days %%
+- **103/1884-03-26.md** para 103.0542 [LATIN]: %% 2026-02-02T14:00:00 LAN: "i.e." - LATIN: id est, that is %%
+- **103/1884-03-29.md** para 103.0556 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "si ingrata, t'amo, t'amo ancora" - ITALIAN: "ungrateful one, I love you, I still love you" - from Lucia sextet %%
