@@ -292,7 +292,7 @@ Established terminology for consistent translation across carnets.
 | prince Wittgenstein | принц Вітґенштайн | Marie's romantic obsession; "Blackprince" |
 | princesse Marguerite | принцеса Марґеріт | Royalty at Spa |
 | comtesse Merjeewsky | графиня Мержевська | Polish countess with unfaithful husband |
-| Filipesco | Філіпеско | Romanian millionaire at Spa |
+| Filipesco | Філіпеску | Romanian millionaire at Spa |
 | Gambart | Ґамбар | Spa host who insults Marie |
 
 ### Idioms (Carnet 022)
