@@ -770,3 +770,17 @@ test('set_french that only turns a plain date line into the heading: translation
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('a stale README «Paragraph range» follows the new numbering instead of failing the write', () => {
+  const root = makeRepo();
+  try {
+    fs.writeFileSync(path.join(root, 'content/_original/099/README.md'), '# Carnet 099\n\n**Paragraph range**: 099.0001 - 099.0900 (old tome numbering)\n');
+    const planPath = path.join(root, 'plan.json');
+    fs.writeFileSync(planPath, JSON.stringify(MOVE_PLAN));
+    const wr = run(root, '099', planPath, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    assert.equal(read(root, 'content/_original/099/README.md'), '# Carnet 099\n\n**Paragraph range**: 099.0001 - 099.0006 (old tome numbering)\n');
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});

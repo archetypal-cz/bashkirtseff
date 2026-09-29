@@ -264,7 +264,14 @@ for (const s of sets) {
       const full = path.join(t.dir, f);
       if (!/\.(md|json|ya?ml|txt)$/.test(f) || REWRITE_SKIP_FILES.has(f)) continue;
       const cur = fs.readFileSync(full, 'utf-8');
-      const { text } = repoRewrite(cur);
+      let { text } = repoRewrite(cur);
+      // «**Paragraph range**: CCC.0001-CCC.NNNN» follows the new numbering (a stale
+      // range would name IDs beyond the carnet's end and fail renumber-check)
+      const last = `${s.carnet}.${String(mapping.fileOfNewId.size).padStart(4, '0')}`;
+      text = text.replace(
+        new RegExp(`(Paragraph range\\**:?\\**:?\\s*)${s.carnet}\\.\\d{4}(\\s*[-–—]\\s*)${s.carnet}\\.\\d{4}`, 'gi'),
+        (_m, head: string, dash: string) => `${head}${s.carnet}.0001${dash}${last}`
+      );
       if (text !== cur) changes.push({ rel: path.relative(repoRoot, full), content: text });
     }
     report.push(`  ${r.lang.padEnd(9)} ${r.files.size} entries: ${written} changed, ${same} unchanged, ${r.deleted.length} deleted; approval flags reset in ${r.flagResets.length}`);
