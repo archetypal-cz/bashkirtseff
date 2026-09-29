@@ -5,7 +5,7 @@
 - **Date range**: 1873-11-02 to 1873-11-20
 - **Entries**: 19
 - **Location**: Nice
-- **Paragraphs**: 012.0001 -- 012.0306
+- **Paragraphs**: 012.0025 -- 012.0331
 - **Marie's age**: 14
 
 ## Status
@@ -29,7 +29,7 @@
 - **1873-11-02**: Longest entry (19 paragraphs) -- chaotic lunch at London House, Hitchcock's arrival, class hierarchies, Hamilton obsession
 - **1873-11-07**: Elaborate horse riding, extended English dialogue about Hamilton, "Go on Jennings go on!" as motto
 - **1873-11-09**: Galignani's confirms Hamilton's wedding, physical shock, singing in darkness, "Why am I not beautiful?"
-- **1873-11-10**: PIVOTAL -- extended English dialogue with Hitchcock (012.0134-0152 almost entirely in English), Hamilton as "cow's legs, pig's face, hippopotamus's back"
+- **1873-11-10**: PIVOTAL -- extended English dialogue with Hitchcock (012.0158-0152 almost entirely in English), Hamilton as "cow's legs, pig's face, hippopotamus's back"
 - **1873-11-15**: Elaborate dream of Gioia's villa, Paul's truancy despair
 - **1873-11-16**: Kolokolzoff marriage rumor (Hamilton/Bashkirtseff!), beauty contest at promenade
 - **1873-11-17**: "Castles in Spain" crumbling, ermine metaphor, horse fall

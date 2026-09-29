@@ -5,7 +5,7 @@
 - **Date range**: 1873-09-23 to 1873-10-14
 - **Entries**: 22
 - **Location**: Nice
-- **Paragraphs**: 010.0001 -- 010.0465
+- **Paragraphs**: 010.0001 -- 010.DROPPED-0465
 - **Marie's age**: 14
 
 ## Status
