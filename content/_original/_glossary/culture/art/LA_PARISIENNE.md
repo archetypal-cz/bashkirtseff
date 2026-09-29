@@ -71,7 +71,7 @@ Marie sent it to the Salon of 1883 as a second *envoi* that nobody knew about, a
 - 1884-03-30 (103.0606) -- used as the yardstick for *Un meeting*
 
 %% GLO_LA_PARISIENNE.0013 %%
-Irma also recurs throughout the diary as a person and a working model, notably at 101.0523, 102.0058, 102.0077, 102.0088, 103.0008, 103.0140 and 105.0013 -- including as a model for the *Douleur de Nausicaa* and as a companion on the wrestler-hunting expeditions of July 1884.
+Irma also recurs throughout the diary as a person and a working model, notably at 101.0523, 102.0059, 102.0078, 102.0089, 103.0008, 103.0140 and 105.0013 -- including as a model for the *Douleur de Nausicaa* and as a companion on the wrestler-hunting expeditions of July 1884.
 
 %% GLO_LA_PARISIENNE.0014 %%
 ## Related Entries

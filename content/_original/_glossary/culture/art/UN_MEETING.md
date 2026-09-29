@@ -54,7 +54,7 @@ The title appears in the diary only on **9 March 1884**, in Tony's verdict, and 
 
 %% GLO_UN_MEETING.0011 %%
 %% [#Salon](./SALON.md) [#Medaille](./MEDAILLE.md) %%
-The Salon of 1884 gave her everything except the medal. Charles Baude photographed and engraved it (104.0087); Düsseldorf asked to engrave and publish it (104.0120); "il n'y a pas un journal qui ne parle de mon tableau" (104.0125), and later "cinquante journaux qui parlent de mon Salon" (104.0616). *Le Journal des Arts* wrote that it had thought it was seeing a Bastien-Lepage, which she read as malice (104.0042–0036). Then came the rumour that she had not painted it herself -- "mon tableau est si bien qu'on croit que je me suis fait aider. C'est atroce" (104.0257–0263) -- which she believed cost her the award: "ils ont dû penser beaucoup d'entre eux que je m'étais fait aider" (104.0653). Villevieille offered a blunter explanation: no medal because she had called the 1883 jury idiots in public (104.0463). Her letter to Julian on the subject is the coldest thing she wrote about prizes: "Les médailles ne sont faites que pour les nullités" (104.0357–0376).
+The Salon of 1884 gave her everything except the medal. Charles Baude photographed and engraved it (104.0088); Düsseldorf asked to engrave and publish it (104.0121); "il n'y a pas un journal qui ne parle de mon tableau" (104.0126), and later "cinquante journaux qui parlent de mon Salon" (104.0617). *Le Journal des Arts* wrote that it had thought it was seeing a Bastien-Lepage, which she read as malice (104.0043–0036). Then came the rumour that she had not painted it herself -- "mon tableau est si bien qu'on croit que je me suis fait aider. C'est atroce" (104.0258–0263) -- which she believed cost her the award: "ils ont dû penser beaucoup d'entre eux que je m'étais fait aider" (104.0654). Villevieille offered a blunter explanation: no medal because she had called the 1883 jury idiots in public (104.0464). Her letter to Julian on the subject is the coldest thing she wrote about prizes: "Les médailles ne sont faites que pour les nullités" (104.0358–0376).
 
 %% GLO_UN_MEETING.0012 %%
 ## References in Diary
@@ -66,18 +66,18 @@ The Salon of 1884 gave her everything except the medal. Charles Baude photograph
 - 1883-05-12 (099.0373–0364) -- Julian shown it as a proxy for public opinion
 - 1883-07-21 (100.0226), 1883-08-05 (100.0311), 1883-09-26 (101.0433) -- storm damage and the summer's frustration
 - 1883-10-08 (101.0537), 1883-10-09 (101.0553) -- Bastien-Lepage's advice; "Oui, il faut *achever* les gamins"
-- 1883-10-17 (102.0019), 1883-11-21 (102.0054), 1883-12-16 (102.0078) -- the stalled autumn
+- 1883-10-17 (102.0019), 1883-11-21 (102.0054), 1883-12-16 (102.0079) -- the stalled autumn
 - 1883-11-22 (102.0055) -- front page of *L'Illustration universelle*, St Petersburg
 - **1884-03-09 (103.0459)** -- the title first written down, as "Un Metting"
 - 1884-03-14 (103.0472) -- her only Salon submission for 1884
 - 1884-03-30 (103.0568–0585, 103.0606) -- the placement panic; Franceschi and Émile Bastien predict a medal
-- 1884-04-30 (104.0042–0036, 104.0050) -- press day; the Bastien-Lepage comparison; Carolus-Duran and Julian both confident
-- 1884-05-01 (104.0068) -- her own doubt: "Mon tableau à moi est d'une peinture *vieille*"
-- 1884-05-03 (104.0087, 104.0089), 1884-05-07 (104.0120, 104.0125) -- Baude's engraving, the Düsseldorf request, the press
-- 1884-05-18 (104.0216–0235), 1884-05-20 (104.0257, 104.0259) -- the whisper that she had been helped
-- **1884-05-24 to 05-31 (104.0308–0438, 104.0463–0483)** -- the medal refused, the letter to Julian, Villevieille's explanation, Baude's engraving published with an article saying the public is disappointed
-- 1884-06-02 (104.0489), 1884-06-15 (104.0574) -- Hayem angling to buy it cheap; his advice to ask 2,500 francs
-- 1884-06-20 (104.0600, 104.0603), 1884-06-25 (104.0651, 104.0653) -- the photograph sent to Émile in Algiers; her retrospective on the medal
+- 1884-04-30 (104.0043–0036, 104.0051) -- press day; the Bastien-Lepage comparison; Carolus-Duran and Julian both confident
+- 1884-05-01 (104.0069) -- her own doubt: "Mon tableau à moi est d'une peinture *vieille*"
+- 1884-05-03 (104.0088, 104.0090), 1884-05-07 (104.0121, 104.0126) -- Baude's engraving, the Düsseldorf request, the press
+- 1884-05-18 (104.0217–0235), 1884-05-20 (104.0258, 104.0260) -- the whisper that she had been helped
+- **1884-05-24 to 05-31 (104.0309–0438, 104.0464–0483)** -- the medal refused, the letter to Julian, Villevieille's explanation, Baude's engraving published with an article saying the public is disappointed
+- 1884-06-02 (104.0490), 1884-06-15 (104.0575) -- Hayem angling to buy it cheap; his advice to ask 2,500 francs
+- 1884-06-20 (104.0601, 104.0604), 1884-06-25 (104.0652, 104.0654) -- the photograph sent to Émile in Algiers; her retrospective on the medal
 - 1884-07-05 (105.0034) -- Ducros ranks the new Sèvres canvas above it: "Cet imbécile la met au-dessus du Meeting !!"
 
 %% GLO_UN_MEETING.0014 %%

@@ -28,3 +28,6 @@ Translation flags were reset by the tool in the touched entries (053 1876-01-26;
 - Pre-existing `069.DROPPED-0650/0651` references (fr/_translate_manifest.json, fr/_non_french_passages.md, cz/TranslationMemory.md, uk/069/1877-03-22.md) come from the 2026-09-28 rebuild and are not touched here.
 - `content/_raw/reports/kernberger_matching.json` still lists 069.0556 (raw report, not rewritten by the tool).
 - 053 dry-run WARN «1876-01-24.md: first paragraph has no date heading» is pre-existing (title note).
+
+## Run 2 (102, 104)
+See `run2/REVIEW.md`.

@@ -39,7 +39,7 @@ Her working principle for it was stated flatly a week later: "rien ne peut égal
 
 %% GLO_LA_RUE.0009 %%
 %% [#Art_practice](../themes/ART_PRACTICE.md) %%
-The idea arrived on **4 June 1884**, at three in the afternoon, and it arrived as wrestlers: "J'avais justement envie d'un sujet moderne avec beaucoup de monde et du nu, et une toile pas trop énorme. Ça y est... Eh bien mes lutteurs. Des lutteurs forains et du monde tout au tour. Il y aura des torses nus pour montrer que je puis faire du nu. Ivresse !" (104.0508). Within days she was at Montmartre watching them, and already half-converted: "Mon Dieu que c'est donc intéressant la rue !" (104.0552). The canvas was delivered and the wrestlers sketched on it by 24 June (104.0627–0663).
+The idea arrived on **4 June 1884**, at three in the afternoon, and it arrived as wrestlers: "J'avais justement envie d'un sujet moderne avec beaucoup de monde et du nu, et une toile pas trop énorme. Ça y est... Eh bien mes lutteurs. Des lutteurs forains et du monde tout au tour. Il y aura des torses nus pour montrer que je puis faire du nu. Ivresse !" (104.0509). Within days she was at Montmartre watching them, and already half-converted: "Mon Dieu que c'est donc intéressant la rue !" (104.0553). The canvas was delivered and the wrestlers sketched on it by 24 June (104.0628–0663).
 
 %% GLO_LA_RUE.0010 %%
 The wrestlers then collapsed as a subject for practical and social reasons: they work indoors and at night -- "je ne veux pas peindre aux lumières et je n'aurais plus l'intérêt des types de la rue" (105.0026); [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) told her Falguière had done it eight years before (105.0036); and her family told her that painting wrestlers would be a scandal (105.0146). By mid-July they were abandoned (105.0188–0199) and the street had taken their place.
@@ -61,9 +61,9 @@ The last six weeks are a record of obstruction and failing strength: ten days lo
 ## References in Diary
 
 %% GLO_LA_RUE.0016 %%
-- **First mention: 1884-06-04 (104.0508)** -- the idea arrives as wrestlers: "Eh bien mes lutteurs... Ivresse !"
-- 1884-06-09 (104.0552) -- watching wrestlers at Montmartre; "que c'est donc intéressant la rue !"
-- 1884-06-24 (104.0627–0663) -- canvas delivered, wrestlers sketched in
+- **First mention: 1884-06-04 (104.0509)** -- the idea arrives as wrestlers: "Eh bien mes lutteurs... Ivresse !"
+- 1884-06-09 (104.0553) -- watching wrestlers at Montmartre; "que c'est donc intéressant la rue !"
+- 1884-06-24 (104.0628–0663) -- canvas delivered, wrestlers sketched in
 - 1884-07-03 (105.0013) -- hunting wrestlers at the fair and on the outer boulevards with Rosalie and Irma
 - 1884-07-04 (105.0026), 1884-07-05 (105.0036), 1884-07-12 (105.0146) -- the subject fails: night work, Falguière's precedent, the family's talk of scandal
 - **1884-07-09 (105.0099–0107)** -- the pivot: "la rue avec ses physionomies, c'est ça que je voulais"
