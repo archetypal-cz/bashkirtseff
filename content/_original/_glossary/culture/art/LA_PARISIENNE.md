@@ -44,7 +44,7 @@ Marie had described Irma in December 1881 as the vanished "type de la grisette",
 ## Making of the Work
 
 %% GLO_LA_PARISIENNE.0008 %%
-Irma was sitting for her from **December 1881**, and the head was finished on **18 July 1882**: "Fin de la tête d'Irma" (095.0298). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) and [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) arrived at seven that evening with great compliments -- "c'est gras, c'est souple, c'est d'un ton fin... Enfin vous êtes sortie des sécheresses. C'est reposé" (095.0299). The praise mattered: dryness was the standing charge against her painting, and this small head was the first work that answered it. She dated her subsequent decline from it: "depuis Irma j'ai pataugé dans la pluie avec le père Charles" (097.0212).
+Irma was sitting for her from **December 1881**, and the head was finished on **18 July 1882**: "Fin de la tête d'Irma" (095.0298). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) and [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) arrived at seven that evening with great compliments -- "c'est gras, c'est souple, c'est d'un ton fin... Enfin vous êtes sortie des sécheresses. C'est reposé" (095.0299). The praise mattered: dryness was the standing charge against her painting, and this small head was the first work that answered it. She dated her subsequent decline from it: "depuis Irma j'ai pataugé dans la pluie avec le père Charles" (097.0214).
 
 %% GLO_LA_PARISIENNE.0009 %%
 %% [#Salon](./SALON.md) %%
@@ -61,8 +61,8 @@ Marie sent it to the Salon of 1883 as a second *envoi* that nobody knew about, a
 - **First substantial mention: 1881-12-29 (094.0057)** -- the character sketch of Irma, and of what makes her a subject
 - 1882-07-01 (095.0232) -- "Depuis le matin je travaille avec Irma"
 - **1882-07-18 (095.0298–0278)** -- "Fin de la tête d'Irma"; Tony's and Julian's compliments
-- 1882-11-27 (097.0153) -- the two-year inventory of her work, Irma among "les grands tableaux"
-- 1882-12-07 (097.0212) -- "depuis Irma j'ai pataugé dans la pluie avec le père Charles"
+- 1882-11-27 (097.0155) -- the two-year inventory of her work, Irma among "les grands tableaux"
+- 1882-12-07 (097.0214) -- "depuis Irma j'ai pataugé dans la pluie avec le père Charles"
 - 1883-03-25 (098.0573–0573) -- jury day; the secret second *envoi* and her fear that only Irma would be taken
 - 1883-03-27 (098.0590, 098.0605) -- "il ne pouvait y avoir de doute pour Irma"
 - 1883-04-22 (099.0177) -- hung on the *cimaise*, in a corner: the place of honour

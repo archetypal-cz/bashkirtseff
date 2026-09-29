@@ -19,7 +19,7 @@ transliteration: Dykanka
 
 %% GLO_DIKANKA.0002 %%
 %% [#Kotchoubey](../../people/mentioned/KOTCHOUBEY.md) [#Gavronzi](./GAVRONZI.md) %%
-%% 2026-09-07T12:00:00 RSR: Sourced from the diary (066.0577–0430, 096.0400, 096.0428, 097.0007) and the footnotes already attached to those paragraphs. %%
+%% 2026-09-07T12:00:00 RSR: Sourced from the diary (066.0577–0430, 096.0400, 096.0428, 097.0009) and the footnotes already attached to those paragraphs. %%
 Dikanka is the Kotchoubey family estate in the Poltava region, ten kilometres from the Bashkirtseff estate at [Gavronzi](./GAVRONZI.md). In Russian culture the name belongs to literature: Pushkin's *Poltava* (1829) sets there the story of Mazeppa, Mariya Kochubey and the execution of her father, and Gogol's *Evenings on a Farm Near Dikanka* (1831–32) made the village a byword for Ukrainian village life. For the Bashkirtseff circle it was the grandest house in the neighbourhood, and being received there was a mark of standing.
 
 %% GLO_DIKANKA.0003 %%
@@ -32,7 +32,7 @@ Dikanka is the Kotchoubey family estate in the Poltava region, ten kilometres fr
 - **October 1882** (096.0400, 096.0428): during the second Russian stay, her father's wolf hunt is organised in the Dikanka forests with the young Kotchoubey princes. The battue is enormous, with nets around several kilometres of woods and, in the event, more than four hundred peasants driving the game. Nine wolves and a fox are killed; Marie, posted on the wrong flank, fires at nothing.
 
 %% GLO_DIKANKA.0006 %%
-- **31 October 1882** (097.0007): reports of the drinking at Dikanka the previous day; the family is flattered by the Kotchoubey friendship and "Poltava en est éblouie".
+- **31 October 1882** (097.0009): reports of the drinking at Dikanka the previous day; the family is flattered by the Kotchoubey friendship and "Poltava en est éblouie".
 
 %% GLO_DIKANKA.0007 %%
 ## Related Entries

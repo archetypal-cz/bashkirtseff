@@ -43,7 +43,7 @@ Marie herself observed the contrasts sharply. In her political analysis of Itali
 ### The Lazzaroni
 
 %% GLO_NAPLES.0005 %%
-The [lazzaroni](https://en.wikipedia.org/wiki/Lazzaroni_(Naples)) -- Naples's legendary urban poor, named after the biblical beggar Lazarus -- fascinated Marie. At the skating rink, she noted that "les lazzaroni comme il faut sont aussi bruyants que ceux de la rue" and that "les talents que possèdent ces aimables Masaniello s'exercent en société" -- referring to [Masaniello](https://en.wikipedia.org/wiki/Masaniello), the 17th-century Neapolitan fisherman who led a famous revolt (068.1144, February 14, 1877). On the road to Sorrento, she described "des lazzaroni à moitié nus partout, des oliviers, un air divin" -- integrating the poverty into her landscape painting in words (068.1175, February 16, 1877).
+The [lazzaroni](https://en.wikipedia.org/wiki/Lazzaroni_(Naples)) -- Naples's legendary urban poor, named after the biblical beggar Lazarus -- fascinated Marie. At the skating rink, she noted that "les lazzaroni comme il faut sont aussi bruyants que ceux de la rue" and that "les talents que possèdent ces aimables Masaniello s'exercent en société" -- referring to [Masaniello](https://en.wikipedia.org/wiki/Masaniello), the 17th-century Neapolitan fisherman who led a famous revolt (068.1145, February 14, 1877). On the road to Sorrento, she described "des lazzaroni à moitié nus partout, des oliviers, un air divin" -- integrating the poverty into her landscape painting in words (068.1176, February 16, 1877).
 
 ### Winter Resort and Grand Tour Destination
 
@@ -99,7 +99,7 @@ Marie arrived in Naples from Rome in mid-April 1876, age seventeen, and was imme
 **The Pompeii excursion.** On April 18, 1876, Marie drove to [Pompeii](https://en.wikipedia.org/wiki/Pompeii) with the party, admiring [Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius), [Castellammare](https://en.wikipedia.org/wiki/Castellammare_di_Stabia), and [Sorrento](https://en.wikipedia.org/wiki/Sorrento) along the way. The excavations prompted one of her most devastating metaphors: "La femme avant le mariage, dis-je, c'est Pompéi avant l'éruption et la femme après le mariage c'est Pompéi après l'éruption" (058.0158). The skeletons "dans des poses déchirantes" moved her deeply.
 
 %% GLO_NAPLES.0015 %%
-**The horse races.** The Naples races were a major society event. Marie's description (April 20, 1876, 059.0006) rivals her best Paris passages: "Une telle multitude d'équipages attelés de quatre chevaux, à longues guides, avec postillons, piqueurs, en perruque, en grande livrée, ne se peut imaginer ! On se croit transporté dans le bon vieux temps." She also noted the paradox of Neapolitan aristocratic display: "On dit les Napolitains pauvres, fort bien, je consens à passer pour pauvre et mener un pareil train. Pas d'argent et huit chevaux, et quatre voitures" (059.0007).
+**The horse races.** The Naples races were a major society event. Marie's description (April 20, 1876, 059.0007) rivals her best Paris passages: "Une telle multitude d'équipages attelés de quatre chevaux, à longues guides, avec postillons, piqueurs, en perruque, en grande livrée, ne se peut imaginer ! On se croit transporté dans le bon vieux temps." She also noted the paradox of Neapolitan aristocratic display: "On dit les Napolitains pauvres, fort bien, je consens à passer pour pauvre et mener un pareil train. Pas d'argent et huit chevaux, et quatre voitures" (059.0008).
 
 %% GLO_NAPLES.0016 %%
 **Emotional undertow.** Throughout the 1876 visit, Marie's delight in Naples was undercut by obsessive thoughts about Pietro Antonelli. She had left instructions at her Rome hotel to tell everyone she had departed, "mais si le comte Antonelli venait on lui dira que je suis à Naples" (058.0031). The evenings alone were torment: "On n'a pas envie de se coucher à Naples, la mer hurle, je l'écoute et je suis en colère comme elle" (058.0031). And: "Dieu que Naples serait belle si j'y avais quelqu'un !" (058.0034).
@@ -110,24 +110,24 @@ Marie arrived in Naples from Rome in mid-April 1876, age seventeen, and was imme
 Marie returned to Naples in February 1877, at eighteen, for Carnival. This visit, recorded primarily in carnets 068 and 069, became one of the diary's most psychologically intense episodes. She was accompanied by her mother, niece Dina, and the elderly Pelikan.
 
 %% GLO_NAPLES.0018 %%
-**The San Carlo veglione.** The masked charity ball at the Teatro di San Carlo was a triumph of social theater. Marie and Dina wore "des robes noires et des capuchons à pèlerine en chantilly doublé de noir" (068.0814). Marie's strategy of absolute silence -- the "muettes" -- created a sensation: thirty men gathered around them, intrigued by the masked women who refused to speak. This silent performance demonstrated Marie's mastery of social manipulation.
+**The San Carlo veglione.** The masked charity ball at the Teatro di San Carlo was a triumph of social theater. Marie and Dina wore "des robes noires et des capuchons à pèlerine en chantilly doublé de noir" (068.0815). Marie's strategy of absolute silence -- the "muettes" -- created a sensation: thirty men gathered around them, intrigued by the masked women who refused to speak. This silent performance demonstrated Marie's mastery of social manipulation.
 
 %% GLO_NAPLES.0019 %%
-**Count Larderei.** The hotel neighbor Count Larderei became Marie's consuming obsession during this visit. The masked ball flirtation, the intricate espionage through servants, the ten-minute train ride to Cancello bought on invented pretexts -- all of this played out against Naples's carnival backdrop. Marie learned through servants that Larderei kept a mistress (the singer La Righi) and had a daughter, which paradoxically increased her fascination: "cette idée que Larderei, un enfant lui-même, a un... enfant, cela m'amuse immensément" (068.1166).
+**Count Larderei.** The hotel neighbor Count Larderei became Marie's consuming obsession during this visit. The masked ball flirtation, the intricate espionage through servants, the ten-minute train ride to Cancello bought on invented pretexts -- all of this played out against Naples's carnival backdrop. Marie learned through servants that Larderei kept a mistress (the singer La Righi) and had a daughter, which paradoxically increased her fascination: "cette idée que Larderei, un enfant lui-même, a un... enfant, cela m'amuse immensément" (068.1167).
 
 %% GLO_NAPLES.0020 %%
-**The Chiaia and the Corso.** Marie frequented the fashionable [Chiaia](https://en.wikipedia.org/wiki/Chiaia) waterfront promenade and watched the Carnival Corso from her hotel balcony at the Hôtel du Louvre. The skating rink on the Chiaia, the evening promenades, and the view of "toutes les voitures de Naples" from her window became the stage for her simultaneous social performance and inner collapse: "j'ai vu défiler devant ma fenêtre toutes les voitures de Naples et je n'ai pas osé me montrer dans la rue" (068.1189, February 18, 1877).
+**The Chiaia and the Corso.** Marie frequented the fashionable [Chiaia](https://en.wikipedia.org/wiki/Chiaia) waterfront promenade and watched the Carnival Corso from her hotel balcony at the Hôtel du Louvre. The skating rink on the Chiaia, the evening promenades, and the view of "toutes les voitures de Naples" from her window became the stage for her simultaneous social performance and inner collapse: "j'ai vu défiler devant ma fenêtre toutes les voitures de Naples et je n'ai pas osé me montrer dans la rue" (068.1190, February 18, 1877).
 
 %% GLO_NAPLES.0021 %%
-**The excursion to Sorrento.** On February 16, 1877, Marie visited [Castellammare](https://en.wikipedia.org/wiki/Castellammare_di_Stabia), Sejano, Vico, and [Sorrento](https://en.wikipedia.org/wiki/Sorrento). Her landscape description is among her finest prose: the blue and calm sea, the sun, lazzaroni half-naked everywhere, olive trees, "un air divin, une petite brise qui rosissait les joues, ça et là des fleurs, au milieu d'une verdure éclatante tranchant sur le bleu de l'eau; des rochers bordant le chemin qui semblent droits comme des murs et pourtant dans une sorte de crevasse... une chèvre endormie" (068.1175). She also visited the Grotto of Posillipo (Pausilippe) and the Tomb of Virgil (068.1182).
+**The excursion to Sorrento.** On February 16, 1877, Marie visited [Castellammare](https://en.wikipedia.org/wiki/Castellammare_di_Stabia), Sejano, Vico, and [Sorrento](https://en.wikipedia.org/wiki/Sorrento). Her landscape description is among her finest prose: the blue and calm sea, the sun, lazzaroni half-naked everywhere, olive trees, "un air divin, une petite brise qui rosissait les joues, ça et là des fleurs, au milieu d'une verdure éclatante tranchant sur le bleu de l'eau; des rochers bordant le chemin qui semblent droits comme des murs et pourtant dans une sorte de crevasse... une chèvre endormie" (068.1176). She also visited the Grotto of Posillipo (Pausilippe) and the Tomb of Virgil (068.1183).
 
 %% GLO_NAPLES.0022 %%
-**Psychological collapse.** The Naples Carnival visit ended in what the RSR researcher calls "Marie's psychological nadir." The combination of Larderei's departure, social shame carried from Rome, and her mother's illness produced a spiraling despair: "Aujourd'hui j'ai comme honte de tout, de Spa, de Rome, de Naples" (068.1204, February 21, 1877). Her self-interrogation -- "Aurais-je vraiment le cerveau détraqué?" (Am I truly mentally deranged?) -- marks the most severe crisis in the diary up to this point.
+**Psychological collapse.** The Naples Carnival visit ended in what the RSR researcher calls "Marie's psychological nadir." The combination of Larderei's departure, social shame carried from Rome, and her mother's illness produced a spiraling despair: "Aujourd'hui j'ai comme honte de tout, de Spa, de Rome, de Naples" (068.1205, February 21, 1877). Her self-interrogation -- "Aurais-je vraiment le cerveau détraqué?" (Am I truly mentally deranged?) -- marks the most severe crisis in the diary up to this point.
 
 ### Victor Emmanuel II: Admiration from Afar
 
 %% GLO_NAPLES.0023 %%
-Marie's relationship with [Victor Emmanuel II](https://en.wikipedia.org/wiki/Victor_Emmanuel_II) was one of political admiration rather than personal encounter. In January 1877, traveling through Italy, she described him in near-mythic terms: "la monstrueuse figure de Victor-Emmanuel, empreinte d'une étrange majesté, marchant sur Rome, se faisant proclamer au Capitole par 4.000 seulement Re e liberatore. Et accomplissant ainsi l'union du plus beau pays du monde" (068.0246). She saw him at the opera in Rome, where "Nous sommes dans une baignoire en face de Soroka, de la gentille princesse et du Roi." When he died on January 9, 1878, Marie's reaction was characteristically competitive: "Cette misérable est reine!" -- her fury directed at [Queen Margherita](https://en.wikipedia.org/wiki/Margherita_of_Savoy), whom she felt had usurped a role meant for someone like herself (077, January 11, 1878). Larderei's sister was married to the Conte de Mirafiore, Victor Emmanuel's morganatic son, which gave Marie an indirect connection to the royal family.
+Marie's relationship with [Victor Emmanuel II](https://en.wikipedia.org/wiki/Victor_Emmanuel_II) was one of political admiration rather than personal encounter. In January 1877, traveling through Italy, she described him in near-mythic terms: "la monstrueuse figure de Victor-Emmanuel, empreinte d'une étrange majesté, marchant sur Rome, se faisant proclamer au Capitole par 4.000 seulement Re e liberatore. Et accomplissant ainsi l'union du plus beau pays du monde" (068.0247). She saw him at the opera in Rome, where "Nous sommes dans une baignoire en face de Soroka, de la gentille princesse et du Roi." When he died on January 9, 1878, Marie's reaction was characteristically competitive: "Cette misérable est reine!" -- her fury directed at [Queen Margherita](https://en.wikipedia.org/wiki/Margherita_of_Savoy), whom she felt had usurped a role meant for someone like herself (077, January 11, 1878). Larderei's sister was married to the Conte de Mirafiore, Victor Emmanuel's morganatic son, which gave Marie an indirect connection to the royal family.
 
 ### Later References: Nostalgia and Longing
 
@@ -150,24 +150,24 @@ In February 1878 (077.0372), Marie considered marriage to the Prince de Bourbon,
 ### Cultural Attractions
 
 %% GLO_NAPLES.0026 %%
-- **[Teatro di San Carlo](https://en.wikipedia.org/wiki/Teatro_di_San_Carlo)**: Europe's oldest continuously active opera house (1737). Marie attended the *veglione* masked ball and multiple opera performances here (068.0814, 068.0951)
+- **[Teatro di San Carlo](https://en.wikipedia.org/wiki/Teatro_di_San_Carlo)**: Europe's oldest continuously active opera house (1737). Marie attended the *veglione* masked ball and multiple opera performances here (068.0815, 068.0952)
 - **[Palazzo Reale](https://en.wikipedia.org/wiki/Royal_Palace_of_Naples)**: "Le palais du Roi, près le théâtre San Carlo" (058.0227)
 - **[Museo di Capodimonte](https://en.wikipedia.org/wiki/Museum_of_Capodimonte)**: "Le palais de Capo di Monte... le parc est quelque chose d'admirable" (058.0112)
 - **[Pompeii](https://en.wikipedia.org/wiki/Pompeii)**: The excavations, reached by carriage via Castellammare (058.0154-0131)
-- **[Tomb of Virgil](https://en.wikipedia.org/wiki/Tomb_of_Virgil)** and the **Grotto of Posillipo** (068.1182)
+- **[Tomb of Virgil](https://en.wikipedia.org/wiki/Tomb_of_Virgil)** and the **Grotto of Posillipo** (068.1183)
 
 ### Streets and Promenades
 
 %% GLO_NAPLES.0027 %%
 - **[Via Toledo](https://en.wikipedia.org/wiki/Via_Toledo,_Naples)** (Via di Roma): "C'est le Corso de Naples" -- the main promenade street, closed to carriages during Carnival processions (058.0015)
-- **[Chiaia](https://en.wikipedia.org/wiki/Chiaia)**: The fashionable waterfront promenade. Marie walked "toute la Chiaja à pied" and watched the Corso di gala from her hotel balcony (068.1144, 068.0982)
+- **[Chiaia](https://en.wikipedia.org/wiki/Chiaia)**: The fashionable waterfront promenade. Marie walked "toute la Chiaja à pied" and watched the Corso di gala from her hotel balcony (068.1145, 068.0983)
 - **L'Accademia**: The noble club on Via Toledo, from which Altamura was excluded (058.0018-0009)
 
 ### Excursions from Naples
 
 %% GLO_NAPLES.0028 %%
 - **[Pompeii](https://en.wikipedia.org/wiki/Pompeii)**: Reached by carriage, admiring [Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius), [Castellammare](https://en.wikipedia.org/wiki/Castellammare_di_Stabia), and [Sorrento](https://en.wikipedia.org/wiki/Sorrento) en route (058.0154)
-- **[Sorrento](https://en.wikipedia.org/wiki/Sorrento)**: Clifftop resort where Marie "acheté quelques objets en bois" and observed the landscape (068.1176)
+- **[Sorrento](https://en.wikipedia.org/wiki/Sorrento)**: Clifftop resort where Marie "acheté quelques objets en bois" and observed the landscape (068.1177)
 - **Posillipo ([Pausilippe](https://en.wikipedia.org/wiki/Posillipo))**: "La descente par le Pausilippe" with views of the bay, Vesuvius, and "la grotte de Pozzuali qu'on aperçoit comme une bouche de canon" (raw carnet 10)
 - **[Vesuvius](https://en.wikipedia.org/wiki/Mount_Vesuvius)**: Marie planned to climb it but never did; she refers to it metaphorically: "Lave du Vésuve ! Fange du Tibre ! Orgue de Barbarie !" (carnet 07, her string of comic exclamations)
 - **[Capri](https://en.wikipedia.org/wiki/Capri)**: Mentioned as intended destination (Grotte d'Azur) but apparently not visited: "tu visiteras la Grotte d'Azur et celle du Chien" (058.0127)
@@ -175,7 +175,7 @@ In February 1878 (077.0372), Marie considered marriage to the Prince de Bourbon,
 ### Hotels
 
 %% GLO_NAPLES.0029 %%
-- **Hôtel du Louvre**: On the Chiaia, where Marie stayed during the 1877 Carnival -- "notre balcon est au meilleur endroit, puisque nous logeons à l'hôtel du Louvre" (068.0982). The hotel's position gave her a front-row view of the Corso and, fatefully, placed Larderei in the adjacent room.
+- **Hôtel du Louvre**: On the Chiaia, where Marie stayed during the 1877 Carnival -- "notre balcon est au meilleur endroit, puisque nous logeons à l'hôtel du Louvre" (068.0983). The hotel's position gave her a front-row view of the Corso and, fatefully, placed Larderei in the adjacent room.
 
 ## Significance in the Diary
 

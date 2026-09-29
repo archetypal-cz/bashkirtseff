@@ -182,6 +182,8 @@ The 36 in 067 are OCR variants of text that is present:
 
 ## Withdrawn cover pages (for when the manuscript is available)
 
+> **Update.** Title-notes pass 2026-09-29 (`_renumber/titlenotes-2026-09-29/`, owner policy: Marie's own notes on title/flyleaf pages go in as `margin`/`other` at the carnet's first entry; the formal title lines stay withdrawn; the carnet was renumbered): the maxims «Ment sana in corpore sano / Tutto fano nulla sauna / … (Alfieri) / Mont sana in corpore sano» (¶1690–1695, printed verbatim, readings in the RSR note: Juvenal; Alfieri's Misogallo epigram) are now **067.0001** (`other`), before the heading paragraph of 1876-10-12.
+
 Owner decision KRR 2026-09-28: no cover entries until the manuscript is scanned. Text as printed, Mon Journal t.9 p.119 (docx ¶1686–1695). The print has «o[f]]»; the mottos are printed garbled, and the OCR's «fatino»/«Francai» were read from the scan as «fauno»/«Francsi»:
 ```
 Gloriae Cupiditate

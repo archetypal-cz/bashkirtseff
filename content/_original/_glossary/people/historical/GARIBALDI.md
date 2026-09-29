@@ -16,10 +16,10 @@ Italian general and patriot, the leading military figure of the Risorgimento: th
 His memoirs, edited and adapted by Alexandre Dumas, appeared in French from 1860 (Mémoires de Garibaldi) and were widely read.
 
 ## Relevance to Marie
-On 6 January 1877, back in Nice after a week in Rome, Marie reads «les mémoires de Garibaldi et encore un autre livre où il en est question» and is «électrisée»; the reading sharpens her sense of her own insignificance: «Et moi je ne suis rien» (068.0304-0307). The same week she is moved by the royalist slogan in Piazza Barberini and the figure of Victor Emmanuel marching on Rome (068.0244-0250).
+On 6 January 1877, back in Nice after a week in Rome, Marie reads «les mémoires de Garibaldi et encore un autre livre où il en est question» and is «électrisée»; the reading sharpens her sense of her own insignificance: «Et moi je ne suis rien» (068.0305-0307). The same week she is moved by the royalist slogan in Piazza Barberini and the figure of Victor Emmanuel marching on Rome (068.0245-0250).
 
 ## References in Diary
-- 1877-01-06 (068.0304)
+- 1877-01-06 (068.0305)
 
 ## Related
 - [VICTOR_EMMANUEL_II](../mentioned/VICTOR_EMMANUEL_II.md)

@@ -24,6 +24,8 @@ Every date line 29 Oct 1882 – 11 Jan 1883 is present in the docx; every docx b
 - `_original` 097 from mid-Nov on is accent-stripped («decembre», «a dire», «etait»…). Kept, flag for a separate re-accent pass.
 
 ### Withdrawn cover page
+
+> **Update.** Title-notes pass 2026-09-29 (`_renumber/titlenotes-2026-09-29/`, owner policy: Marie's own notes on title/flyleaf pages go in as `margin`/`other` at the carnet's first entry; the formal title lines stay withdrawn; the carnet was renumbered): the maxim is now **097.0001** (`editorial` «[Sur une page]») + **097.0002** (`other` «Dieu nous apprend le mépris des richesses…»), before the heading paragraph of 1882-10-29 (answers the question below).
 - ¶1224–1229 (p.107): «Gloriae Cupiditas / [Livre] 97ème / depuis le dimanche 29 octobre 1882 jusqu'au jeudi 11 janvier 1883 / Russie / depuis le 15 novembre, Paris, 30, avenue Ampère / [Sur une page] : Dieu nous apprend le mépris des richesses par la façon dont il les distribue, (lu dans un roman feuilleton).» Question for owner: the «[Sur une page]» aphorism is Marie's own writing on a flyleaf — withdraw with the cover, or keep as an `other` paragraph?
 
 ### Dry run

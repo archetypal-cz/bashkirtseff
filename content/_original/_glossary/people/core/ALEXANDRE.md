@@ -17,7 +17,7 @@ last_updated: 2026-09-26
 ## Identity
 
 %% GLO_ALEXANDRE.0002 %%
-Alexandre Babanine was Marie's maternal uncle, one of the sons of [#Grand_papa](../family/GRAND_PAPA.md) (Etienne Babanine) and brother of [#Maman](../family/MAMAN.md) (Maria Stepanovna), [#Georges](../family/GEORGES.md), Etienne (another brother), Wladimir, and [#Ma_tante](../family/MA_TANTE.md) (Sophie). He was emphatically NOT paternal (Bashkirtseff) -- in carnet 067 (1876-11-11), when a military officer on a train asks his name, he replies "Babanine" (067.0944). Grand-papa had nine children; Alexandre was among several sons who defied their father by marrying without permission.
+Alexandre Babanine was Marie's maternal uncle, one of the sons of [#Grand_papa](../family/GRAND_PAPA.md) (Etienne Babanine) and brother of [#Maman](../family/MAMAN.md) (Maria Stepanovna), [#Georges](../family/GEORGES.md), Etienne (another brother), Wladimir, and [#Ma_tante](../family/MA_TANTE.md) (Sophie). He was emphatically NOT paternal (Bashkirtseff) -- in carnet 067 (1876-11-11), when a military officer on a train asks his name, he replies "Babanine" (067.0945). Grand-papa had nine children; Alexandre was among several sons who defied their father by marrying without permission.
 
 %% GLO_ALEXANDRE.0003 %%
 Alexandre married [#Nadine_Martinoff](../mentioned/NADINE_MARTINOFF.md) and settled at [#Tcherniakovka](../../places/residences/TCHERNIAKOVKA.md), Grand-papa's estate, which he eventually took over. He died on or around January 2, 1884, of a stroke ("attaque d'apoplexie"), at which point his wife Nadine was 33 years old (102.0099). They had three children: Etienne (called "Stiopa" as a child; aged 7 in February 1875, 14 in October 1882, 16 at his father's death), Julie (aged 6 in February 1875, 15 at his death), and a baby Alexandre (10 months old at his death).
@@ -113,7 +113,7 @@ Alexandre served as the family's legal agent in the drawn-out Romanoff-Zamiatine
 In November 1880, Alexandre wrote that Maman needed to stay in Russia longer "pour en finir avec cette sale affaire" (to finish this dirty business). Marie was helpless in Paris: "moi je ne dis plus rien" (I say nothing more) (090.1880-11-24).
 
 %% GLO_ALEXANDRE.0030 %%
-Marie characterized the family's lack of legal representation before Alexandre's efforts: "Vous savez que jusqu'a present nous n'avions meme pas d'avocat en Russie de sorte qu'il n'y avait que Dieu pour nous defendre et quelquefois l'oncle Alexandre" (You know that until now we didn't even have a lawyer in Russia, so there was only God to defend us and sometimes Uncle Alexandre) (059.0652).
+Marie characterized the family's lack of legal representation before Alexandre's efforts: "Vous savez que jusqu'a present nous n'avions meme pas d'avocat en Russie de sorte qu'il n'y avait que Dieu pour nous defendre et quelquefois l'oncle Alexandre" (You know that until now we didn't even have a lawyer in Russia, so there was only God to defend us and sometimes Uncle Alexandre) (059.0653).
 
 %% GLO_ALEXANDRE.0031 %%
 ## The Injustices (1877)
@@ -210,9 +210,9 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **034.0413** (June 25): Alexandre brings 108,000 francs from Russia, squandered in two months
 
 ### 1876
-- **059.0652** (May 1): "only God to defend us and sometimes Uncle Alexandre"
+- **059.0653** (May 1): "only God to defend us and sometimes Uncle Alexandre"
 - **064.0502** (August 8-9): Alexandre sends money to Marie in St. Petersburg
-- **067.0938-0041** (November 11): Alexandre in Russia; identifies himself as "Babanine" on a train; amusing anecdotes with Nadine and servants
+- **067.0939-0041** (November 11): Alexandre in Russia; identifies himself as "Babanine" on a train; amusing anecdotes with Nadine and servants
 
 ### 1877
 - **073.0499, 0474** (August 18): Etienne arrives, discusses "les injustices d'Alexandre"; Marie quotes his procrastinating letters
@@ -243,7 +243,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **096.0426-0414** (October 23): Tcherniakovka visit; lavish hospitality; Alexandre has bought out brother Etienne's land share; "c'est une force"; punches servants during fire
 - **096.1882-10-05**: Soulima affair mentioned -- Georges and Alexandre slapped someone
 - **096.1882-10-29**: Alexandre at Paul's baby's baptism
-- **097.0033** (November 6): Lunch at Alexandre's in Poltava; all family "plus ou moins brouille"
+- **097.0035** (November 6): Lunch at Alexandre's in Poltava; all family "plus ou moins brouille"
 
 ### 1884
 - **102.0099-0102** (January 2): Death by stroke; Marie's complex tribute; his words about loving Nadine; three children left behind
@@ -288,4 +288,4 @@ Alexandre's behavior reflects several aspects of 19th century Russian provincial
 
 %% GLO_ALEXANDRE.0064 %%
 %% 2025-12-07T19:55:00 RSR: Expanded entry based on Book 00 preface. Alexandre emerges as calculating opportunist who married 15-year-old for her fortune, then betrayed her adoptive mother %%
-%% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Confirmed Alexandre is MATERNAL (Babanine), not paternal (Bashkirtseff), per 067.0944 where he gives his name as "Babanine." Added extensive diary references across carnets 028, 029, 034, 059, 064, 067, 073, 074, 078, 079, 082, 084, 089, 090, 092, 094, 096, 097, 102. Key additions: estate revenue withholding (028), buying out brothers' inheritance (096 via raw carnet 14), Soulima legal affair, Zamiatine lawsuit representation, Paris life and "M. vingt francs l'heure" episode, death entry with complex tribute (102). Note: the RSR comment in 029.0173 incorrectly identifies him as "Alexandre Bashkirtseff" -- he is Alexandre Babanine. The LAN comment in 028.0109 calling oncle Etienne and oncle Alexandre "paternal" is also incorrect. The stub entries ONCLE_ALEXANDRE and ALEXANDRE_BASHKIRTSEFF in people/mentioned/ should be merged/redirected to this entry. %%
+%% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Confirmed Alexandre is MATERNAL (Babanine), not paternal (Bashkirtseff), per 067.0945 where he gives his name as "Babanine." Added extensive diary references across carnets 028, 029, 034, 059, 064, 067, 073, 074, 078, 079, 082, 084, 089, 090, 092, 094, 096, 097, 102. Key additions: estate revenue withholding (028), buying out brothers' inheritance (096 via raw carnet 14), Soulima legal affair, Zamiatine lawsuit representation, Paris life and "M. vingt francs l'heure" episode, death entry with complex tribute (102). Note: the RSR comment in 029.0173 incorrectly identifies him as "Alexandre Bashkirtseff" -- he is Alexandre Babanine. The LAN comment in 028.0109 calling oncle Etienne and oncle Alexandre "paternal" is also incorrect. The stub entries ONCLE_ALEXANDRE and ALEXANDRE_BASHKIRTSEFF in people/mentioned/ should be merged/redirected to this entry. %%

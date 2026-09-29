@@ -36,3 +36,5 @@ Plan: `work/plan-096.json`, rebuilt by `p0956/build096.py` from the **identity p
 
 ### Completeness
 Every docx paragraph ¶631–1223 is in the plan (start and end of the text checked, footnote markers ignored). ¶627–630 are the cover (in withdrawn-covers.json, including «Dupleix, 2, rue de Penthièvre, mardi, jeudi, samedi, (p. 19 au bas)»). Nothing else is withdrawn.
+
+> **Title-notes pass 2026-09-29.** **Owner question**: the memo «Dupleix, 2, rue de Penthièvre, mardi, jeudi, samedi, (p. 19 au bas)» (¶630) is not Marie's residence line but a note (an address and a Tue/Thu/Sat schedule). Add it as `margin` at 096/1882-08-01 (after identifying Dupleix)? Default: withdrawn.

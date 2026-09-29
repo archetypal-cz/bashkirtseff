@@ -120,6 +120,8 @@ check-comments: OK (fr)
 
 ## Withdrawn cover pages (for when the manuscript is available)
 
+> **Update.** Title-notes pass 2026-09-29 (`_renumber/titlenotes-2026-09-29/`, owner policy: Marie's own notes on title/flyleaf pages go in as `margin`/`other` at the carnet's first entry; the formal title lines stay withdrawn; the carnet was renumbered): «desinit in piscen. Hir.» (¶2363, 2nd line) is now **071.0001** (`margin`) and the two sayings «Remittum ei peccata multa… (Luc) / Dulciores sunt lacrymae… (Augustin)» (¶2364–2366) **071.0002** (`other`), both before the heading paragraph of 1877-04-26 (it also holds diary text). Printed forms kept; readings (Horace, Vulgate Luke 7:47) in the RSR notes. Still withdrawn, **owner question**: the motto «Dubium, illusio, deceptio, oppressio» (default withdrawn, see 068/REVIEW.md).
+
 Owner decision KRR 2026-09-28: no cover entries or cover paragraphs until the manuscript is scanned. Texts as printed:
 
 - old 070.0198:

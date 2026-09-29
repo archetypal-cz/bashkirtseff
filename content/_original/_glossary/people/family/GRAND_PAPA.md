@@ -19,7 +19,7 @@ last_updated: 2026-09-26
 **Last Updated**: 2026-09-26
 **Diary Coverage**: 1873–1877 as "papa" / "grand-papa" (Nice household, Wiesbaden/Schlangenbad 1877); he died 29 August 1878 (Kernberger 2013, chronology); 1884 preface
 
-> **Alias note — "Papa".** In the 1873–1875 Nice diary Marie's bare "papa" is this man, not her father Constantin (who is "mon père"; see [#Papa](PAPA.md)). Tag bare "papa" in 1873–1875 as #Grand_papa. Exceptions: 013.0080, 013.0088, 013.0104 (Constantin's visit to Nice, Nov 1873); "Papa (rigolo)" = M. Paparigopoulos at Spa (021.0146–022.0290); "le papa" 012.0214 = the Pope; "danser le grand-papa" (017.0256) = a dance. "Papa" means Constantin only while Marie is with him: in Poltava and Gavronzi (Jul–Oct 1876, carnets 064–066) and in Paris (Nov 1876, 067.1035). In the Nice household bare "papa" stays the grandfather through 1877 (059.0750, 062.0059–0622, 072.0006, 072.0059, 074.0371), though from 1875 Marie mostly writes "grand-papa". Other 1875–76 "papa"s: old M. d'Audiffret, nicknamed "papa" (049.0305, 050.0121–0502), operetta refrains (048.0118–0452), and other people's fathers. Per-occurrence table for 031–075 in the ruling report. Ruling of 2026-09-26: `.claude/reports/papa-referent-2026-09-26.md`.
+> **Alias note — "Papa".** In the 1873–1875 Nice diary Marie's bare "papa" is this man, not her father Constantin (who is "mon père"; see [#Papa](PAPA.md)). Tag bare "papa" in 1873–1875 as #Grand_papa. Exceptions: 013.0080, 013.0088, 013.0104 (Constantin's visit to Nice, Nov 1873); "Papa (rigolo)" = M. Paparigopoulos at Spa (021.0146–022.0290); "le papa" 012.0214 = the Pope; "danser le grand-papa" (017.0256) = a dance. "Papa" means Constantin only while Marie is with him: in Poltava and Gavronzi (Jul–Oct 1876, carnets 064–066) and in Paris (Nov 1876, 067.1036). In the Nice household bare "papa" stays the grandfather through 1877 (059.0751, 062.0059–0622, 072.0006, 072.0059, 074.0371), though from 1875 Marie mostly writes "grand-papa". Other 1875–76 "papa"s: old M. d'Audiffret, nicknamed "papa" (049.0305, 050.0122–0502), operetta refrains (048.0120–0452), and other people's fathers. Per-occurrence table for 031–075 in the ruling report. Ruling of 2026-09-26: `.claude/reports/papa-referent-2026-09-26.md`.
 
 ## Identity
 
@@ -152,7 +152,7 @@ For the Byronic intellectual who had spent his life in the Caucasus and Ukrainia
 The whole household, his daughter (Marie's mother) included, called him Papa, and Marie does the same. The evidence (details in the ruling report):
 
 - **Age**: "papa est encore fort et jeune pour soixante-quatre ans" (007.0015, 1873-07-14), which fits Stepan, not Constantin (then 40).
-- **Name day**: "Nous rencontrons papa, c'est son jour de nom" (015.0071, 8 Jan 1874 = 27 Dec O.S., St Stephen's day); Kernberger (2013) renders it "Grandpapa's name day".
+- **Name day**: "Nous rencontrons papa, c'est son jour de nom" (015.0072, 8 Jan 1874 = 27 Dec O.S., St Stephen's day); Kernberger (2013) renders it "Grandpapa's name day".
 - **Blindness**: "c'est un vieillard aveugle" (010.0008–0009); "on y a logé papa, presque aveugle, Trifon qui lui est nécessaire" (024.0194). Kernberger's glossary lists "Golezowsky: Papa's ophthalmologist".
 - **His valet Trifon**: "Trifon (valet de chambre de papa)" (012.0004); the 1887 edition and Blind (1890) print "domestique de grand-papa" / "grandpapa's servant". The 1887 edition also prints "grand-papa" for Marie's "papa" in 011.0167.
 - **Youth and estate**: stories of his youth and "les régiments" (018.0255); "les grandeurs passées de Tcherniakovka" (018.0258); he meets his old friend Norov after forty years (019.0014).
@@ -163,17 +163,17 @@ The whole household, his daughter (Marie's mother) included, called him Papa, an
 
 - **Vienna tobacco** (1873-08-13, 008.0021): at the Vienna World Exhibition the family finds "le tabac de papa" in the Russian section; "*Sacha* lui a fait une surprise en exposant". Sacha is Uncle Alexandre Babanine; Marie hopes the tobacco will win a medal.
 - **Amour-propre** (1873-09-01, 009.0011): after Makaroff's outburst, "notre Makaroff … a fait des excuses à papa mais celui-ci *monte sur ses grands chevaux, amour-propre* etc."
-- **Tyranny at table**: frequent quarrels with maman, Marie and Collignon; the Hamilton and Lady Hamilton stories he tells "comme toujours" (015.0050, 016.0330); his dog Renard (018.0160).
+- **Tyranny at table**: frequent quarrels with maman, Marie and Collignon; the Hamilton and Lady Hamilton stories he tells "comme toujours" (015.0051, 016.0330); his dog Renard (018.0160).
 
 ## 1875–1877: "grand-papa", blind and then seeing
 
 From 1875 Marie mostly names him "grand-papa" / "mon grand-père", and bare "papa" becomes rarer (031.0079–0139, 033.0022–0170, 045.0270–0284, 062.0059–0622, 072.0006, 072.0059, 074.0371).
 
 - **Blindness and fall**: "pauvre aveugle qu'il est" (032.0164, May 1875), after a false alarm of apoplexy.
-- **Collignon**: Marie blames the governess's departure on him (032.0141); he is "jaloux" of Collignon and Barnola (046.0245, 059.0569, 062.0101).
+- **Collignon**: Marie blames the governess's departure on him (032.0141); he is "jaloux" of Collignon and Barnola (046.0245, 059.0570, 062.0101).
 - **The pavilion at Nice**: he lives in the garden pavilion of the family villa (037.0228, 046.0291, 062.0681).
 - **Advice on Antonelli** (June 1876): "Grand-papa, vous parlez comme un ange" (062.0616–0622); he opposes the match (062.0644–0648).
-- **Eye operation** (May 1877): "grand-papa s'est fait opérer l'œil et l'opération a réussi" (071.0306). After it "Monsieur mon grand-père, depuis qu'il voie, est intraitable" (074.0042).
+- **Eye operation** (May 1877): "grand-papa s'est fait opérer l'œil et l'opération a réussi" (071.0308). After it "Monsieur mon grand-père, depuis qu'il voie, est intraitable" (074.0042).
 - **Germany, summer 1877**: with the family at Schlangenbad and Wiesbaden (073.0313–074.0425); meets his old friend Prince Repnine, "ancien ami de grand-papa il y a quarante ans" (074.0080, 074.0387, 074.0417).
 - **Death**: 29 August 1878, per Kernberger (2013) chronology ("M. Babanine, Marie's grandfather, dies, and she dresses in mourning").
 

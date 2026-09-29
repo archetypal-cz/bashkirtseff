@@ -137,8 +137,8 @@ Dieppe continued to surface in the diary long after Marie's departure:
 - **August 19, 1880** (089.0385): Mocking newspaper coverage of Trouville and Dieppe resort life in Le Figaro and Le Gaulois -- the purple prose about "blanches robes qui semblent de loin des apparitions fantastiques" on the moonlit beach
 - **August 22, 1880** (089.0402): Learning that Bailleul encountered Berthe at the Dieppe races with Mme de Plancy
 - **September 21, 1880** (089.0590): Berthe visits Marie and claims she was "mourante à Dieppe et n'est jamais allée au Casino ni nulle part" -- contradicting gossip in the Gaulois about her behavior with "le petit Blanc"
-- **December 11, 1880** (090.0326): "Les de Lesseps, Hecht, Dieppe, je ne sais quoi encore forment un horrible chaos dans ma tête et je ne sais que fondre en larmes" -- Dieppe remembered as part of the tangle of social disasters
-- **December 19, 1880** (090.0414): "Berthe est à l'index et qu'elle s'est si affichée à Dieppe avec Blanc" -- Berthe's Dieppe scandal continued to circulate
+- **December 11, 1880** (090.0328): "Les de Lesseps, Hecht, Dieppe, je ne sais quoi encore forment un horrible chaos dans ma tête et je ne sais que fondre en larmes" -- Dieppe remembered as part of the tangle of social disasters
+- **December 19, 1880** (090.0416): "Berthe est à l'index et qu'elle s'est si affichée à Dieppe avec Blanc" -- Berthe's Dieppe scandal continued to circulate
 - **September 1, 1881** (093.0043): Saint Amand arrives from Dieppe for dinner; incidental mention
 - **September 19, 1881** (093.0070): "On l'a bien fait pour Berthe à Dieppe" -- recalling how Berthe was passed off as a guest during their Dieppe stay
 - **August 4, 1882** (096.0014): "Je voudrais y aller pour trois semaines au lieu de Dieppe ou Trouville" -- Dieppe as a generic summer resort option she might replace with something better

@@ -27,7 +27,7 @@ last_updated: 2026-05-25
 %% GLO_LAMBERTYE.0002 %%
 **Full name**: Comte Édouard de Lambertye
 **Title**: Comte (Count)
-**First name revealed**: January 23, 1874 (015.0069: "il se nomme Edouard")
+**First name revealed**: January 23, 1874 (015.0070: "il se nomme Edouard")
 **Nationality**: French
 **Family**: The Lambertye family (*maison de Lambertie*) is a subsisting family of ancient French nobility, originally from Périgord (Limousin) and later established in Lorraine. The family holds two hereditary titles: Comte de Lambertye (letters patent, June 1, 1644) and Marquis de Gerbéviller (letters patent, February 8, 1719). Notable family members include Antoine-François, marquis de Lambertye (diplomat under Louis XV), the botanist Léonce de Lambertye (1810--1877), and Joseph-Emmanuel-Auguste-François de Lambertye (deputy to the 1789 Estates-General). The family's properties include the Château de Cons-la-Grandville, the Château de Gerbéviller, and the Château de Lambertie in Mialet (Dordogne). Their alliances include the houses of La Trémoille, d'Arenberg, Rohan-Chabot, Choiseul, and La Rochefoucauld.
 
@@ -47,12 +47,12 @@ last_updated: 2026-05-25
 Marie's inventive cruelty toward Lambertye produces a rich lexicon of insults:
 - **Fedus / Fédus** -- From Latin *foedus* (ugly, foul). Marie's primary codename, used from spring 1874 onward. Her Latin tutor confused the spelling ("cette triple bête!" -- 019.0068). She also names a stray dog "Fedus" after him (019.0137).
 - **Parvus Fedus** -- Latin for "small ugly one" (018.0004, 018.0005).
-- **le singe** (the monkey) -- Used from January 1874 (015.0091, 015.0102).
+- **le singe** (the monkey) -- Used from January 1874 (015.0092, 015.0103).
 - **le petit chapeau** (the little hat) -- Another diminutive nickname (018.0021).
 - **le regardeur** (the starer) -- Marie's coinage (016.0077).
 - **pantalons de cuir** (leather pants) -- Family nickname (017.0088).
 - **Lambertoun** -- Marie's mother's Russian-inflected diminutive ("Et voilà Lambertoun" -- 020.0099).
-- **yeux de serpent** (snake eyes) -- Describing his gaze (015.0056).
+- **yeux de serpent** (snake eyes) -- Describing his gaze (015.0057).
 - Various animal comparisons: serpent, monkey, eel ("tête d'anguille"), poodle, "clou" (nail).
 
 %% GLO_LAMBERTYE.0008 %%
@@ -77,7 +77,7 @@ The winter social season of 1873--74 is the peak of Marie's obsession with Lambe
 **December 1873** (carnet 014): Lambertye arrives for the season. Marie sees him at Monaco (**Dec 18**, 014.0032), at the theater with Gioia's son (**Dec 21**, 014.0061), and driving his spectacular carriage -- described as a monstrous "arche de Noé" (Noah's Ark) with two liveried servants and the count perched beside the coachman "tout pincé par le froid et courbé" (**Dec 30**, 014.0054). At the theater (**Dec 23**, 014.0092): "Le petit Lambertye ne cesse pas de me regarder" (the little Lambertye doesn't stop looking at me). Her aunt first notices the staring. On **New Year's Eve** (014.0054): "le comte de Lambertye qui pense que c'est son devoir de me regarder" (who thinks it is his duty to look at me).
 
 %% GLO_LAMBERTYE.0015 %%
-**January 1874** (carnets 015--016): The obsession intensifies. On **Jan 1** (015.0091): "La manière dont le comte de Lambertye me regarde est très étrange; il a l'air de vouloir que je remarque absolument qu'il me regarde. C'est inexplicable." He is everywhere: at pigeon shoots in Monaco where he competes (losing to Galve on **Dec 29**, winning ten straight on **Jan 28, 1875** -- 029.0086--0090), walking with different companions every few minutes (**Jan 12**, 015.0048: seen with five different people in one hour), and at races. Marie oscillates wildly: "il y a des jours où je ne puis pas le regarder tant je le déteste... et il y en a d'autres où je le supporte très bien" (**Jan 18**, 015.0053). On **Jan 22** (015.0064--0100): "Je déteste Lambertye! Il me semble qu'il se moque de moi!" followed by thirteen exclamation marks of outrage. On **Jan 23** (015.0048), she learns his first name is **Edouard**. On **Jan 24** (015.0113): "Il faut que les sourires du comte de Lambertye cessent. C'est trop en vérité."
+**January 1874** (carnets 015--016): The obsession intensifies. On **Jan 1** (015.0092): "La manière dont le comte de Lambertye me regarde est très étrange; il a l'air de vouloir que je remarque absolument qu'il me regarde. C'est inexplicable." He is everywhere: at pigeon shoots in Monaco where he competes (losing to Galve on **Dec 29**, winning ten straight on **Jan 28, 1875** -- 029.0086--0090), walking with different companions every few minutes (**Jan 12**, 015.0049: seen with five different people in one hour), and at races. Marie oscillates wildly: "il y a des jours où je ne puis pas le regarder tant je le déteste... et il y en a d'autres où je le supporte très bien" (**Jan 18**, 015.0054). On **Jan 22** (015.0065--0100): "Je déteste Lambertye! Il me semble qu'il se moque de moi!" followed by thirteen exclamation marks of outrage. On **Jan 23** (015.0049), she learns his first name is **Edouard**. On **Jan 24** (015.0114): "Il faut que les sourires du comte de Lambertye cessent. C'est trop en vérité."
 
 %% GLO_LAMBERTYE.0016 %%
 **February 1874** (carnet 016): The emotional peak. On **Feb 8** (016.0060), Lambertye reappears after absence, driving with Chimay; members of the Cercle de la Méditerranée including Lambertye are "étalés" (spread out) on the balcony watching passersby. On **Feb 12** (016.0054), the most physically intense reaction: near the public garden, Marie thinks she sees Lambertye and nearly faints -- "j'ai presque rougi, la respiration me manqua et je devins essoufflée." She rages at her social position: "Si je vivais comme les autres je ne ferais même pas attention à la grossièreté de ce comte." She wants to have him, Lewin, Le Bec, and all of them beaten, and to watch them cry. On **Feb 14--15** (016.0089--0112), at the theater, Lambertye sits next to l'Obélisque (a tall beauty associated with the Duchess de Mouchy); he looks like "un pygmée" beside her, "sa tête chauve arrivait à peine à la blanche et superbe épaule de l'immense pulchra." During intermissions, he surveys the whole hall and each time stops his gaze on Marie -- "sans sourire cette fois." On **Feb 16** (016.0085--0100), Marie's mother praises the beauty of Soria and suggests Marie should fall in love with him instead. Marie retorts that she prefers "même Lambertye" to Soria. On **Feb 17** (016.0068--0072), encountering him on foot during carnival: "J'étais contente d'avoir rencontré Lambertye car il est comme une connaissance" (he is like an acquaintance). On **Feb 18** (016.0036--0080), the crucial confession: "mon but de sortie est en ce moment le comte de Lambertye. Le misérable but!" (my purpose for going out is at the moment the Comte de Lambertye. The miserable purpose!) She prays to stop blushing at his name. On **Feb 19** (016.0047), Lambertye makes his boldest move: he approaches Marie's father in the garden and asks about the Villa Baquis, the "very fat lady" (Princess Souvoroff), and her divorce -- fishing for family information. The family mocks him at dinner: Papa describes him as "frisé comme Bijou" (curled like Bijou), very perfumed. On **Feb 21** (016.0048--0078), at the charity sale, Lambertye glides behind the flower stalls "comme un serpent" -- Marie calls him "ce petit" with his eternal smile.
@@ -165,11 +165,11 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 | 1873-12-23 | 014.0092 | Theater: "ne cesse pas de me regarder" |
 | 1873-12-29 | 014.0036 | Pigeon shoot: "sympathique mais assez ridicule lorsqu'il tire" |
 | 1873-12-30 | 014.0054 | Noah's Ark carriage description |
-| 1874-01-01 | 015.0091 | "La manière dont il me regarde est très étrange" |
-| 1874-01-14 | 015.0057 | "yeux de serpent"; bald head "représente un clou" |
-| 1874-01-22 | 015.0064 | "Je déteste Lambertye!" with 13 exclamation marks |
-| 1874-01-23 | 015.0048 | First name revealed: Edouard |
-| 1874-01-24 | 015.0113 | "Il faut que les sourires cessent" |
+| 1874-01-01 | 015.0092 | "La manière dont il me regarde est très étrange" |
+| 1874-01-14 | 015.0058 | "yeux de serpent"; bald head "représente un clou" |
+| 1874-01-22 | 015.0065 | "Je déteste Lambertye!" with 13 exclamation marks |
+| 1874-01-23 | 015.0049 | First name revealed: Edouard |
+| 1874-01-24 | 015.0114 | "Il faut que les sourires cessent" |
 | 1874-02-12 | 016.0054 | Near-fainting; wanting to have them beaten |
 | 1874-02-14 | 016.0089 | Pygmy next to l'Obélisque at theater |
 | 1874-02-16 | 016.0085 | Mother suggests Soria instead; Marie prefers Lambertye |

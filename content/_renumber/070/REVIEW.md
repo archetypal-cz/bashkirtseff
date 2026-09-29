@@ -149,6 +149,8 @@ check-comments: OK (fr)
 
 ## Withdrawn cover pages (for when the manuscript is available)
 
+> **Title-notes pass 2026-09-29.** Still withdrawn, **owner question**: the motto «Dubium, illusio, deceptio, oppressio» on the Livre 70 and 71 title pages — title formula or maxim? Default: withdrawn (see 068/REVIEW.md). Nothing re-added in 070.
+
 Owner decision KRR 2026-09-28: no cover entries or cover paragraphs until the manuscript is scanned. Texts as printed:
 
 - old 069.0650:

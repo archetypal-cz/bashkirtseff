@@ -65,13 +65,13 @@ Marie hints darkly at a "malheureuse affaire avec grand-papa" involving Colligno
 
 ## Return as Family Friend (1874 onward)
 
-Despite the dramatic dismissal, Collignon quickly reappeared. In January 1874, Walitsky reported she had "arrived and married" (%% 015.0119 %%), but this seems to have been a rumor — she continued to be addressed as "Mademoiselle" throughout the diary. By March 1874 she was visiting the family again (%% 017.0096 %%). In October 1874 she came from Cannes for a brief visit, staying overnight (%% 024.0398-0415 %%); Marie found her "tres agreable, spirituelle, sympathique" and wished she could rehire her "si ce n'etait cette malheureuse affaire avec grand-papa."
+Despite the dramatic dismissal, Collignon quickly reappeared. In January 1874, Walitsky reported she had "arrived and married" (%% 015.0120 %%), but this seems to have been a rumor — she continued to be addressed as "Mademoiselle" throughout the diary. By March 1874 she was visiting the family again (%% 017.0096 %%). In October 1874 she came from Cannes for a brief visit, staying overnight (%% 024.0398-0415 %%); Marie found her "tres agreable, spirituelle, sympathique" and wished she could rehire her "si ce n'etait cette malheureuse affaire avec grand-papa."
 
 From April 1875, Collignon effectively rejoined the household for extended stays: "Collignon va venir pour un mois chez nous, je suis contente, c'est une personne tres agreable, extremement utile, indispensable meme" (%% 031.0179 %%). Marie noted: "Il semble que Collignon n'etait jamais absente" (%% 031.0216 %%). Throughout 1875-1877, Collignon was a near-constant presence — accompanying Marie to the Anglican church (%% 031.0188 %%), attending concerts, sharing adventures, observing suitors, and serving as companion, co-conspirator, and sounding board.
 
 ## Anglophilia and Cultural Interests
 
-Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0188 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0291 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0193 %%), and Marie described her as "une femme serieuse" (%% 050.1333 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0202 %%).
+Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0188 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0291 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0193 %%), and Marie described her as "une femme serieuse" (%% 050.1334 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0202 %%).
 
 ## Romantic Disappointment
 
@@ -98,8 +98,8 @@ In May-June 1876, Marie painted Collignon's portrait in twelve sittings on a "fo
 Collignon made several penetrating observations about Marie:
 
 - On her appearance: "si elle ne me connaissait pas, elle dirait de moi — Voila une belle fille, car vous etes grande et bien faite" (%% 033.0351 %%).
-- On her handwriting: "il semble que vous n'osez pas faire vos lettres elancees, elles paraissent retenues, comme si quelque chose pesait sur elles, un effort et puis un aplatissement... C'est toute ma vie" — Marie agreed this described her entire existence (%% 090.0144 %%: Dec 1880).
-- On Marie's character: "Marie a beaucoup change" — said with confidence in her own influence (%% 059.0375 %%: May 1876).
+- On her handwriting: "il semble que vous n'osez pas faire vos lettres elancees, elles paraissent retenues, comme si quelque chose pesait sur elles, un effort et puis un aplatissement... C'est toute ma vie" — Marie agreed this described her entire existence (%% 090.0146 %%: Dec 1880).
+- On Marie's character: "Marie a beaucoup change" — said with confidence in her own influence (%% 059.0376 %%: May 1876).
 
 ## Illness and Death (1873-1881)
 
@@ -151,12 +151,12 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 061.0241 %% (May 23, 1876): Marie begins painting her portrait
 - %% 062.0248 %% (Jun 7, 1876): Detailed physical description during portrait sessions
 - %% 062.0256 %% (Jun 12, 1876): Finishing the portrait — ninth session, the hair
-- %% 068.0228 %% (Dec 19, 1876): Marie discusses Rome plans with Collignon
+- %% 068.0229 %% (Dec 19, 1876): Marie discusses Rome plans with Collignon
 - %% 082.0198 %% (Sep 25, 1878): Letter from "cette pauvre Collignon" — Marie promises to take her in
 - %% 085.0078 %% (May 16, 1879): Collignon's father dies
 - %% 085.0091 %% (May 18, 1879): Marie visits Collignon's family — shocked by their poverty
 - %% 088.0174 %% (Jun 12, 1880): Calls Soutzo "un ane bate" — advises Marie against marrying him
-- %% 090.0144 %% (Dec 27, 1880): Handwriting insight — "un effort et puis un aplatissement"
+- %% 090.0146 %% (Dec 27, 1880): Handwriting insight — "un effort et puis un aplatissement"
 - %% 092.0351 %% (Jul 27, 1881): Marie visits dying Collignon — "la Mort elle-meme"
 - %% 093.0177 %% (Nov 15, 1881): "La pauvre Collignon est morte depuis plus de vingt jours deja"
 - %% 101.0031 %% (Aug 21, 1883): Marie expects to die "vers quarante ans comme Mlle Collignon"

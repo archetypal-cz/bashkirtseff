@@ -31,6 +31,8 @@ Range: tome14.docx ¶909–1730 (Livre 91, «commencé le dimanche 23 janvier 18
 - ¶925 «me disais [je]» is the edition's bracket and is kept.
 
 ### Withdrawn cover pages
+
+> **Update.** Title-notes pass 2026-09-29 (`_renumber/titlenotes-2026-09-29/`, owner policy: Marie's own notes on title/flyleaf pages go in as `margin`/`other` at the carnet's first entry; the formal title lines stay withdrawn; the carnet was renumbered): ¶908 «Faire vite que du nu…» (small type above the Livre 91 title, p.71) is now **091.0001** (`margin`), before the heading paragraph of 1881-01-23. Alternative (owner question): end of 090/1881-01-22.
 - ¶909–912: «Gloriae Cupidatas» (sic, p.71) / «Livre 91 ème» / «commencé le dimanche 23 janvier 1881 / terminé le samedi 14 mai 1881» / «34, avenue Montaigne, Paris».
 
 ### Drops

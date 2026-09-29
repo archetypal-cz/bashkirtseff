@@ -8,6 +8,8 @@ The tome 14–15 apply steps are in `090/APPLIED.md`. Per-carnet notes follow; t
 
 ## Withdrawn cover pages (owner policy: no cover entries)
 
+> **Update.** Title-notes pass 2026-09-29 (`_renumber/titlenotes-2026-09-29/`, owner policy: Marie's own notes on title/flyleaf pages go in as `margin`/`other` at the carnet's first entry; the formal title lines stay withdrawn; the carnet was renumbered): the flyleaf before Livre 90 (¶44–50) is now **090.0001** (`margin`: milestones and index pointers; «septbembre», «arrangemement» corrected as typesetting typos) and **090.0002** (`margin`: «Ceux que je choque…»), before the heading paragraph of 1880-10-03. ¶908 «Faire vite que du nu…» is now **091.0001** (`margin`) at the front of Livre 91 (print layout: flyleaf notes sit above the title, as p.5). **Owner question**: or at the end of 090/1881-01-22 («fin Décembre» suggests autumn 1880)? The title lines stay withdrawn.
+
 Not added to `_original`; recorded here. The manuscript itself is not scanned; these are the printed edition's readings.
 
 - **Before Livre 90** (tome14 ¶43–53, p.5): flyleaf lines in small type «Dessin 3 octobre 1877 / Peinture 30 septbembre 1878 / Médaille 14 janvier 1879 / Peinture 30 septembre 1878 / préd. d'Edmond, livre 75 / page 139, livre 89, arrangemement sage / Ceux que je choque et qui ne veulent pas de moi ne sont pas de l'espèce de ceux dont je voudrais.»; title page «Gloriae Cupiditas / Livre 90ème / commencé le dimanche 3 octobre 1880 / terminé le 22 janvier 1881 / 34 avenue Montaigne, Paris».

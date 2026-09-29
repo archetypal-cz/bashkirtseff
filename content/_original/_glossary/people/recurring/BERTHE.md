@@ -56,11 +56,11 @@ Marie recalls seeing Berthe with Hamilton on a balcony at a ball in Baden-Baden:
 
 ### Phase 3: Nice and Paris -- Acquaintanceship Without Friendship (1875-1877)
 
-In November 1875, Marie visits Berthe in Paris: "nous sommes toutes les deux sur un drole de pied, pas d'amitie comme entre jeunes filles, nous sommes de simples connaissances" (050.0118) -- not friendship as between girls, but mere acquaintances.
+In November 1875, Marie visits Berthe in Paris: "nous sommes toutes les deux sur un drole de pied, pas d'amitie comme entre jeunes filles, nous sommes de simples connaissances" (050.0119) -- not friendship as between girls, but mere acquaintances.
 
-They gossip about mutual connections -- Sommier, Pertusati, the Gonzales family. Marie observes the social snobbery cascade: "J'ai parle a Berthe de Robenson, Berthe en fait fi, les Gonzales font fi de Berthe. Ils font fi les uns des autres. N'est-ce pas drole?" (050.0181).
+They gossip about mutual connections -- Sommier, Pertusati, the Gonzales family. Marie observes the social snobbery cascade: "J'ai parle a Berthe de Robenson, Berthe en fait fi, les Gonzales font fi de Berthe. Ils font fi les uns des autres. N'est-ce pas drole?" (050.0182).
 
-By late 1876, Berthe visits Marie regularly in Paris: "Berthe a ete chez moi, cette chere petite" (067.1095). In autumn 1877, the Boyd family becomes socially important as Marie's gateway to Parisian high society.
+By late 1876, Berthe visits Marie regularly in Paris: "Berthe a ete chez moi, cette chere petite" (067.1096). In autumn 1877, the Boyd family becomes socially important as Marie's gateway to Parisian high society.
 
 ### Phase 4: Paris -- The Masked Adventures (January-February 1878)
 
@@ -98,7 +98,7 @@ The last mention: June 1882, Marie recalls an adventure "il y a trois ans quand 
 
 Marie's feelings toward Berthe oscillate between affection, contempt, jealousy, and grudging companionship. Key self-analyses:
 
-**On their non-friendship** (October 1880): "Nous n'avons jamais ete liees mais se connaitre depuis dix ans et n'avoir pas d'aversion physique l'une pour l'autre, cela cree une sorte d'amitie qui n'en est pas une. Du reste je suis neutre, elle vient c'est bon; elle ne vient pas, c'est encore bon" (090.0171).
+**On their non-friendship** (October 1880): "Nous n'avons jamais ete liees mais se connaitre depuis dix ans et n'avoir pas d'aversion physique l'une pour l'autre, cela cree une sorte d'amitie qui n'en est pas une. Du reste je suis neutre, elle vient c'est bon; elle ne vient pas, c'est encore bon" (090.0173).
 
 **On Berthe's usefulness** (May 1880): "En un instant je pardonne tout a Berthe et pendant cinq minutes l'aime de vraie amitie" -- but only because Berthe brings news of a potential Salon medal (088, May 4).
 

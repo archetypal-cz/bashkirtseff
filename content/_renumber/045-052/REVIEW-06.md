@@ -82,6 +82,8 @@ Totals from `final/dry06.out`. New carnet sizes: 045 358, 046 313, 047 454, 048 
 
 ## 3. Withdrawn cover pages (for when the manuscript is available)
 
+> **Update.** Title-notes pass 2026-09-29 (`_renumber/titlenotes-2026-09-29/`, owner policy: Marie's own notes on title/flyleaf pages go in as `margin`/`other` at the carnet's first entry; the formal title lines stay withdrawn; the carnet was renumbered): Livre 48's «[Coin de page manquant ?]» + maxim «Sais tout, / fais tout, / [?] décide tout…» (¶1548–1554, scan p.101 checked) is now **048.0002** (`editorial`) + **048.0003** (`other`); Livre 50's «T.P.L. / Alex. Dumas» (¶2784–2785, memo for the letter 050.0130) is now **050.0003** (`other`). Still withdrawn, **owner question**: the mottos «Volo omnia / Gloriae Cupiditate habeos» (048) and «Volo omnia gloriae cupiditate / solum modo habeo !» (049) — title formula or personal maxim? Default: withdrawn. Also withdrawn: the Livre 50 back-flyleaf name scribbles (¶4253–4258) and the 052 struck fragment «[Rayé: Notre frère, Il nous est permis de voir une]» (¶4823); keep them out? Default: yes.
+
 Owner decision KRR 2026-09-28: no cover entries or title-page paragraphs until the manuscript is scanned. Texts as printed (Mon Journal t.6):
 
 - Livre 45, p.5 (¶34–37): «H[is] G[race] t[he] D[uke] o[f] H[amilton] / Livre 45ème / depuis le samedi 26 septembre 1875 / jusqu'au samedi 2 octobre 1875 / Nice, promenade des Anglais, en ma villa»

@@ -294,6 +294,8 @@ Total new paragraphs: 651, 84,244 chars.
 
 ## Withdrawn cover page (KRR, 2026-09-28)
 
+> **Update.** Title-notes pass 2026-09-29 (`_renumber/titlenotes-2026-09-29/`, owner policy: Marie's own notes on title/flyleaf pages go in as `margin`/`other` at the carnet's first entry; the formal title lines stay withdrawn; the carnet was renumbered): the crosswise «[En travers: 23 mai 1875]» (¶3388, small type) is back as **068.0002** (`margin`, no longer `cover`), after the heading of 1876-12-12, with the RSR reading below. Still withdrawn, **owner question**: the motto «Dubium, illusio, deceptio, oppressio» (also on the title pages of Livres 69, 70, 71; it stays in the diary on 2, 5 and 10 Jan 1877) — title formula or maxim? Default: withdrawn.
+
 The cover entry `1876-12-12-cover.md` (068.0001–0002) was removed by a second rebuild on 2026-09-28. The printed edition alone cannot show which part of that page is Marie's and which is the editors'. The manuscript has not been scanned (a digitisation would cost about €90k), so there will be no cover entries until then. The rest of the carnet renumbers by −2: 068.0003 → 068.0001, and so on. The old URL redirects to `1876-12-12`.
 
 - Source: tome09.docx ¶3381–3388, Mon Journal t.9 p.225 (Tome9.pdf p.229).

@@ -115,6 +115,8 @@ The draft proposed each move below. The Livre title pages and their «depuis …
 
 ## 3. Withdrawn cover pages (for when the manuscript is available)
 
+> **Update.** Title-notes pass 2026-09-29 (`_renumber/titlenotes-2026-09-29/`, owner policy: Marie's own notes on title/flyleaf pages go in as `margin`/`other` at the carnet's first entry; the formal title lines stay withdrawn; the carnet was renumbered): the Livre 59 name list «Belmonte … Angelini» (¶3925–3932) is now **059.0004** (`other`, one paragraph, after the heading of 1876-04-20); its cz/uk/en translations were taken from old 059.0004–0011. This answers §6 Q2 below with the alternative.
+
 Owner decision KRR 2026-09-28: no cover entries. The texts are given as printed; the page is Mon Journal t.7, and the docx paragraph follows it. The notes in Marie's voice on these pages are kept as `margin` paragraphs (see §2).
 
 - **Livre 53**, p.5, ¶42–45:

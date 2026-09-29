@@ -93,6 +93,8 @@ Run on main after the write, the drawings and postfix.py (2026-09-28):
 
 ## Withdrawn cover pages
 
+> **Update.** Title-notes pass 2026-09-29 (`_renumber/titlenotes-2026-09-29/`, owner policy: Marie's own notes on title/flyleaf pages go in as `margin`/`other` at the carnet's first entry; the formal title lines stay withdrawn; the carnet was renumbered): the Livre 15 crosswise note «[En travers: J'ai déjà écrit deux mille sept cents pages !!!!]» (tome03.docx ¶41) is now **015.0002** (`margin`), after the heading of 1874-01-02. The title lines below stay withdrawn.
+
 Owner decision (KRR, 2026-09-28): no cover or title-page entries until the manuscript is scanned; the printed edition alone cannot show which lines are Marie's. Nothing below is in `_original`. Lines that `_original` already had are dropped from it (their IDs are in the maps as `DROPPED`); the others were never added. Restore from here once the manuscript can be checked.
 
 ### Livre 15
