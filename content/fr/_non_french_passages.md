@@ -295,82 +295,82 @@ They need AI translation into French.
 - **014/1873-12-31.md** para 014.0322 [CODE-SWITCH]: %% 2026-01-29T10:11:08 LAN: "l'endroit fashionable" - CODE-SWITCH: "the fashionable spot"; English adjective %%
 - **014/1874-01-01.md** para 014.0336 [CODE-SWITCH]: %% 2026-01-29T10:12:05 LAN: "Court-News" - CODE-SWITCH: English term for royal/society news %%
 - **014/1874-01-01.md** para 014.0348 [CODE-SWITCH]: %% 2026-01-29T10:12:15 LAN: CODE-SWITCH: "nonsenses" - English word; mock self-deprecation %%
-- **015/1874-01-02.md** para 015.0002 [ITALIAN]: %% 2026-01-30T10:00:01 LAN: ITALIAN: "prima donna" - Italian operatic term for leading female singer %%
-- **015/1874-01-02.md** para 015.0006 [ITALIAN]: %% 2026-01-30T10:00:05 LAN: ITALIAN: "bella Nizza" - Italian for "beautiful Nice"; shows Marie's multilingual style %%
-- **015/1874-01-02.md** para 015.0012 [ENGLISH]: %% 2026-01-30T10:00:12 LAN: ENGLISH: "foggy" - Marie uses English word; fog reminds her of Paris/London %%
-- **015/1874-01-02.md** para 015.0013 [ENGLISH]: %% 2026-01-30T10:00:14 LAN: ENGLISH: "flushed" - Marie uses English for blushing/reddened (avoiding extreme redness) %%
-- **015/1874-01-03.md** para 015.0017 [RUSSIAN]: %% 2026-01-30T10:00:24 LAN: RUSSIAN: "Diadia" - Russian for uncle (familiar form) %%
-- **015/1874-01-03.md** para 015.0018 [ENGLISH]: %% 2026-01-30T10:00:26 LAN: ENGLISH: "slow canter" - English equestrian term; controlled galloping pace %%
-- **015/1874-01-04.md** para 015.0026 [ENGLISH]: %% 2026-01-30T10:00:39 LAN: ENGLISH: "performed my morning ablution" - mock-formal English for washing; humorous register %%
-- **015/1874-01-04.md** para 015.0028 [ENGLISH]: %% 2026-01-30T10:00:44 LAN: ENGLISH: "foggy, humid" - English weather terms; associated with London/Paris %%
-- **015/1874-01-05.md** para 015.0042 [RUSSIAN]: %% 2026-01-30T10:00:57 LAN: RUSSIAN: "Stiopa" - diminutive of Stepan; Russian familiar form %%
-- **015/1874-01-05.md** para 015.0042 [RUSSIAN]: %% 2026-01-30T10:00:58 LAN: RUSSIAN: "Machenka" - diminutive of Maria; Stiopa's wife %%
-- **015/1874-01-05.md** para 015.0050 [RUSSIAN]: %% 2026-01-30T10:01:06 LAN: RUSSIAN: "troika" - three-horse sleigh; iconic Russian winter transport %%
-- **015/1874-01-07.md** para 015.0068 [ENGLISH]: %% 2026-01-30T10:01:31 LAN: ENGLISH: "gloveless" - without gloves; Marie fears boys' bare hands marking her dress %%
-- **015/1874-01-08.md** para 015.0071 [ENGLISH]: %% 2026-01-30T10:01:36 LAN: ENGLISH: "at my asking for my saddle" - code-switching mid-sentence %%
-- **015/1874-01-08.md** para 015.0071 [ENGLISH]: %% 2026-01-30T10:01:38 LAN: ENGLISH: "fur mantle" - fur cape %%
-- **015/1874-01-08.md** para 015.0071 [ENGLISH]: %% 2026-01-30T10:01:39 LAN: ENGLISH: "set off again for my expedition against the Ashantees" - reference to contemporary Anglo-Ashanti War (1873-74); humorous self-dramatization %%
-- **015/1874-01-08.md** para 015.0074 [LATIN]: %% 2026-01-30T10:01:50 LAN: LATIN: "atrium" - entrance hall; Marie's classical term for anteroom %%
-- **015/1874-01-08.md** para 015.0074 [ENGLISH]: %% 2026-01-30T10:01:51 LAN: ENGLISH: "duster" - dust coat/light overgarment %%
-- **015/1874-01-08.md** para 015.0075 [ENGLISH]: %% 2026-01-30T10:01:52 LAN: ENGLISH: "but for that paysan" - except for that peasant; code-switch mid-sentence %%
-- **015/1874-01-09.md** para 015.0091 [ENGLISH]: %% 2026-01-30T10:02:12 LAN: ENGLISH: "in a twinkling of the eye" - in the blink of an eye %%
-- **015/1874-01-09.md** para 015.0094 [ENGLISH]: %% 2026-01-30T10:02:13 LAN: ENGLISH: "How late" - guests' reaction to her arrival %%
-- **015/1874-01-09.md** para 015.0095 [ENGLISH]: %% 2026-01-30T10:02:16 LAN: ENGLISH: "for an hour" - code-switching %%
-- **015/1874-01-09.md** para 015.0095 [ENGLISH]: %% 2026-01-30T10:02:18 LAN: ENGLISH: "shook the hand" - non-standard English; Marie's grammar error %%
-- **015/1874-01-09.md** para 015.0096 [ENGLISH]: %% 2026-01-30T10:02:22 LAN: ENGLISH: "followers" - admirers/suitors %%
-- **015/1874-01-09.md** para 015.0099 [ENGLISH]: %% 2026-01-30T10:02:30 LAN: ENGLISH: "childish" - code-switch for childlike behavior %%
-- **015/1874-01-10.md** para 015.0104 [ENGLISH]: %% 2026-01-30T10:02:38 LAN: ENGLISH: "blunt" - code-switch; feeling clumsy in blunt-toed shoes %%
-- **015/1874-01-10.md** para 015.0107 [ENGLISH]: %% 2026-01-30T10:02:44 LAN: ENGLISH: "Thistle" - name of Hamilton's yacht; Scottish national emblem %%
-- **015/1874-01-11.md** para 015.0118 [ENGLISH]: %% 2026-01-30T10:02:54 LAN: ENGLISH: "drive" - used as noun; driving/carriage ride %%
-- **015/1874-01-11.md** para 015.0119 [ITALIAN]: %% 2026-01-30T10:02:56 LAN: ITALIAN: "bestemmianolo tutto e tutti" - blaspheming/cursing everything and everyone %%
-- **015/1874-01-11.md** para 015.0123 [ENGLISH]: %% 2026-01-30T10:03:03 LAN: ENGLISH: "soon joined by Dina and the princess" - code-switch for full phrase %%
-- **015/1874-01-11.md** para 015.0124 [ENGLISH]: %% 2026-01-30T10:03:05 LAN: ENGLISH: "half valse" - half waltz; dance variation %%
-- **015/1874-01-12.md** para 015.0128 [ITALIAN]: %% 2026-01-30T10:03:07 LAN: ITALIAN: "bella Zigouzin" - beautiful Zigouzin; Italian article with Russian name %%
-- **015/1874-01-12.md** para 015.0131 [RUSSIAN]: %% 2026-01-30T10:03:13 LAN: RUSSIAN: "paskha" - traditional Russian Easter dessert (pyramid-shaped cheese cake) %%
-- **015/1874-01-12.md** para 015.0132 [ENGLISH]: %% 2026-01-30T10:03:20 LAN: ENGLISH: "in that attire" - code-switch describing ritual preparation %%
-- **015/1874-01-13.md** para 015.0150 [ITALIAN]: %% 2026-01-30T10:10:04 LAN: ITALIAN "in fretta" - in a hurry; code-switch for casual emphasis %%
-- **015/1874-01-13.md** para 015.0150 [ENGLISH]: %% 2026-01-30T10:10:05 LAN: ENGLISH "relieved" - code-switch for emotional state; Marie uses English for intensity %%
-- **015/1874-01-13.md** para 015.0155 [LATIN]: %% 2026-01-30T10:10:23 LAN: LATIN "miserere" - have mercy; from Psalm 51, religious/mock-religious exclamation %%
-- **015/1874-01-13.md** para 015.0156 [ITALIAN]: %% 2026-01-30T10:10:26 LAN: ITALIAN Dante quote (Inferno II) - "ed io sol uno m'apparecchiavo a sostenere la guerra si del cammino e si della pietate che ritrarrà a mente chi non crede" - and I alone prepared myself to sustain the war of the journey and of the pity that memory shall retrace. Marie identifies with Dante's isolation %%
-- **015/1874-01-14.md** para 015.0168 [ENGLISH]: %% 2026-01-30T10:10:43 LAN: ENGLISH "sick" - code-switch for emphasis; Marie finds female company nauseating %%
-- **015/1874-01-14.md** para 015.0170 [ENGLISH]: %% 2026-01-30T10:10:47 LAN: ENGLISH "pull" - Marie nicknames shooter "M. Pooool" for prolonging the English command to release pigeons %%
-- **015/1874-01-14.md** para 015.0180 [ENGLISH]: %% 2026-01-30T10:10:56 LAN: ENGLISH "block head" - blockhead/stupid person; code-switch for insult %%
-- **015/1874-01-15.md** para 015.0202 [RUSSIAN]: %% 2026-01-30T10:11:17 LAN: RUSSIAN "Moussia" - Marie's family diminutive/nickname %%
-- **015/1874-01-16.md** para 015.0211 [ITALIAN]: %% 2026-01-30T10:11:31 LAN: ITALIAN "basta" - enough/that's all; dismissive code-switch %%
-- **015/1874-01-17.md** para 015.0215 [ENGLISH]: %% 2026-01-30T10:11:34 LAN: ENGLISH "of course" - casual code-switch; Marie uses English for sophistication %%
-- **015/1874-01-17.md** para 015.0223 [ITALIAN]: %% 2026-01-30T10:11:44 LAN: ITALIAN "Lo Specchio Infernale" - The Infernal Mirror; Italian theater piece %%
-- **015/1874-01-18.md** para 015.0234 [ENGLISH]: %% 2026-01-30T10:11:59 LAN: ENGLISH "that sort of weather" - code-switch showing preference for English sophistication %%
-- **015/1874-01-18.md** para 015.0235 [ENGLISH]: %% 2026-01-30T10:12:01 LAN: ENGLISH "bino-eie" - MARIE QUIRK: playful English rendering of binoculars with phonetic spelling %%
-- **015/1874-01-18.md** para 015.0237 [ENGLISH]: %% 2026-01-30T10:12:03 LAN: ENGLISH "melts away" - code-switch for romantic languishing %%
-- **015/1874-01-18.md** para 015.0237 [ENGLISH]: %% 2026-01-30T10:12:06 LAN: ENGLISH "jump" - code-switch for racing term %%
-- **015/1874-01-18.md** para 015.0238 [ENGLISH]: %% 2026-01-30T10:12:07 LAN: ENGLISH "we rushed" - code-switch for excitement %%
-- **015/1874-01-18.md** para 015.0238 [ENGLISH]: %% 2026-01-30T10:12:08 LAN: ENGLISH "turf" - English racing term; the track/racing world %%
-- **015/1874-01-18.md** para 015.0238 [ENGLISH]: %% 2026-01-30T10:12:11 LAN: ENGLISH "the military band" - code-switch for musical ensemble %%
-- **015/1874-01-18.md** para 015.0241 [ITALIAN]: %% 2026-01-30T10:12:13 LAN: ITALIAN "mi sono levata sulla punta dei piedi e non osavo respirare vorrei volare" - I rose on tiptoe and didn't dare breathe, I wanted to fly; extended code-switch for intense emotion %%
-- **015/1874-01-19.md** para 015.0253 [LATIN]: %% 2026-01-30T10:12:26 LAN: LATIN "viz." - videlicet, namely; learned abbreviation %%
-- **015/1874-01-19.md** para 015.0253 [ENGLISH]: %% 2026-01-30T10:12:27 LAN: ENGLISH "short interval" - code-switch for break %%
-- **015/1874-01-19.md** para 015.0253 [ENGLISH]: %% 2026-01-30T10:12:32 LAN: ENGLISH "desk" - code-switch for writing desk %%
-- **015/1874-01-19.md** para 015.0253 [ENGLISH]: %% 2026-01-30T10:12:33 LAN: ENGLISH "I lay my heart at your feet" / "Refuse them" - romantic notes in English %%
-- **015/1874-01-19.md** para 015.0255 [LATIN]: %% 2026-01-30T10:12:37 LAN: LATIN "ad alta voce" - aloud/in a loud voice; should be "alta voce" (Italian) or "ad alta voce" mixed %%
-- **015/1874-01-19.md** para 015.0255 [ENGLISH]: %% 2026-01-30T10:12:38 LAN: ENGLISH "He has the nicest place" - envious comment about Striker's dinner seat %%
-- **015/1874-01-19.md** para 015.0257 [ENGLISH]: %% 2026-01-30T10:12:39 LAN: ENGLISH "fellows" - code-switch for men/guys %%
-- **015/1874-01-20.md** para 015.0262 [ITALIAN]: %% 2026-01-30T10:12:43 LAN: ITALIAN extended passage - "fino alle otto e mezzo" (until half past eight), "E tempo di ricomminciare a lavorare" (It's time to start working again), "O misera me!" (Oh wretched me!), "Venerdì finì su tutto ciò che mi fa vivere" (Friday ends everything that makes me live), "Il Pigeon shooting e le corse. Tutto finisce in questo mondo" (The pigeon shooting and the races. Everything ends in this world) - code-switch for emotional lament %%
-- **015/1874-01-20.md** para 015.0264 [ITALIAN]: %% 2026-01-30T10:12:44 LAN: ITALIAN "che venerdì tutto finisce" - that Friday everything ends %%
-- **015/1874-01-20.md** para 015.0264 [ENGLISH]: %% 2026-01-30T10:12:45 LAN: ENGLISH "Races and shooting all is over" - code-switch for final lament %%
-- **015/1874-01-20.md** para 015.0264 [ENGLISH]: %% 2026-01-30T10:12:46 LAN: ENGLISH "splendidly" - code-switch for emphasis %%
-- **015/1874-01-20.md** para 015.0264 [ENGLISH]: %% 2026-01-30T10:12:47 LAN: ENGLISH "for a walk" - code-switch %%
-- **015/1874-01-20.md** para 015.0264 [ENGLISH]: %% 2026-01-30T10:12:48 LAN: ENGLISH "I contrived to pass by the churchyard" - code-switch; strategic route planning %%
-- **015/1874-01-20.md** para 015.0265 [ENGLISH]: %% 2026-01-30T10:12:52 LAN: ENGLISH "fast" - forward/bold in behavior; term for improper conduct in women %%
-- **015/1874-01-20.md** para 015.0269 [ITALIAN]: %% 2026-01-30T10:12:55 LAN: ITALIAN "amabilissimamente" - most amiably; superlative adverb %%
-- **015/1874-01-20.md** para 015.0269 [ENGLISH]: %% 2026-01-30T10:12:56 LAN: ENGLISH "mercenary" - self-interested; code-switch for cynical observation (used 3 times) %%
-- **015/1874-01-21.md** para 015.0276 [ENGLISH]: %% 2026-01-30T10:13:01 LAN: ENGLISH "I walk with Hitchcock at the straits of the Flies" - code-switch with MARIE QUIRK translation of "détroit des Mouches" %%
-- **015/1874-01-22.md** para 015.0287 [ITALIAN]: %% 2026-01-30T10:13:18 LAN: ITALIAN "impediva il cammino" - blocked the way; Dante reference (Inferno I) %%
-- **015/1874-01-22.md** para 015.0287 [ITALIAN]: %% 2026-01-30T10:13:19 LAN: ITALIAN "questi parea che contro me con la testa bassa" - this one seemed against me with head bowed; Dante echo %%
-- **015/1874-01-22.md** para 015.0287 [ITALIAN]: %% 2026-01-30T10:13:20 LAN: ITALIAN "approsiamo" - we approached; code-switch %%
-- **015/1874-01-23.md** para 015.0297 [ITALIAN]: %% 2026-01-30T10:13:29 LAN: ITALIAN "in sproposito" - inappropriately/out of place; self-criticism of writing order %%
-- **015/1874-01-23.md** para 015.0299 [LATIN]: %% 2026-01-30T10:13:30 LAN: LATIN "Te Deum" - hymn of thanksgiving; religious ceremony %%
-- **015/1874-01-23.md** para 015.0306 [ENGLISH]: %% 2026-01-30T10:13:38 LAN: ENGLISH "for the sake of associations" - code-switch; for the memories associated with places %%
-- **015/1874-01-24.md** para 015.0327 [ENGLISH]: %% 2026-01-30T10:14:02 LAN: ENGLISH marginal note "Serpent deceives me" - cryptic; likely referring to Lambertye (her "singe/serpent") %%
+- **015/1874-01-02.md** para 015.0003 [ITALIAN]: %% 2026-01-30T10:00:01 LAN: ITALIAN: "prima donna" - Italian operatic term for leading female singer %%
+- **015/1874-01-02.md** para 015.0007 [ITALIAN]: %% 2026-01-30T10:00:05 LAN: ITALIAN: "bella Nizza" - Italian for "beautiful Nice"; shows Marie's multilingual style %%
+- **015/1874-01-02.md** para 015.0013 [ENGLISH]: %% 2026-01-30T10:00:12 LAN: ENGLISH: "foggy" - Marie uses English word; fog reminds her of Paris/London %%
+- **015/1874-01-02.md** para 015.0014 [ENGLISH]: %% 2026-01-30T10:00:14 LAN: ENGLISH: "flushed" - Marie uses English for blushing/reddened (avoiding extreme redness) %%
+- **015/1874-01-03.md** para 015.0018 [RUSSIAN]: %% 2026-01-30T10:00:24 LAN: RUSSIAN: "Diadia" - Russian for uncle (familiar form) %%
+- **015/1874-01-03.md** para 015.0019 [ENGLISH]: %% 2026-01-30T10:00:26 LAN: ENGLISH: "slow canter" - English equestrian term; controlled galloping pace %%
+- **015/1874-01-04.md** para 015.0027 [ENGLISH]: %% 2026-01-30T10:00:39 LAN: ENGLISH: "performed my morning ablution" - mock-formal English for washing; humorous register %%
+- **015/1874-01-04.md** para 015.0029 [ENGLISH]: %% 2026-01-30T10:00:44 LAN: ENGLISH: "foggy, humid" - English weather terms; associated with London/Paris %%
+- **015/1874-01-05.md** para 015.0043 [RUSSIAN]: %% 2026-01-30T10:00:57 LAN: RUSSIAN: "Stiopa" - diminutive of Stepan; Russian familiar form %%
+- **015/1874-01-05.md** para 015.0043 [RUSSIAN]: %% 2026-01-30T10:00:58 LAN: RUSSIAN: "Machenka" - diminutive of Maria; Stiopa's wife %%
+- **015/1874-01-05.md** para 015.0051 [RUSSIAN]: %% 2026-01-30T10:01:06 LAN: RUSSIAN: "troika" - three-horse sleigh; iconic Russian winter transport %%
+- **015/1874-01-07.md** para 015.0069 [ENGLISH]: %% 2026-01-30T10:01:31 LAN: ENGLISH: "gloveless" - without gloves; Marie fears boys' bare hands marking her dress %%
+- **015/1874-01-08.md** para 015.0072 [ENGLISH]: %% 2026-01-30T10:01:36 LAN: ENGLISH: "at my asking for my saddle" - code-switching mid-sentence %%
+- **015/1874-01-08.md** para 015.0072 [ENGLISH]: %% 2026-01-30T10:01:38 LAN: ENGLISH: "fur mantle" - fur cape %%
+- **015/1874-01-08.md** para 015.0072 [ENGLISH]: %% 2026-01-30T10:01:39 LAN: ENGLISH: "set off again for my expedition against the Ashantees" - reference to contemporary Anglo-Ashanti War (1873-74); humorous self-dramatization %%
+- **015/1874-01-08.md** para 015.0075 [LATIN]: %% 2026-01-30T10:01:50 LAN: LATIN: "atrium" - entrance hall; Marie's classical term for anteroom %%
+- **015/1874-01-08.md** para 015.0075 [ENGLISH]: %% 2026-01-30T10:01:51 LAN: ENGLISH: "duster" - dust coat/light overgarment %%
+- **015/1874-01-08.md** para 015.0076 [ENGLISH]: %% 2026-01-30T10:01:52 LAN: ENGLISH: "but for that paysan" - except for that peasant; code-switch mid-sentence %%
+- **015/1874-01-09.md** para 015.0092 [ENGLISH]: %% 2026-01-30T10:02:12 LAN: ENGLISH: "in a twinkling of the eye" - in the blink of an eye %%
+- **015/1874-01-09.md** para 015.0095 [ENGLISH]: %% 2026-01-30T10:02:13 LAN: ENGLISH: "How late" - guests' reaction to her arrival %%
+- **015/1874-01-09.md** para 015.0096 [ENGLISH]: %% 2026-01-30T10:02:16 LAN: ENGLISH: "for an hour" - code-switching %%
+- **015/1874-01-09.md** para 015.0096 [ENGLISH]: %% 2026-01-30T10:02:18 LAN: ENGLISH: "shook the hand" - non-standard English; Marie's grammar error %%
+- **015/1874-01-09.md** para 015.0097 [ENGLISH]: %% 2026-01-30T10:02:22 LAN: ENGLISH: "followers" - admirers/suitors %%
+- **015/1874-01-09.md** para 015.0100 [ENGLISH]: %% 2026-01-30T10:02:30 LAN: ENGLISH: "childish" - code-switch for childlike behavior %%
+- **015/1874-01-10.md** para 015.0105 [ENGLISH]: %% 2026-01-30T10:02:38 LAN: ENGLISH: "blunt" - code-switch; feeling clumsy in blunt-toed shoes %%
+- **015/1874-01-10.md** para 015.0108 [ENGLISH]: %% 2026-01-30T10:02:44 LAN: ENGLISH: "Thistle" - name of Hamilton's yacht; Scottish national emblem %%
+- **015/1874-01-11.md** para 015.0119 [ENGLISH]: %% 2026-01-30T10:02:54 LAN: ENGLISH: "drive" - used as noun; driving/carriage ride %%
+- **015/1874-01-11.md** para 015.0120 [ITALIAN]: %% 2026-01-30T10:02:56 LAN: ITALIAN: "bestemmianolo tutto e tutti" - blaspheming/cursing everything and everyone %%
+- **015/1874-01-11.md** para 015.0124 [ENGLISH]: %% 2026-01-30T10:03:03 LAN: ENGLISH: "soon joined by Dina and the princess" - code-switch for full phrase %%
+- **015/1874-01-11.md** para 015.0125 [ENGLISH]: %% 2026-01-30T10:03:05 LAN: ENGLISH: "half valse" - half waltz; dance variation %%
+- **015/1874-01-12.md** para 015.0129 [ITALIAN]: %% 2026-01-30T10:03:07 LAN: ITALIAN: "bella Zigouzin" - beautiful Zigouzin; Italian article with Russian name %%
+- **015/1874-01-12.md** para 015.0132 [RUSSIAN]: %% 2026-01-30T10:03:13 LAN: RUSSIAN: "paskha" - traditional Russian Easter dessert (pyramid-shaped cheese cake) %%
+- **015/1874-01-12.md** para 015.0133 [ENGLISH]: %% 2026-01-30T10:03:20 LAN: ENGLISH: "in that attire" - code-switch describing ritual preparation %%
+- **015/1874-01-13.md** para 015.0151 [ITALIAN]: %% 2026-01-30T10:10:04 LAN: ITALIAN "in fretta" - in a hurry; code-switch for casual emphasis %%
+- **015/1874-01-13.md** para 015.0151 [ENGLISH]: %% 2026-01-30T10:10:05 LAN: ENGLISH "relieved" - code-switch for emotional state; Marie uses English for intensity %%
+- **015/1874-01-13.md** para 015.0156 [LATIN]: %% 2026-01-30T10:10:23 LAN: LATIN "miserere" - have mercy; from Psalm 51, religious/mock-religious exclamation %%
+- **015/1874-01-13.md** para 015.0157 [ITALIAN]: %% 2026-01-30T10:10:26 LAN: ITALIAN Dante quote (Inferno II) - "ed io sol uno m'apparecchiavo a sostenere la guerra si del cammino e si della pietate che ritrarrà a mente chi non crede" - and I alone prepared myself to sustain the war of the journey and of the pity that memory shall retrace. Marie identifies with Dante's isolation %%
+- **015/1874-01-14.md** para 015.0169 [ENGLISH]: %% 2026-01-30T10:10:43 LAN: ENGLISH "sick" - code-switch for emphasis; Marie finds female company nauseating %%
+- **015/1874-01-14.md** para 015.0171 [ENGLISH]: %% 2026-01-30T10:10:47 LAN: ENGLISH "pull" - Marie nicknames shooter "M. Pooool" for prolonging the English command to release pigeons %%
+- **015/1874-01-14.md** para 015.0181 [ENGLISH]: %% 2026-01-30T10:10:56 LAN: ENGLISH "block head" - blockhead/stupid person; code-switch for insult %%
+- **015/1874-01-15.md** para 015.0203 [RUSSIAN]: %% 2026-01-30T10:11:17 LAN: RUSSIAN "Moussia" - Marie's family diminutive/nickname %%
+- **015/1874-01-16.md** para 015.0212 [ITALIAN]: %% 2026-01-30T10:11:31 LAN: ITALIAN "basta" - enough/that's all; dismissive code-switch %%
+- **015/1874-01-17.md** para 015.0216 [ENGLISH]: %% 2026-01-30T10:11:34 LAN: ENGLISH "of course" - casual code-switch; Marie uses English for sophistication %%
+- **015/1874-01-17.md** para 015.0224 [ITALIAN]: %% 2026-01-30T10:11:44 LAN: ITALIAN "Lo Specchio Infernale" - The Infernal Mirror; Italian theater piece %%
+- **015/1874-01-18.md** para 015.0235 [ENGLISH]: %% 2026-01-30T10:11:59 LAN: ENGLISH "that sort of weather" - code-switch showing preference for English sophistication %%
+- **015/1874-01-18.md** para 015.0236 [ENGLISH]: %% 2026-01-30T10:12:01 LAN: ENGLISH "bino-eie" - MARIE QUIRK: playful English rendering of binoculars with phonetic spelling %%
+- **015/1874-01-18.md** para 015.0238 [ENGLISH]: %% 2026-01-30T10:12:03 LAN: ENGLISH "melts away" - code-switch for romantic languishing %%
+- **015/1874-01-18.md** para 015.0238 [ENGLISH]: %% 2026-01-30T10:12:06 LAN: ENGLISH "jump" - code-switch for racing term %%
+- **015/1874-01-18.md** para 015.0239 [ENGLISH]: %% 2026-01-30T10:12:07 LAN: ENGLISH "we rushed" - code-switch for excitement %%
+- **015/1874-01-18.md** para 015.0239 [ENGLISH]: %% 2026-01-30T10:12:08 LAN: ENGLISH "turf" - English racing term; the track/racing world %%
+- **015/1874-01-18.md** para 015.0239 [ENGLISH]: %% 2026-01-30T10:12:11 LAN: ENGLISH "the military band" - code-switch for musical ensemble %%
+- **015/1874-01-18.md** para 015.0242 [ITALIAN]: %% 2026-01-30T10:12:13 LAN: ITALIAN "mi sono levata sulla punta dei piedi e non osavo respirare vorrei volare" - I rose on tiptoe and didn't dare breathe, I wanted to fly; extended code-switch for intense emotion %%
+- **015/1874-01-19.md** para 015.0254 [LATIN]: %% 2026-01-30T10:12:26 LAN: LATIN "viz." - videlicet, namely; learned abbreviation %%
+- **015/1874-01-19.md** para 015.0254 [ENGLISH]: %% 2026-01-30T10:12:27 LAN: ENGLISH "short interval" - code-switch for break %%
+- **015/1874-01-19.md** para 015.0254 [ENGLISH]: %% 2026-01-30T10:12:32 LAN: ENGLISH "desk" - code-switch for writing desk %%
+- **015/1874-01-19.md** para 015.0254 [ENGLISH]: %% 2026-01-30T10:12:33 LAN: ENGLISH "I lay my heart at your feet" / "Refuse them" - romantic notes in English %%
+- **015/1874-01-19.md** para 015.0256 [LATIN]: %% 2026-01-30T10:12:37 LAN: LATIN "ad alta voce" - aloud/in a loud voice; should be "alta voce" (Italian) or "ad alta voce" mixed %%
+- **015/1874-01-19.md** para 015.0256 [ENGLISH]: %% 2026-01-30T10:12:38 LAN: ENGLISH "He has the nicest place" - envious comment about Striker's dinner seat %%
+- **015/1874-01-19.md** para 015.0258 [ENGLISH]: %% 2026-01-30T10:12:39 LAN: ENGLISH "fellows" - code-switch for men/guys %%
+- **015/1874-01-20.md** para 015.0263 [ITALIAN]: %% 2026-01-30T10:12:43 LAN: ITALIAN extended passage - "fino alle otto e mezzo" (until half past eight), "E tempo di ricomminciare a lavorare" (It's time to start working again), "O misera me!" (Oh wretched me!), "Venerdì finì su tutto ciò che mi fa vivere" (Friday ends everything that makes me live), "Il Pigeon shooting e le corse. Tutto finisce in questo mondo" (The pigeon shooting and the races. Everything ends in this world) - code-switch for emotional lament %%
+- **015/1874-01-20.md** para 015.0265 [ITALIAN]: %% 2026-01-30T10:12:44 LAN: ITALIAN "che venerdì tutto finisce" - that Friday everything ends %%
+- **015/1874-01-20.md** para 015.0265 [ENGLISH]: %% 2026-01-30T10:12:45 LAN: ENGLISH "Races and shooting all is over" - code-switch for final lament %%
+- **015/1874-01-20.md** para 015.0265 [ENGLISH]: %% 2026-01-30T10:12:46 LAN: ENGLISH "splendidly" - code-switch for emphasis %%
+- **015/1874-01-20.md** para 015.0265 [ENGLISH]: %% 2026-01-30T10:12:47 LAN: ENGLISH "for a walk" - code-switch %%
+- **015/1874-01-20.md** para 015.0265 [ENGLISH]: %% 2026-01-30T10:12:48 LAN: ENGLISH "I contrived to pass by the churchyard" - code-switch; strategic route planning %%
+- **015/1874-01-20.md** para 015.0266 [ENGLISH]: %% 2026-01-30T10:12:52 LAN: ENGLISH "fast" - forward/bold in behavior; term for improper conduct in women %%
+- **015/1874-01-20.md** para 015.0270 [ITALIAN]: %% 2026-01-30T10:12:55 LAN: ITALIAN "amabilissimamente" - most amiably; superlative adverb %%
+- **015/1874-01-20.md** para 015.0270 [ENGLISH]: %% 2026-01-30T10:12:56 LAN: ENGLISH "mercenary" - self-interested; code-switch for cynical observation (used 3 times) %%
+- **015/1874-01-21.md** para 015.0277 [ENGLISH]: %% 2026-01-30T10:13:01 LAN: ENGLISH "I walk with Hitchcock at the straits of the Flies" - code-switch with MARIE QUIRK translation of "détroit des Mouches" %%
+- **015/1874-01-22.md** para 015.0288 [ITALIAN]: %% 2026-01-30T10:13:18 LAN: ITALIAN "impediva il cammino" - blocked the way; Dante reference (Inferno I) %%
+- **015/1874-01-22.md** para 015.0288 [ITALIAN]: %% 2026-01-30T10:13:19 LAN: ITALIAN "questi parea che contro me con la testa bassa" - this one seemed against me with head bowed; Dante echo %%
+- **015/1874-01-22.md** para 015.0288 [ITALIAN]: %% 2026-01-30T10:13:20 LAN: ITALIAN "approsiamo" - we approached; code-switch %%
+- **015/1874-01-23.md** para 015.0298 [ITALIAN]: %% 2026-01-30T10:13:29 LAN: ITALIAN "in sproposito" - inappropriately/out of place; self-criticism of writing order %%
+- **015/1874-01-23.md** para 015.0300 [LATIN]: %% 2026-01-30T10:13:30 LAN: LATIN "Te Deum" - hymn of thanksgiving; religious ceremony %%
+- **015/1874-01-23.md** para 015.0307 [ENGLISH]: %% 2026-01-30T10:13:38 LAN: ENGLISH "for the sake of associations" - code-switch; for the memories associated with places %%
+- **015/1874-01-24.md** para 015.0328 [ENGLISH]: %% 2026-01-30T10:14:02 LAN: ENGLISH marginal note "Serpent deceives me" - cryptic; likely referring to Lambertye (her "singe/serpent") %%
 - **016/1874-01-26.md** para 016.0004 [ENGLISH]: %% 2026-01-30T10:20:14 LAN: ENGLISH: "at ease" - Marie code-switches to English for comfort/discomfort %%
 - **016/1874-01-26.md** para 016.0004 [ENGLISH]: %% 2026-01-30T10:20:15 LAN: ENGLISH: "retook possession" - English for sophistication; regained her style/composure %%
 - **016/1874-01-27.md** para 016.0016 [ENGLISH]: %% 2026-01-30T10:20:34 LAN: ENGLISH: "he would conceive the meanest opinion of me" - code-switch for self-criticism; continues to next paragraph %%
@@ -1005,10 +1005,10 @@ They need AI translation into French.
 - **047/1875-10-21.md** para 047.0343 [ENGLISH]: %% 2026-02-02T12:00:00 LAN: ENGLISH: "time will show" - time will tell; Marie's English phrase %%
 - **047/1875-10-21.md** para 047.0350 [LATIN]: %% 2026-02-02T12:00:00 LAN: LATIN: "Dixi" - I have spoken; classical rhetoric marker for ending an argument %%
 - **047/1875-10-21.md** para 047.0383 [LATIN]: %% 2026-02-02T12:00:00 LAN: LATIN: "Nescio" - I don't know; classical affectation %%
-- **048/1875-10-24.md** para 048.0008 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "viz" - abbreviation of "videlicet", meaning "namely" %%
-- **048/1875-10-26.md** para 048.0062 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "buona compagnia" - good company, the whole group; Marie uses Italian for light irony %%
-- **048/1875-10-30.md** para 048.0288 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "english-looking" - Marie uses English for describing fashionable/distinctive appearance %%
-- **048/1875-11-01.md** para 048.0381 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Dormi pure" - aria from "La sonnambula" by Bellini, meaning "Sleep peacefully" %%
+- **048/1875-10-24.md** para 048.0010 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "viz" - abbreviation of "videlicet", meaning "namely" %%
+- **048/1875-10-26.md** para 048.0064 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "buona compagnia" - good company, the whole group; Marie uses Italian for light irony %%
+- **048/1875-10-30.md** para 048.0290 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "english-looking" - Marie uses English for describing fashionable/distinctive appearance %%
+- **048/1875-11-01.md** para 048.0383 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Dormi pure" - aria from "La sonnambula" by Bellini, meaning "Sleep peacefully" %%
 - **049/1875-11-07.md** para 049.0039 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "sospesi" - the suspended ones; Dante's Limbo reference for those neither happy nor sad %%
 - **049/1875-11-12.md** para 049.0315 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "E quando ci darete Mignon?" - And when will you give us Mignon? %%
 - **049/1875-11-12.md** para 049.0316 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "Lunedi, signorina, lunedi" - Monday, miss, Monday %%
@@ -1018,24 +1018,24 @@ They need AI translation into French.
 - **049/1875-11-15.md** para 049.0438 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: "prima donna" - ITALIAN: lead female opera singer %%
 - **049/1875-11-15.md** para 049.0452 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN: "Nescio" - I don't know %%
 - **050/1875-11-18.md** para 050.DROPPED-0003 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH acronym - "H[is] G[race] t[he] D[uke] o[f] Hamilton" - Marie's coded reference to the Duke, using English title %%
-- **050/1875-11-25.md** para 050.0202 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH "roastbeef" - Marie uses English word for this British dish %%
-- **050/1875-11-28.md** para 050.0255 [CODE-SWITCH]: %% 2026-02-02T12:05:00 LAN: CODE-SWITCHING: "parler...italien" - Audiffret speaks Italian to stepmother (her native language) %%
-- **050/1875-12-01.md** para 050.0357 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "nec plus" - and nothing more, no further contact %%
-- **050/1875-12-08.md** para 050.0575 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime" - alas, oh dear (Italian exclamation) %%
-- **050/1875-12-10.md** para 050.0593 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Heu misera" - Alas, wretched one! (classical exclamation of self-pity) %%
-- **050/1875-12-11.md** para 050.0644 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "La Cenerentola" - Rossini's Cinderella opera (1817); ITALIAN title %%
-- **050/1875-12-11.md** para 050.0650 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "flirtons" - we flirt; borrowed from English, fashionable term %%
-- **050/1875-12-12.md** para 050.0692 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Delectabile tempus" - delightful time (mock-formal nostalgia) %%
-- **050/1875-12-13.md** para 050.0730 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Capite?" - Do you understand? (rhetorical, expressing frustration) %%
-- **050/1875-12-15.md** para 050.0789 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Vedete!" - You see! (rhetorical, inviting reader to witness) %%
-- **050/1875-12-16.md** para 050.0817 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La figlia del regimento" - The Daughter of the Regiment (Donizetti opera, 1840) %%
-- **050/1875-12-17.md** para 050.0911 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Che differenza!" - What a difference! %%
-- **050/1875-12-20.md** para 050.1086 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Qui solo vorrei restare, amar et morir" - Here only would I wish to stay, to love and to die (operatic quotation) %%
-- **050/1875-12-22.md** para 050.1127 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "moujik" - peasant (mocking term for Audiffret, despite his nobility) %%
-- **050/1875-12-22.md** para 050.1150 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ed ha natura si malvaggia e ria" - And has a nature so wicked and evil (Dante, Inferno; Marie applies to jealousy) %%
-- **050/1875-12-24.md** para 050.1171 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime! potessi io ritornare a quelle amate sponde" - Alas! Could I return to those beloved shores (operatic aria, possibly from Il Barbiere) %%
-- **050/1875-12-24.md** para 050.1173 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La solo restare" - there only to stay (from the aria; Marie applies to Nice) %%
-- **050/1875-12-25.md** para 050.1201 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "a mezza voce" - at half voice, softly (musical term) %%
+- **050/1875-11-25.md** para 050.0203 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH "roastbeef" - Marie uses English word for this British dish %%
+- **050/1875-11-28.md** para 050.0256 [CODE-SWITCH]: %% 2026-02-02T12:05:00 LAN: CODE-SWITCHING: "parler...italien" - Audiffret speaks Italian to stepmother (her native language) %%
+- **050/1875-12-01.md** para 050.0358 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "nec plus" - and nothing more, no further contact %%
+- **050/1875-12-08.md** para 050.0576 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime" - alas, oh dear (Italian exclamation) %%
+- **050/1875-12-10.md** para 050.0594 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Heu misera" - Alas, wretched one! (classical exclamation of self-pity) %%
+- **050/1875-12-11.md** para 050.0645 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "La Cenerentola" - Rossini's Cinderella opera (1817); ITALIAN title %%
+- **050/1875-12-11.md** para 050.0651 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "flirtons" - we flirt; borrowed from English, fashionable term %%
+- **050/1875-12-12.md** para 050.0693 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Delectabile tempus" - delightful time (mock-formal nostalgia) %%
+- **050/1875-12-13.md** para 050.0731 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Capite?" - Do you understand? (rhetorical, expressing frustration) %%
+- **050/1875-12-15.md** para 050.0790 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Vedete!" - You see! (rhetorical, inviting reader to witness) %%
+- **050/1875-12-16.md** para 050.0818 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La figlia del regimento" - The Daughter of the Regiment (Donizetti opera, 1840) %%
+- **050/1875-12-17.md** para 050.0912 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Che differenza!" - What a difference! %%
+- **050/1875-12-20.md** para 050.1087 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Qui solo vorrei restare, amar et morir" - Here only would I wish to stay, to love and to die (operatic quotation) %%
+- **050/1875-12-22.md** para 050.1128 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "moujik" - peasant (mocking term for Audiffret, despite his nobility) %%
+- **050/1875-12-22.md** para 050.1151 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ed ha natura si malvaggia e ria" - And has a nature so wicked and evil (Dante, Inferno; Marie applies to jealousy) %%
+- **050/1875-12-24.md** para 050.1172 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime! potessi io ritornare a quelle amate sponde" - Alas! Could I return to those beloved shores (operatic aria, possibly from Il Barbiere) %%
+- **050/1875-12-24.md** para 050.1174 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La solo restare" - there only to stay (from the aria; Marie applies to Nice) %%
+- **050/1875-12-25.md** para 050.1202 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "a mezza voce" - at half voice, softly (musical term) %%
 - **051/1875-12-27.md** para 051.0030 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "la vecchia canzone" - the old song/same old story %%
 - **051/1875-12-27.md** para 051.0030 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Misera me" - woe is me/poor me; operatic exclamation %%
 - **051/1875-12-27.md** para 051.0032 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "partiro" - I will leave; code-switching for emotional effect %%
@@ -1204,17 +1204,17 @@ They need AI translation into French.
 - **058/1876-04-17.md** para 058.0117 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "*faire d'histoire*" - Russian idiom (delat' istoriyu): to make a fuss/scene %%
 - **058/1876-04-17.md** para 058.0130 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: Telegram text in Italian - "Count Pietro Antonelli is in Rome" %%
 - **058/1876-04-17.md** para 058.0149 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "signor cardinalino" - mocking: "little cardinal gentleman" (diminutive for Antonelli's Vatican connection) %%
-- **059/1876-04-20.md** para 059.0009 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Caccia-Club" - ITALIAN: the Hunt Club, an exclusive gentlemen's club in Rome %%
-- **059/1876-04-20.md** para 059.0009 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "barcaccia" - ITALIAN: literally "old boat"; refers to the fountain in Piazza di Spagna, a fashionable gathering place %%
-- **059/1876-04-20.md** para 059.0036 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: "gentlemen riders" - ENGLISH: amateur riders from aristocratic families who race for sport, not money %%
-- **059/1876-04-21.md** para 059.0077 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Tiziano Vicellio" - ITALIAN form of Titian's name (Tiziano Vecellio); showing Marie's art knowledge %%
-- **059/1876-04-21.md** para 059.0079 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Forse" - perhaps/maybe; Marie's casual Italian interjection %%
-- **059/1876-04-29.md** para 059.0597 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "poco m'importe" - little does it matter to me; mixed Italian/French %%
-- **059/1876-05-02.md** para 059.0672 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Signor zio" - Mr. Uncle; affectionate/ironic reference to Cardinal Antonelli %%
-- **059/1876-05-06.md** para 059.0824 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: "Rossignou che vola" - "The Nightingale that Flies"; traditional Nicois song in local dialect %%
-- **059/1876-05-07.md** para 059.0889 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Carpo di Bacco!" - "Body of Bacchus!"; Italian oath, euphemistic %%
-- **059/1876-05-08.md** para 059.0920 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH RUSSIAN: "chtchenok" (щенок) - puppy, young dog; pejorative for an immature young man %%
-- **059/1876-05-09.md** para 059.0951 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN PROVERB: "Vis un siècle et étudie un siècle" - Live a century and study a century (one never stops learning) %%
+- **059/1876-04-20.md** para 059.0010 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Caccia-Club" - ITALIAN: the Hunt Club, an exclusive gentlemen's club in Rome %%
+- **059/1876-04-20.md** para 059.0010 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "barcaccia" - ITALIAN: literally "old boat"; refers to the fountain in Piazza di Spagna, a fashionable gathering place %%
+- **059/1876-04-20.md** para 059.0037 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: "gentlemen riders" - ENGLISH: amateur riders from aristocratic families who race for sport, not money %%
+- **059/1876-04-21.md** para 059.0078 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Tiziano Vicellio" - ITALIAN form of Titian's name (Tiziano Vecellio); showing Marie's art knowledge %%
+- **059/1876-04-21.md** para 059.0080 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Forse" - perhaps/maybe; Marie's casual Italian interjection %%
+- **059/1876-04-29.md** para 059.0598 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "poco m'importe" - little does it matter to me; mixed Italian/French %%
+- **059/1876-05-02.md** para 059.0673 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Signor zio" - Mr. Uncle; affectionate/ironic reference to Cardinal Antonelli %%
+- **059/1876-05-06.md** para 059.0825 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: "Rossignou che vola" - "The Nightingale that Flies"; traditional Nicois song in local dialect %%
+- **059/1876-05-07.md** para 059.0890 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Carpo di Bacco!" - "Body of Bacchus!"; Italian oath, euphemistic %%
+- **059/1876-05-08.md** para 059.0921 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH RUSSIAN: "chtchenok" (щенок) - puppy, young dog; pejorative for an immature young man %%
+- **059/1876-05-09.md** para 059.0952 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN PROVERB: "Vis un siècle et étudie un siècle" - Live a century and study a century (one never stops learning) %%
 - **060/1876-05-10.md** para 060.0005 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ENGLISH: "we are off" - we're leaving; Marie's casual English %%
 - **060/1876-05-10.md** para 060.0011 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: "San Diou de Diou!" - "Saint God of God!"; Nice dialect exclamation %%
 - **060/1876-05-10.md** para 060.0021 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Corpo di Dio" - "Body of God"; oath/exclamation %%
@@ -1281,28 +1281,28 @@ They need AI translation into French.
 - **066/1876-10-02.md** para 066.0592 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "O rus" - O countryside! (Horace, Satires II.6); ironic use, Marie's boredom %%
 - **066/1876-10-06.md** para 066.0653 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Audaces fortuna juvat" - Fortune favors the bold (Virgil, Aeneid X.284) %%
 - **066/1876-10-06.md** para 066.0657 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "troïka" - three-horse carriage; traditional Russian transport %%
-- **067/1876-11-11.md** para 067.0934 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: "Goloss" - RUSSIAN: "The Voice," Russian newspaper %%
-- **067/1876-11-15.md** para 067.0987 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Golova" = head/mayor; "Douma" = thought/city hall - Marie's linguistic observation %%
-- **067/1876-11-15.md** para 067.1008 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Via e al diavolo" - Away and to the devil! %%
-- **067/1876-11-15.md** para 067.1011 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? - Marie's code-switching %%
-- **067/1876-11-15.md** para 067.1015 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Est socia mortis homini vita ingloria" - An inglorious life is death's companion %%
-- **067/1876-12-08.md** para 067.1259 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN: "Agnus Dei" = Lamb of God. Marie sarcastically compares her humble, wheedling father to the sacrificial lamb. %%
-- **068/1876-12-12.md** para 068.0003 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH Italian: "che" - Marie writes Italian "che" instead of French "que", possibly showing emotional agitation %%
-- **068/1876-12-12.md** para 068.0004 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating-rink" - roller skating rink, fashionable entertainment venue in 1870s; often social gathering place %%
-- **068/1876-12-16.md** para 068.0061 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating" - roller skating rink; fashionable social venue in 1870s Europe %%
-- **068/1876-12-27.md** para 068.0175 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "barcaccia" - ITALIAN: boat-shaped box at theater front; prestigious seating area %%
-- **068/1876-12-27.md** para 068.0202 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "birra" - beer; suggests coarse behavior in contrast to wine %%
-- **068/1876-12-27.md** para 068.0203 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Voi a gnor? Vergogna e pietà di voi" - You now? Shame and pity on you; addressing Pietro in Italian %%
-- **068/1876-12-27.md** para 068.0206 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "soffro di veder vi avilito ma non n'amo più" - I suffer to see you debased but I love you no more %%
-- **068/1877-01-02.md** para 068.0244 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Vogliamo l'accessione al regno costituzionale di Vittorio Emanuele" - We want accession to the constitutional kingdom of Victor Emmanuel; Risorgimento slogan %%
-- **068/1877-01-02.md** para 068.0246 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Re e liberatore" - King and Liberator; Victor Emmanuel II's title after Italian unification %%
-- **068/1877-01-02.md** para 068.0277 [LATIN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH LATIN: "Culpa mea" - my fault; from Catholic confession formula %%
-- **068/1877-01-02.md** para 068.0278 [LATIN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH LATIN: "Dubium, illusio, deceptio, oppressio" - Doubt, illusion, deception, oppression; mock-learned summary of her life %%
-- **068/1877-02-10.md** para 068.0814 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "veglione" - grand masked ball; traditional carnival entertainment %%
-- **068/1877-02-10.md** para 068.0965 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "coriandoli" - confetti; small paper pieces thrown during carnival %%
-- **068/1877-02-13.md** para 068.1147 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "stenco di tenerla" - tired of keeping her; weary of maintaining his mistress %%
-- **068/1877-02-13.md** para 068.1175 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "lazzaroni" - Neapolitan street people, homeless poor; from Lazarus the beggar %%
-- **068/1877-02-22.md** para 068.1274 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ENGLISH: "I pay no attention" - switch to English for dismissive phrase; shows sophistication %%
+- **067/1876-11-11.md** para 067.0935 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: "Goloss" - RUSSIAN: "The Voice," Russian newspaper %%
+- **067/1876-11-15.md** para 067.0988 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Golova" = head/mayor; "Douma" = thought/city hall - Marie's linguistic observation %%
+- **067/1876-11-15.md** para 067.1009 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Via e al diavolo" - Away and to the devil! %%
+- **067/1876-11-15.md** para 067.1012 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? - Marie's code-switching %%
+- **067/1876-11-15.md** para 067.1016 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Est socia mortis homini vita ingloria" - An inglorious life is death's companion %%
+- **067/1876-12-08.md** para 067.1260 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN: "Agnus Dei" = Lamb of God. Marie sarcastically compares her humble, wheedling father to the sacrificial lamb. %%
+- **068/1876-12-12.md** para 068.0004 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH Italian: "che" - Marie writes Italian "che" instead of French "que", possibly showing emotional agitation %%
+- **068/1876-12-12.md** para 068.0005 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating-rink" - roller skating rink, fashionable entertainment venue in 1870s; often social gathering place %%
+- **068/1876-12-16.md** para 068.0062 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating" - roller skating rink; fashionable social venue in 1870s Europe %%
+- **068/1876-12-27.md** para 068.0176 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "barcaccia" - ITALIAN: boat-shaped box at theater front; prestigious seating area %%
+- **068/1876-12-27.md** para 068.0203 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "birra" - beer; suggests coarse behavior in contrast to wine %%
+- **068/1876-12-27.md** para 068.0204 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Voi a gnor? Vergogna e pietà di voi" - You now? Shame and pity on you; addressing Pietro in Italian %%
+- **068/1876-12-27.md** para 068.0207 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "soffro di veder vi avilito ma non n'amo più" - I suffer to see you debased but I love you no more %%
+- **068/1877-01-02.md** para 068.0245 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Vogliamo l'accessione al regno costituzionale di Vittorio Emanuele" - We want accession to the constitutional kingdom of Victor Emmanuel; Risorgimento slogan %%
+- **068/1877-01-02.md** para 068.0247 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Re e liberatore" - King and Liberator; Victor Emmanuel II's title after Italian unification %%
+- **068/1877-01-02.md** para 068.0278 [LATIN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH LATIN: "Culpa mea" - my fault; from Catholic confession formula %%
+- **068/1877-01-02.md** para 068.0279 [LATIN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH LATIN: "Dubium, illusio, deceptio, oppressio" - Doubt, illusion, deception, oppression; mock-learned summary of her life %%
+- **068/1877-02-10.md** para 068.0815 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "veglione" - grand masked ball; traditional carnival entertainment %%
+- **068/1877-02-10.md** para 068.0966 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "coriandoli" - confetti; small paper pieces thrown during carnival %%
+- **068/1877-02-13.md** para 068.1148 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "stenco di tenerla" - tired of keeping her; weary of maintaining his mistress %%
+- **068/1877-02-13.md** para 068.1176 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "lazzaroni" - Neapolitan street people, homeless poor; from Lazarus the beggar %%
+- **068/1877-02-22.md** para 068.1275 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ENGLISH: "I pay no attention" - switch to English for dismissive phrase; shows sophistication %%
 - **069/1877-02-25.md** para 069.0014 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "La Forza del destino" - Verdi opera (1862), "The Force of Destiny" %%
 - **069/1877-02-26.md** para 069.0033 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "fra" - ITALIAN: friar/brother (religious title) %%
 - **069/1877-02-26.md** para 069.0046 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Povero gente!" - "Poor people!" - exclamation of pity/contempt %%
@@ -1330,12 +1330,12 @@ They need AI translation into French.
 - **070/1877-04-23.md** para 070.0853 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Si ch'a bene sperar m'era cagione" - Inferno I:41; "so that it gave me reason to hope"; Marie quotes Dante on hope at sunrise %%
 - **070/1877-04-23.md** para 070.0856 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "nebbioso" - misty/hazy; Italian adjective inserted into French text %%
 - **070/1877-04-25.md** para 070.DROPPED-0198 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" - Doubt, illusion, deception, oppression / By desire for glory; Marie's philosophical/mood notation, recurring motif %%
-- **071/1877-05-02.md** para 071.0108 [ITALIAN]: %% 2026-02-02T15:00:00 LAN: ITALIAN: "palazzo" - palace/mansion, used untranslated in French for Italian noble residences %%
-- **071/1877-05-02.md** para 071.0111 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "Skating" - refers to a skating rink, fashionable social venue; term used in English %%
-- **071/1877-05-13.md** para 071.0306 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "Veglione" - ITALIAN: masked ball, typically during carnival season %%
-- **071/1877-06-02.md** para 071.0539 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "tarentelle" - ITALIAN: tarantella; lively Italian folk dance %%
-- **071/1877-06-08.md** para 071.0605 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: "water-closet" - ENGLISH: toilet; the pun links the name "Chaussade/Closet" to toilet humor %%
-- **071/1877-06-10.md** para 071.0617 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN quotation from Dante's Inferno, Canto V: "Master, who are those people whom the black air so punishes?" %%
+- **071/1877-05-02.md** para 071.0110 [ITALIAN]: %% 2026-02-02T15:00:00 LAN: ITALIAN: "palazzo" - palace/mansion, used untranslated in French for Italian noble residences %%
+- **071/1877-05-02.md** para 071.0113 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "Skating" - refers to a skating rink, fashionable social venue; term used in English %%
+- **071/1877-05-13.md** para 071.0308 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "Veglione" - ITALIAN: masked ball, typically during carnival season %%
+- **071/1877-06-02.md** para 071.0541 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "tarentelle" - ITALIAN: tarantella; lively Italian folk dance %%
+- **071/1877-06-08.md** para 071.0607 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: "water-closet" - ENGLISH: toilet; the pun links the name "Chaussade/Closet" to toilet humor %%
+- **071/1877-06-10.md** para 071.0619 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN quotation from Dante's Inferno, Canto V: "Master, who are those people whom the black air so punishes?" %%
 - **072/1877-06-15.md** para 072.0061 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Guarda Don Bartolo" - "Look, Don Bartolo" - from the opera %%
 - **072/1877-06-18.md** para 072.0188 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "bulldog" - ENGLISH: English bulldog breed %%
 - **072/1877-06-18.md** para 072.0191 [LATIN]: %% 2026-02-02T13:00:00 LAN: "i.e." - LATIN: id est (that is); Marie codes Torlonia as "Torniole" %%
@@ -1437,13 +1437,13 @@ They need AI translation into French.
 - **089/1880-07-10.md** para 089.0127 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "stick" - walking stick/cane; Marie uses English term %%
 - **089/1880-07-13.md** para 089.0141 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "waterproof" - raincoat; Marie uses the English word %%
 - **089/1880-08-17.md** para 089.0349 [ITALIAN]: %% 2026-02-09T15:00:00 LAN: ITALIAN: "fleurs de langage" - flowers of language; Italian-style elaborate courteous expressions that Marie finds charming %%
-- **090/1880-10-03.md** para 090.0001 [ITALIAN]: %% 2026-02-02T13:30:00 LAN: ITALIAN cultural reference: Rigoletto - Verdi's opera (1851), popular in Parisian salons %%
-- **090/1880-11-25.md** para 090.0267 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Unae irae" - one wrath/anger (Marie's classical allusion, possibly misremembered) %%
-- **090/1880-12-16.md** para 090.0384 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN: "Consilium" - medical consultation/council %%
-- **090/1880-12-20.md** para 090.0420 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN cultural reference: Temple of Fides (Good Faith) traditionally attributed to Romulus %%
+- **090/1880-10-03.md** para 090.0003 [ITALIAN]: %% 2026-02-02T13:30:00 LAN: ITALIAN cultural reference: Rigoletto - Verdi's opera (1851), popular in Parisian salons %%
+- **090/1880-11-25.md** para 090.0269 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Unae irae" - one wrath/anger (Marie's classical allusion, possibly misremembered) %%
+- **090/1880-12-16.md** para 090.0386 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN: "Consilium" - medical consultation/council %%
+- **090/1880-12-20.md** para 090.0422 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN cultural reference: Temple of Fides (Good Faith) traditionally attributed to Romulus %%
 - **094/1882-04-18.md** para 094.0353 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: "sleeping" - ENGLISH: sleeping car (train compartment) %%
-- **091/1881-02-05.md** para 091.0079 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "flirté" - borrowed English verb "flirt" with French conjugation %%
-- **091/1881-04-01.md** para 091.0418 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "blackbouler" - from English "blackball"; to reject, ostracize %%
+- **091/1881-02-05.md** para 091.0080 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "flirté" - borrowed English verb "flirt" with French conjugation %%
+- **091/1881-04-01.md** para 091.0419 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "blackbouler" - from English "blackball"; to reject, ostracize %%
 - **092/1881-06-14.md** para 092.0118 [RUSSIAN]: %% 2026-02-02T09:03:04 LAN: "Vassya" - RUSSIAN diminutive of Vasily; indicates familiar/affectionate naming %%
 - **092/1881-07-17.md** para 092.0297 [RUSSIAN]: %% 2026-02-02T08:07:17 LAN: RUSSIAN: "stariovoi" - stanovoi pristav, local police chief %%
 - **092/1881-07-17.md** para 092.0300 [LATIN]: %% 2026-02-02T08:07:38 LAN: LATIN: "Ave!" - Hail! (classical salute, ironic/mock-admiring) %%
