@@ -31,7 +31,8 @@ const isSourceLine = (l: string) => {
   return true;
 };
 // embeds that are correct French where _original itself has a typo — leave for a source fix
-const FORCE = new Set(['059.0076', '008.0197', '094.0003', '105.0203']);
+const FORCE = new Set(['059.0076', '008.0197', '094.0003', '105.0203', ...(process.env.FORCE_IDS || '').split(',').filter(Boolean)]);
+const FORCED = new Set((process.env.FORCE_IDS || '').split(',').filter(Boolean));
 const KEEP = new Set(['053.0015', '053.0409', '094.0050', '092.0237', '092.0246', '105.0085']);
 const shingleCover = (a: string, b: string) => { const fa = fold(a), fb = fold(b); if (fa.length < 10) return 0; let hit = 0, n = 0; for (let i = 0; i + 6 <= fa.length; i += 3) { n++; if (fb.includes(fa.slice(i, i + 6))) hit++; } return hit / n; };
 for (const [lang, carnet] of targets) {
@@ -55,11 +56,15 @@ for (const f of fs.readdirSync(dir).filter(f => /^\d.*\.md$/.test(f) && !EXCL.ha
     if (!tp) { bump('absentId'); continue; }
     const ot = norm(op.originalText || ''), tt = norm(tp.originalText || '');
     const otBody = norm((op.originalText || '').replace(/^#+ [^\n]*\n+/, ''));
-    if (ot === tt || (tt && otBody === tt) || (tt && ot.toLowerCase() === tt.toLowerCase())) continue;
+    const slashOnly = (ot === tt || otBody === tt) && / \/ /.test(tp.originalText || '') && !/ \/ /.test(op.originalText || '');
+    const PH = /^[\[(][^\]]*\b(no |missing|empty|placeholder|aucun|not provided|no entry|no content|french text|see original)[^\]]*[\])]\s*$/i.test(((tp.originalText || '').trim().split('\n').pop() || '').trim()) && tt.length < 200;
+    if (!slashOnly && (ot === tt || (tt && otBody === tt) || (tt && ot.toLowerCase() === tt.toLowerCase()))) continue;
     if (op.isHeader && !tt) { bump('headerSkip'); continue; }
     let kind: string;
     const tb = tt.replace(/(…|\.\.\.)$/, '').trim();
     if (!tt) kind = 'missing';
+    else if (slashOnly) kind = 'cosmetic';
+    else if (PH) kind = 'differ';
     else if (fold(ot) === fold(tt) || fold(otBody) === fold(tt)) kind = 'cosmetic';
     else if (fold(tb) && fold(ot).includes(fold(tb))) kind = /(…|\.\.\.)$/.test(tt) ? 'trunc' : 'partial';
     else if (process.env.SHOWDIFF && !op.id.startsWith("header_") && !KEEP.has(op.id)) { kind = "differ"; console.log(`  DIFF ${f} ${op.id} | T=${tt.slice(0, 110)} | O=${ot.slice(0, 110)}`); }
@@ -69,7 +74,7 @@ for (const f of fs.readdirSync(dir).filter(f => /^\d.*\.md$/.test(f) && !EXCL.ha
     else { bump('differSkip'); skipped.push(`${f} ${op.id} | T=${tt.slice(0, 90)} | O=${ot.slice(0, 90)}`); continue; }
     const vis = norm(tp.translatedText || '');
     const r = vis.length / Math.max(1, otBody.length || ot.length);
-    if ((kind === 'missing' || kind === 'differ') && Math.max(vis.length, ot.length) > 80 && (r < 0.4 || r > 2.5)) {
+    if (!FORCED.has(op.id) && (kind === 'missing' || kind === 'differ') && Math.max(vis.length, ot.length) > 80 && (r < 0.4 || r > 2.5)) {
       bump('ratioSkip'); skipped.push(`${f} ${op.id} ${kind} ratio=${r.toFixed(2)} | V=${vis.slice(0, 70)} | O=${ot.slice(0, 70)}`); continue;
     }
     bump(kind);
@@ -81,11 +86,17 @@ for (const f of fs.readdirSync(dir).filter(f => /^\d.*\.md$/.test(f) && !EXCL.ha
   const out: string[] = [];
   const odd = (l: string) => ((l.match(/%%/g) || []).length % 2) === 1;
   const openAt: boolean[] = []; { let open = false; for (const l of lines) { openAt.push(open); if (odd(l)) open = !open; } }
+  const block0 = (from: number) => { let e = from; while (e < lines.length && !ID.test(lines[e])) e++; return lines.slice(from, e); };
   let i = 0;
   while (i < lines.length) {
     const m = lines[i].match(ID);
     if (!m || !need.has(`${m[1]}.${m[2]}`)) { out.push(lines[i++]); continue; }
-    const src = need.get(`${m[1]}.${m[2]}`)!;
+    let src = need.get(`${m[1]}.${m[2]}`)!;
+    // a heading embed is only refreshed where the file already carries one; never added
+    if (/^#{1,6}\s/.test(meta.get(`${m[1]}.${m[2]}`)?.neu || '') && src.length > 1) {
+      const bare = (l: string) => fold(l.replace(/^%% /, '').replace(/\s*%%\s*$/, ''));
+      if (!block0(i + 1).some(l => isSourceLine(l) && bare(l) === bare(src[0]))) src = src.slice(1);
+    }
     out.push(lines[i++]);
     let end = i;
     while (end < lines.length && !ID.test(lines[end])) end++;
@@ -93,7 +104,7 @@ for (const f of fs.readdirSync(dir).filter(f => /^\d.*\.md$/.test(f) && !EXCL.ha
     const s = block.findIndex(isSourceLine);
     let nb: string[];
     // only treat as existing embed if it precedes the first visible text line
-    const firstText = block.findIndex(l => l.trim() !== '' && !l.startsWith('%%') && !l.startsWith('[^'));
+    const firstText = block.findIndex(l => l.trim() !== '' && !l.startsWith('%%') && !l.startsWith('[^') && !/^#{1,6}\s/.test(l));
     const id = `${m[1]}.${m[2]}`, md = meta.get(id);
     if (openAt[i - 1] || block.some(odd)) { bump('unbalancedSkip'); need.delete(id); skipped.push(`UNBALANCED ${f} ${id}`); out.push(...block); i = end; continue; }
     const lim = firstText < 0 ? block.length : firstText;
@@ -101,6 +112,15 @@ for (const f of fs.readdirSync(dir).filter(f => /^\d.*\.md$/.test(f) && !EXCL.ha
     const whole = norm(pre.map(([l]) => l.replace(/^%% /, '').replace(/\s*%%\s*$/, '')).join('\n'));
     const post = block.slice(lim).filter(isSourceLine);
     if (firstText >= 0 && post.length) {
+      const idxs = block.map((l, k) => [l, k] as [string, number]).filter(([l]) => isSourceLine(l)).map(([, k]) => k);
+      let ss = src;
+      if (ss.length === idxs.length + 1 && /^#{1,6}\s/.test(md.neu || '')) ss = ss.slice(1);
+      if (ss.length === idxs.length && process.env.LINEWISE) {
+        bump('lineWise'); nb = block.slice();
+        idxs.forEach((k, j) => { nb[k] = ss[j]; });
+        gaps.push(JSON.stringify({ lang, carnet, f, id, ...md }));
+        out.push(...nb); i = end; continue;
+      }
       bump('lineInterleavedSkip'); need.delete(id); nb = block;
       const all = norm(block.filter(isSourceLine).map(l => l.replace(/^%% /, '').replace(/\s*%%\s*$/, '')).join('\n'));
       if (fold(all) !== fold(md.ot) && fold(all) !== fold(md.otBody)) skipped.push(`LINEINTERLEAVED-DIFF ${f} ${id} | T=${all.slice(0, 90)} | O=${md.ot.slice(0, 90)}`);
