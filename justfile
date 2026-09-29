@@ -331,6 +331,10 @@ rebuild-diff-plan A B:
 source-completeness *CARNETS:
     uv run --quiet --with python-docx python src/scripts/completeness/run.py {{CARNETS}}
 
+# Post-rebuild audit of _original vs the tome docx/scans: dates, weekdays, date lines, order, duplicates, text not in the tome, empty days → .claude/reports/rebuild-audit-<date>.md + .cache/rebuild-audit/*.json (e.g. just rebuild-audit 001-074 081-100)
+rebuild-audit *ARGS:
+    PYTHONHASHSEED=0 uv run --quiet --with python-docx --with pymupdf --with numpy --with pyyaml python src/scripts/rebuild_audit.py {{ARGS}}
+
 # Tome scan helpers (content/_raw/scans/TomeN.pdf, gitignored): page→docx map with printed pages, figure candidates, keyword sweep, survey
 scan-pagemap TOME *OUT:
     uv run --quiet --with python-docx --with pymupdf python src/scripts/scans/pagemap.py {{TOME}} {{OUT}}
@@ -893,6 +897,7 @@ help:
     @echo "  just rebuild-carnets p065.json p066.json [--write]  # Several carnets in one run, paragraphs may move between them"
     @echo "  just rebuild-carnet-plan 068 > plan.json     # Current layout as a plan template"
     @echo "  just renumber-check 068   # Post-rebuild verifier (contiguous IDs, trees aligned, no stale refs)"
+    @echo "  just rebuild-audit 001-074  # Post-rebuild audit vs the tome docx: dates, date lines, order, duplicates, text not in the tome"
     @echo "  just search 'term'        # Search in source files (with links)"
     @echo "  just search-lang 'term' cz  # Search in a language (with links)"
     @echo ""
