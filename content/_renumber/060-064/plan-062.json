@@ -1,0 +1,3602 @@
+{
+ "carnet": "062",
+ "source": "tome08.docx",
+ "_draft": "rebuild-draft-plan 2026-09-29: a draft — read REVIEW.md before using it",
+ "drop": [
+  {
+   "id": "062.0014",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0023",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0073",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0122",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0147",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0163",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0194",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0373",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0401",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0472",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0495",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "062.0736",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned) — «Gloriae cupiditate», first line of the Livre 63 title page (tome08.docx ¶2793, Mon Journal t.8 p.249)"
+  },
+  {
+   "id": "062.0351",
+   "reason": "empty placeholder cluster (RSR entry summary only; no French; en shows only a «[RSR note…]» stub)"
+  },
+  {
+   "id": "062.0419",
+   "reason": "extraction artefact: «---» separator where the date line «Dimanche 18 juin 1876 - lundi 19 juin 1876» stands (tome08.docx ¶2076)"
+  },
+  {
+   "id": "062.0633",
+   "reason": "placeholder replaced by the restored clipping (Le Figaro, «Le cardinal Antonelli» par Ignotus, tome08.docx ¶2585–2599)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1876-05-29.md",
+   "date": "1876-05-29",
+   "heading": "Lundi 29 mai 1876",
+   "paragraphs": [
+    {
+     "old": "062.0001",
+     "set_french": "# Lundi 29 mai 1876",
+     "_rsr": "Date heading aligned with the printed date line (comma after the weekday removed) (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0002"
+    },
+    {
+     "old": "062.0003"
+    },
+    {
+     "old": "062.0004"
+    },
+    {
+     "old": "062.0005"
+    },
+    {
+     "old": "062.0006"
+    },
+    {
+     "old": "062.0007"
+    },
+    {
+     "old": "062.0008"
+    },
+    {
+     "old": "062.0009"
+    },
+    {
+     "old": "062.0010"
+    },
+    {
+     "old": "062.0011"
+    },
+    {
+     "old": "062.0012"
+    },
+    {
+     "old": "062.0013"
+    }
+   ]
+  },
+  {
+   "file": "1876-05-30.md",
+   "date": "1876-05-30",
+   "heading": "Mardi 30 mai 1876",
+   "paragraphs": [
+    {
+     "old": "062.0015",
+     "set_french": "# Mardi 30 mai 1876",
+     "_rsr": "Date heading aligned with the printed date line (comma after the weekday removed) (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0016"
+    },
+    {
+     "old": "062.0017"
+    },
+    {
+     "old": "062.0018"
+    },
+    {
+     "old": "062.0019"
+    },
+    {
+     "old": "062.0020"
+    },
+    {
+     "old": "062.0021"
+    },
+    {
+     "old": "062.0022"
+    },
+    {
+     "old": "062.0025"
+    },
+    {
+     "old": "062.0026"
+    },
+    {
+     "old": "062.0027"
+    },
+    {
+     "old": "062.0028"
+    },
+    {
+     "old": "062.0029"
+    },
+    {
+     "old": "062.0030"
+    },
+    {
+     "old": "062.0031"
+    },
+    {
+     "old": "062.0032"
+    },
+    {
+     "old": "062.0033"
+    },
+    {
+     "old": "062.0034"
+    },
+    {
+     "old": "062.0035"
+    }
+   ]
+  },
+  {
+   "file": "1876-05-31.md",
+   "date": "1876-05-31",
+   "heading": "Mercredi 31 mai 1876",
+   "paragraphs": [
+    {
+     "old": "062.0024",
+     "set_french": "# Mercredi 31 mai 1876",
+     "_rsr": "Date heading aligned with the printed date line (comma after the weekday removed) (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0036"
+    },
+    {
+     "old": "062.0037"
+    },
+    {
+     "old": "062.0038"
+    },
+    {
+     "old": "062.0039"
+    },
+    {
+     "old": "062.0040"
+    },
+    {
+     "old": "062.0041"
+    },
+    {
+     "old": "062.0042"
+    },
+    {
+     "old": "062.0043"
+    },
+    {
+     "old": "062.0044"
+    },
+    {
+     "old": "062.0045"
+    },
+    {
+     "old": "062.0046"
+    },
+    {
+     "old": "062.0047"
+    },
+    {
+     "old": "062.0048"
+    },
+    {
+     "old": "062.0049"
+    },
+    {
+     "old": "062.0050"
+    },
+    {
+     "old": "062.0051"
+    },
+    {
+     "old": "062.0052"
+    },
+    {
+     "old": "062.0053"
+    },
+    {
+     "old": "062.0054"
+    },
+    {
+     "old": "062.0055"
+    },
+    {
+     "old": "062.0056"
+    },
+    {
+     "old": "062.0057"
+    },
+    {
+     "old": "062.0058"
+    },
+    {
+     "old": "062.0059"
+    },
+    {
+     "old": "062.0060"
+    },
+    {
+     "old": "062.0061"
+    },
+    {
+     "old": "062.0062"
+    },
+    {
+     "old": "062.0063"
+    },
+    {
+     "old": "062.0064"
+    },
+    {
+     "old": "062.0065"
+    },
+    {
+     "old": "062.0066"
+    },
+    {
+     "old": "062.0067"
+    },
+    {
+     "old": "062.0068"
+    },
+    {
+     "old": "062.0069"
+    },
+    {
+     "old": "062.0070"
+    },
+    {
+     "old": "062.0071"
+    },
+    {
+     "old": "062.0072"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-01.md",
+   "date": "1876-06-01",
+   "heading": "Jeudi 1er juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0074",
+     "set_french": "# Jeudi 1er juin 1876",
+     "_rsr": "Date heading aligned with the printed date line (comma after the weekday removed) (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0075"
+    },
+    {
+     "old": "062.0076"
+    },
+    {
+     "old": "062.0077"
+    },
+    {
+     "old": "062.0078"
+    },
+    {
+     "old": "062.0079"
+    },
+    {
+     "old": "062.0080"
+    },
+    {
+     "old": "062.0081"
+    },
+    {
+     "old": "062.0082"
+    },
+    {
+     "old": "062.0083"
+    },
+    {
+     "old": "062.0084"
+    },
+    {
+     "old": "062.0085"
+    },
+    {
+     "old": "062.0086"
+    },
+    {
+     "old": "062.0087"
+    },
+    {
+     "old": "062.0088"
+    },
+    {
+     "old": "062.0089"
+    },
+    {
+     "old": "062.0090"
+    },
+    {
+     "old": "062.0091"
+    },
+    {
+     "old": "062.0092"
+    },
+    {
+     "old": "062.0093"
+    },
+    {
+     "old": "062.0094"
+    },
+    {
+     "old": "062.0095"
+    },
+    {
+     "old": "062.0096"
+    },
+    {
+     "old": "062.0097"
+    },
+    {
+     "old": "062.0098"
+    },
+    {
+     "old": "062.0099"
+    },
+    {
+     "old": "062.0100"
+    },
+    {
+     "old": "062.0101"
+    },
+    {
+     "old": "062.0102"
+    },
+    {
+     "old": "062.0103"
+    },
+    {
+     "old": "062.0104"
+    },
+    {
+     "old": "062.0105"
+    },
+    {
+     "old": "062.0106"
+    },
+    {
+     "old": "062.0107"
+    },
+    {
+     "old": "062.0108"
+    },
+    {
+     "old": "062.0109"
+    },
+    {
+     "old": "062.0110"
+    },
+    {
+     "old": "062.0111"
+    },
+    {
+     "old": "062.0112"
+    },
+    {
+     "old": "062.0113"
+    },
+    {
+     "old": "062.0114"
+    },
+    {
+     "old": "062.0115"
+    },
+    {
+     "old": "062.0116"
+    },
+    {
+     "old": "062.0117",
+     "kind": "editorial"
+    },
+    {
+     "old": "062.0118",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0119",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0120",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0121",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-02.md",
+   "date": "1876-06-02",
+   "heading": "Vendredi 2 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0123",
+     "set_french": "# Vendredi 2 juin 1876",
+     "_rsr": "Date heading aligned with the printed date line (comma after the weekday removed) (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0124"
+    },
+    {
+     "old": "062.0125"
+    },
+    {
+     "old": "062.0126"
+    },
+    {
+     "old": "062.0127"
+    },
+    {
+     "old": "062.0128"
+    },
+    {
+     "old": "062.0129"
+    },
+    {
+     "old": "062.0130"
+    },
+    {
+     "old": "062.0131"
+    },
+    {
+     "old": "062.0132"
+    },
+    {
+     "old": "062.0133"
+    },
+    {
+     "old": "062.0134"
+    },
+    {
+     "old": "062.0135"
+    },
+    {
+     "old": "062.0136"
+    },
+    {
+     "old": "062.0137"
+    },
+    {
+     "old": "062.0138"
+    },
+    {
+     "old": "062.0139"
+    },
+    {
+     "old": "062.0140"
+    },
+    {
+     "old": "062.0141"
+    },
+    {
+     "old": "062.0142"
+    },
+    {
+     "old": "062.0143"
+    },
+    {
+     "old": "062.0144"
+    },
+    {
+     "old": "062.0145"
+    },
+    {
+     "old": "062.0146"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-03.md",
+   "date": "1876-06-03",
+   "heading": "Samedi 3 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0148",
+     "set_french": "# Samedi 3 juin 1876",
+     "_rsr": "Date heading aligned with the printed date line (comma after the weekday removed) (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0149"
+    },
+    {
+     "old": "062.0150"
+    },
+    {
+     "old": "062.0151"
+    },
+    {
+     "old": "062.0152"
+    },
+    {
+     "old": "062.0153"
+    },
+    {
+     "old": "062.0154"
+    },
+    {
+     "old": "062.0155"
+    },
+    {
+     "old": "062.0156"
+    },
+    {
+     "old": "062.0157"
+    },
+    {
+     "old": "062.0158"
+    },
+    {
+     "old": "062.0159"
+    },
+    {
+     "old": "062.0160"
+    },
+    {
+     "old": "062.0161"
+    },
+    {
+     "old": "062.0162"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-04.md",
+   "date": "1876-06-04",
+   "heading": "Dimanche 4 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0164",
+     "set_french": "# Dimanche 4 juin 1876",
+     "_rsr": "Date heading aligned with the printed date line (comma after the weekday removed) (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0165"
+    },
+    {
+     "old": "062.0166"
+    },
+    {
+     "old": "062.0167"
+    },
+    {
+     "old": "062.0168"
+    },
+    {
+     "old": "062.0169"
+    },
+    {
+     "old": "062.0170"
+    },
+    {
+     "old": "062.0171"
+    },
+    {
+     "old": "062.0172"
+    },
+    {
+     "old": "062.0173"
+    },
+    {
+     "old": "062.0174"
+    },
+    {
+     "old": "062.0175"
+    },
+    {
+     "old": "062.0176"
+    },
+    {
+     "old": "062.0177"
+    },
+    {
+     "old": "062.0178"
+    },
+    {
+     "old": "062.0179"
+    },
+    {
+     "old": "062.0180"
+    },
+    {
+     "old": "062.0181"
+    },
+    {
+     "old": "062.0182"
+    },
+    {
+     "old": "062.0183"
+    },
+    {
+     "old": "062.0184"
+    },
+    {
+     "old": "062.0185"
+    },
+    {
+     "old": "062.0186"
+    },
+    {
+     "old": "062.0187"
+    },
+    {
+     "old": "062.0188"
+    },
+    {
+     "old": "062.0189"
+    },
+    {
+     "old": "062.0190"
+    },
+    {
+     "old": "062.0191"
+    },
+    {
+     "old": "062.0192"
+    },
+    {
+     "old": "062.0193"
+    },
+    {
+     "new": {
+      "french": "J'ai des incertitudes sur le compte de la Vierge.",
+      "rsr": "Restored from tome08.docx ¶1544, Mon Journal t.8 p.134 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Est-elle une simple femme que Dieu a choisie pour être la mère du Christ, ou bien sainte et pouvant servir d'intermédiaire entre nous et Dieu ? Je me garde bien de faire des suppositions ou d'adopter les principes de notre église ou des protestants. Je veux lire les Écritures, elles me diront la vérité.",
+      "rsr": "Restored from tome08.docx ¶1545, Mon Journal t.8 p.134 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne sais de ma religion que ce que tout le monde sait, on ne m'a jamais rien enseigné de sérieux. Je lis l'Ancien et le Nouveau Testament et je veux croire en ce qu'ils me disent. La religion la plus simple et la plus vraie, la seule vraie, n'est-elle pas dans les paroles du Christ ? Les religions de nos jours sont faussées, à force d'être raisonnées et arrangées selon les caprices des hommes, comme un récit sortant de la dixième bouche ne ressemble en rien à celui de la première bouche.",
+      "rsr": "Restored from tome08.docx ¶1546, Mon Journal t.8 p.134 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "D'ailleurs ce qui prouve irrécusablement que les religions sont faussées, c'est qu'il y en a plusieurs. Et comment y en aurait-il plusieurs quand il n'y a eu qu'un seul Christ qui n'a enseigné qu'une seule doctrine ?",
+      "rsr": "Restored from tome08.docx ¶1547, Mon Journal t.8 p.134 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne veux pas suivre l'égarement des hommes, puisque Dieu me fait la grâce de me permettre de comprendre la vérité.",
+      "rsr": "Restored from tome08.docx ¶1548, Mon Journal t.8 p.134 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Vous vous égarez aussi, dira-t-on. Non, je ne m'égare point. Je ne puis [leur] faire [en]tendre que je ne m'écarte en rien des Écritures, des paroles du Christ.",
+      "rsr": "Restored from tome08.docx ¶1549, Mon Journal t.8 p.134 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Chacun les comprend à sa façon.",
+      "rsr": "Restored from tome08.docx ¶1550, Mon Journal t.8 p.134 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oh ! non, ce sont les esprits de travers qui voient à leur guise.",
+      "rsr": "Restored from tome08.docx ¶1551, Mon Journal t.8 p.134 (missing from original extraction, 2026-09-29 rebuild). OCR corrected from the scan: «Oh I non»→«Oh ! non»."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais tous les esprits bien faits, même médiocres, comprennent comme c'est écrit, de même que tout le monde voit le jour quand il fait clair, et distingue le blanc du vert.",
+      "rsr": "Restored from tome08.docx ¶1552, Mon Journal t.8 p.135 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon Dieu pardonnez-moi si je me trompe et ne m'en punissez-pas.",
+      "rsr": "Restored from tome08.docx ¶1553, Mon Journal t.8 p.135 (missing from original extraction, 2026-09-29 rebuild). OCR corrected from the scan: «punis- sez-pas»→«punissez-pas»."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1876-06-05.md",
+   "date": "1876-06-05",
+   "heading": "Lundi 5 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0195"
+    },
+    {
+     "old": "062.0196"
+    },
+    {
+     "old": "062.0197"
+    },
+    {
+     "old": "062.0198"
+    },
+    {
+     "old": "062.0199"
+    },
+    {
+     "old": "062.0200"
+    },
+    {
+     "old": "062.0201"
+    },
+    {
+     "old": "062.0202"
+    },
+    {
+     "old": "062.0203"
+    },
+    {
+     "old": "062.0204"
+    },
+    {
+     "old": "062.0205"
+    },
+    {
+     "old": "062.0206"
+    },
+    {
+     "old": "062.0207"
+    },
+    {
+     "old": "062.0208"
+    },
+    {
+     "old": "062.0209"
+    },
+    {
+     "old": "062.0210"
+    },
+    {
+     "old": "062.0211"
+    },
+    {
+     "old": "062.0212"
+    },
+    {
+     "old": "062.0213"
+    },
+    {
+     "old": "062.0214"
+    },
+    {
+     "old": "062.0215"
+    },
+    {
+     "old": "062.0216"
+    },
+    {
+     "old": "062.0217"
+    },
+    {
+     "old": "062.0218"
+    },
+    {
+     "old": "062.0219"
+    },
+    {
+     "old": "062.0220"
+    },
+    {
+     "old": "062.0221"
+    },
+    {
+     "old": "062.0222"
+    },
+    {
+     "old": "062.0223"
+    },
+    {
+     "old": "062.0224"
+    },
+    {
+     "old": "062.0225"
+    },
+    {
+     "old": "062.0226"
+    },
+    {
+     "old": "062.0227"
+    },
+    {
+     "old": "062.0228"
+    },
+    {
+     "old": "062.0229"
+    },
+    {
+     "old": "062.0230"
+    },
+    {
+     "old": "062.0231"
+    },
+    {
+     "old": "062.0232"
+    },
+    {
+     "old": "062.0233"
+    },
+    {
+     "old": "062.0234"
+    },
+    {
+     "old": "062.0235"
+    },
+    {
+     "old": "062.0236"
+    },
+    {
+     "old": "062.0237"
+    },
+    {
+     "old": "062.0238"
+    },
+    {
+     "old": "062.0239"
+    },
+    {
+     "old": "062.0240"
+    },
+    {
+     "old": "062.0241"
+    },
+    {
+     "old": "062.0242"
+    },
+    {
+     "old": "062.0243"
+    },
+    {
+     "old": "062.0244"
+    },
+    {
+     "old": "062.0245"
+    },
+    {
+     "old": "062.0246"
+    },
+    {
+     "old": "062.0247"
+    },
+    {
+     "old": "062.0248"
+    },
+    {
+     "old": "062.0249"
+    },
+    {
+     "old": "062.0250"
+    },
+    {
+     "old": "062.0251"
+    },
+    {
+     "old": "062.0252"
+    },
+    {
+     "old": "062.0253"
+    },
+    {
+     "old": "062.0254"
+    },
+    {
+     "old": "062.0255"
+    },
+    {
+     "old": "062.0256"
+    },
+    {
+     "old": "062.0257"
+    },
+    {
+     "old": "062.0258"
+    },
+    {
+     "old": "062.0259"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-06.md",
+   "date": "1876-06-06",
+   "heading": "Mardi 6 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0260"
+    },
+    {
+     "old": "062.0261"
+    },
+    {
+     "old": "062.0262"
+    },
+    {
+     "old": "062.0263"
+    },
+    {
+     "old": "062.0264",
+     "set_french": "Je souffre horriblement et la chaleur me permet de pousser des soupirs et des plaintes sans fin. Je suis comme le lendemain du soir où j'ai été insultée par Antonelli, à chaque instant je m'oublie, et chaque instant je me souviens et alors je me sens sans haleine et sans force, et mes poings se crispent et je rage. Vers deux heures j'étais assez montée pour me mettre en colère et pour ne plus soupirer que de... mépris.",
+     "_rsr": "Date heading «Mercredi 7 juin 1876» removed from this paragraph: in the printed edition (Mon Journal t.8) the date line comes later, so this text belongs to the previous day (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0265"
+    },
+    {
+     "old": "062.0266"
+    },
+    {
+     "old": "062.0267"
+    },
+    {
+     "old": "062.0268"
+    },
+    {
+     "old": "062.0269"
+    },
+    {
+     "old": "062.0270"
+    },
+    {
+     "old": "062.0271"
+    },
+    {
+     "old": "062.0272",
+     "set_french": "Ma plume est fatiguée, j'ai sommeil. Il est absurde de ne pas remédier à mon état, surtout connaissant le remède. Partir. Changer d'air et de visages. Comme j'ai fait cet hiver. Au bout de trois semaines je ne pensais plus aux affronts de Nice. Au fait, j'y pense. J'ai fait une affaire d'État d'Audiffret. Cela prouve seulement que j'étais amoureuse sans cela je n'aurais jamais accordé tant d'importance à une impolitesse de ce genre. Témoin Saetone. J'ai simplement dédaigné d'en parler et de le regarder. Mais Audiffret me plaisait, je n'ai donc pas à me blâmer pour l'exagération de faits et de mes sentiments divers",
+     "_rsr": "Split: Marie's later annotation that followed this paragraph (tome08.docx ¶1661–1662, Mon Journal t.8 p.143) is now its own margin paragraph (2026-09-29 rebuild)."
+    },
+    {
+     "new": {
+      "french": "[annotation]",
+      "rsr": "Restored from tome08.docx ¶1661, Mon Journal t.8 p.143 (missing from original extraction, 2026-09-29 rebuild). Split off 062.0272.",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "*Voilà que je m'amuse d'aimer tout le monde*",
+      "rsr": "Restored from tome08.docx ¶1662, Mon Journal t.8 p.143 (missing from original extraction, 2026-09-29 rebuild). Split off 062.0272.",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "old": "062.0273",
+     "set_french": "J'ai dit tout ce que je sens, mais comme je pense chaque jour à la même chose il me semble toujours que je n'ai pas tout dit, qu'on n'a pas bien compris et je veux répéter encore. Dans les romans on dit les choses une fois et cela suffit et, ici, il me semble chaque jour que je n'ai pas bien expliqué. Ce n'est qu'une idée sans doute.",
+     "_rsr": "Split: the old cluster ran on into 7 June; the rest («Il faut partir…», «Cette insulte me pèse…») now follows the date line «Mercredi 7 juin 1876» (tome08.docx ¶1663–1666, Mon Journal t.8 p.143; 2026-09-29 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1876-06-07.md",
+   "date": "1876-06-07",
+   "heading": "Mercredi 7 juin 1876",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Il faut partir. J'ai essayé de me consoler par mille raisonnements et deux mille excuses, d'oublier, de trouver tout naturel. Et je n'ai pas pu. Le seul moyen c'est oublier, mais oublier à Nice est impossible, pour oublier il faut voir du nouveau.",
+      "rsr": "Restored from tome08.docx ¶1665, Mon Journal t.8 p.143 (missing from original extraction, 2026-09-29 rebuild). Split off 062.0273, which ran on past the date line."
+     }
+    },
+    {
+     "new": {
+      "french": "Cette insulte me pèse. La conduite de cet homme est vile, son caractère est méprisable.",
+      "rsr": "Restored from tome08.docx ¶1666, Mon Journal t.8 p.143 (missing from original extraction, 2026-09-29 rebuild). Split off 062.0273, which ran on past the date line."
+     }
+    },
+    {
+     "old": "062.0274"
+    },
+    {
+     "old": "062.0275"
+    },
+    {
+     "old": "062.0276"
+    },
+    {
+     "old": "062.0277",
+     "set_french": "« Pour commencer » comme il dit ? Il ne demanderait pas mieux que d'achever, mais Dieu m'a sauvée. Ces baisers étaient donc des baisers stupides, sans délicatesse et sans cœur et moi qui les recevais avec des lèvres mystiques ! Oh 1 Mais je l'aimais donc ? Non, plutôt je ne l'aimais que de son amour pour moi. Mais comme je suis incapable de légèreté en amour, j'ai aimé et senti comme si j'aimais moi-même. C'était de l'exaltation, du fanatisme, du mysticisme, de la bêtise ! Oui de la bêtise. Si j'avais plus d'esprit j'aurais mieux compris le caractère de l'homme.",
+     "_rsr": "Split: Marie's later annotation that followed this paragraph (tome08.docx ¶1680–1681, Mon Journal t.8 p.145) is now its own margin paragraph (2026-09-29 rebuild)."
+    },
+    {
+     "new": {
+      "french": "[annotation]",
+      "rsr": "Restored from tome08.docx ¶1680, Mon Journal t.8 p.145 (missing from original extraction, 2026-09-29 rebuild). Split off 062.0277.",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "*S'il avait été plus* plobster, *plus Hamilton, je l'aurais aimé, mais comment faire quand il ne me plaisait pas du tout.*",
+      "rsr": "Restored from tome08.docx ¶1681, Mon Journal t.8 p.145 (missing from original extraction, 2026-09-29 rebuild). Split off 062.0277.",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "old": "062.0278"
+    },
+    {
+     "old": "062.0279"
+    },
+    {
+     "old": "062.0280"
+    },
+    {
+     "old": "062.0281"
+    },
+    {
+     "old": "062.0282"
+    },
+    {
+     "old": "062.0283"
+    },
+    {
+     "old": "062.0284"
+    },
+    {
+     "old": "062.0285"
+    },
+    {
+     "old": "062.0286",
+     "set_french": "— Mais justement c'est là qu'est le mal, s'écria Dina, tu te composes une mélancolie désespérante, vraiment ! - Je ne me compose rien du tout, je reste chez moi et ne dérange personne, que veut-on de plus ? Et enfonçant mon fauteuil dans l'embrasure de la fenêtre et tirant un autre fauteuil devant moi je me plongeai dans une espèce d'assoupissement les yeux fixes et ouverts et pleins de larmes. Je suis restée longtemps ainsi, car mon cou en fut inondé puis il a séché, les yeux aussi et, à deux heures, je suis à écrire ce monotone journal.",
+     "_rsr": "Date heading «Jeudi 8 juin 1876» removed from this paragraph: in the printed edition (Mon Journal t.8) the date line comes later, so this text belongs to the previous day (2026-09-29 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1876-06-08.md",
+   "date": "1876-06-08",
+   "heading": "Jeudi 8 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0287"
+    },
+    {
+     "old": "062.0288"
+    },
+    {
+     "old": "062.0289"
+    },
+    {
+     "old": "062.0290"
+    },
+    {
+     "old": "062.0291"
+    },
+    {
+     "old": "062.0292"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-09.md",
+   "date": "1876-06-09",
+   "heading": "Vendredi 9 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0293"
+    },
+    {
+     "old": "062.0294"
+    },
+    {
+     "old": "062.0295"
+    },
+    {
+     "old": "062.0296"
+    },
+    {
+     "old": "062.0297"
+    },
+    {
+     "old": "062.0298"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-10.md",
+   "date": "1876-06-10",
+   "heading": "Samedi 10 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0299"
+    },
+    {
+     "old": "062.0300"
+    },
+    {
+     "old": "062.0301"
+    },
+    {
+     "old": "062.0302"
+    },
+    {
+     "old": "062.0303"
+    },
+    {
+     "old": "062.0304"
+    },
+    {
+     "old": "062.0305"
+    },
+    {
+     "old": "062.0306"
+    },
+    {
+     "old": "062.0307"
+    },
+    {
+     "old": "062.0308"
+    },
+    {
+     "old": "062.0309"
+    },
+    {
+     "old": "062.0310"
+    },
+    {
+     "new": {
+      "french": "C'est fini ! Je disais bien que cela ne pouvait durer.",
+      "rsr": "Restored from tome08.docx ¶1867, Mon Journal t.8 p.160 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je vais vivre tranquille, j'irai en Russie, ce qui améliorera encore la situation, j'amènerai peut-être mon père à Rome, ou j'irai tard en hiver, cela dépendra de Nice.",
+      "rsr": "Restored from tome08.docx ¶1868, Mon Journal t.8 p.160 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "O merci, merci mon Dieu, je ne suis pas digne, pardon.",
+      "rsr": "Restored from tome08.docx ¶1869, Mon Journal t.8 p.160 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1876-06-11.md",
+   "date": "1876-06-11",
+   "heading": "Dimanche 11 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0311"
+    },
+    {
+     "old": "062.0312",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "062.0313"
+    },
+    {
+     "old": "062.0314"
+    },
+    {
+     "old": "062.0315",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0316"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-12.md",
+   "date": "1876-06-12",
+   "heading": "Lundi 12 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0317"
+    },
+    {
+     "old": "062.0318"
+    },
+    {
+     "old": "062.0319",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0320"
+    },
+    {
+     "new": {
+      "french": "Ce matin je trouvai sur mon assiette une lettre. Le timbre portait une figure qui ressemblait au roi d'Italie, je rougis et mes doigts se mirent à trembler tant que je pris mon mouchoir pour me calmer.",
+      "rsr": "Restored from tome08.docx ¶1909, Mon Journal t.8 p.163 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[annotation]",
+      "rsr": "Restored from tome08.docx ¶1910, Mon Journal t.8 p.163 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "*Combien de fois j'ai tremblé ainsi pour rien et, n'ayant aucun prétexte, ne l'ai jamais dit.*",
+      "rsr": "Restored from tome08.docx ¶1911, Mon Journal t.8 p.163 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "new": {
+      "french": "C'est Jeanne Bauduin, l'amie de Bade qui m'annonce son mariage. C'est bien de se souvenir. Quelles sales brutes que ces Sapogenikoff. Je les ai décrottées, civilisées, habillées, éduquées, le peu qu'elles savent elles le savent de moi, je leur apprenais autant que possible tout en bavardant. C'est pour cela peut être qu'elles ne m'aiment pas. Mais *via !*",
+      "rsr": "Restored from tome08.docx ¶1912, Mon Journal t.8 p.163 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1876-06-13.md",
+   "date": "1876-06-13",
+   "heading": "Mardi 13 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0321"
+    },
+    {
+     "old": "062.0322"
+    },
+    {
+     "old": "062.0323"
+    },
+    {
+     "old": "062.0324"
+    },
+    {
+     "old": "062.0325"
+    },
+    {
+     "old": "062.0326"
+    },
+    {
+     "old": "062.0327"
+    },
+    {
+     "old": "062.0328"
+    },
+    {
+     "old": "062.0329"
+    },
+    {
+     "old": "062.0330"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-14.md",
+   "date": "1876-06-14",
+   "heading": "Mercredi 14 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0331"
+    },
+    {
+     "old": "062.0332"
+    },
+    {
+     "old": "062.0333"
+    },
+    {
+     "old": "062.0334"
+    },
+    {
+     "old": "062.0335"
+    },
+    {
+     "old": "062.0336"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-15.md",
+   "date": "1876-06-15",
+   "heading": "Jeudi 15 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0337"
+    },
+    {
+     "old": "062.0338"
+    },
+    {
+     "old": "062.0339"
+    },
+    {
+     "old": "062.0340"
+    },
+    {
+     "old": "062.0341"
+    },
+    {
+     "old": "062.0342"
+    },
+    {
+     "old": "062.0343"
+    },
+    {
+     "old": "062.0344"
+    },
+    {
+     "old": "062.0345"
+    },
+    {
+     "old": "062.0346"
+    },
+    {
+     "old": "062.0347"
+    },
+    {
+     "old": "062.0348"
+    },
+    {
+     "old": "062.0349"
+    },
+    {
+     "old": "062.0350"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-16.md",
+   "date": "1876-06-16",
+   "heading": "Vendredi 16 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0352"
+    },
+    {
+     "old": "062.0353"
+    },
+    {
+     "old": "062.0354"
+    },
+    {
+     "old": "062.0355"
+    },
+    {
+     "old": "062.0356"
+    },
+    {
+     "old": "062.0357"
+    },
+    {
+     "old": "062.0358"
+    },
+    {
+     "old": "062.0359"
+    },
+    {
+     "old": "062.0360"
+    },
+    {
+     "old": "062.0361"
+    },
+    {
+     "old": "062.0362"
+    },
+    {
+     "old": "062.0363"
+    },
+    {
+     "old": "062.0364"
+    },
+    {
+     "old": "062.0365"
+    },
+    {
+     "old": "062.0366"
+    },
+    {
+     "old": "062.0367"
+    },
+    {
+     "old": "062.0368"
+    },
+    {
+     "old": "062.0369"
+    },
+    {
+     "old": "062.0370"
+    },
+    {
+     "old": "062.0371"
+    },
+    {
+     "old": "062.0372"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-17.md",
+   "date": "1876-06-17",
+   "heading": "Samedi 17 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0374"
+    },
+    {
+     "old": "062.0375"
+    },
+    {
+     "old": "062.0376"
+    },
+    {
+     "old": "062.0377"
+    },
+    {
+     "old": "062.0378",
+     "kind": "editorial"
+    },
+    {
+     "old": "062.0379",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0380",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0381",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0382",
+     "kind": "margin",
+     "source": "Annotation de Marie",
+     "set_french": "*D'ailleurs vous avez vu vous-même que je n'écrivais cet absurde je l'aime que le soir, sous le poids du souvenir de son amour et en pensant à notre misérable position. Je l'écrivais le 15 juin etc... tandis que, retournée de Rome en mai, j'avais tout nié. Quoique je dise cette aventure doit et sera tout ce qu'il y a pour moi de plus abominable au monde. Si j'avais connu cet Antonelli [en] 1877 au lieu de 1876, je lui aurais accordé la même importance qu'à Zunica, Porcinari, etc. peut-être plus à cause de la papauté. C'est que je le prenais pour quelqu'un de fini et il n'était qu'un enfant qui se conduisait mal au lieu d'être un seigneur fou et volage.*",
+     "_rsr": "OCR corrected from the scan (Mon Journal t.8 p.176): «j'avai?.»→«j'avais», misplaced italic markers «D'*ailleurs … *volage.» → «*D'ailleurs … volage.*» (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0383",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0384",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0385"
+    },
+    {
+     "old": "062.0386"
+    },
+    {
+     "old": "062.0387"
+    },
+    {
+     "old": "062.0388"
+    },
+    {
+     "old": "062.0389",
+     "kind": "editorial"
+    },
+    {
+     "old": "062.0390",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0391"
+    },
+    {
+     "old": "062.0392"
+    },
+    {
+     "old": "062.0393"
+    },
+    {
+     "old": "062.0394"
+    },
+    {
+     "old": "062.0395"
+    },
+    {
+     "old": "062.0396"
+    },
+    {
+     "old": "062.0397"
+    },
+    {
+     "old": "062.0398"
+    },
+    {
+     "old": "062.0399",
+     "kind": "editorial"
+    },
+    {
+     "old": "062.0400",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0402"
+    },
+    {
+     "old": "062.0403"
+    },
+    {
+     "old": "062.0404"
+    },
+    {
+     "old": "062.0405"
+    },
+    {
+     "old": "062.0406"
+    },
+    {
+     "old": "062.0407"
+    },
+    {
+     "old": "062.0408"
+    },
+    {
+     "old": "062.0409"
+    },
+    {
+     "old": "062.0410"
+    },
+    {
+     "old": "062.0411"
+    },
+    {
+     "old": "062.0412"
+    },
+    {
+     "old": "062.0413"
+    },
+    {
+     "old": "062.0414",
+     "kind": "editorial"
+    },
+    {
+     "old": "062.0415",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0416",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0417"
+    },
+    {
+     "old": "062.0418"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-18-19.md",
+   "date": "1876-06-18",
+   "heading": "Dimanche 18 juin 1876 - lundi 19 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0420"
+    },
+    {
+     "old": "062.0421"
+    },
+    {
+     "old": "062.0422"
+    },
+    {
+     "old": "062.0423"
+    },
+    {
+     "old": "062.0424"
+    },
+    {
+     "old": "062.0425"
+    },
+    {
+     "old": "062.0426"
+    },
+    {
+     "old": "062.0427"
+    },
+    {
+     "old": "062.0428",
+     "kind": "editorial"
+    },
+    {
+     "old": "062.0429",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0430"
+    },
+    {
+     "old": "062.0431"
+    },
+    {
+     "old": "062.0432"
+    },
+    {
+     "old": "062.0433"
+    },
+    {
+     "old": "062.0434"
+    },
+    {
+     "old": "062.0435"
+    },
+    {
+     "old": "062.0436"
+    },
+    {
+     "old": "062.0437"
+    },
+    {
+     "old": "062.0438"
+    },
+    {
+     "old": "062.0439"
+    },
+    {
+     "old": "062.0440"
+    },
+    {
+     "old": "062.0441"
+    },
+    {
+     "old": "062.0442"
+    },
+    {
+     "old": "062.0443"
+    },
+    {
+     "old": "062.0444"
+    },
+    {
+     "old": "062.0445"
+    },
+    {
+     "old": "062.0446"
+    },
+    {
+     "old": "062.0447"
+    },
+    {
+     "old": "062.0448"
+    },
+    {
+     "old": "062.0449"
+    },
+    {
+     "old": "062.0450"
+    },
+    {
+     "old": "062.0451"
+    },
+    {
+     "old": "062.0452"
+    },
+    {
+     "old": "062.0453"
+    },
+    {
+     "old": "062.0454"
+    },
+    {
+     "old": "062.0455"
+    },
+    {
+     "old": "062.0456"
+    },
+    {
+     "old": "062.0457"
+    },
+    {
+     "old": "062.0458"
+    },
+    {
+     "old": "062.0459"
+    },
+    {
+     "old": "062.0460"
+    },
+    {
+     "old": "062.0461"
+    },
+    {
+     "old": "062.0462"
+    },
+    {
+     "old": "062.0463"
+    },
+    {
+     "old": "062.0464"
+    },
+    {
+     "old": "062.0465"
+    },
+    {
+     "old": "062.0466"
+    },
+    {
+     "old": "062.0467"
+    },
+    {
+     "old": "062.0468"
+    },
+    {
+     "old": "062.0469"
+    },
+    {
+     "old": "062.0470"
+    },
+    {
+     "old": "062.0471"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-20.md",
+   "date": "1876-06-20",
+   "heading": "Mardi 20 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0473"
+    },
+    {
+     "old": "062.0474"
+    },
+    {
+     "old": "062.0475"
+    },
+    {
+     "old": "062.0476"
+    },
+    {
+     "old": "062.0477"
+    },
+    {
+     "old": "062.0478"
+    },
+    {
+     "old": "062.0479"
+    },
+    {
+     "old": "062.0480"
+    },
+    {
+     "old": "062.0481"
+    },
+    {
+     "old": "062.0482"
+    },
+    {
+     "old": "062.0483"
+    },
+    {
+     "old": "062.0484"
+    },
+    {
+     "old": "062.0485"
+    },
+    {
+     "old": "062.0486"
+    },
+    {
+     "old": "062.0487"
+    },
+    {
+     "old": "062.0488"
+    },
+    {
+     "old": "062.0489"
+    },
+    {
+     "old": "062.0490"
+    },
+    {
+     "old": "062.0491",
+     "kind": "editorial"
+    },
+    {
+     "old": "062.0492",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "062.0493"
+    },
+    {
+     "old": "062.0494"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-21.md",
+   "date": "1876-06-21",
+   "heading": "Mercredi 21 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0496"
+    },
+    {
+     "old": "062.0497"
+    },
+    {
+     "old": "062.0498"
+    },
+    {
+     "old": "062.0499"
+    },
+    {
+     "old": "062.0500"
+    },
+    {
+     "old": "062.0501"
+    },
+    {
+     "old": "062.0502"
+    },
+    {
+     "old": "062.0503"
+    },
+    {
+     "old": "062.0504"
+    },
+    {
+     "old": "062.0505"
+    },
+    {
+     "old": "062.0506"
+    },
+    {
+     "old": "062.0507"
+    },
+    {
+     "old": "062.0508"
+    },
+    {
+     "old": "062.0509",
+     "set_french": "Est-il défendu de désirer d'être respectée et de haïr d'être crachée dessus ! ! !",
+     "_rsr": "Date heading «Jeudi 22 juin 1876» removed from this paragraph: in the printed edition (Mon Journal t.8) the date line comes later, so this text belongs to the previous day (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0510"
+    },
+    {
+     "old": "062.0511"
+    },
+    {
+     "old": "062.0512"
+    },
+    {
+     "old": "062.0513"
+    },
+    {
+     "old": "062.0514"
+    },
+    {
+     "old": "062.0515"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-22.md",
+   "date": "1876-06-22",
+   "heading": "Jeudi 22 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0516"
+    },
+    {
+     "old": "062.0517"
+    },
+    {
+     "old": "062.0518"
+    },
+    {
+     "old": "062.0519"
+    },
+    {
+     "old": "062.0520"
+    },
+    {
+     "old": "062.0521"
+    },
+    {
+     "old": "062.0522"
+    },
+    {
+     "old": "062.0523"
+    },
+    {
+     "old": "062.0524"
+    },
+    {
+     "old": "062.0525"
+    },
+    {
+     "old": "062.0526"
+    },
+    {
+     "old": "062.0527"
+    },
+    {
+     "old": "062.0528"
+    },
+    {
+     "old": "062.0529"
+    },
+    {
+     "old": "062.0530"
+    },
+    {
+     "old": "062.0531",
+     "kind": "rayé",
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "old": "062.0532"
+    },
+    {
+     "old": "062.0533"
+    },
+    {
+     "old": "062.0534"
+    },
+    {
+     "old": "062.0535"
+    },
+    {
+     "old": "062.0536"
+    },
+    {
+     "old": "062.0537"
+    },
+    {
+     "old": "062.0538"
+    },
+    {
+     "old": "062.0539"
+    },
+    {
+     "old": "062.0540"
+    },
+    {
+     "old": "062.0541"
+    },
+    {
+     "old": "062.0542"
+    },
+    {
+     "old": "062.0543"
+    },
+    {
+     "old": "062.0544"
+    },
+    {
+     "old": "062.0545"
+    },
+    {
+     "old": "062.0546"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-23.md",
+   "date": "1876-06-23",
+   "heading": "Vendredi 23 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0547"
+    },
+    {
+     "old": "062.0548"
+    },
+    {
+     "old": "062.0549"
+    },
+    {
+     "old": "062.0550"
+    },
+    {
+     "old": "062.0551"
+    },
+    {
+     "old": "062.0552"
+    },
+    {
+     "old": "062.0553",
+     "set_french": "Vous savez si les Antonelli tiennent leurs enfants serrés, eh bien à Rome on dit que ce sont les parents qui donnent le plus de liberté. Tout cela ce sont des excuses pour me dire que dans quatre mois j'irai à Rome.",
+     "_rsr": "Date heading «Samedi 24 juin 1876» removed from this paragraph: in the printed edition (Mon Journal t.8) the date line comes later, so this text belongs to the previous day (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0554"
+    },
+    {
+     "old": "062.0555",
+     "kind": "editorial"
+    },
+    {
+     "new": {
+      "french": "*Jolie vengeance ! Les prêtres en seraient enchantés tout en faisant pour la forme une grimace.*",
+      "rsr": "Restored from tome08.docx ¶2291, Mon Journal t.8 p.201 (missing from original extraction, 2026-09-29 rebuild). Split off 062.0556.",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "old": "062.0556",
+     "set_french": "Et combien doit-on être fière de servir une reine comme Marguerite, libérale, digne, généreuse et charmante. — Être chambellan de la princesse Marguerite ! ne manquerait pas de s'écrier Pietro, comme il s'est écrié tant de fois en racontant ses persécutions.",
+     "_rsr": "Split: Marie's later annotation that opened this paragraph (tome08.docx ¶2291, Mon Journal t.8 p.201) is now its own margin paragraph (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0557"
+    },
+    {
+     "old": "062.0558"
+    },
+    {
+     "old": "062.0559"
+    },
+    {
+     "old": "062.0560"
+    },
+    {
+     "old": "062.0561"
+    },
+    {
+     "old": "062.0562"
+    },
+    {
+     "old": "062.0563"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-24.md",
+   "date": "1876-06-24",
+   "heading": "Samedi 24 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0564"
+    },
+    {
+     "old": "062.0565"
+    },
+    {
+     "old": "062.0566"
+    },
+    {
+     "old": "062.0567"
+    },
+    {
+     "old": "062.0568"
+    },
+    {
+     "old": "062.0569"
+    },
+    {
+     "old": "062.0570"
+    },
+    {
+     "old": "062.0571"
+    },
+    {
+     "old": "062.0572"
+    },
+    {
+     "old": "062.0573"
+    },
+    {
+     "old": "062.0574"
+    },
+    {
+     "old": "062.0575"
+    },
+    {
+     "old": "062.0576"
+    },
+    {
+     "old": "062.0577"
+    },
+    {
+     "old": "062.0578"
+    },
+    {
+     "old": "062.0579"
+    },
+    {
+     "old": "062.0580"
+    },
+    {
+     "old": "062.0581"
+    },
+    {
+     "old": "062.0582"
+    },
+    {
+     "new": {
+      "french": "— Mais tu ne lui as pas donné ta parole ?",
+      "rsr": "Restored from tome08.docx ¶2365, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— N... non.. mais je ne l'ai pas refusé, bref je sais ce que je dis. C'est à cause de vous, ce sont ces informations, ces horreurs qu'on a écrites d'ici et tout cela tombe sur moi, sur moi seule, tandis que je suis la seule ici que cela ne devrait pas regarder !",
+      "rsr": "Restored from tome08.docx ¶2366, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild). OCR corrected from the scan: «non.,»→«non..»."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me déchaînai, furieuse, leur disant tout ce que j'ai dit ici, ajoutant que je ne pouvais plus supporter cela, qu'il fallait qu'elles allassent en Russie, que peu m'importait comme l'affaire serait jugée, qu'une fois en prison on n'a pas besoin d'argent, tandis que moi, certainement, je ne resterais pas avec elles et que je n'avais rien à craindre, car ma vie ne pouvait être pire qu'à présent, que je voulais vendre la villa, ne jamais revenir à Nice. Que je n'avais que honte et scandale, que même Antonelli...",
+      "rsr": "Restored from tome08.docx ¶2367, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Oh ! si c'était au moins un grand prince, mais un misérable que je retenais pour mon amusement et c'est par ce misérable que je suis bafouée ! - m'écriai-je, et, continuant avec un accent de profonde conviction : D'ailleurs pouvez-vous croire que je fasse cas de l'homme ! C'est le fait, c'est l'action, c'est la saleté de l'insulte !",
+      "rsr": "Restored from tome08.docx ¶2368, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «- » → «— »."
+     }
+    },
+    {
+     "new": {
+      "french": "— Quelle insulte ?",
+      "rsr": "Restored from tome08.docx ¶2369, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Celle dont tout le monde parle à Rome et à Nice, parce que la Camprien qui sait le commencement sait aussi la fin.",
+      "rsr": "Restored from tome08.docx ¶2370, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— La Camprien sait ce que je lui ai répondu : Remerciez pour l'honneur que me fait la comtesse Antonelli et dites que je n'ai rien contre le jeune homme mais que je ne pense même pas a marier ma fille avant un an. D'ailleurs, puisqu'ils prennent des informations, cela doit leur convenir car je leur donne toute une année. Et dans un an nous verrons.",
+      "rsr": "Restored from tome08.docx ¶2371, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— C'est égal, c'est égal : c'est une honte, un scandale.",
+      "rsr": "Restored from tome08.docx ¶2372, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Quel scandale ?",
+      "rsr": "Restored from tome08.docx ¶2373, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Celui, quand un homme veut épouser une femme et se retire ensuite.",
+      "rsr": "Restored from tome08.docx ¶2374, Mon Journal t.8 p.207 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Oh ! ça, la vérité, la vraie cause de tout cela c'est que ce misérable, ce lâche, cet être vil et bas, ne t'a jamais... aimée ! Il était flatté d'être bien accueilli par la plus jolie fille de la saison, que tout le monde avait remarquée et dont tout le monde s'occupait bien qu'elle n'allât pas dans le monde. Et voilà tout. Est-ce que c'est de l'amour cela ! Rien qu'un caprice.",
+      "rsr": "Restored from tome08.docx ¶2375, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild). OCR corrected from the scan: «cela I Rien»→«cela ! Rien». Dialogue dash «- » → «— »."
+     }
+    },
+    {
+     "new": {
+      "french": "— Il l'a dit lui-même, interrompit ma tante.",
+      "rsr": "Restored from tome08.docx ¶2376, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «- » → «— »."
+     }
+    },
+    {
+     "new": {
+      "french": "— Est-ce qu'on peut être arrêté, continue maman, quand on aime !",
+      "rsr": "Restored from tome08.docx ¶2377, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— S'il est parti pour le régiment, il pouvait bien venir ici, se mêla Dina.",
+      "rsr": "Restored from tome08.docx ¶2378, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Oui, dis-je alors, mais si on le déshéritait, de quoi irait-il vivre avec moi ! Ce n'est pas une bagatelle cela. Vous ne savez pas quelles sont les mœurs de Rome.",
+      "rsr": "Restored from tome08.docx ¶2379, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Accordons tout cela, dit maman, que l'on soit féroce, inflexible, bien, qu'il ne vienne pas, cela se comprend, il est trop prudent pour rompre en visière de cette sorte, mais qu'il n'écrive pas un mot !",
+      "rsr": "Restored from tome08.docx ¶2380, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Ah ! voilà qui est incompréhensible ! Ma fille, ma fille, ce n'est pas ainsi qu'on fait quand on a des intentions sérieuses !",
+      "rsr": "Restored from tome08.docx ¶2381, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Alors pourquoi en aurait-il parlé à ses parents ? demandai-je, ébranlée.",
+      "rsr": "Restored from tome08.docx ¶2382, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Mais pour améliorer sa position de chien battu, pour que, pour ce projet de mariage on le regarde un peu mieux, pour se relever un peu.",
+      "rsr": "Restored from tome08.docx ¶2383, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oh ! c'est vrai, c'est vrai, pensai-je.",
+      "rsr": "Restored from tome08.docx ¶2384, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Il n'a jamais aimé, continua maman, quand on aime on fait autrement, quand on aime on.... on fait des démarches !",
+      "rsr": "Restored from tome08.docx ¶2385, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Mais vous voyez à quoi servent les démarches, dis-je plus faiblement..",
+      "rsr": "Restored from tome08.docx ¶2386, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Je ne vois pas pourquoi se tourmenter, Nadine me dit qu'il lui a dit à la gare qu'il viendrait si son père donnait de l'argent ; la même chose il m'a dit à moi.",
+      "rsr": "Restored from tome08.docx ¶2387, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Elles ne savent rien elles, après tout, ce qu'elles ne savent pas est de ma faute, je ne me plains de personne quand il s'agit de ma propre faute.",
+      "rsr": "Restored from tome08.docx ¶2388, Mon Journal t.8 p.208 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Puis recommencèrent les discussions sur notre vie, sur les Tutcheff, car ce sont eux qui sont cause de tout. Je criais que je voulais mourir, que si il y avait vingt moi-même, je voudrais que ces vingt mourussent l'une après l'autre pour : « vous faire crever de douleur ! »",
+      "rsr": "Restored from tome08.docx ¶2389, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Maman pleurait, m'offrait tout ce qu'elle possédait, se réservant cinq cents francs par an pour vivre quelque part en Suisse.",
+      "rsr": "Restored from tome08.docx ¶2390, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Je me ferais bonne, femme de chambre, tout au monde, disait-elle, les mains jointes et tout en larmes, pourvu que tu vives où tu veux, pourvu de ne pas entendre ce langage.",
+      "rsr": "Restored from tome08.docx ¶2391, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «- » → «— »."
+     }
+    },
+    {
+     "new": {
+      "french": "— Ce langage ! m'écriai-je, quand je ne le tiens pas, je le pense, quand je ne le pense pas, j'en rêve ! Je souffre autant seule qu'en votre société, mais quand je suis loin de vous vous êtes tranquilles, aussi veux-je vous persécuter, vous tourmenter !.. Il ne s'agit pas de parler de l'éducation que vous auriez dû me donner, je n'ai pas besoin que vous citiez des exemples, je suis la maîtresse, je commande, qu'on m'obéisse ! C'est ainsi !",
+      "rsr": "Restored from tome08.docx ¶2392, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «- » → «— »."
+     }
+    },
+    {
+     "new": {
+      "french": "On ne songeait pas à se révolter mais j'étais hors de moi. On me proposait de vivre avec mon père en prenant les trois-quarts de la fortune de ma tante. Je répondais que je vivrais avec le diable pourvu de vivre comme tous les honnêtes gens.",
+      "rsr": "Restored from tome08.docx ¶2393, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Que suis-je ? Rien !",
+      "rsr": "Restored from tome08.docx ¶2394, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «- » → «— »."
+     }
+    },
+    {
+     "new": {
+      "french": "Gioia est fille publique, Amélie est femme de chambre, Ricci est marchand, et moi, moi ! Cette position est intolérable, je vous dis que je n'en peux plus, que je n'en peux plus ! J'ai assez de toutes ces hontes ! De tous ces gens qui me crachent au visage ! Antonelli n'est qu'un échantillon, un avertissement de ne pas aller plus loin !",
+      "rsr": "Restored from tome08.docx ¶2395, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En un mot j'ai tout dit aujourd'hui, tout ce que j'ai écrit avant et à présent et tout ce que je pense de cette affaire. J'ai parlé comme une forcenée, usant des plus dures paroles, mais peut-être ai-je une excuse. On m'a encore dit que j'étais blasée parce que j'avais eu tout ce que j'ai désiré, et que *je ne sais pas ce que je veux.*",
+      "rsr": "Restored from tome08.docx ¶2396, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous conviendrez que c'est trop fort.",
+      "rsr": "Restored from tome08.docx ¶2397, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il s'est fait nuit et je cachai ma figure dans mes bras appuyés sur le soubassement en pierre de taille de la grille.",
+      "rsr": "Restored from tome08.docx ¶2398, Mon Journal t.8 p.209 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— C'est Marie qui pleure à présent, dit maman.",
+      "rsr": "Restored from tome08.docx ¶2399, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Oui, dit ma tante qui me comprend mieux ou qui me plaint davantage.",
+      "rsr": "Restored from tome08.docx ¶2400, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne pleurais pas, mais ces mots me firent pleurer.",
+      "rsr": "Restored from tome08.docx ¶2401, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Puis elles parlèrent encore d'Antonelli et, sans lever la tête, je leur répondais.",
+      "rsr": "Restored from tome08.docx ¶2402, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Tu as tort, disait maman, d'accuser de tout ta malheureuse famille.",
+      "rsr": "Restored from tome08.docx ¶2403, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Je sais ce que je dis, on a écrit des belles choses d'ici.",
+      "rsr": "Restored from tome08.docx ¶2404, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— On peut savoir dans une semaine ce qu'on a écrit.",
+      "rsr": "Restored from tome08.docx ¶2405, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Et comment ?",
+      "rsr": "Restored from tome08.docx ¶2406, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— En le demandant.",
+      "rsr": "Restored from tome08.docx ¶2407, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— A qui ?",
+      "rsr": "Restored from tome08.docx ¶2408, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— A Antonelli.",
+      "rsr": "Restored from tome08.docx ¶2409, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Je lui écrirai.",
+      "rsr": "Restored from tome08.docx ¶2410, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Vous êtes folles, mesdames !",
+      "rsr": "Restored from tome08.docx ¶2411, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— J'irai à Rome, dit maman.",
+      "rsr": "Restored from tome08.docx ¶2412, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne répondis rien, je serais déjà moi-même à Rome, si ce n'était donner trop d'importance aux Antonelli et montrer un désir exagéré de me marier avec Pierre.",
+      "rsr": "Restored from tome08.docx ¶2413, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Je lui écrirai, répétait maman.",
+      "rsr": "Restored from tome08.docx ¶2414, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Il vous répondra qu'il ne sait pas de quoi vous lui parlez.",
+      "rsr": "Restored from tome08.docx ¶2415, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Walitsky, revenu de Monaco, soupait quand nous sommes entrées dans la salle à manger. On parla de Russes et j'exprimai mon dégoût pour ces chers compatriotes.",
+      "rsr": "Restored from tome08.docx ¶2416, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Que je n'oublie pas de dire que Nina écrit une bonne, longue lettre, une lettre du fond du cœur.",
+      "rsr": "Restored from tome08.docx ¶2417, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Alors si Miloradovitch te demande en mariage tu refuseras ? demanda maman oubliant un instant la conversation de tout à l'heure.",
+      "rsr": "Restored from tome08.docx ¶2418, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Il ne me demandera pas, répondis-je, est-ce qu'on demande une fille comme moi !",
+      "rsr": "Restored from tome08.docx ¶2419, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et j'eus la féroce joie de les voir reprendre leur air consterné.",
+      "rsr": "Restored from tome08.docx ¶2420, Mon Journal t.8 p.210 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si je ne me suicide pas à présent, c'est uniquement pour ne pas donner cette gloire à Pierre Antonelli au moment où il va entrer dans le monde et où une pareille aventure le poserait admirablement, car il ne manquerait pas de l'attribuer à mon amour pour lui.",
+      "rsr": "Restored from tome08.docx ¶2421, Mon Journal t.8 pp.210–211 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Autrement je me serais tuée. On ne peut se donner l'idée du dégoût profond et du découragement que j'éprouve. Amour ! O mot inconnu pour moi ! Est-ce que j'ai de la place pour l'amour !",
+      "rsr": "Restored from tome08.docx ¶2422, Mon Journal t.8 p.211 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alors voilà la vérité, c'est que.. cet homme ne m'a jamais aimée, il a regardé le mariage comme un moyen de s'affranchir (juste comme moi), de se poser.",
+      "rsr": "Restored from tome08.docx ¶2423, Mon Journal t.8 p.211 (missing from original extraction, 2026-09-29 rebuild). OCR corrected from the scan: «que.,»→«que..»."
+     }
+    },
+    {
+     "new": {
+      "french": "Quant à ces protestations, je n'en parle pas, je n'en ai rien dit tout haut, je n'y attachais pas assez de foi pour en parler sérieusement. Ces protestations lui ont servi d'ailleurs à obtenir mes bonnes grâces, c'est déjà quelque chose.",
+      "rsr": "Restored from tome08.docx ¶2424, Mon Journal t.8 p.211 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne dis pas qu'il ait toujours menti, on pense presque toujours ce qu'on dit au moment où on le dit, mais après... Voilà donc. J'ai été trompée, et... et malgré tous les raisonnements, malgré l'Évangile, je brûle de me venger ! Je prendrais mon temps, soyez tranquille et je me vengerai... si au moment où je le pouvais faire l'envie ne m'en était encore passée.",
+      "rsr": "Restored from tome08.docx ¶2425, Mon Journal t.8 p.211 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Soyez tranquille, l'envie ne me passera pas. J'ai désiré me venger d'Audiffret, je le désire encore et me vengerai quand l'occasion viendra.",
+      "rsr": "Restored from tome08.docx ¶2426, Mon Journal t.8 p.211 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "*« Chi lungo a tempo aspetta*\n*« Vede alfin la sua vendetta.*",
+      "rsr": "Restored from tome08.docx ¶2427–2428, Mon Journal t.8 p.211 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je rentrai chez moi à onze heures, écrivis quelques lignes et puis tout à coup, perdant courage, je me mis à pleurer. Oh ! après tout je ne suis qu'une enfant ! Toutes ces peines sont trop lourdes pour moi toute seule ! Et je voulus aller réveiller ma tante.",
+      "rsr": "Restored from tome08.docx ¶2429, Mon Journal t.8 p.211 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais elle penserait que je pleure mon amour... et je ne pourrais pas souffrir cela. Dire que l'amour n'a aucune place ici serait justice. [deux lignes cancellées] J'en ai honte à présent. Un petit garçon, un souffre-douleur, doublé d'un mauvais sujet et recouvert d'un jésuite, un enfant, un Paul ! Et j'ai aimé cela ! Bah ! pourquoi pas ? Un homme aime bien une cocotte, une grisette, une canaille quelconque, une paysanne ; de grands hommes et de grands rois ont fait ainsi et ne sont pas déshonorés pour cela. J'ai déjà dit que j'étais comme un homme, j'avais des caprices. J'étais amoureuse d'Antonelli, il n'y a pas besoin d'y mettre un *sentimentalisme* qui n'existe pas. Il ne fallait pas le prendre au tragique. *Si ce n'était cette damnée position de jeune fille, je ne m'en inquiéterais seulement pas.* Un homme peut tout, d'après les absurdes lois de la société, mais une femme doit se ménager. Seulement c'est vexant en diable d'avoir été trompée.",
+      "rsr": "Restored from tome08.docx ¶2430, Mon Journal t.8 pp.211–212 (missing from original extraction, 2026-09-29 rebuild). OCR corrected from the scan: «serait justice, [deux»→«serait justice. [deux»."
+     }
+    },
+    {
+     "new": {
+      "french": "J'allais devenir folle de rage et d'impuissance, d'impuissance car il n'y a pas moyen de changer ma position, j'allais devenir enragée tant mes nerfs étaient montés, et je me mis à chanter, cela calme.",
+      "rsr": "Restored from tome08.docx ¶2431, Mon Journal t.8 p.212 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "*Quanti ce n'è che s'entendomi cantare,*\n*Diran : Viva colei che a il cor contento.*\n*S'io canto, canto per non dir del male !*\n*Faccio per revelar quel c'ho qui dentro,*\n*Faccio per revelar un'afflitta doglia,*\n*Sebbene io canto, di piangere ho voglia,*\n*Faccio per revelar l'afflitta pena,*\n*Sebbene io canto, di dolor son piena.*",
+      "rsr": "Restored from tome08.docx ¶2432–2433, Mon Journal t.8 p.212 (missing from original extraction, 2026-09-29 rebuild). Verse lines restored from the scan (the OCR ran them together); «s'entendomi» as printed."
+     }
+    },
+    {
+     "new": {
+      "french": "Combien il y en a qui m'écoutant chanter\nDiront : Vive celle qui a le cœur content !\nSi je chante, je chante pour ne pas dire du mal,\nJe le fais pour révéler ce que je renferme dans mon cœur.\nJe le fais pour révéler une douleur qui m'afflige.\nQuoi que je chante, j'ai le désir de pleurer ;\nJe le fais pour révéler une peine qui me tourmente...\nQuoi que je chante, je suis accablée de douleur !",
+      "rsr": "Restored from tome08.docx ¶2434–2438, Mon Journal t.8 p.212 (missing from original extraction, 2026-09-29 rebuild). Marie's translation of the song, verse lines as printed; not a clipping (the drafter's guess removed)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je resterais là toute la nuit que je ne dirais pas tout ce que je veux dire et, si je parvenais à le dire, je ne dirais rien de nouveau, rien que je n'aie déjà dit.",
+      "rsr": "Restored from tome08.docx ¶2439, Mon Journal t.8 p.212 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! mon Dieu, je me sens bien coupable d'avoir été si violente ce soir et je n'ose presque pas vous prier d'être bon pour moi.",
+      "rsr": "Restored from tome08.docx ¶2440, Mon Journal t.8 p.212 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "De me tirer de là ! Mille noms d'une... Oh ! oh !",
+      "rsr": "Restored from tome08.docx ¶2441, Mon Journal t.8 p.213 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce n'est donc pas une invention, cette tyrannie absolue des parents romains. On en parle dans ce livre qui est une étude de mœurs romaines. Ce livre ressemble tellement à mon histoire, en tant de points, que je le mange au lieu de le lire. Ce neveu de monsignor, se faisant libéral pour être espion de son oncle, Pietro n'est pas espion.. et qui sait ? Puis tous ces arrangements de famille, la domination incroyable des pères, des maris. La sévérité avec les enfants, les filles tenues comme en Orient,\n« D'ailleurs, dit le livre, le père avait un pouvoir, un pouvoir absolu sur son fils, sans son bon plaisir, Luigi ne possédait pas un sou dans ce monde. »",
+      "rsr": "Restored from tome08.docx ¶2442–2443, Mon Journal t.8 p.213 (missing from original extraction, 2026-09-29 rebuild). OCR corrected from the scan: «espion.,»→«espion..»."
+     }
+    },
+    {
+     "new": {
+      "french": "Puis on parle de Rome, de Rome si cancanière, où on s'occupe des moindres choses, des moindres affaires particulières qui forment les occupations et alimentent les conversations des salons.",
+      "rsr": "Restored from tome08.docx ¶2444, Mon Journal t.8 p.213 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Puis cette dévotion qui ne se voit qu'à Rome, que je croyais une invention, une chose impossible. Ces hommes qui disent chaque jour le rosaire en famille, ces comtesses qui baisent la main à leurs beaux-frères évêques ou cardinaux, dont dépendent leur fortune et leur position, qu'on regarde comme des dieux et qui commandent à toute la famille.",
+      "rsr": "Restored from tome08.docx ¶2445, Mon Journal t.8 p.213 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En vérité, en vérité, toutes les choses que j'ai vues et entendues à Rome me reviennent à l'esprit et j'ouvre de grands yeux en contemplant ce mélange bizarre de dévotion, de libertinage, de religion, de canaillerie, de soumission, de dépravation et de pruderie, de fierté hautaine et de lâche bassesse. En vérité Rome est une ville unique, bizarre, sauvage et raffinée.",
+      "rsr": "Restored from tome08.docx ¶2446, Mon Journal t.8 p.213 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout y est différent que chez les autres. On semble arriver sur une autre planète que la terre.",
+      "rsr": "Restored from tome08.docx ¶2447, Mon Journal t.8 p.213 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et en vérité Rome qui a eu un commencement fabuleux, une prospérité fabuleuse, une décadence fabuleuse, doit être quelque chose de saisissant et d'à part, au moral et au physique. La ville de Dieu, la ville des prêtres, veux-je dire.",
+      "rsr": "Restored from tome08.docx ¶2448, Mon Journal t.8 p.213 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Depuis que le Roi y est, tout change et encore ce n'est que chez les libéraux, les Noirs sont toujours les mêmes. C'est pour cela que je ne comprenais rien à ce que me disait Antonelli et regardais toutes ses affaires comme des fables ou des choses tout à fait à part, tandis que ce n'était que comme partout à Rome.",
+      "rsr": "Restored from tome08.docx ¶2449, Mon Journal t.8 pp.213–214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Faut-il que je sois tombée sur cet habitant de la lune, de la vieille lune, de la vieille Rome, c'est-à-dire un neveu de cardinal, et du cardinal Antonelli encore !",
+      "rsr": "Restored from tome08.docx ¶2450, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Bah ! C'est curieux pour moi qui aime l'extraordinaire. C'est original. Non, c'est tout de même.... étrange, Rome et les Romains.",
+      "rsr": "Restored from tome08.docx ¶2451, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et puis cette comtesse-mère, dans le roman est copiée sur Camilla Folchi, comtesse Antonelli, esclave du mari, protégeant ses fils qui osent la regarder comme leur mère tandis qu'ils regardent le père comme un maître tout-puissant et terrible.",
+      "rsr": "Restored from tome08.docx ¶2452, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il fallait lire ce livre avant d'aller à Rome.",
+      "rsr": "Restored from tome08.docx ¶2453, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je croyais qu'Antonelli inventait tout ce qu'il me disait, et cette crainte du Père, je la croyais une invention pour me tromper. Je ne comprenais rien de tout cela, je comprends à peine à présent et je m'étonne.",
+      "rsr": "Restored from tome08.docx ¶2454, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oui, c'est tout autrement que chez les autres hommes.",
+      "rsr": "Restored from tome08.docx ¶2455, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quand je vous dis que *ça étonne :* bon ! encore cet affreux jeu de mots.",
+      "rsr": "Restored from tome08.docx ¶2456, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au lieu de m'étonner, je ferais mieux de raconter ce que je sais de Rome et des Romains, cela étonnerait bien plus que mes *étonnements* et mes exclamations.",
+      "rsr": "Restored from tome08.docx ¶2457, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous savez quand Antonelli, il y a six ans de cela, était mourant, sa mère lui faisait manger des bandes de papier sur lesquelles était ce mot répété sans fin : Maria, Maria etc. etc. C'était pour que la Vierge le guérît. C'est peut-être pour cela qu'il a été amoureux d'une Marie... très terrestre d'ailleurs. On lui faisait en outre boire de l'eau bénite au lieu de médecine. Mais ça ce n'est rien encore. Peu à peu je me souviendrai de tout, d'ailleurs qu'on se souvienne de tout et on y trouvera bien des choses curieuses.",
+      "rsr": "Restored from tome08.docx ¶2458, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le cardinal, par exemple, n'est pas fou, lui, et quand on lui a dit que son neveu se corrigeait dans un couvent, il a ri en disant que c'était folie, qu'un homme de vingt-trois ans ne devient pas sage au bout de huit jours de cloître, et que s'il semble converti c'est qu'il a besoin d'argent.",
+      "rsr": "Restored from tome08.docx ¶2459, Mon Journal t.8 p.214 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comment supposer que j'aime Pietro ? Peut-on aimer quand on ne respecte pas ? Je suis amoureuse d'un gentil garçon amoureux et... neveu du cardinal. Voilà tout.",
+      "rsr": "Restored from tome08.docx ¶2460, Mon Journal t.8 p.215 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1876-06-25.md",
+   "date": "1876-06-25",
+   "heading": "Dimanche 25 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0583"
+    },
+    {
+     "old": "062.0584"
+    },
+    {
+     "old": "062.0585"
+    },
+    {
+     "old": "062.0586"
+    },
+    {
+     "old": "062.0587"
+    },
+    {
+     "old": "062.0588"
+    },
+    {
+     "old": "062.0589"
+    },
+    {
+     "old": "062.0590"
+    },
+    {
+     "old": "062.0591"
+    },
+    {
+     "old": "062.0592"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-26.md",
+   "date": "1876-06-26",
+   "heading": "Lundi 26 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0593"
+    },
+    {
+     "old": "062.0594"
+    },
+    {
+     "old": "062.0595"
+    },
+    {
+     "old": "062.0596"
+    },
+    {
+     "old": "062.0597"
+    },
+    {
+     "old": "062.0598"
+    },
+    {
+     "old": "062.0599"
+    },
+    {
+     "old": "062.0600"
+    },
+    {
+     "old": "062.0601"
+    },
+    {
+     "old": "062.0602"
+    },
+    {
+     "old": "062.0603"
+    },
+    {
+     "old": "062.0604"
+    },
+    {
+     "old": "062.0605",
+     "set_french": "Et je lus ce qui suit, seulement, pour écrire ici, je traduis, puisque l'original est attaché là :[^4]",
+     "_rsr": "Split: the edition's label and the copied letter (tome08.docx ¶2506–2509, Mon Journal t.8 p.218) are now their own paragraphs (editorial, letter) (2026-09-29 rebuild)."
+    },
+    {
+     "new": {
+      "french": "LETTRE EN ITALIEN ÉPINGLÉE AU CAHIER",
+      "rsr": "Restored from tome08.docx ¶2506, Mon Journal t.8 p.218 (missing from original extraction, 2026-09-29 rebuild). The edition's label (small capitals); «ÉPINCLÉE» OCR corrected. Split off 062.0605.",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "« Je me trouve dans un de ces moments si fatals pour moi, pendant lesquels je ne puis me vaincre moi-même et suis obligé de vous dire : je vous aime et j'ai besoin du soulagement d'une parole de vous ; ne fut-ce que par écrit.\nPietro\nP.S. : Me pardonnez-vous une telle hardiesse ? Je l'espère. »",
+      "rsr": "Restored from tome08.docx ¶2507–2509, Mon Journal t.8 p.218 (missing from original extraction, 2026-09-29 rebuild). Marie's French translation of Pietro Antonelli's letter (the Italian original was pinned into the notebook; the letter is dated 23 June, see 27 June). Split off 062.0605.",
+      "kind": "letter",
+      "source": "Lettre de Pietro Antonelli à Marie, 23 juin 1876, traduite de l'italien par Marie",
+      "tags": [
+       "[#Pietro](../_glossary/people/recurring/PIETRO.md)"
+      ]
+     }
+    },
+    {
+     "old": "062.0606"
+    },
+    {
+     "old": "062.0607"
+    },
+    {
+     "old": "062.0608"
+    },
+    {
+     "old": "062.0609"
+    },
+    {
+     "old": "062.0610"
+    },
+    {
+     "old": "062.0611",
+     "kind": "editorial"
+    },
+    {
+     "new": {
+      "french": "*Mais c'est un ordre du jour cela !*",
+      "rsr": "Restored from tome08.docx ¶2527, Mon Journal t.8 p.219 (missing from original extraction, 2026-09-29 rebuild). Split off 062.0612.",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "old": "062.0612",
+     "set_french": "Je lui répondrai, à Antonelli, ces simples mots : Vous êtes un misérable ! Non. J'y ai pensé jusqu'au dîner.",
+     "_rsr": "Split: Marie's later annotation that opened this paragraph (tome08.docx ¶2527, Mon Journal t.8 p.219) is now its own margin paragraph (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0613"
+    },
+    {
+     "old": "062.0614",
+     "set_french": "— Oui, et j'ai trouvé la réponse : *Nihil[^1].* (Je crois que ce mot s'écrit nighil). Rien du tout.",
+     "_rsr": "Date heading «Mardi 27 juin 1876» removed from this paragraph: in the printed edition (Mon Journal t.8) the date line comes later, so this text belongs to the previous day (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0615"
+    },
+    {
+     "old": "062.0616"
+    },
+    {
+     "old": "062.0617"
+    },
+    {
+     "old": "062.0618"
+    },
+    {
+     "old": "062.0619"
+    },
+    {
+     "old": "062.0620"
+    },
+    {
+     "old": "062.0621"
+    },
+    {
+     "old": "062.0622"
+    },
+    {
+     "old": "062.0623"
+    },
+    {
+     "old": "062.0624"
+    },
+    {
+     "old": "062.0625"
+    },
+    {
+     "old": "062.0626"
+    },
+    {
+     "old": "062.0627"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-27.md",
+   "date": "1876-06-27",
+   "heading": "Mardi 27 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0628"
+    },
+    {
+     "old": "062.0629"
+    },
+    {
+     "old": "062.0630"
+    },
+    {
+     "old": "062.0631"
+    },
+    {
+     "old": "062.0632"
+    },
+    {
+     "new": {
+      "french": "LE CARDINAL ANTONELLI\nIl me dit avec un gracieux sourire « dans un moment je suis à vous ! ». Je m'assis sur un canapé de couleur sombre. Il apposait sa signature sur des papiers que lui présentait un petit jeune homme à peu près vêtu comme ces demi-abbés de Paris qui inscrivent les messes pour les morts. Je ne sais quelle grande fleur rouge de l'espèce dite grasse - une primeur d'hiver - était sur sa table. J'avais vingt-quatre ans. Depuis, il a beaucoup plu ! Et le cardinal prosecrétaire d'État, ayant enfin pris ma lettre, l'ouvrit lentement avec un énorme couteau d'ivoire, la lut non plus vite ; et ce faisant, il me disait « comment va cet excellent marquis Costa de Beauregard ? - M. Menabrea vient de faire un beau discours - pourquoi M. de Revel ne parle-t-il pas davantage ? Voilà trois hommes que nous aimons beaucoup ! ». Toutes ces questions n'ayant pas l'air d'attendre une réponse, je ne leur en fis pas. Enfin il termina sa lecture ; et sans me regarder, mais en me voyant de côté avec ses superbes yeux noirs, il me dit : « Comment va le comte ? ».",
+      "rsr": "Restored from tome08.docx ¶2585–2586, Mon Journal t.8 pp.223–224 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; OCR corrected from the scan: «M. de Bevel»→«M. de Revel».",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Pour comprendre combien je fus abasourdi, il faut savoir deux choses : - le ministre désignait là Cavour par son appellation turinoise : Le comte, - analogue à la désignation romaine d'Antonelli : Le cardinal ! Or, j'étais chargé par les principaux personnages de la droite piémontaise, dont plusieurs vivent encore, d'une petite mission officieuse. On la disait surtout faite à l'insu de Cavour. La vérité était que Cavour la connaissait, et qu'on m'en avait chargé, d'accord avec le prince de La Tour-d'Auvergne, parce que j'étais honoré de la bienveillance des deux grands adversaires Cavour et Costa. D'autre part, le nom de ma grand-mère paternelle était bien connu à Rome. - Je fis le niais, et je dis : - « Le comte, quel comte ? Votre Éminence ? » - « Mais le comte de Cavour ! vous l'avez vu avant votre départ ? » - « Non, Éminence. » - Je mentais comme un ambassadeur. Mais j'espère que Dieu me pardonnera ce mensonge, quand il sera obligé d'excuser les mensonges diplomatiques du cardinal.",
+      "rsr": "Restored from tome08.docx ¶2587, Mon Journal t.8 p.224 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; OCR corrected from the scan: «Éminence ?»»→«Éminence ? »», «départ ?»»→«départ ? »».",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Alors le cardinal me couvrit de ce regard qui est une de ses caractéristiques. Sa prunelle s'agrandit, elle devient douce, caressante, voilée, disons mieux, câline ; et cependant le regard reste ironique, la prunelle cache un gros rire comme une petite pensionnaire le fait parfois à l'église. Cependant, les lèvres du cardinal ne font que sourire. Ses mains pressent parfois vos mains. Elles se mettent sur vos épaules, comme à moi. Mais ce doute rieur vous couvre et vous fait froid. Voilée par une excessive courtoisie italienne, cette ironie ne s'avoue pas elle-même. Vous n'avez pas le droit de lui dire : « Je te sens », car le cardinal protesterait à bon droit et verrait en vous un pointilleux mal élevé. La plupart des gens ne s'aperçoivent pas de ce regard d'une douceur circulaire, mais d'une ironie fixe, et, enchantés du cardinal, s'en vont se disant : « Quel homme charmant ! Comme il m'a reçu, comme il m'a compris ! » Mais, moi, je suis comme les chiens qui regardent toujours dans les yeux ceux qui leur parlent.",
+      "rsr": "Restored from tome08.docx ¶2588, Mon Journal t.8 pp.224–225 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; checked against the scan.",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Le cardinal ne me fit pas même les questions que j'attendais. Il se contenta d'écrire à Turin. Ce fut le dernier détail de la tentative d'un *connubio* de Cavour avec la droite. Je raconte cela, non point pour me grossir mais pour donner à mes portraits italiens leur cachet de vérité. Le lecteur a sans doute oublié mon portrait du roi qui, là-bas, fut estimé très ressemblant. Le cardinal eut le tort de m'irriter vivement. J'avais, certes, à vingt ans, d'autres soucis que des soucis politiques. Enchanté, comme l'est un petit garçon habillé en général, de remplir une mission de forme grave, j'eusse désiré être reçu en audience particulière par le pape et faire bénir un chapelet pour ma mère, en disant que c'était pour elle ! Le cardinal ne comprit pas que je me moquais bien des projets de Cavour, quand je n'étais pas dans les alentours où cet homme inouï fascinait les hommes et même les événements ! Le cardinal m'empêcha d'avoir une audience particulière. Je vis le pape, moi, vingtième ! ! et même, femmes comprises ! ! Je conservai de ce une vraie colère. Mais à vingt ans, les colères passent comme les amours - moins vite, mais elles passent.",
+      "rsr": "Restored from tome08.docx ¶2589, Mon Journal t.8 p.225 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; checked against the scan.",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Pie IX, dont je ferai le portrait et que j'ai vu de près, a eu deux manières politiques : la manière Rossi - la manière Antonelli. Rossi fut l'homme de la passion moderne, avec le stoïcisme antique. Antonelli est l'homme du stoïcisme catholique avec la passion moderne. Le Pie de 1848 à qui la grande voix libérale de Balbo avait crié : « Courage, Saint-Père ! » avait montré l'homme moderne sous les habits du moyen âge de la papauté. Rossi avait été le ministre de cette grande aventure catholique qui ne se termina qu'à sa mort violente. Le cardinal Antonelli sortit de cette tombe. Lui, aussi avait eu ce qu'il appelait la mal'aria de 1848. Président de la Consulte, il avait dit solennellement au Saint-Père ces paroles absolument authentiques : « Que votre Sainteté fasse *camminare d'accordo il progresso civile del secolo coi principii della catholica religione ; mirabile unione,* etc. Nous n'avons jamais été ici plus libéraux ! Heureusement pour le cardinal les condamnations du Syllabus n'ont pas d'effet rétroactif. Quant la République française eut ramené d'exil Pie IX, il trouva la maison saccagée. Les souvenirs religieux qui en sont comme le mobilier étaient brisés. - Alors Antonelli brûla solennellement le système de Rossi, non point avec colère, mais avec tristesse et en lui rendant des honneurs. Et on coucha avec lui, comme sur le bûcher funéraire d'un roi des Scythes, sa grande veuve - la Liberté.",
+      "rsr": "Restored from tome08.docx ¶2590, Mon Journal t.8 pp.225–226 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; OCR corrected from the scan: «religione;»→«religione ;».",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Soudainement Cavour et Antonelli se détestèrent parce qu'ils se comprirent aussitôt. Cependant, tout d'abord, ils eurent l'air de se flairer, comme deux grands buffles de la campagne de Rome, avant le combat. Mais un jour, Cavour s'aperçut dans un scrutin qu'il lui manquait vingt voix de députés sur lesquelles il comptait. Et il dit : « C'est Antonelli ! » Il connaissait bien le cardinal. Le cardinal fut le seul homme d'Europe - Bismark n'était pas encore, - que Cavour jugea être de sa taille. En effet, une des notes du cardinal est sa façon d'attaquer ses adversaires chez eux. Quand il fut manifeste que Napoléon III ne pouvait ou ne voulait pas sauver le patrimoine de Saint-Pierre, le clergé français chanta moins haut le *Domine salvum,* etc. Quand le cardinal se sentait trop faible pour se défendre, il attaquait. Un jour Cavour mourut. « Pauvre comte Camille ! » fit le cardinal. Et il se crut le maître. Mais le roi naquit de Cavour.",
+      "rsr": "Restored from tome08.docx ¶2591, Mon Journal t.8 p.226 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; OCR corrected from the scan: «lè roi»→«le roi».",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Voici un trait qui caractérise le cardinal. Celui qui est le doyen des ministres du monde entier n'a pas eu de portraitiste. Je ne parle pas des caricatures violentes qui ont été faites. C'est qu'il a une figure insaisissable comme une grande figure aux lignes changeantes. Jadis ce masque brun et énergique, à la bouche large et aux lèvres sanguines produisait un singulier effet au-dessus de la robe rouge. C'était la silhouette robuste et mouvementée d'un homme passionné. Pourtant sa manière était douce, souple et calme. Aujourd'hui les traits se sont un peu effacés comme les lignes d'une photographie trop exposée à l'air. Le grand front s'est encore élargi en se dépouillant. Il y a là de l'apaisement et de la grandeur. Et pourtant le cardinal est plus habile que jamais. Vous voyez les antithèses ! Comment dessiner cela ? Est-ce Richelieu ? est-ce Mazarin ? c'est le cardinal Antonelli, un Richelieu fin comme Mazarin, et un Mazarin superbe comme Richelieu.",
+      "rsr": "Restored from tome08.docx ¶2592, Mon Journal t.8 pp.226–227 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; checked against the scan.",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Les Italiens n'ont pas contre le cardinal la haine qu'on suppose. Ils savent qu'avant tout le cardinal est Italien. Il n'y a guère qu'en France où on croit à l'amour d'Antonelli pour la France. Il n'aime que l'église de Rome. Il est poli pour un roi ou un peuple si sa grande cause en a besoin, puis il les abandonne comme un vieux parapluie qui ne peut plus lui servir. Le cardinal a reçu dans son cabinet du Vatican tous les grands et toutes les grandes de la moitié du siècle. Les empereurs et les rois lui ont fait la première visite. Après avoir vu le pape, ils ont monté les vingt-quatre marches, qui mènent chez lui. Nonobstant ; le cardinal simule à ravir les admirations naïves, lui qui n'admire que Saint-Pierre de Rome ! Il questionne les visiteurs comme s'il avait encore quelque chose à apprendre. Mais, soyez-en certains, ce grand seigneur de haute allure dédaigne, plus qu'il ne le dit, l'homme ; comme il le dit, les peuples, et comme il ne le dit point, les rois. Cet homme d'une politesse excessive envers tous, n'est respectueux que d'une chose - la cause sainte qu'il sert ; et que d'un homme - le pape qu'il aime !",
+      "rsr": "Restored from tome08.docx ¶2593, Mon Journal t.8 p.227 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; checked against the scan.",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Nul n'a plus que lui le sens de l'esprit moderne, s'il n'en a pas le goût. Mais il a le goût vif des pierreries dont il fait collection. Nul n'a pu l'arrêter dans ses projets ; nul ne pourrait davantage l'empêcher de s'arrêter comme une femme devant une devanture de joaillier. Il aime la musique et les couleurs. Quand assis dans un salon d'ambassadeur, le cardinal causait jadis, il avait le tic d'étendre un peu son mollet dessiné par le bas rouge et de le regarder comme s'il l'admirait. En effet le cardinal avait une des plus belles jambes de l'Italie. Aujourd'hui, ce cœur magnifique lutte contre la fatigue de son œuvre mi-séculaire. Les trois quarts de ses cheveux sont tombés. Les cheveux tombent à moins. Le masque s'est allongé et a comme blêmi. Mais l'œil demeure noir comme celui de Pie IX ; tour à tour, selon les impressions de l'âme, d'un noir mat ou brillant. Sa prunelle a, dit-on, l'élasticité de celles qui regardent brusquement le soleil et la nuit. En effet il a vu tour à tour les apothéoses et les cataclysmes. Bref, ce serait là un grand homme, si deux grands hommes pouvaient demeurer dans la même maison - le Vatican !",
+      "rsr": "Restored from tome08.docx ¶2594, Mon Journal t.8 pp.227–228 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; OCR corrected from the scan: «II aime»→«Il aime».",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Mais ce qui est bien à lui seul, ce fut le commencement de son œuvre. Il dut établir un système de politique absolue dans ce temps de politique relative où les hommes et les choses n'avaient pas encore pris leur vrai nom. Il pressentit l'orage comme un albatros. Fils d'une famille pauvre, il eut bien vite, avec sa belle taille souple, un grand air de patricien. Tous ces Romains ont tété le lait d'une même louve de grande race ! Il se plia devant les faits et les individus pour se relever mieux quand ils ont passé. Il va au but en zig zag, comme une parallèle de siège. Il ne se livre jamais, tout en simulant l'abandon. Il fait sans cesse des réserves et pose des jalons pour l'avenir. Il a sans cesse joué contre la série, mais sans augmenter son enjeu. Sa grande préoccupation est de rester toujours au jeu. L'éternité parie pour lui, dit-il. Bref, le cardinal a au suprême degré la qualité qui manque aux hommes d'État du XIXe siècle : il est patient. Presque tous ceux qui ont joué contre lui sont morts. Il aime à en faire la remarque. L'autre jour, quand il fut malade, il disait avec son air de douceur latine : « Cela m'étonnerait pourtant de mourir avant le prince de Bismark ! »",
+      "rsr": "Restored from tome08.docx ¶2595, Mon Journal t.8 p.228 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; OCR corrected from the scan: «xix' siècle»→«XIXe siècle».",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Il pardonne rarement et se souvient toujours des services et des injures. Il n'attaque pas tout d'abord de front. On sent ses coups avant d'en avoir entendu le bruit. Il a un côté divin dans son but ; il n'a que des côtés humains dans ses moyens. Alors que le pape semble une figure surnaturelle, le grand cardinal est des nôtres. Il a notre masque et il a nos veines. Il a des parfums dans son mouchoir. Il a des fleurs dans sa chambre. C'est l'homme de Térence. J'ajouterai même que sa nature a des côtés féminins, s'ils n'étaient précisément les côtés d'Italie, de cette Italie dont il est plus qu'aucun autre Italien. Il n'est pas prêtre. Cette face demi-profane lui conserve une individualité à côté de la personnalité quasi-céleste de Pie. C'est un honnête homme à côté d'un saint. Il a gardé de cette approche une senteur religieuse - comme un chandelier d'or que nous prêtons pour la Fête-Dieu et qui nous revient avec une odeur d'encens.",
+      "rsr": "Restored from tome08.docx ¶2596, Mon Journal t.8 pp.228–229 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; OCR corrected from the scan: «demi- profane»→«demi-profane».",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "En définitive, le cardinal-diacre n'est pas aussi vaincu qu'on se plaît à le dire. Tant que le pape sera à Rome, la question du pouvoir temporel sera ouverte. Le roi semble être à Rome chez Pie IX comme un soldat qui a pris un billet de logement chez un curé. L'idée catholique n'a eu en Italie qu'un adversaire acharné, c'est Garibaldi, messie qui a manqué son entrée. La langue italienne semble toujours être la langue des cantiques. Les décors n'ont pas changé, puisque Saint-Pierre de Rome est toujours à l'horizon comme la chapelle de la papauté.",
+      "rsr": "Restored from tome08.docx ¶2597, Mon Journal t.8 p.229 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; checked against the scan.",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "french": "Si le roi Victor-Emmanuel meurt, Pie IX sera chassé de Rome. Il sait comment on s'en va de Rome et comment on y revient. Si le pape meurt, quoiqu'il ait l'attitude de l'immortalité - de même qu'on ne s'imagine pas debout le Moïse que Michel-Ange a fait assis, de même on ne comprend pas couchée cette statue si longtemps debout pendant la tempête, - le cardinal Antonelli peut succéder à Pie IX. Sa quasi-laïcité ne s'oppose pas à cette élection. Il peut recevoir la prêtrise en même temps que la papauté ; le cardinal n'est pas même un *papabile* (candidat à la papauté), mais Pie IX n'était pas un *papabile !* Or Dieu et les hommes ont fait dans ce siècle des choses encore plus étranges que celle-là. Les sept huitièmes des cardinaux doivent leur titre à l'amitié du grand cardinal. Il conserverait vivant la grande tradition de Pie. Sa personnalité exclusivement italienne n'éveillerait pas la jalousie des grandes puissances rivales. Cette élection peut à coup sûr être la résultante de tant d'énormes influences diverses. Humble pharisien, assis à la porte du temple, je me contente d'indiquer du doigt à la rue ce qui se fera peut-être à l'autel. L'ancien et vénéré *papabile,* le petit cardinal Bonaparte, a perdu la calotte blanche de pape sur les champs de bataille de 1870. Je défie de promettre la tiare à un *papabile* parmi les quatre qu'on connaît. L'imprévu est peut-être le plus sérieux *papabile.* Le cardinal Antonelli, devenu pape, se souviendrait peut-être du mal qu'il m'a fait en m'empêchant de faire bénir, en audience particulière, par le Saint-Père, un chapelet pour ma mère - j'ose espérer qu'il m'en bénirait un... mais maintenant, hélas ! pour qui ?\nIgnotus.",
+      "rsr": "Restored from tome08.docx ¶2598–2599, Mon Journal t.8 pp.229–230 (missing from original extraction, 2026-09-29 rebuild). Le Figaro article «Le cardinal Antonelli» signed Ignotus, cut out and pasted in by Marie on 27 June 1876; OCR corrected from the scan: «qïi'on»→«qu'on».",
+      "kind": "clipping",
+      "source": "Le Figaro, Le cardinal Antonelli par Ignotus, juin 1876",
+      "tags": [
+       "[#Le_Figaro](../_glossary/culture/newspapers/LE_FIGARO.md)",
+       "[#Cardinal_Antonelli](../_glossary/people/mentioned/CARDINAL_ANTONELLI.md)"
+      ]
+     }
+    },
+    {
+     "old": "062.0634"
+    },
+    {
+     "old": "062.0635"
+    },
+    {
+     "old": "062.0636",
+     "set_french": "— Mademoiselle, répondis-je, on s'asseye sur un tabouret et on met ses pieds sur l'autre.",
+     "_rsr": "Date heading «Mercredi 28 juin 1876» removed from this paragraph: in the printed edition (Mon Journal t.8) the date line comes later, so this text belongs to the previous day (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0637"
+    },
+    {
+     "old": "062.0638"
+    },
+    {
+     "old": "062.0639"
+    },
+    {
+     "old": "062.0640"
+    },
+    {
+     "old": "062.0641"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-28.md",
+   "date": "1876-06-28",
+   "heading": "Mercredi 28 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0642"
+    },
+    {
+     "old": "062.0643"
+    },
+    {
+     "old": "062.0644"
+    },
+    {
+     "old": "062.0645"
+    },
+    {
+     "old": "062.0646"
+    },
+    {
+     "old": "062.0647"
+    },
+    {
+     "old": "062.0648"
+    },
+    {
+     "old": "062.0649"
+    },
+    {
+     "old": "062.0650"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-29.md",
+   "date": "1876-06-29",
+   "heading": "Jeudi 29 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0651"
+    },
+    {
+     "old": "062.0652"
+    },
+    {
+     "old": "062.0653"
+    },
+    {
+     "old": "062.0654"
+    },
+    {
+     "old": "062.0655"
+    },
+    {
+     "old": "062.0656",
+     "kind": "editorial"
+    },
+    {
+     "new": {
+      "french": "*En lisant tout ceci je commence à me réconcilier avec moi-même.*",
+      "rsr": "Restored from tome08.docx ¶2652, Mon Journal t.8 p.235 (missing from original extraction, 2026-09-29 rebuild). Split off 062.0657.",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "old": "062.0657",
+     "set_french": "Il est entièrement changé. Il m'aime et c'est moi misérable et vaine, qui ne l'aime pas ! Punissez-moi mon Dieu, si je le mérite, mais je ne veux mentir ni devant moi-même, ni devant vous. Oui, je suis vaine, je suis ambitieuse et c'est ce qui fait ma misère. Mais je suis bonne, délicate, généreuse, grande d'âme. Personne ne me le contestera.",
+     "_rsr": "Split: Marie's later annotation that opened this paragraph (tome08.docx ¶2652, Mon Journal t.8 p.235) is now its own margin paragraph (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0658"
+    },
+    {
+     "old": "062.0659"
+    },
+    {
+     "old": "062.0660"
+    },
+    {
+     "old": "062.0661"
+    },
+    {
+     "old": "062.0662"
+    },
+    {
+     "old": "062.0663"
+    },
+    {
+     "old": "062.0664"
+    },
+    {
+     "old": "062.0665"
+    },
+    {
+     "old": "062.0666"
+    },
+    {
+     "old": "062.0667"
+    },
+    {
+     "old": "062.0668"
+    },
+    {
+     "old": "062.0669"
+    }
+   ]
+  },
+  {
+   "file": "1876-06-30.md",
+   "date": "1876-06-30",
+   "heading": "Vendredi 30 juin 1876",
+   "paragraphs": [
+    {
+     "old": "062.0670"
+    },
+    {
+     "old": "062.0671"
+    },
+    {
+     "old": "062.0672"
+    },
+    {
+     "old": "062.0673"
+    },
+    {
+     "new": {
+      "french": "Mais ma tante n'écoutait plus, on parlait de mon départ. Il se faisait tard et je demandai s'il n'était pas temps de dîner, pour donner à ces gens le prétexte de s'en aller mais ils n'en firent rien et restèrent si longtemps que nous avons dîné à huit heures.",
+      "rsr": "Restored from tome08.docx ¶2687, Mon Journal t.8 p.238 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comme maman avait tendu sa main au Surprenant *, je tendis aussi machinalement la mienne tout en souriant de me sentir serrer la main après toute cette charmante correspondance de couvent.",
+      "rsr": "Restored from tome08.docx ¶2688, Mon Journal t.8 p.238 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne sais si j'ai dit qu'à Rome j'ai inventé de marier Gautier avec Lola ; et ce soir je dis à Gautier que je connaissais une charmante brune etc., etc.",
+      "rsr": "Restored from tome08.docx ¶2689, Mon Journal t.8 p.238 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Donnez donc votre portrait, dis-je en partant, je le lui remettrai.",
+      "rsr": "Restored from tome08.docx ¶2690, Mon Journal t.8 p.238 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Vous pouvez nous l'apporter en venant chez nous demain soir, dit maman assez haut pour être entendue du Surprenant *.",
+      "rsr": "Restored from tome08.docx ¶2691, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! ce pauvre homme, il est moins bien qu'Antonelli, il est trop courbé tandis que Pietro est un peu trop droit.",
+      "rsr": "Restored from tome08.docx ¶2692, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais il y a à Nice un jeune Napolitain ami de Massa, le comte de Balzorano. Audiffret connaît Pandola ! Cet animal connaît tout le monde, il a même été connu avec [sic] le prince Léopold d'Angleterre lors du passage de ce prince à Nice. Il a joué avec lui et l'a mené au Cercle. Il y a donc d'heureux coquins sur la terre.",
+      "rsr": "Restored from tome08.docx ¶2693, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Vous savez, lui dis-je, j'ai une rose à vous remettre de la part d'Olga, seulement je crois que je l'ai perdue.",
+      "rsr": "Restored from tome08.docx ¶2694, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Comment, Mademoiselle, grimaça Giro fia*, et vous ne me l'avez pas remise, ah ! c'est que j'y tiens, voilà comment vous faites les commissions !",
+      "rsr": "Restored from tome08.docx ¶2695, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Il serait difficile de faire celle-là, dit maman, nous ne vous avons pas vu.",
+      "rsr": "Restored from tome08.docx ¶2696, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je crus qu'il s'embarrasserait, mais au contraire il prit son ton bouffon-sérieux.",
+      "rsr": "Restored from tome08.docx ¶2697, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Mais Madame, il n'y avait qu'à venir là-bas.",
+      "rsr": "Restored from tome08.docx ¶2698, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Où ça ?",
+      "rsr": "Restored from tome08.docx ¶2699, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Là-bas, à la Tour.",
+      "rsr": "Restored from tome08.docx ¶2700, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Jadis j'aurais dit : « Voilà une idée !» ou : « Quelle bêtise ! ». A présent je dis simplement :",
+      "rsr": "Restored from tome08.docx ¶2701, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Demain, je me présenterai chez vous, Monsieur.",
+      "rsr": "Restored from tome08.docx ¶2702, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Mademoiselle, je ne bougerai pas.",
+      "rsr": "Restored from tome08.docx ¶2703, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Maman et ma tante voient déjà tout un roman nouveau, moi je ne m'occupe seulement pas de cela. J'espère seulement que cet homme aura assez de bon sens pour ne pas se présenter, je le ferais balayer, ma parole d'honneur.",
+      "rsr": "Restored from tome08.docx ¶2704, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non ce n'est pas celui qui m'occupe. J'ai dix-sept ans et demi ! Et rien encore ! Si Pie IX mourait, on saurait à quoi s'en tenir au moins.",
+      "rsr": "Restored from tome08.docx ¶2705, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce Mastaï Ferretti a la vie dure. Oh ! non, pauvre vieillard.",
+      "rsr": "Restored from tome08.docx ¶2706, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai pitié des vieillards surtout depuis que [bon-]papa est devenu tout à fait aveugle, je le plains tant !",
+      "rsr": "Restored from tome08.docx ¶2707, Mon Journal t.8 p.239 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Aujourd'hui j'ai dû le conduire par l'escalier et lui donner à manger moi-même. Il est honteux à cause de cette espèce d'amour-propre de vouloir toujours paraître jeune et il a fallu le faire avec tant de ménagements ; au fait, il a accepté mes services avec reconnaissance, car je les avais offerts avec une brusque insistance mêlée de tendresse à laquelle on ne peut résister.",
+      "rsr": "Restored from tome08.docx ¶2708, Mon Journal t.8 p.240 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La Russie ! Je me plais à m'imaginer qu'Antonelli va venir à Nice et ne me trouvera plus. Il a dû recevoir aujourd'hui la lettre de Walitsky.",
+      "rsr": "Restored from tome08.docx ¶2709, Mon Journal t.8 p.240 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! ça, est-ce qu'il m'aime en vérité ?",
+      "rsr": "Restored from tome08.docx ¶2710, Mon Journal t.8 p.240 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Grâce à la sévérité de la censure russe qui ne permet l'entrée d'aucun livre avant de l'avoir examiné, je suis forcée de laisser ici mon journal. Voilà une séparation pénible. Je laisserai la moitié de moi-même, mais on n'y peut rien.",
+      "rsr": "Restored from tome08.docx ¶2711, Mon Journal t.8 p.240 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1876-07-01.md",
+   "date": "1876-07-01",
+   "heading": "Samedi 1er juillet 1876",
+   "paragraphs": [
+    {
+     "old": "062.0674"
+    },
+    {
+     "old": "062.0675"
+    },
+    {
+     "old": "062.0676"
+    },
+    {
+     "old": "062.0677"
+    },
+    {
+     "old": "062.0678"
+    },
+    {
+     "old": "062.0679"
+    },
+    {
+     "old": "062.0680"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-02.md",
+   "date": "1876-07-02",
+   "heading": "Dimanche 2 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "062.0681"
+    },
+    {
+     "old": "062.0682"
+    },
+    {
+     "old": "062.0683"
+    },
+    {
+     "old": "062.0684"
+    },
+    {
+     "old": "062.0685",
+     "kind": "margin",
+     "source": "Annotation de Marie",
+     "set_french": "(*Pour sûr*)",
+     "_rsr": "«*[Pour sûr)*» corrected to «(*Pour sûr*)» from the scan (Mon Journal t.8 p.242); Marie's later remark (2026-09-29 rebuild)."
+    },
+    {
+     "old": "062.0686"
+    },
+    {
+     "old": "062.0687"
+    },
+    {
+     "old": "062.0688"
+    },
+    {
+     "old": "062.0689"
+    },
+    {
+     "old": "062.0690"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-03.md",
+   "date": "1876-07-03",
+   "heading": "Lundi 3 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "062.0691"
+    },
+    {
+     "old": "062.0692"
+    },
+    {
+     "old": "062.0693"
+    },
+    {
+     "old": "062.0694"
+    },
+    {
+     "old": "062.0695"
+    },
+    {
+     "old": "062.0696"
+    },
+    {
+     "old": "062.0697"
+    },
+    {
+     "old": "062.0698"
+    },
+    {
+     "old": "062.0699"
+    },
+    {
+     "old": "062.0700"
+    },
+    {
+     "old": "062.0701"
+    },
+    {
+     "old": "062.0702"
+    },
+    {
+     "old": "062.0703"
+    },
+    {
+     "old": "062.0704"
+    },
+    {
+     "old": "062.0705"
+    },
+    {
+     "old": "062.0706"
+    },
+    {
+     "old": "062.0707"
+    },
+    {
+     "old": "062.0708"
+    },
+    {
+     "old": "062.0709"
+    },
+    {
+     "old": "062.0710"
+    },
+    {
+     "old": "062.0711"
+    },
+    {
+     "old": "062.0712"
+    },
+    {
+     "old": "062.0713"
+    },
+    {
+     "old": "062.0714"
+    },
+    {
+     "old": "062.0715"
+    },
+    {
+     "old": "062.0716"
+    },
+    {
+     "old": "062.0717"
+    },
+    {
+     "old": "062.0718"
+    },
+    {
+     "old": "062.0719"
+    },
+    {
+     "old": "062.0720"
+    },
+    {
+     "old": "062.0721"
+    },
+    {
+     "old": "062.0722"
+    },
+    {
+     "old": "062.0723"
+    },
+    {
+     "old": "062.0724"
+    },
+    {
+     "old": "062.0725"
+    },
+    {
+     "old": "062.0726"
+    },
+    {
+     "old": "062.0727"
+    },
+    {
+     "old": "062.0728"
+    },
+    {
+     "old": "062.0729"
+    },
+    {
+     "old": "062.0730"
+    },
+    {
+     "old": "062.0731"
+    },
+    {
+     "old": "062.0732"
+    },
+    {
+     "old": "062.0733"
+    },
+    {
+     "old": "062.0734"
+    },
+    {
+     "old": "062.0735"
+    }
+   ]
+  }
+ ]
+}

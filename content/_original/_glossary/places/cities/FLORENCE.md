@@ -116,7 +116,7 @@ Florence first appears as pure aspiration. The fourteen-year-old Marie writes: "
 ### Florence as Reference Point (1876-1879)
 
 After visiting, Florence becomes a standard of comparison:
-- Arriving in Paris (July 1876): "J'ai vu Vienne, Londres, Rome, Florence... et je n'ai jamais rien vu de semblable... a la place de la Concorde" (063.0053) -- even Florence cannot match Paris
+- Arriving in Paris (July 1876): "J'ai vu Vienne, Londres, Rome, Florence... et je n'ai jamais rien vu de semblable... a la place de la Concorde" (063.0052) -- even Florence cannot match Paris
 - Comparing Naples to Paris (1877): "s'il faut absolument tout comparer a Paris, je lui comparerai Florence riche, elegante, belle" -- Florence is the closest Italian equivalent to Parisian elegance
 - Considering a move (March 1879): "Si j'allais a Florence? Ce ne serait pas tant pour me marier que pour voir du monde, j'ai idee que nous serions bien a Florence" (084.0421)
 

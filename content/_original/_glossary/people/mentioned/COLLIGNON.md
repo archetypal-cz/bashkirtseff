@@ -34,11 +34,11 @@ Mademoiselle Collignon is one of the most enduring figures in Marie's life, pres
 
 ## Physical Description
 
-Marie paints Collignon's portrait in May-June 1876 (twelve sittings), and the sittings provide a detailed physical description (%% 062.0248 %%): "Collignon a une figure pale-rosee, large, gros nez, grands yeux gris-vert-blanc, des paupieres rouges, peu de sourcils. Pas de traits, et surtout un teint tout uni, generalement rose, une vilaine peau avec d'immenses pores. Toutes ces laideurs lui composent cependant une figure tres agreable, mais insaisissable aussi, car tout le charme en est dans le sourire et la conversation." Her most striking feature was her extraordinary hair: "elle a des cheveux fabuleux, longs et epais comme une foret. Ils sont de toutes les couleurs, il y a des meches noires et des meches tres blondes" — hence Marie's epithet "la belle aux longs cheveux" (%% 024.0398 %%).
+Marie paints Collignon's portrait in May-June 1876 (twelve sittings), and the sittings provide a detailed physical description (%% 062.0292 %%): "Collignon a une figure pale-rosee, large, gros nez, grands yeux gris-vert-blanc, des paupieres rouges, peu de sourcils. Pas de traits, et surtout un teint tout uni, generalement rose, une vilaine peau avec d'immenses pores. Toutes ces laideurs lui composent cependant une figure tres agreable, mais insaisissable aussi, car tout le charme en est dans le sourire et la conversation." Her most striking feature was her extraordinary hair: "elle a des cheveux fabuleux, longs et epais comme une foret. Ils sont de toutes les couleurs, il y a des meches noires et des meches tres blondes" — hence Marie's epithet "la belle aux longs cheveux" (%% 024.0398 %%).
 
 ## Background and Social Position
 
-Collignon came from a modest Parisian family. Her parents ran "une espece d'hotel meuble dans un passage Marbeuf" and her father "portait des sabots et balayait la cour" (%% 085.0091 %%). Despite these humble origins, Collignon had risen socially through her career as a governess: she had previously served as "demoiselle de compagnie aupres de la fille du vice-roi d'Egypte" (%% 085.0091 %%), which explains her polish, worldliness, and knowledge of Egypt and Cairo. Marie observed the painful contrast: "Collignon qui... est si elegante, si distinguee, si bien elevee !" yet lives in poverty (%% 085.0091 %%). She had accumulated savings from fourteen years of work (%% 062.0332 %%: "elle depense son dernier argent amasse pendant quatorze ans de travail"). She had a brother who visited her in Paris (%% 084.0194 %%).
+Collignon came from a modest Parisian family. Her parents ran "une espece d'hotel meuble dans un passage Marbeuf" and her father "portait des sabots et balayait la cour" (%% 085.0091 %%). Despite these humble origins, Collignon had risen socially through her career as a governess: she had previously served as "demoiselle de compagnie aupres de la fille du vice-roi d'Egypte" (%% 085.0091 %%), which explains her polish, worldliness, and knowledge of Egypt and Cairo. Marie observed the painful contrast: "Collignon qui... est si elegante, si distinguee, si bien elevee !" yet lives in poverty (%% 085.0091 %%). She had accumulated savings from fourteen years of work (%% 062.0348 %%: "elle depense son dernier argent amasse pendant quatorze ans de travail"). She had a brother who visited her in Paris (%% 084.0194 %%).
 
 Her father died in May 1879 (%% 085.0078 %%: "Le pere de Collignon est mort ce matin"). After leaving the Bashkirtseff household, Collignon lived in Cannes during the winter seasons and in Paris, often lodging at various addresses including Villa Fortunee in the Carabacel district of Nice (%% 082.0198 %%).
 
@@ -61,7 +61,7 @@ Collignon departed on June 8, 1873 (%% 005.0212 %%: "A deux heures nous allames 
 
 ## The Scandal with Grand-papa
 
-Marie hints darkly at a "malheureuse affaire avec grand-papa" involving Collignon (%% 024.0398 %%). After Collignon's departure, she suspected the governess "avait des plans sur lui et lui la croyait de bonne foi et le pauvre vieillard s'est laisse un peu entortiller" (%% 005.0216 %%). Grand-papa was furious about her departure and quarreled with everyone for days (%% 005.0232 %%, %% 005.0233 %%). Papa was also "bouleverse" when Collignon visited in October 1874, "ses anciens sentiments reviennent" (%% 024.0398 %%). Marie confirmed this openly in 1875: "les desagrements avec Collignon et son depart eurent lieu a cause de grand-papa. Ce grand imbecile avait envie d'elle" (%% 032.0147 %%), and when she teased Collignon about it, the older woman "a rougi jusqu'aux oreilles" (%% 032.0148 %%: Apr 29, 1875). Papa's jealousy of Collignon and Barnola persisted for years (%% 062.0220 %%: "papa me mit sur des charbons brulants en disant des obscenites comme toujours sur Collignon et Barnola dont le vieux fou est jaloux").
+Marie hints darkly at a "malheureuse affaire avec grand-papa" involving Collignon (%% 024.0398 %%). After Collignon's departure, she suspected the governess "avait des plans sur lui et lui la croyait de bonne foi et le pauvre vieillard s'est laisse un peu entortiller" (%% 005.0216 %%). Grand-papa was furious about her departure and quarreled with everyone for days (%% 005.0232 %%, %% 005.0233 %%). Papa was also "bouleverse" when Collignon visited in October 1874, "ses anciens sentiments reviennent" (%% 024.0398 %%). Marie confirmed this openly in 1875: "les desagrements avec Collignon et son depart eurent lieu a cause de grand-papa. Ce grand imbecile avait envie d'elle" (%% 032.0147 %%), and when she teased Collignon about it, the older woman "a rougi jusqu'aux oreilles" (%% 032.0148 %%: Apr 29, 1875). Papa's jealousy of Collignon and Barnola persisted for years (%% 062.0223 %%: "papa me mit sur des charbons brulants en disant des obscenites comme toujours sur Collignon et Barnola dont le vieux fou est jaloux").
 
 ## Return as Family Friend (1874 onward)
 
@@ -71,7 +71,7 @@ From April 1875, Collignon effectively rejoined the household for extended stays
 
 ## Anglophilia and Cultural Interests
 
-Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0189 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0291 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0193 %%), and Marie described her as "une femme serieuse" (%% 050.1334 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0202 %%).
+Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0189 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0291 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0187 %%), and Marie described her as "une femme serieuse" (%% 050.1334 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0205 %%).
 
 ## Romantic Disappointment
 
@@ -85,13 +85,13 @@ Despite (or because of) her own romantic disappointment, Collignon served as Mar
 - **Lambertye**: Dismissed him as "ce petit vilain" (%% 017.0187 %%).
 - **Audiffret**: Noticed his interest in Marie and reported it to the aunt (%% 033.0483 %%).
 - **Girofla**: Called him "le beau zero" (%% 032.0194 %%).
-- **Pietro Antonelli**: Worried Collignon warned Marie he was "un Lovelace" (%% 034.0223 %%), but also said "S'il ne vous aimait pas, il ne vous ecrirait pas des lettres comme ca" (%% 062.0310 %%).
+- **Pietro Antonelli**: Worried Collignon warned Marie he was "un Lovelace" (%% 034.0223 %%), but also said "S'il ne vous aimait pas, il ne vous ecrirait pas des lettres comme ca" (%% 062.0319 %%).
 - **Soutzo**: Openly called him "bete et mechant" and "un ane bate" and said she would weep if Marie married him (%% 088.0174 %%: June 1880).
 - **General maxim**: "Quand une femme veut un homme, elle l'a toujours" (%% 004.0272 %%: April 15, 1873).
 
 ## Portrait by Marie (1876)
 
-In May-June 1876, Marie painted Collignon's portrait in twelve sittings on a "fond de draperie de satin bleu ciel" (%% 061.0241 %%: May 23, 1876). The Daniloff praised it, noting "Collignon a une figure extremement difficile a faire" and that Marie "s'est tiree d'affaire tres honorablement et magnifiquement" (%% 062.0248 %%). The ninth session focused on the challenging multicolored hair: "toutes les meches dorees etaient dessus de sorte que la teinte generale est splendide, chaude, doree" (%% 062.0256 %%: June 12, 1876). Marie later listed "le portrait de Collignon" among her works (%% 076.0074 %%: Dec 1877).
+In May-June 1876, Marie painted Collignon's portrait in twelve sittings on a "fond de draperie de satin bleu ciel" (%% 061.0040 %%: May 23, 1876). The Daniloff praised it, noting "Collignon a une figure extremement difficile a faire" and that Marie "s'est tiree d'affaire tres honorablement et magnifiquement" (%% 062.0292 %%). The ninth session focused on the challenging multicolored hair: "toutes les meches dorees etaient dessus de sorte que la teinte generale est splendide, chaude, doree" (%% 062.0329 %%: June 12, 1876). Marie later listed "le portrait de Collignon" among her works (%% 076.0451 %%: Dec 1877).
 
 ## Collignon's Insight into Marie
 
@@ -148,9 +148,9 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 031.0180 %% (Apr 10, 1875): Returns for a month's stay — "indispensable meme"
 - %% 032.0147 %% (Apr 29, 1875): Marie confirms grand-papa scandal
 - %% 044.0167 %% (Sep 24, 1875): Remembered: Marie threw herself into Collignon's arms
-- %% 061.0241 %% (May 23, 1876): Marie begins painting her portrait
-- %% 062.0248 %% (Jun 7, 1876): Detailed physical description during portrait sessions
-- %% 062.0256 %% (Jun 12, 1876): Finishing the portrait — ninth session, the hair
+- %% 061.0040 %% (May 23, 1876): Marie begins painting her portrait
+- %% 062.0292 %% (Jun 7, 1876): Detailed physical description during portrait sessions
+- %% 062.0329 %% (Jun 12, 1876): Finishing the portrait — ninth session, the hair
 - %% 068.0229 %% (Dec 19, 1876): Marie discusses Rome plans with Collignon
 - %% 082.0198 %% (Sep 25, 1878): Letter from "cette pauvre Collignon" — Marie promises to take her in
 - %% 085.0078 %% (May 16, 1879): Collignon's father dies

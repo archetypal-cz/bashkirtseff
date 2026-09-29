@@ -1,0 +1,1840 @@
+{
+  "carnet": "061",
+  "date": "2026-09-29",
+  "plan_path": "../rebuild-state/plan-tome08/final/plan-061.json",
+  "plan_source": "tome08.docx",
+  "id_map": {
+    "061.0001": "061.0001",
+    "061.0005": "061.0002",
+    "061.0006": "061.0003",
+    "061.0007": "061.0004",
+    "061.0008": "061.0005",
+    "061.0009": "061.0006",
+    "061.0010": "061.0007",
+    "061.0011": "061.0008",
+    "061.0012": "061.0009",
+    "061.0013": "061.0010",
+    "061.0014": "061.0011",
+    "061.0015": "061.0012",
+    "061.0016": "061.0013",
+    "061.0017": "061.0014",
+    "061.0018": "061.0015",
+    "061.0019": "061.0016",
+    "061.0020": "061.0017",
+    "061.0021": "061.0018",
+    "061.0022": "061.0019",
+    "061.0023": "061.0020",
+    "061.0024": "061.0021",
+    "061.0025": "061.0022",
+    "061.0026": "061.0023",
+    "061.0027": "061.0024",
+    "061.0028": "061.0025",
+    "061.0029": "061.0026",
+    "061.0030": "061.0027",
+    "061.0031": "061.0028",
+    "061.0032": "061.0029",
+    "061.0033": "061.0030",
+    "061.0034": "061.0031",
+    "061.0035": "061.0032",
+    "061.0036": "061.0033",
+    "061.0037": "061.0034",
+    "061.0038": "061.0035",
+    "061.0039": "061.0036",
+    "061.0040": "061.0037",
+    "061.0041": "061.0038",
+    "061.0042": "061.0039",
+    "061.0043": "061.0040",
+    "061.0044": "061.0041",
+    "061.0045": "061.0042",
+    "061.0046": "061.0043",
+    "061.0047": "061.0044",
+    "061.0048": "061.0045",
+    "061.0049": "061.0046",
+    "061.0050": "061.0047",
+    "061.0051": "061.0048",
+    "061.0052": "061.0049",
+    "061.0053": "061.0050",
+    "061.0054": "061.0051",
+    "061.0055": "061.0052",
+    "061.0056": "061.0053",
+    "061.0057": "061.0054",
+    "061.0058": "061.0055",
+    "061.0059": "061.0056",
+    "061.0060": "061.0057",
+    "061.0061": "061.0058",
+    "061.0062": "061.0059",
+    "061.0063": "061.0060",
+    "061.0064": "061.0061",
+    "061.0065": "061.0062",
+    "061.0066": "061.0063",
+    "061.0067": "061.0064",
+    "061.0068": "061.0065",
+    "061.0069": "061.0066",
+    "061.0070": "061.0067",
+    "061.0071": "061.0068",
+    "061.0072": "061.0069",
+    "061.0073": "061.0070",
+    "061.0074": "061.0071",
+    "061.0075": "061.0072",
+    "061.0076": "061.0073",
+    "061.0077": "061.0074",
+    "061.0078": "061.0075",
+    "061.0079": "061.0076",
+    "061.0080": "061.0077",
+    "061.0081": "061.0078",
+    "061.0082": "061.0079",
+    "061.0083": "061.0080",
+    "061.0084": "061.0081",
+    "061.0085": "061.0111",
+    "061.0086": "061.0112",
+    "061.0087": "061.0113",
+    "061.0088": "061.0114",
+    "061.0089": "061.0115",
+    "061.0090": "061.0116",
+    "061.0091": "061.0117",
+    "061.0092": "061.0118",
+    "061.0093": "061.0119",
+    "061.0094": "061.0120",
+    "061.0095": "061.0121",
+    "061.0096": "061.0122",
+    "061.0097": "061.0123",
+    "061.0098": "061.0124",
+    "061.0099": "061.0125",
+    "061.0100": "061.0126",
+    "061.0101": "061.0127",
+    "061.0102": "061.0128",
+    "061.0103": "061.0129",
+    "061.0104": "061.0130",
+    "061.0105": "061.0131",
+    "061.0106": "061.0132",
+    "061.0107": "061.0133",
+    "061.0108": "061.0134",
+    "061.0109": "061.0135",
+    "061.0110": "061.0136",
+    "061.0111": "061.0137",
+    "061.0112": "061.0138",
+    "061.0113": "061.0139",
+    "061.0114": "061.0140",
+    "061.0115": "061.0141",
+    "061.0116": "061.0142",
+    "061.0117": "061.0143",
+    "061.0118": "061.0144",
+    "061.0119": "061.0145",
+    "061.0120": "061.0146",
+    "061.0121": "061.0147",
+    "061.0122": "061.0148",
+    "061.0123": "061.0149",
+    "061.0124": "061.0150",
+    "061.0125": "061.0151",
+    "061.0126": "061.0152",
+    "061.0127": "061.0153",
+    "061.0128": "061.0154",
+    "061.0129": "061.0155",
+    "061.0130": "061.0156",
+    "061.0131": "061.0157",
+    "061.0132": "061.0158",
+    "061.0133": "061.0159",
+    "061.0134": "061.0160",
+    "061.0135": "061.0161",
+    "061.0136": "061.0162",
+    "061.0137": "061.0163",
+    "061.0138": "061.0164",
+    "061.0139": "061.0210",
+    "061.0140": "061.0211",
+    "061.0141": "061.0212",
+    "061.0142": "061.0213",
+    "061.0143": "061.0214",
+    "061.0144": "061.0215",
+    "061.0145": "061.0216",
+    "061.0146": "061.0217",
+    "061.0147": "061.0218",
+    "061.0148": "061.0219",
+    "061.0149": "061.0220",
+    "061.0150": "061.0221",
+    "061.0151": "061.0222",
+    "061.0152": "061.0223",
+    "061.0153": "061.0224",
+    "061.0154": "061.0225",
+    "061.0155": "061.0226",
+    "061.0156": "061.0227",
+    "061.0157": "061.0228",
+    "061.0158": "061.0229",
+    "061.0159": "061.0230",
+    "061.0160": "061.0231",
+    "061.0161": "061.0232",
+    "061.0162": "061.0233",
+    "061.0163": "061.0234",
+    "061.0164": "061.0235",
+    "061.0165": "061.0236",
+    "061.0166": "061.0237",
+    "061.0167": "061.0238",
+    "061.0168": "061.0239",
+    "061.0169": "061.0240",
+    "061.0170": "061.0241",
+    "061.0171": "061.0250",
+    "061.0172": "061.0251",
+    "061.0173": "061.0252",
+    "061.0174": "061.0253",
+    "061.0175": "061.0254",
+    "061.0176": "061.0255",
+    "061.0177": "061.0256",
+    "061.0178": "061.0257",
+    "061.0179": "061.0258",
+    "061.0180": "061.0259",
+    "061.0181": "061.0260",
+    "061.0182": "061.0261",
+    "061.0183": "061.0262",
+    "061.0184": "061.0263",
+    "061.0185": "061.0264",
+    "061.0186": "061.0265",
+    "061.0187": "061.0266",
+    "061.0188": "061.0267",
+    "061.0189": "061.0268",
+    "061.0190": "061.0269",
+    "061.0191": "061.0270",
+    "061.0192": "061.0271",
+    "061.0193": "061.0272",
+    "061.0194": "061.0273",
+    "061.0195": "061.0274",
+    "061.0196": "061.0275",
+    "061.0197": "061.0276",
+    "061.0198": "061.0277",
+    "061.0199": "061.0278",
+    "061.0200": "061.0279",
+    "061.0201": "061.0280",
+    "061.0202": "061.0281",
+    "061.0203": "061.0282",
+    "061.0204": "061.0283",
+    "061.0205": "061.0284",
+    "061.0206": "061.0285",
+    "061.0207": "061.0286",
+    "061.0208": "061.0287",
+    "061.0209": "061.0288",
+    "061.0210": "061.0289",
+    "061.0211": "061.0290",
+    "061.0212": "061.0291",
+    "061.0213": "061.0292",
+    "061.0214": "061.0293",
+    "061.0215": "061.0294"
+  },
+  "changed_ids": 211,
+  "new_paragraphs": [
+    {
+      "id": "061.0082",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0083",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0084",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0085",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0086",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0087",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0088",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0089",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0090",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0091",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0092",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0093",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0094",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0095",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0096",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0097",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0098",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0099",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0100",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0101",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0102",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0103",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0104",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0105",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0106",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0107",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0108",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0109",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0110",
+      "file": "1876-05-24.md"
+    },
+    {
+      "id": "061.0165",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0166",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0167",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0168",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0169",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0170",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0171",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0172",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0173",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0174",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0175",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0176",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0177",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0178",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0179",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0180",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0181",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0182",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0183",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0184",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0185",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0186",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0187",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0188",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0189",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0190",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0191",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0192",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0193",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0194",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0195",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0196",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0197",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0198",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0199",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0200",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0201",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0202",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0203",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0204",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0205",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0206",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0207",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0208",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0209",
+      "file": "1876-05-26.md"
+    },
+    {
+      "id": "061.0242",
+      "file": "1876-05-27.md"
+    },
+    {
+      "id": "061.0243",
+      "file": "1876-05-27.md"
+    },
+    {
+      "id": "061.0244",
+      "file": "1876-05-27.md"
+    },
+    {
+      "id": "061.0245",
+      "file": "1876-05-27.md"
+    },
+    {
+      "id": "061.0246",
+      "file": "1876-05-27.md"
+    },
+    {
+      "id": "061.0247",
+      "file": "1876-05-27.md"
+    },
+    {
+      "id": "061.0248",
+      "file": "1876-05-27.md"
+    },
+    {
+      "id": "061.0249",
+      "file": "1876-05-27.md"
+    }
+  ],
+  "dropped": [
+    {
+      "id": "061.0002",
+      "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); «Depuis le dimanche 21 mai 1876 / jusqu'au dimanche 28 mai 1876 / Un jour à Gènes, hôtel de Londres, puis Nice.» = docx ¶1047, Livre 61 title page, Mon Journal t.8 p.87",
+      "rewritten_as": "061.DROPPED-0002"
+    },
+    {
+      "id": "061.0003",
+      "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); motto «Amans ita ut fax, agitando ardescit magis» = docx ¶1048, Livre 61 title page, Mon Journal t.8 p.87",
+      "rewritten_as": "061.DROPPED-0003"
+    },
+    {
+      "id": "061.0004",
+      "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); «Publius Syrus» (author of the motto) = docx ¶1049, Livre 61 title page, Mon Journal t.8 p.87",
+      "rewritten_as": "061.DROPPED-0004"
+    },
+    {
+      "id": "061.0216",
+      "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); «Gloriae cupiditate / H[is] G[race] t[he] D[uke] o[f] H[amilton]» = docx ¶1348, Livre 62 title page, Mon Journal t.8 p.117",
+      "rewritten_as": "061.DROPPED-0216"
+    },
+    {
+      "id": "061.0217",
+      "reason": "empty cluster (only an entry-level RSR summary; the en text «[End of Cahier 61]» is a placeholder, not manuscript text)",
+      "rewritten_as": "061.DROPPED-0217"
+    }
+  ],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [],
+  "last_id": "061.0294",
+  "flag_resets": {
+    "cz": [
+      "1876-05-21-22.md",
+      "1876-05-24.md",
+      "1876-05-25.md",
+      "1876-05-26.md",
+      "1876-05-27.md",
+      "1876-05-28.md"
+    ],
+    "uk": [
+      "1876-05-21-22.md",
+      "1876-05-24.md",
+      "1876-05-25.md",
+      "1876-05-26.md",
+      "1876-05-27.md",
+      "1876-05-28.md"
+    ],
+    "en": [
+      "1876-05-21-22.md",
+      "1876-05-24.md",
+      "1876-05-25.md",
+      "1876-05-26.md",
+      "1876-05-27.md",
+      "1876-05-28.md"
+    ],
+    "fr": [
+      "1876-05-21-22.md",
+      "1876-05-24.md",
+      "1876-05-25.md",
+      "1876-05-26.md",
+      "1876-05-27.md",
+      "1876-05-28.md"
+    ]
+  },
+  "plan": {
+    "carnet": "061",
+    "source": "tome08.docx",
+    "drop": [
+      {
+        "id": "061.0002",
+        "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); «Depuis le dimanche 21 mai 1876 / jusqu'au dimanche 28 mai 1876 / Un jour à Gènes, hôtel de Londres, puis Nice.» = docx ¶1047, Livre 61 title page, Mon Journal t.8 p.87"
+      },
+      {
+        "id": "061.0003",
+        "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); motto «Amans ita ut fax, agitando ardescit magis» = docx ¶1048, Livre 61 title page, Mon Journal t.8 p.87"
+      },
+      {
+        "id": "061.0004",
+        "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); «Publius Syrus» (author of the motto) = docx ¶1049, Livre 61 title page, Mon Journal t.8 p.87"
+      },
+      {
+        "id": "061.0216",
+        "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned); «Gloriae cupiditate / H[is] G[race] t[he] D[uke] o[f] H[amilton]» = docx ¶1348, Livre 62 title page, Mon Journal t.8 p.117"
+      },
+      {
+        "id": "061.0217",
+        "reason": "empty cluster (only an entry-level RSR summary; the en text «[End of Cahier 61]» is a placeholder, not manuscript text)"
+      }
+    ],
+    "entries": [
+      {
+        "file": "1876-05-21-22.md",
+        "date": "1876-05-21",
+        "heading": "Dimanche 21 mai 1876 - lundi 22 mai 1876",
+        "paragraphs": [
+          {
+            "old": "061.0001"
+          },
+          {
+            "old": "061.0005"
+          },
+          {
+            "old": "061.0006"
+          },
+          {
+            "old": "061.0007"
+          },
+          {
+            "old": "061.0008"
+          },
+          {
+            "old": "061.0009"
+          },
+          {
+            "old": "061.0010"
+          },
+          {
+            "old": "061.0011"
+          },
+          {
+            "old": "061.0012"
+          },
+          {
+            "old": "061.0013",
+            "set_french": "Ah ! Bon Dieu ! Faut-il que tout soit manqué pour moi !",
+            "_rsr": "OCR slip corrected to the printed reading of Mon Journal t.8 p.88 (2026-09-29 rebuild)."
+          },
+          {
+            "old": "061.0014"
+          },
+          {
+            "old": "061.0015"
+          },
+          {
+            "old": "061.0016"
+          },
+          {
+            "old": "061.0017"
+          },
+          {
+            "old": "061.0018"
+          },
+          {
+            "old": "061.0019"
+          },
+          {
+            "old": "061.0020"
+          },
+          {
+            "old": "061.0021",
+            "set_french": "Ah ! pourquoi ai-je vu tout cela !",
+            "_rsr": "OCR slip corrected to the printed reading of Mon Journal t.8 p.89 (2026-09-29 rebuild)."
+          },
+          {
+            "old": "061.0022"
+          },
+          {
+            "old": "061.0023"
+          },
+          {
+            "old": "061.0024"
+          },
+          {
+            "old": "061.0025"
+          },
+          {
+            "old": "061.0026"
+          },
+          {
+            "old": "061.0027"
+          },
+          {
+            "old": "061.0028"
+          },
+          {
+            "old": "061.0029"
+          },
+          {
+            "old": "061.0030"
+          },
+          {
+            "old": "061.0031"
+          },
+          {
+            "old": "061.0032"
+          },
+          {
+            "old": "061.0033"
+          },
+          {
+            "old": "061.0034"
+          },
+          {
+            "old": "061.0035"
+          },
+          {
+            "old": "061.0036"
+          },
+          {
+            "old": "061.0037"
+          }
+        ]
+      },
+      {
+        "file": "1876-05-23.md",
+        "date": "1876-05-23",
+        "heading": "Mardi 23 mai 1876",
+        "paragraphs": [
+          {
+            "old": "061.0038"
+          },
+          {
+            "old": "061.0039"
+          },
+          {
+            "old": "061.0040"
+          },
+          {
+            "old": "061.0041"
+          },
+          {
+            "old": "061.0042"
+          },
+          {
+            "old": "061.0043"
+          },
+          {
+            "old": "061.0044"
+          },
+          {
+            "old": "061.0045"
+          },
+          {
+            "old": "061.0046"
+          },
+          {
+            "old": "061.0047"
+          },
+          {
+            "old": "061.0048"
+          },
+          {
+            "old": "061.0049"
+          }
+        ]
+      },
+      {
+        "file": "1876-05-24.md",
+        "date": "1876-05-24",
+        "heading": "Mercredi 24 mai 1876",
+        "paragraphs": [
+          {
+            "old": "061.0050"
+          },
+          {
+            "old": "061.0051"
+          },
+          {
+            "old": "061.0052"
+          },
+          {
+            "old": "061.0053"
+          },
+          {
+            "old": "061.0054"
+          },
+          {
+            "old": "061.0055"
+          },
+          {
+            "old": "061.0056"
+          },
+          {
+            "old": "061.0057"
+          },
+          {
+            "old": "061.0058"
+          },
+          {
+            "old": "061.0059"
+          },
+          {
+            "old": "061.0060"
+          },
+          {
+            "old": "061.0061"
+          },
+          {
+            "old": "061.0062"
+          },
+          {
+            "old": "061.0063"
+          },
+          {
+            "old": "061.0064"
+          },
+          {
+            "old": "061.0065"
+          },
+          {
+            "old": "061.0066"
+          },
+          {
+            "old": "061.0067"
+          },
+          {
+            "old": "061.0068"
+          },
+          {
+            "old": "061.0069"
+          },
+          {
+            "old": "061.0070"
+          },
+          {
+            "old": "061.0071"
+          },
+          {
+            "old": "061.0072"
+          },
+          {
+            "old": "061.0073"
+          },
+          {
+            "old": "061.0074"
+          },
+          {
+            "old": "061.0075"
+          },
+          {
+            "old": "061.0076"
+          },
+          {
+            "old": "061.0077"
+          },
+          {
+            "old": "061.0078"
+          },
+          {
+            "old": "061.0079"
+          },
+          {
+            "old": "061.0080"
+          },
+          {
+            "old": "061.0081"
+          },
+          {
+            "old": "061.0082"
+          },
+          {
+            "old": "061.0083"
+          },
+          {
+            "old": "061.0084"
+          },
+          {
+            "new": {
+              "french": "— Soigne-toi, continua-t-elle doucement.",
+              "rsr": "Restored from tome08.docx ¶1130, Mon Journal t.8 p.94 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Ah ! ça ne vaut pas la peine !",
+              "rsr": "Restored from tome08.docx ¶1131, Mon Journal t.8 p.94 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Voici Walitsky qui vient.",
+              "rsr": "Restored from tome08.docx ¶1132, Mon Journal t.8 p.94 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Walitsky, dis-je, ausculte-moi, j'ai quelque chose là.",
+              "rsr": "Restored from tome08.docx ¶1133, Mon Journal t.8 p.94 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il m'ausculta et ne trouvant qu'un catarrhe me commanda les eaux de Soden.",
+              "rsr": "Restored from tome08.docx ¶1134, Mon Journal t.8 p.94 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'obéirai parce qu'on tient toujours à la vie, mais... mais je suis bien malheureuse !",
+              "rsr": "Restored from tome08.docx ¶1135, Mon Journal t.8 p.94 (missing from original extraction, 2026-09-29 rebuild). Printed «mais.. mais» (typesetting slip, Mon Journal t.8 p.94) corrected to «mais... mais»."
+            }
+          },
+          {
+            "new": {
+              "french": "Dans la journée j'ai peint, j'ai *mangé,* j'ai répondu à ce qu'on me demandait d'Antonelli.",
+              "rsr": "Restored from tome08.docx ¶1136, Mon Journal t.8 p.94 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et je suis venue chez moi écrire et tout en écrivant je me mis à pleurer de toutes mes forces. Puis j'allai me mettre à genoux et prier.",
+              "rsr": "Restored from tome08.docx ¶1137, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dieu, n'y a-t-il pas une posture plus humble qu'à genoux, qu'on me dise ce que je dois faire pour apaiser cette colère divine, implacable ! Ne vous moquez pas de moi, je suis bien abattue. Je n'ai même plus de fierté. Avant je voulais un prince, des millions, des grandeurs, à présent j'ai honte de ces désirs et je pleure !",
+              "rsr": "Restored from tome08.docx ¶1138, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Vous savez quelles étaient mes idées. Un homme que je regarde du haut de ma grandeur fantastique, cet homme me méprisera et me dédaignera, pas lui, mais cela revient au même.",
+              "rsr": "Restored from tome08.docx ¶1139, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et qu'ai-je fait pour cela !",
+              "rsr": "Restored from tome08.docx ¶1140, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Maman et ma tante, dans leur engourdissement stupide, rêvent un prince charmant, libre et indépendant, qui viendra déposer à mes pieds sa couronne et son cœur !",
+              "rsr": "Restored from tome08.docx ¶1141, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ces rêves, que je partageais avant et que je partage peut-être aujourd'hui me font pitié et me rendent désespérée !",
+              "rsr": "Restored from tome08.docx ¶1142, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dieu ! peut-on ne pas haïr une famille à cause de laquelle on endure ce que j'endure ! ! !",
+              "rsr": "Restored from tome08.docx ¶1143, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et si je me plains et si je pleure, et si je meurs, ils diront que c'est d'amour ! ! ô dérision hideuse ! Est-ce que j'ai de la place pour l'amour !",
+              "rsr": "Restored from tome08.docx ¶1144–1145, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Toute cette affaire m'a interdite et je n'ai pas osé envoyer la fleur.",
+              "rsr": "Restored from tome08.docx ¶1146, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce soir en m'en allant j'embrassai maman.",
+              "rsr": "Restored from tome08.docx ¶1147, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Elle embrasse comme Pietro, dit-elle en riant.",
+              "rsr": "Restored from tome08.docx ¶1148, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Est-ce qu'il t'a embrassée ? demandai-je.",
+              "rsr": "Restored from tome08.docx ¶1149, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Il t'a embrassée toi, dit Walitsky croyant dire la chose la plus énorme et par cela me faisant éprouver un bien vif remords et presque une honte.",
+              "rsr": "Restored from tome08.docx ¶1150, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Oh ! Walitsky ! dis-je d'un tel air que maman et ma tante se tournèrent vers lui avec un air de reproche et de mécontentement.",
+              "rsr": "Restored from tome08.docx ¶1151, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Marie embrassée par un homme ! Marie la fière, la hautaine, la sévère, allons-donc ! Marie qui a fait tant de beaux discours sur ce sujet !",
+              "rsr": "Restored from tome08.docx ¶1152, Mon Journal t.8 p.95 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Cela m'a rendue intérieurement honteuse.",
+              "rsr": "Restored from tome08.docx ¶1153, Mon Journal t.8 p.96 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "En effet, pourquoi ai-je manqué à mes principes ? Je ne peux pas admettre que cela fut ou a été par faiblesse, par entraînement ; si j'admettais cela je ne m'estimerais plus. Je ne puis pas dire que ce fut par amour.",
+              "rsr": "Restored from tome08.docx ¶1154, Mon Journal t.8 p.96 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Cela me faisait plaisir, je l'ai fait par la même raison que je me suis laissé presser le pied.",
+              "rsr": "Restored from tome08.docx ¶1155, Mon Journal t.8 p.96 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il suffit de passer pour inabordable, cela est assez. On est si habitué à me voir telle qu'on ne croirait pas à ses propres yeux et moi-même j'ai si souvent parlé de tant de choses rigides que je n'y croirais pas moi-même sans ce journal.",
+              "rsr": "Restored from tome08.docx ¶1156, Mon Journal t.8 p.96 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "D'ailleurs il ne faut se laisser *aborder* que par un homme de l'amour duquel on est certaine, car celui-là n'accusera pas. Tandis qu'avec des gens qui ne font que faire la cour il faut être toute couverte de pointes comme un hérisson.",
+              "rsr": "Restored from tome08.docx ¶1157, Mon Journal t.8 p.96 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Soyons légère avec un homme sérieux, aimant, mais soyons sévère avec un homme léger.",
+              "rsr": "Restored from tome08.docx ¶1158, Mon Journal t.8 p.96 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dieu que je suis contente d'avoir écrit exactement ce que je pense !",
+              "rsr": "Restored from tome08.docx ¶1159, Mon Journal t.8 p.96 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1876-05-25.md",
+        "date": "1876-05-25",
+        "heading": "Jeudi 25 mai 1876",
+        "paragraphs": [
+          {
+            "old": "061.0085"
+          },
+          {
+            "old": "061.0086"
+          },
+          {
+            "old": "061.0087"
+          },
+          {
+            "old": "061.0088"
+          },
+          {
+            "old": "061.0089"
+          },
+          {
+            "old": "061.0090"
+          },
+          {
+            "old": "061.0091"
+          },
+          {
+            "old": "061.0092"
+          },
+          {
+            "old": "061.0093"
+          },
+          {
+            "old": "061.0094"
+          },
+          {
+            "old": "061.0095"
+          },
+          {
+            "old": "061.0096"
+          },
+          {
+            "old": "061.0097"
+          },
+          {
+            "old": "061.0098"
+          },
+          {
+            "old": "061.0099"
+          },
+          {
+            "old": "061.0100"
+          },
+          {
+            "old": "061.0101",
+            "set_french": "Ce cher consul, voyez quelle tendre sollicitude[^6] ! En voilà un qui sans être prié peut bien envoyer de charmants renseignements. J'espère qu'il sait ce qu'on fait aux gens qui s'occupent à rendre de pareils services et se tiendra coi.",
+            "_rsr": "OCR slip corrected to the printed reading of Mon Journal t.8 p.98 (2026-09-29 rebuild)."
+          },
+          {
+            "old": "061.0102"
+          },
+          {
+            "old": "061.0103"
+          },
+          {
+            "old": "061.0104"
+          },
+          {
+            "old": "061.0105"
+          },
+          {
+            "old": "061.0106"
+          },
+          {
+            "old": "061.0107"
+          },
+          {
+            "old": "061.0108"
+          },
+          {
+            "old": "061.0109"
+          },
+          {
+            "old": "061.0110"
+          },
+          {
+            "old": "061.0111"
+          },
+          {
+            "old": "061.0112"
+          },
+          {
+            "old": "061.0113"
+          },
+          {
+            "old": "061.0114"
+          },
+          {
+            "old": "061.0115"
+          },
+          {
+            "old": "061.0116"
+          },
+          {
+            "old": "061.0117"
+          },
+          {
+            "old": "061.0118"
+          },
+          {
+            "old": "061.0119"
+          },
+          {
+            "old": "061.0120"
+          },
+          {
+            "old": "061.0121"
+          },
+          {
+            "old": "061.0122"
+          },
+          {
+            "old": "061.0123"
+          },
+          {
+            "old": "061.0124"
+          },
+          {
+            "old": "061.0125"
+          },
+          {
+            "old": "061.0126"
+          },
+          {
+            "old": "061.0127"
+          }
+        ]
+      },
+      {
+        "file": "1876-05-26.md",
+        "date": "1876-05-26",
+        "heading": "Vendredi 26 mai 1876",
+        "paragraphs": [
+          {
+            "old": "061.0128"
+          },
+          {
+            "old": "061.0129"
+          },
+          {
+            "old": "061.0130"
+          },
+          {
+            "old": "061.0131"
+          },
+          {
+            "old": "061.0132"
+          },
+          {
+            "old": "061.0133"
+          },
+          {
+            "old": "061.0134"
+          },
+          {
+            "old": "061.0135"
+          },
+          {
+            "old": "061.0136"
+          },
+          {
+            "old": "061.0137"
+          },
+          {
+            "old": "061.0138"
+          },
+          {
+            "new": {
+              "french": "Au fait, j'avais besoin pour calmer mon amour-propre, d'entendre toutes ces offres de mariage ; eh bien, une fois là je me suis dit la même chose que pour le pied. Cela fait plaisir et ça ne coûte rien ! Je l'ai fait à la légère, je ne pensais à rien de sérieux.",
+              "rsr": "Restored from tome08.docx ¶1214, Mon Journal t.8 p.101 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Remarquez que je n'ai dit rien de positif, j'ai laissé parler et je répondais vaguement mais, comme je me laissais prendre la taille et baiser les mains, le jeune présomptueux n'a pas remarqué le ton et tout heureux et tout surexcité n'entra en défiance de rien.",
+              "rsr": "Restored from tome08.docx ¶1215, Mon Journal t.8 p.101 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je savais bien qu'il était sérieux mais je ne m'attendais pas, tout en m'y attendant, que sa famille et tous ces gens-là fassent tant de tapage, je ne m'y attendais pas parce que je ne parlais pas sérieusement.",
+              "rsr": "Restored from tome08.docx ¶1216, Mon Journal t.8 p.101 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "D'ailleurs quel est mon système ? Traîner aussi longtemps que possible. Ainsi fais-je et c'est très prudent. Dans ma position il ne faut ni refuser ni chasser brusquement les gens que je puis supporter, on ne sait pas ce qui peut arriver et il est bon de se ménager des en-cas.",
+              "rsr": "Restored from tome08.docx ¶1217, Mon Journal t.8 p.101 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Voilà qui est mesquin et vil ! Mais j'y suis forcée. Croyez-vous que si j'étais fille d'une grande famille et sûre de toujours trouver en dehors de ma figure, croyez-vous que je me fusse abaissée jusqu'à de pareilles combinaisons ? Vous savez bien que non.",
+              "rsr": "Restored from tome08.docx ¶1218, Mon Journal t.8 p.101 (missing from original extraction, 2026-09-29 rebuild). Line-break «Croyez- vous» joined (Mon Journal t.8 p.101)."
+            }
+          },
+          {
+            "new": {
+              "french": "Car enfin je n'ai que ma peau. Croyez-vous que ces hommes qui me recherchent, le font par orgueil ou par intérêt ? Non, n'est-ce pas. Tous ceux que nous connaissons nous ne les connaissons que grâce à moi, comme figure. Croyez-vous qu'on cherche notre maison pour l'honneur, pour la mode ? Non, on la cherche parce que je plais, c'est clair et il n'y a pas de quoi se vanter.",
+              "rsr": "Restored from tome08.docx ¶1219, Mon Journal t.8 p.101 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est flatteur pour la femme, on pourrait être fière de triompher, de cette façon au moins, des circonstances, *d'être* par soi-même.",
+              "rsr": "Restored from tome08.docx ¶1220, Mon Journal t.8 pp.101–102 (missing from original extraction, 2026-09-29 rebuild). Line-break «soi- même» joined (Mon Journal t.8 p.101)."
+            }
+          },
+          {
+            "new": {
+              "french": "Aussi cela me flatte, mais d'un autre côté il y a tant d'amertumes qu'il y a compensation.",
+              "rsr": "Restored from tome08.docx ¶1221, Mon Journal t.8 p.102 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tous ces hommes que je connais et qui viennent presque chaque soir et qui restent près la voiture au Pincio, ne le font pas par devoir comme quelquefois on est obligé envers des personnes de la société. Ils le font parce que je les attire, ils me connaissent, non pas comme d'autres femmes qu'ils rencontrent dans le monde avec lesquelles ils sont en contact perpétuel, mais parce qu'ils m'ont remarquée, parce qu'ils ont désiré, cherché de me connaître.",
+              "rsr": "Restored from tome08.docx ¶1222, Mon Journal t.8 p.102 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Antonelli m'a fait du tort, le pauvre Plowden s'est retiré, ce malheureux est toujours délogé par quelqu'un.",
+              "rsr": "Restored from tome08.docx ¶1223, Mon Journal t.8 p.102 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'était mal de tromper Antonelli, car je le trompais. Oui et non, cela dépend, s'il est riche j'ai été sincère, s'il est pauvre j'ai menti. Voilà des idées déplorables mais nécessaires.",
+              "rsr": "Restored from tome08.docx ¶1224, Mon Journal t.8 p.102 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Le portrait de Collignon avance, elle a posé quatre fois, en tout six à sept heures peut-être. C'est ma seule occupation ici, avec les livres. Je ne suis pas sortie une fois depuis mon arrivée ici, excepté ce matin mais seulement à cent cinquante pas de la maison jusqu'à la première boîte aux lettres.",
+              "rsr": "Restored from tome08.docx ¶1225, Mon Journal t.8 p.102 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "A propos de la lettre, il la recevra demain ou après-demain, dimanche. Mardi je dois en recevoir une de lui si rien n'est changé.. Voilà quelque chose qui me justifie. Comment donner mon cœur à qui ne me donne pas le sien ! Comment s'engager sérieusement vis-à-vis d'un homme dont on ne peut être sûre ! Un homme auquel il suffit de trois jours pour oublier et changer ! Qui n'est maître ni de ses actions ni même de ses pensées ! L'aimer sérieusement et puis hurler d'amour et d'humiliation, être ridicule comme ces vieilles filles qui pleurent toujours un fiancé quelconque ! Ce serait vraiment indigne de moi, de toute femme jeune et belle.",
+              "rsr": "Restored from tome08.docx ¶1226, Mon Journal t.8 p.102 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pourquoi ai-je pensé que cette fois il en serait autrement que lorsque je suis partie la première fois ? Alors il n'a ni écrit, ni pensé à moi. Je suis revenue, il m'a fait la plus grossière insulte du monde, que j'ai pardonnée. Et c'est après cela que j'ai acquis une si grande confiance ? C'est bizarre, c'est absurde !",
+              "rsr": "Restored from tome08.docx ¶1227, Mon Journal t.8 pp.102–103 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Si je comprends si bien tout cela, pourquoi fais-je des bêtises ? Toujours par les mêmes raisons. D'abord parce que cela fait plaisir et ensuite pour traîner.",
+              "rsr": "Restored from tome08.docx ¶1228, Mon Journal t.8 p.103 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je me demande comment il s'est fait que je n'ai pas été plus fâchée que ça. Cela mérite qu'on y songe. Si j'avais été vraiment furieuse aucun intérêt et aucune combinaison au monde ne m'eussent forcée à sourire et à pardonner. Je crois que c'est simplement par faiblesse, par manque d'assurance, par crainte de perdre un adorateur.",
+              "rsr": "Restored from tome08.docx ¶1229, Mon Journal t.8 p.103 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne suis pas satisfaite de cet amour. Il dit qu'il aime et il se passe de moi et il ne devient même pas triste quand je ne suis pas là, et il ne se désespère pas quand... Ah ! ça, je ne sais pas, je ne l'ai jamais refusé et chassé.",
+              "rsr": "Restored from tome08.docx ¶1230, Mon Journal t.8 p.103 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pourquoi serait-il désespéré quand il a tout ce qu'il désire.",
+              "rsr": "Restored from tome08.docx ¶1231, Mon Journal t.8 p.103 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'avais l'intention de faire une expérience mais je n'eus pas le temps. En trois jours on ne peut rien, surtout lorsqu'on craint de risquer. Je suis de ces gens qui aiment mieux demeurer dans le doute que d'apprendre une chose qui leur ferait de la peine.",
+              "rsr": "Restored from tome08.docx ¶1232, Mon Journal t.8 p.103 (missing from original extraction, 2026-09-29 rebuild). OCR «1&»→«le» corrected from Mon Journal t.8 p.103."
+            }
+          },
+          {
+            "new": {
+              "french": "Ainsi j'aime mieux garder, n'importe comment ou même en apparence, Antonelli, que de faire quelque chose qui le force à se dessiner et me montre une vilaine vérité. Cela pourrait, il est vrai, me rendre bien heureuse en admettant qu'il résiste à l'épreuve et fasse la preuve de tout ce qu'il y a de tendre, de constant et d'obstiné en fait de sentiments, mais aussi cela pourrait me le montrer indifférent et faible. Je suis faible moi-même quelquefois, la preuve est ce que je viens de dire. A une triste vérité je préfère un doute passable.",
+              "rsr": "Restored from tome08.docx ¶1233, Mon Journal t.8 p.103 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est mal, et je me promets bien d'agir autrement à la première occasion. Et si au lieu d'insister, de se désespérer, il se retire tout tranquillement, soit par indifférence, soit par amour-propre ? ! Il faut vous dire que l'homme est un sac tout rempli d'amour-propre et recouvert de vanité.",
+              "rsr": "Restored from tome08.docx ¶1234, Mon Journal t.8 p.103 (missing from original extraction, 2026-09-29 rebuild). Line-break «amour- propre» joined (Mon Journal t.8 p.103)."
+            }
+          },
+          {
+            "new": {
+              "french": "Une chose me console un peu, avant la grande explication, il m'a souvent répété qu'il souffrait beaucoup, que je le rendais très malheureux, par mes coquetteries et mon cœur de glace. Cela me console, mais ne me suffit pas ; pour atténuer toutes mes plaintes, ici, je voudrais produire ses plaintes à lui, et ses tourments qui me paraissent bien peu de chose car ce n'est pas moi qui les ai éprouvés.",
+              "rsr": "Restored from tome08.docx ¶1235–1236, Mon Journal t.8 pp.103–104 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "On prétend que la femme blonde est la femme poétique. Et moi je dis que la femme blonde est la femme matérielle par excellence. Voyez ces cheveux dorés, ces lèvres de sang, ces yeux gris foncé, ce corps rosé, que Titien peint si bien, et dites-moi les pensées qui vous viennent à l'esprit. D'ailleurs nous avons Vénus chez les païens, Madeleine chez les chrétiens, toutes les deux blondes.",
+              "rsr": "Restored from tome08.docx ¶1237, Mon Journal t.8 p.104 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tandis que la femme brune, qui au fait est un non-sens comme un homme blond, la femme brune, dis-je, tout en ayant des yeux de velours et des joues d'ivoire, peut rester pure, divine.",
+              "rsr": "Restored from tome08.docx ¶1238, Mon Journal t.8 p.104 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il y a au palais Borghese à Rome un beau tableau de Titien, nommé « l'amour pur et l'amour impur. »",
+              "rsr": "Restored from tome08.docx ¶1239, Mon Journal t.8 p.104 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "L'amour pur est une belle femme aux joues roses et aux cheveux noirs, regardant avec une tendresse infinie son enfant qu'elle baigne dans un bassin.",
+              "rsr": "Restored from tome08.docx ¶1240, Mon Journal t.8 p.104 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "L'amour impur est une femme blonde, rousse peut-être, appuyée à je ne sais plus quoi, et avec ses bras croisés au-dessus de sa tête.",
+              "rsr": "Restored from tome08.docx ¶1241, Mon Journal t.8 p.104 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "D'ailleurs la femme *normale* est blonde, comme l'homme normal est brun. Les variétés et les phénomènes contraires sont quelquefois admirables mais ce sont des non-sens. C'est peut-être même pour cela que souvent il y en a qui surpassent les femmes et les hommes naturels.",
+              "rsr": "Restored from tome08.docx ¶1242, Mon Journal t.8 p.104 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Quant à moi je trouve un charme bizarre et énervant dans un homme roux. Un homme roux a toujours l'air féroce ou cruel. Un homme roux doit être haut de couleurs et surtout il doit avoir les cils et les sourcils foncés. En outre et avant tout il doit être beau, voilà le principal.",
+              "rsr": "Restored from tome08.docx ¶1243, Mon Journal t.8 p.104 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Jamais je ne verrai rien de semblable au duc de Hamilton. Il est grand, fort, il a les cheveux d'un rouge agréablement doré, une moustache pareille, des petits yeux gris perçants, une lèvre copiée sur celle de l'Apollon du Belvédère, une lèvre potelée, fine, dédaigneuse. Un nez vraiment aquilin, car il est légèrement recourbé comme un bec d'aigle tout en conservant une forme gracieuse et classique. Et dans toute sa personne il a un air si grand, majestueux, hautain, insolent même, insoucieux de tous les autres comme d'autant de chiens, superbe jusqu'à la divinité, et en même temps léger et si empreint d'une simplicité toute naturelle et charmante, que l'on reste étourdi devant tant de beauté insolente et d'impertinence hautaine.",
+              "rsr": "Restored from tome08.docx ¶1244, Mon Journal t.8 pp.104–105 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je le vois peut-être avec des yeux d'amoureuse, bah ! je ne crois pas ; pourquoi donc en aurais-je été amoureuse s'il n'avait pas eu tous ces airs que j'ai voulu décrire ? Ce n'est pas l'amour qui me le fait paraître tel, mais c'est bien parce qu'il est tel que l'amour existe.",
+              "rsr": "Restored from tome08.docx ¶1245, Mon Journal t.8 p.105 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Comment aimer un homme brun, maigre, très jeune, ayant de beaux yeux, une démarche encore timide et pas de genre du tout, après avoir vu un homme comme le duc, même à la distance de trois ans et songez que trois ans, de quatorze à dix-sept, c'est trois siècles.",
+              "rsr": "Restored from tome08.docx ¶1246, Mon Journal t.8 p.105 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Aussi je n'aime personne que le duc. Celui-là n'en sera pas fier attendu qu'il n'en sait rien et que peu lui importe. Souvent je me compose des contes pour dormir et je me représente en... rapports amoureux avec tous les hommes connus et inconnus, eh bien à aucun d'eux, pas même à un empereur je ne dis : je vous aime, avec conviction, il y en a auxquels je ne puis pas du tout le dire. Bon ! arrêtez là. Je l'ai dit en réalité. Bon Dieu oui, mais je le pensais si peu que cela ne vaut pas la peine d'en parler.",
+              "rsr": "Restored from tome08.docx ¶1247, Mon Journal t.8 p.105 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je reprends donc, je ne puis le dire à aucun, sauf Hamilton.",
+              "rsr": "Restored from tome08.docx ¶1248, Mon Journal t.8 p.105 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Devant lui je me prosterne, d'ailleurs, je l'ai dit, je trouve une singulière grandeur dans cette humilité volontaire.",
+              "rsr": "Restored from tome08.docx ¶1249, Mon Journal t.8 p.105 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin, pour expliquer et finir tout en un mot : c'est lui seul que j'aime. Avec les autres ce n'est que l'ennui, le désœuvrement ou l'espoir de me marier avantageusement.",
+              "rsr": "Restored from tome08.docx ¶1250, Mon Journal t.8 p.105 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Aussi, chose étrange, je me sens coupable et toute honteuse devant ce fantôme d'avoir flétri mes lèvres, d'avoir permis qu'on me touchât la taille.",
+              "rsr": "Restored from tome08.docx ¶1251, Mon Journal t.8 pp.105–106 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je l'aime, je l'aime, je l'aime comme moi seule sait aimer. Ne riez pas ! Vous ne pouvez pas juger. Si jamais mon rêve s'accomplit, vous demanderez au duc de Hamilton et il vous dira.",
+              "rsr": "Restored from tome08.docx ¶1252, Mon Journal t.8 p.106 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je l'aime tant que cet amour surnaturel et insensé m'étouffe et, si Antonelli vient, va nécessairement aller se répandre sur lui.",
+              "rsr": "Restored from tome08.docx ¶1253, Mon Journal t.8 p.106 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Heureux Antonelli !",
+              "rsr": "Restored from tome08.docx ¶1254, Mon Journal t.8 p.106 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est que, voyez-vous, la variété rousse n'appartient ni à la catégorie blonde ni à la catégorie brune. C'est une variété à part comme la verdure rouge, les roses noires, les diamants roses. La blonde est selon moi comme la rousse, tant qu'elle n'est pas de ce blond clair, cendré pâle, fade.",
+              "rsr": "Restored from tome08.docx ¶1255, Mon Journal t.8 p.106 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "[annotation]",
+              "rsr": "Restored from tome08.docx ¶1256, Mon Journal t.8 p.106 (missing from original extraction, 2026-09-29 rebuild).",
+              "kind": "editorial"
+            }
+          },
+          {
+            "new": {
+              "french": "*Tout en écrivant je me montais la tête avec mes propres phrases et je finissais par croire que c'est vrai.*",
+              "rsr": "Restored from tome08.docx ¶1257, Mon Journal t.8 p.106 (missing from original extraction, 2026-09-29 rebuild).",
+              "kind": "margin",
+              "source": "Annotation de Marie"
+            }
+          },
+          {
+            "new": {
+              "french": "Quant aux blondes et blonds comme ceux que je viens de décrire, pâles, fades, sales, ils sont dégoûtants tant au féminin qu'au masculin.",
+              "rsr": "Restored from tome08.docx ¶1258, Mon Journal t.8 p.106 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais surtout ne confondez pas *roux* avec rouge. Il n'y a rien de plus dégoûtant que les gens rouges, ils sont grossiers, sots, rusés, tricheurs et laids. Tandis que *roux* veut dire un million de charmes dont, le châtain, le blond comme moi, et même un peu plus clair, sont des subdivisions. Mais il est bien entendu que la couleur blonde-rousse dorée est la plus belle. J'ai dans mes cheveux du blond et du doré mais assez peu de roux, aussi, ils seraient parfaits.",
+              "rsr": "Restored from tome08.docx ¶1259, Mon Journal t.8 p.106 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1876-05-27.md",
+        "date": "1876-05-27",
+        "heading": "Samedi 27 mai 1876",
+        "paragraphs": [
+          {
+            "old": "061.0139"
+          },
+          {
+            "old": "061.0140"
+          },
+          {
+            "old": "061.0141"
+          },
+          {
+            "old": "061.0142"
+          },
+          {
+            "old": "061.0143"
+          },
+          {
+            "old": "061.0144"
+          },
+          {
+            "old": "061.0145"
+          },
+          {
+            "old": "061.0146"
+          },
+          {
+            "old": "061.0147"
+          },
+          {
+            "old": "061.0148"
+          },
+          {
+            "old": "061.0149"
+          },
+          {
+            "old": "061.0150"
+          },
+          {
+            "old": "061.0151"
+          },
+          {
+            "old": "061.0152"
+          },
+          {
+            "old": "061.0153"
+          },
+          {
+            "old": "061.0154"
+          },
+          {
+            "old": "061.0155",
+            "kind": "editorial"
+          },
+          {
+            "old": "061.0156",
+            "kind": "margin",
+            "source": "Annotation de Marie"
+          },
+          {
+            "old": "061.0157"
+          },
+          {
+            "old": "061.0158"
+          },
+          {
+            "old": "061.0159"
+          },
+          {
+            "old": "061.0160"
+          },
+          {
+            "old": "061.0161"
+          },
+          {
+            "old": "061.0162"
+          },
+          {
+            "old": "061.0163"
+          },
+          {
+            "old": "061.0164"
+          },
+          {
+            "old": "061.0165"
+          },
+          {
+            "old": "061.0166"
+          },
+          {
+            "old": "061.0167"
+          },
+          {
+            "old": "061.0168"
+          },
+          {
+            "old": "061.0169",
+            "kind": "editorial"
+          },
+          {
+            "old": "061.0170",
+            "kind": "margin",
+            "source": "Annotation de Marie, 1882"
+          },
+          {
+            "new": {
+              "french": "Avant de le refuser il faut bien penser. Mais je sais qu'il n'est pas riche autant qu'il me faut, je ne puis donc l'accepter. Il me faut la richesse, il me faut être un personnage, faire du chic, de la magnificence. C'est ce *« il me faut tout cela* » qui me rend soucieuse. Où le trouverai-je ? Ah ! si je pouvais aimer Antonelli autant que Hamilton ! Tout serait dit, je n'aurais plus à me tourmenter, je me contenterais du nom et de la position. Oui... mais, pensez, je serais comtesse Antonelli, nièce du grand cardinal (je souris de plaisir), mais à chaque instant je serais éclipsée par des princesses italiennes et des étrangères riches à millions avec leurs bijoux fabuleux et leurs palais si magnifiques.",
+              "rsr": "Restored from tome08.docx ¶1293, Mon Journal t.8 pp.109–110 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Voilà ce qui m'arrête. Miloradovitch est assez riche pour briller partout, trois cent mille francs de rente au moins. En les dépensant bien on fait autant que des gens qui ont trois millions de rente et qui ne les dépensent pas ou les dépensent mal. Ah ! pourquoi ne puis-je tomber sur un de ces Anglais à millions, puisqu'ils existent ! Puisque je plais à tant de personnes, pourquoi pas à un de ceux-là ! ! ! Le premier qui me conviendra, je le prends, je voudrais bien attendre un tout à fait comme je veux, mais ce n'est pas sûr, cela peut ne pas venir et alors, je mourrais de rage, me faisant de sanglants reproches sur ma stupidité absurde ; j'ai abandonné des gens qui me convenaient et je n'ai rien ! voilà ce que je me dirais. Le démon me pousse à attendre et me dit que ce ne sera pas en vain. Le démon me tente pour me punir et me martyriser ensuite.",
+              "rsr": "Restored from tome08.docx ¶1294, Mon Journal t.8 p.110 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je demande pourquoi je ne tombe pas sur un de ces bienheureux privilégiés ! Pourquoi ! Parce que je n'en vois pas et parce qu'ils ne me voient pas. Voilà. Mais ce qui est le plus vexant, c'est qu'ils ne peuvent me rencontrer à moins d'un hasard, d'une aventure comme dans les contes de fées.",
+              "rsr": "Restored from tome08.docx ¶1295, Mon Journal t.8 p.110 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah ! que ne puis-je aller dans le beau, dans le grand monde !",
+              "rsr": "Restored from tome08.docx ¶1296, Mon Journal t.8 p.110 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "S'il n'était question que d'attendre, j'attendrais, j'ai le temps, cinq ans encore. Mais si j'attends en vain ? !",
+              "rsr": "Restored from tome08.docx ¶1297, Mon Journal t.8 p.110 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah ! duc de Hamilton, ô rage !",
+              "rsr": "Restored from tome08.docx ¶1298, Mon Journal t.8 p.110 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pardon mon Dieu, pardon et pitié !",
+              "rsr": "Restored from tome08.docx ¶1299, Mon Journal t.8 p.110 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce qui est le plus vexant c'est de savoir que je pourrais arriver où je veux si j'étais du monde !",
+              "rsr": "Restored from tome08.docx ¶1300, Mon Journal t.8 p.110 (missing from original extraction, 2026-09-29 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1876-05-28.md",
+        "date": "1876-05-28",
+        "heading": "Dimanche 28 mai 1876",
+        "paragraphs": [
+          {
+            "old": "061.0171"
+          },
+          {
+            "old": "061.0172"
+          },
+          {
+            "old": "061.0173"
+          },
+          {
+            "old": "061.0174"
+          },
+          {
+            "old": "061.0175"
+          },
+          {
+            "old": "061.0176"
+          },
+          {
+            "old": "061.0177"
+          },
+          {
+            "old": "061.0178"
+          },
+          {
+            "old": "061.0179"
+          },
+          {
+            "old": "061.0180"
+          },
+          {
+            "old": "061.0181"
+          },
+          {
+            "old": "061.0182",
+            "set_french": "En partant pour Rome et les premiers jours dans la Ville Éternelle je ne pensais qu'au retour à Nice, prenant la ferme résolution de battre froid[^3] Audiffret et de lui cracher dessus. Antonelli me l'a fait oublier et haïr Nice ; j'y suis malgré cela, je m'ennuie, ou je me suis ennuyée, car je ne m'ennuie plus. J'attends avec une passable impatience une lettre de Rome, mais je suis assez *amusée* de l'arrivée du Surprenant*[^4]. Bon, voilà que ça recommence ! Non, mais souvenons-nous un peu... oui, je me souviens, je me suis dicté tout un plan de conduite, il est écrit mais c'est inutile, je n'ai qu'à me conduire comme avec Saetone. Indifférence frisant le mépris. Je crois avoir suffisamment expliqué la conduite du monsieur pour qu'on sache que la mienne ne peut être que ce que je viens de dire.",
+            "_rsr": "OCR slip corrected to the printed reading of Mon Journal t.8 p.111 (2026-09-29 rebuild)."
+          },
+          {
+            "old": "061.0183"
+          },
+          {
+            "old": "061.0184"
+          },
+          {
+            "old": "061.0185"
+          },
+          {
+            "old": "061.0186"
+          },
+          {
+            "old": "061.0187"
+          },
+          {
+            "old": "061.0188"
+          },
+          {
+            "old": "061.0189"
+          },
+          {
+            "old": "061.0190"
+          },
+          {
+            "old": "061.0191"
+          },
+          {
+            "old": "061.0192"
+          },
+          {
+            "old": "061.0193"
+          },
+          {
+            "old": "061.0194"
+          },
+          {
+            "old": "061.0195"
+          },
+          {
+            "old": "061.0196"
+          },
+          {
+            "old": "061.0197"
+          },
+          {
+            "old": "061.0198"
+          },
+          {
+            "old": "061.0199"
+          },
+          {
+            "old": "061.0200"
+          },
+          {
+            "old": "061.0201"
+          },
+          {
+            "old": "061.0202"
+          },
+          {
+            "old": "061.0203"
+          },
+          {
+            "old": "061.0204"
+          },
+          {
+            "old": "061.0205",
+            "set_french": "J'aurais sans doute mieux fait de faire une belle réponse comme celle que vous venez de lire, mais cela m'économiserait tant de plaisir ! et la vie est si courte. Et puis (il y a toujours *et puis,*) et puis j'étais presque sûre de parler sérieusement, grâce aux paroles de Visconti.",
+            "_rsr": "OCR slip corrected to the printed reading of Mon Journal t.8 p.114 (2026-09-29 rebuild)."
+          },
+          {
+            "old": "061.0206"
+          },
+          {
+            "old": "061.0207"
+          },
+          {
+            "old": "061.0208"
+          },
+          {
+            "old": "061.0209"
+          },
+          {
+            "old": "061.0210"
+          },
+          {
+            "old": "061.0211"
+          },
+          {
+            "old": "061.0212"
+          },
+          {
+            "old": "061.0213"
+          },
+          {
+            "old": "061.0214"
+          },
+          {
+            "old": "061.0215"
+          }
+        ]
+      }
+    ]
+  }
+}

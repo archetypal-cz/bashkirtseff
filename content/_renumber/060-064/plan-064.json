@@ -1,0 +1,2604 @@
+{
+ "carnet": "064",
+ "source": "tome08.docx",
+ "_draft": "final plan 064: common/plan-064.json + tools/fix_064.py (review 2026-09-29, see final/REVIEW-064.md)",
+ "drop": [
+  {
+   "id": "064.0002",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "064.0003",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "064.0004",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "064.0005",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "064.0006",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "064.0007",
+   "reason": "title-page text withdrawn (KRR 2026-09-28: no cover pages until the manuscript is scanned)"
+  },
+  {
+   "id": "064.0373",
+   "reason": "extraction artefact: a «---» rule that is not in tome08.docx nor in Mon Journal t.8 (p.342, between «Sainte Marie priez pour moi.» and «Mardi 1er août 1876») (2026-09-29 rebuild)"
+  },
+  {
+   "id": "064.0424",
+   "reason": "extraction artefact: a «---» rule that is not in tome08.docx nor in Mon Journal t.8 (p.348–349, where the print has the «[annotation]» note of ¶4041–4042) (2026-09-29 rebuild)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1876-07-19.md",
+   "date": "1876-07-19",
+   "heading": "Mercredi 19 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0008"
+    },
+    {
+     "old": "064.0009"
+    },
+    {
+     "old": "064.0010"
+    },
+    {
+     "old": "064.0011"
+    },
+    {
+     "old": "064.0012"
+    },
+    {
+     "old": "064.0013"
+    },
+    {
+     "old": "064.0014"
+    },
+    {
+     "old": "064.0015"
+    },
+    {
+     "old": "064.0016"
+    },
+    {
+     "old": "064.0017"
+    },
+    {
+     "old": "064.0018"
+    },
+    {
+     "old": "064.0019"
+    },
+    {
+     "old": "064.0020"
+    },
+    {
+     "old": "064.0021"
+    },
+    {
+     "old": "064.0022"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-20.md",
+   "date": "1876-07-20",
+   "heading": "Jeudi 20 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0001"
+    },
+    {
+     "old": "064.0023"
+    },
+    {
+     "old": "064.0024"
+    },
+    {
+     "old": "064.0025"
+    },
+    {
+     "old": "064.0026"
+    },
+    {
+     "old": "064.0027"
+    },
+    {
+     "old": "064.0028"
+    },
+    {
+     "old": "064.0029"
+    },
+    {
+     "old": "064.0030"
+    },
+    {
+     "old": "064.0031"
+    },
+    {
+     "old": "064.0032"
+    },
+    {
+     "old": "064.0033"
+    },
+    {
+     "old": "064.0034"
+    },
+    {
+     "old": "064.0035"
+    },
+    {
+     "old": "064.0036"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-21.md",
+   "date": "1876-07-21",
+   "heading": "Vendredi 21 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0037"
+    },
+    {
+     "old": "064.0038"
+    },
+    {
+     "old": "064.0039"
+    },
+    {
+     "old": "064.0040"
+    },
+    {
+     "old": "064.0041"
+    },
+    {
+     "old": "064.0042"
+    },
+    {
+     "old": "064.0043"
+    },
+    {
+     "old": "064.0044"
+    },
+    {
+     "old": "064.0045"
+    },
+    {
+     "old": "064.0046"
+    },
+    {
+     "old": "064.0047"
+    },
+    {
+     "old": "064.0048"
+    },
+    {
+     "old": "064.0049",
+     "kind": "editorial"
+    },
+    {
+     "old": "064.0050",
+     "kind": "margin",
+     "source": "Annotation de Marie, en travers de la page"
+    },
+    {
+     "old": "064.0051"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-22.md",
+   "date": "1876-07-22",
+   "heading": "Samedi 22 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0052"
+    },
+    {
+     "old": "064.0053"
+    },
+    {
+     "old": "064.0054"
+    },
+    {
+     "old": "064.0055"
+    },
+    {
+     "old": "064.0056"
+    },
+    {
+     "old": "064.0057"
+    },
+    {
+     "old": "064.0058"
+    },
+    {
+     "old": "064.0059"
+    },
+    {
+     "old": "064.0060"
+    },
+    {
+     "old": "064.0061"
+    },
+    {
+     "old": "064.0062"
+    },
+    {
+     "old": "064.0063"
+    },
+    {
+     "old": "064.0064"
+    },
+    {
+     "old": "064.0065"
+    },
+    {
+     "old": "064.0067"
+    },
+    {
+     "old": "064.0068"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-23.md",
+   "date": "1876-07-23",
+   "heading": "Dimanche 23 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0066"
+    },
+    {
+     "old": "064.0069"
+    },
+    {
+     "old": "064.0070"
+    },
+    {
+     "old": "064.0071"
+    },
+    {
+     "old": "064.0072"
+    },
+    {
+     "old": "064.0073"
+    },
+    {
+     "old": "064.0074"
+    },
+    {
+     "old": "064.0075"
+    },
+    {
+     "old": "064.0076"
+    },
+    {
+     "old": "064.0077"
+    },
+    {
+     "old": "064.0078"
+    },
+    {
+     "old": "064.0079",
+     "kind": "rayé"
+    },
+    {
+     "old": "064.0080"
+    },
+    {
+     "old": "064.0081"
+    },
+    {
+     "old": "064.0082"
+    },
+    {
+     "old": "064.0083"
+    },
+    {
+     "old": "064.0084"
+    },
+    {
+     "old": "064.0085"
+    },
+    {
+     "old": "064.0086"
+    },
+    {
+     "old": "064.0087"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-24.md",
+   "date": "1876-07-24",
+   "heading": "Lundi 24 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0088"
+    },
+    {
+     "old": "064.0089"
+    },
+    {
+     "old": "064.0090"
+    },
+    {
+     "old": "064.0091"
+    },
+    {
+     "old": "064.0092"
+    },
+    {
+     "old": "064.0093"
+    },
+    {
+     "old": "064.0094"
+    },
+    {
+     "old": "064.0095"
+    },
+    {
+     "old": "064.0096"
+    },
+    {
+     "old": "064.0097"
+    },
+    {
+     "old": "064.0098"
+    },
+    {
+     "old": "064.0099"
+    },
+    {
+     "old": "064.0100"
+    },
+    {
+     "old": "064.0101"
+    },
+    {
+     "old": "064.0102"
+    },
+    {
+     "old": "064.0103"
+    },
+    {
+     "old": "064.0104"
+    },
+    {
+     "old": "064.0105"
+    },
+    {
+     "old": "064.0106"
+    },
+    {
+     "old": "064.0107"
+    },
+    {
+     "old": "064.0108"
+    },
+    {
+     "old": "064.0109"
+    },
+    {
+     "old": "064.0110"
+    },
+    {
+     "old": "064.0111"
+    },
+    {
+     "old": "064.0112"
+    },
+    {
+     "old": "064.0113"
+    },
+    {
+     "old": "064.0114"
+    },
+    {
+     "old": "064.0115"
+    },
+    {
+     "old": "064.0116"
+    },
+    {
+     "old": "064.0117"
+    },
+    {
+     "old": "064.0118"
+    },
+    {
+     "old": "064.0119"
+    },
+    {
+     "old": "064.0120"
+    },
+    {
+     "old": "064.0121"
+    },
+    {
+     "old": "064.0122"
+    },
+    {
+     "old": "064.0123"
+    },
+    {
+     "old": "064.0124"
+    },
+    {
+     "old": "064.0125"
+    },
+    {
+     "old": "064.0126"
+    },
+    {
+     "old": "064.0127"
+    },
+    {
+     "old": "064.0128"
+    },
+    {
+     "old": "064.0129"
+    },
+    {
+     "old": "064.0130"
+    },
+    {
+     "old": "064.0131"
+    },
+    {
+     "old": "064.0132"
+    },
+    {
+     "old": "064.0133"
+    },
+    {
+     "old": "064.0134"
+    },
+    {
+     "old": "064.0135"
+    },
+    {
+     "old": "064.0136"
+    },
+    {
+     "old": "064.0137"
+    },
+    {
+     "old": "064.0138"
+    },
+    {
+     "old": "064.0139"
+    },
+    {
+     "old": "064.0140"
+    },
+    {
+     "old": "064.0141"
+    },
+    {
+     "new": {
+      "french": "[annotation]",
+      "rsr": "Restored from tome08.docx ¶3744, Mon Journal t.8 p.321 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "*Déjà !*",
+      "rsr": "Restored from tome08.docx ¶3744, Mon Journal t.8 p.321 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "old": "064.0142"
+    },
+    {
+     "new": {
+      "french": "[annotation]",
+      "rsr": "Restored from tome08.docx ¶3746, Mon Journal t.8 p.321 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "*Hum !*",
+      "rsr": "Restored from tome08.docx ¶3747, Mon Journal t.8 p.321 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "old": "064.0143"
+    },
+    {
+     "old": "064.0144"
+    },
+    {
+     "old": "064.0145"
+    },
+    {
+     "old": "064.0146"
+    },
+    {
+     "old": "064.0147",
+     "kind": "rayé"
+    },
+    {
+     "old": "064.0148"
+    },
+    {
+     "old": "064.0149"
+    },
+    {
+     "old": "064.0150"
+    },
+    {
+     "old": "064.0151"
+    },
+    {
+     "old": "064.0152"
+    },
+    {
+     "old": "064.0153"
+    },
+    {
+     "old": "064.0154"
+    },
+    {
+     "old": "064.0155"
+    },
+    {
+     "old": "064.0156"
+    },
+    {
+     "old": "064.0157"
+    },
+    {
+     "old": "064.0158"
+    },
+    {
+     "new": {
+      "french": "[annotation]",
+      "rsr": "Restored from tome08.docx ¶3764, Mon Journal t.8 p.324 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "*Hum !*",
+      "rsr": "Restored from tome08.docx ¶3765, Mon Journal t.8 p.324 (missing from original extraction, 2026-09-29 rebuild). OCR «Hum I» corrected to «Hum !» from the scan.",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "old": "064.0159"
+    },
+    {
+     "old": "064.0160"
+    },
+    {
+     "old": "064.0161"
+    },
+    {
+     "old": "064.0162"
+    },
+    {
+     "old": "064.0163"
+    },
+    {
+     "old": "064.0164"
+    },
+    {
+     "old": "064.0165"
+    },
+    {
+     "old": "064.0166"
+    },
+    {
+     "old": "064.0168"
+    },
+    {
+     "old": "064.0169"
+    },
+    {
+     "old": "064.0170"
+    },
+    {
+     "old": "064.0171"
+    },
+    {
+     "old": "064.0172"
+    },
+    {
+     "old": "064.0173"
+    },
+    {
+     "old": "064.0174"
+    },
+    {
+     "old": "064.0175"
+    },
+    {
+     "old": "064.0176"
+    },
+    {
+     "old": "064.0177",
+     "kind": "rayé"
+    },
+    {
+     "old": "064.0178"
+    },
+    {
+     "old": "064.0179"
+    },
+    {
+     "old": "064.0180"
+    },
+    {
+     "old": "064.0181"
+    },
+    {
+     "old": "064.0182"
+    },
+    {
+     "old": "064.0183"
+    },
+    {
+     "old": "064.0184"
+    },
+    {
+     "new": {
+      "french": "[annotation]",
+      "rsr": "Restored from tome08.docx ¶3792, Mon Journal t.8 p.326 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "editorial"
+     }
+    },
+    {
+     "old": "064.0185",
+     "kind": "margin",
+     "source": "Annotation de Marie"
+    },
+    {
+     "old": "064.0186"
+    },
+    {
+     "old": "064.0187"
+    },
+    {
+     "old": "064.0188"
+    },
+    {
+     "old": "064.0189"
+    },
+    {
+     "old": "064.0190"
+    },
+    {
+     "old": "064.0191"
+    },
+    {
+     "old": "064.0192"
+    },
+    {
+     "old": "064.0193"
+    },
+    {
+     "old": "064.0194"
+    },
+    {
+     "old": "064.0195"
+    },
+    {
+     "old": "064.0196"
+    },
+    {
+     "old": "064.0197"
+    },
+    {
+     "old": "064.0198"
+    },
+    {
+     "old": "064.0199"
+    },
+    {
+     "old": "064.0200"
+    },
+    {
+     "old": "064.0201"
+    },
+    {
+     "old": "064.0202"
+    },
+    {
+     "old": "064.0203"
+    },
+    {
+     "old": "064.0204"
+    },
+    {
+     "old": "064.0205"
+    },
+    {
+     "old": "064.0206"
+    },
+    {
+     "old": "064.0207"
+    },
+    {
+     "old": "064.0208"
+    },
+    {
+     "old": "064.0209"
+    },
+    {
+     "old": "064.0210"
+    },
+    {
+     "old": "064.0211"
+    },
+    {
+     "old": "064.0212"
+    },
+    {
+     "old": "064.0213"
+    },
+    {
+     "old": "064.0214",
+     "kind": "rayé"
+    },
+    {
+     "old": "064.0215"
+    },
+    {
+     "old": "064.0216"
+    },
+    {
+     "old": "064.0217"
+    },
+    {
+     "old": "064.0218"
+    },
+    {
+     "old": "064.0219"
+    },
+    {
+     "old": "064.0220"
+    },
+    {
+     "old": "064.0221"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-25.md",
+   "date": "1876-07-25",
+   "heading": "Mardi 25 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0167"
+    },
+    {
+     "old": "064.0222"
+    },
+    {
+     "old": "064.0223"
+    },
+    {
+     "old": "064.0224"
+    },
+    {
+     "old": "064.0225"
+    },
+    {
+     "old": "064.0226"
+    },
+    {
+     "old": "064.0227"
+    },
+    {
+     "old": "064.0228"
+    },
+    {
+     "old": "064.0229"
+    },
+    {
+     "old": "064.0230"
+    },
+    {
+     "old": "064.0231"
+    },
+    {
+     "old": "064.0232"
+    },
+    {
+     "old": "064.0233"
+    },
+    {
+     "old": "064.0234"
+    },
+    {
+     "old": "064.0235"
+    },
+    {
+     "old": "064.0236"
+    },
+    {
+     "old": "064.0237"
+    },
+    {
+     "old": "064.0238"
+    },
+    {
+     "old": "064.0239"
+    },
+    {
+     "old": "064.0240"
+    },
+    {
+     "old": "064.0241"
+    },
+    {
+     "old": "064.0242"
+    },
+    {
+     "new": {
+      "french": "[annotation]",
+      "rsr": "Restored from tome08.docx ¶3853, Mon Journal t.8 p.329 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "*Il l'avoue.*",
+      "rsr": "Restored from tome08.docx ¶3854, Mon Journal t.8 p.329 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "old": "064.0243"
+    },
+    {
+     "old": "064.0244"
+    },
+    {
+     "old": "064.0245"
+    },
+    {
+     "old": "064.0246"
+    },
+    {
+     "old": "064.0247",
+     "kind": "rayé"
+    },
+    {
+     "old": "064.0248"
+    },
+    {
+     "old": "064.0250"
+    },
+    {
+     "old": "064.0251"
+    },
+    {
+     "old": "064.0252"
+    },
+    {
+     "old": "064.0253"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-26-27.md",
+   "date": "1876-07-26",
+   "heading": "Mercredi 26 juillet 1876 - jeudi 27 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0249"
+    },
+    {
+     "old": "064.0254"
+    },
+    {
+     "old": "064.0255"
+    },
+    {
+     "old": "064.0256"
+    },
+    {
+     "old": "064.0257"
+    },
+    {
+     "old": "064.0258"
+    },
+    {
+     "old": "064.0259"
+    },
+    {
+     "old": "064.0260"
+    },
+    {
+     "old": "064.0261"
+    },
+    {
+     "old": "064.0262"
+    },
+    {
+     "old": "064.0263"
+    },
+    {
+     "old": "064.0264"
+    },
+    {
+     "old": "064.0265"
+    },
+    {
+     "old": "064.0266"
+    },
+    {
+     "old": "064.0267"
+    },
+    {
+     "old": "064.0268"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-28.md",
+   "date": "1876-07-28",
+   "heading": "Vendredi 28 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0269"
+    },
+    {
+     "old": "064.0270"
+    },
+    {
+     "old": "064.0271"
+    },
+    {
+     "old": "064.0272"
+    },
+    {
+     "old": "064.0273"
+    },
+    {
+     "old": "064.0274"
+    },
+    {
+     "old": "064.0275"
+    },
+    {
+     "old": "064.0276"
+    },
+    {
+     "old": "064.0277"
+    },
+    {
+     "old": "064.0278"
+    },
+    {
+     "old": "064.0279"
+    },
+    {
+     "old": "064.0280"
+    },
+    {
+     "old": "064.0281"
+    },
+    {
+     "old": "064.0282"
+    },
+    {
+     "old": "064.0283"
+    },
+    {
+     "old": "064.0284"
+    },
+    {
+     "old": "064.0285"
+    },
+    {
+     "old": "064.0286"
+    },
+    {
+     "old": "064.0287"
+    },
+    {
+     "old": "064.0288"
+    },
+    {
+     "old": "064.0289"
+    },
+    {
+     "old": "064.0290"
+    },
+    {
+     "old": "064.0291"
+    },
+    {
+     "old": "064.0292"
+    },
+    {
+     "old": "064.0293"
+    },
+    {
+     "old": "064.0294"
+    },
+    {
+     "old": "064.0295"
+    },
+    {
+     "old": "064.0296"
+    },
+    {
+     "old": "064.0297"
+    },
+    {
+     "old": "064.0298"
+    },
+    {
+     "old": "064.0299"
+    },
+    {
+     "old": "064.0300"
+    },
+    {
+     "old": "064.0301"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-29.md",
+   "date": "1876-07-29",
+   "heading": "Samedi 29 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0302"
+    },
+    {
+     "old": "064.0303"
+    },
+    {
+     "old": "064.0304"
+    },
+    {
+     "old": "064.0305"
+    },
+    {
+     "old": "064.0306"
+    },
+    {
+     "old": "064.0307"
+    },
+    {
+     "old": "064.0308"
+    },
+    {
+     "old": "064.0310"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-30.md",
+   "date": "1876-07-30",
+   "heading": "Dimanche 30 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0309"
+    },
+    {
+     "old": "064.0311"
+    },
+    {
+     "old": "064.0312"
+    },
+    {
+     "old": "064.0313"
+    },
+    {
+     "old": "064.0314"
+    },
+    {
+     "old": "064.0315"
+    },
+    {
+     "old": "064.0316"
+    },
+    {
+     "old": "064.0317"
+    },
+    {
+     "old": "064.0318"
+    },
+    {
+     "old": "064.0319"
+    },
+    {
+     "old": "064.0320"
+    },
+    {
+     "old": "064.0321"
+    },
+    {
+     "old": "064.0322"
+    }
+   ]
+  },
+  {
+   "file": "1876-07-31.md",
+   "date": "1876-07-31",
+   "heading": "Lundi 31 juillet 1876",
+   "paragraphs": [
+    {
+     "old": "064.0323"
+    },
+    {
+     "old": "064.0324"
+    },
+    {
+     "old": "064.0325"
+    },
+    {
+     "old": "064.0326"
+    },
+    {
+     "old": "064.0327"
+    },
+    {
+     "old": "064.0328"
+    },
+    {
+     "old": "064.0329"
+    },
+    {
+     "old": "064.0330"
+    },
+    {
+     "old": "064.0331"
+    },
+    {
+     "old": "064.0332"
+    },
+    {
+     "old": "064.0333"
+    },
+    {
+     "old": "064.0334"
+    },
+    {
+     "old": "064.0335"
+    },
+    {
+     "old": "064.0336"
+    },
+    {
+     "old": "064.0337",
+     "kind": "rayé"
+    },
+    {
+     "old": "064.0338"
+    },
+    {
+     "old": "064.0339"
+    },
+    {
+     "old": "064.0340"
+    },
+    {
+     "old": "064.0341"
+    },
+    {
+     "old": "064.0342"
+    },
+    {
+     "old": "064.0343"
+    },
+    {
+     "old": "064.0344"
+    },
+    {
+     "old": "064.0345"
+    },
+    {
+     "old": "064.0346"
+    },
+    {
+     "old": "064.0347"
+    },
+    {
+     "old": "064.0348"
+    },
+    {
+     "old": "064.0349"
+    },
+    {
+     "old": "064.0350"
+    },
+    {
+     "old": "064.0351"
+    },
+    {
+     "old": "064.0352"
+    },
+    {
+     "old": "064.0353"
+    },
+    {
+     "old": "064.0354"
+    },
+    {
+     "old": "064.0355"
+    },
+    {
+     "old": "064.0356"
+    },
+    {
+     "old": "064.0357"
+    },
+    {
+     "old": "064.0358"
+    },
+    {
+     "old": "064.0359"
+    },
+    {
+     "old": "064.0360"
+    },
+    {
+     "old": "064.0361"
+    },
+    {
+     "old": "064.0362"
+    },
+    {
+     "old": "064.0363"
+    },
+    {
+     "old": "064.0364"
+    },
+    {
+     "old": "064.0365"
+    },
+    {
+     "old": "064.0366"
+    },
+    {
+     "old": "064.0367"
+    },
+    {
+     "old": "064.0368"
+    },
+    {
+     "old": "064.0370"
+    },
+    {
+     "old": "064.0371"
+    },
+    {
+     "old": "064.0372"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-01.md",
+   "date": "1876-08-01",
+   "heading": "Mardi 1er août 1876",
+   "paragraphs": [
+    {
+     "old": "064.0369"
+    },
+    {
+     "old": "064.0374"
+    },
+    {
+     "old": "064.0375"
+    },
+    {
+     "old": "064.0376"
+    },
+    {
+     "old": "064.0377"
+    },
+    {
+     "old": "064.0378"
+    },
+    {
+     "old": "064.0379"
+    },
+    {
+     "old": "064.0380"
+    },
+    {
+     "old": "064.0381"
+    },
+    {
+     "old": "064.0382"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-02.md",
+   "date": "1876-08-02",
+   "heading": "Mercredi 2 août 1876",
+   "paragraphs": [
+    {
+     "old": "064.0383"
+    },
+    {
+     "old": "064.0384"
+    },
+    {
+     "old": "064.0385"
+    },
+    {
+     "old": "064.0386"
+    },
+    {
+     "old": "064.0387"
+    },
+    {
+     "old": "064.0388"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-03.md",
+   "date": "1876-08-03",
+   "heading": "Jeudi 3 août 1876",
+   "paragraphs": [
+    {
+     "old": "064.0389"
+    },
+    {
+     "old": "064.0390"
+    },
+    {
+     "old": "064.0391"
+    },
+    {
+     "old": "064.0392"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-04.md",
+   "date": "1876-08-04",
+   "heading": "Vendredi 4 août 1876 (23 juillet, style russe)",
+   "paragraphs": [
+    {
+     "old": "064.0393"
+    },
+    {
+     "old": "064.0394"
+    },
+    {
+     "old": "064.0395"
+    },
+    {
+     "old": "064.0396"
+    },
+    {
+     "old": "064.0397"
+    },
+    {
+     "old": "064.0398"
+    },
+    {
+     "old": "064.0399"
+    },
+    {
+     "old": "064.0400"
+    },
+    {
+     "old": "064.0401"
+    },
+    {
+     "old": "064.0402"
+    },
+    {
+     "old": "064.0403"
+    },
+    {
+     "old": "064.0404"
+    },
+    {
+     "old": "064.0405"
+    },
+    {
+     "old": "064.0406"
+    },
+    {
+     "old": "064.0407"
+    },
+    {
+     "old": "064.0408"
+    },
+    {
+     "old": "064.0409"
+    },
+    {
+     "old": "064.0410"
+    },
+    {
+     "old": "064.0411"
+    },
+    {
+     "old": "064.0412"
+    },
+    {
+     "old": "064.0413"
+    },
+    {
+     "old": "064.0414"
+    },
+    {
+     "old": "064.0415"
+    },
+    {
+     "old": "064.0416"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-05.md",
+   "date": "1876-08-05",
+   "heading": "Samedi 5 août 1876 (24 juillet 1876)",
+   "paragraphs": [
+    {
+     "old": "064.0417",
+     "set_french": "# Samedi, 5 août 1876 (24 juillet 1876)",
+     "_rsr": "Heading split: tome08.docx has separate date lines for 5 August (¶4034) and 6 August (¶4043, Mon Journal t.8 p.349); 6 August is now its own entry (2026-09-29 rebuild)."
+    },
+    {
+     "old": "064.0418"
+    },
+    {
+     "old": "064.0419"
+    },
+    {
+     "old": "064.0420"
+    },
+    {
+     "old": "064.0421"
+    },
+    {
+     "old": "064.0422"
+    },
+    {
+     "old": "064.0423"
+    },
+    {
+     "new": {
+      "french": "[annotation]",
+      "rsr": "Restored from tome08.docx ¶4041, Mon Journal t.8 p.349 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "*1879. A l'heure où j'écrivais cela, je n'en comprenais pas la moitié.*",
+      "rsr": "Restored from tome08.docx ¶4042, Mon Journal t.8 p.349 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "margin",
+      "source": "Annotation de Marie, 1879"
+     }
+    }
+   ],
+   "redirect_from": [
+    "1876-08-05-06.md"
+   ]
+  },
+  {
+   "file": "1876-08-06.md",
+   "date": "1876-08-06",
+   "heading": "Dimanche 6 août 1876 (25 juillet)",
+   "paragraphs": [
+    {
+     "old": "064.0425"
+    },
+    {
+     "old": "064.0426"
+    },
+    {
+     "old": "064.0427"
+    },
+    {
+     "old": "064.0428"
+    },
+    {
+     "old": "064.0429"
+    },
+    {
+     "old": "064.0430"
+    },
+    {
+     "old": "064.0431"
+    },
+    {
+     "old": "064.0432"
+    },
+    {
+     "old": "064.0433"
+    },
+    {
+     "old": "064.0434"
+    },
+    {
+     "old": "064.0435"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-07.md",
+   "date": "1876-08-07",
+   "heading": "Lundi 7 août 1876 (26 juillet)",
+   "paragraphs": [
+    {
+     "old": "064.0436"
+    },
+    {
+     "old": "064.0437"
+    },
+    {
+     "old": "064.0438"
+    },
+    {
+     "old": "064.0439"
+    },
+    {
+     "old": "064.0440"
+    },
+    {
+     "old": "064.0441"
+    },
+    {
+     "old": "064.0442"
+    },
+    {
+     "old": "064.0443"
+    },
+    {
+     "old": "064.0444"
+    },
+    {
+     "old": "064.0445"
+    },
+    {
+     "old": "064.0446"
+    },
+    {
+     "old": "064.0447"
+    },
+    {
+     "old": "064.0448"
+    },
+    {
+     "old": "064.0449"
+    },
+    {
+     "old": "064.0450"
+    },
+    {
+     "old": "064.0451"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-08.md",
+   "date": "1876-08-08",
+   "heading": "Mardi 8 août 1876 (27 juillet)",
+   "paragraphs": [
+    {
+     "old": "064.0452",
+     "set_french": "# Mardi, 8 août 1876 (27 juillet)",
+     "_rsr": "Heading split: tome08.docx has separate date lines for 8 August (¶4072) and 9 August (¶4084, Mon Journal t.8 p.354); 9 August is now its own entry (2026-09-29 rebuild)."
+    },
+    {
+     "old": "064.0453"
+    },
+    {
+     "old": "064.0454"
+    },
+    {
+     "old": "064.0455"
+    },
+    {
+     "old": "064.0456",
+     "kind": "editorial"
+    },
+    {
+     "old": "064.0457"
+    },
+    {
+     "old": "064.0458"
+    },
+    {
+     "old": "064.0459"
+    },
+    {
+     "old": "064.0460"
+    },
+    {
+     "old": "064.0461"
+    },
+    {
+     "old": "064.0462"
+    },
+    {
+     "old": "064.0463"
+    }
+   ],
+   "redirect_from": [
+    "1876-08-08-09.md"
+   ]
+  },
+  {
+   "file": "1876-08-09.md",
+   "date": "1876-08-09",
+   "heading": "Mercredi 9 août 1876 (28 juillet)",
+   "paragraphs": [
+    {
+     "old": "064.0464",
+     "set_french": "# Mercredi, 9 août 1876 (28 juillet)",
+     "_rsr": "Date line as printed in Mon Journal t.8 p.354 (tome08.docx ¶4084), without the brackets of the old extraction; it now opens the 9 August entry (2026-09-29 rebuild)."
+    },
+    {
+     "old": "064.0465"
+    },
+    {
+     "old": "064.0466"
+    },
+    {
+     "old": "064.0467"
+    },
+    {
+     "old": "064.0468"
+    },
+    {
+     "old": "064.0469"
+    },
+    {
+     "old": "064.0470"
+    },
+    {
+     "old": "064.0471",
+     "kind": "rayé"
+    },
+    {
+     "old": "064.0472"
+    },
+    {
+     "old": "064.0473"
+    },
+    {
+     "old": "064.0474"
+    },
+    {
+     "old": "064.0475"
+    },
+    {
+     "old": "064.0476"
+    },
+    {
+     "old": "064.0477"
+    },
+    {
+     "old": "064.0478"
+    },
+    {
+     "old": "064.0479"
+    },
+    {
+     "old": "064.0480"
+    },
+    {
+     "old": "064.0481"
+    },
+    {
+     "old": "064.0482"
+    },
+    {
+     "old": "064.0483"
+    },
+    {
+     "old": "064.0484"
+    },
+    {
+     "old": "064.0485"
+    },
+    {
+     "old": "064.0486"
+    },
+    {
+     "old": "064.0487"
+    },
+    {
+     "old": "064.0488"
+    },
+    {
+     "old": "064.0489"
+    },
+    {
+     "old": "064.0490"
+    },
+    {
+     "old": "064.0491"
+    },
+    {
+     "old": "064.0492"
+    },
+    {
+     "old": "064.0493"
+    },
+    {
+     "old": "064.0494"
+    },
+    {
+     "old": "064.0495"
+    },
+    {
+     "old": "064.0496"
+    },
+    {
+     "old": "064.0497"
+    },
+    {
+     "old": "064.0498"
+    },
+    {
+     "old": "064.0499"
+    },
+    {
+     "old": "064.0500"
+    },
+    {
+     "old": "064.0501"
+    },
+    {
+     "old": "064.0502"
+    },
+    {
+     "old": "064.0503"
+    },
+    {
+     "old": "064.0504"
+    },
+    {
+     "old": "064.0505"
+    },
+    {
+     "old": "064.0506"
+    },
+    {
+     "old": "064.0507"
+    },
+    {
+     "old": "064.0508"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-10.md",
+   "date": "1876-08-10",
+   "heading": "Jeudi 10 août 1876 (29 juillet)",
+   "paragraphs": [
+    {
+     "old": "064.0509"
+    },
+    {
+     "old": "064.0510"
+    },
+    {
+     "old": "064.0511"
+    },
+    {
+     "old": "064.0512"
+    },
+    {
+     "old": "064.0513"
+    },
+    {
+     "old": "064.0514"
+    },
+    {
+     "old": "064.0515"
+    },
+    {
+     "old": "064.0516"
+    },
+    {
+     "old": "064.0517"
+    },
+    {
+     "old": "064.0518"
+    },
+    {
+     "old": "064.0519"
+    },
+    {
+     "old": "064.0520"
+    },
+    {
+     "old": "064.0521"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-11.md",
+   "date": "1876-08-11",
+   "heading": "Vendredi 11 août 1876 (30 juillet)",
+   "paragraphs": [
+    {
+     "old": "064.0522",
+     "set_french": "# Vendredi, 11 août 1876 (30 juillet)\n[Aucun texte - date seule mentionnée]",
+     "_rsr": "Heading split: tome08.docx has separate date lines for 11 August (¶4143) and 12 August (¶4144), Mon Journal t.8 p.361, with no text under 11 August; 12 August is now its own entry (2026-09-29 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1876-08-12.md",
+   "date": "1876-08-12",
+   "heading": "Samedi 12 août 1876 (31 juillet 1876)",
+   "paragraphs": [
+    {
+     "old": "064.0523"
+    },
+    {
+     "old": "064.0524"
+    },
+    {
+     "old": "064.0525"
+    },
+    {
+     "old": "064.0526"
+    },
+    {
+     "old": "064.0527"
+    },
+    {
+     "old": "064.0528"
+    },
+    {
+     "old": "064.0529"
+    },
+    {
+     "old": "064.0530"
+    },
+    {
+     "old": "064.0531"
+    },
+    {
+     "old": "064.0532"
+    },
+    {
+     "old": "064.0533"
+    },
+    {
+     "old": "064.0534"
+    },
+    {
+     "old": "064.0535"
+    },
+    {
+     "old": "064.0536"
+    },
+    {
+     "old": "064.0537"
+    },
+    {
+     "old": "064.0538"
+    },
+    {
+     "old": "064.0539"
+    },
+    {
+     "old": "064.0540"
+    },
+    {
+     "old": "064.0541"
+    },
+    {
+     "old": "064.0542",
+     "kind": "editorial"
+    },
+    {
+     "old": "064.0543"
+    },
+    {
+     "old": "064.0544"
+    },
+    {
+     "old": "064.0545"
+    },
+    {
+     "old": "064.0546"
+    },
+    {
+     "old": "064.0547"
+    },
+    {
+     "old": "064.0548"
+    },
+    {
+     "old": "064.0549"
+    },
+    {
+     "old": "064.0550"
+    },
+    {
+     "old": "064.0551"
+    },
+    {
+     "old": "064.0552"
+    },
+    {
+     "old": "064.0553"
+    },
+    {
+     "old": "064.0554"
+    }
+   ],
+   "redirect_from": [
+    "1876-08-11-12.md"
+   ]
+  },
+  {
+   "file": "1876-08-13.md",
+   "date": "1876-08-13",
+   "heading": "Dimanche 13 août (1er août 1876)",
+   "paragraphs": [
+    {
+     "old": "064.0555"
+    },
+    {
+     "old": "064.0556"
+    },
+    {
+     "old": "064.0557"
+    },
+    {
+     "old": "064.0558"
+    },
+    {
+     "old": "064.0559"
+    }
+   ]
+  },
+  {
+   "file": "1876-08-14.md",
+   "date": "1876-08-14",
+   "heading": "Lundi 14 août (2 août 1876)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "Hier à une heure nous avons quitté Moscou pleine de mouvement et pavoisée de drapeaux à l'occasion de l'arrivée des rois de Grèce et de Danemark.",
+      "rsr": "Restored from tome08.docx ¶4184, Mon Journal t.8 p.369 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pendant tout le voyage Étienne m'agaçait positivement. Imaginez la rêverie grand-ducale et la lecture d'une étude sur Cléopâtre et Marc-Antoine, interrompues à chaque instant par des phrases comme celles-ci :",
+      "rsr": "Restored from tome08.docx ¶4185, Mon Journal t.8 p.369 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Veux-tu manger ? Tu as peut-être froid ? Voici du poulet rôti et des concombres. Peut-être une poire ? Faut-il fermer la fenêtre ? Que vas-tu manger en arrivant ? J'ai télégraphié pour qu'on te prépare un bain, ma reine, j'en ai fait venir un en marbre, et toute la maison a été arrangée pour recevoir Sa Majesté.",
+      "rsr": "Restored from tome08.docx ¶4186, Mon Journal t.8 p.369 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «—» as printed."
+     }
+    },
+    {
+     "new": {
+      "french": "Incontestablement bon, mais irrécusablement ennuyeux.",
+      "rsr": "Restored from tome08.docx ¶4187, Mon Journal t.8 p.369 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Des messieurs fort bien font la cour à Amalia comme à une dame, Chocolat m'étonne par son esprit émancipé et par sa nature de chat, ingrate et rusée.",
+      "rsr": "Restored from tome08.docx ¶4188, Mon Journal t.8 p.369 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A la station Grousskoë nous sommes reçus par deux voitures, six domestiques-paysans et mon fichu frère. Géant de taille et de grosseur, mais beau comme une statue romaine avec des pieds comparativement petits. Une heure et demie de voiture jusqu'à Chpatowoka, pendant laquelle j'entrevois une quantité de rivalités et de pointes d'épingles entre mon père et les Babanine, je tiens la tête haute, je tiens en échec mon frère qui d'ailleurs est tout enchanté de me voir.",
+      "rsr": "Restored from tome08.docx ¶4189, Mon Journal t.8 p.369 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je ne veux me mettre d'aucun parti. J'ai besoin de mon père.",
+      "rsr": "Restored from tome08.docx ¶4190, Mon Journal t.8 p.369 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Gritzko (nom petit-russien et villageois de Georges) est resté deux semaines à t'attendre, me dit Paul, on croyait que tu ferais comme l'année dernière.",
+      "rsr": "Restored from tome08.docx ¶4191, Mon Journal t.8 pp.369–370 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «—» as printed."
+     }
+    },
+    {
+     "new": {
+      "french": "— Et il est parti ?",
+      "rsr": "Restored from tome08.docx ¶4192, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Non, je l'ai laissé à Poltava ; il désire beaucoup te voir, « Tu comprends, me dit-il, je l'ai connue petite comme ça ! »",
+      "rsr": "Restored from tome08.docx ¶4193, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Alors il se croit un homme et il me croit une petite fille ?",
+      "rsr": "Restored from tome08.docx ¶4194, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «—» as printed."
+     }
+    },
+    {
+     "new": {
+      "french": "— Oui.",
+      "rsr": "Restored from tome08.docx ¶4195, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «—» as printed."
+     }
+    },
+    {
+     "new": {
+      "french": "— C'est comme moi, comment est-il ?",
+      "rsr": "Restored from tome08.docx ¶4196, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «—» as printed."
+     }
+    },
+    {
+     "new": {
+      "french": "— Il parle français toujours, il va dans le grand monde à Pétersbourg.",
+      "rsr": "Restored from tome08.docx ¶4197, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— On le dit avare ?",
+      "rsr": "Restored from tome08.docx ¶4198, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Il n'est que raisonnable et comme il faut. Un grand seigneur. Nous voulions, lui et moi, te recevoir avec un orchestre à Poltava mais papa a dit que cela n'était dû qu'à des reines.",
+      "rsr": "Restored from tome08.docx ¶4199, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Papa a dit comme une bête, je le lui dirai.",
+      "rsr": "Restored from tome08.docx ¶4200, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je remarque que mon père craint de paraître fanfaron et vaniteux. Je le rassurerai bien vite, j'adore toutes *ces bêtises* qu'il idolâtre.",
+      "rsr": "Restored from tome08.docx ¶4201, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Dix-huit verstes de champs labourés et enfin le village formé de huttes basses et pauvres. Tous les paysans se découvrent d'avance en apercevant la voiture. Ces bonnes figures patientes et respectueuses m'attendrissent, je leur souris et, tout étonnés, ils répondent par des sourires à mes petits saluts amicaux.",
+      "rsr": "Restored from tome08.docx ¶4202, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La maison est d'un seul étage, petite, un grand jardin assez sauvage. Les paysannes sont remarquablement bien faites, belles et piquantes dans leur costume qui dessine toutes les formes et laisse voir des jambes nues jusqu'au genou.",
+      "rsr": "Restored from tome08.docx ¶4203, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Marie, ma tante, nous reçoit sur le perron. Je me baigne, nous dînons. Plusieurs escarmouches avec Paul. Il tâche de me piquer, sans le vouloir peut-être, n'obéissant qu'à l'impulsion donnée par son père. Je le remets superbement en place, et c'est lui qui est humilié là où il désirait m'humilier. Je les vois à travers. Incrédulité quant à mes succès, pointes d'épingles à notre position dans le monde. On ne m'appelle que « Reine », mon père veut me détrôner, je le ferai plier, je le connais car lui c'est moi dans beaucoup de choses.",
+      "rsr": "Restored from tome08.docx ¶4204, Mon Journal t.8 p.370 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[ANNOTATION]",
+      "rsr": "Restored from tome08.docx ¶4205, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "editorial"
+     }
+    },
+    {
+     "new": {
+      "french": "*On n'a seulement pas la bonté d'être poli avec ces pauvres martyrs.*",
+      "rsr": "Restored from tome08.docx ¶4206, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild).",
+      "kind": "margin",
+      "source": "Annotation de Marie"
+     }
+    },
+    {
+     "new": {
+      "french": "Étienne me donne un livre écrit par une de mes institutrices, ce livre est une préface nécessaire à mon journal. Je prie la postérité de le traduire et de le publier au commencement de cet ouvrage. Un extrait seulement dans lequel il s'agit de nous.",
+      "rsr": "Restored from tome08.docx ¶4207, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si je devais vivre ici, j'étoufferais. Le climat de « l'Italie russe » m'a rendu ma voix. Je fis semblant de tomber à la renverse en entendant dire qu'on ne faisait rien pour les Serbes à Poltava.",
+      "rsr": "Restored from tome08.docx ¶4208, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Donne un concert, dit Paul.",
+      "rsr": "Restored from tome08.docx ¶4209, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Avec bonheur, répondis-je.",
+      "rsr": "Restored from tome08.docx ¶4210, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C'est mon projet depuis Moscou.",
+      "rsr": "Restored from tome08.docx ¶4211, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je crois rêver : moi, l'oiseau [ligne rayée, on peut lire : chants italiens], transportée dans le pays où l'oranger ne fleurit pas ? O mon Midi ! Mes larges feuilles grasses, mes fleurs, mon ciel, mon air pur et parfumé !",
+      "rsr": "Restored from tome08.docx ¶4212, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mes domestiques sont logés dans un pavillon.",
+      "rsr": "Restored from tome08.docx ¶4213, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tous les voisins attendent avec impatience, dit-on, mon arrivée.",
+      "rsr": "Restored from tome08.docx ¶4214, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Étienne est très respecté.",
+      "rsr": "Restored from tome08.docx ¶4215, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "On est curieux de voir « le petit arabe », l'Italienne et la nièce. Mon arrivée est connue et attendue. « Une nièce de l'étranger. » Je me hâte, je ne sais pourquoi.",
+      "rsr": "Restored from tome08.docx ¶4216, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La chambre est transformée, les divers objets qui ne me quittent jamais me font un chez moi.",
+      "rsr": "Restored from tome08.docx ¶4217, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Selon mon habitude je vais lire un chapitre de la Bible en italien et puis dormir.",
+      "rsr": "Restored from tome08.docx ¶4218, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'adore Dieu et j'ai envie de pleurer.",
+      "rsr": "Restored from tome08.docx ¶4219, Mon Journal t.8 p.371 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1876-08-15.md",
+   "date": "1876-08-15",
+   "heading": "Mardi 15 août (3 août 1876)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "La maison est gaie et claire comme une lanterne. Les fleurs embaument, les perroquets parlent, les canaris chantent, les domestiques courent. Vers onze heures un bruit de clochettes nous annonça mon voisin. C'était M. Hamsley, ne dirait-on pas un Anglais ? Eh bien pas du tout, une ancienne et noble famille de la Petite-Russie. Sa femme est une des Prodgers d'ici. Mon bagage n'étant pas arrivé (nous sommes descendus une station plus tôt qu'il fallait), je me suis montrée en robe de chambre blanche ; quelle immense différence moi à présent et moi il y a un an ! Il y a un an j'osais à peine parler, « je ne savais que dire » comme Marguerite. A présent je suis *grande.* Ce monsieur a déjeuné avec nous : que veut-on que je dise de lui et de ceux que je verrai ? Excellentes gens mais puant la province d'une lieue.",
+      "rsr": "Restored from tome08.docx ¶4221, Mon Journal t.8 pp.371–372 (missing from original extraction, 2026-09-29 rebuild). OCR «1 II» corrected to «! Il» from the scan (p.372)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vers le dîner, qui suit de très près le déjeuner, une autre visite, le frère du susdit ; jeune homme, a beaucoup voyagé, malgré cela très serviable. L'arrivée soudaine de mes huit malles nous procura deux romances chantées par moi et du piano. Enfin je m'occupai de ma broderie en entrant jusqu'aux oreilles dans une conversation sur la politique en France, montrant des connaissances au-dessus de mon... sexe.",
+      "rsr": "Restored from tome08.docx ¶4222, Mon Journal t.8 p.372 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce second Hamsley si barbu, resta jusqu'à dix heures.",
+      "rsr": "Restored from tome08.docx ¶4223, Mon Journal t.8 p.372 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai fatigué jusqu'à onze heures ma pauvre voix à peine remise du rude climat de Saint-Pétersbourg.",
+      "rsr": "Restored from tome08.docx ¶4224, Mon Journal t.8 p.372 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Dans la bienheureuse Chpatowska on ne fait que manger, on mange, puis on se promène pendant une demi-heure, puis on mange encore et comme cela toute la journée.",
+      "rsr": "Restored from tome08.docx ¶4225, Mon Journal t.8 p.372 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je marchais doucement appuyée au bras de Paul, avec mes pensées errantes au diable, lorsqu'en passant sous des branches qui descendaient très bas au-dessus de nos têtes et formaient un plafond de feuilles entrelacées, je me figurai ce que dirait Antonelli si j'étais à son bras, en passant par cette allée. Il me dirait... que c'est raide quand on écrit les fantaisies !... Il me dirait, en se penchant légèrement vers moi, il me dirait de cette voix langoureuse et pénétrante dont il ne parlait qu'à moi..., il me dirait... « Comme on est bien ici et comme je vous aime. »",
+      "rsr": "Restored from tome08.docx ¶4226, Mon Journal t.8 p.372 (missing from original extraction, 2026-09-29 rebuild). OCR «lorsqu'on» corrected to «lorsqu'en» from the scan (p.372)."
+     }
+    },
+    {
+     "new": {
+      "french": "Rien ne peut donner une idée de la tendresse de sa voix quand il me parlait, quand il disait des choses qui étaient pour moi seule. Ces manières de chat-tigre, ces yeux qui vous brûlaient et cette voix enchanteresse, voilée et vibrante, qui murmurait des paroles amoureuses et qui semblait se plaindre ou supplier... avec tant d'humilité, tant de tendresse, tant de passion... Je ne me rendais pas bien compte du genre de sa puissance sur moi, à présent je sais ; c'étaient les yeux et la voix. Pas celle dont il parlait à tous, mais la mienne.",
+      "rsr": "Restored from tome08.docx ¶4227–4228, Mon Journal t.8 pp.372–373 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais c'était une tendresse vide, celle de tout le monde et, si il semblait pénétré, c'était que c'était sa manière d'être, car souvent il y a des gens qui paraissent toujours pressés, d'autres étonnés, d'autres chagrins, sans qu'ils le soient en réalité.",
+      "rsr": "Restored from tome08.docx ¶4229, Mon Journal t.8 p.373 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! que je voudrais savoir la vérité dans tout cela. Je voudrais revenir à Rome, mariée, autrement ce serait une humiliation. Mais je ne veux pas me marier, je veux encore être libre et surtout étudier, j'ai ma voix...",
+      "rsr": "Restored from tome08.docx ¶4230, Mon Journal t.8 p.373 (missing from original extraction, 2026-09-29 rebuild). OCR «Ah 1» corrected to «Ah !» from the scan (p.373)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et franchement, se marier pour piquer Antonelli... serait bête.",
+      "rsr": "Restored from tome08.docx ¶4231, Mon Journal t.8 p.373 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce n'est pas cela... mais je veux vivre comme tout le monde ! Oh ! recommencer la même vie ! Non, il vaut mieux que je meure.",
+      "rsr": "Restored from tome08.docx ¶4232, Mon Journal t.8 p.373 (missing from original extraction, 2026-09-29 rebuild). OCR «jè» corrected to «je» from the scan (p.373)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis mécontente de moi ce soir, et je ne sais pourquoi en particulier.",
+      "rsr": "Restored from tome08.docx ¶4233, Mon Journal t.8 p.373 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alors, j'aime Antonelli ? Quelle idée, j'aime bien mieux le grand-duc. Ah c'est bien, mon enfant, d'un duc tu es montée à un grand-duc. C'est consolant et cela flatte..., je ne sais plus ce que ça flatte. Mais c'est mieux que descendre puisqu'il faut absolument que je m'affole pour quelqu'un.",
+      "rsr": "Restored from tome08.docx ¶4234, Mon Journal t.8 p.373 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce pauvre grand-duc, entraîné par cette furie, calomnié et sali à jamais. A tout ce qu'on dit en sa faveur, on sourit avec mépris et *condescendance.* « Nous savons à quoi nous en tenir. »",
+      "rsr": "Restored from tome08.docx ¶4235, Mon Journal t.8 p.373 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-08-14.md",
+   "redirect_from": [
+    "1876-08-15-16.md"
+   ]
+  },
+  {
+   "file": "1876-08-16.md",
+   "date": "1876-08-16",
+   "heading": "Mercredi 16 août (4 août 1876)",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[huit lignes cancellées] Une foule de voisins et voisines, la crème de ces nobles lieux. Une dame qui a été à Rome, aime l'Antiquité et possède une fille qui ne parle pas. D'une manière subite ainsi qu'inattendue, il nous arriva trois anges. Le juge d'instruction, le notaire et le secrétaire. Mon oncle, qui est juge de paix depuis sept ans, a toujours affaire avec ces fonctionnaires.",
+      "rsr": "Restored from tome08.docx ¶4237, Mon Journal t.8 p.373 (missing from original extraction, 2026-09-29 rebuild). Line-break hyphen «An- tiquité» removed."
+     }
+    },
+    {
+     "new": {
+      "french": "Dans deux ans il sera conseiller d'État et grille d'être décoré. Je me suis mise en soie bleue, souliers-bonbonnières.",
+      "rsr": "Restored from tome08.docx ¶4238, Mon Journal t.8 p.374 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les beaux messieurs ne m'ont pas mise en colère comme les gens poussiéreux, ils m'ont seulement fait rire de grand cœur. D'ailleurs ils n'ont pas osé s'approcher, nous nous sommes admirés à distance.",
+      "rsr": "Restored from tome08.docx ¶4239, Mon Journal t.8 p.374 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Hamsley est le seul qui soit un peu bien... comparativement.",
+      "rsr": "Restored from tome08.docx ¶4240, Mon Journal t.8 p.374 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La sœur d'Yssayevitch, mariée à une brute à argent, est une bien gentille personne ; elle se nomme Dina.",
+      "rsr": "Restored from tome08.docx ¶4241, Mon Journal t.8 p.374 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La sœur de Domenica me la rappelle beaucoup, le même défaut de langue, c'est-à-dire une prononciation vicieuse de nature, le même teint cuivré et les cheveux grisonnants, mais forte et robuste pour ses soixante-cinq ans.",
+      "rsr": "Restored from tome08.docx ¶4242, Mon Journal t.8 p.374 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Maman m'écrit de Schlangenbad, je commençais déjà à être inquiète mais elle me rassure et me donne même des bonnes nouvelles. Il paraît que Lôbbecke est tout à fait assidu auprès de Dina. Alors c'est elle et pas moi, nos doutes sont dissipés et je suis très heureuse. Je voudrais tant cette union. Lôbbecke est riche, de bonne maison, beau garçon si l'on veut, excellent cœur, assez d'esprit, un brave garçon en un mot, d'un côté ; d'un autre, Dina ferait une femme douce et aimante. Elle a si besoin de changer de vie. Ce serait une paire si heureuse ! Vous savez Dina n'est pas mal, en grande toilette elle fait même de l'effet, et beaucoup.",
+      "rsr": "Restored from tome08.docx ¶4243, Mon Journal t.8 p.374 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon père demande par télégraphe quand j'arriverai. Il n'a pas voulu venir à Pétersbourg, aussi voici les quelques mots que je lui écris :",
+      "rsr": "Restored from tome08.docx ¶4244, Mon Journal t.8 p.374 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "« Je retiens Paul jusqu'à samedi ici, ces quelques jours me sont nécessaires tant pour me reposer que pour remercier mon oncle qui a eu la bonté de me reconduire depuis la frontière, laissant tous les travaux de ses champs, en plein été, pour m'être agréable et risquant ainsi de produire de grands désordres dans son ménage. Dimanche nous serons à Poltava. »",
+      "rsr": "Restored from tome08.docx ¶4245, Mon Journal t.8 p.374 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La dame qui a vu Rome et sa fille, avec laquelle j'ai en vain essayé de lier conversation, partirent de bonne heure et, étant restée en famille, j'essayai de chanter avec accompagnement de piano par Dina, Dina d'ici. Mais ma voix a été tout aussi rétive que la fille de la dame qui a vu Rome.",
+      "rsr": "Restored from tome08.docx ¶4246, Mon Journal t.8 pp.374–375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Donc me voilà chagrinée et malheureuse.",
+      "rsr": "Restored from tome08.docx ¶4247, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je me couchai toute habillée et Paul vint me raconter les choses les plus bizarres sur le genre de cour qu'on fait à Marie Zankowski. Il paraît qu'étant tombé à genoux devant la belle il commença par improviser une déclaration qui sentait de dix lieues son Xavier de Montépin traduit en russe.",
+      "rsr": "Restored from tome08.docx ¶4248, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild). Line-break hyphen «Zan- kowski» removed."
+     }
+    },
+    {
+     "new": {
+      "french": "— Je ne me souviens même plus de ce que j'ai dit, mais c'était très bien tourné, j'étais comme inspiré, car j'étais amoureux comme un fou.",
+      "rsr": "Restored from tome08.docx ¶4249, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild). Dialogue dash «—» as printed."
+     }
+    },
+    {
+     "new": {
+      "french": "— Et alors tu l'embrassas sur la figure ? demandai-je sous le poids de mes salissants souvenirs.",
+      "rsr": "Restored from tome08.docx ¶4250, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Peuh ! et même les genoux nus.",
+      "rsr": "Restored from tome08.docx ¶4251, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Comment ?",
+      "rsr": "Restored from tome08.docx ¶4252, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Nus.",
+      "rsr": "Restored from tome08.docx ¶4253, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Quoi ?",
+      "rsr": "Restored from tome08.docx ¶4254, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Nus.",
+      "rsr": "Restored from tome08.docx ¶4255, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Mon fils ! et comment ?",
+      "rsr": "Restored from tome08.docx ¶4256, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— J'ai relevé sa jupe et j'ai baisé son genou entre le bas et le pantalon.",
+      "rsr": "Restored from tome08.docx ¶4257, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Et elle ?",
+      "rsr": "Restored from tome08.docx ¶4258, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Comme si c'était une autre.",
+      "rsr": "Restored from tome08.docx ¶4259, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Et la jupe ?",
+      "rsr": "Restored from tome08.docx ¶4260, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Est restée relevée.",
+      "rsr": "Restored from tome08.docx ¶4261, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Qu'a-t-elle dit ?",
+      "rsr": "Restored from tome08.docx ¶4262, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Rien, je suis resté à admirer son genou. D'ailleurs Yakowleff m'a raconté la même chose et quand j'ai dit cela à Grichko, il me dit qu'il faisait la même chose chaque fois qu'il la reconduisait du Jardin de la Ville.",
+      "rsr": "Restored from tome08.docx ¶4263, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild). Line-break hyphen «Yakow- leff» removed."
+     }
+    },
+    {
+     "new": {
+      "french": "— Lui aussi !",
+      "rsr": "Restored from tome08.docx ¶4264, Mon Journal t.8 p.375 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Lui aussi et il a même, concernant les femmes, une méthode très pratique. « Tu comprends me dit-il, pour m'assurer des dispositions d'une femme voilà comment je fais. En me mettant en voiture avec elle je pose ma main sur le coussin qu'elle doit occuper, si elle s'asseye [sic] dessus et ne dit rien c'est parfait, si elle fait un mouvement je retire la main et je m'excuse bien sincèrement.",
+      "rsr": "Restored from tome08.docx ¶4265, Mon Journal t.8 pp.375–376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "— C'est parfait ! Mais dis, le genou était beau.",
+      "rsr": "Restored from tome08.docx ¶4266, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild). OCR «parfait 1» corrected to «parfait !» from the scan (p.376)."
+     }
+    },
+    {
+     "new": {
+      "french": "— Je ne sais pas, il faisait sombre.",
+      "rsr": "Restored from tome08.docx ¶4267, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Restée seule j'ouvris mon cahier et je vis attachée à une page la lettre d'Antonelli.",
+      "rsr": "Restored from tome08.docx ¶4268, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je la lus et relus vingt fois, puis je me la répétai par cœur en appuyant sur « Ti amo » et me demandai ce qu'il a pu penser en écrivant ces mots.",
+      "rsr": "Restored from tome08.docx ¶4269, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "De grâce ne me pensez pas dans le rôle éternel des femmes trompées, il n'y a rien de plus ridicule. Il m'a aimée, c'est sûr, mais misérablement, d'ailleurs chacun d'après son caractère. Et finissons-en. C'est un fils obéissant comme presque tous les Romains, bon, il paraît que nous allons recommencer... non, c'est simplement pour qu'on ne pense pas que je me plains ou pleure « un infidèle ».",
+      "rsr": "Restored from tome08.docx ¶4270, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il serait stupide de m'écrier : - « Ah ! il m'a trompée, il ne m'aimait pas. » Certainement il m'aimait mais pas assez..., pas assez. Et le jour qu'il aimera assez pour se ficher de son père, si vous voulez voir une personne très humiliée vous n'aurez qu'à me regarder.",
+      "rsr": "Restored from tome08.docx ¶4271, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Peu m'importent les causes de son *impolitesse,* d'autant plus que je ne puis m'assurer si ces causes sont les vraies, je sais seulement, et vous savez aussi, que j'ai le droit d'être horriblement blessée et en colère ; je le suis tout plein.",
+      "rsr": "Restored from tome08.docx ¶4272, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quel *miser* ! « Des moments fatals ! Je ne puis me vaincre, je suis obligée de vous dire : je vous aime et j'ai besoin de la consolation d'une parole de vous. »",
+      "rsr": "Restored from tome08.docx ¶4273, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Au lieu du mépris que je voulais provoquer, je n'ai éprouvé que de l'attendrissement et de l'amour en écrivant ces lignes, de telle sorte que je dus rester quelques minutes dans un fauteuil pour me calmer et pour me souvenir.",
+      "rsr": "Restored from tome08.docx ¶4274, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alors je l'aime ? Qui sait ? Pas moi.",
+      "rsr": "Restored from tome08.docx ¶4275, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En vérité j'ai le cœur sensible. Mon cœur déborde... sur quoi ? sur des Pierres.",
+      "rsr": "Restored from tome08.docx ¶4276, Mon Journal t.8 p.376 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais puisqu'il est toujours rempli par des sources inconnues, laissons-le déborder.",
+      "rsr": "Restored from tome08.docx ¶4277, Mon Journal t.8 p.377 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Brute !",
+      "rsr": "Restored from tome08.docx ¶4278, Mon Journal t.8 p.377 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Alecto.",
+      "rsr": "Restored from tome08.docx ¶4279, Mon Journal t.8 p.377 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Castruccio.",
+      "rsr": "Restored from tome08.docx ¶4280, Mon Journal t.8 p.377 (missing from original extraction, 2026-09-29 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[HUIT LIGNES CANCELLÉES]",
+      "rsr": "Restored from tome08.docx ¶4281, Mon Journal t.8 p.377 (missing from original extraction, 2026-09-29 rebuild). Stray «,» (a speck on the scan) removed.",
+      "kind": "rayé"
+     }
+    },
+    {
+     "new": {
+      "french": "corresp. serbe. interventions humaines. l'âme en Serbie.",
+      "rsr": "Restored from tome08.docx ¶4282, Mon Journal t.8 p.377 (missing from original extraction, 2026-09-29 rebuild). Punctuation as printed (full stops); Marie's notes on the last page, not a clipping."
+     }
+    },
+    {
+     "new": {
+      "french": "Je dois publier cet ouvrage ! Sur l'amour, sur Dieu, la monarchie ou sur l'âme... de Girofla.",
+      "rsr": "Restored from tome08.docx ¶4283, Mon Journal t.8 p.377 (missing from original extraction, 2026-09-29 rebuild). The edition's footnote asterisk after «Girofla» removed."
+     }
+    }
+   ],
+   "frontmatter_from": "1876-08-14.md"
+  }
+ ],
+ "drop_files": [
+  {
+   "file": "1876-08-14.md",
+   "reason": "empty stub (no paragraph IDs); the day is rebuilt from tome08.docx as a new entry of the same name (2026-09-29 rebuild)"
+  },
+  {
+   "file": "1876-08-15-16.md",
+   "reason": "empty stub (no paragraph IDs) for a range; the days are rebuilt from tome08.docx, the URL redirects to 1876-08-15.md (2026-09-29 rebuild)"
+  }
+ ]
+}

@@ -125,7 +125,7 @@ Princess Galitzine is referenced approximately 123 times across the diary, makin
 - 031.0102-0102 (Apr 6, 1875): "J'ai un désir insensé de voir la princesse Galitzine" -- deepest nostalgia
 - 050.0825 (Dec 16, 1875): "la petite blonde Nathalie Galitzine" -- death in Russia
 - 055.1011 (Mar 22, 1876): "ma chère princesse que j'avais surnommée si bêtement Bête"
-- 064.0443 (Aug 7, 1876): Reunion near St. Petersburg -- "j'allai chercher la princesse Galitzine"
+- 064.0446 (Aug 7, 1876): Reunion near St. Petersburg -- "j'allai chercher la princesse Galitzine"
 
 %% GLO_BETE.0021 %%
 ## Erroneous Identifications

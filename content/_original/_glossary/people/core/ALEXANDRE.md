@@ -211,7 +211,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 
 ### 1876
 - **059.0653** (May 1): "only God to defend us and sometimes Uncle Alexandre"
-- **064.0502** (August 8-9): Alexandre sends money to Marie in St. Petersburg
+- **064.0505** (August 8-9): Alexandre sends money to Marie in St. Petersburg
 - **067.0939-0041** (November 11): Alexandre in Russia; identifies himself as "Babanine" on a train; amusing anecdotes with Nadine and servants
 
 ### 1877

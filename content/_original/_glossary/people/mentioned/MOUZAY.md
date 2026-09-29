@@ -30,7 +30,7 @@ last_updated: 2026-05-25
 
 Madame F. de Mouzay (first initial from signed letter, carnet 082, 1878-10-04). French countess ("comtesse de Mouzay") residing in Nice and later Paris. Formerly a "lingere dans la maison de l'Empereur" (linen-maid in the household of Napoleon III), a detail Marie reveals in passing (086.0476, 1879-11-05). This imperial household connection explains both her aristocratic title and her extensive social network spanning Bonapartist political circles, artists, and the Faubourg Saint-Germain -- as well as the social ambiguity that Marie intermittently mocks.
 
-She had at least one daughter (frequently mentioned as "sa fille" or "Mlle de Mouzay"), a nephew who was a medical student, and a mother who also appears at social gatherings. She was also a published writer of feuilletons (serial fiction), though Marie describes this as modest: she "se frotte un peu a tous les mondes et qui a eu un certain succès comme ecrivain de feuilletons" (064.0056, 1876-07-22).
+She had at least one daughter (frequently mentioned as "sa fille" or "Mlle de Mouzay"), a nephew who was a medical student, and a mother who also appears at social gatherings. She was also a published writer of feuilletons (serial fiction), though Marie describes this as modest: she "se frotte un peu a tous les mondes et qui a eu un certain succès comme ecrivain de feuilletons" (064.0050, 1876-07-22).
 
 ## Relationship to the Bashkirtseff Family
 
@@ -43,7 +43,7 @@ Mouzay calls Marie "Mousse" and "Moussia" (the Russian diminutive), and Marie in
 ## Addresses
 
 - **Nice**: Near the Bashkirtseffs, exact address unknown; has "fenetres" (windows) overlooking a public area where Marie watches for Hamilton (018, 1874-04-19)
-- **Paris (summer 1876)**: 29 Boulevard Haussmann, lodging with Baronne de Mertens (064.0040, 1876-07-26)
+- **Paris (summer 1876)**: 29 Boulevard Haussmann, lodging with Baronne de Mertens (064.0034, 1876-07-26)
 - **Paris (from late 1876)**: 420 rue Saint-Honore, 4th floor (067, 1876-11-26)
 
 ## Key Roles in the Diary
@@ -54,13 +54,13 @@ From the earliest entries, Mouzay is part of the Bashkirtseff social circle in N
 Despite this social condescension, Marie lists Mouzay among the precious few who remained loyal during the family's periods of social exclusion: "de Mouzay, de Daillens, de Ballote et ses filles, Barnola, Bihovetz, Galula, Pepino, Markoff. Voila je crois la liste de ceux qui ne nous ont pas crache dessus" (052, 1876-01-19).
 
 ### Letters of Introduction for Rome (1875--1876)
-When the Bashkirtseffs travel to Rome, Mouzay provides seven letters of recommendation (051.0087, 1875-12-29). Marie is touchingly grateful: "Dieu veuille qu'elles me servent autant que le desire cette chere et excellente femme." Through her contacts, Mouzay confirms the Antonelli family's vast wealth and provides intelligence about Roman society (063.0071--0083, 1876-07-07).
+When the Bashkirtseffs travel to Rome, Mouzay provides seven letters of recommendation (051.0087, 1875-12-29). Marie is touchingly grateful: "Dieu veuille qu'elles me servent autant que le desire cette chere et excellente femme." Through her contacts, Mouzay confirms the Antonelli family's vast wealth and provides intelligence about Roman society (063.0070--0083, 1876-07-07).
 
 ### The Wartel Audition (1876)
 Mouzay arranged Marie's secret audition with Pierre-Francois Wartel, the most respected voice teacher in Paris, at his studio at 37 rue de la Chaussee-d'Antin. She presented Marie as "une jeune fille qui lui est particulierement recommandee d'Italie" -- an anonymous Italian girl whose parents wanted an honest assessment (raw carnet 008). Wartel's verdict was positive: "Il faut travailler, vous avez une voix tres etendue, vous avez de l'etoffe, un organe, vous pouvez arriver." This audition was decisive in drawing Marie to Paris.
 
 ### Introduction of Cassagnac (1876-07-24)
-Mouzay's most consequential act was introducing Marie to Paul de Cassagnac at her apartment on Boulevard Haussmann. Through her connection to M. Blanc (Cassagnac's intimate friend and duel witness), Mouzay arranged the meeting: "Mme de Mouzay m'a presente a Paul de Cassagnac" (064.0091, 1876-07-24). Her salon became the stage for their developing relationship: "Mouzay promenait ses regards rayonnants, interrogateurs, de lui a moi, et semblant lui dire: Hein? Que vous disais-je?" During the first evening, she actively facilitated the encounter, prompting the follow-up: "Ces dames partent demain, et c'est dommage... j'ai prie ces messieurs de venir passer la soiree chez moi."
+Mouzay's most consequential act was introducing Marie to Paul de Cassagnac at her apartment on Boulevard Haussmann. Through her connection to M. Blanc (Cassagnac's intimate friend and duel witness), Mouzay arranged the meeting: "Mme de Mouzay m'a presente a Paul de Cassagnac" (064.0085, 1876-07-24). Her salon became the stage for their developing relationship: "Mouzay promenait ses regards rayonnants, interrogateurs, de lui a moi, et semblant lui dire: Hein? Que vous disais-je?" During the first evening, she actively facilitated the encounter, prompting the follow-up: "Ces dames partent demain, et c'est dommage... j'ai prie ces messieurs de venir passer la soiree chez moi."
 
 Marie's nostalgic memories of Cassagnac are permanently fused with Mouzay's salon: "Voila bien cinq ans et demi que je l'ai vu pour la premiere fois... boulevard Haussmann n° 2, en premier chez la Mouzay, je vois le salon, les meubles, les stores mi-baisses a cause de la chaleur" (094.0155, 1882-01-28).
 
@@ -154,12 +154,12 @@ The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans
 
 ### 1876 (Paris -- the Cassagnac summer)
 - **July 6** (063): Mouzay confirms Antonelli family wealth
-- **July 7** (063.0071--0083): Visit to Mouzay; intelligence about Antonelli family via Garcia
+- **July 7** (063.0070--0083): Visit to Mouzay; intelligence about Antonelli family via Garcia
 - **July 12** (063): Mouzay's visit saves Marie from near-hysteria; evening soiree at Mertens'
 - **July 18** (063): Visit to clairvoyant Alexis with Mouzay, then to Mme Moreau
-- **July 22** (064.0056): Marie tells Mouzay about interest in Cassagnac; Mouzay connects to M. Blanc
+- **July 22** (064.0050): Marie tells Mouzay about interest in Cassagnac; Mouzay connects to M. Blanc
 - **July 23** (064): Mouzay writes about arranging meeting with Blanc at Opera
-- **July 24** (064.0091ff): **Mouzay introduces Marie to Paul de Cassagnac**; evening salon encounter
+- **July 24** (064.0085ff): **Mouzay introduces Marie to Paul de Cassagnac**; evening salon encounter
 - **July 25** (064): Cassagnac evening at Mouzay's; Blanc, Mertens present
 - **July 26--27** (064): Fishhoff incident; Marie runs to tell Mouzay
 - **October 3** (066): Marie writes to Mouzay from Russia
