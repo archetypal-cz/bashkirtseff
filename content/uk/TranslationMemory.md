@@ -410,8 +410,10 @@ Established terminology for consistent translation across carnets.
 | Arsenieff | Арсенієв | Russian acquaintance; predicts English husband and Scottish castle |
 | Lambertye | Ламбертьє | French nobleman, early admirer (established 018) |
 | Woerman | Верман | acquaintance in Marie's circle (German name Woermann); locked 2026-09-29 wave-uk (was split Воерман 013–029 / Верман 016–045) |
+| Pâris (Iourkoff, Nina's admirer; nickname after the Trojan prince) | Паріс | decl. Паріса/Парісові/Парісом; locked 2026-09-29 wave-uk (NOT indeclinable Парі) |
 | Cima | Цима | decl. Цими/Цимі/Циму/Цимою; locked 2026-09-29 wave-uk (NOT Сіма) |
 | Jaxa | Якса | acc. Яксу; locked 2026-09-29 wave-uk (NOT Якс) |
+| Schestakoff / Chestakoff / Chestaskoff (la) | Шестакова (Шестаков) | Ruling (2026-09-29, CON): French ch = ш; tree before ruling Шестаков- ×5 (026/027) vs Честаков- ×3 (029 only); 029 normalized, 0 Честаков- left (NOT Честакова) |
 | Magarnoff | Маґарнов/Маґарнова | Russian family; Mlle Magarnoff = sister of the fiddler |
 | princesse Souvoroff | княгиня Суворова | Russian aristocrat; friendly with mother |
 | Carlo Hamilton | Карло Гамільтон | Hamilton's relative; distinct from the Duke |
