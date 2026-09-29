@@ -282,7 +282,7 @@ Established terminology for consistent translation across carnets.
 ### People (Carnet 022)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Gericke | Жерике | Young man Marie disdains at Spa |
+| Gericke | Жерікке | Young man Marie disdains at Spa (locked 2026-09-29 wave-uk; NOT Жерике) |
 | Walitsky (also Walitzky) | Валіцький | Family doctor/friend (established from earlier) |
 | Paparigopoulos (le Grec) | Папаріґопулос (Грек) | Greek acquaintance at Spa |
 | comte de Tanlay | граф де Танле | Polish count in love with Marie |
