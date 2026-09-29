@@ -500,10 +500,10 @@ They need AI translation into French.
 - **018/1874-04-19.md** para 018.0316 [ITALIAN]: %% 2026-01-30T11:30:51 LAN: CODE-SWITCH ITALIAN: "Sono meravigliata" - I am amazed (emotional emphasis through language switch) %%
 - **018/1874-04-19.md** para 018.0321 [CODE-SWITCH]: %% 2026-01-30T11:31:03 LAN: CODE-SWITCH: French to English mid-sentence at "en effet we find her" %%
 - **018/1874-04-19.md** para 018.0325 [ITALIAN]: %% 2026-01-30T11:31:13 LAN: CODE-SWITCH ITALIAN: "tutta quella bella brigata di cherubini" - all that beautiful brigade of cherubs (sarcastic about family ignoring her) %%
-- **018/1874-04-23.md** para 018.0363 [ENGLISH]: %% 2026-01-30T11:32:37 LAN: "gentlemen-riders" - ENGLISH: amateur jockeys from aristocracy %%
-- **018/1874-04-23.md** para 018.0363 [ENGLISH]: %% 2026-01-30T11:32:38 LAN: "steeple chase" - ENGLISH: steeplechase (cross-country horse race with obstacles) %%
-- **018/1874-04-23.md** para 018.0366 [ITALIAN]: %% 2026-01-30T11:32:48 LAN: CODE-SWITCH ITALIAN: "mi mama il freto non so che cosa sento se non che l'amo" - garbled Italian with errors; attempts "I don't know what I feel except that I love him" %%
-- **018/1874-04-23.md** para 018.0366 [ITALIAN]: %% 2026-01-30T11:32:49 LAN: ITALIAN ERRORS: "mi mama" unclear, "freto" possibly "freddo" (cold) or error; grammatically confused emotional outpouring %%
+- **018/1874-04-23.md** para 018.0362 [ENGLISH]: %% 2026-01-30T11:32:37 LAN: "gentlemen-riders" - ENGLISH: amateur jockeys from aristocracy %%
+- **018/1874-04-23.md** para 018.0362 [ENGLISH]: %% 2026-01-30T11:32:38 LAN: "steeple chase" - ENGLISH: steeplechase (cross-country horse race with obstacles) %%
+- **018/1874-04-23.md** para 018.0365 [ITALIAN]: %% 2026-01-30T11:32:48 LAN: CODE-SWITCH ITALIAN: "mi mama il freto non so che cosa sento se non che l'amo" - garbled Italian with errors; attempts "I don't know what I feel except that I love him" %%
+- **018/1874-04-23.md** para 018.0365 [ITALIAN]: %% 2026-01-30T11:32:49 LAN: ITALIAN ERRORS: "mi mama" unclear, "freto" possibly "freddo" (cold) or error; grammatically confused emotional outpouring %%
 - **019/1874-05-02.md** para 019.0076 [ITALIAN]: %% 2026-01-30T11:40:47 LAN: ITALIAN: "crescendo" - musical term: increasing in intensity %%
 - **019/1874-05-07.md** para 019.0149 [ENGLISH]: %% 2026-01-30T11:42:15 LAN: ENGLISH: "That is the question" - Shakespeare's Hamlet, code-switching for dramatic effect %%
 - **019/1874-05-08.md** para 019.0152 [ITALIAN]: %% 2026-01-30T11:42:17 LAN: ITALIAN: "Ora incomincian le dolenti note a tarmisi sentire" - Dante's Inferno III.22-26: "Now begin the woeful notes to make themselves heard to me" (entering Hell) %%
