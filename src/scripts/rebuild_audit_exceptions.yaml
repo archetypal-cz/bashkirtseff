@@ -67,4 +67,4 @@
 - {carnet: '094', category: heading-duplicate, para: '094.0040', status: marie, triage: d-081-100,
    reason: "The print repeats «Jeudi 15 décembre 1881» (tome14 ¶3148, ¶3161); the second block «C'était le jour fixe pour ma sortie…» is real text."}
 - {carnet: '105', category: date-heading-mismatch, para: '105.0466', status: marie, triage: e-075-080-101-106,
-   reason: "tome16 ¶3766 «Jeudi 7 octobre 1884» is printed between «Mercredi 6 août» and «Vendredi 8 août» (p.279): Marie's or the typesetter's slip, kept and filed by the weekday (7 Aug 1884 = Thursday). Documented in REVIEW §1 only; an in-file RSR note is still missing."}
+   reason: "tome16 ¶3766 «Jeudi 7 octobre 1884» is printed between «Mercredi 6 août» and «Vendredi 8 août» (p.279): Marie's or the typesetter's slip, kept and filed by the weekday (7 Aug 1884 = Thursday). Documented in REVIEW §1 and by an in-file RSR note (2026-09-29)."}
