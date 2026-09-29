@@ -1381,7 +1381,7 @@ When translating, refer to this document for established translations of recurri
 - Translation (Czech): Breslau — uninflected (NOT „Breslauová")
 - Context: Swiss-German painter (1856–1927), Marie's respected atelier rival at the Académie Julian; referred to by bare surname.
 - First appearance: 076–079
-- Notes: Marie writes the bare surname; keep uninflected ("genitiv Breslau", "s Breslau") with feminine verb agreement. Authorship attributions ("[work] by Breslau") → periphrastic "od Breslau" (e.g. "rybářka od Breslau", "obraz od Breslau"), NEVER the derived possessive adjective "Breslauin-" (same violation class as "Breslauová"). Confirmed across 090 (094.0388) and 091 (091.0554).
+- Notes: Marie writes the bare surname; keep uninflected ("genitiv Breslau", "s Breslau") with feminine verb agreement. Authorship attributions ("[work] by Breslau") → periphrastic "od Breslau" (e.g. "rybářka od Breslau", "obraz od Breslau"), NEVER the derived possessive adjective "Breslauin-" (same violation class as "Breslauová"). Confirmed across 090 (094.0388) and 091 (091.0555).
 
 ### Paul de Cassagnac / Popaul
 - Translation (Czech): Cassagnac (bare surname, fully declined: na Cassagnace, s Cassagnacem); „pan de Cassagnac" keeps particle+name uninflected after „pan"; affectionate-mocking diminutive „Popaul" kept as-is (NOT „Pavlík")
