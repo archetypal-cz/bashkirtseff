@@ -410,6 +410,10 @@ export function importForeignClusters(sets: CarnetSet[], issues: Issues): Map<st
   for (const [id, n] of count) if (n > 1) err(`${id} is placed or dropped ${n} times across the run's plans`);
   if (issues.errors.length) return claims;
 
+  // definitions copied along with a moving cluster: the holder's copy goes when
+  // nothing left in its file uses it, and a copy that meets its holder again in
+  // the destination (both moved) is dropped there
+  const copiedOut: { pf: ParsedFile; label: string }[] = [];
   for (const [id, target] of claims) {
     const src = byCarnet.get(id.slice(0, 3))!;
     const dst = byCarnet.get(target)!;
@@ -432,7 +436,12 @@ export function importForeignClusters(sets: CarnetSet[], issues: Issues): Map<st
           if (footnoteDefs(lines).some((d) => d.label === label)) continue;
           for (const o of staying) {
             const d = footnoteDefs(o.lines).find((x) => x.label === label);
-            if (d) { lines.push('', ...o.lines.slice(d.start, d.end)); break; }
+            if (d) {
+              const tail = lines.length - trimTrailingBlank(lines).length;
+              lines.splice(lines.length - tail, 0, '', ...o.lines.slice(d.start, d.end));
+              copiedOut.push({ pf, label });
+              break;
+            }
           }
         }
         // …and definitions it holds that staying clusters still use
@@ -463,7 +472,38 @@ export function importForeignClusters(sets: CarnetSet[], issues: Issues): Map<st
     }
     if (!foundInOriginal) err(`${target} plan: ${id} does not exist in _original/${src.carnet}`);
   }
+  for (const { pf, label } of copiedOut) {
+    if (pf.clusters.some((c) => footnoteRefs(c.lines).has(label))) continue;
+    for (const c of pf.clusters) c.lines = dropFootnoteDefs(c.lines, (d) => d.label === label);
+  }
+  for (const s of sets) {
+    for (const tree of s.trees.values()) {
+      for (const [name, pf] of tree.files) {
+        if (!isImportName(name)) continue;
+        // keep the last copy: definitions sit at the end of an entry
+        const last = new Map<string, { c: Cluster; start: number; text: string }>();
+        for (const c of pf.clusters) for (const d of footnoteDefs(c.lines)) last.set(d.label, { c, start: d.start, text: c.lines.slice(d.start, d.end).join('\n') });
+        for (const c of pf.clusters) {
+          c.lines = dropFootnoteDefs(c.lines, (d, text) => {
+            const keep = last.get(d.label)!;
+            return keep.text === text && !(keep.c === c && keep.start === d.start);
+          });
+        }
+      }
+    }
+  }
   return claims;
+}
+
+/** Remove the footnote definitions `drop` selects (in file order) from a cluster, each with the blank line before it. */
+function dropFootnoteDefs(lines: string[], drop: (d: { label: string; start: number }, text: string) => boolean): string[] {
+  const out = [...lines];
+  const gone = footnoteDefs(out).filter((d) => drop(d, out.slice(d.start, d.end).join('\n'))).reverse();
+  for (const d of gone) {
+    const start = d.start > 0 && !out[d.start - 1].trim() ? d.start - 1 : d.start;
+    out.splice(start, d.end - start);
+  }
+  return out;
 }
 
 /**
@@ -1049,7 +1089,11 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
     fm = rewriteFrontmatter(fm, entry, ids, isOrig, tree.lang, changed && !!base?.fm, hasNew || hasSetFrench, rewrite, baseName);
     if (changed && !isOrig) {
       result.flagResets.push(entry.file);
-      const from = [...new Set(oldIds.map((o) => oldFileOfId.get(o)).filter(Boolean))].join(', ') || 'none';
+      // an imported pseudo-file «CCC/file.md» is named «file.md of carnet CCC»:
+      // renumber-check reads a «CCC/file» path as a link to that entry
+      const from = [...new Set(oldIds.map((o) => oldFileOfId.get(o)).filter((f): f is string => !!f))]
+        .map((f) => (isImportName(f) ? `${f.split('/')[1]} of carnet ${f.split('/')[0]}` : f))
+        .join(', ') || 'none';
       const newCount = ids.filter((id) => mapping.planParaOfNewId.get(id)?.new).length;
       const note = `${ts} ED: ${label}: this entry's paragraph set changed (paragraphs from ${from}${newCount ? `, ${newCount} new source paragraph(s) marked TODO` : ''}${hasSetFrench ? ', source text replaced in a split paragraph' : ''}${headingInserted ? ', date heading added' : ''}); approval flags reset — re-run translation review on this entry.`;
       const tail = body.length - trimTrailingBlank(body).length;
@@ -1546,7 +1590,8 @@ export function checkCarnet(repoRoot: string, carnet: string, removedFiles: stri
       for (const mm of line.matchAll(tokenRe)) {
         if (Number(mm[1]) > lastNum || Number(mm[1]) === 0) errors.push(`${at}: ${mm[0]} is beyond the carnet's last paragraph ${lastId}`);
       }
-      if (staleFile) for (const mm of line.matchAll(staleFile)) errors.push(`${at}: link to removed entry ${mm[0]}`);
+      // the file list of a rebuild's flag-reset ED note names old entries, it does not link them
+      if (staleFile) for (const mm of line.replace(/paragraph set changed \(paragraphs from [^;)]*/g, '').matchAll(staleFile)) errors.push(`${at}: link to removed entry ${mm[0]}`);
       for (const mm of line.matchAll(linkRe)) {
         const holder = fileOfId.get(`${carnet}.${mm[2]}`);
         if (holder && holder !== `${mm[1]}.md`) errors.push(`${at}: ${mm[0]} — paragraph lives in ${holder}`);

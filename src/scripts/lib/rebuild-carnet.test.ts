@@ -683,3 +683,57 @@ test('set_french swaps every embedded French line of a translation (heading copi
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('a whole entry moving to another carnet: footnote definition not doubled, flag-reset note is no stale link', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-rebuild-mv-'));
+  const w = (rel: string, text: string) => {
+    fs.mkdirSync(path.dirname(path.join(root, rel)), { recursive: true });
+    fs.writeFileSync(path.join(root, rel), text);
+  };
+  try {
+    w('content/_original/098/1879-12-30.md', ['---', 'date: 1879-12-30', 'carnet: "098"', 'para_start: 1', 'para_end: 1', '---',
+      '%% 098.0001 %%', '# Mardi 30 décembre 1879', 'Un.', ''].join('\n'));
+    // the definition sits in the entry's last cluster, the marker in the one before it
+    w('content/_original/098/1879-12-31.md', ['---', 'date: 1879-12-31', 'carnet: "098"', 'para_start: 2', 'para_end: 3', '---',
+      '%% 098.0002 %%', '# Mercredi 31 décembre 1879', 'Deux[^1].', '',
+      '%% 098.0003 %%', 'Trois.', '', '[^1]: Note one.', ''].join('\n'));
+    w('content/_original/099/1880-01-01.md', ['---', 'date: 1880-01-01', 'carnet: "099"', 'para_start: 1', 'para_end: 1', '---',
+      '%% 099.0001 %%', '# Jeudi 1er janvier 1880', 'Premier.', ''].join('\n'));
+    w('content/cz/098/1879-12-30.md', ['---', 'date: 1879-12-30', 'carnet: "098"', 'translation_complete: true', '---', '',
+      '%% 098.0001 %%', '%% Mardi 30 décembre 1879 %%', '%% Un. %%', '# Úterý 30. prosince 1879', 'Jedna.', ''].join('\n'));
+    w('content/cz/098/1879-12-31.md', ['---', 'date: 1879-12-31', 'carnet: "098"', 'translation_complete: true', 'conductor_approved: true', '---', '',
+      '%% 098.0002 %%', '%% Mercredi 31 décembre 1879 %%', '%% Deux[^1]. %%', '# Středa 31. prosince 1879', 'Dva[^1].', '',
+      '%% 098.0003 %%', '%% Trois. %%', 'Tři.', '', '[^1]: Pozn. jedna.', ''].join('\n'));
+    w('content/cz/099/1880-01-01.md', ['---', 'date: 1880-01-01', 'carnet: "099"', 'translation_complete: true', '---', '',
+      '%% 099.0001 %%', '%% Jeudi 1er janvier 1880 %%', '%% Premier. %%', '# Čtvrtek 1. ledna 1880', 'První.', ''].join('\n'));
+    const p098: Plan = { carnet: '098', entries: [{ file: '1879-12-30.md', date: '1879-12-30', paragraphs: [{ old: '098.0001' }] }] };
+    const p099: Plan = {
+      carnet: '099',
+      entries: [
+        { file: '1879-12-31.md', date: '1879-12-31', paragraphs: [{ old: '098.0002' }, { old: '098.0003' }, { new: { french: 'Quatre.', rsr: 'Restored; fixture.docx ¶4.' } }] },
+        { file: '1880-01-01.md', date: '1880-01-01', paragraphs: [{ old: '099.0001' }] },
+      ],
+    };
+    const a = path.join(root, 'p098.json'), b = path.join(root, 'p099.json');
+    fs.writeFileSync(a, JSON.stringify(p098));
+    fs.writeFileSync(b, JSON.stringify(p099));
+    const wr = run(root, '--multi', a, b, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    assert.doesNotMatch(wr.out, /link to removed entry/);
+    for (const tree of ['_original', 'cz']) {
+      const t = read(root, `content/${tree}/099/1879-12-31.md`);
+      assert.equal((t.match(/^\[\^1\]:/gm) ?? []).length, 1, `${tree}: one definition of [^1]\n${t}`);
+    }
+    const c = read(root, 'content/cz/099/1879-12-31.md');
+    assert.match(c, /paragraphs from 1879-12-31\.md of carnet 098, 1 new source paragraph/);
+    assert.ok(!fs.existsSync(path.join(root, 'content/cz/098/1879-12-31.md')));
+
+    // notes written before the rewording («from 098/1879-12-31.md») are not links either
+    fs.writeFileSync(path.join(root, 'content/cz/099/1879-12-31.md'), c.replace('from 1879-12-31.md of carnet 098', 'from 098/1879-12-31.md'));
+    const chk = run(root, '--check', '098');
+    assert.doesNotMatch(chk.out, /link to removed entry/, chk.out);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});
+
