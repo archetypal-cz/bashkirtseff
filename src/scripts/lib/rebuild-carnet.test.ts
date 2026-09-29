@@ -737,3 +737,36 @@ test('a whole entry moving to another carnet: footnote definition not doubled, f
   }
 });
 
+test('set_french that only turns a plain date line into the heading: translations follow, no second heading, no SOURCE CHANGED', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-rebuild-dl-'));
+  const w = (rel: string, text: string) => {
+    fs.mkdirSync(path.dirname(path.join(root, rel)), { recursive: true });
+    fs.writeFileSync(path.join(root, rel), text);
+  };
+  try {
+    w('content/_original/095/1883-01-02.md', ['---', 'date: 1883-01-02', 'carnet: "095"', 'para_start: 1', 'para_end: 2', '---',
+      '%% 095.0001 %%', 'Mardi 2 janvier 1883 (suite)', '', '%% 095.0002 %%', 'Texte.', ''].join('\n'));
+    w('content/cz/095/1883-01-02.md', ['---', 'date: 1883-01-02', 'carnet: "095"', 'translation_complete: true', '---', '',
+      '%% 095.0001 %%', '%% Mardi 2 janvier 1883 (suite) %%', 'Úterý 2. ledna 1883 (pokračování)', '',
+      '%% 095.0002 %%', '%% Texte. %%', 'Text.', ''].join('\n'));
+    w('content/fr/095/1883-01-02.md', ['---', 'date: 1883-01-02', 'carnet: "095"', 'edition_complete: false', '---', '',
+      '%% 095.0001 %%', '%% Mardi 2 janvier 1883 (suite) %%', '',
+      '%% 095.0002 %%', '%% Texte. %%', ''].join('\n'));
+    const plan: Plan = { carnet: '095', entries: [{ file: '1883-01-02.md', date: '1883-01-02', heading: 'Mardi 2 janvier 1883', paragraphs: [
+      { old: '095.0001', set_french: '# Mardi 2 janvier 1883 (suite)' }, { old: '095.0002' }] }] };
+    const planPath = path.join(root, 'plan.json');
+    fs.writeFileSync(planPath, JSON.stringify(plan));
+    const wr = run(root, '095', planPath, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    const o = read(root, 'content/_original/095/1883-01-02.md');
+    assert.match(o, /%% 095\.0001 %%\n# Mardi 2 janvier 1883 \(suite\)\n/);
+    const c = read(root, 'content/cz/095/1883-01-02.md');
+    assert.match(c, /%% 095\.0001 %%\n%% Mardi 2 janvier 1883 \(suite\) %%\n# Úterý 2\. ledna 1883 \(pokračování\)\n/);
+    assert.doesNotMatch(c, /TODO|SOURCE CHANGED/);
+    assert.equal((c.match(/Mardi 2 janvier 1883/g) ?? []).length, 1);
+    const f = read(root, 'content/fr/095/1883-01-02.md');
+    assert.doesNotMatch(f, /TODO|SOURCE CHANGED|^# /m);
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});

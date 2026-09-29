@@ -1159,6 +1159,8 @@ function blankAfterFrontmatter(tree: CarnetTree): boolean {
 function originalFirstHasHeading(original: CarnetTree, mapping: Mapping, firstNewId: string, _plan: Plan): boolean {
   const pp = mapping.planParaOfNewId.get(firstNewId);
   if (pp?.new) return pp.new.french.split('\n').some((l) => HEADING_RE.test(l.trim()));
+  // set_french replaces the paragraph's French, heading lines included
+  if (pp?.set_french !== undefined) return pp.set_french.split('\n').some((l) => HEADING_RE.test(l.trim()));
   for (const [o, nw] of mapping.idMap) {
     if (nw !== firstNewId) continue;
     for (const pf of original.files.values()) {
@@ -1348,6 +1350,24 @@ function applySetFrench(lines: string[], oldId: string, newId: string, french: s
     while (at < out.length && KIND_LINE_PATTERN.test(out[at])) at++;
     out.splice(at, 0, ...newEmbed);
     how = 'the cluster had no embedded French; a copy was added';
+  }
+  // Same words, only the heading marking changed (a plain date line became the
+  // entry heading, or back): the translation's matching line changes shape the
+  // same way and nothing needs retranslating.
+  if (oldText.length && normFrench(oldText.join('\n')) === normFrench(newLines.join('\n'))) {
+    const vis = frenchLineIdx(out);
+    if (oldText.length === newLines.length && vis.length === newLines.length) {
+      newLines.forEach((nl, k) => {
+        const wasHead = HEADING_RE.test(oldText[k].trim()), isHead = HEADING_RE.test(nl.trim());
+        if (wasHead === isHead) return;
+        const i = vis[k];
+        out[i] = isHead ? `${nl.trim().match(/^#+/)![0]} ${out[i].trim()}` : out[i].replace(/^\s*#+\s+/, '');
+      });
+      return out;
+    }
+    if (!vis.length) return out; // nothing visible (fr scaffold): the embedded copy was all there was
+    out.splice(afterIdAndComments(out), 0, `%% ${ts} ED: ${label}: SOURCE CHANGED — only the heading marking of this paragraph's French changed (now: ${newLines.map((l) => `«${l.trim()}»`).join(' ')}); make the matching translated line a heading or a plain line to match. %%`);
+    return out;
   }
   const vis = afterIdAndComments(out);
   out.splice(vis, 0, `%% ${ts} ED: ${label}: SOURCE CHANGED — the French of this paragraph was cut/replaced (${how}); the translation below still renders the old text and must be trimmed to match. %%`);
