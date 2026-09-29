@@ -146,9 +146,10 @@ _DAY = r'[1Il]\s?er|Ier|\d(?:\s?\d)?'   # OCR splits two-digit days: «1 3 janvi
 _YEAR = r'[1Iîl]\s*8\s*[678]\s*\d'
 RE_HEAD = re.compile(
     rf'^\s*(?:\(?suite\)?\s*)?(?:(?P<wd>lundi|mardi|mercredi|jeudi|jeud|vendredi|samedi|dimanche)\b[\s,.]*)?'
-    rf'(?P<day>{_DAY})\s*(?P<mon>{_MON})\b[\s,.]*(?P<yr>{_YEAR})?', re.I)
+    rf'(?P<day>{_DAY})(?:\s*,\s*(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)\s+\d\d?)?\s*(?P<mon>{_MON})(?![a-zà-ÿ])[\s,.]*(?P<yr>{_YEAR})?', re.I)
+# («août1873»: no \b after the month, a year may follow without a space; «Mercredi 26, jeudi 27 novembre»: the first day counts)
 # the Julian date Marie often adds: «(22 août)», «/ 1er janvier 1877», «Ier janvier 1877»
-RE_JULIAN = re.compile(rf'^\s*[/(]?\s*(?P<day>{_DAY})\s*(?P<mon>{_MON})\b[\s,.]*(?P<yr>{_YEAR})?\s*\)?', re.I)
+RE_JULIAN = re.compile(rf'^\s*[/(]?\s*(?P<day>{_DAY})\s*(?P<mon>{_MON})(?![a-zà-ÿ])[\s,.]*(?P<yr>{_YEAR})?\s*\)?', re.I)
 RE_YEAR_ONLY = re.compile(rf'^\s*{_YEAR}\s*$')
 
 
@@ -226,7 +227,8 @@ def livre_number(text: str) -> int | None:
         return None
     for line in text.split('\n')[:3]:
         m = RE_LIVRE.match(line.replace('[', '').replace(']', ''))
-        if not m or len(line) > 80:
+        # a «Carnet N° 3 Mon journal commencé le …» title may run long; a bare «Livre 3 …» may not
+        if not m or len(line) > (200 if re.match(r'\s*\[?\s*(carnet|cahier|livre)\s*\]?\s*n°', line, re.I) else 80):
             continue
         num = m.group(1).replace(' ', '').translate(str.maketrans('OoQqDdIiLlî', '00000011111'))
         if num.isdigit() and 0 < int(num) < 107:

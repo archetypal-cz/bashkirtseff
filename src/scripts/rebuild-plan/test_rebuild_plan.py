@@ -25,6 +25,10 @@ def test_headings():
     assert any(g.startswith('weekday') for g in h['guessed'])
     assert parse_heading("Mardi j'ai vu Visconti qui m'a dit que le 12 janvier il partirait pour Naples et que", None) is None
     assert parse_heading('Il fait beau.', None) is None
+    h = parse_heading('Lundi 25 août1873', None)  # no space before the year
+    assert h['date'] == '1873-08-25'
+    h = parse_heading('Mercredi 26, jeudi 27 novembre 1873', None)  # two days on one line: the first opens the entry
+    assert h['date'] == '1873-11-26'
 
 
 def test_livre_and_order():
@@ -40,6 +44,8 @@ def test_livre_and_order():
     assert livre_number('Gloriae [Rayé: Cupididate] Cupiditas\nLivre 75ème') == 75
     assert livre_number("Livre que j'ai lu hier chez Julian et qui m'a beaucoup plu, surtout la fin où il parle de 1880 et de l'avenir") is None
     assert livre_number('Je livre mes pensées') is None
+    assert livre_number('Carnet N° 3 Mon journal commencé le jeudi 13 mars 1873 à midi terminé le lundi 14 avril 1873') == 3
+    assert livre_number('Carnet N° 7 [commencé le dimanche 13 juillet 1873 terminé le dimanche 10 août 1873] Nice') == 7
     names = ['1878-10-04-evening.md', '1878-10-05.md', '1878-10-04.md', '1878-10-04-cover.md', '1878-10-04-05.md']
     assert sorted(names, key=entry_order_key) == ['1878-10-04-cover.md', '1878-10-04.md', '1878-10-04-05.md', '1878-10-04-evening.md', '1878-10-05.md']
 
@@ -60,6 +66,10 @@ def test_kinds():
     assert guess_kind('[Marie est passée de la page 184 à 185 mais rien ne semble manquer]')[0] == 'editorial'
     assert guess_kind('[page cancellée : p. 182 du manuscrit]')[0] == 'editorial'
     assert guess_kind('"Monsieur,')[0] == 'letter'
+    assert guess_kind('— Monsieur, vous êtes trop bon, dit-elle.')[0] is None  # dialogue
+    assert guess_kind('Madame, je vous attendais, dit-il.')[0] is None
+    assert guess_kind('[3 lignes cancellées]')[0] == 'editorial'
+    assert guess_kind('[Deux mots noircis]')[0] == 'editorial'
     assert guess_kind('[Elliminez.]')[0] == 'other'
     assert guess_kind('Il pleut.')[0] is None
 

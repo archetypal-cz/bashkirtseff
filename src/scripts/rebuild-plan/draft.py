@@ -45,9 +45,13 @@ RE_BRACKET_ONLY = re.compile(r'^\[[^\[\]]*\]$|^\(Ray[ée][^()]*\)$', re.S)
 RE_MARGIN = re.compile(r'^\[(En travers|Dans la marge|En marge|En haut|En bas|Bas de page|Au bas|En tête|Au dos)', re.I)
 RE_RAYE = re.compile(r'Ray[ée]|cancell|noirci|barr[ée]|biff', re.I)
 RE_EDITORIAL = re.compile(r'Marie (est passée|a (noté|écrit|collé|dessiné|laissé|numéroté|arraché))|manuscrit|\bp(?:ages?)?\.?\s*\d|feuillet|Note d[eu]|illisible|déchiré|Il manque|lacune', re.I)
-RE_SALUTATION = re.compile(r'^\s*(?:[-–—]\s*)?["«“]?\s*(Monsieur|Madame|Mademoiselle|Mon cher|Ma chère|Cher|Chère|Mon bon|Ma bonne|Mon ami|Ma petite)\b[^.!?]{0,40}(,|$)', re.I)
+# a letter opens with a salutation on a line of its own («Monsieur,»); «— Monsieur, vous …» is dialogue
+RE_SALUTATION = re.compile(r'^\s*["«“]?\s*(Monsieur|Madame|Mademoiselle|Mon cher|Ma chère|Cher|Chère|Mon bon|Ma bonne|Mon ami|Ma petite)\b[^.!?\n]{0,40},?\s*(\n|$)', re.I)
+# «[3 lignes cancellées]»: a note that text was struck, without the text — editorial, not rayé
+RE_STRUCK_COUNT = re.compile(r'^\[\s*(\d+|une?|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|quelques|plusieurs)\s+(lignes?|mots?|pages?)\s+(cancell|ray|noirci|barr|biff)', re.I)
 RE_LETTER_OPEN = re.compile(r'^\s*["«“]\s*(Monsieur|Madame|Mademoiselle|Mon cher|Ma chère|Cher|Chère)\b', re.I)
 RE_CAPS_TITLE = re.compile(r'^[^a-zà-ÿ]{6,}$')
+RE_NOTE_LINE = re.compile(r'^\s*%%\s*(\d{4}-\d{2}-\d{2}T[\d:]+\s+)?[A-Z]{2,4}:')
 
 
 def log(*a):
@@ -261,6 +265,8 @@ def guess_kind(text: str) -> tuple[str | None, str]:
     """(kind, why) from the text's own markers."""
     t = text.strip()
     if RE_BRACKET_ONLY.match(t):
+        if RE_STRUCK_COUNT.match(t):
+            return 'editorial', 'bracketed note that lines/words were struck, without their text'
         if RE_EDITORIAL.search(t) and not t.lower().startswith(('[rayé', '[raye', '[mots', '[trois', '[deux', '[quelques')):
             return 'editorial', 'bracketed note about the manuscript'
         if RE_MARGIN.match(t):
@@ -357,8 +363,11 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
         vis = c['vis']
         if not vis:
             texty = [lang for lang in TREES if trans[lang].get(k) and trans[lang][k]['vis']]
+            noted = any(RE_NOTE_LINE.match(l) for l in c['lines'])
             if texty:
                 rv['empty'].append(f"{k} ({c['file']}) has no French text but has text in {', '.join(texty)} — kept, placed after its predecessor")
+            elif noted:
+                rv['empty'].append(f"{k} ({c['file']}) has no French text but carries notes (RSR summary, LAN, a verdict) — kept, placed after its predecessor; drop it only if the notes can go")
             else:
                 empty.append(k)
                 dropped[k] = 'empty placeholder cluster (no text in _original or any translation)'
@@ -402,7 +411,8 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
             while n < len(C) and C[n]['id'] not in key:
                 n += 1
             key[k] = key[C[n]['id']] - 0.01 if n < len(C) else float(b)
-        rv['nodocx'].append(f"{k} ({c['file']}) not found in the docx — placed after {C[p]['id'] if p >= 0 else 'the start'}: «{' '.join(c['vis'])[:70]}»")
+        if c['vis']:  # a text-less cluster kept for its notes is listed under «empty» already
+            rv['nodocx'].append(f"{k} ({c['file']}) not found in the docx — placed after {C[p]['id'] if p >= 0 else 'the start'}: «{' '.join(c['vis'])[:70]}»")
 
     # --- set_french: completions of clusters cut short
     setf: dict[str, str] = {}
@@ -425,6 +435,11 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
         covered_ = len(cgr & rgr) / len(rgr)
         extra = len(r['n'].split()) - len(norm(textl[0]).split())
         if inside >= 0.95 and covered_ < 0.8 and extra >= 5:
+            # _original may split one docx paragraph over several clusters: the rest is in the next ones
+            j = tome.pos[k]
+            nxt = set().union(*(grams(norm(' '.join(l for l in x['vis'] if not l.startswith('#')))) for x in C[j + 1:j + 4] if x['file'] == c['file'])) if j + 1 < len(C) else set()
+            if len((cgr | nxt) & rgr) / len(rgr) >= 0.8:
+                continue
             setf[k] = with_headings(c['vis'], para_text(tome.P[r['src']]))
             rv['completions'].append(f"{k}: _original holds {len(norm(textl[0]).split())} words of docx ¶{r['src']} ({len(r['n'].split())} words) — set_french to the docx text; check the OCR")
 
@@ -600,7 +615,9 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
                     cur.append((i, t))
             if cur:
                 chunks.append(cur)
-            cdate = heads[first_head]['date']
+            # the cover sorts first: an entry dated before the first date line (a day Marie wrote in
+            # at the end of the notebook, 002 «Lundi 2 février») pulls the cover's date back
+            cdate = min([heads[first_head]['date']] + [e['date'] for e in entries.values()])
             cover = {'file': f'{cdate}-cover.md', 'date': cdate, 'paragraphs': []}
             for ch in chunks:
                 a_, b_ = ch[0][0], ch[-1][0]
@@ -647,6 +664,13 @@ def build(tome: Tome, wanted: set[str]) -> dict[str, dict]:
         drop = [{'id': k, 'reason': r} for k, r in dropped.items() if k.startswith(carnet + '.')]
         plans[carnet] = {'carnet': carnet, 'source': f'tome{tome.tome:02d}.docx',
                          '_draft': f'rebuild-draft-plan {TODAY}: a draft — read REVIEW.md before using it', 'drop': drop, 'entries': entries_list}
+        # ID-less old files (empty-day stubs): rebuild-carnet refuses a plan that neither carries (body_from) nor drops them
+        idless = [f.name for f in sorted((CONTENT / '_original' / carnet).glob('*.md'), key=lambda f: entry_order_key(f.name))
+                  if re.match(r'\d{4}-\d{2}-\d{2}', f.name) and f.name not in old_files]
+        if idless:
+            plans[carnet]['drop_files'] = [{'file': f, 'reason': 'ID-less old entry (no paragraph IDs); the docx day is drafted as its own entry'} for f in idless]
+            for f in idless:
+                rv['empty'].append(f"_original/{carnet}/{f} has no paragraph IDs — listed in drop_files; to keep its body instead, give its entry `body_from`")
 
     # --- drawings / figures
     for r in tome.rows[a:b]:
@@ -701,7 +725,7 @@ def review_md(tome: Tome, plans: dict, carnets: list[str]) -> str:
         ('cover', 'Cover entries', ''),
         ('headings', 'Date lines', ''),
         ('empty_days', 'Empty days', ''),
-        ('empty', 'Empty _original clusters that are not empty elsewhere', ''),
+        ('empty', 'Empty _original clusters kept', 'No French text in _original, but text in a translation or notes (RSR entry summary, LAN, a verdict); ID-less old files go to drop_files.'),
         ('placement', 'Text before the first date line', ''),
         ('ocr', 'OCR oddities in new text', 'The docx text is used as it is (italic runs as `*…*`, `II!`→`!!!`, split years rejoined). Compare with the printed page.'),
         ('drawings', 'Drawings and figure candidates', 'Drawings go into the entry frontmatter `drawings:` (docs/REBUILD_CARNET.md, "Drawings").'),

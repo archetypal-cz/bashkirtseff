@@ -63,11 +63,16 @@ for 068:
    as `*…*`, each with an RSR note citing docx ¶ and — when
    `content/_raw/scans/TomeN.pdf` exists — «Mon Journal t.N p.X» from the
    page map. Days with a date line and no text get «[Aucun texte - date seule
-   mentionnée]». Empty placeholder clusters are dropped.
+   mentionnée]». Empty placeholder clusters are dropped, except those carrying
+   notes (an RSR entry summary, LAN, a verdict) or text in a translation:
+   they are kept after their predecessor. ID-less old files (no paragraph
+   IDs) are listed in `drop_files` (give the entry `body_from` to keep one).
 4. **Guess**: `set_french` completions for clusters cut short, `heading_to_next`
    for clusters ending with the next day's heading, kinds from markers
    (`[En travers…]`/`[En marge…]` margin, `[Rayé…]` rayé, notes about the
-   manuscript editorial, a quoted salutation opening a copied letter — the
+   manuscript editorial — «[3 lignes cancellées]», a note that text was struck
+   without the text, is editorial, not rayé — a quoted salutation standing on
+   its own line opening a copied letter («— Monsieur, vous …» is dialogue) — the
    letter's clusters get `kind: letter` and `> `-quoted French — text set in a
    different docx style or under a capitals title as clipping), and from the
    **typography of the printed edition** when the scan exists
@@ -106,8 +111,34 @@ verse, sources for letters and clippings. The draft passes `rebuild-carnet`
 and, applied in a throwaway worktree, `renumber-check`, `verify-carnet` and
 `splicescan` for all five trees.
 
+### Drafter limits (fix by hand in the plan)
+
+Fixed 2026-09-29: date lines «août1873» (no space) and «Mercredi 26, jeudi 27
+novembre 1873» (two days, the first opens the entry); long «Carnet N° 3 Mon
+journal commencé le …» title lines (Livre 3 and 7 of tome 1); spurious
+completions where `_original` splits one docx paragraph over several
+clusters; note-carrying empty clusters dropped; salutation-in-dialogue
+letters; «[N lignes cancellées]» as rayé; a cover entry dated after an entry
+Marie back-dated at the end of the notebook (002 «Lundi 2 février»); ID-less
+stubs missing from `drop_files`. `livre_number` already reads «Gloriae…\n[Livre]
+101» and «[Cahier n°] 102» (tomes 11, 16). Still manual:
+
+- A repeated margin note (the same «[Dans la marge: …]» in two notebooks)
+  aligns with the wrong copy and proposes a cross-carnet move (006.0089 →
+  005): reject moves whose only evidence is a short repeated line.
+- Cover entries can swallow short itinerary lines next to the `Livre`
+  heading, and a date line inferred from them (tome 8 ¶3605): check the
+  «Cover entries» and «Date lines» sections.
+- The stream tiler (`streamtile.py`, a planner helper outside the repo that
+  completes cut-short clusters from the docx token stream) is not part of the
+  drafter; it carries OCR line-break hyphen fragments («…- vitch.») into the
+  text. Check every tiled completion for them.
+- Double date lines keep only the first day's date in the heading; add the
+  second day to `heading` by hand if the entry should show both.
+
 Related: `just source-completeness [CCC…]` (every tome paragraph against
-`_original`, report in `.claude/reports/`, code `src/scripts/completeness/`),
+`_original`, report in `.claude/reports/` — a same-day rerun overwrites it,
+`--keep` writes `<date>-2.md` — code `src/scripts/completeness/`),
 `just scan-pagemap N`, `just scan-figures N`, `just scan-figure-keywords`,
 `just scan-survey` (`src/scripts/scans/`).
 
@@ -126,7 +157,9 @@ involved together: `just rebuild-carnets plan-065.json plan-066.json …`
   own paragraphs; the usual per-carnet checks apply to each plan.
 - The whole cluster moves in every tree (tags, notes, embedded French,
   translation, footnote definitions it uses — copied, so the source keeps any
-  it still needs). Entry-level notes stay with the source entry. Translation
+  it still needs; a copy that lands beside its original, because the cluster
+  holding the definition moved too, is dropped, and the source's copy goes
+  when nothing left there uses it). Entry-level notes stay with the source entry. Translation
   flags reset on both sides, except for an entry that arrives whole and
   unchanged (it keeps its flags; frontmatter `carnet:` is updated).
 - All carnets are renumbered and all references rewritten in **one pass**, so
@@ -137,7 +170,8 @@ involved together: `just rebuild-carnets plan-065.json plan-066.json …`
   (`065+066-<date>.sql` — separate files would chain), and the redirects.
 - Internally the moved clusters sit in the target carnet as pseudo-files named
   `<source carnet>/<source file>` while the single-carnet machinery runs; ED
-  comments name them that way.
+  comments name them «`<file>` of carnet `<source carnet>`» (older notes say
+  `CCC/<file>`; `renumber-check` does not read either as a link).
 
 ## Entry order
 
@@ -230,7 +264,8 @@ that does not move is written back byte for byte.
   legacy `[//]: # (… RSR …)` entry summary) stay with the entry: they go to the
   end of the new file that holds the old entry's first paragraph.
 - **New paragraphs.** `_original`: ID, tags, `RSR:` comment (timestamped now),
-  French. Translation trees: the `just scaffold` shape — ID, embedded French
+  French. IDs the plan's `rsr` text cites are **old** IDs: they are renumbered
+  like every other reference. Translation trees: the `just scaffold` shape — ID, embedded French
   (`%% … %%` per line), tags localised to `../../_original/_glossary/`, the RSR
   note, then `TODO` (and `# TODO` for a heading line). The fr edition gets no
   `TODO`: it gets the French verbatim if its carnet already shows visible text,
@@ -241,10 +276,15 @@ that does not move is written back byte for byte.
   `_original` gets the new text in place of the old text and heading lines; each translation's embedded French copy
   is replaced as a whole: every embedded French line of the cluster (heading
   copies are embedded without `#`) goes, and the new copy takes the first one's
-  place — never appended beside a stale copy; a cluster with a multi-line `%%`
-  block stops the run. An
+  place — never appended beside a stale copy; a fr multi-line `%%` block holding
+  the French is replaced by per-line copies. An
   `ED: … SOURCE CHANGED` comment tells the translator that the visible
-  translation still renders the old text. Put the cut-off half into a `new`
+  translation still renders the old text (not in a fr scaffold cluster, which
+  renders nothing). When `set_french` changes only the heading marking (same
+  words: a plain date line becomes the entry heading, or back), the
+  translation's matching line becomes a heading (or a plain line) too, no
+  `SOURCE CHANGED` is written, and the plan's `heading` is not added a second
+  time; if the lines cannot be matched one to one, an ED note asks for it. Put the cut-off half into a `new`
   paragraph. A footnote marker dropped by `set_french` is warned about; move its
   definition by hand.
 - **Paragraphs a translation tree lacks** are reported and stay missing.
@@ -319,6 +359,9 @@ never matched again (0005→0006→0007 cannot chain). For this carnet only:
 Dropped IDs become `CCC.DROPPED-0123` / `#p-CCC-DROPPED-0123`, so nothing points
 at a wrong paragraph; `renumber-check` lists them.
 
+A carnet README's `**Paragraph range**: CCC.0001-CCC.NNNN` line is set to the
+new range (a stale range used to fail the write's own `renumber-check`).
+
 Scope: text files (`.md .json .yaml .txt .csv`) under `content/` only, minus
 `content/_raw`, `content/_renumber` and every `CLAUDE.md`. Code, `docs/`,
 skills, `.claude/reports` and root notes cite IDs as examples or history and
@@ -358,7 +401,8 @@ translation cluster's embedded French equals `_original`'s French for the same
 ID, compared loosely (markers, `#`, `> `, footnote refs, quotes, case, spacing;
 a missing heading copy is fine): an embedded copy that holds the current French
 plus more (a stale or duplicated copy) FAILs, any other difference is a WARN
-per tree with the IDs (`just resync-french LANG CCC`).
+per tree with the IDs (`just sync CCC LANG` refreshes exactly those copies,
+fr multi-line blocks included).
 
 ## Paragraph kinds
 
