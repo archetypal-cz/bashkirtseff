@@ -2,7 +2,7 @@
   "005": [
     {
       "file": "1873-06-08.md",
-      "para_id": "005.0210",
+      "para_id": "005.0211",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T14:32:00 LAN: ITALIAN: \"composta\" - composed/calm; code-switch %%",
       "fr_file": "content/fr/005/1873-06-08.md",
@@ -11,7 +11,7 @@
     },
     {
       "file": "1873-06-09.md",
-      "para_id": "005.0227",
+      "para_id": "005.0228",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T14:33:00 LAN: RUSSIAN: \"Ce qu'il adviendra de moi, je ne sais\" - Marie shifts to more literary/solemn register %%",
       "fr_file": "content/fr/005/1873-06-09.md",
@@ -20,7 +20,7 @@
     },
     {
       "file": "1873-06-12.md",
-      "para_id": "005.0248",
+      "para_id": "005.0249",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T14:41:00 LAN: ENGLISH: \"like, oui, love jamais\" - code-switch; like vs love distinction %%",
       "fr_file": "content/fr/005/1873-06-12.md",
@@ -29,7 +29,7 @@
     },
     {
       "file": "1873-06-14.md",
-      "para_id": "005.0271",
+      "para_id": "005.0272",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T14:43:00 LAN: ENGLISH: \"His Grace the Duke of Hamilton\" - formal title; marginal doodle/note %%",
       "fr_file": "content/fr/005/1873-06-14.md",
@@ -38,7 +38,7 @@
     },
     {
       "file": "1873-06-14.md",
-      "para_id": "005.0274",
+      "para_id": "005.0275",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T14:43:00 LAN: ENGLISH: \"instead of his handkerchief\" - code-switch mid-sentence %%",
       "fr_file": "content/fr/005/1873-06-14.md",
@@ -47,7 +47,7 @@
     },
     {
       "file": "1873-06-15.md",
-      "para_id": "005.0278",
+      "para_id": "005.0290",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T14:44:00 LAN: RUSSIAN: \"Marie Stepanovna\" - formal Russian patronymic address %%",
       "fr_file": "content/fr/005/1873-06-15.md",
@@ -56,7 +56,7 @@
     },
     {
       "file": "1873-06-15.md",
-      "para_id": "005.0287",
+      "para_id": "005.0299",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T14:44:00 LAN: ENGLISH: \"restless\" - code-switch; untranslatable English word for emotional state %%",
       "fr_file": "content/fr/005/1873-06-15.md",
@@ -67,7 +67,7 @@
   "006": [
     {
       "file": "1873-07-05.md",
-      "para_id": "006.0196",
+      "para_id": "006.0191",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T15:13:00 LAN: ENGLISH: \"His Grace the Duke of Hamilton\" - formal title; aunt mentions it %%",
       "fr_file": "content/fr/006/1873-07-05.md",
@@ -76,7 +76,7 @@
     },
     {
       "file": "1873-07-07.md",
-      "para_id": "006.0205",
+      "para_id": "006.0200",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T16:50:00 RSR: Yesterday very irritable - heat unbearable; read random book to calm down. Boredom and heat \"m'enerve.\" FIRST ENGLISH LESSON with Miss Elder - teaches well but young, inexperienced. Two hours three times weekly; after lesson 45 minutes of conversation. \"J'espere que je parlerai bien et vite.\" Princess Galitzine dined. FOLIES NICOISES: After carriage ride, Princess/Dina/Paul went to Folies; Marie only wanted to see Plessis (quick-change artist, 36 different heads). Went with maman for ice cream near Cafe de la Victoire, then arrived for Plessis. Vaudeville \"tres convenable.\" Plessis masterful - ages 20-100 without leaving stage. Best impersonations: Guillaume (Wilhelm I), Gambetta, Napoleon I (especially), Garibaldi. CLASS SNOBBERY: Theater \"rempli de peuple\" - teachers, language tutors, Keldal (Princess G's hanger-on, she says he's \"amoureux de moi\" - disgusting). Marie tolerates women \"de deuxieme et troisieme qualite\" but men must be \"premiere qualite\" only: \"Tout le reste me repugne... je suis sur des epingles.\" After Plessis: moonlight walk with maman in garden. %%",
       "fr_file": "content/fr/006/1873-07-07.md",
@@ -85,7 +85,7 @@
     },
     {
       "file": "1873-07-08.md",
-      "para_id": "006.0210",
+      "para_id": "006.0205",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T15:17:00 LAN: ENGLISH: \"school-room\" - study room %%",
       "fr_file": "content/fr/006/1873-07-08.md",
@@ -94,7 +94,7 @@
     },
     {
       "file": "1873-07-10.md",
-      "para_id": "006.0216",
+      "para_id": "006.0211",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T15:18:00 LAN: ENGLISH: \"instead\" - code-switch %%",
       "fr_file": "content/fr/006/1873-07-10.md",
@@ -103,7 +103,7 @@
     },
     {
       "file": "1873-07-11.md",
-      "para_id": "006.0229",
+      "para_id": "006.0224",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T15:19:00 LAN: \"Gritsia\" - RUSSIAN diminutive of Grigory; Miloradovitch's first name %%",
       "fr_file": "content/fr/006/1873-07-11.md",
@@ -112,7 +112,7 @@
     },
     {
       "file": "1873-07-11.md",
-      "para_id": "006.0236",
+      "para_id": "006.0231",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T15:19:00 LAN: ENGLISH: \"the cholera is raging\" - alarming news from Vienna %%",
       "fr_file": "content/fr/006/1873-07-11.md",
@@ -121,7 +121,7 @@
     },
     {
       "file": "1873-07-12.md",
-      "para_id": "006.0248",
+      "para_id": "006.0243",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T15:20:00 LAN: ENGLISH: Reading list - Bulwer-Lytton, Mrs. Henry Wood, Oliver Goldsmith %%",
       "fr_file": "content/fr/006/1873-07-12.md",
@@ -260,7 +260,7 @@
   "008": [
     {
       "file": "1873-08-30.md",
-      "para_id": "008.0290",
+      "para_id": "008.0279",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:06:08 LAN: ENGLISH \"flesh\" - code-switching: English word for body; \"couverture de flesh humaine\" = covering for human flesh (clothing) %%",
       "fr_file": "content/fr/008/1873-08-30.md",
@@ -269,7 +269,7 @@
     },
     {
       "file": "1873-08-30.md",
-      "para_id": "008.0295",
+      "para_id": "008.0284",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:06:17 LAN: ENGLISH \"jockey cap\" - code-switching: English term for decorative box shape %%",
       "fr_file": "content/fr/008/1873-08-30.md",
@@ -278,7 +278,7 @@
     },
     {
       "file": "1873-08-31.md",
-      "para_id": "008.0298",
+      "para_id": "008.0287",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:07:03 LAN: ENGLISH \"*witch*\" - code-switching: English word for witch; perhaps more exotic/dramatic than French \"sorciere\" %%",
       "fr_file": "content/fr/008/1873-08-31.md",
@@ -287,7 +287,7 @@
     },
     {
       "file": "1873-08-31.md",
-      "para_id": "008.0314",
+      "para_id": "008.0303",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T10:07:20 LAN: \"Moussia\" - RUSSIAN diminutive: affectionate nickname for Marie; Russian pet name form %%",
       "fr_file": "content/fr/008/1873-08-31.md",
@@ -296,7 +296,7 @@
     },
     {
       "file": "1873-08-31.md",
-      "para_id": "008.0322",
+      "para_id": "008.0311",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T10:07:27 LAN: \"Marie Stepanovna\" - RUSSIAN patronymic: Marie daughter of Stepan; formal Russian address %%",
       "fr_file": "content/fr/008/1873-08-31.md",
@@ -305,7 +305,7 @@
     },
     {
       "file": "1873-08-31.md",
-      "para_id": "008.0326",
+      "para_id": "008.0315",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:07:39 LAN: ENGLISH \"former footing\" - code-switching: English phrase for previous standing/relationship; restore status quo %%",
       "fr_file": "content/fr/008/1873-08-31.md",
@@ -314,7 +314,7 @@
     },
     {
       "file": "1873-08-31.md",
-      "para_id": "008.0333",
+      "para_id": "008.0322",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:07:48 LAN: ENGLISH \"give up all her claims\" - code-switching: English legal phrase; surrender rights %%",
       "fr_file": "content/fr/008/1873-08-31.md",
@@ -323,18 +323,18 @@
     },
     {
       "file": "1873-09-01.md",
-      "para_id": "008.0361",
+      "para_id": "009.0027",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T09:02:00 LAN: ITALIAN CODE-SWITCH: \"spogliata\" - Italian for undressed/stripped down; Marie uses Italian for intimacy/body matters %%",
-      "fr_file": "content/fr/008/1873-09-01.md",
-      "original_file": "content/_original/008/1873-09-01.md",
+      "fr_file": "content/fr/009/1873-09-01.md",
+      "original_file": "content/_original/009/1873-09-01.md",
       "current_text": "Je veux apprendre à sauter à la corde, je me suis déshabillée et j'ai commencé, chaleur extrême, avec la corde. Dîner (robe grise, bien). Vraiment je ne suis pas trop laide. Le soir nous sortîmes avec grand-papa, ma tante et la princesse à Monaco, elle a vendu son chignon pour vingt-cinq francs et *a fait la fête*. Maman a très mal à la tête, Dina reste. Ah ! comme la petite fille de la princesse m'ennuie. J'ai dit que Gioia est ici et a des chiens comme Renard. J'ai dit que papa, en connaissant son mari, peut bien aller chez elle. Papa voulait un chien, il a raconté l'histoire des Renard à Bade. Papa admet parfaitement que le duc est marié à cette femme."
     }
   ],
   "009": [
     {
       "file": "1873-09-18.md",
-      "para_id": "009.0217",
+      "para_id": "009.0251",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:16:10 LAN: ENGLISH \"of course\" - code-switch for casual sophistication %%",
       "fr_file": "content/fr/009/1873-09-18.md",
@@ -343,7 +343,7 @@
     },
     {
       "file": "1873-09-18.md",
-      "para_id": "009.0229",
+      "para_id": "009.0263",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:16:45 LAN: ENGLISH \"marrying man\" - social category: man inclined to marry (vs. confirmed bachelor) %%",
       "fr_file": "content/fr/009/1873-09-18.md",
@@ -352,7 +352,7 @@
     },
     {
       "file": "1873-09-19.md",
-      "para_id": "009.0244",
+      "para_id": "009.0278",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:19:35 LAN: ENGLISH \"riding\" - code-switch for equestrian activity %%",
       "fr_file": "content/fr/009/1873-09-19.md",
@@ -361,7 +361,7 @@
     },
     {
       "file": "1873-09-20.md",
-      "para_id": "009.0251",
+      "para_id": "009.0285",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:21:10 LAN: ENGLISH \"plum-cakes\" - code-switch for manufactured/artificial (saints mass-produced like English fruitcakes) %%",
       "fr_file": "content/fr/009/1873-09-20.md",
@@ -370,7 +370,7 @@
     },
     {
       "file": "1873-09-21.md",
-      "para_id": "009.0272",
+      "para_id": "009.0306",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:07:00 LAN: CODE-SWITCH ENGLISH: \"that you have taken my love\" - Marie reports Bete's imagined dialogue in English, likely mimicking how such confrontation might occur between aristocratic women %%",
       "fr_file": "content/fr/009/1873-09-21.md",
@@ -379,7 +379,7 @@
     },
     {
       "file": "1873-09-21.md",
-      "para_id": "009.0275",
+      "para_id": "009.0309",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:12:00 LAN: CODE-SWITCH ENGLISH: \"pointed out\" - Marie uses English verb naturally mid-sentence %%",
       "fr_file": "content/fr/009/1873-09-21.md",
@@ -388,7 +388,7 @@
     },
     {
       "file": "1873-09-22.md",
-      "para_id": "009.0283",
+      "para_id": "009.0317",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:22:00 LAN: CODE-SWITCH ENGLISH: Extended passage in English - Marie's fluent English for describing Duke to English governess. Note contrast: physical insults (\"very fat, very red, dirty cravat\") vs. social praise (\"noblest blood, royal blood\"). \"scotch jacket\" = Scottish-style jacket. \"chemise\" used in English context = shirt %%",
       "fr_file": "content/fr/009/1873-09-22.md",
@@ -399,7 +399,7 @@
   "011": [
     {
       "file": "1873-10-15.md",
-      "para_id": "011.0004",
+      "para_id": "011.0003",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:35:06 LAN: CODE-SWITCH ENGLISH: \"is going to marry lady Manchester\" - English for the painful question %%",
       "fr_file": "content/fr/011/1873-10-15.md",
@@ -408,7 +408,7 @@
     },
     {
       "file": "1873-10-15.md",
-      "para_id": "011.0004",
+      "para_id": "011.0003",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:35:07 LAN: CODE-SWITCH ENGLISH: \"utter a single word\" - English for emphasis on inability to speak %%",
       "fr_file": "content/fr/011/1873-10-15.md",
@@ -417,7 +417,7 @@
     },
     {
       "file": "1873-10-15.md",
-      "para_id": "011.0004",
+      "para_id": "011.0003",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:35:08 LAN: CODE-SWITCH ENGLISH: Full English question about where she read the news, followed by \"muttered\" to describe her voice %%",
       "fr_file": "content/fr/011/1873-10-15.md",
@@ -426,7 +426,7 @@
     },
     {
       "file": "1873-10-15.md",
-      "para_id": "011.0005",
+      "para_id": "011.0004",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:35:09 LAN: CODE-SWITCH ENGLISH: Full English response about \"Morning Post\" newspaper; \"fashionable world\" = high society %%",
       "fr_file": "content/fr/011/1873-10-15.md",
@@ -435,7 +435,7 @@
     },
     {
       "file": "1873-10-15.md",
-      "para_id": "011.0007",
+      "para_id": "011.0006",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:35:12 LAN: CODE-SWITCH ENGLISH: \"hoarse\" - repeats French \"enrouee\" in English, bilingual emphasis %%",
       "fr_file": "content/fr/011/1873-10-15.md",
@@ -444,7 +444,7 @@
     },
     {
       "file": "1873-10-15.md",
-      "para_id": "011.0007",
+      "para_id": "011.0006",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:35:14 LAN: CODE-SWITCH ENGLISH: \"exhausted\" - English for physical collapse %%",
       "fr_file": "content/fr/011/1873-10-15.md",
@@ -453,7 +453,7 @@
     },
     {
       "file": "1873-10-15.md",
-      "para_id": "011.0007",
+      "para_id": "011.0006",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:35:15 LAN: CODE-SWITCH ENGLISH: \"heart-broken\" - English for emotional state; this term appears repeatedly %%",
       "fr_file": "content/fr/011/1873-10-15.md",
@@ -462,7 +462,7 @@
     },
     {
       "file": "1873-10-15.md",
-      "para_id": "011.0019",
+      "para_id": "011.0018",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:35:27 LAN: CODE-SWITCH ENGLISH: \"wild\" - English adjective for her expression %%",
       "fr_file": "content/fr/011/1873-10-15.md",
@@ -471,7 +471,7 @@
     },
     {
       "file": "1873-10-16.md",
-      "para_id": "011.0022",
+      "para_id": "011.0021",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:40:01 LAN: CODE-SWITCH ENGLISH: \"nonsenses\" - playful English plural; \"un tas de nonsenses\" = a heap of nonsense %%",
       "fr_file": "content/fr/011/1873-10-16.md",
@@ -480,7 +480,7 @@
     },
     {
       "file": "1873-10-16.md",
-      "para_id": "011.0022",
+      "para_id": "011.0021",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:40:02 LAN: CODE-SWITCH ENGLISH: \"wet weather\" - English phrase for rainy weather %%",
       "fr_file": "content/fr/011/1873-10-16.md",
@@ -489,7 +489,7 @@
     },
     {
       "file": "1873-10-16.md",
-      "para_id": "011.0028",
+      "para_id": "011.0027",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:40:14 LAN: CODE-SWITCH ENGLISH: \"is evaporated\" - English for the news fading from mind %%",
       "fr_file": "content/fr/011/1873-10-16.md",
@@ -498,7 +498,7 @@
     },
     {
       "file": "1873-10-16.md",
-      "para_id": "011.0028",
+      "para_id": "011.0027",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:40:15 LAN: CODE-SWITCH ENGLISH: \"everything goes on as before\" - English for return to normalcy %%",
       "fr_file": "content/fr/011/1873-10-16.md",
@@ -507,7 +507,7 @@
     },
     {
       "file": "1873-10-16.md",
-      "para_id": "011.0030",
+      "para_id": "011.0029",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:40:21 LAN: CODE-SWITCH ENGLISH: \"freely\" - English adverb for speaking openly %%",
       "fr_file": "content/fr/011/1873-10-16.md",
@@ -516,7 +516,7 @@
     },
     {
       "file": "1873-10-16.md",
-      "para_id": "011.0035",
+      "para_id": "011.0034",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:40:28 LAN: CODE-SWITCH ENGLISH: \"I won't scream\" - English for not screaming; Marie's tendency to raise her voice %%",
       "fr_file": "content/fr/011/1873-10-16.md",
@@ -525,7 +525,7 @@
     },
     {
       "file": "1873-10-17.md",
-      "para_id": "011.0047",
+      "para_id": "011.0046",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:45:01 LAN: CODE-SWITCH ENGLISH: Full newspaper quotation in English; \"betrothal... celebrated at the Court of Baden on the 9th inst.\" = engagement celebrated at Baden court on 9th of this month %%",
       "fr_file": "content/fr/011/1873-10-17.md",
@@ -534,7 +534,7 @@
     },
     {
       "file": "1873-10-17.md",
-      "para_id": "011.0049",
+      "para_id": "011.0048",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:45:07 LAN: CODE-SWITCH ENGLISH: \"miserable\" - English word for wretched state %%",
       "fr_file": "content/fr/011/1873-10-17.md",
@@ -543,7 +543,7 @@
     },
     {
       "file": "1873-10-17.md",
-      "para_id": "011.0054",
+      "para_id": "011.0053",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:45:17 LAN: CODE-SWITCH ENGLISH: \"Too early\" - repeated English phrase, Bete's catchword implying Marie grieves too soon/openly %%",
       "fr_file": "content/fr/011/1873-10-17.md",
@@ -552,7 +552,7 @@
     },
     {
       "file": "1873-10-19.md",
-      "para_id": "011.0117",
+      "para_id": "011.0116",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:55:22 LAN: CODE-SWITCH ENGLISH: \"up\" - must be up at five; English for waking %%",
       "fr_file": "content/fr/011/1873-10-19.md",
@@ -561,7 +561,7 @@
     },
     {
       "file": "1873-10-19.md",
-      "para_id": "011.0117",
+      "para_id": "011.0116",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:55:23 LAN: CODE-SWITCH ENGLISH: \"Namely\" - specifically; listing handsome men %%",
       "fr_file": "content/fr/011/1873-10-19.md",
@@ -570,7 +570,7 @@
     },
     {
       "file": "1873-10-20.md",
-      "para_id": "011.0143",
+      "para_id": "011.0142",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:00:31 LAN: CODE-SWITCH ENGLISH: \"too early too early\" - Bete's repeated English phrase, teasing Marie about grieving prematurely %%",
       "fr_file": "content/fr/011/1873-10-20.md",
@@ -579,7 +579,7 @@
     },
     {
       "file": "1873-10-20.md",
-      "para_id": "011.0144",
+      "para_id": "011.0143",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:00:32 LAN: CODE-SWITCH ENGLISH: Full English passage expressing complete exhaustion; \"quite exhausted... quite heart-broken... little strength of mind\" %%",
       "fr_file": "content/fr/011/1873-10-20.md",
@@ -588,7 +588,7 @@
     },
     {
       "file": "1873-10-20.md",
-      "para_id": "011.0145",
+      "para_id": "011.0144",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:00:33 LAN: CODE-SWITCH ENGLISH: \"Oh! how cruel it is\" - continuing in English; \"deceived in all my schemes\" = disappointed in all my plans %%",
       "fr_file": "content/fr/011/1873-10-20.md",
@@ -597,7 +597,7 @@
     },
     {
       "file": "1873-10-20.md",
-      "para_id": "011.0146",
+      "para_id": "011.0145",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:00:34 LAN: CODE-SWITCH ENGLISH: \"I alone am for him, and he alone is for me\" - English for declaration of destined love %%",
       "fr_file": "content/fr/011/1873-10-20.md",
@@ -606,7 +606,7 @@
     },
     {
       "file": "1873-10-21.md",
-      "para_id": "011.0152",
+      "para_id": "011.0151",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:01:00 LAN: ENGLISH \"After lunch\" - Marie code-switches to English for casual temporal marker %%",
       "fr_file": "content/fr/011/1873-10-21.md",
@@ -615,7 +615,7 @@
     },
     {
       "file": "1873-10-21.md",
-      "para_id": "011.0166",
+      "para_id": "011.0165",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:10:00 LAN: ENGLISH \"breaking out\" / \"broke out\" - Marie uses English repeatedly; likely means \"breaking away\" or escaping from a situation/relationship; playful bilingual wordplay %%",
       "fr_file": "content/fr/011/1873-10-21.md",
@@ -624,7 +624,7 @@
     },
     {
       "file": "1873-10-21.md",
-      "para_id": "011.0167",
+      "para_id": "011.0166",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:11:00 LAN: ENGLISH \"love\" - Marie uses English for romantic/intimate concept; code-switching for emotional distance or sophistication %%",
       "fr_file": "content/fr/011/1873-10-21.md",
@@ -633,7 +633,7 @@
     },
     {
       "file": "1873-10-21.md",
-      "para_id": "011.0168",
+      "para_id": "011.0167",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:12:00 LAN: ENGLISH \"scolding\" - Marie uses English noun; common in her code-switching pattern %%",
       "fr_file": "content/fr/011/1873-10-21.md",
@@ -642,7 +642,7 @@
     },
     {
       "file": "1873-10-22.md",
-      "para_id": "011.0180",
+      "para_id": "011.0179",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:18:00 LAN: ENGLISH \"after my English lesson\" - code-switch for lesson reference; typical bilingual pattern %%",
       "fr_file": "content/fr/011/1873-10-22.md",
@@ -651,7 +651,7 @@
     },
     {
       "file": "1873-10-22.md",
-      "para_id": "011.0184",
+      "para_id": "011.0183",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:24:00 LAN: ENGLISH \"drive\" - Marie uses English verb for carriage riding; anglicism %%",
       "fr_file": "content/fr/011/1873-10-22.md",
@@ -660,7 +660,7 @@
     },
     {
       "file": "1873-10-22.md",
-      "para_id": "011.0186",
+      "para_id": "011.0185",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:25:00 LAN: ENGLISH \"gloomy et dull\" - Marie uses English adjectives for Wittgenstein's appearance %%",
       "fr_file": "content/fr/011/1873-10-22.md",
@@ -669,7 +669,7 @@
     },
     {
       "file": "1873-10-22.md",
-      "para_id": "011.0193",
+      "para_id": "011.0192",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T09:30:00 LAN: RUSSIAN INTERJECTION \"oi, oi, oi!\" - Russian expression of dismay/exasperation %%",
       "fr_file": "content/fr/011/1873-10-22.md",
@@ -678,7 +678,7 @@
     },
     {
       "file": "1873-10-23.md",
-      "para_id": "011.0210",
+      "para_id": "011.0209",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T09:38:00 LAN: ITALIAN \"pezzo di cammino insieme\" - \"a bit of the road together\"; Marie code-switches to Italian for variety/education display %%",
       "fr_file": "content/fr/011/1873-10-23.md",
@@ -687,7 +687,7 @@
     },
     {
       "file": "1873-10-23.md",
-      "para_id": "011.0223",
+      "para_id": "011.0222",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:47:00 LAN: ENGLISH sentence - Marie addresses Hamilton directly in English; more formal/distant than French tu %%",
       "fr_file": "content/fr/011/1873-10-23.md",
@@ -696,7 +696,7 @@
     },
     {
       "file": "1873-10-23.md",
-      "para_id": "011.0224",
+      "para_id": "011.0223",
       "language": "LATIN",
       "lan_context": "%% 2026-01-29T09:48:00 LAN: LATIN \"Rufus\" - red/red-haired; Marie's nickname for Hamilton referring to his hair color %%",
       "fr_file": "content/fr/011/1873-10-23.md",
@@ -705,7 +705,7 @@
     },
     {
       "file": "1873-10-24.md",
-      "para_id": "011.0231",
+      "para_id": "011.0230",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:53:00 LAN: ENGLISH \"Crimea-apples\" - variety of red apple; humorous self-deprecation about blushing %%",
       "fr_file": "content/fr/011/1873-10-24.md",
@@ -714,7 +714,7 @@
     },
     {
       "file": "1873-10-25.md",
-      "para_id": "011.0276",
+      "para_id": "011.0275",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:13:00 LAN: ENGLISH \"I feel only pity and contempt\" - Marie switches to English for emotional distance/emphasis %%",
       "fr_file": "content/fr/011/1873-10-25.md",
@@ -723,7 +723,7 @@
     },
     {
       "file": "1873-10-26.md",
-      "para_id": "011.0289",
+      "para_id": "011.0288",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:20:30 LAN: ENGLISH \"dislike\" - Marie uses English noun; her Anglophilia showing %%",
       "fr_file": "content/fr/011/1873-10-26.md",
@@ -732,7 +732,7 @@
     },
     {
       "file": "1873-10-27.md",
-      "para_id": "011.0297",
+      "para_id": "011.0296",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:27:00 LAN: ENGLISH \"all right\" - Marie uses English colloquialism %%",
       "fr_file": "content/fr/011/1873-10-27.md",
@@ -741,7 +741,7 @@
     },
     {
       "file": "1873-10-28.md",
-      "para_id": "011.0310",
+      "para_id": "011.0309",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:31:00 LAN: ENGLISH \"shoot\" - Marie uses English verb for hunting/shooting %%",
       "fr_file": "content/fr/011/1873-10-28.md",
@@ -750,7 +750,7 @@
     },
     {
       "file": "1873-10-28.md",
-      "para_id": "011.0318",
+      "para_id": "011.0317",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:37:00 LAN: ENGLISH \"cab\" - English word for hired carriage; adopted in French %%",
       "fr_file": "content/fr/011/1873-10-28.md",
@@ -759,7 +759,7 @@
     },
     {
       "file": "1873-10-28.md",
-      "para_id": "011.0318",
+      "para_id": "011.0317",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:38:00 LAN: ENGLISH \"wretched state of mind\" - Marie expresses emotional state in English %%",
       "fr_file": "content/fr/011/1873-10-28.md",
@@ -768,7 +768,7 @@
     },
     {
       "file": "1873-10-28.md",
-      "para_id": "011.0319",
+      "para_id": "011.0318",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:39:00 LAN: ENGLISH \"heart-broken\" and \"miserable\" - Marie uses English for intense emotions %%",
       "fr_file": "content/fr/011/1873-10-28.md",
@@ -777,7 +777,7 @@
     },
     {
       "file": "1873-10-28.md",
-      "para_id": "011.0319",
+      "para_id": "011.0318",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:39:30 LAN: ENGLISH \"groan\" - sigh/moan; code-switch continues %%",
       "fr_file": "content/fr/011/1873-10-28.md",
@@ -786,7 +786,7 @@
     },
     {
       "file": "1873-10-28.md",
-      "para_id": "011.0329",
+      "para_id": "011.0328",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:44:00 LAN: ENGLISH \"to day\" and \"time only can cure affliction\" - Marie switches to English proverb/maxim %%",
       "fr_file": "content/fr/011/1873-10-28.md",
@@ -795,7 +795,7 @@
     },
     {
       "file": "1873-10-29.md",
-      "para_id": "011.0340",
+      "para_id": "011.0350",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:47:30 LAN: ENGLISH \"last legs\" - idiom: about to collapse/wear out; Marie uses English expression %%",
       "fr_file": "content/fr/011/1873-10-29.md",
@@ -804,7 +804,7 @@
     },
     {
       "file": "1873-10-29.md",
-      "para_id": "011.0344",
+      "para_id": "011.0354",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:49:00 LAN: ENGLISH with SPELLING ERROR \"speeks\" - should be \"speaks\"; either Marie's error or mimicking Elder's speech %%",
       "fr_file": "content/fr/011/1873-10-29.md",
@@ -813,7 +813,7 @@
     },
     {
       "file": "1873-10-29.md",
-      "para_id": "011.0345",
+      "para_id": "011.0355",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:50:00 LAN: ENGLISH \"a foreigner\" - code-switch within reported speech %%",
       "fr_file": "content/fr/011/1873-10-29.md",
@@ -822,7 +822,7 @@
     },
     {
       "file": "1873-10-30.md",
-      "para_id": "011.0356",
+      "para_id": "011.0366",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:55:30 LAN: ENGLISH \"pack of hounds\" - Marie switches to English for hunting metaphor describing family %%",
       "fr_file": "content/fr/011/1873-10-30.md",
@@ -831,7 +831,7 @@
     },
     {
       "file": "1873-10-31.md",
-      "para_id": "011.0384",
+      "para_id": "011.0394",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:09:30 LAN: ENGLISH \"spoken of\" - code-switch for emphasis %%",
       "fr_file": "content/fr/011/1873-10-31.md",
@@ -840,7 +840,7 @@
     },
     {
       "file": "1873-11-01.md",
-      "para_id": "011.0422",
+      "para_id": "011.0432",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:10:00 LAN: CODE-SWITCHING ENGLISH: \"carriage horses, ride horses, race-horses\" - Marie uses English equestrian terminology; maintain in English %%",
       "fr_file": "content/fr/011/1873-11-01.md",
@@ -849,7 +849,7 @@
     },
     {
       "file": "1873-11-01.md",
-      "para_id": "011.0443",
+      "para_id": "011.0453",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T09:15:00 LAN: CODE-SWITCHING ITALIAN: \"Tranquillita\" - Tranquility; Marie ends prayers in Italian, possibly liturgical influence %%",
       "fr_file": "content/fr/011/1873-11-01.md",
@@ -858,7 +858,7 @@
     },
     {
       "file": "1873-11-01.md",
-      "para_id": "011.0444",
+      "para_id": "011.0454",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T09:15:15 LAN: CODE-SWITCHING ITALIAN: \"Salvazione\" - Salvation %%",
       "fr_file": "content/fr/011/1873-11-01.md",
@@ -867,7 +867,7 @@
     },
     {
       "file": "1873-11-01.md",
-      "para_id": "011.0445",
+      "para_id": "011.0455",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T09:15:30 LAN: CODE-SWITCHING ITALIAN: \"E tutto\" - And everything/that's all %%",
       "fr_file": "content/fr/011/1873-11-01.md",
@@ -876,7 +876,7 @@
     },
     {
       "file": "1873-11-01.md",
-      "para_id": "011.0453",
+      "para_id": "012.0004",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T09:19:15 LAN: CODE-SWITCHING MIXED: \"en expectation\" - English \"expectation\" in French syntax; Marie's multilingual mind %%",
       "fr_file": "content/fr/011/1873-11-01.md",
@@ -885,7 +885,7 @@
     },
     {
       "file": "1873-11-01.md",
-      "para_id": "011.0453",
+      "para_id": "012.0004",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:19:30 LAN: CODE-SWITCHING ENGLISH: \"have entendre\" - hybrid \"I have heard\"; grammatically incorrect blend %%",
       "fr_file": "content/fr/011/1873-11-01.md",
@@ -894,7 +894,7 @@
     },
     {
       "file": "1873-11-01.md",
-      "para_id": "011.0454",
+      "para_id": "012.0005",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:20:00 LAN: CODE-SWITCHING ENGLISH: \"bid good night\" - say good night; natural English insertion %%",
       "fr_file": "content/fr/011/1873-11-01.md",
@@ -903,7 +903,7 @@
     },
     {
       "file": "1873-11-01.md",
-      "para_id": "011.0472",
+      "para_id": "012.0023",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T09:30:45 LAN: CODE-SWITCHING ITALIAN: \"crescendo\" - musical term naturalized; increasing intensity %%",
       "fr_file": "content/fr/011/1873-11-01.md",
@@ -914,7 +914,7 @@
   "012": [
     {
       "file": "1873-11-02.md",
-      "para_id": "012.0003",
+      "para_id": "012.0027",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:33:00 LAN: CODE-SWITCHING ENGLISH: \"a beast to home\" - a bother/burden at home; Marie's English shows through French syntax %%",
       "fr_file": "content/fr/012/1873-11-02.md",
@@ -923,7 +923,7 @@
     },
     {
       "file": "1873-11-02.md",
-      "para_id": "012.0006",
+      "para_id": "012.0030",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:36:00 LAN: CODE-SWITCHING ENGLISH: \"guns\" - firearms; English term used for hunting/sport weapons %%",
       "fr_file": "content/fr/012/1873-11-02.md",
@@ -932,7 +932,7 @@
     },
     {
       "file": "1873-11-02.md",
-      "para_id": "012.0007",
+      "para_id": "012.0031",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:37:45 LAN: CODE-SWITCHING ENGLISH: \"happened to speak of the colour of the hair\" - English phrase inserted naturally %%",
       "fr_file": "content/fr/012/1873-11-02.md",
@@ -941,7 +941,7 @@
     },
     {
       "file": "1873-11-02.md",
-      "para_id": "012.0008",
+      "para_id": "012.0032",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:38:00 LAN: CODE-SWITCHING ENGLISH: Full English dialogue with Hitchcock preserved; shows Marie's English fluency %%",
       "fr_file": "content/fr/012/1873-11-02.md",
@@ -950,7 +950,7 @@
     },
     {
       "file": "1873-11-02.md",
-      "para_id": "012.0010",
+      "para_id": "012.0034",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:39:30 LAN: CODE-SWITCHING ENGLISH: \"bad tempered\" - keeps English from conversation %%",
       "fr_file": "content/fr/012/1873-11-02.md",
@@ -959,7 +959,7 @@
     },
     {
       "file": "1873-11-02.md",
-      "para_id": "012.0012",
+      "para_id": "012.0036",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:41:15 LAN: CODE-SWITCHING ENGLISH: \"contemptible\" - English word for despicable; shows emotional intensity %%",
       "fr_file": "content/fr/012/1873-11-02.md",
@@ -968,7 +968,7 @@
     },
     {
       "file": "1873-11-02.md",
-      "para_id": "012.0018",
+      "para_id": "012.0042",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:45:00 LAN: CODE-SWITCHING ENGLISH: \"expressed my contempt for Poltava her inhabitants, society, and my dislike for Russians in general\" - full English clause %%",
       "fr_file": "content/fr/012/1873-11-02.md",
@@ -977,7 +977,7 @@
     },
     {
       "file": "1873-11-04.md",
-      "para_id": "012.0032",
+      "para_id": "012.0056",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:54:30 LAN: CODE-SWITCHING ENGLISH: \"walk\" - inserted English verb for promenade %%",
       "fr_file": "content/fr/012/1873-11-04.md",
@@ -986,7 +986,7 @@
     },
     {
       "file": "1873-11-04.md",
-      "para_id": "012.0034",
+      "para_id": "012.0058",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:55:15 LAN: CODE-SWITCHING ENGLISH: \"up and down\" - walking back and forth; English phrase %%",
       "fr_file": "content/fr/012/1873-11-04.md",
@@ -995,7 +995,7 @@
     },
     {
       "file": "1873-11-04.md",
-      "para_id": "012.0037",
+      "para_id": "012.0061",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:56:15 LAN: CODE-SWITCHING ENGLISH: \"we are off\" - we're leaving; casual English expression %%",
       "fr_file": "content/fr/012/1873-11-04.md",
@@ -1004,7 +1004,7 @@
     },
     {
       "file": "1873-11-05.md",
-      "para_id": "012.0047",
+      "para_id": "012.0071",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:01:15 LAN: CODE-SWITCHING ENGLISH: \"because everybody will know you\" - Hitchcock's warning about being seen too often %%",
       "fr_file": "content/fr/012/1873-11-05.md",
@@ -1013,7 +1013,7 @@
     },
     {
       "file": "1873-11-05.md",
-      "para_id": "012.0048",
+      "para_id": "012.0072",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:04:00 LAN: CODE-SWITCHING ENGLISH: \"to watch us\" - Willy watching for their arrival %%",
       "fr_file": "content/fr/012/1873-11-05.md",
@@ -1022,7 +1022,7 @@
     },
     {
       "file": "1873-11-05.md",
-      "para_id": "012.0052",
+      "para_id": "012.0076",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:05:30 LAN: CODE-SWITCHING ITALIAN: \"a più non posso\" - as much as possible/to the utmost; Italian expression for intensity %%",
       "fr_file": "content/fr/012/1873-11-05.md",
@@ -1031,7 +1031,7 @@
     },
     {
       "file": "1873-11-05.md",
-      "para_id": "012.0053",
+      "para_id": "012.0077",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:06:00 LAN: CODE-SWITCHING ENGLISH: \"friendship\" - English word for emotional concept %%",
       "fr_file": "content/fr/012/1873-11-05.md",
@@ -1040,7 +1040,7 @@
     },
     {
       "file": "1873-11-06.md",
-      "para_id": "012.0059",
+      "para_id": "012.0083",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:10:45 LAN: CODE-SWITCHING ENGLISH: \"I am not in her way\" - I'm not competing with her; suggests Hélène can befriend her safely %%",
       "fr_file": "content/fr/012/1873-11-06.md",
@@ -1049,7 +1049,7 @@
     },
     {
       "file": "1873-11-07.md",
-      "para_id": "012.0073",
+      "para_id": "012.0097",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:16:45 LAN: CODE-SWITCHING ENGLISH: \"succeeded\" - managed to do it; English verb inserted %%",
       "fr_file": "content/fr/012/1873-11-07.md",
@@ -1058,7 +1058,7 @@
     },
     {
       "file": "1873-11-07.md",
-      "para_id": "012.0073",
+      "para_id": "012.0097",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:17:15 LAN: CODE-SWITCHING ENGLISH: \"Dady and Brady\" - nickname continuation from previous entry %%",
       "fr_file": "content/fr/012/1873-11-07.md",
@@ -1067,7 +1067,7 @@
     },
     {
       "file": "1873-11-07.md",
-      "para_id": "012.0075",
+      "para_id": "012.0099",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:19:00 LAN: CODE-SWITCHING ENGLISH: \"lot of nonsenses\" - lots of nonsense; Marie's English %%",
       "fr_file": "content/fr/012/1873-11-07.md",
@@ -1076,7 +1076,7 @@
     },
     {
       "file": "1873-11-07.md",
-      "para_id": "012.0084",
+      "para_id": "012.0108",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:21:30 LAN: CODE-SWITCHING ENGLISH: Full English sentence from \"the princess\" - cruel joke about hanging herself on Hamilton's neck %%",
       "fr_file": "content/fr/012/1873-11-07.md",
@@ -1085,7 +1085,7 @@
     },
     {
       "file": "1873-11-07.md",
-      "para_id": "012.0085",
+      "para_id": "012.0109",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:22:00 LAN: CODE-SWITCHING ENGLISH: Marie's angry English response %%",
       "fr_file": "content/fr/012/1873-11-07.md",
@@ -1094,7 +1094,7 @@
     },
     {
       "file": "1873-11-07.md",
-      "para_id": "012.0091",
+      "para_id": "012.0115",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:24:30 LAN: CODE-SWITCHING ENGLISH: \"breakfast (not lunch)\" - clarifying meal terminology %%",
       "fr_file": "content/fr/012/1873-11-07.md",
@@ -1103,7 +1103,7 @@
     },
     {
       "file": "1873-11-08.md",
-      "para_id": "012.0100",
+      "para_id": "012.0124",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:30:45 LAN: CODE-SWITCHING ENGLISH: \"nonsenses\" - nonsense (Marie uses English plural) %%",
       "fr_file": "content/fr/012/1873-11-08.md",
@@ -1112,7 +1112,7 @@
     },
     {
       "file": "1873-11-08.md",
-      "para_id": "012.0108",
+      "para_id": "012.0132",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:34:00 LAN: CODE-SWITCHING ENGLISH: \"quite tamed\" - fully domesticated/tamed; Hitchcock has adapted %%",
       "fr_file": "content/fr/012/1873-11-08.md",
@@ -1121,7 +1121,7 @@
     },
     {
       "file": "1873-11-08.md",
-      "para_id": "012.0108",
+      "para_id": "012.0132",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:34:30 LAN: CODE-SWITCHING ENGLISH: \"lot of nonsenses at dinner\" - continued English for silly talk %%",
       "fr_file": "content/fr/012/1873-11-08.md",
@@ -1130,7 +1130,7 @@
     },
     {
       "file": "1873-11-09.md",
-      "para_id": "012.0115",
+      "para_id": "012.0139",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:38:15 LAN: CODE-SWITCHING ENGLISH: \"The Post says the marriage...\" - full English newspaper quote about Hamilton's wedding %%",
       "fr_file": "content/fr/012/1873-11-09.md",
@@ -1139,7 +1139,7 @@
     },
     {
       "file": "1873-11-09.md",
-      "para_id": "012.0116",
+      "para_id": "012.0140",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:39:00 LAN: CODE-SWITCHING ITALIAN: \"in fretta\" - in haste/quickly; Italian expression %%",
       "fr_file": "content/fr/012/1873-11-09.md",
@@ -1148,7 +1148,7 @@
     },
     {
       "file": "1873-11-09.md",
-      "para_id": "012.0117",
+      "para_id": "012.0141",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:40:00 LAN: CODE-SWITCHING ENGLISH: \"awfully dismal\" - terribly gloomy; English intensifier %%",
       "fr_file": "content/fr/012/1873-11-09.md",
@@ -1157,7 +1157,7 @@
     },
     {
       "file": "1873-11-09.md",
-      "para_id": "012.0122",
+      "para_id": "012.0146",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:42:30 LAN: CODE-SWITCHING ENGLISH: \"chatter pretty well\" - chat quite well; English verb %%",
       "fr_file": "content/fr/012/1873-11-09.md",
@@ -1166,7 +1166,7 @@
     },
     {
       "file": "1873-11-09.md",
-      "para_id": "012.0124",
+      "para_id": "012.0148",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:44:30 LAN: CODE-SWITCHING ENGLISH: \"delighted\" - enchanted; their reaction to her singing %%",
       "fr_file": "content/fr/012/1873-11-09.md",
@@ -1175,7 +1175,7 @@
     },
     {
       "file": "1873-11-09.md",
-      "para_id": "012.0126",
+      "para_id": "012.0150",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:46:00 LAN: CODE-SWITCHING ENGLISH: \"to enlarge on other people's beauty\" - to elaborate on others' beauty; English idiom %%",
       "fr_file": "content/fr/012/1873-11-09.md",
@@ -1184,7 +1184,7 @@
     },
     {
       "file": "1873-11-09.md",
-      "para_id": "012.0127",
+      "para_id": "012.0151",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:47:00 LAN: CODE-SWITCHING ENGLISH: \"Her face, I mean\" - clarifying what's beautiful about Hélène %%",
       "fr_file": "content/fr/012/1873-11-09.md",
@@ -1193,7 +1193,7 @@
     },
     {
       "file": "1873-11-09.md",
-      "para_id": "012.0130",
+      "para_id": "012.0154",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:48:00 LAN: CODE-SWITCHING ENGLISH: \"instead of\" - in place of; English preposition %%",
       "fr_file": "content/fr/012/1873-11-09.md",
@@ -1202,7 +1202,7 @@
     },
     {
       "file": "1873-11-10.md",
-      "para_id": "012.0134",
+      "para_id": "012.0158",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:51:00 LAN: CODE-SWITCHING ENGLISH: Extended English dialogue with Hitchcock - entire conversation in English showing Marie's fluency and attempts to deny feelings %%",
       "fr_file": "content/fr/012/1873-11-10.md",
@@ -1211,7 +1211,7 @@
     },
     {
       "file": "1873-11-10.md",
-      "para_id": "012.0139",
+      "para_id": "012.0163",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:52:00 LAN: CODE-SWITCHING ENGLISH: \"seizing me\" - teasing me; Marie's imperfect English (should be \"teasing\") %%",
       "fr_file": "content/fr/012/1873-11-10.md",
@@ -1220,7 +1220,7 @@
     },
     {
       "file": "1873-11-10.md",
-      "para_id": "012.0153",
+      "para_id": "012.0178",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:54:15 LAN: CODE-SWITCHING ENGLISH: \"goodness\" - exclamation of dismay %%",
       "fr_file": "content/fr/012/1873-11-10.md",
@@ -1229,7 +1229,7 @@
     },
     {
       "file": "1873-11-10.md",
-      "para_id": "012.0154",
+      "para_id": "012.0179",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:54:45 LAN: CODE-SWITCHING ENGLISH: \"I am quite delighted\" - fully satisfied with ride %%",
       "fr_file": "content/fr/012/1873-11-10.md",
@@ -1238,7 +1238,7 @@
     },
     {
       "file": "1873-11-10.md",
-      "para_id": "012.0155",
+      "para_id": "012.0180",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:55:30 LAN: CODE-SWITCHING ITALIAN: \"a più non posso\" - as much as possible; intense trotting %%",
       "fr_file": "content/fr/012/1873-11-10.md",
@@ -1247,7 +1247,7 @@
     },
     {
       "file": "1873-11-10.md",
-      "para_id": "012.0155",
+      "para_id": "012.0180",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:55:45 LAN: CODE-SWITCHING ENGLISH: \"Go on, Jennings, go on !\" - racing cry from Paris; becomes Marie's personal motto %%",
       "fr_file": "content/fr/012/1873-11-10.md",
@@ -1256,7 +1256,7 @@
     },
     {
       "file": "1873-11-10.md",
-      "para_id": "012.0156",
+      "para_id": "012.0181",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:58:00 LAN: CODE-SWITCHING ENGLISH: \"He has cow's legs, pig's face and a hippopotamus's back\" - comic animal description of Hamilton %%",
       "fr_file": "content/fr/012/1873-11-10.md",
@@ -1265,7 +1265,7 @@
     },
     {
       "file": "1873-11-10.md",
-      "para_id": "012.0161",
+      "para_id": "012.0186",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T11:01:30 LAN: CODE-SWITCHING ITALIAN: \"con maggior forza\" - with greater force; musical term for emotional return %%",
       "fr_file": "content/fr/012/1873-11-10.md",
@@ -1274,7 +1274,7 @@
     },
     {
       "file": "1873-11-11.md",
-      "para_id": "012.0164",
+      "para_id": "012.0189",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:01:00 LAN: ENGLISH \"breakfast\" - Marie uses English word for morning meal, reflecting her Anglophilia; preserve as English in translation %%",
       "fr_file": "content/fr/012/1873-11-11.md",
@@ -1283,7 +1283,7 @@
     },
     {
       "file": "1873-11-11.md",
-      "para_id": "012.0165",
+      "para_id": "012.0190",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:02:30 LAN: CODE-SWITCH ENGLISH \"the soles are burning and enflés\" - mid-sentence switch to English, then French \"enflés\" (swollen); shows bilingual thinking %%",
       "fr_file": "content/fr/012/1873-11-11.md",
@@ -1292,7 +1292,7 @@
     },
     {
       "file": "1873-11-12.md",
-      "para_id": "012.0175",
+      "para_id": "012.0200",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:11:00 LAN: ENGLISH \"riding-master\" - English term for equestrian instructor; keep in English %%",
       "fr_file": "content/fr/012/1873-11-12.md",
@@ -1301,7 +1301,7 @@
     },
     {
       "file": "1873-11-12.md",
-      "para_id": "012.0175",
+      "para_id": "012.0200",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:11:30 LAN: ENGLISH \"stable-boys\" - keep in English; Marie's Anglophilia shows in vocabulary %%",
       "fr_file": "content/fr/012/1873-11-12.md",
@@ -1310,7 +1310,7 @@
     },
     {
       "file": "1873-11-12.md",
-      "para_id": "012.0175",
+      "para_id": "012.0200",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T09:11:45 LAN: CODE-SWITCH \"les commons are mieux\" - mid-sentence English \"are\" plus \"commons\" (commoners); Marie's bilingual thinking %%",
       "fr_file": "content/fr/012/1873-11-12.md",
@@ -1319,7 +1319,7 @@
     },
     {
       "file": "1873-11-13.md",
-      "para_id": "012.0181",
+      "para_id": "012.0206",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:15:00 LAN: CODE-SWITCH ENGLISH \"When my lesson are done I rush out of the room\" - full English sentence; note GRAMMAR ERROR \"lesson\" should be \"lessons\" %%",
       "fr_file": "content/fr/012/1873-11-13.md",
@@ -1328,7 +1328,7 @@
     },
     {
       "file": "1873-11-13.md",
-      "para_id": "012.0182",
+      "para_id": "012.0207",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:16:45 LAN: CODE-SWITCH ENGLISH \"weather\" - single English word inserted; shows her linguistic preferences %%",
       "fr_file": "content/fr/012/1873-11-13.md",
@@ -1337,7 +1337,7 @@
     },
     {
       "file": "1873-11-13.md",
-      "para_id": "012.0183",
+      "para_id": "012.0208",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:17:30 LAN: CODE-SWITCH ENGLISH \"He would beat trotting another horse galopping\" - full English sentence; note GRAMMAR: \"galopping\" non-standard spelling %%",
       "fr_file": "content/fr/012/1873-11-13.md",
@@ -1346,7 +1346,7 @@
     },
     {
       "file": "1873-11-13.md",
-      "para_id": "012.0183",
+      "para_id": "012.0208",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:17:45 LAN: CODE-SWITCH ENGLISH \"horse\" - English word in French sentence \"le horse de Paul\" %%",
       "fr_file": "content/fr/012/1873-11-13.md",
@@ -1355,7 +1355,7 @@
     },
     {
       "file": "1873-11-13.md",
-      "para_id": "012.0183",
+      "para_id": "012.0208",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T09:18:00 LAN: CODE-SWITCH ITALIAN \"per voler esser certo di quella fede che vince aqui errore\" - quotation from Dante, Paradiso XXIV; Marie showing off classical education %%",
       "fr_file": "content/fr/012/1873-11-13.md",
@@ -1364,7 +1364,7 @@
     },
     {
       "file": "1873-11-13.md",
-      "para_id": "012.0183",
+      "para_id": "012.0208",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:18:15 LAN: ENGLISH \"steeple chase\" - keep in English; technical equestrian term %%",
       "fr_file": "content/fr/012/1873-11-13.md",
@@ -1373,7 +1373,7 @@
     },
     {
       "file": "1873-11-13.md",
-      "para_id": "012.0184",
+      "para_id": "012.0209",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:19:00 LAN: CODE-SWITCH ENGLISH \"quite comfortable\" - English phrase in French sentence %%",
       "fr_file": "content/fr/012/1873-11-13.md",
@@ -1382,7 +1382,7 @@
     },
     {
       "file": "1873-11-13.md",
-      "para_id": "012.0185",
+      "para_id": "012.0210",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:20:45 LAN: CODE-SWITCH ENGLISH \"Scotch...being Scotch...of Scotland...Dukes of Cambridge and Argyll and John Bull\" - extended English passage in elaborate joke about Hitchcock %%",
       "fr_file": "content/fr/012/1873-11-13.md",
@@ -1391,7 +1391,7 @@
     },
     {
       "file": "1873-11-13.md",
-      "para_id": "012.0186",
+      "para_id": "012.0211",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:22:00 LAN: CODE-SWITCH ENGLISH \"ladies in love who sit on the table\" - Hitchcock's English saying/superstition %%",
       "fr_file": "content/fr/012/1873-11-13.md",
@@ -1400,7 +1400,7 @@
     },
     {
       "file": "1873-11-14.md",
-      "para_id": "012.0189",
+      "para_id": "012.0214",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:25:30 LAN: CODE-SWITCH ENGLISH \"fidgets me\" - English verb with French pronoun; means irritates/annoys me %%",
       "fr_file": "content/fr/012/1873-11-14.md",
@@ -1409,7 +1409,7 @@
     },
     {
       "file": "1873-11-14.md",
-      "para_id": "012.0189",
+      "para_id": "012.0214",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:26:00 LAN: CODE-SWITCH ENGLISH \"sick\" - single English word inserted %%",
       "fr_file": "content/fr/012/1873-11-14.md",
@@ -1418,7 +1418,7 @@
     },
     {
       "file": "1873-11-14.md",
-      "para_id": "012.0190",
+      "para_id": "012.0215",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:27:15 LAN: ENGLISH \"mackintosh\" - waterproof coat named after inventor; keep in English %%",
       "fr_file": "content/fr/012/1873-11-14.md",
@@ -1427,7 +1427,7 @@
     },
     {
       "file": "1873-11-14.md",
-      "para_id": "012.0190",
+      "para_id": "012.0215",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:27:45 LAN: CODE-SWITCH ENGLISH \"posted\" - English verb in French context %%",
       "fr_file": "content/fr/012/1873-11-14.md",
@@ -1436,7 +1436,7 @@
     },
     {
       "file": "1873-11-14.md",
-      "para_id": "012.0190",
+      "para_id": "012.0215",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:28:00 LAN: ENGLISH \"waterproofs\" - keep in English; 1870s fashion term %%",
       "fr_file": "content/fr/012/1873-11-14.md",
@@ -1445,7 +1445,7 @@
     },
     {
       "file": "1873-11-14.md",
-      "para_id": "012.0190",
+      "para_id": "012.0215",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:28:15 LAN: CODE-SWITCH ENGLISH \"obliged\" - English word replacing French \"obligée\" %%",
       "fr_file": "content/fr/012/1873-11-14.md",
@@ -1454,7 +1454,7 @@
     },
     {
       "file": "1873-11-15.md",
-      "para_id": "012.0207",
+      "para_id": "012.0232",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:35:15 LAN: CODE-SWITCH ENGLISH \"stiff\" - English word replacing French \"raide\" %%",
       "fr_file": "content/fr/012/1873-11-15.md",
@@ -1463,7 +1463,7 @@
     },
     {
       "file": "1873-11-15.md",
-      "para_id": "012.0210",
+      "para_id": "012.0235",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:38:30 LAN: CODE-SWITCH ENGLISH \"removed\" - English verb in French sentence %%",
       "fr_file": "content/fr/012/1873-11-15.md",
@@ -1472,7 +1472,7 @@
     },
     {
       "file": "1873-11-15.md",
-      "para_id": "012.0210",
+      "para_id": "012.0235",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:38:45 LAN: CODE-SWITCH ENGLISH \"I began carefully à ramasser, for fear that she in walking shall see that somebody has been in the house\" - extended English passage within dream narrative; note mixing of languages %%",
       "fr_file": "content/fr/012/1873-11-15.md",
@@ -1481,7 +1481,7 @@
     },
     {
       "file": "1873-11-15.md",
-      "para_id": "012.0212",
+      "para_id": "012.0237",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:40:30 LAN: CODE-SWITCH ENGLISH \"unfortunately\" - English word mid-sentence emphasizing her distress %%",
       "fr_file": "content/fr/012/1873-11-15.md",
@@ -1490,7 +1490,7 @@
     },
     {
       "file": "1873-11-16.md",
-      "para_id": "012.0230",
+      "para_id": "012.0255",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:47:30 LAN: CODE-SWITCH ENGLISH \"drive\" - English word for carriage outing %%",
       "fr_file": "content/fr/012/1873-11-16.md",
@@ -1499,7 +1499,7 @@
     },
     {
       "file": "1873-11-17.md",
-      "para_id": "012.0257",
+      "para_id": "012.0282",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:00:00 LAN: CODE-SWITCH ENGLISH \"bleeds\" - English verb for the horse bleeding %%",
       "fr_file": "content/fr/012/1873-11-17.md",
@@ -1508,7 +1508,7 @@
     },
     {
       "file": "1873-11-17.md",
-      "para_id": "012.0257",
+      "para_id": "012.0282",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:00:45 LAN: CODE-SWITCH ENGLISH \"unhurt\" - English word in French sentence %%",
       "fr_file": "content/fr/012/1873-11-17.md",
@@ -1517,7 +1517,7 @@
     },
     {
       "file": "1873-11-18.md",
-      "para_id": "012.0264",
+      "para_id": "012.0289",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:08:30 LAN: CODE-SWITCH ENGLISH \"thoughtless\" - English word in French sentence %%",
       "fr_file": "content/fr/012/1873-11-18.md",
@@ -1526,7 +1526,7 @@
     },
     {
       "file": "1873-11-19.md",
-      "para_id": "012.0281",
+      "para_id": "012.0306",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:16:00 LAN: CODE-SWITCH ENGLISH \"practised\" - English verb; Aggie was practicing (piano or music) %%",
       "fr_file": "content/fr/012/1873-11-19.md",
@@ -1535,7 +1535,7 @@
     },
     {
       "file": "1873-11-19.md",
-      "para_id": "012.0283",
+      "para_id": "012.0308",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:18:15 LAN: CODE-SWITCH ENGLISH \"rigid\" - English word in French text %%",
       "fr_file": "content/fr/012/1873-11-19.md",
@@ -1544,7 +1544,7 @@
     },
     {
       "file": "1873-11-19.md",
-      "para_id": "012.0283",
+      "para_id": "012.0308",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:19:30 LAN: CODE-SWITCH ITALIAN \"basta\" - enough!; Italian exclamation %%",
       "fr_file": "content/fr/012/1873-11-19.md",
@@ -1553,7 +1553,7 @@
     },
     {
       "file": "1873-11-20.md",
-      "para_id": "012.0296",
+      "para_id": "012.0321",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:28:00 LAN: CODE-SWITCH ENGLISH \"contempt\" - English word for disdain %%",
       "fr_file": "content/fr/012/1873-11-20.md",
@@ -1562,7 +1562,7 @@
     },
     {
       "file": "1873-11-20.md",
-      "para_id": "012.0296",
+      "para_id": "012.0321",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:29:15 LAN: CODE-SWITCH ENGLISH \"contemptible creatures\" - English phrase for contemptuous judgment %%",
       "fr_file": "content/fr/012/1873-11-20.md",
@@ -1571,7 +1571,7 @@
     },
     {
       "file": "1873-11-20.md",
-      "para_id": "012.0296",
+      "para_id": "012.0321",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:29:30 LAN: CODE-SWITCH ENGLISH \"nonsenses\" - English plural in French sentence %%",
       "fr_file": "content/fr/012/1873-11-20.md",
@@ -1580,7 +1580,7 @@
     },
     {
       "file": "1873-11-20.md",
-      "para_id": "012.0298",
+      "para_id": "012.0323",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:31:15 LAN: CODE-SWITCH ENGLISH \"disappointed\" - English word in French sentence %%",
       "fr_file": "content/fr/012/1873-11-20.md",
@@ -1589,7 +1589,7 @@
     },
     {
       "file": "1873-11-20.md",
-      "para_id": "012.0298",
+      "para_id": "012.0323",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:32:00 LAN: CODE-SWITCH ENGLISH \"Nice is a worthless place\" - concluding English sentence expressing total contempt %%",
       "fr_file": "content/fr/012/1873-11-20.md",
@@ -1600,7 +1600,7 @@
   "013": [
     {
       "file": "1873-11-21.md",
-      "para_id": "013.0006",
+      "para_id": "013.0002",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:01:00 LAN: ENGLISH \"wretched\" - Marie code-switches for emotional emphasis; preserve as English in translation %%",
       "fr_file": "content/fr/013/1873-11-21.md",
@@ -1609,7 +1609,7 @@
     },
     {
       "file": "1873-11-21.md",
-      "para_id": "013.0010",
+      "para_id": "013.0005",
       "language": "LATIN",
       "lan_context": "%% 2026-01-29T10:02:00 LAN: LATIN \"propria persona\" - mock-legal/formal phrase for comic effect; Marie's self-mockery %%",
       "fr_file": "content/fr/013/1873-11-21.md",
@@ -1618,7 +1618,7 @@
     },
     {
       "file": "1873-11-21.md",
-      "para_id": "013.0012",
+      "para_id": "013.0007",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:03:15 LAN: ENGLISH \"saddle qui is come since yesterday\" - Marie's imperfect English grammar (should be \"has come\"); shows her learning process %%",
       "fr_file": "content/fr/013/1873-11-21.md",
@@ -1627,7 +1627,7 @@
     },
     {
       "file": "1873-11-21.md",
-      "para_id": "013.0014",
+      "para_id": "013.0009",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T10:04:15 LAN: RUSSIAN \"diadia\" - uncle; familiar/affectionate term, keep transliterated %%",
       "fr_file": "content/fr/013/1873-11-21.md",
@@ -1636,7 +1636,7 @@
     },
     {
       "file": "1873-11-22.md",
-      "para_id": "013.0025",
+      "para_id": "013.0020",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:08:00 LAN: ENGLISH \"As days went on it became sadly clear that Hitchcock is an ignorant and stupid female\" - full sentence code-switch; Marie's judgment delivered in governess's own language %%",
       "fr_file": "content/fr/013/1873-11-22.md",
@@ -1645,7 +1645,7 @@
     },
     {
       "file": "1873-11-22.md",
-      "para_id": "013.0025",
+      "para_id": "013.0020",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:08:30 LAN: ENGLISH \"of course\" - casual code-switch showing bilingual ease %%",
       "fr_file": "content/fr/013/1873-11-22.md",
@@ -1654,7 +1654,7 @@
     },
     {
       "file": "1873-11-22.md",
-      "para_id": "013.0040",
+      "para_id": "013.0035",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:12:00 LAN: ITALIAN \"antipolvere\" - dustproof, i.e., respectable/not dusty; Marie's multilingual slang for social quality %%",
       "fr_file": "content/fr/013/1873-11-22.md",
@@ -1663,7 +1663,7 @@
     },
     {
       "file": "1873-11-23.md",
-      "para_id": "013.0052",
+      "para_id": "013.0047",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:15:00 LAN: ENGLISH full passage - emotional outburst delivered entirely in English for emphasis/privacy; preserve as English %%",
       "fr_file": "content/fr/013/1873-11-23.md",
@@ -1672,7 +1672,7 @@
     },
     {
       "file": "1873-11-23.md",
-      "para_id": "013.0057",
+      "para_id": "013.0052",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:19:15 LAN: ENGLISH \"quite miserable\" - code-switch for emotional state; understated English manner %%",
       "fr_file": "content/fr/013/1873-11-23.md",
@@ -1681,7 +1681,7 @@
     },
     {
       "file": "1873-11-23.md",
-      "para_id": "013.0070",
+      "para_id": "013.0065",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:21:00 LAN: ENGLISH \"miserable\" - code-switch; the English word carries different weight than French \"miserable\" %%",
       "fr_file": "content/fr/013/1873-11-23.md",
@@ -1690,7 +1690,7 @@
     },
     {
       "file": "1873-11-23.md",
-      "para_id": "013.0070",
+      "para_id": "013.0065",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:21:15 LAN: ENGLISH \"even\" - code-switch: composed/steady; English understatement %%",
       "fr_file": "content/fr/013/1873-11-23.md",
@@ -1699,7 +1699,7 @@
     },
     {
       "file": "1873-11-23.md",
-      "para_id": "013.0070",
+      "para_id": "013.0065",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:21:30 LAN: ITALIAN \"una pretesa di vedermi\" - a pretense/claim of seeing me; Marie's Italian for nuanced social observation %%",
       "fr_file": "content/fr/013/1873-11-23.md",
@@ -1708,7 +1708,7 @@
     },
     {
       "file": "1873-11-23.md",
-      "para_id": "013.0070",
+      "para_id": "013.0065",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:21:45 LAN: ENGLISH \"awe\" - code-switch for sublime emotion; religious/romantic register %%",
       "fr_file": "content/fr/013/1873-11-23.md",
@@ -1717,7 +1717,7 @@
     },
     {
       "file": "1873-11-24.md",
-      "para_id": "013.0075",
+      "para_id": "013.0070",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:23:00 LAN: ENGLISH \"to morrow/to day\" - Marie's self-aware language error; spelling shows her learning process %%",
       "fr_file": "content/fr/013/1873-11-24.md",
@@ -1726,7 +1726,7 @@
     },
     {
       "file": "1873-11-24.md",
-      "para_id": "013.0075",
+      "para_id": "013.0070",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:23:15 LAN: ENGLISH \"groom\" - stable hand; English term standard in equestrian contexts %%",
       "fr_file": "content/fr/013/1873-11-24.md",
@@ -1735,7 +1735,7 @@
     },
     {
       "file": "1873-11-25.md",
-      "para_id": "013.0082",
+      "para_id": "013.0077",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:27:15 LAN: ENGLISH \"indeed un grand scandal\" - code-switch mid-sentence for emphasis %%",
       "fr_file": "content/fr/013/1873-11-25.md",
@@ -1744,7 +1744,7 @@
     },
     {
       "file": "1873-11-25.md",
-      "para_id": "013.0083",
+      "para_id": "013.0078",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:28:00 LAN: ENGLISH \"bother\" - code-switch: annoyance; English understatement for irritation %%",
       "fr_file": "content/fr/013/1873-11-25.md",
@@ -1753,7 +1753,7 @@
     },
     {
       "file": "1873-11-25.md",
-      "para_id": "013.0085",
+      "para_id": "013.0080",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:29:15 LAN: ITALIAN \"si e radolcito\" - has softened; father uses Italian, Marie responds in kind %%",
       "fr_file": "content/fr/013/1873-11-25.md",
@@ -1762,7 +1762,7 @@
     },
     {
       "file": "1873-11-25.md",
-      "para_id": "013.0085",
+      "para_id": "013.0080",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:29:30 LAN: ENGLISH \"stern reply\" - code-switch for self-characterization %%",
       "fr_file": "content/fr/013/1873-11-25.md",
@@ -1771,7 +1771,7 @@
     },
     {
       "file": "1873-11-25.md",
-      "para_id": "013.0085",
+      "para_id": "013.0080",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:29:45 LAN: ITALIAN \"che era poco distante\" - which was not far away; casual multilingual weaving %%",
       "fr_file": "content/fr/013/1873-11-25.md",
@@ -1780,7 +1780,7 @@
     },
     {
       "file": "1873-11-25.md",
-      "para_id": "013.0086",
+      "para_id": "013.0081",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:30:00 LAN: ENGLISH \"witness\" - code-switch: to witness; adds gravity to observation %%",
       "fr_file": "content/fr/013/1873-11-25.md",
@@ -1789,7 +1789,7 @@
     },
     {
       "file": "1873-11-26.md",
-      "para_id": "013.0110",
+      "para_id": "013.0105",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:35:00 LAN: ENGLISH \"five of them\" - code-switch mid-sentence; casual bilingual counting %%",
       "fr_file": "content/fr/013/1873-11-26.md",
@@ -1798,7 +1798,7 @@
     },
     {
       "file": "1873-11-26.md",
-      "para_id": "013.0110",
+      "para_id": "013.0105",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:35:15 LAN: ENGLISH \"Bother!\" - exclamation: nuisance/bother; mild English expletive %%",
       "fr_file": "content/fr/013/1873-11-26.md",
@@ -1807,7 +1807,7 @@
     },
     {
       "file": "1873-11-26.md",
-      "para_id": "013.0111",
+      "para_id": "013.0106",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:36:00 LAN: ENGLISH \"croquet-lawn\" - English garden term preserved in French text %%",
       "fr_file": "content/fr/013/1873-11-26.md",
@@ -1816,7 +1816,7 @@
     },
     {
       "file": "1873-11-26.md",
-      "para_id": "013.0111",
+      "para_id": "013.0106",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:36:15 LAN: ITALIAN \"infuria\" - flew into a frenzy; Italian verb inserted for dramatic effect %%",
       "fr_file": "content/fr/013/1873-11-26.md",
@@ -1825,7 +1825,7 @@
     },
     {
       "file": "1873-11-26.md",
-      "para_id": "013.0111",
+      "para_id": "013.0106",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:36:30 LAN: ENGLISH \"hill\" - code-switch for landscape feature %%",
       "fr_file": "content/fr/013/1873-11-26.md",
@@ -1834,7 +1834,7 @@
     },
     {
       "file": "1873-11-26.md",
-      "para_id": "013.0111",
+      "para_id": "013.0106",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:36:45 LAN: ITALIAN \"antipolvere\" - again: dustproof/respectable; Marie's recurrent multilingual social marker %%",
       "fr_file": "content/fr/013/1873-11-26.md",
@@ -1843,7 +1843,7 @@
     },
     {
       "file": "1873-11-28.md",
-      "para_id": "013.0133",
+      "para_id": "013.0128",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:44:15 LAN: ENGLISH full announcement text - newspaper clipping quoted verbatim; preserve as English %%",
       "fr_file": "content/fr/013/1873-11-28.md",
@@ -1852,7 +1852,7 @@
     },
     {
       "file": "1873-11-28.md",
-      "para_id": "013.0135",
+      "para_id": "013.0130",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:42:00 LAN: ITALIAN \"bestemmia\" - I curse/blaspheme; Marie switches to Italian for strongest invective %%",
       "fr_file": "content/fr/013/1873-11-28.md",
@@ -1861,7 +1861,7 @@
     },
     {
       "file": "1873-11-29.md",
-      "para_id": "013.0140",
+      "para_id": "013.0135",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:46:30 LAN: ENGLISH \"canter\" - equestrian term: three-beat gait; English standard in riding vocabulary %%",
       "fr_file": "content/fr/013/1873-11-29.md",
@@ -1870,7 +1870,7 @@
     },
     {
       "file": "1873-12-01.md",
-      "para_id": "013.0159",
+      "para_id": "013.0166",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T09:06:00 LAN: \"diadia\" - RUSSIAN: uncle (affectionate), Marie's code-switching for family terms %%",
       "fr_file": "content/fr/013/1873-12-01.md",
@@ -1879,7 +1879,7 @@
     },
     {
       "file": "1873-12-03.md",
-      "para_id": "013.0176",
+      "para_id": "013.0183",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:26:30 LAN: CODE-SWITCH ENGLISH: \"entertain a party of friends\" - Marie quotes directly from the newspaper %%",
       "fr_file": "content/fr/013/1873-12-03.md",
@@ -1888,7 +1888,7 @@
     },
     {
       "file": "1873-12-03.md",
-      "para_id": "013.0182",
+      "para_id": "013.0189",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T09:35:00 LAN: \"il danse, il ride\" - CODE-SWITCH: \"ride\" is English (rides horseback); mixing languages %%",
       "fr_file": "content/fr/013/1873-12-03.md",
@@ -1897,7 +1897,7 @@
     },
     {
       "file": "1873-12-03.md",
-      "para_id": "013.0185",
+      "para_id": "013.0192",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:39:00 LAN: CODE-SWITCH ENGLISH: \"stable-boy\" - English term for groom's assistant %%",
       "fr_file": "content/fr/013/1873-12-03.md",
@@ -1906,7 +1906,7 @@
     },
     {
       "file": "1873-12-03.md",
-      "para_id": "013.0189",
+      "para_id": "013.0196",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:43:00 LAN: CODE-SWITCH ENGLISH: \"I long after\" - English phrase inserted; yearning for something %%",
       "fr_file": "content/fr/013/1873-12-03.md",
@@ -1915,7 +1915,7 @@
     },
     {
       "file": "1873-12-04.md",
-      "para_id": "013.0196",
+      "para_id": "013.0203",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T09:51:00 LAN: CODE-SWITCH ENGLISH: \"I must confess\" - formal admission %%",
       "fr_file": "content/fr/013/1873-12-04.md",
@@ -1924,7 +1924,7 @@
     },
     {
       "file": "1873-12-04.md",
-      "para_id": "013.0207",
+      "para_id": "013.0214",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T10:10:00 LAN: \"diadia\" - RUSSIAN: uncle (affectionate form) %%",
       "fr_file": "content/fr/013/1873-12-04.md",
@@ -1933,7 +1933,7 @@
     },
     {
       "file": "1873-12-05.md",
-      "para_id": "013.0214",
+      "para_id": "013.0221",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:19:00 LAN: ITALIAN: \"Gioia\" means \"joy\" in Italian; Marie pretends not to understand %%",
       "fr_file": "content/fr/013/1873-12-05.md",
@@ -1942,7 +1942,7 @@
     },
     {
       "file": "1873-12-06.md",
-      "para_id": "013.0229",
+      "para_id": "013.0240",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T10:39:00 LAN: \"Thadée Serguéïevitch Romanoff\" - RUSSIAN: full patronymic name, proper form %%",
       "fr_file": "content/fr/013/1873-12-06.md",
@@ -1951,7 +1951,7 @@
     },
     {
       "file": "1873-12-06.md",
-      "para_id": "013.0229",
+      "para_id": "013.0240",
       "language": "LATIN",
       "lan_context": "%% 2026-01-29T10:40:00 LAN: ITALIAN/LATIN: \"sinistra\" - left; reinforces \"main gauche\" concept %%",
       "fr_file": "content/fr/013/1873-12-06.md",
@@ -1960,7 +1960,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0267",
+      "para_id": "013.0278",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:18:00 LAN: CODE-SWITCH ENGLISH: \"The marriage of the duke of Hamilton\" - newspaper headline %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -1969,7 +1969,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0268",
+      "para_id": "013.0279",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:19:00 LAN: FULL ENGLISH PASSAGE: newspaper clipping; preserve in English %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -1978,7 +1978,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0269",
+      "para_id": "013.0280",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:20:00 LAN: ENGLISH: \"Premier Peer of Scotland\" - Hamilton's title as first-ranking Scottish nobleman %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -1987,7 +1987,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0269",
+      "para_id": "013.0280",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:20:30 LAN: ENGLISH: \"Middle Ward of Lanarkshire\" - administrative district of Hamilton estates %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -1996,7 +1996,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0269",
+      "para_id": "013.0280",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:21:00 LAN: ENGLISH: \"Chatelherault\" - Hamilton family hunting lodge, pronounced French style %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -2005,7 +2005,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0269",
+      "para_id": "013.0280",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:21:30 LAN: ENGLISH: \"Town-ball\" - town hall assembly room %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -2014,7 +2014,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0270",
+      "para_id": "013.0281",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:22:00 LAN: ENGLISH: \"Queen's Own Yeomanry Cavalry\" - local military unit %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -2023,7 +2023,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0270",
+      "para_id": "013.0281",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:22:30 LAN: ENGLISH: \"chased design\" - engraved/embossed metalwork %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -2032,7 +2032,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0272",
+      "para_id": "013.0283",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:23:00 LAN: CODE-SWITCH ENGLISH: \"a salute will be fired\" - cannon salute quoted from article %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -2041,7 +2041,7 @@
     },
     {
       "file": "1873-12-08.md",
-      "para_id": "013.0272",
+      "para_id": "013.0283",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:23:30 LAN: CODE-SWITCH ENGLISH: \"His Grace's employés\" - formal term for duke's employees %%",
       "fr_file": "content/fr/013/1873-12-08.md",
@@ -2050,7 +2050,7 @@
     },
     {
       "file": "1873-12-09.md",
-      "para_id": "013.0280",
+      "para_id": "013.0308",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:36:30 LAN: CODE-SWITCH ENGLISH: \"what is the use of it\" - rhetorical question in English %%",
       "fr_file": "content/fr/013/1873-12-09.md",
@@ -2059,7 +2059,7 @@
     },
     {
       "file": "1873-12-09.md",
-      "para_id": "013.0280",
+      "para_id": "013.0308",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:37:30 LAN: CODE-SWITCH ENGLISH: \"The marriage of the duke of Hamilton\" - article title again %%",
       "fr_file": "content/fr/013/1873-12-09.md",
@@ -2068,7 +2068,7 @@
     },
     {
       "file": "1873-12-09.md",
-      "para_id": "013.0280",
+      "para_id": "013.0308",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:38:30 LAN: CODE-SWITCH ENGLISH: \"rejoicings\" - celebrations, from the newspaper %%",
       "fr_file": "content/fr/013/1873-12-09.md",
@@ -2077,7 +2077,7 @@
     },
     {
       "file": "1873-12-09.md",
-      "para_id": "013.0281",
+      "para_id": "013.0309",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T11:39:00 LAN: \"Moussia\" - RUSSIAN: diminutive of Marie, affectionate family nickname %%",
       "fr_file": "content/fr/013/1873-12-09.md",
@@ -2086,7 +2086,7 @@
     },
     {
       "file": "1873-12-09.md",
-      "para_id": "013.0285",
+      "para_id": "013.0313",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:41:00 LAN: CODE-SWITCH ENGLISH: \"I read it a second time\" - the princess's reaction %%",
       "fr_file": "content/fr/013/1873-12-09.md",
@@ -2095,7 +2095,7 @@
     },
     {
       "file": "1873-12-09.md",
-      "para_id": "013.0293",
+      "para_id": "013.0321",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:48:30 LAN: \"seat des familles\" - CODE-SWITCH ENGLISH: family seat, ancestral home %%",
       "fr_file": "content/fr/013/1873-12-09.md",
@@ -2104,7 +2104,7 @@
     },
     {
       "file": "1873-12-09.md",
-      "para_id": "013.0295",
+      "para_id": "013.0323",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:52:00 LAN: CODE-SWITCH ENGLISH: \"commanding\" - in command, authoritative %%",
       "fr_file": "content/fr/013/1873-12-09.md",
@@ -2115,7 +2115,7 @@
   "014": [
     {
       "file": "1873-12-11.md",
-      "para_id": "014.0022",
+      "para_id": "014.0018",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:15:05 LAN: CODE-SWITCH ENGLISH: \"home\" - Marie uses English for domestic term, common in cosmopolitan households %%",
       "fr_file": "content/fr/014/1873-12-11.md",
@@ -2124,7 +2124,7 @@
     },
     {
       "file": "1873-12-11.md",
-      "para_id": "014.0025",
+      "para_id": "014.0021",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:15:13 LAN: CODE-SWITCH ENGLISH: Full dialogue in English - household uses English naturally %%",
       "fr_file": "content/fr/014/1873-12-11.md",
@@ -2133,7 +2133,7 @@
     },
     {
       "file": "1873-12-11.md",
-      "para_id": "014.0028",
+      "para_id": "014.0024",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:15:14 LAN: CODE-SWITCH: \"demande Bête\" - French narration interrupts English dialogue %%",
       "fr_file": "content/fr/014/1873-12-11.md",
@@ -2142,7 +2142,7 @@
     },
     {
       "file": "1873-12-12.md",
-      "para_id": "014.0040",
+      "para_id": "014.0036",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:20:03 LAN: CODE-SWITCH ENGLISH: \"flushed\" - Marie uses English for physical state %%",
       "fr_file": "content/fr/014/1873-12-12.md",
@@ -2151,7 +2151,7 @@
     },
     {
       "file": "1873-12-12.md",
-      "para_id": "014.0040",
+      "para_id": "014.0036",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:20:08 LAN: CODE-SWITCH ENGLISH: \"comfortable\" - Marie uses English twice; domestic comfort word %%",
       "fr_file": "content/fr/014/1873-12-12.md",
@@ -2160,7 +2160,7 @@
     },
     {
       "file": "1873-12-12.md",
-      "para_id": "014.0044",
+      "para_id": "014.0040",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:20:21 LAN: CODE-SWITCH ENGLISH: \"extreme end\" - end of the promenade %%",
       "fr_file": "content/fr/014/1873-12-12.md",
@@ -2169,7 +2169,7 @@
     },
     {
       "file": "1873-12-12.md",
-      "para_id": "014.0044",
+      "para_id": "014.0040",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:20:22 LAN: CODE-SWITCH ENGLISH: \"home\" - domestic term in English %%",
       "fr_file": "content/fr/014/1873-12-12.md",
@@ -2178,7 +2178,7 @@
     },
     {
       "file": "1873-12-12.md",
-      "para_id": "014.0044",
+      "para_id": "014.0040",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T10:20:24 LAN: \"diadia\" - RUSSIAN: uncle (informal); Russian family term %%",
       "fr_file": "content/fr/014/1873-12-12.md",
@@ -2187,7 +2187,7 @@
     },
     {
       "file": "1873-12-13.md",
-      "para_id": "014.0054",
+      "para_id": "014.0050",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:25:09 LAN: CODE-SWITCH ENGLISH: Full newspaper article in English - Marie copies verbatim from English press %%",
       "fr_file": "content/fr/014/1873-12-13.md",
@@ -2196,7 +2196,7 @@
     },
     {
       "file": "1873-12-14.md",
-      "para_id": "014.0065",
+      "para_id": "014.0061",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:30:03 LAN: \"Le sciagurate Galignani\" - ITALIAN: \"the wretched/cursed Galignani\"; Marie's Italian curse word %%",
       "fr_file": "content/fr/014/1873-12-14.md",
@@ -2205,7 +2205,7 @@
     },
     {
       "file": "1873-12-14.md",
-      "para_id": "014.0066",
+      "para_id": "014.0062",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:30:05 LAN: CODE-SWITCH ENGLISH: Full wedding article from Galignani; formal Victorian journalism %%",
       "fr_file": "content/fr/014/1873-12-14.md",
@@ -2214,7 +2214,7 @@
     },
     {
       "file": "1873-12-14.md",
-      "para_id": "014.0077",
+      "para_id": "014.0073",
       "language": "LATIN",
       "lan_context": "%% 2026-01-29T10:30:18 LAN: \"Miserere !\" - LATIN: Have mercy! From Psalm 51; religious exclamation %%",
       "fr_file": "content/fr/014/1873-12-14.md",
@@ -2223,7 +2223,7 @@
     },
     {
       "file": "1873-12-14.md",
-      "para_id": "014.0078",
+      "para_id": "014.0074",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T10:30:24 LAN: \"Diadia\" - RUSSIAN: uncle (informal) %%",
       "fr_file": "content/fr/014/1873-12-14.md",
@@ -2232,7 +2232,7 @@
     },
     {
       "file": "1873-12-14.md",
-      "para_id": "014.0078",
+      "para_id": "014.0074",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:30:26 LAN: \"cette pill est nécessaire\" - CODE-SWITCH ENGLISH: pill; bitter medicine of marriage %%",
       "fr_file": "content/fr/014/1873-12-14.md",
@@ -2241,7 +2241,7 @@
     },
     {
       "file": "1873-12-14.md",
-      "para_id": "014.0106",
+      "para_id": "014.0102",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:30:48 LAN: CODE-SWITCH ENGLISH: \"highly admired them\" - excessive compliment Marie doesn't mean %%",
       "fr_file": "content/fr/014/1873-12-14.md",
@@ -2250,7 +2250,7 @@
     },
     {
       "file": "1873-12-14.md",
-      "para_id": "014.0107",
+      "para_id": "014.0103",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:30:51 LAN: \"Cette amitié indoors\" - CODE-SWITCH ENGLISH: indoor friendship; private but not public %%",
       "fr_file": "content/fr/014/1873-12-14.md",
@@ -2259,7 +2259,7 @@
     },
     {
       "file": "1873-12-15.md",
-      "para_id": "014.0113",
+      "para_id": "014.0109",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:35:02 LAN: CODE-SWITCH ENGLISH: Another newspaper article about wedding gifts %%",
       "fr_file": "content/fr/014/1873-12-15.md",
@@ -2268,7 +2268,7 @@
     },
     {
       "file": "1873-12-15.md",
-      "para_id": "014.0118",
+      "para_id": "014.0113",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:35:21 LAN: \"je post ma lettre\" - CODE-SWITCH ENGLISH: I post my letter %%",
       "fr_file": "content/fr/014/1873-12-15.md",
@@ -2277,7 +2277,7 @@
     },
     {
       "file": "1873-12-15.md",
-      "para_id": "014.0118",
+      "para_id": "014.0113",
       "language": "LATIN",
       "lan_context": "%% 2026-01-29T10:35:29 LAN: \"Nicae Civitas\" - LATIN: City of Nice; Marie's playful latinization %%",
       "fr_file": "content/fr/014/1873-12-15.md",
@@ -2286,7 +2286,7 @@
     },
     {
       "file": "1873-12-15.md",
-      "para_id": "014.0118",
+      "para_id": "014.0113",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:35:30 LAN: CODE-SWITCH ENGLISH: \"home\" - domestic English term %%",
       "fr_file": "content/fr/014/1873-12-15.md",
@@ -2295,7 +2295,7 @@
     },
     {
       "file": "1873-12-15.md",
-      "para_id": "014.0118",
+      "para_id": "014.0113",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:35:33 LAN: CODE-SWITCH ENGLISH: \"at my saying\" - when I said %%",
       "fr_file": "content/fr/014/1873-12-15.md",
@@ -2304,7 +2304,7 @@
     },
     {
       "file": "1873-12-15.md",
-      "para_id": "014.0118",
+      "para_id": "014.0113",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:35:34 LAN: CODE-SWITCH ENGLISH: \"both\" - both of us %%",
       "fr_file": "content/fr/014/1873-12-15.md",
@@ -2313,7 +2313,7 @@
     },
     {
       "file": "1873-12-15.md",
-      "para_id": "014.0118",
+      "para_id": "014.0113",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:35:35 LAN: CODE-SWITCH ENGLISH: \"shy\" - timid; describing young Striker %%",
       "fr_file": "content/fr/014/1873-12-15.md",
@@ -2322,7 +2322,7 @@
     },
     {
       "file": "1873-12-16.md",
-      "para_id": "014.0122",
+      "para_id": "014.0118",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:40:12 LAN: CODE-SWITCH ENGLISH: \"of course\" - naturally; casual English insertion %%",
       "fr_file": "content/fr/014/1873-12-16.md",
@@ -2331,7 +2331,7 @@
     },
     {
       "file": "1873-12-16.md",
-      "para_id": "014.0125",
+      "para_id": "014.0121",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:40:34 LAN: CODE-SWITCH ENGLISH: \"went mad\" - became crazy/angry %%",
       "fr_file": "content/fr/014/1873-12-16.md",
@@ -2340,7 +2340,7 @@
     },
     {
       "file": "1873-12-16.md",
-      "para_id": "014.0125",
+      "para_id": "014.0121",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:40:39 LAN: CODE-SWITCH ENGLISH: \"I do not expect people to doubt what I say\" - Marie's formal English defense %%",
       "fr_file": "content/fr/014/1873-12-16.md",
@@ -2349,7 +2349,7 @@
     },
     {
       "file": "1873-12-16.md",
-      "para_id": "014.0125",
+      "para_id": "014.0121",
       "language": "LATIN",
       "lan_context": "%% 2026-01-29T10:40:40 LAN: \"nec plus ultra\" - LATIN: the ultimate; Marie's education showing %%",
       "fr_file": "content/fr/014/1873-12-16.md",
@@ -2358,7 +2358,7 @@
     },
     {
       "file": "1873-12-16.md",
-      "para_id": "014.0125",
+      "para_id": "014.0121",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:40:42 LAN: CODE-SWITCH ENGLISH: \"mean\" - nasty, contemptible %%",
       "fr_file": "content/fr/014/1873-12-16.md",
@@ -2367,7 +2367,7 @@
     },
     {
       "file": "1873-12-17.md",
-      "para_id": "014.0132",
+      "para_id": "014.0128",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:45:12 LAN: CODE-SWITCH ENGLISH: \"comfortable\" - at ease; recurring English word for physical/emotional comfort %%",
       "fr_file": "content/fr/014/1873-12-17.md",
@@ -2376,7 +2376,7 @@
     },
     {
       "file": "1873-12-19.md",
-      "para_id": "014.0150",
+      "para_id": "014.0146",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T10:55:21 LAN: CODE-SWITCH ENGLISH: \"Shoo! fly, don't bother me\" - American song (1869); Striker teaches Marie %%",
       "fr_file": "content/fr/014/1873-12-19.md",
@@ -2385,7 +2385,7 @@
     },
     {
       "file": "1873-12-20.md",
-      "para_id": "014.0160",
+      "para_id": "014.0156",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T11:00:25 LAN: \"cosa rarissima\" - ITALIAN: a very rare thing; tea in dining room unusual %%",
       "fr_file": "content/fr/014/1873-12-20.md",
@@ -2394,7 +2394,7 @@
     },
     {
       "file": "1873-12-20.md",
-      "para_id": "014.0163",
+      "para_id": "014.0159",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:00:39 LAN: CODE-SWITCH ENGLISH: \"melted\" - the ice melted; emotional thaw %%",
       "fr_file": "content/fr/014/1873-12-20.md",
@@ -2403,7 +2403,7 @@
     },
     {
       "file": "1873-12-20.md",
-      "para_id": "014.0164",
+      "para_id": "014.0160",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-29T11:00:42 LAN: CODE-SWITCH ENGLISH: \"well off\" - in good condition; managing despite catastrophe %%",
       "fr_file": "content/fr/014/1873-12-20.md",
@@ -2412,7 +2412,7 @@
     },
     {
       "file": "1873-12-22.md",
-      "para_id": "014.0189",
+      "para_id": "014.0185",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:02:12 LAN: CODE-SWITCH: \"childish\" - English word inserted; Marie's multilingual habit %%",
       "fr_file": "content/fr/014/1873-12-22.md",
@@ -2421,7 +2421,7 @@
     },
     {
       "file": "1873-12-22.md",
-      "para_id": "014.0191",
+      "para_id": "014.0187",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-30T10:05:13 LAN: \"Diadia\" - RUSSIAN: uncle (informal); family term %%",
       "fr_file": "content/fr/014/1873-12-22.md",
@@ -2430,7 +2430,7 @@
     },
     {
       "file": "1873-12-22.md",
-      "para_id": "014.0192",
+      "para_id": "014.0188",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T10:02:18 LAN: RUSSIAN: \"moujik\" - Russian peasant; class insult comparing duke to serf %%",
       "fr_file": "content/fr/014/1873-12-22.md",
@@ -2439,7 +2439,7 @@
     },
     {
       "file": "1873-12-23.md",
-      "para_id": "014.0202",
+      "para_id": "014.0198",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:03:06 LAN: ITALIAN: \"Lospecchio infernale\" - \"Lo specchio infernale\" (The Infernal Mirror); ballet title %%",
       "fr_file": "content/fr/014/1873-12-23.md",
@@ -2448,7 +2448,7 @@
     },
     {
       "file": "1873-12-23.md",
-      "para_id": "014.0202",
+      "para_id": "014.0198",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:03:07 LAN: \"failures\" - CODE-SWITCH: English word; Marie mixes languages %%",
       "fr_file": "content/fr/014/1873-12-23.md",
@@ -2457,7 +2457,7 @@
     },
     {
       "file": "1873-12-23.md",
-      "para_id": "014.0204",
+      "para_id": "014.0200",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:03:14 LAN: CODE-SWITCH: \"of every description\" - English phrase inserted %%",
       "fr_file": "content/fr/014/1873-12-23.md",
@@ -2466,7 +2466,7 @@
     },
     {
       "file": "1873-12-23.md",
-      "para_id": "014.0206",
+      "para_id": "014.0202",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-30T10:10:11 LAN: \"Diadia\" - RUSSIAN: uncle (informal); family term %%",
       "fr_file": "content/fr/014/1873-12-23.md",
@@ -2475,7 +2475,7 @@
     },
     {
       "file": "1873-12-25.md",
-      "para_id": "014.0227",
+      "para_id": "014.0223",
       "language": "ENGLISH",
       "lan_context": "%% 2026-01-30T14:00:03 LAN: ENGLISH QUOTATION: Galignani newspaper clipping pasted in; retain in English %%",
       "fr_file": "content/fr/014/1873-12-25.md",
@@ -2484,7 +2484,7 @@
     },
     {
       "file": "1873-12-25.md",
-      "para_id": "014.0236",
+      "para_id": "014.0232",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:05:08 LAN: CODE-SWITCH: \"bewilderment\" - English word; captures feeling French lacks %%",
       "fr_file": "content/fr/014/1873-12-25.md",
@@ -2493,7 +2493,7 @@
     },
     {
       "file": "1873-12-26.md",
-      "para_id": "014.0246",
+      "para_id": "014.0242",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-30T14:00:09 LAN: RUSSIAN: \"diadia\" - uncle; familiar Russian term for relative %%",
       "fr_file": "content/fr/014/1873-12-26.md",
@@ -2502,7 +2502,7 @@
     },
     {
       "file": "1873-12-27.md",
-      "para_id": "014.0263",
+      "para_id": "014.0259",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:07:02 LAN: \"Autunno\" - ITALIAN: autumn; Nice's rainy season %%",
       "fr_file": "content/fr/014/1873-12-27.md",
@@ -2511,7 +2511,7 @@
     },
     {
       "file": "1873-12-27.md",
-      "para_id": "014.0263",
+      "para_id": "014.0259",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:07:03 LAN: \"waterproofs\" - CODE-SWITCH: English word for raincoats %%",
       "fr_file": "content/fr/014/1873-12-27.md",
@@ -2520,7 +2520,7 @@
     },
     {
       "file": "1873-12-27.md",
-      "para_id": "014.0263",
+      "para_id": "014.0259",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:07:04 LAN: CODE-SWITCH: \"pleased\" - English adjective mid-French sentence %%",
       "fr_file": "content/fr/014/1873-12-27.md",
@@ -2529,7 +2529,7 @@
     },
     {
       "file": "1873-12-27.md",
-      "para_id": "014.0264",
+      "para_id": "014.0260",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:07:11 LAN: \"dog-cab\" - CODE-SWITCH: English vehicle type %%",
       "fr_file": "content/fr/014/1873-12-27.md",
@@ -2538,7 +2538,7 @@
     },
     {
       "file": "1873-12-27.md",
-      "para_id": "014.0271",
+      "para_id": "014.0267",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:07:23 LAN: \"Wellington boots\" - CODE-SWITCH: English boot style %%",
       "fr_file": "content/fr/014/1873-12-27.md",
@@ -2547,7 +2547,7 @@
     },
     {
       "file": "1873-12-28.md",
-      "para_id": "014.0283",
+      "para_id": "014.0279",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:08:00 LAN: \"Acqua Viva\" - ITALIAN: \"Living Water\"; previous Nice residence with garden %%",
       "fr_file": "content/fr/014/1873-12-28.md",
@@ -2556,7 +2556,7 @@
     },
     {
       "file": "1873-12-28.md",
-      "para_id": "014.0286",
+      "para_id": "014.0282",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:08:07 LAN: CODE-SWITCH: \"perfect pig\" - English phrase for uncle %%",
       "fr_file": "content/fr/014/1873-12-28.md",
@@ -2565,7 +2565,7 @@
     },
     {
       "file": "1873-12-28.md",
-      "para_id": "014.0288",
+      "para_id": "014.0284",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:08:09 LAN: EXTENDED CODE-SWITCH: \"we walk home, where we find... After dinner I play the Ruisseau to grand-papa. All are gone to the theatre.\" - English sentences %%",
       "fr_file": "content/fr/014/1873-12-28.md",
@@ -2574,7 +2574,7 @@
     },
     {
       "file": "1873-12-29.md",
-      "para_id": "014.0295",
+      "para_id": "014.0291",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:09:01 LAN: CODE-SWITCH: \"spend some time\" - English phrase %%",
       "fr_file": "content/fr/014/1873-12-29.md",
@@ -2583,7 +2583,7 @@
     },
     {
       "file": "1873-12-29.md",
-      "para_id": "014.0295",
+      "para_id": "014.0291",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:09:02 LAN: CODE-SWITCH: \"platforms\" - English word %%",
       "fr_file": "content/fr/014/1873-12-29.md",
@@ -2592,7 +2592,7 @@
     },
     {
       "file": "1873-12-29.md",
-      "para_id": "014.0295",
+      "para_id": "014.0291",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:09:03 LAN: CODE-SWITCH: \"luncheon room\" - English phrase %%",
       "fr_file": "content/fr/014/1873-12-29.md",
@@ -2601,7 +2601,7 @@
     },
     {
       "file": "1873-12-30.md",
-      "para_id": "014.0306",
+      "para_id": "014.0301",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-01-29T10:10:00 LAN: RUSSIAN: \"diadia\" - uncle; familiar Russian term %%",
       "fr_file": "content/fr/014/1873-12-30.md",
@@ -2610,7 +2610,7 @@
     },
     {
       "file": "1873-12-30.md",
-      "para_id": "014.0315",
+      "para_id": "014.0311",
       "language": "ITALIAN",
       "lan_context": "%% 2026-01-29T10:10:12 LAN: ITALIAN: \"Oh povera me!\" - \"Oh poor me!\"; code-switch for self-pity %%",
       "fr_file": "content/fr/014/1873-12-30.md",
@@ -2619,7 +2619,7 @@
     },
     {
       "file": "1873-12-31.md",
-      "para_id": "014.0326",
+      "para_id": "014.0322",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:11:08 LAN: \"l'endroit fashionable\" - CODE-SWITCH: \"the fashionable spot\"; English adjective %%",
       "fr_file": "content/fr/014/1873-12-31.md",
@@ -2628,7 +2628,7 @@
     },
     {
       "file": "1874-01-01.md",
-      "para_id": "014.0340",
+      "para_id": "014.0336",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:12:05 LAN: \"Court-News\" - CODE-SWITCH: English term for royal/society news %%",
       "fr_file": "content/fr/014/1874-01-01.md",
@@ -2637,7 +2637,7 @@
     },
     {
       "file": "1874-01-01.md",
-      "para_id": "014.0352",
+      "para_id": "014.0348",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-01-29T10:12:15 LAN: CODE-SWITCH: \"nonsenses\" - English word; mock self-deprecation %%",
       "fr_file": "content/fr/014/1874-01-01.md",
