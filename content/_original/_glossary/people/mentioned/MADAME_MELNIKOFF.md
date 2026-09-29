@@ -57,7 +57,7 @@ This reveals Marie's early consciousness of her own theatrical tendencies and he
 
 Madame Melnikoff's departure was characteristically romanticized, fitting both her personality and Russian cultural tendencies:
 
-> "On est très romanesque en Russie. Elle aurait pu dire adieu et partir naturellement mais le caractère slave, greffé de civi­lisation française et romans, est une drôle de machine."
+> "On est très romanesque en Russie. Elle aurait pu dire adieu et partir naturellement mais le caractère slave, greffé de civilisation française et romans, est une drôle de machine."
 
 (People are very romanticized in Russia. She could have said goodbye and left naturally, but the Slavic character, grafted with French civilization and novels, is a strange contraption.)
 

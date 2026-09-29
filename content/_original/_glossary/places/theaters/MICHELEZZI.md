@@ -18,7 +18,7 @@ Michelezzi (first name unknown) was Marie Bashkirtseff's Italian teacher in Nice
 
 Marie mentions Michelezzi in her September 15, 1873 diary entry:
 
-> "J'ai pour la première fois parlé l'italien aujourd'hui. Le pauvre Michelezzi faillit tomber évanoui ou se jeter par la fenêtre. Je suis contente moi-même, je puis dire que je *parle* le russe, le français, l'anglais et l'italien. J'apprends l'alle­mand et le latin."
+> "J'ai pour la première fois parlé l'italien aujourd'hui. Le pauvre Michelezzi faillit tomber évanoui ou se jeter par la fenêtre. Je suis contente moi-même, je puis dire que je *parle* le russe, le français, l'anglais et l'italien. J'apprends l'allemand et le latin."
 > 
 > (I spoke Italian for the first time today. Poor Michelezzi nearly fainted or threw himself out the window. I am pleased with myself, I can say that I *speak* Russian, French, English, and Italian. I am learning German and Latin.)
 

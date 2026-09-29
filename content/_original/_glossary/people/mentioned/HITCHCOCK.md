@@ -18,7 +18,7 @@ Hitchcock (first name unknown) was Marie Bashkirtseff's English conversation tea
 
 Marie mentions Hitchcock in her September 15, 1873 diary entry:
 
-> "Mais j'eus une leçon de conver­sation avec la Hitchcock, c'est plus utile que toutes [les] autres choses."
+> "Mais j'eus une leçon de conversation avec la Hitchcock, c'est plus utile que toutes [les] autres choses."
 > 
 > (But I had a conversation lesson with Hitchcock, it's more useful than all other things.)
 

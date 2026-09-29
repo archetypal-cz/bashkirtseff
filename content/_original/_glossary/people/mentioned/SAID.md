@@ -19,7 +19,7 @@ Saïd appears to be a servant or staff member in the Bashkirtseff household in N
 
 Marie mentions Saïd in her September 17, 1873 diary entry:
 
-> "A quatre heures, je veux sor­tir pour commander une livrée à Saïd, des bottes pour moi et je ne me souviens plus quoi encore."
+> "A quatre heures, je veux sortir pour commander une livrée à Saïd, des bottes pour moi et je ne me souviens plus quoi encore."
 > 
 > (At four o'clock, I want to go out to order a livery for Saïd, boots for myself, and I don't remember what else.)
 
