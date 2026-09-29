@@ -325,7 +325,7 @@ When Marie writes in Spanish (rare):
 ### voiture (en voiture / la voiture)
 - Translation: **carruaje**
 - Context: both "riding around in the carriage" (1873-01-11) and "the Duke's carriage" (1873-01-15)
-- Notes: OPS 2026-09-05 overturned the translator's "coche". Two reasons: content/es/CLAUDE.md names *coche* vs *carro* as exactly the regional flag the neutral-Spanish policy avoids, and in present-day Spanish "coche" is read first as a motor car, which mis-times a duke's equipage in 1873. "Carruaje" is panhispanic and period-correct. CON 2026-09-05 upheld the ruling: **carruaje** is final for carnet 001. The superseded TR comments in 001.0011 and 001.0018 still name "coche" and are kept as a record of the deliberation, not as instructions. Human to confirm at end of pilot.
+- Notes: OPS 2026-09-05 overturned the translator's "coche". Two reasons: content/es/CLAUDE.md names *coche* vs *carro* as exactly the regional flag the neutral-Spanish policy avoids, and in present-day Spanish "coche" is read first as a motor car, which mis-times a duke's equipage in 1873. "Carruaje" is panhispanic and period-correct. CON 2026-09-05 upheld the ruling: **carruaje** is final for carnet 001. The superseded TR comments in 001.0010 and 001.0017 still name "coche" and are kept as a record of the deliberation, not as instructions. Human to confirm at end of pilot.
 
 ### notre loge
 - Translation: nuestro palco
@@ -349,12 +349,12 @@ When Marie writes in Spanish (rare):
 
 ### si seulement
 - Translation: **si al menos**
-- Context: 001.0018, Marie's wish that the Duke would call on the house
+- Context: 001.0017, Marie's wish that the Duke would call on the house
 - Notes: CON 2026-09-05 replaced "si tan solo", which reads as a calque (English *if only* / French *si seulement*) and sounds like modern dubbing in an 1873 sentence. "Si al menos" is the native desiderative and loses no longing. Also available: "ojalá" when the wish stands alone without a following main clause.
 
 ### se montrer avec (quelqu'un)
 - Translation: **dejarse ver con**
-- Context: 001.0014, Marie and Dina wanting to be seen with someone from high society at the races
+- Context: 001.0013, Marie and Dina wanting to be seen with someone from high society at the races
 - Notes: CON 2026-09-05 replaced the pasiva refleja "que se nos viera con", which was grammatical but cold and made the display accidental rather than willed. "Dejarse ver con" is the Spanish idiom for social preening and keeps the reflexive of the French.
 
 ### assister (avoir assisté) — gallicism watch confirmed
