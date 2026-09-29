@@ -223,7 +223,7 @@ Established terminology for consistent translation across carnets.
 | Fedoroff | Федоров | Russian who dies of aneurysm |
 | Tchernichoff | Чернічов | Man with sinister past (first wife poisoned) |
 | Boutowsky | Бутовський | Russian family, new social favorites |
-| Lambertye | Ламбер'є | French nobleman, Marie's early admirer |
+| Lambertye | Ламбертьє | French nobleman, Marie's early admirer (canonical; NOT Ламбер'є / Ламберті) |
 | Lord Mandeville | лорд Мандевіль | Hamilton's brother-in-law, son of Duke of Manchester |
 
 ### Multilingual Conventions (Carnet 018)
@@ -409,6 +409,7 @@ Established terminology for consistent translation across carnets.
 | Kinsky | Кінський | Aristocrat seen in Nice and Paris |
 | Arsenieff | Арсенієв | Russian acquaintance; predicts English husband and Scottish castle |
 | Lambertye | Ламбертьє | French nobleman, early admirer (established 018) |
+| Woerman | Верман | acquaintance in Marie's circle (German name Woermann); locked 2026-09-29 wave-uk (was split Воерман 013–029 / Верман 016–045) |
 | Magarnoff | Маґарнов/Маґарнова | Russian family; Mlle Magarnoff = sister of the fiddler |
 | princesse Souvoroff | княгиня Суворова | Russian aristocrat; friendly with mother |
 | Carlo Hamilton | Карло Гамільтон | Hamilton's relative; distinct from the Duke |
