@@ -726,7 +726,7 @@ Established terminology for consistent translation across carnets.
 | Sir Frederic Johnstone (= M. Olliver) | сер Фредерік Джонстон | English baronet (actually M. Olliver per marginal note) |
 | de Gonzales | де Ґонсалес | Spanish acquaintance; phonetic accent in speech |
 | Miloradovitch | Мілорадович | Russian noble family; potential match for Marie |
-| Brunet | Бруне | Marie's Latin tutor in Nice |
+| Brunet | Брюне | Marie's Latin tutor in Nice  (locked 2026-09-29 wave-uk: Брюне, tree majority; NOT Бруне) |
 | de Neujean | де Нежан | Belgian acquaintance from Spa; at Monte-Carlo |
 | d'Aspremont | д'Аспремон | Nice Carnival committee figure |
 | Tutcheff (tante) | тітка Тютчева | Relative spreading gossip about the Bashkirtseffs |
@@ -954,7 +954,7 @@ Established terminology for consistent translation across carnets.
 | Terffidua / Audiffret | Терффідуа / Одіффре | Code name reconfirmed; also called "Джирофла" (Girofla) per Marie & Olga |
 | Girofla / Giroflée | Джирофла | Marie's second nickname for Audiffret; from Lecocq operetta "Giroflé-Girofla" (1874) |
 | Botkine / Michel Botkine | Михайло Боткін | Russian family friend; nurses Maman; spends week with her in Cannes |
-| Brunet | Бруне | Latin tutor; reconfirmed from 029 |
+| Brunet | Брюне | Latin tutor; reconfirmed from 029 |
 | Rickard | Рікар | English acquaintance; source of "in every divorce court" gossip |
 | Prince Tchelesky | князь Челеський | Notorious Russian womanizer; arrives at Cannes with two cocottes |
 | Stiopa | Стьопа | Small child in family party; diminutive Russian/Ukrainian pet name |
@@ -1565,7 +1565,7 @@ Established terminology for consistent translation across carnets.
 | Smirnoff | Смирнов | Russian expatriate; at Monte-Carlo gambling (established 035) |
 | Nina / Olga / Marie Sapogenikoff | Ніна / Ольга / Марі Сапоженікови | The Sapogenikoff sisters; "Three Graces" with Marie |
 | Gonzalès (père et fils) / Rémy | Ґонсалес / Ремі | Baden-Baden memory (~1870); Rémy de Gonzalès Moreno, boy Marie knew |
-| Brunet | Бруне | Latin tutor (established 029/030) |
+| Brunet | Брюне | Latin tutor (established 029/030) |
 | Audiffret père | старий д'Одіффре | The father; vain (dyes hair), after legal séparation |
 
 #### Social & Period Vocabulary (Carnet 036)
