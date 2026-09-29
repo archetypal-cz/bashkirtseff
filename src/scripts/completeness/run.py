@@ -2,20 +2,24 @@
 
   just source-completeness            # whole corpus → .claude/reports/source-completeness-<date>.md
   just source-completeness 068 069    # same run, then print those carnets' rows
+  just source-completeness --keep     # keep today's earlier report: write <date>-2.md
 
 Steps (each script reads/writes the work files in .cache/source-completeness/):
 dump.py → analyze.py → gaps.py → misplaced.py → fpcheck.py → report.py.
 """
 import json
+import os
 import runpy
 import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
+if '--keep' in sys.argv:
+    os.environ['COMPLETENESS_KEEP'] = '1'
 from paths import REPORT, work  # noqa: E402
 
-carnets = [c.zfill(3) for c in sys.argv[1:]]
+carnets = [c.zfill(3) for c in sys.argv[1:] if c != '--keep']
 sys.argv = sys.argv[:1]
 for step in ('dump', 'analyze', 'gaps', 'misplaced', 'fpcheck', 'report'):
     print(f'== {step}', file=sys.stderr)

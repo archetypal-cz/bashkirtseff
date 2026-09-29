@@ -319,15 +319,16 @@ rebuild-carnets +ARGS:
 rebuild-draft-plan +ARGS:
     uv run --quiet --with python-docx --with pymupdf --with numpy python src/scripts/rebuild-plan/draft.py {{ARGS}}
 
-# Unit tests for the rebuild-plan drafting helpers
+# Unit tests for the rebuild-plan drafting helpers and the source-completeness report name
 test-rebuild-plan:
     python3 src/scripts/rebuild-plan/test_rebuild_plan.py
+    python3 src/scripts/completeness/test_paths.py
 
 # Compare two rebuild plans for one carnet (e.g. a draft against the plan finally applied)
 rebuild-diff-plan A B:
     python3 src/scripts/rebuild-plan/diffplan.py {{A}} {{B}}
 
-# Source completeness: every tome docx paragraph vs content/_original → .claude/reports/source-completeness-<date>.md; with carnets, also print their gap rows
+# Source completeness: every tome docx paragraph vs content/_original → .claude/reports/source-completeness-<date>.md (a same-day rerun overwrites it; --keep writes <date>-2.md); with carnets, also print their gap rows
 source-completeness *CARNETS:
     uv run --quiet --with python-docx python src/scripts/completeness/run.py {{CARNETS}}
 
