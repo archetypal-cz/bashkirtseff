@@ -44,7 +44,7 @@ One figure did survive the wreck, in another medium. The weeping woman of *[La D
 
 %% GLO_LES_SAINTES_FEMMES.0010 %%
 %% [#Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) %%
-The ambition predates the subject. In October 1877, in her first weeks at the Académie Julian, she writes: «J'aurais fait des tableaux d'histoire si j'avais commencé il y a cinq ans» (075.0131). The subject itself arrives at dawn on **27 May 1880**, after a night at the harp: «mes deux femmes devant le sépulcre. J'ai envie d'aller à Jérusalem et d'y faire ce tableau avec des têtes de là-bas en plein air» (088.0394). That is two and a half years earlier than the usual account allows.
+The ambition predates the subject. In October 1877, in her first weeks at the Académie Julian, she writes: «J'aurais fait des tableaux d'histoire si j'avais commencé il y a cinq ans» (075.0131). The subject itself arrives at dawn on **27 May 1880**, after a night at the harp: «mes deux femmes devant le sépulcre. J'ai envie d'aller à Jérusalem et d'y faire ce tableau avec des têtes de là-bas en plein air» (088.0397). That is two and a half years earlier than the usual account allows.
 
 %% GLO_LES_SAINTES_FEMMES.0011 %%
 Carnets 095–096 — the summer and autumn of 1882 — are effectively the picture's diary. She prepares it obsessively (095.0273–0259), works out a day-by-day execution schedule, has the stretcher delivered (095.0324), indicates the figure in charcoal and pastel on the big panel (095.0353–0332), draws the second figure (096.0139). «Le tableau! C'est une idée fixe» (095.0368). «Quand je pense à mon tableau, si c'est le soir je ne puis m'endormir» (096.0106). Jerusalem becomes impractical, so Algiers, so as to find the costume on a living body as she had in Spain (095.0306–0286, 095.0370).
@@ -69,7 +69,7 @@ One entry carries her own retrospective judgement, added in the margin of the Ju
 The seed, and the conception:
 
 - 1877-10-04 (075.0131) — the history-painting ambition, before any subject
-- **1880-05-27 (088.0394)** — first mention: the two women before the sepulchre, and Jerusalem
+- **1880-05-27 (088.0397)** — first mention: the two women before the sepulchre, and Jerusalem
 - 1882-01-15 (094.0118) — the «feu sacré» brought back from Spain; other projects in the same breath
 - 1882-04-11 (094.0328) — Jerusalem again
 
@@ -123,4 +123,4 @@ The last eighteen months:
 - [Russian Wikipedia — Башкирцева, Мария Константиновна](https://ru.wikipedia.org/wiki/Башкирцева,_Мария_Константиновна) — for the Passy mausoleum claim, reported here as an attribution and not as a fact
 - The diary itself, carnets 075, 088, 094–096 and 097–103 — by far the richest source on this work
 
-%% 2026-08-13T14:35:00 RSR: Compiled from the project artworks catalog (2026-08-13) and the mention-map sweeps of carnets 060-075, 087-096 and 097-106, which between them establish a conception date of May 1880 (088.0394) — two and a half years earlier than the standard account. All paragraph IDs verified against %% NNN.PPPP %% markers in content/_original/. Two things deliberately left as attributions: (1) the claim that the work was kept in the Passy mausoleum comes from Russian Wikipedia alone and is attributed in the text rather than asserted; (2) the frequent confusion with La Rue as "her last work" is corrected on the authority of the 1885 catalogue, which lists them separately, with the notice signed "Une Amie" specifying that it was La Rue she was finishing when she took the chill. No image of any of the three sketches has been located. %%
+%% 2026-08-13T14:35:00 RSR: Compiled from the project artworks catalog (2026-08-13) and the mention-map sweeps of carnets 060-075, 087-096 and 097-106, which between them establish a conception date of May 1880 (088.0397) — two and a half years earlier than the standard account. All paragraph IDs verified against %% NNN.PPPP %% markers in content/_original/. Two things deliberately left as attributions: (1) the claim that the work was kept in the Passy mausoleum comes from Russian Wikipedia alone and is attributed in the text rather than asserted; (2) the frequent confusion with La Rue as "her last work" is corrected on the authority of the 1885 catalogue, which lists them separately, with the notice signed "Une Amie" specifying that it was La Rue she was finishing when she took the chill. No image of any of the three sketches has been located. %%

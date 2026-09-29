@@ -96,13 +96,13 @@ The relationship transforms from casual acquaintance to vital alliance in June 1
 ### The Corsican Circle
 
 %% GLO_GAVINI.0018 %%
-The Gavinis anchored a tight-knit Corsican social network in Paris that included Filippini (nicknamed "Kiki," who posed for Marie's paintings), Multedo, Nervo, and others. Marie describes evenings at the opera in the Gavinis' company alongside diplomats and aristocrats: "Ce soir a l'Opera avec les Gavini, dans la loge du prince de Honiau... Le marquis de Las Cases, le marquis de Chateaurenard, le comte de Chaudordy, le duc de Rivoli" (088.0104, 1880-05-05). The Gavini home served as a salon where Marie encountered deputies, ambassadors, and high society -- she notes spending "deux heures chez les Gavini a voir defiler des visites, des diplomates et des senateurs et des femmes elegantes" (084, 1879-04-20).
+The Gavinis anchored a tight-knit Corsican social network in Paris that included Filippini (nicknamed "Kiki," who posed for Marie's paintings), Multedo, Nervo, and others. Marie describes evenings at the opera in the Gavinis' company alongside diplomats and aristocrats: "Ce soir a l'Opera avec les Gavini, dans la loge du prince de Honiau... Le marquis de Las Cases, le marquis de Chateaurenard, le comte de Chaudordy, le duc de Rivoli" (088.0105, 1880-05-05). The Gavini home served as a salon where Marie encountered deputies, ambassadors, and high society -- she notes spending "deux heures chez les Gavini a voir defiler des visites, des diplomates et des senateurs et des femmes elegantes" (084, 1879-04-20).
 
 %% GLO_GAVINI.0019 %%
 ### Social Guidance and Matchmaking
 
 %% GLO_GAVINI.0020 %%
-Denis provided Marie with frank social intelligence. He classified Blanc as "de troisieme categorie" (third category), teaching her the subtle social gradations of the Third Republic (085, 1879). When Marie's name appeared in newspapers (through Saint-Amand's indiscretion), the Gavinis "tres en colere sont venus... me reprocher cette extravagance" -- protecting her reputation (094, 1882-04-29). Denis's political advice was shrewd; he interceded with Turquet at the Ministry of Fine Arts to secure Marie a delay on an atelier matter, and he guided her visits to the Chamber of Deputies at Versailles (087.0150, 1880-03-19).
+Denis provided Marie with frank social intelligence. He classified Blanc as "de troisieme categorie" (third category), teaching her the subtle social gradations of the Third Republic (085, 1879). When Marie's name appeared in newspapers (through Saint-Amand's indiscretion), the Gavinis "tres en colere sont venus... me reprocher cette extravagance" -- protecting her reputation (094, 1882-04-29). Denis's political advice was shrewd; he interceded with Turquet at the Ministry of Fine Arts to secure Marie a delay on an atelier matter, and he guided her visits to the Chamber of Deputies at Versailles (087.0151, 1880-03-19).
 
 %% GLO_GAVINI.0021 %%
 Adeline was an indefatigable matchmaker. She evaluated Marie's suitors with businesslike precision -- assessing one marquis as having "20,000 francs de rente et en aura 80,000 mais ses parents sont jeunes" (meaning the inheritance was distant) (084, 1879-04-07). She proposed Multedo (refused "immediatement et a l'unanimite de tous mes sentiments," 080.0777, 1878-06-20), the little "Arnaud" from the Chamber, and various other candidates. When Marie despaired over Cassagnac's marriage, the Gavinis judged that "Cassagnac ne merite qu'Acard et que je suis bien trop jolie, trop riche, trop bien pour lui" (080.0775, 1878-06-20). At the pere Gavini's suggestion of marrying Casimir, Marie records "un mot cruel" -- he advised her, given "votre situation," to consider it, "vraiment" (088, 1880-06-05).
@@ -111,7 +111,7 @@ Adeline was an indefatigable matchmaker. She evaluated Marie's suitors with busi
 ### Marie's Social Conquest
 
 %% GLO_GAVINI.0023 %%
-Marie was conscious of her relationship with the Gavinis as a strategic achievement: "J'ai fait la conquete des Gavini et Madame parle de moi chez elle et ailleurs dans des termes exageres" (083.0210, 1878-11-27). She also candidly admitted to the social calculation: "toute seule j'ai trouve les Gavini et je m'en trouve peu a peu d'autres" (085, 1879). At the same time, genuine affection developed -- Adeline "m'adore" (084, 1879-04-07), worried when Marie overworked ("La mere Gavini est venue encore aujourd'hui pour dire a maman que je me fatigue trop," 088, 1880-05-07), and "en m'embrassant me dit que j'ai l'air jeune" (088, 1880-05-26).
+Marie was conscious of her relationship with the Gavinis as a strategic achievement: "J'ai fait la conquete des Gavini et Madame parle de moi chez elle et ailleurs dans des termes exageres" (083.0270, 1878-11-27). She also candidly admitted to the social calculation: "toute seule j'ai trouve les Gavini et je m'en trouve peu a peu d'autres" (085, 1879). At the same time, genuine affection developed -- Adeline "m'adore" (084, 1879-04-07), worried when Marie overworked ("La mere Gavini est venue encore aujourd'hui pour dire a maman que je me fatigue trop," 088, 1880-05-07), and "en m'embrassant me dit que j'ai l'air jeune" (088, 1880-05-26).
 
 %% GLO_GAVINI.0024 %%
 ### The Later Years (1882--1884)
@@ -148,15 +148,15 @@ The Gavinis appear across 28 carnets spanning seven years. The densest coverage 
 - **080.0519** -- Marie identifies Denis: "M. Gavini prefet des Alpes Maritimes sous l'Empire, depute a present" (1878-06-07)
 - **080.0519** -- First visit to the Gavinis; Denis offers political help (1878-06-07)
 - **080.0775** -- Marie declares herself "folle de Cassagnac" at the Gavinis; they judge Cassagnac unworthy (1878-06-20)
-- **081.0257** -- With Mme Gavini at the requiem for Queen Mercedes of Spain at the Madeleine (1878-07-05)
-- **083.0007** -- Mme Gavini returns to Paris, they promenade at the Bois (1878-10-18)
-- **083.0210** -- "J'ai fait la conquete des Gavini" (1878-11-27)
+- **081.0260** -- With Mme Gavini at the requiem for Queen Mercedes of Spain at the Madeleine (1878-07-05)
+- **083.0002** -- Mme Gavini returns to Paris, they promenade at the Bois (1878-10-18)
+- **083.0270** -- "J'ai fait la conquete des Gavini" (1878-11-27)
 - **083** (1878-12-30) -- Antoine introduced: just qualified as lawyer, plans political career
 - **084** (1879-04-07) -- "La positive Adeline" evaluates a marquis as marriage prospect
 - **085** (1879-05-16) -- Gavini returns from Corsica; princesse Mathilde gracious to Gavinis and Marie
-- **087.0150** (1880-03-19) -- Gavini intercedes with Turquet for Marie's atelier sursis
-- **088.0003** (1880-04-24) -- "le pere Gavini" as regular dinner companion
-- **088.0104** (1880-05-05) -- Opera with the Gavinis in the prince de Honiau's box
+- **087.0151** (1880-03-19) -- Gavini intercedes with Turquet for Marie's atelier sursis
+- **088.0004** (1880-04-24) -- "le pere Gavini" as regular dinner companion
+- **088.0105** (1880-05-05) -- Opera with the Gavinis in the prince de Honiau's box
 - **094** (1882-04-29) -- Gavinis furious at Marie's name appearing in *Le Voltaire*
 - **102** (1883-10-20) -- "Denis et Adeline" mentioned by first names together
 - **104** (1884-06-15) -- "Denis devient tout a fait gateux, depuis deux ans il a baisse!"

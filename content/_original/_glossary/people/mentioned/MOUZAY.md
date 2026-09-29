@@ -28,7 +28,7 @@ last_updated: 2026-05-25
 
 ## Identity
 
-Madame F. de Mouzay (first initial from signed letter, carnet 082, 1878-10-04). French countess ("comtesse de Mouzay") residing in Nice and later Paris. Formerly a "lingere dans la maison de l'Empereur" (linen-maid in the household of Napoleon III), a detail Marie reveals in passing (086.0417, 1879-11-05). This imperial household connection explains both her aristocratic title and her extensive social network spanning Bonapartist political circles, artists, and the Faubourg Saint-Germain -- as well as the social ambiguity that Marie intermittently mocks.
+Madame F. de Mouzay (first initial from signed letter, carnet 082, 1878-10-04). French countess ("comtesse de Mouzay") residing in Nice and later Paris. Formerly a "lingere dans la maison de l'Empereur" (linen-maid in the household of Napoleon III), a detail Marie reveals in passing (086.0476, 1879-11-05). This imperial household connection explains both her aristocratic title and her extensive social network spanning Bonapartist political circles, artists, and the Faubourg Saint-Germain -- as well as the social ambiguity that Marie intermittently mocks.
 
 She had at least one daughter (frequently mentioned as "sa fille" or "Mlle de Mouzay"), a nephew who was a medical student, and a mother who also appears at social gatherings. She was also a published writer of feuilletons (serial fiction), though Marie describes this as modest: she "se frotte un peu a tous les mondes et qui a eu un certain succès comme ecrivain de feuilletons" (064.0056, 1876-07-22).
 
@@ -65,15 +65,15 @@ Mouzay's most consequential act was introducing Marie to Paul de Cassagnac at he
 Marie's nostalgic memories of Cassagnac are permanently fused with Mouzay's salon: "Voila bien cinq ans et demi que je l'ai vu pour la premiere fois... boulevard Haussmann n° 2, en premier chez la Mouzay, je vois le salon, les meubles, les stores mi-baisses a cause de la chaleur" (094.0155, 1882-01-28).
 
 ### Salon Hostess in Paris (1877--1881)
-In Paris, Mouzay hosts regular "mercredis" (Wednesday receptions) and soirees that Marie attends. These gatherings mix artists, politicians, military figures, and bourgeois guests. The salon is never first-rank -- Marie repeatedly notes the inferior company -- but it provides social access. Mouzay brings Marie into contact with art critics (Louis Enault of the *Moniteur des Arts*), politicians (Rane, an amnestied republican), and the wider Parisian monde. She obtains invitations for Marie to events such as the Pascalis balls (088.0005, 1880-04-26).
+In Paris, Mouzay hosts regular "mercredis" (Wednesday receptions) and soirees that Marie attends. These gatherings mix artists, politicians, military figures, and bourgeois guests. The salon is never first-rank -- Marie repeatedly notes the inferior company -- but it provides social access. Mouzay brings Marie into contact with art critics (Louis Enault of the *Moniteur des Arts*), politicians (Rane, an amnestied republican), and the wider Parisian monde. She obtains invitations for Marie to events such as the Pascalis balls (088.0006, 1880-04-26).
 
-Marie's ambivalence about the salon is razor-sharp: "Loin de dire que la soiree soit comme celles de Mouzay mais enfin ce n'est pas ce qu'il me faut" (080, 1878-06-02). And: "La mere Mouzay est furieuse contre Gaillard et Julian et moi qui avons cause au lieu d'ecouter, elle est tres comique en menant ses invites comme on mene les forcats au preau" (088.0370, 1880-05-26).
+Marie's ambivalence about the salon is razor-sharp: "Loin de dire que la soiree soit comme celles de Mouzay mais enfin ce n'est pas ce qu'il me faut" (080, 1878-06-02). And: "La mere Mouzay est furieuse contre Gaillard et Julian et moi qui avons cause au lieu d'ecouter, elle est tres comique en menant ses invites comme on mene les forcats au preau" (088.0373, 1880-05-26).
 
 ### Medical Warning (1880-04-24)
-In April 1880, Mouzay wrote Marie a crucial letter warning about her chronic laryngitis. Her nephew, a medical student described as "un diagnoste," warned that untreated laryngitis could lead to deafness: "gare la surdite." Marie transcribes the letter's impact: "Cette phrase me tombe sur la tete comme une douche glacee" (088.0005, 1880-04-24). This is one of the earliest explicit medical warnings about what was in fact early tuberculosis.
+In April 1880, Mouzay wrote Marie a crucial letter warning about her chronic laryngitis. Her nephew, a medical student described as "un diagnoste," warned that untreated laryngitis could lead to deafness: "gare la surdite." Marie transcribes the letter's impact: "Cette phrase me tombe sur la tete comme une douche glacee" (088.0006, 1880-04-24). This is one of the earliest explicit medical warnings about what was in fact early tuberculosis.
 
 ### The Maternal Letter (1878-10-04)
-Mouzay's signed letter (carnet 082) is the most sustained outside analysis of Marie's personality in the diary. Key passage: "a cinquante ans l'originalite est une fleur qu'on met dans ses cheveux blancs, mais dans des cheveux blonds c'est un chardon que les anes seuls veuillent bien manger!" She counsels Marie that society's code for women reduces to "la bonte et le charme -- voila les deux seules forces de la femme." The letter reveals genuine affection: "j'adore votre nature, j'abomine vos travers, je sens que mon coeur me ferait vous arracher des flammes a traverser l'Europe pour aller a votre secours, et dans certains moments je vous jetterais par la fenetre!" Signed "*F. de Mouzay*" (082.0439--0441).
+Mouzay's signed letter (carnet 082) is the most sustained outside analysis of Marie's personality in the diary. Key passage: "a cinquante ans l'originalite est une fleur qu'on met dans ses cheveux blancs, mais dans des cheveux blonds c'est un chardon que les anes seuls veuillent bien manger!" She counsels Marie that society's code for women reduces to "la bonte et le charme -- voila les deux seules forces de la femme." The letter reveals genuine affection: "j'adore votre nature, j'abomine vos travers, je sens que mon coeur me ferait vous arracher des flammes a traverser l'Europe pour aller a votre secours, et dans certains moments je vous jetterais par la fenetre!" Signed "*F. de Mouzay*" (082.0494--0441).
 
 ## Marie's Characterizations
 
@@ -94,7 +94,7 @@ Frequently mentioned but never named. Marie has "conversations sur la physiologi
 
 ## Imperial Household Past
 
-The diary reveals (086.0417, 1879-11-05) that Mouzay had served as "lingere dans la maison de l'Empereur" -- a linen-maid in the household of Napoleon III. During that period, she secured a commutation of sentence for a man named Rane (from Cayenne to Lambessa), who later became a friend of Gambetta. This imperial service connection explains her Bonapartist political network and her access to figures like Cassagnac and Blanc, while her original domestic-servant status explains the social ambiguity that Marie alternately exploits and deplores.
+The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans la maison de l'Empereur" -- a linen-maid in the household of Napoleon III. During that period, she secured a commutation of sentence for a man named Rane (from Cayenne to Lambessa), who later became a friend of Gambetta. This imperial service connection explains her Bonapartist political network and her access to figures like Cassagnac and Blanc, while her original domestic-servant status explains the social ambiguity that Marie alternately exploits and deplores.
 
 ## Diary References
 
@@ -193,7 +193,7 @@ The diary reveals (086.0417, 1879-11-05) that Mouzay had served as "lingere dans
 - **September 15** (082): Mouzay at dinner; Cassagnac's inexplicable marriage discussed
 - **September 16** (082): Marie takes Mouzay to see Prefect of Police Gigot
 - **October 3** (082): Mouzay's letter called "curieuse et presque precieuse"
-- **October 4** (082.0439--0441): **The signed letter -- "F. de Mouzay"**; sustained analysis of Marie's character
+- **October 4** (082.0494--0441): **The signed letter -- "F. de Mouzay"**; sustained analysis of Marie's character
 - **October 25** (083): Mouzay's dream about Cassagnac as corset salesman
 - **November 18** (083): Marie visits Mouzay to show article and chat with daughter
 
@@ -208,20 +208,20 @@ The diary reveals (086.0417, 1879-11-05) that Mouzay had served as "lingere dans
 - **July 13** (085): "Les Mouzay arrivent et nous nous amusons a tourner des tables"
 - **July 19** (085): Mouzay and daughter gossip about Cassagnac's cousin Linselles
 - **October 17** (086): Nostalgic memory of first Cassagnac meeting at "29 du Boulevard Haussmann, chez la Mouzay"
-- **November 5** (086.0417): **Reveals Mouzay was "lingere dans la maison de l'Empereur"**; Rane connection
+- **November 5** (086.0476): **Reveals Mouzay was "lingere dans la maison de l'Empereur"**; Rane connection
 - **November 9** (086): Mouzay at dinner with Berthe and Karageorgevitch
 - **December 29** (087): Mouzay and Gaillard at dinner
 
 ### 1880 (Paris)
 - **January--April** (087): Frequent dinners, visits, social coordination; Mouzay connects Marie with art critic L. Enault; April Fools' prank on Mouzay
-- **April 24** (088.0005): **Medical warning letter about laryngitis and deafness**
+- **April 24** (088.0006): **Medical warning letter about laryngitis and deafness**
 - **April 25** (088): Soutzo and Mouzay at dinner; argument about Marie's art
 - **April 26** (088): At Pascalis soiree (invitation via Mouzay); Mouzay's mother present
 - **May 3** (088): Mouzay and daughter at Pascalis costume ball
 - **May 16** (088): "Les Mouzay a diner"
 - **May 19** (088): Dinner at Mouzay's with republican deputy Salomon
 - **May 25** (088): Marie counts "deux bals costumes (de la Mouzay)" among her social outings
-- **May 26** (088.0354ff): Soutzo asks about Mouzay's soiree; "la mere Mouzay est furieuse" at Marie for chatting during performance
+- **May 26** (088.0357ff): Soutzo asks about Mouzay's soiree; "la mere Mouzay est furieuse" at Marie for chatting during performance
 - **May 29** (088): Soutzo indignant that Marie goes "chez la Mouzay m'encanailler avec des peintres"
 - **June 1** (088): Mouzay requests asylum for daughter during smallpox scare; Mouzay family dines despite epidemic in their building
 - **July 20** (089): "Madame Moreau (de chez la Mouzay)" serves as model source
@@ -257,7 +257,7 @@ The diary reveals (086.0417, 1879-11-05) that Mouzay had served as "lingere dans
 
 ## Research Notes
 
-- First initial "F." confirmed from signed letter (082.0441)
+- First initial "F." confirmed from signed letter (082.0496)
 - Historical identification of the specific Mouzay family remains uncertain; the title "comtesse" may derive from marriage rather than birth, given her domestic service background
 - The address 29 Boulevard Haussmann in summer 1876 was temporary lodging with Baronne de Mertens; the 420 rue Saint-Honore address appears more permanent
 - The "Moussah" connection (100.0303) suggests Cassagnac knew Marie's pet name via Mouzay's circle, and used it in published fiction -- a remarkable breach of social discretion

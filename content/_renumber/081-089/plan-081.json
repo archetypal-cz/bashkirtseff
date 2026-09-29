@@ -1,0 +1,2809 @@
+{
+ "carnet": "081",
+ "source": "tome12.docx",
+ "drop": [
+  {
+   "id": "081.0308",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "081.0320",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "081.0326",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "081.0332",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "081.0413",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "081.0419",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "081.0423",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "081.0429",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "081.0305",
+   "reason": "duplicate of 081.0310 (8 July text, tome12 ¶448–452, copied into the empty 7 July in extraction; the translations hold it twice)"
+  },
+  {
+   "id": "081.0306",
+   "reason": "duplicate of 081.0312 (8 July text, tome12 ¶448–452, copied into the empty 7 July in extraction; the translations hold it twice)"
+  },
+  {
+   "id": "081.0307",
+   "reason": "duplicate of 081.0313 (8 July text, tome12 ¶448–452, copied into the empty 7 July in extraction; the translations hold it twice)"
+  },
+  {
+   "id": "081.0499",
+   "reason": "title page of Livre 82 (withdrawn, KRR 2026-09-28) plus «Que diable, au fait non.», which the 082 plan restores from tome12 ¶862 under «Jeudi 8 août 1878 - suite...»"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1878-06-23.md",
+   "date": "1878-06-23",
+   "heading": "Dimanche 23 juin 1878",
+   "paragraphs": [
+    {
+     "old": "081.0001"
+    },
+    {
+     "new": {
+      "kind": "margin",
+      "source": "note de Marie sur la page de titre du Livre 81",
+      "french": "[Dans la marge : Explication à Cassagnac, sa décadence dans mon esprit après la dernière visite au 10 bis puis les pages pendant Schaeppi page 93, livre 79 et enfin les pages, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 du présent livre 81e, pages 95 et mes suivantes livre 79.]",
+      "rsr": "Marie's note on the title page of Livre 81; tome12.docx ¶50, Mon Journal t.12 p.5. Restored in the 2026-09-28 rebuild (owner policy: Marie's own title-page notes go in).",
+      "tags": [
+       "[#Cassagnac](../_glossary/people/recurring/CASSAGNAC.md)"
+      ]
+     }
+    },
+    {
+     "new": {
+      "kind": "margin",
+      "source": "note de Marie sur la page de titre du Livre 81",
+      "french": "[En travers: Saillies folles.]",
+      "rsr": "Marie's note on the title page of Livre 81; tome12.docx ¶51, Mon Journal t.12 p.5. Restored in the 2026-09-28 rebuild (owner policy: Marie's own title-page notes go in)."
+     }
+    },
+    {
+     "old": "081.0002"
+    },
+    {
+     "old": "081.0003"
+    },
+    {
+     "old": "081.0004"
+    },
+    {
+     "old": "081.0005"
+    },
+    {
+     "old": "081.0006"
+    },
+    {
+     "old": "081.0007"
+    },
+    {
+     "old": "081.0008"
+    },
+    {
+     "old": "081.0009",
+     "kind": "editorial"
+    },
+    {
+     "old": "081.0010"
+    },
+    {
+     "old": "081.0011"
+    },
+    {
+     "old": "081.0012"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-24.md",
+   "date": "1878-06-24",
+   "heading": "Lundi 24 juin 1878",
+   "paragraphs": [
+    {
+     "old": "081.0013"
+    },
+    {
+     "old": "081.0014"
+    },
+    {
+     "old": "081.0015",
+     "kind": "letter",
+     "source": "Première lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0016",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0017",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0018",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0019",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0020",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0021",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0022",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0023",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0024",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    },
+    {
+     "old": "081.0025",
+     "kind": "letter",
+     "source": "Seconde lettre anonyme de Marie au père de Paul de Cassagnac, 24 juin 1878"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-25.md",
+   "date": "1878-06-25",
+   "heading": "Mardi 25 juin 1878",
+   "paragraphs": [
+    {
+     "old": "081.0026"
+    },
+    {
+     "old": "081.0027"
+    },
+    {
+     "old": "081.0028"
+    },
+    {
+     "old": "081.0029"
+    },
+    {
+     "old": "081.0030"
+    },
+    {
+     "old": "081.0031"
+    },
+    {
+     "old": "081.0032",
+     "set_french": "[En travers : Rien que 30.000 de rente. Mon cœur se serre quand je pense qu'il demande si peu et que j'étais si bête I]\nComment après tout cela je le regrette ? Comprenant tout cela j'en aurais voulu ? Mais pourquoi ? Car sachant et comprenant cela il est impossible que je l'aime. Sans doute, mais je le regrette je ne sais pourquoi et aussi par ambition; si les Badinguet allaient revenir ? Chacun de ses succès va m'être un crève-cœur.\nOn dit que la fille Acard est une fille du Cardinal, fille ou non la parenté existe et Blanc l'avait qualifiée de tache.\nQuelle immense désillusion ! Moi qui pensais que Paul de Cassagnac était différent des autres ! J'avais bien découvert qu'il mentait dans les petites choses et qu'il donnait le plus solenellement du monde des paroles d'honneur qui auraient fait crever d'envie Athos lui-même, et puis qu'il y manquait. Le vieux père doit être furieux si la fiancée n'a que 20.000 de rente, je lui en offre 70.000 et puis le double.\nJ'ai craint de pleurer, crainte vaine...\nMais je suis révoltée et agacée parce que je n'y puis rien et parce que c'est une chose irrévocable, les machines irrévocables m'enragent toujours.\nIl fait une chaleur accablante ! Quand on travaille c'est terrible.\nSeulement... cela vaut peut-être mieux. Mais c'est bête de n'y avoir pas songé avant. En y mêlant une vieille femme et[en] se conduisant comme une fille qui offre son association j'aurais pu le faire aussi facilement que commander une robe chez Laferrière. Quand au reste je n'ai pas d'inquiétudes trop vives, le mariage n'y change pas grande chose, seulement je ris en pensant que je ne suis pas la seule... Oh ! mais moi quoique je fasse contre ou pour c'est écrit. Je n'y tiendrai peut-être plus... je crois que si, après tout c'est un homme qui mérite qu'on se pique au jeu, je commencerai par acquérir une certaine célébrité puis une belle position peut-être, encore dernièrement une tireuse de cartes me l'a prédit comme les autres. Edmond m'a annoncé un matamore comme ennemi. Ce sera lui qui sera furieux pour la façon dont je traite sa belle. A propos, vous savez j'ai écrit au Figaro pour un bal masqué au Trocadéro, on a imprimé la chose.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶85–94, Mon Journal t.12 p.8 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0033"
+    },
+    {
+     "old": "081.0034"
+    },
+    {
+     "old": "081.0035"
+    },
+    {
+     "old": "081.0036"
+    },
+    {
+     "old": "081.0037"
+    },
+    {
+     "old": "081.0038"
+    },
+    {
+     "old": "081.0039"
+    },
+    {
+     "old": "081.0040"
+    },
+    {
+     "old": "081.0041"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-26.md",
+   "date": "1878-06-26",
+   "heading": "Mercredi 26 juin 1878",
+   "paragraphs": [
+    {
+     "old": "081.0042"
+    },
+    {
+     "old": "081.0043"
+    },
+    {
+     "old": "081.0044"
+    },
+    {
+     "old": "081.0045"
+    },
+    {
+     "old": "081.0046"
+    },
+    {
+     "old": "081.0047"
+    },
+    {
+     "old": "081.0048"
+    },
+    {
+     "old": "081.0049"
+    },
+    {
+     "old": "081.0050"
+    },
+    {
+     "old": "081.0051"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-27.md",
+   "date": "1878-06-27",
+   "heading": "Jeudi 27 juin 1878",
+   "paragraphs": [
+    {
+     "old": "081.0052"
+    },
+    {
+     "old": "081.0053"
+    },
+    {
+     "old": "081.0054"
+    },
+    {
+     "old": "081.0055"
+    },
+    {
+     "old": "081.0056"
+    },
+    {
+     "old": "081.0057"
+    },
+    {
+     "old": "081.0058"
+    },
+    {
+     "old": "081.0059"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-28.md",
+   "date": "1878-06-28",
+   "heading": "Vendredi 28 juin 1878",
+   "paragraphs": [
+    {
+     "old": "081.0060"
+    },
+    {
+     "old": "081.0061",
+     "set_french": "> *Hier a été célébré, à la chapelle des Frères-Passionnistes de l'avenue de la Reine-Hortense, le mariage de M. Paul de Cassagnac ave Mlle Julia Acard.*\n> Les témoins de M. Paul de Cassagnac étaient M. de Beaupin, ancien préfet, et Monsieur de Loquessie, député de Tarn-et-Garonne.\n> Les témoins de Mlle Acard étaient M. Couvelet, ancien officier , et M. Clément Laurier, député de l'Indre.\n> Monsieur Paul de Cassagnac n'a pas épousé une Italienne comme on l'a dit inexactement, mais une jeune et charmante Alsacienne, fille du comte et de la comtesse Stéphano Acard , et femme d'un esprit supérieur, réunissant au mérite de la beauté le mérite non moins appréciable de la fortune.\n> Par des raisons tirées d'un grand deuil récent, les deux familles ont été seules conviées, et le mariage a eu lieu dans les conditions les plus simples.",
+     "_manual": true,
+     "kind": "clipping",
+     "source": "Le Figaro, 28 juin 1878",
+     "_rsr": "French completed/corrected from tome12.docx ¶151–158, Mon Journal t.12 pp.16–17 (2026-09-28 rebuild). Printer's typo corrected: «Couve let» → «Couvelet», «deTarn-et -Garonne» → «de Tarn-et-Garonne» (Mon Journal t.12 pp.16–17)."
+    },
+    {
+     "old": "081.0062",
+     "set_french": "> *C'est M. l'abbé Lamarche, curé de Sainte-Marie des Batignolles, qui a donné la bénédiction nuptiale aux époux, en présence de M. le curé de Saint-Philippe du Roule, à la juridiction duquel appartenait la jeune mariée, et qui a tenu à assister*\n> au mariage, pour adresser à M. Paul de Cassagnac les paroles élevées et émues de félicitation et d'encouragement.\n> Des souvenirs de confraternité militaires unissaient M. l'abbé Lamarche à M. Paul de Cassagnac. Après avoir fait la campagne de Crimée comme aumônier militaire, M. le curé de Sainte-Marie des Batignolles fut décoré sur le champ de bataille de Gravelotte, où il assista volontairement les soldats français. Se constituant prisonnier pour ne pas se séparer d'eux, il les accompagna dans le villes fortes où ils furent internés, et, par des soins admirables et un dévouement inépuisable, il en préserva et en consola des centaines dans les casemates sombres et malsaines de l'Allemagne du Nord.\n> Monsieur Paul de Cassagnac fut l'un des prisonniers qu'il arracha aux misères et aux souffrances morales de la captivité, et le digne prêtre était certainement plus ému hier en bénissant le mariage de son ami, qu'il ne l'avait été sous la pluie d'obus des batailles livrées autour de Metz.",
+     "_manual": true,
+     "kind": "clipping",
+     "source": "Le Figaro, 28 juin 1878",
+     "_rsr": "French completed/corrected from tome12.docx ¶156–160, Mon Journal t.12 pp.16–17 (2026-09-28 rebuild). Printer's typo corrected: «Cassagnc» → «Cassagnac» (Mon Journal t.12 pp.16–17)."
+    },
+    {
+     "old": "081.0063",
+     "set_french": "Eh bien voilà ! C'est comme la mort de ce pauvre Walitsky, je réaliserai difficilement la mort de ce pauvre Cassagnac. D'abord les Acard ne sont pas comte mais baron. C'est fait. C'est fini. Tout à fait fini.\nCela me semble tout à fait insensé. Ce pauvre Cassagnac. Et rien que 400.000 de dot ! le Double après la mort des parents. On dit que c'est beaucoup. Julian dit que c'est le nécessaire, c'est le repos et que ce qui vient en plus est bénéfice tandis que sans ces 20.000 de rente on était exposé à tous les hasards avec des dettes jusqu'au cou. Et après tout, dans un moment de gêne les meubles les plus précieux se vendaient bon marché. Oui, un guéridon en bois de rose vendu comme une table de nuit d'acajou.\nVous direz ce que vous voudrez, je crois que Cassagnac vaut plus de 20.000 et puis 40.000 francs de rente.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶161–163, Mon Journal t.12 p.17 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0064"
+    },
+    {
+     "old": "081.0065"
+    },
+    {
+     "old": "081.0066",
+     "set_french": "Madame Gavini m'invite à l'Opéra. Multedo a été ici hier et aujourd'hui, je n'ai pas vu cette belle rose en culottes.\nJe pense tout le bien que je dis de feu Cassagnac et il me semble qu'il est impossible d'en trouver un autre pareil et que mes sympathies, mes goûts, mon intelligence se lient à cet homme. Il me semble que j'y suis attachée et que cela ira croissant; je ne voudrais rien dire, je me suis tellement souillée par mes plaisanteries passées, que je crains qu'on pense que c'est encore quelque bêtise d'amour... et je suis honteuse de [ne] rien dire. Je ne veux rien affirmer pour ne pas avoir de nouveau à m'excuser. Nous verrons cela dans la suite mais je dois dire ce qui en est maintenant. Il me semble que pour moi il n'y a que lui capable de me comprendre.\nMais il est mort. Et à présent il est sans doute avec sa femme. Paul de Cassagnac est marié. Cela ne m'empêche pas de concentrer sur lui toutes mes pensées tendres, [Rayé: cela le suivra dans toute son existence, avec en plus un inérêt ] et de m'avouer ce que je n'osais m'avouer par superstition, tant qu'il était vivant.\nC'est-à-dire que je m'y suis peu attachée malgré [moi] et que moralement je me suis blottie auprès de lui et je m'appuie sur sa large poitrine comme pendant la dernière visite à la rue de Boulogne. Je regrette d'avoir écrit cela, je puis changer d'avis, me tromper, ce qui serait une profanation.\nMais je le répète, ce n'est pas une toquade, c'est plutôt une Idée par dessus laquelle ont passé et passeront peut-être encore bien des choses pendant qu'elle grandira toujours.\n[En travers: Je me suis cent fois retenue de vous dire ces bêtises, je les regrette aussitôt après les avoir écrites. Ce sont je vous le répète des fantaisies que la plume alourdit et défigure.]\nJe ne suis pas trop furieuse, je m'y attendais depuis trois mois déjà, je m'y suis habituée; je n'ai pas versé une seule larme pas même de colère. Je regrette d'avoir raconté ces bêtises, je crois après tout que j'avais besoin de déposer sur la tête de quelqu'un le volume d'affection qui m'a été accordé par le ciel. Le placement est fait, je ne suis plus inquiète. Quelle absurdité je dis !\nNon sérieusement vous ne saurez jamais de quelles adorations je serais capable. Je voudrais être double pour que ma seconde moi se prosternât devant la première parce que la première à l'honneur d'être à genoux devant lui. Les anciens ont tort de représenter l'Amour comme ils l'ont fait, ('Amour c'est la femme qui aime. Les gens aux sentiments vulgaires.\nJe m'étais pourtant défendu de traiter légèrement les choses sérieuses de l'Amour. On ne devrait écrire ce mot qu'en des cas extrêmes, en des circonstances définitives et j'en plaisante de nouveau pour parler de choses qui après tout peuvent être sérieuses malgré ce que ça aurait de bizarre. J'ai lu des romans de mœurs parisiennes où on trouve des choses bien extraordinaires, dans Balzac même... et alors, il vous vient des idées de mener une intrigue...\nMon Dieu, pourvu que vous ne pensiez que je suis tout vulgairement amoureuse de feu - Cassagnac. Vous ne le pensez pas. Ce serait bête et même sale.\nJ'ai beaucoup d'affection pour lui, je crains et j'espère que cela va marcher en augmentant et qu'un jour je l'aimerai... Car, à vous dire franchement je n'aimerais pas aimer un autre, il ne le mériterait pas... qui sait... cherchons parmi les célébrités, découvrons un grand homme... ce ne sera jamais ça... Ici il y a le chevalier, [Mot noirci : le matamore ] le Don Juan avec un bon cœur, et le tout est poétisé, embelli, élevé, grandi par ce mot : homme politique.\nEt le tout est tombé dans le baquet du mariage ! Que l'on n'excuserait qu'en sa propre faveur.\nMais il est à une autre femme... bah ! si j'arrive à l'aimer je l'en séparerai, je le prendrai pour moi.\nMais pour le moment il s'agit d'autre chose surtout si je veux vraiment arriver à ces fins assez folles et mauvaises. Il faut être célèbre pour lui donner des regrets, il faut me marier etc. etc. Au fait, cela ne change rien à mes projets, que j'aime ou que je n'aime personne j'agirai de même.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶175–182, Mon Journal t.12 pp.18–19 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0067"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-29.md",
+   "date": "1878-06-29",
+   "heading": "Samedi 29 juin 1878",
+   "paragraphs": [
+    {
+     "old": "081.0068"
+    },
+    {
+     "old": "081.0069"
+    },
+    {
+     "old": "081.0070",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 29 juin 1878"
+    },
+    {
+     "old": "081.0071",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 29 juin 1878"
+    },
+    {
+     "old": "081.0072"
+    },
+    {
+     "old": "081.0073"
+    },
+    {
+     "old": "081.0074"
+    },
+    {
+     "old": "081.0075"
+    },
+    {
+     "old": "081.0076"
+    },
+    {
+     "old": "081.0077"
+    },
+    {
+     "old": "081.0079"
+    },
+    {
+     "old": "081.0080"
+    },
+    {
+     "old": "081.0081"
+    },
+    {
+     "old": "081.0082",
+     "kind": "rayé"
+    },
+    {
+     "old": "081.0083"
+    },
+    {
+     "old": "081.0084"
+    },
+    {
+     "old": "081.0085"
+    },
+    {
+     "old": "081.0086"
+    },
+    {
+     "old": "081.0087"
+    },
+    {
+     "old": "081.0088"
+    },
+    {
+     "old": "081.0089"
+    },
+    {
+     "old": "081.0090"
+    },
+    {
+     "old": "081.0091"
+    },
+    {
+     "old": "081.0092"
+    },
+    {
+     "old": "081.0093"
+    },
+    {
+     "old": "081.0094"
+    },
+    {
+     "old": "081.0095"
+    },
+    {
+     "old": "081.0096"
+    },
+    {
+     "old": "081.0097"
+    },
+    {
+     "old": "081.0098"
+    },
+    {
+     "old": "081.0099"
+    },
+    {
+     "old": "081.0100"
+    },
+    {
+     "old": "081.0101"
+    },
+    {
+     "old": "081.0102"
+    },
+    {
+     "old": "081.0103"
+    },
+    {
+     "old": "081.0104"
+    },
+    {
+     "old": "081.0105"
+    },
+    {
+     "old": "081.0106"
+    },
+    {
+     "old": "081.0107"
+    },
+    {
+     "old": "081.0108"
+    },
+    {
+     "old": "081.0109"
+    },
+    {
+     "old": "081.0110"
+    },
+    {
+     "old": "081.0111"
+    },
+    {
+     "old": "081.0112"
+    },
+    {
+     "old": "081.0113"
+    },
+    {
+     "old": "081.0114"
+    },
+    {
+     "old": "081.0115"
+    },
+    {
+     "old": "081.0116"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-30.md",
+   "date": "1878-06-30",
+   "heading": "Dimanche 30 juin 1878",
+   "paragraphs": [
+    {
+     "old": "081.0078"
+    },
+    {
+     "old": "081.0117"
+    },
+    {
+     "old": "081.0118"
+    },
+    {
+     "old": "081.0119"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-01.md",
+   "date": "1878-07-01",
+   "heading": "Lundi 1er juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0120"
+    },
+    {
+     "old": "081.0121"
+    },
+    {
+     "old": "081.0122"
+    },
+    {
+     "old": "081.0123"
+    },
+    {
+     "old": "081.0124"
+    },
+    {
+     "old": "081.0125"
+    },
+    {
+     "old": "081.0126"
+    },
+    {
+     "old": "081.0127"
+    },
+    {
+     "old": "081.0128"
+    },
+    {
+     "old": "081.0129"
+    },
+    {
+     "old": "081.0130"
+    },
+    {
+     "old": "081.0131"
+    },
+    {
+     "old": "081.0132"
+    },
+    {
+     "old": "081.0133"
+    },
+    {
+     "old": "081.0134"
+    },
+    {
+     "old": "081.0135"
+    },
+    {
+     "old": "081.0136"
+    },
+    {
+     "old": "081.0137"
+    },
+    {
+     "old": "081.0138"
+    },
+    {
+     "old": "081.0139"
+    },
+    {
+     "old": "081.0140"
+    },
+    {
+     "old": "081.0141"
+    },
+    {
+     "old": "081.0142"
+    },
+    {
+     "old": "081.0143"
+    },
+    {
+     "old": "081.0144"
+    },
+    {
+     "old": "081.0145"
+    },
+    {
+     "old": "081.0146"
+    },
+    {
+     "old": "081.0147"
+    },
+    {
+     "old": "081.0148"
+    },
+    {
+     "old": "081.0149"
+    },
+    {
+     "old": "081.0150"
+    },
+    {
+     "old": "081.0151"
+    },
+    {
+     "old": "081.0152"
+    },
+    {
+     "old": "081.0153"
+    },
+    {
+     "old": "081.0154"
+    },
+    {
+     "old": "081.0155"
+    },
+    {
+     "old": "081.0156"
+    },
+    {
+     "old": "081.0157"
+    },
+    {
+     "old": "081.0158"
+    },
+    {
+     "old": "081.0159"
+    },
+    {
+     "old": "081.0160"
+    },
+    {
+     "old": "081.0161"
+    },
+    {
+     "old": "081.0162"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-02.md",
+   "date": "1878-07-02",
+   "heading": "Mardi 2 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0163"
+    },
+    {
+     "old": "081.0164"
+    },
+    {
+     "old": "081.0165"
+    },
+    {
+     "old": "081.0166"
+    },
+    {
+     "old": "081.0167"
+    },
+    {
+     "old": "081.0168",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mme Doubelt, 2 juillet 1878"
+    },
+    {
+     "old": "081.0169",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mme Doubelt, 2 juillet 1878"
+    },
+    {
+     "old": "081.0170",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mme Doubelt, 2 juillet 1878"
+    },
+    {
+     "old": "081.0171",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mme Doubelt, 2 juillet 1878"
+    },
+    {
+     "old": "081.0172",
+     "kind": "letter",
+     "source": "Lettre de Marie à Mme Doubelt, 2 juillet 1878"
+    },
+    {
+     "old": "081.0173"
+    },
+    {
+     "old": "081.0174"
+    },
+    {
+     "old": "081.0175"
+    },
+    {
+     "old": "081.0176"
+    },
+    {
+     "old": "081.0177",
+     "kind": "margin"
+    },
+    {
+     "old": "081.0178"
+    },
+    {
+     "old": "081.0179"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-03.md",
+   "date": "1878-07-03",
+   "heading": "Mercredi 3 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0180"
+    },
+    {
+     "old": "081.0181"
+    },
+    {
+     "old": "081.0182"
+    },
+    {
+     "old": "081.0183"
+    },
+    {
+     "old": "081.0184"
+    },
+    {
+     "old": "081.0185"
+    },
+    {
+     "old": "081.0186"
+    },
+    {
+     "old": "081.0187"
+    },
+    {
+     "old": "081.0188"
+    },
+    {
+     "old": "081.0189"
+    },
+    {
+     "old": "081.0190"
+    },
+    {
+     "old": "081.0191"
+    },
+    {
+     "old": "081.0192"
+    },
+    {
+     "old": "081.0193"
+    },
+    {
+     "old": "081.0194"
+    },
+    {
+     "old": "081.0195"
+    },
+    {
+     "old": "081.0196"
+    },
+    {
+     "old": "081.0197"
+    },
+    {
+     "old": "081.0198"
+    },
+    {
+     "old": "081.0199"
+    },
+    {
+     "old": "081.0200"
+    },
+    {
+     "old": "081.0201"
+    },
+    {
+     "old": "081.0202"
+    },
+    {
+     "old": "081.0203"
+    },
+    {
+     "old": "081.0204"
+    },
+    {
+     "old": "081.0205"
+    },
+    {
+     "old": "081.0206"
+    },
+    {
+     "old": "081.0207"
+    },
+    {
+     "old": "081.0208"
+    },
+    {
+     "old": "081.0209"
+    },
+    {
+     "old": "081.0210"
+    },
+    {
+     "old": "081.0211"
+    },
+    {
+     "old": "081.0212"
+    },
+    {
+     "old": "081.0213"
+    },
+    {
+     "old": "081.0214"
+    },
+    {
+     "old": "081.0215"
+    },
+    {
+     "old": "081.0216"
+    },
+    {
+     "old": "081.0217"
+    },
+    {
+     "old": "081.0218"
+    },
+    {
+     "old": "081.0219"
+    },
+    {
+     "old": "081.0220"
+    },
+    {
+     "old": "081.0221"
+    },
+    {
+     "old": "081.0222"
+    },
+    {
+     "old": "081.0223"
+    },
+    {
+     "old": "081.0224"
+    },
+    {
+     "old": "081.0225"
+    },
+    {
+     "old": "081.0226"
+    },
+    {
+     "old": "081.0227"
+    },
+    {
+     "old": "081.0228"
+    },
+    {
+     "old": "081.0229"
+    },
+    {
+     "new": {
+      "french": "- Vous êtes exhorbitant !",
+      "rsr": "Restored from tome12.docx ¶359, Mon Journal t.12 p.30 (missing from original extraction, 2026-09-28 rebuild)."
+     },
+     "_created": true
+    },
+    {
+     "old": "081.0230"
+    },
+    {
+     "old": "081.0231"
+    },
+    {
+     "old": "081.0232"
+    },
+    {
+     "old": "081.0233"
+    },
+    {
+     "old": "081.0234"
+    },
+    {
+     "old": "081.0235"
+    },
+    {
+     "old": "081.0236"
+    },
+    {
+     "old": "081.0237"
+    },
+    {
+     "old": "081.0238"
+    },
+    {
+     "old": "081.0239"
+    },
+    {
+     "old": "081.0240"
+    },
+    {
+     "old": "081.0241"
+    },
+    {
+     "old": "081.0242"
+    },
+    {
+     "old": "081.0243"
+    },
+    {
+     "old": "081.0244"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-04.md",
+   "date": "1878-07-04",
+   "heading": "Jeudi 4 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0245"
+    },
+    {
+     "old": "081.0246"
+    },
+    {
+     "old": "081.0247"
+    },
+    {
+     "old": "081.0248"
+    },
+    {
+     "old": "081.0249"
+    },
+    {
+     "old": "081.0250"
+    },
+    {
+     "old": "081.0251"
+    },
+    {
+     "old": "081.0252"
+    },
+    {
+     "old": "081.0253"
+    },
+    {
+     "old": "081.0254"
+    },
+    {
+     "old": "081.0255"
+    },
+    {
+     "old": "081.0256"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-05.md",
+   "date": "1878-07-05",
+   "heading": "Vendredi 5 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0257"
+    },
+    {
+     "old": "081.0258"
+    },
+    {
+     "old": "081.0259"
+    },
+    {
+     "old": "081.0260",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0261",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0262",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0263",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)",
+     "set_french": "> *Sous un dais soutenu par quatre colonnes avait été dressé un grand catafalque blanc, disparaissant sous un monceau de couronnes et de fleurs naturelles; en outre, des roses effeuillées étaient répandues*\n> en quantité autour du monument funèbre, sur lequel la couronne royale, en perles et diamants avait été posée.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶393–395, Mon Journal t.12 pp.32–33 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0264",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0265",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0266",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0267",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0268",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0269",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0270",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0271",
+     "kind": "clipping",
+     "source": "Le Figaro, juillet 1878 (service funèbre de la reine Mercedes à la Madeleine)"
+    },
+    {
+     "old": "081.0272"
+    },
+    {
+     "old": "081.0273"
+    },
+    {
+     "old": "081.0274",
+     "kind": "letter",
+     "source": "Lettre anonyme («Une femme indignée») à A. Multedo, juillet 1878 (mystification de la «petite tante»)"
+    },
+    {
+     "old": "081.0275",
+     "kind": "letter",
+     "source": "Lettre anonyme («Une femme indignée») à A. Multedo, juillet 1878 (mystification de la «petite tante»)"
+    },
+    {
+     "old": "081.0276",
+     "kind": "letter",
+     "source": "Lettre anonyme («Une femme indignée») à A. Multedo, juillet 1878 (mystification de la «petite tante»)"
+    },
+    {
+     "old": "081.0277"
+    },
+    {
+     "old": "081.0279"
+    },
+    {
+     "old": "081.0280"
+    },
+    {
+     "old": "081.0281"
+    },
+    {
+     "old": "081.0282",
+     "kind": "margin"
+    },
+    {
+     "old": "081.0283"
+    },
+    {
+     "old": "081.0284"
+    },
+    {
+     "old": "081.0285"
+    },
+    {
+     "old": "081.0286"
+    },
+    {
+     "old": "081.0287"
+    },
+    {
+     "old": "081.0288"
+    },
+    {
+     "old": "081.0289"
+    },
+    {
+     "old": "081.0290"
+    },
+    {
+     "old": "081.0291"
+    },
+    {
+     "old": "081.0292"
+    },
+    {
+     "old": "081.0293"
+    },
+    {
+     "old": "081.0294"
+    },
+    {
+     "old": "081.0295"
+    },
+    {
+     "old": "081.0296"
+    },
+    {
+     "old": "081.0297"
+    },
+    {
+     "old": "081.0298"
+    },
+    {
+     "old": "081.0299"
+    },
+    {
+     "old": "081.0300"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-06.md",
+   "date": "1878-07-06",
+   "heading": "Samedi 6 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0278"
+    },
+    {
+     "old": "081.0301"
+    },
+    {
+     "old": "081.0302"
+    },
+    {
+     "old": "081.0303"
+    },
+    {
+     "new": {
+      "french": "Je me suis beaucoup amusée à le tourmenter pendant une heure, je le lui ai dit, je lui ai dit toute la vérité en riant mais on ne peut pas croire à de pareilles choses quand on les dit, si c'est dit avec esprit, ça amuse; si c'est bête, c'est insupportable.",
+      "rsr": "Restored from tome12.docx ¶437, Mon Journal t.12 p.36 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Puis les autres sont rentrés et nous avons encore bavardé jusqu'à six heures. Il était trop tard pour partir, on va voir \"Psyché\" à l'Opéra-Comique sans Multedo. Je lui en veux de lui avoir donné ma main à baiser; il faisait beau l'autre soir et il m'aimait tant... Je ne lui pardonnerais pas cette faveur, pourtant je lui dois de la reconnaissance; grâce à lui il est démontré que je n'ai pas été amoureuse d'Antonelli et des autres.",
+      "rsr": "Restored from tome12.docx ¶438–439, Mon Journal t.12 pp.36–37 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je mériterais d'être battue pour avoir ainsi faussé les choses, en faussant les expressions.. Aimer ! Aimer Antonelli, jamais de la vie... fi l'horreur ! Et le nez d'Antonelli, et le nez de Multedo... mais il m'amuse je voudrais pouvoir pendant une heure lui permettre de m'aimer, y assister en spectatrice., car dans tous les cas même s'il en veut à mes sous [Mot noirci: il m'aime] follement avec les sens... il ferait tout pour m'avoir. Voyez-vous mes chers, si j'étais femme et si j'avais besoin de cet homme, je pourrais en faire n'importe quoi rien que pour... Je commence à comprendre certains faits historiques et dans les romans aussi...",
+      "rsr": "Restored from tome12.docx ¶440, Mon Journal t.12 p.37 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Nous ne nous comprendrons jamais, lui ai-je dit, mes sentiments sont là-haut; tandis que les vôtres sont par terre. Pourquoi donc vous étonner si on marche dessus ?",
+      "rsr": "Restored from tome12.docx ¶441, Mon Journal t.12 p.37 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je lui ai demandé comment on se mariait en France, en réponse à ses propositions de mariage, le raillant sur son futur mariage \"car moi je ne vous épouserai jamais\" et puis je suis mineure, ma signature au contrat ne vaudrait rien n'est-ce pas ?",
+      "rsr": "Restored from tome12.docx ¶442, Mon Journal t.12 p.37 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C'est amusant de plaisanter de choses si sérieuses quand on vous en parle sérieusement. [Mots noircis: Je ne] veux pas refuser net après toutes ces moqueries qu'il subit si bien, ce serait m'en faire un ennemi et c'est encore trop tôt à Paris à cause des Gavini qui l'aiment.",
+      "rsr": "Restored from tome12.docx ¶443, Mon Journal t.12 p.37 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Toutes les joies à la fois ce feu-Cassagnac; lisez la note du \"Figaro\".",
+      "rsr": "Restored from tome12.docx ¶444, Mon Journal t.12 p.37 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout en écoutant la musique j'ai eu comme une peur, un froid moral. [Mots noircis: Cela m'est venu] tout d'un coup, je le savais d'ailleurs mais jamais cela ne m'avait effrayée sérieusement. J'ai un grand ennemi dans le Défunt. Tout trépassé qu'il soit il me fera du mal. Quand Edmond m'annonçait un ennemi en le qualifiant de *casseur d'assiettes, de matamore* j'étais bien loin d'y croire, et [Mots noircis: pourtant cela m'avait serré] le cœur, non que j'eusse des pressentiments, non, mais de la crainte et de la peine. En un instant je me suis figurée à l'Opéra avec Mme Gavini, radieuse et causant avec tout le monde et [Mots noircis : et voilà que tout] à coup la conversation s'arrête, le sourire disparait et je suis glacée par le regard noir et calme du Défunt qui pèse sur moi, qui me magnétise à dessein et qui jouit de la peur qu'il me fait.",
+      "rsr": "Restored from tome12.docx ¶445, Mon Journal t.12 p.37 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-07-07.md",
+   "date": "1878-07-07",
+   "heading": "Dimanche 7 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0304",
+     "set_french": "[Aucun texte - date seule mentionnée]",
+     "_manual": true,
+     "_why": "bare date line ¶446"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-08.md",
+   "date": "1878-07-08",
+   "heading": "Lundi 8 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0309"
+    },
+    {
+     "old": "081.0310"
+    },
+    {
+     "old": "081.0311"
+    },
+    {
+     "old": "081.0312",
+     "set_french": "A sept heures nous partons. Grand-papa voulait que je reste mais je lui dis adieu alors il m'embrassa et tout à coup il se mit à pleurer, le nez froncé, la bouche ouverte, les yeux fermés, comme un enfant ! Avant sa maladie ce n'était rien mais maintenant je l'adore. Si vous saviez comme il s'intéresse aux moindres choses, comme il nous aime tous depuis qu'il est dans cet affreux état. Encore un instant et je serais restée... Quelle folie d'être si sensible toujours !",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶450–451, Mon Journal t.12 p.38 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0313"
+    },
+    {
+     "old": "081.0314"
+    },
+    {
+     "new": {
+      "french": "Elle a raison ! elle pense à moi. Si elle n'avait rien dit... mais elle me fait regretter et plus encore ! La dernière fois que j'ai communié, j'ai demandé quelque chose et le pain consacré me tomba des mains à trois reprises. Je n'y ai pas voulu prendre garde, pourtant c'était un refus manifeste, ce qui a d'ailleurs été prouvé ensuite.",
+      "rsr": "Restored from tome12.docx ¶455–456, Mon Journal t.12 pp.38–39 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0315",
+     "set_french": "Dois-je dire mes pensées de voyage ? Oui, elles sont touchantes. [Je les ai notées dans mon carnet, en wagon.] Je me disais tout en roulant que le jour du mariage de cet homme ma vie a été manquée et que je suis aussi bien morte que lui défunt. Je m'imaginais que ce n'était qu'un nouvel ennui à passer, je me résignais ! Trop sage ! Toujours des excès ! Il fallait prendre des mesures. Mais est-ce que je savais !!! Et à présent il n'y a plus qu'à se boucher les oreilles et à fermer les yeux. Si je suis incapable d'aimer, je suis follement ambitieuse et je souffre mille morts d'être à jamais séparée de cette gloire que je suivais en silence, que j'encourageais, que j'adorais, que je partageais en secret.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶457–458, Mon Journal t.12 p.39 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0316",
+     "set_french": "Il y a quelques jours de cela j'ai écrit *qu'elle le garderait.* Garder de quoi ! J'étais stupide ! Marie Presseq... le gardait du mariage, mais sa femme ! Sans m'en rendre jamais compte, en cachette de moi-même je m'étais attachée à cette existence, je m'étais identifiée avec cette vie si belle depuis le premier jour. C'était peut-être pour ne pas l'envier... Et maintenant que vais-je faire ! Je l'enviais quand il n'était à personne mais sans me l'avouer je me consolais par de secrètes pensées et maintenant !... ce n'est qu'après l'avoir perdu que je sens combien je me l'avais approprié.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶459–460, Mon Journal t.12 p.39 (2026-09-28 rebuild). Printer's typo corrected: «persone» → «personne» (Mon Journal t.12 p.39)."
+    },
+    {
+     "old": "081.0317"
+    },
+    {
+     "old": "081.0318",
+     "set_french": "Je voulais me résigner, je m'en vantais. J'étais folle. Pour donner le change à je ne sais qui j'ai plaisanté où il fallait réfléchir, j'ai fait de la phylosophie où il fallait agir ! Cette terrible affaire est arrivée si doucement et si vite. Je m'y étais habituée de sorte que cela n'a pas paru tout d'abord. Et puis ce n'est pas une secousse violente, c'est une horrible chose qui se fera toujours sentir car Paul de Cassagnac sera toujours là marchant toujours vers la célébrité, vers la gloire, vers la grandeur. Du moment qu'il ne me regarde plus vous verrez comme il arrivera, cet homme. L'Empire reviendra et \"il planera sur la France\"., comme dit Multedo; avec Mlle Acard!!! J'aime autant me le dire d'avance... ça revient au même au fait. Je ne m'habituerai jamais à cela !",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶466–467, Mon Journal t.12 pp.39–40 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0319"
+    },
+    {
+     "new": {
+      "french": "Le Dr. Thilenius sort d'ici, il a fait les questions nécessaires sur ma maladie et n'a pas dit comme les Français: \"Bon, ce ne sera rien, dans huit jours nous vous guérirons Mademoiselle\". Demain je commence la cure.",
+      "rsr": "Restored from tome12.docx ¶470, Mon Journal t.12 p.40 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les arbres sont beaux ici, l'air est pur. La campagne va à ma figure. A Paris je ne suis que jolie si je le suis, ici je parais suave, poétique; mes yeux sont plus grands, et mes joues plus maigres.",
+      "rsr": "Restored from tome12.docx ¶471, Mon Journal t.12 p.40 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je serais peut-être plus amoureuse du Mort si l'amour me paraissait aussi irrévocablement perdu que l'ambition. On peut toujours prendre son cœur à sa femme mais on ne peut lui ôter l'honneur de porter son nom et de partager sa vie publiquement. Voilà pourquoi je suis plus colère que chagrinée.",
+      "rsr": "Restored from tome12.docx ¶472, Mon Journal t.12 p.40 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il me semble, par paresse peut-être, que tout est fini, que je n'aimerai jamais personne. Je ne demande pas mieux si j'étais sûre d'aimer celui-ci.... Mais je crois que je suis incapable d'aimer...",
+      "rsr": "Restored from tome12.docx ¶473, Mon Journal t.12 p.40 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'aurais pu l'aimer... mais je ne crois pas que je l'aime; je suis trop calme pour cela... que diable quand on aime... on n'est pas obligée de se tirer par les cheveux... Il faut des éclats et chez moi il n'y a que de la patience. On dit que les gens qui savent attendre sont forts.",
+      "rsr": "Restored from tome12.docx ¶474, Mon Journal t.12 p.40 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin nous verrons cela... d'ailleurs un autre ne le mériterait pas, je l'aimerais pour sa peau, ce ne serait ni durable ni honorable; il n'y a pas un autre Paul de Cassagnac en Europe, inutile de chercher. Je m'arrête donc à lui et ne *veux* pas chercher.",
+      "rsr": "Restored from tome12.docx ¶475, Mon Journal t.12 p.40 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais pour cela même il faut que je parvienne. Si je pouvais me marier avec Gambetta... cela me ferait plaisir. Comment ! ma chère est-ce que nous aimons Paul de Cassagnac ? N...non, puisqu'il est mort pour mon amour, mais je crois sincèrement qu'il serait indigne de *moi* d'en *aimer* un autre. Cherchons en Europe un homme qui le vaille... Oh ! il y en a beaucoup. Il y a des ministres, des diplomates, des savants qui sont plus forts que lui, mais ces gens-là ne sont pas des remueurs de masses, ne sont pas ce sublime saltimbanque qui s'est créé un rôle qu'on blâme mais qui fait sourire avec une espèce d'admiration même les gens les plus sérieux qui s'empressent de lui jeter à la tête sa jeunesse et les folies qui en étaient les conséquences naturelles. Je déteste les gens auxquels il n'y a rien à reprocher, ceux-là ont toujours quelque vice horrible caché.",
+      "rsr": "Restored from tome12.docx ¶476–477, Mon Journal t.12 pp.40–41 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Donc voici, le Défunt est l'être le plus intéressant et le plus amusant qui existe. S'il y avait quelqu'un d'autre pour moi on en entendrait parler... Il y en a un, c'est Gambetta mais il est trop laid et trop gras et il a l'air sale. Ce n'est pas la même chose...",
+      "rsr": "Restored from tome12.docx ¶478, Mon Journal t.12 p.41 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Voyons, je ne demande pas mieux... mais puisqu'il n'y en a pas d'autre.",
+      "rsr": "Restored from tome12.docx ¶479, Mon Journal t.12 p.41 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-07-09.md",
+   "date": "1878-07-09",
+   "heading": "Mardi 9 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0321"
+    },
+    {
+     "old": "081.0322"
+    },
+    {
+     "old": "081.0323"
+    },
+    {
+     "old": "081.0324"
+    },
+    {
+     "old": "081.0325",
+     "_manual": true
+    }
+   ]
+  },
+  {
+   "file": "1878-07-10.md",
+   "date": "1878-07-10",
+   "heading": "Mercredi 10 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0327"
+    },
+    {
+     "old": "081.0328"
+    },
+    {
+     "old": "081.0329"
+    },
+    {
+     "old": "081.0330"
+    },
+    {
+     "new": {
+      "french": "J'ai répondu à Berthe et à d'autres.",
+      "rsr": "Restored from tome12.docx ¶490, Mon Journal t.12 p.41 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0331"
+    },
+    {
+     "new": {
+      "french": "- Il est très adroit, dis-je, vous verrez qu'il fera quelque chose de très avantageux de son mariage et on le regardera très bien à Paris.",
+      "rsr": "Restored from tome12.docx ¶493, Mon Journal t.12 p.42 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Mais, répondit-il d'un air entendu, il n'y a pas que Paris. Je sais qu'il est adroit parbleu ! C'est qu'il faut être malin pour se poser en Europe comme cet enfant terrible s'est posé.",
+      "rsr": "Restored from tome12.docx ¶494, Mon Journal t.12 p.42 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout cela me revient au moment ou j'allais dormir !",
+      "rsr": "Restored from tome12.docx ¶495, Mon Journal t.12 p.42 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Miséricorde ! Serait-ce vrai ! Serait-il un grand homme ?!! S'il ne l'est pas, il le sera...",
+      "rsr": "Restored from tome12.docx ¶496, Mon Journal t.12 p.42 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Folle, imbécile, criminelle ! Je n'y voyais que Popaul... Parbleu Popaul peut se retrouver mais l'autre !!!",
+      "rsr": "Restored from tome12.docx ¶497, Mon Journal t.12 p.42 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Par paresse, par sagesse avec toutes mes belles réflexions, mon expérience, mes résignations, j'ai commis la faute la plus épouvantable qui soit. J'ai laissé faire et ne me suis réveillée qu'au dernier moment ! J'en meurs de dépit. *Il vous en cuira.* Ah ! il m'en cuit !",
+      "rsr": "Restored from tome12.docx ¶498, Mon Journal t.12 p.42 (missing from original extraction, 2026-09-28 rebuild). Printer's typo corrected: «dépît» → «dépit» (Mon Journal t.12 p.42)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je pleurais si facilement autrefois. Maintenant cette horrible, cette irréparable faute ne m'a pas fait verser une larme.",
+      "rsr": "Restored from tome12.docx ¶499, Mon Journal t.12 p.42 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai manqué ma vie... je n'ai presque pas le désir de me refaire...",
+      "rsr": "Restored from tome12.docx ¶500, Mon Journal t.12 p.42 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si Cassagnac est Défunt je suis morte... car tout ce qui pourra m'arriver gloire, honneurs, argent, ne sera plus *ça,* ce sera beau, superbe, magnifique peut-être mais ce ne sera pas ce qui était fait exprès pour moi.",
+      "rsr": "Restored from tome12.docx ¶501, Mon Journal t.12 p.42 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-07-11.md",
+   "date": "1878-07-11",
+   "heading": "Jeudi 11 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0333"
+    },
+    {
+     "old": "081.0334",
+     "set_french": "Je relis le mariage de M. Paul de Cassagnac dans \"Le Figaro\" et je n'en crois pas mes yeux... Je ne croirais pas du tout à ce mariage si je n'avais ce lambeau de journal. Dieu me pardonne mais il me semble que le Défunt me dégoûte comme Multedo. Si j'avais du cœur, son bourgeois mariage et toutes ces petites misères ne le diminueraient pas. Mais je n'ai pas de cœur... et puis ça dépend des jours. J'insère les... moindres impressions. Je serais si contente de détester le Défunt.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶503–505, Mon Journal t.12 pp.42–43 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0335",
+     "set_french": "J'ai entendu avec joie plusieurs Russes qui se moquaient du retour des Bonaparte. Mais ce ne sont pas ces gens-là qui en savent quelque chose. M. Rouher dit que la république tombera un beau jour et on n'en retrouvera plus trace. M. Gambetta affirme que \"les débris impuissants du passé\" ne sont plus à craindre. J'envoie des [Mot noirci : bouquets] à l'impératrice et je désire épouser Léon le Dictateur. Je suis encore moins bête que les autres.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶505, Mon Journal t.12 p.43 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0336"
+    },
+    {
+     "old": "081.0337",
+     "set_french": "Ecoutez, si je n'aime pas le Défunt qui donc vais-je aimer ?!! Le Défunt est le premier de tous les hommes pour moi au moral comme aussi peut-être au physique... pourtant je le souhaiterais moins gras. Je suis fâchée de n'avoir pas de cœur, par moment j'en ai... Il me semble impossible que le Défunt ne soit pas enfin l'Homme.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶507–510, Mon Journal t.12 p.43 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0338"
+    },
+    {
+     "new": {
+      "french": "Non, savez-vous que je crois vraiment que je n'aime pas le Défunt ?! Et si je n'ai pas pleuré dans toute cette affaire c'est qu'assurément je n'étais pas chagrinée. Voilà le secret de cette belle phylosophie. Non, je voudrais pourtant croire que c'est une affection lente, progressive, éternelle et qui deviendra terrible...",
+      "rsr": "Restored from tome12.docx ¶510, Mon Journal t.12 p.43 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0339",
+     "set_french": "Pourquoi vouloir absolument aimer... Aimons quand nous y sommes forcée... mais en attendant... au moment du trépas de ce pauvre Cassagnac j'y étais forcée, forcée d'avouer mes sentiments par mes actions, mais maintenant, au fond de Soden entre une baignoire et un verre d'eau de la 3ème source... à la veille de peindre Rosalie sur un superbe fond de peluche rouge, un cercle d'or dans ses cheveux noirs, une épaule nue, l'autre drapée d'une soie blanche et jaune... à la veille de terminer les notes sur le IVe livre de Tite-Live, je me sens indifférente... Laissons-moi donc tranquille. C'est un sentiment éternel je le veux bien, mais la sagesse est dans mon caractère, pour le moment il n'y a rien à faire et je ne fais rien, je ne me déchire pas parce que cela n'y ferait rien et ne me rapporterait rien.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶511, Mon Journal t.12 p.43 (2026-09-28 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1878-07-12.md",
+   "date": "1878-07-12",
+   "heading": "Vendredi 12 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0340"
+    },
+    {
+     "old": "081.0341"
+    },
+    {
+     "old": "081.0342"
+    },
+    {
+     "new": {
+      "french": "Madame Abaza petite femme brune, élégante, un peu grosse, a chanté aujourd'hui. Elle prétend être malade de la gorge et en réalité n'a que des glandes, malgré lesquelles la voix est très forte et claire. Elle est malheureuse avec son mari et sous prétexte de maladie obtient de lui de rester la plupart du temps à l'étranger. Elle est commune et grimacière. Je déteste ces deux qualités réunies.",
+      "rsr": "Restored from tome12.docx ¶515, Mon Journal t.12 p.44 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il est d'usage ici de se payer en arrivant une sérénade de la musique de la ville. Nous avons essuyé la nôtre aujourd'hui.",
+      "rsr": "Restored from tome12.docx ¶516, Mon Journal t.12 p.44 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les Russes ont voulu m'emmener promener, mais je suis restée occupée de Rosalie. Il sont gentils et aimables mais j'aime mieux peindre.",
+      "rsr": "Restored from tome12.docx ¶517, Mon Journal t.12 p.44 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-07-13.md",
+   "date": "1878-07-13",
+   "heading": "Samedi 13 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0343"
+    },
+    {
+     "old": "081.0344"
+    },
+    {
+     "old": "081.0345"
+    },
+    {
+     "new": {
+      "french": "Ensuite Mme Abaza déclare qu'elle est très franche ce qui lui nuit, qu'elle aime ou n'aime pas et que nous avons son amitié! Amen.",
+      "rsr": "Restored from tome12.docx ¶521, Mon Journal t.12 p.44 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0346"
+    },
+    {
+     "old": "081.0347"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-14.md",
+   "date": "1878-07-14",
+   "heading": "Dimanche 14 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0348"
+    },
+    {
+     "old": "081.0349",
+     "set_french": "Dès huit heures nous allons à Wiesbaden, ma tante, Mme Abaza et moi. Nous allons à l'église et de là dîner et révolutionner les promeneurs. Nous étions littéralement les seules femmes habillées convenablement. L'oncle Lautrec est en Italie, les Batourine sont à Pétersbourg; mais nous avons vus les Lisander. Mme Lisander a raconté en une demi-heure les cancans d'une année, oh ! rien qu'un résumé... mais palpitant.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶525–526, Mon Journal t.12 p.45 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0350"
+    },
+    {
+     "old": "081.0351"
+    },
+    {
+     "old": "081.0352",
+     "set_french": "Voici la réponse de Mme Doubelt.",
+     "_manual": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶528, Mon Journal t.12 p.45 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "*\" Pétersbourg, 7 juillet [1878]*\n*10, Zakariefskaya Chère et charmante Mademoiselle Marie !*\n*Cette fois vous ne m'accuserez pas de ne pas vous répondre car il y a à peine deux heures que j'ai reçu votre lettre.*\n*Au moment de vous lire j'ai reçu la visite de son Altesse le Grand Duc Constantin et j'ai profité de sa présence pour votre protégé, mais le Grand Duc m'a répondu qu'avant tout il faudrait s'adresser au Prince Orloff, j'expédie donc ma demande à Paris et aussitôt la réponse reçue, je vous [en] ferai part. J'ajoute chère Mademoiselle que je serai heureuse de vous aider à faire cette agréable surprise à votre ami, mais en revanche je vous prierai de m'envoyer votre photographie, et j'espère que vous ne refuserez pas.*",
+      "rsr": "Restored from tome12.docx ¶529–532, Mon Journal t.12 p.45 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de Mme A. Doubelt à Marie, Pétersbourg, 7 juillet 1878"
+     },
+     "_manual": true
+    },
+    {
+     "old": "081.0353",
+     "set_french": "> *Paris doit être superbe dans ce moment et combien j'envie votre sort, car moi, hélas ! je ne pourrai revenir que pour la fin de l'année lorsque toutes nos affaires de famille seront réglées, mais alors je m'installerai pour longtemps.*\n> En attendant croyez-moi chère Mademoiselle Marie que nous toutes nous nous souvenons de vous avec plaisir et parlons souvent de vous.\n> *Pour le moment je suis aux Iles chez ma mère et Lise entrera à l'Institut au mois d'octobre.*\n> *Aussitôt que j'aurai la réponse de Paris je m'adresserai au prince Prince Gortschakoff.*\n> *Je finis en vous embrasant ainsi que Madame votre mère et toute votre charmante famille.*\n> A. Doubelt",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Lettre de Mme A. Doubelt à Marie, Pétersbourg, 7 juillet 1878",
+     "_rsr": "French completed/corrected from tome12.docx ¶533–544, Mon Journal t.12 pp.45–46 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "*P.S. Comment va la santé de votre grand-père?*\n*Ne m'en voulez pas de vous écrire si peu, mais toute occupée de mes affaires, je vis tout à fait retirée,*\n*Je ne vois personne et par conséquent ne vois rien de ce qui se passe d'intéressant.*\n*Ne vous gênez pas, si Je peux être agréable en quoi ce soi disposez de moi.*",
+      "rsr": "Restored from tome12.docx ¶539–543, Mon Journal t.12 pp.45–46 (missing from original extraction, 2026-09-28 rebuild). ¶542 «13-414» (an edition page reference) left out.",
+      "kind": "letter",
+      "source": "Lettre de Mme A. Doubelt à Marie, Pétersbourg, 7 juillet 1878 (post-scriptum)"
+     },
+     "_manual": true
+    },
+    {
+     "new": {
+      "french": "*Mon protégé, mon ami,* Paul de Cassagnac. C'est égal, je reçois \"Le Figaro\" ici et les dernières élections n'ont donné sur 15 ou 17 que 2 candidats conservateurs élus. Ils ne comptent pas beaucoup là-dessus, ils s'en fichent, ce qu'ils espèrent ce sont des troubles à la fin de l'Exposition. Le renouvellement du Sénat et puis des mécontentements soulevés par eux-même, bref un coup d'Etat après lequel le Prince Impérial pourrait passer un moment difficile... Personne ne croit au retour de l'Empire, mais les choses les plus incroyables peuvent arriver. Et celles-ci pourraient arriver, quand cela ne serait que pour me contrarier...",
+      "rsr": "Restored from tome12.docx ¶544, Mon Journal t.12 p.46 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les Loris-Melikoff ne viendront pas ici. Les Hohenlohe sont arrivés ce matin.",
+      "rsr": "Restored from tome12.docx ¶545, Mon Journal t.12 p.46 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Maman écrit que Filippini dit que Multedo souffre et qu'il est devenu terriblement nerveux.",
+      "rsr": "Restored from tome12.docx ¶546, Mon Journal t.12 p.46 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Mots noircis: Si cela était vrai cela] prouverait que le pauvre diable n'est pas si intéressé que je crois.",
+      "rsr": "Restored from tome12.docx ¶547, Mon Journal t.12 p.46 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce qui est curieux c'est que je n'aime pas du tout mon protégé. Quel dommage ! J'aurais tant aimé me fixer... Quelle enrageante diablerie que ce fichu-mariage. S'il ne s'était marié ou autrement marié, sa vie aurait été plus convenable et la mienne complète. Je ne sais si c'est une folie mais il me semble que je mettrais une telle ardeur et une telle volonté au service de sa cause qu'elle triompherait absolument.",
+      "rsr": "Restored from tome12.docx ¶548, Mon Journal t.12 p.46 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: S'il m'épousait sans m'aimer je me ferais aimer une fois mariée. J'en suis bien certaine.]",
+      "rsr": "Restored from tome12.docx ¶549, Mon Journal t.12 p.46 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "margin"
+     },
+     "_kind_guess_reason": "bracketed marginal note"
+    },
+    {
+     "new": {
+      "french": "[Sept lignes cancellées]",
+      "rsr": "Restored from tome12.docx ¶550, Mon Journal t.12 p.46 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "rayé"
+     },
+     "_kind_guess_reason": "bracketed struck passage"
+    },
+    {
+     "new": {
+      "french": "Je suis peut-être un peu ennuyée d'avoir été si près d'aimer définitivement et d'en avoir été empêchée si bêtement, si petitement. En faisant cette bêtise Cassagnac n'est plus Cassagnac... Toutefois je ne me prononce pas, on a tant vu d'exemples d'hommes qu'on a blâmés, dont on s'est moqué, qui ont fait et paru faire des bassesses et qui sont devenus en dépit de cela, des hommes remarquables, de grands hommes. De sorte que je ne fais [pas] tout à fait la dégoûtée bien que dans mon for intérieur, je le sois un peu. Je suis contente de n'en être qu'à regretter de *n'avoir pas pu aimer.*",
+      "rsr": "Restored from tome12.docx ¶551, Mon Journal t.12 p.46 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais ce sont ces exemples qu'on a tant vus, d'hommes célèbres etc. etc. qui m'empêchent de me prononcer. Je crois que... je suis humiliée dans *mon protégé* parce qu'il s'est abimé... et je serais furieuse si je me trompais, [Mots noircis: s'il devenait grand malgré cela,] et s'il parvenait sans moi. Vous me comprenez parfaitement. Hélas ! je ne l'aime pas... si... non, non. Mais nom d'une Acard ! Cela ne m'empêcherait pas de pleurer et de gémir si ce pauvre grand diable noir allait *monter en grade* comme dirait Rosalie.",
+      "rsr": "Restored from tome12.docx ¶552, Mon Journal t.12 pp.46–47 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comme c'est curieux pourtant, il me plaisait tant cet homme et j'aurais pu l'aimer véritablement, et à présent... *plus rien.*",
+      "rsr": "Restored from tome12.docx ¶553, Mon Journal t.12 p.47 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je crois qu'on a vu dans les Histoires des exemples d'hommes vils et perfides, qu'on a aimés quand même, je crois même que c'est très poétique, mais on ne peut pas se forcer à ces choses-là. Si le Défunt me plaît encore, assez pour que femme mariée (si je l'étais) j'en sois folle pendant trois mois, il m'est presque impossible de le regarder autrement, de le regarder comme avant... lorsque je me voyais reflétée dans lui, souple, adroit mais loyal, mais entier !",
+      "rsr": "Restored from tome12.docx ¶554, Mon Journal t.12 p.47 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Qu'a-t-il donc fait ? Il a menti en des occasions insignifiantes à des gens qui l'ennuyaient peut-être... Non, je ne sais au juste, mais ma foi est ébranlée... et je ne puis, non vrai, je ne puis *l'aimer* comme je l'entends. Avant je rêvais que nous nous aimions et je l'adorais en fantaisie; à présent cela m'est impossible; je le suppose capable de vilenies... et si à la surface, dans ce journal ou pour suivre les exemples dans les Histoires anciennes et modernes, je passe par dessus bien des choses légèrement au fond de moi-même je suis très scrupuleuse et susceptible. J'épouserais Paul de Cassagnac le sachant vil mais lui reconnaisant du talent et de l'avenir, mais je ne puis l'aimer *dans mon cœur,* je ne puis même le faire entrer avec succès dans mes romans de chaque jour, tant que la plus légère des ombres flotte sur lui.",
+      "rsr": "Restored from tome12.docx ¶555, Mon Journal t.12 p.47 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout cela est par ma faute !",
+      "rsr": "Restored from tome12.docx ¶556, Mon Journal t.12 p.47 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il m'aurait prise pour mon argent, (70.000 francs de rente) mais je me serais faite aimée pour moi. J'y aurais réussi avec un cœur comme le sien... et tout serait parfait...",
+      "rsr": "Restored from tome12.docx ¶557, Mon Journal t.12 p.47 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Dieu n'a pas voulu...",
+      "rsr": "Restored from tome12.docx ¶558, Mon Journal t.12 p.47 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je m'aperçois qu'ayant évité, je prononce le mot *amour* tout ce temps, j'en fais un abus ici... j'ai pris soin de ne pas même le mentionner... c'est que c'est une chose si délicate et c'est si... grossier de dire à chaque instant: je ne l'aime pas, je l'aime, je l'aimerais etc. Ce mot doit s'employer une fois, ce mot est le final des hésitations, c'est un mot à effet, à sensation... et j'en fais un ustensile de ménage !",
+      "rsr": "Restored from tome12.docx ¶559, Mon Journal t.12 p.47 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Mot noirci:Entraînée] par les vieilles habitudes j'ai été plusieurs fois cet hiver sur le point de le prononcer, de l'écrire du moins, mais je me suis toujours retenue... c'était dommage et pour le mot et pour celui qui le provoquait. Ce n'était pas la seule petite lettre... plusieurs fois et souvent je me défendais de penser au Défunt dans ce sens, de l'admirer, de rêver à lui.",
+      "rsr": "Restored from tome12.docx ¶560–561, Mon Journal t.12 pp.47–48 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et comme avant, loin de rien me défendre je m'encourageais et me provoquais, il me semble que cette fois c'était quelque chose d'autre. Je m'amusais infiniment de me dire: eh bien non, je ne veux pas que cela soit, je ne le veux pas ! C'était tout nouveau chez moi. J'allais travailler, je me forçais à penser à autre chose... c'était une [mot cancellé: vraie] lutte comme on les décrit dans les livres... Et c'était si sérieux que je n'en ai rien dit ici de peur de m'encourager à y penser.",
+      "rsr": "Restored from tome12.docx ¶562, Mon Journal t.12 p.48 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je vais revoir ces écritures pour effacer le mot... cherchons quand je l'ai écrit...",
+      "rsr": "Restored from tome12.docx ¶563, Mon Journal t.12 p.48 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-07-15.md",
+   "date": "1878-07-15",
+   "heading": "Lundi 15 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0354"
+    },
+    {
+     "old": "081.0355"
+    },
+    {
+     "old": "081.0356",
+     "set_french": "Le petit Dourassoff qui comme je crois l'avoir dit a vingt et un ans à peine et timide comme la timidité même, commence à parler un petit peu. Pourtant la société qu'il fréquente le plus jusqu'à présent est celle du petit Dimitri Rembelinsky âgé de neuf ans. Un type que ce Dourassoff (il est le neveu de Mme loukowkine, de Rome) il m'a offert une rose, mais il ne voit pas, je parie, de différence entre moi et la vieille Antonsky.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶566, Mon Journal t.12 p.48 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0357",
+     "set_french": "Peut-être est-ce un petit sournois... Mme Abaza le croit... en voilà encore une, je vais vous la peindre; on parlait du comte Protassoff-Bachmétieff, qui a failli épouser Mme Doubelt.\n- C'est un homme dont on peut être bien amoureuse, dit Mme Abaza avec conviction, il n'a pas d'esprit c'est vrai mais il est élégant et c'est un homme de salon, un homme chic[^2] enfin.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶567–568, Mon Journal t.12 p.48 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0358",
+     "set_french": "N'ayant rien de mieux à faire pendant mes repas et à dîner je cherche à deviner pourquoi cette dame habite l'étranger... Elle n'aime pas son mari qui a une autre famille, mais elle doit aimer quelqu'un d'autre... Elle est peut-être comme maman... c'est admirable, mais c'est bien ennuyeux [Mots noircis: pour son entourage. On devient tracassière], on s'accroche aux petites choses, enfin on devient désagréable et difficile dans le commerce de tous les jours. Est-ce que vous croyez que si maman avait quelque intérêt humain dans le cœur, est-ce que vous croyez qu'elle s'attacherait à me tracasser sur la façon dont ma femme de chambre accroche mes vêtements dans les armoires ou arrange ma table de nuit; et ça plusieurs fois par jour, de même que faire l'ordre sur ma toilette ou mon bureau quand je la supplie dix fois par jour, chaque fois qu'elle y touche, de laisser les choses comme elles sont parce que je les range d'après mon idée et je vais trouver chaque chose à sa place.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶569–570, Mon Journal t.12 pp.48–49 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "Eh bien chez elle c'est devenu une manie et que diriez-vous si je vous disais qu'elle veut vider tous les ustensiles qu'elle rencontre dans n'importe quelle chambre, cuvette, broc, etc. etc. Quand je vois cela je ne sais comment je deviens, ce sont des pâmoisons.",
+      "rsr": "Restored from tome12.docx ¶571, Mon Journal t.12 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0359"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-16.md",
+   "date": "1878-07-16",
+   "heading": "Mardi 16 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0360"
+    },
+    {
+     "old": "081.0361"
+    },
+    {
+     "old": "081.0362"
+    },
+    {
+     "old": "081.0363"
+    },
+    {
+     "old": "081.0364"
+    },
+    {
+     "new": {
+      "french": "Je suis fâchée et pourquoi ? Si je ne disais pas ces choses-là je ne les penserais pas moins. Il y a des choses si... frêles, ce sont des ombres légères qui deviennent des taches lorsqu'on les écrit... et puis je ne voudrais pas trop m'avancer... supposez que le Défunt engraisse encore et devienne un paisible et raisonnable député... j'en doute mais enfin dans ce cas-là je serais bien fâchée de l'avoir pris pour l'Homme.",
+      "rsr": "Restored from tome12.docx ¶578, Mon Journal t.12 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Eh bien dans ce cas je répéterai la même chose : c'est de ma faute.",
+      "rsr": "Restored from tome12.docx ¶579, Mon Journal t.12 p.50 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0365",
+     "set_french": "A vous dire vrai je m'en occupe fort peu pour mieux dire point mais je suppose que vous vous en occupez et je vous en entretiens. Je le place encore dans mes fantaisies mais pas parce qu'il me plaît mais bien s'il me plaisait. Quant à y songer autrement vous comprenez bien qu'il n'en est rien. Pour moi, il est mort et bien mort.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶580, Mon Journal t.12 p.50 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "S'il grandit je gémirai sur sa mort et me reprocherai de ne l'avoir pas empêché. C'est la vérité je vous en donne ma parole d'honneur. Je regrette de m'en détacher... et je me console en me disant que nous nous reverrons car vraiment je crois que c'est écrit et quoi qu'il arrive j'y reviendrai toujours. Cela m'a semblé pour le Surprenant mais d'une autre manière... Il me semblait que je reviendrai quelque jour à me faire faire la cour par lui à l'enrager. Eh bien, cela n'est rien d'incroyable. C'était si bête quand je pense... je n'ai cessé de le battre froid et le dernier temps quand il venait dans la loge je ne lui parlais pas *pour prévenir ses mépris* que je n'avais pas besoin de craindre, et puis je m'offensais de sa froideur. Le pauvre garçon me faisait une cour des plus banales et se voyant traité si cavalièrement il n'avait rien d'autre à faire qu'à s'en aller... Mais ici il y a trop d'affinités pour que je m'y sois réellement attachée pour que nous puissions ne pas nous rencontrer un jour; Il ne s'agit ni de circonférence ni de couleur, ce sont des attaches, des ressemblances purement morales et toutes puissantes.",
+      "rsr": "Restored from tome12.docx ¶581, Mon Journal t.12 p.50 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Jusqu'à présent il est mon seul *semblable* et je ne crois pas que j'en trouverai un autre... [Mots cancellés : Mais tout ceci n'empêche que je sois très calme et que je pleure sa mort]. C'est au milieu de ces conclusions que surgissent des doutes pénibles et misérables sur sa loyauté. Et tant que ces ombres planeront sur lui je serai préservée d'en faire mon ange sur la terre tout en le reconnaissant pour mon seul semblable et tout en gémissant de jalousie s'il grandit en gloire. Dès que je ne la partage point je l'envie et je me reprocherai sans cesse d'avoir laissé consommer une telle monstruosité.",
+      "rsr": "Restored from tome12.docx ¶582, Mon Journal t.12 p.50 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je crois que la situation de mon esprit [Mots noircis : est définie autant que] cela est possible eu égard aux petites variations de tous les jours qui ne changent rien à l'ensemble d'ailleurs.",
+      "rsr": "Restored from tome12.docx ¶583, Mon Journal t.12 p.50 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout cela est mon côté idéal, mon beau côté. L'autre ne s'occupe ni du cœur, ni de l'âme ni de l'esprit, l'autre s'occupe de vanité et [Mots noircis : et des choses] de tous les jours.",
+      "rsr": "Restored from tome12.docx ¶584, Mon Journal t.12 p.50 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je veux parvenir par la peinture ou par quoi que ce soit... Ne pensez pourtant pas que je ne m'occupe d'art que par vanité. Il y a peut-être peu de créatures aussi artistes que moi, dans tout. Vous vous en êtes d'ailleurs aperçu, vous qui êtes la partie intelligente de mes lecteurs, les autres je m'en moque. Les autres ne me verront qu'extravagante, parce que je suis bizarre dans tout sans le vouloir.",
+      "rsr": "Restored from tome12.docx ¶585, Mon Journal t.12 pp.50–51 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-07-17.md",
+   "date": "1878-07-17",
+   "heading": "Mercredi 17 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0366"
+    },
+    {
+     "old": "081.0367"
+    },
+    {
+     "old": "081.0368",
+     "set_french": "Voici une lettre de Multedo, et voici ma réponse, vous ne serez pas étonnés que je réponde quand vous aurez lu.",
+     "_manual": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶588, Mon Journal t.12 p.51 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "*Mont de Marsan (Landes)*\n5 juillet 1878\nMademoiselle,\n*En vous écrivant, j'use du droit que vous avez bien voulu m'accorder et je cède au besoin irrésistible de me rappeler à votre souvenir.*\n*Récemment vous m'avez fait le reproche de n'avoir jamais eu de duels? Le hasard a failli combler cette lacune : un journaliste de province s'étant permis d'attaquer ma famille dans une feuille de chou, je suis venu lui en demander raison. Je lui ai donné le choix entre des explications consignées par écrit et un combat : il a préféré charger ses témoins de déclarer dans un procès-verbal que leur ami n'avait pas eu l'intention d'offenser ni moi ni les miens e qu'il n'y avait pas lieu à une rencontre. Encore une fois la Gloire me refusa les lauriers que vous me souhaitiez de couper*",
+      "rsr": "Restored from tome12.docx ¶589–592, Mon Journal t.12 p.51 (missing from original extraction, 2026-09-28 rebuild). The edition's footnote call «5» before «Mont de Marsan» left out.",
+      "kind": "letter",
+      "source": "Lettre d'A. Multedo à Marie, Mont-de-Marsan, 5 juillet 1878"
+     },
+     "_manual": true
+    },
+    {
+     "old": "081.0369",
+     "set_french": "> *Où trouverai-je un intrépide qui ne reculera pas après m'avoir offensé ?*\n> Est-ce ma faute si je n'ai jamais affaire qu'à des gens prudents ?\n> A propos de rencontre votre guitare est-elle guérie de celle qu'elle a eue avec moi ?\n> Je vous l'ai expédiée avant de partir.\n> J'espère que vous m'annoncerez que vous l'avez reçue, au moins dans les termes qu'on emploie à l'égard d'un luthier qui vous expédie un instrument et auquel on en accuse réception.\n> Je mets mes hommages à vos pieds et à ceux de Madame votre tante.\n> A. MULTEDO\n> *Inutile, si vous me faites l'honneur de m'écrire, ce que je n'ose espérer, d'indiquer la rue.*",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo à Marie, Mont-de-Marsan, 5 juillet 1878",
+     "_rsr": "French completed/corrected from tome12.docx ¶593–600, Mon Journal t.12 p.51 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "*[Rayé: Votre lettre a cela de bon, pour vous, qu'elle provoque irrésistiblement des conseils qu'il est impossible de refuser à un être humain.*\n*1° Ne parlez jamais de droits qu'on vous accorde ou des faveurs qu'on ne vous refuse pas, ce qui est plus exact.*\n*2° Ne renvoyez jamais de guitare qui ne peut plus accompagner personne sans l'accompagner de quelques fleurs pour vous faire pardonner.*\n*3° N'attendez jamais qu'on vous offense pour vous battre.*\n*Et enfin [Rayé: agissez] soyez [Rayé:bon] chrétien et écrivez des choses [Rayé: aimables] sans espoir de réponse.*\n*[Rayé: Soyez ni bon ni difficile. Tâchez officiel. Tâchez vous contentant de savoir que vous êtes lu... si vous le méritez, avec plaisir, personne ne craignez pas de faire des fautes d'orthographe, je ne montre pas vos lettres. Soyez naturel vos lettres, vos lettres ne s'imprimeront pas.]*",
+      "rsr": "Restored from tome12.docx ¶601–606, Mon Journal t.12 p.52 (missing from original extraction, 2026-09-28 rebuild). OCR: «°» restored to «1°» (docx list numbering lost).",
+      "kind": "letter",
+      "source": "Réponse de Marie à A. Multedo, juillet 1878 (en partie rayée)"
+     },
+     "_manual": true
+    }
+   ]
+  },
+  {
+   "file": "1878-07-18.md",
+   "date": "1878-07-18",
+   "heading": "Jeudi 18 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0370"
+    },
+    {
+     "old": "081.0371",
+     "set_french": "Madame de Hohenlohe est partie, il ne reste que les deux jeunes gens qui ont dîné à côté de moi à la table d'hôte aujourd'hui. Ils occupent le rez-de-chaussée du pavillon droit et nous le premier. Leur balcon est au-dessous du nôtre. Je chante et ils jouent du piano. D'après les racontars des domestiques, ils me trouvent jolie et bien faite. On me jette toujours mon derrière à la tête ! Moi qui sais tant de choses je ne puis comprendre pourquoi cette richesse est si appréciée.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶608, Mon Journal t.12 p.52 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0372",
+     "set_french": "En Allemagne on en voit beaucoup de larges et plats, je n'en ai jamais vu d'aussi proéminant que le mien qui est une perfection... du genre. Après avoir peint je me suis habillée et me suis jointe à la société... (à propos de Mme Abaza... il y a à Francfort un certain Monsieur Kirchenstein) avant de nous mettre en marche nous sommes restés à causer devant la maison de sorte que les deux princes ont eu le temps de me bien voir... Ils doivent me croire bien pédante, sans m'en apercevoir",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶609, Mon Journal t.12 p.52 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0373",
+     "set_french": "A table, j'ai parlé avec le Dr. Tomachewsky de choses de science et puis Mme Antonsky et les autres ont parlé de professeurs, de Madame Abaza qui chante, et on a demandé le prix des leçons et on a dit que mon professeur d'anatomie recevait tant et un autre tant, etc. Il n'y a rien que je ne fasse et cela doit faire un effet ahurissant sur des hommes qui ne s'y attendent pas. A force d'être une femme universelle je deviendrai épouvantable... à moins de paraître divine... Ce serait amusant de faire du sentiment avec cet Allemand qui passe son été dans un nid de verdure avec un frère et un piano.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶609–610, Mon Journal t.12 p.52 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0374",
+     "set_french": "Multedo écrit à maman... elle m'envoie cette lettre où il ne fait que parler de son duel manqué et demander de mes nouvelles.\nCette phrase est incomparable, jugez-en: \"J'ai été assisté par *deux hommes politiques* qui ont très bien mené l'affaire\". N'est-ce pas pyramidal ce beau jeune homme assisté de ces deux hommes politiques qui ont si bien mené l'affaire ! Dis-moi qui tu hantes... etc.\nJe regrette que ce pauvre garçon écrive des choses si grotesques.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶611–614, Mon Journal t.12 pp.52–53 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "Quant au petit Dourassoff il me parle tout à fait. Tout le monde se moque de sa timidité, je ne m'en moque pas plus que des autres, je lui parle gentiment parce qu'il a envie de me parler.",
+      "rsr": "Restored from tome12.docx ¶615, Mon Journal t.12 p.53 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Florence Lacon m'écrit de Londres.",
+      "rsr": "Restored from tome12.docx ¶616, Mon Journal t.12 p.53 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0375",
+     "set_french": "Je me suis fait un bonnet de velours grenat comme le noir que j'avais à Paris. Je ne le mets que chez moi, il est difficile de se promener en chapeau rouge bien que cela m'aille à ravir, j'ai l'air d'une enfant et c'est d'une couleur superbe. Je voudrais avoir mon portrait ainsi mais c'est impossible... Je puis être souvent rien que passable ou jolie mais il y a des moments, des jours où ce bonnet, un chapeau, un voile, des cheveux ondulés et s'en allant en boucles en désordre... noués sur le haut de la tête, des yeux plus animés, un sourire plus content... j'arrive ainsi quelquefois à pouvoir me qualifier de *ravissante* mais pour le croire il faut vivre avec moi et m'observer de près. Les bourgeois qui m'admirent ne soupçonnent pas ce que j'admire moi, ils ne voient que des traits, un teint, un corps. Mes traits enragent tout l'atelier et Julian en tête. Il paraît que mes traits sont capricieux et pittoresques... Greuze. Eh bien il y a des poses où je deviens absolument classique si on me met un bandeau sur le front. Cela paraît incroyable, m^ij? c'est la vérité je m'en suis assurée avec des glaces et des croquis qu'on a fait à l'atelier. Je parle pour les générations futures, excusez-moi si c'est lu plus tôt. Informez-vous de ceux qui m'ont connue autrement que pour m'avoir vue à la promenade ou au bal. Je le répète la tête est pour les fantaisistes qui y trouveront des admirations sans fin, la couleur, la mobilité, c'est cinquante têtes en une seule.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶617, Mon Journal t.12 p.53 (2026-09-28 rebuild). Printer's typo corrected: «têtg» → «tête» (Mon Journal t.12 p.53)."
+    },
+    {
+     "new": {
+      "french": "Le haut du corps pour les artistes et le bas pour les bourgeois.",
+      "rsr": "Restored from tome12.docx ¶618, Mon Journal t.12 p.53 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-07-19.md",
+   "date": "1878-07-19",
+   "heading": "Vendredi 19 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0376"
+    },
+    {
+     "old": "081.0377"
+    },
+    {
+     "old": "081.0378"
+    },
+    {
+     "old": "081.0379"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-20.md",
+   "date": "1878-07-20",
+   "heading": "Samedi 20 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0380"
+    },
+    {
+     "old": "081.0381"
+    },
+    {
+     "old": "081.0382"
+    },
+    {
+     "old": "081.0384"
+    },
+    {
+     "old": "081.0385"
+    },
+    {
+     "old": "081.0386",
+     "set_french": "Rosalie tout en passant, a compté mes ennemis : Marcuard, Multedo, Paul de Cassagnac.\nTout le monde, dit-elle, tout le monde excepté vous, voyait pourquoi il venait et vous lui jouiez des farces ! je n'ose pas croire à tant de belles choses *rétrospectives,* terriblement inutiles et affreusement regrettables ! Mais je le répète et je répéterai longtemps que je me suis perdue par ma faute. Certes si on le demandait au grand homme il nierait et il ne pourrait faire autrement, mais je suis persuadée qu'il serait content de faire une affaire à raison de 70.000 francs. Peut-être même ne le nierait-il pas, c'est si naturel après tout !",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶627–628, Mon Journal t.12 p.54 (2026-09-28 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1878-07-21.md",
+   "date": "1878-07-21",
+   "heading": "Dimanche 21 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0383"
+    },
+    {
+     "old": "081.0387",
+     "set_french": "Certes je ne pense pas à Multedo, eh bien j'en ai rêvé cette nuit et ce matin je reçois les vers que voici: la Rose m'envoie un parfum, le troubadour sa chanson, Multedo, sa composition.[^2]",
+     "_manual": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶630, Mon Journal t.12 p.55 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "*[Jeudi 18 juillet 1878]*\n*J'ai déponcé votre guitare Mais n'étant pas du tout avare, Je l'ai donnée à rajeunir i Quand parviendrez-vous à chanter ?*\n*J'ai défoncé votre guitare.*\n*Vous n'y perdrez pas un bécarre.*\n*On peut toujours coller du bois.*\n*Comment se porte votre voix ?*\n*J'ai défoncé votre guitare.*\n*Ne m'envoyez pas au Ténare.*\n*Je me trouve* à *Mont de Marsan.*\n*Mon malheur est bien assez grand.*\n*J'ai défoncé votre guitare.*\n*Comme si c'était un bulgare Et que j'étais un bachibouzouck, Mais je suis doux comme un Kalmouck.*\n*J'ai défoncé votre guitare. Supposez que je suis Tyndare Et vous Lèda; lequel pour vous Serait le signe le plus doux ?*\n*J'ai défoncé votre guitare. Si la duchesse de Ferrare Fut cruelle pour Multedo, Ayez pitié de Multedo*",
+      "rsr": "Restored from tome12.docx ¶631–644, Mon Journal t.12 p.55 (missing from original extraction, 2026-09-28 rebuild). Footnote call «6» left out; OCR «vptre» → «votre».",
+      "kind": "letter",
+      "source": "Vers d'A. Multedo à Marie, [18 juillet 1878]"
+     },
+     "_manual": true
+    },
+    {
+     "old": "081.0388",
+     "set_french": "Il ne m'a pas fait plaisir le galant chanteur, sa candidature est entachée de considérations pécuniaires. Les deux princes sont l'objet de toutes les plaisanteries à table et souvent ailleurs. Le petit Mitta (Dimitri) est venu raconter qu'ils sont sales parce qu'ils mettent leur doigt dans la bouche et puis le lèvent en l'air, comme les marins. Mme Abaza trouve l'aîné, le brun très beau; moi aussi mais il a l'air très malade. Mme Rembelinsky et moi, nous nous sommes déjà partagé les deux sourds-muets.",
+     "_manual": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶645–646, Mon Journal t.12 pp.55–56 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0390",
+     "set_french": "Je prends Auguste le brun, elle prend Hans, le blond. Nous avons arrêté notre plan de campagne... Jusqu'à présent les princes n'ont pas manqué de remarquer que leur réserve nous causait un peu de dépit et c'est si bête le dépit, d'autant plus qu'ils sont imperturbables. Ce n'est pas la fierté car l'année passée ils ont fait la conversation à table avec une juive. Un d'eux essaye sur le piano *On dit que l'on te marie* et comme il ne peut pas trouver le final cela m'agace. Donc, je disais que notre plan de campagne à Mme Rembelinsky et moi, consiste à faire semblant de les éviter, de ne pas même les apercevoir. Nous avons commencé et malgré cela nous nous sommes rencontrés onze fois, soit par hasard, soit qu'ils y aient mis de la complaisance.",
+     "_manual": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶646, Mon Journal t.12 pp.55–56 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0391"
+    },
+    {
+     "old": "081.0392"
+    },
+    {
+     "old": "081.0393"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-22.md",
+   "date": "1878-07-22",
+   "heading": "Lundi 22 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0389"
+    },
+    {
+     "old": "081.0394",
+     "set_french": "> Mademoiselle,\n> Je bénis ma lettre d'avoir provoqué irrésistiblement vos conseils. Que ne suis-je aussi irrésistible que ma lettre.\n> *Parmi vos conseils, il y en a que j'accepte. Il en est d'autres que je considère comme des plaisanteries. D'abord je ne puis pas admettre que votre guitare soit arrivée en mauvais état. Elle est partie complètement guérie de sa blessure. Comment se fait-il qu'elle se soit détraquée en route ? Ensuite je ne peux pas croire sérieux votre précepte; vous avez trop de bon sens pour penser qu'on doit se battre avant d'avoir été offensé ou même quand l'offense étant insignifiante est largement réparée.*\n> *Votre idéal Cassagnac lui-même, accepte des réparations écrites. Moi qui ne suis pas un pourfendeur mais seulement un homme sérieux se faisant respecter froidement et sans bruit, je puis m'en contenter aussi.*\n> *Si vous aimez les spadassins, les chercheurs de querelles je ne ferai jamais votre affaire, car j'ai l'habitude d'agir toujours honnêtement dans toutes les circonstances de ma vie.*\n> *Je vais tâcher de vous écrire sans espoir de réponse. Cependant les vers que je vous ai envoyés avant-hier sont tellement mauvais qu'il m'est impossible de croire que vous résisterez à l'envie de vous en moquer et de m'adresser une lettre d'éreintement.. Un conseil appelle un conseil*\n> *Payant toujours généreusement je vais vous en donner plusieurs qui à ta différence des vôtres, seront tous bons.*\n> *Je vous engage vivement à les mettre d'une manière indélébile et à les mettre en pratique:*",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo à Marie, reçue le 22 juillet 1878 (copie de Marie)",
+     "_rsr": "French completed/corrected from tome12.docx ¶657–662, Mon Journal t.12 pp.56–57 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0395",
+     "set_french": "> *I° - Paese che vuoi, essi che trovi.*[^1]\n> Puisque vous voulez vivre en France, sachez, si grande que soit votre répugnance de ressembler aux jeunes filles françaises, par vos habitudes. Contentez-vous de différer d'elles en les surpassant comme vous le faites par le charme, l'esprit et la beauté ! Tant que vous étiez à Florence, à Nice, dans des villes plus petites que Paris vous pouviez impunément paraître agir à votre guise. Vous y faisiez la mode. A Paris personne ne domine absolument. En voulant dominer on se sépare.\n> *D'ailleurs il ne convient pas à une jeune fille de trancher sur tout le monde: une jeune fille sans modestie est un monstre. Contentez-vous d'être plus belle et plus spirituelle que personne. C'est un assez grand avantage. Vous êtes belle, vous n'avez nul besoin de vous vêtir toujours de blanc, ce qui à Paris semble trop voyant, c'est-à-dire peu comme il faut. Pour être spirituelle vous n'avez qu'à laisser chanter l'oiseau de votre esprit, sans dire toujours des paradoxes, des duretés, des railleries. Préférez l'or des choses naturelles et vraies au clinquant des choses cherchées et exagérées.*\n> *Voulant vivre à Paris vous avez le choix entre vos costumes toujours blancs, vos promenades en voiture toute seule, votre atelier, votre tête de mort avec laquelle vous jouez sans cesse bien que ce mort mérite le respect, quelques femmes âgées accompagnées de leurs chiens comme deux ou trois [Rayé: jeunes gens] que j'ai vues chez vous et qui paraissaient de si étranges figures, quelques jeunes gens que vous mettez en fuite par vos railleries, des tranches de citron confites, vos interminables mémoires, le bal de l'Opéra ou bien des costumes moins voyants, des habitudes moins originales comme celle de ne pas sortir seule, un peu plus de séjour à la maison et moins de temps passé à l'atelier, la bonne société française dans laquelle il vous est si facile d'entrer et d'occuper la première place.*\n> *Tâchez d'acquérir plus de modestie d'apparence, plus de bonté pour vos amis dévoués comme moi, plus de tendresse pour ceux qui vous entourent par exemple pour Mme Votre mère.*\n> *J'ai peur de votre colère. Je m'arrête.*\n> *Assez pour aujourd'hui, montrez-moi que vous avez du cœur et*\n> *de l'esprit, dites-moi que vous voyez que je vous suis profondément dévoué et que tout ce que j'ai dit est juste. Encore une rallonge.*\n> *Pourquoi vous appelez-vous Mlle de Bashkirtzsff ? Le De n'existe pas en Russie. Au reste il n'indique pas, même en France, qu'on soit noble.*\n> *Il y a des gens, ayant cette particule, qui sont roturiers, d'autres qui ne l'ont pas et qui le sont.*\n> *Si en Russie votre nom est précédé d'une particule qui signifie De, pourquoi ne la prenez-vous pas sans la traduire ? On dit le prince Gortchakoff, le prince Schouvaloff. On ne dit pas que je sache les princes de Gortchakoff et de Schouvaloff. C'est cela qui serait de l'originalité de bon chic, de prendre ainsi mon sermont de faire profit d'aussi bons conseils !*\n> *J'ai une si haute idée de vous que j'y compte presque.*\n> *Au reste vous ne pouvez pas douter des sentiments qui m'inspirent à votre égard.*\n> *Je les mets à vos pieds à titre d'hommage respectueux.*\n> *A. Multedo*",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo à Marie, reçue le 22 juillet 1878 (copie de Marie)",
+     "_rsr": "French completed/corrected from tome12.docx ¶665–668, Mon Journal t.12 p.57 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0397",
+     "set_french": "Je hais les vieilles femmes accompagnées de petits chiens, je fais la guerre aux miens pour toutes choses de ce genre, mais dès qu'un étranger se permet de le trouver mauvais, les querelles de familles disparaissent, dès que les miens sont attaqués je suis là pour les défendre... de même que je serai toujours là pour défendre le plus faible et braver les forts. Si j'ai copié la lettre de ce monsieur in extenso au lieu d'épingler l'original même à une de ces pages c'est que l'original est déjà renvoyé à Mont-de-Marsan sans un trait de plume de moi.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶680, Mon Journal t.12 p.58 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0398"
+    },
+    {
+     "new": {
+      "french": "Vous savez ce que vous devez penser de toutes les choses qu'il ose me reprocher, excepté d'une; mes sorties en voiture toute seule. C'est un mensonge. Une seule fois je suis sortie seule dans notre voiture avec nos livrées, de la maison jusqu'à chez Yorke, une douzaine de maisons à traverser; c'était pour prendre Yorke et promener avec elle. J'ai eu le malheur de rencontrer le monsieur qui n'est pas un pourfendeur et de lui parler au bas de l'escalier, après quoi, je suis montée en voiture et suis allée jusqu'à chez Mme Yorke.",
+      "rsr": "Restored from tome12.docx ¶682, Mon Journal t.12 p.58 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0399"
+    },
+    {
+     "new": {
+      "french": "Quant à écrire *de* Bashkirtseff je ne le fais jamais pour les mêmes raisons que donne Multedo.",
+      "rsr": "Restored from tome12.docx ¶684, Mon Journal t.12 p.59 (missing from original extraction, 2026-09-28 rebuild). Printer's typo corrected: «Bashkirtesff» → «Bashkirtseff» (Mon Journal t.12 p.59)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il me prend bien au sérieux, tout de même, je ne pensais jamais en débitant mes bêtises et écrivant des plaisanteries toucher si fort.",
+      "rsr": "Restored from tome12.docx ¶685, Mon Journal t.12 p.59 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Dire des duretés et des railleries, mais pauvre homme, je ne les dis qu'à toi. Avec les autres je suis fière mais polie.",
+      "rsr": "Restored from tome12.docx ¶686, Mon Journal t.12 p.59 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0400",
+     "set_french": "Nous faisons connaissance de Mme Outine, femme de trente-deux à trente-quatre ans déjà mais belle à ravir et distinguée quoique pas élégante. Monsieur Multedo nie l'Art ! Il en est aux têtes de Romulus pour les jeunes filles et aux portraits de Chaplin pour les expositions.[^1] Mais je m'en suis occupée plus qu'il le mérite. Une trop forte critique est une sorte d'hommage. Et il n'a droit a rien. Je m'en moquais, je ne ferai même plus cela.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶687–688, Mon Journal t.12 p.59 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "Quant au monde que nous recevons... je pendrai ma revanche cet hiver, non pas à cause de Multedo spécialement mais pour tous les autres.",
+      "rsr": "Restored from tome12.docx ¶689, Mon Journal t.12 p.59 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce Multedo malgré sa bonne éducation a pour le moins manqué totalement de tact.",
+      "rsr": "Restored from tome12.docx ¶690, Mon Journal t.12 p.59 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-07-23.md",
+   "date": "1878-07-23",
+   "heading": "Mardi 23 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0396",
+     "set_french": "[Aucun texte - date seule mentionnée]",
+     "_manual": true,
+     "_why": "bare date line ¶691"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-24.md",
+   "date": "1878-07-24",
+   "heading": "Mercredi 24 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0401"
+    },
+    {
+     "old": "081.0402",
+     "set_french": "Le Dr Tomachewsky qui est le médecin de l'Opéra de Pétersbourg doit savoir quelque chose, en outre ses avis sont d'accord avec ceux de Fauvel et d'autres et puis moi-même je sais que les eaux de Soden, par leur composition chimique n'ont presque pas de rapport avec ma maladie. Si vous n'êtes pas des ignorants vous devez savoir qu'on envoie à Soden les convalescents et les poitrinaires. Hier à six heures du matin ma tante et moi accompagnées et du Dr. Tomachewsky nous allons à Ems pour consulter les médecins de là-bas. Nous sommes de retour aujourd'hui depuis huit heures du matin.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶693, Mon Journal t.12 p.59 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0403"
+    },
+    {
+     "new": {
+      "french": "Je suis contrariée d'avoir traversé Mainz, Koblentz en imbécile. Ce sont des villes si intéressantes au point de vue historique. Mais nous avons admiré les bords du Rhin car par suite d'un train manqué nous avons aussi voyagé en voiture et en bateau.",
+      "rsr": "Restored from tome12.docx ¶696, Mon Journal t.12 p.59 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0404"
+    },
+    {
+     "new": {
+      "french": "Voici encore une lettre de Multedo partie de Mont de Marsan le 22, le jour même où je lui ai renvoyé ses conseils. Je [Mot noirci: tiens] à constater qu'il m'écrivait cela un jour avant de les avoir reçus. Cela peut être du repentir mais cela peut être aussi calcul, en écrivant la première il avait déjà le projet de la seconde. Peu importe... d'ailleurs je commence à croire qu'il m'adore : parce que je le hais. C'est un symptôme sûr chez moi.",
+      "rsr": "Restored from tome12.docx ¶698, Mon Journal t.12 p.60 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0405",
+     "set_french": "> Mont de Marsan\n> 22 juillet 1878\n> Mademoiselle,\n> Vos rigueurs à mon endroit me rendent fou. Vous devez juger par là à quel point vous occupez toute ma pensée et par conséquent me plaindre de mes souffrances morales au lieu de m'en vouloir de mes accès de colère.\n> Veuillez donc excuser l'aigreur de ma dernière lettre ; en l'écrivant j'étais furieux des coups cruels d'aiguille que vous m'aviez porté dans la vôtre, et j'ai agi comme un sanglier blessé qui lance aveuglément un coup de boutoir. Vous m'aviez avili: j'ai souffert, j'ai hurlé.\n> Pardon ! Je ne crierai plus. Désormais faites-moi souffrir, torturez-moi, repoussez-moi du pied et, si vous m'accordez cette faveur, je me prosternerai devant vous.\n> Je vous en prie, oubliez.\n> D'ailleurs je le prévois, vous êtes si fière et si hautaine que vous ne vous êtes pas sentie atteinte et que ma répartie n'a atteint que votre suprême dédain. Encore une fois pardon.\n> Je m'agenouille devant vous la bouche au sol.\n> Hommage respectueux de mes sentiments les plus dévoués.\n> A. MULTEDO",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo à Marie, Mont-de-Marsan, 22 juillet 1878",
+     "_rsr": "French completed/corrected from tome12.docx ¶699–708, Mon Journal t.12 p.60 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0406",
+     "kind": "margin"
+    },
+    {
+     "new": {
+      "french": "Monsieur Rumbelinsky revient de Paris ce soir, d'ailleurs voici une lettre que j'ai adressée à maman ce soir et qui vous dira tout. Je la prie de conserver la lettre qui est mal faite mais qui exprime ma pensée et donne de bons conseils, elle me la rendra et je l'épinglerai à cette feuille. [Manque]",
+      "rsr": "Restored from tome12.docx ¶712, Mon Journal t.12 p.60 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Madame Gavini est si aimable pour maman que je lui écris une lettre?",
+      "rsr": "Restored from tome12.docx ¶713, Mon Journal t.12 p.60 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai une idée sur les Rembelinsky ou Antonsky qui pourront me servir...",
+      "rsr": "Restored from tome12.docx ¶714, Mon Journal t.12 p.61 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0408"
+    },
+    {
+     "old": "081.0409",
+     "set_french": "Le Dr. Michel dit à maman qu'on va imprimer dans \"L'Evènement\" quelque chose de joli sur Cassagnac et sur sa femme comme quoi elle aurait été la maîtresse de Clément Laurier...\nClément Laurier, vous vous souvenez bien qui prêtait sa femme à Gambetta pendant que celui-ci était Dictateur et qui a fait cette énorme fortune... [Mots noircis: à la suite] une espèce d'on ne sait trop quoi, orléaniste je crois.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶715–716, Mon Journal t.12 p.61 (2026-09-28 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1878-07-25.md",
+   "date": "1878-07-25",
+   "heading": "Jeudi 25 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0407"
+    },
+    {
+     "old": "081.0410",
+     "set_french": "Madame Antonsky est une femme à ménager. Elle, Mme Doubelt et la princesse Galitzine me seront très précieuses si je vais jamais chercher fortune à Pétersbourg, ce qui n'est pas impossible. C'est une bonne réserve pour l'avenir. N'oublions pas non plus Mme Voïeykoff. Avec cela j'en ai plus qu'il n'en faut. Ce soir on a parlé de toutes ces gens de Pétersbourg, Mme Antonsky racontant les extravagances des demoiselles Basilewsky devenues dans la suite princesse Souvoroff, Mmes Doubelt, Galve etc. etc.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶718, Mon Journal t.12 p.61 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0411"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-26.md",
+   "date": "1878-07-26",
+   "heading": "Vendredi 26 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0412"
+    },
+    {
+     "old": "081.0414"
+    },
+    {
+     "old": "081.0415"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-27.md",
+   "date": "1878-07-27",
+   "heading": "Samedi 27 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0416"
+    },
+    {
+     "old": "081.0417",
+     "set_french": "[Aucun texte - date seule mentionnée]",
+     "_manual": true,
+     "_why": "bare date line ¶727"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-28.md",
+   "date": "1878-07-28",
+   "heading": "Dimanche 28 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0418"
+    },
+    {
+     "old": "081.0420"
+    },
+    {
+     "old": "081.0421"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-29.md",
+   "date": "1878-07-29",
+   "heading": "Lundi 29 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0422"
+    },
+    {
+     "old": "081.0424"
+    },
+    {
+     "old": "081.0425"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-30.md",
+   "date": "1878-07-30",
+   "heading": "Mardi 30 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0426"
+    },
+    {
+     "old": "081.0427"
+    }
+   ]
+  },
+  {
+   "file": "1878-07-31.md",
+   "date": "1878-07-31",
+   "heading": "Mercredi 31 juillet 1878",
+   "paragraphs": [
+    {
+     "old": "081.0428"
+    },
+    {
+     "old": "081.0430",
+     "set_french": "Maintenant un des ménages chic (l'autre est reparti) de\nPétersbourg entre dans la société ainsi que le vieux prince Ouroussoff dont la sœur mariée à M. Maltzov est l'amie intime de l'impératrice. Il a l'air, au dire de Dourassoff, d'un philosophe du 19e siècle. Charmant causeur d'ailleurs et homme du monde, ancien régime. Quant à Dourassoff il m'a accompagnée dans une longue promenade par monts et par vaux ce matin.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶739–740, Mon Journal t.12 pp.62–63 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0431",
+     "set_french": "Les dames pensent que l'indifférence des princes me froisse. - Cette enfant gâtée, dit Mme Antonsky, qui est habituée à voir exécuter ses moindres caprices est froissée de la froideur... apparente d'ailleurs, de ces messieurs... Songez donc ! Ils dînent tous les jours côte à côte...",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶741–742, Mon Journal t.12 p.63 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0432",
+     "set_french": "Songez-donc, mais c'est moi qui n'y songe pas; je ris seulement à quel point à Soden et ailleurs les gens bons prêtent des sentiments, des impressions, des pensées que vous n'avez pas du tout. [Mots noircis ; Pendant deux jours] en effet je m'en suis un peu occupée mais après... du tout Mais puisque les autres en parlent je veux bien vous dire que je ne les ai jamais bien regardés pourtant je puis dire que le plus jeune, (dix-huit ans) Hans est grand, mince, blond, grand nez assez fin, petits yeux, bouche malicieuse, [Rayé: presque] pas de moustache, tête baissée, l'air d'un jeune loup. L'autre, Auguste, vingt-quatre à vingt-cinq ans, plus petit, brun, des yeux très beaux, une moustache noire et pendante, (et dans toute sa personne il y a quelque chose de pendant) une peau veloutée comme je ne crois pas en avoir vu chez un homme, une belle bouche, un nez régulier ni rond ni pointu, ni aquilin ni classique et un nez dont la peau est aussi veloutée, ce qui est excessivement rare. un teint très pâle qui serait admirable s'il ne provenait de la maladie. Tous les deux ont de belles mains aristocratiques et bien soignées. Qu'est-ce donc lorsque je regarde bien !!!\nCe soir je me suis posée devant la glace comme Ariane de Danneker à Francfort... et tenez cela m'évite de vous raconter bien des choses, si vous voulez savoir comment je suis faite allez à Francfort et regardez l'Ariane. [Mots noircis: qui est faite comme moi]. Même les doigts des pieds qui ne sont pas classiques (en ce que le second ne dépasse pas le gros orteil) sont comme le miens et je vous assure que cela m'a fait plaisir. Ce second doigt des statues antiques ne laissait que de me dépiter un peu. Mes hanches sont plus développées et mon col moins gros, moins rond, moins classique. [Mots noircis : Ce qui me console de ce défaut, c'est] la finesse des attaches me console de ce défaut.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶743–744, Mon Journal t.12 p.63 (2026-09-28 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1878-08-01.md",
+   "date": "1878-08-01",
+   "heading": "Jeudi 1er août 1878",
+   "paragraphs": [
+    {
+     "old": "081.0433"
+    },
+    {
+     "old": "081.0434",
+     "set_french": "Je me suis déguisée en vieille allemande aux allures bizarres, et aux petites manies. Et comme l'apparition de chaque nouvelle figure passionne les habitants du Kurhaus, je fais sensation. Seulement je commets l'imprudence de ne rien demander au garçon, les soupçons s'éveillent, on me suit, (car... j'avais quitté la terrasse où j'étais assise pendant une heure) on me poursuit et c'est fini.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶746, Mon Journal t.12 p.64 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0435"
+    },
+    {
+     "old": "081.0436",
+     "set_french": "Rosalie couvre de sa protection la plus chaude les princes et pourquoi ? D'abord elle ne veut rien dire disant que je ne suis pas gentille pour les malades, et que si elle me le dit je deviendrai encore plus mauvaise. Bref le prince noir (Ah ! que je n' oublie pas de vous dire qu'aujourd'hui à table j'ai par hasard rencontré ses yeux que deux jours de maladie ont rendu encore plus grands et plus noirs, je n'ai jamais vu d'aussi grand yeux) donc le prince noir se serait ouvert au premier garçon qui le sert et le premier garçon a été tout furieux parce que le prince m'ayant passé le menu, je m'étais détournée sans y prendre garde, ce qui aurait rendu le prince triste, parce qu'il s'était bien décidé à me parler aujourd'hui, et la tristesse du prince a rendu maussade le premier garçon auquel le prince a confié sa préférence pour que celui-ci l'avertit chaque fois quand je vais à la table d'hôte. Donc... voici,",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶748, Mon Journal t.12 p.64 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0437"
+    },
+    {
+     "new": {
+      "french": "Et [Mots noircis : comme je riais de ces] confidences au premier garçon, Rosalie me dit que ce ne sont pas des confidences mais que pour dîner en bas les jours que je dîne il a besoin des services de cet homme qui par elle peut savoir mes projets et l'en avertir.",
+      "rsr": "Restored from tome12.docx ¶749, Mon Journal t.12 p.64 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Vous ne vous imaginez pas à quel point les domestiques nous espionnent et font des commentaires sur les moindres choses. Ainsi ce premier garçon pour lequel le prince est très bon *nous* observe.",
+      "rsr": "Restored from tome12.docx ¶750, Mon Journal t.12 p.64 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0438"
+    },
+    {
+     "old": "081.0439",
+     "set_french": "Ce soir déjà je l'ai vu d'un œil tout autre. Et à dîner, (s'ils comprennent l'anglais, c'est un drôle) j'ai raconté à Mme Rembelinsky que les deux hommes que nous prenions pour des princes n'étaient que des commis voyageurs de Berlin et Mme Rembelinsky a répandu en jouant sur la prononciation du nom du plus jeune disant Ganz (oie) au lieu de dire Hans.[^1] Ils n'avaient pas besoin de savoir l'anglais pour comprendre cela.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶752, Mon Journal t.12 p.65 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "Je suis impatiente jusqu'à demain pour me retrouver à côté du pauvre malade, tout en reconnaissant qu'il est absurde de se fier à de pareils racontars... enfin... à Soden.",
+      "rsr": "Restored from tome12.docx ¶753, Mon Journal t.12 p.65 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le soir nous allons chez Mme Antonsky, je les trouve toutes, riant des faits et gestes de l'Allemande qu'ils analysent et passent en revue encore ce soir.",
+      "rsr": "Restored from tome12.docx ¶754, Mon Journal t.12 p.65 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-08-02.md",
+   "date": "1878-08-02",
+   "heading": "Vendredi 2 août 1878",
+   "paragraphs": [
+    {
+     "old": "081.0440"
+    },
+    {
+     "old": "081.0441",
+     "set_french": "On en parle encore à Soden, on le racontera aux étrangers de la saison prochaine.\n[Rayé: J'ai rencontré le prince Ouroussoff hier et à table] on a demandé au prince Ouroussoff s'il n'avait pas rencontré une dame arrangée de telle et telle façon et il se mit à raconter sa rencontre et son étonnement. Le rire général a gagné mes deux princes eux-mêmes, à propos de mes deux princes... rien.",
+     "_manual": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶756–757, Mon Journal t.12 p.65 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0442",
+     "set_french": "Je m'étais préparée à être bienveillante et à ne pas railler, eh, bien tout à fait malgré moi j'ai été d'une insolence... désespérante... [Mots noircis: et comme] avec une intention bienveillante, je regardais quelquefois à droite mais me reprenant aussitôt je me détournais et lançais encore quelques unes de ces moqueries qui me fatiguent tant et qui amusent notre monde, de sorte que j'avais l'air de rire de mes voisins... d'autant plus que nous nous en occupions.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶758, Mon Journal t.12 p.65 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "Je me suis promenée le matin et après dîner voyant sortir les princes je suis sortie et nous avons tourné les uns autour des autres jusqu'à l'arrivée de la femme allemande qui est parvenue à faire la connaissance des deux trésors. Ce doit être une cocotte. Quoiqu'il en soit j'ai été comme vexée de cet enlèvement et maintenant me voilà sans balancier jusqu'à demain une heure de l'après-midi, car à Soden on dîne à une heure. Et tout cela pour un mot de femme de chambre, si on ne m'avait pas dit cela je ne m'en occuperais pas plus que de Dourassoff.",
+      "rsr": "Restored from tome12.docx ¶759, Mon Journal t.12 p.65 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Les Antonsky savent déjà cela par la femme de chambre\nCéline et m'ont dit que l'on avait envie de me parler mais que l'on n'osait pas.",
+      "rsr": "Restored from tome12.docx ¶760–761, Mon Journal t.12 pp.65–66 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Est-ce bête.",
+      "rsr": "Restored from tome12.docx ¶762, Mon Journal t.12 p.66 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Avez-vous lu cette nouvelle chanson de Multedo ! Des vers, d'affreux vers. Cet homme est fou.",
+      "rsr": "Restored from tome12.docx ¶763, Mon Journal t.12 p.66 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0443",
+     "set_french": "> [Mercredi 31 juillet]\n> *Dona Juana*\n> Votre âge est sans pitié c'est ce qui vous excuse, Mais c'est un jeu cruel celui qui vous amuse... Enfant, vous ignorez l'amour et la douleur, Les maux que peut causer l'épine d'une fleur, L'irrésistible attrait de ces lèvres charmantes D'où vous faites jaillir des notes enivrantes. Fontaine de corail aux jets de diamants !\n> *Et vous ne pouvez pas deviner les tourments Qu'il vous plaît d'imposer par un soudain caprice Pour me faire expier un instant de délice, Quand cessant de chanter, par un regard moqueur Et votre rire aigu vous me percez le cœur.*\n> *Le conseiller de Faust mêlait le chant au rire, Et tu raillais aussi, perfide époux d'Elvire, Lorsque tu soupirais ta chanson tendrement Et que tes doigts faisaient ricaner l'instrument. Ne faites pas, comme eux, cet horrible mélange. Ils étaient les démons, et vous êtes un ange... Sans doute vous souffrez si vous voyez souffrir, Surtout quand votre main ne peut pas secourir, N'insultez pas aux pleurs que font verser vos charmes. A vos pieds regardez se répandre mes larmes Dissipez mes chagrins. D'un mot vous le pouvez.*\n> Mais si rien ne vous touche... Eh bien ! Alors riez !",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Poème d'A. Multedo à Marie, «Dona Juana», [31 juillet 1878]",
+     "_rsr": "French completed/corrected from tome12.docx ¶764–769, Mon Journal t.12 p.66 (2026-09-28 rebuild). Printer's typo corrected: «Lorsqe» → «Lorsque», «d'El vire» → «d'Elvire» (Mon Journal t.12 p.66)."
+    },
+    {
+     "old": "081.0444"
+    },
+    {
+     "new": {
+      "french": "On dit qu'il n'a pas les yeux noirs mais bleus... C'est possible dans tous les cas ils sont superbes.",
+      "rsr": "Restored from tome12.docx ¶771, Mon Journal t.12 p.66 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quand Pincio a été perdu, je n'ai pas voulu qu'on le cherche pendant vingt-quatre heures, et si on l'avait cherché de suite on l'aurait peut-être retrouvé. Je me mettais en colère quand on parlait de faire des recherches et je ne les ai autorisées que le lendemain... je ne saurais vous dire pourquoi, c'est un sentiment tout à fait absurde qui m'a menée ainsi dans l'affaire Cassagnac... si j'avais cherché Pincio de suite il serait avec moi... Si je m'étais émue aux premiers mots de Blanc, Cassagnac ne serait pas perdu...",
+      "rsr": "Restored from tome12.docx ¶772, Mon Journal t.12 pp.66–67 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0445",
+     "set_french": "Voilà ce que me donne chaud au cœur et froid dans le dos, au surplus cela me fait dire que j'ai deux onces de tendresse pour Auguste... le nom commence par un A, c'est déjà un signe...\nAudiffret, Antonelli, Alexandre, Alfred... un signe non que j'en sois amoureuse mais que je puis avoir affaire à lui. Car... Alfred je l'exécre au point que je ne touche pas ses lettres sans m'envelopper les doigts dans un mouchoir. Des vers, des chansons.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶773–774, Mon Journal t.12 p.67 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "Ce comparer au Tasse ! Mais de pareils vers je les pardonnerais à peine à un galant du XVIIIe siècle, je les pardonnerais à peine à un grand poète qui lui a le droit d'écrire de mauvais vers... mais lui, Multedo ! Seigneur.",
+      "rsr": "Restored from tome12.docx ¶775, Mon Journal t.12 p.67 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mon prince a un crayon fait comme, comme une vis, Mme Rembelinsky a une broche pareille, elle me la prête pour demain... pourvu qu'il vienne dîner... A quoi me servent mes pieds que je soigne comme si c'était pour Cassagnac ! Ma tante a parlé au prince Ouroussoff pour la décoration de Cassagnac... je pense à Audiffret ces derniers jours... j'avais seize ans et comme j'étais jolie, ma taille, mes pieds, mes mains n'étaient peut-être pas formés mais ma figure était ravissante... depuis elle ne l'a jamais été... je n'ai eu qu'une année.. Revenue de Rome le comte Laurenti m'a fait presque une scène... votre figure a changé me disait-il, les traits, la couleur tout est comme avant mais ce n'est plus la même chose... vous ne serez plus jamais comme sur ce portrait... il parlait du portrait de 1875 août, où j'ai les coudes sur la table et la joue appuyée sur les mains.",
+      "rsr": "Restored from tome12.docx ¶776, Mon Journal t.12 p.67 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Vous avez l'air d'être arrivée là, de vous être appuyée, vos yeux fixés sur l'avenir et moitié effrayée de vous dire : c'est là la vie ?- disait encore Laurenti.",
+      "rsr": "Restored from tome12.docx ¶777, Mon Journal t.12 p.67 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A seize ans j'avais de l'enfant dans la figure, ce que je n'ai eu ni avant seize ans ni après. Et cette expression est tout ce qu'il y a de plus ravissant au monde... je vais dire une chose qui paraîtra folle; Cassagnac a cette expression là dans sa figure noire, hardie, forte, insolente, c'est ce qui lui donne ce charme inouï qu'on attribue à autre chose. Mais si chez un homme ce n'est pas suivi, doublé, d'un grand esprit et de beaucoup de force morale et physique, c'est un charme déplorable.",
+      "rsr": "Restored from tome12.docx ¶778–779, Mon Journal t.12 pp.67–68 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je vais vous dire... je serais très fière de la conquête du prince noir car je veux le nombre autant que la qualité... mais sans doute c'est une folie qu'il faut m'ôter de la tête. On me l'a insinué, je l'ai presque cru un jour, je n'y crois presque plus... n'y pensons pas...",
+      "rsr": "Restored from tome12.docx ¶780, Mon Journal t.12 p.68 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J'ai découvert des promenades dans Soden... je ne parle pas de promenades vulgaires où chaque étranger se croit obligé de grimper, mais des allées et des bois où il n'y a personne... J'adore ce calme. Ou bien Paris, ou bien le désert. Je ne parle pas de Rome cela me ferait pleurer tout de suite.",
+      "rsr": "Restored from tome12.docx ¶781, Mon Journal t.12 p.68 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le vieux Tite-Live raconte si bien et lorsque dans certains passages on sent qu'il travestit une défaite ou excuse une humiliation... c'est presque touchant... Tenez jusqu'à présent je n'ai jamais aimé que Rome ! Imaginez-vous mon plaisir quand j'entends causer ces dames de leurs nerfs, de leurs connaissances, de leurs docteurs, de leurs robes, de leurs enfants ! Mais je m'isole, je vais dans les bois, je ferme les yeux et je suis ou je veux.",
+      "rsr": "Restored from tome12.docx ¶782, Mon Journal t.12 p.68 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je chante et les princes jouent en bas, dans le langage musical nous conversons tous les jours, nous nous jouons les mêmes airs.",
+      "rsr": "Restored from tome12.docx ¶783, Mon Journal t.12 p.68 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-08-03.md",
+   "date": "1878-08-03",
+   "heading": "Samedi 3 août 1878",
+   "paragraphs": [
+    {
+     "old": "081.0446"
+    },
+    {
+     "old": "081.0447",
+     "set_french": "Grâce à cette sœur personne à dîner, mais en allant chez Thilenius j'en vois un, le noir avec la princesse, dans le parc. Alors je trouve Dourassoff et nous allons passer devant eux. Je vais ensuite me promener avec tout le monde et nous rencontrons de nouveau le frère et la sœur. Mme Antonsky me fera croire que je suis très-occupée de ce prince, elle s'en amuse et moi je plaisante et bavarde *d'Auguste.* M. Mühle prétend que c'est arrangé pour nous... Vous savez que ce soir il y a bal et que ce pauvre Mühle qui est toujours ivre se promet une fête colossale.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶785, Mon Journal t.12 pp.68–69 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0448",
+     "set_french": "Bien entendu nous y allons tous A peine installés que voilà un monsieur que j'ai vu une ou deux fois le matin conduisant un étrange tilbury avec un petit groom[^1]... à la livrée marron et un chapeau qui n'était soutenu que par le nez du petit qui avait toutes les peines du monde à y voir, ce monsieur donc arrive et se présente. C'est le baron de je ne sais quoi, fils de je ne sais quelle autorité du pays, grand seigneur à ce qu'on me dit. Mais je refuse de danser et comme il insiste j'essaye de lui prouver que la danse nous dépouille de notre dignité, que cet exercice est une des grandes preuves de la décadence de la grande famille humaine, que l'humanité... bref je lui parle tout à coup politique puis de la guerre d'Orient et finalement je demande s'il connaît Mme Antonsky et les princes de Hohenlohe. Il ne connaît pas Mme Antonsky et les princes de Hohenlohe et nous quitte en emportant mes plus aimables sourires.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶785, Mon Journal t.12 pp.68–69 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0449",
+     "set_french": "M. Mühle est vexé car en refusant de danser avec un jeune homme si blanc et si rose j'ai vexé ce jeune homme qui est aussitôt parti de Soden pour Konigstein.\nIl n'avait pas le choix, outre nous il y avait cinq ou six dames à l'air et puis des hommes.\nOn a de bonnes idées mais pas d'énergie. Le Docteur propose de faire jouer une polonaise et de l'exécuter à nous seuls; puis on veut faire jouer l'hymme russe et de défiler en triomphe. La sortie a du reste été assez réussie, aux sons du galop nous avons quitté la salle deux par deux en galopant un tant soit peu... M. Mühle tout à fait ivre quitte la cave et Mme Mühle quitte sa cuisine, ils vont se rencontrer dans les corridors et je crains que madame ne donne une chasse à monsieur à cause de la trop mince recette. Je n'ai pas besoin de vous dire, quelque Dourassoff que vous soyez, que tout le monde a été habillé comme le matin et que j'ai pris du thé en tournant le dos à des Allemands qui pour la plupart avaient leurs pantalons retroussés.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶785–787, Mon Journal t.12 pp.68–69 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0450",
+     "set_french": "Mon prince n'y est même pas entré, ce n'était rien pour lui, à peine était-ce possible pour une cohorte de douze à quinze personnes.\nAh I Soden. Dourassoff égaye la situation. Il pleuvait, il rentre et se plaint d'être tout trempé: [Mots noircis : J'ai sali et mouillé mon] pantalon ! dit-il dans ce genre tous les jours.\nJe voudrais bien trouver l'allemand mélodieux... je le supporte à peine parlé par mon prince... ce pauvre prince est bien, bien malade.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶788–790, Mon Journal t.12 p.69 (2026-09-28 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1878-08-04.md",
+   "date": "1878-08-04",
+   "heading": "Dimanche 4 août 1878",
+   "paragraphs": [
+    {
+     "old": "081.0451"
+    },
+    {
+     "old": "081.0452"
+    },
+    {
+     "old": "081.0453",
+     "set_french": "Je joue avec ma broche, je la passe à Mme Rembelinsky qui me la repasse, naturellement ils voient cela. Puis je tire mon carnet où le crayon manque, je ne l'avais pas retiré exprès, je vous assure; bref c'est une occasion très belle pour me prêter un crayon. Il n'en fait absolument rien. Je laisse tomber mes clefs et je les ramasse moi-même. C'est on ne peut plus ravissant. Alors le prince prend son crayon et se met à dessiner sur le menu. Bravo.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶792–793, Mon Journal t.12 pp.69–70 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0454",
+     "set_french": "En me levant je laisse tomber le carnet, le mouchoir et les clefs que j'avais oubliés sur mes genoux. C'est le garçon qui me ramasse le tout. Maintenant que j'ai fait mon devoir... C'est un devoir auquel il ne faut jamais manquer envers soi, que de s'assurer autant que cela est possible de tout ce qui présente quelque doute que cela soit. Maintenant donc que j'ai fait mon devoir, devoir imposé par une stupidité de Rosalie, je puis redevenir dédaigneuse et tranquille comme avant.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶794–795, Mon Journal t.12 p.70 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0455"
+    },
+    {
+     "new": {
+      "french": "Monsieur et Madame Coubé sont de la race des Dourassoff, mais tout le monde plaisante sur les princes de sorte que l'on peut encore rire.",
+      "rsr": "Restored from tome12.docx ¶797, Mon Journal t.12 p.70 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0457"
+    },
+    {
+     "old": "081.0458",
+     "set_french": "Le baron Schenk (celui d'hier) est le plus grand fonctionnaire du pays, gouverneur ou autre chose... je ne sais au juste. Le prince Ourousoff le connaît, il n'a cessé de lui dire que la position qu'il occupait si jeune était vraiment trop d'honneur, qu'il ne croit pas avoir mérité et que lui a valu la bonté de l'Empereur. Mais ceci n'est que la préface. Ce baron est amoureux d'une demoiselle et pour faire sa connaissance il a organisé le bal d'hier... mais comme on lui avait dit dans le pays que cette jeune fille était aimée d'un autre jeune homme il alla trouver ce monsieur et avec la franchise que comportait la circonstance il le pria de lui dire la vérité et si ce n'était qu'un racontar de Soden, s'il n'aimait pas la demoiselle [Noirci: de lui avouer] l'autorisation de se présenter... mais si au contraire c'était vrai de le lui avouer, dans ce cas sa loyauté, son honnêteté lui défendrait de contrecarrer les chances de l'autre qui avait le droit de priorité. Le monsieur l'assura qu'il n'était nullement amoureux (pauvre jeune fille) et lui permit de se présenter autant qu'il le voudrait. La demoiselle, c'est moi, le monsieur c'est... Dourassoff.\nAmen.\nFroissé dit-on de mon refus mon amoureux s'en alla de suite de Soden, sa calèche n'était heureusement pas encore dételée.",
+     "_manual": true,
+     "_why": "abridged in _original; docx ¶799–801",
+     "_rsr": "French completed/corrected from tome12.docx ¶799–801, Mon Journal t.12 pp.70–71 (2026-09-28 rebuild)."
+    },
+    {
+     "new": {
+      "french": "Ça ne m'étonne pas, le baron est grand, blond, gras, plein de sang. Du temps de Hamilton je l'aurais trouvé superbe, ce pauvre Hamilton me paraît laid à présent. Mais ces hommes-là, m'aiment généralement et généralement aussi je les déteste, il est vrai aussi que je n'aime pas beaucoup plus les autres... quand je m'examine sérieusement.",
+      "rsr": "Restored from tome12.docx ¶802, Mon Journal t.12 p.71 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0459"
+    },
+    {
+     "new": {
+      "french": "Le prince Ouroussoff en voilà un qui pourrait m'être utile auprès de l'Ambassade de Paris... une fois les Antonsky partis, ils partent mardi, je me propose de le cultiver.",
+      "rsr": "Restored from tome12.docx ¶804, Mon Journal t.12 p.71 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "081.0460",
+     "set_french": "Il y a au moins trois semaines que je m'ennuie sans mon atelier... Une introduction à l'Ambassade et je suis la plus heureuse des femmes. Je vais faire un vœu... Il me sera difficile d'avoir 1.000 francs sans expliquer où je les mettrai... mais je fais vœu ici de donner 1.000 francs pour les pauvres si j'obtiens cette introduction... Je le jure à Dieu qui m'entend et que je supplie de m'entendre.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶805, Mon Journal t.12 p.71 (2026-09-28 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1878-08-05.md",
+   "date": "1878-08-05",
+   "heading": "Lundi 5 août 1878",
+   "paragraphs": [
+    {
+     "old": "081.0456"
+    },
+    {
+     "old": "081.0461",
+     "set_french": "Pour être scrupuleuse il faut dire que mes princes ont joué l'hymme russe. On dit que l'on te marie et la Marseillaise. Ensuite nous sommes allés à Hombourg qui est comme vous le savez ravissant, le parc est superbe et beaucoup d'Anglais comme il faut. On y est en Angleterre. Parmi les horribles toilettes il y en a de vraiment pittoresques mais invariablement gâtées par des pieds !...",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶807–808, Mon Journal t.12 p.71 (2026-09-28 rebuild). Printer's typo corrected: «somms» → «sommes» (Mon Journal t.12 p.71)."
+    },
+    {
+     "new": {
+      "french": "Je suis rentrée avec un chapeau tout à fait charmant trouvé à Hombourg. Figurez-vous une capote *merveilleuse* en gros paillasson jaune sale avec un nœud de mousseline blanche. On a l'air d'une héroïne de roman avec ça. Et à Hombourg presque toutes les élégantes portent des chapeaux comme cela, mais à Soden je serai bien seule... les chapeaux des Gans sont en cette paille. Ces Gans.",
+      "rsr": "Restored from tome12.docx ¶809, Mon Journal t.12 p.71 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce matin je me suis promenée et je suis entrée dans l'église catholique, j'ai profité de la solitude absolue pour monter sur la chaire, dans le chœur, sur l'autel et pour réciter les prières écrites sur les tablettes posées sur l'autel... Je l'ai fait pour prier, parce que j'ai un tas de projets et que j'ai besoin de l'assistance du ciel... mais l'idée que j'ai dit une messe me tourmente... songez j'ai sonné comme font les prêtres durant l'office... Enfin je n'ai pas eu de mauvaise intention...",
+      "rsr": "Restored from tome12.docx ¶810–811, Mon Journal t.12 pp.71–72 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-08-06.md",
+   "date": "1878-08-06",
+   "heading": "Mardi 6 août 1878",
+   "paragraphs": [
+    {
+     "old": "081.0462"
+    },
+    {
+     "old": "081.0463"
+    },
+    {
+     "old": "081.0464"
+    },
+    {
+     "old": "081.0465"
+    },
+    {
+     "old": "081.0466"
+    },
+    {
+     "old": "081.0467"
+    },
+    {
+     "old": "081.0468"
+    },
+    {
+     "old": "081.0469"
+    },
+    {
+     "old": "081.0470"
+    },
+    {
+     "old": "081.0471",
+     "set_french": "Puis est venue Mme Abaza et nous nous sommes tenues à la fenêtre qui [Mot noirci: qui suit le balcon] et de laquelle on aperçoit l'intérieur du balcon de Gans, Gans venait à chaque instant nous regarder Mme Abaza faisait la coquette et riait d'un air mauvais genre. C'est sans doute mon chapeau mais nous avons l'air de les intéresser aujourd'hui, même Schwarz s'est ému et sorti son squelette du hamac qui est suspendu sur son balcon et dans lequel il repose ses os. Je ne parle pas du temps que Mme Abaza était ici, mais le matin. Ils ont des complets gris clair et des chapeaux en paille, pointus aux bords pendants. Et ils ont l'air très propres, mais ce ne sont pas de vrais hommes, l'un est un malade et l'autre un enfant et moi je pense à un troisième peut-être c'est pour cela que c'est si prodigieusement amusant ! Prodigieusement est le mot, car c'est un prodige de rire tant et si peu.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶822, Mon Journal t.12 p.73 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0472"
+    },
+    {
+     "old": "081.0473"
+    },
+    {
+     "old": "081.0474"
+    },
+    {
+     "old": "081.0475"
+    },
+    {
+     "old": "081.0476"
+    },
+    {
+     "old": "081.0477"
+    },
+    {
+     "old": "081.0478"
+    },
+    {
+     "old": "081.0479"
+    },
+    {
+     "old": "081.0480"
+    }
+   ]
+  },
+  {
+   "file": "1878-08-07.md",
+   "date": "1878-08-07",
+   "heading": "Mercredi 7 août 1878",
+   "paragraphs": [
+    {
+     "old": "081.0481"
+    },
+    {
+     "old": "081.0482"
+    },
+    {
+     "old": "081.0483",
+     "set_french": "> Mont de Marsan\n> 5 août 1878\n> Mademoiselle,\n> Je sollicite de votre bonté une faveur que vous me refuserez pas, j'espère. Un refus, le silence seraient trop rigoureux.\n> Voudriez vous me rappeler le nom de famille de votre bonne et charmante cousine. Mademoiselle Dina ? J'ai absolument besoin de lui écrire, et je n'ose le faire en écorchant son nom.",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo à Marie, Mont-de-Marsan, 5 août 1878",
+     "_rsr": "French completed/corrected from tome12.docx ¶834–837, Mon Journal t.12 p.74 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0484",
+     "set_french": "> Si vous vouliez me faire un grand honneur, vous ajouteriez à l'indication que je vous demande quelques mots pour me dire combien de temps vous restez encore à Soden. C'est cependant extrêmement intéressant, car je crains de vous écrire après votre départ et que mes lettres n'y restent en souffrance.",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo à Marie, Mont-de-Marsan, 5 août 1878",
+     "_rsr": "French completed/corrected from tome12.docx ¶838, Mon Journal t.12 p.74 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0485",
+     "set_french": "> Je n'ose espérer que vous vous montriez bonne jusqu'au au point de me faire savoir si vous vous trouvez bien du traitement que vous suivez, ce qui est d'un grand intérêt pour moi, et si vous daignez ne pas oublier tout-à-fait l'admirateur le plus humble et le plus fervent, l'ami le plus dévoué que vous ayez.",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo à Marie, Mont-de-Marsan, 5 août 1878",
+     "_rsr": "French completed/corrected from tome12.docx ¶839, Mon Journal t.12 p.74 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0486",
+     "set_french": "> Je mets à vos pieds mes profonds sentiments de respectueux dévouement.\n> A. MULTEDO",
+     "_manual": true,
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo à Marie, Mont-de-Marsan, 5 août 1878",
+     "_rsr": "French completed/corrected from tome12.docx ¶840, Mon Journal t.12 p.74 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0487",
+     "set_french": "Nos Russes s'amusent à m'envoyer des photographies, incognito. Hier c'était une bougie et un papillon avec cette légende: Prenez garde. Aujourd'hui une oie avec ces mots: le Portrait de celui que j'aime. Ce sont je crois les Coubé qui sont très gentils et qui me serviront à Pétersbourg si Mme Coubé ne meurt pas. Cette pauvre petite femme a vingt ans à peine et déjà deux bébés. Je la crois phitisique... autrement elle a un type charmant... De superbes cheveux blonds, très blonds; des yeux verts et des cils aussi blonds que les cheveux. Le teint d'une rousse et cet air de douceur extrême sous lequel se cache la fermeté pour ne pas dire un autre mot, des femmes aux cils blancs. Pas de corps, grande souple... un nez presque aquilin mais adouci; et dans sa tournure un abandon, une mollesse, une souplesse maladive qui fait penser aux vierges du Moyen-Âge ou bien à quelque [Mots noircis : vieux portrait de jeune fille en habit] de cheval avec un feutre à plumes flottantes et tombantes comme toute la personne.",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶842, Mon Journal t.12 p.74 (2026-09-28 rebuild). Printer's typo corrected: «noiricis» → «noircis» (Mon Journal t.12 p.74)."
+    },
+    {
+     "old": "081.0488",
+     "set_french": "Mon Dieu, faites que j'aille à Rome. Si vous saviez mon Dieu comme j'en ai envie ! Mon Dieu soyez trop bon pour votre créature indigne, mon Dieu faites que j'aille à Rome... C'est impossible sans doute... car ce serait être heureuse !",
+     "_stream": true,
+     "_rsr": "French completed/corrected from tome12.docx ¶843, Mon Journal t.12 p.74 (2026-09-28 rebuild)."
+    },
+    {
+     "old": "081.0489"
+    },
+    {
+     "old": "081.0490"
+    },
+    {
+     "old": "081.0491",
+     "set_french": "Quel aplatissement bourgeois en pensant qu'on habite Paris... [Mots noircis: Paris est cependant la seule] ville au monde possible après Rome. Quel décourageant ennui quand on pense qu'on ne peut pas y aller...",
+     "_rsr": "Inline label restored from tome12.docx ¶848, Mon Journal t.12 p.75: «[Mots noircis: Paris est cependant la seule]» (dropped in the original extraction, 2026-09-28 rebuild)."
+    }
+   ]
+  },
+  {
+   "file": "1878-08-08.md",
+   "date": "1878-08-08",
+   "heading": "Jeudi 8 août 1878",
+   "paragraphs": [
+    {
+     "old": "081.0492"
+    },
+    {
+     "old": "081.0493"
+    },
+    {
+     "old": "081.0494"
+    },
+    {
+     "old": "081.0495"
+    },
+    {
+     "old": "081.0496"
+    },
+    {
+     "old": "081.0497"
+    },
+    {
+     "old": "081.0498"
+    }
+   ]
+  }
+ ]
+}

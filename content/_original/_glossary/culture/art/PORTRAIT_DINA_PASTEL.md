@@ -43,7 +43,7 @@ Pastel on paper, 61 × 50 cm. Marie leaves no set-piece description of it in the
 
 %% GLO_PORTRAIT_DINA_PASTEL.0009 %%
 %% [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) %%
-Marie had been painting Dina since 1879 — a profile in oil begun that July, shown to Julian and to Tony Robert-Fleury, and retouched over four weeks (¶¶ 085.0321, 085.0339, 085.0364, 085.0419). The great pastel belongs to the Nice and Paris campaign of spring 1882. When Julian reviewed the Nice output on 25 April 1882, his verdict on it was unqualified — "Le pastel de Dina très, très bien" (¶ 094.0382) — even as he demolished the rest of that week's painting (¶ 094.0396). Tony agreed (¶ 095.0145), Julian repeated himself on 29 May (¶ 095.0115), and on 10 June Mmes de Lambertye and Gautreau and the painter Louise Abbéma came to see it (¶ 095.0160).
+Marie had been painting Dina since 1879 — a profile in oil begun that July, shown to Julian and to Tony Robert-Fleury, and retouched over four weeks (¶¶ 085.0489, 085.0508, 085.0533, 085.0588). The great pastel belongs to the Nice and Paris campaign of spring 1882. When Julian reviewed the Nice output on 25 April 1882, his verdict on it was unqualified — "Le pastel de Dina très, très bien" (¶ 094.0382) — even as he demolished the rest of that week's painting (¶ 094.0396). Tony agreed (¶ 095.0145), Julian repeated himself on 29 May (¶ 095.0115), and on 10 June Mmes de Lambertye and Gautreau and the painter Louise Abbéma came to see it (¶ 095.0160).
 
 %% GLO_PORTRAIT_DINA_PASTEL.0010 %%
 By December 1882 the pastel had become her hope for the coming season: "Mon pastel ira dans un Cercle puis au Salon, 'c'est une chose de première ordre' dit le père Julian et j'ai envie de lui sauter au cou" (¶ 097.0211). The Cercle exhibition never happened — Julian had promised to place the pastel and one painting and did nothing, which produced the sharpest rupture between them in the whole diary, complete with a sarcastic thank-you note she copies out in full (¶¶ 098.0356–098.0363).
@@ -59,7 +59,7 @@ At the Salon it did better than anything else she sent. Only two pastels were re
 ## References in Diary
 
 %% GLO_PORTRAIT_DINA_PASTEL.0014 %%
-- Antecedents, the 1879 oil portrait of Dina: 1879-07-02, ¶ 085.0321 · 1879-07-05, ¶ 085.0339 · 1879-07-13, ¶ 085.0364 · 1879-07-27, ¶ 085.0419
+- Antecedents, the 1879 oil portrait of Dina: 1879-07-02, ¶ 085.0489 · 1879-07-05, ¶ 085.0508 · 1879-07-13, ¶ 085.0533 · 1879-07-27, ¶ 085.0588
 - **First mention of the pastel** — 1882-04-25, ¶ 094.0382: "Le pastel de Dina très, très bien."
 - 1882-04-27, ¶ 094.0396 · 1882-05-29, ¶ 095.0115 · 1882-06-08, ¶ 095.0145 · 1882-06-10, ¶ 095.0160 — the run of praise
 - 1882-08-19, ¶ 096.0107 — a further Dina portrait planned, "avec une pointe de mystère, d'inconnu dans ses yeux de chat"

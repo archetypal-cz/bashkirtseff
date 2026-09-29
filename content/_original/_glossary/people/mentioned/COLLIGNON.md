@@ -38,9 +38,9 @@ Marie paints Collignon's portrait in May-June 1876 (twelve sittings), and the si
 
 ## Background and Social Position
 
-Collignon came from a modest Parisian family. Her parents ran "une espece d'hotel meuble dans un passage Marbeuf" and her father "portait des sabots et balayait la cour" (%% 085.0081 %%). Despite these humble origins, Collignon had risen socially through her career as a governess: she had previously served as "demoiselle de compagnie aupres de la fille du vice-roi d'Egypte" (%% 085.0081 %%), which explains her polish, worldliness, and knowledge of Egypt and Cairo. Marie observed the painful contrast: "Collignon qui... est si elegante, si distinguee, si bien elevee !" yet lives in poverty (%% 085.0081 %%). She had accumulated savings from fourteen years of work (%% 062.0332 %%: "elle depense son dernier argent amasse pendant quatorze ans de travail"). She had a brother who visited her in Paris (%% 084.0123 %%).
+Collignon came from a modest Parisian family. Her parents ran "une espece d'hotel meuble dans un passage Marbeuf" and her father "portait des sabots et balayait la cour" (%% 085.0091 %%). Despite these humble origins, Collignon had risen socially through her career as a governess: she had previously served as "demoiselle de compagnie aupres de la fille du vice-roi d'Egypte" (%% 085.0091 %%), which explains her polish, worldliness, and knowledge of Egypt and Cairo. Marie observed the painful contrast: "Collignon qui... est si elegante, si distinguee, si bien elevee !" yet lives in poverty (%% 085.0091 %%). She had accumulated savings from fourteen years of work (%% 062.0332 %%: "elle depense son dernier argent amasse pendant quatorze ans de travail"). She had a brother who visited her in Paris (%% 084.0194 %%).
 
-Her father died in May 1879 (%% 085.0068 %%: "Le pere de Collignon est mort ce matin"). After leaving the Bashkirtseff household, Collignon lived in Cannes during the winter seasons and in Paris, often lodging at various addresses including Villa Fortunee in the Carabacel district of Nice (%% 082.0160 %%).
+Her father died in May 1879 (%% 085.0078 %%: "Le pere de Collignon est mort ce matin"). After leaving the Bashkirtseff household, Collignon lived in Cannes during the winter seasons and in Paris, often lodging at various addresses including Villa Fortunee in the Carabacel district of Nice (%% 082.0198 %%).
 
 ## Role in the Household (1872-1873)
 
@@ -86,7 +86,7 @@ Despite (or because of) her own romantic disappointment, Collignon served as Mar
 - **Audiffret**: Noticed his interest in Marie and reported it to the aunt (%% 033.0437 %%).
 - **Girofla**: Called him "le beau zero" (%% 032.0154 %%).
 - **Pietro Antonelli**: Worried Collignon warned Marie he was "un Lovelace" (%% 034.0226 %%), but also said "S'il ne vous aimait pas, il ne vous ecrirait pas des lettres comme ca" (%% 062.0310 %%).
-- **Soutzo**: Openly called him "bete et mechant" and "un ane bate" and said she would weep if Marie married him (%% 088.0173 %%: June 1880).
+- **Soutzo**: Openly called him "bete et mechant" and "un ane bate" and said she would weep if Marie married him (%% 088.0174 %%: June 1880).
 - **General maxim**: "Quand une femme veut un homme, elle l'a toujours" (%% 004.0264 %%: April 15, 1873).
 
 ## Portrait by Marie (1876)
@@ -152,10 +152,10 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 062.0248 %% (Jun 7, 1876): Detailed physical description during portrait sessions
 - %% 062.0256 %% (Jun 12, 1876): Finishing the portrait — ninth session, the hair
 - %% 068.0228 %% (Dec 19, 1876): Marie discusses Rome plans with Collignon
-- %% 082.0160 %% (Sep 25, 1878): Letter from "cette pauvre Collignon" — Marie promises to take her in
-- %% 085.0068 %% (May 16, 1879): Collignon's father dies
-- %% 085.0081 %% (May 18, 1879): Marie visits Collignon's family — shocked by their poverty
-- %% 088.0173 %% (Jun 12, 1880): Calls Soutzo "un ane bate" — advises Marie against marrying him
+- %% 082.0198 %% (Sep 25, 1878): Letter from "cette pauvre Collignon" — Marie promises to take her in
+- %% 085.0078 %% (May 16, 1879): Collignon's father dies
+- %% 085.0091 %% (May 18, 1879): Marie visits Collignon's family — shocked by their poverty
+- %% 088.0174 %% (Jun 12, 1880): Calls Soutzo "un ane bate" — advises Marie against marrying him
 - %% 090.0144 %% (Dec 27, 1880): Handwriting insight — "un effort et puis un aplatissement"
 - %% 092.0351 %% (Jul 27, 1881): Marie visits dying Collignon — "la Mort elle-meme"
 - %% 093.0177 %% (Nov 15, 1881): "La pauvre Collignon est morte depuis plus de vingt jours deja"

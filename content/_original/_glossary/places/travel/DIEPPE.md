@@ -58,7 +58,7 @@ Dieppe's proximity to England -- the closest major French port to the English co
 ### Sea Bathing as Medical Therapy
 
 %% GLO_DIEPPE.0009 %%
-By the 1870s, [thalassotherapy](https://en.wikipedia.org/wiki/Thalassotherapy) -- the therapeutic use of seawater and marine climate -- was an established branch of French medicine. The concept had been formalized in 1865 by Dr. Jacques de la Bonnardière, who coined the term from the Greek *thalassa* (sea). The first warm-water spa at Dieppe had opened in 1822, and by mid-century sea bathing was prescribed by physicians for conditions ranging from respiratory ailments to nervous disorders. Marie's doctor, [Krishaber](../../people/mentioned/KRISHABER.md), offered her a choice between [Mont-Dore](../../people/mentioned/MONT_DORE.md) (a thermal spa in the Auvergne for respiratory problems) and the sea. She chose Dieppe because "le Mont-Dore est loin, Dieppe est tout près, les Karageorgevitch sont à Dieppe" (086.0066) -- medical necessity tempered by social calculation and convenience, as was typical of her.
+By the 1870s, [thalassotherapy](https://en.wikipedia.org/wiki/Thalassotherapy) -- the therapeutic use of seawater and marine climate -- was an established branch of French medicine. The concept had been formalized in 1865 by Dr. Jacques de la Bonnardière, who coined the term from the Greek *thalassa* (sea). The first warm-water spa at Dieppe had opened in 1822, and by mid-century sea bathing was prescribed by physicians for conditions ranging from respiratory ailments to nervous disorders. Marie's doctor, [Krishaber](../../people/mentioned/KRISHABER.md), offered her a choice between [Mont-Dore](../../people/mentioned/MONT_DORE.md) (a thermal spa in the Auvergne for respiratory problems) and the sea. She chose Dieppe because "le Mont-Dore est loin, Dieppe est tout près, les Karageorgevitch sont à Dieppe" (086.0065) -- medical necessity tempered by social calculation and convenience, as was typical of her.
 
 ### Dieppe and the Impressionists
 
@@ -66,22 +66,22 @@ By the 1870s, [thalassotherapy](https://en.wikipedia.org/wiki/Thalassotherapy) -
 Dieppe attracted an extraordinary succession of painters throughout the 19th century, becoming what one art historian called "the painter's resort." [Turner](https://en.wikipedia.org/wiki/J._M._W._Turner) painted *The Harbour of Dieppe* (c. 1826); [Eugene Boudin](https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin) worked there in the 1860s; [Paul Gauguin](https://en.wikipedia.org/wiki/Paul_Gauguin) painted *Women Bathing at Dieppe* and *Dieppe Harbour* in 1885; [Jacques-Emile Blanche](https://en.wikipedia.org/wiki/Jacques-%C3%89mile_Blanche) painted the beach in front of the casino (c. 1886); [Claude Monet](https://en.wikipedia.org/wiki/Claude_Monet) painted the coastal cliffs near Dieppe (1897); and [Camille Pissarro](https://en.wikipedia.org/wiki/Camille_Pissarro) painted some of his last works there in 1901--1902, working from upper-floor hotel rooms due to his eye problems. [Walter Sickert](https://en.wikipedia.org/wiki/Walter_Sickert) first visited in 1885 during his honeymoon and returned repeatedly for decades, painting the town's churches, harbor, and streets, and developing his distinctive style under the influence of [Degas](https://en.wikipedia.org/wiki/Edgar_Degas).
 
 %% GLO_DIEPPE.0011 %%
-Marie herself was there primarily as a painter, not merely a society visitor. She produced plein air studies on the beach -- at least twelve studies during her three-week stay -- painted portraits (a "pochade d'Alexis" in one hour, 086.0087), and worked outdoors in the morning painting "mère Justin," a 73-year-old sand seller, until rain drove her indoors (086.0117). She showed her Dieppe pochades to [Julian](../schools/JULIAN.md) upon returning to Paris, and gave a marine painting made at Dieppe to Hecht, who was "si fou" about it (raw carnet 13). Her engagement with Dieppe as a painting site thus overlapped chronologically with the Impressionists' own discovery of the Normandy coast.
+Marie herself was there primarily as a painter, not merely a society visitor. She produced plein air studies on the beach -- at least twelve studies during her three-week stay -- painted portraits (a "pochade d'Alexis" in one hour, 086.0086), and worked outdoors in the morning painting "mère Justin," a 73-year-old sand seller, until rain drove her indoors (086.0116). She showed her Dieppe pochades to [Julian](../schools/JULIAN.md) upon returning to Paris, and gave a marine painting made at Dieppe to Hecht, who was "si fou" about it (raw carnet 13). Her engagement with Dieppe as a painting site thus overlapped chronologically with the Impressionists' own discovery of the Normandy coast.
 
 ## Marie's Dieppe Stay (1879)
 
 ### The Decision and Arrival (August 12--13)
 
 %% GLO_DIEPPE.0012 %%
-Marie traveled to Dieppe on the evening of August 12, 1879, arriving at 1 AM on August 13. The decision had been characteristically impulsive. Dr. Krishaber had prescribed either Mont-Dore or the sea; Marie chose Dieppe for proximity and society. Then, just as they were boarding the omnibus for the station, Blanc appeared and was recruited on the spot: "Blanc! venez avec nous!" -- "Je veux bien mais c'est bien loin de Mont-Dore, si c'était Dieppe..." -- "Eh bien va pour Dieppe, ce sera drôle" (086.0065--086.0067).
+Marie traveled to Dieppe on the evening of August 12, 1879, arriving at 1 AM on August 13. The decision had been characteristically impulsive. Dr. Krishaber had prescribed either Mont-Dore or the sea; Marie chose Dieppe for proximity and society. Then, just as they were boarding the omnibus for the station, Blanc appeared and was recruited on the spot: "Blanc! venez avec nous!" -- "Je veux bien mais c'est bien loin de Mont-Dore, si c'était Dieppe..." -- "Eh bien va pour Dieppe, ce sera drôle" (086.0064--086.0066).
 
 %% GLO_DIEPPE.0013 %%
-Her first impression was devastating. Comparing the Channel coast to the Mediterranean she loved, Marie found all northern seaside towns identical: "Est-ce que toutes ces villes de mer sont les mêmes? J'ai été à Ostende, à Calais, à Douvres et je suis à Dieppe. Cela sent le goudron, le bateau, les cordages, la toile cirée. Il fait du vent, on est exposé de tous côtés et l'on se sent en détresse. Cela sent le mal de mer. Quelle différence avec la Méditerranée. Là on respire, là il y a quoi admirer, là on est bien" (086.0069). She preferred green spa towns like [Soden](../cities/SODEN.md) and [Schlangenbad](../cities/SCHLANGENBAD.md) to this "aride Dieppe."
+Her first impression was devastating. Comparing the Channel coast to the Mediterranean she loved, Marie found all northern seaside towns identical: "Est-ce que toutes ces villes de mer sont les mêmes? J'ai été à Ostende, à Calais, à Douvres et je suis à Dieppe. Cela sent le goudron, le bateau, les cordages, la toile cirée. Il fait du vent, on est exposé de tous côtés et l'on se sent en détresse. Cela sent le mal de mer. Quelle différence avec la Méditerranée. Là on respire, là il y a quoi admirer, là on est bien" (086.0068). She preferred green spa towns like [Soden](../cities/SODEN.md) and [Schlangenbad](../cities/SCHLANGENBAD.md) to this "aride Dieppe."
 
 ### Hotels: Bristol vs. Royal
 
 %% GLO_DIEPPE.0014 %%
-Marie stayed at the Hôtel Bristol, which she acknowledged was "de premier ordre" but lamented could not compare to the Hôtel Royal -- "le véritable centre élégant de Dieppe" -- where she dined with Zurlo and Da Costa (086.0103). The wrong hotel, the wrong wardrobe ("Je n'ai que des robes blanches trop légères pour la brise de la mer et qui paraîtraient ridicules sur la plage"), the persistent bad luck she called her "guignon" -- Marie's Dieppe stay began with characteristic frustration at being slightly off-centre in social geography.
+Marie stayed at the Hôtel Bristol, which she acknowledged was "de premier ordre" but lamented could not compare to the Hôtel Royal -- "le véritable centre élégant de Dieppe" -- where she dined with Zurlo and Da Costa (086.0102). The wrong hotel, the wrong wardrobe ("Je n'ai que des robes blanches trop légères pour la brise de la mer et qui paraîtraient ridicules sur la plage"), the persistent bad luck she called her "guignon" -- Marie's Dieppe stay began with characteristic frustration at being slightly off-centre in social geography.
 
 ### Social Life and Boredom
 
@@ -89,34 +89,34 @@ Marie stayed at the Hôtel Bristol, which she acknowledged was "de premier ordre
 The social circle that assembled around Marie at Dieppe included the [Karageorgevitch](../../people/mentioned/KARAGEORGEVITCH.md) princes (Bojidar and Alexis), [Da Costa](../../people/mentioned/DA_COSTA_MOTTA.md), [Zurlo](../../people/mentioned/ZURLO.md), [de Plancy](../../people/mentioned/PLANCY.md), and [Blanc](../../people/mentioned/BLANC.md). Her mother and [Dina](../../people/core/DINA.md) provided the family chaperonage she found suffocating.
 
 %% GLO_DIEPPE.0016 %%
-Despite the social company, boredom was the dominant note: "On s'ennuie à Dieppe. Il y a bien à l'hôtel quelques jeunes gens étrangers de Paris qui s'intéressent à nous et qui s'ennuient de leur côté; mais nous ne nous connaissons pas" (086.0087). Marie observed that Dieppe's young Parisian men recognized her family from the Bois de Boulogne but without formal introductions, nothing could happen. She felt "abrutie" (stupefied) and professed complete indifference: "Que je sois entourée d'hommes ou de chiens, cela m'est parfaitement égal."
+Despite the social company, boredom was the dominant note: "On s'ennuie à Dieppe. Il y a bien à l'hôtel quelques jeunes gens étrangers de Paris qui s'intéressent à nous et qui s'ennuient de leur côté; mais nous ne nous connaissons pas" (086.0086). Marie observed that Dieppe's young Parisian men recognized her family from the Bois de Boulogne but without formal introductions, nothing could happen. She felt "abrutie" (stupefied) and professed complete indifference: "Que je sois entourée d'hommes ou de chiens, cela m'est parfaitement égal."
 
 ### The Races (August 22)
 
 %% GLO_DIEPPE.0017 %%
-The Dieppe races were the social climax of the season, and Marie's description of them (August 22, 086.0119--086.0124) produced some of her finest character sketches. She saw the [Princesse de Sagan](../../people/aristocracy/PRINCESS_DE_SAGAN.md) (née Seillière) up close -- the classic example of finance marrying aristocracy. Despite general opinion that she was ugly, Marie found her "une des plus ravissantes femmes que j'aie vues" -- tall, graceful despite thinness, with golden chestnut hair, pale complexion, gray eyes, and a "distinctively noble aquiline nose." She was rumored to be the [Prince of Wales](https://en.wikipedia.org/wiki/Edward_VII)'s lover. Marie invoked [Balzac](https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac) -- these women reminded her of his [Comédie humaine](https://en.wikipedia.org/wiki/La_Com%C3%A9die_humaine) characters.
+The Dieppe races were the social climax of the season, and Marie's description of them (August 22, 086.0118--086.0123) produced some of her finest character sketches. She saw the [Princesse de Sagan](../../people/aristocracy/PRINCESS_DE_SAGAN.md) (née Seillière) up close -- the classic example of finance marrying aristocracy. Despite general opinion that she was ugly, Marie found her "une des plus ravissantes femmes que j'aie vues" -- tall, graceful despite thinness, with golden chestnut hair, pale complexion, gray eyes, and a "distinctively noble aquiline nose." She was rumored to be the [Prince of Wales](https://en.wikipedia.org/wiki/Edward_VII)'s lover. Marie invoked [Balzac](https://en.wikipedia.org/wiki/Honor%C3%A9_de_Balzac) -- these women reminded her of his [Comédie humaine](https://en.wikipedia.org/wiki/La_Com%C3%A9die_humaine) characters.
 
 ### The Casino and Concerts
 
 %% GLO_DIEPPE.0018 %%
-The [Casino de Dieppe](../social/CASINO_DE_DIEPPE.md) served as the social hub of the resort -- gambling, concerts, and balls. On September 2, Marie attended a grand concert where [Camillo Sivori](https://en.wikipedia.org/wiki/Camillo_Sivori), the famous Italian violinist and student of [Paganini](https://en.wikipedia.org/wiki/Niccol%C3%B2_Paganini), "a joué comme un ange" (086.0206). After the concert there was a grand ball, but Marie left early. Her mother and Dina "sont restées au Casino avec Mme de Martellet et ses deux filles, des gens du monde."
+The [Casino de Dieppe](../social/CASINO_DE_DIEPPE.md) served as the social hub of the resort -- gambling, concerts, and balls. On September 2, Marie attended a grand concert where [Camillo Sivori](https://en.wikipedia.org/wiki/Camillo_Sivori), the famous Italian violinist and student of [Paganini](https://en.wikipedia.org/wiki/Niccol%C3%B2_Paganini), "a joué comme un ange" (086.0204). After the concert there was a grand ball, but Marie left early. Her mother and Dina "sont restées au Casino avec Mme de Martellet et ses deux filles, des gens du monde."
 
 %% GLO_DIEPPE.0019 %%
-Marie's ambivalence about resort entertainment was perfectly captured in her dismissal of "musiques, plages, Casino et autres abrutissements des villes d'été" (086.0206) -- and her simultaneous admission that "Je commence à jouir de Dieppe à la veille du départ."
+Marie's ambivalence about resort entertainment was perfectly captured in her dismissal of "musiques, plages, Casino et autres abrutissements des villes d'été" (086.0204) -- and her simultaneous admission that "Je commence à jouir de Dieppe à la veille du départ."
 
 ### Sea Bathing
 
 %% GLO_DIEPPE.0020 %%
-Marie took her first sea bath on August 19 (086.0105): "J'ai pris mon premier bain de mer et tout cela ensemble fait que je voudrais bien avoir une excuse pour pleurer." The bathing was therapeutic -- prescribed by Krishaber -- but Marie characteristically folded it into her emotional landscape. On September 2, near the end of her stay, she bathed again and painted in the afternoon (086.0206): "J'ai pris un bain de mer et j'ai peint l'après-midi."
+Marie took her first sea bath on August 19 (086.0104): "J'ai pris mon premier bain de mer et tout cela ensemble fait que je voudrais bien avoir une excuse pour pleurer." The bathing was therapeutic -- prescribed by Krishaber -- but Marie characteristically folded it into her emotional landscape. On September 2, near the end of her stay, she bathed again and painted in the afternoon (086.0204): "J'ai pris un bain de mer et j'ai peint l'après-midi."
 
 ### Painting at Dieppe
 
 %% GLO_DIEPPE.0021 %%
 Despite her professed boredom, Marie was productive as a painter during her Dieppe stay. She:
 
-- Made a quick portrait sketch (pochade) of [Alexis](../../people/recurring/ALEXIS.md) Karageorgevitch "très ressemblante et très vite, en une heure" (086.0087)
-- Painted outdoors on the beach, including a portrait of "mère Justin," a 73-year-old mother of 19 children who sold sand, attracting a crowd of onlookers that she ignored until soldiers arrived for beach exercises and rain interrupted (086.0117)
-- Produced at least twelve studies: "J'ai déjà douze études à emporter" (086.0206)
+- Made a quick portrait sketch (pochade) of [Alexis](../../people/recurring/ALEXIS.md) Karageorgevitch "très ressemblante et très vite, en une heure" (086.0086)
+- Painted outdoors on the beach, including a portrait of "mère Justin," a 73-year-old mother of 19 children who sold sand, attracting a crowd of onlookers that she ignored until soldiers arrived for beach exercises and rain interrupted (086.0116)
+- Produced at least twelve studies: "J'ai déjà douze études à emporter" (086.0204)
 - Made a marine painting that she later gave to Hecht, who was "si fou" about it
 - Showed her Dieppe pochades to [Julian](../schools/JULIAN.md) on her return to Paris, spending two hours discussing painting, politics, and Cassagnac
 
@@ -126,17 +126,17 @@ Marie valued these plein air studies as adding "chic" to her studio work, while 
 ### Departure (September 3--5)
 
 %% GLO_DIEPPE.0023 %%
-Marie left Dieppe on September 3 or thereabouts, reaching Paris by September 5: "Après deux jours agréablement passés nous avons quitté Dieppe" (086.0212). Back in Paris, she went driving in the Bois de Boulogne with Berthe and was "beaucoup amusés aussi de revoir des figures de Dieppe" (086.0214) -- the familiar faces from the resort reappearing in the Paris social scene, as they always did after the summer season ended.
+Marie left Dieppe on September 3 or thereabouts, reaching Paris by September 5: "Après deux jours agréablement passés nous avons quitté Dieppe" (086.0211). Back in Paris, she went driving in the Bois de Boulogne with Berthe and was "beaucoup amusés aussi de revoir des figures de Dieppe" (086.0213) -- the familiar faces from the resort reappearing in the Paris social scene, as they always did after the summer season ended.
 
 ## Retrospective References
 
 %% GLO_DIEPPE.0024 %%
 Dieppe continued to surface in the diary long after Marie's departure:
 
-- **January 19, 1880** (087.0273): Remembering Hecht's behavior "à Dieppe au casino" -- his indiscreet remarks about the de Lesseps salon that caused the family social damage
-- **August 19, 1880** (089.0384): Mocking newspaper coverage of Trouville and Dieppe resort life in Le Figaro and Le Gaulois -- the purple prose about "blanches robes qui semblent de loin des apparitions fantastiques" on the moonlit beach
-- **August 22, 1880** (089.0401): Learning that Bailleul encountered Berthe at the Dieppe races with Mme de Plancy
-- **September 21, 1880** (089.0589): Berthe visits Marie and claims she was "mourante à Dieppe et n'est jamais allée au Casino ni nulle part" -- contradicting gossip in the Gaulois about her behavior with "le petit Blanc"
+- **January 19, 1880** (087.0274): Remembering Hecht's behavior "à Dieppe au casino" -- his indiscreet remarks about the de Lesseps salon that caused the family social damage
+- **August 19, 1880** (089.0385): Mocking newspaper coverage of Trouville and Dieppe resort life in Le Figaro and Le Gaulois -- the purple prose about "blanches robes qui semblent de loin des apparitions fantastiques" on the moonlit beach
+- **August 22, 1880** (089.0402): Learning that Bailleul encountered Berthe at the Dieppe races with Mme de Plancy
+- **September 21, 1880** (089.0590): Berthe visits Marie and claims she was "mourante à Dieppe et n'est jamais allée au Casino ni nulle part" -- contradicting gossip in the Gaulois about her behavior with "le petit Blanc"
 - **December 11, 1880** (090.0326): "Les de Lesseps, Hecht, Dieppe, je ne sais quoi encore forment un horrible chaos dans ma tête et je ne sais que fondre en larmes" -- Dieppe remembered as part of the tangle of social disasters
 - **December 19, 1880** (090.0414): "Berthe est à l'index et qu'elle s'est si affichée à Dieppe avec Blanc" -- Berthe's Dieppe scandal continued to circulate
 - **September 1, 1881** (093.0043): Saint Amand arrives from Dieppe for dinner; incidental mention

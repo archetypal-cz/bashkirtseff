@@ -1,0 +1,12 @@
+{
+ "tome13-p0050-1.webp": {
+  "cz": {"caption": "Kresba perem: žena ležící na pohovce", "alt": "Kresba perem: postava ležící na pohovce či lehátku s pozvednutým trupem a nataženýma nohama, vedle věty «Il fait trop chaud pour que je puisse écrire.»", "source": "Mon Journal, t. 13, p. 50"},
+  "uk": {"caption": "Начерк пером: жінка, що лежить на кушетці", "alt": "Начерк пером: постать, що лежить на кушетці з піднятим торсом і витягнутими ногами, поруч із реченням «Il fait trop chaud pour que je puisse écrire.»", "source": "Mon Journal, t. 13, p. 50"},
+  "en": {"caption": "Pen sketch: a woman reclining on a day bed", "alt": "Pen sketch of a figure reclining on a day bed, torso raised and legs stretched out, beside the sentence «Il fait trop chaud pour que je puisse écrire.»", "source": "Mon Journal, t. 13, p. 50"}
+ },
+ "tome13-p0352-1.webp": {
+  "cz": {"caption": "Dopis baronu de Saint-Amand psaný do spirály, «Cher baron, nous allons ce soir au cirque…», podepsaný M.B.", "alt": "Faksimile Mariina lístku, jehož řádky se stáčejí do spirály ke středu, kde jsou iniciály M.B.", "source": "Mon Journal, t. 13, p. 352"},
+  "uk": {"caption": "Лист до барона де Сент-Амана, написаний спіраллю, «Cher baron, nous allons ce soir au cirque…», підписаний M.B.", "alt": "Факсиміле записки Марії, рядки якої закручуються спіраллю до центру, де стоять ініціали M.B.", "source": "Mon Journal, t. 13, p. 352"},
+  "en": {"caption": "Letter to the Baron de Saint-Amand written in a spiral, «Cher baron, nous allons ce soir au cirque…», signed M.B.", "alt": "Facsimile of Marie's note whose lines wind in a spiral towards the centre, where the initials M.B. stand", "source": "Mon Journal, t. 13, p. 352"}
+ }
+}

@@ -46,14 +46,14 @@ Oil; dimensions not published by the museum. The best available reproduction is 
 That silence is worth weighing. In these years Marie records her drawing and painting in obsessive detail — the Collignon portrait, the caricatures of Melissano, the portrait of her grandmother, the card players, the *Mirage* cartoon — so a finished oil portrait of her own brother going unmentioned is unexpected. Either the museum's date is wrong, or the picture belongs to a stretch of days the diary passes over, or it was made somewhere the diary does not follow her.
 
 %% GLO_PORTRAIT_PAUL.0009 %%
-The one direct diary reference to a portrait of a Paul comes three years later: **17 February 1879**, "L'après-midi je fais le portrait de Paul" (¶ 084.0168) — a bald single line with no follow-up anywhere in carnet 084. **This is not certainly the same sitter**: the paragraph is tagged in the source to `PAUL_FRERE`, and the researcher's own note on it hedges between the brother and a cousin, Paul Babanine. It documents a second, 1879 sitting, not the 1876 canvas.
+The one direct diary reference to a portrait of a Paul comes three years later: **17 February 1879**, "L'après-midi je fais le portrait de Paul" (¶ 084.0241) — a bald single line with no follow-up anywhere in carnet 084. **This is not certainly the same sitter**: the paragraph is tagged in the source to `PAUL_FRERE`, and the researcher's own note on it hedges between the brother and a cousin, Paul Babanine. It documents a second, 1879 sitting, not the 1876 canvas.
 
 %% GLO_PORTRAIT_PAUL.0010 %%
 ## References in Diary
 
 %% GLO_PORTRAIT_PAUL.0011 %%
 - **No mention of this painting has been found.** Carnets 060–075 (May 1876 – October 1877), the range in which an 1876 portrait would fall, contain nothing about painting Paul.
-- **1879-02-17, ¶ 084.0168** — "L'après-midi je fais le portrait de Paul." A separate, later sitting; the sitter's identity is not fully secure.
+- **1879-02-17, ¶ 084.0241** — "L'après-midi je fais le portrait de Paul." A separate, later sitting; the sitter's identity is not fully secure.
 
 %% GLO_PORTRAIT_PAUL.0012 %%
 ## Related Entries
@@ -74,4 +74,4 @@ The one direct diary reference to a portrait of a Paul comes three years later: 
 - The diary itself, carnets 060–075 (negative finding) and 084
 
 %% GLO_PORTRAIT_PAUL.0016 %%
-%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.13) and the carnets 060–075 and 076–086 mention maps. Research status Basic: the museum publishes no dimensions and no object record for this painting, so the 1876 date rests on the Commons file's own attribution. The negative finding is stated on purpose — the 060–075 sweep explicitly flagged "Portrait de Paul (frère, 1876) — NOT FOUND" and recommended it be raised with the catalogue team; suppressing that would have made the entry look better sourced than it is. 084.0168 is verified against content/_original/084/1879-02-17.md, including the PAUL_FRERE tag and the hedged RSR note that leaves the sitter between the brother and a cousin. Image: Commons file at 821x1000 px, published at native size (below this project's preferred resolution but above the 800 px floor). %%
+%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.13) and the carnets 060–075 and 076–086 mention maps. Research status Basic: the museum publishes no dimensions and no object record for this painting, so the 1876 date rests on the Commons file's own attribution. The negative finding is stated on purpose — the 060–075 sweep explicitly flagged "Portrait de Paul (frère, 1876) — NOT FOUND" and recommended it be raised with the catalogue team; suppressing that would have made the entry look better sourced than it is. 084.0241 is verified against content/_original/084/1879-02-17.md, including the PAUL_FRERE tag and the hedged RSR note that leaves the sitter between the brother and a cousin. Image: Commons file at 821x1000 px, published at native size (below this project's preferred resolution but above the 800 px floor). %%
