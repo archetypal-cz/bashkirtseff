@@ -221,7 +221,7 @@ just check-para-start-all               # All carnets
 
 ### Sync translations with updated originals
 
-When the French source is edited (new research, corrected annotations, restored text), translations need to know. The sync script propagates changes without overwriting existing translations. Always pass the language — the recipe defaults to `cz` — and verify before committing:
+When the French source is edited (new research, corrected annotations, restored text), translations need to know. The sync script propagates changes without overwriting existing translations, patching only the lines that change: paragraphs new in the source (TODO stubs), kind markers and embedded French whose text differs; `--tags`, `--notes` (or `--notes-since YYYY-MM-DD`) and `--footnotes` add those too. Always pass the language — the recipe defaults to `cz` — and verify before committing:
 
 ```bash
 just sync 001 en --dry-run    # Preview changes

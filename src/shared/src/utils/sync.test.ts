@@ -228,7 +228,7 @@ test('renumbered footnotes are recognised as present and not re-added', () => {
   try {
     const sync = new EntrySync();
     const before = fs.readFileSync(f.translationPath, 'utf-8');
-    const result = sync.syncEntryFile(f.originalPath, f.translationPath, createDefaultSyncOptions());
+    const result = sync.syncEntryFile(f.originalPath, f.translationPath, { ...createDefaultSyncOptions(), syncFrench: false });
     assert.equal(result.error, undefined);
     assert.deepEqual(result.changes.filter(c => c.type.startsWith('footnote')), []);
     assert.deepEqual(result.warnings, []);
@@ -259,7 +259,7 @@ test('a paragraph with fewer markers than the source is skipped with a warning, 
   ].join('\n'));
   try {
     const sync = new EntrySync();
-    const result = sync.syncEntryFile(f.originalPath, f.translationPath, createDefaultSyncOptions());
+    const result = sync.syncEntryFile(f.originalPath, f.translationPath, { ...createDefaultSyncOptions(), syncFrench: false });
     assert.equal(result.error, undefined);
 
     // 001.0030: one marker vs two in source — ambiguous, nothing added.
@@ -275,7 +275,7 @@ test('a paragraph with fewer markers than the source is skipped with a warning, 
     // The translated definition under the translation's own id is untouched.
     assert.match(out, /^\[\^1\]: Cercle Masséna, soukromý klub v Nice\.$/m);
     assert.deepEqual(
-      result.changes.filter(c => c.type.startsWith('footnote')).map(c => c.type),
+      result.changes.filter(c => c.type.startsWith('footnote')).map(c => c.type).sort(),
       ['footnote_added', 'footnote_ref_added']
     );
   } finally {
@@ -305,7 +305,7 @@ test('a definition matching the source text under another id counts as present',
   ].join('\n'));
   try {
     const sync = new EntrySync();
-    const result = sync.syncEntryFile(f.originalPath, f.translationPath, createDefaultSyncOptions());
+    const result = sync.syncEntryFile(f.originalPath, f.translationPath, { ...createDefaultSyncOptions(), syncFrench: false });
     assert.equal(result.error, undefined);
     // [^5]'s text already exists as [^c] (emphasis aside): not re-added, no marker appended.
     assert.deepEqual(result.changes.filter(c => c.type.startsWith('footnote')), []);
@@ -368,6 +368,123 @@ test('syncEntry orders paragraphs as the source does, not by number', () => {
     const parser = new ParagraphParser();
     const synced = sync.syncEntry(parser.parseFile(originalPath), parser.parseFile(translationPath), createDefaultSyncOptions());
     assert.deepEqual(synced.paragraphs.map((p) => p.id), ['063.0005', '063.0004', '063.0006']);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+// --- line-level patching (2026-09-29: `just sync 092 en` rewrote 94 synced files) ---
+
+test('sync patches only the lines that change and keeps the file layout', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-sync-patch-'));
+  try {
+    const od = path.join(dir, 'content', '_original', '092');
+    const td = path.join(dir, 'content', 'en', '092');
+    fs.mkdirSync(od, { recursive: true });
+    fs.mkdirSync(td, { recursive: true });
+    fs.writeFileSync(path.join(od, 'README.md'), '# Carnet 092\n');
+    fs.writeFileSync(path.join(od, '1881-08-18.md'), [
+      '---',
+      'date: 1881-08-18',
+      '---',
+      '',
+      '%% 092.0436 %%',
+      '%% [#Paris](../_glossary/places/cities/PARIS.md) [#Hubertine](../_glossary/people/mentioned/HUBERTINE.md) %%',
+      '%% 2026-02-02T09:08:01 LAN: "droit des femmes" - women\'s rights %%',
+      '# Jeudi 18 août 1881',
+      'Hier soir je suis allée au droit des femmes.',
+      '',
+      '%% 092.0437 %%',
+      '%% 2026-09-29T15:27:33 RSR: «l\'Eve-nement» was a line-break hyphen. %%',
+      'Epailly écrit à "l\'Evènement" une lettre.',
+      '',
+      '%% 092.0438 %%',
+      '%% 2025-07-10T17:51:00 RSR: summary-only paragraph %%',
+      '',
+      '%% 092.0439 %%',
+      'Une phrase restaurée du manuscrit.',
+      '',
+      '%% 092.0440 %%',
+      'Aujourd\'hui... ne lisez pas.',
+      '',
+    ].join('\n'));
+    const translation = [
+      '---',
+      'date: 1881-08-18',
+      'translation_complete: true',
+      '---',
+      '',
+      '%% 092.0436 %%',
+      '%% [#Paris](../../_original/_glossary/places/cities/PARIS.md) %%',
+      '%% [#Hubertine](../../_original/_glossary/people/mentioned/HUBERTINE.md) %%',
+      '%% Jeudi 18 août 1881 %%',
+      '%% Hier soir je suis allée au droit des femmes. %%',
+      '# Thursday, 18 August 1881',
+      '',
+      'Yesterday evening I went to the women\'s rights meeting.',
+      '',
+      '%% 092.0437 %%',
+      '%% Epailly écrit à "l\'Eve nement" une lettre. %%',
+      '',
+      'Epailly writes to *L\'Évènement* a letter.',
+      '',
+      '%% 092.0440 %%',
+      '%% Aujourd’hui... ne lisez pas. %%',
+      '',
+      'Today... do not read on.',
+    ].join('\n');
+    const tf = path.join(td, '1881-08-18.md');
+    fs.writeFileSync(tf, translation);
+
+    const cli = { ...createDefaultSyncOptions(), syncRoles: [], syncGlossaryLinks: false, syncFootnotes: false, syncMetadata: false };
+    const r = new EntrySync().syncCarnet(od, td, cli);
+    assert.deepEqual(r.errors, []);
+    assert.equal(fs.existsSync(path.join(td, 'README.md')), false, 'README.md is not an entry');
+
+    const expected = translation
+      .replace('%% Epailly écrit à "l\'Eve nement" une lettre. %%', '%% Epailly écrit à "l\'Evènement" une lettre. %%')
+      .replace('%% 092.0440 %%', '%% 092.0439 %%\n%% Une phrase restaurée du manuscrit. %%\nTODO\n\n%% 092.0440 %%');
+    assert.equal(fs.readFileSync(tf, 'utf-8'), expected);
+    assert.deepEqual(
+      r.entries[0].changes.map((c) => `${c.type} ${c.paragraphId}`),
+      ['french_updated 092.0437', 'paragraph_added 092.0439']
+    );
+
+    // idempotent
+    const again = new EntrySync().syncCarnet(od, td, cli);
+    assert.equal(again.totalChanges, 0);
+    assert.equal(fs.readFileSync(tf, 'utf-8'), expected);
+
+    // opt-in tags and dated notes are inserted in place, nothing else moves
+    const r2 = new EntrySync().syncCarnet(od, td, { ...cli, syncRoles: ['RSR', 'LAN'], notesSince: '2026-09-01', syncGlossaryLinks: true });
+    assert.deepEqual(r2.entries[0].changes.map((c) => c.type), ['note_added']);
+    assert.equal(
+      fs.readFileSync(tf, 'utf-8'),
+      expected.replace(
+        '%% Epailly écrit à "l\'Evènement" une lettre. %%\n',
+        '%% Epailly écrit à "l\'Evènement" une lettre. %%\n%% 2026-09-29T15:27:33 RSR: «l\'Eve-nement» was a line-break hyphen. %%\n'
+      )
+    );
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test('sync replaces a fr multi-line embedded block only when its text differs', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-sync-frblock-'));
+  try {
+    const of = path.join(dir, 'o.md');
+    const tf = path.join(dir, 'content', 'fr', '038', 't.md');
+    fs.mkdirSync(path.dirname(tf), { recursive: true });
+    fs.writeFileSync(of, '%% 038.0131 %%\nLa plus grande des trois Grâces\nSe trouve dans cent disgrâces.\n\n%% 038.0132 %%\nFin.\n');
+    const block = '%% 038.0131 %%\n%% La plus grande des trois Graces\nSe trouve dans cent disgraces. %%\n\n%% 038.0132 %%\n%% Fin. %%\n';
+    fs.writeFileSync(tf, block);
+    const r = new EntrySync().syncEntryFile(of, tf, { ...createDefaultSyncOptions(), syncRoles: [], syncGlossaryLinks: false, syncFootnotes: false });
+    assert.equal(r.error, undefined);
+    assert.equal(
+      fs.readFileSync(tf, 'utf-8'),
+      '%% 038.0131 %%\n%% La plus grande des trois Grâces %%\n%% Se trouve dans cent disgrâces. %%\n\n%% 038.0132 %%\n%% Fin. %%\n'
+    );
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
   }

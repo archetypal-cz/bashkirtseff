@@ -45,7 +45,7 @@ python3 -c "print(open('PATH').read().replace('%%','@@'))"
 The `Read` tool on real files is usually fine; this mainly bites `cat`/`grep` in Bash.
 
 ### 1c. `just sync` is for annotation sync, not link work
-`sync` copies RSR/LAN annotations and tags from source into a translation. It used to
+`sync --tags --notes` copies tags and RSR/LAN annotations from source into a translation (by default sync only carries new paragraphs, kind markers and embedded French). It used to
 write **source-relative** `../_glossary/…` paths into translation files (translations
 live one directory deeper and need `../../_original/_glossary/…`); since 2026-09-07 it
 localises path depth, including links inside copied note text (2e3091386). Still use it

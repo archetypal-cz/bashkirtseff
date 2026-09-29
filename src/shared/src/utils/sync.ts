@@ -9,6 +9,23 @@ import { ParagraphRenderer } from '../renderer/paragraph-renderer.js';
 import { parseFrontmatter } from '../parser/frontmatter.js';
 import { localizeGlossaryPath } from './glossary-path.js';
 import { writeFileAtomic } from './atomic-write.js';
+import { renderSourceComment } from '../renderer/paragraph-renderer.js';
+import { KIND_LINE_PATTERN } from '../parser/patterns.js';
+import {
+  parseEntryText,
+  serializeEntry,
+  frenchLineIdx,
+  textLineIdx,
+  embeddedFrenchIdx,
+  multiLineBlocks,
+  ID_LINE_RE,
+  HEADING_RE,
+  FOOTNOTE_DEF_RE,
+  FOOTNOTE_CONT_RE,
+  COMMENT_LINE_RE,
+  TAG_LINE_RE,
+  type Cluster,
+} from './entry-lines.js';
 
 /**
  * Roles that should be synced from original to translation
@@ -25,8 +42,12 @@ export const TRANSLATION_ROLES = [NOTE_ROLES.TR, NOTE_ROLES.RED, NOTE_ROLES.CON,
  * Options for sync operations
  */
 export interface SyncOptions {
+  /** Whether to refresh the embedded French copy where it differs from the source */
+  syncFrench: boolean;
   /** Roles to sync from original (default: RSR, LAN) */
   syncRoles: string[];
+  /** Only copy notes whose timestamp is at or after this ISO date/time */
+  notesSince?: string;
   /** Whether to sync glossary links */
   syncGlossaryLinks: boolean;
   /** Whether to sync frontmatter/metadata */
@@ -44,6 +65,7 @@ export interface SyncOptions {
  */
 export function createDefaultSyncOptions(): SyncOptions {
   return {
+    syncFrench: true,
     syncRoles: [...SYNC_ROLES],
     syncGlossaryLinks: true,
     syncMetadata: true,
@@ -59,7 +81,7 @@ export function createDefaultSyncOptions(): SyncOptions {
 export interface SyncChange {
   type: 'note_added' | 'note_updated' | 'glossary_added' | 'glossary_updated' |
         'footnote_added' | 'footnote_updated' | 'footnote_ref_added' | 'metadata_updated' | 'paragraph_added' |
-        'kind_updated';
+        'kind_updated' | 'french_updated';
   paragraphId?: string;
   role?: string;
   description: string;
@@ -658,15 +680,33 @@ export class EntrySync {
         return result;
       }
 
-      // Detect changes
-      result.changes = this.detectChanges(original, translation, options);
-      if (options.syncFootnotes) {
-        result.warnings = this.planFootnoteSync(original, translation).warnings;
+      if (fs.existsSync(translationPath)) {
+        // An existing file is patched line by line: only lines that carry a
+        // change are touched, everything else stays byte-for-byte.
+        const plan = options.syncFootnotes ? this.planFootnoteSync(original, translation) : null;
+        result.warnings = plan?.warnings ?? [];
         for (const w of result.warnings) {
           console.warn(`[sync] WARN ${path.basename(translationPath)}: ${w}`);
         }
+        const before = fs.readFileSync(translationPath, 'utf-8');
+        const patched = patchTranslation(
+          fs.readFileSync(originalPath, 'utf-8'),
+          before,
+          translation.language,
+          options,
+          plan,
+          result.changes,
+          result.warnings
+        );
+        if (patched !== before && !options.dryRun) {
+          writeFileAtomic(translationPath, patched);
+          result.written = true;
+        }
+        return result;
       }
 
+      // No translation file yet: render one from scratch
+      result.changes = this.detectChanges(original, translation, options);
       if (result.changes.length === 0) {
         return result;
       }
@@ -732,9 +772,9 @@ export class EntrySync {
       return result;
     }
 
-    // Find all markdown files in original
+    // Entry files only: README.md and other carnet files are not synced
     const files = fs.readdirSync(originalDir)
-      .filter(f => f.endsWith('.md'))
+      .filter(f => /^\d{4}-\d{2}-\d{2}.*\.md$/.test(f))
       .sort();
 
     for (const file of files) {
@@ -872,4 +912,272 @@ export async function syncBook(
   options: Partial<SyncOptions> = {}
 ): Promise<CarnetSyncResult> {
   return syncCarnet(originalDir, translationDir, options);
+}
+
+// --- line-level patching ---------------------------------------------------------
+
+/** Same as scaffold.ts TODO_PLACEHOLDER (not imported: scaffold imports this module) */
+const TODO = 'TODO';
+const NOTE_LINE_RE = /^\s*%%\s*(\d{4}-\d{2}-\d{2}T[\d:]+)\s+([A-Z]{2,4}):\s*(.*?)\s*%%\s*$/;
+const TAG_RE = /\[#([^\]]+)\]\(([^)]*)\)/g;
+
+/**
+ * Embedded French compared as text: markers, `#`, footnote refs, spacing and
+ * typographic vs straight quotes/apostrophes ignored (older copies use either).
+ */
+function frenchKey(lines: string[]): string {
+  return lines
+    .map((l) => l.trim().replace(/^%%\s*/, '').replace(/\s*%%$/, '').replace(/^#{1,6}\s+/, '').replace(/\[\^[^\]]+\]/g, ''))
+    .join(' ')
+    .replace(/[’‘ʼ]/g, "'")
+    .replace(/[“”«»]/g, '"')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/** Index after the ID line, its kind line and the comment lines that directly follow. */
+function afterIdAndComments(lines: string[]): number {
+  let i = lines.findIndex((l) => ID_LINE_RE.test(l));
+  i = i < 0 ? 0 : i + 1;
+  while (i < lines.length && COMMENT_LINE_RE.test(lines[i]) && !ID_LINE_RE.test(lines[i])) i++;
+  return i;
+}
+
+function afterIdAndKind(lines: string[]): number {
+  let i = lines.findIndex((l) => ID_LINE_RE.test(l)) + 1;
+  while (i < lines.length && KIND_LINE_PATTERN.test(lines[i])) i++;
+  return i;
+}
+
+/** Footnote definition blocks of a file's lines, by label */
+function footnoteDefBlocks(lines: string[]): Map<string, string[]> {
+  const out = new Map<string, string[]>();
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(FOOTNOTE_DEF_RE);
+    if (!m) continue;
+    const block = [lines[i]];
+    while (i + 1 < lines.length && FOOTNOTE_CONT_RE.test(lines[i + 1]) && !FOOTNOTE_DEF_RE.test(lines[i + 1])) block.push(lines[++i]);
+    out.set(m[1], block);
+  }
+  return out;
+}
+
+/**
+ * The lines that end a file's last cluster and must stay at the end: footnote
+ * definitions and the blank lines around them.
+ */
+function splitTail(lines: string[]): { body: string[]; tail: string[] } {
+  const first = lines.findIndex((l) => FOOTNOTE_DEF_RE.test(l));
+  let cut = first < 0 ? lines.length : first;
+  while (cut > 0 && !lines[cut - 1].trim()) cut--;
+  if (first < 0) return { body: lines, tail: [] };
+  return { body: lines.slice(0, cut), tail: lines.slice(cut) };
+}
+
+/** Source RSR/LAN (etc.) note lines of a cluster, filtered by role and date */
+function sourceNoteLines(lines: string[], roles: string[], since?: string): string[] {
+  return lines.filter((l) => {
+    const m = l.match(NOTE_LINE_RE);
+    return !!m && roles.includes(m[2]) && (!since || m[1] >= since);
+  });
+}
+
+function noteLineKey(line: string): string | null {
+  const m = line.match(NOTE_LINE_RE);
+  return m ? `${m[1]}|${m[2]}|${localizeLinksInText(m[3], 'original').replace(/\s+/g, ' ')}` : null;
+}
+
+/** A translation cluster for a paragraph new in the source, shaped like `just scaffold` output. */
+function newTranslationLines(src: string[], language: string, frVisible: boolean, options: SyncOptions): string[] {
+  const id = src.find((l) => ID_LINE_RE.test(l))!.trim();
+  const out = [id];
+  out.push(...src.filter((l) => KIND_LINE_PATTERN.test(l)).map((l) => l.trim()));
+  const french = frenchLineIdx(src).map((i) => src[i]);
+  out.push(...renderSourceComment(french.join('\n')));
+  out.push(...src.filter((l) => TAG_LINE_RE.test(l)).map((l) => localizeLinksInText(l.trim(), language)));
+  out.push(...sourceNoteLines(src, options.syncRoles, options.notesSince).map((l) => localizeLinksInText(l.trim(), language)));
+  const flines = french.map((l) => l.trim());
+  if (language === 'fr') {
+    if (frVisible) out.push(...flines);
+  } else {
+    for (const l of flines) if (HEADING_RE.test(l)) out.push(`${l.match(/^#+/)![0]} ${TODO}`);
+    if (flines.some((l) => !HEADING_RE.test(l))) out.push(TODO);
+  }
+  out.push('');
+  return out;
+}
+
+/**
+ * Patch a translation file from its source file, touching only the lines that
+ * carry a change: a paragraph new in the source is inserted after the paragraph
+ * that precedes it there; the kind marker follows the source; the embedded
+ * French is replaced only when its text differs from the source (a missing
+ * heading copy is not a difference); missing tag lines, notes, footnote markers
+ * and definitions are inserted when their options are on. Paragraph order,
+ * blank lines, line shapes and the final newline are never changed.
+ */
+export function patchTranslation(
+  originalText: string,
+  translationText: string,
+  language: string,
+  options: SyncOptions,
+  footnotes: FootnotePlan | null,
+  changes: SyncChange[],
+  warnings: string[]
+): string {
+  const o = parseEntryText('original', originalText);
+  const t = parseEntryText('translation', translationText);
+  if (!t.clusters.length) {
+    if (o.clusters.length) warnings.push('translation has no paragraph IDs; not patched (scaffold it)');
+    return translationText;
+  }
+  const byId = new Map(t.clusters.map((c) => [c.id, c]));
+  const frVisible = t.clusters.some((c) => textLineIdx(c.lines).length > 0);
+  let prev: Cluster | null = null;
+
+  for (const oc of o.clusters) {
+    let tc = byId.get(oc.id);
+    if (!tc && !frenchLineIdx(oc.lines).length) continue; // notes-only source paragraph: trees omit it
+    if (!tc) {
+      tc = { id: oc.id, lines: newTranslationLines(oc.lines, language, frVisible, options), origin: t.name };
+      if (!prev) {
+        // Before the first paragraph: the lines above its ID line stay on top
+        const first = t.clusters[0];
+        const pre = first.lines.splice(0, first.lines.findIndex((l) => ID_LINE_RE.test(l)));
+        tc.lines.unshift(...pre);
+        t.clusters.unshift(tc);
+      } else {
+        const at = t.clusters.indexOf(prev) + 1;
+        if (at === t.clusters.length) {
+          // After the last paragraph: its footnote definitions move below the new one
+          const { body, tail } = splitTail(prev.lines);
+          prev.lines = body;
+          if (body.length && body[body.length - 1].trim()) body.push('');
+          if (!tail.length) tc.lines.pop();
+          tc.lines.push(...tail);
+        } else if (prev.lines.length && prev.lines[prev.lines.length - 1].trim()) {
+          prev.lines.push('');
+        }
+        t.clusters.splice(at, 0, tc);
+      }
+      byId.set(tc.id, tc);
+      changes.push({ type: 'paragraph_added', paragraphId: oc.id, description: `New paragraph ${oc.id} in original` });
+      prev = tc;
+      continue;
+    }
+    prev = tc;
+    const lines = tc.lines;
+
+    // Kind marker: always follows the source
+    const sk = oc.lines.find((l) => KIND_LINE_PATTERN.test(l))?.trim() ?? null;
+    const tkIdx = lines.findIndex((l) => KIND_LINE_PATTERN.test(l));
+    const tk = tkIdx >= 0 ? lines[tkIdx].trim() : null;
+    if (sk !== tk) {
+      if (tkIdx >= 0) lines.splice(tkIdx, 1);
+      if (sk) lines.splice(lines.findIndex((l) => ID_LINE_RE.test(l)) + 1, 0, sk);
+      changes.push({ type: 'kind_updated', paragraphId: oc.id, description: `Paragraph kind of ${oc.id}: ${tk ?? 'none'} → ${sk ?? 'none'}`, originalValue: tk ?? undefined, newValue: sk ?? undefined });
+    }
+
+    // Embedded French
+    if (options.syncFrench) {
+      const srcFrench = frenchLineIdx(oc.lines).map((i) => oc.lines[i]);
+      const srcBody = srcFrench.filter((l) => !HEADING_RE.test(l.trim()));
+      const embIdx = new Set(embeddedFrenchIdx(lines));
+      for (const [s, e] of multiLineBlocks(lines)) {
+        // a multi-line block that is not a note is an embedded copy (fr tree)
+        const head = lines[s].trim().replace(/^%%\s*/, '');
+        if (/^\d{4}-\d{2}-\d{2}/.test(head) || /^[A-Z]{2,4}:/.test(head) || head.startsWith('[#')) continue;
+        for (let i = s; i <= e; i++) embIdx.add(i);
+      }
+      const idx = [...embIdx].sort((a, b) => a - b);
+      const cur = frenchKey(idx.map((i) => lines[i]));
+      if (!srcFrench.length) {
+        if (idx.length) warnings.push(`${oc.id}: the source paragraph has no French text but the translation embeds some; left as is`);
+      } else if (cur !== frenchKey(srcFrench) && cur !== frenchKey(srcBody)) {
+        const headings = srcFrench.filter((l) => HEADING_RE.test(l.trim())).map((l) => frenchKey([l]));
+        const keepHeading = !idx.length || headings.some((h) => idx.some((i) => frenchKey([lines[i]]) === h));
+        const fresh = renderSourceComment((keepHeading ? srcFrench : srcBody).join('\n'));
+        let at: number;
+        if (idx.length) {
+          at = idx[0];
+          for (const i of [...idx].reverse()) lines.splice(i, 1);
+        } else {
+          at = afterIdAndKind(lines);
+        }
+        lines.splice(at, 0, ...fresh);
+        changes.push({ type: 'french_updated', paragraphId: oc.id, description: `Embedded French of ${oc.id} refreshed from the source`, originalValue: cur.slice(0, 80), newValue: frenchKey(fresh).slice(0, 80) });
+      }
+    }
+
+    // Glossary tag lines
+    if (options.syncGlossaryLinks) {
+      const have = new Map<string, number>();
+      lines.forEach((l, i) => {
+        if (TAG_LINE_RE.test(l)) for (const m of l.matchAll(TAG_RE)) have.set(m[1], i);
+      });
+      const add: string[] = [];
+      for (const l of oc.lines.filter((x) => TAG_LINE_RE.test(x))) {
+        for (const m of l.matchAll(TAG_RE)) {
+          const target = localizeGlossaryPath(m[2], language);
+          const i = have.get(m[1]);
+          if (i === undefined) {
+            add.push(`%% [#${m[1]}](${target}) %%`);
+            have.set(m[1], -1);
+            changes.push({ type: 'glossary_added', paragraphId: oc.id, description: `New glossary link [#${m[1]}] in paragraph ${oc.id}`, newValue: target });
+          } else if (i >= 0) {
+            const re = new RegExp(`\\[#${m[1].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\]\\(([^)]*)\\)`);
+            const old = lines[i].match(re)![1];
+            if (old !== target) {
+              lines[i] = lines[i].replace(re, `[#${m[1]}](${target})`);
+              changes.push({ type: 'glossary_updated', paragraphId: oc.id, description: `Updated glossary path for [#${m[1]}] in paragraph ${oc.id}`, originalValue: old, newValue: target });
+            }
+          }
+        }
+      }
+      if (add.length) {
+        const lastTag = lines.reduce((acc, l, i) => (TAG_LINE_RE.test(l) ? i : acc), -1);
+        lines.splice(lastTag >= 0 ? lastTag + 1 : afterIdAndKind(lines), 0, ...add);
+      }
+    }
+
+    // Notes
+    if (options.syncRoles.length) {
+      const have = new Set(lines.map(noteLineKey).filter(Boolean));
+      const add = sourceNoteLines(oc.lines, options.syncRoles, options.notesSince).filter((l) => !have.has(noteLineKey(l)));
+      if (add.length) {
+        lines.splice(afterIdAndComments(lines), 0, ...add.map((l) => localizeLinksInText(l.trim(), language)));
+        for (const l of add) {
+          const m = l.match(NOTE_LINE_RE)!;
+          changes.push({ type: 'note_added', paragraphId: oc.id, role: m[2], description: `New ${m[2]} note in paragraph ${oc.id}`, newValue: m[3].slice(0, 80) });
+        }
+      }
+    }
+
+    // Footnote markers (the plan only adds them to translated paragraphs with none)
+    for (const fnId of footnotes?.addRefs.get(oc.id) ?? []) {
+      const text = textLineIdx(lines);
+      if (!text.length) continue;
+      const last = text[text.length - 1];
+      lines[last] = lines[last].trimEnd() + `[^${fnId}]`;
+      changes.push({ type: 'footnote_ref_added', paragraphId: oc.id, description: `Add footnote ref [^${fnId}] to paragraph ${oc.id}` });
+    }
+  }
+
+  // Footnote definitions go to the end of the file
+  if (footnotes?.addDefinitions.length) {
+    const defs = footnoteDefBlocks(o.clusters.flatMap((c) => c.lines));
+    const last = t.clusters[t.clusters.length - 1].lines;
+    let blanks = 0;
+    while (last.length && !last[last.length - 1].trim()) { last.pop(); blanks++; }
+    if (!last.some((l) => FOOTNOTE_DEF_RE.test(l))) last.push('');
+    for (const fnId of footnotes.addDefinitions) {
+      const block = defs.get(fnId);
+      if (!block) continue;
+      last.push(...block.map((l) => localizeLinksInText(l, language)));
+      changes.push({ type: 'footnote_added', description: `New footnote [^${fnId}]`, newValue: block[0].slice(0, 60) });
+    }
+    for (let i = 0; i < blanks; i++) last.push('');
+  }
+
+  return changes.length ? serializeEntry(t) : translationText;
 }

@@ -44,6 +44,10 @@ interface CliOptions {
   targetLanguage: string;
   dryRun: boolean;
   verbose: boolean;
+  tags: boolean;
+  notes: boolean;
+  notesSince?: string;
+  footnotes: boolean;
 }
 
 function parseArgs(): CliOptions | null {
@@ -67,6 +71,9 @@ function parseArgs(): CliOptions | null {
     targetLanguage: 'cz',
     dryRun: false,
     verbose: false,
+    tags: false,
+    notes: false,
+    footnotes: false,
   };
 
   for (let i = 1; i < args.length; i++) {
@@ -84,6 +91,29 @@ function parseArgs(): CliOptions | null {
       case '-v':
         options.verbose = true;
         break;
+      case '--tags':
+        options.tags = true;
+        break;
+      case '--notes':
+        options.notes = true;
+        break;
+      case '--notes-since':
+        options.notes = true;
+        options.notesSince = args[++i];
+        if (!/^\d{4}-\d{2}-\d{2}/.test(options.notesSince || '')) {
+          console.error('--notes-since needs a date: YYYY-MM-DD[Thh:mm:ss]');
+          process.exit(2);
+        }
+        break;
+      case '--footnotes':
+        options.footnotes = true;
+        break;
+      case '--all':
+        options.tags = options.notes = options.footnotes = true;
+        break;
+      default:
+        console.error(`Unknown option: ${arg}`);
+        process.exit(2);
     }
   }
 
@@ -94,8 +124,13 @@ function printUsage(): void {
   console.log(`
 Sync Translation Files
 
-Updates existing translation files with changes from originals.
-Preserves existing translations while syncing annotations and footnotes.
+Carries changes from content/_original into existing translation files,
+patching only the lines that change (no re-rendering: order, blank lines and
+line shapes stay as they are). Always synced:
+  - paragraphs new in the source (inserted as TODO stubs)
+  - the kind marker
+  - the embedded French copy, where its text differs from the source
+    (a missing heading copy is not a difference)
 
 Usage:
   npx ts-node --esm scripts/sync-translation.ts <carnet> [options]
@@ -107,18 +142,16 @@ Options:
   -l, --lang <code>   Target language code (default: cz)
   -n, --dry-run       Preview changes without writing files
   -v, --verbose       Show detailed output
+  --tags              Also add missing glossary tag lines / fix their paths
+  --notes             Also add RSR/LAN notes missing in the translation
+                      (trees such as en never carried LAN notes: this adds them all)
+  --notes-since DATE  Only notes stamped at/after DATE (carry a source fix's notes)
+  --footnotes         Also add footnotes absent from the translation
+  --all               --tags --notes --footnotes
   -h, --help          Show this help message
 
-What gets synced:
-  - RSR and LAN annotations (research/linguistic notes)
-  - Glossary links (paths updated if changed)
-  - Footnotes (definitions added, refs inserted at paragraph end)
-  - Metadata (location, entry-level glossary links)
-
-What is preserved:
-  - Existing translations (never overwritten)
-  - Translation-specific notes (TR, RED, CON, GEM)
-  - Already translated footnotes
+Never touched: visible translation text (except an appended footnote marker
+with --footnotes), TR/RED/CON/… notes, frontmatter, existing footnotes.
 
 Examples:
   # Sync Czech translations for carnet 001
@@ -215,6 +248,11 @@ async function main(): Promise<void> {
   // Create sync options
   const syncOptions: SyncOptions = {
     ...createDefaultSyncOptions(),
+    syncRoles: cliOptions.notes ? createDefaultSyncOptions().syncRoles : [],
+    notesSince: cliOptions.notesSince,
+    syncGlossaryLinks: cliOptions.tags,
+    syncFootnotes: cliOptions.footnotes,
+    syncMetadata: false,
     dryRun: cliOptions.dryRun,
     verbose: cliOptions.verbose,
   };

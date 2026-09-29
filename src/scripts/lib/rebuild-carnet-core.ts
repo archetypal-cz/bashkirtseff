@@ -19,6 +19,23 @@ import * as path from 'node:path';
 import { renderSourceComment } from '../../shared/src/renderer/paragraph-renderer.ts';
 import { localizeGlossaryPath } from '../../shared/src/utils/glossary-path.ts';
 import { localizeLinksInText } from '../../shared/src/utils/sync.ts';
+import {
+  ID_LINE_RE,
+  HEADING_RE,
+  FOOTNOTE_DEF_RE,
+  FOOTNOTE_CONT_RE,
+  parseEntryText,
+  textLineIdx,
+  frenchLineIdx,
+  embeddedFrenchIdx,
+  normFrench,
+  type Cluster,
+  type ParsedFile,
+} from '../../shared/src/utils/entry-lines.ts';
+
+const LEGACY_ID_LINE_RE = /^\[\/\/\]: # \(\s*(\d{2,3})\.(\d+)\s*\)\s*$/;
+
+export { ID_LINE_RE, parseEntryText, embeddedFrenchIdx, normFrench, type Cluster, type ParsedFile };
 import { TODO_PLACEHOLDER } from '../../shared/src/utils/scaffold.ts';
 import { PARAGRAPH_KINDS, KIND_LINE_PATTERN, KIND_CONTENT_PATTERN, UNTIMESTAMPED_ROLE_NOTE_PATTERN, EMBEDDED_ROLE_NOTE_PATTERN, formatKindMarker, type ParagraphKind } from '../../shared/src/parser/patterns.ts';
 
@@ -85,26 +102,6 @@ export interface Plan {
 
 // --- parsed files ------------------------------------------------------------
 
-export interface Cluster {
-  /** Old paragraph ID; null only for the body of an ID-less file */
-  id: string;
-  /** Raw lines: the ID line and everything up to the next ID line. The first
-   *  cluster of a file also carries the lines between frontmatter and its ID. */
-  lines: string[];
-  /** Old file it came from */
-  origin: string;
-}
-
-export interface ParsedFile {
-  name: string;
-  /** Frontmatter lines including both `---` delimiters, or null */
-  fm: string[] | null;
-  clusters: Cluster[];
-  /** Body lines of a file with no paragraph ID (empty_in_source entries) */
-  idlessBody: string[] | null;
-  eofNewline: boolean;
-}
-
 export interface CarnetTree {
   lang: string;
   dir: string;
@@ -113,12 +110,6 @@ export interface CarnetTree {
   /** Non-entry files (README.md …) — only ref rewrites apply */
   otherFiles: string[];
 }
-
-export const ID_LINE_RE = /^\s*%%\s*(\d{3}\.\d{4})\s*%%\s*$/;
-const LEGACY_ID_LINE_RE = /^\[\/\/\]: # \(\s*(\d{2,3})\.(\d+)\s*\)\s*$/;
-const HEADING_RE = /^#{1,6}\s+\S/;
-const FOOTNOTE_DEF_RE = /^\s*\[\^([^\]]+)\]:/;
-const FOOTNOTE_CONT_RE = /^[ \t]+\S/;
 
 /** Trees a carnet may live in, in processing order. `_original` is the reference. */
 export const TREES = ['_original', 'cz', 'uk', 'en', 'fr', 'es'];
@@ -157,43 +148,6 @@ export function entryOrder(a: string, b: string): number {
   const ca = x.endsWith('-cover'), cb = y.endsWith('-cover');
   if (ca !== cb) return ca ? -1 : 1;
   return x < y ? -1 : x > y ? 1 : 0;
-}
-
-export function parseEntryText(name: string, text: string): ParsedFile {
-  const lines = text.split('\n');
-  const eofNewline = text.endsWith('\n');
-  if (eofNewline) lines.pop();
-
-  let fm: string[] | null = null;
-  let bodyStart = 0;
-  if (lines[0]?.trim() === '---') {
-    for (let i = 1; i < lines.length; i++) {
-      if (lines[i].trim() === '---') {
-        fm = lines.slice(0, i + 1);
-        bodyStart = i + 1;
-        break;
-      }
-    }
-  }
-
-  const clusters: Cluster[] = [];
-  let pending: string[] = [];
-  for (let i = bodyStart; i < lines.length; i++) {
-    const m = lines[i].match(ID_LINE_RE);
-    if (m) {
-      if (clusters.length === 0) {
-        clusters.push({ id: m[1], lines: [...pending, lines[i]], origin: name });
-        pending = [];
-      } else {
-        clusters.push({ id: m[1], lines: [lines[i]], origin: name });
-      }
-    } else if (clusters.length === 0) {
-      pending.push(lines[i]);
-    } else {
-      clusters[clusters.length - 1].lines.push(lines[i]);
-    }
-  }
-  return { name, fm, clusters, idlessBody: clusters.length === 0 ? pending : null, eofNewline };
 }
 
 export function loadTree(contentRoot: string, lang: string, carnet: string): CarnetTree | null {
@@ -734,20 +688,6 @@ function oldIdLists(original: CarnetTree): Map<string, string> {
 }
 
 /** Visible French text lines of an _original cluster (not ID, comment, heading, footnote or blank). */
-function textLineIdx(lines: string[]): number[] {
-  const idx: number[] = [];
-  let inDef = false;
-  lines.forEach((l, i) => {
-    const t = l.trim();
-    if (FOOTNOTE_DEF_RE.test(l)) { inDef = true; return; }
-    if (inDef && FOOTNOTE_CONT_RE.test(l)) return;
-    inDef = false;
-    if (!t || t.startsWith('%%') || t.startsWith('[//]:') || ID_LINE_RE.test(l) || HEADING_RE.test(t)) return;
-    idx.push(i);
-  });
-  return idx;
-}
-
 /** Is the first reader-visible line of the cluster a heading? */
 function hasLeadingHeading(lines: string[]): boolean {
   for (const l of lines) {
@@ -756,12 +696,6 @@ function hasLeadingHeading(lines: string[]): boolean {
     return HEADING_RE.test(t);
   }
   return false;
-}
-
-/** The French of an _original cluster: its text lines and its `#` heading lines, in order. */
-function frenchLineIdx(lines: string[]): number[] {
-  const text = new Set(textLineIdx(lines));
-  return lines.map((l, i) => i).filter((i) => text.has(i) || (HEADING_RE.test(lines[i].trim()) && !ID_LINE_RE.test(lines[i])));
 }
 
 function hasHeading(lines: string[]): boolean {
@@ -1328,38 +1262,6 @@ function setKindLine(lines: string[], marker: string): string[] {
 }
 
 /** Replace a paragraph's French text (splits). In translations: swap the embedded copy and leave an ED note. */
-/**
- * Embedded French lines of a translation cluster: whole-line `%% … %%` comments that
- * are not the ID, a tag line, a kind marker, a version, a `[//]` line or a role note
- * (timestamped or not). Heading copies count (`%% Jeudi 18 octobre 1883 %%`).
- */
-export function embeddedFrenchIdx(lines: string[]): number[] {
-  const out: number[] = [];
-  lines.forEach((l, i) => {
-    const m = l.trim().match(/^%%\s*(.*?)\s*%%$/);
-    if (!m || m[1].includes('%%') || !m[1]) return;
-    const b = m[1];
-    if (/^\d{3}\.\d{4}$/.test(b) || b.startsWith('[#') || b.startsWith('[//]') || /^v\d/.test(b)) return;
-    if (/^\d{4}-\d{2}-\d{2}/.test(b) || UNTIMESTAMPED_ROLE_NOTE_PATTERN.test(b) || EMBEDDED_ROLE_NOTE_PATTERN.test(b) || KIND_CONTENT_PATTERN.test(b)) return;
-    out.push(i);
-  });
-  return out;
-}
-
-/** French compared loosely: no markers, `#`, `> `, footnote refs, typographic quotes, case or spacing. */
-export function normFrench(s: string): string {
-  return s
-    .replace(/%%/g, ' ')
-    .replace(/^\s*#+\s*/gm, '')
-    .replace(/^\s*>\s?/gm, '')
-    .replace(/\[\^[^\]]+\]/g, '')
-    .replace(/[’‘ʼ]/g, "'")
-    .replace(/[“”«»]/g, '"')
-    .replace(/\s+/g, ' ')
-    .trim()
-    .toLowerCase();
-}
-
 function applySetFrench(lines: string[], oldId: string, newId: string, french: string, isOrig: boolean, original: CarnetTree, ts: string, label: string, lang: string, warnings: string[], errors: string[]): string[] {
   const out = [...lines];
   const newLines = french.split('\n').map((l) => l.trimEnd()).filter((l) => l.trim());

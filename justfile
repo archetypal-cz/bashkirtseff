@@ -377,7 +377,7 @@ docx-verify *ARGS:
 extract-czech *ARGS:
     bash src/scripts/extract_czech_text.sh {{ARGS}}
 
-# Sync RSR/LAN annotations from _original/ to a translation language for a carnet (use --dry-run to preview)
+# Carry _original changes into a translation carnet, patching only changed lines: new paragraphs (TODO stubs), kind markers, embedded French that differs. Opt-in: --tags, --notes, --notes-since DATE, --footnotes, --all. --dry-run to preview; then `just sync-verify`
 sync carnet lang=default_lang *FLAGS:
     npx tsx src/scripts/sync-translation.ts {{carnet}} --lang {{lang}} {{FLAGS}}
 
@@ -521,7 +521,11 @@ sync-verify carnet lang:
     #!/usr/bin/env bash
     dir="content/{{lang}}/{{carnet}}"
     [ -d "$dir" ] || { echo "No such directory: $dir"; exit 1; }
-    visible() { awk 'NR==1 && /^---$/ {fm=1; next} fm && /^---$/ {fm=0; next} !fm' | grep -v '^%%' | grep -v '^\[' | grep -v '^$' | sort; }
+    # visible lines: frontmatter, %% lines, the inside of multi-line %% blocks (fr), [ lines and blanks dropped
+    visible() { awk 'NR==1 && /^---$/ {fm=1; next} fm && /^---$/ {fm=0; next} fm {next}
+        blk { if (index($0, "%%")) blk=0; next }
+        /^%%/ { if (gsub(/%%/, "%%") == 1) blk=1; next }
+        /^\[/ || /^$/ {next} {print}' | sort; }
     rc=0
     for f in "$dir"/[0-9]*.md; do
         git cat-file -e HEAD:"$f" 2>/dev/null || { echo "NEW (not in HEAD): $f"; continue; }

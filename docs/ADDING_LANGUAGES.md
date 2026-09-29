@@ -224,7 +224,7 @@ Body per paragraph: `%% NNN.PPPP %%`, glossary tags, RSR/LAN comments, verbatim 
 ```bash
 just scaffold 001 -l es --dry-run   # preview: files, TODO paragraph counts, no writes
 just scaffold 001 -l es             # create content/es/001/*.md (TODO_PLACEHOLDER bodies)
-just sync 001 es                    # re-copy RSR/LAN after _original changes (tree must exist)
+just sync 001 es                    # carry _original changes: new paragraphs, kind, embedded French (--tags/--notes/--footnotes opt-in)
 just verify-carnet es 001           # IDs, %% balance, frontmatter (exits 2 if dir missing)
 just check-comments es              # comment structure (tree NAME, not a path)
 just check-links es 001             # relative .md links resolve
