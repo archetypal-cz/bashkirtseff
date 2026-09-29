@@ -1374,7 +1374,7 @@ When translating, refer to this document for established translations of recurri
 ### intriguer (qqn) — masked-ball / social sense
 - Translation (Czech): poplést / zaujmout / zmást — NIKDY „intrikovat"
 - Context: French "intriguer qqn" here = to intrigue/mystify/pique someone's curiosity (esp. mystifying someone behind a mask at a ball), NOT to scheme. Czech neologism "intrikovat" carries the OPPOSITE sense (kout pikle) and is a genuine semantic error (false friend).
-- First appearance: recurs across 074–079 (e.g. 077/1878-01-27, 078.0338/0341/0469, 079/1878-03-24)
+- First appearance: recurs across 074–079 (e.g. 077/1878-01-27, 078.0352/0341/0469, 079/1878-03-24)
 - Notes: Locked by CON during the 077–079 wave. Keep the genuine scheme-sense words distinct: "pletichy" / "intriky" for actual schemes (the wordplay contrast in 079/1878-03-24 is intentional). STILL UNFIXED in committed 075/1877-10-20 — pending a 074–077 propagation pass.
 
 ### Breslau (Louise-Catherine Breslau)
@@ -1393,7 +1393,7 @@ When translating, refer to this document for established translations of recurri
 - Translation (Czech): Švýcarky (neutral, wave default)
 - Context: Marie's female Swiss circle at the atelier.
 - First appearance: 077–079
-- Notes: Diminutive-pejorative „Švýcarkaček" used only where contempt is contextually motivated (e.g. 078.0090); not the default.
+- Notes: Diminutive-pejorative „Švýcarkaček" used only where contempt is contextually motivated (e.g. 078.0124); not the default.
 
 ## Carnet 080–082 Terms (Cassagnac flirtation peak & collapse, 1878)
 
@@ -1425,7 +1425,7 @@ When translating, refer to this document for established translations of recurri
 - Translation (Czech): mystify → poplést/zaujmout/zmást; scheme → pletichy/intriky
 - Context: 080-082 use intriguer in BOTH the masked-ball/social mystify sense AND the genuine scheme sense.
 - First appearance: throughout 080–082
-- Notes: See the 077–079 lock — NEVER „intrikovat" for the mystify sense. Genuine scheme-sense IS legitimate: „intrigues de sa belle-mère" (082/08-19) → intriky; „tripotages politiques" (082/09-28) → politické pletichy. Marie's affectionate self-description „tripoteur" (080.0016) = meddler/over-analyzer („vrtáček/hnidopich") — do NOT flatten with the political scheming sense.
+- Notes: See the 077–079 lock — NEVER „intrikovat" for the mystify sense. Genuine scheme-sense IS legitimate: „intrigues de sa belle-mère" (082/08-19) → intriky; „tripotages politiques" (082/09-28) → politické pletichy. Marie's affectionate self-description „tripoteur" (080.0007) = meddler/over-analyzer („vrtáček/hnidopich") — do NOT flatten with the political scheming sense.
 
 ## Carnet 088 Terms (Soutzo courtship arc, Paris, April–June 1880)
 
