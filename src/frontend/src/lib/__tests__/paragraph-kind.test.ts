@@ -306,9 +306,10 @@ describe("a run's language in its label", () => {
     expect(entry.paragraphs[1].kindBodyHtml).toContain('href="#fn-12"');
     expect(entry.paragraphs[1].kindBodyHtml).toContain('href="#fn-99"');
     expect(entry.paragraphs[1].footnoteRefs).toEqual(['12', '99']);
-    expect(entry.footnotes.map(f => f.id)).toEqual(['12', '13', '99']);
+    // listed in order of first reference
+    expect(entry.footnotes.map(f => f.id)).toEqual(['12', '99', '13']);
     expect(entry.footnotes[0].text).toBe('Pozn. překl.: popis 12');
-    expect(entry.footnotes[1].text).toBe('Pozn. překl.: popis 13');
+    expect(entry.footnotes[2].text).toBe('Pozn. překl.: popis 13');
   });
 
   it('takes the language from the source tags when the translation has none', () => {

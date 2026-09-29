@@ -38,6 +38,7 @@ import {
   findKind, inlineNoteLanguages, isQuotedKind, kindBodyHtml, kindKey, kindLabelInnerHtml, kindLabelText, kindRuns,
   languageNoteRest, noteLanguage, parseKindLine, stripLanguageNotes, stripQuoteMarkers, wrapKindHtml, type ParagraphKind,
 } from './paragraph-kind';
+import { numberFootnotes } from './footnote-numbers';
 import { normalizeDrawings, type EntryDrawing } from './drawings';
 import { applyTypography, typographyLocaleFor } from './typography';
 import { createT, contentPathToLocale } from '../i18n/astro';
@@ -102,6 +103,7 @@ export interface KindRunInfo {
 export interface Footnote {
   id: string;          // e.g., "1"
   text: string;        // The footnote content
+  label?: string;      // Shown number: 1, 2, … in order of first reference (lib/footnote-numbers.ts)
 }
 
 export interface CarnetInfo {
@@ -503,6 +505,8 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
     return total + clean.split(/\s+/).filter(w => w.length > 0).length;
   }, 0);
 
+  const numbered = numberFootnotes(paragraphs, footnotes);
+
   return {
     id: entryId,
     carnet: carnetId,
@@ -510,8 +514,8 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
     date,
     title: title.replace(/^#\s*/, ''),
     content,
-    paragraphs,
-    footnotes,
+    paragraphs: numbered.paragraphs,
+    footnotes: numbered.footnotes,
     isSection,
     wordCount,
     people,
@@ -1823,6 +1827,9 @@ export function getCarnet000Merged(language: string = 'original'): DiaryEntry | 
     }
   }
 
+  // One page: its notes are numbered across all the sections.
+  const numbered = numberFootnotes(allParagraphs, allFootnotes);
+
   return {
     id: 'preface',
     carnet: '000',
@@ -1830,8 +1837,8 @@ export function getCarnet000Merged(language: string = 'original'): DiaryEntry | 
     date: null,
     title,
     content: '',
-    paragraphs: allParagraphs,
-    footnotes: allFootnotes,
+    paragraphs: numbered.paragraphs,
+    footnotes: numbered.footnotes,
     isSection: true,
     wordCount,
   };

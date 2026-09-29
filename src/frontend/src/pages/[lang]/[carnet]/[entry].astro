@@ -312,7 +312,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
             id={`fn-${fn.id}`}
             class="footnote-item"
             data-fn={fn.id}
-            data-fn-label={fn.id.split('.').pop()}
+            data-fn-label={fn.label ?? fn.id.split('.').pop()}
           >
             <span set:html={fn.text} />
             <a href={`#fnref-${fn.id}`} class="footnote-backref" title={t('diary.backToText')}>&#x21A9;</a>
