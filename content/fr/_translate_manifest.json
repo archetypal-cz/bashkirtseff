@@ -12604,7 +12604,7 @@
   "081": [
     {
       "file": "1878-06-24.md",
-      "para_id": "081.0021",
+      "para_id": "081.0023",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: LATIN: \"quaerens quem devoret\" - \"seeking whom to devour\" (1 Peter 5:8, describing devil) %%",
       "fr_file": "content/fr/081/1878-06-24.md",
@@ -12613,7 +12613,7 @@
     },
     {
       "file": "1878-06-30.md",
-      "para_id": "081.0114",
+      "para_id": "081.0115",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ENGLISH: \"common-place\" - Marie uses English for emphasis %%",
       "fr_file": "content/fr/081/1878-06-30.md",
@@ -12622,7 +12622,7 @@
     },
     {
       "file": "1878-07-15.md",
-      "para_id": "081.0357",
+      "para_id": "081.0407",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T15:00:00 LAN: ENGLISH: \"chic\" - borrowed from French but Marie uses it as society slang for elegant/fashionable %%",
       "fr_file": "content/fr/081/1878-07-15.md",
@@ -12631,7 +12631,7 @@
     },
     {
       "file": "1878-07-21.md",
-      "para_id": "081.0387",
+      "para_id": "081.0450",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:25:00 LAN: ITALIAN allusion: \"Multedo\" plays on Italian troubadour tradition %%",
       "fr_file": "content/fr/081/1878-07-21.md",
@@ -12640,7 +12640,7 @@
     },
     {
       "file": "1878-07-22.md",
-      "para_id": "081.0395",
+      "para_id": "081.0459",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ITALIAN: \"Paese che vuoi, essi che trovi\" - When in Rome, do as the Romans do %%",
       "fr_file": "content/fr/081/1878-07-22.md",
@@ -12649,7 +12649,7 @@
     },
     {
       "file": "1878-07-23.md",
-      "para_id": "081.0397",
+      "para_id": "081.0460",
       "language": "LATIN",
       "lan_context": "%% 2026-02-03T10:30:00 LAN: LATIN: \"in extenso\" - in full/completely (legal/scholarly term) %%",
       "fr_file": "content/fr/081/1878-07-23.md",
@@ -12658,7 +12658,7 @@
     },
     {
       "file": "1878-08-03.md",
-      "para_id": "081.0449",
+      "para_id": "081.0538",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T11:15:00 LAN: \"groom\" - ENGLISH: young male servant %%",
       "fr_file": "content/fr/081/1878-08-03.md",
@@ -12667,7 +12667,7 @@
     },
     {
       "file": "1878-08-08.md",
-      "para_id": "081.0499",
+      "para_id": "081.DROPPED-0499",
       "language": "LATIN",
       "lan_context": "%% 2026-02-03T11:40:00 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory (Marie's title for Book 82) %%",
       "fr_file": "content/fr/081/1878-08-08.md",
@@ -12678,7 +12678,7 @@
   "082": [
     {
       "file": "1878-08-17.md",
-      "para_id": "082.0100",
+      "para_id": "082.DROPPED-0100",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: LATIN: \"Gloriae Cupiditas\" - Desire for Glory, Latin epigraph for new volume %%",
       "fr_file": "content/fr/082/1878-08-17.md",
@@ -12687,7 +12687,7 @@
     },
     {
       "file": "1878-08-18.md",
-      "para_id": "082.0106",
+      "para_id": "082.0140",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: ENGLISH: \"home\" - Marie uses English word, suggesting foreignness of concept %%",
       "fr_file": "content/fr/082/1878-08-18.md",
@@ -12696,7 +12696,7 @@
     },
     {
       "file": "1878-08-31.md",
-      "para_id": "082.0190",
+      "para_id": "082.0219",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T10:00:00 LAN: \"kitchen\" - ENGLISH: Marie uses English word for servants' quarters %%",
       "fr_file": "content/fr/082/1878-08-31.md",
@@ -12705,7 +12705,7 @@
     },
     {
       "file": "1878-09-02.md",
-      "para_id": "082.0207",
+      "para_id": "082.0261",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T10:00:00 LAN: \"dessiatines\" - RUSSIAN: desyatina, Russian land measure (~2.7 acres) %%",
       "fr_file": "content/fr/082/1878-09-02.md",
@@ -12714,7 +12714,7 @@
     },
     {
       "file": "1878-09-21.md",
-      "para_id": "082.0357",
+      "para_id": "082.0421",
       "language": "LATIN",
       "lan_context": "%% 2026-02-03T10:00:00 LAN: \"pullaire\" - LATIN: pullarius, Roman augur who reads omens from chickens %%",
       "fr_file": "content/fr/082/1878-09-21.md",
@@ -12723,7 +12723,7 @@
     },
     {
       "file": "1878-10-04.md",
-      "para_id": "082.0439",
+      "para_id": "082.0494",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-03T10:00:00 LAN: \"Moussia\" - RUSSIAN: diminutive nickname for Marie %%",
       "fr_file": "content/fr/082/1878-10-04.md",
@@ -12732,7 +12732,7 @@
     },
     {
       "file": "1878-10-04.md",
-      "para_id": "082.0443",
+      "para_id": "082.0498",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:00:00 LAN: ITALIAN: Rossi performs in Italian, showing Marie's comprehension %%",
       "fr_file": "content/fr/082/1878-10-04.md",
@@ -12743,7 +12743,7 @@
   "083": [
     {
       "file": "1878-10-17.md",
-      "para_id": "083.0002",
+      "para_id": "083.DROPPED-0002",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: LATIN: \"Gloriae Cupiditas\" - Latin phrase meaning \"Desire for Glory\" - Marie's epigraph for this volume reflecting her artistic ambitions %%",
       "fr_file": "content/fr/083/1878-10-17.md",
@@ -12752,7 +12752,7 @@
     },
     {
       "file": "1878-10-25.md",
-      "para_id": "083.0034",
+      "para_id": "083.0029",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: \"Moussia\" - RUSSIAN: Marie's family nickname/diminutive %%",
       "fr_file": "content/fr/083/1878-10-25.md",
@@ -12761,7 +12761,7 @@
     },
     {
       "file": "1879-01-05.md",
-      "para_id": "083.0368",
+      "para_id": "083.0548",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ITALIAN: \"la luce della vita\" - the light of life; gospel divination result %%",
       "fr_file": "content/fr/083/1879-01-05.md",
@@ -12772,7 +12772,7 @@
   "084": [
     {
       "file": "1879-01-29.md",
-      "para_id": "084.0080",
+      "para_id": "084.0133",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T14:30:00 LAN: \"La campagna\" - ITALIAN: the Roman Campagna, countryside around Rome famous for ruins %%",
       "fr_file": "content/fr/084/1879-01-29.md",
@@ -12781,7 +12781,7 @@
     },
     {
       "file": "1879-02-05.md",
-      "para_id": "084.0104",
+      "para_id": "084.0172",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T14:30:00 LAN: ITALIAN: \"crescendo\" - musical term used metaphorically for voice modulation %%",
       "fr_file": "content/fr/084/1879-02-05.md",
@@ -12790,7 +12790,7 @@
     },
     {
       "file": "1879-02-23.md",
-      "para_id": "084.0209",
+      "para_id": "084.0284",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-02-02T14:30:00 LAN: SPELLING/CODE-SWITCH: \"the théâtre\" - \"the\" in English mixed with French %%",
       "fr_file": "content/fr/084/1879-02-23.md",
@@ -12799,7 +12799,7 @@
     },
     {
       "file": "1879-02-24.md",
-      "para_id": "084.0219",
+      "para_id": "084.0294",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T14:30:00 LAN: ITALIAN: \"La Traviata\" - Verdi opera; \"The Fallen Woman\" %%",
       "fr_file": "content/fr/084/1879-02-24.md",
@@ -12808,7 +12808,7 @@
     },
     {
       "file": "1879-03-05.md",
-      "para_id": "084.0293",
+      "para_id": "084.0405",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T09:07:55 LAN: LATIN: \"inde ira\" - hence the anger (learned/ironic register) %%",
       "fr_file": "content/fr/084/1879-03-05.md",
@@ -12817,7 +12817,7 @@
     },
     {
       "file": "1879-03-05.md",
-      "para_id": "084.0302",
+      "para_id": "084.0414",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T09:08:17 LAN: ENGLISH: \"To be or not to be\" - Shakespeare's Hamlet, dramatic self-questioning %%",
       "fr_file": "content/fr/084/1879-03-05.md",
@@ -12826,7 +12826,7 @@
     },
     {
       "file": "1879-04-07.md",
-      "para_id": "084.0510",
+      "para_id": "084.0628",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T09:08:18 LAN: \"tandem\" - ENGLISH: tandem carriage (two horses harnessed one behind other) %%",
       "fr_file": "content/fr/084/1879-04-07.md",
@@ -12835,7 +12835,7 @@
     },
     {
       "file": "1879-04-25.md",
-      "para_id": "084.0632",
+      "para_id": "084.0730",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T10:07:05 LAN: ENGLISH: \"bed\" - Marie code-switches to English for \"ball\" (bal). Fashionable anglicism %%",
       "fr_file": "content/fr/084/1879-04-25.md",
@@ -12846,7 +12846,7 @@
   "085": [
     {
       "file": "1879-05-17.md",
-      "para_id": "085.0078",
+      "para_id": "085.0088",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ITALIAN: \"patito\" - Italian: admirer, suitor, devotee (used ironically) %%",
       "fr_file": "content/fr/085/1879-05-17.md",
@@ -12855,7 +12855,7 @@
     },
     {
       "file": "1879-05-29.md",
-      "para_id": "085.0156",
+      "para_id": "085.0198",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: ENGLISH: \"chaperon\" - English borrowing: chaperone (older woman accompanying young girl) %%",
       "fr_file": "content/fr/085/1879-05-29.md",
@@ -12864,7 +12864,7 @@
     },
     {
       "file": "1879-07-26.md",
-      "para_id": "085.0415",
+      "para_id": "085.0584",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: \"Vulgo\" - LATIN: commonly known as, alias %%",
       "fr_file": "content/fr/085/1879-07-26.md",
@@ -12875,7 +12875,7 @@
   "086": [
     {
       "file": "1879-08-07.md",
-      "para_id": "086.0007",
+      "para_id": "086.0008",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T13:00:00 LAN: \"mezzo voce\" - ITALIAN: half-voice, softly singing %%",
       "fr_file": "content/fr/086/1879-08-07.md",
@@ -12884,7 +12884,7 @@
     },
     {
       "file": "1879-08-18.md",
-      "para_id": "086.0097",
+      "para_id": "086.0095",
       "language": "LATIN",
       "lan_context": "%% 2026-02-03T10:26:00 LAN: \"Nulla dies sine linea\" - LATIN: no day without a line; artist's motto (attributed to Apelles) %%",
       "fr_file": "content/fr/086/1879-08-18.md",
@@ -12893,7 +12893,7 @@
     },
     {
       "file": "1879-08-18.md",
-      "para_id": "086.0099",
+      "para_id": "086.0098",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-03T10:26:00 LAN: \"iettatore\" - ITALIAN: one who casts the evil eye; brings bad luck %%",
       "fr_file": "content/fr/086/1879-08-18.md",
@@ -12902,7 +12902,7 @@
     },
     {
       "file": "1879-08-19.md",
-      "para_id": "086.0103",
+      "para_id": "086.0102",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T14:00:00 LAN: ENGLISH: \"vers anglais\" - English verses, anonymous admirer's poem %%",
       "fr_file": "content/fr/086/1879-08-19.md",
@@ -12911,7 +12911,7 @@
     },
     {
       "file": "1879-08-23.md",
-      "para_id": "086.0129",
+      "para_id": "086.0128",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T09:05:00 LAN: \"les plus chic\" - the most elegant; ENGLISH BORROWING used in French %%",
       "fr_file": "content/fr/086/1879-08-23.md",
@@ -12920,7 +12920,7 @@
     },
     {
       "file": "1879-08-29.md",
-      "para_id": "086.0159",
+      "para_id": "086.0158",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-03T09:20:00 LAN: \"break\" - ENGLISH: open carriage; four-wheeled horse-drawn vehicle %%",
       "fr_file": "content/fr/086/1879-08-29.md",
@@ -12931,7 +12931,7 @@
   "087": [
     {
       "file": "1879-12-23.md",
-      "para_id": "087.0008",
+      "para_id": "087.0009",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-09T13:00:00 LAN: \"skating\" - ENGLISH: ice-skating rink; Marie uses English term for the venue %%",
       "fr_file": "content/fr/087/1879-12-23.md",
@@ -12940,7 +12940,7 @@
     },
     {
       "file": "1879-12-24.md",
-      "para_id": "087.0013",
+      "para_id": "087.0014",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-09T13:00:00 LAN: ENGLISH: \"lunch\" - Marie uses English word for light meal/snack %%",
       "fr_file": "content/fr/087/1879-12-24.md",
@@ -12949,7 +12949,7 @@
     },
     {
       "file": "1879-12-28.md",
-      "para_id": "087.0078",
+      "para_id": "087.0079",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-09T13:00:00 LAN: ENGLISH: \"gentleman farmer\" - Marie uses English term for a landowner who farms for pleasure rather than necessity %%",
       "fr_file": "content/fr/087/1879-12-28.md",
@@ -12958,7 +12958,7 @@
     },
     {
       "file": "1880-01-12.md",
-      "para_id": "087.0194",
+      "para_id": "087.0195",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-09T13:00:00 LAN: ENGLISH: \"flirter\" - to flirt; borrowed English word, naturalized into French %%",
       "fr_file": "content/fr/087/1880-01-12.md",
@@ -12967,7 +12967,7 @@
     },
     {
       "file": "1880-01-13.md",
-      "para_id": "087.0210",
+      "para_id": "087.0211",
       "language": "LATIN",
       "lan_context": "%% 2026-02-09T13:00:00 LAN: LATIN: \"Vanitas! Cupiditas gloriae!\" - Vanity! Desire for glory! Marie's mock-classical self-reproach %%",
       "fr_file": "content/fr/087/1880-01-13.md",
@@ -12976,7 +12976,7 @@
     },
     {
       "file": "1880-03-22.md",
-      "para_id": "087.0679",
+      "para_id": "087.0680",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-09T13:00:00 LAN: ENGLISH: \"to be or not to be\" - Shakespeare quotation in English in the original %%",
       "fr_file": "content/fr/087/1880-03-22.md",
@@ -12985,7 +12985,7 @@
     },
     {
       "file": "1880-04-16.md",
-      "para_id": "087.0860",
+      "para_id": "087.0861",
       "language": "LATIN",
       "lan_context": "%% 2026-02-09T13:00:00 LAN: LATIN: \"non sufficit\" - does not suffice; Marie's code-switching to Latin for ironic effect %%",
       "fr_file": "content/fr/087/1880-04-16.md",
@@ -12996,7 +12996,7 @@
   "088": [
     {
       "file": "1880-05-26.md",
-      "para_id": "088.0383",
+      "para_id": "088.0386",
       "language": "LATIN",
       "lan_context": "%% 2026-02-09T14:00:00 LAN: LATIN: \"ubi\" - where; Marie drops a Latin word casually %%",
       "fr_file": "content/fr/088/1880-05-26.md",
@@ -13005,7 +13005,7 @@
     },
     {
       "file": "1880-06-01.md",
-      "para_id": "088.0473",
+      "para_id": "088.0476",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-09T14:00:00 LAN: RUSSIAN: \"aux bêtes\" - card game \"beasts\" (Russian: \"v duraka\"); favorite card game of Russian servants %%",
       "fr_file": "content/fr/088/1880-06-01.md",
@@ -13014,7 +13014,7 @@
     },
     {
       "file": "1880-06-13.md",
-      "para_id": "088.0754",
+      "para_id": "088.0757",
       "language": "LATIN",
       "lan_context": "%% 2026-02-09T14:00:00 LAN: LATIN: \"in extremis\" - at the last moment/in desperation; Marie's secret letters to Cassagnac, never disclosed even to Julian %%",
       "fr_file": "content/fr/088/1880-06-13.md",
@@ -13025,7 +13025,7 @@
   "089": [
     {
       "file": "1880-06-29.md",
-      "para_id": "089.0055",
+      "para_id": "089.0056",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-09T15:00:00 LAN: ENGLISH: \"That is the question\" - Marie switches to English, Shakespeare reference (Hamlet) %%",
       "fr_file": "content/fr/089/1880-06-29.md",
@@ -13034,7 +13034,7 @@
     },
     {
       "file": "1880-07-06.md",
-      "para_id": "089.0103",
+      "para_id": "089.0104",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-09T15:00:00 LAN: ENGLISH: \"high life\" - high society; Marie uses the English term for fashionable society %%",
       "fr_file": "content/fr/089/1880-07-06.md",
@@ -13043,7 +13043,7 @@
     },
     {
       "file": "1880-07-10.md",
-      "para_id": "089.0126",
+      "para_id": "089.0127",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-09T15:00:00 LAN: ENGLISH: \"stick\" - walking stick/cane; Marie uses English term %%",
       "fr_file": "content/fr/089/1880-07-10.md",
@@ -13052,7 +13052,7 @@
     },
     {
       "file": "1880-07-13.md",
-      "para_id": "089.0140",
+      "para_id": "089.0141",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-09T15:00:00 LAN: ENGLISH: \"waterproof\" - raincoat; Marie uses the English word %%",
       "fr_file": "content/fr/089/1880-07-13.md",
@@ -13061,7 +13061,7 @@
     },
     {
       "file": "1880-08-17.md",
-      "para_id": "089.0348",
+      "para_id": "089.0349",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-09T15:00:00 LAN: ITALIAN: \"fleurs de langage\" - flowers of language; Italian-style elaborate courteous expressions that Marie finds charming %%",
       "fr_file": "content/fr/089/1880-08-17.md",

@@ -1387,56 +1387,56 @@ They need AI translation into French.
 - **080/1878-05-04.md** para 080.0006 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's motto) %%
 - **080/1878-05-21.md** para 080.0289 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "terrarum dea gentiumque Roma" - "Rome, goddess of lands and peoples" (Martial) %%
 - **080/1878-06-17.md** para 080.0736 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Ci rivedrem signore!" - "We'll meet again, sir!" - Marie's Italian code-switching %%
-- **081/1878-06-24.md** para 081.0021 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "quaerens quem devoret" - "seeking whom to devour" (1 Peter 5:8, describing devil) %%
-- **081/1878-06-30.md** para 081.0114 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "common-place" - Marie uses English for emphasis %%
-- **081/1878-07-15.md** para 081.0357 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "chic" - borrowed from French but Marie uses it as society slang for elegant/fashionable %%
-- **081/1878-07-21.md** para 081.0387 [ITALIAN]: %% 2026-02-03T10:25:00 LAN: ITALIAN allusion: "Multedo" plays on Italian troubadour tradition %%
-- **081/1878-07-22.md** para 081.0395 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Paese che vuoi, essi che trovi" - When in Rome, do as the Romans do %%
-- **081/1878-07-23.md** para 081.0397 [LATIN]: %% 2026-02-03T10:30:00 LAN: LATIN: "in extenso" - in full/completely (legal/scholarly term) %%
-- **081/1878-08-03.md** para 081.0449 [ENGLISH]: %% 2026-02-03T11:15:00 LAN: "groom" - ENGLISH: young male servant %%
-- **081/1878-08-08.md** para 081.0499 [LATIN]: %% 2026-02-03T11:40:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's title for Book 82) %%
-- **082/1878-08-17.md** para 082.0100 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory, Latin epigraph for new volume %%
-- **082/1878-08-18.md** para 082.0106 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "home" - Marie uses English word, suggesting foreignness of concept %%
-- **082/1878-08-31.md** para 082.0190 [ENGLISH]: %% 2026-02-03T10:00:00 LAN: "kitchen" - ENGLISH: Marie uses English word for servants' quarters %%
-- **082/1878-09-02.md** para 082.0207 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "dessiatines" - RUSSIAN: desyatina, Russian land measure (~2.7 acres) %%
-- **082/1878-09-21.md** para 082.0357 [LATIN]: %% 2026-02-03T10:00:00 LAN: "pullaire" - LATIN: pullarius, Roman augur who reads omens from chickens %%
-- **082/1878-10-04.md** para 082.0439 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "Moussia" - RUSSIAN: diminutive nickname for Marie %%
-- **082/1878-10-04.md** para 082.0443 [ITALIAN]: %% 2026-02-03T10:00:00 LAN: ITALIAN: Rossi performs in Italian, showing Marie's comprehension %%
-- **083/1878-10-17.md** para 083.0002 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Latin phrase meaning "Desire for Glory" - Marie's epigraph for this volume reflecting her artistic ambitions %%
-- **083/1878-10-25.md** para 083.0034 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "Moussia" - RUSSIAN: Marie's family nickname/diminutive %%
-- **083/1879-01-05.md** para 083.0368 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "la luce della vita" - the light of life; gospel divination result %%
-- **084/1879-01-29.md** para 084.0080 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: "La campagna" - ITALIAN: the Roman Campagna, countryside around Rome famous for ruins %%
-- **084/1879-02-05.md** para 084.0104 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "crescendo" - musical term used metaphorically for voice modulation %%
-- **084/1879-02-23.md** para 084.0209 [CODE-SWITCH]: %% 2026-02-02T14:30:00 LAN: SPELLING/CODE-SWITCH: "the théâtre" - "the" in English mixed with French %%
-- **084/1879-02-24.md** para 084.0219 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "La Traviata" - Verdi opera; "The Fallen Woman" %%
-- **084/1879-03-05.md** para 084.0293 [LATIN]: %% 2026-02-02T09:07:55 LAN: LATIN: "inde ira" - hence the anger (learned/ironic register) %%
-- **084/1879-03-05.md** para 084.0302 [ENGLISH]: %% 2026-02-02T09:08:17 LAN: ENGLISH: "To be or not to be" - Shakespeare's Hamlet, dramatic self-questioning %%
-- **084/1879-04-07.md** para 084.0510 [ENGLISH]: %% 2026-02-02T09:08:18 LAN: "tandem" - ENGLISH: tandem carriage (two horses harnessed one behind other) %%
-- **084/1879-04-25.md** para 084.0632 [ENGLISH]: %% 2026-02-03T10:07:05 LAN: ENGLISH: "bed" - Marie code-switches to English for "ball" (bal). Fashionable anglicism %%
-- **085/1879-05-17.md** para 085.0078 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "patito" - Italian: admirer, suitor, devotee (used ironically) %%
-- **085/1879-05-29.md** para 085.0156 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "chaperon" - English borrowing: chaperone (older woman accompanying young girl) %%
-- **085/1879-07-26.md** para 085.0415 [LATIN]: %% 2026-02-02T13:00:00 LAN: "Vulgo" - LATIN: commonly known as, alias %%
-- **086/1879-08-07.md** para 086.0007 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: "mezzo voce" - ITALIAN: half-voice, softly singing %%
-- **086/1879-08-18.md** para 086.0097 [LATIN]: %% 2026-02-03T10:26:00 LAN: "Nulla dies sine linea" - LATIN: no day without a line; artist's motto (attributed to Apelles) %%
-- **086/1879-08-18.md** para 086.0099 [ITALIAN]: %% 2026-02-03T10:26:00 LAN: "iettatore" - ITALIAN: one who casts the evil eye; brings bad luck %%
-- **086/1879-08-19.md** para 086.0103 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "vers anglais" - English verses, anonymous admirer's poem %%
-- **086/1879-08-23.md** para 086.0129 [ENGLISH]: %% 2026-02-03T09:05:00 LAN: "les plus chic" - the most elegant; ENGLISH BORROWING used in French %%
-- **086/1879-08-29.md** para 086.0159 [ENGLISH]: %% 2026-02-03T09:20:00 LAN: "break" - ENGLISH: open carriage; four-wheeled horse-drawn vehicle %%
-- **087/1879-12-23.md** para 087.0008 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: "skating" - ENGLISH: ice-skating rink; Marie uses English term for the venue %%
-- **087/1879-12-24.md** para 087.0013 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "lunch" - Marie uses English word for light meal/snack %%
-- **087/1879-12-28.md** para 087.0078 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "gentleman farmer" - Marie uses English term for a landowner who farms for pleasure rather than necessity %%
-- **087/1880-01-12.md** para 087.0194 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "flirter" - to flirt; borrowed English word, naturalized into French %%
-- **087/1880-01-13.md** para 087.0210 [LATIN]: %% 2026-02-09T13:00:00 LAN: LATIN: "Vanitas! Cupiditas gloriae!" - Vanity! Desire for glory! Marie's mock-classical self-reproach %%
-- **087/1880-03-22.md** para 087.0679 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "to be or not to be" - Shakespeare quotation in English in the original %%
-- **087/1880-04-16.md** para 087.0860 [LATIN]: %% 2026-02-09T13:00:00 LAN: LATIN: "non sufficit" - does not suffice; Marie's code-switching to Latin for ironic effect %%
-- **088/1880-05-26.md** para 088.0383 [LATIN]: %% 2026-02-09T14:00:00 LAN: LATIN: "ubi" - where; Marie drops a Latin word casually %%
-- **088/1880-06-01.md** para 088.0473 [RUSSIAN]: %% 2026-02-09T14:00:00 LAN: RUSSIAN: "aux bêtes" - card game "beasts" (Russian: "v duraka"); favorite card game of Russian servants %%
-- **088/1880-06-13.md** para 088.0754 [LATIN]: %% 2026-02-09T14:00:00 LAN: LATIN: "in extremis" - at the last moment/in desperation; Marie's secret letters to Cassagnac, never disclosed even to Julian %%
-- **089/1880-06-29.md** para 089.0055 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "That is the question" - Marie switches to English, Shakespeare reference (Hamlet) %%
-- **089/1880-07-06.md** para 089.0103 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "high life" - high society; Marie uses the English term for fashionable society %%
-- **089/1880-07-10.md** para 089.0126 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "stick" - walking stick/cane; Marie uses English term %%
-- **089/1880-07-13.md** para 089.0140 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "waterproof" - raincoat; Marie uses the English word %%
-- **089/1880-08-17.md** para 089.0348 [ITALIAN]: %% 2026-02-09T15:00:00 LAN: ITALIAN: "fleurs de langage" - flowers of language; Italian-style elaborate courteous expressions that Marie finds charming %%
+- **081/1878-06-24.md** para 081.0023 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "quaerens quem devoret" - "seeking whom to devour" (1 Peter 5:8, describing devil) %%
+- **081/1878-06-30.md** para 081.0115 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "common-place" - Marie uses English for emphasis %%
+- **081/1878-07-15.md** para 081.0407 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "chic" - borrowed from French but Marie uses it as society slang for elegant/fashionable %%
+- **081/1878-07-21.md** para 081.0450 [ITALIAN]: %% 2026-02-03T10:25:00 LAN: ITALIAN allusion: "Multedo" plays on Italian troubadour tradition %%
+- **081/1878-07-22.md** para 081.0459 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Paese che vuoi, essi che trovi" - When in Rome, do as the Romans do %%
+- **081/1878-07-23.md** para 081.0460 [LATIN]: %% 2026-02-03T10:30:00 LAN: LATIN: "in extenso" - in full/completely (legal/scholarly term) %%
+- **081/1878-08-03.md** para 081.0538 [ENGLISH]: %% 2026-02-03T11:15:00 LAN: "groom" - ENGLISH: young male servant %%
+- **081/1878-08-08.md** para 081.DROPPED-0499 [LATIN]: %% 2026-02-03T11:40:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's title for Book 82) %%
+- **082/1878-08-17.md** para 082.DROPPED-0100 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory, Latin epigraph for new volume %%
+- **082/1878-08-18.md** para 082.0140 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "home" - Marie uses English word, suggesting foreignness of concept %%
+- **082/1878-08-31.md** para 082.0219 [ENGLISH]: %% 2026-02-03T10:00:00 LAN: "kitchen" - ENGLISH: Marie uses English word for servants' quarters %%
+- **082/1878-09-02.md** para 082.0261 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "dessiatines" - RUSSIAN: desyatina, Russian land measure (~2.7 acres) %%
+- **082/1878-09-21.md** para 082.0421 [LATIN]: %% 2026-02-03T10:00:00 LAN: "pullaire" - LATIN: pullarius, Roman augur who reads omens from chickens %%
+- **082/1878-10-04.md** para 082.0494 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "Moussia" - RUSSIAN: diminutive nickname for Marie %%
+- **082/1878-10-04.md** para 082.0498 [ITALIAN]: %% 2026-02-03T10:00:00 LAN: ITALIAN: Rossi performs in Italian, showing Marie's comprehension %%
+- **083/1878-10-17.md** para 083.DROPPED-0002 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Latin phrase meaning "Desire for Glory" - Marie's epigraph for this volume reflecting her artistic ambitions %%
+- **083/1878-10-25.md** para 083.0029 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "Moussia" - RUSSIAN: Marie's family nickname/diminutive %%
+- **083/1879-01-05.md** para 083.0548 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "la luce della vita" - the light of life; gospel divination result %%
+- **084/1879-01-29.md** para 084.0133 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: "La campagna" - ITALIAN: the Roman Campagna, countryside around Rome famous for ruins %%
+- **084/1879-02-05.md** para 084.0172 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "crescendo" - musical term used metaphorically for voice modulation %%
+- **084/1879-02-23.md** para 084.0284 [CODE-SWITCH]: %% 2026-02-02T14:30:00 LAN: SPELLING/CODE-SWITCH: "the théâtre" - "the" in English mixed with French %%
+- **084/1879-02-24.md** para 084.0294 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "La Traviata" - Verdi opera; "The Fallen Woman" %%
+- **084/1879-03-05.md** para 084.0405 [LATIN]: %% 2026-02-02T09:07:55 LAN: LATIN: "inde ira" - hence the anger (learned/ironic register) %%
+- **084/1879-03-05.md** para 084.0414 [ENGLISH]: %% 2026-02-02T09:08:17 LAN: ENGLISH: "To be or not to be" - Shakespeare's Hamlet, dramatic self-questioning %%
+- **084/1879-04-07.md** para 084.0628 [ENGLISH]: %% 2026-02-02T09:08:18 LAN: "tandem" - ENGLISH: tandem carriage (two horses harnessed one behind other) %%
+- **084/1879-04-25.md** para 084.0730 [ENGLISH]: %% 2026-02-03T10:07:05 LAN: ENGLISH: "bed" - Marie code-switches to English for "ball" (bal). Fashionable anglicism %%
+- **085/1879-05-17.md** para 085.0088 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "patito" - Italian: admirer, suitor, devotee (used ironically) %%
+- **085/1879-05-29.md** para 085.0198 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "chaperon" - English borrowing: chaperone (older woman accompanying young girl) %%
+- **085/1879-07-26.md** para 085.0584 [LATIN]: %% 2026-02-02T13:00:00 LAN: "Vulgo" - LATIN: commonly known as, alias %%
+- **086/1879-08-07.md** para 086.0008 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: "mezzo voce" - ITALIAN: half-voice, softly singing %%
+- **086/1879-08-18.md** para 086.0095 [LATIN]: %% 2026-02-03T10:26:00 LAN: "Nulla dies sine linea" - LATIN: no day without a line; artist's motto (attributed to Apelles) %%
+- **086/1879-08-18.md** para 086.0098 [ITALIAN]: %% 2026-02-03T10:26:00 LAN: "iettatore" - ITALIAN: one who casts the evil eye; brings bad luck %%
+- **086/1879-08-19.md** para 086.0102 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "vers anglais" - English verses, anonymous admirer's poem %%
+- **086/1879-08-23.md** para 086.0128 [ENGLISH]: %% 2026-02-03T09:05:00 LAN: "les plus chic" - the most elegant; ENGLISH BORROWING used in French %%
+- **086/1879-08-29.md** para 086.0158 [ENGLISH]: %% 2026-02-03T09:20:00 LAN: "break" - ENGLISH: open carriage; four-wheeled horse-drawn vehicle %%
+- **087/1879-12-23.md** para 087.0009 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: "skating" - ENGLISH: ice-skating rink; Marie uses English term for the venue %%
+- **087/1879-12-24.md** para 087.0014 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "lunch" - Marie uses English word for light meal/snack %%
+- **087/1879-12-28.md** para 087.0079 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "gentleman farmer" - Marie uses English term for a landowner who farms for pleasure rather than necessity %%
+- **087/1880-01-12.md** para 087.0195 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "flirter" - to flirt; borrowed English word, naturalized into French %%
+- **087/1880-01-13.md** para 087.0211 [LATIN]: %% 2026-02-09T13:00:00 LAN: LATIN: "Vanitas! Cupiditas gloriae!" - Vanity! Desire for glory! Marie's mock-classical self-reproach %%
+- **087/1880-03-22.md** para 087.0680 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "to be or not to be" - Shakespeare quotation in English in the original %%
+- **087/1880-04-16.md** para 087.0861 [LATIN]: %% 2026-02-09T13:00:00 LAN: LATIN: "non sufficit" - does not suffice; Marie's code-switching to Latin for ironic effect %%
+- **088/1880-05-26.md** para 088.0386 [LATIN]: %% 2026-02-09T14:00:00 LAN: LATIN: "ubi" - where; Marie drops a Latin word casually %%
+- **088/1880-06-01.md** para 088.0476 [RUSSIAN]: %% 2026-02-09T14:00:00 LAN: RUSSIAN: "aux bêtes" - card game "beasts" (Russian: "v duraka"); favorite card game of Russian servants %%
+- **088/1880-06-13.md** para 088.0757 [LATIN]: %% 2026-02-09T14:00:00 LAN: LATIN: "in extremis" - at the last moment/in desperation; Marie's secret letters to Cassagnac, never disclosed even to Julian %%
+- **089/1880-06-29.md** para 089.0056 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "That is the question" - Marie switches to English, Shakespeare reference (Hamlet) %%
+- **089/1880-07-06.md** para 089.0104 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "high life" - high society; Marie uses the English term for fashionable society %%
+- **089/1880-07-10.md** para 089.0127 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "stick" - walking stick/cane; Marie uses English term %%
+- **089/1880-07-13.md** para 089.0141 [ENGLISH]: %% 2026-02-09T15:00:00 LAN: ENGLISH: "waterproof" - raincoat; Marie uses the English word %%
+- **089/1880-08-17.md** para 089.0349 [ITALIAN]: %% 2026-02-09T15:00:00 LAN: ITALIAN: "fleurs de langage" - flowers of language; Italian-style elaborate courteous expressions that Marie finds charming %%
 - **090/1880-10-03.md** para 090.0001 [ITALIAN]: %% 2026-02-02T13:30:00 LAN: ITALIAN cultural reference: Rigoletto - Verdi's opera (1851), popular in Parisian salons %%
 - **090/1880-11-25.md** para 090.0267 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Unae irae" - one wrath/anger (Marie's classical allusion, possibly misremembered) %%
 - **090/1880-12-16.md** para 090.0384 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN: "Consilium" - medical consultation/council %%
