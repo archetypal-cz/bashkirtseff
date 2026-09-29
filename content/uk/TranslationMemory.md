@@ -1732,8 +1732,8 @@ Established terminology for consistent translation across carnets.
 
 ### Carnet 063 Multilingual Conventions
 - "Caccia-Club" — Italian club name; keep as-is (no translation)
-- "Gloriae cupiditate" (para 063.0500) — Latin "desire for glory"; keep in Latin with ==highlight== + footnote
-- "[His] Grace [the] D[uke] of H[amilton]" (para 063.0500) — abbreviated English; keep abbreviation with ==highlight== and footnote explaining full form
+- "Gloriae cupiditate" (para 063.DROPPED-0500) — Latin "desire for glory"; keep in Latin with ==highlight== + footnote
+- "[His] Grace [the] D[uke] of H[amilton]" (para 063.DROPPED-0500) — abbreviated English; keep abbreviation with ==highlight== and footnote explaining full form
 - "[mots rayés]" / "[deux mots rayés]" — manuscript crossed-out words: render as "[слова закреслено]" / "[два слова закреслено]"
 - Manuscript "Pietro*" asterisk — Marie's own code-marker; always preserve
 - "Santa Fé" — Marie's pseudonym for herself in Pietro correspondence; keep in Spanish (established carnet 062)
