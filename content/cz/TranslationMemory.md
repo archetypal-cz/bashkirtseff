@@ -917,7 +917,7 @@ When translating, refer to this document for established translations of recurri
 - Translation (Czech): ==Dubium, illusio, deceptio, oppressio== / ==Gloriae Cupiditate== (highlighted, footnoted)
 - Context: Marie's Latin motto closing carnet 070; "Doubt, illusion, deception, oppression / Through desire for glory"; bitter self-assessment of the Larderei affair
 - First appearance: 070 (1877-04-25); also appeared in 069 (1877-04-02) in same formula
-- Notes: Per foreign-passage convention: ==highlight== + Pozn. překl. footnote; same treatment as 069.DROPPED-0650–069.DROPPED-0651. Two-part motto split across two paragraphs as in original.
+- Notes: Per foreign-passage convention: ==highlight== + Pozn. překl. footnote; same treatment as the two-part foreign-passage motto in carnet 069 (paragraphs since dropped in the rebuild). Two-part motto split across two paragraphs as in original.
 
 ### bonne aventure (omen-reading habit)
 - Translation (Czech): věštění
