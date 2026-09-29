@@ -1401,7 +1401,7 @@ When translating, refer to this document for established translations of recurri
 - Translation (Czech): nebožtík Cassagnac / Zesnulý
 - Context: After the Cassagnac–Acard marriage announcement (081/06-28 on), Marie treats Cassagnac as metaphorically DEAD and writes a sustained mock-obituary conceit.
 - First appearance: 081 (1878-06-28); continues through 082
-- Notes: Render the death-conceit consistently — „nebožtík Cassagnac" / „Zesnulý" / „zesnulý". In 081/06-23 it is only a FUTURE idea („Bude třeba napsat parte…"), NOT realized mourning — don't anticipate. The mock faire-part (081.0064) keeps grave-formal funeral register.
+- Notes: Render the death-conceit consistently — „nebožtík Cassagnac" / „Zesnulý" / „zesnulý". In 081/06-23 it is only a FUTURE idea („Bude třeba napsat parte…"), NOT realized mourning — don't anticipate. The mock faire-part (081.0066) keeps grave-formal funeral register.
 
 ### terre-neuve (as Cassagnac epithet)
 - Translation (Czech): novofundlanďan
@@ -1431,7 +1431,7 @@ When translating, refer to this document for established translations of recurri
 
 ### Gabriel Géry / Gabriel (recurring romantic interest)
 - Translation (Czech): Gabriel Géry / bare „Gabriel" — keep as in source, masculine agreement, fully declined (gen. „Gabriela", dat. „Gabrielovi", o „Gabrielovi")
-- Context: Marie's fresh romantic interest in 1880 (088.0008 salutes twice at the Bois; 088.0422–0423 „Gabriel est adorable… Gabriel est distingué"). Recurs across the 089/090/091 arc — lock ONE form now.
+- Context: Marie's fresh romantic interest in 1880 (088.0009 salutes twice at the Bois; 088.0425–0423 „Gabriel est adorable… Gabriel est distingué"). Recurs across the 089/090/091 arc — lock ONE form now.
 - First appearance: 088 (1880-04-25)
 - Notes: DISTINGUISH father from son — surname „Géry" with the accent. The FATHER is „Géry père" → „starý Géry" (affectionate „père" for an older man, cf. „père Gavini"; NOT literal father-of-Marie). The MOTHER is „Madame Géry" → „paní Géryová". The SON Gabriel is the suitor. Marie's contemptuous „l'ignoble Gabriel" → „hnusný Gabriel". Keep the acute on „Géry" in Czech.
 
@@ -1443,13 +1443,13 @@ When translating, refer to this document for established translations of recurri
 
 ### porte-veine (lucky-pig charm)
 - Translation (Czech): talisman pro štěstí / prasátko
-- Context: Parisian fashion craze of spring 1880 — miniature pig figurines as good-luck charms; Marie gives one to Soutzo at his departure (088.0823–0824).
+- Context: Parisian fashion craze of spring 1880 — miniature pig figurines as good-luck charms; Marie gives one to Soutzo at his departure (088.0826–0824).
 - First appearance: 088 (1880-06-18)
 - Notes: Marie spells it „porte-veines"; the standard form is „porte-veine". No footnote needed; rendered descriptively.
 
 ### magnétiser (mesmerism)
 - Translation (Czech): zmagnetizovat / magnetismus (v pohledu)
-- Context: Popular 1880s mesmerism, used by Soutzo as a romantic pretext (088.0669).
+- Context: Popular 1880s mesmerism, used by Soutzo as a romantic pretext (088.0672).
 - First appearance: 088 (1880-06-08)
 
 ### le Défunt (Cassagnac death-conceit) — carnet 088
@@ -1558,7 +1558,7 @@ When translating, refer to this document for established translations of recurri
 ### citoyen Joseph / Putiphar / Petit Phare (code-names for Arnaud de l'Ariège)
 - Translation (Czech): občan Josef / Putifar / Maják
 - First appearance: 085
-- Notes: Marie's code names. The Putiphar/Petit Phare ("Maják") wordplay is footnoted (085.0463); keep the pun's gloss.
+- Notes: Marie's code names. The Putiphar/Petit Phare ("Maják") wordplay is footnoted (085.0632); keep the pun's gloss.
 
 ### Plonplon (Prince Napoléon-Jérôme nickname)
 - Translation (Czech): Plonplon (kept)
@@ -1604,7 +1604,7 @@ When translating, refer to this document for established translations of recurri
 
 ### uličnická postavička (= "polisson de physique", Blanc's running self-joke)
 - Translation (Czech): uličnická postavička
-- First appearance: 086.0069
+- First appearance: 086.0068
 - Notes: Recurring self-deprecating joke; keep consistent on recurrence.
 
 ### Hecht / "le juif" / "Joseph" (collision)
@@ -1646,7 +1646,7 @@ When translating, refer to this document for established translations of recurri
 
 ### en-cas (Marie's coinage, "backup husband")
 - Translation (Czech): záloha
-- First appearance: 089.0552
+- First appearance: 089.0553
 - Notes: Marie's wry coinage for a fallback marriage prospect.
 
 ### Saint Mathieu (her painting)
@@ -1658,7 +1658,7 @@ When translating, refer to this document for established translations of recurri
 
 ### séparé(e) → odloučeně / žít odděleně, NOT "rozvedený"
 - Context: Divorce was re-legalised in France only in 1884 (and rare in Tsarist Russia); when Marie says a couple is "séparé" she means living apart, NOT legally divorced.
-- First flagged: 089 (recurs 089.0143, 0217)
+- First flagged: 089 (recurs 089.0144, 0217)
 - Notes: Anachronism trap across the whole 1873–1884 span — never "rozvedený/rozvod" for séparé/séparation.
 
 ### folle que je suis → já bláhová, NOT "bláznice, co jsem" / "blázen, co jsem"
@@ -1668,11 +1668,11 @@ When translating, refer to this document for established translations of recurri
 
 ### manie → posedlost / manýra (per sense), NOT "mánie"
 - Context: "manie" = obsession/compulsion OR an affectation; pick by sense. "manie" (mania) ≠ the medical "mánie".
-- First flagged: 089.0418/0423
+- First flagged: 089.0419/0423
 - Notes: False friend.
 
 ### 1st-person gender/person agreement (Marie = narrator)
-- Context: French gender-neutral participles and "on" repeatedly got masculine or 3pl Czech forms when Marie herself is the subject (e.g. 089.0274/0390/0544: mysleli→myslela, zaměněn→zaměněna, rád→ráda).
+- Context: French gender-neutral participles and "on" repeatedly got masculine or 3pl Czech forms when Marie herself is the subject (e.g. 089.0275/0390/0544: mysleli→myslela, zaměněn→zaměněna, rád→ráda).
 - Notes: RECURRING CRITICAL class — RED/CON should grep masculine past-tense / "rád" / 3pl forms in 1st-person contexts and verify against the French subject. Marie is feminine singular.
 
 ### grand-duc / grande-duchesse → velkokníže / velkokněžna (Russian imperial) vs. velkovévoda / velkovévodkyně (Western sovereign)
