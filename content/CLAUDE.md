@@ -90,6 +90,8 @@ Format: `%% XXX.YYYY %%`
 
 Kinds: `clipping`, `letter` (both quoted with `> `), `rayé`, `margin`, `cover` (text on the notebook's cover or front pages, in the carnet's cover entry `<first-entry-date>-cover.md`, which sorts before the first dated entry), `editorial` (the editors' bracketed notes on the physical manuscript), `other`. Words struck inside a paragraph stay inline as `[Rayé: …]`. Drawings from the scans are listed in the entry's frontmatter under `drawings:` (images in `src/frontend/public/images/marie/drawings/<carnet>/`). Full convention: `docs/REBUILD_CARNET.md`, "Paragraph kinds" and "Drawings".
 
+Passages Marie wrote in Russian (the printed edition gives the editor's French translation between ★ and *) are marked `==passage==[^CCC.NNNN.rK]` with the footnote «Written in Russian in the manuscript; French translation by the editor.», localized in each tree (cz `Pozn. překl.: V originále rusky; do francouzštiny přeložil vydavatel.`, uk `В оригіналі російською; французький переклад видавця.`, fr `En russe dans le manuscrit ; traduction française de l'éditeur.`). Extent comes from the tome docx (★ opens, * closes). Never keep ★ in text (owner ruling 2026-09-29).
+
 ## Carnet rebuild / renumbering
 
 IDs are stable: every tree, reader reports, footnote labels, glossary citations and URLs point at them. **No agent renumbers IDs by hand**, and a structural fix that seems to need a shifted ID is reported to the lead.
