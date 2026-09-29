@@ -511,6 +511,7 @@
     "reportIssue": "Повідомити про проблему",
     "chooseReason": "Оберіть тип проблеми...",
     "selectedText": "Виділений текст",
+    "submitShortcut": "або натисніть {keys}",
     "reasons": {
       "bad_translation": "Поганий переклад",
       "unnatural": "Неприродне формулювання",

@@ -502,6 +502,7 @@
     "reportIssue": "Signaler un problème",
     "chooseReason": "Sélectionnez le type de problème...",
     "selectedText": "Texte sélectionné",
+    "submitShortcut": "ou appuyez sur {keys}",
     "reasons": {
       "bad_translation": "Mauvaise traduction",
       "unnatural": "Formulation peu naturelle",

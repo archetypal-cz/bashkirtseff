@@ -511,6 +511,7 @@
     "reportIssue": "Nahlásit problém",
     "chooseReason": "Vyberte typ problému...",
     "selectedText": "Vybraný text",
+    "submitShortcut": "nebo stiskněte {keys}",
     "reasons": {
       "bad_translation": "Špatný překlad",
       "unnatural": "Nepřirozená formulace",

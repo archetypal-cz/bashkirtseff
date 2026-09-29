@@ -5,6 +5,7 @@ import { useAuthStore } from '../../stores/auth';
 import { useDialog } from '../../composables/useDialog';
 import { submitReport } from '../../lib/reports';
 import { trackEvent } from '../../lib/analytics';
+import { isApplePlatform, isSubmitShortcut, submitShortcutLabel } from '../../lib/submit-shortcut';
 import type { ReportReason } from '../../lib/reports';
 
 const { t } = useI18n();
@@ -28,6 +29,8 @@ const highlightedText = ref('');
 const submitting = ref(false);
 const submitted = ref(false);
 const error = ref('');
+// Set on mount: navigator is client-only
+const apple = ref(false);
 
 const reasons: ReportReason[] = [
   'bad_translation',
@@ -109,12 +112,20 @@ async function submit() {
   }
 }
 
+/** Ctrl+Enter (Cmd+Enter on macOS) in the textarea submits; Enter alone is a newline */
+function onTextKeydown(e: KeyboardEvent) {
+  if (!isSubmitShortcut(e, apple.value)) return;
+  e.preventDefault();
+  if (!submitting.value) submit();
+}
+
 function onBackdropClick() {
   close();
 }
 
 onMounted(() => {
   mounted.value = true;
+  apple.value = isApplePlatform(navigator);
 });
 
 defineExpose({ open });
@@ -184,6 +195,8 @@ defineExpose({ open });
                 :placeholder="textPlaceholder"
                 rows="3"
                 maxlength="1000"
+                :aria-describedby="`report-shortcut-${paragraphId}`"
+                @keydown="onTextKeydown"
               />
             </div>
 
@@ -198,6 +211,9 @@ defineExpose({ open });
             >
               {{ submitting ? t('common.loading') : t('report.submit') }}
             </button>
+            <p v-if="selectedReason" :id="`report-shortcut-${paragraphId}`" class="report-shortcut">
+              {{ t('report.submitShortcut', { keys: submitShortcutLabel(apple) }) }}
+            </p>
           </div>
         </div>
       </div>
@@ -426,6 +442,13 @@ defineExpose({ open });
 .report-btn--submit:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.report-shortcut {
+  margin-top: 0.375rem;
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--text-muted, #5C5650);
 }
 
 .report-btn--done {
