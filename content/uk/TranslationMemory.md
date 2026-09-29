@@ -840,7 +840,7 @@ Established terminology for consistent translation across carnets.
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Audiffret (Émile d') | Одіффре / Терффідуа | Young man in Nice society; full name Émile d'Audiffret |
-| Constantin | Констянтен | Young man Marie debates pursuing at opera Dec 1874 |
+| Constantin | Константен | Young man Marie debates pursuing at opera Dec 1874 |
 | Merjeewsky | Мержевський | Polish count (established earlier); farewell scene in Dec 1874 |
 | Decrais | Декре | Nice prefect who threatened Bashkirtseff family with expulsion |
 | Michelazzi | Мікелацці | Latin tutor fired for theft of lesson tokens |
