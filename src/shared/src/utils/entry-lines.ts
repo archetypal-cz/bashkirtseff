@@ -82,11 +82,14 @@ export function serializeEntry(pf: ParsedFile): string {
   return lines.join('\n') + (pf.eofNewline ? '\n' : '');
 }
 
-/** Reader-visible text lines of a cluster (no comments, headings, IDs, footnote definitions) */
+/** Reader-visible text lines of a cluster (no comments — multi-line blocks included — headings, IDs, footnote definitions) */
 export function textLineIdx(lines: string[]): number[] {
   const idx: number[] = [];
+  const inBlock = new Set<number>();
+  for (const [s, e] of multiLineBlocks(lines)) for (let i = s; i <= e; i++) inBlock.add(i);
   let inDef = false;
   lines.forEach((l, i) => {
+    if (inBlock.has(i)) return;
     const t = l.trim();
     if (FOOTNOTE_DEF_RE.test(l)) { inDef = true; return; }
     if (inDef && FOOTNOTE_CONT_RE.test(l)) return;
@@ -138,6 +141,21 @@ export function multiLineBlocks(lines: string[]): [number, number][] {
     i = j;
   }
   return out;
+}
+
+/**
+ * Every line of a translation cluster's embedded French: embeddedFrenchIdx plus
+ * the lines of multi-line `%%` blocks that are not notes or tags (the fr tree
+ * keeps some embedded copies that way). Sorted.
+ */
+export function embeddedFrenchAllIdx(lines: string[]): number[] {
+  const idx = new Set(embeddedFrenchIdx(lines));
+  for (const [s, e] of multiLineBlocks(lines)) {
+    const head = lines[s].trim().replace(/^%%\s*/, '');
+    if (/^\d{4}-\d{2}-\d{2}/.test(head) || UNTIMESTAMPED_ROLE_NOTE_PATTERN.test(head) || head.startsWith('[#')) continue;
+    for (let i = s; i <= e; i++) idx.add(i);
+  }
+  return [...idx].sort((a, b) => a - b);
 }
 
 /** French compared loosely: no markers, `#`, `> `, footnote refs, typographic quotes, case or spacing. */

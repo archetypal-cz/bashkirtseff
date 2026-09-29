@@ -802,3 +802,30 @@ test('IDs cited in a new paragraph\'s RSR text are renumbered like every other r
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('set_french on a fr cluster that holds its French as a multi-line %% block', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'bashk-rebuild-frb-'));
+  const w = (rel: string, text: string) => {
+    fs.mkdirSync(path.dirname(path.join(root, rel)), { recursive: true });
+    fs.writeFileSync(path.join(root, rel), text);
+  };
+  try {
+    w('content/_original/038/1875-08-04.md', ['---', 'date: 1875-08-04', 'carnet: "038"', 'para_start: 1', 'para_end: 1', '---',
+      '%% 038.0001 %%', '# Mercredi 4 août 1875', 'La plus grande des trois Graces', 'Se trouve dans cent disgraces.', ''].join('\n'));
+    w('content/fr/038/1875-08-04.md', ['---', 'date: 1875-08-04', 'carnet: "038"', 'edition_complete: false', '---', '',
+      '%% 038.0001 %%', '%% Mercredi 4 août 1875 %%', '%% La plus grande des trois Graces', 'Se trouve dans cent disgraces. %%',
+      '%% 2026-01-01T10:00:00 LAN: a note', 'on two lines %%', ''].join('\n'));
+    const plan: Plan = { carnet: '038', entries: [{ file: '1875-08-04.md', date: '1875-08-04', paragraphs: [
+      { old: '038.0001', set_french: '# Mercredi 4 août 1875\n> La plus grande des trois Grâces\n> Se trouve dans cent disgrâces.' }] }] };
+    const planPath = path.join(root, 'plan.json');
+    fs.writeFileSync(planPath, JSON.stringify(plan));
+    const wr = run(root, '038', planPath, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    const f = read(root, 'content/fr/038/1875-08-04.md');
+    assert.match(f, /%% 038\.0001 %%\n%% Mercredi 4 août 1875 %%\n%% > La plus grande des trois Grâces %%\n%% > Se trouve dans cent disgrâces\. %%\n%% 2026-01-01T10:00:00 LAN: a note\non two lines %%/);
+    assert.doesNotMatch(f, /Graces\n/);
+    assert.doesNotMatch(f, /SOURCE CHANGED/, 'a fr scaffold renders nothing that could need trimming');
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});

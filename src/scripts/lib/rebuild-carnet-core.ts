@@ -28,6 +28,7 @@ import {
   textLineIdx,
   frenchLineIdx,
   embeddedFrenchIdx,
+  embeddedFrenchAllIdx,
   normFrench,
   type Cluster,
   type ParsedFile,
@@ -1337,12 +1338,8 @@ function applySetFrench(lines: string[], oldId: string, newId: string, french: s
   // embedded without their `#`, stale copies may sit beside the current one); the
   // new copy takes the place of the first. Never append next to a stale copy.
   const newEmbed = renderSourceComment(newLines.join('\n'));
-  const blocks = out.filter((l) => /^\s*%%/.test(l) && !/^\s*%%.*%%\s*$/.test(l));
-  if (blocks.length) {
-    errors.push(`${lang} ${oldId}→${newId}: set_french on a cluster with a multi-line %% block — replace its embedded French by hand before the rebuild`);
-    return out;
-  }
-  const embed = embeddedFrenchIdx(out);
+  // a multi-line %% block holding the French (fr tree) is replaced by per-line copies
+  const embed = embeddedFrenchAllIdx(out);
   let how = 'embedded French replaced';
   if (embed.length) {
     for (const i of [...embed].reverse()) out.splice(i, 1);
@@ -1371,6 +1368,7 @@ function applySetFrench(lines: string[], oldId: string, newId: string, french: s
     out.splice(afterIdAndComments(out), 0, `%% ${ts} ED: ${label}: SOURCE CHANGED — only the heading marking of this paragraph's French changed (now: ${newLines.map((l) => `«${l.trim()}»`).join(' ')}); make the matching translated line a heading or a plain line to match. %%`);
     return out;
   }
+  if (!frenchLineIdx(out).length) return out; // nothing rendered yet (fr scaffold): nothing to trim
   const vis = afterIdAndComments(out);
   out.splice(vis, 0, `%% ${ts} ED: ${label}: SOURCE CHANGED — the French of this paragraph was cut/replaced (${how}); the translation below still renders the old text and must be trimmed to match. %%`);
   return out;

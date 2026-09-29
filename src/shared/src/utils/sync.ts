@@ -16,8 +16,7 @@ import {
   serializeEntry,
   frenchLineIdx,
   textLineIdx,
-  embeddedFrenchIdx,
-  multiLineBlocks,
+  embeddedFrenchAllIdx,
   ID_LINE_RE,
   HEADING_RE,
   FOOTNOTE_DEF_RE,
@@ -1082,14 +1081,7 @@ export function patchTranslation(
     if (options.syncFrench) {
       const srcFrench = frenchLineIdx(oc.lines).map((i) => oc.lines[i]);
       const srcBody = srcFrench.filter((l) => !HEADING_RE.test(l.trim()));
-      const embIdx = new Set(embeddedFrenchIdx(lines));
-      for (const [s, e] of multiLineBlocks(lines)) {
-        // a multi-line block that is not a note is an embedded copy (fr tree)
-        const head = lines[s].trim().replace(/^%%\s*/, '');
-        if (/^\d{4}-\d{2}-\d{2}/.test(head) || /^[A-Z]{2,4}:/.test(head) || head.startsWith('[#')) continue;
-        for (let i = s; i <= e; i++) embIdx.add(i);
-      }
-      const idx = [...embIdx].sort((a, b) => a - b);
+      const idx = embeddedFrenchAllIdx(lines);
       const cur = frenchKey(idx.map((i) => lines[i]));
       if (!srcFrench.length) {
         if (idx.length) warnings.push(`${oc.id}: the source paragraph has no French text but the translation embeds some; left as is`);
