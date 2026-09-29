@@ -1078,8 +1078,8 @@ They need AI translation into French.
 - **053/1876-01-25.md** para 053.0066 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpissima filia" - most shameful/ugly daughter/girl %%
 - **053/1876-01-26.md** para 053.0073 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "turpis rana" - ugly frog %%
 - **053/1876-01-26.md** para 053.0074 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Quaerens quem devoret" - "seeking whom he may devour" from 1 Peter 5:8, about the devil; Marie applies it to her rival %%
-- **053/1876-01-26.md** para 053.0082 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpissimus omnium homo" - most shameful/base of all men %%
-- **053/1876-01-26.md** para 053.0086 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Lombardi alla prima crociata" (I Lombardi) - Verdi opera (1843) about the First Crusade; Pagano is a character who becomes a hermit %%
+- **053/1876-01-26.md** para 053.0081 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Turpissimus omnium homo" - most shameful/base of all men %%
+- **053/1876-01-26.md** para 053.0085 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Lombardi alla prima crociata" (I Lombardi) - Verdi opera (1843) about the First Crusade; Pagano is a character who becomes a hermit %%
 - **053/1876-01-26.md** para 053.0090 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "courtship" - Marie code-switches to English for romantic term %%
 - **053/1876-01-26.md** para 053.0102 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "folle divengo di rabbia e di furor" - "I become mad with rage and fury" - aria from Mignon (Italian version) %%
 - **053/1876-01-26.md** para 053.0104 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "son felice, son rapita" - "I am happy, I am enraptured" - another aria phrase %%
@@ -1318,8 +1318,8 @@ They need AI translation into French.
 - **069/1877-03-14.md** para 069.0305 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "gettatura" - evil eye/curse; Neapolitan superstition %%
 - **069/1877-03-16.md** para 069.0314 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: NOTE: Lines 069.0315-069.0324 are dialogue in ITALIAN between Marie and her mandoline teacher; discussing Neapolitan nobility and Larderei %%
 - **069/1877-03-16.md** para 069.0318 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "ricevono come un buffone" - they receive him like a buffoon; tolerated for entertainment %%
-- **069/1877-03-29.md** para 069.0581 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "carrozello" - small hired carriage; cheap public transport %%
-- **069/1877-03-31.md** para 069.0634 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Villa-Reale" - ITALIAN: Royal Villa; public garden on Naples waterfront %%
+- **069/1877-03-29.md** para 069.0580 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "carrozello" - small hired carriage; cheap public transport %%
+- **069/1877-03-31.md** para 069.0633 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Villa-Reale" - ITALIAN: Royal Villa; public garden on Naples waterfront %%
 - **069/1877-04-02.md** para 069.DROPPED-0650 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, Deceptio Oppresio / Gloriae Cupiditate" - Doubt, illusion, Deception, Oppression / Desire for Glory; Marie's philosophical/mood notation %%
 - **070/1877-04-03.md** para 070.0001 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "lazzarone" - Neapolitan term for street person/beggar; often hired for odd jobs %%
 - **070/1877-04-04.md** para 070.0085 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Temp'era del principio del matino..." - Inferno I:37-40; "It was the hour of morning's beginning / and the Sun was rising with those stars / that were with him when Divine Love / first set those beautiful things in motion"; invokes creation at sunrise %%
@@ -1362,7 +1362,7 @@ They need AI translation into French.
 - **074/1877-09-03.md** para 074.0216 [ENGLISH]: %% 2026-02-09T12:00:00 LAN: ENGLISH: "gentleman-farmer" - English term used in French; a landowner who farms for pleasure rather than livelihood %%
 - **074/1877-09-05.md** para 074.0233 [ITALIAN]: %% 2026-02-09T12:00:00 LAN: ITALIAN: "sospesi" - the suspended ones; from Dante's Inferno, Limbo (Canto IV) where virtuous pagans dwell %%
 - **074/1877-09-09.md** para 074.0259 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "Nunquam anathemathis vinculis exuenda" - Never to be freed from the chains of anathema; ecclesiastical curse formula; Marie applies it to her own fate %%
-- **074/1877-09-10.md** para 074.0283 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "sed inutilis" - but useless; Marie's blunt assessment of social contacts who cannot help her ambitions %%
+- **074/1877-09-10.md** para 074.0282 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "sed inutilis" - but useless; Marie's blunt assessment of social contacts who cannot help her ambitions %%
 - **074/1877-09-13.md** para 074.0322 [ENGLISH]: %% 2026-02-09T12:00:00 LAN: ENGLISH: "Skating" - roller-skating rink; "des patins... a moi" - her own personal roller skates, a sign of status %%
 - **074/1877-09-17.md** para 074.0373 [LATIN]: %% 2026-02-09T12:00:00 LAN: LATIN: "Colonia Agrippina" - the Roman name for Cologne; Marie's classical erudition showing through %%
 - **075/1877-10-06.md** para 075.0176 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Sic transit gloria ducis" - Thus passes the glory of the duke; Marie's wordplay on "sic transit gloria mundi" %%
