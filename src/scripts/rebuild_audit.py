@@ -31,6 +31,18 @@ Categories (severity high / medium / low / info):
   editorial-not-in-source  a bracketed note the tome does not have («[Note de l'éd. : …]»)
   partial-in-source     _original line only partly found
   empty-no-stub, stub-with-text, stub-but-source-has-text, placeholder, empty-flag
+  accent-loss           a line equal to a docx paragraph modulo diacritics with fewer accents (accents only the docx has,
+                        in a form it spells that way elsewhere; lone stray OCR accents are info), or a whole line without
+                        an accent that carries several stripped forms (tres, deja, apres, etait…)
+  heading-suffix-lost   the printed date line has a suffix («- suite», «-Berlin», a Julian second date «(28 juin)»)
+                        that the heading lacks
+  date-line-in-body     the date line repeated as plain text under its heading (info when the tome repeats it too)
+  heading-multiple      several date heading lines in one paragraph
+
+Findings vs the rest: `info` rows (consequences of a kept slip, documented differences, OCR-garbled tome date lines, stray
+docx accents) are listed apart and not counted; heading-markup / date-primary-stale are counted apart as cosmetic; findings
+matching an entry of src/scripts/rebuild_audit_exceptions.yaml (reviewed: Marie's own, documented, owner default) are
+listed as «accepted». A documented difference = an RSR note in the paragraph (facsimile, typo corrected, page-cited printed form…).
 Output: JSON findings (.cache/rebuild-audit/rebuild-audit-<date>.json) and a markdown
 report (.claude/reports/rebuild-audit-<date>.md).
 """
@@ -44,6 +56,7 @@ import itertools
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent / 'rebuild-plan'))
@@ -68,7 +81,13 @@ RE_GARBLED_DATE = re.compile(r'^\s*\S{3,12}\s+[\dIl][\d .]{0,4}\s*(?:er\s*)?[a-z
 RE_WD_START = re.compile(r'^\s*(?:lundi|mardi|mercredi|jeudi|jeud|vendredi|samedi|dimanche)\b', re.I)
 RE_FNAME = re.compile(r'^(\d{4})-(\d{2})-(\d{2})(?:-(\d{2}))?(?:-(.+))?\.md$')
 # an RSR/KRR note on the paragraph that explains why its text differs from the tome docx
-RE_DOCUMENTED = re.compile(r'fac-?simil|transcri|not in tome|typo|coquille|misprint|correct|corrig|placeholder|illisible|from the scan|PDF p\.', re.I)
+RE_DOCUMENTED = re.compile(r'fac-?simil|transcri|not in tome|typo|coquille|misprint|correct|corrig|placeholder|illisible|from the scan|PDF p\.|OCR reads|print reads|printed reading', re.I)
+# an RSR note that documents a heading as it stands against the printed date line (a typo corrected, a slip kept)
+RE_HEADING_DOC = re.compile(r'HEADING (?:CORRECTED|KEPT|FIXED)|DATE SLIP|print(?:ed|s| reads)|typesetting|misprint|(?:Marie|she)\s+(?:mis-?)?writes?|(?:as |Marie )wrote|slip', re.I)
+RE_ORDER_DOC = re.compile(r'page swap|swap|inverted|out of order|transpos|facsimile|fac-simile|turned sideways|misplaced|misbound', re.I)
+RE_CITES_DOCX = re.compile(r'tome\d+\.docx ¶\d+|Mon Journal t\.\d+ p\.\d+')
+COSMETIC = ('heading-markup', 'date-primary-stale', 'para-range', 'date-entry-id')
+EXCEPTIONS = Path(__file__).resolve().parent / 'rebuild_audit_exceptions.yaml'
 N = 5  # shingle size for the tome index
 
 
@@ -97,6 +116,41 @@ def words(s: str) -> list[str]:
 
 def shingles(ws: list[str], n: int = N) -> list[str]:
     return [' '.join(ws[i:i + n]) for i in range(len(ws) - n + 1)]
+
+
+_MONS = {norm(MONTH_NAME[m]): m for m in range(1, 13)}
+RE_DIGITS_BEFORE = re.compile(r'(\d{1,2})\s*(?:er)?\s*$')
+RE_DATE_PREFIX = re.compile(r'(?:[a-z]{1,12} ?){0,3}')
+
+
+def lev(a: str, b: str) -> int:
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+    return min(prev[-1], 9)
+
+
+def fuzzy_date(text: str) -> tuple[int, int] | None:
+    """(day, month) of a date line the OCR garbled («Mercredi19 novembre», «Mardi 1 7 février», «Lundi 1 4 mail 883»,
+    «6 septembe», «M.ercredL24 mai»): the month word within 1-2 edits, the day digits right before it, at most
+    a weekday-like word ahead of them. None for anything else."""
+    s = norm(text[:100])
+    s = re.sub(r'(?<=\d) (?=\d)', '', re.sub(r'(?<![a-z0-9])[il](?= ?\d)', '1', s))  # «Dimanche Î1 avril», «î 8 juillet»
+    for m in re.finditer(r'[a-z]{3,10}', s):
+        tok = m.group()
+        for name, mon in _MONS.items():
+            if abs(len(tok) - len(name)) > 2 or lev(tok, name) > (1 if len(name) <= 5 else 2):
+                continue
+            dm = RE_DIGITS_BEFORE.search(s[:m.start()])
+            if not dm or not 1 <= int(dm.group(1)) <= 31:
+                continue
+            if not RE_DATE_PREFIX.fullmatch(s[:dm.start()].strip() + ' ' if s[:dm.start()].strip() else ''):
+                continue
+            return int(dm.group(1)), mon
+    return None
 
 
 def ymd(d: str) -> datetime.date | None:
@@ -173,6 +227,8 @@ def load_entries(carnet: str) -> list[Entry]:
             c['kind'] = km.group(1) if km else None
             m = RE_DOCUMENTED.search(notes)
             c['documented'] = notes[max(0, m.start() - 60):m.end() + 60].strip() if m else ''
+            c['head_documented'] = bool(RE_HEADING_DOC.search(notes))
+            c['head_page_cited'] = bool(RE_HEADING_DOC.search(notes) and RE_CITES_DOCX.search(notes))
     return list(ents.values())
 
 
@@ -190,7 +246,7 @@ def heading_of(line: str, near: str | None) -> dict | None:
     return h
 
 
-RE_TWO_DAYS = re.compile(rf'^(?P<wd1>\w+),?\s+(?P<d1>\d{1,2}(?:er)?)\s*(?:,|et|-|–|au)?\s*(?P<wd2>(?:{"|".join(WEEKDAYS)})\s+)?(?P<d2>\d{1,2}(?:er)?)\s+(?P<rest>(?:{MON_RX}).*)$', re.I)
+RE_TWO_DAYS = re.compile(rf'^(?P<wd1>\w+),?\s+(?P<d1>\d{{1,2}}(?:er)?)\s*(?:,|et|-|–|au)?\s*(?P<wd2>(?:{"|".join(WEEKDAYS)})\s+)?(?P<d2>\d{{1,2}}(?:er)?)\s+(?P<rest>(?:{MON_RX}).*)$', re.I)
 
 
 def heading_dates(line: str, near: str | None) -> list[dict]:
@@ -212,6 +268,7 @@ def heading_dates(line: str, near: str | None) -> list[dict]:
     for k, h in enumerate(out):
         h['line'] = t
         h['second'] = k > 0
+        h.setdefault('wd', None if 'weekday' in h['guessed'] else h['heading'].split()[0].lower())
     return out
 
 
@@ -292,16 +349,38 @@ class Source:
             out |= self.grams3(t, j)
         return out
 
-    def window4(self, pos: int, span: int = 15) -> set:
+    def joined5(self, pos: int, before: int = 3, after: int = 60) -> set:
+        """5-grams over the docx paragraphs around pos read as one text: catches a paragraph that merges several docx lines"""
         t, i = divmod(pos, 100000)
-        out = set()
-        for j in range(max(0, i - span), min(len(self.rows[t]), i + span + 1)):
-            k = (t, j)
-            if k not in self.ngrams4:
-                n = norm(self.rows[t][j]['t']).replace(' ', '')
-                self.ngrams4[k] = {n[x:x + 4] for x in range(len(n) - 3)}
-            out |= self.ngrams4[k]
-        return out
+        ws = []
+        for j in range(max(0, i - before), min(len(self.rows[t]), i + after + 1)):
+            ws += words(self.rows[t][j]['t'])
+        return set(shingles(ws))
+
+    def cut_at_break(self, pos: int, line: str) -> bool:
+        """a docx paragraph near pos is a prefix of the line and blank paragraphs follow (cut at a page break, a clipping's
+        truncated tail): the rest of the line has no docx text to be compared with"""
+        t, i0 = divmod(pos, 100000)
+        ln = norm(line)
+        for i in range(max(0, i0 - 6), min(len(self.rows[t]) - 1, i0 + 7)):
+            rn = norm(self.rows[t][i]['t'])
+            if len(rn.split()) < 4 or len(ln) <= len(rn) + 10:
+                continue
+            rn = rn[:-6] if len(rn) > 20 else rn
+            # OCR often garbles the first characters of the row («-AM. Haristoff» for «- M. Haristoff»)
+            rest = rn.split(' ', 1)[-1]
+            if not (ln.startswith(rn) or (rest in ln[:len(rn) + 4] and ln.find(rest) <= 4)):
+                continue
+            if any(not x['t'].strip() or re.fullmatch(r'\d{1,3}', x['t'].strip()) for x in self.rows[t][i + 1:i + 5]):
+                return True
+        return False
+
+    def window4(self, pos: int, span: int = 15) -> set:
+        """character 4-grams over the docx paragraphs around pos, read as one text (so a word hyphenated at a page break
+        or a paragraph cut in two rows still matches)"""
+        t, i = divmod(pos, 100000)
+        n = ''.join(norm(self.rows[t][j]['t']).replace(' ', '') for j in range(max(0, i - span), min(len(self.rows[t]), i + span + 1)))
+        return {n[x:x + 4] for x in range(len(n) - 3)}
 
     def page(self, t: int, a: int, b: int | None = None) -> str:
         if t not in self.pms:
@@ -338,6 +417,8 @@ class Audit:
         self.findings: list[dict] = []
         log('loading _original')
         self.E = {c: load_entries(c) for c in carnets}
+        self.cluster_of = {cl['id']: cl for es in self.E.values() for e in es for cl in e.clusters}
+        self.entry_of = {cl['id']: e for es in self.E.values() for e in es for cl in e.clusters}
         log('indexing the tomes')
         self.S = Source()
         tc = tome_carnets()
@@ -405,6 +486,7 @@ class Audit:
                     self.anchor[cl['id']] = min(p for p, n in pos_votes.items() if n >= top * 0.3)
                     last = max(pos_votes)
             ids = [cl['id'] for cl in clusters]
+            docagg: dict[str, dict] = {}  # documented differences: one row per paragraph, not per line
             for cl, line, ws, cont, best in line_res:
                 if cont >= 0.8:
                     if best is not None and best // 100000 not in near and len(ws) >= 12:
@@ -427,6 +509,22 @@ class Audit:
                 if score >= 0.85 or (len(ws) < N and score >= 0.67):
                     continue
                 if anc is not None:
+                    sh = shingles(ws)
+                    if sh and len(set(sh) & S.joined5(anc)) / len(sh) >= 0.85:
+                        continue  # several docx lines merged into one _original paragraph
+                    if S.cut_at_break(anc, line):
+                        docagg.setdefault(cl['id'], {'c': c, 'cl': {**cl, 'documented': 'the docx paragraph is cut at a page break / clipping tail'}, 'n': 0, 'w': 0, 'min': 1.0, 'ev': S.ev(anc), 'first': line})
+                        g = docagg[cl['id']]
+                        g['n'] += 1
+                        g['w'] += len(ws)
+                        g['min'] = min(g['min'], score)
+                        continue
+                if re.match(r'^\d{1,2}[.)]?\s+\D', line):
+                    # a printed left-margin stanza / list number the docx drops, its lines merged
+                    ws2 = words(re.sub(r'^\d{1,2}[.)]?\s+', '', line))
+                    if len(ws2) >= 3 and any((' ' + ' '.join(ws2) + ' ') in S.ntext[t] for t in near if t in S.ntext):
+                        continue
+                if anc is not None:
                     # OCR-garbled tome text («On alloodait un Incident…»): character 4-grams still match
                     n4 = norm(line).replace(' ', '')
                     g4 = {n4[j:j + 4] for j in range(len(n4) - 3)}
@@ -437,11 +535,14 @@ class Audit:
                         score = max(score, 0.5)
                 nw = len(ws)
                 if cl['documented']:
-                    self.add('not-in-source' if score < 0.5 else 'partial-in-source', 'info', c, cl['file'], cl['id'],
-                             f'{nw} words, {score:.0%} found, documented («…{cl["documented"][:140]}…»): «{line[:80]}»', S.ev(anc), score=round(score, 2))
+                    g = docagg.setdefault(cl['id'], {'c': c, 'cl': cl, 'n': 0, 'w': 0, 'min': 1.0, 'ev': S.ev(anc), 'first': line})
+                    g['n'] += 1
+                    g['w'] += nw
+                    g['min'] = min(g['min'], score)
                     continue
-                if score < 0.5 and re.fullmatch(r'\[[^\[\]]*\]', line.strip()):
-                    self.add('editorial-not-in-source', 'low', c, cl['file'], cl['id'],
+                if re.fullmatch(r'\[[^\[\]]*\]', line.strip()):
+                    linked = bool(re.search(r'dessin|croquis|plan\b', line) and self.entry_of[cl['id']].fm.get('drawings'))  # the drawing is linked in the entry: the note is redundant
+                    self.add('editorial-not-in-source', 'info' if linked else 'low', c, cl['file'], cl['id'],
                              f'bracketed note the tome does not have: «{line[:110]}»', S.ev(anc), score=round(score, 2))
                 elif score < 0.5:
                     sev = 'high' if nw >= 15 else 'medium' if nw >= 6 else 'low'
@@ -450,6 +551,55 @@ class Audit:
                 elif nw >= 12:
                     self.add('partial-in-source', 'medium' if score < 0.7 and nw >= 30 else 'low', c, cl['file'], cl['id'],
                              f'{nw} words, {score:.0%} found: «{line[:110]}»', S.ev(anc), score=round(score, 2))
+            for pid, g in docagg.items():
+                self.add('not-in-source' if g['min'] < 0.5 else 'partial-in-source', 'info', g['c'], g['cl']['file'], pid,
+                         f'{g["n"]} line(s), {g["w"]} words, {g["min"]:.0%} found at worst, documented («…{g["cl"]["documented"][:140]}…»): «{g["first"][:80]}»',
+                         g['ev'], score=round(g['min'], 2))
+
+    # blind spot: accent-stripped lines
+    def accents(self):
+        """An _original line that equals a docx paragraph except for diacritics, with fewer than the docx has (norm() drops
+        accents, so every other check is blind to it); lines without any accent and several stripped-accent
+        forms are flagged too when no docx paragraph matches (a split paragraph)."""
+        by_norm = collections.defaultdict(list)
+        vocab = collections.Counter()  # accented forms in the whole docx: a stray OCR accent («réfuse», «Dîna», «ùn») is rare there
+        for t, rows in self.S.rows.items():
+            for p in rows:
+                n = norm(p['t'])
+                if len(n) >= 25:
+                    by_norm[n].append(p['t'])
+                vocab.update(w.lower() for w in RE_LETTERS.findall(p['t']) if n_diacritics(w))
+        for c in self.carnets:
+            for e in self.E[c]:
+                for cl in e.clusters:
+                    lost_lines = []
+                    for line in cl['text']:
+                        n = norm(line)
+                        if len(n) < 25 or RE_STUB.match(line):
+                            continue
+                        mine = n_diacritics(line)
+                        cands = by_norm.get(n, [])
+                        best = max((n_diacritics(x) for x in cands), default=None)
+                        if best is not None and best - mine >= 1:
+                            d = max(cands, key=n_diacritics)
+                            a, b = RE_LETTERS.findall(line), RE_LETTERS.findall(d)
+                            if len(a) == len(b):
+                                # only losses of an accent the docx spells the common way count; a stray accent the docx OCR added does not
+                                real = sum(1 for x, y in zip(a, b) if x != y and n_diacritics(y) > n_diacritics(x)
+                                           and strip_accents(x) == strip_accents(y) and vocab[y.lower()] >= 3
+                                           and not (y[0].isupper() and set(y) & set('îïü')))  # «Dîna», «Voyeîkoff»: OCR strays in names
+                            else:
+                                real = best - mine
+                            lost_lines.append((real, line))
+                        elif best is None and mine == 0 and len(n.split()) >= 15 and len(RE_STRIPPED.findall(n)) >= 3:
+                            lost_lines.append((-1, line))
+                    if lost_lines:
+                        tot = sum(max(k, 0) for k, _ in lost_lines)
+                        # a line without one accent and several stripped forms (-1), or an accent the docx spells the common way (tot)
+                        sev = 'medium' if tot or any(k < 0 for k, _ in lost_lines) else 'info'
+                        self.add('accent-loss', sev, c, e.name, cl['id'],
+                                 f'{len(lost_lines)} line(s) without the diacritics the tome has (≥{tot} lost): «{lost_lines[0][1][:90]}»'
+                                 + ('' if sev == 'medium' else ' [only accents the docx OCR alone has (stray)]'))
 
     # 1, 2, 7 — per-entry checks
     def entries(self):
@@ -488,6 +638,19 @@ class Audit:
             elif stale_m:
                 self.add('date-primary-stale', 'low', c, e.name, None, f'dates.merged lists {", ".join(stale_m)}, which have their own entries')
         heads = [(cl, l) for cl in e.clusters for l in cl['heads']]
+        for cl in e.clusters:
+            dh = [l for l in cl['heads'] if heading_dates(l, e.date)]
+            if len(dh) >= 2:
+                self.add('heading-multiple', 'medium', c, e.name, cl['id'], f'{len(dh)} date heading lines in one paragraph: ' + ' | '.join(f'«{l[:40]}»' for l in dh))
+            if cl['kind'] in ('letter', 'quote', 'clipping', 'telegram', 'margin', 'other', 'editorial'):
+                continue
+            for t in cl['text']:
+                if len(t) < 45 and not re.match(r'^\[', t):
+                    hb = heading_dates(t, e.date)
+                    if hb and not hb[-1]['rest'].strip(' -–—.,'):
+                        tm = self.tome_of.get(c)
+                        again = tm in self.S.ntext and self.S.ntext[tm].count(' | ' + norm(t) + ' | ') >= 2
+                        self.add('date-line-in-body', 'info' if again else 'medium', c, e.name, cl['id'], f'the printed date line repeated as body text: «{t[:60]}»' + (' [the tome repeats it too]' if again else ''))
         if not heads or e.clusters and not e.clusters[0]['heads']:
             lead = list(itertools.takewhile(lambda cl: not cl['heads'], e.clusters))
             # Marie's title-page / flyleaf notes go in before the first heading of the carnet (owner policy)
@@ -499,6 +662,11 @@ class Audit:
         for k, (cl, l) in enumerate(heads):
             hs = heading_dates(l, e.date)
             if not hs:
+                fz = fuzzy_date(l.lstrip('#').strip())
+                if fz and any(int(d[8:]) == fz[0] and int(d[5:7]) == fz[1] for d in e.dates):
+                    # the printed date line with its misprint kept («Vendredi 11 novembe 1881»)
+                    self.add('heading-markup', 'info', c, e.name, cl['id'], f'date heading keeps the printed misspelling: «{l[:60]}»' + ('' if cl['head_page_cited'] else ' (no page-cited RSR note)'))
+                    continue
                 self.add('heading-markup', 'low', c, e.name, cl['id'], f'non-date text marked up as a heading: «{l[:90]}»')
                 continue
             level = len(l) - len(l.lstrip('#'))
@@ -507,11 +675,14 @@ class Audit:
             for h in hs:
                 seen[h['date']] += 1
                 if seen[h['date']] == 2:
-                    self.add('heading-duplicate', 'medium', c, e.name, cl['id'], f'second heading for {h["date"]}: «{h["line"][:60]}»')
+                    # Marie's own repeated date line, kept as a lower-level heading (owner policy)
+                    self.add('heading-duplicate', 'info' if level >= 2 else 'medium', c, e.name, cl['id'], f'second heading for {h["date"]}: «{h["line"][:60]}»')
                 if h['date'] in e.dates:
                     continue
+                if h.get('second') and k == 0 and any(x['date'] in e.dates for x in hs):
+                    continue  # a range heading («Mercredi 10 mai - jeudi 11 mai»): both days are declared, the entry holds the first
                 if k == 0 and not h.get('second'):
-                    doc = re.search(r'filed (?:under|as)|filename', cl['notes'])
+                    doc = re.search(r'filed (?:under|as)|filename', cl['notes']) or cl['head_documented']
                     self.add('date-heading-mismatch', 'info' if doc else 'high', c, e.name, cl['id'],
                              f'heading «{h["line"][:60]}» = {h["date"]} ≠ filename {e.date}' + (' (documented in an RSR note)' if doc else ''))
                 else:
@@ -604,18 +775,23 @@ class Audit:
                     if not ss:
                         md = [r for r in src_by_md.get(d[5:], []) if T.seg.get(r['i']) in nearc]
                         if md:
-                            self.add('heading-year-differs', 'low', c, e.name, cl['id'],
+                            self.add('heading-year-differs', 'info' if cl['head_page_cited'] else 'low', c, e.name, cl['id'],
                                      f'«{h["line"][:60]}»: the tome has «{md[0]["t"][:50]}» ({md[0]["head"]["date"][:4]})', S.ev(t * 100000 + md[0]['i']))
                         else:
-                            inside = self.date_in_text(T, d, nearc)
+                            inside = self.date_in_text(T, d, nearc, h['line'])
                             if inside and inside[1]:
                                 sev, why = 'info', f'; the tome\'s date line is OCR-garbled: ¶{inside[0]} «{T.R[inside[0]]["t"][:60]}»'
                             elif inside:
                                 sev, why = 'low', f'; a tome text paragraph starts with the date: ¶{inside[0]} «{T.R[inside[0]]["t"][:60]}»'
                             else:
                                 sev, why = 'medium', ''
+                            if cl['head_page_cited'] and sev != 'info':
+                                sev, why = 'info', why + '; documented in an RSR note (printed form cited)'
+                                doc = True
+                            else:
+                                doc = False
                             self.add('heading-not-in-source', sev, c, e.name, cl['id'], f'«{h["line"][:70]}» ({d}) has no date line in tome {t}{why}',
-                                     S.ev(t * 100000 + inside[0]) if inside else None)
+                                     S.ev(t * 100000 + inside[0]) if inside else None, documented=doc)
                     # 2. weekday: the calendar, and the tome's own date line for the same date
                     if not h['wd']:
                         continue
@@ -624,12 +800,21 @@ class Audit:
                     ev = S.ev(t * 100000 + src_by_date[d][0]['i']) if src_by_date.get(d) else None
                     if sw and h['wd'] not in sw:
                         r0 = src_by_date[d][0]
-                        self.add('weekday-differs', 'medium', c, e.name, cl['id'],
+                        others = [x for x in lst if x[2] is not cl and x[3]['wd'] in sw]
+                        sev = 'medium'
+                        if others:
+                            sev, more = 'info', ' [the date is headed twice in _original; the other heading agrees with the tome]'
+                        elif cl['head_page_cited']:
+                            sev, more = 'info', ' [documented in an RSR note (printed form cited)]'
+                        else:
+                            more = ''
+                        self.add('weekday-differs', sev, c, e.name, cl['id'],
                                  f'«{h["line"][:60]}»: the tome reads «{r0["t"][:60]}»'
-                                 + (f' ({slip[9:-1]})' if slip else ' (the calendar agrees with _original)'), ev)
+                                 + (f' ({slip[9:-1]})' if slip else ' (the calendar agrees with _original)') + more, ev)
                     elif slip:
-                        self.add('weekday-slip', 'info' if sw else 'low', c, e.name, cl['id'],
-                                 f'«{h["line"][:60]}»: {slip[9:-1]}' + ('; the tome has the same' if sw else '; no tome date line to compare'), ev)
+                        garbled = None if sw else self.date_in_text(T, d, nearc)
+                        self.add('weekday-slip', 'info' if sw or garbled else 'low', c, e.name, cl['id'],
+                                 f'«{h["line"][:60]}»: {slip[9:-1]}' + ('; the tome has the same' if sw else f'; the tome\'s date line is OCR-garbled (¶{garbled[0]})' if garbled else '; no tome date line to compare'), ev)
             # tome → _original
             for r, h, is_last in src:
                 d = h['date']
@@ -645,10 +830,15 @@ class Audit:
                     um = [x for x in unmarked.get(d, []) if x[0] in near]
                     ds = sorted(x for cc in near for x in span.get(cc, []))
                     under_txt = ' '.join(under.get(r['i'], [])) if is_last else ''
+                    if um and len((r['head']['rest'] or '').split()) > 2:
+                        continue  # «12 février Duc de Hamilton.»: a reading note that starts with a date, not a date line
                     if um:
                         self.add('source-date-missing', 'low', um[0][0], um[0][1].name, um[0][2]['id'],
                                  f'tome date line «{r["t"][:60]}» is plain text in _original (no # heading)', ev)
                     elif ds and not (days(ds[0]) - 31 <= days(d) <= days(ds[-1]) + 31):
+                        dm = f'{int(d[8:])} {norm(MONTH_NAME[int(d[5:7])])}'
+                        if any(dm in ' ' + self.textnorm(cc) + ' ' for cc in near if cc in self.E):
+                            continue  # a date inside a note (a list of dates on a title page, a recap): _original has it as text
                         self.add('source-date-missing', 'info', c, None, None,
                                  f'tome date line «{r["t"][:60]}» ({d}) lies outside {c}\'s dates ({ds[0]}…{ds[-1]}): a recap, note or quoted date?', ev)
                     else:
@@ -658,25 +848,44 @@ class Audit:
                     continue
                 if not is_last:
                     continue
+                # a suffix the printed date line carries («- suite», «-Berlin», a Julian second date) that no heading has
+                rest = (h['rest'] or '').strip()
+                lab = re.match(r'^[-–—(]\s*([^\W\d_][\w\'’ ]*)', rest)
+                if lab and (len(rest) <= 40 or norm(lab.group(1)).split()[:1] == ['suite']):
+                    w1 = (norm(lab.group(1)).split() or [''])[0]
+                    if w1 and not any(w1 in norm(x[3]['line']) for x in hits):
+                        self.add('heading-suffix-lost', 'medium', hits[0][0], hits[0][1].name, hits[0][2]['id'],
+                                 f'the printed date line «{r["t"][:60]}» has the suffix «{rest[:40]}», the heading «{hits[0][3]["line"][:60]}» does not', ev)
+                jul = re.search(r'\(([^)]+)\)$', h['heading'])
+                if jul and not any(norm(jul.group(1)) in norm(x[3]['line']) for x in hits):
+                    self.add('heading-suffix-lost', 'medium', hits[0][0], hits[0][1].name, hits[0][2]['id'],
+                             f'the printed date line «{r["t"][:60]}» has the second date «{jul.group(1)}», the heading «{hits[0][3]["line"][:60]}» does not', ev)
                 # position: the tome's text under D sits in the entry for D?
                 files = collections.Counter(file_of[k].name for k in aligned.get(r['i'], []) if k in file_of)
                 heading_files = {x[1].name for x in hits}
                 if files:
                     top, n = files.most_common(1)[0]
                     other = next(e for e in file_of.values() if e.name == top)
+                    if other.carnet != hits[0][0]:
+                        continue  # the docx sets the next Livre's title-page notes under this date line
                     # only where the tome has the other entry's own date lines (else the tome lost a date line)
                     other_dated = [x for x in other.dates if x in src_by_date]
-                    if top not in heading_files and n >= 2 and other_dated:
+                    # a date line without a weekday is a quoted letter's date («5 juillet 1878 Mademoiselle,»), not a diary date line
+                    if top not in heading_files and n >= 2 and other_dated and 'weekday' not in h['guessed']:
                         c2, e2, cl2, _ = hits[0]
                         self.add('heading-position', 'medium' if RE_WD_START.match(r['t']) else 'low', c2, e2.name, cl2['id'],
                                  f'tome text under «{r["t"][:50]}» ({n} ¶) sits in {top}, not in {e2.name}', ev)
                 # stub although the tome has text under the date
                 under_txt = ' '.join(under.get(r['i'], []))
-                if RE_GARBLED_DATE.match(under_txt):
+                if RE_GARBLED_DATE.match(under_txt) or fuzzy_date(under_txt[:50]):
                     under_txt = ''  # the next day's date line, too garbled to parse: the text is that day's
+                # a title-page block (Livre cover: «Mardi 12 août 1879 à Dieppe / hôtel Bristol», «19 août, Poltava, Gavronzi.»)
+                cover = len(under_txt) < 60 and ('\n' in r['t'] or 'weekday' in h['guessed'])
+                # the date label is also the source of another entry's text (a date slip filed elsewhere): the stub is right
+                claimed = any(not (any(cl['text'] for cl in x[1].clusters) and all(RE_STUB.match(y) for cl in x[1].clusters for y in cl['text'])) for x in hits)
                 for c2, e2, cl2, _ in hits:
                     stub_only = any(cl['text'] for cl in e2.clusters) and all(RE_STUB.match(x) for cl in e2.clusters for x in cl['text'])
-                    if stub_only and len(e2.dates) == 1 and len(under_txt) >= 15:
+                    if stub_only and len(e2.dates) == 1 and len(under_txt) >= 15 and not cover and not claimed:
                         self.add('stub-but-source-has-text', 'high' if len(under_txt) > 40 else 'medium', c2, e2.name, cl2['id'],
                                  f'«[Aucun texte…]» stub, but the tome has under «{r["t"][:40]}»: «{under_txt[:100]}»', ev)
 
@@ -689,7 +898,7 @@ class Audit:
         sdm = {f['evidence']['docx']: f for f in self.findings if f['category'] == 'source-date-missing'
                and (f['severity'] in ('high', 'medium') or 'lies outside' in f['message']) and f.get('evidence', {}).get('tome') == t}
         drop = set()
-        for f in [f for f in self.findings if f['category'] == 'heading-not-in-source' and f['severity'] == 'medium']:
+        for f in [f for f in self.findings if f['category'] == 'heading-not-in-source' and (f['severity'] == 'medium' or f.get('documented'))]:
             if self.tome_of.get(f['carnet']) != t:
                 continue
             e = next((x for x in file_of.values() if x.name == f['file'] and x.carnet == f['carnet']), None)
@@ -704,12 +913,12 @@ class Audit:
                 continue
             drop |= {id(f), id(g)}
             line = f['message'].split('»')[0].lstrip('«')
-            self.add('heading-differs-from-source', 'medium', f['carnet'], f['file'], f['pid'],
+            self.add('heading-differs-from-source', 'info' if f.get('documented') else 'medium', f['carnet'], f['file'], f['pid'],
                      f'_original «{line}», the tome at the same place: {g["message"].split(" has no")[0].replace("tome date line ", "")}',
                      g['evidence'])
         self.findings = [f for f in self.findings if id(f) not in drop]
 
-    def date_in_text(self, T, d: str, carnets: set) -> tuple[int, bool] | None:
+    def date_in_text(self, T, d: str, carnets: set, line: str = '') -> tuple[int, bool] | None:
         """a tome paragraph holding the date «D month»: (¶, True) for a short line (a date line the OCR garbled:
         «Lundi 25 août1873», «Dimancher 1er février 1880»), (¶, False) for one that starts a text paragraph"""
         m, dd = int(d[5:7]), int(d[8:])
@@ -722,7 +931,9 @@ class Audit:
         for r in T.rows[a:b]:
             if r['cls'] in ('text', 'head', 'furniture') and T.seg.get(r['i']) in carnets:
                 n = norm(r['t'])
-                if len(r['t']) < 100 and short.search(n):
+                if line and len(r['t']) < 100 and n == norm(line):
+                    return r['i'], True  # a range heading («Mercredi 26, jeudi 27 novembre 1873»), same words in the tome
+                if len(r['t']) < 100 and (short.search(n) or fuzzy_date(r['t']) == (dd, m)):
                     return r['i'], True
                 if found is None and start.search(n):
                     found = (r['i'], False)
@@ -758,6 +969,8 @@ class Audit:
                                 self.add('calendar-inversion', 'info', c, e.name, cl['id'], f'{h["date"]} follows {last[0]} ({last[1]})')
                             last = (h['date'], cl['id'])
             # source order: paragraphs off the longest increasing run of tome positions
+            lead = self.title_notes(c)
+            clmap = {cl['id']: cl for cl in clusters}
             seq = [(cl, self.anchor[cl['id']]) for cl in clusters if cl['id'] in self.anchor]
             keep = lis([p for _, p in seq])
             run = []
@@ -766,8 +979,19 @@ class Audit:
                     run.append((cl, p))
                 if run and (k in keep or k == len(seq) - 1):
                     cl0, p0 = run[0]
-                    self.add('order-out-of-source', 'medium', c, cl0['file'], cl0['id'],
-                             f'{len(run)} paragraph(s) {cl0["id"]}–{run[-1][0]["id"]} out of tome order: at {evs(S.ev(p0))} «{S.excerpt(p0, 50)}»',
+                    notes = ' '.join(x['notes'] for x, _ in run)
+                    short = all(max((len(words(t)) for t in x['text']), default=0) < 10 for x, _ in run)
+                    sev, why = 'medium', ''
+                    if short:
+                        sev, why = 'info', ' [short lines / refrain: the alignment picks another occurrence]'
+                    elif RE_ORDER_DOC.search(notes):
+                        sev, why = 'info', ' [documented in an RSR note]'
+                    elif all(re.match(r'^[\d¹²³⁴⁵⁶⁷⁸⁹⁰]+[.\-)]?\s', (x['text'] or [''])[0]) for x, _ in run):
+                        sev, why = 'info', ' [a page-foot note kept with its day]'
+                    elif all(x['id'] in lead for x, _ in run):
+                        sev, why = 'info', ' [title-page note]'
+                    self.add('order-out-of-source', sev, c, cl0['file'], cl0['id'],
+                             f'{len(run)} paragraph(s) {cl0["id"]}–{run[-1][0]["id"]} out of tome order: at {evs(S.ev(p0))} «{S.excerpt(p0, 50)}»' + why,
                              S.ev(p0))
                     run = []
             # Livre boundaries
@@ -779,7 +1003,7 @@ class Audit:
                     sc = None
                     if cl is not None and p // 100000 == t:
                         sc = T.seg.get(p % 100000)
-                    if cl is not None and sc and sc != c:
+                    if cl is not None and sc and sc != c and cl['id'] not in lead:
                         if run and run[-1][2] != sc:
                             self._boundary(c, run)
                             run = []
@@ -797,12 +1021,35 @@ class Audit:
             if last and first and first[0] < last[0]:
                 self.add('carnet-continuity', 'medium', c2, first[1], first[2], f'{c2} starts on {first[0]}, before {c} ends ({last[0]}, {last[1]})')
             cl_last = [cl for e in self.E[c] for cl in e.clusters if cl['id'] in self.anchor]
-            cl_first = [cl for e in self.E[c2] for cl in e.clusters if cl['id'] in self.anchor]
+            lead2 = self.title_notes(c2)
+            cl_first = [cl for e in self.E[c2] for cl in e.clusters if cl['id'] in self.anchor and cl['id'] not in lead2]
             if cl_last and cl_first:
                 pl, pf = self.anchor[cl_last[-1]['id']], self.anchor[cl_first[0]['id']]
                 if pf < pl and self.tome_of.get(c) == self.tome_of.get(c2):
                     self.add('carnet-continuity', 'medium', c2, cl_first[0]['file'], cl_first[0]['id'],
                              f'{c2} opens at {evs(S.ev(pf))}, before {c} ends at {evs(S.ev(pl))} ({cl_last[-1]["id"]})', S.ev(pf))
+
+    def textnorm(self, c) -> str:
+        if not hasattr(self, '_tn'):
+            self._tn = {}
+        if c not in self._tn:
+            self._tn[c] = ' | '.join(norm(t) for e in self.E[c] for cl in e.clusters for t in cl['text'])
+        return self._tn[c]
+
+    def title_notes(self, c) -> set[str]:
+        """ids of Marie's title-page / flyleaf notes ahead of the carnet's first heading (owner policy: they go in there;
+        the docx sets them under the previous Livre)"""
+        e = next((x for x in self.E[c] if x.date), None)
+        if not e:
+            return set()
+        out = set()
+        for cl in e.clusters:
+            if not cl['text'] and cl['heads']:
+                continue  # the heading-only first paragraph
+            if cl['kind'] not in ('margin', 'other', 'editorial'):
+                break
+            out.add(cl['id'])
+        return out
 
     def _boundary(self, c, run):
         S = self.S
@@ -858,7 +1105,10 @@ class Audit:
             # does the tome repeat it too?
             _, votes = S.hits(A[4].split())
             nsh = max(1, len(A[4].split()) - N + 1)
-            rows = sorted(p for p, n in votes.items() if n >= 0.6 * nsh)
+            rows = {p for p, n in votes.items() if n >= 0.6 * nsh}
+            _, votes_b = S.hits(B[4].split())  # the second copy may be the truncated one («…mais je vous etc.»)
+            nsh_b = max(1, len(B[4].split()) - N + 1)
+            rows = sorted(rows | {p for p, n in votes_b.items() if n >= 0.6 * nsh_b})
             distinct = [p for k, p in enumerate(rows) if k == 0 or p - rows[k - 1] > 3]
             where = f'{B[0]}/{B[1]} {B[2]}'
             if len(distinct) >= 2:
@@ -866,6 +1116,9 @@ class Audit:
                          f'also at {where} ({sim:.0%}); the tome has it {len(distinct)}×: «{A[3][:80]}»', S.ev(distinct[0]))
             else:
                 sev = 'high' if sim == 1.0 else 'medium'
+                cla = self.cluster_of.get(A[2])
+                if cla and cla['documented'] or self.cluster_of.get(B[2], {}).get('documented') and A[:2] == B[:2]:
+                    sev = 'info'  # a documented transcription (race programmes, clippings): the lines repeat by nature
                 self.add('duplicate', sev, A[0], A[1], A[2], f'{"identical" if sim == 1.0 else f"{sim:.0%} similar"} to {where}: «{A[3][:90]}»',
                          S.ev(distinct[0]) if distinct else None, other=where)
 
@@ -876,11 +1129,50 @@ class Audit:
         self.entries()
         log('headings vs source')
         self.headings_vs_source()
+        log('accents')
+        self.accents()
         log('order')
         self.order()
         log('duplicates')
         self.duplicates()
         self.findings.sort(key=lambda f: (f['carnet'], f['file'] or '', f['pid'] or '', SEV_ORDER[f['severity']], f['category']))
+        self.apply_exceptions()
+
+    def apply_exceptions(self):
+        """Reviewed exceptions (rebuild_audit_exceptions.yaml): findings a triage accepted stay in the JSON, marked
+        `accepted`, and the report lists them apart from the findings."""
+        self.unused = []
+        if not EXCEPTIONS.exists():
+            return
+        for x in yaml.safe_load(EXCEPTIONS.read_text(encoding='utf-8')) or []:
+            hit = 0
+            for f in self.findings:
+                if f.get('accepted') or f['severity'] == 'info' or f['carnet'] != str(x['carnet']) or f['category'] != x['category']:
+                    continue
+                if x.get('para') and f['pid'] not in ([x['para']] if isinstance(x['para'], str) else x['para']):
+                    continue
+                if x.get('file') and f['file'] != x['file']:
+                    continue
+                if x.get('match') and x['match'] not in f['message']:
+                    continue
+                f['accepted'] = {k: x.get(k) for k in ('status', 'reason', 'triage')}
+                hit += 1
+            if not hit and x['carnet'] in self.E:
+                self.unused.append(x)
+
+
+RE_STRIPPED = re.compile(r'\b(?:tres|deja|apres|etait|etaient|ete|meme|premiere|derniere|voila|theatre|etrange|ecrit|pere|mere|frere|a la)\b')
+
+
+RE_LETTERS = re.compile(r'[^\W\d_]+')
+
+
+def strip_accents(s: str) -> str:
+    return ''.join(ch for ch in unicodedata.normalize('NFD', s) if not unicodedata.combining(ch))
+
+
+def n_diacritics(s: str) -> int:
+    return sum(1 for ch in unicodedata.normalize('NFD', s) if unicodedata.combining(ch))
 
 
 def lis(seq: list[int]) -> set[int]:
@@ -904,30 +1196,77 @@ def lis(seq: list[int]) -> set[int]:
 
 # --- report ---------------------------------------------------------------------------------
 
+def actionable(fs: list[dict]) -> list[dict]:
+    return [f for f in fs if f['severity'] != 'info' and not f.get('accepted') and f['category'] not in COSMETIC]
+
+
 def report(A: Audit, secs: float) -> str:
-    F = A.findings
+    allf = A.findings
+    F = actionable(allf)  # the findings
+    COS = [f for f in allf if f['severity'] != 'info' and not f.get('accepted') and f['category'] in COSMETIC]
+    ACC = [f for f in allf if f.get('accepted')]
+    INFO = [f for f in allf if f['severity'] == 'info' and not f.get('accepted')]
     cats = collections.Counter(f['category'] for f in F)
     L = [f'# Rebuild audit — {TODAY}', '',
          f'`just rebuild-audit {" ".join(A.args)}`'.replace('  ', ' ') + f' — {len(A.carnets)} carnets '
-         f'({A.carnets[0]}–{A.carnets[-1]}), {len(F)} findings, {secs:.0f} s. Script: `src/scripts/rebuild_audit.py` (categories in its docstring).', '',
-         'Evidence: `tomeNN ¶i` = docx paragraph index of content/_raw/tomeNN.docx; `p.X` = printed page of «Mon Journal» (scans, tomes 6–16).', '',
-         '## Counts per category', '', '| category | high | medium | low | info | total |', '|---|---|---|---|---|---|']
-    for cat in sorted(cats, key=lambda k: (-sum(1 for f in F if f['category'] == k and f['severity'] in ('high', 'medium')), k)):
-        s = collections.Counter(f['severity'] for f in F if f['category'] == cat)
-        L.append(f'| {cat} | {s["high"]} | {s["medium"]} | {s["low"]} | {s["info"]} | {cats[cat]} |')
-    L += ['', '## Counts per carnet', '', '| carnet | high | medium | low | info | high + medium by category |', '|---|---|---|---|---|---|']
-    for c in A.carnets:
-        fs = [f for f in F if f['carnet'] == c]
-        if not fs:
-            continue
-        s = collections.Counter(f['severity'] for f in fs)
-        hm = collections.Counter(f['category'] for f in fs if f['severity'] in ('high', 'medium'))
-        L.append(f'| {c} | {s["high"]} | {s["medium"]} | {s["low"]} | {s["info"]} | ' + ', '.join(f'{k} {n}' for k, n in hm.most_common()) + ' |')
-    L += ['', '## Findings', '']
-    for cat in sorted(cats, key=lambda k: min(SEV_ORDER[f['severity']] for f in F if f['category'] == k)):
+         f'({A.carnets[0]}–{A.carnets[-1]}), **{len(F)} findings** (+ {len(COS)} cosmetic), {len(ACC)} accepted, {len(INFO)} informational, {secs:.0f} s. '
+         'Script: `src/scripts/rebuild_audit.py` (categories in its docstring); accepted items: `src/scripts/rebuild_audit_exceptions.yaml`.', '',
+         'Evidence: `tomeNN ¶i` = docx paragraph index of content/_raw/tomeNN.docx; `p.X` = printed page of «Mon Journal» (scans, tomes 6–16).', '']
+    if not F:
+        L += ['No findings.', '']
+    else:
+        L += ['## Counts per category', '', '| category | high | medium | low | total |', '|---|---|---|---|---|']
+        for cat in sorted(cats, key=lambda k: (-sum(1 for f in F if f['category'] == k and f['severity'] in ('high', 'medium')), k)):
+            s_ = collections.Counter(f['severity'] for f in F if f['category'] == cat)
+            L.append(f'| {cat} | {s_["high"]} | {s_["medium"]} | {s_["low"]} | {cats[cat]} |')
+        L += ['', '## Counts per carnet', '', '| carnet | high | medium | low | by category |', '|---|---|---|---|---|']
+        for c in A.carnets:
+            fs = [f for f in F if f['carnet'] == c]
+            if not fs:
+                continue
+            s_ = collections.Counter(f['severity'] for f in fs)
+            hm = collections.Counter(f['category'] for f in fs)
+            L.append(f'| {c} | {s_["high"]} | {s_["medium"]} | {s_["low"]} | ' + ', '.join(f'{k} {n}' for k, n in hm.most_common()) + ' |')
+        L += ['', '## Findings', '']
+        L += lines_by_category(F, 300)
+
+    def loc(f):
+        return '/'.join(x for x in (f['carnet'], f['file']) if x) + (f' {f["pid"]}' if f['pid'] else '')
+
+    if COS:
+        L += ['## Cosmetic (real, in-place YAML / markup; counted apart)', '']
+        for cat in sorted({f['category'] for f in COS}):
+            byc = collections.defaultdict(list)
+            for f in COS:
+                if f['category'] == cat:
+                    byc[f['carnet']].append(f)
+            L.append(f'- **{cat}** ({sum(len(v) for v in byc.values())}): ' + '; '.join(
+                f'{c} ×{len(v)} (' + ', '.join((x['file'] or '?').removesuffix('.md') + (f' {x["pid"]}' if cat == 'heading-markup' else '') for x in v[:4]) + (', …' if len(v) > 4 else '') + ')'
+                for c, v in sorted(byc.items())))
+        L.append('')
+
+    if ACC:
+        L += ['## Accepted (reviewed exceptions)', '',
+              'Findings a triage judged (Marie\'s own text, a documented print correction, an owner default…); see the exceptions file for the reason.', '']
+        for f in sorted(ACC, key=lambda f: (f['carnet'], f['file'] or '', f['pid'] or '')):
+            a = f['accepted']
+            L.append(f'- [{f["severity"]}] **{loc(f)}** {f["category"]} — {a.get("status")}: {a.get("reason")} ({a.get("triage")})')
+        L.append('')
+    if getattr(A, 'unused', None):
+        L += ['## Stale exceptions (match nothing any more — remove)', ''] + [f'- {x["carnet"]} {x.get("para") or x.get("file") or x.get("match")} {x["category"]}' for x in A.unused] + ['']
+    if INFO:
+        L += ['## Informational (not findings)', '',
+              'Consequences of a kept slip, documented differences, OCR-garbled tome date lines, alignment noise: nothing to fix.', '']
+        L += lines_by_category(INFO, 25)
+    return '\n'.join(L)
+
+
+def lines_by_category(F: list[dict], cap: int) -> list[str]:
+    L = []
+    cats = sorted({f['category'] for f in F}, key=lambda k: min(SEV_ORDER[f['severity']] for f in F if f['category'] == k))
+    for cat in cats:
         fs = sorted((f for f in F if f['category'] == cat), key=lambda f: (SEV_ORDER[f['severity']], f['carnet'], f['file'] or '', f['pid'] or ''))
         L += [f'### {cat} ({len(fs)})', '']
-        cap = 300
         for f in fs[:cap]:
             loc = '/'.join(x for x in (f['carnet'], f['file']) if x) + (f' {f["pid"]}' if f['pid'] else '')
             ev = evs(f.get('evidence') or {})
@@ -935,7 +1274,7 @@ def report(A: Audit, secs: float) -> str:
         if len(fs) > cap:
             L.append(f'- … {len(fs) - cap} more in the JSON')
         L.append('')
-    return '\n'.join(L)
+    return L
 
 
 def main():
@@ -954,10 +1293,13 @@ def main():
     jp.parent.mkdir(parents=True, exist_ok=True)
     jp.write_text(json.dumps({'date': TODAY, 'carnets': A.carnets, 'findings': A.findings}, ensure_ascii=False, indent=1))
     rp.write_text(report(A, secs))
-    cats = collections.Counter((f['category'], f['severity']) for f in A.findings)
+    act = actionable(A.findings)
+    cos = [f for f in A.findings if f['severity'] != 'info' and not f.get('accepted') and f['category'] in COSMETIC]
+    cats = collections.Counter((f['category'], f['severity']) for f in act + cos)
     for (cat, sev), n in sorted(cats.items(), key=lambda x: (x[0][0], SEV_ORDER[x[0][1]])):
-        print(f'{cat:28} {sev:7} {n}')
-    print(f'{len(A.findings)} findings in {secs:.0f} s\nreport: {rp}\njson:   {jp}')
+        print(f'{cat:28} {sev:7} {n}' + ('  (cosmetic)' if cat in COSMETIC else ''))
+    print(f'{len(act)} findings + {len(cos)} cosmetic ({sum(1 for f in A.findings if f.get("accepted"))} accepted, '
+          f'{sum(1 for f in A.findings if f["severity"] == "info" and not f.get("accepted"))} informational) in {secs:.0f} s\nreport: {rp}\njson:   {jp}')
 
 
 if __name__ == '__main__':

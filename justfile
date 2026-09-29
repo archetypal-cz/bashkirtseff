@@ -331,7 +331,7 @@ rebuild-diff-plan A B:
 source-completeness *CARNETS:
     uv run --quiet --with python-docx python src/scripts/completeness/run.py {{CARNETS}}
 
-# Post-rebuild audit of _original vs the tome docx/scans: dates, weekdays, date lines, order, duplicates, text not in the tome, empty days → .claude/reports/rebuild-audit-<date>.md + .cache/rebuild-audit/*.json (e.g. just rebuild-audit 001-074 081-100)
+# Post-rebuild audit of _original vs the tome docx/scans: dates, weekdays, date lines, order, duplicates, text not in the tome, accents, heading suffixes → .claude/reports/rebuild-audit-<date>.md + .cache/rebuild-audit/*.json; reviewed exceptions in src/scripts/rebuild_audit_exceptions.yaml (e.g. just rebuild-audit 001-074 081-100)
 rebuild-audit *ARGS:
     PYTHONHASHSEED=0 uv run --quiet --with python-docx --with pymupdf --with numpy --with pyyaml python src/scripts/rebuild_audit.py {{ARGS}}
 

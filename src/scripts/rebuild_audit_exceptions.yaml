@@ -1,0 +1,70 @@
+# Reviewed exceptions for `just rebuild-audit` (src/scripts/rebuild_audit.py).
+#
+# A finding that matches an entry is kept in the JSON, marked `accepted`, and listed in the report under
+# "Accepted", not as a finding. An entry that no longer matches anything is listed as stale (remove it).
+#
+# Keys: carnet (string), category, then para (paragraph id or list of ids) and/or file and/or match (substring of
+# the finding message) to narrow it; status = marie | false-positive | owner-default; reason; triage = the
+# triage note (in content/_renumber/... or the lead's rebuild-state/triage/<letter>-*.md) that judged it.
+#
+# status meanings
+#   marie          Marie's own text or slip, kept by policy (never fact-correct Marie)
+#   false-positive the audit misreads the tome (OCR gap, garbled row, refrain aligned to another occurrence)
+#   owner-default  an open owner question (OWNER-QUESTIONS.md); the default stays until the owner decides
+#
+# Add an entry only after checking the tome docx / scan; say what you checked in `reason`.
+
+# --- carnets 000-030 (triage a) ---------------------------------------------------------------
+- {carnet: '002', category: carnet-continuity, para: '002.0001', status: owner-default, triage: a-000-030 / owner Q1,
+   reason: "Page written at the end of Livre 2, headed «Lundi 2 février 1873»; sorted first (current). Owner: first or last in 002?"}
+- {carnet: '002', category: order-out-of-source, para: '002.0001', status: owner-default, triage: a-000-030 / owner Q1,
+   reason: "Same page (tome01 ¶566): sorted first, the tome has it at the end of Livre 2."}
+- {carnet: '008', category: partial-in-source, para: '008.0069', status: false-positive, triage: a-000-030,
+   reason: "docx ¶389-390 cut at the page break «…le temps d'ap-», then blank paragraphs; _original has the full sentence."}
+- {carnet: '013', category: not-in-source, para: '013.0054', status: false-positive, triage: a-000-030,
+   reason: "docx ¶7324-7351 are 28 empty paragraphs (an OCR gap) and ¶7352 begins mid-sentence «ne lui donnerait pas le bras.»; _original joins the docx tail exactly. No scan of tome 2."}
+- {carnet: '016', category: order-out-of-source, para: '016.0182', status: false-positive, triage: a-000-030,
+   reason: "The docx page is jumbled (interlinear fragments «Avant / Howard me / leva aussi;»); _original 0180-0183 reads correctly."}
+- {carnet: '017', category: editorial-not-in-source, para: '017.0281', status: owner-default, triage: a-000-030 / owner Q2,
+   reason: "«[Note de l'éd. : ici un dessin…]» with no drawing in the tome (Kernberger-derived): keep as editorial or drop (drop = rebuild)?"}
+- {carnet: '018', category: editorial-not-in-source, para: '018.0036', status: owner-default, triage: a-000-030 / owner Q2, reason: "as 017.0281"}
+- {carnet: '019', category: editorial-not-in-source, para: '019.0156', status: owner-default, triage: a-000-030 / owner Q2, reason: "as 017.0281"}
+- {carnet: '025', category: editorial-not-in-source, para: '025.0270', status: owner-default, triage: a-000-030 / owner Q2, reason: "as 017.0281"}
+- {carnet: '027', category: editorial-not-in-source, para: '027.0011', status: owner-default, triage: a-000-030 / owner Q2, reason: "as 017.0281"}
+- {carnet: '028', category: editorial-not-in-source, para: '028.0279', status: owner-default, triage: a-000-030 / owner Q2, reason: "as 017.0281"}
+- {carnet: '018', category: weekday-differs, para: '018.0360', status: owner-default, triage: a-000-030 / owner Q4,
+   reason: "tome 3 reads «Lundi 23 avril» (likely OCR, no scan); calendar weekday Thursday kept."}
+- {carnet: '020', category: weekday-differs, para: '020.0436', status: owner-default, triage: a-000-030 / owner Q4,
+   reason: "tome 3 reads «Lundi 27 juin» (likely OCR, no scan); calendar weekday Saturday kept."}
+- {carnet: '021', category: partial-in-source, para: '021.0214', status: false-positive, triage: a-000-030,
+   reason: "docx ¶307 is OCR-garbled («enfa d°nnera'S des man'ères») at a page break; _original reads correctly."}
+- {carnet: '022', category: not-in-source, para: '022.0087', status: false-positive, triage: a-000-030,
+   reason: "«Papari poulos grec»; docx ¶857 «Papari poulous grec» (spelling variant of the index form)."}
+- {carnet: '023', category: heading-other-day, para: '023.0269', status: marie, triage: a-000-030,
+   reason: "Marie wrote «Mercredi 16 septembre», then the 13th, then «Mercredi 16 … nous nous embarquons»; the 13th is kept as `##` inside 1874-09-16 (015/REVIEW)."}
+- {carnet: '030', category: order-out-of-source, para: '030.0239', status: false-positive, triage: a-000-030,
+   reason: "_original 0239-0241 = docx ¶4833-4835 in order, directly under «Jeudi 18 mars 1875» (¶4832); the aligner picked another occurrence."}
+
+# --- carnets 031-059 (triage b) ---------------------------------------------------------------
+- {carnet: '043', category: heading-duplicate, para: '043.0306', status: marie, triage: b-031-059,
+   reason: "tome05 ¶5208 and ¶5252 both read «Lundi 20 septembre 1875»: Marie wrote the date twice (the 2nd block starts «Hier au théâtre…»)."}
+- {carnet: '048', category: order-out-of-source, para: '048.0423', status: false-positive, triage: b-031-059,
+   reason: "048.0422-0430 is in exactly tome06 ¶1988-1999 order (p.126 checked); «Vous voyez bien !» aligned to another occurrence."}
+- {carnet: '050', category: order-out-of-source, para: '050.1204', status: false-positive, triage: b-031-059,
+   reason: "In tome order (¶4107-4108); the refrain «Ah ! que ne sommes-nous bien à Nice !» ×3 confuses the aligner."}
+- {carnet: '055', category: editorial-not-in-source, para: '055.0471', status: marie, triage: b-031-059,
+   reason: "«[Rayé: Jeudi 9 mars 1876]»: tome07 ¶1837 is OCR-garbled («inayc. jcuui v mars IO4OJ»); print p.128 (top line cut off) reads it; the RSR documents it."}
+- {carnet: '056', category: order-out-of-source, para: '056.0001', status: marie, triage: b-031-059 / owner cosmetic 8,
+   reason: "tome07 ¶2664 is the Livre 56 title-page note; _original puts heading + first paragraph first and the note as 056.0002 on purpose (REVIEW-07). Content complete."}
+
+# --- carnets 060-074 (triage c) ---------------------------------------------------------------
+- {carnet: '063', category: not-in-source, para: '063.0170', status: marie, triage: c-060-074 / owner Q10,
+   reason: "Marie's own page-foot note (Tome8.pdf p.268, «1. Ce qui est très curieux…») to «table d'hôte¹»; the docx has neither the call nor the note. Kept as `margin`; the literal «¹» prefix is owner question 10."}
+- {carnet: '072', category: order-out-of-source, para: '072.0093', status: false-positive, triage: c-060-074,
+   reason: "Tome10.pdf p.219 is printed 219 and p.220 is printed 218, so the docx reads printed 217, 219, 218. _original follows the printed order (REVIEW-072 structural decision 1)."}
+
+# --- carnets 075-106 (triage d, e) ------------------------------------------------------------
+- {carnet: '094', category: heading-duplicate, para: '094.0040', status: marie, triage: d-081-100,
+   reason: "The print repeats «Jeudi 15 décembre 1881» (tome14 ¶3148, ¶3161); the second block «C'était le jour fixe pour ma sortie…» is real text."}
+- {carnet: '105', category: date-heading-mismatch, para: '105.0466', status: marie, triage: e-075-080-101-106,
+   reason: "tome16 ¶3766 «Jeudi 7 octobre 1884» is printed between «Mercredi 6 août» and «Vendredi 8 août» (p.279): Marie's or the typesetter's slip, kept and filed by the weekday (7 Aug 1884 = Thursday). Documented in REVIEW §1 only; an in-file RSR note is still missing."}
