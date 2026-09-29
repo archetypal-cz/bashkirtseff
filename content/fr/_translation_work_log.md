@@ -16,21 +16,21 @@ These files already have FRE comments from previous work and can be skipped.
 #### Carnet 062 (18 passages total)
 
 **COMPLETED:**
-- ✅ 1876-06-15.md (para 062.0341) - "Chi lo sa?" → "Qui sait?"
-- ✅ 1876-06-30.md (para 062.0670) - "Chi lo sa? Deo juvante" → "Qui sait ? Avec l'aide de Dieu"
-- ✅ 1876-06-26.md (para 062.0603, 062.0606) - "E altro!" → "Eh bien non!", "O canaglia!" → "Ô coquin!"
-- ✅ 1876-06-27.md (para 062.0626) - "chtchenock" → "chiot"
+- ✅ 1876-06-15.md (para 062.0357) - "Chi lo sa?" → "Qui sait?"
+- ✅ 1876-06-30.md (para 062.0786) - "Chi lo sa? Deo juvante" → "Qui sait ? Avec l'aide de Dieu"
+- ✅ 1876-06-26.md (para 062.0703, 062.0708) - "E altro!" → "Eh bien non!", "O canaglia!" → "Ô coquin!"
+- ✅ 1876-06-27.md (para 062.0729) - "chtchenock" → "chiot"
 
 **REMAINING:**
-- [ ] 1876-06-02.md (para 062.0133, 062.0138) - "Orlando" (title, SKIP), "Vaticinio" (etymology, SKIP)
-- [ ] 1876-06-04.md (para 062.0178) - "Habeas...?" (truncated reference, SKIP)
-- [ ] 1876-06-07.md (para 062.0271) - "moujiks" (French loanword, SKIP)
-- [ ] 1876-06-18-19.md (para 062.0441) - Latin maxim (self-translated, SKIP or add note)
-- [ ] 1876-06-22.md (para 062.0519) - "Italia! Reggio del ciel!" (opera aria quote - NEEDS TRANSLATION)
-- [ ] 1876-06-23.md (para 062.0547) - "Pietruccio" (proper name, SKIP)
-- [ ] 1876-06-24.md (para 062.0554, 062.0568) - "la Patria", "Nizza" (context explains, SKIP)
-- [ ] 1876-06-28.md (para 062.0650) - "Domine, salvum fac futurum Pium X" (papal prayer - NEEDS TRANSLATION)
-- [ ] 1876-07-03.md (para 062.0691, 062.0736) - Latin maxims - one self-translated, "Gloriae cupiditate" (NEEDS TRANSLATION)
+- [ ] 1876-06-02.md (para 062.0129, 062.0134) - "Orlando" (title, SKIP), "Vaticinio" (etymology, SKIP)
+- [ ] 1876-06-04.md (para 062.0172) - "Habeas...?" (truncated reference, SKIP)
+- [ ] 1876-06-07.md (para 062.0274) - "moujiks" (French loanword, SKIP)
+- [ ] 1876-06-18-19.md (para 062.0453) - Latin maxim (self-translated, SKIP or add note)
+- [ ] 1876-06-22.md (para 062.0529) - "Italia! Reggio del ciel!" (opera aria quote - NEEDS TRANSLATION)
+- [ ] 1876-06-23.md (para 062.0557) - "Pietruccio" (proper name, SKIP)
+- [ ] 1876-06-24.md (para 062.0564, 062.0579) - "la Patria", "Nizza" (context explains, SKIP)
+- [ ] 1876-06-28.md (para 062.0765) - "Domine, salvum fac futurum Pium X" (papal prayer - NEEDS TRANSLATION)
+- [ ] 1876-07-03.md (para 062.0832, 062.DROPPED-0736) - Latin maxims - one self-translated, "Gloriae cupiditate" (NEEDS TRANSLATION)
 
 #### Carnet 063 (6 passages)
 - [ ] All passages need review

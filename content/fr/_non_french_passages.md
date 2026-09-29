@@ -1215,47 +1215,47 @@ They need AI translation into French.
 - **059/1876-05-07.md** para 059.0890 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Carpo di Bacco!" - "Body of Bacchus!"; Italian oath, euphemistic %%
 - **059/1876-05-08.md** para 059.0921 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH RUSSIAN: "chtchenok" (щенок) - puppy, young dog; pejorative for an immature young man %%
 - **059/1876-05-09.md** para 059.0952 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN PROVERB: "Vis un siècle et étudie un siècle" - Live a century and study a century (one never stops learning) %%
-- **060/1876-05-10.md** para 060.0005 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ENGLISH: "we are off" - we're leaving; Marie's casual English %%
-- **060/1876-05-10.md** para 060.0011 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: "San Diou de Diou!" - "Saint God of God!"; Nice dialect exclamation %%
-- **060/1876-05-10.md** para 060.0021 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Corpo di Dio" - "Body of God"; oath/exclamation %%
-- **060/1876-05-13.md** para 060.0080 [ITALIAN]: %% 2026-02-10T12:30:00 LAN: ITALIAN place name: "di San Giovanni in Laterano" - the Archbasilica of Saint John Lateran. Marie uses Italian preposition "di" naturally in Rome context. %%
-- **060/1876-05-15.md** para 060.0250 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "com'è carina!" - "how pretty she is!"; overheard compliment %%
-- **060/1876-05-19.md** para 060.0561 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Mercurio" - Mercury, the messenger god; i.e., go-between in romantic affairs %%
-- **060/1876-05-19.md** para 060.0803 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Occhi neri" - "Black eyes"; affectionate address %%
-- **060/1876-05-20.md** para 060.0884 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "*Gloriae cupiditate*" - desire for glory/ambition (classical Latin phrase, shows Marie's education) %%
-- **062/1876-06-02.md** para 062.0133 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Orlando" - Ariosto's Orlando Furioso, Italian Renaissance epic poem %%
-- **062/1876-06-02.md** para 062.0138 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Vaticinio" - from Latin vaticinium (prophecy); Marie displays classical learning %%
-- **062/1876-06-04.md** para 062.0178 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Habeas...?" - truncated Latin phrase from papal verification ritual legend %%
-- **062/1876-06-07.md** para 062.0271 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "moujiks" - Russian peasants; Marie's class prejudice showing %%
-- **062/1876-06-15.md** para 062.0341 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? Marie's habitual Italian expression %%
-- **062/1876-06-18-19.md** para 062.0441 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: Publius Syrus maxim - 1st century BC Latin writer; Marie's classical education %%
-- **062/1876-06-22.md** para 062.0519 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Italia! Reggio del ciel! sol beato..." - from Thomas's Mignon, "Connais-tu le pays" aria %%
-- **062/1876-06-23.md** para 062.0547 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Pietruccio" - ITALIAN diminutive of Pietro (little Pietro - echoes her own Pietro) %%
-- **062/1876-06-24.md** para 062.0554 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "la Patria" - the Fatherland (Italian nationalist term) %%
-- **062/1876-06-24.md** para 062.0568 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Nizza" - ITALIAN for Nice (causing mail to go to Nizza Monferrato in Italy first) %%
-- **062/1876-06-26.md** para 062.0605 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN LETTER INSERTED: Pietro's love letter pinned to the notebook (original Italian preserved) %%
-- **062/1876-06-26.md** para 062.0606 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "O canaglia !" - Oh scoundrel! (ironic exclamation while delighted) %%
-- **062/1876-06-27.md** para 062.0626 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "chtchenock" (shchenok) - puppy; affectionate diminutive for Pietro %%
-- **062/1876-06-28.md** para 062.0650 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Domine, salvum fac futurum Pium X" - Lord, save the future Pius X; Marie's papal fantasy %%
-- **062/1876-06-30.md** para 062.0670 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? %%
-- **062/1876-06-30.md** para 062.0670 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Deo juvante" - With God's help %%
-- **062/1876-07-03.md** para 062.0691 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Amor decrescit ubique crescere non possit" - Love diminishes where it cannot grow; classical maxim %%
-- **062/1876-07-03.md** para 062.0736 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "*Gloriae cupiditate*" - with desire for glory; carnet's closing motto %%
+- **060/1876-05-10.md** para 060.0007 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ENGLISH: "we are off" - we're leaving; Marie's casual English %%
+- **060/1876-05-10.md** para 060.0013 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: "San Diou de Diou!" - "Saint God of God!"; Nice dialect exclamation %%
+- **060/1876-05-10.md** para 060.0024 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Corpo di Dio" - "Body of God"; oath/exclamation %%
+- **060/1876-05-13.md** para 060.0085 [ITALIAN]: %% 2026-02-10T12:30:00 LAN: ITALIAN place name: "di San Giovanni in Laterano" - the Archbasilica of Saint John Lateran. Marie uses Italian preposition "di" naturally in Rome context. %%
+- **060/1876-05-15.md** para 060.0255 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "com'è carina!" - "how pretty she is!"; overheard compliment %%
+- **060/1876-05-19.md** para 060.0636 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Mercurio" - Mercury, the messenger god; i.e., go-between in romantic affairs %%
+- **060/1876-05-19.md** para 060.0885 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Occhi neri" - "Black eyes"; affectionate address %%
+- **060/1876-05-20.md** para 060.DROPPED-0884 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "*Gloriae cupiditate*" - desire for glory/ambition (classical Latin phrase, shows Marie's education) %%
+- **062/1876-06-02.md** para 062.0129 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Orlando" - Ariosto's Orlando Furioso, Italian Renaissance epic poem %%
+- **062/1876-06-02.md** para 062.0134 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Vaticinio" - from Latin vaticinium (prophecy); Marie displays classical learning %%
+- **062/1876-06-04.md** para 062.0172 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Habeas...?" - truncated Latin phrase from papal verification ritual legend %%
+- **062/1876-06-07.md** para 062.0274 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "moujiks" - Russian peasants; Marie's class prejudice showing %%
+- **062/1876-06-15.md** para 062.0357 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? Marie's habitual Italian expression %%
+- **062/1876-06-18-19.md** para 062.0453 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: Publius Syrus maxim - 1st century BC Latin writer; Marie's classical education %%
+- **062/1876-06-22.md** para 062.0529 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Italia! Reggio del ciel! sol beato..." - from Thomas's Mignon, "Connais-tu le pays" aria %%
+- **062/1876-06-23.md** para 062.0557 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Pietruccio" - ITALIAN diminutive of Pietro (little Pietro - echoes her own Pietro) %%
+- **062/1876-06-24.md** para 062.0564 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "la Patria" - the Fatherland (Italian nationalist term) %%
+- **062/1876-06-24.md** para 062.0579 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Nizza" - ITALIAN for Nice (causing mail to go to Nizza Monferrato in Italy first) %%
+- **062/1876-06-26.md** para 062.0705 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN LETTER INSERTED: Pietro's love letter pinned to the notebook (original Italian preserved) %%
+- **062/1876-06-26.md** para 062.0708 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "O canaglia !" - Oh scoundrel! (ironic exclamation while delighted) %%
+- **062/1876-06-27.md** para 062.0729 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "chtchenock" (shchenok) - puppy; affectionate diminutive for Pietro %%
+- **062/1876-06-28.md** para 062.0765 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Domine, salvum fac futurum Pium X" - Lord, save the future Pius X; Marie's papal fantasy %%
+- **062/1876-06-30.md** para 062.0786 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? %%
+- **062/1876-06-30.md** para 062.0786 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Deo juvante" - With God's help %%
+- **062/1876-07-03.md** para 062.0832 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Amor decrescit ubique crescere non possit" - Love diminishes where it cannot grow; classical maxim %%
+- **062/1876-07-03.md** para 062.DROPPED-0736 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "*Gloriae cupiditate*" - with desire for glory; carnet's closing motto %%
 - **063/1876-07-04-05.md** para 063.0013 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Monsignor" - ITALIAN: honorary title for Catholic prelates, used in French without translation %%
 - **063/1876-07-04-05.md** para 063.0013 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN follows - "cantiques en latin" - religious hymns in Latin as spoken in Catholic liturgy %%
-- **063/1876-07-12.md** para 063.0137 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Caccia-Club" - ITALIAN: hunting club; exclusive Roman gentlemen's social club %%
-- **063/1876-07-18.md** para 063.0248 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "papabile" - popable, eligible for papacy; cardinal considered likely papal candidate %%
-- **063/1876-07-19.md** para 063.0500 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Gloriae cupiditate" - desire for glory; classical phrase %%
-- **063/1876-07-19.md** para 063.0500 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "His Grace the Duke of Hamilton" - abbreviated; first mention of future obsession %%
+- **063/1876-07-12.md** para 063.0165 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Caccia-Club" - ITALIAN: hunting club; exclusive Roman gentlemen's social club %%
+- **063/1876-07-18.md** para 063.0530 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "papabile" - popable, eligible for papacy; cardinal considered likely papal candidate %%
+- **063/1876-07-19.md** para 063.DROPPED-0500 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Gloriae cupiditate" - desire for glory; classical phrase %%
+- **063/1876-07-19.md** para 063.DROPPED-0500 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "His Grace the Duke of Hamilton" - abbreviated; first mention of future obsession %%
 - **064/1876-07-25.md** para 064.0193 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN follows - "O stella argentea" Neapolitan song title meaning "O silver star" %%
-- **064/1876-07-26-27.md** para 064.0268 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH follows - "flirtation" used in French, borrowed from English %%
-- **064/1876-07-29.md** para 064.0304 [RUSSIAN]: %% 2025-07-19T23:55:00 RSR: PRUSSIAN EXCURSIONS: Russian embassy visit for Julie Benkendorff address - she's in Russia. Chocolat causing Prussian attention. Neuenhagen garden walk, German language attempts. %%
-- **064/1876-08-03.md** para 064.0390 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH follows - "The Last of the Barons" Edward Bulwer-Lytton's 1843 historical novel %%
-- **064/1876-08-04.md** para 064.0396 [RUSSIAN]: %% 2025-07-20T00:25:00 RSR: RUSSIAN WELCOME: Princess treatment at Wirballen - gendarmes, customs officials, no baggage inspection. Imperial defense - helmet effect on eyes like Emperor's. French soldiers resembling Napoleon parallel. %%
-- **064/1876-08-04.md** para 064.0412 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "drochki/droschki" - light open carriage with single seat %%
-- **064/1876-08-11-12.md** para 064.0548 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN follows - "Turpis, execrabilis!" shameful, detestable! (self-condemnation) %%
-- **064/1876-08-11-12.md** para 064.0550 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "calatch/kalach" - traditional Russian white bread, specific to Moscow %%
-- **064/1876-08-11-12.md** para 064.0550 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "assetrine/osetrina" - sturgeon, prized Russian fish %%
+- **064/1876-07-26-27.md** para 064.0271 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH follows - "flirtation" used in French, borrowed from English %%
+- **064/1876-07-29.md** para 064.0307 [RUSSIAN]: %% 2025-07-19T23:55:00 RSR: PRUSSIAN EXCURSIONS: Russian embassy visit for Julie Benkendorff address - she's in Russia. Chocolat causing Prussian attention. Neuenhagen garden walk, German language attempts. %%
+- **064/1876-08-03.md** para 064.0392 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH follows - "The Last of the Barons" Edward Bulwer-Lytton's 1843 historical novel %%
+- **064/1876-08-04.md** para 064.0398 [RUSSIAN]: %% 2025-07-20T00:25:00 RSR: RUSSIAN WELCOME: Princess treatment at Wirballen - gendarmes, customs officials, no baggage inspection. Imperial defense - helmet effect on eyes like Emperor's. French soldiers resembling Napoleon parallel. %%
+- **064/1876-08-04.md** para 064.0414 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "drochki/droschki" - light open carriage with single seat %%
+- **064/1876-08-12.md** para 064.0551 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN follows - "Turpis, execrabilis!" shameful, detestable! (self-condemnation) %%
+- **064/1876-08-12.md** para 064.0553 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "calatch/kalach" - traditional Russian white bread, specific to Moscow %%
+- **064/1876-08-12.md** para 064.0553 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "assetrine/osetrina" - sturgeon, prized Russian fish %%
 - **065/1876-08-17.md** para 065.0007 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "hetman" - Cossack military leader, ruler of Little Russia/Ukraine %%
 - **065/1876-08-20.md** para 065.0029 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "drochki-de course" - racing droshky, light high-speed carriage %%
 - **065/1876-08-20.md** para 065.0029 [RUSSIAN]: %% 2026-02-02T12:30:00 LAN: RUSSIAN term - "verstes" - Russian unit of distance, about 1.067 km %%

@@ -11016,7 +11016,7 @@
   "060": [
     {
       "file": "1876-05-10.md",
-      "para_id": "060.0005",
+      "para_id": "060.0007",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH ENGLISH: \"we are off\" - we're leaving; Marie's casual English %%",
       "fr_file": "content/fr/060/1876-05-10.md",
@@ -11025,7 +11025,7 @@
     },
     {
       "file": "1876-05-10.md",
-      "para_id": "060.0011",
+      "para_id": "060.0013",
       "language": "CODE-SWITCH",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: \"San Diou de Diou!\" - \"Saint God of God!\"; Nice dialect exclamation %%",
       "fr_file": "content/fr/060/1876-05-10.md",
@@ -11034,7 +11034,7 @@
     },
     {
       "file": "1876-05-10.md",
-      "para_id": "060.0021",
+      "para_id": "060.0024",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: \"Corpo di Dio\" - \"Body of God\"; oath/exclamation %%",
       "fr_file": "content/fr/060/1876-05-10.md",
@@ -11043,7 +11043,7 @@
     },
     {
       "file": "1876-05-13.md",
-      "para_id": "060.0080",
+      "para_id": "060.0085",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-10T12:30:00 LAN: ITALIAN place name: \"di San Giovanni in Laterano\" - the Archbasilica of Saint John Lateran. Marie uses Italian preposition \"di\" naturally in Rome context. %%",
       "fr_file": "content/fr/060/1876-05-13.md",
@@ -11052,7 +11052,7 @@
     },
     {
       "file": "1876-05-15.md",
-      "para_id": "060.0250",
+      "para_id": "060.0255",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: \"com'è carina!\" - \"how pretty she is!\"; overheard compliment %%",
       "fr_file": "content/fr/060/1876-05-15.md",
@@ -11061,7 +11061,7 @@
     },
     {
       "file": "1876-05-19.md",
-      "para_id": "060.0561",
+      "para_id": "060.0636",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: \"Mercurio\" - Mercury, the messenger god; i.e., go-between in romantic affairs %%",
       "fr_file": "content/fr/060/1876-05-19.md",
@@ -11070,7 +11070,7 @@
     },
     {
       "file": "1876-05-19.md",
-      "para_id": "060.0803",
+      "para_id": "060.0885",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: \"Occhi neri\" - \"Black eyes\"; affectionate address %%",
       "fr_file": "content/fr/060/1876-05-19.md",
@@ -11079,7 +11079,7 @@
     },
     {
       "file": "1876-05-20.md",
-      "para_id": "060.0884",
+      "para_id": "060.DROPPED-0884",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN: \"*Gloriae cupiditate*\" - desire for glory/ambition (classical Latin phrase, shows Marie's education) %%",
       "fr_file": "content/fr/060/1876-05-20.md",
@@ -11090,7 +11090,7 @@
   "062": [
     {
       "file": "1876-06-02.md",
-      "para_id": "062.0133",
+      "para_id": "062.0129",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: ITALIAN: \"Orlando\" - Ariosto's Orlando Furioso, Italian Renaissance epic poem %%",
       "fr_file": "content/fr/062/1876-06-02.md",
@@ -11099,7 +11099,7 @@
     },
     {
       "file": "1876-06-02.md",
-      "para_id": "062.0138",
+      "para_id": "062.0134",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Vaticinio\" - from Latin vaticinium (prophecy); Marie displays classical learning %%",
       "fr_file": "content/fr/062/1876-06-02.md",
@@ -11108,7 +11108,7 @@
     },
     {
       "file": "1876-06-04.md",
-      "para_id": "062.0178",
+      "para_id": "062.0172",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Habeas...?\" - truncated Latin phrase from papal verification ritual legend %%",
       "fr_file": "content/fr/062/1876-06-04.md",
@@ -11117,7 +11117,7 @@
     },
     {
       "file": "1876-06-07.md",
-      "para_id": "062.0271",
+      "para_id": "062.0274",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"moujiks\" - Russian peasants; Marie's class prejudice showing %%",
       "fr_file": "content/fr/062/1876-06-07.md",
@@ -11126,7 +11126,7 @@
     },
     {
       "file": "1876-06-15.md",
-      "para_id": "062.0341",
+      "para_id": "062.0357",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: ITALIAN: \"Chi lo sa?\" - Who knows? Marie's habitual Italian expression %%",
       "fr_file": "content/fr/062/1876-06-15.md",
@@ -11135,7 +11135,7 @@
     },
     {
       "file": "1876-06-18-19.md",
-      "para_id": "062.0441",
+      "para_id": "062.0453",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: Publius Syrus maxim - 1st century BC Latin writer; Marie's classical education %%",
       "fr_file": "content/fr/062/1876-06-18-19.md",
@@ -11144,7 +11144,7 @@
     },
     {
       "file": "1876-06-22.md",
-      "para_id": "062.0519",
+      "para_id": "062.0529",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: ITALIAN: \"Italia! Reggio del ciel! sol beato...\" - from Thomas's Mignon, \"Connais-tu le pays\" aria %%",
       "fr_file": "content/fr/062/1876-06-22.md",
@@ -11153,7 +11153,7 @@
     },
     {
       "file": "1876-06-23.md",
-      "para_id": "062.0547",
+      "para_id": "062.0557",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: \"Pietruccio\" - ITALIAN diminutive of Pietro (little Pietro - echoes her own Pietro) %%",
       "fr_file": "content/fr/062/1876-06-23.md",
@@ -11162,7 +11162,7 @@
     },
     {
       "file": "1876-06-24.md",
-      "para_id": "062.0554",
+      "para_id": "062.0564",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ITALIAN: \"la Patria\" - the Fatherland (Italian nationalist term) %%",
       "fr_file": "content/fr/062/1876-06-24.md",
@@ -11171,7 +11171,7 @@
     },
     {
       "file": "1876-06-24.md",
-      "para_id": "062.0568",
+      "para_id": "062.0579",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: \"Nizza\" - ITALIAN for Nice (causing mail to go to Nizza Monferrato in Italy first) %%",
       "fr_file": "content/fr/062/1876-06-24.md",
@@ -11180,7 +11180,7 @@
     },
     {
       "file": "1876-06-26.md",
-      "para_id": "062.0605",
+      "para_id": "062.0705",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ITALIAN LETTER INSERTED: Pietro's love letter pinned to the notebook (original Italian preserved) %%",
       "fr_file": "content/fr/062/1876-06-26.md",
@@ -11189,7 +11189,7 @@
     },
     {
       "file": "1876-06-26.md",
-      "para_id": "062.0606",
+      "para_id": "062.0708",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ITALIAN: \"O canaglia !\" - Oh scoundrel! (ironic exclamation while delighted) %%",
       "fr_file": "content/fr/062/1876-06-26.md",
@@ -11198,7 +11198,7 @@
     },
     {
       "file": "1876-06-27.md",
-      "para_id": "062.0626",
+      "para_id": "062.0729",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: RUSSIAN: \"chtchenock\" (shchenok) - puppy; affectionate diminutive for Pietro %%",
       "fr_file": "content/fr/062/1876-06-27.md",
@@ -11207,7 +11207,7 @@
     },
     {
       "file": "1876-06-28.md",
-      "para_id": "062.0650",
+      "para_id": "062.0765",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Domine, salvum fac futurum Pium X\" - Lord, save the future Pius X; Marie's papal fantasy %%",
       "fr_file": "content/fr/062/1876-06-28.md",
@@ -11216,7 +11216,7 @@
     },
     {
       "file": "1876-06-30.md",
-      "para_id": "062.0670",
+      "para_id": "062.0786",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ITALIAN: \"Chi lo sa?\" - Who knows? %%",
       "fr_file": "content/fr/062/1876-06-30.md",
@@ -11225,7 +11225,7 @@
     },
     {
       "file": "1876-06-30.md",
-      "para_id": "062.0670",
+      "para_id": "062.0786",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN: \"Deo juvante\" - With God's help %%",
       "fr_file": "content/fr/062/1876-06-30.md",
@@ -11234,7 +11234,7 @@
     },
     {
       "file": "1876-07-03.md",
-      "para_id": "062.0691",
+      "para_id": "062.0832",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Amor decrescit ubique crescere non possit\" - Love diminishes where it cannot grow; classical maxim %%",
       "fr_file": "content/fr/062/1876-07-03.md",
@@ -11243,7 +11243,7 @@
     },
     {
       "file": "1876-07-03.md",
-      "para_id": "062.0736",
+      "para_id": "062.DROPPED-0736",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"*Gloriae cupiditate*\" - with desire for glory; carnet's closing motto %%",
       "fr_file": "content/fr/062/1876-07-03.md",
@@ -11272,7 +11272,7 @@
     },
     {
       "file": "1876-07-12.md",
-      "para_id": "063.0137",
+      "para_id": "063.0165",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: \"Caccia-Club\" - ITALIAN: hunting club; exclusive Roman gentlemen's social club %%",
       "fr_file": "content/fr/063/1876-07-12.md",
@@ -11281,7 +11281,7 @@
     },
     {
       "file": "1876-07-18.md",
-      "para_id": "063.0248",
+      "para_id": "063.0530",
       "language": "ITALIAN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: ITALIAN: \"papabile\" - popable, eligible for papacy; cardinal considered likely papal candidate %%",
       "fr_file": "content/fr/063/1876-07-18.md",
@@ -11290,7 +11290,7 @@
     },
     {
       "file": "1876-07-19.md",
-      "para_id": "063.0500",
+      "para_id": "063.DROPPED-0500",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: LATIN: \"Gloriae cupiditate\" - desire for glory; classical phrase %%",
       "fr_file": "content/fr/063/1876-07-19.md",
@@ -11299,7 +11299,7 @@
     },
     {
       "file": "1876-07-19.md",
-      "para_id": "063.0500",
+      "para_id": "063.DROPPED-0500",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:20:00 LAN: ENGLISH: \"His Grace the Duke of Hamilton\" - abbreviated; first mention of future obsession %%",
       "fr_file": "content/fr/063/1876-07-19.md",
@@ -11319,7 +11319,7 @@
     },
     {
       "file": "1876-07-26-27.md",
-      "para_id": "064.0268",
+      "para_id": "064.0271",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ENGLISH follows - \"flirtation\" used in French, borrowed from English %%",
       "fr_file": "content/fr/064/1876-07-26-27.md",
@@ -11328,7 +11328,7 @@
     },
     {
       "file": "1876-07-29.md",
-      "para_id": "064.0304",
+      "para_id": "064.0307",
       "language": "RUSSIAN",
       "lan_context": "%% 2025-07-19T23:55:00 RSR: PRUSSIAN EXCURSIONS: Russian embassy visit for Julie Benkendorff address - she's in Russia. Chocolat causing Prussian attention. Neuenhagen garden walk, German language attempts. %%",
       "fr_file": "content/fr/064/1876-07-29.md",
@@ -11337,7 +11337,7 @@
     },
     {
       "file": "1876-08-03.md",
-      "para_id": "064.0390",
+      "para_id": "064.0392",
       "language": "ENGLISH",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: ENGLISH follows - \"The Last of the Barons\" Edward Bulwer-Lytton's 1843 historical novel %%",
       "fr_file": "content/fr/064/1876-08-03.md",
@@ -11346,7 +11346,7 @@
     },
     {
       "file": "1876-08-04.md",
-      "para_id": "064.0396",
+      "para_id": "064.0398",
       "language": "RUSSIAN",
       "lan_context": "%% 2025-07-20T00:25:00 RSR: RUSSIAN WELCOME: Princess treatment at Wirballen - gendarmes, customs officials, no baggage inspection. Imperial defense - helmet effect on eyes like Emperor's. French soldiers resembling Napoleon parallel. %%",
       "fr_file": "content/fr/064/1876-08-04.md",
@@ -11355,7 +11355,7 @@
     },
     {
       "file": "1876-08-04.md",
-      "para_id": "064.0412",
+      "para_id": "064.0414",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: RUSSIAN term - \"drochki/droschki\" - light open carriage with single seat %%",
       "fr_file": "content/fr/064/1876-08-04.md",
@@ -11364,29 +11364,29 @@
     },
     {
       "file": "1876-08-11-12.md",
-      "para_id": "064.0548",
+      "para_id": "064.0551",
       "language": "LATIN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: LATIN follows - \"Turpis, execrabilis!\" shameful, detestable! (self-condemnation) %%",
-      "fr_file": "content/fr/064/1876-08-11-12.md",
-      "original_file": "content/_original/064/1876-08-11-12.md",
+      "fr_file": "content/fr/064/1876-08-12.md",
+      "original_file": "content/_original/064/1876-08-12.md",
       "current_text": "Dieu ! Comment ai-je pu l'embrasser sur la bouche ! Moi la première ! Folle, exécrable créature corrompue ! Ah ! voilà qui me fait pleurer et frissonner de rage ! *Turpis, execrabilis !*"
     },
     {
       "file": "1876-08-11-12.md",
-      "para_id": "064.0550",
+      "para_id": "064.0553",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: RUSSIAN term - \"calatch/kalach\" - traditional Russian white bread, specific to Moscow %%",
-      "fr_file": "content/fr/064/1876-08-11-12.md",
-      "original_file": "content/_original/064/1876-08-11-12.md",
+      "fr_file": "content/fr/064/1876-08-12.md",
+      "original_file": "content/_original/064/1876-08-12.md",
       "current_text": "Une tasse de consommé, un *calatch* chaud et du caviar frais. Voilà un commencement de dîner incomparable. Le calatch est une espèce de pain mais il faut aller à Moscou pour en avoir une idée, et le calatch de Moscou est presque aussi célèbre que son Kremlin. Pour une portion d'assetrine, on m'a donné deux immenses tranches qu'à l'étranger on diviserait en quatre. En outre j'eus une côtelette de veau de quinze centimètres carrés entourée de petits pois et de pommes de terre, un poulet entier, et une soucoupe remplie de caviar représentait « une demi-portion ». Étienne se mit à rire et dit au domestique qu'en Italie il y en aurait pour quatre. Le domestique, grand et maigre comme Gianetto Doria et immobile comme un Anglais, répondit sans bouger et sans changer de physionomie que c'était là la raison de la petite taille et de la maigreur des Italiens, mais les Russes, ajouta-t-il, aiment à bien manger, c'est pour cela qu'ils sont forts. Sur cela l'immobile brute daigna sourire et sortit comme une poupée de bois."
     },
     {
       "file": "1876-08-11-12.md",
-      "para_id": "064.0550",
+      "para_id": "064.0553",
       "language": "RUSSIAN",
       "lan_context": "%% 2026-02-02T12:30:00 LAN: RUSSIAN term - \"assetrine/osetrina\" - sturgeon, prized Russian fish %%",
-      "fr_file": "content/fr/064/1876-08-11-12.md",
-      "original_file": "content/_original/064/1876-08-11-12.md",
+      "fr_file": "content/fr/064/1876-08-12.md",
+      "original_file": "content/_original/064/1876-08-12.md",
       "current_text": "Une tasse de consommé, un *calatch* chaud et du caviar frais. Voilà un commencement de dîner incomparable. Le calatch est une espèce de pain mais il faut aller à Moscou pour en avoir une idée, et le calatch de Moscou est presque aussi célèbre que son Kremlin. Pour une portion d'assetrine, on m'a donné deux immenses tranches qu'à l'étranger on diviserait en quatre. En outre j'eus une côtelette de veau de quinze centimètres carrés entourée de petits pois et de pommes de terre, un poulet entier, et une soucoupe remplie de caviar représentait « une demi-portion ». Étienne se mit à rire et dit au domestique qu'en Italie il y en aurait pour quatre. Le domestique, grand et maigre comme Gianetto Doria et immobile comme un Anglais, répondit sans bouger et sans changer de physionomie que c'était là la raison de la petite taille et de la maigreur des Italiens, mais les Russes, ajouta-t-il, aiment à bien manger, c'est pour cela qu'ils sont forts. Sur cela l'immobile brute daigna sourire et sortit comme une poupée de bois."
     }
   ],
