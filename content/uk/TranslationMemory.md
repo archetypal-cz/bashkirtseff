@@ -410,6 +410,7 @@ Established terminology for consistent translation across carnets.
 | Arsenieff | Арсенієв | Russian acquaintance; predicts English husband and Scottish castle |
 | Lambertye | Ламбертьє | French nobleman, early admirer (established 018) |
 | Woerman | Верман | acquaintance in Marie's circle (German name Woermann); locked 2026-09-29 wave-uk (was split Воерман 013–029 / Верман 016–045) |
+| Cima | Цима | decl. Цими/Цимі/Циму/Цимою; locked 2026-09-29 wave-uk (NOT Сіма) |
 | Jaxa | Якса | acc. Яксу; locked 2026-09-29 wave-uk (NOT Якс) |
 | Magarnoff | Маґарнов/Маґарнова | Russian family; Mlle Magarnoff = sister of the fiddler |
 | princesse Souvoroff | княгиня Суворова | Russian aristocrat; friendly with mother |
