@@ -394,7 +394,7 @@ Established terminology for consistent translation across carnets.
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Worth | Worth | Premier couturier — name kept as-is, no translation |
-| Laferrière (Laferr.) | Лаферрьєр | Rival dressmaker (established 022; confirmed 019) |
+| Laferrière (Laferr.) | Лафер'єр | Rival dressmaker (established 022; confirmed 019) |
 | amazone | амазонка | Women's riding habit for side-saddle |
 | corsage | ліф | Bodice of dress (established 022; reconfirmed 019) |
 | décolleté | відкрите декольте | Low-cut neckline |
@@ -1536,7 +1536,7 @@ Established terminology for consistent translation across carnets.
 - Marot-style begging verse & Richard-Cœur-de-Lion parody verse: rendered as free verse keeping cadence/tone; rhyme not fully reproduced
 - Allusions footnoted: Buckingham/Anne d'Autriche (Dumas), Fouquet/Vaux-le-Vicomte, Clément Marot
 - SPELLING/wordplay "je ne m'en fiche pas mai" [for "mal"]: rendered as wordplay "начхати — і не мало"
-- Place names: Bingenbrueck→Бінгенбрюк, Rüdesheim→Рюдесгайм, Eltvil→Ельтвіль, Schlangenbad→Шлянгенбад, rue de la Paix→вулиця Миру (NOT «Міру» — родовий від "мир"; виправлено FAB 2026-08-14 у 038/08-01, 08-04, 08-11)
+- Place names: Bingenbrueck→Бінгенбрюк, Rüdesheim→Рюдесгайм, Eltvil→Ельтвіль, Schlangenbad→Шланґенбад, rue de la Paix→вулиця Миру (NOT «Міру» — родовий від "мир"; виправлено FAB 2026-08-14 у 038/08-01, 08-04, 08-11)
 - "La Juive" (Halévy) → «Жидівка» (established 029)
 - [Raye:]→[Викреслено:]; [En travers:]→[Навскоси:]; [Huit pages arrachées]→[Вісім сторінок вирвано]; [Deux lignes cancellées]→[Два рядки закреслено]
 
