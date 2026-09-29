@@ -58,7 +58,7 @@ Born Dionisio Gavini in Bastia on 11 October 1819, Denis studied law at the Pari
 - **Master of Requests**, Council of State (January 1852)
 - **Prefect of Lot** (July 1852)
 - **Prefect of Herault** (1856)
-- **Prefect of Alpes-Maritimes** (1861) -- the position Marie references when she calls Adeline "derniere prefete de l'Empire, a Nice" (075.0438, 1877-10-28)
+- **Prefect of Alpes-Maritimes** (1861) -- the position Marie references when she calls Adeline "derniere prefete de l'Empire, a Nice" (075.0464, 1877-10-28)
 - **Commander of the Legion of Honor** (1864)
 
 %% GLO_GAVINI.0008 %%
@@ -66,7 +66,7 @@ After the fall of the Empire on 4 September 1870, Denis returned to elected poli
 - **Deputy for Corsica** in the National Assembly (8 February 1871 -- 7 March 1876)
 - **Deputy for Corsica** in the Chamber of Deputies (14 May 1876 -- 5 December 1885), sitting with the "Appel au peuple" (Bonapartist) group
 
-Marie identifies him on their first significant meeting: "M. Gavini prefet des Alpes Maritimes sous l'Empire, depute a present" (080.0519, 1878-06-07). He lost the election of 14 February 1886 and died in the 8th arrondissement of Paris on 1 March 1916, aged 96 -- outliving Marie by over three decades.
+Marie identifies him on their first significant meeting: "M. Gavini prefet des Alpes Maritimes sous l'Empire, depute a present" (080.0479, 1878-06-07). He lost the election of 14 February 1886 and died in the 8th arrondissement of Paris on 1 March 1916, aged 96 -- outliving Marie by over three decades.
 
 %% GLO_GAVINI.0009 %%
 ### Adeline Gavini (nee d'Agen)
@@ -87,10 +87,10 @@ Son of Denis's brother Sampiero Gavini (1823--1875) and nephew of Denis, Antoine
 ### First Encounters (1877--1878)
 
 %% GLO_GAVINI.0015 %%
-Marie first encounters Mme Gavini in October 1877 at the salon of Mme la generale Doubelt in Paris, where she is introduced as "Mme Gavini, derniere prefete de l'Empire, a Nice" -- meaning the last prefect's wife from the imperial era in Nice, under whose social "reign" the Russian colony (Randouin, Souvoroff, Doubelt, Korsakoff) had flourished (075.0438, 1877-10-28).
+Marie first encounters Mme Gavini in October 1877 at the salon of Mme la generale Doubelt in Paris, where she is introduced as "Mme Gavini, derniere prefete de l'Empire, a Nice" -- meaning the last prefect's wife from the imperial era in Nice, under whose social "reign" the Russian colony (Randouin, Souvoroff, Doubelt, Korsakoff) had flourished (075.0464, 1877-10-28).
 
 %% GLO_GAVINI.0016 %%
-The relationship transforms from casual acquaintance to vital alliance in June 1878, when Marie, desperate to attend a reception at Versailles linked to the Universal Exposition and the Cassagnac affair, recognizes Mme Gavini's landau passing in the Bois de Boulogne and impetuously calls on her that evening. Denis is introduced and immediately offers to help: "M. Gavini qu'on me presente dit que hier encore il etait temps" (080.0519, 1878-06-07). From this moment, the Gavinis become Marie's primary social patrons.
+The relationship transforms from casual acquaintance to vital alliance in June 1878, when Marie, desperate to attend a reception at Versailles linked to the Universal Exposition and the Cassagnac affair, recognizes Mme Gavini's landau passing in the Bois de Boulogne and impetuously calls on her that evening. Denis is introduced and immediately offers to help: "M. Gavini qu'on me presente dit que hier encore il etait temps" (080.0479, 1878-06-07). From this moment, the Gavinis become Marie's primary social patrons.
 
 %% GLO_GAVINI.0017 %%
 ### The Corsican Circle
@@ -105,7 +105,7 @@ The Gavinis anchored a tight-knit Corsican social network in Paris that included
 Denis provided Marie with frank social intelligence. He classified Blanc as "de troisieme categorie" (third category), teaching her the subtle social gradations of the Third Republic (085, 1879). When Marie's name appeared in newspapers (through Saint-Amand's indiscretion), the Gavinis "tres en colere sont venus... me reprocher cette extravagance" -- protecting her reputation (094, 1882-04-29). Denis's political advice was shrewd; he interceded with Turquet at the Ministry of Fine Arts to secure Marie a delay on an atelier matter, and he guided her visits to the Chamber of Deputies at Versailles (087.0151, 1880-03-19).
 
 %% GLO_GAVINI.0021 %%
-Adeline was an indefatigable matchmaker. She evaluated Marie's suitors with businesslike precision -- assessing one marquis as having "20,000 francs de rente et en aura 80,000 mais ses parents sont jeunes" (meaning the inheritance was distant) (084, 1879-04-07). She proposed Multedo (refused "immediatement et a l'unanimite de tous mes sentiments," 080.0777, 1878-06-20), the little "Arnaud" from the Chamber, and various other candidates. When Marie despaired over Cassagnac's marriage, the Gavinis judged that "Cassagnac ne merite qu'Acard et que je suis bien trop jolie, trop riche, trop bien pour lui" (080.0775, 1878-06-20). At the pere Gavini's suggestion of marrying Casimir, Marie records "un mot cruel" -- he advised her, given "votre situation," to consider it, "vraiment" (088, 1880-06-05).
+Adeline was an indefatigable matchmaker. She evaluated Marie's suitors with businesslike precision -- assessing one marquis as having "20,000 francs de rente et en aura 80,000 mais ses parents sont jeunes" (meaning the inheritance was distant) (084, 1879-04-07). She proposed Multedo (refused "immediatement et a l'unanimite de tous mes sentiments," 080.0729, 1878-06-20), the little "Arnaud" from the Chamber, and various other candidates. When Marie despaired over Cassagnac's marriage, the Gavinis judged that "Cassagnac ne merite qu'Acard et que je suis bien trop jolie, trop riche, trop bien pour lui" (080.0727, 1878-06-20). At the pere Gavini's suggestion of marrying Casimir, Marie records "un mot cruel" -- he advised her, given "votre situation," to consider it, "vraiment" (088, 1880-06-05).
 
 %% GLO_GAVINI.0022 %%
 ### Marie's Social Conquest
@@ -117,7 +117,7 @@ Marie was conscious of her relationship with the Gavinis as a strategic achievem
 ### The Later Years (1882--1884)
 
 %% GLO_GAVINI.0025 %%
-The Gavinis remained constant through Marie's artistic career and declining health. They attended the Salon, dined frequently at the Bashkirtseff home, and continued providing social access. By 1884, Marie notes Denis's decline: "Denis devient tout a fait gateux, depuis deux ans il a baisee!" (104, 1884-06-15) -- though at 64, Denis was hardly old by his own standards (he would live to 96). In one of the very last diary entries, "Gavini et Gery ont dine ici" while Marie hides her tuberculosis behind a claimed sore throat (106.0455, 1884-10-18).
+The Gavinis remained constant through Marie's artistic career and declining health. They attended the Salon, dined frequently at the Bashkirtseff home, and continued providing social access. By 1884, Marie notes Denis's decline: "Denis devient tout a fait gateux, depuis deux ans il a baisee!" (104, 1884-06-15) -- though at 64, Denis was hardly old by his own standards (he would live to 96). In one of the very last diary entries, "Gavini et Gery ont dine ici" while Marie hides her tuberculosis behind a claimed sore throat (106.0180, 1884-10-18).
 
 %% GLO_GAVINI.0026 %%
 ## Diary Coverage
@@ -144,10 +144,10 @@ The Gavinis appear across 28 carnets spanning seven years. The densest coverage 
 ## Key Paragraph References
 
 %% GLO_GAVINI.0029 %%
-- **075.0438** -- First mention: "Mme Gavini, derniere prefete de l'Empire, a Nice" at Mme Doubelt's (1877-10-28)
-- **080.0519** -- Marie identifies Denis: "M. Gavini prefet des Alpes Maritimes sous l'Empire, depute a present" (1878-06-07)
-- **080.0519** -- First visit to the Gavinis; Denis offers political help (1878-06-07)
-- **080.0775** -- Marie declares herself "folle de Cassagnac" at the Gavinis; they judge Cassagnac unworthy (1878-06-20)
+- **075.0464** -- First mention: "Mme Gavini, derniere prefete de l'Empire, a Nice" at Mme Doubelt's (1877-10-28)
+- **080.0479** -- Marie identifies Denis: "M. Gavini prefet des Alpes Maritimes sous l'Empire, depute a present" (1878-06-07)
+- **080.0479** -- First visit to the Gavinis; Denis offers political help (1878-06-07)
+- **080.0727** -- Marie declares herself "folle de Cassagnac" at the Gavinis; they judge Cassagnac unworthy (1878-06-20)
 - **081.0260** -- With Mme Gavini at the requiem for Queen Mercedes of Spain at the Madeleine (1878-07-05)
 - **083.0002** -- Mme Gavini returns to Paris, they promenade at the Bois (1878-10-18)
 - **083.0270** -- "J'ai fait la conquete des Gavini" (1878-11-27)
@@ -160,7 +160,7 @@ The Gavinis appear across 28 carnets spanning seven years. The densest coverage 
 - **094** (1882-04-29) -- Gavinis furious at Marie's name appearing in *Le Voltaire*
 - **102** (1883-10-20) -- "Denis et Adeline" mentioned by first names together
 - **104** (1884-06-15) -- "Denis devient tout a fait gateux, depuis deux ans il a baisse!"
-- **106.0455** (1884-10-18) -- Last mention: "Gavini et Gery ont dine ici" during Marie's final illness
+- **106.0180** (1884-10-18) -- Last mention: "Gavini et Gery ont dine ici" during Marie's final illness
 
 %% GLO_GAVINI.0030 %%
 ## Marie's Names for the Gavinis

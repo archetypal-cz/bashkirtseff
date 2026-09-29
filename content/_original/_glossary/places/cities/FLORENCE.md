@@ -105,7 +105,7 @@ Marie arrives from Naples around May 2, staying roughly ten days. This visit is 
 
 ### The 1878 "Visit" That Was Not
 
-Marcuard writes to Marie from Florence (letter dated January 24, 1878, transcribed in 078.0197-0201), describing the city in mourning for King [Vittorio Emanuele II](https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy) (d. January 9, 1878): "tout est en deuil, a Florence, les dames portent robes noires pendant 40 jours" (077.0233). The Pergola is closed, the skating rink deserted. Gordigiani is painting portraits of Russian and American ladies. Marie herself is in Paris and does not visit Florence in 1878, though she contemplates going: "les Cachines" appear in her plans with Yorke and Berthe (078.0301).
+Marcuard writes to Marie from Florence (letter dated January 24, 1878, transcribed in 078.0225-0201), describing the city in mourning for King [Vittorio Emanuele II](https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy) (d. January 9, 1878): "tout est en deuil, a Florence, les dames portent robes noires pendant 40 jours" (077.0215). The Pergola is closed, the skating rink deserted. Gordigiani is painting portraits of Russian and American ladies. Marie herself is in Paris and does not visit Florence in 1878, though she contemplates going: "les Cachines" appear in her plans with Yorke and Berthe (078.0319).
 
 ## Florence in Marie's Imagination (1873-1882)
 
@@ -129,7 +129,7 @@ Marie's ironic appropriation of the Larderei family as "ma famille" persists lon
 - **[Alessandro de Larderei](../../people/mentioned/LARDEREI.md)**: Marie's great obsession; Florentine count, resident at Palazzo de Larderel on Via Tornabuoni
 - **Michele Gordigiani** (1835-1909): Florentine portrait painter; painted Queen Victoria, Prince of Wales, Vittorio Emanuele II; encouraged Marie's art (071.0269, 072, 075, 078)
 - **[Marcuard](../../people/mentioned/MARCUARD.md)**: Swiss friend resident in Florence; his letters provide social intelligence about Florentine society
-- **Mlle Tanska**: Young Polish sculptor (age 16) mentioned in Marcuard's Florence letter (078.0199)
+- **Mlle Tanska**: Young Polish sculptor (age 16) mentioned in Marcuard's Florence letter (078.0227)
 - **Prince Strozzi**, **Mme Needham**: Florentine society figures mentioned in Marcuard's correspondence
 
 ## Key Sites Marie Visited or Referenced
@@ -149,7 +149,7 @@ Marie's ironic appropriation of the Larderei family as "ma famille" persists lon
 ### Promenades and Social Venues
 - **[Le Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine)**: Marie's primary social stage in Florence (043.0128, 071.0103, 071.0161, 071.0264, 071.0278)
 - **[Piazzale Michelangelo](https://en.wikipedia.org/wiki/Piazzale_Michelangelo)**: Centenary illuminations (043.0188)
-- **[Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola)**: The social theater (071.0149, 077.0233, 078.0199)
+- **[Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola)**: The social theater (071.0149, 077.0215, 078.0227)
 - **Teatro Pagliano** (now [Teatro Verdi](https://en.wikipedia.org/wiki/Teatro_Verdi_(Florence))): Opera performances (043.0223)
 - **Skating rink**: Electrically lit social venue (071.0113)
 - **Cercle philharmonique**: Charity concert venue (071.0266)

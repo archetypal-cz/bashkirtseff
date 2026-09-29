@@ -28,8 +28,8 @@ Michelangelo Buonarroti (1475-1564), the Florentine sculptor, painter, and archi
 Michelangelo functions in the diary as Marie's touchstone for artistic genius — a standard against which she measures both the ancients and herself, often to her own despair.
 
 - **083/1878-11-25** (para 083.0255): During a visit to the Louvre's antiquities gallery with Nadine, Marie has an aesthetic epiphany from classical sculpture, citing Michelangelo's reported refusal to complete restoration of the Belvedere Torso because "a man cannot continue the work of gods."
-- **101/1883-08-16** (para 101.0158-159): After missing the Salon Triennale submission deadline, Marie reads Stendhal's writing on Michelangelo and is overcome with despair at "not having his genius," contemplating suicide from the comparison — one of her more acute self-lacerating moments about artistic ambition.
-- **105/1884-07-15** (paras 105.0207, 105.0209): Marie invokes Michelangelo's *Moïse* (Moses) and his seated "Penseur" (likely the figure now commonly called the Lorenzo de' Medici tomb figure, "Il Pensieroso") as her supreme examples of stillness that nonetheless reads as alive — central to her theory that great art favors subjects "au repos" (at rest) over dramatic, agitated compositions.
+- **101/1883-08-16** (para 101.0157-159): After missing the Salon Triennale submission deadline, Marie reads Stendhal's writing on Michelangelo and is overcome with despair at "not having his genius," contemplating suicide from the comparison — one of her more acute self-lacerating moments about artistic ambition.
+- **105/1884-07-15** (paras 105.0197, 105.0199): Marie invokes Michelangelo's *Moïse* (Moses) and his seated "Penseur" (likely the figure now commonly called the Lorenzo de' Medici tomb figure, "Il Pensieroso") as her supreme examples of stillness that nonetheless reads as alive — central to her theory that great art favors subjects "au repos" (at rest) over dramatic, agitated compositions.
 
 ## Historical Context
 

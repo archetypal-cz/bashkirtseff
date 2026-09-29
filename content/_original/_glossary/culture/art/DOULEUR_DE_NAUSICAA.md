@@ -35,7 +35,7 @@ Marie's own description, written the day she made the first sketch, is the best 
 The mythological title came afterwards. The figure was first conceived as one of the mourning women in her projected history painting *[Les Saintes Femmes](./LES_SAINTES_FEMMES.md)*, then detached from it and re-read as **Nausicaa**, the Phaeacian princess of the *Odyssey* who watches Odysseus sail away. Marie retells the parting on the shore at length in her entry of 22 March 1883 (098.0553–0554), and that passage is the interpretive core of the work: the weeping is not bereavement but a woman left standing on a beach while the man goes on to his own story. Her aside there about Penelope — she would gladly strangle her, after Ouida — belongs to the same argument.
 
 %% GLO_DOULEUR_DE_NAUSICAA.0007 %%
-**A note on scale.** The diary describes a large armature — «la grande machine», built full-size by two *praticiens* from her clay maquette, needing an iron frame fixed by a man sent by the sculptor Carriès, and at one point remade because a workman «l'a faite trop grande» (100.0257, 102.0129). The surviving bronze at the Orsay is 83 cm high. How the museum's statuette relates to the large plaster she was fighting with in 1883–84 — reduction, model, or a separate resolution of the same figure — is not established by any source consulted here, and this entry does not assert it.
+**A note on scale.** The diary describes a large armature — «la grande machine», built full-size by two *praticiens* from her clay maquette, needing an iron frame fixed by a man sent by the sculptor Carriès, and at one point remade because a workman «l'a faite trop grande» (100.0257, 102.0130). The surviving bronze at the Orsay is 83 cm high. How the museum's statuette relates to the large plaster she was fighting with in 1883–84 — reduction, model, or a separate resolution of the same figure — is not established by any source consulted here, and this entry does not assert it.
 
 %% GLO_DOULEUR_DE_NAUSICAA.0008 %%
 **No free image exists.** There is nothing on Wikimedia Commons for this sculpture — a conspicuous gap, since it is the only one of her sculptures anyone can still see. One CC BY photograph by the Commons user Sailko, of an Orsay decorative-arts room (the Dampt panelling from the Hôtel de Béarn), claims in its *filename* to include a Bashkirtseff sculpture of 1884, but the file page itself does not confirm it and this project has not verified the identification. A reproduction request to the Musée d'Orsay is the obvious way to close the gap.
@@ -49,16 +49,16 @@ The statue is begun on **27 February 1883**, the same week she finishes *[Jean e
 
 %% GLO_DOULEUR_DE_NAUSICAA.0011 %%
 %% [#Saint_Marceaux](../../people/religious/SAINT_MARCEAUX.md) %%
-Through the summer of 1883 she works *en ronde-bosse* on the advice of the sculptor **Saint-Marceaux** (100.0016), who functions here as her model of ambition much as Bastien-Lepage does in painting. By 30 August she rates the sculpture at least as highly as her painting: «ma sculpture actuelle vaut ma peinture si elle ne lui est pas supérieure» (101.0299). Then in December the confidence collapses — «ma Nausicaa ne signifie rien, on ne comprend pas qu'elle pleure» (102.0077) — and is restored six days later when Julian is summoned and raves: «exquis, charmant, très bien, empoignant… Admirablement bien construit» (102.0083). Tony Robert-Fleury, two days after that, is cooler but satisfied (102.0085).
+Through the summer of 1883 she works *en ronde-bosse* on the advice of the sculptor **Saint-Marceaux** (100.0016), who functions here as her model of ambition much as Bastien-Lepage does in painting. By 30 August she rates the sculpture at least as highly as her painting: «ma sculpture actuelle vaut ma peinture si elle ne lui est pas supérieure» (101.0294). Then in December the confidence collapses — «ma Nausicaa ne signifie rien, on ne comprend pas qu'elle pleure» (102.0078) — and is restored six days later when Julian is summoned and raves: «exquis, charmant, très bien, empoignant… Admirablement bien construit» (102.0084). Tony Robert-Fleury, two days after that, is cooler but satisfied (102.0086).
 
 %% GLO_DOULEUR_DE_NAUSICAA.0012 %%
-The last winter is a running fight over models — she reckons she has used twenty-three where fifteen would do — until she finds the right body in February 1884: «J'ai trouvé une Nausicaa. Un peu grêle mais charmante, seize ans, des formes très pures. Je suis enchantée mais aurai-je le temps.» (103.0318). She did not. On 14 March 1884 she gives up on submitting it: «Ce ne sera pas fini, je n'enverrai donc que le Meeting» (103.0487). Her last recorded plan for it, on 5 April 1884, is to take up the statue seriously in the mornings and paint a nude study in the afternoons (103.0674). She died on 31 October 1884. The bronze that survives is signed 84.
+The last winter is a running fight over models — she reckons she has used twenty-three where fifteen would do — until she finds the right body in February 1884: «J'ai trouvé une Nausicaa. Un peu grêle mais charmante, seize ans, des formes très pures. Je suis enchantée mais aurai-je le temps.» (103.0313). She did not. On 14 March 1884 she gives up on submitting it: «Ce ne sera pas fini, je n'enverrai donc que le Meeting» (103.0472). Her last recorded plan for it, on 5 April 1884, is to take up the statue seriously in the mornings and paint a nude study in the afternoons (103.0655). She died on 31 October 1884. The bronze that survives is signed 84.
 
 %% GLO_DOULEUR_DE_NAUSICAA.0013 %%
 ## References in Diary
 
 %% GLO_DOULEUR_DE_NAUSICAA.0014 %%
-The long prehistory, before this particular figure: 1878-05-18 (080.0189), 1878-05-27 (080.0352, 080.0354) and 1878-10-12 (082.0577) — the wish to sculpt, and Julian's plan to interest Paul Dubois in her; 1878-10-26 (083.0042, 083.0046, 083.0049) and 1878-10-30 (083.0079) — Robert-Fleury's coaching; 1879-01-06 (083.0556) — the statue as the reason not to die; 1879-03-08 (084.0433) — a first attempt at modelling; 1879-08-10 (086.0035–0038) — sculpture as the road to glory; 1879-10-21 (086.0403) — no room at home for it; **1879-12-01 (086.0606)** — «C'est d'aujourd'hui que je commence la sculpture».
+The long prehistory, before this particular figure: 1878-05-18 (080.0167), 1878-05-27 (080.0323, 080.0325) and 1878-10-12 (082.0577) — the wish to sculpt, and Julian's plan to interest Paul Dubois in her; 1878-10-26 (083.0042, 083.0046, 083.0049) and 1878-10-30 (083.0079) — Robert-Fleury's coaching; 1879-01-06 (083.0556) — the statue as the reason not to die; 1879-03-08 (084.0433) — a first attempt at modelling; 1879-08-10 (086.0035–0038) — sculpture as the road to glory; 1879-10-21 (086.0403) — no room at home for it; **1879-12-01 (086.0606)** — «C'est d'aujourd'hui que je commence la sculpture».
 
 %% GLO_DOULEUR_DE_NAUSICAA.0015 %%
 The work itself:
@@ -71,13 +71,13 @@ The work itself:
 - 1883-06-22 (100.0106) — the verdict that she should send it to the next Salon
 - 1883-08-03 (100.0257) — the iron armature of «la grande machine», fixed by a man sent by Carriès
 - 1883-08-27 evening (101.0270) — the wager: the statue, the *gamins* and the *Saintes femmes* at one Salon, and a thousand francs to the poor
-- 1883-08-30 (101.0299) — the sculpture worth as much as the painting, or more
-- 1883-12-16 (102.0077) — «ma Nausicaa ne signifie rien»
-- 1883-12-22 (102.0083) — Julian's rave; 1883-12-24 (102.0085) — Tony cooler
-- 1884-01-08 (102.0129) — the workman builds it too large; everything to redo
-- Model trouble: 1883-11-26 (102.0057), 1883-12-26 (102.0087, Irma posing), 1884-01-27 (103.0138), **1884-02-18 (103.0318)** — «J'ai trouvé une Nausicaa»
-- 1884-03-14 (103.0487) — abandoned for the Salon; only *Un meeting* goes
-- 1884-04-05 (103.0674) — the last plan for it
+- 1883-08-30 (101.0294) — the sculpture worth as much as the painting, or more
+- 1883-12-16 (102.0078) — «ma Nausicaa ne signifie rien»
+- 1883-12-22 (102.0084) — Julian's rave; 1883-12-24 (102.0086) — Tony cooler
+- 1884-01-08 (102.0130) — the workman builds it too large; everything to redo
+- Model trouble: 1883-11-26 (102.0058), 1883-12-26 (102.0088, Irma posing), 1884-01-27 (103.0140), **1884-02-18 (103.0313)** — «J'ai trouvé une Nausicaa»
+- 1884-03-14 (103.0472) — abandoned for the Salon; only *Un meeting* goes
+- 1884-04-05 (103.0655) — the last plan for it
 
 %% GLO_DOULEUR_DE_NAUSICAA.0016 %%
 ## Related Entries

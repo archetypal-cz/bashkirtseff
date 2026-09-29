@@ -15,7 +15,7 @@ last_updated: 2026-09-07
 
 %% GLO_FEURGARD.0002 %%
 %% [#Louise_Breslau](./LOUISE_BRESLAU.md) [#Julian](../../places/schools/JULIAN.md) %%
-%% 2026-09-07T12:00:00 RSR: Everything here is from the diary itself (097.0246, 097.0252, 103.0420). No outside identification attempted; first name unknown. %%
+%% 2026-09-07T12:00:00 RSR: Everything here is from the diary itself (097.0246, 097.0252, 103.0409). No outside identification attempted; first name unknown. %%
 Mlle Feurgard was a young painter who joined the women's atelier at [Julian](../../places/schools/JULIAN.md) in December 1882. Marie introduces her as the intimate friend of [Louise Breslau](./LOUISE_BRESLAU.md), and it is through her that the Breslau quarrel takes a new turn.
 
 %% GLO_FEURGARD.0003 %%
@@ -28,7 +28,7 @@ Mlle Feurgard was a young painter who joined the women's atelier at [Julian](../
 - **Same entry** (097.0252): Marie's portrait of her. Twenty-three and looking nineteen, "très intéressante, douée, intelligente"; her father dead a year, she lives with her mother and two small sisters, one of them fifteen and promising real talent, an hour from Paris. She has the air of a little mother of the family; the household is poor, likeable, interesting.
 
 %% GLO_FEURGARD.0006 %%
-- **1 March 1884** (103.0420): judging the hanging of the Salon submissions, Marie counts Breslau, herself, Feurgard and a landscape painter named Kellend as the only entries that are not "des horreurs ou peu s'en faut".
+- **1 March 1884** (103.0409): judging the hanging of the Salon submissions, Marie counts Breslau, herself, Feurgard and a landscape painter named Kellend as the only entries that are not "des horreurs ou peu s'en faut".
 
 %% GLO_FEURGARD.0007 %%
 ## Related Entries

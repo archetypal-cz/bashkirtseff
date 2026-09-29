@@ -14,7 +14,7 @@ last_updated: 2026-07-06
 
 ## Overview
 
-A young Parisian doctor Marie calls "le petit docteur de la rue de l'Echiquier" (105.0019) and, familiarly, "le petit Béclère" (105.0021, 105.0100) — "petit" here meaning young/junior, not physical stature. He examines Marie in early July 1884, disagrees with [Potain](POTAIN.md)'s relatively reassuring reading of her condition, and personally brings her ("Il me mène"/"c'est le petit Beclère qui m'y mène") to consult the senior specialist [Grancher](GRANCHER.md).
+A young Parisian doctor Marie calls "le petit docteur de la rue de l'Echiquier" (105.0018) and, familiarly, "le petit Béclère" (105.0020, 105.0093) — "petit" here meaning young/junior, not physical stature. He examines Marie in early July 1884, disagrees with [Potain](POTAIN.md)'s relatively reassuring reading of her condition, and personally brings her ("Il me mène"/"c'est le petit Beclère qui m'y mène") to consult the senior specialist [Grancher](GRANCHER.md).
 
 ## Identity — unresolved, flagged as ambiguous
 
@@ -26,8 +26,8 @@ This identification is **not confirmed** by any secondary source found; it rests
 
 ## References in Diary
 
-- 1884-07-03 (para 105.0021): disagrees with Potain's assessment, insists Marie see Grancher
-- 1884-07-07 (para 105.0100): personally escorts Marie to Grancher's consultation
+- 1884-07-03 (para 105.0020): disagrees with Potain's assessment, insists Marie see Grancher
+- 1884-07-07 (para 105.0093): personally escorts Marie to Grancher's consultation
 
 Sources consulted: Wikipedia and French Wikipedia articles on Antoine Béclère; no primary-source confirmation of identity with Marie's "petit Béclère" found.
 

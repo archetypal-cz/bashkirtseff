@@ -1,0 +1,380 @@
+{
+ "headmoves": [
+  {
+   "old": "077.0086",
+   "heading": "Mercredi 2 janvier 1878",
+   "heading_date": "1878-01-02",
+   "entry": "077/1878-01-01.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "077.0305",
+   "heading": "Lundi 21 janvier 1878",
+   "heading_date": "1878-01-21",
+   "entry": "077/1878-01-20.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "077.0400",
+   "heading": "Vendredi 25 janvier 1878",
+   "heading_date": "1878-01-25",
+   "entry": "077/1878-01-24.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "077.0492",
+   "heading": "Mardi 29 janvier 1878",
+   "heading_date": "1878-01-29",
+   "entry": "077/1878-01-28.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "078.0001",
+   "heading": "Lundi 4 février 1878",
+   "heading_date": "1878-02-04",
+   "entry": "078/1878-02-03.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "078.0095",
+   "heading": "Mercredi 13 février 1878",
+   "heading_date": "1878-02-13",
+   "entry": "078/1878-02-12.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "078.0188",
+   "heading": "Lundi 18 février 1878",
+   "heading_date": "1878-02-18",
+   "entry": "078/1878-02-17.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "078.0280",
+   "heading": "Dimanche 24 février 1878",
+   "heading_date": "1878-02-24",
+   "entry": "078/1878-02-23.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "078.0374",
+   "heading": "Lundi 4 mars 1878",
+   "heading_date": "1878-03-04",
+   "entry": "078/1878-03-03.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "078.0539",
+   "heading": "Vendredi 15 mars 1878",
+   "heading_date": "1878-03-15",
+   "entry": "078/1878-03-14.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "079.0101",
+   "heading": "Mardi 26 mars 1878",
+   "heading_date": "1878-03-26",
+   "entry": "079/1878-03-25.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "079.0170",
+   "heading": "Dimanche 31 mars 1878",
+   "heading_date": "1878-03-31",
+   "entry": "079/1878-03-30.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "079.0313",
+   "heading": "Mercredi 10 avril 1878",
+   "heading_date": "1878-04-10",
+   "entry": "079/1878-04-09.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "079.0589",
+   "heading": "Mardi 30 avril 1878",
+   "heading_date": "1878-04-30",
+   "entry": "079/1878-04-29.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "080.0001",
+   "heading": "Samedi 4 mai 1878",
+   "heading_date": "1878-05-04",
+   "entry": "079/1878-05-03.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "080.0093",
+   "heading": "Samedi 11 mai 1878",
+   "heading_date": "1878-05-11",
+   "entry": "080/1878-05-10.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "080.0185",
+   "heading": "Samedi 18 mai 1878",
+   "heading_date": "1878-05-18",
+   "entry": "080/1878-05-17.md",
+   "first": true,
+   "heading_only": true
+  },
+  {
+   "old": "080.0278",
+   "heading": "Mardi 21 mai 1878",
+   "heading_date": "1878-05-21",
+   "entry": "080/1878-05-20.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "080.0369",
+   "heading": "Mercredi 29 mai 1878",
+   "heading_date": "1878-05-29",
+   "entry": "080/1878-05-28.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "080.0462",
+   "heading": "Mardi 4 juin 1878",
+   "heading_date": "1878-06-04",
+   "entry": "080/1878-06-03.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "077.0006",
+   "heading": "Je lui répondrai un de ces jours.",
+   "heading_date": null,
+   "entry": "077/1877-12-23.md",
+   "first": false,
+   "heading_only": false
+  },
+  {
+   "old": "077.0241",
+   "heading": "Cassagnac n'a pas répondu par le Figaro. Voici ce que nous lui récrivons:",
+   "heading_date": null,
+   "entry": "077/1878-01-16.md",
+   "first": false,
+   "heading_only": false
+  },
+  {
+   "old": "077.0243",
+   "heading": "J'ai répondu à Marcuard",
+   "heading_date": null,
+   "entry": "077/1878-01-16.md",
+   "first": false,
+   "heading_only": false
+  },
+  {
+   "old": "078.0268",
+   "heading": "Samedi 23 février 1878",
+   "heading_date": "1878-02-23",
+   "entry": "078/1878-02-22.md",
+   "first": false,
+   "heading_only": false
+  },
+  {
+   "old": "078.0360",
+   "heading": "Voici le document en question :",
+   "heading_date": null,
+   "entry": "078/1878-03-03.md",
+   "first": false,
+   "heading_only": false
+  },
+  {
+   "old": "078.0382",
+   "heading": "Marcuard m'écrit.",
+   "heading_date": null,
+   "entry": "078/1878-03-03.md",
+   "first": false,
+   "heading_only": false
+  },
+  {
+   "old": "079.0219",
+   "heading": "Mardi 2 avril 1878",
+   "heading_date": "1878-04-02",
+   "entry": "079/1878-04-01.md",
+   "first": false,
+   "heading_only": false
+  },
+  {
+   "old": "080.0554",
+   "heading": "Dimanche 9 juin 1878",
+   "heading_date": "1878-06-09",
+   "entry": "080/1878-06-08.md",
+   "first": false,
+   "heading_only": false
+  }
+ ],
+ "headfix": [
+  {
+   "old": "077.0005",
+   "from": "###### Dimanche 23 décembre 1877",
+   "to": "# Dimanche 23 décembre 1877"
+  },
+  {
+   "old": "077.0006",
+   "from": "###### Je lui répondrai un de ces jours.",
+   "to": "Je lui répondrai un de ces jours."
+  },
+  {
+   "old": "077.0017",
+   "from": "# Mardi 25 décembre 1877",
+   "to": "# Mardi 25 décembre 1877 - Noël"
+  },
+  {
+   "old": "077.0086",
+   "from": "# Mercredi 2 janvier 1878",
+   "to": null
+  },
+  {
+   "old": "077.0241",
+   "from": "###### Cassagnac n'a pas répondu par le Figaro. Voici ce que nous lui récrivons:",
+   "to": "Cassagnac n'a pas répondu par le Figaro. Voici ce que nous lui récrivons:"
+  },
+  {
+   "old": "077.0243",
+   "from": "###### J'ai répondu à Marcuard",
+   "to": "J'ai répondu à Marcuard"
+  },
+  {
+   "old": "077.0305",
+   "from": "# Lundi 21 janvier 1878",
+   "to": null
+  },
+  {
+   "old": "077.0400",
+   "from": "# Vendredi 25 janvier 1878",
+   "to": null
+  },
+  {
+   "old": "077.0492",
+   "from": "# Mardi 29 janvier 1878",
+   "to": null
+  },
+  {
+   "old": "078.0001",
+   "from": "# Lundi 4 février 1878",
+   "to": null
+  },
+  {
+   "old": "078.0095",
+   "from": "# Mercredi 13 février 1878",
+   "to": null
+  },
+  {
+   "old": "078.0188",
+   "from": "# Lundi 18 février 1878",
+   "to": null
+  },
+  {
+   "old": "078.0268",
+   "from": "# Samedi 23 février 1878",
+   "to": null
+  },
+  {
+   "old": "078.0280",
+   "from": "# Dimanche 24 février 1878",
+   "to": null
+  },
+  {
+   "old": "078.0360",
+   "from": "###### Voici le document en question :",
+   "to": "> Voici le document en question :"
+  },
+  {
+   "old": "078.0374",
+   "from": "# Lundi 4 mars 1878",
+   "to": null
+  },
+  {
+   "old": "078.0382",
+   "from": "###### Marcuard m'écrit.",
+   "to": "Marcuard m'écrit."
+  },
+  {
+   "old": "078.0539",
+   "from": "# Vendredi 15 mars 1878",
+   "to": null
+  },
+  {
+   "old": "079.0101",
+   "from": "# Mardi 26 mars 1878",
+   "to": null
+  },
+  {
+   "old": "079.0170",
+   "from": "# Dimanche 31 mars 1878",
+   "to": null
+  },
+  {
+   "old": "079.0219",
+   "from": "# Mardi 2 avril 1878",
+   "to": null
+  },
+  {
+   "old": "079.0313",
+   "from": "# Mercredi 10 avril 1878",
+   "to": null
+  },
+  {
+   "old": "079.0589",
+   "from": "# Mardi 30 avril 1878",
+   "to": null
+  },
+  {
+   "old": "080.0001",
+   "from": "# Samedi 4 mai 1878",
+   "to": null
+  },
+  {
+   "old": "080.0093",
+   "from": "# Samedi 11 mai 1878",
+   "to": null
+  },
+  {
+   "old": "080.0185",
+   "from": "# Samedi 18 mai 1878",
+   "to": "# Vendredi 17 mai 1878"
+  },
+  {
+   "old": "080.0278",
+   "from": "# Mardi 21 mai 1878",
+   "to": null
+  },
+  {
+   "old": "080.0369",
+   "from": "# Mercredi 29 mai 1878",
+   "to": null
+  },
+  {
+   "old": "080.0462",
+   "from": "# Mardi 4 juin 1878",
+   "to": null
+  },
+  {
+   "old": "080.0554",
+   "from": "# Dimanche 9 juin 1878",
+   "to": null
+  }
+ ]
+}

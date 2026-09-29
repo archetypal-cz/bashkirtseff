@@ -1,0 +1,3112 @@
+{
+ "carnet": "105",
+ "source": "tome16.docx",
+ "drop": [
+  {
+   "id": "105.0012",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0023",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0027",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0030",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0071",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0078",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0096",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0104",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0114",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0116",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0161",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0170",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0201",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0258",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0274",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0276",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0277",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0289",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0294",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0296",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0303",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0321",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0331",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0351",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0360",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0371",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0377",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0403",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0415",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0431",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0434",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0443",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0448",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0459",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0486",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0492",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0520",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0532",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0534",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0538",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0563",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0567",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0570",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0583",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0604",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0606",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0622",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0643",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0656",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0664",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0668",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0675",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0679",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0696",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0711",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0716",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0717",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0734",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0736",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0740",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0752",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0771",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0774",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "105.0777",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1884-07-02.md",
+   "date": "1884-07-02",
+   "heading": "Mercredi 2 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0001"
+    },
+    {
+     "old": "105.0002"
+    },
+    {
+     "old": "105.0003"
+    },
+    {
+     "old": "105.0004",
+     "set_french": "Pourquoi a-t-on été chercher trente-six causes occultes de maladie, il a ce qu'il avait dit et ce que le frère avait dit des rhumatismes et des maux de reins. Si c'était un cancer à l'estomac il n'irait pas mieux, et si c'était... des bêtises, ce n'est pas possible. Il n'a jamais mené une existence échevelée, du reste je ne sais pas trop ce qu'on suppose, il paraît qu'en se couchant à dix heures et en vivant très retiré on peut tout de même en venir là, une dame suffit... Ça ne me regarde pas."
+    },
+    {
+     "old": "105.0005"
+    },
+    {
+     "old": "105.0006"
+    },
+    {
+     "old": "105.0007"
+    },
+    {
+     "old": "105.0008"
+    },
+    {
+     "old": "105.0009"
+    },
+    {
+     "old": "105.0010"
+    },
+    {
+     "old": "105.0011"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-03.md",
+   "date": "1884-07-03",
+   "heading": "Jeudi 3 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0013"
+    },
+    {
+     "old": "105.0014"
+    },
+    {
+     "old": "105.0015"
+    },
+    {
+     "old": "105.0016"
+    },
+    {
+     "old": "105.0017"
+    },
+    {
+     "old": "105.0018"
+    },
+    {
+     "old": "105.0019"
+    },
+    {
+     "old": "105.0020"
+    },
+    {
+     "old": "105.0021"
+    },
+    {
+     "old": "105.0022"
+    },
+    {
+     "old": "105.0024"
+    },
+    {
+     "old": "105.0025"
+    },
+    {
+     "old": "105.0026"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-04.md",
+   "date": "1884-07-04",
+   "heading": "Vendredi 4 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0028"
+    },
+    {
+     "old": "105.0029"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-05.md",
+   "date": "1884-07-05",
+   "heading": "Samedi 5 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0031"
+    },
+    {
+     "old": "105.0032"
+    },
+    {
+     "old": "105.0033"
+    },
+    {
+     "old": "105.0034"
+    },
+    {
+     "old": "105.0035"
+    },
+    {
+     "old": "105.0036"
+    },
+    {
+     "old": "105.0037"
+    },
+    {
+     "old": "105.0038"
+    },
+    {
+     "old": "105.0039"
+    },
+    {
+     "old": "105.0040"
+    },
+    {
+     "old": "105.0041"
+    },
+    {
+     "old": "105.0042"
+    },
+    {
+     "old": "105.0043"
+    },
+    {
+     "old": "105.0044"
+    },
+    {
+     "old": "105.0045"
+    },
+    {
+     "old": "105.0046"
+    },
+    {
+     "old": "105.0047"
+    },
+    {
+     "old": "105.0048"
+    },
+    {
+     "old": "105.0049"
+    },
+    {
+     "old": "105.0050"
+    },
+    {
+     "old": "105.0051"
+    },
+    {
+     "old": "105.0052"
+    },
+    {
+     "old": "105.0053"
+    },
+    {
+     "old": "105.0054"
+    },
+    {
+     "old": "105.0055"
+    },
+    {
+     "old": "105.0056"
+    },
+    {
+     "old": "105.0057"
+    },
+    {
+     "old": "105.0058"
+    },
+    {
+     "old": "105.0059"
+    },
+    {
+     "old": "105.0060"
+    },
+    {
+     "old": "105.0061"
+    },
+    {
+     "old": "105.0062"
+    },
+    {
+     "old": "105.0063"
+    },
+    {
+     "old": "105.0064"
+    },
+    {
+     "old": "105.0065"
+    },
+    {
+     "old": "105.0066"
+    },
+    {
+     "old": "105.0067"
+    },
+    {
+     "old": "105.0068"
+    },
+    {
+     "old": "105.0069"
+    },
+    {
+     "old": "105.0070"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-06.md",
+   "date": "1884-07-06",
+   "heading": "Dimanche 6 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0072"
+    },
+    {
+     "old": "105.0073"
+    },
+    {
+     "old": "105.0074"
+    },
+    {
+     "old": "105.0075"
+    },
+    {
+     "old": "105.0076"
+    },
+    {
+     "old": "105.0077"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-07.md",
+   "date": "1884-07-07",
+   "heading": "Lundi 7 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0079"
+    },
+    {
+     "old": "105.0080"
+    },
+    {
+     "old": "105.0081"
+    },
+    {
+     "old": "105.0082"
+    },
+    {
+     "old": "105.0083"
+    },
+    {
+     "old": "105.0084"
+    },
+    {
+     "old": "105.0085"
+    },
+    {
+     "old": "105.0086"
+    },
+    {
+     "old": "105.0087"
+    },
+    {
+     "old": "105.0088"
+    },
+    {
+     "old": "105.0089"
+    },
+    {
+     "old": "105.0090"
+    },
+    {
+     "old": "105.0091"
+    },
+    {
+     "old": "105.0092"
+    },
+    {
+     "old": "105.0093"
+    },
+    {
+     "old": "105.0094"
+    },
+    {
+     "old": "105.0095"
+    },
+    {
+     "old": "105.0097"
+    },
+    {
+     "old": "105.0098"
+    },
+    {
+     "old": "105.0099"
+    },
+    {
+     "old": "105.0100"
+    },
+    {
+     "old": "105.0101"
+    },
+    {
+     "old": "105.0102"
+    },
+    {
+     "old": "105.0103"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-08.md",
+   "date": "1884-07-08",
+   "heading": "Mardi 8 juillet 1884",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶3375, Mon Journal t.16 p.250: the date line «Mardi 8 juillet 1 884» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1884-07-07.md"
+  },
+  {
+   "file": "1884-07-09.md",
+   "date": "1884-07-09",
+   "heading": "Mercredi 9 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0105"
+    },
+    {
+     "old": "105.0106"
+    },
+    {
+     "old": "105.0107"
+    },
+    {
+     "old": "105.0108"
+    },
+    {
+     "old": "105.0109"
+    },
+    {
+     "old": "105.0110"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-10.md",
+   "date": "1884-07-10",
+   "heading": "Jeudi 10 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0111"
+    },
+    {
+     "old": "105.0112"
+    },
+    {
+     "old": "105.0113"
+    },
+    {
+     "old": "105.0115"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-11.md",
+   "date": "1884-07-11",
+   "heading": "Vendredi 11 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0117"
+    },
+    {
+     "old": "105.0118"
+    },
+    {
+     "old": "105.0119"
+    },
+    {
+     "old": "105.0120"
+    },
+    {
+     "old": "105.0121"
+    },
+    {
+     "old": "105.0122"
+    },
+    {
+     "old": "105.0123"
+    },
+    {
+     "old": "105.0124"
+    },
+    {
+     "old": "105.0125"
+    },
+    {
+     "old": "105.0126"
+    },
+    {
+     "old": "105.0127"
+    },
+    {
+     "old": "105.0128"
+    },
+    {
+     "old": "105.0129"
+    },
+    {
+     "old": "105.0130"
+    },
+    {
+     "old": "105.0131"
+    },
+    {
+     "old": "105.0132"
+    },
+    {
+     "old": "105.0133"
+    },
+    {
+     "old": "105.0134"
+    },
+    {
+     "old": "105.0135"
+    },
+    {
+     "old": "105.0136"
+    },
+    {
+     "old": "105.0137"
+    },
+    {
+     "old": "105.0138"
+    },
+    {
+     "old": "105.0139"
+    },
+    {
+     "old": "105.0140"
+    },
+    {
+     "old": "105.0141"
+    },
+    {
+     "old": "105.0142"
+    },
+    {
+     "old": "105.0143"
+    },
+    {
+     "old": "105.0144"
+    },
+    {
+     "old": "105.0145"
+    },
+    {
+     "old": "105.0146"
+    },
+    {
+     "old": "105.0147"
+    },
+    {
+     "old": "105.0148"
+    },
+    {
+     "old": "105.0149"
+    },
+    {
+     "old": "105.0150"
+    },
+    {
+     "old": "105.0151"
+    },
+    {
+     "old": "105.0152"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-12.md",
+   "date": "1884-07-12",
+   "heading": "Samedi 12 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0153"
+    },
+    {
+     "old": "105.0154"
+    },
+    {
+     "old": "105.0155"
+    },
+    {
+     "old": "105.0156"
+    },
+    {
+     "old": "105.0157"
+    },
+    {
+     "old": "105.0158"
+    },
+    {
+     "old": "105.0159"
+    },
+    {
+     "old": "105.0160"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-13.md",
+   "date": "1884-07-13",
+   "heading": "Dimanche 13 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0162"
+    },
+    {
+     "old": "105.0163"
+    },
+    {
+     "old": "105.0164"
+    },
+    {
+     "old": "105.0165"
+    },
+    {
+     "old": "105.0166"
+    },
+    {
+     "old": "105.0167"
+    },
+    {
+     "old": "105.0168"
+    },
+    {
+     "old": "105.0169"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-14.md",
+   "date": "1884-07-14",
+   "heading": "Lundi 14 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0171"
+    },
+    {
+     "old": "105.0172"
+    },
+    {
+     "old": "105.0173"
+    },
+    {
+     "old": "105.0174"
+    },
+    {
+     "old": "105.0175"
+    },
+    {
+     "old": "105.0176"
+    },
+    {
+     "old": "105.0177"
+    },
+    {
+     "old": "105.0178"
+    },
+    {
+     "old": "105.0179"
+    },
+    {
+     "old": "105.0180"
+    },
+    {
+     "old": "105.0181"
+    },
+    {
+     "old": "105.0182"
+    },
+    {
+     "old": "105.0183"
+    },
+    {
+     "old": "105.0184"
+    },
+    {
+     "old": "105.0185"
+    },
+    {
+     "old": "105.0186"
+    },
+    {
+     "new": {
+      "french": "[Trois lignes rayées et noircies]",
+      "rsr": "Restored from tome16.docx ¶3457, Mon Journal t.16 p.255 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "old": "105.0187"
+    },
+    {
+     "old": "105.0188"
+    },
+    {
+     "old": "105.0189"
+    },
+    {
+     "old": "105.0190"
+    },
+    {
+     "old": "105.0191"
+    },
+    {
+     "old": "105.0192"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-15.md",
+   "date": "1884-07-15",
+   "heading": "Mardi 15 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0193"
+    },
+    {
+     "old": "105.0194"
+    },
+    {
+     "old": "105.0195"
+    },
+    {
+     "old": "105.0196"
+    },
+    {
+     "old": "105.0197"
+    },
+    {
+     "old": "105.0198"
+    },
+    {
+     "old": "105.0199"
+    },
+    {
+     "old": "105.0200"
+    },
+    {
+     "old": "105.0202"
+    },
+    {
+     "new": {
+      "french": "[Rayé: Caïn ayant tué Abel]",
+      "rsr": "Restored from tome16.docx ¶3473, Mon Journal t.16 p.257 (missing from original extraction, 2026-09-28 rebuild). Split off the following paragraph, where it was the first line (a paragraph of its own in the printed edition).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "old": "105.0203",
+     "set_french": "Il vaut toujours mieux saisir l'instant qui suit un grand mouvement ou une violence quelconque, que celui qui le précède. La Jeanne d'Arc de Bastien a entendu des voix, elle a marché précipitamment en avant renversant son rouet et s'est arrêtée tout à coup adossée à un arbre. Mais voyez des scènes aux bras levés et où les gens *agissent,* c'est peut-etre très fort mais il n'y a jamais jouissance complète."
+    },
+    {
+     "old": "105.0204"
+    },
+    {
+     "old": "105.0205"
+    },
+    {
+     "old": "105.0206"
+    },
+    {
+     "old": "105.0207"
+    },
+    {
+     "old": "105.0208"
+    },
+    {
+     "old": "105.0209"
+    },
+    {
+     "old": "105.0210"
+    },
+    {
+     "old": "105.0211"
+    },
+    {
+     "old": "105.0212"
+    },
+    {
+     "old": "105.0213"
+    },
+    {
+     "old": "105.0214"
+    },
+    {
+     "old": "105.0215"
+    },
+    {
+     "old": "105.0216"
+    },
+    {
+     "old": "105.0217"
+    },
+    {
+     "old": "105.0218"
+    },
+    {
+     "old": "105.0219"
+    },
+    {
+     "old": "105.0220"
+    },
+    {
+     "old": "105.0221"
+    },
+    {
+     "old": "105.0222"
+    },
+    {
+     "old": "105.0223"
+    },
+    {
+     "old": "105.0224"
+    },
+    {
+     "old": "105.0225"
+    },
+    {
+     "old": "105.0226"
+    },
+    {
+     "old": "105.0227"
+    },
+    {
+     "old": "105.0228"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-17.md",
+   "date": "1884-07-17",
+   "heading": "Jeudi 17 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0229"
+    },
+    {
+     "old": "105.0230"
+    },
+    {
+     "old": "105.0231"
+    },
+    {
+     "old": "105.0232"
+    },
+    {
+     "old": "105.0233"
+    },
+    {
+     "old": "105.0234"
+    },
+    {
+     "old": "105.0235"
+    },
+    {
+     "old": "105.0236"
+    },
+    {
+     "old": "105.0237"
+    },
+    {
+     "old": "105.0238"
+    },
+    {
+     "old": "105.0239"
+    },
+    {
+     "old": "105.0240"
+    },
+    {
+     "old": "105.0241"
+    },
+    {
+     "old": "105.0242"
+    },
+    {
+     "old": "105.0243"
+    },
+    {
+     "old": "105.0244"
+    },
+    {
+     "old": "105.0245"
+    },
+    {
+     "old": "105.0246"
+    },
+    {
+     "old": "105.0247"
+    },
+    {
+     "old": "105.0248"
+    },
+    {
+     "old": "105.0249"
+    },
+    {
+     "old": "105.0250"
+    },
+    {
+     "old": "105.0251"
+    },
+    {
+     "old": "105.0252"
+    },
+    {
+     "old": "105.0253"
+    },
+    {
+     "old": "105.0254"
+    },
+    {
+     "old": "105.0255"
+    },
+    {
+     "old": "105.0256"
+    },
+    {
+     "old": "105.0257"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-18.md",
+   "date": "1884-07-18",
+   "heading": "Vendredi 18 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0259"
+    },
+    {
+     "old": "105.0260"
+    },
+    {
+     "old": "105.0261"
+    },
+    {
+     "old": "105.0262"
+    },
+    {
+     "old": "105.0263"
+    },
+    {
+     "old": "105.0264"
+    },
+    {
+     "old": "105.0265"
+    },
+    {
+     "old": "105.0266"
+    },
+    {
+     "old": "105.0267"
+    },
+    {
+     "old": "105.0268"
+    },
+    {
+     "old": "105.0269"
+    },
+    {
+     "old": "105.0270"
+    },
+    {
+     "old": "105.0271"
+    },
+    {
+     "old": "105.0272"
+    },
+    {
+     "old": "105.0273"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-19.md",
+   "date": "1884-07-19",
+   "heading": "Samedi 19 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0275"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-20.md",
+   "date": "1884-07-20",
+   "heading": "Dimanche 20 juillet 1884",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶3547, Mon Journal t.16 p.263: the date line «Dimanche 20 juillet 1884» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1884-07-19.md"
+  },
+  {
+   "file": "1884-07-21.md",
+   "date": "1884-07-21",
+   "heading": "Lundi 21 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0278"
+    },
+    {
+     "old": "105.0279"
+    },
+    {
+     "old": "105.0280"
+    },
+    {
+     "old": "105.0281"
+    },
+    {
+     "old": "105.0282"
+    },
+    {
+     "old": "105.0283"
+    },
+    {
+     "old": "105.0284"
+    },
+    {
+     "old": "105.0285"
+    },
+    {
+     "old": "105.0286"
+    },
+    {
+     "old": "105.0287"
+    },
+    {
+     "old": "105.0288"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-22.md",
+   "date": "1884-07-22",
+   "heading": "Mardi 22 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0290"
+    },
+    {
+     "old": "105.0291"
+    },
+    {
+     "old": "105.0292"
+    },
+    {
+     "old": "105.0293"
+    },
+    {
+     "old": "105.0295"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-23.md",
+   "date": "1884-07-23",
+   "heading": "Mercredi 23 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0297"
+    },
+    {
+     "old": "105.0298"
+    },
+    {
+     "old": "105.0299"
+    },
+    {
+     "old": "105.0300"
+    },
+    {
+     "old": "105.0301"
+    },
+    {
+     "old": "105.0302"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-24.md",
+   "date": "1884-07-24",
+   "heading": "Jeudi 24 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0304"
+    },
+    {
+     "old": "105.0305"
+    },
+    {
+     "old": "105.0306"
+    },
+    {
+     "old": "105.0307"
+    },
+    {
+     "old": "105.0308"
+    },
+    {
+     "old": "105.0309"
+    },
+    {
+     "old": "105.0310"
+    },
+    {
+     "old": "105.0311"
+    },
+    {
+     "old": "105.0312"
+    },
+    {
+     "old": "105.0313"
+    },
+    {
+     "old": "105.0314"
+    },
+    {
+     "old": "105.0315"
+    },
+    {
+     "old": "105.0316"
+    },
+    {
+     "old": "105.0317"
+    },
+    {
+     "old": "105.0318"
+    },
+    {
+     "old": "105.0319"
+    },
+    {
+     "old": "105.0320"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-25.md",
+   "date": "1884-07-25",
+   "heading": "Vendredi 25 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0322"
+    },
+    {
+     "old": "105.0323"
+    },
+    {
+     "old": "105.0324"
+    },
+    {
+     "old": "105.0325"
+    },
+    {
+     "old": "105.0326"
+    },
+    {
+     "old": "105.0327"
+    },
+    {
+     "old": "105.0328"
+    },
+    {
+     "old": "105.0329"
+    },
+    {
+     "old": "105.0330"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-26.md",
+   "date": "1884-07-26",
+   "heading": "Samedi 26 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0332"
+    },
+    {
+     "old": "105.0333"
+    },
+    {
+     "old": "105.0334"
+    },
+    {
+     "old": "105.0335"
+    },
+    {
+     "old": "105.0336"
+    },
+    {
+     "old": "105.0337"
+    },
+    {
+     "old": "105.0338"
+    },
+    {
+     "old": "105.0339"
+    },
+    {
+     "old": "105.0340"
+    },
+    {
+     "old": "105.0341"
+    },
+    {
+     "old": "105.0342"
+    },
+    {
+     "old": "105.0343"
+    },
+    {
+     "old": "105.0344"
+    },
+    {
+     "old": "105.0345"
+    },
+    {
+     "old": "105.0346"
+    },
+    {
+     "old": "105.0347"
+    },
+    {
+     "old": "105.0348"
+    },
+    {
+     "old": "105.0349"
+    },
+    {
+     "old": "105.0350"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-27.md",
+   "date": "1884-07-27",
+   "heading": "Dimanche 27 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0352"
+    },
+    {
+     "old": "105.0353"
+    },
+    {
+     "old": "105.0354"
+    },
+    {
+     "old": "105.0355"
+    },
+    {
+     "old": "105.0356"
+    },
+    {
+     "old": "105.0357"
+    },
+    {
+     "old": "105.0358"
+    },
+    {
+     "old": "105.0359"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-28.md",
+   "date": "1884-07-28",
+   "heading": "Lundi 28 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0361"
+    },
+    {
+     "old": "105.0362"
+    },
+    {
+     "old": "105.0363"
+    },
+    {
+     "old": "105.0364"
+    },
+    {
+     "old": "105.0365"
+    },
+    {
+     "old": "105.0366"
+    },
+    {
+     "old": "105.0367"
+    },
+    {
+     "old": "105.0368"
+    },
+    {
+     "old": "105.0369"
+    },
+    {
+     "old": "105.0370"
+    },
+    {
+     "old": "105.0372"
+    },
+    {
+     "new": {
+      "french": "[Quatre lignes cancellées] Mais non c'est une maladie dans l'estomac, je sais même comment cela s'appelle et tout; alors pourquoi ne vient-elle pas ? Il est impossible qu'il ne soit pas heureux d'être soigné par elle ? Alors ???",
+      "rsr": "Restored from tome16.docx ¶3642, Mon Journal t.16 p.270 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "105.0373"
+    },
+    {
+     "old": "105.0374"
+    },
+    {
+     "old": "105.0375"
+    },
+    {
+     "old": "105.0376"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-29.md",
+   "date": "1884-07-29",
+   "heading": "Mardi 29 juillet 1884",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶3647, Mon Journal t.16 p.270: the date line «Mardi 29 juillet 1 884» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1884-07-28.md"
+  },
+  {
+   "file": "1884-07-30.md",
+   "date": "1884-07-30",
+   "heading": "Mercredi 30 juillet 1884",
+   "paragraphs": [
+    {
+     "old": "105.0378"
+    },
+    {
+     "old": "105.0379"
+    },
+    {
+     "old": "105.0380"
+    },
+    {
+     "old": "105.0381"
+    },
+    {
+     "old": "105.0382"
+    },
+    {
+     "old": "105.0383"
+    },
+    {
+     "old": "105.0384"
+    },
+    {
+     "old": "105.0385"
+    },
+    {
+     "old": "105.0386"
+    },
+    {
+     "old": "105.0387"
+    },
+    {
+     "old": "105.0388"
+    },
+    {
+     "old": "105.0389"
+    },
+    {
+     "old": "105.0390"
+    },
+    {
+     "old": "105.0391"
+    },
+    {
+     "old": "105.0392"
+    },
+    {
+     "old": "105.0393"
+    },
+    {
+     "old": "105.0394"
+    },
+    {
+     "old": "105.0395"
+    },
+    {
+     "old": "105.0396"
+    },
+    {
+     "old": "105.0397"
+    },
+    {
+     "old": "105.0398"
+    },
+    {
+     "old": "105.0399"
+    },
+    {
+     "new": {
+      "french": "[Une ligne noircie]",
+      "rsr": "Restored from tome16.docx ¶3671, Mon Journal t.16 p.272 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "old": "105.0400"
+    },
+    {
+     "old": "105.0401"
+    },
+    {
+     "new": {
+      "french": "[Deux lignes noircies]",
+      "rsr": "Restored from tome16.docx ¶3674, Mon Journal t.16 p.272 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "old": "105.0402"
+    }
+   ]
+  },
+  {
+   "file": "1884-07-31.md",
+   "date": "1884-07-31",
+   "heading": "Jeudi 31 juillet 1884",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶3676, Mon Journal t.16 p.272: the date line «Jeudi 31 juillet 1 884» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1884-07-30.md"
+  },
+  {
+   "file": "1884-08-01.md",
+   "date": "1884-08-01",
+   "heading": "Vendredi 1er août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0404"
+    },
+    {
+     "old": "105.0405"
+    },
+    {
+     "old": "105.0406"
+    },
+    {
+     "old": "105.0407"
+    },
+    {
+     "old": "105.0408"
+    },
+    {
+     "old": "105.0409"
+    },
+    {
+     "old": "105.0410"
+    },
+    {
+     "old": "105.0411"
+    },
+    {
+     "old": "105.0412"
+    },
+    {
+     "old": "105.0413"
+    },
+    {
+     "old": "105.0414"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-02.md",
+   "date": "1884-08-02",
+   "heading": "Samedi 2 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0416"
+    },
+    {
+     "old": "105.0417"
+    },
+    {
+     "old": "105.0418"
+    },
+    {
+     "old": "105.0419"
+    },
+    {
+     "old": "105.0420"
+    },
+    {
+     "old": "105.0421"
+    },
+    {
+     "old": "105.0422"
+    },
+    {
+     "old": "105.0423"
+    },
+    {
+     "old": "105.0424"
+    },
+    {
+     "old": "105.0425"
+    },
+    {
+     "old": "105.0426"
+    },
+    {
+     "old": "105.0427"
+    },
+    {
+     "old": "105.0428"
+    },
+    {
+     "old": "105.0429"
+    },
+    {
+     "old": "105.0430"
+    },
+    {
+     "old": "105.0432"
+    },
+    {
+     "old": "105.0433"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-03.md",
+   "date": "1884-08-03",
+   "heading": "Dimanche 3 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0435"
+    },
+    {
+     "old": "105.0436"
+    },
+    {
+     "old": "105.0437"
+    },
+    {
+     "old": "105.0438"
+    },
+    {
+     "old": "105.0439"
+    },
+    {
+     "old": "105.0440"
+    },
+    {
+     "old": "105.0441"
+    },
+    {
+     "old": "105.0442"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-04.md",
+   "date": "1884-08-04",
+   "heading": "Lundi 4 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0444"
+    },
+    {
+     "old": "105.0445"
+    },
+    {
+     "old": "105.0446"
+    },
+    {
+     "old": "105.0447"
+    },
+    {
+     "old": "105.0449"
+    },
+    {
+     "old": "105.0450"
+    },
+    {
+     "old": "105.0451"
+    },
+    {
+     "old": "105.0452"
+    },
+    {
+     "old": "105.0453"
+    },
+    {
+     "old": "105.0454"
+    },
+    {
+     "old": "105.0455"
+    },
+    {
+     "old": "105.0456"
+    },
+    {
+     "old": "105.0457"
+    },
+    {
+     "old": "105.0458"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-05.md",
+   "date": "1884-08-05",
+   "heading": "Mardi 5 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0460"
+    },
+    {
+     "old": "105.0461"
+    },
+    {
+     "old": "105.0462"
+    },
+    {
+     "old": "105.0463"
+    },
+    {
+     "old": "105.0464"
+    },
+    {
+     "old": "105.0465"
+    },
+    {
+     "old": "105.0466"
+    },
+    {
+     "old": "105.0467"
+    },
+    {
+     "old": "105.0468"
+    },
+    {
+     "old": "105.0469"
+    },
+    {
+     "old": "105.0470"
+    },
+    {
+     "old": "105.0471"
+    },
+    {
+     "old": "105.0472"
+    },
+    {
+     "old": "105.0473"
+    },
+    {
+     "old": "105.0474"
+    },
+    {
+     "old": "105.0475"
+    },
+    {
+     "old": "105.0476"
+    },
+    {
+     "old": "105.0477"
+    },
+    {
+     "old": "105.0478"
+    },
+    {
+     "old": "105.0479"
+    },
+    {
+     "old": "105.0480"
+    },
+    {
+     "old": "105.0481"
+    },
+    {
+     "old": "105.0482"
+    },
+    {
+     "old": "105.0483"
+    },
+    {
+     "old": "105.0484"
+    },
+    {
+     "old": "105.0485"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-06.md",
+   "date": "1884-08-06",
+   "heading": "Mercredi 6 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0487"
+    },
+    {
+     "old": "105.0488"
+    },
+    {
+     "old": "105.0489"
+    },
+    {
+     "old": "105.0490"
+    },
+    {
+     "old": "105.0491"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-07.md",
+   "date": "1884-08-07",
+   "heading": null,
+   "paragraphs": [
+    {
+     "old": "106.0142",
+     "set_french": "# Jeudi 7 octobre 1884\nIl sait que je suis à Paris mais je n'irai pas pour vexer cette cuisinière d'architecte ou plutôt pour obéir à mon amour-propre blessé."
+    }
+   ],
+   "frontmatter_from": "1884-08-06.md"
+  },
+  {
+   "file": "1884-08-08.md",
+   "date": "1884-08-08",
+   "heading": "Vendredi 8 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0493"
+    },
+    {
+     "old": "105.0494"
+    },
+    {
+     "old": "105.0495"
+    },
+    {
+     "old": "105.0496"
+    },
+    {
+     "old": "105.0497"
+    },
+    {
+     "old": "105.0498"
+    },
+    {
+     "old": "105.0499"
+    },
+    {
+     "old": "105.0500"
+    },
+    {
+     "old": "105.0501"
+    },
+    {
+     "old": "105.0502"
+    },
+    {
+     "old": "105.0503"
+    },
+    {
+     "old": "105.0504"
+    },
+    {
+     "old": "105.0505"
+    },
+    {
+     "old": "105.0506"
+    },
+    {
+     "old": "105.0507"
+    },
+    {
+     "old": "105.0508"
+    },
+    {
+     "new": {
+      "french": "[En travers: C'était une amie de la mère.]",
+      "rsr": "Restored from tome16.docx ¶3785, Mon Journal t.16 p.280 (missing from original extraction, 2026-09-28 rebuild). Split off the following paragraph, where it was the first line (a paragraph of its own in the printed edition).",
+      "kind": "margin"
+     }
+    },
+    {
+     "old": "105.0509",
+     "set_french": "Quant à moi fatiguée par ce temps orageux et chaud je lâche mon tableau et m'endors sur un divan. Quitte à reprendre demain."
+    },
+    {
+     "old": "105.0510"
+    },
+    {
+     "old": "105.0511"
+    },
+    {
+     "old": "105.0512"
+    },
+    {
+     "old": "105.0513"
+    },
+    {
+     "old": "105.0514"
+    },
+    {
+     "old": "105.0515"
+    },
+    {
+     "old": "105.0516"
+    },
+    {
+     "old": "105.0517"
+    },
+    {
+     "old": "105.0518"
+    },
+    {
+     "old": "105.0519"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-09.md",
+   "date": "1884-08-09",
+   "heading": "Samedi 9 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0521"
+    },
+    {
+     "old": "105.0522"
+    },
+    {
+     "old": "105.0523"
+    },
+    {
+     "old": "105.0524"
+    },
+    {
+     "old": "105.0525"
+    },
+    {
+     "old": "105.0526"
+    },
+    {
+     "old": "105.0527"
+    },
+    {
+     "old": "105.0528"
+    },
+    {
+     "old": "105.0529"
+    },
+    {
+     "old": "105.0530"
+    },
+    {
+     "old": "105.0531"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-10.md",
+   "date": "1884-08-10",
+   "heading": "Dimanche 10 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0533"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-11.md",
+   "date": "1884-08-11",
+   "heading": "Lundi 11 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0535"
+    },
+    {
+     "old": "105.0536"
+    },
+    {
+     "old": "105.0537"
+    },
+    {
+     "old": "105.0539"
+    },
+    {
+     "old": "105.0540"
+    },
+    {
+     "old": "105.0541"
+    },
+    {
+     "old": "105.0542"
+    },
+    {
+     "old": "105.0543"
+    },
+    {
+     "old": "105.0544"
+    },
+    {
+     "old": "105.0545"
+    },
+    {
+     "old": "105.0546"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-12.md",
+   "date": "1884-08-12",
+   "paragraphs": [
+    {
+     "old": "105.0547",
+     "set_french": "# Mardi 12 août 1884"
+    },
+    {
+     "old": "105.0548"
+    },
+    {
+     "old": "105.0549"
+    },
+    {
+     "old": "105.0550"
+    },
+    {
+     "old": "105.0551"
+    },
+    {
+     "old": "105.0552"
+    },
+    {
+     "old": "105.0553"
+    },
+    {
+     "old": "105.0554"
+    },
+    {
+     "old": "105.0555"
+    },
+    {
+     "old": "105.0556"
+    },
+    {
+     "old": "105.0557"
+    },
+    {
+     "old": "105.0558"
+    },
+    {
+     "old": "105.0559"
+    },
+    {
+     "old": "105.0560"
+    },
+    {
+     "old": "105.0561"
+    },
+    {
+     "old": "105.0562"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-13.md",
+   "date": "1884-08-13",
+   "heading": "Mercredi 13 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0564"
+    },
+    {
+     "old": "105.0565"
+    },
+    {
+     "old": "105.0566"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-14.md",
+   "date": "1884-08-14",
+   "paragraphs": [
+    {
+     "old": "105.0568",
+     "set_french": "# Jeudi 14 août 1884"
+    },
+    {
+     "old": "105.0569"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-15.md",
+   "date": "1884-08-15",
+   "heading": "Vendredi 15 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0571"
+    },
+    {
+     "old": "105.0572"
+    },
+    {
+     "old": "105.0573"
+    },
+    {
+     "old": "105.0574"
+    },
+    {
+     "old": "105.0575"
+    },
+    {
+     "old": "105.0576"
+    },
+    {
+     "old": "105.0577"
+    },
+    {
+     "old": "105.0578"
+    },
+    {
+     "old": "105.0579"
+    },
+    {
+     "old": "105.0580"
+    },
+    {
+     "old": "105.0581"
+    },
+    {
+     "old": "105.0582"
+    },
+    {
+     "old": "105.0584"
+    },
+    {
+     "old": "105.0585"
+    },
+    {
+     "old": "105.0586",
+     "kind": "rayé"
+    },
+    {
+     "old": "105.0587",
+     "set_french": "Emile lui a raconté des plaisanteries que j'ai faites à la maison croyant m'embarrasser, alors je fais des grâces et des mines et puis brusquement:"
+    },
+    {
+     "old": "105.0588"
+    },
+    {
+     "old": "105.0589"
+    },
+    {
+     "old": "105.0590"
+    },
+    {
+     "old": "105.0591"
+    },
+    {
+     "old": "105.0592"
+    },
+    {
+     "old": "105.0593"
+    },
+    {
+     "old": "105.0594"
+    },
+    {
+     "old": "105.0595"
+    },
+    {
+     "old": "105.0596"
+    },
+    {
+     "old": "105.0597"
+    },
+    {
+     "old": "105.0598"
+    },
+    {
+     "old": "105.0599"
+    },
+    {
+     "old": "105.0600"
+    },
+    {
+     "old": "105.0601"
+    },
+    {
+     "old": "105.0602"
+    },
+    {
+     "old": "105.0603"
+    },
+    {
+     "old": "105.0605"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-16.md",
+   "date": "1884-08-16",
+   "heading": "Samedi 16 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0607"
+    },
+    {
+     "old": "105.0608"
+    },
+    {
+     "old": "105.0609"
+    },
+    {
+     "old": "105.0610"
+    },
+    {
+     "old": "105.0611"
+    },
+    {
+     "old": "105.0612"
+    },
+    {
+     "old": "105.0613"
+    },
+    {
+     "old": "105.0614"
+    },
+    {
+     "old": "105.0615"
+    },
+    {
+     "old": "105.0616"
+    },
+    {
+     "old": "105.0617"
+    },
+    {
+     "old": "105.0618"
+    },
+    {
+     "old": "105.0619"
+    },
+    {
+     "old": "105.0620"
+    },
+    {
+     "old": "105.0621"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-17.md",
+   "date": "1884-08-17",
+   "paragraphs": [
+    {
+     "old": "105.0623",
+     "set_french": "# Dimanche 17 août 1884\n[Aucun texte - date seule mentionnée]"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-18.md",
+   "date": "1884-08-18",
+   "heading": "Lundi 18 août 1884",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶3897, Mon Journal t.16 p.287: the date line «Lundi 1 8 août 1 884» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1884-08-17.md"
+  },
+  {
+   "file": "1884-08-19.md",
+   "date": "1884-08-19",
+   "paragraphs": [
+    {
+     "old": "105.0624",
+     "set_french": "# Mardi 19 août 1884"
+    },
+    {
+     "old": "105.0625"
+    },
+    {
+     "old": "105.0626"
+    },
+    {
+     "old": "105.0627"
+    },
+    {
+     "old": "105.0628"
+    },
+    {
+     "old": "105.0629"
+    },
+    {
+     "old": "105.0630"
+    },
+    {
+     "old": "105.0631"
+    },
+    {
+     "old": "105.0632"
+    },
+    {
+     "old": "105.0633"
+    },
+    {
+     "old": "105.0634"
+    },
+    {
+     "old": "105.0635"
+    },
+    {
+     "old": "105.0636"
+    },
+    {
+     "old": "105.0637"
+    },
+    {
+     "old": "105.0638"
+    },
+    {
+     "old": "105.0639"
+    },
+    {
+     "old": "105.0640"
+    },
+    {
+     "old": "105.0641"
+    },
+    {
+     "old": "105.0642"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-20.md",
+   "date": "1884-08-20",
+   "heading": "Mercredi 20 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0644"
+    },
+    {
+     "old": "105.0645"
+    },
+    {
+     "old": "105.0646"
+    },
+    {
+     "old": "105.0647"
+    },
+    {
+     "old": "105.0648"
+    },
+    {
+     "old": "105.0649"
+    },
+    {
+     "old": "105.0650"
+    },
+    {
+     "old": "105.0651"
+    },
+    {
+     "old": "105.0652"
+    },
+    {
+     "old": "105.0653"
+    },
+    {
+     "old": "105.0654"
+    },
+    {
+     "old": "105.0655"
+    },
+    {
+     "old": "105.0657"
+    },
+    {
+     "old": "105.0658"
+    },
+    {
+     "old": "105.0659"
+    },
+    {
+     "old": "105.0660"
+    },
+    {
+     "old": "105.0661"
+    },
+    {
+     "old": "105.0662"
+    },
+    {
+     "old": "105.0663"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-21.md",
+   "date": "1884-08-21",
+   "heading": "Jeudi 21 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0665"
+    },
+    {
+     "old": "105.0666"
+    },
+    {
+     "old": "105.0667"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-22.md",
+   "date": "1884-08-22",
+   "heading": "Vendredi 22 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0669"
+    },
+    {
+     "old": "105.0670"
+    },
+    {
+     "old": "105.0671"
+    },
+    {
+     "old": "105.0672"
+    },
+    {
+     "old": "105.0673"
+    },
+    {
+     "old": "105.0674"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-23.md",
+   "date": "1884-08-23",
+   "paragraphs": [
+    {
+     "old": "105.0676"
+    },
+    {
+     "old": "105.0677"
+    },
+    {
+     "old": "105.0678"
+    },
+    {
+     "old": "105.0680"
+    },
+    {
+     "old": "105.0681"
+    },
+    {
+     "old": "105.0682"
+    },
+    {
+     "old": "105.0683"
+    },
+    {
+     "old": "105.0684"
+    },
+    {
+     "old": "105.0685"
+    },
+    {
+     "old": "105.0686"
+    },
+    {
+     "old": "105.0687"
+    },
+    {
+     "old": "105.0688"
+    },
+    {
+     "old": "105.0689"
+    },
+    {
+     "old": "105.0690"
+    },
+    {
+     "old": "105.0691"
+    },
+    {
+     "old": "105.0692"
+    },
+    {
+     "old": "105.0693"
+    },
+    {
+     "old": "105.0694"
+    },
+    {
+     "old": "105.0695"
+    }
+   ],
+   "heading": "Samedi 23 août 1884",
+   "frontmatter_from": "1884-08-23.md"
+  },
+  {
+   "file": "1884-08-24.md",
+   "date": "1884-08-24",
+   "heading": "Dimanche 24 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0697"
+    },
+    {
+     "old": "105.0698"
+    },
+    {
+     "old": "105.0699"
+    },
+    {
+     "old": "105.0700"
+    },
+    {
+     "old": "105.0701"
+    },
+    {
+     "old": "105.0702"
+    },
+    {
+     "old": "105.0703"
+    },
+    {
+     "old": "105.0704"
+    },
+    {
+     "old": "105.0705"
+    },
+    {
+     "old": "105.0706"
+    },
+    {
+     "old": "105.0707"
+    },
+    {
+     "old": "105.0708"
+    },
+    {
+     "old": "105.0709"
+    },
+    {
+     "old": "105.0710"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-25.md",
+   "date": "1884-08-25",
+   "heading": "Samedi 25 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0712"
+    },
+    {
+     "old": "105.0713"
+    },
+    {
+     "old": "105.0714"
+    },
+    {
+     "old": "105.0715"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-26.md",
+   "date": "1884-08-26",
+   "heading": "Mardi 26 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0718"
+    },
+    {
+     "old": "105.0719"
+    },
+    {
+     "old": "105.0720"
+    },
+    {
+     "old": "105.0721"
+    },
+    {
+     "old": "105.0722"
+    },
+    {
+     "old": "105.0723"
+    },
+    {
+     "old": "105.0724"
+    },
+    {
+     "old": "105.0725"
+    },
+    {
+     "old": "105.0726"
+    },
+    {
+     "old": "105.0727"
+    },
+    {
+     "old": "105.0728"
+    },
+    {
+     "old": "105.0729"
+    },
+    {
+     "old": "105.0730"
+    },
+    {
+     "old": "105.0731"
+    },
+    {
+     "old": "105.0732"
+    },
+    {
+     "old": "105.0733"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-27.md",
+   "date": "1884-08-27",
+   "heading": "Mercredi 27 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0735"
+    },
+    {
+     "old": "105.0737"
+    },
+    {
+     "old": "105.0738"
+    },
+    {
+     "old": "105.0739"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-28.md",
+   "date": "1884-08-28",
+   "heading": "Jeudi 28 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0741"
+    },
+    {
+     "old": "105.0742"
+    },
+    {
+     "old": "105.0743"
+    },
+    {
+     "old": "105.0744"
+    },
+    {
+     "old": "105.0745"
+    },
+    {
+     "old": "105.0746"
+    },
+    {
+     "old": "105.0747"
+    },
+    {
+     "old": "105.0748"
+    },
+    {
+     "old": "105.0749"
+    },
+    {
+     "old": "105.0750"
+    },
+    {
+     "old": "105.0751"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-29.md",
+   "date": "1884-08-29",
+   "heading": "Vendredi 29 août 1884",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶4023, Mon Journal t.16 p.293: the date line «Vendredi 29 août 1884» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1884-08-28.md"
+  },
+  {
+   "file": "1884-08-30.md",
+   "date": "1884-08-30",
+   "heading": "Samedi 30 août 1884",
+   "paragraphs": [
+    {
+     "old": "105.0753"
+    },
+    {
+     "old": "105.0754"
+    },
+    {
+     "old": "105.0755"
+    },
+    {
+     "old": "105.0756"
+    },
+    {
+     "old": "105.0757"
+    },
+    {
+     "old": "105.0758"
+    },
+    {
+     "old": "105.0759"
+    },
+    {
+     "old": "105.0760"
+    },
+    {
+     "old": "105.0761"
+    },
+    {
+     "old": "105.0762"
+    },
+    {
+     "old": "105.0763"
+    },
+    {
+     "old": "105.0764",
+     "set_french": "Si je disais tout ! Les craintes affreuses. Voici septembre, le mauvais temps n'est pas loin. Le moindre refroidissement peut me flanquer au lit pour deux mois puis la convalescnece... Et le tableau !! Ainsi j'aurais tout sacrifié et..."
+    },
+    {
+     "old": "105.0765"
+    },
+    {
+     "old": "105.0766"
+    },
+    {
+     "new": {
+      "french": "[Mots noircis]",
+      "rsr": "Restored from tome16.docx ¶4039, Mon Journal t.16 p.294 (missing from original extraction, 2026-09-28 rebuild). Split off the following paragraph, where it was the first line (a paragraph of its own in the printed edition).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "old": "105.0767",
+     "set_french": "C'est en vain que je me créerai des Bastien ou autres dérivatifs. Ah ! pauvre Bastien qu'il compte peu devant le désespoir de ne pouvoir pas travailler. La rage de se voir mourir !"
+    },
+    {
+     "old": "105.0768"
+    },
+    {
+     "old": "105.0769"
+    },
+    {
+     "old": "105.0770"
+    }
+   ]
+  },
+  {
+   "file": "1884-08-31.md",
+   "date": "1884-08-31",
+   "heading": "Dimanche 31 août 1884",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "L'architecte est à la chasse et nous allons tenir compagnie à Bastien au Bois, seul avec sa mère.",
+      "rsr": "Restored from tome16.docx ¶4045, Mon Journal t.16 p.294 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "105.0772",
+     "set_french": "C'est très triste. La pauvre femme a du être contente de notre arrivée, il souffrait et s'ennuyait... Au retour ma tante est montée dans leur voiture et nous avons pris l'artiste."
+    },
+    {
+     "old": "105.0773"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-01.md",
+   "date": "1884-09-01",
+   "heading": "Lundi 1er septembre 1884",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "L'architecte apporte des perdreaux et emporte la promesse d'une visite au Bois. C'est une vraie partie, nous emportons tout ce qu'il faut pour faire du chocolat. Il en prend une tasse, puis nous faisons quelques pas, il marche tout seul.",
+      "rsr": "Restored from tome16.docx ¶4049, Mon Journal t.16 p.295 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "105.0775",
+     "set_french": "Le retour comme hier, mais des rencontres qui vont produire des potins. Le Juif Hecht,[^hecht] et les peintres Béraud et Tissot.[^tissot] Comme on avait annoncé la mort prochaine de Bastien, ses amis manifestent une surprise mêlée de joie."
+    },
+    {
+     "old": "105.0776"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-02.md",
+   "date": "1884-09-02",
+   "heading": "Mardi 2 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "105.0778"
+    },
+    {
+     "old": "105.0779"
+    },
+    {
+     "old": "105.0780"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-03.md",
+   "date": "1884-09-03",
+   "heading": "Mercredi 3 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "105.0781"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-04.md",
+   "date": "1884-09-04",
+   "heading": "Jeudi 4 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "105.0782"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-05.md",
+   "date": "1884-09-05",
+   "heading": "Vendredi 5 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "105.0783"
+    },
+    {
+     "old": "105.0784"
+    },
+    {
+     "old": "105.0785"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-06.md",
+   "date": "1884-09-06",
+   "heading": null,
+   "paragraphs": [
+    {
+     "old": "105.0786",
+     "set_french": "# Samedi 8 septembre 1884\nJe devrais regretter que ce paysan Emile ne soit pas mort. Savez-vous ce qu'il m'avait légué en partant pour l'Algérie ? Car il a fait son testament à ce qu'il paraît après le monument Gambetta. Il me l'a dit parce que je parlais de mon enterrement et qu'il serait chargé d'exécuter mes dernières volontés.\nEh bien il me léguait son portrait par Jules.\nÇa c'est touchant et gentil plus que je ne sais dire. Avoir pensé si magnifiquement à moi dans un tel moment.\nJules était à la mort, nous n'y croyions pas, et il venait de rater Gambetta... C'était la fin de tout. C'est à l'occasion du monument que je lui écrivis la lettre qu'il montra à Jules et c‘est d'Alger que date l'amitié de Jules. Maintenant il nous adore à ce que dit Emile.\nQuant à ma lettre je l'avais composée, pesée, arrangée en vue de Jules, bien entendu.\nEt ça avait l'air d'un seul jet, à la diable. Voilà l'art mes enfants. Et pourtant je suis sincère !"
+    }
+   ],
+   "frontmatter_from": "1884-09-06.md"
+  },
+  {
+   "file": "1884-09-07.md",
+   "date": "1884-09-07",
+   "heading": "Dimanche 7 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "105.0787"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-08.md",
+   "date": "1884-09-08",
+   "heading": "Samedi 8 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "105.0788"
+    },
+    {
+     "old": "105.0789"
+    },
+    {
+     "old": "105.0790"
+    },
+    {
+     "old": "105.0791"
+    },
+    {
+     "old": "105.0792"
+    },
+    {
+     "old": "105.0793"
+    },
+    {
+     "old": "105.0794"
+    },
+    {
+     "old": "105.0795"
+    },
+    {
+     "old": "105.0796"
+    },
+    {
+     "old": "105.0797"
+    },
+    {
+     "old": "105.0798"
+    },
+    {
+     "old": "105.0799"
+    },
+    {
+     "old": "105.0800"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-09.md",
+   "date": "1884-09-09",
+   "heading": "Mardi 9 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "105.0801"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-10.md",
+   "date": "1884-09-10",
+   "paragraphs": [
+    {
+     "old": "105.0802"
+    }
+   ],
+   "frontmatter_from": "1884-09-10.md"
+  },
+  {
+   "file": "1884-09-11.md",
+   "date": "1884-09-11",
+   "heading": "Jeudi 11 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "105.0803"
+    },
+    {
+     "old": "105.0804"
+    },
+    {
+     "old": "105.0805"
+    },
+    {
+     "old": "105.0806"
+    },
+    {
+     "old": "105.0807"
+    },
+    {
+     "old": "105.0808"
+    }
+   ]
+  }
+ ]
+}

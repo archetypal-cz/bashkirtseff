@@ -20,7 +20,7 @@ Eugène-Melchior, vicomte de Vogüé (1848-1910), French diplomat, literary crit
 
 ## Relevance to Marie
 
-On 15 July 1884 (para 105.0217), Marie notes with evident Russian pride that "on consacre une étude dans la Revue des 'Deux mondes' à notre Tolstoï aujourd'hui" — a study just published on "our Tolstoy" — and identifies its author in the next paragraph (105.0218): "Cette étude est de M. de Voguë qui a été secrétaire d'ambassade en Russie qui a étudié sa littérature et ses mœurs et qui a publié déjà plusieurs articles remarquablement justes et profonds sur mon grand et admirable pays." ("This study is by M. de Vogüé, who was an embassy secretary in Russia, who has studied its literature and customs, and who has already published several remarkably accurate and profound articles on my great and admirable country.")
+On 15 July 1884 (para 105.0207), Marie notes with evident Russian pride that "on consacre une étude dans la Revue des 'Deux mondes' à notre Tolstoï aujourd'hui" — a study just published on "our Tolstoy" — and identifies its author in the next paragraph (105.0208): "Cette étude est de M. de Voguë qui a été secrétaire d'ambassade en Russie qui a étudié sa littérature et ses mœurs et qui a publié déjà plusieurs articles remarquablement justes et profonds sur mon grand et admirable pays." ("This study is by M. de Vogüé, who was an embassy secretary in Russia, who has studied its literature and customs, and who has already published several remarkably accurate and profound articles on my great and admirable country.")
 
 This is a precise reference: Vogüé published "Les écrivains russes contemporains: le comte Léon Tolstoï" in the *Revue des Deux Mondes* in 1884 — the very essay Marie is describing. He later expanded this and related essays into the influential book *Le Roman russe* (1886), which presented Russian prose (Pushkin, Gogol, Dostoevsky, Tolstoy) to French readers as a morally serious alternative to French Naturalism.
 
@@ -30,7 +30,7 @@ Vogüé's criticism was instrumental in building the French reading public's app
 
 ## References in Diary
 
-- 1884-07-15 (para 105.0218)
+- 1884-07-15 (para 105.0208)
 
 Sources: Wikipedia and secondary bibliographic sources on Vogüé's 1884 *Revue des Deux Mondes* essay on Tolstoy.
 

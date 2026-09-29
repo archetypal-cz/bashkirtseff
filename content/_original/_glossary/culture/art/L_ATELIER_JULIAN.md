@@ -35,7 +35,7 @@ Its dimensions are disputed. The 1885 posthumous catalogue, closest to an author
 Sixteen women students at work in a life class: a nude child model posed on the platform, easels crowded to the edges of a room too small for them, the studio's clutter of casts, canvases and stove-pipe. Marie put herself at the centre of the group, in blue. Nothing like it existed -- that was Julian's whole commercial point -- and the composition is, in effect, a group portrait of the institution that took women seriously as professionals a decade and a half before the École des Beaux-Arts would.
 
 %% GLO_L_ATELIER_JULIAN.0006 %%
-The picture illustrates the ethos Marie had set down in her own words as a beginner in October 1877 (075.0162): "A l'atelier tout disparaît, on n'a ni nom, ni famille; on n'est plus la fille de sa mère, on est soi-même, on est un individu et on a devant soi l'Art et rien d'autre."
+The picture illustrates the ethos Marie had set down in her own words as a beginner in October 1877 (075.0169): "A l'atelier tout disparaît, on n'a ni nom, ni famille; on n'est plus la fille de sa mère, on est soi-même, on est un individu et on a devant soi l'Art et rien d'autre."
 
 %% GLO_L_ATELIER_JULIAN.0007 %%
 ## Making of the Work
@@ -64,7 +64,7 @@ The canvas travelled with the bulk of her work: from her mother to the Museum of
 ## References in Diary
 
 %% GLO_L_ATELIER_JULIAN.0015 %%
-- Precursor: 1877-10 (075.0162) -- the atelier as a place where name and family disappear; the idea the picture illustrates
+- Precursor: 1877-10 (075.0169) -- the atelier as a place where name and family disappear; the idea the picture illustrates
 - **First mention**: 1880-12-24 (090.0447–0422) -- Julian's offer, the signed engagement, "jamais un atelier de femmes n'a été fait", and his three motives
 - 1880-12-27 (090.0469–0444, 090.0480) -- she cannot compose without knowing her allotted space; her letter to Julian in full
 - 1881-02-05 (091.0079) -- Tony: "Le point de départ est bon, cela va bien"

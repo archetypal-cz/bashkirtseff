@@ -1,0 +1,28 @@
+[
+ {
+  "carnet": "101",
+  "entry": "1883-08-13.md",
+  "anchor_old": "101.0067",
+  "file": "drawings/101/tome16-p0011-1.webp",
+  "dest": "src/frontend/public/images/marie/drawings/101/tome16-p0011-1.webp",
+  "src": "/images/marie/drawings/101/tome16-p0011-1.webp",
+  "caption": "Dessin de Marie dans le carnet : elle-même faisant un pied de nez à Jules",
+  "alt": "Croquis à la plume : une petite figure debout, la main levée au nez en signe de moquerie, et à droite un griffonnage en boucle ; en bas, un long trait appuyé",
+  "source": "Mon Journal, t. 16, p. 11 (fac-similé)",
+  "size": "560x299, 11 KB"
+ },
+ {
+  "carnet": "106",
+  "entry": "1884-10-20.md",
+  "anchor_old": "106.0462",
+  "file": "drawings/106/tome16-p0311-1.webp",
+  "dest": "src/frontend/public/images/marie/drawings/106/tome16-p0311-1.webp",
+  "src": "/images/marie/drawings/106/tome16-p0311-1.webp",
+  "caption": "Signature de Marie Bashkirtseff",
+  "alt": "Signature manuscrite « Marie Bashkirtseff », à l'encre, d'une écriture penchée et rapide terminée par un long trait",
+  "source": "Mon Journal, t. 16, p. 311 (fac-similé)",
+  "size": "1229x542, 28 KB",
+  "note": "owner question: the printed edition reproduces the signature after its note «[Marie Bashkirtseff est décédée le 31 octobre 1884]»; it may not come from this notebook. Default (2026-09-28, pending owner answer): left out, as edition apparatus.",
+  "exclude": true
+ }
+]

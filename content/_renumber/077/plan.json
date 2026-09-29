@@ -1,0 +1,2624 @@
+{
+ "carnet": "077",
+ "source": "tome11.docx",
+ "drop": [
+  {
+   "id": "077.0001",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28); its heading «Dimanche 23 décembre 1877» is 077.0005"
+  },
+  {
+   "id": "077.0002",
+   "reason": "title page of the notebook (Livre heading, dates, address): cover pages are withdrawn (owner policy 2026-09-28); text kept in REVIEW.md «withdrawn cover pages»"
+  },
+  {
+   "id": "077.0003",
+   "reason": "title page of the notebook (Livre heading, dates, address): cover pages are withdrawn (owner policy 2026-09-28); text kept in REVIEW.md «withdrawn cover pages»"
+  },
+  {
+   "id": "077.0004",
+   "reason": "title page of the notebook (Livre heading, dates, address): cover pages are withdrawn (owner policy 2026-09-28); text kept in REVIEW.md «withdrawn cover pages»"
+  },
+  {
+   "id": "077.0009",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0016",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0025",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0028",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0038",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0045",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0055",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0069",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0073",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0084",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+  },
+  {
+   "id": "077.0085",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0098",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0108",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0117",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0128",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0137",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0147",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0150",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0152",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0169",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+  },
+  {
+   "id": "077.0170",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0176",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0191",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+  },
+  {
+   "id": "077.0194",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0211",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0216",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0238",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0240",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+  },
+  {
+   "id": "077.0256",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0265",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0280",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0288",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+  },
+  {
+   "id": "077.0304",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0332",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+  },
+  {
+   "id": "077.0352",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0354",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0392",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0399",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0427",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0464",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+  },
+  {
+   "id": "077.0474",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0491",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0546",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0550",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0565",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0581",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0600",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "077.0613",
+   "reason": "title page of the notebook (Livre heading, dates, address): cover pages are withdrawn (owner policy 2026-09-28); text kept in REVIEW.md «withdrawn cover pages»"
+  },
+  {
+   "id": "077.0614",
+   "reason": "title page of the notebook (Livre heading, dates, address): cover pages are withdrawn (owner policy 2026-09-28); text kept in REVIEW.md «withdrawn cover pages»"
+  },
+  {
+   "id": "077.0615",
+   "reason": "title page of the notebook (Livre heading, dates, address): cover pages are withdrawn (owner policy 2026-09-28); text kept in REVIEW.md «withdrawn cover pages»"
+  },
+  {
+   "id": "077.0616",
+   "reason": "Bibliothèque nationale annotation on the title page of Livre 78 («les pages 63 à 68 ont été enlevées. Déficit constaté le 13 avril 1938»): not Marie's, withdrawn with the cover page; the gap itself stays marked by the editorial note 078.0283"
+  },
+  {
+   "id": "077.0659",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1877-12-23.md",
+   "date": "1877-12-23",
+   "heading": "Dimanche 23 décembre 1877",
+   "paragraphs": [
+    {
+     "old": "077.0005",
+     "set_french": "# Dimanche 23 décembre 1877"
+    },
+    {
+     "old": "077.0006",
+     "set_french": "Je lui répondrai un de ces jours."
+    },
+    {
+     "old": "077.0007",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 22 décembre 1877",
+     "set_french": "> Berne 22 décembre 1877"
+    },
+    {
+     "old": "077.0008",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 22 décembre 1877",
+     "set_french": "> Chère Mademoiselle Marie"
+    },
+    {
+     "new": {
+      "french": "Je vous prie instamment de me donner des nouvelles de votre grand-père, son état paraissait été alarmant quand j’ai quitté Paris, mais je souhaite de tout mon cœur qu’il n’y ait pas eu de nouvelle catastrophe et que ces attaques ne se soient pas répétées. Je ne pense pas que je pourrai revenir à Paris maintenant, comme j’en avais l’intention, mon père étant malade et ma grand-mère aussi assez indisposée. Ce n’est du reste pas étonnant, car nous avons eu subitement un froid rigoureux, tout le monde est enrhumé et tousse.",
+      "rsr": "Restored from tome11.docx ¶1414, Mon Journal t.11 p.87 (missing from original extraction, 2026-09-28 rebuild). Typesetting typo of the printed edition «maintemant» corrected to «maintenant» (Mon Journal t.11 p.87).",
+      "kind": "letter",
+      "source": "Lettre de F. de Marcuard, Berne, 22 décembre 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "Continuez-vous avec la même ardeur vos études artistiques ?",
+      "rsr": "Restored from tome11.docx ¶1415, Mon Journal t.11 p.87 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de F. de Marcuard, Berne, 22 décembre 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "Je serai très heureux de recevoir un mot de vous, j’espère qu’il ne portera pas de mauvaises nouvelles.",
+      "rsr": "Restored from tome11.docx ¶1416, Mon Journal t.11 p.87 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de F. de Marcuard, Berne, 22 décembre 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "Mon adresse est toujours chez Marcuard et C'e et banquiers Berne.",
+      "rsr": "Restored from tome11.docx ¶1417, Mon Journal t.11 p.87 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de F. de Marcuard, Berne, 22 décembre 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "Mille choses à votre famille et croyez moi votre dévoué serviteur.",
+      "rsr": "Restored from tome11.docx ¶1418, Mon Journal t.11 p.87 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de F. de Marcuard, Berne, 22 décembre 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "F. de Marcuard",
+      "rsr": "Restored from tome11.docx ¶1419, Mon Journal t.11 p.87 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "letter",
+      "source": "Lettre de F. de Marcuard, Berne, 22 décembre 1877"
+     }
+    },
+    {
+     "new": {
+      "french": "Il fait froid. Je lis la Grammaire de dessin par Charles Blanc, livre très intéressant, joue de la harpe, dessine le squelette.",
+      "rsr": "Restored from tome11.docx ¶1420, Mon Journal t.11 p.87 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A dix-huit ans, voilà une vie ! Elle me plaît mais je l’aimerais encore plus si ce n’était pas forcé.",
+      "rsr": "Restored from tome11.docx ¶1421, Mon Journal t.11 p.87 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je n’étais pas tout à fait coiffée selon mon idée hier, ils m’ont *gobée* quand même. Je n’ai pas à me plaindre du public, mais ce n’est pas un succès au théâtre qui m’est chose neuve.",
+      "rsr": "Restored from tome11.docx ¶1422, Mon Journal t.11 p.87 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis agacée; je n’ai le temps de rien faire, la vie est si courte... assez longue si l’on l’emploie entière... mais je voudrais n’avoir à vingt ans plus rien à apprendre pour jouir de ce que j’aurais appris et tout en jouissant, apprendre encore mais autrement, sans fatigue, comme on apprend les petites choses qui complètent les grandes.",
+      "rsr": "Restored from tome11.docx ¶1423–1427, Mon Journal t.11 pp.87–88 (missing from original extraction, 2026-09-28 rebuild). One sentence across a page break; ¶1424 «Ibid, p.112» is a printed-edition footnote and is left out."
+     }
+    },
+    {
+     "new": {
+      "french": "Pauvres femmes ! Que d’efforts, de fièvre, pour savoir ce qu’apprennent tous les étudiants ès sciences, tous les hommes ou la majeure partie, je parle de la partie bien élevée. On vous envoie à l’école et vous apprenez tout naturellement tandis que moi, tandis que nous. On se gaspille, on gaspille les livres, on sait mais sans ordre, et je suis toquée sur l’ordre, la symétrie, les choses régulières... Quitte après à tout déranger moi-même, à bouleverser, refaire. Je ne peux pas du tout m’exprimer ce soir.",
+      "rsr": "Restored from tome11.docx ¶1428, Mon Journal t.11 p.88 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1877-12-24.md",
+   "date": "1877-12-24",
+   "heading": "Lundi 24 décembre 1877",
+   "paragraphs": [
+    {
+     "old": "077.0010"
+    },
+    {
+     "old": "077.0011",
+     "kind": "letter",
+     "source": "Télégramme de Marie aux Suissesses, 24 décembre 1877",
+     "set_french": "> Pourquoi ne venez-vous plus écurie de femmes ? Beaucoup de stalles vides. De la paille, des ânes, des vaches. Fruitière (une maman qui veut que sa fille dessine) changé commerce, vend foin, avis aux amateurs. Je vous attends ce soir pour assassiner cadavre."
+    },
+    {
+     "old": "077.0012",
+     "kind": "letter",
+     "source": "Télégramme de Marie aux Suissesses, 24 décembre 1877",
+     "set_french": "> Princesse."
+    },
+    {
+     "old": "077.0013"
+    },
+    {
+     "old": "077.0014"
+    },
+    {
+     "old": "077.0015"
+    }
+   ]
+  },
+  {
+   "file": "1877-12-25.md",
+   "date": "1877-12-25",
+   "heading": "Mardi 25 décembre 1877 - Noël",
+   "paragraphs": [
+    {
+     "old": "077.0017",
+     "set_french": "# Mardi 25 décembre 1877 - Noël\nJe suis allée travailler à l'atelier, mais il n'y avait que moi et Amélie, pendant que cette dernière était à l'église Julian est monté et nous avons arrêté les conditions de la sculpture que j'enverrai à l'Exposition de Nice."
+    },
+    {
+     "old": "077.0018"
+    },
+    {
+     "old": "077.0019"
+    },
+    {
+     "old": "077.0020"
+    },
+    {
+     "old": "077.0021"
+    },
+    {
+     "old": "077.0022"
+    },
+    {
+     "old": "077.0023"
+    },
+    {
+     "old": "077.0024"
+    }
+   ]
+  },
+  {
+   "file": "1877-12-26.md",
+   "date": "1877-12-26",
+   "heading": "Mercredi 26 décembre 1877",
+   "paragraphs": [
+    {
+     "old": "077.0026"
+    },
+    {
+     "old": "077.0027"
+    }
+   ]
+  },
+  {
+   "file": "1877-12-27.md",
+   "date": "1877-12-27",
+   "heading": "Jeudi 27 décembre 1877",
+   "paragraphs": [
+    {
+     "old": "077.0029"
+    },
+    {
+     "old": "077.0030"
+    },
+    {
+     "old": "077.0031"
+    },
+    {
+     "old": "077.0032"
+    },
+    {
+     "old": "077.0033"
+    },
+    {
+     "old": "077.0034"
+    },
+    {
+     "old": "077.0035"
+    },
+    {
+     "old": "077.0036"
+    },
+    {
+     "old": "077.0037"
+    }
+   ]
+  },
+  {
+   "file": "1877-12-28.md",
+   "date": "1877-12-28",
+   "heading": "Vendredi 28 décembre 1877",
+   "paragraphs": [
+    {
+     "old": "077.0039"
+    },
+    {
+     "old": "077.0040"
+    },
+    {
+     "old": "077.0041"
+    },
+    {
+     "old": "077.0042"
+    },
+    {
+     "old": "077.0043"
+    },
+    {
+     "old": "077.0044"
+    }
+   ]
+  },
+  {
+   "file": "1877-12-29.md",
+   "date": "1877-12-29",
+   "heading": "Samedi 29 décembre 1877",
+   "paragraphs": [
+    {
+     "old": "077.0046"
+    },
+    {
+     "old": "077.0047"
+    },
+    {
+     "old": "077.0048"
+    },
+    {
+     "old": "077.0049"
+    },
+    {
+     "old": "077.0050"
+    },
+    {
+     "old": "077.0051"
+    },
+    {
+     "old": "077.0052"
+    },
+    {
+     "old": "077.0053"
+    },
+    {
+     "old": "077.0054"
+    }
+   ]
+  },
+  {
+   "file": "1877-12-30.md",
+   "date": "1877-12-30",
+   "heading": "Dimanche 30 décembre 1877",
+   "paragraphs": [
+    {
+     "old": "077.0056"
+    },
+    {
+     "old": "077.0057"
+    },
+    {
+     "old": "077.0058"
+    },
+    {
+     "old": "077.0059"
+    },
+    {
+     "old": "077.0060",
+     "kind": "rayé"
+    },
+    {
+     "old": "077.0061",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 30 décembre 1877",
+     "set_french": "> Berne 30 Décembre 1877 Chère Mademoiselle Marie"
+    },
+    {
+     "old": "077.0062",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 30 décembre 1877"
+    },
+    {
+     "old": "077.0063",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 30 décembre 1877"
+    },
+    {
+     "old": "077.0064",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 30 décembre 1877"
+    },
+    {
+     "old": "077.0065",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 30 décembre 1877"
+    },
+    {
+     "old": "077.0066",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 30 décembre 1877"
+    },
+    {
+     "old": "077.0067",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 30 décembre 1877"
+    },
+    {
+     "old": "077.0068",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Berne, 30 décembre 1877"
+    }
+   ]
+  },
+  {
+   "file": "1877-12-31.md",
+   "date": "1877-12-31",
+   "heading": "Lundi 31 décembre 1877",
+   "paragraphs": [
+    {
+     "old": "077.0070"
+    },
+    {
+     "old": "077.0071"
+    },
+    {
+     "old": "077.0072"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-01.md",
+   "date": "1878-01-01",
+   "heading": "Mardi 1er janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0074"
+    },
+    {
+     "old": "077.0075"
+    },
+    {
+     "old": "077.0076"
+    },
+    {
+     "old": "077.0077"
+    },
+    {
+     "old": "077.0078"
+    },
+    {
+     "old": "077.0079"
+    },
+    {
+     "old": "077.0080"
+    },
+    {
+     "old": "077.0081"
+    },
+    {
+     "old": "077.0082"
+    },
+    {
+     "old": "077.0083"
+    },
+    {
+     "old": "077.0086",
+     "set_french": "Ça m'ennuie tant que Berthe veuille dessiner l'après-midi."
+    }
+   ]
+  },
+  {
+   "file": "1878-01-02.md",
+   "date": "1878-01-02",
+   "heading": "Mercredi 2 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0087"
+    },
+    {
+     "old": "077.0088",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 2 janvier 1878"
+    },
+    {
+     "old": "077.0089",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 2 janvier 1878"
+    },
+    {
+     "old": "077.0090",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 2 janvier 1878"
+    },
+    {
+     "old": "077.0091"
+    },
+    {
+     "old": "077.0092"
+    },
+    {
+     "old": "077.0093"
+    },
+    {
+     "old": "077.0094"
+    },
+    {
+     "old": "077.0095"
+    },
+    {
+     "old": "077.0096"
+    },
+    {
+     "old": "077.0097"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-03.md",
+   "date": "1878-01-03",
+   "heading": "Jeudi 3 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0099"
+    },
+    {
+     "old": "077.0100"
+    },
+    {
+     "old": "077.0101"
+    },
+    {
+     "old": "077.0102"
+    },
+    {
+     "old": "077.0103"
+    },
+    {
+     "old": "077.0104"
+    },
+    {
+     "old": "077.0105"
+    },
+    {
+     "old": "077.0106"
+    },
+    {
+     "old": "077.0107"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-04.md",
+   "date": "1878-01-04",
+   "heading": "Vendredi 4 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0109"
+    },
+    {
+     "old": "077.0110"
+    },
+    {
+     "old": "077.0111"
+    },
+    {
+     "old": "077.0112"
+    },
+    {
+     "old": "077.0113"
+    },
+    {
+     "old": "077.0114"
+    },
+    {
+     "old": "077.0115"
+    },
+    {
+     "old": "077.0116"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-05.md",
+   "date": "1878-01-05",
+   "heading": "Samedi 5 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0118"
+    },
+    {
+     "old": "077.0119"
+    },
+    {
+     "old": "077.0120"
+    },
+    {
+     "old": "077.0121"
+    },
+    {
+     "old": "077.0122"
+    },
+    {
+     "old": "077.0123"
+    },
+    {
+     "old": "077.0124"
+    },
+    {
+     "old": "077.0125"
+    },
+    {
+     "old": "077.0126"
+    },
+    {
+     "old": "077.0127"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-06.md",
+   "date": "1878-01-06",
+   "heading": "Dimanche 6 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0129"
+    },
+    {
+     "old": "077.0130"
+    },
+    {
+     "old": "077.0131"
+    },
+    {
+     "old": "077.0132"
+    },
+    {
+     "old": "077.0133"
+    },
+    {
+     "old": "077.0134"
+    },
+    {
+     "old": "077.0135"
+    },
+    {
+     "old": "077.0136"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-07.md",
+   "date": "1878-01-07",
+   "heading": "Lundi 7 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0138"
+    },
+    {
+     "old": "077.0139"
+    },
+    {
+     "old": "077.0140"
+    },
+    {
+     "old": "077.0141"
+    },
+    {
+     "old": "077.0142"
+    },
+    {
+     "old": "077.0143"
+    },
+    {
+     "old": "077.0144"
+    },
+    {
+     "old": "077.0145"
+    },
+    {
+     "old": "077.0146",
+     "kind": "rayé"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-08.md",
+   "date": "1878-01-08",
+   "heading": "Mardi 8 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0148"
+    },
+    {
+     "old": "077.0149"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-09.md",
+   "date": "1878-01-09",
+   "heading": "Mercredi 9 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0151"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-10.md",
+   "date": "1878-01-10",
+   "heading": "Jeudi 10 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0153"
+    },
+    {
+     "old": "077.0154"
+    },
+    {
+     "old": "077.0155"
+    },
+    {
+     "old": "077.0156",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [mercredi 9 janvier 1878]",
+     "set_french": "> Mercredi [9 janvier 1878]"
+    },
+    {
+     "old": "077.0157",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [mercredi 9 janvier 1878]"
+    },
+    {
+     "old": "077.0158",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [mercredi 9 janvier 1878]"
+    },
+    {
+     "old": "077.0159",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [mercredi 9 janvier 1878]"
+    },
+    {
+     "old": "077.0160",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [mercredi 9 janvier 1878]"
+    },
+    {
+     "old": "077.0161",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [mercredi 9 janvier 1878]"
+    },
+    {
+     "old": "077.0162"
+    },
+    {
+     "old": "077.0163",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 10 janvier 1878"
+    },
+    {
+     "old": "077.0164",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 10 janvier 1878"
+    },
+    {
+     "old": "077.0165",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 10 janvier 1878"
+    },
+    {
+     "old": "077.0166",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 10 janvier 1878"
+    },
+    {
+     "old": "077.0167",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 10 janvier 1878"
+    },
+    {
+     "old": "077.0168"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-11.md",
+   "date": "1878-01-11",
+   "heading": "Vendredi 11 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0171",
+     "kind": "rayé"
+    },
+    {
+     "old": "077.0172"
+    },
+    {
+     "old": "077.0173"
+    },
+    {
+     "old": "077.0174"
+    },
+    {
+     "old": "077.0175",
+     "kind": "letter",
+     "source": "Lettre anonyme des « cinq femmes » (Marie et ses amies) à Paul de Cassagnac, janvier 1878",
+     "set_french": "> Malgré votre détestable réputation et à cause de cette réputation, vu le changement notable survenu dans vos amours, pensant aussi qu'étant sur le retour vous serez sage et plaisanterie à part, se confiant à votre honneur de gentilhomme cinq dames du monde s'aventurent jusqu'à vous demander de leur donner une tasse de thé chez vous. Elles seront masquées et vous donnerez votre parole d'honneur que vous les laisserez partir quand et comme elles voudront Répondez par le Figaro du dimanche commençant por hini et signez Popaul."
+    }
+   ]
+  },
+  {
+   "file": "1878-01-12.md",
+   "date": "1878-01-12",
+   "heading": "Samedi 12 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0177"
+    },
+    {
+     "old": "077.0178"
+    },
+    {
+     "old": "077.0179"
+    },
+    {
+     "old": "077.0180"
+    },
+    {
+     "old": "077.0181"
+    },
+    {
+     "old": "077.0182",
+     "kind": "letter",
+     "source": "Billet de Paul de Cassagnac, samedi 12 janvier 1878",
+     "set_french": "> Samedi 12 janvier 1878 Voici cinq billets Mademoiselle despote !"
+    },
+    {
+     "old": "077.0183",
+     "kind": "letter",
+     "source": "Billet de Paul de Cassagnac, samedi 12 janvier 1878",
+     "set_french": "> Les trois violets sont des billes de dames. Les autres, les billets d'hommes, en ce sens qu'ils sont moins bien placés."
+    },
+    {
+     "old": "077.0184",
+     "kind": "letter",
+     "source": "Billet de Paul de Cassagnac, samedi 12 janvier 1878",
+     "set_french": "> Etes-vous assez bien servi par votre esclave,"
+    },
+    {
+     "old": "077.0185",
+     "kind": "letter",
+     "source": "Billet de Paul de Cassagnac, samedi 12 janvier 1878",
+     "set_french": "> Paul de Cassagnac"
+    },
+    {
+     "old": "077.0186"
+    },
+    {
+     "old": "077.0187"
+    },
+    {
+     "old": "077.0188"
+    },
+    {
+     "old": "077.0189"
+    },
+    {
+     "old": "077.0190"
+    },
+    {
+     "old": "077.0192"
+    },
+    {
+     "old": "077.0193"
+    },
+    {
+     "new": {
+      "french": "Pour lundi nous avons de nouveau des billets.",
+      "rsr": "Restored from tome11.docx ¶1651, Mon Journal t.11 p.102 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "old": "077.0201"
+    },
+    {
+     "old": "077.0202"
+    },
+    {
+     "old": "077.0203"
+    },
+    {
+     "old": "077.0204"
+    },
+    {
+     "old": "077.0205"
+    },
+    {
+     "old": "077.0206"
+    },
+    {
+     "old": "077.0207"
+    },
+    {
+     "old": "077.0208"
+    },
+    {
+     "old": "077.0209"
+    },
+    {
+     "old": "077.0210"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-13.md",
+   "date": "1878-01-13",
+   "heading": "Dimanche 13 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0195"
+    },
+    {
+     "old": "077.0196"
+    },
+    {
+     "old": "077.0197"
+    },
+    {
+     "old": "077.0198"
+    },
+    {
+     "old": "077.0199"
+    },
+    {
+     "old": "077.0200"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-14.md",
+   "date": "1878-01-14",
+   "heading": "Lundi 14 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0212"
+    },
+    {
+     "old": "077.0213"
+    },
+    {
+     "old": "077.0214"
+    },
+    {
+     "old": "077.0215"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-15.md",
+   "date": "1878-01-15",
+   "heading": "Mardi 15 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0217"
+    },
+    {
+     "old": "077.0218"
+    },
+    {
+     "old": "077.0219"
+    },
+    {
+     "old": "077.0220"
+    },
+    {
+     "old": "077.0221"
+    },
+    {
+     "old": "077.0222"
+    },
+    {
+     "old": "077.0223"
+    },
+    {
+     "old": "077.0224"
+    },
+    {
+     "old": "077.0225"
+    },
+    {
+     "old": "077.0226"
+    },
+    {
+     "old": "077.0227",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    },
+    {
+     "old": "077.0228",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878",
+     "set_french": "> Chère Mademoiselle"
+    },
+    {
+     "old": "077.0229",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    },
+    {
+     "old": "077.0230",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    },
+    {
+     "old": "077.0231",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    },
+    {
+     "old": "077.0232",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    },
+    {
+     "old": "077.0233",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    },
+    {
+     "old": "077.0234",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    },
+    {
+     "old": "077.0235",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    },
+    {
+     "old": "077.0236",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    },
+    {
+     "old": "077.0237",
+     "kind": "letter",
+     "source": "Lettre de F. de Marcuard, Menton, 12 janvier 1878"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-16.md",
+   "date": "1878-01-16",
+   "heading": "Mercredi 16 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0239"
+    },
+    {
+     "old": "077.0241",
+     "set_french": "Cassagnac n'a pas répondu par le Figaro. Voici ce que nous lui récrivons:"
+    },
+    {
+     "old": "077.0242",
+     "kind": "letter",
+     "source": "Lettre anonyme des « cinq femmes » à Paul de Cassagnac, 16 janvier 1878"
+    },
+    {
+     "old": "077.0243",
+     "set_french": "J'ai répondu à Marcuard"
+    },
+    {
+     "old": "077.0244",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 16 janvier 1878",
+     "set_french": "> Paris, avenue de l'Alma n° 67 A Monsieur de M..."
+    },
+    {
+     "old": "077.0245",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 16 janvier 1878"
+    },
+    {
+     "old": "077.0246",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 16 janvier 1878",
+     "set_french": "> Il nous est arrivé un bien grand malheur, notre cher docteur Wolitski [Walitsky], que vous avez vu ches nous, est mort vendredi dernier, à deux heures de la nuit. C'était le meilleur ami de toute notre famille, le filleul de grand-papa, il nous a tous vus grandir; vous pensez bien quelle perte irréparable. Les amis comme lui sont si rares, pour ne pas dire qu'on n'en trouve plus. Grand-papa malade, lui-même, comme vous savez, a pleuré toute la journée et continue jusqu'à présent à être très triste. Mais je ne veux pas vous entretenir de choses si sombres."
+    },
+    {
+     "old": "077.0247",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 16 janvier 1878"
+    },
+    {
+     "old": "077.0248",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 16 janvier 1878"
+    },
+    {
+     "old": "077.0249",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 16 janvier 1878",
+     "set_french": "> Vous savez que la princesse S[ouvoroff], s'est embarquée pour l'Amérique, où elle veut, dit-on, se marier. Voilà qui serait une fin extraordinaire."
+    },
+    {
+     "old": "077.0250",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 16 janvier 1878"
+    },
+    {
+     "old": "077.0251",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 16 janvier 1878"
+    },
+    {
+     "old": "077.0252",
+     "kind": "letter",
+     "source": "Lettre de Marie à F. de Marcuard, 16 janvier 1878"
+    },
+    {
+     "old": "077.0253"
+    },
+    {
+     "old": "077.0254"
+    },
+    {
+     "old": "077.0255"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-17.md",
+   "date": "1878-01-17",
+   "heading": "Jeudi 17 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0257"
+    },
+    {
+     "old": "077.0258"
+    },
+    {
+     "old": "077.0259"
+    },
+    {
+     "old": "077.0260"
+    },
+    {
+     "old": "077.0261"
+    },
+    {
+     "old": "077.0262"
+    },
+    {
+     "old": "077.0263"
+    },
+    {
+     "old": "077.0264"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-18.md",
+   "date": "1878-01-18",
+   "heading": "Vendredi 18 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0266"
+    },
+    {
+     "old": "077.0267"
+    },
+    {
+     "old": "077.0268"
+    },
+    {
+     "old": "077.0269"
+    },
+    {
+     "old": "077.0270"
+    },
+    {
+     "old": "077.0271"
+    },
+    {
+     "old": "077.0272"
+    },
+    {
+     "old": "077.0273"
+    },
+    {
+     "old": "077.0274"
+    },
+    {
+     "old": "077.0275"
+    },
+    {
+     "old": "077.0276"
+    },
+    {
+     "old": "077.0277",
+     "kind": "letter",
+     "source": "Billet de Marie à Paul de Cassagnac, 18 janvier 1878",
+     "set_french": "> A Monsieur de Cassagnac"
+    },
+    {
+     "old": "077.0278",
+     "kind": "letter",
+     "source": "Billet de Marie à Paul de Cassagnac, 18 janvier 1878",
+     "set_french": "> Maman me charge de vous inviter à diner samedi à six heures et demie."
+    },
+    {
+     "old": "077.0279",
+     "kind": "letter",
+     "source": "Billet de Marie à Paul de Cassagnac, 18 janvier 1878",
+     "set_french": "> Marie Bashkirtseff"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-19.md",
+   "date": "1878-01-19",
+   "heading": "Samedi 19 janvier 1878",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome11.docx ¶1749: the date line «Samedi 19 janvier 1878» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1878-01-19.md"
+  },
+  {
+   "file": "1878-01-20.md",
+   "date": "1878-01-20",
+   "heading": "Dimanche 20 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0281"
+    },
+    {
+     "old": "077.0282",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [samedi 19 janvier 1878]",
+     "set_french": "> [Samedi 19 janvier 1878]"
+    },
+    {
+     "old": "077.0283",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [samedi 19 janvier 1878]"
+    },
+    {
+     "old": "077.0284",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [samedi 19 janvier 1878]"
+    },
+    {
+     "old": "077.0285",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [samedi 19 janvier 1878]"
+    },
+    {
+     "old": "077.0286",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac, [samedi 19 janvier 1878]"
+    },
+    {
+     "old": "077.0287"
+    },
+    {
+     "old": "077.0289",
+     "kind": "letter",
+     "source": "Dépêche de Marie à Paul de Cassagnac, 20 janvier 1878",
+     "set_french": "> Je vous accorde jusqu'à sept heures et demie énorme ami."
+    },
+    {
+     "old": "077.0290",
+     "kind": "letter",
+     "source": "Dépêche de Marie à Paul de Cassagnac, 20 janvier 1878",
+     "set_french": "> La vierge au cacao."
+    },
+    {
+     "old": "077.0291"
+    },
+    {
+     "old": "077.0292"
+    },
+    {
+     "old": "077.0293"
+    },
+    {
+     "old": "077.0294"
+    },
+    {
+     "old": "077.0295"
+    },
+    {
+     "old": "077.0296"
+    },
+    {
+     "old": "077.0297"
+    },
+    {
+     "old": "077.0298"
+    },
+    {
+     "old": "077.0299"
+    },
+    {
+     "old": "077.0300"
+    },
+    {
+     "old": "077.0301"
+    },
+    {
+     "old": "077.0302"
+    },
+    {
+     "old": "077.0303"
+    },
+    {
+     "old": "077.0305",
+     "set_french": "Son domestique habillé en commissaire de police fera son entrée longtemps empêché par la bonne, Cassagnac pâlira, les dames s'épouvanteront. Bref, une petite scène très bien jouée qui me ferait un grand effet si je n'étais prévenue."
+    },
+    {
+     "old": "077.0306"
+    },
+    {
+     "old": "077.0307"
+    },
+    {
+     "old": "077.0308"
+    },
+    {
+     "old": "077.0309"
+    },
+    {
+     "old": "077.0310"
+    },
+    {
+     "old": "077.0311"
+    },
+    {
+     "old": "077.0312"
+    },
+    {
+     "old": "077.0313"
+    },
+    {
+     "old": "077.0314"
+    },
+    {
+     "old": "077.0315"
+    },
+    {
+     "old": "077.0316"
+    },
+    {
+     "old": "077.0317"
+    },
+    {
+     "old": "077.0318",
+     "kind": "letter",
+     "source": "Lettre anonyme des « cinq femmes » à Paul de Cassagnac, 20 janvier 1878",
+     "set_french": "> — \"Nos maris soupçonnent le bureau de la Madeleine, impossible d'y prendre votre réponse. Ecrivez poste Luxembourg 1,2,3,4,5, hâtez-vous jeune bonapartiste car jeudi nous partons pour Nice. Mercredi à neuf heures du soir nous serons chez vous, à moins que vous m'envoyez une lettre contraire\"."
+    },
+    {
+     "old": "077.0319"
+    },
+    {
+     "old": "077.0320"
+    },
+    {
+     "old": "077.0321"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-21.md",
+   "date": "1878-01-21",
+   "heading": "Lundi 21 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0322"
+    },
+    {
+     "old": "077.0323",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Jeudi [17 Janvier 1878]"
+    },
+    {
+     "old": "077.0324",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Votre Idée est drôle, mais vous aviez raison de supposer qu'il me serait difficile de vous répondre dans les conditions que vous prescriviez. Je ne suis pas l'ennemi des choses originales - Il n'y a même que cela de vrai dans notre monde ordinairement banal -Seulement, avouez que la signature que vous m'indiquiez frisait un peu le café-concert. Pourquoi pas signer \"Canada\" du moment où nous y étions ?"
+    },
+    {
+     "old": "077.0325",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Vous voulez venir, à cinq ?"
+    },
+    {
+     "old": "077.0326",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> J'accepte."
+    },
+    {
+     "old": "077.0327",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Le thé vous attendra, mais vous le ferez vous-même? En qualité de méridional, je n'y entends rien."
+    },
+    {
+     "old": "077.0328",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Vous demandez ma parole de gentilhomme que vous serez chez vous chez moi, à tous les points de vue et sous toutes les formes ?"
+    },
+    {
+     "old": "077.0329",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Vous l'avez, et de ma vie, je n'ai manqué à des engagements de ce genre."
+    },
+    {
+     "old": "077.0330",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Choisissez le jour et l'heure, mais mettez-moi à même, si quelque évènement grave l'exigeait de changer le rendez-vous."
+    },
+    {
+     "old": "077.0331",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Par ces temps-ci, on ne sait jamais ce qui peut arriver."
+    },
+    {
+     "old": "077.0333",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Autrefois, quand j'étais non pas sur le retour, mais sur l'aller,votre nombre ne m'eût pas inquiété."
+    },
+    {
+     "old": "077.0334",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Aujourd'hui je suis plus modeste."
+    },
+    {
+     "old": "077.0335",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Mais prenez garde à vous, vous êtes masquées, ce qui prouve jusqu'à preuve du contraire, que vous êtes toutes laides. Il s'agit donc de combler cette lacune par de l'esprit."
+    },
+    {
+     "old": "077.0336",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> C'est votre affaire. Moi, étant chez moi, j'aurai le droit d'être bête."
+    },
+    {
+     "old": "077.0337",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Faut-il vous dire, que je connais mon monde parisien à fond et que je sais que vous êtes des femmes comme il faut ?"
+    },
+    {
+     "old": "077.0338",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Inutile, n'est-ce pas ? Sans cela, je ne vous répondrais pas, estimant, à force d'expériences, que la femme qu'on ne respecte pas, est ennuyeuse et ne vaut pas la peine qu'on se dérange."
+    },
+    {
+     "old": "077.0339",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> J'irais même, jusqu'à supposer que j'en connais une sur les cinq et que c'est peut-être celle qui a donné l'idée."
+    },
+    {
+     "old": "077.0340",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Mais malgré et à cause de ma mauvaise réputation, je suis un homme bien élevé et vous reconnaîtrai-je que vous n'en saurez jamais rien."
+    },
+    {
+     "old": "077.0341",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Vous exigez de moi une obéissance absolue. Je vous l'ai promise, sans réserves."
+    },
+    {
+     "old": "077.0342",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> De mon côté, j'exige une chose, qui doit être dans vos moyens, c'est que vous soyez bien chaussées."
+    },
+    {
+     "old": "077.0343",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Du moment où il est entendu que vous êtes obligées de cacher votre visage, offrez-moi de jolis pieds, ce qui bien souvent, dans ma vie, m'a consolé des imperfections que dissimule avec raison, le masque en velours."
+    },
+    {
+     "old": "077.0344",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> C'est entendu ?"
+    },
+    {
+     "old": "077.0345",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> Là dessus, j'attends, et me mets à vos dix pieds et je baise vos dix mains, à moins toutefois, qu'une de vous ne soit pas au complet."
+    },
+    {
+     "old": "077.0346",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [jeudi 17 janvier 1878]",
+     "set_french": "> P."
+    },
+    {
+     "old": "077.0347"
+    },
+    {
+     "old": "077.0348"
+    },
+    {
+     "old": "077.0349"
+    },
+    {
+     "old": "077.0350"
+    },
+    {
+     "old": "077.0351"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-22.md",
+   "date": "1878-01-22",
+   "heading": "Mardi 22 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0353"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-23.md",
+   "date": "1878-01-23",
+   "heading": "Mercredi 23 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0355"
+    },
+    {
+     "old": "077.0356"
+    },
+    {
+     "old": "077.0357"
+    },
+    {
+     "old": "077.0358"
+    },
+    {
+     "old": "077.0359",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », janvier 1878"
+    },
+    {
+     "old": "077.0360",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », janvier 1878"
+    },
+    {
+     "old": "077.0361",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », janvier 1878"
+    },
+    {
+     "old": "077.0362",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », janvier 1878"
+    },
+    {
+     "old": "077.0363",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », janvier 1878"
+    },
+    {
+     "old": "077.0364"
+    },
+    {
+     "old": "077.0365"
+    },
+    {
+     "old": "077.0366",
+     "kind": "letter",
+     "source": "Lettre anonyme des « cinq femmes » à Paul de Cassagnac, 23 janvier 1878",
+     "set_french": "> — Vous êtes plus modeste, est-ce à dire que vous avez peur ou tout au moins éprouvez quelque inquiétude?"
+    },
+    {
+     "old": "077.0367",
+     "kind": "letter",
+     "source": "Lettre anonyme des « cinq femmes » à Paul de Cassagnac, 23 janvier 1878",
+     "set_french": "> Merci pour les honnêtes suppositions, malgré Nini et Popaul, ainsi soyez tranquille sur notre honneur de gentilles femmes autant que de femmes gentilles, nous nous promettons de ménager votre juste susceptibilité."
+    },
+    {
+     "old": "077.0368",
+     "kind": "letter",
+     "source": "Lettre anonyme des « cinq femmes » à Paul de Cassagnac, 23 janvier 1878",
+     "set_french": "> Vous n'avez pas le moindre droit d'être bête attendu que nous allons chez vous pour nous amuser. Nous tâcherons ainsi de parler, aussi peu que possible. Quant à avoir de l'esprit... dans les pieds ?"
+    },
+    {
+     "old": "077.0369",
+     "kind": "letter",
+     "source": "Lettre anonyme des « cinq femmes » à Paul de Cassagnac, 23 janvier 1878",
+     "set_french": "> Joignez au thé des pralines de chez Siraudin, des oranges en tranches glacées et des bonbons de chez Boissier pour une de nous, pour dimanche de huit à neuf heures du soir. Si le jour et l'heure ne vous vont pas, changez-les, nous sommes toujours libres."
+    },
+    {
+     "old": "077.0370",
+     "kind": "other",
+     "source": "annotation de Marie sur la copie de la lettre"
+    },
+    {
+     "old": "077.0371"
+    },
+    {
+     "old": "077.0372"
+    },
+    {
+     "old": "077.0373"
+    },
+    {
+     "old": "077.0374"
+    },
+    {
+     "old": "077.0375"
+    },
+    {
+     "old": "077.0376"
+    },
+    {
+     "old": "077.0377"
+    },
+    {
+     "old": "077.0378"
+    },
+    {
+     "old": "077.0379"
+    },
+    {
+     "old": "077.0380"
+    },
+    {
+     "old": "077.0381"
+    },
+    {
+     "old": "077.0382"
+    },
+    {
+     "old": "077.0383"
+    },
+    {
+     "old": "077.0384"
+    },
+    {
+     "old": "077.0385"
+    },
+    {
+     "old": "077.0386"
+    },
+    {
+     "old": "077.0387"
+    },
+    {
+     "old": "077.0388"
+    },
+    {
+     "old": "077.0389"
+    },
+    {
+     "old": "077.0390"
+    },
+    {
+     "old": "077.0391"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-24.md",
+   "date": "1878-01-24",
+   "heading": "Jeudi 24 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0393",
+     "set_french": "# Jeudi 24 janvier 1878\nPendant les repos je continue à user des feuilles et enfin parviens à composer la lettre que voici et qui tout en étant tourmentée n'a pas moins l'air spontané et bien."
+    },
+    {
+     "old": "077.0394",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 24 janvier 1878"
+    },
+    {
+     "old": "077.0395",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 24 janvier 1878"
+    },
+    {
+     "old": "077.0396",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 24 janvier 1878"
+    },
+    {
+     "old": "077.0397",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, 24 janvier 1878"
+    },
+    {
+     "old": "077.0398"
+    },
+    {
+     "old": "077.0400",
+     "set_french": "M'étant couchée vers cinq heures, je me suis levée ce matin à huit heures moins le quart. Mais cela m'est égal. Si Cassagnac allait se fâcher je lui demanderais pardon, par lâcheté parce que je n'ai pas tort... Peut-être bien. Il était embarrassé de mes folies devant les Boyd et craignait qu'on pense que je suis amou-"
+    },
+    {
+     "old": "077.0401"
+    },
+    {
+     "old": "077.0402"
+    },
+    {
+     "old": "077.0403"
+    },
+    {
+     "old": "077.0404"
+    },
+    {
+     "old": "077.0405"
+    },
+    {
+     "old": "077.0406"
+    },
+    {
+     "old": "077.0407"
+    },
+    {
+     "old": "077.0408"
+    },
+    {
+     "old": "077.0409"
+    },
+    {
+     "old": "077.0410"
+    },
+    {
+     "old": "077.0411"
+    },
+    {
+     "old": "077.0412"
+    },
+    {
+     "old": "077.0413"
+    },
+    {
+     "old": "077.0414"
+    },
+    {
+     "old": "077.0415"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-25.md",
+   "date": "1878-01-25",
+   "heading": "Vendredi 25 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0416"
+    },
+    {
+     "old": "077.0417"
+    },
+    {
+     "old": "077.0418"
+    },
+    {
+     "old": "077.0419"
+    },
+    {
+     "old": "077.0420"
+    },
+    {
+     "old": "077.0421"
+    },
+    {
+     "old": "077.0422"
+    },
+    {
+     "old": "077.0423"
+    },
+    {
+     "old": "077.0424"
+    },
+    {
+     "old": "077.0425"
+    },
+    {
+     "old": "077.0426"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-26.md",
+   "date": "1878-01-26",
+   "heading": "Samedi 26 janvier 1878",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome11.docx ¶1917: the date line «Samedi 26 janvier 1878» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1878-01-26.md"
+  },
+  {
+   "file": "1878-01-27.md",
+   "date": "1878-01-27",
+   "heading": "Dimanche 27 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0428"
+    },
+    {
+     "old": "077.0429"
+    },
+    {
+     "old": "077.0430"
+    },
+    {
+     "old": "077.0431"
+    },
+    {
+     "old": "077.0432"
+    },
+    {
+     "old": "077.0433"
+    },
+    {
+     "old": "077.0434"
+    },
+    {
+     "old": "077.0435"
+    },
+    {
+     "old": "077.0436"
+    },
+    {
+     "old": "077.0437"
+    },
+    {
+     "old": "077.0438"
+    },
+    {
+     "old": "077.0439"
+    },
+    {
+     "old": "077.0440"
+    },
+    {
+     "old": "077.0441"
+    },
+    {
+     "old": "077.0442"
+    },
+    {
+     "old": "077.0443"
+    },
+    {
+     "old": "077.0444",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]",
+     "set_french": "> [Vendredi 25 janvier 1878] C'est entendu ! à dimanche."
+    },
+    {
+     "old": "077.0445",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]"
+    },
+    {
+     "old": "077.0446",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]"
+    },
+    {
+     "old": "077.0447",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]"
+    },
+    {
+     "old": "077.0448",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]"
+    },
+    {
+     "old": "077.0449",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]"
+    },
+    {
+     "old": "077.0450",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]"
+    },
+    {
+     "old": "077.0451",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]"
+    },
+    {
+     "old": "077.0452",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]"
+    },
+    {
+     "old": "077.0453",
+     "kind": "letter",
+     "source": "Lettre de Paul de Cassagnac aux « cinq femmes », [vendredi 25 janvier 1878]"
+    },
+    {
+     "old": "077.0454"
+    },
+    {
+     "old": "077.0455",
+     "kind": "letter",
+     "source": "Dépêche des « cinq femmes » à Paul de Cassagnac, 27 janvier 1878",
+     "set_french": "> — Nous y serons toutes en noir."
+    },
+    {
+     "old": "077.0456",
+     "kind": "letter",
+     "source": "Dépêche des « cinq femmes » à Paul de Cassagnac, 27 janvier 1878",
+     "set_french": "> [Inconnues]"
+    },
+    {
+     "old": "077.0457"
+    },
+    {
+     "old": "077.0458"
+    },
+    {
+     "old": "077.0459"
+    },
+    {
+     "old": "077.0460"
+    },
+    {
+     "old": "077.0461"
+    },
+    {
+     "old": "077.0462"
+    },
+    {
+     "old": "077.0463"
+    },
+    {
+     "old": "077.0465"
+    },
+    {
+     "old": "077.0466"
+    },
+    {
+     "old": "077.0467"
+    },
+    {
+     "old": "077.0468"
+    },
+    {
+     "old": "077.0469"
+    },
+    {
+     "old": "077.0470"
+    },
+    {
+     "old": "077.0471"
+    },
+    {
+     "old": "077.0472"
+    },
+    {
+     "old": "077.0473"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-28.md",
+   "date": "1878-01-28",
+   "heading": "Lundi 28 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0475"
+    },
+    {
+     "old": "077.0476"
+    },
+    {
+     "old": "077.0477"
+    },
+    {
+     "old": "077.0478"
+    },
+    {
+     "old": "077.0479"
+    },
+    {
+     "old": "077.0480"
+    },
+    {
+     "old": "077.0481"
+    },
+    {
+     "old": "077.0482"
+    },
+    {
+     "old": "077.0483"
+    },
+    {
+     "old": "077.0484"
+    },
+    {
+     "old": "077.0485"
+    },
+    {
+     "old": "077.0486"
+    },
+    {
+     "old": "077.0487",
+     "set_french": "— Si j'avais à choisir, c'est toi que je choisirais ou bien en descendant de cette chambre merveilleuse (puisque c'est la première chambre d'homme que je vois et qu'elle n'est ni sévère ni effeminée)."
+    },
+    {
+     "old": "077.0488"
+    },
+    {
+     "old": "077.0489"
+    },
+    {
+     "old": "077.0490"
+    },
+    {
+     "old": "077.0492",
+     "set_french": "— Je te dis que je ne suis pas la colonelle."
+    },
+    {
+     "old": "077.0493"
+    },
+    {
+     "old": "077.0494"
+    },
+    {
+     "old": "077.0495"
+    },
+    {
+     "old": "077.0496"
+    },
+    {
+     "old": "077.0497"
+    },
+    {
+     "old": "077.0498"
+    },
+    {
+     "old": "077.0499"
+    },
+    {
+     "old": "077.0500",
+     "kind": "margin"
+    },
+    {
+     "old": "077.0501"
+    },
+    {
+     "old": "077.0502"
+    },
+    {
+     "old": "077.0503"
+    },
+    {
+     "old": "077.0504"
+    },
+    {
+     "old": "077.0505"
+    },
+    {
+     "old": "077.0506"
+    },
+    {
+     "old": "077.0507"
+    },
+    {
+     "old": "077.0508"
+    },
+    {
+     "old": "077.0509"
+    },
+    {
+     "old": "077.0510"
+    },
+    {
+     "old": "077.0511"
+    },
+    {
+     "old": "077.0512"
+    },
+    {
+     "old": "077.0513"
+    },
+    {
+     "old": "077.0514"
+    },
+    {
+     "old": "077.0515"
+    },
+    {
+     "old": "077.0516"
+    },
+    {
+     "old": "077.0517"
+    },
+    {
+     "old": "077.0518"
+    },
+    {
+     "old": "077.0519"
+    },
+    {
+     "old": "077.0520"
+    },
+    {
+     "old": "077.0521"
+    },
+    {
+     "old": "077.0522"
+    },
+    {
+     "old": "077.0523"
+    },
+    {
+     "old": "077.0524"
+    },
+    {
+     "old": "077.0525"
+    },
+    {
+     "old": "077.0526"
+    },
+    {
+     "old": "077.0527",
+     "kind": "margin"
+    },
+    {
+     "old": "077.0528"
+    },
+    {
+     "old": "077.0529"
+    },
+    {
+     "old": "077.0530"
+    },
+    {
+     "old": "077.0531"
+    },
+    {
+     "old": "077.0532"
+    },
+    {
+     "old": "077.0533"
+    },
+    {
+     "old": "077.0534"
+    },
+    {
+     "old": "077.0535"
+    },
+    {
+     "old": "077.0536"
+    },
+    {
+     "old": "077.0537"
+    },
+    {
+     "old": "077.0538"
+    },
+    {
+     "old": "077.0539"
+    },
+    {
+     "old": "077.0540"
+    },
+    {
+     "old": "077.0541"
+    },
+    {
+     "old": "077.0542"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-29.md",
+   "date": "1878-01-29",
+   "heading": "Mardi 29 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0543"
+    },
+    {
+     "old": "077.0544"
+    },
+    {
+     "old": "077.0545"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-30.md",
+   "date": "1878-01-30",
+   "heading": "Mercredi 30 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0547"
+    },
+    {
+     "old": "077.0548"
+    },
+    {
+     "old": "077.0549"
+    }
+   ]
+  },
+  {
+   "file": "1878-01-31.md",
+   "date": "1878-01-31",
+   "heading": "Jeudi 31 janvier 1878",
+   "paragraphs": [
+    {
+     "old": "077.0551"
+    },
+    {
+     "old": "077.0552"
+    },
+    {
+     "old": "077.0553"
+    },
+    {
+     "old": "077.0554"
+    },
+    {
+     "old": "077.0555"
+    },
+    {
+     "old": "077.0556"
+    },
+    {
+     "old": "077.0557"
+    },
+    {
+     "old": "077.0558"
+    },
+    {
+     "old": "077.0559"
+    },
+    {
+     "old": "077.0560"
+    },
+    {
+     "old": "077.0561"
+    },
+    {
+     "old": "077.0562"
+    },
+    {
+     "old": "077.0563"
+    },
+    {
+     "old": "077.0564"
+    }
+   ]
+  },
+  {
+   "file": "1878-02-01.md",
+   "date": "1878-02-01",
+   "heading": "Vendredi 1er février 1878",
+   "paragraphs": [
+    {
+     "old": "077.0566"
+    },
+    {
+     "old": "077.0567"
+    },
+    {
+     "old": "077.0568"
+    },
+    {
+     "old": "077.0569",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, [vendredi 1er février 1878]"
+    },
+    {
+     "old": "077.0570",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, [vendredi 1er février 1878]"
+    },
+    {
+     "old": "077.0571",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, [vendredi 1er février 1878]"
+    },
+    {
+     "old": "077.0572",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac, [vendredi 1er février 1878]"
+    },
+    {
+     "old": "077.0573"
+    },
+    {
+     "old": "077.0574"
+    },
+    {
+     "old": "077.0575"
+    },
+    {
+     "old": "077.0576"
+    },
+    {
+     "old": "077.0577"
+    },
+    {
+     "old": "077.0578"
+    },
+    {
+     "old": "077.0579"
+    },
+    {
+     "old": "077.0580"
+    }
+   ]
+  },
+  {
+   "file": "1878-02-02.md",
+   "date": "1878-02-02",
+   "heading": "Samedi 2 février 1878",
+   "paragraphs": [
+    {
+     "old": "077.0582"
+    },
+    {
+     "old": "077.0583"
+    },
+    {
+     "old": "077.0584"
+    },
+    {
+     "old": "077.0585"
+    },
+    {
+     "old": "077.0586"
+    },
+    {
+     "old": "077.0587"
+    },
+    {
+     "old": "077.0588"
+    },
+    {
+     "old": "077.0589"
+    },
+    {
+     "old": "077.0590"
+    },
+    {
+     "old": "077.0591"
+    },
+    {
+     "old": "077.0592"
+    },
+    {
+     "old": "077.0593"
+    },
+    {
+     "old": "077.0594"
+    },
+    {
+     "old": "077.0595"
+    },
+    {
+     "old": "077.0596"
+    },
+    {
+     "old": "077.0597"
+    },
+    {
+     "old": "077.0598"
+    },
+    {
+     "old": "077.0599"
+    }
+   ]
+  },
+  {
+   "file": "1878-02-03.md",
+   "date": "1878-02-03",
+   "heading": "Dimanche 3 février 1878",
+   "paragraphs": [
+    {
+     "old": "077.0601"
+    },
+    {
+     "old": "077.0602"
+    },
+    {
+     "old": "077.0603"
+    },
+    {
+     "old": "077.0604"
+    },
+    {
+     "old": "077.0605"
+    },
+    {
+     "old": "077.0606"
+    },
+    {
+     "old": "077.0607"
+    },
+    {
+     "old": "077.0608"
+    },
+    {
+     "old": "077.0609"
+    },
+    {
+     "old": "077.0610"
+    },
+    {
+     "old": "077.0611"
+    },
+    {
+     "old": "077.0612"
+    }
+   ]
+  }
+ ],
+ "drop_files": [
+  {
+   "file": "1878-01-19.md",
+   "reason": "empty stub (heading only, no paragraph IDs); the day is rebuilt from tome11.docx as a new entry of the same name with «[Aucun texte - date seule mentionnée]» (2026-09-28 rebuild)"
+  },
+  {
+   "file": "1878-01-26.md",
+   "reason": "empty stub (heading only, no paragraph IDs); the day is rebuilt from tome11.docx as a new entry of the same name with «[Aucun texte - date seule mentionnée]» (2026-09-28 rebuild)"
+  }
+ ]
+}

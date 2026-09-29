@@ -45,10 +45,10 @@ The conception comes on **30 January 1883**, out of a bad night: «Je ne sais qu
 At the Salon it is not on the *cimaise*, though Tony insists it can still be seen (099.0129, 099.0177), and Émile Bastien-Lepage walks the critic Fourcaud past it with an article promised (099.0349). Then the peculiar morning of **23 May 1883**: the picture is moved *higher* on the wall, above Benner's tulips, on the very day the *mention honorable* is announced — and the award label is attached to the pastel instead. Marie's letter to Tony and his reply are both copied into the entry (099.0403).
 
 %% GLO_JEAN_ET_JACQUES.0011 %%
-The picture went on working for her afterwards. In November 1883 the St Petersburg *Illustration universelle* put a drawing after it on its front page (102.0054); in March 1884 she sent it to Mme Bertaux's exhibition of the Union des Femmes Peintres et Sculpteurs with the Grande-Jatte landscape and the Dina pastel (103.0412, 103.0420); in August 1884 Périvier of *Le Figaro illustré* took note of "Jean-Jacques" and she promised a drawing after it for the Christmas number (105.0713, 105.0741). The prize itself is reported flatly, on 14 May 1884: «Mon tableau *Jean et Jacques* a obtenu une mention honorable à Nice. Tout le monde est fou de joie, excepté moi.» (104.0165)
+The picture went on working for her afterwards. In November 1883 the St Petersburg *Illustration universelle* put a drawing after it on its front page (102.0055); in March 1884 she sent it to Mme Bertaux's exhibition of the Union des Femmes Peintres et Sculpteurs with the Grande-Jatte landscape and the Dina pastel (103.0401, 103.0409); in August 1884 Périvier of *Le Figaro illustré* took note of "Jean-Jacques" and she promised a drawing after it for the Christmas number (105.0670, 105.0693). The prize itself is reported flatly, on 14 May 1884: «Mon tableau *Jean et Jacques* a obtenu une mention honorable à Nice. Tout le monde est fou de joie, excepté moi.» (104.0163)
 
 %% GLO_JEAN_ET_JACQUES.0012 %%
-**Careful with the name.** Marie never calls the picture *Jean et Jacques* while she is painting it — throughout 1883 it is simply «mon tableau» or «les deux gamins», and the title surfaces only when the Nice prize is announced. And the «portrait de Jacques à l'huile» she works on in 1884 (103.0132, 103.0136, 103.0169 «Fini Jacques !», 103.0649, 104.0443, 104.0625–0626) is a *separate, later* picture of the same child model, not this canvas.
+**Careful with the name.** Marie never calls the picture *Jean et Jacques* while she is painting it — throughout 1883 it is simply «mon tableau» or «les deux gamins», and the title surfaces only when the Nice prize is announced. And the «portrait de Jacques à l'huile» she works on in 1884 (103.0133, 103.0137, 103.0169 «Fini Jacques !», 103.0632, 104.0426, 104.0597–0626) is a *separate, later* picture of the same child model, not this canvas.
 
 %% GLO_JEAN_ET_JACQUES.0013 %%
 ## References in Diary
@@ -66,10 +66,10 @@ The picture went on working for her afterwards. In November 1883 the St Petersbu
 - 1883-05-01 (099.0320) — her own verdict on it at the Salon
 - 1883-05-04 (099.0349) — Fourcaud walked past it
 - **1883-05-23 (099.0403)** — moved higher; the *mention honorable*; the letter to Tony
-- 1883-11-22 (102.0054) — reproduced on the front page of *L'Illustration universelle*
-- 1884-03-01 (103.0412, 103.0420) — sent to Mme Bertaux's exhibition
-- **1884-05-14 (104.0165)** — the Nice *mention honorable*; the only time the title appears
-- 1884-08-25 (105.0713), 1884-08-28 (105.0741) — *Le Figaro illustré*
+- 1883-11-22 (102.0055) — reproduced on the front page of *L'Illustration universelle*
+- 1884-03-01 (103.0401, 103.0409) — sent to Mme Bertaux's exhibition
+- **1884-05-14 (104.0163)** — the Nice *mention honorable*; the only time the title appears
+- 1884-08-25 (105.0670), 1884-08-28 (105.0693) — *Le Figaro illustré*
 
 %% GLO_JEAN_ET_JACQUES.0015 %%
 ## Related Entries

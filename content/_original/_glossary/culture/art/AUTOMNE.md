@@ -28,7 +28,7 @@ No usable reproduction exists. The only file on Wikimedia Commons is a 500 × 39
 ## Description
 
 %% GLO_AUTOMNE.0006 %%
-Marie never gave the picture a title in the diary, and identified it only when she lent it to Mme Bertaux's exhibition of the Femmes Peintres et Sculpteurs in March 1884: "j'ai donné le paysage (une allée de l'île de la Grande Jatte par un temps de brouillard, des feuilles sèches et la terre humide)" (103.0412) -- an avenue on the Île de la Grande Jatte in fog, with dry leaves and wet ground. Her working note when she began it calls it "une allée d'arbres aux tons dorés, toile moyenne" (102.0033): an avenue of trees in golden tones, on a medium canvas.
+Marie never gave the picture a title in the diary, and identified it only when she lent it to Mme Bertaux's exhibition of the Femmes Peintres et Sculpteurs in March 1884: "j'ai donné le paysage (une allée de l'île de la Grande Jatte par un temps de brouillard, des feuilles sèches et la terre humide)" (103.0401) -- an avenue on the Île de la Grande Jatte in fog, with dry leaves and wet ground. Her working note when she began it calls it "une allée d'arbres aux tons dorés, toile moyenne" (102.0034): an avenue of trees in golden tones, on a medium canvas.
 
 %% GLO_AUTOMNE.0007 %%
 The identification of that Grande Jatte picture with the *Automne* reported in St Petersburg is an inference from subject and season, not a documented equivalence. It is the best available reading of the evidence and should be presented as such.
@@ -37,21 +37,21 @@ The identification of that Grande Jatte picture with the *Automne* reported in S
 ## Making of the Work
 
 %% GLO_AUTOMNE.0009 %%
-It came out of a spell of casting about at the end of October 1883, when *[Un meeting](./UN_MEETING.md)* had stalled and she wanted something she could actually finish: "pourquoi ne pas aller peindre le brouillard sur la Seine" (102.0029). Two days later she had found her motif and was keeping it to herself: "Sans déménager j'ai toutes les feuilles sèches et de toutes les couleurs du monde, là tout près, tout est arrangé mais je ne dirai rien avant de commencer" (102.0031). On 1 November she began, on the Île de la Grande Jatte -- the island crowded with *canotiers*, [Bojidar](../../people/recurring/BOJIDAR.md) escorting her (102.0033). Three years later Seurat would begin painting the same island.
+It came out of a spell of casting about at the end of October 1883, when *[Un meeting](./UN_MEETING.md)* had stalled and she wanted something she could actually finish: "pourquoi ne pas aller peindre le brouillard sur la Seine" (102.0030). Two days later she had found her motif and was keeping it to herself: "Sans déménager j'ai toutes les feuilles sèches et de toutes les couleurs du monde, là tout près, tout est arrangé mais je ne dirai rien avant de commencer" (102.0032). On 1 November she began, on the Île de la Grande Jatte -- the island crowded with *canotiers*, [Bojidar](../../people/recurring/BOJIDAR.md) escorting her (102.0034). Three years later Seurat would begin painting the same island.
 
 %% GLO_AUTOMNE.0010 %%
-The canvas is one strand of a larger ambition of that autumn, stated at 101.0487–0488: "je veux des espaces, des brouillards... un tableau de brumes, des ciels et des horizons argentés." A separate landscape campaign at Jouy belongs to the same weeks (102.0048).
+The canvas is one strand of a larger ambition of that autumn, stated at 101.0486–0488: "je veux des espaces, des brouillards... un tableau de brumes, des ciels et des horizons argentés." A separate landscape campaign at Jouy belongs to the same weeks (102.0049).
 
 %% GLO_AUTOMNE.0011 %%
 ## References in Diary
 
 %% GLO_AUTOMNE.0012 %%
-- Context: 1883-10-02 (101.0487–0488) -- the wish for fog, silver skies and distances
-- **First mention: 1883-10-28 (102.0029)** -- "pourquoi ne pas aller peindre le brouillard sur la Seine"
-- 1883-10-30 (102.0031) -- the motif found, and kept secret
-- **1883-11-01 (102.0033)** -- begun: "Je vais travailler à la Grande Jatte, une allée d'arbres aux tons dorés, toile moyenne"
-- 1883-11-16 (102.0048) -- the parallel landscape work at Jouy
-- **1884-03-01 (103.0412)** -- lent to the Femmes Peintres et Sculpteurs exhibition, with the description that identifies it
+- Context: 1883-10-02 (101.0486–0488) -- the wish for fog, silver skies and distances
+- **First mention: 1883-10-28 (102.0030)** -- "pourquoi ne pas aller peindre le brouillard sur la Seine"
+- 1883-10-30 (102.0032) -- the motif found, and kept secret
+- **1883-11-01 (102.0034)** -- begun: "Je vais travailler à la Grande Jatte, une allée d'arbres aux tons dorés, toile moyenne"
+- 1883-11-16 (102.0049) -- the parallel landscape work at Jouy
+- **1884-03-01 (103.0401)** -- lent to the Femmes Peintres et Sculpteurs exhibition, with the description that identifies it
 
 %% GLO_AUTOMNE.0013 %%
 ## Related Entries

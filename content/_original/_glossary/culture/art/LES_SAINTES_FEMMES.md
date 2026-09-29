@@ -44,7 +44,7 @@ One figure did survive the wreck, in another medium. The weeping woman of *[La D
 
 %% GLO_LES_SAINTES_FEMMES.0010 %%
 %% [#Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) %%
-The ambition predates the subject. In October 1877, in her first weeks at the Académie Julian, she writes: «J'aurais fait des tableaux d'histoire si j'avais commencé il y a cinq ans» (075.0131). The subject itself arrives at dawn on **27 May 1880**, after a night at the harp: «mes deux femmes devant le sépulcre. J'ai envie d'aller à Jérusalem et d'y faire ce tableau avec des têtes de là-bas en plein air» (088.0397). That is two and a half years earlier than the usual account allows.
+The ambition predates the subject. In October 1877, in her first weeks at the Académie Julian, she writes: «J'aurais fait des tableaux d'histoire si j'avais commencé il y a cinq ans» (075.0138). The subject itself arrives at dawn on **27 May 1880**, after a night at the harp: «mes deux femmes devant le sépulcre. J'ai envie d'aller à Jérusalem et d'y faire ce tableau avec des têtes de là-bas en plein air» (088.0397). That is two and a half years earlier than the usual account allows.
 
 %% GLO_LES_SAINTES_FEMMES.0011 %%
 Carnets 095–096 — the summer and autumn of 1882 — are effectively the picture's diary. She prepares it obsessively (095.0273–0259), works out a day-by-day execution schedule, has the stretcher delivered (095.0324), indicates the figure in charcoal and pastel on the big panel (095.0353–0332), draws the second figure (096.0139). «Le tableau! C'est une idée fixe» (095.0368). «Quand je pense à mon tableau, si c'est le soir je ne puis m'endormir» (096.0106). Jerusalem becomes impractical, so Algiers, so as to find the costume on a living body as she had in Spain (095.0306–0286, 095.0370).
@@ -53,11 +53,11 @@ Carnets 095–096 — the summer and autumn of 1882 — are effectively the pict
 Then on **22 September 1882** Tony and Julian, together, decide that painting it in the open air is beyond her present powers and that she should go back to simple studio studies. «Je n'ai seulement pas osé en parler, c'est comme si l'air devenait du plomb» — she did not even dare speak of it, and the air turned to lead (096.0275). «Mes yeux viennent de tomber sur la toile du tableau… Je suis sans force, tout est fini» (096.0285). Six days later she tells Tony she gives it up and he approves — and in the same entry turns around: «Enfin je vais essayer de le faire ce tableau et si c'est raté j'aime mieux rater cela qu'autre chose» (096.0304–0289, 096.0316). By 1 October she believes again that she will make it (096.0323).
 
 %% GLO_LES_SAINTES_FEMMES.0013 %%
-She kept believing for another eighteen months. On **28 December 1882**, in the entry in which she is told she is consumptive, the picture is what she has left: «L'hiver prochain j'aurai pour expliquer ce voyage le tableau des Saintes femmes» (097.0302). In February 1883, in a moonlit studio, she is so excited by how it is shaping that she is terrified someone will do it first (098.0385). In May 1883 she finally *ébauche* it, at full size and without a model, the way she believed Bastien-Lepage worked (099.0355, 099.0369). In October 1883 she catches the exact evening sky she needs — a red sky with a crescent moon — and makes an instant *pochade*, concluding that the picture can only be done «de chic», from invention, since no sky will pose (101.0535–0538).
+She kept believing for another eighteen months. On **28 December 1882**, in the entry in which she is told she is consumptive, the picture is what she has left: «L'hiver prochain j'aurai pour expliquer ce voyage le tableau des Saintes femmes» (097.0302). In February 1883, in a moonlit studio, she is so excited by how it is shaping that she is terrified someone will do it first (098.0385). In May 1883 she finally *ébauche* it, at full size and without a model, the way she believed Bastien-Lepage worked (099.0355, 099.0369). In October 1883 she catches the exact evening sky she needs — a red sky with a crescent moon — and makes an instant *pochade*, concluding that the picture can only be done «de chic», from invention, since no sky will pose (101.0546–0538).
 
 %% GLO_LES_SAINTES_FEMMES.0014 %%
 %% [#Bastien-Lepage](../../people/recurring/BASTIEN_LEPAGE.md) %%
-The last phase is a race against Bastien-Lepage, who was known to be preparing *Les Bergers de Bethléem*: «Gare les Bergers de Bethléem s'il les fait avant mes Saintes femmes mon rêve le plus cher s'écroule» (103.0026, 103.0214, 103.0244, 103.0379). Her final resolve is dated **9 March 1884**: «au mois d'octobre j'irai en Palestine et je ferai mes Saintes femmes…» (103.0464). October 1884 is the month she died. Bastien-Lepage died five weeks after her.
+The last phase is a race against Bastien-Lepage, who was known to be preparing *Les Bergers de Bethléem*: «Gare les Bergers de Bethléem s'il les fait avant mes Saintes femmes mon rêve le plus cher s'écroule» (103.0030, 103.0213, 103.0244, 103.0371). Her final resolve is dated **9 March 1884**: «au mois d'octobre j'irai en Palestine et je ferai mes Saintes femmes…» (103.0450). October 1884 is the month she died. Bastien-Lepage died five weeks after her.
 
 %% GLO_LES_SAINTES_FEMMES.0015 %%
 One entry carries her own retrospective judgement, added in the margin of the July 1882 schedule in her own hand: «Il y a entre ce jour et le 5 mai 1883 un pas énorme de franchi… On ne fait pas un tableau pareil, comme cela. Je ne me doutais de rien.» — between that day and 5 May 1883 an enormous step was taken; one does not make a picture like that just like that; I had no idea (095.0276).
@@ -68,7 +68,7 @@ One entry carries her own retrospective judgement, added in the margin of the Ju
 %% GLO_LES_SAINTES_FEMMES.0017 %%
 The seed, and the conception:
 
-- 1877-10-04 (075.0131) — the history-painting ambition, before any subject
+- 1877-10-04 (075.0138) — the history-painting ambition, before any subject
 - **1880-05-27 (088.0397)** — first mention: the two women before the sepulchre, and Jerusalem
 - 1882-01-15 (094.0118) — the «feu sacré» brought back from Spain; other projects in the same breath
 - 1882-04-11 (094.0328) — Jerusalem again
@@ -99,10 +99,10 @@ The last eighteen months:
 - 1883-03-30 (098.0622, 098.0625) — Palestine as an argument about her own freedom of movement
 - 1883-05-06 (099.0355), 1883-05-10 (099.0369) — the full-size *ébauche*
 - 1883-08-27 evening (101.0270) — the wager: this, the statue and the *gamins* at one Salon
-- 1883-10-02 (101.0488) — southern studies, but a fog picture first
-- **1883-10-09 (101.0535, 101.0537, 101.0538)** — the red sky with the crescent; the *pochade*
-- 1884-01-15 (103.0026), 1884-02-02 (103.0214), 1884-02-03 (103.0244), 1884-02-25 (103.0379) — the *Bergers de Bethléem* panic
-- **1884-03-09 (103.0464)** — the last resolve: Palestine in October
+- 1883-10-02 (101.0487) — southern studies, but a fog picture first
+- **1883-10-09 (101.0546, 101.0548, 101.0549)** — the red sky with the crescent; the *pochade*
+- 1884-01-15 (103.0030), 1884-02-02 (103.0213), 1884-02-03 (103.0244), 1884-02-25 (103.0371) — the *Bergers de Bethléem* panic
+- **1884-03-09 (103.0450)** — the last resolve: Palestine in October
 
 %% GLO_LES_SAINTES_FEMMES.0020 %%
 ## Related Entries

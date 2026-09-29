@@ -57,7 +57,7 @@ Marie provides a detailed portrait in her 1884 retrospective (Book 00, %% 000.00
 - **District Physician**: Held official government medical position at Akhtyrka
 - **University educated**: Studied medicine with Marie's maternal uncles
 - **Long-term family friend**: Regular visitor to family estates
-- **Grandfather's godson**: "Le filleul de grand-papa" (%% 077.0246 %%)
+- **Grandfather's godson**: "Le filleul de grand-papa" (%% 077.0226 %%)
 
 %% GLO_WALITSKY.0008 %%
 ## Relationship with the Family
@@ -111,11 +111,11 @@ This passage reveals:
 - Treated [Romanoff](../mentioned/ROMANOFF.md)'s mental illness
 - Attended to [Maman](../family/MAMAN.md)'s real and imagined illnesses
 - General family physician during European travels
-- Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0166 %%, echoed in %% 102.0005 %%)
+- Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0166 %%, echoed in %% 102.0006 %%)
 - Correctly recommended Soden spa for Marie's throat: "Ce coquin de Walitsky est un habile homme, il s'entend a toutes les maladies" (%% 073.0242 %%)
-- Treated external patients in Nice: "il a la tous ses malades, tous ses amis" (%% 077.0212 %%)
+- Treated external patients in Nice: "il a la tous ses malades, tous ses amis" (%% 077.0195 %%)
 - Served as witness to grandfather's will alongside Patton, Orgesko, Bihovetz, and Anitchkoff (%% 082.0162 %%)
-- Nursed grandfather during paralysis: "Walitsky le cher Walitsky court et soigne et grogne et console" (%% 076.0363 %%)
+- Nursed grandfather during paralysis: "Walitsky le cher Walitsky court et soigne et grogne et console" (%% 076.0357 %%)
 
 %% GLO_WALITSKY.0018 %%
 ### Social Companion and Family Pillar
@@ -163,19 +163,19 @@ She dismisses the accusation as patent absurdity -- not even worthy of laughter.
 %% GLO_WALITSKY.0025 %%
 ### Final Illness (December 1877 - January 1878)
 
-Walitsky had long suffered from heart disease. By late December 1877, his condition became critical (%% 077.0029 %%):
+Walitsky had long suffered from heart disease. By late December 1877, his condition became critical (%% 077.0032 %%):
 
 > "Walitsky est tres malade, il a toujours souffert d'une affection du coeur et a present c'est arrive a un point tres dangereux combine avec je ne sais quelle autre maladie des organes de la respiration."
 
 ("Walitsky is very ill; he has always suffered from a heart condition and now it has reached a very dangerous point, combined with I don't know what other disease of the respiratory organs.")
 
 %% GLO_WALITSKY.0026 %%
-Marie could barely bear to witness his suffering (%% 077.0030 %%):
+Marie could barely bear to witness his suffering (%% 077.0033 %%):
 
 > "Pauvre chien, pauvre homme. C'est que ce serait une perte terrible. Il etouffe, je n'ai pas pu rester cinq minutes dans sa chambre, tellement c'est affreux de le voir manquer d'air et pour chaque respiration subir des souffrances inouis."
 
 %% GLO_WALITSKY.0027 %%
-By January 11, 1878: "Je ne peux pas voir Walitsky tant il souffre" (%% 077.0173 %%).
+By January 11, 1878: "Je ne peux pas voir Walitsky tant il souffre" (%% 077.0159 %%).
 
 %% GLO_WALITSKY.0028 %%
 ### Death: 12 January 1878
@@ -183,19 +183,19 @@ By January 11, 1878: "Je ne peux pas voir Walitsky tant il souffre" (%% 077.0173
 Walitsky died at 2 AM on Saturday, 12 January 1878, at the family residence, 67 avenue de l'Alma, Paris.
 
 %% GLO_WALITSKY.0029 %%
-Marie records his final moments (%% 077.0177 %%):
+Marie records his final moments (%% 077.0162 %%):
 
 > "Walitsky est mort cette nuit a deux heures."
 
 %% GLO_WALITSKY.0030 %%
-His last evening had a poignant farewell (%% 077.0178 %%):
+His last evening had a poignant farewell (%% 077.0163 %%):
 
 > "Hier soir comme je venais le voir il me dit moitie plaisantant et moitie triste 'Addio Signorina' pour me rappeler l'Italie, Alexandre et tout ce dont nous avions l'habitude de rire ensemble."
 
 ("Last evening when I came to see him he said half joking and half sad 'Addio Signorina' to remind me of Italy, Alexandre and all those things we used to laugh about together.")
 
 %% GLO_WALITSKY.0031 %%
-The death scene itself (%% 077.0180 %%):
+The death scene itself (%% 077.0165 %%):
 
 > "Comme vers une heure il s'etait senti soulage, les dames rentrerent dans leurs chambres, ma tante seule restait la lorsqu'il manqua d'air au point qu'on dut lui jeter de l'eau au visage, un peu revenu il se leva car il voulait absolument aller dire adieu a grand-papa, mais a peine dans le corridor il n'eut que le temps de se signer trois fois et de crier en russe: adieu, d'une voix si terrible et si forte que maman et Dina se reveillerent et accoururent pour le voir tomber entre les bras de ma tante et de Triphon."
 
@@ -204,26 +204,26 @@ He tried to walk to grandfather's room to say goodbye, managed to cross himself 
 %% GLO_WALITSKY.0032 %%
 ### Marie's Grief
 
-Marie's grief was distinctive -- she recognized it as her first selfless sorrow (%% 077.0179 %%):
+Marie's grief was distinctive -- she recognized it as her first selfless sorrow (%% 077.0164 %%):
 
 > "Peut-etre etait-ce la premiere fois de ma vie que j'ai verse des larmes exemptes d'egoisme et de colere. Il y a quelque chose de particulierement navrant dans la mort d'un etre entierement inoffensif, entierement bon; c'est comme un pauvre chien qui n'avait jamais fait de mal a personne..."
 
 ("Perhaps it was the first time in my life that I shed tears free of egoism and anger. There is something particularly heartbreaking in the death of a being entirely inoffensive, entirely good; it is like a poor dog who had never harmed anyone...")
 
 %% GLO_WALITSKY.0033 %%
-Her eulogy the next day (%% 077.0208 %%):
+Her eulogy the next day (%% 077.0186 %%):
 
 > "Walitsky est mort. C'est une perte irreparable, on ne se fera jamais a l'idee qu'il puisse exister dans la vie reelle un pareil caractere. Attache comme un chien a toute notre famille, et platoniquement, oh! mon Dieu oui, plutot dix fois qu'une."
 
 ("Walitsky is dead. It is an irreparable loss; one will never get used to the idea that such a character could exist in real life. Attached like a dog to our whole family, and platonically, oh! my God yes, ten times over.")
 
 %% GLO_WALITSKY.0034 %%
-Her prayer for him (%% 077.0210 %%):
+Her prayer for him (%% 077.0188 %%):
 
 > "Eh bien qu'il entende ma pensee, j'espere que Dieu lui fait la grace de sentir ce qu'on pense et dit de lui. Qu'il m'entende donc de l'endroit ou il se trouve et si jamais il a eu a se plaindre de moi, il me pardonnera pour ma profonde estime, mon amitie sincere et mes regrets du fond de l'ame."
 
 %% GLO_WALITSKY.0035 %%
-In her letter to Marcuard announcing the death (%% 077.0246 %%):
+In her letter to Marcuard announcing the death (%% 077.0226 %%):
 
 > "Il nous est arrive un bien grand malheur, notre cher docteur Wolitski, que vous avez vu ches nous, est mort vendrdi dernier, a deux heures de la nuit. C'etait le meilleur ami de toute notre famille, le filleul de grand-papa, il nous a tous vus grandir; vous pensez bien quelle perte irreparable."
 
@@ -232,23 +232,23 @@ This letter reveals he was grandfather's godson and "had watched us all grow up.
 %% GLO_WALITSKY.0036 %%
 ### Burial
 
-His body was sent to Nice by train for burial: "C'est a Nice qu'on l'ensevelira, il a la tous ses malades, tous ses amis, tous ceux qui le connaissaient, l'aimaient sincerement" (%% 077.0212 %%). Marie tried to accompany the coffin to the Gare de Lyon but arrived too late. Telegrams of condolence poured in from Nice daily.
+His body was sent to Nice by train for burial: "C'est a Nice qu'on l'ensevelira, il a la tous ses malades, tous ses amis, tous ceux qui le connaissaient, l'aimaient sincerement" (%% 077.0195 %%). Marie tried to accompany the coffin to the Gare de Lyon but arrived too late. Telegrams of condolence poured in from Nice daily.
 
 %% GLO_WALITSKY.0037 %%
 ### The Inability to Grieve
 
-A recurring motif is Marie's disbelief. On January 15 (%% 077.0225 %%):
+A recurring motif is Marie's disbelief. On January 15 (%% 077.0207 %%):
 
 > "Il m'est tout a fait impossible de realiser la mort de Walitsky, a laquelle je suis indifferente, je chante, je ris, parce que je n'y crois pas."
 
-And on January 16, to herself (%% 077.0254 %%):
+And on January 16, to herself (%% 077.0234 %%):
 
 > "Il m'est impossible de croire a la mort de Walitsky. Ce serait un si grand un si profond chagrin."
 
-Then, with devastating honesty (%% 077.0255 %%): "Pourtant je l'ai vu mort." ("And yet I saw him dead.")
+Then, with devastating honesty (%% 077.0235 %%): "Pourtant je l'ai vu mort." ("And yet I saw him dead.")
 
 %% GLO_WALITSKY.0038 %%
-The juxtaposition of death and pleasure is characteristic: on the very day Walitsky died, Marie went to her atelier and then to Versailles with Paul and Cassagnac, enjoying herself thoroughly. She confronts this directly (%% 077.0193 %%):
+The juxtaposition of death and pleasure is characteristic: on the very day Walitsky died, Marie went to her atelier and then to Versailles with Paul and Cassagnac, enjoying herself thoroughly. She confronts this directly (%% 077.0177 %%):
 
 > "Et dire que j'ecris toutes ces choses, que je les raconte, que j'en ris quand Walitsky est la-bas dans sa chambre de mort."
 
@@ -257,9 +257,9 @@ The juxtaposition of death and pleasure is characteristic: on the very day Walit
 
 Walitsky's death became a touchstone for Marie -- a measure against which she gauged other losses:
 
-- **March 1878**: "Walitsky est mort, Pincio est perdu... et moi je suis ennuyee et triste" (%% 078.0063 %%)
-- **March 1878**: Comparing grief: "le perdre me fait peut-etre autant de peine que la mort de Walitsky" (about her lost dog Pincio, %% 078.0089 %%)
-- **June 1878**: On Cassagnac's marriage: "me contrarie comme la mort de Walitsky" (%% 080.0096 %%)
+- **March 1878**: "Walitsky est mort, Pincio est perdu... et moi je suis ennuyee et triste" (%% 078.0099 %%)
+- **March 1878**: Comparing grief: "le perdre me fait peut-etre autant de peine que la mort de Walitsky" (about her lost dog Pincio, %% 078.0123 %%)
+- **June 1878**: On Cassagnac's marriage: "me contrarie comme la mort de Walitsky" (%% 080.0080 %%)
 - **June 1878**: "C'est comme la mort de ce pauvre Walitsky, je realiserai difficilement la mort de ce pauvre Cassagnac" (%% 081.0441 %%)
 - **July 1878**: "Je ne realise pas cette fin comme je ne realisais pas la mort de Walitsky" (%% 081.0489 %%)
 - **July 1878**: At Soden, the spa he recommended: "Soden me ferait-il vraiment du bien? Ce pauvre cher Walitsky" (%% 081.DROPPED-0413 %%)
@@ -267,7 +267,7 @@ Walitsky's death became a touchstone for Marie -- a measure against which she ga
 - **August 1878**: Mlle Oelsnitz, the Anitchkoffs' former governess, joins the household -- "elle etait amoureuse de Walitsky" (%% 082.0148 %%)
 - **September 1878**: Dreams of Walitsky "en train de consulter un pullaire antique" -- consulting an ancient chicken oracle (%% 082.0185 %%)
 - **November 1878**: "Je reve que Walitsky revient et que Dina et Rosalie mortes reviennent aussi. Je les supplie de s'en aller: Vous etes morts, allez-vous en, j'ai peur!" (%% 083.0282 %%)
-- **October 1883**: Still remembering his medical acumen five years later: "Walitsky nous dit des lors qu'elle ne vivrait pas" -- about his correct diagnosis of Collignon's tuberculosis, now as Marie faces her own (%% 102.0005 %%)
+- **October 1883**: Still remembering his medical acumen five years later: "Walitsky nous dit des lors qu'elle ne vivrait pas" -- about his correct diagnosis of Collignon's tuberculosis, now as Marie faces her own (%% 102.0006 %%)
 
 %% GLO_WALITSKY.0040 %%
 ## Character Assessment
@@ -280,9 +280,9 @@ Marie's tributes to Walitsky are among the most unambiguously warm passages in t
 - **"Second soi-meme"** (second self, %% 000.0024 %%)
 - **"Culte fraternel, admirable et saint"** (fraternal, admirable and holy devotion, %% 000.0023 %%)
 - **"Ce coquin de Walitsky est un habile homme"** (that rascal Walitsky is a skilled man, %% 073.0242 %%)
-- **"Le cher Walitsky court et soigne et grogne et console"** (dear Walitsky runs and heals and grumbles and consoles, %% 076.0363 %%)
-- **"Un etre entierement inoffensif, entierement bon"** (a being entirely inoffensive, entirely good, %% 077.0179 %%)
-- **"Attache comme un chien"** (devoted like a dog, %% 077.0208 %%)
+- **"Le cher Walitsky court et soigne et grogne et console"** (dear Walitsky runs and heals and grumbles and consoles, %% 076.0357 %%)
+- **"Un etre entierement inoffensif, entierement bon"** (a being entirely inoffensive, entirely good, %% 077.0164 %%)
+- **"Attache comme un chien"** (devoted like a dog, %% 077.0186 %%)
 
 This stands in extraordinary contrast to her harsh judgments of almost everyone else, marking Walitsky as one of very few people Marie genuinely loved and respected without reservation.
 
@@ -300,12 +300,12 @@ This stands in extraordinary contrast to her harsh judgments of almost everyone 
 - **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (%% 055.0290 %%)
 - **1876 (October)**: Accused (absurdly) of poisoning Romanoff (%% 066.0629 %%)
 - **1877 (summer)**: Recommended Soden spa for Marie's throat (%% 073.0242 %%)
-- **1877 (December 9)**: Nursing paralyzed grandfather: "court et soigne et grogne et console" (%% 076.0363 %%)
-- **1877 (December 27)**: Critically ill with heart and respiratory failure (%% 077.0029 %%)
-- **1878 (January 11)**: Marie cannot bear to see him suffering (%% 077.0173 %%)
-- **1878 (January 11, evening)**: Final farewell: "Addio Signorina" (%% 077.0178 %%)
-- **1878 (January 12, 2 AM)**: Death in Paris, 67 avenue de l'Alma (%% 077.0177 %%)
-- **1878 (January 14)**: Body sent to Nice for burial (%% 077.0212 %%)
+- **1877 (December 9)**: Nursing paralyzed grandfather: "court et soigne et grogne et console" (%% 076.0357 %%)
+- **1877 (December 27)**: Critically ill with heart and respiratory failure (%% 077.0032 %%)
+- **1878 (January 11)**: Marie cannot bear to see him suffering (%% 077.0159 %%)
+- **1878 (January 11, evening)**: Final farewell: "Addio Signorina" (%% 077.0163 %%)
+- **1878 (January 12, 2 AM)**: Death in Paris, 67 avenue de l'Alma (%% 077.0162 %%)
+- **1878 (January 14)**: Body sent to Nice for burial (%% 077.0195 %%)
 
 %% GLO_WALITSKY.0043 %%
 ## Historical Context
@@ -385,21 +385,21 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0056 %%
 ### Books 76-77 (Paris, Death 1877-78)
-- %% 076.0363 %% (Dec 9): Nursing grandfather: "court et soigne et grogne et console"
-- %% 077.0029 %% (Dec 27): Heart and respiratory crisis begins
-- %% 077.0173 %% (Jan 11): "Je ne peux pas voir Walitsky tant il souffre"
-- %% 077.0177-0180 %% (Jan 12): Death at 2 AM; "Addio Signorina"; death scene
-- %% 077.0208-0210 %% (Jan 13): Eulogy: "une perte irreparable... attache comme un chien"
-- %% 077.0212 %% (Jan 14): Body sent to Nice for burial
-- %% 077.0246 %% (Jan 16): Letter to Marcuard: "le filleul de grand-papa"
-- %% 077.0254-0255 %%: "Il m'est impossible de croire... Pourtant je l'ai vu mort"
+- %% 076.0357 %% (Dec 9): Nursing grandfather: "court et soigne et grogne et console"
+- %% 077.0032 %% (Dec 27): Heart and respiratory crisis begins
+- %% 077.0159 %% (Jan 11): "Je ne peux pas voir Walitsky tant il souffre"
+- %% 077.0162-0180 %% (Jan 12): Death at 2 AM; "Addio Signorina"; death scene
+- %% 077.0186-0210 %% (Jan 13): Eulogy: "une perte irreparable... attache comme un chien"
+- %% 077.0195 %% (Jan 14): Body sent to Nice for burial
+- %% 077.0226 %% (Jan 16): Letter to Marcuard: "le filleul de grand-papa"
+- %% 077.0234-0255 %%: "Il m'est impossible de croire... Pourtant je l'ai vu mort"
 
 %% GLO_WALITSKY.0057 %%
 ### Books 78-83 (Post-death references 1878)
-- %% 078.0063 %% (Mar 5): "Walitsky est mort, Pincio est perdu..."
-- %% 078.0089 %% (Mar 12): Grief for Pincio compared to Walitsky
-- %% 079.0074 %% (Mar 23): Recalls day of death and going to Versailles with Cassagnac
-- %% 080.0068 %% (May 9): "Mon pauvre Pincio et ce pauvre Walitsky..."
+- %% 078.0099 %% (Mar 5): "Walitsky est mort, Pincio est perdu..."
+- %% 078.0123 %% (Mar 12): Grief for Pincio compared to Walitsky
+- %% 079.0068 %% (Mar 23): Recalls day of death and going to Versailles with Cassagnac
+- %% 080.0055 %% (May 9): "Mon pauvre Pincio et ce pauvre Walitsky..."
 - %% 081.DROPPED-0413 %% (Jul 26): At Soden, remembering his recommendation
 - %% 082.0146 %% (Aug 18): "Cet appartement... Walitsky y est mort"
 - %% 082.0148 %% (Aug 19): Mlle Oelsnitz "etait amoureuse de Walitsky"
@@ -408,7 +408,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0058 %%
 ### Book 102 (1883)
-- %% 102.0005 %% (Oct 17, 1883): Five years later, Marie remembers his diagnosis of Collignon as she faces her own tuberculosis
+- %% 102.0006 %% (Oct 17, 1883): Five years later, Marie remembers his diagnosis of Collignon as she faces her own tuberculosis
 
 %% 2025-12-07T15:10:00 RSR: Major update with Book 00 biographical information. Original entry only had 1873 Nice references. Now includes full background, Akhtyrka position, university connection, European journey, financial exploitation, and Marie's extraordinary tribute. This was clearly one of the few people Marie genuinely loved and respected. %%
 %% 2026-02-04T06:46:46.449Z RSR: Merged content from WALITSKTY (auto-generated stub, now superseded by comprehensive entry above) %%

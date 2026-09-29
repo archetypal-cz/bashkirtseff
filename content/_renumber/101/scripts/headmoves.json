@@ -1,0 +1,434 @@
+{
+ "headmoves": [
+  {
+   "old": "103.0477",
+   "heading": "Mercredi 12 mars 1884",
+   "heading_date": "1884-03-12",
+   "entry": "103/1884-03-13.md",
+   "first": true,
+   "heading_only": true
+  },
+  {
+   "old": "103.0534",
+   "heading": "Dimanche 23 mars 1884",
+   "heading_date": "1884-03-23",
+   "entry": "103/1884-03-24.md",
+   "first": true,
+   "heading_only": true
+  },
+  {
+   "old": "103.0717",
+   "heading": "Mercredi 9 avril 1884",
+   "heading_date": "1884-04-09",
+   "entry": "103/1884-04-10.md",
+   "first": true,
+   "heading_only": true
+  },
+  {
+   "old": "104.0035",
+   "heading": "Mercredi 30 avril 1884",
+   "heading_date": "1884-04-30",
+   "entry": "104/1884-04-30.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "104.0055",
+   "heading": "Jeudi 1er mai 1884",
+   "heading_date": "1884-05-01",
+   "entry": "104/1884-05-01.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "105.0772",
+   "heading": "Dimanche 31 août 1884",
+   "heading_date": "1884-08-31",
+   "entry": "105/1884-08-31.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "105.0775",
+   "heading": "Lundi 1er septembre 1884",
+   "heading_date": "1884-09-01",
+   "entry": "105/1884-09-01.md",
+   "first": false,
+   "heading_only": true
+  },
+  {
+   "old": "102.0001",
+   "heading": "Mardi 16 octobre 1883",
+   "heading_date": "1883-10-16",
+   "entry": "102/1883-10-16.md",
+   "first": false,
+   "heading_only": true
+  }
+ ],
+ "trails": [
+  {
+   "old": "104.0018",
+   "line": "Lundi 21 avril 1884",
+   "date": "1884-04-21"
+  },
+  {
+   "old": "102.0019",
+   "line": "Vendredi 19 octobre 1883",
+   "date": "1883-10-19",
+   "same": true
+  },
+  {
+   "old": "102.0020",
+   "line": "Samedi 20 octobre 1883",
+   "date": "1883-10-20",
+   "same": true
+  },
+  {
+   "old": "102.0021",
+   "line": "Dimanche 21 octobre 1883",
+   "date": "1883-10-21",
+   "same": true
+  },
+  {
+   "old": "102.0022",
+   "line": "Lundi 22 octobre 1883",
+   "date": "1883-10-22",
+   "same": true
+  },
+  {
+   "old": "102.0023",
+   "line": "Mardi 23 octobre 1883",
+   "date": "1883-10-23",
+   "same": true
+  },
+  {
+   "old": "102.0024",
+   "line": "Mercredi 24 octobre 1883",
+   "date": "1883-10-24",
+   "same": true
+  },
+  {
+   "old": "102.0025",
+   "line": "Jeudi 25 octobre 1883",
+   "date": "1883-10-25",
+   "same": true
+  },
+  {
+   "old": "102.0027",
+   "line": "Samedi 27 octobre 1883",
+   "date": "1883-10-27",
+   "same": true
+  },
+  {
+   "old": "102.0029",
+   "line": "Lundi 29 octobre 1883",
+   "date": "1883-10-29",
+   "same": true
+  },
+  {
+   "old": "102.0030",
+   "line": "Mardi 30 octobre 1883",
+   "date": "1883-10-30",
+   "same": true
+  },
+  {
+   "old": "102.0031",
+   "line": "Mercredi 31 octobre 1883",
+   "date": "1883-10-31",
+   "same": true
+  },
+  {
+   "old": "104.0022",
+   "line": "Jeudi 24 avril 1884",
+   "date": "1884-04-24"
+  },
+  {
+   "old": "104.0157",
+   "line": "Lundi 12 mai 1884",
+   "date": "1884-05-12"
+  },
+  {
+   "old": "105.0623",
+   "line": "Lundi 18 août 1884",
+   "date": "1884-08-18"
+  }
+ ],
+ "promote": [
+  {
+   "old": "103.0023",
+   "heading": "Mercredi 16 janvier 1884",
+   "same": true
+  },
+  {
+   "old": "103.0045",
+   "heading": "Jeudi 17 janvier 1884",
+   "same": true
+  },
+  {
+   "old": "103.0055",
+   "heading": "Samedi 19 janvier 1884",
+   "same": true
+  },
+  {
+   "old": "103.0061",
+   "heading": "Dimanche 20 janvier 1884",
+   "same": true
+  },
+  {
+   "old": "103.0069",
+   "heading": "Lundi 21 janvier 1884",
+   "same": true
+  },
+  {
+   "old": "103.0169",
+   "heading": "Jeudi 31 janvier 1884",
+   "same": true
+  },
+  {
+   "old": "103.0270",
+   "heading": "Mardi 5 février 1884",
+   "same": true
+  },
+  {
+   "old": "103.0278",
+   "heading": "Jeudi 7 février 1884",
+   "same": true
+  },
+  {
+   "old": "103.0328",
+   "heading": "Jeudi 21 février 1884",
+   "same": true
+  },
+  {
+   "old": "103.0426",
+   "heading": "Lundi 3 mars 1884",
+   "same": true
+  },
+  {
+   "old": "103.0429",
+   "heading": "Jeudi 6 mars 1884",
+   "same": true
+  },
+  {
+   "old": "103.0466",
+   "heading": "Mardi 11 mars 1884",
+   "same": true
+  },
+  {
+   "old": "103.0520",
+   "heading": "Lundi 17 mars 1884",
+   "same": true
+  },
+  {
+   "old": "103.0521",
+   "heading": "Mardi 18 mars 1884",
+   "same": true
+  },
+  {
+   "old": "103.0526",
+   "heading": "Jeudi 20 mars 1884",
+   "same": true
+  },
+  {
+   "old": "103.0556",
+   "heading": "Mardi 25 mars 1884",
+   "same": true
+  },
+  {
+   "old": "103.0568",
+   "heading": "Jeudi 27 mars 1884",
+   "same": true
+  },
+  {
+   "old": "103.0587",
+   "heading": "Lundi 31 mars 1884",
+   "same": true
+  },
+  {
+   "old": "103.0611",
+   "heading": "Mardi 1 er avril 1884",
+   "same": true
+  },
+  {
+   "old": "103.0649",
+   "heading": "Jeudi 3 avril 1884",
+   "same": true
+  },
+  {
+   "old": "103.0716",
+   "heading": "Mardi 8 avril 1884",
+   "same": true
+  },
+  {
+   "old": "103.0720",
+   "heading": "Samedi 12 avril 1884",
+   "same": true
+  },
+  {
+   "old": "104.0003",
+   "heading": "Jeudi 17 avril 1884",
+   "same": true
+  },
+  {
+   "old": "104.0012",
+   "heading": "Samedi 19 avril 1884",
+   "same": true
+  },
+  {
+   "old": "104.0027",
+   "heading": "Lundi 28 avril 1884",
+   "same": true
+  },
+  {
+   "old": "104.0147",
+   "heading": "Samedi 10 mai 1884",
+   "same": true
+  },
+  {
+   "old": "104.0162",
+   "heading": "Mardi 13 mai 1884",
+   "same": true
+  },
+  {
+   "old": "104.0166",
+   "heading": "Jeudi 15 mai 1884",
+   "same": true
+  },
+  {
+   "old": "104.0180",
+   "heading": "Vendredi 16 mai 1884",
+   "same": true
+  },
+  {
+   "old": "104.0205",
+   "heading": "Samedi 17 mai 1884",
+   "same": true
+  },
+  {
+   "old": "104.0241",
+   "heading": "Lundi 19 mai 1884",
+   "same": true
+  },
+  {
+   "old": "104.0576",
+   "heading": "Mardi 10 juin 1884",
+   "same": true
+  },
+  {
+   "old": "104.0579",
+   "heading": "Mercredi 11 juin 1884",
+   "same": true
+  },
+  {
+   "old": "104.0580",
+   "heading": "Jeudi 12 juin 1884",
+   "same": true
+  },
+  {
+   "old": "104.0581",
+   "heading": "Vendredi 13 juin 1884",
+   "same": true
+  },
+  {
+   "old": "104.0586",
+   "heading": "Samedi 14 juin 1884",
+   "same": true
+  },
+  {
+   "old": "104.0608",
+   "heading": "Lundi 16 juin 1884",
+   "same": true
+  },
+  {
+   "old": "104.0615",
+   "heading": "Mardi 17 juin 1884",
+   "same": true
+  },
+  {
+   "old": "104.0624",
+   "heading": "Jeudi 19 juin 1884",
+   "same": true
+  },
+  {
+   "old": "105.0547",
+   "heading": "Mardi 12 août 1884",
+   "same": true
+  },
+  {
+   "old": "105.0568",
+   "heading": "Jeudi 14 août 1884",
+   "same": true
+  },
+  {
+   "old": "105.0624",
+   "heading": "Mardi 19 août 1884",
+   "same": true
+  }
+ ],
+ "inner": [
+  {
+   "old": "103.0137",
+   "date": "1884-01-28"
+  },
+  {
+   "old": "103.0460",
+   "date": "1884-03-10"
+  },
+  {
+   "old": "104.0018",
+   "date": "1884-04-22"
+  }
+ ],
+ "headfix": [
+  {
+   "old": "102.0086",
+   "from": "Mardi 25 décembre 1883",
+   "to": "Mardi 25 décembre 1883 - Noël"
+  },
+  {
+   "old": "103.0477",
+   "from": "Mercredi 12 mars 1884",
+   "to": "Jeudi 13 mars 1884"
+  },
+  {
+   "old": "103.0534",
+   "from": "Dimanche 23 mars 1884",
+   "to": "Lundi 24 mars 1884"
+  },
+  {
+   "old": "103.0717",
+   "from": "Mercredi 9 avril 1884",
+   "to": "Jeudi 10 avril 1884"
+  },
+  {
+   "old": "104.0035",
+   "from": "Mercredi 30 avril 1884",
+   "to": null
+  },
+  {
+   "old": "104.0055",
+   "from": "Jeudi 1er mai 1884",
+   "to": null
+  },
+  {
+   "old": "106.0142",
+   "from": "Mardi 7 octobre 1884",
+   "to": "Jeudi 7 octobre 1884"
+  },
+  {
+   "old": "105.0772",
+   "from": "Dimanche 31 août 1884",
+   "to": null
+  },
+  {
+   "old": "105.0775",
+   "from": "Lundi 1er septembre 1884",
+   "to": null
+  },
+  {
+   "old": "105.0786",
+   "from": "Samedi 6 septembre 1884",
+   "to": "Samedi 8 septembre 1884"
+  }
+ ]
+}

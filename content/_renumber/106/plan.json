@@ -1,0 +1,2012 @@
+{
+ "carnet": "106",
+ "source": "tome16.docx",
+ "drop": [
+  {
+   "id": "106.0143",
+   "reason": "date line «Vendredi 8 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0493 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0144",
+   "reason": "duplicate of 105.0493: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0145",
+   "reason": "duplicate of 105.0494: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0146",
+   "reason": "duplicate of 105.0495: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0147",
+   "reason": "duplicate of 105.0496: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0148",
+   "reason": "duplicate of 105.0497: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0149",
+   "reason": "duplicate of 105.0498: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0150",
+   "reason": "duplicate of 105.0499: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0151",
+   "reason": "line «— Mais pas d'éclaboussures.» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0500 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0152",
+   "reason": "duplicate of 105.0501: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0153",
+   "reason": "duplicate of 105.0502: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0154",
+   "reason": "duplicate of 105.0503: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0155",
+   "reason": "duplicate of 105.0504: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0156",
+   "reason": "duplicate of 105.0505: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0157",
+   "reason": "duplicate of 105.0506: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0158",
+   "reason": "line «Alors tout va bien ?» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0507 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0159",
+   "reason": "duplicate of 105.0508: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0160",
+   "reason": "duplicate of 105.0509: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0161",
+   "reason": "duplicate of 105.0510: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0162",
+   "reason": "duplicate of 105.0511: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0163",
+   "reason": "duplicate of 105.0512: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0164",
+   "reason": "duplicate of 105.0513: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0165",
+   "reason": "duplicate of 105.0514: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0166",
+   "reason": "duplicate of 105.0515: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0167",
+   "reason": "duplicate of 105.0516: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0168",
+   "reason": "duplicate of 105.0517: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0169",
+   "reason": "duplicate of 105.0518: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0170",
+   "reason": "duplicate of 105.0519: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0171",
+   "reason": "date line «Samedi 9 août 1 884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0521 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0172",
+   "reason": "duplicate of 105.0521: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0173",
+   "reason": "duplicate of 105.0522: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0174",
+   "reason": "duplicate of 105.0523, 105.0564: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0175",
+   "reason": "duplicate of 105.0524: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0176",
+   "reason": "duplicate of 105.0525: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0177",
+   "reason": "duplicate of 105.0526: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0178",
+   "reason": "duplicate of 105.0527, 105.0530: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0179",
+   "reason": "duplicate of 105.0528, 105.0531: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0180",
+   "reason": "duplicate of 105.0529: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0181",
+   "reason": "duplicate of 105.0527, 105.0530: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0182",
+   "reason": "duplicate of 105.0528, 105.0531: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0183",
+   "reason": "date line «Dimanche 10 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0533 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0184",
+   "reason": "duplicate of 105.0533: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0185",
+   "reason": "date line «Lundi 11 août 1 884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0535 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0186",
+   "reason": "duplicate of 105.0535: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0187",
+   "reason": "duplicate of 105.0536: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0188",
+   "reason": "duplicate of 105.0537: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0189",
+   "reason": "empty cluster of the duplicate August block in 106/1884-10-07.md (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0190",
+   "reason": "duplicate of 105.0539: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0191",
+   "reason": "duplicate of 105.0540: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0192",
+   "reason": "duplicate of 105.0541: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0193",
+   "reason": "duplicate of 105.0542: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0194",
+   "reason": "duplicate of 105.0543: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0195",
+   "reason": "duplicate of 105.0544: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0196",
+   "reason": "duplicate of 105.0545: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0197",
+   "reason": "line «Je vais au Bois.» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0546 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0198",
+   "reason": "date line «Mardi 1 2 août 1 884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0547 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0199",
+   "reason": "duplicate of 105.0548: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0200",
+   "reason": "duplicate of 105.0549: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0201",
+   "reason": "duplicate of 105.0550: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0202",
+   "reason": "duplicate of 105.0551: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0203",
+   "reason": "duplicate of 105.0552: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0204",
+   "reason": "duplicate of 105.0553: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0205",
+   "reason": "duplicate of 105.0554: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0206",
+   "reason": "duplicate of 105.0555: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0207",
+   "reason": "duplicate of 105.0556: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0208",
+   "reason": "duplicate of 105.0557: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0209",
+   "reason": "duplicate of 105.0558: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0210",
+   "reason": "duplicate of 105.0559: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0211",
+   "reason": "duplicate of 105.0560: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0212",
+   "reason": "duplicate of 105.0561: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0213",
+   "reason": "duplicate of 105.0562: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0214",
+   "reason": "duplicate of 105.0523, 105.0564: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0215",
+   "reason": "duplicate of 105.0565: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0216",
+   "reason": "duplicate of 105.0566: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0217",
+   "reason": "empty cluster of the duplicate August block in 106/1884-10-07.md (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0218",
+   "reason": "duplicate of 105.0569: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0219",
+   "reason": "date line «Vendredi 15 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0571 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0220",
+   "reason": "duplicate of 105.0571: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0221",
+   "reason": "duplicate of 105.0572: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0222",
+   "reason": "duplicate of 105.0573: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0223",
+   "reason": "duplicate of 105.0574: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0224",
+   "reason": "duplicate of 105.0575: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0225",
+   "reason": "duplicate of 105.0576: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0226",
+   "reason": "duplicate of 105.0577, 105.0578, 105.0597: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0227",
+   "reason": "duplicate of 105.0577, 105.0578, 105.0597: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0228",
+   "reason": "duplicate of 105.0579: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0229",
+   "reason": "duplicate of 105.0580: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0230",
+   "reason": "duplicate of 105.0581: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0231",
+   "reason": "duplicate of 105.0582: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0232",
+   "reason": "empty cluster of the duplicate August block in 106/1884-10-07.md (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0233",
+   "reason": "duplicate of 105.0584: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0234",
+   "reason": "duplicate of 105.0585: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0235",
+   "reason": "duplicate of 105.0586: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0236",
+   "reason": "duplicate of 105.0587: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0237",
+   "reason": "duplicate of 105.0588: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0238",
+   "reason": "duplicate of 105.0589: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0239",
+   "reason": "duplicate of 105.0590: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0240",
+   "reason": "duplicate of 105.0591, 105.0601: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0241",
+   "reason": "duplicate of 105.0592: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0242",
+   "reason": "duplicate of 105.0593: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0243",
+   "reason": "duplicate of 105.0594: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0244",
+   "reason": "duplicate of 105.0595: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0245",
+   "reason": "duplicate of 105.0596: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0246",
+   "reason": "duplicate of 105.0577, 105.0578, 105.0597: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0247",
+   "reason": "duplicate of 105.0598: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0248",
+   "reason": "duplicate of 105.0577, 105.0578, 105.0597: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0249",
+   "reason": "duplicate of 105.0600, 105.0603: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0250",
+   "reason": "duplicate of 105.0591, 105.0601: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0251",
+   "reason": "duplicate of 105.0602: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0252",
+   "reason": "duplicate of 105.0600, 105.0603: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0253",
+   "reason": "empty cluster of the duplicate August block in 106/1884-10-07.md (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0254",
+   "reason": "duplicate of 105.0605: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0255",
+   "reason": "date line «Samedi 16 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0607 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0256",
+   "reason": "duplicate of 105.0607: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0257",
+   "reason": "duplicate of 105.0608: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0258",
+   "reason": "duplicate of 105.0609: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0259",
+   "reason": "duplicate of 105.0610: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0260",
+   "reason": "duplicate of 105.0611: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0261",
+   "reason": "duplicate of 105.0612: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0262",
+   "reason": "duplicate of 105.0613: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0263",
+   "reason": "duplicate of 105.0614: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0264",
+   "reason": "duplicate of 105.0615: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0265",
+   "reason": "duplicate of 105.0616: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0266",
+   "reason": "duplicate of 105.0617: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0267",
+   "reason": "duplicate of 105.0618: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0268",
+   "reason": "duplicate of 105.0619: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0269",
+   "reason": "duplicate of 105.0620: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0270",
+   "reason": "duplicate of 105.0621: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0271",
+   "reason": "date line «Dimanche 17 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0623 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0272",
+   "reason": "date line «Lundi 1 8 août 1 884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0623 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0273",
+   "reason": "date line «Mardi 1 9 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0624 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0274",
+   "reason": "duplicate of 105.0625: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0275",
+   "reason": "duplicate of 105.0626: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0276",
+   "reason": "duplicate of 105.0627: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0277",
+   "reason": "duplicate of 105.0628: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0278",
+   "reason": "duplicate of 105.0629: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0279",
+   "reason": "duplicate of 105.0630: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0280",
+   "reason": "duplicate of 105.0631: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0281",
+   "reason": "duplicate of 105.0632: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0282",
+   "reason": "duplicate of 105.0633: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0283",
+   "reason": "duplicate of 105.0634: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0284",
+   "reason": "duplicate of 105.0635: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0285",
+   "reason": "duplicate of 105.0636: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0286",
+   "reason": "duplicate of 105.0637: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0287",
+   "reason": "duplicate of 105.0638: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0288",
+   "reason": "duplicate of 105.0639: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0289",
+   "reason": "duplicate of 105.0640: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0290",
+   "reason": "duplicate of 105.0641: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0291",
+   "reason": "duplicate of 105.0642: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0292",
+   "reason": "duplicate of 105.0644: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0293",
+   "reason": "duplicate of 105.0645: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0294",
+   "reason": "duplicate of 105.0646: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0295",
+   "reason": "duplicate of 105.0647: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0296",
+   "reason": "duplicate of 105.0648: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0297",
+   "reason": "duplicate of 105.0649: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0298",
+   "reason": "duplicate of 105.0650: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0299",
+   "reason": "duplicate of 105.0651: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0300",
+   "reason": "duplicate of 105.0652: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0301",
+   "reason": "duplicate of 105.0653: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0302",
+   "reason": "duplicate of 105.0654: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0303",
+   "reason": "duplicate of 105.0655: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0304",
+   "reason": "empty cluster of the duplicate August block in 106/1884-10-07.md (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0305",
+   "reason": "duplicate of 105.0657: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0306",
+   "reason": "duplicate of 105.0658: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0307",
+   "reason": "duplicate of 105.0659, 105.0763, 105.0782: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0308",
+   "reason": "duplicate of 105.0660: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0309",
+   "reason": "duplicate of 105.0661: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0310",
+   "reason": "duplicate of 105.0662: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0311",
+   "reason": "duplicate of 105.0663: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0312",
+   "reason": "duplicate of 105.0665: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0313",
+   "reason": "duplicate of 105.0666: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0314",
+   "reason": "duplicate of 105.0667: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0315",
+   "reason": "date line «Vendredi 22 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0669 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0316",
+   "reason": "line «C'est un cancer.» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0669 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0317",
+   "reason": "duplicate of 105.0670: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0318",
+   "reason": "duplicate of 105.0671: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0319",
+   "reason": "line «Alors c'est fini.» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0672 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0320",
+   "reason": "duplicate of 105.0673: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0321",
+   "reason": "duplicate of 105.0674: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0322",
+   "reason": "date line «Samdi 23 août 1 884» of the duplicate August block in 106/1884-10-07.md (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0323",
+   "reason": "duplicate of 105.0676: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0324",
+   "reason": "duplicate of 105.0677: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0325",
+   "reason": "duplicate of 105.0678: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0326",
+   "reason": "empty cluster of the duplicate August block in 106/1884-10-07.md (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0327",
+   "reason": "duplicate of 105.0680: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0328",
+   "reason": "duplicate of 105.0681: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0329",
+   "reason": "duplicate of 105.0682: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0330",
+   "reason": "duplicate of 105.0683: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0331",
+   "reason": "duplicate of 105.0684: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0332",
+   "reason": "line «Et la peinture II» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0685 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0333",
+   "reason": "duplicate of 105.0686: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0334",
+   "reason": "duplicate of 105.0687: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0335",
+   "reason": "duplicate of 105.0688: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0336",
+   "reason": "duplicate of 105.0689: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0337",
+   "reason": "duplicate of 105.0690: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0338",
+   "reason": "duplicate of 105.0691: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0339",
+   "reason": "duplicate of 105.0692: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0340",
+   "reason": "line «Jean-Jacques l'etait.» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0693 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0341",
+   "reason": "duplicate of 105.0694: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0342",
+   "reason": "duplicate of 105.0695: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0343",
+   "reason": "date line «Dimanche 24 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0697 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0344",
+   "reason": "duplicate of 105.0155, 105.0363, 105.0368: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0345",
+   "reason": "duplicate of 105.0698: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0346",
+   "reason": "duplicate of 105.0699: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0347",
+   "reason": "duplicate of 105.0700: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0348",
+   "reason": "duplicate of 105.0701: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0349",
+   "reason": "duplicate of 105.0702: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0350",
+   "reason": "line «Mais tout ça... Pourquoi ?» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0703 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0351",
+   "reason": "duplicate of 105.0704: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0352",
+   "reason": "duplicate of 105.0705: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0353",
+   "reason": "duplicate of 105.0706: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0354",
+   "reason": "duplicate of 105.0707: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0355",
+   "reason": "duplicate of 105.0708: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0356",
+   "reason": "duplicate of 105.0709: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0357",
+   "reason": "duplicate of 105.0710: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0358",
+   "reason": "date line «Samedi 25 août 1 884» of the duplicate August block in 106/1884-10-07.md (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0359",
+   "reason": "duplicate of 105.0712: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0360",
+   "reason": "duplicate of 105.0713: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0361",
+   "reason": "duplicate of 105.0714: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0362",
+   "reason": "duplicate of 105.0715: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0363",
+   "reason": "empty cluster of the duplicate August block in 106/1884-10-07.md (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0364",
+   "reason": "date line «Mardi 26 août 1 884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0718 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0365",
+   "reason": "duplicate of 105.0718: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0366",
+   "reason": "duplicate of 105.0719: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0367",
+   "reason": "duplicate of 105.0720: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0368",
+   "reason": "duplicate of 105.0721: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0369",
+   "reason": "duplicate of 105.0722: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0370",
+   "reason": "duplicate of 105.0723: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0371",
+   "reason": "duplicate of 105.0724: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0372",
+   "reason": "duplicate of 105.0725: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0373",
+   "reason": "duplicate of 105.0726: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0374",
+   "reason": "duplicate of 105.0727: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0375",
+   "reason": "duplicate of 105.0728: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0376",
+   "reason": "duplicate of 105.0729: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0377",
+   "reason": "duplicate of 105.0730: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0378",
+   "reason": "duplicate of 105.0731: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0379",
+   "reason": "duplicate of 105.0732: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0380",
+   "reason": "duplicate of 105.0733: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0381",
+   "reason": "duplicate of 105.0735: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0382",
+   "reason": "empty cluster of the duplicate August block in 106/1884-10-07.md (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0383",
+   "reason": "duplicate of 105.0737: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0384",
+   "reason": "duplicate of 105.0738: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0385",
+   "reason": "duplicate of 105.0739: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0386",
+   "reason": "duplicate of 105.0741: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0387",
+   "reason": "duplicate of 105.0742: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0388",
+   "reason": "duplicate of 105.0743: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0389",
+   "reason": "duplicate of 105.0744: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0390",
+   "reason": "duplicate of 105.0745: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0391",
+   "reason": "duplicate of 105.0746: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0392",
+   "reason": "duplicate of 105.0747: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0393",
+   "reason": "line «— Jamais de la vie !» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0748 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0394",
+   "reason": "duplicate of 105.0749: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0395",
+   "reason": "duplicate of 105.0750: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0396",
+   "reason": "duplicate of 105.0751: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0397",
+   "reason": "date line «Vendredi 29 août 1884» of the duplicate August block in 106/1884-10-07.md (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0398",
+   "reason": "date line «Samedi 30 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0753 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0399",
+   "reason": "duplicate of 105.0753: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0400",
+   "reason": "duplicate of 105.0754: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0401",
+   "reason": "duplicate of 105.0755: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0402",
+   "reason": "duplicate of 105.0756: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0403",
+   "reason": "duplicate of 105.0757: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0404",
+   "reason": "duplicate of 105.0758: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0405",
+   "reason": "duplicate of 105.0759: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0406",
+   "reason": "duplicate of 105.0760: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0407",
+   "reason": "duplicate of 105.0761: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0408",
+   "reason": "duplicate of 105.0762: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0409",
+   "reason": "duplicate of 105.0659, 105.0763, 105.0782: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0410",
+   "reason": "duplicate of 105.0764: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0411",
+   "reason": "duplicate of 105.0765: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0412",
+   "reason": "duplicate of 105.0766: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0413",
+   "reason": "duplicate of 105.0767: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0414",
+   "reason": "duplicate of 105.0768: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0415",
+   "reason": "duplicate of 105.0769: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0416",
+   "reason": "duplicate of 105.0770: 106/1884-10-07.md held a second, accent-stripped transcription of 8–31 August 1884 (tome16.docx ¶3768–4043), which carnet 105 already has (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0417",
+   "reason": "date line «Dimanche 31 août 1884» of the duplicate August block in 106/1884-10-07.md, duplicate of 105.0772 (a second transcription of 8–31 August 1884 that carnet 105 already has; 2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0418",
+   "reason": "empty cluster of the duplicate August block in 106/1884-10-07.md (en held only an «[End of entry]» placeholder) (2026-09-28 rebuild)"
+  },
+  {
+   "id": "106.0431",
+   "reason": "heading-only stub for «Vendredi 10 octobre 1884»: the manuscript has no such date line (tome16.docx ¶4289–4290 go from 9 to 11 October, ¶4301–4302 from 12 to 16 October; the raw carnet agrees)"
+  },
+  {
+   "id": "106.0442",
+   "reason": "heading-only stub for «Lundi 13 octobre 1884»: the manuscript has no such date line (tome16.docx ¶4289–4290 go from 9 to 11 October, ¶4301–4302 from 12 to 16 October; the raw carnet agrees)"
+  },
+  {
+   "id": "106.0443",
+   "reason": "heading-only stub for «Mardi 14 octobre 1884»: the manuscript has no such date line (tome16.docx ¶4289–4290 go from 9 to 11 October, ¶4301–4302 from 12 to 16 October; the raw carnet agrees)"
+  },
+  {
+   "id": "106.0444",
+   "reason": "heading-only stub for «Mercredi 15 octobre 1884»: the manuscript has no such date line (tome16.docx ¶4289–4290 go from 9 to 11 October, ¶4301–4302 from 12 to 16 October; the raw carnet agrees)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1884-09-11.md",
+   "date": "1884-09-11",
+   "heading": "Jeudi 11 septembre 1884 - suite",
+   "paragraphs": [
+    {
+     "old": "105.0809",
+     "set_french": "# Jeudi 11 septembre 1884 - suite\nLe principal s'est de travailler."
+    }
+   ]
+  },
+  {
+   "file": "1884-09-12.md",
+   "date": "1884-09-12",
+   "heading": "Vendredi 12 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0001"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-13.md",
+   "date": "1884-09-13",
+   "heading": "Samedi 13 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0002",
+     "set_french": "# Samedi 13 septembre 1884\nDe l'effet que peut produire un [Rayé: cahier de comptes de travaux d'architecture] mémoire d'architecte, \"article fumisterie[^1].\""
+    },
+    {
+     "old": "106.0003"
+    },
+    {
+     "old": "106.0004"
+    },
+    {
+     "old": "106.0005"
+    },
+    {
+     "old": "106.0006"
+    },
+    {
+     "old": "106.0007"
+    },
+    {
+     "old": "106.0008",
+     "kind": "margin"
+    },
+    {
+     "old": "106.0009"
+    },
+    {
+     "old": "106.0010"
+    },
+    {
+     "old": "106.0011"
+    },
+    {
+     "old": "106.0012"
+    },
+    {
+     "old": "106.0013"
+    },
+    {
+     "old": "106.0014"
+    },
+    {
+     "old": "106.0015"
+    },
+    {
+     "old": "106.0016"
+    },
+    {
+     "old": "106.0017"
+    },
+    {
+     "old": "106.0018"
+    },
+    {
+     "old": "106.0019"
+    },
+    {
+     "old": "106.0020"
+    },
+    {
+     "old": "106.0021",
+     "kind": "rayé"
+    },
+    {
+     "old": "106.0022"
+    },
+    {
+     "old": "106.0023"
+    },
+    {
+     "old": "106.0024"
+    },
+    {
+     "old": "106.0025"
+    },
+    {
+     "old": "106.0026"
+    },
+    {
+     "old": "106.0027"
+    },
+    {
+     "old": "106.0028"
+    },
+    {
+     "old": "106.0029",
+     "kind": "rayé"
+    },
+    {
+     "old": "106.0030"
+    },
+    {
+     "old": "106.0031"
+    },
+    {
+     "old": "106.0032"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-14.md",
+   "date": "1884-09-14",
+   "heading": "Dimanche 14 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0033"
+    },
+    {
+     "old": "106.0034"
+    },
+    {
+     "old": "106.0035"
+    },
+    {
+     "old": "106.0036"
+    },
+    {
+     "old": "106.0037",
+     "kind": "rayé"
+    },
+    {
+     "old": "106.0038"
+    },
+    {
+     "old": "106.0039"
+    },
+    {
+     "old": "106.0040"
+    },
+    {
+     "old": "106.0041"
+    },
+    {
+     "old": "106.0042"
+    },
+    {
+     "old": "106.0043"
+    },
+    {
+     "old": "106.0044"
+    },
+    {
+     "old": "106.0045"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-15.md",
+   "date": "1884-09-15",
+   "heading": "Lundi 15 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0046"
+    },
+    {
+     "old": "106.0047"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-16.md",
+   "date": "1884-09-16",
+   "heading": "Mardi 16 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0048"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-17.md",
+   "date": "1884-09-17",
+   "heading": "Mercredi 17 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0049"
+    },
+    {
+     "old": "106.0050"
+    },
+    {
+     "old": "106.0051"
+    },
+    {
+     "old": "106.0052"
+    },
+    {
+     "old": "106.0053"
+    },
+    {
+     "old": "106.0054"
+    },
+    {
+     "old": "106.0055"
+    },
+    {
+     "old": "106.0056"
+    },
+    {
+     "old": "106.0057"
+    },
+    {
+     "old": "106.0058"
+    },
+    {
+     "old": "106.0059"
+    },
+    {
+     "old": "106.0060"
+    },
+    {
+     "old": "106.0061"
+    },
+    {
+     "old": "106.0062"
+    },
+    {
+     "old": "106.0063"
+    },
+    {
+     "old": "106.0064"
+    },
+    {
+     "old": "106.0065"
+    },
+    {
+     "old": "106.0066"
+    },
+    {
+     "old": "106.0067"
+    },
+    {
+     "old": "106.0068"
+    },
+    {
+     "old": "106.0069"
+    },
+    {
+     "old": "106.0070"
+    },
+    {
+     "old": "106.0071"
+    },
+    {
+     "old": "106.0072"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-18.md",
+   "date": "1884-09-18",
+   "heading": "Jeudi 18 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0073"
+    },
+    {
+     "old": "106.0074"
+    },
+    {
+     "old": "106.0075"
+    },
+    {
+     "old": "106.0076",
+     "set_french": "Enfin je suis un bon petit frère pour lui, cet après-midi je suis assez bien et je cause grâce surtout à ces bonnes dames et puis tiens voilà que j'oublie que cet animal de Bojidar est arrivé ce matin avec sa mère, il repart même ce soir pour Etretat pendant dix jours et sa chère maman va rester ces dix jours chez nous pour ne pas être seule, mais en réalité pour faire des économies."
+    },
+    {
+     "old": "106.0077"
+    },
+    {
+     "old": "106.0078",
+     "set_french": "- Vous avez bien fait d'insister pour que maman reste, elle est si façonnière...[^2]"
+    },
+    {
+     "old": "106.0079",
+     "set_french": "Façonnière... dans tous les cas je ne le suis pas, une fois qu'on a eu couché Jules tout le monde est venu s'asseoir autour du lit à gauche comme toujours, alors moi je suis allée me mettre à droite et sur le lit même en sorte que son rêve d'hier a été réalisé ou peu s'en faut; alors il a tourné le dos aux autres, s'est bien installé et s'est mis à causer très doucement, d'art."
+    },
+    {
+     "old": "106.0080",
+     "set_french": "On dirait que c'était un caprice de malade. Oh ! mais rassurez-vous j'étais assise pudiquement les jambes par terre et les coudes dans le lit et la tête dans les mains écoutant avec une attention profonde. Et le reste de la société me rendait service en causant très fort."
+    },
+    {
+     "old": "106.0081"
+    },
+    {
+     "old": "106.0082"
+    },
+    {
+     "old": "106.0083"
+    },
+    {
+     "old": "106.0084"
+    },
+    {
+     "old": "106.0085",
+     "set_french": "Il faut m'observer devant les miens qui sont si bêtes ! Elles vont penser que je remplace Mme Mac-Kay dans le cœur de Jules. C'est insensé."
+    }
+   ]
+  },
+  {
+   "file": "1884-09-19.md",
+   "date": "1884-09-19",
+   "heading": "Vendredi 19 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0086"
+    },
+    {
+     "old": "106.0087"
+    },
+    {
+     "old": "106.0088",
+     "set_french": "Je suis affreuse, j'en parle sans délicatesse, il me semble qu'on pourrait trouver des mots plus... c'est-à-dire moins..."
+    },
+    {
+     "old": "106.0089"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-20.md",
+   "date": "1884-09-20",
+   "heading": "Samedi 20 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0090"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-21.md",
+   "date": "1884-09-21",
+   "heading": "Dimanche 21 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0091",
+     "set_french": "# Dimanche 21 septembre 1884\nCorvée suprême. Déjeuner à Jouy. La petite a copié le tableau, mal. Enfin on verra."
+    },
+    {
+     "old": "106.0092",
+     "set_french": "J'en reviens avec une fièvre de cheval. Il vient du monde que par miracle on ne garde pas à dîner. Si vous saviez !"
+    },
+    {
+     "new": {
+      "french": "Les autres sont chez eux, on ne les voit que pomponnés, habillés, à leur avantage. Chacun à des misères de cabinet de toilette. Mais ici, tout est ouvert ! On est malade, en peignoir; ça ne fait rien. Et ces gens qu'on accueille ainsi par bonté disent que vous enlaidissez, que vous ne vous tenez plus. Ou bien vous assomment de questions et de conseils.",
+      "rsr": "Restored from tome16.docx ¶4220, Mon Journal t.16 p.305 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Pourquoi toussez-vous ? Vous êtes ceci, vous êtes cela. Vous devriez faire telle chose. Misère ! J'en suis en ce moment arrivée à ce rêve suprême, idéal qui résume toutes mes exigences passées et qui se traduit par les mots:",
+      "rsr": "Restored from tome16.docx ¶4221, Mon Journal t.16 p.306 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Qu'on me fiche la paix.",
+      "rsr": "Restored from tome16.docx ¶4222, Mon Journal t.16 p.306 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et même ça ! Je ne puis l'avoir.",
+      "rsr": "Restored from tome16.docx ¶4223, Mon Journal t.16 p.306 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1884-09-22.md",
+   "date": "1884-09-22",
+   "heading": "Lundi 22 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0093"
+    },
+    {
+     "old": "106.0094",
+     "set_french": "Le docteur était là, et cet enfant voulait que je le consulte. Je m'en suis bien gardée."
+    }
+   ]
+  },
+  {
+   "file": "1884-09-23.md",
+   "date": "1884-09-23",
+   "heading": "Mardi 23 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0095",
+     "kind": "letter",
+     "source": "Lettre du Figaro illustré rêvée par Marie, 23 septembre 1884",
+     "set_french": "# Mardi 23 septembre 1884\n> Mademoiselle,"
+    },
+    {
+     "old": "106.0096",
+     "kind": "letter",
+     "source": "Lettre du Figaro illustré rêvée par Marie, 23 septembre 1884",
+     "set_french": "> J'ai le plaisir de vous annoncer que votre dessin est accepté par le \"Figaro Illustré\" et il a même été particulièrement remarqué par notre collaborateur M. Albert Wolff."
+    },
+    {
+     "old": "106.0097",
+     "kind": "letter",
+     "source": "Lettre du Figaro illustré rêvée par Marie, 23 septembre 1884",
+     "set_french": "> Veuillez agréer etc."
+    },
+    {
+     "old": "106.0098",
+     "set_french": "Ça c'est ce que j'ai rêvé. Mais en réalité. Une fin de non recevoir. Comme je n'y comptais pas trop, ça me fait un léger froid puis c'est tout."
+    },
+    {
+     "old": "106.0099"
+    },
+    {
+     "old": "106.0100"
+    },
+    {
+     "old": "106.0101"
+    },
+    {
+     "old": "106.0102",
+     "set_french": "Mais en réalité c'est Dina qui lui a tripoté la tête pour l'endormir. Elle est si bien portante, si grasse, si forte que c'est à elle qu'il l'a demandé. Il va du reste affreusement mal. C'est abominable."
+    }
+   ]
+  },
+  {
+   "file": "1884-09-24.md",
+   "date": "1884-09-24",
+   "heading": "Mercredi 24 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0103"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-25.md",
+   "date": "1884-09-25",
+   "heading": "Jeudi 25 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0104"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-26.md",
+   "date": "1884-09-26",
+   "heading": "Vendredi 26 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0105"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-27.md",
+   "date": "1884-09-27",
+   "heading": "Samedi 27 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0106"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-28.md",
+   "date": "1884-09-28",
+   "heading": "Dimanche 28 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0107"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-29.md",
+   "date": "1884-09-29",
+   "heading": "Lundi 29 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0108"
+    }
+   ]
+  },
+  {
+   "file": "1884-09-30.md",
+   "date": "1884-09-30",
+   "heading": "Mardi 30 septembre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0109"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-01.md",
+   "date": "1884-10-01",
+   "heading": "Mercredi 1er octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0110",
+     "set_french": "# Mercredi 1er octobre 1884\nTant de dégoûts et tant de tristesse. A quoi bon écrire ?"
+    },
+    {
+     "old": "106.0111"
+    },
+    {
+     "old": "106.0112"
+    },
+    {
+     "old": "106.0113"
+    },
+    {
+     "old": "106.0114"
+    },
+    {
+     "old": "106.0115"
+    },
+    {
+     "old": "106.0116"
+    },
+    {
+     "old": "106.0117"
+    },
+    {
+     "old": "106.0118",
+     "set_french": "Et elle dit que c'est parce qu'elle a peur de me contrarier et si je demande: avez-vous été où j'ai dit ? Au lieu de dire simplement: non, pas encore. Elle invente un tas de machines et comme elle est bête je le vois et rage."
+    },
+    {
+     "old": "106.0119"
+    },
+    {
+     "old": "106.0120"
+    },
+    {
+     "old": "106.0121"
+    },
+    {
+     "old": "106.0122"
+    },
+    {
+     "old": "106.0123"
+    },
+    {
+     "old": "106.0124",
+     "set_french": "Nous l'avons ramené du Bois, je lui ai mis son écharpe et boutonné son paletot et arrangé la couverture sur les pieds. Mais c'est Dina qui lui a passé les doigts dans les cheveux, heureusement le docteur est arrivé et l'a endormi en le magnétisant pour de bon."
+    },
+    {
+     "old": "106.0125",
+     "set_french": "Mais il s'en va, et il souffre beaucoup. Quand on en est là on se détache de la terre, il plane déjà au-dessus de nous, il y a des jours où je me sens ainsi. On voit les gens, ils vous parlent, on répond, mais on n'est plus à la terre; une indifférence tranquille, pas douloureuse, un peu comme un rêve à l'opium."
+    },
+    {
+     "old": "106.0126",
+     "set_french": "Mme Mac-Kay est à Paris; Je dis lady Mac-Kay et Bojidar dit: lady Man-quée.[^3]"
+    },
+    {
+     "old": "106.0127"
+    },
+    {
+     "old": "106.0128"
+    },
+    {
+     "old": "106.0129"
+    },
+    {
+     "old": "106.0130"
+    },
+    {
+     "old": "106.0131"
+    },
+    {
+     "old": "106.0132"
+    },
+    {
+     "old": "106.0133",
+     "set_french": "Eh bien. Eh bien j'aurais voulu être l'amour de ses souffrances pour l'aimer... ou le pleurer..."
+    },
+    {
+     "old": "106.0134"
+    },
+    {
+     "old": "106.0135"
+    },
+    {
+     "old": "106.0136"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-02.md",
+   "date": "1884-10-02",
+   "heading": "Jeudi 2 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0137"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-03.md",
+   "date": "1884-10-03",
+   "heading": "Vendredi 3 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0138"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-04.md",
+   "date": "1884-10-04",
+   "heading": "Samedi 4 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0139"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-05.md",
+   "date": "1884-10-05",
+   "heading": "Dimanche 5 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0140"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-06.md",
+   "date": "1884-10-06",
+   "heading": "Lundi 6 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0141"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-07.md",
+   "date": "1884-10-07",
+   "heading": "Mardi 7 octobre 1884",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶4276, Mon Journal t.16 p.308: the date line «Mardi 7 octobre 1884» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1884-10-07.md"
+  },
+  {
+   "file": "1884-10-08.md",
+   "date": "1884-10-08",
+   "heading": "Mercredi 8 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0419"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-09.md",
+   "date": "1884-10-09",
+   "heading": "Jeudi 9 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0420"
+    },
+    {
+     "old": "106.0421"
+    },
+    {
+     "old": "106.0422"
+    },
+    {
+     "old": "106.0423",
+     "set_french": "Hier j'ai commencé à m'habiller pour aller au Bois et j'ai été deux fois près d'y renoncer, sans force. Mais j'y suis arrivée tout de même... Mme Bastien-Lepage est à Damvillers depuis lundi pour les vendanges et bien qu'il y ait des dames autour de lui Jules est content de nous voir, Mme Weil me donne son pliant et me voilà en face de lui, les pieds sur la même bouillotte et la même couverture. Nous devions être drôles. Pauvre cher. Mme Mac-Kay est à Paris. Nous le ramenons."
+    },
+    {
+     "old": "106.0424",
+     "set_french": "Emile est un frère vraiment sublime. Si vous saviez quels soins, quelle abnégation, quelle tendresse et tout cela avec calme et simplicité, il ne perd pas la tête."
+    },
+    {
+     "old": "106.0425",
+     "kind": "editorial"
+    },
+    {
+     "old": "106.0426"
+    },
+    {
+     "old": "106.0427"
+    },
+    {
+     "old": "106.0428"
+    },
+    {
+     "old": "106.0429",
+     "set_french": "Pourquoi ? Dans le commencement c'était: \"un empereur qu'on saluait de loin avec dépit, qui s'est cassé les deux jambes et qu'on peut aller secourir.\""
+    },
+    {
+     "old": "106.0430"
+    }
+   ],
+   "redirect_from": [
+    "1884-10-10.md"
+   ]
+  },
+  {
+   "file": "1884-10-11.md",
+   "date": "1884-10-11",
+   "heading": "Samedi 11 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0432"
+    },
+    {
+     "old": "106.0433"
+    },
+    {
+     "old": "106.0434",
+     "set_french": "C'était lui, Jules. Il a eu froid chez lui, je ne sais quoi, alors au lieu du Bois, le temps est incertain, il vient passer l'après-midi ici. Cher ange ! Nous l'installons avec enthousiasme, on se précipite. Ah ! quel bonheur ! Est-ce gentil, est-ce une preuve qu'il nous aime !"
+    },
+    {
+     "old": "106.0435",
+     "set_french": "J'ai encore eu sa main à tenir, il paraît que je le fais très bien. Eh bien chaque fois que naïvement, sans réfléchir, du fond du cœur, comme un enfant, [Mots cancellés: et quand] on invoque Dieu [Mots cancellés] il l'entend toujours. Je sais bien que c'est une bêtise... Et puis ces moments sont si rares. Quand on se prépare à prier ça ne vaut plus rien. Il faut la foi... Mais elle ne peut exister je vous dis que dans des moments rares, où l'on oublie, où l'on ne..."
+    },
+    {
+     "old": "106.0436"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-12.md",
+   "date": "1884-10-12",
+   "heading": "Dimanche 12 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0437",
+     "set_french": "# Dimanche 12 octobre 1884\nJe n'ai pas pu sortir; Je suis tout à fait malade quoique pas couchée."
+    },
+    {
+     "old": "106.0438",
+     "set_french": "Le médecin vient tous les deux jours depuis la visite de Potain qui m'envoie son sous-Potain.[^8]"
+    },
+    {
+     "old": "106.0439"
+    },
+    {
+     "old": "106.0440"
+    },
+    {
+     "old": "106.0441"
+    }
+   ],
+   "redirect_from": [
+    "1884-10-13.md",
+    "1884-10-14.md",
+    "1884-10-15.md"
+   ]
+  },
+  {
+   "file": "1884-10-16.md",
+   "date": "1884-10-16",
+   "heading": "Jeudi 16 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0445",
+     "set_french": "# Jeudi 16 octobre 1884\nJ'ai des fièvres terribles qui m'épuisent. Je passe toutes les journées au salon changeant de fauteuil et de canapés."
+    },
+    {
+     "old": "106.0446"
+    },
+    {
+     "old": "106.0447"
+    },
+    {
+     "old": "106.0448"
+    },
+    {
+     "old": "106.0449",
+     "set_french": "Je suis habillée d'un fouillis de dentelles, de peluche, tout ça est blanc mais de blancs divers, l'œil de Bastien s'en dilate de plaisir: oh ! si je pouvais peindre !"
+    },
+    {
+     "old": "106.0450"
+    },
+    {
+     "old": "106.0451"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-17.md",
+   "date": "1884-10-17",
+   "heading": "Vendredi 17 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0452"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-18.md",
+   "date": "1884-10-18",
+   "heading": "Samedi 18 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0453"
+    },
+    {
+     "old": "106.0454"
+    },
+    {
+     "old": "106.0455",
+     "set_french": "Hier soir Gavini et Géry ont dîné ici. Ma maladie avouée est un mal de gorge, car par dessus le marché j'ai aussi mal à la gorge."
+    },
+    {
+     "old": "106.0456"
+    }
+   ]
+  },
+  {
+   "file": "1884-10-19.md",
+   "date": "1884-10-19",
+   "heading": "Dimanche 19 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0457",
+     "set_french": "# Dimanche 19 octobre 1884\nTony et Julian à dîner."
+    }
+   ]
+  },
+  {
+   "file": "1884-10-20.md",
+   "date": "1884-10-20",
+   "heading": "Lundi 20 octobre 1884",
+   "paragraphs": [
+    {
+     "old": "106.0458",
+     "set_french": "# Lundi 20 octobre 1884\nMalgré un temps magnifique Bastien vient ici au lieu d'aller au Bois. Il ne peut presque plus marcher, son frère le soutient sous chaque bras, il le porte presque. Et une fois dans le fauteuil le pauvre enfant est exténué."
+    },
+    {
+     "old": "106.0459",
+     "set_french": "Misère de nous. Et que de concierges qui se portent bien ![^9]"
+    },
+    {
+     "old": "106.0460"
+    },
+    {
+     "old": "106.0461"
+    },
+    {
+     "old": "106.0462",
+     "set_french": "Depuis deux jours mon lit est au salon, mais comme il est très grand et divisé par des paravents et des poufs et le piano, on ne s'en aperçoit pas. Il m'est trop difficile de monter les escaliers.[^10]"
+    }
+   ]
+  }
+ ]
+}

@@ -27,13 +27,13 @@ It is the one picture of hers built on an idea rather than a scene — a comic-s
 ## Description
 
 %% GLO_LES_TROIS_RIRES.0005 %%
-The scheme, from the entry of **11 December 1883** (102.0072), was larger than what she made. She had sketched «une tête de gamine de cinq ans, de profil et qui rit» and intended five or six heads, all laughing: a baby of eight months; the five-year-old of that afternoon; **Armandine** the dancer, seen from the front in a hat and an otter-fur cape with a bunch of violets on her shoulder; a *gommeux* — a dandy — in the person of **Bojidar Karageorgevitch** in evening dress, sucking his cane; then an innocent young girl; and finally an old man or an old woman. «Tout ça encadré ensemble», all of it framed together. She closed the passage with the tag she was working from: «Rire est le propre de l'homme» — laughter is what is proper to man, from Rabelais.
+The scheme, from the entry of **11 December 1883** (102.0073), was larger than what she made. She had sketched «une tête de gamine de cinq ans, de profil et qui rit» and intended five or six heads, all laughing: a baby of eight months; the five-year-old of that afternoon; **Armandine** the dancer, seen from the front in a hat and an otter-fur cape with a bunch of violets on her shoulder; a *gommeux* — a dandy — in the person of **Bojidar Karageorgevitch** in evening dress, sucking his cane; then an innocent young girl; and finally an old man or an old woman. «Tout ça encadré ensemble», all of it framed together. She closed the passage with the tag she was working from: «Rire est le propre de l'homme» — laughter is what is proper to man, from Rabelais.
 
 %% GLO_LES_TROIS_RIRES.0006 %%
-By **1 March 1884**, when she lent it to Mme Bertaux's exhibition of the Union des Femmes Peintres et Sculpteurs, it had contracted to three: «trois têtes dans un même cadre. Un bébé qui sourit, une fillette qui rit et Armandine qui éclate de rire» (103.0413) — a baby smiling, a little girl laughing, and Armandine bursting out laughing. The old age and the dandy were dropped; what remains is an ascending scale of a single expression through childhood, girlhood and young womanhood.
+By **1 March 1884**, when she lent it to Mme Bertaux's exhibition of the Union des Femmes Peintres et Sculpteurs, it had contracted to three: «trois têtes dans un même cadre. Un bébé qui sourit, une fillette qui rit et Armandine qui éclate de rire» (103.0402) — a baby smiling, a little girl laughing, and Armandine bursting out laughing. The old age and the dandy were dropped; what remains is an ascending scale of a single expression through childhood, girlhood and young womanhood.
 
 %% GLO_LES_TROIS_RIRES.0007 %%
-Armandine was a dancer at the Eden-Théâtre who posed for her more than once (104.0594–0596), and Marie also made a pastel of her at the end of March 1884 (103.0616) — whether that pastel is the panel's third head or a separate work is not recorded.
+Armandine was a dancer at the Eden-Théâtre who posed for her more than once (104.0569–0596), and Marie also made a pastel of her at the end of March 1884 (103.0600) — whether that pastel is the panel's third head or a separate work is not recorded.
 
 %% GLO_LES_TROIS_RIRES.0008 %%
 ## Making of the Work
@@ -51,10 +51,10 @@ No image of the work, or of any of its heads, has been located.
 ## References in Diary
 
 %% GLO_LES_TROIS_RIRES.0013 %%
-- **First mention: 1883-12-11 (102.0072)** — the whole scheme, five or six laughing heads, and the Rabelais tag
-- **1884-03-01 (103.0413)** — as actually exhibited: three heads in one frame
-- 1884-03-30 (103.0616) — «J'ai fait un pastel d'Armandine»
-- 1884-06-09 (104.0594–0596) — Armandine the Eden-Théâtre dancer as a model
+- **First mention: 1883-12-11 (102.0073)** — the whole scheme, five or six laughing heads, and the Rabelais tag
+- **1884-03-01 (103.0402)** — as actually exhibited: three heads in one frame
+- 1884-03-30 (103.0600) — «J'ai fait un pastel d'Armandine»
+- 1884-06-09 (104.0569–0596) — Armandine the Eden-Théâtre dancer as a model
 
 %% GLO_LES_TROIS_RIRES.0014 %%
 ## Related Entries

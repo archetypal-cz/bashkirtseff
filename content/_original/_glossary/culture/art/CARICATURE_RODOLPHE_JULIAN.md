@@ -42,13 +42,13 @@ Oil on panel, 85,5 × 38 cm — a format more than twice as tall as it is wide, 
 **The finished panel is not described in the diary**, but the diary brackets it closely on both sides, and the two bracketing passages between them explain how such a picture came to exist.
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0008 %%
-The first is **10 November 1877** (¶ 076.0099), five weeks after she entered the atelier: "Ensuite nous avons fait des croquis, un d'eux un peu en caricature a eu du succès, Julian me l'a fait signer et l'a mis dans son album." A caricatural sketch of hers is a hit; Julian makes her *sign* it and files it in his own album. This is the earliest documented drawing of hers that Julian kept — and it establishes that caricature was the register in which he first noticed her.
+The first is **10 November 1877** (¶ 076.0102), five weeks after she entered the atelier: "Ensuite nous avons fait des croquis, un d'eux un peu en caricature a eu du succès, Julian me l'a fait signer et l'a mis dans son album." A caricatural sketch of hers is a hit; Julian makes her *sign* it and files it in his own album. This is the earliest documented drawing of hers that Julian kept — and it establishes that caricature was the register in which he first noticed her.
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0009 %%
 The second is **19 May 1879** (¶ 085.0101). After a two-hour confessional in Julian's cabinet in which he tells her she is "son esclave, sa chose", she answers: "Alors je lui dis que je ferai son portrait." The promise of a portrait of Julian comes straight out of him needling her — which is exactly the affectionate-mocking register a caricature belongs to.
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0010 %%
-Caricature was a constant habit through these years, not an isolated experiment. She posts a caricature of the Gans brothers to them by mail (¶¶ 082.0043–082.DROPPED-0056, 12 August 1878) and finally lets them in to see it (¶¶ 082.0154–082.DROPPED-0124, 21 August); she sketches Schwarz in a notebook the same month (¶ 082.0046); she paints a caricatural watercolour *pochade* of Mme de Fayet singing at a fleeing cupid with Paul de Cassagnac's head on it (¶ 078.0050, 8 February 1878); she caricatures "Popaul" Cassagnac and his brother-in-law with captions (¶ 086.0028, 8 August 1879), and reports "j'ai fait des caricatures et un tas de Brésiliens" (¶ 086.0156, 29 August 1879). As late as March 1883 she is still making *charges à la plume* (¶ 098.0485).
+Caricature was a constant habit through these years, not an isolated experiment. She posts a caricature of the Gans brothers to them by mail (¶¶ 082.0043–082.DROPPED-0056, 12 August 1878) and finally lets them in to see it (¶¶ 082.0154–082.DROPPED-0124, 21 August); she sketches Schwarz in a notebook the same month (¶ 082.0046); she paints a caricatural watercolour *pochade* of Mme de Fayet singing at a fleeing cupid with Paul de Cassagnac's head on it (¶ 078.0088, 8 February 1878); she caricatures "Popaul" Cassagnac and his brother-in-law with captions (¶ 086.0028, 8 August 1879), and reports "j'ai fait des caricatures et un tas de Brésiliens" (¶ 086.0156, 29 August 1879). As late as March 1883 she is still making *charges à la plume* (¶ 098.0485).
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0011 %%
 ## References in Diary
@@ -57,9 +57,9 @@ Caricature was a constant habit through these years, not an isolated experiment.
 No entry describes the finished panel. The documented antecedents are:
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0013 %%
-- **First related mention** — 1877-11-10, ¶ 076.0099: a caricatural croquis of hers succeeds; Julian makes her sign it and keeps it in his album
+- **First related mention** — 1877-11-10, ¶ 076.0102: a caricatural croquis of hers succeeds; Julian makes her sign it and keeps it in his album
 - **1879-05-19, ¶ 085.0101** — she promises Julian his portrait, immediately after he calls her "son esclave, sa chose"
-- The caricature habit: 1878-02-08, ¶ 078.0050 · 1878-08-12, ¶¶ 082.0043–082.DROPPED-0056, 082.0046 · 1878-08-21, ¶¶ 082.0154–082.DROPPED-0124 · 1879-08-08, ¶ 086.0028 · 1879-08-29, ¶ 086.0156 · 1883-03-12, ¶ 098.0485
+- The caricature habit: 1878-02-08, ¶ 078.0088 · 1878-08-12, ¶¶ 082.0043–082.DROPPED-0056, 082.0046 · 1878-08-21, ¶¶ 082.0154–082.DROPPED-0124 · 1879-08-08, ¶ 086.0028 · 1879-08-29, ¶ 086.0156 · 1883-03-12, ¶ 098.0485
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0014 %%
 ## Related Entries
@@ -78,4 +78,4 @@ No entry describes the finished panel. The documented antecedents are:
 - The diary itself, carnets 076, 078, 082, 085, 086, 098
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0018 %%
-%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.13) and the carnets 076–086 mention map. Object data (oil on panel, 85,5 x 38 cm, c. 1878, Drouot 24 April 2025) comes from the Wikimedia Commons file record; no auction-house catalogue entry was consulted directly, and the buyer and present location are unknown. The entry is explicit that no diary passage describes the finished panel — 076.0099 and 085.0101 are presented as antecedents, which is how the mention map itself frames them, not as descriptions of this work. All paragraph IDs verified against content/_original. Image: Commons file at 1458x3446, downscaled to 677x1600 for the site. %%
+%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.13) and the carnets 076–086 mention map. Object data (oil on panel, 85,5 x 38 cm, c. 1878, Drouot 24 April 2025) comes from the Wikimedia Commons file record; no auction-house catalogue entry was consulted directly, and the buyer and present location are unknown. The entry is explicit that no diary passage describes the finished panel — 076.0102 and 085.0101 are presented as antecedents, which is how the mention map itself frames them, not as descriptions of this work. All paragraph IDs verified against content/_original. Image: Commons file at 1458x3446, downscaled to 677x1600 for the site. %%

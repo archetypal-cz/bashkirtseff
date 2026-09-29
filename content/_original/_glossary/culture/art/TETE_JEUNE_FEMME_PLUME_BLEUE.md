@@ -37,7 +37,7 @@ Oil on canvas, 55 × 45 cm: a head of a young woman in a hat trimmed with a blue
 
 %% GLO_TETE_JEUNE_FEMME_PLUME_BLEUE.0008 %%
 %% [#Julian](../../places/schools/JULIAN.md) %%
-**No diary passage can be attributed to this picture, and the attempt to find one is instructive.** Carnets 076–086 (November 1877 – December 1879) were swept for it and contain no mention by title. What they contain in abundance is *têtes* — but these are the weekly concours heads painted from a set model in the atelier, judged and ranked, not autonomous pictures: "On a trouvé du très bon dans ma tête et du pas mal dans l'académie" (¶ 076.0407, 15 December 1877); "Ma tête est mieux que les dernières que j'ai peintes" (¶ 086.0380, 18 October 1879).
+**No diary passage can be attributed to this picture, and the attempt to find one is instructive.** Carnets 076–086 (November 1877 – December 1879) were swept for it and contain no mention by title. What they contain in abundance is *têtes* — but these are the weekly concours heads painted from a set model in the atelier, judged and ranked, not autonomous pictures: "On a trouvé du très bon dans ma tête et du pas mal dans l'académie" (¶ 076.0394, 15 December 1877); "Ma tête est mieux que les dernières que j'ai peintes" (¶ 086.0380, 18 October 1879).
 
 %% GLO_TETE_JEUNE_FEMME_PLUME_BLEUE.0009 %%
 A hat with a blue feather is not atelier costume, which argues that this was a picture of a friend or a paid sitter rather than one of the concours heads — but that is an inference, not evidence. The honest position is that the work is **not attributable from the diary**.
@@ -49,7 +49,7 @@ A hat with a blue feather is not atelier costume, which argues that this was a p
 **No mention found.** The two paragraphs listed below are offered as *context only* — the atelier concours heads of the same period — and are explicitly **not** identifications of this painting:
 
 %% GLO_TETE_JEUNE_FEMME_PLUME_BLEUE.0012 %%
-- 1877-12-15, ¶ 076.0407 — a concours *tête* and *académie* judged at Julian's
+- 1877-12-15, ¶ 076.0394 — a concours *tête* and *académie* judged at Julian's
 - 1879-10-18, ¶ 086.0380 — "Ma tête est mieux que les dernières que j'ai peintes"
 
 %% GLO_TETE_JEUNE_FEMME_PLUME_BLEUE.0013 %%

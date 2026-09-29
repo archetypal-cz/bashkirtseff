@@ -36,7 +36,7 @@ It is also unlike the work she is remembered for. There are no children, no mode
 A broad road runs down and away between buildings dissolved by fog. The palette is almost monochrome — chalk, ochre, grey-green — with everything past the middle distance reduced to a silhouette: a spire, a long low roof, the block of a tenement. In the left foreground a cast-iron street lamp stands against a railing; behind it, on open ground, a row of horses and carts waits, and a few dark figures walk the pavement, one under an umbrella. At the centre, where the road bends, a plume of white steam rises from a single spot of hot orange — the one warm note in the picture. On the right a pavilion-like building with a green roof comes forward out of the haze.
 
 %% GLO_IM_NEBEL.0006 %%
-Fog was a real ambition of hers, not an accident of this one canvas. In October 1883 she writes that she wants «des espaces, des brouillards… un tableau de brumes, des ciels» (101.0487–0488), and the landscape she painted the following winter in the avenue on the Île de la Grande Jatte was expressly «par un temps de brouillard, des feuilles sèches» — a foggy day and dry leaves (see *[Automne](./AUTOMNE.md)*). *Im Nebel* is the earliest surviving statement of that interest.
+Fog was a real ambition of hers, not an accident of this one canvas. In October 1883 she writes that she wants «des espaces, des brouillards… un tableau de brumes, des ciels» (101.0486–0488), and the landscape she painted the following winter in the avenue on the Île de la Grande Jatte was expressly «par un temps de brouillard, des feuilles sèches» — a foggy day and dry leaves (see *[Automne](./AUTOMNE.md)*). *Im Nebel* is the earliest surviving statement of that interest.
 
 %% GLO_IM_NEBEL.0007 %%
 ## Making of the Work
@@ -51,7 +51,7 @@ Its later history is documented. The picture was shown in Vienna in **1910** at 
 ## References in Diary
 
 %% GLO_IM_NEBEL.0011 %%
-No mention of this painting has been found. The related fog ambitions are at 1883-10-02 (101.0487–0488) and, for the Grande-Jatte landscape, 1883-10-28 (102.0029), 1883-11-01 (102.0033) and 1884-03-01 (103.0412 — see *[Automne](./AUTOMNE.md)*).
+No mention of this painting has been found. The related fog ambitions are at 1883-10-02 (101.0486–0488) and, for the Grande-Jatte landscape, 1883-10-28 (102.0030), 1883-11-01 (102.0034) and 1884-03-01 (103.0401 — see *[Automne](./AUTOMNE.md)*).
 
 %% GLO_IM_NEBEL.0012 %%
 ## Related Entries

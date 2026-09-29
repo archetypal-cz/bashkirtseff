@@ -1,0 +1,2554 @@
+{
+ "carnet": "101",
+ "source": "tome16.docx",
+ "drop": [
+  {
+   "id": "101.0058",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0068",
+   "reason": "placeholder «[Note de l'éd. : ici un dessin de Marie dans le journal.]» written at import; not in the printed edition, which reproduces the drawing itself (Mon Journal t.16 p.11). The drawing is now linked in the entry frontmatter (drawings:)"
+  },
+  {
+   "id": "101.0108",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0139",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0160",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0173",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0188",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0194",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0226",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0241",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0268",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0281",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0285",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0303",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "101.0308",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1883-08-08.md",
+   "date": "1883-08-08",
+   "heading": "Mercredi 8 août 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶31, Mon Journal t.16 p.5: the date line «Mercredi 8 août 1883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-08-11.md"
+  },
+  {
+   "file": "1883-08-09.md",
+   "date": "1883-08-09",
+   "heading": "Jeudi 9 août 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶32, Mon Journal t.16 p.5: the date line «Jeudi 9 août 1 883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-08-11.md"
+  },
+  {
+   "file": "1883-08-10.md",
+   "date": "1883-08-10",
+   "heading": "Vendredi 10 août 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶33, Mon Journal t.16 p.5: the date line «Vendredi 10 août 1883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-08-11.md"
+  },
+  {
+   "file": "1883-08-11.md",
+   "date": "1883-08-11",
+   "heading": "Samedi 11 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0001"
+    },
+    {
+     "old": "101.0002"
+    },
+    {
+     "old": "101.0003"
+    },
+    {
+     "old": "101.0004",
+     "set_french": "Mais si je ne sens pas l'expression tragique, quelle est la physiologie qui pourra me la faire sentir !"
+    },
+    {
+     "old": "101.0005"
+    },
+    {
+     "old": "101.0006"
+    },
+    {
+     "old": "101.0007"
+    },
+    {
+     "old": "101.0008"
+    },
+    {
+     "old": "101.0009"
+    },
+    {
+     "old": "101.0010"
+    },
+    {
+     "old": "101.0011"
+    },
+    {
+     "old": "101.0012"
+    },
+    {
+     "old": "101.0013"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-12.md",
+   "date": "1883-08-12",
+   "heading": "Dimanche 12 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0014"
+    },
+    {
+     "old": "101.0015"
+    },
+    {
+     "old": "101.0016"
+    },
+    {
+     "old": "101.0017"
+    },
+    {
+     "old": "101.0018"
+    },
+    {
+     "old": "101.0019"
+    },
+    {
+     "old": "101.0020"
+    },
+    {
+     "old": "101.0021"
+    },
+    {
+     "old": "101.0022"
+    },
+    {
+     "old": "101.0023"
+    },
+    {
+     "old": "101.0024"
+    },
+    {
+     "old": "101.0025"
+    },
+    {
+     "old": "101.0026"
+    },
+    {
+     "old": "101.0027"
+    },
+    {
+     "old": "101.0028"
+    },
+    {
+     "old": "101.0029"
+    },
+    {
+     "old": "101.0030"
+    },
+    {
+     "old": "101.0031"
+    },
+    {
+     "old": "101.0032"
+    },
+    {
+     "old": "101.0033"
+    },
+    {
+     "old": "101.0034"
+    },
+    {
+     "old": "101.0035"
+    },
+    {
+     "old": "101.0036"
+    },
+    {
+     "old": "101.0037"
+    },
+    {
+     "old": "101.0038"
+    },
+    {
+     "old": "101.0039"
+    },
+    {
+     "old": "101.0040"
+    },
+    {
+     "old": "101.0041"
+    },
+    {
+     "old": "101.0042"
+    },
+    {
+     "old": "101.0043"
+    },
+    {
+     "old": "101.0044"
+    },
+    {
+     "old": "101.0045"
+    },
+    {
+     "old": "101.0046"
+    },
+    {
+     "old": "101.0047"
+    },
+    {
+     "old": "101.0048"
+    },
+    {
+     "old": "101.0049"
+    },
+    {
+     "old": "101.0050"
+    },
+    {
+     "old": "101.0051"
+    },
+    {
+     "old": "101.0052"
+    },
+    {
+     "old": "101.0053"
+    },
+    {
+     "old": "101.0054"
+    },
+    {
+     "old": "101.0055"
+    },
+    {
+     "old": "101.0056"
+    },
+    {
+     "old": "101.0057"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-13.md",
+   "date": "1883-08-13",
+   "heading": "Lundi 13 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0059"
+    },
+    {
+     "old": "101.0060"
+    },
+    {
+     "old": "101.0061"
+    },
+    {
+     "old": "101.0062"
+    },
+    {
+     "old": "101.0063"
+    },
+    {
+     "old": "101.0064"
+    },
+    {
+     "old": "101.0065"
+    },
+    {
+     "old": "101.0066"
+    },
+    {
+     "old": "101.0067"
+    },
+    {
+     "old": "101.0069"
+    },
+    {
+     "old": "101.0070"
+    },
+    {
+     "old": "101.0071"
+    },
+    {
+     "old": "101.0072"
+    },
+    {
+     "old": "101.0073"
+    },
+    {
+     "old": "101.0074"
+    },
+    {
+     "old": "101.0075"
+    },
+    {
+     "old": "101.0076"
+    },
+    {
+     "old": "101.0077"
+    },
+    {
+     "old": "101.0078"
+    },
+    {
+     "old": "101.0079"
+    },
+    {
+     "old": "101.0080"
+    },
+    {
+     "old": "101.0081"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-14.md",
+   "date": "1883-08-14",
+   "heading": "Mardi 14 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0082"
+    },
+    {
+     "old": "101.0083"
+    },
+    {
+     "old": "101.0084"
+    },
+    {
+     "old": "101.0085"
+    },
+    {
+     "old": "101.0086"
+    },
+    {
+     "old": "101.0087"
+    },
+    {
+     "old": "101.0088"
+    },
+    {
+     "old": "101.0089"
+    },
+    {
+     "old": "101.0090"
+    },
+    {
+     "old": "101.0091"
+    },
+    {
+     "old": "101.0092"
+    },
+    {
+     "old": "101.0093"
+    },
+    {
+     "old": "101.0094"
+    },
+    {
+     "old": "101.0095"
+    },
+    {
+     "old": "101.0096"
+    },
+    {
+     "old": "101.0097"
+    },
+    {
+     "old": "101.0098"
+    },
+    {
+     "old": "101.0099"
+    },
+    {
+     "old": "101.0100"
+    },
+    {
+     "old": "101.0101"
+    },
+    {
+     "old": "101.0102"
+    },
+    {
+     "old": "101.0103"
+    },
+    {
+     "old": "101.0104"
+    },
+    {
+     "old": "101.0105",
+     "kind": "rayé"
+    },
+    {
+     "old": "101.0106"
+    },
+    {
+     "old": "101.0107"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-15.md",
+   "date": "1883-08-15",
+   "heading": "Mercredi 15 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0109"
+    },
+    {
+     "old": "101.0110"
+    },
+    {
+     "old": "101.0111"
+    },
+    {
+     "old": "101.0112"
+    },
+    {
+     "old": "101.0113"
+    },
+    {
+     "old": "101.0114"
+    },
+    {
+     "old": "101.0115"
+    },
+    {
+     "old": "101.0116"
+    },
+    {
+     "old": "101.0117"
+    },
+    {
+     "old": "101.0118"
+    },
+    {
+     "old": "101.0119"
+    },
+    {
+     "old": "101.0120"
+    },
+    {
+     "old": "101.0121"
+    },
+    {
+     "old": "101.0122"
+    },
+    {
+     "old": "101.0123"
+    },
+    {
+     "old": "101.0124"
+    },
+    {
+     "old": "101.0125"
+    },
+    {
+     "old": "101.0126"
+    },
+    {
+     "old": "101.0127"
+    },
+    {
+     "old": "101.0128"
+    },
+    {
+     "old": "101.0129"
+    },
+    {
+     "old": "101.0130"
+    },
+    {
+     "old": "101.0131"
+    },
+    {
+     "old": "101.0132"
+    },
+    {
+     "old": "101.0133"
+    },
+    {
+     "old": "101.0134"
+    },
+    {
+     "old": "101.0135",
+     "set_french": "Pourtant voyons... Vous avez beau dire, il y a des faits indéniables: *j'en ai envie* et je ne l'ai pas. J'éprouve un échec devant mon propre orgueil et c'est une chose si dure... Si encore j'avais pour consoler mon amour-propre... Mais à Paris une jeune fille ne se fait pas aimer, on épouse et il y a la dot ! Du reste je ne vois personne. J'éprouve le besoin de me rappeler un petit Espagnol de l'ambassade qui chez Mme Kanchine a été très assidu et deux ou trois ou quatre autres qui l'ont aussi été aux pauvres deux ou trois bals où j'ai été. Ça m'ennuie tout ça, je voudrais aller en Italie où les gens se promènent sous les fenêtres... Voyez-vous Bastien se promenant dans la rue Ampère... S'il était amoureux vraiment... Je crois que j'oublierais bien des chagrins..."
+    },
+    {
+     "old": "101.0136"
+    },
+    {
+     "old": "101.0137"
+    },
+    {
+     "old": "101.0138"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-16.md",
+   "date": "1883-08-16",
+   "heading": "Jeudi 16 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0140"
+    },
+    {
+     "old": "101.0141"
+    },
+    {
+     "old": "101.0142"
+    },
+    {
+     "old": "101.0143"
+    },
+    {
+     "old": "101.0144"
+    },
+    {
+     "old": "101.0145"
+    },
+    {
+     "old": "101.0146"
+    },
+    {
+     "old": "101.0147"
+    },
+    {
+     "old": "101.0148"
+    },
+    {
+     "old": "101.0149"
+    },
+    {
+     "old": "101.0150"
+    },
+    {
+     "old": "101.0151"
+    },
+    {
+     "old": "101.0152"
+    },
+    {
+     "old": "101.0153"
+    },
+    {
+     "old": "101.0154"
+    },
+    {
+     "old": "101.0155"
+    },
+    {
+     "old": "101.0156"
+    },
+    {
+     "old": "101.0157"
+    },
+    {
+     "old": "101.0158"
+    },
+    {
+     "old": "101.0159"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-17.md",
+   "date": "1883-08-17",
+   "heading": "Vendredi 17 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0161"
+    },
+    {
+     "old": "101.0162"
+    },
+    {
+     "old": "101.0163"
+    },
+    {
+     "old": "101.0164"
+    },
+    {
+     "old": "101.0165"
+    },
+    {
+     "old": "101.0166"
+    },
+    {
+     "old": "101.0167"
+    },
+    {
+     "old": "101.0168"
+    },
+    {
+     "old": "101.0169"
+    },
+    {
+     "old": "101.0170"
+    },
+    {
+     "old": "101.0171"
+    },
+    {
+     "old": "101.0172"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-18.md",
+   "date": "1883-08-18",
+   "heading": "Samedi 18 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0174"
+    },
+    {
+     "old": "101.0175"
+    },
+    {
+     "old": "101.0176"
+    },
+    {
+     "old": "101.0177"
+    },
+    {
+     "old": "101.0178"
+    },
+    {
+     "old": "101.0179"
+    },
+    {
+     "old": "101.0180"
+    },
+    {
+     "old": "101.0181"
+    },
+    {
+     "old": "101.0182"
+    },
+    {
+     "old": "101.0183"
+    },
+    {
+     "old": "101.0184"
+    },
+    {
+     "old": "101.0185"
+    },
+    {
+     "old": "101.0186"
+    },
+    {
+     "old": "101.0187"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-19.md",
+   "date": "1883-08-19",
+   "heading": "Dimanche 19 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0189"
+    },
+    {
+     "old": "101.0190"
+    },
+    {
+     "old": "101.0191"
+    },
+    {
+     "old": "101.0192"
+    },
+    {
+     "old": "101.0193"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-20.md",
+   "date": "1883-08-20",
+   "heading": "Lundi 20 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0195"
+    },
+    {
+     "old": "101.0196"
+    },
+    {
+     "old": "101.0197",
+     "set_french": "Où voulez-vous qu'il trouve une autre excentrique pour un mariage pareil ?"
+    },
+    {
+     "old": "101.0198"
+    },
+    {
+     "old": "101.0199"
+    },
+    {
+     "old": "101.0200"
+    },
+    {
+     "old": "101.0201"
+    },
+    {
+     "old": "101.0202"
+    },
+    {
+     "old": "101.0203"
+    },
+    {
+     "old": "101.0204"
+    },
+    {
+     "old": "101.0205"
+    },
+    {
+     "old": "101.0206"
+    },
+    {
+     "old": "101.0207"
+    },
+    {
+     "old": "101.0208"
+    },
+    {
+     "old": "101.0209"
+    },
+    {
+     "old": "101.0210"
+    },
+    {
+     "old": "101.0211"
+    },
+    {
+     "old": "101.0212"
+    },
+    {
+     "old": "101.0213"
+    },
+    {
+     "old": "101.0214"
+    },
+    {
+     "old": "101.0215"
+    },
+    {
+     "old": "101.0216"
+    },
+    {
+     "old": "101.0217"
+    },
+    {
+     "old": "101.0218"
+    },
+    {
+     "old": "101.0219"
+    },
+    {
+     "old": "101.0220"
+    },
+    {
+     "old": "101.0221"
+    },
+    {
+     "old": "101.0222"
+    },
+    {
+     "old": "101.0223"
+    },
+    {
+     "old": "101.0224"
+    },
+    {
+     "old": "101.0225"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-21.md",
+   "date": "1883-08-21",
+   "heading": "Mardi 21 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0227"
+    },
+    {
+     "old": "101.0228"
+    },
+    {
+     "old": "101.0229"
+    },
+    {
+     "old": "101.0230"
+    },
+    {
+     "old": "101.0231"
+    },
+    {
+     "old": "101.0232"
+    },
+    {
+     "old": "101.0233"
+    },
+    {
+     "old": "101.0234"
+    },
+    {
+     "old": "101.0235"
+    },
+    {
+     "old": "101.0236"
+    },
+    {
+     "old": "101.0237"
+    },
+    {
+     "old": "101.0238"
+    },
+    {
+     "old": "101.0239"
+    },
+    {
+     "old": "101.0240"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-22.md",
+   "date": "1883-08-22",
+   "heading": "Mercredi 22 août 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶281, Mon Journal t.16 p.23: the date line «Merecredi 22 août 1883» has no text under it (2026-09-28 rebuild). The printed page (p.23) reads «Merecredi»; the heading is normalised."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-08-21.md"
+  },
+  {
+   "file": "1883-08-23.md",
+   "date": "1883-08-23",
+   "heading": "Jeudi 23 août 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶282, Mon Journal t.16 p.23: the date line «Jeudi 23 août 1 883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-08-21.md"
+  },
+  {
+   "file": "1883-08-24.md",
+   "date": "1883-08-24",
+   "heading": "Vendredi 24 août 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶283, Mon Journal t.16 p.23: the date line «Vendredi 24 août 1883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-08-21.md"
+  },
+  {
+   "file": "1883-08-25.md",
+   "date": "1883-08-25",
+   "heading": "Samedi 25 août 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶284, Mon Journal t.16 p.23: the date line «Samedi 25 août 1883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-08-21.md"
+  },
+  {
+   "file": "1883-08-26.md",
+   "date": "1883-08-26",
+   "heading": "Dimanche 26 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0242"
+    },
+    {
+     "old": "101.0243"
+    },
+    {
+     "old": "101.0244"
+    },
+    {
+     "old": "101.0245"
+    },
+    {
+     "old": "101.0246"
+    },
+    {
+     "old": "101.0247"
+    },
+    {
+     "old": "101.0248"
+    },
+    {
+     "old": "101.0249"
+    },
+    {
+     "old": "101.0250"
+    },
+    {
+     "old": "101.0251"
+    },
+    {
+     "old": "101.0252"
+    },
+    {
+     "old": "101.0253"
+    },
+    {
+     "old": "101.0254"
+    },
+    {
+     "old": "101.0255"
+    },
+    {
+     "old": "101.0256"
+    },
+    {
+     "old": "101.0257",
+     "kind": "editorial"
+    },
+    {
+     "old": "101.0258"
+    },
+    {
+     "old": "101.0259"
+    },
+    {
+     "old": "101.0260"
+    },
+    {
+     "old": "101.0261"
+    },
+    {
+     "old": "101.0262"
+    },
+    {
+     "old": "101.0263"
+    },
+    {
+     "old": "101.0264"
+    },
+    {
+     "old": "101.0265"
+    },
+    {
+     "old": "101.0266"
+    },
+    {
+     "old": "101.0267"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-27.md",
+   "date": "1883-08-27",
+   "heading": "Lundi 27 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0282"
+    },
+    {
+     "old": "101.0283"
+    },
+    {
+     "old": "101.0284"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-28.md",
+   "date": "1883-08-28",
+   "heading": "Mardi 26 août 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶316, Mon Journal t.16 p.26: the date line «Mardi 26 août 1 883» has no text under it (2026-09-28 rebuild). It follows «Lundi 27 août 1883»: Marie wrote 26 for Tuesday 28 August 1883 (the weekday is right)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-08-27.md"
+  },
+  {
+   "file": "1883-08-29.md",
+   "date": "1883-08-29",
+   "paragraphs": [
+    {
+     "old": "101.0269",
+     "set_french": "Je suis très jolie ce soir. Et quand il y a quelqu'un à qui je veux plaire je suis laide."
+    },
+    {
+     "old": "101.0270"
+    },
+    {
+     "old": "101.0271"
+    },
+    {
+     "old": "101.0272"
+    },
+    {
+     "old": "101.0273"
+    },
+    {
+     "old": "101.0274"
+    },
+    {
+     "old": "101.0275"
+    },
+    {
+     "old": "101.0276"
+    },
+    {
+     "old": "101.0277"
+    },
+    {
+     "old": "101.0278"
+    },
+    {
+     "old": "101.0279"
+    },
+    {
+     "old": "101.0280"
+    }
+   ],
+   "heading": "Mercredi 27 août 1883",
+   "frontmatter_from": "1883-08-27-evening.md",
+   "redirect_from": [
+    "1883-08-27-evening.md"
+   ]
+  },
+  {
+   "file": "1883-08-30.md",
+   "date": "1883-08-30",
+   "heading": "Jeudi 30 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0286"
+    },
+    {
+     "old": "101.0287"
+    },
+    {
+     "old": "101.0288"
+    },
+    {
+     "old": "101.0289"
+    },
+    {
+     "old": "101.0290"
+    },
+    {
+     "old": "101.0291"
+    },
+    {
+     "old": "101.0292"
+    },
+    {
+     "old": "101.0293"
+    },
+    {
+     "old": "101.0294"
+    },
+    {
+     "old": "101.0295"
+    },
+    {
+     "old": "101.0296"
+    },
+    {
+     "old": "101.0297"
+    },
+    {
+     "old": "101.0298"
+    },
+    {
+     "old": "101.0299"
+    },
+    {
+     "old": "101.0300"
+    },
+    {
+     "old": "101.0301"
+    },
+    {
+     "old": "101.0302"
+    }
+   ]
+  },
+  {
+   "file": "1883-08-31.md",
+   "date": "1883-08-31",
+   "heading": "Vendredi 31 août 1883",
+   "paragraphs": [
+    {
+     "old": "101.0304"
+    },
+    {
+     "old": "101.0305"
+    },
+    {
+     "old": "101.0306"
+    },
+    {
+     "old": "101.0307"
+    },
+    {
+     "new": {
+      "french": "Il y a des moments ou sans qu'on sache pourquoi tout paraît rose, on rirait au nez d'une mauvaise nouvelle et l'on croit que tout va réussir.",
+      "rsr": "Restored from tome16.docx ¶353, Mon Journal t.16 p.28 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Heureuse nature va ! Faut-il qu'on te tracasse pour que tu crie ! L'absence de calamités serait le bonheur avec mon imagination.",
+      "rsr": "Restored from tome16.docx ¶354, Mon Journal t.16 pp.28–29 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1883-09-01.md",
+   "date": "1883-09-01",
+   "heading": "Samedi 1er septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0309"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-02.md",
+   "date": "1883-09-02",
+   "heading": "Dimanche 2 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0310"
+    },
+    {
+     "old": "101.0311"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-03.md",
+   "date": "1883-09-03",
+   "heading": "Lundi 3 septembre 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶360, Mon Journal t.16 p.29: the date line «Lundi 3 septembre 1883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-09-02.md"
+  },
+  {
+   "file": "1883-09-04.md",
+   "date": "1883-09-04",
+   "heading": "Mardi 4 septembre 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶361, Mon Journal t.16 p.29: the date line «Mardi 4 septembre 1883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-09-02.md"
+  },
+  {
+   "file": "1883-09-05.md",
+   "date": "1883-09-05",
+   "heading": "Mercredi 5 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0312"
+    },
+    {
+     "old": "101.0313"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-06.md",
+   "date": "1883-09-06",
+   "heading": "Jeudi 6 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0314"
+    },
+    {
+     "old": "101.0315"
+    },
+    {
+     "old": "101.0316"
+    },
+    {
+     "old": "101.0317"
+    },
+    {
+     "old": "101.0318"
+    },
+    {
+     "old": "101.0319"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-07.md",
+   "date": "1883-09-07",
+   "heading": "Vendredi 7 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0320"
+    },
+    {
+     "old": "101.0321"
+    },
+    {
+     "old": "101.0322"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-08.md",
+   "date": "1883-09-08",
+   "heading": "Samedi 8 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0323"
+    },
+    {
+     "old": "101.0324"
+    },
+    {
+     "old": "101.0325"
+    },
+    {
+     "old": "101.0326"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-09.md",
+   "date": "1883-09-09",
+   "heading": "Dimanche 9 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0327"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-10.md",
+   "date": "1883-09-10",
+   "heading": "Lundi 10 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0328"
+    },
+    {
+     "old": "101.0329"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-11.md",
+   "date": "1883-09-11",
+   "heading": "Mardi 11 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0330"
+    },
+    {
+     "old": "101.0331"
+    },
+    {
+     "old": "101.0332"
+    },
+    {
+     "old": "101.0333"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-12.md",
+   "date": "1883-09-12",
+   "heading": "Mercredi 12 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0334"
+    },
+    {
+     "old": "101.0335"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-13.md",
+   "date": "1883-09-13",
+   "heading": "Jeudi 13 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0336"
+    },
+    {
+     "old": "101.0337"
+    },
+    {
+     "old": "101.0338",
+     "kind": "rayé"
+    },
+    {
+     "old": "101.0339"
+    },
+    {
+     "old": "101.0340"
+    },
+    {
+     "old": "101.0341"
+    },
+    {
+     "old": "101.0342"
+    },
+    {
+     "old": "101.0343"
+    },
+    {
+     "old": "101.0344"
+    },
+    {
+     "old": "101.0345"
+    },
+    {
+     "old": "101.0346"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-14.md",
+   "date": "1883-09-14",
+   "heading": "Vendredi 14 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0347"
+    },
+    {
+     "old": "101.0348"
+    },
+    {
+     "old": "101.0349"
+    },
+    {
+     "old": "101.0350"
+    },
+    {
+     "old": "101.0351"
+    },
+    {
+     "old": "101.0352"
+    },
+    {
+     "old": "101.0353"
+    },
+    {
+     "old": "101.0354"
+    },
+    {
+     "old": "101.0355"
+    },
+    {
+     "old": "101.0356"
+    },
+    {
+     "old": "101.0357"
+    },
+    {
+     "old": "101.0358"
+    },
+    {
+     "old": "101.0359"
+    },
+    {
+     "old": "101.0360"
+    },
+    {
+     "old": "101.0361"
+    },
+    {
+     "old": "101.0362"
+    },
+    {
+     "old": "101.0363"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-15.md",
+   "date": "1883-09-15",
+   "heading": "Samedi 15 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0364"
+    },
+    {
+     "old": "101.0365"
+    },
+    {
+     "old": "101.0366"
+    },
+    {
+     "old": "101.0367"
+    },
+    {
+     "old": "101.0368"
+    },
+    {
+     "old": "101.0369"
+    },
+    {
+     "old": "101.0370"
+    },
+    {
+     "old": "101.0371"
+    },
+    {
+     "old": "101.0372"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-16.md",
+   "date": "1883-09-16",
+   "paragraphs": [
+    {
+     "old": "101.0373"
+    },
+    {
+     "old": "101.0374"
+    },
+    {
+     "old": "101.0375"
+    },
+    {
+     "old": "101.0376"
+    },
+    {
+     "old": "101.0377"
+    },
+    {
+     "old": "101.0378"
+    },
+    {
+     "old": "101.0379"
+    },
+    {
+     "old": "101.0380"
+    }
+   ],
+   "heading": "Dimanche 16 septembre 1883",
+   "frontmatter_from": "1883-09-16.md"
+  },
+  {
+   "file": "1883-09-17.md",
+   "date": "1883-09-17",
+   "heading": "Lundi 17 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0381"
+    },
+    {
+     "old": "101.0382"
+    },
+    {
+     "old": "101.0383"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-18.md",
+   "date": "1883-09-18",
+   "heading": "Mardi 18 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0384"
+    },
+    {
+     "old": "101.0385"
+    },
+    {
+     "old": "101.0386"
+    },
+    {
+     "old": "101.0387"
+    },
+    {
+     "old": "101.0388"
+    },
+    {
+     "old": "101.0389"
+    },
+    {
+     "old": "101.0390"
+    },
+    {
+     "old": "101.0391"
+    },
+    {
+     "old": "101.0392"
+    },
+    {
+     "old": "101.0393"
+    },
+    {
+     "old": "101.0394"
+    },
+    {
+     "old": "101.0395"
+    },
+    {
+     "old": "101.0396"
+    },
+    {
+     "old": "101.0397"
+    },
+    {
+     "old": "101.0398"
+    },
+    {
+     "old": "101.0399"
+    },
+    {
+     "old": "101.0400"
+    },
+    {
+     "old": "101.0401"
+    },
+    {
+     "old": "101.0402"
+    },
+    {
+     "old": "101.0403"
+    },
+    {
+     "old": "101.0404"
+    },
+    {
+     "old": "101.0405"
+    },
+    {
+     "old": "101.0406"
+    },
+    {
+     "old": "101.0407"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-19.md",
+   "date": "1883-09-19",
+   "heading": "Mercredi 19 septembre 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶474, Mon Journal t.16 p.38: the date line «Mercredi 19 septembre 1883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-09-18.md"
+  },
+  {
+   "file": "1883-09-20.md",
+   "date": "1883-09-20",
+   "heading": "Jeudi 20 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0408"
+    },
+    {
+     "old": "101.0409"
+    },
+    {
+     "old": "101.0410"
+    },
+    {
+     "old": "101.0411"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-21.md",
+   "date": "1883-09-21",
+   "heading": "Vendredi 21 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0412"
+    },
+    {
+     "old": "101.0413"
+    },
+    {
+     "old": "101.0414"
+    },
+    {
+     "old": "101.0415"
+    },
+    {
+     "old": "101.0416"
+    },
+    {
+     "old": "101.0417"
+    },
+    {
+     "old": "101.0418"
+    },
+    {
+     "old": "101.0419"
+    },
+    {
+     "old": "101.0420"
+    },
+    {
+     "old": "101.0421"
+    },
+    {
+     "old": "101.0422"
+    },
+    {
+     "old": "101.0423"
+    },
+    {
+     "old": "101.0424"
+    },
+    {
+     "old": "101.0425"
+    },
+    {
+     "old": "101.0426"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-22.md",
+   "date": "1883-09-22",
+   "heading": "Samedi 22 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0427"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-23.md",
+   "date": "1883-09-23",
+   "heading": "Dimanche 23 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0428"
+    },
+    {
+     "old": "101.0429"
+    },
+    {
+     "old": "101.0430"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-24.md",
+   "date": "1883-09-24",
+   "heading": "Lundi 24 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0431"
+    },
+    {
+     "old": "101.0432"
+    },
+    {
+     "old": "101.0433"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-25.md",
+   "date": "1883-09-25",
+   "heading": "Mardi 25 septembre 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶507, Mon Journal t.16 p.40: the date line «Mardi 25 septembre 1883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-09-24.md"
+  },
+  {
+   "file": "1883-09-26.md",
+   "date": "1883-09-26",
+   "heading": "Mercredi 26 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0434"
+    },
+    {
+     "old": "101.0435"
+    },
+    {
+     "old": "101.0436"
+    },
+    {
+     "old": "101.0437"
+    },
+    {
+     "old": "101.0438"
+    },
+    {
+     "old": "101.0439"
+    },
+    {
+     "old": "101.0440"
+    },
+    {
+     "old": "101.0441"
+    },
+    {
+     "old": "101.0442"
+    },
+    {
+     "old": "101.0443"
+    },
+    {
+     "old": "101.0444"
+    },
+    {
+     "old": "101.0445"
+    },
+    {
+     "old": "101.0446"
+    },
+    {
+     "old": "101.0447"
+    },
+    {
+     "old": "101.0448"
+    },
+    {
+     "old": "101.0449"
+    },
+    {
+     "old": "101.0450"
+    },
+    {
+     "old": "101.0451"
+    },
+    {
+     "old": "101.0452"
+    },
+    {
+     "old": "101.0453"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-27.md",
+   "date": "1883-09-27",
+   "heading": "Jeudi 27 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0454"
+    },
+    {
+     "old": "101.0455"
+    },
+    {
+     "old": "101.0456"
+    },
+    {
+     "old": "101.0457"
+    },
+    {
+     "old": "101.0458"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-28.md",
+   "date": "1883-09-28",
+   "heading": "Vendredi 28 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0459"
+    },
+    {
+     "old": "101.0460"
+    },
+    {
+     "old": "101.0461"
+    },
+    {
+     "old": "101.0462"
+    },
+    {
+     "old": "101.0463"
+    },
+    {
+     "old": "101.0464"
+    },
+    {
+     "old": "101.0465"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-29.md",
+   "date": "1883-09-29",
+   "heading": "Samedi 29 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0466"
+    }
+   ]
+  },
+  {
+   "file": "1883-09-30.md",
+   "date": "1883-09-30",
+   "heading": "Dimanche 30 septembre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0467"
+    },
+    {
+     "old": "101.0468"
+    },
+    {
+     "old": "101.0469"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-01.md",
+   "date": "1883-10-01",
+   "heading": "Lundi 1er octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0470"
+    },
+    {
+     "old": "101.0471"
+    },
+    {
+     "old": "101.0472"
+    },
+    {
+     "old": "101.0473"
+    },
+    {
+     "old": "101.0474"
+    },
+    {
+     "old": "101.0475"
+    },
+    {
+     "old": "101.0476"
+    },
+    {
+     "old": "101.0477"
+    },
+    {
+     "old": "101.0478"
+    },
+    {
+     "old": "101.0479"
+    },
+    {
+     "old": "101.0480"
+    },
+    {
+     "old": "101.0481"
+    },
+    {
+     "old": "101.0482"
+    },
+    {
+     "old": "101.0483"
+    },
+    {
+     "old": "101.0484"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-02.md",
+   "date": "1883-10-02",
+   "heading": "Mardi 2 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0485"
+    },
+    {
+     "old": "101.0486"
+    },
+    {
+     "old": "101.0487"
+    },
+    {
+     "old": "101.0488"
+    },
+    {
+     "old": "101.0489"
+    },
+    {
+     "old": "101.0490"
+    },
+    {
+     "old": "101.0491"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-03.md",
+   "date": "1883-10-03",
+   "heading": "Mercredi 3 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0492"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-04.md",
+   "date": "1883-10-04",
+   "heading": "Jeudi 4 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0493"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-05.md",
+   "date": "1883-10-05",
+   "heading": "Vendredi 5 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0494"
+    },
+    {
+     "old": "101.0495"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-06.md",
+   "date": "1883-10-06",
+   "heading": "Samedi 6 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0496"
+    },
+    {
+     "old": "101.0497"
+    },
+    {
+     "old": "101.0498"
+    },
+    {
+     "old": "101.0499"
+    },
+    {
+     "old": "101.0500"
+    },
+    {
+     "old": "101.0501"
+    },
+    {
+     "old": "101.0502"
+    },
+    {
+     "old": "101.0503"
+    },
+    {
+     "old": "101.0504"
+    },
+    {
+     "old": "101.0505"
+    },
+    {
+     "old": "101.0506"
+    },
+    {
+     "old": "101.0507"
+    },
+    {
+     "old": "101.0508"
+    },
+    {
+     "old": "101.0509"
+    },
+    {
+     "old": "101.0510"
+    },
+    {
+     "old": "101.0511"
+    },
+    {
+     "old": "101.0512"
+    },
+    {
+     "old": "101.0513"
+    },
+    {
+     "old": "101.0514"
+    },
+    {
+     "old": "101.0515"
+    },
+    {
+     "old": "101.0516"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-07.md",
+   "date": "1883-10-07",
+   "heading": "Dimanche 7 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0517"
+    },
+    {
+     "old": "101.0518"
+    },
+    {
+     "old": "101.0519"
+    },
+    {
+     "old": "101.0520"
+    },
+    {
+     "old": "101.0521"
+    },
+    {
+     "old": "101.0522"
+    },
+    {
+     "old": "101.0523"
+    },
+    {
+     "old": "101.0524"
+    },
+    {
+     "new": {
+      "french": "Ça... enfin. S'il est vraiment incomplet, ce qui me paraît très probable, et s'il devenait homme formé et posé, avec son nom...",
+      "rsr": "Restored from tome16.docx ¶619, Mon Journal t.16 p.48 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Il a été toujours élevé, artificiellement, il est né difforme, on l'a redressé jusqu'à un certain point; il lui en reste des épaules étroites en porte-manteau, des jambes trop grosses, des pieds et des mains disloqués, enfin il ne tient pas ensemble, mais vu la tenue des jeunes gens d'aujourd'hui il peut passer, surtout grâce à une jolie tête régulière dans le style des images byzantines.",
+      "rsr": "Restored from tome16.docx ¶620, Mon Journal t.16 pp.48–49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "En somme il est grand et n'est que mal fait.",
+      "rsr": "Restored from tome16.docx ¶621, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Seulement il n'a pas de tenue, il déblatère, ment... bavarde.",
+      "rsr": "Restored from tome16.docx ¶622, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Si Bastien m'aimait j'aurais épousé Saint-Amand. Et pas lui ?",
+      "rsr": "Restored from tome16.docx ¶623, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non, d'abord depuis mon malheur je ne vois pas de mariage ordinaire possible.",
+      "rsr": "Restored from tome16.docx ¶624, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Un Saint-Amand ne me froisserait jamais et s'il a cette intention ça ne m'atteindra pas.",
+      "rsr": "Restored from tome16.docx ¶625, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais toujours vivre avec un homme aimé... Et l'amour passe et il reste quoi ? Non, décidément je trouve cet arrangement très bien. Grâce à ce quasi-mariage la possibilité d'aimer librement et de ne pas déchoir à ses yeux surtout. Les femmes trompent leurs maris et ne sont pas déchues aux yeux du monde... Je le sais, mais moi je ne pourrai jamais tromper un vrai mari, jamais. Et je ne peux pas me marier par amour. Que reste-t-il ? Saint- Amand ou Bojidar si... Mais Bojidar serait embêtant et criard et volontaire... Mais il y a un grand avantage, personne ne le sait...",
+      "rsr": "Restored from tome16.docx ¶626, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais ce serait vraiment une belle existence... C'est comme si on était veuve.",
+      "rsr": "Restored from tome16.docx ¶627, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais Bastien n'est pas amoureux de moi. Il ne pense même pas à moi, pas le moins du monde...",
+      "rsr": "Restored from tome16.docx ¶628, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Le roman de Tourguenieff me rend sentimentale et il me semble que je suis un peu préoccupée de ce petit peintre...",
+      "rsr": "Restored from tome16.docx ¶629, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ah ! C'est dommage. Il ne s'occupe pas de moi. Et sa cuisinière de frère même...",
+      "rsr": "Restored from tome16.docx ¶630, Mon Journal t.16 p.49 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1883-10-08.md",
+   "date": "1883-10-08",
+   "heading": "Lundi 8 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0525"
+    },
+    {
+     "old": "101.0526"
+    },
+    {
+     "old": "101.0527"
+    },
+    {
+     "old": "101.0528"
+    },
+    {
+     "old": "101.0529"
+    },
+    {
+     "old": "101.0530"
+    },
+    {
+     "old": "101.0531"
+    },
+    {
+     "old": "101.0532"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-09.md",
+   "date": "1883-10-09",
+   "heading": "Mardi 9 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0533"
+    },
+    {
+     "old": "101.0534"
+    },
+    {
+     "old": "101.0535"
+    },
+    {
+     "old": "101.0536"
+    },
+    {
+     "old": "101.0537"
+    },
+    {
+     "old": "101.0538"
+    },
+    {
+     "old": "101.0539"
+    },
+    {
+     "old": "101.0540"
+    },
+    {
+     "old": "101.0541"
+    },
+    {
+     "old": "101.0542"
+    },
+    {
+     "old": "101.0543"
+    },
+    {
+     "old": "101.0544"
+    },
+    {
+     "old": "101.0545"
+    },
+    {
+     "old": "101.0546"
+    },
+    {
+     "old": "101.0547"
+    },
+    {
+     "old": "101.0548"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-10.md",
+   "date": "1883-10-10",
+   "heading": "Mercredi 10 octobre 1883",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome16.docx ¶658, Mon Journal t.16 p.51: the date line «Mercredi 10 octobre 1883» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1883-10-09.md"
+  },
+  {
+   "file": "1883-10-11.md",
+   "date": "1883-10-11",
+   "heading": "Jeudi 11 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0549"
+    },
+    {
+     "old": "101.0550",
+     "set_french": "Au lieu d'une [Rayé: cigarette Bojidar] tiendra entre les doigts une branche de capucines qu'il aura arrachée du balcon. Il ne fume pas et cette fleur en complète l'originalité et [n'est pas ridicule]."
+    },
+    {
+     "old": "101.0551"
+    },
+    {
+     "old": "101.0552"
+    },
+    {
+     "old": "101.0553"
+    },
+    {
+     "old": "101.0554"
+    },
+    {
+     "old": "101.0555"
+    },
+    {
+     "old": "101.0556"
+    },
+    {
+     "old": "101.0557"
+    },
+    {
+     "old": "101.0558"
+    },
+    {
+     "old": "101.0559"
+    },
+    {
+     "old": "101.0560"
+    },
+    {
+     "old": "101.0561"
+    },
+    {
+     "old": "101.0562"
+    },
+    {
+     "old": "101.0563"
+    },
+    {
+     "old": "101.0564"
+    },
+    {
+     "old": "101.0565"
+    },
+    {
+     "old": "101.0566"
+    },
+    {
+     "old": "101.0567"
+    },
+    {
+     "old": "101.0568"
+    },
+    {
+     "old": "101.0569"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-12.md",
+   "date": "1883-10-12",
+   "heading": "Vendredi 12 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0570"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-13.md",
+   "date": "1883-10-13",
+   "heading": "Samedi 13 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0571"
+    },
+    {
+     "old": "101.0572"
+    },
+    {
+     "old": "101.0573"
+    },
+    {
+     "old": "101.0574"
+    },
+    {
+     "old": "101.0575"
+    },
+    {
+     "old": "101.0576"
+    },
+    {
+     "old": "101.0577"
+    },
+    {
+     "old": "101.0578"
+    },
+    {
+     "old": "101.0579"
+    },
+    {
+     "old": "101.0580"
+    },
+    {
+     "old": "101.0581"
+    },
+    {
+     "old": "101.0582"
+    },
+    {
+     "old": "101.0583"
+    },
+    {
+     "old": "101.0584"
+    },
+    {
+     "old": "101.0585"
+    },
+    {
+     "old": "101.0586"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-14.md",
+   "date": "1883-10-14",
+   "heading": "Dimanche 14 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0587"
+    },
+    {
+     "old": "101.0588"
+    },
+    {
+     "old": "101.0589"
+    },
+    {
+     "old": "101.0590"
+    },
+    {
+     "old": "101.0591"
+    },
+    {
+     "old": "101.0592"
+    },
+    {
+     "old": "101.0593"
+    },
+    {
+     "old": "101.0594"
+    },
+    {
+     "old": "101.0595"
+    },
+    {
+     "old": "101.0596"
+    },
+    {
+     "old": "101.0597"
+    },
+    {
+     "old": "101.0598"
+    },
+    {
+     "old": "101.0599"
+    },
+    {
+     "old": "101.0600"
+    },
+    {
+     "old": "101.0601"
+    }
+   ]
+  },
+  {
+   "file": "1883-10-15.md",
+   "date": "1883-10-15",
+   "heading": "Lundi 15 octobre 1883",
+   "paragraphs": [
+    {
+     "old": "101.0602"
+    },
+    {
+     "old": "101.0603"
+    },
+    {
+     "old": "101.0604"
+    },
+    {
+     "old": "101.0605"
+    },
+    {
+     "old": "101.0606"
+    },
+    {
+     "old": "101.0607"
+    },
+    {
+     "old": "101.0608"
+    },
+    {
+     "old": "101.0609"
+    },
+    {
+     "old": "101.0610"
+    },
+    {
+     "old": "101.0611"
+    },
+    {
+     "old": "101.0612"
+    },
+    {
+     "old": "101.0613"
+    },
+    {
+     "old": "101.0614"
+    },
+    {
+     "old": "101.0615"
+    },
+    {
+     "old": "101.0616"
+    },
+    {
+     "old": "101.0617"
+    },
+    {
+     "old": "101.0618"
+    },
+    {
+     "new": {
+      "french": "Non, voyez dans le cahier suivant.",
+      "rsr": "Restored from tome16.docx ¶737, Mon Journal t.16 p.58 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  }
+ ]
+}

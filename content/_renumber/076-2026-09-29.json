@@ -1,0 +1,3315 @@
+{
+  "carnet": "076",
+  "date": "2026-09-29",
+  "plan_path": "../rebuild-state/plan-tome1116/final11/plan-076.json",
+  "plan_source": "tome11.docx",
+  "run_carnets": [
+    "075",
+    "076",
+    "077",
+    "078",
+    "079",
+    "080"
+  ],
+  "id_map": {
+    "076.0001": "076.0001",
+    "076.0002": "076.0002",
+    "076.0003": "076.0003",
+    "076.0004": "076.0004",
+    "076.0006": "076.0005",
+    "076.0007": "076.0006",
+    "076.0008": "076.0007",
+    "076.0010": "076.0008",
+    "076.0011": "076.0009",
+    "076.0012": "076.0010",
+    "076.0013": "076.0011",
+    "076.0014": "076.0012",
+    "076.0015": "076.0013",
+    "076.0016": "076.0014",
+    "076.0017": "076.0015",
+    "076.0018": "076.0016",
+    "076.0019": "076.0017",
+    "076.0020": "076.0018",
+    "076.0021": "076.0019",
+    "076.0022": "076.0020",
+    "076.0023": "076.0021",
+    "076.0024": "076.0022",
+    "076.0025": "076.0023",
+    "076.0026": "076.0024",
+    "076.0027": "076.0025",
+    "076.0028": "076.0026",
+    "076.0029": "076.0027",
+    "076.0030": "076.0028",
+    "076.0031": "076.0029",
+    "076.0032": "076.0030",
+    "076.0033": "076.0031",
+    "076.0034": "076.0032",
+    "076.0035": "076.0033",
+    "076.0036": "076.0034",
+    "076.0038": "076.0035",
+    "076.0039": "076.0036",
+    "076.0040": "076.0037",
+    "076.0041": "076.0038",
+    "076.0042": "076.0039",
+    "076.0043": "076.0040",
+    "076.0044": "076.0041",
+    "076.0045": "076.0042",
+    "076.0047": "076.0043",
+    "076.0049": "076.0056",
+    "076.0050": "076.0057",
+    "076.0051": "076.0058",
+    "076.0052": "076.0059",
+    "076.0053": "076.0060",
+    "076.0054": "076.0061",
+    "076.0055": "076.0062",
+    "076.0056": "076.0063",
+    "076.0057": "076.0064",
+    "076.0059": "076.0065",
+    "076.0060": "076.0066",
+    "076.0061": "076.0067",
+    "076.0062": "076.0068",
+    "076.0063": "076.0069",
+    "076.0064": "076.0070",
+    "076.0065": "076.0071",
+    "076.0066": "076.0072",
+    "076.0067": "076.0073",
+    "076.0069": "076.0074",
+    "076.0070": "076.0075",
+    "076.0071": "076.0076",
+    "076.0072": "076.0077",
+    "076.0073": "076.0078",
+    "076.0074": "076.0079",
+    "076.0075": "076.0080",
+    "076.0076": "076.0081",
+    "076.0077": "076.0082",
+    "076.0078": "076.0083",
+    "076.0079": "076.0084",
+    "076.0080": "076.0085",
+    "076.0081": "076.0086",
+    "076.0082": "076.0087",
+    "076.0083": "076.0088",
+    "076.0084": "076.0089",
+    "076.0085": "076.0090",
+    "076.0086": "076.0091",
+    "076.0087": "076.0092",
+    "076.0089": "076.0093",
+    "076.0090": "076.0094",
+    "076.0091": "076.0095",
+    "076.0092": "076.0096",
+    "076.0093": "076.0097",
+    "076.0094": "076.0098",
+    "076.0095": "076.0099",
+    "076.0096": "076.0100",
+    "076.0098": "076.0101",
+    "076.0099": "076.0102",
+    "076.0100": "076.0103",
+    "076.0101": "076.0104",
+    "076.0102": "076.0105",
+    "076.0103": "076.0106",
+    "076.0104": "076.0107",
+    "076.0105": "076.0108",
+    "076.0106": "076.0109",
+    "076.0107": "076.0110",
+    "076.0108": "076.0111",
+    "076.0109": "076.0112",
+    "076.0110": "076.0113",
+    "076.0111": "076.0114",
+    "076.0112": "076.0115",
+    "076.0113": "076.0116",
+    "076.0114": "076.0117",
+    "076.0115": "076.0118",
+    "076.0116": "076.0119",
+    "076.0117": "076.0120",
+    "076.0118": "076.0121",
+    "076.0119": "076.0122",
+    "076.0120": "076.0123",
+    "076.0121": "076.0124",
+    "076.0123": "076.0137",
+    "076.0124": "076.0138",
+    "076.0125": "076.0139",
+    "076.0127": "076.0140",
+    "076.0128": "076.0141",
+    "076.0129": "076.0142",
+    "076.0131": "076.0143",
+    "076.0132": "076.0144",
+    "076.0133": "076.0145",
+    "076.0135": "076.0146",
+    "076.0136": "076.0147",
+    "076.0137": "076.0148",
+    "076.0138": "076.0149",
+    "076.0139": "076.0150",
+    "076.0140": "076.0151",
+    "076.0141": "076.0152",
+    "076.0142": "076.0153",
+    "076.0143": "076.0154",
+    "076.0144": "076.0155",
+    "076.0145": "076.0156",
+    "076.0146": "076.0157",
+    "076.0147": "076.0158",
+    "076.0149": "076.0159",
+    "076.0150": "076.0160",
+    "076.0151": "076.0161",
+    "076.0152": "076.0162",
+    "076.0154": "076.0163",
+    "076.0155": "076.0164",
+    "076.0157": "076.0165",
+    "076.0158": "076.0166",
+    "076.0159": "076.0167",
+    "076.0160": "076.0168",
+    "076.0161": "076.0169",
+    "076.0162": "076.0170",
+    "076.0163": "076.0171",
+    "076.0164": "076.0172",
+    "076.0165": "076.0173",
+    "076.0167": "076.0174",
+    "076.0168": "076.0175",
+    "076.0169": "076.0176",
+    "076.0170": "076.0177",
+    "076.0172": "076.0178",
+    "076.0173": "076.0179",
+    "076.0174": "076.0180",
+    "076.0175": "076.0181",
+    "076.0176": "076.0182",
+    "076.0177": "076.0183",
+    "076.0178": "076.0184",
+    "076.0179": "076.0185",
+    "076.0180": "076.0186",
+    "076.0181": "076.0187",
+    "076.0183": "076.0188",
+    "076.0184": "076.0189",
+    "076.0186": "076.0190",
+    "076.0188": "076.0191",
+    "076.0189": "076.0192",
+    "076.0190": "076.0193",
+    "076.0191": "076.0194",
+    "076.0193": "076.0195",
+    "076.0194": "076.0196",
+    "076.0195": "076.0197",
+    "076.0196": "076.0198",
+    "076.0197": "076.0199",
+    "076.0198": "076.0200",
+    "076.0199": "076.0201",
+    "076.0201": "076.0202",
+    "076.0202": "076.0203",
+    "076.0203": "076.0204",
+    "076.0204": "076.0205",
+    "076.0205": "076.0206",
+    "076.0206": "076.0207",
+    "076.0207": "076.0208",
+    "076.0208": "076.0209",
+    "076.0209": "076.0210",
+    "076.0210": "076.0211",
+    "076.0211": "076.0212",
+    "076.0212": "076.0213",
+    "076.0213": "076.0214",
+    "076.0214": "076.0215",
+    "076.0215": "076.0216",
+    "076.0216": "076.0217",
+    "076.0217": "076.0218",
+    "076.0218": "076.0219",
+    "076.0220": "076.0220",
+    "076.0221": "076.0221",
+    "076.0222": "076.0222",
+    "076.0223": "076.0223",
+    "076.0224": "076.0224",
+    "076.0225": "076.0225",
+    "076.0226": "076.0226",
+    "076.0227": "076.0227",
+    "076.0228": "076.0228",
+    "076.0230": "076.0229",
+    "076.0231": "076.0230",
+    "076.0232": "076.0231",
+    "076.0233": "076.0232",
+    "076.0234": "076.0233",
+    "076.0235": "076.0234",
+    "076.0236": "076.0235",
+    "076.0237": "076.0236",
+    "076.0238": "076.0237",
+    "076.0239": "076.0238",
+    "076.0240": "076.0239",
+    "076.0241": "076.0240",
+    "076.0242": "076.0241",
+    "076.0243": "076.0242",
+    "076.0244": "076.0243",
+    "076.0245": "076.0244",
+    "076.0247": "076.0245",
+    "076.0248": "076.0246",
+    "076.0249": "076.0247",
+    "076.0250": "076.0248",
+    "076.0251": "076.0249",
+    "076.0252": "076.0250",
+    "076.0253": "076.0251",
+    "076.0254": "076.0252",
+    "076.0255": "076.0253",
+    "076.0256": "076.0254",
+    "076.0257": "076.0255",
+    "076.0258": "076.0256",
+    "076.0259": "076.0257",
+    "076.0260": "076.0258",
+    "076.0261": "076.0259",
+    "076.0262": "076.0260",
+    "076.0263": "076.0261",
+    "076.0264": "076.0262",
+    "076.0265": "076.0263",
+    "076.0266": "076.0264",
+    "076.0267": "076.0265",
+    "076.0268": "076.0266",
+    "076.0269": "076.0267",
+    "076.0270": "076.0268",
+    "076.0271": "076.0269",
+    "076.0272": "076.0270",
+    "076.0273": "076.0271",
+    "076.0274": "076.0272",
+    "076.0275": "076.0273",
+    "076.0276": "076.0274",
+    "076.0278": "076.0275",
+    "076.0279": "076.0276",
+    "076.0280": "076.0277",
+    "076.0281": "076.0278",
+    "076.0282": "076.0279",
+    "076.0283": "076.0280",
+    "076.0285": "076.0281",
+    "076.0286": "076.0282",
+    "076.0287": "076.0283",
+    "076.0288": "076.0284",
+    "076.0289": "076.0285",
+    "076.0290": "076.0286",
+    "076.0291": "076.0287",
+    "076.0292": "076.0288",
+    "076.0294": "076.0289",
+    "076.0295": "076.0290",
+    "076.0296": "076.0291",
+    "076.0297": "076.0292",
+    "076.0298": "076.0293",
+    "076.0299": "076.0294",
+    "076.0300": "076.0295",
+    "076.0301": "076.0296",
+    "076.0303": "076.0297",
+    "076.0304": "076.0298",
+    "076.0305": "076.0299",
+    "076.0306": "076.0300",
+    "076.0307": "076.0301",
+    "076.0308": "076.0302",
+    "076.0310": "076.0303",
+    "076.0311": "076.0304",
+    "076.0312": "076.0305",
+    "076.0313": "076.0306",
+    "076.0314": "076.0307",
+    "076.0315": "076.0308",
+    "076.0316": "076.0309",
+    "076.0318": "076.0310",
+    "076.0319": "076.0311",
+    "076.0320": "076.0312",
+    "076.0321": "076.0313",
+    "076.0322": "076.0314",
+    "076.0323": "076.0315",
+    "076.0325": "076.0316",
+    "076.0326": "076.0317",
+    "076.0328": "076.0318",
+    "076.0329": "076.0319",
+    "076.0330": "076.0320",
+    "076.0331": "076.0321",
+    "076.0332": "076.0322",
+    "076.0333": "076.0323",
+    "076.0334": "076.0324",
+    "076.0336": "076.0325",
+    "076.0337": "076.0326",
+    "076.0339": "076.0335",
+    "076.0340": "076.0336",
+    "076.0341": "076.0337",
+    "076.0342": "076.0338",
+    "076.0343": "076.0339",
+    "076.0345": "076.0340",
+    "076.0346": "076.0341",
+    "076.0347": "076.0342",
+    "076.0348": "076.0343",
+    "076.0349": "076.0344",
+    "076.0350": "076.0345",
+    "076.0351": "076.0346",
+    "076.0352": "076.0347",
+    "076.0353": "076.0348",
+    "076.0355": "076.0349",
+    "076.0356": "076.0350",
+    "076.0357": "076.0351",
+    "076.0358": "076.0352",
+    "076.0359": "076.0353",
+    "076.0360": "076.0354",
+    "076.0361": "076.0355",
+    "076.0362": "076.0356",
+    "076.0363": "076.0357",
+    "076.0364": "076.0358",
+    "076.0365": "076.0359",
+    "076.0366": "076.0360",
+    "076.0368": "076.0361",
+    "076.0369": "076.0362",
+    "076.0370": "076.0363",
+    "076.0372": "076.0364",
+    "076.0373": "076.0365",
+    "076.0374": "076.0366",
+    "076.0375": "076.0367",
+    "076.0376": "076.0368",
+    "076.0377": "076.0369",
+    "076.0378": "076.0370",
+    "076.0379": "076.0371",
+    "076.0381": "076.0372",
+    "076.0382": "076.0373",
+    "076.0383": "076.0374",
+    "076.0384": "076.0375",
+    "076.0385": "076.0376",
+    "076.0386": "076.0377",
+    "076.0388": "076.0378",
+    "076.0389": "076.0379",
+    "076.0390": "076.0380",
+    "076.0391": "076.0381",
+    "076.0392": "076.0382",
+    "076.0393": "076.0383",
+    "076.0394": "076.0384",
+    "076.0395": "076.0385",
+    "076.0396": "076.0386",
+    "076.0397": "076.0387",
+    "076.0398": "076.0388",
+    "076.0400": "076.0389",
+    "076.0401": "076.0390",
+    "076.0402": "076.0391",
+    "076.0403": "076.0392",
+    "076.0405": "076.0393",
+    "076.0407": "076.0394",
+    "076.0408": "076.0395",
+    "076.0409": "076.0396",
+    "076.0410": "076.0397",
+    "076.0411": "076.0398",
+    "076.0412": "076.0399",
+    "076.0413": "076.0400",
+    "076.0414": "076.0401",
+    "076.0415": "076.0402",
+    "076.0416": "076.0403",
+    "076.0417": "076.0404",
+    "076.0418": "076.0405",
+    "076.0420": "076.0420",
+    "076.0421": "076.0421",
+    "076.0422": "076.0422",
+    "076.0423": "076.0423",
+    "076.0424": "076.0424",
+    "076.0425": "076.0425",
+    "076.0426": "076.0426",
+    "076.0427": "076.0427",
+    "076.0429": "076.0428",
+    "076.0430": "076.0429",
+    "076.0431": "076.0430",
+    "076.0433": "076.0431",
+    "076.0435": "076.0432",
+    "076.0436": "076.0433",
+    "076.0437": "076.0434",
+    "076.0438": "076.0435",
+    "076.0439": "076.0436",
+    "076.0440": "076.0437",
+    "076.0441": "076.0438",
+    "076.0442": "076.0439",
+    "076.0443": "076.0440",
+    "076.0444": "076.0441",
+    "076.0445": "076.0442",
+    "076.0446": "076.0443",
+    "076.0447": "076.0444",
+    "076.0448": "076.0445",
+    "076.0449": "076.0446",
+    "076.0450": "076.0447",
+    "076.0451": "076.0448",
+    "076.0452": "076.0449",
+    "076.0453": "076.0450",
+    "076.0455": "076.0451",
+    "076.0457": "076.0452",
+    "076.0458": "076.0453",
+    "076.0459": "076.0454",
+    "076.0460": "076.0455",
+    "076.0461": "076.0456",
+    "076.0462": "076.0457",
+    "076.0464": "076.0458",
+    "076.0465": "076.0459",
+    "076.0466": "076.0460",
+    "076.0467": "076.0461",
+    "076.0468": "076.0462",
+    "076.0469": "076.0463",
+    "076.0470": "076.0464",
+    "076.0471": "076.0465",
+    "076.0472": "076.0466",
+    "076.0473": "076.0467",
+    "076.0474": "076.0468",
+    "076.0475": "076.0469",
+    "076.0476": "076.0470",
+    "076.0477": "076.0471",
+    "076.0478": "076.0472",
+    "076.0479": "076.0473",
+    "076.0480": "076.0474",
+    "076.0481": "076.0475",
+    "076.0482": "076.0476",
+    "076.0483": "076.0477"
+  },
+  "changed_ids": 410,
+  "new_paragraphs": [
+    {
+      "id": "076.0044",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0045",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0046",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0047",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0048",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0049",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0050",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0051",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0052",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0053",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0054",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0055",
+      "file": "1877-11-05.md"
+    },
+    {
+      "id": "076.0125",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0126",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0127",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0128",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0129",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0130",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0131",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0132",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0133",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0134",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0135",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0136",
+      "file": "1877-11-10.md"
+    },
+    {
+      "id": "076.0327",
+      "file": "1877-12-06.md"
+    },
+    {
+      "id": "076.0328",
+      "file": "1877-12-06.md"
+    },
+    {
+      "id": "076.0329",
+      "file": "1877-12-06.md"
+    },
+    {
+      "id": "076.0330",
+      "file": "1877-12-06.md"
+    },
+    {
+      "id": "076.0331",
+      "file": "1877-12-06.md"
+    },
+    {
+      "id": "076.0332",
+      "file": "1877-12-06.md"
+    },
+    {
+      "id": "076.0333",
+      "file": "1877-12-06.md"
+    },
+    {
+      "id": "076.0334",
+      "file": "1877-12-06.md"
+    },
+    {
+      "id": "076.0406",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0407",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0408",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0409",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0410",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0411",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0412",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0413",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0414",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0415",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0416",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0417",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0418",
+      "file": "1877-12-15.md"
+    },
+    {
+      "id": "076.0419",
+      "file": "1877-12-15.md"
+    }
+  ],
+  "dropped": [
+    {
+      "id": "076.0005",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0005"
+    },
+    {
+      "id": "076.0009",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0009"
+    },
+    {
+      "id": "076.0037",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0037"
+    },
+    {
+      "id": "076.0046",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0046"
+    },
+    {
+      "id": "076.0048",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0048"
+    },
+    {
+      "id": "076.0058",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0058"
+    },
+    {
+      "id": "076.0068",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0068"
+    },
+    {
+      "id": "076.0088",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0088"
+    },
+    {
+      "id": "076.0097",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0097"
+    },
+    {
+      "id": "076.0122",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0122"
+    },
+    {
+      "id": "076.0126",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0126"
+    },
+    {
+      "id": "076.0130",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0130"
+    },
+    {
+      "id": "076.0134",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0134"
+    },
+    {
+      "id": "076.0148",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0148"
+    },
+    {
+      "id": "076.0153",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0153"
+    },
+    {
+      "id": "076.0156",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0156"
+    },
+    {
+      "id": "076.0166",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0166"
+    },
+    {
+      "id": "076.0171",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0171"
+    },
+    {
+      "id": "076.0182",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0182"
+    },
+    {
+      "id": "076.0185",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0185"
+    },
+    {
+      "id": "076.0187",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0187"
+    },
+    {
+      "id": "076.0192",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0192"
+    },
+    {
+      "id": "076.0200",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0200"
+    },
+    {
+      "id": "076.0219",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0219"
+    },
+    {
+      "id": "076.0229",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0229"
+    },
+    {
+      "id": "076.0246",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0246"
+    },
+    {
+      "id": "076.0277",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0277"
+    },
+    {
+      "id": "076.0284",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0284"
+    },
+    {
+      "id": "076.0293",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0293"
+    },
+    {
+      "id": "076.0302",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0302"
+    },
+    {
+      "id": "076.0309",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0309"
+    },
+    {
+      "id": "076.0317",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0317"
+    },
+    {
+      "id": "076.0324",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0324"
+    },
+    {
+      "id": "076.0327",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0327"
+    },
+    {
+      "id": "076.0335",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0335"
+    },
+    {
+      "id": "076.0338",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0338"
+    },
+    {
+      "id": "076.0344",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0344"
+    },
+    {
+      "id": "076.0354",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0354"
+    },
+    {
+      "id": "076.0367",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0367"
+    },
+    {
+      "id": "076.0371",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0371"
+    },
+    {
+      "id": "076.0380",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0380"
+    },
+    {
+      "id": "076.0387",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0387"
+    },
+    {
+      "id": "076.0399",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0399"
+    },
+    {
+      "id": "076.0404",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0404"
+    },
+    {
+      "id": "076.0406",
+      "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)",
+      "rewritten_as": "076.DROPPED-0406"
+    },
+    {
+      "id": "076.0419",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0419"
+    },
+    {
+      "id": "076.0428",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0428"
+    },
+    {
+      "id": "076.0432",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0432"
+    },
+    {
+      "id": "076.0434",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0434"
+    },
+    {
+      "id": "076.0454",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0454"
+    },
+    {
+      "id": "076.0456",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0456"
+    },
+    {
+      "id": "076.0463",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0463"
+    },
+    {
+      "id": "076.0484",
+      "reason": "empty placeholder cluster (no text in _original or any translation)",
+      "rewritten_as": "076.DROPPED-0484"
+    }
+  ],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [],
+  "last_id": "076.0477",
+  "flag_resets": {
+    "cz": [
+      "1877-11-01.md",
+      "1877-11-02.md",
+      "1877-11-03.md",
+      "1877-11-04.md",
+      "1877-11-05.md",
+      "1877-11-06.md",
+      "1877-11-07.md",
+      "1877-11-08.md",
+      "1877-11-09.md",
+      "1877-11-10.md",
+      "1877-11-11.md",
+      "1877-11-12.md",
+      "1877-11-13.md",
+      "1877-11-14.md",
+      "1877-11-15.md",
+      "1877-11-16.md",
+      "1877-11-17.md",
+      "1877-11-18.md",
+      "1877-11-19.md",
+      "1877-11-20.md",
+      "1877-11-21.md",
+      "1877-11-22.md",
+      "1877-11-23.md",
+      "1877-11-24.md",
+      "1877-11-25.md",
+      "1877-11-26.md",
+      "1877-11-27.md",
+      "1877-11-28.md",
+      "1877-11-29.md",
+      "1877-11-30.md",
+      "1877-12-01.md",
+      "1877-12-02.md",
+      "1877-12-03.md",
+      "1877-12-04.md",
+      "1877-12-05.md",
+      "1877-12-06.md",
+      "1877-12-07.md",
+      "1877-12-08.md",
+      "1877-12-09.md",
+      "1877-12-10.md",
+      "1877-12-11.md",
+      "1877-12-12.md",
+      "1877-12-13.md",
+      "1877-12-14.md",
+      "1877-12-15.md",
+      "1877-12-16.md",
+      "1877-12-17.md",
+      "1877-12-18.md",
+      "1877-12-19.md",
+      "1877-12-20.md",
+      "1877-12-21.md",
+      "1877-12-22.md"
+    ],
+    "uk": [
+      "1877-11-01.md",
+      "1877-11-02.md",
+      "1877-11-03.md",
+      "1877-11-04.md",
+      "1877-11-05.md",
+      "1877-11-06.md",
+      "1877-11-07.md",
+      "1877-11-08.md",
+      "1877-11-09.md",
+      "1877-11-10.md",
+      "1877-11-11.md",
+      "1877-11-12.md",
+      "1877-11-13.md",
+      "1877-11-14.md",
+      "1877-11-15.md",
+      "1877-11-16.md",
+      "1877-11-17.md",
+      "1877-11-18.md",
+      "1877-11-19.md",
+      "1877-11-20.md",
+      "1877-11-21.md",
+      "1877-11-22.md",
+      "1877-11-23.md",
+      "1877-11-24.md",
+      "1877-11-25.md",
+      "1877-11-26.md",
+      "1877-11-27.md",
+      "1877-11-28.md",
+      "1877-11-29.md",
+      "1877-11-30.md",
+      "1877-12-01.md",
+      "1877-12-02.md",
+      "1877-12-03.md",
+      "1877-12-04.md",
+      "1877-12-05.md",
+      "1877-12-06.md",
+      "1877-12-07.md",
+      "1877-12-08.md",
+      "1877-12-09.md",
+      "1877-12-10.md",
+      "1877-12-11.md",
+      "1877-12-12.md",
+      "1877-12-13.md",
+      "1877-12-14.md",
+      "1877-12-15.md",
+      "1877-12-16.md",
+      "1877-12-17.md",
+      "1877-12-18.md",
+      "1877-12-19.md",
+      "1877-12-20.md",
+      "1877-12-21.md",
+      "1877-12-22.md"
+    ],
+    "en": [
+      "1877-11-01.md",
+      "1877-11-02.md",
+      "1877-11-03.md",
+      "1877-11-04.md",
+      "1877-11-05.md",
+      "1877-11-06.md",
+      "1877-11-07.md",
+      "1877-11-08.md",
+      "1877-11-09.md",
+      "1877-11-10.md",
+      "1877-11-11.md",
+      "1877-11-12.md",
+      "1877-11-13.md",
+      "1877-11-14.md",
+      "1877-11-15.md",
+      "1877-11-16.md",
+      "1877-11-17.md",
+      "1877-11-18.md",
+      "1877-11-19.md",
+      "1877-11-20.md",
+      "1877-11-21.md",
+      "1877-11-22.md",
+      "1877-11-23.md",
+      "1877-11-24.md",
+      "1877-11-25.md",
+      "1877-11-26.md",
+      "1877-11-27.md",
+      "1877-11-28.md",
+      "1877-11-29.md",
+      "1877-11-30.md",
+      "1877-12-01.md",
+      "1877-12-02.md",
+      "1877-12-03.md",
+      "1877-12-04.md",
+      "1877-12-05.md",
+      "1877-12-06.md",
+      "1877-12-07.md",
+      "1877-12-08.md",
+      "1877-12-09.md",
+      "1877-12-10.md",
+      "1877-12-11.md",
+      "1877-12-12.md",
+      "1877-12-13.md",
+      "1877-12-14.md",
+      "1877-12-15.md",
+      "1877-12-16.md",
+      "1877-12-17.md",
+      "1877-12-18.md",
+      "1877-12-19.md",
+      "1877-12-20.md",
+      "1877-12-21.md",
+      "1877-12-22.md"
+    ],
+    "fr": [
+      "1877-11-01.md",
+      "1877-11-02.md",
+      "1877-11-03.md",
+      "1877-11-04.md",
+      "1877-11-05.md",
+      "1877-11-06.md",
+      "1877-11-07.md",
+      "1877-11-08.md",
+      "1877-11-09.md",
+      "1877-11-10.md",
+      "1877-11-11.md",
+      "1877-11-12.md",
+      "1877-11-13.md",
+      "1877-11-14.md",
+      "1877-11-15.md",
+      "1877-11-16.md",
+      "1877-11-17.md",
+      "1877-11-18.md",
+      "1877-11-19.md",
+      "1877-11-20.md",
+      "1877-11-21.md",
+      "1877-11-22.md",
+      "1877-11-23.md",
+      "1877-11-24.md",
+      "1877-11-25.md",
+      "1877-11-26.md",
+      "1877-11-27.md",
+      "1877-11-28.md",
+      "1877-11-29.md",
+      "1877-11-30.md",
+      "1877-12-01.md",
+      "1877-12-02.md",
+      "1877-12-03.md",
+      "1877-12-04.md",
+      "1877-12-05.md",
+      "1877-12-06.md",
+      "1877-12-07.md",
+      "1877-12-08.md",
+      "1877-12-09.md",
+      "1877-12-10.md",
+      "1877-12-11.md",
+      "1877-12-12.md",
+      "1877-12-13.md",
+      "1877-12-14.md",
+      "1877-12-15.md",
+      "1877-12-16.md",
+      "1877-12-17.md",
+      "1877-12-18.md",
+      "1877-12-19.md",
+      "1877-12-20.md",
+      "1877-12-21.md",
+      "1877-12-22.md"
+    ]
+  },
+  "plan": {
+    "carnet": "076",
+    "source": "tome11.docx",
+    "drop": [
+      {
+        "id": "076.0005",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0009",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0037",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0046",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0048",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0058",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0068",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0088",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0097",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0122",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0126",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0130",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0134",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0148",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0153",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0156",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0166",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0171",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0182",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0185",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0187",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0192",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0200",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0219",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0229",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0246",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0277",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0284",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0293",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0302",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0309",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0317",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0324",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0327",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0335",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0338",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0344",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0354",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0367",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0371",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0380",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0387",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0399",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0404",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0406",
+        "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+      },
+      {
+        "id": "076.0419",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0428",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0432",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0434",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0454",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0456",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0463",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      },
+      {
+        "id": "076.0484",
+        "reason": "empty placeholder cluster (no text in _original or any translation)"
+      }
+    ],
+    "entries": [
+      {
+        "file": "1877-11-01.md",
+        "date": "1877-11-01",
+        "heading": "Jeudi 1er novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0001",
+            "set_french": "# Jeudi 1er novembre 1877\nVoilà des lettres de Hall auxquelles il faut répondre."
+          },
+          {
+            "old": "076.0002"
+          },
+          {
+            "old": "076.0003"
+          },
+          {
+            "old": "076.0004"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-02.md",
+        "date": "1877-11-02",
+        "heading": "Vendredi 2 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0006"
+          },
+          {
+            "old": "076.0007"
+          },
+          {
+            "old": "076.0008"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-03.md",
+        "date": "1877-11-03",
+        "heading": "Samedi 3 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0010"
+          },
+          {
+            "old": "076.0011"
+          },
+          {
+            "old": "076.0012"
+          },
+          {
+            "old": "076.0013"
+          },
+          {
+            "old": "076.0014"
+          },
+          {
+            "old": "076.0015"
+          },
+          {
+            "old": "076.0016"
+          },
+          {
+            "old": "076.0017"
+          },
+          {
+            "old": "076.0018"
+          },
+          {
+            "old": "076.0019"
+          },
+          {
+            "old": "076.0020"
+          },
+          {
+            "old": "076.0021"
+          },
+          {
+            "old": "076.0022"
+          },
+          {
+            "old": "076.0023"
+          },
+          {
+            "old": "076.0024"
+          },
+          {
+            "old": "076.0025"
+          },
+          {
+            "old": "076.0026"
+          },
+          {
+            "old": "076.0027"
+          },
+          {
+            "old": "076.0028"
+          },
+          {
+            "old": "076.0029"
+          },
+          {
+            "old": "076.0030"
+          },
+          {
+            "old": "076.0031"
+          },
+          {
+            "old": "076.0032"
+          },
+          {
+            "old": "076.0033"
+          },
+          {
+            "old": "076.0034"
+          },
+          {
+            "old": "076.0035"
+          },
+          {
+            "old": "076.0036"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-04.md",
+        "date": "1877-11-04",
+        "heading": "Dimanche 4 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0038"
+          },
+          {
+            "old": "076.0039"
+          },
+          {
+            "old": "076.0040"
+          },
+          {
+            "old": "076.0041"
+          },
+          {
+            "old": "076.0042"
+          },
+          {
+            "old": "076.0043"
+          },
+          {
+            "old": "076.0044"
+          },
+          {
+            "old": "076.0045"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-05.md",
+        "date": "1877-11-05",
+        "heading": "Lundi 5 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0047"
+          },
+          {
+            "new": {
+              "french": "Je devrais être bien triste. Georges fait son ivrognerie chez nous. J’ai horriblement traitée maman, des noms les plus durs. Je ne le fais pas pour l’injurier mais c’est un remède contre Georges. Mais je crois que c’est une vraie malédiction et que cet homme ne nous délivrera jamais de ces horreurs.",
+              "rsr": "Restored from tome11.docx ¶828, Mon Journal t.11 p.50 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Grand-maman en mourant l’avait recommandé à maman. Si la pauvre femme pouvait prévoir tout ce que ça me coûte elle l’étranglerait plutôt.",
+              "rsr": "Restored from tome11.docx ¶829, Mon Journal t.11 p.50 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Voici une enveloppe qui devrait vous faire frémir si vous étiez dignes de la confiance que j’ai en vous, de Florence. Voyez le timbre. Si c’était vraiment *vraiment* de Florence je crois que j’en deviendrais folle. C’est la réponse de Gordigiani.",
+              "rsr": "Restored from tome11.docx ¶830, Mon Journal t.11 p.50 (missing from original extraction, 2026-09-28 rebuild). Typesetting typo of the printed edition «Si cétait» corrected to «Si c’était» (Mon Journal t.11 p.50)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mademoiselle,",
+              "rsr": "Restored from tome11.docx ¶831, Mon Journal t.11 p.50 (missing from original extraction, 2026-09-28 rebuild). The docx reads «1 Mademoiselle,» (footnote mark).",
+              "kind": "letter",
+              "source": "Lettre de Michel Gordigiani, Florence, [automne 1877]"
+            }
+          },
+          {
+            "new": {
+              "french": "Je viens de recevoir votre collection de photographies, et je m’empresse, en vous remerciant, de vous rendre compte de mes impressions.",
+              "rsr": "Restored from tome11.docx ¶832, Mon Journal t.11 p.50 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "letter",
+              "source": "Lettre de Michel Gordigiani, Florence, [automne 1877]"
+            }
+          },
+          {
+            "new": {
+              "french": "Il est incontestable que parmi ces photographies il y en a de fort belles; mais selon moi, aucune n’est assez complète pour être copiée telle que, de sorte que je dois vous répéter que si je n’ai pas le plaisir de vous avoir en personne, pour composer ce qui manque à mon avis pour faire une peinture digne de vous et de la confiance que vous avez de moi. Aussi je vous prie, de me permettre d’attendre votre venue à Florence pour prendre une décision, et il faut donc renoncer à mettre le tableau à la grande Exposition Universelle, attendu que vous ne serez pas ici assez tôt pour apprêter la peinture mais vous n’y perdrez rien car nous l'enverrons à l’autre exposition annuelle du Salon où les tableaux sont beaucoup plus vus et appréciés.",
+              "rsr": "Restored from tome11.docx ¶833, Mon Journal t.11 p.50 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "letter",
+              "source": "Lettre de Michel Gordigiani, Florence, [automne 1877]"
+            }
+          },
+          {
+            "new": {
+              "french": "Quant au grand portrait en pied je vous conjure de ne pas en parler, c’est un cauchemar, ils sont interminables et je ne les fait [sic] pas volontiers, le prix est de 15 mille francs. Je vous demande bien pardon d’avoir tardé si longtemps à vous répondre, mais j’attendais toujours Ces photographies que [je] vous avez [sic] dit de m’envoyer pour prendre une décision. Je n’ai jamais parlé d’esquisse et il serait bien inutile de le faire dans votre cas. Je vous prie de me rappeler au bon souvenir de Madame votre mère, et agréée [sic] Mademoiselle l’assurance de ma profonde considération.",
+              "rsr": "Restored from tome11.docx ¶834, Mon Journal t.11 p.50 (missing from original extraction, 2026-09-28 rebuild). The end of the letter («me rappeler … considération.», «Votre dévoué,», «Michel Gordigiani») is printed at the top of p.51 but missing from the docx, where a library stamp on the scan was read as a picture (¶838); transcribed from the scan. The docx ¶835 «Ibid. p. 66» is a printed-edition footnote and is left out.",
+              "kind": "letter",
+              "source": "Lettre de Michel Gordigiani, Florence, [automne 1877]"
+            }
+          },
+          {
+            "new": {
+              "french": "Votre dévoué,",
+              "rsr": "Restored from Mon Journal t.11 p.51 (scan only: missing from tome11.docx, masked by a library stamp; 2026-09-28 rebuild).",
+              "kind": "letter",
+              "source": "Lettre de Michel Gordigiani, Florence, [automne 1877]"
+            }
+          },
+          {
+            "new": {
+              "french": "Michel Gordigiani",
+              "rsr": "Restored from Mon Journal t.11 p.51 (scan only: missing from tome11.docx, masked by a library stamp; 2026-09-28 rebuild). ",
+              "kind": "letter",
+              "source": "Lettre de Michel Gordigiani, Florence, [automne 1877]"
+            }
+          },
+          {
+            "new": {
+              "french": "On m’a sans doute oubliée tout à fait. Pourtant non et vous allez en convenir avec moi. Il n’a pas eu beaucoup de conquêtes le pauvre garçon et j’en suis une d’un genre tout autre que celui dont il a... l’usage. Ça flatte et on s’en souvient ainsi. C’est comme si on ne se souvenait pas.",
+              "rsr": "Restored from tome11.docx ¶839, Mon Journal t.11 p.51 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "On devait aller chez la Doubelt mais ça c’est dérangé. Il y a eu [Mots noircis: des Perrières et Blanc,] capitaine de frégate, toujours.",
+              "rsr": "Restored from tome11.docx ¶840, Mon Journal t.11 p.51 (missing from original extraction, 2026-09-28 rebuild). OCR «noiricis» corrected to «noircis» (printed p.51)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il m’a l’air d’être pas bien du tout avec Cassagnac ou du moins de tripoter je ne sais quoi. Peu importe, je pense et je rêve à mon dessin et quand avec l’aide de Dieu j’arriverai je pourrai m’amuser un peu.",
+              "rsr": "Restored from tome11.docx ¶841, Mon Journal t.11 p.51 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-11-06.md",
+        "date": "1877-11-06",
+        "heading": "Mardi 6 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0049",
+            "kind": "rayé"
+          },
+          {
+            "old": "076.0050"
+          },
+          {
+            "old": "076.0051"
+          },
+          {
+            "old": "076.0052"
+          },
+          {
+            "old": "076.0053"
+          },
+          {
+            "old": "076.0054"
+          },
+          {
+            "old": "076.0055"
+          },
+          {
+            "old": "076.0056"
+          },
+          {
+            "old": "076.0057"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-07.md",
+        "date": "1877-11-07",
+        "heading": "Mercredi 7 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0059"
+          },
+          {
+            "old": "076.0060"
+          },
+          {
+            "old": "076.0061"
+          },
+          {
+            "old": "076.0062"
+          },
+          {
+            "old": "076.0063"
+          },
+          {
+            "old": "076.0064"
+          },
+          {
+            "old": "076.0065"
+          },
+          {
+            "old": "076.0066"
+          },
+          {
+            "old": "076.0067"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-08.md",
+        "date": "1877-11-08",
+        "heading": "Jeudi 8 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0069"
+          },
+          {
+            "old": "076.0070"
+          },
+          {
+            "old": "076.0071"
+          },
+          {
+            "old": "076.0072"
+          },
+          {
+            "old": "076.0073"
+          },
+          {
+            "old": "076.0074"
+          },
+          {
+            "old": "076.0075"
+          },
+          {
+            "old": "076.0076"
+          },
+          {
+            "old": "076.0077"
+          },
+          {
+            "old": "076.0078"
+          },
+          {
+            "old": "076.0079"
+          },
+          {
+            "old": "076.0080"
+          },
+          {
+            "old": "076.0081"
+          },
+          {
+            "old": "076.0082"
+          },
+          {
+            "old": "076.0083"
+          },
+          {
+            "old": "076.0084"
+          },
+          {
+            "old": "076.0085"
+          },
+          {
+            "old": "076.0086"
+          },
+          {
+            "old": "076.0087"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-09.md",
+        "date": "1877-11-09",
+        "heading": "Vendredi 9 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0089"
+          },
+          {
+            "old": "076.0090"
+          },
+          {
+            "old": "076.0091"
+          },
+          {
+            "old": "076.0092"
+          },
+          {
+            "old": "076.0093"
+          },
+          {
+            "old": "076.0094"
+          },
+          {
+            "old": "076.0095"
+          },
+          {
+            "old": "076.0096"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-10.md",
+        "date": "1877-11-10",
+        "heading": "Samedi 10 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0098"
+          },
+          {
+            "old": "076.0099"
+          },
+          {
+            "old": "076.0100"
+          },
+          {
+            "old": "076.0101"
+          },
+          {
+            "old": "076.0102"
+          },
+          {
+            "old": "076.0103"
+          },
+          {
+            "old": "076.0104"
+          },
+          {
+            "old": "076.0105"
+          },
+          {
+            "old": "076.0106"
+          },
+          {
+            "old": "076.0107"
+          },
+          {
+            "old": "076.0108"
+          },
+          {
+            "old": "076.0109"
+          },
+          {
+            "old": "076.0110"
+          },
+          {
+            "old": "076.0111"
+          },
+          {
+            "old": "076.0112"
+          },
+          {
+            "old": "076.0113"
+          },
+          {
+            "old": "076.0114"
+          },
+          {
+            "old": "076.0115"
+          },
+          {
+            "old": "076.0116"
+          },
+          {
+            "old": "076.0117"
+          },
+          {
+            "old": "076.0118"
+          },
+          {
+            "old": "076.0119"
+          },
+          {
+            "old": "076.0120"
+          },
+          {
+            "old": "076.0121"
+          },
+          {
+            "new": {
+              "french": "Pour vous initier à notre manière d’être avec Popaul je vous raconterai que nous étant trouvés trois au salon, Berthe lui et moi on parla de pieds, que nous avons ôté nos souliers Berthe et moi, qu’elle a [Mot noirci: glissé] son pied dans les miens, que j’ai glissé le mien dans les siens et que je lui racontai là-dessus comment je m’étais assise ce soir sur le canapé pour produire le plus d’effet avec mes pieds quand il arriverait sans en avoir l’air.",
+              "rsr": "Restored from tome11.docx ¶933, Mon Journal t.11 p.57 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il faut que je lui parle d’Alexandre mais il me dit que je n’ai eu que des caprices de tête car les affections du cœur ne passent pas.",
+              "rsr": "Restored from tome11.docx ¶934, Mon Journal t.11 p.57 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je crois que nous nous prenons assez au sérieux... je crains de le dire, on n’aurait qu’à se moquer de moi. Ah ! bah ! les imbéciles, les faux Diogène, qu’est-ce que cela peut me faire. A vous dire vrai, très vrai, je ne puis jamais me persuader du sérieux de ces amitiés et de ces sentiments d’amour ou autres, qu’on voit dans les livres.",
+              "rsr": "Restored from tome11.docx ¶935, Mon Journal t.11 p.57 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "[En travers : *Dans cette soirée-là il m'avait dit que je n’aimerais qu'un homme plus intelligent que moi et que je ne le trouverai pas facilement. Et puis que je ne l'aimerai pas de suite, je m’y habituerai et je ne comprendrai l’étendue de mon sentiment que pendant une absence, un départ, que cela (arrivera) dans un ou deux ans, qu’il faudra pour me subjuguer.* *Il parlait peut être de lui. Août 1878]*",
+              "rsr": "Restored from tome11.docx ¶936–937, Mon Journal t.11 p.57 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          },
+          {
+            "new": {
+              "french": "Blanc qui règne tout seul sert de Galula à Cassagnac, de sorte que je comprends assez bien, et l’air du capitaine de frégate me l’affirme presque, que le susdit capitaine tienne assez à rester tout seul dans un endroit où il se plaît.",
+              "rsr": "Restored from tome11.docx ¶938, Mon Journal t.11 p.57 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Si vous pouviez vous donner l’idée de l’esprit avec lequel le fichu-grand homme a raillé son Ephestion, vous ririez comme nous avons ri, comme des bossus puisqu’il est dit que les bossus rient avec tant d’entrain.",
+              "rsr": "Restored from tome11.docx ¶939, Mon Journal t.11 p.57 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Moi, j’étais gaie, drôle, enfant, c’est diablement commode et puis au fait je crois que c’est mon état naturel l’enfance quand je ne suis pas dans le drame. Mon frère assure que je tiens de l’enfant, de la jeune femme, de la vierge et de l’homme.",
+              "rsr": "Restored from tome11.docx ¶940–943, Mon Journal t.11 pp.57–58 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mélange extraordinaire...",
+              "rsr": "Restored from tome11.docx ¶944, Mon Journal t.11 p.58 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oh ! oui mon empereur.",
+              "rsr": "Restored from tome11.docx ¶945, Mon Journal t.11 p.58 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Madame York est venue dans la soirée chercher Berthe.",
+              "rsr": "Restored from tome11.docx ¶946, Mon Journal t.11 p.58 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’avais désiré une explication avec Cassagnac et elle est arrivée cent fois mieux que je l’imaginais.",
+              "rsr": "Restored from tome11.docx ¶947, Mon Journal t.11 p.58 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Quel dommage et peut-être est-ce bien, qu’il ait quelque chose de comique, de ridicule. Lorsqu’il lance un regard a effet et tient ses yeux fixés sur vous avec tout le magnétisme imaginable, l’effet est entamé singulièrement par une paupière qui tombe plus que l’autre et par tout l’ensemble qui a quelque chose d’un terre-neuve.",
+              "rsr": "Restored from tome11.docx ¶948, Mon Journal t.11 p.58 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-11-11.md",
+        "date": "1877-11-11",
+        "heading": "Dimanche 11 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0123"
+          },
+          {
+            "old": "076.0124"
+          },
+          {
+            "old": "076.0125"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-12.md",
+        "date": "1877-11-12",
+        "heading": "Lundi 12 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0127"
+          },
+          {
+            "old": "076.0128"
+          },
+          {
+            "old": "076.0129"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-13.md",
+        "date": "1877-11-13",
+        "heading": "Mardi 13 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0131"
+          },
+          {
+            "old": "076.0132"
+          },
+          {
+            "old": "076.0133"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-14.md",
+        "date": "1877-11-14",
+        "heading": "Mercredi 14 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0135"
+          },
+          {
+            "old": "076.0136"
+          },
+          {
+            "old": "076.0137"
+          },
+          {
+            "old": "076.0138"
+          },
+          {
+            "old": "076.0139"
+          },
+          {
+            "old": "076.0140"
+          },
+          {
+            "old": "076.0141"
+          },
+          {
+            "old": "076.0142"
+          },
+          {
+            "old": "076.0143"
+          },
+          {
+            "old": "076.0144"
+          },
+          {
+            "old": "076.0145"
+          },
+          {
+            "old": "076.0146"
+          },
+          {
+            "old": "076.0147"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-15.md",
+        "date": "1877-11-15",
+        "heading": "Jeudi 15 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0149"
+          },
+          {
+            "old": "076.0150"
+          },
+          {
+            "old": "076.0151"
+          },
+          {
+            "old": "076.0152"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-16.md",
+        "date": "1877-11-16",
+        "heading": "Vendredi 16 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0154"
+          },
+          {
+            "old": "076.0155"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-17.md",
+        "date": "1877-11-17",
+        "heading": "Samedi 17 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0157"
+          },
+          {
+            "old": "076.0158"
+          },
+          {
+            "old": "076.0159"
+          },
+          {
+            "old": "076.0160"
+          },
+          {
+            "old": "076.0161"
+          },
+          {
+            "old": "076.0162"
+          },
+          {
+            "old": "076.0163"
+          },
+          {
+            "old": "076.0164",
+            "set_french": "Et puis je dois vous annoncer que Julian et les autres ont dit à l'atelier des Messieurs que je n'avais ni la main, ni la manière, ni les dispositions d'une femme et que l'on voudrait bien savoir si dans ma famille j'ai de qui tenir, tant de talent et de force, de brutalité même dans le dessin et de courage au travail. Tout de même est-ce absurde que je ne puisse pas encore faire des compositions !"
+          },
+          {
+            "old": "076.0165"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-18.md",
+        "date": "1877-11-18",
+        "heading": "Dimanche 18 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0167"
+          },
+          {
+            "old": "076.0168"
+          },
+          {
+            "old": "076.0169"
+          },
+          {
+            "old": "076.0170"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-19.md",
+        "date": "1877-11-19",
+        "heading": "Lundi 19 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0172"
+          },
+          {
+            "old": "076.0173"
+          },
+          {
+            "old": "076.0174"
+          },
+          {
+            "old": "076.0175"
+          },
+          {
+            "old": "076.0176"
+          },
+          {
+            "old": "076.0177"
+          },
+          {
+            "old": "076.0178"
+          },
+          {
+            "old": "076.0179"
+          },
+          {
+            "old": "076.0180"
+          },
+          {
+            "old": "076.0181"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-20.md",
+        "date": "1877-11-20",
+        "heading": "Mardi 20 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0183",
+            "kind": "rayé"
+          },
+          {
+            "old": "076.0184"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-21.md",
+        "date": "1877-11-21",
+        "heading": "Mercredi 21 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0186"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-22.md",
+        "date": "1877-11-22",
+        "heading": "Jeudi 22 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0188"
+          },
+          {
+            "old": "076.0189"
+          },
+          {
+            "old": "076.0190"
+          },
+          {
+            "old": "076.0191"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-23.md",
+        "date": "1877-11-23",
+        "heading": "Vendredi 23 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0193"
+          },
+          {
+            "old": "076.0194"
+          },
+          {
+            "old": "076.0195"
+          },
+          {
+            "old": "076.0196"
+          },
+          {
+            "old": "076.0197"
+          },
+          {
+            "old": "076.0198"
+          },
+          {
+            "old": "076.0199"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-24.md",
+        "date": "1877-11-24",
+        "heading": "Samedi 24 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0201"
+          },
+          {
+            "old": "076.0202"
+          },
+          {
+            "old": "076.0203"
+          },
+          {
+            "old": "076.0204"
+          },
+          {
+            "old": "076.0205"
+          },
+          {
+            "old": "076.0206"
+          },
+          {
+            "old": "076.0207"
+          },
+          {
+            "old": "076.0208"
+          },
+          {
+            "old": "076.0209"
+          },
+          {
+            "old": "076.0210"
+          },
+          {
+            "old": "076.0211"
+          },
+          {
+            "old": "076.0212"
+          },
+          {
+            "old": "076.0213"
+          },
+          {
+            "old": "076.0214"
+          },
+          {
+            "old": "076.0215"
+          },
+          {
+            "old": "076.0216"
+          },
+          {
+            "old": "076.0217"
+          },
+          {
+            "old": "076.0218"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-25.md",
+        "date": "1877-11-25",
+        "heading": "Dimanche 25 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0220"
+          },
+          {
+            "old": "076.0221"
+          },
+          {
+            "old": "076.0222"
+          },
+          {
+            "old": "076.0223"
+          },
+          {
+            "old": "076.0224"
+          },
+          {
+            "old": "076.0225"
+          },
+          {
+            "old": "076.0226"
+          },
+          {
+            "old": "076.0227"
+          },
+          {
+            "old": "076.0228"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-26.md",
+        "date": "1877-11-26",
+        "heading": "Lundi 26 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0230"
+          },
+          {
+            "old": "076.0231"
+          },
+          {
+            "old": "076.0232"
+          },
+          {
+            "old": "076.0233"
+          },
+          {
+            "old": "076.0234"
+          },
+          {
+            "old": "076.0235"
+          },
+          {
+            "old": "076.0236"
+          },
+          {
+            "old": "076.0237"
+          },
+          {
+            "old": "076.0238"
+          },
+          {
+            "old": "076.0239"
+          },
+          {
+            "old": "076.0240"
+          },
+          {
+            "old": "076.0241"
+          },
+          {
+            "old": "076.0242"
+          },
+          {
+            "old": "076.0243"
+          },
+          {
+            "old": "076.0244"
+          },
+          {
+            "old": "076.0245"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-27.md",
+        "date": "1877-11-27",
+        "heading": "Mardi 27 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0247"
+          },
+          {
+            "old": "076.0248"
+          },
+          {
+            "old": "076.0249"
+          },
+          {
+            "old": "076.0250"
+          },
+          {
+            "old": "076.0251"
+          },
+          {
+            "old": "076.0252"
+          },
+          {
+            "old": "076.0253"
+          },
+          {
+            "old": "076.0254"
+          },
+          {
+            "old": "076.0255"
+          },
+          {
+            "old": "076.0256"
+          },
+          {
+            "old": "076.0257"
+          },
+          {
+            "old": "076.0258"
+          },
+          {
+            "old": "076.0259"
+          },
+          {
+            "old": "076.0260"
+          },
+          {
+            "old": "076.0261"
+          },
+          {
+            "old": "076.0262"
+          },
+          {
+            "old": "076.0263"
+          },
+          {
+            "old": "076.0264"
+          },
+          {
+            "old": "076.0265"
+          },
+          {
+            "old": "076.0266"
+          },
+          {
+            "old": "076.0267"
+          },
+          {
+            "old": "076.0268"
+          },
+          {
+            "old": "076.0269"
+          },
+          {
+            "old": "076.0270"
+          },
+          {
+            "old": "076.0271"
+          },
+          {
+            "old": "076.0272"
+          },
+          {
+            "old": "076.0273"
+          },
+          {
+            "old": "076.0274"
+          },
+          {
+            "old": "076.0275"
+          },
+          {
+            "old": "076.0276"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-28.md",
+        "date": "1877-11-28",
+        "heading": "Mercredi 28 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0278"
+          },
+          {
+            "old": "076.0279"
+          },
+          {
+            "old": "076.0280"
+          },
+          {
+            "old": "076.0281"
+          },
+          {
+            "old": "076.0282"
+          },
+          {
+            "old": "076.0283"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-29.md",
+        "date": "1877-11-29",
+        "heading": "Jeudi 29 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0285"
+          },
+          {
+            "old": "076.0286"
+          },
+          {
+            "old": "076.0287"
+          },
+          {
+            "old": "076.0288"
+          },
+          {
+            "old": "076.0289"
+          },
+          {
+            "old": "076.0290"
+          },
+          {
+            "old": "076.0291"
+          },
+          {
+            "old": "076.0292"
+          }
+        ]
+      },
+      {
+        "file": "1877-11-30.md",
+        "date": "1877-11-30",
+        "heading": "Vendredi 30 novembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0294"
+          },
+          {
+            "old": "076.0295"
+          },
+          {
+            "old": "076.0296"
+          },
+          {
+            "old": "076.0297"
+          },
+          {
+            "old": "076.0298"
+          },
+          {
+            "old": "076.0299"
+          },
+          {
+            "old": "076.0300"
+          },
+          {
+            "old": "076.0301"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-01.md",
+        "date": "1877-12-01",
+        "heading": "Samedi 1er décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0303"
+          },
+          {
+            "old": "076.0304"
+          },
+          {
+            "old": "076.0305"
+          },
+          {
+            "old": "076.0306"
+          },
+          {
+            "old": "076.0307"
+          },
+          {
+            "old": "076.0308"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-02.md",
+        "date": "1877-12-02",
+        "heading": "Dimanche 2 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0310"
+          },
+          {
+            "old": "076.0311"
+          },
+          {
+            "old": "076.0312"
+          },
+          {
+            "old": "076.0313"
+          },
+          {
+            "old": "076.0314"
+          },
+          {
+            "old": "076.0315"
+          },
+          {
+            "old": "076.0316"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-03.md",
+        "date": "1877-12-03",
+        "heading": "Lundi 3 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0318"
+          },
+          {
+            "old": "076.0319"
+          },
+          {
+            "old": "076.0320"
+          },
+          {
+            "old": "076.0321"
+          },
+          {
+            "old": "076.0322"
+          },
+          {
+            "old": "076.0323"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-04.md",
+        "date": "1877-12-04",
+        "heading": "Mardi 4 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0325"
+          },
+          {
+            "old": "076.0326"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-05.md",
+        "date": "1877-12-05",
+        "heading": "Mercredi 5 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0328"
+          },
+          {
+            "old": "076.0329"
+          },
+          {
+            "old": "076.0330"
+          },
+          {
+            "old": "076.0331"
+          },
+          {
+            "old": "076.0332"
+          },
+          {
+            "old": "076.0333"
+          },
+          {
+            "old": "076.0334"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-06.md",
+        "date": "1877-12-06",
+        "heading": "Jeudi 6 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0336"
+          },
+          {
+            "old": "076.0337"
+          },
+          {
+            "new": {
+              "french": "A vingt ans je ne saurai encore rien ! J’ai dix-neuf ans, juste, ou bien moins un mois, puisque je suis venue au monde le 12 novembre, 24; et que je devais venir au monde deux mois plus tard seulement. Comptons 14 novembre, et pour le public ce sera 24 janvier. Donc j’ai dix-neuf ans ! dix-neuf ans ! Et je n’ai encore rien fait et je ne suis encore rien ! Miséricorde et horreur ! C’est à en mourir.",
+              "rsr": "Restored from tome11.docx ¶1207, Mon Journal t.11 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Au printemps de 1880 j’irai en Italie, dans deux ans, peut-être avant. Mais... voilà ce que c’est. Si... je savais d’avance que mes études ne me mèneront qu’à quelque chose de passable je n’en ferais pas du tout et c’est très compréhensible. J’y consacre ma première, ma meilleure jeunesse que j’aurais pu employer à m’amuser... comment ? Aller dans le monde ? Ça m’a réussi, hein ? Courir le monde, aller en Angleterre, en Espagne chercher un mari.",
+              "rsr": "Restored from tome11.docx ¶1208, Mon Journal t.11 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Au lieu de cela je travaille, ce qui peut me mener à la gloire et ce qui peut aussi ne faire que retarder de deux années ce que je viens de dire. Ce dernier n’est pas possible tandis que le premier est probable.",
+              "rsr": "Restored from tome11.docx ¶1209, Mon Journal t.11 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "A vingt-et-un ans j’aurai encore le temps tandis que si je passais encore deux années comme les précédentes je deviendrais folle ou commettrais des horreurs.",
+              "rsr": "Restored from tome11.docx ¶1210, Mon Journal t.11 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tout m’a si mal réussi vraiment... Rome, la Russie, Alexandre... et ce qui est le plus terrible c’est que je me prédisais, je soupçonnais toutes ces défaites. Oui... oui, tout cela est arrivé afin que je me jette dans les Arts autrement je n’aurais peut-être jamais compris comment on travaille, cela n’aurait pas été nécessaire. Et aussi j’adore mon métier mais je ne saurais le séparer de la vanité. C’est si naturel, personne au monde ne ferait des tableaux si on disait que c’est pour qu’ils restent toujours inconnus.",
+              "rsr": "Restored from tome11.docx ¶1211, Mon Journal t.11 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Les envieux et les imbéciles appellent le sentiment qui produit toutes les choses remarquables, Vanité. Les brutes !",
+              "rsr": "Restored from tome11.docx ¶1212, Mon Journal t.11 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Le peintre Tofano est venu.",
+              "rsr": "Restored from tome11.docx ¶1213, Mon Journal t.11 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Allons, allons, deux ans encore, deux ans. Cela me paraît tellement simple que j’ai peur, c’est assez naturel, on est effrayé quand on n’a eu que des coups de pieds.",
+              "rsr": "Restored from tome11.docx ¶1214, Mon Journal t.11 p.74 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-12-07.md",
+        "date": "1877-12-07",
+        "heading": "Vendredi 7 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0339"
+          },
+          {
+            "old": "076.0340"
+          },
+          {
+            "old": "076.0341"
+          },
+          {
+            "old": "076.0342"
+          },
+          {
+            "old": "076.0343"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-08.md",
+        "date": "1877-12-08",
+        "heading": "Samedi 8 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0345"
+          },
+          {
+            "old": "076.0346"
+          },
+          {
+            "old": "076.0347"
+          },
+          {
+            "old": "076.0348"
+          },
+          {
+            "old": "076.0349"
+          },
+          {
+            "old": "076.0350"
+          },
+          {
+            "old": "076.0351"
+          },
+          {
+            "old": "076.0352"
+          },
+          {
+            "old": "076.0353"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-09.md",
+        "date": "1877-12-09",
+        "heading": "Dimanche 9 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0355"
+          },
+          {
+            "old": "076.0356"
+          },
+          {
+            "old": "076.0357"
+          },
+          {
+            "old": "076.0358"
+          },
+          {
+            "old": "076.0359"
+          },
+          {
+            "old": "076.0360"
+          },
+          {
+            "old": "076.0361"
+          },
+          {
+            "old": "076.0362"
+          },
+          {
+            "old": "076.0363"
+          },
+          {
+            "old": "076.0364"
+          },
+          {
+            "old": "076.0365"
+          },
+          {
+            "old": "076.0366"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-10.md",
+        "date": "1877-12-10",
+        "heading": "Lundi 10 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0368"
+          },
+          {
+            "old": "076.0369"
+          },
+          {
+            "old": "076.0370"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-11.md",
+        "date": "1877-12-11",
+        "heading": "Mardi 11 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0372"
+          },
+          {
+            "old": "076.0373"
+          },
+          {
+            "old": "076.0374"
+          },
+          {
+            "old": "076.0375"
+          },
+          {
+            "old": "076.0376"
+          },
+          {
+            "old": "076.0377"
+          },
+          {
+            "old": "076.0378"
+          },
+          {
+            "old": "076.0379"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-12.md",
+        "date": "1877-12-12",
+        "heading": "Mercredi 12 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0381"
+          },
+          {
+            "old": "076.0382"
+          },
+          {
+            "old": "076.0383"
+          },
+          {
+            "old": "076.0384"
+          },
+          {
+            "old": "076.0385"
+          },
+          {
+            "old": "076.0386"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-13.md",
+        "date": "1877-12-13",
+        "heading": "Jeudi 13 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0388"
+          },
+          {
+            "old": "076.0389"
+          },
+          {
+            "old": "076.0390"
+          },
+          {
+            "old": "076.0391",
+            "kind": "letter",
+            "source": "Lettre de F. de Marcuard, 12 décembre 1877",
+            "set_french": "> Mercredi 12 décembre 1877"
+          },
+          {
+            "old": "076.0392",
+            "kind": "letter",
+            "source": "Lettre de F. de Marcuard, 12 décembre 1877"
+          },
+          {
+            "old": "076.0393",
+            "kind": "letter",
+            "source": "Lettre de F. de Marcuard, 12 décembre 1877"
+          },
+          {
+            "old": "076.0394",
+            "kind": "letter",
+            "source": "Lettre de F. de Marcuard, 12 décembre 1877"
+          },
+          {
+            "old": "076.0395",
+            "kind": "letter",
+            "source": "Lettre de F. de Marcuard, 12 décembre 1877"
+          },
+          {
+            "old": "076.0396",
+            "kind": "letter",
+            "source": "Lettre de F. de Marcuard, 12 décembre 1877"
+          },
+          {
+            "old": "076.0397",
+            "kind": "letter",
+            "source": "Lettre de F. de Marcuard, 12 décembre 1877"
+          },
+          {
+            "old": "076.0398",
+            "kind": "letter",
+            "source": "Lettre de F. de Marcuard, 12 décembre 1877"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-14.md",
+        "date": "1877-12-14",
+        "heading": "Vendredi 14 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0400"
+          },
+          {
+            "old": "076.0401"
+          },
+          {
+            "old": "076.0402"
+          },
+          {
+            "old": "076.0403"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-15.md",
+        "date": "1877-12-15",
+        "heading": "Samedi 15 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0405"
+          },
+          {
+            "old": "076.0407"
+          },
+          {
+            "old": "076.0408"
+          },
+          {
+            "old": "076.0409"
+          },
+          {
+            "old": "076.0410"
+          },
+          {
+            "old": "076.0411"
+          },
+          {
+            "old": "076.0412"
+          },
+          {
+            "old": "076.0413"
+          },
+          {
+            "old": "076.0414",
+            "set_french": "Ah ! misérable, Ah ! crétine, Ah ! vaurienne, Ah ! sàie, indigne, abominable, vaine, inutile, absurde, ennnuyée, ennuyeuse, ridicule, faible, folle, lâche, sàie, sàie, sàie !!"
+          },
+          {
+            "old": "076.0415"
+          },
+          {
+            "old": "076.0416"
+          },
+          {
+            "old": "076.0417"
+          },
+          {
+            "old": "076.0418",
+            "set_french": "Je continue ma jambe et arrivée à la cheville me lève et lui demande d'un air bonhomme de quel droit elle veut que ces demoiselles, élèves de MM. Julian et Robert-Fleury comme elle, se retirent. [Deux lignes barrées: le tout avec un air comique des plus superbes]. La fille rage ne sachant que répondre, je vais me rasseoir tranquillement, pensant : elle va faire en sorte que la plupart des élèves se retireront et ce sera raté. C'est ce qui arrive en effet. Alors je lance par Rosalie qui le dit à la bonne que si tout l'atelier se refuse à poser, moi, les Suissesses et encore quelques unes poserons seules et offrirons ce portrait aux maîtres en leur disant que certaines difficultés étant survenues les autres ont refusé de prendre part à ce léger hommage. Et pour mieux faire voir à Amélie que je me refuse absolument à la reconnaître comme supérieure, ainsi que l'on laissé faire les malheureuses qui ne parlent pas français ou des Françaises qui cherchent une protection et des cancans, j'offre de briser la tirelire ce matin à neuf heures, c'était avant l'arrivée de la terrible Espagnole. On appuie la proposition. On l'exécute et je compte cent sept francs et un sou. Puis je vais annoncer le résultat dans le salon des plâtres."
+          },
+          {
+            "new": {
+              "french": "Est-ce que Mlle Amélie est là ? me demande une sorte de fruitière qui apprend à sa fille le dessin.",
+              "rsr": "Restored from tome11.docx ¶1313, Mon Journal t.11 p.81 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Non Madame.",
+              "rsr": "Restored from tome11.docx ¶1314, Mon Journal t.11 p.81 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "C’est étrange, j’ai cru que c’était elle qui avait...",
+              "rsr": "Restored from tome11.docx ¶1315, Mon Journal t.11 p.81 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce sont toutes les élèves Madame, qui ont donné, ce sont également toutes les élèves qui ont voulu savoir le résultat et c’est devant elles que l’on a brisé la tirelire. Bonjour Madame.",
+              "rsr": "Restored from tome11.docx ¶1316, Mon Journal t.11 p.81 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Amélie est arrivée et n’a rien dit, mais je puis me vanter d’avoir une haine de plus contre moi.",
+              "rsr": "Restored from tome11.docx ¶1317, Mon Journal t.11 p.81 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je puis aussi me vanter que je m’en fiche tout à fait. La fille est fausse, bête, remplie de son esprit, disant des vieilles plaisanteries que les Danoises prennent pour de l’esprit vrai.",
+              "rsr": "Restored from tome11.docx ¶1318, Mon Journal t.11 p.81 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Maintenant c’est fini je crois. Demain on pose. Et s’il y a quelques tripotage je fais comme j’ai dit.",
+              "rsr": "Restored from tome11.docx ¶1319, Mon Journal t.11 p.81 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ça a duré trois jours. Et moi, toujours polie et toujours disant tout haut les choses moitié railleuse et moitié sérieuse. Bref, je suis satisfaite de ma façon d’agir. Air innocent, conduite ferme, souple et fine, jamais une parole de trop. Hier [Mots noircis: air impérieux comme toujours mais en même] temps bon enfant et simple, [Mots cancellés: en disant les choses les plus fortes]. On rage contre moi et je conserve mon calme puisque je ne crains rien, et joue Cassagnac à tout rompre. Je vous dis Cassagnac pour vous faire comprendre, sans cela je vous assure que je suis bien moi-même.",
+              "rsr": "Restored from tome11.docx ¶1320, Mon Journal t.11 p.81 (missing from original extraction, 2026-09-28 rebuild). OCR slip «en môme]» corrected to «en même]» (Mon Journal t.11 p.81)."
+            }
+          },
+          {
+            "new": {
+              "french": "Après tout “je ne me suis mêlée de rien et ne suis ici que pour travailler, vous devriez vous souvenir de cela Breslau, vous qui avez des dispositions, qui aurez du talent, au lieu de vous user au métier de portières et d’imbéciles, souvenez-vous en et faites comme moi”.",
+              "rsr": "Restored from tome11.docx ¶1321, Mon Journal t.11 p.81 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et comme jusqu’à présent c’est moi qui ai le dessus je souris à tout le monde avec ma condescendance, mon affabilité, ma grâce, ma bonté, mon amabilité etc. etc. ordinaire.",
+              "rsr": "Restored from tome11.docx ¶1322–1325, Mon Journal t.11 pp.81–82 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Toutes les qualités d’une souveraine qui se fait humble par plaisir... et c’est un plaisir immense !",
+              "rsr": "Restored from tome11.docx ¶1326, Mon Journal t.11 p.82 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Berthe est venue, elle n’est pas amusante.",
+              "rsr": "Restored from tome11.docx ¶1327, Mon Journal t.11 p.82 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne sais pas dessiner !",
+              "rsr": "Restored from tome11.docx ¶1328, Mon Journal t.11 p.82 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah ! misérable, c’est ta faute.",
+              "rsr": "Restored from tome11.docx ¶1329, Mon Journal t.11 p.82 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ]
+      },
+      {
+        "file": "1877-12-16.md",
+        "date": "1877-12-16",
+        "heading": "Dimanche 16 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0420"
+          },
+          {
+            "old": "076.0421"
+          },
+          {
+            "old": "076.0422"
+          },
+          {
+            "old": "076.0423"
+          },
+          {
+            "old": "076.0424"
+          },
+          {
+            "old": "076.0425"
+          },
+          {
+            "old": "076.0426"
+          },
+          {
+            "old": "076.0427"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-17.md",
+        "date": "1877-12-17",
+        "heading": "Lundi 17 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0429"
+          },
+          {
+            "old": "076.0430"
+          },
+          {
+            "old": "076.0431",
+            "kind": "letter",
+            "source": "Billet de Marie à Blanc, 17 décembre 1877"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-18.md",
+        "date": "1877-12-18",
+        "heading": "Mardi 18 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0433"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-19.md",
+        "date": "1877-12-19",
+        "heading": "Mercredi 19 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0435"
+          },
+          {
+            "old": "076.0436"
+          },
+          {
+            "old": "076.0437"
+          },
+          {
+            "old": "076.0438"
+          },
+          {
+            "old": "076.0439"
+          },
+          {
+            "old": "076.0440"
+          },
+          {
+            "old": "076.0441"
+          },
+          {
+            "old": "076.0442"
+          },
+          {
+            "old": "076.0443"
+          },
+          {
+            "old": "076.0444"
+          },
+          {
+            "old": "076.0445"
+          },
+          {
+            "old": "076.0446"
+          },
+          {
+            "old": "076.0447"
+          },
+          {
+            "old": "076.0448"
+          },
+          {
+            "old": "076.0449"
+          },
+          {
+            "old": "076.0450"
+          },
+          {
+            "old": "076.0451"
+          },
+          {
+            "old": "076.0452"
+          },
+          {
+            "old": "076.0453"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-20.md",
+        "date": "1877-12-20",
+        "heading": "Jeudi 20 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0455"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-21.md",
+        "date": "1877-12-21",
+        "heading": "Vendredi 21 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0457"
+          },
+          {
+            "old": "076.0458"
+          },
+          {
+            "old": "076.0459"
+          },
+          {
+            "old": "076.0460"
+          },
+          {
+            "old": "076.0461"
+          },
+          {
+            "old": "076.0462"
+          }
+        ]
+      },
+      {
+        "file": "1877-12-22.md",
+        "date": "1877-12-22",
+        "heading": "Samedi 22 décembre 1877",
+        "paragraphs": [
+          {
+            "old": "076.0464"
+          },
+          {
+            "old": "076.0465"
+          },
+          {
+            "old": "076.0466"
+          },
+          {
+            "old": "076.0467"
+          },
+          {
+            "old": "076.0468"
+          },
+          {
+            "old": "076.0469"
+          },
+          {
+            "old": "076.0470"
+          },
+          {
+            "old": "076.0471"
+          },
+          {
+            "old": "076.0472"
+          },
+          {
+            "old": "076.0473"
+          },
+          {
+            "old": "076.0474"
+          },
+          {
+            "old": "076.0475"
+          },
+          {
+            "old": "076.0476"
+          },
+          {
+            "old": "076.0477"
+          },
+          {
+            "old": "076.0478",
+            "kind": "margin"
+          },
+          {
+            "old": "076.0479"
+          },
+          {
+            "old": "076.0480"
+          },
+          {
+            "old": "076.0481"
+          },
+          {
+            "old": "076.0482"
+          },
+          {
+            "old": "076.0483"
+          }
+        ]
+      }
+    ]
+  }
+}

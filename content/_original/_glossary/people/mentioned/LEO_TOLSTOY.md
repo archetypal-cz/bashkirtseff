@@ -26,9 +26,9 @@ Count Lev Nikolayevich Tolstoy (1828-1910), the Russian novelist, author of *War
 
 ## Relevance to Marie
 
-On 15 July 1884, in carnet 105 (paras 105.0217-0220, 105.0226), Marie writes about reading Tolstoy's *War and Peace* — she gives the title in reversed form, "la Paix et la guerre du Comte Tolstoï" — some years earlier and being struck by its resemblance to Zola: "j'en ai été frappée au point de m'écrier : mais c'est comme Zola !" She notes that a study on "notre Tolstoï" ("our Tolstoy," claiming him with Russian pride) has just appeared in the *Revue des Deux Mondes*, written by [M. de Vogüé](../../culture/literature/DE_VOGUE.md) (para 105.0218) — this is Eugène-Melchior de Vogüé's essay "Les écrivains russes contemporains: le comte Léon Tolstoï," published in the *Revue des Deux Mondes* in 1884.
+On 15 July 1884, in carnet 105 (paras 105.0207-0220, 105.0216), Marie writes about reading Tolstoy's *War and Peace* — she gives the title in reversed form, "la Paix et la guerre du Comte Tolstoï" — some years earlier and being struck by its resemblance to Zola: "j'en ai été frappée au point de m'écrier : mais c'est comme Zola !" She notes that a study on "notre Tolstoï" ("our Tolstoy," claiming him with Russian pride) has just appeared in the *Revue des Deux Mondes*, written by [M. de Vogüé](../../culture/literature/DE_VOGUE.md) (para 105.0208) — this is Eugène-Melchior de Vogüé's essay "Les écrivains russes contemporains: le comte Léon Tolstoï," published in the *Revue des Deux Mondes* in 1884.
 
-Marie draws out a comparison and a contrast between Tolstoy and the French naturalists (Zola, Maupassant): both "grands" (great), but Tolstoy, unlike Zola and especially Maupassant, does not dwell obsessively on sex and desire even while "avoiding nothing" (105.0219). She closes the passage (para 105.0226) wishing for artistic glory of Tolstoy's caliber for her own country: "si jamais j'ai un grand talent comme Tolstoï, n'est-ce pas plus glorieux que les bombes de dynamite ?" — tying her Russian patriotism and her artistic ambition together in one of the diary's more striking passages of national and literary self-reflection, written three months before her death.
+Marie draws out a comparison and a contrast between Tolstoy and the French naturalists (Zola, Maupassant): both "grands" (great), but Tolstoy, unlike Zola and especially Maupassant, does not dwell obsessively on sex and desire even while "avoiding nothing" (105.0209). She closes the passage (para 105.0216) wishing for artistic glory of Tolstoy's caliber for her own country: "si jamais j'ai un grand talent comme Tolstoï, n'est-ce pas plus glorieux que les bombes de dynamite ?" — tying her Russian patriotism and her artistic ambition together in one of the diary's more striking passages of national and literary self-reflection, written three months before her death.
 
 ## Historical Context
 
@@ -36,6 +36,6 @@ Tolstoy completed *War and Peace* in 1869 and *Anna Karenina* in 1877-78; by 188
 
 ## References in Diary
 
-- Sole direct mention: 1884-07-15 (carnet 105, paras 105.0217, 105.0219, 105.0220, 105.0226)
+- Sole direct mention: 1884-07-15 (carnet 105, paras 105.0207, 105.0209, 105.0210, 105.0216)
 
 %% 2026-07-06T21:00:00 RSR: Created per report-triage flag (2026-07-06 session) — 5 "Tolstoï" mentions in 105/1884-07-15 were previously untagged because the only existing TOLSTOY glossary entries document an unrelated Nice-expatriate family. Sourced via WebSearch: Vogüé's "Les écrivains russes contemporains. Le comte Léon Tolstoï" (Revue des Deux Mondes, 1884) confirmed as the exact study Marie references. %%

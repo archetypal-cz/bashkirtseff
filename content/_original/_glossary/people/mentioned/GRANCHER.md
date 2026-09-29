@@ -18,7 +18,7 @@ Jacques-Joseph Grancher (1843-1907) was a prominent French physician, later reno
 
 ## Relevance to Marie
 
-Marie's regular physician, [Potain](POTAIN.md), examines her on 3 July 1884 (105.0017-0020) and finds a cavity ("excavation") at the top of her right lung. That same day, a young doctor on the rue de l'Échiquier — likely [Béclère](BECLERE.md) — is alarmed enough by her condition to press her to consult "un prince de la science, Bouchard ou Grancher" (105.0019). Marie initially refuses, but Béclère "veut absolument me mener chez ce Grancher" (105.0021). She does go: on 7 July 1884 (105.0100), "Monsieur Grancher me promet de me guérir en deux années de traitement vigoureux et rigoureux" ("Monsieur Grancher promises to cure me with two years of vigorous, rigorous treatment") — a promise that, given Marie's death from tuberculosis three months later, reads with heavy irony in retrospect.
+Marie's regular physician, [Potain](POTAIN.md), examines her on 3 July 1884 (105.0016-0020) and finds a cavity ("excavation") at the top of her right lung. That same day, a young doctor on the rue de l'Échiquier — likely [Béclère](BECLERE.md) — is alarmed enough by her condition to press her to consult "un prince de la science, Bouchard ou Grancher" (105.0018). Marie initially refuses, but Béclère "veut absolument me mener chez ce Grancher" (105.0020). She does go: on 7 July 1884 (105.0093), "Monsieur Grancher me promet de me guérir en deux années de traitement vigoureux et rigoureux" ("Monsieur Grancher promises to cure me with two years of vigorous, rigorous treatment") — a promise that, given Marie's death from tuberculosis three months later, reads with heavy irony in retrospect.
 
 ## Historical Context
 
@@ -26,8 +26,8 @@ By 1884 Grancher, still relatively early in his career (he would meet Pasteur th
 
 ## References in Diary
 
-- 1884-07-03 (para 105.0019): named as a recommended specialist ("Bouchard ou Grancher")
-- 1884-07-07 (para 105.0100): Marie consults him; he predicts a two-year recovery
+- 1884-07-03 (para 105.0018): named as a recommended specialist ("Bouchard ou Grancher")
+- 1884-07-07 (para 105.0093): Marie consults him; he predicts a two-year recovery
 
 Sources: Wikipedia ([Jacques-Joseph Grancher](https://en.wikipedia.org/wiki/Jacques-Joseph_Grancher)); Institut Pasteur historical notes.
 

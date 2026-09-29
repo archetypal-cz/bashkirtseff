@@ -1,0 +1,3065 @@
+{
+ "carnet": "080",
+ "source": "tome11.docx",
+ "drop": [
+  {
+   "id": "080.0006",
+   "reason": "title page of the notebook (Livre heading, dates, address): cover pages are withdrawn (owner policy 2026-09-28); text kept in REVIEW.md «withdrawn cover pages»"
+  },
+  {
+   "id": "080.0007",
+   "reason": "title page of the notebook (Livre heading, dates, address): cover pages are withdrawn (owner policy 2026-09-28); text kept in REVIEW.md «withdrawn cover pages»"
+  },
+  {
+   "id": "080.0008",
+   "reason": "title page of the notebook (Livre heading, dates, address): cover pages are withdrawn (owner policy 2026-09-28); text kept in REVIEW.md «withdrawn cover pages»"
+  },
+  {
+   "id": "080.0009",
+   "reason": "joined into 080.0010 (Marie's annotation on the Livre 80 title page, one margin paragraph; owner decision 2026-09-28)"
+  },
+  {
+   "id": "080.0019",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0031",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0048",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0058",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0073",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0088",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0092",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0143",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0150",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0163",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0170",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0177",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0184",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0208",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0227",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0277",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0293",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0301",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0322",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0336",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0346",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0364",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0368",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0404",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0408",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0425",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0433",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0449",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0461",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0479",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0489",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0516",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0532",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0553",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0626",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0647",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0666",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0685",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0698",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0704",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0726",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0749",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0765",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+  },
+  {
+   "id": "080.0774",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0794",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0797",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  },
+  {
+   "id": "080.0800",
+   "reason": "printed-edition footnote (source citation of the 2005 transcription, «Ibid. p. N» / L'Age d'Homme edition), not in the manuscript; the printed edition's footnotes stay out (owner policy 2026-09-28)"
+  },
+  {
+   "id": "080.0812",
+   "reason": "empty placeholder cluster (no text in _original or any translation)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1878-05-04.md",
+   "date": "1878-05-04",
+   "heading": "Samedi 4 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0010",
+     "kind": "margin",
+     "source": "annotation de Marie sur la page de titre du Livre 80",
+     "set_french": "Annotation :\nFemme nue, tête dans l'ombre cela en lumière pour Florence, loin d'une école de garçons vue de la mer, le pont."
+    },
+    {
+     "old": "080.0011"
+    },
+    {
+     "old": "080.0012"
+    },
+    {
+     "old": "080.0013"
+    },
+    {
+     "old": "080.0014"
+    },
+    {
+     "old": "080.0015"
+    },
+    {
+     "old": "080.0016"
+    },
+    {
+     "old": "080.0017"
+    },
+    {
+     "old": "080.0018"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-05.md",
+   "date": "1878-05-05",
+   "heading": "Dimanche 5 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0020"
+    },
+    {
+     "old": "080.0021"
+    },
+    {
+     "old": "080.0022"
+    },
+    {
+     "old": "080.0023"
+    },
+    {
+     "old": "080.0024"
+    },
+    {
+     "old": "080.0025"
+    },
+    {
+     "old": "080.0026"
+    },
+    {
+     "old": "080.0027"
+    },
+    {
+     "old": "080.0028"
+    },
+    {
+     "old": "080.0029"
+    },
+    {
+     "old": "080.0030"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-06.md",
+   "date": "1878-05-06",
+   "heading": "Lundi 6 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0032"
+    },
+    {
+     "old": "080.0033"
+    },
+    {
+     "old": "080.0034"
+    },
+    {
+     "old": "080.0035"
+    },
+    {
+     "old": "080.0036"
+    },
+    {
+     "old": "080.0037"
+    },
+    {
+     "old": "080.0038",
+     "kind": "margin"
+    },
+    {
+     "old": "080.0039"
+    },
+    {
+     "old": "080.0040"
+    },
+    {
+     "old": "080.0041"
+    },
+    {
+     "old": "080.0042",
+     "kind": "margin"
+    },
+    {
+     "old": "080.0043",
+     "set_french": "Passons, ce n'est pas intéressant. Donc voilà, je repense [à] toutes les belles choses écrites pendant la pose avec Schaeppi. En effet, quel dommage et quel ennui !.. Un instant j'ai cru que cela me ferait plus de peine que l'on ne peut penser mais au bout d'une heure de ces raisonnements impitoyables que j'ai gagné à force de pratiquer les contrariétés dans mon existence antérieure, mon ennui réduit à sa plus simple expression est une chose confuse à laquelle je n'ai pas la moindre envie de croire qui m'embête profondément et que je trouve tout à fait atroce."
+    },
+    {
+     "old": "080.0044"
+    },
+    {
+     "old": "080.0045"
+    },
+    {
+     "old": "080.0046"
+    },
+    {
+     "old": "080.0047"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-07.md",
+   "date": "1878-05-07",
+   "heading": "Mardi 7 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0049"
+    },
+    {
+     "old": "080.0050"
+    },
+    {
+     "old": "080.0051"
+    },
+    {
+     "old": "080.0052"
+    },
+    {
+     "old": "080.0053"
+    },
+    {
+     "old": "080.0054"
+    },
+    {
+     "old": "080.0055"
+    },
+    {
+     "old": "080.0056"
+    },
+    {
+     "old": "080.0057"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-08.md",
+   "date": "1878-05-08",
+   "heading": "Mercredi 8 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0059"
+    },
+    {
+     "old": "080.0060"
+    },
+    {
+     "old": "080.0061"
+    },
+    {
+     "old": "080.0062"
+    },
+    {
+     "old": "080.0063"
+    },
+    {
+     "old": "080.0064"
+    },
+    {
+     "old": "080.0065"
+    },
+    {
+     "old": "080.0066",
+     "kind": "editorial"
+    },
+    {
+     "old": "080.0067"
+    },
+    {
+     "old": "080.0068"
+    },
+    {
+     "old": "080.0069"
+    },
+    {
+     "old": "080.0070"
+    },
+    {
+     "old": "080.0071"
+    },
+    {
+     "old": "080.0072"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-09.md",
+   "date": "1878-05-09",
+   "heading": "Jeudi 9 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0074"
+    },
+    {
+     "old": "080.0075"
+    },
+    {
+     "old": "080.0076"
+    },
+    {
+     "old": "080.0077"
+    },
+    {
+     "old": "080.0078"
+    },
+    {
+     "old": "080.0079"
+    },
+    {
+     "old": "080.0080"
+    },
+    {
+     "old": "080.0081"
+    },
+    {
+     "old": "080.0082"
+    },
+    {
+     "old": "080.0083"
+    },
+    {
+     "old": "080.0084"
+    },
+    {
+     "old": "080.0085"
+    },
+    {
+     "old": "080.0086"
+    },
+    {
+     "old": "080.0087"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-10.md",
+   "date": "1878-05-10",
+   "heading": "Vendredi 10 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0089"
+    },
+    {
+     "old": "080.0090"
+    },
+    {
+     "old": "080.0091"
+    },
+    {
+     "old": "080.0093",
+     "set_french": "Il n'en aura que plus de charme pour les femmes, de grandeur pour les hommes. Je sais que l'on dit... Le docteur Michel le disait encore ce soir lorsque je lui ai annoncé le fameux mariage, il disait après bien des réticences qu'il ne se mariera jamais parce qu'il a au cou une chaîne d'or. C'est une grande saleté et tout à fait invraisemblable. Son journal tire à 4.000, 4.500, mais avec ses gages de député il a en tout de 20 à 24.000 francs par an. Il ne paraît pas plus. L'hôtel coûte 4.000 francs par an. En fait de domestique il y a le valet de chambre, sa fille et sa femme une grosse cuisinière qui ouvre la porte et, si ce sont des femmes, détourne la tête et s'enfuit avec une grande discrétion qui peint les mœurs du logis. Et il y a de sales serpents qui sifflent qu'il est payé par une femme et que l'impératrice lui donne de l'argent... Ce dernier est très naturel mais pour le parti et pas pour lui."
+    },
+    {
+     "old": "080.0094"
+    },
+    {
+     "old": "080.0095"
+    },
+    {
+     "old": "080.0096"
+    },
+    {
+     "old": "080.0097"
+    },
+    {
+     "old": "080.0098"
+    },
+    {
+     "old": "080.0099"
+    },
+    {
+     "old": "080.0100"
+    },
+    {
+     "old": "080.0101"
+    },
+    {
+     "old": "080.0102"
+    },
+    {
+     "old": "080.0103"
+    },
+    {
+     "old": "080.0104"
+    },
+    {
+     "old": "080.0105"
+    },
+    {
+     "old": "080.0106"
+    },
+    {
+     "old": "080.0107"
+    },
+    {
+     "old": "080.0108"
+    },
+    {
+     "old": "080.0109"
+    },
+    {
+     "old": "080.0110"
+    },
+    {
+     "old": "080.0111"
+    },
+    {
+     "old": "080.0112"
+    },
+    {
+     "old": "080.0113"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-11.md",
+   "date": "1878-05-11",
+   "heading": "Samedi 11 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0114"
+    },
+    {
+     "old": "080.0115"
+    },
+    {
+     "old": "080.0116"
+    },
+    {
+     "old": "080.0117"
+    },
+    {
+     "old": "080.0118"
+    },
+    {
+     "old": "080.0119"
+    },
+    {
+     "old": "080.0120"
+    },
+    {
+     "old": "080.0121"
+    },
+    {
+     "old": "080.0122"
+    },
+    {
+     "old": "080.0123"
+    },
+    {
+     "old": "080.0124"
+    },
+    {
+     "old": "080.0125"
+    },
+    {
+     "old": "080.0126"
+    },
+    {
+     "old": "080.0127"
+    },
+    {
+     "old": "080.0128"
+    },
+    {
+     "old": "080.0129"
+    },
+    {
+     "old": "080.0130"
+    },
+    {
+     "old": "080.0131"
+    },
+    {
+     "old": "080.0132"
+    },
+    {
+     "old": "080.0133"
+    },
+    {
+     "old": "080.0134"
+    },
+    {
+     "old": "080.0135"
+    },
+    {
+     "old": "080.0136"
+    },
+    {
+     "old": "080.0137"
+    },
+    {
+     "old": "080.0138"
+    },
+    {
+     "old": "080.0139"
+    },
+    {
+     "old": "080.0140"
+    },
+    {
+     "old": "080.0141"
+    },
+    {
+     "old": "080.0142"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-12.md",
+   "date": "1878-05-12",
+   "heading": "Dimanche 12 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0144"
+    },
+    {
+     "old": "080.0145"
+    },
+    {
+     "old": "080.0146"
+    },
+    {
+     "old": "080.0147"
+    },
+    {
+     "old": "080.0148"
+    },
+    {
+     "old": "080.0149"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-13.md",
+   "date": "1878-05-13",
+   "heading": "Lundi 13 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0151"
+    },
+    {
+     "old": "080.0152"
+    },
+    {
+     "old": "080.0153"
+    },
+    {
+     "old": "080.0154"
+    },
+    {
+     "old": "080.0155"
+    },
+    {
+     "old": "080.0156"
+    },
+    {
+     "old": "080.0157"
+    },
+    {
+     "old": "080.0158"
+    },
+    {
+     "old": "080.0159"
+    },
+    {
+     "old": "080.0160"
+    },
+    {
+     "old": "080.0161"
+    },
+    {
+     "old": "080.0162"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-14.md",
+   "date": "1878-05-14",
+   "heading": "Mardi 14 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0164"
+    },
+    {
+     "old": "080.0165"
+    },
+    {
+     "old": "080.0166"
+    },
+    {
+     "old": "080.0167",
+     "set_french": "Le prince de Bourbon a fait une cour assidue à ma tante pendant qu'elle était à Nice, et lui jurait tous les jours qu'il n'avait pas demandé Mlle Blanc en mariage. Si j'avais seulement 100.000 francs de rente je le prendrais tout de suite."
+    },
+    {
+     "old": "080.0168"
+    },
+    {
+     "old": "080.0169"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-15.md",
+   "date": "1878-05-15",
+   "heading": "Mercredi 15 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0171"
+    },
+    {
+     "old": "080.0172"
+    },
+    {
+     "old": "080.0173"
+    },
+    {
+     "old": "080.0174"
+    },
+    {
+     "old": "080.0175"
+    },
+    {
+     "old": "080.0176"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-16.md",
+   "date": "1878-05-16",
+   "heading": "Jeudi 16 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0178"
+    },
+    {
+     "old": "080.0179"
+    },
+    {
+     "old": "080.0180"
+    },
+    {
+     "old": "080.0181"
+    },
+    {
+     "old": "080.0182"
+    },
+    {
+     "old": "080.0183"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-17.md",
+   "date": "1878-05-17",
+   "heading": "Vendredi 17 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0185",
+     "set_french": "# Vendredi 17 mai 1878\nJe me ferais bien communarde rien que pour faire sauter"
+    },
+    {
+     "old": "080.0186"
+    },
+    {
+     "old": "080.0187"
+    },
+    {
+     "old": "080.0188"
+    },
+    {
+     "old": "080.0189"
+    },
+    {
+     "old": "080.0190"
+    },
+    {
+     "old": "080.0191"
+    },
+    {
+     "old": "080.0192"
+    },
+    {
+     "old": "080.0193"
+    },
+    {
+     "old": "080.0194"
+    },
+    {
+     "old": "080.0195"
+    },
+    {
+     "old": "080.0196"
+    },
+    {
+     "old": "080.0197"
+    },
+    {
+     "old": "080.0198"
+    }
+   ],
+   "frontmatter_from": "1878-05-17.md"
+  },
+  {
+   "file": "1878-05-18.md",
+   "date": "1878-05-18",
+   "heading": "Samedi 18 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0199"
+    },
+    {
+     "old": "080.0200"
+    },
+    {
+     "old": "080.0201"
+    },
+    {
+     "old": "080.0202"
+    },
+    {
+     "old": "080.0203",
+     "kind": "letter",
+     "source": "Lettre de Jeanne Suermondt, Halfweg, 14 mai 1878",
+     "set_french": "> Halfweg 14 mai 1878 Ma chère Marie"
+    },
+    {
+     "old": "080.0204",
+     "kind": "letter",
+     "source": "Lettre de Jeanne Suermondt, Halfweg, 14 mai 1878",
+     "set_french": "> J'étais bien contente de recevoir de tes nouvelles et surtout de savoir que tu ne m'avais pas encore oubliée, me voilà mariée depuis un an bientôt, et maman t'aura bien raconté(é) que j'attends avec bonheur un bon gros bébé qui doit arriver dans quelques semaines."
+    },
+    {
+     "old": "080.0205",
+     "kind": "letter",
+     "source": "Lettre de Jeanne Suermondt, Halfweg, 14 mai 1878",
+     "set_french": "> Vraiment Marie je serai bien contente lorsque tu m'écriras la nouvelle de ton mariage je ne saurais que de te le recommander, toujours, si tu trouves un bon et jeune mari et que vous vous aimez autant que mon Louis et moi. Il n'a que 24 ans moi 19 mais il a déjà beaucoup vu et fait; il est officier de marine et a été dans la guerre d'Atchine, mais comme je ne voulais pas de mari qui serait toujours sur la mer au lieu d'être près de moi, il est sorti de la marine et est maintenant économe. Nous demeurons dans un petit village situé entre Haarlem et Amsterdam; le train s'arrête heureusement ici, de sorte que je puis aller dans un quart d'heure dans une de ces deux villes, ce dont j'ai bien profité cet hiver."
+    },
+    {
+     "old": "080.0206",
+     "kind": "letter",
+     "source": "Lettre de Jeanne Suermondt, Halfweg, 14 mai 1878",
+     "set_french": "> Tu m'écris que tu t'occupes de peinture, et dans une lettre précédente tu me disais que l'étude de toutes sortes de langues prenait presque tout ton temps; mais ! tu veux donc devenir une savante ? et pourquoi ne vas-tu pas dans le monde ?! tu ne te trouves pourtant pas encore trop vieille ? Comment se portent ta maman et Dina ? Veux-tu leur dire beaucoup de bonnes choses de ma part ? Et Paul ? où est-il ? a t-ll toujours sa barbe ? Oh ! voilà que j'oublie de te remercier pour ton portrait, tu n'es pas du tout changée, et je suis bien contente d'avoir ta figure ici. Maman a encore de mes photographies, je lui en demanderai une pour te l'envoyer. Ma bonne Marie, reçois les amitiés de mon mari et les meilleurs baisers de ton amie."
+    },
+    {
+     "old": "080.0207",
+     "kind": "letter",
+     "source": "Lettre de Jeanne Suermondt, Halfweg, 14 mai 1878",
+     "set_french": "> Jeanne Suermondt"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-19.md",
+   "date": "1878-05-19",
+   "heading": "Dimanche 19 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0209"
+    },
+    {
+     "old": "080.0210"
+    },
+    {
+     "old": "080.0211"
+    },
+    {
+     "old": "080.0212"
+    },
+    {
+     "old": "080.0213"
+    },
+    {
+     "old": "080.0214"
+    },
+    {
+     "old": "080.0215"
+    },
+    {
+     "old": "080.0216"
+    },
+    {
+     "old": "080.0217"
+    },
+    {
+     "old": "080.0218"
+    },
+    {
+     "old": "080.0219"
+    },
+    {
+     "old": "080.0220",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [dimanche 19 mai 1878]"
+    },
+    {
+     "old": "080.0221",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [dimanche 19 mai 1878]"
+    },
+    {
+     "old": "080.0222",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [dimanche 19 mai 1878]"
+    },
+    {
+     "old": "080.0223",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [dimanche 19 mai 1878]"
+    },
+    {
+     "old": "080.0224",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [dimanche 19 mai 1878]"
+    },
+    {
+     "old": "080.0225",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [dimanche 19 mai 1878]"
+    },
+    {
+     "old": "080.0226"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-20.md",
+   "date": "1878-05-20",
+   "heading": "Lundi 20 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0228"
+    },
+    {
+     "old": "080.0229"
+    },
+    {
+     "old": "080.0230"
+    },
+    {
+     "old": "080.0231"
+    },
+    {
+     "old": "080.0232"
+    },
+    {
+     "old": "080.0233"
+    },
+    {
+     "old": "080.0234"
+    },
+    {
+     "old": "080.0235"
+    },
+    {
+     "old": "080.0236"
+    },
+    {
+     "old": "080.0237"
+    },
+    {
+     "old": "080.0238"
+    },
+    {
+     "old": "080.0239"
+    },
+    {
+     "old": "080.0240"
+    },
+    {
+     "old": "080.0241"
+    },
+    {
+     "old": "080.0242"
+    },
+    {
+     "old": "080.0243"
+    },
+    {
+     "old": "080.0244"
+    },
+    {
+     "old": "080.0245"
+    },
+    {
+     "old": "080.0246"
+    },
+    {
+     "old": "080.0247"
+    },
+    {
+     "old": "080.0248"
+    },
+    {
+     "old": "080.0249"
+    },
+    {
+     "old": "080.0250",
+     "kind": "margin"
+    },
+    {
+     "old": "080.0251"
+    },
+    {
+     "old": "080.0252"
+    },
+    {
+     "old": "080.0253"
+    },
+    {
+     "old": "080.0254"
+    },
+    {
+     "old": "080.0255"
+    },
+    {
+     "old": "080.0256"
+    },
+    {
+     "old": "080.0257",
+     "kind": "letter",
+     "source": "Billet de Marie à Mme Yorke, 20 mai 1878"
+    },
+    {
+     "old": "080.0258",
+     "kind": "letter",
+     "source": "Billet de Marie à Mme Yorke, 20 mai 1878"
+    },
+    {
+     "old": "080.0259"
+    },
+    {
+     "old": "080.0260"
+    },
+    {
+     "old": "080.0261"
+    },
+    {
+     "old": "080.0262"
+    },
+    {
+     "old": "080.0263"
+    },
+    {
+     "old": "080.0264"
+    },
+    {
+     "old": "080.0265"
+    },
+    {
+     "old": "080.0266"
+    },
+    {
+     "old": "080.0267"
+    },
+    {
+     "old": "080.0268"
+    },
+    {
+     "old": "080.0269"
+    },
+    {
+     "old": "080.0270"
+    },
+    {
+     "old": "080.0271"
+    },
+    {
+     "old": "080.0272"
+    },
+    {
+     "old": "080.0273"
+    },
+    {
+     "old": "080.0274"
+    },
+    {
+     "old": "080.0275"
+    },
+    {
+     "old": "080.0276"
+    },
+    {
+     "old": "080.0278",
+     "set_french": "J'ai dansé le cotillon avec Morgan, mais comme je buvais une limonade pendant qu'on se plaçait nous eûmes des chaises derrière les autres, ce qui me fit passer tout le temps en causerie aussi ennuyeuse que superficielle. Je pensais voir Marcuard qui est à Paris; j'espérais aussi rencontrer Cassagnac"
+    },
+    {
+     "old": "080.0279"
+    },
+    {
+     "old": "080.0280"
+    },
+    {
+     "old": "080.0281"
+    },
+    {
+     "old": "080.0282"
+    },
+    {
+     "old": "080.0283"
+    },
+    {
+     "old": "080.0284"
+    },
+    {
+     "old": "080.0285"
+    },
+    {
+     "old": "080.0286"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-21.md",
+   "date": "1878-05-21",
+   "heading": "Mardi 21 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0287"
+    },
+    {
+     "old": "080.0288"
+    },
+    {
+     "old": "080.0289"
+    },
+    {
+     "old": "080.0290"
+    },
+    {
+     "old": "080.0291"
+    },
+    {
+     "old": "080.0292"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-22.md",
+   "date": "1878-05-22",
+   "heading": "Mercredi 22 mai 1878",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome11.docx ¶4020: the date line «Mercredi 22 mai 1878» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1878-05-22.md"
+  },
+  {
+   "file": "1878-05-23.md",
+   "date": "1878-05-23",
+   "heading": "Jeudi 23 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0294"
+    },
+    {
+     "old": "080.0295"
+    },
+    {
+     "old": "080.0296",
+     "kind": "letter",
+     "source": "Billet de Marie, 23 mai 1878"
+    },
+    {
+     "old": "080.0297",
+     "kind": "letter",
+     "source": "Billet de Marie, 23 mai 1878"
+    },
+    {
+     "old": "080.0298"
+    },
+    {
+     "old": "080.0299"
+    },
+    {
+     "old": "080.0300"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-24.md",
+   "date": "1878-05-24",
+   "heading": "Vendredi 24 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0302"
+    },
+    {
+     "old": "080.0303"
+    },
+    {
+     "old": "080.0304"
+    },
+    {
+     "old": "080.0305"
+    },
+    {
+     "old": "080.0306"
+    },
+    {
+     "old": "080.0307",
+     "kind": "other",
+     "source": "passage d'Alphonse Daudet, Le Nabab (1877), recopié par Marie",
+     "set_french": "Voulez-vous un autre trait de cette imagination prodigieuse ?.. Il pleut, il gèle; un temps de loup. M. Joyeuse a pris l'omnibus pour aller à son bureau. Comme il est assis en face d'une espèce de colosse, tète brutale, biceps formidables, M. Joyeuse, tout petit, tout chétif, sa serviette sur les genoux, rentre ses jambes pour laisser la place aux énormes piles qui soutiennent le buste monumental de son voisin. Dans le train du véhicule, de la pluie sur les vitres, M. Joyeuse se prend à songer. Et tout à coup le colosse de vis-à-vis, qui a une bonne figure en somme, est très surpris de voir ce petit homme changer de couleur, le regarder en grinçant des dents, avec des yeux féroces, des yeux d'assassin. Oui d'assassin véritable, car en ce moment M. Joyeuse fait un rêve terrible... Une de ses filles est assise là, en face de lui, à côté de cette brute géante, et le misérable lui prend la taille sous son mantelet."
+    },
+    {
+     "old": "080.0308",
+     "kind": "other",
+     "source": "passage d'Alphonse Daudet, Le Nabab (1877), recopié par Marie"
+    },
+    {
+     "old": "080.0309",
+     "kind": "other",
+     "source": "passage d'Alphonse Daudet, Le Nabab (1877), recopié par Marie"
+    },
+    {
+     "old": "080.0310",
+     "kind": "other",
+     "source": "passage d'Alphonse Daudet, Le Nabab (1877), recopié par Marie"
+    },
+    {
+     "old": "080.0311",
+     "kind": "other",
+     "source": "passage d'Alphonse Daudet, Le Nabab (1877), recopié par Marie"
+    },
+    {
+     "old": "080.0312",
+     "kind": "other",
+     "source": "passage d'Alphonse Daudet, Le Nabab (1877), recopié par Marie"
+    },
+    {
+     "old": "080.0313"
+    },
+    {
+     "old": "080.0314"
+    },
+    {
+     "old": "080.0315"
+    },
+    {
+     "old": "080.0316"
+    },
+    {
+     "old": "080.0317"
+    },
+    {
+     "old": "080.0318"
+    },
+    {
+     "old": "080.0319"
+    },
+    {
+     "old": "080.0320"
+    },
+    {
+     "old": "080.0321"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-25.md",
+   "date": "1878-05-25",
+   "heading": "Samedi 25 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0323"
+    },
+    {
+     "old": "080.0324"
+    },
+    {
+     "old": "080.0325"
+    },
+    {
+     "old": "080.0326",
+     "set_french": "Nous sommes allées au Français voir \"Les Fourchambault\". On admire beaucoup la pièce, mais je n'en suis pas trop folle."
+    },
+    {
+     "old": "080.0327"
+    },
+    {
+     "old": "080.0328"
+    },
+    {
+     "old": "080.0329"
+    },
+    {
+     "old": "080.0330",
+     "set_french": "N'ai-je pas rêvé à des salons politiques, puis au monde, puis à un mariage riche (Multedo ne l'est pas) puis encore à la politique. Tout cela dans les moments où je rêvais, où j'espérais la possibilité de quelque arrangement féminin, humain, naturel. Mais non, rien. Cela me fait même rire cette déveine constante, imperturbable, étonnante. J'en ai gagné un grand sang-froid, un mépris énorme pour tous, du raisonnement, de la sagesse, un tas de choses enfin qui me composent un caractère froid, dédaigneux, insensible, et en même temps remuant, brusque, énergique."
+    },
+    {
+     "old": "080.0331"
+    },
+    {
+     "old": "080.0332"
+    },
+    {
+     "old": "080.0333"
+    },
+    {
+     "old": "080.0334"
+    },
+    {
+     "old": "080.0335"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-26.md",
+   "date": "1878-05-26",
+   "heading": "Dimanche 26 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0337"
+    },
+    {
+     "old": "080.0338"
+    },
+    {
+     "old": "080.0339"
+    },
+    {
+     "old": "080.0340"
+    },
+    {
+     "old": "080.0341"
+    },
+    {
+     "old": "080.0342"
+    },
+    {
+     "old": "080.0343"
+    },
+    {
+     "old": "080.0344"
+    },
+    {
+     "old": "080.0345"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-27.md",
+   "date": "1878-05-27",
+   "heading": "Lundi 27 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0347",
+     "set_french": "# Lundi 27 mai 1878\nJ'arrive avant sept heures à l'atelier et vais déjeuner pour trois sous dans une crémerie avec les Suédoises. J'ai vu les ouvriers, les gamins en blouse venir prendre leur pauvre chocolat, le même que j'ai pris, moi."
+    },
+    {
+     "old": "080.0348"
+    },
+    {
+     "old": "080.0349"
+    },
+    {
+     "old": "080.0350"
+    },
+    {
+     "old": "080.0351"
+    },
+    {
+     "old": "080.0352"
+    },
+    {
+     "old": "080.0353",
+     "set_french": "Les miens ont rencontré à l'Exposition Miss Foster, mariée depuis trois mois à M. Lacon futur lord Lacon je crois . Berthe et son mari et Arthur Foster (celui du chien) ont été ici à six heures et je crois que nous allons souvent être ensemble pendant les dix jours qu'ils passeront ici."
+    },
+    {
+     "old": "080.0354"
+    },
+    {
+     "old": "080.0355"
+    },
+    {
+     "old": "080.0356"
+    },
+    {
+     "old": "080.0357"
+    },
+    {
+     "old": "080.0358"
+    },
+    {
+     "old": "080.0359"
+    },
+    {
+     "old": "080.0360"
+    },
+    {
+     "old": "080.0361"
+    },
+    {
+     "old": "080.0362"
+    },
+    {
+     "old": "080.0363"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-28.md",
+   "date": "1878-05-28",
+   "heading": "Mardi 28 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0365"
+    },
+    {
+     "old": "080.0366"
+    },
+    {
+     "old": "080.0367"
+    },
+    {
+     "old": "080.0369",
+     "set_french": "Si c'était une fois par hasard, mais c'est chaque fois la même chose."
+    },
+    {
+     "old": "080.0370"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-29.md",
+   "date": "1878-05-29",
+   "heading": "Mercredi 29 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0371"
+    },
+    {
+     "old": "080.0372"
+    },
+    {
+     "old": "080.0373"
+    },
+    {
+     "old": "080.0374"
+    },
+    {
+     "old": "080.0375"
+    },
+    {
+     "old": "080.0376"
+    },
+    {
+     "old": "080.0377"
+    },
+    {
+     "old": "080.0378"
+    },
+    {
+     "old": "080.0379"
+    },
+    {
+     "old": "080.0380"
+    },
+    {
+     "old": "080.0381"
+    },
+    {
+     "old": "080.0382"
+    },
+    {
+     "old": "080.0383"
+    },
+    {
+     "old": "080.0384"
+    },
+    {
+     "old": "080.0385"
+    },
+    {
+     "old": "080.0386"
+    },
+    {
+     "old": "080.0387"
+    },
+    {
+     "old": "080.0388"
+    },
+    {
+     "old": "080.0389"
+    },
+    {
+     "old": "080.0390"
+    },
+    {
+     "old": "080.0391"
+    },
+    {
+     "old": "080.0392",
+     "set_french": "Paul lève la tête, le nez et ses beaux yeux de terre-neuve qui ont gardé une expression d'insouciance enfantine, et jette sur Blanc un regard ingénu mais gascon - Vous l'avez vu ?"
+    },
+    {
+     "old": "080.0393"
+    },
+    {
+     "old": "080.0394"
+    },
+    {
+     "old": "080.0395"
+    },
+    {
+     "old": "080.0396"
+    },
+    {
+     "old": "080.0397"
+    },
+    {
+     "old": "080.0398"
+    },
+    {
+     "old": "080.0399",
+     "kind": "margin"
+    },
+    {
+     "old": "080.0400",
+     "set_french": "Je prétendais être folle avec mon frère, je le suis encore plus avec les autres, avec Blanc."
+    },
+    {
+     "old": "080.0401"
+    },
+    {
+     "old": "080.0402"
+    },
+    {
+     "old": "080.0403"
+    }
+   ]
+  },
+  {
+   "file": "1878-05-30.md",
+   "date": "1878-05-30",
+   "heading": "Jeudi 30 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0405"
+    },
+    {
+     "old": "080.0406"
+    },
+    {
+     "old": "080.0407",
+     "set_french": "Habituellement les parents et l'entourage ne croient pas au génie des grands hommes... chez nous on croit trop en ma valeur. C'est-à-dire qu'on ne serait pas étonné si je peignais un tableau grand comme \"Le Radeau de la Méduse\" et si on me donnait la Légion d'honneur. Est-ce mauvais signe ? Non, j'espère."
+    }
+   ]
+  },
+  {
+   "file": "1878-05-31.md",
+   "date": "1878-05-31",
+   "heading": "Vendredi 31 mai 1878",
+   "paragraphs": [
+    {
+     "old": "080.0409"
+    },
+    {
+     "old": "080.0410"
+    },
+    {
+     "old": "080.0411"
+    },
+    {
+     "old": "080.0412",
+     "set_french": "Ensuite je lui ai demandé si je puis être magnétisée et magnétiser. Etre magnétisée avec une certaine peine mais magnétiser"
+    },
+    {
+     "old": "080.0413"
+    },
+    {
+     "old": "080.0414"
+    },
+    {
+     "old": "080.0415"
+    },
+    {
+     "old": "080.0416"
+    },
+    {
+     "old": "080.0417"
+    },
+    {
+     "old": "080.0418"
+    },
+    {
+     "old": "080.0419"
+    },
+    {
+     "old": "080.0420"
+    },
+    {
+     "old": "080.0421"
+    },
+    {
+     "old": "080.0422"
+    },
+    {
+     "old": "080.0423"
+    },
+    {
+     "old": "080.0424"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-01.md",
+   "date": "1878-06-01",
+   "heading": "Samedi 1er juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0426"
+    },
+    {
+     "old": "080.0427",
+     "set_french": "Yorke vient nous prier d'aller ce soir au bal avec elle et d'avoir des invitations. Si ce n'est pour ce soir ce sera pour un autre, je vais chez Caroline et en trois heures de temps elle me fait une robe dans laquelle j'ai l'air d'être enveloppée d'un nuage. Tout cela est une pièce de crêpe anglais qu'elle drape sur moi et qui me rend mince, élégante, longue. Le haut du corsage est limité par le liseré même du crêpe qui adhère à la peau. Un large ruban à la taille serré par l'éternelle boucle en cuivre. Sur la traîne on a jeté un grand bouquet de roses blanches."
+    },
+    {
+     "old": "080.0428"
+    },
+    {
+     "old": "080.0429"
+    },
+    {
+     "old": "080.0430"
+    },
+    {
+     "old": "080.0431"
+    },
+    {
+     "old": "080.0432"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-02.md",
+   "date": "1878-06-02",
+   "heading": "Dimanche 2 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0434"
+    },
+    {
+     "old": "080.0435"
+    },
+    {
+     "old": "080.0436"
+    },
+    {
+     "old": "080.0437",
+     "set_french": "Il est arrivé ce qui m'arrive d'habitude en pareil cas. J'étais bien mise et intéressante, et avec ça des pieds charmants. J'ai rompu avec Ferry et les hauts talons qui ne vont bien qu'aux mules que l'on ne peut mettre que lorsqu'on est sûre de ne pas trop marcher. Les hauts talons déforment le pied et ne trompent personne sur sa grandeur; tout le monde sait le truc."
+    },
+    {
+     "old": "080.0438"
+    },
+    {
+     "old": "080.0439"
+    },
+    {
+     "old": "080.0440"
+    },
+    {
+     "old": "080.0441",
+     "set_french": "De Daillens va tous les jours promener son chien rue Saint-Florentin où elle rencontre Cassagnac qui va chez son père. Toujours les perles et les cochons."
+    },
+    {
+     "old": "080.0442"
+    },
+    {
+     "old": "080.0443"
+    },
+    {
+     "old": "080.0444"
+    },
+    {
+     "old": "080.0445"
+    },
+    {
+     "old": "080.0446"
+    },
+    {
+     "old": "080.0447"
+    },
+    {
+     "old": "080.0448"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-03.md",
+   "date": "1878-06-03",
+   "heading": "Lundi 3 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0450"
+    },
+    {
+     "old": "080.0451",
+     "set_french": "rivent tous les mois). Et cette diablesse de santé ne sert à rien ! Cette énergie s'use à n'être utile à rien. Je travaille... Oh ! la belle affaire, sept à huit misérables heures par jour qui ne me font pas plus d'effet que sept à huit minutes."
+    },
+    {
+     "old": "080.0452"
+    },
+    {
+     "old": "080.0453"
+    },
+    {
+     "old": "080.0454"
+    },
+    {
+     "old": "080.0455"
+    },
+    {
+     "old": "080.0456"
+    },
+    {
+     "old": "080.0457"
+    },
+    {
+     "old": "080.0458"
+    },
+    {
+     "old": "080.0459"
+    },
+    {
+     "old": "080.0460"
+    },
+    {
+     "old": "080.0462",
+     "set_french": "Maintien des titres; égalité devant la loi; tout autre égalité est impossible. Respect aux anciennes familles, honneurs aux princes étrangers. Protection aux arts; luxe et élégance."
+    },
+    {
+     "old": "080.0463"
+    },
+    {
+     "old": "080.0464",
+     "set_french": "On reproche le sang, la boue et mille autres belles choses à la République. Que diable, regardez les commencements de tout, surtout quand la moitié gâte, empêche, lutte. Plusieurs essais ont échoué, il y avait des souvenirs napoléoniens, il y avait Sainte-Hélène. Qu'y a-t-il à présent... Le stérile M. de Chambord, après lui les d'Orléans... les d'Orléans ne m'amusent pas, on n'aime pas les choses avilies, bâtardes. Quant à Napoléon III, il a à tout jamais perdu sa race. La République de maintenant est la vraie; la longtemps attendue, la définitive, bénédiction du ciel enfin venue. Qu'importent quelques libres-penseurs qui existent dans tous les régimes, qu'importent les exagérations que l'on emploie pour arriver à la vraie mesure. On reçoit bien n'importe qui, mais le pays est-il un salon ? Que les gens de partis choisissent leurs invités, mais la République n'est pas un parti, c'est le pays tout entier et plus on viendra à elle, plus elle ouvrira ses bras et quand tout le monde sera venu il n'y aura ni proscrits, ni délaissés, ni choisis, il n'y aura plus de partis. Il y aura la France, et alors ceux qui seront fautifs seront punis mais non point reniés, comment le pourrait-on ?"
+    },
+    {
+     "old": "080.0465"
+    },
+    {
+     "old": "080.0466"
+    },
+    {
+     "old": "080.0467"
+    },
+    {
+     "old": "080.0468"
+    },
+    {
+     "old": "080.0469"
+    },
+    {
+     "old": "080.0470"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-04.md",
+   "date": "1878-06-04",
+   "heading": "Mardi 4 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0471"
+    },
+    {
+     "old": "080.0472"
+    },
+    {
+     "old": "080.0473"
+    },
+    {
+     "old": "080.0474"
+    },
+    {
+     "old": "080.0475"
+    },
+    {
+     "old": "080.0476"
+    },
+    {
+     "old": "080.0477"
+    },
+    {
+     "old": "080.0478"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-05.md",
+   "date": "1878-06-05",
+   "heading": "Mercredi 5 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0480"
+    },
+    {
+     "old": "080.0481"
+    },
+    {
+     "old": "080.0482"
+    },
+    {
+     "old": "080.0483"
+    },
+    {
+     "old": "080.0484",
+     "kind": "clipping",
+     "source": "Le Figaro, [juin 1878], note sur la séance de la Chambre",
+     "set_french": "> M. Paul de Cassagnac prend la parole et demande à la Chambre de vouloir"
+    },
+    {
+     "old": "080.0485",
+     "kind": "clipping",
+     "source": "Le Figaro, [juin 1878], note sur la séance de la Chambre",
+     "set_french": "> bien fixer à samedi la discussion du rapport sur son élection. Le jeune député n'a pas trop de trois jours pour préparer sa défense, car il sait qu'il est condamné, et il ne croit pas que la Chambre lui refuse, à lui, le modeste délai qu'on accorde aux simples condamnés à mort"
+    },
+    {
+     "old": "080.0486",
+     "kind": "clipping",
+     "source": "Le Figaro, [juin 1878], note sur la séance de la Chambre",
+     "set_french": "> Avec une vraie bonne grâce, la Chambre accède à ce vœu suprême et fixe la discussion à samedi."
+    },
+    {
+     "old": "080.0487"
+    },
+    {
+     "old": "080.0488"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-06.md",
+   "date": "1878-06-06",
+   "heading": "Jeudi 6 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0490"
+    },
+    {
+     "old": "080.0491"
+    },
+    {
+     "old": "080.0492"
+    },
+    {
+     "old": "080.0493",
+     "set_french": "Ce misérable Multedo dit que je suis *capiteuse.* Je l'étais hier et aujourd'hui [je] suis bien fatiguée, du moins la figure."
+    },
+    {
+     "old": "080.0494"
+    },
+    {
+     "old": "080.0495"
+    },
+    {
+     "old": "080.0496"
+    },
+    {
+     "old": "080.0497"
+    },
+    {
+     "old": "080.0498"
+    },
+    {
+     "old": "080.0499"
+    },
+    {
+     "old": "080.0500"
+    },
+    {
+     "old": "080.0501"
+    },
+    {
+     "old": "080.0502"
+    },
+    {
+     "old": "080.0503"
+    },
+    {
+     "old": "080.0504"
+    },
+    {
+     "old": "080.0505"
+    },
+    {
+     "old": "080.0506"
+    },
+    {
+     "old": "080.0507"
+    },
+    {
+     "old": "080.0508"
+    },
+    {
+     "old": "080.0509"
+    },
+    {
+     "old": "080.0510"
+    },
+    {
+     "old": "080.0511"
+    },
+    {
+     "old": "080.0512"
+    },
+    {
+     "old": "080.0513"
+    },
+    {
+     "old": "080.0514"
+    },
+    {
+     "old": "080.0515"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-07.md",
+   "date": "1878-06-07",
+   "heading": "Vendredi 7 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0517"
+    },
+    {
+     "old": "080.0518"
+    },
+    {
+     "old": "080.0519"
+    },
+    {
+     "old": "080.0520"
+    },
+    {
+     "old": "080.0521"
+    },
+    {
+     "old": "080.0522"
+    },
+    {
+     "old": "080.0523"
+    },
+    {
+     "old": "080.0524"
+    },
+    {
+     "old": "080.0525"
+    },
+    {
+     "old": "080.0526"
+    },
+    {
+     "old": "080.0527"
+    },
+    {
+     "old": "080.0528",
+     "set_french": "Vous savez ce que c'est que Cassagnac ? Voulez-vous savoir mon opinion là-dessus comme en politique l'autre jour, vraie, sincère ? Voici. Paul de Cassagnac est un énorme farceur, en général, et un chenapan en particulier. Avec moi il a été tout bonnement grossier. Je ne le lui oublierai pas. Mais sa séance sera flamboyante, il est le presque chef des farceurs de l'Empire, à lui l'honneur de soutenir cette honorable cause. A vous dire vrai je commence à éprouver pour le magnifique mulâtre une certaine aversion; qu'il ne soit pas amoureux, bien; mais qu'il soit poli au moins. Les néligences des autres... ça va, vient, revient, c'est avec tout le monde la même chose, avec les princesses comme avec moi; mais Cassagnac est ami, ce frère... je sais bien que c'est une blague, mais qu'importe; on ne demande rien de sérieux mais à la blague même il y a des égards dont on ne peut se dispenser. Ainsi toute mon admiration pour le terre-neuve est fichue et je serais ennuyée si je me reprenais à l'estimer de nouveau."
+    },
+    {
+     "old": "080.0529"
+    },
+    {
+     "old": "080.0530"
+    },
+    {
+     "old": "080.0531"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-08.md",
+   "date": "1878-06-08",
+   "heading": "Samedi 8 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0533"
+    },
+    {
+     "old": "080.0534"
+    },
+    {
+     "old": "080.0535",
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo, Paris, samedi [8 juin 1878]",
+     "set_french": "> Paris 36 rue du Colisée Samedi [8 juin 1878] Mademoiselle,"
+    },
+    {
+     "old": "080.0536",
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo, Paris, samedi [8 juin 1878]"
+    },
+    {
+     "old": "080.0537",
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo, Paris, samedi [8 juin 1878]"
+    },
+    {
+     "old": "080.0538",
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo, Paris, samedi [8 juin 1878]"
+    },
+    {
+     "old": "080.0539",
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo, Paris, samedi [8 juin 1878]"
+    },
+    {
+     "old": "080.0540",
+     "kind": "letter",
+     "source": "Lettre d'A. Multedo, Paris, samedi [8 juin 1878]",
+     "set_french": "> A. Multedo Peut-être si vous aviez obéi et expédié tout de suite la lettre pour M. de Valon, auriez-vous eu des places."
+    },
+    {
+     "old": "080.0541",
+     "kind": "letter",
+     "source": "Lettre d'A. de Valon, Chambre des députés, Versailles, 7 juin 1878"
+    },
+    {
+     "old": "080.0542",
+     "kind": "letter",
+     "source": "Lettre d'A. de Valon, Chambre des députés, Versailles, 7 juin 1878"
+    },
+    {
+     "old": "080.0543",
+     "kind": "letter",
+     "source": "Lettre d'A. de Valon, Chambre des députés, Versailles, 7 juin 1878"
+    },
+    {
+     "old": "080.0544",
+     "kind": "letter",
+     "source": "Lettre d'A. de Valon, Chambre des députés, Versailles, 7 juin 1878"
+    },
+    {
+     "old": "080.0545",
+     "kind": "letter",
+     "source": "Lettre d'A. de Valon, Chambre des députés, Versailles, 7 juin 1878"
+    },
+    {
+     "old": "080.0546",
+     "kind": "letter",
+     "source": "Lettre d'A. de Valon, Chambre des députés, Versailles, 7 juin 1878"
+    },
+    {
+     "old": "080.0547",
+     "kind": "letter",
+     "source": "Lettre du baron Haussmann, Paris, 7 juin 1878"
+    },
+    {
+     "old": "080.0548",
+     "kind": "letter",
+     "source": "Lettre du baron Haussmann, Paris, 7 juin 1878"
+    },
+    {
+     "old": "080.0549",
+     "kind": "letter",
+     "source": "Lettre du baron Haussmann, Paris, 7 juin 1878"
+    },
+    {
+     "old": "080.0550",
+     "kind": "letter",
+     "source": "Lettre du baron Haussmann, Paris, 7 juin 1878"
+    },
+    {
+     "old": "080.0551",
+     "kind": "letter",
+     "source": "Lettre du baron Haussmann, Paris, 7 juin 1878"
+    },
+    {
+     "old": "080.0552",
+     "kind": "letter",
+     "source": "Lettre du baron Haussmann, Paris, 7 juin 1878"
+    },
+    {
+     "old": "080.0554",
+     "kind": "letter",
+     "source": "Lettre du baron Haussmann, Paris, 7 juin 1878",
+     "set_french": "> G.E. Haussmann"
+    },
+    {
+     "old": "080.0555"
+    },
+    {
+     "old": "080.0556",
+     "set_french": "Je m'en vais donc avec maman acheter une perruque et des lunettes faubourg Saint-Honoré. Nous sortons lorsqu'on nous donne un télégramme signé Fortuné, c'est Chocolat qui a été à Versailles avec Rosalie et tous deux ont eu des places dans la galerie du peuple. A peine avons-nous acheté les ustensiles à déguisements, j'étais déjà remontée en voiture quand je vois venir qui... Cassagnac ! Je fais un salut très sec, et au lieu de passer il s'arrête et vient nous parler comme s'il n'était pas le dernier des impolis. On voit bien qu'il se marie tellement il a l'air gai; dans quelques jours il va passer en cour d'assises pour un article mais le bonhomme est coutumier du fait, il en rit et veut nous montrer les pièces, seulement rien qu'à la vue de sa serviette le cocher et les passants étaient tous yeux, il fallut rengainer. C'est dommage, ce dépouillement de dossiers sur le siège d'un fiacre faisait bien. Voilà que passe une femme, notre homme dit qu'il l'a connue il y a trois ans et fait semblant de vouloir la fuir en montant en voiture avec nous. Alors je lui dis des bêtises me moquant du nombre de ses victimes et regrettant que la distance de la boutique de Bysterweld à l'avenue de l'Alma 67 soit si courte. Je dis toutes sortes de choses qui auraient pu être vraies... mais bref qui ont l'air de moqueries."
+    },
+    {
+     "old": "080.0557"
+    },
+    {
+     "old": "080.0558"
+    },
+    {
+     "old": "080.0559"
+    },
+    {
+     "old": "080.0560"
+    },
+    {
+     "old": "080.0561"
+    },
+    {
+     "old": "080.0562",
+     "kind": "margin"
+    },
+    {
+     "old": "080.0563"
+    },
+    {
+     "old": "080.0564"
+    },
+    {
+     "old": "080.0565"
+    },
+    {
+     "old": "080.0566"
+    },
+    {
+     "old": "080.0567"
+    },
+    {
+     "old": "080.0568"
+    },
+    {
+     "old": "080.0569"
+    },
+    {
+     "old": "080.0570"
+    },
+    {
+     "old": "080.0571"
+    },
+    {
+     "old": "080.0572"
+    },
+    {
+     "old": "080.0573"
+    },
+    {
+     "old": "080.0574"
+    },
+    {
+     "old": "080.0575"
+    },
+    {
+     "old": "080.0576"
+    },
+    {
+     "old": "080.0577"
+    },
+    {
+     "old": "080.0578"
+    },
+    {
+     "old": "080.0579"
+    },
+    {
+     "old": "080.0580"
+    },
+    {
+     "old": "080.0581"
+    },
+    {
+     "old": "080.0582"
+    },
+    {
+     "old": "080.0583"
+    },
+    {
+     "old": "080.0584"
+    },
+    {
+     "old": "080.0585",
+     "kind": "margin"
+    },
+    {
+     "old": "080.0586"
+    },
+    {
+     "old": "080.0587"
+    },
+    {
+     "old": "080.0588",
+     "set_french": "n'ayant pas connaissance du système de compensation. A présent c'est différent et ce changement est naturel étant venu graduellement et étant motivé. Voilà pourquoi je vous prie de croire que ce n'est pas un changement imaginaire et subit [BAS DE PAGE BLANC]"
+    },
+    {
+     "old": "080.0589"
+    },
+    {
+     "old": "080.0590"
+    },
+    {
+     "old": "080.0591"
+    },
+    {
+     "old": "080.0592"
+    },
+    {
+     "old": "080.0593"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-09.md",
+   "date": "1878-06-09",
+   "heading": "Dimanche 9 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0594"
+    },
+    {
+     "old": "080.0595"
+    },
+    {
+     "old": "080.0596"
+    },
+    {
+     "old": "080.0597"
+    },
+    {
+     "old": "080.0598"
+    },
+    {
+     "old": "080.0599"
+    },
+    {
+     "old": "080.0600"
+    },
+    {
+     "old": "080.0601"
+    },
+    {
+     "old": "080.0602"
+    },
+    {
+     "old": "080.0603"
+    },
+    {
+     "old": "080.0604"
+    },
+    {
+     "old": "080.0605"
+    },
+    {
+     "old": "080.0606"
+    },
+    {
+     "old": "080.0607"
+    },
+    {
+     "old": "080.0608"
+    },
+    {
+     "old": "080.0609"
+    },
+    {
+     "old": "080.0610"
+    },
+    {
+     "old": "080.0611"
+    },
+    {
+     "old": "080.0612"
+    },
+    {
+     "old": "080.0613"
+    },
+    {
+     "old": "080.0614"
+    },
+    {
+     "old": "080.0615"
+    },
+    {
+     "old": "080.0616"
+    },
+    {
+     "old": "080.0617"
+    },
+    {
+     "old": "080.0618"
+    },
+    {
+     "old": "080.0619"
+    },
+    {
+     "old": "080.0620"
+    },
+    {
+     "old": "080.0621"
+    },
+    {
+     "old": "080.0622"
+    },
+    {
+     "old": "080.0623"
+    },
+    {
+     "old": "080.0624"
+    },
+    {
+     "old": "080.0625"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-10.md",
+   "date": "1878-06-10",
+   "heading": "Lundi 10 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0627"
+    },
+    {
+     "old": "080.0628"
+    },
+    {
+     "old": "080.0629"
+    },
+    {
+     "old": "080.0630"
+    },
+    {
+     "old": "080.0631"
+    },
+    {
+     "old": "080.0632"
+    },
+    {
+     "old": "080.0633"
+    },
+    {
+     "old": "080.0634"
+    },
+    {
+     "old": "080.0635"
+    },
+    {
+     "old": "080.0636",
+     "kind": "letter",
+     "source": "Billet de Marie à Paul de Cassagnac (avec des dragées roses), 10 juin 1878"
+    },
+    {
+     "old": "080.0637",
+     "kind": "letter",
+     "source": "Billet de Marie à Paul de Cassagnac (avec des dragées roses), 10 juin 1878"
+    },
+    {
+     "old": "080.0638"
+    },
+    {
+     "old": "080.0639"
+    },
+    {
+     "old": "080.0640"
+    },
+    {
+     "old": "080.0641"
+    },
+    {
+     "old": "080.0642"
+    },
+    {
+     "old": "080.0643"
+    },
+    {
+     "old": "080.0644",
+     "set_french": "Nous en prenons un autre et rentrons par la gare Montparnasse, là impossible de trouver une voiture, M. Rouher s'apprêtait à nous escorter jusqu'à chez nous mais nous ne trouvons qu'une carriole deux places et nous séparons du chef en donnant rendez-vous au 28 octobre prochain. J'ai déjà des billets."
+    },
+    {
+     "old": "080.0645",
+     "set_french": "Que dites-vous de ce four. Un four fort respectable, oui, mais comprenez donc plus c'était beau, plus cette fin est odieuse !"
+    },
+    {
+     "old": "080.0646"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-12.md",
+   "date": "1878-06-12",
+   "heading": "Mercredi 12 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0648"
+    },
+    {
+     "old": "080.0649"
+    },
+    {
+     "old": "080.0650"
+    },
+    {
+     "old": "080.0651"
+    },
+    {
+     "old": "080.0652"
+    },
+    {
+     "old": "080.0653"
+    },
+    {
+     "old": "080.0654",
+     "set_french": "Vous pensez bien si je l'ai examiné et écouté avec curiosité, le vice-Empereur. Mais je n'ai pas besoin ici de vous donner mes appréciations d'abord parce que je ne l'ai pas assez vu et ensuite parce que je n'y suis pas disposée ce soir. Il nous a raconté plusieurs choses curieuses et qu'il est à même de savoir parfaitement sur l'attentat de 67 contre notre Empereur et puis des choses de sa famille impériale et m'a demandé si nous connaissons le Prince Impérial. Non sans doute, mais... aujourd'hui même. Que c'est bête de raconter tout d'avance et d'ailleurs ce n'est pas du petit Badinguet qu'il s'agit. Vous pensez bien que j'ai été orthodoxe avec le maître des bonaparteux, je suis même étonnée de mes flatteries délicates et de mon tact. Gavini et le baron Larrey semblaient m'approuver tout à fait et M. Rouher lui-même était content, s'il ne l'avait pas été d'ailleurs il nous aurait plantées-là. Mais., quel feu d'artifice mouillé !!!"
+    },
+    {
+     "old": "080.0655",
+     "set_french": "On a parlé de votes, de lois, de brochures, de fidèles, de traîtres, devant moi; j'écoutais oh ! je crois bien. C'était comme une porte ouverte sur le paradis."
+    },
+    {
+     "old": "080.0656"
+    },
+    {
+     "old": "080.0657"
+    },
+    {
+     "old": "080.0658"
+    },
+    {
+     "old": "080.0659"
+    },
+    {
+     "old": "080.0660"
+    },
+    {
+     "old": "080.0661"
+    },
+    {
+     "old": "080.0662"
+    },
+    {
+     "old": "080.0663"
+    },
+    {
+     "old": "080.0664"
+    },
+    {
+     "old": "080.0665"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-13.md",
+   "date": "1878-06-13",
+   "heading": "Jeudi 13 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0667"
+    },
+    {
+     "old": "080.0668",
+     "kind": "margin"
+    },
+    {
+     "old": "080.0669"
+    },
+    {
+     "old": "080.0670"
+    },
+    {
+     "old": "080.0671"
+    },
+    {
+     "old": "080.0672"
+    },
+    {
+     "old": "080.0673"
+    },
+    {
+     "old": "080.0674"
+    },
+    {
+     "old": "080.0675"
+    },
+    {
+     "old": "080.0676",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac (projet), 13 juin 1878",
+     "set_french": "> Monsieur, pendant toute votre existence il ne s'est sans doute trouvé personne pour vous dire sérieusement que vous êtes tout à fait cochon à force [d']etre mal élevé. Autrement vous vous seriez corrigé car vous êtes assez intelligent pour en comprendre la nécessité. Par un reste d'amitié je viens donc vous le dire."
+    },
+    {
+     "old": "080.0677",
+     "kind": "letter",
+     "source": "Lettre de Marie à Paul de Cassagnac (projet), 13 juin 1878"
+    },
+    {
+     "old": "080.0678"
+    },
+    {
+     "old": "080.0679"
+    },
+    {
+     "old": "080.0680"
+    },
+    {
+     "old": "080.0681"
+    },
+    {
+     "old": "080.0682"
+    },
+    {
+     "old": "080.0683"
+    },
+    {
+     "old": "080.0684"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-14.md",
+   "date": "1878-06-14",
+   "heading": "Vendredi 14 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0686"
+    },
+    {
+     "old": "080.0687"
+    },
+    {
+     "old": "080.0688"
+    },
+    {
+     "old": "080.0689"
+    },
+    {
+     "old": "080.0690"
+    },
+    {
+     "old": "080.0691"
+    },
+    {
+     "old": "080.0692"
+    },
+    {
+     "old": "080.0693"
+    },
+    {
+     "old": "080.0694"
+    },
+    {
+     "old": "080.0695"
+    },
+    {
+     "old": "080.0696"
+    },
+    {
+     "old": "080.0697"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-15.md",
+   "date": "1878-06-15",
+   "heading": "Samedi 15 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0699"
+    },
+    {
+     "old": "080.0700"
+    },
+    {
+     "old": "080.0701"
+    },
+    {
+     "old": "080.0702"
+    },
+    {
+     "old": "080.0703"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-16.md",
+   "date": "1878-06-16",
+   "heading": "Dimanche 16 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0705",
+     "set_french": "# Dimanche 16 juin 1878\nNous partons à deux heures, M. et Mme Gavini, Dina et moi. Dina est très élégante et riche. Moi j'ai une robe courte en laine et un grand chapeau de paille avec des plumes blanches quelque peu Louis XVI. Jamais l'Empire ne reviendra d'une façon normale, les Parisiens aiment les fêtes, les rois, le luxe, ils en ont et ils ont la liberté."
+    },
+    {
+     "old": "080.0706"
+    },
+    {
+     "old": "080.0707"
+    },
+    {
+     "old": "080.0708"
+    },
+    {
+     "old": "080.0709"
+    },
+    {
+     "old": "080.0710"
+    },
+    {
+     "old": "080.0711"
+    },
+    {
+     "old": "080.0712"
+    },
+    {
+     "old": "080.0713"
+    },
+    {
+     "old": "080.0714"
+    },
+    {
+     "old": "080.0715"
+    },
+    {
+     "old": "080.0716",
+     "kind": "letter",
+     "source": "Carte anonyme de Marie à Paul de Cassagnac (lettres découpées dans un livre et collées), 16 juin 1878"
+    },
+    {
+     "old": "080.0717",
+     "kind": "letter",
+     "source": "Carte anonyme de Marie à Paul de Cassagnac (lettres découpées dans un livre et collées), 16 juin 1878"
+    },
+    {
+     "old": "080.0718"
+    },
+    {
+     "old": "080.0719"
+    },
+    {
+     "old": "080.0720"
+    },
+    {
+     "old": "080.0721"
+    },
+    {
+     "old": "080.0722"
+    },
+    {
+     "old": "080.0723"
+    },
+    {
+     "old": "080.0724"
+    },
+    {
+     "old": "080.0725"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-17.md",
+   "date": "1878-06-17",
+   "heading": "Lundi 17 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0727"
+    },
+    {
+     "old": "080.0728"
+    },
+    {
+     "old": "080.0729"
+    },
+    {
+     "old": "080.0730"
+    },
+    {
+     "old": "080.0731"
+    },
+    {
+     "old": "080.0732"
+    },
+    {
+     "old": "080.0733",
+     "set_french": "Il y a des jours où l'on se sent un certain pouvoir sur les masses... je n'attribue que peu à mon attirail, on voit maintenant tant de chapeaux abracadabrants ou cocasses que le mien n'est rien. Je ne porte que mes propres cheveux, et mon front est presque nu, il n'y a que quelques mèches Empire très modestes."
+    },
+    {
+     "old": "080.0734"
+    },
+    {
+     "old": "080.0735"
+    },
+    {
+     "old": "080.0736"
+    },
+    {
+     "old": "080.0737"
+    },
+    {
+     "old": "080.0738"
+    },
+    {
+     "old": "080.0739"
+    },
+    {
+     "old": "080.0740"
+    },
+    {
+     "old": "080.0741"
+    },
+    {
+     "old": "080.0742"
+    },
+    {
+     "old": "080.0743"
+    },
+    {
+     "old": "080.0744"
+    },
+    {
+     "old": "080.0745"
+    },
+    {
+     "old": "080.0746"
+    },
+    {
+     "old": "080.0747"
+    },
+    {
+     "old": "080.0748"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-18.md",
+   "date": "1878-06-18",
+   "heading": "Mardi 18 juin 1878",
+   "paragraphs": [
+    {
+     "new": {
+      "french": "[Aucun texte - date seule mentionnée]",
+      "rsr": "tome11.docx ¶4551: the date line «Mardi 1 8 juin 1 878» has no text under it (2026-09-28 rebuild)."
+     }
+    }
+   ],
+   "frontmatter_from": "1878-06-17.md"
+  },
+  {
+   "file": "1878-06-19.md",
+   "date": "1878-06-19",
+   "heading": "Mercredi 19 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0750"
+    },
+    {
+     "old": "080.0751"
+    },
+    {
+     "old": "080.0752"
+    },
+    {
+     "old": "080.0753"
+    },
+    {
+     "old": "080.0754"
+    },
+    {
+     "old": "080.0755"
+    },
+    {
+     "old": "080.0756"
+    },
+    {
+     "old": "080.0757"
+    },
+    {
+     "old": "080.0758"
+    },
+    {
+     "old": "080.0759",
+     "kind": "letter",
+     "source": "Brouillons de lettres anonymes de Marie à Paul de Cassagnac, 19 juin 1878",
+     "set_french": "> S'il est vrai que vous ne faites qu'un marché vulgaire bourgeois indigne de vous."
+    },
+    {
+     "old": "080.0760",
+     "kind": "letter",
+     "source": "Brouillons de lettres anonymes de Marie à Paul de Cassagnac, 19 juin 1878",
+     "set_french": "> S'il est vrai que vous vous ravalez au point de faire un marché vulgaire bourgeois indigne de vous, pourquoi celle-ci au lieu d'une autre plus riche et pour le moins aussi convenable sous tous les rapports, qui ne demande qu'à vous sacrifier toutes ses fiertés et à venir se coucher à vos pieds soumise et dévouée comme un chien. Vous êtes entortillé au point de vous croire amoureux avec une femme médiocre qui vous mènera en baissant les yeux. Mais si vous aimez, oubliez loyalement cette offre loyale et simple."
+    },
+    {
+     "old": "080.0761",
+     "kind": "letter",
+     "source": "Brouillons de lettres anonymes de Marie à Paul de Cassagnac, 19 juin 1878",
+     "set_french": "> Laissez-là ce marché vulgaire et bourgeois qui avilit votre caractère et puisque vous consentez à une affaire de raison pourquoi celle-ci au lieu d'une autre plus riche plus digne de vous qui ne demande qu'à vous sacrifier toutes ses fiertés et venir se coucher à vos pieds soumise et dévouée comme un chien."
+    },
+    {
+     "old": "080.0762",
+     "kind": "letter",
+     "source": "Brouillons de lettres anonymes de Marie à Paul de Cassagnac, 19 juin 1878",
+     "set_french": "> Vous êtes entortillé au point de vous croire amoureux. Vous ne serez pas heureux avec une femme médiocre pas jeune quoiqu'intelligente, les affaires arrangées ne sont pas dans votre nature. C'est folie que de vous dire tout cela mais on ne peut pas laisser passer sans crier une pareille chose ! Il en est temps encore, on se consolera par là malgré les belles phrases, mais ici on ne se consolera jamais. Et puis... chacun pour soi !"
+    },
+    {
+     "old": "080.0763",
+     "kind": "letter",
+     "source": "Brouillons de lettres anonymes de Marie à Paul de Cassagnac, 19 juin 1878",
+     "set_french": "> Plaidoirie badine et touchante"
+    },
+    {
+     "old": "080.0764",
+     "kind": "letter",
+     "source": "Brouillons de lettres anonymes de Marie à Paul de Cassagnac, 19 juin 1878",
+     "set_french": "> S'il est vrai que vous ne faites qu'un mariage de raison sachez qu'il y a une femme plus riche et plus digne de vous peut-être, qui ne demande qu'à vous sacrifier toutes ses fiertés et venir se coucher à vos pieds soumise et dévouée comme un chien. Sachez aussi que pour faire un bon mari ainsi qu'une bonne mère de famille il n'y a qu'un"
+    },
+    {
+     "old": "080.0766",
+     "kind": "letter",
+     "source": "Brouillons de lettres anonymes de Marie à Paul de Cassagnac, 19 juin 1878",
+     "set_french": "> être vraiment supérieur. Les bonnes jeunes filles font souvent des femmes dissipées."
+    },
+    {
+     "old": "080.0767"
+    },
+    {
+     "old": "080.0768",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [mercredi 19 juin 1878]"
+    },
+    {
+     "old": "080.0769",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [mercredi 19 juin 1878]"
+    },
+    {
+     "old": "080.0770"
+    },
+    {
+     "old": "080.0771"
+    },
+    {
+     "old": "080.0772"
+    },
+    {
+     "old": "080.0773"
+    },
+    {
+     "new": {
+      "french": "Je crois que sans m’en douter je suis une grande femme. Il n’y a pas de créature qui ne s’occupe à dire quelque chose de moi. Savez-vous ce qu’on dit ? On dit que je suis la fille du roi de Hollande. Ce serait bien.",
+      "rsr": "Restored from tome11.docx ¶4581, Mon Journal t.11 p.292 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai dit : “jeune fille” en parlant de Mlle Acard.",
+      "rsr": "Restored from tome11.docx ¶4582, Mon Journal t.11 p.292 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Je ne sais si elle est fille, a dit maman, mais je sais pour sûr qu’elle n’est pas jeune.",
+      "rsr": "Restored from tome11.docx ¶4583, Mon Journal t.11 p.292 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1878-06-20.md",
+   "date": "1878-06-20",
+   "heading": "Jeudi 20 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0775"
+    },
+    {
+     "old": "080.0776"
+    },
+    {
+     "old": "080.0777"
+    },
+    {
+     "old": "080.0778"
+    },
+    {
+     "old": "080.0779"
+    },
+    {
+     "old": "080.0780"
+    },
+    {
+     "old": "080.0781",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [jeudi 20 juin 1878]"
+    },
+    {
+     "old": "080.0782",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [jeudi 20 juin 1878]"
+    },
+    {
+     "old": "080.0783",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [jeudi 20 juin 1878]"
+    },
+    {
+     "old": "080.0784",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, [jeudi 20 juin 1878]"
+    },
+    {
+     "old": "080.0785"
+    },
+    {
+     "old": "080.0786"
+    },
+    {
+     "old": "080.0787"
+    },
+    {
+     "old": "080.0788"
+    },
+    {
+     "old": "080.0789"
+    },
+    {
+     "old": "080.0790"
+    },
+    {
+     "old": "080.0791"
+    },
+    {
+     "old": "080.0792"
+    },
+    {
+     "old": "080.0793"
+    }
+   ]
+  },
+  {
+   "file": "1878-06-21.md",
+   "date": "1878-06-21",
+   "heading": "Vendredi 21 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0795"
+    },
+    {
+     "old": "080.0796",
+     "set_french": "Elle a pris le deuil avec du crêpe, c'est au moins quinze jours de sursis. Pauvre grand-papa nous fait dire que c'est une horreur et fait *oui* de la tête et de la main et crie qu'on lui raconte encore des choses de ce mariage révoltant. Par moments il me semble que je n'ai plus aucun intérêt dans la vie, que tout est perdu et par moments je ne m'en soucie guère, ris et invente des bêtises. C'est Robert-Fleury qui va être content de mes dessins... le malheureux ne comprendra jamais pourquoi c'est si mauvais. Hier chez la reine d'Espagne le Schah s'est fait présenter M. de Cassagnac, lui a parlé avec une sympathie toute particulière et lui a envoyé dire ensuite qu'il était décoré de l'ordre du Lion et du Soleil. Tout cela pour Mlle Acard, noire, fanée, passée ! C'est révoltant et ridicule."
+    }
+   ]
+  },
+  {
+   "file": "1878-06-22.md",
+   "date": "1878-06-22",
+   "heading": "Samedi 22 juin 1878",
+   "paragraphs": [
+    {
+     "old": "080.0798"
+    },
+    {
+     "old": "080.0799",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, signée « Suzanne au masque », juin 1878",
+     "set_french": "> Vous devez recevoir une telle pluie de lettres anonymes que je vous préviens avant tout que celle-ci n'est pas telle. Lisez-la jusqu'au bout, quoi que vous trouviez, sinon n'en lisez pas un mot c'est ma volonté. Je viens droit à vous, écoutez-moi avec respect par respect pour vous même, puis vous vous en ferez ce que vous pourrez. Le temps presse et l'intérêt est trop sérieux pour qu'on s'arrête devant des susceptibilités banales. Peut-être cette démarche suprême et parfaitement réfléchie ne sera-t-elle qu'inopportune mais on n'aura du moins rien à se reprocher vis à vis de soi-même. On croît que vous vous trompez, on se trompe soi-même, ce sera tout. La femme qui a méprisé tout le monde et qui n'a eu que des railleries dans la bouche va vous parler à cœur ouvert estimant que la chose en vaut la peine et vous prouvant ainsi qu'elle vous honore à l'égal d'elle-même ce qui est, quoi qu'on dise, la plus grande distinction"
+    },
+    {
+     "old": "080.0801",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, signée « Suzanne au masque », juin 1878"
+    },
+    {
+     "old": "080.0802",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, signée « Suzanne au masque », juin 1878"
+    },
+    {
+     "old": "080.0803",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, signée « Suzanne au masque », juin 1878",
+     "set_french": "> casaniers et d'intérieur qu'affecte toute fille qui veut se marier. Ces filles-là une fois arrivées sont quelquefois plus mauvaises que les autres surtout si elles ont longtemps attendu. Ce qui vous séduit c'est le pot-au-feu, l'utile qui n'est pas trop réjouissant, mais pensez-vous donc que la femme qui aime, et la femme de cœur n'est pas capable d'être tout ce qu'on veut. Celle-là vous aime, dites-vous, mais elle aimerait chaque mari ! Prenez une femme assez jolie pour vous faire honneur et assez bonne, assez élevée d'âme pour être au-dessus des considérations pitoyables routinières des ménagères qui font elles-mêmes leur marché. Celles-là le font faire ensuite par leur époux. Une femmes qui vous sacrifierait toutes ses fiertés, qui ne verrait que vous au lieu de sa petite ambition cachée. Sachez que pour faire un bon mari, de même qu'une vraie bonne mère de famille, une épouse idéale, il n'y a qu'un être véritablement supérieur qui seul peut avoir les charmes de la vertu et de la bonté sans en avoir les mesquineries et les ennuis. Bien que vous ayez souvent failli à votre parole (vous la tiendrez celle-là !) je vous demande celle de ne jamais vous vanter dans le cas monstrueux où vous aimeriez et d'oublier loyalement (si toutefois un être qui serait abruti à ce point avait des notions de ce sentiment) cette loyale tentative de sauvetage dictée par une profonde et sincère amitié pour vous. Mais en donnant une preuve si flagrante d'un si affreux mauvais goût vous mériteriez le plus profond mépris et le plus misérable sort. Vous qui parlez de pieds, (de) beauté, de distinction, de race, parlons-en ! Allons, un bon mouvement, je crois après tout qu'il doit y avoir quelque chose et que surtout après vous on trouvera quelque vieil officier de marine qui fera parfaitement l'affaire. Non il n'est pas encore trop tard, il n'est jamais trop tard puisque vous ne l'aimez pas ! Gardez-vous de la fausse générosité. On vous tient par là. Soyez vraiment généreux et ne laissez pas noyer une zibeline pour sauver un rat qui n'est même pas en danger. On se consolera là-bas, vous aurez été une réclame, on ne se consolera jamais ici, et on aura raison. Faites appel à votre raison, à votre cœur... On se consolera pourtant si vous persistez à vous rouler dans la poussière, car vous montrerez par là que vous n'avez que ce que vous méritez."
+    },
+    {
+     "old": "080.0804",
+     "kind": "letter",
+     "source": "Lettre anonyme de Marie à Paul de Cassagnac, signée « Suzanne au masque », juin 1878"
+    },
+    {
+     "old": "080.0805"
+    },
+    {
+     "old": "080.0806"
+    },
+    {
+     "old": "080.0807"
+    },
+    {
+     "old": "080.0808"
+    },
+    {
+     "old": "080.0809"
+    },
+    {
+     "old": "080.0810"
+    },
+    {
+     "old": "080.0811"
+    }
+   ]
+  }
+ ],
+ "drop_files": [
+  {
+   "file": "1878-05-17.md",
+   "reason": "empty stub (heading only, no paragraph IDs); the day is rebuilt from tome11.docx as a new entry of the same name with «[Aucun texte - date seule mentionnée]» (2026-09-28 rebuild)"
+  },
+  {
+   "file": "1878-05-22.md",
+   "reason": "empty stub (heading only, no paragraph IDs); the day is rebuilt from tome11.docx as a new entry of the same name with «[Aucun texte - date seule mentionnée]» (2026-09-28 rebuild)"
+  }
+ ]
+}
