@@ -48,11 +48,11 @@ The Franco-Prussian War (July 1870) drove the family from Baden-Baden. Marie pra
 
 ### Phase 2: Nice -- Romantic Rivalry (1873-1874)
 
-Berthe reappears in Nice in the Bashkirtseffs' social orbit. Both girls fixate on the Duke of Hamilton. Berthe tells Marie "comment le duc l'aime" and claims "Hamilton l'epousera absolument" (008.0350). Marie is devastated but competitive: "Qui l'aura? That is the question" (004).
+Berthe reappears in Nice in the Bashkirtseffs' social orbit. Both girls fixate on the Duke of Hamilton. Berthe tells Marie "comment le duc l'aime" and claims "Hamilton l'epousera absolument" (009.0016). Marie is devastated but competitive: "Qui l'aura? That is the question" (004).
 
-Marie's mother defines Berthe memorably: "jolie comme un ange, espiegle et grossiere comme un diable, porte une canne et marche une jambe eloignee de l'autre" (008.0353) -- pretty as an angel, mischievous and coarse as the devil, carries a cane and walks with legs wide apart.
+Marie's mother defines Berthe memorably: "jolie comme un ange, espiegle et grossiere comme un diable, porte une canne et marche une jambe eloignee de l'autre" (009.0019) -- pretty as an angel, mischievous and coarse as the devil, carries a cane and walks with legs wide apart.
 
-Marie recalls seeing Berthe with Hamilton on a balcony at a ball in Baden-Baden: "il se moquait d'elle" (006.0110). Among Hamilton's racehorses, Marie notices one named "Berthe" and smiles through tears (017.0137).
+Marie recalls seeing Berthe with Hamilton on a balcony at a ball in Baden-Baden: "il se moquait d'elle" (006.0105). Among Hamilton's racehorses, Marie notices one named "Berthe" and smiles through tears (017.0137).
 
 ### Phase 3: Nice and Paris -- Acquaintanceship Without Friendship (1875-1877)
 
@@ -102,7 +102,7 @@ Marie's feelings toward Berthe oscillate between affection, contempt, jealousy, 
 
 **On Berthe's usefulness** (May 1880): "En un instant je pardonne tout a Berthe et pendant cinq minutes l'aime de vraie amitie" -- but only because Berthe brings news of a potential Salon medal (088, May 4).
 
-**On their similarity**: Marie recognizes that she and Berthe share "les memes desirs, les memes fantaisies" (006.0110) and repeatedly finds herself in competition with her -- first over Remy, then over Hamilton, later over social position.
+**On their similarity**: Marie recognizes that she and Berthe share "les memes desirs, les memes fantaisies" (006.0105) and repeatedly finds herself in competition with her -- first over Remy, then over Hamilton, later over social position.
 
 ## Role in Marie's Emotional Life
 

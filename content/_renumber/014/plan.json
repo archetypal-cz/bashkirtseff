@@ -1,0 +1,1249 @@
+{
+ "carnet": "014",
+ "source": "tome02.docx",
+ "drop": [
+  {
+   "id": "014.0002",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "014.0003",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "014.0004",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "014.0005",
+   "reason": "duplicate date heading «Mercredi, 10 décembre 1873»; the day heading stays in 014.0001 (docx ¶8512)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1873-12-10.md",
+   "date": "1873-12-10",
+   "heading": "Mercredi 10 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0001"
+    },
+    {
+     "old": "014.0006"
+    },
+    {
+     "old": "014.0007"
+    },
+    {
+     "old": "014.0008"
+    },
+    {
+     "old": "014.0009"
+    },
+    {
+     "old": "014.0010"
+    },
+    {
+     "old": "014.0011",
+     "kind": "margin"
+    },
+    {
+     "old": "014.0012"
+    },
+    {
+     "old": "014.0013"
+    },
+    {
+     "old": "014.0014"
+    },
+    {
+     "old": "014.0015"
+    },
+    {
+     "old": "014.0016"
+    },
+    {
+     "old": "014.0017"
+    },
+    {
+     "old": "014.0018"
+    },
+    {
+     "old": "014.0019"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-11.md",
+   "date": "1873-12-11",
+   "heading": "Jeudi 11 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0020"
+    },
+    {
+     "old": "014.0021"
+    },
+    {
+     "old": "014.0022"
+    },
+    {
+     "old": "014.0023"
+    },
+    {
+     "old": "014.0024"
+    },
+    {
+     "old": "014.0025"
+    },
+    {
+     "old": "014.0026"
+    },
+    {
+     "old": "014.0027"
+    },
+    {
+     "old": "014.0028"
+    },
+    {
+     "old": "014.0029"
+    },
+    {
+     "old": "014.0030"
+    },
+    {
+     "old": "014.0031"
+    },
+    {
+     "old": "014.0032"
+    },
+    {
+     "old": "014.0033"
+    },
+    {
+     "old": "014.0034"
+    },
+    {
+     "old": "014.0035"
+    },
+    {
+     "old": "014.0036"
+    },
+    {
+     "old": "014.0037"
+    },
+    {
+     "old": "014.0038"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-12.md",
+   "date": "1873-12-12",
+   "heading": "Vendredi 12 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0039"
+    },
+    {
+     "old": "014.0040"
+    },
+    {
+     "old": "014.0041"
+    },
+    {
+     "old": "014.0042",
+     "kind": "margin"
+    },
+    {
+     "old": "014.0043"
+    },
+    {
+     "old": "014.0044"
+    },
+    {
+     "old": "014.0045"
+    },
+    {
+     "old": "014.0046"
+    },
+    {
+     "old": "014.0047"
+    },
+    {
+     "old": "014.0048"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-13.md",
+   "date": "1873-12-13",
+   "heading": "Samedi 13 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0049"
+    },
+    {
+     "old": "014.0050"
+    },
+    {
+     "old": "014.0051"
+    },
+    {
+     "old": "014.0052"
+    },
+    {
+     "old": "014.0053"
+    },
+    {
+     "old": "014.0054"
+    },
+    {
+     "old": "014.0055"
+    },
+    {
+     "old": "014.0056"
+    },
+    {
+     "old": "014.0057"
+    },
+    {
+     "old": "014.0058"
+    },
+    {
+     "old": "014.0059"
+    },
+    {
+     "old": "014.0060"
+    },
+    {
+     "old": "014.0061"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-14.md",
+   "date": "1873-12-14",
+   "heading": "Dimanche 14 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0062"
+    },
+    {
+     "old": "014.0063"
+    },
+    {
+     "old": "014.0064"
+    },
+    {
+     "old": "014.0065"
+    },
+    {
+     "old": "014.0066"
+    },
+    {
+     "old": "014.0067"
+    },
+    {
+     "old": "014.0068"
+    },
+    {
+     "old": "014.0069"
+    },
+    {
+     "old": "014.0070"
+    },
+    {
+     "old": "014.0071"
+    },
+    {
+     "old": "014.0072"
+    },
+    {
+     "old": "014.0073"
+    },
+    {
+     "old": "014.0074"
+    },
+    {
+     "old": "014.0075"
+    },
+    {
+     "old": "014.0076"
+    },
+    {
+     "old": "014.0077",
+     "kind": "margin"
+    },
+    {
+     "old": "014.0078"
+    },
+    {
+     "old": "014.0079"
+    },
+    {
+     "old": "014.0080"
+    },
+    {
+     "old": "014.0081"
+    },
+    {
+     "old": "014.0082"
+    },
+    {
+     "old": "014.0083"
+    },
+    {
+     "old": "014.0084"
+    },
+    {
+     "old": "014.0085"
+    },
+    {
+     "old": "014.0086"
+    },
+    {
+     "old": "014.0087"
+    },
+    {
+     "old": "014.0088"
+    },
+    {
+     "old": "014.0089"
+    },
+    {
+     "old": "014.0090"
+    },
+    {
+     "old": "014.0091"
+    },
+    {
+     "old": "014.0092"
+    },
+    {
+     "old": "014.0093"
+    },
+    {
+     "old": "014.0094"
+    },
+    {
+     "old": "014.0095"
+    },
+    {
+     "old": "014.0096"
+    },
+    {
+     "old": "014.0097"
+    },
+    {
+     "old": "014.0098"
+    },
+    {
+     "old": "014.0099"
+    },
+    {
+     "old": "014.0100"
+    },
+    {
+     "old": "014.0101"
+    },
+    {
+     "old": "014.0102"
+    },
+    {
+     "old": "014.0103"
+    },
+    {
+     "old": "014.0104"
+    },
+    {
+     "old": "014.0105"
+    },
+    {
+     "old": "014.0106"
+    },
+    {
+     "old": "014.0107"
+    },
+    {
+     "old": "014.0108"
+    },
+    {
+     "old": "014.0109"
+    },
+    {
+     "old": "014.0110"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-15.md",
+   "date": "1873-12-15",
+   "heading": "Lundi 15 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0111"
+    },
+    {
+     "old": "014.0112"
+    },
+    {
+     "old": "014.0113"
+    },
+    {
+     "old": "014.0114"
+    },
+    {
+     "old": "014.0116"
+    },
+    {
+     "old": "014.0117"
+    },
+    {
+     "old": "014.0118"
+    },
+    {
+     "old": "014.0115"
+    },
+    {
+     "old": "014.0119"
+    },
+    {
+     "old": "014.0120"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-16.md",
+   "date": "1873-12-16",
+   "heading": "Mardi 16 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0121"
+    },
+    {
+     "old": "014.0122"
+    },
+    {
+     "old": "014.0123"
+    },
+    {
+     "old": "014.0124",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "014.0125"
+    },
+    {
+     "old": "014.0126"
+    },
+    {
+     "old": "014.0127"
+    },
+    {
+     "old": "014.0128"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-17.md",
+   "date": "1873-12-17",
+   "heading": "Mercredi 17 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0129"
+    },
+    {
+     "old": "014.0130"
+    },
+    {
+     "old": "014.0131"
+    },
+    {
+     "old": "014.0132"
+    },
+    {
+     "old": "014.0133",
+     "kind": "rayé"
+    },
+    {
+     "old": "014.0134"
+    },
+    {
+     "old": "014.0135"
+    },
+    {
+     "old": "014.0136"
+    },
+    {
+     "old": "014.0137"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-18.md",
+   "date": "1873-12-18",
+   "heading": "Jeudi 18 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0138"
+    },
+    {
+     "old": "014.0139"
+    },
+    {
+     "old": "014.0140"
+    },
+    {
+     "old": "014.0141"
+    },
+    {
+     "old": "014.0142"
+    },
+    {
+     "old": "014.0143"
+    },
+    {
+     "old": "014.0144"
+    },
+    {
+     "old": "014.0145"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-19.md",
+   "date": "1873-12-19",
+   "heading": "Vendredi 19 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0146"
+    },
+    {
+     "old": "014.0147"
+    },
+    {
+     "old": "014.0148"
+    },
+    {
+     "old": "014.0149"
+    },
+    {
+     "old": "014.0150"
+    },
+    {
+     "old": "014.0151"
+    },
+    {
+     "old": "014.0152"
+    },
+    {
+     "old": "014.0153"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-20.md",
+   "date": "1873-12-20",
+   "heading": "Samedi 20 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0154"
+    },
+    {
+     "old": "014.0155",
+     "kind": "rayé"
+    },
+    {
+     "old": "014.0156"
+    },
+    {
+     "old": "014.0157"
+    },
+    {
+     "old": "014.0158"
+    },
+    {
+     "old": "014.0159"
+    },
+    {
+     "old": "014.0160"
+    },
+    {
+     "old": "014.0161"
+    },
+    {
+     "old": "014.0162"
+    },
+    {
+     "old": "014.0163"
+    },
+    {
+     "old": "014.0164"
+    },
+    {
+     "old": "014.0165"
+    },
+    {
+     "old": "014.0166"
+    },
+    {
+     "old": "014.0167"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-21.md",
+   "date": "1873-12-21",
+   "heading": "Dimanche 21 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0168"
+    },
+    {
+     "old": "014.0169"
+    },
+    {
+     "old": "014.0170"
+    },
+    {
+     "old": "014.0171"
+    },
+    {
+     "old": "014.0172"
+    },
+    {
+     "old": "014.0173"
+    },
+    {
+     "old": "014.0174"
+    },
+    {
+     "old": "014.0175"
+    },
+    {
+     "old": "014.0176"
+    },
+    {
+     "old": "014.0177"
+    },
+    {
+     "old": "014.0178"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-22.md",
+   "date": "1873-12-22",
+   "heading": "Lundi 22 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0179"
+    },
+    {
+     "old": "014.0180"
+    },
+    {
+     "old": "014.0181"
+    },
+    {
+     "old": "014.0182"
+    },
+    {
+     "old": "014.0183"
+    },
+    {
+     "old": "014.0184"
+    },
+    {
+     "old": "014.0185"
+    },
+    {
+     "old": "014.0186"
+    },
+    {
+     "old": "014.0187"
+    },
+    {
+     "old": "014.0188"
+    },
+    {
+     "old": "014.0189"
+    },
+    {
+     "old": "014.0190"
+    },
+    {
+     "old": "014.0191"
+    },
+    {
+     "old": "014.0192"
+    },
+    {
+     "old": "014.0193"
+    },
+    {
+     "old": "014.0194"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-23.md",
+   "date": "1873-12-23",
+   "heading": "Mardi 23 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0195"
+    },
+    {
+     "old": "014.0196"
+    },
+    {
+     "old": "014.0197"
+    },
+    {
+     "old": "014.0198"
+    },
+    {
+     "old": "014.0199"
+    },
+    {
+     "old": "014.0200"
+    },
+    {
+     "old": "014.0201"
+    },
+    {
+     "old": "014.0202"
+    },
+    {
+     "old": "014.0203"
+    },
+    {
+     "old": "014.0204"
+    },
+    {
+     "old": "014.0205"
+    },
+    {
+     "old": "014.0206"
+    },
+    {
+     "old": "014.0207"
+    },
+    {
+     "old": "014.0208"
+    },
+    {
+     "old": "014.0209"
+    },
+    {
+     "old": "014.0210"
+    },
+    {
+     "old": "014.0211"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-24.md",
+   "date": "1873-12-24",
+   "heading": "Mercredi 24 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0212"
+    },
+    {
+     "old": "014.0213"
+    },
+    {
+     "old": "014.0214"
+    },
+    {
+     "old": "014.0215"
+    },
+    {
+     "old": "014.0216"
+    },
+    {
+     "old": "014.0217"
+    },
+    {
+     "old": "014.0218"
+    },
+    {
+     "old": "014.0219"
+    },
+    {
+     "old": "014.0220"
+    },
+    {
+     "old": "014.0221"
+    },
+    {
+     "old": "014.0222"
+    },
+    {
+     "old": "014.0223"
+    },
+    {
+     "old": "014.0224"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-25.md",
+   "date": "1873-12-25",
+   "heading": "Jeudi 25 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0225"
+    },
+    {
+     "old": "014.0226"
+    },
+    {
+     "old": "014.0227"
+    },
+    {
+     "old": "014.0228"
+    },
+    {
+     "old": "014.0229"
+    },
+    {
+     "old": "014.0230"
+    },
+    {
+     "old": "014.0231"
+    },
+    {
+     "old": "014.0232"
+    },
+    {
+     "old": "014.0233"
+    },
+    {
+     "old": "014.0234"
+    },
+    {
+     "old": "014.0235"
+    },
+    {
+     "old": "014.0236"
+    },
+    {
+     "old": "014.0237"
+    },
+    {
+     "old": "014.0238"
+    },
+    {
+     "old": "014.0239"
+    },
+    {
+     "old": "014.0240"
+    },
+    {
+     "old": "014.0241"
+    },
+    {
+     "old": "014.0242",
+     "set_french": "Gioia était avec son fils, très belle, très belle, seulement ce qui est mauvais c'est qu'elle se promène en landau loué, ça lui va si peu après sa voiture, et cela lui donne un air misérable. Combien fait l*a situation !* [Rayé: fait beaucoup] Tout !"
+    },
+    {
+     "old": "014.0243"
+    },
+    {
+     "old": "014.0244"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-26.md",
+   "date": "1873-12-26",
+   "heading": "Vendredi 26 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0245"
+    },
+    {
+     "old": "014.0246"
+    },
+    {
+     "old": "014.0247"
+    },
+    {
+     "old": "014.0248"
+    },
+    {
+     "old": "014.0249"
+    },
+    {
+     "old": "014.0250"
+    },
+    {
+     "old": "014.0251"
+    },
+    {
+     "old": "014.0252"
+    },
+    {
+     "old": "014.0253"
+    },
+    {
+     "old": "014.0254"
+    },
+    {
+     "old": "014.0255"
+    },
+    {
+     "old": "014.0256"
+    },
+    {
+     "old": "014.0257"
+    },
+    {
+     "old": "014.0258"
+    },
+    {
+     "old": "014.0259"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-27.md",
+   "date": "1873-12-27",
+   "heading": "Samedi 27 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0260"
+    },
+    {
+     "old": "014.0261"
+    },
+    {
+     "old": "014.0262"
+    },
+    {
+     "old": "014.0263"
+    },
+    {
+     "old": "014.0264",
+     "set_french": "On commence à se plaindre du mauvais temps; le soleil apparaît pour une heure, on fait un article dans \"Les Echos\" sur cet astre qui donne la lumière etc. Mme Prodgers paraît majestueusement couchée dans sa victoria, le nez en l'air et le chapeau au-delà de la tête, les pieds couverts d'une fourrure d'origine douteuse. Mme la vicomtesse Vigier vient aussi traînée par des dragons impétueux dans une coquille antédiluvienne et regardant les passants d'un air d'une fée qui vient reconquérir ses domaines [Rayé: qu'on lui avait ravis.] Paraît Boreel tout en bleu avec son caniche bien rasé, d'abord à pied, ensuite sur un dog-cab ou autre véhicule fantastique, puis le grand Audiffret qui ne pouvant partir se cachait l'été pour avoir le charme d'un étranger. Enfin, enfin viennent les Falkner, lady Howard avec son mari roux et le gros Merck: trinité indivisible. A cette époque Nice est déjà inondée de cocottes de toutes sortes, et enfin on voit le duc de Hamilton, d'abord paraître à pied, mais il a toujours l'air de voler au-dessus de la terre, à peine quelques minutes reste-t-il debout à parler à quelqu'un qu'il se jette dans sa voiture du diable [Rayé: traînée] emportée par un rat; on le voit peut-être quelquefois devant l'hôtel d'Angleterre, la canne appuyée sur le bout du pied, ou bien avec lady Howard et C° mais toujours passant comme une flèche la promenade, après quoi on voit son splendide char et coursier la tête basse à la porte du n° 77. Vers cinq heures avec Merck emporté ensemble vers ce palais mystérieux, ou encore pendant la pluie en un caoutchouc blanc sans parapluie allumant une cigarette; toujours vers cette demeure. Ou encore avec le petit marquis italien, c'est amusant de voir les deux dos à côté l'un de l'autre. En allant aux courses on le voit dans ce bosquet en cette espèce de terrasse assis avec Laïs (puisqu'il est Alcibiade) et mangeant. Il est assis et il a l'air en l'air et volant comme un trait."
+    },
+    {
+     "old": "014.0265"
+    },
+    {
+     "old": "014.0266"
+    },
+    {
+     "old": "014.0267",
+     "set_french": "Se succèdent les bals, les soirées, les concerts, les courses. Sur les tribunes on voit encore les mêmes comtesses de Sapristi, des duchesses de Fiche-ton-Camp et des ducs de Va-nu-pieds. Tous de grande distinction et haute noblesse. On voit le duc de Hamilton monter et descendre boitant avec une canne les degrés des tribunes, sifflant d'un air [Rayé: insouciant] insolent et allant se perdre dans le pesage."
+    },
+    {
+     "old": "014.0268"
+    },
+    {
+     "old": "014.0269"
+    },
+    {
+     "old": "014.0270"
+    },
+    {
+     "old": "014.0271"
+    },
+    {
+     "old": "014.0272"
+    },
+    {
+     "old": "014.0273"
+    },
+    {
+     "old": "014.0274"
+    },
+    {
+     "old": "014.0275"
+    },
+    {
+     "old": "014.0276"
+    },
+    {
+     "old": "014.0277",
+     "set_french": "Walitsky depuis plusieurs jours nous fait rire terriblement en devançant Tormosoff et en disant tous les matins que tantôt ce Serbe a avalé les chemises de nuit, tantôt [Rayé: il a mangé tout le dîner] qu'il a enlevé tous les papiers du cabinet, la dernière fois il rongea une clochette. Et je ne puis plus penser sans rire à ce malheureux Serbe. Solominka avait un bonbon dans la bouche lorsqu'elle lut: *Serbe,* elle s'étouffa presque et resta longtemps suffoquée de rire sans pouvoir dire mot."
+    },
+    {
+     "old": "014.0278"
+    },
+    {
+     "old": "014.0279"
+    },
+    {
+     "old": "014.0280",
+     "kind": "margin"
+    },
+    {
+     "old": "014.0281"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-28.md",
+   "date": "1873-12-28",
+   "heading": "Dimanche 28 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0282"
+    },
+    {
+     "old": "014.0283"
+    },
+    {
+     "old": "014.0284"
+    },
+    {
+     "old": "014.0285"
+    },
+    {
+     "old": "014.0286"
+    },
+    {
+     "old": "014.0287"
+    },
+    {
+     "old": "014.0288"
+    },
+    {
+     "old": "014.0289"
+    },
+    {
+     "old": "014.0290"
+    },
+    {
+     "old": "014.0291"
+    },
+    {
+     "old": "014.0292"
+    },
+    {
+     "old": "014.0293"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-29.md",
+   "date": "1873-12-29",
+   "heading": "Lundi 29 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0294"
+    },
+    {
+     "old": "014.0295"
+    },
+    {
+     "old": "014.0296"
+    },
+    {
+     "old": "014.0297"
+    },
+    {
+     "old": "014.0298"
+    },
+    {
+     "old": "014.0299"
+    },
+    {
+     "old": "014.0300"
+    },
+    {
+     "old": "014.0301",
+     "set_french": "Dans le compartiment il y a trois Anglais poussière, une vieille, nous et un vieux. J'ai expliqué le Tir à Averianoff et j'ai parlé si vite et sans me reposer."
+    },
+    {
+     "old": "014.0302"
+    },
+    {
+     "old": "014.0303"
+    },
+    {
+     "old": "014.0305"
+    },
+    {
+     "old": "014.0306"
+    },
+    {
+     "old": "014.0307"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-30.md",
+   "date": "1873-12-30",
+   "heading": "Mardi 30 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0304"
+    },
+    {
+     "old": "014.0308"
+    },
+    {
+     "old": "014.0309"
+    },
+    {
+     "old": "014.0310"
+    },
+    {
+     "old": "014.0311"
+    },
+    {
+     "old": "014.0312"
+    },
+    {
+     "old": "014.0313"
+    },
+    {
+     "old": "014.0314"
+    },
+    {
+     "old": "014.0315"
+    },
+    {
+     "old": "014.0316"
+    },
+    {
+     "old": "014.0317"
+    },
+    {
+     "old": "014.0318"
+    },
+    {
+     "old": "014.0319"
+    },
+    {
+     "old": "014.0320"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-31.md",
+   "date": "1873-12-31",
+   "heading": "Mercredi 31 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "014.0321"
+    },
+    {
+     "old": "014.0322"
+    },
+    {
+     "old": "014.0323"
+    },
+    {
+     "old": "014.0324"
+    },
+    {
+     "old": "014.0325"
+    },
+    {
+     "old": "014.0326"
+    },
+    {
+     "old": "014.0327",
+     "kind": "margin"
+    },
+    {
+     "old": "014.0328"
+    },
+    {
+     "old": "014.0329"
+    },
+    {
+     "old": "014.0330"
+    },
+    {
+     "old": "014.0331"
+    },
+    {
+     "old": "014.0332"
+    }
+   ]
+  },
+  {
+   "file": "1874-01-01.md",
+   "date": "1874-01-01",
+   "heading": "Jeudi 1er janvier 1874",
+   "paragraphs": [
+    {
+     "old": "014.0333"
+    },
+    {
+     "old": "014.0334"
+    },
+    {
+     "old": "014.0335"
+    },
+    {
+     "old": "014.0336"
+    },
+    {
+     "old": "014.0337"
+    },
+    {
+     "old": "014.0338"
+    },
+    {
+     "old": "014.0339"
+    },
+    {
+     "old": "014.0340"
+    },
+    {
+     "old": "014.0341"
+    },
+    {
+     "old": "014.0342"
+    },
+    {
+     "old": "014.0343"
+    },
+    {
+     "old": "014.0344"
+    },
+    {
+     "old": "014.0345"
+    },
+    {
+     "old": "014.0346"
+    },
+    {
+     "old": "014.0347"
+    },
+    {
+     "old": "014.0348"
+    },
+    {
+     "old": "014.0349"
+    },
+    {
+     "old": "014.0350"
+    },
+    {
+     "old": "014.0351"
+    },
+    {
+     "old": "014.0352"
+    },
+    {
+     "old": "014.0353"
+    },
+    {
+     "old": "014.0354"
+    }
+   ]
+  }
+ ]
+}

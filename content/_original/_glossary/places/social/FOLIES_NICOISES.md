@@ -26,8 +26,8 @@ The venue's name — "Folies Niçoises" — follows the naming convention of Par
 ## Diary References
 
 - **June 5, 1873** (005): "Folies Niçoises" mentioned as a destination.
-- **June 8, 1873** (005.0213): M. Tchernikoff, Solominka, and Walitsky go to "ce nouveau théâtre" (identified as the Folies Niçoises). The Bashkirtseffs decline: "ça n'est pas comme il faut."
-- **June 8, 1873** (005.0215–0216): Family visits briefly, confirms it is unsuitable; described as a "café" with smoking and low-class company.
-- **June 14, 1873** (005.0274): The Bashkirtseffs' social circle goes to "les Folies niçoises" in the evening.
+- **June 8, 1873** (005.0214): M. Tchernikoff, Solominka, and Walitsky go to "ce nouveau théâtre" (identified as the Folies Niçoises). The Bashkirtseffs decline: "ça n'est pas comme il faut."
+- **June 8, 1873** (005.0216–0216): Family visits briefly, confirms it is unsuitable; described as a "café" with smoking and low-class company.
+- **June 14, 1873** (005.0275): The Bashkirtseffs' social circle goes to "les Folies niçoises" in the evening.
 
 %% 2026-05-31T12:00:00 RSR: Created to resolve broken UK link. Real venue — a café-concert entertainment hall in Nice, 1873, described consistently as low-class by the Bashkirtseff circle. %%

@@ -1,0 +1,1581 @@
+{
+ "carnet": "011",
+ "source": "tome02.docx",
+ "drop": [
+  {
+   "id": "011.0002",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "011.0446",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "011.0447",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "011.0448",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "011.0449",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1873-10-15.md",
+   "date": "1873-10-15",
+   "heading": "Mercredi 15 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0001"
+    },
+    {
+     "old": "011.0003"
+    },
+    {
+     "old": "011.0004"
+    },
+    {
+     "old": "011.0005"
+    },
+    {
+     "old": "011.0006"
+    },
+    {
+     "old": "011.0007"
+    },
+    {
+     "old": "011.0008"
+    },
+    {
+     "old": "011.0009"
+    },
+    {
+     "old": "011.0010"
+    },
+    {
+     "old": "011.0011"
+    },
+    {
+     "old": "011.0012"
+    },
+    {
+     "old": "011.0013"
+    },
+    {
+     "old": "011.0014"
+    },
+    {
+     "old": "011.0015"
+    },
+    {
+     "old": "011.0016"
+    },
+    {
+     "old": "011.0017"
+    },
+    {
+     "old": "011.0018"
+    },
+    {
+     "old": "011.0019"
+    },
+    {
+     "old": "011.0020"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-16.md",
+   "date": "1873-10-16",
+   "heading": "Jeudi 16 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0021"
+    },
+    {
+     "old": "011.0022"
+    },
+    {
+     "old": "011.0023"
+    },
+    {
+     "old": "011.0024"
+    },
+    {
+     "old": "011.0025"
+    },
+    {
+     "old": "011.0026"
+    },
+    {
+     "old": "011.0027"
+    },
+    {
+     "old": "011.0028"
+    },
+    {
+     "old": "011.0029"
+    },
+    {
+     "old": "011.0030"
+    },
+    {
+     "old": "011.0031"
+    },
+    {
+     "old": "011.0032"
+    },
+    {
+     "old": "011.0033"
+    },
+    {
+     "old": "011.0034"
+    },
+    {
+     "old": "011.0035"
+    },
+    {
+     "old": "011.0036"
+    },
+    {
+     "old": "011.0037",
+     "kind": "margin"
+    },
+    {
+     "old": "011.0038"
+    },
+    {
+     "old": "011.0039"
+    },
+    {
+     "old": "011.0040"
+    },
+    {
+     "old": "011.0041"
+    },
+    {
+     "old": "011.0042"
+    },
+    {
+     "old": "011.0043"
+    },
+    {
+     "old": "011.0044"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-17.md",
+   "date": "1873-10-17",
+   "heading": "Vendredi 17 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0045"
+    },
+    {
+     "old": "011.0046"
+    },
+    {
+     "old": "011.0047"
+    },
+    {
+     "old": "011.0048"
+    },
+    {
+     "old": "011.0049"
+    },
+    {
+     "old": "011.0050"
+    },
+    {
+     "old": "011.0051"
+    },
+    {
+     "old": "011.0052"
+    },
+    {
+     "old": "011.0053"
+    },
+    {
+     "old": "011.0054"
+    },
+    {
+     "old": "011.0055"
+    },
+    {
+     "old": "011.0056"
+    },
+    {
+     "old": "011.0057"
+    },
+    {
+     "old": "011.0058"
+    },
+    {
+     "old": "011.0059"
+    },
+    {
+     "old": "011.0060"
+    },
+    {
+     "old": "011.0061"
+    },
+    {
+     "old": "011.0062"
+    },
+    {
+     "old": "011.0063"
+    },
+    {
+     "old": "011.0064",
+     "kind": "margin"
+    },
+    {
+     "old": "011.0065"
+    },
+    {
+     "old": "011.0066"
+    },
+    {
+     "old": "011.0067"
+    },
+    {
+     "old": "011.0068"
+    },
+    {
+     "old": "011.0069"
+    },
+    {
+     "old": "011.0070"
+    },
+    {
+     "old": "011.0071"
+    },
+    {
+     "old": "011.0072"
+    },
+    {
+     "old": "011.0073"
+    },
+    {
+     "old": "011.0074"
+    },
+    {
+     "old": "011.0075"
+    },
+    {
+     "old": "011.0076"
+    },
+    {
+     "old": "011.0077"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-18.md",
+   "date": "1873-10-18",
+   "heading": "Samedi 18 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0078"
+    },
+    {
+     "old": "011.0079"
+    },
+    {
+     "old": "011.0080"
+    },
+    {
+     "old": "011.0081"
+    },
+    {
+     "old": "011.0082"
+    },
+    {
+     "old": "011.0083"
+    },
+    {
+     "old": "011.0084"
+    },
+    {
+     "old": "011.0085"
+    },
+    {
+     "old": "011.0086"
+    },
+    {
+     "old": "011.0087"
+    },
+    {
+     "old": "011.0088"
+    },
+    {
+     "old": "011.0089"
+    },
+    {
+     "old": "011.0090"
+    },
+    {
+     "old": "011.0091"
+    },
+    {
+     "old": "011.0092"
+    },
+    {
+     "old": "011.0093"
+    },
+    {
+     "old": "011.0094"
+    },
+    {
+     "old": "011.0095"
+    },
+    {
+     "old": "011.0096"
+    },
+    {
+     "old": "011.0097"
+    },
+    {
+     "old": "011.0098"
+    },
+    {
+     "old": "011.0099"
+    },
+    {
+     "old": "011.0100"
+    },
+    {
+     "old": "011.0101"
+    },
+    {
+     "old": "011.0102"
+    },
+    {
+     "old": "011.0103"
+    },
+    {
+     "old": "011.0104"
+    },
+    {
+     "old": "011.0105"
+    },
+    {
+     "old": "011.0106"
+    },
+    {
+     "old": "011.0107"
+    },
+    {
+     "old": "011.0108",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "011.0109"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-19.md",
+   "date": "1873-10-19",
+   "heading": "Dimanche 19 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0110"
+    },
+    {
+     "old": "011.0111"
+    },
+    {
+     "old": "011.0112"
+    },
+    {
+     "old": "011.0113"
+    },
+    {
+     "old": "011.0114"
+    },
+    {
+     "old": "011.0115"
+    },
+    {
+     "old": "011.0116"
+    },
+    {
+     "old": "011.0117"
+    },
+    {
+     "old": "011.0118"
+    },
+    {
+     "old": "011.0119"
+    },
+    {
+     "old": "011.0120",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "011.0121"
+    },
+    {
+     "old": "011.0122"
+    },
+    {
+     "old": "011.0123"
+    },
+    {
+     "old": "011.0124"
+    },
+    {
+     "old": "011.0125"
+    },
+    {
+     "old": "011.0126",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "011.0127"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-20.md",
+   "date": "1873-10-20",
+   "heading": "Lundi 20 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0128"
+    },
+    {
+     "old": "011.0129"
+    },
+    {
+     "old": "011.0130"
+    },
+    {
+     "old": "011.0131"
+    },
+    {
+     "old": "011.0132"
+    },
+    {
+     "old": "011.0133"
+    },
+    {
+     "old": "011.0134"
+    },
+    {
+     "old": "011.0135"
+    },
+    {
+     "old": "011.0136",
+     "kind": "margin"
+    },
+    {
+     "old": "011.0137"
+    },
+    {
+     "old": "011.0138"
+    },
+    {
+     "old": "011.0139"
+    },
+    {
+     "old": "011.0140"
+    },
+    {
+     "old": "011.0141"
+    },
+    {
+     "old": "011.0142"
+    },
+    {
+     "old": "011.0143"
+    },
+    {
+     "old": "011.0144"
+    },
+    {
+     "old": "011.0145"
+    },
+    {
+     "old": "011.0146"
+    },
+    {
+     "old": "011.0147"
+    },
+    {
+     "old": "011.0148"
+    },
+    {
+     "old": "011.0149",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "011.0150"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-21.md",
+   "date": "1873-10-21",
+   "heading": "Mardi 21 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0151"
+    },
+    {
+     "old": "011.0152"
+    },
+    {
+     "old": "011.0153"
+    },
+    {
+     "old": "011.0154"
+    },
+    {
+     "old": "011.0155"
+    },
+    {
+     "old": "011.0156"
+    },
+    {
+     "old": "011.0157"
+    },
+    {
+     "old": "011.0158"
+    },
+    {
+     "old": "011.0159"
+    },
+    {
+     "old": "011.0160"
+    },
+    {
+     "old": "011.0161"
+    },
+    {
+     "old": "011.0162"
+    },
+    {
+     "old": "011.0163"
+    },
+    {
+     "old": "011.0164"
+    },
+    {
+     "old": "011.0165"
+    },
+    {
+     "old": "011.0166"
+    },
+    {
+     "old": "011.0167"
+    },
+    {
+     "old": "011.0168"
+    },
+    {
+     "old": "011.0169"
+    },
+    {
+     "old": "011.0171"
+    },
+    {
+     "old": "011.0172"
+    },
+    {
+     "old": "011.0173"
+    },
+    {
+     "old": "011.0174"
+    },
+    {
+     "old": "011.0175"
+    },
+    {
+     "old": "011.0176"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-22.md",
+   "date": "1873-10-22",
+   "heading": "Mercredi 22 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0170"
+    },
+    {
+     "old": "011.0177"
+    },
+    {
+     "old": "011.0178"
+    },
+    {
+     "old": "011.0179"
+    },
+    {
+     "old": "011.0180"
+    },
+    {
+     "old": "011.0181"
+    },
+    {
+     "old": "011.0182"
+    },
+    {
+     "old": "011.0183"
+    },
+    {
+     "old": "011.0184"
+    },
+    {
+     "old": "011.0185"
+    },
+    {
+     "old": "011.0186"
+    },
+    {
+     "old": "011.0187"
+    },
+    {
+     "old": "011.0188"
+    },
+    {
+     "old": "011.0189"
+    },
+    {
+     "old": "011.0190",
+     "kind": "margin"
+    },
+    {
+     "old": "011.0191"
+    },
+    {
+     "old": "011.0192"
+    },
+    {
+     "old": "011.0193"
+    },
+    {
+     "old": "011.0194"
+    },
+    {
+     "old": "011.0195"
+    },
+    {
+     "old": "011.0196"
+    },
+    {
+     "old": "011.0197"
+    },
+    {
+     "old": "011.0198"
+    },
+    {
+     "old": "011.0199"
+    },
+    {
+     "old": "011.0200"
+    },
+    {
+     "old": "011.0201"
+    },
+    {
+     "old": "011.0202"
+    },
+    {
+     "old": "011.0203"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-23.md",
+   "date": "1873-10-23",
+   "heading": "Jeudi 23 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0204"
+    },
+    {
+     "old": "011.0205"
+    },
+    {
+     "old": "011.0206"
+    },
+    {
+     "old": "011.0207"
+    },
+    {
+     "old": "011.0208"
+    },
+    {
+     "old": "011.0209"
+    },
+    {
+     "old": "011.0210"
+    },
+    {
+     "old": "011.0211"
+    },
+    {
+     "old": "011.0212"
+    },
+    {
+     "old": "011.0213"
+    },
+    {
+     "old": "011.0214"
+    },
+    {
+     "old": "011.0215"
+    },
+    {
+     "old": "011.0216"
+    },
+    {
+     "old": "011.0217"
+    },
+    {
+     "old": "011.0218"
+    },
+    {
+     "old": "011.0219"
+    },
+    {
+     "old": "011.0220"
+    },
+    {
+     "old": "011.0221"
+    },
+    {
+     "old": "011.0222"
+    },
+    {
+     "old": "011.0223"
+    },
+    {
+     "old": "011.0224"
+    },
+    {
+     "old": "011.0225"
+    },
+    {
+     "old": "011.0226"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-24.md",
+   "date": "1873-10-24",
+   "heading": "Vendredi 24 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0227"
+    },
+    {
+     "old": "011.0228"
+    },
+    {
+     "old": "011.0229"
+    },
+    {
+     "old": "011.0230"
+    },
+    {
+     "old": "011.0231"
+    },
+    {
+     "old": "011.0232"
+    },
+    {
+     "old": "011.0233"
+    },
+    {
+     "old": "011.0234"
+    },
+    {
+     "old": "011.0235"
+    },
+    {
+     "old": "011.0236"
+    },
+    {
+     "old": "011.0237"
+    },
+    {
+     "old": "011.0238"
+    },
+    {
+     "old": "011.0239"
+    },
+    {
+     "old": "011.0240"
+    },
+    {
+     "old": "011.0241"
+    },
+    {
+     "old": "011.0242",
+     "kind": "other",
+     "source": "annotation de Marie, 1880"
+    },
+    {
+     "old": "011.0243"
+    },
+    {
+     "old": "011.0244"
+    },
+    {
+     "old": "011.0245"
+    },
+    {
+     "old": "011.0246"
+    },
+    {
+     "old": "011.0247"
+    },
+    {
+     "old": "011.0248"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-25.md",
+   "date": "1873-10-25",
+   "heading": "Samedi 25 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0249"
+    },
+    {
+     "old": "011.0250"
+    },
+    {
+     "old": "011.0251"
+    },
+    {
+     "old": "011.0252"
+    },
+    {
+     "old": "011.0253"
+    },
+    {
+     "old": "011.0254"
+    },
+    {
+     "old": "011.0255"
+    },
+    {
+     "old": "011.0256"
+    },
+    {
+     "old": "011.0257"
+    },
+    {
+     "old": "011.0258"
+    },
+    {
+     "old": "011.0259"
+    },
+    {
+     "old": "011.0260"
+    },
+    {
+     "old": "011.0261"
+    },
+    {
+     "old": "011.0262"
+    },
+    {
+     "old": "011.0263"
+    },
+    {
+     "old": "011.0264"
+    },
+    {
+     "old": "011.0265"
+    },
+    {
+     "old": "011.0266"
+    },
+    {
+     "old": "011.0267"
+    },
+    {
+     "old": "011.0268"
+    },
+    {
+     "old": "011.0269"
+    },
+    {
+     "old": "011.0270"
+    },
+    {
+     "old": "011.0271"
+    },
+    {
+     "old": "011.0272"
+    },
+    {
+     "old": "011.0273"
+    },
+    {
+     "old": "011.0274"
+    },
+    {
+     "old": "011.0275"
+    },
+    {
+     "old": "011.0276"
+    },
+    {
+     "old": "011.0277"
+    },
+    {
+     "old": "011.0278"
+    },
+    {
+     "old": "011.0279"
+    },
+    {
+     "old": "011.0280"
+    },
+    {
+     "old": "011.0281"
+    },
+    {
+     "old": "011.0282"
+    },
+    {
+     "old": "011.0283"
+    },
+    {
+     "old": "011.0284"
+    },
+    {
+     "old": "011.0285"
+    },
+    {
+     "old": "011.0286"
+    },
+    {
+     "old": "011.0287"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-26.md",
+   "date": "1873-10-26",
+   "heading": "Dimanche 26 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0288"
+    },
+    {
+     "old": "011.0289"
+    },
+    {
+     "old": "011.0290"
+    },
+    {
+     "old": "011.0291"
+    },
+    {
+     "old": "011.0292"
+    },
+    {
+     "old": "011.0293"
+    },
+    {
+     "old": "011.0294"
+    },
+    {
+     "old": "011.0295"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-27.md",
+   "date": "1873-10-27",
+   "heading": "Lundi 27 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0296"
+    },
+    {
+     "old": "011.0297"
+    },
+    {
+     "old": "011.0298"
+    },
+    {
+     "old": "011.0299"
+    },
+    {
+     "old": "011.0300"
+    },
+    {
+     "old": "011.0301"
+    },
+    {
+     "old": "011.0302"
+    },
+    {
+     "old": "011.0303",
+     "kind": "margin"
+    },
+    {
+     "old": "011.0304"
+    },
+    {
+     "old": "011.0305"
+    },
+    {
+     "old": "011.0306"
+    },
+    {
+     "old": "011.0307"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-28.md",
+   "date": "1873-10-28",
+   "heading": "Mardi 28 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0308"
+    },
+    {
+     "old": "011.0309"
+    },
+    {
+     "old": "011.0310"
+    },
+    {
+     "old": "011.0311"
+    },
+    {
+     "old": "011.0312",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "011.0313"
+    },
+    {
+     "old": "011.0314"
+    },
+    {
+     "old": "011.0315"
+    },
+    {
+     "old": "011.0316"
+    },
+    {
+     "old": "011.0317"
+    },
+    {
+     "old": "011.0318"
+    },
+    {
+     "old": "011.0319"
+    },
+    {
+     "old": "011.0320"
+    },
+    {
+     "old": "011.0321"
+    },
+    {
+     "old": "011.0322"
+    },
+    {
+     "old": "011.0323"
+    },
+    {
+     "old": "011.0324"
+    },
+    {
+     "old": "011.0325"
+    },
+    {
+     "old": "011.0326"
+    },
+    {
+     "old": "011.0327"
+    },
+    {
+     "old": "011.0328"
+    },
+    {
+     "old": "011.0329"
+    },
+    {
+     "old": "011.0330",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "011.0331"
+    },
+    {
+     "old": "011.0332"
+    },
+    {
+     "old": "011.0333"
+    },
+    {
+     "old": "011.0334"
+    },
+    {
+     "old": "011.0335"
+    },
+    {
+     "old": "011.0336"
+    },
+    {
+     "old": "011.0337"
+    },
+    {
+     "old": "011.0338"
+    },
+    {
+     "new": {
+      "french": "Jamais je n’aimerai un autre *comme* j’aimais celui-ci, je l’aimerai autant peut-être plus mais pas *comme* Hamilton. C’est un amour particulier, poétique et fou, bâti dans les airs et soutenu par des colonnes faites d’imagination et ornées de fictions.",
+      "rsr": "Restored from tome02.docx ¶5442 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Rayé: Mais s’il voulait y mettre] Mais s’il m’aimait ce serait le plus beau, le plus solide, le plus poétique, le plus durable et le plus enchanteur sur la terre.",
+      "rsr": "Restored from tome02.docx ¶5443–5471 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais je suis brisée, malheureuse, misérable !",
+      "rsr": "Restored from tome02.docx ¶5472 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’espère le revoir un jour et je prie Dieu de permettre [de] m’expliquer.",
+      "rsr": "Restored from tome02.docx ¶5473 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A dîner papa a non seulement dit les plus grandes saletés mais a osé attaquer mon nom et ma famille, je lui répondais aussi mal qu’il me parlait. C’est un vieux bête, *passé, corrompu* (moralement) insensible comme de la pierre et agaçant comme tout ce qu’il y a de plus agaçant, énervant et abominable au monde, âne.",
+      "rsr": "Restored from tome02.docx ¶5474 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Comment perdre la raison jusqu’au point de dire les choses les plus affreuses, flétrir mes jeunes oreilles sans aucun scrupule et me rendre folle de rage !",
+      "rsr": "Restored from tome02.docx ¶5475 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai oublié que j’ai promis de ne pas riposter, une autre fois je m’en irai, car cette vieille horreur, ce morceau de bois me fait pleurer de rage et d’agacement.",
+      "rsr": "Restored from tome02.docx ¶5476 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A tous *mes* malheurs, j’ai en addition la société de cette vieille pierre !",
+      "rsr": "Restored from tome02.docx ¶5477 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai un nouveau tic, je tricote, je vais commencer une bande en laine que je continuerai jusqu’à ma mort; je veux voir sa longueur, chaque année je prendrai une autre couleur. Je commence par vert en 1873, 29 octobre, mardi, demain.",
+      "rsr": "Restored from tome02.docx ¶5478 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[En travers: j’ai oublié la bande.]",
+      "rsr": "Restored from tome02.docx ¶5479 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "margin"
+     }
+    },
+    {
+     "new": {
+      "french": "Rehberg trouve que maman va comparativement mieux.",
+      "rsr": "Restored from tome02.docx ¶5480 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1873-10-29.md",
+   "date": "1873-10-29",
+   "heading": "Mercredi 29 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0339"
+    },
+    {
+     "old": "011.0340"
+    },
+    {
+     "old": "011.0341"
+    },
+    {
+     "old": "011.0342"
+    },
+    {
+     "old": "011.0343"
+    },
+    {
+     "old": "011.0344"
+    },
+    {
+     "old": "011.0345"
+    },
+    {
+     "old": "011.0346"
+    },
+    {
+     "old": "011.0347"
+    },
+    {
+     "old": "011.0348"
+    },
+    {
+     "old": "011.0349"
+    },
+    {
+     "old": "011.0350",
+     "kind": "margin"
+    },
+    {
+     "old": "011.0351"
+    },
+    {
+     "old": "011.0352"
+    },
+    {
+     "old": "011.0353"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-30.md",
+   "date": "1873-10-30",
+   "heading": "Jeudi 30 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0354"
+    },
+    {
+     "old": "011.0355"
+    },
+    {
+     "old": "011.0356"
+    },
+    {
+     "old": "011.0357"
+    },
+    {
+     "old": "011.0358"
+    },
+    {
+     "old": "011.0359"
+    },
+    {
+     "old": "011.0360"
+    },
+    {
+     "old": "011.0361"
+    },
+    {
+     "old": "011.0362",
+     "kind": "margin"
+    },
+    {
+     "old": "011.0363"
+    },
+    {
+     "old": "011.0364",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "011.0365"
+    },
+    {
+     "old": "011.0366"
+    },
+    {
+     "old": "011.0367",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "011.0368"
+    },
+    {
+     "old": "011.0369"
+    },
+    {
+     "old": "011.0370"
+    },
+    {
+     "old": "011.0371"
+    },
+    {
+     "old": "011.0373"
+    },
+    {
+     "old": "011.0374",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "011.0375"
+    },
+    {
+     "old": "011.0376"
+    },
+    {
+     "old": "011.0377"
+    }
+   ]
+  },
+  {
+   "file": "1873-10-31.md",
+   "date": "1873-10-31",
+   "heading": "Vendredi 31 octobre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0372"
+    },
+    {
+     "old": "011.0378"
+    },
+    {
+     "old": "011.0379"
+    },
+    {
+     "old": "011.0380"
+    },
+    {
+     "old": "011.0381"
+    },
+    {
+     "old": "011.0382"
+    },
+    {
+     "old": "011.0383"
+    },
+    {
+     "old": "011.0384"
+    },
+    {
+     "old": "011.0385",
+     "kind": "rayé"
+    },
+    {
+     "old": "011.0386"
+    },
+    {
+     "old": "011.0387"
+    },
+    {
+     "old": "011.0388"
+    },
+    {
+     "old": "011.0389"
+    },
+    {
+     "old": "011.0390"
+    },
+    {
+     "old": "011.0391"
+    }
+   ]
+  },
+  {
+   "file": "1873-11-01.md",
+   "date": "1873-11-01",
+   "heading": "Samedi 1er novembre 1873",
+   "paragraphs": [
+    {
+     "old": "011.0392"
+    },
+    {
+     "old": "011.0393"
+    },
+    {
+     "old": "011.0394"
+    },
+    {
+     "old": "011.0395"
+    },
+    {
+     "old": "011.0396"
+    },
+    {
+     "old": "011.0397"
+    },
+    {
+     "old": "011.0398"
+    },
+    {
+     "old": "011.0399"
+    },
+    {
+     "old": "011.0400"
+    },
+    {
+     "old": "011.0401"
+    },
+    {
+     "old": "011.0402"
+    },
+    {
+     "old": "011.0403"
+    },
+    {
+     "old": "011.0404"
+    },
+    {
+     "old": "011.0405"
+    },
+    {
+     "old": "011.0406"
+    },
+    {
+     "old": "011.0407"
+    },
+    {
+     "old": "011.0408"
+    },
+    {
+     "old": "011.0409"
+    },
+    {
+     "old": "011.0410"
+    },
+    {
+     "old": "011.0411"
+    },
+    {
+     "old": "011.0412"
+    },
+    {
+     "old": "011.0413"
+    },
+    {
+     "old": "011.0414"
+    },
+    {
+     "old": "011.0415"
+    },
+    {
+     "old": "011.0416"
+    },
+    {
+     "old": "011.0417"
+    },
+    {
+     "old": "011.0418"
+    },
+    {
+     "old": "011.0419"
+    },
+    {
+     "old": "011.0420"
+    },
+    {
+     "old": "011.0421"
+    },
+    {
+     "old": "011.0422"
+    },
+    {
+     "old": "011.0423"
+    },
+    {
+     "old": "011.0424"
+    },
+    {
+     "old": "011.0425"
+    },
+    {
+     "old": "011.0426"
+    },
+    {
+     "old": "011.0427"
+    },
+    {
+     "old": "011.0428"
+    },
+    {
+     "old": "011.0429"
+    },
+    {
+     "old": "011.0430"
+    },
+    {
+     "old": "011.0431"
+    },
+    {
+     "old": "011.0432"
+    },
+    {
+     "old": "011.0433"
+    },
+    {
+     "old": "011.0434"
+    },
+    {
+     "old": "011.0435"
+    },
+    {
+     "old": "011.0436"
+    },
+    {
+     "old": "011.0437"
+    },
+    {
+     "old": "011.0438"
+    },
+    {
+     "old": "011.0439"
+    },
+    {
+     "old": "011.0440"
+    },
+    {
+     "old": "011.0441"
+    },
+    {
+     "old": "011.0442"
+    },
+    {
+     "old": "011.0443"
+    },
+    {
+     "old": "011.0444"
+    },
+    {
+     "old": "011.0445"
+    }
+   ]
+  }
+ ]
+}

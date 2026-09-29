@@ -44,24 +44,24 @@ Her father died in May 1879 (%% 085.0078 %%: "Le pere de Collignon est mort ce m
 
 ## Role in the Household (1872-1873)
 
-Collignon was hired as Marie's governess before the diary begins. Marie records the precise date her English lessons started: "commencees le 12 janvier 1872 a Nice, avec Mlle Collignon" (%% 001.0156 %%). Despite being French, Collignon was tasked with teaching English — a duty Marie increasingly felt she neglected. As governess, Collignon served multiple functions:
+Collignon was hired as Marie's governess before the diary begins. Marie records the precise date her English lessons started: "commencees le 12 janvier 1872 a Nice, avec Mlle Collignon" (%% 001.0155 %%). Despite being French, Collignon was tasked with teaching English — a duty Marie increasingly felt she neglected. As governess, Collignon served multiple functions:
 
 - **Educator**: Teaching English, geography, history, arithmetic. Marie studied German history with her and read aloud during lessons (%% 046.0122 %%, %% 103.0007 %%).
 - **Chaperone**: Accompanying Marie on all promenades, visits, shopping, theater outings, and sea bathing. Marie could not go out without her.
-- **Disciplinarian**: Scolding Marie for blushing at men (%% 001.0025 %%: "Ne faites pas cela, Marie, cela m'enerve tant"), for attracting attention (%% 004.0261 %%: "m'a grondee parce qu'on me regardait trop"), and for speaking indiscreetly.
-- **Confidante (limited)**: Despite tensions, Marie confided some feelings — hiding her face in Collignon's chest after seeing the Duke (%% 001.0107 %%, %% 044.0145 %%: "je me jetais dans les bras de Collignon, je cachais ma figure sur sa poitrine").
+- **Disciplinarian**: Scolding Marie for blushing at men (%% 001.0024 %%: "Ne faites pas cela, Marie, cela m'enerve tant"), for attracting attention (%% 004.0269 %%: "m'a grondee parce qu'on me regardait trop"), and for speaking indiscreetly.
+- **Confidante (limited)**: Despite tensions, Marie confided some feelings — hiding her face in Collignon's chest after seeing the Duke (%% 001.0106 %%, %% 044.0145 %%: "je me jetais dans les bras de Collignon, je cachais ma figure sur sa poitrine").
 
 ## Dismissal (May 31, 1873)
 
-Tensions had been building for months. Marie complained bitterly about Collignon's chronic lateness, missed lessons, and failure to speak English conversationally (%% 004.0306 %%: "elle ne parle jamais anglais... elle donne des lecons comme un professeur et ne cause jamais"). In March 1873, Collignon wrote a letter to Marie's aunt complaining of Marie's "caractere impertinent et vain" and threatened to leave (%% 003.0115 %%).
+Tensions had been building for months. Marie complained bitterly about Collignon's chronic lateness, missed lessons, and failure to speak English conversationally (%% 004.0314 %%: "elle ne parle jamais anglais... elle donne des lecons comme un professeur et ne cause jamais"). In March 1873, Collignon wrote a letter to Marie's aunt complaining of Marie's "caractere impertinent et vain" and threatened to leave (%% 003.0115 %%).
 
 The final break came on May 31, 1873, during an arithmetic lesson (%% 005.0112 %%): Marie asked for an explanation, Collignon told her to figure it out herself, and the quarrel escalated. Collignon declared "C'est la derniere lecon que je vous donne!" to which Marie replied "Oh! tant mieux!" (%% 005.0110 %%). Marie maintained supernatural calm while Collignon raged; Markevitch embraced Marie in celebration. Maman then confronted Collignon about her neglected duties: "elle soutint a maman qu'elle remplissait son devoir, qu'elle était constamment avec nous, qu'elle parlait anglais" — which Marie found outrageously dishonest (%% 005.0117 %%).
 
-Collignon departed on June 8, 1873 (%% 005.0211 %%: "A deux heures nous allames reconduire Mlle Collignon"). Marie was surprisingly unaffected: "Je m'etonne du peu que son depart m'a coute." But she admitted a nagging guilt: "même un chien avec lequel on a vécu un mois fait de la peine en partant" (%% 005.0209 %%).
+Collignon departed on June 8, 1873 (%% 005.0212 %%: "A deux heures nous allames reconduire Mlle Collignon"). Marie was surprisingly unaffected: "Je m'etonne du peu que son depart m'a coute." But she admitted a nagging guilt: "même un chien avec lequel on a vécu un mois fait de la peine en partant" (%% 005.0210 %%).
 
 ## The Scandal with Grand-papa
 
-Marie hints darkly at a "malheureuse affaire avec grand-papa" involving Collignon (%% 024.0398 %%). After Collignon's departure, she suspected the governess "avait des plans sur lui et lui la croyait de bonne foi et le pauvre vieillard s'est laisse un peu entortiller" (%% 005.0215 %%). Grand-papa was furious about her departure and quarreled with everyone for days (%% 005.0221 %%, %% 005.0232 %%). Papa was also "bouleverse" when Collignon visited in October 1874, "ses anciens sentiments reviennent" (%% 024.0398 %%). Marie confirmed this openly in 1875: "les desagrements avec Collignon et son depart eurent lieu a cause de grand-papa. Ce grand imbecile avait envie d'elle" (%% 032.0107 %%), and when she teased Collignon about it, the older woman "a rougi jusqu'aux oreilles" (%% 032.0108 %%: Apr 29, 1875). Papa's jealousy of Collignon and Barnola persisted for years (%% 062.0220 %%: "papa me mit sur des charbons brulants en disant des obscenites comme toujours sur Collignon et Barnola dont le vieux fou est jaloux").
+Marie hints darkly at a "malheureuse affaire avec grand-papa" involving Collignon (%% 024.0398 %%). After Collignon's departure, she suspected the governess "avait des plans sur lui et lui la croyait de bonne foi et le pauvre vieillard s'est laisse un peu entortiller" (%% 005.0216 %%). Grand-papa was furious about her departure and quarreled with everyone for days (%% 005.0232 %%, %% 005.0233 %%). Papa was also "bouleverse" when Collignon visited in October 1874, "ses anciens sentiments reviennent" (%% 024.0398 %%). Marie confirmed this openly in 1875: "les desagrements avec Collignon et son depart eurent lieu a cause de grand-papa. Ce grand imbecile avait envie d'elle" (%% 032.0107 %%), and when she teased Collignon about it, the older woman "a rougi jusqu'aux oreilles" (%% 032.0108 %%: Apr 29, 1875). Papa's jealousy of Collignon and Barnola persisted for years (%% 062.0220 %%: "papa me mit sur des charbons brulants en disant des obscenites comme toujours sur Collignon et Barnola dont le vieux fou est jaloux").
 
 ## Return as Family Friend (1874 onward)
 
@@ -71,23 +71,23 @@ From April 1875, Collignon effectively rejoined the household for extended stays
 
 ## Anglophilia and Cultural Interests
 
-Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0188 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0283 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0193 %%), and Marie described her as "une femme serieuse" (%% 050.1333 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0202 %%).
+Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0188 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0291 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0193 %%), and Marie described her as "une femme serieuse" (%% 050.1333 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0202 %%).
 
 ## Romantic Disappointment
 
-Collignon had been promised marriage by a man who went to India to seek his fortune, "always promising to marry her when he shall be rich enough" (%% 004.0282 %%). He eventually married someone else, and on May 1, 1873, Collignon spotted him driving in Nice with another woman, causing a public scene (%% 004.0248 %%). Marie called him "son Indien" (her Indian) (%% 004.0282 %%: May 5, 1873). The humiliation deeply affected Collignon: "elle est brisee, elle ne se fache plus" (%% 004.0322 %%), and Marie pitied her being "regardee par tous comme une offensee, humiliee" (%% 004.0286 %%).
+Collignon had been promised marriage by a man who went to India to seek his fortune, "always promising to marry her when he shall be rich enough" (%% 004.0290 %%). He eventually married someone else, and on May 1, 1873, Collignon spotted him driving in Nice with another woman, causing a public scene (%% 004.0256 %%). Marie called him "son Indien" (her Indian) (%% 004.0290 %%: May 5, 1873). The humiliation deeply affected Collignon: "elle est brisee, elle ne se fache plus" (%% 004.0330 %%), and Marie pitied her being "regardee par tous comme une offensee, humiliee" (%% 004.0294 %%).
 
 ## Collignon as Adviser on Men and Marriage
 
 Despite (or because of) her own romantic disappointment, Collignon served as Marie's chief adviser on suitors:
 
-- **Duke of Hamilton**: Called him "un gros boucher" who socializes with workers (%% 004.0268 %%), yet teased Marie about "les montagnes de l'Ecosse" (%% 004.0250 %%).
+- **Duke of Hamilton**: Called him "un gros boucher" who socializes with workers (%% 004.0276 %%), yet teased Marie about "les montagnes de l'Ecosse" (%% 004.0258 %%).
 - **Lambertye**: Dismissed him as "ce petit vilain" (%% 017.0187 %%).
 - **Audiffret**: Noticed his interest in Marie and reported it to the aunt (%% 033.0437 %%).
 - **Girofla**: Called him "le beau zero" (%% 032.0154 %%).
 - **Pietro Antonelli**: Worried Collignon warned Marie he was "un Lovelace" (%% 034.0226 %%), but also said "S'il ne vous aimait pas, il ne vous ecrirait pas des lettres comme ca" (%% 062.0310 %%).
 - **Soutzo**: Openly called him "bete et mechant" and "un ane bate" and said she would weep if Marie married him (%% 088.0174 %%: June 1880).
-- **General maxim**: "Quand une femme veut un homme, elle l'a toujours" (%% 004.0264 %%: April 15, 1873).
+- **General maxim**: "Quand une femme veut un homme, elle l'a toujours" (%% 004.0272 %%: April 15, 1873).
 
 ## Portrait by Marie (1876)
 
@@ -103,7 +103,7 @@ Collignon made several penetrating observations about Marie:
 
 ## Illness and Death (1873-1881)
 
-Collignon's tuberculosis was diagnosed remarkably early. On March 3, 1873, Dr Walitsky told the family: "Mlle Collignon est malade comme Koukoueff qui vient de mourir, qu'elle peut vivre cinq ans, et qu'elle peut mourir en trois semaines" (%% 002.0158 %%). Despite this devastating prognosis, Collignon lived another eight years, spending summers at Allevard (a thermal spa in the Alps) and winters in the Midi (%% 102.0005 %%).
+Collignon's tuberculosis was diagnosed remarkably early. On March 3, 1873, Dr Walitsky told the family: "Mlle Collignon est malade comme Koukoueff qui vient de mourir, qu'elle peut vivre cinq ans, et qu'elle peut mourir en trois semaines" (%% 002.0166 %%). Despite this devastating prognosis, Collignon lived another eight years, spending summers at Allevard (a thermal spa in the Alps) and winters in the Midi (%% 102.0005 %%).
 
 On July 27, 1881, Marie visited the dying Collignon and was horrified: "elle va mourir bientot, en voila une qui est changee. Rosalie m'avait prevenue mais j'en suis restee saisie... La Mort elle-meme. Et puis, dans la chambre une odeur de bouillon tres fort que l'on donne aux malades... C'est horrible" (%% 092.0351 %%). Marie brought gifts — silk for a dress and a shawl she herself coveted — then caught herself calculating heavenly reward: "je me suis decidee a cet immense sacrifice pour la mauvaise pensee que cela me sera rembourse par le ciel. Ces calculs enlevent tout merite" (%% 092.0351 %%).
 
@@ -121,7 +121,7 @@ Even after Collignon's death, Marie continued to invoke her memory:
 
 ## Significance
 
-Collignon occupies a unique position in the diary. She is the only person who serves Marie successively as governess, antagonist, friend, confidante, artistic subject, marriage adviser, philosophical interlocutor, and finally as a mirror of Marie's own mortality. The arc from "cette canaille Collignon" (%% 006.0163 %%) to "cette pauvre Collignon" (%% 093.0177 %%) traces Marie's own maturation. The fact that Marie's last diary reference to Collignon, written months before her own death from the same disease, returns to the image of a thirteen-year-old girl blushing during geography lessons, creates one of the diary's most poignant symmetries.
+Collignon occupies a unique position in the diary. She is the only person who serves Marie successively as governess, antagonist, friend, confidante, artistic subject, marriage adviser, philosophical interlocutor, and finally as a mirror of Marie's own mortality. The arc from "cette canaille Collignon" (%% 006.0158 %%) to "cette pauvre Collignon" (%% 093.0177 %%) traces Marie's own maturation. The fact that Marie's last diary reference to Collignon, written months before her own death from the same disease, returns to the image of a thirteen-year-old girl blushing during geography lessons, creates one of the diary's most poignant symmetries.
 
 ## Related Entries
 
@@ -134,16 +134,16 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - [#Grand_papa](../family/GRAND_PAPA.md) — The "malheureuse affaire" with Collignon
 ## Key Paragraph References
 
-- %% 001.0025 %% (Jan 19, 1873): First appearance — scolds Marie for blushing at the Duke
-- %% 001.0156 %% (Feb 12, 1873): English lessons began Jan 12, 1872 with Collignon
-- %% 002.0158 %% (Mar 3, 1873): Walitsky diagnoses her terminal illness
+- %% 001.0024 %% (Jan 19, 1873): First appearance — scolds Marie for blushing at the Duke
+- %% 001.0155 %% (Feb 12, 1873): English lessons began Jan 12, 1872 with Collignon
+- %% 002.0166 %% (Mar 3, 1873): Walitsky diagnoses her terminal illness
 - %% 003.0115 %% (Mar 24, 1873): Writes complaint letter about Marie's character
-- %% 004.0248 %% (May 1, 1873): Spots her faithless "Indien" with another woman
-- %% 004.0264 %% (Apr 15, 1873): "Quand une femme veut un homme, elle l'a toujours"
-- %% 004.0268 %% (Apr 17, 1873): Calls Hamilton "un gros boucher"
+- %% 004.0256 %% (May 1, 1873): Spots her faithless "Indien" with another woman
+- %% 004.0272 %% (Apr 15, 1873): "Quand une femme veut un homme, elle l'a toujours"
+- %% 004.0276 %% (Apr 17, 1873): Calls Hamilton "un gros boucher"
 - %% 005.0112 %% (May 31, 1873): Final quarrel and dismissal
-- %% 005.0211 %% (Jun 8, 1873): Departs the household
-- %% 005.0215 %% (Jun 8, 1873): Marie suspects Collignon's "plans" on grand-papa
+- %% 005.0212 %% (Jun 8, 1873): Departs the household
+- %% 005.0216 %% (Jun 8, 1873): Marie suspects Collignon's "plans" on grand-papa
 - %% 024.0398 %% (Oct 24, 1874): Returns from Cannes — "la belle aux longs cheveux"
 - %% 031.0179 %% (Apr 10, 1875): Returns for a month's stay — "indispensable meme"
 - %% 032.0107 %% (Apr 29, 1875): Marie confirms grand-papa scandal

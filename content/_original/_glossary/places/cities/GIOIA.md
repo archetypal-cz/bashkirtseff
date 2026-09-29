@@ -70,7 +70,7 @@ Marie and her circle use various names for Gioia:
 ### Phase 1: Hamilton's Mistress and Marie's Rival (January 1873 - December 1873)
 
 %% GLO_GIOIA.0005 %%
-**First appearance**: January 19, 1873 (001.0023) — "Il nous dépassa pour aller chez Gioia" (He overtook us to go to Gioia's). Marie sees the Duke of Hamilton's carriage heading toward Gioia's residence. From this first mention, Gioia is established as the woman who holds the Duke.
+**First appearance**: January 19, 1873 (001.0022) — "Il nous dépassa pour aller chez Gioia" (He overtook us to go to Gioia's). Marie sees the Duke of Hamilton's carriage heading toward Gioia's residence. From this first mention, Gioia is established as the woman who holds the Duke.
 
 %% GLO_GIOIA.0006 %%
 **The rival dynamic**: Marie observes Gioia from a distance throughout the 1873 Nice winter season, never speaking to her directly. Key moments:

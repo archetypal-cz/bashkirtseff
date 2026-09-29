@@ -23,7 +23,7 @@ A Russian family in the Nice social circle of spring 1873, departing for Russia 
 
 ## Diary References
 
-- **June 15, 1873** (005.0278): "Arrivés à la gare, nous y trouvâmes la famille Berlikoff qui partait pour la Russie avec leur médecin Tchernikoff."
+- **June 15, 1873** (005.0290): "Arrivés à la gare, nous y trouvâmes la famille Berlikoff qui partait pour la Russie avec leur médecin Tchernikoff."
 
 ## Research Notes
 

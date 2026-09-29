@@ -21,12 +21,12 @@ The Villa Audiffret was a villa in Nice that the Bashkirtseff family considered 
 
 The Audiffret family (Emile d'Audiffret and his family) was a prominent Nice family; the villa bears their name. It should not be confused with the person Emile d'Audiffret himself.
 
-In a later context (June 12, 1873, 005.0247), the Bashkirtseffs visit "villa Audiffret" and find the asking price 7,000 francs, which can also be had on the Promenade — so they decline again.
+In a later context (June 12, 1873, 005.0248), the Bashkirtseffs visit "villa Audiffret" and find the asking price 7,000 francs, which can also be had on the Promenade — so they decline again.
 
 ## Diary References
 
-- **June 11, 1873** (005.0241): "Puis nous allâmes à la villa Audiffret. Cette villa nous va, elle n'est pas très élégante mais commode, comme il faut." Plans to install croquet.
-- **June 12, 1873** (005.0247): "Nous allâmes villa Audiffret mais on demande sept mille francs, on peut avoir à la Promenade pour ce prix."
+- **June 11, 1873** (005.0242): "Puis nous allâmes à la villa Audiffret. Cette villa nous va, elle n'est pas très élégante mais commode, comme il faut." Plans to install croquet.
+- **June 12, 1873** (005.0248): "Nous allâmes villa Audiffret mais on demande sept mille francs, on peut avoir à la Promenade pour ce prix."
 
 ## Research Notes
 

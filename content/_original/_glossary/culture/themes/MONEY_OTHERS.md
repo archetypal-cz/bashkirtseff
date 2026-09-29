@@ -19,7 +19,7 @@ This tag marks Money paragraphs about somebody else's money, or money in general
 ## Examples
 
 %% GLO_MONEY_OTHERS.0004 %%
-- 014.0189: "Je m'imaginais que le duc de Hamilton était ruiné lorsqu'il était plus riche que jamais."
-- 014.0272: the princess buys Nadia's Christmas tree "pour cent francs".
+- 014.0185: "Je m'imaginais que le duc de Hamilton était ruiné lorsqu'il était plus riche que jamais."
+- 014.0268: the princess buys Nadia's Christmas tree "pour cent francs".
 
 %% 2026-09-28T12:30:00 RSR: Created as the whose-dimension qualifier of MONEY (KRR request, theme-tags pilot; see .claude/reports/theme-tags-2026-09-28.md). A separate theme file rather than a link qualifier because the filter treats each culture/themes file as a selectable tag and matches paragraph highlights by tag id; see the report for the reasoning. %%

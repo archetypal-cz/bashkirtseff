@@ -21,7 +21,7 @@ The owner of a villa adjacent to the Patton property in Nice who was attempting 
 
 ## Diary References
 
-- **June 14, 1873** (005.0270): "Sacchi, le propriétaire, doit venir chez nous aujourd'hui ou demain." The property was inspected; asking price was 65,000 francs.
+- **June 14, 1873** (005.0271): "Sacchi, le propriétaire, doit venir chez nous aujourd'hui ou demain." The property was inspected; asking price was 65,000 francs.
 
 ## Research Notes
 

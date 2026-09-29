@@ -111,7 +111,7 @@ This passage reveals:
 - Treated [Romanoff](../mentioned/ROMANOFF.md)'s mental illness
 - Attended to [Maman](../family/MAMAN.md)'s real and imagined illnesses
 - General family physician during European travels
-- Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0158 %%, echoed in %% 102.0005 %%)
+- Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0166 %%, echoed in %% 102.0005 %%)
 - Correctly recommended Soden spa for Marie's throat: "Ce coquin de Walitsky est un habile homme, il s'entend a toutes les maladies" (%% 073.0242 %%)
 - Treated external patients in Nice: "il a la tous ses malades, tous ses amis" (%% 077.0212 %%)
 - Served as witness to grandfather's will alongside Patton, Orgesko, Bihovetz, and Anitchkoff (%% 082.0162 %%)
@@ -294,7 +294,7 @@ This stands in extraordinary contrast to her harsh judgments of almost everyone 
 - **1860s**: District physician at Akhtyrka; visiting family estates 3-4 times yearly; grandfather's godson
 - **1870 (June)**: Joined family for European journey; arrived at Baden-Baden
 - **1873-74**: Living with family in Nice; social connections with Duke of Hamilton; carnival outings
-- **1874 (March)**: Diagnosed Mlle Collignon's terminal illness (%% 002.0158 %%)
+- **1874 (March)**: Diagnosed Mlle Collignon's terminal illness (%% 002.0166 %%)
 - **1874 (April)**: Slapped an Englishman at Monaco defending Paul (%% 018.0082 %%)
 - **1874 (summer)**: With family at Spa; wrote satirical verse about suitors (%% 022.0106 %%)
 - **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (%% 055.0290 %%)
@@ -349,7 +349,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0050 %%
 ### Books 02-15 (Nice 1873-74)
-- %% 002.0158 %% (Mar 3, 1873): Diagnoses Mlle Collignon's terminal illness
+- %% 002.0166 %% (Mar 3, 1873): Diagnoses Mlle Collignon's terminal illness
 - Multiple entries: Social companion at carnival, outings, music, roulette evenings
 - Hamilton connections: makes jokes and grimaces about the Duke, noticing Marie's reactions
 - Palajka servant dispute involvement

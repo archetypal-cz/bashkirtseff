@@ -22,8 +22,8 @@ The Villa Savelieff was the Nice residence of M. and Mme Savelieff, a Russian fa
 
 ## Diary References
 
-- **May 11, 1873** (004.0330): The Bashkirtseffs visit Mme Savelieff who is dying there.
-- **June 9, 1873** (005.0224): The Patton family is staying at the Villa Savelieff while their house is being repaired.
+- **May 11, 1873** (004.0338): The Bashkirtseffs visit Mme Savelieff who is dying there.
+- **June 9, 1873** (005.0225): The Patton family is staying at the Villa Savelieff while their house is being repaired.
 
 ## Research Notes
 

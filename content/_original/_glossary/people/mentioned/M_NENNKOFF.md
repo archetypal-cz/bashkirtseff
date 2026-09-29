@@ -21,7 +21,7 @@ A man encountered at a house during the Bashkirtseffs' apartment-hunting in Nice
 
 ## Diary References
 
-- **June 9, 1873** (005.0224): "De la maison où nous avons trouvé M. Nennkoff nous allâmes chez les Patton..."
+- **June 9, 1873** (005.0225): "De la maison où nous avons trouvé M. Nennkoff nous allâmes chez les Patton..."
 
 ## Research Notes
 

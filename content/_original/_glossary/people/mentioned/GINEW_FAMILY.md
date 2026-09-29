@@ -22,7 +22,7 @@ A family (possibly English or Russian) encountered at the Howard household in Ni
 
 ## Diary References
 
-- **June 12, 1873** (005.0256): "Le soir chez les Howard. Nous y trouvâmes les Ginew. La fille est très gentille, a une manière de donner la main très franche. Elle ne parle je crois que l'anglais, nous avons dit quelques mots. Elles partirent."
+- **June 12, 1873** (005.0257): "Le soir chez les Howard. Nous y trouvâmes les Ginew. La fille est très gentille, a une manière de donner la main très franche. Elle ne parle je crois que l'anglais, nous avons dit quelques mots. Elles partirent."
 
 ## Research Notes
 

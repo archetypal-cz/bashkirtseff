@@ -65,7 +65,7 @@ Marie's inventive cruelty toward Lambertye produces a rich lexicon of insults:
 Lambertye first appears on **April 17, 1873** (004.0046), in a marginal note: "Mlle Collignon m'a grondée, parce que Lambertye m'a regardée avec un sourire" (Miss Collignon scolded me, because Lambertye looked at me with a smile). He is already a known figure -- Marie's governess considers his attention improper.
 
 %% GLO_LAMBERTYE.0011 %%
-By **May 5, 1873** (004.0083--0084), Marie calls him "Marquis de Lambertye" and sees him as a potential social stepping-stone: she prays fervently in English for God to arrange an introduction to the Duke of Hamilton *through* Lambertye, via the Pigeon Shooting club at Monaco. Marie's scheme: Lambertye leads to pigeon shooting leads to the Duke. On **May 7** (004.0069), she prays again: "Oh! si Dieu lui inspirait le désir de nous connaître" (Oh! if God would inspire in him the desire to know us). On **September 23, 1873** (010.0069), she recounts at dinner how Lambertye once asked about M. Randouin -- her father erupts in anger at the mention.
+By **May 5, 1873** (004.0083--0084), Marie calls him "Marquis de Lambertye" and sees him as a potential social stepping-stone: she prays fervently in English for God to arrange an introduction to the Duke of Hamilton *through* Lambertye, via the Pigeon Shooting club at Monaco. Marie's scheme: Lambertye leads to pigeon shooting leads to the Duke. On **May 7** (004.0069), she prays again: "Oh! si Dieu lui inspirait le désir de nous connaître" (Oh! if God would inspire in him the desire to know us). On **September 23, 1873** (010.0070), she recounts at dinner how Lambertye once asked about M. Randouin -- her father erupts in anger at the mention.
 
 %% GLO_LAMBERTYE.0012 %%
 ### Phase 2: The Winter Season -- Nice 1873--1874 (carnets 014--018)
@@ -74,7 +74,7 @@ By **May 5, 1873** (004.0083--0084), Marie calls him "Marquis de Lambertye" and 
 The winter social season of 1873--74 is the peak of Marie's obsession with Lambertye. He appears in nearly every entry from mid-December through April, haunting the same circuit: the Promenade des Anglais, the Cercle de la Méditerranée, the theater, Monaco pigeon shoots, and the Nice races.
 
 %% GLO_LAMBERTYE.0014 %%
-**December 1873** (carnet 014): Lambertye arrives for the season. Marie sees him at Monaco (**Dec 18**, 014.0036), at the theater with Gioia's son (**Dec 21**, 014.0065), and driving his spectacular carriage -- described as a monstrous "arche de Noé" (Noah's Ark) with two liveried servants and the count perched beside the coachman "tout pincé par le froid et courbé" (**Dec 30**, 014.0058). At the theater (**Dec 23**, 014.0096): "Le petit Lambertye ne cesse pas de me regarder" (the little Lambertye doesn't stop looking at me). Her aunt first notices the staring. On **New Year's Eve** (014.0058): "le comte de Lambertye qui pense que c'est son devoir de me regarder" (who thinks it is his duty to look at me).
+**December 1873** (carnet 014): Lambertye arrives for the season. Marie sees him at Monaco (**Dec 18**, 014.0032), at the theater with Gioia's son (**Dec 21**, 014.0061), and driving his spectacular carriage -- described as a monstrous "arche de Noé" (Noah's Ark) with two liveried servants and the count perched beside the coachman "tout pincé par le froid et courbé" (**Dec 30**, 014.0054). At the theater (**Dec 23**, 014.0092): "Le petit Lambertye ne cesse pas de me regarder" (the little Lambertye doesn't stop looking at me). Her aunt first notices the staring. On **New Year's Eve** (014.0054): "le comte de Lambertye qui pense que c'est son devoir de me regarder" (who thinks it is his duty to look at me).
 
 %% GLO_LAMBERTYE.0015 %%
 **January 1874** (carnets 015--016): The obsession intensifies. On **Jan 1** (015.0091): "La manière dont le comte de Lambertye me regarde est très étrange; il a l'air de vouloir que je remarque absolument qu'il me regarde. C'est inexplicable." He is everywhere: at pigeon shoots in Monaco where he competes (losing to Galve on **Dec 29**, winning ten straight on **Jan 28, 1875** -- 029.0086--0090), walking with different companions every few minutes (**Jan 12**, 015.0048: seen with five different people in one hour), and at races. Marie oscillates wildly: "il y a des jours où je ne puis pas le regarder tant je le déteste... et il y en a d'autres où je le supporte très bien" (**Jan 18**, 015.0053). On **Jan 22** (015.0064--0100): "Je déteste Lambertye! Il me semble qu'il se moque de moi!" followed by thirteen exclamation marks of outrage. On **Jan 23** (015.0048), she learns his first name is **Edouard**. On **Jan 24** (015.0113): "Il faut que les sourires du comte de Lambertye cessent. C'est trop en vérité."
@@ -160,11 +160,11 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 |------|-------------|-------|
 | 1873-04-17 | 004.0046 | First appearance: Collignon scolds Marie for Lambertye's smile |
 | 1873-05-05 | 004.0083 | Marie prays for introduction through Lambertye to Hamilton |
-| 1873-12-18 | 014.0036 | Monaco station, beginning of winter season |
-| 1873-12-22 | 014.0043 | "J'ai rarement vu un petit homme plus laid" |
-| 1873-12-23 | 014.0096 | Theater: "ne cesse pas de me regarder" |
-| 1873-12-29 | 014.0040 | Pigeon shoot: "sympathique mais assez ridicule lorsqu'il tire" |
-| 1873-12-30 | 014.0058 | Noah's Ark carriage description |
+| 1873-12-18 | 014.0032 | Monaco station, beginning of winter season |
+| 1873-12-22 | 014.0039 | "J'ai rarement vu un petit homme plus laid" |
+| 1873-12-23 | 014.0092 | Theater: "ne cesse pas de me regarder" |
+| 1873-12-29 | 014.0036 | Pigeon shoot: "sympathique mais assez ridicule lorsqu'il tire" |
+| 1873-12-30 | 014.0054 | Noah's Ark carriage description |
 | 1874-01-01 | 015.0091 | "La manière dont il me regarde est très étrange" |
 | 1874-01-14 | 015.0057 | "yeux de serpent"; bald head "représente un clou" |
 | 1874-01-22 | 015.0064 | "Je déteste Lambertye!" with 13 exclamation marks |

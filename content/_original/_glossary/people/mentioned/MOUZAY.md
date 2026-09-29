@@ -99,16 +99,16 @@ The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans
 ## Diary References
 
 ### 1873 (Nice)
-- **February 16** (002.0007): Late-night arrival with Mme de Daillens; Marie pumps Daillens for gossip about a ball
+- **February 16** (002.0012): Late-night arrival with Mme de Daillens; Marie pumps Daillens for gossip about a ball
 - **February 27** (002): "Nous allames chez la comtesse de Mouzay. C'est son jour"
 - **March 4** (002): Evening soiree guest alongside Daillens, Markoff, Gabrielli
 - **March 22** (003.0077): Dinner at Mouzay's -- Marie disgusted by inferior company
 - **April 6** (003): Marie worries about Mouzay encountering Comtesse d'Osmond de Fille
 - **April 17** (004): "les deux Mouzay" visit; religious discussion, gossip about Duke of Edinburgh
 - **May 4** (004): Met with Mouzay and daughter in carriage; visits Countess Benvenuti
-- **May 11** (004.0332): Comtesse de Mouzay and daughter visit
+- **May 11** (004.0340): Comtesse de Mouzay and daughter visit
 - **May 28** (005.0091): Dinner at Mouzay's for her birthday; Marie annoyed by fifth-rate young man
-- **June 8** (005.0211): Mouzay "chante mes louanges" at length
+- **June 8** (005.0212): Mouzay "chante mes louanges" at length
 - **June 13** (005): Marie sent alone in voiture to Mouzay's
 - **June 14** (005): Returns napkin to Mouzay's for Anitchkoff
 - **June 16** (006): Visits Mouzay's -- she is "petite, ronde comme une pomme"

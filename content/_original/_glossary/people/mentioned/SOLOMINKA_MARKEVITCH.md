@@ -26,10 +26,10 @@ She is distinct from "la générale Markévitch" or other members of the Markevi
 
 - **May 19, 1873** (005.0010): "j'ai appelé Solominka" — Marie calls for her; "Je l'aime beaucoup Solominka."
 - **June 1, 1873** (005.0146): "Solominka et Walitsky sont là" at Monaco.
-- **June 8, 1873** (005.0213): Mentioned as "Solominka" alongside Walitsky and Tchernikoff.
-- **June 12, 1873** (005.0254): "Tais-toi, Solominka, tu es bête!" — Marie swats her with a napkin.
-- **June 14, 1873** (005.0266): "Solominka" accompanies Dina to see a villa for sale.
-- **June 15, 1873** (005.0278): "Pauvre Solominka! Elle part!" — departs for Russia with the Berlikoffs.
+- **June 8, 1873** (005.0214): Mentioned as "Solominka" alongside Walitsky and Tchernikoff.
+- **June 12, 1873** (005.0255): "Tais-toi, Solominka, tu es bête!" — Marie swats her with a napkin.
+- **June 14, 1873** (005.0267): "Solominka" accompanies Dina to see a villa for sale.
+- **June 15, 1873** (005.0290): "Pauvre Solominka! Elle part!" — departs for Russia with the Berlikoffs.
 
 ## Research Notes
 

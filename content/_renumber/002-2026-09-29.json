@@ -1,0 +1,1798 @@
+{
+  "carnet": "002",
+  "date": "2026-09-29",
+  "plan_path": "../rebuild-state/plan-tome0102/final2/plan-002.json",
+  "plan_source": "tome01.docx",
+  "id_map": {
+    "002.0001": "002.0004",
+    "002.0002": "002.0006",
+    "002.0003": "002.0007",
+    "002.0004": "002.0009",
+    "002.0005": "002.0010",
+    "002.0006": "002.0011",
+    "002.0007": "002.0012",
+    "002.0008": "002.0013",
+    "002.0009": "002.0014",
+    "002.0010": "002.0015",
+    "002.0011": "002.0016",
+    "002.0012": "002.0017",
+    "002.0013": "002.0018",
+    "002.0014": "002.0019",
+    "002.0015": "002.0020",
+    "002.0016": "002.0021",
+    "002.0017": "002.0022",
+    "002.0018": "002.0023",
+    "002.0019": "002.0024",
+    "002.0020": "002.0025",
+    "002.0021": "002.0026",
+    "002.0022": "002.0027",
+    "002.0023": "002.0028",
+    "002.0024": "002.0029",
+    "002.0025": "002.0030",
+    "002.0026": "002.0032",
+    "002.0027": "002.0033",
+    "002.0028": "002.0034",
+    "002.0029": "002.0035",
+    "002.0030": "002.0037",
+    "002.0031": "002.0038",
+    "002.0032": "002.0039",
+    "002.0033": "002.0040",
+    "002.0034": "002.0041",
+    "002.0035": "002.0042",
+    "002.0036": "002.0043",
+    "002.0037": "002.0044",
+    "002.0038": "002.0045",
+    "002.0039": "002.0046",
+    "002.0040": "002.0047",
+    "002.0041": "002.0048",
+    "002.0042": "002.0049",
+    "002.0043": "002.0050",
+    "002.0044": "002.0051",
+    "002.0045": "002.0052",
+    "002.0046": "002.0053",
+    "002.0047": "002.0054",
+    "002.0048": "002.0055",
+    "002.0049": "002.0056",
+    "002.0050": "002.0057",
+    "002.0051": "002.0058",
+    "002.0052": "002.0059",
+    "002.0053": "002.0060",
+    "002.0054": "002.0061",
+    "002.0055": "002.0062",
+    "002.0056": "002.0063",
+    "002.0057": "002.0064",
+    "002.0058": "002.0065",
+    "002.0059": "002.0066",
+    "002.0060": "002.0067",
+    "002.0061": "002.0068",
+    "002.0062": "002.0069",
+    "002.0063": "002.0070",
+    "002.0064": "002.0071",
+    "002.0065": "002.0072",
+    "002.0066": "002.0073",
+    "002.0067": "002.0074",
+    "002.0068": "002.0075",
+    "002.0069": "002.0076",
+    "002.0070": "002.0077",
+    "002.0071": "002.0078",
+    "002.0072": "002.0079",
+    "002.0073": "002.0080",
+    "002.0074": "002.0081",
+    "002.0075": "002.0082",
+    "002.0076": "002.0083",
+    "002.0077": "002.0084",
+    "002.0078": "002.0085",
+    "002.0079": "002.0086",
+    "002.0080": "002.0087",
+    "002.0081": "002.0088",
+    "002.0082": "002.0089",
+    "002.0083": "002.0090",
+    "002.0084": "002.0091",
+    "002.0085": "002.0092",
+    "002.0086": "002.0093",
+    "002.0087": "002.0094",
+    "002.0088": "002.0095",
+    "002.0089": "002.0096",
+    "002.0090": "002.0097",
+    "002.0091": "002.0098",
+    "002.0092": "002.0099",
+    "002.0093": "002.0100",
+    "002.0094": "002.0101",
+    "002.0095": "002.0102",
+    "002.0096": "002.0103",
+    "002.0097": "002.0104",
+    "002.0098": "002.0105",
+    "002.0099": "002.0106",
+    "002.0100": "002.0108",
+    "002.0101": "002.0109",
+    "002.0102": "002.0110",
+    "002.0103": "002.0111",
+    "002.0104": "002.0112",
+    "002.0105": "002.0113",
+    "002.0106": "002.0114",
+    "002.0107": "002.0115",
+    "002.0108": "002.0116",
+    "002.0109": "002.0117",
+    "002.0110": "002.0118",
+    "002.0111": "002.0119",
+    "002.0112": "002.0120",
+    "002.0113": "002.0121",
+    "002.0114": "002.0122",
+    "002.0115": "002.0123",
+    "002.0116": "002.0124",
+    "002.0117": "002.0125",
+    "002.0118": "002.0126",
+    "002.0119": "002.0127",
+    "002.0120": "002.0128",
+    "002.0121": "002.0129",
+    "002.0122": "002.0130",
+    "002.0123": "002.0131",
+    "002.0124": "002.0132",
+    "002.0125": "002.0133",
+    "002.0126": "002.0134",
+    "002.0127": "002.0135",
+    "002.0128": "002.0136",
+    "002.0129": "002.0137",
+    "002.0130": "002.0138",
+    "002.0131": "002.0139",
+    "002.0132": "002.0140",
+    "002.0133": "002.0141",
+    "002.0134": "002.0142",
+    "002.0135": "002.0143",
+    "002.0136": "002.0144",
+    "002.0137": "002.0145",
+    "002.0138": "002.0146",
+    "002.0139": "002.0147",
+    "002.0140": "002.0148",
+    "002.0141": "002.0149",
+    "002.0142": "002.0150",
+    "002.0143": "002.0151",
+    "002.0144": "002.0152",
+    "002.0145": "002.0153",
+    "002.0146": "002.0154",
+    "002.0147": "002.0155",
+    "002.0148": "002.0156",
+    "002.0149": "002.0157",
+    "002.0150": "002.0158",
+    "002.0151": "002.0159",
+    "002.0152": "002.0160",
+    "002.0153": "002.0161",
+    "002.0154": "002.0162",
+    "002.0155": "002.0163",
+    "002.0156": "002.0164",
+    "002.0157": "002.0165",
+    "002.0158": "002.0166",
+    "002.0159": "002.0167",
+    "002.0160": "002.0168",
+    "002.0161": "002.0169",
+    "002.0162": "002.0170",
+    "002.0163": "002.0171",
+    "002.0164": "002.0172",
+    "002.0165": "002.0173",
+    "002.0166": "002.0174",
+    "002.0167": "002.0175",
+    "002.0168": "002.0176",
+    "002.0169": "002.0177",
+    "002.0170": "002.0178",
+    "002.0171": "002.0179",
+    "002.0172": "002.0180",
+    "002.0173": "002.0181",
+    "002.0174": "002.0182",
+    "002.0175": "002.0183",
+    "002.0176": "002.0184",
+    "002.0177": "002.0185",
+    "002.0178": "002.0186",
+    "002.0179": "002.0187",
+    "002.0180": "002.0188",
+    "002.0181": "002.0189",
+    "002.0182": "002.0190",
+    "002.0183": "002.0191",
+    "002.0184": "002.0192",
+    "002.0185": "002.0193",
+    "002.0186": "002.0194",
+    "002.0187": "002.0195",
+    "002.0188": "002.0196",
+    "002.0189": "002.0197",
+    "002.0190": "002.0198",
+    "002.0191": "002.0199",
+    "002.0192": "002.0200",
+    "002.0193": "002.0201",
+    "002.0194": "002.0202",
+    "002.0195": "002.0203",
+    "002.0196": "002.0204",
+    "002.0197": "002.0205",
+    "002.0198": "002.0206",
+    "002.0199": "002.0208",
+    "002.0200": "002.0210",
+    "002.0201": "002.0211",
+    "002.0202": "002.0212",
+    "002.0203": "002.0213",
+    "002.0204": "002.0215",
+    "002.0205": "002.0216",
+    "002.0206": "002.0217",
+    "002.0207": "002.0219",
+    "002.0208": "002.0221",
+    "002.0209": "002.0223",
+    "002.0210": "002.0224",
+    "002.0211": "002.0226",
+    "002.0212": "002.0227",
+    "002.0213": "002.0228",
+    "002.0214": "002.0229",
+    "002.0215": "002.0230",
+    "002.0216": "002.0231",
+    "002.0217": "002.0232",
+    "002.0218": "002.0233",
+    "002.0219": "002.0234",
+    "002.0220": "002.0235",
+    "002.0221": "002.0236",
+    "002.0222": "002.0237",
+    "002.0223": "002.0238",
+    "002.0224": "002.0239",
+    "002.0225": "002.0240",
+    "002.0226": "002.0241",
+    "002.0227": "002.0242",
+    "002.0228": "002.0243",
+    "002.0229": "002.0244",
+    "002.0230": "002.0245",
+    "002.0231": "002.0247",
+    "002.0232": "002.0248",
+    "002.0233": "002.0249",
+    "002.0234": "002.0250",
+    "002.0235": "002.0251",
+    "002.0236": "002.0252",
+    "002.0237": "002.0253",
+    "002.0238": "002.0254",
+    "002.0239": "002.0255",
+    "002.0240": "002.0256",
+    "002.0241": "002.0257",
+    "002.0242": "002.0258",
+    "002.0243": "002.0259",
+    "002.0244": "002.0260",
+    "002.0245": "002.0261",
+    "002.0246": "002.0262",
+    "002.0247": "002.0263",
+    "002.0248": "002.0264",
+    "002.0249": "002.0265",
+    "002.0250": "002.0266",
+    "002.0251": "002.0267",
+    "002.0252": "002.0268",
+    "002.0253": "002.0269",
+    "002.0254": "002.0270",
+    "002.0255": "002.0271",
+    "002.0256": "002.0272",
+    "002.0257": "002.0273",
+    "002.0258": "002.0274",
+    "002.0259": "002.0275",
+    "002.0260": "002.0276",
+    "002.0261": "002.0277",
+    "002.0262": "002.0278",
+    "002.0263": "002.0279",
+    "002.0264": "002.0280",
+    "002.0265": "002.0281",
+    "002.0266": "002.0282",
+    "002.0267": "002.0283",
+    "002.0268": "002.0284",
+    "002.0269": "002.0285",
+    "002.0270": "002.0286",
+    "002.0271": "002.0287",
+    "002.0272": "002.0288",
+    "002.0273": "002.0289",
+    "002.0274": "002.0290",
+    "002.0275": "002.0291",
+    "002.0276": "002.0292",
+    "002.0277": "002.0293",
+    "002.0278": "002.0294",
+    "002.0279": "002.0295",
+    "002.0280": "002.0296",
+    "002.0281": "002.0297",
+    "002.0282": "002.0298",
+    "002.0283": "002.0299",
+    "002.0284": "002.0301",
+    "002.0285": "002.0302",
+    "002.0286": "002.0303",
+    "002.0287": "002.0304",
+    "002.0288": "002.0305",
+    "002.0289": "002.0306",
+    "002.0290": "002.0307",
+    "002.0291": "002.0308",
+    "002.0292": "002.0309",
+    "002.0293": "002.0310",
+    "002.0294": "002.0311",
+    "002.0295": "002.0312",
+    "002.0296": "002.0313",
+    "002.0297": "002.0314",
+    "002.0298": "002.0315",
+    "002.0299": "002.0316",
+    "002.0300": "002.0317",
+    "002.0301": "002.0318",
+    "002.0302": "002.0319",
+    "002.0303": "002.0320",
+    "002.0304": "002.0321",
+    "002.0305": "002.0322"
+  },
+  "changed_ids": 305,
+  "new_paragraphs": [
+    {
+      "id": "002.0001",
+      "file": "1873-02-02.md"
+    },
+    {
+      "id": "002.0002",
+      "file": "1873-02-02.md"
+    },
+    {
+      "id": "002.0003",
+      "file": "1873-02-02.md"
+    },
+    {
+      "id": "002.0005",
+      "file": "1873-02-16.md"
+    },
+    {
+      "id": "002.0008",
+      "file": "1873-02-16.md"
+    },
+    {
+      "id": "002.0031",
+      "file": "1873-02-18.md"
+    },
+    {
+      "id": "002.0036",
+      "file": "1873-02-19.md"
+    },
+    {
+      "id": "002.0107",
+      "file": "1873-02-25.md"
+    },
+    {
+      "id": "002.0207",
+      "file": "1873-03-05.md"
+    },
+    {
+      "id": "002.0209",
+      "file": "1873-03-05.md"
+    },
+    {
+      "id": "002.0214",
+      "file": "1873-03-05.md"
+    },
+    {
+      "id": "002.0218",
+      "file": "1873-03-05.md"
+    },
+    {
+      "id": "002.0220",
+      "file": "1873-03-05.md"
+    },
+    {
+      "id": "002.0222",
+      "file": "1873-03-05.md"
+    },
+    {
+      "id": "002.0225",
+      "file": "1873-03-05.md"
+    },
+    {
+      "id": "002.0246",
+      "file": "1873-03-07.md"
+    },
+    {
+      "id": "002.0300",
+      "file": "1873-03-11.md"
+    }
+  ],
+  "dropped": [],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [
+    "1873-02-02.md"
+  ],
+  "last_id": "002.0322",
+  "flag_resets": {
+    "cz": [
+      "1873-02-02.md",
+      "1873-02-16.md",
+      "1873-02-17.md",
+      "1873-02-18.md",
+      "1873-02-19.md",
+      "1873-02-20.md",
+      "1873-02-21.md",
+      "1873-02-23.md",
+      "1873-02-24.md",
+      "1873-02-25.md",
+      "1873-02-26.md",
+      "1873-02-27.md",
+      "1873-03-01.md",
+      "1873-03-02.md",
+      "1873-03-03.md",
+      "1873-03-04.md",
+      "1873-03-05.md",
+      "1873-03-06.md",
+      "1873-03-07.md",
+      "1873-03-09.md",
+      "1873-03-10.md",
+      "1873-03-11.md",
+      "1873-03-12.md"
+    ],
+    "uk": [
+      "1873-02-02.md",
+      "1873-02-16.md",
+      "1873-02-17.md",
+      "1873-02-18.md",
+      "1873-02-19.md",
+      "1873-02-20.md",
+      "1873-02-21.md",
+      "1873-02-23.md",
+      "1873-02-24.md",
+      "1873-02-25.md",
+      "1873-02-26.md",
+      "1873-02-27.md",
+      "1873-03-01.md",
+      "1873-03-02.md",
+      "1873-03-03.md",
+      "1873-03-04.md",
+      "1873-03-05.md",
+      "1873-03-06.md",
+      "1873-03-07.md",
+      "1873-03-09.md",
+      "1873-03-10.md",
+      "1873-03-11.md",
+      "1873-03-12.md"
+    ],
+    "en": [
+      "1873-02-02.md",
+      "1873-02-16.md",
+      "1873-02-17.md",
+      "1873-02-18.md",
+      "1873-02-19.md",
+      "1873-02-20.md",
+      "1873-02-21.md",
+      "1873-02-23.md",
+      "1873-02-24.md",
+      "1873-02-25.md",
+      "1873-02-26.md",
+      "1873-02-27.md",
+      "1873-03-01.md",
+      "1873-03-02.md",
+      "1873-03-03.md",
+      "1873-03-04.md",
+      "1873-03-05.md",
+      "1873-03-06.md",
+      "1873-03-07.md",
+      "1873-03-09.md",
+      "1873-03-10.md",
+      "1873-03-11.md",
+      "1873-03-12.md"
+    ],
+    "fr": [
+      "1873-02-02.md",
+      "1873-02-16.md",
+      "1873-02-17.md",
+      "1873-02-18.md",
+      "1873-02-19.md",
+      "1873-02-20.md",
+      "1873-02-21.md",
+      "1873-02-23.md",
+      "1873-02-24.md",
+      "1873-02-25.md",
+      "1873-02-26.md",
+      "1873-02-27.md",
+      "1873-03-01.md",
+      "1873-03-02.md",
+      "1873-03-03.md",
+      "1873-03-04.md",
+      "1873-03-05.md",
+      "1873-03-06.md",
+      "1873-03-07.md",
+      "1873-03-09.md",
+      "1873-03-10.md",
+      "1873-03-11.md",
+      "1873-03-12.md"
+    ]
+  },
+  "plan": {
+    "carnet": "002",
+    "source": "tome01.docx",
+    "drop": [],
+    "entries": [
+      {
+        "file": "1873-02-02.md",
+        "date": "1873-02-02",
+        "heading": "Lundi 2 février 1873 [écrit en fin de carnet, antérieurement à ce qui précède.]",
+        "paragraphs": [
+          {
+            "new": {
+              "french": "Ici j’écris tout ce que je me propose de faire quand je serai grande, tout ce que je puis oublier et tout ce qui est extraordinaire:\nun service pour dîner en verre transparent\nune toilette: d’un côté une couleur et une façon et une coiffure, de l’autre côté, autre toilette et autre coiffure de manière à ce que d’un côté je serai une et de l’autre une autre personne.\ndonner un dîner par terre.",
+              "rsr": "Restored from tome01.docx ¶566–569 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’ai résolu de finir ce livre, car les idées extravagantes me viennent rarement ces jours-ci.",
+              "rsr": "Restored from tome01.docx ¶570 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          },
+          {
+            "new": {
+              "french": "J’étais très heureuse de le voir. Demain je vais à cheval. J’espère le voir, il est très beau et s’il m’aimait cela me ferait plaisir.",
+              "rsr": "Restored from tome01.docx ¶571 (missing from original extraction, 2026-09-28 rebuild)."
+            }
+          }
+        ],
+        "frontmatter_from": "1873-02-16.md"
+      },
+      {
+        "file": "1873-02-16.md",
+        "date": "1873-02-16",
+        "heading": "Dimanche 16 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0001"
+          },
+          {
+            "new": {
+              "kind": "margin",
+              "source": "note de Marie sur la page de titre du Livre 2",
+              "french": "[Annotation: 1880. Je prie l’Editeur de supprimer dans ce livre et les suivants les redites sur le duc de Hamilton.]",
+              "rsr": "Marie's 1880 annotation on the title page of Livre 2; tome01.docx ¶278. Restored in the 2026-09-28 rebuild (owner policy: Marie's own title-page notes go in).",
+              "tags": [
+                "[#Duke_of_Hamilton](../_glossary/people/core/DUKE_OF_HAMILTON.md)"
+              ]
+            }
+          },
+          {
+            "old": "002.0002"
+          },
+          {
+            "old": "002.0003"
+          },
+          {
+            "new": {
+              "french": "[Annotation: Septembre 1874: Boreel doit son commencement à la ressemblance que nous lui avons trouvée avec Prater.]",
+              "rsr": "Restored from tome01.docx ¶285 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "other",
+              "source": "annotation de Marie, 1874"
+            }
+          },
+          {
+            "old": "002.0004"
+          },
+          {
+            "old": "002.0005"
+          },
+          {
+            "old": "002.0006",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Trop de aimer, etc.]"
+          },
+          {
+            "old": "002.0007"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-17.md",
+        "date": "1873-02-17",
+        "heading": "Lundi 17 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0008"
+          },
+          {
+            "old": "002.0009"
+          },
+          {
+            "old": "002.0010"
+          },
+          {
+            "old": "002.0011"
+          },
+          {
+            "old": "002.0012"
+          },
+          {
+            "old": "002.0013"
+          },
+          {
+            "old": "002.0014"
+          },
+          {
+            "old": "002.0015"
+          },
+          {
+            "old": "002.0016"
+          },
+          {
+            "old": "002.0017"
+          },
+          {
+            "old": "002.0018"
+          },
+          {
+            "old": "002.0019"
+          },
+          {
+            "old": "002.0020",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Je me croyais donc grande ! J'étais une enfant et je pensais que je pouvais plaire ! Comme c'est bête.]"
+          },
+          {
+            "old": "002.0021"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-18.md",
+        "date": "1873-02-18",
+        "heading": "Mardi 18 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0022"
+          },
+          {
+            "old": "002.0023"
+          },
+          {
+            "old": "002.0024",
+            "set_french": "Hier j'étais sur le point de croire que j'aime Boreel, [Dans la marge: Voyez-vous ça ! *J'étais sur le point etc.* Et hier je l'admirais comme un ami ! Voilà une tête. C'est que pour mieux prouver j'exagère pour prouver combien Boreel est fiché, je dis des bêtises.] mais aujourd'hui quand je me suis souvenue du moment où le duc de Hamilton était près de moi, quand je me suis souvenue de lui, de sa taille, de sa tournure, de sa large poitrine, de sa voix, je ne puis aimer que lui et je l'aime !"
+          },
+          {
+            "old": "002.0025"
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: Véritablement j’abuse du plus charmant mot du monde.]",
+              "rsr": "Restored from tome01.docx ¶306 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          },
+          {
+            "old": "002.0026"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-19.md",
+        "date": "1873-02-19",
+        "heading": "Mercredi 19 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0027"
+          },
+          {
+            "old": "002.0028"
+          },
+          {
+            "old": "002.0029"
+          },
+          {
+            "new": {
+              "french": "[Annotation: Septembre 1874. J’étais toute fière de voir Boreel parce que je l’avais volontairement fiché et à son aspect je prenais des airs superbes et indifférents.]",
+              "rsr": "Restored from tome01.docx ¶310 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "other",
+              "source": "annotation de Marie, 1874"
+            }
+          },
+          {
+            "old": "002.0030"
+          },
+          {
+            "old": "002.0031"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-20.md",
+        "date": "1873-02-20",
+        "heading": "Jeudi 20 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0032"
+          },
+          {
+            "old": "002.0033"
+          },
+          {
+            "old": "002.0034"
+          },
+          {
+            "old": "002.0035"
+          },
+          {
+            "old": "002.0036"
+          },
+          {
+            "old": "002.0037"
+          },
+          {
+            "old": "002.0038"
+          },
+          {
+            "old": "002.0039"
+          },
+          {
+            "old": "002.0040"
+          },
+          {
+            "old": "002.0041",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Fuir, déteste, quels mots ! Miserere !]"
+          },
+          {
+            "old": "002.0042"
+          },
+          {
+            "old": "002.0043",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Cela me fait plaisir de voir que mes idées ne changent pas. Ici je fais le raisonnement que je viens de faire il y a quelques jours.]"
+          },
+          {
+            "old": "002.0044"
+          },
+          {
+            "old": "002.0045"
+          },
+          {
+            "old": "002.0046"
+          },
+          {
+            "old": "002.0047"
+          },
+          {
+            "old": "002.0048"
+          },
+          {
+            "old": "002.0049"
+          },
+          {
+            "old": "002.0050"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-21.md",
+        "date": "1873-02-21",
+        "heading": "Vendredi 21 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0051"
+          },
+          {
+            "old": "002.0052"
+          },
+          {
+            "old": "002.0053"
+          },
+          {
+            "old": "002.0054"
+          },
+          {
+            "old": "002.0055"
+          },
+          {
+            "old": "002.0056",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Comme c'est touchant !]"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-22.md",
+        "date": "1873-02-22",
+        "heading": "Samedi 22 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0057"
+          },
+          {
+            "old": "002.0058"
+          },
+          {
+            "old": "002.0059"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-23.md",
+        "date": "1873-02-23",
+        "heading": "Dimanche 23 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0060"
+          },
+          {
+            "old": "002.0061"
+          },
+          {
+            "old": "002.0062"
+          },
+          {
+            "old": "002.0063",
+            "kind": "margin",
+            "set_french": "[Dans la marge: L'année dernière il était en chevalier, casaque et mantille.]"
+          },
+          {
+            "old": "002.0064"
+          },
+          {
+            "old": "002.0065"
+          },
+          {
+            "old": "002.0066"
+          },
+          {
+            "old": "002.0067",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Cette maladresse me rend confuse encore maintenant. Il y a des choses dont on se souvient toujours et qui tourmentent. Vraiment c'était affreux !]"
+          },
+          {
+            "old": "002.0068"
+          },
+          {
+            "old": "002.0069",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Ces fleurs me tourmenteront toute ma vie, chaque fois que je m'en souviendrai. C'est vrai.]"
+          },
+          {
+            "old": "002.0070"
+          },
+          {
+            "old": "002.0071"
+          },
+          {
+            "old": "002.0072",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Petite imbécile.]"
+          },
+          {
+            "old": "002.0073"
+          },
+          {
+            "old": "002.0074"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-24.md",
+        "date": "1873-02-24",
+        "heading": "Lundi 24 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0075"
+          },
+          {
+            "old": "002.0076"
+          },
+          {
+            "old": "002.0077"
+          },
+          {
+            "old": "002.0078"
+          },
+          {
+            "old": "002.0079",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Stupide ! Je dis là des folies. Boreel aime le monde et y allait comme tous les autres, et pour cela il n'y a pas besoin de dire qu'il me ressemble.]"
+          },
+          {
+            "old": "002.0080"
+          },
+          {
+            "old": "002.0081",
+            "kind": "other",
+            "source": "page intercalée",
+            "set_french": "[Page intercalée: Cela demande explication. Je sentais tout ce que je dis depuis la marque -(Jamais on ne le voyait pas. On ne voyait que le rouge. Le reste est une folle exagération. J'étais sans doute sous l'influence de quelque pièce de théâtre. Je ne lui ai rien montré et rien *presque dit*. C'est fâcheux de voir combien je m'emportais à dire des bêtises semblables. Si on lira cette explication on n'y croira pas, mais je donne ma parole d'honneur qu'en écrivant les folies de la page 45, je savais que c'étaient des folies. Je les écrivais en me disant qu'un jour ce sera dans quelque livre de rhétorique. Je n'ai rien montré à ce cher homme, heureusement car de la part d'une enfant c'est dégoûtant.Pourquoi ne pas avoir été calme. Je m'en repens. C'est stupide et dégoûtant à lire.]"
+          },
+          {
+            "old": "002.0082"
+          },
+          {
+            "old": "002.0083"
+          },
+          {
+            "old": "002.0084",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Juste et bien, écriture de la mère de Marie ?]"
+          },
+          {
+            "old": "002.0085"
+          },
+          {
+            "old": "002.0086"
+          },
+          {
+            "old": "002.0087",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Maman était très bien entourée.]"
+          },
+          {
+            "old": "002.0088"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-25.md",
+        "date": "1873-02-25",
+        "heading": "Mardi 25 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0089",
+            "set_french": "# Mardi 25 février 1873 (Mardi Gras)"
+          },
+          {
+            "old": "002.0090"
+          },
+          {
+            "old": "002.0091"
+          },
+          {
+            "old": "002.0092"
+          },
+          {
+            "old": "002.0093",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Boreel à travers la gaieté du carnaval, galopant, me regardait quand je lui jetai les bouquets, son regard était si bon, si bon, que vraiment on ne peut pas ne pas l'aimer.] [Rayé: il était même ému. Oh ! non c'est mon imagination.]"
+          },
+          {
+            "old": "002.0094"
+          },
+          {
+            "old": "002.0095"
+          },
+          {
+            "old": "002.0096"
+          },
+          {
+            "old": "002.0097"
+          },
+          {
+            "old": "002.0098"
+          },
+          {
+            "old": "002.0099"
+          },
+          {
+            "new": {
+              "french": "[Page intercalée: Je comprends maintenant seulement à la page 46. Je disais que Boreel savait que je l’aime, que je lui ai montré, que je voudrais faire sa connaissance, que je voudrais qu’il m’aime etc. etc. Tout cela est très juste Je voulais dire que tout cela était, et comme il ne savait rien du changement, il devait agir en conséquence. Mais quant à moi tout *amour* pour lui était bien fini. Je disais que son regard était bon et qu’on ne pouvait ne pas l’aimer mais je croyais que l’on comprendrait comme aimer et comment *bon.* Je me suis accusée en vain. J’étais loin de lui et si près de Hamilton que je ne pensais pas pouvoir pouvoir parler de Boreel sans qu’on y voit rien de mal. J’en parlais trop pour faire croire qu’il est bien fiché, car s’il ne l’était pas j’en parlerais comme du duc de Hamilton. (Je *mean* parler dans mon journal, pas ailleurs). Comme c’est incommode de mal s’expliquer. Par ces éloges de Boreel je voulais prouver qu’il *fut.* Et je me suis mal comprise.]",
+              "rsr": "Restored from tome01.docx ¶371–377 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "other",
+              "source": "page intercalée"
+            }
+          },
+          {
+            "old": "002.0100"
+          },
+          {
+            "old": "002.0101"
+          },
+          {
+            "old": "002.0102"
+          },
+          {
+            "old": "002.0103"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-26.md",
+        "date": "1873-02-26",
+        "heading": "Mercredi 26 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0104"
+          },
+          {
+            "old": "002.0105"
+          },
+          {
+            "old": "002.0106"
+          },
+          {
+            "old": "002.0107"
+          },
+          {
+            "old": "002.0108"
+          },
+          {
+            "old": "002.0109"
+          },
+          {
+            "old": "002.0110"
+          },
+          {
+            "old": "002.0111",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Je ne comprends pas.]"
+          },
+          {
+            "old": "002.0112"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-27.md",
+        "date": "1873-02-27",
+        "heading": "Jeudi 27 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0113"
+          },
+          {
+            "old": "002.0114"
+          },
+          {
+            "old": "002.0115",
+            "kind": "other",
+            "source": "page intercalée",
+            "set_french": "[Page intercalée: Je ne le disais pas mais à chaque instant je pensais à lui, je m'en rappelle. Je tressaillais à tout bruit qui ressemblait à celui de sa voiture.]"
+          },
+          {
+            "old": "002.0116"
+          },
+          {
+            "old": "002.0117"
+          },
+          {
+            "old": "002.0118"
+          },
+          {
+            "old": "002.0119"
+          },
+          {
+            "old": "002.0120"
+          },
+          {
+            "old": "002.0121"
+          },
+          {
+            "old": "002.0122"
+          },
+          {
+            "old": "002.0123"
+          },
+          {
+            "old": "002.0124"
+          },
+          {
+            "old": "002.0125"
+          },
+          {
+            "old": "002.0126"
+          },
+          {
+            "old": "002.0127"
+          },
+          {
+            "old": "002.0128",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Je me le représente bien, il avait une belle figure naïve, et me plaît comme il était ce jour.]"
+          },
+          {
+            "old": "002.0129"
+          },
+          {
+            "old": "002.0130"
+          },
+          {
+            "old": "002.0131"
+          }
+        ]
+      },
+      {
+        "file": "1873-02-28.md",
+        "date": "1873-02-28",
+        "heading": "Vendredi 28 février 1873",
+        "paragraphs": [
+          {
+            "old": "002.0132"
+          },
+          {
+            "old": "002.0133"
+          },
+          {
+            "old": "002.0134"
+          },
+          {
+            "old": "002.0135"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-01.md",
+        "date": "1873-03-01",
+        "heading": "Samedi 1er mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0136",
+            "set_french": "# Samedi 1er mars 1873 [Marie a mis par erreur 28 février]"
+          },
+          {
+            "old": "002.0137"
+          },
+          {
+            "old": "002.0138",
+            "kind": "margin",
+            "set_french": "[Dans la marge: J'écris sensiblement mieux.]"
+          },
+          {
+            "old": "002.0139"
+          },
+          {
+            "old": "002.0140"
+          },
+          {
+            "old": "002.0141"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-02.md",
+        "date": "1873-03-02",
+        "heading": "Dimanche 2 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0142",
+            "set_french": "# Dimanche 2 mars 1873 [Marie a mis par erreur 1er mars]"
+          },
+          {
+            "old": "002.0143"
+          },
+          {
+            "old": "002.0144"
+          },
+          {
+            "old": "002.0145",
+            "kind": "margin",
+            "set_french": "[Dans la marge: J'ai embrouillé les dates, j'étais en retard d'un jour.]"
+          },
+          {
+            "old": "002.0146"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-03.md",
+        "date": "1873-03-03",
+        "heading": "Lundi 3 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0147"
+          },
+          {
+            "old": "002.0148"
+          },
+          {
+            "old": "002.0149"
+          },
+          {
+            "old": "002.0150"
+          },
+          {
+            "old": "002.0151"
+          },
+          {
+            "old": "002.0152"
+          },
+          {
+            "old": "002.0153"
+          },
+          {
+            "old": "002.0154"
+          },
+          {
+            "old": "002.0155",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Quel élan, mon Dieu !]"
+          },
+          {
+            "old": "002.0156"
+          },
+          {
+            "old": "002.0157"
+          },
+          {
+            "old": "002.0158"
+          },
+          {
+            "old": "002.0159"
+          },
+          {
+            "old": "002.0160"
+          },
+          {
+            "old": "002.0161"
+          },
+          {
+            "old": "002.0162",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Ce serait très amusant.]"
+          },
+          {
+            "old": "002.0163"
+          },
+          {
+            "old": "002.0164",
+            "kind": "margin",
+            "set_french": "[Dans la marge: C'est trop nu ce que je dis là.]"
+          },
+          {
+            "old": "002.0165"
+          },
+          {
+            "old": "002.0166"
+          },
+          {
+            "old": "002.0167",
+            "kind": "margin",
+            "set_french": "[Dans la marge: C'est trop salement moral.]"
+          },
+          {
+            "old": "002.0168"
+          },
+          {
+            "old": "002.0169"
+          },
+          {
+            "old": "002.0170"
+          },
+          {
+            "old": "002.0171",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Tout cela irait bien pour un autre et pas pour cet animal.]"
+          },
+          {
+            "old": "002.0172"
+          },
+          {
+            "old": "002.0173"
+          },
+          {
+            "old": "002.0174"
+          },
+          {
+            "old": "002.0175",
+            "kind": "margin",
+            "set_french": "[Dans la marge: On voit, ma chère, que Boreel n'est pas aussi fiché que tu le crois.]"
+          },
+          {
+            "old": "002.0176"
+          },
+          {
+            "old": "002.0177",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Mais on l'était, misérable, même alors à côté du duc de Hamilton !]"
+          },
+          {
+            "old": "002.0178"
+          },
+          {
+            "old": "002.0179"
+          },
+          {
+            "old": "002.0180"
+          },
+          {
+            "old": "002.0181"
+          },
+          {
+            "old": "002.0182"
+          },
+          {
+            "old": "002.0183"
+          },
+          {
+            "old": "002.0184"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-04.md",
+        "date": "1873-03-04",
+        "heading": "Mardi 4 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0185"
+          },
+          {
+            "old": "002.0186"
+          },
+          {
+            "old": "002.0187"
+          },
+          {
+            "old": "002.0188"
+          },
+          {
+            "old": "002.0189"
+          },
+          {
+            "old": "002.0190"
+          },
+          {
+            "old": "002.0191",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Un petit sou s.v.p. !!!]"
+          },
+          {
+            "old": "002.0192"
+          },
+          {
+            "old": "002.0193"
+          },
+          {
+            "old": "002.0194"
+          },
+          {
+            "old": "002.0195",
+            "kind": "margin",
+            "set_french": "[Dans la marge: J'oublie de dire que le règne de Boreel était pendant l'hiver dernier et lorsqu'il est arrivé cet hiver je le reçus froidement car depuis l'été j'avais changé d'idée. Je le plains par pitié et rien de plus. Je trouve que je m'occupe trop de Boreel déchu mais vivre sans passion etc. etc. etc. etc.]"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-05.md",
+        "date": "1873-03-05",
+        "heading": "Mercredi 5 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0196"
+          },
+          {
+            "old": "002.0197"
+          },
+          {
+            "old": "002.0198"
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: Quel grand défaut de toujours dire je l’aime, ce mot devient banal.]",
+              "rsr": "Restored from tome01.docx ¶476 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          },
+          {
+            "old": "002.0199"
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: Pressentiment bien juste hélas ! et qui m’étonne aujourd’hui.]",
+              "rsr": "Restored from tome01.docx ¶478 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          },
+          {
+            "old": "002.0200"
+          },
+          {
+            "old": "002.0201"
+          },
+          {
+            "old": "002.0202"
+          },
+          {
+            "old": "002.0203"
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: Amour ! Fi donc ! Ce n’est pas l’amour. *Il me plaisait* voilà.]",
+              "rsr": "Restored from tome01.docx ¶483 (missing from original extraction, 2026-09-28 rebuild). OCR «// me plaisait» read as «Il me plaisait» (italic).",
+              "kind": "margin"
+            }
+          },
+          {
+            "old": "002.0204"
+          },
+          {
+            "old": "002.0205"
+          },
+          {
+            "old": "002.0206"
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: Un petit sou s.v.p. !]",
+              "rsr": "Restored from tome01.docx ¶487 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          },
+          {
+            "old": "002.0207"
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: J’étais contente de le voir comme une connaissance sans plus. Maman était chez Vigier.]",
+              "rsr": "Restored from tome01.docx ¶489 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          },
+          {
+            "old": "002.0208"
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: Il ne pense rien du tout.]",
+              "rsr": "Restored from tome01.docx ¶491 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          },
+          {
+            "old": "002.0209"
+          },
+          {
+            "old": "002.0210"
+          },
+          {
+            "new": {
+              "french": "[Annotation: 1874. Ces deux pages sont détestables et stupides. J’en suis honteuse. On voit plus qu’ailleurs que je suis bébé en tout.]",
+              "rsr": "Restored from tome01.docx ¶493 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "other",
+              "source": "annotation de Marie, 1874"
+            }
+          }
+        ]
+      },
+      {
+        "file": "1873-03-06.md",
+        "date": "1873-03-06",
+        "heading": "Jeudi 6 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0211"
+          },
+          {
+            "old": "002.0212"
+          },
+          {
+            "old": "002.0213"
+          },
+          {
+            "old": "002.0214"
+          },
+          {
+            "old": "002.0215"
+          },
+          {
+            "old": "002.0216",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Comme je suis stupide et ennuyeuse. Je n'avais sans doute rien à écrire...]"
+          },
+          {
+            "old": "002.0217"
+          },
+          {
+            "old": "002.0218"
+          },
+          {
+            "old": "002.0219"
+          },
+          {
+            "old": "002.0220"
+          },
+          {
+            "old": "002.0221",
+            "kind": "margin",
+            "set_french": "[Dans la marge: C'est moi qui suis bête ? On est à Monaco.]"
+          },
+          {
+            "old": "002.0222"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-07.md",
+        "date": "1873-03-07",
+        "heading": "Vendredi 7 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0223"
+          },
+          {
+            "old": "002.0224"
+          },
+          {
+            "old": "002.0225"
+          },
+          {
+            "old": "002.0226"
+          },
+          {
+            "old": "002.0227"
+          },
+          {
+            "old": "002.0228"
+          },
+          {
+            "old": "002.0229"
+          },
+          {
+            "old": "002.0230"
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: Cet éternel *t'aime, m'aime* etc. m’agace !!!]",
+              "rsr": "Restored from tome01.docx ¶512 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          }
+        ]
+      },
+      {
+        "file": "1873-03-08.md",
+        "date": "1873-03-08",
+        "heading": "Samedi 8 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0231"
+          },
+          {
+            "old": "002.0232"
+          },
+          {
+            "old": "002.0233"
+          },
+          {
+            "old": "002.0234"
+          },
+          {
+            "old": "002.0235"
+          },
+          {
+            "old": "002.0236"
+          },
+          {
+            "old": "002.0237"
+          },
+          {
+            "old": "002.0238"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-09.md",
+        "date": "1873-03-09",
+        "heading": "Dimanche 9 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0239"
+          },
+          {
+            "old": "002.0240"
+          },
+          {
+            "old": "002.0241"
+          },
+          {
+            "old": "002.0242"
+          },
+          {
+            "old": "002.0243"
+          },
+          {
+            "old": "002.0244"
+          },
+          {
+            "old": "002.0245"
+          },
+          {
+            "old": "002.0246"
+          },
+          {
+            "old": "002.0247"
+          },
+          {
+            "old": "002.0248"
+          },
+          {
+            "old": "002.0249"
+          },
+          {
+            "old": "002.0250"
+          },
+          {
+            "old": "002.0251"
+          },
+          {
+            "old": "002.0252"
+          },
+          {
+            "old": "002.0253"
+          },
+          {
+            "old": "002.0254",
+            "kind": "margin",
+            "set_french": "[Dans la marge: C'est vrai, c'est juste.]"
+          },
+          {
+            "old": "002.0255"
+          },
+          {
+            "old": "002.0256"
+          },
+          {
+            "old": "002.0257"
+          },
+          {
+            "old": "002.0258"
+          },
+          {
+            "old": "002.0259"
+          },
+          {
+            "old": "002.0260"
+          },
+          {
+            "old": "002.0261"
+          },
+          {
+            "old": "002.0262"
+          },
+          {
+            "old": "002.0263"
+          },
+          {
+            "old": "002.0264"
+          },
+          {
+            "old": "002.0265"
+          },
+          {
+            "old": "002.0266"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-10.md",
+        "date": "1873-03-10",
+        "heading": "Lundi 10 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0267"
+          },
+          {
+            "old": "002.0268"
+          },
+          {
+            "old": "002.0269"
+          },
+          {
+            "old": "002.0270"
+          },
+          {
+            "old": "002.0271"
+          },
+          {
+            "old": "002.0272"
+          },
+          {
+            "old": "002.0273"
+          },
+          {
+            "old": "002.0274"
+          },
+          {
+            "old": "002.0275"
+          },
+          {
+            "old": "002.0276"
+          },
+          {
+            "old": "002.0277",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Voilà encore ce livre fini, comme j'écris beaucoup !]"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-11.md",
+        "date": "1873-03-11",
+        "heading": "Mardi 11 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0278",
+            "set_french": "# Mardi 11 mars 1873 [mois rectifié]"
+          },
+          {
+            "old": "002.0279"
+          },
+          {
+            "old": "002.0280"
+          },
+          {
+            "old": "002.0281"
+          },
+          {
+            "old": "002.0282"
+          },
+          {
+            "old": "002.0283"
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: Entre la porte j’ai vu le prince de Wittgenstein (voir livre 24e)]",
+              "rsr": "Restored from tome01.docx ¶577 (missing from original extraction, 2026-09-28 rebuild).",
+              "kind": "margin"
+            }
+          },
+          {
+            "old": "002.0284"
+          },
+          {
+            "old": "002.0285"
+          },
+          {
+            "old": "002.0286"
+          },
+          {
+            "old": "002.0287"
+          },
+          {
+            "old": "002.0288"
+          },
+          {
+            "old": "002.0289"
+          },
+          {
+            "old": "002.0290"
+          },
+          {
+            "old": "002.0291"
+          }
+        ]
+      },
+      {
+        "file": "1873-03-12.md",
+        "date": "1873-03-12",
+        "heading": "Mercredi 12 mars 1873",
+        "paragraphs": [
+          {
+            "old": "002.0292"
+          },
+          {
+            "old": "002.0293"
+          },
+          {
+            "old": "002.0294"
+          },
+          {
+            "old": "002.0295"
+          },
+          {
+            "old": "002.0296",
+            "kind": "margin",
+            "set_french": "[Dans la marge: Quelle indignation, comparer ce magot à Hamilton !!! C'est ridicule que j'en parle tous les jours.]"
+          },
+          {
+            "old": "002.0297"
+          },
+          {
+            "old": "002.0298"
+          },
+          {
+            "old": "002.0299"
+          },
+          {
+            "old": "002.0300"
+          },
+          {
+            "old": "002.0301"
+          },
+          {
+            "old": "002.0302"
+          },
+          {
+            "old": "002.0303"
+          },
+          {
+            "old": "002.0304",
+            "kind": "other",
+            "source": "annotation de Marie, 1874",
+            "set_french": "[Annotation: 1874. La fin de ce livre est stupide.]"
+          },
+          {
+            "old": "002.0305"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1283 @@
+{
+ "carnet": "013",
+ "source": "tome02.docx",
+ "drop": [
+  {
+   "id": "013.0002",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "013.0003",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "013.0004",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "013.0005",
+   "reason": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  {
+   "id": "013.0007",
+   "reason": "duplicate date heading «Vendredi, 21 novembre 1873»; the day heading stays in 013.0001 (docx ¶7138)"
+  }
+ ],
+ "entries": [
+  {
+   "file": "1873-11-21.md",
+   "date": "1873-11-21",
+   "heading": "Vendredi 21 novembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0001",
+     "set_french": "# Vendredi 21 novembre 1873"
+    },
+    {
+     "old": "013.0006",
+     "kind": "margin",
+     "source": "note de Marie sur la page de titre du Livre 13"
+    },
+    {
+     "old": "013.0008"
+    },
+    {
+     "old": "013.0009"
+    },
+    {
+     "old": "013.0010"
+    },
+    {
+     "old": "013.0011"
+    },
+    {
+     "old": "013.0012"
+    },
+    {
+     "old": "013.0013",
+     "kind": "margin"
+    },
+    {
+     "old": "013.0014"
+    },
+    {
+     "old": "013.0015"
+    },
+    {
+     "old": "013.0016"
+    },
+    {
+     "old": "013.0017"
+    },
+    {
+     "old": "013.0018"
+    },
+    {
+     "old": "013.0019"
+    },
+    {
+     "old": "013.0020"
+    },
+    {
+     "old": "013.0021"
+    },
+    {
+     "old": "013.0022"
+    },
+    {
+     "old": "013.0023"
+    }
+   ]
+  },
+  {
+   "file": "1873-11-22.md",
+   "date": "1873-11-22",
+   "heading": "Samedi 22 novembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0024"
+    },
+    {
+     "old": "013.0025"
+    },
+    {
+     "old": "013.0026"
+    },
+    {
+     "old": "013.0027"
+    },
+    {
+     "old": "013.0028"
+    },
+    {
+     "old": "013.0029"
+    },
+    {
+     "old": "013.0030"
+    },
+    {
+     "old": "013.0031"
+    },
+    {
+     "old": "013.0032"
+    },
+    {
+     "old": "013.0033"
+    },
+    {
+     "old": "013.0034"
+    },
+    {
+     "old": "013.0035"
+    },
+    {
+     "old": "013.0036"
+    },
+    {
+     "old": "013.0037"
+    },
+    {
+     "old": "013.0038"
+    },
+    {
+     "old": "013.0039"
+    },
+    {
+     "old": "013.0040"
+    },
+    {
+     "old": "013.0041"
+    },
+    {
+     "old": "013.0042"
+    },
+    {
+     "old": "013.0043"
+    },
+    {
+     "old": "013.0044"
+    },
+    {
+     "old": "013.0046"
+    },
+    {
+     "old": "013.0047"
+    },
+    {
+     "old": "013.0048"
+    },
+    {
+     "old": "013.0049"
+    },
+    {
+     "old": "013.0050"
+    },
+    {
+     "old": "013.0051"
+    }
+   ]
+  },
+  {
+   "file": "1873-11-23.md",
+   "date": "1873-11-23",
+   "heading": "Dimanche 23 novembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0045"
+    },
+    {
+     "old": "013.0052"
+    },
+    {
+     "old": "013.0053"
+    },
+    {
+     "old": "013.0054"
+    },
+    {
+     "old": "013.0055"
+    },
+    {
+     "old": "013.0056"
+    },
+    {
+     "old": "013.0057"
+    },
+    {
+     "old": "013.0058"
+    },
+    {
+     "old": "013.0059"
+    },
+    {
+     "old": "013.0060"
+    },
+    {
+     "old": "013.0061"
+    },
+    {
+     "old": "013.0062"
+    },
+    {
+     "old": "013.0063"
+    },
+    {
+     "old": "013.0064"
+    },
+    {
+     "old": "013.0065"
+    },
+    {
+     "old": "013.0066"
+    },
+    {
+     "old": "013.0067"
+    },
+    {
+     "old": "013.0068"
+    },
+    {
+     "old": "013.0069"
+    },
+    {
+     "old": "013.0070"
+    },
+    {
+     "old": "013.0071"
+    },
+    {
+     "old": "013.0072"
+    }
+   ]
+  },
+  {
+   "file": "1873-11-24.md",
+   "date": "1873-11-24",
+   "heading": "Lundi 24 novembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0073"
+    },
+    {
+     "old": "013.0074"
+    },
+    {
+     "old": "013.0075"
+    },
+    {
+     "old": "013.0076"
+    },
+    {
+     "old": "013.0077"
+    },
+    {
+     "old": "013.0078"
+    },
+    {
+     "old": "013.0079"
+    },
+    {
+     "old": "013.0080"
+    }
+   ]
+  },
+  {
+   "file": "1873-11-25.md",
+   "date": "1873-11-25",
+   "heading": "Mardi 25 novembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0081"
+    },
+    {
+     "old": "013.0082"
+    },
+    {
+     "old": "013.0083"
+    },
+    {
+     "old": "013.0084"
+    },
+    {
+     "old": "013.0085"
+    },
+    {
+     "old": "013.0086"
+    },
+    {
+     "old": "013.0087"
+    },
+    {
+     "old": "013.0088"
+    },
+    {
+     "old": "013.0089"
+    },
+    {
+     "old": "013.0090"
+    },
+    {
+     "old": "013.0091"
+    }
+   ]
+  },
+  {
+   "file": "1873-11-26.md",
+   "date": "1873-11-26",
+   "heading": "Mercredi 26 novembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0092",
+     "set_french": "# Mercredi 26, jeudi 27 novembre 1873"
+    },
+    {
+     "old": "013.0093"
+    },
+    {
+     "old": "013.0094"
+    },
+    {
+     "old": "013.0095"
+    },
+    {
+     "old": "013.0096"
+    },
+    {
+     "old": "013.0097"
+    },
+    {
+     "old": "013.0098"
+    },
+    {
+     "old": "013.0099"
+    },
+    {
+     "old": "013.0100"
+    },
+    {
+     "old": "013.0101"
+    },
+    {
+     "old": "013.0102"
+    },
+    {
+     "old": "013.0103"
+    },
+    {
+     "old": "013.0104"
+    },
+    {
+     "old": "013.0105"
+    },
+    {
+     "old": "013.0106"
+    },
+    {
+     "old": "013.0107"
+    },
+    {
+     "old": "013.0108"
+    },
+    {
+     "old": "013.0109"
+    },
+    {
+     "old": "013.0110"
+    },
+    {
+     "old": "013.0111"
+    },
+    {
+     "old": "013.0112"
+    },
+    {
+     "old": "013.0113"
+    },
+    {
+     "old": "013.0114"
+    },
+    {
+     "old": "013.0115"
+    },
+    {
+     "old": "013.0116"
+    },
+    {
+     "old": "013.0117"
+    },
+    {
+     "old": "013.0118"
+    },
+    {
+     "old": "013.0119"
+    },
+    {
+     "old": "013.0120"
+    },
+    {
+     "old": "013.0121"
+    },
+    {
+     "old": "013.0122"
+    },
+    {
+     "old": "013.0123"
+    },
+    {
+     "old": "013.0124",
+     "kind": "margin"
+    },
+    {
+     "old": "013.0125"
+    },
+    {
+     "old": "013.0126"
+    },
+    {
+     "old": "013.0127"
+    },
+    {
+     "old": "013.0128"
+    }
+   ]
+  },
+  {
+   "file": "1873-11-28.md",
+   "date": "1873-11-28",
+   "heading": "Vendredi 28 novembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0129"
+    },
+    {
+     "old": "013.0130"
+    },
+    {
+     "old": "013.0131"
+    },
+    {
+     "old": "013.0132"
+    },
+    {
+     "old": "013.0133"
+    },
+    {
+     "old": "013.0134"
+    },
+    {
+     "old": "013.0135"
+    },
+    {
+     "old": "013.0136"
+    },
+    {
+     "old": "013.0137"
+    },
+    {
+     "old": "013.0138"
+    }
+   ]
+  },
+  {
+   "file": "1873-11-29.md",
+   "date": "1873-11-29",
+   "heading": "Samedi 29 novembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0139"
+    },
+    {
+     "old": "013.0140"
+    },
+    {
+     "old": "013.0141"
+    },
+    {
+     "old": "013.0142"
+    },
+    {
+     "old": "013.0143"
+    },
+    {
+     "old": "013.0144"
+    },
+    {
+     "old": "013.0145",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "013.0146"
+    },
+    {
+     "old": "013.0147"
+    },
+    {
+     "old": "013.0148"
+    }
+   ]
+  },
+  {
+   "file": "1873-11-30.md",
+   "date": "1873-11-30",
+   "heading": "Dimanche 30 novembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0149"
+    },
+    {
+     "old": "013.0150"
+    },
+    {
+     "old": "013.0151"
+    },
+    {
+     "old": "013.0152"
+    },
+    {
+     "new": {
+      "french": "Enfin vient the long ago spoken of Séraphine. Je m’attendais à voir une femme gracieuse, élégante, bien faite, de ravissantes manières. Mais elle entre, une tête énorme comme un paquet de foin surmonté d’un chapeau noir avec plusieurs plumes blanches, une longue robe de velours noir mal faite, le corsage garni de dentelles, des perles, des diamants, une espèce de chiffon jaune brodé sur les épaules. Sa face un peu blanchie. Affectée, maniérée, mal faite, corps allemand ou italien, tête italienne, elle me fait l’effet d’une petite détestation. Une visite très courte, le singe l’effraye, elle *screams,* puis on la mena je ne sais pourquoi dans mon étude, la porte s’est ouverte, le vent a soufflé, encore un *scream* et un saut en arrière.",
+      "rsr": "Restored from tome02.docx ¶7722–7751 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "La première impression n’est pas très bonne, nous verrons ensuite. Ils s’en vont tous chez Solominka dans une demi-heure, je vais les chercher, maman, ma tante et Dina et nous allons nous *promener* à la promenade.",
+      "rsr": "Restored from tome02.docx ¶7752 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais le vent est terrible, on ferme le landau, la musique finie à quatre heures et il n’y a plus un chat. Vraiment je hais Nice. Ensuite nous allons à l’hôtel de la Paix chercher diadia, il va à Monaco avec les nôtres. Je ne monte pas et nous restons en voiture avec Dina, mais on vient nous chercher. Séraphine me paraît mieux cette fois, je m’habituerai à ses singeries. Elle regarde maman comme je regarde Hélène; comme maman est belle, simple, *unie, ronde, régulière à* côté de ce petit singe. C’est my mother's friend, - friends of girlhood. Ils partent.",
+      "rsr": "Restored from tome02.docx ¶7753 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous prenons la princesse et allons chez Rumpelmayer. Jamais je ne me suis tant ennuyée.",
+      "rsr": "Restored from tome02.docx ¶7754 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "A dîner Pitou renverse la lampe, fait un grand tumulte, un grand bruit. Après dîner je reste en bas avec Bête et Dina.",
+      "rsr": "Restored from tome02.docx ¶7755 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Nous nous ennuyons toutes les trois et tâchons d’inventer quelque chose d’extraordinaire pour dissiper cet ennui, mais rien ne se présente à ma triste imagination, on échange des paroles bêtes, affectées et enfin nous jouons aux rois. Après le premier jeu je m’en vais dormir et Bête me souhaite de rêver du *duque,* ce que je ferais avec bonheur.",
+      "rsr": "Restored from tome02.docx ¶7756 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quelle fille indigne je suis ! J’ai tout ce qu’il faut, et même plus, je fais ce que je veux, je devrais être heureuse, et bien ! Je me crée des chagrins, des malheurs, j’ose m’ennuyer ! *Je me sens mal dans ma peau* pure vérité.",
+      "rsr": "Restored from tome02.docx ¶7757 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Une nouvelle peur commence à me poursuivre, c’est que... ils se marient le 10 décembre, le mercredi prochain, et pour leur voyage de noce ils peuvent bien choisir Nice, et s’ils viennent je serai la plus malheureuse créature !",
+      "rsr": "Restored from tome02.docx ¶7758 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tous dans la maison le sauront, on en parlera ou plutôt on n’en parlera pas, surtout maman et ma tante, ce qui est le plus affreux. Je les rencontrerai... et quelle figure je ferai pour dissimuler et on ne le verra que davantage. Ce sera un martyre, je ne puis penser sans pleurer intérieurement à ce qu’ils peuvent venir ici.",
+      "rsr": "Restored from tome02.docx ¶7759–7788 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "C’est surtout parce qu’on parlera d’eux, si personne ne les voyait je pourrais très bien le supporter, mais tous ces gens, leurs yeux, leurs regards ! Quelle torture, Seigneur.",
+      "rsr": "Restored from tome02.docx ¶7789 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Rien ne m’intéresse, “Mon cœur lassé de tout, même de l’espérance”. Non, Dieu ne donne pas tout ce qu’on demande, il faut mériter, et je n’ai pas mérité.",
+      "rsr": "Restored from tome02.docx ¶7790 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je m’ennuie, je suis triste, le dimanche ajoute toujours à l’ennui. Les dimanches doivent être employés en travail et en prières, et on doit s’amuser lorsqu’on en a envie. Broken heart, broken spirits, broken soul, overturned plans, deceived expectation and alarming state of mind.",
+      "rsr": "Restored from tome02.docx ¶7791 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1873-12-01.md",
+   "date": "1873-12-01",
+   "heading": "Lundi 1er décembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0153"
+    },
+    {
+     "old": "013.0154"
+    },
+    {
+     "old": "013.0155"
+    },
+    {
+     "old": "013.0156"
+    },
+    {
+     "old": "013.0157"
+    },
+    {
+     "old": "013.0158"
+    },
+    {
+     "old": "013.0159"
+    },
+    {
+     "old": "013.0160"
+    },
+    {
+     "old": "013.0161"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-02.md",
+   "date": "1873-12-02",
+   "heading": "Mardi 2 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0162"
+    },
+    {
+     "old": "013.0163"
+    },
+    {
+     "old": "013.0164"
+    },
+    {
+     "old": "013.0165"
+    },
+    {
+     "old": "013.0166"
+    },
+    {
+     "old": "013.0167"
+    },
+    {
+     "old": "013.0168"
+    },
+    {
+     "old": "013.0169"
+    },
+    {
+     "old": "013.0170"
+    },
+    {
+     "old": "013.0171"
+    },
+    {
+     "old": "013.0172"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-03.md",
+   "date": "1873-12-03",
+   "heading": "Mercredi 3 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0173"
+    },
+    {
+     "old": "013.0174"
+    },
+    {
+     "old": "013.0175"
+    },
+    {
+     "old": "013.0176"
+    },
+    {
+     "old": "013.0177"
+    },
+    {
+     "old": "013.0178"
+    },
+    {
+     "old": "013.0179"
+    },
+    {
+     "old": "013.0180"
+    },
+    {
+     "old": "013.0181"
+    },
+    {
+     "old": "013.0182"
+    },
+    {
+     "old": "013.0183"
+    },
+    {
+     "old": "013.0184"
+    },
+    {
+     "old": "013.0185"
+    },
+    {
+     "old": "013.0186"
+    },
+    {
+     "old": "013.0187"
+    },
+    {
+     "old": "013.0188",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "013.0189"
+    },
+    {
+     "old": "013.0190"
+    },
+    {
+     "old": "013.0191"
+    },
+    {
+     "old": "013.0192"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-04.md",
+   "date": "1873-12-04",
+   "heading": "Jeudi 4 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0193"
+    },
+    {
+     "old": "013.0194"
+    },
+    {
+     "old": "013.0195"
+    },
+    {
+     "old": "013.0196"
+    },
+    {
+     "old": "013.0197"
+    },
+    {
+     "old": "013.0198"
+    },
+    {
+     "old": "013.0199"
+    },
+    {
+     "old": "013.0200"
+    },
+    {
+     "old": "013.0201"
+    },
+    {
+     "old": "013.0202"
+    },
+    {
+     "old": "013.0203"
+    },
+    {
+     "old": "013.0204"
+    },
+    {
+     "old": "013.0205"
+    },
+    {
+     "old": "013.0206"
+    },
+    {
+     "old": "013.0207"
+    },
+    {
+     "old": "013.0208"
+    },
+    {
+     "old": "013.0209"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-05.md",
+   "date": "1873-12-05",
+   "heading": "Vendredi 5 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0210"
+    },
+    {
+     "old": "013.0211"
+    },
+    {
+     "old": "013.0212"
+    },
+    {
+     "old": "013.0213"
+    },
+    {
+     "old": "013.0214"
+    },
+    {
+     "old": "013.0215"
+    },
+    {
+     "old": "013.0216"
+    },
+    {
+     "old": "013.0217"
+    },
+    {
+     "old": "013.0218"
+    },
+    {
+     "old": "013.0219"
+    },
+    {
+     "old": "013.0220"
+    },
+    {
+     "new": {
+      "french": "Ah ! que je suis misérable ! Rien ne m’intéresse, je ne vis pas, je végète.",
+      "rsr": "Restored from tome02.docx ¶8056 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je voudrais qu’il se marie plus vite, je suis toujours comme ça; lorsque quelque chose doit arriver de désagréable au départ tout le monde, car je savais qu’il fallait avaler cette pilule, de même pour arriver à Nice, je brûlais d’y arriver plus vite pour ne plus attendre cette catastrophe, car l’attente est plus terrible que l’événement lui-même.",
+      "rsr": "Restored from tome02.docx ¶8057–8086 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Grand Dieu tranquillisez mon âme ! Non, non, laissez, mon Dieu, souffrir pour ce qu’on aime est mieux que de ne rien sentir.",
+      "rsr": "Restored from tome02.docx ¶8087 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Souvent je trouve très doux les regrets, le désespoir même, l’envie et la rage.",
+      "rsr": "Restored from tome02.docx ¶8088 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1873-12-06.md",
+   "date": "1873-12-06",
+   "heading": "Samedi 6 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0221"
+    },
+    {
+     "old": "013.0222"
+    },
+    {
+     "old": "013.0223"
+    },
+    {
+     "old": "013.0224"
+    },
+    {
+     "old": "013.0225"
+    },
+    {
+     "old": "013.0226"
+    },
+    {
+     "old": "013.0227"
+    },
+    {
+     "old": "013.0228"
+    },
+    {
+     "old": "013.0229"
+    },
+    {
+     "old": "013.0230"
+    },
+    {
+     "old": "013.0231"
+    },
+    {
+     "old": "013.0232"
+    },
+    {
+     "old": "013.0233"
+    },
+    {
+     "old": "013.0234"
+    },
+    {
+     "old": "013.0235"
+    },
+    {
+     "old": "013.0236"
+    },
+    {
+     "old": "013.0237"
+    },
+    {
+     "old": "013.0238"
+    },
+    {
+     "old": "013.0239"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-07.md",
+   "date": "1873-12-07",
+   "heading": "Dimanche 7 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0240"
+    },
+    {
+     "old": "013.0241"
+    },
+    {
+     "old": "013.0242"
+    },
+    {
+     "old": "013.0243"
+    },
+    {
+     "old": "013.0244"
+    },
+    {
+     "old": "013.0245"
+    },
+    {
+     "old": "013.0246"
+    },
+    {
+     "old": "013.0247"
+    },
+    {
+     "old": "013.0248"
+    },
+    {
+     "old": "013.0249"
+    },
+    {
+     "old": "013.0250"
+    },
+    {
+     "old": "013.0251"
+    },
+    {
+     "old": "013.0252"
+    },
+    {
+     "old": "013.0253"
+    },
+    {
+     "old": "013.0254"
+    },
+    {
+     "old": "013.0255"
+    },
+    {
+     "old": "013.0256"
+    },
+    {
+     "old": "013.0257"
+    },
+    {
+     "old": "013.0258"
+    },
+    {
+     "old": "013.0259"
+    },
+    {
+     "old": "013.0260"
+    },
+    {
+     "old": "013.0261"
+    },
+    {
+     "old": "013.0262"
+    }
+   ]
+  },
+  {
+   "file": "1873-12-08.md",
+   "date": "1873-12-08",
+   "heading": "Lundi 8 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0263"
+    },
+    {
+     "old": "013.0264"
+    },
+    {
+     "old": "013.0265"
+    },
+    {
+     "old": "013.0266"
+    },
+    {
+     "old": "013.0267"
+    },
+    {
+     "old": "013.0268"
+    },
+    {
+     "old": "013.0269"
+    },
+    {
+     "old": "013.0270"
+    },
+    {
+     "old": "013.0271"
+    },
+    {
+     "old": "013.0272"
+    },
+    {
+     "old": "013.0273"
+    },
+    {
+     "new": {
+      "french": "Dans des occasions comme ça il faut user peu de mots car le sujet lui-même est tellement riche que l’orner serait l’appauvrir.",
+      "rsr": "Restored from tome02.docx ¶8283 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Avec mon caractère, ma fantaisie, mes rêves, mes désirs : lire ce que j’ai lu veut dire m’assassiner. Toutes les pompes et les triomphes que j’aurais pu imaginer, et ce que je n’aurais même pas pu, tout y est. Tout ce fera, quelles fêtes solennelles, quelles cérémonies ! Non, je ne puis, la respiration me manque, je vais m’asseoir ou m’agenouiller plutôt où je prie toujours. Dieu voit, combien ma douleur est grande. Il me semble que jamais je n’aurai un moment de bonheur et je me suis mise à pleurer. Puis je mis la tête sur le fauteuil et je restai pendant quelque temps endormie, ou étourdie, ou rêveuse.",
+      "rsr": "Restored from tome02.docx ¶8284 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "[Rayé: Folle que je suis. Je pensais que *lui* est un animal.]",
+      "rsr": "Restored from tome02.docx ¶8285 (missing from original extraction, 2026-09-28 rebuild).",
+      "kind": "rayé"
+     }
+    },
+    {
+     "new": {
+      "french": "Enfin voilà donc le duc de Hamilton rentré dans sa sphère après toutes ses *wanderings abroad.* Le voilà donc élevé jusqu’aux cieux, oui jusqu’aux cieux. Son mariage est un événement extraordinaire, qui n’arrive pas souvent. Toute l’Angleterre le célèbre. Le premier pair d’Ecosse, le duc de Hamilton, se marie. Tout ce qu’il y a de noble, de riche, de beau, tout est réuni.",
+      "rsr": "Restored from tome02.docx ¶8286–8314 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais les Hamilton sont du sang royal ! Les ducs de Hamilton, comtes d’Arran, ducs de Chatelherault etc. etc.",
+      "rsr": "Restored from tome02.docx ¶8315 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Ce n’est qu’en Angleterre que la noblesse est si puissante et si magnifique. Il n’y a nulle part au monde de ces familles anciennes, cette aristocratie, ces noms devant lesquels on se sent ému.",
+      "rsr": "Restored from tome02.docx ¶8316 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Quelles cérémonies saisissantes ! Tout ce monde qui dépend de lui. Ces employés, ces tenants, ces je ne sais plus quoi, tout ça le salue comme un roi.",
+      "rsr": "Restored from tome02.docx ¶8317 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "J’ai beau tâcher d’écrire quelque chose, entre chaque phrase je *pause* dix minutes, j’ai froid, je suis encore comme du bois et je ne comprends rien.",
+      "rsr": "Restored from tome02.docx ¶8318 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Non ! Je ne puis pas.",
+      "rsr": "Restored from tome02.docx ¶8319 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Je suis si calme en ce moment que j’ai peur. Je suis ambitieuse comme personne au monde et cette description du prochain mariage du duc de Hamilton est pleine de ce qui pourrait gratifier mon ambition.",
+      "rsr": "Restored from tome02.docx ¶8320 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Mais je l’aime aussi, je l’aime ! Je l’aime, je l’aime !! Pour moi il est un dieu !!!",
+      "rsr": "Restored from tome02.docx ¶8321 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et comme j’envie, je rage ! Car personne au monde ne pourra produire un effet comme lui en se mariant. Personne ne ferait un pareil éclat. Ce qui me charme le plus, c’est cette antique noblesse des familles en Angleterre, ce *culte* des titres. Tous ces triomphes que je rêve, que j’adore.",
+      "rsr": "Restored from tome02.docx ¶8322 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Et réunir à tout cela celui qu’on aime !",
+      "rsr": "Restored from tome02.docx ¶8323 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Tout ce que j’écris est de bois, comme moi-même en ce moment, je suis incapable d’écrire, je traîne la plume, je ne puis rien dire. Je ne comprends rien, je suis de bois. Je suis bien plus heureuse lorsque je suis agitée, enragée, désespérée que comme maintenant. Mon Dieu ôtez ce nuage qui me couvre ! Faites que je sois vivante.",
+      "rsr": "Restored from tome02.docx ¶8324 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Après avoir lu le “Galignani”, je suis allée dans la salle d’étude étudier, on pouvait entendre ma respiration de loin. Je me suis sentie mourir, un sentiment que je ne puis expliquer. Pourtant je ne suis pas tombée, je suis toute droite sur le fauteuil. Comme si tout ce qui est dans moi s’en allait doucement et, que ma peau devenait sèche, que je glissais sur le dos... horreur ! Quel étrange sentiment.",
+      "rsr": "Restored from tome02.docx ¶8325–8354 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Oh ! pourquoi suis-je de bois ! Pourquoi ne puis-je pleurer, être heureuse dans le désespoir. Je l’aime, Nous...",
+      "rsr": "Restored from tome02.docx ¶8355 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    },
+    {
+     "new": {
+      "french": "Dieu tout-puissant faites que je puisse comprendre et m’exprimer !",
+      "rsr": "Restored from tome02.docx ¶8356 (missing from original extraction, 2026-09-28 rebuild)."
+     }
+    }
+   ]
+  },
+  {
+   "file": "1873-12-09.md",
+   "date": "1873-12-09",
+   "heading": "Mardi 9 décembre 1873",
+   "paragraphs": [
+    {
+     "old": "013.0274"
+    },
+    {
+     "old": "013.0275"
+    },
+    {
+     "old": "013.0276"
+    },
+    {
+     "old": "013.0277"
+    },
+    {
+     "old": "013.0278"
+    },
+    {
+     "old": "013.0279"
+    },
+    {
+     "old": "013.0280"
+    },
+    {
+     "old": "013.0281"
+    },
+    {
+     "old": "013.0282"
+    },
+    {
+     "old": "013.0283"
+    },
+    {
+     "old": "013.0284"
+    },
+    {
+     "old": "013.0285"
+    },
+    {
+     "old": "013.0286"
+    },
+    {
+     "old": "013.0287"
+    },
+    {
+     "old": "013.0288"
+    },
+    {
+     "old": "013.0289"
+    },
+    {
+     "old": "013.0290"
+    },
+    {
+     "old": "013.0291"
+    },
+    {
+     "old": "013.0292",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "013.0293"
+    },
+    {
+     "old": "013.0294",
+     "kind": "other",
+     "source": "annotation de Marie, 1875"
+    },
+    {
+     "old": "013.0295"
+    },
+    {
+     "old": "013.0296"
+    },
+    {
+     "old": "013.0297"
+    },
+    {
+     "old": "013.0298"
+    },
+    {
+     "old": "013.0299"
+    },
+    {
+     "old": "013.0300"
+    },
+    {
+     "old": "013.0301"
+    },
+    {
+     "old": "013.0302"
+    },
+    {
+     "old": "013.0303"
+    },
+    {
+     "old": "013.0304"
+    },
+    {
+     "old": "013.0305",
+     "kind": "margin"
+    },
+    {
+     "old": "013.0306"
+    },
+    {
+     "old": "013.0307"
+    },
+    {
+     "old": "013.0308"
+    },
+    {
+     "old": "013.0309"
+    },
+    {
+     "old": "013.0310"
+    }
+   ]
+  }
+ ]
+}

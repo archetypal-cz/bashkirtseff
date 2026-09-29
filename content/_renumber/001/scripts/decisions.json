@@ -1,0 +1,1182 @@
+{
+ "rsr_notes": {
+  "001.0001": "Text set from the manuscript edition in the 2026-09-28 rebuild: title line withdrawn, date heading kept.",
+  "013.0001": "Text set from the manuscript edition in the 2026-09-28 rebuild: title line withdrawn, date heading kept.",
+  "010.0155": "Text set from the manuscript edition in the 2026-09-28 rebuild: date line as in the manuscript.",
+  "002.0089": "Text set from the manuscript edition in the 2026-09-28 rebuild: date line as in the manuscript.",
+  "002.0136": "Text set from the manuscript edition in the 2026-09-28 rebuild: date line as in the manuscript.",
+  "002.0142": "Text set from the manuscript edition in the 2026-09-28 rebuild: date line as in the manuscript.",
+  "002.0278": "Text set from the manuscript edition in the 2026-09-28 rebuild: date line as in the manuscript.",
+  "013.0092": "Text set from the manuscript edition in the 2026-09-28 rebuild: date line as in the manuscript.",
+  "011.0451": "Text set from the manuscript edition in the 2026-09-28 rebuild: date line as in the manuscript.",
+  "002.0056": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0072": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0111": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0006": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0020": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0041": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored. OCR «I»/«II!» read as «!»/«!!!».",
+  "002.0043": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0063": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0067": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0069": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0079": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0081": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0084": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0087": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0115": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0128": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0138": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0145": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0155": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0162": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0164": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0167": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0171": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0175": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0177": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored. OCR «I»/«II!» read as «!»/«!!!».",
+  "002.0191": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0195": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0216": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0221": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0254": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0277": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0296": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored. OCR «I»/«II!» read as «!»/«!!!».",
+  "002.0304": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "002.0024": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored.",
+  "014.0242": "Text set from the manuscript edition in the 2026-09-28 rebuild: struck words restored from the manuscript.",
+  "014.0264": "Text set from the manuscript edition in the 2026-09-28 rebuild: struck words restored from the manuscript.",
+  "014.0267": "Text set from the manuscript edition in the 2026-09-28 rebuild: struck words restored from the manuscript.",
+  "014.0277": "Text set from the manuscript edition in the 2026-09-28 rebuild: struck words restored from the manuscript.",
+  "014.0301": "Text set from the manuscript edition in the 2026-09-28 rebuild: opening restored from the manuscript (the extraction had repeated 014.0300).",
+  "012.0231": "Text set from the manuscript edition in the 2026-09-28 rebuild: name spelled as printed.",
+  "002.0093": "Text set from the manuscript edition in the 2026-09-28 rebuild: manuscript label restored."
+ },
+ "withdrawn": [
+  [
+   "001",
+   "docx ¶127 (draft cover entry)",
+   "Carnet N° 1"
+  ],
+  [
+   "002",
+   "docx ¶276 (draft cover entry)",
+   "Carnet N° 2"
+  ],
+  [
+   "004",
+   "docx ¶879 (draft cover entry)",
+   "Carnet N° 4 Mon journal\ncommencé le mardi 15 avril 1873\nterminé le samedi 17 mai 1873 à dix heures moins vingt minutes du soir\nappartenant"
+  ],
+  [
+   "005",
+   "docx ¶1231 (draft cover entry)",
+   "Carnet N° 5\nMon journal"
+  ],
+  [
+   "006",
+   "docx ¶1556 (draft cover entry)",
+   "Carnet N° 6"
+  ],
+  [
+   "008",
+   "docx ¶131 (draft cover entry)",
+   "Carnet N° 8\nMon Journal\ncommencé le lundi 11 août 1873\nterminé le dimanche 31 août 1873\nappartenant\nà Mlle Marie de Bachkyrtseff [sic]\nRingstrasse, Vienne, Grand Hôtel n° 243-4\ndepuis le 18 août, Paris, Grand Hôtel, n° 273-2\nJeudi le 28 août à Nice"
+  ],
+  [
+   "009",
+   "docx ¶1437 (draft cover entry)",
+   "Carnet N° 9\nMon journal\ncommencé le lundi 1er septembre 1873\nterminé le lundi 22 septembre 1873 à neuf heures un quart\nappartenant\nà Mlle Marie de Bachkyrseff [sic]\nrue de la Buffa, villa Baquis, Nice"
+  ],
+  [
+   "010",
+   "docx ¶2753 (draft cover entry)",
+   "Cahier N° 10\nMon journal\ncommencé le mardi 23 septembre 1873\nterminé le lundi 13 octobre 1873, 10 heures un quart\nappartenant à Marie de Bachkirzseff [sic]\nrue du Temple, villa Baquis, Nice\nJour de mon plus grand malheur jusqu’à présent, et toujours.\nEn ce jour mes espérances sont brisées et pour être heureuse... Dieu seul peut me rendre heureuse !"
+  ],
+  [
+   "011",
+   "docx ¶4325 (draft cover entry)",
+   "Carnet N° 11"
+  ],
+  [
+   "012",
+   "docx ¶5782 (draft cover entry)",
+   "Carnet N° 12"
+  ],
+  [
+   "013",
+   "docx ¶7132 (draft cover entry)",
+   "Carnet N° 13"
+  ],
+  [
+   "014",
+   "docx ¶8509 (draft cover entry)",
+   "Carnet N° 14\nMon journal"
+  ],
+  [
+   "002",
+   "docx ¶599",
+   "Carnet N° 3 Mon journal commencé le jeudi 13 mars 1873 à midi terminé le lundi 14 avril 1873 à 9 heures appartenant à Mlle Marie de Baschkyrtseff [sic] Promenade des Anglais, n° 51, Nice Villa d’Acqua Viva"
+  ],
+  [
+   "002",
+   "docx ¶601",
+   "[Annotation de la mère de Marie]"
+  ],
+  [
+   "002",
+   "docx ¶602",
+   "1901. *Maria, Nice. Je suis née stupide, je mourrai stupide. M. S. Bashkirtseff.*"
+  ],
+  [
+   "002",
+   "docx ¶277",
+   "*Mon Journal* commencé le dimanche 16 février 1873 terminé le mercredi 12 mars 1873 appartenant à Mlle Marie de Baschkyrtseff [sic] Promenade des Anglais, n° 51 Villa d’Acqua Viva, Nice"
+  ],
+  [
+   "002",
+   "docx ¶278",
+   "[Annotation: 1880. Je prie l’Editeur de supprimer dans ce livre et les suivants les redites sur le duc de Hamilton.]"
+  ],
+  [
+   "004",
+   "docx ¶883",
+   "à Mlle Marie de Baschkyrtseff [sic] promenade des Anglais, n° 51 villa d’Acqua Viva"
+  ],
+  [
+   "005",
+   "docx ¶1233",
+   "commencé le dimanche 18 mai 1873 terminé le dimanche 15 juin 1873, à huit heures vingt-cinq minutes appartenant à Mlle Marie de Baschkyrtseff [sic] promenade des Anglais, n° 51 villa d’Acqua Viva, Nice"
+  ],
+  [
+   "006",
+   "docx ¶1810",
+   "Carnet N° 7 [commencé le dimanche 13 juillet 1873 terminé le dimanche 10 août 1873] Nice"
+  ],
+  [
+   "001",
+   "001.0004",
+   "Du 11 janvier 1873 au 12 février 1873"
+  ],
+  [
+   "006",
+   "006.0001",
+   "Carnet N° 6"
+  ],
+  [
+   "006",
+   "006.0002",
+   "Mon journal"
+  ],
+  [
+   "006",
+   "006.0003",
+   "commencé le lundi 16 juin 1873, à 10 heures du soir terminé le samedi 12 juillet 1873, à 12 heures moins 7 minutes et demie"
+  ],
+  [
+   "006",
+   "006.0004",
+   "appartenant"
+  ],
+  [
+   "006",
+   "006.0005",
+   "à Mlle Marie de Baschkyrtseff [sic] promenade des Anglais, n° 51, villa d'Acqua Viva Villa Baquis, quartier de la Buffa"
+  ],
+  [
+   "011",
+   "011.0002",
+   "[Carnet N° 11 - Malheur - commencé le mercredi 15 octobre 1873, terminé le samedi 1er novembre 1873, appartenant à Mlle Marie de Bachkirzeff [sic], rue du Temple, villa Baquis, Nice]"
+  ],
+  [
+   "011",
+   "011.0446",
+   "Carnet N° 12"
+  ],
+  [
+   "011",
+   "011.0447",
+   "Mon malheureux journal"
+  ],
+  [
+   "011",
+   "011.0448",
+   "commencé le samedi 1er novembre 1873\nterminé le jeudi 20 novembre 1873\nappartenant\nà moi"
+  ],
+  [
+   "011",
+   "011.0449",
+   "rue du Temple, villa Baquis, Buffa, Nice."
+  ],
+  [
+   "011",
+   "011.0450",
+   "Malheureux journal ! Ces trois derniers livres 10, 11, 12 sont remplis de misères ! Je ne fais ce malheureux journal que pour savoir combien de peines j'avais et combien de fois mes espérances sont misères ensuite."
+  ],
+  [
+   "013",
+   "013.0002",
+   "Mon misérable journal"
+  ],
+  [
+   "013",
+   "013.0003",
+   "commencé le vendredi 21 novembre 1873\nterminé le mardi 9 décembre 1873\nappartenant"
+  ],
+  [
+   "013",
+   "013.0004",
+   "à Moi, une bête de quatorze ans."
+  ],
+  [
+   "013",
+   "013.0005",
+   "Rue du Temple, villa Baquis, Nice"
+  ],
+  [
+   "013",
+   "013.0006",
+   "La veille de son mariage est terminé ce wretched livre ! Après son mariage une ère nouvelle commence pour moi."
+  ],
+  [
+   "014",
+   "014.0002",
+   "Mon journal"
+  ],
+  [
+   "014",
+   "014.0003",
+   "commencé le mercredi 10 décembre\nterminé le jeudi 1er janvier 1874\nappartenant à moi."
+  ],
+  [
+   "014",
+   "014.0004",
+   "Rue du Temple, villa Baquis, Nice."
+  ],
+  [
+   "001",
+   "001.0001 (title line only)",
+   "Carnet N° 1"
+  ],
+  [
+   "013",
+   "013.0001 (title line only)",
+   "Carnet N° 13"
+  ]
+ ],
+ "kinds": {
+  "001.0076": [
+   "other",
+   "annotation de Marie, 1884"
+  ],
+  "new ¶565 (002)": [
+   "editorial",
+   null
+  ],
+  "new ¶285 (002)": [
+   "other",
+   "annotation de Marie, 1874"
+  ],
+  "002.0006": [
+   "margin",
+   null
+  ],
+  "002.0020": [
+   "margin",
+   null
+  ],
+  "new ¶306 (002)": [
+   "margin",
+   null
+  ],
+  "new ¶310 (002)": [
+   "other",
+   "annotation de Marie, 1874"
+  ],
+  "002.0041": [
+   "margin",
+   null
+  ],
+  "002.0043": [
+   "margin",
+   null
+  ],
+  "002.0056": [
+   "margin",
+   null
+  ],
+  "002.0063": [
+   "margin",
+   null
+  ],
+  "002.0067": [
+   "margin",
+   null
+  ],
+  "002.0069": [
+   "margin",
+   null
+  ],
+  "002.0072": [
+   "margin",
+   null
+  ],
+  "002.0079": [
+   "margin",
+   null
+  ],
+  "002.0081": [
+   "other",
+   "page intercalée"
+  ],
+  "002.0084": [
+   "margin",
+   null
+  ],
+  "002.0087": [
+   "margin",
+   null
+  ],
+  "002.0093": [
+   "margin",
+   null
+  ],
+  "new ¶371 (002)": [
+   "other",
+   "page intercalée"
+  ],
+  "002.0111": [
+   "margin",
+   null
+  ],
+  "002.0115": [
+   "other",
+   "page intercalée"
+  ],
+  "002.0128": [
+   "margin",
+   null
+  ],
+  "002.0138": [
+   "margin",
+   null
+  ],
+  "002.0145": [
+   "margin",
+   null
+  ],
+  "002.0155": [
+   "margin",
+   null
+  ],
+  "002.0162": [
+   "margin",
+   null
+  ],
+  "002.0164": [
+   "margin",
+   null
+  ],
+  "002.0167": [
+   "margin",
+   null
+  ],
+  "002.0171": [
+   "margin",
+   null
+  ],
+  "002.0175": [
+   "margin",
+   null
+  ],
+  "002.0177": [
+   "margin",
+   null
+  ],
+  "002.0191": [
+   "margin",
+   null
+  ],
+  "002.0195": [
+   "margin",
+   null
+  ],
+  "new ¶476 (002)": [
+   "margin",
+   null
+  ],
+  "new ¶478 (002)": [
+   "margin",
+   null
+  ],
+  "new ¶483 (002)": [
+   "margin",
+   null
+  ],
+  "new ¶487 (002)": [
+   "margin",
+   null
+  ],
+  "new ¶489 (002)": [
+   "margin",
+   null
+  ],
+  "new ¶491 (002)": [
+   "margin",
+   null
+  ],
+  "new ¶493 (002)": [
+   "other",
+   "annotation de Marie, 1874"
+  ],
+  "002.0216": [
+   "margin",
+   null
+  ],
+  "002.0221": [
+   "margin",
+   null
+  ],
+  "new ¶512 (002)": [
+   "margin",
+   null
+  ],
+  "002.0254": [
+   "margin",
+   null
+  ],
+  "002.0277": [
+   "margin",
+   null
+  ],
+  "new ¶577 (002)": [
+   "margin",
+   null
+  ],
+  "002.0296": [
+   "margin",
+   null
+  ],
+  "002.0304": [
+   "other",
+   "annotation de Marie, 1874"
+  ],
+  "003.0010": [
+   "margin",
+   null
+  ],
+  "003.0015": [
+   "margin",
+   null
+  ],
+  "003.0026": [
+   "margin",
+   null
+  ],
+  "003.0030": [
+   "margin",
+   null
+  ],
+  "003.0035": [
+   "margin",
+   null
+  ],
+  "003.0038": [
+   "margin",
+   null
+  ],
+  "003.0050": [
+   "margin",
+   null
+  ],
+  "003.0064": [
+   "margin",
+   null
+  ],
+  "003.0071": [
+   "margin",
+   null
+  ],
+  "003.0085": [
+   "margin",
+   null
+  ],
+  "003.0101": [
+   "margin",
+   null
+  ],
+  "003.0115": [
+   "margin",
+   null
+  ],
+  "003.0124": [
+   "margin",
+   null
+  ],
+  "003.0126": [
+   "margin",
+   null
+  ],
+  "003.0137": [
+   "margin",
+   null
+  ],
+  "003.0155": [
+   "margin",
+   null
+  ],
+  "003.0173": [
+   "margin",
+   null
+  ],
+  "003.0175": [
+   "margin",
+   null
+  ],
+  "003.0221": [
+   "margin",
+   null
+  ],
+  "003.0224": [
+   "margin",
+   null
+  ],
+  "003.0235": [
+   "margin",
+   null
+  ],
+  "003.0238": [
+   "editorial",
+   null
+  ],
+  "003.0245": [
+   "margin",
+   null
+  ],
+  "003.0252": [
+   "margin",
+   null
+  ],
+  "003.0273": [
+   "margin",
+   null
+  ],
+  "003.0281": [
+   "editorial",
+   null
+  ],
+  "003.0286": [
+   "margin",
+   null
+  ],
+  "003.0314": [
+   "margin",
+   null
+  ],
+  "004.0005": [
+   "margin",
+   null
+  ],
+  "004.0026": [
+   "margin",
+   null
+  ],
+  "004.0050": [
+   "margin",
+   null
+  ],
+  "004.0053": [
+   "margin",
+   null
+  ],
+  "004.0079": [
+   "margin",
+   null
+  ],
+  "004.0129": [
+   "margin",
+   null
+  ],
+  "004.0143": [
+   "margin",
+   null
+  ],
+  "004.0153": [
+   "margin",
+   null
+  ],
+  "004.0166": [
+   "margin",
+   null
+  ],
+  "004.0192": [
+   "margin",
+   null
+  ],
+  "004.0215": [
+   "margin",
+   null
+  ],
+  "new ¶1075 (004)": [
+   "margin",
+   null
+  ],
+  "004.0243": [
+   "margin",
+   "écriture de sa mère ?"
+  ],
+  "004.0278": [
+   "other",
+   "page arrachée"
+  ],
+  "004.0282": [
+   "margin",
+   null
+  ],
+  "004.0345": [
+   "margin",
+   null
+  ],
+  "004.0361": [
+   "margin",
+   null
+  ],
+  "004.0373": [
+   "margin",
+   null
+  ],
+  "004.0374": [
+   "margin",
+   null
+  ],
+  "004.0390": [
+   "margin",
+   null
+  ],
+  "004.0391": [
+   "other",
+   "dernière page du carnet"
+  ],
+  "005.0019": [
+   "margin",
+   null
+  ],
+  "005.0192": [
+   "margin",
+   null
+  ],
+  "new ¶1433 (005)": [
+   "editorial",
+   null
+  ],
+  "005.0235": [
+   "margin",
+   null
+  ],
+  "005.0268": [
+   "margin",
+   "écriture de sa mère ?"
+  ],
+  "005.0271": [
+   "margin",
+   null
+  ],
+  "new ¶1537 (005)": [
+   "editorial",
+   null
+  ],
+  "new ¶1539 (005)": [
+   "margin",
+   "écriture de sa mère"
+  ],
+  "005.0284": [
+   "margin",
+   null
+  ],
+  "006.0038": [
+   "editorial",
+   null
+  ],
+  "006.0049": [
+   "margin",
+   null
+  ],
+  "006.0089": [
+   "margin",
+   "écriture de sa mère ?"
+  ],
+  "006.0114": [
+   "margin",
+   null
+  ],
+  "006.0215": [
+   "margin",
+   null
+  ],
+  "006.0225": [
+   "margin",
+   null
+  ],
+  "007.0022": [
+   "margin",
+   null
+  ],
+  "007.0024": [
+   "margin",
+   null
+  ],
+  "007.0074": [
+   "margin",
+   null
+  ],
+  "007.0116": [
+   "margin",
+   null
+  ],
+  "007.0146": [
+   "margin",
+   null
+  ],
+  "007.0151": [
+   "margin",
+   null
+  ],
+  "007.0277": [
+   "editorial",
+   null
+  ],
+  "007.0336": [
+   "other",
+   "ajouté entre les lignes"
+  ],
+  "007.0353": [
+   "margin",
+   null
+  ],
+  "007.0363": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "007.0370": [
+   "margin",
+   null
+  ],
+  "new ¶2207 (007)": [
+   "editorial",
+   null
+  ],
+  "new ¶2210 (007)": [
+   "editorial",
+   null
+  ],
+  "new ¶2213 (007)": [
+   "editorial",
+   null
+  ],
+  "008.0032": [
+   "margin",
+   null
+  ],
+  "008.0038": [
+   "rayé",
+   null
+  ],
+  "008.0058": [
+   "margin",
+   null
+  ],
+  "008.0127": [
+   "rayé",
+   null
+  ],
+  "new ¶1395 (008)": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "009.0045": [
+   "other",
+   "page intercalée"
+  ],
+  "009.0046": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "009.0107": [
+   "margin",
+   null
+  ],
+  "009.0115": [
+   "margin",
+   null
+  ],
+  "009.0228": [
+   "margin",
+   null
+  ],
+  "009.0233": [
+   "rayé",
+   null
+  ],
+  "009.0259": [
+   "margin",
+   null
+  ],
+  "009.0265": [
+   "margin",
+   null
+  ],
+  "new ¶2717 (009)": [
+   "other",
+   "note sans date"
+  ],
+  "010.0117": [
+   "editorial",
+   null
+  ],
+  "010.0121": [
+   "margin",
+   null
+  ],
+  "010.0132": [
+   "margin",
+   null
+  ],
+  "010.0144": [
+   "margin",
+   null
+  ],
+  "010.0225": [
+   "margin",
+   null
+  ],
+  "010.0275": [
+   "rayé",
+   null
+  ],
+  "010.0288": [
+   "margin",
+   null
+  ],
+  "010.0301": [
+   "editorial",
+   null
+  ],
+  "010.0401": [
+   "rayé",
+   null
+  ],
+  "010.0412": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "011.0037": [
+   "margin",
+   null
+  ],
+  "011.0064": [
+   "margin",
+   null
+  ],
+  "011.0108": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "011.0120": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "011.0126": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "011.0136": [
+   "margin",
+   null
+  ],
+  "011.0149": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "011.0190": [
+   "margin",
+   null
+  ],
+  "011.0242": [
+   "other",
+   "annotation de Marie, 1880"
+  ],
+  "011.0303": [
+   "margin",
+   null
+  ],
+  "011.0312": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "011.0330": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "new ¶5479 (011)": [
+   "margin",
+   null
+  ],
+  "011.0350": [
+   "margin",
+   null
+  ],
+  "011.0362": [
+   "margin",
+   null
+  ],
+  "011.0364": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "011.0367": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "011.0374": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "011.0385": [
+   "rayé",
+   null
+  ],
+  "011.0457": [
+   "margin",
+   null
+  ],
+  "012.0051": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "012.0057": [
+   "margin",
+   null
+  ],
+  "012.0060": [
+   "margin",
+   null
+  ],
+  "012.0072": [
+   "rayé",
+   null
+  ],
+  "012.0288": [
+   "margin",
+   null
+  ],
+  "012.0301": [
+   "margin",
+   null
+  ],
+  "013.0013": [
+   "margin",
+   null
+  ],
+  "013.0124": [
+   "margin",
+   null
+  ],
+  "013.0145": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "013.0188": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "new ¶8285 (013)": [
+   "rayé",
+   null
+  ],
+  "013.0292": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "013.0294": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "013.0305": [
+   "margin",
+   null
+  ],
+  "014.0011": [
+   "margin",
+   null
+  ],
+  "014.0042": [
+   "margin",
+   null
+  ],
+  "014.0077": [
+   "margin",
+   null
+  ],
+  "014.0124": [
+   "other",
+   "annotation de Marie, 1875"
+  ],
+  "014.0133": [
+   "rayé",
+   null
+  ],
+  "014.0155": [
+   "rayé",
+   null
+  ],
+  "014.0280": [
+   "margin",
+   null
+  ],
+  "014.0327": [
+   "margin",
+   null
+  ],
+  "004.0006": [
+   "margin",
+   null
+  ],
+  "001.0002": [
+   "editorial",
+   null
+  ],
+  "001.0003": [
+   "editorial",
+   null
+  ]
+ },
+ "setf": {
+  "001.0001": "# Samedi 11 janvier 1873",
+  "013.0001": "# Vendredi 21 novembre 1873",
+  "010.0155": "# Mercredi 1er octobre 1873",
+  "002.0089": "# Mardi 25 février 1873 (Mardi Gras)",
+  "002.0136": "# Samedi 1er mars 1873 [Marie a mis par erreur 28 février]",
+  "002.0142": "# Dimanche 2 mars 1873 [Marie a mis par erreur 1er mars]",
+  "002.0278": "# Mardi 11 mars 1873 [mois rectifié]",
+  "013.0092": "# Mercredi 26, jeudi 27 novembre 1873",
+  "011.0451": "# Samedi 1er novembre 1873 (suite)",
+  "002.0056": "[Dans la marge: Comme c'est touchant !]",
+  "002.0072": "[Dans la marge: Petite imbécile.]",
+  "002.0111": "[Dans la marge: Je ne comprends pas.]",
+  "002.0006": "[Dans la marge: Trop de aimer, etc.]",
+  "002.0020": "[Dans la marge: Je me croyais donc grande ! J'étais une enfant et je pensais que je pouvais plaire ! Comme c'est bête.]",
+  "002.0041": "[Dans la marge: Fuir, déteste, quels mots ! Miserere !]",
+  "002.0043": "[Dans la marge: Cela me fait plaisir de voir que mes idées ne changent pas. Ici je fais le raisonnement que je viens de faire il y a quelques jours.]",
+  "002.0063": "[Dans la marge: L'année dernière il était en chevalier, casaque et mantille.]",
+  "002.0067": "[Dans la marge: Cette maladresse me rend confuse encore maintenant. Il y a des choses dont on se souvient toujours et qui tourmentent. Vraiment c'était affreux !]",
+  "002.0069": "[Dans la marge: Ces fleurs me tourmenteront toute ma vie, chaque fois que je m'en souviendrai. C'est vrai.]",
+  "002.0079": "[Dans la marge: Stupide ! Je dis là des folies. Boreel aime le monde et y allait comme tous les autres, et pour cela il n'y a pas besoin de dire qu'il me ressemble.]",
+  "002.0081": "[Page intercalée: Cela demande explication. Je sentais tout ce que je dis depuis la marque -(Jamais on ne le voyait pas. On ne voyait que le rouge. Le reste est une folle exagération. J'étais sans doute sous l'influence de quelque pièce de théâtre. Je ne lui ai rien montré et rien *presque dit*. C'est fâcheux de voir combien je m'emportais à dire des bêtises semblables. Si on lira cette explication on n'y croira pas, mais je donne ma parole d'honneur qu'en écrivant les folies de la page 45, je savais que c'étaient des folies. Je les écrivais en me disant qu'un jour ce sera dans quelque livre de rhétorique. Je n'ai rien montré à ce cher homme, heureusement car de la part d'une enfant c'est dégoûtant.Pourquoi ne pas avoir été calme. Je m'en repens. C'est stupide et dégoûtant à lire.]",
+  "002.0084": "[Dans la marge: Juste et bien, écriture de la mère de Marie ?]",
+  "002.0087": "[Dans la marge: Maman était très bien entourée.]",
+  "002.0115": "[Page intercalée: Je ne le disais pas mais à chaque instant je pensais à lui, je m'en rappelle. Je tressaillais à tout bruit qui ressemblait à celui de sa voiture.]",
+  "002.0128": "[Dans la marge: Je me le représente bien, il avait une belle figure naïve, et me plaît comme il était ce jour.]",
+  "002.0138": "[Dans la marge: J'écris sensiblement mieux.]",
+  "002.0145": "[Dans la marge: J'ai embrouillé les dates, j'étais en retard d'un jour.]",
+  "002.0155": "[Dans la marge: Quel élan, mon Dieu !]",
+  "002.0162": "[Dans la marge: Ce serait très amusant.]",
+  "002.0164": "[Dans la marge: C'est trop nu ce que je dis là.]",
+  "002.0167": "[Dans la marge: C'est trop salement moral.]",
+  "002.0171": "[Dans la marge: Tout cela irait bien pour un autre et pas pour cet animal.]",
+  "002.0175": "[Dans la marge: On voit, ma chère, que Boreel n'est pas aussi fiché que tu le crois.]",
+  "002.0177": "[Dans la marge: Mais on l'était, misérable, même alors à côté du duc de Hamilton !]",
+  "002.0191": "[Dans la marge: Un petit sou s.v.p. !!!]",
+  "002.0195": "[Dans la marge: J'oublie de dire que le règne de Boreel était pendant l'hiver dernier et lorsqu'il est arrivé cet hiver je le reçus froidement car depuis l'été j'avais changé d'idée. Je le plains par pitié et rien de plus. Je trouve que je m'occupe trop de Boreel déchu mais vivre sans passion etc. etc. etc. etc.]",
+  "002.0216": "[Dans la marge: Comme je suis stupide et ennuyeuse. Je n'avais sans doute rien à écrire...]",
+  "002.0221": "[Dans la marge: C'est moi qui suis bête ? On est à Monaco.]",
+  "002.0254": "[Dans la marge: C'est vrai, c'est juste.]",
+  "002.0277": "[Dans la marge: Voilà encore ce livre fini, comme j'écris beaucoup !]",
+  "002.0296": "[Dans la marge: Quelle indignation, comparer ce magot à Hamilton !!! C'est ridicule que j'en parle tous les jours.]",
+  "002.0304": "[Annotation: 1874. La fin de ce livre est stupide.]",
+  "002.0024": "Hier j'étais sur le point de croire que j'aime Boreel, [Dans la marge: Voyez-vous ça ! *J'étais sur le point etc.* Et hier je l'admirais comme un ami ! Voilà une tête. C'est que pour mieux prouver j'exagère pour prouver combien Boreel est fiché, je dis des bêtises.] mais aujourd'hui quand je me suis souvenue du moment où le duc de Hamilton était près de moi, quand je me suis souvenue de lui, de sa taille, de sa tournure, de sa large poitrine, de sa voix, je ne puis aimer que lui et je l'aime !",
+  "014.0242": "Gioia était avec son fils, très belle, très belle, seulement ce qui est mauvais c'est qu'elle se promène en landau loué, ça lui va si peu après sa voiture, et cela lui donne un air misérable. Combien fait l*a situation !* [Rayé: fait beaucoup] Tout !",
+  "014.0264": "On commence à se plaindre du mauvais temps; le soleil apparaît pour une heure, on fait un article dans \"Les Echos\" sur cet astre qui donne la lumière etc. Mme Prodgers paraît majestueusement couchée dans sa victoria, le nez en l'air et le chapeau au-delà de la tête, les pieds couverts d'une fourrure d'origine douteuse. Mme la vicomtesse Vigier vient aussi traînée par des dragons impétueux dans une coquille antédiluvienne et regardant les passants d'un air d'une fée qui vient reconquérir ses domaines [Rayé: qu'on lui avait ravis.] Paraît Boreel tout en bleu avec son caniche bien rasé, d'abord à pied, ensuite sur un dog-cab ou autre véhicule fantastique, puis le grand Audiffret qui ne pouvant partir se cachait l'été pour avoir le charme d'un étranger. Enfin, enfin viennent les Falkner, lady Howard avec son mari roux et le gros Merck: trinité indivisible. A cette époque Nice est déjà inondée de cocottes de toutes sortes, et enfin on voit le duc de Hamilton, d'abord paraître à pied, mais il a toujours l'air de voler au-dessus de la terre, à peine quelques minutes reste-t-il debout à parler à quelqu'un qu'il se jette dans sa voiture du diable [Rayé: traînée] emportée par un rat; on le voit peut-être quelquefois devant l'hôtel d'Angleterre, la canne appuyée sur le bout du pied, ou bien avec lady Howard et C° mais toujours passant comme une flèche la promenade, après quoi on voit son splendide char et coursier la tête basse à la porte du n° 77. Vers cinq heures avec Merck emporté ensemble vers ce palais mystérieux, ou encore pendant la pluie en un caoutchouc blanc sans parapluie allumant une cigarette; toujours vers cette demeure. Ou encore avec le petit marquis italien, c'est amusant de voir les deux dos à côté l'un de l'autre. En allant aux courses on le voit dans ce bosquet en cette espèce de terrasse assis avec Laïs (puisqu'il est Alcibiade) et mangeant. Il est assis et il a l'air en l'air et volant comme un trait.",
+  "014.0267": "Se succèdent les bals, les soirées, les concerts, les courses. Sur les tribunes on voit encore les mêmes comtesses de Sapristi, des duchesses de Fiche-ton-Camp et des ducs de Va-nu-pieds. Tous de grande distinction et haute noblesse. On voit le duc de Hamilton monter et descendre boitant avec une canne les degrés des tribunes, sifflant d'un air [Rayé: insouciant] insolent et allant se perdre dans le pesage.",
+  "014.0277": "Walitsky depuis plusieurs jours nous fait rire terriblement en devançant Tormosoff et en disant tous les matins que tantôt ce Serbe a avalé les chemises de nuit, tantôt [Rayé: il a mangé tout le dîner] qu'il a enlevé tous les papiers du cabinet, la dernière fois il rongea une clochette. Et je ne puis plus penser sans rire à ce malheureux Serbe. Solominka avait un bonbon dans la bouche lorsqu'elle lut: *Serbe,* elle s'étouffa presque et resta longtemps suffoquée de rire sans pouvoir dire mot.",
+  "014.0301": "Dans le compartiment il y a trois Anglais poussière, une vieille, nous et un vieux. J'ai expliqué le Tir à Averianoff et j'ai parlé si vite et sans me reposer.",
+  "012.0231": "Lise dit: Mlle Baskirtseff.",
+  "002.0093": "[Dans la marge: Boreel à travers la gaieté du carnaval, galopant, me regardait quand je lui jetai les bouquets, son regard était si bon, si bon, que vraiment on ne peut pas ne pas l'aimer.] [Rayé: il était même ému. Oh ! non c'est mon imagination.]"
+ },
+ "drops": {
+  "001": {
+   "001.0004": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  "002": {},
+  "003": {},
+  "004": {},
+  "005": {},
+  "006": {
+   "006.0001": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "006.0002": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "006.0003": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "006.0004": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "006.0005": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  "007": {},
+  "008": {
+   "008.0105": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0106": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0122": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0123": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0131": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0132": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0149": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0150": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0161": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0162": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0170": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0171": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0179": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0180": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0186": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0187": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0200": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0201": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0213": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0214": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0228": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0229": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0244": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0245": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0257": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0258": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0269": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)",
+   "008.0270": "page-break artefact «|» (no text; the manuscript sentence continues in the next paragraph)"
+  },
+  "009": {},
+  "010": {
+   "010.0149": "truncated duplicate of 010.0152 (docx ¶3294–3295 has the sentence once, under 30 Sept)",
+   "010.0151": "spurious date heading «Mercredi 1 octobre 1873» placed before 30 Sept text; the manuscript heading is 010.0155 (docx ¶3298)",
+   "010.0463": "invented stub: tome02.docx has no 14 October 1873 date line (13 Oct is followed by the Livre 11 title page)",
+   "010.0464": "invented stub «[Pas d'entrée pour cette date]» for a date the manuscript does not have",
+   "010.0465": "entry summary of the invented 14 Oct stub"
+  },
+  "011": {
+   "011.0002": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "011.0446": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "011.0447": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "011.0448": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "011.0449": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "011.0450": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md"
+  },
+  "012": {},
+  "013": {
+   "013.0002": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "013.0003": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "013.0004": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "013.0005": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "013.0006": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "013.0007": "duplicate date heading «Vendredi, 21 novembre 1873»; the day heading stays in 013.0001 (docx ¶7138)"
+  },
+  "014": {
+   "014.0002": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "014.0003": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "014.0004": "title page of the notebook withdrawn (no cover or title-page text until the manuscript is scanned; KRR 2026-09-28); text kept in content/_renumber/001-014 REVIEW.md",
+   "014.0005": "duplicate date heading «Mercredi, 10 décembre 1873»; the day heading stays in 014.0001 (docx ¶8512)"
+  }
+ }
+}
