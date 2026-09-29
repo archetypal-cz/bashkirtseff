@@ -846,7 +846,7 @@ Established terminology for consistent translation across carnets.
 | Mrs Morgan | місіс Морґан | English woman who gifted cairn terrier puppy |
 | Foster / Florence Foster | Фостер / Флоренс Фостер | English family at Nice; Marie's opera companion |
 | Galula | Ґалула | Family notary's representative in Nice (established 028; appears 027) |
-| Markevitch | Марквич | Ukrainian/Russian acquaintance; crystallizes Marie's despair in Dec 1874 |
+| Markevitch | Маркевич | Ukrainian/Russian acquaintance; crystallizes Marie's despair in Dec 1874 |
 | Bariakinsky | Бар'якинський | Compliments Marie as "distinguée" |
 | Maria Alexandrovna | Марія Олександрівна | Russian Empress (wife of Alexander II); tuberculosis reference |
 
