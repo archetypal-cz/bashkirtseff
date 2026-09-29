@@ -1819,7 +1819,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Larderei (comte Alessandro) | Лардереї | CANONICAL. Naples carnival object of obsession; indeclinable (no «Лардереєм»). Rosalie's mangled form «Ladreréel»→«Ладререль» kept as her error |
-| Bijou-bouzouk (Larderei nickname) | Біжу-бузук | Marie's mocking nickname for Larderei (Bijou=trinket + bachi-bouzouk); footnote-free, recurs from 068.1190 |
+| Bijou-bouzouk (Larderei nickname) | Біжу-бузук | Marie's mocking nickname for Larderei (Bijou=trinket + bachi-bouzouk); footnote-free, recurs from 068.1191 |
 | Mirafiore (comte/comtesse de) | Мірафіоре | Larderei's brother-in-law/sister; King's morganatic kin. Rosalie's «Mirafiol»→«Мірафіоль» kept as her error |
 | Antonelli (Pietro/Paolo) | Антонеллі (П'єтро/Паоло) | The broken-engagement scandal centre; Pietro=П'єтро (canonical per TM) |
 | Broussais | Бруссе | Crude Nice doctor-bore living with deaf Pelikan |
@@ -1859,7 +1859,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | traite (de X francs) | вексель | Bill of exchange/promissory note |
 | guignon | зла доля / невезіння | Persistent jinx |
 | coup de pied au derrière | копняк під зад | Crude idiom for humiliation |
-| fini / achevé / complet vs inachevé | завершений / довершений / повний vs незавершений | Marie's character taxonomy (068.0883); independent of intelligence |
+| fini / achevé / complet vs inachevé | завершений / довершений / повний vs незавершений | Marie's character taxonomy (068.0884); independent of intelligence |
 | comme le naufragé s'accroche à un brin de paille | як потопельник хапається за соломинку | Idiom of desperate attachment |
 | faire de trou dans l'eau | бити повітря | Idiom: to strive in vain |
 | vieux style | старого стилю | Julian calendar; footnote |
@@ -1868,7 +1868,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 ### Conventions (Carnet 068)
 - "II" / "I!" — Marie's double-bar emphasis punctuation: preserved as-is.
 - "fichu-" prefix («fichu-père», «fichu-coquin») → «осоружний-/клятий-» (per TM 065 «клятий-»).
-- French acrostic on "ÉMILE" (068.0260-0157) + Girofla Serbia song (068.0267-0163): acrostic kept in French ==highlight==+footnote with Ukrainian gloss (first-letters untranslatable); the comic song rendered as Ukrainian verse (it is Marie's own French joke, not a code-switch).
+- French acrostic on "ÉMILE" (068.0261-0157) + Girofla Serbia song (068.0268-0163): acrostic kept in French ==highlight==+footnote with Ukrainian gloss (first-letters untranslatable); the comic song rendered as Ukrainian verse (it is Marie's own French joke, not a code-switch).
 - Italian code-switches (Pietro reproaches, train-station, fake telegram) and Latin («Culpa mea», «Dubium…») → ==highlight==+footnote.
 - Altamura's mangled French (eou/«еу», «Poua vous serouiar») → phonetic Ukrainian preserving the buffoonery.
 - "dialogue petit-russien" → «малоросійський діалог» (Marie marks family switching to Ukrainian).
@@ -1918,7 +1918,7 @@ Continuation of the father-reunion stay at Gavronci, Poltava social rounds, the 
 
 ## Carnet 067 Additions (Russia → Vienna → Paris → Nice, Oct–Dec 1876)
 
-The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris (Antonelli's death refrain, Pacha farewell, Novosselsky), the Paris political/society interlude (Cassagnac infatuation, the La Motte marriage interview, Alexis the clairvoyant), and arrival in Nice (Skating-rink debut, Maman vs Mme Tutcheff at Monaco). Closes Book with the "І цей хтось — це Я Сама!" self-reliance climax (067.1302).
+The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris (Antonelli's death refrain, Pacha farewell, Novosselsky), the Paris political/society interlude (Cassagnac infatuation, the La Motte marriage interview, Alexis the clairvoyant), and arrival in Nice (Skating-rink debut, Maman vs Mme Tutcheff at Monaco). Closes Book with the "І цей хтось — це Я Сама!" self-reliance climax (067.1303).
 
 ### People & Names (Carnet 067)
 | French | Ukrainian | Notes |
@@ -1943,11 +1943,11 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 ### Period Vocabulary & Idioms (Carnet 067)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch; ==highlight==+footnote on first use (067.1230); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
+| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch; ==highlight==+footnote on first use (067.1231); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
 | fichus-ignorants (Marie's coinage) | кляті-невігласи | per «fichu-»→«клятий-» convention (065/066) |
 | le Goloss (Russian newspaper) | «Голос» | St. Petersburg liberal paper; Russ. голос = voice |
 | Golova / Douma (Russian) | голова / дума | mayor / city-hall; Marie's linguistic aside, gloss kept |
-| dialogue petit-russien | малоросійський діалог | period term for Ukrainian; footnote (per 066/068). The "pelisse/кожух" folk dialogue (067.1111) rendered idiomatically |
+| dialogue petit-russien | малоросійський діалог | period term for Ukrainian; footnote (per 066/068). The "pelisse/кожух" folk dialogue (067.1112) rendered idiomatically |
 | trente-six paquets (idiom) | сила-силенна пакунків | "thirty-six packages" = idiomatic "very many", NOT literal |
 | coq du village | перший півень на селі | "cock of the village" (Audiffret's local dominance) |
 | Un d'Artagnan de lettres | Д'Артаньян від словесності | parliamentary-manual profile of Cassagnac |
@@ -1957,7 +1957,7 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 ### Titles / Works (Carnet 067)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Paul et Virginie (Massé opera / Saint-Pierre novel) | «Поль і Вірджинія» | LOCKED to TM 021 form «Вірджинія» (з дж); RED normalized «Віргінію»→«Вірджинію» 3× this carnet (067.1067/0187/0201). "des airs de Virginie" = acting demure like the heroine |
+| Paul et Virginie (Massé opera / Saint-Pierre novel) | «Поль і Вірджинія» | LOCKED to TM 021 form «Вірджинія» (з дж); RED normalized «Віргінію»→«Вірджинію» 3× this carnet (067.1068/0187/0201). "des airs de Virginie" = acting demure like the heroine |
 | Giroflé-Girofla (Lecocq) | «Жирофле-Жирофля» | opéra-bouffe; "Girofla"→«Жирофля» also Marie's nickname for Audiffret |
 | Un ballo in maschera (Verdi) | «Бал-маскарад» | Verdi opera; rendered as translated title |
 | La Jeunesse du roi Henri (Ponson du Terrail) | «Молодість короля Анрі» | Ponson du Terrail = «Понсон дю Тераль»; Antonelli's seduction-manual |
@@ -1965,9 +1965,9 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 
 ### Code-Switches / Manuscript (Carnet 067)
 - Latin/Italian tags (Via e al diavolo, Chi lo sa?, Est socia mortis homini vita ingloria, Tu quoque?, Agnus Dei) → ==highlight==+footnote (per wave standard).
-- Marie's own FRENCH verses (the "veux savoir l'amour" quatrain 067.1087, the "Partant pour la Serbie" parody 067.1118, the Offenbach Belle-Hélène refrain) → rendered as Ukrainian VERSE (her own jokes, not foreign code-switches).
+- Marie's own FRENCH verses (the "veux savoir l'amour" quatrain 067.1088, the "Partant pour la Serbie" parody 067.1119, the Offenbach Belle-Hélène refrain) → rendered as Ukrainian VERSE (her own jokes, not foreign code-switches).
 - Markers [зачорнені слова:] (Mots noircis), [викреслено:]/[Викреслені слова], [На полях:], [Навскоси:] all preserved.
-- Marie's own misdated double headings on merged entries (e.g. 067.1121 «# Неділя»/«## Субота», 067.1131 «# Понеділок»/«## Неділя») — source-faithful, preserve both.
+- Marie's own misdated double headings on merged entries (e.g. 067.1122 «# Неділя»/«## Субота», 067.1132 «# Понеділок»/«## Неділя») — source-faithful, preserve both.
 - Empty/heading-only entries (10-14 → 11-08 span; heading-less: 10-18-19, 10-21-22, 10-25-26, 10-27-29, 11-02-03) match source emptiness.
 
 - 2026-06-07: Carnet 067 complete (Russia→Vienna→Paris→Nice, Oct–Dec 1876). 17 content + 20 empty entries. (tr-d run)
@@ -2115,19 +2115,19 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 
 ## Carnet 071 Additions (Naples → Florence → Nice, Apr–Jun 1877)
 
-Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (their aristocratic pedigree delights her; she plots to kidnap Larderei's natural daughter Alexandrine, then abandons it); back to Nice for a quiet, ostracism-tinged early summer (Skating rink, Audiffret cold-shoulder, sea baths, name-day, mock-burglary comedy, Russian-ladies' gossip). Larderei attachment fades into the coded Marcuard "à fonds perdus" marriage negotiation and a finished double-portrait. Early TB symptom (blood while singing, 071.0375). Book closes on San Cesario's suicide.
+Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (their aristocratic pedigree delights her; she plots to kidnap Larderei's natural daughter Alexandrine, then abandons it); back to Nice for a quiet, ostracism-tinged early summer (Skating rink, Audiffret cold-shoulder, sea baths, name-day, mock-burglary comedy, Russian-ladies' gossip). Larderei attachment fades into the coded Marcuard "à fonds perdus" marriage negotiation and a finished double-portrait. Early TB symptom (blood while singing, 071.0377). Book closes on San Cesario's suicide.
 
 ### KEY NAMING LOCK (Carnet 071) — Alexandre = Larderei
-- Throughout 071, Marie's running code-name **«Alexandre» = LARDEREI** (his Italian given name Alessandro), NOT the uncle. The uncle does NOT appear in this carnet at all. Per the CON/team-lead disambiguation established in carnet 070, ALL 071 «Alexandre» → **«Алессандро» (INDECLINABLE)** — kept lexically distinct from the uncle's locked «Олександр». 0 «Олександр» in 071 body (the lone «Олександр» is inside a TR note explaining the lock). Daughter **Alexandrine → «Александріна»** (declinable fem. -а noun: Александріну etc.), NOT «Олександрина». Baby-naming wish (071.0546) → «Алессандро або Александріна».
+- Throughout 071, Marie's running code-name **«Alexandre» = LARDEREI** (his Italian given name Alessandro), NOT the uncle. The uncle does NOT appear in this carnet at all. Per the CON/team-lead disambiguation established in carnet 070, ALL 071 «Alexandre» → **«Алессандро» (INDECLINABLE)** — kept lexically distinct from the uncle's locked «Олександр». 0 «Олександр» in 071 body (the lone «Олександр» is inside a TR note explaining the lock). Daughter **Alexandrine → «Александріна»** (declinable fem. -а noun: Александріну etc.), NOT «Олександрина». Baby-naming wish (071.0548) → «Алессандро або Александріна».
 
 ### People & Nicknames (Carnet 071)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Larderei (comte Alessandro) | Лардереї | CANONICAL, INDECLINABLE (per 068/070). 24 occurrences, 0 declined drift |
 | Alexandre (= Larderei code-name) | Алессандро | INDECLINABLE (see LOCK above); ~30 occurrences |
-| le Florentin (Larderei epithet) | Флорентинець | dismissive epithet (071.0499/0286); Marie equates it with «нікчема/фертик/навіжений» |
+| le Florentin (Larderei epithet) | Флорентинець | dismissive epithet (071.0501/0286); Marie equates it with «нікчема/фертик/навіжений» |
 | Silène (Larderei code-name) | Сілен | from Sorrento hotel «Sirène» pun (per 070); "la fille de Silène"→«доньку Сілена» |
-| Bijou (Larderei nickname) | Біжу | per 068/070; «Біжу покинув Відень» (071.0532) |
+| Bijou (Larderei nickname) | Біжу | per 068/070; «Біжу покинув Відень» (071.0534) |
 | Alexandrine (Larderei's daughter) | Александріна | declinable fem.; per 070 LOCK |
 | la Righi | Ріґі | Larderei's mistress (per 068/070); indeclinable |
 | Mme de Larderei / la vieille comtesse | пані де Лардереї / стара графиня | Larderei's mother; Marie idolizes her |
@@ -2136,7 +2136,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | Marcuard (F. de) | Маркуар | Swiss go-between (per 070); delivers the «à fonds perdus» proposal |
 | Melissano (prince) | Меліссано | Naples cavalier; Marie paints his portrait (per 070) |
 | Doenhoff / Campomarino / Carmignano / Nasimoff / Caracciolo / Schettino | Денгоф / Кампомаріно / Карміньяно / Насимов / Караччоло / Шеттіно | Naples farewell circle (per 070) |
-| Buonocore | Буонокоре | Naples usurer; "buono" heart-pun in the double portrait (071.0617) |
+| Buonocore | Буонокоре | Naples usurer; "buono" heart-pun in the double portrait (071.0619) |
 | Emile d'Audiffret | Одіффре | Nice ex-suitor cold-shouldered (per earlier TM); also «Emile» (the Audiffret nephew) → «Еміль» |
 | Vigier (Sophie Cruvelli) | Віж'є (Софі Крювеллі) | aged ex-opera diva at the Skating; per TM 001 vicomtesse Vigier |
 | Laurenti (comte) | Лоренті | Nice cavalier "ressuscité des morts" |
@@ -2151,7 +2151,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | Rosalie | Розалі | maid-confidante (per 068/070) |
 | Savitch / Romanoff | Савич / Романови | aunt's cousin via the Romanoffs |
 | Gordigiani | Ґордіджані | Florentine portraitist (painted Queen Victoria); encourages Marie |
-| Bouldakoff / Closet / Chaussade / Boutowsky | Булдакова / Клозе / Шоссад / Бутовська | Russian-ladies water-closet pun cast (071.0597-0307) |
+| Bouldakoff / Closet / Chaussade / Boutowsky | Булдакова / Клозе / Шоссад / Бутовська | Russian-ladies water-closet pun cast (071.0599-0307) |
 | Antonelli (Paul) | Антонеллі (Поль) | recurring Rome ghost (per 067/068) |
 | prince Humbert | принц Умберто | Crown Prince Umberto of Italy (Villa Borghese memory) |
 | Catherine Segurana | Катерина Сеґурана | legendary Nice heroine of 1543 siege; footnote |
@@ -2161,42 +2161,42 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | mon empereur (address to diary) | мій імператоре | Marie's address to her journal (per 070) |
-| à fonds perdus | без вороття | KEY coded phrase = dowry/marriage settlement (071.0290); footnote |
+| à fonds perdus | без вороття | KEY coded phrase = dowry/marriage settlement (071.0292); footnote |
 | rente / rentes d'État | річний прибуток / державні облігації | the Marcuard finance negotiation |
-| l'enfant prodigue | блудний син | biblical (071.0284) |
+| l'enfant prodigue | блудний син | biblical (071.0286) |
 | comme cloué | мов прибите | Russ. expression for definitive statement (Marie flags "as they say in Russia") |
 | victoria / victoria de remise | вікторія / найнята вікторія | light carriage; "de remise"=rented (status marker) |
 | velours frappé | тиснений оксамит | luxury fabric |
-| toqué / s'est rangé | навіжений / остепенився | per TM 021; Audiffret-Larderei dialogue (071.0347-0127) |
-| dégommée | скиснути | colloquial "deflated/crushed" (071.0160) |
+| toqué / s'est rangé | навіжений / остепенився | per TM 021; Audiffret-Larderei dialogue (071.0349-0127) |
+| dégommée | скиснути | colloquial "deflated/crushed" (071.0162) |
 | à l'Espagnole | по-іспанському | window-courtship without introduction; footnote |
 | palazzo / camera obscura | *palazzo* / *camera obscura* | Italian/Latin kept italic + footnote |
 | Veglione | ==veglione== | carnival masked ball (per 068); ==highlight==+footnote |
-| Skating / Skating-rink | ==Skating== | English code-switch (per 067/068/070); ==highlight==; footnote on 1st use (071.0015) |
+| Skating / Skating-rink | ==Skating== | English code-switch (per 067/068/070); ==highlight==; footnote on 1st use (071.0017) |
 | comprenette | кебета | slang for wits/intelligence |
-| sérail / ennuque | сераль / євнух | harem joke (071.0539) |
+| sérail / ennuque | сераль / євнух | harem joke (071.0541) |
 | la queue basse | з опущеним хвостом | per TM 019 |
 | poteau d'infamie | ганебний стовп | idiom of humiliation |
-| Buon Diou dé Diou | ==Buon Diou dé Diou== | Niçois dialect oath (071.0579); ==highlight==+footnote |
+| Buon Diou dé Diou | ==Buon Diou dé Diou== | Niçois dialect oath (071.0581); ==highlight==+footnote |
 | Rossignol (Nice festival) | ==Rossignol== | Nice lantern street-festival; ==highlight==+footnote |
 | Directoire (style) | у стилі Директорії | 1795–99 neoclassical fashion; footnote |
 | en bédouin | у бедуїнці | hooded informal robe; footnote |
 | water-closet (pun) | ==water-closet== | English; the Closet/Chaussade name-pun; ==highlight==+footnote |
-| l'hymen | подружній вінець | poetic "marriage" (071.0564) |
+| l'hymen | подружній вінець | poetic "marriage" (071.0566) |
 | sciences naturelles... en pratique | природничі науки... на практиці | ironic sexual euphemism |
-| pendant (portrait) | парний портрет | companion-piece portrait (071.0425/0270) |
+| pendant (portrait) | парний портрет | companion-piece portrait (071.0427/0270) |
 
 ### Code-Switches / Verse / Manuscript (Carnet 071)
-- Dante Inferno V quotation (071.0617) → kept ITALIAN ==highlight==+footnote with UK gloss («Учителю, хто ті...»).
-- Marie's OWN French verses (the Marcuard rhymed note 071.0490-0213; the "Malborough" song line 071.0533) → rendered as UK VERSE with rhyme (her own jokes, not foreign code-switches), per 067/068 convention.
-- Marie's signature "Marie Bachkirseff" (071.0492, her own missing-t French slip for Bachkirtseff) → surname LOCKED to «Башкирцева» (з ц і и, NOT «Башкирсева» — the slip is invisible in Cyrillic; surname-lock wins per CON, same lock that drifted in 068), her French error documented in a TR note.
-- "Belle-de-jour" (071.0470) = a Nice "inspecteur des chiens", a DIFFERENT person — NOT the Audiffret nickname «Красень-Денний» (TM line 74). Rendered as the ironic moniker «Бель-де-Жур» + footnote, kept distinct from Audiffret (per CON).
-- Lise's "р"-impediment skip-rope sentence "Les touas camaouades Laoudéel" (071.0539) → UK phonetic imitation of the defect «Тві товаливі Лалделеї» (р→л/в), TR-noted, preserving the buffoonery.
-- "*sevinze*" (071.0587) — obscure word (poss. dialect, ~"pretends") kept italic + [sic].
-- "*avait crevé*" (071.0450) → «*подох*» (deliberately coarse, Marie on her "idol"); italic kept.
-- Manuscript markers all preserved: [Навскоси:] (En travers, 071.0370), [На полях:] (Dans la marge, 071.0422/0250), [Зачорнені слова:] (Mots noircis, 071.0414), [один рядок закреслено]/[Два рядки закреслено] (lignes cancellées, 071.0478/0249), [sic] for Marie's errors ("ouit", "c'et", "sevinze").
+- Dante Inferno V quotation (071.0619) → kept ITALIAN ==highlight==+footnote with UK gloss («Учителю, хто ті...»).
+- Marie's OWN French verses (the Marcuard rhymed note 071.0492-0213; the "Malborough" song line 071.0535) → rendered as UK VERSE with rhyme (her own jokes, not foreign code-switches), per 067/068 convention.
+- Marie's signature "Marie Bachkirseff" (071.0494, her own missing-t French slip for Bachkirtseff) → surname LOCKED to «Башкирцева» (з ц і и, NOT «Башкирсева» — the slip is invisible in Cyrillic; surname-lock wins per CON, same lock that drifted in 068), her French error documented in a TR note.
+- "Belle-de-jour" (071.0472) = a Nice "inspecteur des chiens", a DIFFERENT person — NOT the Audiffret nickname «Красень-Денний» (TM line 74). Rendered as the ironic moniker «Бель-де-Жур» + footnote, kept distinct from Audiffret (per CON).
+- Lise's "р"-impediment skip-rope sentence "Les touas camaouades Laoudéel" (071.0541) → UK phonetic imitation of the defect «Тві товаливі Лалделеї» (р→л/в), TR-noted, preserving the buffoonery.
+- "*sevinze*" (071.0589) — obscure word (poss. dialect, ~"pretends") kept italic + [sic].
+- "*avait crevé*" (071.0452) → «*подох*» (deliberately coarse, Marie on her "idol"); italic kept.
+- Manuscript markers all preserved: [Навскоси:] (En travers, 071.0372), [На полях:] (Dans la marge, 071.0424/0250), [Зачорнені слова:] (Mots noircis, 071.0416), [один рядок закреслено]/[Два рядки закреслено] (lignes cancellées, 071.0480/0249), [sic] for Marie's errors ("ouit", "c'et", "sevinze").
 - Heading convention: each entry shows the French heading in a %% comment then the UK heading as visible text (per project format).
-- Empty trailing para-end markers (071.0585, 071.0592, 071.0609, 071.0616, 071.0624) carried over with no body (match source).
+- Empty trailing para-end markers (071.0587, 071.0594, 071.0611, 071.0618, 071.0626) carried over with no body (match source).
 
 - 2026-06-07: Carnet 071 complete (Naples→Florence→Nice, Apr–Jun 1877). 26 entries, 326 paragraphs, all content. Alexandre=Larderei→«Алессандро» (indeclinable) per 070 LOCK (0 uncle «Олександр» in body); Alexandrine→«Александріна»; Larderei→«Лардереї»/Florentin→«Флорентинець»/Silène→«Сілен»/Bijou→«Біжу». "à fonds perdus"→«без вороття»; Dante Inferno V + Niçois/English code-switches kept w/ footnotes; Marie's verses rendered as UK verse; Lise's "р"-defect phonetically imitated. Manual structural checks pass (all glossary links use ../../_original/_glossary/ — 0 short-path drift; all footnote markers paired; YAML frontmatter preserved on all 26; no Cyrillic/Latin contamination; 0 Russianisms). (tr-b run)
 
