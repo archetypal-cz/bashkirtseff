@@ -784,3 +784,21 @@ test('a stale README «Paragraph range» follows the new numbering instead of fa
     fs.rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('IDs cited in a new paragraph\'s RSR text are renumbered like every other reference', () => {
+  const root = makeRepo();
+  try {
+    const plan: Plan = JSON.parse(JSON.stringify(MOVE_PLAN));
+    plan.entries[1].paragraphs[2].new!.rsr = 'Continues 099.0003 (moved here); see also 099.0005.';
+    const planPath = path.join(root, 'plan.json');
+    fs.writeFileSync(planPath, JSON.stringify(plan));
+    const wr = run(root, '099', planPath, '--write');
+    assert.equal(wr.code, 0, wr.out);
+    // 099.0003 → 099.0004 (moved after 0004), 099.0005 → 099.0006
+    for (const tree of ['_original', 'cz']) {
+      assert.match(read(root, `content/${tree}/099/1880-01-02.md`), /RSR: Continues 099\.0004 \(moved here\); see also 099\.0006\./, tree);
+    }
+  } finally {
+    fs.rmSync(root, { recursive: true, force: true });
+  }
+});

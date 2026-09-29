@@ -992,7 +992,9 @@ export function rebuildTree(tree: CarnetTree, ctx: RebuildContext): TreeResult {
     for (const newId of ids) {
       const pp = mapping.planParaOfNewId.get(newId);
       if (pp?.new) {
-        parts.push({ origin: '(new)', lines: withPending(newId, isOrig ? newOriginalCluster(newId, pp.new, ts) : newTranslationCluster(newId, pp.new, ts, tree.lang, frVisible)) });
+        // IDs the plan's RSR text cites are old IDs, renumbered like every other reference
+        const np = { ...pp.new, rsr: rewrite(pp.new.rsr).text };
+        parts.push({ origin: '(new)', lines: withPending(newId, isOrig ? newOriginalCluster(newId, np, ts) : newTranslationCluster(newId, np, ts, tree.lang, frVisible)) });
         lastOrigin = null;
         continue;
       }
