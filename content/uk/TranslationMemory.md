@@ -506,8 +506,8 @@ Established terminology for consistent translation across carnets.
 | Macainne | Макен | English family at Spa |
 | chevalier de Neufarge | шевальє де Нефарж | Bastard son of Russian prince, adventurer type |
 | comte Merjeewsky | граф Мержевський | Young Polish count, finishing doctorate; flirts with Marie |
-| Marquise Viviani | маркіза Ів'яні | Spa hostess; marquis Italian-style |
-| Viviani | Ів'яні | Short form — consistent transliteration |
+| Marquise Viviani | маркіза Вівіані | Spa hostess; marquis Italian-style |
+| Viviani | Вівіані | locked 2026-09-29 wave-uk (NOT Ів'яні / Вів'яні) |
 | Mme de Mouzay | мадам де Музе | Woman who praised Marie to Kirch |
 | Wheelwright | Вілрайт | English horseman with broken bones; Gambart guest |
 | Body | Боді | Local man at Gambart's |
