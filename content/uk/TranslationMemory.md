@@ -2080,7 +2080,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 | Princesse Gerace | княгиня Джераче | Francesco's mother |
 | Pascarola (marquis) | Паскарола | Embeds a marriage proposal in "réflexions philosophiques" (070.0913) |
 | Santasiglia (marquis) | Сантасілья | 19-yo "amoureux comme Chérubin"; copies Dante's Vita Nuova sonnet |
-| Zunica / Porcinari / Caracciolo / Campomarino / Melito / Carmignano | Зуніка / Порчінарі / Каракчоло / Кампомаріно / Меліто / Карміньяно | Naples cavalier circle |
+| Zunica / Porcinari / Caracciolo / Campomarino / Melito / Carmignano | Дзуніка / Порчінарі / Каракчоло / Кампомаріно / Меліто / Карміньяно | Naples cavalier circle |
 | Roi (Vittorio Emanuele II) | Король | praises Marie "elle est excessivement jolie"; "resta découvert"→лишається з непокритою головою |
 | Rosalie | Розалі | Marie's maid-confidante (per 068); elided street-speech → colloquial UK register |
 | Hamontoff (Mme/Olga) | Гамонтова / Гамонтови | Russian Naples acquaintance |
