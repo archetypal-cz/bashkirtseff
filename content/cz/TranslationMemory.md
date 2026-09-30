@@ -286,7 +286,7 @@ These override older per-carnet entries below where they conflict.
 - Notes: Keep with Czech ending -án; Marie uses it frequently from carnet 016 onwards
 
 ### le Bec amoureux / le Bec
-- Translation (Czech): Zamilovaná Huba / Huba
+- Translation (Czech): **Le Bec** (Ruling 2026-09-29, KRR: the nickname stays French; first occurrence 016.0063 glossed „zamilovaný zobák (*le Bec amoureux*)“); formerly „Zamilovaná Huba / Huba“ — superseded
 - Context: Marie's cruel nickname for the Labanoff girl (wide mouth); quasi-proper name
 - First appearance: 016 (1874-01-27)
 - Notes: Capitalized as a nickname; feminine in Czech
@@ -1747,7 +1747,7 @@ These override older per-carnet entries below where they conflict.
 - Within 018, CON aligned individual names to whichever form the rest of the corpus already used: Tutčev → Tutcheff, Aplečejev → Apletcheieff, Walitsky → Walitský, and the hybrid Zaïtčenko (French diaeresis + Czech háček) → Zajčenko.
 - A corpus-wide rule needs a maintainer decision; do not normalise one way on a single carnet's authority.
 
-### le Bec → Huba (running text), also carnet 018
+### le Bec → Huba (running text), also carnet 018 — SUPERSEDED 2026-09-29 (KRR: „Le Bec“ stays)
 - Translation (Czech): Huba / Zamilovaná Huba — see the carnet 016 entry above.
 - Ruling (2026-09-07, CON): carnet 018 had left three occurrences untranslated as "Le Bec" (1874-04-09, 04-11, 04-13), the only three in the whole Czech corpus; carnets 016 and 017 use Huba throughout. Aligned to Huba.
 - Exception: 018.0035 (1874-03-28), where Marie transfers the nickname to Lambertye's nose ("se casse son Bec amoureux, voilà un vrai Bec"), keeps **zobák/zobáček** — "huba" is a mouth and will not do for a nose.
