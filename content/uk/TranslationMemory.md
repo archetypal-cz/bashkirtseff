@@ -218,7 +218,7 @@ Established terminology for consistent translation across carnets.
 | Stiopa | Стьопа | Violent husband of Machenka |
 | Machenka | Маченька | Stiopa's wife |
 | Anitchkoff/Mme Anitchkoff | Анічков/пані Анічкова | Russian family in Nice |
-| Le Bec | Дзьоб | Marie's nickname for a woman (from "bec" = beak) |
+| Le Bec | Ле Бек (transliterated; owner ruling 2026-09-29, NOT Дзьоб) | Marie's nickname for a woman (from "bec" = beak) |
 | Rosalie | Розалі | Wittgenstein's mistress |
 | Fedoroff | Федоров | Russian who dies of aneurysm |
 | Tchernichoff | Чернічов | Man with sinister past (first wife poisoned) |
@@ -1525,7 +1525,7 @@ Established terminology for consistent translation across carnets.
 | cocottes | кокотки | Kept women (established 018) |
 | diseuse de bonne aventure | ворожка | Fortune-teller |
 | l'Eternel (for Hamilton) | Вічний | Marie's reverent epithet for the Duke |
-| Bigre! | Хай йому грець! | Mild expletive |
+| Bigre! | *Bigre!* (kept in French, italics; owner ruling 2026-09-29) | Mild expletive |
 | Il ne manquait plus que cela! | Тільки цього ще бракувало! | "That was the last thing I needed!" |
 | accaparer | прибрати до рук | Monopolize (stronger than modern) |
 | sale monde | простолюд | Low-class people (pejorative) |
@@ -1811,7 +1811,7 @@ Marie travels from the Tarnovsky estate to her father's estate at Gavronci and t
 | se tenait à quatre | зі шкури пнувся, аби | Idiom: restrained himself with effort |
 | jeter des pierres dans le jardin de qqn | пускати шпильки на чиюсь адресу | Idiom: make veiled jabs — NOT literal "stones in garden" |
 | comme des nègres (period idiom) | мов невільники | Period racially-charged idiom for tireless service; rendered «мов невільники» to keep sense without modern slur; TR note flags period register |
-| Bigre ! | Хай йому грець! | Mild period expletive |
+| Bigre ! | *Bigre!* (kept in French, italics; owner ruling 2026-09-29) | Mild period expletive |
 | fichu-père / fichu-lecteurs (Marie's quirk) | клятий-батько / кляті-читачі | Playful "fichu-" prefix kept as «клятий-» |
 | petit crevé | фітюлька-чепурун | 1870s slang for affected dandy |
 | sellette (jeu) | гарячий стілець | Parlor-game "hot seat" |
