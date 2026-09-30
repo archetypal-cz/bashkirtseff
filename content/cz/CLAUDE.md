@@ -270,27 +270,18 @@ Toto je text s poznámkou pod čarou[^01.01.1].
 
 ### Anglické pasáže v originále
 
-Marie často přepíná do angličtiny — celé dialogy, jednotlivá slova i delší pasáže. V českém překladu tyto pasáže překládáme do češtiny (jako zbytek textu) a přidáváme poznámku překladatele s původním anglickým zněním:
+**Rozhodnutí KRR 2026-09-29:** Mariina anglická slova a pasáže zůstávají v textu anglicky, označené `==…==`. Poznámku překladatele s českým významem přidáváme jen tam, kde by českému čtenáři slovo nebylo srozumitelné:
 
 ```markdown
-– Je ženatý od včerejška.[^14.25.1]
+...byl ==bribed==[^09.05.1] a celá věc...
 
-[^14.25.1]: Pozn. překl.: V originále anglicky: „He is married since yesterday."
-```
-
-Pro jednotlivá anglická slova vložená do francouzského textu přidáváme i český ekvivalent:
-
-```markdown
-...byl podplacený[^09.05.1] a celá věc...
-
-[^09.05.1]: Pozn. překl.: V originále anglicky: „bribed" — podplatil, uplácení.
+[^09.05.1]: Pozn. překl.: Angl. „podplacený“.
 ```
 
 Důležité zásady:
-- V textu je vždy český překlad, nikdy anglický originál
-- Poznámka vždy začíná `Pozn. překl.: V originále anglicky:`
-- Anglický originál uvádíme v českých uvozovkách: „text"
-- U jednotlivých slov přidáváme stručné vysvětlení za pomlčkou
+- V textu zůstává anglický originál v `==…==` (nahrazuje dřívější pravidlo „v textu vždy český překlad“).
+- Poznámka jen tam, kde je potřeba: `Pozn. překl.: Angl. „…“`.
+- Pasáže, které Marie psala rusky, mají vlastní konvenci (`content/CLAUDE.md`).
 
 ### Interpunkce
 

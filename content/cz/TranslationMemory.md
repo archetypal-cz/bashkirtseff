@@ -22,6 +22,24 @@ When translating, refer to this document for established translations of recurri
 - Notes: [any additional information about translation choices]
 ```
 
+## Rulings 2026-09-30 (post-rebuild wave; owner KRR rulings + lead delegation to wave-cz)
+
+These override older per-carnet entries below where they conflict.
+
+- **Marie's English words** (Ruling 2026-09-29, KRR): stay in English in the text as `==word==`; a „Pozn. překl.“ footnote with the Czech meaning only where a Czech reader would not understand the word. (Replaces the earlier rule "Czech in the text, English in the footnote".)
+- **«Bigre !» / «Bigre de bigre !»** (Ruling 2026-09-29, KRR, all languages): stays French, in italics: *Bigre!* / *Bigre de bigre!*. The older „U sta hromů“ entries for Bigre are superseded; *Parbleu* keeps „U sta hromů“, *Sapristi* keeps „U všech rohatých“.
+- **Names follow Marie's French spelling per occurrence** (Ruling 2026-09-29, KRR, all languages): where she writes «Audiffer», the Czech keeps Audiffer (declined: Audiffera…); never normalise to Audiffret. Labanoff's daughter's nickname stays „Le Bec“.
+- **Berthe** (Ruling 2026-09-30, lead→wave-cz): „Berthe“, undeclined (majority 344 vs 7 declined forms). Boyd: „Berthe Boydová“.
+- **Sapogenikoff** (Ruling 2026-09-30): stem „Sapogenikoff-“ with Czech endings: paní Sapogenikoffová, Sapogenikoffovi, u Sapogenikoffových, se Sapogenikoffovými (majority 156 vs Sapogenikov- 72, Sapožen- 19).
+- **Niçois (inhabitants of Nice)** (Ruling 2026-09-30): „Nicejec / Nicejci / Nicejka / Nicejky“, adj. „nicejský“ (majority Nicej[ec] 45 vs Niçan 37, Nicejan 16, Nicejčan 14, Niçois 13).
+- **Mlle Collignon** (Ruling 2026-09-30): „slečna Collignon“, undeclined (majority 323 vs Collignonov- 83); replaces the older „Collignonová“.
+- **Stiopa** (Ruling 2026-09-30): „Stiopa“ (91 vs Sťopa 10).
+- **Romanoff** (Ruling 2026-09-30): „Romanoff“ (40 vs Romanov 25), as Marie spells it.
+- **Marguerite** (Ruling 2026-09-30): „Markéta“ (58 vs Marguerite 25).
+- **le pesage** (Ruling 2026-09-30): „vážírna“ (TM entry + majority 7 vs vážnice 4).
+- **Struck text label** (Ruling 2026-09-30): „[Škrtnuto: …]“ with a capital Š (774 vs 27 lowercase).
+- **God's pronouns**: Ty, Tě, Ti, Tobě, Tvůj — capitalised (cz/CLAUDE.md), including carnets 001–015.
+
 ## People
 
 ### Maman
