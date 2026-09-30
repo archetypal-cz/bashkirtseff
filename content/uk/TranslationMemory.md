@@ -729,7 +729,7 @@ Established terminology for consistent translation across carnets.
 |--------|-----------|-------|
 | Sir Frederic Johnstone (= M. Olliver) | сер Фредерік Джонстон | English baronet (actually M. Olliver per marginal note) |
 | de Gonzales | де Ґонсалес | Spanish acquaintance; phonetic accent in speech |
-| Miloradovitch | Мілорадович | Russian noble family; potential match for Marie |
+| Miloradovitch | Милорадович | Russian noble family; potential match for Marie |
 | Brunet | Брюне | Marie's Latin tutor in Nice  (locked 2026-09-29 wave-uk: Брюне, tree majority; NOT Бруне) |
 | de Neujean | де Нежан | Belgian acquaintance from Spa; at Monte-Carlo |
 | d'Aspremont | д'Аспремон | Nice Carnival committee figure |
@@ -1123,7 +1123,7 @@ Established terminology for consistent translation across carnets.
 | Malzoff | Мальцов | Old "richard" (moneybags) who eyes Marie |
 | Rickard | Рікар | English friend; leaves Nice; source of gossip |
 | Johnstone | Джонстон | "le diable" — man Marie is interested in; rumored married |
-| Miloradovitch / Gritsia | Мілорадович / Гриця | Russian suitor (the "fatalité"); typhoid in Odessa; Гриця = dim. of Grigory |
+| Miloradovitch / Gritsia | Милорадович / Гриця | Russian suitor (the "fatalité"); typhoid in Odessa; Гриця = dim. of Grigory |
 | Leclerc | Леклерк | Chemistry/physics tutor (established 028) |
 | Laussel | Лосель | Marie's dentist in Nice (NOT the art teacher of 030) |
 | Yourkoff | Юрков | Brings strawberries; named "chambellan" in fantasy court |
@@ -1204,7 +1204,7 @@ Established terminology for consistent translation across carnets.
 | Collignon | Коліньйон | French governess (established earlier carnets) |
 | Ange (cocher) | Анж (візник) | Former family coachman who recognizes the disguised girls |
 | Nina | Ніна | Young companion, ringleader of pranks |
-| Miloradovitch (le jeune) | молодий Мілорадович | Suitor Marie fears she'll be made to "subir"; noble but not Court-rank |
+| Miloradovitch (le jeune) | молодий Милорадович | Suitor Marie fears she'll be made to "subir"; noble but not Court-rank |
 | Prater (le chien) | Пратер (пес) | Marie's dog she teasingly calls "Girofla" |
 | Ravel | Равель | Comic actor at the Nice French Theatre; "sourires de singe" |
 
