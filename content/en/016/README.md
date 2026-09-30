@@ -31,7 +31,7 @@
 ## Foreign Language Passages
 
 Extensive multilingual code-switching throughout:
-- **English**: "up and down," "policemen," "closely," "drives," "a perfect," "besides," "waterproof," "upstairs," "put down," extended passage about the Beak and iron mask (Feb 16)
+- **English**: "up and down," "policemen," "closely," "drives," "a perfect," "besides," "waterproof," "upstairs," "put down," extended passage about Le Bec and iron mask (Feb 16)
 - **Italian**: "in fretta" (in haste), "veglione" (masked ball)
 - **Latin**: "semel licit in anno insanire" (once a year it is permitted to go mad), "pulchra" (beautiful woman)
 - **Russian**: "moujik" (peasant), "kvass" (fermented drink)

@@ -786,7 +786,8 @@ When Marie writes in Italian/Russian:
 ## People (from Carnet 003)
 
 ### Audiffret
-- Translation: Audiffret
+- Translation: Audiffret — but Marie's «Audiffer» is kept as «Audiffer» wherever she writes it
+- Ruling (2026-09-29, owner): follow the French per occurrence — «Audiffer» → Audiffer, «Audiffret»/«d'Audiffret» → Audiffret; never normalise one to the other. Nicknames (Girofla, Terffidua, Bibi, Soroka) unaffected; footnotes explaining the name may use Audiffret.
 - Context: Young aristocrat in Nice who imitates the Duke
 - Notes: Marie watches him fall under Gioia's influence with pity
 
@@ -2850,7 +2851,8 @@ When Marie writes in Italian/Russian:
 ## People (from Carnet 024)
 
 ### Audiffret
-- Translation: Audiffret
+- Translation: Audiffret — but Marie's «Audiffer» is kept as «Audiffer» wherever she writes it
+- Ruling (2026-09-29, owner): follow the French per occurrence (see the Carnet 003 entry above).
 - Context: Man who makes Marie blush involuntarily; she is disgusted by this reaction
 - Notes: Carnet 024 Oct 6+; recurring presence; imitates Hamilton; Marie writes satirical poem about him
 
@@ -3341,6 +3343,7 @@ When Marie writes in Italian/Russian:
 - Translation: *Bigre de bigre!* (keep French, italicized)
 - Context: Mild French exclamation of surprise; Marie uses it when Audiffret appears unexpectedly at the Italian theater
 - Notes: Carnet 049 Nov 12; no English equivalent conveys the period register; keep French with footnote if needed
+- Ruling (2026-09-29, owner): *Bigre!* / *Bigre de bigre!* / *bigre* always kept in French, italic, untranslated (Girofla's catchword) — see the «Bigre» entry below
 
 ### piarle (transcription error)
 - Translation: [I speak] (correct silently in translation)
@@ -3961,9 +3964,15 @@ When Marie writes in Italian/Russian:
 - Notes: "dandy" in most contexts; "the fashionable set" for *la gomme* collectively; Marie explains etymology (transparency) in the 23 August entry
 
 ### Bigre
-- Translation: Confound it! / Dash it!
+- Translation: *Bigre!* (keep French, italic, untranslated; same shape as the French: *Bigre!*, *Bigre de bigre!*, *bigre*)
+- Ruling (2026-09-29, owner): «Bigre!» is Girofla's catchword and stays *Bigre!* — never "Confound it", "Dash it", "Good heavens", "Gad", etc.
 - Context: Mild expletive, euphemism for *bon Dieu*; Marie uses it in frustration
-- Notes: "Confound it" captures the mild, old-fashioned register
+- Notes: The adverb «bigrement» is not covered by this ruling and may be translated ("confoundedly", "terribly")
+
+### Le Bec
+- Translation: Le Bec (French, as a proper name; possessive "Le Bec's") — never "the Beak" / "the Bec"
+- Ruling (2026-09-29, owner): Locked.
+- Context: Marie's nickname for Princess Labanoff's daughter (Nice, carnets 016–023); the French «il» agrees with the masculine nickname, but English pronouns are she/her
 
 ### fichu (as prefix)
 - Translation: wretched / blasted
