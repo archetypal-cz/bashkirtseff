@@ -1967,7 +1967,7 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Paul et Virginie (Massé opera / Saint-Pierre novel) | «Поль і Вірджинія» | LOCKED to TM 021 form «Вірджинія» (з дж); RED normalized «Віргінію»→«Вірджинію» 3× this carnet (067.1068/0187/0201). "des airs de Virginie" = acting demure like the heroine |
-| Giroflé-Girofla (Lecocq) | «Жирофле-Жирофля» | opéra-bouffe; "Girofla"→«Жирофля» also Marie's nickname for Audiffret |
+| Giroflé-Girofla (Lecocq) | «Жирофле-Жирофла» | opéra-bouffe; "Girofla"→«Жирофля» also Marie's nickname for Audiffret |
 | Un ballo in maschera (Verdi) | «Бал-маскарад» | Verdi opera; rendered as translated title |
 | La Jeunesse du roi Henri (Ponson du Terrail) | «Молодість короля Анрі» | Ponson du Terrail = «Понсон дю Тераль»; Antonelli's seduction-manual |
 | Tite-Live | Тіт Лівій | Livy; Marie compares him to «Александр Дюма» (the NOVELIST — Russified-form Dumas is CORRECT here, NOT the uncle «Олександр») |
