@@ -52,7 +52,7 @@ When a new topic of interest appears in the diary, add it to this list and creat
 - [#GAGARINE](/_original/_glossary/GAGARINE.md) - Russian princely family in Nice (20 mentions)
 - [#GALULA](/_original/_glossary/GALULA.md) - Crucial intermediary for Marie-Audiffret introduction
 - [#GEORGES](/_original/_glossary/GEORGES.md) - Family member (possibly cousin)
-- [#GIOIA](/_original/_glossary/GIOIA.md) - Beautiful woman, Hamilton's mistress
+- [#GIOIA](/_original/_glossary/people/recurring/GIOIA.md) - Beautiful woman, Hamilton's mistress
 - [#GRAND_PAPA](/_original/_glossary/GRAND_PAPA.md) - Marie's grandfather, prefers Monte Carlo
 
 ### H

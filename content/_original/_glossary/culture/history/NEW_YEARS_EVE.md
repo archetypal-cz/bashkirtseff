@@ -47,4 +47,4 @@ The midnight wish-writing tradition appears to be a 19th-century European custom
 
 - [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md) - Subject of her midnight ritual
 - [#Nice](../../places/cities/NICE.md) - Location
-- [#Gioia](../../places/cities/GIOIA.md) - Contrasting New Year celebration
+- [#Gioia](../../people/recurring/GIOIA.md) - Contrasting New Year celebration

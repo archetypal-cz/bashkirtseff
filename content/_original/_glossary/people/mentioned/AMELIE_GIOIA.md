@@ -14,10 +14,10 @@ last_updated: 2026-05-24
 ## Redirect
 
 %% GLO_AMELIE_GIOIA.0002 %%
-This is a duplicate entry. The main comprehensive entry for **Mme Amélie Gioia** (demi-mondaine, companion of the Duke of Hamilton) is at [places/cities/GIOIA.md](../../places/cities/GIOIA.md). That file is miscategorized under places/cities/ but is kept there to avoid breaking 222+ glossary links across the diary.
+This is a duplicate entry. The main comprehensive entry for **Mme Amélie Gioia** (demi-mondaine, companion of the Duke of Hamilton) is at [people/recurring/GIOIA.md](../../people/recurring/GIOIA.md).
 
 %% GLO_AMELIE_GIOIA.0003 %%
-See [#Gioia](../../places/cities/GIOIA.md) for full information including identity, physical description, chronological arc (1873-1879), nicknames, Villa Gioia, children and patrons, and psychological significance.
+See [#Gioia](../../people/recurring/GIOIA.md) for full information including identity, physical description, chronological arc (1873-1879), nicknames, Villa Gioia, children and patrons, and psychological significance.
 
 %% GLO_AMELIE_GIOIA.0004 %%
 %% 2026-02-10T10:45:00 RSR: Enriched from stub. This entry appears to connect to the main Gioia entry, with "Amelie" possibly being Gioia's real first name. %%

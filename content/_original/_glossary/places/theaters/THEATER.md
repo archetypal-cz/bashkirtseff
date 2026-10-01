@@ -65,7 +65,7 @@ For Marie, theater serves multiple functions:
 ## Related Entries
 
 - [#Nice](../cities/NICE.md) - Location of theater
-- [#Gioia](../cities/GIOIA.md) - Major theater presence
+- [#Gioia](../../people/recurring/GIOIA.md) - Major theater presence
 - [#Lambertye](../../people/mentioned/LAMBERTYE.md) - Observes Marie at theater
 - [#Duke_of_Hamilton](../../people/core/DUKE_OF_HAMILTON.md) - Haunts her at opera
 - [#Galve](../../people/mentioned/GALVE.md) - Regular theater-goers

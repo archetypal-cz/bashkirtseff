@@ -15,14 +15,14 @@ aliases:
   - c'tte femme
   - C'teu
 type: Person
-category: places/cities
+category: people/recurring
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-01
 ---
 
 # Mme Amélie Gioia
 
-**NOTE: MISCATEGORIZED.** This entry is a Person, not a Place. It is filed under `places/cities/` due to an early error (the name was initially thought to be a place name). The correct category would be `people/recurring/` or `people/core/`. The file is kept at this path to avoid breaking the 222+ existing glossary links across the diary. A duplicate stub exists at `people/mentioned/AMELIE_GIOIA.md` which should redirect here.
+**NOTE:** This entry was originally filed under `places/cities/` by mistake (the name was first taken for a place); it was moved to `people/recurring/` on 2026-10-01 and all links across the diary and translations were repointed. A redirect stub exists at `people/mentioned/AMELIE_GIOIA.md`.
 
 **Research Status**: Comprehensive
 **Last Updated**: 2026-05-24
