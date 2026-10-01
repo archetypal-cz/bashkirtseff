@@ -2549,7 +2549,7 @@ rastaquouère→«вискочень»; faire une fin→«влаштувати �
 ### People (Carnet 103)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Canrobert (le maréchal) / la maréchale / Claire | Канробер / маршалова / Клер | "sacrés Canrobert"→«кляті Канробери» |
+| Canrobert (le maréchal) / la maréchale / Claire | Канробер / маршальша / Клер | "sacrés Canrobert"→«кляті Канробери» |
 | princesse Mathilde / duchesse d'Uzès | принцеса Матильда / дюкеса д'Юзес | |
 | Mme Madeleine Lemaire / Louise Abbéma | пані Мадлен Лемер / Луїза Аббема | painters/salonnières |
 | Guy de Maupassant ("l'inconnu") | Гі де Мопассан | the anonymous correspondent |
