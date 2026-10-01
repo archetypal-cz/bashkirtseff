@@ -128,7 +128,7 @@ Marie sarcastically quotes Alexandre's habitual excuse-making in letters: "'Mon 
 ## Manipulating Family Relations (1881)
 
 %% GLO_ALEXANDRE.0035 %%
-During Marie's 1881 visit to Gavronzi, she observes Alexandre's skill at setting family members against each other. When Maman turned hostile toward Paul, Marie identified the source: "C'est ce cher oncle Alexandre qui l'a soufflee" (It's dear Uncle Alexandre who whispered to her / incited her) (092.0233). The sarcastic "cher" (dear) underscores Marie's contempt for this manipulation. In 1882, Marie noted "les memes histoires agacantes sur la rapacite, la rouerie d'Alexandre; ses prouesses d'escamotage au prejudice de tous" (the same annoying stories about Alexandre's rapacity, his cunning; his sleight-of-hand feats at everyone's expense).
+During Marie's 1881 visit to Gavronzi, she observes Alexandre's skill at setting family members against each other. When Maman turned hostile toward Paul, Marie identified the source: "C'est ce cher oncle Alexandre qui l'a soufflee" (It's dear Uncle Alexandre who whispered to her / incited her) (092.DROPPED-0233). The sarcastic "cher" (dear) underscores Marie's contempt for this manipulation. In 1882, Marie noted "les memes histoires agacantes sur la rapacite, la rouerie d'Alexandre; ses prouesses d'escamotage au prejudice de tous" (the same annoying stories about Alexandre's rapacity, his cunning; his sleight-of-hand feats at everyone's expense).
 
 %% GLO_ALEXANDRE.0036 %%
 ## Life in Paris (1878)
@@ -236,7 +236,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **090.1880-11-24**: Alexandre writes that Maman must stay in Russia
 
 ### 1881
-- **092.0233** (July 8): Alexandre manipulates Maman against Paul at Gavronzi
+- **092.DROPPED-0233** (July 8): Alexandre manipulates Maman against Paul at Gavronzi
 
 ### 1882
 - **094.0259** (March 13): Alexandre holds Georges's inheritance; suspected of positioning to dispossess Dina

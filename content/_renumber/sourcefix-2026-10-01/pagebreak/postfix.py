@@ -21,6 +21,15 @@ def cluster(L,pid):
     i=i[0]; j=i+1
     while j<len(L) and not IDRE.match(L[j].strip()): j+=1
     return i,j
+def visible_idx(lines):
+    out=[];inb=False
+    for k,x in enumerate(lines):
+        n=x.count('%%')
+        if x.startswith('%%') or inb:
+            if n%2==1: inb=not inb
+            continue
+        if x.strip() and not x.startswith('[^') and not x.startswith('[//]'): out.append(k)
+    return out
 def is_embed(l): return l.startswith('%% ') and not re.match(r'^%% (\d{4}-\d\d-\d\dT[\d:]+ [A-Z]+:|\[#|kind:)',l) and l.rstrip().endswith('%%')
 def relabel(s):
     # footnote labels that embed paragraph numbers were rewritten by the tool; map them for moved lines
@@ -53,9 +62,9 @@ for t in ['_original','cz','uk','en','fr']:
         cn=cluster(L,n_new)
         if not cn: report.append(f'{t} {n_new} absent post'); continue
         a,b=cn; block=L[a+1:b]
-        vis1=[x for x in old1 if x.strip() and not x.startswith('%%') and not x.startswith('[^') and not x.startswith('[//]')]
+        vis1=[old1[k] for k in visible_idx(old1)]
         tags1=[x for x in old1 if x.startswith('%% [#')]
-        notes1=[relabel(x) for x in old1 if x.startswith('%%') and not x.startswith('%% [#') and not is_embed(x) and not x.startswith('%% kind:') and not ('ED: rebuild-carnet' in x)]
+        notes1=[relabel(x) for x in old1 if re.match(r'^%% \d{4}-\d\d-\d\dT[\d:]+ [A-Z]+:',x) and x.rstrip().endswith('%%') and x.count('%%')%2==0 and 'ED: rebuild-carnet' not in x]
         defs1=[x for x in old1 if x.startswith('[^')]
         # avoid footnote-label collisions: a moved label that the rewritten file already defines elsewhere gets an «m» suffix
         filetext='\n'.join(L)
@@ -68,7 +77,7 @@ for t in ['_original','cz','uk','en','fr']:
         new=list(block)
         # 1 visible join (translations and fr visible); _original already has merged French
         if t!='_original' and vis1:
-            vi=[k for k,x in enumerate(new) if x.strip() and not x.startswith('%%') and not x.startswith('[^') and not x.startswith('[//]')]
+            vi=visible_idx(new)
             if vi:
                 k=vi[-1]
                 if vis1==['TODO'] or vis1==['# TODO']:

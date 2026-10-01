@@ -57,7 +57,7 @@ Marie sent it to the Salon of 1883 as a second *envoi* that nobody knew about, a
 ## References in Diary
 
 %% GLO_LA_PARISIENNE.0012 %%
-- 1881-11-15 (093.0177) -- an oblique first trace: "cette affaire d'Irma", a quarrel with Amélie over the model
+- 1881-11-15 (093.DROPPED-0177) -- an oblique first trace: "cette affaire d'Irma", a quarrel with Amélie over the model
 - **First substantial mention: 1881-12-29 (094.0057)** -- the character sketch of Irma, and of what makes her a subject
 - 1882-07-01 (095.0232) -- "Depuis le matin je travaille avec Irma"
 - **1882-07-18 (095.0298–0278)** -- "Fin de la tête d'Irma"; Tony's and Julian's compliments
