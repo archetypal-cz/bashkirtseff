@@ -1046,8 +1046,8 @@ These override older per-carnet entries below where they conflict.
 - First appearance: 074 (1877-09-08)
 - Notes: Czech feminine form "Bademeisterka"; footnote: "Pozn. překl.: V originále německy: Bademeisterin — lázeňská obsluha, žena dohlížející na koupele v lázních."
 
-### Larderei (Alexandre de Larderei)
-- Translation (Czech): Larderei / Alexandre / Lardereiho (genitive)
+### Larderei (Alexandre de Larderei) — SUPERSEDED 2026-10-01: the name is „Larderel“ (see Rulings block at top)
+- Translation (Czech): ~~Larderei / Lardereiho~~ → Larderel / Larderela / Larderelovi; Alexandre as given name
 - Context: Alexandre de Larderei, the Italian nobleman Marie met in Wiesbaden; duel injury (arm in sling confirmed 074.0204-205); killed in an assassination reported in Le Figaro (1877-09-22); the great romance of carnet 074
 - First appearance: 074 (multiple references as "Alexandre" from 074.0218 onwards; identified as Larderei from 074.0204)
 - Notes: Use "Larderei" for surname references; "Alexandre" as given name; Czech genitive "Lardereiho"; "z Larderei" is an Italian noble title so do not Czech-inflect the particle — write "Lardereiho" in genitive, "Lardereimu" in dative, etc.
