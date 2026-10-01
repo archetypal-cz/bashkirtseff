@@ -51,7 +51,7 @@ Carnet 070 of Marie Bashkirtseff's diary.
 ## Changelog
 
 ### 2026-02-09T18:35:00 RSR
-Research complete for all 8 entries. Updated frontmatter (carnet as quoted string, entry_id, para_end, location, locations, dates, entities, workflow). Added RSR comments for historical context (Larderei family/Tuscany boric acid, King Vittorio Emanuele II, Dante quotations, Naples society, horse racing, Gounod's Faust). Added language tags for Italian (Dante quotations), Russian (code-switching), Latin (closing motto). Removed duplicate old-format paragraph blocks from 5 entries.
+Research complete for all 8 entries. Updated frontmatter (carnet as quoted string, entry_id, para_end, location, locations, dates, entities, workflow). Added RSR comments for historical context (Larderel family/Tuscany boric acid, King Vittorio Emanuele II, Dante quotations, Naples society, horse racing, Gounod's Faust). Added language tags for Italian (Dante quotations), Russian (code-switching), Latin (closing motto). Removed duplicate old-format paragraph blocks from 5 entries.
 
 ### 2026-02-04T10:50:24 @kerray
 Initialized carnet README for progress tracking.
