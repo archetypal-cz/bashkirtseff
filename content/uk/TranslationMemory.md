@@ -410,6 +410,7 @@ Established terminology for consistent translation across carnets.
 | Arsenieff | Арсенієв | Russian acquaintance; predicts English husband and Scottish castle |
 | Lambertye | Ламбертьє | French nobleman, early admirer (established 018) |
 | Woerman | Верман | acquaintance in Marie's circle (German name Woermann); locked 2026-09-29 wave-uk (was split Воерман 013–029 / Верман 016–045) |
+| Beaurepaire | Борепер | locked 2026-10-01 wave-uk (was Бопрер / Бовреп'єр) |
 | Enghien | Енгієн | locked 2026-10-01 wave-uk (NOT Енген) |
 | Alexandre (Larderel's given name, as Marie writes it) | Олександр (declined) | OWNER RULING 2026-09-29 (names per Marie's spelling per occurrence) supersedes the Алессандро disambiguation rows: French «Alexandre» → «Олександр», French «Alessandro» → «Алессандро»; context (or a footnote) tells uncle from Larderel |
 | Larderel (comte Alessandro; OCR «Larderei») | Лардерель | OWNER LOCK 2026-09-30: printed-edition spelling Larderel. Count: DECLINED as masculine (Лардереля, Лардерелю, Лардерелем, Лардерелі); women (Mme/comtesse de Larderel): indeclinable «Лардерель». Supersedes all «Лардереї … indeclinable» rows below. Glossary path LARDEREI.md unchanged. |
