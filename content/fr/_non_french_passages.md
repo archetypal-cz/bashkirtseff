@@ -1281,12 +1281,12 @@ They need AI translation into French.
 - **066/1876-10-02.md** para 066.0592 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "O rus" - O countryside! (Horace, Satires II.6); ironic use, Marie's boredom %%
 - **066/1876-10-06.md** para 066.0653 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Audaces fortuna juvat" - Fortune favors the bold (Virgil, Aeneid X.284) %%
 - **066/1876-10-06.md** para 066.0657 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "troïka" - three-horse carriage; traditional Russian transport %%
-- **067/1876-11-11.md** para 067.0935 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: "Goloss" - RUSSIAN: "The Voice," Russian newspaper %%
-- **067/1876-11-15.md** para 067.0988 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Golova" = head/mayor; "Douma" = thought/city hall - Marie's linguistic observation %%
-- **067/1876-11-15.md** para 067.1009 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Via e al diavolo" - Away and to the devil! %%
-- **067/1876-11-15.md** para 067.1012 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? - Marie's code-switching %%
-- **067/1876-11-15.md** para 067.1016 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Est socia mortis homini vita ingloria" - An inglorious life is death's companion %%
-- **067/1876-12-08.md** para 067.1260 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN: "Agnus Dei" = Lamb of God. Marie sarcastically compares her humble, wheedling father to the sacrificial lamb. %%
+- **067/1876-11-11.md** para 067.0939 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: "Goloss" - RUSSIAN: "The Voice," Russian newspaper %%
+- **067/1876-11-15.md** para 067.0992 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "Golova" = head/mayor; "Douma" = thought/city hall - Marie's linguistic observation %%
+- **067/1876-11-15.md** para 067.1013 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Via e al diavolo" - Away and to the devil! %%
+- **067/1876-11-15.md** para 067.1016 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? - Marie's code-switching %%
+- **067/1876-11-15.md** para 067.1020 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Est socia mortis homini vita ingloria" - An inglorious life is death's companion %%
+- **067/1876-12-08.md** para 067.1263 [LATIN]: %% 2026-02-10T12:30:00 LAN: LATIN: "Agnus Dei" = Lamb of God. Marie sarcastically compares her humble, wheedling father to the sacrificial lamb. %%
 - **068/1876-12-12.md** para 068.0004 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH Italian: "che" - Marie writes Italian "che" instead of French "que", possibly showing emotional agitation %%
 - **068/1876-12-12.md** para 068.0005 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating-rink" - roller skating rink, fashionable entertainment venue in 1870s; often social gathering place %%
 - **068/1876-12-16.md** para 068.0062 [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "Skating" - roller skating rink; fashionable social venue in 1870s Europe %%
