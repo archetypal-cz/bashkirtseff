@@ -13,7 +13,7 @@ Carnet 072 of Marie Bashkirtseff's diary. A pivotal carnet spanning Nice and Par
 
 ### Key Themes
 - **Monaco disguise**: Marie as "princesse Zeretel" at the casino (06-15 through 06-17), don Clemente recognizes her
-- **Alexandre/Larderei**: The famous lunch scene with ironic declarations, Seraphin intelligence channel, "il ne veut meme pas me connaitre" crisis
+- **Alexandre/Larderel**: The famous lunch scene with ironic declarations, Seraphin intelligence channel, "il ne veut meme pas me connaitre" crisis
 - **Violence**: Marie attacks her aunt over delayed Paris departure (06-19)
 - **Paris establishment**: Dr. Fauvel's Enghien sulfur cure for throat, Worth chateau visit, military review during Seize Mai crisis
 - **Romantic fantasy**: The extraordinary 30-paragraph daydream about Alexandre's suicide, Doenhoff marriage, nursing and courtship (07-14)
@@ -52,7 +52,7 @@ None -- all 34 entries have LAN annotations.
 
 | Category | Entries | Notes |
 |----------|---------|-------|
-| People | ~60+ | Alexandre, Larderei, Torlonia, Doenhoff, Marcuard, Kondareff, Bihovetz, Walitsky, Seraphin, Dona_Estephana, Worth, Hamilton, etc. |
+| People | ~60+ | Alexandre, Larderel, Torlonia, Doenhoff, Marcuard, Kondareff, Bihovetz, Walitsky, Seraphin, Dona_Estephana, Worth, Hamilton, etc. |
 | Places | ~20+ | Nice, Monaco, Paris, Enghien, Florence, Vienna, London, Suresnes, Lake Como, Aix, Naples, Rome |
 | Culture | ~5 | Jocelyn (Lamartine), Roman de la Momie (Gautier), Psyche, Dante, Figaro, Opera |
 

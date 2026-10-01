@@ -50,7 +50,7 @@ None -- all 36 entries have LAN annotations.
 
 | Category | Entries | Notes |
 |----------|---------|-------|
-| People | ~50+ | Alexandre, Larderei, Marcuard, Miss_Hall, Remy, Cassagnac, Antonelli, Worth, Walery, Gonzales, Cartier, Mertens, Dassorkine, Ouida, Gioia, Hilarion, etc. |
+| People | ~50+ | Alexandre, Larderel, Marcuard, Miss_Hall, Remy, Cassagnac, Antonelli, Worth, Walery, Gonzales, Cartier, Mertens, Dassorkine, Ouida, Gioia, Hilarion, etc. |
 | Places | ~20+ | Paris, Rome, Florence, Naples, Nice, Bois_de_Boulogne, Enghien, Soden, Schlangenbad, Musart, Bougival, Grenouillere, Mabille, Villa_Borghese |
 | Culture | ~10 | Dame_aux_Perles, Guillaume_Tell, Dante, Ariadne/Ouida, George_Sand/Marquis_de_Villemer, Beethoven, Mendelssohn, Journal_dun_diplomate, Balzac, Homere |
 
