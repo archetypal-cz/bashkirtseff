@@ -2068,7 +2068,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 ### People & Nicknames (Carnet 070)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Larderei (comte Alessandro) | Лардерель | CANONICAL, INDECLINABLE (per 068 LOCK). 42 occurrences, 0 declined drift. His GIVEN name is the Italian Alessandro → in 070.0914 the family joke "notre cher Alexandre" = LARDEREI, rendered «наш любий Алессандро» (Italian form, italic), kept LEXICALLY DISTINCT from the uncle's «Олександр» per CON/team-lead disambiguation. NOT the uncle |
+| Larderei (comte Alessandro) | Лардерель | CANONICAL, INDECLINABLE (per 068 LOCK). 42 occurrences, 0 declined drift. His GIVEN name is the Italian Alessandro → in 070.0914 the family joke "notre cher Alexandre" = LARDEREI, rendered «наш любий Алессандро» (Italian form, italic), kept LEXICALLY DISTINCT from the uncle's «Олександр» per CON/team-lead disambiguation. NOT the uncle | — SUPERSEDED by owner lock (declined Лардерель) near top
 | Alessandro (= Larderei's given name) | Алессандро | Italian form used ONLY for the Larderei-as-given-name joke (070.0914), so it never collides with the uncle «Олександр» or the daughter «Александріна» |
 | Bijou (Larderei nickname) | Біжу | Marie's pet-name for Larderei (per 068 «Біжу-бузук»); plain Bijou → «Біжу» |
 | Alexandrine (Larderei's daughter) | Александріна | His natural daughter by la Righi; French given name kept «Александріна» (distinct from uncle «Олександр» and from Larderei-as-«Алессандро») |
@@ -2129,7 +2129,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (their aristocratic pedigree delights her; she plots to kidnap Larderei's natural daughter Alexandrine, then abandons it); back to Nice for a quiet, ostracism-tinged early summer (Skating rink, Audiffret cold-shoulder, sea baths, name-day, mock-burglary comedy, Russian-ladies' gossip). Larderei attachment fades into the coded Marcuard "à fonds perdus" marriage negotiation and a finished double-portrait. Early TB symptom (blood while singing, 071.0377). Book closes on San Cesario's suicide.
 
 ### KEY NAMING LOCK (Carnet 071) — Alexandre = Larderei
-- Throughout 071, Marie's running code-name **«Alexandre» = LARDEREI** (his Italian given name Alessandro), NOT the uncle. The uncle does NOT appear in this carnet at all. Per the CON/team-lead disambiguation established in carnet 070, ALL 071 «Alexandre» → **«Алессандро» (INDECLINABLE)** — kept lexically distinct from the uncle's locked «Олександр». 0 «Олександр» in 071 body (the lone «Олександр» is inside a TR note explaining the lock). Daughter **Alexandrine → «Александріна»** (declinable fem. -а noun: Александріну etc.), NOT «Олександрина». Baby-naming wish (071.0548) → «Алессандро або Александріна».
+- Throughout 071, Marie's running code-name **«Alexandre» = LARDEREI** (his Italian given name Alessandro), NOT the uncle. The uncle does NOT appear in this carnet at all. Per the CON/team-lead disambiguation established in carnet 070, ALL 071 «Alexandre» → **«Алессандро» (INDECLINABLE)** — kept lexically distinct from the uncle's locked «Олександр». 0 «Олександр» in 071 body (the lone «Олександр» is inside a TR note explaining the lock). Daughter **Alexandrine → «Александріна»** (declinable fem. -а noun: Александріну etc.), NOT «Олександрина». Baby-naming wish (071.0548) → «Алессандро або Александріна». — SUPERSEDED: Alexandre → «Олександр» per owner ruling (row near top)
 
 ### People & Nicknames (Carnet 071)
 | French | Ukrainian | Notes |
@@ -2137,7 +2137,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | Larderei (comte Alessandro) | Лардерель | CANONICAL, INDECLINABLE (per 068/070). 24 occurrences, 0 declined drift |
 | Alexandre (= Larderei code-name) | Алессандро | INDECLINABLE (see LOCK above); ~30 occurrences |
 | le Florentin (Larderei epithet) | Флорентинець | dismissive epithet (071.0501/0286); Marie equates it with «нікчема/фертик/навіжений» |
-| Silène (Larderei code-name) | Сілен | from Sorrento hotel «Sirène» pun (per 070); "la fille de Silène"→«доньку Сілена» |
+| Silène (= la Righi, Larderel's mistress) | Силена | from Sorrento hotel «Sirène» pun (per 070); "la fille de Silène"→«доньку Силени» |
 | Bijou (Larderei nickname) | Біжу | per 068/070; «Біжу покинув Відень» (071.0534) |
 | Alexandrine (Larderei's daughter) | Александріна | declinable fem.; per 070 LOCK |
 | la Righi | Ріґі | Larderei's mistress (per 068/070); indeclinable |
