@@ -50,3 +50,7 @@ Still to do when the drivers have committed them: 091, 092, 093, 094, 097, 099, 
 | 097.0080 / 0081 «- Monsieur je deviens sourde,» / «jusqu'ici j'ai usé de…» | t.15 p.116 | JOIN keeping the line break (dialogue line, continuation flush left) — pending 097 |
 
 Batch 3 also joined the rest of the 016 three-part split (016.0384 + 0385 at the time, one docx paragraph). Staging for batch 3 used the pre-clean rule (files dirty before the run were left alone; 9 driver files that changed during the run were not staged).
+
+## Paragraph joins, batch 4: 004, 091–093 (061668f53 + c7e369228 9b5be255c 0e038c84e 8878cb5c8)
+
+73 joins: 093 (50, scan PAGEBREAK), 092 (14 scan + the eye-checked 092.0139/0140), 091 (the account table «Sur sept mille par mois…» joined as one paragraph keeping each table line, 7 pairs, eye-checked t.14 p.93), 004 (the split «…qu'ils vont chercher» / «l'autre», one paragraph in tome01.docx ¶1227, reported by wave-en). Post-fix improvements over earlier batches: visible text and moved notes are detected with %%-block awareness (fr carnets with multi-line embedded blocks), chains of splits handled, moved footnote labels renamed with an «m» suffix if the label would collide. Not joined: 092 (1 pair, INDENT in print).
