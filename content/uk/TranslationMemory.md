@@ -777,7 +777,7 @@ Established terminology for consistent translation across carnets.
 | Dory | Дорі | Good singer; benefit performance in Nice |
 | Bellour | Белур | Tenor at Nice Italian theatre; sings La Sonnambula |
 | Clark (de Spa) | Кларк (зі Спа) | Acquaintance from Spa; chance Paris meeting cheers Marie |
-| Caroline (Laferrière) | Кароліна (Лаферрьєр) | Powerful vendeuse at Laferrière; "une puissance" |
+| Caroline (Laferrière) | Кароліна (Лафер'єр) | Powerful vendeuse at Laferrière; "une puissance" |
 | M. Duval | пан Дюваль | Paris furniture maker; payment dispute (50,000 francs) |
 | Marie (femme de chambre) | Марі (покоївка) | Chambermaid with abusive husband; tall, blonde, cheerful |
 | Adam | Адам | Male servant who defends Marie the maid |
@@ -1483,7 +1483,7 @@ Established terminology for consistent translation across carnets.
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Worth / Suresnes | Ворт / Сюрен | Couturier (name kept); his château at Suresnes ("on dit Suresnes à M. Worth") |
-| Laferrière / Reboux / Ferry / Jouvin / Dupuis / Klein | Лаферрьєр / Ребу / Феррі / Жувен / Дюпюї / Кляйн | Paris fashion establishments; transliterate |
+| Laferrière / Reboux / Ferry / Jouvin / Dupuis / Klein | Лафер'єр / Ребу / Феррі / Жувен / Дюпюї / Кляйн | Paris fashion establishments; transliterate |
 | Doucet | Дусе | Sold Marie a 100-franc tulle veil |
 | princes de la couture | князі моди | Marie's ironic elevation of tradespeople |
 | à la Gioia | під Джою | Hairstyle copying the courtesan |
@@ -2344,7 +2344,7 @@ Read with the cross-carnet resolutions at the end of this block.
 | bronze florentin (épithète d'Arnaud) | флорентійська бронза | Marie's epithet for Arnaud |
 | mon... mâle (Cassagnac) | мій... самець | naturalist register, faithful |
 | concours hippique | (кінні) перегони | |
-| Laferrière | Лафер'єр | LOCK (con-084) — supersedes «Лаферр'єр»/«Лаферрьєр» (see resolutions) |
+| Laferrière | Лафер'єр | LOCK (con-084) — supersedes «Лаферр'єр»/«Лафер'єр» (see resolutions) |
 
 ## Carnet 085 Additions (Paris, Apr–Aug 1879 — Cassagnac immersion, Putiphar cipher)
 ### People & Nicknames (Carnet 085)
@@ -2575,7 +2575,7 @@ Surfaced by the consolidation pass; **decided canon** + which committed carnets 
 |------|-------|----------------|
 | **Karageorgevitch** | **Караджорджевич** (Serbian-faithful) | 086 had «Карагеоргевич» ×9 → **NORMALIZED in files 2026-06-14**. 084/085/087 already correct. |
 | **Vassilissa** (great-aunt) | **Василиса** (066 lock) | 092 had «Василісу» → **NORMALIZED in files 2026-06-14**. |
-| **Laferrière** | **Лафер'єр** (con-084 lock; single р, straight apostrophe U+0027; decl. Лафер'єр/-а/-у/-ом) | **NORMALIZED corpus-wide 2026-06-14**: 62 instances across 25 carnets unified from «Лаферрьєр»/«Лаферр'єр»/«Лаферр’єр»/«Лаферьєр» → «Лафер'єр». 0 residual. |
+| **Laferrière** | **Лафер'єр** (con-084 lock; single р, straight apostrophe U+0027; decl. Лафер'єр/-а/-у/-ом) | **NORMALIZED corpus-wide 2026-06-14**: 62 instances across 25 carnets unified from «Лафер'єр»/«Лаферр'єр»/«Лаферр’єр»/«Лаферьєр» → «Лафер'єр». 0 residual. |
 | **Patchenko** (family) | **Патченко** | 087 source variants "Pachtenko"/"Patchenko" CON-normalized; matches 092. |
 | **le Défunt** (Cassagnac conceit) | **Покійний** (088 lock, adjectival) | **NORMALIZED 2026-06-14**: 084 was already «Покійний»; 085 had «Покійник» ×4 (e.g. «лист Покійника»→«лист Покійного») → fixed. Literal-corpse «покійник» / the separate feminine «покійна Йорк» left untouched. |
 | **Popaul** (Cassagnac diminutive) | **«Пополь»** (soft sign, NO stress mark) — Julian-arc lock (078–080; 080 RED note); decl. Пополь / Пополя / Пополю / Пополем | **NORMALIZED corpus-wide 2026-06-14**: 084 «Попотик», 085 «Попо́ль» (stressed), 086 «Попол» (hard), 089 «Польчик», + 077/079/099 stressed «Попо́ль» → all → «Пополь». (Pre-existing odd «Пополо»×6 / «Попольові»×1 in already-locked 078/080 left as-is.) NB: my first-pass canon «Попол» was wrong — corrected to the locked «Пополь». |
