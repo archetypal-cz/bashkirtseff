@@ -39,7 +39,7 @@ The identification is confirmed by multiple raw carnet indices which explicitly 
 Princess Galitzine was married to Prince Galitzine, whom Marie holds in low regard. Marie notes that the princess "a probablement cherché le titre et a trouvé cette canaille que son mari" (007, Jul 13, 1873) -- probably sought the title and found that scoundrel of a husband. The prince "fait des folies et sa femme a dit que lui dit qu'elle est trop vieille pour lui" (007, Jul 29, 1873) -- he behaves recklessly and tells her she's too old for him. Marie later describes her as a "femme de peu d'esprit mais que je trouvais agréable" (026, Nov 22, 1874) -- a woman of little wit but whom Marie found agreeable.
 
 %% GLO_BETE.0006 %%
-She had at least one daughter, mentioned in the September 29, 1873 name day entry (010.0125): "C'est la fête de ma tante, de Bête, de sa fille et de la petite Véra Anitchkoff." A "petite blonde Nathalie Galitzine" appears in a later entry (050.0825, Dec 16, 1875), described as having died recently in Russia "dans les bras" of her lover Simiane -- this may refer to the daughter rather than the princess herself, since the princess is still alive in 1876.
+She had at least one daughter, mentioned in the September 29, 1873 name day entry (010.0125): "C'est la fête de ma tante, de Bête, de sa fille et de la petite Véra Anitchkoff." A "petite blonde Nathalie Galitzine" appears in a later entry (050.0824, Dec 16, 1875), described as having died recently in Russia "dans les bras" of her lover Simiane -- this may refer to the daughter rather than the princess herself, since the princess is still alive in 1876.
 
 %% GLO_BETE.0007 %%
 The Bashkirtseff family financially supported Princess Galitzine, a fact that led to social complications. In January 1874, the family friend Abrial warns that the princess is "un ennemi" who "ne pardonnera jamais les bienfaits dont on la comble" (015, Jan 25, 1874) -- an enemy who will never forgive the kindness heaped upon her. Marie agrees: "Je suis parfaitement de son avis."
@@ -123,7 +123,7 @@ Princess Galitzine is referenced approximately 123 times across the diary, makin
 - 023 (Aug 18, 1874): "Julie est le portrait de Bête" -- comparing someone to her looks
 - 026 (Nov 22, 1874): Named as "princesse Nadine Galitzine" -- famous quote about gold vs. iron
 - 031.0102-0102 (Apr 6, 1875): "J'ai un désir insensé de voir la princesse Galitzine" -- deepest nostalgia
-- 050.0825 (Dec 16, 1875): "la petite blonde Nathalie Galitzine" -- death in Russia
+- 050.0824 (Dec 16, 1875): "la petite blonde Nathalie Galitzine" -- death in Russia
 - 055.1006 (Mar 22, 1876): "ma chère princesse que j'avais surnommée si bêtement Bête"
 - 064.0446 (Aug 7, 1876): Reunion near St. Petersburg -- "j'allai chercher la princesse Galitzine"
 

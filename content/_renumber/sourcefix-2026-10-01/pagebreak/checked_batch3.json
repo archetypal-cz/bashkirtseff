@@ -1,0 +1,33 @@
+[
+{
+"n": "016.0384",
+"n1": "016.0385",
+"fn": "016/1874-02-21.md",
+"fn1": "016/1874-02-21.md",
+"tail": "Pendre un prou je dois ana",
+"head": "une robe bleue et",
+"kinds": [
+"%% kind: rayé %%",
+"%% kind: rayé %%"
+],
+"scan": "SAMEPARA",
+"info": "tome03.docx: one paragraph in the docx (second half of a three-part split)",
+"ok": true
+},
+{
+"n": "050.0701",
+"n1": "050.0702",
+"fn": "050/1875-12-12.md",
+"fn1": "050/1875-12-12.md",
+"tail": "Tour Audiffret,",
+"head": "nous jetons cela dans une boîte à lettres.",
+"kinds": [
+null,
+null
+],
+"scan": "VISUAL",
+"info": "eye-checked on the scan, Mon Journal t.6 p.226: the address lines and «nous jetons cela…» are one paragraph (continuation flush left)",
+"ok": true,
+"mode": "nl"
+}
+]

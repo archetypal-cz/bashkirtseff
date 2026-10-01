@@ -71,7 +71,7 @@ From April 1875, Collignon effectively rejoined the household for extended stays
 
 ## Anglophilia and Cultural Interests
 
-Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0189 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0291 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0187 %%), and Marie described her as "une femme serieuse" (%% 050.1334 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0205 %%).
+Collignon adored England and the English. Marie noted: "Je comprends que Mlle Collignon adore les Anglais et l'Angleterre, et qu'elle etait presque impertinente... avec les anes qui en parlent mal" (%% 023.0112 %%). She took Marie and Dina to Anglican services (%% 031.0189 %%). She had traveled in Egypt with the vice-regal household and remembered the Duke of Hamilton in Cairo "avec des aniers en petites voitures disant des betises" (%% 004.0291 %%). She was well-read, engaged in philosophical and religious debates with Marie and Bihovetz (%% 062.0187 %%), and Marie described her as "une femme serieuse" (%% 050.1333 %%) and "la femme la plus romanesque et la plus sentimentale du monde" (%% 062.0205 %%).
 
 ## Romantic Disappointment
 

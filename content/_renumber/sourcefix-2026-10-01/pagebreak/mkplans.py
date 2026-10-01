@@ -14,17 +14,19 @@ def french(pid):
 for c in sys.argv[2:]:
     plan=json.loads(subprocess.check_output(['just','rebuild-carnet-plan',c],cwd='/home/coder/bashkirtseff',stderr=subprocess.DEVNULL))
     plan['source']=plan.get('source') or 'tome scan'
-    drops=[]
-    for o in [p for p in pairs if p['n'][:3]==c]:
-        a=french(o['n']); b=french(o['n1'])
+    drops=[]; head={}; text={}
+    for o in sorted([p for p in pairs if p['n'][:3]==c],key=lambda p:p['n']):
+        h=head.get(o['n'],o['n']); head[o['n1']]=h
+        a=text.get(h) or french(h); b=french(o['n1'])
         last=a[-1]
-        if last.rstrip().endswith('-') and b[0][:1].islower(): joined=last.rstrip()[:-1]+b[0]
-        else: joined=last.rstrip()+' '+b[0].lstrip()
-        merged=a[:-1]+[joined]+b[1:]
+        if o.get('mode')=='nl': merged=a+b
+        elif last.rstrip().endswith('-') and b[0][:1].islower(): merged=a[:-1]+[last.rstrip()[:-1]+b[0]]+b[1:]
+        else: merged=a[:-1]+[last.rstrip()+' '+b[0].lstrip()]+b[1:]
+        text[h]=merged
         for e in plan['entries']:
             for x in e['paragraphs']:
-                if x.get('old')==o['n']: x['set_french']='\n'.join(merged)
+                if x.get('old')==h: x['set_french']='\n'.join(merged)
             e['paragraphs']=[x for x in e['paragraphs'] if x.get('old')!=o['n1']]
-        drops.append({'id':o['n1'],'reason':f"joined to {o['n']}: one print paragraph split at a page break in the transcription ({o.get('info') or 'scan-checked'})"})
+        drops.append({'id':o['n1'],'reason':f"joined to {h}: one print paragraph split in the transcription ({o.get('info') or 'scan-checked'})"})
     plan['drop']=plan.get('drop',[])+drops
     json.dump(plan,open(f'{D}/plan-pb-{c}.json','w'),ensure_ascii=False,indent=1); print(c,len(drops))

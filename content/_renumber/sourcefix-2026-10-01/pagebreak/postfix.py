@@ -8,7 +8,9 @@ import sys,json,re,subprocess,glob,os
 root,mapf,chk,c=sys.argv[1:5]
 ts=subprocess.check_output(['date','+%Y-%m-%dT%H:%M:%S']).decode().strip()
 idmap=json.load(open(mapf))['id_map']
-pairs=[o for o in json.load(open(chk)) if o['n'][:3]==c and o.get('ok',True)]
+pairs=sorted([o for o in json.load(open(chk)) if o['n'][:3]==c and o.get('ok',True)],key=lambda o:o['n'])
+chainhead={}
+for o in pairs: chainhead[o['n1']]=chainhead.get(o['n'],o['n'])
 IDRE=re.compile(r'^%% (\d{3}\.\d{4}) %%$')
 def head(path):
     try: return subprocess.check_output(['git','show','HEAD:'+path],cwd=root,stderr=subprocess.DEVNULL).decode().split('\n')
@@ -41,7 +43,7 @@ report=[]
 for t in ['_original','cz','uk','en','fr']:
     touched=set()
     for o in pairs:
-        n_new=idmap[o['n']]; fpath=f"content/{t}/{o['fn']}"
+        n_new=idmap[chainhead.get(o['n'],o['n'])]; fpath=f"content/{t}/{o['fn']}"
         pre=head(fpath); 
         if pre is None: continue
         cl1=cluster(pre,o['n1'])
@@ -55,6 +57,14 @@ for t in ['_original','cz','uk','en','fr']:
         tags1=[x for x in old1 if x.startswith('%% [#')]
         notes1=[relabel(x) for x in old1 if x.startswith('%%') and not x.startswith('%% [#') and not is_embed(x) and not x.startswith('%% kind:') and not ('ED: rebuild-carnet' in x)]
         defs1=[x for x in old1 if x.startswith('[^')]
+        # avoid footnote-label collisions: a moved label that the rewritten file already defines elsewhere gets an «m» suffix
+        filetext='\n'.join(L)
+        for lab in set(re.findall(r'\[\^([^\]]+)\]', '\n'.join(vis1))):
+            post_d=re.search(r'(?m)^\[\^'+re.escape(lab)+r'\]:(.*)$',filetext); pre_d=re.search(r'(?m)^\[\^'+re.escape(lab)+r'\]:(.*)$','\n'.join(pre))
+            if post_d and pre_d and post_d.group(1).strip()!=pre_d.group(1).strip():
+                defs1=defs1+[x for x in [pre_d.group(0)] if x not in defs1]
+                vis1=[x.replace('[^'+lab+']','[^'+lab+'m]') for x in vis1]
+                defs1=[x.replace('[^'+lab+']:','[^'+lab+'m]:') for x in defs1]
         new=list(block)
         # 1 visible join (translations and fr visible); _original already has merged French
         if t!='_original' and vis1:
@@ -66,8 +76,9 @@ for t in ['_original','cz','uk','en','fr']:
                 elif new[k].strip()=='TODO':
                     new[k]='\n'.join(vis1)
                 else:
-                    sep='' if new[k].rstrip().endswith('-') else ' '
+                    sep='\n' if o.get('mode')=='nl' else ('' if new[k].rstrip().endswith('-') else ' ')
                     base=new[k].rstrip()[:-1] if sep=='' else new[k].rstrip()
+                    if sep=='\n': base=new[k].rstrip()
                     new[k]=base+sep+vis1[0].lstrip()
                     if len(vis1)>1: new[k]+='\n'+'\n'.join(vis1[1:])
             else:
