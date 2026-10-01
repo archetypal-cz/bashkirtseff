@@ -1379,21 +1379,21 @@ They need AI translation into French.
 - **077/1878-02-03.md** para withdrawn in the 2026-09 rebuild (old carnet 077 ¶0613; see content/_renumber/077-2026-09-29.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
 - **078/1878-02-18.md** para 078.0218 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "skating" - ice rink; fashionable social venue in 1870s European cities %%
 - **078/1878-03-16.md** para withdrawn in the 2026-09 rebuild (old carnet 078 ¶0575; see content/_renumber/078-2026-09-29.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
-- **079/1878-03-27.md** para 079.0110 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "pug" - English word for the dog breed %%
-- **079/1878-03-27.md** para 079.0110 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Skating" - skating rink, fashionable activity %%
-- **079/1878-03-27.md** para 079.0110 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Club" - English term for gentlemen's club %%
-- **079/1878-03-27.md** para 079.0111 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "gentlemen-riders" - amateur horse racing by aristocrats %%
-- **079/1878-05-01.md** para 079.0611 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Let us make the best of it" - Marie's code-switching %%
+- **079/1878-03-27.md** para 079.0109 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "pug" - English word for the dog breed %%
+- **079/1878-03-27.md** para 079.0109 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Skating" - skating rink, fashionable activity %%
+- **079/1878-03-27.md** para 079.0109 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Club" - English term for gentlemen's club %%
+- **079/1878-03-27.md** para 079.0110 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "gentlemen-riders" - amateur horse racing by aristocrats %%
+- **079/1878-05-01.md** para 079.0607 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Let us make the best of it" - Marie's code-switching %%
 - **080/1878-05-04.md** para withdrawn in the 2026-09 rebuild (old carnet 080 ¶0006; see content/_renumber/080-2026-09-29.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's motto) %%
 - **080/1878-05-21.md** para 080.0249 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "terrarum dea gentiumque Roma" - "Rome, goddess of lands and peoples" (Martial) %%
 - **080/1878-06-17.md** para 080.0653 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Ci rivedrem signore!" - "We'll meet again, sir!" - Marie's Italian code-switching %%
 - **081/1878-06-24.md** para 081.0023 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "quaerens quem devoret" - "seeking whom to devour" (1 Peter 5:8, describing devil) %%
 - **081/1878-06-30.md** para 081.0115 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "common-place" - Marie uses English for emphasis %%
-- **081/1878-07-15.md** para 081.0407 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "chic" - borrowed from French but Marie uses it as society slang for elegant/fashionable %%
-- **081/1878-07-21.md** para 081.0450 [ITALIAN]: %% 2026-02-03T10:25:00 LAN: ITALIAN allusion: "Multedo" plays on Italian troubadour tradition %%
-- **081/1878-07-22.md** para 081.0459 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Paese che vuoi, essi che trovi" - When in Rome, do as the Romans do %%
-- **081/1878-07-23.md** para 081.0460 [LATIN]: %% 2026-02-03T10:30:00 LAN: LATIN: "in extenso" - in full/completely (legal/scholarly term) %%
-- **081/1878-08-03.md** para 081.0538 [ENGLISH]: %% 2026-02-03T11:15:00 LAN: "groom" - ENGLISH: young male servant %%
+- **081/1878-07-15.md** para 081.0406 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "chic" - borrowed from French but Marie uses it as society slang for elegant/fashionable %%
+- **081/1878-07-21.md** para 081.0449 [ITALIAN]: %% 2026-02-03T10:25:00 LAN: ITALIAN allusion: "Multedo" plays on Italian troubadour tradition %%
+- **081/1878-07-22.md** para 081.0458 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Paese che vuoi, essi che trovi" - When in Rome, do as the Romans do %%
+- **081/1878-07-23.md** para 081.0459 [LATIN]: %% 2026-02-03T10:30:00 LAN: LATIN: "in extenso" - in full/completely (legal/scholarly term) %%
+- **081/1878-08-03.md** para 081.0537 [ENGLISH]: %% 2026-02-03T11:15:00 LAN: "groom" - ENGLISH: young male servant %%
 - **081/1878-08-08.md** para withdrawn in the 2026-09 rebuild (old carnet 081 ¶0499; see content/_renumber/081-2026-09-29.json) [LATIN]: %% 2026-02-03T11:40:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's title for Book 82) %%
 - **082/1878-08-17.md** para withdrawn in the 2026-09 rebuild (old carnet 082 ¶0100; see content/_renumber/082-2026-09-29.json) [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory, Latin epigraph for new volume %%
 - **082/1878-08-18.md** para 082.0140 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "home" - Marie uses English word, suggesting foreignness of concept %%
@@ -1404,7 +1404,7 @@ They need AI translation into French.
 - **082/1878-10-04.md** para 082.0498 [ITALIAN]: %% 2026-02-03T10:00:00 LAN: ITALIAN: Rossi performs in Italian, showing Marie's comprehension %%
 - **083/1878-10-17.md** para withdrawn in the 2026-09 rebuild (old carnet 083 ¶0002; see content/_renumber/083-2026-09-29.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Latin phrase meaning "Desire for Glory" - Marie's epigraph for this volume reflecting her artistic ambitions %%
 - **083/1878-10-25.md** para 083.0029 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "Moussia" - RUSSIAN: Marie's family nickname/diminutive %%
-- **083/1879-01-05.md** para 083.0548 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "la luce della vita" - the light of life; gospel divination result %%
+- **083/1879-01-05.md** para 083.0547 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "la luce della vita" - the light of life; gospel divination result %%
 - **084/1879-01-29.md** para 084.0133 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: "La campagna" - ITALIAN: the Roman Campagna, countryside around Rome famous for ruins %%
 - **084/1879-02-05.md** para 084.0172 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "crescendo" - musical term used metaphorically for voice modulation %%
 - **084/1879-02-23.md** para 084.0284 [CODE-SWITCH]: %% 2026-02-02T14:30:00 LAN: SPELLING/CODE-SWITCH: "the théâtre" - "the" in English mixed with French %%
