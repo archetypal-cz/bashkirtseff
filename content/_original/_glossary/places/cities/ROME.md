@@ -246,7 +246,7 @@ Her final word on Rome came in a quotation she first embraced, then subverted (0
 - [#Florence](./FLORENCE.md) -- visited before Rome and en route
 - [#Naples](./NAPLES.md) -- visited after Rome (April-May 1876)
 - [#Venice](./VENICE.md) -- visited on Italian tour
-- [#Pincio](./PINCIO.md) -- fashionable Roman promenade
+- [#Pincio](../landmarks/PINCIO.md) -- fashionable Roman promenade
 - [#Paris](./PARIS.md) -- where Marie later pursued her artistic career
 - [#Antonelli_Pietro](../../people/mentioned/ANTONELLI_PIETRO.md) -- primary Roman romantic interest
 - [#Botkine](../../people/artists/BOTKINE.md) -- Russian painter, first artistic contact in Rome
