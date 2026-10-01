@@ -2070,7 +2070,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Larderei (comte Alessandro) | Лардерель | CANONICAL, INDECLINABLE (per 068 LOCK). 42 occurrences, 0 declined drift. His GIVEN name is the Italian Alessandro → in 070.0914 the family joke "notre cher Alexandre" = LARDEREI, rendered «наш любий Алессандро» (Italian form, italic), kept LEXICALLY DISTINCT from the uncle's «Олександр» per CON/team-lead disambiguation. NOT the uncle | — SUPERSEDED by owner lock (declined Лардерель) near top
-| Alessandro (= Larderei's given name) | Алессандро | Italian form used ONLY for the Larderei-as-given-name joke (070.0914), so it never collides with the uncle «Олександр» or the daughter «Александріна» |
+[SUPERSEDED 2026-10-01 by owner per-occurrence ruling: French Alexandre → «Олександр»] | Alessandro (= Larderei's given name) | Алессандро | Italian form used ONLY for the Larderei-as-given-name joke (070.0914), so it never collides with the uncle «Олександр» or the daughter «Александріна» |
 | Bijou (Larderei nickname) | Біжу | Marie's pet-name for Larderei (per 068 «Біжу-бузук»); plain Bijou → «Біжу» |
 | Alexandrine (Larderei's daughter) | Александріна | His natural daughter by la Righi; French given name kept «Александріна» (distinct from uncle «Олександр» and from Larderei-as-«Алессандро») |
 | Alexandre (uncle / estate-manager) | Олександр | LOCKED (per 065/066), appears 070.0894 bringing news Maman is ill; NOT Russified «Александр». Oblique: Олександра |
@@ -2136,7 +2136,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Larderei (comte Alessandro) | Лардерель | CANONICAL, INDECLINABLE (per 068/070). 24 occurrences, 0 declined drift |
-| Alexandre (= Larderei code-name) | Алессандро | INDECLINABLE (see LOCK above); ~30 occurrences |
+[SUPERSEDED 2026-10-01 by owner per-occurrence ruling: French Alexandre → «Олександр»] | Alexandre (= Larderei code-name) | Алессандро | INDECLINABLE (see LOCK above); ~30 occurrences |
 | le Florentin (Larderei epithet) | Флорентинець | dismissive epithet (071.0501/0286); Marie equates it with «нікчема/фертик/навіжений» |
 | Silène (= la Righi, Larderel's mistress) | Силена | from Sorrento hotel «Sirène» pun (per 070); "la fille de Silène"→«доньку Силени» |
 | Bijou (Larderei nickname) | Біжу | per 068/070; «Біжу покинув Відень» (071.0534) |
@@ -2216,7 +2216,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 
 ### KEY NAMING LOCK (Carnets 072–074) — the "Alexandre" polysemy
 **In these carnets BOTH the romantic "Alexandre" (=Larderei) AND the uncle Alexandre Babanine appear**, so the 070/071 disambiguation must be applied per-occurrence:
-- **Marie's romantic "Alexandre" = LARDEREI** (his Italian given name Alessandro) → **«Алессандро», INDECLINABLE** (never Алессандра/Алессандру/Алессандром). Same lock as 070/071.
+[SUPERSEDED 2026-10-01 by owner per-occurrence ruling: French Alexandre → «Олександр»] - **Marie's romantic "Alexandre" = LARDEREI** (his Italian given name Alessandro) → **«Алессандро», INDECLINABLE** (never Алессандра/Алессандру/Алессандром). Same lock as 070/071.
 - **The uncle = Alexandre Babanine** (maternal uncle / estate manager; "oncle Alexandre", "son fils Alexandre", family/estate/inheritance/Russia contexts) → **«Олександр», DECLINABLE** (Олександра/Олександрові/Олександром). Same as the 065/066/070 uncle lock (TM lines 1774, 1886, 2063). NOT Russified «Александр».
 - Alexandre Dumas (novelist) → «Александр Дюма» (Russified form CORRECT here, per 067 TM line 1963). Tsar Alexandre II → «Олександр II». Daughter Alexandrine → «Александріна» (declinable fem.).
 - **CRITICAL — glossary tags are UNRELIABLE for "Alexandre":** the bare alias "Alexandre" auto-tags to people/core/ALEXANDRE.md (= the uncle Babanine) regardless of true referent. e.g. 074/08-22 "Alexandre est un chien!" is tagged [#Alexandre](uncle)+[#Oncle_Alexandre] but its RSR comment says the referent is LARDEREI. **Disambiguate by the per-paragraph RSR comment + sentence context, NOT the tag.**
