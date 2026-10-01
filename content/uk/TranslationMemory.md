@@ -1829,7 +1829,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 ### People & Nicknames (Carnet 068)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Larderei (comte Alessandro) | Лардерель | CANONICAL. Naples carnival object of obsession; indeclinable (no «Лардереєм»). Rosalie's mangled form «Ladreréel»→«Ладререль» kept as her error |
+| Larderei (comte Alessandro) | Лардерель | CANONICAL. Naples carnival object of obsession; SUPERSEDED: now DECLINED per owner lock row near top (was: indeclinable (no «Лардереєм»). Rosalie's mangled form «Ladreréel»→«Ладререль» kept as her error |
 | Bijou-bouzouk (Larderei nickname) | Біжу-бузук | Marie's mocking nickname for Larderei (Bijou=trinket + bachi-bouzouk); footnote-free, recurs from 068.1191 |
 | Mirafiore (comte/comtesse de) | Мірафіоре | Larderei's brother-in-law/sister; King's morganatic kin. Rosalie's «Mirafiol»→«Мірафіоль» kept as her error |
 | Antonelli (Pietro/Paolo) | Антонеллі (П'єтро/Паоло) | The broken-engagement scandal centre; Pietro=П'єтро (canonical per TM) |
@@ -2097,7 +2097,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 | Carricolo | каррікколо | overloaded Neapolitan cart; footnote |
 | gris (drunk) | напідпитку | per TM 018; "ivre mort"→«п'яний як чіп» |
 | poisson d'avril | перше квітня | April-fool joke (footnote) |
-| Skating / Skating-rink | ==Скейтинг== | English code-switch (per 067/068); ==highlight== |
+| Skating / Skating-rink | ==Skating== + footnote (uk wave 2026-10-01; was ==Скейтинг==) | English code-switch (per 067/068); ==highlight== |
 | pesage | вагова | weighing enclosure (per 022) |
 | casaque Louis XV | казакин у стилі Людовіка XV | per TM «casaque»→«жакет»; sicilienne→сицилієн (footnote) |
 | froc blanc à capuchon | білий халат із каптуром | informal morning robe (cf. 068 «каптур») |
