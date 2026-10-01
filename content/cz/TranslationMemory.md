@@ -1395,7 +1395,7 @@ These override older per-carnet entries below where they conflict.
 ### intriguer (qqn) — masked-ball / social sense
 - Translation (Czech): poplést / zaujmout / zmást — NIKDY „intrikovat"
 - Context: French "intriguer qqn" here = to intrigue/mystify/pique someone's curiosity (esp. mystifying someone behind a mask at a ball), NOT to scheme. Czech neologism "intrikovat" carries the OPPOSITE sense (kout pikle) and is a genuine semantic error (false friend).
-- First appearance: recurs across 074–079 (e.g. 077/1878-01-27, 078.0338/0341/0469, 079/1878-03-24)
+- First appearance: recurs across 074–079 (e.g. 077/1878-01-27, 078.0339/0341/0469, 079/1878-03-24)
 - Notes: Locked by CON during the 077–079 wave. Keep the genuine scheme-sense words distinct: "pletichy" / "intriky" for actual schemes (the wordplay contrast in 079/1878-03-24 is intentional). STILL UNFIXED in committed 075/1877-10-20 — pending a 074–077 propagation pass.
 
 ### Breslau (Louise-Catherine Breslau)
