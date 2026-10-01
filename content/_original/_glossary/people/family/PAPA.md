@@ -39,7 +39,7 @@ Constantin is absent from the Nice household. Marie mentions him with marked for
 - **Durocher affair** (1873-10-25, 011.0276–0284): "Mon très cher père a une actrice française Durocher…", his public liaison in Russia.
 - **Announced visit** (1873-11-07, 012.0120): "Mon cher père vient à Nice. Animal !"
 - **Visit to Nice / Monte-Carlo, 24–27 November 1873** (013.0077–0109): "Mon auguste père est arrivé." Only during this visit does Marie call him "Papa" / "le Papa" / "mon adorable papa" (013.0080, 013.0088, 013.0104), always next to "mon père".
-- **Family quarrels**: the grandfather reproaches "ma race, mon nom, mon père" (019.0327); Marie defends him (025.0054: "Je connais peu mon père et l'aime encore moins…").
+- **Family quarrels**: the grandfather reproaches "ma race, mon nom, mon père" (019.0326); Marie defends him (025.0054: "Je connais peu mon père et l'aime encore moins…").
 - **Letters, 1875**: Marie writes to Paul and Sacha so that they tell "mon père" she is coming to Russia, "pas pour rester chez lui" (032.0448); "Mon père écrit que … Paul se conduit d'une façon impossible" (039.0176).
 
 ## 1876–1877: Poltava, Gavronzi, Paris, Rome

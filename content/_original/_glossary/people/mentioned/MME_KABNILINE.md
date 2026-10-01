@@ -21,7 +21,7 @@ A woman in Geneva from whom M. Yourkoff borrowed a riding habit (amazone) for Ma
 
 ## Diary References
 
-- **May 25, 1873** (005.0046): "M. York a proposé de me procurer une amazone chez Mme Kabniline, et un cheval."
+- **May 25, 1873** (005.0044): "M. York a proposé de me procurer une amazone chez Mme Kabniline, et un cheval."
 
 ## Research Notes
 

@@ -27,7 +27,7 @@ Marie was reading *The Lamplighter* (or more precisely, a companion novel by the
 
 ## Diary References
 
-- **May 22, 1873** (005.0024): Marie mentions "Mabel Waughan by the author of 'The Lamplighter'" — a book she lost and needs to replace.
+- **May 22, 1873** (005.0023): Marie mentions "Mabel Waughan by the author of 'The Lamplighter'" — a book she lost and needs to replace.
 
 ## Research Notes
 

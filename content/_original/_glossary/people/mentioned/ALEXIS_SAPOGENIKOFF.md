@@ -21,7 +21,7 @@ A young man referred to as "Alexis" or "Aliocha" (Russian diminutive of Alexis) 
 
 ## Diary References
 
-- **May 24, 1873** (005.0036): "At eight o'clock Mr Yourkoff with Alexis and Cima, the boy who lives with them, came to go to the circus with us."
+- **May 24, 1873** (005.0034): "At eight o'clock Mr Yourkoff with Alexis and Cima, the boy who lives with them, came to go to the circus with us."
 - **May 27, 1873** (005): Referred to as "Aliocha" alongside Cima on a horseback excursion.
 
 ## Research Notes

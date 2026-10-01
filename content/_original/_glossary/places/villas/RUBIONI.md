@@ -20,8 +20,8 @@ last_updated: 2026-05-31
 
 ## Diary References
 
-- **May 29, 1873** (005.0098): "I think *Rubioni* is convenient enough" — mentioned during apartment-hunting.
-- **June 4, 1873** (005.0167): "Rubioni" mentioned again in context of accommodation options.
+- **May 29, 1873** (005.0092): "I think *Rubioni* is convenient enough" — mentioned during apartment-hunting.
+- **June 4, 1873** (005.0159): "Rubioni" mentioned again in context of accommodation options.
 
 ## Research Notes
 

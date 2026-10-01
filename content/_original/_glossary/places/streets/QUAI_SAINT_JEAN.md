@@ -21,7 +21,7 @@ The Quai Saint-Jean (or Quai Saint-Jean-Baptiste) was a street or quayside in Ni
 
 ## Diary References
 
-- **June 14, 1873** (005.0276): "Puis au quai Saint-Jean voir le corsage gris. C'est mal fait, j'ai besoin d'une robe, celle-là est manquée."
+- **June 14, 1873** (005.0268): "Puis au quai Saint-Jean voir le corsage gris. C'est mal fait, j'ai besoin d'une robe, celle-là est manquée."
 
 ## Research Notes
 

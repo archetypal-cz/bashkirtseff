@@ -1,0 +1,42 @@
+002: 0 confirmed, 1 not joined
+003: 1 confirmed
+004: 9 confirmed, 3 not joined
+005: 8 confirmed, 4 not joined
+006: 0 confirmed, 1 not joined
+008: 0 confirmed, 9 not joined
+010: 0 confirmed, 1 not joined
+011: 0 confirmed, 1 not joined
+015: 1 confirmed
+016: 25 confirmed, 5 not joined
+017: 0 confirmed, 1 not joined
+018: 1 confirmed, 1 not joined
+019: 1 confirmed, 1 not joined
+021: 1 confirmed
+023: 0 confirmed, 1 not joined
+031: 1 confirmed
+033: 1 confirmed
+039: 1 confirmed, 1 not joined
+043: 19 confirmed, 1 not joined
+044: 11 confirmed
+050: 0 confirmed, 1 to eye-check
+054: 13 confirmed, 1 not joined
+055: 5 confirmed
+059: 0 confirmed, 1 not joined
+065: 1 confirmed
+066: 0 confirmed, 1 not joined
+068: 0 confirmed, 1 not joined
+069: 0 confirmed, 2 not joined
+073: 0 confirmed, 3 not joined
+076: 0 confirmed, 1 not joined
+077: 11 confirmed, 1 to eye-check
+084: 2 confirmed, 1 not joined
+091: 0 confirmed, 6 to eye-check
+092: 14 confirmed, 1 to eye-check, 1 not joined
+093: 50 confirmed
+094: 9 confirmed, 1 not joined
+097: 0 confirmed, 1 to eye-check
+098: 0 confirmed, 1 not joined
+099: 7 confirmed
+102: 1 confirmed
+105: 0 confirmed, 1 not joined
+{'confirmed': 193, 'visual': 10, 'not': 46}

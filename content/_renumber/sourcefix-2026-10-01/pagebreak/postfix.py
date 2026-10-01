@@ -8,7 +8,7 @@ import sys,json,re,subprocess,glob,os
 root,mapf,chk,c=sys.argv[1:5]
 ts=subprocess.check_output(['date','+%Y-%m-%dT%H:%M:%S']).decode().strip()
 idmap=json.load(open(mapf))['id_map']
-pairs=[o for o in json.load(open(chk)) if o['n'][:3]==c]
+pairs=[o for o in json.load(open(chk)) if o['n'][:3]==c and o.get('ok',True)]
 IDRE=re.compile(r'^%% (\d{3}\.\d{4}) %%$')
 def head(path):
     try: return subprocess.check_output(['git','show','HEAD:'+path],cwd=root,stderr=subprocess.DEVNULL).decode().split('\n')
@@ -30,13 +30,13 @@ def relabel(s):
         w3=len(mm[1]); w4=len(mm[2])
         nn=f'{int(new[:3]):0{w3}d}.{int(new[4:]):0{w4}d}' if w4>=4 or True else ''
         return '[^'+nn+mm[3]+']'
-    s=re.sub(r'\[\^([^\]]+)\]',f,s)
     dropped={d['id'] for d in json.load(open(mapf)).get('dropped',[])}
     def g(m):
         old=m.group(0)
         if old in dropped: return old.replace('.','.DROPPED-')
         return idmap.get(old,old)
-    return re.sub(r'(?<![\d.])\d{3}\.\d{4}(?![\d])',g,s)
+    parts=re.split(r'(\[\^[^\]]*\])',s)
+    return ''.join(x if x.startswith('[^') else re.sub(r'(?<![\d.])\d{3}\.\d{4}(?![\d])',g,x) for x in parts)
 report=[]
 for t in ['_original','cz','uk','en','fr']:
     touched=set()
@@ -51,10 +51,10 @@ for t in ['_original','cz','uk','en','fr']:
         cn=cluster(L,n_new)
         if not cn: report.append(f'{t} {n_new} absent post'); continue
         a,b=cn; block=L[a+1:b]
-        vis1=[relabel(x) for x in old1 if x.strip() and not x.startswith('%%') and not x.startswith('[^') and not x.startswith('[//]')]
+        vis1=[x for x in old1 if x.strip() and not x.startswith('%%') and not x.startswith('[^') and not x.startswith('[//]')]
         tags1=[x for x in old1 if x.startswith('%% [#')]
         notes1=[relabel(x) for x in old1 if x.startswith('%%') and not x.startswith('%% [#') and not is_embed(x) and not x.startswith('%% kind:') and not ('ED: rebuild-carnet' in x)]
-        defs1=[relabel(x) for x in old1 if x.startswith('[^')]
+        defs1=[x for x in old1 if x.startswith('[^')]
         new=list(block)
         # 1 visible join (translations and fr visible); _original already has merged French
         if t!='_original' and vis1:

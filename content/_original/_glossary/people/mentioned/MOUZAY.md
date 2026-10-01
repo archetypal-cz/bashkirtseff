@@ -106,9 +106,9 @@ The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans
 - **April 6** (003): Marie worries about Mouzay encountering Comtesse d'Osmond de Fille
 - **April 17** (004): "les deux Mouzay" visit; religious discussion, gossip about Duke of Edinburgh
 - **May 4** (004): Met with Mouzay and daughter in carriage; visits Countess Benvenuti
-- **May 11** (004.0340): Comtesse de Mouzay and daughter visit
-- **May 28** (005.0091): Dinner at Mouzay's for her birthday; Marie annoyed by fifth-rate young man
-- **June 8** (005.0212): Mouzay "chante mes louanges" at length
+- **May 11** (004.DROPPED-0340): Comtesse de Mouzay and daughter visit
+- **May 28** (005.0085): Dinner at Mouzay's for her birthday; Marie annoyed by fifth-rate young man
+- **June 8** (005.0204): Mouzay "chante mes louanges" at length
 - **June 13** (005): Marie sent alone in voiture to Mouzay's
 - **June 14** (005): Returns napkin to Mouzay's for Anitchkoff
 - **June 16** (006): Visits Mouzay's -- she is "petite, ronde comme une pomme"

@@ -1,0 +1,1224 @@
+{
+  "carnet": "044",
+  "date": "2026-10-01",
+  "plan_path": "../rebuild-state/plan-sourcefix/pagebreak/plan-pb-044.json",
+  "plan_source": "tome scan",
+  "id_map": {
+    "044.0001": "044.0001",
+    "044.0002": "044.0002",
+    "044.0003": "044.0003",
+    "044.0004": "044.0004",
+    "044.0005": "044.0005",
+    "044.0006": "044.0006",
+    "044.0007": "044.0007",
+    "044.0008": "044.0008",
+    "044.0009": "044.0009",
+    "044.0010": "044.0010",
+    "044.0011": "044.0011",
+    "044.0012": "044.0012",
+    "044.0013": "044.0013",
+    "044.0014": "044.0014",
+    "044.0015": "044.0015",
+    "044.0016": "044.0016",
+    "044.0017": "044.0017",
+    "044.0018": "044.0018",
+    "044.0019": "044.0019",
+    "044.0020": "044.0020",
+    "044.0021": "044.0021",
+    "044.0022": "044.0022",
+    "044.0023": "044.0023",
+    "044.0024": "044.0024",
+    "044.0025": "044.0025",
+    "044.0027": "044.0026",
+    "044.0028": "044.0027",
+    "044.0029": "044.0028",
+    "044.0030": "044.0029",
+    "044.0031": "044.0030",
+    "044.0032": "044.0031",
+    "044.0033": "044.0032",
+    "044.0034": "044.0033",
+    "044.0035": "044.0034",
+    "044.0036": "044.0035",
+    "044.0037": "044.0036",
+    "044.0038": "044.0037",
+    "044.0039": "044.0038",
+    "044.0040": "044.0039",
+    "044.0041": "044.0040",
+    "044.0042": "044.0041",
+    "044.0043": "044.0042",
+    "044.0044": "044.0043",
+    "044.0045": "044.0044",
+    "044.0046": "044.0045",
+    "044.0047": "044.0046",
+    "044.0048": "044.0047",
+    "044.0049": "044.0048",
+    "044.0050": "044.0049",
+    "044.0051": "044.0050",
+    "044.0052": "044.0051",
+    "044.0053": "044.0052",
+    "044.0054": "044.0053",
+    "044.0055": "044.0054",
+    "044.0056": "044.0055",
+    "044.0057": "044.0056",
+    "044.0058": "044.0057",
+    "044.0059": "044.0058",
+    "044.0060": "044.0059",
+    "044.0061": "044.0060",
+    "044.0062": "044.0061",
+    "044.0063": "044.0062",
+    "044.0064": "044.0063",
+    "044.0065": "044.0064",
+    "044.0066": "044.0065",
+    "044.0067": "044.0066",
+    "044.0068": "044.0067",
+    "044.0069": "044.0068",
+    "044.0071": "044.0069",
+    "044.0072": "044.0070",
+    "044.0073": "044.0071",
+    "044.0074": "044.0072",
+    "044.0075": "044.0073",
+    "044.0076": "044.0074",
+    "044.0077": "044.0075",
+    "044.0078": "044.0076",
+    "044.0079": "044.0077",
+    "044.0080": "044.0078",
+    "044.0081": "044.0079",
+    "044.0082": "044.0080",
+    "044.0083": "044.0081",
+    "044.0084": "044.0082",
+    "044.0085": "044.0083",
+    "044.0086": "044.0084",
+    "044.0087": "044.0085",
+    "044.0088": "044.0086",
+    "044.0089": "044.0087",
+    "044.0090": "044.0088",
+    "044.0091": "044.0089",
+    "044.0093": "044.0090",
+    "044.0094": "044.0091",
+    "044.0095": "044.0092",
+    "044.0096": "044.0093",
+    "044.0097": "044.0094",
+    "044.0098": "044.0095",
+    "044.0099": "044.0096",
+    "044.0100": "044.0097",
+    "044.0101": "044.0098",
+    "044.0102": "044.0099",
+    "044.0103": "044.0100",
+    "044.0104": "044.0101",
+    "044.0105": "044.0102",
+    "044.0106": "044.0103",
+    "044.0107": "044.0104",
+    "044.0108": "044.0105",
+    "044.0109": "044.0106",
+    "044.0110": "044.0107",
+    "044.0111": "044.0108",
+    "044.0112": "044.0109",
+    "044.0113": "044.0110",
+    "044.0114": "044.0111",
+    "044.0115": "044.0112",
+    "044.0116": "044.0113",
+    "044.0117": "044.0114",
+    "044.0118": "044.0115",
+    "044.0119": "044.0116",
+    "044.0120": "044.0117",
+    "044.0121": "044.0118",
+    "044.0122": "044.0119",
+    "044.0123": "044.0120",
+    "044.0124": "044.0121",
+    "044.0125": "044.0122",
+    "044.0126": "044.0123",
+    "044.0127": "044.0124",
+    "044.0128": "044.0125",
+    "044.0129": "044.0126",
+    "044.0130": "044.0127",
+    "044.0131": "044.0128",
+    "044.0132": "044.0129",
+    "044.0133": "044.0130",
+    "044.0134": "044.0131",
+    "044.0135": "044.0132",
+    "044.0137": "044.0133",
+    "044.0138": "044.0134",
+    "044.0139": "044.0135",
+    "044.0140": "044.0136",
+    "044.0141": "044.0137",
+    "044.0142": "044.0138",
+    "044.0143": "044.0139",
+    "044.0144": "044.0140",
+    "044.0145": "044.0141",
+    "044.0146": "044.0142",
+    "044.0147": "044.0143",
+    "044.0148": "044.0144",
+    "044.0150": "044.0145",
+    "044.0151": "044.0146",
+    "044.0152": "044.0147",
+    "044.0153": "044.0148",
+    "044.0154": "044.0149",
+    "044.0155": "044.0150",
+    "044.0156": "044.0151",
+    "044.0157": "044.0152",
+    "044.0158": "044.0153",
+    "044.0159": "044.0154",
+    "044.0160": "044.0155",
+    "044.0161": "044.0156",
+    "044.0163": "044.0157",
+    "044.0164": "044.0158",
+    "044.0165": "044.0159",
+    "044.0166": "044.0160",
+    "044.0167": "044.0161",
+    "044.0169": "044.0162",
+    "044.0170": "044.0163",
+    "044.0171": "044.0164",
+    "044.0172": "044.0165",
+    "044.0173": "044.0166",
+    "044.0174": "044.0167",
+    "044.0175": "044.0168",
+    "044.0176": "044.0169",
+    "044.0178": "044.0170",
+    "044.0179": "044.0171",
+    "044.0180": "044.0172",
+    "044.0181": "044.0173",
+    "044.0182": "044.0174",
+    "044.0183": "044.0175",
+    "044.0184": "044.0176",
+    "044.0185": "044.0177",
+    "044.0186": "044.0178",
+    "044.0187": "044.0179",
+    "044.0188": "044.0180",
+    "044.0189": "044.0181",
+    "044.0190": "044.0182",
+    "044.0191": "044.0183",
+    "044.0192": "044.0184",
+    "044.0193": "044.0185",
+    "044.0194": "044.0186",
+    "044.0195": "044.0187",
+    "044.0196": "044.0188",
+    "044.0197": "044.0189",
+    "044.0198": "044.0190",
+    "044.0199": "044.0191",
+    "044.0200": "044.0192",
+    "044.0201": "044.0193",
+    "044.0202": "044.0194",
+    "044.0203": "044.0195",
+    "044.0205": "044.0196",
+    "044.0206": "044.0197",
+    "044.0207": "044.0198",
+    "044.0208": "044.0199",
+    "044.0209": "044.0200",
+    "044.0210": "044.0201",
+    "044.0211": "044.0202",
+    "044.0212": "044.0203",
+    "044.0213": "044.0204",
+    "044.0215": "044.0205",
+    "044.0216": "044.0206",
+    "044.0217": "044.0207",
+    "044.0218": "044.0208",
+    "044.0219": "044.0209",
+    "044.0220": "044.0210",
+    "044.0221": "044.0211",
+    "044.0222": "044.0212",
+    "044.0223": "044.0213",
+    "044.0224": "044.0214",
+    "044.0225": "044.0215",
+    "044.0226": "044.0216",
+    "044.0227": "044.0217",
+    "044.0228": "044.0218",
+    "044.0230": "044.0219",
+    "044.0231": "044.0220",
+    "044.0232": "044.0221",
+    "044.0233": "044.0222",
+    "044.0234": "044.0223",
+    "044.0235": "044.0224",
+    "044.0236": "044.0225",
+    "044.0237": "044.0226",
+    "044.0238": "044.0227",
+    "044.0239": "044.0228",
+    "044.0240": "044.0229",
+    "044.0241": "044.0230",
+    "044.0242": "044.0231",
+    "044.0243": "044.0232",
+    "044.0244": "044.0233",
+    "044.0245": "044.0234",
+    "044.0246": "044.0235",
+    "044.0247": "044.0236",
+    "044.0248": "044.0237",
+    "044.0249": "044.0238",
+    "044.0250": "044.0239",
+    "044.0251": "044.0240",
+    "044.0252": "044.0241",
+    "044.0253": "044.0242",
+    "044.0254": "044.0243",
+    "044.0255": "044.0244",
+    "044.0256": "044.0245",
+    "044.0257": "044.0246",
+    "044.0258": "044.0247",
+    "044.0259": "044.0248",
+    "044.0260": "044.0249",
+    "044.0261": "044.0250",
+    "044.0262": "044.0251",
+    "044.0263": "044.0252",
+    "044.0264": "044.0253",
+    "044.0265": "044.0254",
+    "044.0266": "044.0255",
+    "044.0267": "044.0256",
+    "044.0268": "044.0257"
+  },
+  "changed_ids": 232,
+  "new_paragraphs": [],
+  "dropped": [
+    {
+      "id": "044.0026",
+      "reason": "joined to 044.0025: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0026"
+    },
+    {
+      "id": "044.0070",
+      "reason": "joined to 044.0069: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0070"
+    },
+    {
+      "id": "044.0092",
+      "reason": "joined to 044.0091: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0092"
+    },
+    {
+      "id": "044.0136",
+      "reason": "joined to 044.0135: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0136"
+    },
+    {
+      "id": "044.0149",
+      "reason": "joined to 044.0148: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0149"
+    },
+    {
+      "id": "044.0162",
+      "reason": "joined to 044.0161: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0162"
+    },
+    {
+      "id": "044.0168",
+      "reason": "joined to 044.0167: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0168"
+    },
+    {
+      "id": "044.0177",
+      "reason": "joined to 044.0176: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0177"
+    },
+    {
+      "id": "044.0204",
+      "reason": "joined to 044.0203: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0204"
+    },
+    {
+      "id": "044.0214",
+      "reason": "joined to 044.0213: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0214"
+    },
+    {
+      "id": "044.0229",
+      "reason": "joined to 044.0228: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "044.DROPPED-0229"
+    }
+  ],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [],
+  "last_id": "044.0257",
+  "flag_resets": {
+    "cz": [
+      "1875-09-22.md",
+      "1875-09-23.md",
+      "1875-09-24.md",
+      "1875-09-25.md"
+    ],
+    "uk": [
+      "1875-09-22.md",
+      "1875-09-23.md",
+      "1875-09-24.md",
+      "1875-09-25.md"
+    ],
+    "en": [
+      "1875-09-22.md",
+      "1875-09-23.md",
+      "1875-09-24.md",
+      "1875-09-25.md"
+    ],
+    "fr": [
+      "1875-09-22.md",
+      "1875-09-23.md",
+      "1875-09-24.md",
+      "1875-09-25.md"
+    ]
+  },
+  "plan": {
+    "carnet": "044",
+    "_generated": "identity plan of content/_original/044 — keys starting with _ are ignored",
+    "entries": [
+      {
+        "file": "1875-09-21.md",
+        "date": "1875-09-21",
+        "paragraphs": [
+          {
+            "old": "044.0001"
+          },
+          {
+            "old": "044.0002"
+          },
+          {
+            "old": "044.0003"
+          },
+          {
+            "old": "044.0004"
+          },
+          {
+            "old": "044.0005"
+          },
+          {
+            "old": "044.0006"
+          },
+          {
+            "old": "044.0007"
+          },
+          {
+            "old": "044.0008"
+          },
+          {
+            "old": "044.0009"
+          },
+          {
+            "old": "044.0010"
+          },
+          {
+            "old": "044.0011"
+          },
+          {
+            "old": "044.0012"
+          },
+          {
+            "old": "044.0013"
+          },
+          {
+            "old": "044.0014"
+          },
+          {
+            "old": "044.0015"
+          },
+          {
+            "old": "044.0016"
+          },
+          {
+            "old": "044.0017"
+          },
+          {
+            "old": "044.0018"
+          },
+          {
+            "old": "044.0019"
+          },
+          {
+            "old": "044.0020"
+          },
+          {
+            "old": "044.0021"
+          },
+          {
+            "old": "044.0022"
+          }
+        ],
+        "_first_line": "# 21 septembre 1875 -suite"
+      },
+      {
+        "file": "1875-09-22.md",
+        "date": "1875-09-22",
+        "paragraphs": [
+          {
+            "old": "044.0023"
+          },
+          {
+            "old": "044.0024"
+          },
+          {
+            "old": "044.0025",
+            "set_french": "Je me réveille toute drôle comme le lendemain du départ du Niçois. Je suis en colère ! Je n'ai abaissé ma main jusqu'à lui que dans la certitude de le ramasser et voilà qu'il s'envole comme une feuille emportée par le vent ! se rapproche, je crois le tenir, mais point ! il est déjà loin. Cette chasse m'a énervée."
+          },
+          {
+            "old": "044.0027"
+          },
+          {
+            "old": "044.0028"
+          },
+          {
+            "old": "044.0029"
+          },
+          {
+            "old": "044.0030"
+          },
+          {
+            "old": "044.0031"
+          },
+          {
+            "old": "044.0032"
+          },
+          {
+            "old": "044.0033"
+          },
+          {
+            "old": "044.0034"
+          },
+          {
+            "old": "044.0035"
+          },
+          {
+            "old": "044.0036"
+          },
+          {
+            "old": "044.0037"
+          },
+          {
+            "old": "044.0038"
+          },
+          {
+            "old": "044.0039"
+          },
+          {
+            "old": "044.0040"
+          },
+          {
+            "old": "044.0041"
+          },
+          {
+            "old": "044.0042"
+          },
+          {
+            "old": "044.0043"
+          },
+          {
+            "old": "044.0044"
+          },
+          {
+            "old": "044.0045"
+          },
+          {
+            "old": "044.0046"
+          },
+          {
+            "old": "044.0047"
+          },
+          {
+            "old": "044.0048"
+          },
+          {
+            "old": "044.0049"
+          },
+          {
+            "old": "044.0050"
+          },
+          {
+            "old": "044.0051"
+          },
+          {
+            "old": "044.0052"
+          },
+          {
+            "old": "044.0053"
+          },
+          {
+            "old": "044.0054"
+          },
+          {
+            "old": "044.0055"
+          },
+          {
+            "old": "044.0056"
+          },
+          {
+            "old": "044.0057"
+          },
+          {
+            "old": "044.0058"
+          },
+          {
+            "old": "044.0059"
+          },
+          {
+            "old": "044.0060"
+          },
+          {
+            "old": "044.0061"
+          },
+          {
+            "old": "044.0062"
+          },
+          {
+            "old": "044.0063"
+          },
+          {
+            "old": "044.0064"
+          },
+          {
+            "old": "044.0065"
+          },
+          {
+            "old": "044.0066"
+          },
+          {
+            "old": "044.0067"
+          },
+          {
+            "old": "044.0068"
+          },
+          {
+            "old": "044.0069",
+            "set_french": "—  Vous ne perdrez rien pour attendre, demain vous serez à votre place. Ne riez pas, Ah ! mais fermez donc la bouche ! Et naturellement il l'ouvrait, riait puis la fermait et elle se rouvrait encore."
+          },
+          {
+            "old": "044.0071"
+          },
+          {
+            "old": "044.0072"
+          },
+          {
+            "old": "044.0073"
+          },
+          {
+            "old": "044.0074"
+          },
+          {
+            "old": "044.0075"
+          },
+          {
+            "old": "044.0076"
+          },
+          {
+            "old": "044.0077"
+          },
+          {
+            "old": "044.0078"
+          },
+          {
+            "old": "044.0079"
+          },
+          {
+            "old": "044.0080"
+          },
+          {
+            "old": "044.0081"
+          },
+          {
+            "old": "044.0082"
+          },
+          {
+            "old": "044.0083"
+          },
+          {
+            "old": "044.0084"
+          },
+          {
+            "old": "044.0085"
+          },
+          {
+            "old": "044.0086"
+          },
+          {
+            "old": "044.0087"
+          },
+          {
+            "old": "044.0088"
+          },
+          {
+            "old": "044.0089"
+          }
+        ],
+        "_first_line": "# Mercredi 22 septembre 1875"
+      },
+      {
+        "file": "1875-09-23.md",
+        "date": "1875-09-23",
+        "paragraphs": [
+          {
+            "old": "044.0090"
+          },
+          {
+            "old": "044.0091",
+            "set_french": "Ce qu'il y a d'atroce, c'est que chaque fois je me laisse prendre !"
+          },
+          {
+            "old": "044.0093"
+          },
+          {
+            "old": "044.0094"
+          },
+          {
+            "old": "044.0095"
+          },
+          {
+            "old": "044.0096"
+          },
+          {
+            "old": "044.0097"
+          },
+          {
+            "old": "044.0098"
+          },
+          {
+            "old": "044.0099"
+          },
+          {
+            "old": "044.0100"
+          },
+          {
+            "old": "044.0101"
+          },
+          {
+            "old": "044.0102"
+          },
+          {
+            "old": "044.0103"
+          },
+          {
+            "old": "044.0104"
+          },
+          {
+            "old": "044.0105"
+          },
+          {
+            "old": "044.0106"
+          },
+          {
+            "old": "044.0107"
+          },
+          {
+            "old": "044.0108"
+          },
+          {
+            "old": "044.0109"
+          },
+          {
+            "old": "044.0110"
+          },
+          {
+            "old": "044.0111"
+          },
+          {
+            "old": "044.0112"
+          },
+          {
+            "old": "044.0113"
+          },
+          {
+            "old": "044.0114"
+          },
+          {
+            "old": "044.0115"
+          },
+          {
+            "old": "044.0116"
+          },
+          {
+            "old": "044.0117"
+          },
+          {
+            "old": "044.0118"
+          },
+          {
+            "old": "044.0119"
+          },
+          {
+            "old": "044.0120"
+          },
+          {
+            "old": "044.0121"
+          },
+          {
+            "old": "044.0122"
+          },
+          {
+            "old": "044.0123"
+          },
+          {
+            "old": "044.0124"
+          },
+          {
+            "old": "044.0125"
+          },
+          {
+            "old": "044.0126"
+          },
+          {
+            "old": "044.0127"
+          },
+          {
+            "old": "044.0128"
+          },
+          {
+            "old": "044.0129"
+          },
+          {
+            "old": "044.0130"
+          },
+          {
+            "old": "044.0131"
+          },
+          {
+            "old": "044.0132"
+          },
+          {
+            "old": "044.0133"
+          },
+          {
+            "old": "044.0134"
+          },
+          {
+            "old": "044.0135",
+            "set_french": "Ce serait trop beau et c'est pour cela que ça ne peut pas se faire. Toutes ces choses m'ont étourdie; quand tout le monde est parti je m'enfeme *avec mes pensées,* écris le galimatias que voilà et me couche. Que la plume est impuissante ! que je voudrais raconter toutes les bêtises que nous avons faites, ce soir, ma tante elle-même en riait comme-une folle, quant à moi je procédais à toutes nos absurdités avec une gravité sublime, ce qui me faisait étouffer puis aller me mettre la face contre le mur et battre le parquet des pieds."
+          },
+          {
+            "old": "044.0137"
+          },
+          {
+            "old": "044.0138"
+          },
+          {
+            "old": "044.0139"
+          },
+          {
+            "old": "044.0140"
+          },
+          {
+            "old": "044.0141"
+          },
+          {
+            "old": "044.0142"
+          },
+          {
+            "old": "044.0143"
+          },
+          {
+            "old": "044.0144"
+          },
+          {
+            "old": "044.0145"
+          },
+          {
+            "old": "044.0146"
+          }
+        ],
+        "_first_line": "# Jeudi 23 septembre 1875"
+      },
+      {
+        "file": "1875-09-24.md",
+        "date": "1875-09-24",
+        "paragraphs": [
+          {
+            "old": "044.0147"
+          },
+          {
+            "old": "044.0148",
+            "set_french": "Je sors à dix heures, seule avec Fritz, pas une âme ! Un soleil furieux, une mer bleue, de ce bleu violacé désagréable et un ciel de feu ! Je marche une heure; rentrée et arrivée sur le palier du premier, je vois un fiacre à la porte de la Tour, tiens pensai-je, ce serait drôle de le rencontrer après hier et je ressors mais ne rencontre personne, le misérable a d'ailleurs l'habitude de passer par la rue de France le matin."
+          },
+          {
+            "old": "044.0150"
+          },
+          {
+            "old": "044.0151"
+          },
+          {
+            "old": "044.0152"
+          },
+          {
+            "old": "044.0153"
+          },
+          {
+            "old": "044.0154"
+          },
+          {
+            "old": "044.0155"
+          },
+          {
+            "old": "044.0156"
+          },
+          {
+            "old": "044.0157"
+          },
+          {
+            "old": "044.0158"
+          },
+          {
+            "old": "044.0159"
+          },
+          {
+            "old": "044.0160"
+          },
+          {
+            "old": "044.0161",
+            "set_french": "Il n'y a rien de risible mais cela m'amuse parce que tout ce qui a rapport à cet homme m'intéresse; je trouve sa manière de parler adorable, tout ce qu'on peut dire de lui m'intéresse particulièrement, les moindres choses deviennent des événements et j apprends avec une joie un peu trop vive tout ce qui peu l'élever ou le grandir, chaque extravagance, chaque folie, chaque caprice de cette créature m'occupe. Et cependant, je ne puis me dire: je l'aime. Il m'a irritée, à force de colère je commence à m'en occuper trop et il peut bien se vanter, s'il y a chez moi quelque chose pour lui, d'avoir créé ce quelque chose lui-même."
+          },
+          {
+            "old": "044.0163"
+          },
+          {
+            "old": "044.0164"
+          },
+          {
+            "old": "044.0165"
+          },
+          {
+            "old": "044.0166"
+          },
+          {
+            "old": "044.0167",
+            "set_french": "Mais pourquoi se faire présenter, pourquoi venir ! Pourquoi ! Personne ne l'a demandé, il est venu tout seul ! Pourquoi ! Enfin, s'il n'avait pas donné lieu à des suppositions, je n'aurais rien supposé du tout. Car je n'ai rien dit ni de Woerman, ni de Gericke, ni de Paparigopoulos, ni de Tanlay, ni de Barnola, ni de personne. Aucun de ces messieurs ne m'a fait supposer aucune chose. Mais celui-ci, tout d'un coup... Il y a des moments où je pense que M. d'Audiffret a fait notre connaissance tout simplement... eh bien non, pas simplement du tout, enfin continuons, je dis donc qu'il a fait notre connaissance... par curiosité et voilà tout, il vient de temps en temps et voilà tout, absolument *tout.*"
+          },
+          {
+            "old": "044.0169"
+          },
+          {
+            "old": "044.0170"
+          },
+          {
+            "old": "044.0171"
+          },
+          {
+            "old": "044.0172"
+          },
+          {
+            "old": "044.0173"
+          },
+          {
+            "old": "044.0174"
+          },
+          {
+            "old": "044.0175"
+          },
+          {
+            "old": "044.0176",
+            "set_french": "De nouveau je suis abattue, triste, j'ai envie de pleurer. Comme à Spa, j'ai vécu un mois comme il faut, je suis retournée à Nice et, de nouveau, suis retombée dans cet état déplorable pour tout l'hiver. Au printemps Girofla et les autres faquins niçois m'ont réveillée, égayée, mais voici l'automne et, de nouveau, vient l'ennui. Non il faut partir, depuis le premier moment jusqu'aujourd'hui je n'ai eu que des affronts, des chagrins, des déceptions ! Tout m'échappe ici, la terre se dérobe sous mes pas."
+          },
+          {
+            "old": "044.0178"
+          },
+          {
+            "old": "044.0179"
+          },
+          {
+            "old": "044.0180"
+          },
+          {
+            "old": "044.0181"
+          },
+          {
+            "old": "044.0182"
+          },
+          {
+            "old": "044.0183"
+          },
+          {
+            "old": "044.0184"
+          },
+          {
+            "old": "044.0185"
+          },
+          {
+            "old": "044.0186"
+          },
+          {
+            "old": "044.0187"
+          },
+          {
+            "old": "044.0188"
+          },
+          {
+            "old": "044.0189"
+          },
+          {
+            "old": "044.0190"
+          },
+          {
+            "old": "044.0191"
+          },
+          {
+            "old": "044.0192"
+          },
+          {
+            "old": "044.0193"
+          },
+          {
+            "old": "044.0194"
+          },
+          {
+            "old": "044.0195"
+          },
+          {
+            "old": "044.0196"
+          },
+          {
+            "old": "044.0197"
+          },
+          {
+            "old": "044.0198"
+          },
+          {
+            "old": "044.0199"
+          },
+          {
+            "old": "044.0200"
+          },
+          {
+            "old": "044.0201"
+          },
+          {
+            "old": "044.0202"
+          },
+          {
+            "old": "044.0203",
+            "set_french": "Si I homme après sa naissance et dans ses premiers mouvements, n'éprouvait pas de résistance dans le contact des choses d'alentour, il arriverait à ne pas se distinguer d'avec le monde extérieur, à croire que ce monde fait partie de lui-même et de son corps, à mesure qu'il s'y étendrait de son geste ou de son pas. Il arriverait à se persuader que le tout n'est qu'une dépendance et une extension de son être personnel; il dirait en toute confiance: \"L'Univers c'est moi I\"."
+          },
+          {
+            "old": "044.0205"
+          },
+          {
+            "old": "044.0206"
+          },
+          {
+            "old": "044.0207"
+          },
+          {
+            "old": "044.0208"
+          },
+          {
+            "old": "044.0209"
+          },
+          {
+            "old": "044.0210"
+          },
+          {
+            "old": "044.0211"
+          },
+          {
+            "old": "044.0212"
+          },
+          {
+            "old": "044.0213",
+            "set_french": "Et j'ai osé nommer du même nom le sentiment bas et vulgaire d'aujourd'hui ! Ici, je désire que l'homme me voie: mais pour lui, pour qu'il m'aime, pour lui enfin; j'aime aussi le voir mais pas comme bonheur, comme amusement, parce qu'il est plus intéressant que les autres... pour lui enfin, parce que je me suis mise en tête cette absurde idée."
+          },
+          {
+            "old": "044.0215"
+          },
+          {
+            "old": "044.0216"
+          },
+          {
+            "old": "044.0217"
+          },
+          {
+            "old": "044.0218"
+          },
+          {
+            "old": "044.0219"
+          },
+          {
+            "old": "044.0220"
+          },
+          {
+            "old": "044.0221"
+          },
+          {
+            "old": "044.0222"
+          },
+          {
+            "old": "044.0223"
+          },
+          {
+            "old": "044.0224"
+          },
+          {
+            "old": "044.0225"
+          }
+        ],
+        "_first_line": "# Vendredi 24 septembre 1875"
+      },
+      {
+        "file": "1875-09-25.md",
+        "date": "1875-09-25",
+        "paragraphs": [
+          {
+            "old": "044.0226"
+          },
+          {
+            "old": "044.0227"
+          },
+          {
+            "old": "044.0228",
+            "set_french": "(Robe drap bleu très foncé, chapeau noir, en un mot comme I autre jour où je me suis trouvée si bien à Schlangenbad) ma tante ne venait pas, je pris Frédéric et sortis à la Promenade, où les quelques passants ont ouvert de grands yeux en me voyant en de sombres couleurs, moi la dame blanche. Ma tante me prend en voiture, Fritz monte aussi. Nous étions très beaux tous les deux, mon chien et moi."
+          },
+          {
+            "old": "044.0230"
+          },
+          {
+            "old": "044.0231"
+          },
+          {
+            "old": "044.0232"
+          },
+          {
+            "old": "044.0233"
+          },
+          {
+            "old": "044.0234"
+          },
+          {
+            "old": "044.0235"
+          },
+          {
+            "old": "044.0236"
+          },
+          {
+            "old": "044.0237"
+          },
+          {
+            "old": "044.0238"
+          },
+          {
+            "old": "044.0239"
+          },
+          {
+            "old": "044.0240"
+          },
+          {
+            "old": "044.0241"
+          },
+          {
+            "old": "044.0242"
+          },
+          {
+            "old": "044.0243"
+          },
+          {
+            "old": "044.0244"
+          },
+          {
+            "old": "044.0245"
+          },
+          {
+            "old": "044.0246"
+          },
+          {
+            "old": "044.0247"
+          },
+          {
+            "old": "044.0248"
+          },
+          {
+            "old": "044.0249"
+          },
+          {
+            "old": "044.0250"
+          },
+          {
+            "old": "044.0251"
+          },
+          {
+            "old": "044.0252"
+          },
+          {
+            "old": "044.0253"
+          },
+          {
+            "old": "044.0254"
+          },
+          {
+            "old": "044.0255"
+          },
+          {
+            "old": "044.0256"
+          },
+          {
+            "old": "044.0257"
+          },
+          {
+            "old": "044.0258"
+          },
+          {
+            "old": "044.0259"
+          },
+          {
+            "old": "044.0260"
+          },
+          {
+            "old": "044.0261"
+          },
+          {
+            "old": "044.0262"
+          },
+          {
+            "old": "044.0263"
+          },
+          {
+            "old": "044.0264"
+          },
+          {
+            "old": "044.0265"
+          },
+          {
+            "old": "044.0266"
+          },
+          {
+            "old": "044.0267"
+          },
+          {
+            "old": "044.0268"
+          }
+        ],
+        "_first_line": "# Samedi 25 septembre 1875"
+      }
+    ],
+    "source": "tome scan",
+    "drop": [
+      {
+        "id": "044.0026",
+        "reason": "joined to 044.0025: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0070",
+        "reason": "joined to 044.0069: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0092",
+        "reason": "joined to 044.0091: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0136",
+        "reason": "joined to 044.0135: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0149",
+        "reason": "joined to 044.0148: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0162",
+        "reason": "joined to 044.0161: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0168",
+        "reason": "joined to 044.0167: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0177",
+        "reason": "joined to 044.0176: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0204",
+        "reason": "joined to 044.0203: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0214",
+        "reason": "joined to 044.0213: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "044.0229",
+        "reason": "joined to 044.0228: one print paragraph split at a page break in the transcription (tome05.docx: the two halves sit either side of a page number)"
+      }
+    ]
+  }
+}

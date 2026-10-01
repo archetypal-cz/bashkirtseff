@@ -28,6 +28,6 @@ In June 1873, Marie was studying and copying classical works, including the Apol
 
 ## Diary References
 
-- **June 8, 1873** (005.0210): Marie plans to copy the Apollo Belvedere; compares it to Hamilton's appearance.
+- **June 8, 1873** (005.0202): Marie plans to copy the Apollo Belvedere; compares it to Hamilton's appearance.
 
 %% 2026-05-31T12:00:00 RSR: Created to resolve broken UK link. Sources: Wikipedia "Apollo Belvedere"; Vatican Museums official page. %%

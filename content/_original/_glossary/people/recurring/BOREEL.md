@@ -74,7 +74,7 @@ In her 1875 retrospective, Marie states that when Audiffret was barely twenty, "
 The Boreel family maintained a seasonal presence in Nice with significant property:
 - **Villa and residence**: The family occupied or rented a villa on the Promenade des Anglais area; Marie mentions "les villas 57, Boreel, Canepa" in her panoramic view from Villa Acqua Viva (006, entry 1873-06-19). They also used **La Corinthienne**, a villa Marie associates with Boreel family gatherings and dinners (004.0202, entry 1873-04-29; 010.0088, entry 1873-09-26).
 - **Mme Boreel** (his mother): Seen at her window at the start of the 1873-74 season (010.0088, entry 1873-09-27). Marie notes her arriving with a young blonde woman she speculates might be Boreel's wife (010.0152, entry 1873-10-01). Last seen departing Nice with Boreel in May 1876 (059, entry 1876-05-07).
-- **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0204, entry 1873-03-07; 004.0333, entry 1873-05-10).
+- **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0204, entry 1873-03-07; 004.0328, entry 1873-05-10).
 - **A dog**: The family dog's collar read "M. Robert Boreel" and would follow Marie's family in the street (004.0203, entry 1873-04-27).
 - **Horses**: Boreel kept fine horses in Nice. Marie notes he had "les plus beaux chevaux" (040.0085) and is frequently seen with one or two horses on the Promenade.
 

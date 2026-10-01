@@ -21,7 +21,7 @@ A count known to M. Yourkoff, encountered at the circus in Geneva in May 1873. M
 
 ## Diary References
 
-- **May 24, 1873** (005.0039): Seen at the circus in Geneva; "Yourkoff le connaît, c'est le comte Grimau."
+- **May 24, 1873** (005.0037): Seen at the circus in Geneva; "Yourkoff le connaît, c'est le comte Grimau."
 - Further mentions in carnet 005 (Nice, June 1873).
 
 ## Research Notes

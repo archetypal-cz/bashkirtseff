@@ -27,7 +27,7 @@ last_updated: 2026-05-25
 ## Identity
 
 %% GLO_BETE.0002 %%
-**Princess Nathalie (Nadine) Galitzine** (nee unknown; Russian: Голицына), a Russian princess of the Galitzin/Golitsyn family. Marie gives her the nickname "Bête" (French: "beast" or "stupid one"), one of her characteristically unflattering yet affectionate monikers. Marie herself explains the nickname: "Bête que j'ai injustement nommée ainsi; mais Bête est plus court que princesse et je le préfère" (015.0045, Jan 5, 1874) -- she chose "Bête" simply because it was shorter than "princesse." In 1876, looking back from Rome, she refers to her as "ma chère princesse que j'avais surnommée si bêtement Bête" (055.1011, Mar 22, 1876) -- "my dear princess whom I had nicknamed so stupidly Bête."
+**Princess Nathalie (Nadine) Galitzine** (nee unknown; Russian: Голицына), a Russian princess of the Galitzin/Golitsyn family. Marie gives her the nickname "Bête" (French: "beast" or "stupid one"), one of her characteristically unflattering yet affectionate monikers. Marie herself explains the nickname: "Bête que j'ai injustement nommée ainsi; mais Bête est plus court que princesse et je le préfère" (015.0045, Jan 5, 1874) -- she chose "Bête" simply because it was shorter than "princesse." In 1876, looking back from Rome, she refers to her as "ma chère princesse que j'avais surnommée si bêtement Bête" (055.1006, Mar 22, 1876) -- "my dear princess whom I had nicknamed so stupidly Bête."
 
 %% GLO_BETE.0003 %%
 The identification is confirmed by multiple raw carnet indices which explicitly state: "Bête: Galitzine (princesse)" and "Galitzine (Mme Nathalie, princesse), [Bête, Cunegunda]." Marie also uses "Cunegunda" as an alternate nickname -- an allusion to Voltaire's Candide, where Cunégonde is the naive heroine, used here with affectionate irony for the princess's simplicity: "la Bête, l'insipide Cunegunda" (014, Dec 11, 1873).
@@ -63,7 +63,7 @@ Despite the unflattering nickname and occasional exasperation, Princess Galitzin
 **Source of exasperation**: Marie can be withering about her intellectual limitations. "Vraiment souvent Bête m'ennuie avec ses banalités communes" (017, Mar 4, 1874). Marie finds her repetitive and parrot-like: "maintenant que je sais qu'elle répète comme un perroquet, comme une perruche, des bêtises sans fin, je suis tout à fait dégoûtée." Yet the nickname's affectionate edge is unmistakable.
 
 %% GLO_BETE.0014 %%
-**Deep emotional bond**: After parting, Marie's feelings reveal genuine attachment. In April 1875, she writes: "J'ai un désir insensé de voir la princesse Galitzine, si elle entrait en ce moment je me jetterais à son cou. Elle, ma compagne pendant tout ce temps heureux et terrible. Avec elle seule j'ai parlé de Lui!" (031.0102-0102, Apr 6, 1875). In March 1876 from Rome, she calls her "ma chère princesse" and learns she writes "lettre sur lettre" asking about Marie's progress (055.1011).
+**Deep emotional bond**: After parting, Marie's feelings reveal genuine attachment. In April 1875, she writes: "J'ai un désir insensé de voir la princesse Galitzine, si elle entrait en ce moment je me jetterais à son cou. Elle, ma compagne pendant tout ce temps heureux et terrible. Avec elle seule j'ai parlé de Lui!" (031.0102-0102, Apr 6, 1875). In March 1876 from Rome, she calls her "ma chère princesse" and learns she writes "lettre sur lettre" asking about Marie's progress (055.1006).
 
 %% GLO_BETE.0015 %%
 ## Character as Marie Describes Her
@@ -124,7 +124,7 @@ Princess Galitzine is referenced approximately 123 times across the diary, makin
 - 026 (Nov 22, 1874): Named as "princesse Nadine Galitzine" -- famous quote about gold vs. iron
 - 031.0102-0102 (Apr 6, 1875): "J'ai un désir insensé de voir la princesse Galitzine" -- deepest nostalgia
 - 050.0825 (Dec 16, 1875): "la petite blonde Nathalie Galitzine" -- death in Russia
-- 055.1011 (Mar 22, 1876): "ma chère princesse que j'avais surnommée si bêtement Bête"
+- 055.1006 (Mar 22, 1876): "ma chère princesse que j'avais surnommée si bêtement Bête"
 - 064.0446 (Aug 7, 1876): Reunion near St. Petersburg -- "j'allai chercher la princesse Galitzine"
 
 %% GLO_BETE.0021 %%

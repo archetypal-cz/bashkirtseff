@@ -21,7 +21,7 @@ A young woman known to the Bashkirtseff family, encountered at Nice station on M
 
 ## Diary References
 
-- **May 22, 1873** (005.0022): "Mme Rice avec son frère et sa cousine, Mlle Combie que nous connaissions. Nous leur avons parlé et comme elles vont par le même chemin nous nous sommes arrangées d'aller ensemble."
+- **May 22, 1873** (005.0021): "Mme Rice avec son frère et sa cousine, Mlle Combie que nous connaissions. Nous leur avons parlé et comme elles vont par le même chemin nous nous sommes arrangées d'aller ensemble."
 
 ## Research Notes
 

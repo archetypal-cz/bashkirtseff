@@ -27,8 +27,8 @@ Florence (Firenze), the capital of Tuscany, occupies a singular position in Mari
 
 Florence served as the capital of the newly unified [Kingdom of Italy](https://en.wikipedia.org/wiki/Kingdom_of_Italy) from 1865 to 1871, when the capital was transferred to [Rome](https://en.wikipedia.org/wiki/Rome). This brief period of prominence brought a massive urban redevelopment known as the *risanamento*, masterminded by architect [Giuseppe Poggi](https://en.wikipedia.org/wiki/Giuseppe_Poggi):
 
-- **Demolition of the medieval walls** (1865-1869) and creation of the *viali* (ring boulevards) -- the very boulevards Marie admires: "Les viali Galileo, Machiavelli et Michel Angelo sont admirables" (043.0124)
-- **Construction of [Piazzale Michelangelo](https://en.wikipedia.org/wiki/Piazzale_Michelangelo)** (1869), the panoramic terrace above the Arno where Marie attended the centenary illuminations (043.0188)
+- **Demolition of the medieval walls** (1865-1869) and creation of the *viali* (ring boulevards) -- the very boulevards Marie admires: "Les viali Galileo, Machiavelli et Michel Angelo sont admirables" (043.0119)
+- **Construction of [Piazzale Michelangelo](https://en.wikipedia.org/wiki/Piazzale_Michelangelo)** (1869), the panoramic terrace above the Arno where Marie attended the centenary illuminations (043.0180)
 - **Demolition of the old market and ghetto** to create the modern city center
 - **Economic crisis** after the capital's departure: some 30,000 bureaucrats, courtiers, and merchants left, and the municipality nearly went bankrupt
 
@@ -38,7 +38,7 @@ By the time Marie arrived in 1875, Florence was still recovering economically bu
 
 Florence hosted large and well-established foreign communities that made the city a cosmopolitan center despite its provincial size:
 
-- **The Russian colony**: Established from the 1810s, anchored by the [Demidov](https://en.wikipedia.org/wiki/Demidov_family) family (Marie drives past Villa Demidoff in 043.0131). Count [Nikolai Demidov](https://en.wikipedia.org/wiki/Nikolai_Nikitich_Demidov), Russian ambassador to Tuscany (1815-1828), built Villa di San Donato and endowed schools, hospitals, and charities. By the 1870s, Russian aristocratic families formed a permanent colony; Count Kiseleff served as Russian minister at Florence (mentioned in 055.0674). The [Russian Orthodox Church](https://en.wikipedia.org/wiki/Russian_Orthodox_church_of_the_Nativity,_Florence) on Lungarno Serristori, completed in 1903, formalized this community's presence.
+- **The Russian colony**: Established from the 1810s, anchored by the [Demidov](https://en.wikipedia.org/wiki/Demidov_family) family (Marie drives past Villa Demidoff in 043.0126). Count [Nikolai Demidov](https://en.wikipedia.org/wiki/Nikolai_Nikitich_Demidov), Russian ambassador to Tuscany (1815-1828), built Villa di San Donato and endowed schools, hospitals, and charities. By the 1870s, Russian aristocratic families formed a permanent colony; Count Kiseleff served as Russian minister at Florence (mentioned in 055.0669). The [Russian Orthodox Church](https://en.wikipedia.org/wiki/Russian_Orthodox_church_of_the_Nativity,_Florence) on Lungarno Serristori, completed in 1903, formalized this community's presence.
 - **The Anglo-American colony**: The largest foreign community, attracted by Florence's relative cheapness, cultural richness, and mild climate. Elizabeth Barrett Browning (buried in the English cemetery at Piazzale Donatello) called it "cheap, tranquil, cheerful and beautiful." British and American residents maintained their own churches, libraries, and social institutions.
 - **The aristocratic circuit**: Italian and foreign aristocrats intersected at fashionable venues -- the [Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine) promenade, the [Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola), the skating rink, horse races, and private salons. The Larderei family, resident at the [Palazzo de Larderel](https://it.wikipedia.org/wiki/Palazzo_de_Larderel) on Via Tornabuoni, exemplified this world.
 
@@ -46,20 +46,20 @@ Florence hosted large and well-established foreign communities that made the cit
 
 Despite losing its political role, Florence remained Europe's unrivaled city for studying art history:
 
-- **[Galleria degli Uffizi](https://en.wikipedia.org/wiki/Uffizi)**: One of the world's oldest and most important art museums, housing works by Botticelli, Leonardo, Raphael, Titian, and Caravaggio. Marie visits on September 15, 1875 (043.0202-0220) and delivers characteristically bold verdicts.
-- **[Palazzo Pitti](https://en.wikipedia.org/wiki/Palazzo_Pitti)**: The former grand-ducal palace with the Palatine Gallery. Marie marvels at its massive stonework: "J'ouvris des grands yeux en voyant les pierres immenses du palazzo Pitti!" (043.0123)
-- **[Galleria dell'Accademia](https://en.wikipedia.org/wiki/Galleria_dell%27Accademia)**: Home to Michelangelo's *David*. Marie visits "alla galleria delle belli arti" (043.0165, with her characteristic Italian spelling error).
-- **Opificio delle Pietre Dure**: The Museum of Hard Stones, specializing in *pietra dura* mosaic work (043.0163)
-- **Churches**: [Santa Croce](https://en.wikipedia.org/wiki/Basilica_of_Santa_Croce,_Florence) with its tombs of illustrious men, [San Lorenzo](https://en.wikipedia.org/wiki/Basilica_of_San_Lorenzo,_Florence) with Michelangelo's Medici Chapels, the [Duomo](https://en.wikipedia.org/wiki/Florence_Cathedral), and the [Baptistery](https://en.wikipedia.org/wiki/Florence_Baptistery) with Ghiberti's doors (which Marie mistakenly attributes to Benvenuto Cellini, 043.0193)
+- **[Galleria degli Uffizi](https://en.wikipedia.org/wiki/Uffizi)**: One of the world's oldest and most important art museums, housing works by Botticelli, Leonardo, Raphael, Titian, and Caravaggio. Marie visits on September 15, 1875 (043.0193-0220) and delivers characteristically bold verdicts.
+- **[Palazzo Pitti](https://en.wikipedia.org/wiki/Palazzo_Pitti)**: The former grand-ducal palace with the Palatine Gallery. Marie marvels at its massive stonework: "J'ouvris des grands yeux en voyant les pierres immenses du palazzo Pitti!" (043.0118)
+- **[Galleria dell'Accademia](https://en.wikipedia.org/wiki/Galleria_dell%27Accademia)**: Home to Michelangelo's *David*. Marie visits "alla galleria delle belli arti" (043.0158, with her characteristic Italian spelling error).
+- **Opificio delle Pietre Dure**: The Museum of Hard Stones, specializing in *pietra dura* mosaic work (043.0156)
+- **Churches**: [Santa Croce](https://en.wikipedia.org/wiki/Basilica_of_Santa_Croce,_Florence) with its tombs of illustrious men, [San Lorenzo](https://en.wikipedia.org/wiki/Basilica_of_San_Lorenzo,_Florence) with Michelangelo's Medici Chapels, the [Duomo](https://en.wikipedia.org/wiki/Florence_Cathedral), and the [Baptistery](https://en.wikipedia.org/wiki/Florence_Baptistery) with Ghiberti's doors (which Marie mistakenly attributes to Benvenuto Cellini, 043.0184)
 - **Working artists**: [Michele Gordigiani](https://en.wikipedia.org/wiki/Michele_Gordigiani) (1835-1909), the celebrated Florentine portrait painter who had painted Queen Victoria, the Prince of Wales, and King Vittorio Emanuele II, maintained his studio in Florence and encouraged Marie's art during her 1877 visit (071.0269).
 
 ### Key Venues and Promenades
 
 - **[Le Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine)** (*les Cascines* in Marie's French, or *les Cachines* in her playful variant): Florence's great public park along the Arno, transformed from a Medici hunting estate into a fashionable promenade under Elisa Baciocchi, Napoleon's sister. Stendhal called it "la promenade ou tout le monde va se montrer." Marie frequents it obsessively during both visits -- comparing it to the Bois de Boulogne, noting it is "un paradis" (071.0103), observing the Larderei equipages, and being followed by admirers.
 - **[Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola)**: Florence's principal theater, built in 1656, the oldest surviving theater with tiered boxes in Italy. Its closure during the 1877-1878 mourning period for King Vittorio Emanuele II frustrates Marie's social ambitions: "C'est cette maudite Pergola qui est fermee" (071.0158). Marie spells it "la Pergola" and treats it as a social venue as much as a theatrical one.
-- **Teatro Pagliano** (later Teatro Verdi): The more popular theater where Marie attends an opera performance of Auber's *L'Enfant prodigue* (043.0223) and, in 1877, a performance of Wagner's *Rienzi*.
+- **Teatro Pagliano** (later Teatro Verdi): The more popular theater where Marie attends an opera performance of Auber's *L'Enfant prodigue* (043.0212) and, in 1877, a performance of Wagner's *Rienzi*.
 - **The Skating rink**: A fashionable social venue electrically lit -- advanced technology for 1877. Marie notes it alongside the Pergola as the places to be seen.
-- **Piazzale Michelangelo**: The panoramic terrace above the city, where Marie attends the 1875 centenary illuminations amid enormous crowds (043.0188).
+- **Piazzale Michelangelo**: The panoramic terrace above the city, where Marie attends the 1875 centenary illuminations amid enormous crowds (043.0180).
 
 ## Marie's Visits to Florence
 
@@ -71,19 +71,19 @@ Marie travels from Nice via Genoa with her aunt, arriving September 12. She stay
 
 | Date | Para IDs | Content |
 |------|----------|---------|
-| Sep 11 | 043.0082-0088 | Departure from Nice via Genoa; falls in love with Italy: "je suis amoureuse de l'Italie" |
-| Sep 12 | 043.0094-0111 | Arrives Florence; Hotel New York; rages at Victor Emmanuel for not making the centenary grander |
-| Sep 13 | 043.0117-0143 | Drives through the city in a landau; overwhelmed by architecture: "Soyez honteux, architectes francais, russes, anglais"; Le Cascine; Villa Demidoff; Santa Croce |
-| Sep 14 | 043.0149-0195 | Palazzo Panciatichi, Michelangelo's house, Pitti Palace; critiques Raphael's *Madonna della Sedia*; praises Titian; final night of centenario illuminations at Piazzale Michelangelo; Baptistery doors (misattributed to Cellini) |
-| Sep 15 | 043.0201-0220 | Uffizi Gallery: disappointed by Venus de' Medici, praises Raphael's *Fornarina* and Gherardo delle Notti's nativity; Egyptian and Etruscan museums; Le Cascine; Teatro Pagliano opera |
-| Sep 16 | 043.0226-0227 | Departs Florence quoting Dante; returns via Genoa |
+| Sep 11 | 043.0078-0088 | Departure from Nice via Genoa; falls in love with Italy: "je suis amoureuse de l'Italie" |
+| Sep 12 | 043.0090-0111 | Arrives Florence; Hotel New York; rages at Victor Emmanuel for not making the centenary grander |
+| Sep 13 | 043.0112-0143 | Drives through the city in a landau; overwhelmed by architecture: "Soyez honteux, architectes francais, russes, anglais"; Le Cascine; Villa Demidoff; Santa Croce |
+| Sep 14 | 043.0143-0195 | Palazzo Panciatichi, Michelangelo's house, Pitti Palace; critiques Raphael's *Madonna della Sedia*; praises Titian; final night of centenario illuminations at Piazzale Michelangelo; Baptistery doors (misattributed to Cellini) |
+| Sep 15 | 043.0192-0220 | Uffizi Gallery: disappointed by Venus de' Medici, praises Raphael's *Fornarina* and Gherardo delle Notti's nativity; Egyptian and Etruscan museums; Le Cascine; Teatro Pagliano opera |
+| Sep 16 | 043.0215-0227 | Departs Florence quoting Dante; returns via Genoa |
 
 **Marie's artistic judgments** are characteristically independent:
-- **Venus de' Medici**: "Cette petite poupee est une deception nouvelle" -- the Venus de Milo is "beaucoup plus Venus" (043.0205-0201)
-- **Raphael's Madonnas**: Dismisses them as "image plate et effacee" but praises *La Fornarina* as "une tete vivante, belle, fraiche" (043.0207)
-- **Raphael's *Madonna della Sedia***: The face is that of a "femme de chambre" (043.0174)
-- **Gherardo delle Notti** (van Honthorst): The nativity scene is "magnifique" -- she responds to light effects and naturalism (043.0209)
-- **Florentine architecture**: Superior to everything: "Pas le Louvre, le Louvre est incritiquable, mais tout le reste" (043.0123)
+- **Venus de' Medici**: "Cette petite poupee est une deception nouvelle" -- the Venus de Milo is "beaucoup plus Venus" (043.0196-0201)
+- **Raphael's Madonnas**: Dismisses them as "image plate et effacee" but praises *La Fornarina* as "une tete vivante, belle, fraiche" (043.0197)
+- **Raphael's *Madonna della Sedia***: The face is that of a "femme de chambre" (043.0167)
+- **Gherardo delle Notti** (van Honthorst): The nativity scene is "magnifique" -- she responds to light effects and naturalism (043.0199)
+- **Florentine architecture**: Superior to everything: "Pas le Louvre, le Louvre est incritiquable, mais tout le reste" (043.0118)
 
 ### Second Visit: May 1877 (Carnet 071)
 
@@ -135,25 +135,25 @@ Marie's ironic appropriation of the Larderei family as "ma famille" persists lon
 ## Key Sites Marie Visited or Referenced
 
 ### Museums and Galleries
-- **[Galleria degli Uffizi](https://en.wikipedia.org/wiki/Uffizi)**: Essential collection; Marie spends 90 minutes (043.0202-0220)
-- **[Palazzo Pitti](https://en.wikipedia.org/wiki/Palazzo_Pitti)**: Including the Palatine Gallery; Titian's works, Raphael's *Madonna della Sedia* (043.0123, 043.0174)
-- **[Galleria dell'Accademia](https://en.wikipedia.org/wiki/Galleria_dell%27Accademia)**: "alla galleria delle belli arti" (043.0165)
-- **[Opificio delle Pietre Dure](https://en.wikipedia.org/wiki/Opificio_delle_pietre_dure)**: Museum of Hard Stones (043.0163)
-- **[Casa Buonarroti](https://en.wikipedia.org/wiki/Casa_Buonarroti)**: Michelangelo's house, with painting of him sculpting Moses (043.0166)
+- **[Galleria degli Uffizi](https://en.wikipedia.org/wiki/Uffizi)**: Essential collection; Marie spends 90 minutes (043.0193-0220)
+- **[Palazzo Pitti](https://en.wikipedia.org/wiki/Palazzo_Pitti)**: Including the Palatine Gallery; Titian's works, Raphael's *Madonna della Sedia* (043.0118, 043.0167)
+- **[Galleria dell'Accademia](https://en.wikipedia.org/wiki/Galleria_dell%27Accademia)**: "alla galleria delle belli arti" (043.0158)
+- **[Opificio delle Pietre Dure](https://en.wikipedia.org/wiki/Opificio_delle_pietre_dure)**: Museum of Hard Stones (043.0156)
+- **[Casa Buonarroti](https://en.wikipedia.org/wiki/Casa_Buonarroti)**: Michelangelo's house, with painting of him sculpting Moses (043.0159)
 
 ### Churches and Architecture
 - **[Santa Croce](https://en.wikipedia.org/wiki/Basilica_of_Santa_Croce,_Florence)**: "Ce qui est curieux c'est l'eglise de Santa Croce avec ses tombeaux de tant d'hommes illustres" -- Dante study deepens her appreciation (1877 visit, raw carnet 10)
-- **[Baptistery of San Giovanni](https://en.wikipedia.org/wiki/Florence_Baptistery)**: Marie admires the doors but attributes them to Cellini rather than [Ghiberti](https://en.wikipedia.org/wiki/Lorenzo_Ghiberti) -- a characteristic error (043.0193)
-- **Palazzo Panciatichi**: Visited September 14 (043.0149ff)
+- **[Baptistery of San Giovanni](https://en.wikipedia.org/wiki/Florence_Baptistery)**: Marie admires the doors but attributes them to Cellini rather than [Ghiberti](https://en.wikipedia.org/wiki/Lorenzo_Ghiberti) -- a characteristic error (043.0184)
+- **Palazzo Panciatichi**: Visited September 14 (043.0143ff)
 
 ### Promenades and Social Venues
-- **[Le Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine)**: Marie's primary social stage in Florence (043.0128, 071.0103, 071.0161, 071.0264, 071.0278)
-- **[Piazzale Michelangelo](https://en.wikipedia.org/wiki/Piazzale_Michelangelo)**: Centenary illuminations (043.0188)
+- **[Le Cascine](https://en.wikipedia.org/wiki/Parco_delle_Cascine)**: Marie's primary social stage in Florence (043.0123, 071.0103, 071.0161, 071.0264, 071.0278)
+- **[Piazzale Michelangelo](https://en.wikipedia.org/wiki/Piazzale_Michelangelo)**: Centenary illuminations (043.0180)
 - **[Teatro della Pergola](https://en.wikipedia.org/wiki/Teatro_della_Pergola)**: The social theater (071.0149, 077.0215, 078.0218)
-- **Teatro Pagliano** (now [Teatro Verdi](https://en.wikipedia.org/wiki/Teatro_Verdi_(Florence))): Opera performances (043.0223)
+- **Teatro Pagliano** (now [Teatro Verdi](https://en.wikipedia.org/wiki/Teatro_Verdi_(Florence))): Opera performances (043.0212)
 - **Skating rink**: Electrically lit social venue (071.0113)
 - **Cercle philharmonique**: Charity concert venue (071.0266)
-- **Villa Demidoff**: Russian estate Marie drives past (043.0131)
+- **Villa Demidoff**: Russian estate Marie drives past (043.0126)
 
 ## Significance in Marie's Development
 

@@ -155,7 +155,7 @@ The whole household, his daughter (Marie's mother) included, called him Papa, an
 - **Name day**: "Nous rencontrons papa, c'est son jour de nom" (015.0072, 8 Jan 1874 = 27 Dec O.S., St Stephen's day); Kernberger (2013) renders it "Grandpapa's name day".
 - **Blindness**: "c'est un vieillard aveugle" (010.0008–0009); "on y a logé papa, presque aveugle, Trifon qui lui est nécessaire" (024.0194). Kernberger's glossary lists "Golezowsky: Papa's ophthalmologist".
 - **His valet Trifon**: "Trifon (valet de chambre de papa)" (012.0004); the 1887 edition and Blind (1890) print "domestique de grand-papa" / "grandpapa's servant". The 1887 edition also prints "grand-papa" for Marie's "papa" in 011.0167.
-- **Youth and estate**: stories of his youth and "les régiments" (018.0255); "les grandeurs passées de Tcherniakovka" (018.0258); he meets his old friend Norov after forty years (019.0014).
+- **Youth and estate**: stories of his youth and "les régiments" (018.0254); "les grandeurs passées de Tcherniakovka" (018.0257); he meets his old friend Norov after forty years (019.0014).
 - **His will**: "grand-papa me parle de son testament … papa va donner des traites à maman" (006.0166–0172).
 - **Marie's own words**: "sous la protection de papa, il me répugne de le nommer papa" (025.0191), about the grandfather who shelters Makaroff.
 
@@ -163,7 +163,7 @@ The whole household, his daughter (Marie's mother) included, called him Papa, an
 
 - **Vienna tobacco** (1873-08-13, 008.0021): at the Vienna World Exhibition the family finds "le tabac de papa" in the Russian section; "*Sacha* lui a fait une surprise en exposant". Sacha is Uncle Alexandre Babanine; Marie hopes the tobacco will win a medal.
 - **Amour-propre** (1873-09-01, 009.0011): after Makaroff's outburst, "notre Makaroff … a fait des excuses à papa mais celui-ci *monte sur ses grands chevaux, amour-propre* etc."
-- **Tyranny at table**: frequent quarrels with maman, Marie and Collignon; the Hamilton and Lady Hamilton stories he tells "comme toujours" (015.0051, 016.0330); his dog Renard (018.0160).
+- **Tyranny at table**: frequent quarrels with maman, Marie and Collignon; the Hamilton and Lady Hamilton stories he tells "comme toujours" (015.0051, 016.0312); his dog Renard (018.0159).
 
 ## 1875–1877: "grand-papa", blind and then seeing
 

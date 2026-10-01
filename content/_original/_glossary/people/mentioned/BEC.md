@@ -15,7 +15,7 @@ last_updated: 2026-03-06
 **Diary Coverage**: Up to 1874-02-11
 
 ## Identity
-Marie's mocking nickname ("le Bec amoureux", the lovesick beak) for the daughter of Princess Labanoff, a young woman of Nice's Russian society (016.0020: «La fille toujours ouvert le Bec amoureux»). Marie uses masculine agreement with the nickname («le Bec… il») but feminine for the person («elle», 016/1874-02-21, 018/1874-04-09). Not a young man (corrected 2026-10-01).
+Marie's mocking nickname ("le Bec amoureux", the lovesick beak) for the daughter of Princess Labanoff, a young woman of Nice's Russian society (016.0018: «La fille toujours ouvert le Bec amoureux»). Marie uses masculine agreement with the nickname («le Bec… il») but feminine for the person («elle», 016/1874-02-21, 018/1874-04-09). Not a young man (corrected 2026-10-01).
 
 ## Diary References
 

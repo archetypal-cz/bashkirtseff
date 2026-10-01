@@ -21,9 +21,9 @@ A Russian man referred to as "M. Tchernikoff" in the Nice social circle of June 
 
 ## Diary References
 
-- **June 8, 1873** (005.0214): "M. Tchernikoff est venu nous voir" — visits the Bashkirtseff home; he and Walitsky plan to go to the Folies Niçoises theatre.
+- **June 8, 1873** (005.0206): "M. Tchernikoff est venu nous voir" — visits the Bashkirtseff home; he and Walitsky plan to go to the Folies Niçoises theatre.
 - **June 10, 1873** (005): Mentioned alongside Mme Teplakoff and Mme Daniloff.
-- **June 15, 1873** (005.0290): The Berlikoff family departs Nice for Russia "avec leur médecin Tchernikoff"; Solominka travels with them because "il y aura quelqu'un pour la soigner."
+- **June 15, 1873** (005.0282): The Berlikoff family departs Nice for Russia "avec leur médecin Tchernikoff"; Solominka travels with them because "il y aura quelqu'un pour la soigner."
 
 ## Research Notes
 

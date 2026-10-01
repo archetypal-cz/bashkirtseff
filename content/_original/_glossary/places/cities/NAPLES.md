@@ -143,7 +143,7 @@ After settling in Paris to study painting, Marie continued to invoke Naples as a
 ### The Bourbons de Naples Connection
 
 %% GLO_NAPLES.0025 %%
-In February 1878 (077.0345), Marie considered marriage to the Prince de Bourbon, a member of the [Bourbon-Two Sicilies](https://en.wikipedia.org/wiki/House_of_Bourbon-Two_Sicilies) family. The financial calculation was precise: his 25,000 francs plus her 40,000 was insufficient. The plan involved petitioning King Umberto I and Queen Margherita "de rendre une partie de leurs biens aux Bourbons de Naples" -- the properties confiscated at Italian unification. This scheme, mixing romantic strategy with political ambition, shows how Naples remained entangled in Marie's marriage calculations even from Paris.
+In February 1878 (077.0344), Marie considered marriage to the Prince de Bourbon, a member of the [Bourbon-Two Sicilies](https://en.wikipedia.org/wiki/House_of_Bourbon-Two_Sicilies) family. The financial calculation was precise: his 25,000 francs plus her 40,000 was insufficient. The plan involved petitioning King Umberto I and Queen Margherita "de rendre une partie de leurs biens aux Bourbons de Naples" -- the properties confiscated at Italian unification. This scheme, mixing romantic strategy with political ambition, shows how Naples remained entangled in Marie's marriage calculations even from Paris.
 
 ## Key Sites Mentioned in the Diary
 

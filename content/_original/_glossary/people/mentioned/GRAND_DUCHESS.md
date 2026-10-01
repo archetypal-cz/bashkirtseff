@@ -21,7 +21,7 @@ An unidentified Russian Grand Duchess attending the Russian Orthodox church in N
 
 ## Diary References
 
-- **June 1, 1873** (005.0140): "La grande-duchesse était à l'église pour la première fois depuis deux mois peut être."
+- **June 1, 1873** (005.0132): "La grande-duchesse était à l'église pour la première fois depuis deux mois peut être."
 
 ## Research Notes
 

@@ -26,7 +26,7 @@ She had daughters who appear in social settings. In Nice, she is a regular guest
 
 ## Diary References
 
-- **June 8, 1873** (005.0212): Found at Mme de Mouzay's with Boumini Tambourini.
+- **June 8, 1873** (005.0204): Found at Mme de Mouzay's with Boumini Tambourini.
 - **May 30, 1873** (005): Present at Mme de Mouzay's alongside Père Lavigne.
 - **January 1, 1876** (051): "vicomtesse de Ballore" found at Mouzay's door in Nice.
 - **January 19, 1876** (052): Listed among loyal friends.

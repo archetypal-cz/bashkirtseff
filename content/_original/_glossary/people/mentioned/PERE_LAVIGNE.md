@@ -22,7 +22,7 @@ A Jesuit priest in Nice, described by Marie as a "ex-moine jésuite, chassé du 
 
 ## Diary References
 
-- **May 28, 1873** (005.0092): Present at Mme de Mouzay's birthday dinner; gives a sermon at the table. Marie plans to visit his church on Friday.
+- **May 28, 1873** (005.0086): Present at Mme de Mouzay's birthday dinner; gives a sermon at the table. Marie plans to visit his church on Friday.
 - **May 30, 1873** (005): Present again at Mme de Mouzay's.
 
 ## Historical Context

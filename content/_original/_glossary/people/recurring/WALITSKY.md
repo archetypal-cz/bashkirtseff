@@ -297,7 +297,7 @@ This stands in extraordinary contrast to her harsh judgments of almost everyone 
 - **1874 (March)**: Diagnosed Mlle Collignon's terminal illness (%% 002.0166 %%)
 - **1874 (April)**: Slapped an Englishman at Monaco defending Paul (%% 018.0082 %%)
 - **1874 (summer)**: With family at Spa; wrote satirical verse about suitors (%% 022.0106 %%)
-- **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (%% 055.0290 %%)
+- **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (%% 055.0285 %%)
 - **1876 (October)**: Accused (absurdly) of poisoning Romanoff (%% 066.0629 %%)
 - **1877 (summer)**: Recommended Soden spa for Marie's throat (%% 073.0242 %%)
 - **1877 (December 9)**: Nursing paralyzed grandfather: "court et soigne et grogne et console" (%% 076.0357 %%)
@@ -369,7 +369,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 %% GLO_WALITSKY.0053 %%
 ### Books 47-62 (Rome, Nice, Italy 1875-76)
 - Carnet 055 has 24 entries with Walitsky -- the densest carnet; constant companion during the Rome period
-- %% 055.0290 %%: Physical horseplay -- "C'est Walitsky et Antonelli qui ont essaye leur force"
+- %% 055.0285 %%: Physical horseplay -- "C'est Walitsky et Antonelli qui ont essaye leur force"
 - Connections to Russian artist circle in Rome via Botkine
 
 %% GLO_WALITSKY.0054 %%

@@ -21,7 +21,7 @@ The Villa Durando was a grand villa in the Nice area that the Bashkirtseff famil
 
 ## Diary References
 
-- **May 29, 1873** (005.0099): "We have seen the villa Durando, it is really magnificent but a little too far. It would suit us to buy it, but to here it is too far."
+- **May 29, 1873** (005.0093): "We have seen the villa Durando, it is really magnificent but a little too far. It would suit us to buy it, but to here it is too far."
 
 ## Research Notes
 

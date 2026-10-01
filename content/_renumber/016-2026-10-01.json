@@ -1,0 +1,2100 @@
+{
+  "carnet": "016",
+  "date": "2026-10-01",
+  "plan_path": "../rebuild-state/plan-sourcefix/pagebreak/plan-pb-016.json",
+  "plan_source": "tome scan",
+  "id_map": {
+    "016.0001": "016.0001",
+    "016.0002": "016.0002",
+    "016.0003": "016.0003",
+    "016.0004": "016.0004",
+    "016.0005": "016.0005",
+    "016.0006": "016.0006",
+    "016.0007": "016.0007",
+    "016.0009": "016.0008",
+    "016.0010": "016.0009",
+    "016.0011": "016.0010",
+    "016.0012": "016.0011",
+    "016.0013": "016.0012",
+    "016.0014": "016.0013",
+    "016.0015": "016.0014",
+    "016.0016": "016.0015",
+    "016.0018": "016.0016",
+    "016.0019": "016.0017",
+    "016.0020": "016.0018",
+    "016.0021": "016.0019",
+    "016.0022": "016.0020",
+    "016.0023": "016.0021",
+    "016.0024": "016.0022",
+    "016.0025": "016.0023",
+    "016.0026": "016.0024",
+    "016.0027": "016.0025",
+    "016.0028": "016.0026",
+    "016.0029": "016.0027",
+    "016.0030": "016.0028",
+    "016.0031": "016.0029",
+    "016.0032": "016.0030",
+    "016.0033": "016.0031",
+    "016.0034": "016.0032",
+    "016.0035": "016.0033",
+    "016.0036": "016.0034",
+    "016.0037": "016.0035",
+    "016.0038": "016.0036",
+    "016.0039": "016.0037",
+    "016.0040": "016.0038",
+    "016.0041": "016.0039",
+    "016.0042": "016.0040",
+    "016.0043": "016.0041",
+    "016.0044": "016.0042",
+    "016.0045": "016.0043",
+    "016.0046": "016.0044",
+    "016.0047": "016.0045",
+    "016.0048": "016.0046",
+    "016.0049": "016.0047",
+    "016.0050": "016.0048",
+    "016.0051": "016.0049",
+    "016.0053": "016.0050",
+    "016.0054": "016.0051",
+    "016.0055": "016.0052",
+    "016.0056": "016.0053",
+    "016.0057": "016.0054",
+    "016.0058": "016.0055",
+    "016.0059": "016.0056",
+    "016.0060": "016.0057",
+    "016.0061": "016.0058",
+    "016.0062": "016.0059",
+    "016.0063": "016.0060",
+    "016.0064": "016.0061",
+    "016.0065": "016.0062",
+    "016.0066": "016.0063",
+    "016.0067": "016.0064",
+    "016.0068": "016.0065",
+    "016.0069": "016.0066",
+    "016.0070": "016.0067",
+    "016.0071": "016.0068",
+    "016.0072": "016.0069",
+    "016.0074": "016.0070",
+    "016.0075": "016.0071",
+    "016.0076": "016.0072",
+    "016.0077": "016.0073",
+    "016.0078": "016.0074",
+    "016.0079": "016.0075",
+    "016.0080": "016.0076",
+    "016.0081": "016.0077",
+    "016.0082": "016.0078",
+    "016.0084": "016.0079",
+    "016.0085": "016.0080",
+    "016.0086": "016.0081",
+    "016.0087": "016.0082",
+    "016.0088": "016.0083",
+    "016.0089": "016.0084",
+    "016.0090": "016.0085",
+    "016.0091": "016.0086",
+    "016.0092": "016.0087",
+    "016.0093": "016.0088",
+    "016.0095": "016.0089",
+    "016.0096": "016.0090",
+    "016.0097": "016.0091",
+    "016.0098": "016.0092",
+    "016.0099": "016.0093",
+    "016.0100": "016.0094",
+    "016.0101": "016.0095",
+    "016.0102": "016.0096",
+    "016.0103": "016.0097",
+    "016.0104": "016.0098",
+    "016.0105": "016.0099",
+    "016.0106": "016.0100",
+    "016.0108": "016.0101",
+    "016.0109": "016.0102",
+    "016.0110": "016.0103",
+    "016.0111": "016.0104",
+    "016.0112": "016.0105",
+    "016.0113": "016.0106",
+    "016.0114": "016.0107",
+    "016.0115": "016.0108",
+    "016.0116": "016.0109",
+    "016.0118": "016.0110",
+    "016.0119": "016.0111",
+    "016.0120": "016.0112",
+    "016.0121": "016.0113",
+    "016.0122": "016.0114",
+    "016.0123": "016.0115",
+    "016.0124": "016.0116",
+    "016.0125": "016.0117",
+    "016.0126": "016.0118",
+    "016.0127": "016.0119",
+    "016.0129": "016.0120",
+    "016.0130": "016.0121",
+    "016.0131": "016.0122",
+    "016.0132": "016.0123",
+    "016.0133": "016.0124",
+    "016.0134": "016.0125",
+    "016.0135": "016.0126",
+    "016.0136": "016.0127",
+    "016.0137": "016.0128",
+    "016.0138": "016.0129",
+    "016.0139": "016.0130",
+    "016.0140": "016.0131",
+    "016.0141": "016.0132",
+    "016.0142": "016.0133",
+    "016.0143": "016.0134",
+    "016.0144": "016.0135",
+    "016.0145": "016.0136",
+    "016.0146": "016.0137",
+    "016.0147": "016.0138",
+    "016.0148": "016.0139",
+    "016.0149": "016.0140",
+    "016.0150": "016.0141",
+    "016.0151": "016.0142",
+    "016.0152": "016.0143",
+    "016.0153": "016.0144",
+    "016.0154": "016.0145",
+    "016.0155": "016.0146",
+    "016.0156": "016.0147",
+    "016.0157": "016.0148",
+    "016.0158": "016.0149",
+    "016.0159": "016.0150",
+    "016.0160": "016.0151",
+    "016.0161": "016.0152",
+    "016.0162": "016.0153",
+    "016.0163": "016.0154",
+    "016.0164": "016.0155",
+    "016.0165": "016.0156",
+    "016.0167": "016.0157",
+    "016.0168": "016.0158",
+    "016.0169": "016.0159",
+    "016.0170": "016.0160",
+    "016.0171": "016.0161",
+    "016.0172": "016.0162",
+    "016.0173": "016.0163",
+    "016.0174": "016.0164",
+    "016.0175": "016.0165",
+    "016.0177": "016.0166",
+    "016.0178": "016.0167",
+    "016.0179": "016.0168",
+    "016.0180": "016.0169",
+    "016.0181": "016.0170",
+    "016.0182": "016.0171",
+    "016.0183": "016.0172",
+    "016.0184": "016.0173",
+    "016.0185": "016.0174",
+    "016.0186": "016.0175",
+    "016.0187": "016.0176",
+    "016.0188": "016.0177",
+    "016.0189": "016.0178",
+    "016.0190": "016.0179",
+    "016.0191": "016.0180",
+    "016.0192": "016.0181",
+    "016.0193": "016.0182",
+    "016.0194": "016.0183",
+    "016.0195": "016.0184",
+    "016.0196": "016.0185",
+    "016.0197": "016.0186",
+    "016.0198": "016.0187",
+    "016.0199": "016.0188",
+    "016.0201": "016.0189",
+    "016.0202": "016.0190",
+    "016.0203": "016.0191",
+    "016.0204": "016.0192",
+    "016.0205": "016.0193",
+    "016.0206": "016.0194",
+    "016.0207": "016.0195",
+    "016.0208": "016.0196",
+    "016.0209": "016.0197",
+    "016.0211": "016.0198",
+    "016.0212": "016.0199",
+    "016.0213": "016.0200",
+    "016.0214": "016.0201",
+    "016.0215": "016.0202",
+    "016.0216": "016.0203",
+    "016.0217": "016.0204",
+    "016.0218": "016.0205",
+    "016.0219": "016.0206",
+    "016.0220": "016.0207",
+    "016.0221": "016.0208",
+    "016.0222": "016.0209",
+    "016.0223": "016.0210",
+    "016.0224": "016.0211",
+    "016.0225": "016.0212",
+    "016.0226": "016.0213",
+    "016.0227": "016.0214",
+    "016.0228": "016.0215",
+    "016.0229": "016.0216",
+    "016.0230": "016.0217",
+    "016.0231": "016.0218",
+    "016.0233": "016.0219",
+    "016.0234": "016.0220",
+    "016.0235": "016.0221",
+    "016.0236": "016.0222",
+    "016.0237": "016.0223",
+    "016.0238": "016.0224",
+    "016.0239": "016.0225",
+    "016.0240": "016.0226",
+    "016.0241": "016.0227",
+    "016.0242": "016.0228",
+    "016.0243": "016.0229",
+    "016.0244": "016.0230",
+    "016.0245": "016.0231",
+    "016.0246": "016.0232",
+    "016.0247": "016.0233",
+    "016.0248": "016.0234",
+    "016.0249": "016.0235",
+    "016.0250": "016.0236",
+    "016.0251": "016.0237",
+    "016.0252": "016.0238",
+    "016.0253": "016.0239",
+    "016.0254": "016.0240",
+    "016.0255": "016.0241",
+    "016.0256": "016.0242",
+    "016.0257": "016.0243",
+    "016.0258": "016.0244",
+    "016.0259": "016.0245",
+    "016.0260": "016.0246",
+    "016.0261": "016.0247",
+    "016.0262": "016.0248",
+    "016.0263": "016.0249",
+    "016.0264": "016.0250",
+    "016.0265": "016.0251",
+    "016.0267": "016.0252",
+    "016.0268": "016.0253",
+    "016.0269": "016.0254",
+    "016.0270": "016.0255",
+    "016.0271": "016.0256",
+    "016.0272": "016.0257",
+    "016.0273": "016.0258",
+    "016.0274": "016.0259",
+    "016.0275": "016.0260",
+    "016.0276": "016.0261",
+    "016.0277": "016.0262",
+    "016.0279": "016.0263",
+    "016.0280": "016.0264",
+    "016.0281": "016.0265",
+    "016.0282": "016.0266",
+    "016.0283": "016.0267",
+    "016.0284": "016.0268",
+    "016.0285": "016.0269",
+    "016.0286": "016.0270",
+    "016.0287": "016.0271",
+    "016.0288": "016.0272",
+    "016.0289": "016.0273",
+    "016.0290": "016.0274",
+    "016.0291": "016.0275",
+    "016.0292": "016.0276",
+    "016.0293": "016.0277",
+    "016.0294": "016.0278",
+    "016.0295": "016.0279",
+    "016.0296": "016.0280",
+    "016.0297": "016.0281",
+    "016.0299": "016.0282",
+    "016.0300": "016.0283",
+    "016.0301": "016.0284",
+    "016.0302": "016.0285",
+    "016.0303": "016.0286",
+    "016.0304": "016.0287",
+    "016.0305": "016.0288",
+    "016.0306": "016.0289",
+    "016.0307": "016.0290",
+    "016.0308": "016.0291",
+    "016.0309": "016.0292",
+    "016.0310": "016.0293",
+    "016.0311": "016.0294",
+    "016.0312": "016.0295",
+    "016.0313": "016.0296",
+    "016.0314": "016.0297",
+    "016.0315": "016.0298",
+    "016.0316": "016.0299",
+    "016.0317": "016.0300",
+    "016.0318": "016.0301",
+    "016.0319": "016.0302",
+    "016.0320": "016.0303",
+    "016.0321": "016.0304",
+    "016.0322": "016.0305",
+    "016.0323": "016.0306",
+    "016.0324": "016.0307",
+    "016.0325": "016.0308",
+    "016.0327": "016.0309",
+    "016.0328": "016.0310",
+    "016.0329": "016.0311",
+    "016.0330": "016.0312",
+    "016.0331": "016.0313",
+    "016.0332": "016.0314",
+    "016.0333": "016.0315",
+    "016.0334": "016.0316",
+    "016.0335": "016.0317",
+    "016.0336": "016.0318",
+    "016.0337": "016.0319",
+    "016.0338": "016.0320",
+    "016.0339": "016.0321",
+    "016.0341": "016.0322",
+    "016.0342": "016.0323",
+    "016.0343": "016.0324",
+    "016.0344": "016.0325",
+    "016.0345": "016.0326",
+    "016.0346": "016.0327",
+    "016.0347": "016.0328",
+    "016.0348": "016.0329",
+    "016.0349": "016.0330",
+    "016.0350": "016.0331",
+    "016.0351": "016.0332",
+    "016.0352": "016.0333",
+    "016.0353": "016.0334",
+    "016.0354": "016.0335",
+    "016.0355": "016.0336",
+    "016.0356": "016.0337",
+    "016.0357": "016.0338",
+    "016.0358": "016.0339",
+    "016.0359": "016.0340",
+    "016.0360": "016.0341",
+    "016.0361": "016.0342",
+    "016.0362": "016.0343",
+    "016.0363": "016.0344",
+    "016.0364": "016.0345",
+    "016.0365": "016.0346",
+    "016.0366": "016.0347",
+    "016.0367": "016.0348",
+    "016.0368": "016.0349",
+    "016.0369": "016.0350",
+    "016.0370": "016.0351",
+    "016.0371": "016.0352",
+    "016.0372": "016.0353",
+    "016.0373": "016.0354",
+    "016.0375": "016.0355",
+    "016.0376": "016.0356",
+    "016.0377": "016.0357",
+    "016.0378": "016.0358",
+    "016.0379": "016.0359",
+    "016.0380": "016.0360",
+    "016.0381": "016.0361",
+    "016.0382": "016.0362",
+    "016.0384": "016.0363",
+    "016.0385": "016.0364",
+    "016.0386": "016.0365",
+    "016.0387": "016.0366",
+    "016.0388": "016.0367",
+    "016.0389": "016.0368",
+    "016.0390": "016.0369",
+    "016.0391": "016.0370",
+    "016.0392": "016.0371",
+    "016.0393": "016.0372",
+    "016.0394": "016.0373",
+    "016.0395": "016.0374",
+    "016.0396": "016.0375",
+    "016.0397": "016.0376",
+    "016.0398": "016.0377",
+    "016.0399": "016.0378",
+    "016.0400": "016.0379",
+    "016.0401": "016.0380",
+    "016.0402": "016.0381",
+    "016.0403": "016.0382",
+    "016.0404": "016.0383",
+    "016.0405": "016.0384",
+    "016.0407": "016.0385",
+    "016.0408": "016.0386",
+    "016.0409": "016.0387",
+    "016.0410": "016.0388",
+    "016.0412": "016.0389",
+    "016.0414": "016.0390",
+    "016.0415": "016.0391",
+    "016.0416": "016.0392"
+  },
+  "changed_ids": 385,
+  "new_paragraphs": [],
+  "dropped": [
+    {
+      "id": "016.0008",
+      "reason": "joined to 016.0007: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0008"
+    },
+    {
+      "id": "016.0017",
+      "reason": "joined to 016.0016: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0017"
+    },
+    {
+      "id": "016.0052",
+      "reason": "joined to 016.0051: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0052"
+    },
+    {
+      "id": "016.0073",
+      "reason": "joined to 016.0072: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0073"
+    },
+    {
+      "id": "016.0083",
+      "reason": "joined to 016.0082: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0083"
+    },
+    {
+      "id": "016.0094",
+      "reason": "joined to 016.0093: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0094"
+    },
+    {
+      "id": "016.0107",
+      "reason": "joined to 016.0106: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0107"
+    },
+    {
+      "id": "016.0117",
+      "reason": "joined to 016.0116: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0117"
+    },
+    {
+      "id": "016.0128",
+      "reason": "joined to 016.0127: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0128"
+    },
+    {
+      "id": "016.0166",
+      "reason": "joined to 016.0165: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0166"
+    },
+    {
+      "id": "016.0176",
+      "reason": "joined to 016.0175: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0176"
+    },
+    {
+      "id": "016.0200",
+      "reason": "joined to 016.0199: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0200"
+    },
+    {
+      "id": "016.0210",
+      "reason": "joined to 016.0209: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0210"
+    },
+    {
+      "id": "016.0232",
+      "reason": "joined to 016.0231: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0232"
+    },
+    {
+      "id": "016.0266",
+      "reason": "joined to 016.0265: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0266"
+    },
+    {
+      "id": "016.0278",
+      "reason": "joined to 016.0277: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0278"
+    },
+    {
+      "id": "016.0298",
+      "reason": "joined to 016.0297: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0298"
+    },
+    {
+      "id": "016.0326",
+      "reason": "joined to 016.0325: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0326"
+    },
+    {
+      "id": "016.0340",
+      "reason": "joined to 016.0339: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0340"
+    },
+    {
+      "id": "016.0374",
+      "reason": "joined to 016.0373: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0374"
+    },
+    {
+      "id": "016.0383",
+      "reason": "joined to 016.0382: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)",
+      "rewritten_as": "016.DROPPED-0383"
+    },
+    {
+      "id": "016.0406",
+      "reason": "joined to 016.0405: one print paragraph split at a page break in the transcription (tome03.docx: one paragraph in the docx)",
+      "rewritten_as": "016.DROPPED-0406"
+    },
+    {
+      "id": "016.0411",
+      "reason": "joined to 016.0410: one print paragraph split at a page break in the transcription (tome03.docx: one paragraph in the docx)",
+      "rewritten_as": "016.DROPPED-0411"
+    },
+    {
+      "id": "016.0413",
+      "reason": "joined to 016.0412: one print paragraph split at a page break in the transcription (tome03.docx: one paragraph in the docx)",
+      "rewritten_as": "016.DROPPED-0413"
+    }
+  ],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [],
+  "last_id": "016.0392",
+  "flag_resets": {
+    "cz": [
+      "1874-01-26.md",
+      "1874-01-27.md",
+      "1874-01-31.md",
+      "1874-02-01.md",
+      "1874-02-02.md",
+      "1874-02-04.md",
+      "1874-02-05.md",
+      "1874-02-07.md",
+      "1874-02-08.md",
+      "1874-02-09.md",
+      "1874-02-11.md",
+      "1874-02-12.md",
+      "1874-02-13.md",
+      "1874-02-15.md",
+      "1874-02-16.md",
+      "1874-02-17.md",
+      "1874-02-21.md"
+    ],
+    "uk": [
+      "1874-01-26.md",
+      "1874-01-27.md",
+      "1874-01-31.md",
+      "1874-02-01.md",
+      "1874-02-02.md",
+      "1874-02-04.md",
+      "1874-02-05.md",
+      "1874-02-07.md",
+      "1874-02-08.md",
+      "1874-02-09.md",
+      "1874-02-11.md",
+      "1874-02-12.md",
+      "1874-02-13.md",
+      "1874-02-15.md",
+      "1874-02-16.md",
+      "1874-02-17.md",
+      "1874-02-21.md"
+    ],
+    "en": [
+      "1874-01-26.md",
+      "1874-01-27.md",
+      "1874-01-31.md",
+      "1874-02-01.md",
+      "1874-02-02.md",
+      "1874-02-04.md",
+      "1874-02-05.md",
+      "1874-02-07.md",
+      "1874-02-08.md",
+      "1874-02-09.md",
+      "1874-02-11.md",
+      "1874-02-12.md",
+      "1874-02-13.md",
+      "1874-02-15.md",
+      "1874-02-16.md",
+      "1874-02-17.md",
+      "1874-02-21.md"
+    ],
+    "fr": [
+      "1874-01-26.md",
+      "1874-01-27.md",
+      "1874-01-31.md",
+      "1874-02-01.md",
+      "1874-02-02.md",
+      "1874-02-04.md",
+      "1874-02-05.md",
+      "1874-02-07.md",
+      "1874-02-08.md",
+      "1874-02-09.md",
+      "1874-02-11.md",
+      "1874-02-12.md",
+      "1874-02-13.md",
+      "1874-02-15.md",
+      "1874-02-16.md",
+      "1874-02-17.md",
+      "1874-02-21.md"
+    ]
+  },
+  "plan": {
+    "carnet": "016",
+    "_generated": "identity plan of content/_original/016 — keys starting with _ are ignored",
+    "entries": [
+      {
+        "file": "1874-01-26.md",
+        "date": "1874-01-26",
+        "paragraphs": [
+          {
+            "old": "016.0001"
+          },
+          {
+            "old": "016.0002"
+          },
+          {
+            "old": "016.0003"
+          },
+          {
+            "old": "016.0004"
+          },
+          {
+            "old": "016.0005"
+          },
+          {
+            "old": "016.0006"
+          },
+          {
+            "old": "016.0007",
+            "set_french": "Lambertye se fait remarquer et je pense à lui quelquefois (pas comme... non: il ne peut pas être question de cela). Je ne sais pas ce qu'il est. Il y a donc des gens, petits, laids, allant toujours à pied, ne faisant rien d'extraordinaire, qui se font remarquer comme le comte de Lambertye, je sais qu'il existe seulement parce qu'il me regarde. L'autre soir au cercle, je me tournais pour qu'il ne me vît pas et Dina m'a dit : *Voilà que Lambertye te regarde*, alors je me suis tournée dans la loge pour ne pas le voir et pour qu'il ne me voie pas. Ses regards sont moqueurs et insolents. Il y a des moments où je serais capable de le frapper tant il me semble impertinent avec son sourire. Je voudrais le connaître seulement pour lui en demander raison et pour bien prêcher."
+          }
+        ],
+        "_first_line": "# Lundi, 26 janvier 1874"
+      },
+      {
+        "file": "1874-01-27.md",
+        "date": "1874-01-27",
+        "paragraphs": [
+          {
+            "old": "016.0009"
+          },
+          {
+            "old": "016.0010"
+          },
+          {
+            "old": "016.0011"
+          },
+          {
+            "old": "016.0012"
+          },
+          {
+            "old": "016.0013"
+          },
+          {
+            "old": "016.0014"
+          },
+          {
+            "old": "016.0015"
+          },
+          {
+            "old": "016.0016",
+            "set_french": "Paul est malade depuis hier, une espèce de bronchite. Si par malheur quelqu'un lisait mon journal he would conceive the meanest opinion of me."
+          },
+          {
+            "old": "016.0018"
+          },
+          {
+            "old": "016.0019"
+          },
+          {
+            "old": "016.0020"
+          }
+        ],
+        "_first_line": "# Mardi, 27 janvier 1874"
+      },
+      {
+        "file": "1874-01-28.md",
+        "date": "1874-01-28",
+        "paragraphs": [
+          {
+            "old": "016.0021"
+          },
+          {
+            "old": "016.0022"
+          },
+          {
+            "old": "016.0023"
+          },
+          {
+            "old": "016.0024"
+          },
+          {
+            "old": "016.0025"
+          }
+        ],
+        "_first_line": "# Mercredi, 28 janvier 1874"
+      },
+      {
+        "file": "1874-01-29.md",
+        "date": "1874-01-29",
+        "paragraphs": [
+          {
+            "old": "016.0026"
+          },
+          {
+            "old": "016.0027"
+          },
+          {
+            "old": "016.0028"
+          },
+          {
+            "old": "016.0029"
+          },
+          {
+            "old": "016.0030"
+          },
+          {
+            "old": "016.0031"
+          },
+          {
+            "old": "016.0032"
+          }
+        ],
+        "_first_line": "# Jeudi, 29 janvier 1874"
+      },
+      {
+        "file": "1874-01-30.md",
+        "date": "1874-01-30",
+        "paragraphs": [
+          {
+            "old": "016.0033"
+          },
+          {
+            "old": "016.0034"
+          },
+          {
+            "old": "016.0035"
+          },
+          {
+            "old": "016.0036"
+          },
+          {
+            "old": "016.0037"
+          },
+          {
+            "old": "016.0038"
+          },
+          {
+            "old": "016.0039"
+          },
+          {
+            "old": "016.0040"
+          },
+          {
+            "old": "016.0041"
+          },
+          {
+            "old": "016.0042"
+          },
+          {
+            "old": "016.0043"
+          },
+          {
+            "old": "016.0044"
+          },
+          {
+            "old": "016.0045"
+          }
+        ],
+        "_first_line": "# Vendredi, 30 janvier 1874"
+      },
+      {
+        "file": "1874-01-31.md",
+        "date": "1874-01-31",
+        "paragraphs": [
+          {
+            "old": "016.0046"
+          },
+          {
+            "old": "016.0047"
+          },
+          {
+            "old": "016.0048"
+          },
+          {
+            "old": "016.0049"
+          },
+          {
+            "old": "016.0050"
+          },
+          {
+            "old": "016.0051",
+            "set_french": "Je disais que j'aime tout le monde, c'est-à-dire je n'aime personne, eh bien ces deux-là ont su me plaire. Mme Antonsky, comte Yorkoff, princesse Gagarine sont à pied, je m'arrête leur dire que maman reste chez elle le vendredi, quelques minutes je leur parle et enfin je rentre. Ce Rob Roy ne fait que canter, but he canters well et j'y suis habituée et *je* vais très bien je pense (je m'aperçois de l'immense nombre de je que j'emploie mais je ne puis faire autrement). J'ai fiché Brunet. Ce matin j'ai fait une dissolution de je ne sais pas quoi, Joséphine a pris le verre, l'a porté à l'office et le sot Trifon a bu le quart de ce verre pensant que c'est du vin, heureusement ce n'était pas un poison violent."
+          },
+          {
+            "old": "016.0053"
+          },
+          {
+            "old": "016.0054"
+          },
+          {
+            "old": "016.0055"
+          },
+          {
+            "old": "016.0056"
+          },
+          {
+            "old": "016.0057"
+          },
+          {
+            "old": "016.0058"
+          },
+          {
+            "old": "016.0059"
+          }
+        ],
+        "_first_line": "# Samedi, 31 janvier 1874"
+      },
+      {
+        "file": "1874-02-01.md",
+        "date": "1874-02-01",
+        "paragraphs": [
+          {
+            "old": "016.0060"
+          },
+          {
+            "old": "016.0061"
+          },
+          {
+            "old": "016.0062"
+          },
+          {
+            "old": "016.0063"
+          },
+          {
+            "old": "016.0064"
+          },
+          {
+            "old": "016.0065"
+          },
+          {
+            "old": "016.0066"
+          },
+          {
+            "old": "016.0067"
+          },
+          {
+            "old": "016.0068"
+          },
+          {
+            "old": "016.0069"
+          },
+          {
+            "old": "016.0070"
+          },
+          {
+            "old": "016.0071"
+          },
+          {
+            "old": "016.0072",
+            "set_french": "Je voudrais tant que ma mère aille demain au bal ! Elle ne veut pas aller sans Dina et cette mule s'obstine. Je ne sais pas pourquoi je voudrais tant qu'elle y aille. Je me suis dit, si je trouve maman au jardin elle ira, mais sinon... Je descends et je la trouve dans la salle à manger les mains dans l'eau, Pitou l'a terriblement mordue. On doit croire aux *bêtises,* presque toutes se réalisent pour moi."
+          },
+          {
+            "old": "016.0074"
+          },
+          {
+            "old": "016.0075"
+          },
+          {
+            "old": "016.0076"
+          }
+        ],
+        "_first_line": "# Dimanche, 1er février 1874"
+      },
+      {
+        "file": "1874-02-02.md",
+        "date": "1874-02-02",
+        "paragraphs": [
+          {
+            "old": "016.0077"
+          },
+          {
+            "old": "016.0078"
+          },
+          {
+            "old": "016.0079"
+          },
+          {
+            "old": "016.0080"
+          },
+          {
+            "old": "016.0081"
+          },
+          {
+            "old": "016.0082",
+            "set_french": "Mon Dieu ces gens ont-ils quelque sentiment d'humanité, raison, compréhension, instinct, au moins ?! Etre des morceaux de bois sales, bêtes et insensibles ! Mon Dieu rien ne me révolte comme ces natures dépourvues de tout sentiment de délicatesse, de tout principe et de tout respect pour l'âge, je n'ai que quinze ans !"
+          },
+          {
+            "old": "016.0084"
+          },
+          {
+            "old": "016.0085"
+          },
+          {
+            "old": "016.0086"
+          },
+          {
+            "old": "016.0087"
+          },
+          {
+            "old": "016.0088"
+          },
+          {
+            "old": "016.0089"
+          },
+          {
+            "old": "016.0090"
+          },
+          {
+            "old": "016.0091"
+          },
+          {
+            "old": "016.0092"
+          },
+          {
+            "old": "016.0093",
+            "set_french": "Il est minuit presque, je lisais. Comme on voit que je suis si jeune, dans quelques années un livre ne me fera pas veiller mais il me fera bâiller."
+          },
+          {
+            "old": "016.0095"
+          },
+          {
+            "old": "016.0096"
+          }
+        ],
+        "_first_line": "# Lundi, 2 février 1874"
+      },
+      {
+        "file": "1874-02-03.md",
+        "date": "1874-02-03",
+        "paragraphs": [
+          {
+            "old": "016.0097"
+          },
+          {
+            "old": "016.0098"
+          },
+          {
+            "old": "016.0099"
+          },
+          {
+            "old": "016.0100"
+          },
+          {
+            "old": "016.0101"
+          },
+          {
+            "old": "016.0102"
+          },
+          {
+            "old": "016.0103"
+          },
+          {
+            "old": "016.0104"
+          }
+        ],
+        "_first_line": "# Mardi, 3 février 1874"
+      },
+      {
+        "file": "1874-02-04.md",
+        "date": "1874-02-04",
+        "paragraphs": [
+          {
+            "old": "016.0105"
+          },
+          {
+            "old": "016.0106",
+            "set_french": "Depuis deux jours la pauvre Nadia est malade et la princesse ne vient pas."
+          },
+          {
+            "old": "016.0108"
+          },
+          {
+            "old": "016.0109"
+          },
+          {
+            "old": "016.0110"
+          },
+          {
+            "old": "016.0111"
+          },
+          {
+            "old": "016.0112"
+          },
+          {
+            "old": "016.0113"
+          },
+          {
+            "old": "016.0114"
+          },
+          {
+            "old": "016.0115"
+          },
+          {
+            "old": "016.0116",
+            "set_french": "Je ne vais pas chez Logé. Je vais donner un dernier coup de pinceau aux toilettes de Machenka, de Dina et même de Paul. J'ai trouvé Machenka mal habillée, j'ai ouvert son corsage en cœur, j'ai mis un fichu de Chantilly, une broche, un médaillon, une fleur assortie à la robe mauve, un nœud et en dix minutes elle était transformée avec la même robe. A Paul, il manquait un bouton à la chemise, j'attachai à la place une belle-de-jour et une feuille verte, très original."
+          },
+          {
+            "old": "016.0118"
+          },
+          {
+            "old": "016.0119"
+          }
+        ],
+        "_first_line": "# Mercredi, 4 février 1874"
+      },
+      {
+        "file": "1874-02-05.md",
+        "date": "1874-02-05",
+        "paragraphs": [
+          {
+            "old": "016.0120"
+          },
+          {
+            "old": "016.0121"
+          },
+          {
+            "old": "016.0122"
+          },
+          {
+            "old": "016.0123"
+          },
+          {
+            "old": "016.0124"
+          },
+          {
+            "old": "016.0125"
+          },
+          {
+            "old": "016.0126"
+          },
+          {
+            "old": "016.0127",
+            "set_french": "Alors je les ai mises de côté. Cet animal regardait mon cou et je crois que je dois en être fâchée, car c'est par *fatuité* qu'il regardait."
+          },
+          {
+            "old": "016.0129"
+          },
+          {
+            "old": "016.0130"
+          },
+          {
+            "old": "016.0131"
+          },
+          {
+            "old": "016.0132"
+          },
+          {
+            "old": "016.0133"
+          },
+          {
+            "old": "016.0134"
+          },
+          {
+            "old": "016.0135"
+          },
+          {
+            "old": "016.0136"
+          },
+          {
+            "old": "016.0137"
+          },
+          {
+            "old": "016.0138"
+          },
+          {
+            "old": "016.0139"
+          },
+          {
+            "old": "016.0140"
+          },
+          {
+            "old": "016.0141"
+          },
+          {
+            "old": "016.0142"
+          },
+          {
+            "old": "016.0143"
+          },
+          {
+            "old": "016.0144"
+          }
+        ],
+        "_first_line": "# Jeudi, 5 février 1874"
+      },
+      {
+        "file": "1874-02-06.md",
+        "date": "1874-02-06",
+        "paragraphs": [
+          {
+            "old": "016.0145"
+          },
+          {
+            "old": "016.0146"
+          },
+          {
+            "old": "016.0147"
+          },
+          {
+            "old": "016.0148"
+          },
+          {
+            "old": "016.0149"
+          },
+          {
+            "old": "016.0150"
+          },
+          {
+            "old": "016.0151"
+          },
+          {
+            "old": "016.0152"
+          },
+          {
+            "old": "016.0153"
+          },
+          {
+            "old": "016.0154"
+          },
+          {
+            "old": "016.0155"
+          },
+          {
+            "old": "016.0156"
+          },
+          {
+            "old": "016.0157"
+          },
+          {
+            "old": "016.0158"
+          },
+          {
+            "old": "016.0159"
+          },
+          {
+            "old": "016.0160"
+          }
+        ],
+        "_first_line": "# Vendredi, 6 février 1874"
+      },
+      {
+        "file": "1874-02-07.md",
+        "date": "1874-02-07",
+        "paragraphs": [
+          {
+            "old": "016.0161"
+          },
+          {
+            "old": "016.0162"
+          },
+          {
+            "old": "016.0163"
+          },
+          {
+            "old": "016.0164"
+          },
+          {
+            "old": "016.0165",
+            "set_french": "Nous sommes au cinquième rang, mais pas au milieu de la salle; de très bonnes places, presque les meilleures. La salle est on ne peut plus brillante. Tout ce qu'il y a de riche, de beau et d'élégant. La Souvoroff, sa fille et cette autre, la Galve avec mademoiselle et cette dame allemande sont de côté comme l'autre jour. La petite que j'aime est en mousseline blanche; elle est si gentille, si calme. Sa figure s'anime seulement lorsque son père la regarde, lui parle. Elle le regarde avec tant d'amour, lui aussi il a l'air bon. Ces dames ont de fort belles robes, surtout la Galve. Il y avait beaucoup d'hommes et comme j'aime. Vis-à-vis j'avais Furstenberg avec son espèce de tuteur [Entre les lignes: son père que je prenais pour un gouverneur] et deux espèces de tantes. J'ai mis des pantoufles, j'ai un petit pied et je le regardais. Il m'a semblé qu'il y avait une espèce de petit banc mais d'une forme assez étrange avec lequel je jouais. Comme je me retournais vers Dina après avoir inspecté les loges, elle me dit:"
+          },
+          {
+            "old": "016.0167"
+          },
+          {
+            "old": "016.0168"
+          },
+          {
+            "old": "016.0169"
+          },
+          {
+            "old": "016.0170"
+          },
+          {
+            "old": "016.0171"
+          },
+          {
+            "old": "016.0172"
+          },
+          {
+            "old": "016.0173"
+          },
+          {
+            "old": "016.0174"
+          },
+          {
+            "old": "016.0175",
+            "set_french": "Comme je me demandais où pouvait être le comte de Lambertye, je le tenais pour parti, lorsqu'il paraît avec son éternel sourire, passe deux fois me regardant closely, M. Gambart était devant moi et je soutins très bravement le sourire. MM. Barnola, Warrodel, Howard, Tebbitt et même le baron s'approchèrent de nous, ce dernier fort aimable aura l'honneur de nous apporter les billets pour le carnaval !"
+          },
+          {
+            "old": "016.0177"
+          },
+          {
+            "old": "016.0178"
+          },
+          {
+            "old": "016.0179"
+          },
+          {
+            "old": "016.0180"
+          },
+          {
+            "old": "016.0181"
+          },
+          {
+            "old": "016.0182"
+          },
+          {
+            "old": "016.0183"
+          },
+          {
+            "old": "016.0184"
+          },
+          {
+            "old": "016.0185"
+          },
+          {
+            "old": "016.0186"
+          },
+          {
+            "old": "016.0187"
+          },
+          {
+            "old": "016.0188"
+          },
+          {
+            "old": "016.0189"
+          },
+          {
+            "old": "016.0190"
+          },
+          {
+            "old": "016.0191"
+          }
+        ],
+        "_first_line": "# Samedi, 7 février 1874"
+      },
+      {
+        "file": "1874-02-08.md",
+        "date": "1874-02-08",
+        "paragraphs": [
+          {
+            "old": "016.0192"
+          },
+          {
+            "old": "016.0193"
+          },
+          {
+            "old": "016.0194"
+          },
+          {
+            "old": "016.0195"
+          },
+          {
+            "old": "016.0196"
+          },
+          {
+            "old": "016.0197"
+          },
+          {
+            "old": "016.0198"
+          },
+          {
+            "old": "016.0199",
+            "set_french": "A dîner la Hitchcock a fait comprendre qu'elle ne veut pas partir, elle est si **insolente*.* Elle dit qu'elle veut nous voir partir avant elle, et par plusieurs *sorties* et paroles on voit qu'il faut la chasser pour qu'elle s'en aille. Je n'ai jamais vu une créature aussi bête, dure, aussi dépourvue d'amour-propre et de toute compréhension et délicatesse."
+          },
+          {
+            "old": "016.0201"
+          },
+          {
+            "old": "016.0202"
+          },
+          {
+            "old": "016.0203"
+          },
+          {
+            "old": "016.0204"
+          },
+          {
+            "old": "016.0205"
+          },
+          {
+            "old": "016.0206"
+          },
+          {
+            "old": "016.0207"
+          }
+        ],
+        "_first_line": "# Dimanche, 8 février 1874"
+      },
+      {
+        "file": "1874-02-09.md",
+        "date": "1874-02-09",
+        "paragraphs": [
+          {
+            "old": "016.0208"
+          },
+          {
+            "old": "016.0209",
+            "set_french": "(Robe bleue, bien). Il fait très beau, je sors avec ma tante et Dina, dans la rue Masséna nous rencontrons Patton qui reste près de la portière une demi-heure. Malgré quelque rudesse j'aime assez Patton; il est fort galant. Nous passons à la promenade. La Wittgenstein est traînée dans un fauteuil, elle est malade la vieille chienne. On ne voit plus son auguste époux. Je marche avec Hitchcock et je rencontre deux fois Lambertye parmi un essaim d'Espagnoles. J'ai presque rougi et je devins essoufflée. Suis-je folle ! Pour un monstre pareil."
+          },
+          {
+            "old": "016.0211"
+          },
+          {
+            "old": "016.0212"
+          },
+          {
+            "old": "016.0213"
+          },
+          {
+            "old": "016.0214"
+          },
+          {
+            "old": "016.0215"
+          },
+          {
+            "old": "016.0216"
+          },
+          {
+            "old": "016.0217"
+          },
+          {
+            "old": "016.0218"
+          },
+          {
+            "old": "016.0219"
+          },
+          {
+            "old": "016.0220"
+          },
+          {
+            "old": "016.0221"
+          }
+        ],
+        "_first_line": "# Lundi, 9 février 1874"
+      },
+      {
+        "file": "1874-02-10.md",
+        "date": "1874-02-10",
+        "paragraphs": [
+          {
+            "old": "016.0222"
+          },
+          {
+            "old": "016.0223"
+          },
+          {
+            "old": "016.0224"
+          },
+          {
+            "old": "016.0225"
+          },
+          {
+            "old": "016.0226"
+          }
+        ],
+        "_first_line": "# Mardi, 10 février 1874"
+      },
+      {
+        "file": "1874-02-11.md",
+        "date": "1874-02-11",
+        "paragraphs": [
+          {
+            "old": "016.0227"
+          },
+          {
+            "old": "016.0228"
+          },
+          {
+            "old": "016.0229"
+          },
+          {
+            "old": "016.0230"
+          },
+          {
+            "old": "016.0231",
+            "set_french": "Les jeunes filles et la fiancée restent dans une chambre à part, le reste au salon. Je devais attacher une fleur d'oranger au baron, j'avoue que je tremblais un peu en la lui passant dans la boutonnière, c'est pour la première fois que je touche à la boutonnière d'un homme."
+          },
+          {
+            "old": "016.0233"
+          },
+          {
+            "old": "016.0234"
+          },
+          {
+            "old": "016.0235"
+          },
+          {
+            "old": "016.0236"
+          },
+          {
+            "old": "016.0237"
+          },
+          {
+            "old": "016.0238"
+          },
+          {
+            "old": "016.0239"
+          },
+          {
+            "old": "016.0240"
+          },
+          {
+            "old": "016.0241"
+          },
+          {
+            "old": "016.0242"
+          },
+          {
+            "old": "016.0243"
+          },
+          {
+            "old": "016.0244"
+          },
+          {
+            "old": "016.0245"
+          },
+          {
+            "old": "016.0246"
+          },
+          {
+            "old": "016.0247"
+          },
+          {
+            "old": "016.0248"
+          },
+          {
+            "old": "016.0249"
+          },
+          {
+            "old": "016.0250"
+          },
+          {
+            "old": "016.0251"
+          },
+          {
+            "old": "016.0252"
+          },
+          {
+            "old": "016.0253"
+          },
+          {
+            "old": "016.0254"
+          },
+          {
+            "old": "016.0255"
+          },
+          {
+            "old": "016.0256"
+          },
+          {
+            "old": "016.0257"
+          }
+        ],
+        "_first_line": "# Mercredi, 11 février 1874"
+      },
+      {
+        "file": "1874-02-12.md",
+        "date": "1874-02-12",
+        "paragraphs": [
+          {
+            "old": "016.0258"
+          },
+          {
+            "old": "016.0259"
+          },
+          {
+            "old": "016.0260"
+          },
+          {
+            "old": "016.0261"
+          },
+          {
+            "old": "016.0262"
+          },
+          {
+            "old": "016.0263"
+          },
+          {
+            "old": "016.0264"
+          },
+          {
+            "old": "016.0265",
+            "set_french": "Au moins si j'en savais la cause ! Mais non, n'importe quelle cause; c'est de la dernière impudence, c'est me compter comme rien, n'avoir aucun respect, aucune considération pour ma famille et moi ! Et tout cela parce que nous vivons comme des misérables ! Oh mon Dieu délivre-nous de tous ces ennuis, tire-nous de cette position ! Aie pitié de moi ! Si on savait comme je me sens humiliée à *chaque* instant, partout, toujours."
+          },
+          {
+            "old": "016.0267"
+          },
+          {
+            "old": "016.0268"
+          },
+          {
+            "old": "016.0269"
+          },
+          {
+            "old": "016.0270"
+          },
+          {
+            "old": "016.0271"
+          }
+        ],
+        "_first_line": "# Jeudi, 12 février 1874"
+      },
+      {
+        "file": "1874-02-13.md",
+        "date": "1874-02-13",
+        "paragraphs": [
+          {
+            "old": "016.0272"
+          },
+          {
+            "old": "016.0273"
+          },
+          {
+            "old": "016.0274"
+          },
+          {
+            "old": "016.0275"
+          },
+          {
+            "old": "016.0276"
+          },
+          {
+            "old": "016.0277",
+            "set_french": "Je descendais pour le dîner, mais une odeur d'oignon me suffoqua, on en mange tous les jours et je rage plus encore pour l'audace de ces gens que pour l'odeur, qui sachant mon dégoût pour cet herbage osent le manger. J'en suis énervée, je monte in fretta, je me mets sur le lit de maman malade et je fonds en larmes."
+          },
+          {
+            "old": "016.0279"
+          },
+          {
+            "old": "016.0280"
+          },
+          {
+            "old": "016.0281"
+          }
+        ],
+        "_first_line": "# Vendredi, 13 février 1874"
+      },
+      {
+        "file": "1874-02-14.md",
+        "date": "1874-02-14",
+        "paragraphs": [
+          {
+            "old": "016.0282"
+          }
+        ],
+        "_first_line": "# Samedi, 14 février 1874"
+      },
+      {
+        "file": "1874-02-15.md",
+        "date": "1874-02-15",
+        "paragraphs": [
+          {
+            "old": "016.0283"
+          },
+          {
+            "old": "016.0284"
+          },
+          {
+            "old": "016.0285"
+          },
+          {
+            "old": "016.0286"
+          },
+          {
+            "old": "016.0287"
+          },
+          {
+            "old": "016.0288"
+          },
+          {
+            "old": "016.0289"
+          },
+          {
+            "old": "016.0290"
+          },
+          {
+            "old": "016.0291"
+          },
+          {
+            "old": "016.0292"
+          },
+          {
+            "old": "016.0293"
+          },
+          {
+            "old": "016.0294"
+          },
+          {
+            "old": "016.0295"
+          },
+          {
+            "old": "016.0296"
+          },
+          {
+            "old": "016.0297",
+            "set_french": "Mais ma tante qui aussi enragée que moi ne se contient pas, mais au lieu de parler pour elle fait des reproches comme si c'était moi, des reproches indirects, racontant comme j'étais fâchée etc. (je ne lui ai rien fait voir) lâches et injustes à ma mère."
+          },
+          {
+            "old": "016.0299"
+          },
+          {
+            "old": "016.0300"
+          },
+          {
+            "old": "016.0301"
+          },
+          {
+            "old": "016.0302"
+          },
+          {
+            "old": "016.0303"
+          },
+          {
+            "old": "016.0304"
+          },
+          {
+            "old": "016.0305"
+          },
+          {
+            "old": "016.0306"
+          },
+          {
+            "old": "016.0307"
+          },
+          {
+            "old": "016.0308"
+          },
+          {
+            "old": "016.0309"
+          },
+          {
+            "old": "016.0310"
+          },
+          {
+            "old": "016.0311"
+          },
+          {
+            "old": "016.0312"
+          },
+          {
+            "old": "016.0313"
+          },
+          {
+            "old": "016.0314"
+          },
+          {
+            "old": "016.0315"
+          },
+          {
+            "old": "016.0316"
+          }
+        ],
+        "_first_line": "# Dimanche, 15 février 1874"
+      },
+      {
+        "file": "1874-02-16.md",
+        "date": "1874-02-16",
+        "paragraphs": [
+          {
+            "old": "016.0317"
+          },
+          {
+            "old": "016.0318"
+          },
+          {
+            "old": "016.0319"
+          },
+          {
+            "old": "016.0320"
+          },
+          {
+            "old": "016.0321"
+          },
+          {
+            "old": "016.0322"
+          },
+          {
+            "old": "016.0323"
+          },
+          {
+            "old": "016.0324"
+          },
+          {
+            "old": "016.0325",
+            "set_french": "Lorsque maman est déjà couchée je viens chez elle, on parlait des hommes et maman vantait la beauté de Soria, je lui disais que je préfère *même* le comte de Lambertye. Alors elle dit qu'à mon âge elle aimerait mieux que je *tombe amoureuse comme de Soria, on peut ainsi penser ou chanter une romance ou quelque chose, mais là il n'y a rien, même des bottes on ne peut pas y penser, car ni lui ni nous n'avons rien, Fi ! comme Tormosoff*."
+          },
+          {
+            "old": "016.0327"
+          },
+          {
+            "old": "016.0328"
+          },
+          {
+            "old": "016.0329"
+          },
+          {
+            "old": "016.0330"
+          },
+          {
+            "old": "016.0331"
+          },
+          {
+            "old": "016.0332"
+          },
+          {
+            "old": "016.0333"
+          },
+          {
+            "old": "016.0334"
+          },
+          {
+            "old": "016.0335"
+          }
+        ],
+        "_first_line": "# Lundi, 16 février 1874"
+      },
+      {
+        "file": "1874-02-17.md",
+        "date": "1874-02-17",
+        "paragraphs": [
+          {
+            "old": "016.0336"
+          },
+          {
+            "old": "016.0337"
+          },
+          {
+            "old": "016.0338"
+          },
+          {
+            "old": "016.0339",
+            "set_french": "Comme les voitures étaient trop nombreuses pour le tour on s'arrêtait à chaque pas, c'était assez pour s'endormir. Près de l'hôtel de la Grande-Bretagne je vois le comte à pied en un terrible état, nous n'avions plus de confettis (comme toutes les fois après le coin Visconti) et nous dûmes jeter des fleurs mêlées de confettis, auxquelles il répondit par des fleurs aussi, plusieurs gros paquets de violettes qu'il remit à maman, puis lorsqu'il monta chez l'Obélisque en landau et domino rose, nous avons couvert l'Obélisque de fleurs, elle n'en avait plus - Comme c'est dommage que je n'aie plus de fleurs. - Elle a une grande, franche, bête, belle et bonne figure."
+          },
+          {
+            "old": "016.0341"
+          },
+          {
+            "old": "016.0342"
+          },
+          {
+            "old": "016.0343"
+          },
+          {
+            "old": "016.0344"
+          },
+          {
+            "old": "016.0345"
+          },
+          {
+            "old": "016.0346"
+          },
+          {
+            "old": "016.0347"
+          },
+          {
+            "old": "016.0348"
+          }
+        ],
+        "_first_line": "# Mardi, 17 février 1874"
+      },
+      {
+        "file": "1874-02-18.md",
+        "date": "1874-02-18",
+        "paragraphs": [
+          {
+            "old": "016.0349"
+          },
+          {
+            "old": "016.0350"
+          },
+          {
+            "old": "016.0351"
+          },
+          {
+            "old": "016.0352"
+          },
+          {
+            "old": "016.0353"
+          },
+          {
+            "old": "016.0354"
+          },
+          {
+            "old": "016.0355"
+          },
+          {
+            "old": "016.0356"
+          },
+          {
+            "old": "016.0357"
+          },
+          {
+            "old": "016.0358"
+          }
+        ],
+        "_first_line": "# Mercredi, 18 février 1874"
+      },
+      {
+        "file": "1874-02-19.md",
+        "date": "1874-02-19",
+        "paragraphs": [
+          {
+            "old": "016.0359"
+          },
+          {
+            "old": "016.0360"
+          },
+          {
+            "old": "016.0361"
+          },
+          {
+            "old": "016.0362"
+          }
+        ],
+        "_first_line": "# Jeudi, 19 février 1874"
+      },
+      {
+        "file": "1874-02-20.md",
+        "date": "1874-02-20",
+        "paragraphs": [
+          {
+            "old": "016.0363"
+          },
+          {
+            "old": "016.0364"
+          },
+          {
+            "old": "016.0365"
+          },
+          {
+            "old": "016.0366"
+          },
+          {
+            "old": "016.0367"
+          },
+          {
+            "old": "016.0368"
+          },
+          {
+            "old": "016.0369"
+          },
+          {
+            "old": "016.0370"
+          }
+        ],
+        "_first_line": "# Vendredi, 20 février 1874"
+      },
+      {
+        "file": "1874-02-21.md",
+        "date": "1874-02-21",
+        "paragraphs": [
+          {
+            "old": "016.0371"
+          },
+          {
+            "old": "016.0372"
+          },
+          {
+            "old": "016.0373",
+            "set_french": "Je suis très mécontente, je réponds brusquement, presque avec méchanceté. Maman m'ennuyait assez, elle voudrait que je fusse ce que je ne suis pas; arrivées à la porte du jardin Masséna elle se mit à pleurer et s'en retourna. Mais nous entrons, il y a un monde fou. La princesse Souvoroff, sa fille et Mlle de Galve ont le plus beau pavillon découvert, c'est une tombola à un franc. Elles sont toutes les trois en robes rouges feu, les chapeaux et tout assorti. Ces robes sont simplement poétiques. En une heure elle vend sept mille billets, et en aurait vendu encore autant s'il y en avait. Je ne sais pas pourquoi elle est si aimable pour nous tous, plusieurs fois elle *entra en conversation* avec ma tante. Toutes ces dames à côté d'elle sont des femmes de chambre. La foule est écrasante et Hélène prend mon bras mais le soleil brûle, la foule presse et en ce moment je vois Lambertye tout près de moi. J'étais très ennuyée de tout, mais lorsque je le vis je devins presque furieuse, je fis une grimace, comme on fait quand la lumière éblouit, je rougis, je voulus ouvrir l'ombrelle car le soleil était cuisant, mais je le *put down* et je tournai le dos au petit comte, puis je passai assez brusquement et je l'ai touché, je pense."
+          },
+          {
+            "old": "016.0375"
+          },
+          {
+            "old": "016.0376"
+          },
+          {
+            "old": "016.0377"
+          },
+          {
+            "old": "016.0378"
+          },
+          {
+            "old": "016.0379"
+          },
+          {
+            "old": "016.0380"
+          },
+          {
+            "old": "016.0381"
+          },
+          {
+            "old": "016.0382",
+            "set_french": "Après nous faisons plusieurs tours dans le jardin. Tout le monde admire la princesse Souvoroff et comme une divinité."
+          },
+          {
+            "old": "016.0384"
+          },
+          {
+            "old": "016.0385"
+          },
+          {
+            "old": "016.0386"
+          },
+          {
+            "old": "016.0387"
+          },
+          {
+            "old": "016.0388"
+          },
+          {
+            "old": "016.0389"
+          },
+          {
+            "old": "016.0390"
+          },
+          {
+            "old": "016.0391"
+          },
+          {
+            "old": "016.0392"
+          },
+          {
+            "old": "016.0393"
+          },
+          {
+            "old": "016.0394"
+          },
+          {
+            "old": "016.0395"
+          },
+          {
+            "old": "016.0396"
+          },
+          {
+            "old": "016.0397"
+          },
+          {
+            "old": "016.0398"
+          },
+          {
+            "old": "016.0399"
+          },
+          {
+            "old": "016.0400"
+          },
+          {
+            "old": "016.0401"
+          },
+          {
+            "old": "016.0402"
+          },
+          {
+            "old": "016.0403"
+          },
+          {
+            "old": "016.0404"
+          },
+          {
+            "old": "016.0405",
+            "set_french": "Pendre un prou je dois ana"
+          },
+          {
+            "old": "016.0407"
+          },
+          {
+            "old": "016.0408"
+          },
+          {
+            "old": "016.0409"
+          },
+          {
+            "old": "016.0410",
+            "set_french": "La Csse n'est pas munition"
+          },
+          {
+            "old": "016.0412",
+            "set_french": "Je suis assez très grand dîner avec]"
+          },
+          {
+            "old": "016.0414"
+          },
+          {
+            "old": "016.0415"
+          },
+          {
+            "old": "016.0416"
+          }
+        ],
+        "_first_line": "# Samedi, 21 février 1874"
+      }
+    ],
+    "source": "tome scan",
+    "drop": [
+      {
+        "id": "016.0008",
+        "reason": "joined to 016.0007: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0017",
+        "reason": "joined to 016.0016: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0052",
+        "reason": "joined to 016.0051: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0073",
+        "reason": "joined to 016.0072: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0083",
+        "reason": "joined to 016.0082: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0094",
+        "reason": "joined to 016.0093: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0107",
+        "reason": "joined to 016.0106: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0117",
+        "reason": "joined to 016.0116: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0128",
+        "reason": "joined to 016.0127: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0166",
+        "reason": "joined to 016.0165: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0176",
+        "reason": "joined to 016.0175: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0200",
+        "reason": "joined to 016.0199: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0210",
+        "reason": "joined to 016.0209: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0232",
+        "reason": "joined to 016.0231: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0266",
+        "reason": "joined to 016.0265: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0278",
+        "reason": "joined to 016.0277: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0298",
+        "reason": "joined to 016.0297: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0326",
+        "reason": "joined to 016.0325: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0340",
+        "reason": "joined to 016.0339: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0374",
+        "reason": "joined to 016.0373: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0383",
+        "reason": "joined to 016.0382: one print paragraph split at a page break in the transcription (tome03.docx: the two halves sit either side of a page number)"
+      },
+      {
+        "id": "016.0406",
+        "reason": "joined to 016.0405: one print paragraph split at a page break in the transcription (tome03.docx: one paragraph in the docx)"
+      },
+      {
+        "id": "016.0411",
+        "reason": "joined to 016.0410: one print paragraph split at a page break in the transcription (tome03.docx: one paragraph in the docx)"
+      },
+      {
+        "id": "016.0413",
+        "reason": "joined to 016.0412: one print paragraph split at a page break in the transcription (tome03.docx: one paragraph in the docx)"
+      }
+    ]
+  }
+}

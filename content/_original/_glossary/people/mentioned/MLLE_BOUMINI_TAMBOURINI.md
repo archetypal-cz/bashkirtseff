@@ -26,7 +26,7 @@ Her father, **Antonio Tamburini** (1800–1876), was one of the most celebrated 
 
 ## Diary References
 
-- **June 8, 1873** (005.0212): "Nous y trouvâmes Mme de Ballore et Boumini la fille de Tambourini."
+- **June 8, 1873** (005.0204): "Nous y trouvâmes Mme de Ballore et Boumini la fille de Tambourini."
 
 ## Research Notes
 

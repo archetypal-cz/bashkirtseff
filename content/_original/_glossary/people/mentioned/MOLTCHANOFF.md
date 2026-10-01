@@ -26,8 +26,8 @@ A Russian man who repeatedly appeared at the Bashkirtseff household in June 1873
 
 ## Diary References
 
-- **June 12, 1873** (005.0247): The same Russian stranger encountered on the train who now visits; Marie calls him "étrange et me répugne," suspects him of being a spy or Nechaev-follower.
-- **June 13, 1873** (005.0263): "Cet horrible Moltchanoff est venu" — he visits again despite Marie's wish to deny him entry; identified by name for the first time.
+- **June 12, 1873** (005.0239): The same Russian stranger encountered on the train who now visits; Marie calls him "étrange et me répugne," suspects him of being a spy or Nechaev-follower.
+- **June 13, 1873** (005.0255): "Cet horrible Moltchanoff est venu" — he visits again despite Marie's wish to deny him entry; identified by name for the first time.
 
 ## Research Notes
 

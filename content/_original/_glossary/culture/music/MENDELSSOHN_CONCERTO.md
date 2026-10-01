@@ -28,6 +28,6 @@ Marie was studying this concerto with her piano teacher Manotte in Nice in sprin
 
 ## Diary References
 
-- **June 8, 1873** (005.0221): "J'ai joué une partie du concerto en sol mineur de Mendelssohn sans une seule faute. Il est dix heures et demie quand je termine, je suis fatiguée."
+- **June 8, 1873** (005.0213): "J'ai joué une partie du concerto en sol mineur de Mendelssohn sans une seule faute. Il est dix heures et demie quand je termine, je suis fatiguée."
 
 %% 2026-05-31T12:00:00 RSR: Created to resolve broken UK link. Sources: Wikipedia "Piano Concerto No. 1 (Mendelssohn)"; Piano Inspires history article. %%
