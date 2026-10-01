@@ -1343,7 +1343,7 @@ Established terminology for consistent translation across carnets.
 | Quid evenit? / Amor et spes... / Dies Irae (lacrimosa dies illa...) | ==highlight== + footnote | Final all-Latin entry (July 31); Marie's own sentences + requiem hymn; preserve error "mie" for "pie" |
 | Anima, coraggio! / tanto ero in fretta... (Italian) | ==highlight== + footnote | Self-exhortation; Italian inserts |
 | partenza del facchino di Nizza (Italian) | ==highlight== + footnote | Contemptuous "departure of the porter of Nice" for Audiffret |
-| Cap de Biou! (Gascon) | ==highlight== + footnote | Gascon oath "Head of God!"; (cf. "Кап-де-Б'ю!" Nice variant in 033, here original spelling kept) |
+| Cap de Biou! (Niçois/Provençal) | ==highlight== + footnote | Minced oath, lit. "head of an ox" (biòu = ox), softening "Cap de Diou"; NOT Gascon "Head of God" (RSR correction 2026-10-01); (cf. "Кап-де-Б'ю!" in 033, here original spelling kept) |
 | unlucky (English) | ==unlucky== + footnote | Marie's habitual English emotional insertion |
 | J. V. A. = Je Vous Aime | Я. В. К. + footnote | Audiffret's coded biscuit-letters; render as Ukrainian initials (Я Вас Кохаю), footnote the cipher |
 | "Lui"/"Il" capitalized for Hamilton | «Він»/«Нього» (capitalized) | Quasi-divine reverence; keep capitalized |
