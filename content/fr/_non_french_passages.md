@@ -1026,16 +1026,16 @@ They need AI translation into French.
 - **050/1875-12-11.md** para 050.0645 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: "La Cenerentola" - Rossini's Cinderella opera (1817); ITALIAN title %%
 - **050/1875-12-11.md** para 050.0651 [ENGLISH]: %% 2026-02-02T12:10:00 LAN: ENGLISH: "flirtons" - we flirt; borrowed from English, fashionable term %%
 - **050/1875-12-12.md** para 050.0693 [LATIN]: %% 2026-02-02T12:10:00 LAN: LATIN: "Delectabile tempus" - delightful time (mock-formal nostalgia) %%
-- **050/1875-12-13.md** para 050.0731 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Capite?" - Do you understand? (rhetorical, expressing frustration) %%
-- **050/1875-12-15.md** para 050.0790 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Vedete!" - You see! (rhetorical, inviting reader to witness) %%
-- **050/1875-12-16.md** para 050.0818 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La figlia del regimento" - The Daughter of the Regiment (Donizetti opera, 1840) %%
-- **050/1875-12-17.md** para 050.0912 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Che differenza!" - What a difference! %%
-- **050/1875-12-20.md** para 050.1087 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Qui solo vorrei restare, amar et morir" - Here only would I wish to stay, to love and to die (operatic quotation) %%
-- **050/1875-12-22.md** para 050.1128 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "moujik" - peasant (mocking term for Audiffret, despite his nobility) %%
-- **050/1875-12-22.md** para 050.1151 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ed ha natura si malvaggia e ria" - And has a nature so wicked and evil (Dante, Inferno; Marie applies to jealousy) %%
-- **050/1875-12-24.md** para 050.1172 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime! potessi io ritornare a quelle amate sponde" - Alas! Could I return to those beloved shores (operatic aria, possibly from Il Barbiere) %%
-- **050/1875-12-24.md** para 050.1174 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La solo restare" - there only to stay (from the aria; Marie applies to Nice) %%
-- **050/1875-12-25.md** para 050.1202 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "a mezza voce" - at half voice, softly (musical term) %%
+- **050/1875-12-13.md** para 050.0730 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Capite?" - Do you understand? (rhetorical, expressing frustration) %%
+- **050/1875-12-15.md** para 050.0789 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Vedete!" - You see! (rhetorical, inviting reader to witness) %%
+- **050/1875-12-16.md** para 050.0817 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La figlia del regimento" - The Daughter of the Regiment (Donizetti opera, 1840) %%
+- **050/1875-12-17.md** para 050.0911 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Che differenza!" - What a difference! %%
+- **050/1875-12-20.md** para 050.1086 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Qui solo vorrei restare, amar et morir" - Here only would I wish to stay, to love and to die (operatic quotation) %%
+- **050/1875-12-22.md** para 050.1127 [RUSSIAN]: %% 2026-02-02T12:10:00 LAN: RUSSIAN: "moujik" - peasant (mocking term for Audiffret, despite his nobility) %%
+- **050/1875-12-22.md** para 050.1150 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ed ha natura si malvaggia e ria" - And has a nature so wicked and evil (Dante, Inferno; Marie applies to jealousy) %%
+- **050/1875-12-24.md** para 050.1171 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "Ohime! potessi io ritornare a quelle amate sponde" - Alas! Could I return to those beloved shores (operatic aria, possibly from Il Barbiere) %%
+- **050/1875-12-24.md** para 050.1173 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "La solo restare" - there only to stay (from the aria; Marie applies to Nice) %%
+- **050/1875-12-25.md** para 050.1201 [ITALIAN]: %% 2026-02-02T12:10:00 LAN: ITALIAN: "a mezza voce" - at half voice, softly (musical term) %%
 - **051/1875-12-27.md** para 051.0030 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "la vecchia canzone" - the old song/same old story %%
 - **051/1875-12-27.md** para 051.0030 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Misera me" - woe is me/poor me; operatic exclamation %%
 - **051/1875-12-27.md** para 051.0032 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "partiro" - I will leave; code-switching for emotional effect %%
