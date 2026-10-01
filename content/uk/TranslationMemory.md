@@ -520,7 +520,7 @@ Established terminology for consistent translation across carnets.
 | Mme de Mouzay | мадам де Музе | Woman who praised Marie to Kirch |
 | Wheelwright | Вілрайт | English horseman with broken bones; Gambart guest |
 | Body | Боді | Local man at Gambart's |
-| princess Eristoff | принцеса Еристова | Russian princess at Spa, merchant-born |
+| princess Eristoff | принцеса Ерістова | Russian princess at Spa, merchant-born |
 | Gustave Nadaud | Ґюстав Надо | French chansonnier who performed at Gambart's soirée (1820–1893) |
 | Joseph Oller | Жозеф Оллер | Catalan inventor of pari-mutuel betting; later founded Moulin Rouge |
 
@@ -1893,7 +1893,7 @@ Continuation of the father-reunion stay at Gavronci, Poltava social rounds, the 
 ### People & Names (Carnet 066)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Michel Eristoff / prince Eristoff | Мішель Ерістов / князь Ерістов | CANONICAL with і (matches 065 TM line 1770). NOT «Еристов» (no і) — 5 occurrences normalized in 066 by RED. Distinct from Spa «принцеса Еристова» (carnet 020). Oblique: Ерістова/Ерістовим. Full mock-title: «князь Мішель Андрійович Ерістов Арагвський» |
+| Michel Eristoff / prince Eristoff | Мішель Ерістов / князь Ерістов | CANONICAL with і (matches 065 TM line 1770). NOT «Еристов» (no і) — 5 occurrences normalized in 066 by RED. Distinct from Spa «принцеса Ерістова» (carnet 020). Oblique: Ерістова/Ерістовим. Full mock-title: «князь Мішель Андрійович Ерістов Арагвський» |
 | Alexandre (uncle/estate-manager) | Олександр | LOCKED to «Олександр» (NOT Russified «Александр», which drifted in 065). 0 «Александр» in 066. Oblique: Олександра/Олександрові/Олександровою. Distinct from the historical Tsar («цар», Peter I, in the Dikanka/Kochubey passage) — never conflate |
 | Pacha / Paul Gorpintchenko | Паша / Поль Горпінченко | (per 065 TM); gets nickname *philoslave*→«філослов'янин» |
 | Kapitanenko / "Kapitan" | Капітаненко / «Капітан» | retired guard officer, household butt |
