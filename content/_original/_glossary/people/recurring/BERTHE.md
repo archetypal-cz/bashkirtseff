@@ -80,7 +80,7 @@ The most vivid period. Berthe and the Boyds become Marie's companions in a serie
 
 ### Phase 5: Marriage and Scandal (1878-1881)
 
-Per Kernberger (2013), Berthe eloped with Robert Lancaster-Johnstone in early 1878 -- the "bras anglais" from the diary. By May 1878: "Berthe qui est mariee qui est a Londres a recu une invitation, et moi je n'en ai pas" (080.0219). Berthe visits Paris with her husband: "Berthe et son mari et Arthur Foster... ont ete ici" (080, May 27). Mme Boyd is furious: "Mme Boyd parle encore toujours de Berthe et de sa perfidie" (080, May 20).
+Per Kernberger (2013), Berthe eloped with Robert Lancaster-Johnstone in early 1878 -- the "bras anglais" from the diary. By May 1878: "Berthe qui est mariee qui est a Londres a recu une invitation, et moi je n'en ai pas" (080.0207). Berthe visits Paris with her husband: "Berthe et son mari et Arthur Foster... ont ete ici" (080, May 27). Mme Boyd is furious: "Mme Boyd parle encore toujours de Berthe et de sa perfidie" (080, May 20).
 
 The marriage quickly sours. By April 1879, Berthe confides about her unhappy marriage to Marie: her husband frequents the demi-monde and involves Berthe in that lifestyle (085, Apr 29).
 

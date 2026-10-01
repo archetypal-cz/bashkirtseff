@@ -257,9 +257,9 @@ The juxtaposition of death and pleasure is characteristic: on the very day Walit
 
 Walitsky's death became a touchstone for Marie -- a measure against which she gauged other losses:
 
-- **March 1878**: "Walitsky est mort, Pincio est perdu... et moi je suis ennuyee et triste" (%% 078.0099 %%)
-- **March 1878**: Comparing grief: "le perdre me fait peut-etre autant de peine que la mort de Walitsky" (about her lost dog Pincio, %% 078.0123 %%)
-- **June 1878**: On Cassagnac's marriage: "me contrarie comme la mort de Walitsky" (%% 080.0080 %%)
+- **March 1878**: "Walitsky est mort, Pincio est perdu... et moi je suis ennuyee et triste" (%% 078.0095 %%)
+- **March 1878**: Comparing grief: "le perdre me fait peut-etre autant de peine que la mort de Walitsky" (about her lost dog Pincio, %% 078.0119 %%)
+- **June 1878**: On Cassagnac's marriage: "me contrarie comme la mort de Walitsky" (%% 080.0078 %%)
 - **June 1878**: "C'est comme la mort de ce pauvre Walitsky, je realiserai difficilement la mort de ce pauvre Cassagnac" (%% 081.0441 %%)
 - **July 1878**: "Je ne realise pas cette fin comme je ne realisais pas la mort de Walitsky" (%% 081.0489 %%)
 - **July 1878**: At Soden, the spa he recommended: "Soden me ferait-il vraiment du bien? Ce pauvre cher Walitsky" (%% 081.DROPPED-0413 %%)
@@ -396,10 +396,10 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0057 %%
 ### Books 78-83 (Post-death references 1878)
-- %% 078.0099 %% (Mar 5): "Walitsky est mort, Pincio est perdu..."
-- %% 078.0123 %% (Mar 12): Grief for Pincio compared to Walitsky
-- %% 079.0068 %% (Mar 23): Recalls day of death and going to Versailles with Cassagnac
-- %% 080.0055 %% (May 9): "Mon pauvre Pincio et ce pauvre Walitsky..."
+- %% 078.0095 %% (Mar 5): "Walitsky est mort, Pincio est perdu..."
+- %% 078.0119 %% (Mar 12): Grief for Pincio compared to Walitsky
+- %% 079.0063 %% (Mar 23): Recalls day of death and going to Versailles with Cassagnac
+- %% 080.0054 %% (May 9): "Mon pauvre Pincio et ce pauvre Walitsky..."
 - %% 081.DROPPED-0413 %% (Jul 26): At Soden, remembering his recommendation
 - %% 082.0146 %% (Aug 18): "Cet appartement... Walitsky y est mort"
 - %% 082.0148 %% (Aug 19): Mlle Oelsnitz "etait amoureuse de Walitsky"
