@@ -33,3 +33,8 @@ Applied with rebuild-carnet (N gets the joined French, N+1 dropped; hyphenated w
 | 083 | dropped 083.0519 («Ibid. p. 581», editors'); 083.0515 kind clipping → editorial (it is the editors' footnote 1 on p.188) | tome12.docx ¶2100, ¶2104 |
 
 Flags reset by the tool: 078/1878-02-22; 079/1878-03-24, 03-27 (079/04-05 restored: pure join); 081/1878-07-03, 07-18; 082/1878-09-09; 083/1878-12-31 — drivers asked for RED+CON.
+
+## Paragraph joins, batch 2: 003–084 (59bfb38e6 + c1606c511 f93f250de 9e730247d beefa7497)
+
+Survey of the whole corpus (`pagebreak/survey.txt`): 249 candidates outside 078–080; tomes 6–16 checked on the scans (`scancheck.py`), tomes 1–5 on the docx (`docxcheck.py`: PAGEBREAK-DOCX = the halves sit either side of a printed page number; SAMEPARA = both halves are one docx paragraph). Applied here: 111 joins in 003, 004, 005, 015, 016, 018, 019, 021, 031, 033, 039, 043, 044, 054, 055, 065, 077, 084 (`pagebreak/checked_batch2.json`, `ok: true`). Not joined: pairs with different paragraph kinds or a quoted letter line (e.g. 077.0264 signature → narrative), the address block 050.0701, ADJACENT-DOCX/INDENT/NOTFOUND cases, and the chain 016.0405–0407 (only 0405+0406 joined). Same post-fix as 078–080, plus `fnfix.py` (footnote references/definitions reconciled after label rewrites) and one manual fix (uk 019/1874-05-12: the moved «Amour-propre» note kept as [^019.189.1m]). Visible text of every tree checked unchanged apart from the joins (`textcheck.py`); no RSR/LAN/TR/RED/CON/FAB note lost.
+Still to do when the drivers have committed them: 091, 092, 093, 094, 097, 099, 102.
