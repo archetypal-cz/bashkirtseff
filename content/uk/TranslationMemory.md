@@ -1848,7 +1848,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | Charles | Шарль | Larderei's coachman/custode |
 | Nasimoff | Насимов | Naples consul |
 | la Righi | Ріґі | Larderei's kept mistress, Milan singer; her child |
-| Belle-de-jour (Audiffret) | Красень-Денний | (per TM) |
+| Belle-de-jour (George Bergerault per RSR — NOT Audiffret) | Красень-Денний | corrected 2026-10-01 wave-uk |
 | Soroka | Сорока | (per TM); generic pet-word for street-admirers |
 
 ### Period Vocabulary & Idioms (Carnet 068)
