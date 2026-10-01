@@ -1443,23 +1443,23 @@ They need AI translation into French.
 - **090/1880-12-20.md** para 090.0422 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN cultural reference: Temple of Fides (Good Faith) traditionally attributed to Romulus %%
 - **094/1882-04-18.md** para 094.0353 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: "sleeping" - ENGLISH: sleeping car (train compartment) %%
 - **091/1881-02-05.md** para 091.0080 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "flirté" - borrowed English verb "flirt" with French conjugation %%
-- **091/1881-04-01.md** para 091.0419 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "blackbouler" - from English "blackball"; to reject, ostracize %%
+- **091/1881-04-01.md** para 091.0412 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "blackbouler" - from English "blackball"; to reject, ostracize %%
 - **092/1881-06-14.md** para 092.0118 [RUSSIAN]: %% 2026-02-02T09:03:04 LAN: "Vassya" - RUSSIAN diminutive of Vasily; indicates familiar/affectionate naming %%
-- **092/1881-07-17.md** para 092.0297 [RUSSIAN]: %% 2026-02-02T08:07:17 LAN: RUSSIAN: "stariovoi" - stanovoi pristav, local police chief %%
-- **092/1881-07-17.md** para 092.0300 [LATIN]: %% 2026-02-02T08:07:38 LAN: LATIN: "Ave!" - Hail! (classical salute, ironic/mock-admiring) %%
-- **092/1881-07-21.md** para 092.0318 [RUSSIAN]: %% 2026-02-02T09:00:01 LAN: "la mère de toutes les villes russes" - RUSSIAN phrase translated: "мать городов русских" (mat gorodov russkikh), traditional epithet for Kiev %%
-- **092/1881-07-21.md** para 092.0318 [ENGLISH]: %% 2026-02-02T09:00:04 LAN: "comfortable" - ENGLISH spelling preserved; Marie uses English word %%
-- **092/1881-07-21.md** para 092.0320 [RUSSIAN]: %% 2026-02-02T09:00:07 LAN: "Lavra" - RUSSIAN: Лавра, highest rank of Eastern Orthodox monastery; Kiev Pechersk Lavra is one of holiest sites %%
-- **092/1881-07-21.md** para 092.0321 [RUSSIAN]: %% 2026-02-02T09:00:08 LAN: "Iconostase" - GREEK/RUSSIAN: icon screen; Marie provides her own explanation for Western readers %%
-- **092/1881-07-25.md** para 092.0345 [ITALIAN]: %% 2026-02-02T09:02:19 LAN: "fiasco" - ITALIAN loanword: complete failure, disaster %%
-- **092/1881-08-05.md** para 092.0376 [LATIN]: %% 2026-02-02T09:05:02 LAN: "gratis" - LATIN: free of charge; commonly used in 19th century French %%
-- **092/1881-08-18.md** para 092.0438 [LATIN]: %% 2026-02-02T09:08:12 LAN: LATIN: "in petto" - in one's breast, secretly, to oneself %%
-- **092/1881-08-18.md** para 092.0442 [LATIN]: %% 2026-02-02T09:08:27 LAN: LATIN: "id est" - that is (scholarly abbreviation) %%
+- **092/1881-07-17.md** para 092.0282 [RUSSIAN]: %% 2026-02-02T08:07:17 LAN: RUSSIAN: "stariovoi" - stanovoi pristav, local police chief %%
+- **092/1881-07-17.md** para 092.0285 [LATIN]: %% 2026-02-02T08:07:38 LAN: LATIN: "Ave!" - Hail! (classical salute, ironic/mock-admiring) %%
+- **092/1881-07-21.md** para 092.0303 [RUSSIAN]: %% 2026-02-02T09:00:01 LAN: "la mère de toutes les villes russes" - RUSSIAN phrase translated: "мать городов русских" (mat gorodov russkikh), traditional epithet for Kiev %%
+- **092/1881-07-21.md** para 092.0303 [ENGLISH]: %% 2026-02-02T09:00:04 LAN: "comfortable" - ENGLISH spelling preserved; Marie uses English word %%
+- **092/1881-07-21.md** para 092.0305 [RUSSIAN]: %% 2026-02-02T09:00:07 LAN: "Lavra" - RUSSIAN: Лавра, highest rank of Eastern Orthodox monastery; Kiev Pechersk Lavra is one of holiest sites %%
+- **092/1881-07-21.md** para 092.0306 [RUSSIAN]: %% 2026-02-02T09:00:08 LAN: "Iconostase" - GREEK/RUSSIAN: icon screen; Marie provides her own explanation for Western readers %%
+- **092/1881-07-25.md** para 092.0330 [ITALIAN]: %% 2026-02-02T09:02:19 LAN: "fiasco" - ITALIAN loanword: complete failure, disaster %%
+- **092/1881-08-05.md** para 092.0361 [LATIN]: %% 2026-02-02T09:05:02 LAN: "gratis" - LATIN: free of charge; commonly used in 19th century French %%
+- **092/1881-08-18.md** para 092.0423 [LATIN]: %% 2026-02-02T09:08:12 LAN: LATIN: "in petto" - in one's breast, secretly, to oneself %%
+- **092/1881-08-18.md** para 092.0427 [LATIN]: %% 2026-02-02T09:08:27 LAN: LATIN: "id est" - that is (scholarly abbreviation) %%
 - **093/1881-08-23.md** para 093.0015 [ENGLISH]: %% 2026-02-02T09:03:11 LAN: ENGLISH: "I!" - Marie's characteristic English exclamation for emphasis %%
-- **093/1881-09-18.md** para 093.0067 [ENGLISH]: %% 2026-02-02T09:01:13 LAN: "ulster" - ENGLISH: heavy overcoat (Ulster coat), fashionable 1870s-80s %%
-- **093/1881-10-04.md** para 093.0102 [LATIN]: %% 2026-02-02T09:10:06 LAN: "idem" - LATIN: the same, likewise (to be painted nude) %%
-- **093/1881-10-10.md** para 093.0112 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
-- **093/1881-10-30.md** para 093.0153 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
+- **093/1881-09-18.md** para 093.DROPPED-0067 [ENGLISH]: %% 2026-02-02T09:01:13 LAN: "ulster" - ENGLISH: heavy overcoat (Ulster coat), fashionable 1870s-80s %%
+- **093/1881-10-04.md** para 093.0083 [LATIN]: %% 2026-02-02T09:10:06 LAN: "idem" - LATIN: the same, likewise (to be painted nude) %%
+- **093/1881-10-10.md** para 093.0090 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
+- **093/1881-10-30.md** para 093.0111 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
 - **093/1881-11-22.md** para withdrawn in the 2026-09 rebuild (old carnet 093 ¶0141; see content/_renumber/093-2026-09-28.json) [LATIN]: %% 2026-02-02T09:06:26 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory: Marie's motto, book title %%
 - **094/1882-01-23.md** para 094.0142 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "heals all wounds but those of the heart" - Gabriel's English inscription on glycerin bottle, romantic cliche %%
 - **095/1882-07-31.md** para 095.0384 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "Il corpo e piu che il vestimento" - The body is more than clothing; biblical reference Luke 12:23 %%
