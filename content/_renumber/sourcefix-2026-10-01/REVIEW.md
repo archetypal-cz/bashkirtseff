@@ -16,3 +16,20 @@ Approval flags reset by the tool on: 030/1875-04-02, 066/1876-10-08 (uk also 10-
 Not done:
 - 063.0017 («[annotation ]», `kind: editorial`) is KEPT: the scan (Mon Journal t.8 p.252) prints the label «[ANNOTATION ]» on its own line before Marie's annotation, so it is the edition's label as printed, not an extraction artefact.
 - 062.0832: Marie's own printed footnote (t.8 p.243) stays quoted in source footnote [^1]; making it a margin paragraph is optional and was not done.
+
+## Page-break joins, 078–080 (80f2fefcf + 6cb472cd8 2441c74b4 ca3c14ce9 b627bf42e)
+
+94 paragraph pairs where the transcription split one print paragraph at a page break (078: 22, 079: 35, 080: 37). Candidates: paragraph N ends without terminal punctuation and N+1 starts lowercase (`pagebreak/candidates.py`). Each pair checked on the Tome 11 scan (`pagebreak/scancheck.py`: N's last words end page p and N+1's first words open the first body line of page p+1 flush-left, no indent) — 91 automatically, 3 by looking at the scan image (080.0169/0170, 080.0228/0229, 080.0242/0243: continuous mid-page). Full list with scan pages: `pagebreak/checked_078-080.json`; plans `pagebreak/plan-pb-*.json`.
+Applied with rebuild-carnet (N gets the joined French, N+1 dropped; hyphenated word halves joined without the hyphen), then `pagebreak/postfix.py`: in cz/uk/en/fr the translation of N+1 is appended to N's translation (nothing dropped — `pagebreak/textcheck.py` confirms the visible text of every tree is unchanged apart from the joins), N+1's tags, notes and footnote definitions move to N, the tool's SOURCE CHANGED note is replaced by «ED: paragraphs merged at a page break — check the seam», and approval flags are restored (pure joins). 69 entries per tree carry seam notes (`~/rebuild-state/plan-sourcefix/pagebreak/seam-entries-078-080.txt`); drivers asked for a Sonnet RED seam pass, CON only where RED changes something.
+
+## Small batch, 078/079/081–083 (906f6f526 + 8ad75ed4e 0560b2278 9d1f0461a 702e32d47)
+
+| Carnet | Change | Evidence |
+|---|---|---|
+| 078 | 078.0268 split: «# Vendredi 22 février 1878» stays (no kind); the opening line of Marcuard's letter becomes 078.0269 `kind: letter` (translations moved mechanically) | tome11.docx |
+| 079 | dropped 079.0083 and 079.0124 (empty once the editors' «Ibid., p. 227 / 230-231» was removed), 079.0239 (held only «Ibid., pp. 239-240»; its RSR note moved to 0236), 079.0240 joined to 079.0236 (one print paragraph around the reference; translations joined, seam note) | tome11.docx; Mon Journal t.11 |
+| 081 | dropped 081.0233 (spelling-normalised duplicate of 0232); 0432/0433 boundary moved: «A table, … tant, etc.» belongs to ¶609 (0432), 0433 = ¶610 «Il n'y a rien que je ne fasse…» (translations get SOURCE CHANGED) | tome12.docx ¶359–360, ¶609–610 |
+| 082 | 0337/0338 swapped into print order (Antonsky line ¶1263 before the second «C'est triste…» ¶1264) | tome12.docx |
+| 083 | dropped 083.0519 («Ibid. p. 581», editors'); 083.0515 kind clipping → editorial (it is the editors' footnote 1 on p.188) | tome12.docx ¶2100, ¶2104 |
+
+Flags reset by the tool: 078/1878-02-22; 079/1878-03-24, 03-27 (079/04-05 restored: pure join); 081/1878-07-03, 07-18; 082/1878-09-09; 083/1878-12-31 — drivers asked for RED+CON.
