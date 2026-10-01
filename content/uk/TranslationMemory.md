@@ -410,6 +410,7 @@ Established terminology for consistent translation across carnets.
 | Arsenieff | Арсенієв | Russian acquaintance; predicts English husband and Scottish castle |
 | Lambertye | Ламбертьє | French nobleman, early admirer (established 018) |
 | Woerman | Верман | acquaintance in Marie's circle (German name Woermann); locked 2026-09-29 wave-uk (was split Воерман 013–029 / Верман 016–045) |
+| Larderel (comte Alessandro; OCR «Larderei») | Лардерель | OWNER LOCK 2026-09-30: printed-edition spelling Larderel. Count: DECLINED as masculine (Лардереля, Лардерелю, Лардерелем, Лардерелі); women (Mme/comtesse de Larderel): indeclinable «Лардерель». Supersedes all «Лардереї … indeclinable» rows below. Glossary path LARDEREI.md unchanged. |
 | Zucchini | Дзуккіні | Roman acquaintance 1876; locked 2026-09-29 wave-uk (NOT Зуккіні) |
 | Plowden | Плауден | English family in Rome/Naples 1876; locked 2026-09-29 wave-uk (NOT Плоуден) |
 | Facciotti | Фаччотті | 052–053; locked 2026-09-29 wave-uk |
@@ -1283,7 +1284,7 @@ Established terminology for consistent translation across carnets.
 | Léonie | Леоні | Carries Marie's clothes to the sea-bath |
 | Laurenti (comte) | граф Лоренті | Danis's friend; opposite opinion of Marie's character |
 | d'Aspremont | д'Аспремон | Nice figure Danis will report to (established 029) |
-| Larderei (comte de) | граф де Лардереї | Fashionable Florentine; sister married Victor-Emmanuel II's son. CANON in practice = «Лардереї» (056×2, 059×21, 060×6+); indeclinable. Earlier TM note «Лардерель» superseded by de-facto approved usage. |
+| Larderei (comte de) | граф де Лардерель | Fashionable Florentine; sister married Victor-Emmanuel II's son. CANON in practice = «Лардерель» (056×2, 059×21, 060×6+); indeclinable. Earlier TM note «Лардерель» superseded by de-facto approved usage. |
 | Gioia / Amélie | Джоя / Амелі | Hamilton's former mistress (established TM); her real name is Amélie; her Nice house (n° 77) is the pilgrimage site |
 | Blackprince | Блекпринс | English admirer cipher (established 023); appears in a dream |
 | "Lui" / "Il" (capitalisé) | «Він» (з великої) | Hamilton; capitalized for quasi-religious reverence — keep capitalized |
@@ -1827,7 +1828,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 ### People & Nicknames (Carnet 068)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Larderei (comte Alessandro) | Лардереї | CANONICAL. Naples carnival object of obsession; indeclinable (no «Лардереєм»). Rosalie's mangled form «Ladreréel»→«Ладререль» kept as her error |
+| Larderei (comte Alessandro) | Лардерель | CANONICAL. Naples carnival object of obsession; indeclinable (no «Лардереєм»). Rosalie's mangled form «Ladreréel»→«Ладререль» kept as her error |
 | Bijou-bouzouk (Larderei nickname) | Біжу-бузук | Marie's mocking nickname for Larderei (Bijou=trinket + bachi-bouzouk); footnote-free, recurs from 068.1191 |
 | Mirafiore (comte/comtesse de) | Мірафіоре | Larderei's brother-in-law/sister; King's morganatic kin. Rosalie's «Mirafiol»→«Мірафіоль» kept as her error |
 | Antonelli (Pietro/Paolo) | Антонеллі (П'єтро/Паоло) | The broken-engagement scandal centre; Pietro=П'єтро (canonical per TM) |
@@ -1882,7 +1883,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 - Altamura's mangled French (eou/«еу», «Poua vous serouiar») → phonetic Ukrainian preserving the buffoonery.
 - "dialogue petit-russien" → «малоросійський діалог» (Marie marks family switching to Ukrainian).
 
-- 2026-06-07: Carnet 068 complete (Nice/Rome/Naples, Dec 1876–Feb 1877; Larderei obsession, Antonelli-gossip aftermath, Book 9 close). Larderei→«Лардереї», Bijou-bouzouk→«Біжу-бузук» established. (tr-b run)
+- 2026-06-07: Carnet 068 complete (Nice/Rome/Naples, Dec 1876–Feb 1877; Larderei obsession, Antonelli-gossip aftermath, Book 9 close). Larderei→«Лардерель», Bijou-bouzouk→«Біжу-бузук» established. (tr-b run)
 - 2026-06-07: Carnet 068 RED review complete, 0.94, all 19 editor_approved. Pietro lock clean (11× «П'єтро», 0 drift). Acrostic ÉMILE kept French+gloss-footnote; Girofla "Serbia" song rendered as UK verse (Marie's own joke, not code-switch); Altamura's mangled French («Поу вас послюуг!»/«Абсооюно!») phonetic UK preserving buffoonery; source-repeat 0592/0594 faithful (not copy-paste); "dialogue petit-russien"→«малоросійський діалог». (red)
 
 ## Carnet 066 Additions (Russia/Ukraine — Gavronci & Poltava, Aug–Oct 1876)
@@ -1989,7 +1990,7 @@ Continuation of Book 10 from carnet 068: Marie, ~18, stranded in Naples in Lent,
 ### People & Nicknames (Carnet 069)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Larderei (comte Alessandro) | Лардереї | CANONICAL (per 068); indeclinable. The «saint Alexandre» name-day pun → «Олександра Великого» (his given name Alessandro/Олександр) |
+| Larderei (comte Alessandro) | Лардерель | CANONICAL (per 068); indeclinable. The «saint Alexandre» name-day pun → «Олександра Великого» (his given name Alessandro/Олександр) |
 | Bijou | Біжу | (per 068); Marie's pet name for Larderei |
 | Madame la Coquine | пані Шльондра | Larderei's mistress (the Righi); Marie's contemptuous epithet — distinct from generic «кокотка» |
 | Monsieur le comte / Monsieur le cocher / petit Charles | пан граф / пан кучер / малий Шарль | Rosalie's running cast: Larderei=«пан граф», his coachman=«пан кучер»; «малий Шарль» (a fat 50-yr-old) is the gossip source — Шарль per 068 |
@@ -2066,7 +2067,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 ### People & Nicknames (Carnet 070)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Larderei (comte Alessandro) | Лардереї | CANONICAL, INDECLINABLE (per 068 LOCK). 42 occurrences, 0 declined drift. His GIVEN name is the Italian Alessandro → in 070.0914 the family joke "notre cher Alexandre" = LARDEREI, rendered «наш любий Алессандро» (Italian form, italic), kept LEXICALLY DISTINCT from the uncle's «Олександр» per CON/team-lead disambiguation. NOT the uncle |
+| Larderei (comte Alessandro) | Лардерель | CANONICAL, INDECLINABLE (per 068 LOCK). 42 occurrences, 0 declined drift. His GIVEN name is the Italian Alessandro → in 070.0914 the family joke "notre cher Alexandre" = LARDEREI, rendered «наш любий Алессандро» (Italian form, italic), kept LEXICALLY DISTINCT from the uncle's «Олександр» per CON/team-lead disambiguation. NOT the uncle |
 | Alessandro (= Larderei's given name) | Алессандро | Italian form used ONLY for the Larderei-as-given-name joke (070.0914), so it never collides with the uncle «Олександр» or the daughter «Александріна» |
 | Bijou (Larderei nickname) | Біжу | Marie's pet-name for Larderei (per 068 «Біжу-бузук»); plain Bijou → «Біжу» |
 | Alexandrine (Larderei's daughter) | Александріна | His natural daughter by la Righi; French given name kept «Александріна» (distinct from uncle «Олександр» and from Larderei-as-«Алессандро») |
@@ -2080,7 +2081,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 | Princesse Gerace | княгиня Джераче | Francesco's mother |
 | Pascarola (marquis) | Паскарола | Embeds a marriage proposal in "réflexions philosophiques" (070.0913) |
 | Santasiglia (marquis) | Сантасілья | 19-yo "amoureux comme Chérubin"; copies Dante's Vita Nuova sonnet |
-| Zunica / Porcinari / Caracciolo / Campomarino / Melito / Carmignano | Дзуніка / Порчінарі / Каракчоло / Кампомаріно / Меліто / Карміньяно | Naples cavalier circle |
+| Zunica / Porcinari / Caracciolo / Campomarino / Melito / Carmignano | Дзуніка / Порчінарі / Караччоло / Кампомаріно / Меліто / Карміньяно | Naples cavalier circle |
 | Roi (Vittorio Emanuele II) | Король | praises Marie "elle est excessivement jolie"; "resta découvert"→лишається з непокритою головою |
 | Rosalie | Розалі | Marie's maid-confidante (per 068); elided street-speech → colloquial UK register |
 | Hamontoff (Mme/Olga) | Гамонтова / Гамонтови | Russian Naples acquaintance |
@@ -2120,7 +2121,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 - The entry 1877-04-03 is a SINGLE paragraph block (070.0001, para_start=para_end=1) containing all the Sorrento dialogue/verse — translated as one block preserving internal line structure.
 - Empty trailing para_end markers (070.DROPPED-0009, 070.DROPPED-0036) omitted (no source text).
 
-- 2026-06-07: Carnet 070 complete (Naples, Sorrento excursion + Larderei affair climax, Apr 1877). 8 entries, all content. Larderei→«Лардереї» (indeclinable) and Bijou→«Біжу» reconfirmed; "mon empereur"→«мій імператоре» catchphrase established; uncle Олександр LOCK clean (070.0894); Larderei-given-name joke (070.0914) → «Алессандро», kept lexically distinct from uncle «Олександр» (per CON/team-lead disambiguation). Dante/Latin/Italian kept in original w/ footnotes; verify-equivalent manual checks pass (121 glossary links 0 drift, all footnotes paired). (tr-a run)
+- 2026-06-07: Carnet 070 complete (Naples, Sorrento excursion + Larderei affair climax, Apr 1877). 8 entries, all content. Larderei→«Лардерель» (indeclinable) and Bijou→«Біжу» reconfirmed; "mon empereur"→«мій імператоре» catchphrase established; uncle Олександр LOCK clean (070.0894); Larderei-given-name joke (070.0914) → «Алессандро», kept lexically distinct from uncle «Олександр» (per CON/team-lead disambiguation). Dante/Latin/Italian kept in original w/ footnotes; verify-equivalent manual checks pass (121 glossary links 0 drift, all footnotes paired). (tr-a run)
 
 ## Carnet 071 Additions (Naples → Florence → Nice, Apr–Jun 1877)
 
@@ -2132,16 +2133,16 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 ### People & Nicknames (Carnet 071)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Larderei (comte Alessandro) | Лардереї | CANONICAL, INDECLINABLE (per 068/070). 24 occurrences, 0 declined drift |
+| Larderei (comte Alessandro) | Лардерель | CANONICAL, INDECLINABLE (per 068/070). 24 occurrences, 0 declined drift |
 | Alexandre (= Larderei code-name) | Алессандро | INDECLINABLE (see LOCK above); ~30 occurrences |
 | le Florentin (Larderei epithet) | Флорентинець | dismissive epithet (071.0501/0286); Marie equates it with «нікчема/фертик/навіжений» |
 | Silène (Larderei code-name) | Сілен | from Sorrento hotel «Sirène» pun (per 070); "la fille de Silène"→«доньку Сілена» |
 | Bijou (Larderei nickname) | Біжу | per 068/070; «Біжу покинув Відень» (071.0534) |
 | Alexandrine (Larderei's daughter) | Александріна | declinable fem.; per 070 LOCK |
 | la Righi | Ріґі | Larderei's mistress (per 068/070); indeclinable |
-| Mme de Larderei / la vieille comtesse | пані де Лардереї / стара графиня | Larderei's mother; Marie idolizes her |
+| Mme de Larderei / la vieille comtesse | пані де Лардерель / стара графиня | Larderei's mother; Marie idolizes her |
 | Blanche / comtesse de Mirafiore | Бланш / графиня ді Мірафіоре | Larderei's sister, "bru du roi"; Mirafiore→«Мірафіоре» (per 068) |
-| Gaston de Larderei | Гастон де Лардереї | Larderei's brother (married a Salviati) |
+| Gaston de Larderei | Гастон де Лардерель | Larderei's brother (married a Salviati) |
 | Marcuard (F. de) | Маркуар | Swiss go-between (per 070); delivers the «à fonds perdus» proposal |
 | Melissano (prince) | Меліссано | Naples cavalier; Marie paints his portrait (per 070) |
 | Doenhoff / Campomarino / Carmignano / Nasimoff / Caracciolo / Schettino | Денгоф / Кампомаріно / Карміньяно / Насимов / Караччоло / Шеттіно | Naples farewell circle (per 070) |
@@ -2207,7 +2208,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 - Heading convention: each entry shows the French heading in a %% comment then the UK heading as visible text (per project format).
 - Empty trailing para-end markers (071.0587, 071.0594, 071.0611, 071.0618, 071.0626) carried over with no body (match source).
 
-- 2026-06-07: Carnet 071 complete (Naples→Florence→Nice, Apr–Jun 1877). 26 entries, 326 paragraphs, all content. Alexandre=Larderei→«Алессандро» (indeclinable) per 070 LOCK (0 uncle «Олександр» in body); Alexandrine→«Александріна»; Larderei→«Лардереї»/Florentin→«Флорентинець»/Silène→«Сілен»/Bijou→«Біжу». "à fonds perdus"→«без вороття»; Dante Inferno V + Niçois/English code-switches kept w/ footnotes; Marie's verses rendered as UK verse; Lise's "р"-defect phonetically imitated. Manual structural checks pass (all glossary links use ../../_original/_glossary/ — 0 short-path drift; all footnote markers paired; YAML frontmatter preserved on all 26; no Cyrillic/Latin contamination; 0 Russianisms). (tr-b run)
+- 2026-06-07: Carnet 071 complete (Naples→Florence→Nice, Apr–Jun 1877). 26 entries, 326 paragraphs, all content. Alexandre=Larderei→«Алессандро» (indeclinable) per 070 LOCK (0 uncle «Олександр» in body); Alexandrine→«Александріна»; Larderei→«Лардерель»/Florentin→«Флорентинець»/Silène→«Сілен»/Bijou→«Біжу». "à fonds perdus"→«без вороття»; Dante Inferno V + Niçois/English code-switches kept w/ footnotes; Marie's verses rendered as UK verse; Lise's "р"-defect phonetically imitated. Manual structural checks pass (all glossary links use ../../_original/_glossary/ — 0 short-path drift; all footnote markers paired; YAML frontmatter preserved on all 26; no Cyrillic/Latin contamination; 0 Russianisms). (tr-b run)
 
 ## Carnet 072–074 Additions (Paris → Schlangenbad/Wiesbaden, Jun–Sep 1877)
 
