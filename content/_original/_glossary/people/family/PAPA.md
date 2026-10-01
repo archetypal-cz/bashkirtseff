@@ -18,7 +18,7 @@ last_updated: 2026-09-26
 **Last Updated**: 2026-09-26
 **Merged from**: FATHER_BASHKIRTSEFF (now a redirect to this entry)
 
-> **Disambiguation — who is "papa"?** In the Nice household (1873–1877) Marie's bare "papa" is almost always her **maternal grandfather, Stepan Babanine** — see [#Grand_papa](GRAND_PAPA.md). Her father Constantin is "mon père", "mon (cher / auguste / illustre / honorable) père" or "mon pater". Marie calls him "Papa" only when she is with him: his Nice visit of Nov 1873 (013.0080, 013.0088, 013.0104), Poltava and Gavronzi in Jul–Oct 1876 (carnets 064–066), and Paris in Nov 1876 (067.1036). This entry is for Constantin only. Tag the grandfather's "papa" as #Grand_papa, not #Papa. Other "papas" of 1875–76: old M. d'Audiffret (049.0305, 050.0122–0502), operetta refrains, other people's fathers. The per-occurrence tables are in `.claude/reports/papa-referent-2026-09-26.md`.
+> **Disambiguation — who is "papa"?** In the Nice household (1873–1877) Marie's bare "papa" is almost always her **maternal grandfather, Stepan Babanine** — see [#Grand_papa](GRAND_PAPA.md). Her father Constantin is "mon père", "mon (cher / auguste / illustre / honorable) père" or "mon pater". Marie calls him "Papa" only when she is with him: his Nice visit of Nov 1873 (013.0080, 013.0088, 013.0104), Poltava and Gavronzi in Jul–Oct 1876 (carnets 064–066), and Paris in Nov 1876 (067.1040). This entry is for Constantin only. Tag the grandfather's "papa" as #Grand_papa, not #Papa. Other "papas" of 1875–76: old M. d'Audiffret (049.0305, 050.0122–0502), operetta refrains, other people's fathers. The per-occurrence tables are in `.claude/reports/papa-referent-2026-09-26.md`.
 
 ## Overview
 
@@ -46,8 +46,8 @@ Constantin is absent from the Nice household. Marie mentions him with marked for
 
 - In July 1876 Marie travels to Russia and meets her father (carnets 064–066). Her plan is to bring him to Rome so that the family looks respectable.
 - At Poltava and Gavronzi she calls him "Papa" and plays up to him: "Vous serez mon frère aîné et je vous nommerai Constantin" (065.0174). Prince Michel Eristoff, stepson of his sister Nathalie, "mange l'argent à papa" (065.0064).
-- In November 1876 Marie and her father travel to Paris together (067.1036, "Papa et maman"), where she introduces him to Cassagnac. They go on to Rome at Christmas 1876, but he leaves before New Year without improving Marie's social standing.
-- In December 1876 he makes a provocative visit to Nice (067.1229 "la carte de mon père … voici son défi"), and maman confronts him at Monaco with his mistress and Mme Tutcheff (067.1254).
+- In November 1876 Marie and her father travel to Paris together (067.1040, "Papa et maman"), where she introduces him to Cassagnac. They go on to Rome at Christmas 1876, but he leaves before New Year without improving Marie's social standing.
+- In December 1876 he makes a provocative visit to Nice (067.1232 "la carte de mon père … voici son défi"), and maman confronts him at Monaco with his mistress and Mme Tutcheff (067.1257).
 - "M. Constantin Bashkirtseff a épousé la plus belle et la plus vertueuse des femmes… Il a rendu cette femme parfaitement malheureuse" (068.0366).
 
 ## Later life and death
