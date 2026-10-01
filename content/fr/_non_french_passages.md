@@ -1377,16 +1377,16 @@ They need AI translation into French.
 - **077/1878-01-18.md** para 077.0253 [ITALIAN]: %% 2026-02-09T14:00:00 LAN: ITALIAN: "Con orgoglio di madre..." - With the pride of a mother, with the grief of a daughter, Italy prays for the great king who was a great citizen, [for the] immortality of the just and of heroes. (Inscription on the Pantheon for Victor Emmanuel II's funeral) %%
 - **077/1878-01-21.md** para 077.0297 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "Honni soit qui mal y pense" - Shame on him who thinks evil of it; motto of the Order of the Garter; Marie's playful code-switching %%
 - **077/1878-02-03.md** para withdrawn in the 2026-09 rebuild (old carnet 077 ¶0613; see content/_renumber/077-2026-09-29.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
-- **078/1878-02-18.md** para 078.0227 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "skating" - ice rink; fashionable social venue in 1870s European cities %%
+- **078/1878-02-18.md** para 078.0218 [ENGLISH]: %% 2026-02-02T12:30:00 LAN: ENGLISH "skating" - ice rink; fashionable social venue in 1870s European cities %%
 - **078/1878-03-16.md** para withdrawn in the 2026-09 rebuild (old carnet 078 ¶0575; see content/_renumber/078-2026-09-29.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN "Gloriae Cupiditas" - Desire for glory; Marie's personal motto inscribed at end of each carnet %%
-- **079/1878-03-27.md** para 079.0117 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "pug" - English word for the dog breed %%
-- **079/1878-03-27.md** para 079.0117 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Skating" - skating rink, fashionable activity %%
-- **079/1878-03-27.md** para 079.0117 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Club" - English term for gentlemen's club %%
-- **079/1878-03-27.md** para 079.0118 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "gentlemen-riders" - amateur horse racing by aristocrats %%
-- **079/1878-05-01.md** para 079.0643 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Let us make the best of it" - Marie's code-switching %%
+- **079/1878-03-27.md** para 079.0110 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "pug" - English word for the dog breed %%
+- **079/1878-03-27.md** para 079.0110 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Skating" - skating rink, fashionable activity %%
+- **079/1878-03-27.md** para 079.0110 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Club" - English term for gentlemen's club %%
+- **079/1878-03-27.md** para 079.0111 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "gentlemen-riders" - amateur horse racing by aristocrats %%
+- **079/1878-05-01.md** para 079.0611 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "Let us make the best of it" - Marie's code-switching %%
 - **080/1878-05-04.md** para withdrawn in the 2026-09 rebuild (old carnet 080 ¶0006; see content/_renumber/080-2026-09-29.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's motto) %%
-- **080/1878-05-21.md** para 080.0264 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "terrarum dea gentiumque Roma" - "Rome, goddess of lands and peoples" (Martial) %%
-- **080/1878-06-17.md** para 080.0687 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Ci rivedrem signore!" - "We'll meet again, sir!" - Marie's Italian code-switching %%
+- **080/1878-05-21.md** para 080.0249 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "terrarum dea gentiumque Roma" - "Rome, goddess of lands and peoples" (Martial) %%
+- **080/1878-06-17.md** para 080.0653 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Ci rivedrem signore!" - "We'll meet again, sir!" - Marie's Italian code-switching %%
 - **081/1878-06-24.md** para 081.0023 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "quaerens quem devoret" - "seeking whom to devour" (1 Peter 5:8, describing devil) %%
 - **081/1878-06-30.md** para 081.0115 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "common-place" - Marie uses English for emphasis %%
 - **081/1878-07-15.md** para 081.0407 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "chic" - borrowed from French but Marie uses it as society slang for elegant/fashionable %%
