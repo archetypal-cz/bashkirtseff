@@ -409,7 +409,8 @@ When Marie writes in Italian/Russian:
 - Notes: Add footnote on first use per entry: "a woman from Trastevere, the ancient Roman quarter across the Tiber; in 19th century art, trasteverine women were considered the exemplary Roman type"
 
 ### mots noircis
-- Translation: [words blacked out: "..."]
+- Translation: [words blacked out: …] (singular: [word blacked out: …])
+- Ruling (2026-10-01, ED): label lowercase, no quotation marks around the surviving text; tree normalised (287 labels).
 - Context: Words deliberately obscured in manuscript by Marie (blacked out with ink); differs from "rayé" (crossed out)
 - Notes: Render as [words blacked out: "text"] — the surviving editorial transcription of what lies under the blacking
 
@@ -1435,7 +1436,7 @@ When Marie writes in Italian/Russian:
 - Notes: Possessive affection; keep as "my Niçois" with French italics
 
 ### la secousse (romantic)
-- Translation: the jolt
+- Translation: *secousse* (italic French; see the carnet 048 entry) — Ruling (2026-10-01, ED): superseded "the jolt"
 - Context: Recurring physical sensation when Audiffret takes Marie's waist or hand; electric-shock metaphor
 - Notes: Always "the jolt" when used as this running motif; NOT "the shock"
 
@@ -3239,6 +3240,7 @@ When Marie writes in Italian/Russian:
 - Translation: *la secousse* (keep French, italicized)
 - Context: Physical electric thrill felt when Audiffret touches Marie; introduced carnet 048 Oct 29
 - Notes: Previously documented as "the jolt" but carnet 048 translator kept French throughout; *la secousse* in French italics with footnote on first use per entry is preferred; subsequent uses may use *la secousse* without re-footnoting
+- Ruling (2026-10-01, ED): the motif is *secousse* in italics everywhere (footnote [^secousse] on first use per carnet); the last "the jolt" renderings (036, 049) converted. Ordinary carriage jolts («cahots») stay English.
 
 ### châtelain fougueux
 - Translation: impetuous lord of the castle
@@ -4499,7 +4501,8 @@ When Marie writes in Italian/Russian:
 - Notes: Already in TM as "starosta"; Marie uses the French-inflected form *starovoï* in carnet 096 — keep her spelling, footnote: "*Starovoï*: the village elder or headman."
 
 ### pope (Orthodox priest)
-- Translation: *pope* (keep, footnote on first use per carnet)
+- Translation: the Orthodox priest
+- Ruling (2026-10-01, lead/ED): «pope» → "the Orthodox priest" in running text (never bare "priest"); applied across the EN tree in the 2026-09 post-rebuild wave. Superseded: *pope* kept in French with a footnote.
 - Context: An Orthodox priest; from Russian *pop*; invited to the baptism at Gavronzi and observed remaining sober while the men drink
 - Notes: "The Orthodox priest" is an acceptable gloss in running text if the footnote has already been given; do not translate as "priest" alone without the note on first use
 
