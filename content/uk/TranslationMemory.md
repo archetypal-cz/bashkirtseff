@@ -410,6 +410,7 @@ Established terminology for consistent translation across carnets.
 | Arsenieff | Арсенієв | Russian acquaintance; predicts English husband and Scottish castle |
 | Lambertye | Ламбертьє | French nobleman, early admirer (established 018) |
 | Woerman | Верман | acquaintance in Marie's circle (German name Woermann); locked 2026-09-29 wave-uk (was split Воерман 013–029 / Верман 016–045) |
+| Étincelle (Le Figaro columnist pseudonym) | Етенсель | indeclinable; locked 2026-10-01 wave-uk (NOT Іскра) |
 | Wykerslooth | Вейкерслот | locked 2026-10-01 wave-uk |
 | Haussmann | Осман | locked 2026-10-01 wave-uk (NOT Османн/Гаусман) |
 | Chislehurst | Чизлгерст | locked 2026-10-01 wave-uk |
