@@ -30,7 +30,7 @@
   - Paul Bashkirtseff's manipulation by the Zankovsky family
 - Foreign language passages:
   - Russian: patronymic address "Maria Stepanovna" (039.0067), "Nadejda Stepanovna" (039.0229) — marked ==highlight==
-  - Russian: "Obeziana" (039.0148, 039.0245, 039.0298) — marked ==highlight==
+  - Russian: "Obeziana" (039.0148, 039.0245, 039.0297) — marked ==highlight==
   - Russian: "hourra" (039.0090) — marked ==highlight==
   - English: "pleasantly enough", "deliciously" (039.0275) — kept AS-IS, marked ==highlight==
   - Italian: "Il fiato mi manca!" (039.0263) — marked ==highlight==, translated
