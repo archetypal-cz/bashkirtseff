@@ -221,7 +221,7 @@ Established terminology for consistent translation across carnets.
 | Le Bec | Ле Бек (transliterated; owner ruling 2026-09-29, NOT Дзьоб) | Marie's nickname for a woman (from "bec" = beak) |
 | Rosalie | Розалі | Wittgenstein's mistress |
 | Fedoroff | Федоров | Russian who dies of aneurysm |
-| Tchernichoff | Чернічов | Man with sinister past (first wife poisoned) |
+| Tchernichoff | Чернишов | Man with sinister past (first wife poisoned) |
 | Boutowsky | Бутовський | Russian family, new social favorites |
 | Lambertye | Ламбертьє | French nobleman, Marie's early admirer (canonical; NOT Ламбер'є / Ламберті) |
 | Lord Mandeville | лорд Мандевіль | Hamilton's brother-in-law, son of Duke of Manchester |
