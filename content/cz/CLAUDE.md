@@ -281,6 +281,7 @@ Toto je text s poznámkou pod čarou[^01.01.1].
 Důležité zásady:
 - V textu zůstává anglický originál v `==…==` (nahrazuje dřívější pravidlo „v textu vždy český překlad“).
 - Poznámka jen tam, kde je potřeba: `Pozn. překl.: Angl. „…“`.
+- **Celé záznamy nebo odstavce, které Marie napsala anglicky** (rozhodnutí KRR 2026-10-01): překládáme do češtiny a každý takový odstavec nese poznámku `Pozn. překl.: V originále anglicky.` (značka jazyka, kterou rozpoznává frontend); čtenář si může přepnout originál. Jednotlivá anglická slova uvnitř francouzského textu zůstávají `==…==`.
 - Pasáže, které Marie psala rusky, mají vlastní konvenci (`content/CLAUDE.md`).
 
 ### Interpunkce
