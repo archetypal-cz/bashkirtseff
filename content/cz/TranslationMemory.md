@@ -43,6 +43,8 @@ These override older per-carnet entries below where they conflict.
 - **Struck text label** (Ruling 2026-09-30): „[Škrtnuto: …]“ with a capital Š (774 vs 27 lowercase).
 - **God's pronouns**: Ty, Tě, Ti, Tobě, Tvůj — capitalised (cz/CLAUDE.md), including carnets 001–015.
 - **Editorial labels** (2026-10-01): „[Začerněné slovo: …]“ / „[Začerněná slova: …]“ (number follows «Mot/Mots noircis»), „[Napříč stránkou: …]“, „[Škrtnuto: …]“; the variants Zamazan-, Slovo začerněno, Přeškrtnuto, Napříč: were swept.
+- **Karagjorgjevič** (owner ruling KRR 2026-10-01, Czech transliteration): Karagjorgjevič, -ova, -ovi; fem. Karagjorgjevičová (not Karageorgevič/Karađorđevič/Karageorgevitch).
+- **Čumakov** (owner ruling KRR 2026-10-01, Czech transliteration): Čumakov, Čumakova, Čumakovovi; fem. Čumakovová (not Tchoumakoff).
 - **Gavini** (2026-10-01, majority form; owner may overrule): Gavini, paní Gaviniová, Gaviniovi, s Gaviniovými (not Gavinov-).
 
 ## People
