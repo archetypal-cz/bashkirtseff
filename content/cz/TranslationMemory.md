@@ -42,6 +42,8 @@ These override older per-carnet entries below where they conflict.
 - **le pesage** (Ruling 2026-09-30): „vážírna“ (TM entry + majority 7 vs vážnice 4).
 - **Struck text label** (Ruling 2026-09-30): „[Škrtnuto: …]“ with a capital Š (774 vs 27 lowercase).
 - **God's pronouns**: Ty, Tě, Ti, Tobě, Tvůj — capitalised (cz/CLAUDE.md), including carnets 001–015.
+- **Editorial labels** (2026-10-01): „[Začerněné slovo: …]“ / „[Začerněná slova: …]“ (number follows «Mot/Mots noircis»), „[Napříč stránkou: …]“, „[Škrtnuto: …]“; the variants Zamazan-, Slovo začerněno, Přeškrtnuto, Napříč: were swept.
+- **Gavini** (2026-10-01, majority form; owner may overrule): Gavini, paní Gaviniová, Gaviniovi, s Gaviniovými (not Gavinov-).
 
 ## People
 
