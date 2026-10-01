@@ -134,7 +134,7 @@ During Marie's 1881 visit to Gavronzi, she observes Alexandre's skill at setting
 ## Life in Paris (1878)
 
 %% GLO_ALEXANDRE.0037 %%
-Alexandre visited Paris multiple times. In February 1878, he arrived from Russia bringing news (078.0323). In the autumn of 1878, he was living in Paris with notable style -- Marie praises his equipage: "Alexandre a les plus jolis chevaux et la plus jolie voiture de Paris. Il est vraiment tres chic" (Alexandre has the prettiest horses and the prettiest carriage in Paris. He is truly very chic) (082.1878-10-12). His "delicieux chevaux noirs" (delicious black horses) became a recurring image.
+Alexandre visited Paris multiple times. In February 1878, he arrived from Russia bringing news (078.0324). In the autumn of 1878, he was living in Paris with notable style -- Marie praises his equipage: "Alexandre a les plus jolis chevaux et la plus jolie voiture de Paris. Il est vraiment tres chic" (Alexandre has the prettiest horses and the prettiest carriage in Paris. He is truly very chic) (082.1878-10-12). His "delicieux chevaux noirs" (delicious black horses) became a recurring image.
 
 %% GLO_ALEXANDRE.0038 %%
 But Marie also mocked him freely. She reports with comic horror that Alexandre accompanied a "cocotte" (courtesan) on horseback, earning her nickname "Monsieur vingt francs l'heure" (Mr. Twenty Francs an Hour), associating him with the prostitute's tariff. That evening, he walked with his brother -- a "systeme de compensation" (compensation system) to restore respectability (082.1878-09-15). Earlier, the family joked darkly about his arrival being bad luck: "pour comble de malheur il y a votre ami Alexandre qui vient d'arriver, on assure qu'il a le mauvais oeil" (to cap our misfortune, your friend Alexandre has arrived; they say he has the evil eye) (082.1878-09-10).
@@ -219,7 +219,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **074.0216** (September 3): Marie hopes Alexandre will mediate Paul's crisis at Gavronzi
 
 ### 1878
-- **078.0323** (February 28): Alexandre arrives in Paris from Russia
+- **078.0324** (February 28): Alexandre arrives in Paris from Russia
 - **079.0066, 0091** (March-April): Alexandre in Paris with family; departs for Russia in April
 - **082.1878-09-10**: Arrives in Paris; "evil eye" joke
 - **082.1878-09-13**: "Alexandre ne connait personne ici, par consequent il pose devant nous au Bois" (knows nobody, so shows off for us)

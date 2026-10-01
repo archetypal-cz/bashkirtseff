@@ -105,7 +105,7 @@ Marie arrives from Naples around May 2, staying roughly ten days. This visit is 
 
 ### The 1878 "Visit" That Was Not
 
-Marcuard writes to Marie from Florence (letter dated January 24, 1878, transcribed in 078.0216-0201), describing the city in mourning for King [Vittorio Emanuele II](https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy) (d. January 9, 1878): "tout est en deuil, a Florence, les dames portent robes noires pendant 40 jours" (077.0215). The Pergola is closed, the skating rink deserted. Gordigiani is painting portraits of Russian and American ladies. Marie herself is in Paris and does not visit Florence in 1878, though she contemplates going: "les Cachines" appear in her plans with Yorke and Berthe (078.0307).
+Marcuard writes to Marie from Florence (letter dated January 24, 1878, transcribed in 078.0216-0201), describing the city in mourning for King [Vittorio Emanuele II](https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy) (d. January 9, 1878): "tout est en deuil, a Florence, les dames portent robes noires pendant 40 jours" (077.0215). The Pergola is closed, the skating rink deserted. Gordigiani is painting portraits of Russian and American ladies. Marie herself is in Paris and does not visit Florence in 1878, though she contemplates going: "les Cachines" appear in her plans with Yorke and Berthe (078.0308).
 
 ## Florence in Marie's Imagination (1873-1882)
 

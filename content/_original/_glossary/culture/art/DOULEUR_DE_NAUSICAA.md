@@ -23,7 +23,7 @@ last_updated: 2026-08-13
 *La Douleur de Nausicaa* ("The Grief of Nausicaa") is Marie's only well-known surviving sculpture: a bronze of a standing woman weeping into her hands, 83 × 23,7 × 23 cm, signed **MB 84** on the edge of the base, now in the **Musée d'Orsay**, Paris. It stands first among the five sculptures listed in the posthumous catalogue of February 1885; the other four — *Femme appuyée*, *Le Bras*, *Petit Garçon*, *Une Femme* — are lost. Everything else she modelled between 1878 and 1884 has vanished, so this single figure carries the whole of her second vocation.
 
 %% GLO_DOULEUR_DE_NAUSICAA.0003 %%
-Marie had wanted to sculpt for years before she dared. From 1878 she talks about it as the thing that will make her name — «Je sens que ne ferai pas ma gloire en peignant mais bien en sculptant» (086.0035, 10 August 1879) — and in January 1879, at her blackest, the unmade statue is what keeps her from throwing herself off the Arc de Triomphe (083.0556). She actually began to model on **1 December 1879**, copying a fragment of the Parthenon frieze (086.0606). *Nausicaa* is the one ambitious work that came out of that beginning.
+Marie had wanted to sculpt for years before she dared. From 1878 she talks about it as the thing that will make her name — «Je sens que ne ferai pas ma gloire en peignant mais bien en sculptant» (086.0035, 10 August 1879) — and in January 1879, at her blackest, the unmade statue is what keeps her from throwing herself off the Arc de Triomphe (083.0555). She actually began to model on **1 December 1879**, copying a fragment of the Parthenon frieze (086.0606). *Nausicaa* is the one ambitious work that came out of that beginning.
 
 %% GLO_DOULEUR_DE_NAUSICAA.0004 %%
 ## Description
@@ -58,7 +58,7 @@ The last winter is a running fight over models — she reckons she has used twen
 ## References in Diary
 
 %% GLO_DOULEUR_DE_NAUSICAA.0014 %%
-The long prehistory, before this particular figure: 1878-05-18 (080.0158), 1878-05-27 (080.0304, 080.0306) and 1878-10-12 (082.0577) — the wish to sculpt, and Julian's plan to interest Paul Dubois in her; 1878-10-26 (083.0042, 083.0046, 083.0049) and 1878-10-30 (083.0079) — Robert-Fleury's coaching; 1879-01-06 (083.0556) — the statue as the reason not to die; 1879-03-08 (084.0433) — a first attempt at modelling; 1879-08-10 (086.0035–0038) — sculpture as the road to glory; 1879-10-21 (086.0403) — no room at home for it; **1879-12-01 (086.0606)** — «C'est d'aujourd'hui que je commence la sculpture».
+The long prehistory, before this particular figure: 1878-05-18 (080.0158), 1878-05-27 (080.0304, 080.0306) and 1878-10-12 (082.0577) — the wish to sculpt, and Julian's plan to interest Paul Dubois in her; 1878-10-26 (083.0042, 083.0046, 083.0049) and 1878-10-30 (083.0079) — Robert-Fleury's coaching; 1879-01-06 (083.0555) — the statue as the reason not to die; 1879-03-08 (084.0433) — a first attempt at modelling; 1879-08-10 (086.0035–0038) — sculpture as the road to glory; 1879-10-21 (086.0403) — no room at home for it; **1879-12-01 (086.0606)** — «C'est d'aujourd'hui que je commence la sculpture».
 
 %% GLO_DOULEUR_DE_NAUSICAA.0015 %%
 The work itself:

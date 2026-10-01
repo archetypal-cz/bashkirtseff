@@ -148,7 +148,7 @@ The Gavinis appear across 28 carnets spanning seven years. The densest coverage 
 - **080.0455** -- Marie identifies Denis: "M. Gavini prefet des Alpes Maritimes sous l'Empire, depute a present" (1878-06-07)
 - **080.0455** -- First visit to the Gavinis; Denis offers political help (1878-06-07)
 - **080.0692** -- Marie declares herself "folle de Cassagnac" at the Gavinis; they judge Cassagnac unworthy (1878-06-20)
-- **081.0260** -- With Mme Gavini at the requiem for Queen Mercedes of Spain at the Madeleine (1878-07-05)
+- **081.0259** -- With Mme Gavini at the requiem for Queen Mercedes of Spain at the Madeleine (1878-07-05)
 - **083.0002** -- Mme Gavini returns to Paris, they promenade at the Bois (1878-10-18)
 - **083.0270** -- "J'ai fait la conquete des Gavini" (1878-11-27)
 - **083** (1878-12-30) -- Antoine introduced: just qualified as lawyer, plans political career
