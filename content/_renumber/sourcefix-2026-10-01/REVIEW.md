@@ -38,3 +38,15 @@ Flags reset by the tool: 078/1878-02-22; 079/1878-03-24, 03-27 (079/04-05 restor
 
 Survey of the whole corpus (`pagebreak/survey.txt`): 249 candidates outside 078–080; tomes 6–16 checked on the scans (`scancheck.py`), tomes 1–5 on the docx (`docxcheck.py`: PAGEBREAK-DOCX = the halves sit either side of a printed page number; SAMEPARA = both halves are one docx paragraph). Applied here: 111 joins in 003, 004, 005, 015, 016, 018, 019, 021, 031, 033, 039, 043, 044, 054, 055, 065, 077, 084 (`pagebreak/checked_batch2.json`, `ok: true`). Not joined: pairs with different paragraph kinds or a quoted letter line (e.g. 077.0264 signature → narrative), the address block 050.0701, ADJACENT-DOCX/INDENT/NOTFOUND cases, and the chain 016.0405–0407 (only 0405+0406 joined). Same post-fix as 078–080, plus `fnfix.py` (footnote references/definitions reconciled after label rewrites) and one manual fix (uk 019/1874-05-12: the moved «Amour-propre» note kept as [^019.189.1m]). Visible text of every tree checked unchanged apart from the joins (`textcheck.py`); no RSR/LAN/TR/RED/CON/FAB note lost.
 Still to do when the drivers have committed them: 091, 092, 093, 094, 097, 099, 102.
+
+## Eye-check verdicts (scan images viewed by fix-source) and batch 3 (4d8f9263d + b84183a70 41124a941 a7a13d8d7 1cda1c0ce)
+
+| Pair (IDs at survey time) | Scan | Verdict |
+|---|---|---|
+| 050.0701 / 0702 «Tour Audiffret,» / «nous jetons cela…» | t.6 p.226 | JOINED (batch 3) keeping the line break: the indented address lines and the flush-left continuation are one paragraph |
+| 077.0264 / 0265 «> Paul de Cassagnac» / «à laquelle je réponds…» | t.11 p.108 | NOT JOINED: the letter (kind letter) ends with its signature; the narrative continuation is Marie's own paragraph kind |
+| 091.0236 → 0243 (7 pairs, household budget «Sur sept mille par mois…» … «reste 1.500 frs…») | t.14 p.93 | JOIN keeping line breaks (one paragraph laid out as an account table) — pending: 091 not yet committed by all drivers |
+| 092.0139 / 0140 «…je ne» / «vis pas sur des roses…» | t.14 p.150 | JOIN (sentence runs on mid-line) — pending 092 |
+| 097.0080 / 0081 «- Monsieur je deviens sourde,» / «jusqu'ici j'ai usé de…» | t.15 p.116 | JOIN keeping the line break (dialogue line, continuation flush left) — pending 097 |
+
+Batch 3 also joined the rest of the 016 three-part split (016.0384 + 0385 at the time, one docx paragraph). Staging for batch 3 used the pre-clean rule (files dirty before the run were left alone; 9 driver files that changed during the run were not staged).
