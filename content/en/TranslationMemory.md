@@ -425,7 +425,7 @@ When Marie writes in Italian/Russian:
 
 ### Bijou-bouzouk
 - Translation: Bijou-bouzouk (keep as-is)
-- Context: Marie's invented nickname for Count Larderei; combines *bijou* (darling) with *bachi-bouzouk* (erratic Ottoman soldier)
+- Context: Marie's invented nickname for Count Larderel; combines *bijou* (darling) with *bachi-bouzouk* (erratic Ottoman soldier)
 - Notes: Keep phonetic form; footnote on first use in a new entry sequence
 
 ### fileuse
@@ -4166,20 +4166,20 @@ When Marie writes in Italian/Russian:
 - Context: Neapolitan term for a street idler, rascal, or odd-job man; often hired to carry luggage
 - Notes: Keep in Italian italics; footnote: "Lazzarone (pl. lazzaroni): Neapolitan for a street idler or rascal, often hired for odd jobs."
 
-### Bijou (Larderei codename)
+### Bijou (Larderel codename)
 - Translation: *Bijou* (keep French, footnote on first occurrence per entry)
-- Context: Marie's private codename for Count Alessandro Larderei throughout the Naples period (April 1877)
-- Notes: "Jewel" in French — an affectionate private nickname; footnote: "*Bijou* ("jewel"): Marie's private codename for Count Larderei."
+- Context: Marie's private codename for Count Alessandro Larderel throughout the Naples period (April 1877)
+- Notes: "Jewel" in French — an affectionate private nickname; footnote: "*Bijou* ("jewel"): Marie's private codename for Count Larderel."
 
 ### Sirène / Silène (wordplay)
 - Translation: Render the wordplay as described; footnote required
-- Context: The Hôtel de la Sirène in Sorrento; Melissano and Marcuard substitute *l* for *r* to get "Silène" (Silenus) — their coded name for Larderei's mistress La Righi
-- Notes: Silenus was Greek god of drunkenness, doubly apt given Larderei's drinking; footnote explaining both the hotel name and the coded allusion
+- Context: The Hôtel de la Sirène in Sorrento; Melissano and Marcuard substitute *l* for *r* to get "Silène" (Silenus) — their coded name for Larderel's mistress La Righi
+- Notes: Silenus was Greek god of drunkenness, doubly apt given Larderel's drinking; footnote explaining both the hotel name and the coded allusion
 
 ### une paire de cornes
 - Translation: a pair of horns
-- Context: Cuckold's horns — Larderei's bitter joke about La Righi's infidelity
-- Notes: Translate literally; the idiom is immediately clear in context; "a magnificent pair of horns" when Larderei uses it self-deprecatingly
+- Context: Cuckold's horns — Larderel's bitter joke about La Righi's infidelity
+- Notes: Translate literally; the idiom is immediately clear in context; "a magnificent pair of horns" when Larderel uses it self-deprecatingly
 
 ### faux-fuyants
 - Translation: evasions / pretexts
@@ -4203,7 +4203,7 @@ When Marie writes in Italian/Russian:
 
 ### ses couleurs (racing)
 - Translation: his colours
-- Context: Racing livery — green and white for Larderei; Marie wears them strategically at the races
+- Context: Racing livery — green and white for Larderel; Marie wears them strategically at the races
 - Notes: "His colours" is the established English term for racing livery; the strategic import is self-evident in context
 
 ### coiffure Psyché
@@ -4218,7 +4218,7 @@ When Marie writes in Italian/Russian:
 
 ### on (epistolary impersonal)
 - Translation: one (formal impersonal)
-- Context: Marie's strategic use of the French impersonal "on" throughout the letter to Larderei (22 April); allows intimate matters to be addressed with cool detachment
+- Context: Marie's strategic use of the French impersonal "on" throughout the letter to Larderel (22 April); allows intimate matters to be addressed with cool detachment
 - Notes: Render consistently as formal "one" throughout the letter; the effect — of a voice that belongs to no one in particular — must be preserved. Do NOT switch to "I" or "we."
 
 ### Lustucru
@@ -4249,23 +4249,24 @@ When Marie writes in Italian/Russian:
 ### Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate
 - Translation: ==*Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate*== (keep Latin, highlight, footnote)
 - Context: Latin motto closing carnet 070: "Doubt, illusion, deception, oppression / Through desire for glory." Possibly Marie's own composition.
-- Notes: Mark with ==highlight==; footnote: "Latin: 'Doubt, illusion, deception, oppression / through desire for glory.' Possibly Marie's own composition — a bitter self-assessment of the Larderei affair." Note: *Gloriae cupiditate* also appears in carnet 060 TM entry — the full two-line version is first complete in carnet 070.
+- Notes: Mark with ==highlight==; footnote: "Latin: 'Doubt, illusion, deception, oppression / through desire for glory.' Possibly Marie's own composition — a bitter self-assessment of the Larderel affair." Note: *Gloriae cupiditate* also appears in carnet 060 TM entry — the full two-line version is first complete in carnet 070.
 
 ## People (from Carnet 070)
 
-### Larderei / Bijou / Alexandre
-- Translation: Larderei / Bijou / Alexandre
+### Larderel / Bijou / Alexandre
+- Translation: Larderel / Bijou / Alexandre
 - Context: Count Alessandro de Larderel — descended from Tuscany's boric-acid industrialist family (Counts of Montecerboli); separated from wife, has a mistress (La Righi) and a daughter (Alexandrine); Marie is 17
-- Notes: "Larderei" in narrative; "Bijou" as private codename; "Alexandre" as his first name used by intimates; "Count Larderei" on first formal mention
+- Ruling (2026-09-30, owner): «Larderel» — printed edition form; Larderei was an OCR misread (l→i). Locked: «Larderel» in all visible text (Larderel's, the Larderels, Palazzo Larderel, Gaston de Larderel, Madame de Larderel). Glossary file paths still say LARDEREI (…/LARDEREI.md, GASTON_DE_LARDEREI.md, MADAME_DE_LARDEREI.md) until the corpus-wide rename — leave link targets as they are.
+- Notes: "Larderel" in narrative; "Bijou" as private codename; "Alexandre" as his first name used by intimates; "Count Larderel" on first formal mention
 
 ### La Righi / Silène
 - Translation: La Righi / Silène
-- Context: Larderei's mistress — referred to obliquely as "Silène" (the Silenus wordplay) and "l'autre" (the other one)
+- Context: Larderel's mistress — referred to obliquely as "Silène" (the Silenus wordplay) and "l'autre" (the other one)
 - Notes: "La Righi" when named directly; "Silène" when the coded form is used; "the other" or "the other woman" in narrative
 
-### Alexandrine (Larderei's daughter)
+### Alexandrine (Larderel's daughter)
 - Translation: Alexandrine
-- Context: Larderei's young daughter by La Righi; his disclosure of her existence at the drunken Sorrento garden scene is a turning point
+- Context: Larderel's young daughter by La Righi; his disclosure of her existence at the drunken Sorrento garden scene is a turning point
 - Notes: Keep as "Alexandrine" — do NOT anglicize to "Alexandra"
 
 ### Santasiglia
@@ -4280,7 +4281,7 @@ When Marie writes in Italian/Russian:
 
 ### Melissano
 - Translation: Melissano
-- Context: Italian acquaintance; Larderei's friend and sometime co-conspirator; Marie calls him "le faune" (the faun) — lecherous, disruptive
+- Context: Italian acquaintance; Larderel's friend and sometime co-conspirator; Marie calls him "le faune" (the faun) — lecherous, disruptive
 - Notes: "Melissano" throughout; "the faun" as epithet
 
 ### souffletée par des paroles (verbal slap)
@@ -4327,7 +4328,7 @@ When Marie writes in Italian/Russian:
 
 ### Michel Gautier
 - Translation: Michel Gautier
-- Context: Elder brother of the two beautiful Gautier sisters Marie admires; older than Albert, dissolute, passes his life with *cocottes*; reminds Marie of Larderei and Antonelli
+- Context: Elder brother of the two beautiful Gautier sisters Marie admires; older than Albert, dissolute, passes his life with *cocottes*; reminds Marie of Larderel and Antonelli
 - Notes: Carnet 067 Dec 11; "Michel Gautier" on first mention; "Michel" thereafter
 
 ## Carnet 099 Additions (Mar–May 1883)
