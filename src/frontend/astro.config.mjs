@@ -279,6 +279,24 @@ export default defineConfig({
             }
           },
           {
+            // Paragraph index for "My stars" (/data/paragraphs/{lang}/{carnet}.json).
+            // Own cache: ~500 small files, which would evict the few generic data
+            // files (maxEntries 20). MUST stay before the generic /data/ route
+            // below: Workbox uses the first route that matches.
+            urlPattern: /\/data\/paragraphs\//,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'diary-paragraph-index-cache',
+              expiration: {
+                maxEntries: 600,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
             // Cache JSON data files (filter index, offline freshness manifest,
             // and the nested per-day "this day" files under /data/this-day/.../...)
             // so the filter, offline-status and home-page UIs keep working offline.
