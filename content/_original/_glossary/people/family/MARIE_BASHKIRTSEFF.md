@@ -71,7 +71,7 @@ Art became her vocation in the autumn of 1877. On 2 October she went for the fir
 Her Salon career, year by year:
 
 %% GLO_MARIE_BASHKIRTSEFF.0017 %%
-- **1880**: *[Jeune femme lisant « La Question du divorce »](../../culture/art/QUESTION_DU_DIVORCE.md)* (Dina). Her debut, signed "Mademoiselle Marie Constantin Russ", no. 9091 (087.0716)
+- **1880**: *[Jeune femme lisant « La Question du divorce »](../../culture/art/QUESTION_DU_DIVORCE.md)*, with her cousin Dina as the sitter. Her debut, signed "Mademoiselle Marie Constantin Russ", no. 9091 (087.0716)
 - **1881**: *[L'Atelier Julian](../../culture/art/L_ATELIER_JULIAN.md)*. Signed "Andrey" (091.0331)
 - **1882**: nothing. Ill in Nice: "très triste de n'avoir rien au Salon" (094.0280)
 - **1883**: *[Jean et Jacques](../../culture/art/JEAN_ET_JACQUES.md)*, *[La Parisienne](../../culture/art/LA_PARISIENNE.md)* and the [pastel portrait of Dina](../../culture/art/PORTRAIT_DINA_PASTEL.md). *Mention honorable*, awarded to the pastel. She learned of it on 24 May 1883 (099.0403)
