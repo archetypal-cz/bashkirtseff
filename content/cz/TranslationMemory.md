@@ -267,7 +267,7 @@ These override older per-carnet entries below where they conflict.
 
 ### En travers de la page
 - Translation (Czech): [Napříč stránkou:]
-- Context: Written across the page — physical diary marking. Bare "[En travers:" → "[Napříč:". Canonical since 2026-08-13 (user report on 099.0272): "Na příč" is pre-reform orthography — modern Czech writes "napříč" as one word, with instrumental. Tree-wide sweep normalized "[Na příč stránky:" and "[Napříč stránky:" to this form.
+- Context: Written across the page — physical diary marking. Bare "[En travers:" → "[Napříč:". Canonical since 2026-08-13 (user report on 099.0267): "Na příč" is pre-reform orthography — modern Czech writes "napříč" as one word, with instrumental. Tree-wide sweep normalized "[Na příč stránky:" and "[Napříč stránky:" to this form.
 - First appearance: 007 (1873-08-07)
 
 ## People (Carnet 007)
@@ -1409,7 +1409,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): Breslau — uninflected (NOT „Breslauová")
 - Context: Swiss-German painter (1856–1927), Marie's respected atelier rival at the Académie Julian; referred to by bare surname.
 - First appearance: 076–079
-- Notes: Marie writes the bare surname; keep uninflected ("genitiv Breslau", "s Breslau") with feminine verb agreement. Authorship attributions ("[work] by Breslau") → periphrastic "od Breslau" (e.g. "rybářka od Breslau", "obraz od Breslau"), NEVER the derived possessive adjective "Breslauin-" (same violation class as "Breslauová"). Confirmed across 090 (094.0388) and 091 (091.0548).
+- Notes: Marie writes the bare surname; keep uninflected ("genitiv Breslau", "s Breslau") with feminine verb agreement. Authorship attributions ("[work] by Breslau") → periphrastic "od Breslau" (e.g. "rybářka od Breslau", "obraz od Breslau"), NEVER the derived possessive adjective "Breslauin-" (same violation class as "Breslauová"). Confirmed across 090 (094.0378) and 091 (091.0547).
 
 ### Paul de Cassagnac / Popaul
 - Translation (Czech): Cassagnac (bare surname, fully declined: na Cassagnace, s Cassagnacem); „pan de Cassagnac" keeps particle+name uninflected after „pan"; affectionate-mocking diminutive „Popaul" kept as-is (NOT „Pavlík")
@@ -1586,7 +1586,7 @@ These override older per-carnet entries below where they conflict.
 ### citoyen Joseph / Putiphar / Petit Phare (code-names for Arnaud de l'Ariège)
 - Translation (Czech): občan Josef / Putifar / Maják
 - First appearance: 085
-- Notes: Marie's code names. The Putiphar/Petit Phare ("Maják") wordplay is footnoted (085.0632); keep the pun's gloss.
+- Notes: Marie's code names. The Putiphar/Petit Phare ("Maják") wordplay is footnoted (085.0631); keep the pun's gloss.
 
 ### Plonplon (Prince Napoléon-Jérôme nickname)
 - Translation (Czech): Plonplon (kept)
@@ -1608,7 +1608,7 @@ These override older per-carnet entries below where they conflict.
 ### Breslau-rivalry / art-criticism vocabulary
 - "les bras me tombent" / "les bras coupés" → "klesnou mi ruce" / "úplně mě to ochromilo"
 - "sec, froid, dur" (criticism of Marie's painting style) → "suché, chladné, tvrdé"
-- "la Morgue" (Salon outer gallery) → "Márnice"; "cimaise" → "v úrovni očí" (established usage in 088; 099+104 aligned 2026-08-13 after user report on 099.0246 — do NOT leave "cimaise" untranslated in Czech; first use per carnet may carry a footnote naming the French term)
+- "la Morgue" (Salon outer gallery) → "Márnice"; "cimaise" → "v úrovni očí" (established usage in 088; 099+104 aligned 2026-08-13 after user report on 099.0243 — do NOT leave "cimaise" untranslated in Czech; first use per carnet may carry a footnote naming the French term)
 - "affiche électorale" (her abandoned 1881 painting) → "volební plakát"
 - First appearance: 092
 - Notes: Recurring Salon/atelier register; keep consistent in 086/089 if they recur.
