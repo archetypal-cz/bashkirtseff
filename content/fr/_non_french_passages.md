@@ -1473,12 +1473,12 @@ They need AI translation into French.
 - **098/1883-02-08.md** para 098.0304 [RUSSIAN]: %% 2026-02-02T14:00:00 LAN: RUSSIAN: "Michka" - diminutive of Michel; affectionate family name %%
 - **099/1883-03-31.md** para 099.0003 [LATIN]: %% 2026-02-02T09:08:04 LAN: "vulgo Cerny" - LATIN: commonly known as Cerny (nickname for Tchernitsky) %%
 - **099/1883-04-07.md** para 099.0050 [RUSSIAN]: %% 2026-02-02T09:06:08 LAN: "samovar" - RUSSIAN: traditional Russian tea urn; marker of Russian household %%
-- **099/1883-05-03.md** para 099.0339 [CODE-SWITCH]: %% 2026-02-02T09:09:28 LAN: CODE-SWITCH: English summary in brackets indicates transcriber's condensation of original French %%
-- **099/1883-05-19.md** para 099.0384 [LATIN]: %% 2026-02-02T09:05:04 LAN: LATIN follows - "Margaritas ante porcos" - Marie repeats idiom in Latin (Biblical, Matthew 7:6); showing classical education %%
-- **099/1883-05-23.md** para 099.0395 [ENGLISH]: %% 2026-02-03T10:00:13 LAN: "blackboulee" - ENGLISH borrowing: blackballed; rejected/excluded %%
-- **099/1883-05-25.md** para 099.0435 [LATIN]: %% 2026-02-03T10:02:38 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory; the title of Marie's journal/carnet %%
-- **100/1883-07-14.md** para 100.0192 [ITALIAN]: %% 2026-02-03T10:05:11 LAN: "sérénade" - ITALIAN context: serenade in Naples %%
-- **100/1883-07-28.md** para 100.0237 [ENGLISH]: %% 2026-02-03T10:06:18 LAN: "non-sens" - ENGLISH: nonsense; Marie's playful code-switching %%
+- **099/1883-05-03.md** para 099.0342 [CODE-SWITCH]: %% 2026-02-02T09:09:28 LAN: CODE-SWITCH: English summary in brackets indicates transcriber's condensation of original French %%
+- **099/1883-05-19.md** para 099.0479 [LATIN]: %% 2026-02-02T09:05:04 LAN: LATIN follows - "Margaritas ante porcos" - Marie repeats idiom in Latin (Biblical, Matthew 7:6); showing classical education %%
+- **099/1883-05-23.md** para 099.0545 [ENGLISH]: %% 2026-02-03T10:00:13 LAN: "blackboulee" - ENGLISH borrowing: blackballed; rejected/excluded %%
+- **099/1883-05-25.md** para 099.0591 [LATIN]: %% 2026-02-03T10:02:38 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory; the title of Marie's journal/carnet %%
+- **100/1883-07-14.md** para 100.0269 [ITALIAN]: %% 2026-02-03T10:05:11 LAN: "sérénade" - ITALIAN context: serenade in Naples %%
+- **100/1883-07-28.md** para 100.0358 [ENGLISH]: %% 2026-02-03T10:06:18 LAN: "non-sens" - ENGLISH: nonsense; Marie's playful code-switching %%
 - **101/1883-08-18.md** para 101.0179 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN CODE-SWITCH: Extended passage in Italian for privacy. Marie speculates whether Bastien knows his brother admires her, and whether this would prevent Bastien from showing interest. "Aurora qualche cosa" = "Dawn something" (cryptic opening). Contains spelling errors in Italian (beuchè for benché, nostrarsi for mostrarsi, camino for cammino, infezione for affezione). %%
 - **101/1883-08-18.md** para 101.0180 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN continues: "But he doesn't think of me; if he wanted to think of me he wouldn't show it... because of the other; if it's true the other admires me, he admires me as I admire Giulio..." %%
 - **101/1883-08-18.md** para 101.0181 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN/FRENCH: "Well, if Dina saw that I liked someone who could never love me, Dina would do nothing to win that heart..." then switches to French: "but that's not the point" %%
