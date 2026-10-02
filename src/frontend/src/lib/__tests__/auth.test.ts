@@ -433,3 +433,50 @@ describe('expiry, 403 and lock robustness', () => {
     expect(store.has('auth-token')).toBe(false);
   });
 });
+
+describe('S1 follow-ups', () => {
+  const fresh = () => jwt('u1', 9999999999);
+
+  it('/user 400/404 with no refresh token -> null, tokens kept (only 401/403 clear)', async () => {
+    for (const status of [400, 404, 422]) {
+      store.clear();
+      seed(jwt('u1'), null);
+      fetchMock.mockReset();
+      fetchMock.mockReturnValueOnce(json(status));
+      const { getSession } = await load();
+      expect(await getSession()).toBeNull();
+      expect(store.has('auth-token')).toBe(true);
+      expect(fetchMock).toHaveBeenCalledTimes(1); // no /token call either
+    }
+  });
+
+  it('a rejected caller joining a rejected=false refresh chains one more refresh if the token is unchanged', async () => {
+    const stale = jwt('u1', 9999999999);
+    seed(stale);
+    const f = fresh() + 'x'; // distinct from the stale token
+    fetchMock.mockReturnValueOnce(
+      json(200, { access_token: f, refresh_token: 'r2', user: USER }),
+    );
+    const { refresh } = await load();
+    // First caller: token merely expired (rejected=false); stored token looks valid, so it is accepted unchanged.
+    const p1 = refresh(stale, false);
+    // Second caller saw 401 on that very token.
+    const p2 = refresh(stale, true);
+    expect((await p1).status).toBe('ok');
+    const r2 = await p2;
+    expect(r2.status).toBe('ok');
+    expect(fetchMock).toHaveBeenCalledTimes(1); // the chained refresh really hit /token
+    expect(String(fetchMock.mock.calls[0][0])).toContain('/token');
+    expect(store.get('auth-token')).toBe(f);
+  });
+
+  it('a rejected caller joining a rejected=false refresh does not chain when the token changed', async () => {
+    const stale = jwt('u1', 9999999999);
+    seed(stale);
+    const { refresh } = await load();
+    const p1 = refresh(stale, false);
+    const p2 = refresh(jwt('u1', 1111111111), true); // saw a different (older) token rejected
+    await Promise.all([p1, p2]);
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
+});

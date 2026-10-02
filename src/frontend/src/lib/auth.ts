@@ -120,9 +120,10 @@ export async function handleCallback(): Promise<boolean> {
 
 /**
  * Session check, classified (offline design §1). Tokens are cleared ONLY when a
- * refresh is rejected (400/401); a network error or 5xx yields an offline session
+ * refresh is rejected (/token answers 400/401); a network error or 5xx yields an offline session
  * (or null) with the tokens kept. The one exception: a rejected access token with
- * no refresh token at all (see refreshUnlocked) can never be renewed, so it is cleared.
+ * no refresh token at all (see refreshUnlocked) can never be renewed, so it is cleared
+ * (only when /user answered 401/403, not for any other 4xx).
  *
  * GoTrue answers an invalid/expired JWT on /user with 403 `bad_jwt` (only a missing
  * header gets 401), so every 4xx except 408/429 counts as "rejected". A locally
@@ -169,7 +170,12 @@ export async function getSession(): Promise<Session | null> {
     return getOfflineSession(); // server (or a transient 4xx)
   }
 
-  // rejected (401/403/other 4xx): refresh, but only inside the auth lock (§3)
+  // /user rejected the token (401/403/other 4xx): refresh, but only inside the auth lock (§3).
+  // Without a refresh token the token can never be renewed: that is cleared only on a
+  // /user 401/403; any other /user 4xx keeps the tokens (offline session or null).
+  if (res.status !== 401 && res.status !== 403 && !localStorage.getItem(REFRESH_KEY)) {
+    return getOfflineSession();
+  }
   return settle(await refresh(token));
 }
 
@@ -275,9 +281,11 @@ const LOCK_WAIT_MS = 10000;
 export type RefreshResult =
   | { status: 'ok'; session: Session }
   | { status: 'network'; session: Session | null } // network/server/lock timeout: offline session or null, tokens kept
-  | { status: 'rejected' }; // 400/401: tokens cleared (involuntary sign-out)
+  | { status: 'rejected' }; // /token answered 400/401: tokens cleared (involuntary sign-out)
 
 let refreshPromise: Promise<RefreshResult> | null = null;
+/** The `rejected` flag the in-flight refreshPromise was started with. */
+let refreshPromiseRejected = false;
 
 function getLocks(): LockManager | null {
   return typeof navigator !== 'undefined' && navigator.locks ? navigator.locks : null;
@@ -293,12 +301,25 @@ function getLocks(): LockManager | null {
  * even if it still looks valid; with false (the token merely expired) a stored token
  * more than 60 s from expiry is accepted without refreshing.
  * Never call this (or getSession) while holding the lock: use refreshUnlocked().
+ * In-tab dedupe: a caller arriving while a refresh is in flight shares it, except that a
+ * `rejected` caller joining a refresh started with rejected=false chains one more
+ * refresh if the shared result is the very token it saw rejected.
  */
 export function refresh(
   staleToken: string | null = localStorage.getItem(TOKEN_KEY),
   rejected = true,
 ): Promise<RefreshResult> {
-  if (refreshPromise) return refreshPromise;
+  if (refreshPromise) {
+    if (rejected && !refreshPromiseRejected) {
+      // The in-flight refresh may have accepted a still-valid-looking token that this
+      // caller just saw rejected: once it settles, refresh again if nothing changed.
+      return refreshPromise.then((r) =>
+        r.status === 'ok' && r.session.access_token === staleToken ? refresh(staleToken, true) : r,
+      );
+    }
+    return refreshPromise;
+  }
+  refreshPromiseRejected = rejected;
   refreshPromise = doLockedRefresh(staleToken, rejected).finally(() => {
     refreshPromise = null;
   });
@@ -346,9 +367,9 @@ async function doLockedRefresh(staleToken: string | null, rejected: boolean): Pr
  * Refresh without touching the lock, for callers that already hold
  * `bashkirtseff-auth` (the drain). NEVER requests the lock; a lock holder must call
  * this, never getSession() or refresh() (they would wait for the lock and time out
- * after 10 s). Clears tokens only on a rejected (400/401) refresh, plus one exception:
- * a 401/403 access token with no refresh token at all can never be renewed, so it is
- * cleared too.
+ * after 10 s). Clears tokens only when /token answers 400/401, plus one exception:
+ * an access token rejected by /user or the API (401/403) with no refresh token at all
+ * can never be renewed, so it is cleared too.
  */
 export async function refreshUnlocked(): Promise<RefreshResult> {
   const refreshToken = localStorage.getItem(REFRESH_KEY);
