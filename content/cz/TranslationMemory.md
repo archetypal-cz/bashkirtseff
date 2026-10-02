@@ -1633,7 +1633,7 @@ These override older per-carnet entries below where they conflict.
 
 ### uličnická postavička (= "polisson de physique", Blanc's running self-joke)
 - Translation (Czech): uličnická postavička
-- First appearance: 086.0068
+- First appearance: 086.0070
 - Notes: Recurring self-deprecating joke; keep consistent on recurrence.
 
 ### Hecht / "le juif" / "Joseph" (collision)
