@@ -1692,7 +1692,7 @@ These override older per-carnet entries below where they conflict.
 
 ### folle que je suis → já bláhová, NOT "bláznice, co jsem" / "blázen, co jsem"
 - Context: Marie's recurring self-deprecating aside ("fool that I am"). "bláznice, co jsem" is a word-for-word calque of the French construction, and "bláznice" (= madwoman) is far harsher than the affectionate "folle". Use "já bláhová" (adjust syntax to the sentence). Distinct case: substantival "une folle qui l'aimait" (a madwoman who loved him, Marie's deliberate hyperbole) → "bláznice, co ho milovala" IS correct — only the calqued "…, co jsem" construction is banned.
-- First flagged: user report 001.0048 (2026-07-06); fixed in 001/1873-01-24, 005/1873-06-15, 010/1873-09-24
+- First flagged: user report 001.0046 (2026-07-06); fixed in 001/1873-01-24, 005/1873-06-15, 010/1873-09-24
 - Notes: An earlier RED pass had fixed only the gender (blázen→bláznice) and left the calque standing — when fixing agreement, re-check whether the whole construction is natural Czech.
 
 ### manie → posedlost / manýra (per sense), NOT "mánie"
