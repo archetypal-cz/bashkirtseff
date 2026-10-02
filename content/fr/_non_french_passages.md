@@ -1388,31 +1388,31 @@ They need AI translation into French.
 - **080/1878-05-21.md** para 080.0249 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "terrarum dea gentiumque Roma" - "Rome, goddess of lands and peoples" (Martial) %%
 - **080/1878-06-17.md** para 080.0653 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Ci rivedrem signore!" - "We'll meet again, sir!" - Marie's Italian code-switching %%
 - **081/1878-06-24.md** para 081.0023 [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "quaerens quem devoret" - "seeking whom to devour" (1 Peter 5:8, describing devil) %%
-- **081/1878-06-30.md** para 081.0115 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "common-place" - Marie uses English for emphasis %%
-- **081/1878-07-15.md** para 081.0406 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "chic" - borrowed from French but Marie uses it as society slang for elegant/fashionable %%
-- **081/1878-07-21.md** para 081.0449 [ITALIAN]: %% 2026-02-03T10:25:00 LAN: ITALIAN allusion: "Multedo" plays on Italian troubadour tradition %%
-- **081/1878-07-22.md** para 081.0458 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Paese che vuoi, essi che trovi" - When in Rome, do as the Romans do %%
-- **081/1878-07-23.md** para 081.0459 [LATIN]: %% 2026-02-03T10:30:00 LAN: LATIN: "in extenso" - in full/completely (legal/scholarly term) %%
-- **081/1878-08-03.md** para 081.0542 [ENGLISH]: %% 2026-02-03T11:15:00 LAN: "groom" - ENGLISH: young male servant %%
+- **081/1878-06-30.md** para 081.0168 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "common-place" - Marie uses English for emphasis %%
+- **081/1878-07-15.md** para 081.0459 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "chic" - borrowed from French but Marie uses it as society slang for elegant/fashionable %%
+- **081/1878-07-21.md** para 081.0506 [ITALIAN]: %% 2026-02-03T10:25:00 LAN: ITALIAN allusion: "Multedo" plays on Italian troubadour tradition %%
+- **081/1878-07-22.md** para 081.0515 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Paese che vuoi, essi che trovi" - When in Rome, do as the Romans do %%
+- **081/1878-07-23.md** para 081.0516 [LATIN]: %% 2026-02-03T10:30:00 LAN: LATIN: "in extenso" - in full/completely (legal/scholarly term) %%
+- **081/1878-08-03.md** para 081.0603 [ENGLISH]: %% 2026-02-03T11:15:00 LAN: "groom" - ENGLISH: young male servant %%
 - **081/1878-08-08.md** para withdrawn in the 2026-09 rebuild (old carnet 081 ¶0499; see content/_renumber/081-2026-09-29.json) [LATIN]: %% 2026-02-03T11:40:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's title for Book 82) %%
 - **082/1878-08-17.md** para withdrawn in the 2026-09 rebuild (old carnet 082 ¶0100; see content/_renumber/082-2026-09-29.json) [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory, Latin epigraph for new volume %%
-- **082/1878-08-18.md** para 082.0140 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "home" - Marie uses English word, suggesting foreignness of concept %%
-- **082/1878-08-31.md** para 082.0219 [ENGLISH]: %% 2026-02-03T10:00:00 LAN: "kitchen" - ENGLISH: Marie uses English word for servants' quarters %%
-- **082/1878-09-02.md** para 082.0261 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "dessiatines" - RUSSIAN: desyatina, Russian land measure (~2.7 acres) %%
-- **082/1878-09-21.md** para 082.0421 [LATIN]: %% 2026-02-03T10:00:00 LAN: "pullaire" - LATIN: pullarius, Roman augur who reads omens from chickens %%
-- **082/1878-10-04.md** para 082.0508 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "Moussia" - RUSSIAN: diminutive nickname for Marie %%
-- **082/1878-10-04.md** para 082.0512 [ITALIAN]: %% 2026-02-03T10:00:00 LAN: ITALIAN: Rossi performs in Italian, showing Marie's comprehension %%
+- **082/1878-08-18.md** para 082.0142 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "home" - Marie uses English word, suggesting foreignness of concept %%
+- **082/1878-08-31.md** para 082.0226 [ENGLISH]: %% 2026-02-03T10:00:00 LAN: "kitchen" - ENGLISH: Marie uses English word for servants' quarters %%
+- **082/1878-09-02.md** para 082.0269 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "dessiatines" - RUSSIAN: desyatina, Russian land measure (~2.7 acres) %%
+- **082/1878-09-21.md** para 082.0429 [LATIN]: %% 2026-02-03T10:00:00 LAN: "pullaire" - LATIN: pullarius, Roman augur who reads omens from chickens %%
+- **082/1878-10-04.md** para 082.0516 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "Moussia" - RUSSIAN: diminutive nickname for Marie %%
+- **082/1878-10-04.md** para 082.0520 [ITALIAN]: %% 2026-02-03T10:00:00 LAN: ITALIAN: Rossi performs in Italian, showing Marie's comprehension %%
 - **083/1878-10-17.md** para withdrawn in the 2026-09 rebuild (old carnet 083 ¶0002; see content/_renumber/083-2026-09-29.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Latin phrase meaning "Desire for Glory" - Marie's epigraph for this volume reflecting her artistic ambitions %%
 - **083/1878-10-25.md** para 083.0029 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "Moussia" - RUSSIAN: Marie's family nickname/diminutive %%
-- **083/1879-01-05.md** para 083.0547 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "la luce della vita" - the light of life; gospel divination result %%
+- **083/1879-01-05.md** para 083.0556 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "la luce della vita" - the light of life; gospel divination result %%
 - **084/1879-01-29.md** para 084.0132 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: "La campagna" - ITALIAN: the Roman Campagna, countryside around Rome famous for ruins %%
-- **084/1879-02-05.md** para 084.0170 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "crescendo" - musical term used metaphorically for voice modulation %%
-- **084/1879-02-23.md** para 084.0282 [CODE-SWITCH]: %% 2026-02-02T14:30:00 LAN: SPELLING/CODE-SWITCH: "the théâtre" - "the" in English mixed with French %%
-- **084/1879-02-24.md** para 084.0292 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "La Traviata" - Verdi opera; "The Fallen Woman" %%
-- **084/1879-03-05.md** para 084.0403 [LATIN]: %% 2026-02-02T09:07:55 LAN: LATIN: "inde ira" - hence the anger (learned/ironic register) %%
-- **084/1879-03-05.md** para 084.0412 [ENGLISH]: %% 2026-02-02T09:08:17 LAN: ENGLISH: "To be or not to be" - Shakespeare's Hamlet, dramatic self-questioning %%
-- **084/1879-04-07.md** para 084.0624 [ENGLISH]: %% 2026-02-02T09:08:18 LAN: "tandem" - ENGLISH: tandem carriage (two horses harnessed one behind other) %%
-- **084/1879-04-25.md** para 084.0726 [ENGLISH]: %% 2026-02-03T10:07:05 LAN: ENGLISH: "bed" - Marie code-switches to English for "ball" (bal). Fashionable anglicism %%
+- **084/1879-02-05.md** para 084.0171 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "crescendo" - musical term used metaphorically for voice modulation %%
+- **084/1879-02-23.md** para 084.0283 [CODE-SWITCH]: %% 2026-02-02T14:30:00 LAN: SPELLING/CODE-SWITCH: "the théâtre" - "the" in English mixed with French %%
+- **084/1879-02-24.md** para 084.0293 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "La Traviata" - Verdi opera; "The Fallen Woman" %%
+- **084/1879-03-05.md** para 084.0404 [LATIN]: %% 2026-02-02T09:07:55 LAN: LATIN: "inde ira" - hence the anger (learned/ironic register) %%
+- **084/1879-03-05.md** para 084.0413 [ENGLISH]: %% 2026-02-02T09:08:17 LAN: ENGLISH: "To be or not to be" - Shakespeare's Hamlet, dramatic self-questioning %%
+- **084/1879-04-07.md** para 084.0625 [ENGLISH]: %% 2026-02-02T09:08:18 LAN: "tandem" - ENGLISH: tandem carriage (two horses harnessed one behind other) %%
+- **084/1879-04-25.md** para 084.0727 [ENGLISH]: %% 2026-02-03T10:07:05 LAN: ENGLISH: "bed" - Marie code-switches to English for "ball" (bal). Fashionable anglicism %%
 - **085/1879-05-17.md** para 085.0088 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "patito" - Italian: admirer, suitor, devotee (used ironically) %%
 - **085/1879-05-29.md** para 085.0198 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "chaperon" - English borrowing: chaperone (older woman accompanying young girl) %%
 - **085/1879-07-26.md** para 085.0583 [LATIN]: %% 2026-02-02T13:00:00 LAN: "Vulgo" - LATIN: commonly known as, alias %%
