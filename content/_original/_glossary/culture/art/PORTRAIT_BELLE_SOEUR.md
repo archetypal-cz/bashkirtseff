@@ -45,26 +45,26 @@ Of all Marie's surviving works this is the one the public can see best: the Rijk
 ## Description
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0006 %%
-Oil on canvas, 92,5 × 73 cm. Marie leaves no description of the composition, but she does leave a description of her sitter's colouring, and it is the best thing in the file: "Elle est d'une couleur… ravissante, fraîche sans crudité, veloutée, jeune" (¶ 094.0084). She thought the finished picture fell well short of what she could do.
+Oil on canvas, 92,5 × 73 cm. Marie leaves no description of the composition, but she does leave a description of her sitter's colouring, and it is the best thing in the file: "Elle est d'une couleur… ravissante, fraîche sans crudité, veloutée, jeune" (¶ 094.0154). She thought the finished picture fell well short of what she could do.
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0007 %%
 ## Making of the Work
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0008 %%
 %% [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) [#Health](../themes/HEALTH.md) %%
-The picture was painted over about a fortnight at the turn of 1881–82, in a burst of energy and then in illness. It begins on **29 December 1881** (¶ 094.DROPPED-0057): "Je fais le portrait de la femme à Paul, hier c'était une telle reprise de forces que je voulais faire à la fois Dina, Nini et Irma." Two days later she took the *esquisse* to Tony Robert-Fleury, who found it "très originale, très original d'arrangement et bien parti" (¶ 094.0050).
+The picture was painted over about a fortnight at the turn of 1881–82, in a burst of energy and then in illness. It begins on **29 December 1881** (¶ 094.DROPPED-0057): "Je fais le portrait de la femme à Paul, hier c'était une telle reprise de forces que je voulais faire à la fois Dina, Nini et Irma." Two days later she took the *esquisse* to Tony Robert-Fleury, who found it "très originale, très original d'arrangement et bien parti" (¶ 094.0115).
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0009 %%
-It was finished on **11 January 1882**, and her own verdict is characteristically merciless: "Le portrait est fini, ce n'est pas encore ça !! Ce n'est même pas ce que je puis faire… C'est moins ! C'est si difficile !" (¶ 094.0084). The conditions were wretched — she was working in a draught between two doors, running a temperature of 41°, and the thick January fogs ruined the light (¶¶ 094.0113, 094.0122). She was twenty-three, and already deaf in one ear and consumptive.
+It was finished on **11 January 1882**, and her own verdict is characteristically merciless: "Le portrait est fini, ce n'est pas encore ça !! Ce n'est même pas ce que je puis faire… C'est moins ! C'est si difficile !" (¶ 094.0154). The conditions were wretched — she was working in a draught between two doors, running a temperature of 41°, and the thick January fogs ruined the light (¶¶ 094.0183, 094.0192). She was twenty-three, and already deaf in one ear and consumptive.
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0010 %%
 ## References in Diary
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0011 %%
 - **First mention** — 1881-12-29, ¶ 094.DROPPED-0057: "Je fais le portrait de la femme à Paul"
-- 1881-12-31, ¶ 094.0050 — the *esquisse* shown to Tony Robert-Fleury: "très original d'arrangement et bien parti"
-- **1882-01-11, ¶ 094.0084 — finished**, and judged a failure by its maker
-- 1882-01-19, ¶ 094.0113 · 1882-01-20, ¶ 094.0122 — the draught, the 41° fever, and the fog
+- 1881-12-31, ¶ 094.0115 — the *esquisse* shown to Tony Robert-Fleury: "très original d'arrangement et bien parti"
+- **1882-01-11, ¶ 094.0154 — finished**, and judged a failure by its maker
+- 1882-01-19, ¶ 094.0183 · 1882-01-20, ¶ 094.0192 — the draught, the 41° fever, and the fog
 
 %% GLO_PORTRAIT_BELLE_SOEUR.0012 %%
 The painting is not mentioned again after January 1882; it does not reappear in carnets 097–106.

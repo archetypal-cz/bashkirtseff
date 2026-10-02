@@ -92,7 +92,7 @@ The most revealing passage about Alexandre's long-term strategy comes from Marie
 ### Managing Georges's Inheritance (1882)
 
 %% GLO_ALEXANDRE.0023 %%
-When Georges faked his death in March 1882, it was Alexandre who held Georges's inheritance. Marie notes acidly: "c'est Alexandre qui detient l'heritage de Georges. Et ce cher Alexandre qui a sans doute pris toutes les dispositions pour mieux evincer Dina et l'autre soeur." (It's Alexandre who holds Georges's inheritance. And dear Alexandre has no doubt taken all measures to better squeeze out Dina and the other sister.) Marie's father had to send telegrams to Alexandre to send funeral money -- for a death that turned out to be fabricated (094.0249).
+When Georges faked his death in March 1882, it was Alexandre who held Georges's inheritance. Marie notes acidly: "c'est Alexandre qui detient l'heritage de Georges. Et ce cher Alexandre qui a sans doute pris toutes les dispositions pour mieux evincer Dina et l'autre soeur." (It's Alexandre who holds Georges's inheritance. And dear Alexandre has no doubt taken all measures to better squeeze out Dina and the other sister.) Marie's father had to send telegrams to Alexandre to send funeral money -- for a death that turned out to be fabricated (094.0319).
 
 %% GLO_ALEXANDRE.0024 %%
 ## The Soulima Affair
@@ -239,7 +239,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **092.DROPPED-0233** (July 8): Alexandre manipulates Maman against Paul at Gavronzi
 
 ### 1882
-- **094.0249** (March 13): Alexandre holds Georges's inheritance; suspected of positioning to dispossess Dina
+- **094.0319** (March 13): Alexandre holds Georges's inheritance; suspected of positioning to dispossess Dina
 - **096.0426-0414** (October 23): Tcherniakovka visit; lavish hospitality; Alexandre has bought out brother Etienne's land share; "c'est une force"; punches servants during fire
 - **096.1882-10-05**: Soulima affair mentioned -- Georges and Alexandre slapped someone
 - **096.1882-10-29**: Alexandre at Paul's baby's baptism

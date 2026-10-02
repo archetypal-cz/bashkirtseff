@@ -29,7 +29,7 @@ A small oil on wooden panel, 40,7 × 32,7 cm, dated **1881**, in the **V. I. Sur
 ## Making of the work
 
 %% GLO_GRENADE_CATHEDRALE.0004 %%
-Marie was in Granada at the end of October 1881, on the Spanish journey that took her through Madrid, Toledo, Seville and Cordoba. She arrived on the evening of 26 October, and by the next morning she had "déjà vue l'inévitable cathédrale" (093.0108). She found the city overwhelming for a painter: "On ne sait de quel côté courir tellement il y a des choses à faire. Des rues, des silhouettes, des vues !" (093.0108). In August, before the journey, she had noted "il y a tableau a Grenade" in its gypsy groups (092.0435). The panel's small size and its title, set by the cathedral, fit the quick studies she made in her few days there.
+Marie was in Granada at the end of October 1881, on the Spanish journey that took her through Madrid, Toledo, Seville and Cordoba. She arrived on the evening of 26 October, and by the next morning she had "déjà vue l'inévitable cathédrale" (093.0295). She found the city overwhelming for a painter: "On ne sait de quel côté courir tellement il y a des choses à faire. Des rues, des silhouettes, des vues !" (093.0295). In August, before the journey, she had noted "il y a tableau a Grenade" in its gypsy groups (092.0435). The panel's small size and its title, set by the cathedral, fit the quick studies she made in her few days there.
 
 %% GLO_GRENADE_CATHEDRALE.0005 %%
 **A possible catalogue match.** The 1885 memorial catalogue lists a *Mendiant de Grenade* (no. 62) at 0,40 × 0,32 m, the size of this panel to within a centimetre. Nothing else in the catalogue is called Granada. The match is likely, but it is not documented.

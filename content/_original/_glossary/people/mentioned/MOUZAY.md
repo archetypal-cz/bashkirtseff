@@ -62,7 +62,7 @@ Mouzay arranged Marie's secret audition with Pierre-Francois Wartel, the most re
 ### Introduction of Cassagnac (1876-07-24)
 Mouzay's most consequential act was introducing Marie to Paul de Cassagnac at her apartment on Boulevard Haussmann. Through her connection to M. Blanc (Cassagnac's intimate friend and duel witness), Mouzay arranged the meeting: "Mme de Mouzay m'a presente a Paul de Cassagnac" (064.0085, 1876-07-24). Her salon became the stage for their developing relationship: "Mouzay promenait ses regards rayonnants, interrogateurs, de lui a moi, et semblant lui dire: Hein? Que vous disais-je?" During the first evening, she actively facilitated the encounter, prompting the follow-up: "Ces dames partent demain, et c'est dommage... j'ai prie ces messieurs de venir passer la soiree chez moi."
 
-Marie's nostalgic memories of Cassagnac are permanently fused with Mouzay's salon: "Voila bien cinq ans et demi que je l'ai vu pour la premiere fois... boulevard Haussmann n° 2, en premier chez la Mouzay, je vois le salon, les meubles, les stores mi-baisses a cause de la chaleur" (094.0145, 1882-01-28).
+Marie's nostalgic memories of Cassagnac are permanently fused with Mouzay's salon: "Voila bien cinq ans et demi que je l'ai vu pour la premiere fois... boulevard Haussmann n° 2, en premier chez la Mouzay, je vois le salon, les meubles, les stores mi-baisses a cause de la chaleur" (094.0215, 1882-01-28).
 
 ### Salon Hostess in Paris (1877--1881)
 In Paris, Mouzay hosts regular "mercredis" (Wednesday receptions) and soirees that Marie attends. These gatherings mix artists, politicians, military figures, and bourgeois guests. The salon is never first-rank -- Marie repeatedly notes the inferior company -- but it provides social access. Mouzay brings Marie into contact with art critics (Louis Enault of the *Moniteur des Arts*), politicians (Rane, an amnestied republican), and the wider Parisian monde. She obtains invitations for Marie to events such as the Pascalis balls (088.0006, 1880-04-26).
@@ -237,7 +237,7 @@ The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans
 - **November 21** (093): "le triomphe de toute la vermine des Mouzay et de l'atelier"
 
 ### 1882--1884
-- **January 28, 1882** (094.0145): Nostalgic memory of first Cassagnac sighting at Mouzay's salon
+- **January 28, 1882** (094.0215): Nostalgic memory of first Cassagnac sighting at Mouzay's salon
 - **December 1, 1882** (097): Marie fears Julian gossiping about her deafness "avec la Mouzay et les autres"
 - **March 14, 1883** (098): Marie Presseq appears; "c'est la Mouzay qui avait revele l'existence de cette Pompadour"
 - **August 5, 1883** (100.0433): Cassagnac's "Moussah" feuilleton character traced to "la mere Mouzay"

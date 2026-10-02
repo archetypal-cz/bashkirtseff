@@ -39,7 +39,7 @@ images:
 It was shown at the **Salon of 1883 as no. 106, under the title *Portrait de Mlle de B.*** — and it is this pastel, not either of the two paintings she sent the same year, that carried the ***mention honorable*** the jury awarded her. That distinction mattered enormously to her, and getting it for the wrong work wounded her (see below). The prize is commonly and wrongly attached to the Salon of 1884.
 
 %% GLO_PORTRAIT_DINA_PASTEL.0004 %%
-**A dating caveat.** The museum and the 1885 posthumous catalogue place the work in 1883, which is the Salon year. The diary makes clear the pastel was **made in the spring of 1882**: on 26 March 1884 Marie writes of "le pastel fait il y a près de deux ans" (¶ 103.0599), and Julian is already praising "le pastel de Dina" in April 1882 (¶ 094.0372). "1883" is the exhibition date, not the date of execution.
+**A dating caveat.** The museum and the 1885 posthumous catalogue place the work in 1883, which is the Salon year. The diary makes clear the pastel was **made in the spring of 1882**: on 26 March 1884 Marie writes of "le pastel fait il y a près de deux ans" (¶ 103.0599), and Julian is already praising "le pastel de Dina" in April 1882 (¶ 094.0442). "1883" is the exhibition date, not the date of execution.
 
 %% GLO_PORTRAIT_DINA_PASTEL.0005 %%
 ## Description
@@ -55,7 +55,7 @@ Pastel on paper, 61 × 50 cm. Marie leaves no set-piece description of it in the
 
 %% GLO_PORTRAIT_DINA_PASTEL.0009 %%
 %% [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) %%
-Marie had been painting Dina since 1879 — a profile in oil begun that July, shown to Julian and to Tony Robert-Fleury, and retouched over four weeks (¶¶ 085.0488, 085.0507, 085.0532, 085.0587). The great pastel belongs to the Nice and Paris campaign of spring 1882. When Julian reviewed the Nice output on 25 April 1882, his verdict on it was unqualified — "Le pastel de Dina très, très bien" (¶ 094.0372) — even as he demolished the rest of that week's painting (¶ 094.0386). Tony agreed (¶ 095.0145), Julian repeated himself on 29 May (¶ 095.0115), and on 10 June Mmes de Lambertye and Gautreau and the painter Louise Abbéma came to see it (¶ 095.0160).
+Marie had been painting Dina since 1879 — a profile in oil begun that July, shown to Julian and to Tony Robert-Fleury, and retouched over four weeks (¶¶ 085.0488, 085.0507, 085.0532, 085.0587). The great pastel belongs to the Nice and Paris campaign of spring 1882. When Julian reviewed the Nice output on 25 April 1882, his verdict on it was unqualified — "Le pastel de Dina très, très bien" (¶ 094.0442) — even as he demolished the rest of that week's painting (¶ 094.0456). Tony agreed (¶ 095.0145), Julian repeated himself on 29 May (¶ 095.0115), and on 10 June Mmes de Lambertye and Gautreau and the painter Louise Abbéma came to see it (¶ 095.0160).
 
 %% GLO_PORTRAIT_DINA_PASTEL.0010 %%
 By December 1882 the pastel had become her hope for the coming season: "Mon pastel ira dans un Cercle puis au Salon, 'c'est une chose de première ordre' dit le père Julian et j'ai envie de lui sauter au cou" (¶ 097.0212). The Cercle exhibition never happened — Julian had promised to place the pastel and one painting and did nothing, which produced the sharpest rupture between them in the whole diary, complete with a sarcastic thank-you note she copies out in full (¶¶ 098.0356–098.0363).
@@ -72,8 +72,8 @@ At the Salon it did better than anything else she sent. Only two pastels were re
 
 %% GLO_PORTRAIT_DINA_PASTEL.0014 %%
 - Antecedents, the 1879 oil portrait of Dina: 1879-07-02, ¶ 085.0488 · 1879-07-05, ¶ 085.0507 · 1879-07-13, ¶ 085.0532 · 1879-07-27, ¶ 085.0587
-- **First mention of the pastel** — 1882-04-25, ¶ 094.0372: "Le pastel de Dina très, très bien."
-- 1882-04-27, ¶ 094.0386 · 1882-05-29, ¶ 095.0115 · 1882-06-08, ¶ 095.0145 · 1882-06-10, ¶ 095.0160 — the run of praise
+- **First mention of the pastel** — 1882-04-25, ¶ 094.0442: "Le pastel de Dina très, très bien."
+- 1882-04-27, ¶ 094.0456 · 1882-05-29, ¶ 095.0115 · 1882-06-08, ¶ 095.0145 · 1882-06-10, ¶ 095.0160 — the run of praise
 - 1882-08-19, ¶ 096.0107 — a further Dina portrait planned, "avec une pointe de mystère, d'inconnu dans ses yeux de chat"
 - 1882-12-07, ¶ 097.0212 — the plan: a Cercle, then the Salon
 - 1883-02-19, ¶¶ 098.0356–098.0363 — the rupture with Julian over the Cercle that never happened
@@ -104,4 +104,4 @@ At the Salon it did better than anything else she sent. Only two pastels were re
 - The diary itself, carnets 085, 090, 094–099, 101–104
 
 %% GLO_PORTRAIT_DINA_PASTEL.0019 %%
-%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.3, §5.2) and the carnets 087–096 and 097–106 mention maps. Museum data from the Musée d'Orsay object record. Two corrections carried deliberately: (1) the mention honorable belongs to the Salon of 1883, not 1884 — the 1885 catalogue and Coppée's preface ("déjà mentionnée l'année précédente") both confirm it against English Wikipedia; (2) the museum's "1883" is the exhibition year, while the diary dates execution to spring 1882 (094.0372, and 103.0599 "le pastel fait il y a près de deux ans"). The later "harmonie blanche" pastel of Dina (1883–84) is flagged as a separate work so the two are not merged. No image included: the only Commons file is 497x600 px, below this project's 800 px floor — a genuine gap for a work of this standing. %%
+%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.3, §5.2) and the carnets 087–096 and 097–106 mention maps. Museum data from the Musée d'Orsay object record. Two corrections carried deliberately: (1) the mention honorable belongs to the Salon of 1883, not 1884 — the 1885 catalogue and Coppée's preface ("déjà mentionnée l'année précédente") both confirm it against English Wikipedia; (2) the museum's "1883" is the exhibition year, while the diary dates execution to spring 1882 (094.0442, and 103.0599 "le pastel fait il y a près de deux ans"). The later "harmonie blanche" pastel of Dina (1883–84) is flagged as a separate work so the two are not merged. No image included: the only Commons file is 497x600 px, below this project's 800 px floor — a genuine gap for a work of this standing. %%

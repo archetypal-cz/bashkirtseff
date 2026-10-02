@@ -78,8 +78,8 @@ The seed, and the conception:
 
 - 1877-10-04 (075.0138) — the history-painting ambition, before any subject
 - **1880-05-27 (088.0397)** — first mention: the two women before the sepulchre, and Jerusalem
-- 1882-01-15 (094.0108) — the «feu sacré» brought back from Spain; other projects in the same breath
-- 1882-04-11 (094.0318) — Jerusalem again
+- 1882-01-15 (094.0178) — the «feu sacré» brought back from Spain; other projects in the same breath
+- 1882-04-11 (094.0388) — Jerusalem again
 
 %% GLO_LES_SAINTES_FEMMES.0018 %%
 The 1882 campaign:

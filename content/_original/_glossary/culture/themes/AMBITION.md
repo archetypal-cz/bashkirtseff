@@ -52,7 +52,7 @@ This thematic tag collects diary paragraphs where Marie writes about her hunger 
 ## Example Paragraphs
 
 %% GLO_AMBITION.0011 %%
-- `094.0363` — "Tout s'aplanit devant la Gloire": glory as the ranking of herself above her sex and rivals
+- `094.0433` — "Tout s'aplanit devant la Gloire": glory as the ranking of herself above her sex and rivals
 - `052.0098` — she studies singing as "un de mes moyens pour devenir célèbre"
 - `002.0262` — "avoir un talent" as the road to being admired and honoured
 
