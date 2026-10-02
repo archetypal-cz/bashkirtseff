@@ -19,7 +19,7 @@ last_updated: 2026-05-25
 
 ## Overview
 
-Florence (Firenze), the capital of Tuscany, occupies a singular position in Marie Bashkirtseff's diary -- evolving from a teenage dream of artistic escape into the stage for one of her most intense emotional dramas. Marie first mentions Florence on April 30, 1873, when the fourteen-year-old lists it alongside Rome and Naples as the cities where she could "study painting, singing, music" -- everything impossible in Nice (004.0242). She visited twice: five days in September 1875 for the Michelangelo quatercentenary (carnet 043), and roughly ten days in May 1877 to stalk the family of her obsession, Alessandro de Larderei (carnet 071). Throughout the diary, Florence functions as both an art-historical reference point and the spiritual home of "ma famille" -- Marie's ironic term for the Larderei clan.
+Florence (Firenze), the capital of Tuscany, occupies a singular position in Marie Bashkirtseff's diary -- evolving from a teenage dream of artistic escape into the stage for one of her most intense emotional dramas. Marie first mentions Florence on April 30, 1873, when the fourteen-year-old lists it alongside Rome and Naples as the cities where she could "study painting, singing, music" -- everything impossible in Nice (004.0238). She visited twice: five days in September 1875 for the Michelangelo quatercentenary (carnet 043), and roughly ten days in May 1877 to stalk the family of her obsession, Alessandro de Larderei (carnet 071). Throughout the diary, Florence functions as both an art-historical reference point and the spiritual home of "ma famille" -- Marie's ironic term for the Larderei clan.
 
 ## Historical Context (1860s-1870s)
 
@@ -111,7 +111,7 @@ Marcuard writes to Marie from Florence (letter dated January 24, 1878, transcrib
 
 ### The Dream of Escape (1873)
 
-Florence first appears as pure aspiration. The fourteen-year-old Marie writes: "Je voudrais aller a Florence, a Naples, a Rome, etudier la peinture, le chant, la musique, a Nice c'est impossible" (004.0242). She repeats this in English to Helene Howard: "I wish to go to Florence... where I can study singing, piano, painting. But in Nice it is almost impossible, for want of galleries, museums, conservatoires" (004.0292). Florence represents cultural escape from provincial Nice.
+Florence first appears as pure aspiration. The fourteen-year-old Marie writes: "Je voudrais aller a Florence, a Naples, a Rome, etudier la peinture, le chant, la musique, a Nice c'est impossible" (004.0238). She repeats this in English to Helene Howard: "I wish to go to Florence... where I can study singing, piano, painting. But in Nice it is almost impossible, for want of galleries, museums, conservatoires" (004.0288). Florence represents cultural escape from provincial Nice.
 
 ### Florence as Reference Point (1876-1879)
 

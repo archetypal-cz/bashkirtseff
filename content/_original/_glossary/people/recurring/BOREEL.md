@@ -22,7 +22,7 @@ last_updated: 2026-05-25
 ## Identity and Background
 
 %% GLO_BOREEL.0002 %%
-Alfred Boreel was a young Dutchman who became Marie Bashkirtseff's first serious romantic interest during the winter seasons of 1871-72 and 1872-73 in Nice. Marie's diary gives his full name as "M. Alfred Boreel" (002.0115, entry 1873-02-26), while his dog's collar read "M. Robert Boreel" (004.0203, entry 1873-04-27), suggesting the family name appeared on the collar under a different family member's name, or that Robert was a middle name.
+Alfred Boreel was a young Dutchman who became Marie Bashkirtseff's first serious romantic interest during the winter seasons of 1871-72 and 1872-73 in Nice. Marie's diary gives his full name as "M. Alfred Boreel" (002.0104, entry 1873-02-26), while his dog's collar read "M. Robert Boreel" (004.0199, entry 1873-04-27), suggesting the family name appeared on the collar under a different family member's name, or that Robert was a middle name.
 
 %% GLO_BOREEL.0003 %%
 The Boreel family was a distinguished Dutch patrician family (*regentenpatriciaat*) with deep roots in the Netherlands, originating from Amsterdam. The family produced multiple notable figures including:
@@ -39,13 +39,13 @@ The family held the title of Baron, which was created in the Dutch nobility syst
 ## Nationality Confusion
 
 %% GLO_BOREEL.0006 %%
-Marie records a comical series of conflicting identifications of Boreel's nationality (002.0129-0125, entry 1873-02-27):
+Marie records a comical series of conflicting identifications of Boreel's nationality (002.0117-0125, entry 1873-02-27):
 1. Initially believed to be "Baron Finot" (a French identity Marie invented based on misidentification)
 2. "M. Boreel, Américain" (American)
 3. "M. Boreel, Hollandais" (Dutch)
 4. "M. Boreel, Prussien" (Prussian) -- "mais je n'y crois pas" (but I don't believe it)
 
-The confusion was resolved when, at a late-night supper after a ball at the Cercle Massena, Boreel drank heavily and declared himself Prussian, adding that "they live in Holland" ("il est Prussien, mais qu'ils demeurent en Hollande"). This likely means the Boreel family, while Dutch, had Prussian or German connections through marriage or property -- not uncommon for Dutch patrician families with estates near the German border. Marie's dismissive "le Prussien" became a private joke (002.0125).
+The confusion was resolved when, at a late-night supper after a ball at the Cercle Massena, Boreel drank heavily and declared himself Prussian, adding that "they live in Holland" ("il est Prussien, mais qu'ils demeurent en Hollande"). This likely means the Boreel family, while Dutch, had Prussian or German connections through marriage or property -- not uncommon for Dutch patrician families with estates near the German border. Marie's dismissive "le Prussien" became a private joke (002.0113).
 
 %% GLO_BOREEL.0007 %%
 ## Physical Appearance
@@ -53,12 +53,12 @@ The confusion was resolved when, at a late-night supper after a ball at the Cerc
 %% GLO_BOREEL.0008 %%
 Marie provides detailed and evolving descriptions of Boreel throughout the diary:
 - "Taille moyenne, gras, blanc, rose, blond, frais, beau" -- medium height, plump, fair-skinned, pink, blond, fresh, handsome (040.0085, entry 1875-08-27)
-- Had "de bons yeux de chien" -- good dog-like eyes; specifically compared to her dog Prater. A September 1874 marginal note reveals: "Boreel doit son commencement a la ressemblance que nous lui avons trouvee avec Prater" -- Boreel owed his beginning [as a romantic interest] to the resemblance we found with Prater (002.0042)
+- Had "de bons yeux de chien" -- good dog-like eyes; specifically compared to her dog Prater. A September 1874 marginal note reveals: "Boreel doit son commencement a la ressemblance que nous lui avons trouvee avec Prater" -- Boreel owed his beginning [as a romantic interest] to the resemblance we found with Prater (002.0041)
 - "Naive face that did not lack beauty" with good gray eyes
-- "Coarse" ungloved hand, which Marie found appealing (002.0041)
+- "Coarse" ungloved hand, which Marie found appealing (002.0040)
 - Had a mustache he would pull when displeased
 - Dressed elegantly -- "le jeune homme le plus chic de Nice" (003.0005, entry 1873-03-16)
-- Marie repeatedly criticizes his gait as "ignoble" and "vilaine demarche" -- ungainly walk lacking grace and nobility (001.0015, 040.0091)
+- Marie repeatedly criticizes his gait as "ignoble" and "vilaine demarche" -- ungainly walk lacking grace and nobility (001.0014, 040.0091)
 - By 1875-76, Marie notes he had become fat and ugly: "O Boreel! Comme tu es devenu laid et comme tu es devenu gras. Ou est ton chic?" (051, entry 1876-01-04)
 
 %% GLO_BOREEL.0009 %%
@@ -72,10 +72,10 @@ In her 1875 retrospective, Marie states that when Audiffret was barely twenty, "
 
 %% GLO_BOREEL.0012 %%
 The Boreel family maintained a seasonal presence in Nice with significant property:
-- **Villa and residence**: The family occupied or rented a villa on the Promenade des Anglais area; Marie mentions "les villas 57, Boreel, Canepa" in her panoramic view from Villa Acqua Viva (006, entry 1873-06-19). They also used **La Corinthienne**, a villa Marie associates with Boreel family gatherings and dinners (004.0202, entry 1873-04-29; 010.0086, entry 1873-09-26).
+- **Villa and residence**: The family occupied or rented a villa on the Promenade des Anglais area; Marie mentions "les villas 57, Boreel, Canepa" in her panoramic view from Villa Acqua Viva (006, entry 1873-06-19). They also used **La Corinthienne**, a villa Marie associates with Boreel family gatherings and dinners (004.0198, entry 1873-04-29; 010.0086, entry 1873-09-26).
 - **Mme Boreel** (his mother): Seen at her window at the start of the 1873-74 season (010.0086, entry 1873-09-27). Marie notes her arriving with a young blonde woman she speculates might be Boreel's wife (010.0145, entry 1873-10-01). Last seen departing Nice with Boreel in May 1876 (059, entry 1876-05-07).
-- **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0204, entry 1873-03-07; 004.0328, entry 1873-05-10).
-- **A dog**: The family dog's collar read "M. Robert Boreel" and would follow Marie's family in the street (004.0203, entry 1873-04-27).
+- **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0189, entry 1873-03-07; 004.0324, entry 1873-05-10).
+- **A dog**: The family dog's collar read "M. Robert Boreel" and would follow Marie's family in the street (004.0199, entry 1873-04-27).
 - **Horses**: Boreel kept fine horses in Nice. Marie notes he had "les plus beaux chevaux" (040.0085) and is frequently seen with one or two horses on the Promenade.
 
 %% GLO_BOREEL.0013 %%
@@ -84,10 +84,10 @@ The Boreel family maintained a seasonal presence in Nice with significant proper
 %% GLO_BOREEL.0014 %%
 Boreel participated fully in the typical activities of wealthy winter visitors to Nice:
 - Daily appearances on the Promenade des Anglais, on horseback or in carriage
-- Attendance at balls at the Cercle Massena, where he directed the cotillion (002.0114, entry 1873-02-24)
-- Appeared in carnival costume as a "bandit" (002.0069-0065, entry 1873-02-23) and rode in the carnival cavalcade
-- Late-night suppers with Prince Gagarine, Markoff, and Gouchkevitch (002.0124, entry 1873-02-27)
-- Gambling at Monaco -- Marie morally disapproves but finds it adds to his charm (002.0138, entry 1873-02-27)
+- Attendance at balls at the Cercle Massena, where he directed the cotillion (002.0103, entry 1873-02-24)
+- Appeared in carnival costume as a "bandit" (002.0067-0065, entry 1873-02-23) and rode in the carnival cavalcade
+- Late-night suppers with Prince Gagarine, Markoff, and Gouchkevitch (002.0112, entry 1873-02-27)
+- Gambling at Monaco -- Marie morally disapproves but finds it adds to his charm (002.0126, entry 1873-02-27)
 - Close friendship with Emile d'Audiffret: "le plus grand ami d'Audiffret" and "Boreel etait le maitre du petit Nicois en beaucoup de choses" (040.0086, 040.0090)
 - Appeared at Nice in December 1873 "tout en bleu avec son caniche bien rase" -- all in blue with his well-clipped poodle, on a dog-cart (014.0244, entry 1873-12-27)
 - In 1874-75, seen in Spa with Gericke, who reports he was courting a woman in The Hague (021.0067, entry 1874-07-09)
@@ -108,21 +108,21 @@ Marie's attraction to Boreel began in the winter of 1871-72 when she was thirtee
 %% GLO_BOREEL.0019 %%
 ### Phase 2: Rivalry with Hamilton (Winter 1872-73)
 When the Duke of Hamilton appeared in Nice in December 1872, Boreel's star began to fade. Marie's diary from January-March 1873 records a dramatic internal struggle between her feelings for both men. Key moments:
-- She compares them explicitly: "Si quand je vois Boreel j'ai de la joie, c'est un rayon de soleil qui penetre dans mon coeur quand je vois le duc" -- if seeing Boreel brings joy, seeing the Duke is a sunbeam penetrating her heart (001.0067, entry 1873-02-01)
-- She strategically uses her visible blushing for Boreel to disguise her feelings for the Duke (002.0063, entry 1873-02-17)
-- She throws flowers to him during carnival, then agonizes over whether he interpreted it as romantic interest (002.0072, entry 1873-02-23)
-- She learns his true identity (not Baron Finot) and is disappointed (002.0124, entry 1873-02-27)
+- She compares them explicitly: "Si quand je vois Boreel j'ai de la joie, c'est un rayon de soleil qui penetre dans mon coeur quand je vois le duc" -- if seeing Boreel brings joy, seeing the Duke is a sunbeam penetrating her heart (001.0065, entry 1873-02-01)
+- She strategically uses her visible blushing for Boreel to disguise her feelings for the Duke (002.0061, entry 1873-02-17)
+- She throws flowers to him during carnival, then agonizes over whether he interpreted it as romantic interest (002.0070, entry 1873-02-23)
+- She learns his true identity (not Baron Finot) and is disappointed (002.0112, entry 1873-02-27)
 - She makes a "solemn promise" to stop thinking about Boreel to "deserve" Hamilton (003.0002, entry 1873-03-13)
 
 %% GLO_BOREEL.0020 %%
 ### Phase 3: Gradual Dismissal (Spring-Summer 1873)
-By March 1873, Marie declares Boreel "indifferent" to her (003.0024, entry 1873-03-25) and "ugly, with a tired face" (003.0028, entry 1873-03-27). She retrospectively refers to her Boreel period as "childish" and the emotion as the natural first love that could have passed without trace, unlike her feelings for Hamilton (002.0206, entry 1873-03-05).
+By March 1873, Marie declares Boreel "indifferent" to her (003.0026, entry 1873-03-25) and "ugly, with a tired face" (003.0030, entry 1873-03-27). She retrospectively refers to her Boreel period as "childish" and the emotion as the natural first love that could have passed without trace, unlike her feelings for Hamilton (002.0191, entry 1873-03-05).
 
 %% GLO_BOREEL.0021 %%
 ### Phase 4: Retrospective Embarrassment (1874-1884)
 In later diary entries and marginal notes, Marie consistently distances herself from her Boreel infatuation:
 - Calls her writings about him "detestable and stupid" (marginal notes)
-- Refers to him as "une petite plaisanterie, maladroite meme car il n'est pas gentilhomme" -- a clumsy little joke, not even a gentleman (002.0180, entry 1873-03-03)
+- Refers to him as "une petite plaisanterie, maladroite meme car il n'est pas gentilhomme" -- a clumsy little joke, not even a gentleman (002.0165, entry 1873-03-03)
 - In 1874, still involuntarily blushes when passing his balcony, which infuriates her (017.0052, entry 1874-02-26)
 - By 1874 in Spa, refers to him as "ce bon gros Boreel, mon ancienne passion, d'enfance" -- that good fat Boreel, my old childhood passion (021.0067, entry 1874-07-09)
 - In 1875-76 finds him physically diminished: fat, ugly, lost his chic (051, entry 1876-01-04)
@@ -133,7 +133,7 @@ In later diary entries and marginal notes, Marie consistently distances herself 
 ## Significance for the Diary
 
 %% GLO_BOREEL.0023 %%
-Boreel occupies a unique position in Marie's emotional development: he was her first genuine romantic attachment, preceding the Duke of Hamilton who would dominate her emotional life for years. Marie herself recognized the difference in quality between the two feelings: Boreel inspired "un amour venu de lui-meme, naturel" -- a love that came naturally, unbidden -- while Hamilton represented "un amour travaille" -- a love she consciously cultivated (002.0206, entry 1873-03-05). The Boreel episode also reveals Marie's precocious self-analysis, her class consciousness (her disappointment at his not being a baron), and her tendency to construct quasi-religious bargains (sacrificing Boreel-thoughts to "deserve" Hamilton).
+Boreel occupies a unique position in Marie's emotional development: he was her first genuine romantic attachment, preceding the Duke of Hamilton who would dominate her emotional life for years. Marie herself recognized the difference in quality between the two feelings: Boreel inspired "un amour venu de lui-meme, naturel" -- a love that came naturally, unbidden -- while Hamilton represented "un amour travaille" -- a love she consciously cultivated (002.0191, entry 1873-03-05). The Boreel episode also reveals Marie's precocious self-analysis, her class consciousness (her disappointment at his not being a baron), and her tendency to construct quasi-religious bargains (sacrificing Boreel-thoughts to "deserve" Hamilton).
 
 %% GLO_BOREEL.0024 %%
 Marie's treatment of Boreel across the diary -- from breathless adolescent infatuation through strategic manipulation to retrospective embarrassment -- provides one of the most complete arcs of emotional development in the entire journal.

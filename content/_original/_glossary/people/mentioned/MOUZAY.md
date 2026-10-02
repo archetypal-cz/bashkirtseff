@@ -49,7 +49,7 @@ Mouzay calls Marie "Mousse" and "Moussia" (the Russian diminutive), and Marie in
 ## Key Roles in the Diary
 
 ### Social Intermediary in Nice (1873--1876)
-From the earliest entries, Mouzay is part of the Bashkirtseff social circle in Nice: attending soirees, receiving visits, hosting dinners and "jours" (reception days). She appears alongside the regular Nice society figures -- Daillens, Ballore, Anitchkoff, Lefèvre, Barnola. Marie attends dinners at Mouzay's home but consistently finds the company beneath her: "quel monde de vieilles femmes pretentieuses en chiffons; des hommes, des especes d'huiliers" (003.0077, 1873-03-22).
+From the earliest entries, Mouzay is part of the Bashkirtseff social circle in Nice: attending soirees, receiving visits, hosting dinners and "jours" (reception days). She appears alongside the regular Nice society figures -- Daillens, Ballore, Anitchkoff, Lefèvre, Barnola. Marie attends dinners at Mouzay's home but consistently finds the company beneath her: "quel monde de vieilles femmes pretentieuses en chiffons; des hommes, des especes d'huiliers" (003.0080, 1873-03-22).
 
 Despite this social condescension, Marie lists Mouzay among the precious few who remained loyal during the family's periods of social exclusion: "de Mouzay, de Daillens, de Ballote et ses filles, Barnola, Bihovetz, Galula, Pepino, Markoff. Voila je crois la liste de ceux qui ne nous ont pas crache dessus" (052, 1876-01-19).
 
@@ -99,10 +99,10 @@ The diary reveals (086.0478, 1879-11-05) that Mouzay had served as "lingere dans
 ## Diary References
 
 ### 1873 (Nice)
-- **February 16** (002.0012): Late-night arrival with Mme de Daillens; Marie pumps Daillens for gossip about a ball
+- **February 16** (002.0015): Late-night arrival with Mme de Daillens; Marie pumps Daillens for gossip about a ball
 - **February 27** (002): "Nous allames chez la comtesse de Mouzay. C'est son jour"
 - **March 4** (002): Evening soiree guest alongside Daillens, Markoff, Gabrielli
-- **March 22** (003.0077): Dinner at Mouzay's -- Marie disgusted by inferior company
+- **March 22** (003.0080): Dinner at Mouzay's -- Marie disgusted by inferior company
 - **April 6** (003): Marie worries about Mouzay encountering Comtesse d'Osmond de Fille
 - **April 17** (004): "les deux Mouzay" visit; religious discussion, gossip about Duke of Edinburgh
 - **May 4** (004): Met with Mouzay and daughter in carriage; visits Countess Benvenuti

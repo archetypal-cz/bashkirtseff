@@ -54,6 +54,6 @@ This thematic tag collects diary paragraphs where Marie writes about her hunger 
 %% GLO_AMBITION.0011 %%
 - `094.0433` — "Tout s'aplanit devant la Gloire": glory as the ranking of herself above her sex and rivals
 - `052.0098` — she studies singing as "un de mes moyens pour devenir célèbre"
-- `002.0262` — "avoir un talent" as the road to being admired and honoured
+- `002.0244` — "avoir un talent" as the road to being admired and honoured
 
 %% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%
