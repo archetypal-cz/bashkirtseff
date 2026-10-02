@@ -1219,32 +1219,32 @@ They need AI translation into French.
 - **060/1876-05-10.md** para 060.0013 [CODE-SWITCH]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH NISSART: "San Diou de Diou!" - "Saint God of God!"; Nice dialect exclamation %%
 - **060/1876-05-10.md** para 060.0024 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Corpo di Dio" - "Body of God"; oath/exclamation %%
 - **060/1876-05-13.md** para 060.0085 [ITALIAN]: %% 2026-02-10T12:30:00 LAN: ITALIAN place name: "di San Giovanni in Laterano" - the Archbasilica of Saint John Lateran. Marie uses Italian preposition "di" naturally in Rome context. %%
-- **060/1876-05-15.md** para 060.0255 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "com'è carina!" - "how pretty she is!"; overheard compliment %%
-- **060/1876-05-19.md** para 060.0636 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Mercurio" - Mercury, the messenger god; i.e., go-between in romantic affairs %%
-- **060/1876-05-19.md** para 060.0885 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Occhi neri" - "Black eyes"; affectionate address %%
+- **060/1876-05-15.md** para 060.0258 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "com'è carina!" - "how pretty she is!"; overheard compliment %%
+- **060/1876-05-19.md** para 060.0639 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Mercurio" - Mercury, the messenger god; i.e., go-between in romantic affairs %%
+- **060/1876-05-19.md** para 060.0888 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: CODE-SWITCH ITALIAN: "Occhi neri" - "Black eyes"; affectionate address %%
 - **060/1876-05-20.md** para withdrawn in the 2026-09 rebuild (old carnet 060 ¶0884; see content/_renumber/060-2026-09-29.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "*Gloriae cupiditate*" - desire for glory/ambition (classical Latin phrase, shows Marie's education) %%
 - **062/1876-06-02.md** para 062.0129 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Orlando" - Ariosto's Orlando Furioso, Italian Renaissance epic poem %%
 - **062/1876-06-02.md** para 062.0134 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Vaticinio" - from Latin vaticinium (prophecy); Marie displays classical learning %%
 - **062/1876-06-04.md** para 062.0172 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Habeas...?" - truncated Latin phrase from papal verification ritual legend %%
 - **062/1876-06-07.md** para 062.0274 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "moujiks" - Russian peasants; Marie's class prejudice showing %%
 - **062/1876-06-15.md** para 062.0357 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? Marie's habitual Italian expression %%
-- **062/1876-06-18-19.md** para 062.0453 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: Publius Syrus maxim - 1st century BC Latin writer; Marie's classical education %%
-- **062/1876-06-22.md** para 062.0529 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Italia! Reggio del ciel! sol beato..." - from Thomas's Mignon, "Connais-tu le pays" aria %%
-- **062/1876-06-23.md** para 062.0557 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Pietruccio" - ITALIAN diminutive of Pietro (little Pietro - echoes her own Pietro) %%
-- **062/1876-06-24.md** para 062.0564 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "la Patria" - the Fatherland (Italian nationalist term) %%
-- **062/1876-06-24.md** para 062.0579 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Nizza" - ITALIAN for Nice (causing mail to go to Nizza Monferrato in Italy first) %%
-- **062/1876-06-26.md** para 062.0705 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN LETTER INSERTED: Pietro's love letter pinned to the notebook (original Italian preserved) %%
-- **062/1876-06-26.md** para 062.0708 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "O canaglia !" - Oh scoundrel! (ironic exclamation while delighted) %%
-- **062/1876-06-27.md** para 062.0729 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "chtchenock" (shchenok) - puppy; affectionate diminutive for Pietro %%
-- **062/1876-06-28.md** para 062.0765 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Domine, salvum fac futurum Pium X" - Lord, save the future Pius X; Marie's papal fantasy %%
-- **062/1876-06-30.md** para 062.0786 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? %%
-- **062/1876-06-30.md** para 062.0786 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Deo juvante" - With God's help %%
-- **062/1876-07-03.md** para 062.0832 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Amor decrescit ubique crescere non possit" - Love diminishes where it cannot grow; classical maxim %%
+- **062/1876-06-18-19.md** para 062.0471 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: Publius Syrus maxim - 1st century BC Latin writer; Marie's classical education %%
+- **062/1876-06-22.md** para 062.0547 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "Italia! Reggio del ciel! sol beato..." - from Thomas's Mignon, "Connais-tu le pays" aria %%
+- **062/1876-06-23.md** para 062.0575 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Pietruccio" - ITALIAN diminutive of Pietro (little Pietro - echoes her own Pietro) %%
+- **062/1876-06-24.md** para 062.0582 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "la Patria" - the Fatherland (Italian nationalist term) %%
+- **062/1876-06-24.md** para 062.0597 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Nizza" - ITALIAN for Nice (causing mail to go to Nizza Monferrato in Italy first) %%
+- **062/1876-06-26.md** para 062.0723 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN LETTER INSERTED: Pietro's love letter pinned to the notebook (original Italian preserved) %%
+- **062/1876-06-26.md** para 062.0726 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "O canaglia !" - Oh scoundrel! (ironic exclamation while delighted) %%
+- **062/1876-06-27.md** para 062.0747 [RUSSIAN]: %% 2026-02-02T12:20:00 LAN: RUSSIAN: "chtchenock" (shchenok) - puppy; affectionate diminutive for Pietro %%
+- **062/1876-06-28.md** para 062.0783 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Domine, salvum fac futurum Pium X" - Lord, save the future Pius X; Marie's papal fantasy %%
+- **062/1876-06-30.md** para 062.0804 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Chi lo sa?" - Who knows? %%
+- **062/1876-06-30.md** para 062.0804 [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Deo juvante" - With God's help %%
+- **062/1876-07-03.md** para 062.0850 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Amor decrescit ubique crescere non possit" - Love diminishes where it cannot grow; classical maxim %%
 - **062/1876-07-03.md** para withdrawn in the 2026-09 rebuild (old carnet 062 ¶0736; see content/_renumber/062-2026-09-29.json) [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "*Gloriae cupiditate*" - with desire for glory; carnet's closing motto %%
 - **063/1876-07-04-05.md** para 063.0013 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Monsignor" - ITALIAN: honorary title for Catholic prelates, used in French without translation %%
 - **063/1876-07-04-05.md** para 063.0013 [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN follows - "cantiques en latin" - religious hymns in Latin as spoken in Catholic liturgy %%
-- **063/1876-07-12.md** para 063.0165 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Caccia-Club" - ITALIAN: hunting club; exclusive Roman gentlemen's social club %%
-- **063/1876-07-18.md** para 063.0530 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "papabile" - popable, eligible for papacy; cardinal considered likely papal candidate %%
+- **063/1876-07-12.md** para 063.0167 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: "Caccia-Club" - ITALIAN: hunting club; exclusive Roman gentlemen's social club %%
+- **063/1876-07-18.md** para 063.0532 [ITALIAN]: %% 2026-02-02T12:20:00 LAN: ITALIAN: "papabile" - popable, eligible for papacy; cardinal considered likely papal candidate %%
 - **063/1876-07-19.md** para withdrawn in the 2026-09 rebuild (old carnet 063 ¶0500; see content/_renumber/063-2026-09-29.json) [LATIN]: %% 2026-02-02T12:20:00 LAN: LATIN: "Gloriae cupiditate" - desire for glory; classical phrase %%
 - **063/1876-07-19.md** para withdrawn in the 2026-09 rebuild (old carnet 063 ¶0500; see content/_renumber/063-2026-09-29.json) [ENGLISH]: %% 2026-02-02T12:20:00 LAN: ENGLISH: "His Grace the Duke of Hamilton" - abbreviated; first mention of future obsession %%
 - **064/1876-07-25.md** para 064.0193 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN follows - "O stella argentea" Neapolitan song title meaning "O silver star" %%
