@@ -171,8 +171,8 @@ From 1875 Marie mostly names him "grand-papa" / "mon grand-père", and bare "pap
 
 - **Blindness and fall**: "pauvre aveugle qu'il est" (032.0215, May 1875), after a false alarm of apoplexy.
 - **Collignon**: Marie blames the governess's departure on him (032.0181); he is "jaloux" of Collignon and Barnola (046.0245, 059.0570, 062.0098).
-- **The pavilion at Nice**: he lives in the garden pavilion of the family villa (037.0264, 046.0291, 062.0822).
-- **Advice on Antonelli** (June 1876): "Grand-papa, vous parlez comme un ange" (062.0719–0622); he opposes the match (062.0759–0648).
+- **The pavilion at Nice**: he lives in the garden pavilion of the family villa (037.0264, 046.0291, 062.0840).
+- **Advice on Antonelli** (June 1876): "Grand-papa, vous parlez comme un ange" (062.0737–0622); he opposes the match (062.0777–0648).
 - **Eye operation** (May 1877): "grand-papa s'est fait opérer l'œil et l'opération a réussi" (071.0308). After it "Monsieur mon grand-père, depuis qu'il voie, est intraitable" (074.0042).
 - **Germany, summer 1877**: with the family at Schlangenbad and Wiesbaden (073.0313–074.0425); meets his old friend Prince Repnine, "ancien ami de grand-papa il y a quarante ans" (074.0080, 074.0387, 074.0417).
 - **Death**: 29 August 1878, per Kernberger (2013) chronology ("M. Babanine, Marie's grandfather, dies, and she dresses in mourning").
