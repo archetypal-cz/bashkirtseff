@@ -12,6 +12,12 @@ aliases:
   - Pastel portrait of Dina
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1882"
+  medium: "pastel on paper"
+  status: public
+  location: "Musée d'Orsay, Paris"
 research_status: Moderate
 last_updated: 2026-08-13
 ---

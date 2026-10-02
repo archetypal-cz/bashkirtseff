@@ -10,6 +10,12 @@ aliases:
   - Malá dívka
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1882"
+  medium: "oil on canvas"
+  status: public
+  location: "Galerie výtvarného umění v Ostravě"
 research_status: Basic
 last_updated: 2026-08-13
 images:

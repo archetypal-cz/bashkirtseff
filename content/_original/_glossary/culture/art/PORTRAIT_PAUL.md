@@ -10,6 +10,11 @@ aliases:
   - Portrait of Paul Bashkirtseff
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1876"
+  status: public
+  location: "Musée des Beaux-Arts Jules Chéret, Nice"
 research_status: Basic
 last_updated: 2026-08-13
 images:

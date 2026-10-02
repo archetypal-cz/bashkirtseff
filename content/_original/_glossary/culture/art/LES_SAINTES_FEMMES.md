@@ -10,6 +10,11 @@ aliases:
   - The Holy Women
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1880–1884"
+  medium: "unrealised project; studies"
+  status: unknown
 research_status: Comprehensive
 last_updated: 2026-08-13
 ---

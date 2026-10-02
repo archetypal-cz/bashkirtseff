@@ -9,6 +9,12 @@ aliases:
   - Head of a Young Woman
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "c. 1878"
+  medium: "oil on canvas"
+  status: public
+  location: "Musée Ziem, Martigues"
 research_status: Basic
 last_updated: 2026-08-13
 ---

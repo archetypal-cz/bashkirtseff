@@ -9,6 +9,10 @@ aliases:
   - Три улыбки
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1883–1884"
+  status: unknown
 research_status: Moderate
 last_updated: 2026-08-13
 ---

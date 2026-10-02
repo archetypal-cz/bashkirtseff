@@ -8,6 +8,12 @@ aliases:
   - Дождевой зонтик
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1883"
+  medium: "oil on canvas"
+  status: public
+  location: "State Russian Museum, St Petersburg"
 research_status: Moderate
 last_updated: 2026-08-13
 images:

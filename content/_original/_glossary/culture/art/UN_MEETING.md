@@ -11,6 +11,12 @@ aliases:
   - The Meeting
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1884"
+  medium: "oil on canvas"
+  status: public
+  location: "Musée d'Orsay, Paris"
 research_status: Comprehensive
 last_updated: 2026-08-13
 images:

@@ -9,6 +9,12 @@ aliases:
   - Весна
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1884"
+  medium: "oil on canvas"
+  status: attributed
+  location: "State Russian Museum, St Petersburg"
 research_status: Moderate
 last_updated: 2026-08-13
 ---

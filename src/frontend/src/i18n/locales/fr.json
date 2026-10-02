@@ -15,6 +15,8 @@
     "noEntryToday": "Pas d'entrée pour ce jour",
     "yearsOld": "ans",
     "intro1": "Marie Bashkirtseff (1858–1884) était une aristocrate ukrainienne de Poltava qui a tenu l'un des journaux les plus remarquables de l'histoire, de l'âge de treize ans jusqu'à sa mort prématurée de tuberculose.",
+    "introWorks": "Elle fut aussi une peintre de talent — voir {link}.",
+    "introWorksLink": "ses tableaux",
     "intro2": "Pendant cent ans, son journal n'a été lu que dans une version fortement censurée. L'édition complète a été publiée récemment en tirage limité et est presque impossible à obtenir.",
     "intro3": "Ce projet rend le journal complet accessible avec des recherches historiques, des annotations linguistiques et des traductions en ukrainien, tchèque, anglais et français moderne.",
     "diaryVolumes": "Volumes du journal",
@@ -366,6 +368,23 @@
       "languages": "Langues",
       "social_customs": "Coutumes",
       "_root": "Général"
+    },
+    "works": {
+      "title": "Les œuvres de Marie Bashkirtseff",
+      "count": {
+        "one": "{count} œuvre",
+        "many": "{count} d’œuvres",
+        "other": "{count} œuvres"
+      },
+      "undated": "Non daté",
+      "status": {
+        "public": "Collection publique",
+        "attributed": "Probablement",
+        "private": "Collection particulière",
+        "contested": "Localisation discutée",
+        "unknown": "Localisation inconnue"
+      },
+      "cardDesc": "Ses tableaux, pastels et sa sculpture : ce qui subsiste, où, et ce qui a été perdu."
     }
   },
   "diary": {

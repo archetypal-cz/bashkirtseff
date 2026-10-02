@@ -10,6 +10,12 @@ aliases:
   - Майстерня Жюльєна
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1881"
+  medium: "oil on canvas"
+  status: public
+  location: "Dnipro Art Museum"
 research_status: Comprehensive
 last_updated: 2026-08-13
 images:

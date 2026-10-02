@@ -12,6 +12,12 @@ aliases:
   - Portrait of Alexandrine Patchenko
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1881"
+  medium: "oil on canvas"
+  status: public
+  location: "Rijksmuseum, Amsterdam"
 research_status: Moderate
 last_updated: 2026-08-13
 images:

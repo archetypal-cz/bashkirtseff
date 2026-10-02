@@ -13,6 +13,11 @@ aliases:
   - Portrait of a Young Woman Reading
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1880"
+  medium: "oil on canvas"
+  status: private
 research_status: Moderate
 last_updated: 2026-08-13
 ---

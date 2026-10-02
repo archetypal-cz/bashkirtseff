@@ -58,6 +58,11 @@ const diaryPath = diaryRoutesPublished ? contentPath : 'original';
 // labelled French original where it doesn't — never a third language's prose.
 const languagePath = contentPath;
 
+// "She was also a painter — see {link}": the link opens the glossary hub of
+// Marie's works, in the same diary tree the other links on this page use.
+const worksHubHref = withTrailingSlash(`/${diaryPath}/glossary/MARIE_BASHKIRTSEFF_WORKS`);
+const [introWorksBefore, introWorksAfter = ''] = t('home.introWorks').split('{link}');
+
 // "This Day" data is served per-day as static JSON from
 // /data/this-day/{lang}/{MM-DD}.json (see pages/data/this-day/[lang]/[date].json.ts).
 // The island fetches only today's file at runtime instead of receiving the whole
@@ -147,6 +152,7 @@ const homeAlternates = [
 
           <p class="text-lg text-ink-light leading-relaxed">
             {t('home.intro1')}
+            {introWorksBefore}<a href={worksHubHref} class="text-accent hover:text-accent-light underline underline-offset-2">{t('home.introWorksLink')}</a>{introWorksAfter}
           </p>
           <p class="text-lg text-ink-light leading-relaxed">
             {t('home.intro2')}

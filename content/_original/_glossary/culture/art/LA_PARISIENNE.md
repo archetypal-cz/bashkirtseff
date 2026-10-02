@@ -12,6 +12,12 @@ aliases:
   - Portrait of Irma
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1882"
+  medium: "oil on canvas"
+  status: public
+  location: "Petit Palais, Paris"
 research_status: Comprehensive
 last_updated: 2026-08-13
 images:

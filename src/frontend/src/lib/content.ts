@@ -141,6 +141,35 @@ export interface GlossaryEntry {
   pronunciation?: string;      // URL to pronunciation (e.g., Google Translate)
   aliases?: string[];          // Alternative names/spellings
   images?: GlossaryImage[];    // Illustrations (frontmatter `images:`)
+  work?: MarieWork;            // Set only on Marie's own works (`marie_work: true`)
+  worksGallery?: boolean;      // Hub entry: render the gallery of Marie's works
+  worksGalleryAfter?: string;  // Paragraph ID the gallery follows (default: end)
+}
+
+/**
+ * Where one of Marie's works is now, as far as the entry can establish:
+ * public collection, attributed to one (probable, not established), private
+ * collection, disputed between several, or whereabouts unknown.
+ */
+export type MarieWorkStatus = 'public' | 'attributed' | 'private' | 'contested' | 'unknown';
+
+/**
+ * Catalogue data for one of Marie's own works, from frontmatter:
+ *
+ *   marie_work: true
+ *   work:
+ *     year: "1884"
+ *     medium: "oil on canvas"
+ *     status: public
+ *     location: "Musée d'Orsay, Paris"
+ *
+ * Drives the gallery on the MARIE_BASHKIRTSEFF_WORKS hub entry.
+ */
+export interface MarieWork {
+  year?: string;
+  medium?: string;
+  status: MarieWorkStatus;
+  location?: string;
 }
 
 /**
@@ -2311,6 +2340,9 @@ function parseGlossaryEntryFromPath(filePath: string, category: string, language
     pronunciation: metadata.pronunciation as string | undefined,
     aliases: metadata.aliases as string[] | undefined,
     images: normalizeGlossaryImages(metadata.images),
+    work: metadata.marie_work === true ? normalizeMarieWork(metadata.work) : undefined,
+    worksGallery: metadata.works_gallery === true || undefined,
+    worksGalleryAfter: typeof metadata.works_gallery_after === 'string' ? metadata.works_gallery_after : undefined,
   };
 
   // Parse paragraph clusters if present
@@ -2358,6 +2390,40 @@ function normalizeGlossaryImages(value: unknown): GlossaryImage[] | undefined {
   }
 
   return images.length > 0 ? images : undefined;
+}
+
+const MARIE_WORK_STATUSES: readonly MarieWorkStatus[] = ['public', 'attributed', 'private', 'contested', 'unknown'];
+
+/** Normalize the frontmatter `work:` block; an unknown status reads as 'unknown'. */
+function normalizeMarieWork(value: unknown): MarieWork {
+  const item = value && typeof value === 'object' ? value as Record<string, unknown> : {};
+  const str = (v: unknown): string | undefined =>
+    typeof v === 'string' || typeof v === 'number' ? String(v).trim() || undefined : undefined;
+  const status = str(item.status) as MarieWorkStatus | undefined;
+  return {
+    year: str(item.year),
+    medium: str(item.medium),
+    status: status && MARIE_WORK_STATUSES.includes(status) ? status : 'unknown',
+    location: str(item.location),
+  };
+}
+
+/**
+ * Marie's own works (glossary entries flagged `marie_work: true`), in
+ * chronological order by the first year in `work.year`; undated works last,
+ * ties by name. The flag and catalogue data come from the original entry, so
+ * a translated entry that omits them still appears; names, and images where a
+ * translation declares its own, come from the reader's language.
+ */
+export function getMarieWorks(language: string = 'original'): GlossaryEntry[] {
+  const firstYear = (e: GlossaryEntry) => Number(e.work?.year?.match(/\d{4}/)?.[0] ?? 9999);
+  return getGlossaryEntries('original')
+    .filter(e => e.work)
+    .map(original => {
+      const shown = getGlossaryEntryWithFallback(original.id, language) ?? original;
+      return { ...shown, work: original.work };
+    })
+    .sort((a, b) => firstYear(a) - firstYear(b) || a.name.localeCompare(b.name));
 }
 
 /**

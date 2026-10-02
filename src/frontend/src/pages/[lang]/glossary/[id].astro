@@ -2,6 +2,7 @@
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import GlossaryFigure from '../../../components/glossary/GlossaryFigure.astro';
+import MarieWorksGallery from '../../../components/glossary/MarieWorksGallery.astro';
 import { getMergedGlossaryEntries, getGlossaryEntryWithFallback, buildGlossaryUsageCounts, stripGlossaryComments } from '../../../lib/content';
 import { linkifyParagraphRefs } from '../../../lib/paragraph-refs';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
@@ -106,6 +107,13 @@ const processedParagraphs = hasParagraphs
     }))
   : [];
 const htmlContent = !hasParagraphs ? linkifyRefs(simpleMarkdownToHtml(entry.content)) : '';
+
+// Hub entry (works_gallery: true): the generated gallery of Marie's works goes
+// after the paragraph named by works_gallery_after, or after the whole text.
+const galleryAfter = entry.worksGallery && processedParagraphs.some(p => p.id === entry.worksGalleryAfter)
+  ? entry.worksGalleryAfter
+  : undefined;
+const galleryAtEnd = Boolean(entry.worksGallery) && !galleryAfter;
 
 const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 
@@ -218,6 +226,7 @@ const [leadImage, ...moreImages] = images;
     {hasParagraphs ? (
       <div class="prose-diary space-y-6">
         {processedParagraphs.map(paragraph => (
+          <Fragment>
           <div
             id={paragraph.htmlId}
             class="group relative paragraph-container scroll-mt-24"
@@ -245,12 +254,16 @@ const [leadImage, ...moreImages] = images;
               />
             </div>
           </div>
+          {paragraph.id === galleryAfter && <MarieWorksGallery lang={lang} />}
+          </Fragment>
         ))}
       </div>
     ) : (
       /* Fall back to simple HTML rendering for old format */
       <div class="prose-diary" set:html={htmlContent} />
     )}
+
+    {galleryAtEnd && <MarieWorksGallery lang={lang} />}
 
     <nav class="mt-12 pt-8 border-t border-ink/10" aria-label={t('glossary.backToGlossary')}>
       <a href={withTrailingSlash(basePath)} class="text-accent hover:text-accent-light transition-colors">

@@ -1,10 +1,11 @@
 ---
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
-import { getMergedGlossaryEntries, getGlossaryByCategory, buildGlossaryUsageCounts } from '../../../lib/content';
+import { getMergedGlossaryEntries, getGlossaryByCategory, buildGlossaryUsageCounts, getMarieWorks } from '../../../lib/content';
 import GlossarySearch from '../../../components/glossary/GlossarySearch.vue';
 import GlossaryCategoryBrowser from '../../../components/glossary/GlossaryCategoryBrowser.vue';
-import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
+import { DIARY_LANGUAGES, glossaryUrl, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
+import { thumbnailSrc } from '../../../lib/thumbnail';
 import { withTrailingSlash } from '../../../lib/url';
 
 export function getStaticPaths() {
@@ -71,6 +72,13 @@ const letterCounts = letters.map(letter => ({
 }));
 
 const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
+
+// Three small pictures for the works card: the first illustrated works by date
+const worksPreview = getMarieWorks(lang.contentPath)
+  .map(w => w.images?.[0]?.src)
+  .filter((src): src is string => Boolean(src))
+  .slice(0, 3)
+  .map(thumbnailSrc);
 ---
 
 <ReadingLayout title={`${t('glossary.title')} — ${t('diary.pageTitle')}`} lang={lang.urlPath}>
@@ -92,6 +100,19 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
         {totalEntries} {t('glossary.entries')}
       </p>
     </header>
+
+    <!-- Featured: Marie's own works (culture/art hub entry with a generated gallery) -->
+    <a href={glossaryUrl(lang, 'MARIE_BASHKIRTSEFF_WORKS')} class="works-hub-card mb-8">
+      {worksPreview.length > 0 && (
+        <span class="works-hub-thumbs" aria-hidden="true">
+          {worksPreview.map(src => <img src={src} alt="" loading="lazy" decoding="async" />)}
+        </span>
+      )}
+      <span class="works-hub-text">
+        <span class="works-hub-title">{t('glossary.works.title')} &rarr;</span>
+        <span class="works-hub-desc">{t('glossary.works.cardDesc')}</span>
+      </span>
+    </a>
 
     <!-- Search -->
     <div class="mb-8">
@@ -133,3 +154,66 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     )}
   </div>
 </ReadingLayout>
+
+<style>
+  .works-hub-card {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid color-mix(in srgb, var(--text-primary) 10%, transparent);
+    border-radius: 0.5rem;
+    background: var(--bg-secondary);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .works-hub-card:hover,
+  .works-hub-card:focus-visible {
+    border-color: var(--color-accent);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+
+  .works-hub-thumbs {
+    display: flex;
+    flex-shrink: 0;
+    gap: 0.4rem;
+  }
+
+  .works-hub-thumbs img {
+    height: 4rem;
+    width: auto;
+    max-width: 5rem;
+    object-fit: contain;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+  }
+
+  .works-hub-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .works-hub-title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--text-primary);
+  }
+
+  .works-hub-card:hover .works-hub-title {
+    color: var(--color-accent);
+  }
+
+  .works-hub-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+  }
+
+  /* Phones: one thumbnail is enough next to the text */
+  @media (max-width: 30rem) {
+    .works-hub-thumbs img:nth-child(n + 2) {
+      display: none;
+    }
+  }
+</style>

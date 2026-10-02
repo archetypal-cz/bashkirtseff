@@ -15,6 +15,8 @@
     "noEntryToday": "Pro tento den není záznam",
     "yearsOld": "let",
     "intro1": "Marie Bashkirtseff (1858–1884) byla ukrajinská šlechtična z Poltavy, která si od třinácti let až do své předčasné smrti na tuberkulózu vedla jeden z nejpozoruhodnějších deníků v historii.",
+    "introWorks": "Byla také nadanou malířkou — viz {link}.",
+    "introWorksLink": "její obrazy",
     "intro2": "Po sto let se její deník četl v silně cenzurované podobě. Kompletní verze vyšla teprve nedávno v malém nákladu a je téměř nemožné ji sehnat.",
     "intro3": "Tento projekt zpřístupňuje plné znění deníku s historickým výzkumem, jazykovými anotacemi a překlady do ukrajinštiny, češtiny, angličtiny a moderní francouzštiny.",
     "diaryVolumes": "Svazky deníku",
@@ -370,6 +372,24 @@
       "languages": "Jazyky",
       "social_customs": "Společenské zvyky",
       "_root": "Obecné"
+    },
+    "works": {
+      "title": "Díla Marie Bashkirtseff",
+      "count": {
+        "one": "{count} dílo",
+        "few": "{count} díla",
+        "many": "{count} díla",
+        "other": "{count} děl"
+      },
+      "undated": "Nedatováno",
+      "status": {
+        "public": "Veřejná sbírka",
+        "attributed": "Pravděpodobně",
+        "private": "Soukromá sbírka",
+        "contested": "Umístění sporné",
+        "unknown": "Nezvěstné"
+      },
+      "cardDesc": "Její obrazy, pastely a socha — co se dochovalo, kde to je a co se ztratilo."
     }
   },
   "diary": {

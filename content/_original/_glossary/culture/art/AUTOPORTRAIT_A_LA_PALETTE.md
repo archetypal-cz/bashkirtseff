@@ -11,6 +11,12 @@ aliases:
   - Autoportrét s paletou
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "c. 1880–1883"
+  medium: "oil on canvas"
+  status: public
+  location: "Musée des Beaux-Arts Jules Chéret, Nice"
 research_status: Moderate
 last_updated: 2026-08-13
 ---

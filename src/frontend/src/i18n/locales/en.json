@@ -15,6 +15,8 @@
     "noEntryToday": "No diary entry for this date",
     "yearsOld": "years old",
     "intro1": "Marie Bashkirtseff (1858–1884) was a Ukrainian noblewoman from Poltava who kept one of the most remarkable diaries in history from age thirteen until her premature death from tuberculosis.",
+    "introWorks": "She was also a gifted painter — see {link}.",
+    "introWorksLink": "her paintings",
     "intro2": "For a hundred years, her diary was read only in a heavily censored version. The complete edition was published recently in a small print run and is nearly impossible to obtain.",
     "intro3": "This project makes the full diary accessible with historical research, linguistic annotations, and translations into Ukrainian, Czech, English, and modern French.",
     "diaryVolumes": "Diary volumes",
@@ -366,6 +368,22 @@
       "languages": "Languages",
       "social_customs": "Social customs",
       "_root": "General"
+    },
+    "works": {
+      "title": "Marie Bashkirtseff's works",
+      "count": {
+        "one": "{count} work",
+        "other": "{count} works"
+      },
+      "undated": "Undated",
+      "status": {
+        "public": "Public collection",
+        "attributed": "Probably",
+        "private": "Private collection",
+        "contested": "Location disputed",
+        "unknown": "Whereabouts unknown"
+      },
+      "cardDesc": "Her paintings, pastels and sculpture — what survives, where it is, and what was lost."
     }
   },
   "diary": {

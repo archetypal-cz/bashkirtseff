@@ -8,6 +8,11 @@ aliases:
   - The Street
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1884"
+  medium: "oil on canvas"
+  status: unknown
 research_status: Comprehensive
 last_updated: 2026-08-13
 ---

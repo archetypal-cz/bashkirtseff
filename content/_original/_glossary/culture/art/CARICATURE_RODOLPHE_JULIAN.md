@@ -9,6 +9,11 @@ aliases:
   - Karikatura Rodolpha Juliana
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "c. 1878"
+  medium: "oil on panel"
+  status: private
 research_status: Moderate
 last_updated: 2026-08-13
 images:

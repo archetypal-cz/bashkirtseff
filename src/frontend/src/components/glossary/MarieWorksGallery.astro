@@ -1,0 +1,170 @@
+---
+/**
+ * Gallery of Marie's own works, on the MARIE_BASHKIRTSEFF_WORKS hub entry.
+ *
+ * Generated from every glossary entry flagged `marie_work: true` (see
+ * getMarieWorks / MarieWork in lib/content.ts) — never hand-maintained. Each
+ * card shows the entry's first `images:` picture (the 480px copy in
+ * `thumbs/` when one exists), title, year · medium, and where the work is.
+ */
+import { getMarieWorks } from '../../lib/content';
+import { thumbnailSrc } from '../../lib/thumbnail';
+import { glossaryUrl, type DiaryLanguageConfig } from '../../lib/diary-lang-config';
+import { createT } from '../../i18n/astro';
+
+interface Props {
+  lang: DiaryLanguageConfig;
+}
+
+const { lang } = Astro.props;
+const t = createT(lang.uiLocale);
+const works = getMarieWorks(lang.contentPath);
+
+const cards = works.map(entry => {
+  const work = entry.work!;
+  return {
+    id: entry.id,
+    name: entry.name,
+    href: glossaryUrl(lang, entry.id),
+    thumb: entry.images?.[0] ? thumbnailSrc(entry.images[0].src) : undefined,
+    meta: [work.year || t('glossary.works.undated'), work.medium].filter(Boolean).join(' · '),
+    // A public collection is stated by its name alone; every other status
+    // says what kind of claim the location line is.
+    status: work.status === 'public' ? undefined : t(`glossary.works.status.${work.status}`),
+    location: work.location,
+    unlocated: work.status === 'unknown' || work.status === 'contested',
+  };
+});
+---
+
+<section class="works-gallery" aria-label={t('glossary.works.title')}>
+  <p class="works-gallery-count">{t('glossary.works.count', { count: cards.length })}</p>
+  <ul class="works-gallery-grid" role="list">
+    {cards.map(card => (
+      <li>
+        <a href={card.href} class="works-card">
+          <div class="works-card-image">
+            {card.thumb ? (
+              <img src={card.thumb} alt="" loading="lazy" decoding="async" />
+            ) : (
+              <span class="works-card-placeholder" aria-hidden="true">{card.name.replace(/^[«"“„(]+/, '').charAt(0)}</span>
+            )}
+          </div>
+          <div class="works-card-body">
+            <span class="works-card-title">{card.name}</span>
+            {card.meta && <span class="works-card-meta">{card.meta}</span>}
+            {(card.status || card.location) && (
+              <span class:list={['works-card-where', card.unlocated && 'works-card-where--unlocated']}>{card.status && <span class="works-card-status">{card.status}</span>}{card.status && card.location ? `: ${card.location}` : card.location}</span>
+            )}
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>
+
+<style>
+  .works-gallery {
+    margin: 0.5rem 0 2.5rem;
+  }
+
+  .works-gallery-count {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+  }
+
+  .works-gallery-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr));
+    gap: 1.25rem;
+  }
+
+  /* The gallery sits inside .prose-diary, whose list styles must not apply. */
+  .works-gallery-grid > li {
+    margin: 0;
+  }
+
+  .works-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid color-mix(in srgb, var(--text-primary) 10%, transparent);
+    border-radius: 0.5rem;
+    background: var(--bg-secondary);
+    overflow: hidden;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .works-card:hover,
+  .works-card:focus-visible {
+    border-color: var(--color-accent);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Fixed-height frame, picture contained rather than cropped: these are
+     paintings, and a crop would misrepresent the composition. */
+  .works-card-image {
+    height: 9.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background: color-mix(in srgb, var(--text-primary) 5%, var(--bg-primary));
+  }
+
+  .works-card-image img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+  }
+
+  .works-card-placeholder {
+    font-family: var(--font-display);
+    font-size: 2.75rem;
+    color: color-mix(in srgb, var(--text-primary) 25%, transparent);
+  }
+
+  .works-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.65rem 0.75rem 0.8rem;
+  }
+
+  .works-card-title {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-style: italic;
+    line-height: 1.25;
+    color: var(--text-primary);
+    /* Titles are names: break between words, never inside them */
+    hyphens: manual;
+  }
+
+  .works-card:hover .works-card-title {
+    color: var(--color-accent);
+  }
+
+  .works-card-meta,
+  .works-card-where {
+    font-size: 0.8rem;
+    line-height: 1.35;
+    color: var(--text-muted);
+  }
+
+  .works-card-status {
+    font-weight: 600;
+  }
+
+  .works-card-where--unlocated .works-card-status {
+    color: var(--color-accent);
+  }
+</style>

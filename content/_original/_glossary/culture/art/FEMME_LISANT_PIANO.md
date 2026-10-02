@@ -8,6 +8,11 @@ aliases:
   - Woman Reading beside a Piano
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  medium: "drawing"
+  status: public
+  location: "Petit Palais, Paris"
 research_status: Basic
 last_updated: 2026-08-13
 images:

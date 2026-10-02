@@ -8,6 +8,12 @@ aliases:
   - Portrait of Madame X
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1884"
+  medium: "pastel and charcoal"
+  status: public
+  location: "Musée d'Orsay, Paris"
 research_status: Basic
 last_updated: 2026-08-13
 images:

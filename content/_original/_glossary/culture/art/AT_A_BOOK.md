@@ -16,6 +16,12 @@ images:
     alt: "A fair-haired young woman in black, seen close up against a dark ground, leaning on a bare table with an open book before her, one hand pressed to her forehead and her eyes lowered to the page."
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "c. 1882"
+  medium: "oil on canvas"
+  status: public
+  location: "Kharkiv Art Museum"
 research_status: Comprehensive
 last_updated: 2026-08-13
 ---

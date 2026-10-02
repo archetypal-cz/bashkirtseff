@@ -15,6 +15,12 @@ images:
     alt: "A city street under thick fog: a broad road descending between hazy pale buildings, iron railings and gas lamps, small dark figures on the pavement, horses and carts on waste ground, and a plume of white steam lit by a spot of orange fire."
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1882"
+  medium: "oil on canvas"
+  status: public
+  location: "Belvedere, Vienna"
 research_status: Moderate
 last_updated: 2026-08-13
 ---

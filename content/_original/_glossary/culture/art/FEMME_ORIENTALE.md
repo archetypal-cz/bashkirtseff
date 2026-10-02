@@ -8,6 +8,12 @@ aliases:
   - Eastern Woman
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1882"
+  medium: "oil on canvas"
+  status: public
+  location: "Musée des Beaux-Arts Jules Chéret, Nice"
 research_status: Basic
 last_updated: 2026-08-13
 images:

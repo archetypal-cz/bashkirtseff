@@ -8,6 +8,11 @@ aliases:
   - Grief
 type: Culture
 category: culture/art
+marie_work: true
+work:
+  year: "1882"
+  status: public
+  location: "Sumy Regional Art Museum"
 research_status: Moderate
 last_updated: 2026-08-13
 ---

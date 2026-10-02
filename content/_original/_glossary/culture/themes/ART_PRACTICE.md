@@ -106,6 +106,8 @@ By 1882 Marie had outgrown the student exercises. She maintained her connection 
 %% GLO_ART_PRACTICE.0026 %%
 ## Major Works
 
+For all of Marie's works that have their own glossary entry — with images, dates and where each is now, or that it was lost — see the gallery in *[Marie Bashkirtseff's works](../art/MARIE_BASHKIRTSEFF_WORKS.md)*. The descriptions below are the thematic overview.
+
 %% GLO_ART_PRACTICE.0027 %%
 ### *L'Academie Julian* (In the Studio, 1881)
 
@@ -327,6 +329,7 @@ Do not apply when Marie:
 %% GLO_ART_PRACTICE.0070 %%
 ## Related Entries
 
+- [#Marie_Bashkirtseff_Works](../art/MARIE_BASHKIRTSEFF_WORKS.md) -- gallery of her surviving and lost works
 - [#Academie_Julian](../../places/schools/JULIAN.md) -- the school
 - [#Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- her principal teacher
 - [#Louise_Breslau](../../people/mentioned/LOUISE_BRESLAU.md) -- her chief rival
