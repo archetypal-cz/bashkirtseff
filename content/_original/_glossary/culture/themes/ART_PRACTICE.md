@@ -119,27 +119,27 @@ Oil on canvas. Commissioned by Rodolphe Julian himself, this painting depicts th
 Oil on canvas. A plein-air study reflecting Marie's growing engagement with naturalist street scenes before the larger ambitions of *Le Meeting*.
 
 %% GLO_ART_PRACTICE.0029 %%
-### *Autoportrait a la palette* (Self-Portrait with Palette, 1883)
+### *Autoportrait a la palette* (Self-Portrait with Palette, c. 1880-1883)
 
-Oil on canvas. One of several self-portraits Marie produced, this one showing her at work, palette in hand -- asserting her identity as a professional artist.
+Oil on canvas; the date is disputed (Wikidata 1880, the museum label 1882-1883 -- see *[Autoportrait à la palette](../art/AUTOPORTRAIT_A_LA_PALETTE.md)*). One of several self-portraits Marie produced, this one showing her at work, palette in hand -- asserting her identity as a professional artist.
 
 %% GLO_ART_PRACTICE.0030 %%
-### *Portrait de Dina* (1883)
+### *Portrait de Dina* (pastel, 1882)
 
-Pastel portrait of her cousin [Dina](../../people/core/DINA.md), the constant companion of her diary years. Exhibited at the Salon of 1884 alongside *Le Meeting*.
+Pastel portrait of her cousin [Dina](../../people/core/DINA.md), the constant companion of her diary years, now in the Musée d'Orsay (RF 39091). Made in the spring of 1882 ("le pastel fait il y a près de deux ans", 103.0553), it was shown at the Salon of 1883 as *Portrait de Mlle de B.* (no. 106) and won her the *mention honorable* -- see *[Portrait de la comtesse Dina de Toulouse-Lautrec](../art/PORTRAIT_DINA_PASTEL.md)*.
 
 %% GLO_ART_PRACTICE.0031 %%
 ### *Un meeting* (The Meeting / A Meeting, 1884)
 
-Oil on canvas, 195 x 177 cm. [Musee d'Orsay](https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay), Paris. Marie's masterpiece. The painting depicts a group of working-class Parisian children -- street urchins (*gamins*) -- gathered on a sidewalk, treated with the monumental seriousness traditionally reserved for history painting. The work is deeply Naturalist in approach, with faces and hands rendered with the precise realism of [Bastien-Lepage](https://en.wikipedia.org/wiki/Jules_Bastien-Lepage), but the urban subject was Marie's own territory. She had declared her artistic manifesto months earlier: "Je ne voudrais pas toucher a la campagne, Bastien-Lepage y regne en souverain mais pour la rue il n'y a pas encore eu de... Bastien" -- "I would not touch the countryside, Bastien-Lepage reigns over it as a sovereign; but the streets have not yet had their... Bastien" (August 7, 1882).
+Oil on canvas, 193 x 177 cm (POP/Joconde, inv. RF 442). [Musee d'Orsay](https://en.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay), Paris. Marie's masterpiece. The painting depicts a group of working-class Parisian children -- street urchins (*gamins*) -- gathered on a sidewalk, treated with the monumental seriousness traditionally reserved for history painting. The work is deeply Naturalist in approach, with faces and hands rendered with the precise realism of [Bastien-Lepage](https://en.wikipedia.org/wiki/Jules_Bastien-Lepage), but the urban subject was Marie's own territory. She had declared her artistic manifesto months earlier: "Je ne voudrais pas toucher a la campagne, Bastien-Lepage y regne en souverain mais pour la rue il n'y a pas encore eu de... Bastien" -- "I would not touch the countryside, Bastien-Lepage reigns over it as a sovereign; but the streets have not yet had their... Bastien" (August 7, 1882).
 
 %% GLO_ART_PRACTICE.0032 %%
-Exhibited at the Salon of 1884, *Le Meeting* received an honorable mention and was acquired by the French state in 1885, the year after Marie's death. The painting was a critical success, praised for its powerful realism and scrupulous technique. Marie died five months after its exhibition.
+Exhibited at the Salon of 1884 (no. 116), *Un meeting* won no award -- the 1883 mention for the Dina pastel remained her only Salon distinction -- but it entered the French national collections within months of her death; whether the purchase belongs to the 1884 Salon or to the 1885 memorial exhibition is not settled (see *[Un meeting](../art/UN_MEETING.md)*). The painting was a critical success, praised for its powerful realism and scrupulous technique. Marie died five months after its exhibition.
 
 %% GLO_ART_PRACTICE.0033 %%
-### *Les Saintes Femmes* (The Holy Women, 1884)
+### *Les Saintes Femmes* (The Holy Women, project, 1880-1884)
 
-Marie's last major project -- a large-scale biblical composition (3.26m x 2.5m) depicting Mary Magdalene and the other Mary at the sepulchre. She worked on it through 1883-84 but left it unfinished at her death. It represented her most ambitious departure from Bastien-Lepage's influence: "Dans les Saintes femmes je n'imite personne et je crois a un grand effet car je veux mettre une grande sincerite dans l'execution materielle et puis toute l'emotion que j'eprouve a ce sujet" -- "In the Holy Women I imitate no one, and I believe in a great effect because I want to put great sincerity in the material execution and all the emotion I feel on this subject" (July 13, 1883). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) lent her an authentic Bethlehem robe for the costumes.
+Marie's most ambitious unrealised project -- a life-size history painting of the Marys at the empty tomb. It occupied her from May 1880 until the spring of 1884 but was never painted; the 1885 catalogue lists only a project and sketches (nos. 60 ff.). It was not her last picture: that was *[La Rue](../art/LA_RUE.md)*. See *[Les Saintes Femmes](../art/LES_SAINTES_FEMMES.md)*. It represented her most ambitious departure from Bastien-Lepage's influence: "Dans les Saintes femmes je n'imite personne et je crois a un grand effet car je veux mettre une grande sincerite dans l'execution materielle et puis toute l'emotion que j'eprouve a ce sujet" -- "In the Holy Women I imitate no one, and I believe in a great effect because I want to put great sincerity in the material execution and all the emotion I feel on this subject" (July 13, 1883). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) lent her an authentic Bethlehem robe for the costumes.
 
 %% GLO_ART_PRACTICE.0034 %%
 ### *Le Printemps* (Spring, c. 1884) and *Douleur de Nausicaa* (1884, bronze sculpture)
@@ -149,7 +149,7 @@ Marie's work extended beyond painting into sculpture. Carriès, a sculptor who v
 %% GLO_ART_PRACTICE.0035 %%
 ### Other Works
 
-Marie's oeuvre included numerous portraits (her Salon debut in 1880 was a portrait), academic studies, Spanish subjects painted during her visits to the Prado (where she copied [Velazquez](https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez)'s *Apollo in the Forge of Vulcan*), and figure studies. A comprehensive list can be found at [AWARE Women Artists](https://awarewomenartists.com/en/artiste/marie-bashkirtseff/) and [WikiArt](https://www.wikiart.org/en/marie-bashkirtseff/).
+Marie's oeuvre included numerous portraits (her Salon debut in 1880 was *[Jeune femme lisant « La Question du divorce »](../art/QUESTION_DU_DIVORCE.md)*), academic studies, Spanish subjects painted during her visits to the Prado (where she copied [Velazquez](https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez)'s *Apollo in the Forge of Vulcan*), and figure studies. A comprehensive list can be found at [AWARE Women Artists](https://awarewomenartists.com/en/artiste/marie-bashkirtseff/) and [WikiArt](https://www.wikiart.org/en/marie-bashkirtseff/).
 
 %% GLO_ART_PRACTICE.0036 %%
 ## Teachers and Mentors
@@ -220,11 +220,13 @@ Marie's Salon career was brief but significant:
 
 | Year | Submission | Result |
 |------|-----------|--------|
-| 1880 | Portrait (her Salon debut) | Accepted; hung in the *galerie du pourtour* (less prestigious position) |
-| 1881 | *L'Academie Julian* (In the Studio) | Accepted |
-| 1882 | Works exhibited | Accepted |
-| 1883 | Did not exhibit (the only gap) | -- |
-| 1884 | *Un meeting* + pastel portrait of Dina | Accepted; received *mention honorable* |
+| 1880 | *[Jeune femme lisant « La Question du divorce »](../art/QUESTION_DU_DIVORCE.md)* (her Salon debut), signed "Marie Constantin Russ" | Accepted 7 April 1880 (087.0801); no award |
+| 1881 | *[L'Atelier Julian](../art/L_ATELIER_JULIAN.md)*, signed "Andrey" | Accepted ("Salon de 1881", 1885 catalogue no. 23) |
+| 1882 | Nothing -- "très triste de n'avoir rien au Salon" (094.0280) | -- (the only gap) |
+| 1883 | *[Jean et Jacques](../art/JEAN_ET_JACQUES.md)*, *[La Parisienne](../art/LA_PARISIENNE.md)*, and the pastel of Dina as *Portrait de Mlle de B.* (no. 106) | *Mention honorable*, for the [pastel](../art/PORTRAIT_DINA_PASTEL.md) |
+| 1884 | *[Un meeting](../art/UN_MEETING.md)* (no. 116), sent alone (103.0472) | Accepted; no award |
+
+Sources for the table: the posthumous *Catalogue des œuvres de Mlle Bashkirtseff* (9 February 1885, [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)), the Musée d'Orsay records for the Dina pastel (RF 39091) and *Un meeting* ([POP/Joconde 000PE031739](https://pop.culture.gouv.fr/notice/joconde/000PE031739), Salon 1884 no. 116), and the diary passages cited; details in the linked work entries.
 
 %% GLO_ART_PRACTICE.0055 %%
 The 1883 mention was both triumph and frustration. Tony Robert-Fleury had fought for it, revealing backroom politics: "Tony reveals the jury's machinations and says I am in an exceptional situation and on top of that a foreigner, and that the mention provoked protests" (June 17, 1883). Marie raged at its inadequacy -- "cette miserable mention!" -- but Robert-Fleury counseled patience: "You are now *someone* and this will help get you a medal" (June 17, 1883). The award ceremony itself was bittersweet: "With a medal I would have been loudly applauded, being very pretty and in deep mourning" (June 22, 1883).
@@ -357,3 +359,4 @@ Do not apply when Marie:
 
 %% 2026-02-10T20:00:00 RSR: Created thematic tag. Art practice becomes the diary's dominant professional theme from 1877 onward. %%
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion from stub to full thematic reference. Added cultural/historical context (Paris Salon, Academic vs. Impressionist divide, Naturalism, women's barriers), detailed Academie Julian section, chronological artistic development with diary quotes, major works with descriptions (Le Meeting, In the Studio, Les Saintes Femmes, etc.), teachers and mentors (Robert-Fleury, Lefebvre, Bastien-Lepage with extensive diary evidence), competition/rivalry section (concours, Breslau), Marie's artistic philosophy with key quotes (naturalism manifesto, originality imperative, sincerity), Salon career table, art and illness section, substantially expanded artistic vocabulary (studio terms, work stages, competition/exhibition terms, artistic terms, personal nicknames), and detailed usage notes for tagging. All diary quotes sourced from original entries. Historical context sourced from Wikipedia (Academie Julian, Paris Salon, Bastien-Lepage, Academic art, Impressionism, Breslau, women in art), AWARE Women Artists, Clark Art Institute, Metropolitan Museum, Panorama de l'art. %%
+%% 2026-10-02T14:00:00 RSR: Salon career corrected against the culture/art entries and the 1885 catalogue: the mention honorable was 1883 (Dina pastel, Portrait de Mlle de B., no. 106), not 1884; the year without a Salon was 1882 (094.0280), not 1883; Un meeting went alone in 1884 (103.0472) and won no award; signatures 1880 "Marie Constantin Russ", 1881 "Andrey". Also fixed in Major Works: Dina pastel dated 1882 and shown 1883; Un meeting 193 x 177 cm per POP, no 1884 mention, acquisition date unsettled; Saintes Femmes an unrealised 1880-84 project, not her last picture (La Rue); Autoportrait c. 1880-1883 (disputed); unsourced "galerie du pourtour" claim for 1880 removed. %%
