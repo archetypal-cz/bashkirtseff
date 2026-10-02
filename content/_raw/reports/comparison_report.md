@@ -323,12 +323,12 @@ Substantial text not found in DOCX source:
 - **036.0031** (1875-07-09, 036) [fuzzy:0%]: `— J'ai dit que chacun était libre d'aller et venir comme il l'entendait.`
 - **036.0032** (1875-07-09, 036) [fuzzy:0%]: `Il répète ma phrase d'un air mécontent, en l'analysant et la commentant. Je vois qu'il est très fâché de cette réponse que je trouvais fort bien moi.`
 - **036.0034** (1875-07-09, 036) [fuzzy:0%]: `Le Niçois restera à dîner et toute la soirée.`
-- **038.0312** (1875-08-13, 038) [fuzzy:71%]: `{Air de Richard Coeur de Lion).`
+- **038.0313** (1875-08-13, 038) [fuzzy:71%]: `{Air de Richard Coeur de Lion).`
 - **038.0317** (1875-08-13, 038) [fuzzy:70%]: `(air de Richard Coeur de Lion)`
 - **039.0028** (1875-08-16, 039) [fuzzy:0%]: `A huit heures avec mes deux chers petits chevaux, je vais de nouveau a Schwalbach, comme j'aime cet endroit ! Machenka avec moi. Nous achevons sa robe et nous promenons.`
-- **039.0028** (1875-08-16, 039) [fuzzy:0%]: `Au retour avant diner, une promenade delicieuse avec maman dans ma voiture.`
-- **039.0028** (1875-08-16, 039) [fuzzy:0%]: `Le soir Stiopa et Walitsky vont voir Mme Batourine et y souppent, nous restons toutes trois et je lis Nos Intimes de Sardou a Dina.`
-- **039.0028** (1875-08-16, 039) [fuzzy:0%]: `Je vais rarement a la source, il y a par la toutes sortes d'Allemands dans des costumes peu seyants et avec des habitudes effroyables.`
+- **039.0029** (1875-08-16, 039) [fuzzy:0%]: `Au retour avant diner, une promenade delicieuse avec maman dans ma voiture.`
+- **039.0030** (1875-08-16, 039) [fuzzy:0%]: `Le soir Stiopa et Walitsky vont voir Mme Batourine et y souppent, nous restons toutes trois et je lis Nos Intimes de Sardou a Dina.`
+- **039.0031** (1875-08-16, 039) [fuzzy:0%]: `Je vais rarement a la source, il y a par la toutes sortes d'Allemands dans des costumes peu seyants et avec des habitudes effroyables.`
 - **039.0035** (1875-08-17, 039) [fuzzy:43%]: `Nous sommes a Schwalbach. Vraiment ce voyage de dix minutes me fait du bien, j'aime voir du monde, quelque mediocre qu'il soit, et dans ma jolie petite victoria et mes petits chevaux, je fais bonne figure.`
 - **039.0036** (1875-08-17, 039) [fuzzy:0%]: `Je regarde les gens qui se promenent. Mais je desire des cavaliers. Et ceux que je vois ne valent pas la peine.`
 - **039.0037** (1875-08-17, 039) [fuzzy:46%]: `Les Allemands, ils ne regardent que mes pieds et cela me deplait. Ils restent la bouche bee, leurs souliers enormes a cote des miens, leurs pieds de sauvages me regardent avec admiration.`
