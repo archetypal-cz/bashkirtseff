@@ -1837,7 +1837,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Larderei (comte Alessandro) | Лардерель | CANONICAL. Naples carnival object of obsession; SUPERSEDED: now DECLINED per owner lock row near top (was: indeclinable (no «Лардереєм»). Rosalie's mangled form «Ladreréel»→«Ладререль» kept as her error |
-| Bijou-bouzouk (Larderei nickname) | Біжу-бузук | Marie's mocking nickname for Larderei (Bijou=trinket + bachi-bouzouk); footnote-free, recurs from 068.1191 |
+| Bijou-bouzouk (Larderei nickname) | Біжу-бузук | Marie's mocking nickname for Larderei (Bijou=trinket + bachi-bouzouk); footnote-free, recurs from 068.1536 |
 | Mirafiore (comte/comtesse de) | Мірафіоре | Larderei's brother-in-law/sister; King's morganatic kin. Rosalie's «Mirafiol»→«Мірафіоль» kept as her error |
 | Antonelli (Pietro/Paolo) | Антонеллі (П'єтро/Паоло) | The broken-engagement scandal centre; Pietro=П'єтро (canonical per TM) |
 | Broussais | Бруссе | Crude Nice doctor-bore living with deaf Pelikan |
@@ -1877,7 +1877,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 | traite (de X francs) | вексель | Bill of exchange/promissory note |
 | guignon | зла доля / невезіння | Persistent jinx |
 | coup de pied au derrière | копняк під зад | Crude idiom for humiliation |
-| fini / achevé / complet vs inachevé | завершений / довершений / повний vs незавершений | Marie's character taxonomy (068.0884); independent of intelligence |
+| fini / achevé / complet vs inachevé | завершений / довершений / повний vs незавершений | Marie's character taxonomy (068.1229); independent of intelligence |
 | comme le naufragé s'accroche à un brin de paille | як потопельник хапається за соломинку | Idiom of desperate attachment |
 | faire de trou dans l'eau | бити повітря | Idiom: to strive in vain |
 | vieux style | старого стилю | Julian calendar; footnote |
@@ -1886,7 +1886,7 @@ Marie, 18, swings between Nice social ostracism (Antonelli-engagement gossip aft
 ### Conventions (Carnet 068)
 - "II" / "I!" — Marie's double-bar emphasis punctuation: preserved as-is.
 - "fichu-" prefix («fichu-père», «fichu-coquin») → «осоружний-/клятий-» (per TM 065 «клятий-»).
-- French acrostic on "ÉMILE" (068.0261-0157) + Girofla Serbia song (068.0268-0163): acrostic kept in French ==highlight==+footnote with Ukrainian gloss (first-letters untranslatable); the comic song rendered as Ukrainian verse (it is Marie's own French joke, not a code-switch).
+- French acrostic on "ÉMILE" (068.0396-0157) + Girofla Serbia song (068.0403-0163): acrostic kept in French ==highlight==+footnote with Ukrainian gloss (first-letters untranslatable); the comic song rendered as Ukrainian verse (it is Marie's own French joke, not a code-switch).
 - Italian code-switches (Pietro reproaches, train-station, fake telegram) and Latin («Culpa mea», «Dubium…») → ==highlight==+footnote.
 - Altamura's mangled French (eou/«еу», «Poua vous serouiar») → phonetic Ukrainian preserving the buffoonery.
 - "dialogue petit-russien" → «малоросійський діалог» (Marie marks family switching to Ukrainian).
@@ -1936,7 +1936,7 @@ Continuation of the father-reunion stay at Gavronci, Poltava social rounds, the 
 
 ## Carnet 067 Additions (Russia → Vienna → Paris → Nice, Oct–Dec 1876)
 
-The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris (Antonelli's death refrain, Pacha farewell, Novosselsky), the Paris political/society interlude (Cassagnac infatuation, the La Motte marriage interview, Alexis the clairvoyant), and arrival in Nice (Skating-rink debut, Maman vs Mme Tutcheff at Monaco). Closes Book with the "І цей хтось — це Я Сама!" self-reliance climax (067.1306).
+The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris (Antonelli's death refrain, Pacha farewell, Novosselsky), the Paris political/society interlude (Cassagnac infatuation, the La Motte marriage interview, Alexis the clairvoyant), and arrival in Nice (Skating-rink debut, Maman vs Mme Tutcheff at Monaco). Closes Book with the "І цей хтось — це Я Сама!" self-reliance climax (067.1553).
 
 ### People & Names (Carnet 067)
 | French | Ukrainian | Notes |
@@ -1961,11 +1961,11 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 ### Period Vocabulary & Idioms (Carnet 067)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch; ==highlight==+footnote on first use (067.1234); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
+| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch; ==highlight==+footnote on first use (067.1481); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
 | fichus-ignorants (Marie's coinage) | кляті-невігласи | per «fichu-»→«клятий-» convention (065/066) |
 | le Goloss (Russian newspaper) | «Голос» | St. Petersburg liberal paper; Russ. голос = voice |
 | Golova / Douma (Russian) | голова / дума | mayor / city-hall; Marie's linguistic aside, gloss kept |
-| dialogue petit-russien | малоросійський діалог | period term for Ukrainian; footnote (per 066/068). The "pelisse/кожух" folk dialogue (067.1116) rendered idiomatically |
+| dialogue petit-russien | малоросійський діалог | period term for Ukrainian; footnote (per 066/068). The "pelisse/кожух" folk dialogue (067.1130) rendered idiomatically |
 | trente-six paquets (idiom) | сила-силенна пакунків | "thirty-six packages" = idiomatic "very many", NOT literal |
 | coq du village | перший півень на селі | "cock of the village" (Audiffret's local dominance) |
 | Un d'Artagnan de lettres | Д'Артаньян від словесності | parliamentary-manual profile of Cassagnac |
@@ -1975,7 +1975,7 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 ### Titles / Works (Carnet 067)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Paul et Virginie (Massé opera / Saint-Pierre novel) | «Поль і Вірджинія» | LOCKED to TM 021 form «Вірджинія» (з дж); RED normalized «Віргінію»→«Вірджинію» 3× this carnet (067.1072/0187/0201). "des airs de Virginie" = acting demure like the heroine |
+| Paul et Virginie (Massé opera / Saint-Pierre novel) | «Поль і Вірджинія» | LOCKED to TM 021 form «Вірджинія» (з дж); RED normalized «Віргінію»→«Вірджинію» 3× this carnet (067.1086/0187/0201). "des airs de Virginie" = acting demure like the heroine |
 | Giroflé-Girofla (Lecocq) | «Жирофле-Жирофла» | opéra-bouffe; "Girofla"→«Жирофля» also Marie's nickname for Audiffret |
 | Un ballo in maschera (Verdi) | «Бал-маскарад» | Verdi opera; rendered as translated title |
 | La Jeunesse du roi Henri (Ponson du Terrail) | «Молодість короля Анрі» | Ponson du Terrail = «Понсон дю Тераль»; Antonelli's seduction-manual |
@@ -1983,9 +1983,9 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 
 ### Code-Switches / Manuscript (Carnet 067)
 - Latin/Italian tags (Via e al diavolo, Chi lo sa?, Est socia mortis homini vita ingloria, Tu quoque?, Agnus Dei) → ==highlight==+footnote (per wave standard).
-- Marie's own FRENCH verses (the "veux savoir l'amour" quatrain 067.1092, the "Partant pour la Serbie" parody 067.1123, the Offenbach Belle-Hélène refrain) → rendered as Ukrainian VERSE (her own jokes, not foreign code-switches).
+- Marie's own FRENCH verses (the "veux savoir l'amour" quatrain 067.1106, the "Partant pour la Serbie" parody 067.1205, the Offenbach Belle-Hélène refrain) → rendered as Ukrainian VERSE (her own jokes, not foreign code-switches).
 - Markers [зачорнені слова:] (Mots noircis), [викреслено:]/[Викреслені слова], [На полях:], [Навскоси:] all preserved.
-- Marie's own misdated double headings on merged entries (e.g. 067.1126 «# Неділя»/«## Субота», 067.1135 «# Понеділок»/«## Неділя») — source-faithful, preserve both.
+- Marie's own misdated double headings on merged entries (e.g. 067.1221 «# Неділя»/«## Субота», 067.1259 «# Понеділок»/«## Неділя») — source-faithful, preserve both.
 - Empty/heading-only entries (10-14 → 11-08 span; heading-less: 10-18-19, 10-21-22, 10-25-26, 10-27-29, 11-02-03) match source emptiness.
 
 - 2026-06-07: Carnet 067 complete (Russia→Vienna→Paris→Nice, Oct–Dec 1876). 17 content + 20 empty entries. (tr-d run)
