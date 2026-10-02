@@ -26,7 +26,7 @@ last_updated: 2026-09-07
 - **May 1882** (095.0036): at the Salon, "le portrait de jeune fille par Sargent" haunts her. She calls it ravishing, an exquisite work one would gladly hang in a museum beside the van Dycks and Velázquez.
 
 %% GLO_JOHN_SINGER_SARGENT.0005 %%
-- **May 1883** (099.0307): reviewing the Salon painter by painter, she dismisses him in two words: "Sargent est médiocre."
+- **May 1883** (099.0308): reviewing the Salon painter by painter, she dismisses him in two words: "Sargent est médiocre."
 
 %% GLO_JOHN_SINGER_SARGENT.0006 %%
 %% [#Portrait_de_Mme_X](../../culture/art/PORTRAIT_MME_X.md) %%

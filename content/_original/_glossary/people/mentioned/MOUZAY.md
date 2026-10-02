@@ -86,7 +86,7 @@ Marie's language about Mouzay oscillates between genuine warmth and aristocratic
 
 ## The "Moussa/Moussah" Connection
 
-Marie reveals (100.0302, 1883-08-05) that Cassagnac (or his wife) used a feminized version of Marie's pet name in his newspaper fiction: "dans presque tous ces feuilletons du 'Pays' il y a une femme qui s'appelle *Moussah* nom insipide dont on m'ennuyait a la maison et dont se servait la mere Mouzay." This confirms that Mouzay's use of "Moussa/Moussia" for Marie was widely known in their circle, and that Cassagnac appropriated it for fictional heroines who were transparently based on "une jeune etrangere" -- Marie herself.
+Marie reveals (100.0433, 1883-08-05) that Cassagnac (or his wife) used a feminized version of Marie's pet name in his newspaper fiction: "dans presque tous ces feuilletons du 'Pays' il y a une femme qui s'appelle *Moussah* nom insipide dont on m'ennuyait a la maison et dont se servait la mere Mouzay." This confirms that Mouzay's use of "Moussa/Moussia" for Marie was widely known in their circle, and that Cassagnac appropriated it for fictional heroines who were transparently based on "une jeune etrangere" -- Marie herself.
 
 ## Mouzay's Daughter
 
@@ -240,7 +240,7 @@ The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans
 - **January 28, 1882** (094.0145): Nostalgic memory of first Cassagnac sighting at Mouzay's salon
 - **December 1, 1882** (097): Marie fears Julian gossiping about her deafness "avec la Mouzay et les autres"
 - **March 14, 1883** (098): Marie Presseq appears; "c'est la Mouzay qui avait revele l'existence de cette Pompadour"
-- **August 5, 1883** (100.0302): Cassagnac's "Moussah" feuilleton character traced to "la mere Mouzay"
+- **August 5, 1883** (100.0433): Cassagnac's "Moussah" feuilleton character traced to "la mere Mouzay"
 - **May 18, 1884** (104): Final reference; Marie recalls how she received Mouzay's medical warnings
 
 ## Context
@@ -260,5 +260,5 @@ The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans
 - First initial "F." confirmed from signed letter (082.0510)
 - Historical identification of the specific Mouzay family remains uncertain; the title "comtesse" may derive from marriage rather than birth, given her domestic service background
 - The address 29 Boulevard Haussmann in summer 1876 was temporary lodging with Baronne de Mertens; the 420 rue Saint-Honore address appears more permanent
-- The "Moussah" connection (100.0302) suggests Cassagnac knew Marie's pet name via Mouzay's circle, and used it in published fiction -- a remarkable breach of social discretion
+- The "Moussah" connection (100.0433) suggests Cassagnac knew Marie's pet name via Mouzay's circle, and used it in published fiction -- a remarkable breach of social discretion
 - Mouzay is tagged under three duplicate glossary entries (MOUZAY, MME_DE_MOUZAY, DE_MOUZAY, MADAME_DE_MOUZAY) that should be consolidated into this single entry

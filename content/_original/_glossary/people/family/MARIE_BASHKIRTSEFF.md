@@ -74,7 +74,7 @@ Her Salon career, year by year:
 - **1880**: *[Jeune femme lisant « La Question du divorce »](../../culture/art/QUESTION_DU_DIVORCE.md)*, with her cousin Dina as the sitter. Her debut, signed "Mademoiselle Marie Constantin Russ", no. 9091 (087.0716)
 - **1881**: *[L'Atelier Julian](../../culture/art/L_ATELIER_JULIAN.md)*. Signed "Andrey" (091.0331)
 - **1882**: nothing. Ill in Nice: "très triste de n'avoir rien au Salon" (094.0270)
-- **1883**: *[Jean et Jacques](../../culture/art/JEAN_ET_JACQUES.md)*, *[La Parisienne](../../culture/art/LA_PARISIENNE.md)* and the [pastel portrait of Dina](../../culture/art/PORTRAIT_DINA_PASTEL.md). *Mention honorable*, awarded to the pastel. She learned of it on 24 May 1883 (099.0396)
+- **1883**: *[Jean et Jacques](../../culture/art/JEAN_ET_JACQUES.md)*, *[La Parisienne](../../culture/art/LA_PARISIENNE.md)* and the [pastel portrait of Dina](../../culture/art/PORTRAIT_DINA_PASTEL.md). *Mention honorable*, awarded to the pastel. She learned of it on 24 May 1883 (099.0546)
 - **1884**: *[Un meeting](../../culture/art/UN_MEETING.md)*. Her only submission (103.0511). A popular and press success, but no medal. Now in the Musée d'Orsay (RF 442)
 
 %% GLO_MARIE_BASHKIRTSEFF.0018 %%
@@ -122,7 +122,7 @@ The 1887 *Journal* made her famous across Europe and America as a writer. Kather
 - **1880**: Salon debut as "Marie Constantin Russ" (087.0716)
 - **1881**: Salon as "Andrey"; writes for *La Citoyenne* (091.0331, 091.0631)
 - **28 Dec 1882**: Told she has tuberculosis (097.0297)
-- **24 May 1883**: *Mention honorable* at the Salon (099.0396)
+- **24 May 1883**: *Mention honorable* at the Salon (099.0546)
 - **1 May 1884**: Writes the preface to the diary (carnet 000)
 - **Spring 1884**: Anonymous correspondence with Maupassant; *Un meeting* at the Salon (104.0033; 103.0511)
 - **20 Oct 1884**: Last diary entry (106.0190)

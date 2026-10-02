@@ -54,7 +54,7 @@ Irma was sitting for her from **December 1881**, and the head was finished on **
 
 %% GLO_LA_PARISIENNE.0009 %%
 %% [#Salon](./SALON.md) %%
-Marie sent it to the Salon of 1883 as a second *envoi* that nobody knew about, and on jury day her terror was that the little head would be admitted and the big picture refused: "Non mais la tête d'irma." (098.0573–0573). Both were taken -- "il ne pouvait y avoir de doute pour Irma" (098.0605) -- and Irma got the better hanging: "La tète d'irma est sur la cimaise et dans un angle, par conséquent place d'honneur" (099.0177), while *Jean et Jacques* went above the line. Her own Salon verdict on it was cool and accurate: "la tête d'irma est agréable et d'une peinture assez franche. Mais c'est une chose sans prétention" (099.0313). A year later, arguing with herself about the reception of *[Un meeting](./UN_MEETING.md)*, she used it as the measure of how far she had come: "j'y étais l'année dernière avec une étude d'irma ? Un tableau entier, six personnages et dont chacun vaut trois fois la tête d'irma ?" (103.0657).
+Marie sent it to the Salon of 1883 as a second *envoi* that nobody knew about, and on jury day her terror was that the little head would be admitted and the big picture refused: "Non mais la tête d'irma." (098.0573–0573). Both were taken -- "il ne pouvait y avoir de doute pour Irma" (098.0605) -- and Irma got the better hanging: "La tète d'irma est sur la cimaise et dans un angle, par conséquent place d'honneur" (099.0177), while *Jean et Jacques* went above the line. Her own Salon verdict on it was cool and accurate: "la tête d'irma est agréable et d'une peinture assez franche. Mais c'est une chose sans prétention" (099.0314). A year later, arguing with herself about the reception of *[Un meeting](./UN_MEETING.md)*, she used it as the measure of how far she had come: "j'y étais l'année dernière avec une étude d'irma ? Un tableau entier, six personnages et dont chacun vaut trois fois la tête d'irma ?" (103.0657).
 
 %% GLO_LA_PARISIENNE.0010 %%
 **A note on the title.** Marie never calls this picture *La Parisienne* in the diary. From the studio to the Salon it is "la tête d'Irma", occasionally "une étude d'irma"; the generalising title belongs to the Salon *livret* and to the 1885 catalogue (no. 64, *Parisienne*, 0,54 × 0,45 m, with a separate study listed at no. 66 as *Irma*). Readers looking for the painting in the diary should look for the sitter's name.
@@ -72,8 +72,8 @@ Marie sent it to the Salon of 1883 as a second *envoi* that nobody knew about, a
 - 1883-03-25 (098.0573–0573) -- jury day; the secret second *envoi* and her fear that only Irma would be taken
 - 1883-03-27 (098.0590, 098.0605) -- "il ne pouvait y avoir de doute pour Irma"
 - 1883-04-22 (099.0177) -- hung on the *cimaise*, in a corner: the place of honour
-- 1883-05-01 (099.0313) -- her own verdict: agreeable, frankly painted, unpretentious
-- 1883-05-04 (099.0342) -- shown to the critic Fourcaud
+- 1883-05-01 (099.0314) -- her own verdict: agreeable, frankly painted, unpretentious
+- 1883-05-04 (099.0360) -- shown to the critic Fourcaud
 - 1884-03-30 (103.0657) -- used as the yardstick for *Un meeting*
 
 %% GLO_LA_PARISIENNE.0013 %%

@@ -62,7 +62,7 @@ By December 1882 the pastel had become her hope for the coming season: "Mon past
 
 %% GLO_PORTRAIT_DINA_PASTEL.0011 %%
 %% [#Emotions](../themes/EMOTIONS.md) %%
-At the Salon it did better than anything else she sent. Only two pastels were received with a number 1 — "Le mien et celui de Breslau" (¶ 099.0175) — and Cabanel and Franceschi were talking of a medal "pour le pastel". Marie's reply is the whole of her ambition in one line: "J'aimerais mieux une petite mention mais pour la peinture…" (¶ 099.0037). On 23 May 1883 she ran through the Salon looking for the award label on her *Irma*, did not find it, and found it instead "jusqu'à l'odieux pastel" (¶ 099.0396). The distinction she wanted for her painting had gone to the pastel, and she never quite forgave it: a year later she is still asking "pourquoi n'ai-je pas encore donné en peinture l'équivalent du pastel fait il y a près de deux ans !" (¶ 103.0599).
+At the Salon it did better than anything else she sent. Only two pastels were received with a number 1 — "Le mien et celui de Breslau" (¶ 099.0175) — and Cabanel and Franceschi were talking of a medal "pour le pastel". Marie's reply is the whole of her ambition in one line: "J'aimerais mieux une petite mention mais pour la peinture…" (¶ 099.0037). On 23 May 1883 she ran through the Salon looking for the award label on her *Irma*, did not find it, and found it instead "jusqu'à l'odieux pastel" (¶ 099.0546). The distinction she wanted for her painting had gone to the pastel, and she never quite forgave it: a year later she is still asking "pourquoi n'ai-je pas encore donné en peinture l'équivalent du pastel fait il y a près de deux ans !" (¶ 103.0599).
 
 %% GLO_PORTRAIT_DINA_PASTEL.0012 %%
 **A second, later Dina portrait exists and should not be confused with this one.** In November 1883 Marie began another pastel of her cousin — "une harmonie blanche, c'est superbe" (¶ 102.0341) — planned for a winter exhibition (¶ 101.0558), sent to the Femmes Peintres in March 1884 (¶ 103.0433), and which the collector Hayem tried to buy in May 1884; she refused (¶ 104.0173).
@@ -79,7 +79,7 @@ At the Salon it did better than anything else she sent. Only two pastels were re
 - 1883-02-19, ¶¶ 098.0356–098.0363 — the rupture with Julian over the Cercle that never happened
 - 1883-03-25, ¶¶ 098.0572, 098.0574 — waiting on the jury
 - 1883-04-04, ¶ 099.0037 · 1883-04-22, ¶ 099.0175 — talk of a medal; received with a number 1
-- **1883-05-23, ¶ 099.0396** — she finds the award label on the pastel instead of on her painting
+- **1883-05-23, ¶ 099.0546** — she finds the award label on the pastel instead of on her painting
 - 1884-03-26, ¶ 103.0599 — still measuring her painting against it two years on
 - The later "harmonie blanche" Dina pastel (a distinct work): 1883-10-09, ¶ 101.0558 · 1883-11-28, ¶ 102.0341 · 1884-03-01, ¶ 103.0433 · 1884-03-05, ¶¶ 103.0450, 103.0458 · 1884-05-14, ¶ 104.0173
 

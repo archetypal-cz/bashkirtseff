@@ -61,7 +61,7 @@ Carnets 095–096 — the summer and autumn of 1882 — are effectively the pict
 Then on **22 September 1882** Tony and Julian, together, decide that painting it in the open air is beyond her present powers and that she should go back to simple studio studies. «Je n'ai seulement pas osé en parler, c'est comme si l'air devenait du plomb» — she did not even dare speak of it, and the air turned to lead (096.0275). «Mes yeux viennent de tomber sur la toile du tableau… Je suis sans force, tout est fini» (096.0285). Six days later she tells Tony she gives it up and he approves — and in the same entry turns around: «Enfin je vais essayer de le faire ce tableau et si c'est raté j'aime mieux rater cela qu'autre chose» (096.0304–0289, 096.0316). By 1 October she believes again that she will make it (096.0323).
 
 %% GLO_LES_SAINTES_FEMMES.0013 %%
-She kept believing for another eighteen months. On **28 December 1882**, in the entry in which she is told she is consumptive, the picture is what she has left: «L'hiver prochain j'aurai pour expliquer ce voyage le tableau des Saintes femmes» (097.0301). In February 1883, in a moonlit studio, she is so excited by how it is shaping that she is terrified someone will do it first (098.0385). In May 1883 she finally *ébauche* it, at full size and without a model, the way she believed Bastien-Lepage worked (099.0348, 099.0362). In October 1883 she catches the exact evening sky she needs — a red sky with a crescent moon — and makes an instant *pochade*, concluding that the picture can only be done «de chic», from invention, since no sky will pose (101.0551–0538).
+She kept believing for another eighteen months. On **28 December 1882**, in the entry in which she is told she is consumptive, the picture is what she has left: «L'hiver prochain j'aurai pour expliquer ce voyage le tableau des Saintes femmes» (097.0301). In February 1883, in a moonlit studio, she is so excited by how it is shaping that she is terrified someone will do it first (098.0385). In May 1883 she finally *ébauche* it, at full size and without a model, the way she believed Bastien-Lepage worked (099.0366, 099.0419). In October 1883 she catches the exact evening sky she needs — a red sky with a crescent moon — and makes an instant *pochade*, concluding that the picture can only be done «de chic», from invention, since no sky will pose (101.0551–0538).
 
 %% GLO_LES_SAINTES_FEMMES.0014 %%
 %% [#Bastien-Lepage](../../people/recurring/BASTIEN_LEPAGE.md) %%
@@ -105,7 +105,7 @@ The last eighteen months:
 - 1883-02-22 (098.0385) — the fear that someone else will do it first
 - 1883-03-22 (098.0551) — «Les Saintes femmes en peinture… et en sculpture ma grande préoccupation c'est Ariadne»
 - 1883-03-30 (098.0622, 098.0625) — Palestine as an argument about her own freedom of movement
-- 1883-05-06 (099.0348), 1883-05-10 (099.0362) — the full-size *ébauche*
+- 1883-05-06 (099.0366), 1883-05-10 (099.0419) — the full-size *ébauche*
 - 1883-08-27 evening (101.0270) — the wager: this, the statue and the *gamins* at one Salon
 - 1883-10-02 (101.0488) — southern studies, but a fog picture first
 - **1883-10-09 (101.0551, 101.0553, 101.0554)** — the red sky with the crescent; the *pochade*
