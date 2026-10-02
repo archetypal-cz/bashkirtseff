@@ -15,6 +15,12 @@ work:
   location: "Musée du château, Nérac (deposit of the CNAP, FNAC 864)"
 research_status: Basic
 last_updated: 2026-10-02
+images:
+  - src: /images/marie/works/georgette.jpg
+    caption: "Georgette, 1881, oil on canvas, 56 × 47 cm, Musée du château, Nérac (CNAP FNAC 864). Low-resolution copy"
+    credit: "Musée du château, Nérac / CNAP — public domain (PD-Art), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Marie-Bashkirtseff-Art-Painting-Georgette-1881.jpg)"
+    link: https://pop.culture.gouv.fr/notice/joconde/00890000088
+    alt: "A young woman in a straw bonnet heaped with pink roses, tied under the chin with a white bow, in a pale blue jacket"
 ---
 
 %% GLO_GEORGETTE.0001 %%
@@ -62,4 +68,4 @@ The name *Georgette* does not occur in the diary text of `_original`.
 - *Catalogue des œuvres de Mlle Bashkirtseff*, Paris: Ludovic Baschet, 9 February 1885, p. 20, no. 14 — [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 
 %% GLO_GEORGETTE.0014 %%
-%% 2026-10-02T15:50:00 RSR: Created in the works-catalogue pass from the POP notice (fetched 2026-10-02): description, labels, provenance field, inventories and exhibition list are quoted or paraphrased from it. The third exhibition's venue and dates are cut off in the notice. The 1885 plate *Georgette* was matched by viewing it beside the Commons image. No image is used: the only public-domain copy (Commons, 460 px) is below the site's threshold, and the POP photograph (1071 × 1200) is not open-licensed. Request candidate: Nérac museum / CNAP. %%
+%% 2026-10-02T15:50:00 RSR: Created in the works-catalogue pass from the POP notice (fetched 2026-10-02): description, labels, provenance field, inventories and exhibition list are quoted or paraphrased from it. The third exhibition's venue and dates are cut off in the notice. The 1885 plate *Georgette* was matched by viewing it beside the Commons image. Image: the public-domain Commons copy (460 px) is used at its own size, per the owner's decision of 2026-10-02; the POP photograph (1071 × 1200) is not open-licensed. Request candidate: Nérac museum / CNAP. %%

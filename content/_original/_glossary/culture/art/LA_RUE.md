@@ -15,6 +15,12 @@ work:
   status: unknown
 research_status: Comprehensive
 last_updated: 2026-08-13
+images:
+  - src: /images/marie/works/la-rue-1885-plate.jpg
+    caption: "La Rue (unfinished): the 1885 catalogue reproduction, not the work itself (Catalogue des œuvres de Mlle Bashkirtseff, Paris, 1885, plate)"
+    credit: "Source gallica.bnf.fr / BnF"
+    link: https://gallica.bnf.fr/ark:/12148/bpt6k131932r
+    alt: "Reproduction of an unfinished canvas: figures sitting on a public bench on a boulevard, buildings behind, much of the canvas only sketched"
 ---
 
 %% GLO_LA_RUE.0001 %%

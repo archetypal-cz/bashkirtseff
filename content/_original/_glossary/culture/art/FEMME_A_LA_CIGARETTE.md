@@ -16,6 +16,12 @@ work:
   location: "Musée d'Orsay, Paris (RF 39089)"
 research_status: Basic
 last_updated: 2026-10-02
+images:
+  - src: /images/marie/works/la-cigarette-1885-plate.jpg
+    caption: "La Cigarette: the 1885 catalogue reproduction, not the work itself (Catalogue des œuvres de Mlle Bashkirtseff, Paris, 1885, plate). The drawing is Musée d'Orsay RF 39089"
+    credit: "Source gallica.bnf.fr / BnF"
+    link: https://gallica.bnf.fr/ark:/12148/bpt6k131932r
+    alt: "Engraved plate of a woman in a dark dress and hat seated in a studio, a cigarette held low in her right hand"
 ---
 
 %% GLO_FEMME_A_LA_CIGARETTE.0001 %%

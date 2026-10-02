@@ -19,6 +19,12 @@ work:
   location: "Musée d'Orsay, Paris"
 research_status: Comprehensive
 last_updated: 2026-08-13
+images:
+  - src: /images/marie/works/douleur-de-nausicaa-1885-plate.jpg
+    caption: "Nausicaa: the 1885 catalogue reproduction, not the work itself (Catalogue des œuvres de Mlle Bashkirtseff, Paris, 1885, plate). The bronze is Musée d'Orsay RF 3159"
+    credit: "Source gallica.bnf.fr / BnF"
+    link: https://gallica.bnf.fr/ark:/12148/bpt6k131932r
+    alt: "Engraving of a standing nude girl weeping into her hands, on a round base"
 ---
 
 %% GLO_DOULEUR_DE_NAUSICAA.0001 %%

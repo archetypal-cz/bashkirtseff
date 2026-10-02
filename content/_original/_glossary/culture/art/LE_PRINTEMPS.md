@@ -17,6 +17,12 @@ work:
   location: "State Russian Museum, St Petersburg"
 research_status: Moderate
 last_updated: 2026-08-13
+images:
+  - src: /images/marie/works/printemps.jpg
+    caption: "Le Printemps (Avril), 1884, oil on canvas, 2,15 × 2,00 m, attributed to the State Russian Museum, St Petersburg. Low-resolution copy"
+    credit: "Public domain (PD-Art), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Marie_Bashkirtseff_2.jpg)"
+    link: http://artrussia.ru/picture_rarity/47
+    alt: "A young woman sitting on the grass under blossoming fruit trees, her head on her hand, beside a path"
 ---
 
 %% GLO_LE_PRINTEMPS.0001 %%
@@ -30,7 +36,7 @@ last_updated: 2026-08-13
 **Its present location is probable, not established.** It is attributed to the **State Russian Museum** in St Petersburg by [AWARE](https://awarewomenartists.com/en/artiste/marie-bashkirtseff/), which is published in partnership with the Musée d'Orsay -- but the museum does not publish the work in its online catalogue (it publishes only one Bashkirtseff painting of the eight it states it holds), and goskatalog.ru is not reachable from outside Russia. The identification with **no. 34, *Avril*, 2,15 × 2,00 m** in the 1885 posthumous catalogue is a very close dimensional match and is almost certainly right, but it too is an inference rather than a documented equivalence.
 
 %% GLO_LE_PRINTEMPS.0004 %%
-No adequate reproduction of this picture is freely available. The only file on Wikimedia Commons measures 373 × 400 pixels -- unusable for a canvas over two metres tall -- and no image is included in this entry for that reason. It is one of the most conspicuous illustration gaps in Marie's surviving work.
+No adequate reproduction of this picture is freely available. The only file on Wikimedia Commons measures 373 × 400 pixels -- far too small for a canvas over two metres tall; it is shown above at that size until a better image can be had. It is one of the most conspicuous illustration gaps in Marie's surviving work.
 
 %% GLO_LE_PRINTEMPS.0005 %%
 ## Description

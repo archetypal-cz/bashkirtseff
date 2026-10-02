@@ -20,6 +20,12 @@ work:
   location: "Musée d'Orsay, Paris"
 research_status: Moderate
 last_updated: 2026-08-13
+images:
+  - src: /images/marie/works/portrait-dina-pastel.jpg
+    caption: "Portrait de la comtesse Dina de Toulouse-Lautrec (Salon 1883), pastel, 61 × 50 cm, Musée d'Orsay, Paris (RF 39091). Low-resolution copy"
+    credit: "Musée d'Orsay, Paris — public domain (PD-Art), via Wikimedia Commons"
+    link: https://www.musee-orsay.fr/en/artworks/portrait-de-la-comtesse-dina-de-toulouse-lautrec-18238
+    alt: "Pastel portrait of a fair-haired young woman, frontal, in a low-cut white ruffled bodice"
 ---
 
 %% GLO_PORTRAIT_DINA_PASTEL.0001 %%
@@ -42,7 +48,7 @@ It was shown at the **Salon of 1883 as no. 106, under the title *Portrait de Mll
 Pastel on paper, 61 × 50 cm. Marie leaves no set-piece description of it in the diary comparable to the one she wrote for her Salon debut — what the diary records instead is the reaction of everyone who saw it. The picture entered the French national collections by way of the Jeu de Paume in 1930, passed to the Musée National d'Art Moderne, then to the Louvre in 1977, and finally to the Musée d'Orsay in 1986.
 
 %% GLO_PORTRAIT_DINA_PASTEL.0007 %%
-**Image gap.** The only reproduction on Wikimedia Commons is **497 × 600 px**, too small to publish here at a size that would do the work justice. This entry therefore carries no illustration. The Musée d'Orsay's own [object page](http://www.musee-orsay.fr/en/artworks/portrait-de-la-comtesse-dina-de-toulouse-lautrec-18238) is the best place to see it.
+**Image gap.** The only reproduction on Wikimedia Commons is **497 × 600 px**, too small to do the work justice, but it is shown above, at its own size, until a better file can be had (owner decision, 2 October 2026). The Musée d'Orsay's own [object page](http://www.musee-orsay.fr/en/artworks/portrait-de-la-comtesse-dina-de-toulouse-lautrec-18238) is the best place to see it.
 
 %% GLO_PORTRAIT_DINA_PASTEL.0008 %%
 ## Making of the Work

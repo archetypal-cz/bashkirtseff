@@ -17,6 +17,12 @@ work:
   location: "Musée Ziem, Martigues"
 research_status: Basic
 last_updated: 2026-08-13
+images:
+  - src: /images/marie/works/tete-jeune-femme-plume-bleue.jpg
+    caption: "Tête de jeune femme (à la plume bleue), 1878, oil on canvas, 55 × 45 cm, Musée Ziem, Martigues (ZP 147). Low-resolution copy"
+    credit: "Musée Ziem, Martigues — public domain (PD-Art), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Marie-Bashkirtseff-Art-Painting-Young-Lady-Wearing-a-Hat-with-a-Blue-Feather-1878.jpg)"
+    link: https://pop.culture.gouv.fr/notice/joconde/M0923000147
+    alt: "Head of a dark-haired young woman in a broad black hat with a blue feather and a fur collar"
 ---
 
 %% GLO_TETE_JEUNE_FEMME_PLUME_BLEUE.0001 %%

@@ -15,6 +15,12 @@ work:
   status: unknown
 research_status: Moderate
 last_updated: 2026-08-13
+images:
+  - src: /images/marie/works/les-trois-rires-1885-plate.jpg
+    caption: "Les trois Rires: the 1885 catalogue reproduction, not the work itself (Catalogue des œuvres de Mlle Bashkirtseff, Paris, 1885, vignette)"
+    credit: "Source gallica.bnf.fr / BnF"
+    link: https://gallica.bnf.fr/ark:/12148/bpt6k131932r
+    alt: "Three small heads side by side: a smiling baby, a laughing girl in profile, and a young woman in a hat laughing"
 ---
 
 %% GLO_LES_TROIS_RIRES.0001 %%
@@ -49,7 +55,7 @@ Armandine was a dancer at the Eden-Théâtre who posed for her more than once (1
 It is worth noting, as an observation and not as a finding, that the two records may not actually conflict. Marie's own words are «Tout ça encadré ensemble» — separately painted heads brought together in one frame. Three canvases 46 cm wide, framed side by side with the mouldings between them, come to roughly 145 cm; the heights agree exactly at 55 cm. If the panel was always three canvases in a common frame, a museum cataloguing them individually and a catalogue measuring the frame would describe the same object in incompatible numbers. **Confirming or killing this would need the Russian Museum's inventory, which is not published online and which the museum's *Генеральный каталог* (vol. 5, 2014) exists in print to settle.**
 
 %% GLO_LES_TROIS_RIRES.0011 %%
-No image of the work, or of any of its heads, has been located.
+No photograph of the work has been located. The 1885 catalogue printed a small vignette of the three heads on the page that opens its extracts from the diary (Gallica view 91), shown above. It is the only image of the work known to this project.
 
 %% GLO_LES_TROIS_RIRES.0012 %%
 ## References in Diary

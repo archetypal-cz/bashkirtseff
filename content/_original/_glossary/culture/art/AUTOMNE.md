@@ -15,6 +15,12 @@ work:
   location: "State Russian Museum, St Petersburg"
 research_status: Moderate
 last_updated: 2026-08-13
+images:
+  - src: /images/marie/works/automne.jpg
+    caption: "Automne (1883), oil on canvas, attributed to the State Russian Museum, St Petersburg. Low-resolution copy"
+    credit: "Public domain (PD-Art), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Bashkirtseva_Autumn.jpg)"
+    link: http://artrussia.ru/picture_rarity/507
+    alt: "An autumn avenue of thinning trees with fallen leaves on a broad path"
 ---
 
 %% GLO_AUTOMNE.0001 %%
@@ -28,7 +34,7 @@ last_updated: 2026-08-13
 It is probably **no. 39, *Paysage d'Automne*, 0,97 × 1,15 m**, in the 1885 posthumous catalogue -- the figures match if transposed. François Coppée, in his preface to that catalogue, describes seeing in her studio "a large landscape sketch -- the October mist at the water's edge, the trees half stripped, the big yellow leaves littering the ground", which is very likely this picture or a study for it.
 
 %% GLO_AUTOMNE.0004 %%
-No usable reproduction exists. The only file on Wikimedia Commons is a 500 × 390 pixel scan from a CD-ROM of 2000, below this project's threshold, so no image is included here.
+No good reproduction exists. The only file on Wikimedia Commons is a 500 × 390 pixel scan from a CD-ROM of 2000; it is shown above at that size until a better image can be had.
 
 %% GLO_AUTOMNE.0005 %%
 ## Description

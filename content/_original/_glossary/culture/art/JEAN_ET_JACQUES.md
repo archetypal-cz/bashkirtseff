@@ -15,6 +15,12 @@ work:
   status: contested
 research_status: Comprehensive
 last_updated: 2026-08-13
+images:
+  - src: /images/marie/works/jean-et-jacques-1885-plate.jpg
+    caption: "Jean et Jacques: the 1885 catalogue reproduction, not the work itself (Catalogue des œuvres de Mlle Bashkirtseff, Paris, 1885, plate)"
+    credit: "Source gallica.bnf.fr / BnF"
+    link: https://gallica.bnf.fr/ark:/12148/bpt6k131932r
+    alt: "Two small boys in dark clothes standing hand in hand on a pavement before a wall, the elder in a cap with a white scarf"
 ---
 
 %% GLO_JEAN_ET_JACQUES.0001 %%

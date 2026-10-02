@@ -19,6 +19,12 @@ work:
   location: "Musée des Beaux-Arts Jules Chéret, Nice"
 research_status: Moderate
 last_updated: 2026-08-13
+images:
+  - src: /images/marie/works/autoportrait-a-la-palette.jpg
+    caption: "Autoportrait à la palette, oil on canvas, 92 × 73 cm, Musée des Beaux-Arts Jules Chéret, Nice (N.Mba 1982). Low-resolution copy"
+    credit: "Musée des Beaux-Arts Jules Chéret, Nice — public domain (PD-Art), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Maria_bashkirtseva_autoportrait.jpg)"
+    link: https://pop.culture.gouv.fr/notice/joconde/08800000031
+    alt: "Marie Bashkirtseff in a black dress with a white jabot, holding a palette, a harp behind her, looking straight out"
 ---
 
 %% GLO_AUTOPORTRAIT_A_LA_PALETTE.0001 %%
@@ -42,7 +48,7 @@ The museum's own text on the picture is worth quoting: "Her posture and determin
 - **Dimensions.** The museum gives **92,3 × 73,5 cm**; Wikidata gives **114 × 95,2 cm**. The 1885 posthumous exhibition catalogue lists as its very first item a *Portrait de Mlle Bashkirtseff* measuring **0,90 × 0,75 m** — which matches the museum's figure almost exactly and argues strongly against the Wikidata measurement. This entry follows the museum.
 
 %% GLO_AUTOPORTRAIT_A_LA_PALETTE.0007 %%
-**Image gap.** The only reproductions on Wikimedia Commons are **466 × 600 px**. For her single most iconic image this is the most conspicuous illustration gap in the whole project, and it is not one this entry can close: the Musée des Beaux-Arts de Nice has digitised essentially none of its Bashkirtseff holdings. The picture can be seen on the city's own [Trésors de Nice](https://tresors.nice.fr/oeuvre/autoportrait-a-la-palette) page.
+**Image gap.** The only reproductions on Wikimedia Commons are **466 × 600 px**; one is shown above at that size. For her single most iconic image this is the most conspicuous illustration gap in the whole project, and only the museum can close it: the Musée des Beaux-Arts de Nice has digitised essentially none of its Bashkirtseff holdings. The picture can be seen on the city's own [Trésors de Nice](https://tresors.nice.fr/oeuvre/autoportrait-a-la-palette) page.
 
 %% GLO_AUTOPORTRAIT_A_LA_PALETTE.0008 %%
 ## Making of the Work
