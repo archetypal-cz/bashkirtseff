@@ -1271,7 +1271,7 @@ Established terminology for consistent translation across carnets.
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
 | Audiffret / Girofla / le Niçois | Одіффре / Джирофла / ніццянець | Émile d'Audiffret; departs Nice mid-July; "le petit" → "малий" (dismissive) |
-| Giroflé (Saëtone) | Джирофле | Saetone the uncle = paired joke-name "Giroflé" (vs nephew "Girofla"); keep both distinct (035); NB in 037 (e.g. 037.0170) «Giroflé» is Olga Sapogenikoff — feminine agreement |
+| Giroflé (Saëtone) | Джирофле | Saetone the uncle = paired joke-name "Giroflé" (vs nephew "Girofla"); keep both distinct (035); NB in 037 (e.g. 037.0167) «Giroflé» is Olga Sapogenikoff — feminine agreement |
 | Saëtone | Саетоне | Audiffret's uncle, "ce gros père" → "огрядний добряга" (established 026) |
 | Smirnoff | Смирнов | Russian gentleman in Nice circle (established 035); declines as surname |
 | Sapogenikoff | Сапоженікови | Russian family (established 035) |
