@@ -45,6 +45,7 @@ These override older per-carnet entries below where they conflict.
 - **Editorial labels** (2026-10-01): „[Začerněné slovo: …]“ / „[Začerněná slova: …]“ (number follows «Mot/Mots noircis»), „[Napříč stránkou: …]“, „[Škrtnuto: …]“; the variants Zamazan-, Slovo začerněno, Přeškrtnuto, Napříč: were swept.
 - **Russian/foreign names — option B** (owner ruling KRR 2026-10-02, supersedes the 2026-10-01 locks Karagjorgjevič / Čumakov / Musja): private persons keep Marie's French spelling, declined the Czech way (Tchoumakoff → Tchoumakoffa, Tchoumakoffovi, paní Tchoumakoffová; likewise Moussia, Karageorgevitch, with Czech case endings); famous public figures take the standard Czech form (Turgeněv, Tolstoj, Puškin). The tree-wide sweep to this rule WAITS for the owner's go — do not normalise existing text yet; follow option B in new text.
 - ~~Karagjorgjevič~~ / ~~Čumakov~~ / ~~Musja~~ (2026-10-01 locks): SUPERSEDED by option B above (2026-10-02).
+- **«son bras» (Berthe's beau, 077–078)** (2026-10-02, lead/CON): „kavalír“; «son bras anglais» = „anglický kavalír“. Not a limb.
 - **la maréchale** (owner ruling KRR 2026-10-01): „maršálová" (not maršálka/maréchála); le maréchal = maršál.
 - **English-run note** (lead 2026-10-01, option a): first paragraph of a run carries „Pozn. překl.: V originále anglicky (tento a N následujících odstavců)."; single paragraph „Pozn. překl.: V originále anglicky."
 - **Gavini** (2026-10-01, majority form; owner may overrule): Gavini, paní Gaviniová, Gaviniovi, s Gaviniovými (not Gavinov-).
