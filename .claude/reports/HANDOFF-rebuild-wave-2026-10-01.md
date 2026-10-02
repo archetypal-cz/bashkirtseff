@@ -82,3 +82,19 @@ The detailed working state is in `~/rebuild-state/`, which is not in git:
 - **The lock:** only the agent named in the owner file may remove it. Check the owner file after `mkdir`.
 - **Sonnet RED:** it once invented words to fill a real gap in the source, and once reported a fix it never made. Opus CON caught both, so keep CON on Opus.
 - **Spend and session limits:** they stop all agents at once. Recover by recounting from disk (frontmatter flags, TODO) and restarting each stage at its exact resume point.
+
+## Added 2026-10-02
+
+- **Done today:**
+  - fix-source finished 084–106: sync, Larderel, backlog, the last page-break joins (batch 5), and batch 6 (062.0833 margin, splits in 081/082, 083.0540).
+  - The five print gaps are marked. 018.0113 is restored.
+  - «de Daillens» = Mme, née de Mouzay, unified in cz/uk/en.
+  - The «son bras» nickname is fixed in all trees.
+  - Works hub, works catalogue (docs/research/), reproductions research, Marie's main glossary entry rewritten, glossary renderer fixes.
+- **Survey of gaps fillable from the 1887 edition:** none. The 1887 edition fills no gap in the modern print.
+- **NEXT (owner GO 2026-10-02):** the multi-paragraph split wave, in batches by tome (survey: ~/rebuild-state/plan-sourcefix/multipara-survey.md).
+  - Scope: 588 clusters to split, about 2,931 new IDs. Only scan- or docx-confirmed split points; the 103 unconfirmed points and the 14 mixed cases go later and separately.
+  - Translations: split mechanically where the tree line counts match (about 40%); otherwise the drivers redistribute (Sonnet RED, Opus CON).
+  - Same discipline as batches 5–6: run only when every tree is clean in the carnet, and each committer stages only its own files.
+- **Owner cleanup:** remove the worktrees ~/rebuild-wt/{fs-split,fs-split2,toolsmith} and the branches fix-inplace{,2,3}.
+- **Still on hold:** the names sweep (option B) waits for the owner's go.
