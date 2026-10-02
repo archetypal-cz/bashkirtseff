@@ -72,8 +72,8 @@ In her 1875 retrospective, Marie states that when Audiffret was barely twenty, "
 
 %% GLO_BOREEL.0012 %%
 The Boreel family maintained a seasonal presence in Nice with significant property:
-- **Villa and residence**: The family occupied or rented a villa on the Promenade des Anglais area; Marie mentions "les villas 57, Boreel, Canepa" in her panoramic view from Villa Acqua Viva (006, entry 1873-06-19). They also used **La Corinthienne**, a villa Marie associates with Boreel family gatherings and dinners (004.0202, entry 1873-04-29; 010.0088, entry 1873-09-26).
-- **Mme Boreel** (his mother): Seen at her window at the start of the 1873-74 season (010.0088, entry 1873-09-27). Marie notes her arriving with a young blonde woman she speculates might be Boreel's wife (010.0152, entry 1873-10-01). Last seen departing Nice with Boreel in May 1876 (059, entry 1876-05-07).
+- **Villa and residence**: The family occupied or rented a villa on the Promenade des Anglais area; Marie mentions "les villas 57, Boreel, Canepa" in her panoramic view from Villa Acqua Viva (006, entry 1873-06-19). They also used **La Corinthienne**, a villa Marie associates with Boreel family gatherings and dinners (004.0202, entry 1873-04-29; 010.0086, entry 1873-09-26).
+- **Mme Boreel** (his mother): Seen at her window at the start of the 1873-74 season (010.0086, entry 1873-09-27). Marie notes her arriving with a young blonde woman she speculates might be Boreel's wife (010.0145, entry 1873-10-01). Last seen departing Nice with Boreel in May 1876 (059, entry 1876-05-07).
 - **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0204, entry 1873-03-07; 004.0328, entry 1873-05-10).
 - **A dog**: The family dog's collar read "M. Robert Boreel" and would follow Marie's family in the street (004.0203, entry 1873-04-27).
 - **Horses**: Boreel kept fine horses in Nice. Marie notes he had "les plus beaux chevaux" (040.0085) and is frequently seen with one or two horses on the Promenade.
@@ -89,14 +89,14 @@ Boreel participated fully in the typical activities of wealthy winter visitors t
 - Late-night suppers with Prince Gagarine, Markoff, and Gouchkevitch (002.0124, entry 1873-02-27)
 - Gambling at Monaco -- Marie morally disapproves but finds it adds to his charm (002.0138, entry 1873-02-27)
 - Close friendship with Emile d'Audiffret: "le plus grand ami d'Audiffret" and "Boreel etait le maitre du petit Nicois en beaucoup de choses" (040.0086, 040.0090)
-- Appeared at Nice in December 1873 "tout en bleu avec son caniche bien rase" -- all in blue with his well-clipped poodle, on a dog-cart (014.0258, entry 1873-12-27)
+- Appeared at Nice in December 1873 "tout en bleu avec son caniche bien rase" -- all in blue with his well-clipped poodle, on a dog-cart (014.0244, entry 1873-12-27)
 - In 1874-75, seen in Spa with Gericke, who reports he was courting a woman in The Hague (021.0067, entry 1874-07-09)
 
 %% GLO_BOREEL.0015 %%
 ## Boreel's Coded Notation System
 
 %% GLO_BOREEL.0016 %%
-Before starting her written diary, Marie tracked her Boreel sightings using a coded notation system on earlier pages: "Un O indiquait que j'avais vu Boreel, autant de O autant de fois je l'avais vu. Une croix X, que je l'avais regarde et plusieurs que lui m'avait regardee" -- an O indicated she had seen Boreel, as many Os as times seen; an X that she had looked at him, and multiple Xs that he had looked at her (009.0075, entry 1873-09-06). This predates the diary proper and shows her systematic, almost scientific approach to romance even before she began writing.
+Before starting her written diary, Marie tracked her Boreel sightings using a coded notation system on earlier pages: "Un O indiquait que j'avais vu Boreel, autant de O autant de fois je l'avais vu. Une croix X, que je l'avais regarde et plusieurs que lui m'avait regardee" -- an O indicated she had seen Boreel, as many Os as times seen; an X that she had looked at him, and multiple Xs that he had looked at her (009.0071, entry 1873-09-06). This predates the diary proper and shows her systematic, almost scientific approach to romance even before she began writing.
 
 %% GLO_BOREEL.0017 %%
 ## Marie's Relationship with Boreel

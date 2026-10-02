@@ -114,7 +114,7 @@ The diary reveals (086.0478, 1879-11-05) that Mouzay had served as "lingere dans
 - **June 16** (006): Visits Mouzay's -- she is "petite, ronde comme une pomme"
 - **June 29** (006): Mouzay departs Nice; farewell at station
 - **June 30** (006): Mouzay and daughter leave Nice
-- **August 15** (008.0039): Marie writes letter to Mme de Mouzay from Spa
+- **August 15** (008.0035): Marie writes letter to Mme de Mouzay from Spa
 - **December 16** (014): Mouzay arrives from Paris; brings parure rose as gift
 - **December 17** (014): Mouzay visits; Marie loses an hour of study
 - **December 20** (014): Dina goes to theater with Mouzay, her daughter, the Strikers

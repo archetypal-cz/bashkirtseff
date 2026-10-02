@@ -39,7 +39,7 @@ The identification is confirmed by multiple raw carnet indices which explicitly 
 Princess Galitzine was married to Prince Galitzine, whom Marie holds in low regard. Marie notes that the princess "a probablement cherché le titre et a trouvé cette canaille que son mari" (007, Jul 13, 1873) -- probably sought the title and found that scoundrel of a husband. The prince "fait des folies et sa femme a dit que lui dit qu'elle est trop vieille pour lui" (007, Jul 29, 1873) -- he behaves recklessly and tells her she's too old for him. Marie later describes her as a "femme de peu d'esprit mais que je trouvais agréable" (026, Nov 22, 1874) -- a woman of little wit but whom Marie found agreeable.
 
 %% GLO_BETE.0006 %%
-She had at least one daughter, mentioned in the September 29, 1873 name day entry (010.0125): "C'est la fête de ma tante, de Bête, de sa fille et de la petite Véra Anitchkoff." A "petite blonde Nathalie Galitzine" appears in a later entry (050.0824, Dec 16, 1875), described as having died recently in Russia "dans les bras" of her lover Simiane -- this may refer to the daughter rather than the princess herself, since the princess is still alive in 1876.
+She had at least one daughter, mentioned in the September 29, 1873 name day entry (010.0120): "C'est la fête de ma tante, de Bête, de sa fille et de la petite Véra Anitchkoff." A "petite blonde Nathalie Galitzine" appears in a later entry (050.0824, Dec 16, 1875), described as having died recently in Russia "dans les bras" of her lover Simiane -- this may refer to the daughter rather than the princess herself, since the princess is still alive in 1876.
 
 %% GLO_BETE.0007 %%
 The Bashkirtseff family financially supported Princess Galitzine, a fact that led to social complications. In January 1874, the family friend Abrial warns that the princess is "un ennemi" who "ne pardonnera jamais les bienfaits dont on la comble" (015, Jan 25, 1874) -- an enemy who will never forgive the kindness heaped upon her. Marie agrees: "Je suis parfaitement de son avis."
@@ -54,7 +54,7 @@ Despite the unflattering nickname and occasional exasperation, Princess Galitzin
 **Confidante and social equal**: Marie feels at ease with her in ways she cannot be with others: "Je suis à mon aise avec elle, je puis dire ce que je pense" (007, Jul 13, 1873). She can freely express her snobbery about bourgeois society, discuss marriage prospects, and critique others without restraint.
 
 %% GLO_BETE.0011 %%
-**Hamilton obsession partner**: The princess is Marie's primary sounding board for her infatuation with the Duke of Hamilton. She teases Marie about the Duke, jokes about future proposals ("Come into my arms, you bundle of charms!" -- 009, Sept 10, 1873), and even fabricates stories to provoke reactions (Oct 4, 1873). She declares herself Marie's willing audience: "Le duc, dit la Bête" (009.0105) -- completing Marie's sentence about what she "adores."
+**Hamilton obsession partner**: The princess is Marie's primary sounding board for her infatuation with the Duke of Hamilton. She teases Marie about the Duke, jokes about future proposals ("Come into my arms, you bundle of charms!" -- 009, Sept 10, 1873), and even fabricates stories to provoke reactions (Oct 4, 1873). She declares herself Marie's willing audience: "Le duc, dit la Bête" (009.0101) -- completing Marie's sentence about what she "adores."
 
 %% GLO_BETE.0012 %%
 **Walking and shopping companion**: Marie takes her everywhere -- the promenade, the London House for chocolate and ice cream, Maizonié and Auda for dress fittings, the sea for bathing: "Je sors avec Bête" appears dozens of times across the 1873-1874 period.
@@ -73,7 +73,7 @@ Despite the unflattering nickname and occasional exasperation, Princess Galitzin
 - **Playful and teasing**: Fabricates stories, makes jokes, calls Marie "Bébelle"; says "Parti, Bébelle, parti" when passing Hamilton-related locations (011, Oct 28, 1873)
 - **Observant about social dynamics**: Notices who looks at Marie, reports on Gioia's appearance and behavior
 - **Flattering when it matters**: Tells Marie she is prettier than Gioia, "pointed out" Marie's best features (009, Sept 21, 1873)
-- **Financially dependent**: The princess pays for ice cream when she receives money from her belle-mère (mother-in-law), but Marie has paid for her for two months prior (008.0291, Aug 31, 1873)
+- **Financially dependent**: The princess pays for ice cream when she receives money from her belle-mère (mother-in-law), but Marie has paid for her for two months prior (008.0275, Aug 31, 1873)
 - **Vulgar humor**: Provides the comparison of an aging woman's chest to "une bourse vide n'ayant qu'une pièce de dix sous au bout" (021, Jul 16, 1874), which Marie gleefully records
 - **Practical marriage advice**: "Épousez un boulanger, mais pourvu qu'il soit riche; ne cherchez pas les titres" (007, Jul 13, 1873) -- Marry a baker, as long as he's rich
 - **Memorable aphorisms**: "Il vaut mieux pleurer à travers de l'or qu'au travers du fer" (026, Nov 22, 1874) -- Better to weep through gold than through iron. Marie calls this "une phrase d'or."
@@ -85,7 +85,7 @@ Despite the unflattering nickname and occasional exasperation, Princess Galitzin
 Princess Galitzine is referenced approximately 123 times across the diary, making her one of the most frequently mentioned people. The nickname evolves across the diary:
 
 - **Carnet 007** (Jul 1873): Referred to by her title "princesse Galitzine" -- first appearances, daily visits, evening outings
-- **Carnet 008** (Aug 1873): Still "la princesse" in the text; note that "Bête que je suis" in 008.0289 is Marie calling herself stupid, not the nickname
+- **Carnet 008** (Aug 1873): Still "la princesse" in the text; note that "Bête que je suis" in 008.0273 is Marie calling herself stupid, not the nickname
 - **Carnet 009** (Sep 1873): Transition period -- both "la princesse" and "la Bête" / "Bête" used interchangeably. The nickname has taken hold
 - **Carnets 010-019** (Sep 1873 - May 1874): Height of usage -- "Bête" is the dominant form, with dozens of daily references. Also "Cunegunda" appears (carnet 014)
 - **Carnets 020-023** (Jun-Sep 1874): Declining frequency as Marie's world expands
@@ -104,12 +104,12 @@ Princess Galitzine is referenced approximately 123 times across the diary, makin
 - 007 (Jul 19, 1873): Comments on Marie's portrait -- "air malin, vif, et un peu penché, langoureux"
 - 007 (Jul 28, 1873): "La princesse Galitzine m'aime beaucoup, elle m'appelle cher brigand"
 - 007 (Jul 29, 1873): Prince Galitzine "fait des folies," tells his wife she's too old
-- 008.0291 (Aug 31, 1873): "la princesse me paye une glace" -- after Marie paid for her two months
+- 008.0275 (Aug 31, 1873): "la princesse me paye une glace" -- after Marie paid for her two months
 - 009 (Sep 9, 1873): First use of nickname "la Bête" -- "Le duc, dit la Bête"
 - 009 (Sep 10, 1873): "Come into my arms, you bundle of charms!" joke about Hamilton proposal
 - 009 (Sep 18, 1873): "Bête ne veut pas sans la permission de Walitsky" -- responsible guardian figure
 - 009 (Sep 21, 1873): "J'ai tant parlé avec Bête que je suis fatiguée" -- hours of intimate conversation
-- 010.0125 (Sep 29, 1873): Name day shared with ma tante, her daughter, and Vera Anitchkoff
+- 010.0120 (Sep 29, 1873): Name day shared with ma tante, her daughter, and Vera Anitchkoff
 - 011 (Oct 28, 1873): "Parti, Bébelle, parti. Ah ! ! dit Bête en passant la maison Wittgenstein"
 - 011 (Nov 1, 1873): "Je vais avec Bête à la gare à trois heures rencontrer l'institutrice" -- helps welcome Miss Hitchcock
 - 014 (Dec 10, 1873): "Cunegunda" first used -- alongside Bête in same passage
