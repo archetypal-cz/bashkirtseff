@@ -26,4 +26,4 @@ Marie describes him as "tall, slim, dark" ("grand, mince, brun") but notes "he h
 
 Marie writes: "I love him like my brother. I love him because he is his brother. Oh! I would like to know him, from him I could learn where the other is, with him I could speak of the other."
 
-**2025-12-07T17:00:00 RSR: Marie's interest in Lord Carlos is purely instrumental - as the Duke's brother, he represents a potential link to her beloved. She has no romantic interest in Carlos himself.**
+%% 2025-12-07T17:00:00 RSR: Marie's interest in Lord Carlos is purely instrumental - as the Duke's brother, he represents a potential link to her beloved. She has no romantic interest in Carlos himself. %%

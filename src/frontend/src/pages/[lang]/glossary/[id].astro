@@ -2,7 +2,7 @@
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import GlossaryFigure from '../../../components/glossary/GlossaryFigure.astro';
-import { getMergedGlossaryEntries, getGlossaryEntryWithFallback, buildGlossaryUsageCounts } from '../../../lib/content';
+import { getMergedGlossaryEntries, getGlossaryEntryWithFallback, buildGlossaryUsageCounts, stripGlossaryComments } from '../../../lib/content';
 import { linkifyParagraphRefs } from '../../../lib/paragraph-refs';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
@@ -54,9 +54,7 @@ const filterCategory = category.startsWith('culture/themes')
 
 // Simple markdown to HTML conversion for old format content
 function simpleMarkdownToHtml(markdown: string): string {
-  let html = markdown
-    // Remove %% comment lines
-    .replace(/%%[^%]*%%/g, '')
+  let html = stripGlossaryComments(markdown)
     // Headers
     .replace(/^### (.+)$/gm, '<h3 class="text-lg font-semibold text-ink mt-6 mb-3">$1</h3>')
     .replace(/^## (.+)$/gm, '<h2 class="text-xl font-semibold text-ink mt-8 mb-4">$1</h2>')

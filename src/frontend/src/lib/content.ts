@@ -2278,7 +2278,7 @@ function parseGlossaryEntryFromPath(filePath: string, category: string, language
 
   // Extract summary
   let summary: string | undefined;
-  const lines = bodyContent.split('\n');
+  const lines = stripGlossaryComments(bodyContent).split('\n');
   let inMetadata = true;
   for (const line of lines) {
     if (line.startsWith('#')) continue;
@@ -2361,6 +2361,23 @@ function normalizeGlossaryImages(value: unknown): GlossaryImage[] | undefined {
 }
 
 /**
+ * Remove every `%% … %%` comment span from glossary markdown.
+ *
+ * Glossary comments are often long RSR/GLO notes that wrap over several lines
+ * or carry URL-encoded `%` signs, so a line-based or `[^%]*` match lets their
+ * tail leak into the page. Spans are matched across newlines; a lone unpaired
+ * `%%` is dropped as a marker. Blank-line runs left behind are collapsed.
+ */
+export function stripGlossaryComments(text: string): string {
+  return text
+    .replace(/%%[\s\S]*?%%/g, '')
+    .replace(/%%/g, '')
+    .replace(/[ \t]+$/gm, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+/**
  * Parse paragraph clusters from glossary entry content.
  *
  * Headings (## / ###) that appear between paragraph clusters are extracted
@@ -2385,10 +2402,14 @@ function parseGlossaryParagraphs(content: string, language: string = 'original')
   // to become their own GlossaryParagraph entries so the template renders
   // them as proper <h2>/<h3>/etc. elements.
   // Skip H1 headings — the entry title is rendered separately.
+  // A heading-shaped line inside a multi-line `%% … %%` note is comment text.
+  const commentSpans = [...content.matchAll(/%%[\s\S]*?%%/g)].map(m => [m.index!, m.index! + m[0].length]);
+  const inComment = (pos: number) => commentSpans.some(([start, end]) => pos > start && pos < end);
   const headingPattern = /^(#{2,6})\s+(.+)$/gm;
   const headings: { level: number; text: string; fullMatch: string; index: number }[] = [];
   let hMatch;
   while ((hMatch = headingPattern.exec(content)) !== null) {
+    if (inComment(hMatch.index)) continue;
     headings.push({
       level: hMatch[1].length,
       text: hMatch[2],
@@ -2435,7 +2456,7 @@ function parseGlossaryParagraphs(content: string, language: string = 'original')
       const headingEnd = seg.index + seg.fullMatch.length;
       const nextSeg = segments[i + 1];
       const trailingEnd = nextSeg ? nextSeg.index : content.length;
-      const trailingText = content.substring(headingEnd, trailingEnd).trim();
+      const trailingText = stripGlossaryComments(content.substring(headingEnd, trailingEnd));
       if (trailingText) {
         const trailingId = `${baseId}.H${syntheticCounter++}`;
         const { html } = processTextToHtml(trailingText, language);
@@ -2471,41 +2492,27 @@ function parseGlossaryParagraphs(content: string, language: string = 'original')
  * Parse a single glossary paragraph
  */
 function parseGlossaryParagraph(id: string, content: string, language: string = 'original'): GlossaryParagraph | null {
-  const lines = content.split('\n');
-
   // Skip the ID line
-  const contentLines = lines.slice(1);
+  const body = content.split('\n').slice(1).join('\n');
 
-  // Extract glossary tags from comment lines
+  // Extract glossary links from tag comments (`%% [#Name](…/_glossary/…) %%`)
   const glossaryTags: GlossaryTag[] = [];
-  const textLines: string[] = [];
-
-  for (const line of contentLines) {
-    const trimmed = line.trim();
-
-    // Skip empty lines
-    if (!trimmed) continue;
-
-    // Extract glossary links from comment line
-    if (trimmed.startsWith('%%') && trimmed.endsWith('%%') && trimmed.includes('[#')) {
-      const tagMatches = trimmed.matchAll(/\[#([^\]]+)\]\([^)]*\/_glossary\/([^)]+)\.md\)/g);
-      for (const match of tagMatches) {
-        glossaryTags.push({
-          id: match[2].split('/').pop() || match[1],
-          name: match[1],
-        });
-      }
-      continue;
+  for (const span of body.match(/%%[\s\S]*?%%/g) ?? []) {
+    if (!span.includes('[#')) continue;
+    const tagMatches = span.matchAll(/\[#([^\]]+)\]\([^)]*\/_glossary\/([^)]+)\.md\)/g);
+    for (const match of tagMatches) {
+      glossaryTags.push({
+        id: match[2].split('/').pop() || match[1],
+        name: match[1],
+      });
     }
-
-    // Skip other comment lines (notes, etc.)
-    if (trimmed.startsWith('%%')) continue;
-
-    // Regular content
-    textLines.push(line);
   }
 
-  const text = textLines.join('\n').trim();
+  // Drop all comments (tags, notes — including multi-line ones) and blank lines
+  const text = stripGlossaryComments(body)
+    .split('\n')
+    .filter(line => line.trim())
+    .join('\n');
   if (!text) return null;
 
   // Check if header

@@ -29,4 +29,4 @@ During Holy Week, Marie attends church services morning and evening. She reflect
 ## Plachtchanitsa Ceremony
 On Good Friday, Marie experiences a powerful mystical moment during the veneration of the plachtchanitsa (embroidered cloth representing Christ's shroud). She takes a daisy from near the holy shroud and uses it for divination about her future with the Duke.
 
-**2025-12-07T17:00:00 RSR: The Orthodox Easter season of 1873 is spiritually significant for Marie, combining traditional Russian religious observance with her romantic yearnings expressed through prayer and mystical experiences.**
+%% 2025-12-07T17:00:00 RSR: The Orthodox Easter season of 1873 is spiritually significant for Marie, combining traditional Russian religious observance with her romantic yearnings expressed through prayer and mystical experiences. %%

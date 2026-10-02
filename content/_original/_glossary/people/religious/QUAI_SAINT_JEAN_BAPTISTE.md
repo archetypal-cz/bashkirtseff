@@ -28,4 +28,4 @@ The same day she also ordered a hat at Rue Gioffredo styled like Mlle de Galve's
 ## Historical Context
 The Quai Saint-Jean-Baptiste likely refers to a waterfront street in Nice's old town or port area. In the 1870s, Nice's quays would have housed various shops and commercial establishments.
 
-**2025-12-07T17:00:00 RSR: Need to research exact location of this quay in 1873 Nice. May be related to the old port area or riverfront (Paillon).**
+%% 2025-12-07T17:00:00 RSR: Need to research exact location of this quay in 1873 Nice. May be related to the old port area or riverfront (Paillon). %%
