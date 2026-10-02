@@ -15,6 +15,7 @@
  */
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { createHash } from 'node:crypto';
 
 import { renderSourceComment } from '../../shared/src/renderer/paragraph-renderer.ts';
 import { localizeGlossaryPath } from '../../shared/src/utils/glossary-path.ts';
@@ -1413,6 +1414,11 @@ export function formatTimestamp(d: Date = new Date()): string {
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}T${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
 }
 
+/** Local calendar date (YYYY-MM-DD), as used in renumber script names. */
+export function localDate(d: Date = new Date()): string {
+  return formatTimestamp(d).slice(0, 10);
+}
+
 // --- outputs -------------------------------------------------------------------------
 
 export function mapJson(plan: Plan, m: Mapping, planPath: string, trees: TreeResult[], date: string, cross: { movedOut?: Record<string, string>; runCarnets?: string[] } = {}) {
@@ -1441,32 +1447,65 @@ export function mapJson(plan: Plan, m: Mapping, planPath: string, trees: TreeRes
   };
 }
 
+/** Rows per INSERT statement in a generated renumber script. */
+const SQL_INSERT_BATCH = 500;
+/** Placeholder for the content-hash suffix while the hash is computed. */
+const SQL_HASH_PLACEHOLDER = '@@H@@';
+
+/**
+ * The renumber script for the auth database (paragraph_reports and
+ * paragraph_stars are the tables keyed by paragraph ID). The deploy job
+ * applies it (src/auth/db-deploy.sh): marker line, no transaction control,
+ * temp tables suffixed with the first 8 hex of the sha256 of the script
+ * (computed with a placeholder in the suffix position), dropped at the end so
+ * all pending scripts can share one transaction. The statement order is what
+ * the runner's lint allowlist accepts. Returns '' when no ID changed (nothing
+ * to apply, and an empty map would not pass the lint).
+ * Only top-level content/_renumber/*.sql files are applied; subdirectories never are.
+ */
 export function sqlRemap(ms: Mapping | Mapping[], date: string): string {
   const maps = Array.isArray(ms) ? ms : [ms];
-  // One statement for the whole run: with per-carnet files, 065.0412→066.0123
+  // One statement set for the whole run: with per-carnet files, 065.0412→066.0123
   // followed by 066's own 066.0123→066.0130 would chain.
   const pairs = maps.flatMap((m) => [...m.idMap].filter(([o, n]) => o !== n));
   const dropped = maps.flatMap((m) => [...m.dropped.keys()]);
   const names = maps.map((m) => m.carnet);
-  const table = `renumber_${names.join('_')}`;
-  const out = [
-    `-- rebuild-carnet ${names.join(' + ')} (${date}): remap reader reports to the new paragraph IDs.`,
-    `-- paragraph_reports is the only table keyed by paragraph ID (src/auth/init.sql).`,
-    `-- Reading history / bookmarks live in each reader's localStorage and cannot be remapped here.`,
-    `-- One UPDATE through a mapping table, so a chain like 0005→0006→0007 cannot double-apply.`,
-    'BEGIN;',
-    `CREATE TEMP TABLE ${table} (old_id TEXT PRIMARY KEY, new_id TEXT NOT NULL) ON COMMIT DROP;`,
-  ];
   const rows = [...pairs.map(([o, n]) => [o, n]), ...dropped.map((d) => [d, d.replace('.', '.DROPPED-')])];
-  if (rows.length) {
-    out.push(`INSERT INTO ${table} (old_id, new_id) VALUES`);
-    out.push(rows.map(([o, n], i) => `  ('${o}', '${n}')${i === rows.length - 1 ? ';' : ','}`).join('\n'));
-    out.push(`UPDATE paragraph_reports r SET paragraph_id = m.new_id FROM ${table} m WHERE r.paragraph_id = m.old_id;`);
-  } else {
-    out.push('-- (no paragraph ID changed)');
+  if (!rows.length) return '';
+  for (const id of rows.flat()) if (!/^[0-9A-Za-z._-]+$/.test(id)) throw new Error(`sqlRemap: paragraph ID ${JSON.stringify(id)} is not safe for the renumber lint`);
+  // New IDs must satisfy the stars table CHECK; a malformed one would fail inside the shared deploy transaction and block every deploy.
+  for (const [, n] of rows) if (!/^[0-9]{3}\.(DROPPED-)?[0-9]{4}$/.test(n)) throw new Error(`sqlRemap: new paragraph ID ${JSON.stringify(n)} does not match the paragraph_stars CHECK (NNN.NNNN or NNN.DROPPED-NNNN)`);
+  const H = SQL_HASH_PLACEHOLDER;
+  const map = `renumber_map_${H}`, moved = `moved_stars_${H}`;
+  const inserts: string[] = [];
+  for (let i = 0; i < rows.length; i += SQL_INSERT_BATCH) {
+    const chunk = rows.slice(i, i + SQL_INSERT_BATCH);
+    inserts.push(`INSERT INTO ${map} (old_id, new_id) VALUES`, chunk.map(([o, n], k) => `  ('${o}', '${n}')${k === chunk.length - 1 ? ';' : ','}`).join('\n'));
   }
-  out.push('COMMIT;', '');
-  return out.join('\n');
+  const body = [
+    '-- deploy-ledger: renumber v1',
+    `-- rebuild-carnet ${names.join(' + ')} (${date}): remap reader reports and stars to the new paragraph IDs.`,
+    '-- Applied automatically by the deploy job (src/auth/db-deploy.sh); do not run by hand.',
+    '-- Never edit a committed script (a changed sha256 fails the deploy): write a follow-up script instead.',
+    '-- Emergency manual run only via `psql -1` on stdin (no BEGIN/COMMIT in this file).',
+    '-- One UPDATE through a mapping table, so a chain like 0005→0006→0007 cannot double-apply.',
+    '-- Stars move through a temp table; a star that lands on an ID the user already starred is dropped (one star per user and paragraph).',
+    '-- Reading history / bookmarks live in each reader\'s localStorage and cannot be remapped here.',
+    `CREATE TEMP TABLE ${map} (old_id TEXT PRIMARY KEY, new_id TEXT NOT NULL);`,
+    ...inserts,
+    `UPDATE paragraph_reports r SET paragraph_id = m.new_id FROM ${map} m WHERE r.paragraph_id = m.old_id;`,
+    `CREATE TEMP TABLE ${moved} AS`,
+    '  SELECT s.id, s.user_id, m.new_id, s.language, s.commit_hash, s.created_at',
+    `  FROM paragraph_stars s JOIN ${map} m ON s.paragraph_id = m.old_id;`,
+    `DELETE FROM paragraph_stars s USING ${map} m WHERE s.paragraph_id = m.old_id;`,
+    'INSERT INTO paragraph_stars (id, user_id, paragraph_id, language, commit_hash, created_at)',
+    `  SELECT id, user_id, new_id, language, commit_hash, created_at FROM ${moved}`,
+    '  ON CONFLICT (user_id, paragraph_id) DO NOTHING;',
+    `DROP TABLE ${map}, ${moved};`,
+    '',
+  ].join('\n');
+  const h = createHash('sha256').update(body).digest('hex').slice(0, 8);
+  return body.split(H).join(h);
 }
 
 /**

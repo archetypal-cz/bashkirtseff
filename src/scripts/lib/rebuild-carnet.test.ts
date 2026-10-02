@@ -7,7 +7,7 @@ import * as os from 'node:os';
 import * as path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { buildMapping, loadTree, makeRewriter, mergeRedirects, type Issues, type Plan } from './rebuild-carnet-core.ts';
+import { buildMapping, loadTree, localDate, makeRewriter, mergeRedirects, sqlRemap, type Issues, type Plan } from './rebuild-carnet-core.ts';
 
 const SCRIPT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'rebuild-carnet.ts');
 
@@ -217,9 +217,17 @@ test('dry run writes nothing; --write moves clusters, inserts, rewrites refs, re
     assert.match(dry.out, /DRY RUN — nothing written/);
     assert.deepEqual(snapshot(root), before, 'dry run must not touch the tree');
 
+    // an already committed script of the same name must be left alone: the new one gets -2
+    const today = localDate();
+    const taken = path.join(root, 'content/_renumber', `099-${today}.sql`);
+    fs.mkdirSync(path.dirname(taken), { recursive: true });
+    fs.writeFileSync(taken, '-- legacy script, must not be overwritten\n');
+
     const wr = run(root, '099', planPath, '--write');
     assert.equal(wr.code, 0, wr.out);
     assert.match(wr.out, /RESULT: PASS/);
+    assert.equal(fs.readFileSync(taken, 'utf-8'), '-- legacy script, must not be overwritten\n');
+    assert.match(read(root, `content/_renumber/099-${today}-2.sql`), /^-- deploy-ledger: renumber v1\n/);
 
     // _original: cluster moved with its LAN note, new paragraph created, renumbered
     const o2 = read(root, 'content/_original/099/1880-01-02.md');
@@ -270,7 +278,7 @@ test('dry run writes nothing; --write moves clusters, inserts, rewrites refs, re
 
     // outputs
     const maps = fs.readdirSync(path.join(root, 'content/_renumber'));
-    const mapFile = maps.find((f) => /^099-\d{4}-\d\d-\d\d\.json$/.test(f))!;
+    const mapFile = maps.find((f) => /^099-\d{4}-\d\d-\d\d(-2)?\.json$/.test(f))!;
     const map = JSON.parse(read(root, `content/_renumber/${mapFile}`));
     assert.equal(map.id_map['099.0003'], '099.0004');
     assert.deepEqual(map.new_paragraphs, [{ id: '099.0005', file: '1880-01-02.md' }]);
@@ -828,4 +836,49 @@ test('set_french on a fr cluster that holds its French as a multi-line %% block'
   } finally {
     fs.rmSync(root, { recursive: true, force: true });
   }
+});
+
+// --- sqlRemap: the renumber script the deploy job applies ---------------------------------
+
+const fakeMap = (carnet: string, ids: [string, string][], dropped: string[] = []) =>
+  ({ carnet, idMap: new Map(ids), dropped: new Map(dropped.map((d) => [d, 'x'])) }) as unknown as Parameters<typeof sqlRemap>[0];
+
+test('sqlRemap emits the runner shape: marker, suffixed temp tables, no transaction control', () => {
+  const sql = sqlRemap(fakeMap('099', [['099.0003', '099.0004'], ['099.0004', '099.0003'], ['099.0005', '099.0005']], ['099.0009']), '2026-10-02');
+  const lines = sql.split('\n');
+  assert.equal(lines[0], '-- deploy-ledger: renumber v1');
+  assert.doesNotMatch(sql, /^\s*(BEGIN|COMMIT|ROLLBACK|START|SAVEPOINT)\b/im);
+  assert.doesNotMatch(sql, /ON COMMIT DROP/);
+  assert.match(sql, /applied automatically by the deploy job.*do not run by hand/i);
+  assert.match(sql, /never edit a committed script/i);
+  assert.match(sql, /psql -1/);
+  const h = sql.match(/CREATE TEMP TABLE renumber_map_([0-9a-f]{8}) \(old_id TEXT PRIMARY KEY, new_id TEXT NOT NULL\);/)![1];
+  assert.doesNotMatch(sql, /@@H@@/);
+  // the same suffix everywhere, and nothing else suffixed
+  assert.deepEqual([...new Set(sql.match(/(?:renumber_map|moved_stars)_\w+/g)!.map((t) => t.split('_').pop()))], [h]);
+  assert.match(sql, new RegExp(`INSERT INTO renumber_map_${h} \\(old_id, new_id\\) VALUES\\n  \\('099\\.0003', '099\\.0004'\\),\\n  \\('099\\.0004', '099\\.0003'\\),\\n  \\('099\\.0009', '099\\.DROPPED-0009'\\);`));
+  assert.doesNotMatch(sql, /'099\.0005'/, 'unchanged IDs are not mapped');
+  // statement order
+  const order = ['CREATE TEMP TABLE renumber_map_', 'INSERT INTO renumber_map_', 'UPDATE paragraph_reports', 'CREATE TEMP TABLE moved_stars_', 'DELETE FROM paragraph_stars', 'INSERT INTO paragraph_stars', 'ON CONFLICT (user_id, paragraph_id) DO NOTHING', 'DROP TABLE'];
+  let at = -1;
+  for (const o of order) { const i = sql.indexOf(o); assert.ok(i > at, `${o} out of order`); at = i; }
+  assert.ok(sql.trimEnd().endsWith(`DROP TABLE renumber_map_${h}, moved_stars_${h};`));
+});
+
+test('sqlRemap suffix is a content hash; batches large maps; empty map yields nothing', () => {
+  const a = sqlRemap(fakeMap('099', [['099.0001', '099.0002']]), '2026-10-02');
+  const b = sqlRemap(fakeMap('099', [['099.0001', '099.0003']]), '2026-10-02');
+  assert.equal(a, sqlRemap(fakeMap('099', [['099.0001', '099.0002']]), '2026-10-02'), 'deterministic');
+  assert.notEqual(a.match(/renumber_map_([0-9a-f]{8})/)![1], b.match(/renumber_map_([0-9a-f]{8})/)![1]);
+  const many = Array.from({ length: 1201 }, (_, i): [string, string] => [`099.${String(i + 1).padStart(4, '0')}`, `099.${String(i + 2000).padStart(4, '0')}`]);
+  const big = sqlRemap(fakeMap('099', many), '2026-10-02');
+  assert.equal((big.match(/^INSERT INTO renumber_map_/gm) ?? []).length, 3);
+  assert.equal((big.match(/^  \('099/gm) ?? []).length, 1201);
+  assert.equal(sqlRemap(fakeMap('099', [['099.0001', '099.0001']]), '2026-10-02'), '');
+  assert.throws(() => sqlRemap(fakeMap('099', [['099.0001', "099.0002'; DROP"]]), '2026-10-02'), /not safe/);
+  // safe characters but not the strict stars-CHECK shape
+  assert.throws(() => sqlRemap(fakeMap('099', [['099.0001', '099.002']]), '2026-10-02'), /CHECK/);
+  assert.throws(() => sqlRemap(fakeMap('099', [['099.0001', '99.0002']]), '2026-10-02'), /CHECK/);
+  assert.throws(() => sqlRemap(fakeMap('099', [['099.0001', '099.0002-x']]), '2026-10-02'), /CHECK/);
+  assert.throws(() => sqlRemap(fakeMap('099', [], ['099.00091']), '2026-10-02'), /CHECK/);
 });

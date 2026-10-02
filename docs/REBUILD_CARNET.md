@@ -11,7 +11,7 @@ filed under the wrong day. A rebuild:
    and in every translation tree that has the carnet (`cz uk en fr es`);
 4. rewrites every reference to the old IDs and entry files in the repo;
 5. commits a map (`content/_renumber/CCC-<date>.json`), an SQL remap for reader
-   reports and redirects for the entry URLs that moved.
+   reports and stars (applied by the deploy job) and redirects for the entry URLs that moved.
 
 What goes where is decided by whoever writes the **plan**. The tool only applies it:
 `src/scripts/rebuild-carnet.ts` (logic in `src/scripts/lib/rebuild-carnet-core.ts`).
@@ -419,9 +419,19 @@ footnote labels (`68.0123` for carnet 068).
 - `CCC-<date>.json` — `id_map` (every old ID → new), `new_paragraphs`,
   `dropped`, `file_map` (renamed entries), `files_removed`, `files_added`,
   `flag_resets` per tree, and the full plan.
-- `CCC-<date>.sql` — one `UPDATE paragraph_reports … FROM` a temp mapping table
-  in a transaction. `paragraph_reports` is the only table keyed by paragraph ID
-  (`src/auth/init.sql`); run it on the auth database after deploying.
+- `CCC-<date>.sql` — the renumber script for the auth database: it remaps
+  `paragraph_reports.paragraph_id` and moves `paragraph_stars` (a star landing on
+  an ID the user already starred is dropped: one star per user and paragraph),
+  through temp tables suffixed with a content hash. It starts with the marker
+  `-- deploy-ledger: renumber v1` and has no `BEGIN`/`COMMIT`.
+  **It is applied automatically by the deploy job** (`src/auth/db-deploy.sh`,
+  docs/DB_DEPLOY.md): do not run it by hand. **Never edit a committed script**:
+  its sha256 is recorded in the deploy ledger and a changed file fails every
+  deploy; write a follow-up script instead. Only top-level
+  `content/_renumber/*.sql` files are applied; subdirectories
+  (`titlenotes-…/`, `split-wave/`, …) never are. The generator never overwrites
+  an existing file (`-2`, `-3` suffix) and writes no script when no ID changed.
+  Emergency manual run only via `psql -1` on stdin.
   Reading history and bookmarks live in readers' localStorage and are not remapped.
 - `redirects.json` — cumulative old-URL → new-URL map for every language
   segment (`original cz uk en fr es`), read by `src/frontend/astro.config.mjs`

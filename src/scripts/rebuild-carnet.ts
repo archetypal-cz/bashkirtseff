@@ -35,6 +35,7 @@ import {
   buildMapping,
   checkCarnet,
   formatTimestamp,
+  localDate,
   identityPlan,
   loadTree,
   makeRewriter,
@@ -80,10 +81,6 @@ function carnetArg(raw: string | undefined): string {
   } catch (e) {
     usage(e instanceof Error ? e.message : String(e));
   }
-}
-
-function localDate(): string {
-  return formatTimestamp().slice(0, 10);
 }
 
 // --- --identity-plan / --check -------------------------------------------------
@@ -329,7 +326,7 @@ if (EMIT) {
   }
   fs.mkdirSync(path.join(EMIT, '_renumber'), { recursive: true });
   for (const [c, out] of mapOuts) fs.writeFileSync(path.join(EMIT, '_renumber', `${c}-${date}.json`), JSON.stringify(out, null, 2) + '\n');
-  fs.writeFileSync(path.join(EMIT, '_renumber', `${runName}-${date}.sql`), sqlOut);
+  if (sqlOut) fs.writeFileSync(path.join(EMIT, '_renumber', `${runName}-${date}.sql`), sqlOut);
   console.log(`  emitted the would-be carnet trees and outputs under ${EMIT}`);
 }
 
@@ -368,8 +365,14 @@ for (const [c, out] of mapOuts) {
   writeFileAtomic(path.join(renumberDir, `${base}.json`), JSON.stringify(out, null, 2) + '\n');
   written.push(`content/_renumber/${base}.json`);
 }
-writeFileAtomic(path.join(renumberDir, `${sqlBase}.sql`), sqlOut);
-written.push(`content/_renumber/${sqlBase}.sql`);
+// sqlOut is '' when no paragraph ID changed: no script (an empty map would not pass the deploy lint)
+if (sqlOut) {
+  const sqlPath = path.join(renumberDir, `${sqlBase}.sql`);
+  // never overwrite: a committed script's sha256 is in the deploy ledger (unique() above already skips taken names)
+  if (fs.existsSync(sqlPath)) throw new Error(`refusing to overwrite ${sqlPath}`);
+  writeFileAtomic(sqlPath, sqlOut);
+  written.push(`content/_renumber/${sqlBase}.sql`);
+}
 const redirectsPath = path.join(renumberDir, 'redirects.json');
 let redirects = fs.existsSync(redirectsPath) ? JSON.parse(fs.readFileSync(redirectsPath, 'utf-8')) : {};
 for (const s of sets) redirects = mergeRedirects(redirects, mappings.get(s.carnet)!, [...s.trees.keys()]);
