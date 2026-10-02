@@ -369,9 +369,14 @@ carnet is renumbered once per run). Rules:
   only the map that run wrote).
 - **Comment-only IDs** (old RSR entry summaries without visible text, 001–044
   and 072) are folded in the same run as their carnet's splits: the ID is
-  dropped and its RSR comment(s) and tags move to the entry's last real
-  paragraph in every tree. Where nothing else in the entry changed, the
-  approval flags are restored from HEAD and the tool's flags-reset note is
+  dropped (plan `drop`) and its RSR comment(s) and tags move to the end of the
+  entry's last real paragraph in every tree; its other lines (role notes,
+  footnote definitions a tree keeps there) go, in their layout, to the end of
+  that paragraph's cluster. References to the folded ID are pointed at that
+  paragraph before the rebuild (outside `content/_raw` and
+  `content/_renumber`, like the rebuild's own rewriter). A cluster that holds
+  text in some tree is not folded. Where nothing else in the entry changed,
+  the approval flags are restored from HEAD and the tool's flags-reset note is
   removed. The moved tags are listed per carnet for the tag audit, which
   redistributes them.
 
