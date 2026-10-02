@@ -6,28 +6,13 @@ aliases:
 type: Culture
 category: culture/literature
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
+status: retired
+replaced_by: LE_FIGARO
 ---
-# Figaro
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Person/Place
+%% GLO_FIGARO.0001 %%
+**Retired.** Duplicate of the Le Figaro entry. Use [#LE_FIGARO](../newspapers/LE_FIGARO.md) (`culture/newspapers/LE_FIGARO.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_FIGARO.0002 %%
+%% 2026-10-02T12:00:00 RSR: Retired in the 2026 tag audit glossary cleanup (duplicate/stub). replaced_by: culture/newspapers/LE_FIGARO.md. %%
