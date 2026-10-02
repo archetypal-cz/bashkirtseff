@@ -8,22 +8,24 @@ aliases:
   - Little Girl
   - Portrét Jenny
   - Malá dívka
+  - Portrét dívky (Armandine Babanin?)
+  - Portrait of a Girl (Armandine Babanin?)
 type: Culture
 category: culture/art
 marie_work: true
 work:
-  year: "1882"
+  year: "1880"
   medium: "oil on canvas"
   status: public
-  location: "Galerie výtvarného umění v Ostravě"
+  location: "Galerie výtvarného umění v Ostravě (O0827)"
 research_status: Basic
-last_updated: 2026-08-13
+last_updated: 2026-10-02
 images:
   - src: /images/marie/works/portrait-jenny.jpg
-    caption: Portrait de Jenny / Petite fille (1882), oil on canvas, Galerie výtvarného umění v Ostravě
+    caption: "Portrait of a girl (Armandine Babanin?), known as Portrait de Jenny / Petite fille, signed and dated 1880, oil on canvas, 58 × 44,5 cm, Galerie výtvarného umění v Ostravě (O0827)"
     credit: Galerie výtvarného umění v Ostravě — public domain, via Wikimedia Commons
     link: https://commons.wikimedia.org/wiki/File:Marie_bashkirtseff_petite_fille_ostrava.jpg
-    alt: Painted portrait of a young girl, by Marie Bashkirtseff, 1882
+    alt: Painted portrait of a dark-haired girl in a white blouse and head-scarf, by Marie Bashkirtseff, 1880
 ---
 
 %% GLO_PORTRAIT_JENNY.0001 %%
@@ -31,7 +33,7 @@ images:
 
 %% GLO_PORTRAIT_JENNY.0002 %%
 %% [#Art_practice](../themes/ART_PRACTICE.md) %%
-*Portrait de Jenny*, also catalogued as *Petite fille* (oil on canvas, 58 × 45 cm, 1882), hangs in the **Galerie výtvarného umění v Ostravě** — and it is, as far as this project's research can establish, **the only painting by Marie Bashkirtseff in the Czech Republic**.
+*Portrait de Jenny*, also known as *Petite fille* and catalogued by its museum as *Portrét dívky (Armandine Babanin?)* (oil on canvas, 58 × 44,5 cm, signed and dated 1880), hangs in the **Galerie výtvarného umění v Ostravě** — and it is, as far as this project's research can establish, **the only painting by Marie Bashkirtseff in the Czech Republic**.
 
 %% GLO_PORTRAIT_JENNY.0003 %%
 That is worth stating plainly for Czech readers of this diary. Of the roughly 230 works Marie left at her death, some sixty survive; they are scattered across Paris, Nice, Amsterdam, Vienna, Martigues, St Petersburg, Krasnoyarsk, Athens and three Ukrainian cities, with sixty-five more lost at Kharkiv in the war. One of the survivors is in Ostrava. A reader in Moravia can stand in front of a canvas painted by the girl whose diary they are reading.
@@ -40,19 +42,19 @@ That is worth stating plainly for Czech readers of this diary. Of the roughly 23
 ## Description
 
 %% GLO_PORTRAIT_JENNY.0005 %%
-Oil on canvas, 58 × 45 cm — a small, intimate format, the size Marie used for heads and single-figure studies rather than for Salon pictures. The sitter, "Jenny", is not identified: no Jenny has been matched to anyone in the diary's circle, and the alternative title *Petite fille* suggests the name may have travelled with the picture rather than come from the artist.
+Oil on canvas, 58 × 44,5 cm — a small, intimate format, the size Marie used for heads and single-figure studies rather than for Salon pictures. The sitter, "Jenny", is not identified: no Jenny has been matched to anyone in the diary's circle, and the alternative title *Petite fille* suggests the name may have travelled with the picture rather than come from the artist.
 
 %% GLO_PORTRAIT_JENNY.0006 %%
-**On the date.** The work is generally given as **1882**; at least one French caption dates it **1880**. Both are plausible — she was painting children's heads in both years — and this entry does not adjudicate between them.
+**What the gallery's own record says.** The Ostrava gallery's catalogue (Sbírkový portál MSK) settles the date and corrects the title. It catalogues the picture as *Portrét dívky (Armandine Babanin?)* ("Portrait of a girl, Armandine Babanin?"), inventory **O0827**, oil on canvas, **58 × 44,5 cm**, signed lower left **"M.Bashkirtseff 1880"**. It describes a somewhat melancholy dark-haired girl, her hair in a scarf, in a white blouse with a small gold pendant on a dark ribbon, and notes paint cracking at the bottom from a deformed canvas, reaching into the signature. It calls the sitter "a girl from the Babanin family", painted during the artist's stay in France, and the work "probably the painter's only work in Bohemia and Slovakia". The date is therefore **1880**, as signed. The names *Portrait de Jenny* and *Petite fille* come from the Wikimedia Commons file and its fan-site source, not from the museum. The 1885 catalogue lists a *Portrait de Mlle Armandine* (no. 105), but among the pastels, so it is not this oil. The Armandine of the diary in 1883–84 is a dancer who posed for *[Les trois Rires](./LES_TROIS_RIRES.md)* (102.0074), not a Babanin, and the museum's question mark should stand.
 
 %% GLO_PORTRAIT_JENNY.0007 %%
 ## Making of the Work
 
 %% GLO_PORTRAIT_JENNY.0008 %%
-Nothing is documented. The picture is not identifiable in the diary, and how it came to Ostrava has not been established here — the Czech gallery's own collection database could not be reached during this research and its inventory number is unknown. Tracing that provenance would be a genuinely useful piece of local research: Marie's mother placed works in French museums between 1902 and 1920 and sent some 140 to St Petersburg, but the route by which one reached Moravia is not part of either story as usually told.
+Nothing is documented. The picture is not identifiable in the diary, and how it came to Ostrava has not been established here; the gallery's record (inventory O0827) gives no acquisition history. Tracing that provenance would be a genuinely useful piece of local research: Marie's mother placed works in French museums between 1902 and 1920 and sent some 140 to St Petersburg, but the route by which one reached Moravia is not part of either story as usually told.
 
 %% GLO_PORTRAIT_JENNY.0009 %%
-If the 1882 date is right, the picture belongs to a heavily documented year — the spring at Nice, the great pastel of Dina, the head of Irma that became *La Parisienne*, *Thérèse*, and a long run of studies — which makes the diary's silence about it a little surprising, and leaves open the possibility that Marie names it somewhere under a description no search has yet caught.
+The signed date puts it in 1880, the year of her first Salon, when she was painting a long run of heads and portrait studies. No passage of that year has been tied to it, but Marie may name it somewhere under a description no search has yet caught.
 
 %% GLO_PORTRAIT_JENNY.0010 %%
 ## References in Diary
@@ -77,3 +79,6 @@ If the 1882 date is right, the picture belongs to a heavily documented year — 
 
 %% GLO_PORTRAIT_JENNY.0016 %%
 %% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.13). Research status Basic: the holding gallery's collection database (sbirky.gvuo.cz) was unreachable during this research, so there is no inventory number, no museum-confirmed date, and no provenance — dimensions, medium and the 1882 date come from the Wikimedia Commons file, with the competing 1880 French caption noted rather than dropped. The claim that this is the only Bashkirtseff painting in the Czech Republic is scoped to what this project's research located ("as far as this project's research can establish") and should not be hardened without a check of Czech public collections. Diary negative finding confirmed by the 097–106 sweep. Image: Commons file at 1999x2594, downscaled to 1233x1600 for the site. %%
+
+%% GLO_PORTRAIT_JENNY.0017 %%
+%% 2026-10-02T16:45:00 RSR: Works-catalogue pass: the gallery record was reached at https://sbirky.msk.cz/?id=4941360 (fetched 2026-10-02) and supersedes the Commons-based data. Date corrected to 1880 (signed), size to 58 × 44,5, inventory O0827, and the museum's title recorded as an alias. The entry keeps its id and display name so that existing tags and translations still resolve; a rename to the museum's title is a decision for the owner. Use terms of the portal (https://sbirky.msk.cz/?page=podminky-uziti) allow research use with citation; the site image stays the Commons PD-Art file. %%

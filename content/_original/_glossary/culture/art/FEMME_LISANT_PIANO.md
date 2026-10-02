@@ -43,7 +43,7 @@ A woman reading, seated at the corner of a piano. The technique is worth noticin
 The subject joins the two occupations that fill Marie's own days more than any others besides painting: reading and music. She read voraciously and played the piano, the harp and the guitar; a woman reading at the corner of a piano is very close to a picture of her own drawing-room life.
 
 %% GLO_FEMME_LISANT_PIANO.0007 %%
-**A possible catalogue match, offered as a guess only.** The 1885 exhibition catalogue includes among its drawings a *La Lecture* (no. 116), and reproduced four drawings after nature, one of them also called *La lecture*. Whether either is this sheet is unknown — "La Lecture" is a generic title and she drew people reading more than once.
+**It is the 1885 plate *La Lecture*.** The 1885 exhibition catalogue lists among its drawings a *La Lecture* (no. 116), and it reproduces four drawings after nature as plates, one captioned *La Lecture*. That plate shows this sheet: the woman reading at the corner of the piano, the keyboard below her, the tall lamp at upper left (Gallica views 45–48). The plate carries no number, so it is very probable but not proven that the sheet is no. 116 rather than another drawing of the same title. Two other plates in the same set reproduce drawings now at the Musée d'Orsay, *[La Cigarette](./FEMME_A_LA_CIGARETTE.md)* and *Endormie* (*[Intimité](./INTIMITE.md)*).
 
 %% GLO_FEMME_LISANT_PIANO.0008 %%
 ## Making of the Work
@@ -83,3 +83,6 @@ One related but distinct idea does appear in the diary: on 27 December 1882 Mari
 
 %% GLO_FEMME_LISANT_PIANO.0018 %%
 %% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.13). Museum data (PPD929, crayon/charcoal/frotté/gratté, 24,6 x 19,2 cm, mount 53 x 40, 1907 gift) comes via the project catalogue; the Paris Musées object record was not fetched directly for this entry, hence research_status Basic and a link to the collections portal root rather than to a deep link this project has not verified. The suggested match with 1885 catalogue no. 116 "La Lecture" is labelled a guess and should not be repeated as established. 097.0296 is included explicitly as a DIFFERENT composition, to stop a future reader from silently merging the two. Image: Commons CC0 file at 4317x5531, downscaled to 937x1200 for the site (this sheet compresses poorly — fine charcoal texture — so it is published smaller than the other entries to stay under the size budget). %%
+
+%% GLO_FEMME_LISANT_PIANO.0019 %%
+%% 2026-10-02T16:30:00 RSR: Works-catalogue pass: paragraph 0007 upgraded from a guess to a visual identification with the 1885 plate *La Lecture* (Gallica, views 45–48), compared side by side with the Paris Musées image. Paris Musées offers a CC0 file of 4317 × 5531 px (lpdp_84087-1.jpg) if a larger site image is ever wanted. %%

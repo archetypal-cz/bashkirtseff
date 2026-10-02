@@ -44,6 +44,9 @@ The light was the whole problem and the whole point. She wanted the real effect,
 %% GLO_LES_SAINTES_FEMMES.0008 %%
 One figure did survive the wreck, in another medium. The weeping woman of *[La Douleur de Nausicaa](./DOULEUR_DE_NAUSICAA.md)* began as a figure in this composition before Marie detached her and re-read her as the princess of the *Odyssey*.
 
+%% GLO_LES_SAINTES_FEMMES.0024 %%
+**A sketch survives in Saratov.** According to Irina Zhukova, writing on Alexei Bogolyubov's memoirs in *Nashe Nasledie* (2007), Marie gave Bogolyubov an oil sketch for *Les Saintes Femmes* in 1883. He passed it to the collection of the museum he was founding at Saratov, now the **Radishchev Art Museum**, and wrote on the stretcher «Саратовскому музею. Мария Башкирцева. 1883. Париж — esquisse les saintes femmes». The 1885 catalogue lists two oil sketches for the project, nos. 60 (0,45 × 0,37 m) and 61 (0,40 × 0,45 m), and a study (no. 93). Kernberger captions a reproduction "Holy Women (sketch), 1882, Galerie Tretyakov, Moscou", but no Tretyakov record has been found, and the Saratov account is the one with a documented provenance. The museum's inventory number has not been traced.
+
 %% GLO_LES_SAINTES_FEMMES.0009 %%
 ## Making of the Work
 
@@ -126,6 +129,11 @@ The last eighteen months:
 %% GLO_LES_SAINTES_FEMMES.0023 %%
 - *Catalogue des œuvres de Mlle Bashkirtseff*, Union des Femmes Peintres & Sculpteurs, preface by François Coppée, Paris: Ludovic Baschet, 9 February 1885 — **nos. 60, 61 and 93**, and the notice signed "Une Amie" that distinguishes this project from *La Rue*. [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 - [Russian Wikipedia — Башкирцева, Мария Константиновна](https://ru.wikipedia.org/wiki/Башкирцева,_Мария_Константиновна) — for the Passy mausoleum claim, reported here as an attribution and not as a fact
+- Ирина Жукова, "Взгляд «беспристрастного» художника. Неизвестные воспоминания А.П. Боголюбова о Марии Башкирцевой", *Наше наследие* no. 83–84 (2007) — [nn.media/magazine/83-84/1682](https://www.nn.media/magazine/83-84/1682/) — the Saratov sketch
+- Kernberger (2013), illustrated EPUB edition, image 183, captioned "Holy Women (sketch), Marie Bashkirtseff, 1882, Galerie Tretyakov, Moscou, Russie"
 - The diary itself, carnets 075, 088, 094–096 and 097–103 — by far the richest source on this work
 
 %% 2026-08-13T14:35:00 RSR: Compiled from the project artworks catalog (2026-08-13) and the mention-map sweeps of carnets 060-075, 087-096 and 097-106, which between them establish a conception date of May 1880 (088.0397) — two and a half years earlier than the standard account. All paragraph IDs verified against %% NNN.PPPP %% markers in content/_original/. Two things deliberately left as attributions: (1) the claim that the work was kept in the Passy mausoleum comes from Russian Wikipedia alone and is attributed in the text rather than asserted; (2) the frequent confusion with La Rue as "her last work" is corrected on the authority of the 1885 catalogue, which lists them separately, with the notice signed "Une Amie" specifying that it was La Rue she was finishing when she took the chill. No image of any of the three sketches has been located. %%
+
+%% GLO_LES_SAINTES_FEMMES.0025 %%
+%% 2026-10-02T16:35:00 RSR: Works-catalogue pass added 0024 (the Saratov sketch), from the Nashe Nasledie article fetched 2026-10-02. It does not change the entry's status: the picture itself was never painted. Which of 1885 nos. 60/61 (if either) is the Saratov sketch is not established, since it had left Marie's hands in 1883. %%

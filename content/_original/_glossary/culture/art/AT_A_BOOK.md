@@ -63,6 +63,9 @@ It went with her mother's gift to the Museum of Alexander III in St Petersburg (
 %% GLO_AT_A_BOOK.0012 %%
 None identified. The mention-map sweeps of carnets 060–075, 076–086, 087–096 and 097–106 all record this work as absent from the diary; the works of 1882 that she does name and describe are *Thérèse*, the Nice campaign of ¶ 094.0356–0493, *[La Parisienne](./LA_PARISIENNE.md)* and *[Les Saintes Femmes](./LES_SAINTES_FEMMES.md)*.
 
+%% GLO_AT_A_BOOK.0017 %%
+**A second version exists.** A canvas of almost the same composition, 64 × 53 cm and dated 1880, was offered at the Dorotheum in Vienna in 2021 as *Die Lesende*, with the sitter named as Marie's cousin **Dina Babanina** (see *[La Liseuse](./DIE_LESENDE.md)*). The two pictures differ in the background, the table and the glass of water. The Dorotheum's identification is a second claim on the sitter, beside the Ukrainian self-portrait tradition; neither comes from the artist.
+
 %% GLO_AT_A_BOOK.0013 %%
 ## Related Entries
 
@@ -82,3 +85,6 @@ None identified. The mention-map sweeps of carnets 060–075, 076–086, 087–0
 - S. I. Bocharova, [Велика українська енциклопедія — Башкирцева, Марія Костянтинівна](https://vue.gov.ua/Башкирцева,_Марія_Костянтинівна) (the transfers to Ukraine)
 
 %% 2026-08-13T14:12:00 RSR: Compiled from the project artworks catalog (2026-08-13). The description in cluster 0005 is written from the Commons scan itself. Two caveats are load-bearing and must not be flattened by later editing: (1) the self-portrait identification is a museum wall-text attribution reported at second hand, not a documented one; (2) the painting's status after the drone strike of 14 June 2026 is genuinely unknown — no source names it in the 2022 evacuations or in the 2026 damage reports, and evacuation destinations are undisclosed as a matter of policy. The dating of the transfer to St Petersburg is given as "the first decade of the twentieth century" because the sources give 1902 (Bocharova, VUE), 1904 (the Russian Museum's own object record for Ж-2740) and 1908 (the Russian Museum's artist page) and cannot be reconciled. %%
+
+%% GLO_AT_A_BOOK.0018 %%
+%% 2026-10-02T16:40:00 RSR: Works-catalogue pass added 0017 from the Commons description of File:Marie Bashkirtseff Die Lesende.jpg (Dorotheum ID 7201837), which links the two files as versions. %%
