@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia';
 import { ref, computed } from 'vue';
+import { themeName } from '../lib/theme-names';
 import type { FilterIndex, FilterEntryRecord } from '../types/filter-index';
 
 const STORAGE_KEY = 'filter-tags';
@@ -107,6 +108,16 @@ export const useFilterStore = defineStore('filter', () => {
     }
   }
 
+  /** Replace theme tag names with the locale's themes.<ID> labels (idempotent; re-run on locale change) */
+  function localizeThemes(t: (key: string) => string) {
+    const cat = index.value?.categories.find(c => c.key === 'themes');
+    if (!cat) return;
+    for (const tag of cat.tags) {
+      tag.baseName ??= tag.name;
+      tag.name = themeName(t, tag.id, tag.baseName);
+    }
+  }
+
   function toggleTag(category: string, tagId: string) {
     const current = selectedTags.value[category] || [];
     if (current.includes(tagId)) {
@@ -196,7 +207,7 @@ export const useFilterStore = defineStore('filter', () => {
     isActive, activeTagCount, matchingEntries, matchingEntryIds,
     matchingByYear, matchingByCarnet,
     // Actions
-    loadIndex, toggleTag, clearCategory, clearAll, setFilterMode, init,
+    loadIndex, localizeThemes, toggleTag, clearCategory, clearAll, setFilterMode, init,
   };
 });
 

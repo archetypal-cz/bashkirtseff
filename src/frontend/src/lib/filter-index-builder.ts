@@ -17,6 +17,7 @@
  * wrapper around this module.
  */
 
+import { RETIRED_THEMES } from './theme-names';
 import fs from 'node:fs';
 import path from 'node:path';
 import { parseFrontmatter } from '@bashkirtseff/shared';
@@ -71,6 +72,17 @@ function formatDisplayName(id: string): string {
   return base
     .replace(/_/g, ' ')
     .replace(/\b\w/g, c => c.toUpperCase());
+}
+
+/** `name:` from a theme's glossary frontmatter (English; the UI localises it via themes.<ID>) */
+function readThemeName(glossaryBase: string, id: string): string | undefined {
+  try {
+    const text = fs.readFileSync(path.join(glossaryBase, 'culture', 'themes', `${id}.md`), 'utf-8');
+    const m = text.match(/^---\n[\s\S]*?^name:\s*(.+?)\s*$/m);
+    return m ? m[1].replace(/^["']|["']$/g, '') : undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 function buildTagList(
@@ -273,7 +285,11 @@ export function buildFilterIndex(contentRoot: string = defaultContentRoot()): Fi
   categories.push({
     key: 'themes',
     label: 'filter.themes',
-    tags: buildTagList(themeCounts, new Map(), MIN_TAG_COUNT),
+    tags: buildTagList(
+      new Map([...themeCounts].filter(([id]) => !RETIRED_THEMES.has(id))),
+      new Map(),
+      MIN_TAG_COUNT,
+    ).map(tag => ({ ...tag, name: readThemeName(glossaryBase, tag.id) ?? tag.name })),
   });
 
   // Culture entities (priority 5)

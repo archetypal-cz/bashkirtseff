@@ -1,4 +1,5 @@
 ---
+import { themeName } from '../../../lib/theme-names';
 import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import GlossaryFigure from '../../../components/glossary/GlossaryFigure.astro';
@@ -126,21 +127,22 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
 // Illustrations from frontmatter `images:` — first one leads, rest form a row
 const images = entry.images ?? [];
 const [leadImage, ...moreImages] = images;
+const displayName = category.startsWith('culture/themes') ? themeName(t, entry.id, entry.name) : entry.name;
 ---
 
-<ReadingLayout title={`${entry.name} — ${t('glossary.title')}`} lang={lang.urlPath} sourcePath={entry.category ? `content/_original/_glossary/${entry.category}/${entry.id}.md` : undefined}>
+<ReadingLayout title={`${displayName} — ${t('glossary.title')}`} lang={lang.urlPath} sourcePath={entry.category ? `content/_original/_glossary/${entry.category}/${entry.id}.md` : undefined}>
   <article class="max-w-3xl mx-auto">
     <nav class="mb-6 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
       <a href={withTrailingSlash(`/${lang.urlPath}`)} class="hover:text-accent">{diaryLabel}</a>
       <span class="mx-2">&rsaquo;</span>
       <a href={withTrailingSlash(basePath)} class="hover:text-accent">{t('glossary.title')}</a>
       <span class="mx-2">&rsaquo;</span>
-      <span class="text-ink">{entry.name}</span>
+      <span class="text-ink">{displayName}</span>
     </nav>
 
     <header class="mb-8 pb-6 border-b border-ink/10">
       <h1 class="text-2xl md:text-3xl font-normal text-ink mb-2" style="font-family: var(--font-display);">
-        {entry.name}
+        {displayName}
       </h1>
 
       {/* Original script and transliteration */}

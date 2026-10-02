@@ -5,6 +5,7 @@ import { useDialog } from '../../composables/useDialog';
 import { getCategoryIcon } from '../../lib/glossary-categories';
 import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
+import { themeName } from '../../lib/theme-names';
 import ReportDialog from './ReportDialog.vue';
 
 const auth = useAuthStore();
@@ -23,6 +24,10 @@ const props = defineProps<{
 }>();
 
 const { t } = useI18n(props.pageLocale);
+
+function tagLabel(tag: GlossaryTag): string {
+  return tag.category === 'culture' ? themeName(t, tag.id, tag.name) : tag.name;
+}
 
 const isOpen = ref(false);
 
@@ -208,7 +213,7 @@ onMounted(() => {
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" :d="getCategoryIcon(tag.category)" />
                   </svg>
-                  <span>{{ tag.name }}</span>
+                  <span>{{ tagLabel(tag) }}</span>
                 </a>
                 <button
                   class="tag-filter-btn"

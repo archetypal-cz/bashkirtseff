@@ -23,6 +23,8 @@ function fallbackTagName(id: string): string {
   return base.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 }
 
+watch([() => filterStore.index, locale], () => filterStore.localizeThemes(t), { immediate: true });
+
 /** Active tag names across all categories */
 const activeTagNames = computed<string[]>(() => {
   if (!filterStore.isActive || !filterStore.index) return [];

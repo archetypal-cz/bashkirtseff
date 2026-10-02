@@ -156,6 +156,8 @@ const expandedSubcategories = ref<Set<string>>(new Set());
 const showAllTags = ref<Set<string>>(new Set());
 const MAX_VISIBLE_TAGS = 20;
 
+watch([() => filterStore.index, locale], () => filterStore.localizeThemes(t), { immediate: true });
+
 const filteredCategories = computed<FilterCategory[]>(() => {
   if (!filterStore.index) return [];
   const q = filterSearch.value.toLowerCase().trim();

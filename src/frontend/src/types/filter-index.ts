@@ -40,6 +40,8 @@ export interface FilterTag {
   id: string;
   /** Display name */
   name: string;
+  /** Runtime only: the unlocalised name, kept while `name` is localised */
+  baseName?: string;
   /** Number of entries with this tag */
   count: number;
   /** Subcategory key, e.g. "core", "family", "cities" */
