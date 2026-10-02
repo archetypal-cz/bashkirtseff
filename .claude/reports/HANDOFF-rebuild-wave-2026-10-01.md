@@ -43,7 +43,7 @@ The detailed working state is in `~/rebuild-state/`, which is not in git:
 - «Le Bec» is a proper name.
 - EN uses British spelling.
 - CZ: Marie's English words are kept in the text as ==English== across the whole tree. A whole entry written in English stays translated, with the note „V originále anglicky (tento a N následujících odstavců)."
-- CZ name forms: Karagjorgjevič, Čumakov, Musja, maršálová.
+- Names (2026-10-02, option B): private persons keep Marie's French spelling, and famous public figures get the standard form. This supersedes the 2026-10-01 cz forms Karagjorgjevič, Čumakov and Musja. «maršálová» stands.
 - Russian passages carry the note "written in Russian in the manuscript; translated by the editor".
 - Factual footnotes must cite a source. Notes written from memory are not acceptable.
 
@@ -56,7 +56,8 @@ The detailed working state is in `~/rebuild-state/`, which is not in git:
 
    Then the seam RED pass in each tree.
 2. **cz end sweep:**
-   - apply Karagjorgjevič, Čumakov, Musja and maršálová across the tree (locked in the TM; the English-run notes were already reworded in e592ce466)
+   - NAMES, owner ruling 2026-10-02 (option B, research in ~/rebuild-state/names-research.md): **private persons keep Marie's French spelling** (Tchoumakoff, Moussia, Karageorgevitch, Walitsky, Sapogenikoff…, declined the Czech way: s Tchoumakoffem). **Famous public figures get the standard Czech form** (Turgeněv, Tolstoj, Puškin). This REVERSES the 2026-10-01 TM locks Čumakov, Karagjorgjevič, Musja, and the old Miloradovič/Gricja rows. Sweep about 640 occurrences in cz and about 10 in en; uk stays as it is (Gurevich model). Fix the cz TM first, then sweep with RED/CON spot checks.
+   - apply «maršálová» across the tree (locked in the TM; the English-run notes were already reworded in e592ce466)
    - remaining cz owner questions (listed in `.claude/reports/2026-10-01-cz-001-106.md`): Tchernitská/Černická, Saint Amand/Saint-Amand, Jurkov/Yourkoff
    - 078.0249 «sur son bras»
 3. **uk:**
