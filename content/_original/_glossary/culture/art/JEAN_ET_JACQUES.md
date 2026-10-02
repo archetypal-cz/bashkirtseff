@@ -21,6 +21,11 @@ images:
     credit: "Source gallica.bnf.fr / BnF"
     link: https://gallica.bnf.fr/ark:/12148/bpt6k131932r
     alt: "Two small boys in dark clothes standing hand in hand on a pavement before a wall, the elder in a cap with a white scarf"
+  - src: /images/marie/works/jean-et-jacques-1883-engraving.jpg
+    caption: "«Жан и Жак»: wood engraving after a photograph by S. D. Laptev, front cover of Vsemirnaya illyustratsiya (St Petersburg), vol. 30, no. 774, 5 November 1883, not the work itself"
+    credit: "Public domain (1883), scan Internet Archive (https://archive.org/details/bmk-brz-30-no-755-780)"
+    link: https://archive.org/details/bmk-brz-30-no-755-780/page/n345
+    alt: "Black-and-white engraving of two small boys in dark smocks standing hand in hand on a pavement before a wall, the elder holding a broken umbrella"
 ---
 
 %% GLO_JEAN_ET_JACQUES.0001 %%
@@ -43,7 +48,10 @@ Marie's own account, 27 February 1883: «deux gamins qui marchent le long d'un t
 Her own verdict at the Salon was harsh: «le tableau m'a paru sombre et quoique fait en plein air, il n'en a pas l'air. Le mur n'a pas l'air d'un mur» (099.0313) — dark, and not looking painted outdoors even though it was; the wall does not look like a wall.
 
 %% GLO_JEAN_ET_JACQUES.0007 %%
-**Where the picture is now is genuinely unresolved, and this entry asserts nothing.** Three locations circulate in the literature: the **Newberry Library** in Chicago (repeated by several secondary sources, but not confirmed in the Newberry's own collections database), the **Musée d'Orsay** via the Louvre (per the Dom Russkogo Zarubezhya), and an unnamed **private collection**. None could be verified. There is likewise **no free reproduction** — nothing on Wikimedia Commons — which for one of her two or three most discussed canvases is among the largest image gaps in her œuvre.
+**Where the picture is now is genuinely unresolved, and this entry asserts nothing.** Three locations circulate in the literature: the **Newberry Library** in Chicago (repeated by several secondary sources, but not confirmed in the Newberry's own collections database), the **Musée d'Orsay** via the Louvre (per the Dom Russkogo Zarubezhya), and an unnamed **private collection**. None could be verified. There is likewise **no free photograph of the canvas** — nothing on Wikimedia Commons — which for one of her two or three most discussed canvases is among the largest image gaps in her œuvre.
+
+%% GLO_JEAN_ET_JACQUES.0019 %%
+**Two early reproductions** add to the 1885 plate shown first above. Within months of the Salon, the St Petersburg weekly *Всемирная иллюстрация* (*Vsemirnaya illyustratsiya*) put the picture on its front cover (vol. 30, no. 774, 5 November 1883). That is a wood engraving after a photograph by S. D. Laptev, under the title «Жан и Жак». Unlike the 1885 plate, it shows no townscape at upper right. Whether the engraver left it out or Marie added it later is not known. In 1901 the *Nouveau journal inédit* printed a halftone captioned «Le tableau se trouve au Musée du Luxembourg». That caption is one more location claim and, like the others, is unverified. No Luxembourg or Orsay inventory record for the picture has been found.
 
 %% GLO_JEAN_ET_JACQUES.0008 %%
 ## Making of the Work
@@ -101,5 +109,7 @@ The picture went on working for her afterwards. In November 1883 the St Petersbu
 - [WikiArt — *Jean and Jacques* (1883)](https://www.wikiart.org/en/marie-bashkirtseff/jean-and-jacques-1883)
 - [Dom Russkogo Zarubezhya — 160 years since the birth of M. K. Bashkirtseff](https://www.domrz.ru/press/memo_dates/160_let_so_dnya_rozhdeniya_m_k_bashkirtsevoy/) (one of the circulating location claims)
 - The diary, carnets 098–105
+- *Всемирная иллюстрация*, St Petersburg, vol. 30, no. 774 (5 November 1883), front cover, «Жан и Жак», after a photograph by S. D. Laptev — [Internet Archive bmk-brz-30-no-755-780, leaf n345](https://archive.org/details/bmk-brz-30-no-755-780/page/n345)
+- *Nouveau journal inédit de Marie Bashkirtseff*, Paris: Éditions de la Revue, 1901, hors-texte plate «Jean et Jacques (Le tableau se trouve au Musée du Luxembourg.)» — [Internet Archive nouveaujournalin00bash_0, leaf n74](https://archive.org/details/nouveaujournalin00bash_0/page/n74)
 
 %% 2026-08-13T13:58:00 RSR: Compiled from the project artworks catalog (2026-08-13). Paragraph IDs verified against %% NNN.PPPP %% markers in content/_original/ by the mention-map sweep of carnets 097-106. THREE deliberate refusals to flatten: (1) the present location is contested — Newberry Library Chicago, Musée d'Orsay via the Louvre, and a private collection all circulate; the Newberry's own collections database does not confirm its holding; no location is asserted here and none should be added without a direct check. (2) No free reproduction exists anywhere, Commons included. (3) The Nice mention honorable of 1883 rests on the primary 1885 catalogue and contradicts the widespread claim (English Wikipedia among others) that her only mention honorable came in 1884 — Coppée's 1885 preface independently confirms she was "déjà mentionnée l'année précédente". %%

@@ -23,6 +23,11 @@ images:
     credit: "Public domain (PD-Art), via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Marie_Bashkirtseff_2.jpg)"
     link: http://artrussia.ru/picture_rarity/47
     alt: "A young woman sitting on the grass under blossoming fruit trees, her head on her hand, beside a path"
+  - src: /images/marie/works/printemps-1888-engraving.jpg
+    caption: "Spring: wood engraving published in 1888 after a drawing lent by Ludovic Baschet, not the work itself (The Woman's World, vol. 1, 1888, p. 455)"
+    credit: "Public domain (1888), scan Internet Archive (https://archive.org/details/womans-world-ny_1888_1)"
+    link: https://archive.org/details/womans-world-ny_1888_1/page/n502
+    alt: "Black-and-white engraving: a young peasant woman sits dozing on a grassy bank under flowering fruit trees, her head on her hand, beside a path running up through the orchard"
 ---
 
 %% GLO_LE_PRINTEMPS.0001 %%
@@ -36,7 +41,10 @@ images:
 **Its present location is probable, not established.** It is attributed to the **State Russian Museum** in St Petersburg by [AWARE](https://awarewomenartists.com/en/artiste/marie-bashkirtseff/), which is published in partnership with the Musée d'Orsay -- but the museum does not publish the work in its online catalogue (it publishes only one Bashkirtseff painting of the eight it states it holds), and goskatalog.ru is not reachable from outside Russia. The identification with **no. 34, *Avril*, 2,15 × 2,00 m** in the 1885 posthumous catalogue is a very close dimensional match and is almost certainly right, but it too is an inference rather than a documented equivalence.
 
 %% GLO_LE_PRINTEMPS.0004 %%
-No adequate reproduction of this picture is freely available. The only file on Wikimedia Commons measures 373 × 400 pixels -- far too small for a canvas over two metres tall; it is shown above at that size until a better image can be had. It is one of the most conspicuous illustration gaps in Marie's surviving work.
+No adequate photograph of this picture is freely available. The only file on Wikimedia Commons measures 373 × 400 pixels -- far too small for a canvas over two metres tall; it is shown above at that size until a better image can be had. The second image is a wood engraving published in *The Woman's World* in 1888 (p. 455), made after a drawing lent by Ludovic Baschet. It shows the whole composition clearly, but in black and white and at second hand.
+
+%% GLO_LE_PRINTEMPS.0018 %%
+**An early owner.** A footnote in the same 1888 article reports that "Spring", "painted at Sèvres in April, 1884", had just been bought by **Grand Duke Konstantin Konstantinovich**, "the cousin of the Czar", and hung in his gallery at the **Marble Palace** in St Petersburg. It calls this the first of her pictures to reach Russia. The Russian Museum's printed catalogues of 1912 and 1917 do not list it among the works her mother gave. How the picture reached the museum, if it is there, is not documented here.
 
 %% GLO_LE_PRINTEMPS.0005 %%
 ## Description
@@ -87,6 +95,7 @@ The canvas came to the studio in early July, and with it the title: "Il est ici 
 - *Catalogue des œuvres de Mlle Bashkirtseff*, Union des Femmes Peintres & Sculpteurs, Paris: Ludovic Baschet, 9 February 1885, no. 34 (*Avril*, 2,15 × 2,00 m) -- [Gallica ark:/12148/bpt6k131932r](https://gallica.bnf.fr/ark:/12148/bpt6k131932r.image)
 - [State Russian Museum, artist page](https://rusmuseumvrm.ru/reference/classifier/author/bashkirceva_mariya_konstantinovna/index.php) -- for the museum's own account of its holdings
 - All diary quotations from the French originals in `/content/_original/`
+- *The Woman's World*, ed. Oscar Wilde, vol. 1, London: Cassell, 1888, p. 455: engraving "Spring", and the footnote on the Grand Duke's purchase; p. 458, editor's note on the drawings lent by Ludovic Baschet — [Internet Archive womans-world-ny_1888_1, leaf n502](https://archive.org/details/womans-world-ny_1888_1/page/n502)
 
 %% GLO_LE_PRINTEMPS.0017 %%
 %% 2026-08-13T14:00:00 RSR: Created as part of the artworks glossary wave. Facts from the project research catalog (scratchpad/artworks-catalog.md, §3.6) and the diary mention map for carnets 097-106. Two uncertainties are flagged in the text rather than resolved: the attribution to the State Russian Museum rests on AWARE alone and is unverifiable from outside Russia, and the equation with no. 34 "Avril" of the 1885 catalogue is a dimensional inference. No image included: the only Commons file is 373 x 400 px, below the project's 800 px floor. Tagging note: the aliases "Le Printemps" and "Avril" are unsafe for automatic matching -- both collide with ordinary uses of the season and the month, and "Le Printemps" additionally collides with the unexecuted allegorical sculpture project of 1883-84 (100.0225, 100.0334-0205, 103.0530, 104.0495). "Avril" was therefore left out of the alias list entirely, and tags for this work should be placed by hand. %%

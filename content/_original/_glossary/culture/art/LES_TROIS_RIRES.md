@@ -16,6 +16,11 @@ work:
 research_status: Moderate
 last_updated: 2026-08-13
 images:
+  - src: /images/marie/works/les-trois-rires-1888.jpg
+    caption: "Les trois Rires: a reproduction published in 1888, showing the three heads in their single frame, not the work itself (The Woman's World, vol. 1, 1888, p. 453, illustrating Mathilde Blind's article)"
+    credit: "Public domain (1888), scan Internet Archive (https://archive.org/details/womans-world-ny_1888_1)"
+    link: https://archive.org/details/womans-world-ny_1888_1/page/n501
+    alt: "Three framed heads side by side in one long frame: a baby in a white wrap, a girl in profile with a bow in her loose hair, and a smiling young woman in a dark hat with a corsage of flowers"
   - src: /images/marie/works/les-trois-rires-1885-plate.jpg
     caption: "Les trois Rires: the 1885 catalogue reproduction, not the work itself (Catalogue des œuvres de Mlle Bashkirtseff, Paris, 1885, vignette)"
     credit: "Source gallica.bnf.fr / BnF"
@@ -54,6 +59,9 @@ Armandine was a dancer at the Eden-Théâtre who posed for her more than once (1
 %% GLO_LES_TROIS_RIRES.0010 %%
 It is worth noting, as an observation and not as a finding, that the two records may not actually conflict. Marie's own words are «Tout ça encadré ensemble» — separately painted heads brought together in one frame. Three canvases 46 cm wide, framed side by side with the mouldings between them, come to roughly 145 cm; the heights agree exactly at 55 cm. If the panel was always three canvases in a common frame, a museum cataloguing them individually and a catalogue measuring the frame would describe the same object in incompatible numbers. **Confirming or killing this would need the Russian Museum's inventory, which is not published online and which the museum's *Генеральный каталог* (vol. 5, 2014) exists in print to settle.**
 
+%% GLO_LES_TROIS_RIRES.0018 %%
+Two published sources bear on this. *The Woman's World* (vol. 1, 1888, p. 453) reproduced the picture as **three separate canvases set side by side in one long frame**, a baby, a girl in profile and a young woman in a hat (shown above). The Russian Museum's own printed catalogues of **1912 and 1917** list «Три улыбки (1883 г.)» among the paintings given by Marie's mother, M. S. Bashkirtseva. Together they support the reading in the paragraph above. They do not show that the picture is in the museum today, so the status here stays "whereabouts unknown".
+
 %% GLO_LES_TROIS_RIRES.0011 %%
 No photograph of the work has been located. The 1885 catalogue printed a small vignette of the three heads on the page that opens its extracts from the diary (Gallica view 91), shown above. It is the only image of the work known to this project.
 
@@ -82,5 +90,7 @@ No photograph of the work has been located. The 1885 catalogue printed a small v
 - State Russian Museum wall labels, transcribed by a visitor in 2024 — **a lead, not a citation**; the museum publishes only one Bashkirtseff painting online
 - State Russian Museum, *Генеральный каталог. Живопись. Т. 5: Вторая половина XIX века (А–И)*, St Petersburg: Palace Editions, 2014 — print only, not digitised; would settle the question
 - The diary, carnets 102–104
+- *The Woman's World*, ed. Oscar Wilde, vol. 1, London: Cassell, 1888, p. 453, «Les Trois Rires», illustrating Mathilde Blind, "Marie Bashkirtseff, the Russian Painter. II" — [Internet Archive womans-world-ny_1888_1, leaf n501](https://archive.org/details/womans-world-ny_1888_1/page/n501)
+- *Русский музей императора Александра III. Художественный отдел. Каталог*, St Petersburg, 1912, p. 152, and *Русский музей*, Petrograd, 1917, p. 115: «Три улыбки (1883 г.)», gift of M. S. Bashkirtseva — [Internet Archive russkijmuzejimperatoraaleksandraiii89](https://archive.org/details/russkijmuzejimperatoraaleksandraiii89), [russkijmuzej94](https://archive.org/details/russkijmuzej94)
 
 %% 2026-08-13T14:25:00 RSR: Compiled from the project artworks catalog (2026-08-13). The status of this work is "whereabouts unknown" and must stay that way in project text: the only lead is a visitor's 2024 transcription of Russian Museum wall labels, which lists three separate canvases of 55 x 46 cm where the primary 1885 catalogue lists one item of 0,55 x 1,45 m. Cluster 0010 offers a reconciliation (separately painted heads in a common frame, per Marie's own "Tout ça encadre ensemble") as this project's hypothesis, explicitly labelled as an observation rather than a finding — do not let a later edit promote it to an identification. Paragraph IDs verified by the 097-106 mention sweep. %%
