@@ -1334,8 +1334,8 @@ They need AI translation into French.
 - **071/1877-05-02.md** para 071.0113 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "Skating" - refers to a skating rink, fashionable social venue; term used in English %%
 - **071/1877-05-13.md** para 071.0308 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "Veglione" - ITALIAN: masked ball, typically during carnival season %%
 - **071/1877-06-02.md** para 071.0541 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "tarentelle" - ITALIAN: tarantella; lively Italian folk dance %%
-- **071/1877-06-08.md** para 071.0607 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: "water-closet" - ENGLISH: toilet; the pun links the name "Chaussade/Closet" to toilet humor %%
-- **071/1877-06-10.md** para 071.0619 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN quotation from Dante's Inferno, Canto V: "Master, who are those people whom the black air so punishes?" %%
+- **071/1877-06-08.md** para 071.0605 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: "water-closet" - ENGLISH: toilet; the pun links the name "Chaussade/Closet" to toilet humor %%
+- **071/1877-06-10.md** para 071.0615 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN quotation from Dante's Inferno, Canto V: "Master, who are those people whom the black air so punishes?" %%
 - **072/1877-06-15.md** para 072.0059 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Guarda Don Bartolo" - "Look, Don Bartolo" - from the opera %%
 - **072/1877-06-18.md** para 072.0187 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "bulldog" - ENGLISH: English bulldog breed %%
 - **072/1877-06-18.md** para 072.0190 [LATIN]: %% 2026-02-02T13:00:00 LAN: "i.e." - LATIN: id est (that is); Marie codes Torlonia as "Torniole" %%
@@ -1348,13 +1348,13 @@ They need AI translation into French.
 - **073/1877-07-15.md** para withdrawn in the 2026-09 rebuild (old carnet 073 ¶0037; see content/_renumber/073-2026-09-28.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: "Gloriae Cupiditate" - LATIN: With desire for glory; Marie's motto for her journals %%
 - **073/1877-07-16.md** para 073.0022 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman-farmer" - ENGLISH: country gentleman who farms %%
 - **073/1877-07-16.md** para 073.0023 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman" - ENGLISH: gentleman; French lacks exact equivalent %%
-- **073/1877-07-20.md** para 073.0079 [CODE-SWITCH]: %% 2026-02-09T16:30:00 LAN: CODE-SWITCH: "en espagnol" - the father speaks Spanish to his daughter; Marie understands enough to follow the exchange %%
-- **073/1877-08-07.md** para 073.0315 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "gangster" - Marie uses English slang; likely means large/greedy eater (slang use, not modern criminal sense) %%
-- **073/1877-08-11.md** para 073.0397 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "dissipated" - dissolute/debauched; Marie uses English term for delicacy %%
-- **073/1877-08-13.md** para 073.0422 [RUSSIAN]: %% 2026-02-02T15:00:00 LAN: RUSSIAN PROVERB: "la langue n'a pas d'os" - the tongue has no bones (it can say anything); Russian saying about gossip %%
-- **073/1877-08-13.md** para 073.0424 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "stick" - walking stick/cane; English word used in French %%
-- **073/1877-08-13.md** para 073.0427 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: Miss Hall speaks in English; "ennuie" is French word used in English context %%
-- **073/1877-08-16.md** para 073.0472 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: Miss Hall speaks English to confide about baron's improper advances %%
+- **073/1877-07-20.md** para 073.0077 [CODE-SWITCH]: %% 2026-02-09T16:30:00 LAN: CODE-SWITCH: "en espagnol" - the father speaks Spanish to his daughter; Marie understands enough to follow the exchange %%
+- **073/1877-08-07.md** para 073.0303 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "gangster" - Marie uses English slang; likely means large/greedy eater (slang use, not modern criminal sense) %%
+- **073/1877-08-11.md** para 073.0384 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "dissipated" - dissolute/debauched; Marie uses English term for delicacy %%
+- **073/1877-08-13.md** para 073.0409 [RUSSIAN]: %% 2026-02-02T15:00:00 LAN: RUSSIAN PROVERB: "la langue n'a pas d'os" - the tongue has no bones (it can say anything); Russian saying about gossip %%
+- **073/1877-08-13.md** para 073.0411 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: "stick" - walking stick/cane; English word used in French %%
+- **073/1877-08-13.md** para 073.0414 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: Miss Hall speaks in English; "ennuie" is French word used in English context %%
+- **073/1877-08-16.md** para 073.0457 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: ENGLISH: Miss Hall speaks English to confide about baron's improper advances %%
 - **074/1877-08-30.md** para 074.0145 [ENGLISH]: %% 2026-02-09T12:00:00 LAN: ENGLISH: "skating" - roller-skating rink; fashionable leisure activity in 1870s spa towns %%
 - **074/1877-09-01.md** para 074.0185 [RUSSIAN]: %% 2026-02-09T12:00:00 LAN: RUSSIAN: "Varéniki" - varenyky; Ukrainian/Russian dumplings filled with cheese; Marie explains them in parentheses %%
 - **074/1877-09-02.md** para 074.0189 [ENGLISH]: %% 2026-02-09T12:00:00 LAN: ENGLISH: entire paragraph is in English; a quotation about Rome, possibly from Robert Browning or another English poet %%
