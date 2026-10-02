@@ -137,7 +137,7 @@ def main():
         if errs:
             rejects.append((pid, errs)); continue
         # entities to drop: existing non-theme tokens matching a removal key
-        def match(disp_, rel):
+        def match(disp_, rel, rm_keys=rm_keys):  # bind per paragraph (late-binding closure bug)
             return (disp_.lower() in rm_keys or rel.lower() in rm_keys
                     or rel.split('/')[-1].removesuffix('.md').lower() in rm_keys)
         hit = {k for k in rm_keys if any(k == dd.lower() or k == r.lower() or
