@@ -9,14 +9,14 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_READING.0001 %%
 ## Thematic Tag: Reading
 
 %% GLO_READING.0002 %%
-This thematic tag collects diary paragraphs where Marie discusses books she is reading, literary opinions, authors, and her engagement with written texts. With 718 references across the diary, reading is one of the most pervasive themes in Marie's life, rivaling fashion, social life, and art in frequency. Marie was a voracious, multilingual, and fiercely opinionated reader whose literary judgments reveal both her intellectual ambition and her temperament. She read in at least five languages (French, Russian, English, Italian, and some Latin), consuming everything from classical antiquity to the latest naturalist novels, from political journalism to the Bible.
+This thematic tag collects diary paragraphs where Marie discusses books she is reading, literary opinions, authors, and her engagement with written texts. Reading is one of the most pervasive themes in Marie's life, rivaling fashion, social life, and art. Marie was a voracious, multilingual, and fiercely opinionated reader whose literary judgments reveal both her intellectual ambition and her temperament. She read in at least five languages (French, Russian, English, Italian, and some Latin), consuming everything from classical antiquity to the latest naturalist novels, from political journalism to the Bible.
 
 %% GLO_READING.0003 %%
 ## Overview: Reading as Self-Education and Cultural Participation
@@ -223,16 +223,26 @@ Marie's diary reveals the material culture of books in the 1870s. She bought boo
 Marie's reading shaped her self-understanding and her ambitions. She measured herself against literary heroines and historical figures, drew political opinions from journalism, and found in books both consolation and provocation. Her literary judgments are characteristically sharp and confident --- she reads as she paints, with intensity and strong opinions. She was aware of the literary movements of her time, positioned her own diary within them (the *document humain*), and in her final year attempted to enter the literary world directly through her correspondence with Maupassant and her admiration of Zola. Her reading life reveals a mind that was encyclopedic in its appetites, independent in its judgments, and utterly serious in its engagement with literature as a means of understanding the world.
 
 %% GLO_READING.0066 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_READING.0067 %%
-Tag `[#Reading]` should be applied to paragraphs where Marie:
-- Discusses books she is reading or has read
-- Offers literary opinions or criticism
-- Mentions specific authors or works
-- Describes reading practices (reading aloud, buying books, choosing travel books)
-- Reads newspapers or periodicals for content (not merely mentions of a newspaper as a prop)
-- Discusses literature or the literary world more broadly
-- Uses literary references or allusions to frame her own experience
+- **Tag** a book read, bought or discussed, with a judgment.
+- **Tag** an author or a literary opinion.
+- **Tag** reading habits, reading aloud, the literary world.
+- **Tag** newspaper articles read for their content.
+- **Do not tag** bibliomancy ([Omens & Superstition](SUPERSTITION.md)).
+- **Do not tag** "journal" as the diary ([The Diary](META_DIARY.md)).
+- **Do not tag** a book merely mentioned as an object.
+- **Do not tag** politics read in the press when the paragraph is about politics ([Politics](POLITICS.md)).
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
+
+%% GLO_READING.0068 %%
+## Common French Cues
+
+%% GLO_READING.0069 %%
+- **Verbs**: lire, relire, dévorer, feuilleter, parcourir
+- **Nouns**: le livre, le roman, l'auteur, la lecture, la bibliothèque, le journal (newspaper)
+- **False friends**: *journal* = newspaper or diary; *lecture* as a lecture; *roman* = novel
 
 %% 2026-05-24T12:00:00 RSR: Comprehensive expansion of READING thematic tag. Systematically searched all 107 carnets for reading-related vocabulary (lu, lire, livre, roman, lecture) and specific author names. Identified and catalogued references to 30+ authors across five languages. Added diary quotes for all major literary opinions. New sections on literary culture of the 1870s-80s, women and reading, newspapers and periodicals, reading practices, and multilingual reading. Wikipedia links added for all major authors and literary movements. Sources: Kernberger (2013) for biographical context; diary entries across carnets 000-106 for primary evidence; Brown, K., Women Readers in French Painting 1870-1890; EHNE, "Woman readers and women's reading in Europe"; Wikipedia for literary movement overviews. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

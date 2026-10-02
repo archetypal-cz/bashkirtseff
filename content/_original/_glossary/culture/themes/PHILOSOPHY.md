@@ -6,14 +6,14 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_PHILOSOPHY.0001 %%
 ## Thematic Tag: Philosophy
 
 %% GLO_PHILOSOPHY.0002 %%
-This thematic tag collects diary paragraphs where Marie engages with philosophical ideas, existential questions, reflections on the nature of life, death, fame, truth, morality, and human existence. With 394 references across the diary, it is one of the most frequently applied tags, reflecting the centrality of philosophical inquiry to Marie's intellectual life.
+This thematic tag collects diary paragraphs where Marie engages with philosophical ideas, existential questions, reflections on the nature of life, death, fame, truth, morality, and human existence. It is one of the diary's recurring themes, reflecting the centrality of philosophical inquiry to Marie's intellectual life.
 
 %% GLO_PHILOSOPHY.0003 %%
 ## Overview
@@ -270,35 +270,26 @@ Marie's claim to practice "haute philosophie" (Carnet 051, December 26, 1875) is
 [Diogenes](https://en.wikipedia.org/wiki/Diogenes) appears throughout the diary not as an object of study but as a recurring metaphor. Marie uses "faux Diogene" (false Diogenes) as her term for intellectual frauds -- people who affect philosophical detachment they do not possess: "Rien de degoutant comme ces miserables barbouilleurs qui se moquent de tout ce qui doit etre sacre pour le vrai artiste... ces faux Diogene !" (Carnet 076, November 29, 1877). She also invokes Diogenes' famous lantern search for an honest man: "La lanterne de mon imagination est allumee, serai-je plus heureuse que le sale fou qu'on nommait Diogene ?" (Carnet 064, August 10, 1876).
 
 %% GLO_PHILOSOPHY.0049 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_PHILOSOPHY.0050 %%
-### When to Apply This Tag
-
-Apply the `#Philosophy` tag to paragraphs where Marie:
-- Explicitly discusses philosophical ideas, quotes philosophers, or references philosophical texts
-- Engages in sustained abstract reasoning about existence, God, morality, truth, or human nature
-- Reflects on the meaning of life, death, fame, suffering, or destiny at a level beyond personal complaint
-- Discusses philosophical movements or ideas of her era (positivism, skepticism, Stoicism)
-- Debates or argues with philosophical positions (e.g., arguing with Plutarch, qualifying Epictetus)
+- **Tag** a general proposition about life, fate, truth, morality or human nature argued or weighed.
+- **Tag** reflection on the meaning of life, suffering, fame or destiny beyond personal complaint.
+- **Tag** a philosopher or philosophical idea engaged with (Epictetus, Plutarch, the moralists), not merely named.
+- **Tag** positions of her era (positivism, scepticism, Stoicism) discussed.
+- **Do not tag** the word "existence" or "philosophe" used casually ("philosophe résignée").
+- **Do not tag** a brief fatalistic remark ("c'est la vie").
+- **Do not tag** a book merely read or named ([Reading](READING.md)).
+- **Do not tag** a personal complaint with no general turn ([Self-Analysis](EMOTIONS.md)).
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_PHILOSOPHY.0051 %%
-### When NOT to Apply This Tag
-
-Do not apply `#Philosophy` when Marie:
-- Simply mentions a philosopher's name in passing without philosophical content
-- Uses philosophical vocabulary casually (e.g., "philosophe resigne" as a character description)
-- Makes brief fatalistic remarks without developing them ("c'est la vie")
-- References philosophical works as reading material without engaging with their ideas
+## Common French Cues
 
 %% GLO_PHILOSOPHY.0052 %%
-### Overlapping Tags
-
-Philosophy frequently overlaps with:
-- `#Religion` -- for God/faith questions (use both when philosophical reasoning is applied to religious questions)
-- `#Mortality` / `#Death` -- for existential confrontation with death
-- `#Reading` -- when engaging with specific philosophical texts
-- `#Emotions` -- when philosophical reflection arises from emotional crisis
-- `#Meta_diary` -- when the diary itself becomes a philosophical instrument
+- **Nouns**: la vie, le destin, la vérité, la morale, la nature humaine, le bien et le mal, la vertu, la fatalité
+- **Phrases**: "en somme", "l'homme est", "la vie est", "à quoi bon", "qu'est-ce que la"
+- **False friends**: *existence* (a dull life); *philosophe* as a character label; *raison* as simple cause
 
 %% 2026-05-24T12:00:00 RSR: Comprehensive expansion of philosophical thematic tag. Added historical context (positivism, crisis of faith, Taine, Renan), documented Marie's engagement with the French moralist tradition (La Rochefoucauld, Montaigne, La Bruyere), traced her Stoic practice through Epictetus across the diary (1876-1880), added sections on philosophy and illness (chronological intensification), women and philosophy (the autodidact's position), Diogenes/Cynics, and Balzac's theory of willpower. All quotes sourced directly from the French originals with carnet and date citations. Historical claims sourced from Wikipedia-linked scholarship. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

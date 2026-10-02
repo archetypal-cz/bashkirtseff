@@ -1,19 +1,20 @@
 ---
 id: ART_PRACTICE
-name: Art Practice
+name: Her Art
 aliases:
   - Art Practice
+  - Her Art
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_ART_PRACTICE.0001 %%
 ## Thematic Tag: Art Practice
 
 %% GLO_ART_PRACTICE.0002 %%
-This thematic tag collects diary paragraphs where Marie discusses her own artistic work -- painting, drawing, sculpture, studio practice, exhibitions, artistic ambition, and the technical and emotional process of making art. It is the **#4 most-referenced tag** in the diary (~1,498 references), reflecting art's centrality to Marie's identity from 1877 until her death.
+This thematic tag collects diary paragraphs where Marie discusses her own artistic work -- painting, drawing, sculpture, studio practice, exhibitions, artistic ambition, and the technical and emotional process of making art. It is the diary's strongest professional theme, reflecting art's centrality to Marie's identity from 1877 until her death.
 
 %% GLO_ART_PRACTICE.0003 %%
 ## Overview
@@ -303,32 +304,28 @@ Both Marie and her artistic idol Bastien-Lepage died in the same year, 1884 -- s
 - **Les Suissesses** — "the Swiss girls"; Breslau, Schaeppi, Zeller, Forchhammer
 
 %% GLO_ART_PRACTICE.0067 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_ART_PRACTICE.0068 %%
-### When to Apply This Tag
-
-Apply `[#Art_practice]` to paragraphs where Marie:
-- Describes working in the studio (painting, drawing, sculpting)
-- Discusses a specific painting or artwork she is creating
-- Records concours results or teacher critiques
-- Assesses her own artistic progress or abilities
-- Discusses the Salon (submissions, hanging, reception, awards)
-- Articulates her artistic philosophy or aesthetic views
-- Discusses other artists' work in terms relevant to her own practice
-- Records encounters with other artists in a professional context (not purely social)
-- Describes art materials, techniques, or processes
+- **Tag** Marie's own drawing, painting or sculpture: the work in progress, the studio, models.
+- **Tag** teachers' critiques, concours results, her progress and self-judgment.
+- **Tag** her Salon submissions and their reception.
+- **Tag** her artistic ambition and aesthetic views when tied to her own practice.
+- **Do not tag** other people's pictures, museums and exhibitions ([Art World](ART_WORLD.md)).
+- **Do not tag** the atelier mentioned only as a location.
+- **Do not tag** art discussed as a social outing.
+- **Do not tag** admiration of a picture with no link to her own work.
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_ART_PRACTICE.0069 %%
-### When NOT to Apply
-
-Do not apply when Marie:
-- Merely visits an exhibition as a spectator without professional commentary
-- Mentions the atelier only as a location (e.g., "on the way to the atelier")
-- Discusses art purely as a social activity (e.g., visiting galleries with suitors)
-- References a painting she admires without connecting it to her own practice
+## Common French Cues
 
 %% GLO_ART_PRACTICE.0070 %%
+- **Nouns**: l'atelier, le modèle, le concours, le Salon, le tableau, la toile, l'esquisse, la palette, le pastel
+- **Verbs**: peindre, dessiner, travailler (at the easel), poser, sculpter
+- **False friends**: *travailler* can mean to study ([Studies & Lessons](EDUCATION.md)); *poser* is the model's act
+
+%% GLO_ART_PRACTICE.0071 %%
 ## Related Entries
 
 - [#Marie_Bashkirtseff_Works](../art/MARIE_BASHKIRTSEFF_WORKS.md) -- gallery of her surviving and lost works
@@ -336,10 +333,10 @@ Do not apply when Marie:
 - [#Robert_Fleury](../../people/artists/ROBERT_FLEURY.md) -- her principal teacher
 - [#Louise_Breslau](../../people/mentioned/LOUISE_BRESLAU.md) -- her chief rival
 - [#Salon](../art/SALON.md) -- the annual exhibition
-- [#Politics](POLITICS.md) -- includes Marie's feminist advocacy for women artists
+- [#Women](WOMEN.md) -- Marie's feminist advocacy and the barriers facing women artists
 - [#Marie_Bashkirtseff](../../people/family/MARIE_BASHKIRTSEFF.md) -- the main biographical entry
 
-%% GLO_ART_PRACTICE.0071 %%
+%% GLO_ART_PRACTICE.0072 %%
 ## Sources
 
 - [Marie Bashkirtseff -- Wikipedia](https://en.wikipedia.org/wiki/Marie_Bashkirtseff)
@@ -360,3 +357,4 @@ Do not apply when Marie:
 %% 2026-02-10T20:00:00 RSR: Created thematic tag. Art practice becomes the diary's dominant professional theme from 1877 onward. %%
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion from stub to full thematic reference. Added cultural/historical context (Paris Salon, Academic vs. Impressionist divide, Naturalism, women's barriers), detailed Academie Julian section, chronological artistic development with diary quotes, major works with descriptions (Le Meeting, In the Studio, Les Saintes Femmes, etc.), teachers and mentors (Robert-Fleury, Lefebvre, Bastien-Lepage with extensive diary evidence), competition/rivalry section (concours, Breslau), Marie's artistic philosophy with key quotes (naturalism manifesto, originality imperative, sincerity), Salon career table, art and illness section, substantially expanded artistic vocabulary (studio terms, work stages, competition/exhibition terms, artistic terms, personal nicknames), and detailed usage notes for tagging. All diary quotes sourced from original entries. Historical context sourced from Wikipedia (Academie Julian, Paris Salon, Bastien-Lepage, Academic art, Impressionism, Breslau, women in art), AWARE Women Artists, Clark Art Institute, Metropolitan Museum, Panorama de l'art. %%
 %% 2026-10-02T14:00:00 RSR: Salon career corrected against the culture/art entries and the 1885 catalogue: the mention honorable was 1883 (Dina pastel, Portrait de Mlle de B., no. 106), not 1884; the year without a Salon was 1882 (094.0270), not 1883; Un meeting went alone in 1884 (103.0472) and won no award; signatures 1880 "Marie Constantin Russ", 1881 "Andrey". Also fixed in Major Works: Dina pastel dated 1882 and shown 1883; Un meeting 193 x 177 cm per POP, no 1884 mention, acquisition date unsettled; Saintes Femmes an unrealised 1880-84 project, not her last picture (La Rue); Autoportrait c. 1880-1883 (disputed); unsourced "galerie du pourtour" claim for 1880 removed. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

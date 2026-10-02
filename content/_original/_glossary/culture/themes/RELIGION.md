@@ -1,19 +1,20 @@
 ---
 id: RELIGION
-name: Religion
+name: Faith & Prayer
 aliases:
   - Religion
+  - Faith & Prayer
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_RELIGION.0001 %%
 ## Thematic Tag: Religion
 
 %% GLO_RELIGION.0002 %%
-This thematic tag collects diary paragraphs where Marie discusses religion, prayer, God, faith, doubt, church attendance, religious ritual, superstition, and spiritual matters. With 1,548 references across the diary, it is the third most frequently used tag, reflecting how thoroughly religious life permeated Marie's existence -- not as conventional piety, but as a passionate, transactional, deeply personal dialogue with the divine that evolved from a girl's bargaining prayers to a dying woman's desperate pleas for healing.
+This thematic tag collects diary paragraphs where Marie discusses religion, prayer, God, faith, doubt, religious ritual, and spiritual matters. It is one of the diary's recurring themes, reflecting how thoroughly religious life permeated Marie's existence -- not as conventional piety, but as a passionate, transactional, deeply personal dialogue with the divine that evolved from a girl's bargaining prayers to a dying woman's desperate pleas for healing.
 
 %% GLO_RELIGION.0003 %%
 ## Overview: Marie's Religious Universe
@@ -274,25 +275,29 @@ Marie worshipped in Russian Orthodox churches across Europe and visited Catholic
 - **Nice, aboard a Russian naval vessel** (1875): Marie attended an Orthodox service on ship where the Empress was present
 
 %% GLO_RELIGION.0071 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_RELIGION.0072 %%
-Tag paragraphs with `[#Religion]` when they contain:
-- Direct prayer or address to God, Christ, the Virgin Mary, or saints
-- Church attendance, liturgical services, confession, communion
-- Religious feast days (Easter/Paques, Christmas/Noel, Lent/Careme, etc.)
-- Discussion of faith, doubt, theology, or God's existence
-- Religious art criticism (in churches, not secular museum contexts)
-- Superstition, fortune-telling, and folk beliefs with religious overtones
-- Clergy, monks, religious institutions
-- Religious objects: icons, candles, relics, holy water, crosses
+- **Tag** prayer, a vow or a bargain with God; thanking or blaming God.
+- **Tag** faith, doubt, theology, an argument about God or the afterlife.
+- **Tag** religious reflection about people, tradition or clergy (Orthodox, Catholic).
+- **Tag** religious feasts and rites as faith, not as attendance.
+- **Do not tag** "mon Dieu!", "ma foi", "grâce à Dieu" as interjections.
+- **Do not tag** "prier" meaning to ask politely.
+- **Do not tag** church attendance alone ([Church Attendance](CHURCH.md)).
+- **Do not tag** superstition, omens and fortune-telling ([Omens & Superstition](SUPERSTITION.md)).
+- **Do not tag** political anticlericalism ([Politics](POLITICS.md)).
+- Church attendance is tagged separately under [Church Attendance](CHURCH.md), and omens and fortune-telling under [Omens & Superstition](SUPERSTITION.md); the sections below keep the historical context.
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_RELIGION.0073 %%
-Do NOT tag:
-- Casual exclamations ("Mon Dieu!" as interjection without religious content)
-- "Grace a Dieu" as mere idiom
-- References to church architecture without religious discussion
-- Political anticlericalism (tag with `[#Politics]` instead)
+## Common French Cues
+
+%% GLO_RELIGION.0074 %%
+- **Nouns**: Dieu, la prière, le bon Dieu, la foi, le Christ, la Vierge, un vœu, un cierge, l'âme, le prêtre
+- **Verbs**: prier, croire, douter, remercier Dieu, implorer
+- **False friends**: *prier* = to ask ("je vous prie"); *ma foi* = indeed; *foi* also = fidelity; "le bon Dieu" as a figure of speech
 
 %% 2026-02-10T20:00:00 RSR: Created thematic tag. Religion is a constant undercurrent in the diary, intensifying during crises. %%
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion. Added cultural-historical context (French secularization, crisis of faith, Roman Question, women and religion), detailed sections on Russian Orthodoxy (churches, Easter, Kiev Lavra, Marie's critique), Catholicism, prayer as negotiation with diary quotes across periods (childhood through illness), faith and doubt, superstition and folk belief, religious art criticism, and a full church directory. Sources: Wikipedia articles on Russian Orthodox Cathedral Nice, Alexander Nevsky Cathedral Paris, Kyiv Pechersk Lavra, Jules Ferry laws, Ernest Renan, Prisoner in the Vatican, Epitaphios liturgical. All diary quotations verified against content/_original/. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

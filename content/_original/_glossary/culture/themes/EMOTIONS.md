@@ -1,20 +1,21 @@
 ---
 id: EMOTIONS
-name: Emotions
+name: Self-Analysis
 aliases:
   - Emotions
   - Emotional self-analysis
+  - Self-Analysis
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_EMOTIONS.0001 %%
 ## Thematic Tag: Emotions
 
 %% GLO_EMOTIONS.0002 %%
-This thematic tag collects diary paragraphs where Marie explicitly names, analyzes, or dwells on her emotional states -- not simply feeling emotions (every entry does that) but passages where emotion itself becomes the subject of reflection. With 1,228 references across the diary, it is one of the most frequently applied tags, reflecting Marie's extraordinary commitment to mapping her inner life.
+This thematic tag collects diary paragraphs where Marie explicitly names, analyzes, or dwells on her emotional states -- not simply feeling emotions (every entry does that) but passages where emotion itself becomes the subject of reflection. It is one of the diary's recurring themes, reflecting Marie's extraordinary commitment to mapping her inner life.
 
 %% GLO_EMOTIONS.0003 %%
 ## Overview: Marie as Pioneer of Emotional Self-Analysis
@@ -206,31 +207,28 @@ Marie uses "ennui" in multiple registers:
 The relationship between ennui and creative drive is central to Marie's psychology. Ennui is both the disease and the goad -- the suffering that makes her want to paint, write, and achieve, and the emptiness that threatens to swallow all achievement. This places her squarely in the tradition of what the [Romantics](https://en.wikipedia.org/wiki/Romanticism) called [*mal du siecle*](https://en.wikipedia.org/wiki/Mal_du_si%C3%A8cle) -- the sickness of the age, the restless dissatisfaction of a generation that felt itself born too late for heroism and too early for liberation.
 
 %% GLO_EMOTIONS.0053 %%
-## Usage Notes: Tagging Guidelines
+## Tagging Criteria
 
 %% GLO_EMOTIONS.0054 %%
-Apply the EMOTIONS tag to paragraphs where Marie:
-- **Explicitly names** an emotional state ("je suis triste," "je suis furieuse," "je suis au desespoir")
-- **Analyzes** why she feels what she feels, or questions whether the feeling is genuine
-- **Theorizes** about emotions in general (the nature of anger vs. grief, the two selves, love as a "fluide")
-- **Performs emotional self-observation** ("j'assiste en spectatrice," mirror-writing)
-- **Documents rapid mood changes** within a single passage
-- **Connects emotions to physical symptoms** (tears, nervous attacks, facial changes)
+- **Tag** emotion **as the subject**: Marie analysing why she feels something or how she is changing.
+- **Tag** self-examination of her character, contradictions, moods and motives.
+- **Tag** questioning whether a feeling is genuine, the "two selves", the spectator posture.
+- **Tag** a theory of emotion or character drawn from her own case.
+- **Do not tag** an emotion merely expressed ("je suis furieuse", "j'ai pleuré") with no reflection.
+- **Do not tag** others' tears and moods that are not turned back on herself.
+- **Do not tag** "ennui" in the casual sense of "annoyance".
+- **Do not tag** a love or health episode narrated without self-analysis ([Love](LOVE.md), [Health & Illness](HEALTH.md)).
+- Where the analysis becomes a general proposition, also consider [Philosophy](PHILOSOPHY.md); where it is about the act of writing, [The Diary](META_DIARY.md).
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_EMOTIONS.0055 %%
-Do **not** tag paragraphs where:
-- Emotion is merely present in the narrative (she describes a sad event) without Marie reflecting on her emotional response
-- She describes others' emotions without connecting them to her own
-- The word "ennui" is used in its casual sense of "annoying" rather than existential boredom
+## Common French Cues
 
 %% GLO_EMOTIONS.0056 %%
-### Related Tags
-- **[LOVE](LOVE.md)** -- romantic emotions specifically
-- **[MORTALITY](MORTALITY.md)** -- fear of death, grief
-- **[META_DIARY](META_DIARY.md)** -- when emotional self-analysis becomes reflection on the act of writing
-- **[HEALTH](HEALTH.md)** -- when emotional states have physical manifestations
-- **[PHILOSOPHY](PHILOSOPHY.md)** -- when emotional analysis becomes philosophical theorizing
-- **[ART_PRACTICE](ART_PRACTICE.md)** -- when emotions connect to artistic creation
+- **Phrases**: "pourquoi suis-je", "je ne me comprends pas", "je me demande", "je me connais", "mon caractère", "je suis ainsi"
+- **Nouns**: le caractère, l'humeur, la nature (temperament), les nerfs, la contradiction
+- **False friends**: *ennui* (deep boredom) versus a nuisance; *nerveux* as a medical term (Health)
 
 %% 2026-02-11T13:00:00 RSR: Created thematic tag. Emotional self-analysis is a constant feature; this tag marks passages where it is particularly explicit. %%
 %% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Added sections on emotional culture of the 1870s-80s (Romanticism, neurasthenia, gender and performance), expanded emotional vocabulary with frequency counts, documented emotional patterns (weather reports, rapid oscillation, triggers, disproportionate reactions), Marie's self-analysis (two selves, authenticity questioning, spectator posture, emotional taxonomy), code-switching across languages, emotions and art, the diary as emotional technology, and ennui as signature emotion. All quotations sourced from diary entries with carnet and date references. Historical context draws on the History of Emotions field (Scheer), Baudelaire scholarship, neurasthenia research (Beard, 1869), and Romantic literary tradition. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

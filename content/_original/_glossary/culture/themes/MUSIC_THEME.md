@@ -6,14 +6,14 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_MUSIC_THEME.0001 %%
 ## Thematic Tag: Music
 
 %% GLO_MUSIC_THEME.0002 %%
-This thematic tag collects diary paragraphs where Marie discusses music --- attending opera and concerts, her own singing and vocal studies, piano and instrumental playing, and music as emotional experience. With over 1,000 tagged references, music is one of the diary's most pervasive themes, reflecting both its centrality to Marie's early ambitions and its role as social ritual, emotional catalyst, and measure of cultural sophistication throughout the twelve years of the journal.
+This thematic tag collects diary paragraphs where Marie discusses music --- attending opera and concerts, her own singing and vocal studies, piano and instrumental playing, and music as emotional experience. Music is one of the diary's most pervasive themes, reflecting both its centrality to Marie's early ambitions and its role as social ritual, emotional catalyst, and measure of cultural sophistication throughout the twelve years of the journal.
 
 %% GLO_MUSIC_THEME.0003 %%
 ## Marie's Singing Career
@@ -128,7 +128,7 @@ Music served as Marie's most reliable emotional trigger. The diary contains some
 ## Domestic Music and Instruments
 
 %% GLO_MUSIC_THEME.0019 %%
-Music was woven into daily domestic life. Marie played piano from childhood --- four hours daily in 1873 (carnet 007, 14 July 1873) --- and the piano appears in nearly 240 entries. She studied Chopin, Beethoven ("les deux divines marches"), Bach (fugues), and improvised freely. She also played guitar (first lesson January 1878, carnet 077), harp (lessons planned in Paris, 1876), and mandoline (at Mont-Dore: "je joue de la mandoline, cela adoucit les moeurs," carnet 089, 24 July 1880).
+Music was woven into daily domestic life. Marie played piano from childhood --- four hours daily in 1873 (carnet 007, 14 July 1873) --- and the piano appears in a great many entries. She studied Chopin, Beethoven ("les deux divines marches"), Bach (fugues), and improvised freely. She also played guitar (first lesson January 1878, carnet 077), harp (lessons planned in Paris, 1876), and mandoline (at Mont-Dore: "je joue de la mandoline, cela adoucit les moeurs," carnet 089, 24 July 1880).
 
 The household was musical. [Villevieille](../../places/cities/VILLEVIEILLE.md) "joue du piano comme un ange, le piano que l'on deteste devient un instrument delicieux sous ses doigts" (carnet 094, 19 December 1881). At Parisian soirees, the painter [Carolus-Duran](https://en.wikipedia.org/wiki/Carolus-Duran) sang and played guitar with a cigarette between his teeth (carnet 098, 2 February 1883). In salon settings, amateur performances ranged from the sublime to the embarrassing: "Un bel homme qui chante la serenade de Schubert apres avoir... lance a l'assistance des regards de vainqueur et une attitude. Si ridicule !" (carnet 088, 26 April 1880).
 
@@ -187,6 +187,28 @@ Music serves multiple functions in the diary:
 6. **Temporal marker**: "Chaque annee a sa romance" --- each year has its song. Music provides the emotional soundtrack to successive chapters of Marie's life, from the *Mignon* of the Audiffret period to the *Aida* of the Antonelli obsession.
 
 %% GLO_MUSIC_THEME.0031 %%
+## Tagging Criteria
+
+%% GLO_MUSIC_THEME.0032 %%
+- **Tag** Marie's voice and singing: lessons, practice, loss of the voice.
+- **Tag** piano and instrumental playing.
+- **Tag** a concert or music heard and judged.
+- **Tag** the music of an opera or operetta when the paragraph speaks of the music.
+- **Do not tag** a night at the opera with no word on the music ([Theatre & Opera](THEATER_THEME.md)).
+- **Do not tag** a singing career as ambition alone ([Ambition & Fame](AMBITION.md)).
+- **Do not tag** music playing in the background of a scene.
+- **Do not tag** the opera house as a social venue ([Society & Reputation](SOCIETY.md)).
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
+
+%% GLO_MUSIC_THEME.0033 %%
+## Common French Cues
+
+%% GLO_MUSIC_THEME.0034 %%
+- **Nouns**: le chant, la voix, le piano, le concert, la musique, la romance, la partition, le chanteur
+- **Verbs**: chanter, jouer (an instrument), s'accompagner, déchiffrer
+- **False friends**: *jouer* (instrument versus game or play); *la musique* = the military or public band
+
+%% GLO_MUSIC_THEME.0035 %%
 ## See Also
 
 - [#Opera_Nice](../../places/theaters/OPERA_NICE.md) --- The Opera de Nice
@@ -197,7 +219,7 @@ Music serves multiple functions in the diary:
 - [#Emotions](../../culture/themes/EMOTIONS.md) --- Emotions thematic tag
 - [#Health](../../culture/themes/HEALTH.md) --- Health thematic tag (voice loss)
 
-%% GLO_MUSIC_THEME.0032 %%
+%% GLO_MUSIC_THEME.0036 %%
 ## External References
 
 - [Opera](https://en.wikipedia.org/wiki/Opera) --- Wikipedia overview
@@ -213,3 +235,4 @@ Music serves multiple functions in the diary:
 
 %% 2026-02-10T20:00:00 RSR: Created thematic tag. Music is prominent throughout the diary, especially in Nice entries. %%
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion. Researched Marie's singing career (teachers: Fiacciotti, Facciotti, Fosti, Cresci, Wartel, Laurenti, Marchesi mention), vocal range (nearly 3 octaves), the progressive voice loss from tuberculosis (1873-1881), operas attended (Verdi, Donizetti, Gounod, Meyerbeer, Thomas, Offenbach), key emotional passages about music, public concert culture (Nice "la musique", Rome Pincio, Paris Pasdeloup/Colonne/Lamoureux), opera houses (Nice, Palais Garnier, Vienna), and cultural context (Wagner controversy, bel canto tradition, operetta). Sources: diary entries across carnets 004-104; Wartel biography via Wikipedia (Pierre-Francois Wartel, 1806-1882); Marchesi biography via Wikipedia and Britannica; Patti career via Wikipedia; Palais Garnier history via Wikipedia and operadeparis.fr; Opera de Nice history via Wikipedia and opera-nice.org; Pasdeloup concerts via Wikipedia and dezede.org. Per Kernberger (2013), Marie's voice loss was the pivotal event redirecting her ambition from singing to painting. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

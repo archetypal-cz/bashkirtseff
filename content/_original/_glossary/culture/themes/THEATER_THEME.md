@@ -1,19 +1,20 @@
 ---
 id: THEATER_THEME
-name: Theater
+name: Theatre & Opera
 aliases:
   - Theater
+  - Theatre & Opera
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_THEATER_THEME.0001 %%
 ## Thematic Tag: Theater
 
 %% GLO_THEATER_THEME.0002 %%
-This thematic tag collects diary paragraphs where Marie discusses theatrical performances, plays, actors, the theater as social venue, and theatrical metaphors for life. With 796 references across the diary, theater is one of the most pervasive themes in Marie's world -- encompassing everything from her attendance at premieres and operettas to her acute awareness that she is always, in some sense, performing.
+This thematic tag collects diary paragraphs where Marie discusses theatrical performances, plays, actors, the theater as social venue, and theatrical metaphors for life. Theater is one of the most pervasive themes in Marie's world -- encompassing everything from her attendance at premieres and operettas to her acute awareness that she is always, in some sense, performing.
 
 %% GLO_THEATER_THEME.0003 %%
 ## Overview
@@ -266,23 +267,31 @@ The contrast between the Nice and Paris theater scenes shaped Marie's cultural d
 - [#Fourth_Wall](FOURTH_WALL.md) -- Marie's meta-awareness of performance
 
 %% GLO_THEATER_THEME.0052 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_THEATER_THEME.0053 %%
-Tag paragraphs with `[#Theater](THEATER_THEME.md)` when Marie:
-- Attends or discusses a theatrical performance (play, opera, operetta, ballet, concert)
-- Describes the theater as social venue (boxes, intermissions, being seen)
-- Uses theatrical metaphors for life, performance, or self-awareness
-- References specific plays, actors, or playwrights
-- Discusses the relationship between art and performance
-- Compares herself to actresses or theatrical figures
-
-Do NOT use this tag for mere mentions of a theater building as a location without theatrical content. For specific venue references, use the appropriate places/theaters entry instead.
+- **Tag** a performance attended: a play, opera, operetta or ballet, with a judgment or an account.
+- **Tag** actors and singers discussed as performers.
+- **Tag** the theatre as a place: the box, the house, intermissions, being seen.
+- **Tag** a particular play or role discussed.
+- **Do not tag** theatrical metaphors for life with no performance in view.
+- **Do not tag** the music of the work when that is the point ([Music](MUSIC_THEME.md)).
+- **Do not tag** the opera house as an address.
+- **Do not tag** society chat at the theatre with no performance ([Society & Reputation](SOCIETY.md)).
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_THEATER_THEME.0054 %%
-## Key Wikipedia Links
+## Common French Cues
 
 %% GLO_THEATER_THEME.0055 %%
+- **Nouns**: le théâtre, l'Opéra, la pièce, la loge, l'entracte, le parterre, la première, l'actrice, la Comédie-Française
+- **Verbs**: aller au théâtre, jouer (a role), applaudir, siffler
+- **False friends**: *jouer* (to act); *scène* (stage, or a quarrel)
+
+%% GLO_THEATER_THEME.0056 %%
+## Key Wikipedia Links
+
+%% GLO_THEATER_THEME.0057 %%
 - [Nineteenth-century theatre](https://en.wikipedia.org/wiki/Nineteenth-century_theatre)
 - [Theatre of France](https://en.wikipedia.org/wiki/Theatre_of_France)
 - [Comedie-Francaise](https://en.wikipedia.org/wiki/Com%C3%A9die-Fran%C3%A7aise)
@@ -305,3 +314,4 @@ Do NOT use this tag for mere mentions of a theater building as a location withou
 
 %% 2026-02-10T20:00:00 RSR: Created thematic tag. Theater references throughout the diary, both literal and metaphorical. %%
 %% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Added historical context on theater's pre-cinema dominance, coverage of major French playwrights (Dumas fils, Sardou, Augier, Labiche, Pailleron), detailed catalogue of plays Marie attended with dates and verdicts, analysis of the social dimension (boxes, dress, intermissions, marriage market, politics), expanded Life as Theater section with direct quotes, The Stars of the Stage (Bernhardt, Mounet-Sully, Coquelin brothers, Samary) with Marie's own assessments, Nice vs Paris comparison, full venue cross-references, and Wikipedia links throughout. Sources: Wikipedia articles on all named playwrights and venues; Britannica (Sardou, Augier); EBSCO Research Starters (Sardou, Augier); Opera de Paris website (Palais Garnier history); diary entries across carnets 004-105. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

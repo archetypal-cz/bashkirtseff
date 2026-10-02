@@ -6,7 +6,7 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Moderate
-last_updated: 2026-02-10
+last_updated: 2026-10-02
 ---
 
 %% GLO_TRAVEL.0001 %%
@@ -44,4 +44,27 @@ Journeys mark major transitions in the diary. Marie describes the practical deta
 - **Ship**: For Mediterranean crossings
 - **On foot**: Walking as both exercise and social activity
 
+%% GLO_TRAVEL.0009 %%
+## Tagging Criteria
+
+%% GLO_TRAVEL.0010 %%
+- **Tag** a journey under way or beginning: departure, train, ship, crossing, arrival.
+- **Tag** the practicalities of travel: coupés, luggage, hotels on arrival.
+- **Tag** transitions between cities and countries.
+- **Tag** a stay abroad when the paragraph is about moving or arriving.
+- **Do not tag** a drive or a walk in town.
+- **Do not tag** a place named only as the setting of a scene.
+- **Do not tag** a landscape seen from the window ([Nature & Landscape](NATURE.md)) unless the journey itself is narrated.
+- **Do not tag** a thermal cure as medicine ([Health & Illness](HEALTH.md)).
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
+
+%% GLO_TRAVEL.0011 %%
+## Common French Cues
+
+%% GLO_TRAVEL.0012 %%
+- **Nouns**: le voyage, le train, le wagon, le coupé, la gare, le bateau, l'hôtel, les bagages, l'arrivée, le départ
+- **Verbs**: partir, arriver, voyager, traverser, s'embarquer
+- **False friends**: *départ* (also as a start); *course* (a ride or a race); *station* (a resort)
+
 %% 2026-02-10T20:00:00 RSR: Created thematic tag. Marie's extensive travel is a defining feature of the diary. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

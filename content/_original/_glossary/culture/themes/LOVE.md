@@ -6,14 +6,14 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_LOVE.0001 %%
 ## Thematic Tag: Love
 
 %% GLO_LOVE.0002 %%
-This thematic tag collects diary paragraphs where Marie writes about romantic love, desire, marriage, jealousy, and the anguish of unrequited passion. With 1,690 references across the diary, love is among the most tagged themes and functions as the diary's dominant emotional register from 1873 to approximately 1880, after which art and mortality gradually overtake it.
+This thematic tag collects diary paragraphs where Marie writes about romantic love, desire, marriage, jealousy, and the anguish of unrequited passion. Love functions as the diary's dominant emotional register from 1873 to approximately 1880, after which art and mortality gradually overtake it.
 
 %% GLO_LOVE.0003 %%
 ## Overview: Love as the Diary's Emotional Engine
@@ -226,24 +226,27 @@ Marie was also shaped by non-fictional reading. *Louis XIV et son siècle* (prob
 One of the diary's most distinctive features is Marie's recognition that the act of writing about love served as a substitute for the experience itself. Writing was where she "conjugated the verb to love on every tone." The diary received what no suitor could: complete access to her interior life. She addressed it, apostrophized her future readers, and used writing to process emotions that had no other outlet. As she put it: "Il y a des choses qui vous détruiraient si vous ne les destiniez à être lues et par conséquent divisées à l'infini" (There are things that would destroy you if you did not destine them to be read and consequently divided to infinity) (1879-03-09). Pain shared with future readers was pain diluted -- the diary as therapeutic institution.
 
 %% GLO_LOVE.0062 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_LOVE.0063 %%
-Tag `[#Love]` for paragraphs where Marie:
-- Discusses or reflects on romantic love, desire, or attraction
-- Describes specific interactions with romantic interests
-- Analyzes the institution of marriage
-- Expresses jealousy about rivals or other women's romantic success
-- Reflects on the tension between love and ambition/art
-- Discusses the "old maid" fear or the marriage market
-- Uses love vocabulary in a sustained or significant way
-- Reflects on love in literature or compares her experience to literary models
+- **Tag** Marie's feelings for or about a lover or suitor: desire, longing, jealousy, heartbreak, hope.
+- **Tag** a flirtation or an encounter with a romantic interest, described or analysed.
+- **Tag** reflection on love in general, or on love against ambition and art.
+- **Tag** another person's romance when Marie reads it as a mirror of her own.
+- **Do not tag** "cœur" and "par cœur", "j'aime" about things, places, art or food.
+- **Do not tag** family affection and friendship (see [Family Life](FAMILY.md)).
+- **Do not tag** a marriage plan or proposal with no feeling at issue ([Marriage](MARRIAGE.md)).
+- **Do not tag** a bare mention of a suitor's name or visit.
+- Marriage plans are judged separately under [Marriage](MARRIAGE.md); a paragraph may carry both.
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_LOVE.0064 %%
-Do NOT tag for:
-- Casual use of "amour" or "aimer" in non-romantic contexts
-- Familial love (mother, aunt, etc.) unless explicitly compared to romantic love
-- Brief mentions of weddings or marriages without romantic reflection
-- References to other people's love lives unless Marie is analyzing them as a mirror of her own situation
+## Common French Cues
+
+%% GLO_LOVE.0065 %%
+- **Nouns**: l'amour, la passion, le cœur (felt), la jalousie, le désir, le flirt, l'amoureux, le fiancé
+- **Verbs**: aimer (a person), adorer, désirer, être jalouse, être éprise, brûler
+- **False friends**: *cœur* (heart, or learning "par cœur"); *aimer* of things; *passion* for art or music
 
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion of LOVE thematic entry. Added: cultural/historical context (marriage market, Napoleonic Code, courtship customs, old maid anxiety), detailed relationship profiles for all romantic interests (Hamilton, Antonelli, Audiffret, Cassagnac, Soutzo, Maupassant, Bastien-Lepage) with diary quotes and dates, love vs. ambition analysis with key passages, jealousy analysis, marriage desire/dread section, expanded vocabulary organized by register, literary models section, diary-as-love-object reflection, and detailed usage notes. Sources: Wikipedia (Duke of Hamilton, Napoleonic Code, Cassagnac, Antonelli, Maupassant, Bastien-Lepage, George Sand, Courtship); Enciclopedia Italiana (Treccani) for Antonelli biography; Kernberger (2013) for biographical context. Previous entry was 46 lines; current is comprehensive thematic reference. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

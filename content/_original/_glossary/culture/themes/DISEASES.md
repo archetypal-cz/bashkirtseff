@@ -7,13 +7,17 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Moderate
-last_updated: 2026-02-12
+last_updated: 2026-10-02
+status: retired
+replaced_by: HEALTH
 ---
 
 %% GLO_DISEASES.0001 %%
 ## Thematic Tag: Diseases & Diagnoses
 
 %% GLO_DISEASES.0002 %%
+**Retired.** This tag is retired in favour of [Health & Illness](HEALTH.md), which now covers named diseases and diagnoses. The 2026 tag audit no longer assigns it; existing tags are removed carnet by carnet, and this file will be deleted at the end of the audit.
+
 This thematic tag collects diary paragraphs mentioning specific named diseases and medical diagnoses. Complements the broader Health theme by focusing on identified illnesses rather than general symptoms, doctors, or treatment.
 
 %% GLO_DISEASES.0003 %%
@@ -49,3 +53,4 @@ Marie often records diagnoses with skepticism or dark humor:
 - [MORTALITY](MORTALITY.md) — Broader death obsession
 
 %% 2026-02-12T00:00:00 RSR: Created thematic tag for specific named diseases. Marie uses period medical terminology (phtisie, not tuberculose). %%
+%% 2026-10-02T18:00:00 RSR: Marked retired (status: retired) in favour of HEALTH under the 2026 tag-audit taxonomy; file kept only until the audit removes the remaining tags. %%

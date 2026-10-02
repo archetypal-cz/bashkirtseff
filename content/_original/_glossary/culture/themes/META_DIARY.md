@@ -1,20 +1,21 @@
 ---
 id: META_DIARY
-name: Meta-Diary
+name: The Diary
 aliases:
   - Meta-Diary
   - Meta Diary
+  - The Diary
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_META_DIARY.0001 %%
 ## Thematic Tag: Meta-Diary
 
 %% GLO_META_DIARY.0002 %%
-This thematic tag collects diary paragraphs where Marie writes about the diary itself -- the act of writing, her reasons for keeping a journal, reflections on what she has written, and self-conscious commentary on the text as object. With 261 tagged references across the diary's twelve years (1873-1884), the meta-diary theme traces Marie's evolution from a girl who writes for private pleasure into a dying woman who consciously constructs a literary monument. The meta-passages are what make Marie's diary unique in the history of the genre: not merely a record of life but a sustained meditation on what it means to record a life.
+This thematic tag collects diary paragraphs where Marie writes about the diary itself -- the act of writing, her reasons for keeping a journal, reflections on what she has written, and self-conscious commentary on the text as object. Across the diary's twelve years (1873-1884), the meta-diary theme traces Marie's evolution from a girl who writes for private pleasure into a dying woman who consciously constructs a literary monument. The meta-passages are what make Marie's diary unique in the history of the genre: not merely a record of life but a sustained meditation on what it means to record a life.
 
 %% GLO_META_DIARY.0003 %%
 ## Marie's Self-Reflection on Writing
@@ -133,9 +134,31 @@ What made Marie's diary extraordinary was not the act of keeping one -- many gir
 The central paradox of Marie's meta-diary is stated in the preface itself: "cette idée qu'on me lira a peut-être gâté c'est-à-dire anéanti le seul mérite d'un tel livre; eh bien non. D'abord j'ai écrit très longtemps sans songer à être lue et ensuite c'est justement parce que j'espère être lue que je suis absolument sincère." (This idea that people will read me has perhaps spoiled, that is to say destroyed, the only merit of such a book; well, no. First, I wrote for a very long time without thinking of being read, and then it is precisely because I hope to be read that I am absolutely sincere.) Marie turns the objection inside out: awareness of a future audience does not corrupt sincerity but guarantees it, because she writes under oath, as it were, to a court of posterity. This is a philosophical position of genuine originality. It also happens to be at least partly self-deluding -- as she herself admits elsewhere, she has "arrondi les choses" (rounded things off) and the diary-self is not quite the real self ("la légère différence de toute reproduction"). But the contradiction itself is the most honest thing about the diary.
 
 %% GLO_META_DIARY.0037 %%
-## Further Reading
+## Tagging Criteria
 
 %% GLO_META_DIARY.0038 %%
+- **Tag** why she writes: her reasons, intentions, the diary's purpose.
+- **Tag** rereading, correcting or annotating earlier pages; gaps and what was left out.
+- **Tag** the diary's form, style and sincerity; the fate of the text after her death.
+- **Tag** "ce journal", "j'écris" with a remark about the writing itself.
+- **Do not tag** "journal" meaning a newspaper ([Reading](READING.md)).
+- **Do not tag** a paragraph that is merely part of the diary (all of them are).
+- **Do not tag** a direct address to a reader ([Addressing the Reader](FOURTH_WALL.md)), unless it is also about the diary.
+- **Do not tag** "écrire" about letters or articles.
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
+
+%% GLO_META_DIARY.0039 %%
+## Common French Cues
+
+%% GLO_META_DIARY.0040 %%
+- **Phrases**: "ce journal", "mon journal", "j'écris", "relu", "ces pages", "j'ai écrit", "mon livre"
+- **Nouns**: le cahier, les pages, la sincérité, la publication, le manuscrit
+- **False friends**: *journal* = newspaper or diary; *livre* = book (she calls the diary a "livre")
+
+%% GLO_META_DIARY.0041 %%
+## Further Reading
+
+%% GLO_META_DIARY.0042 %%
 - [Diary](https://en.wikipedia.org/wiki/Diary) -- Wikipedia overview of the genre
 - [Henri-Frédéric Amiel](https://en.wikipedia.org/wiki/Henri-Fr%C3%A9d%C3%A9ric_Amiel) -- Swiss contemporary diarist
 - [Journal des Goncourt](https://en.wikipedia.org/wiki/Goncourt_Journal) -- French contemporary literary diary
@@ -149,3 +172,4 @@ The central paradox of Marie's meta-diary is stated in the preface itself: "cett
 
 %% 2026-02-11T12:00:00 RSR: Created thematic tag. Meta-diary commentary is frequent throughout, especially at year boundaries, during periods of illness, and in moments of emotional crisis. %%
 %% 2026-05-24T14:00:00 RSR: Substantially expanded from 46 to ~190 lines. Added chronological survey of key meta-passages with French quotations and translations. Added publication history (1887 censored edition, Theuriet's role, mother's redactions, 1995-2005 complete publication). Added cultural context section on 19th-century diary tradition: Pepys, Amiel (whose Fragments d'un Journal Intime appeared 1882-84, contemporaneous with Marie), Goncourt journal, Benjamin Constant. Added section on diary-writing as social practice. Added section on the paradox of sincerity (Marie's philosophical argument that awareness of readers guarantees rather than corrupts sincerity). Sources: carnet 000 (preface), carnet 001 (February 1873), carnet 004 (April 1873), carnet 022 (August 1874), carnet 024 (September 1874), carnet 031 (April 1875), carnet 049 (November 1875), carnet 051 (December 1875), carnet 077 (January 1878), carnet 088 (June 1880), carnet 100 (June-August 1883), carnet 105-106 (August 1884). External: Public Domain Review (Hartley 2020), Wikipedia, Gutenberg (Amiel), JSTOR Daily. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

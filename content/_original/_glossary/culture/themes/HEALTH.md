@@ -7,14 +7,14 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_HEALTH.0001 %%
 ## Thematic Tag: Health & Illness
 
 %% GLO_HEALTH.0002 %%
-This thematic tag collects diary paragraphs where Marie discusses health, illness, medical treatment, doctors, and bodily symptoms. Health is the diary's shadow narrative: at first barely audible beneath Marie's accounts of love, ambition, and social life, it grows steadily louder until, in the final years, it becomes the dominant voice -- the ticking clock against which everything else is measured. With 1,069 references across the diary, it is one of the most frequently tagged themes, reflecting how completely illness came to permeate Marie's existence.
+This thematic tag collects diary paragraphs where Marie discusses health, illness, medical treatment, doctors, named diseases and diagnoses, and bodily symptoms. Health is the diary's shadow narrative: at first barely audible beneath Marie's accounts of love, ambition, and social life, it grows steadily louder until, in the final years, it becomes the dominant voice -- the ticking clock against which everything else is measured. It is one of the diary's recurring themes, reflecting how completely illness came to permeate Marie's existence.
 
 %% GLO_HEALTH.0003 %%
 ## Medicine in the 1870s-1880s
@@ -253,27 +253,37 @@ But by 1884, the mirror tells a different story. She watches herself waste: "je 
 Marie's horror of physical decline was not mere vanity. For her, beauty was both social capital and artistic subject. Her self-portraits document the transformation with clinical honesty. The body that was once an instrument of conquest -- of suitors, of social position, of artistic mastery -- becomes a prison, and then a coffin.
 
 %% GLO_HEALTH.0054 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_HEALTH.0055 %%
-Tag paragraphs with `[#Health]` when Marie discusses:
-- Physical symptoms (coughing, fever, pain, hearing loss, weight loss)
-- Medical consultations and doctor visits
-- Treatments and medications
-- The impact of illness on daily life, work, or social activities
-- Reflections on her own mortality prompted by health concerns
-- Others' illness when it significantly affects Marie or reflects on her own condition
+- **Tag** a symptom, a diagnosis, a doctor or a consultation, a cure or treatment.
+- **Tag** named illnesses and diagnoses (this theme now covers the scope of the former Diseases tag).
+- **Tag** deafness, the throat and chest, the course of her tuberculosis.
+- **Tag** others' illness when it matters to Marie or to the household.
+- **Do not tag** "souffrir" of a person or a situation, "malade" of boredom or of love.
+- **Do not tag** a death with no illness in view ([Death & Mourning](DEATH.md)).
+- **Do not tag** her fear of dying ([Mortality](MORTALITY.md)) unless a symptom is also named.
+- **Do not tag** a spa visited as a social venue, with no cure in view ([Travel](TRAVEL.md)).
+- This theme also covers the scope of the former Diseases tag ([Diseases & Diagnoses](DISEASES.md), retired); named illnesses are tagged here.
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_HEALTH.0056 %%
-Note: For Marie's tuberculosis specifically, also tag with [TUBERCULOSIS](../health/TUBERCULOSIS.md). For thermal cures and spa treatments, also tag with [THERMAL_CURE](../health/THERMAL_CURE.md). For broader reflections on death and dying not specifically tied to health, use [MORTALITY](MORTALITY.md). The Health tag should capture the medical and physical dimension; Mortality captures the existential and philosophical dimension.
+## Common French Cues
 
 %% GLO_HEALTH.0057 %%
-## Related Entries
+- **Symptoms**: la toux, la fièvre, les crachats, la douleur, la surdité, l'oppression, la faiblesse, les nerfs
+- **People and places**: le docteur, Potain, Fauvel, l'ordonnance, les eaux, la cure
+- **Diseases**: la phtisie, la tuberculose, le rhume, la bronchite, l'angine, le choléra, la fièvre typhoïde
+- **False friends**: *malade* of mood; *souffrir* of annoyance; *nerveuse* as temperament
 
 %% GLO_HEALTH.0058 %%
+## Related Entries
+
+%% GLO_HEALTH.0059 %%
 - [TUBERCULOSIS](../health/TUBERCULOSIS.md) -- Marie's primary illness
 - [THERMAL_CURE](../health/THERMAL_CURE.md) -- spa treatments
 - [MORTALITY](MORTALITY.md) -- death and dying as existential theme
 - [ART_PRACTICE](ART_PRACTICE.md) -- the artistic ambition health threatened
 
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion from 55-line stub to full thematic entry. Added: historical context of 1870s-80s medicine (germ theory, Koch's 1882 discovery, the medical profession, women's health); tuberculosis cultural context (the "white plague," Romantic mythology vs. grim reality, with Wikipedia links); detailed medical timeline with diary quotes from carnets 068-106; individual doctor profiles (Potain, Fauvel, Krishaber, Beclere, Grancher) with biographical details and Wikipedia links where available; hearing loss progression and social impact; complete treatment catalogue (thermal cures, cauterization, vesicatories, medications); Marie's medical vocabulary (period terms and her own coinages); art-and-illness intersection with specific diary quotes; body/mirror motif tracking physical decline. Sources: diary entries across carnets 068-106; Wikipedia articles on Tuberculosis, Robert Koch, History of tuberculosis, Pierre Potain, Antoine Beclere, Jacques-Joseph Grancher, Germ theory, Sanatorium; Musee d'Orsay biography of Fauvel; Miraheze Tuberculosis Wiki on Bashkirtseff. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

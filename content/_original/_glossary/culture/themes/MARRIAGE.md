@@ -7,7 +7,7 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-31
+last_updated: 2026-10-02
 ---
 
 %% GLO_MARRIAGE.0001 %%
@@ -88,21 +88,25 @@ Her mother's refrain — "la femme est faite pour souffrir, même avec le meille
 - [Emotions](EMOTIONS.md) — the anguish, dread, and ambivalence the subject provokes
 
 %% GLO_MARRIAGE.0022 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_MARRIAGE.0023 %%
-Tag `[#Marriage]` for paragraphs where Marie:
-- Treats marriage as an institution, market, contract, or legal condition
-- Calculates a specific match (fortune, rank, dowry, a *parti* or *candidat*)
-- Reflects on the *vieille fille* / old-maid fear or the brevity of marriageable years
-- Weighs marriage against autonomy, freedom, or her art
-- Reports or considers a concrete proposal
-- Reflects on a wife's legal or social subordination
+- **Tag** a marriage considered, arranged, refused or compared as a *parti*; a proposal reported.
+- **Tag** marriage as an institution, contract or market; dowry talk.
+- **Tag** the "vieille fille" fear and the brevity of marriageable years.
+- **Tag** a wife's legal and social subordination; weighing marriage against freedom or art.
+- **Do not tag** a love scene or feeling with no marriage in view ([Love](LOVE.md)).
+- **Do not tag** a bare mention of someone's wedding or of a married couple.
+- **Do not tag** dowry or property as pure money ([Money](MONEY.md), [Property & Investments](PROPERTY.md)) unless marriage is at stake.
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_MARRIAGE.0024 %%
-Do NOT tag for:
-- Purely romantic feeling with no marriage dimension (use `[#Love]`)
-- Brief mentions of other people's weddings without reflection
-- Casual social references to married persons
+## Common French Cues
 
-%% 2026-05-31T12:00:00 RSR: Created MARRIAGE thematic-tag entry. Carnet 018 (1874-04-10) carried two [#Marriage] tags pointing to a non-existent MARRIAGE.md; this entry supplies the target. Scoped to complement (not duplicate) the existing LOVE entry: MARRIAGE covers the institution/market/law/calculation, LOVE covers romantic feeling and specific attachments. Quotations, dates, and historical context drawn from the already-researched LOVE.md entry and verified diary passages. Sources: Wikipedia (Napoleonic Code, Naquet Law, Dowry, Epictetus); Kernberger (2013) for biographical/chronological context. Note: the French source has since been swept for this theme — 845 paragraphs across 94 carnets tagged [#Marriage] via a concept-based evaluation pass (institution/market/dowry/legal-status/old-maid/calculation/proposals; biographical "married X" identifications and pure-Love content rejected), so all translations can inherit it. %%
+%% GLO_MARRIAGE.0025 %%
+- **Nouns**: le mariage, un parti, un prétendant, la dot, le contrat, la vieille fille, la demande en mariage
+- **Verbs**: épouser, se marier, demander la main, refuser
+- **False friends**: "mari" or "marié" used only as a description of a person
+
+%% 2026-05-31T12:00:00 RSR: Created MARRIAGE thematic-tag entry. Carnet 018 (1874-04-10) carried two [#Marriage] tags pointing to a non-existent MARRIAGE.md; this entry supplies the target. Scoped to complement (not duplicate) the existing LOVE entry: MARRIAGE covers the institution/market/law/calculation, LOVE covers romantic feeling and specific attachments. Quotations, dates, and historical context drawn from the already-researched LOVE.md entry and verified diary passages. Sources: Wikipedia (Napoleonic Code, Naquet Law, Dowry, Epictetus); Kernberger (2013) for biographical/chronological context. Note: the French source has since been swept for this theme — paragraphs tagged [#Marriage] via a concept-based evaluation pass (institution/market/dowry/legal-status/old-maid/calculation/proposals; biographical "married X" identifications and pure-Love content rejected), so all translations can inherit it. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

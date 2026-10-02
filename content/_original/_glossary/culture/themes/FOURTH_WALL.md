@@ -1,12 +1,13 @@
 ---
 id: FOURTH_WALL
-name: Fourth Wall
+name: Addressing the Reader
 aliases:
   - Fourth Wall
+  - Addressing the Reader
 type: Culture
 category: culture/themes
 research_status: Moderate
-last_updated: 2026-02-11
+last_updated: 2026-10-02
 ---
 
 %% GLO_FOURTH_WALL.0001 %%
@@ -39,4 +40,26 @@ These passages reveal Marie's fundamental paradox: the diary is simultaneously h
 - Middle period (1876-80): More frequent, tied to ambition and desire for fame
 - Late diary (1880-84): Urgent, existential — the diary as her legacy, her survival after death
 
+%% GLO_FOURTH_WALL.0009 %%
+## Tagging Criteria
+
+%% GLO_FOURTH_WALL.0010 %%
+- **Tag** Marie speaking directly to her future readers, an editor or posterity.
+- **Tag** an instruction to the one who will publish or read the diary.
+- **Tag** "vous" that clearly means the reader.
+- **Tag** an appeal for judgment or pity from those who will read.
+- **Do not tag** a rhetorical or ambiguous "vous" (a person, God, a suitor).
+- **Do not tag** remarks about the diary with no reader in view ([The Diary](META_DIARY.md)).
+- **Do not tag** a letter addressed to a named person.
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
+
+%% GLO_FOURTH_WALL.0011 %%
+## Common French Cues
+
+%% GLO_FOURTH_WALL.0012 %%
+- **Phrases**: "vous qui me lisez", "celui qui lira", "celle qui lira", "on me lira", "chers lecteurs", "ceux qui liront ces lignes"
+- **Nouns**: les lecteurs, la postérité, l'éditeur
+- **False friends**: ordinary "vous" when talking to a person; "on" as a general pronoun
+
 %% 2026-02-11T12:00:00 RSR: Created thematic tag. Fourth-wall breaks are a defining feature of Marie's diary, distinguishing it from conventional 19th-century journals. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

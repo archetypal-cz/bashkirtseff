@@ -1,20 +1,20 @@
 ---
 id: MORTALITY
-name: Mortality & Death Obsession
+name: Mortality
 aliases:
   - Mortality & Death Obsession
   - Mortality
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_MORTALITY.0001 %%
 ## Thematic Tag: Mortality & Death Obsession
 
 %% GLO_MORTALITY.0002 %%
-This broad thematic tag captures Marie's pervasive preoccupation with death, dying, and killing -- both literal and figurative. Marie uses death vocabulary constantly throughout the diary: as emotional hyperbole, philosophical meditation, social commentary, and increasingly as confrontation with her own mortality. With 831 tagged references across the diary's twelve years (1873-1884), mortality constitutes one of the diary's most distinctive rhetorical registers, evolving from the theatrical exclamations of a frustrated teenager into the devastating lucidity of a young woman watching herself die. Death is not merely a theme Marie returns to -- it is the lens through which she processes frustration, desire, isolation, ambition, and ultimately her own vanishing. The arc from "ces delais me tueront!" (These delays will kill me!, July 1873) to "La rage de se voir mourir!" (The rage of watching yourself die!, August 1884) traces the entire emotional and existential trajectory of the diary.
+This thematic tag collects diary paragraphs where Marie confronts her own mortality: the fear, wish or premonition of dying young. The entry also surveys her death vocabulary in general, hyperbole included, because the two are bound together in her voice; only paragraphs genuinely about her own death or short life are tagged. Marie uses death vocabulary constantly throughout the diary: as emotional hyperbole, philosophical meditation, social commentary, and increasingly as confrontation with her own mortality. Across the diary's twelve years (1873-1884), mortality constitutes one of the diary's most distinctive rhetorical registers, evolving from the theatrical exclamations of a frustrated teenager into the devastating lucidity of a young woman watching herself die. Death is not merely a theme Marie returns to -- it is the lens through which she processes frustration, desire, isolation, ambition, and ultimately her own vanishing. The arc from "ces delais me tueront!" (These delays will kill me!, July 1873) to "La rage de se voir mourir!" (The rage of watching yourself die!, August 1884) traces the entire emotional and existential trajectory of the diary.
 
 %% GLO_MORTALITY.0003 %%
 ## Death in the 1870s-80s: The Omnipresence of Mortality
@@ -161,26 +161,37 @@ Marie lived within the elaborate [mourning conventions](https://en.wikipedia.org
 In August 1883 (carnet 101), Marie composes her testament in the diary -- a passage that fuses her death obsession with her artistic ambition and her love of spectacle: "Vers trente-cinq ans je serai bien malade et a trente-six ou trente-sept ans en un hiver au lit tout sera dit. Et mon testament. Il se bornera a une statue et une peinture de Saint-Marceaux et de Jules. Dans une chapelle a Paris, entouree de fleurs, dans un endroit apparent, et a chaque anniversaire on y chantera des messes de Verdi et de Pergolese et d'autres musiques a chaque anniversaire et a perpetuite, par les plus celebres chanteurs." She predicted her death between thirty-five and thirty-seven; it came at twenty-five. She wanted a chapel in Paris with works by her two most admired artists, masses of great music sung in perpetuity. She got a grave at [Passy Cemetery](https://en.wikipedia.org/wiki/Passy_Cemetery) and posthumous fame she could never have predicted.
 
 %% GLO_MORTALITY.0027 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_MORTALITY.0028 %%
-The MORTALITY tag is deliberately broad, capturing both figurative and literal death content. When tagging diary paragraphs:
-
-- **Figurative death language** (hyperbole, metaphor): Tag with MORTALITY. This IS the theme -- Marie's figurative death language is not incidental decoration but a core feature of her voice. "Cette vie me tuera" is as characteristic as any philosophical meditation.
-- **Literal deaths, funerals, mourning**: Tag with both MORTALITY and [DEATH](DEATH.md). The DEATH tag is narrower, collecting only literal death events (funerals, burials, mourning periods).
-- **Suicidal ideation**: Tag with MORTALITY. Distinguish between theatrical suicide threats (common in the early diary) and genuine contemplation (prussic acid passage, deafness passage).
-- **Illness leading to death**: Tag with both MORTALITY and [HEALTH](HEALTH.md). The illness entries in the final carnets are simultaneously about health (medical details, doctors, symptoms) and mortality (awareness of approaching death).
-- **Death in art/philosophical context**: Tag with MORTALITY and [PHILOSOPHY](PHILOSOPHY.md) as appropriate.
-
-The distinction between MORTALITY (broad, including figurative) and DEATH (narrow, literal only) is essential. A paragraph where Marie says "cette chaleur me tue" is MORTALITY but not DEATH. A paragraph describing Walitsky's funeral is both.
+- **Tag** Marie's own death: fear, wish or premonition of dying young, time running out.
+- **Tag** a sense of a short life and an unfinished destiny ("je mourrai", "à quoi bon vivre").
+- **Tag** suicidal thoughts, whether theatrical or serious.
+- **Tag** her last testament, and the diary as a posthumous document when linked to her own death.
+- **Do not tag** hyperbole ("mourir d'ennui", "cette chaleur me tue", "faire la morte").
+- **Do not tag** other people's deaths, funerals and mourning ([Death & Mourning](DEATH.md)).
+- **Do not tag** illness without a thought of dying ([Health & Illness](HEALTH.md)).
+- **Do not tag** an abstract meditation on death ([Philosophy](PHILOSOPHY.md)).
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_MORTALITY.0029 %%
-## Related Entries
+## Common French Cues
 
 %% GLO_MORTALITY.0030 %%
+- **Phrases**: "je mourrai", "je vais mourir", "mourir jeune", "à quoi bon vivre", "mon testament", "quand je ne serai plus"
+- **Nouns**: la mort, le tombeau, la tombe, le cercueil, le deuil (own)
+- **False friends**: *mourir de* + a feeling (hyperbole); *faire la morte*; *tuer* meaning to exhaust
+
+%% GLO_MORTALITY.0031 %%
+Earlier versions of this entry deliberately tagged figurative death language too; the 2026 audit narrows the tag to Marie's own mortality. The vocabulary sections below remain as a study of her voice.
+
+%% GLO_MORTALITY.0032 %%
+## Related Entries
+
+%% GLO_MORTALITY.0033 %%
 - [DEATH](DEATH.md) -- Literal death events only (funerals, burials, mourning)
 - [HEALTH](HEALTH.md) -- Illness and medical themes
-- [DISEASES](DISEASES.md) -- Specific named illnesses
+- [DISEASES](DISEASES.md) -- Specific named illnesses (retired; now part of HEALTH)
 - [EMOTIONS](EMOTIONS.md) -- Emotional self-analysis
 - [PHILOSOPHY](PHILOSOPHY.md) -- Existential meditation
 - [JULES_BASTIEN_LEPAGE](../../people/recurring/BASTIEN_LEPAGE.md) -- Fellow artist dying alongside Marie
@@ -188,3 +199,4 @@ The distinction between MORTALITY (broad, including figurative) and DEATH (narro
 
 %% 2026-02-12T00:00:00 RSR: Created broad thematic tag capturing Marie's figurative and literal death vocabulary. Deliberately includes hyperbolic usage -- this IS the theme. %%
 %% 2026-05-24T14:00:00 RSR: Comprehensive expansion. Added cultural/historical context (TB mortality rates, mourning culture, Romantic/Naturalist death aesthetics), extensive quotations from the diary organized by theme and chronology, sections on suicidal ideation, the preface, final entries, Bastien-Lepage's parallel decline, the concierge motif, Marie's testament, and mourning as social currency. Sources: Wikipedia (Tuberculosis, Pere Lachaise Cemetery, Memento mori, Keats, Romanticism, Naturalism, Ars moriendi, Passy Cemetery, Jean-Martin Charcot); Our World in Data; INED (France life expectancy); N-IUSSP (Paris mortality); ASM.org (TB and Romanticism); Kernberger (2013). %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

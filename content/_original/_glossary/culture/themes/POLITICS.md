@@ -6,14 +6,14 @@ aliases:
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_POLITICS.0001 %%
 ## Thematic Tag: Politics
 
 %% GLO_POLITICS.0002 %%
-This thematic tag collects diary paragraphs where Marie discusses political events, politicians, elections, political opinions, political journalism, women's rights, and the intersection of politics with her social world. With 688 references across the diary, it is one of the most frequently used tags, reflecting how deeply political life permeated Marie's existence -- from salon conversations and newspaper reading to her personal engagement with feminism and her infatuations with political figures.
+This thematic tag collects diary paragraphs where Marie discusses political events, politicians, elections, political opinions, political journalism, and the intersection of politics with her social world. It is one of the diary's recurring themes, reflecting how deeply political life permeated Marie's existence -- from salon conversations and newspaper reading to her infatuations with political figures.
 
 %% GLO_POLITICS.0003 %%
 ## French Politics in the 1870s-80s
@@ -207,22 +207,28 @@ Parisian political life in the 1870s-80s was inseparable from the [salon](https:
 - **The Chamber of Deputies** -- Marie attended sessions of the Chamber as a spectator, notably Clemenceau's interpellation (May 1880) and the Gambetta mourning session (January 1883).
 
 %% GLO_POLITICS.0063 %%
-## Usage Notes
+## Tagging Criteria
 
 %% GLO_POLITICS.0064 %%
-The `#Politics` tag should be applied to paragraphs containing:
-- Discussion of political events, elections, legislation, or government actions
-- Mentions of or commentary on political figures (Cassagnac, Gambetta, MacMahon, Clemenceau, etc.)
-- Reading or quoting of political newspapers (Le Pays, La Citoyenne, Le Figaro on political topics)
-- Attendance at the Chamber of Deputies or other political institutions
-- Political discussions at salons or dinner parties
-- Women's rights activism and feminist engagement
-- International political events (wars, diplomacy, colonial matters)
-- Commentary on political ideologies (Bonapartism, republicanism, socialism, feminism)
-- Marie's own political opinions and self-analysis of her political positions
+- **Tag** a political event or opinion: parties, the Chamber, elections, war, the Empire and the Republic, diplomacy.
+- **Tag** a political quarrel at dinner or the press as political reading.
+- **Tag** Marie's own political views and their evolution (Bonapartism, republicanism).
+- **Tag** colonial and international events.
+- **Do not tag** a politician named in a social or love context (the person tag covers that: Cassagnac, Gambetta).
+- **Do not tag** women's rights and feminism ([Women's Condition](WOMEN.md)).
+- **Do not tag** a political paper named only as a prop ([Reading](READING.md)).
+- **Do not tag** religious anticlericalism with no political thread ([Faith & Prayer](RELIGION.md)).
+- Women's rights and feminist engagement (Hubertine Auclert, *La Citoyenne*, the Pauline Orell articles) are now tagged under [Women's Condition](WOMEN.md); the sections below keep the historical context.
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
 
 %% GLO_POLITICS.0065 %%
-The tag overlaps with but is distinct from related thematic tags: use `#Emotions` for Marie's personal reactions to political events; `#Reading` when the focus is on her political reading material; `#Philosophy` for abstract political theory; and `#Love` when political figures are objects of romantic interest (as with Cassagnac).
+## Common French Cues
+
+%% GLO_POLITICS.0066 %%
+- **Nouns**: la politique, la Chambre, les élections, la République, l'Empire, le gouvernement, le ministre, la guerre
+- **Names**: Gambetta, MacMahon, Cassagnac (as a politician), Clemenceau
+- **False friends**: *politique* as an adjective of manner ("politique" meaning shrewd); *parti* = party or a suitor
 
 %% 2026-02-10T20:00:00 RSR: Created thematic tag. Politics appears throughout the diary, intensifying in the Paris years. %%
 %% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Added detailed sections on French Third Republic context (16 May 1877 crisis, consolidation), the political press (Le Pays, Le Figaro, La Citoyenne), Marie's political education and evolving opinions (Bonapartist phase to republican awakening), key political figures with diary quotes (Cassagnac, Gambetta, Clemenceau, Hugues, Girardin), Marie's feminist engagement (Auclert visits, pseudonym "Pauline Orell," La Citoyenne articles and investment), international politics (Russo-Turkish War, Russian conservatism), political salons (Mme de Brimont, Etincelle, Chamber of Deputies). All diary quotes sourced from original entries. Historical context sourced from Wikipedia (French Third Republic, 16 May 1877 crisis, Paris Commune, Bonapartism, Hubertine Auclert, Gambetta, Cassagnac, La Citoyenne) and Britannica. %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%

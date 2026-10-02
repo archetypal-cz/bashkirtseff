@@ -1,13 +1,14 @@
 ---
 id: DEATH
-name: Death & Funerals
+name: Death & Mourning
 aliases:
   - Death & Funerals
   - Death
+  - Death & Mourning
 type: Culture
 category: culture/themes
 research_status: Comprehensive
-last_updated: 2026-05-24
+last_updated: 2026-10-02
 ---
 
 %% GLO_DEATH.0001 %%
@@ -154,9 +155,31 @@ Cholera shadows the diary from beginning to end. In 1873, the epidemic at the Vi
 - **Orthodox-Catholic duality**: Marie participates in both traditions. Pannychides for Russian deaths, requiem masses for Catholic ones. The Queen of Spain gets a full Catholic ceremony at the Madeleine; grandfather gets Orthodox prayers before the coffin.
 
 %% GLO_DEATH.0037 %%
-## Related Entries
+## Tagging Criteria
 
 %% GLO_DEATH.0038 %%
+- **Tag** a death reported, witnessed or felt: of relatives, friends, acquaintances or public figures.
+- **Tag** a funeral, burial, wake or the pannychide.
+- **Tag** mourning: dress, periods, visits of condolence.
+- **Tag** cemeteries and tombs seen as part of a death.
+- **Do not tag** Marie's own death imagined or feared ([Mortality](MORTALITY.md)).
+- **Do not tag** hyperbole ("mourir d'ennui").
+- **Do not tag** an illness with no death in sight ([Health & Illness](HEALTH.md)).
+- **Do not tag** mourning dress described only as clothes ([Clothing & Fashion](FASHION.md)).
+- The bar is that the paragraph is substantively *about* the theme; a passing word never qualifies. A paragraph takes at most three themes.
+
+%% GLO_DEATH.0039 %%
+## Common French Cues
+
+%% GLO_DEATH.0040 %%
+- **Nouns**: la mort, le deuil, l'enterrement, les obsèques, le cercueil, le cimetière, la panikhida, le crêpe
+- **Verbs**: mourir, décéder, enterrer, pleurer (a dead person)
+- **False friends**: *mourir de*; *faire la morte*; *deuil* worn for a long-ago loss
+
+%% GLO_DEATH.0041 %%
+## Related Entries
+
+%% GLO_DEATH.0042 %%
 - [MORTALITY](MORTALITY.md) -- Marie's figurative and philosophical death obsession ("il est mort pour moi")
 - [HEALTH](HEALTH.md) -- Illness and medical themes, often preceding death
 - [DISEASES](DISEASES.md) -- Specific named illnesses (cholera, tuberculosis, typhoid)
@@ -165,3 +188,4 @@ Cholera shadows the diary from beginning to end. In 1873, the epidemic at the Vi
 
 %% 2026-02-12T00:00:00 RSR: Created thematic tag for literal death events. Separated from Mortality (figurative) to allow precise filtering. %%
 %% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Catalogued all major deaths in the diary (family, acquaintances, public figures) with dates and Marie's reactions. Added sections on mourning culture (dress codes, mourning periods, social rules), funeral practices (Orthodox pannychide, Catholic requiem, pompes funebres, funeral music), cemeteries (Pere Lachaise, Passy, Nice, Iskrowka), cholera/epidemic death, and expanded death vocabulary. Added Wikipedia links for cultural context. Sources: diary entries across carnets 000-105; Wikipedia articles on mourning, pannychida, Pere Lachaise, Passy Cemetery, Victorian funeral customs; web sources on French funeral industry (Geri Walton, geriwalton.com; Pompes Funebres research, HAL archives). %%
+%% 2026-10-02T18:00:00 RSR: Tagging criteria rewritten for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, docs/research/theme-taxonomy.md): narrowed scope, false friends listed, hard-coded usage counts removed. %%
