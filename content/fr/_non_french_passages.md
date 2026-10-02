@@ -1405,17 +1405,17 @@ They need AI translation into French.
 - **083/1878-10-17.md** para withdrawn in the 2026-09 rebuild (old carnet 083 ¶0002; see content/_renumber/083-2026-09-29.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Latin phrase meaning "Desire for Glory" - Marie's epigraph for this volume reflecting her artistic ambitions %%
 - **083/1878-10-25.md** para 083.0029 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "Moussia" - RUSSIAN: Marie's family nickname/diminutive %%
 - **083/1879-01-05.md** para 083.0547 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "la luce della vita" - the light of life; gospel divination result %%
-- **084/1879-01-29.md** para 084.0133 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: "La campagna" - ITALIAN: the Roman Campagna, countryside around Rome famous for ruins %%
-- **084/1879-02-05.md** para 084.0172 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "crescendo" - musical term used metaphorically for voice modulation %%
-- **084/1879-02-23.md** para 084.0284 [CODE-SWITCH]: %% 2026-02-02T14:30:00 LAN: SPELLING/CODE-SWITCH: "the théâtre" - "the" in English mixed with French %%
-- **084/1879-02-24.md** para 084.0294 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "La Traviata" - Verdi opera; "The Fallen Woman" %%
-- **084/1879-03-05.md** para 084.0405 [LATIN]: %% 2026-02-02T09:07:55 LAN: LATIN: "inde ira" - hence the anger (learned/ironic register) %%
-- **084/1879-03-05.md** para 084.0414 [ENGLISH]: %% 2026-02-02T09:08:17 LAN: ENGLISH: "To be or not to be" - Shakespeare's Hamlet, dramatic self-questioning %%
-- **084/1879-04-07.md** para 084.0626 [ENGLISH]: %% 2026-02-02T09:08:18 LAN: "tandem" - ENGLISH: tandem carriage (two horses harnessed one behind other) %%
-- **084/1879-04-25.md** para 084.0728 [ENGLISH]: %% 2026-02-03T10:07:05 LAN: ENGLISH: "bed" - Marie code-switches to English for "ball" (bal). Fashionable anglicism %%
+- **084/1879-01-29.md** para 084.0132 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: "La campagna" - ITALIAN: the Roman Campagna, countryside around Rome famous for ruins %%
+- **084/1879-02-05.md** para 084.0170 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "crescendo" - musical term used metaphorically for voice modulation %%
+- **084/1879-02-23.md** para 084.0282 [CODE-SWITCH]: %% 2026-02-02T14:30:00 LAN: SPELLING/CODE-SWITCH: "the théâtre" - "the" in English mixed with French %%
+- **084/1879-02-24.md** para 084.0292 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "La Traviata" - Verdi opera; "The Fallen Woman" %%
+- **084/1879-03-05.md** para 084.0403 [LATIN]: %% 2026-02-02T09:07:55 LAN: LATIN: "inde ira" - hence the anger (learned/ironic register) %%
+- **084/1879-03-05.md** para 084.0412 [ENGLISH]: %% 2026-02-02T09:08:17 LAN: ENGLISH: "To be or not to be" - Shakespeare's Hamlet, dramatic self-questioning %%
+- **084/1879-04-07.md** para 084.0624 [ENGLISH]: %% 2026-02-02T09:08:18 LAN: "tandem" - ENGLISH: tandem carriage (two horses harnessed one behind other) %%
+- **084/1879-04-25.md** para 084.0726 [ENGLISH]: %% 2026-02-03T10:07:05 LAN: ENGLISH: "bed" - Marie code-switches to English for "ball" (bal). Fashionable anglicism %%
 - **085/1879-05-17.md** para 085.0088 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "patito" - Italian: admirer, suitor, devotee (used ironically) %%
 - **085/1879-05-29.md** para 085.0198 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "chaperon" - English borrowing: chaperone (older woman accompanying young girl) %%
-- **085/1879-07-26.md** para 085.0584 [LATIN]: %% 2026-02-02T13:00:00 LAN: "Vulgo" - LATIN: commonly known as, alias %%
+- **085/1879-07-26.md** para 085.0583 [LATIN]: %% 2026-02-02T13:00:00 LAN: "Vulgo" - LATIN: commonly known as, alias %%
 - **086/1879-08-07.md** para 086.0008 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: "mezzo voce" - ITALIAN: half-voice, softly singing %%
 - **086/1879-08-18.md** para 086.0095 [LATIN]: %% 2026-02-03T10:26:00 LAN: "Nulla dies sine linea" - LATIN: no day without a line; artist's motto (attributed to Apelles) %%
 - **086/1879-08-18.md** para 086.0098 [ITALIAN]: %% 2026-02-03T10:26:00 LAN: "iettatore" - ITALIAN: one who casts the evil eye; brings bad luck %%
@@ -1441,7 +1441,7 @@ They need AI translation into French.
 - **090/1880-11-25.md** para 090.0269 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Unae irae" - one wrath/anger (Marie's classical allusion, possibly misremembered) %%
 - **090/1880-12-16.md** para 090.0386 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN: "Consilium" - medical consultation/council %%
 - **090/1880-12-20.md** para 090.0422 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN cultural reference: Temple of Fides (Good Faith) traditionally attributed to Romulus %%
-- **094/1882-04-18.md** para 094.0353 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: "sleeping" - ENGLISH: sleeping car (train compartment) %%
+- **094/1882-04-18.md** para 094.0343 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: "sleeping" - ENGLISH: sleeping car (train compartment) %%
 - **091/1881-02-05.md** para 091.0080 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "flirté" - borrowed English verb "flirt" with French conjugation %%
 - **091/1881-04-01.md** para 091.0412 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "blackbouler" - from English "blackball"; to reject, ostracize %%
 - **092/1881-06-14.md** para 092.0118 [RUSSIAN]: %% 2026-02-02T09:03:04 LAN: "Vassya" - RUSSIAN diminutive of Vasily; indicates familiar/affectionate naming %%
@@ -1461,7 +1461,7 @@ They need AI translation into French.
 - **093/1881-10-10.md** para 093.0090 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
 - **093/1881-10-30.md** para 093.0111 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
 - **093/1881-11-22.md** para withdrawn in the 2026-09 rebuild (old carnet 093 ¶0141; see content/_renumber/093-2026-09-28.json) [LATIN]: %% 2026-02-02T09:06:26 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory: Marie's motto, book title %%
-- **094/1882-01-23.md** para 094.0142 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "heals all wounds but those of the heart" - Gabriel's English inscription on glycerin bottle, romantic cliche %%
+- **094/1882-01-23.md** para 094.0132 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "heals all wounds but those of the heart" - Gabriel's English inscription on glycerin bottle, romantic cliche %%
 - **095/1882-07-31.md** para 095.0384 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "Il corpo e piu che il vestimento" - The body is more than clothing; biblical reference Luke 12:23 %%
 - **095/1882-07-31.md** para 095.0385 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "La vita e piu che il nutrimento" - Life is more than food; biblical reference Luke 12:23 %%
 - **096/1882-08-23.md** para 096.0127 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN "Sinite parvulas venire ad me" - "Suffer the little children to come unto me" (Mark 10:14) %%
@@ -1473,12 +1473,12 @@ They need AI translation into French.
 - **098/1883-02-08.md** para 098.0304 [RUSSIAN]: %% 2026-02-02T14:00:00 LAN: RUSSIAN: "Michka" - diminutive of Michel; affectionate family name %%
 - **099/1883-03-31.md** para 099.0003 [LATIN]: %% 2026-02-02T09:08:04 LAN: "vulgo Cerny" - LATIN: commonly known as Cerny (nickname for Tchernitsky) %%
 - **099/1883-04-07.md** para 099.0050 [RUSSIAN]: %% 2026-02-02T09:06:08 LAN: "samovar" - RUSSIAN: traditional Russian tea urn; marker of Russian household %%
-- **099/1883-05-03.md** para 099.0346 [CODE-SWITCH]: %% 2026-02-02T09:09:28 LAN: CODE-SWITCH: English summary in brackets indicates transcriber's condensation of original French %%
-- **099/1883-05-19.md** para 099.0391 [LATIN]: %% 2026-02-02T09:05:04 LAN: LATIN follows - "Margaritas ante porcos" - Marie repeats idiom in Latin (Biblical, Matthew 7:6); showing classical education %%
-- **099/1883-05-23.md** para 099.0402 [ENGLISH]: %% 2026-02-03T10:00:13 LAN: "blackboulee" - ENGLISH borrowing: blackballed; rejected/excluded %%
-- **099/1883-05-25.md** para 099.0442 [LATIN]: %% 2026-02-03T10:02:38 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory; the title of Marie's journal/carnet %%
-- **100/1883-07-14.md** para 100.0193 [ITALIAN]: %% 2026-02-03T10:05:11 LAN: "sérénade" - ITALIAN context: serenade in Naples %%
-- **100/1883-07-28.md** para 100.0238 [ENGLISH]: %% 2026-02-03T10:06:18 LAN: "non-sens" - ENGLISH: nonsense; Marie's playful code-switching %%
+- **099/1883-05-03.md** para 099.0339 [CODE-SWITCH]: %% 2026-02-02T09:09:28 LAN: CODE-SWITCH: English summary in brackets indicates transcriber's condensation of original French %%
+- **099/1883-05-19.md** para 099.0384 [LATIN]: %% 2026-02-02T09:05:04 LAN: LATIN follows - "Margaritas ante porcos" - Marie repeats idiom in Latin (Biblical, Matthew 7:6); showing classical education %%
+- **099/1883-05-23.md** para 099.0395 [ENGLISH]: %% 2026-02-03T10:00:13 LAN: "blackboulee" - ENGLISH borrowing: blackballed; rejected/excluded %%
+- **099/1883-05-25.md** para 099.0435 [LATIN]: %% 2026-02-03T10:02:38 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory; the title of Marie's journal/carnet %%
+- **100/1883-07-14.md** para 100.0192 [ITALIAN]: %% 2026-02-03T10:05:11 LAN: "sérénade" - ITALIAN context: serenade in Naples %%
+- **100/1883-07-28.md** para 100.0237 [ENGLISH]: %% 2026-02-03T10:06:18 LAN: "non-sens" - ENGLISH: nonsense; Marie's playful code-switching %%
 - **101/1883-08-18.md** para 101.0179 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN CODE-SWITCH: Extended passage in Italian for privacy. Marie speculates whether Bastien knows his brother admires her, and whether this would prevent Bastien from showing interest. "Aurora qualche cosa" = "Dawn something" (cryptic opening). Contains spelling errors in Italian (beuchè for benché, nostrarsi for mostrarsi, camino for cammino, infezione for affezione). %%
 - **101/1883-08-18.md** para 101.0180 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN continues: "But he doesn't think of me; if he wanted to think of me he wouldn't show it... because of the other; if it's true the other admires me, he admires me as I admire Giulio..." %%
 - **101/1883-08-18.md** para 101.0181 [ITALIAN]: %% 2026-02-03T10:07:00 LAN: ITALIAN/FRENCH: "Well, if Dina saw that I liked someone who could never love me, Dina would do nothing to win that heart..." then switches to French: "but that's not the point" %%
@@ -1487,11 +1487,11 @@ They need AI translation into French.
 - **101/1883-08-19.md** para 101.0186 [ITALIAN]: %% 2026-02-03T10:08:00 LAN: ITALIAN: "il gran Giulio" - the great Giulio (ironic aggrandizement) %%
 - **101/1883-08-30.md** para 101.0296 [LATIN]: %% 2026-02-03T10:13:00 LAN: LATIN: "Vanitas vanitatum et omnia vanitas" - Vanity of vanities, all is vanity (Ecclesiastes 1:2) %%
 - **101/1883-09-18.md** para 101.0396 [ENGLISH]: %% 2026-02-03T10:18:00 LAN: ENGLISH allusion: "Words, words, words" - from Shakespeare's Hamlet %%
-- **102/1883-10-24.md** para 102.0026 [RUSSIAN]: %% 2026-02-03T09:02:35 LAN: "Solominka" - RUSSIAN: little straw/wisp of straw (nickname for thin Mme Markevitch) %%
-- **102/1883-11-13.md** para 102.0046 [LATIN]: %% 2026-02-03T09:06:25 LAN: "sine qua non" - LATIN: essential condition, without which not %%
-- **102/1883-11-20.md** para 102.0053 [LATIN]: %% 2026-02-03T09:07:42 LAN: "aurea mediocritas" - LATIN: golden mean (Horace), here: mediocrity %%
-- **102/1883-12-24.md** para 102.0087 [ENGLISH]: %% 2026-02-03T09:12:42 LAN: "la gentry parisienne" - ENGLISH: the Parisian gentry %%
-- **102/1884-01-02.md** para 102.0100 [RUSSIAN]: %% 2026-02-03T09:14:06 LAN: "starovoï" - RUSSIAN: starosta, village official/police functionary %%
+- **102/1883-10-24.md** para 102.0025 [RUSSIAN]: %% 2026-02-03T09:02:35 LAN: "Solominka" - RUSSIAN: little straw/wisp of straw (nickname for thin Mme Markevitch) %%
+- **102/1883-11-13.md** para 102.0045 [LATIN]: %% 2026-02-03T09:06:25 LAN: "sine qua non" - LATIN: essential condition, without which not %%
+- **102/1883-11-20.md** para 102.0052 [LATIN]: %% 2026-02-03T09:07:42 LAN: "aurea mediocritas" - LATIN: golden mean (Horace), here: mediocrity %%
+- **102/1883-12-24.md** para 102.0086 [ENGLISH]: %% 2026-02-03T09:12:42 LAN: "la gentry parisienne" - ENGLISH: the Parisian gentry %%
+- **102/1884-01-02.md** para 102.0099 [RUSSIAN]: %% 2026-02-03T09:14:06 LAN: "starovoï" - RUSSIAN: starosta, village official/police functionary %%
 - **103/1884-02-08.md** para 103.0279 [LATIN]: %% 2026-02-02T14:00:00 LAN: "Idem" - LATIN: same as before, Marie's shorthand for routine days %%
 - **103/1884-03-26.md** para 103.0542 [LATIN]: %% 2026-02-02T14:00:00 LAN: "i.e." - LATIN: id est, that is %%
 - **103/1884-03-29.md** para 103.0556 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "si ingrata, t'amo, t'amo ancora" - ITALIAN: "ungrateful one, I love you, I still love you" - from Lucia sextet %%
