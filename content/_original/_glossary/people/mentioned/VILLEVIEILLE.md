@@ -38,7 +38,7 @@ Villevieille served as:
 Her presence as a fellow art student shows that young women from aristocratic families were pursuing serious artistic training at Julian's atelier. For Marie, she represented both a fellow artist and social peer.
 
 ## Related Entries
-- [#Julian](../schools/JULIAN.md) - Their shared art school
+- [#Julian](../../places/schools/JULIAN.md) - Their shared art school
 - [#Salon](../../culture/art/SALON.md) - Attended together
 
 %% 2025-12-06T00:00:00 RSR: Updated diary coverage to 1882-05-01 %%
