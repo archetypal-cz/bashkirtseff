@@ -2154,7 +2154,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | Marcuard (F. de) | Маркуар | Swiss go-between (per 070); delivers the «à fonds perdus» proposal |
 | Melissano (prince) | Меліссано | Naples cavalier; Marie paints his portrait (per 070) |
 | Doenhoff / Campomarino / Carmignano / Nasimoff / Caracciolo / Schettino | Денгоф / Кампомаріно / Карміньяно / Насимов / Караччоло / Шеттіно | Naples farewell circle (per 070) |
-| Buonocore | Буонокоре | Naples usurer; "buono" heart-pun in the double portrait (071.0619) |
+| Buonocore | Буонокоре | Naples usurer; "buono" heart-pun in the double portrait (071.0615) |
 | Emile d'Audiffret | Одіффре | Nice ex-suitor cold-shouldered (per earlier TM); also «Emile» (the Audiffret nephew) → «Еміль» |
 | Vigier (Sophie Cruvelli) | Віж'є (Софі Крювеллі) | aged ex-opera diva at the Skating; per TM 001 vicomtesse Vigier |
 | Laurenti (comte) | Лоренті | Nice cavalier "ressuscité des morts" |
@@ -2169,7 +2169,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | Rosalie | Розалі | maid-confidante (per 068/070) |
 | Savitch / Romanoff | Савич / Романови | aunt's cousin via the Romanoffs |
 | Gordigiani | Ґордіджані | Florentine portraitist (painted Queen Victoria); encourages Marie |
-| Bouldakoff / Closet / Chaussade / Boutowsky | Булдакова / Клозе / Шоссад / Бутовська | Russian-ladies water-closet pun cast (071.0599-0307) |
+| Bouldakoff / Closet / Chaussade / Boutowsky | Булдакова / Клозе / Шоссад / Бутовська | Russian-ladies water-closet pun cast (071.0597-0307) |
 | Antonelli (Paul) | Антонеллі (Поль) | recurring Rome ghost (per 067/068) |
 | prince Humbert | принц Умберто | Crown Prince Umberto of Italy (Villa Borghese memory) |
 | Catherine Segurana | Катерина Сеґурана | legendary Nice heroine of 1543 siege; footnote |
@@ -2205,16 +2205,16 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | pendant (portrait) | парний портрет | companion-piece portrait (071.0427/0270) |
 
 ### Code-Switches / Verse / Manuscript (Carnet 071)
-- Dante Inferno V quotation (071.0619) → kept ITALIAN ==highlight==+footnote with UK gloss («Учителю, хто ті...»).
+- Dante Inferno V quotation (071.0615) → kept ITALIAN ==highlight==+footnote with UK gloss («Учителю, хто ті...»).
 - Marie's OWN French verses (the Marcuard rhymed note 071.0492-0213; the "Malborough" song line 071.0535) → rendered as UK VERSE with rhyme (her own jokes, not foreign code-switches), per 067/068 convention.
 - Marie's signature "Marie Bachkirseff" (071.0494, her own missing-t French slip for Bachkirtseff) → surname LOCKED to «Башкирцева» (з ц і и, NOT «Башкирсева» — the slip is invisible in Cyrillic; surname-lock wins per CON, same lock that drifted in 068), her French error documented in a TR note.
 - "Belle-de-jour" (071.0472) = a Nice "inspecteur des chiens", a DIFFERENT person — NOT the Audiffret nickname «Красень-Денний» (TM line 74). Rendered as the ironic moniker «Бель-де-Жур» + footnote, kept distinct from Audiffret (per CON).
 - Lise's "р"-impediment skip-rope sentence "Les touas camaouades Laoudéel" (071.0541) → UK phonetic imitation of the defect «Тві товаливі Лалделеї» (р→л/в), TR-noted, preserving the buffoonery.
-- "*sevinze*" (071.0589) — obscure word (poss. dialect, ~"pretends") kept italic + [sic].
+- "*sevinze*" (071.0588) — obscure word (poss. dialect, ~"pretends") kept italic + [sic].
 - "*avait crevé*" (071.0452) → «*подох*» (deliberately coarse, Marie on her "idol"); italic kept.
 - Manuscript markers all preserved: [Навскоси:] (En travers, 071.0372), [На полях:] (Dans la marge, 071.0424/0250), [Зачорнені слова:] (Mots noircis, 071.0416), [один рядок закреслено]/[Два рядки закреслено] (lignes cancellées, 071.0480/0249), [sic] for Marie's errors ("ouit", "c'et", "sevinze").
 - Heading convention: each entry shows the French heading in a %% comment then the UK heading as visible text (per project format).
-- Empty trailing para-end markers (071.0587, 071.0594, 071.0611, 071.0618, 071.0626) carried over with no body (match source).
+- Empty trailing para-end markers (071.0586, 071.0592, 071.0608, 071.0614, 071.0621) carried over with no body (match source).
 
 - 2026-06-07: Carnet 071 complete (Naples→Florence→Nice, Apr–Jun 1877). 26 entries, 326 paragraphs, all content. Alexandre=Larderei→«Алессандро» (indeclinable) per 070 LOCK (0 uncle «Олександр» in body); Alexandrine→«Александріна»; Larderei→«Лардерель»/Florentin→«Флорентинець»/Silène→«Сілен»/Bijou→«Біжу». "à fonds perdus"→«без вороття»; Dante Inferno V + Niçois/English code-switches kept w/ footnotes; Marie's verses rendered as UK verse; Lise's "р"-defect phonetically imitated. Manual structural checks pass (all glossary links use ../../_original/_glossary/ — 0 short-path drift; all footnote markers paired; YAML frontmatter preserved on all 26; no Cyrillic/Latin contamination; 0 Russianisms). (tr-b run)
 
