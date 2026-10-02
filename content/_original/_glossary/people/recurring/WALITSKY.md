@@ -122,13 +122,13 @@ This passage reveals:
 Walitsky was far more than a physician. He was a constant presence in family life across every sphere:
 
 - **Travel companion**: Present in Baden-Baden (1870), Nice (1873-74), Spa (1874), Rome (1876), and Paris (1877-78)
-- **Chaperone and escort**: Accompanied Marie to the theatre, dog markets, excursions, and outings (e.g., %% 020.0052 %%: "Le soir je vais a la Gaite deguisee en noir avec Walitsky et Paul")
+- **Chaperone and escort**: Accompanied Marie to the theatre, dog markets, excursions, and outings (e.g., %% 020.0050 %%: "Le soir je vais a la Gaite deguisee en noir avec Walitsky et Paul")
 - **Social intermediary**: Knew the Duke of Hamilton through social connections; noted Marie's reactions with teasing grimaces
 - **Household participant**: Joined roulette games, carnival outings, croquet matches, excursions
 - **Physical protector**: Slapped an Englishman at Monaco who insulted Paul: "Walitsky... lui donna des beaux coups dans la figure et partout" (%% 018.0087 %%)
 - **Verse-writer**: Composed humorous poems about the family's social circle at Spa, satirizing their suitors (%% 022.0106 %%: "Improvisation de Walitsky")
 - **Dog-fighter intervener**: Even timid in domestic crises -- "Walitsky n'osant intervenir" when the dogs fought (%% 071.0539 %%)
-- **Financial handler**: Managed practical matters the family disdained: "Walitsky pourvoira a tout. Je n'aime pas m'occuper de ces choses" (%% 020.0085 %%)
+- **Financial handler**: Managed practical matters the family disdained: "Walitsky pourvoira a tout. Je n'aime pas m'occuper de ces choses" (%% 020.0083 %%)
 
 %% GLO_WALITSKY.0019 %%
 ### Confidant and Go-Between
@@ -362,8 +362,8 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0052 %%
 ### Books 19-22 (Paris, Spa 1874)
-- %% 020.0052 %% (Jun 12): Escorts Marie to theatre "deguisee en noir"
-- %% 020.0085 %%: Handles practical finances: "Walitsky pourvoira a tout"
+- %% 020.0050 %% (Jun 12): Escorts Marie to theatre "deguisee en noir"
+- %% 020.0083 %%: Handles practical finances: "Walitsky pourvoira a tout"
 - %% 022.0106 %% (Jul 25): Composes satirical verse about Spa suitors ("Improvisation de Walitsky")
 
 %% GLO_WALITSKY.0053 %%

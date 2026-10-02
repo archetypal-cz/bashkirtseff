@@ -163,7 +163,7 @@ The whole household, his daughter (Marie's mother) included, called him Papa, an
 
 - **Vienna tobacco** (1873-08-13, 008.0021): at the Vienna World Exhibition the family finds "le tabac de papa" in the Russian section; "*Sacha* lui a fait une surprise en exposant". Sacha is Uncle Alexandre Babanine; Marie hopes the tobacco will win a medal.
 - **Amour-propre** (1873-09-01, 009.0011): after Makaroff's outburst, "notre Makaroff … a fait des excuses à papa mais celui-ci *monte sur ses grands chevaux, amour-propre* etc."
-- **Tyranny at table**: frequent quarrels with maman, Marie and Collignon; the Hamilton and Lady Hamilton stories he tells "comme toujours" (015.0051, 016.0312); his dog Renard (018.0159).
+- **Tyranny at table**: frequent quarrels with maman, Marie and Collignon; the Hamilton and Lady Hamilton stories he tells "comme toujours" (015.0051, 016.0310); his dog Renard (018.0159).
 
 ## 1875–1877: "grand-papa", blind and then seeing
 

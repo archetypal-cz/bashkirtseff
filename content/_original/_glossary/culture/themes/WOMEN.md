@@ -52,7 +52,7 @@ This thematic tag collects diary paragraphs where Marie writes about what women 
 
 %% GLO_WOMEN.0011 %%
 - `090.0302` — "La citoyenne Pauline Orell": the plan for a double life as a writer
-- `020.0118` — "Si j'étais homme et non femme, je le suivrais"
+- `020.0114` — "Si j'étais homme et non femme, je le suivrais"
 - `080.0169` — political talk with the men; "avec nos femmes il ne faut pas y songer"
 
 %% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%

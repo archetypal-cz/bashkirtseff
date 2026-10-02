@@ -45,13 +45,13 @@ last_updated: 2026-05-25
 
 %% GLO_LAMBERTYE.0007 %%
 Marie's inventive cruelty toward Lambertye produces a rich lexicon of insults:
-- **Fedus / Fédus** -- From Latin *foedus* (ugly, foul). Marie's primary codename, used from spring 1874 onward. Her Latin tutor confused the spelling ("cette triple bête!" -- 019.0068). She also names a stray dog "Fedus" after him (019.0137).
+- **Fedus / Fédus** -- From Latin *foedus* (ugly, foul). Marie's primary codename, used from spring 1874 onward. Her Latin tutor confused the spelling ("cette triple bête!" -- 019.0068). She also names a stray dog "Fedus" after him (019.0133).
 - **Parvus Fedus** -- Latin for "small ugly one" (018.0004, 018.0005).
 - **le singe** (the monkey) -- Used from January 1874 (015.0092, 015.0103).
 - **le petit chapeau** (the little hat) -- Another diminutive nickname (018.0021).
 - **le regardeur** (the starer) -- Marie's coinage (016.0073).
 - **pantalons de cuir** (leather pants) -- Family nickname (017.0088).
-- **Lambertoun** -- Marie's mother's Russian-inflected diminutive ("Et voilà Lambertoun" -- 020.0099).
+- **Lambertoun** -- Marie's mother's Russian-inflected diminutive ("Et voilà Lambertoun" -- 020.0097).
 - **yeux de serpent** (snake eyes) -- Describing his gaze (015.0057).
 - Various animal comparisons: serpent, monkey, eel ("tête d'anguille"), poodle, "clou" (nail).
 
@@ -117,7 +117,7 @@ On **April 1** (018.0056), Lambertye disappears with Maman's note. By **April 7*
 ### Phase 4: Paris Encounters -- Spring/Summer 1874 (carnets 019--022)
 
 %% GLO_LAMBERTYE.0022 %%
-In Paris, Lambertye becomes "Fedus" almost exclusively. On **May 14** (019.0074): "je crains qu'il ne soit marié avec l'Obélisque." On **May 26** (019.0109): "Comment n'ai-je pas encore vu Fedus?" On **May 29** (019.0067), a radiant encounter at the Bois de Boulogne -- "il se tourna, ouvrit des grands yeux et fit une mine si radieuse et étonnée, que... j'éclatais de rire." She names a stray dog after him. On **May 30** (020.0066--0071): "ce comte nu, ce Fedus charmant, cet Apollon fané" (this naked count, this charming Fedus, this faded Apollo). On **June 4** (020.0097--0114): her mother says "Et voilà Lambertoun!" On **June 23** (020.0055), leaving Paris, Marie lists Lambertye among her "amis" alongside Rothschild, Wittgenstein, and Chimay. At **Spa** on **July 1** (020.0131), she describes the Nice social scene to Basilévitch: "le comte de Lambertye fait la cour à tout le monde" (the Comte de Lambertye courts everyone). On **July 9** (021.0127), Dina teases: "Moussia, votre comte de Lambertye!" On **July 27** (022.0159), in a self-aware dialogue, Marie dismisses the obsession: "c'est une vieille histoire, crois-tu que je crois à ton Lambertye?... Lambertye me plaisait comme me plaisait Galve, Chimay... comme me plaît Zurberin, Clark, Gericke." He was one of many who pleased her superficially; Hamilton remained the singular obsession.
+In Paris, Lambertye becomes "Fedus" almost exclusively. On **May 14** (019.0073): "je crains qu'il ne soit marié avec l'Obélisque." On **May 26** (019.0107): "Comment n'ai-je pas encore vu Fedus?" On **May 29** (019.0067), a radiant encounter at the Bois de Boulogne -- "il se tourna, ouvrit des grands yeux et fit une mine si radieuse et étonnée, que... j'éclatais de rire." She names a stray dog after him. On **May 30** (020.0064--0071): "ce comte nu, ce Fedus charmant, cet Apollon fané" (this naked count, this charming Fedus, this faded Apollo). On **June 4** (020.0095--0114): her mother says "Et voilà Lambertoun!" On **June 23** (020.0053), leaving Paris, Marie lists Lambertye among her "amis" alongside Rothschild, Wittgenstein, and Chimay. At **Spa** on **July 1** (020.0127), she describes the Nice social scene to Basilévitch: "le comte de Lambertye fait la cour à tout le monde" (the Comte de Lambertye courts everyone). On **July 9** (021.0127), Dina teases: "Moussia, votre comte de Lambertye!" On **July 27** (022.0159), in a self-aware dialogue, Marie dismisses the obsession: "c'est une vieille histoire, crois-tu que je crois à ton Lambertye?... Lambertye me plaisait comme me plaisait Galve, Chimay... comme me plaît Zurberin, Clark, Gericke." He was one of many who pleased her superficially; Hamilton remained the singular obsession.
 
 %% GLO_LAMBERTYE.0023 %%
 ### Phase 5: Diminishing Returns -- 1874--1876 (carnets 024--064)
@@ -184,7 +184,7 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 | 1874-04-09 | 018.0052 | Leaves Nice: "quel malheur!" |
 | 1874-04-11 | 018.0075 | Roulette numerology |
 | 1874-05-29 | 019.0067 | Paris Bois: radiant expression, dog named Fedus |
-| 1874-06-23 | 020.0055 | Listed among "amis" leaving Paris |
+| 1874-06-23 | 020.0053 | Listed among "amis" leaving Paris |
 | 1874-07-27 | 022.0159 | Self-analysis: "une vieille histoire" |
 | 1875-01-28 | 029.0156 | Wins pigeon shoot: ten straight |
 | 1875-08-30 | 040.0103 | Dyes his moustache and remaining hair |

@@ -31,7 +31,7 @@ last_updated: 2026-10-02
 She was the daughter of Konstantin Pavlovich Bashkirtsev and Maria Stepanovna, née Babanina. Her parents lived apart, and in her preface she tells how her father and grandfather tried again and again to win her mother back (000.0013). With her mother, her maternal grandfather, her brother Paul, her cousin Dina and other relatives she travelled west by way of Vienna (000.0022) to Baden-Baden in June 1870 (000.0023), fled to Geneva when the Franco-Prussian War broke out (000.0039), and then settled in Nice, where the surviving diary opens in January 1873.
 
 %% GLO_MARIE_BASHKIRTSEFF.0005 %%
-The date of her birth is a small puzzle of its own. In the diary she gives it as "le 12 novembre 1858" (020.0260), the Old Style (Julian) date, which is 24 November in the Gregorian calendar. She also writes that she "was supposed to be born" only on 12 January, so the family counted her age from that day (068.0598). In the preface of 1884 she gives the year as 1859 (000.0005), and the 1887 edition printed 1860. Sources that give "11 November" or a year other than 1858 descend from these family fictions.
+The date of her birth is a small puzzle of its own. In the diary she gives it as "le 12 novembre 1858" (020.0248), the Old Style (Julian) date, which is 24 November in the Gregorian calendar. She also writes that she "was supposed to be born" only on 12 January, so the family counted her age from that day (068.0598). In the preface of 1884 she gives the year as 1859 (000.0005), and the 1887 edition printed 1860. Sources that give "11 November" or a year other than 1858 descend from these family fictions.
 
 %% GLO_MARIE_BASHKIRTSEFF.0006 %%
 ## The Diary
@@ -115,7 +115,7 @@ The 1887 *Journal* made her famous across Europe and America as a writer. Kather
 ## Key Dates
 
 %% GLO_MARIE_BASHKIRTSEFF.0029 %%
-- **12/24 Nov 1858**: Born at Gavrontsi, near Poltava (Old/New Style) (020.0260; Britannica)
+- **12/24 Nov 1858**: Born at Gavrontsi, near Poltava (Old/New Style) (020.0248; Britannica)
 - **1870**: Leaves Russia with her mother's family: Vienna, Baden-Baden (June), Geneva (000.0022–000.0039)
 - **Jan 1873**: Surviving diary begins, in Nice (carnet 001)
 - **2 Oct 1877**: First day at the Académie Julian (075.0124)
