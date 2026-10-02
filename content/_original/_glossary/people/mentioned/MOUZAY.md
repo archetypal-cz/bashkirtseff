@@ -15,7 +15,7 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Comprehensive
-last_updated: 2026-05-25
+last_updated: 2026-10-02
 ---
 
 # Madame de Mouzay
@@ -30,7 +30,7 @@ last_updated: 2026-05-25
 
 Madame F. de Mouzay (first initial from signed letter, carnet 082, 1878-10-04). French countess ("comtesse de Mouzay") residing in Nice and later Paris. Formerly a "lingere dans la maison de l'Empereur" (linen-maid in the household of Napoleon III), a detail Marie reveals in passing (086.0476, 1879-11-05). This imperial household connection explains both her aristocratic title and her extensive social network spanning Bonapartist political circles, artists, and the Faubourg Saint-Germain -- as well as the social ambiguity that Marie intermittently mocks.
 
-She had at least one daughter (frequently mentioned as "sa fille" or "Mlle de Mouzay"), a nephew who was a medical student, and a mother who also appears at social gatherings. She was also a published writer of feuilletons (serial fiction), though Marie describes this as modest: she "se frotte un peu a tous les mondes et qui a eu un certain succès comme ecrivain de feuilletons" (064.0050, 1876-07-22).
+She had at least one daughter (frequently mentioned as "sa fille" or "Mlle de Mouzay"); her daughter Marie, Mme de Daillens, née de Mouzay, has her own entry at [DE_DAILLENS](DE_DAILLENS.md) (identification per the printed indexes of Mon Journal t.8, t.13 and t.14 and the diary, 034.0003-0007), a nephew who was a medical student, and a mother who also appears at social gatherings. She was also a published writer of feuilletons (serial fiction), though Marie describes this as modest: she "se frotte un peu a tous les mondes et qui a eu un certain succès comme ecrivain de feuilletons" (064.0050, 1876-07-22).
 
 ## Relationship to the Bashkirtseff Family
 
