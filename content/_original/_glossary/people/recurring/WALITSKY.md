@@ -138,7 +138,7 @@ Walitsky was far more than a physician. He was a constant presence in family lif
 
 %% GLO_WALITSKY.0020 %%
 ### Object of Affectionate Mockery
-Mme Kondareff's famous quip captures his position in the all-female household: "un vrai serail avec Walitsky pour ennuque" ("a true harem with Walitsky for eunuch," %% 071.0541 %%). Marie and the household treated him as a beloved fixture -- the butt of pranks (she once hid a dead rat and eggs in his bed, %% 072.0147 %%) and the audience for domestic comedies ("Walitsky se pame" -- Walitsky swoons with laughter).
+Mme Kondareff's famous quip captures his position in the all-female household: "un vrai serail avec Walitsky pour ennuque" ("a true harem with Walitsky for eunuch," %% 071.0541 %%). Marie and the household treated him as a beloved fixture -- the butt of pranks (she once hid a dead rat and eggs in his bed, %% 072.0146 %%) and the audience for domestic comedies ("Walitsky se pame" -- Walitsky swoons with laughter).
 
 %% GLO_WALITSKY.0021 %%
 ## The Poisoning Scandal
@@ -380,7 +380,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 %% GLO_WALITSKY.0055 %%
 ### Books 71-73 (Nice, Paris 1877)
 - %% 071.0541 %% (Jun 2): "Un vrai serail avec Walitsky pour ennuque"
-- %% 072.0147 %% (Jun 11): Marie hides dead rat and eggs in his bed
+- %% 072.0146 %% (Jun 11): Marie hides dead rat and eggs in his bed
 - %% 073.0242 %% (Jul 30): "Ce coquin de Walitsky est un habile homme" -- medical advice on Soden
 
 %% GLO_WALITSKY.0056 %%

@@ -52,8 +52,8 @@ Marie's fixation on Silène runs through the Naples and Florence episodes of spr
 ## Generic use
 
 %% GLO_SILENE.0010 %%
-%% 2026-10-01T13:00:00 RSR: 072.0483 (1877-07-10): Georges, Marie's uncle, "Sa Silène l'a définitivement abandonné"; 073.0176 (1877-07-25): Gaston supported "à gauche par sa Silène". %%
-By the summer of 1877 the word has become a private household noun for "a gentleman's mistress": Marie writes of her uncle Georges's mistress as "sa Silène" (072.0483) and of Gaston's companion the same way (073.0176). Translators should keep the allusion to Silenus where possible (see the footnote at 070.0006).
+%% 2026-10-01T13:00:00 RSR: 072.0465 (1877-07-10): Georges, Marie's uncle, "Sa Silène l'a définitivement abandonné"; 073.0176 (1877-07-25): Gaston supported "à gauche par sa Silène". %%
+By the summer of 1877 the word has become a private household noun for "a gentleman's mistress": Marie writes of her uncle Georges's mistress as "sa Silène" (072.0465) and of Gaston's companion the same way (073.0176). Translators should keep the allusion to Silenus where possible (see the footnote at 070.0006).
 
 %% GLO_SILENE.0011 %%
 ## Sources

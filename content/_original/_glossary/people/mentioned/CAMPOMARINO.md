@@ -24,7 +24,7 @@ The marquisate was a feudal grant from the Bourbon Kingdom of the Two Sicilies o
 The specific individual has not been identified in accessible genealogical records.
 
 ## References in Diary
-- 069.0527 (1877-03-26): His visiting card is left along with that of Comte Francesco Caracciolo dei principi di Torchiaroli. Marie and the Fabbricatore girls discuss the callers.
+- 069.0535 (1877-03-26): His visiting card is left along with that of Comte Francesco Caracciolo dei principi di Torchiaroli. Marie and the Fabbricatore girls discuss the callers.
 
 ## Research Notes
 - Created: 2026-01-06 (auto-generated stub)

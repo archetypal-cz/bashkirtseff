@@ -31,7 +31,7 @@ The specific Francesco who called on Marie has not been traced in accessible gen
 Marie quotes the full text of his Italian visiting card: "comte Francesco Caracciolo, dei principe di Torchiaroli." The elaborate title strings — stacking territorial titles and genealogical affiliations — were a distinctly Neapolitan aristocratic style. French cards of the same period typically used only the most prominent title.
 
 ## References in Diary
-- 069.0527 (1877-03-26): His visiting card is left along with that of the Marchese de Campomarino. Marie and friends discuss the callers.
+- 069.0535 (1877-03-26): His visiting card is left along with that of the Marchese de Campomarino. Marie and friends discuss the callers.
 
 ## Related Entries
 - [CAMPOMARINO](CAMPOMARINO.md) — left his card at the same time

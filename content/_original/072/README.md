@@ -8,7 +8,7 @@ Carnet 072 of Marie Bashkirtseff's diary. A pivotal carnet spanning Nice and Par
 
 **Date range**: 1877-06-11 to 1877-07-14
 **Entry count**: 34 (1 empty: 06-20)
-**Paragraph range**: 072.0001-072.0598 (renumbered by the 2026-09-27 tome-10 rebuild)
+**Paragraph range**: 072.0001-072.0579 (renumbered by the 2026-09-27 tome-10 rebuild)
 **Location(s)**: Nice (06-11 to 06-21), Paris (06-21 to 07-14)
 
 ### Key Themes
