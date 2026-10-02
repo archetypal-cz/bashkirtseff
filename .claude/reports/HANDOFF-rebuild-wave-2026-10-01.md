@@ -56,8 +56,8 @@ The detailed working state is in `~/rebuild-state/`, which is not in git:
 
    Then the seam RED pass in each tree.
 2. **cz end sweep:**
-   - apply Karagjorgjevič, Čumakov, Musja and maršálová across the tree
-   - reword the 48 English-run notes so they start with „V originále anglicky"
+   - apply Karagjorgjevič, Čumakov, Musja and maršálová across the tree (locked in the TM; the English-run notes were already reworded in e592ce466)
+   - remaining cz owner questions (listed in `.claude/reports/2026-10-01-cz-001-106.md`): Tchernitská/Černická, Saint Amand/Saint-Amand, Jurkov/Yourkoff
    - 078.0249 «sur son bras»
 3. **uk:**
    - seam RED on 183 entries
