@@ -1441,7 +1441,7 @@ They need AI translation into French.
 - **090/1880-11-25.md** para 090.0269 [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Unae irae" - one wrath/anger (Marie's classical allusion, possibly misremembered) %%
 - **090/1880-12-16.md** para 090.0386 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN: "Consilium" - medical consultation/council %%
 - **090/1880-12-20.md** para 090.0422 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN cultural reference: Temple of Fides (Good Faith) traditionally attributed to Romulus %%
-- **094/1882-04-18.md** para 094.0343 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: "sleeping" - ENGLISH: sleeping car (train compartment) %%
+- **094/1882-04-18.md** para 094.0413 [ENGLISH]: %% 2026-02-02T15:00:00 LAN: "sleeping" - ENGLISH: sleeping car (train compartment) %%
 - **091/1881-02-05.md** para 091.0080 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "flirté" - borrowed English verb "flirt" with French conjugation %%
 - **091/1881-04-01.md** para 091.0412 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "blackbouler" - from English "blackball"; to reject, ostracize %%
 - **092/1881-06-14.md** para 092.0118 [RUSSIAN]: %% 2026-02-02T09:03:04 LAN: "Vassya" - RUSSIAN diminutive of Vasily; indicates familiar/affectionate naming %%
@@ -1457,11 +1457,11 @@ They need AI translation into French.
 - **092/1881-08-18.md** para 092.0427 [LATIN]: %% 2026-02-02T09:08:27 LAN: LATIN: "id est" - that is (scholarly abbreviation) %%
 - **093/1881-08-23.md** para 093.0015 [ENGLISH]: %% 2026-02-02T09:03:11 LAN: ENGLISH: "I!" - Marie's characteristic English exclamation for emphasis %%
 - **093/1881-09-18.md** para 093.DROPPED-0067 [ENGLISH]: %% 2026-02-02T09:01:13 LAN: "ulster" - ENGLISH: heavy overcoat (Ulster coat), fashionable 1870s-80s %%
-- **093/1881-10-04.md** para 093.0083 [LATIN]: %% 2026-02-02T09:10:06 LAN: "idem" - LATIN: the same, likewise (to be painted nude) %%
-- **093/1881-10-10.md** para 093.0090 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
-- **093/1881-10-30.md** para 093.0111 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
+- **093/1881-10-04.md** para 093.0175 [LATIN]: %% 2026-02-02T09:10:06 LAN: "idem" - LATIN: the same, likewise (to be painted nude) %%
+- **093/1881-10-10.md** para 093.0201 [LATIN]: %% 2026-02-02T09:03:09 LAN: LATIN: "verticem mundi" - summit/pinnacle of the world; Marie's classical education %%
+- **093/1881-10-30.md** para 093.0315 [RUSSIAN]: %% 2026-02-02T09:06:05 LAN: RUSSIAN: "les yeux s'enfuient dans toutes les directions comme on dit en russe" - Russian idiom Marie translates %%
 - **093/1881-11-22.md** para withdrawn in the 2026-09 rebuild (old carnet 093 ¶0141; see content/_renumber/093-2026-09-28.json) [LATIN]: %% 2026-02-02T09:06:26 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory: Marie's motto, book title %%
-- **094/1882-01-23.md** para 094.0132 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "heals all wounds but those of the heart" - Gabriel's English inscription on glycerin bottle, romantic cliche %%
+- **094/1882-01-23.md** para 094.0202 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "heals all wounds but those of the heart" - Gabriel's English inscription on glycerin bottle, romantic cliche %%
 - **095/1882-07-31.md** para 095.0384 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "Il corpo e piu che il vestimento" - The body is more than clothing; biblical reference Luke 12:23 %%
 - **095/1882-07-31.md** para 095.0385 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: CODE-SWITCH ITALIAN: "La vita e piu che il nutrimento" - Life is more than food; biblical reference Luke 12:23 %%
 - **096/1882-08-23.md** para 096.0127 [LATIN]: %% 2026-02-02T15:00:00 LAN: LATIN "Sinite parvulas venire ad me" - "Suffer the little children to come unto me" (Mark 10:14) %%
