@@ -1,0 +1,2429 @@
+{
+  "carnet": "029",
+  "date": "2026-10-02",
+  "plan_path": "../rebuild-state/split-wave/t4/plan-029.json",
+  "plan_source": null,
+  "id_map": {
+    "029.0001": "029.0001",
+    "029.0002": "029.0002",
+    "029.0003": "029.0003",
+    "029.0004": "029.0004",
+    "029.0005": "029.0005",
+    "029.0006": "029.0006",
+    "029.0007": "029.0007",
+    "029.0008": "029.0008",
+    "029.0009": "029.0009",
+    "029.0010": "029.0010",
+    "029.0011": "029.0011",
+    "029.0012": "029.0012",
+    "029.0013": "029.0013",
+    "029.0014": "029.0014",
+    "029.0015": "029.0015",
+    "029.0016": "029.0016",
+    "029.0017": "029.0017",
+    "029.0018": "029.0018",
+    "029.0019": "029.0019",
+    "029.0020": "029.0020",
+    "029.0021": "029.0021",
+    "029.0022": "029.0022",
+    "029.0023": "029.0023",
+    "029.0024": "029.0024",
+    "029.0025": "029.0025",
+    "029.0026": "029.0026",
+    "029.0027": "029.0027",
+    "029.0028": "029.0028",
+    "029.0029": "029.0029",
+    "029.0030": "029.0030",
+    "029.0031": "029.0031",
+    "029.0032": "029.0032",
+    "029.0033": "029.0033",
+    "029.0034": "029.0034",
+    "029.0035": "029.0035",
+    "029.0036": "029.0036",
+    "029.0037": "029.0037",
+    "029.0038": "029.0038",
+    "029.0039": "029.0039",
+    "029.0040": "029.0040",
+    "029.0041": "029.0041",
+    "029.0042": "029.0042",
+    "029.0043": "029.0043",
+    "029.0044": "029.0044",
+    "029.0045": "029.0045",
+    "029.0046": "029.0046",
+    "029.0047": "029.0047",
+    "029.0048": "029.0048",
+    "029.0049": "029.0049",
+    "029.0050": "029.0055",
+    "029.0051": "029.0085",
+    "029.0052": "029.0116",
+    "029.0053": "029.0118",
+    "029.0054": "029.0119",
+    "029.0055": "029.0120",
+    "029.0056": "029.0121",
+    "029.0057": "029.0122",
+    "029.0058": "029.0123",
+    "029.0059": "029.0124",
+    "029.0060": "029.0125",
+    "029.0061": "029.0126",
+    "029.0062": "029.0127",
+    "029.0063": "029.0128",
+    "029.0064": "029.0129",
+    "029.0065": "029.0130",
+    "029.0066": "029.0131",
+    "029.0067": "029.0132",
+    "029.0068": "029.0133",
+    "029.0069": "029.0134",
+    "029.0070": "029.0135",
+    "029.0071": "029.0136",
+    "029.0072": "029.0137",
+    "029.0073": "029.0138",
+    "029.0074": "029.0139",
+    "029.0075": "029.0140",
+    "029.0076": "029.0141",
+    "029.0077": "029.0142",
+    "029.0078": "029.0143",
+    "029.0079": "029.0144",
+    "029.0080": "029.0145",
+    "029.0081": "029.0146",
+    "029.0082": "029.0147",
+    "029.0083": "029.0148",
+    "029.0084": "029.0149",
+    "029.0085": "029.0150",
+    "029.0086": "029.0151",
+    "029.0087": "029.0152",
+    "029.0088": "029.0153",
+    "029.0089": "029.0154",
+    "029.0090": "029.0155",
+    "029.0091": "029.0156",
+    "029.0092": "029.0157",
+    "029.0093": "029.0158",
+    "029.0094": "029.0159",
+    "029.0095": "029.0160",
+    "029.0096": "029.0161",
+    "029.0097": "029.0162",
+    "029.0098": "029.0163",
+    "029.0099": "029.0164",
+    "029.0100": "029.0165",
+    "029.0101": "029.0166",
+    "029.0102": "029.0167",
+    "029.0103": "029.0168",
+    "029.0104": "029.0169",
+    "029.0105": "029.0170",
+    "029.0106": "029.0171",
+    "029.0107": "029.0172",
+    "029.0108": "029.0173",
+    "029.0109": "029.0174",
+    "029.0110": "029.0175",
+    "029.0111": "029.0176",
+    "029.0112": "029.0177",
+    "029.0113": "029.0178",
+    "029.0114": "029.0179",
+    "029.0115": "029.0180",
+    "029.0116": "029.0181",
+    "029.0117": "029.0182",
+    "029.0118": "029.0183",
+    "029.0119": "029.0184",
+    "029.0120": "029.0185",
+    "029.0121": "029.0186",
+    "029.0122": "029.0187",
+    "029.0123": "029.0188",
+    "029.0124": "029.0189",
+    "029.0125": "029.0190",
+    "029.0126": "029.0191",
+    "029.0127": "029.0192",
+    "029.0128": "029.0193",
+    "029.0129": "029.0194",
+    "029.0130": "029.0195",
+    "029.0131": "029.0196",
+    "029.0132": "029.0197",
+    "029.0133": "029.0198",
+    "029.0134": "029.0199",
+    "029.0135": "029.0200",
+    "029.0136": "029.0201",
+    "029.0137": "029.0202",
+    "029.0138": "029.0203",
+    "029.0139": "029.0204",
+    "029.0140": "029.0205",
+    "029.0141": "029.0206",
+    "029.0142": "029.0207",
+    "029.0143": "029.0208",
+    "029.0144": "029.0209",
+    "029.0145": "029.0210",
+    "029.0146": "029.0211",
+    "029.0147": "029.0212",
+    "029.0148": "029.0213",
+    "029.0149": "029.0214",
+    "029.0150": "029.0215",
+    "029.0151": "029.0216",
+    "029.0152": "029.0217",
+    "029.0153": "029.0218",
+    "029.0154": "029.0219",
+    "029.0155": "029.0220",
+    "029.0156": "029.0221",
+    "029.0157": "029.0222",
+    "029.0158": "029.0223",
+    "029.0159": "029.0224",
+    "029.0160": "029.0225",
+    "029.0161": "029.0226",
+    "029.0162": "029.0227",
+    "029.0163": "029.0228",
+    "029.0164": "029.0229",
+    "029.0165": "029.0230",
+    "029.0166": "029.0231",
+    "029.0167": "029.0232",
+    "029.0168": "029.0233",
+    "029.0169": "029.0234",
+    "029.0170": "029.0235",
+    "029.0171": "029.0236",
+    "029.0172": "029.0237",
+    "029.0173": "029.0238",
+    "029.0174": "029.0239",
+    "029.0175": "029.0240",
+    "029.0176": "029.0241",
+    "029.0177": "029.0242",
+    "029.0178": "029.0243",
+    "029.0179": "029.0244",
+    "029.0180": "029.0245",
+    "029.0181": "029.0246",
+    "029.0182": "029.0247",
+    "029.0183": "029.0248",
+    "029.0184": "029.0249",
+    "029.0185": "029.0250",
+    "029.0186": "029.0251",
+    "029.0187": "029.0252",
+    "029.0188": "029.0253",
+    "029.0189": "029.0254",
+    "029.0190": "029.0255",
+    "029.0191": "029.0256",
+    "029.0192": "029.0257",
+    "029.0193": "029.0258",
+    "029.0194": "029.0259",
+    "029.0195": "029.0260",
+    "029.0196": "029.0261",
+    "029.0197": "029.0262",
+    "029.0198": "029.0263",
+    "029.0199": "029.0264",
+    "029.0200": "029.0265",
+    "029.0201": "029.0266",
+    "029.0202": "029.0267",
+    "029.0203": "029.0268",
+    "029.0204": "029.0269",
+    "029.0205": "029.0270",
+    "029.0206": "029.0271",
+    "029.0207": "029.0272",
+    "029.0208": "029.0273",
+    "029.0209": "029.0274",
+    "029.0210": "029.0275",
+    "029.0211": "029.0276",
+    "029.0212": "029.0277",
+    "029.0213": "029.0278",
+    "029.0214": "029.0279",
+    "029.0215": "029.0280",
+    "029.0216": "029.0281",
+    "029.0217": "029.0282",
+    "029.0218": "029.0283",
+    "029.0219": "029.0284",
+    "029.0220": "029.0285",
+    "029.0221": "029.0286",
+    "029.0222": "029.0287",
+    "029.0223": "029.0288",
+    "029.0224": "029.0289",
+    "029.0225": "029.0290",
+    "029.0226": "029.0328",
+    "029.0227": "029.0341",
+    "029.0228": "029.0344",
+    "029.0229": "029.0345"
+  },
+  "changed_ids": 180,
+  "new_paragraphs": [
+    {
+      "id": "029.0050",
+      "file": "1875-01-26.md"
+    },
+    {
+      "id": "029.0051",
+      "file": "1875-01-26.md"
+    },
+    {
+      "id": "029.0052",
+      "file": "1875-01-26.md"
+    },
+    {
+      "id": "029.0053",
+      "file": "1875-01-26.md"
+    },
+    {
+      "id": "029.0054",
+      "file": "1875-01-26.md"
+    },
+    {
+      "id": "029.0056",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0057",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0058",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0059",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0060",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0061",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0062",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0063",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0064",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0065",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0066",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0067",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0068",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0069",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0070",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0071",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0072",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0073",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0074",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0075",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0076",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0077",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0078",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0079",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0080",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0081",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0082",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0083",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0084",
+      "file": "1875-01-27.md"
+    },
+    {
+      "id": "029.0086",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0087",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0088",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0089",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0090",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0091",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0092",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0093",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0094",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0095",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0096",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0097",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0098",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0099",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0100",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0101",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0102",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0103",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0104",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0105",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0106",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0107",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0108",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0109",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0110",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0111",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0112",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0113",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0114",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0115",
+      "file": "1875-01-28.md"
+    },
+    {
+      "id": "029.0117",
+      "file": "1875-01-29.md"
+    },
+    {
+      "id": "029.0291",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0292",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0293",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0294",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0295",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0296",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0297",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0298",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0299",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0300",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0301",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0302",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0303",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0304",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0305",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0306",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0307",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0308",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0309",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0310",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0311",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0312",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0313",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0314",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0315",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0316",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0317",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0318",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0319",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0320",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0321",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0322",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0323",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0324",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0325",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0326",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0327",
+      "file": "1875-02-14.md"
+    },
+    {
+      "id": "029.0329",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0330",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0331",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0332",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0333",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0334",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0335",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0336",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0337",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0338",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0339",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0340",
+      "file": "1875-02-15.md"
+    },
+    {
+      "id": "029.0342",
+      "file": "1875-02-16.md"
+    },
+    {
+      "id": "029.0343",
+      "file": "1875-02-16.md"
+    },
+    {
+      "id": "029.0346",
+      "file": "1875-02-18.md"
+    },
+    {
+      "id": "029.0347",
+      "file": "1875-02-18.md"
+    },
+    {
+      "id": "029.0348",
+      "file": "1875-02-18.md"
+    },
+    {
+      "id": "029.0349",
+      "file": "1875-02-18.md"
+    },
+    {
+      "id": "029.0350",
+      "file": "1875-02-18.md"
+    },
+    {
+      "id": "029.0351",
+      "file": "1875-02-18.md"
+    },
+    {
+      "id": "029.0352",
+      "file": "1875-02-18.md"
+    }
+  ],
+  "dropped": [],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [],
+  "last_id": "029.0352",
+  "flag_resets": {
+    "cz": [
+      "1875-01-26.md",
+      "1875-01-27.md",
+      "1875-01-28.md",
+      "1875-01-29.md",
+      "1875-02-14.md",
+      "1875-02-15.md",
+      "1875-02-16.md",
+      "1875-02-18.md"
+    ],
+    "uk": [
+      "1875-01-26.md",
+      "1875-01-27.md",
+      "1875-01-28.md",
+      "1875-01-29.md",
+      "1875-02-14.md",
+      "1875-02-15.md",
+      "1875-02-16.md",
+      "1875-02-18.md"
+    ],
+    "en": [
+      "1875-01-26.md",
+      "1875-01-27.md",
+      "1875-01-28.md",
+      "1875-01-29.md",
+      "1875-02-14.md",
+      "1875-02-15.md",
+      "1875-02-16.md",
+      "1875-02-18.md"
+    ],
+    "fr": [
+      "1875-01-26.md",
+      "1875-01-27.md",
+      "1875-01-28.md",
+      "1875-01-29.md",
+      "1875-02-14.md",
+      "1875-02-15.md",
+      "1875-02-16.md",
+      "1875-02-18.md"
+    ]
+  },
+  "plan": {
+    "carnet": "029",
+    "_generated": "identity plan of content/_original/029 — keys starting with _ are ignored",
+    "entries": [
+      {
+        "file": "1875-01-20.md",
+        "date": "1875-01-20",
+        "paragraphs": [
+          {
+            "old": "029.0001"
+          },
+          {
+            "old": "029.0002"
+          },
+          {
+            "old": "029.0003"
+          },
+          {
+            "old": "029.0004"
+          },
+          {
+            "old": "029.0005"
+          },
+          {
+            "old": "029.0006"
+          },
+          {
+            "old": "029.0007"
+          },
+          {
+            "old": "029.0008"
+          },
+          {
+            "old": "029.0009"
+          },
+          {
+            "old": "029.0010"
+          },
+          {
+            "old": "029.0011"
+          }
+        ],
+        "_first_line": "# Mercredi, 20 janvier 1875"
+      },
+      {
+        "file": "1875-01-21.md",
+        "date": "1875-01-21",
+        "paragraphs": [
+          {
+            "old": "029.0012"
+          },
+          {
+            "old": "029.0013"
+          }
+        ],
+        "_first_line": "# Jeudi, 21 janvier 1875"
+      },
+      {
+        "file": "1875-01-22.md",
+        "date": "1875-01-22",
+        "paragraphs": [
+          {
+            "old": "029.0014"
+          },
+          {
+            "old": "029.0015"
+          },
+          {
+            "old": "029.0016"
+          }
+        ],
+        "_first_line": "# Vendredi, 22 janvier 1875"
+      },
+      {
+        "file": "1875-01-23.md",
+        "date": "1875-01-23",
+        "paragraphs": [
+          {
+            "old": "029.0017"
+          },
+          {
+            "old": "029.0018"
+          },
+          {
+            "old": "029.0019"
+          }
+        ],
+        "_first_line": "# Samedi, 23 janvier 1875"
+      },
+      {
+        "file": "1875-01-24.md",
+        "date": "1875-01-24",
+        "paragraphs": [
+          {
+            "old": "029.0020"
+          },
+          {
+            "old": "029.0021"
+          },
+          {
+            "old": "029.0022"
+          },
+          {
+            "old": "029.0023"
+          },
+          {
+            "old": "029.0024"
+          },
+          {
+            "old": "029.0025"
+          },
+          {
+            "old": "029.0026"
+          },
+          {
+            "old": "029.0027"
+          },
+          {
+            "old": "029.0028"
+          },
+          {
+            "old": "029.0029"
+          },
+          {
+            "old": "029.0030"
+          },
+          {
+            "old": "029.0031"
+          },
+          {
+            "old": "029.0032"
+          },
+          {
+            "old": "029.0033"
+          },
+          {
+            "old": "029.0034"
+          },
+          {
+            "old": "029.0035"
+          },
+          {
+            "old": "029.0036"
+          },
+          {
+            "old": "029.0037"
+          },
+          {
+            "old": "029.0038"
+          },
+          {
+            "old": "029.0039"
+          },
+          {
+            "old": "029.0040"
+          },
+          {
+            "old": "029.0041"
+          },
+          {
+            "old": "029.0042"
+          },
+          {
+            "old": "029.0043"
+          },
+          {
+            "old": "029.0044"
+          },
+          {
+            "old": "029.0045"
+          },
+          {
+            "old": "029.0046"
+          },
+          {
+            "old": "029.0047"
+          }
+        ],
+        "_first_line": "# Dimanche, 24 janvier 1875"
+      },
+      {
+        "file": "1875-01-25.md",
+        "date": "1875-01-25",
+        "paragraphs": [
+          {
+            "old": "029.0048"
+          }
+        ],
+        "_first_line": "# Lundi, 25 janvier 1875"
+      },
+      {
+        "file": "1875-01-26.md",
+        "date": "1875-01-26",
+        "paragraphs": [
+          {
+            "old": "029.0049",
+            "set_french": "# Mardi, 26 janvier 1875\n0 Gioia ! Ma belle Gioia ! si tu savais quelle joie j'ai de te revoir !"
+          },
+          {
+            "new": {
+              "french": "Elle est toujours belle et enfin à Nice, un instant j'ai pensé que ce n'est pas 1875, mais 1873.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 6 of 029.0049, which held 6 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je vais à la musique avec Dina (gris, bien mais pâle). Il y a bien du monde et on se sent bien, voilà l'apogée de la saison, encore un jour et commence le déclin.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 6 of 029.0049, which held 6 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Nous allâmes dans plusieurs endroits dire de ne pas faire crédit à mon honorable frère.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 6 of 029.0049, which held 6 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Spa et Gericke me font rêver depuis deux jours, mais, dès ce soir les rêveries au diable, demain les Courses, demain Belona, après-demain le Tir aux pigeons, j'ai passé celui d'aujourd'hui mais à l'autre il faut que j'aille. Oh ! les deux belles journées, pourvu qu'elles réussissent et pour ces deux jours je consens à m'ennuyer neuf mois, trois à Nice, deux en Russie et quatre de nouveau à Nice, après quoi nous irons à Rome et j'irai dans le monde !",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 6 of 029.0049, which held 6 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "[Dans la marge: Flûte !]",
+              "rsr": "Split (paragraph wave): print paragraph 6 of 6 of 029.0049, which held 6 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Mardi, 26 janvier 1875"
+      },
+      {
+        "file": "1875-01-27.md",
+        "date": "1875-01-27",
+        "paragraphs": [
+          {
+            "old": "029.0050",
+            "set_french": "# Mercredi, 27 janvier 1875\nTroisième jours des Courses."
+          },
+          {
+            "new": {
+              "french": "Bon ! ça y est ! C'est ce que les poètes appellent un coup de foudre... je suis amoureuse ! De qui ? Ah ! voilà ! Eh bien c'est de sir Frederic Johnstone. On ne sait pas qui est-ce ! C'est l'homme que j'ai remarqué. Il n'est qu'un demi-lord mais c'est assez quand on est beau. Noble à point.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "[En travers: Ça n'était point sir Frederick Johnstone mais M. Olliver.]",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est au moment de rentrer que je pousse intérieurement cette exclamation, quand je vois de loin Johnstone avec son ami, si semblable à Hamilton, pas comme figure, mais parce que je voyais souvent le duc vers le soir quand le brouillard descend sur Nice, passer rapidement par la Promenade avec Merck ou un autre.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce monsieur ressemble plutôt à Carlo et non à Hamilton, s'il ressemble à quelqu'un. Depuis Hamilton je n'ai pas vu d'homme tout à fait bien, mais celui-ci vient et me transporte, pour ainsi dire à l'époque hamiltonienne.",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tout chez lui est bien, depuis le chapeau jusqu'aux bottes. Et le voyant pour la première fois la veille du départ pour Paris à pied, je sortis ma tête de la voiture à moitié fermée et le regardai avec curiosité, c'est qu'il était superbe.",
+              "rsr": "Split (paragraph wave): print paragraph 6 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Nous allâmes aux Courses en trois, ma tante, Dina et moi (robe blanche Worth, chapeau gris bien, mais un peu pâle).",
+              "rsr": "Split (paragraph wave): print paragraph 7 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Cette fois [nous] n'avons place qu'au cinquième rang qui est le dernier. Beau temps, beau soleil. Morgan reste tout le temps sur le siège et Galula ensuite Woerman viennent auprès de la voiture, ce dernier reste assez longtemps, mais je lui parle peu, furieuse que je suis de n'être pas à la tribune. Pendant que Woerman grimace, Audiffret marche autour de nous, les bras croisés comme Napoléon, d'abord, puis change toutes les poses, parle haut et pauvre garçon pose de toutes ses forces.",
+              "rsr": "Split (paragraph wave): print paragraph 8 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il est bien gentil, mais bien commun aussi. Non loin sont les Lewin, Durand, éblouissantes de toilette, et devant nous à cinq ou six voitures de distance est Johnstone en son fiacre avec son ami qui ressemble à Doria blanc.",
+              "rsr": "Split (paragraph wave): print paragraph 9 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Trois fois les larmes me vinrent jusqu'aux yeux, des larmes de colère, d'être clouée à la voiture. Il est vrai que le bel Anglais est resté dans la sienne puis est venu deux ou trois fois à pied passer devant nous, mais je détournais la tête.",
+              "rsr": "Split (paragraph wave): print paragraph 10 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est Morgan qui m'a dit son nom, ma tante le lui a demandé.",
+              "rsr": "Split (paragraph wave): print paragraph 11 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "You know him ? lui demandai-je.",
+              "rsr": "Split (paragraph wave): print paragraph 12 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "-I know him, to say good morning and he answers How do you do, and that is all, répondit Morgan.",
+              "rsr": "Split (paragraph wave): print paragraph 13 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— You told me you should like to ride at these races, if you know this gentleman, why don't you ride one of his horses ?",
+              "rsr": "Split (paragraph wave): print paragraph 14 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— He has horses but in England, not here.",
+              "rsr": "Split (paragraph wave): print paragraph 15 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Ah !",
+              "rsr": "Split (paragraph wave): print paragraph 16 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Yes, and besides he would have jockeys.",
+              "rsr": "Split (paragraph wave): print paragraph 17 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Then he has horses indeed such a fine gentleman could not be without them, and this is a new quality, attraction.",
+              "rsr": "Split (paragraph wave): print paragraph 18 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Time a few weeks I began to doubt whether I really like english language and people, and there were moments I thought not, but with the appearence of Sir Frederic Johnstone, my foolish doubts are gone and again I adore english and England. After the horses' races was announced another kind of race, a man proposed to me three times round the field, with all the jumps and even the water jump, in 18 minutes. It would be capital if it could be done, and I was so stupid, not so stay, to go away, brute that I am. I grant all there epithets to my person because the handsome Johnstone remained, and I did not see him to day. But when I was entering the rue des Beaumettes then I saw him coming in the evening mist.",
+              "rsr": "Split (paragraph wave): print paragraph 19 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Le retour était beau et comme je ne cache pas I impression qu'a produite sur moi l'Anglais, sauf à dire que j en suis amoureuse, je cherchais des yeux et dis plusieurs fois à ma tante (Dina était descendue et rentrée par la Promenade) ce qu'il était devenu, alors ma tante se mit à rire et à dire que *les baronnets m'ont conquise, quelle sotte je suis, que parce que l'un est lord et l'autre baronnet, je deviens folle et ah... *-Ah ici par exemple j'hésite énormément à écrire ce que ma tante a dit plusieurs fois, passons *que je suis pincée*. Il fallait du courage, ma parole d'honneur, c'est à quoi je répondis qu'il est très agréable de savoir qu'on a distingué un gentleman et non un faquin.",
+              "rsr": "Split (paragraph wave): print paragraph 20 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Une fois chez maman ma tante dit sans doute que *les baronnets m'ont conquise* alors maman dit: - *Mais peut-être ce n'est pas un baronnet, mais le diable sait quoi.",
+              "rsr": "Split (paragraph wave): print paragraph 21 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Non, dit ma tante, non, car, à tout, à sa gueule on voit que c'est un barine.*",
+              "rsr": "Split (paragraph wave): print paragraph 22 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ces paroles me firent un plaisir immense.",
+              "rsr": "Split (paragraph wave): print paragraph 23 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "La vieille bonne de Mouzay passe une heure chez nous.",
+              "rsr": "Split (paragraph wave): print paragraph 24 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce soir, \"Il Barbiere di Seviglia\" avec la Belona, loge n° 4 au deuxième (robe blanche de soie, très bien coiffée, pas ma coiffure, mais bien). Ma tante, Dina et moi. Belona chante mieux dans Rosina que dans Armina mais elle est bien faible et manque de hautes notes.",
+              "rsr": "Split (paragraph wave): print paragraph 25 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mme de Galve en face, la Prodgers, puis tout le monde, Audiffer, faisant des poses désespérantes, tantôt renversé en arrière tantôt penché devant, tantôt le visage couvert de ses mains. Après la troisième le théâtre se vide, nous partons.",
+              "rsr": "Split (paragraph wave): print paragraph 26 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Avant Audiffret suffisait pour me faire tranquillement passer ma soirée aux Italiens et ce soir je me suis ennuyée et il y avait Arnim et Furstenberg, mais il n'y avait pas celui qui seul est tout en ce moment pour moi.",
+              "rsr": "Split (paragraph wave): print paragraph 27 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Demain, je vais à Monte-Carlo pour le voir, que ne suis-je pas un homme, sir Frederic Johnstone est mon sixième. Les voilà tous par ordre chronologique:",
+              "rsr": "Split (paragraph wave): print paragraph 28 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Boreel 1872-73\nDuc de Hamilton 1872-73-74-75\n[Une ligne cancellée se terminant par: été 1874] d'Audiffret automne 1874 très peu Prince de Wittgenstein un peu et toujours et enfin sir Frederic Johnstone depuis peu de jours et beaucoup.",
+              "rsr": "Split (paragraph wave): print paragraph 29 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il était fraîchement rasé aux Courses et avais de la poudre sur les joues.",
+              "rsr": "Split (paragraph wave): print paragraph 30 of 30 of 029.0050, which held 30 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Mercredi, 27 janvier 1875"
+      },
+      {
+        "file": "1875-01-28.md",
+        "date": "1875-01-28",
+        "paragraphs": [
+          {
+            "old": "029.0051",
+            "set_french": "# Jeudi, 28 janvier 1875\n(Robe grise et chapeau bien)."
+          },
+          {
+            "new": {
+              "french": "Le chapeau mousquetaire en feutre gris, et avec deux plumes également grises, un bord retroussé, est vraiment très joli, de plus c'est un chapeau qui a du genre, du style et qui fait avec ma robe de drap gris, unie à petits boutons gris, la taille bien prise et les manches très étroites, un des plus charmants, un des plus comme il faut et des plus distingués ensembles qui existent.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "A dix heures quarante cinq minutes nous partons. Dès mon entrée à la gare et pendant que nous nous promenions sur la plate-forme devant le buffet tous les yeux se fixèrent sur moi avec une visible approbation, il n'y eut que ce pleutre de Lambertye qui exiba son éternel sourire.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je vais au Tir aux pigeons parce que je pense y voir le diable, autrement je n'irais pas.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Avec notre train, il ne vient pas grand monde, nous déjeunons fort mal à l'hôtel de Paris, entrons dans les salles de jeu y restons une demi-heure et descendons au Tir. Nous, ma tante, moi et Paul.",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Maman reste à jouer. En bas, sauf Galve, Lambertye, Furstenberg, Arnim et Leo, Chillingworth, Frehern, tous sont des gens inconnus, et malgré que sir F. Johnstone est inscrit le premier sur le programme, il n'y est pas, ce qui me fait sans cesse regarder l'escalier, et plonger les yeux dans les groupes des tireurs et des parieurs, mais là pas plus qu'ailleurs, je ne le vois.",
+              "rsr": "Split (paragraph wave): print paragraph 6 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est tout simple, aujourd'hui, c'est un petit Tir, un petit prix, un plat en argent est de mille francs. Le grand prix de vingt mille francs a été disputé lundi, mardi et les jours précédents.",
+              "rsr": "Split (paragraph wave): print paragraph 7 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin Lambertye gagne, il tue dix pigeons sans en manquer un seul.",
+              "rsr": "Split (paragraph wave): print paragraph 8 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Nous remontons et sur le perron nous rencontrons Dina avec les Sapogenikoff, elles viennent par le train de deux heures, j'entre encore une fois au salon, M. de Neujean (que nous avons connu à Spa) vient me dire que l'impératrice est dans les jardins, nous y courons, Neujean me présente deux messieurs, le baron de je ne sais quoi, un vieux vilain, et le baron de La Race un jeune médiocre, et moi avec ces trois Belges et Dina avec les Sapogenikoff parcourons les allées, les terrasses, mais point de Sa Majesté.",
+              "rsr": "Split (paragraph wave): print paragraph 9 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "M. de La Race nous apporte des chaises sur le balcon de l'hôtel et nous nous y installons dans l'espoir de voir sortir l'impératrice qui, dit-on, déjeune. La Race va aux informations et revient dire qu'elle est partie, alors je descends encore au Tir avec Marie et Paul, il devait y avoir plusieurs poules. Je n'y reste que quelques minutes, il fait beau, le soleil éclaire les splendides terrasses, la mer et les tireurs mais je suis untranquilla , je cherche. Dans la salle je vois il facchino italiano, ce qui me donne une envie féroce de parler cette langue barbare, mais comme personne ne me comprend, je l'entremêle de mots anglais, français et russes, c'est dans ce dialecte que je continue tout le temps.",
+              "rsr": "Split (paragraph wave): print paragraph 10 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "[En travers: Etre effrayée pour avoir parlé italien devant cet Italien en voilà un enfantillage.]",
+              "rsr": "Split (paragraph wave): print paragraph 11 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'envoie Dina et Olga se mettre près de la table où jouait il facchino et moi-même avec Marie me place près d'une autre table, puis de là c'était convenu d'avance je m'approche de Dina et lui dit: Venite qua je inpettano et m'éloigne pendant qu'elle crie aspetta, aspetta, mais en arrivant près de ma table, j'eus si peur de la bêtise que je venais de faire que je tremblais et pouvais à peine répondre à ce que me disait M. de la Race. A cinq heures un quart, moi, Dina, Marie, Olga et Paul, les enfants en un mot nous élançons hors du casino en riant et faisant et disant des bêtises et ainsi descendons le grand escalier.",
+              "rsr": "Split (paragraph wave): print paragraph 12 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Nous partons, dit Paul, mais si nous nous ennuyons, nous pouvons revenir comme l'année dernière.",
+              "rsr": "Split (paragraph wave): print paragraph 13 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "A neuf heures pour admirer sur le gazon du Tir écrit en lettres de feu le nom de ce comment déjà on le nomme, de celui qui a gagné, comment est son nom ?...",
+              "rsr": "Split (paragraph wave): print paragraph 14 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— De Lambertye tu veux dire en voilà encore un muso que ce Lambertye (muso est un mot que nous disons à tout propos aujourd'hui, il vient de \"L'Italiano in Algeri\", le comique le dit très drôlement et qu'on nomme ainsi la Chestaskoff, l'Italien et tout ce qui est muso ou ne l'est pas) à peine j'avais achevé que je vis Galve qui marchait devant nous et que j'avais ouï et non remarqué sourire et légèrement tourner la tête, en sorte que je ne vis que son œil qui riait.",
+              "rsr": "Split (paragraph wave): print paragraph 15 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oh que je suis contente, s'il voulait seulement dire à Lambertye comment je le nomme ! car ce misérable crapaud pense peut-être que je l'admire parce que je rougissais !",
+              "rsr": "Split (paragraph wave): print paragraph 16 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "(En travers: Je rougissais pour une quantité d'hommes.]",
+              "rsr": "Split (paragraph wave): print paragraph 17 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et égayés encore par cet incident nous débouchons bruyamment dans la salle d'attente et de là sur la plate-forme. Comme nous riions et parlions cette langue étrange que j'ai dit, tout le monde nous regardait.",
+              "rsr": "Split (paragraph wave): print paragraph 18 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais voilà que une dame et deux messieurs restant à deux pas de nous commencent en français à parler de mes pieds, de mes talons, et dire qu'y a encore des talons cachés, qu'on peut être petit mais avec ces doubles talons on devient grand etc. etc. Alors m'adressant en russe à Marie, je dis:",
+              "rsr": "Split (paragraph wave): print paragraph 19 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Entendez-vous, ces gens disent des choses fort désobligeantes et encore en français ! et tout près ! J'ai envie d'ôter ma bottine pour leur faire voir qu'ils mentent.",
+              "rsr": "Split (paragraph wave): print paragraph 20 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Oui, répond-elle et la lui mettre sous le nez.",
+              "rsr": "Split (paragraph wave): print paragraph 21 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Pardon, Mademoiselle, dit alors la dame, en russe, je ne parlais pas de vos pieds, j'ai dit que vous les aviez jolis et c'est cela qui a amené la conversation.",
+              "rsr": "Split (paragraph wave): print paragraph 22 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— En ce cas je vous remercie du compliment lui dis-je pas du tout rassurée et sèchement.",
+              "rsr": "Split (paragraph wave): print paragraph 23 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin nous partons de Monaco à Nice. Olga nous magnétise et nous baillons et rions, disons tous ensemble et rions tellement qu'on pourrait croire que nous sommes fous et grand-papa se tait et soupire. Je riais parce qu'on riait, mais je n'étais pas gaie, d'ailleurs il n'y avait pas de quoi rire et tout aujourd'hui c'est bête, mais comme on riait, je ne voulais pas rester en arrière, au contraire c'est moi qui donnais le signal.",
+              "rsr": "Split (paragraph wave): print paragraph 24 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Un instant on a cessé et je profitais de cet instant pour dire à Dina:",
+              "rsr": "Split (paragraph wave): print paragraph 25 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Ah ! ma chère, ça y est, c'est ce que les poètes appellent le coup de foudre - puis on recommence, heureusement chacun était occupé à hennir et on ne remarqua pas que je hennissais forcément et seulement de la bouche.",
+              "rsr": "Split (paragraph wave): print paragraph 26 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Quel infernal concert !",
+              "rsr": "Split (paragraph wave): print paragraph 27 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "A huit heures loin d'être tranquilles, toujours riant nous allons voir \"La fille de Mme Angot\" et prenons avec nous Mme de Daillens.",
+              "rsr": "Split (paragraph wave): print paragraph 28 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Après la marchande de marée, je m'en vais à la maison, je n'y allais que pour voir si le diable était là.",
+              "rsr": "Split (paragraph wave): print paragraph 29 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "A une heure les nôtres rentrent et maman me demande de quels messieurs j'étais entourée puis me dit que les croupiers lui dirent toutes sortes de belles choses de moi, que j'étais jolie, distinguée, que j'avais l'air d'une duchesse, etc. etc.^etc.",
+              "rsr": "Split (paragraph wave): print paragraph 30 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je m'endors en pensant à Johnstone, on a beau dire C est charmant d'être amoureux\".",
+              "rsr": "Split (paragraph wave): print paragraph 31 of 31 of 029.0051, which held 31 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Jeudi, 28 janvier 1875"
+      },
+      {
+        "file": "1875-01-29.md",
+        "date": "1875-01-29",
+        "paragraphs": [
+          {
+            "old": "029.0052",
+            "set_french": "# Vendredi, 29 janvier 1875\nIl fait très beau, je conduis maman, Dina et Walitsky à la gare, ils vont à San Remo, puis je vais à la Promenade, seule. Il y a foule au détroit des Mouches, au moment où je faisais tourner à gauche, près de l'hôtel des Anglais j'aperçus le diable. Je le nomme le diable parce que la première fois que je le vis il m'a paru y ressembler, au milieu du Détroit et dépassant d'une tête tous les autres, je voulus retourner, mais il était trop tard, j'allai jusqu'au London House et de là je retournai, alors il parlait à deux demoiselles vêtues de tuniques gris de fer, assez jolies, que je remarque depuis quelque temps. Il m'a semblé que la première fois il m'a vue, mais la deuxième, non."
+          },
+          {
+            "new": {
+              "french": "Arrivée à l'hôtel de Rome je fis tourner encore une fois mais il avait disparu, alors je rentrai, je n'avais plus rien à faire. Je rentre gaie et rêveuse, mais Leclerc vient et me bourre de physique.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 029.0052, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Vendredi, 29 janvier 1875"
+      },
+      {
+        "file": "1875-01-30.md",
+        "date": "1875-01-30",
+        "paragraphs": [
+          {
+            "old": "029.0053"
+          },
+          {
+            "old": "029.0054"
+          },
+          {
+            "old": "029.0055"
+          },
+          {
+            "old": "029.0056"
+          },
+          {
+            "old": "029.0057"
+          },
+          {
+            "old": "029.0058"
+          },
+          {
+            "old": "029.0059"
+          },
+          {
+            "old": "029.0060"
+          },
+          {
+            "old": "029.0061"
+          },
+          {
+            "old": "029.0062"
+          },
+          {
+            "old": "029.0063"
+          }
+        ],
+        "_first_line": "# Samedi, 30 janvier 1875"
+      },
+      {
+        "file": "1875-01-31.md",
+        "date": "1875-01-31",
+        "paragraphs": [
+          {
+            "old": "029.0064"
+          },
+          {
+            "old": "029.0065"
+          },
+          {
+            "old": "029.0066"
+          },
+          {
+            "old": "029.0067"
+          },
+          {
+            "old": "029.0068"
+          },
+          {
+            "old": "029.0069"
+          },
+          {
+            "old": "029.0070"
+          },
+          {
+            "old": "029.0071"
+          },
+          {
+            "old": "029.0072"
+          },
+          {
+            "old": "029.0073"
+          },
+          {
+            "old": "029.0074"
+          },
+          {
+            "old": "029.0075"
+          },
+          {
+            "old": "029.0076"
+          },
+          {
+            "old": "029.0077"
+          },
+          {
+            "old": "029.0078"
+          },
+          {
+            "old": "029.0079"
+          },
+          {
+            "old": "029.0080"
+          },
+          {
+            "old": "029.0081"
+          }
+        ],
+        "_first_line": "# Dimanche, 31 janvier 1875"
+      },
+      {
+        "file": "1875-02-01.md",
+        "date": "1875-02-01",
+        "paragraphs": [
+          {
+            "old": "029.0082"
+          },
+          {
+            "old": "029.0083"
+          },
+          {
+            "old": "029.0084"
+          },
+          {
+            "old": "029.0085"
+          },
+          {
+            "old": "029.0086"
+          },
+          {
+            "old": "029.0087"
+          },
+          {
+            "old": "029.0088"
+          },
+          {
+            "old": "029.0089"
+          },
+          {
+            "old": "029.0090"
+          },
+          {
+            "old": "029.0091"
+          },
+          {
+            "old": "029.0092"
+          },
+          {
+            "old": "029.0093"
+          },
+          {
+            "old": "029.0094"
+          },
+          {
+            "old": "029.0095"
+          }
+        ],
+        "_first_line": "# Lundi, 1 février 1875"
+      },
+      {
+        "file": "1875-02-02.md",
+        "date": "1875-02-02",
+        "paragraphs": [
+          {
+            "old": "029.0096"
+          },
+          {
+            "old": "029.0097"
+          },
+          {
+            "old": "029.0098"
+          },
+          {
+            "old": "029.0099"
+          },
+          {
+            "old": "029.0100"
+          }
+        ],
+        "_first_line": "# Mardi, 2 février 1875"
+      },
+      {
+        "file": "1875-02-03.md",
+        "date": "1875-02-03",
+        "paragraphs": [
+          {
+            "old": "029.0101"
+          },
+          {
+            "old": "029.0102"
+          },
+          {
+            "old": "029.0103"
+          },
+          {
+            "old": "029.0104"
+          },
+          {
+            "old": "029.0105"
+          },
+          {
+            "old": "029.0106"
+          },
+          {
+            "old": "029.0107"
+          },
+          {
+            "old": "029.0108"
+          },
+          {
+            "old": "029.0109"
+          },
+          {
+            "old": "029.0110"
+          },
+          {
+            "old": "029.0111"
+          },
+          {
+            "old": "029.0112"
+          },
+          {
+            "old": "029.0113"
+          },
+          {
+            "old": "029.0114"
+          },
+          {
+            "old": "029.0115"
+          },
+          {
+            "old": "029.0116"
+          },
+          {
+            "old": "029.0117"
+          },
+          {
+            "old": "029.0118"
+          },
+          {
+            "old": "029.0119"
+          },
+          {
+            "old": "029.0120"
+          },
+          {
+            "old": "029.0121"
+          },
+          {
+            "old": "029.0122"
+          },
+          {
+            "old": "029.0123"
+          }
+        ],
+        "_first_line": "# Mercredi, 3 février 1875"
+      },
+      {
+        "file": "1875-02-04.md",
+        "date": "1875-02-04",
+        "paragraphs": [
+          {
+            "old": "029.0124"
+          },
+          {
+            "old": "029.0125"
+          }
+        ],
+        "_first_line": "# Jeudi, 4 février 1875"
+      },
+      {
+        "file": "1875-02-05.md",
+        "date": "1875-02-05",
+        "paragraphs": [
+          {
+            "old": "029.0126"
+          },
+          {
+            "old": "029.0127"
+          },
+          {
+            "old": "029.0128"
+          },
+          {
+            "old": "029.0129"
+          },
+          {
+            "old": "029.0130"
+          },
+          {
+            "old": "029.0131"
+          },
+          {
+            "old": "029.0132"
+          },
+          {
+            "old": "029.0133"
+          },
+          {
+            "old": "029.0134"
+          }
+        ],
+        "_first_line": "# Vendredi, 5 février 1875"
+      },
+      {
+        "file": "1875-02-06.md",
+        "date": "1875-02-06",
+        "paragraphs": [
+          {
+            "old": "029.0135"
+          },
+          {
+            "old": "029.0136"
+          },
+          {
+            "old": "029.0137"
+          },
+          {
+            "old": "029.0138"
+          },
+          {
+            "old": "029.0139"
+          },
+          {
+            "old": "029.0140"
+          },
+          {
+            "old": "029.0141"
+          },
+          {
+            "old": "029.0142"
+          },
+          {
+            "old": "029.0143"
+          },
+          {
+            "old": "029.0144"
+          },
+          {
+            "old": "029.0145"
+          },
+          {
+            "old": "029.0146"
+          },
+          {
+            "old": "029.0147"
+          },
+          {
+            "old": "029.0148"
+          },
+          {
+            "old": "029.0149"
+          },
+          {
+            "old": "029.0150"
+          },
+          {
+            "old": "029.0151"
+          },
+          {
+            "old": "029.0152"
+          },
+          {
+            "old": "029.0153"
+          },
+          {
+            "old": "029.0154"
+          },
+          {
+            "old": "029.0155"
+          },
+          {
+            "old": "029.0156"
+          }
+        ],
+        "_first_line": "# Samedi, 6 février 1875"
+      },
+      {
+        "file": "1875-02-07.md",
+        "date": "1875-02-07",
+        "paragraphs": [
+          {
+            "old": "029.0157"
+          },
+          {
+            "old": "029.0158"
+          },
+          {
+            "old": "029.0159"
+          },
+          {
+            "old": "029.0160"
+          },
+          {
+            "old": "029.0161"
+          },
+          {
+            "old": "029.0162"
+          },
+          {
+            "old": "029.0163"
+          },
+          {
+            "old": "029.0164"
+          },
+          {
+            "old": "029.0165"
+          },
+          {
+            "old": "029.0166"
+          },
+          {
+            "old": "029.0167"
+          },
+          {
+            "old": "029.0168"
+          },
+          {
+            "old": "029.0169"
+          },
+          {
+            "old": "029.0170"
+          },
+          {
+            "old": "029.0171"
+          },
+          {
+            "old": "029.0172"
+          },
+          {
+            "old": "029.0173"
+          },
+          {
+            "old": "029.0174"
+          },
+          {
+            "old": "029.0175"
+          }
+        ],
+        "_first_line": "# Dimanche, 7 février 1875"
+      },
+      {
+        "file": "1875-02-08.md",
+        "date": "1875-02-08",
+        "paragraphs": [
+          {
+            "old": "029.0176"
+          },
+          {
+            "old": "029.0177"
+          },
+          {
+            "old": "029.0178"
+          },
+          {
+            "old": "029.0179"
+          },
+          {
+            "old": "029.0180"
+          },
+          {
+            "old": "029.0181"
+          },
+          {
+            "old": "029.0182"
+          }
+        ],
+        "_first_line": "# Lundi, 8 février 1875"
+      },
+      {
+        "file": "1875-02-09.md",
+        "date": "1875-02-09",
+        "paragraphs": [
+          {
+            "old": "029.0183"
+          },
+          {
+            "old": "029.0184"
+          },
+          {
+            "old": "029.0185"
+          },
+          {
+            "old": "029.0186"
+          },
+          {
+            "old": "029.0187"
+          },
+          {
+            "old": "029.0188"
+          },
+          {
+            "old": "029.0189"
+          },
+          {
+            "old": "029.0190"
+          },
+          {
+            "old": "029.0191"
+          },
+          {
+            "old": "029.0192"
+          },
+          {
+            "old": "029.0193"
+          },
+          {
+            "old": "029.0194"
+          },
+          {
+            "old": "029.0195"
+          },
+          {
+            "old": "029.0196"
+          },
+          {
+            "old": "029.0197"
+          },
+          {
+            "old": "029.0198"
+          },
+          {
+            "old": "029.0199"
+          },
+          {
+            "old": "029.0200"
+          }
+        ],
+        "_first_line": "# Mardi Gras, 9 février 1875"
+      },
+      {
+        "file": "1875-02-10.md",
+        "date": "1875-02-10",
+        "paragraphs": [
+          {
+            "old": "029.0201"
+          },
+          {
+            "old": "029.0202"
+          }
+        ],
+        "_first_line": "# Mercredi, 10 février 1875"
+      },
+      {
+        "file": "1875-02-11.md",
+        "date": "1875-02-11",
+        "paragraphs": [
+          {
+            "old": "029.0203"
+          },
+          {
+            "old": "029.0204"
+          },
+          {
+            "old": "029.0205"
+          },
+          {
+            "old": "029.0206"
+          },
+          {
+            "old": "029.0207"
+          },
+          {
+            "old": "029.0208"
+          },
+          {
+            "old": "029.0209"
+          },
+          {
+            "old": "029.0210"
+          },
+          {
+            "old": "029.0211"
+          },
+          {
+            "old": "029.0212"
+          },
+          {
+            "old": "029.0213"
+          }
+        ],
+        "_first_line": "# Jeudi, 11 février 1875"
+      },
+      {
+        "file": "1875-02-12.md",
+        "date": "1875-02-12",
+        "paragraphs": [
+          {
+            "old": "029.0214"
+          },
+          {
+            "old": "029.0215"
+          },
+          {
+            "old": "029.0216"
+          },
+          {
+            "old": "029.0217"
+          }
+        ],
+        "_first_line": "# Vendredi, 12 février 1875"
+      },
+      {
+        "file": "1875-02-13.md",
+        "date": "1875-02-13",
+        "paragraphs": [
+          {
+            "old": "029.0218"
+          },
+          {
+            "old": "029.0219"
+          },
+          {
+            "old": "029.0220"
+          },
+          {
+            "old": "029.0221"
+          },
+          {
+            "old": "029.0222"
+          },
+          {
+            "old": "029.0223"
+          },
+          {
+            "old": "029.0224"
+          }
+        ],
+        "_first_line": "# Samedi, 13 février 1875"
+      },
+      {
+        "file": "1875-02-14.md",
+        "date": "1875-02-14",
+        "paragraphs": [
+          {
+            "old": "029.0225",
+            "set_french": "# Dimanche, 14 février 1875\nJe vais à l'église avec Dina et Sacha (gris, bien) depuis longtemps je n'y suis allée, mais c'est presque inutile pour moi je prie rarement à l'église car c'est là, dit-on, que le diable vient distraire les honnêtes gens."
+          },
+          {
+            "new": {
+              "french": "Il y avait beaucoup de monde à la Promenade quand nous sortîmes. Alexandre veut parler à ma chère tante Tutcheff et la convaincre qu'elle risque beaucoup en nous diffamant comme elle le fait. Sans doute elle cédera, car ce cher Alexandre a des arguments irrésistibles. A la musique avec Nadia et Julie, nous nous plaçâmes au coin du jardin côté de l'hôtel des Anglais, alors j'aperçus de Gonzalès près d'une voiture, je lui souris et fis signe avec l'index de venir, aussitôt il quitta les dames et vint.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Eh bien ! Que veut dire cette conduite, mon cher Monsieur ? furent mes premières paroles, alors moitié riant, moitié sérieusement je lui demandai raison de la conduite de sa femme envers nous, et lui donnai bel et bien une leçon de politesse. En vérité cela en valait la peine. Ce singe du Brésil a été presque, que dis-je presque, entièrement impertinent.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "A Paris ma mère a fait visite à sa femme, à Nice elle ne la lui rend pas, tout comme si nous n'existions pas. Avant, le mari a fait la cour à maman, mais à présent cette femme ne peut pas être jalouse, elle sait bien que tout est fini, d'ailleurs il n'y avait rien de commencé.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "De Gonzalès répondait par des louanges et des compliments sans fin avouant qu'il a tort, qu'ils ont tort, - Et puis, que veut dire cela, monsieur. Ma mère et moi étions allées chez Mme de Gonzalès à Paris les premières, à Nice où nous sommes bien avant vous ni elle ni votre fille ne pensent même pas à nous rendre cette visite ? Elles viendront.",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Il est bien tard, trop tard - dis-je plus sévèrement que je n'en avais l'intention.",
+              "rsr": "Split (paragraph wave): print paragraph 6 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai le cœur net enfin, depuis longtemps j'avais envie d'avoir cette explication avec ce cher ami qui m'élève jusqu'aux astres.",
+              "rsr": "Split (paragraph wave): print paragraph 7 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Maria, mon en fanne, dit-il avec cet accent espagnol, et cette voix chantante jusqu'au ridicule, vous savez comme je vous aime, preuve les choses que je dis partout de vous:",
+              "rsr": "Split (paragraph wave): print paragraph 8 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Une quantité d'horreurs, je parie !",
+              "rsr": "Split (paragraph wave): print paragraph 9 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— O Maria, pourquoi dites-vous cela, retirez ces paroles.",
+              "rsr": "Split (paragraph wave): print paragraph 10 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Eh bien je les retire, après ?",
+              "rsr": "Split (paragraph wave): print paragraph 11 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Vous êtes, vous serez une femme supérieure, vous vous élevez au-dessus de tout le monde.",
+              "rsr": "Split (paragraph wave): print paragraph 12 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Etre moins que les autres serait désespérant, en vérité. Je suis franche, je dis les choses comme elles sont, aussi croyez bien que c'est une leçon de politesse que je vous donne, pas autre chose.",
+              "rsr": "Split (paragraph wave): print paragraph 13 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Câtiez moi, zé sous prêt, zé sais que zé souis fautif.",
+              "rsr": "Split (paragraph wave): print paragraph 14 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Mon Dieu le seul châtiment que je puisse vous infliger c'est de vous forcer de rester là.",
+              "rsr": "Split (paragraph wave): print paragraph 15 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— O Maria zé souis ençannté de ce çâtimann.",
+              "rsr": "Split (paragraph wave): print paragraph 16 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Après tout si vous vous ennuyez par trop vous pouvez vous en aller je permets. Non, écoutez Monsieur, vrai je ne m'explique pas votre impolitesse, quand une personne fait une visite à une autre, cette autre, rien que par politesse, doit la lui rendre, sauf après de ne pas continuer, chacun est libre vous savez. - Je ne dis pas ici tout ce que je lui ai dit, en un mot, s'il n'est pas un imbécile, il sait à quoi s'en tenir.",
+              "rsr": "Split (paragraph wave): print paragraph 17 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Je croyais que vous ne teniez pas autant à moi, quand je suis venu on m'a reçu à la porte.",
+              "rsr": "Split (paragraph wave): print paragraph 18 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Eh bien ! supposons qu'on ne tienne pas du tout à vous, supposons cela, mais la politesse, ce mot que j'ai répété plusieurs fois déjà, est très exigeante, sachez cela, monsieur.",
+              "rsr": "Split (paragraph wave): print paragraph 19 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Alors il parla de maman, de son amitié pour elle.",
+              "rsr": "Split (paragraph wave): print paragraph 20 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Ma mère n'est pas une femme à laquelle on puisse faire la cour, je vous assure, persuadez-vous cela, persuadez cela à tout le monde.",
+              "rsr": "Split (paragraph wave): print paragraph 21 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Après nous avons parlé d'autres choses et ayant tout dit je parlai peu, il y avait longtemps qu'il était près de nous, il a dit tout ce qu'on pouvait dire de mieux, m'a vanté à l'impossible et s'en alla promettant de venir demain.",
+              "rsr": "Split (paragraph wave): print paragraph 22 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pourrai-je voir votre maman demain:",
+              "rsr": "Split (paragraph wave): print paragraph 23 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Oh non, elle ne reçoit pas. Si vous me trouvez chez moi demain, nous reparlerons, car je vous ai grondé juste dix fois moins que vous le méritez.",
+              "rsr": "Split (paragraph wave): print paragraph 24 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Bien, Maria mon enfant, je suis toujours de votre avis, je n'ai jamais entendu une personne désonner [sic] comme vous. Ainsi quand êtes-vous chez vous ?",
+              "rsr": "Split (paragraph wave): print paragraph 25 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Mais tous les jours jusqu'à deux heures et demie.",
+              "rsr": "Split (paragraph wave): print paragraph 26 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Adieu, chanta-t-il.",
+              "rsr": "Split (paragraph wave): print paragraph 27 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Au revoir, dis-je.",
+              "rsr": "Split (paragraph wave): print paragraph 28 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Bien, je suis contente, malgré ses paroles de miel, c'est un impertinent et bien que dans tout ce qu'il a dit il n'y avait ni raillerie ni autre chose de désagréable, je suis furieuse, comme je le lui ai dit plusieurs fois. J'ai bien parlé, il sait ce que je suis. Je ne me tais pas comme maman etc. je ne laisse pas aller les choses, mais j'attaque et je prévois d'être attaquée et je me défends quand je le suis.",
+              "rsr": "Split (paragraph wave): print paragraph 29 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "De la musique chez Rumpelmayer, de là au cirque, Cendrillon jouée par des bambins de deux à huit ans.",
+              "rsr": "Split (paragraph wave): print paragraph 30 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'aime les contes de fées, iis me montent l'imagination.",
+              "rsr": "Split (paragraph wave): print paragraph 31 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Alexandre a dit que Miloradovitch fait la cour à la fille de notre voisin en Russie, Zenkovski. Ceci a bouleversé maman et ma tante, pendant que je restais chez maman on n'a parlé que de ce prince charmant.",
+              "rsr": "Split (paragraph wave): print paragraph 32 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "A la seule pensée qu'il peut m'épouser maman s'anime, toute malade et toute affaiblie qu'elle est se soulève, ses yeux brillent, ses joues se colorent, seulement pour le plaisir de la voir, ainsi je reste et j'écoute ce qu'on dit de ce parti brillant.",
+              "rsr": "Split (paragraph wave): print paragraph 33 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'essaye bien en vain de prouver que c'est un parti fort ordinaire, et que pour en penser tant il faut avoir un esprit bien étroit.",
+              "rsr": "Split (paragraph wave): print paragraph 34 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Oh ! ce serait vraiment la fatalité, s'écria maman, *Vassilissa Egorovna* a failli épouser un Miloradovitch, et il l'a abandonnée, elle est restée vieille fille; moi j'épousais un Miloradovitch, le frère de l'autre, mais il est mort et je n'eus pas le temps, enfin si celui-ci échappe encore, ce sera la fatalité.",
+              "rsr": "Split (paragraph wave): print paragraph 35 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais je n'en veux pas ma mère; mon Dieu ! ! Si maintenant on en parle tant, le jour où il me demandera en mariage, si pareil bonheur arrive, on me dévorera, rongera, maman par la tète, ma tante par les pieds et Dina par le milieu et on me mangera !",
+              "rsr": "Split (paragraph wave): print paragraph 36 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tout le monde se mit à rire, moi aussi. Pauvre maman, c'est son rêve, peut-être se réalisera-t-il, je le souhaite pour elle, pas pour moi. Il est d'excellente et vieille noblesse, jeune, vingt ans à peine, beau dit-on et très riche, quelque chose comme trois cent mille francs de rente. D'ailleurs je n'aurai pas de répugnance à l'épouser.",
+              "rsr": "Split (paragraph wave): print paragraph 37 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je n'aime et n'aimerai personne. Je me souviens du duc de Hamilton, et ce souvenir peut remplir mon cœur.",
+              "rsr": "Split (paragraph wave): print paragraph 38 of 38 of 029.0225, which held 38 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Dimanche, 14 février 1875"
+      },
+      {
+        "file": "1875-02-15.md",
+        "date": "1875-02-15",
+        "paragraphs": [
+          {
+            "old": "029.0226",
+            "set_french": "# Lundi, 15 février 1875\nJe m'habitue à nos nouveaux arrivés et par moments je les crois bons et sincères. En effet, ils ne font d'autre mal que de s'enrichir à nos dépens."
+          },
+          {
+            "new": {
+              "french": "Mais Deo juvante, j'espère mettre bon ordre aux choses en allant en Russie.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "A trois heures je sors avec la petite Anglaise; décidément ce sont des Anglaises toutes particulières que j'ai le malheur d'avoir, bêtes et ne sachant pas parler.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je me suis presque remise au travail, j ai six heures dans la semaine, qu'il faut remplir par le dessin et les mathématiques. Avec ces deux choses tout mon temps sera occupé et j'aurai le temps de tout faire, car plus j'en ai moins je travaille.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne connais pour le moment de bonheur plus grand que l'étude.",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "En sortant j'ai rencontré de Gonzalès qui allait chez nous.",
+              "rsr": "Split (paragraph wave): print paragraph 6 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ma foi ! je veux revoir le diable et l'idée qu'il est parti peut-être m'ennuie souverainement.",
+              "rsr": "Split (paragraph wave): print paragraph 7 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai inventé trois ou quatre toilettes pour le voyage en Russie, et pour le moment ce voyage est la pensée qui m'amuse, il me faut toujours quelque chose à désirer ou à attendre.",
+              "rsr": "Split (paragraph wave): print paragraph 8 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon oncle prétend malgré ce proverbe qu'on n'est pas prophète dans son pays, que j'aurai du succès dans le mien, tant mieux si c'est vrai.",
+              "rsr": "Split (paragraph wave): print paragraph 9 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Si ce n'est pas vrai cela m'est presque égal.",
+              "rsr": "Split (paragraph wave): print paragraph 10 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai chanté aujourd'hui et je vois avec joie que la voix m'est revenue, pas entièrement mais beaucoup. Avec quoi pourrai-je bien remplir cette page ? J'ai envie de finir ma journée au bas de cette page. Miserere !",
+              "rsr": "Split (paragraph wave): print paragraph 11 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Oh ! que je déteste les Polonais, race maudite. J'adore les Anglais.",
+              "rsr": "Split (paragraph wave): print paragraph 12 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je me mire dans la glace et me trouve d'une blancheur éclatante, mon teint doit faire pardonner bien des défauts à ma figure. Vrai ! ma peau est bien belle et je l'admire, ah ! si les autres admiraient comme moi !",
+              "rsr": "Split (paragraph wave): print paragraph 13 of 13 of 029.0226, which held 13 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Lundi, 15 février 1875"
+      },
+      {
+        "file": "1875-02-16.md",
+        "date": "1875-02-16",
+        "paragraphs": [
+          {
+            "old": "029.0227",
+            "set_french": "# Mardi, 16 février 1875\nL'Anglaise s'apprivoise peu à peu et, aujourd'hui, elle a parlé. Non que sa conversation me semble intéressante mais il faut bien qu'elle parle comme leçon."
+          },
+          {
+            "new": {
+              "french": "J'ai commencé le latin avec Brunet et, sauf l'exécrable prononciation française, ses leçons sont excellentes.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 029.0227, which held 3 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je suis toute confuse des louanges que me prodigue ma famille, d'autant plus que je n'en mérite que le quart.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 029.0227, which held 3 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Mardi, 16 février 1875"
+      },
+      {
+        "file": "1875-02-17.md",
+        "date": "1875-02-17",
+        "paragraphs": [
+          {
+            "old": "029.0228"
+          }
+        ],
+        "_first_line": "# Mercredi, 17 février 1875"
+      },
+      {
+        "file": "1875-02-18.md",
+        "date": "1875-02-18",
+        "paragraphs": [
+          {
+            "old": "029.0229",
+            "set_french": "# Jeudi, 18 février 1875\nMême froid qu'hier, même robe. A la musique, puis chez les Sapogenikoff, ils ont des peurs atroces dans leur maison, ils s'imaginent des esprits, des revenants et Horne les a enfermés dans ces idées disant que cette maison est effectivement attaquée par des esprits. C'est au point que Marie s'est sentie embrassée par un de ces êtres, je ne jurerais pas que ce n'ait été Cima qui ait pris pour ce moment la forme de l'esprit."
+          },
+          {
+            "new": {
+              "french": "Enfin telle que l'on me voit je suis au désespoir. Depuis trois ans je martelle maman et ma tante et toujours elles me répondaient que quand je serai grande tout sera comme je le désire. Eh bien me voilà grande, et rien n'est changé, si fait mais pour le pire.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 8 of 029.0229, which held 8 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Bien véritablement je n'ai l'espoir qu'en vous, mon Dieu, ayez donc pitié de moi, par charité.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 8 of 029.0229, which held 8 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pour toutes choses je lutte, lutte éternelle contre l'indulgence, l'imbéciiité, l'engourdissement l'insouciance. Heureusement que Dieu me soutient, mais souvent je sens les forces m'abandonner et n'ai plus le courage de continuer à soutenir cette guerre plus terrible que celle de sept ans.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 8 of 029.0229, which held 8 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "O mon Dieu ! Protégez et soutenez-moi. Je suis indigne mais je Vous en supplie.",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 8 of 029.0229, which held 8 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "O faites que ma vie s'arrange.",
+              "rsr": "Split (paragraph wave): print paragraph 6 of 8 of 029.0229, which held 8 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Faites cesser mes inquiétudes et mon tourment ! Mon Dieu Vous voyez que je n'ai d'espoir qu'en Vous puisque je vous prie, car tels sont Vos indignes créatures qu'au lieu de s'adresser à Vous tout d'abord elles ne le font qu'après avoir demandé secours à leurs ignobles semblables.",
+              "rsr": "Split (paragraph wave): print paragraph 7 of 8 of 029.0229, which held 8 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pardonnez, pardonnez-moi, ne me punissez pas pour mes méfaits volontaires et involontaires. Mon Dieu, entendez ma prière et acceptez ma foi, mon amour et mon humiliation.",
+              "rsr": "Split (paragraph wave): print paragraph 8 of 8 of 029.0229, which held 8 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Jeudi, 18 février 1875"
+      }
+    ],
+    "drop": []
+  }
+}

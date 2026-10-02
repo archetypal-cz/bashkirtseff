@@ -52,7 +52,7 @@ This thematic tag collects diary paragraphs about Marie's own education outside 
 
 %% GLO_EDUCATION.0011 %%
 - `005.0145` — her self-made plan of study
-- `027.0130` — dismissing the Latin and Italian teacher who billed twice for one lesson
+- `027.0134` — dismissing the Latin and Italian teacher who billed twice for one lesson
 - `065.0328` — Latin verse and classical literature at table with the doctor
 
 %% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%

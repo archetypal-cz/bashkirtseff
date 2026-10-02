@@ -1,0 +1,2042 @@
+{
+  "carnet": "027",
+  "date": "2026-10-02",
+  "plan_path": "../rebuild-state/split-wave/t4/plan-027.json",
+  "plan_source": null,
+  "id_map": {
+    "027.0001": "027.0001",
+    "027.0002": "027.0002",
+    "027.0003": "027.0003",
+    "027.0004": "027.0004",
+    "027.0005": "027.0005",
+    "027.0006": "027.0006",
+    "027.0007": "027.0007",
+    "027.0008": "027.0008",
+    "027.0009": "027.0009",
+    "027.0010": "027.0010",
+    "027.0011": "027.0011",
+    "027.0012": "027.0012",
+    "027.0013": "027.0013",
+    "027.0014": "027.0014",
+    "027.0015": "027.0015",
+    "027.0016": "027.0016",
+    "027.0017": "027.0017",
+    "027.0018": "027.0018",
+    "027.0019": "027.0019",
+    "027.0020": "027.0020",
+    "027.0021": "027.0021",
+    "027.0022": "027.0022",
+    "027.0023": "027.0023",
+    "027.0024": "027.0024",
+    "027.0025": "027.0025",
+    "027.0026": "027.0026",
+    "027.0027": "027.0027",
+    "027.0028": "027.0028",
+    "027.0029": "027.0029",
+    "027.0030": "027.0030",
+    "027.0031": "027.0031",
+    "027.0032": "027.0032",
+    "027.0033": "027.0033",
+    "027.0034": "027.0034",
+    "027.0035": "027.0035",
+    "027.0036": "027.0036",
+    "027.0037": "027.0037",
+    "027.0038": "027.0038",
+    "027.0039": "027.0039",
+    "027.0040": "027.0040",
+    "027.0041": "027.0041",
+    "027.0042": "027.0042",
+    "027.0043": "027.0043",
+    "027.0044": "027.0044",
+    "027.0045": "027.0045",
+    "027.0046": "027.0046",
+    "027.0047": "027.0047",
+    "027.0048": "027.0048",
+    "027.0049": "027.0049",
+    "027.0050": "027.0050",
+    "027.0051": "027.0051",
+    "027.0052": "027.0052",
+    "027.0053": "027.0053",
+    "027.0054": "027.0054",
+    "027.0055": "027.0055",
+    "027.0056": "027.0056",
+    "027.0057": "027.0057",
+    "027.0058": "027.0058",
+    "027.0059": "027.0059",
+    "027.0060": "027.0060",
+    "027.0061": "027.0061",
+    "027.0062": "027.0062",
+    "027.0063": "027.0063",
+    "027.0064": "027.0064",
+    "027.0065": "027.0065",
+    "027.0066": "027.0066",
+    "027.0067": "027.0067",
+    "027.0068": "027.0068",
+    "027.0069": "027.0069",
+    "027.0070": "027.0070",
+    "027.0071": "027.0071",
+    "027.0072": "027.0072",
+    "027.0073": "027.0073",
+    "027.0074": "027.0074",
+    "027.0075": "027.0075",
+    "027.0076": "027.0076",
+    "027.0077": "027.0077",
+    "027.0078": "027.0078",
+    "027.0079": "027.0079",
+    "027.0080": "027.0080",
+    "027.0081": "027.0081",
+    "027.0082": "027.0082",
+    "027.0083": "027.0083",
+    "027.0084": "027.0084",
+    "027.0085": "027.0085",
+    "027.0086": "027.0086",
+    "027.0087": "027.0087",
+    "027.0088": "027.0088",
+    "027.0089": "027.0089",
+    "027.0090": "027.0090",
+    "027.0091": "027.0091",
+    "027.0092": "027.0092",
+    "027.0093": "027.0093",
+    "027.0094": "027.0094",
+    "027.0095": "027.0095",
+    "027.0096": "027.0096",
+    "027.0097": "027.0097",
+    "027.0098": "027.0098",
+    "027.0099": "027.0099",
+    "027.0100": "027.0100",
+    "027.0101": "027.0101",
+    "027.0102": "027.0102",
+    "027.0103": "027.0103",
+    "027.0104": "027.0104",
+    "027.0105": "027.0105",
+    "027.0106": "027.0106",
+    "027.0107": "027.0107",
+    "027.0108": "027.0108",
+    "027.0109": "027.0109",
+    "027.0110": "027.0110",
+    "027.0111": "027.0113",
+    "027.0112": "027.0114",
+    "027.0113": "027.0115",
+    "027.0114": "027.0116",
+    "027.0115": "027.0117",
+    "027.0116": "027.0118",
+    "027.0117": "027.0119",
+    "027.0118": "027.0121",
+    "027.0119": "027.0122",
+    "027.0120": "027.0123",
+    "027.0121": "027.0124",
+    "027.0122": "027.0125",
+    "027.0123": "027.0126",
+    "027.0124": "027.0128",
+    "027.0125": "027.0129",
+    "027.0126": "027.0130",
+    "027.0127": "027.0131",
+    "027.0128": "027.0132",
+    "027.0129": "027.0133",
+    "027.0130": "027.0134",
+    "027.0131": "027.0135",
+    "027.0132": "027.0136",
+    "027.0133": "027.0137",
+    "027.0134": "027.0138",
+    "027.0135": "027.0140",
+    "027.0136": "027.0141",
+    "027.0137": "027.0143",
+    "027.0138": "027.0144",
+    "027.0139": "027.0145",
+    "027.0140": "027.0146",
+    "027.0141": "027.0147",
+    "027.0142": "027.0148",
+    "027.0143": "027.0149",
+    "027.0144": "027.0150",
+    "027.0145": "027.0151",
+    "027.0146": "027.0152",
+    "027.0147": "027.0153",
+    "027.0148": "027.0154",
+    "027.0149": "027.0155",
+    "027.0150": "027.0156",
+    "027.0151": "027.0157",
+    "027.0152": "027.0158",
+    "027.0153": "027.0159",
+    "027.0154": "027.0160",
+    "027.0155": "027.0161",
+    "027.0156": "027.0162",
+    "027.0157": "027.0163",
+    "027.0158": "027.0164",
+    "027.0159": "027.0165",
+    "027.0160": "027.0166",
+    "027.0161": "027.0167",
+    "027.0162": "027.0169",
+    "027.0163": "027.0171",
+    "027.0164": "027.0172",
+    "027.0165": "027.0174",
+    "027.0166": "027.0175",
+    "027.0167": "027.0176",
+    "027.0168": "027.0177",
+    "027.0169": "027.0178",
+    "027.0170": "027.0179",
+    "027.0171": "027.0180",
+    "027.0172": "027.0181",
+    "027.0173": "027.0182",
+    "027.0174": "027.0183",
+    "027.0175": "027.0185",
+    "027.0176": "027.0186",
+    "027.0177": "027.0187",
+    "027.0178": "027.0188",
+    "027.0179": "027.0189",
+    "027.0180": "027.0190",
+    "027.0181": "027.0191",
+    "027.0182": "027.0195",
+    "027.0183": "027.0196",
+    "027.0184": "027.0197",
+    "027.0185": "027.0199",
+    "027.0186": "027.0200",
+    "027.0187": "027.0201",
+    "027.0188": "027.0202",
+    "027.0189": "027.0203",
+    "027.0190": "027.0204",
+    "027.0191": "027.0205",
+    "027.0192": "027.0206",
+    "027.0193": "027.0207",
+    "027.0194": "027.0208",
+    "027.0195": "027.0209",
+    "027.0196": "027.0210",
+    "027.0197": "027.0211",
+    "027.0198": "027.0212",
+    "027.0199": "027.0213",
+    "027.0200": "027.0215",
+    "027.0201": "027.0218",
+    "027.0202": "027.0219",
+    "027.0203": "027.0220",
+    "027.0204": "027.0221",
+    "027.0205": "027.0222",
+    "027.0206": "027.0223",
+    "027.0207": "027.0224",
+    "027.0208": "027.0225",
+    "027.0209": "027.0226",
+    "027.0210": "027.0227",
+    "027.0211": "027.0228",
+    "027.0212": "027.0229",
+    "027.0213": "027.0230",
+    "027.0214": "027.0231",
+    "027.0215": "027.0232",
+    "027.0216": "027.0233",
+    "027.0217": "027.0234",
+    "027.0218": "027.0235",
+    "027.0219": "027.0236",
+    "027.0220": "027.0237",
+    "027.0221": "027.0238",
+    "027.0222": "027.0239",
+    "027.0223": "027.0240",
+    "027.0224": "027.0241",
+    "027.0225": "027.0242",
+    "027.0226": "027.0243",
+    "027.0227": "027.0244",
+    "027.0228": "027.0245",
+    "027.0229": "027.0246",
+    "027.0230": "027.0247",
+    "027.0231": "027.0248",
+    "027.0232": "027.0249",
+    "027.0233": "027.0250",
+    "027.0234": "027.0251",
+    "027.0235": "027.0252",
+    "027.0236": "027.0253",
+    "027.0237": "027.0254",
+    "027.0238": "027.0255",
+    "027.0239": "027.0256",
+    "027.0240": "027.0257",
+    "027.0241": "027.0258",
+    "027.0242": "027.0259",
+    "027.0243": "027.0260",
+    "027.0244": "027.0261",
+    "027.0245": "027.0262",
+    "027.0246": "027.0263",
+    "027.0247": "027.0264",
+    "027.0248": "027.0265",
+    "027.0249": "027.0266",
+    "027.0250": "027.0267",
+    "027.0251": "027.0268",
+    "027.0252": "027.0269",
+    "027.0253": "027.0270",
+    "027.0254": "027.0271",
+    "027.0255": "027.0272",
+    "027.0256": "027.0273",
+    "027.0257": "027.0274",
+    "027.0258": "027.0275",
+    "027.0259": "027.0276",
+    "027.0260": "027.0277",
+    "027.0261": "027.0278",
+    "027.0262": "027.0279",
+    "027.0263": "027.0280",
+    "027.0264": "027.0281",
+    "027.0265": "027.0282",
+    "027.0266": "027.0283",
+    "027.0267": "027.0284",
+    "027.0268": "027.0285",
+    "027.0269": "027.0286",
+    "027.0270": "027.0287",
+    "027.0271": "027.0288",
+    "027.0272": "027.0289",
+    "027.0273": "027.0290",
+    "027.0274": "027.0291",
+    "027.0275": "027.0292",
+    "027.0276": "027.0293",
+    "027.0277": "027.0294",
+    "027.0278": "027.0295",
+    "027.0279": "027.0296",
+    "027.0280": "027.0297",
+    "027.0281": "027.0298",
+    "027.0282": "027.0299",
+    "027.0283": "027.0300",
+    "027.0284": "027.0301",
+    "027.0285": "027.0302",
+    "027.0286": "027.0303",
+    "027.0287": "027.0304",
+    "027.0288": "027.0305",
+    "027.0289": "027.0306",
+    "027.0290": "027.0307",
+    "027.0291": "027.0308",
+    "027.0292": "027.0309",
+    "027.0293": "027.0310",
+    "027.0294": "027.0311",
+    "027.0295": "027.0312",
+    "027.0296": "027.0313",
+    "027.0297": "027.0314",
+    "027.0298": "027.0315",
+    "027.0299": "027.0316",
+    "027.0300": "027.0317",
+    "027.0301": "027.0318",
+    "027.0302": "027.0319",
+    "027.0303": "027.0320",
+    "027.0304": "027.0321",
+    "027.0305": "027.0322",
+    "027.0306": "027.0323",
+    "027.0307": "027.0324",
+    "027.0308": "027.0325",
+    "027.0309": "027.0326",
+    "027.0310": "027.0327",
+    "027.0311": "027.0328",
+    "027.0312": "027.0329",
+    "027.0313": "027.0330",
+    "027.0314": "027.0331",
+    "027.0315": "027.0332",
+    "027.0316": "027.0333",
+    "027.0317": "027.0334",
+    "027.0318": "027.0335",
+    "027.0319": "027.0336",
+    "027.0320": "027.0337",
+    "027.0321": "027.0338",
+    "027.0322": "027.0339",
+    "027.0323": "027.0340",
+    "027.0324": "027.0341",
+    "027.0325": "027.0342",
+    "027.0326": "027.0343",
+    "027.0327": "027.0344",
+    "027.0328": "027.0345",
+    "027.0329": "027.0346",
+    "027.0330": "027.0347",
+    "027.0331": "027.0348",
+    "027.0332": "027.0349",
+    "027.0333": "027.0350",
+    "027.0334": "027.0351",
+    "027.0335": "027.0352",
+    "027.0336": "027.0353",
+    "027.0337": "027.0354",
+    "027.0338": "027.0355",
+    "027.0339": "027.0356",
+    "027.0340": "027.0357",
+    "027.0341": "027.0358",
+    "027.0342": "027.0359",
+    "027.0343": "027.0360",
+    "027.0344": "027.0361",
+    "027.0345": "027.0362",
+    "027.0346": "027.0363",
+    "027.0347": "027.0364",
+    "027.0348": "027.0365",
+    "027.0349": "027.0366",
+    "027.0350": "027.0367",
+    "027.0351": "027.0368",
+    "027.0352": "027.0369",
+    "027.0353": "027.0370",
+    "027.0354": "027.0371",
+    "027.0355": "027.0372",
+    "027.0356": "027.0373",
+    "027.0357": "027.0374",
+    "027.0358": "027.0375",
+    "027.0359": "027.0376",
+    "027.0360": "027.0377",
+    "027.0361": "027.0378",
+    "027.0362": "027.0379",
+    "027.0363": "027.0380",
+    "027.0364": "027.0381",
+    "027.0365": "027.0382",
+    "027.0366": "027.0383",
+    "027.0367": "027.0384",
+    "027.0368": "027.0385",
+    "027.0369": "027.0386",
+    "027.0370": "027.0387",
+    "027.0371": "027.0388",
+    "027.0372": "027.0389",
+    "027.0373": "027.0390",
+    "027.0374": "027.0391",
+    "027.0375": "027.0392",
+    "027.0376": "027.0393",
+    "027.0377": "027.0394",
+    "027.0378": "027.0395",
+    "027.0379": "027.0396",
+    "027.0380": "027.0397",
+    "027.0381": "027.0398",
+    "027.0382": "027.0399",
+    "027.0383": "027.0400",
+    "027.0384": "027.0401",
+    "027.0385": "027.0402",
+    "027.0386": "027.0403",
+    "027.0387": "027.0404",
+    "027.0388": "027.0405",
+    "027.0389": "027.0406",
+    "027.0390": "027.0407",
+    "027.0391": "027.0408",
+    "027.0392": "027.0409",
+    "027.0393": "027.0410",
+    "027.0394": "027.0411",
+    "027.0395": "027.0412",
+    "027.0396": "027.0413",
+    "027.0397": "027.0414"
+  },
+  "changed_ids": 287,
+  "new_paragraphs": [
+    {
+      "id": "027.0111",
+      "file": "1874-12-01.md"
+    },
+    {
+      "id": "027.0112",
+      "file": "1874-12-01.md"
+    },
+    {
+      "id": "027.0120",
+      "file": "1874-12-02.md"
+    },
+    {
+      "id": "027.0127",
+      "file": "1874-12-02.md"
+    },
+    {
+      "id": "027.0139",
+      "file": "1874-12-03.md"
+    },
+    {
+      "id": "027.0142",
+      "file": "1874-12-03.md"
+    },
+    {
+      "id": "027.0168",
+      "file": "1874-12-05.md"
+    },
+    {
+      "id": "027.0170",
+      "file": "1874-12-05.md"
+    },
+    {
+      "id": "027.0173",
+      "file": "1874-12-05.md"
+    },
+    {
+      "id": "027.0184",
+      "file": "1874-12-06.md"
+    },
+    {
+      "id": "027.0192",
+      "file": "1874-12-07.md"
+    },
+    {
+      "id": "027.0193",
+      "file": "1874-12-07.md"
+    },
+    {
+      "id": "027.0194",
+      "file": "1874-12-07.md"
+    },
+    {
+      "id": "027.0198",
+      "file": "1874-12-07.md"
+    },
+    {
+      "id": "027.0214",
+      "file": "1874-12-09.md"
+    },
+    {
+      "id": "027.0216",
+      "file": "1874-12-09.md"
+    },
+    {
+      "id": "027.0217",
+      "file": "1874-12-09.md"
+    }
+  ],
+  "dropped": [],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [],
+  "last_id": "027.0414",
+  "flag_resets": {
+    "cz": [
+      "1874-12-01.md",
+      "1874-12-02.md",
+      "1874-12-03.md",
+      "1874-12-05.md",
+      "1874-12-06.md",
+      "1874-12-07.md",
+      "1874-12-09.md"
+    ],
+    "uk": [
+      "1874-12-01.md",
+      "1874-12-02.md",
+      "1874-12-03.md",
+      "1874-12-05.md",
+      "1874-12-06.md",
+      "1874-12-07.md",
+      "1874-12-09.md"
+    ],
+    "en": [
+      "1874-12-01.md",
+      "1874-12-02.md",
+      "1874-12-03.md",
+      "1874-12-05.md",
+      "1874-12-06.md",
+      "1874-12-07.md",
+      "1874-12-09.md"
+    ],
+    "fr": [
+      "1874-12-01.md",
+      "1874-12-02.md",
+      "1874-12-03.md",
+      "1874-12-05.md",
+      "1874-12-06.md",
+      "1874-12-07.md",
+      "1874-12-09.md"
+    ]
+  },
+  "plan": {
+    "carnet": "027",
+    "_generated": "identity plan of content/_original/027 — keys starting with _ are ignored",
+    "entries": [
+      {
+        "file": "1874-11-24.md",
+        "date": "1874-11-24",
+        "paragraphs": [
+          {
+            "old": "027.0001"
+          },
+          {
+            "old": "027.0002"
+          },
+          {
+            "old": "027.0003"
+          },
+          {
+            "old": "027.0004"
+          },
+          {
+            "old": "027.0005"
+          }
+        ],
+        "_first_line": "# Mardi, 24 novembre 1874"
+      },
+      {
+        "file": "1874-11-25.md",
+        "date": "1874-11-25",
+        "paragraphs": [
+          {
+            "old": "027.0006"
+          },
+          {
+            "old": "027.0007"
+          },
+          {
+            "old": "027.0008"
+          },
+          {
+            "old": "027.0009"
+          },
+          {
+            "old": "027.0010"
+          },
+          {
+            "old": "027.0011"
+          },
+          {
+            "old": "027.0012"
+          },
+          {
+            "old": "027.0013"
+          },
+          {
+            "old": "027.0014"
+          },
+          {
+            "old": "027.0015"
+          },
+          {
+            "old": "027.0016"
+          },
+          {
+            "old": "027.0017"
+          },
+          {
+            "old": "027.0018"
+          },
+          {
+            "old": "027.0019"
+          }
+        ],
+        "_first_line": "# Mercredi, 25 novembre 1874"
+      },
+      {
+        "file": "1874-11-26.md",
+        "date": "1874-11-26",
+        "paragraphs": [
+          {
+            "old": "027.0020"
+          },
+          {
+            "old": "027.0021"
+          },
+          {
+            "old": "027.0022"
+          },
+          {
+            "old": "027.0023"
+          },
+          {
+            "old": "027.0024"
+          },
+          {
+            "old": "027.0025"
+          },
+          {
+            "old": "027.0026"
+          },
+          {
+            "old": "027.0027"
+          },
+          {
+            "old": "027.0028"
+          },
+          {
+            "old": "027.0029"
+          },
+          {
+            "old": "027.0030"
+          },
+          {
+            "old": "027.0031"
+          },
+          {
+            "old": "027.0032"
+          },
+          {
+            "old": "027.0033"
+          },
+          {
+            "old": "027.0034"
+          },
+          {
+            "old": "027.0035"
+          },
+          {
+            "old": "027.0036"
+          },
+          {
+            "old": "027.0037"
+          },
+          {
+            "old": "027.0038"
+          },
+          {
+            "old": "027.0039"
+          },
+          {
+            "old": "027.0040"
+          },
+          {
+            "old": "027.0041"
+          },
+          {
+            "old": "027.0042"
+          }
+        ],
+        "_first_line": "# Jeudi, 26 novembre 1874"
+      },
+      {
+        "file": "1874-11-27.md",
+        "date": "1874-11-27",
+        "paragraphs": [
+          {
+            "old": "027.0043"
+          },
+          {
+            "old": "027.0044"
+          },
+          {
+            "old": "027.0045"
+          },
+          {
+            "old": "027.0046"
+          },
+          {
+            "old": "027.0047"
+          },
+          {
+            "old": "027.0048"
+          },
+          {
+            "old": "027.0049"
+          },
+          {
+            "old": "027.0050"
+          },
+          {
+            "old": "027.0051"
+          },
+          {
+            "old": "027.0052"
+          },
+          {
+            "old": "027.0053"
+          },
+          {
+            "old": "027.0054"
+          },
+          {
+            "old": "027.0055"
+          },
+          {
+            "old": "027.0056"
+          },
+          {
+            "old": "027.0057"
+          },
+          {
+            "old": "027.0058"
+          }
+        ],
+        "_first_line": "# Vendredi, 27 novembre 1874"
+      },
+      {
+        "file": "1874-11-28.md",
+        "date": "1874-11-28",
+        "paragraphs": [
+          {
+            "old": "027.0059"
+          },
+          {
+            "old": "027.0060"
+          },
+          {
+            "old": "027.0061"
+          },
+          {
+            "old": "027.0062"
+          },
+          {
+            "old": "027.0063"
+          },
+          {
+            "old": "027.0064"
+          },
+          {
+            "old": "027.0065"
+          },
+          {
+            "old": "027.0066"
+          },
+          {
+            "old": "027.0067"
+          },
+          {
+            "old": "027.0068"
+          },
+          {
+            "old": "027.0069"
+          },
+          {
+            "old": "027.0070"
+          },
+          {
+            "old": "027.0071"
+          }
+        ],
+        "_first_line": "# Samedi, 28 novembre 1874"
+      },
+      {
+        "file": "1874-11-29.md",
+        "date": "1874-11-29",
+        "paragraphs": [
+          {
+            "old": "027.0072"
+          },
+          {
+            "old": "027.0073"
+          },
+          {
+            "old": "027.0074"
+          },
+          {
+            "old": "027.0075"
+          },
+          {
+            "old": "027.0076"
+          },
+          {
+            "old": "027.0077"
+          },
+          {
+            "old": "027.0078"
+          },
+          {
+            "old": "027.0079"
+          },
+          {
+            "old": "027.0080"
+          },
+          {
+            "old": "027.0081"
+          },
+          {
+            "old": "027.0082"
+          },
+          {
+            "old": "027.0083"
+          },
+          {
+            "old": "027.0084"
+          },
+          {
+            "old": "027.0085"
+          },
+          {
+            "old": "027.0086"
+          },
+          {
+            "old": "027.0087"
+          },
+          {
+            "old": "027.0088"
+          },
+          {
+            "old": "027.0089"
+          },
+          {
+            "old": "027.0090"
+          },
+          {
+            "old": "027.0091"
+          },
+          {
+            "old": "027.0092"
+          },
+          {
+            "old": "027.0093"
+          }
+        ],
+        "_first_line": "# Dimanche, 29 novembre 1874"
+      },
+      {
+        "file": "1874-11-30.md",
+        "date": "1874-11-30",
+        "paragraphs": [
+          {
+            "old": "027.0094"
+          },
+          {
+            "old": "027.0095"
+          },
+          {
+            "old": "027.0096"
+          },
+          {
+            "old": "027.0097"
+          },
+          {
+            "old": "027.0098"
+          },
+          {
+            "old": "027.0099"
+          },
+          {
+            "old": "027.0100"
+          },
+          {
+            "old": "027.0101"
+          },
+          {
+            "old": "027.0102"
+          }
+        ],
+        "_first_line": "# Lundi, 30 novembre 1874"
+      },
+      {
+        "file": "1874-12-01.md",
+        "date": "1874-12-01",
+        "paragraphs": [
+          {
+            "old": "027.0103"
+          },
+          {
+            "old": "027.0104"
+          },
+          {
+            "old": "027.0105"
+          },
+          {
+            "old": "027.0106"
+          },
+          {
+            "old": "027.0107"
+          },
+          {
+            "old": "027.0108"
+          },
+          {
+            "old": "027.0109"
+          },
+          {
+            "old": "027.0110",
+            "set_french": "En vérité cette conversation est plus agréable que beaucoup d'autres, rehaussée comme elle était d'un peu de Hamilton. Ma tante a dit que Wittgenstein est peut-être placé au même rang que Hamilton."
+          },
+          {
+            "new": {
+              "french": "- Hamilton oui, il est de sang royal, dis-je.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 027.0110, which held 3 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Cela me fait plaisir, que toutes les fois qu'elle veut dire quelque chose de grand, de noble, de bon, elle dit Hamilton. Comment pourrait-elle autrement s'exprimer ? je le demande !",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 027.0110, which held 3 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0111"
+          },
+          {
+            "old": "027.0112"
+          },
+          {
+            "old": "027.0113"
+          },
+          {
+            "old": "027.0114"
+          },
+          {
+            "old": "027.0115"
+          }
+        ],
+        "_first_line": "# Mardi, 1 décembre 1874"
+      },
+      {
+        "file": "1874-12-02.md",
+        "date": "1874-12-02",
+        "paragraphs": [
+          {
+            "old": "027.0116"
+          },
+          {
+            "old": "027.0117",
+            "set_french": "Quel jour de vexations et d'humiliations profondes !"
+          },
+          {
+            "new": {
+              "french": "Les exclamations et les plaintes rendent la douleur triviale. Je ne me plaindrai point, je raconterai seulement ce qui m'arrive aujourd'hui.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0117, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0118"
+          },
+          {
+            "old": "027.0119"
+          },
+          {
+            "old": "027.0120"
+          },
+          {
+            "old": "027.0121"
+          },
+          {
+            "old": "027.0122"
+          },
+          {
+            "old": "027.0123",
+            "set_french": "Les rassurances [sic] de ma mère me parurent bien misérables et banales, elle-même tout en disant que ce n'est pas vrai disait à ma tante que certaines choses ne se savent que de personnes âgées et ne doivent pas être dites à la jeunesse, [Rayé: à laquelle] surtout à Marie qu'elles plongent dans un profond désespoir."
+          },
+          {
+            "new": {
+              "french": "Oui ! c'est vrai. Ma mère et ma tante sont mornes et ==tuées==[^027.0123.r1] et s'efforcent de paraître naturelles. Maintenant d'elles je ne saurai pas la vérité, c'est fini. Ma tante se gardera bien de parler après ces reproches et ma mère par une énervante dissimulation croira faire mieux en se taisant et en me laissant dans un doute pire que tout ce qu'il y a de plus affreux dans ce monde. Je ne sais ce que je dois croire, je sais que je suis bien malheureuse, je l'étais avant, aujourd'hui et ce dernier coup serait le toit du bâtiment qui s'élève pierre par pierre, tous les jours. Mon Dieu pourquoi souffrai-je moi ? Qu'ai-je fait ? Et pour les fautes des autres serai-je sacrifiée ! Puisque ce n'est pas même ma mère, c'est mon oncle, c'est si éloigné.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0123, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0124"
+          },
+          {
+            "old": "027.0125"
+          },
+          {
+            "old": "027.0126"
+          },
+          {
+            "old": "027.0127"
+          }
+        ],
+        "_first_line": "# Mercredi, 2 décembre 1874"
+      },
+      {
+        "file": "1874-12-03.md",
+        "date": "1874-12-03",
+        "paragraphs": [
+          {
+            "old": "027.0128"
+          },
+          {
+            "old": "027.0129"
+          },
+          {
+            "old": "027.0130"
+          },
+          {
+            "old": "027.0131"
+          },
+          {
+            "old": "027.0132"
+          },
+          {
+            "old": "027.0133"
+          },
+          {
+            "old": "027.0134",
+            "set_french": "Misérables, lâches ! Il semble que toutes ces horreurs n'existaient pas et qu'aujourd'hui seulement je les comprends. Aujourd'hui seulement je me souviens des moindres choses qui peu à peu nous ont mis dans l'état où nous sommes."
+          },
+          {
+            "new": {
+              "french": "Plus je dirai moins j'exprimerai toutes mes tribulations et tous mes martyres ! Mais ce que I long de savoir si c'est vrai. Oh ! faites mon Dieu qu'on me dise ! Je souffre tant dans cette incertitude immense !",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0134, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0135"
+          },
+          {
+            "old": "027.0136",
+            "set_french": "Mon Dieu ! Mon Dieu ! Ne punissez pas ce monstre autant que je le désire. Je ne lui veux pas de mal, je veux me purifier. A Nice nous sommes perdus. Ce sera un miracle si nous y vivrons un jour passablement."
+          },
+          {
+            "new": {
+              "french": "Mon Dieu, ayez pitié de moi !",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0136, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0137"
+          },
+          {
+            "old": "027.0138"
+          },
+          {
+            "old": "027.0139"
+          },
+          {
+            "old": "027.0140"
+          }
+        ],
+        "_first_line": "# Jeudi, 3 décembre 1874"
+      },
+      {
+        "file": "1874-12-04.md",
+        "date": "1874-12-04",
+        "paragraphs": [
+          {
+            "old": "027.0141"
+          },
+          {
+            "old": "027.0142"
+          },
+          {
+            "old": "027.0143"
+          },
+          {
+            "old": "027.0144"
+          },
+          {
+            "old": "027.0145"
+          },
+          {
+            "old": "027.0146"
+          },
+          {
+            "old": "027.0147"
+          },
+          {
+            "old": "027.0148"
+          },
+          {
+            "old": "027.0149"
+          },
+          {
+            "old": "027.0150"
+          },
+          {
+            "old": "027.0151"
+          }
+        ],
+        "_first_line": "# Vendredi, 4 décembre 1874"
+      },
+      {
+        "file": "1874-12-05.md",
+        "date": "1874-12-05",
+        "paragraphs": [
+          {
+            "old": "027.0152"
+          },
+          {
+            "old": "027.0153"
+          },
+          {
+            "old": "027.0154"
+          },
+          {
+            "old": "027.0155"
+          },
+          {
+            "old": "027.0156"
+          },
+          {
+            "old": "027.0157"
+          },
+          {
+            "old": "027.0158"
+          },
+          {
+            "old": "027.0159"
+          },
+          {
+            "old": "027.0160"
+          },
+          {
+            "old": "027.0161",
+            "set_french": "Je me suis réveillée en sursaut toute mal à l'aise après un rêve si étrange. Voyons à présent comment l'explique mon livre: rêver qu'on va être mère: abondance et prospérité; mari: bon signe pour celle qui n'en n'a pas."
+          },
+          {
+            "new": {
+              "french": "Dina qui est femme blonde: bonheur; ma tante qui est femme grande: richesse; ensuite maman: bon signe;",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0161, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0162",
+            "set_french": "pleurer: je ne sais pas cacher mes sentiments; [Mot cancellé] confusion : ingratitude causée par la sottise et l'ignorance."
+          },
+          {
+            "new": {
+              "french": "[Trois lignes et demie cancellées]",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0162, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0163"
+          },
+          {
+            "old": "027.0164",
+            "set_french": "Ce n'est pas cette explication, c'est le rêve lui-même qui m'inquiète, si étrange. En cherchant autre chose j'ai trouvé que rêver d'un duc signifie amour sans espoir; comme ça se trouve ! Mais bah !"
+          },
+          {
+            "new": {
+              "french": "Vana somnia frequentes aut semper fallaces.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0164, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0165"
+          },
+          {
+            "old": "027.0166"
+          },
+          {
+            "old": "027.0167"
+          },
+          {
+            "old": "027.0168"
+          }
+        ],
+        "_first_line": "# Samedi, 5 décembre 1874"
+      },
+      {
+        "file": "1874-12-06.md",
+        "date": "1874-12-06",
+        "paragraphs": [
+          {
+            "old": "027.0169"
+          },
+          {
+            "old": "027.0170"
+          },
+          {
+            "old": "027.0171"
+          },
+          {
+            "old": "027.0172"
+          },
+          {
+            "old": "027.0173"
+          },
+          {
+            "old": "027.0174",
+            "set_french": "A l'Opéra, \"Il Trovatore\", Eleonora est écœurante et le vieux Audiffret l'admire et maman dit, que dans les coulisses il lui a baisé le cou au moment où elle sortait en mariée (robe rose Laferrière, très bien)."
+          },
+          {
+            "new": {
+              "french": "[Rayé: Notre voiture]",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0174, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0175"
+          },
+          {
+            "old": "027.0176"
+          }
+        ],
+        "_first_line": "# Dimanche, 6 décembre 1874"
+      },
+      {
+        "file": "1874-12-07.md",
+        "date": "1874-12-07",
+        "paragraphs": [
+          {
+            "old": "027.0177"
+          },
+          {
+            "old": "027.0178"
+          },
+          {
+            "old": "027.0179"
+          },
+          {
+            "old": "027.0180"
+          },
+          {
+            "old": "027.0181",
+            "set_french": "[Dans la marge]"
+          },
+          {
+            "new": {
+              "french": "J'ai de l'ambition et soit vice ou vertu.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 4 of 027.0181, which held 4 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon cœur sans son fardeau veut bien être abattu.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 4 of 027.0181, which held 4 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Apprends qu'une femme aimant sa renommée Quand elle dit qu'elle aime est sûre d'être aimée.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 4 of 027.0181, which held 4 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0182"
+          },
+          {
+            "old": "027.0183"
+          },
+          {
+            "old": "027.0184",
+            "set_french": "Mon projet est superbe si Dieu voulait m'aider à l'exécuter je serais fort heureuse. Il y a du beau monde à Florence et pour les études et pour les plaisirs j'y serais tout à fait bien."
+          },
+          {
+            "new": {
+              "french": "Aidez-moi donc, mon Dieu !",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0184, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Lundi, 7 décembre 1874"
+      },
+      {
+        "file": "1874-12-08.md",
+        "date": "1874-12-08",
+        "paragraphs": [
+          {
+            "old": "027.0185"
+          },
+          {
+            "old": "027.0186"
+          },
+          {
+            "old": "027.0187"
+          },
+          {
+            "old": "027.0188"
+          },
+          {
+            "old": "027.0189"
+          },
+          {
+            "old": "027.0190"
+          },
+          {
+            "old": "027.0191"
+          },
+          {
+            "old": "027.0192"
+          },
+          {
+            "old": "027.0193"
+          },
+          {
+            "old": "027.0194"
+          }
+        ],
+        "_first_line": "# Mardi, 8 décembre 1874"
+      },
+      {
+        "file": "1874-12-09.md",
+        "date": "1874-12-09",
+        "paragraphs": [
+          {
+            "old": "027.0195"
+          },
+          {
+            "old": "027.0196"
+          },
+          {
+            "old": "027.0197"
+          },
+          {
+            "old": "027.0198"
+          },
+          {
+            "old": "027.0199",
+            "set_french": "*- Voilà pour toi,* Satan ! en frappant ma tante de toute ma force sur le genou, avec la main et puis en la poussant du corps."
+          },
+          {
+            "new": {
+              "french": "C'est vulgaire, mais ça soulage !",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 027.0199, which held 2 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0200",
+            "set_french": "Ah mon Dieu ,secourez-moi !"
+          },
+          {
+            "new": {
+              "french": "[Une ligne cancellée: Je (illisible), je ne suis pas]",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 027.0200, which held 3 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "[Annotation: 24 décembre 1874. Et pardonnez-moi cet acte indigne et vilain.]",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 027.0200, which held 3 printed paragraphs under one ID (Mon Journal t.4; tome04.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "027.0201"
+          }
+        ],
+        "_first_line": "# Mercredi, 9 décembre 1874"
+      },
+      {
+        "file": "1874-12-10.md",
+        "date": "1874-12-10",
+        "paragraphs": [
+          {
+            "old": "027.0202"
+          },
+          {
+            "old": "027.0203"
+          },
+          {
+            "old": "027.0204"
+          },
+          {
+            "old": "027.0205"
+          },
+          {
+            "old": "027.0206"
+          },
+          {
+            "old": "027.0207"
+          },
+          {
+            "old": "027.0208"
+          }
+        ],
+        "_first_line": "# Jeudi, 10 décembre 1874"
+      },
+      {
+        "file": "1874-12-11.md",
+        "date": "1874-12-11",
+        "paragraphs": [
+          {
+            "old": "027.0209"
+          },
+          {
+            "old": "027.0210"
+          },
+          {
+            "old": "027.0211"
+          },
+          {
+            "old": "027.0212"
+          },
+          {
+            "old": "027.0213"
+          },
+          {
+            "old": "027.0214"
+          },
+          {
+            "old": "027.0215"
+          },
+          {
+            "old": "027.0216"
+          }
+        ],
+        "_first_line": "# Vendredi, 11 décembre 1874"
+      },
+      {
+        "file": "1874-12-12.md",
+        "date": "1874-12-12",
+        "paragraphs": [
+          {
+            "old": "027.0217"
+          },
+          {
+            "old": "027.0218"
+          },
+          {
+            "old": "027.0219"
+          },
+          {
+            "old": "027.0220"
+          },
+          {
+            "old": "027.0221"
+          },
+          {
+            "old": "027.0222"
+          },
+          {
+            "old": "027.0223"
+          },
+          {
+            "old": "027.0224"
+          },
+          {
+            "old": "027.0225"
+          },
+          {
+            "old": "027.0226"
+          },
+          {
+            "old": "027.0227"
+          }
+        ],
+        "_first_line": "# Samedi, 12 décembre 1874"
+      },
+      {
+        "file": "1874-12-13.md",
+        "date": "1874-12-13",
+        "paragraphs": [
+          {
+            "old": "027.0228"
+          },
+          {
+            "old": "027.0229"
+          },
+          {
+            "old": "027.0230"
+          }
+        ],
+        "_first_line": "# Dimanche, 13 décembre 1874"
+      },
+      {
+        "file": "1874-12-14.md",
+        "date": "1874-12-14",
+        "paragraphs": [
+          {
+            "old": "027.0231"
+          },
+          {
+            "old": "027.0232"
+          },
+          {
+            "old": "027.0233"
+          },
+          {
+            "old": "027.0234"
+          },
+          {
+            "old": "027.0235"
+          },
+          {
+            "old": "027.0236"
+          },
+          {
+            "old": "027.0237"
+          }
+        ],
+        "_first_line": "# Lundi, 14 décembre 1874"
+      },
+      {
+        "file": "1874-12-16.md",
+        "date": "1874-12-16",
+        "paragraphs": [
+          {
+            "old": "027.0238"
+          },
+          {
+            "old": "027.0239"
+          },
+          {
+            "old": "027.0240"
+          }
+        ],
+        "_first_line": "# Mardi, 16 décembre 1874"
+      },
+      {
+        "file": "1874-12-17.md",
+        "date": "1874-12-17",
+        "paragraphs": [
+          {
+            "old": "027.0241"
+          },
+          {
+            "old": "027.0242"
+          },
+          {
+            "old": "027.0243"
+          },
+          {
+            "old": "027.0244"
+          },
+          {
+            "old": "027.0245"
+          },
+          {
+            "old": "027.0246"
+          },
+          {
+            "old": "027.0247"
+          },
+          {
+            "old": "027.0248"
+          },
+          {
+            "old": "027.0249"
+          },
+          {
+            "old": "027.0250"
+          },
+          {
+            "old": "027.0251"
+          },
+          {
+            "old": "027.0252"
+          },
+          {
+            "old": "027.0253"
+          },
+          {
+            "old": "027.0254"
+          },
+          {
+            "old": "027.0255"
+          }
+        ],
+        "_first_line": "# Mercredi, 17 décembre 1874"
+      },
+      {
+        "file": "1874-12-18.md",
+        "date": "1874-12-18",
+        "paragraphs": [
+          {
+            "old": "027.0256"
+          },
+          {
+            "old": "027.0257"
+          },
+          {
+            "old": "027.0258"
+          },
+          {
+            "old": "027.0259"
+          },
+          {
+            "old": "027.0260"
+          },
+          {
+            "old": "027.0261"
+          },
+          {
+            "old": "027.0262"
+          },
+          {
+            "old": "027.0263"
+          },
+          {
+            "old": "027.0264"
+          },
+          {
+            "old": "027.0265"
+          },
+          {
+            "old": "027.0266"
+          },
+          {
+            "old": "027.0267"
+          },
+          {
+            "old": "027.0268"
+          },
+          {
+            "old": "027.0269"
+          },
+          {
+            "old": "027.0270"
+          },
+          {
+            "old": "027.0271"
+          },
+          {
+            "old": "027.0272"
+          },
+          {
+            "old": "027.0273"
+          },
+          {
+            "old": "027.0274"
+          },
+          {
+            "old": "027.0275"
+          },
+          {
+            "old": "027.0276"
+          },
+          {
+            "old": "027.0277"
+          },
+          {
+            "old": "027.0278"
+          },
+          {
+            "old": "027.0279"
+          },
+          {
+            "old": "027.0280"
+          },
+          {
+            "old": "027.0281"
+          },
+          {
+            "old": "027.0282"
+          },
+          {
+            "old": "027.0283"
+          },
+          {
+            "old": "027.0284"
+          },
+          {
+            "old": "027.0285"
+          }
+        ],
+        "_first_line": "# Jeudi, 18 décembre 1874"
+      },
+      {
+        "file": "1874-12-19.md",
+        "date": "1874-12-19",
+        "paragraphs": [
+          {
+            "old": "027.0286"
+          },
+          {
+            "old": "027.0287"
+          },
+          {
+            "old": "027.0288"
+          },
+          {
+            "old": "027.0289"
+          },
+          {
+            "old": "027.0290"
+          },
+          {
+            "old": "027.0291"
+          },
+          {
+            "old": "027.0292"
+          },
+          {
+            "old": "027.0293"
+          },
+          {
+            "old": "027.0294"
+          },
+          {
+            "old": "027.0295"
+          },
+          {
+            "old": "027.0296"
+          },
+          {
+            "old": "027.0297"
+          },
+          {
+            "old": "027.0298"
+          },
+          {
+            "old": "027.0299"
+          },
+          {
+            "old": "027.0300"
+          },
+          {
+            "old": "027.0301"
+          },
+          {
+            "old": "027.0302"
+          },
+          {
+            "old": "027.0303"
+          },
+          {
+            "old": "027.0304"
+          },
+          {
+            "old": "027.0305"
+          },
+          {
+            "old": "027.0306"
+          },
+          {
+            "old": "027.0307"
+          },
+          {
+            "old": "027.0308"
+          },
+          {
+            "old": "027.0309"
+          },
+          {
+            "old": "027.0310"
+          },
+          {
+            "old": "027.0311"
+          },
+          {
+            "old": "027.0312"
+          },
+          {
+            "old": "027.0313"
+          },
+          {
+            "old": "027.0314"
+          },
+          {
+            "old": "027.0315"
+          },
+          {
+            "old": "027.0316"
+          },
+          {
+            "old": "027.0317"
+          },
+          {
+            "old": "027.0318"
+          },
+          {
+            "old": "027.0319"
+          },
+          {
+            "old": "027.0320"
+          },
+          {
+            "old": "027.0321"
+          },
+          {
+            "old": "027.0322"
+          },
+          {
+            "old": "027.0323"
+          },
+          {
+            "old": "027.0324"
+          },
+          {
+            "old": "027.0325"
+          },
+          {
+            "old": "027.0326"
+          },
+          {
+            "old": "027.0327"
+          },
+          {
+            "old": "027.0328"
+          },
+          {
+            "old": "027.0329"
+          },
+          {
+            "old": "027.0330"
+          },
+          {
+            "old": "027.0331"
+          },
+          {
+            "old": "027.0332"
+          }
+        ],
+        "_first_line": "# Samedi, 19 décembre 1874"
+      },
+      {
+        "file": "1874-12-20.md",
+        "date": "1874-12-20",
+        "paragraphs": [
+          {
+            "old": "027.0333"
+          },
+          {
+            "old": "027.0334"
+          }
+        ],
+        "_first_line": "# Dimanche, 20 décembre 1874"
+      },
+      {
+        "file": "1874-12-21.md",
+        "date": "1874-12-21",
+        "paragraphs": [
+          {
+            "old": "027.0335"
+          },
+          {
+            "old": "027.0336"
+          },
+          {
+            "old": "027.0337"
+          },
+          {
+            "old": "027.0338"
+          }
+        ],
+        "_first_line": "# Lundi, 21 décembre 1874"
+      },
+      {
+        "file": "1874-12-22.md",
+        "date": "1874-12-22",
+        "paragraphs": [
+          {
+            "old": "027.0339"
+          },
+          {
+            "old": "027.0340"
+          }
+        ],
+        "_first_line": "# Mardi, 22 décembre 1874"
+      },
+      {
+        "file": "1874-12-23.md",
+        "date": "1874-12-23",
+        "paragraphs": [
+          {
+            "old": "027.0341"
+          },
+          {
+            "old": "027.0342"
+          },
+          {
+            "old": "027.0343"
+          },
+          {
+            "old": "027.0344"
+          },
+          {
+            "old": "027.0345"
+          },
+          {
+            "old": "027.0346"
+          },
+          {
+            "old": "027.0347"
+          },
+          {
+            "old": "027.0348"
+          },
+          {
+            "old": "027.0349"
+          },
+          {
+            "old": "027.0350"
+          },
+          {
+            "old": "027.0351"
+          },
+          {
+            "old": "027.0352"
+          },
+          {
+            "old": "027.0353"
+          },
+          {
+            "old": "027.0354"
+          },
+          {
+            "old": "027.0355"
+          },
+          {
+            "old": "027.0356"
+          },
+          {
+            "old": "027.0357"
+          },
+          {
+            "old": "027.0358"
+          },
+          {
+            "old": "027.0359"
+          },
+          {
+            "old": "027.0360"
+          },
+          {
+            "old": "027.0361"
+          },
+          {
+            "old": "027.0362"
+          },
+          {
+            "old": "027.0363"
+          },
+          {
+            "old": "027.0364"
+          },
+          {
+            "old": "027.0365"
+          },
+          {
+            "old": "027.0366"
+          },
+          {
+            "old": "027.0367"
+          },
+          {
+            "old": "027.0368"
+          },
+          {
+            "old": "027.0369"
+          },
+          {
+            "old": "027.0370"
+          },
+          {
+            "old": "027.0371"
+          },
+          {
+            "old": "027.0372"
+          },
+          {
+            "old": "027.0373"
+          },
+          {
+            "old": "027.0374"
+          }
+        ],
+        "_first_line": "# Mercredi, 23 décembre 1874"
+      },
+      {
+        "file": "1874-12-24.md",
+        "date": "1874-12-24",
+        "paragraphs": [
+          {
+            "old": "027.0375"
+          },
+          {
+            "old": "027.0376"
+          },
+          {
+            "old": "027.0377"
+          },
+          {
+            "old": "027.0378"
+          },
+          {
+            "old": "027.0379"
+          },
+          {
+            "old": "027.0380"
+          },
+          {
+            "old": "027.0381"
+          },
+          {
+            "old": "027.0382"
+          },
+          {
+            "old": "027.0383"
+          },
+          {
+            "old": "027.0384"
+          },
+          {
+            "old": "027.0385"
+          },
+          {
+            "old": "027.0386"
+          },
+          {
+            "old": "027.0387"
+          },
+          {
+            "old": "027.0388"
+          },
+          {
+            "old": "027.0389"
+          },
+          {
+            "old": "027.0390"
+          },
+          {
+            "old": "027.0391"
+          },
+          {
+            "old": "027.0392"
+          },
+          {
+            "old": "027.0393"
+          },
+          {
+            "old": "027.0394"
+          },
+          {
+            "old": "027.0395"
+          },
+          {
+            "old": "027.0396"
+          },
+          {
+            "old": "027.0397"
+          }
+        ],
+        "_first_line": "# Jeudi, 24 décembre 1874"
+      }
+    ],
+    "drop": []
+  }
+}

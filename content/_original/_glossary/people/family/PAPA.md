@@ -30,7 +30,7 @@ Constantin (Constantine) Bashkirtseff (1833–1883) was Marie's father, a Russia
 - Landowner at the Gavronzi estate near Poltava
 - Married Marie Stepanovna Babanine ([#Maman](MAMAN.md))
 - Father of Marie (1858–1884) and Paul (1859–1899)
-- Marshal of the nobility: "mon père est maréchal de noblesse" (023.0265); "mon honorable père, maréchal de noblesse" (030.0127)
+- Marshal of the nobility: "mon père est maréchal de noblesse" (023.0633); "mon honorable père, maréchal de noblesse" (030.0127)
 
 ## In the diary, 1873–1875
 
