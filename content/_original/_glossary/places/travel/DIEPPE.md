@@ -147,7 +147,7 @@ Dieppe continued to surface in the diary long after Marie's departure:
 
 %% GLO_DIEPPE.0025 %%
 - **August 18, 1873** (008.0075): Marie reads about horse races at Dieppe in the newspaper, looking for news of the Duke of Hamilton -- her first mention of the town, entirely incidental to her obsession with Hamilton
-- **September 26, 1875** (045.0035): "Pâris a rapporté de Dieppe un très joli jeu, les courses" -- Pâris brings back a parlor game from Dieppe
+- **September 26, 1875** (045.0052): "Pâris a rapporté de Dieppe un très joli jeu, les courses" -- Pâris brings back a parlor game from Dieppe
 
 ## Significance in the Diary
 

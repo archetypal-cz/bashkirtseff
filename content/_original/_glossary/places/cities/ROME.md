@@ -26,7 +26,7 @@ last_updated: 2026-05-24
 [Rome](https://en.wikipedia.org/wiki/Rome), the Eternal City and capital of the [Kingdom of Italy](https://en.wikipedia.org/wiki/Kingdom_of_Italy) since 1871, was a transformative destination in Marie Bashkirtseff's life. Her extended stay from January 3 to April 12, 1876 (carnets 051-057, approximately 100 days) marks a decisive period in her development: artistic awakening through direct contact with the greatest Western art, a vivid experience of Roman Carnival, the Antonelli romance, and a deepening of her ambitions. The city of the Caesars and the Popes "acted upon her like strong wine," as her biographer Mathilde Blind wrote.
 
 %% GLO_ROME.0004 %%
-Marie herself captured the arc of her Roman transformation in a marginal note added to her first day's entry (051.0362, Jan 4, 1876):
+Marie herself captured the arc of her Roman transformation in a marginal note added to her first day's entry (051.0370, Jan 4, 1876):
 
 > En arrivant a Rome je n'avais aucun sentiment artistique, c'est Rome qui m'a ouvert l'esprit, aussi l'ai-je adoree depuis.
 
@@ -40,7 +40,7 @@ Rome had only recently become the capital of unified Italy, a transformation tha
 
 - **September 20, 1870**: Italian troops entered Rome through a breach near the [Porta Pia](https://en.wikipedia.org/wiki/Porta_Pia) after the withdrawal of French garrison troops during the Franco-Prussian War
 - **July 1, 1871**: Rome officially became the capital, replacing Florence; the royal court moved to the [Quirinal Palace](https://en.wikipedia.org/wiki/Quirinal_Palace)
-- **Urban transformation**: The new government embarked on massive construction projects to make Rome a worthy capital, which Marie found an "affreux melange de belles antiquites et de nouvelles vilenies" (051.0369, Jan 5)
+- **Urban transformation**: The new government embarked on massive construction projects to make Rome a worthy capital, which Marie found an "affreux melange de belles antiquites et de nouvelles vilenies" (051.0377, Jan 5)
 - **The [Roman Question](https://en.wikipedia.org/wiki/Roman_question)**: Pope [Pius IX](https://en.wikipedia.org/wiki/Pope_Pius_IX) declared himself a "prisoner of the Vatican" and refused to recognize the Italian state; this standoff would not be resolved until the [Lateran Treaty](https://en.wikipedia.org/wiki/Lateran_Treaty) of 1929
 
 %% GLO_ROME.0007 %%
@@ -64,7 +64,7 @@ Marie grasped this political complexity with remarkable sophistication. On her d
 The [French Academy in Rome](https://en.wikipedia.org/wiki/French_Academy_in_Rome), housed at the [Villa Medici](https://en.wikipedia.org/wiki/Villa_Medici) since 1803, made Rome a pilgrimage destination for artists. Winners of the [Prix de Rome](https://en.wikipedia.org/wiki/Prix_de_Rome) spent years studying and copying masterpieces of antiquity and the Renaissance. Notable 19th-century winners included Ingres, Berlioz, Bizet, and Debussy. Marie, who would later study at the Academie Julian in Paris, did not attend the Villa Medici but was deeply affected by Rome's artistic legacy. In 1878, an engraving of Ingres on the terrace of the Trinita dei Monti, with St. Peter's cupola on the horizon, "m'a fait litteralement dresser les cheveux sur la tete" (083, Dec 4, 1878).
 
 %% GLO_ROME.0010 %%
-Rome also attracted a broad international community of artists, including Russian painters like Mikhail Botkine, who became Marie's first contact in Rome's artistic circle and introduced her to teachers (051.0350, Jan 4). The Polish-Ukrainian painter Pavel Katorbinsky gave Marie painting lessons during her stay, and she painted ciociara (peasant women from the Ciociaria region south of Rome) as models (054.0559, Feb 14).
+Rome also attracted a broad international community of artists, including Russian painters like Mikhail Botkine, who became Marie's first contact in Rome's artistic circle and introduced her to teachers (051.0358, Jan 4). The Polish-Ukrainian painter Pavel Katorbinsky gave Marie painting lessons during her stay, and she painted ciociara (peasant women from the Ciociaria region south of Rome) as models (054.0559, Feb 14).
 
 %% GLO_ROME.0011 %%
 ## Marie's Experience in Rome (1876)
@@ -72,17 +72,17 @@ Rome also attracted a broad international community of artists, including Russia
 %% GLO_ROME.0012 %%
 ### Arrival and First Impressions (January 1876)
 
-Marie departed Nice on January 2, 1876, arriving by train after 24 hours of travel on January 3 (051.0309). Her first impression was of desolation:
+Marie departed Nice on January 2, 1876, arriving by train after 24 hours of travel on January 3 (051.0317). Her first impression was of desolation:
 
 > Enfin vers trois heures, lundi 3 janvier, par cette triste plaine qu'on nomme la campagne de Rome ont commence a paraitre des ruines, des colonnes, des aqueducs, et nous sommes entres dans la gare de Rome. Je ne sais rien, je n'entends rien, je suis toute decollee, apres mes vingt-quatre heures sans sommeil.
 
 %% GLO_ROME.0013 %%
-The family stayed at the Hotel de Londres on the Place d'Espagne (Piazza di Spagna), the center of foreign colony life. Later they moved to the Hotel de la Ville on Via del Babuino. Marie was initially appalled by Rome (051.0369, Jan 5):
+The family stayed at the Hotel de Londres on the Place d'Espagne (Piazza di Spagna), the center of foreign colony life. Later they moved to the Hotel de la Ville on Via del Babuino. Marie was initially appalled by Rome (051.0377, Jan 5):
 
 > Est-ce possible que ce soit Rome ! Quel affreux melange de belles antiquites et de nouvelles vilenies !
 
 %% GLO_ROME.0014 %%
-And yet: "Rome ne me fait pas l'effet de Rome. Est-ce bien Rome?" (051.0379, Jan 4). Her disorientation gradually gave way to deep attachment.
+And yet: "Rome ne me fait pas l'effet de Rome. Est-ce bien Rome?" (051.0387, Jan 4). Her disorientation gradually gave way to deep attachment.
 
 %% GLO_ROME.0015 %%
 ### Artistic Encounters
@@ -93,10 +93,10 @@ Marie's encounter with Rome's art was characteristically independent and bold. S
 **The Vatican and Sistine Chapel** (053.0364-0346, Feb 3): Marie rushed through the Raphael Rooms and Loggia, finding them disappointing: "les loges de Raphael qui m'ont desappointee." At the [Sistine Chapel](https://en.wikipedia.org/wiki/Sistine_Chapel): "nous faisons tant de tapage que le custode vient crier *silenzio!*" She looked through a keyhole and recoiled when an eye appeared on the other side. On Michelangelo's Last Judgment: "tous ses hommes etaient de la meme couleur, ce qui n'est pas naturel." On Raphael: "ce coquin de Raphael peignait fort peu lui-meme. Il dessinait, mais ce n'est pas assez."
 
 %% GLO_ROME.0017 %%
-**The Colosseum** (051.0355, Jan 4; 053.0336, Feb 8): Marie saw the [Colosseum](https://en.wikipedia.org/wiki/Colosseum) on her first day and returned repeatedly: "Je vois chaque jour le Colisee et je n'en ai jamais assez" (052.0391, Jan 21). On a detailed visit she climbed to the top: "J'etouffais, mais pas de fatigue, mais d'admiration pour cette grandeur dechue." She quoted Byron's *Childe Harold's Pilgrimage* on the Colosseum (051.0386, Jan 5).
+**The Colosseum** (051.0363, Jan 4; 053.0336, Feb 8): Marie saw the [Colosseum](https://en.wikipedia.org/wiki/Colosseum) on her first day and returned repeatedly: "Je vois chaque jour le Colisee et je n'en ai jamais assez" (052.0391, Jan 21). On a detailed visit she climbed to the top: "J'etouffais, mais pas de fatigue, mais d'admiration pour cette grandeur dechue." She quoted Byron's *Childe Harold's Pilgrimage* on the Colosseum (051.0394, Jan 5).
 
 %% GLO_ROME.0018 %%
-**St. Peter's Basilica** (051.0376, Jan 5; 053.0333, Jan 30): Marie was overwhelmed by St. Peter's facade on first sight: "C'est superbe, elle m'a ravi le coeur, surtout la colonnade gauche, parce qu'aucune maison ne la depasse et ses colonnes avec le ciel pour fond, produisent l'effet le plus saisissant. On se croirait dans la vieille Grece." Dina's paradox captured the scale: "Saint-Pierre c'est si grand que ca parait petit."
+**St. Peter's Basilica** (051.0384, Jan 5; 053.0333, Jan 30): Marie was overwhelmed by St. Peter's facade on first sight: "C'est superbe, elle m'a ravi le coeur, surtout la colonnade gauche, parce qu'aucune maison ne la depasse et ses colonnes avec le ciel pour fond, produisent l'effet le plus saisissant. On se croirait dans la vieille Grece." Dina's paradox captured the scale: "Saint-Pierre c'est si grand que ca parait petit."
 
 %% GLO_ROME.0019 %%
 **The Doria Palace Gallery** (053.0337, Feb 4): Marie was enchanted by the Titian paintings: "un portrait de Diego Velasquez est admirable de naturel. Une Madeleine du Titien, mon peintre favori."
@@ -184,7 +184,7 @@ Marie's frustration was palpable (053.0394, Jan 27): "Cette quantite de voitures
 - **[The Colosseum](https://en.wikipedia.org/wiki/Colosseum)**: Visited repeatedly; the diary's most quoted Roman site
 - **[The Palatine Hill](https://en.wikipedia.org/wiki/Palatine_Hill)**: Imperial palaces; Marie explored palaces of Caligula, Nero, and Vespasian (053.0338, Feb 8)
 - **[The Appian Way](https://en.wikipedia.org/wiki/Appian_Way)**: Ancient road; site of the tomb of [Caecilia Metella](https://en.wikipedia.org/wiki/Tomb_of_Caecilia_Metella) where Antonelli lured Marie (054.0449, Feb 21)
-- **[Baths of Caracalla](https://en.wikipedia.org/wiki/Baths_of_Caracalla)**: Marie joked she might have to live there for lack of affordable apartments (051.0367, Jan 5)
+- **[Baths of Caracalla](https://en.wikipedia.org/wiki/Baths_of_Caracalla)**: Marie joked she might have to live there for lack of affordable apartments (051.0375, Jan 5)
 
 %% GLO_ROME.0038 %%
 ### Social Venues

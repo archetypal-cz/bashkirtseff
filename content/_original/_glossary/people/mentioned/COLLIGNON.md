@@ -46,7 +46,7 @@ Her father died in May 1879 (%% 085.0078 %%: "Le pere de Collignon est mort ce m
 
 Collignon was hired as Marie's governess before the diary begins. Marie records the precise date her English lessons started: "commencees le 12 janvier 1872 a Nice, avec Mlle Collignon" (%% 001.0155 %%). Despite being French, Collignon was tasked with teaching English — a duty Marie increasingly felt she neglected. As governess, Collignon served multiple functions:
 
-- **Educator**: Teaching English, geography, history, arithmetic. Marie studied German history with her and read aloud during lessons (%% 046.0122 %%, %% 103.0019 %%).
+- **Educator**: Teaching English, geography, history, arithmetic. Marie studied German history with her and read aloud during lessons (%% 046.0178 %%, %% 103.0019 %%).
 - **Chaperone**: Accompanying Marie on all promenades, visits, shopping, theater outings, and sea bathing. Marie could not go out without her.
 - **Disciplinarian**: Scolding Marie for blushing at men (%% 001.0024 %%: "Ne faites pas cela, Marie, cela m'enerve tant"), for attracting attention (%% 004.0269 %%: "m'a grondee parce qu'on me regardait trop"), and for speaking indiscreetly.
 - **Confidante (limited)**: Despite tensions, Marie confided some feelings — hiding her face in Collignon's chest after seeing the Duke (%% 001.0106 %%, %% 044.0161 %%: "je me jetais dans les bras de Collignon, je cachais ma figure sur sa poitrine").

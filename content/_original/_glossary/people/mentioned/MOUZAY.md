@@ -36,7 +36,7 @@ She had at least one daughter (frequently mentioned as "sa fille" or "Mlle de Mo
 
 Mouzay is one of the Bashkirtseff family's oldest and most enduring social connections, first appearing in carnet 002 (February 1873) and still referenced in carnet 104 (May 1884). The relationship spans the full twelve years of Marie's diary, making Mouzay one of the most frequently mentioned non-family figures in the entire work.
 
-The relationship is characteristically complex. Marie genuinely values Mouzay's affection and loyalty -- "cette chere et excellente femme qui m'aime tant!" (051.0087, 1875-12-29) -- while simultaneously finding her socially beneath her. Marie acknowledges this tension with startling honesty: "Je me demandais l'autre jour a quoi me servirait mon amitie pour Mme de Mouzay. C'est revoltant!" before concluding that Mouzay's praise of her in society is "pas une marchandise a dedaigner" (raw carnet 008, 1876).
+The relationship is characteristically complex. Marie genuinely values Mouzay's affection and loyalty -- "cette chere et excellente femme qui m'aime tant!" (051.0088, 1875-12-29) -- while simultaneously finding her socially beneath her. Marie acknowledges this tension with startling honesty: "Je me demandais l'autre jour a quoi me servirait mon amitie pour Mme de Mouzay. C'est revoltant!" before concluding that Mouzay's praise of her in society is "pas une marchandise a dedaigner" (raw carnet 008, 1876).
 
 Mouzay calls Marie "Mousse" and "Moussia" (the Russian diminutive), and Marie in turn refers to her variously as "cette bonne Mme de Mouzay," "la Mouzay," and less charitably as "la mere Mouzay" or "cette vieille sotte." By 1881, Marie lumps her dismissively among "des Mouzay ou des vieux Gavini ou autres especes de ce genre" (091, 1881-02-09), yet continues to rely on her for social access and emotional support.
 
@@ -54,7 +54,7 @@ From the earliest entries, Mouzay is part of the Bashkirtseff social circle in N
 Despite this social condescension, Marie lists Mouzay among the precious few who remained loyal during the family's periods of social exclusion: "de Mouzay, de Daillens, de Ballote et ses filles, Barnola, Bihovetz, Galula, Pepino, Markoff. Voila je crois la liste de ceux qui ne nous ont pas crache dessus" (052, 1876-01-19).
 
 ### Letters of Introduction for Rome (1875--1876)
-When the Bashkirtseffs travel to Rome, Mouzay provides seven letters of recommendation (051.0087, 1875-12-29). Marie is touchingly grateful: "Dieu veuille qu'elles me servent autant que le desire cette chere et excellente femme." Through her contacts, Mouzay confirms the Antonelli family's vast wealth and provides intelligence about Roman society (063.0070--0083, 1876-07-07).
+When the Bashkirtseffs travel to Rome, Mouzay provides seven letters of recommendation (051.0088, 1875-12-29). Marie is touchingly grateful: "Dieu veuille qu'elles me servent autant que le desire cette chere et excellente femme." Through her contacts, Mouzay confirms the Antonelli family's vast wealth and provides intelligence about Roman society (063.0070--0083, 1876-07-07).
 
 ### The Wartel Audition (1876)
 Mouzay arranged Marie's secret audition with Pierre-Francois Wartel, the most respected voice teacher in Paris, at his studio at 37 rue de la Chaussee-d'Antin. She presented Marie as "une jeune fille qui lui est particulierement recommandee d'Italie" -- an anonymous Italian girl whose parents wanted an honest assessment (raw carnet 008). Wartel's verdict was positive: "Il faut travailler, vous avez une voix tres etendue, vous avez de l'etoffe, un organe, vous pouvez arriver." This audition was decisive in drawing Marie to Paris.
@@ -142,7 +142,7 @@ The diary reveals (086.0478, 1879-11-05) that Mouzay had served as "lingere dans
 
 ### 1875--1876 (Rome trip)
 - **December 28** (051): Visit to bedridden Mouzay in Nice
-- **December 29** (051.0087): Mouzay gives seven letters of recommendation for Rome
+- **December 29** (051.0088): Mouzay gives seven letters of recommendation for Rome
 - **January 1, 1876** (051): Stop at Mouzay's door; find vicomtesse de Ballore there
 - **January 9** (051): Family rereads Mouzay's letters for comfort
 - **January 11** (052): Discuss Mouzay and Monseigneur

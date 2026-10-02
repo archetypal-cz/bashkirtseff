@@ -22,7 +22,7 @@ languages:
 
 ## Relevance to Marie
 
-Marie reads *Isabelle de Baviere* with Olga Sapogenikoff in October 1875. She finds it poorly written: "Isabelle de Baviere est si mal ecrite, les scenes si mal liees que c'est pitie" (046.0210). Despite the literary criticism, she persists in reading it, using it as a shared activity with Olga that she hopes will draw out the girl's romantic confidences.
+Marie reads *Isabelle de Baviere* with Olga Sapogenikoff in October 1875. She finds it poorly written: "Isabelle de Baviere est si mal ecrite, les scenes si mal liees que c'est pitie" (046.0267). Despite the literary criticism, she persists in reading it, using it as a shared activity with Olga that she hopes will draw out the girl's romantic confidences.
 
 ## Historical Context
 
@@ -30,7 +30,7 @@ The novel was Dumas's first attempt at historical fiction, before the success of
 
 ## References in Diary
 
-- 1875-10-06 (046.0135): Marie reads it with Olga
-- 1875-10-08 (046.0210): Marie criticizes its poor writing
+- 1875-10-06 (046.0191): Marie reads it with Olga
+- 1875-10-08 (046.0267): Marie criticizes its poor writing
 
 %% 2026-02-09T21:00:00 RSR: Created entry. Marie's literary criticism of Dumas at age 16 is noteworthy — she dismisses his first novel while elsewhere calling him the greatest writer, which she treats as proof of her intellectual decline. %%
