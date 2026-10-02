@@ -1,4 +1,5 @@
 ---
+import { carnetRangeMessage } from '../../lib/carnet-range';
 import ReadingLayout from '../../layouts/ReadingLayout.astro';
 import ContentLanguageSwitcher from '../../components/reading/ContentLanguageSwitcher.vue';
 import ContinueReadingGlobal from '../../components/reading/ContinueReadingGlobal.vue';
@@ -52,6 +53,7 @@ const yearsWithStats = years.map(yearInfo => {
     ...yearInfo,
     translatedCount,
     hasTranslations,
+    carnetMsg: carnetRangeMessage(yearInfo.carnets),
   };
 });
 
@@ -295,7 +297,7 @@ const indexAlternates = buildHreflangAlternates('');
 
           <div class="flex items-center justify-between text-sm">
             <span class="text-muted">
-              <span data-t="diary.notebookCount" data-t-params={JSON.stringify({ count: year.carnets.length })}>{t('diary.notebookCount', { count: year.carnets.length })}</span>
+              {year.carnetMsg && <span data-t={year.carnetMsg.key} data-t-params={JSON.stringify(year.carnetMsg.params)}>{t(year.carnetMsg.key, year.carnetMsg.params)}</span>}
             </span>
             <span class="text-muted" data-filter-count={`year-entries:${year.year}`}>
               {year.entryCount} <span data-t="diary.entries">{t('diary.entries')}</span>

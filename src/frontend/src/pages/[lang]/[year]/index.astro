@@ -7,6 +7,7 @@ import OfflineDownload from '../../../components/pwa/OfflineDownload.vue';
 import { getYears, getCarnetsByYear, getYearInfo, getYearSummary, isCarnetCrossYear } from '../../../lib/content';
 import { DIARY_LANGUAGES, glossaryUrl, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
+import { carnetRangeMessage } from '../../../lib/carnet-range';
 import { withTrailingSlash } from '../../../lib/url';
 
 export function getStaticPaths() {
@@ -73,6 +74,7 @@ const carnetsWithStatus = allCarnetIds.map(carnetId => {
   };
 });
 
+const carnetMsg = carnetRangeMessage(carnetsWithStatus.map(c => c.id));
 const totalEntries = carnetsWithStatus.reduce((sum, c) => sum + c.entriesInYear, 0);
 const totalTranslated = lang.isTranslation
   ? carnetsWithStatus.reduce((sum, c) => sum + c.translatedCount, 0)
@@ -150,7 +152,7 @@ const yearDescription = `${t('diary.year', { year })} — ${t('diary.pageTitle')
 
             <div class="flex items-center gap-3 text-sm mb-3">
               <span class="text-muted">
-                <span data-t="diary.notebookCount" data-t-params={JSON.stringify({ count: carnetsWithStatus.length })}>{t('diary.notebookCount', { count: carnetsWithStatus.length })}</span>
+                {carnetMsg && <span data-t={carnetMsg.key} data-t-params={JSON.stringify(carnetMsg.params)}>{t(carnetMsg.key, carnetMsg.params)}</span>}
               </span>
               <span class="text-muted">&bull;</span>
               <span class="text-muted">

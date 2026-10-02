@@ -400,6 +400,7 @@
     "description": "Le journal original contient du français, russe, italien, anglais et d'autres langues",
     "notebook": "Cahier",
     "notebookTitle": "Cahier {id}",
+    "notebookRange": "Cahiers {from}–{to}",
     "entries": "entrées",
     "sections": "sections",
     "section": "Section {n}",

@@ -400,6 +400,7 @@
     "description": "El diario original contiene francés, ruso, italiano, inglés y otros idiomas",
     "notebook": "Cuaderno",
     "notebookTitle": "Cuaderno {id}",
+    "notebookRange": "Cuadernos {from}–{to}",
     "entries": "entradas",
     "sections": "secciones",
     "section": "Sección {n}",

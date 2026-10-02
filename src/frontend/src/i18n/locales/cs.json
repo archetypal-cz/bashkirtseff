@@ -405,6 +405,7 @@
     "description": "Originální deník obsahuje francouzštinu, ruštinu, italštinu, angličtinu a další jazyky",
     "notebook": "Sešit",
     "notebookTitle": "Sešit {id}",
+    "notebookRange": "Sešity {from}–{to}",
     "entries": "záznamů",
     "sections": "oddílů",
     "section": "Oddíl {n}",

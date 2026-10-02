@@ -399,6 +399,7 @@
     "description": "The original diary contains French, Russian, Italian, English and other languages",
     "notebook": "Notebook",
     "notebookTitle": "Notebook {id}",
+    "notebookRange": "Notebooks {from}–{to}",
     "entries": "entries",
     "sections": "sections",
     "section": "Section {n}",
