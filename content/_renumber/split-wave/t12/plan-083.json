@@ -1,0 +1,2398 @@
+{
+ "carnet": "083",
+ "_generated": "identity plan of content/_original/083 — keys starting with _ are ignored",
+ "entries": [
+  {
+   "file": "1878-10-17.md",
+   "date": "1878-10-17",
+   "paragraphs": [
+    {
+     "old": "083.0001"
+    }
+   ],
+   "_first_line": "# Jeudi 17 octobre 1878"
+  },
+  {
+   "file": "1878-10-18.md",
+   "date": "1878-10-18",
+   "paragraphs": [
+    {
+     "old": "083.0002"
+    }
+   ],
+   "_first_line": "# Vendredi 18 octobre 1878"
+  },
+  {
+   "file": "1878-10-19.md",
+   "date": "1878-10-19",
+   "paragraphs": [
+    {
+     "old": "083.0003"
+    },
+    {
+     "old": "083.0004"
+    },
+    {
+     "old": "083.0005"
+    }
+   ],
+   "_first_line": "# samedi 19 octobre 1878"
+  },
+  {
+   "file": "1878-10-20.md",
+   "date": "1878-10-20",
+   "paragraphs": [
+    {
+     "old": "083.0006"
+    },
+    {
+     "old": "083.0007"
+    },
+    {
+     "old": "083.0008"
+    },
+    {
+     "old": "083.0009"
+    },
+    {
+     "old": "083.0010"
+    },
+    {
+     "old": "083.0011"
+    }
+   ],
+   "_first_line": "# Dimanche, 20 octobre 1878"
+  },
+  {
+   "file": "1878-10-21.md",
+   "date": "1878-10-21",
+   "paragraphs": [
+    {
+     "old": "083.0012"
+    },
+    {
+     "old": "083.0013"
+    }
+   ],
+   "_first_line": "# Lundi, 21 octobre 1878"
+  },
+  {
+   "file": "1878-10-22.md",
+   "date": "1878-10-22",
+   "paragraphs": [
+    {
+     "old": "083.0014"
+    },
+    {
+     "old": "083.0015"
+    },
+    {
+     "old": "083.0016"
+    }
+   ],
+   "_first_line": "# Mardi, 22 octobre 1878"
+  },
+  {
+   "file": "1878-10-23.md",
+   "date": "1878-10-23",
+   "paragraphs": [
+    {
+     "old": "083.0017"
+    },
+    {
+     "old": "083.0018"
+    },
+    {
+     "old": "083.0019"
+    },
+    {
+     "old": "083.0020"
+    },
+    {
+     "old": "083.0021"
+    },
+    {
+     "old": "083.0022"
+    }
+   ],
+   "_first_line": "# Mercredi, 23 octobre 1878"
+  },
+  {
+   "file": "1878-10-24.md",
+   "date": "1878-10-24",
+   "paragraphs": [
+    {
+     "old": "083.0023"
+    },
+    {
+     "old": "083.0024"
+    }
+   ],
+   "_first_line": "# Jeudi, 24 octobre 1878"
+  },
+  {
+   "file": "1878-10-25.md",
+   "date": "1878-10-25",
+   "paragraphs": [
+    {
+     "old": "083.0025"
+    },
+    {
+     "old": "083.0026"
+    },
+    {
+     "old": "083.0027"
+    },
+    {
+     "old": "083.0028"
+    },
+    {
+     "old": "083.0029"
+    },
+    {
+     "old": "083.0030"
+    },
+    {
+     "old": "083.0031"
+    },
+    {
+     "old": "083.0032"
+    },
+    {
+     "old": "083.0033"
+    },
+    {
+     "old": "083.0034"
+    },
+    {
+     "old": "083.0035"
+    },
+    {
+     "old": "083.0036"
+    },
+    {
+     "old": "083.0037"
+    },
+    {
+     "old": "083.0038"
+    },
+    {
+     "old": "083.0039"
+    },
+    {
+     "old": "083.0040"
+    }
+   ],
+   "_first_line": "# Vendredi, 25 octobre 1878"
+  },
+  {
+   "file": "1878-10-26.md",
+   "date": "1878-10-26",
+   "paragraphs": [
+    {
+     "old": "083.0041"
+    },
+    {
+     "old": "083.0042"
+    },
+    {
+     "old": "083.0043"
+    },
+    {
+     "old": "083.0044"
+    },
+    {
+     "old": "083.0045"
+    },
+    {
+     "old": "083.0046"
+    },
+    {
+     "old": "083.0047"
+    },
+    {
+     "old": "083.0048"
+    },
+    {
+     "old": "083.0049"
+    },
+    {
+     "old": "083.0050"
+    },
+    {
+     "old": "083.0051"
+    },
+    {
+     "old": "083.0052"
+    },
+    {
+     "old": "083.0053"
+    },
+    {
+     "old": "083.0054"
+    },
+    {
+     "old": "083.0055"
+    },
+    {
+     "old": "083.0056"
+    }
+   ],
+   "_first_line": "# Samedi, 26 octobre 1878"
+  },
+  {
+   "file": "1878-10-27.md",
+   "date": "1878-10-27",
+   "paragraphs": [
+    {
+     "old": "083.0057"
+    },
+    {
+     "old": "083.0058"
+    },
+    {
+     "old": "083.0059"
+    },
+    {
+     "old": "083.0060"
+    },
+    {
+     "old": "083.0061"
+    },
+    {
+     "old": "083.0062"
+    },
+    {
+     "old": "083.0063"
+    },
+    {
+     "old": "083.0064"
+    },
+    {
+     "old": "083.0065"
+    }
+   ],
+   "_first_line": "# Dimanche, 27 octobre 1878"
+  },
+  {
+   "file": "1878-10-28.md",
+   "date": "1878-10-28",
+   "paragraphs": [
+    {
+     "old": "083.0066"
+    },
+    {
+     "old": "083.0067"
+    }
+   ],
+   "_first_line": "# Lundi, 28 octobre 1878"
+  },
+  {
+   "file": "1878-10-29.md",
+   "date": "1878-10-29",
+   "paragraphs": [
+    {
+     "old": "083.0068"
+    },
+    {
+     "old": "083.0069"
+    },
+    {
+     "old": "083.0070"
+    },
+    {
+     "old": "083.0071"
+    },
+    {
+     "old": "083.0072"
+    }
+   ],
+   "_first_line": "# Mardi, 29 octobre 1878"
+  },
+  {
+   "file": "1878-10-30.md",
+   "date": "1878-10-30",
+   "paragraphs": [
+    {
+     "old": "083.0073"
+    },
+    {
+     "old": "083.0074"
+    },
+    {
+     "old": "083.0075"
+    },
+    {
+     "old": "083.0076"
+    },
+    {
+     "old": "083.0077"
+    },
+    {
+     "old": "083.0078"
+    },
+    {
+     "old": "083.0079"
+    }
+   ],
+   "_first_line": "# Mercredi, 30 octobre 1878"
+  },
+  {
+   "file": "1878-10-31.md",
+   "date": "1878-10-31",
+   "paragraphs": [
+    {
+     "old": "083.0080"
+    },
+    {
+     "old": "083.0081"
+    },
+    {
+     "old": "083.0082"
+    },
+    {
+     "old": "083.0083"
+    },
+    {
+     "old": "083.0084"
+    }
+   ],
+   "_first_line": "# Jeudi, 31 octobre 1878"
+  },
+  {
+   "file": "1878-11-01.md",
+   "date": "1878-11-01",
+   "paragraphs": [
+    {
+     "old": "083.0085"
+    },
+    {
+     "old": "083.0086"
+    }
+   ],
+   "_first_line": "# Vendredi, 1er novembre 1878"
+  },
+  {
+   "file": "1878-11-02.md",
+   "date": "1878-11-02",
+   "paragraphs": [
+    {
+     "old": "083.0087"
+    },
+    {
+     "old": "083.0088"
+    },
+    {
+     "old": "083.0089"
+    },
+    {
+     "old": "083.0090"
+    },
+    {
+     "old": "083.0091"
+    },
+    {
+     "old": "083.0092"
+    },
+    {
+     "old": "083.0093"
+    },
+    {
+     "old": "083.0094"
+    }
+   ],
+   "_first_line": "# Samedi, 2 novembre 1878"
+  },
+  {
+   "file": "1878-11-03.md",
+   "date": "1878-11-03",
+   "paragraphs": [
+    {
+     "old": "083.0095"
+    },
+    {
+     "old": "083.0096"
+    },
+    {
+     "old": "083.0097"
+    },
+    {
+     "old": "083.0098"
+    },
+    {
+     "old": "083.0099"
+    },
+    {
+     "old": "083.0100"
+    },
+    {
+     "old": "083.0101"
+    },
+    {
+     "old": "083.0102"
+    },
+    {
+     "old": "083.0103"
+    },
+    {
+     "old": "083.0104"
+    }
+   ],
+   "_first_line": "# Dimanche, 3 novembre 1878"
+  },
+  {
+   "file": "1878-11-04.md",
+   "date": "1878-11-04",
+   "paragraphs": [
+    {
+     "old": "083.0105"
+    },
+    {
+     "old": "083.0106"
+    },
+    {
+     "old": "083.0107"
+    },
+    {
+     "old": "083.0108"
+    }
+   ],
+   "_first_line": "# Lundi, 4 novembre 1878"
+  },
+  {
+   "file": "1878-11-05.md",
+   "date": "1878-11-05",
+   "paragraphs": [
+    {
+     "old": "083.0109"
+    },
+    {
+     "old": "083.0110"
+    },
+    {
+     "old": "083.0111"
+    },
+    {
+     "old": "083.0112"
+    },
+    {
+     "old": "083.0113"
+    },
+    {
+     "old": "083.0114"
+    },
+    {
+     "old": "083.0115"
+    },
+    {
+     "old": "083.0116"
+    },
+    {
+     "old": "083.0117"
+    },
+    {
+     "old": "083.0118"
+    },
+    {
+     "old": "083.0119"
+    },
+    {
+     "old": "083.0120"
+    },
+    {
+     "old": "083.0121"
+    },
+    {
+     "old": "083.0122"
+    },
+    {
+     "old": "083.0123"
+    },
+    {
+     "old": "083.0124"
+    }
+   ],
+   "_first_line": "# Mardi, 5 novembre 1878"
+  },
+  {
+   "file": "1878-11-06.md",
+   "date": "1878-11-06",
+   "paragraphs": [
+    {
+     "old": "083.0125"
+    },
+    {
+     "old": "083.0126"
+    },
+    {
+     "old": "083.0127"
+    },
+    {
+     "old": "083.0128"
+    },
+    {
+     "old": "083.0129"
+    },
+    {
+     "old": "083.0130"
+    },
+    {
+     "old": "083.0131"
+    }
+   ],
+   "_first_line": "# Mercredi, 6 novembre 1878"
+  },
+  {
+   "file": "1878-11-07.md",
+   "date": "1878-11-07",
+   "paragraphs": [
+    {
+     "old": "083.0132"
+    }
+   ],
+   "_first_line": "# Jeudi 7 novembre 1878"
+  },
+  {
+   "file": "1878-11-08.md",
+   "date": "1878-11-08",
+   "paragraphs": [
+    {
+     "old": "083.0133"
+    },
+    {
+     "old": "083.0134"
+    },
+    {
+     "old": "083.0135"
+    },
+    {
+     "old": "083.0136"
+    },
+    {
+     "old": "083.0137"
+    },
+    {
+     "old": "083.0138"
+    },
+    {
+     "old": "083.0139"
+    },
+    {
+     "old": "083.0140"
+    },
+    {
+     "old": "083.0141"
+    },
+    {
+     "old": "083.0142"
+    }
+   ],
+   "_first_line": "# Vendredi, 8 novembre 1878"
+  },
+  {
+   "file": "1878-11-09.md",
+   "date": "1878-11-09",
+   "paragraphs": [
+    {
+     "old": "083.0143"
+    },
+    {
+     "old": "083.0144"
+    },
+    {
+     "old": "083.0145"
+    },
+    {
+     "old": "083.0146"
+    },
+    {
+     "old": "083.0147"
+    },
+    {
+     "old": "083.0148"
+    },
+    {
+     "old": "083.0149"
+    },
+    {
+     "old": "083.0150"
+    },
+    {
+     "old": "083.0151"
+    },
+    {
+     "old": "083.0152"
+    },
+    {
+     "old": "083.0153"
+    },
+    {
+     "old": "083.0154"
+    },
+    {
+     "old": "083.0155"
+    },
+    {
+     "old": "083.0156"
+    },
+    {
+     "old": "083.0157"
+    },
+    {
+     "old": "083.0158"
+    },
+    {
+     "old": "083.0159"
+    },
+    {
+     "old": "083.0160"
+    }
+   ],
+   "_first_line": "# Samedi, 9 novembre 1878"
+  },
+  {
+   "file": "1878-11-10.md",
+   "date": "1878-11-10",
+   "paragraphs": [
+    {
+     "old": "083.0161"
+    },
+    {
+     "old": "083.0162"
+    },
+    {
+     "old": "083.0163"
+    },
+    {
+     "old": "083.0164"
+    },
+    {
+     "old": "083.0165"
+    },
+    {
+     "old": "083.0166"
+    },
+    {
+     "old": "083.0167"
+    },
+    {
+     "old": "083.0168"
+    },
+    {
+     "old": "083.0169"
+    }
+   ],
+   "_first_line": "# Dimanche, 10 novembre 1878"
+  },
+  {
+   "file": "1878-11-11.md",
+   "date": "1878-11-11",
+   "paragraphs": [
+    {
+     "old": "083.0170"
+    }
+   ],
+   "_first_line": "# Lundi 11 novembre 1878"
+  },
+  {
+   "file": "1878-11-12.md",
+   "date": "1878-11-12",
+   "paragraphs": [
+    {
+     "old": "083.0171"
+    },
+    {
+     "old": "083.0172"
+    },
+    {
+     "old": "083.0173"
+    },
+    {
+     "old": "083.0174"
+    },
+    {
+     "old": "083.0175"
+    },
+    {
+     "old": "083.0176",
+     "set_french": "[Rayé : - C'est curieux, c'est] étonnant, disait-il."
+    },
+    {
+     "new": {
+      "french": "- Quelle tête hein ?",
+      "rsr": "Split (paragraph wave): print paragraph 2 of 9 of 083.0176, which held 9 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+     }
+    },
+    {
+     "new": {
+      "french": "- La plus [Rayé : remarquable] qu'on puisse voir. Que de choses il a vues cet homme ! Que de choses dans ces yeux enfoncés, dans ces sourcils, dans ce petit front ! Et ce nez camard et cette tête carrée. C'est étonnant, c'est curieux. Ces larges épaules herculéennes.",
+      "rsr": "Split (paragraph wave): print paragraph 3 of 9 of 083.0176, which held 9 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+     }
+    },
+    {
+     "new": {
+      "french": "- N'est-ce pas.",
+      "rsr": "Split (paragraph wave): print paragraph 4 of 9 of 083.0176, which held 9 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Allez ! c'est un homme qui dans son genre est un des plus remarquables. Je l'ai connu dans des temps bien difficiles, il était bien vilipendé, bien...",
+      "rsr": "Split (paragraph wave): print paragraph 5 of 9 of 083.0176, which held 9 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+     }
+    },
+    {
+     "new": {
+      "french": "- C'est une bête ignoble, dis-je.",
+      "rsr": "Split (paragraph wave): print paragraph 6 of 9 of 083.0176, which held 9 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Le fils était là et quand on passait sur le boulevard... Ah ! c'était pénible, allez, il avait plusieurs affaires sur les bras à cause de:",
+      "rsr": "Split (paragraph wave): print paragraph 7 of 9 of 083.0176, which held 9 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+     }
+    },
+    {
+     "new": {
+      "french": "- Il y a toujours quelque vilenie à défendre.",
+      "rsr": "Split (paragraph wave): print paragraph 8 of 9 of 083.0176, which held 9 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+     }
+    },
+    {
+     "new": {
+      "french": "- C'est vrai; un littérateur a dit que parmi cinq cents personnes cette tête attirait infailliblement le regard et le ramenait sans cesse à elle.",
+      "rsr": "Split (paragraph wave): print paragraph 9 of 9 of 083.0176, which held 9 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+     }
+    },
+    {
+     "old": "083.0177"
+    },
+    {
+     "old": "083.0178"
+    },
+    {
+     "old": "083.0179"
+    }
+   ],
+   "_first_line": "# Mardi, 12 novembre 1878"
+  },
+  {
+   "file": "1878-11-13.md",
+   "date": "1878-11-13",
+   "paragraphs": [
+    {
+     "old": "083.0180"
+    },
+    {
+     "old": "083.0181"
+    },
+    {
+     "old": "083.0182"
+    },
+    {
+     "old": "083.0183"
+    }
+   ],
+   "_first_line": "# Mercredi, 13 novembre 1878"
+  },
+  {
+   "file": "1878-11-14.md",
+   "date": "1878-11-14",
+   "paragraphs": [
+    {
+     "old": "083.0184"
+    }
+   ],
+   "_first_line": "# Jeudi 14 novembre 1878"
+  },
+  {
+   "file": "1878-11-15.md",
+   "date": "1878-11-15",
+   "paragraphs": [
+    {
+     "old": "083.0185"
+    }
+   ],
+   "_first_line": "# Vendredi 15 novembre 1878"
+  },
+  {
+   "file": "1878-11-16.md",
+   "date": "1878-11-16",
+   "paragraphs": [
+    {
+     "old": "083.0186"
+    },
+    {
+     "old": "083.0187"
+    },
+    {
+     "old": "083.0188"
+    },
+    {
+     "old": "083.0189"
+    },
+    {
+     "old": "083.0190"
+    },
+    {
+     "old": "083.0191"
+    },
+    {
+     "old": "083.0192"
+    },
+    {
+     "old": "083.0193"
+    },
+    {
+     "old": "083.0194"
+    },
+    {
+     "old": "083.0195"
+    },
+    {
+     "old": "083.0196"
+    }
+   ],
+   "_first_line": "# Samedi, 16 novembre 1878"
+  },
+  {
+   "file": "1878-11-17.md",
+   "date": "1878-11-17",
+   "paragraphs": [
+    {
+     "old": "083.0197"
+    },
+    {
+     "old": "083.0198"
+    }
+   ],
+   "_first_line": "# Dimanche, 17 novembre 1878"
+  },
+  {
+   "file": "1878-11-18.md",
+   "date": "1878-11-18",
+   "paragraphs": [
+    {
+     "old": "083.0199"
+    },
+    {
+     "old": "083.0200"
+    },
+    {
+     "old": "083.0201"
+    },
+    {
+     "old": "083.0202"
+    },
+    {
+     "old": "083.0203"
+    },
+    {
+     "old": "083.0204"
+    },
+    {
+     "old": "083.0205"
+    },
+    {
+     "old": "083.0206"
+    },
+    {
+     "old": "083.0207"
+    },
+    {
+     "old": "083.0208"
+    },
+    {
+     "old": "083.0209"
+    },
+    {
+     "old": "083.0210"
+    },
+    {
+     "old": "083.0211"
+    },
+    {
+     "old": "083.0212"
+    },
+    {
+     "old": "083.0213"
+    },
+    {
+     "old": "083.0214"
+    },
+    {
+     "old": "083.0215"
+    }
+   ],
+   "_first_line": "# Lundi, 18 novembre 1878"
+  },
+  {
+   "file": "1878-11-19.md",
+   "date": "1878-11-19",
+   "paragraphs": [
+    {
+     "old": "083.0216"
+    }
+   ],
+   "_first_line": "# Mardi 19 novembre 1878"
+  },
+  {
+   "file": "1878-11-20.md",
+   "date": "1878-11-20",
+   "paragraphs": [
+    {
+     "old": "083.0217"
+    },
+    {
+     "old": "083.0218"
+    },
+    {
+     "old": "083.0219"
+    },
+    {
+     "old": "083.0220"
+    },
+    {
+     "old": "083.0221"
+    },
+    {
+     "old": "083.0222"
+    }
+   ],
+   "_first_line": "# Mercredi, 20 novembre 1878"
+  },
+  {
+   "file": "1878-11-21.md",
+   "date": "1878-11-21",
+   "paragraphs": [
+    {
+     "old": "083.0223"
+    },
+    {
+     "old": "083.0224"
+    },
+    {
+     "old": "083.0225"
+    },
+    {
+     "old": "083.0226"
+    },
+    {
+     "old": "083.0227"
+    },
+    {
+     "old": "083.0228"
+    },
+    {
+     "old": "083.0229"
+    },
+    {
+     "old": "083.0230"
+    },
+    {
+     "old": "083.0231"
+    }
+   ],
+   "_first_line": "# Jeudi, 21 novembre 1878"
+  },
+  {
+   "file": "1878-11-22.md",
+   "date": "1878-11-22",
+   "paragraphs": [
+    {
+     "old": "083.0232"
+    },
+    {
+     "old": "083.0233"
+    },
+    {
+     "old": "083.0234"
+    },
+    {
+     "old": "083.0235"
+    },
+    {
+     "old": "083.0236"
+    },
+    {
+     "old": "083.0237"
+    },
+    {
+     "old": "083.0238"
+    }
+   ],
+   "_first_line": "# Vendredi, 22 novembre 1878"
+  },
+  {
+   "file": "1878-11-23.md",
+   "date": "1878-11-23",
+   "paragraphs": [
+    {
+     "old": "083.0239"
+    },
+    {
+     "old": "083.0240"
+    },
+    {
+     "old": "083.0241"
+    },
+    {
+     "old": "083.0242"
+    },
+    {
+     "old": "083.0243"
+    },
+    {
+     "old": "083.0244"
+    },
+    {
+     "old": "083.0245"
+    },
+    {
+     "old": "083.0246"
+    },
+    {
+     "old": "083.0247"
+    }
+   ],
+   "_first_line": "# Samedi, 23 novembre 1878"
+  },
+  {
+   "file": "1878-11-24.md",
+   "date": "1878-11-24",
+   "paragraphs": [
+    {
+     "old": "083.0248"
+    },
+    {
+     "old": "083.0249"
+    },
+    {
+     "old": "083.0250"
+    },
+    {
+     "old": "083.0251"
+    },
+    {
+     "old": "083.0252"
+    },
+    {
+     "old": "083.0253"
+    },
+    {
+     "old": "083.0254"
+    },
+    {
+     "old": "083.0255"
+    },
+    {
+     "old": "083.0256"
+    },
+    {
+     "old": "083.0257"
+    }
+   ],
+   "_first_line": "# Dimanche, 24 novembre 1878"
+  },
+  {
+   "file": "1878-11-25.md",
+   "date": "1878-11-25",
+   "paragraphs": [
+    {
+     "old": "083.0258"
+    },
+    {
+     "old": "083.0259"
+    },
+    {
+     "old": "083.0260"
+    },
+    {
+     "old": "083.0261"
+    }
+   ],
+   "_first_line": "# Lundi, 25 novembre 1878"
+  },
+  {
+   "file": "1878-11-26.md",
+   "date": "1878-11-26",
+   "paragraphs": [
+    {
+     "old": "083.0262"
+    },
+    {
+     "old": "083.0263"
+    },
+    {
+     "old": "083.0264"
+    },
+    {
+     "old": "083.0265"
+    },
+    {
+     "old": "083.0266"
+    },
+    {
+     "old": "083.0267"
+    },
+    {
+     "old": "083.0268"
+    }
+   ],
+   "_first_line": "# Mardi, 26 novembre 1878"
+  },
+  {
+   "file": "1878-11-27.md",
+   "date": "1878-11-27",
+   "paragraphs": [
+    {
+     "old": "083.0269"
+    },
+    {
+     "old": "083.0270"
+    },
+    {
+     "old": "083.0271"
+    },
+    {
+     "old": "083.0272"
+    },
+    {
+     "old": "083.0273"
+    },
+    {
+     "old": "083.0274"
+    }
+   ],
+   "_first_line": "# Mercredi, 27 novembre 1878"
+  },
+  {
+   "file": "1878-11-28.md",
+   "date": "1878-11-28",
+   "paragraphs": [
+    {
+     "old": "083.0275"
+    },
+    {
+     "old": "083.0276"
+    },
+    {
+     "old": "083.0277"
+    },
+    {
+     "old": "083.0278"
+    },
+    {
+     "old": "083.0279"
+    },
+    {
+     "old": "083.0280"
+    }
+   ],
+   "_first_line": "# Jeudi, 28 novembre 1878"
+  },
+  {
+   "file": "1878-11-29.md",
+   "date": "1878-11-29",
+   "paragraphs": [
+    {
+     "old": "083.0281"
+    },
+    {
+     "old": "083.0282"
+    },
+    {
+     "old": "083.0283"
+    },
+    {
+     "old": "083.0284"
+    },
+    {
+     "old": "083.0285"
+    },
+    {
+     "old": "083.0286"
+    },
+    {
+     "old": "083.0287"
+    },
+    {
+     "old": "083.0288"
+    },
+    {
+     "old": "083.0289"
+    },
+    {
+     "old": "083.0290"
+    },
+    {
+     "old": "083.0291"
+    },
+    {
+     "old": "083.0292"
+    },
+    {
+     "old": "083.0293"
+    },
+    {
+     "old": "083.0294"
+    },
+    {
+     "old": "083.0295"
+    },
+    {
+     "old": "083.0296"
+    },
+    {
+     "old": "083.0297"
+    },
+    {
+     "old": "083.0298"
+    },
+    {
+     "old": "083.0299"
+    },
+    {
+     "old": "083.0300"
+    },
+    {
+     "old": "083.0301"
+    },
+    {
+     "old": "083.0302"
+    }
+   ],
+   "_first_line": "# Vendredi, 29 novembre 1878"
+  },
+  {
+   "file": "1878-11-30.md",
+   "date": "1878-11-30",
+   "paragraphs": [
+    {
+     "old": "083.0303"
+    },
+    {
+     "old": "083.0304"
+    },
+    {
+     "old": "083.0305"
+    },
+    {
+     "old": "083.0306"
+    },
+    {
+     "old": "083.0307"
+    },
+    {
+     "old": "083.0308"
+    },
+    {
+     "old": "083.0309"
+    },
+    {
+     "old": "083.0310"
+    },
+    {
+     "old": "083.0311"
+    },
+    {
+     "old": "083.0312"
+    },
+    {
+     "old": "083.0313"
+    },
+    {
+     "old": "083.0314"
+    },
+    {
+     "old": "083.0315"
+    },
+    {
+     "old": "083.0316"
+    },
+    {
+     "old": "083.0317"
+    },
+    {
+     "old": "083.0318"
+    },
+    {
+     "old": "083.0319"
+    },
+    {
+     "old": "083.0320"
+    },
+    {
+     "old": "083.0321"
+    },
+    {
+     "old": "083.0322"
+    },
+    {
+     "old": "083.0323"
+    },
+    {
+     "old": "083.0324"
+    },
+    {
+     "old": "083.0325"
+    },
+    {
+     "old": "083.0326"
+    },
+    {
+     "old": "083.0327"
+    },
+    {
+     "old": "083.0328"
+    },
+    {
+     "old": "083.0329"
+    },
+    {
+     "old": "083.0330"
+    }
+   ],
+   "_first_line": "# Samedi, 30 novembre 1878"
+  },
+  {
+   "file": "1878-12-01.md",
+   "date": "1878-12-01",
+   "paragraphs": [
+    {
+     "old": "083.0331"
+    },
+    {
+     "old": "083.0332"
+    },
+    {
+     "old": "083.0333"
+    },
+    {
+     "old": "083.0334"
+    },
+    {
+     "old": "083.0335"
+    },
+    {
+     "old": "083.0336"
+    }
+   ],
+   "_first_line": "# Dimanche, 1er décembre 1878"
+  },
+  {
+   "file": "1878-12-02.md",
+   "date": "1878-12-02",
+   "paragraphs": [
+    {
+     "old": "083.0337"
+    }
+   ],
+   "_first_line": "# Lundi 2 décembre 1878"
+  },
+  {
+   "file": "1878-12-03.md",
+   "date": "1878-12-03",
+   "paragraphs": [
+    {
+     "old": "083.0338"
+    },
+    {
+     "old": "083.0339"
+    },
+    {
+     "old": "083.0340"
+    }
+   ],
+   "_first_line": "# Mardi, 3 décembre 1878"
+  },
+  {
+   "file": "1878-12-04.md",
+   "date": "1878-12-04",
+   "paragraphs": [
+    {
+     "old": "083.0341"
+    },
+    {
+     "old": "083.0342"
+    },
+    {
+     "old": "083.0343"
+    },
+    {
+     "old": "083.0344"
+    }
+   ],
+   "_first_line": "# Mercredi, 4 décembre 1878"
+  },
+  {
+   "file": "1878-12-05.md",
+   "date": "1878-12-05",
+   "paragraphs": [
+    {
+     "old": "083.0345"
+    },
+    {
+     "old": "083.0346"
+    },
+    {
+     "old": "083.0347"
+    }
+   ],
+   "_first_line": "# Jeudi, 5 décembre 1878"
+  },
+  {
+   "file": "1878-12-06.md",
+   "date": "1878-12-06",
+   "paragraphs": [
+    {
+     "old": "083.0348"
+    },
+    {
+     "old": "083.0349"
+    },
+    {
+     "old": "083.0350"
+    },
+    {
+     "old": "083.0351"
+    }
+   ],
+   "_first_line": "# Vendredi, 6 décembre 1878"
+  },
+  {
+   "file": "1878-12-07.md",
+   "date": "1878-12-07",
+   "paragraphs": [
+    {
+     "old": "083.0352"
+    },
+    {
+     "old": "083.0353"
+    },
+    {
+     "old": "083.0354"
+    },
+    {
+     "old": "083.0355"
+    },
+    {
+     "old": "083.0356"
+    },
+    {
+     "old": "083.0357"
+    },
+    {
+     "old": "083.0358"
+    }
+   ],
+   "_first_line": "# Samedi, 7 décembre 1878"
+  },
+  {
+   "file": "1878-12-08.md",
+   "date": "1878-12-08",
+   "paragraphs": [
+    {
+     "old": "083.0359"
+    },
+    {
+     "old": "083.0360"
+    },
+    {
+     "old": "083.0361"
+    },
+    {
+     "old": "083.0362"
+    }
+   ],
+   "_first_line": "# Dimanche, 8 décembre 1878"
+  },
+  {
+   "file": "1878-12-09.md",
+   "date": "1878-12-09",
+   "paragraphs": [
+    {
+     "old": "083.0363"
+    }
+   ],
+   "_first_line": "# Lundi 9 décembre 1878"
+  },
+  {
+   "file": "1878-12-10.md",
+   "date": "1878-12-10",
+   "paragraphs": [
+    {
+     "old": "083.0364"
+    },
+    {
+     "old": "083.0365"
+    },
+    {
+     "old": "083.0366"
+    },
+    {
+     "old": "083.0367"
+    },
+    {
+     "old": "083.0368"
+    },
+    {
+     "old": "083.0369"
+    },
+    {
+     "old": "083.0370"
+    }
+   ],
+   "_first_line": "# Mardi, 10 décembre 1878"
+  },
+  {
+   "file": "1878-12-11.md",
+   "date": "1878-12-11",
+   "paragraphs": [
+    {
+     "old": "083.0371"
+    },
+    {
+     "old": "083.0372"
+    },
+    {
+     "old": "083.0373"
+    },
+    {
+     "old": "083.0374"
+    }
+   ],
+   "_first_line": "# Mercredi, 11 décembre 1878"
+  },
+  {
+   "file": "1878-12-12.md",
+   "date": "1878-12-12",
+   "paragraphs": [
+    {
+     "old": "083.0375"
+    },
+    {
+     "old": "083.0376"
+    },
+    {
+     "old": "083.0377"
+    },
+    {
+     "old": "083.0378"
+    }
+   ],
+   "_first_line": "# Jeudi, 12 décembre 1878"
+  },
+  {
+   "file": "1878-12-13.md",
+   "date": "1878-12-13",
+   "paragraphs": [
+    {
+     "old": "083.0379"
+    }
+   ],
+   "_first_line": "# Vendredi 13 décembre 1878"
+  },
+  {
+   "file": "1878-12-14.md",
+   "date": "1878-12-14",
+   "paragraphs": [
+    {
+     "old": "083.0380"
+    },
+    {
+     "old": "083.0381"
+    },
+    {
+     "old": "083.0382"
+    },
+    {
+     "old": "083.0383"
+    },
+    {
+     "old": "083.0384"
+    },
+    {
+     "old": "083.0385"
+    },
+    {
+     "old": "083.0386"
+    },
+    {
+     "old": "083.0387"
+    },
+    {
+     "old": "083.0388"
+    },
+    {
+     "old": "083.0389"
+    }
+   ],
+   "_first_line": "# Samedi, 14 décembre 1878"
+  },
+  {
+   "file": "1878-12-15.md",
+   "date": "1878-12-15",
+   "paragraphs": [
+    {
+     "old": "083.0390"
+    },
+    {
+     "old": "083.0391"
+    }
+   ],
+   "_first_line": "# Dimanche, 15 décembre 1878"
+  },
+  {
+   "file": "1878-12-16.md",
+   "date": "1878-12-16",
+   "paragraphs": [
+    {
+     "old": "083.0392"
+    },
+    {
+     "old": "083.0393"
+    }
+   ],
+   "_first_line": "# Lundi, 16 décembre 1878"
+  },
+  {
+   "file": "1878-12-17.md",
+   "date": "1878-12-17",
+   "paragraphs": [
+    {
+     "old": "083.0394"
+    },
+    {
+     "old": "083.0395"
+    },
+    {
+     "old": "083.0396"
+    },
+    {
+     "old": "083.0397"
+    }
+   ],
+   "_first_line": "# Mardi, 17 décembre 1878"
+  },
+  {
+   "file": "1878-12-18.md",
+   "date": "1878-12-18",
+   "paragraphs": [
+    {
+     "old": "083.0398"
+    }
+   ],
+   "_first_line": "# Mercredi 18 décembre 1878"
+  },
+  {
+   "file": "1878-12-19.md",
+   "date": "1878-12-19",
+   "paragraphs": [
+    {
+     "old": "083.0399"
+    },
+    {
+     "old": "083.0400"
+    },
+    {
+     "old": "083.0401"
+    }
+   ],
+   "_first_line": "# Jeudi, 19 décembre 1878"
+  },
+  {
+   "file": "1878-12-20.md",
+   "date": "1878-12-20",
+   "paragraphs": [
+    {
+     "old": "083.0402"
+    }
+   ],
+   "_first_line": "# Vendredi 20 décembre 1878"
+  },
+  {
+   "file": "1878-12-21.md",
+   "date": "1878-12-21",
+   "paragraphs": [
+    {
+     "old": "083.0403"
+    },
+    {
+     "old": "083.0404"
+    },
+    {
+     "old": "083.0405"
+    },
+    {
+     "old": "083.0406"
+    },
+    {
+     "old": "083.0407"
+    },
+    {
+     "old": "083.0408"
+    },
+    {
+     "old": "083.0409"
+    },
+    {
+     "old": "083.0410"
+    },
+    {
+     "old": "083.0411"
+    },
+    {
+     "old": "083.0412"
+    },
+    {
+     "old": "083.0413"
+    },
+    {
+     "old": "083.0414"
+    },
+    {
+     "old": "083.0415"
+    },
+    {
+     "old": "083.0416"
+    },
+    {
+     "old": "083.0417"
+    },
+    {
+     "old": "083.0418"
+    },
+    {
+     "old": "083.0419"
+    }
+   ],
+   "_first_line": "# Samedi, 21 décembre 1878"
+  },
+  {
+   "file": "1878-12-22.md",
+   "date": "1878-12-22",
+   "paragraphs": [
+    {
+     "old": "083.0420"
+    },
+    {
+     "old": "083.0421"
+    },
+    {
+     "old": "083.0422"
+    }
+   ],
+   "_first_line": "# Dimanche, 22 décembre 1878"
+  },
+  {
+   "file": "1878-12-23.md",
+   "date": "1878-12-23",
+   "paragraphs": [
+    {
+     "old": "083.0423"
+    },
+    {
+     "old": "083.0424"
+    },
+    {
+     "old": "083.0425"
+    }
+   ],
+   "_first_line": "# Lundi, 23 décembre 1878"
+  },
+  {
+   "file": "1878-12-24.md",
+   "date": "1878-12-24",
+   "paragraphs": [
+    {
+     "old": "083.0426"
+    },
+    {
+     "old": "083.0427"
+    },
+    {
+     "old": "083.0428"
+    },
+    {
+     "old": "083.0429"
+    },
+    {
+     "old": "083.0430"
+    },
+    {
+     "old": "083.0431"
+    },
+    {
+     "old": "083.0432"
+    },
+    {
+     "old": "083.0433"
+    },
+    {
+     "old": "083.0434"
+    },
+    {
+     "old": "083.0435"
+    },
+    {
+     "old": "083.0436"
+    },
+    {
+     "old": "083.0437"
+    },
+    {
+     "old": "083.0438"
+    },
+    {
+     "old": "083.0439"
+    },
+    {
+     "old": "083.0440"
+    },
+    {
+     "old": "083.0441"
+    },
+    {
+     "old": "083.0442",
+     "set_french": "C'est bête, mais c'est toujours ça. Je ne prendrais pas d'argent et que peut-on avoir de convenable comme cadeau pour ce prix, si ce n'est un éventail ou une bonbonnière. La bonbonnière est le plus inutile des objets, c'est pour cela que j'accepte"
+    },
+    {
+     "new": {
+      "french": "D'ailleurs j'ai fait semblant d'ignorer et de croire que c'est pour maman.",
+      "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 083.0442, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+     }
+    },
+    {
+     "old": "083.0443"
+    },
+    {
+     "old": "083.0444"
+    },
+    {
+     "old": "083.0445"
+    },
+    {
+     "old": "083.0446"
+    },
+    {
+     "old": "083.0447"
+    },
+    {
+     "old": "083.0448"
+    },
+    {
+     "old": "083.0449"
+    },
+    {
+     "old": "083.0450"
+    },
+    {
+     "old": "083.0451"
+    }
+   ],
+   "_first_line": "# Mardi, 24 décembre 1878"
+  },
+  {
+   "file": "1878-12-25.md",
+   "date": "1878-12-25",
+   "paragraphs": [
+    {
+     "old": "083.0452"
+    },
+    {
+     "old": "083.0453"
+    },
+    {
+     "old": "083.0454"
+    },
+    {
+     "old": "083.0455"
+    },
+    {
+     "old": "083.0456"
+    },
+    {
+     "old": "083.0457"
+    },
+    {
+     "old": "083.0458"
+    },
+    {
+     "old": "083.0459"
+    },
+    {
+     "old": "083.0460"
+    },
+    {
+     "old": "083.0461"
+    },
+    {
+     "old": "083.0462"
+    },
+    {
+     "old": "083.0463"
+    },
+    {
+     "old": "083.0464"
+    },
+    {
+     "old": "083.0465"
+    },
+    {
+     "old": "083.0466"
+    },
+    {
+     "old": "083.0467"
+    },
+    {
+     "old": "083.0468"
+    },
+    {
+     "old": "083.0469"
+    },
+    {
+     "old": "083.0470"
+    }
+   ],
+   "_first_line": "# Mercredi 25 décembre 1878 - Noël"
+  },
+  {
+   "file": "1878-12-26.md",
+   "date": "1878-12-26",
+   "paragraphs": [
+    {
+     "old": "083.0471"
+    },
+    {
+     "old": "083.0472"
+    },
+    {
+     "old": "083.0473"
+    }
+   ],
+   "_first_line": "# Jeudi, 26 décembre 1878"
+  },
+  {
+   "file": "1878-12-27.md",
+   "date": "1878-12-27",
+   "paragraphs": [
+    {
+     "old": "083.0474"
+    },
+    {
+     "old": "083.0475"
+    },
+    {
+     "old": "083.0476"
+    },
+    {
+     "old": "083.0477"
+    },
+    {
+     "old": "083.0478"
+    },
+    {
+     "old": "083.0479"
+    },
+    {
+     "old": "083.0480"
+    },
+    {
+     "old": "083.0481"
+    }
+   ],
+   "_first_line": "# Vendredi, 27 décembre 1878"
+  },
+  {
+   "file": "1878-12-28.md",
+   "date": "1878-12-28",
+   "paragraphs": [
+    {
+     "old": "083.0482"
+    },
+    {
+     "old": "083.0483"
+    }
+   ],
+   "_first_line": "# Samedi, 28 décembre 1878"
+  },
+  {
+   "file": "1878-12-29.md",
+   "date": "1878-12-29",
+   "paragraphs": [
+    {
+     "old": "083.0484"
+    },
+    {
+     "old": "083.0485"
+    },
+    {
+     "old": "083.0486"
+    },
+    {
+     "old": "083.0487"
+    },
+    {
+     "old": "083.0488"
+    },
+    {
+     "old": "083.0489"
+    },
+    {
+     "old": "083.0490"
+    },
+    {
+     "old": "083.0491"
+    },
+    {
+     "old": "083.0492"
+    },
+    {
+     "old": "083.0493"
+    },
+    {
+     "old": "083.0494"
+    },
+    {
+     "old": "083.0495"
+    },
+    {
+     "old": "083.0496"
+    },
+    {
+     "old": "083.0497"
+    },
+    {
+     "old": "083.0498"
+    },
+    {
+     "old": "083.0499"
+    },
+    {
+     "old": "083.0500"
+    },
+    {
+     "old": "083.0501"
+    },
+    {
+     "old": "083.0502"
+    }
+   ],
+   "_first_line": "# Dimanche, 29 décembre 1878"
+  },
+  {
+   "file": "1878-12-30.md",
+   "date": "1878-12-30",
+   "paragraphs": [
+    {
+     "old": "083.0503"
+    },
+    {
+     "old": "083.0504"
+    },
+    {
+     "old": "083.0505"
+    },
+    {
+     "old": "083.0506"
+    },
+    {
+     "old": "083.0507"
+    },
+    {
+     "old": "083.0508"
+    }
+   ],
+   "_first_line": "# Lundi, 30 décembre 1878"
+  },
+  {
+   "file": "1878-12-31.md",
+   "date": "1878-12-31",
+   "paragraphs": [
+    {
+     "old": "083.0509"
+    },
+    {
+     "old": "083.0510"
+    },
+    {
+     "old": "083.0511"
+    },
+    {
+     "old": "083.0512"
+    },
+    {
+     "old": "083.0513"
+    },
+    {
+     "old": "083.0514"
+    },
+    {
+     "old": "083.0515"
+    },
+    {
+     "old": "083.0516"
+    },
+    {
+     "old": "083.0517"
+    },
+    {
+     "old": "083.0518"
+    }
+   ],
+   "_first_line": "# Mardi, 31 décembre 1878"
+  },
+  {
+   "file": "1879-01-01.md",
+   "date": "1879-01-01",
+   "paragraphs": [
+    {
+     "old": "083.0519"
+    },
+    {
+     "old": "083.0520"
+    },
+    {
+     "old": "083.0521"
+    },
+    {
+     "old": "083.0522"
+    },
+    {
+     "old": "083.0523"
+    },
+    {
+     "old": "083.0524"
+    },
+    {
+     "old": "083.0525"
+    }
+   ],
+   "_first_line": "# Mercredi, 1er janvier 1879"
+  },
+  {
+   "file": "1879-01-02.md",
+   "date": "1879-01-02",
+   "paragraphs": [
+    {
+     "old": "083.0526"
+    },
+    {
+     "old": "083.0527"
+    },
+    {
+     "old": "083.0528"
+    },
+    {
+     "old": "083.0529"
+    },
+    {
+     "old": "083.0530"
+    },
+    {
+     "old": "083.0531"
+    },
+    {
+     "old": "083.0532"
+    },
+    {
+     "old": "083.0533"
+    },
+    {
+     "old": "083.0534"
+    },
+    {
+     "old": "083.0535"
+    },
+    {
+     "old": "083.0536"
+    },
+    {
+     "old": "083.0537"
+    }
+   ],
+   "_first_line": "# Jeudi, 2 janvier 1879"
+  },
+  {
+   "file": "1879-01-03.md",
+   "date": "1879-01-03",
+   "paragraphs": [
+    {
+     "old": "083.0538"
+    },
+    {
+     "old": "083.0539"
+    }
+   ],
+   "_first_line": "# Vendredi, 3 janvier 1879"
+  },
+  {
+   "file": "1879-01-04.md",
+   "date": "1879-01-04",
+   "paragraphs": [
+    {
+     "old": "083.0540"
+    },
+    {
+     "old": "083.0541"
+    },
+    {
+     "old": "083.0542"
+    },
+    {
+     "old": "083.0543"
+    },
+    {
+     "old": "083.0544"
+    }
+   ],
+   "_first_line": "# Samedi, 4 janvier 1879"
+  },
+  {
+   "file": "1879-01-05.md",
+   "date": "1879-01-05",
+   "paragraphs": [
+    {
+     "old": "083.0545"
+    },
+    {
+     "old": "083.0546"
+    },
+    {
+     "old": "083.0547"
+    },
+    {
+     "old": "083.0548"
+    },
+    {
+     "old": "083.0549"
+    },
+    {
+     "old": "083.0550"
+    }
+   ],
+   "_first_line": "# Dimanche, 5 janvier 1879"
+  },
+  {
+   "file": "1879-01-06.md",
+   "date": "1879-01-06",
+   "paragraphs": [
+    {
+     "old": "083.0551"
+    },
+    {
+     "old": "083.0552"
+    },
+    {
+     "old": "083.0553"
+    },
+    {
+     "old": "083.0554"
+    },
+    {
+     "old": "083.0555"
+    },
+    {
+     "old": "083.0556"
+    },
+    {
+     "old": "083.0557"
+    }
+   ],
+   "_first_line": "# Lundi, 6 janvier 1879"
+  },
+  {
+   "file": "1879-01-07.md",
+   "date": "1879-01-07",
+   "paragraphs": [
+    {
+     "old": "083.0558"
+    }
+   ],
+   "_first_line": "# Mardi 7 janvier 1879"
+  },
+  {
+   "file": "1879-01-08.md",
+   "date": "1879-01-08",
+   "paragraphs": [
+    {
+     "old": "083.0559"
+    },
+    {
+     "old": "083.0560"
+    },
+    {
+     "old": "083.0561"
+    },
+    {
+     "old": "083.0562"
+    },
+    {
+     "old": "083.0563"
+    }
+   ],
+   "_first_line": "# Mercredi, 8 janvier 1879"
+  },
+  {
+   "file": "1879-01-09.md",
+   "date": "1879-01-09",
+   "paragraphs": [
+    {
+     "old": "083.0564"
+    },
+    {
+     "old": "083.0565"
+    },
+    {
+     "old": "083.0566"
+    },
+    {
+     "old": "083.0567"
+    },
+    {
+     "old": "083.0568"
+    }
+   ],
+   "_first_line": "# Jeudi, 9 janvier 1879"
+  },
+  {
+   "file": "1879-01-10.md",
+   "date": "1879-01-10",
+   "paragraphs": [
+    {
+     "old": "083.0569"
+    },
+    {
+     "old": "083.0570"
+    },
+    {
+     "old": "083.0571"
+    },
+    {
+     "old": "083.0572"
+    },
+    {
+     "old": "083.0573"
+    },
+    {
+     "old": "083.0574"
+    },
+    {
+     "old": "083.0575"
+    },
+    {
+     "old": "083.0576"
+    },
+    {
+     "old": "083.0577"
+    },
+    {
+     "old": "083.0578"
+    }
+   ],
+   "_first_line": "# Vendredi, 10 janvier 1879"
+  }
+ ]
+}

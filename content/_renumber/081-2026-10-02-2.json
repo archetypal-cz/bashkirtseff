@@ -1,0 +1,3490 @@
+{
+  "carnet": "081",
+  "date": "2026-10-02",
+  "plan_path": "../rebuild-state/split-wave/t12/plan-081.json",
+  "plan_source": null,
+  "id_map": {
+    "081.0001": "081.0001",
+    "081.0002": "081.0002",
+    "081.0003": "081.0003",
+    "081.0004": "081.0004",
+    "081.0005": "081.0005",
+    "081.0006": "081.0006",
+    "081.0007": "081.0007",
+    "081.0008": "081.0008",
+    "081.0009": "081.0009",
+    "081.0010": "081.0010",
+    "081.0011": "081.0011",
+    "081.0012": "081.0012",
+    "081.0013": "081.0013",
+    "081.0014": "081.0014",
+    "081.0015": "081.0015",
+    "081.0016": "081.0016",
+    "081.0017": "081.0017",
+    "081.0018": "081.0018",
+    "081.0019": "081.0019",
+    "081.0020": "081.0020",
+    "081.0021": "081.0021",
+    "081.0022": "081.0022",
+    "081.0023": "081.0023",
+    "081.0024": "081.0024",
+    "081.0025": "081.0025",
+    "081.0026": "081.0026",
+    "081.0027": "081.0027",
+    "081.0028": "081.0028",
+    "081.0029": "081.0029",
+    "081.0030": "081.0030",
+    "081.0031": "081.0031",
+    "081.0032": "081.0032",
+    "081.0033": "081.0035",
+    "081.0034": "081.0036",
+    "081.0035": "081.0044",
+    "081.0036": "081.0045",
+    "081.0037": "081.0046",
+    "081.0038": "081.0047",
+    "081.0039": "081.0048",
+    "081.0040": "081.0049",
+    "081.0041": "081.0050",
+    "081.0042": "081.0051",
+    "081.0043": "081.0052",
+    "081.0044": "081.0053",
+    "081.0045": "081.0054",
+    "081.0046": "081.0055",
+    "081.0047": "081.0057",
+    "081.0048": "081.0058",
+    "081.0049": "081.0059",
+    "081.0050": "081.0060",
+    "081.0051": "081.0061",
+    "081.0052": "081.0063",
+    "081.0053": "081.0065",
+    "081.0054": "081.0066",
+    "081.0055": "081.0067",
+    "081.0056": "081.0068",
+    "081.0057": "081.0069",
+    "081.0058": "081.0070",
+    "081.0059": "081.0072",
+    "081.0060": "081.0088",
+    "081.0061": "081.0089",
+    "081.0062": "081.0092",
+    "081.0063": "081.0093",
+    "081.0064": "081.0094",
+    "081.0065": "081.0095",
+    "081.0066": "081.0098",
+    "081.0067": "081.0103",
+    "081.0068": "081.0106",
+    "081.0069": "081.0120",
+    "081.0070": "081.0123",
+    "081.0071": "081.0124",
+    "081.0072": "081.0125",
+    "081.0073": "081.0126",
+    "081.0074": "081.0127",
+    "081.0075": "081.0128",
+    "081.0076": "081.0129",
+    "081.0077": "081.0130",
+    "081.0078": "081.0131",
+    "081.0079": "081.0132",
+    "081.0080": "081.0133",
+    "081.0081": "081.0134",
+    "081.0082": "081.0135",
+    "081.0083": "081.0136",
+    "081.0084": "081.0137",
+    "081.0085": "081.0138",
+    "081.0086": "081.0139",
+    "081.0087": "081.0140",
+    "081.0088": "081.0141",
+    "081.0089": "081.0142",
+    "081.0090": "081.0143",
+    "081.0091": "081.0144",
+    "081.0092": "081.0145",
+    "081.0093": "081.0146",
+    "081.0094": "081.0147",
+    "081.0095": "081.0148",
+    "081.0096": "081.0149",
+    "081.0097": "081.0150",
+    "081.0098": "081.0151",
+    "081.0099": "081.0152",
+    "081.0100": "081.0153",
+    "081.0101": "081.0154",
+    "081.0102": "081.0155",
+    "081.0103": "081.0156",
+    "081.0104": "081.0157",
+    "081.0105": "081.0158",
+    "081.0106": "081.0159",
+    "081.0107": "081.0160",
+    "081.0108": "081.0161",
+    "081.0109": "081.0162",
+    "081.0110": "081.0163",
+    "081.0111": "081.0164",
+    "081.0112": "081.0165",
+    "081.0113": "081.0166",
+    "081.0114": "081.0167",
+    "081.0115": "081.0168",
+    "081.0116": "081.0169",
+    "081.0117": "081.0170",
+    "081.0118": "081.0171",
+    "081.0119": "081.0172",
+    "081.0120": "081.0173",
+    "081.0121": "081.0174",
+    "081.0122": "081.0175",
+    "081.0123": "081.0176",
+    "081.0124": "081.0177",
+    "081.0125": "081.0178",
+    "081.0126": "081.0179",
+    "081.0127": "081.0180",
+    "081.0128": "081.0181",
+    "081.0129": "081.0182",
+    "081.0130": "081.0183",
+    "081.0131": "081.0184",
+    "081.0132": "081.0185",
+    "081.0133": "081.0186",
+    "081.0134": "081.0187",
+    "081.0135": "081.0188",
+    "081.0136": "081.0189",
+    "081.0137": "081.0190",
+    "081.0138": "081.0191",
+    "081.0139": "081.0192",
+    "081.0140": "081.0193",
+    "081.0141": "081.0194",
+    "081.0142": "081.0195",
+    "081.0143": "081.0196",
+    "081.0144": "081.0197",
+    "081.0145": "081.0198",
+    "081.0146": "081.0199",
+    "081.0147": "081.0200",
+    "081.0148": "081.0201",
+    "081.0149": "081.0202",
+    "081.0150": "081.0203",
+    "081.0151": "081.0204",
+    "081.0152": "081.0205",
+    "081.0153": "081.0206",
+    "081.0154": "081.0207",
+    "081.0155": "081.0208",
+    "081.0156": "081.0209",
+    "081.0157": "081.0210",
+    "081.0158": "081.0211",
+    "081.0159": "081.0212",
+    "081.0160": "081.0213",
+    "081.0161": "081.0214",
+    "081.0162": "081.0215",
+    "081.0163": "081.0216",
+    "081.0164": "081.0217",
+    "081.0165": "081.0218",
+    "081.0166": "081.0219",
+    "081.0167": "081.0220",
+    "081.0168": "081.0221",
+    "081.0169": "081.0222",
+    "081.0170": "081.0223",
+    "081.0171": "081.0224",
+    "081.0172": "081.0225",
+    "081.0173": "081.0226",
+    "081.0174": "081.0227",
+    "081.0175": "081.0228",
+    "081.0176": "081.0229",
+    "081.0177": "081.0230",
+    "081.0178": "081.0231",
+    "081.0179": "081.0232",
+    "081.0180": "081.0233",
+    "081.0181": "081.0234",
+    "081.0182": "081.0235",
+    "081.0183": "081.0236",
+    "081.0184": "081.0237",
+    "081.0185": "081.0238",
+    "081.0186": "081.0239",
+    "081.0187": "081.0240",
+    "081.0188": "081.0241",
+    "081.0189": "081.0242",
+    "081.0190": "081.0243",
+    "081.0191": "081.0244",
+    "081.0192": "081.0245",
+    "081.0193": "081.0246",
+    "081.0194": "081.0247",
+    "081.0195": "081.0248",
+    "081.0196": "081.0249",
+    "081.0197": "081.0250",
+    "081.0198": "081.0251",
+    "081.0199": "081.0252",
+    "081.0200": "081.0253",
+    "081.0201": "081.0254",
+    "081.0202": "081.0255",
+    "081.0203": "081.0256",
+    "081.0204": "081.0257",
+    "081.0205": "081.0258",
+    "081.0206": "081.0259",
+    "081.0207": "081.0260",
+    "081.0208": "081.0261",
+    "081.0209": "081.0262",
+    "081.0210": "081.0263",
+    "081.0211": "081.0264",
+    "081.0212": "081.0265",
+    "081.0213": "081.0266",
+    "081.0214": "081.0267",
+    "081.0215": "081.0268",
+    "081.0216": "081.0269",
+    "081.0217": "081.0270",
+    "081.0218": "081.0271",
+    "081.0219": "081.0272",
+    "081.0220": "081.0273",
+    "081.0221": "081.0274",
+    "081.0222": "081.0275",
+    "081.0223": "081.0276",
+    "081.0224": "081.0277",
+    "081.0225": "081.0278",
+    "081.0226": "081.0279",
+    "081.0227": "081.0280",
+    "081.0228": "081.0281",
+    "081.0229": "081.0282",
+    "081.0230": "081.0283",
+    "081.0231": "081.0284",
+    "081.0232": "081.0285",
+    "081.0233": "081.0286",
+    "081.0234": "081.0287",
+    "081.0235": "081.0288",
+    "081.0236": "081.0289",
+    "081.0237": "081.0290",
+    "081.0238": "081.0291",
+    "081.0239": "081.0292",
+    "081.0240": "081.0293",
+    "081.0241": "081.0294",
+    "081.0242": "081.0295",
+    "081.0243": "081.0296",
+    "081.0244": "081.0297",
+    "081.0245": "081.0298",
+    "081.0246": "081.0299",
+    "081.0247": "081.0300",
+    "081.0248": "081.0301",
+    "081.0249": "081.0302",
+    "081.0250": "081.0303",
+    "081.0251": "081.0304",
+    "081.0252": "081.0305",
+    "081.0253": "081.0306",
+    "081.0254": "081.0307",
+    "081.0255": "081.0308",
+    "081.0256": "081.0309",
+    "081.0257": "081.0310",
+    "081.0258": "081.0311",
+    "081.0259": "081.0312",
+    "081.0260": "081.0313",
+    "081.0261": "081.0314",
+    "081.0262": "081.0315",
+    "081.0263": "081.0316",
+    "081.0264": "081.0317",
+    "081.0265": "081.0318",
+    "081.0266": "081.0319",
+    "081.0267": "081.0320",
+    "081.0268": "081.0321",
+    "081.0269": "081.0322",
+    "081.0270": "081.0323",
+    "081.0271": "081.0324",
+    "081.0272": "081.0325",
+    "081.0273": "081.0326",
+    "081.0274": "081.0327",
+    "081.0275": "081.0328",
+    "081.0276": "081.0329",
+    "081.0277": "081.0330",
+    "081.0278": "081.0331",
+    "081.0279": "081.0332",
+    "081.0280": "081.0333",
+    "081.0281": "081.0334",
+    "081.0282": "081.0335",
+    "081.0283": "081.0336",
+    "081.0284": "081.0337",
+    "081.0285": "081.0338",
+    "081.0286": "081.0339",
+    "081.0287": "081.0340",
+    "081.0288": "081.0341",
+    "081.0289": "081.0342",
+    "081.0290": "081.0343",
+    "081.0291": "081.0344",
+    "081.0292": "081.0345",
+    "081.0293": "081.0346",
+    "081.0294": "081.0347",
+    "081.0295": "081.0348",
+    "081.0296": "081.0349",
+    "081.0297": "081.0350",
+    "081.0298": "081.0351",
+    "081.0299": "081.0352",
+    "081.0300": "081.0353",
+    "081.0301": "081.0354",
+    "081.0302": "081.0355",
+    "081.0303": "081.0356",
+    "081.0304": "081.0357",
+    "081.0305": "081.0358",
+    "081.0306": "081.0359",
+    "081.0307": "081.0360",
+    "081.0308": "081.0361",
+    "081.0309": "081.0362",
+    "081.0310": "081.0363",
+    "081.0311": "081.0364",
+    "081.0312": "081.0365",
+    "081.0313": "081.0366",
+    "081.0314": "081.0367",
+    "081.0315": "081.0368",
+    "081.0316": "081.0369",
+    "081.0317": "081.0370",
+    "081.0318": "081.0371",
+    "081.0319": "081.0372",
+    "081.0320": "081.0373",
+    "081.0321": "081.0374",
+    "081.0322": "081.0375",
+    "081.0323": "081.0376",
+    "081.0324": "081.0377",
+    "081.0325": "081.0378",
+    "081.0326": "081.0379",
+    "081.0327": "081.0380",
+    "081.0328": "081.0381",
+    "081.0329": "081.0382",
+    "081.0330": "081.0383",
+    "081.0331": "081.0384",
+    "081.0332": "081.0385",
+    "081.0333": "081.0386",
+    "081.0334": "081.0387",
+    "081.0335": "081.0388",
+    "081.0336": "081.0389",
+    "081.0337": "081.0390",
+    "081.0338": "081.0391",
+    "081.0339": "081.0392",
+    "081.0340": "081.0393",
+    "081.0341": "081.0394",
+    "081.0342": "081.0395",
+    "081.0343": "081.0396",
+    "081.0344": "081.0397",
+    "081.0345": "081.0398",
+    "081.0346": "081.0399",
+    "081.0347": "081.0400",
+    "081.0348": "081.0401",
+    "081.0349": "081.0402",
+    "081.0350": "081.0403",
+    "081.0351": "081.0404",
+    "081.0352": "081.0405",
+    "081.0353": "081.0406",
+    "081.0354": "081.0407",
+    "081.0355": "081.0408",
+    "081.0356": "081.0409",
+    "081.0357": "081.0410",
+    "081.0358": "081.0411",
+    "081.0359": "081.0412",
+    "081.0360": "081.0413",
+    "081.0361": "081.0414",
+    "081.0362": "081.0415",
+    "081.0363": "081.0416",
+    "081.0364": "081.0417",
+    "081.0365": "081.0418",
+    "081.0366": "081.0419",
+    "081.0367": "081.0420",
+    "081.0368": "081.0421",
+    "081.0369": "081.0422",
+    "081.0370": "081.0423",
+    "081.0371": "081.0424",
+    "081.0372": "081.0425",
+    "081.0373": "081.0426",
+    "081.0374": "081.0427",
+    "081.0375": "081.0428",
+    "081.0376": "081.0429",
+    "081.0377": "081.0430",
+    "081.0378": "081.0431",
+    "081.0379": "081.0432",
+    "081.0380": "081.0433",
+    "081.0381": "081.0434",
+    "081.0382": "081.0435",
+    "081.0383": "081.0436",
+    "081.0384": "081.0437",
+    "081.0385": "081.0438",
+    "081.0386": "081.0439",
+    "081.0387": "081.0440",
+    "081.0388": "081.0441",
+    "081.0389": "081.0442",
+    "081.0390": "081.0443",
+    "081.0391": "081.0444",
+    "081.0392": "081.0445",
+    "081.0393": "081.0446",
+    "081.0394": "081.0447",
+    "081.0395": "081.0448",
+    "081.0396": "081.0449",
+    "081.0397": "081.0450",
+    "081.0398": "081.0451",
+    "081.0399": "081.0452",
+    "081.0400": "081.0453",
+    "081.0401": "081.0454",
+    "081.0402": "081.0455",
+    "081.0403": "081.0456",
+    "081.0404": "081.0457",
+    "081.0405": "081.0458",
+    "081.0406": "081.0459",
+    "081.0407": "081.0461",
+    "081.0408": "081.0462",
+    "081.0409": "081.0463",
+    "081.0410": "081.0464",
+    "081.0411": "081.0465",
+    "081.0412": "081.0466",
+    "081.0413": "081.0467",
+    "081.0414": "081.0468",
+    "081.0415": "081.0469",
+    "081.0416": "081.0470",
+    "081.0417": "081.0471",
+    "081.0418": "081.0472",
+    "081.0419": "081.0473",
+    "081.0420": "081.0474",
+    "081.0421": "081.0475",
+    "081.0422": "081.0476",
+    "081.0423": "081.0477",
+    "081.0424": "081.0478",
+    "081.0425": "081.0479",
+    "081.0426": "081.0480",
+    "081.0427": "081.0481",
+    "081.0428": "081.0482",
+    "081.0429": "081.0483",
+    "081.0430": "081.0484",
+    "081.0431": "081.0485",
+    "081.0432": "081.0486",
+    "081.0433": "081.0487",
+    "081.0434": "081.0490",
+    "081.0435": "081.0491",
+    "081.0436": "081.0492",
+    "081.0437": "081.0493",
+    "081.0438": "081.0494",
+    "081.0439": "081.0495",
+    "081.0440": "081.0496",
+    "081.0441": "081.0497",
+    "081.0442": "081.0498",
+    "081.0443": "081.0499",
+    "081.0444": "081.0500",
+    "081.0445": "081.0501",
+    "081.0446": "081.0502",
+    "081.0447": "081.0503",
+    "081.0448": "081.0505",
+    "081.0449": "081.0506",
+    "081.0450": "081.0507",
+    "081.0451": "081.0508",
+    "081.0452": "081.0509",
+    "081.0453": "081.0510",
+    "081.0454": "081.0511",
+    "081.0455": "081.0512",
+    "081.0456": "081.0513",
+    "081.0457": "081.0514",
+    "081.0458": "081.0515",
+    "081.0459": "081.0516",
+    "081.0460": "081.0517",
+    "081.0461": "081.0518",
+    "081.0462": "081.0519",
+    "081.0463": "081.0520",
+    "081.0464": "081.0521",
+    "081.0465": "081.0522",
+    "081.0466": "081.0523",
+    "081.0467": "081.0524",
+    "081.0468": "081.0525",
+    "081.0469": "081.0526",
+    "081.0470": "081.0527",
+    "081.0471": "081.0528",
+    "081.0472": "081.0529",
+    "081.0473": "081.0530",
+    "081.0474": "081.0531",
+    "081.0475": "081.0532",
+    "081.0476": "081.0533",
+    "081.0477": "081.0534",
+    "081.0478": "081.0535",
+    "081.0479": "081.0536",
+    "081.0480": "081.0537",
+    "081.0481": "081.0538",
+    "081.0482": "081.0539",
+    "081.0483": "081.0541",
+    "081.0484": "081.0542",
+    "081.0485": "081.0543",
+    "081.0486": "081.0544",
+    "081.0487": "081.0545",
+    "081.0488": "081.0546",
+    "081.0489": "081.0547",
+    "081.0490": "081.0548",
+    "081.0491": "081.0549",
+    "081.0492": "081.0550",
+    "081.0493": "081.0551",
+    "081.0494": "081.0552",
+    "081.0495": "081.0553",
+    "081.0496": "081.0554",
+    "081.0497": "081.0556",
+    "081.0498": "081.0557",
+    "081.0499": "081.0558",
+    "081.0500": "081.0560",
+    "081.0501": "081.0561",
+    "081.0502": "081.0562",
+    "081.0503": "081.0563",
+    "081.0504": "081.0564",
+    "081.0505": "081.0565",
+    "081.0506": "081.0566",
+    "081.0507": "081.0567",
+    "081.0508": "081.0568",
+    "081.0509": "081.0569",
+    "081.0510": "081.0570",
+    "081.0511": "081.0571",
+    "081.0512": "081.0572",
+    "081.0513": "081.0573",
+    "081.0514": "081.0574",
+    "081.0515": "081.0575",
+    "081.0516": "081.0576",
+    "081.0517": "081.0577",
+    "081.0518": "081.0578",
+    "081.0519": "081.0579",
+    "081.0520": "081.0580",
+    "081.0521": "081.0581",
+    "081.0522": "081.0582",
+    "081.0523": "081.0583",
+    "081.0524": "081.0584",
+    "081.0525": "081.0585",
+    "081.0526": "081.0586",
+    "081.0527": "081.0587",
+    "081.0528": "081.0588",
+    "081.0529": "081.0589",
+    "081.0530": "081.0590",
+    "081.0531": "081.0592",
+    "081.0532": "081.0593",
+    "081.0533": "081.0594",
+    "081.0534": "081.0595",
+    "081.0535": "081.0596",
+    "081.0536": "081.0597",
+    "081.0537": "081.0598",
+    "081.0538": "081.0599",
+    "081.0539": "081.0600",
+    "081.0540": "081.0601",
+    "081.0541": "081.0602",
+    "081.0542": "081.0603",
+    "081.0543": "081.0606",
+    "081.0544": "081.0609",
+    "081.0545": "081.0610",
+    "081.0546": "081.0611",
+    "081.0547": "081.0612",
+    "081.0548": "081.0613",
+    "081.0549": "081.0614",
+    "081.0550": "081.0615",
+    "081.0551": "081.0616",
+    "081.0552": "081.0619",
+    "081.0553": "081.0620",
+    "081.0554": "081.0621",
+    "081.0555": "081.0622",
+    "081.0556": "081.0623",
+    "081.0557": "081.0624",
+    "081.0558": "081.0625",
+    "081.0559": "081.0626",
+    "081.0560": "081.0627",
+    "081.0561": "081.0628",
+    "081.0562": "081.0629",
+    "081.0563": "081.0630",
+    "081.0564": "081.0631",
+    "081.0565": "081.0632",
+    "081.0566": "081.0633",
+    "081.0567": "081.0634",
+    "081.0568": "081.0635",
+    "081.0569": "081.0636",
+    "081.0570": "081.0637",
+    "081.0571": "081.0638",
+    "081.0572": "081.0639",
+    "081.0573": "081.0640",
+    "081.0574": "081.0641",
+    "081.0575": "081.0642",
+    "081.0576": "081.0643",
+    "081.0577": "081.0644",
+    "081.0578": "081.0645",
+    "081.0579": "081.0646",
+    "081.0580": "081.0647",
+    "081.0581": "081.0648",
+    "081.0582": "081.0649",
+    "081.0583": "081.0650",
+    "081.0584": "081.0651",
+    "081.0585": "081.0652",
+    "081.0586": "081.0653",
+    "081.0587": "081.0654",
+    "081.0588": "081.0655",
+    "081.0589": "081.0656",
+    "081.0590": "081.0657",
+    "081.0591": "081.0658",
+    "081.0592": "081.0659",
+    "081.0593": "081.0660",
+    "081.0594": "081.0661",
+    "081.0595": "081.0662",
+    "081.0596": "081.0663"
+  },
+  "changed_ids": 564,
+  "new_paragraphs": [
+    {
+      "id": "081.0033",
+      "file": "1878-06-25.md"
+    },
+    {
+      "id": "081.0034",
+      "file": "1878-06-25.md"
+    },
+    {
+      "id": "081.0037",
+      "file": "1878-06-25.md"
+    },
+    {
+      "id": "081.0038",
+      "file": "1878-06-25.md"
+    },
+    {
+      "id": "081.0039",
+      "file": "1878-06-25.md"
+    },
+    {
+      "id": "081.0040",
+      "file": "1878-06-25.md"
+    },
+    {
+      "id": "081.0041",
+      "file": "1878-06-25.md"
+    },
+    {
+      "id": "081.0042",
+      "file": "1878-06-25.md"
+    },
+    {
+      "id": "081.0043",
+      "file": "1878-06-25.md"
+    },
+    {
+      "id": "081.0056",
+      "file": "1878-06-26.md"
+    },
+    {
+      "id": "081.0062",
+      "file": "1878-06-26.md"
+    },
+    {
+      "id": "081.0064",
+      "file": "1878-06-26.md"
+    },
+    {
+      "id": "081.0071",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0073",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0074",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0075",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0076",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0077",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0078",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0079",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0080",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0081",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0082",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0083",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0084",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0085",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0086",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0087",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0090",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0091",
+      "file": "1878-06-27.md"
+    },
+    {
+      "id": "081.0096",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0097",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0099",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0100",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0101",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0102",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0104",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0105",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0107",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0108",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0109",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0110",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0111",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0112",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0113",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0114",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0115",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0116",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0117",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0118",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0119",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0121",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0122",
+      "file": "1878-06-28.md"
+    },
+    {
+      "id": "081.0460",
+      "file": "1878-07-15.md"
+    },
+    {
+      "id": "081.0488",
+      "file": "1878-07-18.md"
+    },
+    {
+      "id": "081.0489",
+      "file": "1878-07-18.md"
+    },
+    {
+      "id": "081.0504",
+      "file": "1878-07-20.md"
+    },
+    {
+      "id": "081.0540",
+      "file": "1878-07-24.md"
+    },
+    {
+      "id": "081.0555",
+      "file": "1878-07-28.md"
+    },
+    {
+      "id": "081.0559",
+      "file": "1878-07-29.md"
+    },
+    {
+      "id": "081.0591",
+      "file": "1878-08-02.md"
+    },
+    {
+      "id": "081.0604",
+      "file": "1878-08-03.md"
+    },
+    {
+      "id": "081.0605",
+      "file": "1878-08-03.md"
+    },
+    {
+      "id": "081.0607",
+      "file": "1878-08-03.md"
+    },
+    {
+      "id": "081.0608",
+      "file": "1878-08-03.md"
+    },
+    {
+      "id": "081.0617",
+      "file": "1878-08-04.md"
+    },
+    {
+      "id": "081.0618",
+      "file": "1878-08-04.md"
+    }
+  ],
+  "dropped": [],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [],
+  "last_id": "081.0663",
+  "flag_resets": {
+    "cz": [
+      "1878-06-25.md",
+      "1878-06-26.md",
+      "1878-06-27.md",
+      "1878-06-28.md",
+      "1878-07-15.md",
+      "1878-07-18.md",
+      "1878-07-20.md",
+      "1878-07-24.md",
+      "1878-07-28.md",
+      "1878-07-29.md",
+      "1878-08-02.md",
+      "1878-08-03.md",
+      "1878-08-04.md"
+    ],
+    "uk": [
+      "1878-06-25.md",
+      "1878-06-26.md",
+      "1878-06-27.md",
+      "1878-06-28.md",
+      "1878-07-15.md",
+      "1878-07-18.md",
+      "1878-07-20.md",
+      "1878-07-24.md",
+      "1878-07-28.md",
+      "1878-07-29.md",
+      "1878-08-02.md",
+      "1878-08-03.md",
+      "1878-08-04.md"
+    ],
+    "en": [
+      "1878-06-25.md",
+      "1878-06-26.md",
+      "1878-06-27.md",
+      "1878-06-28.md",
+      "1878-07-15.md",
+      "1878-07-18.md",
+      "1878-07-20.md",
+      "1878-07-24.md",
+      "1878-07-28.md",
+      "1878-07-29.md",
+      "1878-08-02.md",
+      "1878-08-03.md",
+      "1878-08-04.md"
+    ],
+    "fr": [
+      "1878-06-25.md",
+      "1878-06-26.md",
+      "1878-06-27.md",
+      "1878-06-28.md",
+      "1878-07-15.md",
+      "1878-07-18.md",
+      "1878-07-20.md",
+      "1878-07-24.md",
+      "1878-07-28.md",
+      "1878-07-29.md",
+      "1878-08-02.md",
+      "1878-08-03.md",
+      "1878-08-04.md"
+    ]
+  },
+  "plan": {
+    "carnet": "081",
+    "_generated": "identity plan of content/_original/081 — keys starting with _ are ignored",
+    "entries": [
+      {
+        "file": "1878-06-23.md",
+        "date": "1878-06-23",
+        "paragraphs": [
+          {
+            "old": "081.0001"
+          },
+          {
+            "old": "081.0002"
+          },
+          {
+            "old": "081.0003"
+          },
+          {
+            "old": "081.0004"
+          },
+          {
+            "old": "081.0005"
+          },
+          {
+            "old": "081.0006"
+          },
+          {
+            "old": "081.0007"
+          },
+          {
+            "old": "081.0008"
+          },
+          {
+            "old": "081.0009"
+          },
+          {
+            "old": "081.0010"
+          },
+          {
+            "old": "081.0011"
+          },
+          {
+            "old": "081.0012"
+          },
+          {
+            "old": "081.0013"
+          },
+          {
+            "old": "081.0014"
+          }
+        ],
+        "_first_line": "# Dimanche, 23 juin 1878"
+      },
+      {
+        "file": "1878-06-24.md",
+        "date": "1878-06-24",
+        "paragraphs": [
+          {
+            "old": "081.0015"
+          },
+          {
+            "old": "081.0016"
+          },
+          {
+            "old": "081.0017"
+          },
+          {
+            "old": "081.0018"
+          },
+          {
+            "old": "081.0019"
+          },
+          {
+            "old": "081.0020"
+          },
+          {
+            "old": "081.0021"
+          },
+          {
+            "old": "081.0022"
+          },
+          {
+            "old": "081.0023"
+          },
+          {
+            "old": "081.0024"
+          },
+          {
+            "old": "081.0025"
+          },
+          {
+            "old": "081.0026"
+          },
+          {
+            "old": "081.0027"
+          }
+        ],
+        "_first_line": "# Lundi, 24 juin 1878"
+      },
+      {
+        "file": "1878-06-25.md",
+        "date": "1878-06-25",
+        "paragraphs": [
+          {
+            "old": "081.0028"
+          },
+          {
+            "old": "081.0029"
+          },
+          {
+            "old": "081.0030"
+          },
+          {
+            "old": "081.0031"
+          },
+          {
+            "old": "081.0032",
+            "set_french": "— Avez-vous 30.000 de rente ? a-t-il demandé."
+          },
+          {
+            "new": {
+              "french": "— Je n'ai rien.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 081.0032, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "— Eh bien il ne voudra pas de vous... il c'était Gambetta. C'était une occasion hors ligne de dire un million de choses.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 081.0032, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0033"
+          },
+          {
+            "old": "081.0034",
+            "set_french": "[En travers : Rien que 30.000 de rente. Mon cœur se serre quand je pense qu'il demande si peu et que j'étais si bête I]"
+          },
+          {
+            "new": {
+              "french": "Comment après tout cela je le regrette ? Comprenant tout cela j'en aurais voulu ? Mais pourquoi ? Car sachant et comprenant cela il est impossible que je l'aime. Sans doute, mais je le regrette je ne sais pourquoi et aussi par ambition; si les Badinguet allaient revenir ? Chacun de ses succès va m'être un crève-cœur.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 8 of 081.0034, which held 8 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "On dit que la fille Acard est une fille du Cardinal, fille ou non la parenté existe et Blanc l'avait qualifiée de tache.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 8 of 081.0034, which held 8 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Quelle immense désillusion ! Moi qui pensais que Paul de Cassagnac était différent des autres ! J'avais bien découvert qu'il mentait dans les petites choses et qu'il donnait le plus solenellement du monde des paroles d'honneur qui auraient fait crever d'envie Athos lui-même, et puis qu'il y manquait. Le vieux père doit être furieux si la fiancée n'a que 20.000 de rente, je lui en offre 70.000 et puis le double.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 8 of 081.0034, which held 8 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai craint de pleurer, crainte vaine...",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 8 of 081.0034, which held 8 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais je suis révoltée et agacée parce que je n'y puis rien et parce que c'est une chose irrévocable, les machines irrévocables m'enragent toujours.",
+              "rsr": "Split (paragraph wave): print paragraph 6 of 8 of 081.0034, which held 8 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il fait une chaleur accablante ! Quand on travaille c'est terrible.",
+              "rsr": "Split (paragraph wave): print paragraph 7 of 8 of 081.0034, which held 8 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Seulement... cela vaut peut-être mieux. Mais c'est bête de n'y avoir pas songé avant. En y mêlant une vieille femme et[en] se conduisant comme une fille qui offre son association j'aurais pu le faire aussi facilement que commander une robe chez Laferrière. Quand au reste je n'ai pas d'inquiétudes trop vives, le mariage n'y change pas grande chose, seulement je ris en pensant que je ne suis pas la seule... Oh ! mais moi quoique je fasse contre ou pour c'est écrit. Je n'y tiendrai peut-être plus... je crois que si, après tout c'est un homme qui mérite qu'on se pique au jeu, je commencerai par acquérir une certaine célébrité puis une belle position peut-être, encore dernièrement une tireuse de cartes me l'a prédit comme les autres. Edmond m'a annoncé un matamore comme ennemi. Ce sera lui qui sera furieux pour la façon dont je traite sa belle. A propos, vous savez j'ai écrit au Figaro pour un bal masqué au Trocadéro, on a imprimé la chose.",
+              "rsr": "Split (paragraph wave): print paragraph 8 of 8 of 081.0034, which held 8 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0035"
+          },
+          {
+            "old": "081.0036"
+          },
+          {
+            "old": "081.0037"
+          },
+          {
+            "old": "081.0038"
+          },
+          {
+            "old": "081.0039"
+          },
+          {
+            "old": "081.0040"
+          },
+          {
+            "old": "081.0041"
+          },
+          {
+            "old": "081.0042"
+          },
+          {
+            "old": "081.0043"
+          }
+        ],
+        "_first_line": "# Mardi, 25 juin 1878"
+      },
+      {
+        "file": "1878-06-26.md",
+        "date": "1878-06-26",
+        "paragraphs": [
+          {
+            "old": "081.0044"
+          },
+          {
+            "old": "081.0045"
+          },
+          {
+            "old": "081.0046",
+            "set_french": "Cela me réjouit beaucoup."
+          },
+          {
+            "new": {
+              "french": "Le soir nous parlons de l'étrange conduite de Blanc auquel je ne tiens guère mais dont la conduite est tout à fait extraordinaire et surtout de Cassagnac-Acard. Je ne m'explique pas cette joie, cet empressement : à chaque rencontre et puis ces cachotteries à propos du mariage qu'il a annoncé à tout le monde. On dit aussi que j'aurais pu l'épouser. Je le crois et c'est pour cela que je suis envahie par un tas de sentiments confus. Il fait tellement chaud qu'on ne respire que le soir dans le salon sans lumières et avec toutes les fenêtres ouvertes. Maman, Marie, Dina et moi étendues sur des divans ou sur des fauteuils.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0046, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0047"
+          },
+          {
+            "old": "081.0048"
+          },
+          {
+            "old": "081.0049"
+          },
+          {
+            "old": "081.0050"
+          },
+          {
+            "old": "081.0051",
+            "set_french": "Maman et Dina me reprochent avec raison certaines brusqueries, certaines bravades. Un tas d'affectations qui me poussaient toujours à me montrer railleuse, froide, inabordable. Ce qui serait très bien s'il s'agissait d'empêcher qu'on pense que je suis amoureuse, mais non il fallait montrer que j'étais possible... Mais, qui pouvait penser à de telles choses ! Je croyais qu'il fallait être aimée, je n'osais le désirer et je me faisais folle et froide pour qu'il ne pensât pas que je voulais me jeter à sa tête. Mais, éclaircissons un point, *sachant tout, en aurais-je donc voulu ?* Oui, oui, oui, si non par amour, du moins par vanité."
+          },
+          {
+            "new": {
+              "french": "Faire un mariage de raison avec un homme comme lui ou bien me vendre très-cher en mariage bien entendu. Je n'ai pas autre chose à faire. Quant à acheter un monsieur je vous ai déjà dit que cela ne me servirait à rien.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0051, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0052",
+            "set_french": "Et puis qui sait, même en sachant qu'il n'avait pas absolument besoin d'être amoureux pour se marier, qu'il faisait une affaire, même en sachant cela j'aurais pu l'aimer pourvu que ce fût moi l'affaire."
+          },
+          {
+            "new": {
+              "french": "Quand on aime rien n'y fait. [Mots noircis : L'avare renonce] à l'argent, l'ambitieux aux honneurs, le frivole à la vanité non pas [Mot noirci : qu'on] change sa nature mais parce que [Mots noircis : l'être aimé tient lieu de] tout et qu'en lui on voit tout. Et c'est justement là le miracle. Par moments... je crois que je parle en connaissance de cause cette fois. Ce que je dis doit compter car je ne suis ni à Nice, ni en Italie; je suis remise de mes chagrins et de mes humiliations, je ne désespère pas du tout, au contraire; je suis occupée et même je m'amuse. Il me semble donc par moments et vaguement que je renoncerais à tout pour cet homme, car en dehors de lui et sans lui il n'y a ni argent, ni honneurs, qui me soient bons à quelque chose; si j'en voulais ce serait pour lui plaire.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0052, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0053"
+          }
+        ],
+        "_first_line": "# Mercredi, 26 juin 1878"
+      },
+      {
+        "file": "1878-06-27.md",
+        "date": "1878-06-27",
+        "paragraphs": [
+          {
+            "old": "081.0054"
+          },
+          {
+            "old": "081.0055"
+          },
+          {
+            "old": "081.0056"
+          },
+          {
+            "old": "081.0057"
+          },
+          {
+            "old": "081.0058",
+            "set_french": "Je suis très en colère après Madame ma mère qui décidément est très maladroite et désagréable et me porte malheur. Elle croit que je suis comme après l'histoire de Larderel ! Ce qui est la plus affreuse insulte. Vous vous figurez facilement jusqu'à quel point cela me révolte et m'enrage."
+          },
+          {
+            "new": {
+              "french": "Parce que une fois j'ai eu la bêtise de lui tout raconter elle veut entrer de force dans mes secrets. Elle pense que c'est une habitude et que chaque année je dois pleurer quelqu'un. Vous pensez bien que cela m'écœure ! Vous qui savez ce que je pensais d'Audifffret, d'un petit paysan dont je voulais faire un martyr et qui s'en étant aperçu ne fut pas long à décamper, d'Antonelli un petit drôle que je voulais réserver dans le cas du cardinal Antonelli devenant Pape et enfin de Larderel pour lequel je m'étais montée la tête... j'avais hâte d'employer toutes ces phrases que les jeunes filles ont dans la tête, j'avais hâte d'écrire, je l'aime et de me persuader que c'était enfin ça. Larderel pour lequel je professe en ce moment l'estime la plus mince. Dieu merci il n'y a rien de pareil, ne pouvant effacer le passé je l'ai supprimé. Je suis née depuis que je suis à Paris qui est ma terre et quand j'y aurais assez travaillé, assez intrigué, assez souffert, j'aurais peut-être gagné le Paradis, j'irai à Rome.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0058, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0059",
+            "set_french": "J'espérais, je ne sais si j'espérais, je supposais... non plus... à vous dire vrai je n'ai jamais eu l'idée d'épouser le mari de Mlle Acard... je faisais des romans dans lesquels je le voyais m'offrant sa main devenu ministre de Napoléon IV et *comte* de Cassagnac, ou bien je me voyais mariée â quelque prince ou millionnaire et aimant Cassagnac mais dès qu'il s'agissait d'en faire mon amant il arrivait que le prince mourait car même en rêve je ne pourrais m'avilir à ce point et humilier ainsi un homme aimé au point de le voir souffrant que sa bien-aimée soit aussi à un autre, au mari. Car l'amant sait toujours qu'il partage ou bien la femme le tromperait-elle en lui faisant accroire que le mari mange en ville. Je ne sais."
+          },
+          {
+            "new": {
+              "french": "[En travers: On fait semblant de croire bien des choses et on s'arrange avec sa conscience je crois.]",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je m'imaginais ainsi que je faisais un tableau ou un portrait de Cassagnac et que devenue célèbre il devenait amoureux de moi et je l'épousais.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce n'est que dernièrement, tout dernièrement qu'effrayée et taquinée par Mlle Acard je renonçais à tout (si c'est renoncer à tout que de partager la vie de cet homme) et serais prête à m'en aller avec Cassagnac sur un mot de lui, j'acceptais même, je l'accepterais encore, l'idée de me faire épouser par lui pour mon argent. Tout à l'heure en rêve je ne voulais pas l'avilir au point de lui faire partager une femme et ici je l'abaisse bien plus... Mais que voulez-vous j'en avais envie et puis il me semble qu'à nous deux nous aurions pu faire un grand homme... Je le vois tel qu'il est maintenant, le magnétisme, les duels. Les bonnes fortunes, les paroles d'honneur, le respect aux femmes, le tout couronné par ce misérable mariage que j'ai apprécié dans mes deux lettres. Il y a de terribles déchirures dans le beau manteau doré, mais en m'examinant attentivement je crois que si j'avais autant vécu que lui, je serais obligée de transiger et que après tout je ne ferais rien de trop vilain en ne faisant que ce qu'il a fait.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Sans doute, certaines choses froissent mes sentiments délicats, je suis étonnée de voir mon Paul de Cassagnac se ravaler au commun des hommes, mais s'il n'y avait pas ces défauts il serait peut-être moins amusant, moins méridional.",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pourtant je ne puis m'empêcher de sourire en pensant que je l'avais pris au sérieux. Je disais bien dès le commencement : immense blagueur ou fichu farceur, mais je ne le croyais pas du tout, du tout. Ah ! si je l'avais cru ! Il serait arrivé d'une des deux choses [Rayé: ou bien ?] Je n'y tiendrais pas ou bien je le tiendrais. Deux issues également bonnes.",
+              "rsr": "Split (paragraph wave): print paragraph 6 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Car même en mettant l'amour de côté, (ce qu'il faudrait bien faire, avec toutes ces désillusions) il resterait une alliance d'ambition et je vous jure que ce serait une bonne affaire.",
+              "rsr": "Split (paragraph wave): print paragraph 7 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Aussi s'il y a quelque chose qui me fait rager c'est cela. L'amour [Mot noirci: banal,] j'en retrouverai toujours, si j'en veux encore... car pour l'aimer tout à fait... après toutes ces brèches, ce serait difficile.",
+              "rsr": "Split (paragraph wave): print paragraph 8 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Au fait, l'amour ne raisonne pas et si on aime vraiment on ne chicane pas sur quelques misères... Mais qu'est-ce qu'on aime, alors ?",
+              "rsr": "Split (paragraph wave): print paragraph 9 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "[En travers: Mais peut-on aimer quand on ne voit pas l'homme parfait ? Il me semble qu'on aime quand il est parfait ( à notre idée) et qu'il est parfait quand on aime, ce qui revient au même.",
+              "rsr": "Split (paragraph wave): print paragraph 10 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais comment faire alors quand on découvre ce que j'ai découvert, bref quand on est désillusionné ? Eh ! c'est qu'on n'aime pas, c'est tout simple.] Je suis bien allée jusqu'à me demander si je voulais m'enfuir dans un petit coin de la terre et vivre là avec lui comme \"Paul et Virginie,\" et il m'a semblé que ou/pourvu qu'il m'aimât, cela s'entend. Seulement je crois que nous n'y tiendrions pas et l'amour n'y tiendrait pas. Si l'amour pouvait y tenir il ne faudrait plus rien car tout ce qui a été fait, est fait et sera fait depuis le commencement du monde jusqu'à sa fin aura été pour et par l'Amour. Mais je ne suis jamais allée jusqu'à me demander si je l'aimerais malgré tout... le moment n'est pas encore venu et puis dans ces choses-là on ne sait qu'à la fin car l'Amour vrai ne passe jamais et comment puis-je savoir si dans un an je penserai de même que hier ou ce soir ? Ceci nous mènerait trop loin et m'engagerait dans des dissertations difficiles n'étant pas logique. Il me semble donc qu'on peut le savoir et quand c'est un amour vrai on doit le sentir, on ne sait soi-même comment et pourtant d'une façon indubitable.",
+              "rsr": "Split (paragraph wave): print paragraph 11 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je me rappelle je pensais à ce sale, à Antonelli, puis j'étais amoureuse du petit Larderel mais toujours, toujours ma pensée se reportait à Paris comme à quelque chose de plus élevé, je veux dire à Paul de Cassagnac, comme à un être absolument supérieur auquel je pouvais donner la main et qui partagerait, comprendrait, devinerait tous mes sentiments les plus secrets et les plus élevés. Ceci me fait penser, avec raison, que ni mariage ni rien au monde n'y feront rien, que ce n'est pas un feu de quinze jours, mais une longue, longue affaire solidement et lentement bâtie, si toutefois affaire il y a.",
+              "rsr": "Split (paragraph wave): print paragraph 12 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je crois l'avoir dit quelque part déjà. Je viens de le chercher dans tous mes cahiers, cela se retrouve à la page 142-145, livre 78. Je vous engage à le revoir si vous vous intéressez à mes affaires. Oui, mais puisqu'il n'est pas ce que je croyais, puisqu'il n'est pas ce qui me plaisait, puisqu'il n'est pas lui en un mot ?? Je ne l'avais pas paré de tous les charmes que je voudrais qu'il eût, mais il s'était fait passer pour les avoir. Au fait qu'a-t-il donc fait pour déchoir ainsi ?",
+              "rsr": "Split (paragraph wave): print paragraph 13 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il s'est marié, raisonnablement et tranquillement avec une fille qui lui assure l'appui des prêtres, ce qui n'est pas peu en politique. Il n'a fait que céder aux instances des siens. Et puis il a manqué de parole dans des choses où il n'y avait pas de quoi fouetter un chat. Sa conduite envers nous est bizarre; on l'explique ainsi. Il m'aurait aimée mais voyant que je suis insensible, folle, froide, et que je ne cherche qu'une grande fortune, (on le lui a dit et tout le monde le lui a dit à commencer par Blanc, parce que je l'ai dit à tort et à travers ne soupçonnant pas le tort inouï que je me faisais) voyant en outre que je m'engageais dans des aventures folles avec lui et à l'Opéra... bref vous savez ma conduite mais pas assez, vous ne savez ce que j'ai posé pour n'être pas soupçonnée de recherche, de chasse au mari etc., dans quelles exagérations je suis tombée. Moi je restais toujours bon camarade, ce qui fait qu'il a été ce qu'il a été et s'il a manqué une fois de sérieux... dame... je suis étrangère, russe, originale... [Rayé: Alors] On lui a proposé cette fille, on l'a bêché, entortillé, tenté, travaillé, sont venues les dettes, l'élection, les prières des parents. C'est plus qu'il n'en faut.",
+              "rsr": "Split (paragraph wave): print paragraph 14 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et après tout, est-on coupable pour calculer un peu ? Voyons, un mariage, le mariage d'un homme sérieux, et il commence à le devenir, n'est pas une blague; et plus un homme a eu d'aventures plus il recherche une femme qui le change des autres. J'avais tant d'occasions... mais j'ai évité avec obstination... je craignais qu'en pensant qu'on a des vues sur lui il s'éloigne ! J'avais si peur de cela. Il me semble que je me serais fait passer plutôt pour une cocotte que pour une fille à marier ! Une femme gagne toujours à paraître vertueuse. Il est poseur, mais quand il y a des mérites réels cela n'est qu'un charme de plus. Bref le voilà nettoyé tout à fait. Si j'avais été naturelle, convenable, (tout en étant originale et ce que je suis enfin) les choses marcheraient autrement et il ne se serait pas vendu pour cela.",
+              "rsr": "Split (paragraph wave): print paragraph 15 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pour courir après une ombre, il aurait fallu qu'il fût amoureux fou, il ne l'était peut-être pas, mais si j'avais été assortie aux circonstances il aurait pu m'aimer parce qu'il trouverait une femme et une maîtresse réunies.",
+              "rsr": "Split (paragraph wave): print paragraph 16 of 16 of 081.0059, which held 16 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0060"
+          },
+          {
+            "old": "081.0061",
+            "set_french": "Je me tais, je me résigne et j'attends."
+          },
+          {
+            "new": {
+              "french": "Que Dieu me pardonne de penser qu'il a fait une injustice... si j'osais dire je dirais un autre mot, si j'étais quelqu'un d'autre, une nihiliste par exemple je dirais une bêtise.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 081.0061, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il n'y avait qu'un homme pour moi et qu'une femme pour lui. On nous a séparés. Cela va créer des complications quand on aurait pu s'arranger si simplement.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 081.0061, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Jeudi, 27 juin 1878"
+      },
+      {
+        "file": "1878-06-28.md",
+        "date": "1878-06-28",
+        "paragraphs": [
+          {
+            "old": "081.0062"
+          },
+          {
+            "old": "081.0063"
+          },
+          {
+            "old": "081.0064"
+          },
+          {
+            "old": "081.0065",
+            "set_french": "Eh bien voilà ! C'est comme la mort de ce pauvre Walitsky, je réaliserai difficilement la mort de ce pauvre Cassagnac. D'abord les Acard ne sont pas comte mais baron. C'est fait. C'est fini. Tout à fait fini."
+          },
+          {
+            "new": {
+              "french": "Cela me semble tout à fait insensé. Ce pauvre Cassagnac. Et rien que 400.000 de dot ! le Double après la mort des parents. On dit que c'est beaucoup. Julian dit que c'est le nécessaire, c'est le repos et que ce qui vient en plus est bénéfice tandis que sans ces 20.000 de rente on était exposé à tous les hasards avec des dettes jusqu'au cou. Et après tout, dans un moment de gêne les meubles les plus précieux se vendaient bon marché. Oui, un guéridon en bois de rose vendu comme une table de nuit d'acajou.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 081.0065, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Vous direz ce que vous voudrez, je crois que Cassagnac vaut plus de 20.000 et puis 40.000 francs de rente.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 081.0065, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0066",
+            "set_french": "Je suis émue par ces quelques mots du \"Figaro\". Jamais je n'ai été touchée de ces paroles, de ces choses de prêtres... et puis cette cérémonie a l'air d'avoir été si simple, si digne, si différente des bruyantes ovations de Saint-Augustin. C'est un acte de haute politique que d'avoir ainsi séparé ses deux existences. Il a si bon cœur Cassagnac, il a dû si bien se pénétrer de la sainteté de la cérémonie. Il adorera sa femme, s'il n'aimait pas sa fiancée. Après tout cela doit l'amuser d'avoir affaire à une vierge comme il faut."
+          },
+          {
+            "new": {
+              "french": "Toutes les pudeurs bien naturelles il les trouvera adorables et lui dira : \"vous êtes un ange\" ! avec ces intonations de tendresse infinie et charmante qu'il possède si admirablement. Je suis un peu jalouse. J'ai aussi peur de ses succès. Certes, dit de Daillens, en marchant à côté de cet homme on a l'air de marcher avec un feu d'artifice ou des lanternes vénitiennes.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 5 of 081.0066, which held 5 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce qui est empoignant c'est que toutes les femmes en sont folles. Je voudrais bien distribuer les lettres de faire-part suivantes :",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 5 of 081.0066, which held 5 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "\"Les âmes charitables vous font part de la fin navrante et inattendue de M. Paul de Cassagnac saisi par une fièvre maligne noire et sèche qui lui a sauté au cou et à la suite de laquelle il est tombé dans la fosse commune des dégommés d'où il est impossible de le retirer, c'est pourquoi il n'y aura même pas de funérailles.\"",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 5 of 081.0066, which held 5 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Priez pour lui ! il en a tant besoin. [Rayé: Voici ma bêtise que] j'ai envie de lui écrire en mon propre nom naturellement, je crois que cela fera bien.",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 5 of 081.0066, which held 5 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0067",
+            "set_french": "Dieu sait les idées qui vous viennent quelquefois... à présent je veux me faire une position à Paris, partout, poussée par le désir de... je ne sais au juste quoi, mais qui regarde Cassagnac."
+          },
+          {
+            "new": {
+              "french": "Mouzay et sa fille dînent et je leur raconte que Mlle Acard est bien devenue Mme Paul de Cassagnac mais que M. Paul de Cassagnac est devenu Monsieur Julia Acard, et qu'après ses premières couches il sera très pâle et maigre et que les femmes l'adoreront plus que jamais.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 081.0067, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Après tout ce mariage... sa femme montera la garde pourvu qu'il ne meure pas maintenant le pauvre homme. J'ai l'intention et ce qui est pis la conviction de le retrouver. Il faut qu'il m'apprécie, qu'il me rende justice, qu'il me connaisse telle que je suis dans les deux lettres, telle que je suis en réalité.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 081.0067, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0068",
+            "set_french": "Madame Gavini m'invite à l'Opéra. Multedo a été ici hier et aujourd'hui, je n'ai pas vu cette belle rose en culottes."
+          },
+          {
+            "new": {
+              "french": "Je pense tout le bien que je dis de feu Cassagnac et il me semble qu'il est impossible d'en trouver un autre pareil et que mes sympathies, mes goûts, mon intelligence se lient à cet homme. Il me semble que j'y suis attachée et que cela ira croissant; je ne voudrais rien dire, je me suis tellement souillée par mes plaisanteries passées, que je crains qu'on pense que c'est encore quelque bêtise d'amour... et je suis honteuse de [ne] rien dire. Je ne veux rien affirmer pour ne pas avoir de nouveau à m'excuser. Nous verrons cela dans la suite mais je dois dire ce qui en est maintenant. Il me semble que pour moi il n'y a que lui capable de me comprendre.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais il est mort. Et à présent il est sans doute avec sa femme. Paul de Cassagnac est marié. Cela ne m'empêche pas de concentrer sur lui toutes mes pensées tendres, [Rayé: cela le suivra dans toute son existence, avec en plus un inérêt ] et de m'avouer ce que je n'osais m'avouer par superstition, tant qu'il était vivant.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est-à-dire que je m'y suis peu attachée malgré [moi] et que moralement je me suis blottie auprès de lui et je m'appuie sur sa large poitrine comme pendant la dernière visite à la rue de Boulogne. Je regrette d'avoir écrit cela, je puis changer d'avis, me tromper, ce qui serait une profanation.",
+              "rsr": "Split (paragraph wave): print paragraph 4 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais je le répète, ce n'est pas une toquade, c'est plutôt une Idée par dessus laquelle ont passé et passeront peut-être encore bien des choses pendant qu'elle grandira toujours.",
+              "rsr": "Split (paragraph wave): print paragraph 5 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "[En travers: Je me suis cent fois retenue de vous dire ces bêtises, je les regrette aussitôt après les avoir écrites. Ce sont je vous le répète des fantaisies que la plume alourdit et défigure.]",
+              "rsr": "Split (paragraph wave): print paragraph 6 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne suis pas trop furieuse, je m'y attendais depuis trois mois déjà, je m'y suis habituée; je n'ai pas versé une seule larme pas même de colère. Je regrette d'avoir raconté ces bêtises, je crois après tout que j'avais besoin de déposer sur la tête de quelqu'un le volume d'affection qui m'a été accordé par le ciel. Le placement est fait, je ne suis plus inquiète. Quelle absurdité je dis !",
+              "rsr": "Split (paragraph wave): print paragraph 7 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Non sérieusement vous ne saurez jamais de quelles adorations je serais capable. Je voudrais être double pour que ma seconde moi se prosternât devant la première parce que la première à l'honneur d'être à genoux devant lui. Les anciens ont tort de représenter l'Amour comme ils l'ont fait, ('Amour c'est la femme qui aime. Les gens aux sentiments vulgaires.",
+              "rsr": "Split (paragraph wave): print paragraph 8 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je m'étais pourtant défendu de traiter légèrement les choses sérieuses de l'Amour. On ne devrait écrire ce mot qu'en des cas extrêmes, en des circonstances définitives et j'en plaisante de nouveau pour parler de choses qui après tout peuvent être sérieuses malgré ce que ça aurait de bizarre. J'ai lu des romans de mœurs parisiennes où on trouve des choses bien extraordinaires, dans Balzac même... et alors, il vous vient des idées de mener une intrigue...",
+              "rsr": "Split (paragraph wave): print paragraph 9 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon Dieu, pourvu que vous ne pensiez que je suis tout vulgairement amoureuse de feu - Cassagnac. Vous ne le pensez pas. Ce serait bête et même sale.",
+              "rsr": "Split (paragraph wave): print paragraph 10 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai beaucoup d'affection pour lui, je crains et j'espère que cela va marcher en augmentant et qu'un jour je l'aimerai... Car, à vous dire franchement je n'aimerais pas aimer un autre, il ne le mériterait pas... qui sait... cherchons parmi les célébrités, découvrons un grand homme... ce ne sera jamais ça... Ici il y a le chevalier, [Mot noirci : le matamore ] le Don Juan avec un bon cœur, et le tout est poétisé, embelli, élevé, grandi par ce mot : homme politique.",
+              "rsr": "Split (paragraph wave): print paragraph 11 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et le tout est tombé dans le baquet du mariage ! Que l'on n'excuserait qu'en sa propre faveur.",
+              "rsr": "Split (paragraph wave): print paragraph 12 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais il est à une autre femme... bah ! si j'arrive à l'aimer je l'en séparerai, je le prendrai pour moi.",
+              "rsr": "Split (paragraph wave): print paragraph 13 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais pour le moment il s'agit d'autre chose surtout si je veux vraiment arriver à ces fins assez folles et mauvaises. Il faut être célèbre pour lui donner des regrets, il faut me marier etc. etc. Au fait, cela ne change rien à mes projets, que j'aime ou que je n'aime personne j'agirai de même.",
+              "rsr": "Split (paragraph wave): print paragraph 14 of 14 of 081.0068, which held 14 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0069",
+            "set_french": "Enfin, cette préoccupation n'existe plus. Il est marié c'est fini. Ses succès me pouseront comme me poussent les dessins de Breslau."
+          },
+          {
+            "new": {
+              "french": "Il ne faut rien affirmer, racontons ce qui se passe; ce n'est pas un roman où on appuie sur certaines choses parce qu'on sait comment cela finira.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 081.0069, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Fi ! ce garçon n'aurait pas dû se marier. Ou bien il aime ou il a été entortillé ou il n'est pas ce que je pensais. Il serait, mille fois plus intéressant seul.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 081.0069, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Vendredi, 28 juin 1878"
+      },
+      {
+        "file": "1878-06-29.md",
+        "date": "1878-06-29",
+        "paragraphs": [
+          {
+            "old": "081.0070"
+          },
+          {
+            "old": "081.0071"
+          },
+          {
+            "old": "081.0072"
+          },
+          {
+            "old": "081.0073"
+          },
+          {
+            "old": "081.0074"
+          },
+          {
+            "old": "081.0075"
+          },
+          {
+            "old": "081.0076"
+          },
+          {
+            "old": "081.0077"
+          },
+          {
+            "old": "081.0078"
+          },
+          {
+            "old": "081.0079"
+          },
+          {
+            "old": "081.0080"
+          },
+          {
+            "old": "081.0081"
+          },
+          {
+            "old": "081.0082"
+          },
+          {
+            "old": "081.0083"
+          },
+          {
+            "old": "081.0084"
+          },
+          {
+            "old": "081.0085"
+          },
+          {
+            "old": "081.0086"
+          },
+          {
+            "old": "081.0087"
+          },
+          {
+            "old": "081.0088"
+          },
+          {
+            "old": "081.0089"
+          },
+          {
+            "old": "081.0090"
+          },
+          {
+            "old": "081.0091"
+          },
+          {
+            "old": "081.0092"
+          },
+          {
+            "old": "081.0093"
+          },
+          {
+            "old": "081.0094"
+          },
+          {
+            "old": "081.0095"
+          },
+          {
+            "old": "081.0096"
+          },
+          {
+            "old": "081.0097"
+          },
+          {
+            "old": "081.0098"
+          },
+          {
+            "old": "081.0099"
+          },
+          {
+            "old": "081.0100"
+          },
+          {
+            "old": "081.0101"
+          },
+          {
+            "old": "081.0102"
+          },
+          {
+            "old": "081.0103"
+          },
+          {
+            "old": "081.0104"
+          },
+          {
+            "old": "081.0105"
+          },
+          {
+            "old": "081.0106"
+          },
+          {
+            "old": "081.0107"
+          },
+          {
+            "old": "081.0108"
+          },
+          {
+            "old": "081.0109"
+          },
+          {
+            "old": "081.0110"
+          },
+          {
+            "old": "081.0111"
+          },
+          {
+            "old": "081.0112"
+          },
+          {
+            "old": "081.0113"
+          },
+          {
+            "old": "081.0114"
+          },
+          {
+            "old": "081.0115"
+          },
+          {
+            "old": "081.0116"
+          },
+          {
+            "old": "081.0117"
+          }
+        ],
+        "_first_line": "# Samedi, 29 juin 1878"
+      },
+      {
+        "file": "1878-06-30.md",
+        "date": "1878-06-30",
+        "paragraphs": [
+          {
+            "old": "081.0118"
+          },
+          {
+            "old": "081.0119"
+          },
+          {
+            "old": "081.0120"
+          },
+          {
+            "old": "081.0121"
+          }
+        ],
+        "_first_line": "# Dimanche, 30 juin 1878"
+      },
+      {
+        "file": "1878-07-01.md",
+        "date": "1878-07-01",
+        "paragraphs": [
+          {
+            "old": "081.0122"
+          },
+          {
+            "old": "081.0123"
+          },
+          {
+            "old": "081.0124"
+          },
+          {
+            "old": "081.0125"
+          },
+          {
+            "old": "081.0126"
+          },
+          {
+            "old": "081.0127"
+          },
+          {
+            "old": "081.0128"
+          },
+          {
+            "old": "081.0129"
+          },
+          {
+            "old": "081.0130"
+          },
+          {
+            "old": "081.0131"
+          },
+          {
+            "old": "081.0132"
+          },
+          {
+            "old": "081.0133"
+          },
+          {
+            "old": "081.0134"
+          },
+          {
+            "old": "081.0135"
+          },
+          {
+            "old": "081.0136"
+          },
+          {
+            "old": "081.0137"
+          },
+          {
+            "old": "081.0138"
+          },
+          {
+            "old": "081.0139"
+          },
+          {
+            "old": "081.0140"
+          },
+          {
+            "old": "081.0141"
+          },
+          {
+            "old": "081.0142"
+          },
+          {
+            "old": "081.0143"
+          },
+          {
+            "old": "081.0144"
+          },
+          {
+            "old": "081.0145"
+          },
+          {
+            "old": "081.0146"
+          },
+          {
+            "old": "081.0147"
+          },
+          {
+            "old": "081.0148"
+          },
+          {
+            "old": "081.0149"
+          },
+          {
+            "old": "081.0150"
+          },
+          {
+            "old": "081.0151"
+          },
+          {
+            "old": "081.0152"
+          },
+          {
+            "old": "081.0153"
+          },
+          {
+            "old": "081.0154"
+          },
+          {
+            "old": "081.0155"
+          },
+          {
+            "old": "081.0156"
+          },
+          {
+            "old": "081.0157"
+          },
+          {
+            "old": "081.0158"
+          },
+          {
+            "old": "081.0159"
+          },
+          {
+            "old": "081.0160"
+          },
+          {
+            "old": "081.0161"
+          },
+          {
+            "old": "081.0162"
+          },
+          {
+            "old": "081.0163"
+          },
+          {
+            "old": "081.0164"
+          }
+        ],
+        "_first_line": "# Lundi, 1er juillet 1878"
+      },
+      {
+        "file": "1878-07-02.md",
+        "date": "1878-07-02",
+        "paragraphs": [
+          {
+            "old": "081.0165"
+          },
+          {
+            "old": "081.0166"
+          },
+          {
+            "old": "081.0167"
+          },
+          {
+            "old": "081.0168"
+          },
+          {
+            "old": "081.0169"
+          },
+          {
+            "old": "081.0170"
+          },
+          {
+            "old": "081.0171"
+          },
+          {
+            "old": "081.0172"
+          },
+          {
+            "old": "081.0173"
+          },
+          {
+            "old": "081.0174"
+          },
+          {
+            "old": "081.0175"
+          },
+          {
+            "old": "081.0176"
+          },
+          {
+            "old": "081.0177"
+          },
+          {
+            "old": "081.0178"
+          },
+          {
+            "old": "081.0179"
+          },
+          {
+            "old": "081.0180"
+          },
+          {
+            "old": "081.0181"
+          }
+        ],
+        "_first_line": "# Mardi, 2 juillet 1878"
+      },
+      {
+        "file": "1878-07-03.md",
+        "date": "1878-07-03",
+        "paragraphs": [
+          {
+            "old": "081.0182"
+          },
+          {
+            "old": "081.0183"
+          },
+          {
+            "old": "081.0184"
+          },
+          {
+            "old": "081.0185"
+          },
+          {
+            "old": "081.0186"
+          },
+          {
+            "old": "081.0187"
+          },
+          {
+            "old": "081.0188"
+          },
+          {
+            "old": "081.0189"
+          },
+          {
+            "old": "081.0190"
+          },
+          {
+            "old": "081.0191"
+          },
+          {
+            "old": "081.0192"
+          },
+          {
+            "old": "081.0193"
+          },
+          {
+            "old": "081.0194"
+          },
+          {
+            "old": "081.0195"
+          },
+          {
+            "old": "081.0196"
+          },
+          {
+            "old": "081.0197"
+          },
+          {
+            "old": "081.0198"
+          },
+          {
+            "old": "081.0199"
+          },
+          {
+            "old": "081.0200"
+          },
+          {
+            "old": "081.0201"
+          },
+          {
+            "old": "081.0202"
+          },
+          {
+            "old": "081.0203"
+          },
+          {
+            "old": "081.0204"
+          },
+          {
+            "old": "081.0205"
+          },
+          {
+            "old": "081.0206"
+          },
+          {
+            "old": "081.0207"
+          },
+          {
+            "old": "081.0208"
+          },
+          {
+            "old": "081.0209"
+          },
+          {
+            "old": "081.0210"
+          },
+          {
+            "old": "081.0211"
+          },
+          {
+            "old": "081.0212"
+          },
+          {
+            "old": "081.0213"
+          },
+          {
+            "old": "081.0214"
+          },
+          {
+            "old": "081.0215"
+          },
+          {
+            "old": "081.0216"
+          },
+          {
+            "old": "081.0217"
+          },
+          {
+            "old": "081.0218"
+          },
+          {
+            "old": "081.0219"
+          },
+          {
+            "old": "081.0220"
+          },
+          {
+            "old": "081.0221"
+          },
+          {
+            "old": "081.0222"
+          },
+          {
+            "old": "081.0223"
+          },
+          {
+            "old": "081.0224"
+          },
+          {
+            "old": "081.0225"
+          },
+          {
+            "old": "081.0226"
+          },
+          {
+            "old": "081.0227"
+          },
+          {
+            "old": "081.0228"
+          },
+          {
+            "old": "081.0229"
+          },
+          {
+            "old": "081.0230"
+          },
+          {
+            "old": "081.0231"
+          },
+          {
+            "old": "081.0232"
+          },
+          {
+            "old": "081.0233"
+          },
+          {
+            "old": "081.0234"
+          },
+          {
+            "old": "081.0235"
+          },
+          {
+            "old": "081.0236"
+          },
+          {
+            "old": "081.0237"
+          },
+          {
+            "old": "081.0238"
+          },
+          {
+            "old": "081.0239"
+          },
+          {
+            "old": "081.0240"
+          },
+          {
+            "old": "081.0241"
+          },
+          {
+            "old": "081.0242"
+          },
+          {
+            "old": "081.0243"
+          },
+          {
+            "old": "081.0244"
+          },
+          {
+            "old": "081.0245"
+          },
+          {
+            "old": "081.0246"
+          }
+        ],
+        "_first_line": "# Mercredi, 3 juillet 1878"
+      },
+      {
+        "file": "1878-07-04.md",
+        "date": "1878-07-04",
+        "paragraphs": [
+          {
+            "old": "081.0247"
+          },
+          {
+            "old": "081.0248"
+          },
+          {
+            "old": "081.0249"
+          },
+          {
+            "old": "081.0250"
+          },
+          {
+            "old": "081.0251"
+          },
+          {
+            "old": "081.0252"
+          },
+          {
+            "old": "081.0253"
+          },
+          {
+            "old": "081.0254"
+          },
+          {
+            "old": "081.0255"
+          },
+          {
+            "old": "081.0256"
+          },
+          {
+            "old": "081.0257"
+          },
+          {
+            "old": "081.0258"
+          }
+        ],
+        "_first_line": "# Jeudi, 4 juillet 1878"
+      },
+      {
+        "file": "1878-07-05.md",
+        "date": "1878-07-05",
+        "paragraphs": [
+          {
+            "old": "081.0259"
+          },
+          {
+            "old": "081.0260"
+          },
+          {
+            "old": "081.0261"
+          },
+          {
+            "old": "081.0262"
+          },
+          {
+            "old": "081.0263"
+          },
+          {
+            "old": "081.0264"
+          },
+          {
+            "old": "081.0265"
+          },
+          {
+            "old": "081.0266"
+          },
+          {
+            "old": "081.0267"
+          },
+          {
+            "old": "081.0268"
+          },
+          {
+            "old": "081.0269"
+          },
+          {
+            "old": "081.0270"
+          },
+          {
+            "old": "081.0271"
+          },
+          {
+            "old": "081.0272"
+          },
+          {
+            "old": "081.0273"
+          },
+          {
+            "old": "081.0274"
+          },
+          {
+            "old": "081.0275"
+          },
+          {
+            "old": "081.0276"
+          },
+          {
+            "old": "081.0277"
+          },
+          {
+            "old": "081.0278"
+          },
+          {
+            "old": "081.0279"
+          },
+          {
+            "old": "081.0280"
+          },
+          {
+            "old": "081.0281"
+          },
+          {
+            "old": "081.0282"
+          },
+          {
+            "old": "081.0283"
+          },
+          {
+            "old": "081.0284"
+          },
+          {
+            "old": "081.0285"
+          },
+          {
+            "old": "081.0286"
+          },
+          {
+            "old": "081.0287"
+          },
+          {
+            "old": "081.0288"
+          },
+          {
+            "old": "081.0289"
+          },
+          {
+            "old": "081.0290"
+          },
+          {
+            "old": "081.0291"
+          },
+          {
+            "old": "081.0292"
+          },
+          {
+            "old": "081.0293"
+          },
+          {
+            "old": "081.0294"
+          },
+          {
+            "old": "081.0295"
+          },
+          {
+            "old": "081.0296"
+          },
+          {
+            "old": "081.0297"
+          },
+          {
+            "old": "081.0298"
+          },
+          {
+            "old": "081.0299"
+          },
+          {
+            "old": "081.0300"
+          },
+          {
+            "old": "081.0301"
+          }
+        ],
+        "_first_line": "# Vendredi, 5 juillet 1878"
+      },
+      {
+        "file": "1878-07-06.md",
+        "date": "1878-07-06",
+        "paragraphs": [
+          {
+            "old": "081.0302"
+          },
+          {
+            "old": "081.0303"
+          },
+          {
+            "old": "081.0304"
+          },
+          {
+            "old": "081.0305"
+          },
+          {
+            "old": "081.0306"
+          },
+          {
+            "old": "081.0307"
+          },
+          {
+            "old": "081.0308"
+          },
+          {
+            "old": "081.0309"
+          },
+          {
+            "old": "081.0310"
+          },
+          {
+            "old": "081.0311"
+          },
+          {
+            "old": "081.0312"
+          },
+          {
+            "old": "081.0313"
+          }
+        ],
+        "_first_line": "# Samedi, 6 juillet 1878"
+      },
+      {
+        "file": "1878-07-07.md",
+        "date": "1878-07-07",
+        "paragraphs": [
+          {
+            "old": "081.0314"
+          }
+        ],
+        "_first_line": "# Dimanche 7 juillet 1878"
+      },
+      {
+        "file": "1878-07-08.md",
+        "date": "1878-07-08",
+        "paragraphs": [
+          {
+            "old": "081.0315"
+          },
+          {
+            "old": "081.0316"
+          },
+          {
+            "old": "081.0317"
+          },
+          {
+            "old": "081.0318"
+          },
+          {
+            "old": "081.0319"
+          },
+          {
+            "old": "081.0320"
+          },
+          {
+            "old": "081.0321"
+          },
+          {
+            "old": "081.0322"
+          },
+          {
+            "old": "081.0323"
+          },
+          {
+            "old": "081.0324"
+          },
+          {
+            "old": "081.0325"
+          },
+          {
+            "old": "081.0326"
+          },
+          {
+            "old": "081.0327"
+          },
+          {
+            "old": "081.0328"
+          },
+          {
+            "old": "081.0329"
+          },
+          {
+            "old": "081.0330"
+          },
+          {
+            "old": "081.0331"
+          },
+          {
+            "old": "081.0332"
+          },
+          {
+            "old": "081.0333"
+          },
+          {
+            "old": "081.0334"
+          },
+          {
+            "old": "081.0335"
+          }
+        ],
+        "_first_line": "# Lundi, 8 juillet 1878"
+      },
+      {
+        "file": "1878-07-09.md",
+        "date": "1878-07-09",
+        "paragraphs": [
+          {
+            "old": "081.0336"
+          },
+          {
+            "old": "081.0337"
+          },
+          {
+            "old": "081.0338"
+          },
+          {
+            "old": "081.0339"
+          },
+          {
+            "old": "081.0340"
+          }
+        ],
+        "_first_line": "# Mardi, 9 juillet 1878"
+      },
+      {
+        "file": "1878-07-10.md",
+        "date": "1878-07-10",
+        "paragraphs": [
+          {
+            "old": "081.0341"
+          },
+          {
+            "old": "081.0342"
+          },
+          {
+            "old": "081.0343"
+          },
+          {
+            "old": "081.0344"
+          },
+          {
+            "old": "081.0345"
+          },
+          {
+            "old": "081.0346"
+          },
+          {
+            "old": "081.0347"
+          },
+          {
+            "old": "081.0348"
+          },
+          {
+            "old": "081.0349"
+          },
+          {
+            "old": "081.0350"
+          },
+          {
+            "old": "081.0351"
+          },
+          {
+            "old": "081.0352"
+          },
+          {
+            "old": "081.0353"
+          },
+          {
+            "old": "081.0354"
+          },
+          {
+            "old": "081.0355"
+          }
+        ],
+        "_first_line": "# Mercredi, 10 juillet 1878"
+      },
+      {
+        "file": "1878-07-11.md",
+        "date": "1878-07-11",
+        "paragraphs": [
+          {
+            "old": "081.0356"
+          },
+          {
+            "old": "081.0357"
+          },
+          {
+            "old": "081.0358"
+          },
+          {
+            "old": "081.0359"
+          },
+          {
+            "old": "081.0360"
+          },
+          {
+            "old": "081.0361"
+          },
+          {
+            "old": "081.0362"
+          },
+          {
+            "old": "081.0363"
+          }
+        ],
+        "_first_line": "# Jeudi, 11 juillet 1878"
+      },
+      {
+        "file": "1878-07-12.md",
+        "date": "1878-07-12",
+        "paragraphs": [
+          {
+            "old": "081.0364"
+          },
+          {
+            "old": "081.0365"
+          },
+          {
+            "old": "081.0366"
+          },
+          {
+            "old": "081.0367"
+          },
+          {
+            "old": "081.0368"
+          },
+          {
+            "old": "081.0369"
+          }
+        ],
+        "_first_line": "# Vendredi, 12 juillet 1878"
+      },
+      {
+        "file": "1878-07-13.md",
+        "date": "1878-07-13",
+        "paragraphs": [
+          {
+            "old": "081.0370"
+          },
+          {
+            "old": "081.0371"
+          },
+          {
+            "old": "081.0372"
+          },
+          {
+            "old": "081.0373"
+          },
+          {
+            "old": "081.0374"
+          },
+          {
+            "old": "081.0375"
+          }
+        ],
+        "_first_line": "# Samedi, 13 juillet 1878"
+      },
+      {
+        "file": "1878-07-14.md",
+        "date": "1878-07-14",
+        "paragraphs": [
+          {
+            "old": "081.0376"
+          },
+          {
+            "old": "081.0377"
+          },
+          {
+            "old": "081.0378"
+          },
+          {
+            "old": "081.0379"
+          },
+          {
+            "old": "081.0380"
+          },
+          {
+            "old": "081.0381"
+          },
+          {
+            "old": "081.0382"
+          },
+          {
+            "old": "081.0383"
+          },
+          {
+            "old": "081.0384"
+          },
+          {
+            "old": "081.0385"
+          },
+          {
+            "old": "081.0386"
+          },
+          {
+            "old": "081.0387"
+          },
+          {
+            "old": "081.0388"
+          },
+          {
+            "old": "081.0389"
+          },
+          {
+            "old": "081.0390"
+          },
+          {
+            "old": "081.0391"
+          },
+          {
+            "old": "081.0392"
+          },
+          {
+            "old": "081.0393"
+          },
+          {
+            "old": "081.0394"
+          },
+          {
+            "old": "081.0395"
+          },
+          {
+            "old": "081.0396"
+          },
+          {
+            "old": "081.0397"
+          },
+          {
+            "old": "081.0398"
+          },
+          {
+            "old": "081.0399"
+          },
+          {
+            "old": "081.0400"
+          },
+          {
+            "old": "081.0401"
+          },
+          {
+            "old": "081.0402"
+          }
+        ],
+        "_first_line": "# Dimanche, 14 juillet 1878"
+      },
+      {
+        "file": "1878-07-15.md",
+        "date": "1878-07-15",
+        "paragraphs": [
+          {
+            "old": "081.0403"
+          },
+          {
+            "old": "081.0404"
+          },
+          {
+            "old": "081.0405"
+          },
+          {
+            "old": "081.0406",
+            "set_french": "Peut-être est-ce un petit sournois... Mme Abaza le croit... en voilà encore une, je vais vous la peindre; on parlait du comte Protassoff-Bachmétieff, qui a failli épouser Mme Doubelt."
+          },
+          {
+            "new": {
+              "french": "- C'est un homme dont on peut être bien amoureuse, dit Mme Abaza avec conviction, il n'a pas d'esprit c'est vrai mais il est élégant et c'est un homme de salon, un homme chic[^2] enfin.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0406, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0407"
+          },
+          {
+            "old": "081.0408"
+          },
+          {
+            "old": "081.0409"
+          }
+        ],
+        "_first_line": "# Lundi, 15 juillet 1878"
+      },
+      {
+        "file": "1878-07-16.md",
+        "date": "1878-07-16",
+        "paragraphs": [
+          {
+            "old": "081.0410"
+          },
+          {
+            "old": "081.0411"
+          },
+          {
+            "old": "081.0412"
+          },
+          {
+            "old": "081.0413"
+          },
+          {
+            "old": "081.0414"
+          },
+          {
+            "old": "081.0415"
+          },
+          {
+            "old": "081.0416"
+          },
+          {
+            "old": "081.0417"
+          },
+          {
+            "old": "081.0418"
+          },
+          {
+            "old": "081.0419"
+          },
+          {
+            "old": "081.0420"
+          },
+          {
+            "old": "081.0421"
+          },
+          {
+            "old": "081.0422"
+          }
+        ],
+        "_first_line": "# Mardi, 16 juillet 1878"
+      },
+      {
+        "file": "1878-07-17.md",
+        "date": "1878-07-17",
+        "paragraphs": [
+          {
+            "old": "081.0423"
+          },
+          {
+            "old": "081.0424"
+          },
+          {
+            "old": "081.0425"
+          },
+          {
+            "old": "081.0426"
+          },
+          {
+            "old": "081.0427"
+          },
+          {
+            "old": "081.0428"
+          }
+        ],
+        "_first_line": "# Mercredi, 17 juillet 1878"
+      },
+      {
+        "file": "1878-07-18.md",
+        "date": "1878-07-18",
+        "paragraphs": [
+          {
+            "old": "081.0429"
+          },
+          {
+            "old": "081.0430"
+          },
+          {
+            "old": "081.0431"
+          },
+          {
+            "old": "081.0432"
+          },
+          {
+            "old": "081.0433",
+            "set_french": "Multedo écrit à maman... elle m'envoie cette lettre où il ne fait que parler de son duel manqué et demander de mes nouvelles."
+          },
+          {
+            "new": {
+              "french": "Cette phrase est incomparable, jugez-en: \"J'ai été assisté par *deux hommes politiques* qui ont très bien mené l'affaire\". N'est-ce pas pyramidal ce beau jeune homme assisté de ces deux hommes politiques qui ont si bien mené l'affaire ! Dis-moi qui tu hantes... etc.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 081.0433, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je regrette que ce pauvre garçon écrive des choses si grotesques.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 081.0433, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0434"
+          },
+          {
+            "old": "081.0435"
+          },
+          {
+            "old": "081.0436"
+          },
+          {
+            "old": "081.0437"
+          }
+        ],
+        "_first_line": "# Jeudi, 18 juillet 1878"
+      },
+      {
+        "file": "1878-07-19.md",
+        "date": "1878-07-19",
+        "paragraphs": [
+          {
+            "old": "081.0438"
+          },
+          {
+            "old": "081.0439"
+          },
+          {
+            "old": "081.0440"
+          },
+          {
+            "old": "081.0441"
+          }
+        ],
+        "_first_line": "# Vendredi, 19 juillet 1878"
+      },
+      {
+        "file": "1878-07-20.md",
+        "date": "1878-07-20",
+        "paragraphs": [
+          {
+            "old": "081.0442"
+          },
+          {
+            "old": "081.0443"
+          },
+          {
+            "old": "081.0444"
+          },
+          {
+            "old": "081.0445"
+          },
+          {
+            "old": "081.0446"
+          },
+          {
+            "old": "081.0447",
+            "set_french": "Rosalie tout en passant, a compté mes ennemis : Marcuard, Multedo, Paul de Cassagnac."
+          },
+          {
+            "new": {
+              "french": "Tout le monde, dit-elle, tout le monde excepté vous, voyait pourquoi il venait et vous lui jouiez des farces ! je n'ose pas croire à tant de belles choses *rétrospectives,* terriblement inutiles et affreusement regrettables ! Mais je le répète et je répéterai longtemps que je me suis perdue par ma faute. Certes si on le demandait au grand homme il nierait et il ne pourrait faire autrement, mais je suis persuadée qu'il serait content de faire une affaire à raison de 70.000 francs. Peut-être même ne le nierait-il pas, c'est si naturel après tout !",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0447, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Samedi, 20 juillet 1878"
+      },
+      {
+        "file": "1878-07-21.md",
+        "date": "1878-07-21",
+        "paragraphs": [
+          {
+            "old": "081.0448"
+          },
+          {
+            "old": "081.0449"
+          },
+          {
+            "old": "081.0450"
+          },
+          {
+            "old": "081.0451"
+          },
+          {
+            "old": "081.0452"
+          },
+          {
+            "old": "081.0453"
+          },
+          {
+            "old": "081.0454"
+          },
+          {
+            "old": "081.0455"
+          }
+        ],
+        "_first_line": "# Dimanche, 21 juillet 1878"
+      },
+      {
+        "file": "1878-07-22.md",
+        "date": "1878-07-22",
+        "paragraphs": [
+          {
+            "old": "081.0456"
+          },
+          {
+            "old": "081.0457"
+          },
+          {
+            "old": "081.0458"
+          },
+          {
+            "old": "081.0459"
+          },
+          {
+            "old": "081.0460"
+          },
+          {
+            "old": "081.0461"
+          },
+          {
+            "old": "081.0462"
+          },
+          {
+            "old": "081.0463"
+          },
+          {
+            "old": "081.0464"
+          },
+          {
+            "old": "081.0465"
+          },
+          {
+            "old": "081.0466"
+          },
+          {
+            "old": "081.0467"
+          },
+          {
+            "old": "081.0468"
+          }
+        ],
+        "_first_line": "# Lundi, 22 juillet 1878"
+      },
+      {
+        "file": "1878-07-23.md",
+        "date": "1878-07-23",
+        "paragraphs": [
+          {
+            "old": "081.0469"
+          }
+        ],
+        "_first_line": "# Mardi 23 juillet 1878"
+      },
+      {
+        "file": "1878-07-24.md",
+        "date": "1878-07-24",
+        "paragraphs": [
+          {
+            "old": "081.0470"
+          },
+          {
+            "old": "081.0471"
+          },
+          {
+            "old": "081.0472"
+          },
+          {
+            "old": "081.0473"
+          },
+          {
+            "old": "081.0474"
+          },
+          {
+            "old": "081.0475"
+          },
+          {
+            "old": "081.0476"
+          },
+          {
+            "old": "081.0477"
+          },
+          {
+            "old": "081.0478"
+          },
+          {
+            "old": "081.0479"
+          },
+          {
+            "old": "081.0480"
+          },
+          {
+            "old": "081.0481"
+          },
+          {
+            "old": "081.0482",
+            "set_french": "Le Dr. Michel dit à maman qu'on va imprimer dans \"L'Evènement\" quelque chose de joli sur Cassagnac et sur sa femme comme quoi elle aurait été la maîtresse de Clément Laurier..."
+          },
+          {
+            "new": {
+              "french": "Clément Laurier, vous vous souvenez bien qui prêtait sa femme à Gambetta pendant que celui-ci était Dictateur et qui a fait cette énorme fortune... [Mots noircis: à la suite] une espèce d'on ne sait trop quoi, orléaniste je crois.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0482, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Mercredi, 24 juillet 1878"
+      },
+      {
+        "file": "1878-07-25.md",
+        "date": "1878-07-25",
+        "paragraphs": [
+          {
+            "old": "081.0483"
+          },
+          {
+            "old": "081.0484"
+          },
+          {
+            "old": "081.0485"
+          }
+        ],
+        "_first_line": "# Jeudi, 25 juillet 1878"
+      },
+      {
+        "file": "1878-07-26.md",
+        "date": "1878-07-26",
+        "paragraphs": [
+          {
+            "old": "081.0486"
+          },
+          {
+            "old": "081.0487"
+          },
+          {
+            "old": "081.0488"
+          },
+          {
+            "old": "081.0489"
+          },
+          {
+            "old": "081.0490"
+          },
+          {
+            "old": "081.0491"
+          }
+        ],
+        "_first_line": "# Vendredi, 26 juillet 1878"
+      },
+      {
+        "file": "1878-07-27.md",
+        "date": "1878-07-27",
+        "paragraphs": [
+          {
+            "old": "081.0492"
+          },
+          {
+            "old": "081.0493"
+          }
+        ],
+        "_first_line": "# Samedi, 27 juillet 1878"
+      },
+      {
+        "file": "1878-07-28.md",
+        "date": "1878-07-28",
+        "paragraphs": [
+          {
+            "old": "081.0494"
+          },
+          {
+            "old": "081.0495"
+          },
+          {
+            "old": "081.0496",
+            "set_french": "Et aujourd'hui les princes de Reuss sont venus visiter nos nigauds qui sont trois. Je ne les ai pas seulement vus par indifférence ou par genre."
+          },
+          {
+            "new": {
+              "french": "On joue à la roulette. Le gros Afrossimoff perd, prend du thé, souffle, si bonhomme ! Le docteur, sa femme anglaise, Mme Abaza, Mme Outine, Mme Antonsky, Mme Rembelinsky maladive, lente, maigre, brune extrêmement blanche et rose (naturelle) aux cheveux noirs et au nez retroussé, ma tante et enfin moi complètement fatiguée par les bains et par cette société incolore...",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0496, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Dimanche, 28 juillet 1878"
+      },
+      {
+        "file": "1878-07-29.md",
+        "date": "1878-07-29",
+        "paragraphs": [
+          {
+            "old": "081.0497"
+          },
+          {
+            "old": "081.0498"
+          },
+          {
+            "old": "081.0499",
+            "set_french": "J'ai mes affaires et je crois que cela va terminer la cure de Soden qui a cela de bon que ayant beaucoup de temps à moi j'ai restauré mes mains et mes pieds en soignant les ongles qui jusqu'à présent étaient aussi laids que possible et n'étaient que propres, ce qui n'est vraiment pas assez pour une femme comme il faut."
+          },
+          {
+            "new": {
+              "french": "Je me promène avec tout le monde et fais des plaisanteries assez ordinaires qui amusent ces gens qui trouvent fabuleux de faire des grimaces dans le dos des vieux allemands ou d'envoyer des baisers aux passants, quand ceux-ci ne le voient pas et quand il n'y a pour témoins que des arbres. Je suis folle mais prudente, rassurez-vous.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0499, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Lundi, 29 juillet 1878"
+      },
+      {
+        "file": "1878-07-30.md",
+        "date": "1878-07-30",
+        "paragraphs": [
+          {
+            "old": "081.0500"
+          },
+          {
+            "old": "081.0501"
+          }
+        ],
+        "_first_line": "# Mardi, 30 juillet 1878"
+      },
+      {
+        "file": "1878-07-31.md",
+        "date": "1878-07-31",
+        "paragraphs": [
+          {
+            "old": "081.0502"
+          },
+          {
+            "old": "081.0503"
+          },
+          {
+            "old": "081.0504"
+          },
+          {
+            "old": "081.0505"
+          },
+          {
+            "old": "081.0506"
+          }
+        ],
+        "_first_line": "# Mercredi, 31 juillet 1878"
+      },
+      {
+        "file": "1878-08-01.md",
+        "date": "1878-08-01",
+        "paragraphs": [
+          {
+            "old": "081.0507"
+          },
+          {
+            "old": "081.0508"
+          },
+          {
+            "old": "081.0509"
+          },
+          {
+            "old": "081.0510"
+          },
+          {
+            "old": "081.0511"
+          },
+          {
+            "old": "081.0512"
+          },
+          {
+            "old": "081.0513"
+          },
+          {
+            "old": "081.0514"
+          },
+          {
+            "old": "081.0515"
+          },
+          {
+            "old": "081.0516"
+          },
+          {
+            "old": "081.0517"
+          }
+        ],
+        "_first_line": "# Jeudi, 1er août 1878"
+      },
+      {
+        "file": "1878-08-02.md",
+        "date": "1878-08-02",
+        "paragraphs": [
+          {
+            "old": "081.0518"
+          },
+          {
+            "old": "081.0519"
+          },
+          {
+            "old": "081.0520"
+          },
+          {
+            "old": "081.0521"
+          },
+          {
+            "old": "081.0522"
+          },
+          {
+            "old": "081.0523"
+          },
+          {
+            "old": "081.0524"
+          },
+          {
+            "old": "081.0525"
+          },
+          {
+            "old": "081.0526"
+          },
+          {
+            "old": "081.0527"
+          },
+          {
+            "old": "081.0528"
+          },
+          {
+            "old": "081.0529"
+          },
+          {
+            "old": "081.0530",
+            "set_french": "Voilà ce que me donne chaud au cœur et froid dans le dos, au surplus cela me fait dire que j'ai deux onces de tendresse pour Auguste... le nom commence par un A, c'est déjà un signe..."
+          },
+          {
+            "new": {
+              "french": "Audiffret, Antonelli, Alexandre, Alfred... un signe non que j'en sois amoureuse mais que je puis avoir affaire à lui. Car... Alfred je l'exécre au point que je ne touche pas ses lettres sans m'envelopper les doigts dans un mouchoir. Des vers, des chansons.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 2 of 081.0530, which held 2 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0531"
+          },
+          {
+            "old": "081.0532"
+          },
+          {
+            "old": "081.0533"
+          },
+          {
+            "old": "081.0534"
+          },
+          {
+            "old": "081.0535"
+          },
+          {
+            "old": "081.0536"
+          },
+          {
+            "old": "081.0537"
+          },
+          {
+            "old": "081.0538"
+          }
+        ],
+        "_first_line": "# Vendredi, 2 août 1878"
+      },
+      {
+        "file": "1878-08-03.md",
+        "date": "1878-08-03",
+        "paragraphs": [
+          {
+            "old": "081.0539"
+          },
+          {
+            "old": "081.0540"
+          },
+          {
+            "old": "081.0541"
+          },
+          {
+            "old": "081.0542",
+            "set_french": "M. Mühle est vexé car en refusant de danser avec un jeune homme si blanc et si rose j'ai vexé ce jeune homme qui est aussitôt parti de Soden pour Konigstein."
+          },
+          {
+            "new": {
+              "french": "Il n'avait pas le choix, outre nous il y avait cinq ou six dames à l'air et puis des hommes.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 081.0542, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "On a de bonnes idées mais pas d'énergie. Le Docteur propose de faire jouer une polonaise et de l'exécuter à nous seuls; puis on veut faire jouer l'hymme russe et de défiler en triomphe. La sortie a du reste été assez réussie, aux sons du galop nous avons quitté la salle deux par deux en galopant un tant soit peu... M. Mühle tout à fait ivre quitte la cave et Mme Mühle quitte sa cuisine, ils vont se rencontrer dans les corridors et je crains que madame ne donne une chasse à monsieur à cause de la trop mince recette. Je n'ai pas besoin de vous dire, quelque Dourassoff que vous soyez, que tout le monde a été habillé comme le matin et que j'ai pris du thé en tournant le dos à des Allemands qui pour la plupart avaient leurs pantalons retroussés.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 081.0542, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0543",
+            "set_french": "Mon prince n'y est même pas entré, ce n'était rien pour lui, à peine était-ce possible pour une cohorte de douze à quinze personnes."
+          },
+          {
+            "new": {
+              "french": "Ah ! Soden. Dourassoff égaye la situation. Il pleuvait, il rentre et se plaint d'être tout trempé: [Mots noircis : J'ai sali et mouillé mon] pantalon ! dit-il dans ce genre tous les jours.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 081.0543, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je voudrais bien trouver l'allemand mélodieux... je le supporte à peine parlé par mon prince... ce pauvre prince est bien, bien malade.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 081.0543, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          }
+        ],
+        "_first_line": "# Samedi, 3 août 1878"
+      },
+      {
+        "file": "1878-08-04.md",
+        "date": "1878-08-04",
+        "paragraphs": [
+          {
+            "old": "081.0544"
+          },
+          {
+            "old": "081.0545"
+          },
+          {
+            "old": "081.0546"
+          },
+          {
+            "old": "081.0547"
+          },
+          {
+            "old": "081.0548"
+          },
+          {
+            "old": "081.0549"
+          },
+          {
+            "old": "081.0550"
+          },
+          {
+            "old": "081.0551",
+            "set_french": "Le baron Schenk (celui d'hier) est le plus grand fonctionnaire du pays, gouverneur ou autre chose... je ne sais au juste. Le prince Ourousoff le connaît, il n'a cessé de lui dire que la position qu'il occupait si jeune était vraiment trop d'honneur, qu'il ne croit pas avoir mérité et que lui a valu la bonté de l'Empereur. Mais ceci n'est que la préface. Ce baron est amoureux d'une demoiselle et pour faire sa connaissance il a organisé le bal d'hier... mais comme on lui avait dit dans le pays que cette jeune fille était aimée d'un autre jeune homme il alla trouver ce monsieur et avec la franchise que comportait la circonstance il le pria de lui dire la vérité et si ce n'était qu'un racontar de Soden, s'il n'aimait pas la demoiselle [Noirci: de lui avouer] l'autorisation de se présenter... mais si au contraire c'était vrai de le lui avouer, dans ce cas sa loyauté, son honnêteté lui défendrait de contrecarrer les chances de l'autre qui avait le droit de priorité. Le monsieur l'assura qu'il n'était nullement amoureux (pauvre jeune fille) et lui permit de se présenter autant qu'il le voudrait. La demoiselle, c'est moi, le monsieur c'est... Dourassoff."
+          },
+          {
+            "new": {
+              "french": "Amen.",
+              "rsr": "Split (paragraph wave): print paragraph 2 of 3 of 081.0551, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "new": {
+              "french": "Froissé dit-on de mon refus mon amoureux s'en alla de suite de Soden, sa calèche n'était heureusement pas encore dételée.",
+              "rsr": "Split (paragraph wave): print paragraph 3 of 3 of 081.0551, which held 3 printed paragraphs under one ID (Mon Journal t.12; tome12.docx; split points checked by the survey on the docx and the scan indentation)."
+            }
+          },
+          {
+            "old": "081.0552"
+          },
+          {
+            "old": "081.0553"
+          },
+          {
+            "old": "081.0554"
+          },
+          {
+            "old": "081.0555"
+          }
+        ],
+        "_first_line": "# Dimanche, 4 août 1878"
+      },
+      {
+        "file": "1878-08-05.md",
+        "date": "1878-08-05",
+        "paragraphs": [
+          {
+            "old": "081.0556"
+          },
+          {
+            "old": "081.0557"
+          },
+          {
+            "old": "081.0558"
+          },
+          {
+            "old": "081.0559"
+          }
+        ],
+        "_first_line": "# Lundi, 5 août 1878"
+      },
+      {
+        "file": "1878-08-06.md",
+        "date": "1878-08-06",
+        "paragraphs": [
+          {
+            "old": "081.0560"
+          },
+          {
+            "old": "081.0561"
+          },
+          {
+            "old": "081.0562"
+          },
+          {
+            "old": "081.0563"
+          },
+          {
+            "old": "081.0564"
+          },
+          {
+            "old": "081.0565"
+          },
+          {
+            "old": "081.0566"
+          },
+          {
+            "old": "081.0567"
+          },
+          {
+            "old": "081.0568"
+          },
+          {
+            "old": "081.0569"
+          },
+          {
+            "old": "081.0570"
+          },
+          {
+            "old": "081.0571"
+          },
+          {
+            "old": "081.0572"
+          },
+          {
+            "old": "081.0573"
+          },
+          {
+            "old": "081.0574"
+          },
+          {
+            "old": "081.0575"
+          },
+          {
+            "old": "081.0576"
+          },
+          {
+            "old": "081.0577"
+          },
+          {
+            "old": "081.0578"
+          }
+        ],
+        "_first_line": "# Mardi, 6 août 1878"
+      },
+      {
+        "file": "1878-08-07.md",
+        "date": "1878-08-07",
+        "paragraphs": [
+          {
+            "old": "081.0579"
+          },
+          {
+            "old": "081.0580"
+          },
+          {
+            "old": "081.0581"
+          },
+          {
+            "old": "081.0582"
+          },
+          {
+            "old": "081.0583"
+          },
+          {
+            "old": "081.0584"
+          },
+          {
+            "old": "081.0585"
+          },
+          {
+            "old": "081.0586"
+          },
+          {
+            "old": "081.0587"
+          },
+          {
+            "old": "081.0588"
+          },
+          {
+            "old": "081.0589"
+          }
+        ],
+        "_first_line": "# Mercredi, 7 août 1878"
+      },
+      {
+        "file": "1878-08-08.md",
+        "date": "1878-08-08",
+        "paragraphs": [
+          {
+            "old": "081.0590"
+          },
+          {
+            "old": "081.0591"
+          },
+          {
+            "old": "081.0592"
+          },
+          {
+            "old": "081.0593"
+          },
+          {
+            "old": "081.0594"
+          },
+          {
+            "old": "081.0595"
+          },
+          {
+            "old": "081.0596"
+          }
+        ],
+        "_first_line": "# Jeudi, 8 août 1878 - suite..."
+      }
+    ]
+  }
+}

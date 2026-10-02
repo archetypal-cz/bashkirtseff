@@ -114,7 +114,7 @@ This passage reveals:
 - Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0166 %%, echoed in %% 102.0012 %%)
 - Correctly recommended Soden spa for Marie's throat: "Ce coquin de Walitsky est un habile homme, il s'entend a toutes les maladies" (%% 073.0242 %%)
 - Treated external patients in Nice: "il a la tous ses malades, tous ses amis" (%% 077.0195 %%)
-- Served as witness to grandfather's will alongside Patton, Orgesko, Bihovetz, and Anitchkoff (%% 082.0162 %%)
+- Served as witness to grandfather's will alongside Patton, Orgesko, Bihovetz, and Anitchkoff (%% 082.0167 %%)
 - Nursed grandfather during paralysis: "Walitsky le cher Walitsky court et soigne et grogne et console" (%% 076.0357 %%)
 
 %% GLO_WALITSKY.0018 %%
@@ -260,13 +260,13 @@ Walitsky's death became a touchstone for Marie -- a measure against which she ga
 - **March 1878**: "Walitsky est mort, Pincio est perdu... et moi je suis ennuyee et triste" (%% 078.0095 %%)
 - **March 1878**: Comparing grief: "le perdre me fait peut-etre autant de peine que la mort de Walitsky" (about her lost dog Pincio, %% 078.0119 %%)
 - **June 1878**: On Cassagnac's marriage: "me contrarie comme la mort de Walitsky" (%% 080.0078 %%)
-- **June 1878**: "C'est comme la mort de ce pauvre Walitsky, je realiserai difficilement la mort de ce pauvre Cassagnac" (%% 081.0440 %%)
-- **July 1878**: "Je ne realise pas cette fin comme je ne realisais pas la mort de Walitsky" (%% 081.0488 %%)
+- **June 1878**: "C'est comme la mort de ce pauvre Walitsky, je realiserai difficilement la mort de ce pauvre Cassagnac" (%% 081.0496 %%)
+- **July 1878**: "Je ne realise pas cette fin comme je ne realisais pas la mort de Walitsky" (%% 081.0546 %%)
 - **July 1878**: At Soden, the spa he recommended: "Soden me ferait-il vraiment du bien? Ce pauvre cher Walitsky" (%% 081.DROPPED-0413 %%)
-- **August 1878**: Returning to the apartment: "Cet appartement m'est desagreable... Walitsky y est mort, Pincio y a ete perdu et Cassagnac n'y reviendra plus" (%% 082.0146 %%)
-- **August 1878**: Mlle Oelsnitz, the Anitchkoffs' former governess, joins the household -- "elle etait amoureuse de Walitsky" (%% 082.0148 %%)
-- **September 1878**: Dreams of Walitsky "en train de consulter un pullaire antique" -- consulting an ancient chicken oracle (%% 082.0185 %%)
-- **November 1878**: "Je reve que Walitsky revient et que Dina et Rosalie mortes reviennent aussi. Je les supplie de s'en aller: Vous etes morts, allez-vous en, j'ai peur!" (%% 083.0282 %%)
+- **August 1878**: Returning to the apartment: "Cet appartement m'est desagreable... Walitsky y est mort, Pincio y a ete perdu et Cassagnac n'y reviendra plus" (%% 082.0150 %%)
+- **August 1878**: Mlle Oelsnitz, the Anitchkoffs' former governess, joins the household -- "elle etait amoureuse de Walitsky" (%% 082.0152 %%)
+- **September 1878**: Dreams of Walitsky "en train de consulter un pullaire antique" -- consulting an ancient chicken oracle (%% 082.0192 %%)
+- **November 1878**: "Je reve que Walitsky revient et que Dina et Rosalie mortes reviennent aussi. Je les supplie de s'en aller: Vous etes morts, allez-vous en, j'ai peur!" (%% 083.0290 %%)
 - **October 1883**: Still remembering his medical acumen five years later: "Walitsky nous dit des lors qu'elle ne vivrait pas" -- about his correct diagnosis of Collignon's tuberculosis, now as Marie faces her own (%% 102.0012 %%)
 
 %% GLO_WALITSKY.0040 %%
@@ -323,7 +323,7 @@ Among the Russian and Polish-Russian gentry, a *domashny vrach* (household physi
 %% GLO_WALITSKY.0046 %%
 ### A Woman in Love
 
-A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a governess at the Anitchkoffs', joins the Bashkirtseff household -- Marie notes "elle etait amoureuse de Walitsky" (%% 082.0148 %%). This is the only indication that Walitsky inspired romantic attachment outside the family. Marie describes Oelsnitz with her artist's eye: "petite, rousse, jeune, triste. Une figure ronde qui a l'air d'une caricature de la lune quand la lune est triste."
+A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a governess at the Anitchkoffs', joins the Bashkirtseff household -- Marie notes "elle etait amoureuse de Walitsky" (%% 082.0152 %%). This is the only indication that Walitsky inspired romantic attachment outside the family. Marie describes Oelsnitz with her artist's eye: "petite, rousse, jeune, triste. Une figure ronde qui a l'air d'une caricature de la lune quand la lune est triste."
 
 %% GLO_WALITSKY.0047 %%
 ## Related Entries
@@ -401,10 +401,10 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 - %% 079.0063 %% (Mar 23): Recalls day of death and going to Versailles with Cassagnac
 - %% 080.0054 %% (May 9): "Mon pauvre Pincio et ce pauvre Walitsky..."
 - %% 081.DROPPED-0413 %% (Jul 26): At Soden, remembering his recommendation
-- %% 082.0146 %% (Aug 18): "Cet appartement... Walitsky y est mort"
-- %% 082.0148 %% (Aug 19): Mlle Oelsnitz "etait amoureuse de Walitsky"
-- %% 082.0185 %% (Sep 21): Dream: Walitsky consulting a chicken oracle
-- %% 083.0282 %% (Nov 29): Dream: Walitsky returns from death; Marie begs him to leave
+- %% 082.0150 %% (Aug 18): "Cet appartement... Walitsky y est mort"
+- %% 082.0152 %% (Aug 19): Mlle Oelsnitz "etait amoureuse de Walitsky"
+- %% 082.0192 %% (Sep 21): Dream: Walitsky consulting a chicken oracle
+- %% 083.0290 %% (Nov 29): Dream: Walitsky returns from death; Marie begs him to leave
 
 %% GLO_WALITSKY.0058 %%
 ### Book 102 (1883)

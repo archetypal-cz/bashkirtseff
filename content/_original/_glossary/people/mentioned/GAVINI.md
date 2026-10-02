@@ -111,7 +111,7 @@ Adeline was an indefatigable matchmaker. She evaluated Marie's suitors with busi
 ### Marie's Social Conquest
 
 %% GLO_GAVINI.0023 %%
-Marie was conscious of her relationship with the Gavinis as a strategic achievement: "J'ai fait la conquete des Gavini et Madame parle de moi chez elle et ailleurs dans des termes exageres" (083.0270, 1878-11-27). She also candidly admitted to the social calculation: "toute seule j'ai trouve les Gavini et je m'en trouve peu a peu d'autres" (085, 1879). At the same time, genuine affection developed -- Adeline "m'adore" (084, 1879-04-07), worried when Marie overworked ("La mere Gavini est venue encore aujourd'hui pour dire a maman que je me fatigue trop," 088, 1880-05-07), and "en m'embrassant me dit que j'ai l'air jeune" (088, 1880-05-26).
+Marie was conscious of her relationship with the Gavinis as a strategic achievement: "J'ai fait la conquete des Gavini et Madame parle de moi chez elle et ailleurs dans des termes exageres" (083.0278, 1878-11-27). She also candidly admitted to the social calculation: "toute seule j'ai trouve les Gavini et je m'en trouve peu a peu d'autres" (085, 1879). At the same time, genuine affection developed -- Adeline "m'adore" (084, 1879-04-07), worried when Marie overworked ("La mere Gavini est venue encore aujourd'hui pour dire a maman que je me fatigue trop," 088, 1880-05-07), and "en m'embrassant me dit que j'ai l'air jeune" (088, 1880-05-26).
 
 %% GLO_GAVINI.0024 %%
 ### The Later Years (1882--1884)
@@ -148,9 +148,9 @@ The Gavinis appear across 28 carnets spanning seven years. The densest coverage 
 - **080.0455** -- Marie identifies Denis: "M. Gavini prefet des Alpes Maritimes sous l'Empire, depute a present" (1878-06-07)
 - **080.0455** -- First visit to the Gavinis; Denis offers political help (1878-06-07)
 - **080.0692** -- Marie declares herself "folle de Cassagnac" at the Gavinis; they judge Cassagnac unworthy (1878-06-20)
-- **081.0259** -- With Mme Gavini at the requiem for Queen Mercedes of Spain at the Madeleine (1878-07-05)
+- **081.0312** -- With Mme Gavini at the requiem for Queen Mercedes of Spain at the Madeleine (1878-07-05)
 - **083.0002** -- Mme Gavini returns to Paris, they promenade at the Bois (1878-10-18)
-- **083.0270** -- "J'ai fait la conquete des Gavini" (1878-11-27)
+- **083.0278** -- "J'ai fait la conquete des Gavini" (1878-11-27)
 - **083** (1878-12-30) -- Antoine introduced: just qualified as lawyer, plans political career
 - **084** (1879-04-07) -- "La positive Adeline" evaluates a marquis as marriage prospect
 - **085** (1879-05-16) -- Gavini returns from Corsica; princesse Mathilde gracious to Gavinis and Marie

@@ -38,9 +38,9 @@ Marie paints Collignon's portrait in May-June 1876 (twelve sittings), and the si
 
 ## Background and Social Position
 
-Collignon came from a modest Parisian family. Her parents ran "une espece d'hotel meuble dans un passage Marbeuf" and her father "portait des sabots et balayait la cour" (%% 085.0091 %%). Despite these humble origins, Collignon had risen socially through her career as a governess: she had previously served as "demoiselle de compagnie aupres de la fille du vice-roi d'Egypte" (%% 085.0091 %%), which explains her polish, worldliness, and knowledge of Egypt and Cairo. Marie observed the painful contrast: "Collignon qui... est si elegante, si distinguee, si bien elevee !" yet lives in poverty (%% 085.0091 %%). She had accumulated savings from fourteen years of work (%% 062.0348 %%: "elle depense son dernier argent amasse pendant quatorze ans de travail"). She had a brother who visited her in Paris (%% 084.0192 %%).
+Collignon came from a modest Parisian family. Her parents ran "une espece d'hotel meuble dans un passage Marbeuf" and her father "portait des sabots et balayait la cour" (%% 085.0091 %%). Despite these humble origins, Collignon had risen socially through her career as a governess: she had previously served as "demoiselle de compagnie aupres de la fille du vice-roi d'Egypte" (%% 085.0091 %%), which explains her polish, worldliness, and knowledge of Egypt and Cairo. Marie observed the painful contrast: "Collignon qui... est si elegante, si distinguee, si bien elevee !" yet lives in poverty (%% 085.0091 %%). She had accumulated savings from fourteen years of work (%% 062.0348 %%: "elle depense son dernier argent amasse pendant quatorze ans de travail"). She had a brother who visited her in Paris (%% 084.0193 %%).
 
-Her father died in May 1879 (%% 085.0078 %%: "Le pere de Collignon est mort ce matin"). After leaving the Bashkirtseff household, Collignon lived in Cannes during the winter seasons and in Paris, often lodging at various addresses including Villa Fortunee in the Carabacel district of Nice (%% 082.0198 %%).
+Her father died in May 1879 (%% 085.0078 %%: "Le pere de Collignon est mort ce matin"). After leaving the Bashkirtseff household, Collignon lived in Cannes during the winter seasons and in Paris, often lodging at various addresses including Villa Fortunee in the Carabacel district of Nice (%% 082.0205 %%).
 
 ## Role in the Household (1872-1873)
 
@@ -152,7 +152,7 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 062.0292 %% (Jun 7, 1876): Detailed physical description during portrait sessions
 - %% 062.0329 %% (Jun 12, 1876): Finishing the portrait — ninth session, the hair
 - %% 068.0229 %% (Dec 19, 1876): Marie discusses Rome plans with Collignon
-- %% 082.0198 %% (Sep 25, 1878): Letter from "cette pauvre Collignon" — Marie promises to take her in
+- %% 082.0205 %% (Sep 25, 1878): Letter from "cette pauvre Collignon" — Marie promises to take her in
 - %% 085.0078 %% (May 16, 1879): Collignon's father dies
 - %% 085.0091 %% (May 18, 1879): Marie visits Collignon's family — shocked by their poverty
 - %% 088.0174 %% (Jun 12, 1880): Calls Soutzo "un ane bate" — advises Marie against marrying him

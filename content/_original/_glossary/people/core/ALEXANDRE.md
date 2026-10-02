@@ -149,7 +149,7 @@ Alexandre also served as a mediator in the Bashkirtseff family. When Marie's bro
 ## Letter-Writer from Russia (1879)
 
 %% GLO_ALEXANDRE.0042 %%
-During the Eristoff-Tutcheff crisis in Nice (March 1879), when the Tutcheffs filed a legal complaint against the Babanine family, Marie drafted a formal letter for Alexandre to send from Russia to the French Procureur de la Republique, defending the family honor. The letter, written in Alexandre's voice, protested "au nom de tous mes freres qui depuis la mort de Monsieur Etienne Babanine le pere, representent la famille Babanine" (on behalf of all my brothers who, since the death of Etienne Babanine the father, represent the Babanine family) (084.0370). This confirms both his family name and his role as the senior representative of the Babanine brothers.
+During the Eristoff-Tutcheff crisis in Nice (March 1879), when the Tutcheffs filed a legal complaint against the Babanine family, Marie drafted a formal letter for Alexandre to send from Russia to the French Procureur de la Republique, defending the family honor. The letter, written in Alexandre's voice, protested "au nom de tous mes freres qui depuis la mort de Monsieur Etienne Babanine le pere, representent la famille Babanine" (on behalf of all my brothers who, since the death of Etienne Babanine the father, represent the Babanine family) (084.0371). This confirms both his family name and his role as the senior representative of the Babanine brothers.
 
 %% GLO_ALEXANDRE.0043 %%
 ## Marie's Visit to Tcherniakovka (1882)
@@ -227,7 +227,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **082.1878-10-12**: "the prettiest horses and carriage in Paris"
 
 ### 1879
-- **084.0367-0261** (March 1): Marie drafts letter for Alexandre to send from Russia defending Babanine family honor
+- **084.0368-0261** (March 1): Marie drafts letter for Alexandre to send from Russia defending Babanine family honor
 
 ### 1880
 - **089.1880-07-23**: Soulima affair resolved; Alexandre and Etienne acquitted
