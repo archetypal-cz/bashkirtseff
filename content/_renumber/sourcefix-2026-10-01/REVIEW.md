@@ -54,3 +54,11 @@ Batch 3 also joined the rest of the 016 three-part split (016.0384 + 0385 at the
 ## Paragraph joins, batch 4: 004, 091–093 (061668f53 + c7e369228 9b5be255c 0e038c84e 8878cb5c8)
 
 73 joins: 093 (50, scan PAGEBREAK), 092 (14 scan + the eye-checked 092.0139/0140), 091 (the account table «Sur sept mille par mois…» joined as one paragraph keeping each table line, 7 pairs, eye-checked t.14 p.93), 004 (the split «…qu'ils vont chercher» / «l'autre», one paragraph in tome01.docx ¶1227, reported by wave-en). Post-fix improvements over earlier batches: visible text and moved notes are detected with %%-block awareness (fr carnets with multi-line embedded blocks), chains of splits handled, moved footnote labels renamed with an «m» suffix if the label would collide. Not joined: 092 (1 pair, INDENT in print).
+
+## Batch 5, 2026-10-02: 084, 085, 091, 092, 094, 097, 099, 100, 102 (09599e178 + 8dff0974b 0134b743c ce0846154 0628e677d)
+
+Run only after all three drivers had committed these carnets (first attempt aborted and reverted because drivers had uncommitted files there; runbatch.sh now hard-stops on any dirty carnet).
+- 23 joins (`pagebreak/checked_batch5.json`): 094 ×9 and 099 ×7 and 102 ×1 (scan PAGEBREAK); 097.0080/0081 (eye-checked t.15 p.116, line break kept); 084.0102/0103 (tome12.docx ¶2290/¶2291); 084.0149/0150 and 094.0004/0005 and 100.0079/0080 (eye-checked on the scans); 085.0416 + 0417 (the signature «Un abonné, revenant de Londres.» is the last line of the letter block in print, t.13 p.47; quoted, translations' duplicate signature removed by `fix085.py`).
+- Dropped 091.0478 («rent !!»: page-break remnant, the word is complete in 0477).
+- New entry 1881-07-03 (`post092.py`): heading «Dimanche 3 juillet 1881» and «[…] et priez Dieu. J'ai deux projets. D'abord je veux guérir par miracle, je veux» exactly as the volume's ERRATA gives them (t.14 errata page, «p. 153-154»; tome14.docx ¶4329–4330), joined to «prier Dieu et avant de partir…» (old start of 092.0162, p.154). The text before «et priez Dieu» exists nowhere: marked «[…]», not reconstructed. 092.0162–0166 moved from 1881-07-02 to the new entry.
+- Not done: 086.0303 «[MOITIE DE PAGE BLANCHE]» stays — the scan prints the label on its own line (t.13 p.101; likewise pp.27–28), so it is not a duplicate.
