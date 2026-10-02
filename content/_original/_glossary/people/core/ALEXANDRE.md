@@ -119,10 +119,10 @@ Marie characterized the family's lack of legal representation before Alexandre's
 ## The Injustices (1877)
 
 %% GLO_ALEXANDRE.0032 %%
-In August 1877, Uncle Etienne arrived in Paris and the family discussed "les injustices d'Alexandre" (Alexandre's injustices). Marie was "tres irritee ne sachant et ne pouvant rien faire a tout cela" (very irritated, not knowing and not being able to do anything about it all) (073.0499). These "injustices" likely referred to Alexandre's manipulation of the family estates and revenues, which was a recurring grievance.
+In August 1877, Uncle Etienne arrived in Paris and the family discussed "les injustices d'Alexandre" (Alexandre's injustices). Marie was "tres irritee ne sachant et ne pouvant rien faire a tout cela" (very irritated, not knowing and not being able to do anything about it all) (073.0483). These "injustices" likely referred to Alexandre's manipulation of the family estates and revenues, which was a recurring grievance.
 
 %% GLO_ALEXANDRE.0033 %%
-Marie sarcastically quotes Alexandre's habitual excuse-making in letters: "'Mon chirurgien me promet qu'a la fin de la semaine je pourrai partir' (extrait des lettres historiques d'Alexandre)" (My surgeon promises that by end of the week I can leave -- extract from Alexandre's historic letters) (073.0502). The word "historiques" drips with irony -- these promises were apparently never kept.
+Marie sarcastically quotes Alexandre's habitual excuse-making in letters: "'Mon chirurgien me promet qu'a la fin de la semaine je pourrai partir' (extrait des lettres historiques d'Alexandre)" (My surgeon promises that by end of the week I can leave -- extract from Alexandre's historic letters) (073.0486). The word "historiques" drips with irony -- these promises were apparently never kept.
 
 %% GLO_ALEXANDRE.0034 %%
 ## Manipulating Family Relations (1881)
@@ -215,7 +215,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **067.0943-0041** (November 11): Alexandre in Russia; identifies himself as "Babanine" on a train; amusing anecdotes with Nadine and servants
 
 ### 1877
-- **073.0499, 0474** (August 18): Etienne arrives, discusses "les injustices d'Alexandre"; Marie quotes his procrastinating letters
+- **073.0483, 0474** (August 18): Etienne arrives, discusses "les injustices d'Alexandre"; Marie quotes his procrastinating letters
 - **074.0216** (September 3): Marie hopes Alexandre will mediate Paul's crisis at Gavronzi
 
 ### 1878

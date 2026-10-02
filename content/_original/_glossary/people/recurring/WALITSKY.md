@@ -112,7 +112,7 @@ This passage reveals:
 - Attended to [Maman](../family/MAMAN.md)'s real and imagined illnesses
 - General family physician during European travels
 - Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0151 %%, echoed in %% 102.0012 %%)
-- Correctly recommended Soden spa for Marie's throat: "Ce coquin de Walitsky est un habile homme, il s'entend a toutes les maladies" (%% 073.0242 %%)
+- Correctly recommended Soden spa for Marie's throat: "Ce coquin de Walitsky est un habile homme, il s'entend a toutes les maladies" (%% 073.0235 %%)
 - Treated external patients in Nice: "il a la tous ses malades, tous ses amis" (%% 077.0195 %%)
 - Served as witness to grandfather's will alongside Patton, Orgesko, Bihovetz, and Anitchkoff (%% 082.0167 %%)
 - Nursed grandfather during paralysis: "Walitsky le cher Walitsky court et soigne et grogne et console" (%% 076.0357 %%)
@@ -279,7 +279,7 @@ Marie's tributes to Walitsky are among the most unambiguously warm passages in t
 - **"Homme admirable"** (admirable man, %% 000.0024 %%)
 - **"Second soi-meme"** (second self, %% 000.0024 %%)
 - **"Culte fraternel, admirable et saint"** (fraternal, admirable and holy devotion, %% 000.0023 %%)
-- **"Ce coquin de Walitsky est un habile homme"** (that rascal Walitsky is a skilled man, %% 073.0242 %%)
+- **"Ce coquin de Walitsky est un habile homme"** (that rascal Walitsky is a skilled man, %% 073.0235 %%)
 - **"Le cher Walitsky court et soigne et grogne et console"** (dear Walitsky runs and heals and grumbles and consoles, %% 076.0357 %%)
 - **"Un etre entierement inoffensif, entierement bon"** (a being entirely inoffensive, entirely good, %% 077.0164 %%)
 - **"Attache comme un chien"** (devoted like a dog, %% 077.0186 %%)
@@ -299,7 +299,7 @@ This stands in extraordinary contrast to her harsh judgments of almost everyone 
 - **1874 (summer)**: With family at Spa; wrote satirical verse about suitors (%% 022.0106 %%)
 - **1876**: With family in Rome; connections to Russian artist circle via Botkine; wrestled with Antonelli (%% 055.0285 %%)
 - **1876 (October)**: Accused (absurdly) of poisoning Romanoff (%% 066.0629 %%)
-- **1877 (summer)**: Recommended Soden spa for Marie's throat (%% 073.0242 %%)
+- **1877 (summer)**: Recommended Soden spa for Marie's throat (%% 073.0235 %%)
 - **1877 (December 9)**: Nursing paralyzed grandfather: "court et soigne et grogne et console" (%% 076.0357 %%)
 - **1877 (December 27)**: Critically ill with heart and respiratory failure (%% 077.0032 %%)
 - **1878 (January 11)**: Marie cannot bear to see him suffering (%% 077.0159 %%)
@@ -381,7 +381,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 ### Books 71-73 (Nice, Paris 1877)
 - %% 071.0541 %% (Jun 2): "Un vrai serail avec Walitsky pour ennuque"
 - %% 072.0146 %% (Jun 11): Marie hides dead rat and eggs in his bed
-- %% 073.0242 %% (Jul 30): "Ce coquin de Walitsky est un habile homme" -- medical advice on Soden
+- %% 073.0235 %% (Jul 30): "Ce coquin de Walitsky est un habile homme" -- medical advice on Soden
 
 %% GLO_WALITSKY.0056 %%
 ### Books 76-77 (Paris, Death 1877-78)

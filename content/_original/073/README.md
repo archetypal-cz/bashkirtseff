@@ -8,7 +8,7 @@ Carnet 073 of Marie Bashkirtseff's diary. A Paris carnet dominated by Italy obse
 
 **Date range**: 1877-07-15 to 1877-08-19
 **Entry count**: 36 (2 empty: 07-19, 08-05)
-**Paragraph range**: 073.0001-073.0556 (renumbered by the 2026-09-27 tome-10 rebuild)
+**Paragraph range**: 073.0001-073.0538 (renumbered by the 2026-09-27 tome-10 rebuild)
 **Location(s)**: Paris (boulevard Haussmann 29)
 
 ### Key Themes
