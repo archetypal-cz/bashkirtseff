@@ -49,7 +49,8 @@
     "glossary": "Glosario",
     "marie": "Marie",
     "about": "Acerca de",
-    "openInGithub": "Abrir en GitHub"
+    "openInGithub": "Abrir en GitHub",
+    "myStars": "Mis estrellas"
   },
   "translation": {
     "heading": "Traducciones del diario",
@@ -473,15 +474,17 @@
   "privacy": {
     "pageTitle": "Política de privacidad — Diario de Marie Bashkirtseff",
     "title": "Política de privacidad",
-    "lastUpdated": "Última actualización: marzo de 2026",
+    "lastUpdated": "Última actualización: octubre de 2026",
     "intro": "Este es un proyecto académico sin ánimo de lucro dedicado a hacer accesible el diario de Marie Bashkirtseff en todo el mundo. Recogemos la menor cantidad posible de datos personales y nunca los usamos con fines comerciales.",
     "dataCollectedTitle": "Qué datos recogemos",
     "dataCollectedIntro": "Solo recogemos datos personales cuando interactúas voluntariamente con el sitio:",
     "dataGoogle": "<strong>Perfil de Google</strong> (nombre, correo electrónico, avatar): solo cuando inicias sesión voluntariamente mediante Google OAuth",
     "dataReports": "Informes de párrafos: los avisos de problemas de traducción que envías como usuario con sesión iniciada",
+    "dataStars": "Párrafos con estrella: los párrafos que marcas como usuario con sesión iniciada; son privados y solo tú puedes verlos",
     "dataAnalytics": "<strong>Sin cookies de rastreo</strong>: usamos la analítica de Umami, que no emplea cookies ni recoge datos personales",
     "whyTitle": "Por qué recogemos datos",
     "whyReports": "Para que los lectores puedan avisar de problemas de traducción y hacer seguimiento de sus propios avisos",
+    "whyStars": "Para que los lectores puedan llevar una lista privada de párrafos favoritos, que pueden exportar o eliminar en cualquier momento",
     "whyQuality": "Para mejorar la calidad de la traducción a partir de las observaciones de los lectores",
     "storageTitle": "Dónde se guardan los datos",
     "storageSupabase": "Los datos se guardan en una base de datos <strong>PostgreSQL</strong> autoalojada en nuestro propio servidor",
@@ -622,5 +625,34 @@
     "PROPERTY": "Bienes e inversiones",
     "PROPERTY_FAMILY": "Bienes — familia",
     "PROPERTY_OTHERS": "Bienes — otros"
+  },
+  "stars": {
+    "star": "Marcar con estrella",
+    "starred": "Con estrella",
+    "starredSuffix": ", con estrella",
+    "unstar": "Quitar la estrella",
+    "signInToStar": "Inicia sesión para marcar con estrella",
+    "pageTitle": "Mis estrellas — Diario de Marie Bashkirtseff",
+    "title": "Mis estrellas",
+    "empty": "Todavía no has marcado ningún párrafo con estrella. Abre el menú de un párrafo para marcarlo.",
+    "signedOutIntro": "Inicia sesión para marcar párrafos con estrella y tenerlos todos en un solo lugar. Tus estrellas son privadas: solo tú las ves.",
+    "export": "Exportar (JSON)",
+    "removeAll": "Quitar todas",
+    "removeAllConfirm": "¿Quitar todas tus estrellas? Esta acción no se puede deshacer.",
+    "removed": "Se ha quitado la estrella",
+    "missingPassage": "Ya no figura en la edición",
+    "originalBadge": "Original (francés)",
+    "queuedOffline": {
+      "one": "{count} cambio pendiente de sincronizar",
+      "other": "{count} cambios pendientes de sincronizar"
+    },
+    "synced": "Todos los cambios están sincronizados",
+    "capReached": "Has alcanzado el límite de 1000 estrellas. Quita alguna para añadir más.",
+    "error": "No se pudieron actualizar tus estrellas. Inténtalo de nuevo.",
+    "offlineList": "Estás sin conexión: se muestran tus estrellas guardadas.",
+    "unsyncedSignOutWarning": {
+      "one": "{count} cambio aún no se ha sincronizado. ¿Cerrar sesión de todos modos?",
+      "other": "{count} cambios aún no se han sincronizado. ¿Cerrar sesión de todos modos?"
+    }
   }
 }

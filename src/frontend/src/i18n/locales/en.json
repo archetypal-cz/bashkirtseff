@@ -49,7 +49,8 @@
     "glossary": "Glossary",
     "marie": "Marie",
     "about": "About",
-    "openInGithub": "Open in GitHub"
+    "openInGithub": "Open in GitHub",
+    "myStars": "My stars"
   },
   "translation": {
     "heading": "Diary Translations",
@@ -472,15 +473,17 @@
   "privacy": {
     "pageTitle": "Privacy Policy — Diary of Marie Bashkirtseff",
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: March 2026",
+    "lastUpdated": "Last updated: October 2026",
     "intro": "This is a nonprofit scholarly project dedicated to making Marie Bashkirtseff's diary accessible worldwide. We collect as little personal data as possible and never use it for commercial purposes.",
     "dataCollectedTitle": "What data we collect",
     "dataCollectedIntro": "We collect personal data only when you voluntarily interact with the site:",
     "dataGoogle": "<strong>Google profile</strong> (name, email, avatar) — only when you voluntarily sign in via Google OAuth",
     "dataReports": "Paragraph reports — translation issue reports you submit as a logged-in user",
+    "dataStars": "Starred paragraphs — the paragraphs you star as a logged-in user; they are private and visible only to you",
     "dataAnalytics": "<strong>No tracking cookies</strong> — we use Umami analytics, which is cookie-free and collects no personal data",
     "whyTitle": "Why we collect data",
     "whyReports": "To let readers report translation issues and track their own reports",
+    "whyStars": "To let readers keep a private list of favourite paragraphs, which they can export or delete at any time",
     "whyQuality": "To improve translation quality based on reader feedback",
     "storageTitle": "Where data is stored",
     "storageSupabase": "Data is stored in a self-hosted <strong>PostgreSQL</strong> database on our own server",
@@ -621,5 +624,34 @@
     "PROPERTY": "Property & Investments",
     "PROPERTY_FAMILY": "Property — family",
     "PROPERTY_OTHERS": "Property — others"
+  },
+  "stars": {
+    "star": "Star",
+    "starred": "Starred",
+    "starredSuffix": ", starred",
+    "unstar": "Remove star",
+    "signInToStar": "Sign in to star",
+    "pageTitle": "My stars — Diary of Marie Bashkirtseff",
+    "title": "My stars",
+    "empty": "You have no starred paragraphs yet. Open the menu on any paragraph to star it.",
+    "signedOutIntro": "Sign in to star paragraphs and keep them in one place. Your stars are private and visible only to you.",
+    "export": "Export (JSON)",
+    "removeAll": "Remove all",
+    "removeAllConfirm": "Remove all your stars? This cannot be undone.",
+    "removed": "Star removed",
+    "missingPassage": "No longer in the edition",
+    "originalBadge": "Original (French)",
+    "queuedOffline": {
+      "one": "{count} change waiting to sync",
+      "other": "{count} changes waiting to sync"
+    },
+    "synced": "All changes synced",
+    "capReached": "You have reached the limit of 1,000 stars. Remove some to add more.",
+    "error": "Your stars could not be updated. Please try again.",
+    "offlineList": "You are offline — showing your saved stars.",
+    "unsyncedSignOutWarning": {
+      "one": "{count} change not yet synced — sign out anyway?",
+      "other": "{count} changes not yet synced — sign out anyway?"
+    }
   }
 }
