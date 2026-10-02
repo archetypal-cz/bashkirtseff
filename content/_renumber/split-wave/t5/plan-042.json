@@ -1,0 +1,247 @@
+{
+ "carnet": "042",
+ "_generated": "identity plan of content/_original/042 — keys starting with _ are ignored",
+ "entries": [
+  {
+   "file": "1875-09-08.md",
+   "date": "1875-09-08",
+   "paragraphs": [
+    {
+     "old": "042.0001"
+    },
+    {
+     "old": "042.0002"
+    },
+    {
+     "old": "042.0003"
+    },
+    {
+     "old": "042.0004"
+    },
+    {
+     "old": "042.0005"
+    },
+    {
+     "old": "042.0006"
+    },
+    {
+     "old": "042.0007"
+    },
+    {
+     "old": "042.0008"
+    },
+    {
+     "old": "042.0009"
+    },
+    {
+     "old": "042.0010"
+    },
+    {
+     "old": "042.0011"
+    },
+    {
+     "old": "042.0012"
+    },
+    {
+     "old": "042.0013"
+    },
+    {
+     "old": "042.0014"
+    },
+    {
+     "old": "042.0015"
+    },
+    {
+     "old": "042.0016"
+    },
+    {
+     "old": "042.0017"
+    },
+    {
+     "old": "042.0018"
+    },
+    {
+     "old": "042.0019"
+    },
+    {
+     "old": "042.0020"
+    }
+   ],
+   "_first_line": "# Mercredi 8 septembre 1875"
+  },
+  {
+   "file": "1875-09-09.md",
+   "date": "1875-09-09",
+   "paragraphs": [
+    {
+     "old": "042.0025"
+    },
+    {
+     "old": "042.0026"
+    },
+    {
+     "old": "042.0027"
+    },
+    {
+     "old": "042.0028"
+    },
+    {
+     "old": "042.0029"
+    },
+    {
+     "old": "042.0030"
+    },
+    {
+     "old": "042.0031"
+    },
+    {
+     "old": "042.0032"
+    },
+    {
+     "old": "042.0033"
+    },
+    {
+     "old": "042.0034"
+    },
+    {
+     "old": "042.0035"
+    },
+    {
+     "old": "042.0036"
+    },
+    {
+     "old": "042.0037"
+    },
+    {
+     "old": "042.0038"
+    },
+    {
+     "old": "042.0039"
+    },
+    {
+     "old": "042.0040"
+    },
+    {
+     "old": "042.0041"
+    },
+    {
+     "old": "042.0042"
+    },
+    {
+     "old": "042.0043"
+    },
+    {
+     "old": "042.0044"
+    },
+    {
+     "old": "042.0045"
+    },
+    {
+     "old": "042.0046"
+    },
+    {
+     "old": "042.0047"
+    },
+    {
+     "old": "042.0053"
+    },
+    {
+     "old": "042.0054"
+    },
+    {
+     "old": "042.0055"
+    },
+    {
+     "old": "042.0056"
+    },
+    {
+     "old": "042.0057"
+    },
+    {
+     "old": "042.0058"
+    },
+    {
+     "old": "042.0059"
+    },
+    {
+     "old": "042.0060"
+    },
+    {
+     "old": "042.0061"
+    },
+    {
+     "old": "042.0062"
+    },
+    {
+     "old": "042.0063"
+    },
+    {
+     "old": "042.0064"
+    },
+    {
+     "old": "042.0065"
+    },
+    {
+     "old": "042.0066"
+    },
+    {
+     "old": "042.0067"
+    },
+    {
+     "old": "042.0068"
+    },
+    {
+     "old": "042.0069"
+    },
+    {
+     "old": "042.0070"
+    },
+    {
+     "old": "042.0071"
+    },
+    {
+     "old": "042.0072"
+    }
+   ],
+   "_first_line": "# Jeudi 9 septembre 1875"
+  }
+ ],
+ "drop": [
+  {
+   "id": "042.0021",
+   "reason": "comment-only ID (old RSR entry summary) folded into 042.0020, the last paragraph of its entry (split wave)"
+  },
+  {
+   "id": "042.0022",
+   "reason": "comment-only ID (old RSR entry summary) folded into 042.0020, the last paragraph of its entry (split wave)"
+  },
+  {
+   "id": "042.0023",
+   "reason": "comment-only ID (old RSR entry summary) folded into 042.0020, the last paragraph of its entry (split wave)"
+  },
+  {
+   "id": "042.0024",
+   "reason": "comment-only ID (old RSR entry summary) folded into 042.0020, the last paragraph of its entry (split wave)"
+  },
+  {
+   "id": "042.0048",
+   "reason": "comment-only ID (old RSR entry summary) folded into 042.0072, the last paragraph of its entry (split wave)"
+  },
+  {
+   "id": "042.0049",
+   "reason": "comment-only ID (old RSR entry summary) folded into 042.0072, the last paragraph of its entry (split wave)"
+  },
+  {
+   "id": "042.0050",
+   "reason": "comment-only ID (old RSR entry summary) folded into 042.0072, the last paragraph of its entry (split wave)"
+  },
+  {
+   "id": "042.0051",
+   "reason": "comment-only ID (old RSR entry summary) folded into 042.0072, the last paragraph of its entry (split wave)"
+  },
+  {
+   "id": "042.0052",
+   "reason": "comment-only ID (old RSR entry summary) folded into 042.0072, the last paragraph of its entry (split wave)"
+  }
+ ]
+}

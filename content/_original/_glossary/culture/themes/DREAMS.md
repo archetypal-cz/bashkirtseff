@@ -52,7 +52,7 @@ This thematic tag collects diary paragraphs where Marie records or interprets a 
 ## Example Paragraphs
 
 %% GLO_DREAMS.0011 %%
-- `034.0071` — a dream of a dais hung in red, read as promising fortune or renown
+- `034.0067` — a dream of a dais hung in red, read as promising fortune or renown
 - `096.0076` — "Et j'ai rêvé de Cassagnac"
 
 %% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%

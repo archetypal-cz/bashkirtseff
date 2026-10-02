@@ -49,7 +49,7 @@ Collignon was hired as Marie's governess before the diary begins. Marie records 
 - **Educator**: Teaching English, geography, history, arithmetic. Marie studied German history with her and read aloud during lessons (%% 046.0178 %%, %% 103.0019 %%).
 - **Chaperone**: Accompanying Marie on all promenades, visits, shopping, theater outings, and sea bathing. Marie could not go out without her.
 - **Disciplinarian**: Scolding Marie for blushing at men (%% 001.0024 %%: "Ne faites pas cela, Marie, cela m'enerve tant"), for attracting attention (%% 004.0269 %%: "m'a grondee parce qu'on me regardait trop"), and for speaking indiscreetly.
-- **Confidante (limited)**: Despite tensions, Marie confided some feelings — hiding her face in Collignon's chest after seeing the Duke (%% 001.0106 %%, %% 044.0161 %%: "je me jetais dans les bras de Collignon, je cachais ma figure sur sa poitrine").
+- **Confidante (limited)**: Despite tensions, Marie confided some feelings — hiding her face in Collignon's chest after seeing the Duke (%% 001.0106 %%, %% 044.0158 %%: "je me jetais dans les bras de Collignon, je cachais ma figure sur sa poitrine").
 
 ## Dismissal (May 31, 1873)
 
@@ -83,9 +83,9 @@ Despite (or because of) her own romantic disappointment, Collignon served as Mar
 
 - **Duke of Hamilton**: Called him "un gros boucher" who socializes with workers (%% 004.0276 %%), yet teased Marie about "les montagnes de l'Ecosse" (%% 004.0258 %%).
 - **Lambertye**: Dismissed him as "ce petit vilain" (%% 017.0187 %%).
-- **Audiffret**: Noticed his interest in Marie and reported it to the aunt (%% 033.0482 %%).
+- **Audiffret**: Noticed his interest in Marie and reported it to the aunt (%% 033.0473 %%).
 - **Girofla**: Called him "le beau zero" (%% 032.0194 %%).
-- **Pietro Antonelli**: Worried Collignon warned Marie he was "un Lovelace" (%% 034.0223 %%), but also said "S'il ne vous aimait pas, il ne vous ecrirait pas des lettres comme ca" (%% 062.0319 %%).
+- **Pietro Antonelli**: Worried Collignon warned Marie he was "un Lovelace" (%% 034.0206 %%), but also said "S'il ne vous aimait pas, il ne vous ecrirait pas des lettres comme ca" (%% 062.0319 %%).
 - **Soutzo**: Openly called him "bete et mechant" and "un ane bate" and said she would weep if Marie married him (%% 088.0174 %%: June 1880).
 - **General maxim**: "Quand une femme veut un homme, elle l'a toujours" (%% 004.0272 %%: April 15, 1873).
 
@@ -97,7 +97,7 @@ In May-June 1876, Marie painted Collignon's portrait in twelve sittings on a "fo
 
 Collignon made several penetrating observations about Marie:
 
-- On her appearance: "si elle ne me connaissait pas, elle dirait de moi — Voila une belle fille, car vous etes grande et bien faite" (%% 033.0384 %%).
+- On her appearance: "si elle ne me connaissait pas, elle dirait de moi — Voila une belle fille, car vous etes grande et bien faite" (%% 033.0378 %%).
 - On her handwriting: "il semble que vous n'osez pas faire vos lettres elancees, elles paraissent retenues, comme si quelque chose pesait sur elles, un effort et puis un aplatissement... C'est toute ma vie" — Marie agreed this described her entire existence (%% 090.0146 %%: Dec 1880).
 - On Marie's character: "Marie a beaucoup change" — said with confidence in her own influence (%% 059.0377 %%: May 1876).
 
@@ -147,7 +147,7 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 024.0398 %% (Oct 24, 1874): Returns from Cannes — "la belle aux longs cheveux"
 - %% 031.0180 %% (Apr 10, 1875): Returns for a month's stay — "indispensable meme"
 - %% 032.0147 %% (Apr 29, 1875): Marie confirms grand-papa scandal
-- %% 044.0161 %% (Sep 24, 1875): Remembered: Marie threw herself into Collignon's arms
+- %% 044.0158 %% (Sep 24, 1875): Remembered: Marie threw herself into Collignon's arms
 - %% 061.0040 %% (May 23, 1876): Marie begins painting her portrait
 - %% 062.0292 %% (Jun 7, 1876): Detailed physical description during portrait sessions
 - %% 062.0329 %% (Jun 12, 1876): Finishing the portrait — ninth session, the hair
