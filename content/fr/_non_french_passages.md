@@ -391,24 +391,24 @@ They need AI translation into French.
 - **016/1874-02-07.md** para 016.DROPPED-0176 [ENGLISH]: %% 2026-01-30T10:30:30 LAN: ENGLISH: "closely" - Marie switches to English for intensity %%
 - **016/1874-02-08.md** para 016.0184 [ENGLISH]: %% 2026-01-30T10:30:39 LAN: ENGLISH: "drives" - Marie uses English verb for fashionable carriage driving %%
 - **016/1874-02-08.md** para 016.0191 [ITALIAN]: %% 2026-01-30T10:30:52 LAN: ITALIAN: "prima donna" - leading lady (opera term), used metaphorically %%
-- **016/1874-02-10.md** para 016.0211 [ENGLISH]: %% 2026-01-30T10:31:18 LAN: ENGLISH: "a perfect théâtre" - English adjective with French noun %%
-- **016/1874-02-11.md** para 016.0215 [RUSSIAN]: %% 2026-01-30T10:31:28 LAN: RUSSIAN: "moujik" - Russian peasant, here used dismissively for hairdresser's assistant %%
-- **016/1874-02-11.md** para 016.0241 [LATIN]: %% 2026-01-30T10:31:48 LAN: LATIN/SPANISH: "Triple miserere !" - triple mercy (intensified exclamation, religious origin) %%
+- **016/1874-02-10.md** para 016.0210 [ENGLISH]: %% 2026-01-30T10:31:18 LAN: ENGLISH: "a perfect théâtre" - English adjective with French noun %%
+- **016/1874-02-11.md** para 016.0214 [RUSSIAN]: %% 2026-01-30T10:31:28 LAN: RUSSIAN: "moujik" - Russian peasant, here used dismissively for hairdresser's assistant %%
+- **016/1874-02-11.md** para 016.0240 [LATIN]: %% 2026-01-30T10:31:48 LAN: LATIN/SPANISH: "Triple miserere !" - triple mercy (intensified exclamation, religious origin) %%
 - **016/1874-02-13.md** para 016.DROPPED-0278 [ITALIAN]: %% 2026-01-30T10:32:11 LAN: ITALIAN: "in fretta" - in a hurry, quickly %%
-- **016/1874-02-13.md** para 016.0263 [ENGLISH]: %% 2026-01-30T10:32:13 LAN: ENGLISH: "upstairs" - Marie switches to English %%
-- **016/1874-02-15.md** para 016.0268 [ENGLISH]: %% 2026-01-30T10:32:16 LAN: ENGLISH: "for a walk" - Marie switches to English %%
-- **016/1874-02-15.md** para 016.0275 [ENGLISH]: %% 2026-01-30T10:32:30 LAN: ENGLISH: "Gulliver's travels" - literary reference to Swift's novel %%
-- **016/1874-02-15.md** para 016.0275 [LATIN]: %% 2026-01-30T10:32:31 LAN: LATIN: "pulchra" - beautiful woman (classical/learned register) %%
-- **016/1874-02-15.md** para 016.0277 [ENGLISH]: %% 2026-01-30T10:32:33 LAN: ENGLISH: "besides" - Marie switches to English for emphasis %%
-- **016/1874-02-15.md** para 016.0297 [ENGLISH]: %% 2026-01-30T10:32:45 LAN: ENGLISH: "waterproof" - raincoat (English fashion term) %%
-- **016/1874-02-16.md** para 016.0303 [ENGLISH]: %% 2026-01-30T10:32:47 LAN: ENGLISH: "waterproof" - raincoat %%
-- **016/1874-02-16.md** para 016.0306 [LATIN]: %% 2026-01-30T10:32:51 LAN: LATIN: "semel licit in anno insanire" - once a year it is permitted to be mad (carnival motto) %%
-- **016/1874-02-16.md** para 016.0307 [ENGLISH]: %% 2026-01-30T10:32:55 LAN: ENGLISH: extended passage "and I could not help it, it rained and it was about five, and under a mask through an iron mask I could not well see who it was. Never mind the better for her." %%
-- **016/1874-02-16.md** para 016.0310 [LATIN]: %% 2026-01-30T10:32:59 LAN: LATIN: "Miserere !" - Have mercy! (religious exclamation) %%
-- **016/1874-02-17.md** para 016.0326 [ITALIAN]: %% 2026-01-30T10:33:28 LAN: ITALIAN: "veglione" - grand masked ball (Italian carnival term) %%
-- **016/1874-02-19.md** para 016.0343 [RUSSIAN]: %% 2026-01-30T10:40:18 LAN: RUSSIAN: "kwass mousseux" - Russian fermented drink (kvass); sparkling variety %%
+- **016/1874-02-13.md** para 016.0262 [ENGLISH]: %% 2026-01-30T10:32:13 LAN: ENGLISH: "upstairs" - Marie switches to English %%
+- **016/1874-02-15.md** para 016.0267 [ENGLISH]: %% 2026-01-30T10:32:16 LAN: ENGLISH: "for a walk" - Marie switches to English %%
+- **016/1874-02-15.md** para 016.0274 [ENGLISH]: %% 2026-01-30T10:32:30 LAN: ENGLISH: "Gulliver's travels" - literary reference to Swift's novel %%
+- **016/1874-02-15.md** para 016.0274 [LATIN]: %% 2026-01-30T10:32:31 LAN: LATIN: "pulchra" - beautiful woman (classical/learned register) %%
+- **016/1874-02-15.md** para 016.0276 [ENGLISH]: %% 2026-01-30T10:32:33 LAN: ENGLISH: "besides" - Marie switches to English for emphasis %%
+- **016/1874-02-15.md** para 016.0296 [ENGLISH]: %% 2026-01-30T10:32:45 LAN: ENGLISH: "waterproof" - raincoat (English fashion term) %%
+- **016/1874-02-16.md** para 016.0301 [ENGLISH]: %% 2026-01-30T10:32:47 LAN: ENGLISH: "waterproof" - raincoat %%
+- **016/1874-02-16.md** para 016.0304 [LATIN]: %% 2026-01-30T10:32:51 LAN: LATIN: "semel licit in anno insanire" - once a year it is permitted to be mad (carnival motto) %%
+- **016/1874-02-16.md** para 016.0305 [ENGLISH]: %% 2026-01-30T10:32:55 LAN: ENGLISH: extended passage "and I could not help it, it rained and it was about five, and under a mask through an iron mask I could not well see who it was. Never mind the better for her." %%
+- **016/1874-02-16.md** para 016.0308 [LATIN]: %% 2026-01-30T10:32:59 LAN: LATIN: "Miserere !" - Have mercy! (religious exclamation) %%
+- **016/1874-02-17.md** para 016.0324 [ITALIAN]: %% 2026-01-30T10:33:28 LAN: ITALIAN: "veglione" - grand masked ball (Italian carnival term) %%
+- **016/1874-02-19.md** para 016.0341 [RUSSIAN]: %% 2026-01-30T10:40:18 LAN: RUSSIAN: "kwass mousseux" - Russian fermented drink (kvass); sparkling variety %%
 - **016/1874-02-21.md** para 016.DROPPED-0374 [ENGLISH]: %% 2026-01-30T10:40:35 LAN: ENGLISH: "put down" - code-switch to English for action verb %%
-- **016/1874-02-21.md** para 016.0371 [RUSSIAN]: %% 2026-01-30T10:40:42 LAN: RUSSIAN: "moujik" - Russian peasant; used as insult for uncouth/peasant-like appearance %%
+- **016/1874-02-21.md** para 016.0369 [RUSSIAN]: %% 2026-01-30T10:40:42 LAN: RUSSIAN: "moujik" - Russian peasant; used as insult for uncouth/peasant-like appearance %%
 - **017/1874-02-22.md** para 017.0006 [RUSSIAN]: %% 2026-01-30T10:40:55 LAN: RUSSIAN: "porte-monnaie avec une pièce de cinq kopecks" - sarcastic: purse with a five-kopeck coin; implying poverty/stinginess %%
 - **017/1874-02-22.md** para 017.0009 [RUSSIAN]: %% 2026-01-30T10:40:56 LAN: RUSSIAN: "Tchetvertinski" - Russian princely name (Chetvertinskii) %%
 - **017/1874-02-22.md** para 017.0009 [RUSSIAN]: %% 2026-01-30T10:40:57 LAN: RUSSIAN: "Chilovski" - Russian name used as type/comparison %%
@@ -504,69 +504,69 @@ They need AI translation into French.
 - **018/1874-04-23.md** para 018.0361 [ENGLISH]: %% 2026-01-30T11:32:38 LAN: "steeple chase" - ENGLISH: steeplechase (cross-country horse race with obstacles) %%
 - **018/1874-04-23.md** para 018.0364 [ITALIAN]: %% 2026-01-30T11:32:48 LAN: CODE-SWITCH ITALIAN: "mi mama il freto non so che cosa sento se non che l'amo" - garbled Italian with errors; attempts "I don't know what I feel except that I love him" %%
 - **018/1874-04-23.md** para 018.0364 [ITALIAN]: %% 2026-01-30T11:32:49 LAN: ITALIAN ERRORS: "mi mama" unclear, "freto" possibly "freddo" (cold) or error; grammatically confused emotional outpouring %%
-- **019/1874-05-02.md** para 019.0076 [ITALIAN]: %% 2026-01-30T11:40:47 LAN: ITALIAN: "crescendo" - musical term: increasing in intensity %%
-- **019/1874-05-07.md** para 019.0149 [ENGLISH]: %% 2026-01-30T11:42:15 LAN: ENGLISH: "That is the question" - Shakespeare's Hamlet, code-switching for dramatic effect %%
-- **019/1874-05-08.md** para 019.0152 [ITALIAN]: %% 2026-01-30T11:42:17 LAN: ITALIAN: "Ora incomincian le dolenti note a tarmisi sentire" - Dante's Inferno III.22-26: "Now begin the woeful notes to make themselves heard to me" (entering Hell) %%
-- **019/1874-05-08.md** para 019.0159 [ENGLISH]: %% 2026-01-30T11:42:36 LAN: ENGLISH: "improve" - English word inserted mid-sentence (code-switching) %%
-- **019/1874-05-10.md** para 019.0177 [ENGLISH]: %% 2026-01-30T11:43:08 LAN: ENGLISH: "fiddler" - English word for violinist (possibly nickname) %%
-- **019/1874-05-10.md** para 019.0177 [ENGLISH]: %% 2026-01-30T11:43:10 LAN: ENGLISH: "accordingly" - code-switching mid-sentence %%
-- **019/1874-05-10.md** para 019.0178 [ENGLISH]: %% 2026-01-30T11:43:15 LAN: ENGLISH: "bridegroom" - English word for groom (code-switching) %%
-- **019/1874-05-14.md** para 019.0228 [ENGLISH]: %% 2026-01-30T11:50:50 LAN: ENGLISH: "ramblings" - code-switch to English for evening strolls; Marie's characteristic Anglicism %%
-- **019/1874-05-14.md** para 019.0230 [LATIN]: %% 2026-01-30T11:50:54 LAN: LATIN: "Miséréré" - Latin "have mercy"; biblical/liturgical exclamation of pity %%
-- **019/1874-05-16.md** para 019.0248 [ENGLISH]: %% 2026-01-30T11:51:21 LAN: ENGLISH: "I wonder" - code-switch to English mid-sentence; characteristic Anglicism %%
-- **019/1874-05-17.md** para 019.0266 [ENGLISH]: %% 2026-01-30T11:51:39 LAN: ENGLISH: "milady" - English title used in French; Arsenieff's prediction of English marriage %%
-- **019/1874-05-20.md** para 019.0312 [RUSSIAN]: %% 2026-01-30T11:52:25 LAN: "Vas., Ossip." - RUSSIAN: abbreviated patronymic; Vasily Ossipovich Howard (Russian naming convention) %%
-- **019/1874-05-20.md** para 019.0316 [ENGLISH]: %% 2026-01-30T11:52:28 LAN: ENGLISH: "driving" - code-switch; carriage ride %%
-- **019/1874-05-20.md** para 019.0316 [ENGLISH]: %% 2026-01-30T11:52:29 LAN: ENGLISH: "home" - code-switch; returning to hotel %%
-- **019/1874-05-20.md** para 019.0316 [ENGLISH]: %% 2026-01-30T11:52:30 LAN: ENGLISH: "called" - code-switch; paid a social visit %%
-- **019/1874-05-20.md** para 019.0316 [ENGLISH]: %% 2026-01-30T11:52:31 LAN: ENGLISH: "is engaged" - code-switch; betrothed %%
-- **019/1874-05-23.md** para 019.0353 [ITALIAN]: %% 2026-01-30T11:53:22 LAN: ITALIAN: "alla crescendo" - musical term: increasingly/with growing intensity; code-switch %%
-- **019/1874-05-27.md** para 019.0399 [RUSSIAN]: %% 2026-01-30T12:00:45 LAN: RUSSIAN: *sans chamaillerie* - without quarreling (Russian word in French text) %%
-- **019/1874-05-28.md** para 019.0409 [RUSSIAN]: %% 2026-01-30T12:00:50 LAN: RUSSIAN: *bistrot russe* - Russian restaurant/tavern %%
-- **019/1874-05-28.md** para 019.0409 [RUSSIAN]: %% 2026-01-30T12:00:51 LAN: RUSSIAN: *botvinia* - cold fish soup (Marie's editorial in brackets) %%
-- **019/1874-05-28.md** para 019.0409 [RUSSIAN]: %% 2026-01-30T12:00:54 LAN: RUSSIAN: *andouille* - sausage/idiot (insult in Russian) %%
-- **019/1874-05-29.md** para 019.0420 [RUSSIAN]: %% 2026-01-30T12:01:07 LAN: RUSSIAN: *échafaud* - scaffold (mother's Russian word for elevated carriage seat) %%
-- **019/1874-05-29.md** para 019.0431 [ENGLISH]: %% 2026-01-30T12:01:12 LAN: ENGLISH: "I did not mean wrong" - Marie switches to English for disclaimer %%
-- **019/1874-05-29.md** para 019.0433 [ENGLISH]: %% 2026-01-30T12:01:13 LAN: ENGLISH: "The objet de mon adoration" - starts English then switches to French mid-phrase %%
+- **019/1874-05-02.md** para 019.0075 [ITALIAN]: %% 2026-01-30T11:40:47 LAN: ITALIAN: "crescendo" - musical term: increasing in intensity %%
+- **019/1874-05-07.md** para 019.0144 [ENGLISH]: %% 2026-01-30T11:42:15 LAN: ENGLISH: "That is the question" - Shakespeare's Hamlet, code-switching for dramatic effect %%
+- **019/1874-05-08.md** para 019.0146 [ITALIAN]: %% 2026-01-30T11:42:17 LAN: ITALIAN: "Ora incomincian le dolenti note a tarmisi sentire" - Dante's Inferno III.22-26: "Now begin the woeful notes to make themselves heard to me" (entering Hell) %%
+- **019/1874-05-08.md** para 019.0153 [ENGLISH]: %% 2026-01-30T11:42:36 LAN: ENGLISH: "improve" - English word inserted mid-sentence (code-switching) %%
+- **019/1874-05-10.md** para 019.0169 [ENGLISH]: %% 2026-01-30T11:43:08 LAN: ENGLISH: "fiddler" - English word for violinist (possibly nickname) %%
+- **019/1874-05-10.md** para 019.0169 [ENGLISH]: %% 2026-01-30T11:43:10 LAN: ENGLISH: "accordingly" - code-switching mid-sentence %%
+- **019/1874-05-10.md** para 019.0170 [ENGLISH]: %% 2026-01-30T11:43:15 LAN: ENGLISH: "bridegroom" - English word for groom (code-switching) %%
+- **019/1874-05-14.md** para 019.0218 [ENGLISH]: %% 2026-01-30T11:50:50 LAN: ENGLISH: "ramblings" - code-switch to English for evening strolls; Marie's characteristic Anglicism %%
+- **019/1874-05-14.md** para 019.0220 [LATIN]: %% 2026-01-30T11:50:54 LAN: LATIN: "Miséréré" - Latin "have mercy"; biblical/liturgical exclamation of pity %%
+- **019/1874-05-16.md** para 019.0236 [ENGLISH]: %% 2026-01-30T11:51:21 LAN: ENGLISH: "I wonder" - code-switch to English mid-sentence; characteristic Anglicism %%
+- **019/1874-05-17.md** para 019.0253 [ENGLISH]: %% 2026-01-30T11:51:39 LAN: ENGLISH: "milady" - English title used in French; Arsenieff's prediction of English marriage %%
+- **019/1874-05-20.md** para 019.0297 [RUSSIAN]: %% 2026-01-30T11:52:25 LAN: "Vas., Ossip." - RUSSIAN: abbreviated patronymic; Vasily Ossipovich Howard (Russian naming convention) %%
+- **019/1874-05-20.md** para 019.0301 [ENGLISH]: %% 2026-01-30T11:52:28 LAN: ENGLISH: "driving" - code-switch; carriage ride %%
+- **019/1874-05-20.md** para 019.0301 [ENGLISH]: %% 2026-01-30T11:52:29 LAN: ENGLISH: "home" - code-switch; returning to hotel %%
+- **019/1874-05-20.md** para 019.0301 [ENGLISH]: %% 2026-01-30T11:52:30 LAN: ENGLISH: "called" - code-switch; paid a social visit %%
+- **019/1874-05-20.md** para 019.0301 [ENGLISH]: %% 2026-01-30T11:52:31 LAN: ENGLISH: "is engaged" - code-switch; betrothed %%
+- **019/1874-05-23.md** para 019.0337 [ITALIAN]: %% 2026-01-30T11:53:22 LAN: ITALIAN: "alla crescendo" - musical term: increasingly/with growing intensity; code-switch %%
+- **019/1874-05-27.md** para 019.0381 [RUSSIAN]: %% 2026-01-30T12:00:45 LAN: RUSSIAN: *sans chamaillerie* - without quarreling (Russian word in French text) %%
+- **019/1874-05-28.md** para 019.0390 [RUSSIAN]: %% 2026-01-30T12:00:50 LAN: RUSSIAN: *bistrot russe* - Russian restaurant/tavern %%
+- **019/1874-05-28.md** para 019.0390 [RUSSIAN]: %% 2026-01-30T12:00:51 LAN: RUSSIAN: *botvinia* - cold fish soup (Marie's editorial in brackets) %%
+- **019/1874-05-28.md** para 019.0390 [RUSSIAN]: %% 2026-01-30T12:00:54 LAN: RUSSIAN: *andouille* - sausage/idiot (insult in Russian) %%
+- **019/1874-05-29.md** para 019.0401 [RUSSIAN]: %% 2026-01-30T12:01:07 LAN: RUSSIAN: *échafaud* - scaffold (mother's Russian word for elevated carriage seat) %%
+- **019/1874-05-29.md** para 019.0412 [ENGLISH]: %% 2026-01-30T12:01:12 LAN: ENGLISH: "I did not mean wrong" - Marie switches to English for disclaimer %%
+- **019/1874-05-29.md** para 019.0414 [ENGLISH]: %% 2026-01-30T12:01:13 LAN: ENGLISH: "The objet de mon adoration" - starts English then switches to French mid-phrase %%
 - **020/1874-05-30.md** para 020.0004 [ENGLISH]: %% 2026-01-30T12:01:16 LAN: ENGLISH: "I did not enjoy our escapade" - Marie switches to English for emotional statement %%
 - **020/1874-05-30.md** para 020.0006 [RUSSIAN]: %% 2026-01-30T12:01:19 LAN: RUSSIAN: *Peut-on* - May one enter? (Russian phrase) %%
 - **020/1874-05-30.md** para 020.0008 [RUSSIAN]: %% 2026-01-30T12:01:23 LAN: RUSSIAN: *Et voilà à petits pas, à leur place* - mother's Russian comment about walking slowly %%
-- **020/1874-05-31.md** para 020.0017 [ENGLISH]: %% 2026-01-30T12:01:31 LAN: ENGLISH: "enjoyed" - Marie switches to English for pleasure %%
-- **020/1874-06-01.md** para 020.0080 [ENGLISH]: %% 2026-01-30T12:01:45 LAN: ENGLISH: "My blush did not last long" - Marie switches to English for self-observation %%
-- **020/1874-06-01.md** para 020.0093 [ENGLISH]: %% 2026-01-30T12:01:47 LAN: ENGLISH: "marriez [marry]" - Berthe uses anglicized French verb (marry my daughter) %%
-- **020/1874-06-01.md** para 020.0100 [RUSSIAN]: %% 2026-01-30T12:01:54 LAN: RUSSIAN: ★nécessaire* - necessary (Russian word inserted) %%
-- **020/1874-06-04.md** para 020.0125 [RUSSIAN]: %% 2026-01-30T12:02:06 LAN: RUSSIAN: *Imbécile...* - aunt's Russian exclamation about Rothschild's staring %%
-- **020/1874-06-04.md** para 020.0133 [RUSSIAN]: %% 2026-01-30T12:02:12 LAN: RUSSIAN: *Et voilà Lambertoun* - mother's Russian diminutive/nickname for Lambertye %%
-- **020/1874-06-04.md** para 020.0133 [RUSSIAN]: %% 2026-01-30T12:02:14 LAN: RUSSIAN: *que donc il soit amoureux* - mother's Russian aside: "let him be in love then" %%
-- **020/1874-06-07.md** para 020.0162 [ITALIAN]: %% 2026-01-30T12:10:31 LAN: ITALIAN "poverino" - poor fellow/little poor one; Italian term of pity/dismissal for poor man %%
-- **020/1874-06-07.md** para 020.0167 [RUSSIAN]: %% 2026-01-30T12:10:37 LAN: RUSSIAN EXPRESSION "nulle part ou jeter une pomme" - nowhere to throw an apple; Russian idiom for extreme crowding (no room for even an apple to fall) %%
-- **020/1874-06-07.md** para 020.0169 [RUSSIAN]: %% 2026-01-30T12:10:40 LAN: RUSSIAN "Moussia" - Marie's Russian diminutive/pet name %%
-- **020/1874-06-07.md** para 020.0172 [LATIN]: %% 2026-01-30T12:10:46 LAN: LATIN "mulier habuit" - he has/had a woman (wife); Hamilton is married, Latin for privacy/discretion %%
-- **020/1874-06-07.md** para 020.0174 [LATIN]: %% 2026-01-30T12:10:47 LAN: LATIN "Miséréré" - Have mercy (from Psalm 51); dramatic/ironic religious exclamation %%
-- **020/1874-06-09.md** para 020.0194 [ITALIAN]: %% 2026-01-30T12:11:10 LAN: ITALIAN "spogliamo" - we undress; code-switching for intimate action (undressing due to heat) %%
-- **020/1874-06-09.md** para 020.0194 [LATIN]: %% 2026-01-30T12:11:11 LAN: LATIN "Requiem eterno" - eternal rest; from the Requiem Mass, used playfully about money %%
-- **020/1874-06-10.md** para 020.0210 [LATIN]: %% 2026-01-30T22:00:00 LAN: LATIN "Requiem eterno" - eternal rest; ironic use for lost dog, echoing Verdi Requiem from previous day %%
-- **020/1874-06-12.md** para 020.0241 [ENGLISH]: %% 2026-01-30T12:11:35 LAN: ENGLISH "policemen" - code-switching; English word for police officers %%
-- **020/1874-06-13.md** para 020.0252 [LATIN]: %% 2026-01-30T12:11:43 LAN: LATIN "requiem aeternam" - eternal rest; playful use of Requiem Mass phrase for debts/departed princess %%
-- **020/1874-06-15.md** para 020.0310 [ENGLISH]: %% 2026-01-30T12:12:16 LAN: ENGLISH "walked" - code-switching; English verb for walking %%
-- **020/1874-06-17.md** para 020.0345 [ENGLISH]: %% 2026-01-30T12:20:11 LAN: "setter" - ENGLISH: breed of hunting dog, kept in English %%
-- **020/1874-06-17.md** para 020.0347 [ENGLISH]: %% 2026-01-30T12:20:16 LAN: "Blackprince" - ENGLISH compound: a horse name, contrasted with Hamilton's driving speed %%
-- **020/1874-06-17.md** para 020.0352 [ENGLISH]: %% 2026-01-30T12:20:19 LAN: "points of admiration" - ENGLISH CODE-SWITCH: exclamation marks (points d'exclamation) - Marie uses English for ironic self-mockery %%
-- **020/1874-06-21.md** para 020.0393 [ENGLISH]: %% 2026-01-30T12:21:12 LAN: "bull" - ENGLISH: bulldog breed %%
-- **020/1874-06-21.md** para 020.0394 [LATIN]: %% 2026-01-30T12:21:18 LAN: "Miséréré" - LATIN: Have mercy (from psalm) - exclamation of despair, here ironic %%
-- **020/1874-06-22.md** para 020.0399 [ENGLISH]: %% 2026-01-30T12:21:23 LAN: "English Hats" - ENGLISH shop name - Paris hat shop with English brand identity %%
-- **020/1874-06-22.md** para 020.0405 [ENGLISH]: %% 2026-01-30T12:21:40 LAN: "New Scotland" - ENGLISH: likely tartan/Scottish-style fabric - connection to Hamilton's Scottish title %%
-- **020/1874-06-22.md** para 020.0411 [ENGLISH]: %% 2026-01-30T12:21:55 LAN: "waterproof" - ENGLISH: raincoat/mackintosh - English term for rain gear %%
-- **020/1874-06-28.md** para 020.0457 [RUSSIAN]: %% 2026-01-30T12:22:57 LAN: "*jouk [bourdon]*" - RUSSIAN: beetle/bug (zhuk) + French "bourdon" (bumblebee) - family code for eligible men at Spa %%
-- **020/1874-06-28.md** para 020.0459 [RUSSIAN]: %% 2026-01-30T12:23:00 LAN: "*Jouk*" - RUSSIAN: calling the man a beetle - family joke applied to stranger %%
-- **020/1874-06-29.md** para 020.0477 [LATIN]: %% 2026-01-30T12:23:27 LAN: "Miséréré" - LATIN: have mercy - repeated exclamation of despair %%
-- **020/1874-06-30.md** para 020.0484 [ENGLISH]: %% 2026-01-30T12:23:30 LAN: "I fall in love with my hair" - ENGLISH CODE-SWITCH: expressing self-admiration in English %%
-- **020/1874-07-01.md** para 020.0507 [RUSSIAN]: %% 2026-01-30T12:23:39 LAN: "*propriétaire*" - EMPHASIS (italics): RUSSIAN loanword context - landowner type, bourgeois not noble %%
-- **020/1874-07-01.md** para 020.0520 [ENGLISH]: %% 2026-01-30T12:24:07 LAN: "flirte" - ENGLISH LOANWORD: flirt - borrowed into French %%
-- **020/1874-07-01.md** para 020.0531 [ENGLISH]: %% 2026-01-30T12:24:15 LAN: "waterproof" - ENGLISH: raincoat - repeated English term %%
-- **020/1874-07-02.md** para 020.0544 [ENGLISH]: %% 2026-01-30T12:24:33 LAN: "puppies" - ENGLISH: puppies - young/immature men, dismissive %%
-- **020/1874-07-03.md** para 020.0557 [ENGLISH]: %% 2026-01-30T12:24:47 LAN: "puppy" - ENGLISH: puppy - young suitor (Count Merjeewsky) %%
-- **020/1874-07-04.md** para 020.0575 [ENGLISH]: %% 2026-01-30T12:25:10 LAN: "flirt" - ENGLISH VERB: to flirt - code-switch %%
+- **020/1874-05-31.md** para 020.0016 [ENGLISH]: %% 2026-01-30T12:01:31 LAN: ENGLISH: "enjoyed" - Marie switches to English for pleasure %%
+- **020/1874-06-01.md** para 020.0078 [ENGLISH]: %% 2026-01-30T12:01:45 LAN: ENGLISH: "My blush did not last long" - Marie switches to English for self-observation %%
+- **020/1874-06-01.md** para 020.0091 [ENGLISH]: %% 2026-01-30T12:01:47 LAN: ENGLISH: "marriez [marry]" - Berthe uses anglicized French verb (marry my daughter) %%
+- **020/1874-06-01.md** para 020.0098 [RUSSIAN]: %% 2026-01-30T12:01:54 LAN: RUSSIAN: ★nécessaire* - necessary (Russian word inserted) %%
+- **020/1874-06-04.md** para 020.0121 [RUSSIAN]: %% 2026-01-30T12:02:06 LAN: RUSSIAN: *Imbécile...* - aunt's Russian exclamation about Rothschild's staring %%
+- **020/1874-06-04.md** para 020.0129 [RUSSIAN]: %% 2026-01-30T12:02:12 LAN: RUSSIAN: *Et voilà Lambertoun* - mother's Russian diminutive/nickname for Lambertye %%
+- **020/1874-06-04.md** para 020.0129 [RUSSIAN]: %% 2026-01-30T12:02:14 LAN: RUSSIAN: *que donc il soit amoureux* - mother's Russian aside: "let him be in love then" %%
+- **020/1874-06-07.md** para 020.0155 [ITALIAN]: %% 2026-01-30T12:10:31 LAN: ITALIAN "poverino" - poor fellow/little poor one; Italian term of pity/dismissal for poor man %%
+- **020/1874-06-07.md** para 020.0160 [RUSSIAN]: %% 2026-01-30T12:10:37 LAN: RUSSIAN EXPRESSION "nulle part ou jeter une pomme" - nowhere to throw an apple; Russian idiom for extreme crowding (no room for even an apple to fall) %%
+- **020/1874-06-07.md** para 020.0162 [RUSSIAN]: %% 2026-01-30T12:10:40 LAN: RUSSIAN "Moussia" - Marie's Russian diminutive/pet name %%
+- **020/1874-06-07.md** para 020.0165 [LATIN]: %% 2026-01-30T12:10:46 LAN: LATIN "mulier habuit" - he has/had a woman (wife); Hamilton is married, Latin for privacy/discretion %%
+- **020/1874-06-07.md** para 020.0167 [LATIN]: %% 2026-01-30T12:10:47 LAN: LATIN "Miséréré" - Have mercy (from Psalm 51); dramatic/ironic religious exclamation %%
+- **020/1874-06-09.md** para 020.0186 [ITALIAN]: %% 2026-01-30T12:11:10 LAN: ITALIAN "spogliamo" - we undress; code-switching for intimate action (undressing due to heat) %%
+- **020/1874-06-09.md** para 020.0186 [LATIN]: %% 2026-01-30T12:11:11 LAN: LATIN "Requiem eterno" - eternal rest; from the Requiem Mass, used playfully about money %%
+- **020/1874-06-10.md** para 020.0201 [LATIN]: %% 2026-01-30T22:00:00 LAN: LATIN "Requiem eterno" - eternal rest; ironic use for lost dog, echoing Verdi Requiem from previous day %%
+- **020/1874-06-12.md** para 020.0230 [ENGLISH]: %% 2026-01-30T12:11:35 LAN: ENGLISH "policemen" - code-switching; English word for police officers %%
+- **020/1874-06-13.md** para 020.0241 [LATIN]: %% 2026-01-30T12:11:43 LAN: LATIN "requiem aeternam" - eternal rest; playful use of Requiem Mass phrase for debts/departed princess %%
+- **020/1874-06-15.md** para 020.0297 [ENGLISH]: %% 2026-01-30T12:12:16 LAN: ENGLISH "walked" - code-switching; English verb for walking %%
+- **020/1874-06-17.md** para 020.0331 [ENGLISH]: %% 2026-01-30T12:20:11 LAN: "setter" - ENGLISH: breed of hunting dog, kept in English %%
+- **020/1874-06-17.md** para 020.0333 [ENGLISH]: %% 2026-01-30T12:20:16 LAN: "Blackprince" - ENGLISH compound: a horse name, contrasted with Hamilton's driving speed %%
+- **020/1874-06-17.md** para 020.0338 [ENGLISH]: %% 2026-01-30T12:20:19 LAN: "points of admiration" - ENGLISH CODE-SWITCH: exclamation marks (points d'exclamation) - Marie uses English for ironic self-mockery %%
+- **020/1874-06-21.md** para 020.0375 [ENGLISH]: %% 2026-01-30T12:21:12 LAN: "bull" - ENGLISH: bulldog breed %%
+- **020/1874-06-21.md** para 020.0376 [LATIN]: %% 2026-01-30T12:21:18 LAN: "Miséréré" - LATIN: Have mercy (from psalm) - exclamation of despair, here ironic %%
+- **020/1874-06-22.md** para 020.0380 [ENGLISH]: %% 2026-01-30T12:21:23 LAN: "English Hats" - ENGLISH shop name - Paris hat shop with English brand identity %%
+- **020/1874-06-22.md** para 020.0385 [ENGLISH]: %% 2026-01-30T12:21:40 LAN: "New Scotland" - ENGLISH: likely tartan/Scottish-style fabric - connection to Hamilton's Scottish title %%
+- **020/1874-06-22.md** para 020.0391 [ENGLISH]: %% 2026-01-30T12:21:55 LAN: "waterproof" - ENGLISH: raincoat/mackintosh - English term for rain gear %%
+- **020/1874-06-28.md** para 020.0432 [RUSSIAN]: %% 2026-01-30T12:22:57 LAN: "*jouk [bourdon]*" - RUSSIAN: beetle/bug (zhuk) + French "bourdon" (bumblebee) - family code for eligible men at Spa %%
+- **020/1874-06-28.md** para 020.0434 [RUSSIAN]: %% 2026-01-30T12:23:00 LAN: "*Jouk*" - RUSSIAN: calling the man a beetle - family joke applied to stranger %%
+- **020/1874-06-29.md** para 020.0451 [LATIN]: %% 2026-01-30T12:23:27 LAN: "Miséréré" - LATIN: have mercy - repeated exclamation of despair %%
+- **020/1874-06-30.md** para 020.0457 [ENGLISH]: %% 2026-01-30T12:23:30 LAN: "I fall in love with my hair" - ENGLISH CODE-SWITCH: expressing self-admiration in English %%
+- **020/1874-07-01.md** para 020.0479 [RUSSIAN]: %% 2026-01-30T12:23:39 LAN: "*propriétaire*" - EMPHASIS (italics): RUSSIAN loanword context - landowner type, bourgeois not noble %%
+- **020/1874-07-01.md** para 020.0492 [ENGLISH]: %% 2026-01-30T12:24:07 LAN: "flirte" - ENGLISH LOANWORD: flirt - borrowed into French %%
+- **020/1874-07-01.md** para 020.0503 [ENGLISH]: %% 2026-01-30T12:24:15 LAN: "waterproof" - ENGLISH: raincoat - repeated English term %%
+- **020/1874-07-02.md** para 020.0515 [ENGLISH]: %% 2026-01-30T12:24:33 LAN: "puppies" - ENGLISH: puppies - young/immature men, dismissive %%
+- **020/1874-07-03.md** para 020.0527 [ENGLISH]: %% 2026-01-30T12:24:47 LAN: "puppy" - ENGLISH: puppy - young suitor (Count Merjeewsky) %%
+- **020/1874-07-04.md** para 020.0544 [ENGLISH]: %% 2026-01-30T12:25:10 LAN: "flirt" - ENGLISH VERB: to flirt - code-switch %%
 - **021/1874-07-05.md** para 021.0020 [ENGLISH]: %% 2026-01-30T13:00:13 LAN: ENGLISH - "Come here Sir, and sit down" - Basilévitch speaks English to attract Macainne %%
 - **021/1874-07-05.md** para 021.0021 [ENGLISH]: %% 2026-01-30T13:00:15 LAN: ENGLISH - "I am bashful" and "I am ashamed to tell you such things sufficient to render bashful a young lady" - Marie converses in English with Macainne %%
 - **021/1874-07-06.md** para 021.0032 [RUSSIAN]: %% 2026-01-30T13:00:21 LAN: RUSSIAN - "Makak" = monkey; Marie's insulting nickname thinking Russian wouldn't be understood %%
