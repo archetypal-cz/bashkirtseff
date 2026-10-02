@@ -1416,19 +1416,19 @@ They need AI translation into French.
 - **085/1879-05-17.md** para 085.0088 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "patito" - Italian: admirer, suitor, devotee (used ironically) %%
 - **085/1879-05-29.md** para 085.0198 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: ENGLISH: "chaperon" - English borrowing: chaperone (older woman accompanying young girl) %%
 - **085/1879-07-26.md** para 085.0583 [LATIN]: %% 2026-02-02T13:00:00 LAN: "Vulgo" - LATIN: commonly known as, alias %%
-- **086/1879-08-07.md** para 086.0008 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: "mezzo voce" - ITALIAN: half-voice, softly singing %%
-- **086/1879-08-18.md** para 086.0095 [LATIN]: %% 2026-02-03T10:26:00 LAN: "Nulla dies sine linea" - LATIN: no day without a line; artist's motto (attributed to Apelles) %%
-- **086/1879-08-18.md** para 086.0098 [ITALIAN]: %% 2026-02-03T10:26:00 LAN: "iettatore" - ITALIAN: one who casts the evil eye; brings bad luck %%
-- **086/1879-08-19.md** para 086.0102 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "vers anglais" - English verses, anonymous admirer's poem %%
-- **086/1879-08-23.md** para 086.0128 [ENGLISH]: %% 2026-02-03T09:05:00 LAN: "les plus chic" - the most elegant; ENGLISH BORROWING used in French %%
-- **086/1879-08-29.md** para 086.0158 [ENGLISH]: %% 2026-02-03T09:20:00 LAN: "break" - ENGLISH: open carriage; four-wheeled horse-drawn vehicle %%
-- **087/1879-12-23.md** para 087.0009 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: "skating" - ENGLISH: ice-skating rink; Marie uses English term for the venue %%
-- **087/1879-12-24.md** para 087.0014 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "lunch" - Marie uses English word for light meal/snack %%
-- **087/1879-12-28.md** para 087.0079 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "gentleman farmer" - Marie uses English term for a landowner who farms for pleasure rather than necessity %%
-- **087/1880-01-12.md** para 087.0195 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "flirter" - to flirt; borrowed English word, naturalized into French %%
-- **087/1880-01-13.md** para 087.0211 [LATIN]: %% 2026-02-09T13:00:00 LAN: LATIN: "Vanitas! Cupiditas gloriae!" - Vanity! Desire for glory! Marie's mock-classical self-reproach %%
-- **087/1880-03-22.md** para 087.0680 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "to be or not to be" - Shakespeare quotation in English in the original %%
-- **087/1880-04-16.md** para 087.0861 [LATIN]: %% 2026-02-09T13:00:00 LAN: LATIN: "non sufficit" - does not suffice; Marie's code-switching to Latin for ironic effect %%
+- **086/1879-08-07.md** para 086.0010 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: "mezzo voce" - ITALIAN: half-voice, softly singing %%
+- **086/1879-08-18.md** para 086.0097 [LATIN]: %% 2026-02-03T10:26:00 LAN: "Nulla dies sine linea" - LATIN: no day without a line; artist's motto (attributed to Apelles) %%
+- **086/1879-08-18.md** para 086.0100 [ITALIAN]: %% 2026-02-03T10:26:00 LAN: "iettatore" - ITALIAN: one who casts the evil eye; brings bad luck %%
+- **086/1879-08-19.md** para 086.0104 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "vers anglais" - English verses, anonymous admirer's poem %%
+- **086/1879-08-23.md** para 086.0130 [ENGLISH]: %% 2026-02-03T09:05:00 LAN: "les plus chic" - the most elegant; ENGLISH BORROWING used in French %%
+- **086/1879-08-29.md** para 086.0160 [ENGLISH]: %% 2026-02-03T09:20:00 LAN: "break" - ENGLISH: open carriage; four-wheeled horse-drawn vehicle %%
+- **087/1879-12-23.md** para 087.0010 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: "skating" - ENGLISH: ice-skating rink; Marie uses English term for the venue %%
+- **087/1879-12-24.md** para 087.0015 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "lunch" - Marie uses English word for light meal/snack %%
+- **087/1879-12-28.md** para 087.0080 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "gentleman farmer" - Marie uses English term for a landowner who farms for pleasure rather than necessity %%
+- **087/1880-01-12.md** para 087.0196 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "flirter" - to flirt; borrowed English word, naturalized into French %%
+- **087/1880-01-13.md** para 087.0212 [LATIN]: %% 2026-02-09T13:00:00 LAN: LATIN: "Vanitas! Cupiditas gloriae!" - Vanity! Desire for glory! Marie's mock-classical self-reproach %%
+- **087/1880-03-22.md** para 087.0681 [ENGLISH]: %% 2026-02-09T13:00:00 LAN: ENGLISH: "to be or not to be" - Shakespeare quotation in English in the original %%
+- **087/1880-04-16.md** para 087.0862 [LATIN]: %% 2026-02-09T13:00:00 LAN: LATIN: "non sufficit" - does not suffice; Marie's code-switching to Latin for ironic effect %%
 - **088/1880-05-26.md** para 088.0386 [LATIN]: %% 2026-02-09T14:00:00 LAN: LATIN: "ubi" - where; Marie drops a Latin word casually %%
 - **088/1880-06-01.md** para 088.0476 [RUSSIAN]: %% 2026-02-09T14:00:00 LAN: RUSSIAN: "aux bêtes" - card game "beasts" (Russian: "v duraka"); favorite card game of Russian servants %%
 - **088/1880-06-13.md** para 088.0757 [LATIN]: %% 2026-02-09T14:00:00 LAN: LATIN: "in extremis" - at the last moment/in desperation; Marie's secret letters to Cassagnac, never disclosed even to Julian %%
