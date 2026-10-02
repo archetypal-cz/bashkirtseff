@@ -65,7 +65,7 @@ Marie's inventive cruelty toward Lambertye produces a rich lexicon of insults:
 Lambertye first appears on **April 17, 1873** (004.0046), in a marginal note: "Mlle Collignon m'a grondée, parce que Lambertye m'a regardée avec un sourire" (Miss Collignon scolded me, because Lambertye looked at me with a smile). He is already a known figure -- Marie's governess considers his attention improper.
 
 %% GLO_LAMBERTYE.0011 %%
-By **May 5, 1873** (004.0083--0084), Marie calls him "Marquis de Lambertye" and sees him as a potential social stepping-stone: she prays fervently in English for God to arrange an introduction to the Duke of Hamilton *through* Lambertye, via the Pigeon Shooting club at Monaco. Marie's scheme: Lambertye leads to pigeon shooting leads to the Duke. On **May 7** (004.0069), she prays again: "Oh! si Dieu lui inspirait le désir de nous connaître" (Oh! if God would inspire in him the desire to know us). On **September 23, 1873** (010.0069), she recounts at dinner how Lambertye once asked about M. Randouin -- her father erupts in anger at the mention.
+By **May 5, 1873** (004.0082--0084), Marie calls him "Marquis de Lambertye" and sees him as a potential social stepping-stone: she prays fervently in English for God to arrange an introduction to the Duke of Hamilton *through* Lambertye, via the Pigeon Shooting club at Monaco. Marie's scheme: Lambertye leads to pigeon shooting leads to the Duke. On **May 7** (004.0068), she prays again: "Oh! si Dieu lui inspirait le désir de nous connaître" (Oh! if God would inspire in him the desire to know us). On **September 23, 1873** (010.0069), she recounts at dinner how Lambertye once asked about M. Randouin -- her father erupts in anger at the mention.
 
 %% GLO_LAMBERTYE.0012 %%
 ### Phase 2: The Winter Season -- Nice 1873--1874 (carnets 014--018)
@@ -159,7 +159,7 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 | Date | Carnet.Para | Event |
 |------|-------------|-------|
 | 1873-04-17 | 004.0046 | First appearance: Collignon scolds Marie for Lambertye's smile |
-| 1873-05-05 | 004.0083 | Marie prays for introduction through Lambertye to Hamilton |
+| 1873-05-05 | 004.0082 | Marie prays for introduction through Lambertye to Hamilton |
 | 1873-12-18 | 014.0031 | Monaco station, beginning of winter season |
 | 1873-12-22 | 014.0037 | "J'ai rarement vu un petit homme plus laid" |
 | 1873-12-23 | 014.0088 | Theater: "ne cesse pas de me regarder" |

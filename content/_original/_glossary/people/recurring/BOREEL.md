@@ -22,7 +22,7 @@ last_updated: 2026-05-25
 ## Identity and Background
 
 %% GLO_BOREEL.0002 %%
-Alfred Boreel was a young Dutchman who became Marie Bashkirtseff's first serious romantic interest during the winter seasons of 1871-72 and 1872-73 in Nice. Marie's diary gives his full name as "M. Alfred Boreel" (002.0104, entry 1873-02-26), while his dog's collar read "M. Robert Boreel" (004.0199, entry 1873-04-27), suggesting the family name appeared on the collar under a different family member's name, or that Robert was a middle name.
+Alfred Boreel was a young Dutchman who became Marie Bashkirtseff's first serious romantic interest during the winter seasons of 1871-72 and 1872-73 in Nice. Marie's diary gives his full name as "M. Alfred Boreel" (002.0104, entry 1873-02-26), while his dog's collar read "M. Robert Boreel" (004.0198, entry 1873-04-27), suggesting the family name appeared on the collar under a different family member's name, or that Robert was a middle name.
 
 %% GLO_BOREEL.0003 %%
 The Boreel family was a distinguished Dutch patrician family (*regentenpatriciaat*) with deep roots in the Netherlands, originating from Amsterdam. The family produced multiple notable figures including:
@@ -72,10 +72,10 @@ In her 1875 retrospective, Marie states that when Audiffret was barely twenty, "
 
 %% GLO_BOREEL.0012 %%
 The Boreel family maintained a seasonal presence in Nice with significant property:
-- **Villa and residence**: The family occupied or rented a villa on the Promenade des Anglais area; Marie mentions "les villas 57, Boreel, Canepa" in her panoramic view from Villa Acqua Viva (006, entry 1873-06-19). They also used **La Corinthienne**, a villa Marie associates with Boreel family gatherings and dinners (004.0198, entry 1873-04-29; 010.0086, entry 1873-09-26).
+- **Villa and residence**: The family occupied or rented a villa on the Promenade des Anglais area; Marie mentions "les villas 57, Boreel, Canepa" in her panoramic view from Villa Acqua Viva (006, entry 1873-06-19). They also used **La Corinthienne**, a villa Marie associates with Boreel family gatherings and dinners (004.0197, entry 1873-04-29; 010.0086, entry 1873-09-26).
 - **Mme Boreel** (his mother): Seen at her window at the start of the 1873-74 season (010.0086, entry 1873-09-27). Marie notes her arriving with a young blonde woman she speculates might be Boreel's wife (010.0145, entry 1873-10-01). Last seen departing Nice with Boreel in May 1876 (059, entry 1876-05-07).
-- **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0189, entry 1873-03-07; 004.0324, entry 1873-05-10).
-- **A dog**: The family dog's collar read "M. Robert Boreel" and would follow Marie's family in the street (004.0199, entry 1873-04-27).
+- **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0189, entry 1873-03-07; 004.0323, entry 1873-05-10).
+- **A dog**: The family dog's collar read "M. Robert Boreel" and would follow Marie's family in the street (004.0198, entry 1873-04-27).
 - **Horses**: Boreel kept fine horses in Nice. Marie notes he had "les plus beaux chevaux" (040.0085) and is frequently seen with one or two horses on the Promenade.
 
 %% GLO_BOREEL.0013 %%

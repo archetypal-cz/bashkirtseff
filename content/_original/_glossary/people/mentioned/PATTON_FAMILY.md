@@ -31,8 +31,8 @@ The Patton family is temporarily staying at the Villa Savelieff while their own 
 
 ## Diary References
 
-- **May 11, 1873** (004.0329): Nathalie Patton brought home from church; Mme Patton at the bedside of the dying Mme Savelieff.
-- **May 15, 1873** (004.0355): Mme Patton faints at the funeral service.
+- **May 11, 1873** (004.0328): Nathalie Patton brought home from church; Mme Patton at the bedside of the dying Mme Savelieff.
+- **May 15, 1873** (004.0354): Mme Patton faints at the funeral service.
 - **May 26, 1873** (005.0061): M. Abramovitch mentions being at the Pattons' and defending Marie there.
 - **June 4, 1873** (005): The Patton family mentioned.
 - **June 9, 1873** (005.0217): At Villa Savelieff; M. Patton called a "brute."
