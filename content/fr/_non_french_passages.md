@@ -1487,11 +1487,11 @@ They need AI translation into French.
 - **101/1883-08-19.md** para 101.0186 [ITALIAN]: %% 2026-02-03T10:08:00 LAN: ITALIAN: "il gran Giulio" - the great Giulio (ironic aggrandizement) %%
 - **101/1883-08-30.md** para 101.0296 [LATIN]: %% 2026-02-03T10:13:00 LAN: LATIN: "Vanitas vanitatum et omnia vanitas" - Vanity of vanities, all is vanity (Ecclesiastes 1:2) %%
 - **101/1883-09-18.md** para 101.0396 [ENGLISH]: %% 2026-02-03T10:18:00 LAN: ENGLISH allusion: "Words, words, words" - from Shakespeare's Hamlet %%
-- **102/1883-10-24.md** para 102.0025 [RUSSIAN]: %% 2026-02-03T09:02:35 LAN: "Solominka" - RUSSIAN: little straw/wisp of straw (nickname for thin Mme Markevitch) %%
-- **102/1883-11-13.md** para 102.0045 [LATIN]: %% 2026-02-03T09:06:25 LAN: "sine qua non" - LATIN: essential condition, without which not %%
-- **102/1883-11-20.md** para 102.0052 [LATIN]: %% 2026-02-03T09:07:42 LAN: "aurea mediocritas" - LATIN: golden mean (Horace), here: mediocrity %%
-- **102/1883-12-24.md** para 102.0086 [ENGLISH]: %% 2026-02-03T09:12:42 LAN: "la gentry parisienne" - ENGLISH: the Parisian gentry %%
-- **102/1884-01-02.md** para 102.0099 [RUSSIAN]: %% 2026-02-03T09:14:06 LAN: "starovoï" - RUSSIAN: starosta, village official/police functionary %%
-- **103/1884-02-08.md** para 103.0279 [LATIN]: %% 2026-02-02T14:00:00 LAN: "Idem" - LATIN: same as before, Marie's shorthand for routine days %%
-- **103/1884-03-26.md** para 103.0542 [LATIN]: %% 2026-02-02T14:00:00 LAN: "i.e." - LATIN: id est, that is %%
-- **103/1884-03-29.md** para 103.0556 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "si ingrata, t'amo, t'amo ancora" - ITALIAN: "ungrateful one, I love you, I still love you" - from Lucia sextet %%
+- **102/1883-10-24.md** para 102.0051 [RUSSIAN]: %% 2026-02-03T09:02:35 LAN: "Solominka" - RUSSIAN: little straw/wisp of straw (nickname for thin Mme Markevitch) %%
+- **102/1883-11-13.md** para 102.0234 [LATIN]: %% 2026-02-03T09:06:25 LAN: "sine qua non" - LATIN: essential condition, without which not %%
+- **102/1883-11-20.md** para 102.0275 [LATIN]: %% 2026-02-03T09:07:42 LAN: "aurea mediocritas" - LATIN: golden mean (Horace), here: mediocrity %%
+- **102/1883-12-24.md** para 102.0542 [ENGLISH]: %% 2026-02-03T09:12:42 LAN: "la gentry parisienne" - ENGLISH: the Parisian gentry %%
+- **102/1884-01-02.md** para 102.0629 [RUSSIAN]: %% 2026-02-03T09:14:06 LAN: "starovoï" - RUSSIAN: starosta, village official/police functionary %%
+- **103/1884-02-08.md** para 103.0302 [LATIN]: %% 2026-02-02T14:00:00 LAN: "Idem" - LATIN: same as before, Marie's shorthand for routine days %%
+- **103/1884-03-26.md** para 103.0588 [LATIN]: %% 2026-02-02T14:00:00 LAN: "i.e." - LATIN: id est, that is %%
+- **103/1884-03-29.md** para 103.0602 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "si ingrata, t'amo, t'amo ancora" - ITALIAN: "ungrateful one, I love you, I still love you" - from Lucia sextet %%
