@@ -300,7 +300,7 @@ const hasOriginal = computed(() => !!props.originalHtml);
               </button>
 
               <!-- Report issue (authenticated) -->
-              <button v-if="auth.isAuthenticated" @click="openReport" class="menu-item">
+              <button v-if="auth.isAuthenticated && !auth.offline" @click="openReport" class="menu-item">
                 <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                 </svg>
@@ -308,7 +308,7 @@ const hasOriginal = computed(() => !!props.originalHtml);
               </button>
 
               <!-- Sign in to report (not authenticated) -->
-              <button v-else-if="!auth.loading" @click="handleSignInToReport" class="menu-item menu-item--muted">
+              <button v-else-if="!auth.loading && !auth.offline" @click="handleSignInToReport" class="menu-item menu-item--muted">
                 <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                 </svg>
