@@ -422,6 +422,7 @@ Established terminology for consistent translation across carnets.
 | Plowden | Плауден | English family in Rome/Naples 1876; locked 2026-09-29 wave-uk (NOT Плоуден) |
 | Facciotti | Фаччотті | 052–053; locked 2026-09-29 wave-uk |
 | Daillens (de) | де Дайєнс | locked 2026-09-29 wave-uk (NOT Дайянс); 2026-10-02: always ONE WOMAN (Mme Marie de Daillens, née de Mouzay, per the indexes in t.8/13/14) — feminine agreement, indeclinable (з де Дайєнс, НЕ Дайєнсом/Дайєнсу) |
+| Bagnitzky / Bagnitsky | Багницький (declined) | locked 2026-10-02 wave-uk (majority form; NOT Баґніцький) |
 | Pâris (Iourkoff, Nina's admirer; nickname after the Trojan prince) | Паріс | decl. Паріса/Парісові/Парісом; locked 2026-09-29 wave-uk (NOT indeclinable Парі) |
 | Cima | Цима | decl. Цими/Цимі/Циму/Цимою; locked 2026-09-29 wave-uk (NOT Сіма) |
 | Jaxa | Якса | acc. Яксу; locked 2026-09-29 wave-uk (NOT Якс) |
