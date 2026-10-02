@@ -206,7 +206,7 @@ Gambling stays inside MONEY. It doesn't need a theme of its own.
 - `just tag-sync LANG CARNET` copies every missing tag line. It is additive too, and was used to repair uk drift in `895237620`.
 - **Nothing removes a tag from the trees.**
 
-**Tooling to build first** (Sonnet maintenance, about half a day):
+**Tooling (BUILT 2026-10-02):** `just tag-audit-dump`, `just tag-audit-apply`, `just tag-reconcile`; `just theme-tag` is disabled. Usage in `.claude/skills/glossary-tagger/SKILL.md`. `split_parent` in the dump is not implemented (always null). Original specification, for reference:
 - `src/scripts/apply_tag_audit.py`, with `just tag-audit-apply CARNET --decisions F [--write]`. It applies the per-paragraph decisions to `_original`:
   - edits tokens, so multi-tag lines work;
   - inserts after the ID, the kind marker and the existing tag block;

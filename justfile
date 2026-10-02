@@ -116,9 +116,23 @@ glossary-alias-stats:
 
 # === TAGGING ===
 
-# Add theme tags to diary entries (use --dry-run to preview)
+# DISABLED: the regex theme tagger produced mostly false positives. Themes are now judged per paragraph (docs/research/theme-taxonomy.md): `just tag-audit-dump`, then `just tag-audit-apply`
 theme-tag *FLAGS:
-    npx tsx src/scripts/theme-tagger.ts {{FLAGS}}
+    @echo "theme-tag is disabled: the regex tagger re-adds false-positive themes." >&2
+    @echo "Use the tag audit instead: docs/research/theme-taxonomy.md section 4 (just tag-audit-dump / tag-audit-apply / tag-reconcile)." >&2
+    @exit 1
+
+# Tag audit: dump a carnet of _original as JSON (id, kind, French text, themes/entities, RSR) for the taggers. e.g. just tag-audit-dump 014 --out /tmp/d014.json
+tag-audit-dump carnet *FLAGS:
+    python3 src/scripts/dump_tag_audit.py {{carnet}} {{FLAGS}}
+
+# Tag audit: apply decisions JSON to content/_original (dry run unless --write; rejects invalid paragraphs, exit 1 unless --force-partial). e.g. just tag-audit-apply 014 --decisions d.json --write
+tag-audit-apply carnet *FLAGS:
+    python3 src/scripts/apply_tag_audit.py {{carnet}} {{FLAGS}}
+
+# Make a tree's tags EQUAL _original's per paragraph ID, adds AND removes (dry run unless --write). --scope themes (default) | all. CARNET may be `all`. Then `just sync-verify CARNET LANG`
+tag-reconcile lang carnet *FLAGS:
+    python3 src/scripts/tag_reconcile.py {{lang}} {{carnet}} {{FLAGS}}
 
 # Propagate ONE source glossary tag into all translations with correctly-localized paths
 # (additive; never edits text/other tags; default dry-run, pass --apply to write).

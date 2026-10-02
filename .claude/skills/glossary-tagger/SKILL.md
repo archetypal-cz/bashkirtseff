@@ -236,6 +236,18 @@ Also check for glossary data quality issues flagged by evaluators:
 
 The tagger writes source-relative `../_glossary/…` tags into `content/_original` only. Translations need the same tags at `../../_original/_glossary/…` depth. Propagate each new tag with `just propagate-tag --target {category}/{ID}.md --display {Display}` (dry run first, then `--apply`), which is additive and localises the path. Keep the scope explicit: run it only for the tags this run added. The script has no carnet filter — it covers every source paragraph carrying the tag — so read the dry run and confirm the changes fall in the carnets you expect before `--apply`. Never "union all tags on the touched paragraphs" — that once ballooned into a repo-wide rewrite. Afterwards, `just check-links {lang} {carnet}` must report 0 broken links in every tree. Details: `docs/GLOSSARY_LINK_MAINTENANCE.md`.
 
+### Theme tag audit tooling (themes and per-paragraph entity corrections)
+
+Themes are no longer keyword-tagged (`just theme-tag` is disabled). They are judged per paragraph; see `docs/research/theme-taxonomy.md` (§3 guide, §4 flow). Three recipes, all stdlib Python in `src/scripts/` (shared helpers in `tag_lib.py`), all dry-run by default:
+
+```bash
+just tag-audit-dump 014 --out /tmp/d014.json       # per-paragraph JSON: id, entry_file, kind, French text, themes, entities, RSR
+just tag-audit-apply 014 --decisions d.json [--write] [--force-partial]   # decisions -> content/_original
+just tag-reconcile cz 014 [--scope themes|all] [--write]                  # tree tags := _original tags (adds AND removes); CARNET may be `all`
+```
+
+Decisions file: `{para_id: {themes: [FULL desired set], entities_add: [path|ID|{id,display}], entities_remove: [{id, reason}], notes}}` (omit `themes` to leave a paragraph's themes alone). The applier rejects a paragraph (report, exit 1; nothing applied unless `--force-partial`) for an unknown or retired theme, a qualifier without its parent, MONEY/PROPERTY without a qualifier, more than 3 themes, themes on a clipping or a textless paragraph, or a nonexistent entity. Edits are token-level, so multi-tag lines survive. After `tag-reconcile --write` on a tree run `just sync-verify CARNET LANG`, `verify-carnet`, `splicescan`; commit trees only after the translation drivers have committed that tome.
+
 ## Grouping Strategy
 
 For efficient parallel evaluation:
