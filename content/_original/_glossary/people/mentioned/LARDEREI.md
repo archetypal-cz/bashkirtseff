@@ -158,7 +158,7 @@ The final diary reference, July 5, 1884, is withering: "Qu'est-ce qui est assis 
 - **Bijou** (Jewel) -- Marie's pet name from March 1877 onward
 - **Alexandre le grand** -- mocking wordplay on his first name (069, Mar 3, 1877)
 - **Ladreréel beau-frère de Mirafiol** -- Rosalie's mangled pronunciation (068, Feb 22-23, 1877)
-- **Monsieur le comte** -- used ironically, contrasted with "Monsieur le cocher" (his coachman, who controlled his movements)
+- **Monsieur le comte** -- used ironically, contrasted with "Monsieur le cocher" (his coachman Charles, who controlled his movements; see [#Charles Cocher](CHARLES_COCHER.md))
 - **l'illustre florentin** -- ironic epithet in later references
 
 %% GLO_LARDEREI.0043 %%

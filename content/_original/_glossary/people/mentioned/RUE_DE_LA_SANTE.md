@@ -8,19 +8,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
+status: retired
+replaced_by: RUE_DE_LA_SANTE
 ---
-# Rue de la Santé
 
-**Research Status**: Basic
-**Last Updated**: 2025-01-23
-**Diary Coverage**: Up to 1880-11-11
+%% GLO_RUE_DE_LA_SANTE.0001 %%
+**Retired.** A place wrongly filed under people/mentioned; moved. Use [#RUE_DE_LA_SANTE](../../places/streets/RUE_DE_LA_SANTE.md) (`places/streets/RUE_DE_LA_SANTE.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-Rue de la Santé is a street in the 13th and 14th arrondissements of Paris, running north-south near the Observatory district. The street's name derives from a former hospital.
-
-In November 1880, a Capuchin monastery was located on this street. Marie visited it to research her planned painting depicting the expulsion of monks. Only three Capuchin fathers remained there by that time, victims of the Third Republic's anti-clerical policies.
-
-**Notable features:**
-- La Santé Prison (built 1867) is located on this street
-- The area was on the southern edge of developed Paris in the 1880s
-- Mix of religious institutions, hospitals, and working-class housing
+%% GLO_RUE_DE_LA_SANTE.0002 %%
+%% 2026-10-02T14:00:00 RSR: Retired in the 2026 tag audit glossary cleanup. replaced_by: places/streets/RUE_DE_LA_SANTE.md. %%

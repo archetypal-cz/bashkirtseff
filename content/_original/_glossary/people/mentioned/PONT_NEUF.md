@@ -7,23 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
+status: retired
+replaced_by: PONT_NEUF
 ---
-# Pont Neuf
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-02-06
+%% GLO_PONT_NEUF.0001 %%
+**Retired.** A place wrongly filed under people/mentioned; moved. Use [#PONT_NEUF](../../places/landmarks/PONT_NEUF.md) (`places/landmarks/PONT_NEUF.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Identity
-Bridge or location in Nice.
-
-## Diary References
-
-### 1874
-- **February 6**: Marie hastily deposits Hitchcock there so she can go to the post office - "Je prends Hitchcock que je m'empresse de déposer au Pont Neuf, elle va à la poste."
-
-## Context
-- Convenient drop-off point in Nice
-- Near postal services
-- Marie uses it to rid herself of unwanted company
+%% GLO_PONT_NEUF.0002 %%
+%% 2026-10-02T14:00:00 RSR: Retired in the 2026 tag audit glossary cleanup. replaced_by: places/landmarks/PONT_NEUF.md. %%

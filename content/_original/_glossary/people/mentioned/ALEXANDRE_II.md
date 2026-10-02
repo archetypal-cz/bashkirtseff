@@ -7,21 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
+status: retired
+replaced_by: ALEXANDER_II
 ---
-# Alexandre II
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_ALEXANDRE_II.0001 %%
+**Retired.** Duplicate of Alexander II of Russia. Use [#ALEXANDER_II](../aristocracy/ALEXANDER_II.md) (`people/aristocracy/ALEXANDER_II.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_ALEXANDRE_II.0002 %%
+%% 2026-10-02T14:30:00 RSR: Retired in the 2026 tag audit glossary cleanup. replaced_by: people/aristocracy/ALEXANDER_II.md. %%

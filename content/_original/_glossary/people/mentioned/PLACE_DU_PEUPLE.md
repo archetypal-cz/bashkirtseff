@@ -6,21 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
+status: retired
+replaced_by: PLACE_DU_PEUPLE
 ---
-# Place du Peuple
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_PLACE_DU_PEUPLE.0001 %%
+**Retired.** A place wrongly filed under people/mentioned; moved. Use [#PLACE_DU_PEUPLE](../../places/streets/PLACE_DU_PEUPLE.md) (`places/streets/PLACE_DU_PEUPLE.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_PLACE_DU_PEUPLE.0002 %%
+%% 2026-10-02T14:00:00 RSR: Retired in the 2026 tag audit glossary cleanup. replaced_by: places/streets/PLACE_DU_PEUPLE.md. %%
