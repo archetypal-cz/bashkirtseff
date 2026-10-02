@@ -187,6 +187,20 @@ glossary-collect carnet *FLAGS:
 glossary-apply carnet *FLAGS:
     npx tsx src/scripts/glossary-tagger.ts apply {{carnet}} {{FLAGS}}
 
+# === AUTH DB TESTS ===
+
+# DB test harness: postgres + PostgREST in throwaway docker containers, runs src/auth/test/*.test.sh (optional name glob). e.g. DOCKER="sudo docker" just auth-test smoke
+auth-test *NAMES:
+    bash src/auth/test/run.sh {{NAMES}}
+
+# Generate src/auth/migrations/legacy-renumber-seed.tsv (every top-level marker-less content/_renumber/*.sql + sha256). `just db-seed --check` verifies the committed seed covers them all.
+db-seed *ARGS:
+    bash src/auth/db-deploy.sh seed {{ARGS}}
+
+# Append ONE renumber script to the legacy seed (ONLY if you have confirmed it must never run)
+db-seed-add FILE:
+    bash src/auth/db-deploy.sh seed-add {{FILE}}
+
 # === BUG REPORTS ===
 
 # List open bug reports from the database
