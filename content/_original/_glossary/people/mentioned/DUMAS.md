@@ -8,11 +8,11 @@ category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-02
 status: retired
-replaced_by: ALEXANDRE_DUMAS
+replaced_by: ALEXANDRE_DUMAS_FILS
 ---
 
 %% GLO_DUMAS.0001 %%
-**Retired.** Ambiguous bare 'Dumas': père by default; fils where the text or context says so (see ALEXANDRE_DUMAS_FILS). Use [#ALEXANDRE_DUMAS](../../culture/literature/ALEXANDRE_DUMAS.md) (`culture/literature/ALEXANDRE_DUMAS.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
+**Retired.** Bare "Dumas" is ambiguous, and Dumas père died in 1870, before the diary: a living or contemporary Dumas is fils, so use [#Alexandre Dumas fils](ALEXANDRE_DUMAS_FILS.md) (`people/mentioned/ALEXANDRE_DUMAS_FILS.md`). Use [#Alexandre Dumas](../../culture/literature/ALEXANDRE_DUMAS.md) (père) only for his works or legend (Les Mousquetaires etc.). Decide per paragraph; existing tags are retargeted by the tag audit.
 
 %% GLO_DUMAS.0002 %%
-%% 2026-10-02T12:00:00 RSR: Retired in the 2026 tag audit glossary cleanup (duplicate/stub). replaced_by: culture/literature/ALEXANDRE_DUMAS.md. %%
+%% 2026-10-02T12:00:00 RSR: Retired in the 2026 tag audit glossary cleanup (duplicate/stub). replaced_by: people/mentioned/ALEXANDRE_DUMAS_FILS.md (default; per-paragraph) %%
