@@ -1430,7 +1430,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): nebožtík Cassagnac / Zesnulý
 - Context: After the Cassagnac–Acard marriage announcement (081/06-28 on), Marie treats Cassagnac as metaphorically DEAD and writes a sustained mock-obituary conceit.
 - First appearance: 081 (1878-06-28); continues through 082
-- Notes: Render the death-conceit consistently — „nebožtík Cassagnac" / „Zesnulý" / „zesnulý". In 081/06-23 it is only a FUTURE idea („Bude třeba napsat parte…"), NOT realized mourning — don't anticipate. The mock faire-part (081.0066) keeps grave-formal funeral register.
+- Notes: Render the death-conceit consistently — „nebožtík Cassagnac" / „Zesnulý" / „zesnulý". In 081/06-23 it is only a FUTURE idea („Bude třeba napsat parte…"), NOT realized mourning — don't anticipate. The mock faire-part (081.0098) keeps grave-formal funeral register.
 
 ### terre-neuve (as Cassagnac epithet)
 - Translation (Czech): novofundlanďan
