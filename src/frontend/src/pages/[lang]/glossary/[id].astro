@@ -3,7 +3,7 @@ import ReadingLayout from '../../../layouts/ReadingLayout.astro';
 import ParagraphMenu from '../../../components/reading/ParagraphMenu.vue';
 import GlossaryFigure from '../../../components/glossary/GlossaryFigure.astro';
 import MarieWorksGallery from '../../../components/glossary/MarieWorksGallery.astro';
-import { getMergedGlossaryEntries, getGlossaryEntryWithFallback, buildGlossaryUsageCounts, stripGlossaryComments } from '../../../lib/content';
+import { getMergedGlossaryEntries, getGlossaryEntryWithFallback, buildGlossaryUsageCounts, stripGlossaryComments, renderGlossaryBlocks } from '../../../lib/content';
 import { linkifyParagraphRefs } from '../../../lib/paragraph-refs';
 import { DIARY_LANGUAGES, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
@@ -55,7 +55,13 @@ const filterCategory = category.startsWith('culture/themes')
 
 // Simple markdown to HTML conversion for old format content
 function simpleMarkdownToHtml(markdown: string): string {
-  let html = stripGlossaryComments(markdown)
+  // Tables are rendered up front (one line of HTML each, untouched by the
+  // line-based replacements below), like tables in paragraph-cluster entries.
+  const withTables = stripGlossaryComments(markdown).replace(
+    /(?:^[ \t]*\|.*(?:\n|$))+/gm,
+    table => `<div class="glossary-block">${renderGlossaryBlocks(table.trim(), lang.contentPath).html}</div>\n`,
+  );
+  let html = withTables
     // Headers
     .replace(/^### (.+)$/gm, '<h3 class="text-lg font-semibold text-ink mt-6 mb-3">$1</h3>')
     .replace(/^## (.+)$/gm, '<h2 class="text-xl font-semibold text-ink mt-8 mb-4">$1</h2>')
@@ -240,6 +246,8 @@ const [leadImage, ...moreImages] = images;
               ) : (
                 <h3 class="text-lg font-semibold text-ink mt-6 mb-3" set:html={paragraph.html} />
               )
+            ) : paragraph.isBlock ? (
+              <div class="glossary-block text-lg leading-relaxed text-ink" set:html={paragraph.html} />
             ) : (
               <p class="text-lg leading-relaxed text-ink" set:html={paragraph.html} />
             )}
@@ -410,5 +418,49 @@ const [leadImage, ...moreImages] = images;
 
   .prose-diary li {
     margin-bottom: 0.5rem;
+  }
+
+  /* Lists, tables and quotes inside a glossary paragraph (renderGlossaryBlocks) */
+  .glossary-block > * + * {
+    margin-top: 1rem;
+  }
+
+  .glossary-block ul {
+    list-style: disc;
+  }
+
+  .glossary-block ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
+  }
+
+  .glossary-block blockquote {
+    border-left: 3px solid var(--color-accent);
+    padding-left: 1rem;
+    font-style: italic;
+  }
+
+  /* Wide tables scroll inside their own box instead of widening the page */
+  .glossary-table-wrap {
+    overflow-x: auto;
+  }
+
+  .glossary-block table {
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .glossary-block th,
+  .glossary-block td {
+    border: 1px solid color-mix(in srgb, var(--text-primary) 15%, transparent);
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .glossary-block th {
+    background: var(--bg-secondary);
+    font-weight: 600;
   }
 </style>

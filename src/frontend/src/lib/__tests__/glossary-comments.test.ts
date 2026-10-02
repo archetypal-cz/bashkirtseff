@@ -55,6 +55,25 @@ beforeAll(async () => {
     'note %%',
   ].join('\n'));
 
+  writeGlossary('culture/art', 'BLOCKS', 'name: Blocks', [
+    '# Blocks',
+    '',
+    '%% GLO_BLOCKS.0001 %%',
+    'Intro line.',
+    '- **1880** -- first',
+    '- second, wrapped',
+    '  onto two lines',
+    '',
+    '%% GLO_BLOCKS.0002 %%',
+    '| | Count |',
+    '|---|---|',
+    '| Works | **229** |',
+    '',
+    '%% GLO_BLOCKS.0003 %%',
+    'Plain prose',
+    'soft-wrapped.',
+  ].join('\n'));
+
   fs.mkdirSync(fakeCwd, { recursive: true });
   vi.spyOn(process, 'cwd').mockReturnValue(fakeCwd);
   content = await import('../content');
@@ -85,5 +104,15 @@ describe('glossary comment stripping', () => {
     const stripped = content.stripGlossaryComments(entry.content);
     expect(stripped).toContain('Plain body.');
     expect(stripped).not.toMatch(/LEAK_|%%/);
+  });
+
+  it('renders lists and tables as blocks, prose as before', () => {
+    const [list, table, prose] = content.getGlossaryEntry('BLOCKS')!.paragraphs!;
+    expect(list.isBlock).toBe(true);
+    expect(list.html).toBe('<p>Intro line.</p>\n<ul><li><strong>1880</strong> -- first</li><li>second, wrapped onto two lines</li></ul>');
+    expect(table.html).toContain('<thead><tr><th></th><th>Count</th></tr></thead><tbody><tr><td>Works</td><td><strong>229</strong></td></tr></tbody>');
+    expect(table.html).not.toContain('---');
+    expect(prose.isBlock).toBeUndefined();
+    expect(prose.html).toBe('Plain prose soft-wrapped.');
   });
 });

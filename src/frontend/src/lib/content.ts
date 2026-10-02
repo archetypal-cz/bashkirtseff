@@ -197,6 +197,7 @@ export interface GlossaryParagraph {
   isHeader: boolean;
   headerLevel: number;
   glossaryTags?: GlossaryTag[]; // Cross-references to other glossary entries
+  isBlock?: boolean;   // html holds block elements (lists, tables): render in a <div>, not a <p>
 }
 
 // ============================================
@@ -2392,6 +2393,72 @@ function normalizeGlossaryImages(value: unknown): GlossaryImage[] | undefined {
   return images.length > 0 ? images : undefined;
 }
 
+const LIST_ITEM = /^\s*(?:[-*+]|\d+[.)])\s+/;
+const TABLE_ROW = /^\s*\|/;
+const TABLE_RULE = /^\s*\|?\s*:?-{3,}:?\s*(?:\|\s*:?-{3,}:?\s*)*\|?\s*$/;
+
+/**
+ * Render a glossary paragraph's markdown: list, table and blockquote lines
+ * become real blocks, everything else goes through processTextToHtml (which
+ * joins soft-wrapped lines, as diary paragraphs need). Diary text never comes
+ * here, so its rendering is unchanged. When the text has no blocks the result
+ * is exactly processTextToHtml's, for a <p>; otherwise it is a run of block
+ * elements (`isBlock`), for a <div>.
+ */
+export function renderGlossaryBlocks(text: string, language: string): { html: string; isBlock: boolean } {
+  const lines = text.split(/\r?\n/);
+  if (!lines.some(l => LIST_ITEM.test(l) || TABLE_ROW.test(l) || /^\s*>/.test(l))) {
+    return { html: processTextToHtml(text, language).html, isBlock: false };
+  }
+
+  const inline = (t: string) => processTextToHtml(t.trim(), language).html;
+  const out: string[] = [];
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
+    if (!line.trim()) { i++; continue; }
+
+    if (LIST_ITEM.test(line)) {
+      const ordered = /^\s*\d+[.)]/.test(line);
+      const items: string[] = [];
+      // An indented non-marker line continues the item above it.
+      while (i < lines.length && (LIST_ITEM.test(lines[i]) || (/^\s+\S/.test(lines[i]) && items.length))) {
+        if (LIST_ITEM.test(lines[i])) items.push(lines[i].replace(LIST_ITEM, ''));
+        else items[items.length - 1] += ' ' + lines[i].trim();
+        i++;
+      }
+      const tag = ordered ? 'ol' : 'ul';
+      out.push(`<${tag}>${items.map(it => `<li>${inline(it)}</li>`).join('')}</${tag}>`);
+      continue;
+    }
+
+    if (TABLE_ROW.test(line)) {
+      const rows: string[] = [];
+      while (i < lines.length && TABLE_ROW.test(lines[i])) rows.push(lines[i++]);
+      const cells = (row: string) => row.trim().replace(/^\|/, '').replace(/\|$/, '').split('|');
+      const hasHead = rows.length > 1 && TABLE_RULE.test(rows[1]);
+      const head = hasHead ? `<thead><tr>${cells(rows[0]).map(c => `<th>${inline(c)}</th>`).join('')}</tr></thead>` : '';
+      const body = (hasHead ? rows.slice(2) : rows).filter(r => !TABLE_RULE.test(r));
+      out.push(`<div class="glossary-table-wrap"><table>${head}<tbody>${body.map(r => `<tr>${cells(r).map(c => `<td>${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
+      continue;
+    }
+
+    if (/^\s*>/.test(line)) {
+      const quoted: string[] = [];
+      while (i < lines.length && /^\s*>/.test(lines[i])) quoted.push(lines[i++].replace(/^\s*>\s?/, ''));
+      out.push(`<blockquote>${inline(quoted.join('\n'))}</blockquote>`);
+      continue;
+    }
+
+    const prose: string[] = [];
+    while (i < lines.length && lines[i].trim() && !LIST_ITEM.test(lines[i]) && !TABLE_ROW.test(lines[i]) && !/^\s*>/.test(lines[i])) {
+      prose.push(lines[i++]);
+    }
+    out.push(`<p>${inline(prose.join('\n'))}</p>`);
+  }
+  return { html: out.join('\n'), isBlock: true };
+}
+
 const MARIE_WORK_STATUSES: readonly MarieWorkStatus[] = ['public', 'attributed', 'private', 'contested', 'unknown'];
 
 /** Normalize the frontmatter `work:` block; an unknown status reads as 'unknown'. */
@@ -2525,13 +2592,14 @@ function parseGlossaryParagraphs(content: string, language: string = 'original')
       const trailingText = stripGlossaryComments(content.substring(headingEnd, trailingEnd));
       if (trailingText) {
         const trailingId = `${baseId}.H${syntheticCounter++}`;
-        const { html } = processTextToHtml(trailingText, language);
+        const { html, isBlock } = renderGlossaryBlocks(trailingText, language);
         paragraphs.push({
           id: trailingId,
           text: trailingText,
           html,
           isHeader: false,
           headerLevel: 0,
+          isBlock,
         });
       }
 
@@ -2587,7 +2655,9 @@ function parseGlossaryParagraph(id: string, content: string, language: string = 
   const headerLevel = headerMatch ? headerMatch[1].length : 0;
 
   // Convert to HTML
-  const { html } = processTextToHtml(text, language);
+  const { html, isBlock } = isHeader
+    ? { html: processTextToHtml(text, language).html, isBlock: false }
+    : renderGlossaryBlocks(text, language);
 
   return {
     id,
@@ -2596,6 +2666,7 @@ function parseGlossaryParagraph(id: string, content: string, language: string = 
     isHeader,
     headerLevel,
     glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
+    isBlock: isBlock || undefined,
   };
 }
 
