@@ -1318,8 +1318,8 @@ They need AI translation into French.
 - **069/1877-03-14.md** para 069.0305 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "gettatura" - evil eye/curse; Neapolitan superstition %%
 - **069/1877-03-16.md** para 069.0314 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: NOTE: Lines 069.0315-069.0324 are dialogue in ITALIAN between Marie and her mandoline teacher; discussing Neapolitan nobility and Larderei %%
 - **069/1877-03-16.md** para 069.0318 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "ricevono come un buffone" - they receive him like a buffoon; tolerated for entertainment %%
-- **069/1877-03-29.md** para 069.0580 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "carrozello" - small hired carriage; cheap public transport %%
-- **069/1877-03-31.md** para 069.0633 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Villa-Reale" - ITALIAN: Royal Villa; public garden on Naples waterfront %%
+- **069/1877-03-29.md** para 069.0588 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "carrozello" - small hired carriage; cheap public transport %%
+- **069/1877-03-31.md** para 069.0641 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: "Villa-Reale" - ITALIAN: Royal Villa; public garden on Naples waterfront %%
 - **069/1877-04-02.md** para withdrawn in the 2026-09 rebuild (old carnet 069 ¶0650; see content/_renumber/069-2026-09-28.json) [LATIN]: %% 2026-02-02T12:30:00 LAN: LATIN: "Dubium, illusio, Deceptio Oppresio / Gloriae Cupiditate" - Doubt, illusion, Deception, Oppression / Desire for Glory; Marie's philosophical/mood notation %%
 - **070/1877-04-03.md** para 070.0001 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "lazzarone" - Neapolitan term for street person/beggar; often hired for odd jobs %%
 - **070/1877-04-04.md** para 070.0085 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN/DANTE: "Temp'era del principio del matino..." - Inferno I:37-40; "It was the hour of morning's beginning / and the Sun was rising with those stars / that were with him when Divine Love / first set those beautiful things in motion"; invokes creation at sunrise %%
@@ -1336,15 +1336,15 @@ They need AI translation into French.
 - **071/1877-06-02.md** para 071.0541 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "tarentelle" - ITALIAN: tarantella; lively Italian folk dance %%
 - **071/1877-06-08.md** para 071.0607 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: "water-closet" - ENGLISH: toilet; the pun links the name "Chaussade/Closet" to toilet humor %%
 - **071/1877-06-10.md** para 071.0619 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: ITALIAN quotation from Dante's Inferno, Canto V: "Master, who are those people whom the black air so punishes?" %%
-- **072/1877-06-15.md** para 072.0061 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Guarda Don Bartolo" - "Look, Don Bartolo" - from the opera %%
-- **072/1877-06-18.md** para 072.0188 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "bulldog" - ENGLISH: English bulldog breed %%
-- **072/1877-06-18.md** para 072.0191 [LATIN]: %% 2026-02-02T13:00:00 LAN: "i.e." - LATIN: id est (that is); Marie codes Torlonia as "Torniole" %%
-- **072/1877-06-23.md** para 072.0315 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "gentleman" - Marie uses English term for social ideal %%
-- **072/1877-06-29.md** para 072.0356 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "don Clemente" - Italian honorific Don; Torlonia's title %%
-- **072/1877-07-01.md** para 072.0375 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "policemen" - Marie uses English term %%
-- **072/1877-07-06.md** para 072.0420 [LATIN]: %% 2026-02-02T14:30:00 LAN: LATIN: "et coetera" - and so on; Marie's educated flourish %%
-- **072/1877-07-08.md** para 072.0445 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: "whist" - ENGLISH: popular card game in 1870s upper-class society %%
-- **072/1877-07-14.md** para 072.0557 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: ENGLISH: "Violet" and "Violette" - telegraph code names; English/French versions of the same flower name, playful identity game %%
+- **072/1877-06-15.md** para 072.0059 [ITALIAN]: %% 2026-02-02T12:30:00 LAN: ITALIAN: "Guarda Don Bartolo" - "Look, Don Bartolo" - from the opera %%
+- **072/1877-06-18.md** para 072.0187 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "bulldog" - ENGLISH: English bulldog breed %%
+- **072/1877-06-18.md** para 072.0190 [LATIN]: %% 2026-02-02T13:00:00 LAN: "i.e." - LATIN: id est (that is); Marie codes Torlonia as "Torniole" %%
+- **072/1877-06-23.md** para 072.0311 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "gentleman" - Marie uses English term for social ideal %%
+- **072/1877-06-29.md** para 072.0347 [ITALIAN]: %% 2026-02-02T14:30:00 LAN: ITALIAN: "don Clemente" - Italian honorific Don; Torlonia's title %%
+- **072/1877-07-01.md** para 072.0364 [ENGLISH]: %% 2026-02-02T14:30:00 LAN: ENGLISH: "policemen" - Marie uses English term %%
+- **072/1877-07-06.md** para 072.0405 [LATIN]: %% 2026-02-02T14:30:00 LAN: LATIN: "et coetera" - and so on; Marie's educated flourish %%
+- **072/1877-07-08.md** para 072.0428 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: "whist" - ENGLISH: popular card game in 1870s upper-class society %%
+- **072/1877-07-14.md** para 072.0538 [ENGLISH]: %% 2026-02-09T22:00:00 LAN: ENGLISH: "Violet" and "Violette" - telegraph code names; English/French versions of the same flower name, playful identity game %%
 - **073/1877-07-15.md** para withdrawn in the 2026-09 rebuild (old carnet 073 ¶0037; see content/_renumber/073-2026-09-28.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: "Gloriae Cupiditate" - LATIN: With desire for glory; Marie's motto for her journals %%
 - **073/1877-07-16.md** para 073.0022 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman-farmer" - ENGLISH: country gentleman who farms %%
 - **073/1877-07-16.md** para 073.0023 [ENGLISH]: %% 2026-02-02T13:00:00 LAN: "gentleman" - ENGLISH: gentleman; French lacks exact equivalent %%
