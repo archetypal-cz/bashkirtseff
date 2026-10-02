@@ -40,7 +40,7 @@ The picture was long presumed lost. It resurfaced at **Sotheby's London in 2012*
 
 %% GLO_QUESTION_DU_DIVORCE.0006 %%
 %% [#Reading](../themes/READING.md) %%
-Marie's own description of the finished canvas, written the day she sent it off (25 March 1880, ¶ 087.0712–087.0713), is the best account there is:
+Marie's own description of the finished canvas, written the day she sent it off (25 March 1880, ¶ 087.0713–087.0714), is the best account there is:
 
 %% GLO_QUESTION_DU_DIVORCE.0007 %%
 > La jeune femme est assise devant une table de peluche vert ancien d'un ton très riche et appuyée sur sa main droite, le coude posé sur la table, lit dans un livre à côté duquel est posé un bouquet de violettes. […] La femme est en déshabillé de damas bleu très clair, un fichu de mousseline avec de la vieille dentelle. La main gauche tombe naturellement sur les genoux et semble à peine retenir un coupe-papier. […] La chaise est en peluche bleu-foncé et le fond est une draperie de loutre. […] La tête est de trois quarts. Les cheveux adorables, blonds, dorés de Dina sont défaits, le crâne se dessine et les cheveux tombent dans le dos à moitié nattés.
@@ -49,40 +49,40 @@ Marie's own description of the finished canvas, written the day she sent it off 
 The book in the sitter's hands is Alexandre Dumas *fils*'s pamphlet *La Question du divorce*, which had just appeared and which, as Marie puts it, "passionne tout le monde". Divorce had been abolished in France in 1816 and would not be restored until the Naquet law of 1884; the subject was one of the most inflammatory of the moment. Choosing it as the title of a picture of a young woman reading alone was a deliberately topical, faintly provocative act by a twenty-one-year-old debutante.
 
 %% GLO_QUESTION_DU_DIVORCE.0009 %%
-The signature is in Latin characters, with the inscription "RUSS" and the date 1880 at lower left. Marie records the canvas as "d'un mètre soixante-dix centimètres de haut avec le cadre" (¶ 087.0711) — a framed height, not a canvas measurement, and not in conflict with the 130 × 98 cm now recorded for the canvas itself.
+The signature is in Latin characters, with the inscription "RUSS" and the date 1880 at lower left. Marie records the canvas as "d'un mètre soixante-dix centimètres de haut avec le cadre" (¶ 087.0712) — a framed height, not a canvas measurement, and not in conflict with the 130 × 98 cm now recorded for the canvas itself.
 
 %% GLO_QUESTION_DU_DIVORCE.0010 %%
 ## Making of the Work
 
 %% GLO_QUESTION_DU_DIVORCE.0011 %%
 %% [#Rodolphe_Julian](../../people/mentioned/RODOLPHE_JULIAN.md) [#Tony_Robert_Fleury](../../people/mentioned/TONY_ROBERT_FLEURY.md) %%
-The picture was conceived on **10 February 1880** (¶ 087.0444) as one of *two* subjects Marie pitched to Rodolphe Julian — she calls herself "la trouveuse", the one who finds ideas. The rejected alternative was Dina in a white crêpe-de-Chine chemise in an old armchair, "un petit air Récamier". Julian approved both and told her: "Je veux que d'un coup vous sortiez des rangs !"
+The picture was conceived on **10 February 1880** (¶ 087.0445) as one of *two* subjects Marie pitched to Rodolphe Julian — she calls herself "la trouveuse", the one who finds ideas. The rejected alternative was Dina in a white crêpe-de-Chine chemise in an old armchair, "un petit air Récamier". Julian approved both and told her: "Je veux que d'un coup vous sortiez des rangs !"
 
 %% GLO_QUESTION_DU_DIVORCE.0012 %%
-Six weeks of work follow, and the diary records them almost daily: croquis on 11 February (¶ 087.0456); Julian in her studio hunting poses on 20 February (¶ 087.0512); Julian pleased with the canvas on 28–29 February (¶ 087.0555); on 12 March he praises the plush table, the book and the flowers — "c'est crâne, presque brutal" (¶ 087.0596). The recurring terror is losing her model: if her mother leaves Paris, Dina goes too (¶ 087.0599), and when Dina stays she "pose mal quoiqu'avec infiniment de bonne volonté" (¶ 087.0620).
+Six weeks of work follow, and the diary records them almost daily: croquis on 11 February (¶ 087.0457); Julian in her studio hunting poses on 20 February (¶ 087.0513); Julian pleased with the canvas on 28–29 February (¶ 087.0556); on 12 March he praises the plush table, the book and the flowers — "c'est crâne, presque brutal" (¶ 087.0597). The recurring terror is losing her model: if her mother leaves Paris, Dina goes too (¶ 087.0600), and when Dina stays she "pose mal quoiqu'avec infiniment de bonne volonté" (¶ 087.0621).
 
 %% GLO_QUESTION_DU_DIVORCE.0013 %%
-The pivotal day is **19 March** (¶¶ 087.0629–087.0633). The critic Louis Enault of the *Moniteur des Arts* calls the picture "énergique", "viril". Tony Robert-Fleury arrives, tells her to send it as it stands or to ask the Salon for a *sursis*, then rolls up his sleeves, takes her palette and sweeps light across the canvas to show her what he means. Julian "en est toqué". The extension was granted the next day — to "Mlle Bashkirtseff", though "mon tableau est signé Russ" (¶ 087.0640). Marie then repainted the hair Tony had retouched, and the hand, keeping only his muslin sleeve (¶ 087.0672), and was reduced to glazes, which she detested (¶ 087.0678).
+The pivotal day is **19 March** (¶¶ 087.0630–087.0634). The critic Louis Enault of the *Moniteur des Arts* calls the picture "énergique", "viril". Tony Robert-Fleury arrives, tells her to send it as it stands or to ask the Salon for a *sursis*, then rolls up his sleeves, takes her palette and sweeps light across the canvas to show her what he means. Julian "en est toqué". The extension was granted the next day — to "Mlle Bashkirtseff", though "mon tableau est signé Russ" (¶ 087.0641). Marie then repainted the hair Tony had retouched, and the hand, keeping only his muslin sleeve (¶ 087.0673), and was reduced to glazes, which she detested (¶ 087.0679).
 
 %% GLO_QUESTION_DU_DIVORCE.0014 %%
-On **25 March** the picture left the studio. The Gavini family came to see it go: "C'est le départ du premier enfant" (¶ 087.0714). "C'est mon premier début, un acte indépendant, public," she writes (¶ 087.0716) — and gives the entry number as **9091**, under the name "Mademoiselle Marie Constantin Russ". (The Salon *livret* number usually cited for the work is **3379**; 9091 is evidently the submission or bulletin number, not the catalogue number. The discrepancy is unresolved.) The day after, Soutzo and Lepic leaked her identity to *L'Événement*, which printed both title and pseudonym, and she was furious (¶ 087.0718).
+On **25 March** the picture left the studio. The Gavini family came to see it go: "C'est le départ du premier enfant" (¶ 087.0715). "C'est mon premier début, un acte indépendant, public," she writes (¶ 087.0717) — and gives the entry number as **9091**, under the name "Mademoiselle Marie Constantin Russ". (The Salon *livret* number usually cited for the work is **3379**; 9091 is evidently the submission or bulletin number, not the catalogue number. The discrepancy is unresolved.) The day after, Soutzo and Lepic leaked her identity to *L'Événement*, which printed both title and pseudonym, and she was furious (¶ 087.0719).
 
 %% GLO_QUESTION_DU_DIVORCE.0015 %%
-It was accepted on **7 April 1880** (¶ 087.0801), and the acceptance gave her no pleasure whatever: "chose curieuse je n'en éprouve aucune satisfaction… Ce succès-là n'est pas digne de moi." What followed was a lobbying campaign over where it would hang (¶¶ 087.0804, 087.0875, 087.0892–087.0893), her conclusion being that it would either be hung badly and unnoticed or hung conspicuously and mocked. At the vernissage on 30 April she went early with Alice Brisbane specifically to find it (¶¶ 088.0040, 088.0051, 088.0058). On 4 May someone told her he would have got her a medal but the picture "n'est pas assez peint, assez fini" — she could count on a *mention honorable* instead (¶ 088.0099), and she says she would be mad with joy (¶ 088.0100). She got nothing.
+It was accepted on **7 April 1880** (¶ 087.0802), and the acceptance gave her no pleasure whatever: "chose curieuse je n'en éprouve aucune satisfaction… Ce succès-là n'est pas digne de moi." What followed was a lobbying campaign over where it would hang (¶¶ 087.0805, 087.0876, 087.0893–087.0894), her conclusion being that it would either be hung badly and unnoticed or hung conspicuously and mocked. At the vernissage on 30 April she went early with Alice Brisbane specifically to find it (¶¶ 088.0040, 088.0051, 088.0058). On 4 May someone told her he would have got her a medal but the picture "n'est pas assez peint, assez fini" — she could count on a *mention honorable* instead (¶ 088.0099), and she says she would be mad with joy (¶ 088.0100). She got nothing.
 
 %% GLO_QUESTION_DU_DIVORCE.0016 %%
 ## References in Diary
 
 %% GLO_QUESTION_DU_DIVORCE.0017 %%
-- **First mention** — 1880-02-10, ¶ 087.0444: the conception, pitched to Julian alongside a rejected alternative
-- 1880-02-11, ¶ 087.0456 · 1880-02-20, ¶ 087.0512 · 1880-02-28/29, ¶ 087.0555 · 1880-03-12, ¶¶ 087.0596, 087.0599 · 1880-03-15, ¶ 087.0612 · 1880-03-16, ¶ 087.0620 · 1880-03-18, ¶ 087.0627 — the work in progress and the struggle to keep Dina posing
-- 1880-03-19, ¶¶ 087.0629–087.0633 — Enault's verdict; Tony Robert-Fleury takes the palette
-- 1880-03-20, ¶ 087.0640 — extension granted; "mon tableau est signé Russ"
-- **1880-03-25, ¶¶ 087.0711–087.0716** — the full description of the finished picture, the dimensions, the departure, and the entry number
-- 1880-03-26, ¶ 087.0718 — her name leaked to *L'Événement*
-- 1880-03-30, ¶ 087.0747 · 1880-04-06, ¶ 087.0790 — before the verdict
-- **1880-04-07, ¶ 087.0801 — accepted**
-- 1880-04-07/19/22, ¶¶ 087.0804, 087.0875, 087.0892–087.0893 — the campaign over the hanging
+- **First mention** — 1880-02-10, ¶ 087.0445: the conception, pitched to Julian alongside a rejected alternative
+- 1880-02-11, ¶ 087.0457 · 1880-02-20, ¶ 087.0513 · 1880-02-28/29, ¶ 087.0556 · 1880-03-12, ¶¶ 087.0597, 087.0600 · 1880-03-15, ¶ 087.0613 · 1880-03-16, ¶ 087.0621 · 1880-03-18, ¶ 087.0628 — the work in progress and the struggle to keep Dina posing
+- 1880-03-19, ¶¶ 087.0630–087.0634 — Enault's verdict; Tony Robert-Fleury takes the palette
+- 1880-03-20, ¶ 087.0641 — extension granted; "mon tableau est signé Russ"
+- **1880-03-25, ¶¶ 087.0712–087.0717** — the full description of the finished picture, the dimensions, the departure, and the entry number
+- 1880-03-26, ¶ 087.0719 — her name leaked to *L'Événement*
+- 1880-03-30, ¶ 087.0748 · 1880-04-06, ¶ 087.0791 — before the verdict
+- **1880-04-07, ¶ 087.0802 — accepted**
+- 1880-04-07/19/22, ¶¶ 087.0805, 087.0876, 087.0893–087.0894 — the campaign over the hanging
 - 1880-04-30, ¶¶ 088.0040, 088.0051, 088.0058 — vernissage day
 - 1880-05-04, ¶¶ 088.0099–088.0100 · 1880-05-06, ¶ 088.0108 · 1880-05-08, ¶ 088.0128 · 1880-05-21, ¶ 088.0257 · 1880-05-31, ¶ 088.0444 — the Salon aftermath
 - A retrospective glance three years later: 1883-02-19, ¶ 098.0362, "une première toile qui était très mauvaise"
@@ -110,4 +110,4 @@ It was accepted on **7 April 1880** (¶ 087.0801), and the acceptance gave her n
 - The diary itself, carnets 087–088
 
 %% GLO_QUESTION_DU_DIVORCE.0022 %%
-%% 2026-08-13T00:00:00 RSR: Entry compiled from the project's 2026-08-13 artworks research catalogue (§3.11, §5.1–5.2) and the carnets 087–096 mention map, both of which cite their own sources. Factual spine: Sotheby's 2012 lot 140 catalogue note (dimensions, inscriptions, sitter), the 1885 posthumous exhibition catalogue no. 2 (Gallica), Bocharova/Poltava Art Museum, and the kulturomania.ru interview with Tetiana Shvets. All diary paragraph IDs verified against content/_original/087 and /088. Two things deliberately left unresolved rather than smoothed over: (1) the Salon number — the diary gives 9091 at 087.0716, secondary sources give livret no. 3379; (2) the signature — the 1885 catalogue's "Une Amie" notice says the debut was signed "Marie Constantin", while the diary at 087.0716 gives the fuller "Mademoiselle Marie Constantin Russ" and 087.0640 says the canvas itself is signed "Russ". The Poltava-ownership claim is explicitly corrected. NO free image of this painting exists; the Sotheby's e-catalogue photograph is rights-reserved, so this entry carries no images: block. %%
+%% 2026-08-13T00:00:00 RSR: Entry compiled from the project's 2026-08-13 artworks research catalogue (§3.11, §5.1–5.2) and the carnets 087–096 mention map, both of which cite their own sources. Factual spine: Sotheby's 2012 lot 140 catalogue note (dimensions, inscriptions, sitter), the 1885 posthumous exhibition catalogue no. 2 (Gallica), Bocharova/Poltava Art Museum, and the kulturomania.ru interview with Tetiana Shvets. All diary paragraph IDs verified against content/_original/087 and /088. Two things deliberately left unresolved rather than smoothed over: (1) the Salon number — the diary gives 9091 at 087.0717, secondary sources give livret no. 3379; (2) the signature — the 1885 catalogue's "Une Amie" notice says the debut was signed "Marie Constantin", while the diary at 087.0717 gives the fuller "Mademoiselle Marie Constantin Russ" and 087.0641 says the canvas itself is signed "Russ". The Poltava-ownership claim is explicitly corrected. NO free image of this painting exists; the Sotheby's e-catalogue photograph is rights-reserved, so this entry carries no images: block. %%

@@ -53,7 +53,7 @@ The first is **10 November 1877** (¶ 076.0102), five weeks after she entered th
 The second is **19 May 1879** (¶ 085.0101). After a two-hour confessional in Julian's cabinet in which he tells her she is "son esclave, sa chose", she answers: "Alors je lui dis que je ferai son portrait." The promise of a portrait of Julian comes straight out of him needling her — which is exactly the affectionate-mocking register a caricature belongs to.
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0010 %%
-Caricature was a constant habit through these years, not an isolated experiment. She posts a caricature of the Gans brothers to them by mail (¶¶ 082.0043–082.DROPPED-0056, 12 August 1878) and finally lets them in to see it (¶¶ 082.0154–082.DROPPED-0124, 21 August); she sketches Schwarz in a notebook the same month (¶ 082.0046); she paints a caricatural watercolour *pochade* of Mme de Fayet singing at a fleeing cupid with Paul de Cassagnac's head on it (¶ 078.0084, 8 February 1878); she caricatures "Popaul" Cassagnac and his brother-in-law with captions (¶ 086.0028, 8 August 1879), and reports "j'ai fait des caricatures et un tas de Brésiliens" (¶ 086.0156, 29 August 1879). As late as March 1883 she is still making *charges à la plume* (¶ 098.0485).
+Caricature was a constant habit through these years, not an isolated experiment. She posts a caricature of the Gans brothers to them by mail (¶¶ 082.0043–082.DROPPED-0056, 12 August 1878) and finally lets them in to see it (¶¶ 082.0154–082.DROPPED-0124, 21 August); she sketches Schwarz in a notebook the same month (¶ 082.0046); she paints a caricatural watercolour *pochade* of Mme de Fayet singing at a fleeing cupid with Paul de Cassagnac's head on it (¶ 078.0084, 8 February 1878); she caricatures "Popaul" Cassagnac and his brother-in-law with captions (¶ 086.0030, 8 August 1879), and reports "j'ai fait des caricatures et un tas de Brésiliens" (¶ 086.0158, 29 August 1879). As late as March 1883 she is still making *charges à la plume* (¶ 098.0485).
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0011 %%
 ## References in Diary
@@ -64,7 +64,7 @@ No entry describes the finished panel. The documented antecedents are:
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0013 %%
 - **First related mention** — 1877-11-10, ¶ 076.0102: a caricatural croquis of hers succeeds; Julian makes her sign it and keeps it in his album
 - **1879-05-19, ¶ 085.0101** — she promises Julian his portrait, immediately after he calls her "son esclave, sa chose"
-- The caricature habit: 1878-02-08, ¶ 078.0084 · 1878-08-12, ¶¶ 082.0043–082.DROPPED-0056, 082.0046 · 1878-08-21, ¶¶ 082.0154–082.DROPPED-0124 · 1879-08-08, ¶ 086.0028 · 1879-08-29, ¶ 086.0156 · 1883-03-12, ¶ 098.0485
+- The caricature habit: 1878-02-08, ¶ 078.0084 · 1878-08-12, ¶¶ 082.0043–082.DROPPED-0056, 082.0046 · 1878-08-21, ¶¶ 082.0154–082.DROPPED-0124 · 1879-08-08, ¶ 086.0030 · 1879-08-29, ¶ 086.0158 · 1883-03-12, ¶ 098.0485
 
 %% GLO_CARICATURE_RODOLPHE_JULIAN.0014 %%
 ## Related Entries

@@ -221,7 +221,7 @@ Marie's Salon career was brief but significant:
 
 | Year | Submission | Result |
 |------|-----------|--------|
-| 1880 | *[Jeune femme lisant « La Question du divorce »](../art/QUESTION_DU_DIVORCE.md)* (her Salon debut), signed "Marie Constantin Russ" | Accepted 7 April 1880 (087.0801); no award |
+| 1880 | *[Jeune femme lisant « La Question du divorce »](../art/QUESTION_DU_DIVORCE.md)* (her Salon debut), signed "Marie Constantin Russ" | Accepted 7 April 1880 (087.0802); no award |
 | 1881 | *[L'Atelier Julian](../art/L_ATELIER_JULIAN.md)*, signed "Andrey" | Accepted ("Salon de 1881", 1885 catalogue no. 23) |
 | 1882 | Nothing -- "très triste de n'avoir rien au Salon" (094.0340) | -- (the only gap) |
 | 1883 | *[Jean et Jacques](../art/JEAN_ET_JACQUES.md)*, *[La Parisienne](../art/LA_PARISIENNE.md)*, and the pastel of Dina as *Portrait de Mlle de B.* (no. 106) | *Mention honorable*, for the [pastel](../art/PORTRAIT_DINA_PASTEL.md) |

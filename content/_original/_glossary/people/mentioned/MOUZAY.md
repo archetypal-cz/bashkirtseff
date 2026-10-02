@@ -28,7 +28,7 @@ last_updated: 2026-10-02
 
 ## Identity
 
-Madame F. de Mouzay (first initial from signed letter, carnet 082, 1878-10-04). French countess ("comtesse de Mouzay") residing in Nice and later Paris. Formerly a "lingere dans la maison de l'Empereur" (linen-maid in the household of Napoleon III), a detail Marie reveals in passing (086.0476, 1879-11-05). This imperial household connection explains both her aristocratic title and her extensive social network spanning Bonapartist political circles, artists, and the Faubourg Saint-Germain -- as well as the social ambiguity that Marie intermittently mocks.
+Madame F. de Mouzay (first initial from signed letter, carnet 082, 1878-10-04). French countess ("comtesse de Mouzay") residing in Nice and later Paris. Formerly a "lingere dans la maison de l'Empereur" (linen-maid in the household of Napoleon III), a detail Marie reveals in passing (086.0478, 1879-11-05). This imperial household connection explains both her aristocratic title and her extensive social network spanning Bonapartist political circles, artists, and the Faubourg Saint-Germain -- as well as the social ambiguity that Marie intermittently mocks.
 
 She had at least one daughter (frequently mentioned as "sa fille" or "Mlle de Mouzay"); her daughter Marie, Mme de Daillens, née de Mouzay, has her own entry at [DE_DAILLENS](DE_DAILLENS.md) (identification per the printed indexes of Mon Journal t.8, t.13 and t.14 and the diary, 034.0003-0007), a nephew who was a medical student, and a mother who also appears at social gatherings. She was also a published writer of feuilletons (serial fiction), though Marie describes this as modest: she "se frotte un peu a tous les mondes et qui a eu un certain succès comme ecrivain de feuilletons" (064.0050, 1876-07-22).
 
@@ -94,7 +94,7 @@ Frequently mentioned but never named. Marie has "conversations sur la physiologi
 
 ## Imperial Household Past
 
-The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans la maison de l'Empereur" -- a linen-maid in the household of Napoleon III. During that period, she secured a commutation of sentence for a man named Rane (from Cayenne to Lambessa), who later became a friend of Gambetta. This imperial service connection explains her Bonapartist political network and her access to figures like Cassagnac and Blanc, while her original domestic-servant status explains the social ambiguity that Marie alternately exploits and deplores.
+The diary reveals (086.0478, 1879-11-05) that Mouzay had served as "lingere dans la maison de l'Empereur" -- a linen-maid in the household of Napoleon III. During that period, she secured a commutation of sentence for a man named Rane (from Cayenne to Lambessa), who later became a friend of Gambetta. This imperial service connection explains her Bonapartist political network and her access to figures like Cassagnac and Blanc, while her original domestic-servant status explains the social ambiguity that Marie alternately exploits and deplores.
 
 ## Diary References
 
@@ -208,7 +208,7 @@ The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans
 - **July 13** (085): "Les Mouzay arrivent et nous nous amusons a tourner des tables"
 - **July 19** (085): Mouzay and daughter gossip about Cassagnac's cousin Linselles
 - **October 17** (086): Nostalgic memory of first Cassagnac meeting at "29 du Boulevard Haussmann, chez la Mouzay"
-- **November 5** (086.0476): **Reveals Mouzay was "lingere dans la maison de l'Empereur"**; Rane connection
+- **November 5** (086.0478): **Reveals Mouzay was "lingere dans la maison de l'Empereur"**; Rane connection
 - **November 9** (086): Mouzay at dinner with Berthe and Karageorgevitch
 - **December 29** (087): Mouzay and Gaillard at dinner
 

@@ -102,7 +102,7 @@ The Gavinis anchored a tight-knit Corsican social network in Paris that included
 ### Social Guidance and Matchmaking
 
 %% GLO_GAVINI.0020 %%
-Denis provided Marie with frank social intelligence. He classified Blanc as "de troisieme categorie" (third category), teaching her the subtle social gradations of the Third Republic (085, 1879). When Marie's name appeared in newspapers (through Saint-Amand's indiscretion), the Gavinis "tres en colere sont venus... me reprocher cette extravagance" -- protecting her reputation (094, 1882-04-29). Denis's political advice was shrewd; he interceded with Turquet at the Ministry of Fine Arts to secure Marie a delay on an atelier matter, and he guided her visits to the Chamber of Deputies at Versailles (087.0151, 1880-03-19).
+Denis provided Marie with frank social intelligence. He classified Blanc as "de troisieme categorie" (third category), teaching her the subtle social gradations of the Third Republic (085, 1879). When Marie's name appeared in newspapers (through Saint-Amand's indiscretion), the Gavinis "tres en colere sont venus... me reprocher cette extravagance" -- protecting her reputation (094, 1882-04-29). Denis's political advice was shrewd; he interceded with Turquet at the Ministry of Fine Arts to secure Marie a delay on an atelier matter, and he guided her visits to the Chamber of Deputies at Versailles (087.0152, 1880-03-19).
 
 %% GLO_GAVINI.0021 %%
 Adeline was an indefatigable matchmaker. She evaluated Marie's suitors with businesslike precision -- assessing one marquis as having "20,000 francs de rente et en aura 80,000 mais ses parents sont jeunes" (meaning the inheritance was distant) (084, 1879-04-07). She proposed Multedo (refused "immediatement et a l'unanimite de tous mes sentiments," 080.DROPPED-0729, 1878-06-20), the little "Arnaud" from the Chamber, and various other candidates. When Marie despaired over Cassagnac's marriage, the Gavinis judged that "Cassagnac ne merite qu'Acard et que je suis bien trop jolie, trop riche, trop bien pour lui" (080.0692, 1878-06-20). At the pere Gavini's suggestion of marrying Casimir, Marie records "un mot cruel" -- he advised her, given "votre situation," to consider it, "vraiment" (088, 1880-06-05).
@@ -154,7 +154,7 @@ The Gavinis appear across 28 carnets spanning seven years. The densest coverage 
 - **083** (1878-12-30) -- Antoine introduced: just qualified as lawyer, plans political career
 - **084** (1879-04-07) -- "La positive Adeline" evaluates a marquis as marriage prospect
 - **085** (1879-05-16) -- Gavini returns from Corsica; princesse Mathilde gracious to Gavinis and Marie
-- **087.0151** (1880-03-19) -- Gavini intercedes with Turquet for Marie's atelier sursis
+- **087.0152** (1880-03-19) -- Gavini intercedes with Turquet for Marie's atelier sursis
 - **088.0004** (1880-04-24) -- "le pere Gavini" as regular dinner companion
 - **088.0105** (1880-05-05) -- Opera with the Gavinis in the prince de Honiau's box
 - **094** (1882-04-29) -- Gavinis furious at Marie's name appearing in *Le Voltaire*
