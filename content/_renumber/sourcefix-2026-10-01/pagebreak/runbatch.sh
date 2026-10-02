@@ -1,6 +1,7 @@
 #!/bin/bash
 # runbatch.sh ROOT CHECKED.json carnet...  — rebuild + postfix per carnet; prints gate failures
 ROOT=$1; CH=$2; shift 2; cd $ROOT
+for c in "$@"; do d=$(git status --short content/*/$c | wc -l); if [ "$d" != 0 ]; then echo "ABORT: carnet $c has $d uncommitted file(s) - no rebuild in a dirty carnet"; exit 1; fi; done
 for c in "$@"; do
   before=$(ls content/_renumber/$c-$(date +%Y-%m-%d)*.json 2>/dev/null | wc -l)
   just rebuild-carnet $c ~/rebuild-state/plan-sourcefix/pagebreak/plan-pb-$c.json --write >/dev/null 2>&1 || { echo "REBUILD FAIL $c"; continue; }

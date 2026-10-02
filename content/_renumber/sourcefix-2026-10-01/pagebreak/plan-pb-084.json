@@ -415,10 +415,8 @@
      "old": "084.0101"
     },
     {
-     "old": "084.0102"
-    },
-    {
-     "old": "084.0103"
+     "old": "084.0102",
+     "set_french": "L'un d'eux est ce monsieur qui me suivait toujours et l'autre jour chez Klein, c'est un riche Hongrois, M. Frieman marié à Mlle de Persigny qui vient de lui donner un fils. C'est Mme Gavini qui me l'a raconté en me le montrant un jour aux Bois. Les deux autres sont MM. de Courcelles et Carnassac. Nous leur avons déclaré que nous avions l'intention d'inaugurer l'ère de la chasteté aux Bals de l'opéra et avons joué les grandes dames à révérences tandis qu'on nous faisaient des saluts d'ambassade. Bref c'était pas trop mal [Mot noirci: pour] Frieman était fou de mon pied qui paraissait d'une grandeur ridicule en comparaison avec la poitrine que je m'étais arrangée avec des coussins. Ce pied en a fait aller bien d'autres. Si Cassagnac avait vraiment [été] amoureux des jolis pieds il serait resté aux miens."
     },
     {
      "old": "084.0104"
@@ -598,10 +596,8 @@
      "old": "084.0148"
     },
     {
-     "old": "084.0149"
-    },
-    {
-     "old": "084.0150"
+     "old": "084.0149",
+     "set_french": "C'est demain l'élection de Comdom... j'allais adresser à Dieu une fervente prière pour qu'il fasse faire four au mari d'Acard mais.... Ah ! oui mais ! c'est bête, mais je n'ai pas osé prier pour le mal.. Serais-je bonne ? Et puis je me suis dit que si je prie pour faire du mal à mes semblables les prières que j'adresserai pour moi ne seront plus exaucées."
     },
     {
      "old": "084.0151"
@@ -1798,8 +1794,10 @@
      "old": "084.0457"
     },
     {
-     "old": "084.0458",
-     "set_french": "Mademoiselle Oelsnitz m'accompagne comme d'habitude, la pauvre fille est si ennuyeuse. Figurez-vous un tout petit corps, une grosse tête avec des yeux bleus... avez-vous des têtes de [Mot noirci: bois] chez les modistes, avec des joues roses et des yeux bleus ?"
+     "old": "084.0458"
+    },
+    {
+     "old": "084.0459"
     },
     {
      "old": "084.0460"
@@ -1815,9 +1813,6 @@
     },
     {
      "old": "084.0464"
-    },
-    {
-     "old": "084.0465"
     }
    ],
    "_first_line": "# Mercredi 12 mars 1879"
@@ -1827,10 +1822,10 @@
    "date": "1879-03-13",
    "paragraphs": [
     {
-     "old": "084.0466"
+     "old": "084.0465"
     },
     {
-     "old": "084.0467"
+     "old": "084.0466"
     }
    ],
    "_first_line": "# Jeudi, 13 mars 1879"
@@ -1839,6 +1834,9 @@
    "file": "1879-03-14.md",
    "date": "1879-03-14",
    "paragraphs": [
+    {
+     "old": "084.0467"
+    },
     {
      "old": "084.0468"
     },
@@ -1850,9 +1848,6 @@
     },
     {
      "old": "084.0471"
-    },
-    {
-     "old": "084.0472"
     }
    ],
    "_first_line": "# Vendredi, 14 mars 1879"
@@ -1861,6 +1856,9 @@
    "file": "1879-03-15.md",
    "date": "1879-03-15",
    "paragraphs": [
+    {
+     "old": "084.0472"
+    },
     {
      "old": "084.0473"
     },
@@ -1899,9 +1897,6 @@
     },
     {
      "old": "084.0485"
-    },
-    {
-     "old": "084.0486"
     }
    ],
    "_first_line": "# Samedi, 15 mars 1879"
@@ -1910,6 +1905,9 @@
    "file": "1879-03-16.md",
    "date": "1879-03-16",
    "paragraphs": [
+    {
+     "old": "084.0486"
+    },
     {
      "old": "084.0487"
     },
@@ -1936,9 +1934,6 @@
     },
     {
      "old": "084.0495"
-    },
-    {
-     "old": "084.0496"
     }
    ],
    "_first_line": "# Dimanche, 16 mars 1879"
@@ -1948,7 +1943,7 @@
    "date": "1879-03-17",
    "paragraphs": [
     {
-     "old": "084.0497"
+     "old": "084.0496"
     }
    ],
    "_first_line": "# Lundi 17 mars 1879"
@@ -1958,13 +1953,13 @@
    "date": "1879-03-18",
    "paragraphs": [
     {
+     "old": "084.0497"
+    },
+    {
      "old": "084.0498"
     },
     {
      "old": "084.0499"
-    },
-    {
-     "old": "084.0500"
     }
    ],
    "_first_line": "# Mardi 18 mars 1879"
@@ -1973,6 +1968,9 @@
    "file": "1879-03-19.md",
    "date": "1879-03-19",
    "paragraphs": [
+    {
+     "old": "084.0500"
+    },
     {
      "old": "084.0501"
     },
@@ -2002,9 +2000,6 @@
     },
     {
      "old": "084.0510"
-    },
-    {
-     "old": "084.0511"
     }
    ],
    "_first_line": "# Mercredi, 19 mars 1879"
@@ -2013,6 +2008,9 @@
    "file": "1879-03-20.md",
    "date": "1879-03-20",
    "paragraphs": [
+    {
+     "old": "084.0511"
+    },
     {
      "old": "084.0512"
     },
@@ -2051,9 +2049,6 @@
     },
     {
      "old": "084.0524"
-    },
-    {
-     "old": "084.0525"
     }
    ],
    "_first_line": "# Jeudi, 20 mars 1879"
@@ -2063,13 +2058,13 @@
    "date": "1879-03-21",
    "paragraphs": [
     {
+     "old": "084.0525"
+    },
+    {
      "old": "084.0526"
     },
     {
      "old": "084.0527"
-    },
-    {
-     "old": "084.0528"
     }
    ],
    "_first_line": "# Vendredi, 21 mars 1879"
@@ -2078,6 +2073,9 @@
    "file": "1879-03-22.md",
    "date": "1879-03-22",
    "paragraphs": [
+    {
+     "old": "084.0528"
+    },
     {
      "old": "084.0529"
     },
@@ -2101,9 +2099,6 @@
     },
     {
      "old": "084.0536"
-    },
-    {
-     "old": "084.0537"
     }
    ],
    "_first_line": "# Samedi, 22 mars 1879"
@@ -2113,13 +2108,13 @@
    "date": "1879-03-23",
    "paragraphs": [
     {
+     "old": "084.0537"
+    },
+    {
      "old": "084.0538"
     },
     {
      "old": "084.0539"
-    },
-    {
-     "old": "084.0540"
     }
    ],
    "_first_line": "# Dimanche, 23 mars 1879"
@@ -2128,6 +2123,9 @@
    "file": "1879-03-24.md",
    "date": "1879-03-24",
    "paragraphs": [
+    {
+     "old": "084.0540"
+    },
     {
      "old": "084.0541"
     },
@@ -2148,9 +2146,6 @@
     },
     {
      "old": "084.0547"
-    },
-    {
-     "old": "084.0548"
     }
    ],
    "_first_line": "# Lundi, 24 mars 1879"
@@ -2160,13 +2155,13 @@
    "date": "1879-03-25",
    "paragraphs": [
     {
+     "old": "084.0548"
+    },
+    {
      "old": "084.0549"
     },
     {
      "old": "084.0550"
-    },
-    {
-     "old": "084.0551"
     }
    ],
    "_first_line": "# Mardi, 25 mars 1879"
@@ -2176,10 +2171,10 @@
    "date": "1879-03-26",
    "paragraphs": [
     {
-     "old": "084.0552"
+     "old": "084.0551"
     },
     {
-     "old": "084.0553"
+     "old": "084.0552"
     }
    ],
    "_first_line": "# Mercredi, 26 mars 1879"
@@ -2188,6 +2183,9 @@
    "file": "1879-03-27.md",
    "date": "1879-03-27",
    "paragraphs": [
+    {
+     "old": "084.0553"
+    },
     {
      "old": "084.0554"
     },
@@ -2199,9 +2197,6 @@
     },
     {
      "old": "084.0557"
-    },
-    {
-     "old": "084.0558"
     }
    ],
    "_first_line": "# Jeudi, 27 mars 1879"
@@ -2211,6 +2206,9 @@
    "date": "1879-03-28",
    "paragraphs": [
     {
+     "old": "084.0558"
+    },
+    {
      "old": "084.0559"
     },
     {
@@ -2218,9 +2216,6 @@
     },
     {
      "old": "084.0561"
-    },
-    {
-     "old": "084.0562"
     }
    ],
    "_first_line": "# Vendredi, 28 mars 1879"
@@ -2230,20 +2225,19 @@
    "date": "1879-03-29",
    "paragraphs": [
     {
+     "old": "084.0562"
+    },
+    {
      "old": "084.0563"
     },
     {
      "old": "084.0564"
     },
     {
-     "old": "084.0565",
-     "set_french": "En l'absence du père Gavini nous n'y allons qu'à deux heures. C'est bien assez tôt pour la séance qui court. Au lieu du divorce, les chemins de fer ! Je ne m'ennuyais pas tant que je me trouvais bête de rester là à m'ennuyer devant le peu de députés qui étaient restés. Ma tante épiait toujours le secrétaire de Gambetta qui ne me lorgnait qu'après avoir préalablement longtemps lorgnée du côté opposé comme je fais quand je veux donner le change... je ne dis pas qu'il le fasse pour cela ! je suis trop misérable pour croire qu'on peut faire attention à moi, mais c'est qu'il lorgnait les tribunes où il n'y a que de la canaille alors sans trop de vanité... d'ailleurs ce garçon doit être fat et ce n'est pas sa faute. Tout le monde lui fait la cour. Le duc de La Rochefoucauld-Bisaccia a gravi les degrés du perchoir présidentiel pour parler au petit secrétaire, comme s'il ne pouvait attendre de le trouver dans le passage ou aux abords de l'hémicyle où ce jeune millionnaire passe et repasse car j'ai rarement vu quelqu'un se remuer autant, monter, descendre, saluer des députés de toutes nuances et principalement les aristocrates de la droite, ouvrir et fermer des tiroirs, remuer des papiers. Il est vrai que cela fait valoir la haute taille et la jeune souplesse du corps, pourtant je ne crois pas qu'il soit assez artiste pour faire ces calculs. Le front me semble bas mais c'est un peu la coiffure, autant que j'ai pu voir la figure est très belle sans aucune fadeur, ni mollesse. Je ne sais si c'est que je crois que ma tante le regarde trop ou que je m'en occupe intérieurement, mais j'évite de le regarder, comme une mauvaise action, tellement j'ai peur qu'il pense que je le regarde."
+     "old": "084.0565"
     },
     {
-     "old": "084.0567"
-    },
-    {
-     "old": "084.0568"
+     "old": "084.0566"
     }
    ],
    "_first_line": "# Samedi, 29 mars 1879"
@@ -2253,16 +2247,16 @@
    "date": "1879-03-30",
    "paragraphs": [
     {
+     "old": "084.0567"
+    },
+    {
+     "old": "084.0568"
+    },
+    {
      "old": "084.0569"
     },
     {
      "old": "084.0570"
-    },
-    {
-     "old": "084.0571"
-    },
-    {
-     "old": "084.0572"
     }
    ],
    "_first_line": "# Dimanche, 30 mars 1879"
@@ -2271,6 +2265,12 @@
    "file": "1879-03-31.md",
    "date": "1879-03-31",
    "paragraphs": [
+    {
+     "old": "084.0571"
+    },
+    {
+     "old": "084.0572"
+    },
     {
      "old": "084.0573"
     },
@@ -2312,12 +2312,6 @@
     },
     {
      "old": "084.0586"
-    },
-    {
-     "old": "084.0587"
-    },
-    {
-     "old": "084.0588"
     }
    ],
    "_first_line": "# Lundi, 31 mars 1879"
@@ -2326,6 +2320,12 @@
    "file": "1879-04-01.md",
    "date": "1879-04-01",
    "paragraphs": [
+    {
+     "old": "084.0587"
+    },
+    {
+     "old": "084.0588"
+    },
     {
      "old": "084.0589"
     },
@@ -2352,12 +2352,6 @@
     },
     {
      "old": "084.0597"
-    },
-    {
-     "old": "084.0598"
-    },
-    {
-     "old": "084.0599"
     }
    ],
    "_first_line": "# Mardi, 1er avril 1879"
@@ -2367,7 +2361,7 @@
    "date": "1879-04-02",
    "paragraphs": [
     {
-     "old": "084.0600"
+     "old": "084.0598"
     }
    ],
    "_first_line": "# Mercredi 2 avril 1879"
@@ -2377,13 +2371,13 @@
    "date": "1879-04-03",
    "paragraphs": [
     {
+     "old": "084.0599"
+    },
+    {
+     "old": "084.0600"
+    },
+    {
      "old": "084.0601"
-    },
-    {
-     "old": "084.0602"
-    },
-    {
-     "old": "084.0603"
     }
    ],
    "_first_line": "# Jeudi, 3 avril 1879"
@@ -2393,10 +2387,10 @@
    "date": "1879-04-04",
    "paragraphs": [
     {
-     "old": "084.0604"
+     "old": "084.0602"
     },
     {
-     "old": "084.0605"
+     "old": "084.0603"
     }
    ],
    "_first_line": "# Vendredi, 4 avril 1879"
@@ -2405,6 +2399,12 @@
    "file": "1879-04-05.md",
    "date": "1879-04-05",
    "paragraphs": [
+    {
+     "old": "084.0604"
+    },
+    {
+     "old": "084.0605"
+    },
     {
      "old": "084.0606"
     },
@@ -2416,12 +2416,6 @@
     },
     {
      "old": "084.0609"
-    },
-    {
-     "old": "084.0610"
-    },
-    {
-     "old": "084.0611"
     }
    ],
    "_first_line": "# Samedi, 5 avril 1879"
@@ -2430,6 +2424,12 @@
    "file": "1879-04-06.md",
    "date": "1879-04-06",
    "paragraphs": [
+    {
+     "old": "084.0610"
+    },
+    {
+     "old": "084.0611"
+    },
     {
      "old": "084.0612"
     },
@@ -2447,12 +2447,6 @@
     },
     {
      "old": "084.0617"
-    },
-    {
-     "old": "084.0618"
-    },
-    {
-     "old": "084.0619"
     }
    ],
    "_first_line": "# Dimanche, 6 avril 1879"
@@ -2461,6 +2455,12 @@
    "file": "1879-04-07.md",
    "date": "1879-04-07",
    "paragraphs": [
+    {
+     "old": "084.0618"
+    },
+    {
+     "old": "084.0619"
+    },
     {
      "old": "084.0620"
     },
@@ -2487,12 +2487,6 @@
     },
     {
      "old": "084.0628"
-    },
-    {
-     "old": "084.0629"
-    },
-    {
-     "old": "084.0630"
     }
    ],
    "_first_line": "# Lundi, 7 avril 1879"
@@ -2501,6 +2495,12 @@
    "file": "1879-04-08.md",
    "date": "1879-04-08",
    "paragraphs": [
+    {
+     "old": "084.0629"
+    },
+    {
+     "old": "084.0630"
+    },
     {
      "old": "084.0631"
     },
@@ -2524,12 +2524,6 @@
     },
     {
      "old": "084.0638"
-    },
-    {
-     "old": "084.0639"
-    },
-    {
-     "old": "084.0640"
     }
    ],
    "_first_line": "# Mardi, 8 avril 1879"
@@ -2539,6 +2533,12 @@
    "date": "1879-04-09",
    "paragraphs": [
     {
+     "old": "084.0639"
+    },
+    {
+     "old": "084.0640"
+    },
+    {
      "old": "084.0641"
     },
     {
@@ -2546,12 +2546,6 @@
     },
     {
      "old": "084.0643"
-    },
-    {
-     "old": "084.0644"
-    },
-    {
-     "old": "084.0645"
     }
    ],
    "_first_line": "# Mercredi, 9 avril 1879"
@@ -2561,10 +2555,10 @@
    "date": "1879-04-10",
    "paragraphs": [
     {
-     "old": "084.0646"
+     "old": "084.0644"
     },
     {
-     "old": "084.0647"
+     "old": "084.0645"
     }
    ],
    "_first_line": "# Jeudi, 10 avril 1879"
@@ -2573,6 +2567,12 @@
    "file": "1879-04-11.md",
    "date": "1879-04-11",
    "paragraphs": [
+    {
+     "old": "084.0646"
+    },
+    {
+     "old": "084.0647"
+    },
     {
      "old": "084.0648"
     },
@@ -2587,12 +2587,6 @@
     },
     {
      "old": "084.0652"
-    },
-    {
-     "old": "084.0653"
-    },
-    {
-     "old": "084.0654"
     }
    ],
    "_first_line": "# Vendredi, 11 avril 1879"
@@ -2602,10 +2596,10 @@
    "date": "1879-04-12",
    "paragraphs": [
     {
-     "old": "084.0655"
+     "old": "084.0653"
     },
     {
-     "old": "084.0656"
+     "old": "084.0654"
     }
    ],
    "_first_line": "# Samedi, 12 avril 1879"
@@ -2614,6 +2608,12 @@
    "file": "1879-04-13.md",
    "date": "1879-04-13",
    "paragraphs": [
+    {
+     "old": "084.0655"
+    },
+    {
+     "old": "084.0656"
+    },
     {
      "old": "084.0657"
     },
@@ -2628,12 +2628,6 @@
     },
     {
      "old": "084.0661"
-    },
-    {
-     "old": "084.0662"
-    },
-    {
-     "old": "084.0663"
     }
    ],
    "_first_line": "# Dimanche, 13 avril 1879 - Pâques"
@@ -2643,10 +2637,10 @@
    "date": "1879-04-14",
    "paragraphs": [
     {
-     "old": "084.0664"
+     "old": "084.0662"
     },
     {
-     "old": "084.0665"
+     "old": "084.0663"
     }
    ],
    "_first_line": "# Lundi, 14 avril 1879"
@@ -2655,6 +2649,12 @@
    "file": "1879-04-15.md",
    "date": "1879-04-15",
    "paragraphs": [
+    {
+     "old": "084.0664"
+    },
+    {
+     "old": "084.0665"
+    },
     {
      "old": "084.0666"
     },
@@ -2675,12 +2675,6 @@
     },
     {
      "old": "084.0672"
-    },
-    {
-     "old": "084.0673"
-    },
-    {
-     "old": "084.0674"
     }
    ],
    "_first_line": "# Mardi, 15 avril 1879"
@@ -2689,6 +2683,12 @@
    "file": "1879-04-16.md",
    "date": "1879-04-16",
    "paragraphs": [
+    {
+     "old": "084.0673"
+    },
+    {
+     "old": "084.0674"
+    },
     {
      "old": "084.0675"
     },
@@ -2748,12 +2748,6 @@
     },
     {
      "old": "084.0694"
-    },
-    {
-     "old": "084.0695"
-    },
-    {
-     "old": "084.0696"
     }
    ],
    "_first_line": "# Mercredi, 16 avril 1879"
@@ -2762,6 +2756,12 @@
    "file": "1879-04-17.md",
    "date": "1879-04-17",
    "paragraphs": [
+    {
+     "old": "084.0695"
+    },
+    {
+     "old": "084.0696"
+    },
     {
      "old": "084.0697"
     },
@@ -2776,12 +2776,6 @@
     },
     {
      "old": "084.0701"
-    },
-    {
-     "old": "084.0702"
-    },
-    {
-     "old": "084.0703"
     }
    ],
    "_first_line": "# Jeudi, 17 avril 1879"
@@ -2791,13 +2785,13 @@
    "date": "1879-04-18",
    "paragraphs": [
     {
+     "old": "084.0702"
+    },
+    {
+     "old": "084.0703"
+    },
+    {
      "old": "084.0704"
-    },
-    {
-     "old": "084.0705"
-    },
-    {
-     "old": "084.0706"
     }
    ],
    "_first_line": "# Vendredi, 18 avril 1879"
@@ -2807,10 +2801,10 @@
    "date": "1879-04-19",
    "paragraphs": [
     {
-     "old": "084.0707"
+     "old": "084.0705"
     },
     {
-     "old": "084.0708"
+     "old": "084.0706"
     }
    ],
    "_first_line": "# Samedi, 19 avril 1879"
@@ -2820,6 +2814,12 @@
    "date": "1879-04-20",
    "paragraphs": [
     {
+     "old": "084.0707"
+    },
+    {
+     "old": "084.0708"
+    },
+    {
      "old": "084.0709"
     },
     {
@@ -2827,12 +2827,6 @@
     },
     {
      "old": "084.0711"
-    },
-    {
-     "old": "084.0712"
-    },
-    {
-     "old": "084.0713"
     }
    ],
    "_first_line": "# Dimanche, 20 avril 1879"
@@ -2842,16 +2836,16 @@
    "date": "1879-04-21",
    "paragraphs": [
     {
+     "old": "084.0712"
+    },
+    {
+     "old": "084.0713"
+    },
+    {
      "old": "084.0714"
     },
     {
      "old": "084.0715"
-    },
-    {
-     "old": "084.0716"
-    },
-    {
-     "old": "084.0717"
     }
    ],
    "_first_line": "# Lundi, 21 avril 1879"
@@ -2861,6 +2855,12 @@
    "date": "1879-04-22",
    "paragraphs": [
     {
+     "old": "084.0716"
+    },
+    {
+     "old": "084.0717"
+    },
+    {
      "old": "084.0718"
     },
     {
@@ -2868,12 +2868,6 @@
     },
     {
      "old": "084.0720"
-    },
-    {
-     "old": "084.0721"
-    },
-    {
-     "old": "084.0722"
     }
    ],
    "_first_line": "# Mardi, 22 avril 1879"
@@ -2883,13 +2877,13 @@
    "date": "1879-04-23",
    "paragraphs": [
     {
+     "old": "084.0721"
+    },
+    {
+     "old": "084.0722"
+    },
+    {
      "old": "084.0723"
-    },
-    {
-     "old": "084.0724"
-    },
-    {
-     "old": "084.0725"
     }
    ],
    "_first_line": "# Mercredi, 23 avril 1879"
@@ -2899,10 +2893,10 @@
    "date": "1879-04-24",
    "paragraphs": [
     {
-     "old": "084.0726"
+     "old": "084.0724"
     },
     {
-     "old": "084.0727"
+     "old": "084.0725"
     }
    ],
    "_first_line": "# Jeudi, 24 avril 1879"
@@ -2911,6 +2905,12 @@
    "file": "1879-04-25.md",
    "date": "1879-04-25",
    "paragraphs": [
+    {
+     "old": "084.0726"
+    },
+    {
+     "old": "084.0727"
+    },
     {
      "old": "084.0728"
     },
@@ -2988,12 +2988,6 @@
     },
     {
      "old": "084.0753"
-    },
-    {
-     "old": "084.0754"
-    },
-    {
-     "old": "084.0755"
     }
    ],
    "_first_line": "# Vendredi, 25 avril 1879"
@@ -3002,12 +2996,12 @@
  "source": "tome scan",
  "drop": [
   {
-   "id": "084.0459",
-   "reason": "joined to 084.0458: one print paragraph split at a page break in the transcription (p238->p239 indent=3 above=0)"
+   "id": "084.0103",
+   "reason": "joined to 084.0102: one print paragraph split in the transcription (tome12.docx ¶2290/¶2291: one sentence split across two docx paragraphs)"
   },
   {
-   "id": "084.0566",
-   "reason": "joined to 084.0565: one print paragraph split at a page break in the transcription (p249->p250 indent=3 above=0)"
+   "id": "084.0150",
+   "reason": "joined to 084.0149: one print paragraph split in the transcription (eye-checked on the scan: «le mal..» ends p.(t.12) and «Serais-je bonne ?» continues flush at the top of the next page)"
   }
  ]
 }

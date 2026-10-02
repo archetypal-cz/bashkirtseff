@@ -57,7 +57,7 @@ Its later history is documented. The picture was shown in Vienna in **1910** at 
 ## References in Diary
 
 %% GLO_IM_NEBEL.0011 %%
-No mention of this painting has been found. The related fog ambitions are at 1883-10-02 (101.0486–0488) and, for the Grande-Jatte landscape, 1883-10-28 (102.0030), 1883-11-01 (102.0034) and 1884-03-01 (103.0401 — see *[Automne](./AUTOMNE.md)*).
+No mention of this painting has been found. The related fog ambitions are at 1883-10-02 (101.0486–0488) and, for the Grande-Jatte landscape, 1883-10-28 (102.0029), 1883-11-01 (102.0033) and 1884-03-01 (103.0401 — see *[Automne](./AUTOMNE.md)*).
 
 %% GLO_IM_NEBEL.0012 %%
 ## Related Entries

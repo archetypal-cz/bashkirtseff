@@ -15,7 +15,7 @@ last_updated: 2026-08-13
 
 ## Overview
 
-M. de la Tour was a minor recurring acquaintance in Marie's Paris social circle in 1883, appearing among the guests at gatherings and at the Salon vernissage. Per Apostolescu's name index to the raw carnet transcription (Book 15), "La Tour (M. de)" appears on pages 8, 14, and 233 of that notebook -- page 233 corresponding to the vernissage entry of 1883-04-30 (099.0256), where he is named alongside the Canroberts, Bojidar, and Sautereau.
+M. de la Tour was a minor recurring acquaintance in Marie's Paris social circle in 1883, appearing among the guests at gatherings and at the Salon vernissage. Per Apostolescu's name index to the raw carnet transcription (Book 15), "La Tour (M. de)" appears on pages 8, 14, and 233 of that notebook -- page 233 corresponding to the vernissage entry of 1883-04-30 (099.0253), where he is named alongside the Canroberts, Bojidar, and Sautereau.
 
 ## Possible Identity Note
 
@@ -23,11 +23,11 @@ A later entry (Book 16, raw carnet lines c. 1420, early October 1883) describes 
 
 ## Relevance to Marie
 
-Appears as one of the social acquaintances present during the morning of the Salon vernissage on 1883-04-30, alongside "les Canrobert," Bojidar, and Sautereau (099.0256).
+Appears as one of the social acquaintances present during the morning of the Salon vernissage on 1883-04-30, alongside "les Canrobert," Bojidar, and Sautereau (099.0253).
 
 ## References in Diary
 
-- Key entry: 1883-04-30 (099.0256, Salon vernissage)
+- Key entry: 1883-04-30 (099.0253, Salon vernissage)
 - Possible related entry: c. early October 1883 (twin "MM. de la Tour" visit, raw carnet Book 16)
 
-%% 2026-08-13T23:00:00 RSR: Created to resolve missing glossary tag on 099.0256 (Salon vernissage, 1883-04-30). Per Apostolescu's index to raw carnet Book 15 (pages 8, 14, 233), "La Tour (M. de)" was a minor recurring social acquaintance. A later entry (Book 16, c. October 1883) mentions "les deux MM. de la Tour, ils sont jumeaux" (twin brothers) -- possibly the same family, though not confirmed. No further identity established; treated as a minimal "mentioned" entry per project convention. %%
+%% 2026-08-13T23:00:00 RSR: Created to resolve missing glossary tag on 099.0253 (Salon vernissage, 1883-04-30). Per Apostolescu's index to raw carnet Book 15 (pages 8, 14, 233), "La Tour (M. de)" was a minor recurring social acquaintance. A later entry (Book 16, c. October 1883) mentions "les deux MM. de la Tour, ils sont jumeaux" (twin brothers) -- possibly the same family, though not confirmed. No further identity established; treated as a minimal "mentioned" entry per project convention. %%

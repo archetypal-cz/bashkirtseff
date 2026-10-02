@@ -47,7 +47,7 @@ Pastel worked with charcoal, 56 × 46,5 cm — the same medium and roughly the s
 ## Making of the Work
 
 %% GLO_PORTRAIT_MME_X.0008 %%
-Nothing is known about the making of this pastel. It is not identifiable in the diary, and the pastels Marie does describe herself making in 1883–84 — the portrait of Louis de Canrobert (¶¶ 101.0305, 101.0322, 101.0599), a head of Villevieille (¶ 099.0386), the second Dina "harmonie blanche" (¶ 102.0061) — are all named sitters and none of them has been matched to it. Its 1884 date places it in the last year of her life, when she was working on *Un meeting*, on the unfinished *La Rue*, and, in the last months, barely working at all.
+Nothing is known about the making of this pastel. It is not identifiable in the diary, and the pastels Marie does describe herself making in 1883–84 — the portrait of Louis de Canrobert (¶¶ 101.0305, 101.0322, 101.0599), a head of Villevieille (¶ 099.0379), the second Dina "harmonie blanche" (¶ 102.0060) — are all named sitters and none of them has been matched to it. Its 1884 date places it in the last year of her life, when she was working on *Un meeting*, on the unfinished *La Rue*, and, in the last months, barely working at all.
 
 %% GLO_PORTRAIT_MME_X.0009 %%
 ## References in Diary

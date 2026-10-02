@@ -38,7 +38,7 @@ Marie paints Collignon's portrait in May-June 1876 (twelve sittings), and the si
 
 ## Background and Social Position
 
-Collignon came from a modest Parisian family. Her parents ran "une espece d'hotel meuble dans un passage Marbeuf" and her father "portait des sabots et balayait la cour" (%% 085.0091 %%). Despite these humble origins, Collignon had risen socially through her career as a governess: she had previously served as "demoiselle de compagnie aupres de la fille du vice-roi d'Egypte" (%% 085.0091 %%), which explains her polish, worldliness, and knowledge of Egypt and Cairo. Marie observed the painful contrast: "Collignon qui... est si elegante, si distinguee, si bien elevee !" yet lives in poverty (%% 085.0091 %%). She had accumulated savings from fourteen years of work (%% 062.0348 %%: "elle depense son dernier argent amasse pendant quatorze ans de travail"). She had a brother who visited her in Paris (%% 084.0194 %%).
+Collignon came from a modest Parisian family. Her parents ran "une espece d'hotel meuble dans un passage Marbeuf" and her father "portait des sabots et balayait la cour" (%% 085.0091 %%). Despite these humble origins, Collignon had risen socially through her career as a governess: she had previously served as "demoiselle de compagnie aupres de la fille du vice-roi d'Egypte" (%% 085.0091 %%), which explains her polish, worldliness, and knowledge of Egypt and Cairo. Marie observed the painful contrast: "Collignon qui... est si elegante, si distinguee, si bien elevee !" yet lives in poverty (%% 085.0091 %%). She had accumulated savings from fourteen years of work (%% 062.0348 %%: "elle depense son dernier argent amasse pendant quatorze ans de travail"). She had a brother who visited her in Paris (%% 084.0192 %%).
 
 Her father died in May 1879 (%% 085.0078 %%: "Le pere de Collignon est mort ce matin"). After leaving the Bashkirtseff household, Collignon lived in Cannes during the winter seasons and in Paris, often lodging at various addresses including Villa Fortunee in the Carabacel district of Nice (%% 082.0198 %%).
 
@@ -103,7 +103,7 @@ Collignon made several penetrating observations about Marie:
 
 ## Illness and Death (1873-1881)
 
-Collignon's tuberculosis was diagnosed remarkably early. On March 3, 1873, Dr Walitsky told the family: "Mlle Collignon est malade comme Koukoueff qui vient de mourir, qu'elle peut vivre cinq ans, et qu'elle peut mourir en trois semaines" (%% 002.0166 %%). Despite this devastating prognosis, Collignon lived another eight years, spending summers at Allevard (a thermal spa in the Alps) and winters in the Midi (%% 102.0006 %%).
+Collignon's tuberculosis was diagnosed remarkably early. On March 3, 1873, Dr Walitsky told the family: "Mlle Collignon est malade comme Koukoueff qui vient de mourir, qu'elle peut vivre cinq ans, et qu'elle peut mourir en trois semaines" (%% 002.0166 %%). Despite this devastating prognosis, Collignon lived another eight years, spending summers at Allevard (a thermal spa in the Alps) and winters in the Midi (%% 102.0005 %%).
 
 On July 27, 1881, Marie visited the dying Collignon and was horrified: "elle va mourir bientot, en voila une qui est changee. Rosalie m'avait prevenue mais j'en suis restee saisie... La Mort elle-meme. Et puis, dans la chambre une odeur de bouillon tres fort que l'on donne aux malades... C'est horrible" (%% 092.0336 %%). Marie brought gifts — silk for a dress and a shawl she herself coveted — then caught herself calculating heavenly reward: "je me suis decidee a cet immense sacrifice pour la mauvaise pensee que cela me sera rembourse par le ciel. Ces calculs enlevent tout merite" (%% 092.0336 %%).
 
@@ -116,7 +116,7 @@ Collignon died in late October 1881. Marie records it laconically on November 15
 Even after Collignon's death, Marie continued to invoke her memory:
 
 - **August 1883**: Contemplating her own mortality, Marie imagines dying "vers quarante ans comme Mlle Collignon" (%% 101.0034 %%).
-- **October 1883**: Drawing the explicit parallel to her own tuberculosis: "cette pauvre Collignon, je l'ai connue a vingt-deux ans, elle toussait un peu, Walitsky nous dit des lors qu'elle ne vivrait pas, seulement elle n'est pas tres soignee... et cela a dure huit ans" (%% 102.0006 %%).
+- **October 1883**: Drawing the explicit parallel to her own tuberculosis: "cette pauvre Collignon, je l'ai connue a vingt-deux ans, elle toussait un peu, Walitsky nous dit des lors qu'elle ne vivrait pas, seulement elle n'est pas tres soignee... et cela a dure huit ans" (%% 102.0005 %%).
 - **February 1884**: The last mention, reminiscing about childhood: "Etant enfant et amoureuse du duc de Hamilton je rougissais affreusement au mot Duc et ca arrivait souvent pendant mes lectures historiques a haute voix devant Mlle Collignon" (%% 103.0012 %%).
 
 ## Significance
@@ -160,7 +160,7 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 092.0336 %% (Jul 27, 1881): Marie visits dying Collignon — "la Mort elle-meme"
 - %% 093.DROPPED-0177 %% (Nov 15, 1881): "La pauvre Collignon est morte depuis plus de vingt jours deja"
 - %% 101.0034 %% (Aug 21, 1883): Marie expects to die "vers quarante ans comme Mlle Collignon"
-- %% 102.0006 %% (Oct 17, 1883): Explicit parallel — Walitsky's diagnosis, eight-year survival
+- %% 102.0005 %% (Oct 17, 1883): Explicit parallel — Walitsky's diagnosis, eight-year survival
 - %% 103.0012 %% (Feb 25, 1884): Last mention — childhood blushing during lessons
 
 %% 2025-06-30T01:00:00 RSR: Created entry for frequently mentioned governess who had no glossary file %%

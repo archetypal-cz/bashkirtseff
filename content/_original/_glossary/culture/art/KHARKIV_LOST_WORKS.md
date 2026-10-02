@@ -114,7 +114,7 @@ Three paintings: *[За книгою / At a Book](./AT_A_BOOK.md)* at the Kharki
 ## References in Diary
 
 %% GLO_KHARKIV_LOST_WORKS.0030 %%
-None: all of this happened after Marie's death on 31 October 1884. The connection runs the other way. Because so much of the œuvre is gone, the diary is in many cases the **only surviving description** of a picture — the life-size peasant woman at the wattle fence painted at Gavronzi in the summer of 1881 (092.0112, 092.0203), the *Thérèse* of 1882 (094.0356), the whole Nice campaign inventoried at 094.0356–0493, the six or seven laughing heads of *[Les trois Rires](./LES_TROIS_RIRES.md)* (102.0074). For those works Marie's own account is the record, and the loss is what makes it one.
+None: all of this happened after Marie's death on 31 October 1884. The connection runs the other way. Because so much of the œuvre is gone, the diary is in many cases the **only surviving description** of a picture — the life-size peasant woman at the wattle fence painted at Gavronzi in the summer of 1881 (092.0112, 092.0203), the *Thérèse* of 1882 (094.0346), the whole Nice campaign inventoried at 094.0346–0493, the six or seven laughing heads of *[Les trois Rires](./LES_TROIS_RIRES.md)* (102.0073). For those works Marie's own account is the record, and the loss is what makes it one.
 
 %% GLO_KHARKIV_LOST_WORKS.0031 %%
 ## Related Entries

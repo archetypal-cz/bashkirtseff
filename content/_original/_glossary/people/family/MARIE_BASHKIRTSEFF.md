@@ -73,8 +73,8 @@ Her Salon career, year by year:
 %% GLO_MARIE_BASHKIRTSEFF.0017 %%
 - **1880**: *[Jeune femme lisant « La Question du divorce »](../../culture/art/QUESTION_DU_DIVORCE.md)*, with her cousin Dina as the sitter. Her debut, signed "Mademoiselle Marie Constantin Russ", no. 9091 (087.0716)
 - **1881**: *[L'Atelier Julian](../../culture/art/L_ATELIER_JULIAN.md)*. Signed "Andrey" (091.0331)
-- **1882**: nothing. Ill in Nice: "très triste de n'avoir rien au Salon" (094.0280)
-- **1883**: *[Jean et Jacques](../../culture/art/JEAN_ET_JACQUES.md)*, *[La Parisienne](../../culture/art/LA_PARISIENNE.md)* and the [pastel portrait of Dina](../../culture/art/PORTRAIT_DINA_PASTEL.md). *Mention honorable*, awarded to the pastel. She learned of it on 24 May 1883 (099.0403)
+- **1882**: nothing. Ill in Nice: "très triste de n'avoir rien au Salon" (094.0270)
+- **1883**: *[Jean et Jacques](../../culture/art/JEAN_ET_JACQUES.md)*, *[La Parisienne](../../culture/art/LA_PARISIENNE.md)* and the [pastel portrait of Dina](../../culture/art/PORTRAIT_DINA_PASTEL.md). *Mention honorable*, awarded to the pastel. She learned of it on 24 May 1883 (099.0396)
 - **1884**: *[Un meeting](../../culture/art/UN_MEETING.md)*. Her only submission (103.0472). A popular and press success, but no medal. Now in the Musée d'Orsay (RF 442)
 
 %% GLO_MARIE_BASHKIRTSEFF.0018 %%
@@ -92,7 +92,7 @@ The posthumous exhibition of the Union des Femmes Peintres et Sculpteurs opened 
 
 %% GLO_MARIE_BASHKIRTSEFF.0022 %%
 %% [#Hubertine_Auclert](../mentioned/HUBERTINE_AUCLERT.md) [#La_Citoyenne](../../culture/newspapers/LA_CITOYENNE.md) %%
-Besides the diary she wrote for the press. In 1881 she contributed to Hubertine Auclert's feminist paper *La Citoyenne*, first an article she was pleased to see printed on 7 March (091.0273), then a Salon review (091.0632). The review was signed "P. Orell" in her spelling (092.0023), usually given as "Pauline Orrel".
+Besides the diary she wrote for the press. In 1881 she contributed to Hubertine Auclert's feminist paper *La Citoyenne*, first an article she was pleased to see printed on 7 March (091.0273), then a Salon review (091.0631). The review was signed "P. Orell" in her spelling (092.0023), usually given as "Pauline Orrel".
 
 %% GLO_MARIE_BASHKIRTSEFF.0023 %%
 %% [#Guy_de_Maupassant](../../culture/literature/GUY_DE_MAUPASSANT.md) %%
@@ -103,7 +103,7 @@ In the spring of 1884 she began an anonymous correspondence with Guy de Maupassa
 
 %% GLO_MARIE_BASHKIRTSEFF.0025 %%
 %% [#Tuberculosis](../../culture/health/TUBERCULOSIS.md) %%
-Her hearing began to fail by 1880: at the studio "on me dit que je suis sourde" (088.0165). On 28 December 1882 a doctor told her plainly that she was consumptive: "Je suis poitrinaire" (097.0298). From then on the diary is a race between work and illness. The last entry, of 20 October 1884, records Bastien-Lepage, himself dying, coming to see her almost carried by his brother, and her bed moved to the salon because she could no longer climb the stairs (106.0183–106.0187). She died in Paris on 31 October 1884; Bastien-Lepage died on 10 December. She is buried in the Passy cemetery (division 11) in a funerary chapel designed by Émile Bastien-Lepage.
+Her hearing began to fail by 1880: at the studio "on me dit que je suis sourde" (088.0165). On 28 December 1882 a doctor told her plainly that she was consumptive: "Je suis poitrinaire" (097.0297). From then on the diary is a race between work and illness. The last entry, of 20 October 1884, records Bastien-Lepage, himself dying, coming to see her almost carried by his brother, and her bed moved to the salon because she could no longer climb the stairs (106.0183–106.0187). She died in Paris on 31 October 1884; Bastien-Lepage died on 10 December. She is buried in the Passy cemetery (division 11) in a funerary chapel designed by Émile Bastien-Lepage.
 
 %% GLO_MARIE_BASHKIRTSEFF.0026 %%
 ## Legacy
@@ -120,9 +120,9 @@ The 1887 *Journal* made her famous across Europe and America as a writer. Kather
 - **Jan 1873**: Surviving diary begins, in Nice (carnet 001)
 - **2 Oct 1877**: First day at the Académie Julian (075.0124)
 - **1880**: Salon debut as "Marie Constantin Russ" (087.0716)
-- **1881**: Salon as "Andrey"; writes for *La Citoyenne* (091.0331, 091.0632)
-- **28 Dec 1882**: Told she has tuberculosis (097.0298)
-- **24 May 1883**: *Mention honorable* at the Salon (099.0403)
+- **1881**: Salon as "Andrey"; writes for *La Citoyenne* (091.0331, 091.0631)
+- **28 Dec 1882**: Told she has tuberculosis (097.0297)
+- **24 May 1883**: *Mention honorable* at the Salon (099.0396)
 - **1 May 1884**: Writes the preface to the diary (carnet 000)
 - **Spring 1884**: Anonymous correspondence with Maupassant; *Un meeting* at the Salon (104.0031; 103.0472)
 - **20 Oct 1884**: Last diary entry (106.0183)
@@ -166,4 +166,4 @@ The 1887 *Journal* made her famous across Europe and America as a writer. Kather
 %% 2026-02-04T06:46:50.637Z RSR: Merged content from MARIE_BACHKIRTSEFF %%
 %% 2026-02-04T06:46:50.907Z RSR: Merged content from MARIE_BASHKIRSEFF %%
 %% 2026-02-11T13:55:00 RSR: Per Kernberger (2013), Marie was born on November 12, 1858 (not November 24 as some sources state). The family celebrated her birthday on January 12, claiming she had been born prematurely — part of a long-continued subterfuge to conceal that she was a full-term baby born seven months after her parents' marriage. The false date "1860" was engraved on her tomb. She learned the truth from her father in 1878. %%
-%% 2026-10-02T13:40:00 RSR: Entry rewritten from scratch. Removed: the stub sections of the two merged aliases (MARIE_BACHKIRTSEFF and MARIE_BASHKIRSEFF had no content; their spellings are now aliases). Also removed several unsourced or wrong claims: "diary begins 1870"; "second diary by a woman published in France"; "Nin began her diary because of Marie"; "ranks 5th among Ukrainian painters"; "20,000 pages"; "destroyed by Nazis, ~60 survive" (replaced by the Kharkiv lostart.de account); the mention honorable placed in 1884 (it was 1883); Kernberger "restoring the original" (her volumes translate a selection; the complete French is the Cercle's Mon Journal); the Nice museum "room" and the street, the Julian prize, and the "historic monument" status of the tomb (no authoritative source found; POP/Mérimée unreachable). Correction to the 2026-02-11 note above: 12 November Old Style and 24 November New Style are the same day, not rival dates. The diary bears out the January birthday (068.0362), but the rest of that note (premature-birth cover story, marriage date, tomb date, 1878 revelation) could not be re-verified against Kernberger in this session, so it is kept here as an attributed research note and left out of the public text. The 1882 Salon gap comes from the diary (094.0280). Every diary paragraph ID cited was checked to exist and to contain the quoted text after the 2026 rebuild renumbering. External facts were checked with web searches on 2026-10-02 (AWARE, Éditeurs réunis, Public Domain Review, Gallica, Carnavalet, Beauvoir full text). The works hub link points to culture/art/MARIE_BASHKIRTSEFF_WORKS.md, which is being created at the same time. %%
+%% 2026-10-02T13:40:00 RSR: Entry rewritten from scratch. Removed: the stub sections of the two merged aliases (MARIE_BACHKIRTSEFF and MARIE_BASHKIRSEFF had no content; their spellings are now aliases). Also removed several unsourced or wrong claims: "diary begins 1870"; "second diary by a woman published in France"; "Nin began her diary because of Marie"; "ranks 5th among Ukrainian painters"; "20,000 pages"; "destroyed by Nazis, ~60 survive" (replaced by the Kharkiv lostart.de account); the mention honorable placed in 1884 (it was 1883); Kernberger "restoring the original" (her volumes translate a selection; the complete French is the Cercle's Mon Journal); the Nice museum "room" and the street, the Julian prize, and the "historic monument" status of the tomb (no authoritative source found; POP/Mérimée unreachable). Correction to the 2026-02-11 note above: 12 November Old Style and 24 November New Style are the same day, not rival dates. The diary bears out the January birthday (068.0362), but the rest of that note (premature-birth cover story, marriage date, tomb date, 1878 revelation) could not be re-verified against Kernberger in this session, so it is kept here as an attributed research note and left out of the public text. The 1882 Salon gap comes from the diary (094.0270). Every diary paragraph ID cited was checked to exist and to contain the quoted text after the 2026 rebuild renumbering. External facts were checked with web searches on 2026-10-02 (AWARE, Éditeurs réunis, Public Domain Review, Gallica, Carnavalet, Beauvoir full text). The works hub link points to culture/art/MARIE_BASHKIRTSEFF_WORKS.md, which is being created at the same time. %%

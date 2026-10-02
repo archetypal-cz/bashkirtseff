@@ -1,0 +1,348 @@
+[
+{
+"n": "102.0002",
+"n1": "102.0003",
+"fn": "102/1883-10-16.md",
+"fn1": "102/1883-10-16.md",
+"tail": "is tout cela de plus haut, de très haut, notre situation est",
+"head": "meilleure; je ne me donne plus jamais la peine de causer ave",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p59->p60 indent=3 above=0",
+"ok": true
+},
+{
+"n": "094.0004",
+"n1": "094.0005",
+"fn": "094/1881-11-26.md",
+"fn1": "094/1881-11-26.md",
+"tail": "faible et ne puis rien manger ayant probablement toujours la",
+"head": "fievre...",
+"kinds": [
+null,
+null
+],
+"scan": "VISUAL",
+"info": "eye-checked on the scan: t.14 p.257 ends «toujours la», p.258 continues",
+"ok": true
+},
+{
+"n": "094.0008",
+"n1": "094.0009",
+"fn": "094/1881-11-29.md",
+"fn1": "094/1881-11-29.md",
+"tail": " j'ai pensé mourir de terreur n'entendant plus ma montre. Et",
+"head": "il faudra en prendre encore et toujours.",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p258->p259 indent=2 above=0",
+"ok": true
+},
+{
+"n": "094.0013",
+"n1": "094.0014",
+"fn": "094/1881-12-03.md",
+"fn1": "094/1881-12-03.md",
+"tail": " et cela lui fait de la peine j'en suis sûre. Et Tony et ces",
+"head": "études que nous devions faire !... Ah ! quelle tristesse mon",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p260->p261 indent=4 above=0",
+"ok": true
+},
+{
+"n": "094.0018",
+"n1": "094.0019",
+"fn": "094/1881-12-07.md",
+"fn1": "094/1881-12-07.md",
+"tail": "mais cela dure vingt jours, un mois, tandis que là-bas on ne",
+"head": "sait ou l'exil, loin de tout. Non, Non, Non ! Je crie non co",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p261->p262 indent=2 above=0",
+"ok": true
+},
+{
+"n": "094.0024",
+"n1": "094.0025",
+"fn": "094/1881-12-11.md",
+"fn1": "094/1881-12-11.md",
+"tail": "en moque pour protéger cet amour aussi espagnol qu’ardent et",
+"head": "malheureux.",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p262->p263 indent=4 above=0",
+"ok": true
+},
+{
+"n": "094.0028",
+"n1": "094.0029",
+"fn": "094/1881-12-14.md",
+"fn1": "094/1881-12-14.md",
+"tail": "Berthe en landau à roues jaunes, avec une belle livrée est",
+"head": "venue prendre de mes nouvelles.",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p263->p264 indent=2 above=0",
+"ok": true
+},
+{
+"n": "094.0043",
+"n1": "094.0044",
+"fn": "094/1881-12-18.md",
+"fn1": "094/1881-12-18.md",
+"tail": "orde ! Elle y est arrivée... C'est une volonté de fer. Cette",
+"head": "fille là me domine de loin. Du reste la plupart de ses convi",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p265->p266 indent=3 above=0",
+"ok": true
+},
+{
+"n": "094.0045",
+"n1": "094.0046",
+"fn": "094/1881-12-19.md",
+"fn1": "094/1881-12-19.md",
+"tail": "nifique, encore jolie... Je me demande ce qui l'a empêché de",
+"head": "se marier, jolie, beau nom, belle parenté, pleine de talents",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p266->p267 indent=4 above=0",
+"ok": true
+},
+{
+"n": "094.0056",
+"n1": "094.0057",
+"fn": "094/1881-12-29.md",
+"fn1": "094/1881-12-29.md",
+"tail": "vini, Villevieille etc. etc. Rien de neuf pourtant si, je me",
+"head": "porte bien, je sors; je suis allée essayer des robes et au B",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p267->p268 indent=3 above=0",
+"ok": true
+},
+{
+"n": "094.0059",
+"n1": "094.0060",
+"fn": "094/1881-12-31.md",
+"fn1": "094/1881-12-31.md",
+"tail": "! travailler nuit et jour... tout le temps, tout le temps et",
+"head": "faire quelque chose de bien !! Je sais bien qu'il dit que le",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p268->p269 indent=4 above=0",
+"ok": true
+},
+{
+"n": "097.0080",
+"n1": "097.0081",
+"fn": "097/1882-11-16.md",
+"fn1": "097/1882-11-16.md",
+"tail": "- Monsieur je deviens sourde,",
+"head": "jusqu'ici j'ai usé de: je n'entends pas bien, j'ai les oreil",
+"kinds": [
+null,
+null
+],
+"scan": "SAMEPAGE-FLUSH",
+"info": "eye-checked on the scan, Mon Journal t.15 p.116: dialogue line, continuation flush left",
+"ok": true,
+"mode": "nl"
+},
+{
+"n": "099.0190",
+"n1": "099.0191",
+"fn": "099/1883-04-24.md",
+"fn1": "099/1883-04-24.md",
+"tail": "e entre son frère et Stéphanie parce qu'il dit que son frère",
+"head": "doit voyager; passer deux mois dans un milieu tout autre que",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p228->p229 indent=3 above=0",
+"ok": true
+},
+{
+"n": "099.0201",
+"n1": "099.0202",
+"fn": "099/1883-04-25.md",
+"fn1": "099/1883-04-25.md",
+"tail": "ce qu'il s'est aperçu un peu du manège... Car les choses que",
+"head": "nous disions ne prêtaient pas à rire.",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p229->p230 indent=4 above=0",
+"ok": true
+},
+{
+"n": "099.0227",
+"n1": "099.0228",
+"fn": "099/1883-04-27.md",
+"fn1": "099/1883-04-27.md",
+"tail": "nditions-là les doigts n'existent plus aussi je ne puis rien",
+"head": "jouer devant du monde et la moindre demoiselle me battrait. ",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p231->p232 indent=3 above=0",
+"ok": true
+},
+{
+"n": "099.0260",
+"n1": "099.0261",
+"fn": "099/1883-04-30.md",
+"fn1": "099/1883-04-30.md",
+"tail": " lui ou à nous viennent se jeter en travers je suis dans des",
+"head": "inquiétudes incensées qu'il ne m'échappe. Enfin nous allons ",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p234->p235 indent=3 above=0",
+"ok": true
+},
+{
+"n": "099.0270",
+"n1": "099.0271",
+"fn": "099/1883-04-30.md",
+"fn1": "099/1883-04-30.md",
+"tail": "chez les Faleyeff ou nous nous amusons, pas à danser avec un",
+"head": "tas d'inconnus mais à causer dans le petit salon. Bojidar, D",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p235->p236 indent=1 above=0",
+"ok": true
+},
+{
+"n": "099.0300",
+"n1": "099.0301",
+"fn": "099/1883-05-01.md",
+"fn1": "099/1883-05-01.md",
+"tail": "uel court une araignée au lieu de ces horribles animaux à la",
+"head": "mode, tels que mouches, lézards etc etc. Et pas l'ombre de f",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p237->p238 indent=4 above=0",
+"ok": true
+},
+{
+"n": "099.0310",
+"n1": "099.0311",
+"fn": "099/1883-05-01.md",
+"fn1": "099/1883-05-01.md",
+"tail": "er-Belleuse. Je lui plais à celui-là et ça ne me fait pas le",
+"head": "moindre plaisir.",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK",
+"info": "p238->p239 indent=4 above=0",
+"ok": true
+},
+{
+"n": "084.0102",
+"n1": "084.0103",
+"fn": "084/1879-01-26.md",
+"fn1": "084/1879-01-26.md",
+"tail": "rsigny qui vient de lui donner un fils. C'est Mme Gavini qui",
+"head": "me l'a raconté en me le montrant un jour aux Bois. Les deux ",
+"kinds": [
+null,
+null
+],
+"scan": "PAGEBREAK-DOCX",
+"info": "tome12.docx ¶2290/¶2291: one sentence split across two docx paragraphs",
+"ok": true
+},
+{
+"n": "084.0149",
+"n1": "084.0150",
+"fn": "084/1879-02-01.md",
+"fn1": "084/1879-02-01.md",
+"tail": "",
+"head": "",
+"kinds": [
+null,
+null
+],
+"scan": "VISUAL",
+"info": "eye-checked on the scan: «le mal..» ends p.(t.12) and «Serais-je bonne ?» continues flush at the top of the next page",
+"ok": true
+},
+{
+"n": "100.0079",
+"n1": "100.0080",
+"fn": "100/1883-06-15.md",
+"fn1": "100/1883-06-15.md",
+"tail": "",
+"head": "",
+"kinds": [
+null,
+null
+],
+"scan": "VISUAL",
+"info": "eye-checked on the scan, Mon Journal t.15 p.287: «Le père / Jacques est supérieur…» continues flush at the top of the page",
+"ok": true
+},
+{
+"n": "085.0416",
+"n1": "085.0417",
+"fn": "085/1879-06-21.md",
+"tail": "",
+"head": "",
+"kinds": [
+null,
+null
+],
+"scan": "VISUAL",
+"info": "eye-checked on the scan, Mon Journal t.13 p.47: the signature is the last line of the letter block",
+"ok": true,
+"mode": "nl"
+}
+]

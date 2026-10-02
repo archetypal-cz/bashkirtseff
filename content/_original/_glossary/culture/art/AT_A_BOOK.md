@@ -61,7 +61,7 @@ It went with her mother's gift to the Museum of Alexander III in St Petersburg (
 ## References in Diary
 
 %% GLO_AT_A_BOOK.0012 %%
-None identified. The mention-map sweeps of carnets 060–075, 076–086, 087–096 and 097–106 all record this work as absent from the diary; the works of 1882 that she does name and describe are *Thérèse*, the Nice campaign of ¶ 094.0356–0493, *[La Parisienne](./LA_PARISIENNE.md)* and *[Les Saintes Femmes](./LES_SAINTES_FEMMES.md)*.
+None identified. The mention-map sweeps of carnets 060–075, 076–086, 087–096 and 097–106 all record this work as absent from the diary; the works of 1882 that she does name and describe are *Thérèse*, the Nice campaign of ¶ 094.0346–0493, *[La Parisienne](./LA_PARISIENNE.md)* and *[Les Saintes Femmes](./LES_SAINTES_FEMMES.md)*.
 
 %% GLO_AT_A_BOOK.0017 %%
 **A second version exists.** A canvas of almost the same composition, 64 × 53 cm and dated 1880, was offered at the Dorotheum in Vienna in 2021 as *Die Lesende*, with the sitter named as Marie's cousin **Dina Babanina** (see *[La Liseuse](./DIE_LESENDE.md)*). The two pictures differ in the background, the table and the glass of water. The Dorotheum's identification is a second claim on the sitter, beside the Ukrainian self-portrait tradition; neither comes from the artist.

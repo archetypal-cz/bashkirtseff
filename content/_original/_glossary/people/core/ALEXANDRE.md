@@ -20,7 +20,7 @@ last_updated: 2026-09-26
 Alexandre Babanine was Marie's maternal uncle, one of the sons of [#Grand_papa](../family/GRAND_PAPA.md) (Etienne Babanine) and brother of [#Maman](../family/MAMAN.md) (Maria Stepanovna), [#Georges](../family/GEORGES.md), Etienne (another brother), Wladimir, and [#Ma_tante](../family/MA_TANTE.md) (Sophie). He was emphatically NOT paternal (Bashkirtseff) -- in carnet 067 (1876-11-11), when a military officer on a train asks his name, he replies "Babanine" (067.0949). Grand-papa had nine children; Alexandre was among several sons who defied their father by marrying without permission.
 
 %% GLO_ALEXANDRE.0003 %%
-Alexandre married [#Nadine_Martinoff](../mentioned/NADINE_MARTINOFF.md) and settled at [#Tcherniakovka](../../places/residences/TCHERNIAKOVKA.md), Grand-papa's estate, which he eventually took over. He died on or around January 2, 1884, of a stroke ("attaque d'apoplexie"), at which point his wife Nadine was 33 years old (102.0101). They had three children: Etienne (called "Stiopa" as a child; aged 7 in February 1875, 14 in October 1882, 16 at his father's death), Julie (aged 6 in February 1875, 15 at his death), and a baby Alexandre (10 months old at his death).
+Alexandre married [#Nadine_Martinoff](../mentioned/NADINE_MARTINOFF.md) and settled at [#Tcherniakovka](../../places/residences/TCHERNIAKOVKA.md), Grand-papa's estate, which he eventually took over. He died on or around January 2, 1884, of a stroke ("attaque d'apoplexie"), at which point his wife Nadine was 33 years old (102.0100). They had three children: Etienne (called "Stiopa" as a child; aged 7 in February 1875, 14 in October 1882, 16 at his father's death), Julie (aged 6 in February 1875, 15 at his death), and a baby Alexandre (10 months old at his death).
 
 %% GLO_ALEXANDRE.0004 %%
 Marie describes him and his wife as "un couple excessivement rapace, cupide et heureux" (an excessively rapacious, greedy and happy couple), yet her view of him was more complex than that devastating summary suggests. She alternately calls him "un mechant homme" (a wicked man) and acknowledges him as a force of nature she "almost respects."
@@ -92,7 +92,7 @@ The most revealing passage about Alexandre's long-term strategy comes from Marie
 ### Managing Georges's Inheritance (1882)
 
 %% GLO_ALEXANDRE.0023 %%
-When Georges faked his death in March 1882, it was Alexandre who held Georges's inheritance. Marie notes acidly: "c'est Alexandre qui detient l'heritage de Georges. Et ce cher Alexandre qui a sans doute pris toutes les dispositions pour mieux evincer Dina et l'autre soeur." (It's Alexandre who holds Georges's inheritance. And dear Alexandre has no doubt taken all measures to better squeeze out Dina and the other sister.) Marie's father had to send telegrams to Alexandre to send funeral money -- for a death that turned out to be fabricated (094.0259).
+When Georges faked his death in March 1882, it was Alexandre who held Georges's inheritance. Marie notes acidly: "c'est Alexandre qui detient l'heritage de Georges. Et ce cher Alexandre qui a sans doute pris toutes les dispositions pour mieux evincer Dina et l'autre soeur." (It's Alexandre who holds Georges's inheritance. And dear Alexandre has no doubt taken all measures to better squeeze out Dina and the other sister.) Marie's father had to send telegrams to Alexandre to send funeral money -- for a death that turned out to be fabricated (094.0249).
 
 %% GLO_ALEXANDRE.0024 %%
 ## The Soulima Affair
@@ -149,7 +149,7 @@ Alexandre also served as a mediator in the Bashkirtseff family. When Marie's bro
 ## Letter-Writer from Russia (1879)
 
 %% GLO_ALEXANDRE.0042 %%
-During the Eristoff-Tutcheff crisis in Nice (March 1879), when the Tutcheffs filed a legal complaint against the Babanine family, Marie drafted a formal letter for Alexandre to send from Russia to the French Procureur de la Republique, defending the family honor. The letter, written in Alexandre's voice, protested "au nom de tous mes freres qui depuis la mort de Monsieur Etienne Babanine le pere, representent la famille Babanine" (on behalf of all my brothers who, since the death of Etienne Babanine the father, represent the Babanine family) (084.0372). This confirms both his family name and his role as the senior representative of the Babanine brothers.
+During the Eristoff-Tutcheff crisis in Nice (March 1879), when the Tutcheffs filed a legal complaint against the Babanine family, Marie drafted a formal letter for Alexandre to send from Russia to the French Procureur de la Republique, defending the family honor. The letter, written in Alexandre's voice, protested "au nom de tous mes freres qui depuis la mort de Monsieur Etienne Babanine le pere, representent la famille Babanine" (on behalf of all my brothers who, since the death of Etienne Babanine the father, represent the Babanine family) (084.0370). This confirms both his family name and his role as the senior representative of the Babanine brothers.
 
 %% GLO_ALEXANDRE.0043 %%
 ## Marie's Visit to Tcherniakovka (1882)
@@ -170,13 +170,13 @@ Alexandre died of a stroke around January 2, 1884. Marie received the news by te
 "Et ce pauvre homme... qui avait de mauvais cotes, adorait sa famille, sa femme qu'il avait fini par aimer a la folie." (And this poor man... who had his bad sides, adored his family, his wife whom he had ended up loving to distraction.) She then quotes his own words about Nadine -- remarkable because Alexandre was not a reader of novels and spoke without literary formulas:
 
 %% GLO_ALEXANDRE.0049 %%
-"Eh bien ! Quand meme cette infamie serait vraie ! Est-ce que ma femme que j'ai epouse a quinze ans, n'est pas ma chair, mon sang, mon age, est-ce que nous ne sommes pas un ! Si j'avais failli moi, est-ce que je ne me pardonnerais pas ? Comment pourrais-je ne pas pardonner a ma femme; mais c'est comme si pour me punir moi-meme je me crevais les yeux ou me coupais un bras !" (Well! Even if this infamy were true! My wife whom I married at fifteen -- is she not my flesh, my blood, my years? Are we not one? If I had sinned, would I not forgive myself? How could I not forgive my wife? It would be like gouging out my own eyes or cutting off my own arm to punish myself!) (102.0101)
+"Eh bien ! Quand meme cette infamie serait vraie ! Est-ce que ma femme que j'ai epouse a quinze ans, n'est pas ma chair, mon sang, mon age, est-ce que nous ne sommes pas un ! Si j'avais failli moi, est-ce que je ne me pardonnerais pas ? Comment pourrais-je ne pas pardonner a ma femme; mais c'est comme si pour me punir moi-meme je me crevais les yeux ou me coupais un bras !" (Well! Even if this infamy were true! My wife whom I married at fifteen -- is she not my flesh, my blood, my years? Are we not one? If I had sinned, would I not forgive myself? How could I not forgive my wife? It would be like gouging out my own eyes or cutting off my own arm to punish myself!) (102.0100)
 
 %% GLO_ALEXANDRE.0050 %%
-Alexandre also confided to Marie during her last visit to Russia: "Avant j'avais tant de preoccupations, tant de tourments, une telle soif d'acquerir, de devenir riche que je ne pensais pas comme il le fallait a Nadine, mais maintenant tout est arrange... maintenant la vie est tout autre, maintenant il n'y a que du bonheur et la continuelle preoccupation des moindres souhaits de ma femme, cette pauvre chere Nadine adoree" (Before I had so many worries, so many torments, such a thirst to acquire, to become rich, that I didn't think enough about Nadine; but now everything is settled... now life is completely different, now there is only happiness and the continual care for my wife's smallest wishes, that poor dear beloved Nadine) (102.0102).
+Alexandre also confided to Marie during her last visit to Russia: "Avant j'avais tant de preoccupations, tant de tourments, une telle soif d'acquerir, de devenir riche que je ne pensais pas comme il le fallait a Nadine, mais maintenant tout est arrange... maintenant la vie est tout autre, maintenant il n'y a que du bonheur et la continuelle preoccupation des moindres souhaits de ma femme, cette pauvre chere Nadine adoree" (Before I had so many worries, so many torments, such a thirst to acquire, to become rich, that I didn't think enough about Nadine; but now everything is settled... now life is completely different, now there is only happiness and the continual care for my wife's smallest wishes, that poor dear beloved Nadine) (102.0101).
 
 %% GLO_ALEXANDRE.0051 %%
-He left behind Nadine (aged 33), their son Etienne (16), daughter Julie (15), and baby Alexandre (10 months). Marie adds that Nadine was rumored to have been unfaithful "avec un starovoi" (with a village police functionary), but she doesn't believe it: "je n'en crois rien. C'est bien triste." (102.0104)
+He left behind Nadine (aged 33), their son Etienne (16), daughter Julie (15), and baby Alexandre (10 months). Marie adds that Nadine was rumored to have been unfaithful "avec un starovoi" (with a village police functionary), but she doesn't believe it: "je n'en crois rien. C'est bien triste." (102.0103)
 
 %% GLO_ALEXANDRE.0052 %%
 ## Character Analysis
@@ -227,7 +227,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **082.1878-10-12**: "the prettiest horses and carriage in Paris"
 
 ### 1879
-- **084.0369-0261** (March 1): Marie drafts letter for Alexandre to send from Russia defending Babanine family honor
+- **084.0367-0261** (March 1): Marie drafts letter for Alexandre to send from Russia defending Babanine family honor
 
 ### 1880
 - **089.1880-07-23**: Soulima affair resolved; Alexandre and Etienne acquitted
@@ -239,14 +239,14 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **092.DROPPED-0233** (July 8): Alexandre manipulates Maman against Paul at Gavronzi
 
 ### 1882
-- **094.0259** (March 13): Alexandre holds Georges's inheritance; suspected of positioning to dispossess Dina
+- **094.0249** (March 13): Alexandre holds Georges's inheritance; suspected of positioning to dispossess Dina
 - **096.0426-0414** (October 23): Tcherniakovka visit; lavish hospitality; Alexandre has bought out brother Etienne's land share; "c'est une force"; punches servants during fire
 - **096.1882-10-05**: Soulima affair mentioned -- Georges and Alexandre slapped someone
 - **096.1882-10-29**: Alexandre at Paul's baby's baptism
 - **097.0035** (November 6): Lunch at Alexandre's in Poltava; all family "plus ou moins brouille"
 
 ### 1884
-- **102.0101-0102** (January 2): Death by stroke; Marie's complex tribute; his words about loving Nadine; three children left behind
+- **102.0100-0102** (January 2): Death by stroke; Marie's complex tribute; his words about loving Nadine; three children left behind
 
 %% GLO_ALEXANDRE.0057 %%
 ## Related People

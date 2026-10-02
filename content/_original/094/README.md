@@ -47,7 +47,7 @@ _Progress tracking initialized._
 ## Changelog
 
 ### 2026-02-10T12:00:00 @claude
-Moved entries 1882-04-27 and 1882-04-29 from carnet 095 to 094. Text found in Tome 14 (carnet 094's source), not Tome 15. Paragraph IDs renumbered as 094.0395-094.0408.
+Moved entries 1882-04-27 and 1882-04-29 from carnet 095 to 094. Text found in Tome 14 (carnet 094's source), not Tome 15. Paragraph IDs renumbered as 094.0385-094.0398.
 
 ### 2026-02-04T10:50:26 @kerray
 Initialized carnet README for progress tracking.

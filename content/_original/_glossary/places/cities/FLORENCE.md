@@ -118,11 +118,11 @@ Florence first appears as pure aspiration. The fourteen-year-old Marie writes: "
 After visiting, Florence becomes a standard of comparison:
 - Arriving in Paris (July 1876): "J'ai vu Vienne, Londres, Rome, Florence... et je n'ai jamais rien vu de semblable... a la place de la Concorde" (063.0052) -- even Florence cannot match Paris
 - Comparing Naples to Paris (1877): "s'il faut absolument tout comparer a Paris, je lui comparerai Florence riche, elegante, belle" -- Florence is the closest Italian equivalent to Parisian elegance
-- Considering a move (March 1879): "Si j'allais a Florence? Ce ne serait pas tant pour me marier que pour voir du monde, j'ai idee que nous serions bien a Florence" (084.0421)
+- Considering a move (March 1879): "Si j'allais a Florence? Ce ne serait pas tant pour me marier que pour voir du monde, j'ai idee que nous serions bien a Florence" (084.0419)
 
 ### "Ma famille de Florence" (1877-1882)
 
-Marie's ironic appropriation of the Larderei family as "ma famille" persists long after the obsession's peak. As late as April 1882, when her father reports meeting Larderei at Monaco -- now fallen, "tare," consorting with prostitutes -- Marie writes: "j'ai garde un faible pour ma famille de Florence" (094.0320). The phrase combines residual tenderness, social aspiration, and self-aware irony.
+Marie's ironic appropriation of the Larderei family as "ma famille" persists long after the obsession's peak. As late as April 1882, when her father reports meeting Larderei at Monaco -- now fallen, "tare," consorting with prostitutes -- Marie writes: "j'ai garde un faible pour ma famille de Florence" (094.0310). The phrase combines residual tenderness, social aspiration, and self-aware irony.
 
 ## People Associated with Florence in the Diary
 
@@ -170,7 +170,7 @@ Florence represents several overlapping meanings across the diary's twelve years
 
 Several diary references to "Florence" refer to people, not the city:
 - **[Florence Foster](../../people/mentioned/FLORENCE_FOSTER.md)**: Acquaintance from Ostende (carnet 024)
-- **[Florence Lacon](../../people/mentioned/FLORENCE_LACON.md)**: Friend who introduces Marie to M. de Lesseps (carnets 082, 085); "Florence s'ennuyait et voulait partir" (085.0598) refers to this person
+- **[Florence Lacon](../../people/mentioned/FLORENCE_LACON.md)**: Friend who introduces Marie to M. de Lesseps (carnets 082, 085); "Florence s'ennuyait et voulait partir" (085.0597) refers to this person
 - **Florence Graham**: Fellow art student at the atelier (carnet 087)
 
 ## Related Entries
