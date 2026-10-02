@@ -382,8 +382,11 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
           </div>
         )}
 
-        {/* Calendar — collapsed under its heading by default (native details, no JS) */}
+        {/* Calendar — native <details>, SSR'd closed (width-neutral). The inline script right after it opens it
+            at >=768px (the md breakpoint) before first paint: no flash on desktop, closed on mobile.
+            Keep the query in sync with src/lib/calendar-default.ts. */}
         {!isSectionCarnet && calendarMonths.length > 0 && (
+          <>
           <details class="carnet-calendar summary-card p-4 rounded-lg sm:col-span-2 xl:col-span-3 self-start">
             <summary class="carnet-calendar-summary">
               <h2 class="lit-label" data-t="diary.calendar">
@@ -408,6 +411,13 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
               ))}
             </div>
           </details>
+          <script is:inline>
+            (function () {
+              var d = document.currentScript && document.currentScript.previousElementSibling;
+              if (d && d.tagName === 'DETAILS' && window.matchMedia && window.matchMedia('(min-width: 768px)').matches) d.open = true;
+            })();
+          </script>
+          </>
         )}
       </div>
     </section>

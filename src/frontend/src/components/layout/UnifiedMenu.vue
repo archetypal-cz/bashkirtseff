@@ -5,6 +5,7 @@ import { useFilterStore } from '../../stores/filter';
 import { useDialog } from '../../composables/useDialog';
 import { useHistoryStore } from '../../stores/history';
 import { trackEvent } from '../../lib/analytics';
+import { calendarDefaultOpen } from '../../lib/calendar-default';
 import CalendarWidget from '../CalendarWidget.vue';
 import UserMenu from '../auth/UserMenu.vue';
 import type { FilterCategory, FilterTag } from '../../types/filter-index';
@@ -33,6 +34,17 @@ const panelRef = ref<HTMLElement | null>(null);
 
 // --- Accordion sections ---
 const expandedSections = ref<Set<string>>(new Set());
+
+// Calendar inside the contents section: collapsed by default on mobile, open
+// on desktop/tablet. The panel is client-only (never server-rendered), so
+// reading the viewport here cannot cause a hydration mismatch. An explicit
+// toggle wins over the width-based default.
+const calendarUserChoice = ref<boolean | null>(null);
+const calendarDefault = ref(true);
+const calendarOpen = computed(() => calendarUserChoice.value ?? calendarDefault.value);
+function toggleCalendar() {
+  calendarUserChoice.value = !calendarOpen.value;
+}
 
 function toggleSection(section: string) {
   if (expandedSections.value.has(section)) {
@@ -303,6 +315,8 @@ function togglePanel() {
   isOpen.value = !isOpen.value;
   if (isOpen.value) {
     filterStore.loadIndex();
+    // Re-read the width-based calendar default on each open (client-only path)
+    if (calendarUserChoice.value === null) calendarDefault.value = calendarDefaultOpen();
     // Auto-expand nav section on narrow screens (where desktop nav is hidden)
     if (window.innerWidth < 768) {
       expandedSections.value.add('nav');
@@ -361,6 +375,7 @@ onMounted(() => {
     sidebarData.value = win.__sidebarData;
     // Auto-expand contents section when sidebar data is available
     expandedSections.value.add('contents');
+    calendarDefault.value = calendarDefaultOpen();
   }
 
   // Init filter store
@@ -639,7 +654,21 @@ onUnmounted(() => {
                 </button>
                 <div v-if="expandedSections.has('contents')" id="um-body-contents" class="um-section-body contents-body">
                   <!-- Calendar -->
-                  <div v-if="calendarMonths.length > 0" class="contents-calendar">
+                  <button
+                    v-if="calendarMonths.length > 0"
+                    type="button"
+                    class="contents-calendar-toggle"
+                    :aria-expanded="calendarOpen"
+                    :aria-controls="calendarOpen ? 'um-contents-calendar' : undefined"
+                    @click="toggleCalendar"
+                  >
+                    <span>{{ t('sidebar.calendar') }}</span>
+                    <svg class="um-chevron" :class="{ expanded: calendarOpen }"
+                      width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <polyline points="9 18 15 12 9 6" />
+                    </svg>
+                  </button>
+                  <div v-if="calendarMonths.length > 0 && calendarOpen" id="um-contents-calendar" class="contents-calendar">
                     <CalendarWidget
                       v-for="cm in calendarMonths"
                       :key="`${cm.year}-${cm.month}`"
@@ -1355,6 +1384,26 @@ onUnmounted(() => {
 /* ═══ Contents section ═══ */
 .contents-body {
   padding: 0 !important;
+}
+
+.contents-calendar-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  border-bottom: 1px solid var(--border-color, rgba(44, 24, 16, 0.1));
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.contents-calendar-toggle:hover {
+  color: var(--accent);
 }
 
 .contents-calendar {
