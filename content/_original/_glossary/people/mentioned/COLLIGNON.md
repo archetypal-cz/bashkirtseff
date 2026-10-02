@@ -151,7 +151,7 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 061.0040 %% (May 23, 1876): Marie begins painting her portrait
 - %% 062.0292 %% (Jun 7, 1876): Detailed physical description during portrait sessions
 - %% 062.0329 %% (Jun 12, 1876): Finishing the portrait — ninth session, the hair
-- %% 068.0229 %% (Dec 19, 1876): Marie discusses Rome plans with Collignon
+- %% 068.0364 %% (Dec 19, 1876): Marie discusses Rome plans with Collignon
 - %% 082.0205 %% (Sep 25, 1878): Letter from "cette pauvre Collignon" — Marie promises to take her in
 - %% 085.0078 %% (May 16, 1879): Collignon's father dies
 - %% 085.0091 %% (May 18, 1879): Marie visits Collignon's family — shocked by their poverty

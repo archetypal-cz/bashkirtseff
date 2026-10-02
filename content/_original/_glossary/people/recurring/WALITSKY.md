@@ -132,8 +132,8 @@ Walitsky was far more than a physician. He was a constant presence in family lif
 
 %% GLO_WALITSKY.0019 %%
 ### Confidant and Go-Between
-- Relayed confidences: told Maman about Antonelli's nocturnal activities -- "il passait toutes ses nuites avec des filles! En sortant de chez moi!!!" (%% 067.1018 %%)
-- Participated in family councils about finances: "Walitsky et ma tante ont passe la soiree a me persuader que mes calculs ne servaient a rien" (%% 067.1058 %%)
+- Relayed confidences: told Maman about Antonelli's nocturnal activities -- "il passait toutes ses nuites avec des filles! En sortant de chez moi!!!" (%% 067.1032 %%)
+- Participated in family councils about finances: "Walitsky et ma tante ont passe la soiree a me persuader que mes calculs ne servaient a rien" (%% 067.1072 %%)
 - Observed Marie's romantic reactions: "Walitsky a dit: C'est Moussia et Dina" regarding a mysterious bouquet sender (%% 018.0083 %%)
 
 %% GLO_WALITSKY.0020 %%
@@ -375,7 +375,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 %% GLO_WALITSKY.0054 %%
 ### Books 66-67 (Ukraine 1876)
 - %% 066.0629 %% (Oct 4, 1876): Poisoning accusation -- "Walitsky a empoisonne M. Romanoff"
-- %% 067.1018 %% (Nov 21): Relays Antonelli's scandalous behavior to Maman
+- %% 067.1032 %% (Nov 21): Relays Antonelli's scandalous behavior to Maman
 
 %% GLO_WALITSKY.0055 %%
 ### Books 71-73 (Nice, Paris 1877)

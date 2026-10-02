@@ -124,7 +124,7 @@ The following catalogue documents every distinct Latin phrase found in Marie's d
 | *Gloriae Cupiditas / Cupiditate* | Desire for Glory | Carnet 053 (Jan 1876) | Marie's personal motto; inscribed on nearly every carnet |
 | *Audacer et amanter* | Boldly and lovingly | Carnet 053 (Jan 1876, retrospective) | Marie's earlier motto, replaced by *Gloriae Cupiditas* |
 | *Volo omnia* | I want everything | Raw carnet 06 | Combined with *gloriae cupiditate*; captures her maximalism |
-| *Dubium, illusio, deceptio, oppressio* | Doubt, illusion, deception (disappointment), oppression | Carnet 068 (5 Jan 1877, 068.0279) | "Voilà ma vie exprimée en langue distinguée"; repeated on 10 Jan 1877. The printed edition (Mon Journal t.9 p.225) also sets it on the title page of Livre 68, under *Gloriae Cupiditate*; that page is withdrawn from the site until the manuscript can be checked (KRR 2026-09-28) |
+| *Dubium, illusio, deceptio, oppressio* | Doubt, illusion, deception (disappointment), oppression | Carnet 068 (5 Jan 1877, 068.0414) | "Voilà ma vie exprimée en langue distinguée"; repeated on 10 Jan 1877. The printed edition (Mon Journal t.9 p.225) also sets it on the title page of Livre 68, under *Gloriae Cupiditate*; that page is withdrawn from the site until the manuscript can be checked (KRR 2026-09-28) |
 
 %% GLO_LATIN.0016 %%
 ### Classical Quotations and Maxims

@@ -18,10 +18,10 @@ last_updated: 2026-09-27
 # Belle-de-jour (George Bergerault)
 
 ## Overview
-«Belle-de-jour» (morning glory, the flower that closes at night) is Marie's nickname for George Bergerault, a young man of Nice and an associate of Emile d'Audiffret (Kernberger 2013, glossary: "Belle-de-jour: nickname for George Bergerault, associate of Audiffret"; "Bergerault, George: acquaintance in Nice"). On 16 January 1877 General Bihovetz gives him a second nickname, «l'inspecteur des chiens» (the dog-catcher), which Marie adopts (Kernberger 2013; 068.0412, 068.0521).
+«Belle-de-jour» (morning glory, the flower that closes at night) is Marie's nickname for George Bergerault, a young man of Nice and an associate of Emile d'Audiffret (Kernberger 2013, glossary: "Belle-de-jour: nickname for George Bergerault, associate of Audiffret"; "Bergerault, George: acquaintance in Nice"). On 16 January 1877 General Bihovetz gives him a second nickname, «l'inspecteur des chiens» (the dog-catcher), which Marie adopts (Kernberger 2013; 068.0753, 068.0863).
 
 ## Relevance to Marie
-Part of the Audiffret set at the Nice Skating-rink and opera in 1876-1877. Marie snubs him repeatedly because he avoided greeting her in public; on 5 February 1877 she corrects the nickname to the masculine «Bel-de-jour» and turns her back on him when he finally greets her (068.0631). She names him «Bergerault» alongside Audiffret on 18 December 1876 (068.0082).
+Part of the Audiffret set at the Nice Skating-rink and opera in 1876-1877. Marie snubs him repeatedly because he avoided greeting her in public; on 5 February 1877 she corrects the nickname to the masculine «Bel-de-jour» and turns her back on him when he finally greets her (068.0975). She names him «Bergerault» alongside Audiffret on 18 December 1876 (068.0180).
 
 ## References in Diary
 - 067 (December 1876), 068: 1876-12-15, 1876-12-16, 1876-12-18, 1877-01-20, 1877-01-28, 1877-02-05

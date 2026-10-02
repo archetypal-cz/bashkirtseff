@@ -11,4 +11,4 @@ last_updated: 2026-09-27
 ---
 # Mme Tutcheff
 
-Sophie Grigorievna Tutcheff, née Bashkirtseff, Marie's **paternal** aunt: Marie calls her «la sœur de mon père» (068.0116). Kernberger (2013, glossary) calls her Marie's maternal aunt; this glossary follows Marie. Full entry: [Sophie Tutcheff](SOPHIE.md).
+Sophie Grigorievna Tutcheff, née Bashkirtseff, Marie's **paternal** aunt: Marie calls her «la sœur de mon père» (068.0214). Kernberger (2013, glossary) calls her Marie's maternal aunt; this glossary follows Marie. Full entry: [Sophie Tutcheff](SOPHIE.md).

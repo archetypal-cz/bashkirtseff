@@ -19,10 +19,10 @@ Michel Gautier, called «Michka», is the brother of Albert Gautier («Pepino»)
 Not to be confused with Prince Michel Eristoff, Marie's step-cousin, who is also nicknamed «Michka» elsewhere in the diary (see [MICHKA_ERISTOFF](MICHKA_ERISTOFF.md)).
 
 ## Relevance to Marie
-In December 1876 Marie adds him, crosswise, to her list of the men who could make her «parfaitement amoureuse» on the surface: «Michel Gauthier qui a le même cachet pour les femmes que les cocottes pour les hommes» (068.0059). She says the nickname Michka came from a Hungarian lady (068.0481). On 5 February 1877 he visits the family with his brother and Galula, and Marie declares herself «paresseusement et fantastiquement éprise (?)» of him after glimpsing his powdered nose in his sister's opera box (068.0634). She also recalls that she, Dina, Michka and Pepino served the wounded at Nice station during the war of 1870-71 (068.0636).
+In December 1876 Marie adds him, crosswise, to her list of the men who could make her «parfaitement amoureuse» on the surface: «Michel Gauthier qui a le même cachet pour les femmes que les cocottes pour les hommes» (068.0111). She says the nickname Michka came from a Hungarian lady (068.0823). On 5 February 1877 he visits the family with his brother and Galula, and Marie declares herself «paresseusement et fantastiquement éprise (?)» of him after glimpsing his powdered nose in his sister's opera box (068.0978). She also recalls that she, Dina, Michka and Pepino served the wounded at Nice station during the war of 1870-71 (068.0980).
 
 ## References in Diary
-- First mentioned (this entry): 1876-12-15 (068.0055, 068.0059)
+- First mentioned (this entry): 1876-12-15 (068.0107, 068.0111)
 - Key entries: 1877-01-21, 1877-01-25, 1877-02-05
 
 ## Related
