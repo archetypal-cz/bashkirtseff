@@ -1393,15 +1393,15 @@ They need AI translation into French.
 - **081/1878-07-21.md** para 081.0449 [ITALIAN]: %% 2026-02-03T10:25:00 LAN: ITALIAN allusion: "Multedo" plays on Italian troubadour tradition %%
 - **081/1878-07-22.md** para 081.0458 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "Paese che vuoi, essi che trovi" - When in Rome, do as the Romans do %%
 - **081/1878-07-23.md** para 081.0459 [LATIN]: %% 2026-02-03T10:30:00 LAN: LATIN: "in extenso" - in full/completely (legal/scholarly term) %%
-- **081/1878-08-03.md** para 081.0537 [ENGLISH]: %% 2026-02-03T11:15:00 LAN: "groom" - ENGLISH: young male servant %%
+- **081/1878-08-03.md** para 081.0542 [ENGLISH]: %% 2026-02-03T11:15:00 LAN: "groom" - ENGLISH: young male servant %%
 - **081/1878-08-08.md** para withdrawn in the 2026-09 rebuild (old carnet 081 ¶0499; see content/_renumber/081-2026-09-29.json) [LATIN]: %% 2026-02-03T11:40:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory (Marie's title for Book 82) %%
 - **082/1878-08-17.md** para withdrawn in the 2026-09 rebuild (old carnet 082 ¶0100; see content/_renumber/082-2026-09-29.json) [LATIN]: %% 2026-02-02T14:00:00 LAN: LATIN: "Gloriae Cupiditas" - Desire for Glory, Latin epigraph for new volume %%
 - **082/1878-08-18.md** para 082.0140 [ENGLISH]: %% 2026-02-02T14:00:00 LAN: ENGLISH: "home" - Marie uses English word, suggesting foreignness of concept %%
 - **082/1878-08-31.md** para 082.0219 [ENGLISH]: %% 2026-02-03T10:00:00 LAN: "kitchen" - ENGLISH: Marie uses English word for servants' quarters %%
 - **082/1878-09-02.md** para 082.0261 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "dessiatines" - RUSSIAN: desyatina, Russian land measure (~2.7 acres) %%
 - **082/1878-09-21.md** para 082.0421 [LATIN]: %% 2026-02-03T10:00:00 LAN: "pullaire" - LATIN: pullarius, Roman augur who reads omens from chickens %%
-- **082/1878-10-04.md** para 082.0494 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "Moussia" - RUSSIAN: diminutive nickname for Marie %%
-- **082/1878-10-04.md** para 082.0498 [ITALIAN]: %% 2026-02-03T10:00:00 LAN: ITALIAN: Rossi performs in Italian, showing Marie's comprehension %%
+- **082/1878-10-04.md** para 082.0508 [RUSSIAN]: %% 2026-02-03T10:00:00 LAN: "Moussia" - RUSSIAN: diminutive nickname for Marie %%
+- **082/1878-10-04.md** para 082.0512 [ITALIAN]: %% 2026-02-03T10:00:00 LAN: ITALIAN: Rossi performs in Italian, showing Marie's comprehension %%
 - **083/1878-10-17.md** para withdrawn in the 2026-09 rebuild (old carnet 083 ¶0002; see content/_renumber/083-2026-09-29.json) [LATIN]: %% 2026-02-02T13:00:00 LAN: LATIN: "Gloriae Cupiditas" - Latin phrase meaning "Desire for Glory" - Marie's epigraph for this volume reflecting her artistic ambitions %%
 - **083/1878-10-25.md** para 083.0029 [RUSSIAN]: %% 2026-02-02T13:00:00 LAN: "Moussia" - RUSSIAN: Marie's family nickname/diminutive %%
 - **083/1879-01-05.md** para 083.0547 [ITALIAN]: %% 2026-02-02T13:00:00 LAN: ITALIAN: "la luce della vita" - the light of life; gospel divination result %%
