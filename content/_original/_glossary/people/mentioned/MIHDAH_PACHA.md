@@ -3,25 +3,18 @@ id: MIHDAH_PACHA
 name: Mihdah Pacha
 aliases:
   - Mihdah Pacha
-  - Pacha
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
 ---
 # Mihdah Pacha
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_MIHDAH_PACHA.0001 %%
+## Mihdah Pacha (Midhat Pasha)
 
-## Description
-[No description available - stub entry created from diary references]
+%% GLO_MIHDAH_PACHA.0002 %%
+Marie's "Mihdah Pacha" is the Ottoman statesman Midhat Pasha (1822-1884), former grand vizier and author of the 1876 constitution, in the news in 1877. She notes him at the theatre in Rome on 1877-03-20 (069, "Mihdah Pacha. Bikowsky avec ses cousines s'asseyent près de nous"). Dates: standard reference data, not from the diary.
 
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_MIHDAH_PACHA.0003 %%
+%% 2026-10-02T13:00:00 RSR: NOT the Pacha of the Gorpintchenko circle: for Marie's Russian admirer see [#Pacha](PACHA.md). "Pacha" here is the Turkish title (translated as "pasha"), part of a foreign name. %%
