@@ -2,23 +2,52 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 import { useI18n } from '../../i18n';
 import { trackEvent } from '../../lib/analytics';
+import {
+  DISMISSED_KEY,
+  INSTALLED_KEY,
+  hasInstalledRelatedApp,
+  isRunningInstalled,
+  readFlag,
+  shouldShowInstallPrompt,
+  writeFlag,
+} from '../../lib/install-prompt';
 
 const { t } = useI18n();
 
 const showPrompt = ref(false);
 const deferredPrompt = ref<any>(null);
 
-function handleBeforeInstallPrompt(e: Event) {
+function storage(): Storage | undefined {
+  try {
+    return window.localStorage;
+  } catch {
+    return undefined;
+  }
+}
+
+async function handleBeforeInstallPrompt(e: Event) {
   // Prevent the mini-infobar from appearing on mobile
   e.preventDefault();
   // Store the event so it can be triggered later
   deferredPrompt.value = e;
-  // Check if user has dismissed before
-  const dismissed = localStorage.getItem('pwa-install-dismissed');
-  if (!dismissed) {
+
+  const show = shouldShowInstallPrompt({
+    hasDeferredPrompt: true,
+    runningInstalled: isRunningInstalled(window),
+    rememberedInstalled: readFlag(storage(), INSTALLED_KEY),
+    dismissed: readFlag(storage(), DISMISSED_KEY),
+    relatedAppInstalled: await hasInstalledRelatedApp(navigator as any),
+  });
+  if (show && deferredPrompt.value) {
     showPrompt.value = true;
     trackEvent('pwa_install_shown');
   }
+}
+
+function handleAppInstalled() {
+  writeFlag(storage(), INSTALLED_KEY);
+  showPrompt.value = false;
+  deferredPrompt.value = null;
 }
 
 async function installApp() {
@@ -33,6 +62,8 @@ async function installApp() {
   if (outcome === 'accepted') {
     trackEvent('pwa_install_accepted');
     showPrompt.value = false;
+    // appinstalled normally follows; remember it now in case it doesn't.
+    writeFlag(storage(), INSTALLED_KEY);
   } else {
     trackEvent('pwa_install_dismissed');
   }
@@ -44,21 +75,20 @@ async function installApp() {
 function dismissPrompt() {
   trackEvent('pwa_install_dismissed');
   showPrompt.value = false;
-  localStorage.setItem('pwa-install-dismissed', 'true');
+  writeFlag(storage(), DISMISSED_KEY);
 }
 
 onMounted(() => {
+  // Already the installed app (or known to be installed in this browser):
+  // nothing to offer, so don't even listen.
+  if (isRunningInstalled(window) || readFlag(storage(), INSTALLED_KEY)) return;
   window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-
-  // Also handle if app gets installed
-  window.addEventListener('appinstalled', () => {
-    showPrompt.value = false;
-    deferredPrompt.value = null;
-  });
+  window.addEventListener('appinstalled', handleAppInstalled);
 });
 
 onUnmounted(() => {
   window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+  window.removeEventListener('appinstalled', handleAppInstalled);
 });
 </script>
 

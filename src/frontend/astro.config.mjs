@@ -176,6 +176,11 @@ export default defineConfig({
         display: 'standalone',
         orientation: 'portrait-primary',
         start_url: '/?source=pwa',
+        // Lets navigator.getInstalledRelatedApps() (Chromium) see that this
+        // web app is already installed, so InstallPrompt.vue stays hidden.
+        related_applications: [
+          { platform: 'webapp', url: 'https://bashkirtseff.org/manifest.webmanifest' },
+        ],
         icons: [
           { src: 'favicon.svg', sizes: 'any', type: 'image/svg+xml' },
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
