@@ -62,3 +62,17 @@ Run only after all three drivers had committed these carnets (first attempt abor
 - Dropped 091.0478 («rent !!»: page-break remnant, the word is complete in 0477).
 - New entry 1881-07-03 (`post092.py`): heading «Dimanche 3 juillet 1881» and «[…] et priez Dieu. J'ai deux projets. D'abord je veux guérir par miracle, je veux» exactly as the volume's ERRATA gives them (t.14 errata page, «p. 153-154»; tome14.docx ¶4329–4330), joined to «prier Dieu et avant de partir…» (old start of 092.0162, p.154). The text before «et priez Dieu» exists nowhere: marked «[…]», not reconstructed. 092.0162–0166 moved from 1881-07-02 to the new entry.
 - Not done: 086.0303 «[MOITIE DE PAGE BLANCHE]» stays — the scan prints the label on its own line (t.13 p.101; likewise pp.27–28), so it is not a duplicate.
+
+## Batch 6: margin note and print-paragraph splits, 062/081/082 (2026-10-02)
+
+Plans and the post-step in `b6/`. Each split was checked on the scan; the translations were distributed over the new IDs unchanged by `b6/postsplit.py`, which checks the line counts and the split anchors, and flags were restored. Each split head has an ED note asking for a check of the split points.
+
+| Carnet | Change | Evidence |
+|---|---|---|
+| 062 | new margin paragraph 062.0833 after 062.0832: Marie's own footnote «Dans Syrus il y a *dolor*, j'ai dit *amor*…» (kind margin); translations TODO | Mon Journal t.8 p.243, foot of page (scan); absent from tome08.docx |
+| 081 | 081.0488 → 0488 (margin «[En travers : …]»), 0489 «Pensez donc…», 0490 «Soden me ferait-il…», 0491 «Nous nous rencontrons…» | t.12 pp.61–62 (scan), tome12.docx ¶723–726 |
+| 081 | old 0502 → two paragraphs («Songez-donc…» / «Ce soir je me suis posée…») | t.12 p.63 (scan), ¶743–744 |
+| 081 | old 0515 → two paragraphs («On en parle encore…» / «[Rayé: …] on a demandé…») | t.12 p.65 (scan), ¶756–757 |
+| 082 | Collignon's letter 082.0444 → 15 letter paragraphs 0444–0458; docx ¶1388/1389 joined (the page turn after «en peinture,», continuation flush left on p.126) | t.12 pp.125–126 (scan), ¶1381–1396 |
+
+Corpus-wide, about 870 more paragraphs hold several text lines. Those are not handled here: whether to split them is a decision for the lead or the owner.

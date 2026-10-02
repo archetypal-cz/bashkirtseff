@@ -70,7 +70,7 @@ The last winter is a running fight over models — she reckons she has used twen
 ## References in Diary
 
 %% GLO_DOULEUR_DE_NAUSICAA.0014 %%
-The long prehistory, before this particular figure: 1878-05-18 (080.0158), 1878-05-27 (080.0304, 080.0306) and 1878-10-12 (082.0577) — the wish to sculpt, and Julian's plan to interest Paul Dubois in her; 1878-10-26 (083.0042, 083.0046, 083.0049) and 1878-10-30 (083.0079) — Robert-Fleury's coaching; 1879-01-06 (083.0555) — the statue as the reason not to die; 1879-03-08 (084.0431) — a first attempt at modelling; 1879-08-10 (086.0035–0038) — sculpture as the road to glory; 1879-10-21 (086.0403) — no room at home for it; **1879-12-01 (086.0606)** — «C'est d'aujourd'hui que je commence la sculpture».
+The long prehistory, before this particular figure: 1878-05-18 (080.0158), 1878-05-27 (080.0304, 080.0306) and 1878-10-12 (082.0591) — the wish to sculpt, and Julian's plan to interest Paul Dubois in her; 1878-10-26 (083.0042, 083.0046, 083.0049) and 1878-10-30 (083.0079) — Robert-Fleury's coaching; 1879-01-06 (083.0555) — the statue as the reason not to die; 1879-03-08 (084.0431) — a first attempt at modelling; 1879-08-10 (086.0035–0038) — sculpture as the road to glory; 1879-10-21 (086.0403) — no room at home for it; **1879-12-01 (086.0606)** — «C'est d'aujourd'hui que je commence la sculpture».
 
 %% GLO_DOULEUR_DE_NAUSICAA.0015 %%
 The work itself:

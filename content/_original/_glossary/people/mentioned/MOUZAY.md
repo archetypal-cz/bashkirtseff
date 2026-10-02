@@ -73,7 +73,7 @@ Marie's ambivalence about the salon is razor-sharp: "Loin de dire que la soiree 
 In April 1880, Mouzay wrote Marie a crucial letter warning about her chronic laryngitis. Her nephew, a medical student described as "un diagnoste," warned that untreated laryngitis could lead to deafness: "gare la surdite." Marie transcribes the letter's impact: "Cette phrase me tombe sur la tete comme une douche glacee" (088.0006, 1880-04-24). This is one of the earliest explicit medical warnings about what was in fact early tuberculosis.
 
 ### The Maternal Letter (1878-10-04)
-Mouzay's signed letter (carnet 082) is the most sustained outside analysis of Marie's personality in the diary. Key passage: "a cinquante ans l'originalite est une fleur qu'on met dans ses cheveux blancs, mais dans des cheveux blonds c'est un chardon que les anes seuls veuillent bien manger!" She counsels Marie that society's code for women reduces to "la bonte et le charme -- voila les deux seules forces de la femme." The letter reveals genuine affection: "j'adore votre nature, j'abomine vos travers, je sens que mon coeur me ferait vous arracher des flammes a traverser l'Europe pour aller a votre secours, et dans certains moments je vous jetterais par la fenetre!" Signed "*F. de Mouzay*" (082.0494--0441).
+Mouzay's signed letter (carnet 082) is the most sustained outside analysis of Marie's personality in the diary. Key passage: "a cinquante ans l'originalite est une fleur qu'on met dans ses cheveux blancs, mais dans des cheveux blonds c'est un chardon que les anes seuls veuillent bien manger!" She counsels Marie that society's code for women reduces to "la bonte et le charme -- voila les deux seules forces de la femme." The letter reveals genuine affection: "j'adore votre nature, j'abomine vos travers, je sens que mon coeur me ferait vous arracher des flammes a traverser l'Europe pour aller a votre secours, et dans certains moments je vous jetterais par la fenetre!" Signed "*F. de Mouzay*" (082.0508--0441).
 
 ## Marie's Characterizations
 
@@ -193,7 +193,7 @@ The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans
 - **September 15** (082): Mouzay at dinner; Cassagnac's inexplicable marriage discussed
 - **September 16** (082): Marie takes Mouzay to see Prefect of Police Gigot
 - **October 3** (082): Mouzay's letter called "curieuse et presque precieuse"
-- **October 4** (082.0494--0441): **The signed letter -- "F. de Mouzay"**; sustained analysis of Marie's character
+- **October 4** (082.0508--0441): **The signed letter -- "F. de Mouzay"**; sustained analysis of Marie's character
 - **October 25** (083): Mouzay's dream about Cassagnac as corset salesman
 - **November 18** (083): Marie visits Mouzay to show article and chat with daughter
 
@@ -257,7 +257,7 @@ The diary reveals (086.0476, 1879-11-05) that Mouzay had served as "lingere dans
 
 ## Research Notes
 
-- First initial "F." confirmed from signed letter (082.0496)
+- First initial "F." confirmed from signed letter (082.0510)
 - Historical identification of the specific Mouzay family remains uncertain; the title "comtesse" may derive from marriage rather than birth, given her domestic service background
 - The address 29 Boulevard Haussmann in summer 1876 was temporary lodging with Baronne de Mertens; the 420 rue Saint-Honore address appears more permanent
 - The "Moussah" connection (100.0302) suggests Cassagnac knew Marie's pet name via Mouzay's circle, and used it in published fiction -- a remarkable breach of social discretion
