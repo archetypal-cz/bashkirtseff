@@ -64,7 +64,7 @@ Marie grasped this political complexity with remarkable sophistication. On her d
 The [French Academy in Rome](https://en.wikipedia.org/wiki/French_Academy_in_Rome), housed at the [Villa Medici](https://en.wikipedia.org/wiki/Villa_Medici) since 1803, made Rome a pilgrimage destination for artists. Winners of the [Prix de Rome](https://en.wikipedia.org/wiki/Prix_de_Rome) spent years studying and copying masterpieces of antiquity and the Renaissance. Notable 19th-century winners included Ingres, Berlioz, Bizet, and Debussy. Marie, who would later study at the Academie Julian in Paris, did not attend the Villa Medici but was deeply affected by Rome's artistic legacy. In 1878, an engraving of Ingres on the terrace of the Trinita dei Monti, with St. Peter's cupola on the horizon, "m'a fait litteralement dresser les cheveux sur la tete" (083, Dec 4, 1878).
 
 %% GLO_ROME.0010 %%
-Rome also attracted a broad international community of artists, including Russian painters like Mikhail Botkine, who became Marie's first contact in Rome's artistic circle and introduced her to teachers (051.0350, Jan 4). The Polish-Ukrainian painter Pavel Katorbinsky gave Marie painting lessons during her stay, and she painted ciociara (peasant women from the Ciociaria region south of Rome) as models (054.0558, Feb 14).
+Rome also attracted a broad international community of artists, including Russian painters like Mikhail Botkine, who became Marie's first contact in Rome's artistic circle and introduced her to teachers (051.0350, Jan 4). The Polish-Ukrainian painter Pavel Katorbinsky gave Marie painting lessons during her stay, and she painted ciociara (peasant women from the Ciociaria region south of Rome) as models (054.0559, Feb 14).
 
 %% GLO_ROME.0011 %%
 ## Marie's Experience in Rome (1876)
@@ -90,16 +90,16 @@ And yet: "Rome ne me fait pas l'effet de Rome. Est-ce bien Rome?" (051.0379, Jan
 Marie's encounter with Rome's art was characteristically independent and bold. She visited churches, palaces, museums, and galleries with passionate intensity and irreverent honesty:
 
 %% GLO_ROME.0016 %%
-**The Vatican and Sistine Chapel** (053.0343-0346, Feb 3): Marie rushed through the Raphael Rooms and Loggia, finding them disappointing: "les loges de Raphael qui m'ont desappointee." At the [Sistine Chapel](https://en.wikipedia.org/wiki/Sistine_Chapel): "nous faisons tant de tapage que le custode vient crier *silenzio!*" She looked through a keyhole and recoiled when an eye appeared on the other side. On Michelangelo's Last Judgment: "tous ses hommes etaient de la meme couleur, ce qui n'est pas naturel." On Raphael: "ce coquin de Raphael peignait fort peu lui-meme. Il dessinait, mais ce n'est pas assez."
+**The Vatican and Sistine Chapel** (053.0364-0346, Feb 3): Marie rushed through the Raphael Rooms and Loggia, finding them disappointing: "les loges de Raphael qui m'ont desappointee." At the [Sistine Chapel](https://en.wikipedia.org/wiki/Sistine_Chapel): "nous faisons tant de tapage que le custode vient crier *silenzio!*" She looked through a keyhole and recoiled when an eye appeared on the other side. On Michelangelo's Last Judgment: "tous ses hommes etaient de la meme couleur, ce qui n'est pas naturel." On Raphael: "ce coquin de Raphael peignait fort peu lui-meme. Il dessinait, mais ce n'est pas assez."
 
 %% GLO_ROME.0017 %%
-**The Colosseum** (051.0355, Jan 4; 053.0315, Feb 8): Marie saw the [Colosseum](https://en.wikipedia.org/wiki/Colosseum) on her first day and returned repeatedly: "Je vois chaque jour le Colisee et je n'en ai jamais assez" (052.0391, Jan 21). On a detailed visit she climbed to the top: "J'etouffais, mais pas de fatigue, mais d'admiration pour cette grandeur dechue." She quoted Byron's *Childe Harold's Pilgrimage* on the Colosseum (051.0386, Jan 5).
+**The Colosseum** (051.0355, Jan 4; 053.0336, Feb 8): Marie saw the [Colosseum](https://en.wikipedia.org/wiki/Colosseum) on her first day and returned repeatedly: "Je vois chaque jour le Colisee et je n'en ai jamais assez" (052.0391, Jan 21). On a detailed visit she climbed to the top: "J'etouffais, mais pas de fatigue, mais d'admiration pour cette grandeur dechue." She quoted Byron's *Childe Harold's Pilgrimage* on the Colosseum (051.0386, Jan 5).
 
 %% GLO_ROME.0018 %%
-**St. Peter's Basilica** (051.0376, Jan 5; 053.0312, Jan 30): Marie was overwhelmed by St. Peter's facade on first sight: "C'est superbe, elle m'a ravi le coeur, surtout la colonnade gauche, parce qu'aucune maison ne la depasse et ses colonnes avec le ciel pour fond, produisent l'effet le plus saisissant. On se croirait dans la vieille Grece." Dina's paradox captured the scale: "Saint-Pierre c'est si grand que ca parait petit."
+**St. Peter's Basilica** (051.0376, Jan 5; 053.0333, Jan 30): Marie was overwhelmed by St. Peter's facade on first sight: "C'est superbe, elle m'a ravi le coeur, surtout la colonnade gauche, parce qu'aucune maison ne la depasse et ses colonnes avec le ciel pour fond, produisent l'effet le plus saisissant. On se croirait dans la vieille Grece." Dina's paradox captured the scale: "Saint-Pierre c'est si grand que ca parait petit."
 
 %% GLO_ROME.0019 %%
-**The Doria Palace Gallery** (053.0316, Feb 4): Marie was enchanted by the Titian paintings: "un portrait de Diego Velasquez est admirable de naturel. Une Madeleine du Titien, mon peintre favori."
+**The Doria Palace Gallery** (053.0337, Feb 4): Marie was enchanted by the Titian paintings: "un portrait de Diego Velasquez est admirable de naturel. Une Madeleine du Titien, mon peintre favori."
 
 %% GLO_ROME.0020 %%
 **Ancient ruins** (052.0343, Jan 12): She explored obsessively: "le temple de Vesta, il battistero di Costantino avec ces merveilleuses mosaiques du 5eme siecle, ces colonnes de porphyre prises au palais des Cesars; puis la fontaine Paulien... le Colisee encore, puis un tas de ruines differentes." After these visits: "si nous regardons comme une magnificence un vil morceau de maison, que dirions-nous donc si on nous montrait Rome au temps de sa grandeur!"
@@ -115,19 +115,19 @@ Marie had an audience with [Pope Pius IX](https://en.wikipedia.org/wiki/Pope_Piu
 The [Roman Carnival](https://en.wikipedia.org/wiki/Roman_Carnival) was one of Europe's most famous festivals, though by the 1870s it was in decline. The traditional horse race of the *barberi* (riderless Barbary horses) down the [Via del Corso](https://en.wikipedia.org/wiki/Via_del_Corso) had been partially curtailed after King Victor Emmanuel II banned certain events in 1874 following fatal accidents. Marie's Carnival spanned February 19-29, 1876 (carnet 054), and is one of the diary's most vivid sequences.
 
 %% GLO_ROME.0023 %%
-**First day of Carnival** (054.0299, Feb 19): Marie watched from a balcony on the Corso: "C'est le premier jour du carnaval. Le Corso est peu anime. Nous recevons une quantite de bouquets. J'ai vu pour la premiere fois cette fameuse course des Barberi. C'est tres beau et original."
+**First day of Carnival** (054.0300, Feb 19): Marie watched from a balcony on the Corso: "C'est le premier jour du carnaval. Le Corso est peu anime. Nous recevons une quantite de bouquets. J'ai vu pour la premiere fois cette fameuse course des Barberi. C'est tres beau et original."
 
 %% GLO_ROME.0024 %%
-**The masked ball at the Capitoline** (054.0208-0283, Feb 18): Marie attended her first masked ball at the [Campidoglio](https://en.wikipedia.org/wiki/Capitoline_Hill), dressed in black silk with a black velvet mask and silver lace. She spoke with Antonelli while masked, and he claimed to be "in love with a mask." This entry is one of the diary's great set pieces of carnival comedy.
+**The masked ball at the Capitoline** (054.0209-0283, Feb 18): Marie attended her first masked ball at the [Campidoglio](https://en.wikipedia.org/wiki/Capitoline_Hill), dressed in black silk with a black velvet mask and silver lace. She spoke with Antonelli while masked, and he claimed to be "in love with a mask." This entry is one of the diary's great set pieces of carnival comedy.
 
 %% GLO_ROME.0025 %%
-**Confetti battle in dominos** (054.0371, Feb 22): Marie, Dina, and Lola rode in an open carriage in white dominos with indigo stripes, bombarding passersby: "Le Corso est anime, c'est le dernier jour des confettis, protegees par nos masques nous battons, nous envoyons des grimaces, des baisers, des gestes desesperes. Aux tournants des rues nous ecrasons les malheureux pretres par une grele de confettis."
+**Confetti battle in dominos** (054.0372, Feb 22): Marie, Dina, and Lola rode in an open carriage in white dominos with indigo stripes, bombarding passersby: "Le Corso est anime, c'est le dernier jour des confettis, protegees par nos masques nous battons, nous envoyons des grimaces, des baisers, des gestes desesperes. Aux tournants des rues nous ecrasons les malheureux pretres par une grele de confettis."
 
 %% GLO_ROME.0026 %%
-**Mardi Gras** (054.0618, Feb 29): "Je ne prends pas sur moi de remonter la furieuse gaieté d'un Mardi gras à Rome. Tant c'était amusant que je n'ai pas remarqué l'absence d'Antonelli."
+**Mardi Gras** (054.0619, Feb 29): "Je ne prends pas sur moi de remonter la furieuse gaieté d'un Mardi gras à Rome. Tant c'était amusant que je n'ai pas remarqué l'absence d'Antonelli."
 
 %% GLO_ROME.0027 %%
-The Carnival included the traditional *moccoli* (candles) and the decorated balconies Marie described: "des balcons et des fenetres garnis d'etoffes blanches, rouges, bleues, jaunes, roses et le peuple, et peu de masques, et les courses des barberi" (054.0451, Feb 21).
+The Carnival included the traditional *moccoli* (candles) and the decorated balconies Marie described: "des balcons et des fenetres garnis d'etoffes blanches, rouges, bleues, jaunes, roses et le peuple, et peu de masques, et les courses des barberi" (054.0452, Feb 21).
 
 %% GLO_ROME.0028 %%
 ### The Antonelli Romance
@@ -135,10 +135,10 @@ The Carnival included the traditional *moccoli* (candles) and the decorated balc
 Rome was the setting for one of Marie's most intense romantic episodes. Count [Pietro Antonelli](../../people/mentioned/ANTONELLI_PIETRO.md), nephew of Cardinal [Giacomo Antonelli](https://en.wikipedia.org/wiki/Giacomo_Antonelli) (1806-1876, the powerful Secretary of State to Pope Pius IX, often called the "Italian Richelieu"), first caught Marie's attention on February 15, 1876. The romance dominated carnets 054-057:
 
 %% GLO_ROME.0029 %%
-- **First sighting** (054.0467, Feb 15): "Il n'y a personne de mieux que lui a Rome." Rossi offers to present him.
-- **The Corso encounters** (054.0445, Feb 17): "C'est sur le Corso que je vois enfin Antonelli, gravement appuye sur le bras de quelqu'un, et regardant droit devant lui comme jadis Audiffret."
-- **The bouquet scene** (054.0564, Feb 23): Antonelli physically wrested a thrown bouquet from a peasant's hands with aristocratic sang-froid, electrifying Marie: "c'etait si beau, que l'homme avait l'air presque sublime."
-- **Mock Latin** (054.0628, Feb 27): "Marie Bachkirtseva creavit in mentem suam Petrus Antonellius. J'espere que c'est du latin!"
+- **First sighting** (054.0468, Feb 15): "Il n'y a personne de mieux que lui a Rome." Rossi offers to present him.
+- **The Corso encounters** (054.0446, Feb 17): "C'est sur le Corso que je vois enfin Antonelli, gravement appuye sur le bras de quelqu'un, et regardant droit devant lui comme jadis Audiffret."
+- **The bouquet scene** (054.0565, Feb 23): Antonelli physically wrested a thrown bouquet from a peasant's hands with aristocratic sang-froid, electrifying Marie: "c'etait si beau, que l'homme avait l'air presque sublime."
+- **Mock Latin** (054.0629, Feb 27): "Marie Bachkirtseva creavit in mentem suam Petrus Antonellius. J'espere que c'est du latin!"
 
 %% GLO_ROME.0030 %%
 - **The horseback ride in the Campagna** (055.0180-0204, Mar 7): Antonelli declared his love by the Tiber: "Je vous aime." Marie dismissed him, but his admission "En vous voyant je suis tout de suite tombe amoureux de vous et puis cela a passe" haunted her.
@@ -158,12 +158,12 @@ The landscape moved her to song: "L'air de la campagne, le soleil et les moutons
 %% GLO_ROME.0033 %%
 ### Social Frustrations
 
-Despite Rome's grandeur, the Bashkirtseff family's social position was precarious. The Russian ambassador distanced himself because of the family's lawsuit scandal, making it nearly impossible to enter Roman society (054.0334, Feb 12):
+Despite Rome's grandeur, the Bashkirtseff family's social position was precarious. The Russian ambassador distanced himself because of the family's lawsuit scandal, making it nearly impossible to enter Roman society (054.0335, Feb 12):
 
 > On nous a dit une chose affreuse. Il parait qu'a notre arrivee on s'est informe aupres de l'ambassade de Russie et que la l'on a dit des choses abominables sur notre compte.
 
 %% GLO_ROME.0034 %%
-Marie's frustration was palpable (053.0373, Jan 27): "Cette quantite de voitures armoriees m'attriste, nous ne sommes nulle part, nous ne connaissons personne!" And (055.0317, Mar 11): "Il n'y a rien de plus amusant que Rome. A present je connais tout le monde de vue" -- yet only de vue (by sight), never as an insider.
+Marie's frustration was palpable (053.0394, Jan 27): "Cette quantite de voitures armoriees m'attriste, nous ne sommes nulle part, nous ne connaissons personne!" And (055.0317, Mar 11): "Il n'y a rien de plus amusant que Rome. A present je connais tout le monde de vue" -- yet only de vue (by sight), never as an insider.
 
 %% GLO_ROME.0035 %%
 ## Key Sites
@@ -173,7 +173,7 @@ Marie's frustration was palpable (053.0373, Jan 27): "Cette quantite de voitures
 - **[Vatican Museums](https://en.wikipedia.org/wiki/Vatican_Museums)**: [Sistine Chapel](https://en.wikipedia.org/wiki/Sistine_Chapel), [Raphael Rooms](https://en.wikipedia.org/wiki/Raphael_Rooms), classical sculpture, painting gallery
 - **[St. Peter's Basilica](https://en.wikipedia.org/wiki/St._Peter%27s_Basilica)**: Michelangelo's dome and Pieta; the colonnade that reminded Marie of ancient Greece
 - **[Borghese Gallery](https://en.wikipedia.org/wiki/Borghese_Gallery)**: Major painting and sculpture collection
-- **[Capitoline Museums](https://en.wikipedia.org/wiki/Capitoline_Museums)**: Ancient Roman art; the Capitoline Venus that Marie visited (053.0310, Jan 27)
+- **[Capitoline Museums](https://en.wikipedia.org/wiki/Capitoline_Museums)**: Ancient Roman art; the Capitoline Venus that Marie visited (053.0331, Jan 27)
 - **[Palazzo Doria Pamphilj](https://en.wikipedia.org/wiki/Doria_Pamphilj_Gallery)**: Gallery with Titian, Velazquez, Van Dyck
 - **[Palazzo Colonna](https://en.wikipedia.org/wiki/Palazzo_Colonna)**: One of Rome's grandest aristocratic palaces
 - **[Pantheon](https://en.wikipedia.org/wiki/Pantheon,_Rome)**: The ancient temple, then a Christian church
@@ -182,8 +182,8 @@ Marie's frustration was palpable (053.0373, Jan 27): "Cette quantite de voitures
 ### Ancient Rome
 - **[The Forum](https://en.wikipedia.org/wiki/Roman_Forum)**: Center of ancient Roman life; Marie visited on her first day
 - **[The Colosseum](https://en.wikipedia.org/wiki/Colosseum)**: Visited repeatedly; the diary's most quoted Roman site
-- **[The Palatine Hill](https://en.wikipedia.org/wiki/Palatine_Hill)**: Imperial palaces; Marie explored palaces of Caligula, Nero, and Vespasian (053.0317, Feb 8)
-- **[The Appian Way](https://en.wikipedia.org/wiki/Appian_Way)**: Ancient road; site of the tomb of [Caecilia Metella](https://en.wikipedia.org/wiki/Tomb_of_Caecilia_Metella) where Antonelli lured Marie (054.0448, Feb 21)
+- **[The Palatine Hill](https://en.wikipedia.org/wiki/Palatine_Hill)**: Imperial palaces; Marie explored palaces of Caligula, Nero, and Vespasian (053.0338, Feb 8)
+- **[The Appian Way](https://en.wikipedia.org/wiki/Appian_Way)**: Ancient road; site of the tomb of [Caecilia Metella](https://en.wikipedia.org/wiki/Tomb_of_Caecilia_Metella) where Antonelli lured Marie (054.0449, Feb 21)
 - **[Baths of Caracalla](https://en.wikipedia.org/wiki/Baths_of_Caracalla)**: Marie joked she might have to live there for lack of affordable apartments (051.0367, Jan 5)
 
 %% GLO_ROME.0038 %%
@@ -192,7 +192,7 @@ Marie's frustration was palpable (053.0373, Jan 27): "Cette quantite de voitures
 - **The Corso** ([Via del Corso](https://en.wikipedia.org/wiki/Via_del_Corso)): Main street for the Carnival procession and daily promenades; Marie rented a balcony for Carnival
 - **[Caffe Greco](https://en.wikipedia.org/wiki/Caff%C3%A8_Greco)**: Historic cafe frequented by artists and writers
 - **[Villa Borghese](https://en.wikipedia.org/wiki/Villa_Borghese_gardens)**: Gardens for walking and riding
-- **Spillmann's**: Fashionable restaurant on the Corso, "le London House de Rome" (054.0299, Feb 19)
+- **Spillmann's**: Fashionable restaurant on the Corso, "le London House de Rome" (054.0300, Feb 19)
 - **The Caccia-Club** (Hunt Club): Exclusive gentleman's club (055.0317, Mar 11)
 - **[Piazza di Spagna](https://en.wikipedia.org/wiki/Piazza_di_Spagna)**: Center of foreign colony; location of Marie's hotel
 
@@ -201,7 +201,7 @@ Marie's frustration was palpable (053.0373, Jan 27): "Cette quantite de voitures
 - **[Santa Maria Maggiore](https://en.wikipedia.org/wiki/Basilica_di_Santa_Maria_Maggiore)**: One of Rome's four great basilicas
 - **[San Giovanni in Laterano](https://en.wikipedia.org/wiki/Archbasilica_of_Saint_John_Lateran)**: The Pope's cathedral
 - **[Santa Croce in Gerusalemme](https://en.wikipedia.org/wiki/Basilica_of_the_Holy_Cross_in_Jerusalem)**: Marie visited on March 20, the only day women were admitted to the Chapel of St. Helena (055.0356)
-- **San Pietro in Vincoli**: Where the chains of St. Peter were kept (053.0317, Feb 8)
+- **San Pietro in Vincoli**: Where the chains of St. Peter were kept (053.0338, Feb 8)
 - **[Trinita dei Monti](https://en.wikipedia.org/wiki/Trinit%C3%A0_dei_Monti)**: Overlooking the Spanish Steps; the church that haunted Marie through an engraving of Ingres on its terrace (083, Dec 1878)
 
 %% GLO_ROME.0040 %%

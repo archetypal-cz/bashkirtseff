@@ -99,7 +99,7 @@ Collignon made several penetrating observations about Marie:
 
 - On her appearance: "si elle ne me connaissait pas, elle dirait de moi — Voila une belle fille, car vous etes grande et bien faite" (%% 033.0384 %%).
 - On her handwriting: "il semble que vous n'osez pas faire vos lettres elancees, elles paraissent retenues, comme si quelque chose pesait sur elles, un effort et puis un aplatissement... C'est toute ma vie" — Marie agreed this described her entire existence (%% 090.0146 %%: Dec 1880).
-- On Marie's character: "Marie a beaucoup change" — said with confidence in her own influence (%% 059.0376 %%: May 1876).
+- On Marie's character: "Marie a beaucoup change" — said with confidence in her own influence (%% 059.0377 %%: May 1876).
 
 ## Illness and Death (1873-1881)
 

@@ -113,7 +113,7 @@ Alexandre served as the family's legal agent in the drawn-out Romanoff-Zamiatine
 In November 1880, Alexandre wrote that Maman needed to stay in Russia longer "pour en finir avec cette sale affaire" (to finish this dirty business). Marie was helpless in Paris: "moi je ne dis plus rien" (I say nothing more) (090.1880-11-24).
 
 %% GLO_ALEXANDRE.0030 %%
-Marie characterized the family's lack of legal representation before Alexandre's efforts: "Vous savez que jusqu'a present nous n'avions meme pas d'avocat en Russie de sorte qu'il n'y avait que Dieu pour nous defendre et quelquefois l'oncle Alexandre" (You know that until now we didn't even have a lawyer in Russia, so there was only God to defend us and sometimes Uncle Alexandre) (059.0653).
+Marie characterized the family's lack of legal representation before Alexandre's efforts: "Vous savez que jusqu'a present nous n'avions meme pas d'avocat en Russie de sorte qu'il n'y avait que Dieu pour nous defendre et quelquefois l'oncle Alexandre" (You know that until now we didn't even have a lawyer in Russia, so there was only God to defend us and sometimes Uncle Alexandre) (059.0654).
 
 %% GLO_ALEXANDRE.0031 %%
 ## The Injustices (1877)
@@ -210,7 +210,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 - **034.0607** (June 25): Alexandre brings 108,000 francs from Russia, squandered in two months
 
 ### 1876
-- **059.0653** (May 1): "only God to defend us and sometimes Uncle Alexandre"
+- **059.0654** (May 1): "only God to defend us and sometimes Uncle Alexandre"
 - **064.0505** (August 8-9): Alexandre sends money to Marie in St. Petersburg
 - **067.0943-0041** (November 11): Alexandre in Russia; identifies himself as "Babanine" on a train; amusing anecdotes with Nadine and servants
 
