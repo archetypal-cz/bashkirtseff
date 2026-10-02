@@ -96,6 +96,6 @@ The detailed working state is in `~/rebuild-state/`, which is not in git:
   - Scope: 588 clusters to split, about 2,931 new IDs. Only scan- or docx-confirmed split points; the 103 unconfirmed points and the 14 mixed cases go later and separately.
   - Translations: split mechanically where the tree line counts match (about 40%); otherwise the drivers redistribute (Sonnet RED, Opus CON).
   - Same discipline as batches 5–6: run only when every tree is clean in the carnet, and each committer stages only its own files.
-- **Also in the split wave:** fold the 451 comment-only paragraph IDs (old RSR entry summaries from the Feb normalisation, carnets 001–044 and 072) into each entry's real paragraph, in the same rebuild runs; keep the approval flags.
+- **Also in the split wave:** fold the 451 comment-only paragraph IDs (old RSR entry summaries from the Feb normalisation, carnets 001–044 and 072) into each entry's real paragraph, in the same rebuild runs; keep the approval flags. Rule (fix-source): drop the ID and move its RSR comment(s) and tags into the entry's **last** real paragraph, in every tree; the post-step restores flags from HEAD where nothing else in the entry changed. Prepared tooling and the tome-16 plans: `~/rebuild-state/plan-sourcefix/wave1/` (RESUME HERE in `source-issues.md`).
 - **Owner cleanup:** remove the worktrees ~/rebuild-wt/{fs-split,fs-split2,toolsmith} and the branches fix-inplace{,2,3}.
 - **Still on hold:** the names sweep (option B) waits for the owner's go.
