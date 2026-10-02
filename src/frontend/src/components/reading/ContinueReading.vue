@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue';
+import { onMounted, computed } from 'vue';
 import { useHistoryStore, type HistoryItem } from '../../stores/history';
 import { useI18n } from '../../i18n';
+import { useHydrated } from '../../composables/useHydrated';
 
 /**
  * ContinueReading — shows a "Continue reading" button when the user
@@ -19,11 +20,9 @@ interface Props {
 const props = defineProps<Props>();
 const { t } = useI18n();
 const historyStore = useHistoryStore();
-const ready = ref(false);
-
+const ready = useHydrated();
 onMounted(() => {
   historyStore.init();
-  ready.value = true;
 });
 
 const matchingItem = computed((): HistoryItem | null => {

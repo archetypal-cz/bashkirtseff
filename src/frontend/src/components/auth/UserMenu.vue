@@ -3,15 +3,19 @@ import { ref, onMounted } from 'vue';
 import { useI18n } from '../../i18n';
 import { useAuthStore } from '../../stores/auth';
 import { trackEvent } from '../../lib/analytics';
+import { useHydrated } from '../../composables/useHydrated';
 
 const { t } = useI18n();
 const auth = useAuthStore();
+// Shared store: another island may already have finished auth.init(); the first
+// client render must show the server's loading state.
+const hydrated = useHydrated();
 
 // Inline consent step — shown before first sign-in
 const showConsent = ref(false);
 
 onMounted(() => {
-  auth.init();
+  auth.init().catch(() => {});
 });
 
 function handleSignIn() {
@@ -44,7 +48,7 @@ async function handleSignOut() {
 <template>
   <div class="user-menu">
     <!-- Loading state -->
-    <template v-if="auth.loading">
+    <template v-if="!hydrated || auth.loading">
       <span class="user-menu__loading">...</span>
     </template>
 

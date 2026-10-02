@@ -2,6 +2,7 @@
 import { onMounted, watch, ref, computed, nextTick } from 'vue';
 import { useFilterStore } from '../../stores/filter';
 import { useI18n } from '../../i18n';
+import { useHydrated } from '../../composables/useHydrated';
 
 const { t, locale } = useI18n();
 
@@ -64,7 +65,15 @@ const bannerCountText = computed(() => {
     .replace('{total}', total.toLocaleString());
 });
 
-const showBannerFlag = computed(() => filterStore.isActive && !!filterStore.index);
+// The filter store is now shared by all islands, so another island may have
+// loaded the index and activated tags before this one mounts. Until the pristine
+// counts are captured below, the watch must not touch the DOM.
+let countsCaptured = false;
+
+// Gated on hydration: SSR renders no banner, and the shared store may already hold
+// an active filter + index from another island.
+const hydrated = useHydrated();
+const showBannerFlag = computed(() => hydrated.value && filterStore.isActive && !!filterStore.index);
 
 onMounted(async () => {
   // Capture original count texts from the pristine SSR DOM FIRST — before
@@ -76,6 +85,8 @@ onMounted(async () => {
     const key = el.getAttribute('data-filter-count')!;
     originalCounts.value.set(key, el.textContent || '');
   });
+
+  countsCaptured = true;
 
   filterStore.init();
   await filterStore.loadIndex();
@@ -91,7 +102,7 @@ onMounted(async () => {
 watch(
   () => [filterStore.isActive, filterStore.activeTagCount, filterStore.matchingEntryIds.size, filterStore.filterMode],
   () => {
-    if (!filterStore.index) return;
+    if (!filterStore.index || !countsCaptured) return;
     if (filterStore.isActive) {
       applyFilter();
     } else {

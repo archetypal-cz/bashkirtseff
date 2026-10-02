@@ -21,28 +21,43 @@ export const useAuthStore = defineStore('auth', () => {
   const avatarUrl = computed(() => user.value?.user_metadata?.avatar_url || null);
   const token = computed(() => session.value?.access_token || getStoredToken());
 
-  async function init() {
-    if (typeof window === 'undefined') return;
+  // Init-once: concurrent/repeated callers (several islands) share one promise,
+  // so there is a single session check (one GET /user) per page.
+  let initPromise: Promise<void> | null = null;
 
-    // Check for OAuth callback (PKCE code or legacy hash tokens)
-    const wasCallback = await handleCallback();
-    if (wasCallback) {
-      const fullSession = await getSession();
-      if (fullSession) {
-        session.value = fullSession;
-        user.value = fullSession.user;
+  function init(): Promise<void> {
+    if (typeof window === 'undefined') return Promise.resolve();
+    if (!initPromise) {
+      initPromise = doInit().catch((err) => {
+        initPromise = null; // allow a retry after a failure
+        throw err;
+      });
+    }
+    return initPromise;
+  }
+
+  async function doInit() {
+    try {
+      // Check for OAuth callback (PKCE code or legacy hash tokens)
+      const wasCallback = await handleCallback();
+      if (wasCallback) {
+        const fullSession = await getSession();
+        if (fullSession) {
+          session.value = fullSession;
+          user.value = fullSession.user;
+        }
+        return;
       }
-      loading.value = false;
-      return;
-    }
 
-    // Check existing session
-    const existing = await getSession();
-    if (existing) {
-      session.value = existing;
-      user.value = existing.user;
+      // Check existing session
+      const existing = await getSession();
+      if (existing) {
+        session.value = existing;
+        user.value = existing.user;
+      }
+    } finally {
+      loading.value = false;
     }
-    loading.value = false;
   }
 
   async function signIn() {

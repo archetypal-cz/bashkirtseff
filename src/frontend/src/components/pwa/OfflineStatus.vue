@@ -3,6 +3,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { useOfflineStore } from '../../stores/offline';
 import { useI18n, type SupportedLocale } from '../../i18n';
 import { formatBytes } from '../../lib/offline';
+import { useHydrated } from '../../composables/useHydrated';
 
 // UI locale the server rendered this island in (Header.astro passes the page's).
 const props = defineProps<{ pageLocale?: SupportedLocale }>();
@@ -12,8 +13,11 @@ const store = useOfflineStore();
 const panelOpen = ref(false);
 const wrapRef = ref<HTMLElement | null>(null);
 
-const hasDownloads = computed(() => store.downloadList.length > 0);
-const downloadCount = computed(() => store.downloadList.length);
+// Shared store: gate on hydration so the first client render matches the server HTML.
+const hydrated = useHydrated();
+const hasDownloads = computed(() => hydrated.value && store.downloadList.length > 0);
+const downloadCount = computed(() => (hydrated.value ? store.downloadList.length : 0));
+const hasStale = computed(() => hydrated.value && store.hasStaleDownloads);
 
 function togglePanel() {
   panelOpen.value = !panelOpen.value;
@@ -62,17 +66,17 @@ onUnmounted(() => {
       v-if="hasDownloads"
       @click.stop="togglePanel"
       class="offline-status-btn"
-      :class="{ 'has-updates': store.hasStaleDownloads }"
-      :aria-label="t('offline.storageTitle') + ' (' + downloadCount + ')' + (store.hasStaleDownloads ? ' — ' + t('offline.stale') : '')"
+      :class="{ 'has-updates': hasStale }"
+      :aria-label="t('offline.storageTitle') + ' (' + downloadCount + ')' + (hasStale ? ' — ' + t('offline.stale') : '')"
       :aria-expanded="panelOpen"
-      :title="store.hasStaleDownloads ? t('offline.stale') : t('offline.statusOnline')"
+      :title="hasStale ? t('offline.stale') : t('offline.statusOnline')"
     >
       <svg class="offline-status-icon" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
           d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
       </svg>
       <span class="badge">{{ downloadCount }}</span>
-      <span v-if="store.hasStaleDownloads" class="update-dot" />
+      <span v-if="hasStale" class="update-dot" />
     </button>
     <span
       v-else

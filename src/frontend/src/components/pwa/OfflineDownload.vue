@@ -2,6 +2,7 @@
 import { ref, computed, onMounted } from 'vue';
 import { useOfflineStore } from '../../stores/offline';
 import { useI18n } from '../../i18n';
+import { useHydrated } from '../../composables/useHydrated';
 import { scopeKey, urlsForScope, estimateSize, formatBytes } from '../../lib/offline';
 import type { DownloadScope } from '../../lib/offline';
 
@@ -13,6 +14,9 @@ const props = defineProps<{
 
 const { t } = useI18n();
 const store = useOfflineStore();
+// Shared store: another island may have restored download records already, so the
+// first client render must show the server's default state.
+const hydrated = useHydrated();
 
 const scope = computed<DownloadScope>(() => ({
   type: props.scopeType,
@@ -20,10 +24,10 @@ const scope = computed<DownloadScope>(() => ({
   language: props.language,
 }));
 
-const record = computed(() => store.getRecord(scope.value));
+const record = computed(() => (hydrated.value ? store.getRecord(scope.value) : undefined));
 
 const isThisScope = computed(() =>
-  store.currentScope && scopeKey(store.currentScope) === scopeKey(scope.value)
+  hydrated.value && store.currentScope && scopeKey(store.currentScope) === scopeKey(scope.value)
 );
 
 const status = computed(() => {
@@ -32,7 +36,7 @@ const status = computed(() => {
 });
 
 const isOtherDownloading = computed(() =>
-  store.isDownloading && !isThisScope.value
+  hydrated.value && store.isDownloading && !isThisScope.value
 );
 
 const entryCount = ref(0);

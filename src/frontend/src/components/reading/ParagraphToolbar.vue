@@ -168,7 +168,7 @@ async function shareLink() {
 onMounted(() => {
   mounted.value = true;
   canShare.value = !!navigator.share;
-  auth.init();
+  auth.init().catch(() => {});
 });
 
 // ─── Report dialog ───────────────────────────────────────────────────

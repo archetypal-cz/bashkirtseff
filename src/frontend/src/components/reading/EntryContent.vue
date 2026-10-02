@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue';
 import { useFilterStore } from '../../stores/filter';
+import { useHydrated } from '../../composables/useHydrated';
 import type { SupportedLocale } from '../../i18n';
 import ParagraphToolbar from './ParagraphToolbar.vue';
 import FilteredParagraphGap from './FilteredParagraphGap.vue';
@@ -54,6 +55,9 @@ const parsedParagraphs = computed<ProcessedParagraph[]>(() => {
 });
 
 const filterStore = useFilterStore();
+// Shared Pinia: the filter may already be restored by another island, so the
+// first client render must ignore it to match the server HTML (no filter).
+const hydrated = useHydrated();
 
 onMounted(() => {
   filterStore.init();
@@ -72,6 +76,7 @@ const ENTITY_CATEGORIES = new Set(['people', 'places', 'culture', 'themes']);
 /** All selected tag IDs from entity categories (people, places, culture, themes) */
 const activeEntityTagIds = computed<Set<string>>(() => {
   const ids = new Set<string>();
+  if (!hydrated.value) return ids;
   for (const [category, tags] of Object.entries(filterStore.selectedTags)) {
     if (ENTITY_CATEGORIES.has(category)) {
       for (const tag of tags) {

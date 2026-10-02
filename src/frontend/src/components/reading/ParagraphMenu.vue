@@ -117,7 +117,7 @@ function handleSignInToReport() {
 onMounted(() => {
   mounted.value = true;
   canShare.value = !!navigator.share;
-  auth.init();
+  auth.init().catch(() => {});
 });
 </script>
 

@@ -23,8 +23,12 @@ const MAX_ITEMS = 10;
 export const useHistoryStore = defineStore('history', () => {
   const items = ref<HistoryItem[]>([]);
 
+  let initialized = false;
+
   function init() {
     if (typeof window === 'undefined') return;
+    if (initialized) return;
+    initialized = true;
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
