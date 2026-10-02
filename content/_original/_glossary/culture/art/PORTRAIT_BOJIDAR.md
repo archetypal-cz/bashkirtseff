@@ -29,7 +29,7 @@ Marie's portrait of her friend **[Bojidar Karageorgevitch](../../people/recurrin
 ## Making of the work
 
 %% GLO_PORTRAIT_BOJIDAR.0004 %%
-The diary follows the portrait through 1883. In early April she writes: "Je fais le tableau et un portrait de Bojidar, très chic..." (099.0045, 6 April 1883). A week later "Bojidar pose" (099.0126, 14 April), and in May "Je travaille au portrait de Bojidar" (099.0316, 2 May). In October Julian found it "très chic" (101.0536, 8 October), and the next day Marie thought it "bien": "Julian dit que ce peut être un grand succès, que c'est très original, très neuf et que ça paraîtra comme un Manet savant" (101.0544, 9 October). The same day she planned to "Exposer Bojidar dans une exposition d'hiver, au Cercle, et un portrait de Dina aussi" (101.0553).
+The diary follows the portrait through 1883. In early April she writes: "Je fais le tableau et un portrait de Bojidar, très chic..." (099.0045, 6 April 1883). A week later "Bojidar pose" (099.0126, 14 April), and in May "Je travaille au portrait de Bojidar" (099.0316, 2 May). In October Julian found it "très chic" (101.0541, 8 October), and the next day Marie thought it "bien": "Julian dit que ce peut être un grand succès, que c'est très original, très neuf et que ça paraîtra comme un Manet savant" (101.0549, 9 October). The same day she planned to "Exposer Bojidar dans une exposition d'hiver, au Cercle, et un portrait de Dina aussi" (101.0558).
 
 %% GLO_PORTRAIT_BOJIDAR.0005 %%
 ## History

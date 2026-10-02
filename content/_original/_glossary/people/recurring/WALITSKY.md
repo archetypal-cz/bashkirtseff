@@ -111,7 +111,7 @@ This passage reveals:
 - Treated [Romanoff](../mentioned/ROMANOFF.md)'s mental illness
 - Attended to [Maman](../family/MAMAN.md)'s real and imagined illnesses
 - General family physician during European travels
-- Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0166 %%, echoed in %% 102.0005 %%)
+- Diagnosed Mlle Collignon's terminal condition: "Walitsky nous dit des lors qu'elle ne vivrait pas" (%% 002.0166 %%, echoed in %% 102.0012 %%)
 - Correctly recommended Soden spa for Marie's throat: "Ce coquin de Walitsky est un habile homme, il s'entend a toutes les maladies" (%% 073.0242 %%)
 - Treated external patients in Nice: "il a la tous ses malades, tous ses amis" (%% 077.0195 %%)
 - Served as witness to grandfather's will alongside Patton, Orgesko, Bihovetz, and Anitchkoff (%% 082.0162 %%)
@@ -267,7 +267,7 @@ Walitsky's death became a touchstone for Marie -- a measure against which she ga
 - **August 1878**: Mlle Oelsnitz, the Anitchkoffs' former governess, joins the household -- "elle etait amoureuse de Walitsky" (%% 082.0148 %%)
 - **September 1878**: Dreams of Walitsky "en train de consulter un pullaire antique" -- consulting an ancient chicken oracle (%% 082.0185 %%)
 - **November 1878**: "Je reve que Walitsky revient et que Dina et Rosalie mortes reviennent aussi. Je les supplie de s'en aller: Vous etes morts, allez-vous en, j'ai peur!" (%% 083.0282 %%)
-- **October 1883**: Still remembering his medical acumen five years later: "Walitsky nous dit des lors qu'elle ne vivrait pas" -- about his correct diagnosis of Collignon's tuberculosis, now as Marie faces her own (%% 102.0005 %%)
+- **October 1883**: Still remembering his medical acumen five years later: "Walitsky nous dit des lors qu'elle ne vivrait pas" -- about his correct diagnosis of Collignon's tuberculosis, now as Marie faces her own (%% 102.0012 %%)
 
 %% GLO_WALITSKY.0040 %%
 ## Character Assessment
@@ -408,7 +408,7 @@ A poignant detail emerges after Walitsky's death: Mlle Oelsnitz, formerly a gove
 
 %% GLO_WALITSKY.0058 %%
 ### Book 102 (1883)
-- %% 102.0005 %% (Oct 17, 1883): Five years later, Marie remembers his diagnosis of Collignon as she faces her own tuberculosis
+- %% 102.0012 %% (Oct 17, 1883): Five years later, Marie remembers his diagnosis of Collignon as she faces her own tuberculosis
 
 %% 2025-12-07T15:10:00 RSR: Major update with Book 00 biographical information. Original entry only had 1873 Nice references. Now includes full background, Akhtyrka position, university connection, European journey, financial exploitation, and Marie's extraordinary tribute. This was clearly one of the few people Marie genuinely loved and respected. %%
 %% 2026-02-04T06:46:46.449Z RSR: Merged content from WALITSKTY (auto-generated stub, now superseded by comprehensive entry above) %%

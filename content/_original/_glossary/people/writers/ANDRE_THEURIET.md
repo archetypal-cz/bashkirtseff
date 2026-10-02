@@ -29,7 +29,7 @@ last_updated: 2026-09-07
 
 %% GLO_ANDRE_THEURIET.0005 %%
 %% [#Le_Printemps](../../culture/art/LE_PRINTEMPS.md) %%
-- **April 1884** (104.0004): planning *Le Printemps*, she describes the dreaming girl at the foot of the apple tree as "alanguie et grisée", adding "comme dit A. Theuriet". The borrowed phrase is discussed in the [Le Printemps](../../culture/art/LE_PRINTEMPS.md) entry.
+- **April 1884** (104.0005): planning *Le Printemps*, she describes the dreaming girl at the foot of the apple tree as "alanguie et grisée", adding "comme dit A. Theuriet". The borrowed phrase is discussed in the [Le Printemps](../../culture/art/LE_PRINTEMPS.md) entry.
 
 %% GLO_ANDRE_THEURIET.0006 %%
 ## Related Entries

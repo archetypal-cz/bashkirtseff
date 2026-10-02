@@ -117,7 +117,7 @@ Marie was conscious of her relationship with the Gavinis as a strategic achievem
 ### The Later Years (1882--1884)
 
 %% GLO_GAVINI.0025 %%
-The Gavinis remained constant through Marie's artistic career and declining health. They attended the Salon, dined frequently at the Bashkirtseff home, and continued providing social access. By 1884, Marie notes Denis's decline: "Denis devient tout a fait gateux, depuis deux ans il a baisee!" (104, 1884-06-15) -- though at 64, Denis was hardly old by his own standards (he would live to 96). In one of the very last diary entries, "Gavini et Gery ont dine ici" while Marie hides her tuberculosis behind a claimed sore throat (106.0180, 1884-10-18).
+The Gavinis remained constant through Marie's artistic career and declining health. They attended the Salon, dined frequently at the Bashkirtseff home, and continued providing social access. By 1884, Marie notes Denis's decline: "Denis devient tout a fait gateux, depuis deux ans il a baisee!" (104, 1884-06-15) -- though at 64, Denis was hardly old by his own standards (he would live to 96). In one of the very last diary entries, "Gavini et Gery ont dine ici" while Marie hides her tuberculosis behind a claimed sore throat (106.0187, 1884-10-18).
 
 %% GLO_GAVINI.0026 %%
 ## Diary Coverage
@@ -160,7 +160,7 @@ The Gavinis appear across 28 carnets spanning seven years. The densest coverage 
 - **094** (1882-04-29) -- Gavinis furious at Marie's name appearing in *Le Voltaire*
 - **102** (1883-10-20) -- "Denis et Adeline" mentioned by first names together
 - **104** (1884-06-15) -- "Denis devient tout a fait gateux, depuis deux ans il a baisse!"
-- **106.0180** (1884-10-18) -- Last mention: "Gavini et Gery ont dine ici" during Marie's final illness
+- **106.0187** (1884-10-18) -- Last mention: "Gavini et Gery ont dine ici" during Marie's final illness
 
 %% GLO_GAVINI.0030 %%
 ## Marie's Names for the Gavinis

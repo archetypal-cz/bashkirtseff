@@ -46,7 +46,7 @@ Her father died in May 1879 (%% 085.0078 %%: "Le pere de Collignon est mort ce m
 
 Collignon was hired as Marie's governess before the diary begins. Marie records the precise date her English lessons started: "commencees le 12 janvier 1872 a Nice, avec Mlle Collignon" (%% 001.0155 %%). Despite being French, Collignon was tasked with teaching English — a duty Marie increasingly felt she neglected. As governess, Collignon served multiple functions:
 
-- **Educator**: Teaching English, geography, history, arithmetic. Marie studied German history with her and read aloud during lessons (%% 046.0122 %%, %% 103.0012 %%).
+- **Educator**: Teaching English, geography, history, arithmetic. Marie studied German history with her and read aloud during lessons (%% 046.0122 %%, %% 103.0019 %%).
 - **Chaperone**: Accompanying Marie on all promenades, visits, shopping, theater outings, and sea bathing. Marie could not go out without her.
 - **Disciplinarian**: Scolding Marie for blushing at men (%% 001.0024 %%: "Ne faites pas cela, Marie, cela m'enerve tant"), for attracting attention (%% 004.0269 %%: "m'a grondee parce qu'on me regardait trop"), and for speaking indiscreetly.
 - **Confidante (limited)**: Despite tensions, Marie confided some feelings — hiding her face in Collignon's chest after seeing the Duke (%% 001.0106 %%, %% 044.0161 %%: "je me jetais dans les bras de Collignon, je cachais ma figure sur sa poitrine").
@@ -103,7 +103,7 @@ Collignon made several penetrating observations about Marie:
 
 ## Illness and Death (1873-1881)
 
-Collignon's tuberculosis was diagnosed remarkably early. On March 3, 1873, Dr Walitsky told the family: "Mlle Collignon est malade comme Koukoueff qui vient de mourir, qu'elle peut vivre cinq ans, et qu'elle peut mourir en trois semaines" (%% 002.0166 %%). Despite this devastating prognosis, Collignon lived another eight years, spending summers at Allevard (a thermal spa in the Alps) and winters in the Midi (%% 102.0005 %%).
+Collignon's tuberculosis was diagnosed remarkably early. On March 3, 1873, Dr Walitsky told the family: "Mlle Collignon est malade comme Koukoueff qui vient de mourir, qu'elle peut vivre cinq ans, et qu'elle peut mourir en trois semaines" (%% 002.0166 %%). Despite this devastating prognosis, Collignon lived another eight years, spending summers at Allevard (a thermal spa in the Alps) and winters in the Midi (%% 102.0012 %%).
 
 On July 27, 1881, Marie visited the dying Collignon and was horrified: "elle va mourir bientot, en voila une qui est changee. Rosalie m'avait prevenue mais j'en suis restee saisie... La Mort elle-meme. Et puis, dans la chambre une odeur de bouillon tres fort que l'on donne aux malades... C'est horrible" (%% 092.0336 %%). Marie brought gifts — silk for a dress and a shawl she herself coveted — then caught herself calculating heavenly reward: "je me suis decidee a cet immense sacrifice pour la mauvaise pensee que cela me sera rembourse par le ciel. Ces calculs enlevent tout merite" (%% 092.0336 %%).
 
@@ -116,8 +116,8 @@ Collignon died in late October 1881. Marie records it laconically on November 15
 Even after Collignon's death, Marie continued to invoke her memory:
 
 - **August 1883**: Contemplating her own mortality, Marie imagines dying "vers quarante ans comme Mlle Collignon" (%% 101.0034 %%).
-- **October 1883**: Drawing the explicit parallel to her own tuberculosis: "cette pauvre Collignon, je l'ai connue a vingt-deux ans, elle toussait un peu, Walitsky nous dit des lors qu'elle ne vivrait pas, seulement elle n'est pas tres soignee... et cela a dure huit ans" (%% 102.0005 %%).
-- **February 1884**: The last mention, reminiscing about childhood: "Etant enfant et amoureuse du duc de Hamilton je rougissais affreusement au mot Duc et ca arrivait souvent pendant mes lectures historiques a haute voix devant Mlle Collignon" (%% 103.0012 %%).
+- **October 1883**: Drawing the explicit parallel to her own tuberculosis: "cette pauvre Collignon, je l'ai connue a vingt-deux ans, elle toussait un peu, Walitsky nous dit des lors qu'elle ne vivrait pas, seulement elle n'est pas tres soignee... et cela a dure huit ans" (%% 102.0012 %%).
+- **February 1884**: The last mention, reminiscing about childhood: "Etant enfant et amoureuse du duc de Hamilton je rougissais affreusement au mot Duc et ca arrivait souvent pendant mes lectures historiques a haute voix devant Mlle Collignon" (%% 103.0019 %%).
 
 ## Significance
 
@@ -160,8 +160,8 @@ Collignon occupies a unique position in the diary. She is the only person who se
 - %% 092.0336 %% (Jul 27, 1881): Marie visits dying Collignon — "la Mort elle-meme"
 - %% 093.DROPPED-0177 %% (Nov 15, 1881): "La pauvre Collignon est morte depuis plus de vingt jours deja"
 - %% 101.0034 %% (Aug 21, 1883): Marie expects to die "vers quarante ans comme Mlle Collignon"
-- %% 102.0005 %% (Oct 17, 1883): Explicit parallel — Walitsky's diagnosis, eight-year survival
-- %% 103.0012 %% (Feb 25, 1884): Last mention — childhood blushing during lessons
+- %% 102.0012 %% (Oct 17, 1883): Explicit parallel — Walitsky's diagnosis, eight-year survival
+- %% 103.0019 %% (Feb 25, 1884): Last mention — childhood blushing during lessons
 
 %% 2025-06-30T01:00:00 RSR: Created entry for frequently mentioned governess who had no glossary file %%
 %% 2026-05-25T02:00:00 RSR: Comprehensive expansion from Basic stub. Researched all ~215 diary files mentioning Collignon across carnets 001-103 (Jan 1873 - Feb 1884). Reconstructed her complete biography from diary evidence: humble Parisian origins (passage Marbeuf), prior service with vice-regal household in Egypt, hired as governess by Jan 1872, taught English and other subjects, dismissed May 31 1873 after escalating conflicts, returned as family friend from 1874, near-constant companion 1875-1877, gradually less present as Marie moved to Paris, diagnosed with tuberculosis by Walitsky Mar 1873 (eight-year survival), died late Oct 1881. Key findings: (1) Collignon was French, not English, but taught Marie English from Jan 12 1872; (2) the "malheureuse affaire" involved both grand-papa and papa having romantic feelings for her; (3) Marie painted her portrait in 12 sittings May-Jun 1876; (4) Collignon's death from tuberculosis directly foreshadowed Marie's own; (5) she appears in ~215 diary files across 12 years, making her one of the most frequently mentioned non-family figures. Added comprehensive aliases, physical description, 30 key paragraph references, and cross-references to related glossary entries. Note: duplicate entry MLLE_COLLIGNON.md exists and should be merged into this one. Sources: diary text across all 107 carnets; cross-references with ENGLISH, DEATH, WALITSKY, ANGLICAN_CHURCH glossary entries. %%

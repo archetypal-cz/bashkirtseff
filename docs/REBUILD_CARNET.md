@@ -343,6 +343,41 @@ becomes `translation_pending`, and an `ED:` comment at the end of the file
 says which old entries the paragraphs came from and what changed. Scores
 (`quality_score`, `con_score`) and `redaction_passes` are left as history.
 
+### Multi-paragraph split wave (2026-10-02, owner-approved)
+
+Some IDs hold several printed paragraphs. The split wave gives each printed
+paragraph its own ID, one tome at a time, with ordinary rebuild runs (the
+carnet is renumbered once per run). Rules:
+
+- **Only confirmed split points.** A point is used when the survey found it in
+  the docx paragraph breaks and the scan indentation; points that coincide with
+  a scan page flush, unsure points and MIXED clusters are left for later.
+  Letters and clippings are not split.
+- **Plan.** The head keeps its ID with `set_french` = its headings + the first
+  piece; every further piece is a `new` paragraph whose RSR note reads
+  «Split (paragraph wave): print paragraph k of n of CCC.NNNN …». Line breaks
+  inside the cluster are kept.
+- **Translations.** If a tree's translation of the head has exactly as many
+  text lines as the French pieces together, its lines are distributed over the
+  pieces unchanged, the tool's `SOURCE CHANGED` note becomes an `ED: paragraph
+  split into …` note, and the approval flags are restored from HEAD when no
+  `TODO` is left in the file. Otherwise the tree keeps `TODO` + `SOURCE
+  CHANGED` and the reset flags, and the language driver redistributes or
+  translates the pieces.
+- **Footnotes.** Labels in split pieces are renamed to the relabelled
+  definitions using the run's map (`content/_renumber/CCC-<date>[-2].json` —
+  only the map that run wrote).
+- **Comment-only IDs** (old RSR entry summaries without visible text, 001–044
+  and 072) are folded in the same run as their carnet's splits: the ID is
+  dropped and its RSR comment(s) and tags move to the entry's last real
+  paragraph in every tree. Where nothing else in the entry changed, the
+  approval flags are restored from HEAD and the tool's flags-reset note is
+  removed. The moved tags are listed per carnet for the tag audit, which
+  redistributes them.
+
+Plans, the per-tome record and the gates are in
+`content/_renumber/split-wave/`.
+
 ## References rewritten
 
 One regex pass per file with a callback, so a value that was just rewritten is

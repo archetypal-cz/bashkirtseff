@@ -38,7 +38,7 @@ The date of her birth is a small puzzle of its own. In the diary she gives it as
 
 %% GLO_MARIE_BASHKIRTSEFF.0007 %%
 %% [#Censored_1887](../../culture/literature/CENSORED_1887.md) %%
-The diary runs from January 1873 to 20 October 1884, eleven days before her death (106.0183–106.0187). It is preceded by a preface dated 1 May 1884 (carnet 000), in which she sets out why she wrote it and why she wanted it published whole. The manuscript is in the Bibliothèque nationale de France. The integral edition counts 105 notebooks, while the scholar Colette Cosnier, who read the manuscript at the BnF in 1985, described "eighty-four cahiers and carnets". This project arranges the text in 107 carnets (000–106).
+The diary runs from January 1873 to 20 October 1884, eleven days before her death (106.0190–106.0194). It is preceded by a preface dated 1 May 1884 (carnet 000), in which she sets out why she wrote it and why she wanted it published whole. The manuscript is in the Bibliothèque nationale de France. The integral edition counts 105 notebooks, while the scholar Colette Cosnier, who read the manuscript at the BnF in 1985, described "eighty-four cahiers and carnets". This project arranges the text in 107 carnets (000–106).
 
 %% GLO_MARIE_BASHKIRTSEFF.0008 %%
 What makes the diary matter is its completeness of attention. For twelve years Marie recorded her ambitions, her vanity, her reading, her family's scandals, her loves real and imagined, her work at the easel and her illness with the same candour. In the preface she calls it a "document humain" in the sense Zola, the Goncourts and Maupassant gave the phrase (carnet 000). Its best-known line is her complaint of 30 September 1878: "je sais que je pourrai devenir quelqu'un mais avec des jupes où voulez-vous qu'on aille ? Le mariage est la seule carrière des femmes" (082.0501).
@@ -75,7 +75,7 @@ Her Salon career, year by year:
 - **1881**: *[L'Atelier Julian](../../culture/art/L_ATELIER_JULIAN.md)*. Signed "Andrey" (091.0331)
 - **1882**: nothing. Ill in Nice: "très triste de n'avoir rien au Salon" (094.0270)
 - **1883**: *[Jean et Jacques](../../culture/art/JEAN_ET_JACQUES.md)*, *[La Parisienne](../../culture/art/LA_PARISIENNE.md)* and the [pastel portrait of Dina](../../culture/art/PORTRAIT_DINA_PASTEL.md). *Mention honorable*, awarded to the pastel. She learned of it on 24 May 1883 (099.0396)
-- **1884**: *[Un meeting](../../culture/art/UN_MEETING.md)*. Her only submission (103.0472). A popular and press success, but no medal. Now in the Musée d'Orsay (RF 442)
+- **1884**: *[Un meeting](../../culture/art/UN_MEETING.md)*. Her only submission (103.0511). A popular and press success, but no medal. Now in the Musée d'Orsay (RF 442)
 
 %% GLO_MARIE_BASHKIRTSEFF.0018 %%
 The mention belongs to 1883, not 1884 as is often said. The 1885 catalogue's notice places it at the Salon of 1883 with "un pastel", and the diary agrees. In 1880 and 1881 she signed with pseudonyms, and from 1883 under her own name.
@@ -96,14 +96,14 @@ Besides the diary she wrote for the press. In 1881 she contributed to Hubertine 
 
 %% GLO_MARIE_BASHKIRTSEFF.0023 %%
 %% [#Guy_de_Maupassant](../../culture/literature/GUY_DE_MAUPASSANT.md) %%
-In the spring of 1884 she began an anonymous correspondence with Guy de Maupassant. She wrote under assumed names; in one letter she signed herself "Joseph Savantin", per Wilson. She collected his replies from the poste restante ("La cinquième et la mieux", 27 April 1884, 104.0031) and read them aloud to Julian (104.0287). The letters were published in *Lettres de Marie Bashkirtseff* (Charpentier, 1891, preface by François Coppée).
+In the spring of 1884 she began an anonymous correspondence with Guy de Maupassant. She wrote under assumed names; in one letter she signed herself "Joseph Savantin", per Wilson. She collected his replies from the poste restante ("La cinquième et la mieux", 27 April 1884, 104.0033) and read them aloud to Julian (104.0292). The letters were published in *Lettres de Marie Bashkirtseff* (Charpentier, 1891, preface by François Coppée).
 
 %% GLO_MARIE_BASHKIRTSEFF.0024 %%
 ## Illness and Death
 
 %% GLO_MARIE_BASHKIRTSEFF.0025 %%
 %% [#Tuberculosis](../../culture/health/TUBERCULOSIS.md) %%
-Her hearing began to fail by 1880: at the studio "on me dit que je suis sourde" (088.0165). On 28 December 1882 a doctor told her plainly that she was consumptive: "Je suis poitrinaire" (097.0297). From then on the diary is a race between work and illness. The last entry, of 20 October 1884, records Bastien-Lepage, himself dying, coming to see her almost carried by his brother, and her bed moved to the salon because she could no longer climb the stairs (106.0183–106.0187). She died in Paris on 31 October 1884; Bastien-Lepage died on 10 December. She is buried in the Passy cemetery (division 11) in a funerary chapel designed by Émile Bastien-Lepage.
+Her hearing began to fail by 1880: at the studio "on me dit que je suis sourde" (088.0165). On 28 December 1882 a doctor told her plainly that she was consumptive: "Je suis poitrinaire" (097.0297). From then on the diary is a race between work and illness. The last entry, of 20 October 1884, records Bastien-Lepage, himself dying, coming to see her almost carried by his brother, and her bed moved to the salon because she could no longer climb the stairs (106.0190–106.0194). She died in Paris on 31 October 1884; Bastien-Lepage died on 10 December. She is buried in the Passy cemetery (division 11) in a funerary chapel designed by Émile Bastien-Lepage.
 
 %% GLO_MARIE_BASHKIRTSEFF.0026 %%
 ## Legacy
@@ -124,8 +124,8 @@ The 1887 *Journal* made her famous across Europe and America as a writer. Kather
 - **28 Dec 1882**: Told she has tuberculosis (097.0297)
 - **24 May 1883**: *Mention honorable* at the Salon (099.0396)
 - **1 May 1884**: Writes the preface to the diary (carnet 000)
-- **Spring 1884**: Anonymous correspondence with Maupassant; *Un meeting* at the Salon (104.0031; 103.0472)
-- **20 Oct 1884**: Last diary entry (106.0183)
+- **Spring 1884**: Anonymous correspondence with Maupassant; *Un meeting* at the Salon (104.0033; 103.0511)
+- **20 Oct 1884**: Last diary entry (106.0190)
 - **31 Oct 1884**: Dies in Paris (AWARE; Britannica)
 - **Feb 1885**: Posthumous exhibition, Union des Femmes Peintres et Sculpteurs (1885 catalogue)
 - **1887**: *Journal* published by Charpentier, heavily cut (Éditeurs réunis)
