@@ -20,7 +20,7 @@ last_updated: 2026-10-01
 ## In Marie's diary
 
 %% GLO_CHANTILLY.0004 %%
-- 019.0386 (1874-05-28): a lady is going to Chantilly on Sunday; her daughter loves horses and races.
+- 019.0378 (1874-05-28): a lady is going to Chantilly on Sunday; her daughter loves horses and races.
 - 020.0015 (1874-05-31): Marie's own planned Sunday trip to Chantilly fails, because there is no train left.
 - 024.0284 (1874-10-10): Arthur, the maître d'hôtel, name-drops the prince de Condé and Chantilly.
 - 080.0383 (1878-06-02): Goldsmid and Foster go to Chantilly (the races) while Marie stays in her room.

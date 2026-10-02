@@ -19,7 +19,7 @@ This tag marks Money paragraphs about Marie's own money or her family's: her all
 ## Examples
 
 %% GLO_MONEY_FAMILY.0004 %%
-- 014.0131: maman plays "pièces après pièces" at the Monaco tables while Marie waits.
+- 014.0129: maman plays "pièces après pièces" at the Monaco tables while Marie waits.
 - 093.0028: the sale of a Russian estate is to give Marie "trente mille francs de rente rien qu'à moi".
 
 %% 2026-09-28T12:30:00 RSR: Created as the whose-dimension qualifier of MONEY (KRR request, theme-tags pilot; see .claude/reports/theme-tags-2026-09-28.md). A separate theme file rather than a link qualifier because the filter treats each culture/themes file as a selectable tag and matches paragraph highlights by tag id; see the report for the reasoning. %%

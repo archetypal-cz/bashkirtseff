@@ -18,7 +18,7 @@ last_updated: 2026-09-26
 **Last Updated**: 2026-09-26
 **Merged from**: FATHER_BASHKIRTSEFF (now a redirect to this entry)
 
-> **Disambiguation — who is "papa"?** In the Nice household (1873–1877) Marie's bare "papa" is almost always her **maternal grandfather, Stepan Babanine** — see [#Grand_papa](GRAND_PAPA.md). Her father Constantin is "mon père", "mon (cher / auguste / illustre / honorable) père" or "mon pater". Marie calls him "Papa" only when she is with him: his Nice visit of Nov 1873 (013.0077, 013.0084, 013.0100), Poltava and Gavronzi in Jul–Oct 1876 (carnets 064–066), and Paris in Nov 1876 (067.1054). This entry is for Constantin only. Tag the grandfather's "papa" as #Grand_papa, not #Papa. Other "papas" of 1875–76: old M. d'Audiffret (049.0305, 050.0122–0502), operetta refrains, other people's fathers. The per-occurrence tables are in `.claude/reports/papa-referent-2026-09-26.md`.
+> **Disambiguation — who is "papa"?** In the Nice household (1873–1877) Marie's bare "papa" is almost always her **maternal grandfather, Stepan Babanine** — see [#Grand_papa](GRAND_PAPA.md). Her father Constantin is "mon père", "mon (cher / auguste / illustre / honorable) père" or "mon pater". Marie calls him "Papa" only when she is with him: his Nice visit of Nov 1873 (013.0076, 013.0083, 013.0099), Poltava and Gavronzi in Jul–Oct 1876 (carnets 064–066), and Paris in Nov 1876 (067.1054). This entry is for Constantin only. Tag the grandfather's "papa" as #Grand_papa, not #Papa. Other "papas" of 1875–76: old M. d'Audiffret (049.0305, 050.0122–0502), operetta refrains, other people's fathers. The per-occurrence tables are in `.claude/reports/papa-referent-2026-09-26.md`.
 
 ## Overview
 
@@ -38,8 +38,8 @@ Constantin is absent from the Nice household. Marie mentions him with marked for
 
 - **Durocher affair** (1873-10-25, 011.0266–0284): "Mon très cher père a une actrice française Durocher…", his public liaison in Russia.
 - **Announced visit** (1873-11-07, 012.0114): "Mon cher père vient à Nice. Animal !"
-- **Visit to Nice / Monte-Carlo, 24–27 November 1873** (013.0074–0109): "Mon auguste père est arrivé." Only during this visit does Marie call him "Papa" / "le Papa" / "mon adorable papa" (013.0077, 013.0084, 013.0100), always next to "mon père".
-- **Family quarrels**: the grandfather reproaches "ma race, mon nom, mon père" (019.0311); Marie defends him (025.0054: "Je connais peu mon père et l'aime encore moins…").
+- **Visit to Nice / Monte-Carlo, 24–27 November 1873** (013.0073–0109): "Mon auguste père est arrivé." Only during this visit does Marie call him "Papa" / "le Papa" / "mon adorable papa" (013.0076, 013.0083, 013.0099), always next to "mon père".
+- **Family quarrels**: the grandfather reproaches "ma race, mon nom, mon père" (019.0306); Marie defends him (025.0054: "Je connais peu mon père et l'aime encore moins…").
 - **Letters, 1875**: Marie writes to Paul and Sacha so that they tell "mon père" she is coming to Russia, "pas pour rester chez lui" (032.0448); "Mon père écrit que … Paul se conduit d'une façon impossible" (039.0159).
 
 ## 1876–1877: Poltava, Gavronzi, Paris, Rome

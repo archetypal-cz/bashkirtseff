@@ -22,7 +22,7 @@ last_updated: 2026-05-25
 ## Identity and Background
 
 %% GLO_BOREEL.0002 %%
-Alfred Boreel was a young Dutchman who became Marie Bashkirtseff's first serious romantic interest during the winter seasons of 1871-72 and 1872-73 in Nice. Marie's diary gives his full name as "M. Alfred Boreel" (002.0104, entry 1873-02-26), while his dog's collar read "M. Robert Boreel" (004.0198, entry 1873-04-27), suggesting the family name appeared on the collar under a different family member's name, or that Robert was a middle name.
+Alfred Boreel was a young Dutchman who became Marie Bashkirtseff's first serious romantic interest during the winter seasons of 1871-72 and 1872-73 in Nice. Marie's diary gives his full name as "M. Alfred Boreel" (002.0104, entry 1873-02-26), while his dog's collar read "M. Robert Boreel" (004.0197, entry 1873-04-27), suggesting the family name appeared on the collar under a different family member's name, or that Robert was a middle name.
 
 %% GLO_BOREEL.0003 %%
 The Boreel family was a distinguished Dutch patrician family (*regentenpatriciaat*) with deep roots in the Netherlands, originating from Amsterdam. The family produced multiple notable figures including:
@@ -72,10 +72,10 @@ In her 1875 retrospective, Marie states that when Audiffret was barely twenty, "
 
 %% GLO_BOREEL.0012 %%
 The Boreel family maintained a seasonal presence in Nice with significant property:
-- **Villa and residence**: The family occupied or rented a villa on the Promenade des Anglais area; Marie mentions "les villas 57, Boreel, Canepa" in her panoramic view from Villa Acqua Viva (006, entry 1873-06-19). They also used **La Corinthienne**, a villa Marie associates with Boreel family gatherings and dinners (004.0197, entry 1873-04-29; 010.0086, entry 1873-09-26).
+- **Villa and residence**: The family occupied or rented a villa on the Promenade des Anglais area; Marie mentions "les villas 57, Boreel, Canepa" in her panoramic view from Villa Acqua Viva (006, entry 1873-06-19). They also used **La Corinthienne**, a villa Marie associates with Boreel family gatherings and dinners (004.0196, entry 1873-04-29; 010.0086, entry 1873-09-26).
 - **Mme Boreel** (his mother): Seen at her window at the start of the 1873-74 season (010.0086, entry 1873-09-27). Marie notes her arriving with a young blonde woman she speculates might be Boreel's wife (010.0145, entry 1873-10-01). Last seen departing Nice with Boreel in May 1876 (059, entry 1876-05-07).
-- **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0189, entry 1873-03-07; 004.0323, entry 1873-05-10).
-- **A dog**: The family dog's collar read "M. Robert Boreel" and would follow Marie's family in the street (004.0198, entry 1873-04-27).
+- **Baronne de Palland-Nermen** (nee Boreel): Boreel's sister, married to Baron de Palland-Nermen. She and her husband appear in Nice society and observe Marie with evident curiosity (002.0189, entry 1873-03-07; 004.0322, entry 1873-05-10).
+- **A dog**: The family dog's collar read "M. Robert Boreel" and would follow Marie's family in the street (004.0197, entry 1873-04-27).
 - **Horses**: Boreel kept fine horses in Nice. Marie notes he had "les plus beaux chevaux" (040.0085) and is frequently seen with one or two horses on the Promenade.
 
 %% GLO_BOREEL.0013 %%
@@ -89,14 +89,14 @@ Boreel participated fully in the typical activities of wealthy winter visitors t
 - Late-night suppers with Prince Gagarine, Markoff, and Gouchkevitch (002.0112, entry 1873-02-27)
 - Gambling at Monaco -- Marie morally disapproves but finds it adds to his charm (002.0126, entry 1873-02-27)
 - Close friendship with Emile d'Audiffret: "le plus grand ami d'Audiffret" and "Boreel etait le maitre du petit Nicois en beaucoup de choses" (040.0086, 040.0090)
-- Appeared at Nice in December 1873 "tout en bleu avec son caniche bien rase" -- all in blue with his well-clipped poodle, on a dog-cart (014.0244, entry 1873-12-27)
+- Appeared at Nice in December 1873 "tout en bleu avec son caniche bien rase" -- all in blue with his well-clipped poodle, on a dog-cart (014.0241, entry 1873-12-27)
 - In 1874-75, seen in Spa with Gericke, who reports he was courting a woman in The Hague (021.0067, entry 1874-07-09)
 
 %% GLO_BOREEL.0015 %%
 ## Boreel's Coded Notation System
 
 %% GLO_BOREEL.0016 %%
-Before starting her written diary, Marie tracked her Boreel sightings using a coded notation system on earlier pages: "Un O indiquait que j'avais vu Boreel, autant de O autant de fois je l'avais vu. Une croix X, que je l'avais regarde et plusieurs que lui m'avait regardee" -- an O indicated she had seen Boreel, as many Os as times seen; an X that she had looked at him, and multiple Xs that he had looked at her (009.0071, entry 1873-09-06). This predates the diary proper and shows her systematic, almost scientific approach to romance even before she began writing.
+Before starting her written diary, Marie tracked her Boreel sightings using a coded notation system on earlier pages: "Un O indiquait que j'avais vu Boreel, autant de O autant de fois je l'avais vu. Une croix X, que je l'avais regarde et plusieurs que lui m'avait regardee" -- an O indicated she had seen Boreel, as many Os as times seen; an X that she had looked at him, and multiple Xs that he had looked at her (009.0070, entry 1873-09-06). This predates the diary proper and shows her systematic, almost scientific approach to romance even before she began writing.
 
 %% GLO_BOREEL.0017 %%
 ## Marie's Relationship with Boreel
@@ -108,7 +108,7 @@ Marie's attraction to Boreel began in the winter of 1871-72 when she was thirtee
 %% GLO_BOREEL.0019 %%
 ### Phase 2: Rivalry with Hamilton (Winter 1872-73)
 When the Duke of Hamilton appeared in Nice in December 1872, Boreel's star began to fade. Marie's diary from January-March 1873 records a dramatic internal struggle between her feelings for both men. Key moments:
-- She compares them explicitly: "Si quand je vois Boreel j'ai de la joie, c'est un rayon de soleil qui penetre dans mon coeur quand je vois le duc" -- if seeing Boreel brings joy, seeing the Duke is a sunbeam penetrating her heart (001.0065, entry 1873-02-01)
+- She compares them explicitly: "Si quand je vois Boreel j'ai de la joie, c'est un rayon de soleil qui penetre dans mon coeur quand je vois le duc" -- if seeing Boreel brings joy, seeing the Duke is a sunbeam penetrating her heart (001.0060, entry 1873-02-01)
 - She strategically uses her visible blushing for Boreel to disguise her feelings for the Duke (002.0061, entry 1873-02-17)
 - She throws flowers to him during carnival, then agonizes over whether he interpreted it as romantic interest (002.0070, entry 1873-02-23)
 - She learns his true identity (not Baron Finot) and is disappointed (002.0112, entry 1873-02-27)

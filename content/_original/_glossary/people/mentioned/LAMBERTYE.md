@@ -45,7 +45,7 @@ last_updated: 2026-05-25
 
 %% GLO_LAMBERTYE.0007 %%
 Marie's inventive cruelty toward Lambertye produces a rich lexicon of insults:
-- **Fedus / Fédus** -- From Latin *foedus* (ugly, foul). Marie's primary codename, used from spring 1874 onward. Her Latin tutor confused the spelling ("cette triple bête!" -- 019.0068). She also names a stray dog "Fedus" after him (019.0133).
+- **Fedus / Fédus** -- From Latin *foedus* (ugly, foul). Marie's primary codename, used from spring 1874 onward. Her Latin tutor confused the spelling ("cette triple bête!" -- 019.0068). She also names a stray dog "Fedus" after him (019.0132).
 - **Parvus Fedus** -- Latin for "small ugly one" (018.0004, 018.0005).
 - **le singe** (the monkey) -- Used from January 1874 (015.0092, 015.0103).
 - **le petit chapeau** (the little hat) -- Another diminutive nickname (018.0021).
@@ -65,7 +65,7 @@ Marie's inventive cruelty toward Lambertye produces a rich lexicon of insults:
 Lambertye first appears on **April 17, 1873** (004.0046), in a marginal note: "Mlle Collignon m'a grondée, parce que Lambertye m'a regardée avec un sourire" (Miss Collignon scolded me, because Lambertye looked at me with a smile). He is already a known figure -- Marie's governess considers his attention improper.
 
 %% GLO_LAMBERTYE.0011 %%
-By **May 5, 1873** (004.0082--0084), Marie calls him "Marquis de Lambertye" and sees him as a potential social stepping-stone: she prays fervently in English for God to arrange an introduction to the Duke of Hamilton *through* Lambertye, via the Pigeon Shooting club at Monaco. Marie's scheme: Lambertye leads to pigeon shooting leads to the Duke. On **May 7** (004.0068), she prays again: "Oh! si Dieu lui inspirait le désir de nous connaître" (Oh! if God would inspire in him the desire to know us). On **September 23, 1873** (010.0069), she recounts at dinner how Lambertye once asked about M. Randouin -- her father erupts in anger at the mention.
+By **May 5, 1873** (004.0081--0084), Marie calls him "Marquis de Lambertye" and sees him as a potential social stepping-stone: she prays fervently in English for God to arrange an introduction to the Duke of Hamilton *through* Lambertye, via the Pigeon Shooting club at Monaco. Marie's scheme: Lambertye leads to pigeon shooting leads to the Duke. On **May 7** (004.0067), she prays again: "Oh! si Dieu lui inspirait le désir de nous connaître" (Oh! if God would inspire in him the desire to know us). On **September 23, 1873** (010.0069), she recounts at dinner how Lambertye once asked about M. Randouin -- her father erupts in anger at the mention.
 
 %% GLO_LAMBERTYE.0012 %%
 ### Phase 2: The Winter Season -- Nice 1873--1874 (carnets 014--018)
@@ -117,7 +117,7 @@ On **April 1** (018.0056), Lambertye disappears with Maman's note. By **April 7*
 ### Phase 4: Paris Encounters -- Spring/Summer 1874 (carnets 019--022)
 
 %% GLO_LAMBERTYE.0022 %%
-In Paris, Lambertye becomes "Fedus" almost exclusively. On **May 14** (019.0073): "je crains qu'il ne soit marié avec l'Obélisque." On **May 26** (019.0107): "Comment n'ai-je pas encore vu Fedus?" On **May 29** (019.0067), a radiant encounter at the Bois de Boulogne -- "il se tourna, ouvrit des grands yeux et fit une mine si radieuse et étonnée, que... j'éclatais de rire." She names a stray dog after him. On **May 30** (020.0064--0071): "ce comte nu, ce Fedus charmant, cet Apollon fané" (this naked count, this charming Fedus, this faded Apollo). On **June 4** (020.0095--0114): her mother says "Et voilà Lambertoun!" On **June 23** (020.0053), leaving Paris, Marie lists Lambertye among her "amis" alongside Rothschild, Wittgenstein, and Chimay. At **Spa** on **July 1** (020.0127), she describes the Nice social scene to Basilévitch: "le comte de Lambertye fait la cour à tout le monde" (the Comte de Lambertye courts everyone). On **July 9** (021.0127), Dina teases: "Moussia, votre comte de Lambertye!" On **July 27** (022.0159), in a self-aware dialogue, Marie dismisses the obsession: "c'est une vieille histoire, crois-tu que je crois à ton Lambertye?... Lambertye me plaisait comme me plaisait Galve, Chimay... comme me plaît Zurberin, Clark, Gericke." He was one of many who pleased her superficially; Hamilton remained the singular obsession.
+In Paris, Lambertye becomes "Fedus" almost exclusively. On **May 14** (019.0073): "je crains qu'il ne soit marié avec l'Obélisque." On **May 26** (019.0106): "Comment n'ai-je pas encore vu Fedus?" On **May 29** (019.0067), a radiant encounter at the Bois de Boulogne -- "il se tourna, ouvrit des grands yeux et fit une mine si radieuse et étonnée, que... j'éclatais de rire." She names a stray dog after him. On **May 30** (020.0064--0071): "ce comte nu, ce Fedus charmant, cet Apollon fané" (this naked count, this charming Fedus, this faded Apollo). On **June 4** (020.0095--0114): her mother says "Et voilà Lambertoun!" On **June 23** (020.0053), leaving Paris, Marie lists Lambertye among her "amis" alongside Rothschild, Wittgenstein, and Chimay. At **Spa** on **July 1** (020.0126), she describes the Nice social scene to Basilévitch: "le comte de Lambertye fait la cour à tout le monde" (the Comte de Lambertye courts everyone). On **July 9** (021.0127), Dina teases: "Moussia, votre comte de Lambertye!" On **July 27** (022.0159), in a self-aware dialogue, Marie dismisses the obsession: "c'est une vieille histoire, crois-tu que je crois à ton Lambertye?... Lambertye me plaisait comme me plaisait Galve, Chimay... comme me plaît Zurberin, Clark, Gericke." He was one of many who pleased her superficially; Hamilton remained the singular obsession.
 
 %% GLO_LAMBERTYE.0023 %%
 ### Phase 5: Diminishing Returns -- 1874--1876 (carnets 024--064)
@@ -159,7 +159,7 @@ Lambertye occupies a unique position in Marie's emotional landscape. He is empha
 | Date | Carnet.Para | Event |
 |------|-------------|-------|
 | 1873-04-17 | 004.0046 | First appearance: Collignon scolds Marie for Lambertye's smile |
-| 1873-05-05 | 004.0082 | Marie prays for introduction through Lambertye to Hamilton |
+| 1873-05-05 | 004.0081 | Marie prays for introduction through Lambertye to Hamilton |
 | 1873-12-18 | 014.0031 | Monaco station, beginning of winter season |
 | 1873-12-22 | 014.0037 | "J'ai rarement vu un petit homme plus laid" |
 | 1873-12-23 | 014.0088 | Theater: "ne cesse pas de me regarder" |

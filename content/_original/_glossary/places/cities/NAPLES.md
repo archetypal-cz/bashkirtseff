@@ -70,7 +70,7 @@ The [canzone napoletana](https://en.wikipedia.org/wiki/Canzone_napoletana) tradi
 ### 1873: First Aspirational Mention
 
 %% GLO_NAPLES.0009 %%
-Naples first appears in the diary on April 30, 1873 (004.0068), when the fourteen-year-old Marie lists her dreams: "Je voudrais aller à Florence, à Naples, à Rome, étudier la peinture, le chant, la musique, à Nice c'est impossible." From the very beginning, Naples represented everything Nice could not offer -- artistic education, cultural richness, and escape from provincial mediocrity.
+Naples first appears in the diary on April 30, 1873 (004.0067), when the fourteen-year-old Marie lists her dreams: "Je voudrais aller à Florence, à Naples, à Rome, étudier la peinture, le chant, la musique, à Nice c'est impossible." From the very beginning, Naples represented everything Nice could not offer -- artistic education, cultural richness, and escape from provincial mediocrity.
 
 ### 1874: Imagined Refuge
 
