@@ -6,7 +6,7 @@
 - **Date range**: 1873-09-02 to 1873-09-22
 - **Location**: Nice
 - **Entries**: 21
-- **Paragraphs**: 009.0030 - 009.0328
+- **Paragraphs**: 009.0029 - 009.0312
 - **Marie's age**: 14
 
 ## Status
