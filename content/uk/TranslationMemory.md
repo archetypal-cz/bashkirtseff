@@ -677,14 +677,17 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 #### Carnet 023 Multilingual Conventions
 - "==дощовик==" (waterproof) — English word in French text; Ukrainian in the text, English → footnote (it is a raincoat)
 - "==Сіті==" — London financial district; English → footnote
+- "==грубуватий==" (blunt, 021: Macainne) — Marie's English word, also in 021.0058 where she praises the word itself; Ukrainian in the text, English → footnote (CON 2026-10-03)
+- "Original turkey with note paper" (021.0113) — label printed on her writing paper (Turkey = probably the Turkey Mill paper brand, not the country): ==Оригінальний папір «Turkey» для нотаток.== (CON 2026-10-03)
+- London House (Nice restaurant): Latin script «London House» in 022–023 too (CON 2026-10-03, per the rows above; «Лондон-Гаус»/«Лондон Гаус» removed in 022.0374, 023.0074, 023.0453)
 - "==усе гаразд!==" / "==усе гаразд==" (it is all right) — Marie's emphatic English code-switch; Ukrainian in the text, English → footnote
 - "==він нічого не значить==" (he is of no consequence) — English → footnote
 - "==вона дуже норовлива==" (she is very wild; wild = unruly, not violent) — English → footnote
-- "==я насолоджуюся ванною==" (I enjoy my bath) — English → footnote
-- "==вирушила==" (started) — English word used in French sentence; Ukrainian in the text, English → footnote
+- "==я насолоджуюся купанням==" (I enjoy my bath) — English → footnote. Ruling (2026-10-03, CON): corrected from «ванною» — the only occurrence (023.0356) is sea bathing at Ostend.
+- "==здригнулися==" (started) — English word used in French sentence; Ukrainian in the text, English → footnote. Ruling (2026-10-03, CON): corrected from «вирушила» — the only occurrence in 023 (023.0313.3, 08-25: «les deux messieurs … started, se poussèrent») means *startled*, not *set off*.
 - "==Його Світлість герцог Гамільтон==" ("His Grace the Duke of Hamilton" and "His Grace etc.") — translated, English → footnote; the abbreviation H.G.t.D.o.H. is kept as a code (see row)
 - "==ніжнішого==" / ==найніжніші== (tenerissimi) — Italian farewell; Ukrainian in the text, Italian → footnote (UNSURE: pick by grammatical context)
-- "==Бідолашна тварина!==" (Povera bestia!), "==Бридке створіння==" (Brutto; UNSURE) — Italian → footnote
+- "==Бідолашна тварина!==" (Povera bestia!), "==Бридко==" (Brutto) — Italian → footnote. Ruling (2026-10-03, CON): corrected from «Бридке створіння» — in 023.0242 *Brutto* comments on a prediction («C'est laid. Brutto.»), not on a creature; other occurrences (e.g. 056) by context.
 - "==звісно==" (of course) — English inserted in French; Ukrainian in the text, English → footnote
 - German verse (Walitsky's): Ukrainian rendering in the text (==…==), German original in the footnote (KRR 2026-10-03; replaces "preserve in German")
 - English verse (Walitsky's deliberately bad English): Ukrainian rendering that keeps the deliberate awkwardness (==…==), English original + note that it is intentionally bad → footnote
