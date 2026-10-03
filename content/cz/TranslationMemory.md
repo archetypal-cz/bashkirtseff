@@ -243,7 +243,7 @@ These override older per-carnet entries below where they conflict.
 - First appearance: 007 (1873-07-29)
 
 ### cocotte
-- Translation (Czech): kokota
+- Translation (Czech): koketa (OWNER ruling 2026-10-03, replaces earlier „kokota“; all forms swept: kokota→koketa, kokotka→koketka, kokotský/kokotí/kokotovský→koketní)
 - Context: Demimondaine/courtesan — keep Czech equivalent
 - First appearance: 007 (1873-07-26)
 
@@ -330,7 +330,7 @@ These override older per-carnet entries below where they conflict.
 - Translation (Czech): kurtizána
 - Context: Courtesan/kept woman — Marie uses it discussing Wittgenstein's mistress
 - First appearance: 016 (1874-01-30)
-- Notes: "kurtizána" in society context; "kokota" already established for 007
+- Notes: "kurtizána" in society context; "koketa" (formerly „kokota“) established for 007
 
 ### point d'appui
 - Translation (Czech): opěrný bod
