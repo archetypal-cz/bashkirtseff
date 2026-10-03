@@ -64,3 +64,6 @@ content/_raw/scans/
 
 # Tool caches and drafts (rebuild-plan docx dumps, scan maps, draft plans, source-completeness work files)
 /.cache/
+
+# Owner-exported paragraph_reports (reader text!): never commit
+reports*.csv

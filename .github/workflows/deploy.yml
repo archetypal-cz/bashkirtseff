@@ -7,8 +7,15 @@ on:
       - 'src/frontend/**'
       - 'src/shared/**'
       - 'content/**'
+      - 'src/auth/migrations/**'
+      - 'src/auth/db-deploy.sh'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:  # Allow manual trigger
+    inputs:
+      db_dry_run:
+        description: 'DB dry run: print the migration/renumber plan on aretea (runner --dry-run), change nothing, skip build and swap'
+        type: boolean
+        default: false
 
 # Queue, never cancel: a cancel kills the runner mid-deploy (inside the remote
 # `docker compose up --build` or the checkout update) and can leave the server
@@ -62,6 +69,7 @@ jobs:
           # below; docker compose interpolates them into the frontend build args.
           PUBLIC_UMAMI_URL: ${{ vars.PUBLIC_UMAMI_URL }}
           PUBLIC_UMAMI_WEBSITE_ID: ${{ vars.PUBLIC_UMAMI_WEBSITE_ID }}
+          DB_DRY_RUN: ${{ inputs.db_dry_run }}
         run: |
           # Wait for Tailscale to be ready
           sleep 5
@@ -84,17 +92,41 @@ jobs:
              docker builder prune -f --keep-storage 8GB && \
              df -h / | tail -1"
 
+          # The remote command is assembled in a variable and sent as ONE ssh argument.
+          # Chain (all && so any failure stops it and fails the job; see docs/DB_DEPLOY.md):
+          #   1. migrations   schema first, old container still serving
+          #   2. build        `docker compose build`, old container still serving
+          #   3. renumber     one transaction, right before the swap
+          #   4. swap         `docker compose up -d`, one automatic retry after 10s
+          # db_dry_run=true runs only the two runner plans (--dry-run) and changes nothing.
+          # The runner needs a full (non-shallow) checkout: unshallow once if needed.
+          # GIT_COMMIT is the pushed sha, passed in via env (GITHUB_SHA), never via an
+          # inline expression in the script text.
+          RUNNER="GIT_COMMIT='${GITHUB_SHA}' bash"
+          REMOTE="cd ${DEPLOY_PATH} && \
+            { [ \"\$(git rev-parse --is-shallow-repository)\" != true ] || git fetch --unshallow origin; } && \
+            git fetch origin main && \
+            git reset --hard origin/main"
+          if [ "${DB_DRY_RUN}" = "true" ]; then
+            echo "db_dry_run=true: plan only, no build, no renumber, no swap"
+            REMOTE="${REMOTE} && \
+              ${RUNNER} src/auth/db-deploy.sh migrations --dry-run && \
+              ${RUNNER} src/auth/db-deploy.sh renumber --dry-run"
+          else
+            REMOTE="${REMOTE} && \
+              ${RUNNER} src/auth/db-deploy.sh migrations && \
+              cd src/frontend && \
+              BUILD_DATE='$(date -u +%Y-%m-%dT%H:%M:%SZ)' \
+              PUBLIC_UMAMI_URL='${PUBLIC_UMAMI_URL}' \
+              PUBLIC_UMAMI_WEBSITE_ID='${PUBLIC_UMAMI_WEBSITE_ID}' \
+              GIT_COMMIT='${GITHUB_SHA}' \
+              docker compose build && \
+              ${RUNNER} ../auth/db-deploy.sh renumber && \
+              { docker compose up -d --force-recreate || { sleep 10 && docker compose up -d --force-recreate; }; }"
+          fi
+
           ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null \
-            "${DEPLOY_USER}@${DEPLOY_HOST}" \
-            "cd ${DEPLOY_PATH} && \
-             git fetch origin main && \
-             git reset --hard origin/main && \
-             cd src/frontend && \
-             GIT_COMMIT='${GITHUB_SHA}' \
-             BUILD_DATE='$(date -u +%Y-%m-%dT%H:%M:%SZ)' \
-             PUBLIC_UMAMI_URL='${PUBLIC_UMAMI_URL}' \
-             PUBLIC_UMAMI_WEBSITE_ID='${PUBLIC_UMAMI_WEBSITE_ID}' \
-             docker compose up -d --build"
+            "${DEPLOY_USER}@${DEPLOY_HOST}" "${REMOTE}"
 
       - name: Verify deployment
         env:

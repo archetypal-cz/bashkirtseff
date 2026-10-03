@@ -1,0 +1,32 @@
+name: DB seed check
+
+# Fails if src/auth/migrations/legacy-renumber-seed.tsv does not cover every top-level,
+# marker-less content/_renumber/*.sql (otherwise the next deploy would stop before the DB).
+# Fix: `just db-seed` and commit the result. See docs/DB_DEPLOY.md.
+on:
+  pull_request:
+    paths:
+      - 'content/_renumber/**'
+      - 'src/auth/migrations/**'
+      - 'src/auth/db-deploy.sh'
+      - '.github/workflows/db-seed-check.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'content/_renumber/**'
+      - 'src/auth/migrations/**'
+      - 'src/auth/db-deploy.sh'
+
+permissions:
+  contents: read
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify the legacy seed
+        run: bash src/auth/db-deploy.sh seed --check
