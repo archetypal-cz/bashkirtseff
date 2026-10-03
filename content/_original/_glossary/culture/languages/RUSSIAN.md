@@ -159,7 +159,7 @@ Marie quotes Russian proverbs in French translation, always attributing them as 
 - **Kopeck** (копейка) --- small Russian coin: "J'ai gagné quinze kopecks" (July 25, 1874)
 - **Rouble** (рубль) --- Russian currency unit, used frequently for financial matters: "vingt-cinq mille roubles à Dina" (July 29, 1873); "soixante mille roubles" (June 27, 1883)
 - **Armiak** (армяк) --- peasant's long coat: "une jackette... comme un armiak russe" (September 24, 1873)
-- **Stariovoi** --- old man / watchman
+- **Stariovoi** / **starovoï** (становой, *stanovoi pristav*) --- rural police official in charge of a police district; Marie glosses it herself as «fonctionnaire de la police» (102.0637); also *sous-starovoï*, his deputy (096.0438)
 
 ### Religious Vocabulary
 - **Plachtchanitsa** (плащаница) --- the embroidered cloth depicting Christ's burial, venerated on Good Friday; Marie's most emotionally charged Russian religious term, recurring at multiple Easter celebrations

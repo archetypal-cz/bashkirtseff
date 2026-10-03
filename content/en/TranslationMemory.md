@@ -4443,6 +4443,7 @@ When Marie writes in Italian/Latin/German/Russian/Spanish, or leaves a French ph
 - Notes: Keep French; it is an established art-historical term
 
 ### starovoï
+- **OWNER ruling (2026-10-03, KRR; applied CON 2026-10-03T20:23)**: *starovoï* / *stariovoi* = the Russian *stanovoi* (*становой*, *stanovoi pristav*), a rural police official, NOT the *starosta* (Marie's own gloss 102.0637 «fonctionnaire de la police»). → ==district constable== (*sous-starovoï* → ==deputy constable==; 096.0441 plural → ==district constables==), as 092; 102 keeps italic *starovoï* + her gloss ("— a police functionary —"). Footnotes state the police meaning plainly. Supersedes the village-elder Ruling (094–096) and every line below.
 - Translation: ==rural official== (original → footnote, KRR 2026-10-03)
 - SUPERSEDED (Ruling 2026-10-03, CON en 094–096): plain uses → ==village elder== with the stanovoi doubt in the footnote; Marie's self-glossed use in 102 stays italic *starovoï* — see "Renderings used in en 094–096".
 - Context: Russian: lower-level rural administrative or police official; carries connotations of provincial vulgarity
@@ -4555,6 +4556,7 @@ When Marie writes in Italian/Latin/German/Russian/Spanish, or leaves a French ph
 ## Carnet 096 Additions (Aug–Oct 1882, Paris & Gavronzi)
 
 ### starovoï / starosta (village headman)
+- SUPERSEDED by OWNER ruling 2026-10-03: *starovoï* = stanovoi (police official), not starosta → ==district constable== — see "### starovoï" above.
 - Translation: *starovoï* (keep, footnote on first use per carnet)
 - SUPERSEDED (Ruling 2026-10-03, CON en 094–096): → ==village elder==, *starovoï* in the footnote — see "Renderings used in en 094–096".
 - Context: The elected village elder or headman; responsible for order, tax collection, and liaison with estate owners; invited to the Dikanka hunt dinner as a courtesy
