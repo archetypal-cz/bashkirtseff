@@ -7,23 +7,12 @@ type: Place
 category: places/parks
 research_status: Basic
 last_updated: 2026-10-02
+status: retired
+replaced_by: BAGATELLE_DOG
 ---
-# Bagatelle
 
-## Basic Information
-- Type: places - parks
-- Status: Stub entry (automatically generated)
+%% GLO_BAGATELLE.0001 %%
+**Retired.** Every 'Bagatelle' tag in the diary (1874-1880, including 072, 084, 088) is Marie's bulldog, not a park. Use [#Bagatelle (the dog)](../../people/mentioned/BAGATELLE_DOG.md) instead.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
-
-%% GLO_BAGATELLE.9000 %%
-%% 2026-10-02T14:00:00 RSR: Moved from people/mentioned/BAGATELLE.md (a place filed under people). Body copied unchanged. %%
+%% GLO_BAGATELLE.0002 %%
+%% 2026-10-03T14:00:00 RSR: Corrected on tag-lead's reading of 072, 084 and 088 ("cette pauvre Bagatelle... bulldog", "Bagatelle (le bulldog)"). %%
