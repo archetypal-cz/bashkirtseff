@@ -2001,3 +2001,19 @@ These override older per-carnet entries below where they conflict.
 - «I!» after *impudence* (092.0194) and *artiste encore* (092.0323), and after *vrai* (093.0015) are OCR slips for «!!» (082–084 row): rendered „!!“; the old footnotes calling them English or a quirk were removed.
 - A telegram whose text Marie gives (091.0255, „Zatelegrafuji otci: …“) goes in „…“ (085–087 row). Dash-led copied letters without a speaker (091.0103) keep the dash (054 row).
 - Marie's own interjection after quoted speech stays outside the quotes: „…a složí se“ (doslova)! (092/06-19, *(textuel)*).
+
+### Reading-conventions renderings, carnets 067–069 (CON 2026-10-03)
+- *n'importe* (068.0090, «le fameux n'importe», a speaker's catchphrase) → `==to je jedno==` + footnote. *Tant pis* (067.0927, the father's word) → `==Tím hůř.==`
+- *mon fils* (069.0363, Marie's ironic self-address) → `==můj synu==`; „můj synu“ already in Czech before the wave (067/12-10) is not retro-highlighted.
+- *café chantant* (068.0338) → `==varietní kavárna==` per the 073–075 row (worker's ==šantán== replaced).
+- *fast* (Marie's English, 068.0802, of a too-free look) → `==vyzývavě==` (adjective ==vyzývavý==).
+- *carrozello* (069.0588, hired Neapolitan cab) → `==pronajatý vozík==`; the poster joke *appalto sospeso* (069.0170) → `==smlouva pozastavena==` (footnote keeps the unverified sense).
+- *gettatura* (069/03-14, 03-31) → `==zlé oko==`. *principino* (069.0565) → `==princátko==` per the 064–066 row (neuter: „Moje princátko se stalo…“).
+- *par excellence* (069.0683) is naturalised like *nec plus ultra*: plain, gloss footnote, no wrapper (worker's ==v pravém slova smyslu== reverted).
+- *rink* («au rink», Nice/Rome) stays plain „rink“ (declined „na rinku“), like the Skating-rink venue; the worker's ==kluziště== (067.1499) was reverted. Notes on *Skating* / *Skating-rink* say „anglický název…“, never „V originále anglicky“ (079–081 row). Contrast the generic rink of 087 (==kluziště==).
+- *sorokas* (068.0284) stays italic with its gloss, per the 053 Soroka row (Marie's code word).
+- *Madame* left in French in the Czech (069 ×10) → plain Czech, no wrapper (073–075 address-forms row): „milostpaní“ (Rosalie-style reference to Marie's mother), „milostivá paní“ (direct address, „milostivá paní má matka“ for her ironic *Madame ma mère*), „paní“ (Mme Fabbricatore, Mme Hamontoff). The nickname „Madame Šelma“ stays.
+- *comme il faut* already translated before the wave (068.0122 „člověk jak náleží“, 068.0508/0541 „slušný“, 069.0063 „slušní lidé, jak se patří“) is not retro-highlighted (064–066 row; the worker's ==slušný== undone). Converted only where the French was still in the text: 068.0822 `==slušná==`.
+- *table d'hôte*: already translated earlier („společná tabule“, 068.0355, 068.1620) stays Czech; where earlier passes kept it, it stays naturalised and plain (owner 2026-10-03).
+- Italian verses 068.1137–1140 (Marie's garbled Italian) are translated freely, without rhyme, wrapped `==…==`; one note on the introducing paragraph 068.1136 says „následující čtyři odstavce“.
+- *La Jeunesse du roi Henri* (Ponson du Terrail; 067 ×4) stays French in italics with a „doslova Mládí krále Jindřicha“ gloss (the worker found no established Czech title). Earlier cz had the Czech title in the text. Owner may verify.
