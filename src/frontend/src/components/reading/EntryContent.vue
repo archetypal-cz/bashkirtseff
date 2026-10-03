@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue';
 import { useFilterStore } from '../../stores/filter';
+import { useStarsStore } from '../../stores/stars';
+import { useAuthStore } from '../../stores/auth';
+import { isStarrableId } from '../../lib/stars';
 import { useHydrated } from '../../composables/useHydrated';
 import type { SupportedLocale } from '../../i18n';
 import ParagraphToolbar from './ParagraphToolbar.vue';
@@ -58,6 +61,13 @@ const filterStore = useFilterStore();
 // Shared Pinia: the filter may already be restored by another island, so the
 // first client render must ignore it to match the server HTML (no filter).
 const hydrated = useHydrated();
+
+// Starred markers: applied only after mount (shared Pinia, same hydration rule).
+const stars = useStarsStore();
+const auth = useAuthStore();
+function isStarredPara(id: string): boolean {
+  return hydrated.value && auth.isAuthenticated && isStarrableId(id) && stars.isStarred(id);
+}
 
 onMounted(() => {
   filterStore.init();
@@ -159,9 +169,11 @@ const renderItems = computed<RenderItem[]>(() => {
       <div
         :id="item.paragraph.htmlId"
         class="paragraph-container scroll-mt-24"
+        :class="{ 'is-starred': isStarredPara(item.paragraph.id) }"
         :data-paragraph-id="item.paragraph.id"
         :style="isTranslation ? 'perspective: 1000px;' : undefined"
       >
+        <span v-if="isStarredPara(item.paragraph.id)" class="star-marker" aria-hidden="true">&#9733;</span>
         <ParagraphToolbar
           :paragraphId="item.paragraph.id"
           :htmlContent="item.paragraph.html"
@@ -200,9 +212,11 @@ const renderItems = computed<RenderItem[]>(() => {
         <div
           :id="p.htmlId"
           class="paragraph-container scroll-mt-24"
+          :class="{ 'is-starred': isStarredPara(p.id) }"
           :data-paragraph-id="p.id"
           :style="isTranslation ? 'perspective: 1000px;' : undefined"
         >
+          <span v-if="isStarredPara(p.id)" class="star-marker" aria-hidden="true">&#9733;</span>
           <ParagraphToolbar
             :paragraphId="p.id"
             :htmlContent="p.kindBodyHtml ?? p.html"
@@ -234,3 +248,23 @@ const renderItems = computed<RenderItem[]>(() => {
     />
   </template>
 </template>
+
+<style scoped>
+.paragraph-container.is-starred {
+  position: relative;
+}
+.star-marker {
+  position: absolute;
+  left: -1.1rem;
+  top: 0.35rem;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: var(--color-accent, #9A4707);
+  pointer-events: none;
+}
+@media (max-width: 640px) {
+  .star-marker {
+    left: -0.85rem;
+  }
+}
+</style>

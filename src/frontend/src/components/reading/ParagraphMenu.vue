@@ -7,6 +7,7 @@ import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
 import { themeName } from '../../lib/theme-names';
 import ReportDialog from './ReportDialog.vue';
+import { useStarItem } from '../../composables/useStarItem';
 
 const auth = useAuthStore();
 
@@ -114,6 +115,26 @@ function handleSignInToReport() {
   auth.signIn();
 }
 
+// ─── Star (000 page only; glossary ids are not starrable) ────────────
+// Language = the ROUTE language (props.language, url path; undefined = original).
+const { canStar, showSignIn, starred, toggleStar } = useStarItem(
+  () => props.paragraphId,
+  () => props.language,
+  'paragraph_menu',
+);
+
+function handleStar() {
+  closeMenu();
+  toggleStar();
+}
+
+function handleSignInToStar() {
+  closeMenu();
+  trackEvent('auth_sign_in_click', { source: 'paragraph_menu_star' });
+  if (!localStorage.getItem('auth-consent')) localStorage.setItem('auth-consent', '1');
+  auth.signIn();
+}
+
 onMounted(() => {
   mounted.value = true;
   canShare.value = !!navigator.share;
@@ -136,13 +157,15 @@ onMounted(() => {
       class="menu-toggle"
       :class="{ 'has-tags': glossaryTags && glossaryTags.length > 0 }"
       :aria-expanded="isOpen"
-      :aria-label="(glossaryTags?.length ? t('paragraph.relatedItems', { count: glossaryTags.length }) : t('paragraph.options')) + ' ' + paragraphId"
+      :aria-label="(glossaryTags?.length ? t('paragraph.relatedItems', { count: glossaryTags.length }) : t('paragraph.options')) + ' ' + paragraphId + (starred ? t('stars.starredSuffix') : '')"
       :title="glossaryTags?.length ? t('paragraph.relatedItems', { count: glossaryTags.length }) : t('paragraph.options')"
     >
       <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
       </svg>
     </button>
+    <!-- Filled star marker (hydrated + starred only) -->
+    <span v-if="starred" class="star-marker" aria-hidden="true">&#9733;</span>
 
     <!-- Bottom sheet modal - deferred to avoid SSR hydration mismatch -->
     <Teleport v-if="mounted" to="body">
@@ -177,6 +200,22 @@ onMounted(() => {
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                 </svg>
                 <span aria-live="polite">{{ copied ? t('paragraph.copied') : t('paragraph.copyLink') }}</span>
+              </button>
+
+              <!-- Star (signed in, incl. offline session) -->
+              <button v-if="canStar" @click="handleStar" class="menu-item" :aria-pressed="starred">
+                <svg class="w-4 h-4" :fill="starred ? 'currentColor' : 'none'" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.48 3.5a.56.56 0 011.04 0l2.13 5.11a.56.56 0 00.47.35l5.52.44c.5.04.7.66.32.99l-4.2 3.6a.56.56 0 00-.18.56l1.28 5.39a.56.56 0 01-.84.61l-4.73-2.89a.56.56 0 00-.59 0l-4.73 2.89a.56.56 0 01-.84-.61l1.28-5.39a.56.56 0 00-.18-.56l-4.2-3.6a.56.56 0 01.32-.99l5.52-.44a.56.56 0 00.47-.35L11.48 3.5z" />
+                </svg>
+                <span>{{ starred ? t('stars.starred') : t('stars.star') }}</span>
+              </button>
+
+              <!-- Sign in to star (signed out) -->
+              <button v-else-if="showSignIn" @click="handleSignInToStar" class="menu-item menu-item--muted">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.48 3.5a.56.56 0 011.04 0l2.13 5.11a.56.56 0 00.47.35l5.52.44c.5.04.7.66.32.99l-4.2 3.6a.56.56 0 00-.18.56l1.28 5.39a.56.56 0 01-.84.61l-4.73-2.89a.56.56 0 00-.59 0l-4.73 2.89a.56.56 0 01-.84-.61l1.28-5.39a.56.56 0 00-.18-.56l-4.2-3.6a.56.56 0 01.32-.99l5.52-.44a.56.56 0 00.47-.35L11.48 3.5z" />
+                </svg>
+                <span>{{ t('stars.signInToStar') }}</span>
               </button>
 
               <!-- Report issue (authenticated) -->
@@ -237,6 +276,17 @@ onMounted(() => {
 .paragraph-menu {
   position: relative;
   display: inline-flex;
+}
+
+.star-marker {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  line-height: 1;
+  color: var(--color-accent, #9A4707);
+  pointer-events: none;
 }
 
 .menu-toggle {

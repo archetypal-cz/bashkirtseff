@@ -5,6 +5,7 @@ import { trackEvent } from '../../lib/analytics';
 import { useAuthStore } from '../../stores/auth';
 import ReportDialog from './ReportDialog.vue';
 import { languageTitle } from '../../lib/language-labels';
+import { useStarItem } from '../../composables/useStarItem';
 
 const auth = useAuthStore();
 
@@ -171,6 +172,34 @@ onMounted(() => {
   auth.init().catch(() => {});
 });
 
+// ─── Star ────────────────────────────────────────────────────────────
+// Language stored with the star is the ROUTE language (props.language = url
+// path), not the source language in `languages` ('fr' would mean the modern edition).
+const { canStar, showSignIn, starred, toggleStar } = useStarItem(
+  () => props.paragraphId,
+  () => props.language,
+  'paragraph_toolbar',
+);
+
+function handleStar() {
+  closeMenu();
+  toggleStar();
+}
+
+function handleSignInToStar() {
+  closeMenu();
+  trackEvent('auth_sign_in_click', { source: 'paragraph_toolbar_star' });
+  if (!localStorage.getItem('auth-consent')) localStorage.setItem('auth-consent', '1');
+  auth.signIn();
+}
+
+const menuButtonLabel = computed(() => {
+  const base = hasGlossaryTags.value
+    ? t('paragraph.relatedItems', { count: props.glossaryTags!.length })
+    : t('paragraph.options');
+  return starred.value ? base + t('stars.starredSuffix') : base;
+});
+
 // ─── Report dialog ───────────────────────────────────────────────────
 
 const reportDialog = ref<InstanceType<typeof ReportDialog> | null>(null);
@@ -210,7 +239,8 @@ const hasOriginal = computed(() => !!props.originalHtml);
         class="toolbar__btn toolbar__btn--dots"
         :class="{ 'toolbar__btn--has-tags': hasGlossaryTags }"
         :aria-expanded="isMenuOpen"
-        :title="hasGlossaryTags ? t('paragraph.relatedItems', { count: glossaryTags!.length }) : t('paragraph.options')"
+        :aria-label="menuButtonLabel"
+        :title="menuButtonLabel"
       >
         <svg class="toolbar__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
@@ -297,6 +327,22 @@ const hasOriginal = computed(() => !!props.originalHtml);
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                 </svg>
                 <span aria-live="polite">{{ copied ? t('paragraph.copied') : t('paragraph.copyLink') }}</span>
+              </button>
+
+              <!-- Star (signed in, incl. offline session) -->
+              <button v-if="canStar" @click="handleStar" class="menu-item" :aria-pressed="starred">
+                <svg class="menu-item__icon" :fill="starred ? 'currentColor' : 'none'" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.48 3.5a.56.56 0 011.04 0l2.13 5.11a.56.56 0 00.47.35l5.52.44c.5.04.7.66.32.99l-4.2 3.6a.56.56 0 00-.18.56l1.28 5.39a.56.56 0 01-.84.61l-4.73-2.89a.56.56 0 00-.59 0l-4.73 2.89a.56.56 0 01-.84-.61l1.28-5.39a.56.56 0 00-.18-.56l-4.2-3.6a.56.56 0 01.32-.99l5.52-.44a.56.56 0 00.47-.35L11.48 3.5z" />
+                </svg>
+                <span>{{ starred ? t('stars.starred') : t('stars.star') }}</span>
+              </button>
+
+              <!-- Sign in to star (signed out) -->
+              <button v-else-if="showSignIn" @click="handleSignInToStar" class="menu-item menu-item--muted">
+                <svg class="menu-item__icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.48 3.5a.56.56 0 011.04 0l2.13 5.11a.56.56 0 00.47.35l5.52.44c.5.04.7.66.32.99l-4.2 3.6a.56.56 0 00-.18.56l1.28 5.39a.56.56 0 01-.84.61l-4.73-2.89a.56.56 0 00-.59 0l-4.73 2.89a.56.56 0 01-.84-.61l1.28-5.39a.56.56 0 00-.18-.56l-4.2-3.6a.56.56 0 01.32-.99l5.52-.44a.56.56 0 00.47-.35L11.48 3.5z" />
+                </svg>
+                <span>{{ t('stars.signInToStar') }}</span>
               </button>
 
               <!-- Report issue (authenticated) -->

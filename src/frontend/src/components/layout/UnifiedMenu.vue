@@ -9,6 +9,7 @@ import { trackEvent } from '../../lib/analytics';
 import { calendarDefaultOpen } from '../../lib/calendar-default';
 import CalendarWidget from '../CalendarWidget.vue';
 import UserMenu from '../auth/UserMenu.vue';
+import StarNotice from '../stars/StarNotice.vue';
 import type { FilterCategory, FilterTag } from '../../types/filter-index';
 
 // UI locale the server rendered this island in (Header.astro passes the page's).
@@ -404,6 +405,9 @@ onUnmounted(() => {
 
 <template>
   <div class="unified-menu-wrapper">
+    <!-- Stars: offline-pending / cap / error notice (once per page) -->
+    <StarNotice :pageLocale="pageLocale" />
+
     <!-- Toggle button: pill with hamburger + filter icon -->
     <button
       class="unified-menu-toggle"
