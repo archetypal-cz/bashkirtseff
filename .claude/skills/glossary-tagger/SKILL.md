@@ -136,10 +136,10 @@ For each batch file:
   - Wrong entity: a stub/duplicate when a better glossary entry exists (e.g., CERCLE stub vs CERCLE_DE_LA_MEDITERRANEE)
   - Match in a comment (RSR/LAN) rather than in diary text
   - Compound name only partially matching (e.g., VICTOR matching "Victor-Emmanuel" — use VICTOR_EMMANUEL instead)
-- For people's names (Broussais, Pelikan, Larderei, etc.): usually ACCEPT — names are unambiguous
+- For people's names (Broussais, Pelikan, Larderel, etc.): usually ACCEPT — names are unambiguous
 - For "Maman": ACCEPT — it's Marie's mother
 - For known misclassified stubs in people/mentioned/ (CERCLE, MEDITERRANEE, SKATING, ITALIE, ESPAGNE, etc.): REJECT unless the entity is genuinely about a person
-- For efficiency: once you verify a recurring name (e.g., Larderei appears 70x), batch-accept all occurrences
+- For efficiency: once you verify a recurring name (e.g., Larderel appears 70x), batch-accept all occurrences
 
 ## Output
 For EACH batch, write a result file: `/tmp/glossary-eval/<CARNET>/<batchId>-result.json`
@@ -178,7 +178,7 @@ For each batch:
 - **"Jean"** → Multiple possible people. Check if it's a person name or part of a place name ("Saint-Jean de Latran")
 - **"Dieu"** → REJECT if it's an exclamation ("mon Dieu!", "bon Dieu!"). ACCEPT only if genuinely discussing God/religion as a topic
 - **"Marie"** → REJECT — it's the diarist herself, not a glossary reference. Exception: if the text discusses "Marie" as a third person
-- **"Alexandre"** → HIGH-COLLISION name: in carnets 072-074 alone, bare "Alexandre" mapped to FIVE referents (Larderei, Marie's uncle, Tsar Alexander II, Dumas, Batourine). Auto-tagging the bare name to one entity regardless of true referent is the known failure mode (uk-072-074) — the per-paragraph RSR comment is the authoritative referent signal; read it before accepting
+- **"Alexandre"** → HIGH-COLLISION name: in carnets 072-074 alone, bare "Alexandre" mapped to FIVE referents (Larderel, Marie's uncle, Tsar Alexander II, Dumas, Batourine). Auto-tagging the bare name to one entity regardless of true referent is the known failure mode (uk-072-074) — the per-paragraph RSR comment is the authoritative referent signal; read it before accepting
 - **"Peinture"** → REJECT if just generic "painting". Too common a word
 - **"Promenade"** → REJECT if generic "walk". ACCEPT only if referring to a specific promenade (e.g., Promenade des Anglais)
 - **"Aida"** → Verdi's opera. Usually ACCEPT
