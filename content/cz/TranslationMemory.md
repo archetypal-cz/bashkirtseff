@@ -797,6 +797,12 @@ These override older per-carnet entries below where they conflict.
 - First appearance: 055 (throughout)
 - Notes: Marie's Ariosto quotation: Czech verse in the text, her own spelling errors ("vagine"/"paghi" for "vaghe") quoted exactly in the footnote.
 
+### Miserere ! (Marie's Latin tic, 1873–1875)
+- Translation (Czech): ==Smiluj se!== (mid-sentence lowercase ==smiluj se==); footnote at the first occurrence per entry: `Pozn. překl.: V originále latinsky: „Miserere !“ – úvodní slovo Žalmu 51 („Smiluj se nade mnou, Bože“), Mariino zoufalé zvolání.` (quote her exact form: „miserere“, „Miserere.“).
+- Variants (CON 2026-10-03, cz 015–017): «triple / double Miserere !» → „Třikrát / Dvakrát ==smiluj se!==“ (not „trojité/dvojité“); noun use «mon triple miserere» → „své trojí ==smiluj se==“; «Quel miserere !» → „To je k ==smilování==!“.
+- First appearance: 002 (1884 margin note); dense in 014–019.
+- Other recurring English renderings fixed in 015–017 (indicative): "foggy" → ==mlhavo==, "waterproof" → ==nepromokavý plášť==, "canter" → ==krátkým cvalem==, "nonsenses" → ==nesmysly==, "walk" / "for a walk" → ==na procházku==, "drive(s)" → ==jet / projíždět se==. Marie's own place-coinage "outside" (017) and the pun "bino-eie" (015) stay in italics with a note. Titles without an established Czech form stay French in italics + gloss (*Les décavés*, *La jolie parfumeuse*, *Les courtisanes du monde*, *Louis XIV et son siècle*); established ones go Czech with the original in the footnote („Favoritka“, „Iliada“, „Gulliverovy cesty“).
+
 ### Bigre / Bigre de bigre — carnet 055
 - Translation (Czech): U sta hromů / U sta hromů hromských
 - Context: Continues 053; Marie's recurring mild oath
