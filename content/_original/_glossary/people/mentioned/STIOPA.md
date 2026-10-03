@@ -48,3 +48,6 @@ Affectionate uncle who "finds her beautiful because he loves her." Brings Russia
 - Exact relationship (maternal or paternal side?)
 - Occupation or social position
 - Connection to other Russian visitors
+
+%% GLO_STIOPA.9200 %%
+%% 2026-10-03T12:00:00 RSR: STIOPA = Uncle Stiopa (Stepan Babanine, husband of Machenka; same man as TANTE_ETIENNE's 'Stepa Babanine/Uncle Etienne'). The little boy Stiopa of 1875 (029/1875-02-07 to 030/1875-04-01) is a different person: STIOPA_ENFANT. 020/1874-06-10 'Maria Dimitrievna... mène Stiopa' = the uncle. %%

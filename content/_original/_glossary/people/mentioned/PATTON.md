@@ -7,18 +7,12 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-03
+status: retired
+replaced_by: M_PATTON
 ---
-# Patton
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-01
-**Diary Coverage**: Up to 1873-05-03
+%% GLO_PATTON.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#M_PATTON](M_PATTON.md) (`people/mentioned/M_PATTON.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-A dinner guest at the Bashkirtseff home on May 3, 1873, for Marie's mother's name day celebration. Listed among the guests along with the Anitchkoffs and Lefevre.
-
-The English/Scottish surname suggests this may be a member of the British expatriate community in Nice.
-
-%% 2025-07-01T00:00:00 RSR: Need more information about this person's relationship to the family %%
-
-%% GLO_PATTON.9000 %%
-%% 2026-10-03T10:00:00 RSR: Moved from places/hotels/PATTON.md. Body copied unchanged. %%
+%% GLO_PATTON.0002 %%
+%% 2026-10-03T12:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/M_PATTON.md. %%

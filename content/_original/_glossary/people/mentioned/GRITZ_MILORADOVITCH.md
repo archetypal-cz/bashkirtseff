@@ -2,6 +2,7 @@
 id: GRITZ_MILORADOVITCH
 name: Gritz Miloradovitch
 aliases:
+  - Gritsia
   - Gritz Miloradovitch
   - Miloradovitch
 type: Person

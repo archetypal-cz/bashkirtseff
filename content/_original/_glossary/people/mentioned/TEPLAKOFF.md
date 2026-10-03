@@ -8,29 +8,12 @@ type: Person
 category: people/mentioned
 research_status: Basic
 last_updated: 2026-10-03
+status: retired
+replaced_by: MME_TEPLAKOFF
 ---
-# Mme Teplakoff
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-01-25
+%% GLO_TEPLAKOFF.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#MME_TEPLAKOFF](MME_TEPLAKOFF.md) (`people/mentioned/MME_TEPLAKOFF.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Identity
-Russian lady in Nice society, frequently ill.
-
-## Diary References
-
-### 1874
-- **January 25**: Still sick, visited by Bashkirtseffs after church.
-
-### 1873
-- Multiple references to illness and visits
-
-## Context
-- Russian surname (Теплаков)
-- Part of expatriate community
-- Chronic health issues
-- Receives regular sick visits from society
-
-%% GLO_TEPLAKOFF.9000 %%
-%% 2026-10-03T10:00:00 RSR: Moved from places/churches/TEPLAKOFF.md. Body copied unchanged. %%
+%% GLO_TEPLAKOFF.0002 %%
+%% 2026-10-03T12:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/MME_TEPLAKOFF.md. %%

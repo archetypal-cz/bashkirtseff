@@ -7,26 +7,13 @@ aliases:
 type: Place
 category: places/hotels
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: MME_DE_MOUCHY
 ---
-# Duc et Duchesse de Mouchy
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-03-30
+%% GLO_MOUCHY.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#MME_DE_MOUCHY](../../people/mentioned/MME_DE_MOUCHY.md) (`people/mentioned/MME_DE_MOUCHY.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Identity
-French noble couple, the Duke and Duchess of Mouchy, part of the high aristocracy visiting Nice.
-
-## Diary References
-
-### 1874
-- **February 14**: Arrive at the concert with "l'Obélisque" (tall lady) and others. The duchess is described as very tall and imposing. Marie observes them in the orchestra seats while she feels socially isolated.
-- **March 30**: At Monaco concert, Lambertye says something to the duchess and they both turn to look at Marie.
-
-## Context
-- French high nobility
-- Part of the international aristocratic society in Nice
-- Associated with other French nobles including Lambertye
-- Their presence at social events represents the pinnacle of society that Marie desperately wants to access
-- The duchess's imposing physical presence makes her particularly notable to Marie
+%% GLO_MOUCHY.0002 %%
+%% 2026-10-03T12:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/MME_DE_MOUCHY.md. %%

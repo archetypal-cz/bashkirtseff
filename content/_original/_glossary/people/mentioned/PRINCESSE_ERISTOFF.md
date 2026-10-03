@@ -25,3 +25,6 @@ last_updated: 2026-03-06
 - Created: 2026-01-06
 - Auto-generated stub from broken link detection
 - Needs proper research and content
+
+%% GLO_PRINCESSE_ERISTOFF.9200 %%
+%% 2026-10-03T12:00:00 RSR: KEEP APART from PRINCESS_ERISTOFF (the Princess Eristoff of Spa, July 1874, carnets 020-022). Michel and Michka Eristoff are the sons; see MICHEL. %%

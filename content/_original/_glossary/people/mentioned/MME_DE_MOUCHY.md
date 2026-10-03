@@ -2,12 +2,13 @@
 id: MME_DE_MOUCHY
 name: Mme de Mouchy
 aliases:
+  - Duc et Duchesse de Mouchy
   - Mme de Mouchy
   - Mouchy
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
 ---
 # Mme de Mouchy
 

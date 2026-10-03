@@ -6,23 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-03
+status: retired
+replaced_by: GRITZ_MILORADOVITCH
 ---
-# Gritsia
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-02-09
+%% GLO_GRITSIA.0001 %%
+**Retired.** Duplicate entry for the same referent. Use [#GRITZ_MILORADOVITCH](GRITZ_MILORADOVITCH.md) (`people/mentioned/GRITZ_MILORADOVITCH.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Identity
-Person discussed by family as potential marriage prospect.
-
-## Diary References
-
-### 1874
-- **February 9**: When Marie tries to have serious conversation about her future at 16, family deflects by talking about Gritsia and Finot.
-
-## Context
-- Potential suitor
-- Part of marriage discussions
-- Marie not interested in discussing him
+%% GLO_GRITSIA.0002 %%
+%% 2026-10-03T12:00:00 RSR: Retired in the 2026 tag audit glossary follow-ups. replaced_by: people/mentioned/GRITZ_MILORADOVITCH.md. %%
