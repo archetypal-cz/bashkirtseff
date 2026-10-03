@@ -18,3 +18,6 @@ The old M. d'Audiffret of the Tour Audiffret in Nice, to whom Marie addresses le
 
 %% GLO_LEON_D_AUDIFFRET.0003 %%
 %% 2026-10-03T12:00:00 RSR: 1875-10-01 (045): a letter addressed to "M. Léon d'Audiffret, Tour Audiffret". 1875-10-06 (046): "j'ai appelé le vieux d'Audiffret papa". 1875-11-09 (049): "Ce sera envoyé à M. Léon d'Audiffret." 1875-12-02 (050): "Prédiction de Cassandre à M. Léon d'Audiffret." 1876-01-24 (053): struck-out dedication to him. %%
+
+%% GLO_LEON_D_AUDIFFRET.9400 %%
+%% 2026-10-03T16:00:00 RSR: IDENTITY UNCONFIRMED: kinship to Emile d'Audiffret not established (owner ruling 2026-10-03: kept separate; 'le vieux d'Audiffret papa' is Marie's joke, 046/1875-10-06). %%

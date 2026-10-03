@@ -18,4 +18,7 @@ last_updated: 2026-10-03
 The composer-pianist, cited by Marie as the standard of virtuosity and of men who "ont empoigné leur monde".
 
 %% GLO_LISZT.0003 %%
-%% 2026-10-03T12:00:00 RSR: 1877-02-11 (068): hands whose finger agility "ferait crever de jalousie Liszt lui-même". 1883-11-16 (102): she holds a study on Chopin and Liszt: "Voilà des hommes qui ont empoigné leur monde... il ne faut pas chercher des Chopin et des Liszt, il faut être soi-même." 1875-12-29 (051): among letters of introduction for Rome, one "pour l'abbé Litsz" - the identification with the composer, who lived in Rome as an abbé, is an inference. Carnet notes: only two or three passages. %%
+%% 2026-10-03T12:00:00 RSR: 1877-02-11 (068): hands whose finger agility "ferait crever de jalousie Liszt lui-même". 1883-11-16 (102): she holds a study on Chopin and Liszt: "Voilà des hommes qui ont empoigné leur monde... il ne faut pas chercher des Chopin et des Liszt, il faut être soi-même." 1875-12-29 (051): among letters of introduction for Rome, one "pour l'abbé Litsz" . Carnet notes: only two or three passages. %%
+
+%% GLO_LISZT.9400 %%
+%% 2026-10-03T16:00:00 RSR: IDENTIFICATION LOCKED (owner ruling, KRR, 2026-10-03): "l'abbé Litsz" of 051/1875-12-29 (a letter of introduction handed to Marie's family for Rome, among letters to Mgr de Falloux, Contessa Antonelli and Cardinal Antonelli) = Franz Liszt, who had taken minor orders (abbé) in 1865 and lived in Rome. Diary evidence: the letter is for a churchman of Rome with the spelling "Litsz". Source: owner ruling 2026-10-03. Tag 051/1875-12-29 as LISZT. %%

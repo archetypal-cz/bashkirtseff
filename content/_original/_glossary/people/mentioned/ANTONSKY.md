@@ -29,3 +29,6 @@ Mme Antonsky - member of Nice society whom Marie's mother visits.
 - Nationality (Russian surname)
 - Husband's position
 - Connection to Bashkirtseff family
+
+%% GLO_ANTONSKY.9400 %%
+%% 2026-10-03T16:00:00 RSR: IDENTITY UNCONFIRMED: Nice 1873-74 Mme Antonsky and her daughter Sonia (later Mme Warrodel, 014-016) versus the Antonsky of 081/1878-07-13 and 082/1878-08-12; whether the three stubs ANTONSKY, MME_ANTONSKY and M_ANTONSKY are one family is not shown. Kept separate by owner ruling 2026-10-03. %%
