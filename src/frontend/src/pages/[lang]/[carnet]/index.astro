@@ -9,6 +9,7 @@ import { getCarnets, getCarnetEntries, getEntry, hasTranslation, isCarnetCrossYe
 import { DIARY_LANGUAGES, glossaryUrl, buildHreflangAlternates, type DiaryLanguageConfig } from '../../../lib/diary-lang-config';
 import { createT } from '../../../i18n/astro';
 import { withTrailingSlash } from '../../../lib/url';
+import FullnessIcon from '../../../components/diary/FullnessIcon.astro';
 
 export function getStaticPaths() {
   const paths: { params: { lang: string; carnet: string }; props: { lang: DiaryLanguageConfig } }[] = [];
@@ -444,6 +445,7 @@ const carnetDescription = `${t('diary.notebook')} ${carnet} — ${t('diary.pageT
                 </time>
                 {entry.wordCount != null && entry.wordCount > 0 && (
                   <span class="text-xs text-muted">
+                    <FullnessIcon words={entry.wordCount} />
                     (<span data-t="diary.wordCount" data-t-params={JSON.stringify({ count: entry.wordCount })}>{t('diary.wordCount', { count: entry.wordCount })}</span>)
                   </span>
                 )}

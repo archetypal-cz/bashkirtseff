@@ -1,0 +1,36 @@
+---
+/**
+ * Tiny monochrome "how full is this entry" icon (page outline filled to one of
+ * five levels), drawn with currentColor. Decorative: the word count text next
+ * to it stays the accessible label.
+ *
+ * Level thresholds (words), chosen from the cz corpus distribution of 3,694
+ * entries (quantiles: p10=43, p20=104, p30=169, p50=313, p70=512, p90=925,
+ * p95=1204, p99=1948), roughly log-spaced:
+ *   level 0 (empty) : < 60     (~13% of entries)
+ *   level 1 (1/4)   : 60-199   (~22%)
+ *   level 2 (1/2)   : 200-449  (~28%)
+ *   level 3 (3/4)   : 450-999  (~28%)
+ *   level 4 (full)  : >= 1000  (~9%)
+ */
+const FULLNESS_THRESHOLDS = [60, 200, 450, 1000] as const;
+
+function fullnessLevel(words: number): number {
+  let level = 0;
+  for (const t of FULLNESS_THRESHOLDS) if (words >= t) level++;
+  return level;
+}
+
+interface Props { words: number; class?: string }
+const { words, class: cls } = Astro.props;
+const level = fullnessLevel(words);
+// Inner fill area: x 4.5..11.5, y 3.5..14.5 (height 11), filled from the bottom.
+const h = (11 * level) / 4;
+---
+<svg class:list={['fullness-icon', cls]} data-level={level} viewBox="0 0 16 18" width="0.9em" height="1em" aria-hidden="true" focusable="false">
+  <rect x="2.5" y="1.5" width="11" height="15" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.2" />
+  {level > 0 && <rect x="4.5" y={14.5 - h} width="7" height={h} fill="currentColor" />}
+</svg>
+<style>
+  .fullness-icon { display: inline-block; vertical-align: -0.12em; opacity: 0.7; }
+</style>
