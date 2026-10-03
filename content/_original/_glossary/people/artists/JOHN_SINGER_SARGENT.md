@@ -30,7 +30,7 @@ last_updated: 2026-09-07
 
 %% GLO_JOHN_SINGER_SARGENT.0006 %%
 %% [#Portrait_de_Mme_X](../../culture/art/PORTRAIT_MME_X.md) %%
-- **May–June 1884** (104.0068, 104.0540): the portrait of Mme Gautreau, the future *Madame X*, is the succès de curiosité of the Salon and generally found atrocious. Marie disagrees: for her it is perfect, masterly, true painting; Sargent simply painted what he saw, and the sitter's heavy make-up is what looks horrible in daylight. A month later she still lists it among the few good things in the show, "tant décrié et pourtant très bon".
+- **May–June 1884** (104.0070, 104.0542): the portrait of Mme Gautreau, the future *Madame X*, is the succès de curiosité of the Salon and generally found atrocious. Marie disagrees: for her it is perfect, masterly, true painting; Sargent simply painted what he saw, and the sitter's heavy make-up is what looks horrible in daylight. A month later she still lists it among the few good things in the show, "tant décrié et pourtant très bon".
 
 %% GLO_JOHN_SINGER_SARGENT.0007 %%
 ## Related Entries

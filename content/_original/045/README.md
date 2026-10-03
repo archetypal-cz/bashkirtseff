@@ -9,7 +9,7 @@ Carnet 045 of Marie Bashkirtseff's diary. A dramatic week dominated by Marie's r
 **Date range**: 1875-09-26 to 1875-10-02
 **Entry count**: 7
 **Location(s)**: Nice
-**Paragraph range**: 045.0001 - 045.0488
+**Paragraph range**: 045.0001 - 045.0489
 
 ## Status
 

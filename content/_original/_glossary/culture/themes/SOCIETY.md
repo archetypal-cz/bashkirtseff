@@ -52,7 +52,7 @@ This thematic tag collects diary paragraphs where social life is itself the subj
 
 %% GLO_SOCIETY.0011 %%
 - `056.0466` — "rejetée de la société": shame at carrying her face and elegance everywhere
-- `067.1420` — outraged at the Nice gossip about her father
+- `067.1428` — outraged at the Nice gossip about her father
 - `034.0078` — "tout le monde de Nice était là": her success at a public occasion
 
 %% 2026-10-02T18:00:00 RSR: Created thematic tag entry for the 2026 tag audit (taxonomy approved by KRR 2026-10-02, see docs/research/theme-taxonomy.md). Applied per paragraph by AI judgement, not keyword match. %%

@@ -1,0 +1,3316 @@
+{
+  "carnet": "100",
+  "date": "2026-10-03",
+  "plan_path": "../rebuild-state/split-wave/w2m1/plan-100.json",
+  "plan_source": null,
+  "id_map": {
+    "100.0001": "100.0001",
+    "100.0002": "100.0021",
+    "100.0003": "100.0035",
+    "100.0004": "100.0041",
+    "100.0005": "100.0042",
+    "100.0006": "100.0043",
+    "100.0007": "100.0044",
+    "100.0008": "100.0045",
+    "100.0009": "100.0046",
+    "100.0010": "100.0047",
+    "100.0011": "100.0048",
+    "100.0012": "100.0049",
+    "100.0013": "100.0050",
+    "100.0014": "100.0051",
+    "100.0015": "100.0052",
+    "100.0016": "100.0053",
+    "100.0017": "100.0054",
+    "100.0018": "100.0055",
+    "100.0019": "100.0056",
+    "100.0020": "100.0057",
+    "100.0021": "100.0058",
+    "100.0022": "100.0059",
+    "100.0023": "100.0060",
+    "100.0024": "100.0061",
+    "100.0025": "100.0062",
+    "100.0026": "100.0063",
+    "100.0027": "100.0064",
+    "100.0028": "100.0065",
+    "100.0029": "100.0066",
+    "100.0030": "100.0067",
+    "100.0031": "100.0068",
+    "100.0032": "100.0069",
+    "100.0033": "100.0070",
+    "100.0034": "100.0071",
+    "100.0035": "100.0072",
+    "100.0036": "100.0073",
+    "100.0037": "100.0074",
+    "100.0038": "100.0075",
+    "100.0039": "100.0076",
+    "100.0040": "100.0077",
+    "100.0041": "100.0078",
+    "100.0042": "100.0079",
+    "100.0043": "100.0080",
+    "100.0044": "100.0081",
+    "100.0045": "100.0082",
+    "100.0046": "100.0083",
+    "100.0047": "100.0084",
+    "100.0048": "100.0085",
+    "100.0049": "100.0086",
+    "100.0050": "100.0087",
+    "100.0051": "100.0088",
+    "100.0052": "100.0089",
+    "100.0053": "100.0090",
+    "100.0054": "100.0091",
+    "100.0055": "100.0092",
+    "100.0056": "100.0093",
+    "100.0057": "100.0094",
+    "100.0058": "100.0095",
+    "100.0059": "100.0096",
+    "100.0060": "100.0097",
+    "100.0061": "100.0098",
+    "100.0062": "100.0099",
+    "100.0063": "100.0100",
+    "100.0064": "100.0101",
+    "100.0065": "100.0102",
+    "100.0066": "100.0103",
+    "100.0067": "100.0104",
+    "100.0068": "100.0105",
+    "100.0069": "100.0106",
+    "100.0070": "100.0107",
+    "100.0071": "100.0108",
+    "100.0072": "100.0109",
+    "100.0073": "100.0110",
+    "100.0074": "100.0111",
+    "100.0075": "100.0112",
+    "100.0076": "100.0113",
+    "100.0077": "100.0114",
+    "100.0078": "100.0115",
+    "100.0079": "100.0116",
+    "100.0080": "100.0117",
+    "100.0081": "100.0118",
+    "100.0082": "100.0119",
+    "100.0083": "100.0120",
+    "100.0084": "100.0121",
+    "100.0085": "100.0122",
+    "100.0086": "100.0123",
+    "100.0087": "100.0124",
+    "100.0088": "100.0125",
+    "100.0089": "100.0126",
+    "100.0090": "100.0127",
+    "100.0091": "100.0128",
+    "100.0092": "100.0129",
+    "100.0093": "100.0130",
+    "100.0094": "100.0131",
+    "100.0095": "100.0132",
+    "100.0096": "100.0133",
+    "100.0097": "100.0134",
+    "100.0098": "100.0135",
+    "100.0099": "100.0136",
+    "100.0100": "100.0137",
+    "100.0101": "100.0138",
+    "100.0102": "100.0139",
+    "100.0103": "100.0140",
+    "100.0104": "100.0141",
+    "100.0105": "100.0142",
+    "100.0106": "100.0143",
+    "100.0107": "100.0144",
+    "100.0108": "100.0145",
+    "100.0109": "100.0146",
+    "100.0110": "100.0147",
+    "100.0111": "100.0148",
+    "100.0112": "100.0149",
+    "100.0113": "100.0150",
+    "100.0114": "100.0151",
+    "100.0115": "100.0152",
+    "100.0116": "100.0153",
+    "100.0117": "100.0154",
+    "100.0118": "100.0155",
+    "100.0119": "100.0156",
+    "100.0120": "100.0157",
+    "100.0121": "100.0158",
+    "100.0122": "100.0159",
+    "100.0123": "100.0160",
+    "100.0124": "100.0161",
+    "100.0125": "100.0162",
+    "100.0126": "100.0163",
+    "100.0127": "100.0164",
+    "100.0128": "100.0165",
+    "100.0129": "100.0166",
+    "100.0130": "100.0167",
+    "100.0131": "100.0168",
+    "100.0132": "100.0169",
+    "100.0133": "100.0170",
+    "100.0134": "100.0171",
+    "100.0135": "100.0172",
+    "100.0136": "100.0173",
+    "100.0137": "100.0174",
+    "100.0138": "100.0175",
+    "100.0139": "100.0176",
+    "100.0140": "100.0177",
+    "100.0141": "100.0178",
+    "100.0142": "100.0179",
+    "100.0143": "100.0180",
+    "100.0144": "100.0183",
+    "100.0145": "100.0184",
+    "100.0146": "100.0185",
+    "100.0147": "100.0186",
+    "100.0148": "100.0187",
+    "100.0149": "100.0188",
+    "100.0150": "100.0189",
+    "100.0151": "100.0190",
+    "100.0152": "100.0191",
+    "100.0153": "100.0192",
+    "100.0154": "100.0193",
+    "100.0155": "100.0194",
+    "100.0156": "100.0195",
+    "100.0157": "100.0196",
+    "100.0158": "100.0197",
+    "100.0159": "100.0198",
+    "100.0160": "100.0199",
+    "100.0161": "100.0200",
+    "100.0162": "100.0201",
+    "100.0163": "100.0202",
+    "100.0164": "100.0203",
+    "100.0165": "100.0204",
+    "100.0166": "100.0205",
+    "100.0167": "100.0206",
+    "100.0168": "100.0207",
+    "100.0169": "100.0208",
+    "100.0170": "100.0209",
+    "100.0171": "100.0210",
+    "100.0172": "100.0211",
+    "100.0173": "100.0212",
+    "100.0174": "100.0213",
+    "100.0175": "100.0217",
+    "100.0176": "100.0218",
+    "100.0177": "100.0219",
+    "100.0178": "100.0220",
+    "100.0179": "100.0221",
+    "100.0180": "100.0222",
+    "100.0181": "100.0223",
+    "100.0182": "100.0224",
+    "100.0183": "100.0225",
+    "100.0184": "100.0226",
+    "100.0185": "100.0227",
+    "100.0186": "100.0228",
+    "100.0187": "100.0229",
+    "100.0188": "100.0230",
+    "100.0189": "100.0231",
+    "100.0190": "100.0232",
+    "100.0191": "100.0233",
+    "100.0192": "100.0234",
+    "100.0193": "100.0235",
+    "100.0194": "100.0236",
+    "100.0195": "100.0237",
+    "100.0196": "100.0238",
+    "100.0197": "100.0239",
+    "100.0198": "100.0240",
+    "100.0199": "100.0241",
+    "100.0200": "100.0242",
+    "100.0201": "100.0243",
+    "100.0202": "100.0244",
+    "100.0203": "100.0245",
+    "100.0204": "100.0246",
+    "100.0205": "100.0247",
+    "100.0206": "100.0248",
+    "100.0207": "100.0249",
+    "100.0208": "100.0250",
+    "100.0209": "100.0251",
+    "100.0210": "100.0252",
+    "100.0211": "100.0253",
+    "100.0212": "100.0254",
+    "100.0213": "100.0255",
+    "100.0214": "100.0256",
+    "100.0215": "100.0257",
+    "100.0216": "100.0258",
+    "100.0217": "100.0259",
+    "100.0218": "100.0260",
+    "100.0219": "100.0261",
+    "100.0220": "100.0262",
+    "100.0221": "100.0263",
+    "100.0222": "100.0264",
+    "100.0223": "100.0265",
+    "100.0224": "100.0266",
+    "100.0225": "100.0267",
+    "100.0226": "100.0268",
+    "100.0227": "100.0269",
+    "100.0228": "100.0270",
+    "100.0229": "100.0271",
+    "100.0230": "100.0272",
+    "100.0231": "100.0273",
+    "100.0232": "100.0274",
+    "100.0233": "100.0275",
+    "100.0234": "100.0276",
+    "100.0235": "100.0277",
+    "100.0236": "100.0278",
+    "100.0237": "100.0279",
+    "100.0238": "100.0280",
+    "100.0239": "100.0281",
+    "100.0240": "100.0282",
+    "100.0241": "100.0283",
+    "100.0242": "100.0284",
+    "100.0243": "100.0285",
+    "100.0244": "100.0286",
+    "100.0245": "100.0287",
+    "100.0246": "100.0288",
+    "100.0247": "100.0289",
+    "100.0248": "100.0290",
+    "100.0249": "100.0291",
+    "100.0250": "100.0292",
+    "100.0251": "100.0293",
+    "100.0252": "100.0294",
+    "100.0253": "100.0295",
+    "100.0254": "100.0296",
+    "100.0255": "100.0297",
+    "100.0256": "100.0298",
+    "100.0257": "100.0299",
+    "100.0258": "100.0300",
+    "100.0259": "100.0301",
+    "100.0260": "100.0302",
+    "100.0261": "100.0303",
+    "100.0262": "100.0304",
+    "100.0263": "100.0305",
+    "100.0264": "100.0306",
+    "100.0265": "100.0307",
+    "100.0266": "100.0308",
+    "100.0267": "100.0309",
+    "100.0268": "100.0310",
+    "100.0269": "100.0329",
+    "100.0270": "100.0357",
+    "100.0271": "100.0358",
+    "100.0272": "100.0359",
+    "100.0273": "100.0360",
+    "100.0274": "100.0361",
+    "100.0275": "100.0362",
+    "100.0276": "100.0363",
+    "100.0277": "100.0364",
+    "100.0278": "100.0365",
+    "100.0279": "100.0366",
+    "100.0280": "100.0367",
+    "100.0281": "100.0368",
+    "100.0282": "100.0369",
+    "100.0283": "100.0370",
+    "100.0284": "100.0371",
+    "100.0285": "100.0372",
+    "100.0286": "100.0373",
+    "100.0287": "100.0374",
+    "100.0288": "100.0375",
+    "100.0289": "100.0376",
+    "100.0290": "100.0377",
+    "100.0291": "100.0378",
+    "100.0292": "100.0379",
+    "100.0293": "100.0380",
+    "100.0294": "100.0381",
+    "100.0295": "100.0382",
+    "100.0296": "100.0383",
+    "100.0297": "100.0384",
+    "100.0298": "100.0385",
+    "100.0299": "100.0386",
+    "100.0300": "100.0387",
+    "100.0301": "100.0388",
+    "100.0302": "100.0389",
+    "100.0303": "100.0390",
+    "100.0304": "100.0391",
+    "100.0305": "100.0392",
+    "100.0306": "100.0393",
+    "100.0307": "100.0394",
+    "100.0308": "100.0395",
+    "100.0309": "100.0396",
+    "100.0310": "100.0397",
+    "100.0311": "100.0398",
+    "100.0312": "100.0399",
+    "100.0313": "100.0400",
+    "100.0314": "100.0401",
+    "100.0315": "100.0402",
+    "100.0316": "100.0403",
+    "100.0317": "100.0404",
+    "100.0318": "100.0405",
+    "100.0319": "100.0406",
+    "100.0320": "100.0407",
+    "100.0321": "100.0408",
+    "100.0322": "100.0409",
+    "100.0323": "100.0410",
+    "100.0324": "100.0411",
+    "100.0325": "100.0412",
+    "100.0326": "100.0413",
+    "100.0327": "100.0414",
+    "100.0328": "100.0415",
+    "100.0329": "100.0416",
+    "100.0330": "100.0417",
+    "100.0331": "100.0418",
+    "100.0332": "100.0419",
+    "100.0333": "100.0420",
+    "100.0334": "100.0421",
+    "100.0335": "100.0422",
+    "100.0336": "100.0423",
+    "100.0337": "100.0424",
+    "100.0338": "100.0425",
+    "100.0339": "100.0426",
+    "100.0340": "100.0427",
+    "100.0341": "100.0428",
+    "100.0342": "100.0429",
+    "100.0343": "100.0430",
+    "100.0344": "100.0431",
+    "100.0345": "100.0432",
+    "100.0346": "100.0433",
+    "100.0347": "100.0434",
+    "100.0348": "100.0435",
+    "100.0349": "100.0436",
+    "100.0350": "100.0437",
+    "100.0351": "100.0438",
+    "100.0352": "100.0439",
+    "100.0353": "100.0440",
+    "100.0354": "100.0441",
+    "100.0355": "100.0442",
+    "100.0356": "100.0443",
+    "100.0357": "100.0444",
+    "100.0358": "100.0445",
+    "100.0359": "100.0446",
+    "100.0360": "100.0447",
+    "100.0361": "100.0448",
+    "100.0362": "100.0449",
+    "100.0363": "100.0450",
+    "100.0364": "100.0451",
+    "100.0365": "100.0452",
+    "100.0366": "100.0453",
+    "100.0367": "100.0454",
+    "100.0368": "100.0455",
+    "100.0369": "100.0456",
+    "100.0370": "100.0457",
+    "100.0371": "100.0458",
+    "100.0372": "100.0459",
+    "100.0373": "100.0460",
+    "100.0374": "100.0461",
+    "100.0375": "100.0462",
+    "100.0376": "100.0463",
+    "100.0377": "100.0464",
+    "100.0378": "100.0465",
+    "100.0379": "100.0466",
+    "100.0380": "100.0467",
+    "100.0381": "100.0468",
+    "100.0382": "100.0469",
+    "100.0383": "100.0470",
+    "100.0384": "100.0471",
+    "100.0385": "100.0472",
+    "100.0386": "100.0473",
+    "100.0387": "100.0474",
+    "100.0388": "100.0475",
+    "100.0389": "100.0476",
+    "100.0390": "100.0477",
+    "100.0391": "100.0478",
+    "100.0392": "100.0479",
+    "100.0393": "100.0480",
+    "100.0394": "100.0481",
+    "100.0395": "100.0482",
+    "100.0396": "100.0483",
+    "100.0397": "100.0484",
+    "100.0398": "100.0485",
+    "100.0399": "100.0486",
+    "100.0400": "100.0487",
+    "100.0401": "100.0488",
+    "100.0402": "100.0489",
+    "100.0403": "100.0490",
+    "100.0404": "100.0491",
+    "100.0405": "100.0492",
+    "100.0406": "100.0493",
+    "100.0407": "100.0494",
+    "100.0408": "100.0495",
+    "100.0409": "100.0496",
+    "100.0410": "100.0497",
+    "100.0411": "100.0498",
+    "100.0412": "100.0499",
+    "100.0413": "100.0500",
+    "100.0414": "100.0501",
+    "100.0415": "100.0502",
+    "100.0416": "100.0503",
+    "100.0417": "100.0504",
+    "100.0418": "100.0505",
+    "100.0419": "100.0506",
+    "100.0420": "100.0507",
+    "100.0421": "100.0508",
+    "100.0422": "100.0509",
+    "100.0423": "100.0510",
+    "100.0424": "100.0511",
+    "100.0425": "100.0512",
+    "100.0426": "100.0513",
+    "100.0427": "100.0514",
+    "100.0428": "100.0515",
+    "100.0429": "100.0516",
+    "100.0430": "100.0517",
+    "100.0431": "100.0518",
+    "100.0432": "100.0519",
+    "100.0433": "100.0520",
+    "100.0434": "100.0521",
+    "100.0435": "100.0522",
+    "100.0436": "100.0523",
+    "100.0437": "100.0524",
+    "100.0438": "100.0525",
+    "100.0439": "100.0526",
+    "100.0440": "100.0527",
+    "100.0441": "100.0528",
+    "100.0442": "100.0529",
+    "100.0443": "100.0530",
+    "100.0444": "100.0531",
+    "100.0445": "100.0532",
+    "100.0446": "100.0533",
+    "100.0447": "100.0534",
+    "100.0448": "100.0535",
+    "100.0449": "100.0536",
+    "100.0450": "100.0537",
+    "100.0451": "100.0538",
+    "100.0452": "100.0539",
+    "100.0453": "100.0540",
+    "100.0454": "100.0541",
+    "100.0455": "100.0542",
+    "100.0456": "100.0543",
+    "100.0457": "100.0544",
+    "100.0458": "100.0545",
+    "100.0459": "100.0546",
+    "100.0460": "100.0547",
+    "100.0461": "100.0548",
+    "100.0462": "100.0549",
+    "100.0463": "100.0550",
+    "100.0464": "100.0551",
+    "100.0465": "100.0552",
+    "100.0466": "100.0553",
+    "100.0467": "100.0554"
+  },
+  "changed_ids": 466,
+  "new_paragraphs": [
+    {
+      "id": "100.0002",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0003",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0004",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0005",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0006",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0007",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0008",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0009",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0010",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0011",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0012",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0013",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0014",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0015",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0016",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0017",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0018",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0019",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0020",
+      "file": "1883-05-27.md"
+    },
+    {
+      "id": "100.0022",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0023",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0024",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0025",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0026",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0027",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0028",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0029",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0030",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0031",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0032",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0033",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0034",
+      "file": "1883-05-28.md"
+    },
+    {
+      "id": "100.0036",
+      "file": "1883-05-29.md"
+    },
+    {
+      "id": "100.0037",
+      "file": "1883-05-29.md"
+    },
+    {
+      "id": "100.0038",
+      "file": "1883-05-29.md"
+    },
+    {
+      "id": "100.0039",
+      "file": "1883-05-29.md"
+    },
+    {
+      "id": "100.0040",
+      "file": "1883-05-29.md"
+    },
+    {
+      "id": "100.0181",
+      "file": "1883-06-18.md"
+    },
+    {
+      "id": "100.0182",
+      "file": "1883-06-18.md"
+    },
+    {
+      "id": "100.0214",
+      "file": "1883-06-24.md"
+    },
+    {
+      "id": "100.0215",
+      "file": "1883-06-24.md"
+    },
+    {
+      "id": "100.0216",
+      "file": "1883-06-24.md"
+    },
+    {
+      "id": "100.0311",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0312",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0313",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0314",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0315",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0316",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0317",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0318",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0319",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0320",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0321",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0322",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0323",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0324",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0325",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0326",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0327",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0328",
+      "file": "1883-07-13.md"
+    },
+    {
+      "id": "100.0330",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0331",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0332",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0333",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0334",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0335",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0336",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0337",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0338",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0339",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0340",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0341",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0342",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0343",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0344",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0345",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0346",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0347",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0348",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0349",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0350",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0351",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0352",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0353",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0354",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0355",
+      "file": "1883-07-14.md"
+    },
+    {
+      "id": "100.0356",
+      "file": "1883-07-14.md"
+    }
+  ],
+  "dropped": [],
+  "file_map": {},
+  "files_removed": [],
+  "files_added": [],
+  "last_id": "100.0554",
+  "flag_resets": {
+    "cz": [
+      "1883-05-27.md",
+      "1883-05-28.md",
+      "1883-05-29.md",
+      "1883-06-18.md",
+      "1883-06-24.md",
+      "1883-07-13.md",
+      "1883-07-14.md"
+    ],
+    "uk": [
+      "1883-05-27.md",
+      "1883-05-28.md",
+      "1883-05-29.md",
+      "1883-06-18.md",
+      "1883-06-24.md",
+      "1883-07-13.md",
+      "1883-07-14.md"
+    ],
+    "en": [
+      "1883-05-27.md",
+      "1883-05-28.md",
+      "1883-05-29.md",
+      "1883-06-18.md",
+      "1883-06-24.md",
+      "1883-07-13.md",
+      "1883-07-14.md"
+    ],
+    "fr": [
+      "1883-05-27.md",
+      "1883-05-28.md",
+      "1883-05-29.md",
+      "1883-06-18.md",
+      "1883-06-24.md",
+      "1883-07-13.md",
+      "1883-07-14.md"
+    ]
+  },
+  "plan": {
+    "carnet": "100",
+    "_generated": "identity plan of content/_original/100 — keys starting with _ are ignored",
+    "entries": [
+      {
+        "file": "1883-05-27.md",
+        "date": "1883-05-27",
+        "paragraphs": [
+          {
+            "old": "100.0001",
+            "set_french": "# Dimanche 27 mai 1883\nC'est aujourd'hui qu'a lieu le sacre à Moscou."
+          },
+          {
+            "new": {
+              "french": "Nous allons à l'église ou je subis comme d'habitude un accès de rage et de désespoir qu'il faut contenir pendant tout le déjeuner auquel assistent Saint Amand et la Tchernisky.",
+              "rsr": "Split (paragraph wave 2): print paragraph 2 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et puis ça se fond en larmes!",
+              "rsr": "Split (paragraph wave 2): print paragraph 3 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mme Massalsky l'amie de la Mackay n'aura pas manqué de dire que personne de l'ambassade ne nous voit. Si elle n'a dit que ça.",
+              "rsr": "Split (paragraph wave 2): print paragraph 4 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "A quatre heures et demie au Bois avec Adeline. Tous les potins des salons, les élégances, la vie...",
+              "rsr": "Split (paragraph wave 2): print paragraph 5 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ai-je tort, ai-je raison? Si j'allais beaucoup dans le monde et ne pensais qu'aux élégances, promenant dans les salons ce que je puis avoir d'original dans l'esprit... j'aurais des succès et même pour ce qui est des hommes célèbres.",
+              "rsr": "Split (paragraph wave 2): print paragraph 6 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ils aiment mieux les femmes brillantes auprès desquelles ils vont se délasser de leurs travaux.",
+              "rsr": "Split (paragraph wave 2): print paragraph 7 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et l'ambition de tous les hommes de talent et même de génie, n'est-elle pas d'être reçu et de briller dans les salons élégants et chez les femmes du monde? Et ne suis-je pas comme ces hommes?",
+              "rsr": "Split (paragraph wave 2): print paragraph 8 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Sans doute avoir une auréole serait beau, mais sans aucune auréole une femme jeune et charmante peut avoir à ses pieds tous les illustres qui sont autant attirés par les belles comtesses que les belles comtesses par leur gloire. Concluez. Je ne conclus pas.\nMais au fait, je parle de tout cela comme si j'avais le choix. Ou irai-je? Dans deux ou trois salons pas même... Chez Mme de Kessler, une étrangère où il n'y a pas de gloire à être reçue.",
+              "rsr": "Split (paragraph wave 2): print paragraph 9 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ou chez Mme de Cambourg qui est française mais ou c'est la même chose.",
+              "rsr": "Split (paragraph wave 2): print paragraph 10 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Etre tolérée chez la vieille duchesse de Fitz-James dont le salon n'est pas amusant. La maréchale ne reçoit pas. Et puis... Je ne parle pas des Kanchine, Foleyeff et autres.",
+              "rsr": "Split (paragraph wave 2): print paragraph 11 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et puis maman est absente et mon père à la mort.",
+              "rsr": "Split (paragraph wave 2): print paragraph 12 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Donc, il n'y a pas à en parler.",
+              "rsr": "Split (paragraph wave 2): print paragraph 13 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je voudrais bien rencontré Camille Pelletan, le rédacteur en chef de la \"Justice\" et député de cette année. Je lis ses articles les plus arides et son esprit m'enchante.\nJe suis imbue de Balzac et me figure, comme c'est du reste la vérité, que dans la vie tout se passe comme dans ses livres.",
+              "rsr": "Split (paragraph wave 2): print paragraph 14 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Me calmer. Me calmer. Me calmer.",
+              "rsr": "Split (paragraph wave 2): print paragraph 15 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai le temps que diable. Je n'ai que vingt-quatre ans. C'est tout de même beaucoup.",
+              "rsr": "Split (paragraph wave 2): print paragraph 16 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Rochegrosse a vingt-quatre ans.",
+              "rsr": "Split (paragraph wave 2): print paragraph 17 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Bastien-Lepage n'a été connu qu'à vingt-cinq ans.",
+              "rsr": "Split (paragraph wave 2): print paragraph 18 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Tiens, je suis fâchée d'avoir vexé ce pauvre architecte. Mais aussi, pourquoi a-t-il écrit qu'il regrette de ne pouvoir venir.",
+              "rsr": "Split (paragraph wave 2): print paragraph 19 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je voudrais que les miens le rencontrent et que ça s'arrange.\n---",
+              "rsr": "Split (paragraph wave 2): print paragraph 20 of 20 of the re-cut run 100.0001…100.0001 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          }
+        ],
+        "_first_line": "# Dimanche 27 mai 1883"
+      },
+      {
+        "file": "1883-05-28.md",
+        "date": "1883-05-28",
+        "paragraphs": [
+          {
+            "old": "100.0002",
+            "set_french": "# Lundi 28 mai 1883\nNous rentrons au moment où Saint Marceaux sonne à notre porte."
+          },
+          {
+            "new": {
+              "french": "- Vous êtes bien attrapé, vous pensiez ne trouver personne.",
+              "rsr": "Split (paragraph wave 2): print paragraph 2 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah! je suis contente!",
+              "rsr": "Split (paragraph wave 2): print paragraph 3 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Vous pensez bien que c'est la mention qui fait les frais, je me ressers de tout ce que j'ai dit et écrit depuis ce fatal évènement et le présente à ce grand homme comme une brillante improvisation.\nLe grand homme est tout à fait charmant. Ce n'est pas le sournois de Damvillers. C'est un homme du monde et d'esprit. Il n'a dit que des choses remarquables, ce n'est ni Bouguereau ni Manet, ni même le faux naïf de Damvillers.\nJe le nomme faux naïf et Saint Marceaux approuve, du reste il l'a traité de photographe à la troisième personne.\nL'école moderne est dans une mauvaise voie, Bastien aussi.",
+              "rsr": "Split (paragraph wave 2): print paragraph 4 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Nous en convenons. Pourtant Bastien parle des arts comme j'en pense, mais la sentimentalité le perdra.",
+              "rsr": "Split (paragraph wave 2): print paragraph 5 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "L'illustre sculpteur aime mieux l'Amour au village que Jeanne d'Arc; il ne me semble pas très porté vers ces choses... Enfin en voyant mes Saintes femmes il a demandé ce qu'elles regardent là... Hum...",
+              "rsr": "Split (paragraph wave 2): print paragraph 6 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "[Rayé: Le sculpteur, marchande sculpture. Les peintres photographes.]",
+              "rsr": "Split (paragraph wave 2): print paragraph 7 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il fait des exceptions, il aime les grandes machines de Puvis de Chavannes et puis des tableaux au Salon dont il ne sait pas même le nom mais qui lui plaisent parce qu'ils lui plaisent. C'est comme ça que je comprends l'art moi.",
+              "rsr": "Split (paragraph wave 2): print paragraph 8 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Quant à venir dire que voilà un tableau \"très bien\", qu'il y a là \"des qualités\"... etc.",
+              "rsr": "Split (paragraph wave 2): print paragraph 9 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Qu'est-ce que ça signifie?",
+              "rsr": "Split (paragraph wave 2): print paragraph 10 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est Tony qui dit: il y a là des qualités. Vieil ennuque va!!",
+              "rsr": "Split (paragraph wave 2): print paragraph 11 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "On a donné une première médaille, la seule, à une machine d'un M. Machin qui a peint Francesca et Paolo, aux enfers.\nEt Saint Marceaux dit que chaque fois qu'il va au Salon il va se mettre devant ça, en se disant: \"Ah! voilà le tableau qui a eu une première médaille, bien, c'est ça, oui, eh bien la prochaine fois je me promets de l'examiner avec soin\". Et ça recommence toujours.",
+              "rsr": "Split (paragraph wave 2): print paragraph 12 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce que c'est vrai comme impression!",
+              "rsr": "Split (paragraph wave 2): print paragraph 13 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il est resté très longtemps, j'ai été fort agitée, ai renversé les cigarettes, dit des choses spirituelles et drôles et demain à dix heures du matin je vais chez le grand homme.",
+              "rsr": "Split (paragraph wave 2): print paragraph 14 of 14 of the re-cut run 100.0002…100.0002 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          }
+        ],
+        "_first_line": "# Lundi 28 mai 1883"
+      },
+      {
+        "file": "1883-05-29.md",
+        "date": "1883-05-29",
+        "paragraphs": [
+          {
+            "old": "100.0003",
+            "set_french": "# Mardi 29 mai 1883\nNous y allons vers dix heures et demie et je m'en vais à regret vers midi. C'est qu'il a d'abord causé comme un ange et puis il a découvert sa statue à peine ébauchée et qui est déjà merveilleuse.\nC'est la danse, ou une femme qui danse, une danse lente, quelque chose d'oriental et d'un Orient original, et charmant. Une créature ravissante qui danserait toute seule pour son plaisir, au clair de la lune. C'est une rêverie de la danse..."
+          },
+          {
+            "new": {
+              "french": "Il y aura des draperies très flottantes, il m'a montré l'esquisse. Et ce devra être intime, poétique... inexpliqué.\nIl comprend très bien cet au-delà, ce mystère, cette étincelle qu'on ne peut définir mais que l'on comprend, il prétend ne pas y arriver et très sincèrement... C'est un vrai grand architecte, et très aimable.\nIl faudra que je recueille toutes mes divagations sur les arts disséminées dans ce vaste journal, ce serait curieux et puis j'estime mes appréciations qui se trouvent être celle de ce grand homme et de Bastien aussi.\nMais Saint Marceaux voit encore mieux que Bastien, et peut-être dis-je cela parce qu'à plusieurs reprises il a dit ce que j'ai écrit ou pensé, j'en ai souri avec une certaine complaisance.\nEst-ce que je serais vraiment intelligente et artiste? Il a un caniche et un perroquet bleu. Il me donne des instructions précises et j'obéirai religieusement.",
+              "rsr": "Split (paragraph wave 2): print paragraph 2 of 6 of the re-cut run 100.0003…100.0003 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dina le trouve beau mais voilà que pendant le dîner avec les Engelhardt et le pope nous en arrivons à découvrir que Saint Marceaux doit être Juif. Oui, Juif.\nD'abord il ressemble à Diaz de Soria, ce ne serait pas encore une preuve mais voilà, il va chez les Rothschild, il a fait le buste du père Hecht et il ne dîne jamais en ville sous prétexte de mauvais estomac. Ce doit donc être un Juif et un croyant sévère.",
+              "rsr": "Split (paragraph wave 2): print paragraph 3 of 6 of the re-cut run 100.0003…100.0003 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Hein? Qu'en dites-vous? Il est de la couleur de Soria et maintenant il me semble voir le caractère de la race juive dans ses traits.",
+              "rsr": "Split (paragraph wave 2): print paragraph 4 of 6 of the re-cut run 100.0003…100.0003 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah! ce serait désagréable... Il n'y aurait plus qu'à se replier du côté de la rue Legendre mais voilà, je me suis sottement brouillée...\nNon, est-il Juif? Qu'est-ce que ça fait?",
+              "rsr": "Split (paragraph wave 2): print paragraph 5 of 6 of the re-cut run 100.0003…100.0003 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je fais des rêves qui présagent des voyages. Et je prie Dieu que ça n'arrive pas.",
+              "rsr": "Split (paragraph wave 2): print paragraph 6 of 6 of the re-cut run 100.0003…100.0003 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          }
+        ],
+        "_first_line": "# Mardi 29 mai 1883"
+      },
+      {
+        "file": "1883-05-30.md",
+        "date": "1883-05-30",
+        "paragraphs": [
+          {
+            "old": "100.0004"
+          },
+          {
+            "old": "100.0005"
+          },
+          {
+            "old": "100.0006"
+          },
+          {
+            "old": "100.0007"
+          }
+        ],
+        "_first_line": "# Mercredi 30 mai 1883"
+      },
+      {
+        "file": "1883-05-31.md",
+        "date": "1883-05-31",
+        "paragraphs": [
+          {
+            "old": "100.0008"
+          },
+          {
+            "old": "100.0009"
+          },
+          {
+            "old": "100.0010"
+          },
+          {
+            "old": "100.0011"
+          },
+          {
+            "old": "100.0012"
+          }
+        ],
+        "_first_line": "# Jeudi 31 mai 1883"
+      },
+      {
+        "file": "1883-06-01.md",
+        "date": "1883-06-01",
+        "paragraphs": [
+          {
+            "old": "100.0013"
+          },
+          {
+            "old": "100.0014"
+          }
+        ],
+        "_first_line": "# Vendredi 1er juin 1883"
+      },
+      {
+        "file": "1883-06-02.md",
+        "date": "1883-06-02",
+        "paragraphs": [
+          {
+            "old": "100.0015"
+          },
+          {
+            "old": "100.0016"
+          },
+          {
+            "old": "100.0017"
+          },
+          {
+            "old": "100.0018"
+          },
+          {
+            "old": "100.0019"
+          },
+          {
+            "old": "100.0020"
+          },
+          {
+            "old": "100.0021"
+          },
+          {
+            "old": "100.0022"
+          },
+          {
+            "old": "100.0023"
+          },
+          {
+            "old": "100.0024"
+          },
+          {
+            "old": "100.0025"
+          }
+        ],
+        "_first_line": "# Samedi 2 juin 1883"
+      },
+      {
+        "file": "1883-06-03.md",
+        "date": "1883-06-03",
+        "paragraphs": [
+          {
+            "old": "100.0026"
+          },
+          {
+            "old": "100.0027"
+          },
+          {
+            "old": "100.0028"
+          }
+        ],
+        "_first_line": "# Dimanche 3 juin 1883 - Grand Prix"
+      },
+      {
+        "file": "1883-06-04.md",
+        "date": "1883-06-04",
+        "paragraphs": [
+          {
+            "old": "100.0029"
+          },
+          {
+            "old": "100.0030"
+          },
+          {
+            "old": "100.0031"
+          }
+        ],
+        "_first_line": "# Lundi 4 juin 1883"
+      },
+      {
+        "file": "1883-06-05.md",
+        "date": "1883-06-05",
+        "paragraphs": [
+          {
+            "old": "100.0032"
+          },
+          {
+            "old": "100.0033"
+          },
+          {
+            "old": "100.0034"
+          },
+          {
+            "old": "100.0035"
+          },
+          {
+            "old": "100.0036"
+          }
+        ],
+        "_first_line": "# Mardi 5 juin 1883"
+      },
+      {
+        "file": "1883-06-06.md",
+        "date": "1883-06-06",
+        "paragraphs": [
+          {
+            "old": "100.0037"
+          },
+          {
+            "old": "100.0038"
+          },
+          {
+            "old": "100.0039"
+          },
+          {
+            "old": "100.0040"
+          },
+          {
+            "old": "100.0041"
+          },
+          {
+            "old": "100.0042"
+          },
+          {
+            "old": "100.0043"
+          },
+          {
+            "old": "100.0044"
+          },
+          {
+            "old": "100.0045"
+          },
+          {
+            "old": "100.0046"
+          },
+          {
+            "old": "100.0047"
+          },
+          {
+            "old": "100.0048"
+          },
+          {
+            "old": "100.0049"
+          },
+          {
+            "old": "100.0050"
+          },
+          {
+            "old": "100.0051"
+          },
+          {
+            "old": "100.0052"
+          },
+          {
+            "old": "100.0053"
+          },
+          {
+            "old": "100.0054"
+          },
+          {
+            "old": "100.0055"
+          },
+          {
+            "old": "100.0056"
+          }
+        ],
+        "_first_line": "# Mercredi 6 juin 1883"
+      },
+      {
+        "file": "1883-06-07.md",
+        "date": "1883-06-07",
+        "paragraphs": [
+          {
+            "old": "100.0057"
+          },
+          {
+            "old": "100.0058"
+          },
+          {
+            "old": "100.0059"
+          },
+          {
+            "old": "100.0060"
+          },
+          {
+            "old": "100.0061"
+          },
+          {
+            "old": "100.0062"
+          }
+        ],
+        "_first_line": "# Jeudi 7 juin 1883"
+      },
+      {
+        "file": "1883-06-08.md",
+        "date": "1883-06-08",
+        "paragraphs": [
+          {
+            "old": "100.0063"
+          }
+        ],
+        "_first_line": "# Vendredi 8 juin 1883"
+      },
+      {
+        "file": "1883-06-09.md",
+        "date": "1883-06-09",
+        "paragraphs": [
+          {
+            "old": "100.0064"
+          },
+          {
+            "old": "100.0065"
+          },
+          {
+            "old": "100.0066"
+          },
+          {
+            "old": "100.0067"
+          },
+          {
+            "old": "100.0068"
+          },
+          {
+            "old": "100.0069"
+          },
+          {
+            "old": "100.0070"
+          },
+          {
+            "old": "100.0071"
+          },
+          {
+            "old": "100.0072"
+          },
+          {
+            "old": "100.0073"
+          },
+          {
+            "old": "100.0074"
+          },
+          {
+            "old": "100.0075"
+          },
+          {
+            "old": "100.0076"
+          },
+          {
+            "old": "100.0077"
+          },
+          {
+            "old": "100.0078"
+          },
+          {
+            "old": "100.0079"
+          },
+          {
+            "old": "100.0080"
+          },
+          {
+            "old": "100.0081"
+          }
+        ],
+        "_first_line": "# Samedi 9 juin 1883"
+      },
+      {
+        "file": "1883-06-10.md",
+        "date": "1883-06-10",
+        "paragraphs": [
+          {
+            "old": "100.0082"
+          },
+          {
+            "old": "100.0083"
+          },
+          {
+            "old": "100.0084"
+          },
+          {
+            "old": "100.0085"
+          },
+          {
+            "old": "100.0086"
+          },
+          {
+            "old": "100.0087"
+          },
+          {
+            "old": "100.0088"
+          },
+          {
+            "old": "100.0089"
+          },
+          {
+            "old": "100.0090"
+          },
+          {
+            "old": "100.0091"
+          },
+          {
+            "old": "100.0092"
+          }
+        ],
+        "_first_line": "# Dimanche 10 juin 1883"
+      },
+      {
+        "file": "1883-06-11.md",
+        "date": "1883-06-11",
+        "paragraphs": [
+          {
+            "old": "100.0093"
+          },
+          {
+            "old": "100.0094"
+          },
+          {
+            "old": "100.0095"
+          },
+          {
+            "old": "100.0096"
+          },
+          {
+            "old": "100.0097"
+          },
+          {
+            "old": "100.0098"
+          },
+          {
+            "old": "100.0099"
+          }
+        ],
+        "_first_line": "# Lundi 11 juin 1883"
+      },
+      {
+        "file": "1883-06-12.md",
+        "date": "1883-06-12",
+        "paragraphs": [
+          {
+            "old": "100.0100"
+          },
+          {
+            "old": "100.0101"
+          }
+        ],
+        "_first_line": "# Mardi 12 juin 1883"
+      },
+      {
+        "file": "1883-06-13.md",
+        "date": "1883-06-13",
+        "paragraphs": [
+          {
+            "old": "100.0102"
+          },
+          {
+            "old": "100.0103"
+          },
+          {
+            "old": "100.0104"
+          },
+          {
+            "old": "100.0105"
+          },
+          {
+            "old": "100.0106"
+          },
+          {
+            "old": "100.0107"
+          },
+          {
+            "old": "100.0108"
+          },
+          {
+            "old": "100.0109"
+          },
+          {
+            "old": "100.0110"
+          },
+          {
+            "old": "100.0111"
+          },
+          {
+            "old": "100.0112"
+          },
+          {
+            "old": "100.0113"
+          },
+          {
+            "old": "100.0114"
+          },
+          {
+            "old": "100.0115"
+          },
+          {
+            "old": "100.0116"
+          },
+          {
+            "old": "100.0117"
+          },
+          {
+            "old": "100.0118"
+          },
+          {
+            "old": "100.0119"
+          },
+          {
+            "old": "100.0120"
+          },
+          {
+            "old": "100.0121"
+          }
+        ],
+        "_first_line": "# Mercredi 13 juin 1883"
+      },
+      {
+        "file": "1883-06-14.md",
+        "date": "1883-06-14",
+        "paragraphs": [
+          {
+            "old": "100.0122"
+          }
+        ],
+        "_first_line": "# Jeudi 14 juin 1883"
+      },
+      {
+        "file": "1883-06-15.md",
+        "date": "1883-06-15",
+        "paragraphs": [
+          {
+            "old": "100.0123"
+          },
+          {
+            "old": "100.0124"
+          },
+          {
+            "old": "100.0125"
+          },
+          {
+            "old": "100.0126"
+          },
+          {
+            "old": "100.0127"
+          },
+          {
+            "old": "100.0128"
+          }
+        ],
+        "_first_line": "# Vendredi 15 juin 1883"
+      },
+      {
+        "file": "1883-06-16.md",
+        "date": "1883-06-16",
+        "paragraphs": [
+          {
+            "old": "100.0129"
+          },
+          {
+            "old": "100.0130"
+          },
+          {
+            "old": "100.0131"
+          },
+          {
+            "old": "100.0132"
+          },
+          {
+            "old": "100.0133"
+          },
+          {
+            "old": "100.0134"
+          },
+          {
+            "old": "100.0135"
+          },
+          {
+            "old": "100.0136"
+          }
+        ],
+        "_first_line": "# Samedi 16 juin 1883"
+      },
+      {
+        "file": "1883-06-17.md",
+        "date": "1883-06-17",
+        "paragraphs": [
+          {
+            "old": "100.0137"
+          },
+          {
+            "old": "100.0138"
+          }
+        ],
+        "_first_line": "# Dimanche 17 juin 1883"
+      },
+      {
+        "file": "1883-06-18.md",
+        "date": "1883-06-18",
+        "paragraphs": [
+          {
+            "old": "100.0139"
+          },
+          {
+            "old": "100.0140"
+          },
+          {
+            "old": "100.0141"
+          },
+          {
+            "old": "100.0142"
+          },
+          {
+            "old": "100.0143",
+            "set_french": "Et moi ?"
+          },
+          {
+            "new": {
+              "french": "Eh bien je suis inquiète, un peu, j'ai en somme posé pour un journaliste...\nEt à part ça je n'ai pas assez causé...\nS'il le prend pour de la timidité de jeunesse ce sera parfait, mais... C'est égal j'aurais pu parler beaux-arts.\nQu'est-ce que je lui ai dit ? Comment ai-je été ? Qu'est-ce qu'il va dire ?\nAh ! j'ai été sotte.",
+              "rsr": "Split (paragraph wave 2): print paragraph 2 of 3 of the re-cut run 100.0143…100.0143 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est ma tante et Dina qui... ont tout dit, quoi ? J'attends cet article avec angoisse... Et il faudra attendre une quinzaine... On a surtout appuyé sur ma jeunesse... et ayant mal dormi j'avais une tête fatiguée et plus vieille que nature... Enfin-",
+              "rsr": "Split (paragraph wave 2): print paragraph 3 of 3 of the re-cut run 100.0143…100.0143 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          }
+        ],
+        "_first_line": "# Samedi 18 juin 1883"
+      },
+      {
+        "file": "1883-06-19.md",
+        "date": "1883-06-19",
+        "paragraphs": [
+          {
+            "old": "100.0144"
+          }
+        ],
+        "_first_line": "# Mardi 19 juin 1883"
+      },
+      {
+        "file": "1883-06-20.md",
+        "date": "1883-06-20",
+        "paragraphs": [
+          {
+            "old": "100.0145"
+          }
+        ],
+        "_first_line": "# Mercredi 20 juin 1883"
+      },
+      {
+        "file": "1883-06-21.md",
+        "date": "1883-06-21",
+        "paragraphs": [
+          {
+            "old": "100.0146"
+          },
+          {
+            "old": "100.0147"
+          }
+        ],
+        "_first_line": "# Jeudi 21 juin 1883"
+      },
+      {
+        "file": "1883-06-22.md",
+        "date": "1883-06-22",
+        "paragraphs": [
+          {
+            "old": "100.0148"
+          },
+          {
+            "old": "100.0149"
+          },
+          {
+            "old": "100.0150"
+          },
+          {
+            "old": "100.0151"
+          },
+          {
+            "old": "100.0152"
+          },
+          {
+            "old": "100.0153"
+          },
+          {
+            "old": "100.0154"
+          },
+          {
+            "old": "100.0155"
+          },
+          {
+            "old": "100.0156"
+          },
+          {
+            "old": "100.0157"
+          },
+          {
+            "old": "100.0158"
+          },
+          {
+            "old": "100.0159"
+          },
+          {
+            "old": "100.0160"
+          },
+          {
+            "old": "100.0161"
+          },
+          {
+            "old": "100.0162"
+          },
+          {
+            "old": "100.0163"
+          }
+        ],
+        "_first_line": "# Vendredi 22 juin 1883"
+      },
+      {
+        "file": "1883-06-23.md",
+        "date": "1883-06-23",
+        "paragraphs": [
+          {
+            "old": "100.0164"
+          },
+          {
+            "old": "100.0165"
+          },
+          {
+            "old": "100.0166"
+          },
+          {
+            "old": "100.0167"
+          }
+        ],
+        "_first_line": "# Samedi 23 juin 1883"
+      },
+      {
+        "file": "1883-06-24.md",
+        "date": "1883-06-24",
+        "paragraphs": [
+          {
+            "old": "100.0168"
+          },
+          {
+            "old": "100.0169"
+          },
+          {
+            "old": "100.0170"
+          },
+          {
+            "old": "100.0171"
+          },
+          {
+            "old": "100.0172"
+          },
+          {
+            "old": "100.0173"
+          },
+          {
+            "old": "100.0174",
+            "set_french": "Il faut me déboucher."
+          },
+          {
+            "new": {
+              "french": "Il faut de l'air. J'étouffe.",
+              "rsr": "Split (paragraph wave 2): print paragraph 2 of 4 of the re-cut run 100.0174…100.0174 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Dante, Shakespeare, Michel-Ange, Chopin, Bethoveen, Balzac...",
+              "rsr": "Split (paragraph wave 2): print paragraph 3 of 4 of the re-cut run 100.0174…100.0174 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ah ! que nous sommes petits...\nQuelle misère, quel vide !",
+              "rsr": "Split (paragraph wave 2): print paragraph 4 of 4 of the re-cut run 100.0174…100.0174 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "old": "100.0175"
+          },
+          {
+            "old": "100.0176"
+          },
+          {
+            "old": "100.0177"
+          },
+          {
+            "old": "100.0178"
+          },
+          {
+            "old": "100.0179"
+          },
+          {
+            "old": "100.0180"
+          },
+          {
+            "old": "100.0181"
+          },
+          {
+            "old": "100.0182"
+          },
+          {
+            "old": "100.0183"
+          },
+          {
+            "old": "100.0184"
+          }
+        ],
+        "_first_line": "# Dimanche 24 juin 1883"
+      },
+      {
+        "file": "1883-06-25.md",
+        "date": "1883-06-25",
+        "paragraphs": [
+          {
+            "old": "100.0185"
+          },
+          {
+            "old": "100.0186"
+          },
+          {
+            "old": "100.0187"
+          },
+          {
+            "old": "100.0188"
+          },
+          {
+            "old": "100.0189"
+          }
+        ],
+        "_first_line": "# Lundi 25 juin 1883"
+      },
+      {
+        "file": "1883-06-26.md",
+        "date": "1883-06-26",
+        "paragraphs": [
+          {
+            "old": "100.0190"
+          }
+        ],
+        "_first_line": "# Mardi 26 juin 1883"
+      },
+      {
+        "file": "1883-06-27.md",
+        "date": "1883-06-27",
+        "paragraphs": [
+          {
+            "old": "100.0191"
+          },
+          {
+            "old": "100.0192"
+          },
+          {
+            "old": "100.0193"
+          },
+          {
+            "old": "100.0194"
+          },
+          {
+            "old": "100.0195"
+          }
+        ],
+        "_first_line": "# Mercredi 27 juin 1883"
+      },
+      {
+        "file": "1883-06-28.md",
+        "date": "1883-06-28",
+        "paragraphs": [
+          {
+            "old": "100.0196"
+          },
+          {
+            "old": "100.0197"
+          },
+          {
+            "old": "100.0198"
+          },
+          {
+            "old": "100.0199"
+          },
+          {
+            "old": "100.0200"
+          },
+          {
+            "old": "100.0201"
+          },
+          {
+            "old": "100.0202"
+          },
+          {
+            "old": "100.0203"
+          },
+          {
+            "old": "100.0204"
+          },
+          {
+            "old": "100.0205"
+          },
+          {
+            "old": "100.0206"
+          },
+          {
+            "old": "100.0207"
+          },
+          {
+            "old": "100.0208"
+          },
+          {
+            "old": "100.0209"
+          },
+          {
+            "old": "100.0210"
+          },
+          {
+            "old": "100.0211"
+          },
+          {
+            "old": "100.0212"
+          },
+          {
+            "old": "100.0213"
+          },
+          {
+            "old": "100.0214"
+          },
+          {
+            "old": "100.0215"
+          },
+          {
+            "old": "100.0216"
+          },
+          {
+            "old": "100.0217"
+          },
+          {
+            "old": "100.0218"
+          },
+          {
+            "old": "100.0219"
+          }
+        ],
+        "_first_line": "# Jeudi 28 juin 1883"
+      },
+      {
+        "file": "1883-06-29.md",
+        "date": "1883-06-29",
+        "paragraphs": [
+          {
+            "old": "100.0220"
+          },
+          {
+            "old": "100.0221"
+          },
+          {
+            "old": "100.0222"
+          },
+          {
+            "old": "100.0223"
+          },
+          {
+            "old": "100.0224"
+          },
+          {
+            "old": "100.0225"
+          }
+        ],
+        "_first_line": "# Vendredi 29 juin 1883"
+      },
+      {
+        "file": "1883-06-30.md",
+        "date": "1883-06-30",
+        "paragraphs": [
+          {
+            "old": "100.0226"
+          },
+          {
+            "old": "100.0227"
+          }
+        ],
+        "_first_line": "# Samedi 30 juin 1883"
+      },
+      {
+        "file": "1883-07-01.md",
+        "date": "1883-07-01",
+        "paragraphs": [
+          {
+            "old": "100.0228"
+          },
+          {
+            "old": "100.0229"
+          },
+          {
+            "old": "100.0230"
+          },
+          {
+            "old": "100.0231"
+          },
+          {
+            "old": "100.0232"
+          }
+        ],
+        "_first_line": "# Dimanche 1er juillet 1883"
+      },
+      {
+        "file": "1883-07-02.md",
+        "date": "1883-07-02",
+        "paragraphs": [
+          {
+            "old": "100.0233"
+          }
+        ],
+        "_first_line": "# Lundi 2 juillet 1883"
+      },
+      {
+        "file": "1883-07-03.md",
+        "date": "1883-07-03",
+        "paragraphs": [
+          {
+            "old": "100.0234"
+          },
+          {
+            "old": "100.0235"
+          },
+          {
+            "old": "100.0236"
+          },
+          {
+            "old": "100.0237"
+          },
+          {
+            "old": "100.0238"
+          },
+          {
+            "old": "100.0239"
+          },
+          {
+            "old": "100.0240"
+          },
+          {
+            "old": "100.0241"
+          },
+          {
+            "old": "100.0242"
+          },
+          {
+            "old": "100.0243"
+          },
+          {
+            "old": "100.0244"
+          }
+        ],
+        "_first_line": "# Mardi 3 juillet 1883"
+      },
+      {
+        "file": "1883-07-04.md",
+        "date": "1883-07-04",
+        "paragraphs": [
+          {
+            "old": "100.0245"
+          },
+          {
+            "old": "100.0246"
+          },
+          {
+            "old": "100.0247"
+          },
+          {
+            "old": "100.0248"
+          }
+        ],
+        "_first_line": "# Mercredi 4 juillet 1883"
+      },
+      {
+        "file": "1883-07-05.md",
+        "date": "1883-07-05",
+        "paragraphs": [
+          {
+            "old": "100.0249"
+          }
+        ],
+        "_first_line": "# Jeudi 5 juillet 1883"
+      },
+      {
+        "file": "1883-07-06.md",
+        "date": "1883-07-06",
+        "paragraphs": [
+          {
+            "old": "100.0250"
+          }
+        ],
+        "_first_line": "# Vendredi 6 juillet 1883"
+      },
+      {
+        "file": "1883-07-07.md",
+        "date": "1883-07-07",
+        "paragraphs": [
+          {
+            "old": "100.0251"
+          }
+        ],
+        "_first_line": "# Samedi 7 juillet 1883"
+      },
+      {
+        "file": "1883-07-08.md",
+        "date": "1883-07-08",
+        "paragraphs": [
+          {
+            "old": "100.0252"
+          },
+          {
+            "old": "100.0253"
+          },
+          {
+            "old": "100.0254"
+          },
+          {
+            "old": "100.0255"
+          }
+        ],
+        "_first_line": "# Dimanche 8 juillet 1883"
+      },
+      {
+        "file": "1883-07-09.md",
+        "date": "1883-07-09",
+        "paragraphs": [
+          {
+            "old": "100.0256"
+          },
+          {
+            "old": "100.0257"
+          }
+        ],
+        "_first_line": "# Lundi 9 juillet 1883"
+      },
+      {
+        "file": "1883-07-10.md",
+        "date": "1883-07-10",
+        "paragraphs": [
+          {
+            "old": "100.0258"
+          },
+          {
+            "old": "100.0259"
+          },
+          {
+            "old": "100.0260"
+          }
+        ],
+        "_first_line": "# Mardi 10 juillet 1883"
+      },
+      {
+        "file": "1883-07-11.md",
+        "date": "1883-07-11",
+        "paragraphs": [
+          {
+            "old": "100.0261"
+          }
+        ],
+        "_first_line": "# Mercredi 11 juillet 1883"
+      },
+      {
+        "file": "1883-07-12.md",
+        "date": "1883-07-12",
+        "paragraphs": [
+          {
+            "old": "100.0262"
+          },
+          {
+            "old": "100.0263"
+          },
+          {
+            "old": "100.0264"
+          },
+          {
+            "old": "100.0265"
+          },
+          {
+            "old": "100.0266"
+          },
+          {
+            "old": "100.0267"
+          }
+        ],
+        "_first_line": "# Jeudi 12 juillet 1883"
+      },
+      {
+        "file": "1883-07-13.md",
+        "date": "1883-07-13",
+        "paragraphs": [
+          {
+            "old": "100.0268",
+            "set_french": "# Vendredi 13 juillet 1883\nDes comptes à régler avec moi. Besoin de se replonger dans le sein de n'importe quoi, c'est-à-dire non."
+          },
+          {
+            "new": {
+              "french": "Me recueillir. Ecrire des lettres en Russie. Paul et sa femme se conduisant comme des cochons avec maman et j'écris à Paul cinq pages d'injures parfaitement méritées. Je suis si révoltée de l'ingratitude de Paul et de son ignoble femme que je tremble en lui écrivant. Sale individu, va !",
+              "rsr": "Split (paragraph wave 2): print paragraph 2 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Donc l'après-midi va être consacrée à me rendre compte des riens qui...ne m'occupent pas. Le vide. Le Vide. Et dans ce vide les futilités prennent des proportions bêtes.",
+              "rsr": "Split (paragraph wave 2): print paragraph 3 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Serais-je romanesque ? Dans le sens ridicule du mot ? Ou bien serais-je vraiment au-dessus du commun car mes sentiments ne s'accordent, qu'avec ce qu'il y a de plus élevé et de plus pur dans la littérature, et Balzac avoue que les écrivains s'en parent comme d'un fard ? Alors ???",
+              "rsr": "Split (paragraph wave 2): print paragraph 4 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Enfin... Et l'Amour ?",
+              "rsr": "Split (paragraph wave 2): print paragraph 5 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Qu'est-ce que c'est ? Je ne l'ai jamais éprouvé car ces entraînements passagers, vaniteux, ne comptent pas.",
+              "rsr": "Split (paragraph wave 2): print paragraph 6 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "J'ai préféré des gens parce qu'il faut un objet à mon imagination, ils étaient donc préférés parce que c'était un besoin de ma \"grande âme\" et non pas parce qu'ils s'imposaient.",
+              "rsr": "Split (paragraph wave 2): print paragraph 7 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Voilà toute la différence. Elle est énorme. Exemple: J'ai besoin d'un chapeau et je vais en chercher un. Ou bien je passe et deviens folle d'une coiffure et veux l'avoir à tout prix... Pour ce qui est de l'Amour physique je serais très curieuse de le connaître et je crois même que cela doit contribuer à établir l'equilibre d'une existence. Mais-",
+              "rsr": "Split (paragraph wave 2): print paragraph 8 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mme Presseq répond à un mot de politesse de moi, par un billet qui se termine ainsi: \"et je vous asure que nulle au monde n'a pour vous plus de sympathie que votre bien dévouée etc.\" Ça signifie qu'elle croit à une infortune commune. Elle me croit victime de son grand Paul. C'est encore assez bête, depuis quelques jours il fait beaucoup parler de lui, un incident ultra-tapageur à la Chambre et des articles où il se convertit à un pis-aller orléaniste. C'est absurde et ne m'empoigne pas du tout. Et cette folle Presseq qui me croit probablement remuée par ce tapage qui me laisse aussi froide que la plaque de la cheminée ou se couche Coco pendant les grandes chaleurs.",
+              "rsr": "Split (paragraph wave 2): print paragraph 9 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Sans transition passons à l'Art. Je ne vois pas ou je vais en peinture. Je suis Bastien-Lepage et c'est déplorable. On reste toujours en arrière. On n'est jamais grand tant qu'on n'a pas découvert une voie nouvelle, sa propre nature, le moyen de rendre des impressions particulières.",
+              "rsr": "Split (paragraph wave 2): print paragraph 10 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mon art n'existe pas. Je l'entrevois un peu dans les Saintes femmes... et encore ? En sculpture c'est différent. Mais en peinture... J'imite Bastien-Lepage et c'est une si grande honte que je deviens rouge quand j'y pense. Dans les Saintes femmes je n'imite personne et je crois à un grand effet car je veux mettre une grande sincérité dans l'exécution matérielle et puis toute l'émotion que j'éprouve à ce sujet. Et comme avec cela je ne ferai pas de fautes de dessin, ni d'arrangement, ni de costume... Car les peintres émus ne savent généralement pas dessiner et habillent les madones en Louis XV ou en 1883.",
+              "rsr": "Split (paragraph wave 2): print paragraph 11 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Les gamins font penser à Bastien-Lepage bien que j'ai pris le sujet dans le rue et que c'est un sujet très commun, très vrai, très journalier. Et... Du reste ce peintre me cause toujours je ne sais quel malaise. Les journaux ont fait que nous sommes en défiance et puis j'ai tellement dit mon admiration pour lui qu'il se croit un peu mon souverain et je bous à l'idée qu'il croit que je l'imite servilement et ne vois pas au delà. Et il a des raisons pour le croire hélas. En outre je sens qu'il a de l'antipathie pour moi, je me sens vis-à-vis de lui comme un être vil vis-à-vis de celui qui aurait pénétré sa vilenie.",
+              "rsr": "Split (paragraph wave 2): print paragraph 12 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est que je sens qu'il ne m'aime pas. Et ces choses-là m'affligent venant de n'importe qui. Mais je prends dès cet instant la résolution de ne plus du tout m'en occuper, en paroles surtout, et je dirai même partout que nous connaissons surtout le frère.",
+              "rsr": "Split (paragraph wave 2): print paragraph 13 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est égal, il ne croira pas, encore hier son frère entre et devant lui sur le piano s'étale la photographie de l'Amour au village, une charge d'atelier que Jules m'a envoyée. Deux jeunes gens ont posé et entourés de salade. C'est assez drôle. Il pénétré jusqu'au fond pour saluer la maréchale et se heurte contre la photographie du portrait de Sarah Bernhardt.",
+              "rsr": "Split (paragraph wave 2): print paragraph 14 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Encore un peu et il découvrait la brochure anglaise avec la biographie et le portrait de son frère. J'aurai fort à faire pour qu'on croit que c'est passé.",
+              "rsr": "Split (paragraph wave 2): print paragraph 15 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je viens d'avoir la visite de M. Carriès, le fameux scultpeur de l'autre jour. Il n'apportait pas ses bustes, j'étais seule mais je l'ai reçu parce qu'il demeure très loin et c'est une dépense de fiacre... Et puis dans l'atelier. J'ai là justement mes cinq esquisses en terre, il en reste très étonné. Vous êtes née pour faire de la sculpture. Il regarde tout avec une naïveté très grande disant tout haut ce qui lui plaît ou ce qui lui déplaît. Ce qui lui plaît domine, son admiration et son étonnement ont un air si sincère que je suis très contente. Cela nous met tellement à l'aise que le plus naturellement du monde je lui joue de la mandoline, il m'avait entendue jouer en arrivant et m'a demandé quel était l'instrument. Cette visite m'épanouit ! Un compliment sincère vaut quarante-neuf mille admirations de société.",
+              "rsr": "Split (paragraph wave 2): print paragraph 16 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "L'architecte assure, affirme, jure que son frère a mes capacités en très haute estime. Ce n'est pas possible ou bien c'est de l'indulgence... Je me crois tantôt un génie et tantôt un rien. C'est-à-dire que je crois que je vais avoir du talent mais je suis désespérée du résultat actuel..",
+              "rsr": "Split (paragraph wave 2): print paragraph 17 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Les Engelhardt et Mme Bogdanoff à dîner. Hier c'était Bojidar et Dusautoy. Toujours à peu près la même chose.",
+              "rsr": "Split (paragraph wave 2): print paragraph 18 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "L'article du \"Nouveau Temps\" est réimprimé dans tous les journaux russes et voilà un grand retentissement. La maréchale a dit qu'elle me ferait amener Wolff par Francesqui !",
+              "rsr": "Split (paragraph wave 2): print paragraph 19 of 19 of the re-cut run 100.0268…100.0268 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          }
+        ],
+        "_first_line": "# Vendredi 13 juillet 1883"
+      },
+      {
+        "file": "1883-07-14.md",
+        "date": "1883-07-14",
+        "paragraphs": [
+          {
+            "old": "100.0269",
+            "set_french": "# Samedi 14 juillet 1883\nNous allons faire un tour en voiture pour voir la ville pavoisée. Ça m'amuse. Et puis je continue le recueillement d'hier."
+          },
+          {
+            "new": {
+              "french": "Avez-vous lu \"L'amour\" de Stendhal ? Je le lis à présent.",
+              "rsr": "Split (paragraph wave 2): print paragraph 2 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je n'ai jamais aimé de ma vie ou je n'ai jamais cessé d'être amoureuse d'un être imaginaire. Voyons ?",
+              "rsr": "Split (paragraph wave 2): print paragraph 3 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Lisez ce livre. C'est encore plus délicat que Balzac, c'est plus véritable, c'est plus harmonieux et plus poétique. Il exprime divinement ce que tout le monde a senti, même moi. Seulement moi j'ai toujours... été trop analyste. Je n'ai été vraiment amoureuse que d'Audiffret à Nice et encore par ignorance.",
+              "rsr": "Split (paragraph wave 2): print paragraph 4 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Un amour de quinze ans et puis un entraînement maladif pour cet horreur de Larderel.\nEt puis ? Cassagnac ? Je l'ai oublié, celui-là et du reste il ne m'a attirée que par sa célébrité, la cristallisation a été posthume si j'ose m'exprimer ainsi. Je l'ai aimé (??) de souvenir.",
+              "rsr": "Split (paragraph wave 2): print paragraph 5 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Alors je vais aimer ?",
+              "rsr": "Split (paragraph wave 2): print paragraph 6 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Stendhal parle des femmes comme de délicieuses créatures qui font des broderies au métier et il analyse leurs sentiments en conséquence. Je suis évidemment une exception, ces réflexions ne peuvent m'être applicables, aussi je me reconnais plutôt dans ses impressions personnelles qui sont d'un homme occupé, d'un homme de talent... Enfin. Alors c'est que je vais aimer un jour ? Qui ? Et ça va me bouleverser ?",
+              "rsr": "Split (paragraph wave 2): print paragraph 7 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et je perdrai la tête ? Ce sera très curieux. Ce serait dommage de tomber sur quelque être grossier. Je me souviens avoir, à Naples, toute seule au balcon, écoutant une sérénade... des moments vraiment délicieux; se sentir transportée et en extase sans objet et sans autre cause que ce pays, le soir et la musique. Je n'ai jamais retrouvé ces impressions à Paris ni ailleurs qu'en Italie. Si je ne craignais les on-dit je me marierais tout de suite avec Saint-Amand et serais libre et tranquille en attendant de rencontrer l'être... suprême.",
+              "rsr": "Split (paragraph wave 2): print paragraph 8 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais on dirait, on inventerait quelque sale mystère, car on sait que Saint-Amand n'est pas complet. Et d'un autre côté épouser un monsieur comme tout le monde et qui n'ayant rien à se reprocher me rendra malheueuse ou m'ennuiera.",
+              "rsr": "Split (paragraph wave 2): print paragraph 9 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Pour ce qui serait de trouve l'idéal rêvé, je n'y compte guère. Car s'il y a l'âme il n'y aura peut-être pas la situation nécessaire dans le monde etc... Jusqu'à nouvel ordre je m'arrête à un mariage Saint-Amand.",
+              "rsr": "Split (paragraph wave 2): print paragraph 10 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il est baron, ministre plénipotentiaire, sous-chef ou chef de quelque chose au ministère; un talent d'écrivain passable, surtout comme compilateur, avec du temps, une fortune, de bons dîners, il irait à l'Académie certainement. C'est un M. Roland ou un M. Récamier très brillant.",
+              "rsr": "Split (paragraph wave 2): print paragraph 11 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il me parle souvent de travail et d'art, il n'y a que ça. il dit qu'il me comprend; que nous devrions nous associer enfin je n'aurais aucune avance à faire. Mais si ce qu'on dit est vrai que pense-t-il de moi ? Croit-il vraiment que je sois rien qu'à l'Art et pour toujours ? Ou pense-t-il que je crois être tout à l'Art, et veut profiter de cette disposition pour faire un mariage inespéré.",
+              "rsr": "Split (paragraph wave 2): print paragraph 12 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ensuite il s'accommoderait sans doute d'un changement dans mes idées... Je lui ai dit un jour que l'important était non pas d'avoir une femme absolument vertueuse, mais bien une femme assez intelligente pour le paraître toujours. Il n'a pas dit non.\nIl est impossible de rêver un mariage me convenant mieux. Seulement il faudrait faire croire au monde que tout va bien.\nAvoir un enfant par exemple la première année. Et comment ? Et que dirait-on ?",
+              "rsr": "Split (paragraph wave 2): print paragraph 13 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Non, mais plutôt simuler une chose... à peu près, l'expression vraie me répugne, une fausse etc. Ce serait facile et il serait du complot. Eh bien je raconte là de jolies choses mon Dieu, ce sont des projets d'arrangements matériels pour jouir en paix de mon travail et peut-être d'un bonheur qui viendrait un jour...",
+              "rsr": "Split (paragraph wave 2): print paragraph 14 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il n'y a pas un mois que mon père est mort et je n'y pense pas... Si quelquefois et plutôt avec des regrets car lorsqu'il était aimable, il était amusant; un certain esprit, assez blagueur, il avait beaucoup de moi et disait parfois des mots justes et mordants.",
+              "rsr": "Split (paragraph wave 2): print paragraph 15 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je suis de plus en plus convaincue que je devrais écrire, c'est un besoin invincible et depuis que j'ai cinq ou six ans, j'écrivais alors des lettres et à onze ans je notais des impressions, enfin cela m'est non seulement naturel mais indispensable...",
+              "rsr": "Split (paragraph wave 2): print paragraph 16 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et je suis tourmentée ne sachant quelle forme donner à toutes ces idées confuses... Car ceci est un capharnaum ou je jette tout pêle-mêle.\nMais à part il y a un roman... Des choses dont les commencements me sont arrivées. Je pars de quelque événement ou sentiment personnel et là-dessus se construit un roman que je vois, que je vis et que je copie d'après nature...",
+              "rsr": "Split (paragraph wave 2): print paragraph 17 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Ce journal serait d'un intérêt prodigieux après ma mort si de mon vivant j'écrivais quelques bons livres... J'ai depuis quelques jours une idée pour laquelle je me servirai de Saint-Amand mais il faut d'abord écrire ce livre. Et j'ai deux choses entrain qui m'intéressent beaucoup...",
+              "rsr": "Split (paragraph wave 2): print paragraph 18 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Et la peinture et la sculpture. Et la musique ? Mais tout cela ensemble. Voilà qui fait que je perds un peu la tête. Je ne puis écrire que le soir et deux heures au plus. Mais je sens que c'est cela qui me préoccupe le plus... Avec le reste.",
+              "rsr": "Split (paragraph wave 2): print paragraph 19 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est mon admiration qui a éloigné Bastien-Lepage.",
+              "rsr": "Split (paragraph wave 2): print paragraph 20 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Il est bien entendu qu'en parlant d'amour il n'est jamais question de l'amour définitif.\nVous m'entendez, il s'agit de sentiment uniquement, car Stendhal distingue plusieurs amours et l'Amour-goût me semble être le sentiment que j'ai quelquefois éprouvé. Mais le vrai, l'Amour-passion comme il dit est à venir.",
+              "rsr": "Split (paragraph wave 2): print paragraph 21 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Mais ce n'est pas cela que j'étais venue dire. Je voulais seulement noter une observation très juste et qui m'explique la froideur du grand peintre. \"Il faut bien se garder de présenter des facilités à l'espérance avant d'être sur qu'il y a admiration. On ferait naître la fadeur qui rend à jamais l'amour impossible, ou du moins que l'on ne peut guérir que par la pique d'amour-pur\". Ce remède est à employer et j'essayerai.",
+              "rsr": "Split (paragraph wave 2): print paragraph 22 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Non qu'il s'agisse d'amour entre nous mais.. Du reste il s'agit toujours de cela plus ou moins... Enfin Stendhal décrit la naissance de l'amour ainsi: 1) l'admiration, puis le bonheur qu'on aurait d'être aimé de cette femme ou de cet homme, 2) l'Espérance.",
+              "rsr": "Split (paragraph wave 2): print paragraph 23 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "C'est l'espérance après l'admiration qui détermine l'amour, retirez l'espérance au bout d'un jour, l'amour n'en est pas moins né. Que signifie espérance ? Espérance d'être aimé ou simplement de plaire ou encore moins: être sympathique.",
+              "rsr": "Split (paragraph wave 2): print paragraph 24 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Voici donc ce qui aurait pu se passer entre nous, mais avant seulement qu'il m'admire, je lui ai montré que je l'admirais à l'égal d'un héros, les hommes sont fats et les femmes aussi, il a pu croire que c'était \"des facilités à l'espérance\". De là point de cristallisation.",
+              "rsr": "Split (paragraph wave 2): print paragraph 25 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Lisez ce livre de Stendhal, il est ravissant et vous me comprendrez mieux. Donc il ne me reste plus que la pique d'amour-propre. Ce sera facile, j'y pensais déjà avant Stendhal. Je l'adore, lui Stendhal, et Balzac aussi parce qu'ils expriment mes pensées en un langage clair et admirable.",
+              "rsr": "Split (paragraph wave 2): print paragraph 26 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Je ne dis pas que ce petit sournois de Damvillers m'en aimera, mais du moins il m'estimera davantage. Il me croit à ses pieds, car il ne pensera pas à l'abime qu'il y a entre mon admiration pour son talent et un emballement complet.",
+              "rsr": "Split (paragraph wave 2): print paragraph 27 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          },
+          {
+            "new": {
+              "french": "Lorsque j'étais amoureuse je n'éprouvai aucune haine contre la femme que je savais être la maîtresse de M. X. Du duc de Hamilton, du petit Audiffret ou de l'insignifiant Larderel.\nAu contraire, la vue de ces personnes m'était agréable, ces dames m'étaient presque chères à cause du Lui. J'ai noté cette impression en son temps dans cet illustre journal et j'y repense à propos de Stendhal qui dit que lorsqu'il voit sa plus cruelle ennemie mais qui approche continuellement son idole il ne peut arriver à la haïr tellement elle lui rappelle son objet.",
+              "rsr": "Split (paragraph wave 2): print paragraph 28 of 28 of the re-cut run 100.0269…100.0269 (Mon Journal t.15; split point verified on the scan indentation / print layout)."
+            }
+          }
+        ],
+        "_first_line": "# Samedi 14 juillet 1883"
+      },
+      {
+        "file": "1883-07-15.md",
+        "date": "1883-07-15",
+        "paragraphs": [
+          {
+            "old": "100.0270"
+          }
+        ],
+        "_first_line": "# Dimanche 15 juillet 1883"
+      },
+      {
+        "file": "1883-07-16.md",
+        "date": "1883-07-16",
+        "paragraphs": [
+          {
+            "old": "100.0271"
+          },
+          {
+            "old": "100.0272"
+          },
+          {
+            "old": "100.0273"
+          },
+          {
+            "old": "100.0274"
+          },
+          {
+            "old": "100.0275"
+          },
+          {
+            "old": "100.0276"
+          },
+          {
+            "old": "100.0277"
+          },
+          {
+            "old": "100.0278"
+          },
+          {
+            "old": "100.0279"
+          },
+          {
+            "old": "100.0280"
+          },
+          {
+            "old": "100.0281"
+          },
+          {
+            "old": "100.0282"
+          },
+          {
+            "old": "100.0283"
+          },
+          {
+            "old": "100.0284"
+          },
+          {
+            "old": "100.0285"
+          }
+        ],
+        "_first_line": "# Lundi 16 juillet 1883"
+      },
+      {
+        "file": "1883-07-17.md",
+        "date": "1883-07-17",
+        "paragraphs": [
+          {
+            "old": "100.0286"
+          },
+          {
+            "old": "100.0287"
+          },
+          {
+            "old": "100.0288"
+          },
+          {
+            "old": "100.0289"
+          },
+          {
+            "old": "100.0290"
+          },
+          {
+            "old": "100.0291"
+          },
+          {
+            "old": "100.0292"
+          },
+          {
+            "old": "100.0293"
+          },
+          {
+            "old": "100.0294"
+          },
+          {
+            "old": "100.0295"
+          },
+          {
+            "old": "100.0296"
+          }
+        ],
+        "_first_line": "# Mardi 17 juillet 1883"
+      },
+      {
+        "file": "1883-07-18.md",
+        "date": "1883-07-18",
+        "paragraphs": [
+          {
+            "old": "100.0297"
+          }
+        ],
+        "_first_line": "# Mercredi 18 juillet 1883"
+      },
+      {
+        "file": "1883-07-19.md",
+        "date": "1883-07-19",
+        "paragraphs": [
+          {
+            "old": "100.0298"
+          },
+          {
+            "old": "100.0299"
+          },
+          {
+            "old": "100.0300"
+          }
+        ],
+        "_first_line": "# Jeudi 19 juillet 1883"
+      },
+      {
+        "file": "1883-07-20.md",
+        "date": "1883-07-20",
+        "paragraphs": [
+          {
+            "old": "100.0301"
+          }
+        ],
+        "_first_line": "# Vendredi 20 juillet 1883"
+      },
+      {
+        "file": "1883-07-21.md",
+        "date": "1883-07-21",
+        "paragraphs": [
+          {
+            "old": "100.0302"
+          },
+          {
+            "old": "100.0303"
+          },
+          {
+            "old": "100.0304"
+          },
+          {
+            "old": "100.0305"
+          },
+          {
+            "old": "100.0306"
+          },
+          {
+            "old": "100.0307"
+          },
+          {
+            "old": "100.0308"
+          },
+          {
+            "old": "100.0309"
+          },
+          {
+            "old": "100.0310"
+          },
+          {
+            "old": "100.0311"
+          },
+          {
+            "old": "100.0312"
+          },
+          {
+            "old": "100.0313"
+          },
+          {
+            "old": "100.0314"
+          },
+          {
+            "old": "100.0315"
+          }
+        ],
+        "_first_line": "# Samedi 21 juillet 1883"
+      },
+      {
+        "file": "1883-07-22.md",
+        "date": "1883-07-22",
+        "paragraphs": [
+          {
+            "old": "100.0316"
+          },
+          {
+            "old": "100.0317"
+          },
+          {
+            "old": "100.0318"
+          },
+          {
+            "old": "100.0319"
+          },
+          {
+            "old": "100.0320"
+          },
+          {
+            "old": "100.0321"
+          },
+          {
+            "old": "100.0322"
+          },
+          {
+            "old": "100.0323"
+          },
+          {
+            "old": "100.0324"
+          },
+          {
+            "old": "100.0325"
+          },
+          {
+            "old": "100.0326"
+          },
+          {
+            "old": "100.0327"
+          },
+          {
+            "old": "100.0328"
+          },
+          {
+            "old": "100.0329"
+          },
+          {
+            "old": "100.0330"
+          },
+          {
+            "old": "100.0331"
+          },
+          {
+            "old": "100.0332"
+          },
+          {
+            "old": "100.0333"
+          }
+        ],
+        "_first_line": "# Dimanche 22 juillet 1883"
+      },
+      {
+        "file": "1883-07-23.md",
+        "date": "1883-07-23",
+        "paragraphs": [
+          {
+            "old": "100.0334"
+          },
+          {
+            "old": "100.0335"
+          },
+          {
+            "old": "100.0336"
+          },
+          {
+            "old": "100.0337"
+          }
+        ],
+        "_first_line": "# Lundi 23 juillet 1883"
+      },
+      {
+        "file": "1883-07-24.md",
+        "date": "1883-07-24",
+        "paragraphs": [
+          {
+            "old": "100.0338"
+          },
+          {
+            "old": "100.0339"
+          },
+          {
+            "old": "100.0340"
+          }
+        ],
+        "_first_line": "# Mardi 24 juillet 1883"
+      },
+      {
+        "file": "1883-07-25.md",
+        "date": "1883-07-25",
+        "paragraphs": [
+          {
+            "old": "100.0341"
+          },
+          {
+            "old": "100.0342"
+          },
+          {
+            "old": "100.0343"
+          },
+          {
+            "old": "100.0344"
+          },
+          {
+            "old": "100.0345"
+          },
+          {
+            "old": "100.0346"
+          },
+          {
+            "old": "100.0347"
+          },
+          {
+            "old": "100.0348"
+          },
+          {
+            "old": "100.0349"
+          },
+          {
+            "old": "100.0350"
+          }
+        ],
+        "_first_line": "# Mercredi 25 juillet 1883"
+      },
+      {
+        "file": "1883-07-26.md",
+        "date": "1883-07-26",
+        "paragraphs": [
+          {
+            "old": "100.0351"
+          },
+          {
+            "old": "100.0352"
+          },
+          {
+            "old": "100.0353"
+          },
+          {
+            "old": "100.0354"
+          },
+          {
+            "old": "100.0355"
+          },
+          {
+            "old": "100.0356"
+          }
+        ],
+        "_first_line": "# Jeudi 26 juillet 1883"
+      },
+      {
+        "file": "1883-07-27.md",
+        "date": "1883-07-27",
+        "paragraphs": [
+          {
+            "old": "100.0357"
+          }
+        ],
+        "_first_line": "# Vendredi 27 juillet 1883"
+      },
+      {
+        "file": "1883-07-28.md",
+        "date": "1883-07-28",
+        "paragraphs": [
+          {
+            "old": "100.0358"
+          },
+          {
+            "old": "100.0359"
+          },
+          {
+            "old": "100.0360"
+          },
+          {
+            "old": "100.0361"
+          },
+          {
+            "old": "100.0362"
+          },
+          {
+            "old": "100.0363"
+          },
+          {
+            "old": "100.0364"
+          },
+          {
+            "old": "100.0365"
+          },
+          {
+            "old": "100.0366"
+          },
+          {
+            "old": "100.0367"
+          },
+          {
+            "old": "100.0368"
+          }
+        ],
+        "_first_line": "# Samedi 28 juillet 1883"
+      },
+      {
+        "file": "1883-07-29.md",
+        "date": "1883-07-29",
+        "paragraphs": [
+          {
+            "old": "100.0369"
+          }
+        ],
+        "_first_line": "# Dimanche 29 juillet 1883"
+      },
+      {
+        "file": "1883-07-30.md",
+        "date": "1883-07-30",
+        "paragraphs": [
+          {
+            "old": "100.0370"
+          },
+          {
+            "old": "100.0371"
+          },
+          {
+            "old": "100.0372"
+          },
+          {
+            "old": "100.0373"
+          },
+          {
+            "old": "100.0374"
+          }
+        ],
+        "_first_line": "# Lundi 30 juillet 1883"
+      },
+      {
+        "file": "1883-07-31.md",
+        "date": "1883-07-31",
+        "paragraphs": [
+          {
+            "old": "100.0375"
+          }
+        ],
+        "_first_line": "# Mardi 31 juillet 1883"
+      },
+      {
+        "file": "1883-08-01.md",
+        "date": "1883-08-01",
+        "paragraphs": [
+          {
+            "old": "100.0376"
+          }
+        ],
+        "_first_line": "# Mercredi 1er août 1883"
+      },
+      {
+        "file": "1883-08-02.md",
+        "date": "1883-08-02",
+        "paragraphs": [
+          {
+            "old": "100.0377"
+          },
+          {
+            "old": "100.0378"
+          },
+          {
+            "old": "100.0379"
+          }
+        ],
+        "_first_line": "# Jeudi 2 août 1883"
+      },
+      {
+        "file": "1883-08-03.md",
+        "date": "1883-08-03",
+        "paragraphs": [
+          {
+            "old": "100.0380"
+          },
+          {
+            "old": "100.0381"
+          },
+          {
+            "old": "100.0382"
+          },
+          {
+            "old": "100.0383"
+          },
+          {
+            "old": "100.0384"
+          },
+          {
+            "old": "100.0385"
+          },
+          {
+            "old": "100.0386"
+          },
+          {
+            "old": "100.0387"
+          },
+          {
+            "old": "100.0388"
+          },
+          {
+            "old": "100.0389"
+          },
+          {
+            "old": "100.0390"
+          },
+          {
+            "old": "100.0391"
+          },
+          {
+            "old": "100.0392"
+          },
+          {
+            "old": "100.0393"
+          },
+          {
+            "old": "100.0394"
+          }
+        ],
+        "_first_line": "# Vendredi 3 août 1883"
+      },
+      {
+        "file": "1883-08-04.md",
+        "date": "1883-08-04",
+        "paragraphs": [
+          {
+            "old": "100.0395"
+          }
+        ],
+        "_first_line": "# Samedi 4 aout 1883"
+      },
+      {
+        "file": "1883-08-05.md",
+        "date": "1883-08-05",
+        "paragraphs": [
+          {
+            "old": "100.0396"
+          },
+          {
+            "old": "100.0397"
+          },
+          {
+            "old": "100.0398"
+          },
+          {
+            "old": "100.0399"
+          },
+          {
+            "old": "100.0400"
+          },
+          {
+            "old": "100.0401"
+          },
+          {
+            "old": "100.0402"
+          },
+          {
+            "old": "100.0403"
+          },
+          {
+            "old": "100.0404"
+          },
+          {
+            "old": "100.0405"
+          },
+          {
+            "old": "100.0406"
+          },
+          {
+            "old": "100.0407"
+          },
+          {
+            "old": "100.0408"
+          },
+          {
+            "old": "100.0409"
+          },
+          {
+            "old": "100.0410"
+          },
+          {
+            "old": "100.0411"
+          },
+          {
+            "old": "100.0412"
+          },
+          {
+            "old": "100.0413"
+          },
+          {
+            "old": "100.0414"
+          },
+          {
+            "old": "100.0415"
+          },
+          {
+            "old": "100.0416"
+          },
+          {
+            "old": "100.0417"
+          },
+          {
+            "old": "100.0418"
+          },
+          {
+            "old": "100.0419"
+          },
+          {
+            "old": "100.0420"
+          },
+          {
+            "old": "100.0421"
+          },
+          {
+            "old": "100.0422"
+          },
+          {
+            "old": "100.0423"
+          },
+          {
+            "old": "100.0424"
+          },
+          {
+            "old": "100.0425"
+          },
+          {
+            "old": "100.0426"
+          },
+          {
+            "old": "100.0427"
+          },
+          {
+            "old": "100.0428"
+          },
+          {
+            "old": "100.0429"
+          },
+          {
+            "old": "100.0430"
+          },
+          {
+            "old": "100.0431"
+          },
+          {
+            "old": "100.0432"
+          },
+          {
+            "old": "100.0433"
+          },
+          {
+            "old": "100.0434"
+          },
+          {
+            "old": "100.0435"
+          },
+          {
+            "old": "100.0436"
+          },
+          {
+            "old": "100.0437"
+          },
+          {
+            "old": "100.0438"
+          }
+        ],
+        "_first_line": "# Dimanche 5 août 1883"
+      },
+      {
+        "file": "1883-08-06.md",
+        "date": "1883-08-06",
+        "paragraphs": [
+          {
+            "old": "100.0439"
+          }
+        ],
+        "_first_line": "# Lundi 6 aout 1883"
+      },
+      {
+        "file": "1883-08-07.md",
+        "date": "1883-08-07",
+        "paragraphs": [
+          {
+            "old": "100.0440"
+          },
+          {
+            "old": "100.0441"
+          },
+          {
+            "old": "100.0442"
+          },
+          {
+            "old": "100.0443"
+          },
+          {
+            "old": "100.0444"
+          },
+          {
+            "old": "100.0445"
+          },
+          {
+            "old": "100.0446"
+          },
+          {
+            "old": "100.0447"
+          },
+          {
+            "old": "100.0448"
+          },
+          {
+            "old": "100.0449"
+          },
+          {
+            "old": "100.0450"
+          },
+          {
+            "old": "100.0451"
+          },
+          {
+            "old": "100.0452"
+          },
+          {
+            "old": "100.0453"
+          },
+          {
+            "old": "100.0454"
+          },
+          {
+            "old": "100.0455"
+          },
+          {
+            "old": "100.0456"
+          },
+          {
+            "old": "100.0457"
+          },
+          {
+            "old": "100.0458"
+          },
+          {
+            "old": "100.0459"
+          },
+          {
+            "old": "100.0460"
+          },
+          {
+            "old": "100.0461"
+          },
+          {
+            "old": "100.0462"
+          },
+          {
+            "old": "100.0463"
+          },
+          {
+            "old": "100.0464"
+          },
+          {
+            "old": "100.0465"
+          },
+          {
+            "old": "100.0466"
+          },
+          {
+            "old": "100.0467"
+          }
+        ],
+        "_first_line": "# Mardi 7 août 1883"
+      }
+    ]
+  }
+}

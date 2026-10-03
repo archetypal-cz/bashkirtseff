@@ -30,7 +30,7 @@ Constantin (Constantine) Bashkirtseff (1833–1883) was Marie's father, a Russia
 - Landowner at the Gavronzi estate near Poltava
 - Married Marie Stepanovna Babanine ([#Maman](MAMAN.md))
 - Father of Marie (1858–1884) and Paul (1859–1899)
-- Marshal of the nobility: "mon père est maréchal de noblesse" (023.0633); "mon honorable père, maréchal de noblesse" (030.0127)
+- Marshal of the nobility: "mon père est maréchal de noblesse" (023.0637); "mon honorable père, maréchal de noblesse" (030.0127)
 
 ## In the diary, 1873–1875
 
@@ -39,7 +39,7 @@ Constantin is absent from the Nice household. Marie mentions him with marked for
 - **Durocher affair** (1873-10-25, 011.0266–0284): "Mon très cher père a une actrice française Durocher…", his public liaison in Russia.
 - **Announced visit** (1873-11-07, 012.0114): "Mon cher père vient à Nice. Animal !"
 - **Visit to Nice / Monte-Carlo, 24–27 November 1873** (013.0073–0109): "Mon auguste père est arrivé." Only during this visit does Marie call him "Papa" / "le Papa" / "mon adorable papa" (013.0076, 013.0083, 013.0099), always next to "mon père".
-- **Family quarrels**: the grandfather reproaches "ma race, mon nom, mon père" (019.0306); Marie defends him (025.0054: "Je connais peu mon père et l'aime encore moins…").
+- **Family quarrels**: the grandfather reproaches "ma race, mon nom, mon père" (019.0307); Marie defends him (025.0054: "Je connais peu mon père et l'aime encore moins…").
 - **Letters, 1875**: Marie writes to Paul and Sacha so that they tell "mon père" she is coming to Russia, "pas pour rester chez lui" (032.0448); "Mon père écrit que … Paul se conduit d'une façon impossible" (039.0159).
 
 ## 1876–1877: Poltava, Gavronzi, Paris, Rome
@@ -47,7 +47,7 @@ Constantin is absent from the Nice household. Marie mentions him with marked for
 - In July 1876 Marie travels to Russia and meets her father (carnets 064–066). Her plan is to bring him to Rome so that the family looks respectable.
 - At Poltava and Gavronzi she calls him "Papa" and plays up to him: "Vous serez mon frère aîné et je vous nommerai Constantin" (065.0174). Prince Michel Eristoff, stepson of his sister Nathalie, "mange l'argent à papa" (065.0064).
 - In November 1876 Marie and her father travel to Paris together (067.1054, "Papa et maman"), where she introduces him to Cassagnac. They go on to Rome at Christmas 1876, but he leaves before New Year without improving Marie's social standing.
-- In December 1876 he makes a provocative visit to Nice (067.1479 "la carte de mon père … voici son défi"), and maman confronts him at Monaco with his mistress and Mme Tutcheff (067.1504).
+- In December 1876 he makes a provocative visit to Nice (067.1488 "la carte de mon père … voici son défi"), and maman confronts him at Monaco with his mistress and Mme Tutcheff (067.1513).
 - "M. Constantin Bashkirtseff a épousé la plus belle et la plus vertueuse des femmes… Il a rendu cette femme parfaitement malheureuse" (068.0604).
 
 ## Later life and death

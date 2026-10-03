@@ -167,7 +167,7 @@ The whole household, his daughter (Marie's mother) included, called him Papa, an
 
 ## 1875–1877: "grand-papa", blind and then seeing
 
-From 1875 Marie mostly names him "grand-papa" / "mon grand-père", and bare "papa" becomes rarer (031.0080–0139, 033.0056–0170, 045.0383–0284, 062.0057–0622, 072.0006, 072.0057, 074.0371).
+From 1875 Marie mostly names him "grand-papa" / "mon grand-père", and bare "papa" becomes rarer (031.0080–0139, 033.0056–0170, 045.0384–0284, 062.0057–0622, 072.0006, 072.0057, 074.0371).
 
 - **Blindness and fall**: "pauvre aveugle qu'il est" (032.0215, May 1875), after a false alarm of apoplexy.
 - **Collignon**: Marie blames the governess's departure on him (032.0181); he is "jaloux" of Collignon and Barnola (046.0302, 059.0571, 062.0098).

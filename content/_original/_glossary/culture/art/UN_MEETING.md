@@ -53,14 +53,14 @@ Marie's own first description of the composition, written more than a year befor
 The idea arrived whole on **4 April 1883** (099.0033–0035) and the picture took fourteen months. Marie first planned the boys half-length, then in late April scaled the whole thing up to life-size figures at a street corner beside a lamp-post (099.0246), and on 7 May restarted the canvas entirely: "Je recommence entièrement les gamins, je les fais en pied, en toile plus grande, c'est bien plus amusant" (099.0377). [Tony Robert-Fleury](../../people/artists/ROBERT_FLEURY.md) had "craintes sérieuses" about the ambition of it (099.0210–0212), and she brought in [Rodolphe Julian](../../people/mentioned/RODOLPHE_JULIAN.md) not for advice but as a specimen of "la majorité bien-pensante" -- a test of how the ordinary Salon-goer would react (099.0423–0364).
 
 %% GLO_UN_MEETING.0009 %%
-It was painted out of doors, and the weather fought it: a storm knocked the canvas over and holed it in July 1883 (100.0302), and again in September, though "pas dans les figures" (101.0434). By August she was writing "Les gamins ne sont pas finis !!!" (100.0441). In October, Bastien-Lepage gave her the counsel she followed -- let it rest over the winter and finish selected passages in the spring, with "Bastien et la nature" as the two standards of comparison (101.0542). Through the autumn she stalled: "je suis restée trop longtemps devant les gamins pour y retravailler à présent, j'ai voulu, je ne peux pas" (102.0025). In November 1883 a photograph her mother had carried to St Petersburg was reproduced on the front page of *L'Illustration universelle* (102.0296) -- the picture was famous in Russia before it was finished in France.
+It was painted out of doors, and the weather fought it: a storm knocked the canvas over and holed it in July 1883 (100.0389), and again in September, though "pas dans les figures" (101.0434). By August she was writing "Les gamins ne sont pas finis !!!" (100.0528). In October, Bastien-Lepage gave her the counsel she followed -- let it rest over the winter and finish selected passages in the spring, with "Bastien et la nature" as the two standards of comparison (101.0542). Through the autumn she stalled: "je suis restée trop longtemps devant les gamins pour y retravailler à présent, j'ai voulu, je ne peux pas" (102.0025). In November 1883 a photograph her mother had carried to St Petersburg was reproduced on the front page of *L'Illustration universelle* (102.0297) -- the picture was famous in Russia before it was finished in France.
 
 %% GLO_UN_MEETING.0010 %%
 The title appears in the diary only on **9 March 1884**, in Tony's verdict, and in her own spelling: "mes gamins intitué: *Un Metting,* ont beaucoup gagné et qu'en somme c'est sérieusement bien et que ça comptera au salon" (103.0495). Five days later she decided it would go to the Salon alone, her *Douleur de Nausicaa* sculpture being unfinishable in time (103.0511).
 
 %% GLO_UN_MEETING.0011 %%
 %% [#Salon](./SALON.md) [#Medaille](./MEDAILLE.md) %%
-The Salon of 1884 gave her everything except the medal. Charles Baude photographed and engraved it (104.0090); Düsseldorf asked to engrave and publish it (104.0123); "il n'y a pas un journal qui ne parle de mon tableau" (104.0128), and later "cinquante journaux qui parlent de mon Salon" (104.0622). *Le Journal des Arts* wrote that it had thought it was seeing a Bastien-Lepage, which she read as malice (104.0045–0036). Then came the rumour that she had not painted it herself -- "mon tableau est si bien qu'on croit que je me suis fait aider. C'est atroce" (104.0262–0263) -- which she believed cost her the award: "ils ont dû penser beaucoup d'entre eux que je m'étais fait aider" (104.0659). Villevieille offered a blunter explanation: no medal because she had called the 1883 jury idiots in public (104.0469). Her letter to Julian on the subject is the coldest thing she wrote about prizes: "Les médailles ne sont faites que pour les nullités" (104.0363–0376).
+The Salon of 1884 gave her everything except the medal. Charles Baude photographed and engraved it (104.0092); Düsseldorf asked to engrave and publish it (104.0125); "il n'y a pas un journal qui ne parle de mon tableau" (104.0130), and later "cinquante journaux qui parlent de mon Salon" (104.0624). *Le Journal des Arts* wrote that it had thought it was seeing a Bastien-Lepage, which she read as malice (104.0047–0036). Then came the rumour that she had not painted it herself -- "mon tableau est si bien qu'on croit que je me suis fait aider. C'est atroce" (104.0264–0263) -- which she believed cost her the award: "ils ont dû penser beaucoup d'entre eux que je m'étais fait aider" (104.0661). Villevieille offered a blunter explanation: no medal because she had called the 1883 jury idiots in public (104.0471). Her letter to Julian on the subject is the coldest thing she wrote about prizes: "Les médailles ne sont faites que pour les nullités" (104.0365–0376).
 
 %% GLO_UN_MEETING.0012 %%
 ## References in Diary
@@ -70,20 +70,20 @@ The Salon of 1884 gave her everything except the medal. Charles Baude photograph
 - 1883-04-27 (099.0210–0212) -- Tony's serious misgivings, and her retort on copying "avec l'âme comme avec les yeux"
 - 1883-04-29 (099.0246) and 1883-05-07 (099.0377) -- enlargement to life-size, the canvas restarted
 - 1883-05-12 (099.0423–0364) -- Julian shown it as a proxy for public opinion
-- 1883-07-21 (100.0302), 1883-08-05 (100.0441), 1883-09-26 (101.0434) -- storm damage and the summer's frustration
+- 1883-07-21 (100.0389), 1883-08-05 (100.0528), 1883-09-26 (101.0434) -- storm damage and the summer's frustration
 - 1883-10-08 (101.0542), 1883-10-09 (101.0558) -- Bastien-Lepage's advice; "Oui, il faut *achever* les gamins"
-- 1883-10-17 (102.0025), 1883-11-21 (102.0290), 1883-12-16 (102.0484) -- the stalled autumn
-- 1883-11-22 (102.0296) -- front page of *L'Illustration universelle*, St Petersburg
+- 1883-10-17 (102.0025), 1883-11-21 (102.0291), 1883-12-16 (102.0488) -- the stalled autumn
+- 1883-11-22 (102.0297) -- front page of *L'Illustration universelle*, St Petersburg
 - **1884-03-09 (103.0495)** -- the title first written down, as "Un Metting"
 - 1884-03-14 (103.0511) -- her only Salon submission for 1884
 - 1884-03-30 (103.0615–0585, 103.0657) -- the placement panic; Franceschi and Émile Bastien predict a medal
-- 1884-04-30 (104.0045–0036, 104.0053) -- press day; the Bastien-Lepage comparison; Carolus-Duran and Julian both confident
-- 1884-05-01 (104.0071) -- her own doubt: "Mon tableau à moi est d'une peinture *vieille*"
-- 1884-05-03 (104.0090, 104.0092), 1884-05-07 (104.0123, 104.0128) -- Baude's engraving, the Düsseldorf request, the press
-- 1884-05-18 (104.0220–0235), 1884-05-20 (104.0262, 104.0264) -- the whisper that she had been helped
-- **1884-05-24 to 05-31 (104.0314–0438, 104.0469–0483)** -- the medal refused, the letter to Julian, Villevieille's explanation, Baude's engraving published with an article saying the public is disappointed
-- 1884-06-02 (104.0495), 1884-06-15 (104.0580) -- Hayem angling to buy it cheap; his advice to ask 2,500 francs
-- 1884-06-20 (104.0606, 104.0609), 1884-06-25 (104.0657, 104.0659) -- the photograph sent to Émile in Algiers; her retrospective on the medal
+- 1884-04-30 (104.0047–0036, 104.0055) -- press day; the Bastien-Lepage comparison; Carolus-Duran and Julian both confident
+- 1884-05-01 (104.0073) -- her own doubt: "Mon tableau à moi est d'une peinture *vieille*"
+- 1884-05-03 (104.0092, 104.0094), 1884-05-07 (104.0125, 104.0130) -- Baude's engraving, the Düsseldorf request, the press
+- 1884-05-18 (104.0222–0235), 1884-05-20 (104.0264, 104.0266) -- the whisper that she had been helped
+- **1884-05-24 to 05-31 (104.0316–0438, 104.0471–0483)** -- the medal refused, the letter to Julian, Villevieille's explanation, Baude's engraving published with an article saying the public is disappointed
+- 1884-06-02 (104.0497), 1884-06-15 (104.0582) -- Hayem angling to buy it cheap; his advice to ask 2,500 francs
+- 1884-06-20 (104.0608, 104.0611), 1884-06-25 (104.0659, 104.0661) -- the photograph sent to Émile in Algiers; her retrospective on the medal
 - 1884-07-05 (105.0034) -- Ducros ranks the new Sèvres canvas above it: "Cet imbécile la met au-dessus du Meeting !!"
 
 %% GLO_UN_MEETING.0014 %%

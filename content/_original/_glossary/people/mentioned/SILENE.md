@@ -41,7 +41,7 @@ Marie's fixation on Silène runs through the Naples and Florence episodes of spr
 
 %% GLO_SILENE.0008 %%
 - 070.0009 (1877-04-03): a drunken lazzarone sings a song that "seemed composed for Larderel and... Silène".
-- 070.0766-0767 (1877-04-21): Marie imagines Larderel taking up with another woman "en place de Silène"; resolves that when in Florence she will "see Silène up close and speak to her", curious "comme Gioia au temps du duc" (see [#Gioia](../../people/recurring/GIOIA.md)).
+- 070.0771-0767 (1877-04-21): Marie imagines Larderel taking up with another woman "en place de Silène"; resolves that when in Florence she will "see Silène up close and speak to her", curious "comme Gioia au temps du duc" (see [#Gioia](../../people/recurring/GIOIA.md)).
 - 071.0080 (1877-05-01): in the Cascine, Florence, Marie sees "Silène Righi, ex-coquine de Monsieur le comte" and insists she must see her naked.
 - 071.0120 (1877-05-03): Marie learns that Silène has an eighteen-year-old sister, a dancer in Milan called la Michetta, and that Silène herself was never a dancer but a mime.
 - 071.0150 (1877-05-04): "Dieu que je voudrais la fille de Silène" — Marie covets Alexandrine, the little daughter of Silène and Larderel.

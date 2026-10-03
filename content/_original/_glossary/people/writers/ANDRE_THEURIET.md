@@ -25,7 +25,7 @@ last_updated: 2026-09-07
 
 %% GLO_ANDRE_THEURIET.0004 %%
 %% [#Bastien_Lepage](../recurring/BASTIEN_LEPAGE.md) %%
-- **June 1883** (100.0082): listing the portraits she admires, Marie names, among two or three by Bastien-Lepage shown at the "Exposition des portraits du siècle", those of his brother, of Theuriet and of Sarah Bernhardt.
+- **June 1883** (100.0119): listing the portraits she admires, Marie names, among two or three by Bastien-Lepage shown at the "Exposition des portraits du siècle", those of his brother, of Theuriet and of Sarah Bernhardt.
 
 %% GLO_ANDRE_THEURIET.0005 %%
 %% [#Le_Printemps](../../culture/art/LE_PRINTEMPS.md) %%
