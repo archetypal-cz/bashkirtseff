@@ -39,7 +39,7 @@ Key entries of literary and biographical significance:
 - English passages in French original: kept verbatim, marked ==highlight==, footnoted "*In English in the original*"
 - Italian passages (buia compagnia, sospesi, fra quattro mura): kept in Italian, marked ==highlight==, footnoted with translation
 - Latin passages (amo hunc puerum): kept, footnoted
-- Structural markers: [Rayé:] → [Crossed out:], [En travers:] → [Written across the page:], [Annotation:] → [Annotation:], [Lignes cancellées] → [X lines cancelled]
+- Structural markers: [Rayé:] → [Crossed out:], [En travers:] → [Written across the page:], [Annotation:] → [Annotation:], [Lignes cancellées] → [N lines crossed out] (owner ruling 2026-10-03)
 - "plobster" (1875-03-30): kept verbatim with [sic] — manuscript ambiguity unresolvable
 - Foreign language note: "comme un roi" → "like a king" — gender incongruity preserved deliberately
 
