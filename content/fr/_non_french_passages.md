@@ -986,11 +986,11 @@ They need AI translation into French.
 - **044/1875-09-25.md** para 044.0236 [LATIN]: %% 2026-01-30T18:05:15 LAN: LATIN: "o miseria" - oh misery! mock-classical lament at poor quality of suitors %%
 - **045/1875-09-26.md** para 045.0066 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: "l'appassionata" - ITALIAN: musical term for passionate piece; double meaning in flirtatious context %%
 - **045/1875-09-26.md** para 045.0086 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: RUSSIAN CODE-SWITCHING: "Nicolas Ferovitch" and "Maria Constantinovna" - Russian patronymics; indicates intimate/domestic register %%
-- **045/1875-09-30.md** para 045.0306 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: "le roti n'empeche pas le potage" - RUSSIAN PROVERB translated; meaning one thing does not prevent another, different domains %%
-- **045/1875-09-30.md** para 045.0314 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: "Charogne" - RUSSIAN CODE-SWITCH: carrion, rotting carcass; extremely vulgar insult, likely Russian "падаль" rendered in French %%
-- **045/1875-09-30.md** para 045.0317 [LATIN]: %% 2026-02-02T12:00:00 LAN: LATIN: "Sic factae sumus" - Thus we are made (feminine plural); mock-classical resignation %%
-- **045/1875-09-30.md** para 045.0324 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: ITALIAN: "tutti quanti" - all of us, the whole lot; casual code-switch %%
-- **045/1875-10-01.md** para 045.0420 [ENGLISH]: %% 2026-02-02T12:00:00 LAN: ENGLISH CODE-SWITCH: "non-sens" - from English "nonsense"; Marie uses the English word %%
+- **045/1875-09-30.md** para 045.0304 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: "le roti n'empeche pas le potage" - RUSSIAN PROVERB translated; meaning one thing does not prevent another, different domains %%
+- **045/1875-09-30.md** para 045.0312 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: "Charogne" - RUSSIAN CODE-SWITCH: carrion, rotting carcass; extremely vulgar insult, likely Russian "падаль" rendered in French %%
+- **045/1875-09-30.md** para 045.0315 [LATIN]: %% 2026-02-02T12:00:00 LAN: LATIN: "Sic factae sumus" - Thus we are made (feminine plural); mock-classical resignation %%
+- **045/1875-09-30.md** para 045.0322 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: ITALIAN: "tutti quanti" - all of us, the whole lot; casual code-switch %%
+- **045/1875-10-01.md** para 045.0418 [ENGLISH]: %% 2026-02-02T12:00:00 LAN: ENGLISH CODE-SWITCH: "non-sens" - from English "nonsense"; Marie uses the English word %%
 - **046/1875-10-03.md** para 046.0049 [RUSSIAN]: %% 2026-02-02T12:00:00 LAN: RUSSIAN: "Moussia" - Russian diminutive for Marie (Masha/Maria), her family nickname %%
 - **046/1875-10-04.md** para 046.0090 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: "imbroglio" - ITALIAN: tangled situation/intrigue; common in French literary usage %%
 - **046/1875-10-04.md** para 046.0092 [ITALIAN]: %% 2026-02-02T12:00:00 LAN: ITALIAN: "mi ritrovo per una selva oscura, che la diritta via era smarrita" - Dante's Inferno Canto I: "I found myself in a dark wood, where the straight way was lost" %%
@@ -1041,18 +1041,18 @@ They need AI translation into French.
 - **051/1875-12-27.md** para 051.0032 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "partiro" - I will leave; code-switching for emotional effect %%
 - **051/1875-12-28.md** para 051.0068 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Miserere" - have mercy; liturgical reference, mock-religious tone %%
 - **051/1875-12-29.md** para 051.0105 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Dio lo sa" - God knows; code-switching for dramatic effect %%
-- **051/1875-12-31.md** para 051.0224 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from satirical novel about Nice society - "Mrs Bodgers attained the summit of her ambition in Nice" %%
-- **051/1876-01-01.md** para 051.0286 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN (from opera Mignon, Italian version) - "Tomorrow I will leave, I am far from you" - Marie sings farewell %%
-- **051/1876-01-01.md** para 051.0290 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Addio dunque, tutti quanti" - farewell then, everyone; operatic flourish %%
-- **051/1876-01-02.md** para 051.0333 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN reference "Tu quoque" - "You too, Brutus?"; Caesar covering his face when betrayed %%
-- **051/1876-01-02.md** para 051.0343 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN title "Orlando furioso" by Ariosto - Renaissance epic poem; Marie's literary reading %%
-- **051/1876-01-04.md** para 051.0370 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "palazzo" - palace; Roman aristocratic residence %%
-- **051/1876-01-04.md** para 051.0370 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "misera me" - woe is me; operatic exclamation %%
-- **051/1876-01-04.md** para 051.0384 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "In nomine Patris, Filii et Spiritus Sancti" - In the name of the Father, Son, and Holy Spirit; mock-religious blessing for dreaded marriage %%
-- **051/1876-01-05.md** para 051.0391 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Orsu" - well then/come now; conversational Italian %%
-- **051/1876-01-05.md** para 051.0410 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from Byron's "Childe Harold's Pilgrimage" Canto IV - famous Romantic description of the Colosseum %%
-- **051/1876-01-06.md** para 051.0420 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "E brutto ma e tutto buono, tutto grazioso" - He is ugly but all good, all gracious; popular saying about King Victor Emmanuel II %%
-- **051/1876-01-08.md** para 051.0447 [LATIN]: %% 2026-02-02T12:05:00 LAN: "i.e." - LATIN id est (that is); Marie's educated abbreviation %%
+- **051/1875-12-31.md** para 051.0222 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from satirical novel about Nice society - "Mrs Bodgers attained the summit of her ambition in Nice" %%
+- **051/1876-01-01.md** para 051.0284 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN (from opera Mignon, Italian version) - "Tomorrow I will leave, I am far from you" - Marie sings farewell %%
+- **051/1876-01-01.md** para 051.0288 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Addio dunque, tutti quanti" - farewell then, everyone; operatic flourish %%
+- **051/1876-01-02.md** para 051.0331 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN reference "Tu quoque" - "You too, Brutus?"; Caesar covering his face when betrayed %%
+- **051/1876-01-02.md** para 051.0341 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN title "Orlando furioso" by Ariosto - Renaissance epic poem; Marie's literary reading %%
+- **051/1876-01-04.md** para 051.0368 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "palazzo" - palace; Roman aristocratic residence %%
+- **051/1876-01-04.md** para 051.0368 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "misera me" - woe is me; operatic exclamation %%
+- **051/1876-01-04.md** para 051.0382 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "In nomine Patris, Filii et Spiritus Sancti" - In the name of the Father, Son, and Holy Spirit; mock-religious blessing for dreaded marriage %%
+- **051/1876-01-05.md** para 051.0389 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Orsu" - well then/come now; conversational Italian %%
+- **051/1876-01-05.md** para 051.0408 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from Byron's "Childe Harold's Pilgrimage" Canto IV - famous Romantic description of the Colosseum %%
+- **051/1876-01-06.md** para 051.0418 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "E brutto ma e tutto buono, tutto grazioso" - He is ugly but all good, all gracious; popular saying about King Victor Emmanuel II %%
+- **051/1876-01-08.md** para 051.0445 [LATIN]: %% 2026-02-02T12:05:00 LAN: "i.e." - LATIN id est (that is); Marie's educated abbreviation %%
 - **052/1876-01-10.md** para 052.0020 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "signor" - Italian title Mr./Sir %%
 - **052/1876-01-10.md** para 052.0021 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "maestro" - master (music teacher) %%
 - **052/1876-01-10.md** para 052.0036 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "unprotected" - Marie switches to English for emphasis %%
@@ -1492,6 +1492,6 @@ They need AI translation into French.
 - **102/1883-11-20.md** para 102.0276 [LATIN]: %% 2026-02-03T09:07:42 LAN: "aurea mediocritas" - LATIN: golden mean (Horace), here: mediocrity %%
 - **102/1883-12-24.md** para 102.0546 [ENGLISH]: %% 2026-02-03T09:12:42 LAN: "la gentry parisienne" - ENGLISH: the Parisian gentry %%
 - **102/1884-01-02.md** para 102.0633 [RUSSIAN]: %% 2026-02-03T09:14:06 LAN: "starovoï" - RUSSIAN: starosta, village official/police functionary %%
-- **103/1884-02-08.md** para 103.0302 [LATIN]: %% 2026-02-02T14:00:00 LAN: "Idem" - LATIN: same as before, Marie's shorthand for routine days %%
-- **103/1884-03-26.md** para 103.0588 [LATIN]: %% 2026-02-02T14:00:00 LAN: "i.e." - LATIN: id est, that is %%
-- **103/1884-03-29.md** para 103.0602 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "si ingrata, t'amo, t'amo ancora" - ITALIAN: "ungrateful one, I love you, I still love you" - from Lucia sextet %%
+- **103/1884-02-08.md** para 103.0306 [LATIN]: %% 2026-02-02T14:00:00 LAN: "Idem" - LATIN: same as before, Marie's shorthand for routine days %%
+- **103/1884-03-26.md** para 103.0592 [LATIN]: %% 2026-02-02T14:00:00 LAN: "i.e." - LATIN: id est, that is %%
+- **103/1884-03-29.md** para 103.0606 [ITALIAN]: %% 2026-02-02T14:00:00 LAN: "si ingrata, t'amo, t'amo ancora" - ITALIAN: "ungrateful one, I love you, I still love you" - from Lucia sextet %%
