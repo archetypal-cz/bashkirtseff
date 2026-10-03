@@ -651,6 +651,8 @@
     "removeAllConfirm": "Odebrat všechny vaše hvězdičky? Tuto akci nelze vrátit zpět.",
     "removed": "Hvězdička odebrána",
     "missingPassage": "Už není v edici",
+    "preLoginInfo": "Přihlaste se přes Google a ukládejte si soukromé hvězdičky. Ukládáme pouze vaše jméno a e-mail.",
+    "unavailableOffline": "Teď není k dispozici – načte se, až stránku otevřete online",
     "originalBadge": "Originál (francouzsky)",
     "queuedOffline": {
       "one": "{count} změna čeká na synchronizaci",

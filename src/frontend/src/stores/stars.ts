@@ -9,6 +9,7 @@ import {
   isStarrableId,
   listStars,
   normalizeLanguage,
+  removeAllStars,
   removeById,
   sendOp,
   type RefreshFn,
@@ -70,6 +71,10 @@ import es from '../i18n/locales/es.json';
 // another tab's drain send for the same paragraph (needs two tabs and a pending
 // op; ops are idempotent and removal is by (id, ts), so the worst case is a
 // transient server-side order flip that the next refetch corrects).
+//
+// Known limitation: another tab's star confirmed just before this tab's removeAll
+// DELETE lands is wiped with the rest (this tab sees it via the storage event);
+// avoiding that needs server-side coordination.
 //
 // UI: show `pendingCount` (queued ops not currently being sent) for the
 // `stars.queuedOffline` notice; `queuedCount` is every queued op, in flight or not.
@@ -315,6 +320,8 @@ export const useStarsStore = defineStore('stars', () => {
 
   // ─── Drain (S6b) ──────────────────────────────────────────────────────
   let draining = false;
+  let removeAllActive = false;
+  let lateOps: StarOp[] = [];
   let drainPromise: Promise<void> | null = null;
   /** (id|ts) keys of ops queued by toggle() while a drain was running. */
   let deferred = new Set<string>();
@@ -551,6 +558,7 @@ export const useStarsStore = defineStore('stars', () => {
       entry.ts = Math.max(entry.ts, newest + 1);
       return enqueue(q, entry);
     });
+    if (removeAllActive) lateOps.push(entry);
 
     if (isOffline()) return wantStar; // stays queued; stars.queuedOffline shows the count
     if (draining) {
@@ -562,6 +570,60 @@ export const useStarsStore = defineStore('stars', () => {
     // Serial: waits for earlier sends; skipped if a newer toggle replaced this op meanwhile.
     await runSerial(() => sendQueued(entry));
     return displayed.value.has(id);
+  }
+
+  /**
+   * Delete every star of the signed-in user (online only; returns false offline, on a
+   * failed request, or signed out). Waits for a running drain and for the serial chain
+   * to settle first, then sends through the chain like any other write (never while
+   * draining: see the header). On success the cache is emptied and every op queued
+   * before the call is dropped (exact snapshot, not a timestamp proxy); ops toggled
+   * after it started stay queued, and a late star the DELETE may have wiped is sent
+   * again (deferred to the drain if one is running, left queued if offline).
+   */
+  async function removeAll(): Promise<boolean> {
+    const s = sub.value;
+    if (!s || isOffline() || !auth.isAuthenticated || currentSub() !== s) return false;
+    // Ops toggled from here on (also while waiting for a drain, which may send them
+    // before the DELETE) are the reader's newer intent and must survive it.
+    const before = new Set(readQueue(s).map(opKey)); // exactly the ops queued before this call
+    removeAllActive = true;
+    lateOps = [];
+    let res: StarResult;
+    try {
+      while (drainPromise) await drainPromise.catch(() => undefined);
+      res = await runSerial(() => removeAllStars());
+    } finally {
+      removeAllActive = false;
+    }
+    const late = lateOps;
+    lateOps = [];
+    if (sub.value !== s) return false;
+    if (res.outcome !== 'ok') {
+      notify('stars.error');
+      return false;
+    }
+    confirmSeq++;
+    setServerIds([]);
+    mutateQueue((q) => q.filter((e) => !before.has(opKey(e))));
+    // A late star that a drain confirmed BEFORE the DELETE was wiped by it: send it again.
+    const lost = new Map<string, StarOp>();
+    for (const e of late) lost.set(e.id, e);
+    for (const e of lost.values()) {
+      if (e.op !== 'star' || displayed.value.has(e.id)) continue;
+      const again: StarOp = { ...e, ts: Date.now() };
+      mutateQueue((q) => {
+        again.ts = Math.max(again.ts, q.filter((x) => x.id === e.id).reduce((m, x) => Math.max(m, x.ts), 0) + 1);
+        return enqueue(q, again);
+      });
+      if (isOffline()) continue; // stays queued; the next drain sends it
+      if (draining) { // a drain started meanwhile owns the sends (see the header)
+        deferred.add(opKey(again));
+        continue;
+      }
+      await runSerial(() => sendQueued(again));
+    }
+    return true;
   }
 
   function isStarred(id: string): boolean {
@@ -577,6 +639,7 @@ export const useStarsStore = defineStore('stars', () => {
     lastMessage,
     init,
     toggle,
+    removeAll,
     isStarred,
     drain,
     /** Internals for tests only; nothing in the app may use these. */

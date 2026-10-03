@@ -640,6 +640,8 @@
     "removeAllConfirm": "Remove all your stars? This cannot be undone.",
     "removed": "Star removed",
     "missingPassage": "No longer in the edition",
+    "preLoginInfo": "Sign in with Google to keep your private stars. We only store your name and email.",
+    "unavailableOffline": "Not available right now — open this page again when you are online to load it",
     "originalBadge": "Original (French)",
     "queuedOffline": {
       "one": "{count} change waiting to sync",

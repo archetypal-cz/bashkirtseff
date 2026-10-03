@@ -641,6 +641,8 @@
     "removeAllConfirm": "¿Quitar todas tus estrellas? Esta acción no se puede deshacer.",
     "removed": "Se ha quitado la estrella",
     "missingPassage": "Ya no figura en la edición",
+    "preLoginInfo": "Inicia sesión con Google para guardar tus estrellas privadas. Solo guardamos tu nombre y tu correo electrónico.",
+    "unavailableOffline": "No disponible ahora mismo: vuelve a abrir esta página con conexión para cargarlo",
     "originalBadge": "Original (francés)",
     "queuedOffline": {
       "one": "{count} cambio pendiente de sincronizar",

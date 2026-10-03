@@ -1,0 +1,30 @@
+---
+import ReadingLayout from '../../layouts/ReadingLayout.astro';
+import MyStars from '../../components/stars/MyStars.vue';
+import { createT, type SupportedLocale } from '../../i18n/astro';
+
+// Served at /{cs|en|fr|uk|es}/stars/ (the menu link is pageHref('stars', locale)).
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'cs' } },
+    { params: { lang: 'en' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'uk' } },
+    { params: { lang: 'es' } },
+  ];
+}
+
+const { lang } = Astro.params;
+const t = createT(lang as SupportedLocale);
+---
+
+<ReadingLayout lang={lang} title={t('stars.pageTitle')} noindex={true}>
+  <article class="max-w-3xl mx-auto">
+    <header class="mb-6 pb-4 border-b border-ink/10">
+      <h1 class="text-3xl md:text-4xl font-normal text-ink" style="font-family: var(--font-display);">
+        {t('stars.title')}
+      </h1>
+    </header>
+    <MyStars client:load locale={lang} />
+  </article>
+</ReadingLayout>

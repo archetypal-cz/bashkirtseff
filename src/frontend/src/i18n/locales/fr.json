@@ -641,6 +641,8 @@
     "removeAllConfirm": "Retirer toutes vos étoiles ? Cette action est irréversible.",
     "removed": "Étoile retirée",
     "missingPassage": "Ne figure plus dans l’édition",
+    "preLoginInfo": "Connectez-vous avec Google pour conserver vos étoiles privées. Nous ne stockons que votre nom et e-mail.",
+    "unavailableOffline": "Indisponible pour le moment : rouvrez cette page en ligne pour la charger",
     "originalBadge": "Original (français)",
     "queuedOffline": {
       "one": "{count} modification en attente de synchronisation",

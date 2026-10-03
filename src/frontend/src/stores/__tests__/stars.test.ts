@@ -30,11 +30,13 @@ vi.mock('../../lib/auth', async () => {
 const listStars = vi.fn();
 const starParagraph = vi.fn();
 const unstarParagraph = vi.fn();
+const removeAllStars = vi.fn();
 vi.mock('../../lib/stars', async () => {
   const actual = await vi.importActual<typeof import('../../lib/stars')>('../../lib/stars');
   return {
     ...actual,
     listStars: (...a: unknown[]) => listStars(...a),
+    removeAllStars: (...a: unknown[]) => removeAllStars(...a),
     sendOp: (op: { op: string; id: string }, refreshFn: (s?: string) => Promise<unknown>) => {
       sendRefresh = refreshFn;
       return op.op === 'star' ? starParagraph(op.id) : unstarParagraph(op.id);
@@ -118,6 +120,7 @@ beforeEach(() => {
   listStars.mockReset();
   starParagraph.mockReset().mockResolvedValue({ outcome: 'ok' });
   unstarParagraph.mockReset().mockResolvedValue({ outcome: 'ok' });
+  removeAllStars.mockReset().mockResolvedValue({ outcome: 'ok' });
   vi.stubGlobal('window', {
     addEventListener: (t: string, h: any) => {
       if (t === 'storage') storageHandlers.push(h);
@@ -766,6 +769,166 @@ describe('S6a review fixes', () => {
     await tick2();
     expect(stars.sub).toBe(U);
     expect(stars.isStarred('001.0001')).toBe(true);
+  });
+});
+
+describe('removeAll (S11)', () => {
+  it('deletes on the server, empties cache and queued ops', async () => {
+    const { stars } = await setup({ server: ['001.0001', '001.0002'] });
+    await stars.init();
+    navigator.onLine = false;
+    await stars.toggle('001.0009', 'cz'); // queued while offline
+    navigator.onLine = true;
+    expect(await stars.removeAll()).toBe(true);
+    expect(removeAllStars).toHaveBeenCalledTimes(1);
+    expect(ids(stars.displayed)).toEqual([]);
+    expect(JSON.parse(lsMap.get(`stars-cache:${U}`)!)).toEqual([]);
+    expect(q()).toEqual([]);
+  });
+
+  it('is online only and keeps everything on a failed request', async () => {
+    const { stars } = await setup({ server: ['001.0001'] });
+    await stars.init();
+    navigator.onLine = false;
+    expect(await stars.removeAll()).toBe(false);
+    expect(removeAllStars).not.toHaveBeenCalled();
+    navigator.onLine = true;
+    removeAllStars.mockResolvedValue({ outcome: 'transient' });
+    expect(await stars.removeAll()).toBe(false);
+    expect(stars.lastMessage?.key).toBe('stars.error');
+    expect(ids(stars.displayed)).toEqual(['001.0001']);
+  });
+
+  it('waits for a running drain before sending', async () => {
+    const { stars } = await setup({ server: [] });
+    navigator.onLine = false;
+    await stars.init();
+    await stars.toggle('001.0005', 'cz');
+    navigator.onLine = true;
+    let release!: () => void;
+    starParagraph.mockImplementation(() => new Promise((r) => { release = () => r({ outcome: 'ok' }); }));
+    const drain = stars.drain();
+    const rm = stars.removeAll();
+    await new Promise((r) => setTimeout(r, 10));
+    expect(removeAllStars).not.toHaveBeenCalled();
+    release();
+    await drain;
+    expect(await rm).toBe(true);
+    expect(removeAllStars).toHaveBeenCalledTimes(1);
+  });
+
+  /** A tiny server: star/unstar/removeAll mutate one set, with call order recorded. */
+  function fakeServer(initial: string[]) {
+    const server = new Set(initial);
+    const calls: string[] = [];
+    starParagraph.mockImplementation(async (id: string) => { calls.push(`star ${id}`); server.add(id); return { outcome: 'ok' }; });
+    unstarParagraph.mockImplementation(async (id: string) => { calls.push(`unstar ${id}`); server.delete(id); return { outcome: 'ok' }; });
+    return { server, calls };
+  }
+  const wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+  it('a toggle queued after the DELETE was sent survives (sent after it, kept in server and cache)', async () => {
+    const { stars } = await setup({ server: ['001.0001'] });
+    await stars.init();
+    const { server, calls } = fakeServer(['001.0001']);
+    let finishDelete!: () => void;
+    removeAllStars.mockImplementation(() => new Promise((r) => {
+      calls.push('removeAll');
+      server.clear();
+      finishDelete = () => r({ outcome: 'ok' });
+    }));
+    const rm = stars.removeAll();
+    await wait(10); // DELETE is in flight; later ops get a ts > t0
+    const tg = stars.toggle('001.0007', 'cz');
+    await wait(10);
+    expect(starParagraph).not.toHaveBeenCalled(); // serial: waits behind the DELETE
+    finishDelete();
+    expect(await rm).toBe(true);
+    await tg;
+    expect(calls).toEqual(['removeAll', 'star 001.0007']);
+    expect([...server]).toEqual(['001.0007']);
+    expect(ids(stars.displayed)).toEqual(['001.0007']);
+    expect(JSON.parse(lsMap.get(`stars-cache:${U}`)!)).toEqual(['001.0007']);
+    expect(q()).toEqual([]);
+  });
+
+  it('a toggle made while removeAll waits on a running drain survives', async () => {
+    const { stars } = await setup({ server: [] });
+    navigator.onLine = false;
+    await stars.init();
+    await stars.toggle('001.0005', 'cz');
+    navigator.onLine = true;
+    const { server, calls } = fakeServer([]);
+    let release!: () => void;
+    starParagraph.mockImplementation((id: string) => new Promise((r) => {
+      release = () => { calls.push(`star ${id}`); server.add(id); r({ outcome: 'ok' }); };
+    }));
+    removeAllStars.mockImplementation(async () => { calls.push('removeAll'); server.clear(); return { outcome: 'ok' }; });
+    const drain = stars.drain();
+    await wait(10);
+    const rm = stars.removeAll(); // parked behind the drain
+    await wait(10);
+    starParagraph.mockImplementation(async (id: string) => { calls.push(`star ${id}`); server.add(id); return { outcome: 'ok' }; });
+    await stars.toggle('001.0008', 'cz'); // drain is running: only enqueues
+    release();
+    await drain;
+    expect(await rm).toBe(true);
+    await wait(10);
+    expect(calls.indexOf('removeAll')).toBeGreaterThan(calls.indexOf('star 001.0005'));
+    expect(ids(stars.displayed)).toEqual(['001.0008']);
+    expect([...server]).toEqual(['001.0008']);
+    expect(JSON.parse(lsMap.get(`stars-cache:${U}`)!)).toEqual(['001.0008']);
+  });
+
+  it('a failed DELETE with a late op re-sends nothing extra and keeps the late star', async () => {
+    const { stars } = await setup({ server: ['001.0001'] });
+    await stars.init();
+    fakeServer(['001.0001']);
+    let finishDelete!: () => void;
+    removeAllStars.mockImplementation(() => new Promise((r) => { finishDelete = () => r({ outcome: 'transient' }); }));
+    const rm = stars.removeAll();
+    await wait(10);
+    const tg = stars.toggle('001.0007', 'cz');
+    await wait(10);
+    finishDelete();
+    expect(await rm).toBe(false);
+    await tg;
+    expect(starParagraph).toHaveBeenCalledTimes(1); // the late op itself, not re-sent
+    expect(ids(stars.displayed)).toEqual(['001.0001', '001.0007']);
+    expect(q()).toEqual([]);
+  });
+
+  it('an unstar made during the drain wait is not re-sent and the star stays gone', async () => {
+    const { stars } = await setup({ server: [] });
+    navigator.onLine = false;
+    await stars.init();
+    await stars.toggle('001.0005', 'cz');
+    navigator.onLine = true;
+    const { server } = fakeServer([]);
+    let release!: () => void;
+    starParagraph.mockImplementation((id: string) => new Promise((r) => { release = () => { server.add(id); r({ outcome: 'ok' }); }; }));
+    removeAllStars.mockImplementation(async () => { server.clear(); return { outcome: 'ok' }; });
+    const drain = stars.drain();
+    await wait(10);
+    const rm = stars.removeAll();
+    await wait(10);
+    await stars.toggle('001.0005', 'cz'); // optimistic star -> unstar, only enqueued
+    release();
+    await drain;
+    expect(await rm).toBe(true);
+    await wait(10);
+    expect(starParagraph).toHaveBeenCalledTimes(1);
+    expect(ids(stars.displayed)).toEqual([]);
+    expect([...server]).toEqual([]);
+  });
+
+  it('an op queued before the call with a future-bumped ts is removed', async () => {
+    const { stars } = await setup({ server: ['001.0001'] });
+    await stars.init();
+    lsMap.set(`stars-pending:${U}`, JSON.stringify([{ op: 'star', id: '001.0009', lang: 'cz', commit: 'x', ts: Date.now() + 1e7 }]));
+    expect(await stars.removeAll()).toBe(true);
+    expect(q()).toEqual([]);
+    expect(ids(stars.displayed)).toEqual([]);
   });
 });
 
