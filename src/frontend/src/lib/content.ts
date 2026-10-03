@@ -84,6 +84,7 @@ export interface Paragraph {
   languages?: string[]; // Languages in original text: ['fr'], ['fr', 'en'], etc.
   kind?: ParagraphKind; // From `%% kind: … %%`: clipping, letter, rayé, margin, other
   kindSource?: string;  // The marker's source="…" (newspaper and date, letter writer)
+  embeddedFrench?: boolean; // fr only, internal: text was promoted from the embedded `%% … %%` copy (dropped by resolveFrenchFromOriginal)
   untranslated?: boolean; // Scaffold placeholder (`TODO`) shown as the French original
   // Run of consecutive same-kind, same-source paragraphs shown as one block
   // (lib/paragraph-kind.ts kindRuns). `html` stays the standalone labelled
@@ -499,6 +500,7 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
   if (!isOriginalLanguage(language) && language !== 'fr') {
     fillMissingOriginals(paragraphs, carnetId, entryId);
   }
+  if (language === 'fr') resolveFrenchFromOriginal(paragraphs, footnotes, carnetId, entryId);
   finishParagraphs(paragraphs, language);
   if (!isOriginalLanguage(language)) {
     resolveUntranslated(paragraphs, carnetId, entryId, language);
@@ -571,6 +573,90 @@ function fillMissingOriginals(paragraphs: Paragraph[], carnetId: string, entryId
   for (const p of paragraphs) {
     if (!p.originalText) p.originalText = sourceById.get(p.id);
   }
+}
+
+/**
+ * French edition: a paragraph with no visible `fr` text used to render its
+ * embedded `%% … %%` copy of the source. That copy can be stale, and for a
+ * multi-line block it shows the date heading as a plain line (its `#` is
+ * dropped). Such a paragraph is rendered from the `_original` paragraph with the
+ * same ID instead, exactly as `_original` renders it (heading, markup, kind).
+ * Footnote definitions of `_original` are English editorial notes and are never
+ * imported: a `[^id]` ref the `fr` file does not define is dropped (split-wave
+ * rule), and a ref the embedded copy cited under an older id is mapped to it by
+ * position so the French note stays attached (see `mapSourceRefs`).
+ * No `_original` paragraph: the embedded copy stays. A paragraph with no visible
+ * text and no embedded copy intentionally renders nothing (split-wave rule).
+ * Paragraphs with visible `fr` text (edited by the edition) are never touched.
+ */
+function resolveFrenchFromOriginal(
+  paragraphs: Paragraph[], footnotes: Footnote[], carnetId: string, entryId: string,
+): void {
+  if (!paragraphs.some(p => p.embeddedFrench)) return;
+  const source = getEntry(carnetId, entryId, 'original');
+  const sourceById = new Map((source?.paragraphs ?? []).map(p => [p.id, p]));
+  const defined = new Set(footnotes.map(fn => fn.id));
+  for (const p of paragraphs) {
+    if (!p.embeddedFrench) continue;
+    delete p.embeddedFrench;
+    const sp = sourceById.get(p.id);
+    if (!sp) continue;
+    const text = mapSourceRefs(sp.text, p.text, defined);
+    const { html, footnoteRefs } = processTextToHtml(text, 'fr');
+    p.text = text;
+    p.html = html;
+    p.footnoteRefs = footnoteRefs.length > 0 ? footnoteRefs : undefined;
+    if (sp.kind) { p.kind = sp.kind; p.kindSource = sp.kindSource; }
+    else { delete p.kind; delete p.kindSource; }
+  }
+}
+
+/**
+ * Rewrite the `[^id]` refs of `_original` text so each cites a note the `fr`
+ * file defines (`embedded` = the embedded copy's text, same paragraph). A ref
+ * already defined stays. An undefined one takes the id the embedded copy cited
+ * at the same position when both cite the same number of refs and that id is
+ * defined (a stale-id French note stays attached); when the counts differ it
+ * takes the embedded id only if exactly one undefined source ref and one unused
+ * defined embedded ref exist. Anything else is dropped. A defined embedded ref
+ * the source text lacks entirely (an edition-only marker) is re-inserted after
+ * the same 25 characters of text when that anchor occurs exactly once.
+ */
+function mapSourceRefs(text: string, embedded: string, defined: Set<string>): string {
+  const REF = /\[\^([^\]]+)\]/g;
+  const uniq = (t: string) => [...t.matchAll(REF)].map(m => m[1]).filter((id, i, a) => a.indexOf(id) === i);
+  const refs = uniq(text);
+  const embeddedRefs = uniq(embedded);
+  const map = new Map<string, string>();
+  if (refs.length === embeddedRefs.length) {
+    refs.forEach((id, i) => { if (!defined.has(id) && defined.has(embeddedRefs[i])) map.set(id, embeddedRefs[i]); });
+  } else {
+    const missing = refs.filter(id => !defined.has(id));
+    const spare = embeddedRefs.filter(id => defined.has(id) && !refs.includes(id));
+    if (missing.length === 1 && spare.length === 1) map.set(missing[0], spare[0]);
+  }
+  let out = text.replace(REF, (m, id) => {
+    if (defined.has(id)) return m;
+    const to = map.get(id);
+    return to ? `[^${to}]` : '';
+  });
+  const kept = new Set(uniq(out));
+  for (const id of embeddedRefs) {
+    if (!defined.has(id) || kept.has(id)) continue;
+    const at = embedded.indexOf(`[^${id}]`);
+    const anchor = embedded.slice(0, at).replace(REF, '').slice(-25);
+    const bare = out.replace(REF, '');
+    if (anchor.length < 10 || bare.split(anchor).length !== 2) continue;
+    // Position in `out` just after the anchor, skipping refs interleaved in it.
+    let i = 0, j = 0;
+    const target = bare.indexOf(anchor) + anchor.length;
+    while (j < target && i < out.length) {
+      const m = out.slice(i).match(/^\[\^[^\]]+\]/);
+      if (m) i += m[0].length; else { i++; j++; }
+    }
+    out = `${out.slice(0, i)}[^${id}]${out.slice(i)}`;
+  }
+  return out;
 }
 
 /**
@@ -1083,8 +1169,10 @@ function parseParagraphs(content: string, language: string, context?: string): P
 
       // French edition: the original text in comments IS the content.
       // If no visible text exists but we have original text, promote it.
+      let embeddedFrench = false;
       if (!text && language === 'fr' && currentOriginal) {
         text = currentOriginal;
+        embeddedFrench = true;
       }
 
       if (text) {
@@ -1096,6 +1184,7 @@ function parseParagraphs(content: string, language: string, context?: string): P
           text,
           html, // kind block added by applyKinds
           ...(currentKind ? { kind: currentKind.kind, kindSource: currentKind.source } : {}),
+          ...(embeddedFrench ? { embeddedFrench } : {}),
           originalText: language === 'fr' ? undefined : currentOriginal,
           glossaryTags: glossaryTags.length > 0 ? glossaryTags : undefined,
           footnoteRefs: footnoteRefs.length > 0 ? footnoteRefs : undefined,
