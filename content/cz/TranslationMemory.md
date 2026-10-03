@@ -1036,7 +1036,7 @@ These override older per-carnet entries below where they conflict.
 
 ### mon empereur (Larderei's exclamation)
 - Translation (Czech): můj císaři (kept French in highlight, footnoted)
-- Context: Larderei's drunken/affectionate exclamation, used twice (paras 070.0290, 070.0292); mocking or ironically tender
+- Context: Larderei's drunken/affectionate exclamation, used twice (paras 070.0295, 070.0297); mocking or ironically tender
 - First appearance: 070 (1877-04-08)
 - Notes: Keep "mon empereur" in ==highlight== with footnote "Francouzsky: Můj císaři! — Lardereiovo podnapilé zvolání, jehož tón kolísá mezi výsměchem a náklonností."
 
