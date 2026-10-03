@@ -1,0 +1,105 @@
+-- deploy-ledger: renumber v1
+-- rebuild-carnet 093 (2026-10-03): remap reader reports and stars to the new paragraph IDs.
+-- Applied automatically by the deploy job (src/auth/db-deploy.sh); do not run by hand.
+-- Never edit a committed script (a changed sha256 fails the deploy): write a follow-up script instead.
+-- Emergency manual run only via `psql -1` on stdin (no BEGIN/COMMIT in this file).
+-- One UPDATE through a mapping table, so a chain like 0005→0006→0007 cannot double-apply.
+-- Stars move through a temp table; a star that lands on an ID the user already starred is dropped (one star per user and paragraph).
+-- Reading history / bookmarks live in each reader's localStorage and cannot be remapped here.
+CREATE TEMP TABLE renumber_map_b21d27f5 (old_id TEXT PRIMARY KEY, new_id TEXT NOT NULL);
+INSERT INTO renumber_map_b21d27f5 (old_id, new_id) VALUES
+  ('093.0315', '093.0316'),
+  ('093.0316', '093.0317'),
+  ('093.0317', '093.0318'),
+  ('093.0318', '093.0319'),
+  ('093.0319', '093.0320'),
+  ('093.0320', '093.0321'),
+  ('093.0321', '093.0322'),
+  ('093.0322', '093.0323'),
+  ('093.0323', '093.0324'),
+  ('093.0324', '093.0325'),
+  ('093.0325', '093.0326'),
+  ('093.0326', '093.0327'),
+  ('093.0327', '093.0328'),
+  ('093.0328', '093.0329'),
+  ('093.0329', '093.0330'),
+  ('093.0330', '093.0331'),
+  ('093.0331', '093.0332'),
+  ('093.0332', '093.0333'),
+  ('093.0333', '093.0334'),
+  ('093.0334', '093.0335'),
+  ('093.0335', '093.0336'),
+  ('093.0336', '093.0337'),
+  ('093.0337', '093.0338'),
+  ('093.0338', '093.0339'),
+  ('093.0339', '093.0340'),
+  ('093.0340', '093.0341'),
+  ('093.0341', '093.0342'),
+  ('093.0342', '093.0343'),
+  ('093.0343', '093.0344'),
+  ('093.0344', '093.0345'),
+  ('093.0345', '093.0346'),
+  ('093.0346', '093.0347'),
+  ('093.0347', '093.0348'),
+  ('093.0348', '093.0349'),
+  ('093.0349', '093.0350'),
+  ('093.0350', '093.0351'),
+  ('093.0351', '093.0352'),
+  ('093.0352', '093.0353'),
+  ('093.0353', '093.0354'),
+  ('093.0354', '093.0355'),
+  ('093.0355', '093.0356'),
+  ('093.0356', '093.0357'),
+  ('093.0357', '093.0358'),
+  ('093.0358', '093.0359'),
+  ('093.0359', '093.0360'),
+  ('093.0360', '093.0361'),
+  ('093.0361', '093.0362'),
+  ('093.0362', '093.0363'),
+  ('093.0363', '093.0364'),
+  ('093.0364', '093.0365'),
+  ('093.0365', '093.0366'),
+  ('093.0366', '093.0367'),
+  ('093.0367', '093.0368'),
+  ('093.0368', '093.0369'),
+  ('093.0369', '093.0370'),
+  ('093.0370', '093.0371'),
+  ('093.0371', '093.0372'),
+  ('093.0372', '093.0373'),
+  ('093.0373', '093.0374'),
+  ('093.0374', '093.0375'),
+  ('093.0375', '093.0376'),
+  ('093.0376', '093.0377'),
+  ('093.0377', '093.0378'),
+  ('093.0378', '093.0379'),
+  ('093.0379', '093.0380'),
+  ('093.0380', '093.0381'),
+  ('093.0381', '093.0382'),
+  ('093.0382', '093.0383'),
+  ('093.0383', '093.0384'),
+  ('093.0384', '093.0385'),
+  ('093.0385', '093.0386'),
+  ('093.0386', '093.0387'),
+  ('093.0387', '093.0388'),
+  ('093.0388', '093.0389'),
+  ('093.0389', '093.0390'),
+  ('093.0390', '093.0391'),
+  ('093.0391', '093.0392'),
+  ('093.0392', '093.0393'),
+  ('093.0393', '093.0394'),
+  ('093.0394', '093.0395'),
+  ('093.0395', '093.0396'),
+  ('093.0396', '093.0397'),
+  ('093.0397', '093.0398'),
+  ('093.0398', '093.0399'),
+  ('093.0399', '093.0400'),
+  ('093.0400', '093.0401');
+UPDATE paragraph_reports r SET paragraph_id = m.new_id FROM renumber_map_b21d27f5 m WHERE r.paragraph_id = m.old_id;
+CREATE TEMP TABLE moved_stars_b21d27f5 AS
+  SELECT s.id, s.user_id, m.new_id, s.language, s.commit_hash, s.created_at
+  FROM paragraph_stars s JOIN renumber_map_b21d27f5 m ON s.paragraph_id = m.old_id;
+DELETE FROM paragraph_stars s USING renumber_map_b21d27f5 m WHERE s.paragraph_id = m.old_id;
+INSERT INTO paragraph_stars (id, user_id, paragraph_id, language, commit_hash, created_at)
+  SELECT id, user_id, new_id, language, commit_hash, created_at FROM moved_stars_b21d27f5
+  ON CONFLICT (user_id, paragraph_id) DO NOTHING;
+DROP TABLE renumber_map_b21d27f5, moved_stars_b21d27f5;

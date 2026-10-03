@@ -107,7 +107,7 @@ Collignon's tuberculosis was diagnosed remarkably early. On March 3, 1873, Dr Wa
 
 On July 27, 1881, Marie visited the dying Collignon and was horrified: "elle va mourir bientot, en voila une qui est changee. Rosalie m'avait prevenue mais j'en suis restee saisie... La Mort elle-meme. Et puis, dans la chambre une odeur de bouillon tres fort que l'on donne aux malades... C'est horrible" (%% 092.0336 %%). Marie brought gifts — silk for a dress and a shawl she herself coveted — then caught herself calculating heavenly reward: "je me suis decidee a cet immense sacrifice pour la mauvaise pensee que cela me sera rembourse par le ciel. Ces calculs enlevent tout merite" (%% 092.0336 %%).
 
-She visited again in August 1881 but admitted avoiding further visits: "j'aurais pu y aller plus souvent mais je cede au desir de ne pas y aller... je ne fais plus d'efforts pour surmonter cet egoisme parce que je n'espere plus de recompense" (%% 093.0367 %%: Aug 23, 1881).
+She visited again in August 1881 but admitted avoiding further visits: "j'aurais pu y aller plus souvent mais je cede au desir de ne pas y aller... je ne fais plus d'efforts pour surmonter cet egoisme parce que je n'espere plus de recompense" (%% 093.0368 %%: Aug 23, 1881).
 
 Collignon died in late October 1881. Marie records it laconically on November 15: "La pauvre Collignon est morte depuis plus de vingt jours deja" (%% 093.DROPPED-0177 %%).
 
