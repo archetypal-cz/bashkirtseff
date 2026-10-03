@@ -6,31 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
+status: retired
+replaced_by: TIBET
 ---
-# Tibet
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-05
-**Diary Coverage**: Up to 1874-01-09
+%% GLO_TIBET.0001 %%
+**Retired.** A place wrongly filed under people/mentioned; moved. Use [#TIBET](../../places/countries/TIBET.md) (`places/countries/TIBET.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Overview
-
-Young man at the Howards' children's matinee who shows attention to Marie.
-
-## Social Activities
-
-- Attends the Howards' children's ball
-- Fans Marie during the cotillion
-- Part of the boys who stay late after the younger children leave
-
-## Name
-
-Unusual name - possibly a nickname or surname.
-
-## Research Needed
-
-- Full name
-- Nationality
-- Age
-- Family background
+%% GLO_TIBET.0002 %%
+%% 2026-10-02T14:00:00 RSR: Retired in the 2026 tag audit glossary cleanup. replaced_by: places/countries/TIBET.md. %%

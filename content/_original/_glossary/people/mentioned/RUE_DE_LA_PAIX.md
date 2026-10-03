@@ -7,28 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
+status: retired
+replaced_by: RUE_DE_LA_PAIX
 ---
-# Rue de la Paix
 
-**Research Status**: Stub
-**Last Updated**: 2025-11-20
-**Diary Coverage**: Book 13 (1879) - 1 mention
-**Type**: Place
+%% GLO_RUE_DE_LA_PAIX.0001 %%
+**Retired.** A place wrongly filed under people/mentioned; moved. Use [#RUE_DE_LA_PAIX](../../places/streets/RUE_DE_LA_PAIX.md) (`places/streets/RUE_DE_LA_PAIX.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Overview
-
-[Research needed]
-
-This entry was mentioned 1 time in Book 13 of Marie's diary (1879).
-
-## Research Needed
-
-- Full identification and background
-- Historical context
-- Relationship to Marie Bashkirtseff
-- Significance in diary entries
-
-## Related Entries
-
-[To be determined based on research]
+%% GLO_RUE_DE_LA_PAIX.0002 %%
+%% 2026-10-02T14:00:00 RSR: Retired in the 2026 tag audit glossary cleanup. replaced_by: places/streets/RUE_DE_LA_PAIX.md. %%
