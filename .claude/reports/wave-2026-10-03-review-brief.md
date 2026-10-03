@@ -24,3 +24,6 @@ Other reviewers of the same tree run in parallel. Before ruling on a recurring t
 When every carnet is approved and gates pass: commit yourself, scoped — `git add content/<lang>/NNN …` for your carnets only (+ `content/<lang>/TranslationMemory.md` only if you edited it). Message: `feat(<lang>): reading conventions wave NNN–NNN (Sonnet TR + Opus CON <score>)`, ending with the lines
 `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>` and `Claude-Session: https://claude.ai/code/session_0116mc2T2pRrSosEwkoDFhid`.
 Never `git add -A` / `git add .` / `git add content/<lang>`; never push; never checkout/restore/stash/reset. Report the commit hash.
+
+
+Open items: anything left for the owner, research, a source fix or a later sweep goes into `.claude/reports/OPEN-ITEMS.md` (one `- [ ]` line, right section, tags) — and say so in your report.

@@ -168,3 +168,6 @@ Brief: .claude/reports/wave-2026-10-03-worker-brief.md. Batches of 3 carnets per
 - RESOLVED (owner): Madame + surname and third-person Madame may stay mixed; chère madame = „drahá paní“; letter openings stay; quoted slang keeps *chic* (done).
 - DONE madam/šik sweep (fec44a5dfc, Opus CON 0.93): ~155 vocatives → „madam“, ~70 „šik“ gone; *chic* kept italic + footnote where Marie comments on the word (038.0252, 103.0003).
 - OWNER (from sweep): „Drahá paní“ (chère madame) in speech 085/05-23, 091/05-10, 098.0314 → „drahá madam“?; letter salutations; third-person Madame/milostpaní; quoted slang „as Rosalie would say“ (071.0456, 073.0068, 069.0079) keep *chic*?; Madame + surname.
+
+
+**2026-10-03: all still-open items from this workplan were moved into `.claude/reports/OPEN-ITEMS.md`. Add new ones there.**

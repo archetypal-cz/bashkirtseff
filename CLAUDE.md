@@ -230,6 +230,7 @@ just sync-verify 015 cz     # After `just sync 015 cz`: visible text unchanged v
 - **Role Details**: `/.claude/skills/*/SKILL.md`
 - **Glossary Skill**: `/.claude/skills/glossary/SKILL.md`
 - **Glossary Entries**: `/content/_original/_glossary/`
+- **Open items**: `/.claude/reports/OPEN-ITEMS.md` - THE single ledger of owner questions, research, source fixes, sweeps, parked work. New open items go here (not into workplans/reports); tick `- [x]` with date + commit when done
 - **Run Reports**: `/.claude/reports/` - Team run reports and WATCHLIST
 - **Teamcouch**: `/.claude/skills/teamcouch/SKILL.md` - Post-session retrospective
 

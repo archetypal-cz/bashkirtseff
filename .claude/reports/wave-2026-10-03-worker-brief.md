@@ -20,3 +20,6 @@ Add one comment per changed entry on its own line: `%% <now ISO> TR: Reading-con
 Gates per carnet (must hold before you report): `just verify-carnet <lang> NNN` → PASS; `just splicescan <lang> NNN` → no output; paragraph-ID count per file unchanged. Use other `just` tools as useful (`just --list`).
 Rules: edit ONLY content/<lang>/<your carnets>/ — never write to, revert or "clean up" TranslationMemory.md or any other shared file (other agents have uncommitted edits there); don't commit; no git checkout/restore/stash/reset; scratch files only in your own uniquely named temp dir.
 Report (concise): per carnet — files changed, runs converted, (cz) dialogue lines converted, footnotes changed/added, gate results; a list of doubtful renderings or cases for the reviewer; any TM gaps (tics without a TM rendering — say what you used).
+
+
+Open items: anything left for the owner, research, a source fix or a later sweep goes into `.claude/reports/OPEN-ITEMS.md` (one `- [ ]` line, right section, tags) — and say so in your report.
