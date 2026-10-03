@@ -181,7 +181,7 @@ The context generally makes identification clear: from carnet 068 (February 1877
 - [#Dina](../core/DINA.md) -- Marie's aunt, who helped care for Marie when Rosalie was absent
 - [#Bojidar](../recurring/BOJIDAR.md) -- Bojidar Karageorgevitch, best man at Rosalie's wedding
 - [#Julian](RODOLPHE_JULIAN.md) -- The Académie where Rosalie accompanied Marie
-- [#Larderei](LARDEREI.md) -- Alexandre de Larderei, focus of Rosalie's intelligence operations
+- [#Larderel](LARDEREL.md) -- Alexandre de Larderei, focus of Rosalie's intelligence operations
 - [#Cassagnac](../recurring/CASSAGNAC.md) -- Paul de Cassagnac, whom Rosalie observed on the boulevards
 
 %% GLO_ROSALIE.0031 %%

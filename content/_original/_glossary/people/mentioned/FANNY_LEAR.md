@@ -54,7 +54,7 @@ After her expulsion from Russia, Fanny Lear traveled widely in Europe and was he
 %% GLO_FANNY_LEAR.0011 %%
 %% [#Grand_Duke_Nicolas](../aristocracy/GRAND_DUKE_NICOLAS.md) %%
 %% [#Mirafiore](MIRAFIORE.md) %%
-%% [#Larderei](LARDEREI.md) %%
+%% [#Larderel](LARDEREL.md) %%
 
 %% GLO_FANNY_LEAR.0012 %%
 ## References in Marie's Diary

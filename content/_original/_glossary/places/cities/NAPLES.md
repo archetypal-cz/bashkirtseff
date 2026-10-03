@@ -200,7 +200,7 @@ The city's dual nature -- magnificent and degraded, aristocratic and wretched, l
 - [#Pompeii](./POMPEII.md) - The archaeological site that inspired Marie's most famous metaphor
 - [#Nice](./NICE.md) - The city Marie considered leaving for Naples in 1874
 - [#Sorrento](../../people/mentioned/SORRENTO.md) - The resort town visited from Naples
-- [#Larderei](../../people/mentioned/LARDEREI.md) - Marie's obsession during the 1877 Carnival visit
+- [#Larderel](../../people/mentioned/LARDEREL.md) - Marie's obsession during the 1877 Carnival visit
 - [#Antonelli](../../people/mentioned/ANTONELLI.md) - Marie's obsession during the 1876 visit
 - [#Victor_Emmanuel_II](../../people/mentioned/VICTOR_EMMANUEL_II.md) - The Italian king Marie admired
 - [#Chiaja](../../people/mentioned/CHIAJA.md) - The fashionable Neapolitan promenade

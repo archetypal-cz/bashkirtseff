@@ -17,7 +17,7 @@ last_updated: 2026-10-01
 ## Overview
 
 %% GLO_SILENE.0002 %%
-%% [#Righi](../../people/mentioned/RIGHI.md) [#Larderei](../../people/mentioned/LARDEREI.md) %%
+%% [#Righi](../../people/mentioned/RIGHI.md) [#Larderel](../../people/mentioned/LARDEREL.md) %%
 %% 2026-10-01T13:00:00 RSR: Identification per the diary itself: 070.0006 ("C'est le nom de la Righi"), 071.0080 ("Silène Righi, ex-coquine de Monsieur le comte"), 071.0150 and its footnote. %%
 **Silène** is the nickname of *la Righi*, the former mistress of Count Larderel (Alexandre), the man Marie was infatuated with in 1877. It is a nickname, not a name: Marie never learns more than the surname Righi. See the separate entry for [#Righi](../../people/mentioned/RIGHI.md).
 

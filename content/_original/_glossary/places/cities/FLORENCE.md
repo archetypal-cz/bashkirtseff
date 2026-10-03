@@ -126,7 +126,7 @@ Marie's ironic appropriation of the Larderei family as "ma famille" persists lon
 
 ## People Associated with Florence in the Diary
 
-- **[Alessandro de Larderei](../../people/mentioned/LARDEREI.md)**: Marie's great obsession; Florentine count, resident at Palazzo de Larderel on Via Tornabuoni
+- **[Alessandro de Larderei](../../people/mentioned/LARDEREL.md)**: Marie's great obsession; Florentine count, resident at Palazzo de Larderel on Via Tornabuoni
 - **Michele Gordigiani** (1835-1909): Florentine portrait painter; painted Queen Victoria, Prince of Wales, Vittorio Emanuele II; encouraged Marie's art (071.0269, 072, 075, 078)
 - **[Marcuard](../../people/mentioned/MARCUARD.md)**: Swiss friend resident in Florence; his letters provide social intelligence about Florentine society
 - **Mlle Tanska**: Young Polish sculptor (age 16) mentioned in Marcuard's Florence letter (078.0218)
@@ -179,7 +179,7 @@ Several diary references to "Florence" refer to people, not the city:
 - [#Venice](./VENICE.md) -- Northern Italian city also visited
 - [#Nice](./NICE.md) -- Marie's home base, the "provincial" city Florence represents escape from
 - [#Paris](./PARIS.md) -- Where Marie pursues her artistic training; surpasses even Florence
-- [#Larderei](../../people/mentioned/LARDEREI.md) -- The Florentine obsession
+- [#Larderel](../../people/mentioned/LARDEREL.md) -- The Florentine obsession
 - [#Salon](../../culture/art/SALON.md) -- The exhibition where Marie would later display her own work
 
 %% 2026-01-06T00:00:00 RSR: Auto-generated stub from broken link detection %%
