@@ -206,7 +206,7 @@ The progression from "un couple excessivement rapace, cupide et heureux" (1884 p
 
 ### 1875
 - **028.0111** (January 1): Alexandre withholding revenues; Marie's diplomatic letters; plan to remove him from estate management
-- **029.0236-0172** (February 7): Alexandre arrives in Nice from Russia with family; children Stiopa (7) and Julie (6); Marie's ambivalence: "est-il bonhomme ? est-il ruse ? That is the question"
+- **029.0237-0172** (February 7): Alexandre arrives in Nice from Russia with family; children Stiopa (7) and Julie (6); Marie's ambivalence: "est-il bonhomme ? est-il ruse ? That is the question"
 - **034.0571** (June 25): Alexandre brings 108,000 francs from Russia, squandered in two months
 
 ### 1876
@@ -288,4 +288,4 @@ Alexandre's behavior reflects several aspects of 19th century Russian provincial
 
 %% GLO_ALEXANDRE.0064 %%
 %% 2025-12-07T19:55:00 RSR: Expanded entry based on Book 00 preface. Alexandre emerges as calculating opportunist who married 15-year-old for her fortune, then betrayed her adoptive mother %%
-%% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Confirmed Alexandre is MATERNAL (Babanine), not paternal (Bashkirtseff), per 067.0959 where he gives his name as "Babanine." Added extensive diary references across carnets 028, 029, 034, 059, 064, 067, 073, 074, 078, 079, 082, 084, 089, 090, 092, 094, 096, 097, 102. Key additions: estate revenue withholding (028), buying out brothers' inheritance (096 via raw carnet 14), Soulima legal affair, Zamiatine lawsuit representation, Paris life and "M. vingt francs l'heure" episode, death entry with complex tribute (102). Note: the RSR comment in 029.0238 incorrectly identifies him as "Alexandre Bashkirtseff" -- he is Alexandre Babanine. The LAN comment in 028.0111 calling oncle Etienne and oncle Alexandre "paternal" is also incorrect. The stub entries ONCLE_ALEXANDRE and ALEXANDRE_BASHKIRTSEFF in people/mentioned/ should be merged/redirected to this entry. %%
+%% 2026-05-24T12:00:00 RSR: Comprehensive expansion. Confirmed Alexandre is MATERNAL (Babanine), not paternal (Bashkirtseff), per 067.0959 where he gives his name as "Babanine." Added extensive diary references across carnets 028, 029, 034, 059, 064, 067, 073, 074, 078, 079, 082, 084, 089, 090, 092, 094, 096, 097, 102. Key additions: estate revenue withholding (028), buying out brothers' inheritance (096 via raw carnet 14), Soulima legal affair, Zamiatine lawsuit representation, Paris life and "M. vingt francs l'heure" episode, death entry with complex tribute (102). Note: the RSR comment in 029.0239 incorrectly identifies him as "Alexandre Bashkirtseff" -- he is Alexandre Babanine. The LAN comment in 028.0111 calling oncle Etienne and oncle Alexandre "paternal" is also incorrect. The stub entries ONCLE_ALEXANDRE and ALEXANDRE_BASHKIRTSEFF in people/mentioned/ should be merged/redirected to this entry. %%
