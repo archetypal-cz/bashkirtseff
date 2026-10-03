@@ -456,12 +456,13 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 ### Theater & Culture (Carnet 019)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Les Ganaches | «Les Ganaches» | Sardou comedy (1862); keep French title |
-| La Belle Hélène | «La Belle Hélène» | Offenbach operetta; keep French |
-| Orphée aux enfers | «Orphée aux enfers» | Offenbach operetta; keep French |
-| La Périchole | «La Périchole» | Offenbach operetta; keep French |
+| Les Ganaches | *Les Ganaches* | Sardou comedy (1862); no established uk title → original in italics, gloss «Старі дурні» in the footnote (titles rule KRR 2026-10-03; CON 2026-10-03, was: «Les Ganaches») |
+| La Belle Hélène | «Прекрасна Єлена» | Offenbach operetta; established Ukrainian stage title → in text, French in footnote (titles rule KRR 2026-10-03; CON 2026-10-03, was: keep French). Corpus 2026-10-03: «Прекрасна Єлена» 13×, «La Belle Hélène» 2× still in text (uk/032/1875-04-30, uk/044/1875-09-22) — titles touch-up pass |
+| Orphée aux enfers | «Орфей у пеклі» | Offenbach operetta; established Ukrainian title → in text, French in footnote (titles rule KRR 2026-10-03; CON 2026-10-03, was: keep French) |
+| La Périchole | «Перікола» | Offenbach operetta; established Ukrainian stage title → in text, French in footnote (titles rule KRR 2026-10-03; CON 2026-10-03, was: keep French). Remaining «La Périchole» in text: uk/031/1875-04-14 (touch-up pass) |
 | Les deux Orphelines | «Дві сироти» | D'Ennery melodrama (1874); translate title |
-| Bagatelle | «Bagatelle» | Offenbach operetta (1874); keep French title |
+| Bagatelle | *Bagatelle* | Offenbach operetta (1874); no established uk title → original in italics, gloss «Дрібничка» in the footnote (titles rule KRR 2026-10-03; CON 2026-10-03). Not to be confused with Marie's bulldog Баґателля (020) |
+| La Fleur de thé | *La Fleur de thé* | Lecocq opéra-bouffe (1868); no established uk title → original in italics, gloss «Квітка чаю» in the footnote (CON 2026-10-03) |
 | costume de Vénus | костюм Венери | Marie fantasizes wearing Venus costume from Orphée |
 | opéra bouffe-féerie | опера-буф-феєрія | Comic opera with spectacular fairy staging |
 
@@ -560,7 +561,11 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - Miserere (Latin): ==Змилуйся!== in the text, Latin → footnote (KRR 2026-10-03; replaces "keep in Latin as Marie wrote it")
 - Latin motto "mulier habuit" etc.: Ukrainian in the text, Latin → footnote (KRR 2026-10-03)
 - Fashion parentheticals "(robe brune Worth, chapeau noir, bien)": keep in parentheses, translate naturally
-- "[Rayé:]" = crossed-out text: render as [Закреслено:] — confirmed convention from 019
+- "[Rayé:]" = crossed-out text: render as [Викреслено:] (CON 2026-10-03: this row said [Закреслено:], against the tree majority — 955× [Викреслено vs 33× [Закреслено, the latter scattered over 002–097; 020 unified, the rest left for a sweep)
+- *immense !* (Marie's tic, 020/06-07 ×3) → ==грандіозно!== / ==грандіозна (радість)==, French in the footnote at first use per entry. Ruling (2026-10-03, CON): before the wave 3× *immense* left in French in uk text (all 020/06-07), 0 after; no competing rendering in the tree
+- Moreno's accent (020/06-07, 06-14: "C'est oune dame…", "Zé crois…", "z'ai boucoup"): Marie's parody is phonetic, so the Ukrainian is phonetic too — с/з for щ/ж/ч («сцо», «дузе», «сонясний»), grammar left correct so it reads as an accent, not as errors; French original in the footnote (CON 2026-10-03)
+- *sous cap* (018/04-02) → ==наврочення== (unclear gamblers' slang; en "a jinx"); Marie personifies it as "Mr Soucap" on 04-18 — keep the link in the footnotes (CON 2026-10-03)
+- *enlève-chapeau* (018/04-12, local nickname of a windy coastal spot) → «==Знімач капелюхів==», declined as a name (CON 2026-10-03)
 - "[Dans la marge:]" = marginal note: render as [На полях:] — confirmed
 
 ### Updated
