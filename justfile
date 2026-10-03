@@ -201,6 +201,14 @@ db-seed *ARGS:
 db-seed-add FILE:
     bash src/auth/db-deploy.sh seed-add {{FILE}}
 
+# Offline audit of exported paragraph_reports for stale pre-renumber IDs (OWNER-RUN, never in CI; docs/DB_DEPLOY.md "Before merge: fix stale reports"). e.g. just renumber-audit --reports reports.csv [--write-migration]
+renumber-audit *ARGS:
+    INVOCATION_DIR='{{invocation_directory()}}' npx tsx src/scripts/renumber-audit.ts {{ARGS}}
+
+# Fixture tests for renumber-audit (synthetic temp git repos)
+test-renumber-audit:
+    npx tsx --test src/scripts/lib/renumber-audit.test.ts
+
 # === BUG REPORTS ===
 
 # List open bug reports from the database

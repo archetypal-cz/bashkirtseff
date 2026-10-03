@@ -132,6 +132,65 @@ while the DB state is unknown.
 
 `commit_hash` on reports and stars makes all three detectable later.
 
+## Before merge: fix stale reports (required owner step)
+
+The legacy renumber scripts (everything in the seed) were most likely never run by hand, and the deploy job never runs them. The reader
+reports already in `paragraph_reports` may therefore still point at pre-rebuild paragraph IDs. The offline audit finds them and writes
+a fix-up migration; it is the only repair path.
+
+**Order matters. Do this BEFORE merging the D2 PR (#18), and commit the fix-up migration INTO #18.** The first runner deploy then applies
+the fix-up at step 1 (migrations), before any renumber script exists. A marker-carrying renumber script deployed first would move stale
+rows to wrong IDs, and the fix-up's `AND paragraph_id = '<old>'` guard would then silently match nothing.
+
+**Invariant:** no `rebuild-carnet --write` output (no marker-carrying renumber script) may be deployed between the reports export and the
+deploy of the fix-up. If any renumber script was deployed after the export, discard the export: re-export and re-audit.
+
+1. **Export** (server-side `COPY ... TO STDOUT`, no `\copy`, no file left on the server). From a machine that reaches aretea:
+   ```
+   ssh deploy@aretea 'docker exec auth-db psql -X -U gotrue -d gotrue -c "COPY (SELECT id,paragraph_id,language,commit_hash,created_at,status,highlighted_text FROM public.paragraph_reports) TO STDOUT WITH CSV HEADER"' > reports.csv
+   ```
+   (`deploy@aretea` is the same `{{deploy_user}}@{{deploy_host}}` the justfile report recipes use.) On aretea itself:
+   ```
+   sudo docker exec auth-db psql -X -U gotrue -d gotrue -c "COPY (SELECT id,paragraph_id,language,commit_hash,created_at,status,highlighted_text FROM public.paragraph_reports) TO STDOUT WITH CSV HEADER" > reports.csv
+   ```
+   (If the ssh key is not authorised the output comes back empty; the audit then fails loudly instead of reporting "nothing to fix".)
+2. **Audit.** Put `reports.csv` in a scratch directory (`reports*.csv` is gitignored) and run, from a full (not shallow) checkout of
+   the #18 branch (`feat/db-deploy-workflow`) with current `origin/main` merged in, so that all maps are seen and the next free
+   migration number is 0002. A relative `--reports` path is resolved against the directory you invoke `just` from; an absolute scratch
+   path works from anywhere:
+   ```
+   just renumber-audit --reports /tmp/scratch/reports.csv                     # dry run: writes docs/research/renumber-audit-<date>.md
+   just renumber-audit --reports /tmp/scratch/reports.csv --write-migration   # also writes src/auth/migrations/NNNN-legacy-report-fixups.sql
+   bash src/auth/db-deploy.sh lint migration src/auth/migrations/NNNN-legacy-report-fixups.sql
+   ```
+   The migration is named `0002-legacy-report-fixups.sql` (or the next free number). Verdicts per report: `UNAFFECTED` (no applicable map
+   moves its ID), `APPLIED` (the row already holds the remapped ID), `NOT_APPLIED` (still on the old ID; needs the fix), `AMBIGUOUS` (no
+   usable highlighted text, text fits neither or both paragraphs, chain ends in `DROPPED-`, partial remap, a new paragraph ID without
+   text, unknown `commit_hash` without evidence or within 48 h of a map's commit date; decide by hand).
+   A map applies to a report only if the commit that added it is NOT an ancestor of the report's `commit_hash`; with `unknown` the
+   report's `created_at` is compared with the map's commit date. Evidence is the report's `highlighted_text` compared (normalised,
+   tolerant) with the paragraph text at the report's commit and at HEAD, in the report's language tree and, failing that, in `_original`.
+   Caveats that produce more AMBIGUOUS rows: `highlighted_text` may hold the reader's comment when nothing was selected, and a
+   side-by-side view can highlight French text under a translation language.
+   The generated report and migration contain UUIDs, paragraph IDs and counts only, never reader text (values failing validation print
+   as `<invalid>`).
+3. **Review and commit into #18.** Read the report `docs/research/renumber-audit-<date>.md` (UUIDs, IDs and verdicts only) and the migration (one `UPDATE public.paragraph_reports SET paragraph_id=... WHERE id=... AND paragraph_id=...`
+   per NOT_APPLIED row; re-running is harmless). Commit the report alongside the migration to the #18 branch, then merge; the first deploy applies it as an
+   ordinary migration (step 1 of the chain), before any renumber script. Decide the AMBIGUOUS rows by hand (fix them in a later
+   migration, or leave them).
+4. **Delete `reports.csv`.** It contains reader text. Never commit it, attach it, or run the audit in CI (the repo and its logs are public).
+
+### Later re-run
+
+Reports filed after the export but before the fix-up deploy may still carry old IDs. Re-export, re-audit and write a further migration;
+rows already fixed show `APPLIED` or `UNAFFECTED` and are left alone. Once renumber scripts have been deployed this repair no longer
+applies: the `paragraph_id` guard would not match, and the remaining stale rows must be judged by hand.
+
+Limits: the fix-up follows the legacy (seeded or script-less) maps only. A map counts as applied by the runner when the commit that
+added it also added a top-level `content/_renumber/*.sql` carrying the deploy marker whose name (pooled scripts `A+B+...-date.sql`
+included) covers the map's carnet; everything else is legacy. A row whose two routes would not compose to the same ID is reported as
+AMBIGUOUS (`order-conflict-with-deploy-scripts`). Tests: `just test-renumber-audit`.
+
 ## Privilege and trust
 
 The runner connects as `gotrue`, which is the **bootstrap SUPERUSER** (`POSTGRES_USER` in `src/auth/docker-compose.yml`), contrary to the
@@ -177,6 +236,7 @@ concurrency group (the deploy checkout is reset to `origin/main`, the recorded S
 
 - `just db-seed` / `just db-seed --check`: write / verify the seed.
 - `just db-seed-add <file>`: append one script to the seed (see Bootstrap).
+- `just renumber-audit --reports reports.csv [--write-migration]`: offline stale-report audit (see "Before merge: fix stale reports"); `just test-renumber-audit`.
 - `DOCKER="sudo docker" just auth-test [name]`: the runner/schema test harness (throwaway postgres + PostgREST containers;
   `src/auth/test/*.test.sh`). Use `DOCKER=docker` where the socket is accessible.
 - Helpers: `bash src/auth/db-deploy.sh lint <migration|renumber> <file>`, `renumber-order`, `verify-ledger`.
