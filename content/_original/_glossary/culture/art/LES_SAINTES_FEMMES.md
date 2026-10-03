@@ -65,7 +65,7 @@ She kept believing for another eighteen months. On **28 December 1882**, in the 
 
 %% GLO_LES_SAINTES_FEMMES.0014 %%
 %% [#Bastien-Lepage](../../people/recurring/BASTIEN_LEPAGE.md) %%
-The last phase is a race against Bastien-Lepage, who was known to be preparing *Les Bergers de Bethléem*: «Gare les Bergers de Bethléem s'il les fait avant mes Saintes femmes mon rêve le plus cher s'écroule» (103.0038, 103.0233, 103.0265, 103.0399). Her final resolve is dated **9 March 1884**: «au mois d'octobre j'irai en Palestine et je ferai mes Saintes femmes…» (103.0485). October 1884 is the month she died. Bastien-Lepage died five weeks after her.
+The last phase is a race against Bastien-Lepage, who was known to be preparing *Les Bergers de Bethléem*: «Gare les Bergers de Bethléem s'il les fait avant mes Saintes femmes mon rêve le plus cher s'écroule» (103.0042, 103.0237, 103.0269, 103.0403). Her final resolve is dated **9 March 1884**: «au mois d'octobre j'irai en Palestine et je ferai mes Saintes femmes…» (103.0489). October 1884 is the month she died. Bastien-Lepage died five weeks after her.
 
 %% GLO_LES_SAINTES_FEMMES.0015 %%
 One entry carries her own retrospective judgement, added in the margin of the July 1882 schedule in her own hand: «Il y a entre ce jour et le 5 mai 1883 un pas énorme de franchi… On ne fait pas un tableau pareil, comme cela. Je ne me doutais de rien.» — between that day and 5 May 1883 an enormous step was taken; one does not make a picture like that just like that; I had no idea (095.0276).
@@ -109,8 +109,8 @@ The last eighteen months:
 - 1883-08-27 evening (101.0270) — the wager: this, the statue and the *gamins* at one Salon
 - 1883-10-02 (101.0488) — southern studies, but a fog picture first
 - **1883-10-09 (101.0551, 101.0553, 101.0554)** — the red sky with the crescent; the *pochade*
-- 1884-01-15 (103.0038), 1884-02-02 (103.0233), 1884-02-03 (103.0265), 1884-02-25 (103.0399) — the *Bergers de Bethléem* panic
-- **1884-03-09 (103.0485)** — the last resolve: Palestine in October
+- 1884-01-15 (103.0042), 1884-02-02 (103.0237), 1884-02-03 (103.0269), 1884-02-25 (103.0403) — the *Bergers de Bethléem* panic
+- **1884-03-09 (103.0489)** — the last resolve: Palestine in October
 
 %% GLO_LES_SAINTES_FEMMES.0020 %%
 ## Related Entries

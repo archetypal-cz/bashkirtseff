@@ -40,7 +40,7 @@ No good reproduction exists. The only file on Wikimedia Commons is a 500 × 390 
 ## Description
 
 %% GLO_AUTOMNE.0006 %%
-Marie never gave the picture a title in the diary, and identified it only when she lent it to Mme Bertaux's exhibition of the Femmes Peintres et Sculpteurs in March 1884: "j'ai donné le paysage (une allée de l'île de la Grande Jatte par un temps de brouillard, des feuilles sèches et la terre humide)" (103.0433) -- an avenue on the Île de la Grande Jatte in fog, with dry leaves and wet ground. Her working note when she began it calls it "une allée d'arbres aux tons dorés, toile moyenne" (102.0085): an avenue of trees in golden tones, on a medium canvas.
+Marie never gave the picture a title in the diary, and identified it only when she lent it to Mme Bertaux's exhibition of the Femmes Peintres et Sculpteurs in March 1884: "j'ai donné le paysage (une allée de l'île de la Grande Jatte par un temps de brouillard, des feuilles sèches et la terre humide)" (103.0437) -- an avenue on the Île de la Grande Jatte in fog, with dry leaves and wet ground. Her working note when she began it calls it "une allée d'arbres aux tons dorés, toile moyenne" (102.0085): an avenue of trees in golden tones, on a medium canvas.
 
 %% GLO_AUTOMNE.0007 %%
 The identification of that Grande Jatte picture with the *Automne* reported in St Petersburg is an inference from subject and season, not a documented equivalence. It is the best available reading of the evidence and should be presented as such.
@@ -63,7 +63,7 @@ The canvas is one strand of a larger ambition of that autumn, stated at 101.0487
 - 1883-10-30 (102.0083) -- the motif found, and kept secret
 - **1883-11-01 (102.0085)** -- begun: "Je vais travailler à la Grande Jatte, une allée d'arbres aux tons dorés, toile moyenne"
 - 1883-11-16 (102.0251) -- the parallel landscape work at Jouy
-- **1884-03-01 (103.0433)** -- lent to the Femmes Peintres et Sculpteurs exhibition, with the description that identifies it
+- **1884-03-01 (103.0437)** -- lent to the Femmes Peintres et Sculpteurs exhibition, with the description that identifies it
 
 %% GLO_AUTOMNE.0013 %%
 ## Related Entries

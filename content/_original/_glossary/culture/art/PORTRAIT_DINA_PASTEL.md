@@ -39,7 +39,7 @@ images:
 It was shown at the **Salon of 1883 as no. 106, under the title *Portrait de Mlle de B.*** — and it is this pastel, not either of the two paintings she sent the same year, that carried the ***mention honorable*** the jury awarded her. That distinction mattered enormously to her, and getting it for the wrong work wounded her (see below). The prize is commonly and wrongly attached to the Salon of 1884.
 
 %% GLO_PORTRAIT_DINA_PASTEL.0004 %%
-**A dating caveat.** The museum and the 1885 posthumous catalogue place the work in 1883, which is the Salon year. The diary makes clear the pastel was **made in the spring of 1882**: on 26 March 1884 Marie writes of "le pastel fait il y a près de deux ans" (¶ 103.0599), and Julian is already praising "le pastel de Dina" in April 1882 (¶ 094.0442). "1883" is the exhibition date, not the date of execution.
+**A dating caveat.** The museum and the 1885 posthumous catalogue place the work in 1883, which is the Salon year. The diary makes clear the pastel was **made in the spring of 1882**: on 26 March 1884 Marie writes of "le pastel fait il y a près de deux ans" (¶ 103.0603), and Julian is already praising "le pastel de Dina" in April 1882 (¶ 094.0442). "1883" is the exhibition date, not the date of execution.
 
 %% GLO_PORTRAIT_DINA_PASTEL.0005 %%
 ## Description
@@ -62,10 +62,10 @@ By December 1882 the pastel had become her hope for the coming season: "Mon past
 
 %% GLO_PORTRAIT_DINA_PASTEL.0011 %%
 %% [#Emotions](../themes/EMOTIONS.md) %%
-At the Salon it did better than anything else she sent. Only two pastels were received with a number 1 — "Le mien et celui de Breslau" (¶ 099.0175) — and Cabanel and Franceschi were talking of a medal "pour le pastel". Marie's reply is the whole of her ambition in one line: "J'aimerais mieux une petite mention mais pour la peinture…" (¶ 099.0037). On 23 May 1883 she ran through the Salon looking for the award label on her *Irma*, did not find it, and found it instead "jusqu'à l'odieux pastel" (¶ 099.0561). The distinction she wanted for her painting had gone to the pastel, and she never quite forgave it: a year later she is still asking "pourquoi n'ai-je pas encore donné en peinture l'équivalent du pastel fait il y a près de deux ans !" (¶ 103.0599).
+At the Salon it did better than anything else she sent. Only two pastels were received with a number 1 — "Le mien et celui de Breslau" (¶ 099.0175) — and Cabanel and Franceschi were talking of a medal "pour le pastel". Marie's reply is the whole of her ambition in one line: "J'aimerais mieux une petite mention mais pour la peinture…" (¶ 099.0037). On 23 May 1883 she ran through the Salon looking for the award label on her *Irma*, did not find it, and found it instead "jusqu'à l'odieux pastel" (¶ 099.0561). The distinction she wanted for her painting had gone to the pastel, and she never quite forgave it: a year later she is still asking "pourquoi n'ai-je pas encore donné en peinture l'équivalent du pastel fait il y a près de deux ans !" (¶ 103.0603).
 
 %% GLO_PORTRAIT_DINA_PASTEL.0012 %%
-**A second, later Dina portrait exists and should not be confused with this one.** In November 1883 Marie began another pastel of her cousin — "une harmonie blanche, c'est superbe" (¶ 102.0342) — planned for a winter exhibition (¶ 101.0558), sent to the Femmes Peintres in March 1884 (¶ 103.0433), and which the collector Hayem tried to buy in May 1884; she refused (¶ 104.0175).
+**A second, later Dina portrait exists and should not be confused with this one.** In November 1883 Marie began another pastel of her cousin — "une harmonie blanche, c'est superbe" (¶ 102.0342) — planned for a winter exhibition (¶ 101.0558), sent to the Femmes Peintres in March 1884 (¶ 103.0437), and which the collector Hayem tried to buy in May 1884; she refused (¶ 104.0175).
 
 %% GLO_PORTRAIT_DINA_PASTEL.0013 %%
 ## References in Diary
@@ -80,8 +80,8 @@ At the Salon it did better than anything else she sent. Only two pastels were re
 - 1883-03-25, ¶¶ 098.0572, 098.0574 — waiting on the jury
 - 1883-04-04, ¶ 099.0037 · 1883-04-22, ¶ 099.0175 — talk of a medal; received with a number 1
 - **1883-05-23, ¶ 099.0561** — she finds the award label on the pastel instead of on her painting
-- 1884-03-26, ¶ 103.0599 — still measuring her painting against it two years on
-- The later "harmonie blanche" Dina pastel (a distinct work): 1883-10-09, ¶ 101.0558 · 1883-11-28, ¶ 102.0342 · 1884-03-01, ¶ 103.0433 · 1884-03-05, ¶¶ 103.0450, 103.0458 · 1884-05-14, ¶ 104.0175
+- 1884-03-26, ¶ 103.0603 — still measuring her painting against it two years on
+- The later "harmonie blanche" Dina pastel (a distinct work): 1883-10-09, ¶ 101.0558 · 1883-11-28, ¶ 102.0342 · 1884-03-01, ¶ 103.0437 · 1884-03-05, ¶¶ 103.0454, 103.0462 · 1884-05-14, ¶ 104.0175
 
 %% GLO_PORTRAIT_DINA_PASTEL.0015 %%
 ## Related Entries
@@ -104,4 +104,4 @@ At the Salon it did better than anything else she sent. Only two pastels were re
 - The diary itself, carnets 085, 090, 094–099, 101–104
 
 %% GLO_PORTRAIT_DINA_PASTEL.0019 %%
-%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.3, §5.2) and the carnets 087–096 and 097–106 mention maps. Museum data from the Musée d'Orsay object record. Two corrections carried deliberately: (1) the mention honorable belongs to the Salon of 1883, not 1884 — the 1885 catalogue and Coppée's preface ("déjà mentionnée l'année précédente") both confirm it against English Wikipedia; (2) the museum's "1883" is the exhibition year, while the diary dates execution to spring 1882 (094.0442, and 103.0599 "le pastel fait il y a près de deux ans"). The later "harmonie blanche" pastel of Dina (1883–84) is flagged as a separate work so the two are not merged. No image included: the only Commons file is 497x600 px, below this project's 800 px floor — a genuine gap for a work of this standing. %%
+%% 2026-08-13T00:00:00 RSR: Compiled from the project's 2026-08-13 artworks research catalogue (§3.3, §5.2) and the carnets 087–096 and 097–106 mention maps. Museum data from the Musée d'Orsay object record. Two corrections carried deliberately: (1) the mention honorable belongs to the Salon of 1883, not 1884 — the 1885 catalogue and Coppée's preface ("déjà mentionnée l'année précédente") both confirm it against English Wikipedia; (2) the museum's "1883" is the exhibition year, while the diary dates execution to spring 1882 (094.0442, and 103.0603 "le pastel fait il y a près de deux ans"). The later "harmonie blanche" pastel of Dina (1883–84) is flagged as a separate work so the two are not merged. No image included: the only Commons file is 497x600 px, below this project's 800 px floor — a genuine gap for a work of this standing. %%

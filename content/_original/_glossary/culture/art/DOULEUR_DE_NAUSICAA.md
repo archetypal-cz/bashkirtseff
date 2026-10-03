@@ -64,7 +64,7 @@ The statue is begun on **27 February 1883**, the same week she finishes *[Jean e
 Through the summer of 1883 she works *en ronde-bosse* on the advice of the sculptor **Saint-Marceaux** (100.0069), who functions here as her model of ambition much as Bastien-Lepage does in painting. By 30 August she rates the sculpture at least as highly as her painting: «ma sculpture actuelle vaut ma peinture si elle ne lui est pas supérieure» (101.0294). Then in December the confidence collapses — «ma Nausicaa ne signifie rien, on ne comprend pas qu'elle pleure» (102.0488) — and is restored six days later when Julian is summoned and raves: «exquis, charmant, très bien, empoignant… Admirablement bien construit» (102.0521). Tony Robert-Fleury, two days after that, is cooler but satisfied (102.0546).
 
 %% GLO_DOULEUR_DE_NAUSICAA.0012 %%
-The last winter is a running fight over models — she reckons she has used twenty-three where fifteen would do — until she finds the right body in February 1884: «J'ai trouvé une Nausicaa. Un peu grêle mais charmante, seize ans, des formes très pures. Je suis enchantée mais aurai-je le temps.» (103.0340). She did not. On 14 March 1884 she gives up on submitting it: «Ce ne sera pas fini, je n'enverrai donc que le Meeting» (103.0511). Her last recorded plan for it, on 5 April 1884, is to take up the statue seriously in the mornings and paint a nude study in the afternoons (103.0716). She died on 31 October 1884. The bronze that survives is signed 84.
+The last winter is a running fight over models — she reckons she has used twenty-three where fifteen would do — until she finds the right body in February 1884: «J'ai trouvé une Nausicaa. Un peu grêle mais charmante, seize ans, des formes très pures. Je suis enchantée mais aurai-je le temps.» (103.0344). She did not. On 14 March 1884 she gives up on submitting it: «Ce ne sera pas fini, je n'enverrai donc que le Meeting» (103.0515). Her last recorded plan for it, on 5 April 1884, is to take up the statue seriously in the mornings and paint a nude study in the afternoons (103.0721). She died on 31 October 1884. The bronze that survives is signed 84.
 
 %% GLO_DOULEUR_DE_NAUSICAA.0013 %%
 ## References in Diary
@@ -87,9 +87,9 @@ The work itself:
 - 1883-12-16 (102.0488) — «ma Nausicaa ne signifie rien»
 - 1883-12-22 (102.0521) — Julian's rave; 1883-12-24 (102.0546) — Tony cooler
 - 1884-01-08 (102.0664) — the workman builds it too large; everything to redo
-- Model trouble: 1883-11-26 (102.0321), 1883-12-26 (102.0572, Irma posing), 1884-01-27 (103.0153), **1884-02-18 (103.0340)** — «J'ai trouvé une Nausicaa»
-- 1884-03-14 (103.0511) — abandoned for the Salon; only *Un meeting* goes
-- 1884-04-05 (103.0716) — the last plan for it
+- Model trouble: 1883-11-26 (102.0321), 1883-12-26 (102.0572, Irma posing), 1884-01-27 (103.0157), **1884-02-18 (103.0344)** — «J'ai trouvé une Nausicaa»
+- 1884-03-14 (103.0515) — abandoned for the Salon; only *Un meeting* goes
+- 1884-04-05 (103.0721) — the last plan for it
 
 %% GLO_DOULEUR_DE_NAUSICAA.0016 %%
 ## Related Entries

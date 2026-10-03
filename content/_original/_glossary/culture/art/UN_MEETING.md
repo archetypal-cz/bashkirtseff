@@ -56,7 +56,7 @@ The idea arrived whole on **4 April 1883** (099.0033–0035) and the picture too
 It was painted out of doors, and the weather fought it: a storm knocked the canvas over and holed it in July 1883 (100.0389), and again in September, though "pas dans les figures" (101.0434). By August she was writing "Les gamins ne sont pas finis !!!" (100.0528). In October, Bastien-Lepage gave her the counsel she followed -- let it rest over the winter and finish selected passages in the spring, with "Bastien et la nature" as the two standards of comparison (101.0542). Through the autumn she stalled: "je suis restée trop longtemps devant les gamins pour y retravailler à présent, j'ai voulu, je ne peux pas" (102.0025). In November 1883 a photograph her mother had carried to St Petersburg was reproduced on the front page of *L'Illustration universelle* (102.0297) -- the picture was famous in Russia before it was finished in France.
 
 %% GLO_UN_MEETING.0010 %%
-The title appears in the diary only on **9 March 1884**, in Tony's verdict, and in her own spelling: "mes gamins intitué: *Un Metting,* ont beaucoup gagné et qu'en somme c'est sérieusement bien et que ça comptera au salon" (103.0495). Five days later she decided it would go to the Salon alone, her *Douleur de Nausicaa* sculpture being unfinishable in time (103.0511).
+The title appears in the diary only on **9 March 1884**, in Tony's verdict, and in her own spelling: "mes gamins intitué: *Un Metting,* ont beaucoup gagné et qu'en somme c'est sérieusement bien et que ça comptera au salon" (103.0499). Five days later she decided it would go to the Salon alone, her *Douleur de Nausicaa* sculpture being unfinishable in time (103.0515).
 
 %% GLO_UN_MEETING.0011 %%
 %% [#Salon](./SALON.md) [#Medaille](./MEDAILLE.md) %%
@@ -74,9 +74,9 @@ The Salon of 1884 gave her everything except the medal. Charles Baude photograph
 - 1883-10-08 (101.0542), 1883-10-09 (101.0558) -- Bastien-Lepage's advice; "Oui, il faut *achever* les gamins"
 - 1883-10-17 (102.0025), 1883-11-21 (102.0291), 1883-12-16 (102.0488) -- the stalled autumn
 - 1883-11-22 (102.0297) -- front page of *L'Illustration universelle*, St Petersburg
-- **1884-03-09 (103.0495)** -- the title first written down, as "Un Metting"
-- 1884-03-14 (103.0511) -- her only Salon submission for 1884
-- 1884-03-30 (103.0615–0585, 103.0657) -- the placement panic; Franceschi and Émile Bastien predict a medal
+- **1884-03-09 (103.0499)** -- the title first written down, as "Un Metting"
+- 1884-03-14 (103.0515) -- her only Salon submission for 1884
+- 1884-03-30 (103.0619–0585, 103.0661) -- the placement panic; Franceschi and Émile Bastien predict a medal
 - 1884-04-30 (104.0047–0036, 104.0055) -- press day; the Bastien-Lepage comparison; Carolus-Duran and Julian both confident
 - 1884-05-01 (104.0073) -- her own doubt: "Mon tableau à moi est d'une peinture *vieille*"
 - 1884-05-03 (104.0092, 104.0094), 1884-05-07 (104.0125, 104.0130) -- Baude's engraving, the Düsseldorf request, the press

@@ -53,7 +53,7 @@ Nothing is known about the making of this pastel. It is not identifiable in the 
 ## References in Diary
 
 %% GLO_PORTRAIT_MME_X.0010 %%
-**No diary mention has been found.** A systematic sweep of carnets 097–106 (October 1882 to October 1884, the only range in which an 1884 pastel could be recorded) returned no match: every "Portrait de Mme…" in that range refers to a picture by someone else — Bastien-Lepage's Mme Drouet (¶¶ 103.0149, 103.0697), Sargent's Mme Gautreau (¶ 104.0543). If Marie wrote about making this pastel, she did not name it in a way that can be recognised.
+**No diary mention has been found.** A systematic sweep of carnets 097–106 (October 1882 to October 1884, the only range in which an 1884 pastel could be recorded) returned no match: every "Portrait de Mme…" in that range refers to a picture by someone else — Bastien-Lepage's Mme Drouet (¶¶ 103.0153, 103.0702), Sargent's Mme Gautreau (¶ 104.0543). If Marie wrote about making this pastel, she did not name it in a way that can be recognised.
 
 %% GLO_PORTRAIT_MME_X.0011 %%
 ## Related Entries
