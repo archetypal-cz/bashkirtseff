@@ -2595,3 +2595,13 @@ Surfaced by the consolidation pass; **decided canon** + which committed carnets 
 - 2026-06-14: UK frontier wave 084–103 consolidated (15 carnets, UK corpus now 100% complete). See `.claude/reports/2026-06-14-uk-084-103.md`.
 - 2026-06-14 (follow-up normalizations, all applied to files + re-verified): Караджорджевич ×9 (086); Василису (092); le Défunt→Покійний (085 ×4); **Popaul→«Пополь» corpus-wide** (084/085/086/089/077/079/099, unifying Попотик/Попо́ль/Попол/Польчик to the Julian-arc lock); **Gambetta→Ґамбетта & Gautier→Ґотьє corpus-wide** (Г→Ґ, 18 carnets total); **Laferrière→«Лафер'єр» corpus-wide** (62×, 25 carnets). All affected carnets verify-carnet PASS; UK tree 0 broken links.
 - 2026-06-14 PRE-EXISTING defects surfaced while verifying older non-wave carnets (NOT caused by these normalizations; flagged for a separate fix): **019** footnote ref [^019.138.1] has no definition + homoglyph contamination (4 latin-in-cyr); **022** %%-balance FAIL in 1874-08-01.md (odd marker count); **055** 27 entries (1876-03-01…03-27) missing the `translation_complete` frontmatter key (conductor_approved present — scaffold gap).
+
+## Owner name rulings (2026-10-03, wave-uk research ~/rebuild-state/wave/uk-names-research.md) — LOCKED
+
+| Source | Ukrainian | Rule |
+|---|---|---|
+| **Gabriel** (Gabriel Géry and any other Gabriel) | **«Ґабріель»** (decl. Ґабріеля, Ґабріелем, Ґабріелеві) | Ґ for Romance G (2019 orthography; matches Ґавіні, Ґамбетта, Ґотьє). «Гавриїл» ONLY where Marie's archangel pun on Gabriel Géry («le Pur / le chaste») is explicit in the sentence. Supersedes Габріель/Габрієль. |
+| **Gavini** | **«Ґавіні»** (indeclinable) | locked; never Гавіні |
+| **Hecht** | **«Гехт»** (decl. Гехта) | German H→Г; never «Ехт» |
+| **Doucet** | **«Дусе»** (indeclinable) | never «Дюсе»/«Дуссе» |
+| **le père X** (familiar, older man) | **«старий X»** by default; **«батечко X»** only where Marie is ironic | **«отець»** only for priests. Supersedes the ironic-default rows above (2305 «батечко Родольф» stays where ironic; 2494, 2590). |
