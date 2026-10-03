@@ -54,8 +54,8 @@ Workers: Sonnet 5.5 (mechanical-with-judgment TR). Reviewer per batch: Opus. Pil
 - [ ] en 000–106
 
 ## Wave log
-COMMITTED (pushed 2026-10-04): uk 000–106 COMPLETE + follow-up sweep; en 000–106 COMPLETE (main pass); cz 000–036, 040–042; all trees 034.
-IN FLIGHT: en 085–087, 091–106; cz 037–039, 043–066.
+COMMITTED (pushed): uk 000–106 COMPLETE + follow-up sweep; en 000–106 COMPLETE + sweeps A (67029f83fa) and B (d8078e153d); cz 000–106 COMPLETE (last: f38aad036b, 2026-10-03). All cz carnets re-verified: verify-carnet PASS, splicescan silent, check-comments OK.
+IN FLIGHT: nothing. NEXT: owner decisions (consolidated list below) → follow-up sweeps.
 NEXT: cz 021+, uk 037+, en 046+. Then: titles touch-up for batches before the titles ruling (cz 000–002, uk 000–008, en 000–008); en Marie's-English verbatim pass for en 000–003, 005–008, 034; names sweeps (uk Hitchcock/Galignani/London House/plobster/Ange; en accents); stray * Russian markers scan.
 Brief: .claude/reports/wave-2026-10-03-worker-brief.md. Batches of 3 carnets per tree; Sonnet worker → Opus CON-review → verify → commit per tree-batch.
 - RULED 2026-10-03: titles → established target-language title when one exists (original in footnote), else original title in italics + gloss. Already-committed batches (000–005, 034) need a titles touch-up pass later.
@@ -111,3 +111,50 @@ Brief: .claude/reports/wave-2026-10-03-worker-brief.md. Batches of 3 carnets per
 - cz/uk 098/01-13: *À la porte* is the play performed at the ball, not the Porte-Saint-Martin theatre — fix (uk 097–099 already treated as play title; check cz).
 - en sweep: *cimaise* → ==the line== (TM ruling 097–099); 104 italic cimaise; 088 'picture rail', 092 'eye level'.
 - en sweep: *Idem* → 'Ditto.' in 096/1882-08-03, 102/1883-12-15 ('Same.'); Bethlehem shepherds painting title variants in 103.
+- ED ruling 2026-10-04: cz gentleman → plain „džentlmen“; sweep committed cz files with „gentleman/gentlemana“ (incl. 038.0106, 059) later.
+- Owner Q (cz): *cocotte* → „kokota“ (TM 007, ~300 occurrences in 113 files: kokoty/kokotka/kokotek…). „kokota“ is a genuine dated Czech word (SSJČ), but its forms collide with the vulgar „kokot“ for modern readers. Keep, or switch to „kurtizána“/„lehká žena“/„demimondénka“?
+- en TM split needed: *Nom d'un chien* — annoyed → 'Botheration!'; delighted/admiring (091, 093, maybe 103) → e.g. 'Goodness!' (ED proposal; record in TM). Leftover en sweeps: plobster plain in 027/029/030/062; Bedouin cloak unhighlighted 062/087, burnous/robe 009/015/083; 'on the line' unhighlighted 088/05-31, 091/05-01. _original fixes: 082/1878-09-19 [^82.426.1] Napoleon III reading; 064/1876-07-22 'candy-box'.
+
+### From CON 061–063 (76fc0ffa07)
+- OWNER: Corinne — Czech title „Korinna“ unverified; tree uses „Corinna“ (8×). Sweep if published form differs.
+- OWNER: „en face“ — 073–075 CON row highlights ==zepředu==; 061–063 CON disagrees (ordinary French / naturalised photo term → no highlight). Needs ruling.
+- RSR: 061–063 _original — Mignon line «Reggio del ciel» (slip for Reggia/Raggio?); «signor -zio» scan hyphen.
+### From CON 076–078 (73c519a86f) + 079–081 (a071e4aa95)
+- TM split risk: *de chic* → ==od ruky== (076–078) vs ==vymyšleného z hlavy== (083 worker) — 082–084 CON told to reconcile/split by sense.
+- OWNER: *enfant terrible* — cz keeps loan (italic + footnote), uk translates («шибеник»). Align trees?
+- Letters opening with dash, no speaker (079.0420, 054) keep the dash — precedent.
+### From CON 070–072 (8af6e89014)
+- OWNER: "Madame" in cz dialogue — most carnets keep „Madame“, 073–075 CON switched to „madam“/„milostpaní“. Pick one; sweep after.
+- Sweep: earlier ==schůzka/schůzce== for rendez-vous → plain *rendez-vous* (naturalised, 103× plain) — after owner nod.
+- OWNER: pasted Italian documents (race cards 070/04-05, 04-15, 071/05-10; newspaper 070/04-24) translated without „V originále italsky“ note — add one?
+### From CON 082–084 (bdd2d64496)
+- DONE: 076.0172 de chic → ==z hlavy== (ED); 076.0071 keeps ==od ruky== (superficial sense).
+- RSR: _original 084/1879-04-03 LAN calls "I!" a quirk (wrong, OCR "!!"); 084/02-24 «II!»; mid-word italics 083/11-09 «m*arie*», 084/03-10 «an*s, …*» — check vs scan.
+- en 082/1878-10-05 „Oofette“ → Odette.
+- OWNER: established-Czech-title works keep French original in footnote? (current practice: yes)
+### From CON 085–087 (0496f35b93)
+- TM: chic → plain „šik“ (naturalised); lunch → ==lehké občerstvení==; cocodettes → ==koketky==; Vulgo → ==Po domácku==.
+- OWNER: „Paní z Monsoreau“ vs „Paní de Monsoreau“ — verify published Czech title; „šik“ colloquial tone OK in fashion notes?
+- starovoï: 094–096 worker → ==starosta==/==podstarosta== (+ становой caveat), 092 aligned to it; owner question still open.
+### From CON 091–093 (e3024546ed)
+- OWNER (strong evidence): starovoï = становой (police officer), not староста — 092 context (house search, gets superior drunk), en/uk 092 read police, Marie herself glosses it as police official in 102.0637. Proposal: cz ==starosta== → police rendering (e.g. ==strážmistr==/==policejní komisař==) in 092, 096, 102 + check en/uk consistency.
+- RSR + en/uk: footnote [^3] in _original/092/1881-08-11 calls Georges Marie's brother → maternal uncle (Georges Babanine); fixed in cz only.
+- Convention: footnotes on Marie's own French oddities start „Tak v textu:“ (not „V originále…“, which the frontend reads as a language note).
+### From CON 067–069 (820f05ad69)
+- table d'hôte: ruling = naturalised, STAYS plain „table d'hôte“ (ED prompt erred; CON correct).
+- Madame: 069 converted to „milostpaní“/„paní“ per 073–075 row — still the open owner question (most carnets keep „Madame“).
+- OWNER: *La Jeunesse du roi Henri* — is „Mládí krále Jindřicha“ a real Czech edition title?
+### From CON 088–090 (3ae87bd832) + 103–106 (021f032c02)
+- OWNER: Marie's *Un Meeting* → cz *Schůze* (tree form, 102–105) vs „Mítink“?
+- Sweep: „Hôtel Drouot“ capitalisation inconsistent (13 lower / 8 cap / 4 „hotel“) — one-line ruling + sweep.
+### From CON 100–102 (64bc29b56e)
+- starovoï: Marie's OWN gloss in 102.0637 «(fonctionnaire de la police)» — cz now reads ==starostou== „(policejním úředníkem)“ = self-contradictory → strongest case for становой rendering; sweep 092/096/102 (+ en/uk check) after owner nod.
+- RSR: _original/100/1883-07-28 footnote "non-sens" falsely English; _original/102/1883-12-31 credits Balzac passage to Illusions perdues → La Cousine Bette; 101/10-13 «répéter II» OCR slip.
+### From CON 094–096 (827a3ad3f4)
+- OWNER: Zola *Pot-Bouille* Czech title? (kept French + doslova)
+- OWNER: *on the wrong* (096.0214) kept English as metalinguistic exception (Marie apologises next sentence); uk translated — align?
+- Splice defect class found+fixed: text line starting with "," after a RED comment (094/01-11, 096.0092) — worth a tree-wide scan (all langs).
+### From CON 097–099 (f38aad036b)
+- OWNER: Johanka vs Jana z Arku; Seno vs Senoseč (tree split ~half/half, 099–105) — pick + sweep.
+- RSR: _original 099/1883-04-18 false "In English" footnote on 099.0156.
+- Leftover dash lines in cz (~109) audited 2026-10-03: lists, self-catechism (044), Marie's exclamations (018), prayer lists (011) — intentional.
