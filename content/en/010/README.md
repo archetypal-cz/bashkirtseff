@@ -46,7 +46,7 @@ Marie frequently switches to English, Italian, and Russian mid-sentence:
 - "protecteur" = protector (euphemism preserved)
 - "fille" = prostitute (when used as social designation)
 - Marie's invented words preserved with [sic]: "meprisation [sic]"
-- Structural markers: [Crossed out:], [In the margin:], [Two lines cancelled], [Annotation:]
+- Structural markers: [Crossed out:], [In the margin:], [Two lines crossed out], [Annotation:]
 
 ## Changelog
 - 2026-02-16: Initial translation of all 22 entries (translator-010)
