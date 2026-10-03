@@ -1112,8 +1112,13 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 
 #### Multilingual Conventions (Carnet 035)
 - ==жахливий настрій== (frightful spirits) — Marie's English for a terrible mood; Ukrainian in the text, English → footnote
-- London House — fashionable Nice restaurant-hotel: name of an establishment (name exception, kept «London House»), footnote on first use (UNSURE)
+- London House — fashionable Nice restaurant-hotel: name of an establishment, plain «London House» (no ==…==), footnote on first use (CON 2026-10-03, settles the UNSURE)
 - ==Хай йому грець!== (Ventre Saint-Gris!, French oath) — French → footnote
+- *Bigre!* → ==Ну й ну!== per the tree-wide tic rendering (034 uses it throughout); the 2026-09-29 RED notes in 035 aligning Bigre to «Хай йому грець» are superseded (CON 2026-10-03)
+- *Ecco !* (Italian) → ==Ну от!==; *Misera !* (Italian, of herself) → ==Бідолашна!==; *Vanitas vanitatum !* (Latin, Eccl. 1:2) → ==Суєта суєт!== (biblical Ukrainian form); original → footnote, first occurrence per entry (CON 2026-10-03)
+- *jettatore*: where the syntax wants a predicate («що він …») a periphrasis ==приносить нещастя== is fine; the noun forms in the row above stay the default (CON 2026-10-03)
+- *and we let me drop the subject* (her garbled English, 035/1875-07-02) → ==і ми облишили цю тему==, footnote quotes it as written + likely intent (CON 2026-10-03)
+- Bouts-rimés rhyme-word lists (*Nice, bonjour, factice, amour, Nice*) are French source text, not a code-switch: Ukrainian words in plain italics, no ==…==, French rhyme words in the footnote (CON 2026-10-03)
 - ==Його Світлість герцог Гамільтон== (H[is] G[race] t[he] D[uke] o[f] Hamilton) — Marie's obsessive English cipher; translated, English → footnote (KRR 2026-10-03; abbreviated forms: see the cipher row)
 - *douraque* (Russian "дурак") — inside the comic verse rhyme: Ukrainian in the verse (==дурень==, rhyme permitting); Marie's *douraque* + the note on code-switching → footnote
 - *senti-mentalisme* — Marie's hyphenation preserved as "сентимент-алізм"
@@ -1195,7 +1200,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - Latin "In nomine Patris...": ==В ім'я Отця…== in the text, Latin → footnote (liturgical formula used humorously)
 - Italian *Cena* (Last Supper): ==Таємна вечеря== in the text, Marie's Italian *Cena* → footnote (she uses Italian, doesn't know French *la Cène*)
 - English code-switches (fast → ==вільних звичаїв==, he stared at me → ==він витріщався на мене==, love/like → ==кохаю/люблю==, Blackprince → «Блекпринс» (name), Take your fat carcase out of the way → ==Забери з дороги свою товсту тушу==, the fat carcase → ==товста туша==): Ukrainian in the text, English → footnote (KRR 2026-10-03; renderings coined)
-- London House (Nice restaurant-hotel): name of an establishment, kept (established 035; UNSURE)
+- London House (Nice restaurant-hotel): name of an establishment, plain «London House», never ==…== (CON 2026-10-03, settles the UNSURE)
 - Spanish *novio* (suitor): ==наречений== / ==залицяльник== by context, Spanish → footnote
 - French oath Ventre-Saint-Gris! (Henri IV): ==Хай йому грець!==, French → footnote (first occurrence per entry)
 - French ==Coquine de Biou== (Niçois dialect → ==Ах ти ж бестіє!==, UNSURE, coined), ==Pardi!== → ==Ну звісно!==; French/Niçois → footnote (first occurrence per entry)
@@ -1261,10 +1266,10 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 
 #### Multilingual Conventions (Carnet 033)
 - Dante quotes (Inferno II "O muse o alto ingegno…", "Qui si passa la tua nobilita"): Ukrainian rendering in the text (==…==), Italian original with Marie's quoting errors in the footnote (KRR 2026-10-03)
-- Italian inserts (*inammorati* → ==закохані==, *a più non posso* → ==щосили==, *femmina celeberrima* → ==знаменита жінка==, Montecchi/Capuleti → names, kept as «Монтеккі/Капулетті»): Ukrainian in the text, Italian → footnote
+- Italian inserts (*inammorati* → ==закоханих== (after «двоє»), *à più non posso* → ==що є сили==, *femmina celeberrima* → ==найзнаменитішою жінкою==, Montecchi/Capuleti → names: plain «Монтеккі й Капулетті», no ==…==, Italian in the footnote; as used in 033, CON 2026-10-03): Ukrainian in the text, Italian → footnote
 - Sallust Latin (Bellum Catilinae opening, "secôra [sic]"): Ukrainian in the text; Latin + Marie's error (secôra→pecora) in the footnote
-- English code-switches ("shall perform our pilgrimage" → ==здійснимо наше паломництво==, "That is the question" → ==Ось у чім питання==, "H[is] G[race]…" → see cipher row): Ukrainian in the text, English → footnote
-- "mio bella petchouna" (Italian + Russian *печенька*): Ukrainian endearment in the text (==моя гарна печенько==, UNSURE), footnote explains the Italian/Russian blend (metalinguistic)
+- English code-switches ("shall perform our pilgrimage" → ==здійснимо нашу прощу== (as used in 033), "That is the question" → ==Ось у чім питання==, "H[is] G[race]…" → see cipher row): Ukrainian in the text, English → footnote
+- "mio bella petchouna" (Italian + Russian *печенька*): Ukrainian endearment in the text (==моя гарна печенька== as used in 033), footnote explains the Italian/Russian blend (metalinguistic)
 - Russian proverb "cochon tu n'es pas un cheval" (Papa): translate literally "свиня, ти ж не кінь" + footnote noting it's a Russian proverb
 - Russian code-switch in public ("Baissez votre ombrelle"): render naturally in Ukrainian; original was Russian per LAN
 - "Cap de Biou!" (Nice dialect exclamation): transliterate "Кап-де-Б'ю!"
@@ -1641,9 +1646,10 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | s'apprivoiser | ручніти | To warm up socially (lit. "tame oneself") |
 
 #### Multilingual Conventions (Carnet 036)
-- English code-switches (Audiffret cares for me only as much as I care for him → ==Одіффре піклується про мене лише настільки, наскільки я про нього==; what is the matter? → ==що сталося?==): Ukrainian in the text, English → footnote; manuscript "1 care" restored to "I care"
-- Latin tags (sed fides deficit → ==та вірності бракує==; Quid melior? → ==Що ліпше?==; Audacter et amanter → ==Сміливо й закохано==): Ukrainian in the text, Latin → footnote; corrupt "scd fidcs deficit" restored to "sed fides deficit" per LAN (UNSURE on Quid melior?/Audacter et amanter renderings)
-- London House (Nice restaurant-hotel): establishment name, kept (established 035; UNSURE)
+- English code-switches (Audiffret cares for me only as much as 1 care for him → ==Одіффре любить мене рівно настільки, наскільки я люблю його==; what is the matter? → ==що сталося?==): Ukrainian in the text, English → footnote; the footnote quotes the source "1 care" as printed, with «так у тексті» (CON 2026-10-03; no silent restoration)
+- Latin tags as used in 036/1875-07-11 (CON 2026-10-03, replaces the coined proposals): scd fidcs deficit → ==але довіри бракує== (footnote: «scd fidcs deficit» (так у тексті; мабуть, «sed fides deficit»)); Quid melior ? → ==Що може бути ліпше?==; Audacter et amanter → ==Сміливо й любовно==
+- Audiffret's cut-off "une déclar... [sic]" → «деклар…» in the text; the [sic] moved into a footnote quoting her French (part D, CON 2026-10-03)
+- London House (Nice restaurant-hotel): establishment name, plain «London House» in Latin script and guillemets, never ==…== (names are not highlighted runs; CON 2026-10-03, settles the UNSURE)
 - comme il faut → ==пристойний==, French → footnote (KRR 2026-10-03)
 - "déclar... [sic]": Audiffret's cut-off "déclaration" → "деклар… [sic]"; the [sic] attaches to the French slip
 - Manuscript footnote marker "^1^" (content unknown): preserve as superscript ¹ in the Ukrainian text
