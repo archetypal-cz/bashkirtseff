@@ -1882,3 +1882,13 @@ These override older per-carnet entries below where they conflict.
 - Niçois letter 054/02-15 (054.0114–0119): Niçois kept in plain italics, no wrapper, one run note on the first paragraph (Marie's own translation follows). *Cap de Biou !* (054/02-19, not flagged) → `==Propánakrále!==` per the ruling above.
 - *bel étage* (French left in text) → naturalised „beletáž“, no wrapper. *moccoli* → hra se `==svíčkami==`. *Rossignol che vola* as the name of Audiffret's prize stays in italics + gloss.
 - Dash-led openings of Marie's copied letters (`> — …`, 054.0009, 0181, 0201, 0360) have no attribution: dash kept, as committed 035/037.
+
+### Reading-conventions renderings, carnets 055–057 (CON 2026-10-03)
+- *canaille* left in French (055.0041, 0147, 1155) → `==darebák==` + footnote „V originále francouzsky: „canaille“.“ (as committed 021/07-17); supersedes the 2026-08-08 FAB choice „Ta canaille“.
+- *barcaccia* → `==klubová lóže==` per the 058–060 row; where Marie glosses the word herself in the entry (055/03-10, „tak se nazývají klubové lóže“) it stays italic *barcaccia* + gloss.
+- *via !* aligned to the 058–060 row `==nechme toho!==` (055/03-05, 056/03-28, 04-02, 04-08; the worker's „pryč s tím“ replaced). cz/062/06-12 still has `==pryč s tím!==` — align when 062 is reviewed.
+- Torlonia's catchphrase *Non, écoutez* (056, also echoed by Marie) → `==Ne, poslouchejte==`, footnote at first occurrence per entry; the metalinguistic *non écoutez* (056.0407) stays French.
+- *O Gioia !* (055/03-02, 03-05) is the exclamation (LAN: "Oh joy!"), not Hamilton's Gioia → `==Ó radosti!==`.
+- *à la pompéienne* (Pietro's phrase, 057/04-13) → `==po pompejánsku==`; *poussé au non plus* (057.0167) → „až k nec plus ultra“ (naturalised, per the 057 row), her form in the footnote.
+- Titles: *Le Panache* (Gondinet), *Madame l'Archiduc* (Offenbach), *La Jolie Parfumeuse* stay French in italics + „doslova …“ gloss; established Czech „Pařížský život“, „Vestálka“ get the original title in a footnote.
+- *pazzerello* as the nickname (055/03-11) aligned to the 054 row: „Blázínek“, no wrapper.
