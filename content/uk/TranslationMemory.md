@@ -1816,6 +1816,8 @@ Marie travels from the Tarnovsky estate to her father's estate at Gavronci and t
 | hetman / sceptre du hetman | гетьман / гетьманська булава | Cossack ruler; "sceptre"→«булава» |
 | Troisième Section | Третій відділ | Tsarist secret police; footnote |
 | genitor (Latin) | ==родитель== | Marie's ironic Latin for her father; Ukrainian in the text, Latin *genitor* → footnote (KRR 2026-10-03) |
+| Pater / pater (Latin, of her father) | ==родитель== | Ruling (2026-10-03, CON): same rendering as *genitor*, one per tree. Grep before ruling: ==родитель== for pater 1 (011/1873-10-25), ==батенько== 1 (013/1873-11-26, aligned), *Pater* still in Latin 1 (067/1876-10-28, wave pending). *Pater noster* (prayer, 009) is a different item. |
+| Lady Mary Montagu (Hamilton's bride) | леді Мері Монтегю | Ruling (2026-10-03, CON): grep before ruling: Монтегю 13, Монтаґю/Монтаґ'ю 3 (014 ×2 fixed; 015/1874-01-04 ×1 remains, outside the 012–014 batch). |
 | drochki-de course | бігові дрожки | Racing droshky; footnote |
 | chevaux isabelle | коні масті ізабела | Pale-cream horse colour; footnote |
 | maréchal de noblesse | ватажок дворянства | (per TM 023) |
