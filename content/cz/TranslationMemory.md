@@ -47,6 +47,17 @@ These override older per-carnet entries below where they conflict.
   1. **Marie Bashkirtseff** — locked as is („Bashkirtseffová" where Czech needs the feminine; never Baškircev-).
   2. **Private persons** (family, friends, Nice/Paris/Rome acquaintances, the Karageorgevitch princes of her circle) keep **Marie's French spelling of the stem, declined the Czech way**: Tchoumakoff → Tchoumakoffa, s Tchoumakoffem, paní Tchoumakoffová; Miloradovitch → Miloradovitche, paní Miloradovitchová; Karageorgevitch → Karageorgevitche, princ Karageorgevitch; Markevitch, Paskevitch, Basilevitch, Anitchkoff, Souvoroff, Yourkoff, Daniloff, Babanine (Babaninovi, Babaninová), Galitzine, Potechine; nicknames Moussia (Moussio, Moussii), Gritsia, Stiopa; **Pacha** the person (Pavel; declined Pachy, Pachovi) — but «pacha» the Turkish title is translated („paša", e.g. Midhat paša). Already-locked hybrids stay: Walitský, Sapogenikoff-, Romanoff. Follow her spelling **per occurrence** (if she writes two forms, keep both).
   3. **Famous public figures** known to the Czech reader take the **standard Czech form**: Turgeněv, Tolstoj (the writer), Puškin, Lermontov, Gogol, Gorčakov, Skobelev, Alexandr II, the Romanov dynasty as such, saints and monarchs. Test: an encyclopedia entry AND Marie refers to them as that public figure. Doubtful cases (e.g. Ogareff, Potemkine) → list for the owner, don't guess.
+- **Option B owner decisions (KRR 2026-10-03, all 10 accepted):**
+  1. Tolstoy neighbours in Nice (private) → „Tolstoy, paní Tolstoyová, u Tolstoyových"; the writer stays „Tolstoj".
+  2. Gortchakoff: the chancellor in political context (086, 089) → „Gorčakov"; Mme Akenfieff's lover (052.0265) → „Gortchakoff"; 058.0169 by context.
+  3. General Ogareff → „Ogareff" (declined Ogareffa…).
+  4. The Potemkine newlyweds (016–017) → „Potemkine" (Potemkinovi, paní Potemkinová); Catherine's prince stays „Potěmkin".
+  5. Public-office holders acting in office (Šuvalov as ambassador, Potapov, Muravjov as governor) → standard Czech; society acquaintances (Obolensky, Demidoff, Benckendorff, Mestchersky, Kotchoubey, Countess Koutouzoff, Albedinsky, Ourousoff) → Marie's form, declined.
+  6. Dynasties in footnotes → standard Czech (Karađorđević, Petrović-Njegoš, Paskevič family as historical).
+  7. -sky names: masculine keeps Marie's spelling with Czech declension (Basilewsky, gen. Basilewského, Bagnitsky); feminine takes Czech -ská (Basilewská, Bagnitská).
+  8. «princesse Karageorges» → „kněžna Karageorgesová".
+  9. Marie's own variants follow the French per occurrence («Baschkirseff» stays as she wrote it, declined).
+  10. Remaining Czech-ised private names (Anastacijevič, Pachtenko, Cernitsky, Abaza…) → Marie's form, declined.
 - ~~Karagjorgjevič~~ / ~~Čumakov~~ / ~~Musja~~ (2026-10-01 locks): SUPERSEDED by option B above.
 - **la maréchale** (owner ruling KRR 2026-10-01): „maršálová" (not maršálka/maréchála); le maréchal = maršál.
 - **English-run note** (lead 2026-10-01, option a): first paragraph of a run carries „Pozn. překl.: V originále anglicky (tento a N následujících odstavců)."; single paragraph „Pozn. překl.: V originále anglicky."
