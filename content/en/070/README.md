@@ -4,7 +4,7 @@
 **Period**: April 1877
 **Location**: Sorrento, then Naples
 **Entries**: 8
-**Paragraphs**: 070.0001 – 070.0929
+**Paragraphs**: 070.0001 – 070.0934
 
 ## Summary
 
