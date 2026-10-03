@@ -15,9 +15,13 @@ Established translations for consistency across the English edition.
 - Notes: Use full title on first mention per entry, then "the Duke" or "Hamilton"
 
 ### Prince Gagarine
-- Translation: Prince Gagarin
+- Translation: Prince Gagarine (Marie's spelling)
 - Context: Russian aristocrat in Nice society
-- Notes: Use anglicized Russian form (no final -e)
+- Notes: Owner ruling 2026-10-03 (names option B): private persons keep Marie's French spelling. Was "Gagarin" until 2026-10-03.
+
+### Russian and other foreign names (owner ruling 2026-10-03, option B)
+- Translation: private persons keep Marie's French spelling per occurrence (Tchoumakoff, Walitsky, Sapogenikoff, Miloradovitch, Romanoff, Karageorgevitch, Moussia, Gagarine, Larderel); famous public figures known to the English reader take the standard English form (Turgenev, Pushkin, Lermontov, Gorchakov the chancellor, Skobelev, Ogarev the poet, Tolstoy).
+- Notes: Same split as Kernberger (2013). Applies to editorial footnotes too (e.g. "the Romanoff family"). Research: ~/rebuild-state/names-research.md.
 
 ## Places
 
