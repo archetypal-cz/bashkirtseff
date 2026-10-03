@@ -1849,3 +1849,13 @@ These override older per-carnet entries below where they conflict.
 - Titles without an established Czech title, kept in the original with a „doslova“ gloss: *Isabelle de Bavière*, *La Tour de Nesle*, *Le Procès Veauradieux*, *le rossignol che vola* (song used as Audiffret's code name). Established: „Velkovévodkyně z Gerolsteinu“, „Modrovous“, „Židovka“.
 - English/Italian/French runs: *english-looking* → `==anglického vzhledu==`; *a giorno* → `==jako za dne==`; *buona compagnia* → `==dobrá společnost==`; *à più non posso* → `==co to dá==`; *opéra-bouffe* (genre word left in French by an earlier pass) → `==komická opera==`; *che bella regina!* → `==Jaká krásná královna!==`.
 - Maman's speech that Marie marks as Russian with italics (*La faux a rencontré la pierre*, *Tu entends, Nadia ?*) is translated in plain italics inside „…“, no `==…==` (she wrote it in French).
+
+### Reading-conventions wave 049–051 (CON 2026-10-03)
+- *Ohimè !* → `==Běda!==` — Ruling (2026-10-03, CON). Corpus of highlighted renderings before the ruling: ==Běda== 027, 050 ×2 (050.0576 and the aria 050.1171), 053, 055, 057 (6 in all); ==Běda mi!== ×1 (059/04-21, where three «Hélas» follow and take „Běda“, so „Běda mi“ there is a context exception, not a variant to copy). Row 807 above becomes the default.
+- *Heu ! misera !* (Latin) → `==Běda, já nešťastná!==`; *misera me !* (Italian) → `==já nešťastná==` (051/12-27, 01-04).
+- *nec plus* (050.0358) → `==nic nad to==` per the 038.0251 row (one rendering in the tree).
+- *le Surprenant* in 049 aligned to „Záhadný“ (×28, per the lead's confirmation of the lock, cc7596fbcd).
+- *Pour prendre congé* as the spelled-out answer to „Co znamená P.P.C.?“ (050.1255) is metalinguistic: French in italics + inline gloss „– na rozloučenou“, no `==…==`.
+- Titles with an established Czech title: „Lazebník sevillský“ (*Il barbiere di Seviglia*), „Dcera pluku“ (*La figlia del regimento*), „Zuřivý Roland“ (*Orlando furioso*); original in the footnote.
+- *Orsù* → `==Nuže==`; *Capite ?* → `==Chápete?==`; *Vedete !* → `==Vidíte!==`; *Che differenza !* → `==Jaký rozdíl!==`; *Dio lo sa* → `==Bůh ví.==`; *Ecco* (closing a tirade) → `==Tak vida==`; *a mezza voce* → `==polohlasem==`; *mille grazie* → `==tisíceré díky==`; *venit homo* → `==přichází ten muž==`; *Tu quoque ?* → `==I ty?==`.
+- 050.0479 *gioriae cupiditate*: the old footnote's attribution „z Tacita o císaři Septimiu Severovi“ is unsupported and was removed; do not reintroduce it (the same claim still sits in the _original LAN note and footnote [^2], reported to the lead).
