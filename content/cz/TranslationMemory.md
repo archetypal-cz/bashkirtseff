@@ -1927,3 +1927,16 @@ These override older per-carnet entries below where they conflict.
 - Not a code-switch: «sensitive» (061.0159) is a French word in an anglicised sense → plain „citlivější“, footnote explains (CON 2026-06-06).
 - Titles: *Orlando* (Ariosto) → „Zuřivý Roland“ (as 049–051); Mme de Staël's *Corinne* → „Corinna“, declined („Corinny“), in quotes, original in the footnote — the tree form (8 occurrences); whether the published Czech title is „Korinna“ is an open owner question. Kept in the original with a „doslova“ gloss: *Festin del Verno*, *Povera Maria*, *La Riconosenza* (sic), *L'hiver de Nice à Monaco*.
 - Verse quoted in dialogue: one pair of Czech quotes around the whole stanza; the French habit of opening every line with a quote mark is dropped (062.0241).
+
+### Reading-conventions renderings, carnets 076–078 (CON 2026-10-03)
+- *gentleman-farmer* (077.0052) aligned to `==statkář-džentlmen==` per the 073–075 row (the worker had „džentlmen-statkář“). Plain *gentleman* → „džentlmen“ (076/1877-12-05).
+- *Sapristi* → `==U všech rohatých!==`, *Pardieu* → `==U sta hromů!==` (rows 034/1327), footnote at the first occurrence per entry; *mon empereur* (Larderel's tic) → `==můj císaři!==`.
+- *de chic* (atelier slang, 076.0071 „jak se říká v ateliéru“ and 076.0172 „de chic, de fantaisie“) → `==od ruky==` + footnote; recorded, not a lock (en ==off the cuff==). The cz tree had no other visible occurrence.
+- *la belle cose* → `==krásné věci==`; *Addio Signorina* → „==Sbohem, slečno==“; *lady-like* → `==jako dáma==`; Maman's French *amourette* inside her Russian speech (078.0275) → `==milostnou pletku==` (the switch is hers). Marie's coinage *skatiner* [sic] → `==bruslit==`, footnote „V originále „skatiner“ [sic] – zfrancouzštěný tvar anglického *to skate*“ (not labelled „anglicky“).
+- Pantheon inscription for Victor Emmanuel II (077.0252), quoted by Marie in Italian → Czech in „==…==“ + footnote with her Italian (*prego*, *ginusti* as written), as en/uk 077.
+- Marcuard's *le skating* in his Florence letter (078.0218) is the Florence rink → plain „Skating“ + explanatory footnote, per the 073–075 Skating row (the worker's `==kluziště==` reverted).
+- *comme il faut* already translated before the wave (076.0345 „jak se patří“) not retro-highlighted (064–066 row; the worker's ==slušná== undone).
+- *j'suis* [sic] in a ball-goer's speech (078.0202): Czech colloquial „nejsu“, footnote „Tak v textu: „j'suis [sic]““ — a [sic] note, not a language switch.
+- Mottoes kept in italics with a gloss footnote: *Nulla dies sine linea* (076/1877-12-18 epigraph, as cz 086), *Honni soit qui mal y pense*.
+- Titles: established Czech titles in the text, original in the footnote: „Afričanka“ (*L'Africaine*), „Zvonky cornevillské“ (*Les cloches de Corneville*), „Kdybych byl králem“ (*Si j'étais roi*), „Cid“. Kept in the original with a „doslova“ gloss: *La Tzigane*, *Grammaire de dessin* (Blanc; the earlier Czech *Mluvnice kresby* in the text had no note).
+- Written words read aloud or quoted as said (Cassagnac reading Marie's note 077.0483; the sentence she writes into Marcuard's letter 078.0275; Alexandre's exclamations 078.0414) go in „…“; Marie's own hypothetical or past self-talk („řekla bych: …“, „říkala jsem si: …“) stays unquoted.
