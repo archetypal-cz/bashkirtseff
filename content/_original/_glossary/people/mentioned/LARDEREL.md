@@ -206,7 +206,7 @@ Alessandro's connection to the House of Savoy through his sister Bianca's marria
 %% GLO_LARDEREL.0050 %%
 - [GASTON_DE_LARDEREL](GASTON_DE_LARDEREL.md) -- Elder brother, married to a Salviati
 - [MADAME_DE_LARDEREL](../aristocracy/MADAME_DE_LARDEREL.md) -- Mother (Amicie Lefort d'Autry)
-- [COMTESSE_DE_LARDEREI](../aristocracy/COMTESSE_DE_LARDEREI.md) -- Sister Bianca, Countess of Mirafiori
+- [BLANCHE](BLANCHE.md) -- Sister Bianca (Blanche), Countess of Mirafiori (see also [MIRAFIORE](MIRAFIORE.md))
 - [ANTONELLI](ANTONELLI.md) -- Pietro Antonelli, who introduced Marie to Larderei's world
 - [RIGHI](RIGHI.md) -- La Righi / "Silene" / "Madame la Coquine," Larderei's mistress
 - [ALEXANDRINE](ALEXANDRINE.md) -- Larderei's illegitimate daughter by la Righi
