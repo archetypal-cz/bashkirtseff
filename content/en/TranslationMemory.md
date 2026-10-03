@@ -2957,6 +2957,11 @@ When Marie writes in Italian/Latin/German/Russian/Spanish, or leaves a French ph
 - Translation: *Honni soit qui mal y pense* (UNSURE: kept — motto of the Garter, a quotation whose point is the French wording; footnote "Shame on him who thinks evil of it.")
 - Context: Motto of the Order of the Garter; Marie cites it audaciously when defending beauty being seen
 - Notes: Exception candidate (quotation whose point is the foreign wording). If the owner prefers translating: ==Shame on him who thinks evil of it==, French in the footnote.
+- Tree usage (CON 2026-10-03, en 024–026 review): kept in French in 026/1874-11-22, 059/1876-04-21, 077/1878-01-20 (there inside ==…==, an outlier), 079/1878-03-21.
+
+### Ich dien (Prince of Wales motto)
+- Translation: *ich dieu* kept as Marie wrote it, plain italics; footnote gives *Ich dien* ("I serve") and her *dien*/*Dieu* confusion (UNSURE: same exception as the Garter motto above — a motto whose point is its wording; follows that row if the owner rules otherwise)
+- Notes: 024/1874-09-23 only (tree grep 2026-10-03: no other occurrence). An earlier pass had silently normalised it to *ich dien*.
 
 ### Pâris (person)
 - Translation: Pâris
