@@ -1457,10 +1457,10 @@ These override older per-carnet entries below where they conflict.
 - Notes: Disambiguate by CONTEXT, not a blanket rule. Add "[de Cassagnac]" where bare "Paul"=Cassagnac is ambiguous; use "bratr Paul" only for the actual sibling (e.g. the 082/10-12 Poltava letter). "Paul et Virginie" = the Bernardin de Saint-Pierre novel; "Petit-Paul…celui de Rome" = a distinct third person.
 
 ### Troubetzkoï / Troubetzkoy
-- Translation (Czech): Trubecká (paní Trubecká)
-- Context: Russian princely name; recurring society figure.
-- First appearance: 071/079; reaffirmed 080
-- Notes: Locked Czech form „Trubecká" — do NOT leave malformed transliterations like „Troubetzkojaová".
+- Translation (Czech): SUPERSEDED 2026-10-03 (option B, lead/CON) → Troubetzkoy / kněžna Troubetzkoyová (pl. Troubetzkoyovi, fem. pl. Troubetzkoyovy), declined; Marie's variant spellings follow the French per occurrence (Troubetskoy, Troubestkoy, Troubeskoy). Was: Trubecká (paní Trubecká)
+- Context: Russian princely name; recurring society figure (Lise Troubetzkoy's salon; society acquaintances → tier 2, not a public figure).
+- First appearance: 021/067/071/079; reaffirmed 080
+- Notes: Never the Czech-ised „Trubecká/Trubeckoj" any more, and never malformed transliterations like „Troubetzkojaová". Swept 2026-10-03 in 083, 094, 095, 096; carnets 067 (and the other re-split carnets) still carry „Trubecká" pending their re-split.
 
 ### "intriguer" — BOTH senses live in this arc (split per occurrence)
 - Translation (Czech): mystify → poplést/zaujmout/zmást; scheme → pletichy/intriky
