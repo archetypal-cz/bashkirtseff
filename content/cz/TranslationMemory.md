@@ -821,6 +821,18 @@ These override older per-carnet entries below where they conflict.
 - French kept by earlier passes, now Czech: «œil-de-bœuf» (neckline) → ==volské oko== + footnote; «chapeau Mademoiselle» → „klobouk Mademoiselle“ (fashion name, footnote). English game name *Aunt Sally* stays (name, footnote).
 - Marie's French doggerel on Audiffret (024.0319–0334): rhymed Czech doggerel in the text, one verse line per source line; no wrapper (French is the source language).
 
+### Reading-conventions renderings, carnets 037–039 (CON 2026-10-03)
+- Phaedrus «Quem spes delusit, huic querela convenit» (037.0005, 0143) → ==Koho naděje zklamala, tomu přísluší nářek==; her first-person echo «querela mihi convenit» (037.0006) → ==mi nářek přísluší==. Footnote quotes the edition's slips as written („Qucm spes dclusit“ / „Quem spem delusit“, tak v textu).
+- «Veni, vidi, vici» → ==Přišel jsem, viděl jsem, zvítězil jsem==; «dubiae nobilitatis» → ==pochybného šlechtictví==; «delectabile tempus» → ==rozkošný čas==; «Requiem delectabile [sic]» → ==Rozkošné requiem== ([sic] in the footnote); «vox faucibus exit» → ==hlas opouští hrdlo== (footnote notes Virgil's *haesit*).
+- *Dies irae* lines (037.0531–0532): ==Slzavý onen den. Kdy z popela povstane.== / ==Člověk vinný bude souzen… Smiluj se tedy, Bože.== (Marie's fragmentary punctuation kept; «mie» quoted as written).
+- «Nec plus» (038.0251, Marie's clipped *nec plus ultra*) → ==nic nad to== (cf. en "nothing beyond", uk «понад це — нічого»).
+- «These are the questions» (038.0066, Hamlet echo) → ==Toť otázky==; the singular Hamlet line stays ==To je, oč tu běží== (Saudek).
+- English: «unlucky» (la plus unlucky des femmes) → ==nejsmolnější==; «bustle» → ==ruch==; «awfully expressive» → ==strašně výstižné==; «pleasantly enough» → ==celkem příjemně==; «deliciously» → ==rozkošně==; «money, money, money» → ==peníze, peníze, peníze==.
+- Italian: «Anima, coraggio !» → ==Odvahu, duše!==; «Il fiato mi manca !» → ==Nemám dech!==; «Quanto al matrimonio» → ==Pokud jde o svatbu==; «al castello dell'illustrissimo signore» → ==na zámku nejurozenějšího pána==; «Di bianco vestita» → ==v bílém oděná==.
+- Song title «God save the Queen» → „Bože, chraň královnu“ (title, no wrapper; English in the footnote).
+- «gentleman» (naturalised) stays plain „gentleman/gentlemana“ (visible-corpus majority 16 vs „džentlmen-“ 8 at 2026-10-03; the workplan's „džentlmen“ sweep is still an open item, not applied here).
+- Marie's French verse (038.0122 epistle to the aunt; 039.0025, 0027; «Revue de Nice» 039.0166–0184): rhymed Czech doggerel, one verse line per source line, no wrapper; stanzas without a natural rhyme may stay near-literal.
+
 ### Bigre / Bigre de bigre — carnet 055
 - Translation (Czech): U sta hromů / U sta hromů hromských
 - Context: Continues 053; Marie's recurring mild oath
