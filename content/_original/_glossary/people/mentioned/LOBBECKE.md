@@ -20,3 +20,6 @@ An officer-like acquaintance of Rome who corresponds with Marie's mother, follow
 
 %% GLO_LOBBECKE.0003 %%
 %% 2026-10-03T12:00:00 RSR: 1876-03-05 (055): "suivis de Loëbecke" at the Piazza di Siena. 1876-06-09 (062): writes to maman that he is about to get leave, as she goes to Schlangenbad. 1876-07-22 (064): maman writes that he and Yssayevitch are Marie's "vrais fidèles". 1876-08-16 (064): "Löbbecke est tout à fait assidu auprès de Dina. Alors c'est elle et pas moi". Rank and first name are not given in the diary. %%
+
+%% GLO_LOBBECKE.9300 %%
+%% 2026-10-03T15:00:00 RSR: Coverage widened after the tag audit: he is "le gros Prussien qui se nomme Loëbecke" (1876-02-26, 054), gives Marie large bouquets at the Carnival (1876-02-26, 02-29, 054) and arrives with her cousin Paul in April (1876-04-29, 059; carnets 054-059). %%
