@@ -97,6 +97,7 @@ When Marie writes in Italian/Latin/German/Russian/Spanish, or leaves a French ph
 - Exceptions: metalinguistic runs (she discusses the foreign word, a pun, her own mistake — foreign in italics + explanatory footnote), titles of works, proper names and name-like codenames (Moussia, Bijou, Belle-de-jour, Désiré), naturalised words (*chic*, *ennui*, *soirée*, *atelier*, *cocottes*, *demi-monde*…)
 - Default renderings: *Bigre!* ==By Jove!== · *Bigre de bigre!* ==By Jove, by Jove!== · *Pardi!* ==Why, of course!== · *comme il faut* ==proper== / ==well-bred== · *Ventre-Saint-Gris!* ==Devil take it!== · *Mort de ma vie!* ==Confound it!== · *Deo juvante* ==with God's help== · *secousse* ==the jolt==
 - **Superseded:** every older row below that says "keep French/Latin/Italian/German/Russian (italicized)", "==highlight== + footnote" for non-English, "kept in French" or "untranslated" (the *Bigre* and *secousse* rulings of 2026-09-29/2026-10-01 included). Rows rewritten on 2026-10-03 carry "(original → footnote, KRR 2026-10-03)"; renderings marked UNSURE are proposals awaiting the owner. French single-word realia still shown as *italic* French in rows below (e.g. *déclassée*, *amourette*, *grisette*, *marivaudage*, *table d'hôte*, *barège*, *particule*, *rapins*, *mastroquet*, *baignoire*, *panier*, *calèche*) were NOT touched — they count as naturalised/realia terms unless the owner rules otherwise.
+- Renderings used in en 009–011 (CON 2026-10-03; the Angot title per lead instruction, owner titles rule): *La Fille de Madame Angot* → *Madame Angot's Daughter* in text, Marie's French title in the footnote (already-committed 000–008, e.g. 008/1873-08-19, still carry the French title, which the planned titles touch-up pass should fix) · Offenbach's *Orphée aux enfers* → *Orpheus in the Underworld* (*Orpheus* when Marie says just "l'Orphée") · *La Grande-Duchesse* → *The Grand Duchess* · *La Belle Hélène* stays (also the English title) · *en-tout-cas* → ==umbrella-parasol== · Niçois *Sacrediou* → ==Great heavens== · *comme il faut* varied by context (==properly==, ==well-bred==, ==respectably==, ==of good standing==).
 
 ## Family & Household Terms (from Carnet 000)
 
@@ -2547,9 +2548,13 @@ When Marie writes in Italian/Latin/German/Russian/Spanish, or leaves a French ph
 - Notes: Carnet 020 Jul 2
 
 ### Miserere (recurring)
-- Translation: ==*Miserere*== (highlight + footnote)
+- Translation: ==Have mercy!== in the text, footnote `In Latin in the original: *Miserere !*` (first occurrence per entry) — (original → footnote, KRR 2026-10-03)
 - Context: Latin "Have mercy" (Psalm 51); Marie's recurring exclamation of despair
-- Notes: Carnet 020 Jun 7, Jun 29; footnote on first use per entry: "Latin, 'Have mercy' (Psalm 51)"
+- Notes: Carnet 020 Jun 7, Jun 29. Ruling (2026-10-03, CON, en 012–014 review): the exclamation is ==Have mercy!== (tree count at ruling: "Have mercy!/." 9, "Lord, have mercy!" 1 in 002/1873-02-20 — outlier left for the lead, not swept; ~16 *Miserere* still in italics in carnets not yet through the wave). The noun use ("sing a *Miserere* with variations", 012/1873-11-17) names the chant and stays *Miserere*, plain italics.
+
+### sapristi (recurring oath)
+- Translation: ==good heavens== (capitalised when it opens a sentence), footnote `In French in the original: *sapristi*` — (original → footnote, KRR 2026-10-03)
+- Notes: Ruling (2026-10-03, CON, en 012–014 review): tree count at ruling, before the wave reaches those carnets: "good heavens" 5 (056, 078, 087, 105 ×2), "Good Lord" 2 (048/1875-11-05, 092), "for heaven's sake" 2 (048/1875-11-04, 105/1884-08-01), *Sapristi* kept in French 2 (049, 053). New conversions use "good heavens"; already-translated instances are not retro-swept (ED default). 012/1873-11-10 "my *sapristi* instead of 'dogs'" → my "==good heavens==" instead of "dogs". The joke names "comtesses de Sapristi" (014/1873-12-27, "Countesses of Good-Heavens") and "M. and Mme Sapristi" (014/1873-12-25, a nickname) are names, not the tic.
 
 ### comme il faut (Carnet 020)
 - Translation: proper / of proper appearance
