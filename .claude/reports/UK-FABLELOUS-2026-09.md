@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. Phase 2 done: 000–081. Next: 082 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. **Phase 2 DONE: 000–097 (082–097 finished 2026-10-03 by the local wave-uk session: Sonnet FAB workers + Opus CON on every changed entry).** Former next step: 082 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -116,6 +116,25 @@ splicescan clean, verify-carnet PASS. |
 | 080 | calque 2 | 25b9dbe1 | 48 (~41 changed) | 240 | RED: 82% better / 15% neutral / 3% worse, 7 fixed | — |
 | 081 | calque 2 | e162fd9f | 47 (43 changed) | ~290 | RED: 78% better / 20% neutral / 2% worse, 4 fixed | reviewer: «приймати за» is normative Ukrainian (SUM), not a Russianism — agents should not swap it |
 | (tree) | TM-lock sweep | 382b9887 | 028, 078, 091 | 8 | — | Єтьєн → Етьєн, Latin-ó Попóль → Пополь |
+
+| 082 | calque 2 | 4ad985110 | all | 21 | CON 81/14/5, 4 adjusted | Sonnet FAB + Opus CON (2026-10-03) |
+| 083 | calque 2 | 91531f1d6 | all | 17 | CON 70/24/6, 1 reverted; 0556 print-glitch tail trimmed (source cut) | Sonnet FAB + Opus CON (2026-10-03) |
+| 084 | calque 2 | d3aaef58a | all | 33 | CON 70/15/15, 5 adjusted; 0455 stale line removed (source cut) | Sonnet FAB + Opus CON (2026-10-03) |
+| 085 | calque 2 | 85669d6bc | all | 22 | CON 75/20/5, guessed «!!» reverted | Sonnet FAB + Opus CON (2026-10-03) |
+| 086 | calque 2 | 83750f5db | all | 35 | CON 69/17/14, 3 adj + 2 reverted | Sonnet FAB + Opus CON (2026-10-03) |
+| 087 | calque 2 | f7bc38887 | all | 19 | CON 74/21/5; Популь→Пополь ×6; 1879-12-23 splice rejoined | Sonnet FAB + Opus CON (2026-10-03) |
+| 088 | calque 2 | a3a316ceb | all | 34 | CON 70/24/6, 2 reverted; TM Soutzo row → Олександр | Sonnet FAB + Opus CON (2026-10-03) |
+| 089 | calque 2 | 59e0587b6 | all | 32 | CON 72/16/12, 5 adjusted | Sonnet FAB + Opus CON (2026-10-03) |
+| 090 | calque 2 | d0dfe508b | all | 12 | CON 75/25/0; uncle Александр→Олександр ×7 | Sonnet FAB + Opus CON (2026-10-03) |
+| 091 | calque 2 | ab3098cb9 | all | 29 | CON 76/17/7, 2 adjusted | Sonnet FAB + Opus CON (2026-10-03) |
+| 092 | calque 2 | aa3e6c7d3 | all | 30 | CON 70/25/3; splices 0215/0234 rejoined; 0336 reverted | Sonnet FAB + Opus CON (2026-10-03) |
+| 093 | calque 2 | 93b495c5f | all | 54 | CON 72/21/7, 4 adjusted; Караджорджевич ×2 | Sonnet FAB + Opus CON (2026-10-03) |
+| 094 | calque 2 | b4e0be685 | all | 20 | CON 75/25/0 | Sonnet FAB + Opus CON (2026-10-03) |
+| 095 | calque 2 | b9c7c193f | all | 14 | CON 79/14/7, 1 adjusted | Sonnet FAB + Opus CON (2026-10-03) |
+| 096 | calque 2 | 6ce7fa4a4 | all | 18 | CON 55/25/20, 3 adj + 3 reverted | Sonnet FAB + Opus CON (2026-10-03) |
+| 097 | calque 2 | c18dc5fc3 | all | 21 | CON 60/35/5, 1 adjusted | Sonnet FAB + Opus CON (2026-10-03) |
+
+**Lesson (2026-10-03):** the Sonnet worker's most frequent error was labelling standard Ukrainian as calque/Russianism (мати вигляд, однаково, вмирущий, пустий, вираховує, струс, кінець кінцем, бувши, дрож); Opus CON reverted where the replacement was worse. Also 068 «невзлюбили» → «незлюбили» (1f499f8f6).
 
 ## Findings (other uk work)
 
