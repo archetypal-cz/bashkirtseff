@@ -59,6 +59,7 @@ These override older per-carnet entries below where they conflict.
   9. Marie's own variants follow the French per occurrence («Baschkirseff» stays as she wrote it, declined).
   10. Remaining Czech-ised private names (Anastacijevič, Pachtenko, Cernitsky, Abaza…) → Marie's form, declined.
 - ~~Karagjorgjevič~~ / ~~Čumakov~~ / ~~Musja~~ (2026-10-01 locks): SUPERSEDED by option B above.
+- **Struck-text labels** (owner ruling 2026-10-03): words with content „[Škrtnuto: …]"; without content „[Škrtnutá slova]" / „[Škrtnuté slovo]"; whole lines „[Škrtnut 1 řádek]", „[Škrtnuty 2–4 řádky]", „[Škrtnuto 5+ řádků]" (digits; text after a colon if the French adds it). Only where the French says «cancellé(e)s»: „Zrušen/Zrušeny/Zrušeno N řádek/řádky/řádků", „[Zrušená slova]", „[Zrušeno: …]". Combined French labels («rayées et noircies») stay combined.
 - **la maréchale** (owner ruling KRR 2026-10-01): „maršálová" (not maršálka/maréchála); le maréchal = maršál.
 - **English-run note** (lead 2026-10-01, option a): first paragraph of a run carries „Pozn. překl.: V originále anglicky (tento a N následujících odstavců)."; single paragraph „Pozn. překl.: V originále anglicky."
 - **Gavini** (2026-10-01, majority form; owner may overrule): Gavini, paní Gaviniová, Gaviniovi, s Gaviniovými (not Gavinov-).
