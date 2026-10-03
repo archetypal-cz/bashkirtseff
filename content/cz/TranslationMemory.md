@@ -1830,3 +1830,12 @@ These override older per-carnet entries below where they conflict.
 - ~~The opposite convention (foreign phrase kept in `==highlight==` + Czech in the footnote) for short Italian and Latin code-switches~~ — superseded 2026-10-03 (KRR): ALL foreign runs are Czech in the text, original in the footnote.
 
 %% 2026-09-07T20:45:00 CON: Added carnet 018 rulings after the full conductor pass (Mačenka, Nejencov, Huba, plaščanice, tag parity, English-passage direction, and the open question of Czech-ised vs. French-kept Russian surnames). %%
+
+### Reading-conventions wave 043–045 (CON 2026-10-03)
+- *steeple-chase* (Marie's English, 043/09-10, figurative „C'est un steeple-chase, ma tante“) → `==dostih s překážkami==` + footnote. Recorded (2026-10-03, CON), not a lock: corpus of highlighted renderings 007 „velký překážkový dostih“ ×1, 012 „dostihy s překážkami“ ×1, 018 „překážkových dostizích“ ×1, 043 „dostih s překážkami“ ×1; 029 keeps naturalised plain „steeplechase“ for the race itself (narration). Either „dostih s překážkami“ or „překážkový dostih“ is fine; no sweep.
+- *ô miseria !* (044/09-25) is **Italian**, not Latin → `==ó bído!==`, footnote „V originále italsky“.
+- *tutti quanti* → `==všechny do jednoho==` (030, 045; consistent).
+- *Mi confido in Dio* → `==Důvěřuji v Boha==`; *lime will show* (Marie's slip for *time*) → `==čas ukáže==`, footnote „tak v textu; zřejmě *time*“.
+- *Sic factae sumus !* → `==Tak jsme stvořeny!==` (feminine noted in the footnote).
+- Titles without an established Czech title stay in the original, italics, gloss footnote worded „doslova …“ (never „Česky …“, which suggests an established title): *Le Procès Veauradieux* (also bare *Veauradieux* where Marie writes only that), *Mémoires du maréchal duc de Richelieu*, *Jean le cocher*, song *Madame l'Archi-duchesse*. Established Czech titles stay Czech: „Krásná Helena“, „Dcera paní Angotové“, *Marie u hrobu* (Italian *le Marie al sepoloro*, sic, in the footnote).
+- Sung lines exchanged in dialogue (045/09-28 Galula song): the whole sung turn goes in „…“, including any „řekl X“ that belongs to the song text.
