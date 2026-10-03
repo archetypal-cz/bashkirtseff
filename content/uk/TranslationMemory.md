@@ -1357,14 +1357,14 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 #### Latin & Multilingual Conventions (Carnet 037)
 | Passage | Convention | Notes |
 |---------|-----------|-------|
-| Quem spes delusit, huic querela convenit (Phaedrus) | ==Кого надія зрадила, тому належить скарга== (original → footnote (KRR 2026-10-03)) | Marie garbles ("Qucm...dclusit") quoting from memory — preserve garbling, footnote correct form |
-| querela mihi convenit | ==мені належить скарга== (original → footnote (KRR 2026-10-03)) | Marie adapts Phaedrus to first person |
+| Quem spes delusit, huic querela convenit (Phaedrus) | ==Кого ошукала надія, тому й нарікати годиться== (original → footnote (KRR 2026-10-03); CON 2026-10-03: replaces the stiff «Кого надія зрадила, тому належить скарга», applied 037) | Marie garbles ("Qucm...dclusit") quoting from memory — preserve garbling, footnote correct form |
+| querela mihi convenit | ==мені й годиться нарікати== (original → footnote (KRR 2026-10-03); CON 2026-10-03: replaces «мені належить скарга») | Marie adapts Phaedrus to first person |
 | Veni, vidi, vici | ==Прийшов, побачив, переміг== (original → footnote (KRR 2026-10-03)) | Caesar; ironic for romantic conquest |
 | dubiae nobilitatis | ==сумнівного шляхетства== (original → footnote (KRR 2026-10-03)) | "of doubtful nobility" |
-| Quem spem delusit... (later, correct form) | ==Кого надія зрадила…== (original → footnote (KRR 2026-10-03)) | Same maxim, less garbled in 037.0143 |
-| Quid evenit? / Amor et spes... / Dies Irae (lacrimosa dies illa...) | ==Що сталося? / Любов і надія… / День гніву (день сліз той…)== (Marie's own sentences + requiem hymn) (original → footnote (KRR 2026-10-03)) | Final all-Latin entry (July 31); Marie's own sentences + requiem hymn; preserve error "mie" for "pie" |
-| Anima, coraggio! / tanto ero in fretta... (Italian) | ==Душе, відвага! / я так поспішав…== (original → footnote (KRR 2026-10-03)) | Self-exhortation; Italian inserts |
-| partenza del facchino di Nizza (Italian) | ==від'їзд носія з Ніцци== (original → footnote (KRR 2026-10-03)) | Contemptuous "departure of the porter of Nice" for Audiffret |
+| Quem spem delusit... (later, correct form) | ==Кого ошукала надія, тому й нарікати годиться== (original → footnote (KRR 2026-10-03); CON 2026-10-03) | Same maxim, less garbled in 037.0143 |
+| Quid evenit? / Amor et spes... / Dies Irae (lacrimosa dies illa...) | ==Що сталося? / Любов і надія, вічні суперниці, раз у раз нас бентежать. Ми молоді й відважні. / Сповнений сліз той день, коли з попелу воскресне… грішна людина, щоб стати на суд. Тож пощади, Боже.== (original → footnote (KRR 2026-10-03); CON 2026-10-03) | Final all-Latin entry (July 31); her "mie" (pie? mihi?) quoted verbatim in the footnote, not rendered in the text |
+| Anima, coraggio! / tanto ero in fretta... (Italian) | ==Мужайся, душе! / так я поспішала писати, нарікати== (original → footnote (KRR 2026-10-03); CON 2026-10-03: replaces «Душе, відвага!» and the masculine «поспішав») | Self-exhortation; Italian inserts |
+| partenza del facchino di Nizza (Italian) | ==від'їзд ніццького носія== (original → footnote (KRR 2026-10-03); CON 2026-10-03) | Contemptuous "departure of the porter of Nice" for Audiffret |
 | Cap de Biou! (Niçois/Provençal) | ==Кап-де-Біу!== (original → footnote (KRR 2026-10-03)) | Minced oath, lit. "head of an ox" (biòu = ox), softening "Cap de Diou"; NOT Gascon "Head of God" (RSR correction 2026-10-01); (cf. "Кап-де-Б'ю!" in 033; the Niçois original spelling now goes in the footnote) |
 | unlucky (English) | ==нещасливий== (original → footnote) | Marie's habitual English emotional insertion |
 | J. V. A. = Je Vous Aime | Я. В. К. + footnote | Audiffret's coded biscuit-letters; render as Ukrainian initials (Я Вас Кохаю), footnote the cipher |
@@ -1460,10 +1460,10 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | faire son entrée dans le monde | вийти у світ | Society debut |
 
 #### Multilingual & Manuscript Conventions (Carnet 039)
-- Latin "vox faucibus exit" (Virgil) → ==голос застряє в горлі==; Italian "Il fiato mi manca!" → ==Мені забракло подиху!==; originals → footnote
+- Latin "vox faucibus exit" (Virgil) → ==голос застряє в горлі==; Italian "Il fiato mi manca!" → ==Мені бракує подиху!== (CON 2026-10-03: present, as in the Italian); originals → footnote
 - English code-switches (pleasantly enough → ==досить приємно==, deliciously → ==чудово==, Blackprince → «Блекпринс» (name)): Ukrainian in the text, English → footnote
 - French exclamation in a dream (Vive la Reine): ==Хай живе королева!==, French → footnote
-- German terms (Kursaal, Kurhaus): see the rows — «курзал» in the text, German → footnote
+- German terms (Kursaal, Kurhaus): see the rows — naturalised «курзал» in the text, NOT ==highlighted== (CON 2026-10-03); German only in an explanatory footnote on first use
 - Russian patronymic address (Maria Stepanovna, Nadejda Stepanovna): render as Маріє/Надіє Степанівно
 - "Diadia" (Russ. uncle): ==Дядя== + footnote on first use (Russian original)
 - "Obeziana": «Обезіана» (a nickname — name), footnote on first use, italic thereafter
@@ -1557,10 +1557,10 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | sale monde | простолюд | Low-class people (pejorative) |
 
 #### Multilingual & Cultural Conventions (Carnet 038)
-- English code-switches (money, money, money → ==гроші, гроші, гроші==, These are the questions → ==Ось які питання==, awfully expressive → ==страшенно виразно==, gentleman → ==джентльмен==, bustle → ==метушня==, God save the Queen → ==Боже, бережи королеву==): Ukrainian in the text, English → footnote (KRR 2026-10-03)
+- English code-switches (money, money, money → ==гроші, гроші, гроші==, These are the questions → ==Ось які питання==, awfully expressive → ==страшенно виразно==, gentleman → ==джентльмен==, bustle → ==метушня==, God save the Queen → «Боже, бережи королеву» (a title: established Ukrainian title, no ==…==, English in footnote)): Ukrainian in the text, English → footnote (KRR 2026-10-03)
 - Russian (Marie's diminutive "Moussia"/"Muся"): a nickname = name, kept «Муся» (cf. Муся, 023); Russian original → footnote on first use
-- Latin (Miserere → ==Змилуйся==, Nec plus → ==Ні кроку далі== (UNSURE: *nec plus ultra* is also naturalised), Requiem delectabile [sic] → ==Приємний спочинок== [sic] → footnote with the mock-Latin original): Ukrainian in the text, Latin → footnote
-- Italian Dante-style (A moi veniva la creatura bella. Di bianco vestita): Ukrainian rendering in the text (==…==), Italian → footnote; later in-text echo "di bianco vestita" → Ukrainian, unmarked
+- Latin (Miserere → ==Змилуйся==, Nec plus → ==понад це — нічого== (Ruling 2026-10-03, CON: replaces the UNSURE «Ні кроку далі»; the worker's «Далі нікуди» rejected — in Ukrainian it means "it can't get any worse"; corpus: 1 occurrence, 038/1875-08-10), Requiem delectabile [sic] → ==Приємний спочинок== [sic] → footnote with the mock-Latin original): Ukrainian in the text, Latin → footnote
+- Italian Dante-style (A moi veniva la creatura bella. Di bianco vestita): Ukrainian rendering in the text (==…==), Italian → footnote; later in-text echo "di bianco vestita" → Ukrainian ==вбрана в біле==, no second footnote
 - French song/opera titles: titles of works — Ukrainian title in the text with French title in the footnote: "Ma belle Girofla" (Lecocq operetta), «Річард Левине Серце» (Grétry, *Richard Cœur de Lion*)
 - Marot-style begging verse & Richard-Cœur-de-Lion parody verse: rendered as free verse keeping cadence/tone; rhyme not fully reproduced
 - Allusions footnoted: Buckingham/Anne d'Autriche (Dumas), Fouquet/Vaux-le-Vicomte, Clément Marot
