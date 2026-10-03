@@ -2605,3 +2605,19 @@ Surfaced by the consolidation pass; **decided canon** + which committed carnets 
 | **Hecht** | **«Гехт»** (decl. Гехта) | German H→Г; never «Ехт» |
 | **Doucet** | **«Дусе»** (indeclinable) | never «Дюсе»/«Дуссе» |
 | **le père X** (familiar, older man) | **«старий X»** by default; **«батечко X»** only where Marie is ironic | **«отець»** only for priests. Supersedes the ironic-default rows above (2305 «батечко Родольф» stays where ironic; 2494, 2590). |
+
+## Struck-text labels (owner ruling 2026-10-03)
+
+French census (`content/_original`, visible lines): «[Rayé: …]» ×817 dominates struck words; whole lines are mostly «[N lignes cancellées]» (~180), with «rayée(s)»/«barrée(s)» (~40) used for the same thing, and «Mots rayés/cancellés» used interchangeably. Rayé / cancellé / barré is transcriber variation, not a systematic distinction, so uk keeps **one** verb per unit, the majority one in the tree: words → *викреслено*, lines → *закреслено*. Always capitalised (the tree was not consistent about lowercase mid-sentence).
+
+| Source | Ukrainian | Rule |
+|---|---|---|
+| Rayé: … / Mot(s) rayé(s)/cancellé(s): … / Barré: … | **«[Викреслено: …]»** | struck words with content; no «Викреслені слова:», «Закреслено:», «Слово закреслено:» |
+| Mot(s) rayé(s)/cancellé(s) (no content) | **«[Слово викреслено]»**, **«[Слова викреслено]»** | |
+| N mots …, Quelques mots … | **«[Одне слово / Два (Три, Чотири) слова / П'ять слів / Кілька слів викреслено]»** | count kept; content after a colon kept |
+| Ligne(s) cancellée(s)/rayée(s)/barrée(s) | **«[Рядок закреслено]»**, **«[Рядки закреслено]»** | no count |
+| N lignes … | **«[Один рядок / Два (Три, Чотири) рядки / П'ять… рядків / Кілька рядків закреслено]»** | impersonal *закреслено*, never «закреслені рядки» |
+| Une ligne et demie / N lignes et demie | **«[Півтора рядка закреслено]»**, **«[Два з половиною рядка закреслено]»** | fractional numerals take gen. sg. |
+| Rayé et cancellé, noirci, «Замазано», «затерті» | unchanged | separate categories, out of scope |
+
+Applied 2026-10-03 (CON sweep, Python on visible lines; 605 labels in 403 files, 79 carnets; file list in ~/rebuild-state/wave/struck-label-files.txt). **Not yet applied** to uk 045, 046, 051 and 103, which another agent was editing at the time. Also left as is: compound labels such as 016/1874-02-02 «[Слова закреслені. Закреслено: …]» and 090/1880-10-03 «[Два рядки викреслено й один замазано: …]».
