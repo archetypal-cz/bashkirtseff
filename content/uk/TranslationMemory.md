@@ -1374,6 +1374,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | Anima, coraggio! / tanto ero in fretta... (Italian) | ==Мужайся, душе! / так я поспішала писати, нарікати== (original → footnote (KRR 2026-10-03); CON 2026-10-03: replaces «Душе, відвага!» and the masculine «поспішав») | Self-exhortation; Italian inserts |
 | partenza del facchino di Nizza (Italian) | ==від'їзд ніццького носія== (original → footnote (KRR 2026-10-03); CON 2026-10-03) | Contemptuous "departure of the porter of Nice" for Audiffret |
 | Cap de Biou! (Niçois/Provençal) | ==Кап-де-Біу!== (original → footnote (KRR 2026-10-03)) | Minced oath, lit. "head of an ox" (biòu = ox), softening "Cap de Diou"; NOT Gascon "Head of God" (RSR correction 2026-10-01); (cf. "Кап-де-Б'ю!" in 033; the Niçois original spelling now goes in the footnote) |
+| Cap de Diou! (Niçois/Occitan, unsoftened, NOT flagged by Marie as Nice speech) | ==Боже праведний!== (Occitan → footnote: «В оригіналі окситанською (ніццький діалект): «Cap de Diou !» — божіння, дослівно «Голова Божа!».») | **Ruling (2026-10-03, CON uk 061–063).** Grep before ruling: _original *Cap de Diou* ×1 (063/1876-07-15, 063.0333; the 037 hit is an RSR note); uk ×1, worker rendered ==Кап-де-Діу!== (transliteration, not a translation) → replaced. Unflagged Diou oaths are translated, like uk 060 *San Diou de Diou* → ==Святий Боже, Боже!== and 071 *Buon Diou dé Diou* → ==Добрий Боже, Боже!==; en «Heavens above!». Oaths Marie flags as Nice speech keep their Niçois form (row of CON uk 030–032). The locked *Cap de Biou* → ==Кап-де-Біу!== row above is untouched; the owner may want one treatment for all Niçois oaths (already an owner item). |
 | unlucky (English) | ==нещасливий== (original → footnote) | Marie's habitual English emotional insertion |
 | J. V. A. = Je Vous Aime | Я. В. К. + footnote | Audiffret's coded biscuit-letters; render as Ukrainian initials (Я Вас Кохаю), footnote the cipher |
 | "Lui"/"Il" capitalized for Hamilton | «Він»/«Нього» (capitalized) | Quasi-divine reverence; keep capitalized |
@@ -1741,7 +1742,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 | arrondir les angles | згладжувати гострі кути | To smooth over awkward facts |
 | poitrinaire | чахоточний | Tuberculosis (period term; reconfirmed from TM phtisie/сухоти) |
 | fiacre | фіакр | Hired carriage/cab |
-| Gloriae cupiditate | *Gloriae cupiditate* (footnote: «Латиною: «З жадоби слави»») | Latin motto "by desire for glory"; Marie's personal device. **Mottoes: original Latin in italics, translation in the footnote, no ==…==** (lead ruling for the reading-conventions wave, 2026-10-03, aligned with en and uk 032; applied uk 053/01-25, 01-26, 01-27 — CON uk 052–054). Owner item still open (WORKPLAN "mottoes … or translate?"); earlier ==З жадоби слави== in uk 063/070 and ==Сміливо й любовно== in 036 await realignment in the motto sweep |
+| Gloriae cupiditate | *Gloriae cupiditate* (footnote: «Латиною: «З жадоби слави»») | Latin motto "by desire for glory"; Marie's personal device. **Mottoes: original Latin in italics, translation in the footnote, no ==…==** (lead ruling for the reading-conventions wave, 2026-10-03, aligned with en and uk 032; applied uk 053/01-25, 01-26, 01-27 — CON uk 052–054; also when the motto runs inside a sentence, e.g. 062/06-25 «ця *gloriae cupiditate*...» — CON uk 061–063, worker's ==жадоба слави== reverted). **Self-glossed foreign lines** (CON uk 061–063, lead ruling): where Marie translates a Latin/Italian line herself right after it, the original stays in italics, no ==…==, no second Ukrainian version (062/06-18-19 *Amans ita ut fax…*, 062/07-03 *Amor decrescit…*, the 8-line song 062/06-24 ¶0678 followed by her own translation ¶0679; *Amor otiosae…* likewise); a line she only paraphrases loosely (*Es sotia mortis…*, 062/06-18-19) is translated, as in en. Owner item still open (WORKPLAN "mottoes … or translate?"); earlier ==З жадоби слави== in uk 063/070 and ==Сміливо й любовно== in 036 await realignment in the motto sweep |
 
 #### Multilingual Conventions (Carnet 061)
 - "hamiltonnement" → "гамільтоново" (coined adverb; do NOT translate literally as "по-гамільтонськи" which is clumsier)
@@ -1786,7 +1787,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 
 ### Carnet 063 Multilingual Conventions
 - "Caccia-Club" — Italian club name; keep as-is (no translation)
-- "Gloriae cupiditate" (para 063.DROPPED-0500) — ==З жадоби слави==, Latin → footnote
+- "Gloriae cupiditate" (para 063.DROPPED-0500) — ==З жадоби слави==, Latin → footnote. STALE (CON uk 061–063, 2026-10-03): no such paragraph in uk/063 after the rebuild (grep: 0 hits); the motto row (Latin italics + footnote) governs.
 - "[His] Grace [the] D[uke] of H[amilton]" (para 063.DROPPED-0500) — abbreviated English cipher; code abbreviation kept (UNSURE), full form explained in the footnote
 - "[mots rayés]" / "[deux mots rayés]" — manuscript crossed-out words: render as "[слова закреслено]" / "[два слова закреслено]"
 - Manuscript "Pietro*" asterisk — Marie's own code-marker; always preserve
