@@ -114,6 +114,7 @@ Check `TranslationMemory.md` for established translations of:
 Marie frequently code-switches between French, English, Italian, and Russian:
 
 - **English passages in the French original**: Keep as-is — mark with ==highlight== and footnote "*In English in the original*"
+- **Marie's English is never corrected** (owner ruling 2026-10-03): keep her wording exactly, even odd or wrong words ("the Whites are quite *lauded*"); discuss the likely meaning and possibilities in a footnote ("*lauded* — probably for 'laughed at'; or a slip for 'derided'…"). Earlier passes sometimes silently normalised her English — restore it when found.
 - **Everything else foreign — French phrases, Italian, Latin, Russian, German** (owner ruling 2026-10-03, supersedes keeping French terms in italics): translate into English in the running text, mark with ==highlight==, footnote with Marie's original (`In French in the original: *le dernier cri*.`). Exceptions: words naturalised in English (*chic*, *ennui*, *toilette* in the dress sense is NOT naturalised — translate), names, titles, puns. See `content/CLAUDE.md` → "Foreign-language passages".
 
 ## Editor / review traps (English)

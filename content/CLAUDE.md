@@ -112,7 +112,9 @@ en:  …it was ==the height of fashion==[^12]…
 - Editorial marks attached to a foreign run (`[sic]`, `(sic)`) move into the footnote with the original. Transcription slips in `_original` (*Dco juvante*): quote as in `_original` and add the intended form (`tak v textu; zřejmě Deo`).
 - Metalinguistic runs (Marie discusses the foreign word itself — grammar, her own mistake, a pun) stay foreign, in italics, with an explanatory footnote.
 - Footnote marker sits right after the closing `==`, before punctuation: `==…==[^n],`. Footnote definitions follow the file's existing placement (after the paragraph's last comment line, or at the end of the file) — never inside a `%%` comment or between a text line and its trailing comments.
-- Exceptions: words fully naturalised in the reading language (cz *flirt*, *toaleta*; en *chic*, *ennui*), proper names, titles of works, and quotations whose point is the foreign wording (e.g. a pun) — keep and explain in the footnote if needed.
+- **Titles of works** (owner ruling 2026-10-03): use the established title in the reading language when the work has one (cz „Maškarní ples“, „Náměsíčná“; uk «Бал-маскарад»; en *A Masked Ball*), original title in the footnote; if no established translation exists, keep the original title (plain italics, not `==…==`) with a translated gloss in the footnote. Titles are never `==…==`.
+- *table d'hôte* is naturalised (owner 2026-10-03) — stays, all trees.
+- Exceptions: words fully naturalised in the reading language (cz *flirt*, *toaleta*; en *chic*, *ennui*), proper names, and quotations whose point is the foreign wording (e.g. a pun) — keep and explain in the footnote if needed.
 - An existing footnote that already holds the translation becomes the footnote holding the original; never leave both a foreign run in text and a translation footnote.
 
 
