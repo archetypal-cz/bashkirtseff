@@ -1041,18 +1041,18 @@ They need AI translation into French.
 - **051/1875-12-27.md** para 051.0032 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "partiro" - I will leave; code-switching for emotional effect %%
 - **051/1875-12-28.md** para 051.0068 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Miserere" - have mercy; liturgical reference, mock-religious tone %%
 - **051/1875-12-29.md** para 051.0105 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Dio lo sa" - God knows; code-switching for dramatic effect %%
-- **051/1875-12-31.md** para 051.0226 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from satirical novel about Nice society - "Mrs Bodgers attained the summit of her ambition in Nice" %%
-- **051/1876-01-01.md** para 051.0288 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN (from opera Mignon, Italian version) - "Tomorrow I will leave, I am far from you" - Marie sings farewell %%
-- **051/1876-01-01.md** para 051.0292 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Addio dunque, tutti quanti" - farewell then, everyone; operatic flourish %%
-- **051/1876-01-02.md** para 051.0335 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN reference "Tu quoque" - "You too, Brutus?"; Caesar covering his face when betrayed %%
-- **051/1876-01-02.md** para 051.0345 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN title "Orlando furioso" by Ariosto - Renaissance epic poem; Marie's literary reading %%
-- **051/1876-01-04.md** para 051.0372 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "palazzo" - palace; Roman aristocratic residence %%
-- **051/1876-01-04.md** para 051.0372 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "misera me" - woe is me; operatic exclamation %%
-- **051/1876-01-04.md** para 051.0386 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "In nomine Patris, Filii et Spiritus Sancti" - In the name of the Father, Son, and Holy Spirit; mock-religious blessing for dreaded marriage %%
-- **051/1876-01-05.md** para 051.0393 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Orsu" - well then/come now; conversational Italian %%
-- **051/1876-01-05.md** para 051.0412 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from Byron's "Childe Harold's Pilgrimage" Canto IV - famous Romantic description of the Colosseum %%
-- **051/1876-01-06.md** para 051.0422 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "E brutto ma e tutto buono, tutto grazioso" - He is ugly but all good, all gracious; popular saying about King Victor Emmanuel II %%
-- **051/1876-01-08.md** para 051.0449 [LATIN]: %% 2026-02-02T12:05:00 LAN: "i.e." - LATIN id est (that is); Marie's educated abbreviation %%
+- **051/1875-12-31.md** para 051.0224 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from satirical novel about Nice society - "Mrs Bodgers attained the summit of her ambition in Nice" %%
+- **051/1876-01-01.md** para 051.0286 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN (from opera Mignon, Italian version) - "Tomorrow I will leave, I am far from you" - Marie sings farewell %%
+- **051/1876-01-01.md** para 051.0290 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Addio dunque, tutti quanti" - farewell then, everyone; operatic flourish %%
+- **051/1876-01-02.md** para 051.0333 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN reference "Tu quoque" - "You too, Brutus?"; Caesar covering his face when betrayed %%
+- **051/1876-01-02.md** para 051.0343 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN title "Orlando furioso" by Ariosto - Renaissance epic poem; Marie's literary reading %%
+- **051/1876-01-04.md** para 051.0370 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "palazzo" - palace; Roman aristocratic residence %%
+- **051/1876-01-04.md** para 051.0370 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "misera me" - woe is me; operatic exclamation %%
+- **051/1876-01-04.md** para 051.0384 [LATIN]: %% 2026-02-02T12:05:00 LAN: LATIN "In nomine Patris, Filii et Spiritus Sancti" - In the name of the Father, Son, and Holy Spirit; mock-religious blessing for dreaded marriage %%
+- **051/1876-01-05.md** para 051.0391 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "Orsu" - well then/come now; conversational Italian %%
+- **051/1876-01-05.md** para 051.0410 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH quotation from Byron's "Childe Harold's Pilgrimage" Canto IV - famous Romantic description of the Colosseum %%
+- **051/1876-01-06.md** para 051.0420 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN "E brutto ma e tutto buono, tutto grazioso" - He is ugly but all good, all gracious; popular saying about King Victor Emmanuel II %%
+- **051/1876-01-08.md** para 051.0447 [LATIN]: %% 2026-02-02T12:05:00 LAN: "i.e." - LATIN id est (that is); Marie's educated abbreviation %%
 - **052/1876-01-10.md** para 052.0020 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "signor" - Italian title Mr./Sir %%
 - **052/1876-01-10.md** para 052.0021 [ITALIAN]: %% 2026-02-02T12:05:00 LAN: ITALIAN: "maestro" - master (music teacher) %%
 - **052/1876-01-10.md** para 052.0036 [ENGLISH]: %% 2026-02-02T12:05:00 LAN: ENGLISH: "unprotected" - Marie switches to English for emphasis %%
