@@ -11,7 +11,7 @@ Carnets with >150 changed lines get a fresh-context reviewer (RED comments, % be
 
 ## Resume here
 
-Phase 1 (098–106) DONE. **Phase 2 DONE: 000–097 (082–097 finished 2026-10-03 by the local wave-uk session: Sonnet FAB workers + Opus CON on every changed entry).** Former next step: 082 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
+Phase 1 (098–106) DONE. **Phase 2 DONE: 000–097.** 082–097: Sonnet calque pass + **Opus re-pass (owner decision 2026-10-03, per the skill: polish runs on Opus)**, Opus CON on every change; marker `fablelous-opus 2026-10-03`. Former next step: 082 upward, waves of 6 (push after each wave — `git pull --rebase` needs a clean tree). Lead's helper scripts live in the session scratchpad (lost with the container); the per-carnet brief = the routine prompt's agent section. Running: —
 
 ## Done
 
@@ -133,6 +133,26 @@ splicescan clean, verify-carnet PASS. |
 | 095 | calque 2 | b9c7c193f | all | 14 | CON 79/14/7, 1 adjusted | Sonnet FAB + Opus CON (2026-10-03) |
 | 096 | calque 2 | 6ce7fa4a4 | all | 18 | CON 55/25/20, 3 adj + 3 reverted | Sonnet FAB + Opus CON (2026-10-03) |
 | 097 | calque 2 | c18dc5fc3 | all | 21 | CON 60/35/5, 1 adjusted | Sonnet FAB + Opus CON (2026-10-03) |
+
+| 082 | calque 2 OPUS re-pass | 3f8f81d9d | all | 72 | CON Opus: 3 adjusted/reverted | 2026-10-03 |
+| 083 | calque 2 OPUS re-pass | 31318d3f3 | all | 74 | CON Opus: 3 adjusted/reverted | 2026-10-03 |
+| 084 | calque 2 OPUS re-pass | c4f805f07 | all | 35 | CON Opus: 1 adjusted/reverted | 2026-10-03 |
+| 085 | calque 2 OPUS re-pass | 2dbfe02e5 | all | 56 | CON Opus: 1 adjusted/reverted | 2026-10-03 |
+| 086 | calque 2 OPUS re-pass | 4daf9c980 (merge) | all | 86 | CON Opus: 3 adjusted/reverted | 2026-10-03 |
+| 087 | calque 2 OPUS re-pass | 922457f65 | all | 149 | CON Opus: 1 adjusted/reverted | 2026-10-03 |
+| 088 | calque 2 OPUS re-pass | f756136ba | all | 99 | CON Opus: 2 adjusted/reverted | 2026-10-03 |
+| 089 | calque 2 OPUS re-pass | 83abadbf8 | all | 73 | CON Opus: 5 adjusted/reverted | 2026-10-03 |
+| 090 | calque 2 OPUS re-pass | dbab9d171 | all | 119 | CON Opus: 3 adjusted/reverted | 2026-10-03 |
+| 091 | calque 2 OPUS re-pass | b092246af | all | 72 | CON Opus: 1 adjusted/reverted | 2026-10-03 |
+| 092 | calque 2 OPUS re-pass | 9882661b8 | all | 70 | CON Opus: 4 adjusted/reverted | 2026-10-03 |
+| 093 | calque 2 OPUS re-pass | 5201670a0 | all | 135 | CON Opus: 0 adjusted/reverted | 2026-10-03 |
+| 094 | calque 2 OPUS re-pass | 85d57475e | all | 134 | CON Opus: 4 adjusted/reverted | 2026-10-03 |
+| 095 | calque 2 OPUS re-pass | 7eb424aca | all | 67 | CON Opus: 1 adjusted/reverted | 2026-10-03 |
+| 096 | calque 2 OPUS re-pass | 8342b1eb7 | all | 57 | CON Opus: 2 adjusted/reverted | 2026-10-03 |
+| 097 | calque 2 OPUS re-pass | d0d756a6b | all | 60 | CON Opus: 1 adjusted/reverted | 2026-10-03 |
+
+Opus re-pass total ≈1,360 changes (Sonnet pass ≈380); CON kept ≈97%. Real meaning errors fixed incl. 084.0467 (parole d'honneur reversed), 085.0016 (horns sent), 088.0121/0337/0441, 090.0600/0176/0491, 092 offrir/revenu/pattes, 093.0288/0359, 094.0205/0344/0365, 095.0064/0348, 097.0123. Follow-up: «розбещена» for *enfant gâtée* ×3 (009, 064, 091) → «розпещена» (ea50e72e5).
+Open (for owner/other trees): 095.0343 *mon Dieu vous voyez* — CON reads it as the reader («ви»), cz reads God; 093.0131 footnote [^93.154.1] about «I!» points at nothing; 089/1880-07-01 [^rpjulian] missing in uk+cz; 090.0200–0206/0472–0473 and 097.0228–0229 lack `> ` quote markers vs _original; cz/084/1879-03-14 still has the reversed «čestné slovo, že ne»; cz+fr 084.0054 stale `> `.
 
 **Lesson (2026-10-03):** the Sonnet worker's most frequent error was labelling standard Ukrainian as calque/Russianism (мати вигляд, однаково, вмирущий, пустий, вираховує, струс, кінець кінцем, бувши, дрож); Opus CON reverted where the replacement was worse. Also 068 «невзлюбили» → «незлюбили» (1f499f8f6).
 
