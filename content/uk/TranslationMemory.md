@@ -2268,7 +2268,7 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 ### Names & forms (Carnet 088)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Soutzo (= Casimir/Bézadé/Alexandre) | Соутцо (Казимир / Безаде / Александр) | Phanariot/Romanian princely suitor. Locked spelling «Соутцо» (134× consistent in 088); no prior lock — letter-by-letter, kept for internal consistency. «Bézadé/Bezadea» (son of a reigning prince) → «Безаде», kept as title-name. «Casimir» = Marie's pet name → «Казимир». |
+| Soutzo (= Casimir/Bézadé/Alexandre) | Соутцо (Казимир / Безаде / Олександр) | Phanariot/Romanian princely suitor. Locked spelling «Соутцо» (134× consistent in 088); no prior lock — letter-by-letter, kept for internal consistency. «Bézadé/Bezadea» (son of a reigning prince) → «Безаде», kept as title-name. «Casimir» = Marie's pet name → «Казимир». |
 | Paul Bashkirtseff (father, Poltava) | Поль Башкирцев | TRAP: 088.0468 "A M. Paul Bashkirseff, Poltava" = Marie's FATHER, NOT Paul de Cassagnac. Source spells surname «Bashkirseff» (Latin, as written); UK = «Башкирцев». |
 | le Défunt / mon frère (= Cassagnac) | Покійний / мій брат | TRAP: dead-relationship conceit for the (living) Cassagnac, NOT real mourning. He appears alive in Le Gaulois & 06-18 same period. «мій брат» = Baudelaire-echo spiritual-kin sense, not blood. |
 | Mgr. Viard | монсеньйор Віар | CON fix: "Mgr."=Monseigneur (Catholic prelate). «преподобний» is Orthodox-monastic (wrong register) — use «монсеньйор» for fr. Monseigneur. |
