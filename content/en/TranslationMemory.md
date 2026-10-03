@@ -2551,6 +2551,14 @@ When Marie writes in Italian/Latin/German/Russian/Spanish, or leaves a French ph
 - Translation: ==Have mercy!== in the text, footnote `In Latin in the original: *Miserere !*` (first occurrence per entry) — (original → footnote, KRR 2026-10-03)
 - Context: Latin "Have mercy" (Psalm 51); Marie's recurring exclamation of despair
 - Notes: Carnet 020 Jun 7, Jun 29. Ruling (2026-10-03, CON, en 012–014 review): the exclamation is ==Have mercy!== (tree count at ruling: "Have mercy!/." 9, "Lord, have mercy!" 1 in 002/1873-02-20 — outlier left for the lead, not swept; ~16 *Miserere* still in italics in carnets not yet through the wave). The noun use ("sing a *Miserere* with variations", 012/1873-11-17) names the chant and stays *Miserere*, plain italics.
+- Ruling (2026-10-03, CON, en 015–017 review): *triple Miserere !* / *double miserere* → the repeated cry, ==Have mercy, have mercy, have mercy!== / ==Have mercy, have mercy!== (tree count at ruling: repetition form 1 in 024/1874-10-03; "Triple have mercy!" 2 + "Double have mercy" 2 in 015/016 worker drafts, all swept to the repetition form). *Miserere, triple Miserere !* (015/1874-01-14) → ==Have mercy! Have mercy, have mercy, have mercy!== The noun use "mon triple miserere" ("I was in the midst of saying my triple *Miserere*", 015/1874-01-13) follows the noun/chant rule above and stays *Miserere*. *Quel miserere !* → What a ==lament==! (015/1874-01-14). Footnotes quote Marie's exact form of the first occurrence (*Miserere.* / *Miserere !* / *Triple miserere !*), with the gloss "the opening word of Psalm 51 (*Miserere mei, Deus*), Marie's habitual cry of woe".
+
+### Miséricorde ! (exclamation)
+- Translation: ==Mercy!==, footnote `In French in the original: *Miséricorde !*` — (original → footnote, KRR 2026-10-03)
+- Notes: Ruling (2026-10-03, CON, en 015–017 review): tree count at ruling: "Mercy!" 2 (016/1874-02-21 converted; 018/1874-04-15 already translated, unmarked), "Mercy me!" 1 (018/1874-03-30, in the uncommitted 018 batch — align to "Mercy!" there). Not to be confused with the Latin *Miserere* (==Have mercy!==).
+
+### bataclan / fin-bataclan / genre-duc / le grand galop (en 015–016)
+- Translation: *bataclan* → ==crowd== (see the bataclan row; one footnote per entry); *le fin-bataclan* → ==the pick of the crowd== (015/1874-01-24); *genre-duc* (a carriage) → ==a sort of duc==, footnote glosses the *duc* as a light, low open carriage (016/1874-01-28); *le grand galop* → ==the full gallop== (016/1874-01-31; Marie's own English "have a good galop" next to it stays verbatim) — (original → footnote, KRR 2026-10-03)
 
 ### sapristi (recurring oath)
 - Translation: ==good heavens== (capitalised when it opens a sentence), footnote `In French in the original: *sapristi*` — (original → footnote, KRR 2026-10-03)
