@@ -135,6 +135,12 @@
       "other": "Hoja insertada",
       "cover": "Cubierta del cuaderno",
       "editorial": "Nota de los editores"
+    },
+    "mark": {
+      "struck": "tachado",
+      "blacked": "ennegrecido",
+      "margin": "en el margen",
+      "across": "escrito de través"
     }
   },
   "footer": {
@@ -528,6 +534,7 @@
     "submitShortcut": "o pulsa {keys}",
     "reasons": {
       "bad_translation": "Mala traducción",
+      "missing_tag": "Falta una etiqueta (persona, lugar, tema…)",
       "unnatural": "Formulación poco natural",
       "missing_text": "Texto ausente o truncado",
       "wrong_language": "Idioma incorrecto / texto corrupto",
@@ -537,6 +544,7 @@
     },
     "placeholders": {
       "bad_translation": "¿Qué debería decir en su lugar?",
+      "missing_tag": "¿Qué etiqueta falta? (p. ej., el nombre de una persona o un lugar)",
       "unnatural": "¿Cómo lo formularías de forma más natural?",
       "missing_text": "¿Qué texto falta o está cortado?",
       "wrong_language": "¿Qué parte está en el idioma incorrecto?",

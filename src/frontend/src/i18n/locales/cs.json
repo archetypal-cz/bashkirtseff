@@ -136,6 +136,12 @@
       "other": "Vložený list",
       "cover": "Obálka sešitu",
       "editorial": "Poznámka editorů"
+    },
+    "mark": {
+      "struck": "škrtnuto",
+      "blacked": "začerněno",
+      "margin": "na okraji",
+      "across": "napříč stránkou"
     }
   },
   "footer": {
@@ -538,6 +544,7 @@
     "submitShortcut": "nebo stiskněte {keys}",
     "reasons": {
       "bad_translation": "Špatný překlad",
+      "missing_tag": "Chybí štítek (osoba, místo, téma…)",
       "unnatural": "Nepřirozená formulace",
       "missing_text": "Chybějící nebo oříznutý text",
       "wrong_language": "Špatný jazyk / zkomolený text",
@@ -547,6 +554,7 @@
     },
     "placeholders": {
       "bad_translation": "Jak by to mělo být správně?",
+      "missing_tag": "Který štítek chybí? (např. jméno osoby nebo místa)",
       "unnatural": "Jak byste to formulovali přirozeněji?",
       "missing_text": "Jaký text chybí nebo je oříznutý?",
       "wrong_language": "Která část je v nesprávném jazyce?",

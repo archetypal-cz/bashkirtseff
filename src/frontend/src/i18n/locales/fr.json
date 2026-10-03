@@ -135,6 +135,12 @@
       "other": "Pièce insérée",
       "cover": "Couverture du carnet",
       "editorial": "Note des éditeurs"
+    },
+    "mark": {
+      "struck": "rayé",
+      "blacked": "noirci",
+      "margin": "dans la marge",
+      "across": "en travers"
     }
   },
   "footer": {
@@ -528,6 +534,7 @@
     "submitShortcut": "ou appuyez sur {keys}",
     "reasons": {
       "bad_translation": "Mauvaise traduction",
+      "missing_tag": "Étiquette manquante (personne, lieu, thème…)",
       "unnatural": "Formulation peu naturelle",
       "missing_text": "Texte manquant ou tronqué",
       "wrong_language": "Mauvaise langue / texte corrompu",
@@ -537,6 +544,7 @@
     },
     "placeholders": {
       "bad_translation": "Comment devrait-on le formuler ?",
+      "missing_tag": "Quelle étiquette manque ? (p. ex. un nom de personne ou de lieu)",
       "unnatural": "Comment le formuleriez-vous plus naturellement ?",
       "missing_text": "Quel texte manque ou est coupé ?",
       "wrong_language": "Quelle partie est dans la mauvaise langue ?",

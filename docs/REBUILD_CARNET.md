@@ -511,6 +511,16 @@ and in a translation:
   side; each opens with a small label in the reading language ("Coupure de
   presse · Le Figaro, 12 février 1877"). Styles: `src/frontend/src/styles/global.css`
   (`.para-kind-*`), labels `paragraph.kind.*` in the locale files.
+- Struck-out and marginal text (owner ruling 2026-10-03): the bracketed
+  `[Rayé: …]` / `[Škrtnuto: …]` / `[Na okraji: …]` / `[Mots noircis: …]` /
+  `[En travers: …]` markers (any tree, any prefix variant) never show their
+  bracket and prefix. Inline, struck and blacked-out words render as `<del>`
+  of the words only; margin and across notes keep a tiny label. A `rayé` or
+  `margin` paragraph (or a paragraph that is one such marker) is a compact
+  block: up to 5 words on one line and no `source` = just struck through, no
+  label; anything longer gets a small lowercase label ("škrtnuto · source").
+  Code: `src/frontend/src/lib/text-markers.ts`, `wrapMarkBlock` in
+  `paragraph-kind.ts`, labels `paragraph.mark.*`. Content keeps the markers.
 
 ## Drawings
 

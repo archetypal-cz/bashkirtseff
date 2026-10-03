@@ -76,6 +76,47 @@ beforeAll(async () => {
   );
 });
 
+beforeAll(() => {
+  write(
+    'cz',
+    '902',
+    '1875-10-09',
+    'translation_complete: true\n',
+    [
+      '%% 902.0001 %%',
+      '%% kind: rayé %%',
+      '%% [Rayé: Samedi 9 octobre 1875] %%',
+      '[Škrtnuto: Sobota 9. října 1875]',
+      '',
+      '%% 902.0002 %%',
+      '%% kind: rayé %%',
+      '%% [Rayé: Ma tête est lourde et mon œil se ferme, %%',
+      '%% Et cependant je continue d\'écrire] %%',
+      '[Škrtnuto: Má hlava těžkne a mé oko se klíží, / a přesto dál píši]',
+      '',
+      '%% 902.0003 %%',
+      '%% kind: rayé source="brouillon rayé, fin du cahier 43" %%',
+      '[Škrtnuto: Měl jsem příbuzného]',
+      '',
+      '%% 902.0004 %%',
+      '%% kind: margin %%',
+      '[Na okraji: Můj nos je jako dřív.]',
+      '',
+      '%% 902.0005 %%',
+      'Brání mi vykonat nějaký skvělý [Škrtnuto: ==čin==] skutek a [Rayé: exploit] [Začerněná slova: dva dny] [Na okraji: poznámka].',
+      '',
+      '%% 902.0006 %%',
+      '[Napříč stránkou: Georges dal panu Prodgersovi políček.][^1]',
+      '',
+      '%% 902.0007 %%',
+      '%% kind: rayé %%',
+      '[Škrtnuto: A vracím se k sobě, ztracený konec',
+      '',
+      '[^1]: Pozn.',
+    ].join('\n'),
+  );
+});
+
 afterAll(() => {
   vi.restoreAllMocks();
   fs.rmSync(tmpRoot, { recursive: true, force: true });
@@ -121,7 +162,9 @@ describe('content.ts', () => {
     expect(p.html).not.toContain('&gt;');
     const r = getEntry('901', '1877-02-12', 'original')!.paragraphs.find(x => x.id === '901.0003')!;
     expect(r.kind).toBe('rayé');
-    expect(r.html).toContain('<del class="para-kind-body">');
+    // A short struck passage: just struck through, its label for screen readers only
+    expect(r.html).toContain('<del class="para-kind-body para-kind-body-struck">Je ne dirai rien.</del>');
+    expect(r.html).toContain('<span class="para-kind-label sr-only">');
   });
 
   it('keeps the marker out of a translation\'s embedded French and wraps the translation', () => {
@@ -322,5 +365,67 @@ describe("a run's language in its label", () => {
     expect(entry.paragraphs[0].kindRun!.labelText).toBe('Газетна вирізка · Galignani · англійською');
     expect(entry.paragraphs[1].kindBodyHtml).toContain('href="#fn-1"');
     expect(entry.footnotes.map(f => f.id)).toEqual(['1']);
+  });
+});
+
+describe('manuscript markers (owner ruling 2026-10-03)', () => {
+  const para = (id: string) => getEntry('902', '1875-10-09', 'cz')!.paragraphs.find(x => x.id === id)!;
+
+  it('renders a short struck paragraph as plain strikethrough: no prefix, no visible label', () => {
+    const html = para('902.0001').html;
+    expect(html).toContain('<del class="para-kind-body para-kind-body-struck">Sobota 9. října 1875</del>');
+    expect(html).toContain('para-kind-label sr-only');
+    expect(html).not.toContain('Škrtnuto:');
+    expect(html).not.toContain('para-kind-label-mini');
+    expect(html).not.toContain('Přeškrtnutá pasáž');
+  });
+
+  it('titles an entry that opens with a struck date line without the marker', () => {
+    expect(getEntry('902', '1875-10-09', 'cz')!.title).toBe('Sobota 9. října 1875');
+  });
+
+  it('gives a longer struck paragraph a small lowercase label instead of the heading', () => {
+    const html = para('902.0002').html;
+    expect(html).toContain('<span class="para-kind-label para-kind-label-mini"><span class="para-kind-name">škrtnuto</span></span>');
+    expect(html).toMatch(/<del class="para-kind-body para-kind-body-struck">Má hlava/);
+    expect(html).not.toContain('[');
+    // the French face shows the same passage struck, without its prefix
+    expect(para('902.0002').originalHtml).toMatch(/^<del class="mark mark-struck" data-mark="struck" title="rayé">Ma tête/);
+  });
+
+  it('labels a struck paragraph that has a source, even a short one, with the source', () => {
+    const html = para('902.0003').html;
+    expect(html).toContain('para-kind-label-mini');
+    expect(html).toContain('<cite class="para-kind-source">brouillon rayé, fin du cahier 43</cite>');
+    expect(html).toContain('>Měl jsem příbuzného</del>');
+  });
+
+  it('shows a marginal note under a small label, not struck', () => {
+    const html = para('902.0004').html;
+    expect(html).toContain('<span class="para-kind-name">na okraji</span>');
+    expect(html).toContain('<div class="para-kind-body">Můj nos je jako dřív.</div>');
+    expect(html).not.toContain('<del');
+  });
+
+  it('renders inline struck words as <del> alone, French prefixes included, and keeps margin notes labelled', () => {
+    const html = para('902.0005').html;
+    expect(html).toContain('<del class="mark mark-struck" data-mark="struck" title="škrtnuto"><span class="foreign-text">čin</span></del> skutek');
+    expect(html).toContain('<del class="mark mark-struck" data-mark="struck" title="škrtnuto">exploit</del>');
+    expect(html).toContain('<del class="mark mark-blacked" data-mark="blacked" title="začerněno">dva dny</del>');
+    expect(html).toContain('<span class="mark mark-margin" data-mark="margin"><span class="mark-label">na okraji</span> poznámka</span>');
+    expect(html).not.toMatch(/\[(Škrtnuto|Rayé|Začerněná slova|Na okraji):/);
+  });
+
+  it('treats a paragraph without a kind that is one marker like a kind block, footnote kept', () => {
+    const html = para('902.0006').html;
+    expect(html).toMatch(/^<div class="para-kind para-kind-margin para-kind-compact para-kind-mark-across"/);
+    expect(html).toContain('<span class="para-kind-name">napříč stránkou</span>');
+    expect(html).toContain('<div class="para-kind-body">Georges dal panu Prodgersovi políček.</div><sup>');
+  });
+
+  it('drops the prefix of a struck paragraph whose bracket was never closed', () => {
+    const html = para('902.0007').html;
+    expect(html).toContain('<del class="para-kind-body para-kind-body-struck">A vracím se k sobě, ztracený konec</del>');
+    expect(html).not.toContain('Škrtnuto:');
   });
 });

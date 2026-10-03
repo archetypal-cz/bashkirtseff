@@ -16,6 +16,7 @@ declare const __GIT_COMMIT__: string;
 
 export type ReportReason =
   | 'bad_translation'
+  | 'missing_tag'
   | 'unnatural'
   | 'missing_text'
   | 'wrong_language'

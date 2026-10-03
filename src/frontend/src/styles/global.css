@@ -622,6 +622,73 @@ footer.site-footer {
     text-decoration-thickness: 1px;
   }
 
+  /* Compact struck-out / marginal block (lib/paragraph-kind.ts wrapMarkBlock):
+     a small lowercase note instead of the kind heading, none at all for a
+     short struck passage. */
+  .para-kind-compact {
+    margin: 0;
+  }
+
+  .para-kind-label-mini {
+    margin-bottom: 0.1rem;
+    font-size: 0.68em;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    text-transform: none;
+  }
+
+  .para-kind-compact .para-kind-body-struck,
+  .para-kind-compact .para-kind-body-blacked {
+    display: block;
+    color: var(--text-secondary);
+    text-decoration: line-through;
+    text-decoration-color: color-mix(in srgb, var(--text-muted) 70%, transparent);
+    text-decoration-thickness: 1px;
+  }
+
+  /* Blacked-out words (deciphered by the editors): a soft ink wash, not a line */
+  .para-kind-compact .para-kind-body-blacked,
+  .mark-blacked {
+    text-decoration: none;
+    background: color-mix(in srgb, var(--text-muted) 16%, transparent);
+    border-radius: 2px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  /* Inline struck-out words inside running text: just struck, no label */
+  .mark-struck {
+    color: var(--text-secondary);
+    text-decoration: line-through;
+    text-decoration-color: color-mix(in srgb, var(--text-muted) 75%, transparent);
+    text-decoration-thickness: 1px;
+  }
+
+  .mark-blacked {
+    color: var(--text-secondary);
+    padding: 0 0.1em;
+  }
+
+  /* Inline marginal / across-the-page note: a tinted aside with a tiny label */
+  .mark-margin,
+  .mark-across {
+    color: var(--text-secondary);
+    font-size: 0.92em;
+    padding: 0 0.2em;
+    border-radius: 2px;
+    background: color-mix(in srgb, var(--bg-secondary) 80%, transparent);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  .mark-label {
+    font-family: var(--font-sans);
+    font-size: 0.72em;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: var(--text-muted);
+  }
+
   /* Marginal note: set off to the side, smaller */
   .para-kind-margin {
     margin-left: 1.5rem;

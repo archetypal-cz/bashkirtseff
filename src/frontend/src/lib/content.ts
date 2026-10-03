@@ -36,9 +36,10 @@ import { THEME_SUBCATEGORIES } from './glossary-categories';
 import { escapeHtml, renderOriginalHtml } from './original-html';
 import {
   findKind, inlineNoteLanguages, isQuotedKind, kindBodyHtml, kindKey, kindLabelInnerHtml, kindLabelText, kindRuns,
-  languageNoteRest, noteLanguage, parseKindLine, stripLanguageNotes, stripQuoteMarkers, wrapKindHtml, type ParagraphKind,
+  languageNoteRest, noteLanguage, parseKindLine, stripLanguageNotes, stripQuoteMarkers, wrapKindHtml, wrapMarkBlock, type ParagraphKind,
 } from './paragraph-kind';
 import { numberFootnotes } from './footnote-numbers';
+import { marksToPlainText, renderMarks } from './text-markers';
 import { normalizeDrawings, type EntryDrawing } from './drawings';
 import { applyTypography, typographyLocaleFor } from './typography';
 import { createT, contentPathToLocale } from '../i18n/astro';
@@ -544,7 +545,8 @@ function computeEntry(carnetId: string, entryId: string, language: string = 'ori
     carnet: carnetId,
     language,
     date,
-    title: title.replace(/^#\s*/, ''),
+    // A struck date line (`[Škrtnuto: Sobota 9. října 1875]`) titles the entry without its marker
+    title: marksToPlainText(title.replace(/^#\s*/, '')).trim(),
     content,
     paragraphs: numbered.paragraphs,
     footnotes: numbered.footnotes,
@@ -692,6 +694,13 @@ function applyKinds(
   };
   for (const run of kindRuns(paragraphs)) {
     const { kind, kindSource } = run[0];
+    if (run.length === 1 && (!kind || kind === 'rayé' || kind === 'margin')) {
+      // Struck-out passage, marginal note, or a paragraph that is one such marker
+      const p = run[0];
+      const block = wrapMarkBlock(p.html, kind, kindSource, language, h => applyTypography(h, typoLocale));
+      if (block) p.html = block;
+      continue;
+    }
     if (!kind) continue;
     const { lang, fromNotes, noteIds, trimmedNotes } = run.length > 1
       ? runLanguage(run, footnotes, tagsOf)
@@ -927,7 +936,9 @@ function processTextToHtml(text: string, lang: string = 'original'): { html: str
     return { html: `<span class="untranslated">${TODO_DISPLAY}</span>`, footnoteRefs: [] };
   }
 
-  let html = text
+  // Manuscript markers first ([Rayé: x] → <del>x</del>, [Na okraji: x] → small
+  // label + x; lib/text-markers.ts): their inner text is rendered by the passes below.
+  let html = renderMarks(text, lang)
     // Convert # heading to HTML heading (entry date headers)
     .replace(/^#\s+(.+)$/gm, '<h2 class="entry-date-heading">$1</h2>')
     // Convert ## / ### sub-headings to block headings (sub-date headers in
@@ -936,8 +947,10 @@ function processTextToHtml(text: string, lang: string = 'original'): { html: str
     // (user report 000.0002).
     .replace(/^###\s+(.+)$/gm, '<h4 class="entry-section-heading">$1</h4>')
     .replace(/^##\s+(.+)$/gm, '<h3 class="entry-section-heading">$1</h3>')
-    // Convert ==text== to highlighted span (foreign language)
-    .replace(/==([^=]+)==/g, '<span class="foreign-text">$1</span>')
+    // Convert ==text== to highlighted span (foreign language). Tags are
+    // skipped whole: a rendered marker inside (`==a [Rayé: b] c==`) has `=` in
+    // its attributes.
+    .replace(/==((?:[^=<]|<[^>]*>)+)==/g, '<span class="foreign-text">$1</span>')
     // Convert [^id] to footnote link (supports both "1" and "00.03.1" formats)
     .replace(/\[\^([^\]]+)\]/g, (_, id) => {
       if (!footnoteRefs.includes(id)) {
@@ -2971,7 +2984,11 @@ export function getEntryPreview(carnetId: string, entryId: string, language: str
     // An untranslated paragraph shows French: not a preview of the translation
     if (paragraph.untranslated) continue;
     // Strip footnote references like [^01.128.1] from preview text
-    const text = paragraph.text.replace(/\[\^[^\]]+\]/g, '').trim();
+    const raw = paragraph.text.replace(/\[\^[^\]]+\]/g, '').trim();
+    // A struck-out passage or marginal note is not the entry's opening
+    if (paragraph.kind === 'rayé' || paragraph.kind === 'margin' || paragraph.kind === 'editorial') continue;
+    // Manuscript markers: struck words go, margin notes lose their bracket
+    const text = /^\[.*\]$/s.test(raw) ? raw : marksToPlainText(raw).trim();
 
     // Skip empty, very short, TODO placeholders, or header-like content
     if (!text || text.length < 20 || text === 'TODO') {
@@ -2986,7 +3003,7 @@ export function getEntryPreview(carnetId: string, entryId: string, language: str
       // Markdown headings (date headers, section titles)
       continue;
     }
-    if (/^\[.*\]$/.test(text)) {
+    if (/^\[.*\]$/s.test(text)) {
       // Editorial notes in brackets
       continue;
     }

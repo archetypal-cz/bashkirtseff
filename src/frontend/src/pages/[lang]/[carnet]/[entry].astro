@@ -7,6 +7,7 @@ import { DIARY_LANGUAGES, buildHreflangAlternates, type DiaryLanguageConfig } fr
 import { createT } from '../../../i18n/astro';
 import { withTrailingSlash } from '../../../lib/url';
 import { placeDrawings } from '../../../lib/drawings';
+import { htmlToPlainText } from '../../../lib/text-markers';
 
 export function getStaticPaths() {
   const paths: { params: { lang: string; carnet: string; entry: string }; props: { lang: DiaryLanguageConfig } }[] = [];
@@ -66,7 +67,7 @@ const processedParagraphs = entry.paragraphs.map(({ originalText: _raw, ...p }) 
 const firstParaIsDateHeading = entry.paragraphs[0]?.html?.includes('entry-date-heading') ?? false;
 // Avoid duplicating the date when the first body paragraph already opens with it
 // (common in uk/en where the date is the first line but lacks the `#` heading marker).
-const firstParaPlain = (entry.paragraphs[0]?.html ?? '').replace(/<[^>]*>/g, '').trim();
+const firstParaPlain = htmlToPlainText(entry.paragraphs[0]?.html ?? '');
 const titlePlain = (entry.title ?? '').trim();
 const firstParaIsDateLine =
   titlePlain.length > 0 &&
@@ -116,10 +117,16 @@ const pageDate = entryDate!.endsWith('-cover')
 // NB: the `+ '...'` must live INSIDE the ternary — `expr + '...' || ''` parses
 // as `(expr + '...') || ''`, so an empty entry produced the literal
 // "undefined..." (truthy). Empty/untranslated entries now get a clean prefix.
-const plainParagraphs = entry.paragraphs.filter(p => !p.untranslated).map(p => ({
-  isHeading: /<h[1-6][\s>]/.test(p.html ?? ''),
-  text: (p.html ?? '').replace(/<sup\b[^>]*>.*?<\/sup>/g, '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim(),
-}));
+// Struck-out passages, marginal and editors' notes are not the entry's opening;
+// struck words and block labels are dropped from the rest (lib/text-markers.ts).
+const plainParagraphs = entry.paragraphs
+  .filter(p => !p.untranslated && p.kind !== 'rayé' && p.kind !== 'margin' && p.kind !== 'editorial'
+    // a paragraph that is one whole marker, rendered as a compact block (paragraph-kind.ts wrapMarkBlock)
+    && !(p.html ?? '').includes('para-kind-compact'))
+  .map(p => ({
+    isHeading: /<h[1-6][\s>]/.test(p.html ?? ''),
+    text: htmlToPlainText(p.html ?? ''),
+  }));
 const descCandidates = plainParagraphs.filter(p =>
   !p.isHeading && p.text.length > 0 && p.text !== 'TODO' &&
   !(titleDate.length > 0 && p.text.startsWith(titleDate) && p.text.length <= titleDate.length + 2),
@@ -179,7 +186,7 @@ const diaryLabel = lang.isTranslation ? t('diary.diary') : 'Journal';
     language: lang.urlPath,
     paragraphs: processedParagraphs.map(p => ({
       id: p.id,
-      text: p.html.replace(/<[^>]*>/g, '').slice(0, 60),
+      text: htmlToPlainText(p.html).slice(0, 60),
     })),
   }) }}>
     window.__entryHistoryData = JSON.parse(__historyJSON);

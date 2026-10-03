@@ -15,10 +15,14 @@
  *                                  would point nowhere)
  *   [text](url) links            → their text only
  *   `> ` quote markers           → dropped (clipping/letter kind)
+ *   [Rayé: x], [Dans la marge: x] → <del>x</del>, small label + x
+ *                                  (lib/text-markers.ts)
  *   dialogue lines (— / – / "- ")→ line break before each turn
  *   blank line                   → paragraph gap
  *   other line breaks            → a space (soft wraps)
  */
+
+import { markSentinels, sentinelsToHtml } from './text-markers';
 
 const ESCAPES: Record<string, string> = {
   '&': '&amp;',
@@ -47,13 +51,13 @@ function renderInline(text: string): string {
 }
 
 export function renderOriginalHtml(markdown: string): string {
-  const blocks = markdown
+  const blocks = markSentinels(markdown)
     .replace(/\r\n?/g, '\n')
     .split(/\n[ \t]*\n+/)
     .map(block => block.trim())
     .filter(Boolean);
 
-  return blocks
+  const html = blocks
     .map(block => {
       // `> ` quotes a clipping or letter; the translation face draws the quote
       const lines = block.split('\n').map(l => l.trim().replace(/^>\s?/, '')).filter(Boolean);
@@ -73,4 +77,5 @@ export function renderOriginalHtml(markdown: string): string {
       return html;
     })
     .join('<br><br>');
+  return sentinelsToHtml(html, 'original');
 }

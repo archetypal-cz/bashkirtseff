@@ -34,6 +34,8 @@ const apple = ref(false);
 
 const reasons: ReportReason[] = [
   'bad_translation',
+  // Owner ruling 2026-10-03: a missing glossary tag is a common report, listed prominently
+  'missing_tag',
   'unnatural',
   'missing_text',
   'wrong_language',

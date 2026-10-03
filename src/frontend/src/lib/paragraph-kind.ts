@@ -15,6 +15,7 @@
  */
 import { createT, contentPathToLocale } from '../i18n/astro';
 import { escapeHtml } from './original-html';
+import { markLabel, unclosedOpening, unwrapWholeMark, type MarkType } from './text-markers';
 
 export type ParagraphKind = 'clipping' | 'letter' | 'rayé' | 'margin' | 'cover' | 'editorial' | 'other';
 
@@ -238,4 +239,52 @@ export function wrapKindHtml(
   const head = `<span class="${labelClass}">${labelInner}</span>`;
   const tag = isQuotedKind(kind) ? 'blockquote' : 'div';
   return `<${tag} class="para-kind para-kind-${key}" data-kind="${key}">${head}${kindBodyHtml(html, kind)}</${tag}>`;
+}
+
+/** Up to this many words on one line, a struck passage is just struck: no label at all */
+export const SHORT_MARK_MAX_WORDS = 5;
+const SHORT_MARK_MAX_CHARS = 40;
+
+/** Whether a block body is short enough to need no label (a word, a struck date line) */
+export function isShortMarkBody(html: string): boolean {
+  if (/<br\b|<h[1-6]\b/.test(html)) return false;
+  const text = html.replace(/<sup\b[^>]*>.*?<\/sup>/gs, '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+  return text.length <= SHORT_MARK_MAX_CHARS && text.split(' ').filter(Boolean).length <= SHORT_MARK_MAX_WORDS;
+}
+
+/**
+ * A struck-out passage or a marginal note as a compact block (owner ruling
+ * 2026-10-03): the text's own `[Rayé: …]` / `[Na okraji: …]` wrapper is
+ * dropped (it repeated the block label), a short struck passage is simply
+ * struck through with no label, and anything longer, and every marginal or
+ * across-the-page note, gets a small lowercase label ("škrtnuto · brouillon
+ * rayé, fin du cahier 43") instead of the kind heading.
+ *
+ * Applies to `rayé` and `margin` paragraphs, and to a paragraph without a kind
+ * whose whole text is one such marker. Returns null for anything else.
+ * `typo` applies the language's typography to the label.
+ */
+export function wrapMarkBlock(
+  html: string, kind: ParagraphKind | undefined, source: string | undefined, contentPath: string,
+  typo: (html: string) => string = h => h,
+): string | null {
+  if (kind && kind !== 'rayé' && kind !== 'margin') return null;
+  const whole = unwrapWholeMark(html);
+  if (!kind && !whole) return null;
+  const unclosed = whole || !kind ? null : unclosedOpening(html);
+  const type: MarkType = whole?.type ?? unclosed?.type ?? (kind === 'rayé' ? 'struck' : 'margin');
+  const struck = type === 'struck' || type === 'blacked';
+  const inner = whole ? whole.inner : unclosed ? unclosed.rest : html;
+  const key = kind ? KEY[kind] : struck ? 'raye' : 'margin';
+
+  const short = struck && !source && isShortMarkBody(inner);
+  const sep = '<span class="para-kind-sep" aria-hidden="true"> · </span>';
+  const cite = source ? `${sep}<cite class="para-kind-source">${escapeHtml(source)}</cite>` : '';
+  const labelClass = short ? 'para-kind-label sr-only' : 'para-kind-label para-kind-label-mini';
+  const label = `<span class="${labelClass}">${typo(`<span class="para-kind-name">${escapeHtml(markLabel(type, contentPath))}</span>${cite}`)}</span>`;
+  const body = struck
+    ? `<del class="para-kind-body para-kind-body-${type}">${inner}</del>`
+    : `<div class="para-kind-body">${inner}</div>`;
+  const classes = ['para-kind', `para-kind-${key}`, 'para-kind-compact', `para-kind-mark-${type}`];
+  return `<div class="${classes.join(' ')}" data-kind="${key}">${label}${body}${whole?.rest ?? ''}</div>`;
 }

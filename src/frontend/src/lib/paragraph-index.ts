@@ -31,6 +31,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { getCarnets, getCarnetEntries } from './content';
+import { marksToPlainText } from './text-markers';
 
 const CONTENT_ROOT = path.resolve(process.cwd(), '../../content');
 
@@ -57,11 +58,12 @@ const OLD_COMMENT_LINE = /^\s*\[\/\/\]:/;
  * French copy in one), footnote definitions and markers, markdown or HTML.
  */
 export function plainText(raw: string): string {
-  return raw
+  const visible = raw
     .split('\n')
     .filter(line => !FOOTNOTE_DEF.test(line) && !COMMENT_LINE.test(line) && !OLD_COMMENT_LINE.test(line))
     .join('\n')
-    .replace(/%%[\s\S]*?%%/g, ' ')            // comments (glossary tags, notes, embedded French)
+    .replace(/%%[\s\S]*?%%/g, ' ');          // comments (glossary tags, notes, embedded French)
+  return marksToPlainText(visible)           // [Rayé: x] / [Na okraji: x] markers (lib/text-markers.ts)
     .replace(/<!--[\s\S]*?-->/g, ' ')
     .replace(/<[^>]+>/g, ' ')                 // inline HTML
     .replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1') // images -> alt

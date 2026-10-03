@@ -29,7 +29,7 @@ Same pattern for status updates if `just report-status` reports "No report found
 
 - `paragraph_id` — `XXX.YYYY` (carnet.paragraph), locate with `grep -rln '%% XXX.YYYY %%' content/<lang>/XXX content/_original/XXX`
 - `language` — which translation the reader was viewing
-- `reason` — `unnatural`, `factual_error`, `other`, …
+- `reason` — `bad_translation`, `missing_tag`, `unnatural`, `missing_text`, `wrong_language`, `factual_error`, `typo`, `other` (whitelist: `ReportReason` in `src/frontend/src/lib/reports.ts`; the DB column is free text). `missing_tag` (added 2026-10-03, listed second in the form) = a person/place/theme the paragraph mentions has no glossary tag → researcher / glossary-tagger, scoped to the reported paragraph (and its carnet at most), creating the glossary entry first if none exists
 - `custom_reason` — free text, often in Czech, often from KRR himself (project owner). Treat owner reports as authoritative reviewer feedback: they override earlier TR/RED/CON decisions.
 - `highlighted_text` — the exact text the reader selected. **Check timing**: compare `created_at` against recent commits touching that carnet. If the highlighted text matches the *current* file, the report targets the current version; if it only matches an older revision, the complaint may already be fixed.
 
@@ -44,7 +44,7 @@ Same pattern for status updates if `just report-status` reports "No report found
    **Before fixing, sweep for the class.** A reported defect is usually one instance of a family: grep the same file, then the carnet, then (cheaply) the tree for the same pattern — and check the *other language trees and `_original`* at the same paragraph. Fix the whole set you find, or explicitly report what you're deferring. A fix that patches only the reported instance reads as done but isn't — that's how half-fixed files accumulate.
 2. **Evaluate** against the French original. Classify:
    - **Translation quality** (`unnatural`, meaning shifts) → translator fixes, editor verifies
-   - **Missing/wrong glossary tags** → researcher (scope tags to the explicitly reported files ONLY — never repo-wide propagation)
+   - **Missing/wrong glossary tags** (`missing_tag` reports, or tag complaints under other reasons) → researcher or glossary-tagger (scope tags to the explicitly reported files ONLY — never repo-wide propagation)
    - **Structure** ("má být nový záznam" = entry split, paragraph order) → entry-restructurer, and remember splits touch **all six versions** (_original + cz/uk/en/fr/es) plus `para_start`/`para_end` frontmatter
    - **Formatting/rendering** (markdown leaking as literal text, layout) → frontend, usually `src/frontend/src/lib/content.ts` (`processTextToHtml`, `joinClusterLines`) — fix the renderer for the whole class, not the one paragraph, and check whether content elsewhere depended on the old broken behavior (e.g. duplicated heading lines)
    - **Feature requests** (in `custom_reason`) → implement a minimal version if cheap (e.g. a glossary entry), log the broader idea in `.claude/reports/WATCHLIST.md`

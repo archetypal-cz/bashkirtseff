@@ -135,6 +135,12 @@
       "other": "Inserted item",
       "cover": "Notebook cover",
       "editorial": "Editors' note"
+    },
+    "mark": {
+      "struck": "crossed out",
+      "blacked": "blacked out",
+      "margin": "in the margin",
+      "across": "written across the page"
     }
   },
   "footer": {
@@ -527,6 +533,7 @@
     "submitShortcut": "or press {keys}",
     "reasons": {
       "bad_translation": "Bad translation",
+      "missing_tag": "Missing tag (person, place, theme…)",
       "unnatural": "Unnatural phrasing",
       "missing_text": "Missing or truncated text",
       "wrong_language": "Wrong language / garbled",
@@ -536,6 +543,7 @@
     },
     "placeholders": {
       "bad_translation": "What should it say instead?",
+      "missing_tag": "Which tag is missing? (e.g. a person or place name)",
       "unnatural": "How would you phrase it more naturally?",
       "missing_text": "What text is missing or cut off?",
       "wrong_language": "Which part is in the wrong language?",
