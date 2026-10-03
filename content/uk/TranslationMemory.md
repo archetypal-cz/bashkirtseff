@@ -1936,7 +1936,7 @@ Continuation of the father-reunion stay at Gavronci, Poltava social rounds, the 
 
 ## Carnet 067 Additions (Russia → Vienna → Paris → Nice, Oct–Dec 1876)
 
-The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris (Antonelli's death refrain, Pacha farewell, Novosselsky), the Paris political/society interlude (Cassagnac infatuation, the La Motte marriage interview, Alexis the clairvoyant), and arrival in Nice (Skating-rink debut, Maman vs Mme Tutcheff at Monaco). Closes Book with the "І цей хтось — це Я Сама!" self-reliance climax (067.1553).
+The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris (Antonelli's death refrain, Pacha farewell, Novosselsky), the Paris political/society interlude (Cassagnac infatuation, the La Motte marriage interview, Alexis the clairvoyant), and arrival in Nice (Skating-rink debut, Maman vs Mme Tutcheff at Monaco). Closes Book with the "І цей хтось — це Я Сама!" self-reliance climax (067.1562).
 
 ### People & Names (Carnet 067)
 | French | Ukrainian | Notes |
@@ -1961,7 +1961,7 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 ### Period Vocabulary & Idioms (Carnet 067)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch; ==highlight==+footnote on first use (067.1481); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
+| Skating-rink / Skating (Cercle de la Méditerranée) | ковзанка / ролердром | English code-switch; ==highlight==+footnote on first use (067.1490); roller-skating 1870s craze. «Середземноморський клуб» for the Cercle |
 | fichus-ignorants (Marie's coinage) | кляті-невігласи | per «fichu-»→«клятий-» convention (065/066) |
 | le Goloss (Russian newspaper) | «Голос» | St. Petersburg liberal paper; Russ. голос = voice |
 | Golova / Douma (Russian) | голова / дума | mayor / city-hall; Marie's linguistic aside, gloss kept |
@@ -1983,9 +1983,9 @@ The return journey: leaving Gavronci/Poltava, the train through Vienna to Paris 
 
 ### Code-Switches / Manuscript (Carnet 067)
 - Latin/Italian tags (Via e al diavolo, Chi lo sa?, Est socia mortis homini vita ingloria, Tu quoque?, Agnus Dei) → ==highlight==+footnote (per wave standard).
-- Marie's own FRENCH verses (the "veux savoir l'amour" quatrain 067.1106, the "Partant pour la Serbie" parody 067.1205, the Offenbach Belle-Hélène refrain) → rendered as Ukrainian VERSE (her own jokes, not foreign code-switches).
+- Marie's own FRENCH verses (the "veux savoir l'amour" quatrain 067.1106, the "Partant pour la Serbie" parody 067.1213, the Offenbach Belle-Hélène refrain) → rendered as Ukrainian VERSE (her own jokes, not foreign code-switches).
 - Markers [зачорнені слова:] (Mots noircis), [викреслено:]/[Викреслені слова], [На полях:], [Навскоси:] all preserved.
-- Marie's own misdated double headings on merged entries (e.g. 067.1221 «# Неділя»/«## Субота», 067.1259 «# Понеділок»/«## Неділя») — source-faithful, preserve both.
+- Marie's own misdated double headings on merged entries (e.g. 067.1229 «# Неділя»/«## Субота», 067.1267 «# Понеділок»/«## Неділя») — source-faithful, preserve both.
 - Empty/heading-only entries (10-14 → 11-08 span; heading-less: 10-18-19, 10-21-22, 10-25-26, 10-27-29, 11-02-03) match source emptiness.
 
 - 2026-06-07: Carnet 067 complete (Russia→Vienna→Paris→Nice, Oct–Dec 1876). 17 content + 20 empty entries. (tr-d run)
@@ -2075,19 +2075,19 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 ### People & Nicknames (Carnet 070)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| Larderei (comte Alessandro) | Лардерель | CANONICAL, INDECLINABLE (per 068 LOCK). 42 occurrences, 0 declined drift. His GIVEN name is the Italian Alessandro → in 070.0913 the family joke "notre cher Alexandre" = LARDEREI, rendered «наш любий Алессандро» (Italian form, italic), kept LEXICALLY DISTINCT from the uncle's «Олександр» per CON/team-lead disambiguation. NOT the uncle | — SUPERSEDED by owner lock (declined Лардерель) near top
-[SUPERSEDED 2026-10-01 by owner per-occurrence ruling: French Alexandre → «Олександр»] | Alessandro (= Larderei's given name) | Алессандро | Italian form used ONLY for the Larderei-as-given-name joke (070.0913), so it never collides with the uncle «Олександр» or the daughter «Александріна» |
+| Larderei (comte Alessandro) | Лардерель | CANONICAL, INDECLINABLE (per 068 LOCK). 42 occurrences, 0 declined drift. His GIVEN name is the Italian Alessandro → in 070.0918 the family joke "notre cher Alexandre" = LARDEREI, rendered «наш любий Алессандро» (Italian form, italic), kept LEXICALLY DISTINCT from the uncle's «Олександр» per CON/team-lead disambiguation. NOT the uncle | — SUPERSEDED by owner lock (declined Лардерель) near top
+[SUPERSEDED 2026-10-01 by owner per-occurrence ruling: French Alexandre → «Олександр»] | Alessandro (= Larderei's given name) | Алессандро | Italian form used ONLY for the Larderei-as-given-name joke (070.0918), so it never collides with the uncle «Олександр» or the daughter «Александріна» |
 | Bijou (Larderei nickname) | Біжу | Marie's pet-name for Larderei (per 068 «Біжу-бузук»); plain Bijou → «Біжу» |
 | Alexandrine (Larderei's daughter) | Александріна | His natural daughter by la Righi; French given name kept «Александріна» (distinct from uncle «Олександр» and from Larderei-as-«Алессандро») |
-| Alexandre (uncle / estate-manager) | Олександр | LOCKED (per 065/066), appears 070.0893 bringing news Maman is ill; NOT Russified «Александр». Oblique: Олександра |
+| Alexandre (uncle / estate-manager) | Олександр | LOCKED (per 065/066), appears 070.0898 bringing news Maman is ill; NOT Russified «Александр». Oblique: Олександра |
 | la Righi / Silène | Ріґі / Силена | Larderei's mistress; Sirène→Silène hotel-pun reveals her (070.0001 footnote) |
 | Melissano (prince) | Меліссано | Naples cavalier; "le faune"→«фавн» |
 | Marcuard (F. de) | Маркуар | Swiss, loyal, loves Dina; "le plus Suisse de tous"→«найшвейцарніший з усіх» |
 | Doenhoff (comte) | Денгоф | German count, warns against too much Larderei (per 068) |
 | Schininà (Eugenio) | Скініна | Sicilian baron, dei Marchesi di Sant'Elia |
-| Serra Gerace / Francesco | Серра Джераче / Франческо | Injured going to check on fallen Larderei; mother's Italian cry (070.0215) |
+| Serra Gerace / Francesco | Серра Джераче / Франческо | Injured going to check on fallen Larderei; mother's Italian cry (070.0220) |
 | Princesse Gerace | княгиня Джераче | Francesco's mother |
-| Pascarola (marquis) | Паскарола | Embeds a marriage proposal in "réflexions philosophiques" (070.0912) |
+| Pascarola (marquis) | Паскарола | Embeds a marriage proposal in "réflexions philosophiques" (070.0917) |
 | Santasiglia (marquis) | Сантасілья | 19-yo "amoureux comme Chérubin"; copies Dante's Vita Nuova sonnet |
 | Zunica / Porcinari / Caracciolo / Campomarino / Melito / Carmignano | Дзуніка / Порчінарі / Караччоло / Кампомаріно / Меліто / Карміньяно | Naples cavalier circle |
 | Roi (Vittorio Emanuele II) | Король | praises Marie "elle est excessivement jolie"; "resta découvert"→лишається з непокритою головою |
@@ -2099,7 +2099,7 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 ### Period Vocabulary & Idioms (Carnet 070)
 | French | Ukrainian | Notes |
 |--------|-----------|-------|
-| mon empereur (Larderei's catchphrase) | мій імператоре | Larderei's recurring drunken exclamation; recurs 070.0290/0071/0118/0186 |
+| mon empereur (Larderei's catchphrase) | мій імператоре | Larderei's recurring drunken exclamation; recurs 070.0295/0071/0118/0186 |
 | lazzarone / lazzaroni | лаццароне | Naples street-poor (per 068); footnote on first use |
 | Carricolo | каррікколо | overloaded Neapolitan cart; footnote |
 | gris (drunk) | напідпитку | per TM 018; "ivre mort"→«п'яний як чіп» |
@@ -2118,18 +2118,18 @@ Marie, 17, in Naples. The Larderei (Count Alessandro de Larderel) infatuation re
 | faire peau neuve | скинути стару шкіру | snake-molt image preserved |
 
 ### Multilingual / Manuscript (Carnet 070)
-- Dante quotations kept in ORIGINAL ITALIAN (with Marie's transcription errors intact), ==highlight==+footnote with UK gloss: Inferno I:37-40 (070.0085), Vita Nuova XXVI "Tanto gentile" (070.0804), Inferno I:16-18 split across 070.0840-0111 (one continuous quote — footnote on closing para), Inferno I:41 (070.0853).
-- Princess Gerace's Italian panic cry (070.0215) → kept Italian ==highlight==+footnote.
-- Italian "nebbioso" (070.0856) → kept ==highlight==+footnote.
+- Dante quotations kept in ORIGINAL ITALIAN (with Marie's transcription errors intact), ==highlight==+footnote with UK gloss: Inferno I:37-40 (070.0085), Vita Nuova XXVI "Tanto gentile" (070.0809), Inferno I:16-18 split across 070.0845-0111 (one continuous quote — footnote on closing para), Inferno I:41 (070.0858).
+- Princess Gerace's Italian panic cry (070.0220) → kept Italian ==highlight==+footnote.
+- Italian "nebbioso" (070.0861) → kept ==highlight==+footnote.
 - Latin motto "Dubium, illusio, deceptio, oppressio / Gloriae Cupiditate" (070.DROPPED-0198-0199, Marie's own) → kept Latin ==highlight==, footnote on closing line.
-- Russian code-switch "dis-je en russe" (070.0213, Marie to Maman in public) → rendered in UK narration; TR note flags the spoken line was Russian.
+- Russian code-switch "dis-je en russe" (070.0218, Marie to Maman in public) → rendered in UK narration; TR note flags the spoken line was Russian.
 - Gounod's Faust "roi de Thulé" ballad (070.0001) → rendered as UK verse (Marie sings it); Sirène/Silène pun + Lustucru + "vieux Suisse des treize cantons" footnoted.
-- La Fontaine fable allusion "Le Renard et les Raisins" (070.0884) → footnote.
+- La Fontaine fable allusion "Le Renard et les Raisins" (070.0889) → footnote.
 - Markers [Навскоси:] (En travers), [Зачорнено:] (Mots noircis), [Викреслено:] preserved.
 - The entry 1877-04-03 is a SINGLE paragraph block (070.0001, para_start=para_end=1) containing all the Sorrento dialogue/verse — translated as one block preserving internal line structure.
 - Empty trailing para_end markers (070.DROPPED-0009, 070.DROPPED-0036) omitted (no source text).
 
-- 2026-06-07: Carnet 070 complete (Naples, Sorrento excursion + Larderei affair climax, Apr 1877). 8 entries, all content. Larderei→«Лардерель» (indeclinable) and Bijou→«Біжу» reconfirmed; "mon empereur"→«мій імператоре» catchphrase established; uncle Олександр LOCK clean (070.0893); Larderei-given-name joke (070.0913) → «Алессандро», kept lexically distinct from uncle «Олександр» (per CON/team-lead disambiguation). Dante/Latin/Italian kept in original w/ footnotes; verify-equivalent manual checks pass (121 glossary links 0 drift, all footnotes paired). (tr-a run)
+- 2026-06-07: Carnet 070 complete (Naples, Sorrento excursion + Larderei affair climax, Apr 1877). 8 entries, all content. Larderei→«Лардерель» (indeclinable) and Bijou→«Біжу» reconfirmed; "mon empereur"→«мій імператоре» catchphrase established; uncle Олександр LOCK clean (070.0898); Larderei-given-name joke (070.0918) → «Алессандро», kept lexically distinct from uncle «Олександр» (per CON/team-lead disambiguation). Dante/Latin/Italian kept in original w/ footnotes; verify-equivalent manual checks pass (121 glossary links 0 drift, all footnotes paired). (tr-a run)
 
 ## Carnet 071 Additions (Naples → Florence → Nice, Apr–Jun 1877)
 
