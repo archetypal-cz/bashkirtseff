@@ -1116,7 +1116,7 @@ Owner ruling 2026-10-03 (full text: `content/CLAUDE.md` "Foreign-language passag
 - ==Хай йому грець!== (Ventre Saint-Gris!, French oath) — French → footnote
 - *Bigre!* → ==Ну й ну!== per the tree-wide tic rendering (034 uses it throughout); the 2026-09-29 RED notes in 035 aligning Bigre to «Хай йому грець» are superseded (CON 2026-10-03)
 - *Ecco !* (Italian) → ==Ну от!==; *Misera !* (Italian, of herself) → ==Бідолашна!==; *Vanitas vanitatum !* (Latin, Eccl. 1:2) → ==Суєта суєт!== (biblical Ukrainian form); original → footnote, first occurrence per entry (CON 2026-10-03)
-- *jettatore*: where the syntax wants a predicate («що він …») a periphrasis ==приносить нещастя== is fine; the noun forms in the row above stay the default (CON 2026-10-03)
+- *jettatore*: where the syntax wants a predicate («що він …») a periphrasis ==приносить нещастя== is fine; the noun forms in the row above stay the default (CON 2026-10-03). Marie's *gettattore* (070/1877-04-19, «Каллотті — відомий …») → ==наврочувач== (noun default; the worker's «носій лихого ока» aligned, CON uk 070–072)
 - *and we let me drop the subject* (her garbled English, 035/1875-07-02) → ==і ми облишили цю тему==, footnote quotes it as written + likely intent (CON 2026-10-03)
 - Bouts-rimés rhyme-word lists (*Nice, bonjour, factice, amour, Nice*) are French source text, not a code-switch: Ukrainian words in plain italics, no ==…==, French rhyme words in the footnote (CON 2026-10-03)
 - ==Його Світлість герцог Гамільтон== (H[is] G[race] t[he] D[uke] o[f] Hamilton) — Marie's obsessive English cipher; translated, English → footnote (KRR 2026-10-03; abbreviated forms: see the cipher row)
@@ -2233,18 +2233,18 @@ Marie, 17, leaves Naples; a Florence interlude stalking the Larderei family (the
 | toqué / s'est rangé | навіжений / остепенився | per TM 021; Audiffret-Larderei dialogue (071.0349-0127) |
 | dégommée | скиснути | colloquial "deflated/crushed" (071.0162) |
 | à l'Espagnole | по-іспанському | window-courtship without introduction; footnote |
-| palazzo / camera obscura | ==палаццо== / ==камера-обскура== | Italian/Latin: «палаццо» and «камера-обскура» are naturalised — kept without markup (exception); footnote if Marie's wording needs it |
+| palazzo / camera obscura | палаццо / камера-обскура (no markup) | Italian/Latin: «палаццо» and «камера-обскура» are naturalised — kept without markup (exception); footnote if Marie's wording needs it (071/1877-05-23 «в камері-обскурі», CON 2026-10-03) |
 | Veglione | ==бал-маскарад== | carnival masked ball (per 068); Ukrainian in the text, Italian → footnote |
-| Skating / Skating-rink | ==ковзанка== | English code-switch (per 067/068/070) → Ukrainian in the text; footnote on 1st use (071.0017) |
+| Skating / Skating-rink | ==ковзанка== | English code-switch (per 067/068/070) → Ukrainian in the text; footnote on 1st use per file (071.0017). **Ruling (2026-10-03, CON uk 070–072)**: *le Skating* is a common noun (the local roller rink — Marie uses it for the rinks of Naples, Florence, Nice and Paris: «le Skating florentin»), not a venue name, so the names rule does not apply: ==ковзанка== + «В оригіналі англійською: «Skating».» on first use per file, also inside her letters. Grep at ruling (uk visible text): 070–072 all ==ковзанка== (≈40 incl. 3 runs missed in letters); ==Skating== still visible in 069 (8, other reviewer's batch), 075/1877-10-29 «Скейтинг», 087/1879-12-23 ==skating== — convert in their waves. NB the «KRR 2026-10-03» tag on the other Skating rows comes from the generic TM-supersede pass (921d470d4f), not a specific owner ruling — owner may still prefer the name treatment. |
 | comprenette | кебета | slang for wits/intelligence |
 | sérail / ennuque | сераль / євнух | harem joke (071.0541) |
 | la queue basse | з опущеним хвостом | per TM 019 |
 | poteau d'infamie | ганебний стовп | idiom of humiliation |
 | Buon Diou dé Diou | ==Добрий Боже, Боже!== (UNSURE; coined) | Niçois dialect oath (071.0581); Ukrainian in the text, Niçois → footnote |
-| Rossignol (Nice festival) | ==Соловей== / «Росіньйоль» | Nice lantern street-festival — a festival NAME; UNSURE whether to translate (==Соловей==) or keep as a name; footnote either way |
+| Rossignol (Nice festival) | «Соловей» (no ==) | Nice lantern street-festival — a festival NAME → names rule: translated name in quotes, no highlight, *Rossignol* + gloss in the footnote. **Ruling (2026-10-03, CON uk 070–072)**, consistent with the *Rossignol che vola* nickname/prize ruling (CON uk 046–048, 052–054); applied 071/1877-06-03 (only occurrence of the fête in uk visible text). |
 | Directoire (style) | у стилі Директорії | 1795–99 neoclassical fashion; footnote |
 | en bédouin | у бедуїнці | hooded informal robe; footnote |
-| water-closet (pun) | ==вбиральня== | English; the Closet/Chaussade name-pun is metalinguistic — keep the pun explained in the footnote with the English *water-closet* |
+| water-closet (pun) | ватерклозет (no ==) | English; the Closet/Chaussade name-pun is metalinguistic — the naturalised Ukrainian «ватерклозет» keeps the play on «Клозе» in the text; English *water-closet* + explanation in the footnote. **Ruling (2026-10-03, CON uk 070–072)**, replaces the coined ==вбиральня== (071/1877-06-08, only occurrence). |
 | l'hymen | подружній вінець | poetic "marriage" (071.0566) |
 | sciences naturelles... en pratique | природничі науки... на практиці | ironic sexual euphemism |
 | pendant (portrait) | парний портрет | companion-piece portrait (071.0427/0270) |
