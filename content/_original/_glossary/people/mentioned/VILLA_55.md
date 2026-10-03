@@ -6,30 +6,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
+status: retired
+replaced_by: VILLA_55
 ---
-# Villa 55
 
-**Research Status**: Basic
-**Last Updated**: 2025-07-06
-**Diary Coverage**: Up to 1874-04-25
+%% GLO_VILLA_55.0001 %%
+**Retired.** A place wrongly filed under people/mentioned; moved. Use [#VILLA_55](../../places/villas/VILLA_55.md) (`places/villas/VILLA_55.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Identity
-A villa property owned by the Bashkirtseff family in Nice, serving as a private retreat and social gathering place.
-
-## Diary References
-
-### 1874
-- **April 24**: "Nous étions aussi à 55 avec Mme de Mouzay et le vieux Lefèvre. Que d'avis ! Que de débats !" (We were also at 55 with Mme de Mouzay and old Lefèvre. What opinions! What debates!)
-- **April 25**: Dismantles terrace wall with mother, Dina and Walitsky. Goes there almost daily. Marie feels ownership: "cette terre est à moi, ces arbres, cette maison tout est à moi et je suis à mon aise" (this land is mine, these trees, this house, everything is mine and I am at ease)
-
-## Context
-- Meeting place for expatriate society
-- Site of debates and discussions
-- Numbered villa system typical of Nice
-- Social gathering location
-
-## Research Notes
-- Nice villa numbering system
-- Expatriate social venues 1870s
-- Russian colony gathering places
+%% GLO_VILLA_55.0002 %%
+%% 2026-10-02T14:00:00 RSR: Retired in the 2026 tag audit glossary cleanup. replaced_by: places/villas/VILLA_55.md. %%

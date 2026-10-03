@@ -7,21 +7,13 @@ aliases:
 type: Person
 category: people/mentioned
 research_status: Basic
-last_updated: 2026-03-06
+last_updated: 2026-10-02
+status: retired
+replaced_by: SAN_CARLO
 ---
-# Saint Charles
 
-## Basic Information
-- Type: people - mentioned
-- Status: Stub entry (automatically generated)
+%% GLO_SAINT_CHARLES.0001 %%
+**Retired.** 'Saint-Charles' (069/1877-03-31) is the San Carlo opera house of Naples, a place. Use [#SAN_CARLO](../../places/theaters/SAN_CARLO.md) (`places/theaters/SAN_CARLO.md`) instead. Existing tags are retargeted by the tag audit; this file will be deleted when no tag points here.
 
-## Description
-[No description available - stub entry created from diary references]
-
-## References in Diary
-[Multiple references found - needs research]
-
-## Research Notes
-- Created: 2026-01-06
-- Auto-generated stub from broken link detection
-- Needs proper research and content
+%% GLO_SAINT_CHARLES.0002 %%
+%% 2026-10-02T14:30:00 RSR: Retired in the 2026 tag audit glossary cleanup. replaced_by: places/theaters/SAN_CARLO.md. %%
